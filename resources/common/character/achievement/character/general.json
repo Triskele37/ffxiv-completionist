@@ -1,0 +1,1256 @@
+{
+    "key": "general",
+    "tasks": {
+        "2923": {
+            "id": 2923,
+            "points": 20,
+            "patch": "6.0"
+        },
+        "2924": {
+            "id": 2924,
+            "points": 20,
+            "patch": "6.0"
+        },
+        "2925": {
+            "id": 2925,
+            "points": 30,
+            "patch": "6.0"
+        },
+        "2926": {
+            "id": 2926,
+            "points": 20,
+            "patch": "6.0"
+        },
+        "2927": {
+            "id": 2927,
+            "points": 20,
+            "patch": "6.0"
+        },
+        "2972": {
+            "id": 2972,
+            "points": 20,
+            "patch": "6.0"
+        },
+        "3003": {
+            "id": 3003,
+            "points": 5,
+            "patch": "6.0"
+        },
+        "3004": {
+            "id": 3004,
+            "points": 5,
+            "patch": "6.0"
+        },
+        "3005": {
+            "id": 3005,
+            "points": 5,
+            "patch": "6.0"
+        },
+        "3006": {
+            "id": 3006,
+            "points": 5,
+            "patch": "6.0"
+        },
+        "3007": {
+            "id": 3007,
+            "points": 5,
+            "patch": "6.0"
+        },
+        "3008": {
+            "id": 3008,
+            "points": 5,
+            "patch": "6.0"
+        },
+        "3009": {
+            "id": 3009,
+            "points": 10,
+            "patch": "6.0"
+        },
+        "x44": {
+            "points": 20,
+            "patch": "2.0",
+            "cCombo": [
+                56
+            ],
+            "cSiblings": [
+                "t.13"
+            ],
+            "cPrevAt": {
+                "50": [
+                    "job.0",
+                    "job.1",
+                    "job.7",
+                    "job.8",
+                    "job.11"
+                ]
+            }
+        },
+        "x55": {
+            "points": 20,
+            "patch": "2.0",
+            "cCombo": [
+                56
+            ],
+            "cSiblings": [
+                "t.14"
+            ],
+            "cPrevAt": {
+                "50": [
+                    "job.4",
+                    "job.5",
+                    "job.14",
+                    "job.15"
+                ]
+            }
+        },
+        "x56": {
+            "points": 30,
+            "patch": "2.0",
+            "cPrev": [
+                44,
+                55
+            ],
+            "cCombo": [
+                1190
+            ]
+        },
+        "x1188": {
+            "points": 20,
+            "patch": "3.0",
+            "cCombo": [
+                1190
+            ],
+            "cSiblings": [
+                "t.239"
+            ],
+            "cPrevAt": {
+                "60": [
+                    "job.0",
+                    "job.1",
+                    "job.7",
+                    "job.8",
+                    "job.11",
+                    "job.9",
+                    "job.2",
+                    "job.12"
+                ]
+            }
+        },
+        "x1189": {
+            "points": 20,
+            "patch": "3.0",
+            "cCombo": [
+                1190
+            ],
+            "cSiblings": [
+                "t.240"
+            ],
+            "cPrevAt": {
+                "60": [
+                    "job.4",
+                    "job.5",
+                    "job.14",
+                    "job.15",
+                    "job.6"
+                ]
+            }
+        },
+        "x1190": {
+            "points": 30,
+            "patch": "3.0",
+            "cPrev": [
+                56,
+                1188,
+                1189
+            ],
+            "cCombo": [
+                1834
+            ]
+        },
+        "x1832": {
+            "points": 20,
+            "patch": "4.0",
+            "cCombo": [
+                1834
+            ],
+            "cSiblings": [
+                "t.375"
+            ],
+            "cPrevAt": {
+                "70": [
+                    "job.0",
+                    "job.1",
+                    "job.7",
+                    "job.8",
+                    "job.11",
+                    "job.9",
+                    "job.2",
+                    "job.12",
+                    "job.10"
+                ]
+            }
+        },
+        "x1833": {
+            "points": 20,
+            "patch": "4.0",
+            "cCombo": [
+                1834
+            ],
+            "cSiblings": [
+                "t.376"
+            ],
+            "cPrevAt": {
+                "70": [
+                    "job.4",
+                    "job.5",
+                    "job.14",
+                    "job.15",
+                    "job.6",
+                    "job.16"
+                ]
+            }
+        },
+        "x1834": {
+            "points": 30,
+            "patch": "4.0",
+            "cPrev": [
+                1190,
+                1832,
+                1833
+            ],
+            "cCombo": [
+                2277
+            ]
+        },
+        "x2275": {
+            "points": 20,
+            "patch": "5.0",
+            "cCombo": [
+                2277
+            ],
+            "cSiblings": [
+                "t.422"
+            ],
+            "cPrevAt": {
+                "80": [
+                    "job.0",
+                    "job.1",
+                    "job.7",
+                    "job.8",
+                    "job.11",
+                    "job.9",
+                    "job.2",
+                    "job.12",
+                    "job.10",
+                    "job.3",
+                    "job.13"
+                ]
+            }
+        },
+        "x2276": {
+            "points": 20,
+            "patch": "5.0",
+            "cCombo": [
+                2277
+            ],
+            "cSiblings": [
+                "t.423"
+            ],
+            "cPrevAt": {
+                "80": [
+                    "job.4",
+                    "job.5",
+                    "job.14",
+                    "job.15",
+                    "job.6",
+                    "job.16"
+                ]
+            }
+        },
+        "x2277": {
+            "points": 30,
+            "patch": "5.0",
+            "cPrev": [
+                1834,
+                2275,
+                2276
+            ]
+        },
+        "x97": {
+            "points": 20,
+            "patch": "2.0",
+            "cSiblings": [
+                "t.15"
+            ],
+            "cPrevAt": {
+                "50": [
+                    "job.18",
+                    "job.19",
+                    "job.20",
+                    "job.21",
+                    "job.22",
+                    "job.23",
+                    "job.24",
+                    "job.25"
+                ]
+            }
+        },
+        "x113": {
+            "points": 20,
+            "patch": "2.0",
+            "cSiblings": [
+                "t.16"
+            ],
+            "cPrevAt": {
+                "50": [
+                    "job.26",
+                    "job.27",
+                    "job.28"
+                ]
+            }
+        },
+        "x1276": {
+            "points": 20,
+            "patch": "3.0",
+            "cSiblings": [
+                "t.248"
+            ],
+            "cPrevAt": {
+                "60": [
+                    "job.18",
+                    "job.19",
+                    "job.20",
+                    "job.21",
+                    "job.22",
+                    "job.23",
+                    "job.24",
+                    "job.25"
+                ]
+            }
+        },
+        "x1277": {
+            "points": 20,
+            "patch": "3.0",
+            "cSiblings": [
+                "t.249"
+            ],
+            "cPrevAt": {
+                "60": [
+                    "job.26",
+                    "job.27",
+                    "job.28"
+                ]
+            }
+        },
+        "x1846": {
+            "points": 20,
+            "patch": "4.0",
+            "cSiblings": [
+                "t.377"
+            ],
+            "cPrevAt": {
+                "70": [
+                    "job.18",
+                    "job.19",
+                    "job.20",
+                    "job.21",
+                    "job.22",
+                    "job.23",
+                    "job.24",
+                    "job.25"
+                ]
+            }
+        },
+        "x1847": {
+            "points": 20,
+            "patch": "4.0",
+            "cSiblings": [
+                "t.378"
+            ],
+            "cPrevAt": {
+                "70": [
+                    "job.26",
+                    "job.27",
+                    "job.28"
+                ]
+            }
+        },
+        "x2278": {
+            "points": 20,
+            "patch": "5.0",
+            "cSiblings": [
+                "t.424"
+            ],
+            "cPrevAt": {
+                "80": [
+                    "job.18",
+                    "job.19",
+                    "job.20",
+                    "job.21",
+                    "job.22",
+                    "job.23",
+                    "job.24",
+                    "job.25"
+                ]
+            }
+        },
+        "x2279": {
+            "points": 20,
+            "patch": "5.0",
+            "cSiblings": [
+                "t.425"
+            ],
+            "cPrevAt": {
+                "80": [
+                    "job.26",
+                    "job.27",
+                    "job.28"
+                ]
+            }
+        },
+        "x912": {
+            "points": 5,
+            "patch": "2.2",
+            "cNext": [
+                913
+            ]
+        },
+        "x913": {
+            "points": 5,
+            "patch": "2.2",
+            "cPrev": [
+                912
+            ],
+            "cNext": [
+                914
+            ]
+        },
+        "x914": {
+            "points": 10,
+            "patch": "2.2",
+            "cPrev": [
+                913
+            ],
+            "cNext": [
+                915
+            ]
+        },
+        "x915": {
+            "points": 20,
+            "patch": "2.2",
+            "cPrev": [
+                914
+            ]
+        },
+        "x1020": {
+            "points": 5,
+            "patch": "2.3"
+        },
+        "x1157": {
+            "points": 5,
+            "patch": "3.0",
+            "cCombo": [
+                1163
+            ],
+            "cPrev": [
+                "travel.aether-currents.hw.coerthas-western-highlands.all"
+            ]
+        },
+        "x1158": {
+            "points": 5,
+            "patch": "3.0",
+            "cCombo": [
+                1163
+            ],
+            "cPrev": [
+                "travel.aether-currents.hw.the-dravanian-forelands.all"
+            ]
+        },
+        "x1159": {
+            "points": 5,
+            "patch": "3.0",
+            "cCombo": [
+                1163
+            ],
+            "cPrev": [
+                "travel.aether-currents.hw.the-dravanian-hinterlands.all"
+            ]
+        },
+        "x1160": {
+            "points": 5,
+            "patch": "3.0",
+            "cCombo": [
+                1163
+            ],
+            "cPrev": [
+                "travel.aether-currents.hw.the-churning-mists.all"
+            ]
+        },
+        "x1161": {
+            "points": 5,
+            "patch": "3.0",
+            "cCombo": [
+                1163
+            ],
+            "cPrev": [
+                "travel.aether-currents.hw.the-sea-of-clouds.all"
+            ]
+        },
+        "x1162": {
+            "points": 5,
+            "patch": "3.0",
+            "cCombo": [
+                1163
+            ],
+            "cPrev": [
+                "travel.aether-currents.hw.azys-lla.all"
+            ]
+        },
+        "x1163": {
+            "points": 10,
+            "patch": "3.0",
+            "cPrev": [
+                1157,
+                1158,
+                1159,
+                1160,
+                1161,
+                1162
+            ]
+        },
+        "x1870": {
+            "points": 5,
+            "patch": "4.0",
+            "cCombo": [
+                1876
+            ],
+            "cPrev": [
+                "travel.aether-currents.sb.the-fringes.all"
+            ]
+        },
+        "x1871": {
+            "points": 5,
+            "patch": "4.0",
+            "cCombo": [
+                1876
+            ],
+            "cPrev": [
+                "travel.aether-currents.sb.the-peaks.all"
+            ]
+        },
+        "x1872": {
+            "points": 5,
+            "patch": "4.0",
+            "cCombo": [
+                1876
+            ],
+            "cPrev": [
+                "travel.aether-currents.sb.the-lochs.all"
+            ]
+        },
+        "x1873": {
+            "points": 5,
+            "patch": "4.0",
+            "cCombo": [
+                1876
+            ],
+            "cPrev": [
+                "travel.aether-currents.sb.the-ruby-sea.all"
+            ]
+        },
+        "x1874": {
+            "points": 5,
+            "patch": "4.0",
+            "cCombo": [
+                1876
+            ],
+            "cPrev": [
+                "travel.aether-currents.sb.yanxia.all"
+            ]
+        },
+        "x1875": {
+            "points": 5,
+            "patch": "4.0",
+            "cCombo": [
+                1876
+            ],
+            "cPrev": [
+                "travel.aether-currents.sb.the-azim-steppe.all"
+            ]
+        },
+        "x1876": {
+            "points": 10,
+            "patch": "4.0",
+            "cPrev": [
+                1870,
+                1871,
+                1872,
+                1873,
+                1874,
+                1875
+            ]
+        },
+        "x2329": {
+            "points": 5,
+            "patch": "5.0",
+            "cCombo": [
+                2335
+            ],
+            "cPrev": [
+                "travel.aether-currents.shb.lakeland.all"
+            ]
+        },
+        "x2330": {
+            "points": 5,
+            "patch": "5.0",
+            "cCombo": [
+                2335
+            ],
+            "cPrev": [
+                "travel.aether-currents.shb.kholusia.all"
+            ]
+        },
+        "x2331": {
+            "points": 5,
+            "patch": "5.0",
+            "cCombo": [
+                2335
+            ],
+            "cPrev": [
+                "travel.aether-currents.shb.amh-araeng.all"
+            ]
+        },
+        "x2332": {
+            "points": 5,
+            "patch": "5.0",
+            "cCombo": [
+                2335
+            ],
+            "cPrev": [
+                "travel.aether-currents.shb.il-mheg.all"
+            ]
+        },
+        "x2333": {
+            "points": 5,
+            "patch": "5.0",
+            "cCombo": [
+                2335
+            ],
+            "cPrev": [
+                "travel.aether-currents.shb.the-raktika-greatwood.all"
+            ]
+        },
+        "x2334": {
+            "points": 5,
+            "patch": "5.0",
+            "cCombo": [
+                2335
+            ],
+            "cPrev": [
+                "travel.aether-currents.shb.the-tempest.all"
+            ]
+        },
+        "x2335": {
+            "points": 10,
+            "patch": "5.0",
+            "cPrev": [
+                2329,
+                2330,
+                2331,
+                2332,
+                2333,
+                2334
+            ]
+        },
+        "x1472": {
+            "points": 5,
+            "patch": "3.15",
+            "cNext": [
+                1473
+            ]
+        },
+        "x1473": {
+            "points": 5,
+            "patch": "3.15",
+            "cPrev": [
+                1472
+            ],
+            "cNext": [
+                1474
+            ],
+            "cSiblings": [
+                "t.286"
+            ]
+        },
+        "x1474": {
+            "points": 5,
+            "patch": "3.15",
+            "cPrev": [
+                1473
+            ],
+            "cNext": [
+                1475
+            ]
+        },
+        "x1475": {
+            "points": 5,
+            "patch": "3.15",
+            "cPrev": [
+                1474
+            ],
+            "cNext": [
+                1603
+            ],
+            "cSiblings": [
+                "t.287"
+            ]
+        },
+        "x1603": {
+            "points": 10,
+            "patch": "3.3",
+            "cPrev": [
+                1475
+            ],
+            "cNext": [
+                1604
+            ]
+        },
+        "x1604": {
+            "points": 20,
+            "patch": "3.3",
+            "cPrev": [
+                1603
+            ]
+        },
+        "x1648": {
+            "points": 5,
+            "patch": "3.4",
+            "cNext": [
+                1649
+            ]
+        },
+        "x1649": {
+            "points": 5,
+            "patch": "3.4",
+            "cPrev": [
+                1648
+            ],
+            "cNext": [
+                1650
+            ],
+            "cSiblings": [
+                "t.317"
+            ]
+        },
+        "x1650": {
+            "points": 5,
+            "patch": "3.4",
+            "cPrev": [
+                1649
+            ],
+            "cNext": [
+                1651
+            ]
+        },
+        "x1651": {
+            "points": 5,
+            "patch": "3.4",
+            "cPrev": [
+                1650
+            ],
+            "cNext": [
+                1652
+            ]
+        },
+        "x1652": {
+            "points": 5,
+            "patch": "3.4",
+            "cPrev": [
+                1651
+            ],
+            "cNext": [
+                1653
+            ]
+        },
+        "x1653": {
+            "points": 5,
+            "patch": "3.4",
+            "cPrev": [
+                1652
+            ],
+            "cNext": [
+                1654
+            ]
+        },
+        "x1654": {
+            "points": 10,
+            "patch": "3.4",
+            "cPrev": [
+                1653
+            ],
+            "cSiblings": [
+                "t.318"
+            ]
+        },
+        "x2634": {
+            "points": 5,
+            "patch": "5.3",
+            "cNext": [
+                2635
+            ]
+        },
+        "x2635": {
+            "points": 5,
+            "patch": "5.3",
+            "cPrev": [
+                2634
+            ],
+            "cNext": [
+                2636
+            ],
+            "cSiblings": [
+                "t.524"
+            ]
+        },
+        "x2636": {
+            "points": 5,
+            "patch": "5.3",
+            "cPrev": [
+                2635
+            ],
+            "cNext": [
+                2637
+            ]
+        },
+        "x2637": {
+            "points": 10,
+            "patch": "5.3",
+            "cPrev": [
+                2636
+            ],
+            "cSiblings": [
+                "t.525"
+            ]
+        },
+        "x1774": {
+            "points": 5,
+            "patch": "3.55b",
+            "cNext": [
+                1775
+            ]
+        },
+        "x1775": {
+            "points": 5,
+            "patch": "3.55b",
+            "cPrev": [
+                1774
+            ],
+            "cNext": [
+                1776
+            ]
+        },
+        "x1776": {
+            "points": 5,
+            "patch": "3.55b",
+            "cPrev": [
+                1775
+            ],
+            "cNext": [
+                1777
+            ]
+        },
+        "x1777": {
+            "points": 5,
+            "patch": "3.55b",
+            "cPrev": [
+                1776
+            ],
+            "cNext": [
+                1778
+            ]
+        },
+        "x1778": {
+            "points": 10,
+            "patch": "3.55b",
+            "cPrev": [
+                1777
+            ],
+            "cSiblings": [
+                "t.349"
+            ]
+        },
+        "x1969": {
+            "points": 5,
+            "patch": "4.1",
+            "cNext": [
+                1970
+            ]
+        },
+        "x1970": {
+            "points": 5,
+            "patch": "4.1",
+            "cPrev": [
+                1969
+            ],
+            "cNext": [
+                1971
+            ]
+        },
+        "x1971": {
+            "points": 5,
+            "patch": "4.1",
+            "cPrev": [
+                1970
+            ],
+            "cNext": [
+                1972
+            ]
+        },
+        "x1972": {
+            "points": 5,
+            "patch": "4.1",
+            "cPrev": [
+                1971
+            ],
+            "cNext": [
+                1973
+            ]
+        },
+        "x1973": {
+            "points": 10,
+            "patch": "4.1",
+            "cPrev": [
+                1972
+            ],
+            "cSiblings": [
+                "t.118"
+            ]
+        },
+        "x2067": {
+            "points": 5,
+            "patch": "4.3",
+            "cNext": [
+                2068
+            ]
+        },
+        "x2068": {
+            "points": 5,
+            "patch": "4.3",
+            "cPrev": [
+                2067
+            ],
+            "cNext": [
+                2069
+            ]
+        },
+        "x2069": {
+            "points": 5,
+            "patch": "4.3",
+            "cPrev": [
+                2068
+            ],
+            "cNext": [
+                2070
+            ]
+        },
+        "x2070": {
+            "points": 5,
+            "patch": "4.3",
+            "cPrev": [
+                2069
+            ],
+            "cNext": [
+                2071
+            ]
+        },
+        "x2071": {
+            "points": 10,
+            "patch": "4.3",
+            "cPrev": [
+                2070
+            ],
+            "cSiblings": [
+                "t.390"
+            ]
+        },
+        "x2183": {
+            "points": 5,
+            "patch": "4.5",
+            "cNext": [
+                2184
+            ]
+        },
+        "x2184": {
+            "points": 5,
+            "patch": "4.5",
+            "cPrev": [
+                2183
+            ],
+            "cNext": [
+                2185
+            ]
+        },
+        "x2185": {
+            "points": 5,
+            "patch": "4.5",
+            "cPrev": [
+                2184
+            ],
+            "cNext": [
+                2186
+            ]
+        },
+        "x2186": {
+            "points": 5,
+            "patch": "4.5",
+            "cPrev": [
+                2185
+            ],
+            "cNext": [
+                2187
+            ]
+        },
+        "x2187": {
+            "points": 10,
+            "patch": "4.5",
+            "cPrev": [
+                2186
+            ],
+            "cSiblings": [
+                "t.411"
+            ]
+        },
+        "x2425": {
+            "points": 5,
+            "patch": "5.1",
+            "cNext": [
+                2426
+            ]
+        },
+        "x2426": {
+            "points": 5,
+            "patch": "5.1",
+            "cPrev": [
+                2425
+            ],
+            "cNext": [
+                2427
+            ]
+        },
+        "x2427": {
+            "points": 5,
+            "patch": "5.1",
+            "cPrev": [
+                2426
+            ],
+            "cNext": [
+                2428
+            ]
+        },
+        "x2428": {
+            "points": 5,
+            "patch": "5.1",
+            "cPrev": [
+                2427
+            ],
+            "cNext": [
+                2429
+            ]
+        },
+        "x2429": {
+            "points": 10,
+            "patch": "5.1",
+            "cPrev": [
+                2428
+            ],
+            "cSiblings": [
+                "t.477"
+            ]
+        },
+        "x2623": {
+            "points": 5,
+            "patch": "5.3",
+            "cNext": [
+                2624
+            ]
+        },
+        "x2624": {
+            "points": 5,
+            "patch": "5.3",
+            "cPrev": [
+                2623
+            ],
+            "cNext": [
+                2625
+            ]
+        },
+        "x2625": {
+            "points": 5,
+            "patch": "5.3",
+            "cPrev": [
+                2624
+            ],
+            "cNext": [
+                2626
+            ]
+        },
+        "x2626": {
+            "points": 5,
+            "patch": "5.3",
+            "cPrev": [
+                2625
+            ],
+            "cNext": [
+                2627
+            ]
+        },
+        "x2627": {
+            "points": 10,
+            "patch": "5.3",
+            "cPrev": [
+                2626
+            ],
+            "cSiblings": [
+                "t.522"
+            ]
+        },
+        "x2835": {
+            "points": 5,
+            "patch": "5.5",
+            "cNext": [
+                2836
+            ]
+        },
+        "x2836": {
+            "points": 5,
+            "patch": "5.5",
+            "cPrev": [
+                2835
+            ],
+            "cNext": [
+                2837
+            ]
+        },
+        "x2837": {
+            "points": 5,
+            "patch": "5.5",
+            "cPrev": [
+                2836
+            ],
+            "cNext": [
+                2838
+            ]
+        },
+        "x2838": {
+            "points": 5,
+            "patch": "5.5",
+            "cPrev": [
+                2837
+            ],
+            "cNext": [
+                2839
+            ]
+        },
+        "x2839": {
+            "points": 10,
+            "patch": "5.5",
+            "cPrev": [
+                2838
+            ],
+            "cSiblings": [
+                "t.581"
+            ]
+        },
+        "x2001": {
+            "points": 5,
+            "patch": "4.2",
+            "cNext": [
+                2002
+            ]
+        },
+        "x2002": {
+            "points": 5,
+            "patch": "4.2",
+            "cPrev": [
+                2001
+            ],
+            "cNext": [
+                2003
+            ]
+        },
+        "x2003": {
+            "points": 10,
+            "patch": "4.2",
+            "cPrev": [
+                2002
+            ],
+            "cSiblings": [
+                "t.141"
+            ]
+        },
+        "x2080": {
+            "points": 5,
+            "patch": "4.3",
+            "cNext": [
+                2081
+            ]
+        },
+        "x2081": {
+            "points": 10,
+            "patch": "4.3",
+            "cPrev": [
+                2080
+            ],
+            "cNext": [
+                2129
+            ]
+        },
+        "x2129": {
+            "points": 10,
+            "patch": "4.4",
+            "cPrev": [
+                2081
+            ],
+            "cNext": [
+                2130
+            ]
+        },
+        "x2130": {
+            "points": 10,
+            "patch": "4.4",
+            "cPrev": [
+                2129
+            ],
+            "cNext": [
+                2131
+            ]
+        },
+        "x2131": {
+            "points": 20,
+            "patch": "4.4",
+            "cPrev": [
+                2130
+            ],
+            "cSiblings": [
+                "t.403"
+            ]
+        },
+        "x2336": {
+            "points": 20,
+            "patch": "5.0",
+            "cSiblings": [
+                "t.458"
+            ],
+            "cPrevAt": {
+                "80": [
+                    "duty.trust.0",
+                    "duty.trust.1",
+                    "duty.trust.2",
+                    "duty.trust.3",
+                    "duty.trust.4",
+                    "duty.trust.5"
+                ]
+            }
+        }
+    }
+}

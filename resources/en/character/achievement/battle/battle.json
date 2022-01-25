@@ -1,0 +1,669 @@
+{
+    "groupName": "Battle",
+    "tasks": {
+        "2990": {
+            "id": 2990,
+            "name": "Tank You, Paladin V",
+            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
+            "reward": "Of Unbreakable Oath"
+        },
+        "2991": {
+            "id": 2991,
+            "name": "Tank You, Warrior V",
+            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
+            "reward": "Of Unbreakable Steel"
+        },
+        "2992": {
+            "id": 2992,
+            "name": "Tank You, Dark Knight V",
+            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
+            "reward": "Of Unbreakable Principle"
+        },
+        "2993": {
+            "id": 2993,
+            "name": "Tank You, Gunbreaker V",
+            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
+            "reward": "Of Unbreakable Lealty"
+        },
+        "3022": {
+            "id": 3022,
+            "name": "Free Market Friend: Labyrinthos",
+            "description": "Achieve shared FATE rank 3 in Labyrinthos."
+        },
+        "3023": {
+            "id": 3023,
+            "name": "Free Market Friend: Thavnair",
+            "description": "Achieve shared FATE rank 3 in Thavnair."
+        },
+        "3024": {
+            "id": 3024,
+            "name": "Free Market Friend: Garlemald",
+            "description": "Achieve shared FATE rank 3 in Garlemald."
+        },
+        "3025": {
+            "id": 3025,
+            "name": "Free Market Friend: Mare Lamentorum",
+            "description": "Achieve shared FATE rank 3 in Mare Lamentorum."
+        },
+        "3026": {
+            "id": 3026,
+            "name": "Free Market Friend: Elpis",
+            "description": "Achieve shared FATE rank 3 in Elpis."
+        },
+        "3027": {
+            "id": 3027,
+            "name": "Free Market Friend: Ultima Thule",
+            "description": "Achieve shared FATE rank 3 in Ultima Thule."
+        },
+        "3028": {
+            "id": 3028,
+            "name": "Far Trade",
+            "description": "Obtain “Free Market Friend” achievements for Labyrinthos, Thavnair, Garlemald, Mare Lamentorum, Elpis, and Ultima Thule.",
+            "reward": "Patron of the Fates"
+        },
+        "3029": {
+            "id": 3029,
+            "name": "Don't Go into the Light",
+            "description": "Successfully complete the FATE “Devout Pilgrims vs. Daivadipa” with the highest rating possible."
+        },
+        "3030": {
+            "id": 3030,
+            "name": "Prototypical",
+            "description": "Successfully complete the FATE “Omicron Recall: Killing Order” with the highest rating possible."
+        },
+        "x1": {
+            "description": "Defeat 100 enemies.",
+            "name": "To Crush Your Enemies I"
+        },
+        "x2": {
+            "description": "Defeat 500 enemies.",
+            "name": "To Crush Your Enemies II"
+        },
+        "x3": {
+            "description": "Defeat 1,000 enemies.",
+            "name": "To Crush Your Enemies III"
+        },
+        "x4": {
+            "description": "Defeat 5,000 enemies.",
+            "name": "To Crush Your Enemies IV"
+        },
+        "x5": {
+            "description": "Defeat 10,000 enemies.",
+            "name": "To Crush Your Enemies V"
+        },
+        "x6": {
+            "reward": "The Exterminator",
+            "description": "Defeat 50,000 enemies.",
+            "name": "To Crush Your Enemies VI"
+        },
+        "x7": {
+            "reward": "Butcher's Crown",
+            "description": "Defeat 100,000 enemies.",
+            "name": "Let the Bodies Hit the Floor"
+        },
+        "x1336": {
+            "description": "Defeat 200,000 enemies.",
+            "name": "To Crush Your Enemies VII"
+        },
+        "x728": {
+            "reward": "Master Gladiator's Ring",
+            "description": "Complete all gladiator entries in the hunting log.",
+            "name": "Bump on a Log: Gladiator"
+        },
+        "x729": {
+            "reward": "Master Pugilist's Ring",
+            "description": "Complete all pugilist entries in the hunting log.",
+            "name": "Bump on a Log: Pugilist"
+        },
+        "x730": {
+            "reward": "Master Marauder's Ring",
+            "description": "Complete all marauder entries in the hunting log.",
+            "name": "Bump on a Log: Marauder"
+        },
+        "x731": {
+            "reward": "Master Lancer's Ring",
+            "description": "Complete all lancer entries in the hunting log.",
+            "name": "Bump on a Log: Lancer"
+        },
+        "x732": {
+            "reward": "Master Archer's Ring",
+            "description": "Complete all archer entries in the hunting log.",
+            "name": "Bump on a Log: Archer"
+        },
+        "x1051": {
+            "reward": "Master Rogue's Ring",
+            "description": "Complete all rogue entries in the hunting log.",
+            "name": "Bump on a Log: Rogue"
+        },
+        "x733": {
+            "reward": "Master Conjurer's Ring",
+            "description": "Complete all conjurer entries in the hunting log.",
+            "name": "Bump on a Log: Conjurer"
+        },
+        "x734": {
+            "reward": "Master Thaumaturge's Ring",
+            "description": "Complete all thaumaturge entries in the hunting log.",
+            "name": "Bump on a Log: Thaumaturge"
+        },
+        "x735": {
+            "reward": "Master Arcanist's Ring",
+            "description": "Complete all arcanist entries in the hunting log.",
+            "name": "Bump on a Log: Arcanist"
+        },
+        "x792": {
+            "description": "Successfully complete the FATE “He Taketh It with His Eyes” with the highest rating possible.",
+            "name": "Locking Horns"
+        },
+        "x793": {
+            "description": "Successfully complete the FATE “Steel Reign” with the highest rating possible.",
+            "name": "Uncut"
+        },
+        "x794": {
+            "description": "Successfully complete the FATE “Go, Go, Gorgimera” with the highest rating possible.",
+            "name": "When the Going Gets Tough"
+        },
+        "x795": {
+            "description": "Successfully complete the FATE “The Eyes Have It” with the highest rating possible.",
+            "name": "On the Ropes"
+        },
+        "x796": {
+            "description": "Successfully complete the FATE “It's Not Lupus” with the highest rating possible.",
+            "name": "Full Remission"
+        },
+        "x797": {
+            "description": "Successfully complete the FATE “Lazy for You” with the highest rating possible.",
+            "name": "Lazy Town"
+        },
+        "x798": {
+            "description": "Successfully complete the FATE “Dark Devices - The End” with the highest rating possible.",
+            "name": "Blood, Sweat, and Blood"
+        },
+        "x799": {
+            "description": "Successfully complete either the FATE “Svara's Fall” or “Svara's Fury” with the highest rating possible.",
+            "name": "Ring of Fire"
+        },
+        "x800": {
+            "description": "Successfully complete the FATE “Clearing the Hive,” “Defending the Hive,” or “Keeping the Hive” with the highest rating possible.",
+            "name": "Boughbury Burning"
+        },
+        "x801": {
+            "description": "Successfully complete the FATE “Attack on Highbridge: Act III” with the highest rating possible.",
+            "name": "Curtain Call"
+        },
+        "x802": {
+            "description": "Successfully complete the FATE “Poor Maid's Misfortune” with the highest rating possible.",
+            "name": "Old Maid"
+        },
+        "x1359": {
+            "description": "Successfully complete the FATE “Coeurls Chase Boys Chase Coeurls” with the highest rating possible.",
+            "name": "Short-lived, the Queen"
+        },
+        "x1360": {
+            "description": "Successfully complete the FATE “Vedrfolnir Devoteth” with the highest rating possible.",
+            "name": "A Worthy Adversary"
+        },
+        "x1361": {
+            "description": "Successfully complete the FATE “We Fought a Dzu” with the highest rating possible.",
+            "name": "A Day at the Dzu"
+        },
+        "x1362": {
+            "description": "Successfully complete the FATE “Special Tarasque Force” with the highest rating possible.",
+            "name": "Falling Down"
+        },
+        "x1363": {
+            "description": "Successfully complete the FATE “Metal Gears Revengeance 2” with the highest rating possible.",
+            "name": "Neverlasting Gobstopper"
+        },
+        "x1364": {
+            "description": "Successfully complete the FATE “Darkscale Devoureth” with the highest rating possible.",
+            "name": "Tipping the Scales"
+        },
+        "x1365": {
+            "description": "Successfully complete the FATE “On Dangerous Ground” with the highest rating possible.",
+            "name": "Fantasy Islet"
+        },
+        "x1923": {
+            "description": "Successfully complete the FATE “The Evil Seed” with the highest rating possible.",
+            "name": "Superseed"
+        },
+        "x1924": {
+            "description": "Successfully complete the FATE “Rattle and Humbaba” with the highest rating possible.",
+            "name": "What You're Looking For"
+        },
+        "x1925": {
+            "description": "Successfully complete the FATE “Tall Tale” with the highest rating possible.",
+            "name": "Slay Me a Mountain"
+        },
+        "x1926": {
+            "description": "Successfully complete the FATE “Never Say Daimyo” with the highest rating possible.",
+            "name": "Shucked, Not Stirred"
+        },
+        "x1927": {
+            "description": "Successfully complete the FATE “Curiosity Killed the Catfish” with the highest rating possible.",
+            "name": "Maru Five"
+        },
+        "x1928": {
+            "description": "Successfully complete the FATE “Wham, Bam, Thank You, Mammoth” with the highest rating possible.",
+            "name": "Tusk"
+        },
+        "x1929": {
+            "description": "Successfully complete the FATE “Foxy Lady” with the highest rating possible.",
+            "name": "Naughty Girls Need Love, as Well"
+        },
+        "x1930": {
+            "description": "Successfully complete the FATE “A Horse Outside” with the highest rating possible.",
+            "name": "Ride On"
+        },
+        "x1931": {
+            "description": "Successfully complete the FATE “The Dataqi Chronicles: Dominion” with the highest rating possible.",
+            "name": "Dataq Is Cheap"
+        },
+        "x2337": {
+            "description": "Successfully complete the FATE “Deadly Nightshade” with the highest rating possible.",
+            "name": "Not Today"
+        },
+        "x2338": {
+            "description": "Successfully complete the FATE “The Elderblade” with the highest rating possible.",
+            "name": "Stay Thy Blade"
+        },
+        "x2339": {
+            "description": "Successfully complete the FATE “Fuath to Be Reckoned With” with the highest rating possible.",
+            "name": "Mischief Managed"
+        },
+        "x2340": {
+            "description": "Successfully complete the FATE “Tojil Eclipse” with the highest rating possible.",
+            "name": "Unbowed, Unbent, Unbroken"
+        },
+        "x2341": {
+            "description": "Successfully complete the FATE “A Finale Most Formidable” with the highest rating possible.",
+            "name": "Be Still My (Automatic) Heart"
+        },
+        "x2342": {
+            "description": "Successfully complete the FATE “The Head, the Tail, the Whole Damned Thing” with the highest rating possible.",
+            "name": "Another World, Another Turn"
+        },
+        "x2343": {
+            "description": "Achieve shared FATE rank 3 in Lakeland.",
+            "name": "Free Market Friend: Lakeland"
+        },
+        "x2344": {
+            "description": "Achieve shared FATE rank 3 in Kholusia.",
+            "name": "Free Market Friend: Kholusia"
+        },
+        "x2345": {
+            "description": "Achieve shared FATE rank 3 in Amh Araeng.",
+            "name": "Free Market Friend: Amh Araeng"
+        },
+        "x2346": {
+            "description": "Achieve shared FATE rank 3 in Il Mheg.",
+            "name": "Free Market Friend: Il Mheg"
+        },
+        "x2347": {
+            "description": "Achieve shared FATE rank 3 in the Rak'tika Greatwood.",
+            "name": "Free Market Friend: The Rak'tika Greatwood"
+        },
+        "x2348": {
+            "description": "Achieve shared FATE rank 3 in the Tempest.",
+            "name": "Free Market Friend: The Tempest"
+        },
+        "x2349": {
+            "reward": "The Invisible Hand",
+            "description": "Obtain “Free Market Friend” achievements for all six regions in Norvrandt.",
+            "name": "Merchant's Best Friend"
+        },
+        "x803": {
+            "description": "Successfully complete 10 FATEs.",
+            "name": "Date with Destiny I"
+        },
+        "x804": {
+            "description": "Successfully complete 100 FATEs.",
+            "name": "Date with Destiny II"
+        },
+        "x805": {
+            "description": "Successfully complete 300 FATEs.",
+            "name": "Date with Destiny III"
+        },
+        "x806": {
+            "reward": "Tempter of Fate / Temptress of Fate",
+            "description": "Successfully complete 1,000 FATEs.",
+            "name": "Date with Destiny IV"
+        },
+        "x807": {
+            "reward": "Paragon's Gown",
+            "description": "Successfully complete 3,000 FATEs.",
+            "name": "Destiny's Child"
+        },
+        "x1353": {
+            "description": "Successfully complete 5,000 FATEs.",
+            "name": "Date with Destiny V"
+        },
+        "x1354": {
+            "reward": "The Fortunate",
+            "description": "Successfully complete 10,000 FATEs.",
+            "name": "Date with Destiny VI"
+        },
+        "x808": {
+            "description": "See your companion chocobo to rank 1.",
+            "name": "Bosom Buddies I"
+        },
+        "x809": {
+            "description": "See your companion chocobo to rank 5.",
+            "name": "Bosom Buddies II"
+        },
+        "x810": {
+            "reward": "Chocobo Suit",
+            "description": "See your companion chocobo to rank 10.",
+            "name": "Bosom Buddies III"
+        },
+        "x885": {
+            "description": "Resurrect a player who is not in your party or alliance.",
+            "name": "The Kindness of Strangers I"
+        },
+        "x886": {
+            "description": "Resurrect a player who is not in your party or alliance 20 times.",
+            "name": "The Kindness of Strangers II"
+        },
+        "x1355": {
+            "description": "Resurrect a player who is not in your party or alliance 50 times.",
+            "name": "The Kindness of Strangers III"
+        },
+        "x1356": {
+            "description": "Resurrect a player who is not in your party or alliance 100 times.",
+            "name": "The Kindness of Strangers IV"
+        },
+        "x1357": {
+            "reward": "Good Samaritan",
+            "description": "Resurrect a player who is not in your party or alliance 200 times.",
+            "name": "The Kindness of Strangers V"
+        },
+        "x919": {
+            "reward": "The Meat Shield",
+            "description": "Complete 50 high-level duties as a paladin.",
+            "name": "A Tankless Job I (Paladin)"
+        },
+        "x920": {
+            "reward": "Of the Stalwart Shield",
+            "description": "Complete 100 high-level duties as a paladin.",
+            "name": "A Tankless Job II (Paladin)"
+        },
+        "x921": {
+            "reward": "Warlion Horn",
+            "description": "Complete 200 high-level duties as a paladin.",
+            "name": "But Somebody's Gotta Do It (Paladin)"
+        },
+        "x922": {
+            "reward": "The Meat Axe",
+            "description": "Complete 50 high-level duties as a warrior.",
+            "name": "A Tankless Job I (Warrior)"
+        },
+        "x923": {
+            "reward": "Of the Stalwart Axe",
+            "description": "Complete 100 high-level duties as a warrior.",
+            "name": "A Tankless Job II (Warrior)"
+        },
+        "x924": {
+            "reward": "Warbear Horn",
+            "description": "Complete 200 high-level duties as a warrior.",
+            "name": "But Somebody's Gotta Do It (Warrior)"
+        },
+        "x1193": {
+            "reward": "Dark Driver",
+            "description": "Complete 50 high-level duties as a dark knight.",
+            "name": "A Tankless Job I (Dark Knight)"
+        },
+        "x1194": {
+            "reward": "Of the Stalwart Sword",
+            "description": "Complete 100 high-level duties as a dark knight.",
+            "name": "A Tankless Job II (Dark Knight)"
+        },
+        "x1195": {
+            "reward": "Panther Bell",
+            "description": "Complete 200 high-level duties as a dark knight.",
+            "name": "But Somebody's Gotta Do It (Dark Knight)"
+        },
+        "x1953": {
+            "description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Paladin I"
+        },
+        "x1954": {
+            "description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Paladin II"
+        },
+        "x1955": {
+            "reward": "Battle Lion Horn",
+            "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Paladin III"
+        },
+        "x2387": {
+            "reward": "Of Unyielding Oath",
+            "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Paladin IV"
+        },
+        "x1956": {
+            "description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Warrior I"
+        },
+        "x1957": {
+            "description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Warrior II"
+        },
+        "x1958": {
+            "reward": "Battle Bear Horn",
+            "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Warrior III"
+        },
+        "x2388": {
+            "reward": "Of Unyielding Steel",
+            "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Warrior IV"
+        },
+        "x1959": {
+            "description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Dark Knight I"
+        },
+        "x1960": {
+            "description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Dark Knight II"
+        },
+        "x1961": {
+            "reward": "Battle Panther Bell",
+            "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Dark Knight III"
+        },
+        "x2389": {
+            "reward": "Of Unyielding Principle",
+            "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Dark Knight IV"
+        },
+        "x2390": {
+            "description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Gunbreaker I"
+        },
+        "x2391": {
+            "reward": "War Tiger Horn",
+            "description": "Complete 200 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Gunbreaker II"
+        },
+        "x2392": {
+            "reward": "Battle Tiger Horn",
+            "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Gunbreaker III"
+        },
+        "x2393": {
+            "reward": "Of Unyielding Lealty",
+            "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Gunbreaker IV"
+        },
+        "x2451": {
+            "description": "Complete 5 types of routine mission in the Blue Mage Log.",
+            "name": "Jack of All Trades I"
+        },
+        "x2452": {
+            "description": "Complete 20 types of routine mission in the Blue Mage Log.",
+            "name": "Jack of All Trades II"
+        },
+        "x2453": {
+            "reward": "Blue Luminary",
+            "description": "Complete 50 types of routine mission in the Blue Mage Log.",
+            "name": "Jack of All Trades III"
+        },
+        "x2728": {
+            "reward": "Blue Ranger",
+            "description": "Complete 90 types of routine mission in the Blue Mage Log.",
+            "name": "Jack of All Trades IV",
+            "id": 2728
+        },
+        "x2454": {
+            "description": "Complete the Bowl of Embers (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Inferno"
+        },
+        "x2455": {
+            "description": "Complete the Navel (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Crag"
+        },
+        "x2456": {
+            "description": "Complete the Howling Eye (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Vortex"
+        },
+        "x2457": {
+            "description": "Complete Thornmarch (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the King"
+        },
+        "x2458": {
+            "description": "Complete the Whorleater (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Whorl"
+        },
+        "x2459": {
+            "description": "Complete the Striking Tree (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than Levin"
+        },
+        "x2460": {
+            "description": "Complete the Akh Afah Amphitheatre (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Frost"
+        },
+        "x2461": {
+            "description": "Complete the Binding Coil of Bahamut - Turn 5 with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Dragon"
+        },
+        "x2462": {
+            "description": "Complete the Second Coil of Bahamut - Turn 4 with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Raven"
+        },
+        "x2463": {
+            "description": "Complete the Final Coil of Bahamut - Turn 4 with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Dreadwyrm"
+        },
+        "x2464": {
+            "description": "Complete Thok ast Thok (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Hive"
+        },
+        "x2465": {
+            "description": "Complete the Limitless Blue (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Expanse"
+        },
+        "x2466": {
+            "reward": "Masked of the Round",
+            "description": "Complete the Minstrel's Ballad: Thordan's Reign with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Round"
+        },
+        "x2467": {
+            "description": "Complete Containment Bay S1T7 (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Fiend"
+        },
+        "x2468": {
+            "description": "Complete the Minstrel's Ballad: Nidhogg's Rage with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Horde"
+        },
+        "x2469": {
+            "description": "Complete Containment Bay P1T6 (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Goddess"
+        },
+        "x2470": {
+            "description": "Complete Containment Bay Z1T9 (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Demon"
+        },
+        "x2471": {
+            "description": "Complete Alexander - The Burden of the Father (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Manipulator"
+        },
+        "x2472": {
+            "description": "Complete Alexander - The Burden of the Son (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than Justice"
+        },
+        "x2473": {
+            "description": "Complete Alexander - The Soul of the Creator (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Prime"
+        },
+        "x2474": {
+            "reward": "Unbound Blue",
+            "description": "Obtain the achievements “Mightier than the Dragon,” “Mightier than the Raven,” and “Mightier than the Dreadwyrm.”",
+            "name": "Blue Unchained"
+        },
+        "x2475": {
+            "reward": "Blue Justice",
+            "description": "Obtain the achievements “Mightier than the Manipulator,” “Mightier than Justice,” and “Mightier than the Prime.”",
+            "name": "Masked Conqueror"
+        },
+        "x2476": {
+            "reward": "Morbol Horn",
+            "description": "Obtain the achievements “Blue Unchained” and “Masked Conqueror.”",
+            "name": "True Blue"
+        },
+        "x2729": {
+            "description": "Complete the Pool of Tribute (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Revel",
+            "id": 2729
+        },
+        "x2730": {
+            "description": "Complete Emanation (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than Bliss",
+            "id": 2730
+        },
+        "x2731": {
+            "description": "Complete the Minstrel's Ballad: Shinryu's Domain with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Worm",
+            "id": 2731
+        },
+        "x2732": {
+            "description": "Complete the Minstrel's Ballad: Tsukuyomi's Pain with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Moon",
+            "id": 2732
+        },
+        "x2733": {
+            "description": "Complete the Jade Stoa (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the White",
+            "id": 2733
+        },
+        "x2734": {
+            "description": "Complete Hells' Kier (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Vermilion",
+            "id": 2734
+        },
+        "x2735": {
+            "description": "Complete the Wreath of Snakes (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Azure",
+            "id": 2735
+        },
+        "x2736": {
+            "description": "Complete Deltascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Delta",
+            "id": 2736
+        },
+        "x2737": {
+            "description": "Complete Sigmascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Sigma",
+            "id": 2737
+        },
+        "x2738": {
+            "description": "Complete Alphascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Alpha",
+            "id": 2738
+        },
+        "x2739": {
+            "reward": "The Azure and Omega",
+            "description": "Obtain the achievements “Mightier than the Delta,” “Mightier than the Sigma,” and “Mightier than the Alpha.”",
+            "name": "Omega Blue",
+            "id": 2739
+        }
+    }
+}

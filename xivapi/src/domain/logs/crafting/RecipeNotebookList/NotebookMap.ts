@@ -1,0 +1,68 @@
+export const NotebookMap = [
+    { ids: [0, 40, 80, 120, 160, 200, 240, 280], path: ['level-based', 'level-1-5'] },
+    { ids: [1, 41, 81, 121, 161, 201, 241, 281], path: ['level-based', 'level-6-10'] },
+    { ids: [2, 42, 82, 122, 162, 202, 242, 282], path: ['level-based', 'level-11-15'] },
+    { ids: [3, 43, 83, 123, 163, 203, 243, 283], path: ['level-based', 'level-16-20'] },
+    { ids: [4, 44, 84, 124, 164, 204, 244, 284], path: ['level-based', 'level-21-25'] },
+    { ids: [5, 45, 85, 125, 165, 205, 245, 285], path: ['level-based', 'level-26-30'] },
+    { ids: [6, 46, 86, 126, 166, 206, 246, 286], path: ['level-based', 'level-31-35'] },
+    { ids: [7, 47, 87, 127, 167, 207, 247, 287], path: ['level-based', 'level-36-40'] },
+    { ids: [8, 48, 88, 128, 168, 208, 248, 288], path: ['level-based', 'level-41-45'] },
+    { ids: [9, 49, 89, 129, 169, 209, 249, 289], path: ['level-based', 'level-46-50'] },
+    { ids: [10, 50, 90, 130, 170, 210, 250, 290], path: ['level-based', 'level-51-55'] },
+    { ids: [11, 51, 91, 131, 171, 211, 251, 291], path: ['level-based', 'level-56-60'] },
+    { ids: [12, 52, 92, 132, 172, 212, 252, 292], path: ['level-based', 'level-61-65'] },
+    { ids: [13, 53, 93, 133, 173, 213, 253, 293], path: ['level-based', 'level-66-70'] },
+    { ids: [14, 54, 94, 134, 174, 214, 254, 294], path: ['level-based', 'level-71-75'] },
+    { ids: [15, 55, 95, 135, 175, 215, 255, 295], path: ['level-based', 'level-76-80'] },
+    { ids: [16, 56, 96, 136, 176, 216, 256, 296], path: ['level-based', 'level-81-85'] },
+    { ids: [17, 57, 97, 137, 177, 217, 257, 297], path: ['level-based', 'level-86-90'] },
+    { ids: [1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007], path: ['master-recipes', 'mr-1'] },
+    { ids: [1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015], path: ['master-recipes', 'mr-2'] },
+    { ids: [1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023], path: ['master-recipes', 'mr-3'] },
+    { ids: [1024, 1025, 1026, 1027, 1028, 1029, 1030, 1031], path: ['master-recipes', 'mr-4'] },
+    { ids: [1032, 1033, 1034, 1035, 1036, 1037, 1038, 1039], path: ['master-recipes', 'mr-5'] },
+    { ids: [1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047], path: ['master-recipes', 'mr-6'] },
+    { ids: [1048, 1049, 1050, 1051, 1052, 1053, 1054, 1055], path: ['master-recipes', 'mr-7'] },
+    { ids: [1056, 1057, 1058, 1059, 1060, 1061, 1062, 1063], path: ['master-recipes', 'mr-8'] },
+    { ids: [1064, 1065, 1066, 1067, 1068, 1069, 1070, 1071], path: ['master-recipes', 'other'] },
+    { ids: [1072, 1073, 1074, 1075, 1076, 1077, 1078, 1079], path: ['housing', 'housing-1'] }, //TODO: deprecated?
+    { ids: [1080, 1081, 1082, 1083, 1084, 1085, 1086, 1087], path: ['housing', 'housing-2'] }, //TODO: deprecated?
+    { ids: [1088, 1089, 1090, 1091, 1092, 1093, 1094, 1095], path: ['dyes'] },
+    // { ids: [1096, 1097, 1098, 1099, 1100, 1101, 1102, 1103], path: [] }, // Removed from game
+    { ids: [1104, 1105, 1106, 1107, 1108, 1109, 1110, 1111], path: ['story', 'class-quests'] },
+    // 1112-1119: Metal Gauntlets, 1120-1127: Canvas Repair Materials, 1128-1135: Edible Antidote
+    { ids: [1120, 1113, 1114, 1115, 1124, 1125, 1134, 1135], path: ['story', 'crystarium-deliveries'] },
+    { ids: [1136, 1137, 1138, 1139, 1140, 1141, 1142, 1143], path: ['beast-tribe-quests', 'ixal-quests'] },
+    { ids: [1144, 1145, 1146, 1147, 1148, 1149, 1150, 1151], path: ['beast-tribe-quests', 'moogle-quests'] },
+    { ids: [1152, 1153, 1154, 1155, 1156, 1157, 1158, 1159], path: ['beast-tribe-quests', 'namazu-quests'] },
+    { ids: [1160, 1161, 1162, 1163, 1164, 1165, 1166, 1167], path: ['custom-deliveries', 'zhloe-aliapoh'] },
+    { ids: [1168, 1169, 1170, 1171, 1172, 1173, 1174, 1175], path: ['custom-deliveries', 'm-naago'] },
+    { ids: [1176, 1177, 1178, 1179, 1180, 1181, 1182, 1183], path: ['custom-deliveries', 'kurenai'] },
+    { ids: [1184, 1185, 1186, 1187, 1188, 1189, 1190, 1191], path: ['custom-deliveries', 'adkiragh'] },
+    { ids: [1192, 1193, 1194, 1195, 1196, 1197, 1198, 1199], path: ['custom-deliveries', 'kai-shirr'] },
+    { ids: [1200, 1201, 1202, 1203, 1204, 1205, 1206, 1207], path: ['ishgard-restoration', 'restoration-1'] },
+    { ids: [1208, 1209, 1210, 1211, 1212, 1213, 1214, 1215], path: ['ishgard-restoration', 'restoration-other'] },
+    { ids: [1216, 1217, 1218, 1219, 1220, 1221, 1222, 1223], path: ['ishgard-restoration', 'restoration-2'] },
+    { ids: [1224, 1225, 1226, 1227, 1228, 1229, 1230, 1231], path: ['ishgard-restoration', 'skysteel-tools'] },
+    { ids: [1232, 1233, 1234, 1235, 1236, 1237, 1238, 1239], path: ['beast-tribe-quests', 'dwarf-quests'] },
+    { ids: [1240, 1241, 1242, 1243, 1244, 1245, 1246, 1247], path: ['custom-deliveries', 'ehll-tou'] },
+    { ids: [1248, 1249, 1250, 1251, 1252, 1253, 1254, 1255], path: ['ishgard-restoration', 'restoration-3'] },
+    { ids: [1256, 1257, 1258, 1259, 1260, 1261, 1262, 1263], path: ['collectables', '50-60'] },
+    { ids: [1264, 1265, 1266, 1267, 1268, 1269, 1270, 1271], path: ['collectables', '61-70'] },
+    { ids: [1272, 1273, 1274, 1275, 1276, 1277, 1278, 1279], path: ['collectables', '71-80'] },
+    { ids: [null, null, null, null, null, null, 1286, null], path: ['ornaments'] },
+    { ids: [1288, 1289, 1290, 1291, 1292, 1293, 1294, 1295], path: ['ishgard-restoration', 'restoration-4'] },
+    { ids: [1296, 1297, 1298, 1299, 1300, 1301, 1302, 1303], path: ['custom-deliveries', 'charlemend'] },
+    { ids: [1304, 1305, 1306, 1307, 1308, 1309, 1310, 1311], path: ['master-recipes', 'mr-9'] },
+    { ids: [1312, 1313, 1314, 1315, 1316, 1317, 1318, 1319], path: ['collectables', '81-90'] },
+    // 3 separate sets of 8 are contained in the studium
+    { ids: [1328, 1321, 1322, 1323, 1332, 1333, 1342, 1343], path: ['story', 'studium'] },
+    { ids: [1344, 1345, 1346, 1347, 1348, 1349, 1350, null], path: [] }, //TODO: housing
+    { ids: [1352, 1353, 1354, 1355, 1356, 1357, 1358, 1359], path: [] }, //TODO: housing
+    { ids: [1360, 1361, 1362, 1363, 1364, 1365, 1366, 1367], path: [] }, //TODO: housing
+    { ids: [1368, 1369, 1370, 1371, 1372, 1373, 1374, null], path: [] }, //TODO: housing
+    { ids: [1376, 1377, 1378, 1379, 1380, 1381, 1382, 1383], path: [] }, //TODO: housing
+    { ids: [1384, 1385, 1386, 1387, 1388, 1389, 1390, null], path: [] }, //TODO: housing
+    { ids: [null, null, null, null, null, null, 1398, null], path: ['wheels'] },
+];

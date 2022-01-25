@@ -41,7 +41,7 @@ export class Task {
     //#region--------------------------------- Chain Props
     cPrev?: Links; // Tasks that must be completed if this one is
     cPrevAt?: AtLinks; // cPrev for numeric completion tasks
-    cPrevAny?: Links; // Tasks that, if any are completed, complete this one
+    cPrevAny?: boolean; // If cPrev should be treated as any or all complete
 
     cNext?: Links; // Tasks that cannot be completed without this one
 
@@ -249,8 +249,7 @@ export class Task {
 
     private hasChainProps(): boolean {
         return (
-            this.cPrev ?? this.cPrevAt ?? this.cPrevAny ??
-            this.cNext ??
+            this.cPrev ?? this.cPrevAt ?? this.cNext ??
             this.cSiblings ?? this.cSiblingsAt ??
             this.cCombo ?? this.cComboAt ??
             this.cExclude ?? this.cExclusive ?? false

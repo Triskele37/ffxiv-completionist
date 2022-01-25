@@ -28,6 +28,7 @@ chain dungeons to quests requiring them
 - Mac Support
 fr shb trials has duplicate headers
 bug with quick-mark (use emotes, X > N, N > Y, undo. chaining marks 3 as still completed)
+- Remove old PLD trial weapon recipes
 
 ----- Check
 Double check Amalj'aa "The Gland That Feeds You" is Recognized (46)
@@ -40,6 +41,10 @@ Lend Me Your Ears Already (removed quest, did the app keep legacy quests?)
 White Oak Branch moved from logging 70 to logging 75 log
 Triple Triad Opponents layout is jacked
 guildhest missing ilvl
+may have excluded the wrong Way of the Arcanist?
+double check known diffs for quests (lots of weirdness with class/job)
+dafuq is going on with q69620
+verify cache deletes when told
 
 ------------------------------------------------------------------ Upcoming ToDo
 **Add**

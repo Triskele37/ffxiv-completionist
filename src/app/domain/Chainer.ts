@@ -30,7 +30,7 @@ export class Chainer {
         // }
 
         // Chain parent tasks if this one was completed
-        if(this.task.cPrev && this.flag === Completion.Y) {
+        if(this.task.cPrev && this.flag === Completion.Y && !this.task.cPrevAny) {
             this.applyChainedFlag(this.task.cPrev);
         }
 
@@ -40,8 +40,6 @@ export class Chainer {
                 this.applyChainedNumber(this.task.cPrevAt[at], at);
             });
         }
-
-        // cPrevAny cannot be chained
 
         // Chain child tasks if this one was marked incomplete
         if(this.task.cNext && this.flag === Completion.N) {
@@ -100,13 +98,24 @@ export class Chainer {
 
         this.getAllTasksFor(cCombo).forEach((comboTask) => {
             if(comboTask.cPrev) {
-                // Task requires all previous tasks
-                const allComplete = this.getAllTasksFor(comboTask.cPrev).every(
-                    (task) => task.completionFlag === Completion.Y,
-                );
+                if(comboTask.cPrevAny) {
+                    // Task requires any of a previous task
+                    const anyComplete = this.getAllTasksFor(comboTask.cPrev).some(
+                        (task) => task.completionFlag === Completion.Y
+                    );
 
-                const applyFlag = allComplete ? Completion.Y : Completion.N;
-                this.applyFlagToTask(applyFlag, comboTask);
+                    const applyFlag = anyComplete ? Completion.Y : Completion.N;
+                    this.applyFlagToTask(applyFlag, comboTask);
+                }
+                else {
+                    // Task requires all previous tasks
+                    const allComplete = this.getAllTasksFor(comboTask.cPrev).every(
+                        (task) => task.completionFlag === Completion.Y,
+                    );
+
+                    const applyFlag = allComplete ? Completion.Y : Completion.N;
+                    this.applyFlagToTask(applyFlag, comboTask);
+                }
             }
             else if(comboTask.cPrevAt?.[comboAt]) {
                 // Task requires all previous tasks
@@ -115,15 +124,6 @@ export class Chainer {
                 );
 
                 const applyFlag = allComplete ? Completion.Y : Completion.N;
-                this.applyFlagToTask(applyFlag, comboTask);
-            }
-            else if(comboTask.cPrevAny) {
-                // Task requires any of a previous task
-                const anyComplete = this.getAllTasksFor(comboTask.cPrevAny).some(
-                    (task) => task.completionFlag === Completion.Y
-                );
-
-                const applyFlag = anyComplete ? Completion.Y : Completion.N;
                 this.applyFlagToTask(applyFlag, comboTask);
             }
         });
@@ -278,7 +278,7 @@ export class Chainer {
 
 const PathShorthand = {
     q: 'duty.quests',
-    a: 'character.achievements',
+    a: 'character.achievement',
     t: 'character.character.title',
     e: 'social.emotes',
     hl: 'logs.hunting-log',

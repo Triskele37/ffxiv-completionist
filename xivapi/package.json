@@ -1,0 +1,21 @@
+{
+    "name": "ffxiv-completionist-api",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "xivapi": "npm run run-ts -- ./src/index.ts",
+        "convertSheet": "npm run run-ts -- ./scripts/convertSheet/index.ts",
+        "reorderTasks": "npm run run-ts -- ./scripts/reorderTasks/index.ts",
+        "run-ts": "node --loader ts-node/esm --experimental-specifier-resolution=node --no-warnings"
+    },
+    "dependencies": {
+        "@types/node": "^17.0.12",
+        "axios": "^0.18.0",
+        "chalk": "^5.0.0",
+        "log-update": "^4.0.0",
+        "rxjs": "^7.5.2",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.5.5"
+    },
+    "devDependencies": {}
+}

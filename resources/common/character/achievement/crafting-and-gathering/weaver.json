@@ -1,0 +1,233 @@
+{
+    "key": "weaver",
+    "tasks": {
+        "2933": {
+            "id": 2933,
+            "points": 10,
+            "patch": "6.0"
+        },
+        "x167": {
+            "points": 5,
+            "patch": "2.0",
+            "cCombo": [
+                172
+            ]
+        },
+        "x168": {
+            "points": 5,
+            "patch": "2.0",
+            "cCombo": [
+                172
+            ]
+        },
+        "x169": {
+            "points": 5,
+            "patch": "2.0",
+            "cCombo": [
+                172
+            ]
+        },
+        "x170": {
+            "points": 5,
+            "patch": "2.0",
+            "cCombo": [
+                172
+            ]
+        },
+        "x171": {
+            "points": 10,
+            "patch": "2.0",
+            "cCombo": [
+                172
+            ],
+            "cSiblings": [
+                "t.22"
+            ]
+        },
+        "x172": {
+            "points": 30,
+            "patch": "2.0",
+            "cPrev": [
+                167,
+                168,
+                169,
+                170,
+                171
+            ]
+        },
+        "x1306": {
+            "points": 10,
+            "patch": "3.0"
+        },
+        "x1853": {
+            "points": 10,
+            "patch": "4.0"
+        },
+        "x2285": {
+            "points": 10,
+            "patch": "5.0"
+        },
+        "x710": {
+            "points": 5,
+            "patch": "2.1",
+            "cNext": [
+                711
+            ]
+        },
+        "x711": {
+            "points": 5,
+            "patch": "2.1",
+            "cPrev": [
+                710
+            ],
+            "cNext": [
+                712
+            ]
+        },
+        "x712": {
+            "points": 10,
+            "patch": "2.1",
+            "cPrev": [
+                711
+            ],
+            "cNext": [
+                1283
+            ]
+        },
+        "x1283": {
+            "points": 10,
+            "patch": "3.0",
+            "cPrev": [
+                712
+            ],
+            "cNext": [
+                1726
+            ]
+        },
+        "x1726": {
+            "points": 10,
+            "patch": "3.5",
+            "cPrev": [
+                1283
+            ],
+            "cNext": [
+                2171
+            ]
+        },
+        "x2171": {
+            "points": 10,
+            "patch": "4.5",
+            "cPrev": [
+                1726
+            ]
+        },
+        "x765": {
+            "points": 5,
+            "patch": "2.1",
+            "cNext": [
+                766
+            ]
+        },
+        "x766": {
+            "points": 5,
+            "patch": "2.1",
+            "cPrev": [
+                765
+            ],
+            "cNext": [
+                767
+            ]
+        },
+        "x767": {
+            "points": 10,
+            "patch": "2.1",
+            "cPrev": [
+                766
+            ],
+            "cNext": [
+                1318
+            ]
+        },
+        "x1318": {
+            "points": 10,
+            "patch": "3.0",
+            "cPrev": [
+                767
+            ],
+            "cNext": [
+                1326
+            ]
+        },
+        "x1326": {
+            "points": 10,
+            "patch": "3.0",
+            "cPrev": [
+                1318
+            ],
+            "cSiblings": [
+                "t.258"
+            ]
+        },
+        "x2504": {
+            "points": 5,
+            "patch": "5.21",
+            "cNext": [
+                2505
+            ],
+            "cCombo": [
+                2522
+            ]
+        },
+        "x2505": {
+            "points": 5,
+            "patch": "5.21",
+            "cPrev": [
+                2504
+            ],
+            "cNext": [
+                2506
+            ]
+        },
+        "x2506": {
+            "points": 10,
+            "patch": "5.21",
+            "cPrev": [
+                2505
+            ],
+            "cCombo": [
+                2524
+            ],
+            "cSiblings": [
+                "t.495"
+            ]
+        },
+        "x2532": {
+            "points": 10,
+            "patch": "5.21",
+            "cSiblings": [
+                "t.508"
+            ]
+        },
+        "x2653": {
+            "points": 10,
+            "patch": "5.31",
+            "cSiblings": [
+                "t.533"
+            ]
+        },
+        "x2812": {
+            "points": 10,
+            "patch": "5.41",
+            "cSiblings": [
+                "t.570"
+            ]
+        },
+        "x2825": {
+            "points": 10,
+            "patch": "5.5",
+            "cCombo": [
+                2829
+            ]
+        }
+    }
+}

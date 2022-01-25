@@ -37,7 +37,8 @@
         "x66841": {
             "level": 15,
             "year": "2014",
-            "cPrevAny": [
+            "cPrevAny": true,
+            "cPrev": [
                 66838,
                 66839,
                 66840
@@ -62,7 +63,9 @@
             "cPrev": [
                 66842
             ],
-            "cSiblings": ["a.877"]
+            "cSiblings": [
+                "a.877"
+            ]
         },
         "x66035": {
             "level": 15,
@@ -87,7 +90,9 @@
             "cPrev": [
                 66036
             ],
-            "cSiblings": ["a.1082"]
+            "cSiblings": [
+                "a.1082"
+            ]
         },
         "x67757": {
             "level": 15,
@@ -112,7 +117,9 @@
             "cPrev": [
                 67758
             ],
-            "cSiblings": ["a.1393"]
+            "cSiblings": [
+                "a.1393"
+            ]
         },
         "x67935": {
             "level": 15,
@@ -178,12 +185,15 @@
         "x67944": {
             "level": 15,
             "year": "2017",
-            "cPrevAny": [
+            "cPrevAny": true,
+            "cPrev": [
                 67943,
                 67942,
                 67937
             ],
-            "cSiblings": ["a.1682"]
+            "cSiblings": [
+                "a.1682"
+            ]
         },
         "x68620": {
             "level": 15,
@@ -191,7 +201,9 @@
             "cNext": [
                 68621
             ],
-            "cSiblings": ["a.2019"]
+            "cSiblings": [
+                "a.2019"
+            ]
         },
         "x68621": {
             "level": 15,
@@ -206,7 +218,9 @@
             "cNext": [
                 68745
             ],
-            "cSiblings": ["a.2238"]
+            "cSiblings": [
+                "a.2238"
+            ]
         },
         "x68745": {
             "level": 15,
@@ -221,13 +235,27 @@
             "cNext": [
                 69387
             ],
-            "cSiblings": ["a.2601"]
+            "cSiblings": [
+                "a.2601"
+            ]
         },
         "x69387": {
             "level": 15,
             "year": "2020",
             "cPrev": [
                 69386
+            ]
+        },
+        "x70007": {
+            "level": 15,
+            "cNext": [
+                70008
+            ]
+        },
+        "x70008": {
+            "level": 15,
+            "cPrev": [
+                70007
             ]
         }
     }

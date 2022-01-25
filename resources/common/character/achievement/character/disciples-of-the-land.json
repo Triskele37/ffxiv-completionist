@@ -1,0 +1,362 @@
+{
+    "key": "disciple-of-the-land",
+    "tasks": {
+        "2920": {
+            "id": 2920,
+            "points": 5,
+            "patch": "6.0"
+        },
+        "2921": {
+            "id": 2921,
+            "points": 5,
+            "patch": "6.0"
+        },
+        "2922": {
+            "id": 2922,
+            "points": 5,
+            "patch": "6.0"
+        },
+        "x98": {
+            "points": 5,
+            "patch": "2.0",
+            "cNext": [
+                99
+            ],
+            "cSiblingsAt": {
+                "10": [
+                    "job.26"
+                ]
+            }
+        },
+        "x99": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                98
+            ],
+            "cNext": [
+                100
+            ],
+            "cSiblingsAt": {
+                "20": [
+                    "job.26"
+                ]
+            }
+        },
+        "x100": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                99
+            ],
+            "cNext": [
+                101
+            ],
+            "cSiblingsAt": {
+                "30": [
+                    "job.26"
+                ]
+            }
+        },
+        "x101": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                100
+            ],
+            "cNext": [
+                102
+            ],
+            "cSiblingsAt": {
+                "40": [
+                    "job.26"
+                ]
+            }
+        },
+        "x102": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                101
+            ],
+            "cNext": [
+                1273
+            ],
+            "cSiblingsAt": {
+                "50": [
+                    "job.26"
+                ]
+            }
+        },
+        "x1273": {
+            "points": 5,
+            "patch": "3.0",
+            "cPrev": [
+                102
+            ],
+            "cNext": [
+                1844
+            ],
+            "cSiblingsAt": {
+                "60": [
+                    "job.26"
+                ]
+            }
+        },
+        "x1844": {
+            "points": 5,
+            "patch": "4.0",
+            "cPrev": [
+                1273
+            ],
+            "cNext": [
+                2273
+            ],
+            "cSiblingsAt": {
+                "70": [
+                    "job.26"
+                ]
+            }
+        },
+        "x2273": {
+            "points": 5,
+            "patch": "5.0",
+            "cPrev": [
+                1844
+            ],
+            "cSiblingsAt": {
+                "80": [
+                    "job.26"
+                ]
+            }
+        },
+        "x103": {
+            "points": 5,
+            "patch": "2.0",
+            "cNext": [
+                104
+            ],
+            "cSiblingsAt": {
+                "10": [
+                    "job.27"
+                ]
+            }
+        },
+        "x104": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                103
+            ],
+            "cNext": [
+                105
+            ],
+            "cSiblingsAt": {
+                "20": [
+                    "job.27"
+                ]
+            }
+        },
+        "x105": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                104
+            ],
+            "cNext": [
+                106
+            ],
+            "cSiblingsAt": {
+                "30": [
+                    "job.27"
+                ]
+            }
+        },
+        "x106": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                105
+            ],
+            "cNext": [
+                107
+            ],
+            "cSiblingsAt": {
+                "40": [
+                    "job.27"
+                ]
+            }
+        },
+        "x107": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                106
+            ],
+            "cNext": [
+                1274
+            ],
+            "cSiblingsAt": {
+                "50": [
+                    "job.27"
+                ]
+            }
+        },
+        "x1274": {
+            "points": 5,
+            "patch": "3.0",
+            "cPrev": [
+                107
+            ],
+            "cNext": [
+                1843
+            ],
+            "cSiblingsAt": {
+                "60": [
+                    "job.27"
+                ]
+            }
+        },
+        "x1843": {
+            "points": 5,
+            "patch": "4.0",
+            "cPrev": [
+                1274
+            ],
+            "cNext": [
+                2272
+            ],
+            "cSiblingsAt": {
+                "70": [
+                    "job.27"
+                ]
+            }
+        },
+        "x2272": {
+            "points": 5,
+            "patch": "5.0",
+            "cPrev": [
+                1843
+            ],
+            "cSiblingsAt": {
+                "80": [
+                    "job.27"
+                ]
+            }
+        },
+        "x108": {
+            "points": 5,
+            "patch": "2.0",
+            "cNext": [
+                109
+            ],
+            "cSiblingsAt": {
+                "10": [
+                    "job.28"
+                ]
+            }
+        },
+        "x109": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                108
+            ],
+            "cNext": [
+                110
+            ],
+            "cSiblingsAt": {
+                "20": [
+                    "job.28"
+                ]
+            }
+        },
+        "x110": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                109
+            ],
+            "cNext": [
+                111
+            ],
+            "cSiblingsAt": {
+                "30": [
+                    "job.28"
+                ]
+            }
+        },
+        "x111": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                110
+            ],
+            "cNext": [
+                112
+            ],
+            "cSiblingsAt": {
+                "40": [
+                    "job.28"
+                ]
+            }
+        },
+        "x112": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                111
+            ],
+            "cNext": [
+                1275
+            ],
+            "cSiblingsAt": {
+                "50": [
+                    "job.28"
+                ]
+            }
+        },
+        "x1275": {
+            "points": 5,
+            "patch": "3.0",
+            "cPrev": [
+                112
+            ],
+            "cNext": [
+                1845
+            ],
+            "cSiblingsAt": {
+                "60": [
+                    "job.28"
+                ]
+            }
+        },
+        "x1845": {
+            "points": 5,
+            "patch": "4.0",
+            "cPrev": [
+                1275
+            ],
+            "cNext": [
+                2274
+            ],
+            "cSiblingsAt": {
+                "70": [
+                    "job.28"
+                ]
+            }
+        },
+        "x2274": {
+            "points": 5,
+            "patch": "5.0",
+            "cPrev": [
+                1845
+            ],
+            "cSiblingsAt": {
+                "80": [
+                    "job.28"
+                ]
+            }
+        }
+    }
+}

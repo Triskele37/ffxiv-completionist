@@ -1,0 +1,575 @@
+{
+    "key": "treasure-hunt",
+    "tasks": {
+        "3010": {
+            "id": 3010,
+            "points": 20,
+            "patch": "6.0"
+        },
+        "3011": {
+            "id": 3011,
+            "points": 20,
+            "patch": "6.0"
+        },
+        "3012": {
+            "id": 3012,
+            "points": 5,
+            "patch": "6.05"
+        },
+        "3013": {
+            "id": 3013,
+            "points": 10,
+            "patch": "6.05"
+        },
+        "3014": {
+            "id": 3014,
+            "points": 10,
+            "patch": "6.05"
+        },
+        "3015": {
+            "id": 3015,
+            "points": 20,
+            "patch": "6.05"
+        },
+        "3016": {
+            "id": 3016,
+            "points": 5,
+            "patch": "6.05"
+        },
+        "3017": {
+            "id": 3017,
+            "points": 10,
+            "patch": "6.05"
+        },
+        "3018": {
+            "id": 3018,
+            "points": 10,
+            "patch": "6.05"
+        },
+        "3019": {
+            "id": 3019,
+            "points": 20,
+            "patch": "6.05"
+        },
+        "x878": {
+            "points": 5,
+            "patch": "2.1"
+        },
+        "x879": {
+            "points": 5,
+            "patch": "2.1"
+        },
+        "x880": {
+            "points": 5,
+            "patch": "2.1"
+        },
+        "x881": {
+            "points": 10,
+            "patch": "2.1"
+        },
+        "x882": {
+            "points": 20,
+            "patch": "2.1",
+            "cSiblings": [
+                "t.147"
+            ]
+        },
+        "x1298": {
+            "points": 20,
+            "patch": "3.0"
+        },
+        "x1299": {
+            "points": 20,
+            "patch": "3.0"
+        },
+        "x1300": {
+            "points": 20,
+            "patch": "3.0"
+        },
+        "x1019": {
+            "points": 20,
+            "patch": "2.3",
+            "cSiblings": [
+                "t.173"
+            ]
+        },
+        "x1942": {
+            "points": 20,
+            "patch": "4.0"
+        },
+        "x1943": {
+            "points": 20,
+            "patch": "4.0"
+        },
+        "x2396": {
+            "points": 20,
+            "patch": "5.0"
+        },
+        "x2397": {
+            "points": 20,
+            "patch": "5.0"
+        },
+        "x1548": {
+            "points": 5,
+            "patch": "3.3",
+            "cNext": [
+                1549
+            ],
+            "cSiblings": [
+                "t.293"
+            ]
+        },
+        "x1549": {
+            "points": 10,
+            "patch": "3.3",
+            "cPrev": [
+                1548
+            ],
+            "cNext": [
+                1550
+            ]
+        },
+        "x1550": {
+            "points": 10,
+            "patch": "3.3",
+            "cPrev": [
+                1549
+            ],
+            "cNext": [
+                1551
+            ]
+        },
+        "x1551": {
+            "points": 20,
+            "patch": "3.3",
+            "cPrev": [
+                1550
+            ],
+            "cSiblings": [
+                "t.294"
+            ]
+        },
+        "x1552": {
+            "points": 5,
+            "patch": "3.3",
+            "cNext": [
+                1553
+            ]
+        },
+        "x1553": {
+            "points": 10,
+            "patch": "3.3",
+            "cPrev": [
+                1552
+            ],
+            "cNext": [
+                1554
+            ]
+        },
+        "x1554": {
+            "points": 10,
+            "patch": "3.3",
+            "cPrev": [
+                1553
+            ],
+            "cNext": [
+                1555
+            ]
+        },
+        "x1555": {
+            "points": 20,
+            "patch": "3.3",
+            "cPrev": [
+                1554
+            ],
+            "cSiblings": [
+                "t.295"
+            ]
+        },
+        "x1944": {
+            "points": 5,
+            "patch": "4.01",
+            "cNext": [
+                1945
+            ],
+            "cSiblings": [
+                "t.383"
+            ]
+        },
+        "x1945": {
+            "points": 10,
+            "patch": "4.01",
+            "cPrev": [
+                1944
+            ],
+            "cNext": [
+                1946
+            ]
+        },
+        "x1946": {
+            "points": 10,
+            "patch": "4.01",
+            "cPrev": [
+                1945
+            ],
+            "cNext": [
+                1947
+            ]
+        },
+        "x1947": {
+            "points": 20,
+            "patch": "4.01",
+            "cPrev": [
+                1946
+            ],
+            "cSiblings": [
+                "t.244"
+            ]
+        },
+        "x1948": {
+            "points": 5,
+            "patch": "4.01",
+            "cNext": [
+                1949
+            ]
+        },
+        "x1949": {
+            "points": 10,
+            "patch": "4.01",
+            "cPrev": [
+                1948
+            ],
+            "cNext": [
+                1950
+            ]
+        },
+        "x1950": {
+            "points": 10,
+            "patch": "4.01",
+            "cPrev": [
+                1949
+            ],
+            "cNext": [
+                1951
+            ]
+        },
+        "x1951": {
+            "points": 20,
+            "patch": "4.01",
+            "cPrev": [
+                1950
+            ],
+            "cSiblings": [
+                "t.245"
+            ]
+        },
+        "x1980": {
+            "points": 5,
+            "patch": "4.1",
+            "cNext": [
+                1981
+            ],
+            "cSiblings": [
+                "t.128"
+            ]
+        },
+        "x1981": {
+            "points": 10,
+            "patch": "4.1",
+            "cPrev": [
+                1980
+            ],
+            "cNext": [
+                1982
+            ]
+        },
+        "x1982": {
+            "points": 10,
+            "patch": "4.1",
+            "cPrev": [
+                1981
+            ],
+            "cNext": [
+                1983
+            ]
+        },
+        "x1983": {
+            "points": 20,
+            "patch": "4.1",
+            "cPrev": [
+                1982
+            ],
+            "cSiblings": [
+                "t.129"
+            ]
+        },
+        "x1984": {
+            "points": 5,
+            "patch": "4.1",
+            "cNext": [
+                1985
+            ]
+        },
+        "x1985": {
+            "points": 10,
+            "patch": "4.1",
+            "cPrev": [
+                1984
+            ],
+            "cNext": [
+                1986
+            ]
+        },
+        "x1986": {
+            "points": 10,
+            "patch": "4.1",
+            "cPrev": [
+                1985
+            ],
+            "cNext": [
+                1987
+            ]
+        },
+        "x1987": {
+            "points": 20,
+            "patch": "4.1",
+            "cPrev": [
+                1986
+            ],
+            "cSiblings": [
+                "t.130"
+            ]
+        },
+        "x2132": {
+            "points": 5,
+            "patch": "4.4",
+            "cNext": [
+                2133
+            ],
+            "cSiblings": [
+                "t.404"
+            ]
+        },
+        "x2133": {
+            "points": 10,
+            "patch": "4.4",
+            "cPrev": [
+                2132
+            ],
+            "cNext": [
+                2134
+            ]
+        },
+        "x2134": {
+            "points": 10,
+            "patch": "4.4",
+            "cPrev": [
+                2133
+            ],
+            "cNext": [
+                2135
+            ]
+        },
+        "x2135": {
+            "points": 20,
+            "patch": "4.4",
+            "cPrev": [
+                2134
+            ],
+            "cSiblings": [
+                "t.405"
+            ]
+        },
+        "x2136": {
+            "points": 5,
+            "patch": "4.4",
+            "cNext": [
+                2137
+            ]
+        },
+        "x2137": {
+            "points": 10,
+            "patch": "4.4",
+            "cPrev": [
+                2136
+            ],
+            "cNext": [
+                2138
+            ]
+        },
+        "x2138": {
+            "points": 10,
+            "patch": "4.4",
+            "cPrev": [
+                2137
+            ],
+            "cNext": [
+                2139
+            ]
+        },
+        "x2139": {
+            "points": 20,
+            "patch": "4.4",
+            "cPrev": [
+                2138
+            ],
+            "cSiblings": [
+                "t.406"
+            ]
+        },
+        "x2401": {
+            "points": 5,
+            "patch": "5.05",
+            "cNext": [
+                2402
+            ],
+            "cSiblings": [
+                "t.466"
+            ]
+        },
+        "x2402": {
+            "points": 10,
+            "patch": "5.05",
+            "cPrev": [
+                2401
+            ],
+            "cNext": [
+                2403
+            ]
+        },
+        "x2403": {
+            "points": 10,
+            "patch": "5.05",
+            "cPrev": [
+                2402
+            ],
+            "cNext": [
+                2404
+            ]
+        },
+        "x2404": {
+            "points": 20,
+            "patch": "5.05",
+            "cPrev": [
+                2403
+            ],
+            "cSiblings": [
+                "t.467"
+            ]
+        },
+        "x2405": {
+            "points": 5,
+            "cNext": [
+                2406
+            ],
+            "patch": "5.05"
+        },
+        "x2406": {
+            "points": 10,
+            "patch": "5.05",
+            "cPrev": [
+                2405
+            ],
+            "cNext": [
+                2407
+            ]
+        },
+        "x2407": {
+            "points": 10,
+            "patch": "5.05",
+            "cPrev": [
+                2406
+            ],
+            "cNext": [
+                2408
+            ]
+        },
+        "x2408": {
+            "points": 20,
+            "patch": "5.05",
+            "cPrev": [
+                2407
+            ],
+            "cSiblings": [
+                "t.468"
+            ]
+        },
+        "x2740": {
+            "points": 5,
+            "patch": "5.4",
+            "cNext": [
+                2741
+            ],
+            "cSiblings": [
+                "t.560"
+            ]
+        },
+        "x2741": {
+            "points": 10,
+            "patch": "5.4",
+            "cPrev": [
+                2740
+            ],
+            "cNext": [
+                2742
+            ]
+        },
+        "x2742": {
+            "points": 10,
+            "patch": "5.4",
+            "cPrev": [
+                2741
+            ],
+            "cNext": [
+                2743
+            ]
+        },
+        "x2743": {
+            "points": 20,
+            "patch": "5.4",
+            "cPrev": [
+                2742
+            ],
+            "cSiblings": [
+                "t.561"
+            ]
+        },
+        "x2744": {
+            "points": 5,
+            "patch": "5.4",
+            "cNext": [
+                2745
+            ]
+        },
+        "x2745": {
+            "points": 10,
+            "patch": "5.4",
+            "cPrev": [
+                2744
+            ],
+            "cNext": [
+                2746
+            ]
+        },
+        "x2746": {
+            "points": 10,
+            "patch": "5.4",
+            "cPrev": [
+                2745
+            ],
+            "cNext": [
+                2747
+            ]
+        },
+        "x2747": {
+            "points": 20,
+            "patch": "5.4",
+            "cPrev": [
+                2746
+            ],
+            "cSiblings": [
+                "t.562"
+            ]
+        }
+    }
+}

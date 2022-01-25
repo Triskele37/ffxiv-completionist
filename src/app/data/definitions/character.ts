@@ -76,7 +76,7 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
             ]
         },
         {
-            path: 'achievements',
+            path: 'achievement',
             subGroups: [
                 {
                     path: 'battle',

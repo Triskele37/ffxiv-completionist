@@ -99,7 +99,9 @@
                 67435,
                 67440
             ],
-            "cSiblings": ["travel.aether-currents.hw.the-sea-of-clouds.12"]
+            "cSiblings": [
+                "travel.aether-currents.hw.the-sea-of-clouds.12"
+            ]
         },
         "x67406": {
             "level": 56,
@@ -156,7 +158,8 @@
         },
         "x67655": {
             "level": 53,
-            "cPrevAny": [
+            "cPrevAny": true,
+            "cPrev": [
                 67100,
                 67099,
                 67101
@@ -181,13 +184,20 @@
             ],
             "cNext": [
                 68472,
-                69133
+                69133,
+                69712
             ]
         },
         "x67649": {
             "level": 60,
             "cPrev": [
                 67205
+            ]
+        },
+        "x69708": {
+            "level": 60,
+            "cPrev": [
+                67783
             ]
         }
     }
