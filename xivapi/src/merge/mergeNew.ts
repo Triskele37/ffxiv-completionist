@@ -1,6 +1,16 @@
-import { skipClears } from '../constants';
+import readline from 'readline';
 
-export function mergeNewTasks(rl, content, tasks, next) {
+import { Content } from '../domain/Content';
+import { RESOURCES, skipClears } from '../constants';
+
+const MenuQuestion = `\nAdd task/s to app?
+1: Yes
+2: No
+3: Add all in same group
+4: Add all
+`;
+
+export function mergeNewTasks(rl: readline.Interface, content: Content, tasks, next): void {
     const totalTasks = tasks.length;
     mergeNextTasks();
 
@@ -23,7 +33,7 @@ export function mergeNewTasks(rl, content, tasks, next) {
         console.log(tasksToReview[0].cacheTask);
 
         // Developer input to merge the new cached task into the app
-        rl.question('\nAdd task/s to app?\n1: Yes\n2: No\n3: Add All\n', (answer) => {
+        rl.question(MenuQuestion, (answer) => {
             switch(answer) {
                 case '1':
                     tasksToReview.forEach((changeData) => {
@@ -32,9 +42,21 @@ export function mergeNewTasks(rl, content, tasks, next) {
                     });
                     break;
                 case '3':
-                    // Merge the current task/s first when "All" was selected
-                    tasksToReview.forEach((changeData) => changeData.writeNewData());
-                    // Continue merging the rest off the tasks
+                    // Put the current reviews back into tasks for mergeAll
+                    tasks.unshift(...tasksToReview);
+
+                    // Continue merging the rest of the tasks matching the current's path
+                    let curPath = tasks[0].appPath;
+                    curPath = curPath.replace(RESOURCES + '/', ''); // Remove the resources segments
+                    curPath = curPath.substr(curPath.indexOf('/') + 1); // Remove lang
+
+                    mergeAllTasks(curPath);
+                    break;
+                case '4':
+                    // Put the current reviews back into tasks for mergeAll
+                    tasks.unshift(...tasksToReview);
+
+                    // Continue merging the rest of the tasks
                     mergeAllTasks();
                     break;
                 default:
@@ -43,10 +65,11 @@ export function mergeNewTasks(rl, content, tasks, next) {
         });
     }
 
-    // Remove the next new task to be reviewed along with other instances of it in different languages
-    function getNextTasks() {
+    // Remove the next new task/2 to be reviewed
+    function getNextTasks(): any[] {
         const tasksToReview = [tasks.shift()];
 
+        // Combine any task matching ID into this review (localization or dupes)
         for(let i = 0; i < tasks.length; i++) {
             if(tasks[i].cacheTask.ID === tasksToReview[0].cacheTask.ID) {
                 tasksToReview.push(tasks[i]);
@@ -59,9 +82,10 @@ export function mergeNewTasks(rl, content, tasks, next) {
     }
 
     // Merges the entire `tasks` array without developer input
-    function mergeAllTasks() {
+    function mergeAllTasks(mergePath?: string): void {
         let totalAdded = 1;
-        while(tasks.length) {
+
+        while(tasks.length && (!mergePath || tasks[0].appPath.includes(mergePath))) {
             tasks.shift().writeNewData();
             totalAdded++;
         }

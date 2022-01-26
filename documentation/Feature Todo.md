@@ -45,6 +45,7 @@ may have excluded the wrong Way of the Arcanist?
 double check known diffs for quests (lots of weirdness with class/job)
 dafuq is going on with q69620
 verify cache deletes when told
+move save data from old housing structure to new
 
 ------------------------------------------------------------------ Upcoming ToDo
 **Add**
@@ -65,6 +66,7 @@ verify cache deletes when told
 **Fix**
 - Quest/67635 is the only one without an NPC via XIVAPI (Tobana)
   add method to exclude certain fields in certain ids from merge
+- Re-map triad card ids to api values
 
 ------------------------------------------------------------------ Future ToDo
 **Add**

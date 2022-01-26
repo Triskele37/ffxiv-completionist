@@ -2,10 +2,13 @@ import { Lang } from '../../../../constants';
 import { spreadLangs } from '../../../../util/spreadLangs';
 
 import { Content } from '../../../Content';
+import { ExCards } from './ExCards';
 
 type Card_API = any;
 type Card_Cache = any;
 type Card_App = any;
+
+// Missing card ID between Amon & Magus Sisters
 
 export class TripleTriadCard extends Content {
     NAME = 'TripleTriadCard';
@@ -32,6 +35,17 @@ export class TripleTriadCard extends Content {
         };
     }
 
+    getCachePath(response: Card_API): string[] {
+        const cardId = TripleTriadCard.getCardId(response);
+
+        // Ex cards
+        if(cardId.includes('Ex')) return ['last-page'];
+
+        // Normal Cards
+        const page = Math.floor(parseInt(cardId, 10) / 30) + 1;
+        return [`page-${page}`];
+    }
+
     getCacheKey(appKey: string, lang: Lang): string {
         switch(appKey) {
             case 'id': return 'ID';
@@ -43,14 +57,28 @@ export class TripleTriadCard extends Content {
     }
 
     mapCacheTask(response: Card_API): Card_Cache {
-        const RealID = response.AdditionalData.ID;
         return {
-            ID: RealID,
-            Number: `000${RealID}`.slice(-3),
+            ID: response.AdditionalData.ID,
+            Number: TripleTriadCard.getCardId(response),
             ...spreadLangs(response.AdditionalData, 'Name'),
             Rarity: response.Description.replace(/[^★]/g, ''),
             Patch: response.GamePatch.Version,
         };
+    }
+
+    private static getCardId(response: Card_API) {
+        // Get the initial raw card ID
+        let cardId = response.AdditionalData.ID;
+
+        // Ex Cards have their own subset of ids
+        if(ExCards.includes(cardId)) return `Ex. ${ExCards.indexOf(cardId) + 1}`;
+
+        // Subtract from cardId by 1 for each Ex card the raw ID is higher than
+        ExCards.forEach((id) => {
+            if(id < cardId) cardId--;
+        });
+
+        return `000${cardId}`.slice(-3);
     }
 
 }

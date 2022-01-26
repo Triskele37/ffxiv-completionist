@@ -33,7 +33,7 @@ function diveContent(rl: readline.Interface, group: ContentGroup, depth: number)
         }
         else {
             rl.write(`${indentation}(${key})\n`);
-            diveContent(rl, group, depth + 1);
+            diveContent(rl, content, depth + 1);
         }
     });
 }

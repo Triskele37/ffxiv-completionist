@@ -26,8 +26,8 @@ export const NotebookMap = [
     { ids: [1048, 1049, 1050, 1051, 1052, 1053, 1054, 1055], path: ['master-recipes', 'mr-7'] },
     { ids: [1056, 1057, 1058, 1059, 1060, 1061, 1062, 1063], path: ['master-recipes', 'mr-8'] },
     { ids: [1064, 1065, 1066, 1067, 1068, 1069, 1070, 1071], path: ['master-recipes', 'other'] },
-    { ids: [1072, 1073, 1074, 1075, 1076, 1077, 1078, 1079], path: ['housing', 'housing-1'] }, //TODO: deprecated?
-    { ids: [1080, 1081, 1082, 1083, 1084, 1085, 1086, 1087], path: ['housing', 'housing-2'] }, //TODO: deprecated?
+    // { ids: [1072, 1073, 1074, 1075, 1076, 1077, 1078, 1079], path: ['housing', 'housing-1'] },
+    // { ids: [1080, 1081, 1082, 1083, 1084, 1085, 1086, 1087], path: ['housing', 'housing-2'] },
     { ids: [1088, 1089, 1090, 1091, 1092, 1093, 1094, 1095], path: ['dyes'] },
     // { ids: [1096, 1097, 1098, 1099, 1100, 1101, 1102, 1103], path: [] }, // Removed from game
     { ids: [1104, 1105, 1106, 1107, 1108, 1109, 1110, 1111], path: ['story', 'class-quests'] },
@@ -58,11 +58,11 @@ export const NotebookMap = [
     { ids: [1312, 1313, 1314, 1315, 1316, 1317, 1318, 1319], path: ['collectables', '81-90'] },
     // 3 separate sets of 8 are contained in the studium
     { ids: [1328, 1321, 1322, 1323, 1332, 1333, 1342, 1343], path: ['story', 'studium'] },
-    { ids: [1344, 1345, 1346, 1347, 1348, 1349, 1350, null], path: [] }, //TODO: housing
-    { ids: [1352, 1353, 1354, 1355, 1356, 1357, 1358, 1359], path: [] }, //TODO: housing
-    { ids: [1360, 1361, 1362, 1363, 1364, 1365, 1366, 1367], path: [] }, //TODO: housing
-    { ids: [1368, 1369, 1370, 1371, 1372, 1373, 1374, null], path: [] }, //TODO: housing
-    { ids: [1376, 1377, 1378, 1379, 1380, 1381, 1382, 1383], path: [] }, //TODO: housing
-    { ids: [1384, 1385, 1386, 1387, 1388, 1389, 1390, null], path: [] }, //TODO: housing
-    { ids: [null, null, null, null, null, null, 1398, null], path: ['wheels'] },
+    { ids: [1344, 1345, 1346, 1347, 1348, 1349, 1350, null], path: ['housing', 'fixtures'] },
+    { ids: [1352, 1353, 1354, 1355, 1356, 1357, 1358, 1359], path: ['housing', 'outdoor'] },
+    { ids: [1360, 1361, 1362, 1363, 1364, 1365, 1366, 1367], path: ['housing', 'indoor'] },
+    { ids: [1368, 1369, 1370, 1371, 1372, 1373, 1374, null], path: ['housing', 'tables-rugs'] },
+    { ids: [1376, 1377, 1378, 1379, 1380, 1381, 1382, 1383], path: ['housing', 'tabletop'] },
+    { ids: [1384, 1385, 1386, 1387, 1388, 1389, 1390, null], path: ['housing', 'wall-mounted'] },
+    { ids: [null, null, null, null, null, null, 1398, null], path: ['housing', 'other'] },
 ];

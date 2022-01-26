@@ -4,6 +4,7 @@ import { Title } from './character/character/Title';
 import { BuddyEquip } from './character/companion/BuddyEquip';
 import { TripleTriadCard } from './character/gold-saucer/TripleTriadCard';
 import { Achievement } from './character/Achievement';
+import { Fate } from './duty/Fate';
 import { Leve } from './duty/quest/Leve';
 import { Quest } from './duty/quest/Quest';
 import { Recipes } from './logs/crafting/RecipeNotebookList';
@@ -31,6 +32,7 @@ export const AllContent: ContentGroup = {
         Achievement: new Achievement()
     },
     Duty: {
+        Fate: new Fate(),
         Quest: {
             Levequest: new Leve(),
             Quest: new Quest()
