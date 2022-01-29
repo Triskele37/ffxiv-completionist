@@ -14,7 +14,13 @@ function initActions() {
     electron_1.ipcMain.on('new-save', saveLocation_1.newSave);
     electron_1.ipcMain.on('load-save', saveLocation_1.loadSave);
     electron_1.ipcMain.on('load-json', function (event, path) {
-        event.returnValue = JSON.parse(fs.readFileSync(path, 'utf8'));
+        try {
+            event.returnValue = JSON.parse(fs.readFileSync(path, 'utf8'));
+        }
+        catch (e) {
+            console.error(e);
+            event.returnValue = null;
+        }
     });
 }
 exports.initActions = initActions;

@@ -16,6 +16,12 @@ export function initActions() {
     ipcMain.on('load-save', loadSave);
 
     ipcMain.on('load-json', (event, path) => {
-        event.returnValue = JSON.parse(fs.readFileSync(path, 'utf8'));
+        try {
+            event.returnValue = JSON.parse(fs.readFileSync(path, 'utf8'));
+        }
+        catch(e) {
+            console.error(e);
+            event.returnValue = null;
+        }
     });
 }

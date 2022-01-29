@@ -14,16 +14,17 @@ export class ChangeStore {
         this.svcSaveStore = svcSaveStore;
 
         // Create the initial `overall` object for new users
-        if(!this.svcSaveStore.store.get('overall')) this.svcSaveStore.store.set('overall', {});
+        const save = this.svcSaveStore.store.get('overall') || {};
 
-        // Create class properties
-        this.oldStore = Object.assign(this.svcSaveStore.store.get('overall'), {});
-        this.newStore = Object.assign(this.svcSaveStore.store.get('overall'), {});
+        // Clone the save data
+        this.oldStore = Object.assign(save, {}); // original state
+        this.newStore = Object.assign(save, {}); // working copy
         this.version = version;
     }
 
     // Function to run when finished migrating that actually commits the changes
     write(): void {
+        console.log(this.newStore.duty.fate);
         this.svcSaveStore.store.set('overall', this.newStore);
     }
 
@@ -33,8 +34,11 @@ export class ChangeStore {
         const newGroup = dive(groupPath, this.newStore);
 
         // Only attempt to apply the change if there was an old value
-        if(!!oldGroup && !!oldGroup[oldId]) {
-            if(!!newGroup) newGroup[newId] = oldGroup[oldId];
+        if(oldGroup?.[oldId]) {
+            if(newGroup) {
+                newGroup[newId] = oldGroup[oldId];
+                delete newGroup[oldId];
+            }
             else console.error(`Updated store missing ${groupPath}`);
         }
     }
@@ -61,7 +65,7 @@ export class ChangeStore {
     moveGroup(oldGroupPath: string, newGroupPath: string, newToNew?: boolean): void {
         const oldGroup = dive(oldGroupPath, newToNew ? this.newStore : this.oldStore);
 
-        if(!!oldGroup) {
+        if(oldGroup) {
             // Place the group in the new store where its being moved
             const [newLeftHand, newRightHand] = splitLastSegment(newGroupPath);
             dive(newLeftHand, this.newStore)[newRightHand] = {
@@ -89,7 +93,26 @@ export class ChangeStore {
     // Change helper when task is removed
     deleteTask(groupPath: string, taskId: ID): void {
         const group = dive(groupPath, this.newStore);
-        if(!!group) delete group[taskId];
+        if(group) delete group[taskId];
+    }
+
+    // Change helper when tasks are removed
+    deleteTasks(groupPath: string, taskIdsOrRange: ID[] | string): void {
+        const group = dive(groupPath, this.newStore);
+        if(!group) return;
+
+        if(typeof taskIdsOrRange !== 'string') {
+            taskIdsOrRange.forEach((taskId) => delete group[taskId]);
+        }
+        else {
+            const [startStr, endStr] = taskIdsOrRange.split('-');
+            const start = parseInt(startStr, 10);
+            const end = parseInt(endStr, 10);
+
+            for(let i = start; i <= end; i++) {
+                delete group[i];
+            }
+        }
     }
 
     // Change helper when group is removed

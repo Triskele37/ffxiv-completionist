@@ -111,8 +111,8 @@ export const DUTY_DEFINITION: GroupDefinition = {
                 {
                     path: 'coerthas',
                     subGroups: [
-                        'central-coerthas',
-                        'western-coerthas',
+                        'central-highlands',
+                        'western-highlands',
                     ]
                 },
                 'mor-dhona',
