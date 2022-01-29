@@ -28,8 +28,10 @@ function diveContent(rl: readline.Interface, group: ContentGroup, depth: number)
             rl.write(`${indentation}Cleaning ${key}\n`);
 
             removeExcluded(rl, content, indentation + TAB);
-            reviewErrors(rl, content, indentation + TAB);
-            splitCommonKeys(rl, content, indentation + TAB);
+
+            //TODO: one of these hangs the process
+            // reviewErrors(rl, content, indentation + TAB);
+            // splitCommonKeys(rl, content, indentation + TAB);
         }
         else {
             rl.write(`${indentation}(${key})\n`);

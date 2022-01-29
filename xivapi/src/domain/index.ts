@@ -13,6 +13,7 @@ import { FishingSpot } from './logs/gathering/FishingSpot';
 import { SpearfishingItem } from './logs/gathering/SpearfishingItem';
 import { Emote } from './social/Emote';
 import { ENpcResident } from './_other/ENpcResident';
+import { Map } from './_other/Map';
 
 export type ContentGroup = {
     [key: string]: ContentGroup | Content;
@@ -49,5 +50,6 @@ export const AllContent: ContentGroup = {
     Emote: new Emote(),
     Other: {
         NPC: new ENpcResident(),
+        Map: new Map()
     }
 };

@@ -3,6 +3,24 @@
 - Attempt to get CSP working
 - theme customize
 
+script
+source > cache directory
+target > app directory (dive)
+sourceProperty > property on cache task
+targetProperty > property on app task matching source property
+output:
+    map with keys for each app directory and an object with app/cache ID
+    IDs for cache tasks not found
+
+{
+    'coerthas': {
+        'central-highlands': [
+            { app: '0', cache: '240' }
+        ]
+    },
+    notFound: [241]
+}
+
 ----- Chains
 Oh, Beehive Yourself should grant Satisfaction Guaranteed-Shirr I
 all other first quests for custom deliveries too
@@ -53,6 +71,7 @@ move save data from old housing structure to new
 - Toolset to allow translation of single words/phrases and shove those in resources
 - notification bubbles to any unread instructions (use config store)
 - Custom application container, specifically title bar
+- api action to apply new cache path to existing cache without re-downloading
 
 **Change**
 - Move relic gear to top-level Equipment category in prep for Armoire & all glam

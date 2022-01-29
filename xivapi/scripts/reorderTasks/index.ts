@@ -11,7 +11,6 @@ const TARGET = '../resources/fr/character/blue-mage/log';
 reorderTasksBySource();
 
 function reorderTasksBySource(): void {
-    // Validate the config file
     let message;
     if(!fs.existsSync(SOURCE)) message = `${SOURCE} does not exist`;
     if(!fs.existsSync(TARGET)) message = `${TARGET} does not exist`;
