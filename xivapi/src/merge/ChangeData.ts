@@ -118,25 +118,12 @@ export class ChangeData {
     }
 
     private write(task, path: string): void {
-        let group: any = {};
         const taskKey = `x${this.cacheTask.ID}`;
+        let group: any;
 
         if(fs.existsSync(path)) {
             group = JSON.parse(fs.readFileSync(path, 'utf8'));
-
-            // Attempt to insert the task into the right sort order
-            if(Object.keys(group.tasks).length > this.cacheIndex) {
-                const oldTasks = group.tasks;
-                group.tasks = {};
-
-                Object.keys(oldTasks).forEach((key, index) => {
-                    if(index === this.cacheIndex) group.tasks[taskKey] = task;
-                    group.tasks[key] = oldTasks[key];
-                });
-            }
-            else {
-                group.tasks[taskKey] = task;
-            }
+            group.tasks[taskKey] = task;
         }
         else {
             group = {

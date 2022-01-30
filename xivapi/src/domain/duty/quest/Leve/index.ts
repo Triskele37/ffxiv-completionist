@@ -42,16 +42,8 @@ export class Leve extends Content {
     getCachePath(response: Leve_API): string[] {
         const category = response.JournalGenre.JournalCategory;
 
-        let leveDirectory = '_error';
-        if(response.BattleLeve || response.CompanyLeve) leveDirectory = 'battlecraft';
-        if(response.CraftLeve) leveDirectory = 'tradecraft';
-        if(response.GatheringLeve) leveDirectory = 'fieldcraft';
-
-        // xivapi is weird with fishing leves
-        if(category.Name.includes('Fishing')) leveDirectory = 'fieldcraft';
-
         return [
-            leveDirectory,
+            // leveDirectory,
             category.Name.replace(' Leves', '')
         ];
     }
@@ -62,7 +54,7 @@ export class Leve extends Content {
 
         // Company Leves
         let CompanyNames = {};
-        if(!!response.CompanyLeve) {
+        if(response.CompanyLeve) {
             const company = response.JournalGenre.Name.replace(' Levequests', '');
             CompanyNames = { ...spreadLangs(COMPANIES[company], 'Company') };
         }
