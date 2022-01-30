@@ -11,23 +11,24 @@ import { splitCommonKeys } from './splitCommonKeys';
 type Callback = () => void;
 
 const TAB = '    ';
-export function cleanAPI(rl: readline.Interface, back: Callback): void {
+export async function cleanAPI(rl: readline.Interface, back: Callback) {
     if(!skipClears) console.clear();
 
-    diveContent(rl, AllContent, 0);
+    await diveContent(rl, AllContent, 0);
 
     done(rl, back);
 }
 
-function diveContent(rl: readline.Interface, group: ContentGroup, depth: number): void {
-    Object.keys(group).forEach((key) => {
+async function diveContent(rl: readline.Interface, group: ContentGroup, depth: number) {
+    for(const key of Object.keys(group)) {
         const indentation = new Array(depth).fill(TAB).join('');
         const content = group[key];
 
         if(content instanceof Content) {
             rl.write(`${indentation}Cleaning ${key}\n`);
+            const newIndentation = indentation + TAB;
 
-            removeExcluded(rl, content, indentation + TAB);
+            removeExcluded(rl, content, newIndentation);
 
             //TODO: one of these hangs the process
             // reviewErrors(rl, content, indentation + TAB);
@@ -35,9 +36,9 @@ function diveContent(rl: readline.Interface, group: ContentGroup, depth: number)
         }
         else {
             rl.write(`${indentation}(${key})\n`);
-            diveContent(rl, content, depth + 1);
+            await diveContent(rl, content, depth + 1);
         }
-    });
+    }
 }
 
 function done(rl: readline.Interface, back: Callback) {

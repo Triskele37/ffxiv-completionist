@@ -33,7 +33,9 @@ export class Quest extends Content {
         appPath = appPath.replace('seventh-umbral-era.json', 'seventh-umbral-era/index.json');
         appPath = appPath.replace(/\/[\w-]*-main-scenario-quests[\w-]*\//g, '/');
         appPath = appPath.replace(/\/main-scenario-[\w-]*\//, '/main-scenario/');
-        appPath = appPath.replace('role-quests-shadowbringers', 'role');
+
+        // Role Quests
+        appPath = appPath.replace(/role-quests-.*\.json/, 'role.json');
 
         // Beast Tribes
         if(appPath.includes('/beast-tribe-quests')) {

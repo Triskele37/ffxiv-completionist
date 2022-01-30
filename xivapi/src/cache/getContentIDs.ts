@@ -17,7 +17,11 @@ export async function getContentIDs(content) {
             logUpdate(`Page ${nextPage}/${data.Pagination.PageTotal}`);
 
             getPage(nextPage).then((response) => {
-                pages.push(response.data.Results.map((page) => page.ID));
+                const IDS = response.data.Results
+                    .filter((result) => result.Name)
+                    .map((result) => result.ID);
+
+                pages.push(IDS);
                 next(resolve);
             });
         }

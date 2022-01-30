@@ -332,6 +332,8 @@ export const QUEST_DEFINITION = {
                     subGroups: [
                         'tank-role',
                         'healer-role',
+                        'melee-dps-role',
+                        'physical-dps-role',
                         'physical-ranged-dps-role',
                         'magical-ranged-dps-role',
                     ]

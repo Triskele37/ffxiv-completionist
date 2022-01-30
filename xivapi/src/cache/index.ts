@@ -88,37 +88,10 @@ async function getItems(content: Content, IDS) {
 
             logUpdate(output);
 
-            return getItem(content, IDS[cur.next]);
+            return content.getItem(IDS[cur.next]);
         }
         else resolve();
     });
-}
-
-/**-----------------------------------------------------------------------------
- * The grab of a single item, does the cache write
- * ----------------------------------------------------------------------------- */
-async function getItem(content: Content, id) {
-    if(!id) return; // Bail out if trying to get a non-existent ID
-
-    try {
-        // Attempt to grab the item's data
-        const url = content.buildContentURL(id);
-        const { data } = await axios.get(url);
-
-        let contentPath;
-        try {
-            contentPath = content.getCachePath(data);
-        } catch(e) {
-            contentPath = ['_error'];
-        }
-
-        writeJsonFile(CACHE_DIR, [
-            content.Name,
-            ...contentPath
-        ], data.ID, data);
-    } catch(e) {
-        content.config.FAILED_IDS.push(id);
-    }
 }
 
 /**-----------------------------------------------------------------------------

@@ -1,7 +1,9 @@
 import * as fs from 'fs';
 import * as path from 'path';
+import axios from 'axios';
 
-import { Lang } from '../constants';
+import { CACHE_DIR, Lang } from '../constants';
+import { writeJsonFile } from '../util/writeJsonFile';
 
 type Excluded = {
     [id: string]: string;
@@ -102,6 +104,36 @@ export abstract class Content {
         const filePath = `${this.dirname}/${file}`;
         if(fs.existsSync(filePath)) {
             this[key] = filePath.includes('.json') ? JSON.parse(fs.readFileSync(filePath, 'utf8')) : require(filePath);
+        }
+    }
+
+    /**-----------------------------------------------------------------------------
+     * The grab of a single item, does the cache write
+     * ----------------------------------------------------------------------------- */
+    async getItem(id) {
+        if(!id) return; // Bail out if trying to get a non-existent ID
+
+        try {
+            // Attempt to grab the item's data
+            const url = this.buildContentURL(id);
+            const { data } = await axios.get(url);
+
+            let contentPath;
+            try {
+                contentPath = this.getCachePath(data);
+            } catch(e) {
+                contentPath = ['_error'];
+            }
+
+            // Prevent items without name information from caching
+            if(!data.Name) return;
+
+            writeJsonFile(CACHE_DIR, [
+                this.Name,
+                ...contentPath
+            ], data.ID, data);
+        } catch(e) {
+            this.config.FAILED_IDS.push(id);
         }
     }
 
