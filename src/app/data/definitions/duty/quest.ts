@@ -21,6 +21,7 @@ export const QUEST_DEFINITION = {
                 'shadowbringers',
                 'the-voyage-home',
                 'dark-reprise',
+                'endwalker'
             ]
         },
         {
@@ -38,6 +39,7 @@ export const QUEST_DEFINITION = {
                 'eden',
                 'yorha-dark-apocalypse',
                 'garlemalds-machinations',
+                'pandaemonium'
             ]
         },
         {
@@ -189,6 +191,30 @@ export const QUEST_DEFINITION = {
                     path: 'tempest-sidequests',
                     subGroups: ['the-tempest']
                 },
+                {
+                    path: 'sharlayan-sidequests',
+                    subGroups: ['labyrinthos', 'old-sharlayan']
+                },
+                {
+                    path: 'thavnairian-sidequests',
+                    subGroups: ['thavnair', 'radz-at-han']
+                },
+                {
+                    path: 'garlean-sidequests',
+                    subGroups: ['garlemald']
+                },
+                {
+                    path: 'mare-lamentorum-sidequests',
+                    subGroups: ['mare-lamentorum']
+                },
+                {
+                    path: 'elpis-sidequests',
+                    subGroups: ['elpis']
+                },
+                {
+                    path: 'ultima-thule-sidequests',
+                    subGroups: ['ultima-thule']
+                }
             ]
         },
         {
@@ -264,6 +290,16 @@ export const QUEST_DEFINITION = {
                     ]
                 },
                 {
+                    path: 'studium',
+                    subGroups: [
+                        'faculty-of-aetherology',
+                        'faculty-of-anthropology',
+                        'faculty-of-archaeology',
+                        'faculty-of-astronomy',
+                        'faculty-of-medicine',
+                    ]
+                },
+                {
                     path: 'disciple-of-war-job',
                     subGroups: [
                         'paladin',
@@ -296,8 +332,8 @@ export const QUEST_DEFINITION = {
                     subGroups: [
                         'tank-role',
                         'healer-role',
-                        'physical-dps-role',
-                        'magical-dps-role',
+                        'physical-ranged-dps-role',
+                        'magical-ranged-dps-role',
                     ]
                 }
             ]

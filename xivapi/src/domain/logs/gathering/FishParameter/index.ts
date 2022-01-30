@@ -39,10 +39,11 @@ export class FishParameter extends Content {
         }
     }
 
-    getAppPath(response: FishGuide_API): string {
-        if(!response?.ID) return '_error';
-        return `page-${Math.floor(response.ID / 25) + 1}`;
-    }
+    //TODO: wrong
+    // getAppPath(response: FishGuide_API): string {
+    //     if(!response?.ID) return '_error';
+    //     return `page-${Math.floor(response.ID / 25) + 1}`;
+    // }
 
     mapCacheTask(response: FishGuide_API): FishGuide_Cache {
         const stars = new Array(response.GatheringItemLevel.Stars).fill('★').join('');

@@ -32,25 +32,25 @@ export class Recipes extends Content {
         return isShared && !isCarpenter;
     }
 
-    getAppPath(cachePath: string): string {
-        cachePath = cachePath.replace('/woodworking/', '/carpenter/');
-        cachePath = cachePath.replace('/smithing/', '/blacksmith/');
-        cachePath = cachePath.replace('/armorcraft/', '/armorer/');
-        cachePath = cachePath.replace('/goldsmithing/', '/goldsmith/');
-        cachePath = cachePath.replace('/leatherworking/', '/leatherworker/');
-        cachePath = cachePath.replace('/clothcraft/', '/weaver/');
-        cachePath = cachePath.replace('/alchemy/', '/alchemist/');
-        cachePath = cachePath.replace('/cooking/', '/culinarian/');
+    getAppPath(appPath: string): string {
+        appPath = appPath.replace('/woodworking/', '/carpenter/');
+        appPath = appPath.replace('/smithing/', '/blacksmith/');
+        appPath = appPath.replace('/armorcraft/', '/armorer/');
+        appPath = appPath.replace('/goldsmithing/', '/goldsmith/');
+        appPath = appPath.replace('/leatherworking/', '/leatherworker/');
+        appPath = appPath.replace('/clothcraft/', '/weaver/');
+        appPath = appPath.replace('/alchemy/', '/alchemist/');
+        appPath = appPath.replace('/cooking/', '/culinarian/');
 
-        if(cachePath.includes('/carpenter/')) {
-            cachePath = cachePath.replace('/carpenter/beast-tribe-quests', '/shared/beast-tribe-quests');
-            cachePath = cachePath.replace('/carpenter/custom-deliveries', '/shared/custom-deliveries');
-            cachePath = cachePath.replace('/carpenter/dyes', '/shared/dyes');
+        if(appPath.includes('/carpenter/')) {
+            appPath = appPath.replace('/carpenter/beast-tribe-quests', '/shared/beast-tribe-quests');
+            appPath = appPath.replace('/carpenter/custom-deliveries', '/shared/custom-deliveries');
+            appPath = appPath.replace('/carpenter/dyes', '/shared/dyes');
         }
 
-        cachePath = cachePath.replace('restoration-other.json', 'other.json');
+        appPath = appPath.replace('restoration-other.json', 'other.json');
 
-        return cachePath;
+        return appPath;
     }
 
     mapAppTask(cacheTask: Recipe_Cache, lang: Lang): Recipe_App {

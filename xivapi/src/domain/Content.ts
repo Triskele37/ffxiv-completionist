@@ -78,9 +78,9 @@ export abstract class Content {
         return !!this.COMMON_KEYS?.length;
     }
 
-    // Converts a cache path into an app path
-    getAppPath(cachePath: string): string {
-        return cachePath;
+    // Allows modification of the appPath
+    getAppPath(appPath: string, cacheTask): string {
+        return appPath;
     }
 
     // Builds the segments of the cache path using the XIVAPI object

@@ -39,10 +39,11 @@ export class SpearfishingItem extends Content {
         }
     }
 
-    getAppPath(response: SpearfishingItem_API): string {
-        if(!response?.ID) return '_error';
-        return `page-${Math.floor(response.ID / 25) + 1}`;
-    }
+    //TODO: wrong
+    // getAppPath(response: SpearfishingItem_API): string {
+    //     if(!response?.ID) return '_error';
+    //     return `page-${Math.floor(response.ID / 25) + 1}`;
+    // }
 
     mapCacheTask(response: SpearfishingItem_API): SpearfishingItem_Cache {
         const stars = new Array(response.GatheringItemLevel.Stars).fill('★').join('');

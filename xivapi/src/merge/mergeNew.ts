@@ -36,9 +36,16 @@ export function mergeNewTasks(rl: readline.Interface, content: Content, tasks, n
         rl.question(MenuQuestion, (answer) => {
             switch(answer) {
                 case '1':
-                    tasksToReview.forEach((changeData) => {
+                    tasksToReview.forEach((changeData, i) => {
                         changeData.writeNewData();
-                        rl.question(`\ntask added to ${changeData.appPath}`, mergeNextTasks);
+                        const message = `\ntask added to ${changeData.appPath}`;
+
+                        if(i !== tasksToReview.length - 1) {
+                            console.log(message);
+                        }
+                        else {
+                            rl.question(message, mergeNextTasks);
+                        }
                     });
                     break;
                 case '3':

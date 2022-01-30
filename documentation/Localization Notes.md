@@ -6,6 +6,7 @@ Notes on each section regarding localization:
 > * Barding
 > * Crafting Log
 > * Emote
+> * Fate
 > * Levequests
 > * Quests
 > * Title
@@ -35,7 +36,6 @@ Notes on each section regarding localization:
 > * EurekaAetherItem
 > * EurekaAethernet
 > * EurekaMagiciteItem
-> * Fate
 > * FateEvent
 > * Festival
 > * GrandCompanyRank

@@ -28,34 +28,35 @@ export class Quest extends Content {
         super('duty/quest/Quest');
     }
 
-    getAppPath(cachePath: string): string {
+    getAppPath(appPath: string): string {
         // Main Scenario
-        cachePath = cachePath.replace('seventh-umbral-era.json', 'seventh-umbral-era/index.json');
-        cachePath = cachePath.replace(/\/[\w-]*-main-scenario-quests[\w-]*\//g, '/');
-        cachePath = cachePath.replace(/\/main-scenario-[\w-]*\//, '/main-scenario/');
+        appPath = appPath.replace('seventh-umbral-era.json', 'seventh-umbral-era/index.json');
+        appPath = appPath.replace(/\/[\w-]*-main-scenario-quests[\w-]*\//g, '/');
+        appPath = appPath.replace(/\/main-scenario-[\w-]*\//, '/main-scenario/');
+        appPath = appPath.replace('role-quests-shadowbringers', 'role');
 
         // Beast Tribes
-        if(cachePath.includes('/beast-tribe-quests')) {
-            const tribeQuests = cachePath.split('/').reverse()[1];
+        if(appPath.includes('/beast-tribe-quests')) {
+            const tribeQuests = appPath.split('/').reverse()[1];
             const tribe = tribeQuests.split('-')[0];
-            const removeAfter = cachePath.indexOf('/beast-tribe-quests');
-            const questPath = cachePath.substr(0, removeAfter);
-            cachePath = `${questPath}/beast-tribe/${tribe}.json`;
+            const removeAfter = appPath.indexOf('/beast-tribe-quests');
+            const questPath = appPath.substr(0, removeAfter);
+            appPath = `${questPath}/beast-tribe/${tribe}.json`;
         }
 
         // CoaNE
-        if(cachePath.includes('chronicles-of-a-new-era')) {
-            cachePath = cachePath.replace(/chronicles-of-a-new-era-[\w-]*\//, '');
-            cachePath = cachePath.replace('yorha-dark-apocalypse/', '');
+        if(appPath.includes('chronicles-of-a-new-era')) {
+            appPath = appPath.replace(/chronicles-of-a-new-era-[\w-]*\//, '');
+            appPath = appPath.replace('yorha-dark-apocalypse/', '');
         }
 
         // Remove -quests and -events ending from everything
-        cachePath = cachePath.replace(/-quests/g, '');
-        cachePath = cachePath.replace('-events.json', '.json');
+        appPath = appPath.replace(/-quests/g, '');
+        appPath = appPath.replace('-events.json', '.json');
 
         // Indexes
         const indexify = (name) => {
-            cachePath = cachePath.replace(`${name}/${name}`, `${name}/index`);
+            appPath = appPath.replace(`${name}/${name}`, `${name}/index`);
         };
 
         indexify('crystalline-mean');
@@ -64,10 +65,10 @@ export class Quest extends Content {
         indexify('role');
 
         // Cleanup
-        cachePath = cachePath.replace('quasi/quasi.json', 'quasi-quests.json');
-        cachePath = cachePath.replace('/side-story/', '/side-story-quests/');
+        appPath = appPath.replace('quasi/quasi.json', 'quasi-quests.json');
+        appPath = appPath.replace('/side-story/', '/side-story-quests/');
 
-        return cachePath;
+        return appPath;
     }
 
     mapAppTask(cacheTask: Quest_Cache, lang: Lang): Quest_App {

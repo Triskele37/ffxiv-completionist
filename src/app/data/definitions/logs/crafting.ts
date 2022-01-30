@@ -68,6 +68,8 @@ function defineCrafter(crafter: Crafter): GroupDefinition {
             'level-66-70',
             'level-71-75',
             'level-76-80',
+            'level-81-85',
+            'level-86-90',
         ]
     });
 
@@ -82,16 +84,18 @@ function defineCrafter(crafter: Crafter): GroupDefinition {
             'mr-6',
             'mr-7',
             'mr-8',
+            'mr-9',
             'other',
         ]
     });
 
+    let housingGroups = ['fixtures', 'outdoor', 'indoor', 'tables-rugs', 'tabletop', 'wall-mounted'];
+    if(crafter === 'culinarian') housingGroups = ['outdoor', 'indoor', 'tabletop'];
+    if(crafter === 'alchemist') housingGroups.push('other');
+
     definition.subGroups.push({
         path: 'housing',
-        subGroups: [
-            'housing-1',
-            'housing-2',
-        ]
+        subGroups: housingGroups
     });
 
     if(crafter === 'alchemist') {
@@ -103,6 +107,7 @@ function defineCrafter(crafter: Crafter): GroupDefinition {
         subGroups: [
             'class-quests',
             'crystarium-deliveries',
+            'studium',
         ]
     });
 
@@ -124,6 +129,7 @@ function defineCrafter(crafter: Crafter): GroupDefinition {
             '50-60',
             '61-70',
             '71-80',
+            '81-90',
         ]
     });
 

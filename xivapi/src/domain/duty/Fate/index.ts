@@ -1,14 +1,13 @@
 import { Lang } from '../../../constants';
 import { spreadLangs } from '../../../util/spreadLangs';
-import { Content } from '../../Content';
 
+import { Content } from '../../Content';
 import { FateMap } from './FateMap';
 
 type Fate_API = any;
 type Fate_Cache = any;
 type Fate_App = any;
 
-//TODO: unsure how to connect to proper Zones
 export class Fate extends Content {
     API_ENDPOINT = 'Fate';
     APP_PATH = 'duty/fate';
@@ -19,9 +18,15 @@ export class Fate extends Content {
         super('duty/Fate');
     }
 
-    // getAppPath(cachePath: string): string {
-    //     return '';
-    // }
+    getAppPath(appPath: string, cacheTask: Fate_Cache): string {
+        const fatePath = FateMap.find((map) => map.ids.includes(cacheTask.ID))?.path;
+        if(fatePath) {
+            appPath = appPath.replace('.json', '/');
+            appPath += fatePath.join('/') + '.json';
+        }
+
+        return appPath;
+    }
 
     mapAppTask(cacheTask: Fate_Cache, lang: Lang): Fate_App {
         return {
@@ -33,7 +38,6 @@ export class Fate extends Content {
     }
 
     getCachePath(response: Fate_API): string[] {
-        return FateMap[0].path;
         const fatePath = FateMap.find((map) => map.ids.includes(response.ID))?.path;
         return fatePath || ['_error'];
     }
@@ -62,30 +66,40 @@ export class Fate extends Content {
 
     private static getTypes(response: Fate_API) {
         switch(response.IconMapID) {
-            case 60501: return {
-                Type_en: 'Slay Enemies',
-                Type_fr: 'Ennemies à abattre'
-            };
-            case 60502: return {
-                Type_en: 'Notorious Monster',
-                Type_fr: 'Défi'
-            };
-            case 60503: return {
-                Type_en: 'Gather Items',
-                Type_fr: 'Ramassage d\'objets'
-            };
-            case 60504: return {
-                Type_en: 'Defense',
-                Type_fr: 'Défense'
-            };
-            case 60505: return {
-                Type_en: 'Escort',
-                Type_fr: 'Escorte'
-            };
-            case 60506: return {
-                Type_en: 'Chase',
-                Type_fr: 'Pourchasse'
-            };
+            case 60501:
+            case 60801:
+                return {
+                    Type_en: 'Slay Enemies',
+                    Type_fr: 'Ennemis à abattre'
+                };
+            case 60502:
+            case 60802:
+                return {
+                    Type_en: 'Notorious Monster',
+                    Type_fr: 'Défi'
+                };
+            case 60503:
+            case 60803:
+                return {
+                    Type_en: 'Gather Items',
+                    Type_fr: 'Ramassage d\'objets'
+                };
+            case 60504:
+            case 60804:
+                return {
+                    Type_en: 'Defense',
+                    Type_fr: 'Défense'
+                };
+            case 60505:
+                return {
+                    Type_en: 'Escort',
+                    Type_fr: 'Escorte'
+                };
+            case 60506:
+                return {
+                    Type_en: 'Chase',
+                    Type_fr: 'Pourchasse'
+                };
             default: return {};
         }
     }

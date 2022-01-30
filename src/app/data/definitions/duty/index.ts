@@ -157,6 +157,22 @@ export const DUTY_DEFINITION: GroupDefinition = {
                         'the-rak-tika-greatwood',
                         'the-tempest',
                     ]
+                },
+                {
+                    path: 'northern-empty',
+                    subGroups: ['labyrinthos']
+                },
+                {
+                    path: 'ilsabard',
+                    subGroups: ['thavnair', 'garlemald']
+                },
+                {
+                    path: 'sea-of-stars',
+                    subGroups: ['mare-lamentorum', 'ultima-thule']
+                },
+                {
+                    path: 'world-unsundered',
+                    subGroups: ['elpis']
                 }
             ]
         },

@@ -20,8 +20,8 @@ export class Achievement extends Content {
         super('character/Achievement');
     }
 
-    getAppPath(cachePath: string): string {
-        return cachePath.replace(
+    getAppPath(appPath: string): string {
+        return appPath.replace(
             'crafting-gathering',
             'crafting-and-gathering'
         );

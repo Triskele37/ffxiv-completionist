@@ -1,6 +1,7 @@
 import logUpdate from 'log-update';
 
 import { Lang, RESOURCES } from '../constants';
+import { Content } from '../domain/Content';
 import { buildAPI, CacheGroup } from '../util/buildAPI';
 
 import { ChangeData } from './ChangeData';
@@ -37,23 +38,28 @@ export function mergeAPI(content, rl, done) {
     }
 
     function analyzeTasks(cache: CacheGroup, path: string, lang: Lang): void {
-        let appPath = `${RESOURCES}/${lang}/${content.APP_PATH}/${path}.json`;
-
-        // Allow for self-named content paths e.g. contentType.json
-        if(!path) appPath = appPath.replace('/.json', '.json');
-
-        // Allow override of the appPath
-        if(content.getAppPath) appPath = content.getAppPath(appPath);
-
-        // Allow content to exclude some paths
-        if(content.excludeAppPathMerge?.(appPath)) return;
-
-        // Read the actual file content in
-        const appGroup = getCombinedAppGroup(appPath, lang);
+        let lastAppPath, appGroup;
 
         // Loop over the cached version of the task list
         // TODO: this will miss removed tasks left in the app
         cache.tasks.forEach((cacheTask, cacheIndex) => {
+            let appPath = `${RESOURCES}/${lang}/${content.APP_PATH}/${path}.json`;
+
+            // Allow for self-named content paths e.g. contentType.json
+            if(!path) appPath = appPath.replace('/.json', '.json');
+
+            // Allow override of the appPath
+            if(content.getAppPath) appPath = content.getAppPath(appPath, cacheTask);
+
+            // Allow content to exclude some paths
+            if(content.excludeAppPathMerge?.(appPath)) return;
+
+            // Read the actual file content in only if the group has changed
+            if(lastAppPath !== appPath) {
+                appGroup = getCombinedAppGroup(appPath, lang);
+                lastAppPath = appPath;
+            }
+
             const changeData = new ChangeData({ content, lang, appPath, cacheTask, cacheIndex });
 
             if(appGroup) {
