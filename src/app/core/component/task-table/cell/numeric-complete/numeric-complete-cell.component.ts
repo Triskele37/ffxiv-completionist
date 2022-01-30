@@ -1,7 +1,7 @@
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 
 import { Task } from '@domain/Task';
-import { rygGradient } from '../../../../../../styles/gradients';
+import { BackgroundColor, rygGradient } from '../../../../../../styles/gradients';
 
 import { SaveStoreService } from '@service/store/save-store.service';
 
@@ -26,20 +26,24 @@ export class NumericCompleteCellComponent implements OnChanges {
         if(changes.task) {
             this.step = this._step;
             this.tooltip = this._tooltip;
-            this.percentage = this._percentage;
-            this.gradientBackground = this._gradientBackground;
+            this.update();
         }
     }
 
-    get _step() {
+    update(): void {
+        this.percentage = this._percentage;
+        this.gradientBackground = this._gradientBackground;
+    }
+
+    get _step(): number {
         return 1 / (10 ** this.task._parent.numericDecimal);
     }
 
-    get _tooltip() {
+    get _tooltip(): string {
         return `${this.task.minValue} - ${this.task.maxValue}`;
     }
 
-    get _percentage() {
+    get _percentage(): string {
         const totProg = this.task.maxValue - this.task.minValue;
         let prog = parseFloat(this.value) - this.task.minValue;
         if(prog < 0) prog = 0;
@@ -47,15 +51,15 @@ export class NumericCompleteCellComponent implements OnChanges {
         return ((prog / totProg) * 100).toFixed(2);
     }
 
-    get _gradientBackground() {
+    get _gradientBackground(): BackgroundColor {
         const prog = parseInt(this.value, 10) - this.task.minValue;
         const tot = this.task.maxValue - this.task.minValue;
 
         return rygGradient(prog / tot);
     }
 
-    onTaskValueChange(event) {
-        let newValue = parseFloat(event.target.value || this.task.minValue);
+    onTaskValueChange(): void {
+        let newValue = parseFloat(this.value) || this.task.minValue;
         newValue = parseFloat(newValue.toFixed(this.task._parent.numericDecimal));
 
         // Validate the new value
@@ -63,6 +67,8 @@ export class NumericCompleteCellComponent implements OnChanges {
         if(newValue > this.task.maxValue) newValue = this.task.maxValue;
 
         // Update the new value
+        this.value = newValue.toString();
+        this.update();
         this.task.changeCompletionNumber(newValue.toString(), true);
         this.svcStore.set(this.task.fullStorageKey, newValue.toString());
     }

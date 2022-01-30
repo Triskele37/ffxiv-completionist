@@ -14,6 +14,7 @@ lvl 70 antiquated weapon chain to job quests
 chain dungeons to quests requiring them
 
 **Change**
+- bookmarks should save on character instead of config
 - emotes by in-game tabs
 - Remove native toolbar
 

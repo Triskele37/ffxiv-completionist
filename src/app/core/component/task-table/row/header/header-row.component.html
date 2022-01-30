@@ -1,7 +1,7 @@
 <tr class="task-table-header">
     <!-- Completion Header -->
-    <th class="completion-column">
-        <ng-container *ngIf="!group.isNumericCompletion; else numericColumn">
+    <ng-container *ngIf="!group.isNumericCompletion; else numericColumn">
+        <th class="completion-column">
             <i
                 class="i-complete"
                 [ngClass]="{ enabled: filters.completion.completed }"
@@ -21,11 +21,11 @@
                 [ngClass]="{ enabled: filters.completion.excluded }"
                 (click)="onFilterCompletion(Completion.X)"
             ></i>
-        </ng-container>
-        <ng-template #numericColumn>
-            #
-        </ng-template>
-    </th>
+        </th>
+    </ng-container>
+    <ng-template #numericColumn>
+        <th class="completion-column numeric">#</th>
+    </ng-template>
 
     <!-- Data Headers -->
     <th

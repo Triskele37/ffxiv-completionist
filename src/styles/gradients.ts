@@ -1,4 +1,8 @@
-export const rygGradient = (weight) => {
+export type BackgroundColor = {
+    backgroundColor: string;
+};
+
+export function rygGradient(weight): BackgroundColor {
     // Red rgb Weights
     const redWeight = weight < 0.5 ? (1 - weight) : 0;
     const rrw = 0x75 * redWeight;
@@ -29,4 +33,4 @@ export const rygGradient = (weight) => {
     return {
         backgroundColor: `rgb(${r},${g},${b})`
     };
-};
+}

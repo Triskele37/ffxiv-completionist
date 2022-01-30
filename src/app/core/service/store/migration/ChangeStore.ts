@@ -24,7 +24,6 @@ export class ChangeStore {
 
     // Function to run when finished migrating that actually commits the changes
     write(): void {
-        console.log(this.newStore.duty.fate);
         this.svcSaveStore.store.set('overall', this.newStore);
     }
 

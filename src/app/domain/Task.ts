@@ -237,7 +237,7 @@ export class Task {
         // Don't continue if the current flag hasn't changed
         if(this.completionFlag === toFlag) {
             // Clear the chainstore in the event the first chain is blocked
-            if(firstInChain) ChainService.Instance.undoCurrentChain();
+            // if(firstInChain) ChainService.Instance.undoCurrentChain();
             return false;
         }
 

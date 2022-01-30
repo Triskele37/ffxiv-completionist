@@ -7,6 +7,10 @@
             vertical-align: middle;
             text-align: center;
 
+            &.numeric {
+                width: 100px;
+            }
+
             .i-complete, .i-incomplete, .i-exclude {
                 cursor: pointer;
 

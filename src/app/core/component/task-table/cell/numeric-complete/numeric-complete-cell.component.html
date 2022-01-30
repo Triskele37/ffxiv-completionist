@@ -1,14 +1,17 @@
 <td
     class="completion-flag-cell noSelect"
     [style]="gradientBackground"
-    [title]="tooltip"
+    [pTooltip]="tooltip"
 >
-    <input
+    <p-inputNumber
         class="numeric-input"
-        type="number"
+        [(ngModel)]="value"
         [step]="step"
-        [value]="value"
-        (blur)="onTaskValueChange($event)"
-    />
-    <span class="percentage">{{percentage}}%</span>
+        [showButtons]="true"
+        (onBlur)="onTaskValueChange()"
+    ></p-inputNumber>
+
+    <span class="percentage">
+        {{percentage}}%
+    </span>
 </td>
