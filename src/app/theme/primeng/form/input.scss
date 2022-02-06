@@ -8,7 +8,7 @@ p-inputnumber.ng-dirty.ng-invalid > .p-inputnumber > .p-inputtext {
 }
 
 .p-inputtext {
-    font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-family: var(--font-family);
     font-size: 1rem;
     color: var(--text-color);
     background: var(--surface-a);

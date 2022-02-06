@@ -7,6 +7,7 @@ import { DataService } from '@data';
 import { ElectronService } from '@service/electron/electron.service';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { CustomTaskService } from '@service/custom-task/custom-task.service';
+import { ThemeService } from '@service/theme/theme.service';
 
 @Component({
     selector: 'xiv-root',
@@ -23,6 +24,7 @@ export class AppComponent implements OnInit {
         private svcData: DataService,
         private svcBookmark: BookmarkService,
         private svcCustomTask: CustomTaskService,
+        private svcTheme: ThemeService, // inits theme
     ) {
         this.translate.setDefaultLang('en');
 

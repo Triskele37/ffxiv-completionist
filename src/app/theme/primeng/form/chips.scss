@@ -143,7 +143,7 @@ p-chips.ng-dirty.ng-invalid .p-chips .p-chips-multiple-container:not(.p-disabled
 }
 
 .p-chips .p-chips-multiple-container .p-chips-input-token input {
-    font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-family: var(--font-family);
     font-size: 1rem;
     color: var(--text-color);
     padding: 0;

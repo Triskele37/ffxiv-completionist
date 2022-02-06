@@ -1,6 +1,5 @@
 ------------------------------------------------------------------ Current Release ToDo
 **Add**
-- theme customizer
 - beast tribe quest recipe chaining
 - chain duties to quests & achievements requiring them
 - Shadow Walk With Me should chain Tales to be Told
@@ -11,10 +10,10 @@
 - bookmarks should save on character instead of config
 
 **Fix**
+- Gathering "view all" issue
 - Build pathing issue to resources "../resources/resources/common/./index.json"
 - Build does not produce an .exe and misses including resources
 - Save automatically puts "N" for every item, making defaultCompletion not work
-- Achievement _error 683 & 685 Mapping Binding Coil IV & VI
 - Leve Issue/Start zones
 - Mac Support
 - bug with quick-mark (use emotes, X > N, N > Y, undo. chaining marks 3 as still completed)
@@ -34,7 +33,7 @@ dafuq is going on with q69620
 - api action to apply new cache pathing to existing cache without re-downloading
 
 **Change**
-- auto-updater?
+- auto-updater
 - "spotlight" when searching (scroll to maybe?)
 - detach lang specific resources to a download after installation
 

@@ -26,7 +26,7 @@
 }
 
 .p-autocomplete .p-autocomplete-multiple-container .p-autocomplete-input-token input {
-    font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-family: var(--font-family);
     font-size: 1rem;
     color: var(--text-color);
     padding: 0;

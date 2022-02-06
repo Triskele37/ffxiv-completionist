@@ -38,6 +38,7 @@ export const configStore = {
             },
             'theme': {
                 'primary-color': '#0f4c75',
+                'primary-text': '#121212',
                 'font-family': 'sans-serif'
             }
         };

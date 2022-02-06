@@ -1,8 +1,24 @@
 <div class="setting">
+    <label></label>
+    <p-button
+        label="Reset to Default"
+        (onClick)="resetTheme()"
+    ></p-button>
+</div>
+
+<div class="setting">
     <label>Primary Color:</label>
     <p-colorPicker
         [(ngModel)]="primaryColor"
         (onChange)="setPrimaryColor()"
+    ></p-colorPicker>
+</div>
+
+<div class="setting">
+    <label>Primary Color Text:</label>
+    <p-colorPicker
+        [(ngModel)]="primaryText"
+        (onChange)="setPrimaryText()"
     ></p-colorPicker>
 </div>
 

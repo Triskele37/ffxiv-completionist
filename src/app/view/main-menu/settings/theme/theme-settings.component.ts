@@ -13,6 +13,7 @@ export class ThemeSettingsComponent implements OnInit {
     @Input() settings: Settings;
 
     primaryColor: string;
+    primaryText: string;
     fontFamily: string;
 
     constructor(
@@ -23,6 +24,7 @@ export class ThemeSettingsComponent implements OnInit {
 
     ngOnInit() {
         this.primaryColor = this.svcTheme.getStyle('--primary-color');
+        this.primaryText = this.svcTheme.getStyle('--primary-color-text');
         this.fontFamily = this.svcTheme.getStyle('--font-family');
     }
 
@@ -30,8 +32,22 @@ export class ThemeSettingsComponent implements OnInit {
         this.svcTheme.setPrimaryColor(this.primaryColor);
     }
 
+    setPrimaryText(): void {
+        this.svcTheme.setPrimaryText(this.primaryText);
+    }
+
     setFontFamily(): void {
         this.svcTheme.setFontFamily(this.fontFamily);
+    }
+
+    resetTheme() {
+        this.primaryColor = '#0f4c75';
+        this.primaryText = '#121212';
+        this.fontFamily = 'sans-serif';
+
+        this.setPrimaryColor();
+        this.setPrimaryText();
+        this.setFontFamily();
     }
 
 }

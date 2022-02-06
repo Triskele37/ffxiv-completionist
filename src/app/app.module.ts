@@ -35,7 +35,6 @@ const httpLoaderFactory = (http: HttpClient): TranslateHttpLoader => new Transla
                 deps: [HttpClient]
             }
         }),
-
         NavDrawerModule,
         SearchBarModule,
         StatBarModule,

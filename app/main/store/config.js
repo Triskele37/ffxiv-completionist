@@ -37,7 +37,8 @@ exports.configStore = {
             },
             'theme': {
                 'primary-color': '#0f4c75',
-                'font-family': 'Arial, Helvetica, sans-serif'
+                'primary-text': '#121212',
+                'font-family': 'sans-serif'
             }
         };
         // Get if it exists
