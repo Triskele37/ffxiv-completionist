@@ -5,8 +5,8 @@ import chalk from 'chalk';
 /** Reorders the tasks of all groups in TARGET using SOURCE as the baseline order
  * */
 
-const SOURCE = '../resources/en/character/blue-mage/log';
-const TARGET = '../resources/fr/character/blue-mage/log';
+const SOURCE = '../resources/en';
+const TARGET = '../resources/fr';
 
 reorderTasksBySource();
 

@@ -89,6 +89,9 @@ export class ChainService {
         const show = this.chainedTaskCount$.value < this.svcConfig.get('chain-min-threshold');
         chainedGroups.forEach((g) => g.show = show);
 
+        // Sort the new groupings by path
+        chainedGroups.sort((a, b) => a.path.localeCompare(b.path));
+
         this.chainedGroups$.next(chainedGroups);
         this.chainedTaskCount$.next(this.chainedTaskCount$.value + 1);
     }

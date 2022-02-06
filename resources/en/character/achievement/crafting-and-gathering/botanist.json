@@ -1,11 +1,6 @@
 {
     "groupName": "Botanist",
     "tasks": {
-        "2936": {
-            "id": 2936,
-            "name": "Reaping the End",
-            "description": "Gather 5,000 times from level 81-90 mature trees or lush vegetation."
-        },
         "x222": {
             "description": "Log 20 times from level 1-10 mature trees in La Noscea.",
             "name": "Logging the Hours: La Noscea I"
@@ -98,6 +93,10 @@
             "description": "Gather 5,000 times from level 71-80 mature trees or lush vegetation.",
             "name": "Reaping Shadowbringers"
         },
+        "x2936": {
+            "description": "Gather 5,000 times from level 81-90 mature trees or lush vegetation.",
+            "name": "Reaping the End"
+        },
         "x722": {
             "description": "Harvest and record discovery of 25 unique items that can only be gathered as a botanist.",
             "name": "I Found That: Botanist I"
@@ -185,8 +184,7 @@
         "x2816": {
             "name": "An Ode to Botany",
             "description": "As a botanist, submit 50,000 expert recipe materials for the fourth phase of the Ishgardian restoration.",
-            "reward": "The Risensung Botanist",
-            "id": 2816
+            "reward": "The Risensung Botanist"
         }
     }
 }

@@ -1,11 +1,6 @@
 {
     "groupName": "Goldsmith",
     "tasks": {
-        "2931": {
-            "id": 2931,
-            "name": "Cutting the Carats: Genius",
-            "description": "Successfully synthesize 1,000 times for level 81-90 goldsmithing recipes."
-        },
         "x155": {
             "description": "Successfully synthesize 50 times for level 1-10 goldsmithing recipes.",
             "name": "Cutting the Carats: Amateur"
@@ -26,6 +21,10 @@
             "reward": "Of the Golden Leaf",
             "description": "Successfully synthesize 3,000 times for level 41-50 goldsmithing recipes.",
             "name": "Cutting the Carats: Artisan"
+        },
+        "x2931": {
+            "description": "Successfully synthesize 1,000 times for level 81-90 goldsmithing recipes.",
+            "name": "Cutting the Carats: Genius"
         },
         "x160": {
             "reward": "Gavel of the Luminary",
@@ -118,8 +117,7 @@
         "x2810": {
             "name": "An Ode to Gemcraft",
             "description": "As a goldsmith, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
-            "reward": "The Risensung Goldsmith",
-            "id": 2810
+            "reward": "The Risensung Goldsmith"
         },
         "x2824": {
             "name": "Retooled: Resplendent Gemfiend's Mallet",

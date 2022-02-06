@@ -1,11 +1,6 @@
 {
     "groupName": "Miner",
     "tasks": {
-        "2937": {
-            "id": 2937,
-            "name": "Mining the End",
-            "description": "Gather 5,000 times at level 81-90 mineral deposits or rocky outcrops."
-        },
         "x185": {
             "description": "Mine 20 times at level 1-10 mineral deposits in La Noscea.",
             "name": "Mining Your Own Business: La Noscea I"
@@ -98,6 +93,10 @@
             "description": "Gather 5,000 times at level 71-80 mineral deposits or rocky outcrops.",
             "name": "Mining Shadowbringers"
         },
+        "x2937": {
+            "description": "Gather 5,000 times at level 81-90 mineral deposits or rocky outcrops.",
+            "name": "Mining the End"
+        },
         "x719": {
             "description": "Mine and record discovery of 15 unique items that can only be gathered as a miner.",
             "name": "I Found That: Miner I"
@@ -185,8 +184,7 @@
         "x2815": {
             "name": "An Ode to Mining",
             "description": "As a miner, submit 50,000 expert recipe materials for the fourth phase of the Ishgardian restoration.",
-            "reward": "The Risensung Miner",
-            "id": 2815
+            "reward": "The Risensung Miner"
         }
     }
 }

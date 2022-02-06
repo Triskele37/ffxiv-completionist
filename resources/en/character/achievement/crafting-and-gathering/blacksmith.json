@@ -1,11 +1,6 @@
 {
     "groupName": "Blacksmith",
     "tasks": {
-        "2929": {
-            "id": 2929,
-            "name": "Working the Bellows: Genius",
-            "description": "Successfully synthesize 1,000 times for level 81-90 smithing recipes."
-        },
         "x143": {
             "description": "Successfully synthesize 50 times for level 1-10 smithing recipes.",
             "name": "Working the Bellows: Amateur"
@@ -43,6 +38,10 @@
         "x2281": {
             "description": "Successfully synthesize 1,000 times for level 71-80 smithing recipes.",
             "name": "Working the Bellows: Master"
+        },
+        "x2929": {
+            "description": "Successfully synthesize 1,000 times for level 81-90 smithing recipes.",
+            "name": "Working the Bellows: Genius"
         },
         "x698": {
             "description": "Craft and record completion of 40 unique blacksmith recipes.",
@@ -118,8 +117,7 @@
         "x2808": {
             "name": "An Ode to Smithing",
             "description": "As a blacksmith, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
-            "reward": "The Risensung Blacksmith",
-            "id": 2808
+            "reward": "The Risensung Blacksmith"
         },
         "x2822": {
             "name": "Retooled: Resplendent Forgefiend's Hammer",

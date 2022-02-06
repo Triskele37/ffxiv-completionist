@@ -1,11 +1,6 @@
 {
     "groupName": "Leatherworker",
     "tasks": {
-        "2932": {
-            "id": 2932,
-            "name": "Hiding in Plain Sight: Genius",
-            "description": "Successfully synthesize 1,000 times for level 81-90 leatherworking recipes."
-        },
         "x161": {
             "description": "Successfully synthesize 50 times for level 1-10 leatherworking recipes.",
             "name": "Hiding in Plain Sight: Amateur"
@@ -43,6 +38,10 @@
         "x2284": {
             "description": "Successfully synthesize 1,000 times for level 71-80 leatherworking recipes.",
             "name": "Hiding in Plain Sight: Master"
+        },
+        "x2932": {
+            "description": "Successfully synthesize 1,000 times for level 81-90 leatherworking recipes.",
+            "name": "Hiding in Plain Sight: Genius"
         },
         "x707": {
             "description": "Craft and record completion of 40 unique leatherworker recipes.",
@@ -118,8 +117,7 @@
         "x2811": {
             "name": "An Ode to Leathercraft",
             "description": "As a leatherworker, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
-            "reward": "The Risensung Leatherworker",
-            "id": 2811
+            "reward": "The Risensung Leatherworker"
         },
         "x2826": {
             "name": "Retooled: Resplendent Hidefiend's Knife",

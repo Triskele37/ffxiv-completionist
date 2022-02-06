@@ -1,11 +1,6 @@
 {
     "groupName": "Armorer",
     "tasks": {
-        "2930": {
-            "id": 2930,
-            "name": "Pounding Out the Dents: Genius",
-            "description": "Successfully synthesize 1,000 times for level 81-90 armorcraft recipes."
-        },
         "x149": {
             "description": "Successfully synthesize 50 times for level 1-10 armorcraft recipes.",
             "name": "Pounding Out the Dents: Amateur"
@@ -43,6 +38,10 @@
         "x2282": {
             "description": "Successfully synthesize 1,000 times for level 71-80 armorcraft recipes.",
             "name": "Pounding Out the Dents: Master"
+        },
+        "x2930": {
+            "description": "Successfully synthesize 1,000 times for level 81-90 armorcraft recipes.",
+            "name": "Pounding Out the Dents: Genius"
         },
         "x701": {
             "description": "Craft and record completion of 30 unique armorer recipes.",
@@ -118,8 +117,7 @@
         "x2809": {
             "name": "An Ode to Armorcraft",
             "description": "As an armorer, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
-            "reward": "The Risensung Armorer",
-            "id": 2809
+            "reward": "The Risensung Armorer"
         },
         "x2823": {
             "name": "Retooled: Resplendent Hammerfiend's Beetle",

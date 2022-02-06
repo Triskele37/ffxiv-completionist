@@ -1,76 +1,6 @@
 {
     "groupName": "Battle",
     "tasks": {
-        "2990": {
-            "id": 2990,
-            "name": "Tank You, Paladin V",
-            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
-            "reward": "Of Unbreakable Oath"
-        },
-        "2991": {
-            "id": 2991,
-            "name": "Tank You, Warrior V",
-            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
-            "reward": "Of Unbreakable Steel"
-        },
-        "2992": {
-            "id": 2992,
-            "name": "Tank You, Dark Knight V",
-            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
-            "reward": "Of Unbreakable Principle"
-        },
-        "2993": {
-            "id": 2993,
-            "name": "Tank You, Gunbreaker V",
-            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
-            "reward": "Of Unbreakable Lealty"
-        },
-        "3022": {
-            "id": 3022,
-            "name": "Free Market Friend: Labyrinthos",
-            "description": "Achieve shared FATE rank 3 in Labyrinthos."
-        },
-        "3023": {
-            "id": 3023,
-            "name": "Free Market Friend: Thavnair",
-            "description": "Achieve shared FATE rank 3 in Thavnair."
-        },
-        "3024": {
-            "id": 3024,
-            "name": "Free Market Friend: Garlemald",
-            "description": "Achieve shared FATE rank 3 in Garlemald."
-        },
-        "3025": {
-            "id": 3025,
-            "name": "Free Market Friend: Mare Lamentorum",
-            "description": "Achieve shared FATE rank 3 in Mare Lamentorum."
-        },
-        "3026": {
-            "id": 3026,
-            "name": "Free Market Friend: Elpis",
-            "description": "Achieve shared FATE rank 3 in Elpis."
-        },
-        "3027": {
-            "id": 3027,
-            "name": "Free Market Friend: Ultima Thule",
-            "description": "Achieve shared FATE rank 3 in Ultima Thule."
-        },
-        "3028": {
-            "id": 3028,
-            "name": "Far Trade",
-            "description": "Obtain “Free Market Friend” achievements for Labyrinthos, Thavnair, Garlemald, Mare Lamentorum, Elpis, and Ultima Thule.",
-            "reward": "Patron of the Fates"
-        },
-        "3029": {
-            "id": 3029,
-            "name": "Don't Go into the Light",
-            "description": "Successfully complete the FATE “Devout Pilgrims vs. Daivadipa” with the highest rating possible."
-        },
-        "3030": {
-            "id": 3030,
-            "name": "Prototypical",
-            "description": "Successfully complete the FATE “Omicron Recall: Killing Order” with the highest rating possible."
-        },
         "x1": {
             "description": "Defeat 100 enemies.",
             "name": "To Crush Your Enemies I"
@@ -282,6 +212,14 @@
             "description": "Successfully complete the FATE “The Head, the Tail, the Whole Damned Thing” with the highest rating possible.",
             "name": "Another World, Another Turn"
         },
+        "x3029": {
+            "description": "Successfully complete the FATE “Devout Pilgrims vs. Daivadipa” with the highest rating possible.",
+            "name": "Don't Go into the Light"
+        },
+        "x3030": {
+            "description": "Successfully complete the FATE “Omicron Recall: Killing Order” with the highest rating possible.",
+            "name": "Prototypical"
+        },
         "x2343": {
             "description": "Achieve shared FATE rank 3 in Lakeland.",
             "name": "Free Market Friend: Lakeland"
@@ -310,6 +248,35 @@
             "reward": "The Invisible Hand",
             "description": "Obtain “Free Market Friend” achievements for all six regions in Norvrandt.",
             "name": "Merchant's Best Friend"
+        },
+        "x3022": {
+            "description": "Achieve shared FATE rank 3 in Labyrinthos.",
+            "name": "Free Market Friend: Labyrinthos"
+        },
+        "x3023": {
+            "description": "Achieve shared FATE rank 3 in Thavnair.",
+            "name": "Free Market Friend: Thavnair"
+        },
+        "x3024": {
+            "description": "Achieve shared FATE rank 3 in Garlemald.",
+            "name": "Free Market Friend: Garlemald"
+        },
+        "x3025": {
+            "description": "Achieve shared FATE rank 3 in Mare Lamentorum.",
+            "name": "Free Market Friend: Mare Lamentorum"
+        },
+        "x3026": {
+            "description": "Achieve shared FATE rank 3 in Elpis.",
+            "name": "Free Market Friend: Elpis"
+        },
+        "x3027": {
+            "description": "Achieve shared FATE rank 3 in Ultima Thule.",
+            "name": "Free Market Friend: Ultima Thule"
+        },
+        "x3028": {
+            "reward": "Patron of the Fates",
+            "description": "Obtain “Free Market Friend” achievements for Labyrinthos, Thavnair, Garlemald, Mare Lamentorum, Elpis, and Ultima Thule.",
+            "name": "Far Trade"
         },
         "x803": {
             "description": "Successfully complete 10 FATEs.",
@@ -439,6 +406,11 @@
             "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Paladin IV"
         },
+        "x2990": {
+            "reward": "Of Unbreakable Oath",
+            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Paladin V"
+        },
         "x1956": {
             "description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Warrior I"
@@ -457,6 +429,11 @@
             "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Warrior IV"
         },
+        "x2991": {
+            "reward": "Of Unbreakable Steel",
+            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Warrior V"
+        },
         "x1959": {
             "description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Dark Knight I"
@@ -474,6 +451,11 @@
             "reward": "Of Unyielding Principle",
             "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Dark Knight IV"
+        },
+        "x2992": {
+            "reward": "Of Unbreakable Principle",
+            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Dark Knight V"
         },
         "x2390": {
             "description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
@@ -494,6 +476,11 @@
             "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Gunbreaker IV"
         },
+        "x2993": {
+            "reward": "Of Unbreakable Lealty",
+            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Gunbreaker V"
+        },
         "x2451": {
             "description": "Complete 5 types of routine mission in the Blue Mage Log.",
             "name": "Jack of All Trades I"
@@ -510,8 +497,7 @@
         "x2728": {
             "reward": "Blue Ranger",
             "description": "Complete 90 types of routine mission in the Blue Mage Log.",
-            "name": "Jack of All Trades IV",
-            "id": 2728
+            "name": "Jack of All Trades IV"
         },
         "x2454": {
             "description": "Complete the Bowl of Embers (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
@@ -611,59 +597,48 @@
         },
         "x2729": {
             "description": "Complete the Pool of Tribute (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
-            "name": "Mightier than the Revel",
-            "id": 2729
+            "name": "Mightier than the Revel"
         },
         "x2730": {
             "description": "Complete Emanation (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
-            "name": "Mightier than Bliss",
-            "id": 2730
+            "name": "Mightier than Bliss"
         },
         "x2731": {
             "description": "Complete the Minstrel's Ballad: Shinryu's Domain with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
-            "name": "Mightier than the Worm",
-            "id": 2731
+            "name": "Mightier than the Worm"
         },
         "x2732": {
             "description": "Complete the Minstrel's Ballad: Tsukuyomi's Pain with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
-            "name": "Mightier than the Moon",
-            "id": 2732
+            "name": "Mightier than the Moon"
         },
         "x2733": {
             "description": "Complete the Jade Stoa (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
-            "name": "Mightier than the White",
-            "id": 2733
+            "name": "Mightier than the White"
         },
         "x2734": {
             "description": "Complete Hells' Kier (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
-            "name": "Mightier than the Vermilion",
-            "id": 2734
+            "name": "Mightier than the Vermilion"
         },
         "x2735": {
             "description": "Complete the Wreath of Snakes (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
-            "name": "Mightier than the Azure",
-            "id": 2735
+            "name": "Mightier than the Azure"
         },
         "x2736": {
             "description": "Complete Deltascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
-            "name": "Mightier than the Delta",
-            "id": 2736
+            "name": "Mightier than the Delta"
         },
         "x2737": {
             "description": "Complete Sigmascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
-            "name": "Mightier than the Sigma",
-            "id": 2737
+            "name": "Mightier than the Sigma"
         },
         "x2738": {
             "description": "Complete Alphascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
-            "name": "Mightier than the Alpha",
-            "id": 2738
+            "name": "Mightier than the Alpha"
         },
         "x2739": {
             "reward": "The Azure and Omega",
             "description": "Obtain the achievements “Mightier than the Delta,” “Mightier than the Sigma,” and “Mightier than the Alpha.”",
-            "name": "Omega Blue",
-            "id": 2739
+            "name": "Omega Blue"
         }
     }
 }

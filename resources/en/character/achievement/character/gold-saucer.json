@@ -1,18 +1,6 @@
 {
     "groupName": "Gold Saucer",
     "tasks": {
-        "3020": {
-            "id": 3020,
-            "name": "Triple-decker XI",
-            "description": "Obtain 344 unique Triple Triad cards.",
-            "reward": "Zenos Galvus Card"
-        },
-        "3021": {
-            "id": 3021,
-            "name": "Triple Team VIII",
-            "description": "Defeat 107 unique NPCs at Triple Triad.",
-            "reward": "Vrtra Card"
-        },
         "x1083": {
             "reward": "Gambler",
             "description": "Earn 1,000 MGP at Gold Saucer attractions.",
@@ -144,6 +132,11 @@
             "description": "Obtain 300 unique Triple Triad cards.",
             "reward": "Shadowbringers Thancred Card"
         },
+        "x3020": {
+            "reward": "Zenos Galvus Card",
+            "description": "Obtain 344 unique Triple Triad cards.",
+            "name": "Triple-decker XI"
+        },
         "x1103": {
             "description": "Defeat an NPC at Triple Triad.",
             "name": "Triple Team I"
@@ -176,6 +169,11 @@
             "reward": "Ardbert Card",
             "description": "Defeat 92 unique NPCs at Triple Triad.",
             "name": "Triple Team VII"
+        },
+        "x3021": {
+            "reward": "Vrtra Card",
+            "description": "Defeat 107 unique NPCs at Triple Triad.",
+            "name": "Triple Team VIII"
         },
         "x1105": {
             "description": "Win a Triple Triad roulette match.",

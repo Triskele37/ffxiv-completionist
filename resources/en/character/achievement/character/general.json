@@ -1,77 +1,6 @@
 {
     "groupName": "General",
     "tasks": {
-        "2923": {
-            "id": 2923,
-            "name": "Mastering War V",
-            "description": "Achieve level 90 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, machinist, samurai, gunbreaker, dancer, and reaper.",
-            "reward": "At War's Horizon"
-        },
-        "2924": {
-            "id": 2924,
-            "name": "Mastering Magic V",
-            "description": "Achieve level 90 as a conjurer, thaumaturge, arcanist, astrologian, red mage, and sage.",
-            "reward": "At Magic's Horizon"
-        },
-        "2925": {
-            "id": 2925,
-            "name": "A Life of Adventure V",
-            "description": "Obtain the achievements “Mastering War V” and “Mastering Magic V.”",
-            "reward": "Migratory Plume"
-        },
-        "2926": {
-            "id": 2926,
-            "name": "Mastering the Hand V",
-            "description": "Achieve level 90 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
-            "reward": "At Art's Horizon"
-        },
-        "2927": {
-            "id": 2927,
-            "name": "Mastering the Land V",
-            "description": "Achieve level 90 as a miner, botanist, and fisher.",
-            "reward": "At Land's Horizon"
-        },
-        "2972": {
-            "id": 2972,
-            "name": "Bound by Hope",
-            "description": "Achieve trust level 90 with the avatars for Alphinaud, Alisaie, Thancred, Urianger, Y'shtola, G'raha Tia, and Estinien.",
-            "reward": "The Seventh Dawn"
-        },
-        "3003": {
-            "id": 3003,
-            "name": "Freebird: Labyrinthos",
-            "description": "Attune with all the aether currents in Labyrinthos."
-        },
-        "3004": {
-            "id": 3004,
-            "name": "Freebird: Thavnair",
-            "description": "Attune with all the aether currents in Thavnair."
-        },
-        "3005": {
-            "id": 3005,
-            "name": "Freebird: Garlemald",
-            "description": "Attune with all the aether currents in Garlemald."
-        },
-        "3006": {
-            "id": 3006,
-            "name": "Freebird: Mare Lamentorum",
-            "description": "Attune with all the aether currents in Mare Lamentorum."
-        },
-        "3007": {
-            "id": 3007,
-            "name": "Freebird: Elpis",
-            "description": "Attune with all the aether currents in Elpis."
-        },
-        "3008": {
-            "id": 3008,
-            "name": "Freebird: Ultima Thule",
-            "description": "Attune with all the aether currents in Ultima Thule."
-        },
-        "3009": {
-            "id": 3009,
-            "name": "Frequent Flyer IV",
-            "description": "Obtain “Freebird” achievements for Labyrinthos, Thavnair, Garlemald, Mare Lamentorum, Elpis, and Ultima Thule."
-        },
         "x44": {
             "reward": "Warmonger",
             "description": "Achieve level 50 as a gladiator, pugilist, marauder, archer, and lancer.",
@@ -132,6 +61,21 @@
             "description": "Obtain the achievements “Mastering War IV” and “Mastering Magic IV.”",
             "name": "A Life of Adventure IV"
         },
+        "x2923": {
+            "reward": "At War's Horizon",
+            "description": "Achieve level 90 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, machinist, samurai, gunbreaker, dancer, and reaper.",
+            "name": "Mastering War V"
+        },
+        "x2924": {
+            "reward": "At Magic's Horizon",
+            "description": "Achieve level 90 as a conjurer, thaumaturge, arcanist, astrologian, red mage, and sage.",
+            "name": "Mastering Magic V"
+        },
+        "x2925": {
+            "reward": "Migratory Plume",
+            "description": "Obtain the achievements “Mastering War V” and “Mastering Magic V.”",
+            "name": "A Life of Adventure V"
+        },
         "x97": {
             "reward": "Builder of the Realm",
             "description": "Achieve level 50 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
@@ -171,6 +115,16 @@
             "reward": "Soul of the Harvest",
             "description": "Achieve level 80 as a miner, botanist, and fisher.",
             "name": "Mastering the Land IV"
+        },
+        "x2926": {
+            "reward": "At Art's Horizon",
+            "description": "Achieve level 90 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
+            "name": "Mastering the Hand V"
+        },
+        "x2927": {
+            "reward": "At Land's Horizon",
+            "description": "Achieve level 90 as a miner, botanist, and fisher.",
+            "name": "Mastering the Land V"
         },
         "x912": {
             "description": "Complete 5 retainer ventures.",
@@ -276,6 +230,34 @@
         "x2335": {
             "description": "Obtain “Freebird” achievements for Lakeland, Kholusia, Amh Araeng, Il Mheg, the Rak'tika Greatwood, and the Tempest.",
             "name": "Frequent Flyer III"
+        },
+        "x3003": {
+            "description": "Attune with all the aether currents in Labyrinthos.",
+            "name": "Freebird: Labyrinthos"
+        },
+        "x3004": {
+            "description": "Attune with all the aether currents in Thavnair.",
+            "name": "Freebird: Thavnair"
+        },
+        "x3005": {
+            "description": "Attune with all the aether currents in Garlemald.",
+            "name": "Freebird: Garlemald"
+        },
+        "x3006": {
+            "description": "Attune with all the aether currents in Mare Lamentorum.",
+            "name": "Freebird: Mare Lamentorum"
+        },
+        "x3007": {
+            "description": "Attune with all the aether currents in Elpis.",
+            "name": "Freebird: Elpis"
+        },
+        "x3008": {
+            "description": "Attune with all the aether currents in Ultima Thule.",
+            "name": "Freebird: Ultima Thule"
+        },
+        "x3009": {
+            "description": "Obtain “Freebird” achievements for Labyrinthos, Thavnair, Garlemald, Mare Lamentorum, Elpis, and Ultima Thule.",
+            "name": "Frequent Flyer IV"
         },
         "x1472": {
             "description": "Complete 10 duties via Duty Roulette: Mentor.",
@@ -539,6 +521,11 @@
             "reward": "Trusted Friend",
             "description": "Achieve trust level 80 with the avatars for Alphinaud, Alisaie, Thancred, Urianger, Y'shtola, and Ryne.",
             "name": "Bound by Faith"
+        },
+        "x2972": {
+            "reward": "The Seventh Dawn",
+            "description": "Achieve trust level 90 with the avatars for Alphinaud, Alisaie, Thancred, Urianger, Y'shtola, G'raha Tia, and Estinien.",
+            "name": "Bound by Hope"
         }
     }
 }
