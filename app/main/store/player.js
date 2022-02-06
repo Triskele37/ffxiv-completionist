@@ -15,12 +15,22 @@ exports.playerStore = {
         var base = config_1.configStore.store['store-loc'] || electron_1.app.getPath('userData');
         var file = (config_1.configStore.store['store-name'] || 'completion') + '.json';
         exports.playerStore.path = path.join(base, file);
+        exports.playerStore.store = {
+            'overall': {},
+            'bookmarked-groups': [],
+            'bookmarked-tasks': [],
+            'version': ''
+        };
+        // Get if it exists
+        var save = {};
         if (fs.existsSync(exports.playerStore.path)) {
-            exports.playerStore.store = JSON.parse(fs.readFileSync(exports.playerStore.path, 'utf8'));
+            save = JSON.parse(fs.readFileSync(exports.playerStore.path, 'utf8'));
         }
-        else {
-            exports.playerStore.store = {};
-        }
+        // Overwrite with defined properties matching default keys
+        Object.keys(exports.playerStore.store).forEach(function (key) {
+            if (save[key] !== undefined)
+                exports.playerStore.store[key] = save[key];
+        });
     },
     get: function (event) {
         if (!config_1.configStore.store)

@@ -5,7 +5,7 @@ import { Completion } from '@constant';
 import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
-import { ConfigStoreService } from '@service/store/config-store.service';
+import { SaveStoreService } from '@service/store/save-store.service';
 
 /** Handles Group and Task bookmarks
  *
@@ -21,7 +21,7 @@ export class BookmarkService {
 
     constructor(
         private svcData: DataService,
-        private svcConfig: ConfigStoreService
+        private svcSave: SaveStoreService
     ) {
     }
 
@@ -39,7 +39,7 @@ export class BookmarkService {
     // Returns whether something is in the store
     isBookmarked(item: DataGroup | Task): boolean {
         const configKey = (item instanceof DataGroup) ? 'bookmarked-groups' : 'bookmarked-tasks';
-        const bookmarks = this.svcConfig.get(configKey);
+        const bookmarks = this.svcSave.get(configKey);
         return bookmarks.includes(item.fullStorageKey);
     }
 
@@ -55,7 +55,7 @@ export class BookmarkService {
 
     //#region------------------------------------------------------- Tasks
     private initializeBookmarkTasks(): void {
-        this.svcConfig.get('bookmarked-tasks').forEach((fullStorageKey) => {
+        this.svcSave.get('bookmarked-tasks').forEach((fullStorageKey) => {
             // Calculate the path and id
             const path: string[] = fullStorageKey.split('.');
             const id: number = parseInt(path.pop(), 10);
@@ -86,14 +86,14 @@ export class BookmarkService {
 
     // Returns whether the task is now in the store
     private toggleBookmarkTask(task: Task): boolean {
-        const store = this.svcConfig.get('bookmarked-tasks');
+        const store = this.svcSave.get('bookmarked-tasks');
 
         const addBookmark = !store.includes(task.fullStorageKey);
         if(addBookmark) this.addBookmarkTask(store, task);
         else this.removeBookmarkTask(store, task);
 
         this.evaluateTaskCounts();
-        this.svcConfig.set('bookmarked-tasks', store);
+        this.svcSave.set('bookmarked-tasks', store);
 
         return addBookmark;
     }
@@ -122,7 +122,7 @@ export class BookmarkService {
 
     //#region------------------------------------------------------- Groups
     private initializeBookmarkGroups(): void {
-        this.svcConfig.get('bookmarked-groups').forEach((fullStorageKey) => {
+        this.svcSave.get('bookmarked-groups').forEach((fullStorageKey) => {
             const path: string[] = fullStorageKey.split('.');
             path.shift(); // Remove 'Overall' step
 
@@ -134,13 +134,13 @@ export class BookmarkService {
 
     // Returns whether the group is now in the store
     private toggleBookmarkGroup(group: DataGroup): boolean {
-        const store = this.svcConfig.get('bookmarked-groups');
+        const store = this.svcSave.get('bookmarked-groups');
 
         const addBookmark = !store.includes(group.fullStorageKey);
         if(addBookmark) this.addBookmarkGroup(store, group);
         else this.removeBookmarkGroup(store, group);
 
-        this.svcConfig.set('bookmarked-groups', store);
+        this.svcSave.set('bookmarked-groups', store);
         this.onGroupUpdated$.next();
 
         return addBookmark;

@@ -18,13 +18,23 @@ export const playerStore = {
         const file = (configStore.store['store-name'] || 'completion') + '.json';
 
         playerStore.path = path.join(base, file);
+        playerStore.store = {
+            'overall': {},
+            'bookmarked-groups': [],
+            'bookmarked-tasks': [],
+            'version': ''
+        };
 
+        // Get if it exists
+        let save = {};
         if(fs.existsSync(playerStore.path)) {
-            playerStore.store = JSON.parse(fs.readFileSync(playerStore.path, 'utf8'));
+            save = JSON.parse(fs.readFileSync(playerStore.path, 'utf8'));
         }
-        else {
-            playerStore.store = {};
-        }
+
+        // Overwrite with defined properties matching default keys
+        Object.keys(playerStore.store).forEach((key) => {
+            if(save[key] !== undefined) playerStore.store[key] = save[key];
+        });
     },
     get: (event: IpcMainEvent) => {
         if(!configStore.store) configStore.load();

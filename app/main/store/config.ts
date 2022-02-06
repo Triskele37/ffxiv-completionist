@@ -27,8 +27,6 @@ export const configStore = {
                 incomplete: true,
                 excluded: true
             },
-            'bookmarked-groups': [],
-            'bookmarked-tasks': [],
             'window': {
                 x: 100,
                 y: 100,
