@@ -2,29 +2,17 @@ import * as fs from 'fs';
 import * as path from 'path';
 import chalk from 'chalk';
 
-/** Reorders the tasks of all groups in TARGET using SOURCE as the baseline order
+/** Enforces task sort order based on en resources
  * */
-
-const SOURCE = '../resources/en';
-const TARGET = '../resources/fr';
 
 reorderTasksBySource();
 
 function reorderTasksBySource(): void {
-    let message;
-    if(!fs.existsSync(SOURCE)) message = `${SOURCE} does not exist`;
-    if(!fs.existsSync(TARGET)) message = `${TARGET} does not exist`;
+    console.log(`Reordering tasks based on en resources`);
 
-    // Bail if there is an issue with config
-    if(message) {
-        console.error(`Error: ${message}`);
-        return;
-    }
-
-    console.log(`Reordering tasks in ${chalk.green(TARGET)}`);
-    console.log(`   using order from ${chalk.green(SOURCE)}\n`);
-
-    dive(SOURCE, TARGET);
+    ['../resources/common', '../resources/fr',].forEach((TARGET) => {
+        dive('../resources/en', TARGET);
+    });
 
     console.log('Reorder complete');
 }
@@ -93,9 +81,10 @@ function shouldReorder(sourceFile: any, targetFile: any): boolean {
     const targetIds = Object.keys(targetFile.tasks);
 
     // Log tasks that are in source but not target
-    const targetMismatch = sourceIds.some((id, i) => {
+    const targetMismatch = sourceIds.some((id) => {
         if(!targetIds.includes(id)) {
-            console.error(`Target ${targetFile.groupName} missing task ${id}`);
+            const identifier = targetFile.groupName || targetFile.key;
+            console.error(`Target ${identifier} missing task ${id}`);
             return true;
         }
     });
