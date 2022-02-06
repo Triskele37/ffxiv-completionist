@@ -8,8 +8,6 @@ const OUTPUT = 'scripts/getKeyChanges/migration.txt';
 const CHANGES = 'scripts/getKeyChanges/output.json';
 let output = '';
 
-// store.changeKey(AZYS_LLA, 5, 881);
-
 console.log(`Mapping key changes from ${chalk.green(CHANGES)}\n`);
 const changes = JSON.parse(fs.readFileSync(CHANGES, 'utf8'));
 mapKeyChanges();

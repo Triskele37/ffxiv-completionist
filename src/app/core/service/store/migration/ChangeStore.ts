@@ -47,17 +47,37 @@ export class ChangeStore {
         const oldGroup = dive(oldGroupPath, newToNew ? this.newStore : this.oldStore);
         const newGroup = dive(newGroupPath, this.newStore);
 
-        if(!!oldGroup && !!oldGroup[taskId]) {
-            if(!!newGroup) {
+        if(oldGroup?.[taskId]) {
+            if(newGroup) {
                 newGroup[taskId] = oldGroup[taskId];
 
                 // Remove the moved task from the updated store
-                delete dive(oldGroupPath, this.newStore)[taskId];
+                delete oldGroup[taskId];
             }
             else {
                 console.error(`${newGroupPath} does not exist, create it first`);
             }
         }
+    }
+
+    // Change helper when multiple task are in different group
+    moveTasks(oldGroupPath: string, newGroupPath: string, taskIds: ID[], newToNew?: boolean): void {
+        const oldGroup = dive(oldGroupPath, newToNew ? this.newStore : this.oldStore);
+        const newGroup = dive(newGroupPath, this.newStore);
+
+        taskIds.forEach((taskId) => {
+            if(oldGroup?.[taskId]) {
+                if(newGroup) {
+                    newGroup[taskId] = oldGroup[taskId];
+
+                    // Remove the moved task from the updated store
+                    delete oldGroup[taskId];
+                }
+                else {
+                    console.error(`${newGroupPath} does not exist, create it first`);
+                }
+            }
+        });
     }
 
     // Change helper to move an entire group of tasks
@@ -79,14 +99,6 @@ export class ChangeStore {
         else {
             console.error(`Could not move group: ${oldGroupPath}`);
         }
-    }
-
-    // Change helper to create a group
-    createGroup(parentGroupPath: string, groupKey: string): void {
-        const parentGroup = dive(parentGroupPath, this.newStore);
-
-        // Don't nuke the group creation is called on it more than once
-        if(!parentGroup[groupKey]) parentGroup[groupKey] = {};
     }
 
     // Change helper when task is removed
