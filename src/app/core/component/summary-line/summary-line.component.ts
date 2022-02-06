@@ -39,13 +39,14 @@ export class SummaryLineComponent implements OnChanges {
 
     private updateTooltip(): void {
         const { total, totalCompleted, totalExcluded, displayTotal } = this.group;
-        const remaining: number = (total - totalExcluded) - totalCompleted;
-        const weight: number = (displayTotal / this.svcData.data.displayTotal) * 100;
+        const remaining = Math.ceil((total - totalExcluded) - totalCompleted);
+        const weight = (displayTotal / this.svcData.data.displayTotal) * 100;
 
         // Build tooltip line by line
-        this.tooltip = `${totalCompleted} / ${displayTotal}`;
-        this.tooltip += `\nRemaining: ${remaining.toFixed(0)}`;
-        this.tooltip += `\nExcluded: ${totalExcluded}`;
+        this.tooltip = Math.floor(totalCompleted).toLocaleString();
+        this.tooltip += ` / ${displayTotal.toLocaleString()}`;
+        this.tooltip += `\nRemaining: ${remaining.toLocaleString()}`;
+        this.tooltip += `\nExcluded: ${totalExcluded.toLocaleString()}`;
 
         // Don't add weight for overall
         if(weight !== 100) this.tooltip += `\n\nWeight: ${weight.toFixed(3)}%`;

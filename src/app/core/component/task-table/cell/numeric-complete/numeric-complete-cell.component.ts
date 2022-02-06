@@ -19,7 +19,9 @@ export class NumericCompleteCellComponent implements OnChanges {
     percentage: string;
     gradientBackground;
 
-    constructor(private svcStore: SaveStoreService) {
+    constructor(
+        private svcStore: SaveStoreService,
+    ) {
     }
 
     ngOnChanges(changes: SimpleChanges) {
@@ -59,17 +61,14 @@ export class NumericCompleteCellComponent implements OnChanges {
     }
 
     onTaskValueChange(): void {
-        let newValue = parseFloat(this.value) || this.task.minValue;
-        newValue = parseFloat(newValue.toFixed(this.task._parent.numericDecimal));
-
-        // Validate the new value
-        if(newValue < this.task.minValue) newValue = this.task.minValue;
-        if(newValue > this.task.maxValue) newValue = this.task.maxValue;
-
         // Update the new value
-        this.value = newValue.toString();
-        this.update();
-        this.task.changeCompletionNumber(newValue.toString(), true);
-        this.svcStore.set(this.task.fullStorageKey, newValue.toString());
+        this.task.changeCompletionNumber(this.value, true);
+        this.svcStore.set(this.task.fullStorageKey, this.task.completionFlag);
+
+        // onBlur and rebinding value can't happen in the same tick
+        setTimeout(() => {
+            this.value = this.task.completionFlag;
+            this.update();
+        });
     }
 }

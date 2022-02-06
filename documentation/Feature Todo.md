@@ -2,14 +2,12 @@
 **Add**
 - beast tribe quest recipe chaining
 - chain duties to quests & achievements requiring them
-- Shadow Walk With Me should chain Tales to be Told
-- Lighting the Way should grant Bio-Doma V (and Philanthropist?)
 - much of new content needs manual verification of chains
 
 **Change**
-- bookmarks should save on character instead of config
 
 **Fix**
+- new titles missing patch
 - Gathering "view all" issue
 - Build pathing issue to resources "../resources/resources/common/./index.json"
 - Build does not produce an .exe and misses including resources
@@ -21,9 +19,6 @@
 
 ----- Check
 White Oak Branch moved from logging 70 to logging 75 log
-may have excluded the wrong Way of the Arcanist?
-double check known diffs for quests (lots of weirdness with class/job)
-dafuq is going on with q69620
 
 ------------------------------------------------------------------ High Priority
 **Add**
@@ -39,6 +34,9 @@ dafuq is going on with q69620
 
 **Fix**
 - Scholar/Summoner levels don't tie together properly
+- may have excluded the wrong Way of the Arcanist?
+- double check known diffs for quests (lots of weirdness with class/job)
+- weirdness going on with q69620
 
 ------------------------------------------------------------------ Low Priority
 **Add**

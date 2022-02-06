@@ -8,6 +8,8 @@
         [(ngModel)]="value"
         [step]="step"
         [showButtons]="true"
+        [minFractionDigits]="task._parent.numericDecimal"
+        [maxFractionDigits]="task._parent.numericDecimal"
         (onBlur)="onTaskValueChange()"
     ></p-inputNumber>
 

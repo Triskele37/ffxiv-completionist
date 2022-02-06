@@ -213,15 +213,59 @@
         },
         "x2923": {
             "points": 20,
-            "patch": "6.0"
+            "patch": "6.0",
+            "cCombo": [
+                2925
+            ],
+            "cSiblings": [
+                "t.593"
+            ],
+            "cPrevAt": {
+                "90": [
+                    "job.0",
+                    "job.1",
+                    "job.7",
+                    "job.8",
+                    "job.11",
+                    "job.9",
+                    "job.2",
+                    "job.12",
+                    "job.10",
+                    "job.3",
+                    "job.13",
+                    "job.30"
+                ]
+            }
         },
         "x2924": {
             "points": 20,
-            "patch": "6.0"
+            "patch": "6.0",
+            "cCombo": [
+                2925
+            ],
+            "cSiblings": [
+                "t.594"
+            ],
+            "cPrevAt": {
+                "90": [
+                    "job.4",
+                    "job.5",
+                    "job.14",
+                    "job.15",
+                    "job.6",
+                    "job.16",
+                    "job.29"
+                ]
+            }
         },
         "x2925": {
             "points": 30,
-            "patch": "6.0"
+            "patch": "6.0",
+            "cPrev": [
+                2923,
+                2924,
+                2925
+            ]
         },
         "x97": {
             "points": 20,
@@ -357,11 +401,36 @@
         },
         "x2926": {
             "points": 20,
-            "patch": "6.0"
+            "patch": "6.0",
+            "cSiblings": [
+                "t.595"
+            ],
+            "cPrevAt": {
+                "90": [
+                    "job.18",
+                    "job.19",
+                    "job.20",
+                    "job.21",
+                    "job.22",
+                    "job.23",
+                    "job.24",
+                    "job.25"
+                ]
+            }
         },
         "x2927": {
             "points": 20,
-            "patch": "6.0"
+            "patch": "6.0",
+            "cSiblings": [
+                "t.596"
+            ],
+            "cPrevAt": {
+                "80": [
+                    "job.26",
+                    "job.27",
+                    "job.28"
+                ]
+            }
         },
         "x912": {
             "points": 5,
@@ -1215,6 +1284,7 @@
                 2130
             ],
             "cSiblings": [
+                "q.68689",
                 "t.403"
             ]
         },

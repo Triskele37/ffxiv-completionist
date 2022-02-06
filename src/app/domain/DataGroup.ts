@@ -50,12 +50,20 @@ export class DataGroup {
         }
 
         this.isNumericCompletion = !!json.isNumericCompletion;
+        this.numericDecimal = json.numericDecimal;
         this.isCraftingLogGroup = !!(json.isCraftingLogGroup ?? parent?.isCraftingLogGroup);
 
         // Chain inheritance
         if(json.cCombo) this.cCombo = json.cCombo;
 
         if(json.tasks) this.initializeTasks(json.tasks);
+
+        if(this.columns && this.columns[0].key !== 'id') {
+            this.columns.unshift({
+                key: 'id',
+                header: 'ID'
+            });
+        }
 
         return this;
     }

@@ -32,7 +32,6 @@ export class Task {
 
     //#region--------------------------------- Numeric Props
     isNumericCompletion: boolean;
-    defaultValue: number;
     minValue: number;
     maxValue: number;
 
@@ -144,11 +143,11 @@ export class Task {
     //#endregion
 
     setCompletion(flag: CompletionFlag): void {
-        if((Object.values(Completion) as string[]).includes(flag)) {
-            this.setCompletionFlag(flag as Completion);
+        if(this.isNumericCompletion) {
+            this.setCompletionNumber(flag);
         }
         else {
-            this.setCompletionNumber(flag);
+            this.setCompletionFlag(flag as Completion);
         }
     }
 
@@ -192,24 +191,28 @@ export class Task {
 
     //#region------------------------------------------------------- Numeric Mutation
     setCompletionNumber(value: string | number): void {
-        let previousValue: number = parseFloat(this.completionFlag);
-        let newValue: number = typeof value === 'string' ? parseFloat(value) : value;
+        const defaultValue = this.defaultNumericCompletion;
 
-        if(isNaN(newValue)) newValue = isNaN(this.defaultValue) ? 0 : this.defaultValue;
+        // Ensure previous value is a number, assume 0 as default
+        let previousValue: number;
+        if(isNaN(Number(this.completionFlag))) previousValue = defaultValue;
+        else previousValue = parseFloat(this.completionFlag);
+
+        // Ensure the value to set is a number, default to passed default or zero
+        let newValue: number = typeof value === 'string' ? parseFloat(value) : value;
+        if(isNaN(newValue)) newValue = defaultValue;
+        else if(newValue < this.minValue) newValue = defaultValue;
+        else if(newValue > this.maxValue) newValue = this.maxValue;
+
+        // Apply precision
+        newValue = parseFloat(newValue.toFixed(this._parent.numericDecimal));
+
+        // Set the flag
         this.completionFlag = newValue.toString();
 
-        // Restrict values to the minimum defined on the task
-        if(previousValue < this.minValue) {
-            previousValue = parseFloat(this.minValue.toString());
-        }
-
-        // Prevent negative progression
-        if(isNaN(previousValue) || isNaN(newValue) || newValue < this.minValue) {
-            this._parent.updateCompleted(0);
-        }
-        else {
-            this._parent.updateCompleted(newValue - previousValue);
-        }
+        // Get the clamped difference to emit upwards
+        const diff = Math.max(newValue, this.minValue) - Math.max(previousValue, this.minValue);
+        this._parent.updateCompleted(diff);
     }
 
     // returns whether the task chained
@@ -227,6 +230,11 @@ export class Task {
         }
 
         return false;
+    }
+
+    get defaultNumericCompletion(): number {
+        if(isNaN(Number(this.defaultCompletion))) return 0;
+        else return parseFloat(this.defaultCompletion);
     }
 
     //#endregion
