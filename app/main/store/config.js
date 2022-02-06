@@ -34,6 +34,10 @@ exports.configStore = {
                 width: 800,
                 height: 600,
                 max: false
+            },
+            'theme': {
+                'primary-color': '#0f4c75',
+                'font-family': 'Arial, Helvetica, sans-serif'
             }
         };
         // Get if it exists

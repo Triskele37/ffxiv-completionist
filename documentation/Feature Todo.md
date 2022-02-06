@@ -1,7 +1,6 @@
 ------------------------------------------------------------------ Current Release ToDo
 **Add**
 - theme customizer
-- Sort chain overlay groups
 - beast tribe quest recipe chaining
 - chain duties to quests & achievements requiring them
 - Shadow Walk With Me should chain Tales to be Told
@@ -22,8 +21,6 @@
 - Remove old PLD trial weapon recipes
 
 ----- Check
-Double check Amalj'aa "The Gland That Feeds You" is Recognized (46)
-Double check app opens at exact size closed through config
 White Oak Branch moved from logging 70 to logging 75 log
 may have excluded the wrong Way of the Arcanist?
 double check known diffs for quests (lots of weirdness with class/job)

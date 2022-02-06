@@ -1,0 +1,16 @@
+<div class="setting">
+    <label>Primary Color:</label>
+    <p-colorPicker
+        [(ngModel)]="primaryColor"
+        (onChange)="setPrimaryColor()"
+    ></p-colorPicker>
+</div>
+
+<div class="setting">
+    <label>Font:</label>
+    <input
+        pInputText
+        [(ngModel)]="fontFamily"
+        (change)="setFontFamily()"
+    />
+</div>
