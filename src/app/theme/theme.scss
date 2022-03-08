@@ -2,9 +2,16 @@
 @import './primeng';
 
 // App specific overrides
+body {
+    .p-button {
+        &.p-button-link {
+            color: var(--primary-color-light);
+        }
+    }
 
-.p-button {
-    &.p-button-link {
-        color: var(--primary-color-light);
+    .p-buttonset {
+        .p-button:not(:last-child) {
+            border-right: 1px solid var(--primary-color-text);
+        }
     }
 }

@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
-import { Column } from '@domain/Column';
+import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 
 @Component({
@@ -10,7 +10,7 @@ import { Task } from '@domain/Task';
 })
 export class DataRowComponent {
     @Input() dragEnabled: boolean;
-    @Input() columns: Column[];
+    @Input() group: DataGroup;
     @Input() task: Task;
     @Input() rowIndex: number;
     @Output() completionChange = new EventEmitter<void>();

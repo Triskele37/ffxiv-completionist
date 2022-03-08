@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges } from '@angular/core';
 
 import { DataGroup } from '@domain/DataGroup';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
@@ -13,6 +13,7 @@ import { BookmarkService } from '@service/bookmark/bookmark.service';
 })
 export class TableActionOverlayComponent implements OnChanges {
     @Input() group: DataGroup;
+    @Output() toggleExpanded = new EventEmitter<void>();
 
     isVisible: boolean = false;
     isBookmarked: boolean;

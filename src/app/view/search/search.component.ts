@@ -1,8 +1,11 @@
-import { Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { Table } from 'primeng/table';
 
 import { Match, SearchService, Status } from '@service/search/search.service';
+
+type ExpandedRows = {
+    [key: string]: boolean;
+};
 
 @Component({
     selector: 'xiv-search-results',
@@ -13,25 +16,15 @@ export class SearchComponent implements OnInit, OnDestroy {
     private sub: Subscription;
     Status = Status;
 
-    private awaitingExpandChange: boolean = false;
-    private _resultsTable: Table;
-    @ViewChild('resultsTable', { static: false }) set resultsTable(ref: Table) {
-        if(!ref) return;
-        this._resultsTable = ref;
-
-        if(this.awaitingExpandChange) {
-            this.setRowsExpanded(this.svcSearch.searchMatches$.value, true);
-        }
-    }
+    willCollapseAll: boolean = false;
+    expandedRows: ExpandedRows = {};
+    rowKeys: string[];
 
     constructor(public svcSearch: SearchService) {
     }
 
     ngOnInit() {
         this.sub = this.svcSearch.searchMatches$.subscribe((tasks) => {
-            this.awaitingExpandChange = true;
-
-            if(!this._resultsTable) return;
             this.setRowsExpanded(tasks, true);
         });
     }
@@ -41,12 +34,22 @@ export class SearchComponent implements OnInit, OnDestroy {
     }
 
     setRowsExpanded(tasks: Match[], expanded: boolean): void {
-        this._resultsTable.expandedRowKeys = tasks.reduce((acc, match) => {
-            acc[match.task._parent.fullStorageKey] = expanded;
+        this.rowKeys = tasks.map((match) => match.task._parent.fullStorageKey);
+
+        this.expandedRows = this.rowKeys.reduce((acc, key) => {
+            acc[key] = expanded;
             return acc;
         }, {});
 
-        this.awaitingExpandChange = false;
+        this.willCollapseAll = expanded;
+    }
+
+    evaluateToggleAll(wasCollapse: boolean): void {
+        const hasAnyCollapsed = this.rowKeys.some((key) => !this.expandedRows[key]);
+        const hasAnyExpanded = this.rowKeys.some((key) => this.expandedRows[key]);
+
+        if(wasCollapse) this.willCollapseAll = hasAnyExpanded;
+        else this.willCollapseAll = !hasAnyCollapsed;
     }
 
     expandSearch(): void {

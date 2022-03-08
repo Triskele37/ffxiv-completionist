@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 
+import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { NavigationService } from '@service/navigation/navigation.service';
 
@@ -9,6 +10,7 @@ import { NavigationService } from '@service/navigation/navigation.service';
 })
 export class LinkCellComponent {
     @Input() task: Task;
+    @Input() group?: DataGroup;
 
     constructor(private svcNavigation: NavigationService) {
     }

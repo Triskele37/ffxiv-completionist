@@ -3,6 +3,7 @@
 - beast tribe quest recipe chaining
 - chain duties to quests & achievements requiring them
 - much of new content needs manual verification of chains
+- Sightseeing Log Names
 
 **Change**
 
@@ -19,6 +20,9 @@
 
 ----- Check
 White Oak Branch moved from logging 70 to logging 75 log
+
+Possibly move fishing/spearfishing back up a level like sheet to fix view all issue
+verify new sidequests are in definitions
 
 ------------------------------------------------------------------ High Priority
 **Add**

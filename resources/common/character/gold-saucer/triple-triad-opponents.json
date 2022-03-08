@@ -1,420 +1,328 @@
 {
     "key": "triple-triad-opponents",
-    "headers": {
-        "difficulty": {
-            "filterable": true
-        },
-        "rules": {
-            "filterable": true
-        }
-    },
     "tasks": {
         "x0": {
-            "difficulty": "★",
             "patch": "2.51"
         },
         "x1": {
-            "difficulty": "★★",
             "patch": "2.51"
         },
         "x2": {
-            "difficulty": "★★",
             "patch": "5.0"
         },
         "x3": {
-            "difficulty": "★★",
             "patch": "3.0"
         },
         "x4": {
-            "difficulty": "★★",
             "patch": "2.51"
         },
         "x5": {
-            "difficulty": "★★",
             "patch": "2.51"
         },
         "x6": {
-            "difficulty": "★★",
             "patch": "5.0"
         },
         "x7": {
-            "difficulty": "★★",
             "patch": "2.51"
         },
         "x8": {
-            "difficulty": "★★",
             "patch": "4.0"
         },
         "x9": {
-            "difficulty": "★★",
             "patch": "5.0"
         },
         "x10": {
-            "difficulty": "★★",
             "patch": "2.51"
         },
         "x11": {
-            "difficulty": "★★",
             "patch": "2.51"
         },
         "x12": {
-            "difficulty": "★★",
             "patch": "4.0"
         },
         "x13": {
-            "difficulty": "★★",
             "patch": "2.51"
         },
         "x14": {
-            "difficulty": "★★",
             "patch": "3.0"
         },
         "x15": {
-            "difficulty": "★★",
             "patch": "2.51"
         },
         "x16": {
-            "difficulty": "★★",
             "patch": "2.51"
         },
         "x17": {
-            "difficulty": "★★",
             "patch": "2.51"
         },
         "x18": {
-            "difficulty": "★★",
             "patch": "2.51"
         },
         "x19": {
-            "difficulty": "★★",
             "patch": "3.4"
         },
+        "x102": {
+            "patch": "6.0"
+        },
         "x20": {
-            "difficulty": "★★",
             "patch": "2.51"
         },
         "x21": {
-            "difficulty": "★★",
             "patch": "5.0"
         },
         "x22": {
-            "difficulty": "★★",
             "patch": "3.1"
         },
         "x23": {
-            "difficulty": "★★",
             "patch": "2.51"
         },
         "x24": {
-            "difficulty": "★★",
             "patch": "2.51"
         },
         "x25": {
-            "difficulty": "★★",
             "patch": "3.4"
         },
+        "x103": {
+            "patch": "6.0"
+        },
         "x26": {
-            "difficulty": "★★★",
             "patch": "2.51"
         },
         "x27": {
-            "difficulty": "★★★",
             "patch": "4.36"
         },
+        "x104": {
+            "patch": "6.0"
+        },
         "x28": {
-            "difficulty": "★★★",
             "patch": "5.3"
         },
         "x29": {
-            "difficulty": "★★★",
             "patch": "3.0"
         },
         "x30": {
-            "difficulty": "★★★",
             "patch": "5.45"
         },
         "x31": {
-            "difficulty": "★★★",
             "patch": "5.1"
         },
         "x32": {
-            "difficulty": "★★★",
             "patch": "4.0"
         },
         "x33": {
-            "difficulty": "★★★",
             "patch": "5.0"
         },
         "x34": {
-            "difficulty": "★★★",
             "patch": "5.0"
         },
         "x35": {
-            "difficulty": "★★★",
             "patch": "2.51"
         },
         "x36": {
-            "difficulty": "★★★",
             "patch": "4.45"
         },
         "x37": {
-            "difficulty": "★★★",
             "patch": "4.45"
         },
         "x38": {
-            "difficulty": "★★★",
             "patch": "3.2"
         },
         "x39": {
-            "difficulty": "★★★",
             "patch": "3.0"
         },
         "x40": {
-            "difficulty": "★★★",
             "patch": "4.0"
         },
         "x41": {
-            "difficulty": "★★★",
             "patch": "5.0"
         },
         "x42": {
-            "difficulty": "★★★",
             "patch": "3.0"
         },
+        "x105": {
+            "patch": "6.0"
+        },
         "x43": {
-            "difficulty": "★★★",
             "patch": "2.51"
         },
         "x44": {
-            "difficulty": "★★★",
             "patch": "3.4"
         },
         "x45": {
-            "difficulty": "★★★",
             "patch": "3.0"
         },
         "x46": {
-            "difficulty": "★★★",
             "patch": "4.0"
         },
         "x47": {
-            "difficulty": "★★★",
             "patch": "2.51"
         },
         "x48": {
-            "difficulty": "★★★",
             "patch": "5.2"
         },
         "x49": {
-            "difficulty": "★★★",
             "patch": "2.51"
         },
         "x50": {
-            "difficulty": "★★★",
             "patch": "4.0"
         },
         "x51": {
-            "difficulty": "★★★",
             "patch": "4.35"
         },
         "x52": {
-            "difficulty": "★★★",
             "patch": "3.0"
         },
         "x53": {
-            "difficulty": "★★★",
             "patch": "3.0"
         },
         "x54": {
-            "difficulty": "★★★",
             "patch": "4.2"
         },
         "x55": {
-            "difficulty": "★★★★",
             "patch": "5.35"
         },
         "x56": {
-            "difficulty": "★★★★",
             "patch": "2.51"
         },
+        "x106": {
+            "patch": "6.0"
+        },
         "x57": {
-            "difficulty": "★★★★",
             "patch": "3.4"
         },
         "x58": {
-            "difficulty": "★★★★",
             "patch": "5.3"
         },
         "x59": {
-            "difficulty": "★★★★",
             "patch": "2.51"
         },
         "x60": {
-            "difficulty": "★★★★",
             "patch": "3.0"
         },
         "x61": {
-            "difficulty": "★★★★",
             "patch": "5.0"
         },
         "x62": {
-            "difficulty": "★★★★",
             "patch": "2.51"
         },
         "x63": {
-            "difficulty": "★★★★",
             "patch": "4.0"
         },
         "x64": {
-            "difficulty": "★★★★",
             "patch": "5.2"
         },
         "x65": {
-            "difficulty": "★★★★",
             "patch": "4.0"
         },
         "x66": {
-            "difficulty": "★★★★",
             "patch": "2.51"
         },
         "x67": {
-            "difficulty": "★★★★",
             "patch": "4.5"
         },
         "x68": {
-            "difficulty": "★★★★",
             "patch": "4.2"
         },
         "x69": {
-            "difficulty": "★★★★",
             "patch": "2.51"
         },
         "x70": {
-            "difficulty": "★★★★",
             "patch": "4.0"
         },
         "x71": {
-            "difficulty": "★★★★",
             "patch": "3.2"
         },
         "x72": {
-            "difficulty": "★★★★",
             "patch": "2.51"
         },
         "x73": {
-            "difficulty": "★★★★",
             "patch": "3.1"
         },
         "x74": {
-            "difficulty": "★★★★",
             "patch": "5.4"
         },
         "x75": {
-            "difficulty": "★★★★",
             "patch": "2.51"
         },
         "x76": {
-            "difficulty": "★★★★",
             "patch": "3.0"
         },
         "x77": {
-            "difficulty": "★★★★",
             "patch": "4.2"
         },
         "x78": {
-            "difficulty": "★★★★",
             "patch": "2.51"
         },
         "x79": {
-            "difficulty": "★★★★",
             "patch": "3.0"
         },
         "x80": {
-            "difficulty": "★★★★",
             "patch": "3.0"
         },
         "x81": {
-            "difficulty": "★★★★",
             "patch": "3.0"
         },
         "x82": {
-            "difficulty": "★★★★",
             "patch": "4.0"
         },
         "x83": {
-            "difficulty": "★★★★",
             "patch": "4.0"
         },
         "x84": {
-            "difficulty": "★★★★",
             "patch": "2.51"
         },
         "x85": {
-            "difficulty": "★★★★",
             "patch": "2.51"
         },
         "x86": {
-            "difficulty": "★★★★",
             "patch": "2.51"
         },
         "x87": {
-            "difficulty": "★★★★",
             "patch": "3.1"
         },
         "x88": {
-            "difficulty": "★★★★",
             "patch": "2.51"
         },
         "x89": {
-            "difficulty": "★★★★",
             "patch": "2.51"
         },
         "x90": {
-            "difficulty": "★★★★",
             "patch": "2.51"
         },
         "x101": {
-            "difficulty": "★★★★",
             "patch": "5.55"
         },
         "x91": {
-            "difficulty": "★★★★",
             "patch": "3.1"
         },
         "x92": {
-            "difficulty": "★★★★",
             "patch": "4.0"
         },
         "x93": {
-            "difficulty": "★★★★",
             "patch": "3.1"
         },
         "x94": {
-            "difficulty": "★★★★",
             "patch": "3.0"
         },
+        "x107": {
+            "patch": "6.0"
+        },
         "x95": {
-            "difficulty": "★★★★",
             "patch": "3.0"
         },
         "x96": {
-            "difficulty": "★★★★★",
             "patch": "3.1"
         },
         "x97": {
-            "difficulty": "★★★★★",
             "patch": "2.51"
         },
         "x98": {
-            "difficulty": "★★★★★",
             "patch": "4.2"
         },
         "x99": {
-            "difficulty": "★★★★★",
             "patch": "2.51"
         },
         "x100": {
-            "difficulty": "★★★★★",
             "patch": "2.51"
         }
     }

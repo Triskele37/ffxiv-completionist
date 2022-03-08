@@ -50,6 +50,15 @@
                     width: 24px;
                 }
             }
+
+            // Clear button for pure text filters
+            .pi.pi-times {
+                position: absolute;
+                right: 15px;
+                top: 55%;
+
+                cursor: pointer;
+            }
         }
 
         th {

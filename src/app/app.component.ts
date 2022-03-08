@@ -7,6 +7,8 @@ import { DataService } from '@data';
 import { ElectronService } from '@service/electron/electron.service';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { CustomTaskService } from '@service/custom-task/custom-task.service';
+
+import { ChainService } from '@service/chain/chain.service';
 import { ThemeService } from '@service/theme/theme.service';
 
 @Component({
@@ -25,6 +27,7 @@ export class AppComponent implements OnInit {
         private svcBookmark: BookmarkService,
         private svcCustomTask: CustomTaskService,
         private svcTheme: ThemeService, // inits theme
+        private svcChain: ChainService // inits chain
     ) {
         this.translate.setDefaultLang('en');
 

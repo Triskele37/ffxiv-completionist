@@ -1,10 +1,18 @@
 {
     "groupName": "ARR",
+    "headers": {
+        "vista": "#",
+        "name": "Name",
+        "zone": "Zone",
+        "location": "Location",
+        "weather": "Weather",
+        "time": "Time",
+        "emote": "Emote"
+    },
     "tasks": {
         "x0": {
             "name": "Barracuda Piers",
             "zone": "Limsa Lominsa Upper Decks",
-            "location": "The Bismarck (9,7)",
             "weather": "Clear Skies/Sunshine",
             "time": "8AM-12PM",
             "emote": "Lookout"
@@ -12,7 +20,6 @@
         "x1": {
             "name": "The Astalicia",
             "zone": "Limsa Lominsa Lower Decks",
-            "location": "The Astalicia (7,15)",
             "weather": "Clear Skies/Sunshine",
             "time": "6PM-5AM",
             "emote": "Lookout"
@@ -20,7 +27,6 @@
         "x2": {
             "name": "Seasong Grotto",
             "zone": "Middle La Noscea",
-            "location": "Summerford (20,19)",
             "weather": "Rain/Showers",
             "time": "5AM-8AM",
             "emote": "Pray"
@@ -28,7 +34,6 @@
         "x3": {
             "name": "The Skylift",
             "zone": "Middle La Noscea",
-            "location": "Three-malm Bend (16,17)",
             "weather": "Clear Skies/Sunshine",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -36,7 +41,6 @@
         "x4": {
             "name": "La Thagran Eastroad",
             "zone": "Middle La Noscea",
-            "location": "Zephyr Drift (25,27)",
             "weather": "Clouds",
             "time": "8AM-12PM",
             "emote": "Lookout"
@@ -44,7 +48,6 @@
         "x5": {
             "name": "The Salt Strand",
             "zone": "Lower La Noscea",
-            "location": "The Gods' Grip (23,40)",
             "weather": "Clear Skies/Sunshine",
             "time": "6PM-1AM",
             "emote": "Lookout"
@@ -52,7 +55,6 @@
         "x6": {
             "name": "Red Rooster Stead",
             "zone": "Lower La Noscea",
-            "location": "Cedarwood (33,19)",
             "weather": "Fog",
             "time": "5AM-8AM",
             "emote": "Lookout"
@@ -60,7 +62,6 @@
         "x7": {
             "name": "Brewer's Beacon",
             "zone": "Western La Noscea",
-            "location": "Skull Valley (29,30)",
             "weather": "Clear Skies/Sunshine",
             "time": "5AM-8AM",
             "emote": "Lookout"
@@ -68,7 +69,6 @@
         "x8": {
             "name": "The Leatherworkers' Guild",
             "zone": "Old Gridania",
-            "location": "Leatherworker's Guild (12,8)",
             "weather": "Clouds",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -76,7 +76,6 @@
         "x9": {
             "name": "Apkallu Falls",
             "zone": "Old Gridania",
-            "location": "Apkallu Falls (10,6)",
             "weather": "Clear Skies/Sunshine",
             "time": "6PM-5AM",
             "emote": "Lookout"
@@ -84,7 +83,6 @@
         "x10": {
             "name": "Bentbranch Meadows",
             "zone": "Central Shroud",
-            "location": "Bentbranch (21,21)",
             "weather": "Clear Skies/Sunshine",
             "time": "12PM-4PM",
             "emote": "Sit"
@@ -92,7 +90,6 @@
         "x11": {
             "name": "The Sanctum of the Twelve",
             "zone": "East Shroud",
-            "location": "The Bramble Patch (17,18)",
             "weather": "Clear Skies/Sunshine",
             "time": "8AM-12PM",
             "emote": "Pray"
@@ -100,7 +97,6 @@
         "x12": {
             "name": "Little Solace",
             "zone": "East Shroud",
-            "location": "Nine Ivies (22,26)",
             "weather": "Clear Skies/Sunshine",
             "time": "6PM-5AM",
             "emote": "Lookout"
@@ -108,7 +104,6 @@
         "x13": {
             "name": "Royal Promenade",
             "zone": "Ul'dah - Steps of Thal",
-            "location": "Hustings Strip (11,11)",
             "weather": "Clear Skies/Sunshine",
             "time": "5AM-8AM",
             "emote": "Salute"
@@ -116,7 +111,6 @@
         "x14": {
             "name": "The Gold Court",
             "zone": "Ul'dah - Steps of Thal",
-            "location": "The Gold Court (11,11)",
             "weather": "Clouds",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -124,7 +118,6 @@
         "x15": {
             "name": "The Jewel of the Desert",
             "zone": "Western Thanalan",
-            "location": "Horizon's Edge (22,22)",
             "weather": "Clear Skies/Sunshine",
             "time": "6PM-2AM",
             "emote": "Lookout"
@@ -132,7 +125,6 @@
         "x16": {
             "name": "The Ruins of Sil'dih",
             "zone": "Central Thanalan",
-            "location": "Black Brush (15,22)",
             "weather": "Fog",
             "time": "8AM-12PM",
             "emote": "Lookout"
@@ -140,7 +132,6 @@
         "x17": {
             "name": "The Lonely Giant",
             "zone": "Eastern Thanalan",
-            "location": "Drybone (19,24)",
             "weather": "Rain/Showers",
             "time": "5PM-6PM",
             "emote": "Comfort"
@@ -148,7 +139,6 @@
         "x18": {
             "name": "The Invisible City",
             "zone": "Eastern Thanalan",
-            "location": "Drybone (14,18)",
             "weather": "Clouds",
             "time": "8AM-12PM",
             "emote": "Lookout"
@@ -156,7 +146,6 @@
         "x19": {
             "name": "Highbridge",
             "zone": "Eastern Thanalan",
-            "location": "Wellwick Wood (21,20)",
             "weather": "Clear Skies/Sunshine",
             "time": "5AM-8AM",
             "emote": "Pray"
@@ -164,7 +153,6 @@
         "x20": {
             "name": "Woad Whisper Canyon",
             "zone": "Middle La Noscea",
-            "location": "Three-malm Bend (19,13)",
             "weather": "Clear Skies/Sunshine",
             "time": "12PM-4PM",
             "emote": "Lookout"
@@ -172,7 +160,6 @@
         "x21": {
             "name": "Summerford Farms",
             "zone": "Middle La Noscea",
-            "location": "Summerford (25,17)",
             "weather": "Clear Skies/Sunshine",
             "time": "5AM-7AM",
             "emote": "Lookout"
@@ -180,7 +167,6 @@
         "x22": {
             "name": "The Grey Fleet",
             "zone": "Lower La Noscea",
-            "location": "Cedarwood (31, 12)",
             "weather": "Rain/Showers",
             "time": "12PM-4PM",
             "emote": "Lookout"
@@ -188,7 +174,6 @@
         "x23": {
             "name": "Hidden Falls",
             "zone": "Eastern La Noscea",
-            "location": "Bloodshore (32,23)",
             "weather": "Clear Skies/Sunshine",
             "time": "8AM-12PM",
             "emote": "Sit"
@@ -196,7 +181,6 @@
         "x24": {
             "name": "Gullperch Tower",
             "zone": "Eastern La Noscea",
-            "location": "Bloodshore (29,33)",
             "weather": "Rain/Showers",
             "time": "6PM-4AM",
             "emote": "Lookout"
@@ -204,7 +188,6 @@
         "x25": {
             "name": "The Navigator",
             "zone": "Western La Noscea",
-            "location": "Skull Valley (26,26)",
             "weather": "Clear Skies/Sunshine",
             "time": "5PM-6PM",
             "emote": "Pray"
@@ -212,7 +195,6 @@
         "x26": {
             "name": "The Ship Graveyard",
             "zone": "Western La Noscea",
-            "location": "The Isles of Umbra (17,36)",
             "weather": "Gales",
             "time": "6PM-5AM",
             "emote": "Lookout"
@@ -220,7 +202,6 @@
         "x27": {
             "name": "Camp Skull Valley",
             "zone": "Western La Noscea",
-            "location": "Skull Valley (22,22)",
             "weather": "Clear Skies/Sunshine",
             "time": "8AM-12PM",
             "emote": "Lookout"
@@ -228,7 +209,6 @@
         "x28": {
             "name": "Tidegate",
             "zone": "Western La Noscea",
-            "location": "Skull Valley (19,23)",
             "weather": "Clear Skies/Sunshine",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -236,7 +216,6 @@
         "x29": {
             "name": "Camp Bronze Lake",
             "zone": "Upper La Noscea",
-            "location": "Bronze Lake (30,22)",
             "weather": "Clear Skies/Sunshine",
             "time": "5PM-6PM",
             "emote": "Lookout"
@@ -244,7 +223,6 @@
         "x30": {
             "name": "Thalaos",
             "zone": "Upper La Noscea",
-            "location": "Oakwood (12,22)",
             "weather": "Clear Skies/Sunshine",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -252,7 +230,6 @@
         "x31": {
             "name": "Jijiroon's Trading Post",
             "zone": "Upper La Noscea",
-            "location": "Bronze Lake (29,25)",
             "weather": "Thunderstorms",
             "time": "6PM-5AM",
             "emote": "Lookout"
@@ -260,7 +237,6 @@
         "x32": {
             "name": "The Floating City of Nym",
             "zone": "Outer La Noscea",
-            "location": "The Long Climb (12,15)",
             "weather": "Clear Skies/Sunshine",
             "time": "6PM-5AM",
             "emote": "Lookout"
@@ -268,7 +244,6 @@
         "x33": {
             "name": "Camp Overlook",
             "zone": "Outer La Noscea",
-            "location": "The Long Climb (17,16)",
             "weather": "Clouds",
             "time": "5AM-8AM",
             "emote": "Lookout"
@@ -276,7 +251,6 @@
         "x34": {
             "name": "U'Ghamaro Mines",
             "zone": "Outer La Noscea",
-            "location": "Iron Lake (23,11)",
             "weather": "Clear Skies/Sunshine",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -284,7 +258,6 @@
         "x35": {
             "name": "The Hermit's Hovel",
             "zone": "Outer La Noscea",
-            "location": "The Long Climb (15,9)",
             "weather": "Rain/Showers",
             "time": "6PM-5AM",
             "emote": "Sit"
@@ -292,7 +265,6 @@
         "x36": {
             "name": "The Carline Canopy",
             "zone": "New Gridania",
-            "location": "Blue Badger Gate (14,14)",
             "weather": "Clear Skies/Sunshine",
             "time": "8AM-12PM",
             "emote": "Lookout"
@@ -300,7 +272,6 @@
         "x37": {
             "name": "The Lancers' Guild",
             "zone": "Old Gridania",
-            "location": "Wailing Barracks (14,5)",
             "weather": "Rain/Showers",
             "time": "5AM-8AM",
             "emote": "Lookout"
@@ -308,7 +279,6 @@
         "x38": {
             "name": "The Bannock",
             "zone": "Central Shroud",
-            "location": "Jadeite Thick (23,19)",
             "weather": "Rain/Showers",
             "time": "5AM-8AM",
             "emote": "Lookout"
@@ -316,7 +286,6 @@
         "x39": {
             "name": "Haukke Manor",
             "zone": "Central Shroud",
-            "location": "Sorrel Haven (13,23)",
             "weather": "Clear Skies/Sunshine",
             "time": "6PM-5AM",
             "emote": "Lookout"
@@ -324,7 +293,6 @@
         "x40": {
             "name": "The Guardian Tree",
             "zone": "Central Shroud",
-            "location": "Sorrel Haven (16,22)",
             "weather": "Clear Skies/Sunshine",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -332,7 +300,6 @@
         "x41": {
             "name": "Rainbow Bridge",
             "zone": "Central Shroud",
-            "location": "Jadeite Thick (26,18)",
             "weather": "Clear Skies/Sunshine",
             "time": "11AM-1PM",
             "emote": "Lookout"
@@ -340,7 +307,6 @@
         "x42": {
             "name": "The Seedbed",
             "zone": "East Shroud",
-            "location": "Sylphlands (20,10)",
             "weather": "Thunder",
             "time": "6PM-8AM",
             "emote": "Lookout"
@@ -348,7 +314,6 @@
         "x43": {
             "name": "Buscarron's Druthers",
             "zone": "South Shroud",
-            "location": "Upper Paths (17,20)",
             "weather": "Thunderstorms",
             "time": "8AM-12PM",
             "emote": "Lookout"
@@ -356,7 +321,6 @@
         "x44": {
             "name": "South Shroud Landing",
             "zone": "South Shroud",
-            "location": "Lower Paths (14,33)",
             "weather": "Clear Skies/Sunshine",
             "time": "8AM-12PM",
             "emote": "Lookout"
@@ -364,7 +328,6 @@
         "x45": {
             "name": "Urth's Gift",
             "zone": "South Shroud",
-            "location": "Urth's Gift (33,23)",
             "weather": "Fog",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -372,7 +335,6 @@
         "x46": {
             "name": "Quarrymill",
             "zone": "South Shroud",
-            "location": "Silent Arbor (25,21)",
             "weather": "Clear Skies/Sunshine",
             "time": "5AM-8AM",
             "emote": "Lookout"
@@ -380,7 +342,6 @@
         "x47": {
             "name": "Ixali Logging Grounds",
             "zone": "North Shroud",
-            "location": "Proud Creek (18,19)",
             "weather": "Clear Skies/Sunshine",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -388,7 +349,6 @@
         "x48": {
             "name": "Fallen Neurolink",
             "zone": "North Shroud",
-            "location": "Alder Springs (16,31)",
             "weather": "Clear Skies/Sunshine",
             "time": "6PM-5AM",
             "emote": "Lookout"
@@ -396,7 +356,6 @@
         "x49": {
             "name": "Alder Springs",
             "zone": "North Shroud",
-            "location": "Alder Springs (15,27)",
             "weather": "Clouds",
             "time": "8AM-12PM",
             "emote": "Lookout"
@@ -404,7 +363,6 @@
         "x50": {
             "name": "Castrum Marinum",
             "zone": "Western Thanalan",
-            "location": "Cape Westwind (8,5)",
             "weather": "Clear Skies/Sunshine",
             "time": "5PM-6PM",
             "emote": "Lookout"
@@ -412,7 +370,6 @@
         "x51": {
             "name": "Vesper Bay",
             "zone": "Western Thanalan",
-            "location": "The Footfalls (12,14)",
             "weather": "Clear Skies/Sunshine",
             "time": "12PM-5PM",
             "emote": "Point"
@@ -420,7 +377,6 @@
         "x52": {
             "name": "Black Brush Station",
             "zone": "Central Thanalan",
-            "location": "Black Brush (21,17)",
             "weather": "Dust Storms",
             "time": "6PM-5AM",
             "emote": "Lookout"
@@ -428,7 +384,6 @@
         "x53": {
             "name": "Gate of Nald",
             "zone": "Central Thanalan",
-            "location": "Spineless Basin (18,26)",
             "weather": "Clear Skies/Sunshine",
             "time": "12PM-5PM",
             "emote": "Sit"
@@ -436,7 +391,6 @@
         "x54": {
             "name": "The Burning Wall",
             "zone": "Eastern Thanalan",
-            "location": "The Burning Wall (30,26)",
             "weather": "Clear Skies/Sunshine",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -444,7 +398,6 @@
         "x55": {
             "name": "The Golden Bazaar",
             "zone": "Eastern Thanalan",
-            "location": "Drybone (10,16)",
             "weather": "Clear Skies/Sunshine",
             "time": "8AM-12PM",
             "emote": "Lookout"
@@ -452,7 +405,6 @@
         "x56": {
             "name": "Thal's Respite",
             "zone": "Eastern Thanalan",
-            "location": "Wellwick Wood (25,14)",
             "weather": "Rain/Showers",
             "time": "6PM-5AM",
             "emote": "Pray"
@@ -460,7 +412,6 @@
         "x57": {
             "name": "Nald's Reflection",
             "zone": "Southern Thanalan",
-            "location": "The Red Labyrinth (12,22)",
             "weather": "Fog",
             "time": "5AM-8AM",
             "emote": "Pray"
@@ -468,7 +419,6 @@
         "x58": {
             "name": "Zahar'ak",
             "zone": "Southern Thanalan",
-            "location": "Zanr'ak (19,20)",
             "weather": "Clear Skies/Sunshine",
             "time": "5AM-8AM",
             "emote": "Lookout"
@@ -476,7 +426,6 @@
         "x59": {
             "name": "The Sagolii Desert",
             "zone": "Southern Thanalan",
-            "location": "Sagolii Desert (21,38)",
             "weather": "Heat Waves",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -484,7 +433,6 @@
         "x60": {
             "name": "The Sunken Temple of Qarn",
             "zone": "Southern Thanalan",
-            "location": "Broken Water (23,11)",
             "weather": "Clear Skies/Sunshine",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -492,7 +440,6 @@
         "x61": {
             "name": "Minotaur Malm",
             "zone": "Southern Thanalan",
-            "location": "Sagolii Desert (14,26)",
             "weather": "Heat Waves",
             "time": "5AM-8AM",
             "emote": "Psych"
@@ -500,7 +447,6 @@
         "x62": {
             "name": "East Watchtower",
             "zone": "Northern Thanalan",
-            "location": "Bluefog (22,25)",
             "weather": "Clear Skies/Sunshine",
             "time": "5AM-8AM",
             "emote": "Salute"
@@ -508,7 +454,6 @@
         "x63": {
             "name": "Ceruleum Pipeline",
             "zone": "Northern Thanalan",
-            "location": "Bluefog (20,29)",
             "weather": "Clear Skies/Sunshine",
             "time": "6PM-5AM",
             "emote": "Lookout"
@@ -516,7 +461,6 @@
         "x64": {
             "name": "Bluefog",
             "zone": "Northern Thanalan",
-            "location": "Bluefog (20,22)",
             "weather": "Clear Skies/Sunshine",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -524,7 +468,6 @@
         "x65": {
             "name": "Raubahn's Push",
             "zone": "Northern Thanalan",
-            "location": "Bluefog (20,17)",
             "weather": "Clouds",
             "time": "8AM-12PM",
             "emote": "Lookout"
@@ -532,7 +475,6 @@
         "x66": {
             "name": "Abandoned Amajina Mythril Mine",
             "zone": "Northern Thanalan",
-            "location": "Bluefog (26,22)",
             "weather": "Fog",
             "time": "6PM-5AM",
             "emote": "Lookout"
@@ -540,7 +482,6 @@
         "x67": {
             "name": "The Nail",
             "zone": "Coerthas Central Highlands",
-            "location": "Dragonhead (25,29)",
             "weather": "Clear Skies/Sunshine",
             "time": "5PM-6PM",
             "emote": "Lookout"
@@ -548,7 +489,6 @@
         "x68": {
             "name": "The Observatorium",
             "zone": "Coerthas Central Highlands",
-            "location": "Dragonhead (25,29)",
             "weather": "Fog",
             "time": "6PM-5AM",
             "emote": "Lookout"
@@ -556,7 +496,6 @@
         "x69": {
             "name": "The Frozen Fang",
             "zone": "Coerthas Central Highlands",
-            "location": "Whitebrim (11,15)",
             "weather": "Blizzards",
             "time": "8AM-12PM",
             "emote": "Lookout"
@@ -564,7 +503,6 @@
         "x70": {
             "name": "The Holy See of Ishgard",
             "zone": "Coerthas Central Highlands",
-            "location": "Whitebrim (12,17)",
             "weather": "Clear Skies/Sunshine",
             "time": "5AM-8AM",
             "emote": "Lookout"
@@ -572,7 +510,6 @@
         "x71": {
             "name": "Boulder Downs",
             "zone": "Coerthas Central Highlands",
-            "location": "Boulder Downs (7,28)",
             "weather": "Clear Skies/Sunshine",
             "time": "5PM-6PM",
             "emote": "Lookout"
@@ -580,7 +517,6 @@
         "x72": {
             "name": "The Fury's Gaze",
             "zone": "Coerthas Central Highlands",
-            "location": "Boulder Downs (7,31)",
             "weather": "Blizzards",
             "time": "6PM-5AM",
             "emote": "Lookout"
@@ -588,7 +524,6 @@
         "x73": {
             "name": "Snowcloak",
             "zone": "Coerthas Central Highlands",
-            "location": "Whitebrim (2,21)",
             "weather": "Clear Skies/Sunshine",
             "time": "8AM-12PM",
             "emote": "Lookout"
@@ -596,7 +531,6 @@
         "x74": {
             "name": "Camp Dragonhead",
             "zone": "Coerthas Central Highlands",
-            "location": "Dragonhead (26,17)",
             "weather": "Clear Skies/Sunshine",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -604,7 +538,6 @@
         "x75": {
             "name": "The Steel Vigil",
             "zone": "Coerthas Central Highlands",
-            "location": "Providence Point (28,10)",
             "weather": "Clear Skies/Sunshine",
             "time": "5AM-8AM",
             "emote": "Lookout"
@@ -612,7 +545,6 @@
         "x76": {
             "name": "Castrum Centri",
             "zone": "Mor Dhona",
-            "location": "Fogfens (9,13)",
             "weather": "Gloom",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -620,7 +552,6 @@
         "x77": {
             "name": "The Crystal Tower",
             "zone": "Mor Dhona",
-            "location": "North Silvertear (27,8)",
             "weather": "Clear Skies/Sunshine",
             "time": "6PM-5AM",
             "emote": "Lookout"
@@ -628,7 +559,6 @@
         "x78": {
             "name": "Rathefrost",
             "zone": "Mor Dhona",
-            "location": "Fogfens (18,17)",
             "weather": "Clear Skies/Sunshine",
             "time": "12PM-5PM",
             "emote": "Lookout"
@@ -636,7 +566,6 @@
         "x79": {
             "name": "The Keeper of the Lake",
             "zone": "Mor Dhona",
-            "location": "North Silvertear (26,11)",
             "weather": "Clear Skies/Sunshine",
             "time": "5PM-6PM",
             "emote": "Sit"

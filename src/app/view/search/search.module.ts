@@ -6,7 +6,10 @@ import { InputTextModule } from 'primeng/inputtext';
 import { TableModule } from 'primeng/table';
 import { TooltipModule } from 'primeng/tooltip';
 
+import { CompleteCellModule } from '@component/task-table/cell/complete/complete-cell.module';
+import { NumericCompleteCellModule } from '@component/task-table/cell/numeric-complete/numeric-complete-cell.module';
 import { LinkCellModule } from '@component/task-table/cell/link/link-cell.module';
+
 import { GroupLinkModule } from '../../core/pipe/group-link.pipe';
 import { SearchComponent } from './search.component';
 
@@ -22,6 +25,8 @@ import { SearchComponent } from './search.component';
         TableModule,
         TooltipModule,
 
+        CompleteCellModule,
+        NumericCompleteCellModule,
         LinkCellModule,
         GroupLinkModule,
     ],

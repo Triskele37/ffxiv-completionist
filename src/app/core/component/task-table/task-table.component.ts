@@ -1,5 +1,4 @@
 import { ChangeDetectorRef, Component, Input, OnChanges, OnDestroy, SimpleChanges, ViewChild } from '@angular/core';
-import { Subscription } from 'rxjs';
 import { Table } from 'primeng/table';
 
 import { Completion } from '@constant';
@@ -7,10 +6,13 @@ import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { SaveStoreService } from '@service/store/save-store.service';
-import { debounceTime } from 'rxjs/operators';
 
 type UniqueValues = {
     [column: string]: string[];
+};
+
+type ExpandedGroups = {
+    [key: string]: boolean;
 };
 
 @Component({
@@ -23,44 +25,8 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
     @Input() tasks: Task[];
     @Input() groupRows: boolean;
 
-    //#region----------------------------------------------------------- Fix virtual header
-    private scrolledSub: Subscription;
-    private _taskTable: Table;
-
-    @ViewChild('taskTable', { static: false }) set taskTable(ref: Table) {
-        if(!ref) return;
-        this._taskTable = ref;
-
-        // Bail if the table does not have virtual scroll
-        if(!ref.virtualScrollBody) return;
-        this.scrolledSub?.unsubscribe();
-
-        //@ts-ignore
-        ref.virtualScrollBody._elementScrolled
-            .pipe(debounceTime(10))
-            .subscribe(() => {
-                const transform: number = parseInt(
-                    //@ts-ignore
-                    this._taskTable.virtualScrollBody._renderedContentTransform
-                        .replace('translateY(', '')
-                        .replace('px)', ''),
-                    10
-                );
-
-                const headers = this._taskTable.el.nativeElement.getElementsByTagName('th');
-                for(const header of headers) {
-                    header.style.top = `${-transform}px`;
-                }
-            });
-    }
-
-    ngOnDestroy() {
-        this.scrolledSub?.unsubscribe();
-    }
-
-    //#endregion
-
     debounceDrag: boolean;
+    expandedGroups: ExpandedGroups = {};
 
     uniqueValues: UniqueValues;
     filteredTasks: Task[];
@@ -68,6 +34,14 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
     filters = {
         completion: {}
     };
+
+    private _taskTable: Table;
+
+    @ViewChild('taskTable', { static: false }) set taskTable(ref: Table) {
+        if(!ref) return;
+        this._taskTable = ref;
+        this.observeVirtualWrapper();
+    }
 
     constructor(
         private cdr: ChangeDetectorRef,
@@ -80,52 +54,12 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
     ngOnChanges(changes: SimpleChanges) {
         if(changes.group || changes.tasks) {
             this.updateFilteredTasks();
+            this.adjustVirtualHeader();
         }
     }
 
-    updateFilteredTasks() {
-        this.filteredTasks = this._filteredTasks;
-        this.uniqueValues = this._uniqueValues;
-        this.cdr.detectChanges();
-    }
-
-    onFilterChange(filters) {
-        this.filters = filters;
-        this.updateFilteredTasks();
-    }
-
-    onRowReorder($event: { dragIndex: number; dropIndex: number }): void {
-        // Bail if nothing moved
-        if($event.dragIndex === $event.dropIndex) return;
-
-        // Move the dragged task in the tasks array
-        if($event.dragIndex < $event.dropIndex) {
-            const task = this.tasks.splice($event.dragIndex, 1)[0];
-            this.tasks.splice($event.dropIndex, 0, task);
-        }
-        else {
-            const task = this.tasks.splice($event.dragIndex, 1)[0];
-            this.tasks.splice($event.dropIndex, 0, task);
-        }
-
-        // Reorder saved
-        const customFlags = this.svcSaveStore.get('overall.custom');
-        const customMeta = this.svcSaveStore.get('custom');
-        const newFlags = {}, newMeta = {};
-
-        this.tasks.forEach((task) => {
-            const key = `x${task.id}`;
-            newFlags[task.id] = customFlags[task.id];
-            newMeta[key] = customMeta[key];
-        });
-
-        // Assign re-ordered objects, save to file
-        this.svcSaveStore.set('overall.custom', newFlags);
-        this.svcSaveStore.set('custom', newMeta);
-
-        // Debounce dragging since its tied to file write
-        this.debounceDrag = true;
-        setTimeout(() => this.debounceDrag = false, 1000);
+    ngOnDestroy() {
+        this.observer?.disconnect();
     }
 
     //#region----------------------------------------------------------- Computed
@@ -161,6 +95,9 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
         return unique;
     }
 
+    //#endregion
+
+    //#region----------------------------------------------------------- Filter
     get _filteredTasks(): Task[] {
         let filtered = [...this.tasks];
 
@@ -198,5 +135,118 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
         return filtered;
     }
 
+    updateFilteredTasks() {
+        this.filteredTasks = this._filteredTasks;
+        this.uniqueValues = this._uniqueValues;
+        this.cdr.detectChanges();
+    }
+
+    onFilterChange(filters) {
+        this.filters = filters;
+        this.updateFilteredTasks();
+    }
+
     //#endregion
+
+    //#region----------------------------------------------------------- Order
+    onRowReorder($event: { dragIndex: number; dropIndex: number }): void {
+        // Bail if nothing moved
+        if($event.dragIndex === $event.dropIndex) return;
+
+        // Move the dragged task in the tasks array
+        if($event.dragIndex < $event.dropIndex) {
+            const task = this.tasks.splice($event.dragIndex, 1)[0];
+            this.tasks.splice($event.dropIndex, 0, task);
+        }
+        else {
+            const task = this.tasks.splice($event.dragIndex, 1)[0];
+            this.tasks.splice($event.dropIndex, 0, task);
+        }
+
+        // Reorder saved
+        const customFlags = this.svcSaveStore.get('overall.custom');
+        const customMeta = this.svcSaveStore.get('custom');
+        const newFlags = {}, newMeta = {};
+
+        this.tasks.forEach((task) => {
+            const key = `x${task.id}`;
+            newFlags[task.id] = customFlags[task.id];
+            newMeta[key] = customMeta[key];
+        });
+
+        // Assign re-ordered objects, save to file
+        this.svcSaveStore.set('overall.custom', newFlags);
+        this.svcSaveStore.set('custom', newMeta);
+
+        // Debounce dragging since its tied to file write
+        this.debounceDrag = true;
+        setTimeout(() => this.debounceDrag = false, 1000);
+    }
+
+    //#endregion
+
+    //#region----------------------------------------------------------- Fix Virtual Headers
+    private observer: MutationObserver;
+
+    observeVirtualWrapper(): void {
+        if(!this._taskTable?.virtualScrollBody) return;
+
+        const callback: MutationCallback = (mutations) => {
+            const styleChanged = mutations.some(
+                (m) => m.type === 'attributes' && m.attributeName === 'style'
+            );
+
+            if(styleChanged) this.adjustVirtualHeader();
+        };
+
+        this.observer?.disconnect();
+        this.observer = new MutationObserver(callback);
+
+        // Observe the virtual wrapper for style changes
+        const config = { attributes: true, childList: false, subtree: false };
+        const { nativeElement } = this._taskTable.virtualScrollBody._contentWrapper;
+        this.observer.observe(nativeElement, config);
+    }
+
+    adjustVirtualHeader(): void {
+        if(!this._taskTable?.virtualScrollBody) return;
+
+        // Grab the translation from the virtual scroll container
+        const { transform } = this._taskTable.virtualScrollBody._contentWrapper.nativeElement.style;
+        if(!transform) return;
+
+        const transformInt: number = parseInt(transform.match(/[0-9]+/)[0], 10);
+
+        // Apply the inverse to each <th>
+        const headers = this._taskTable.el.nativeElement.getElementsByTagName('th');
+        for(const header of headers) {
+            header.style.top = `${-transformInt}px`;
+        }
+    }
+
+    //#endregion
+
+    //#region----------------------------------------------------------- Row Group
+    toggleExpanded(): void {
+        const hasExpanded = !!Object.keys(this.expandedGroups).length;
+
+        if(hasExpanded) {
+            this.expandedGroups = {};
+        }
+        else {
+            this.expandedGroups = this.diveForExpandedGroups(this.group);
+        }
+    }
+
+    diveForExpandedGroups(group: DataGroup, obj: ExpandedGroups = {}): ExpandedGroups {
+        group.subGroups?.forEach((subGroup) => {
+            obj[subGroup.fullStorageKey] = true;
+            this.diveForExpandedGroups(subGroup, obj);
+        });
+
+        return obj;
+    }
+
+    //#endregion
+
 }

@@ -64,8 +64,14 @@
                 <input
                     class="text-filter"
                     pInputText
+                    [value]="filters[column.key]?.value"
                     (keyup)="onFilterKeyup($event, column)"
                 />
+                <i
+                    *ngIf="filters[column.key]?.value"
+                    class="pi pi-times"
+                    (click)="modifySearch('', column)"
+                ></i>
             </ng-template>
         </div>
     </th>

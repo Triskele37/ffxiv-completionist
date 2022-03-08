@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, OnDestroy, SimpleChanges } from '@angular/core';
 
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
@@ -8,15 +8,31 @@ import { Task } from '@domain/Task';
     templateUrl: './show-all.component.html',
     styleUrls: ['./show-all.component.scss']
 })
-export class ShowAllComponent implements OnChanges {
+export class ShowAllComponent implements OnChanges, OnDestroy {
     @Input() group: DataGroup;
 
     tasks: Task[];
 
     ngOnChanges(changes: SimpleChanges) {
         if(changes.group) {
+            this.clean(changes.group.previousValue);
+            this.clean(this.group);
+
             this.tasks = diveForTasks(this.group);
+
+            this.group.columns.unshift({
+                key: 'groupLink',
+                header: 'Group'
+            });
         }
+    }
+
+    ngOnDestroy() {
+        this.clean(this.group);
+    }
+
+    clean(group: DataGroup): void {
+        if(group?.columns[0].key === 'groupLink') group.columns.shift();
     }
 }
 

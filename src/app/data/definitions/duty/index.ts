@@ -30,7 +30,8 @@ export const DUTY_DEFINITION: GroupDefinition = {
                         'arr',
                         'hw',
                         'sb',
-                        'shb'
+                        'shb',
+                        'ew'
                     ]
                 },
                 {
@@ -43,7 +44,8 @@ export const DUTY_DEFINITION: GroupDefinition = {
                         'arr',
                         'hw',
                         'sb',
-                        'shb'
+                        'shb',
+                        'ew'
                     ]
                 },
                 {
@@ -52,7 +54,8 @@ export const DUTY_DEFINITION: GroupDefinition = {
                         'arr',
                         'hw',
                         'sb',
-                        'shb'
+                        'shb',
+                        'ew'
                     ]
                 },
                 {
@@ -61,7 +64,8 @@ export const DUTY_DEFINITION: GroupDefinition = {
                         'arr',
                         'hw',
                         'sb',
-                        'shb'
+                        'shb',
+                        'ew'
                     ]
                 }
             ]

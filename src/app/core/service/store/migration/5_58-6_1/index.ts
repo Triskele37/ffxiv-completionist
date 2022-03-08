@@ -20,6 +20,9 @@ export function migrate_5_58_to_6_1(svcSaveStore: SaveStoreService): void {
     store.deleteTask('logs.crafting-log.goldsmith.level-based.46-50', 2139);
     store.deleteTask('logs.crafting-log.weaver.level-based.41-45', 2837);
 
+    // Moved
+    store.moveGroup('travel.shared-fate', 'travel.shared-fate.shb');
+
     // Sections where ids have to be completely re-mapped
     if(doVolatile) {
         migrate_6_1_fate(store);

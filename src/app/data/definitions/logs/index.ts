@@ -29,6 +29,7 @@ export const LOGS_DEFINITION: GroupDefinition = {
                 'hw',
                 'sb',
                 'shb',
+                'ew'
             ]
         },
         CRAFTING_LOG_DEFINITION,

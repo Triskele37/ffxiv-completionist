@@ -22,7 +22,7 @@
 
     <td
         class="data-cell"
-        *ngFor="let column of columns"
+        *ngFor="let column of group.columns"
         [ngClass]="{ centered: column.centered }"
     >
         <xiv-edit-cell
@@ -35,6 +35,7 @@
             <xiv-link-cell
                 *ngIf="column.key === 'groupLink'; else staticCell"
                 [task]="task"
+                [group]="group"
             ></xiv-link-cell>
         </ng-template>
 

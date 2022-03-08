@@ -69,6 +69,7 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                         'page-9',
                         'page-10',
                         'page-11',
+                        'page-12',
                         'last-page',
                     ]
                 },
@@ -169,6 +170,9 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                         'gyr-abania',
                         'othard',
                         'norvrandt',
+                        'the-northern-empty',
+                        'ilsabard',
+                        'other',
                         'duty',
                     ]
                 },

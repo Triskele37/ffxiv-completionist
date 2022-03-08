@@ -18,6 +18,13 @@
                 [icon]="'material-icons ' + (isBookmarked ? 'mi-bookmark-remove' : 'mi-bookmark-add')"
                 (onClick)="bookmarkGroup()"
             ></p-button>
+
+<!-- TODO: Re-evaluate when PrimeNG supports rowexpansion with virtualscroll -->
+<!--            <p-button-->
+<!--                *ngIf="group.subGroups?.length"-->
+<!--                label="Toggle Expanded Groups"-->
+<!--                (onClick)="toggleExpanded.emit()"-->
+<!--            ></p-button>-->
         </span>
     </div>
 </span>

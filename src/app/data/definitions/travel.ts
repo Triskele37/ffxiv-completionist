@@ -56,6 +56,12 @@ export const TRAVEL_DEFINITION: GroupDefinition = {
             ]
         },
         'porters',
-        'shared-fate'
+        {
+            path: 'shared-fate',
+            subGroups: [
+                'shb',
+                'ew'
+            ]
+        }
     ]
 };

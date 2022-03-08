@@ -1,23 +1,44 @@
 <div class="search-data-container">
-    <div class="section-container">
-        <p-button
-            [label]="svcSearch.expanded ? 'Search Name Columns' : 'Search All Columns'"
-            (onClick)="expandSearch()"
-        ></p-button>
+    <div
+        *ngIf="(svcSearch.searchMatches$ | async).length; else noSearch"
+        class="section-container"
+    >
+        <span class="p-buttonset">
+            <button
+                pButton
+                label="{{willCollapseAll ? 'Collapse' : 'Expand'}} All"
+                (click)="setRowsExpanded(svcSearch.searchMatches$.value, !willCollapseAll)"
+            ></button>
+
+            <button
+                pButton
+                [label]="svcSearch.expanded ? 'Search Name Columns' : 'Search All Columns'"
+                (click)="expandSearch()"
+            ></button>
+        </span>
 
         <br/>
 
         <div>{{(svcSearch.searchMatches$ | async).length}} Match/es</div>
     </div>
 
-    <div *ngIf="(svcSearch.searchStatus$ | async) === Status.Success" class="results">
+    <ng-template #noSearch>
+        <span>Please enter a search term</span>
+    </ng-template>
+
+    <div
+        *ngIf="(svcSearch.searchStatus$ | async) === Status.Success"
+        class="results"
+    >
         <p-table
-            #resultsTable
+            [expandedRowKeys]="expandedRows"
             [value]="svcSearch.searchMatches$ | async"
             rowGroupMode="subheader"
             groupRowsBy="task._parent.fullStorageKey"
             dataKey="task._parent.fullStorageKey"
             styleClass="p-datatable-striped"
+            (onRowCollapse)="evaluateToggleAll(true)"
+            (onRowExpand)="evaluateToggleAll(false)"
         >
             <ng-template pTemplate="header">
                 <tr>
@@ -41,7 +62,19 @@
             </ng-template>
             <ng-template pTemplate="rowexpansion" let-match>
                 <tr class="result-row">
-                    <td [ngClass]="match.task.completionFlag">{{match.task.completionFlag}}</td>
+                    <ng-container *ngIf="!match.task.isNumericCompletion; else numericCell">
+                        <xiv-complete-cell
+                            [task]="match.task"
+                            [flag]="match.task.completionFlag"
+                        ></xiv-complete-cell>
+                    </ng-container>
+                    <ng-template #numericCell>
+                        <xiv-numeric-complete-cell
+                            [task]="match.task"
+                            [value]="match.task.completionFlag"
+                        ></xiv-numeric-complete-cell>
+                    </ng-template>
+
                     <td *ngIf="svcSearch.expanded">{{match.header}}</td>
                     <td>{{match.task[match.key]}}</td>
                 </tr>

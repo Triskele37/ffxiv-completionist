@@ -38,7 +38,7 @@ export class NavigationService {
         }
 
         return breadcrumbs.reduce(
-            (acc, crumb) => acc.subGroups.find((g) => g.name === crumb),
+            (acc, crumb) => acc.subGroups.find((g) => g.name === crumb) || acc,
             { subGroups: [MainMenu, this.svcData.data] } as DataGroup
         );
     }
