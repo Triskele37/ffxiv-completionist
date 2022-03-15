@@ -1,80 +1,29 @@
 {
     "groupName": "The Tempest",
     "tasks": {
-        "x0": {
-            "location": "The Caliban Gorge",
-            "quest": "-",
-            "notes": "Overlooking the city"
-        },
-        "x1": {
-            "location": "The Caliban Gap",
-            "quest": "-",
-            "notes": "On a piece of coral on top of a rock"
-        },
-        "x2": {
-            "location": "The Caliban Gorge",
-            "quest": "-",
-            "notes": "At the base of a tall rock spire"
-        },
-        "x3": {
-            "location": "The Caliban Gorge",
-            "quest": "-",
-            "notes": "On a coral bridge"
-        },
-        "x4": {
-            "location": "The Norvrandt Slope",
-            "quest": "-",
-            "notes": "From Ondo Cups, find a cave leading down to the west"
-        },
-        "x5": {
-            "location": "The Crock of Pearls",
-            "quest": "-",
-            "notes": "From the cave entrance, enter the first alcove on the left"
-        },
-        "x6": {
-            "location": "The Norvrandt Slope",
-            "quest": "-",
-            "notes": "On a rock under falling water"
-        },
-        "x7": {
-            "location": "The Norvrandt Slope",
-            "quest": "-",
-            "notes": "On a short cliff. Approach from the west"
-        },
-        "x8": {
-            "location": "The Norvrandt Slope",
-            "quest": "-",
-            "notes": "Head through \"Where the Dry Return\" cave. On a cliff at the end"
-        },
-        "x9": {
-            "location": "The Norvrandt Slope",
-            "quest": "-",
-            "notes": "In a small crevasse"
-        },
+        "x0": {},
+        "x4": {},
+        "x7": {},
+        "x9": {},
         "x10": {
-            "location": "Patronizing Amaurotine - Amaurot",
-            "quest": "Community Cohesion",
+            "source": "Community Cohesion",
             "notes": "Unlocks after completing MSQ \"The End of a World\""
         },
         "x11": {
-            "location": "Loquacious Amaurotine - The Hall of Rhetoric",
-            "quest": "Debate and Discourse",
+            "source": "Debate and Discourse",
             "notes": "Unlocks after completing MSQ \"The End of a World\""
         },
         "x12": {
-            "location": "Bureau Attendant - Bureau of the Architect",
-            "quest": "Responsible Creation",
+            "source": "Responsible Creation",
             "notes": "Unlocks after completing MSQ \"The End of a World\""
         },
         "x13": {
-            "location": "Naroshs Koal - The Ondo Cups",
-            "quest": "Koal of the Cups",
+            "source": "Koal of the Cups",
             "notes": "Unlocks after completing MSQ \"Waiting in the Depths\""
         },
         "x14": {
-            "location": "Alphinaud - Amaurot",
-            "quest": "A Greater Purpose (MSQ)",
-            "notes": "Unlocks after completing MSQ \"The End of a World\""
+            "source": "A Greater Purpose",
+            "notes": "Main Scenario Quest"
         }
     }
 }

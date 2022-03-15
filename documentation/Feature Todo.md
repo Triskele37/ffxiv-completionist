@@ -50,8 +50,6 @@ verify new sidequests are in definitions
 
 **Change**
 - Move relic gear to top-level Equipment category in prep for Armoire & all glam
-- Get Recipe data independent of RecipeNotebookList
-  so that a fresh cache isn't necessary each update
 - emotes by in-game tabs
 
 **Fix**

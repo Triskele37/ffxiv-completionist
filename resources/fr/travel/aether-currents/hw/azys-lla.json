@@ -2,29 +2,24 @@
     "groupName": "Azys Lla",
     "tasks": {
         "x0": {
-            "location": "Cid - Helix",
-            "quest": "Systematic Exploration (MSQ)",
-            "notes": "Unlocks after completing MSQ \"The First Flight of the Excelsior\""
+            "source": "Systematic Exploration",
+            "notes": "Main Scenario Quest"
         },
         "x1": {
-            "location": "Guidance Node - Helix",
-            "quest": "In Node We Trust (MSQ)",
-            "notes": "Unlocks after completing MSQ \"Systematic Exploration\""
+            "source": "In Node We Trust",
+            "notes": "Main Scenario Quest"
         },
         "x2": {
-            "location": "Guidance Node - Beta Quadrant",
-            "quest": "Chimerical Maintenance (MSQ)",
-            "notes": "Unlocks after completing MSQ \"In Node We Trust\""
+            "source": "Chimerical Maintenance",
+            "notes": "Main Scenario Quest"
         },
         "x3": {
-            "location": "Guidance Node - Matter Conduit V-VI",
-            "quest": "Close Encounters of the VIth Kind (MSQ)",
-            "notes": "Unlocks after completing MSQ \"Chimerical Maintenance\""
+            "source": "Close Encounters of the VIth Kind",
+            "notes": "Main Scenario Quest"
         },
         "x4": {
-            "location": "Guidance Node - Delta Quadrant",
-            "quest": "Fetters of Lament (MSQ)",
-            "notes": "Unlocks after completing MSQ \"Close Encounters of the VIth Kind\""
+            "source": "Fetters of Lament",
+            "notes": "Main Scenario Quest"
         }
     }
 }

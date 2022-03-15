@@ -38,6 +38,17 @@ export const TRAVEL_DEFINITION: GroupDefinition = {
                         'the-rak-tika-greatwood',
                         'the-tempest',
                     ]
+                },
+                {
+                    path: 'ew',
+                    subGroups: [
+                        'labyrinthos',
+                        'thavnair',
+                        'garlemald',
+                        'mare-lamentorum',
+                        'elpis',
+                        'ultima-thule',
+                    ]
                 }
             ]
         },
@@ -51,6 +62,7 @@ export const TRAVEL_DEFINITION: GroupDefinition = {
                 'ishgard-and-coerthas',
                 'gyr-abania',
                 'the-far-east',
+                'ilsabard',
                 'norvrandt',
                 'others',
             ]

@@ -1,80 +1,29 @@
 {
     "groupName": "The Ruby Sea",
     "tasks": {
-        "x0": {
-            "location": "The Isle of Zekki",
-            "quest": "-",
-            "notes": "In isle of Zekki (swim to an underwater cave at (x12.2, y25.3, z-1.1))"
-        },
-        "x1": {
-            "location": "Rasen Kaikyo",
-            "quest": "-",
-            "notes": "On a rock"
-        },
-        "x2": {
-            "location": "The Isle of Bekko",
-            "quest": "-",
-            "notes": "On the edge of a cliff"
-        },
-        "x3": {
-            "location": "Quickscape Pier",
-            "quest": "-",
-            "notes": "On the back of a boat"
-        },
-        "x4": {
-            "location": "The Coral Banquet",
-            "quest": "-",
-            "notes": "On a ledge of coral"
-        },
-        "x5": {
-            "location": "Crick",
-            "quest": "-",
-            "notes": "On the roof of a hut"
-        },
-        "x6": {
-            "location": "Onokoro",
-            "quest": "-",
-            "notes": "On a rock"
-        },
-        "x7": {
-            "location": "East Othard Coastline",
-            "quest": "-",
-            "notes": "On the edge of a cliff overlooking Isari"
-        },
-        "x8": {
-            "location": "Hells' Lid",
-            "quest": "-",
-            "notes": "On a rock"
-        },
-        "x9": {
-            "location": "Sakazuki",
-            "quest": "-",
-            "notes": "Behind rocks on a cliff"
-        },
+        "x0": {},
+        "x2": {},
+        "x5": {},
+        "x9": {},
         "x10": {
-            "location": "Kurenai - Sui-no-Sato",
-            "quest": "The Palace of Lost Souls",
+            "source": "The Palace of Lost Souls",
             "notes": "Unlocks after completing MSQ \"In Darkness the Magatama Dreams\""
         },
         "x11": {
-            "location": "Slender Kojin - The Isle of Bekko",
-            "quest": "The Sword in the Stone",
+            "source": "The Sword in the Stone",
             "notes": "Unlocks after completing MSQ \"Of Kojin and Kami\""
         },
         "x12": {
-            "location": "Hansaku - Crick",
-            "quest": "Pulling Double Booty",
+            "source": "Pulling Double Booty",
             "notes": "Unlocks after completing MSQ \"Alisaie's Stones\""
         },
         "x13": {
-            "location": "Yusui - Sakazuki",
-            "quest": "The Price of Betrayal",
+            "source": "The Price of Betrayal",
             "notes": "Unlocks after completing MSQ \"Boys with Boats\""
         },
         "x14": {
-            "location": "Lyse - Isari",
-            "quest": "Tide Goes In, Imperials Go Out (MSQ)",
-            "notes": "Unlocks after completing MSQ \"The Lord of the Revel\""
+            "source": "Tide Goes In, Imperials Go Out",
+            "notes": "Main Scenario Quest"
         }
     }
 }

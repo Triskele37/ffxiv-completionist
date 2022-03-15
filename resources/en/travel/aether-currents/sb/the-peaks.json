@@ -1,80 +1,29 @@
 {
     "groupName": "The Peaks",
     "tasks": {
-        "x0": {
-            "location": "Mount Yorn",
-            "quest": "-",
-            "notes": "Edge of a small cliff overlooking a tree and a lake"
-        },
-        "x1": {
-            "location": "Wightrock",
-            "quest": "-",
-            "notes": "At the edge of the terrace, slightly north of Specula Imperatoris"
-        },
-        "x2": {
-            "location": "Goodblade",
-            "quest": "-",
-            "notes": "Near some barrels overlooking a pond"
-        },
-        "x3": {
-            "location": "Wightrock",
-            "quest": "-",
-            "notes": "Edge of a cliff"
-        },
-        "x4": {
-            "location": "Wightrock",
-            "quest": "-",
-            "notes": "On top of a collapsed bridge section"
-        },
-        "x5": {
-            "location": "Momoroon's Milk",
-            "quest": "-",
-            "notes": "On a ledge"
-        },
-        "x6": {
-            "location": "The Ziggurat",
-            "quest": "-",
-            "notes": "Start at the stairs at (X: 15.8  Y:14.2), drop from about 2/3 of the way up"
-        },
-        "x7": {
-            "location": "Sleeping Stones",
-            "quest": "-",
-            "notes": "On a ledge"
-        },
-        "x8": {
-            "location": "Ala Gannha",
-            "quest": "-",
-            "notes": "From Ala Gannha head northwest up the ramps"
-        },
-        "x9": {
-            "location": "The Last Forest",
-            "quest": "-",
-            "notes": "On a ledge overlooking Rhalgr's Reach"
-        },
+        "x0": {},
+        "x3": {},
+        "x6": {},
+        "x8": {},
         "x10": {
-            "location": "Sagar - Coldhearth",
-            "quest": "Closing Up Shop",
+            "source": "Closing Up Shop",
             "notes": "Unlocks after completing MSQ \"Raubahn's Invitation\""
         },
         "x11": {
-            "location": "Ponderous Porter - Radiata",
-            "quest": "A Hunger For Trade",
+            "source": "A Hunger For Trade",
             "notes": "Unlocks after completing MSQ \"Where Courage Endures\""
         },
         "x12": {
-            "location": "Brazen Brook - Ala Ghiri",
-            "quest": "Out of Sight",
+            "source": "Out of Sight",
             "notes": "Unlocks after completing MSQ \"The Path Forward\""
         },
         "x13": {
-            "location": "Raganfrid - Ala Gannha",
-            "quest": "Saint Sayer",
+            "source": "Saint Sayer",
             "notes": "Unlocks after completing MSQ \"The Fires Fade\""
         },
         "x14": {
-            "location": "Raubahn - Coldhearth",
-            "quest": "Liberty or Death (MSQ)",
-            "notes": "Unlocks after completing MSQ \"Raubahn's Invitation\""
+            "source": "Liberty or Death",
+            "notes": "Main Scenario Quest"
         }
     }
 }

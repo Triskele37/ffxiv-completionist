@@ -2,69 +2,40 @@
     "key": "the-fringes",
     "cCombo": ["a.1870"],
     "tasks": {
-        "x0": {
-            "name": "1",
-            "coordinates": "X: 34.1   Y: 30.0   Z: 0.6"
-        },
-        "x1": {
-            "name": "2",
-            "coordinates": "X: 29.6   Y: 28.8   Z: 0.4"
-        },
         "x2": {
-            "name": "3",
-            "coordinates": "X: 35.7   Y: 16.7   Z: 1.6"
+            "name": "1",
+            "source": "(36.3, 17.2, 1.6)"
         },
         "x3": {
-            "name": "4",
-            "coordinates": "X: 27.9   Y: 21.6   Z: 0.7"
-        },
-        "x4": {
-            "name": "5",
-            "coordinates": "X: 25.0   Y: 26.2   Z: 0.4"
-        },
-        "x5": {
-            "name": "6",
-            "coordinates": "X: 17.4   Y: 15.1   Z: 0.0"
-        },
-        "x6": {
-            "name": "7",
-            "coordinates": "X:   9.6   Y: 27.8   Z: 0.3"
+            "name": "2",
+            "source": "(27.9, 21.6, 0.7)"
         },
         "x7": {
-            "name": "8",
-            "coordinates": "X: 25.0   Y: 11.1   Z: 0.6"
-        },
-        "x8": {
-            "name": "9",
-            "coordinates": "X: 19.3   Y:   4.5   Z: 0.4"
+            "name": "3",
+            "source": "(24.5, 11.4, 0.4)"
         },
         "x9": {
-            "name": "10",
-            "coordinates": "X: 11.7   Y: 16.4   Z: 0.6"
+            "name": "4",
+            "source": "(11.7, 16.4, 0.6)"
         },
         "x10": {
-            "name": "11",
-            "coordinates": "X: 30.1   Y: 26.1   Z: 1.0",
+            "name": "5",
             "cSiblings": ["q.68357"]
         },
         "x11": {
-            "name": "12",
-            "coordinates": "X: 27.0   Y: 21.0   Z: 0.6",
+            "name": "6",
             "cSiblings": ["q.68352"]
         },
         "x12": {
-            "name": "13",
-            "coordinates": "X:   9.2   Y: 10.9   Z: 1.1",
+            "name": "7",
             "cSiblings": ["q.68197"]
         },
         "x13": {
-            "name": "14",
-            "coordinates": "X:   8.4   Y: 11.2   Z: 1.1",
+            "name": "8",
             "cSiblings": ["q.68175"]
         },
         "x14": {
-            "name": "15",
-            "coordinates": "X: 31.6   Y: 16.6   Z: 1.1",
+            "name": "9",
             "cSiblings": ["q.68069"]
         }
     }
