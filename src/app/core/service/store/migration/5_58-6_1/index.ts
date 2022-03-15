@@ -3,6 +3,7 @@ import { ChangeStore } from '../ChangeStore';
 
 import { migrate_6_1_fate } from './fate';
 import { migrate_6_1_housing } from './housing';
+import { migrate_6_1_gatheringLog } from './gathering-log';
 import { migrate_6_1_aetherCurrent } from './aether-current';
 
 const doVolatile = false || process.env.NODE_ENV !== 'development';
@@ -28,6 +29,7 @@ export function migrate_5_58_to_6_1(svcSaveStore: SaveStoreService): void {
     if(doVolatile) {
         migrate_6_1_fate(store);
         migrate_6_1_housing(store);
+        migrate_6_1_gatheringLog(store);
         migrate_6_1_aetherCurrent(store);
     }
 

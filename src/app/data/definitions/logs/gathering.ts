@@ -4,166 +4,10 @@ export const GATHERING_LOG_DEFINITION: GroupDefinition = {
     path: 'gathering',
     subGroups: [
         'folklore-gathering-books',
-        {
-            path: 'mining',
-            subGroups: [
-                {
-                    path: 'level-based',
-                    subGroups: [
-                        'level-1-5',
-                        'level-6-10',
-                        'level-11-15',
-                        'level-16-20',
-                        'level-21-25',
-                        'level-26-30',
-                        'level-31-35',
-                        'level-36-40',
-                        'level-41-45',
-                        'level-46-50',
-                        'level-51-55',
-                        'level-56-60',
-                        'level-61-65',
-                        'level-66-70',
-                        'level-71-75',
-                        'level-76-80',
-                    ]
-                },
-                {
-                    path: 'special',
-                    subGroups: [
-                        'coerthan-folklore',
-                        'dravanian-folklore',
-                        'abalathian-folklore',
-                        'gyr-abanian-folklore',
-                        'othardian-folklore',
-                        'vrandtic-folklore',
-                        'ishgard-restoration',
-                        'skysteel-tools',
-                        'collectables-1',
-                        'collectables-2',
-                    ]
-                }
-            ]
-        },
-        {
-            path: 'quarrying',
-            subGroups: [
-                {
-                    path: 'level-based',
-                    subGroups: [
-                        'level-1-5',
-                        'level-6-10',
-                        'level-11-15',
-                        'level-16-20',
-                        'level-21-25',
-                        'level-26-30',
-                        'level-31-35',
-                        'level-36-40',
-                        'level-41-45',
-                        'level-46-50',
-                        'level-51-55',
-                        'level-56-60',
-                        'level-61-65',
-                        'level-66-70',
-                        'level-71-75',
-                        'level-76-80',
-                    ]
-                },
-                {
-                    path: 'special',
-                    subGroups: [
-                        'coerthan-folklore',
-                        'dravanian-folklore',
-                        'abalathian-folklore',
-                        'vrandtic-folklore',
-                        'ishgard-restoration',
-                        'skysteel-tools',
-                        'collectables-1',
-                        'collectables-2',
-                    ]
-                }
-            ]
-        },
-        {
-            path: 'logging',
-            subGroups: [
-                {
-                    path: 'level-based',
-                    subGroups: [
-                        'level-1-5',
-                        'level-6-10',
-                        'level-11-15',
-                        'level-16-20',
-                        'level-21-25',
-                        'level-26-30',
-                        'level-31-35',
-                        'level-36-40',
-                        'level-41-45',
-                        'level-46-50',
-                        'level-51-55',
-                        'level-56-60',
-                        'level-61-65',
-                        'level-66-70',
-                        'level-71-75',
-                        'level-76-80',
-                    ]
-                },
-                {
-                    path: 'special',
-                    subGroups: [
-                        'dravanian-folklore',
-                        'abalathian-folklore',
-                        'gyr-abanian-folklore',
-                        'vrandtic-folklore',
-                        'ishgard-restoration',
-                        'skysteel-tools',
-                        'collectables-1',
-                        'collectables-2',
-                    ]
-                }
-            ]
-        },
-        {
-            path: 'harvesting',
-            subGroups: [
-                {
-                    path: 'level-based',
-                    subGroups: [
-                        'level-1-5',
-                        'level-6-10',
-                        'level-11-15',
-                        'level-16-20',
-                        'level-21-25',
-                        'level-26-30',
-                        'level-31-35',
-                        'level-36-40',
-                        'level-41-45',
-                        'level-46-50',
-                        'level-51-55',
-                        'level-56-60',
-                        'level-61-65',
-                        'level-66-70',
-                        'level-71-75',
-                        'level-76-80',
-                    ]
-                },
-                {
-                    path: 'special',
-                    subGroups: [
-                        'coerthan-folklore',
-                        'dravanian-folklore',
-                        'abalathian-folklore',
-                        'gyr-abanian-folklore',
-                        'othardian-folklore',
-                        'vrandtic-folklore',
-                        'ishgard-restoration',
-                        'skysteel-tools',
-                        'collectables-1',
-                        'collectables-2',
-                    ]
-                }
-            ]
-        },
+        makeGatherer('mining'),
+        makeGatherer('quarrying'),
+        makeGatherer('logging'),
+        makeGatherer('harvesting'),
         {
             path: 'fishing',
             subGroups: [
@@ -259,3 +103,63 @@ export const GATHERING_LOG_DEFINITION: GroupDefinition = {
         }
     ]
 };
+
+function makeGatherer(path: string) {
+    return {
+        path,
+        subGroups: [
+            {
+                path: 'level-based',
+                subGroups: [
+                    'level-1-5',
+                    'level-6-10',
+                    'level-11-15',
+                    'level-16-20',
+                    'level-21-25',
+                    'level-26-30',
+                    'level-31-35',
+                    'level-36-40',
+                    'level-41-45',
+                    'level-46-50',
+                    'level-51-55',
+                    'level-56-60',
+                    'level-61-65',
+                    'level-66-70',
+                    'level-71-75',
+                    'level-76-80',
+                    'level-81-85',
+                    'level-86-90',
+                ]
+            },
+            {
+                path: 'collectables',
+                subGroups: [
+                    'level-50-70',
+                    'level-71-80',
+                    'level-81-90',
+                ]
+            },
+            {
+                path: 'regional-folklore',
+                subGroups: [
+                    'coerthas',
+                    'dravania',
+                    'abalathia',
+                    'gyr-abania',
+                    'othard',
+                    'norvrandt',
+                    'ilsabard-northern-empty',
+                    'sea-of-stars',
+                    'world-unsundered',
+                ]
+            },
+            {
+                path: 'ishgard-restoration',
+                subGroups: [
+                    'ishgard-restoration',
+                    'skysteel-tools',
+                ]
+            }
+        ]
+    };
+}
