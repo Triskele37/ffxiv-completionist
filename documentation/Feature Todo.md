@@ -3,12 +3,11 @@
 - beast tribe quest recipe chaining
 - chain duties to quests & achievements requiring them
 - much of new content needs manual verification of chains
-- Sightseeing Log Names
 
 **Change**
 
 **Fix**
-- new titles missing patch
+- blank filter value does not filter for blanks
 - Gathering "view all" issue
 - Build pathing issue to resources "../resources/resources/common/./index.json"
 - Build does not produce an .exe and misses including resources
@@ -19,8 +18,6 @@
 - Remove old PLD trial weapon recipes
 
 ----- Check
-White Oak Branch moved from logging 70 to logging 75 log
-
 Possibly move fishing/spearfishing back up a level like sheet to fix view all issue
 verify new sidequests are in definitions
 
@@ -37,6 +34,7 @@ verify new sidequests are in definitions
 - detach lang specific resources to a download after installation
 
 **Fix**
+- new titles missing patch from api
 - Scholar/Summoner levels don't tie together properly
 - may have excluded the wrong Way of the Arcanist?
 - double check known diffs for quests (lots of weirdness with class/job)

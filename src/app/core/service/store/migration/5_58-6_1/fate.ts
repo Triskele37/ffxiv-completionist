@@ -877,7 +877,7 @@ export function migrate_6_1_fate(store: ChangeStore): void {
     store.changeKey(WESTERN_THANALAN, 16, 366);
     store.changeKey(WESTERN_THANALAN, 17, 355); //#endregion
 
-    const ANEMOS = 'duty.exploratory-missions.eureka.notorious-monsters.anemos'; //#region
+    const ANEMOS = 'duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.anemos'; //#region
     store.changeKey(ANEMOS, 0, 1332);
     store.changeKey(ANEMOS, 1, 1348);
     store.changeKey(ANEMOS, 2, 1333);
@@ -899,7 +899,7 @@ export function migrate_6_1_fate(store: ChangeStore): void {
     store.changeKey(ANEMOS, 18, 1338);
     store.changeKey(ANEMOS, 19, 1329); //#endregion
 
-    const HYDATOS = 'duty.exploratory-missions.eureka.notorious-monsters.hydatos'; //#region
+    const HYDATOS = 'duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.hydatos'; //#region
     store.changeKey(HYDATOS, 0, 1425);
     store.changeKey(HYDATOS, 1, 1412);
     store.changeKey(HYDATOS, 2, 1413);
@@ -915,7 +915,7 @@ export function migrate_6_1_fate(store: ChangeStore): void {
     store.changeKey(HYDATOS, 12, 1424);
     store.changeKey(HYDATOS, 13, 1422); //#endregion
 
-    const PAGOS = 'duty.exploratory-missions.eureka.notorious-monsters.pagos'; //#region
+    const PAGOS = 'duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.pagos'; //#region
     store.changeKey(PAGOS, 0, 1367);
     store.changeKey(PAGOS, 1, 1351);
     store.changeKey(PAGOS, 2, 1369);
@@ -936,7 +936,7 @@ export function migrate_6_1_fate(store: ChangeStore): void {
     store.changeKey(PAGOS, 17, 1365);
     store.changeKey(PAGOS, 18, 1364); //#endregion
 
-    const PYROS = 'duty.exploratory-missions.eureka.notorious-monsters.pyros'; //#region
+    const PYROS = 'duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.pyros'; //#region
     store.changeKey(PYROS, 0, 1388);
     store.changeKey(PYROS, 1, 1407);
     store.changeKey(PYROS, 2, 1389);
@@ -957,7 +957,7 @@ export function migrate_6_1_fate(store: ChangeStore): void {
     store.changeKey(PYROS, 17, 1403);
     store.changeKey(PYROS, 18, 1404); //#endregion
 
-    const EVENTS = 'duty.exploratory-missions.bozja.events'; //#region
+    const EVENTS = 'duty.exploratory-missions.the-bozjan-southern-front.events'; //#region
     store.changeKey(EVENTS, 0, 1604);
     store.changeKey(EVENTS, 1, 1606);
     store.changeKey(EVENTS, 2, 1602);

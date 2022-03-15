@@ -70,7 +70,13 @@ export const DUTY_DEFINITION: GroupDefinition = {
                 }
             ]
         },
-        'trust',
+        {
+            path: 'trust',
+            subGroups: [
+                'shb',
+                'ew'
+            ]
+        },
         {
             path: 'hall-of-the-novice',
             subGroups: [

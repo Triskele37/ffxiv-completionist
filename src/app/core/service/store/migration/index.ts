@@ -11,8 +11,6 @@ export function migrateData(svcSaveStore: SaveStoreService): void {
     // if(version === '0.5.58') migrate_5_58_to_6_1(svcSaveStore);
     migrate_5_58_to_6_1(svcSaveStore);
 
-    console.log(version);
-
     if(!version) {
         console.log('No version found, setting to current');
         svcSaveStore.store.set('version', '1.0.0');

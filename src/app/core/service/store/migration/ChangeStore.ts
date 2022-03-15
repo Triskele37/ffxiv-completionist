@@ -87,7 +87,7 @@ export class ChangeStore {
         if(oldGroup) {
             // Place the group in the new store where its being moved
             const [newLeftHand, newRightHand] = splitLastSegment(newGroupPath);
-            dive(newLeftHand, this.newStore)[newRightHand] = {
+            const newGroup = {
                 ...dive(newGroupPath, this.newStore), // keep current data if it exists
                 ...oldGroup
             };
@@ -95,6 +95,9 @@ export class ChangeStore {
             // Remove the old group location from the new store
             const [oldLeftHand, oldRightHand] = splitLastSegment(oldGroupPath);
             delete dive(oldLeftHand, this.newStore)[oldRightHand];
+
+            // Set the new location (done after delete in case paths converge)
+            dive(newLeftHand, this.newStore)[newRightHand] = newGroup;
         }
         else {
             console.error(`Could not move group: ${oldGroupPath}`);
