@@ -128,6 +128,9 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
                             return filter.incomplete;
                     }
                 }
+                else if(filter.value === 'Blank') {
+                    return !task[key];
+                }
                 else {
                     // Column value fuzzy search filter
                     const value = task[key] ?? '';

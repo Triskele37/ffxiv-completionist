@@ -9,9 +9,9 @@
 **Change**
 
 **Fix**
+- Gladiator hunt log 41 missing coordinate
 - diadem achievements marked as complete with own completion???
 - some seasonal quests may not be X by default (checked with own completion)
-- blank filter value does not filter for blanks
 - Build pathing issue to resources "../resources/resources/common/./index.json"
 - Build does not produce an .exe and misses including resources
 - Save automatically puts "N" for every item, making defaultCompletion not work

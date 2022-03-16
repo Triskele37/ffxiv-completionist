@@ -59,12 +59,12 @@ export class DataGroup {
         if(json.tasks) this.initializeTasks(json.tasks);
 
         // Uncomment to show a column for task ids
-        if(this.columns && this.columns[0].key !== 'id') {
-            this.columns.unshift({
-                key: 'id',
-                header: 'ID'
-            });
-        }
+        // if(this.columns && this.columns[0].key !== 'id') {
+        //     this.columns.unshift({
+        //         key: 'id',
+        //         header: 'ID'
+        //     });
+        // }
 
         return this;
     }

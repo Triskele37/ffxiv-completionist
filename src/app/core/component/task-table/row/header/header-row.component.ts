@@ -61,7 +61,8 @@ export class HeaderRowComponent implements OnInit {
     }
 
     onFilterDropdownChange($event, column) {
-        this.modifySearch($event.value, column);
+        if($event.value === '') this.modifySearch('Blank', column);
+        else this.modifySearch($event.value, column);
     }
 
     modifySearch(value, column) {
