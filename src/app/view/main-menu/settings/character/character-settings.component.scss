@@ -1,6 +1,12 @@
 .setting.starting-class {
     width: 375px;
 
+    // Fixes issue when built where dropdown wraps
+    .tooltip-container {
+        display: flex;
+        align-items: center;
+    }
+
     ::ng-deep {
         .p-dropdown {
             border-top-right-radius: 0;

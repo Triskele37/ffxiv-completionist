@@ -3,7 +3,6 @@ import { BehaviorSubject } from 'rxjs';
 
 import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
-import { UIGroup } from '@domain/UIGroup';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { MainMenu } from '../../../view/main-menu';
 
@@ -12,7 +11,7 @@ import { MainMenu } from '../../../view/main-menu';
 })
 export class NavigationService {
     breadcrumbs$ = new BehaviorSubject<string[]>(['Overall']);
-    selectedGroup$ = new BehaviorSubject<DataGroup | UIGroup>(null);
+    selectedGroup$ = new BehaviorSubject<DataGroup>(null);
     groupHistory$ = new BehaviorSubject<string[]>([]);
 
     constructor(
@@ -29,7 +28,7 @@ export class NavigationService {
     }
 
     //#region------------------------------------------------ Selected Group
-    getGroupFromBreadcrumbs(breadcrumbs: string[]): DataGroup | UIGroup {
+    getGroupFromBreadcrumbs(breadcrumbs: string[]): DataGroup {
         if(!breadcrumbs) return null;
 
         if(breadcrumbs.length === 1) {
@@ -45,7 +44,7 @@ export class NavigationService {
 
     addGroupHistory() {
         if(!this.selectedGroup$.value) return; // Must exist
-        if(this.selectedGroup$.value instanceof UIGroup) return; // Must be DataGroup
+        if(this.selectedGroup$.value.isUiGroup) return; // Must not be Main Menu
         if(!this.selectedGroup$.value.tasks.length) return; // Must have tasks
 
         // Push a pretty history string
@@ -64,7 +63,7 @@ export class NavigationService {
     }
 
     // All group setting should flow through this function
-    setSelectedGroup(group: DataGroup | UIGroup): void {
+    setSelectedGroup(group: DataGroup): void {
         this.breadcrumbs$.next(group.groupPath);
         this.selectedGroup$.next(group);
         this.addGroupHistory();

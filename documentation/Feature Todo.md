@@ -4,18 +4,11 @@
 - chain duties to quests & achievements requiring them
 - much of new content needs manual verification of chains
 - Fill in fishing/spearfishing scaffold
-- Chain "expansion end mounts" to their 6 pre-mounts
 
 **Change**
 
 **Fix**
-- Gladiator hunt log 41 missing coordinate
 - diadem achievements marked as complete with own completion???
-- some seasonal quests may not be X by default (checked with own completion)
-- Build pathing issue to resources "../resources/resources/common/./index.json"
-- Build does not produce an .exe and misses including resources
-- Save automatically puts "N" for every item, making defaultCompletion not work
-- Leve Issue/Start zones
 - Mac Support
 - bug with quick-mark (use emotes, X > N, N > Y, undo. chaining marks 3 as still completed)
 - Remove old PLD trial weapon recipes
@@ -39,6 +32,7 @@
 - may have excluded the wrong Way of the Arcanist?
 - double check known diffs for quests (lots of weirdness with class/job)
 - weirdness going on with q69620
+- Leve Issue/Start zones?
 
 ------------------------------------------------------------------ Low Priority
 **Add**

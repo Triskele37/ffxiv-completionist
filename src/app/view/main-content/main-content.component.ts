@@ -4,7 +4,6 @@ import { DataGroup } from '@domain/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 import { AnchorDirective } from './anchor.directive';
-import { UIGroup } from '@domain/UIGroup';
 
 @Component({
     selector: 'xiv-main-content',
@@ -15,7 +14,7 @@ export class MainContentComponent implements OnInit {
     isShowAllVisible: boolean = false;
     showAll: boolean = false;
 
-    selectedGroup: DataGroup | UIGroup;
+    selectedGroup: DataGroup;
 
     _anchor: AnchorDirective;
     @ViewChild(AnchorDirective, { static: false }) set anchor(ref: AnchorDirective) {
@@ -36,12 +35,12 @@ export class MainContentComponent implements OnInit {
             this.selectedGroup = selectedGroup;
             this.showAll = false;
 
-            if(selectedGroup instanceof UIGroup) {
+            if(selectedGroup.isUiGroup) {
                 this.isShowAllVisible = false;
 
                 if(selectedGroup?.component) this.loadComponent();
             }
-            else if(selectedGroup instanceof DataGroup) {
+            else {
                 this.isShowAllVisible = !!(selectedGroup?.subGroups && selectedGroup.columns);
             }
         });
@@ -56,7 +55,7 @@ export class MainContentComponent implements OnInit {
             const { viewContainerRef } = this._anchor;
             viewContainerRef.clear();
 
-            const componentFactory = this.cfr.resolveComponentFactory((this.selectedGroup as UIGroup).component);
+            const componentFactory = this.cfr.resolveComponentFactory(this.selectedGroup.component);
             const component = viewContainerRef.createComponent(componentFactory);
             component.changeDetectorRef.detectChanges();
         }

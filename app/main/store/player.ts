@@ -20,6 +20,7 @@ export const playerStore = {
         playerStore.path = path.join(base, file);
         playerStore.store = {
             'overall': {},
+            'custom': {},
             'bookmarked-groups': [],
             'bookmarked-tasks': [],
             'version': ''

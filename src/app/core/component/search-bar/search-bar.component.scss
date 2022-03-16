@@ -4,6 +4,7 @@
 
     .home-button ::ng-deep .p-button {
         position: absolute;
+        font-weight: bold;
         border-radius: 0;
         width: 250px;
         height: 25px;
@@ -15,6 +16,9 @@
         position: absolute;
         width: 250px;
         top: 25px;
+
+        // Fixes issue when built where button is offset
+        display: flex;
 
         ::ng-deep .p-inputtext {
             width: calc(250px - #{$size});

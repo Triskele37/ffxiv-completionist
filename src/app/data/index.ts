@@ -66,7 +66,10 @@ function diveForSave(group: DataGroup): any {
     });
 
     group.tasks?.forEach((task) => {
-        subGroupOrTasks[task.storageKey] = task.completionFlag;
+        // Task doesn't need to be written if it is its default
+        if(task.defaultCompletion !== task.completionFlag) {
+            subGroupOrTasks[task.storageKey] = task.completionFlag;
+        }
     });
 
     return subGroupOrTasks;

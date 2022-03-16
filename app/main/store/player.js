@@ -17,6 +17,7 @@ exports.playerStore = {
         exports.playerStore.path = path.join(base, file);
         exports.playerStore.store = {
             'overall': {},
+            'custom': {},
             'bookmarked-groups': [],
             'bookmarked-tasks': [],
             'version': ''

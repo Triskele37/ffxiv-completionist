@@ -38,6 +38,7 @@ export class CustomTaskOverlayComponent {
         private svcChain: ChainService,
         private svcSearch: SearchService,
         private svcSaveStore: SaveStoreService,
+        //TODO: utilize svcCustomTask
     ) {
         this.customData = this.svcData.data.getSubGroup('custom');
     }
@@ -79,6 +80,8 @@ export class CustomTaskOverlayComponent {
 
         // Generate new object reference so bindings update
         this.customData.tasks = [...this.customData.tasks];
+
+        this.svcData.applyDataToStore();
     }
 
     mergeCustomTasks(): void {

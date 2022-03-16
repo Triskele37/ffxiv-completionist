@@ -3,7 +3,6 @@ import { MenuItem } from 'primeng/api';
 
 import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
-import { UIGroup } from '@domain/UIGroup';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { MainMenu } from '../../../view/main-menu';
@@ -31,7 +30,7 @@ export class NavDrawerComponent implements OnInit {
         this.svcNavigation.selectedGroup$.subscribe((group) => {
             let path = group?.groupPath;
             if(path) {
-                if(group instanceof DataGroup) path = path.slice(1);
+                if(!group.isUiGroup) path = path.slice(1);
 
                 this.updateCollapsed(this.items, path);
                 this.items = [...this.items];
@@ -51,11 +50,11 @@ export class NavDrawerComponent implements OnInit {
     }
 
     // Recursive: Builds a MenuItem for all data groups
-    private addSubGroup(group: DataGroup | UIGroup, depth: number = 1): MenuItem {
+    private addSubGroup(group: DataGroup, depth: number = 1): MenuItem {
         const item: MenuItem = { label: group.name };
 
         // Allow UI groups to hide themselves
-        if(group instanceof UIGroup) item.visible = group.visible;
+        item.visible = group.visible;
 
         // Add "sub" MenuItems if this group has subGroups
         if(group.subGroups?.length) {

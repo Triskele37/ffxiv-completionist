@@ -30,6 +30,13 @@ export class DataGroup {
     updated$: Subject<void> = new Subject<void>();
     onUpdated$: Observable<void> = this.updated$.pipe(debounceTime(250));
 
+    //#region UI Members
+    isUiGroup: boolean;
+    noContent: boolean;
+    component: any;
+    visible: boolean; // Whether to hide in the nav-drawer
+    //#endregion
+
     constructor(json, parent: DataGroup) {
         this.name = json.groupName;
         this._key = json.key;
@@ -58,13 +65,19 @@ export class DataGroup {
 
         if(json.tasks) this.initializeTasks(json.tasks);
 
+        // UI
+        if(parent?.isUiGroup || json.isUiGroup) this.isUiGroup = true;
+        if(json.component) this.component = json.component;
+        if(json.noContent) this.noContent = true;
+        this.visible = json.visible !== false;
+
         // Uncomment to show a column for task ids
-        // if(this.columns && this.columns[0].key !== 'id') {
-        //     this.columns.unshift({
-        //         key: 'id',
-        //         header: 'ID'
-        //     });
-        // }
+        if(this.columns && this.columns[0].key !== 'id') {
+            this.columns.unshift({
+                key: 'id',
+                header: 'ID'
+            });
+        }
 
         return this;
     }

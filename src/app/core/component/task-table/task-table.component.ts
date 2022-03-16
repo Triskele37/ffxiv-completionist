@@ -41,6 +41,7 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
         if(!ref) return;
         this._taskTable = ref;
         this.observeVirtualWrapper();
+        this.fixVirtualReorder();
     }
 
     constructor(
@@ -230,6 +231,18 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
         for(const header of headers) {
             header.style.top = `${-transformInt}px`;
         }
+    }
+
+    //#endregion
+
+    //#region----------------------------------------------------------- Fix Virtual Reorder
+    fixVirtualReorder() {
+        const og = this._taskTable.onRowDrop.bind(this._taskTable);
+
+        this._taskTable.onRowDrop = (event, rowElement) => {
+            this._taskTable.value = [...this._taskTable.value];
+            og(event, rowElement);
+        };
     }
 
     //#endregion

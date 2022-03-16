@@ -3,15 +3,33 @@ import { SearchComponent } from './search/search.component';
 import { PatchNotesComponent } from './main-menu/patch-notes/patch-notes.component';
 import { SettingsComponent } from './main-menu/settings/settings.component';
 
-import { UIGroup } from '@domain/UIGroup';
+import { DataGroup } from '@domain/DataGroup';
 
-export const MainMenu: UIGroup = new UIGroup({
-    name: 'FFXIV Completionist',
+export const MainMenu: DataGroup = new DataGroup({
+    groupName: 'FFXIV Completionist',
     noContent: true,
-    subGroups: [
-        { name: 'Instructions', component: InstructionsComponent },
-        { name: 'Patch Notes', component: PatchNotesComponent },
-        { name: 'Settings', component: SettingsComponent },
-        { name: 'Search', component: SearchComponent, visible: false }
-    ]
+    isUiGroup: true
 }, null);
+
+MainMenu.subGroups = [];
+
+MainMenu.subGroups.push(new DataGroup({
+    groupName: 'Instructions',
+    component: InstructionsComponent
+}, MainMenu));
+
+MainMenu.subGroups.push(new DataGroup({
+    groupName: 'Patch Notes',
+    component: PatchNotesComponent
+}, MainMenu));
+
+MainMenu.subGroups.push(new DataGroup({
+    groupName: 'Settings',
+    component: SettingsComponent
+}, MainMenu));
+
+MainMenu.subGroups.push(new DataGroup({
+    groupName: 'Search',
+    component: SearchComponent,
+    visible: false
+}, MainMenu));

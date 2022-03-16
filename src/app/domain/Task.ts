@@ -173,7 +173,7 @@ export class Task {
     // returns whether the task chained
     changeCompletionFlag(toFlag: Completion, firstInChain?: boolean): boolean {
         // Dodge all of this if chaining is disabled
-        if(!Task.chainingEnabled || !this.hasChainProps()) {
+        if(!Task.chainingEnabled) {
             this.setCompletionFlag(toFlag);
             return false;
         }
@@ -218,7 +218,7 @@ export class Task {
     // returns whether the task chained
     changeCompletionNumber(toNum: string, firstInChain?: boolean): boolean {
         // Dodge all of this if chaining is disabled
-        if(!Task.chainingEnabled || !this.hasChainProps()) {
+        if(!Task.chainingEnabled) {
             this.setCompletionNumber(toNum);
             return false;
         }
@@ -255,15 +255,6 @@ export class Task {
         return !ChainService.Instance.taskAlreadyChained(this, toFlag);
     }
 
-    private hasChainProps(): boolean {
-        return (
-            this.cPrev ?? this.cPrevAt ?? this.cNext ??
-            this.cSiblings ?? this.cSiblingsAt ??
-            this.cCombo ?? this.cComboAt ??
-            this.cExclude ?? this.cExclusive ?? false
-        ) !== false;
-    }
-
     // Chaining logic that occurs after the flag has been updated
     private chain(firstInChain: boolean, fromFlag: CompletionFlag, toFlag: CompletionFlag): void {
         // Commit this task to the stored chain
@@ -281,9 +272,19 @@ export class Task {
             });
         }
 
-        // Return a list of chained tasks including this one
-        const chainer = new Chainer(this, toFlag);
-        chainer.triggerChains();
+        if(this.hasChainProps()) {
+            const chainer = new Chainer(this, toFlag);
+            chainer.triggerChains();
+        }
+    }
+
+    private hasChainProps(): boolean {
+        return (
+            this.cPrev ?? this.cPrevAt ?? this.cNext ??
+            this.cSiblings ?? this.cSiblingsAt ??
+            this.cCombo ?? this.cComboAt ??
+            this.cExclude ?? this.cExclusive ?? false
+        ) !== false;
     }
 
     //#endregion

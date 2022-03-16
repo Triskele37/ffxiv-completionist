@@ -297,5 +297,6 @@ const PathShorthand = {
     ss: 'logs.sightseeing-log',
     fr: 'duty.collection.field-record',
     job: 'character.character.classes--jobs',
-    konogg: 'duty.collection'
+    konogg: 'duty.collection',
+    mount: 'character.mount-guide'
 };

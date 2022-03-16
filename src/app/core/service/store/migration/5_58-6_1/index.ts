@@ -39,5 +39,17 @@ export function migrate_5_58_to_6_1(svcSaveStore: SaveStoreService): void {
     migrate_6_1_gatheringLog(store);
     migrate_6_1_aetherCurrent(store);
 
+    diveForClear(store.newStore);
+
     store.write();
+}
+
+// Remove 'N' completion from every task in the store
+function diveForClear(data) {
+    Object.keys(data).forEach((key) => {
+        if(data[key] === 'N') delete data[key];
+        else if(typeof data[key] === 'object') {
+            diveForClear(data[key]);
+        }
+    });
 }
