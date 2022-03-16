@@ -3,12 +3,15 @@
 - beast tribe quest recipe chaining
 - chain duties to quests & achievements requiring them
 - much of new content needs manual verification of chains
+- Fill in fishing/spearfishing scaffold
+- Chain "expansion end mounts" to their 6 pre-mounts
 
 **Change**
 
 **Fix**
+- diadem achievements marked as complete with own completion???
+- some seasonal quests may not be X by default (checked with own completion)
 - blank filter value does not filter for blanks
-- Gathering "view all" issue
 - Build pathing issue to resources "../resources/resources/common/./index.json"
 - Build does not produce an .exe and misses including resources
 - Save automatically puts "N" for every item, making defaultCompletion not work
@@ -16,10 +19,6 @@
 - Mac Support
 - bug with quick-mark (use emotes, X > N, N > Y, undo. chaining marks 3 as still completed)
 - Remove old PLD trial weapon recipes
-
------ Check
-Possibly move fishing/spearfishing back up a level like sheet to fix view all issue
-verify new sidequests are in definitions
 
 ------------------------------------------------------------------ High Priority
 **Add**
@@ -34,6 +33,7 @@ verify new sidequests are in definitions
 - detach lang specific resources to a download after installation
 
 **Fix**
+- Triad opponents need re-verification of patch (arrtripletriad.com/en/npcs)
 - new titles missing patch from api
 - Scholar/Summoner levels don't tie together properly
 - may have excluded the wrong Way of the Arcanist?

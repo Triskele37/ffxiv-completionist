@@ -30,7 +30,7 @@ export class BookmarkService {
         this.group.isBookmarkGroup = true;
         this.group.subGroups = [];
 
-        this.svcData.data.subGroups.unshift(this.group);
+        this.svcData.data.subGroups.push(this.group);
 
         this.initializeBookmarkTasks();
         this.initializeBookmarkGroups();

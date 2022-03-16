@@ -62,6 +62,11 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
         this.observer?.disconnect();
     }
 
+    // scrollToRow(key: string, value: any) {
+    //     const index = this.filteredTasks.findIndex((t) => t[key] === value);
+    //     if(index !== -1) this._taskTable.scrollToVirtualIndex(index);
+    // }
+
     //#region----------------------------------------------------------- Computed
     get hasTasks(): boolean {
         return !!this.tasks?.length;

@@ -26,12 +26,12 @@ export class DataService {
         this.data = DataGroup.fromJSON(null, './index');
 
         this.data.subGroups = [
-            // Bookmarks added in svcBookmarks
             DataGroup.fromDefinition(this.data, CHARACTER_DEFINITION),
             DataGroup.fromDefinition(this.data, DUTY_DEFINITION),
             DataGroup.fromDefinition(this.data, LOGS_DEFINITION),
             DataGroup.fromDefinition(this.data, TRAVEL_DEFINITION),
             DataGroup.fromDefinition(this.data, SOCIAL_DEFINITION),
+            // Bookmarks added in svcBookmarks
             // Custom Tasks added in svcCustomTasks
         ];
     }

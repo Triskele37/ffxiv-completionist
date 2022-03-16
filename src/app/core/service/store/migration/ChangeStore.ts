@@ -25,6 +25,7 @@ export class ChangeStore {
     // Function to run when finished migrating that actually commits the changes
     write(): void {
         this.svcSaveStore.store.set('overall', this.newStore);
+        this.svcSaveStore.store.set('version', this.version);
     }
 
     // Change Helper when task is in same group
