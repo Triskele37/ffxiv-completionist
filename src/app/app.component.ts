@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
-import { APP_CONFIG } from '../environments/environment';
-
 import { DataService } from '@data';
 import { ElectronService } from '@service/electron/electron.service';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
@@ -49,7 +47,7 @@ export class AppComponent implements OnInit {
             this.svcCustomTask.initializeCustomTasks();
             this.svcData.initializeData();
 
-            this.loading = false;
+            setTimeout(() => this.loading = false, 1);
         }
         catch(e) {
             this.modalText = 'An error has occurred...';

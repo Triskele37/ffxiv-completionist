@@ -1,4 +1,6 @@
 .p-buttonset {
+    display: flex;
+
     p-button {
         &:not(:last-child) .p-button {
             border-right: 1px solid var(--primary-color-text);
