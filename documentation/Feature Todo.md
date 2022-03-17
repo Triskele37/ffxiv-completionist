@@ -8,9 +8,7 @@
 **Change**
 
 **Fix**
-- diadem achievements marked as complete with own completion???
 - Mac Support
-- bug with quick-mark (use emotes, X > N, N > Y, undo. chaining marks 3 as still completed)
 - Remove old PLD trial weapon recipes
 
 ------------------------------------------------------------------ High Priority

@@ -40,16 +40,51 @@
 </div>
 
 <div class="setting">
-    <!-- use .setting to align buttons -->
-    <label>
+    <label>Change Save:</label>
+    <span class="p-buttonset">
         <p-button
-            label="Create New Save"
+            label="Create New"
             (onClick)="onNewSaveClick()"
         ></p-button>
-    </label>
+        <p-button
+            label="Load Existing"
+            (onClick)="onLoadSaveClick()"
+        ></p-button>
+    </span>
+</div>
 
-    <p-button
-        label="Load Existing Save"
-        (onClick)="onLoadSaveClick()"
-    ></p-button>
+<div class="setting">
+    <label>Open Folder:</label>
+    <span class="p-buttonset">
+        <p-button
+            label="Config"
+            (onClick)="onOpenConfigClick()"
+        ></p-button>
+        <p-button
+            label="Save"
+            (onClick)="onOpenSaveClick()"
+        ></p-button>
+        <p-button
+            label="Both"
+            (onClick)="onOpenBothClick()"
+        ></p-button>
+    </span>
+</div>
+
+<div class="setting">
+    <label>Backup:</label>
+    <span class="p-buttonset">
+        <p-button
+            label="Config"
+            (onClick)="onBackupConfigClick()"
+        ></p-button>
+        <p-button
+            label="Save"
+            (onClick)="onBackupSaveClick()"
+        ></p-button>
+        <p-button
+            label="Both"
+            (onClick)="onBackupBothClick()"
+        ></p-button>
+    </span>
 </div>

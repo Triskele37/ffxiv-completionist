@@ -6,7 +6,7 @@ import { playerStore } from '../store/player';
 
 export function newSave(event: IpcMainEvent) {
     const result = dialog.showSaveDialogSync({
-        defaultPath: configStore.store['store-loc'],
+        defaultPath: path.join(configStore.store['store-loc'], 'completion.json'),
         filters: [{ name: 'JSON', extensions: ['json'] }]
     });
 

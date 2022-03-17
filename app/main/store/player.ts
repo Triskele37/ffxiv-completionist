@@ -1,4 +1,4 @@
-import { app, IpcMainEvent } from 'electron';
+import { app, dialog, IpcMainEvent, shell } from 'electron';
 import * as path from 'path';
 import * as fs from 'fs';
 
@@ -46,6 +46,26 @@ export const playerStore = {
     set: (event: IpcMainEvent, newSave) => {
         playerStore.store = newSave;
         playerStore.save();
+
+        event.returnValue = null;
+    },
+    open: (event: IpcMainEvent) => {
+        shell.openPath(configStore.store['store-loc']);
+        event.returnValue = null;
+    },
+    backup: (event: IpcMainEvent) => {
+        const fileName = `${configStore.store['store-name']}-${playerStore.store.version}-backup.json`;
+        const result = dialog.showSaveDialogSync({
+            defaultPath: path.join(configStore.store['store-loc'], fileName),
+            filters: [{ name: 'JSON', extensions: ['json'] }]
+        });
+
+        if(result) {
+            fs.writeFileSync(
+                result,
+                JSON.stringify(playerStore.store, null, 4)
+            );
+        }
 
         event.returnValue = null;
     }

@@ -4,6 +4,7 @@ exports.configStore = void 0;
 var electron_1 = require("electron");
 var path = require("path");
 var fs = require("fs");
+var player_1 = require("./player");
 exports.configStore = {
     path: path.join(electron_1.app.getPath('userData'), 'config.json'),
     store: null,
@@ -57,6 +58,21 @@ exports.configStore = {
     set: function (event, config) {
         exports.configStore.store = config;
         exports.configStore.save();
+        event.returnValue = null;
+    },
+    open: function (event) {
+        electron_1.shell.openPath(electron_1.app.getPath('userData'));
+        event.returnValue = null;
+    },
+    backup: function (event) {
+        var fileName = "config-" + player_1.playerStore.store.version + "-backup.json";
+        var result = electron_1.dialog.showSaveDialogSync({
+            defaultPath: path.join(electron_1.app.getPath('userData'), fileName),
+            filters: [{ name: 'JSON', extensions: ['json'] }]
+        });
+        if (result) {
+            fs.writeFileSync(result, JSON.stringify(exports.configStore.store, null, 4));
+        }
         event.returnValue = null;
     }
 };

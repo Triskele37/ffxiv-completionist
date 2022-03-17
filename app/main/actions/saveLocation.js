@@ -7,7 +7,7 @@ var config_1 = require("../store/config");
 var player_1 = require("../store/player");
 function newSave(event) {
     var result = electron_1.dialog.showSaveDialogSync({
-        defaultPath: config_1.configStore.store['store-loc'],
+        defaultPath: path.join(config_1.configStore.store['store-loc'], 'completion.json'),
         filters: [{ name: 'JSON', extensions: ['json'] }]
     });
     // Do stuff only if something was selected

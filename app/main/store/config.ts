@@ -1,6 +1,7 @@
-import { app, IpcMainEvent } from 'electron';
+import { app, dialog, IpcMainEvent, shell } from 'electron';
 import * as path from 'path';
 import * as fs from 'fs';
+import { playerStore } from './player';
 
 export const configStore = {
     path: path.join(app.getPath('userData'), 'config.json'),
@@ -59,6 +60,26 @@ export const configStore = {
     set: (event, config) => {
         configStore.store = config;
         configStore.save();
+
+        event.returnValue = null;
+    },
+    open: (event: IpcMainEvent) => {
+        shell.openPath(app.getPath('userData'));
+        event.returnValue = null;
+    },
+    backup: (event: IpcMainEvent) => {
+        const fileName = `config-${playerStore.store.version}-backup.json`;
+        const result = dialog.showSaveDialogSync({
+            defaultPath: path.join(app.getPath('userData'), fileName),
+            filters: [{ name: 'JSON', extensions: ['json'] }]
+        });
+
+        if(result) {
+            fs.writeFileSync(
+                result,
+                JSON.stringify(configStore.store, null, 4)
+            );
+        }
 
         event.returnValue = null;
     }

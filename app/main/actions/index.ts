@@ -8,9 +8,13 @@ import { loadSave, newSave } from './saveLocation';
 export function initActions() {
     ipcMain.on('get-config', configStore.get);
     ipcMain.on('set-config', configStore.set);
+    ipcMain.on('open-config', configStore.open);
+    ipcMain.on('backup-config', configStore.backup);
 
     ipcMain.on('get-save', playerStore.get);
     ipcMain.on('set-save', playerStore.set);
+    ipcMain.on('open-save', playerStore.open);
+    ipcMain.on('backup-save', playerStore.backup);
 
     ipcMain.on('new-save', newSave);
     ipcMain.on('load-save', loadSave);

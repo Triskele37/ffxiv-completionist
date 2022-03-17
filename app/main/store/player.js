@@ -43,6 +43,21 @@ exports.playerStore = {
         exports.playerStore.store = newSave;
         exports.playerStore.save();
         event.returnValue = null;
+    },
+    open: function (event) {
+        electron_1.shell.openPath(config_1.configStore.store['store-loc']);
+        event.returnValue = null;
+    },
+    backup: function (event) {
+        var fileName = config_1.configStore.store['store-name'] + "-" + exports.playerStore.store.version + "-backup.json";
+        var result = electron_1.dialog.showSaveDialogSync({
+            defaultPath: path.join(config_1.configStore.store['store-loc'], fileName),
+            filters: [{ name: 'JSON', extensions: ['json'] }]
+        });
+        if (result) {
+            fs.writeFileSync(result, JSON.stringify(exports.playerStore.store, null, 4));
+        }
+        event.returnValue = null;
     }
 };
 //# sourceMappingURL=player.js.map

@@ -14,13 +14,41 @@ import { SettingsComponent } from '../settings.component';
 export class CharacterSettingsComponent {
     @Input() settings: Settings;
 
+    constructor(
+        public parent: SettingsComponent,
+        private svcData: DataService,
+        private svcElectron: ElectronService
+    ) {
+    }
+
+    //#region------------------------------------------------------- Modal
     isModalVisible: boolean = false;
 
+    showModal(callback: () => boolean | void): void {
+        this.isModalVisible = true;
+
+        // Gives time for the UI to add the modal
+        setTimeout(() => {
+            this.isModalVisible = !!callback();
+        }, 100);
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Language
     languages = [
         { short: 'en', long: 'English' },
         { short: 'fr', long: 'French' },
     ];
 
+    onChangeLanguage(): void {
+        this.parent.onChangeStringSetting(this.settings.lang);
+        location.reload();
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Starting Class
     startingClasses: string[] = [
         'Arcanist',
         'Archer',
@@ -32,18 +60,6 @@ export class CharacterSettingsComponent {
         'Rogue',
         'Thaumaturge',
     ];
-
-    constructor(
-        public parent: SettingsComponent,
-        private svcData: DataService,
-        private svcElectron: ElectronService
-    ) {
-    }
-
-    onChangeLanguage(): void {
-        this.parent.onChangeStringSetting(this.settings.lang);
-        location.reload();
-    }
 
     onChangeStartingClass(): void {
         this.parent.onChangeStringSetting(this.settings.startingClass);
@@ -73,33 +89,72 @@ export class CharacterSettingsComponent {
                 uldah.changeCompletionFlag(Completion.Y, true);
                 uldah.setCompletionFlag(Completion.N);
                 break;
-            // default: TODO: why was there a default
-            //     gridania.changeCompletionFlag(Completion.Y, true);
-            //     gridania.changeCompletionFlag(Completion.N, true);
         }
 
         this.svcData.applyDataToStore();
     }
 
-    onNewSaveClick(): void {
-        this.isModalVisible = true;
+    //#endregion
 
-        // Gives time for the UI to add the modal
-        setTimeout(() => {
+    //#region------------------------------------------------------- Change Save
+    onNewSaveClick(): void {
+        this.showModal(() => {
             const confirmed = this.svcElectron.ipcRenderer.sendSync('new-save');
             if(confirmed) location.reload();
-            else this.isModalVisible = false;
-        }, 100);
+            return confirmed;
+        });
     }
 
     onLoadSaveClick(): void {
-        this.isModalVisible = true;
-
-        // Gives time for the UI to add the modal
-        setTimeout(() => {
+        this.showModal(() => {
             const confirmed = this.svcElectron.ipcRenderer.sendSync('load-save');
             if(confirmed) location.reload();
-            else this.isModalVisible = false;
-        }, 100);
+            return confirmed;
+        });
     }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Open Folder
+    onOpenConfigClick(): void {
+        this.svcElectron.ipcRenderer.sendSync('open-config');
+    }
+
+    onOpenSaveClick(): void {
+        this.svcElectron.ipcRenderer.sendSync('open-save');
+    }
+
+    onOpenBothClick(): void {
+        this.onOpenConfigClick();
+        this.onOpenSaveClick();
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Backup
+    isBackingUpBoth: boolean = false;
+
+    onBackupConfigClick(): void {
+        this.showModal(() => {
+            this.svcElectron.ipcRenderer.sendSync('backup-config');
+            return this.isBackingUpBoth;
+        });
+    }
+
+    onBackupSaveClick(): void {
+        this.showModal(() => {
+            this.svcElectron.ipcRenderer.sendSync('backup-save');
+            this.isBackingUpBoth = false;
+        });
+    }
+
+    onBackupBothClick(): void {
+        this.isBackingUpBoth = true;
+
+        this.onBackupConfigClick();
+        this.onBackupSaveClick();
+    }
+
+    //#endregion
+
 }

@@ -1,0 +1,17 @@
+.p-buttonset {
+    p-button {
+        &:not(:last-child) .p-button {
+            border-right: 1px solid var(--primary-color-text);
+        }
+
+        &:first-child .p-button {
+            border-top-left-radius: var(--border-radius);
+            border-bottom-left-radius: var(--border-radius);
+        }
+
+        &:last-child .p-button {
+            border-top-right-radius: var(--border-radius);
+            border-bottom-right-radius: var(--border-radius);
+        }
+    }
+}

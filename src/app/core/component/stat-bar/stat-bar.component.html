@@ -6,7 +6,7 @@
     ></xiv-summary-line>
 
     <xiv-summary-line
-        *ngIf="!hideGroup && group?._parent"
+        *ngIf="!hideGroup && group?._parent && !group?.isUiGroup"
         [group]="group"
         [isBig]="true"
     ></xiv-summary-line>

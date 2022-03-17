@@ -38,7 +38,7 @@ export class NumericCompleteCellComponent implements OnChanges {
     }
 
     get _step(): number {
-        return 1 / (10 ** this.task._parent.numericDecimal);
+        return 1 / (10 ** (this.task._parent.numericDecimal ?? 0));
     }
 
     get _tooltip(): string {
