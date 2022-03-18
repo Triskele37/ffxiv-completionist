@@ -4,6 +4,7 @@ import { BreadcrumbModule } from 'primeng/breadcrumb';
 import { ButtonModule } from 'primeng/button';
 import { OverlayPanelModule } from 'primeng/overlaypanel';
 
+import { GroupLinkModule } from '../../pipe/group-link.pipe';
 import { BreadcrumbsComponent } from './breadcrumbs.component';
 
 @NgModule({
@@ -14,7 +15,8 @@ import { BreadcrumbsComponent } from './breadcrumbs.component';
         CommonModule,
         BreadcrumbModule,
         ButtonModule,
-        OverlayPanelModule
+        OverlayPanelModule,
+        GroupLinkModule,
     ],
     exports: [
         BreadcrumbsComponent

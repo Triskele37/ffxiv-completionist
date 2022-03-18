@@ -3,19 +3,20 @@ import { BehaviorSubject } from 'rxjs';
 
 import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
+import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
-import { MainMenu } from '../../../view/main-menu';
 
 @Injectable({
     providedIn: 'root'
 })
 export class NavigationService {
-    breadcrumbs$ = new BehaviorSubject<string[]>(['Overall']);
+    breadcrumbs$ = new BehaviorSubject<string[]>(['main-menu']);
     selectedGroup$ = new BehaviorSubject<DataGroup>(null);
-    groupHistory$ = new BehaviorSubject<string[]>([]);
+    groupHistory$ = new BehaviorSubject<DataGroup[]>([]);
 
     constructor(
         private svcData: DataService,
+        private svcMainMenu: MainMenuService,
         private svcConfig: ConfigStoreService
     ) {
         // Load previous breadcrumb state
@@ -32,29 +33,28 @@ export class NavigationService {
         if(!breadcrumbs) return null;
 
         if(breadcrumbs.length === 1) {
-            if(breadcrumbs[0] === 'FFXIV Completionist') return MainMenu;
+            if(breadcrumbs[0] === this.svcMainMenu.data._key) return this.svcMainMenu.data;
             else return this.svcData.data;
         }
 
         return breadcrumbs.reduce(
-            (acc, crumb) => acc.subGroups.find((g) => g.name === crumb) || acc,
-            { subGroups: [MainMenu, this.svcData.data] } as DataGroup
+            (acc, crumb) => acc.subGroups.find((g) => g._key === crumb) || acc,
+            { subGroups: [this.svcMainMenu.data, this.svcData.data] } as DataGroup
         );
     }
 
     addGroupHistory() {
         if(!this.selectedGroup$.value) return; // Must exist
         if(this.selectedGroup$.value.isUiGroup) return; // Must not be Main Menu
-        if(!this.selectedGroup$.value.tasks.length) return; // Must have tasks
+        if(!this.selectedGroup$.value.tasks?.length) return; // Must have tasks
 
         // Push a pretty history string
-        const path = this.selectedGroup$.value.groupPath.join(' > ');
-        const newHistory = this.groupHistory$.value;
-        newHistory.unshift(path);
+        const newHistory = [...this.groupHistory$.value];
+        newHistory.unshift(this.selectedGroup$.value);
 
         // Remove older duplicate (check index 0 because we just added it)
-        const lastIndex = this.groupHistory$.value.lastIndexOf(path);
-        if(lastIndex !== 0) newHistory.splice(lastIndex, 1);
+        const lastIndex = newHistory.lastIndexOf(this.selectedGroup$.value);
+        if(lastIndex > 0) newHistory.splice(lastIndex, 1);
 
         // Limit to 10 historical groups
         if(newHistory.length > 10) newHistory.pop();
@@ -64,10 +64,12 @@ export class NavigationService {
 
     // All group setting should flow through this function
     setSelectedGroup(group: DataGroup): void {
-        this.breadcrumbs$.next(group.groupPath);
+        const breadcrumbs = group.fullStorageKey.split('.');
+
+        this.breadcrumbs$.next(breadcrumbs);
         this.selectedGroup$.next(group);
         this.addGroupHistory();
-        this.svcConfig.set('last-breadcrumbs', this.breadcrumbs$.value);
+        this.svcConfig.set('last-breadcrumbs', breadcrumbs);
     }
 
     //#endregion
@@ -89,7 +91,7 @@ export class NavigationService {
         this.breadcrumbs$.next(breadcrumbs);
         this.selectedGroup$.next(this.getGroupFromBreadcrumbs(breadcrumbs));
         this.addGroupHistory();
-        this.svcConfig.set('last-breadcrumbs', this.breadcrumbs$.value);
+        this.svcConfig.set('last-breadcrumbs', breadcrumbs);
     }
 
     //#endregion

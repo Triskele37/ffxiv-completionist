@@ -11,10 +11,12 @@ function initActions() {
     electron_1.ipcMain.on('set-config', config_1.configStore.set);
     electron_1.ipcMain.on('open-config', config_1.configStore.open);
     electron_1.ipcMain.on('backup-config', config_1.configStore.backup);
+    electron_1.ipcMain.on('load-backup-config', config_1.configStore.loadBackup);
     electron_1.ipcMain.on('get-save', player_1.playerStore.get);
     electron_1.ipcMain.on('set-save', player_1.playerStore.set);
     electron_1.ipcMain.on('open-save', player_1.playerStore.open);
     electron_1.ipcMain.on('backup-save', player_1.playerStore.backup);
+    electron_1.ipcMain.on('load-backup-save', player_1.playerStore.loadBackup);
     electron_1.ipcMain.on('new-save', saveLocation_1.newSave);
     electron_1.ipcMain.on('load-save', saveLocation_1.loadSave);
     electron_1.ipcMain.on('load-json', function (event, path) {

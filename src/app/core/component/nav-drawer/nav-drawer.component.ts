@@ -4,8 +4,8 @@ import { MenuItem } from 'primeng/api';
 import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
+import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { NavigationService } from '@service/navigation/navigation.service';
-import { MainMenu } from '../../../view/main-menu';
 
 @Component({
     selector: 'xiv-nav-drawer',
@@ -13,19 +13,23 @@ import { MainMenu } from '../../../view/main-menu';
     styleUrls: ['./nav-drawer.component.scss']
 })
 export class NavDrawerComponent implements OnInit {
-    items: MenuItem[] = [this.addSubGroup(MainMenu)];
+    items: MenuItem[] = [];
+    hasFirstTranslations: boolean = false;
 
     constructor(
         private svcData: DataService,
         private svcBookmark: BookmarkService,
+        private svcMainMenu: MainMenuService,
         private svcNavigation: NavigationService
     ) {
     }
 
     ngOnInit() {
-        // Build the initial menu items
-        this.svcData.data.subGroups.forEach((group) => this.items.push(this.addSubGroup(group)));
+        this.buildMenuItems();
+        this.addSubscriptions();
+    }
 
+    private addSubscriptions(): void {
         // Collapse all groups not in the direct path of the selected group
         this.svcNavigation.selectedGroup$.subscribe((group) => {
             let path = group?.groupPath;
@@ -38,6 +42,13 @@ export class NavDrawerComponent implements OnInit {
         });
 
         this.svcBookmark.onGroupUpdated$.subscribe(this.updateBookmarkGroup.bind(this));
+    }
+
+    private buildMenuItems(): void {
+        this.items = [
+            this.addSubGroup(this.svcMainMenu.data),
+            ...this.svcData.data.subGroups.map((group) => this.addSubGroup(group))
+        ];
     }
 
     private updateBookmarkGroup() {

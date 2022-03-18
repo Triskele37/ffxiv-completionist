@@ -1,13 +1,13 @@
 <div class="setting">
     <label></label>
     <p-button
-        label="Reset to Default"
+        [label]="'MAIN.SETTING.THEME.RESET' | translate"
         (onClick)="resetTheme()"
     ></p-button>
 </div>
 
 <div class="setting">
-    <label>Primary Color:</label>
+    <label>{{'MAIN.SETTING.THEME.PRIMARY_COLOR' | translate}}:</label>
     <p-colorPicker
         [(ngModel)]="primaryColor"
         (onChange)="setPrimaryColor()"
@@ -15,7 +15,7 @@
 </div>
 
 <div class="setting">
-    <label>Primary Color Text:</label>
+    <label>{{'MAIN.SETTING.THEME.PRIMARY_TEXT' | translate}}:</label>
     <p-colorPicker
         [(ngModel)]="primaryText"
         (onChange)="setPrimaryText()"
@@ -23,7 +23,7 @@
 </div>
 
 <div class="setting">
-    <label>Font:</label>
+    <label>{{'MAIN.SETTING.THEME.FONT' | translate}}:</label>
     <input
         pInputText
         [(ngModel)]="fontFamily"

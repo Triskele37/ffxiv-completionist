@@ -51,13 +51,13 @@
                     "L2": "The icons in the column headers indicate the currently active sort"
                 },
                 "FILTER_COMPLETION": {
-                    "TITLE": "Filter Completion",
+                    "TITLE": "ilter Completion",
                     "L1": "At the top of non-numeric completion columns are 3 icons that indicate \"completed\", \"not completed\", and \"excluded\"",
                     "L2": "These can be enabled/disabled separately and their state is saved between tables and reloads",
                     "L3": "Items in the table that match any enabled icon will be displayed"
                 },
                 "FILTER_COLUMN": {
-                    "TITLE": "Filter Columns",
+                    "TITLE": "ilter Columns",
                     "L1": "At the top of each column is a text input to filter tasks in that table",
                     "L2": "This input may have a dropdown if the column has few unique values",
                     "L3": "This filter is case-insensitive and matches anywhere within that column",
@@ -307,39 +307,39 @@
         "SETTING": {
             "TITLE": "Settings",
             "CHARACTER": {
-                "TITLE": "Character"
-            },
-            "LANGUAGE": {
-                "LABEL": "Language",
-                "ENGLISH": "English",
-                "FRENCH": "French"
-            },
-            "CLASSES": {
-                "LABEL": "Starting Class",
-                "TOOLTIP": "Changing this value excludes innaccessible content",
-                "PLACEHOLDER": "Select Class",
-                "ACN": "Arcanist",
-                "ARC": "Archer",
-                "CNJ": "Conjurer",
-                "GLA": "Gladiator",
-                "LNC": "Lancer",
-                "MRD": "Marauder",
-                "PUG": "Pugilist",
-                "ROG": "Rogue",
-                "THM": "Thaumaturge"
-            },
-            "SAVE": {
-                "LOCATION": "Save File Location",
-                "NAME": "Save File Name",
-                "CHANGE": "Change Save",
-                "OPEN": "Open Folder",
-                "BACKUP": "Backup",
-                "LOAD_BACKUP": "Load Backup",
-                "NEW": "Create New",
-                "LOAD": "Load Existing",
-                "SAVE": "Save",
-                "CONFIG": "Config",
-                "BOTH": "Both"
+                "TITLE": "Character",
+                "LANGUAGE": {
+                    "LABEL": "Language",
+                    "ENGLISH": "English",
+                    "FRENCH": "French"
+                },
+                "CLASSES": {
+                    "LABEL": "Starting Class",
+                    "TOOLTIP": "Changing this value excludes innaccessible content",
+                    "PLACEHOLDER": "Select Class",
+                    "ACN": "Arcanist",
+                    "ARC": "Archer",
+                    "CNJ": "Conjurer",
+                    "GLA": "Gladiator",
+                    "LNC": "Lancer",
+                    "MRD": "Marauder",
+                    "PUG": "Pugilist",
+                    "ROG": "Rogue",
+                    "THM": "Thaumaturge"
+                },
+                "SAVE": {
+                    "LOCATION": "Save File Location",
+                    "NAME": "Save File Name",
+                    "CHANGE": "Change Save",
+                    "OPEN": "Open Folder",
+                    "BACKUP": "Backup",
+                    "LOAD_BACKUP": "Load Backup",
+                    "NEW": "Create New",
+                    "LOAD": "Load Existing",
+                    "SAVE": "Save",
+                    "CONFIG": "Config",
+                    "BOTH": "Both"
+                }
             },
             "THEME": {
                 "TITLE": "Theme",

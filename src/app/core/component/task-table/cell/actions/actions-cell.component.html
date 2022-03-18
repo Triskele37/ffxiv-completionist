@@ -20,7 +20,7 @@
         ></xiv-garland-action>
 
         <xiv-bookmark-action
-            *ngIf="!task._parent.isCustomGroup && !task._parent._isNumericCompletion"
+            *ngIf="!task._parent.isCustomGroup"
             [task]="task"
             (onClick)="onCloseActions()"
         ></xiv-bookmark-action>

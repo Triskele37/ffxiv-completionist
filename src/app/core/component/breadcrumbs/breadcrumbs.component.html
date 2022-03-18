@@ -17,8 +17,12 @@
             *ngFor="let group of svcNavigation.groupHistory$ | async"
             styleClass="p-button-link"
             pTooltip="Navigate to this group"
-            [label]="group"
+            [label]="group | groupLink"
             (onClick)="goToHistory(group)"
         ></p-button>
+
+        <div *ngIf="!(svcNavigation.groupHistory$ | async).length">
+            No History to display
+        </div>
     </div>
 </p-overlayPanel>

@@ -18,7 +18,7 @@ exports.configStore = {
             'store-loc': electron_1.app.getPath('userData'),
             'lang': 'en',
             'starting-class': '',
-            'last-breadcrumbs': ['FFXIV Completionist'],
+            'last-breadcrumbs': ['main-menu'],
             'chaining-enabled': false,
             'chain-history-limit': 10,
             'chain-min-threshold': 10,
@@ -47,7 +47,13 @@ exports.configStore = {
         }
         // Overwrite with defined properties matching default keys
         Object.keys(exports.configStore.store).forEach(function (key) {
-            if (config[key] !== undefined)
+            if (config[key] === undefined)
+                return;
+            var overwriteDefault = true;
+            if (Array.isArray(config[key])) {
+                overwriteDefault = config[key].length > 0;
+            }
+            if (overwriteDefault)
                 exports.configStore.store[key] = config[key];
         });
     },
@@ -74,6 +80,25 @@ exports.configStore = {
             fs.writeFileSync(result, JSON.stringify(exports.configStore.store, null, 4));
         }
         event.returnValue = null;
+    },
+    loadBackup: function (event) {
+        var result = electron_1.dialog.showOpenDialogSync(null, {
+            defaultPath: electron_1.app.getPath('userData'),
+            properties: ['openFile'],
+            filters: [{ name: 'JSON', extensions: ['json'] }]
+        });
+        // Do stuff only if something was selected
+        if (result === null || result === void 0 ? void 0 : result[0]) {
+            var originalPath = exports.configStore.path;
+            exports.configStore.path = result[0];
+            exports.configStore.load();
+            exports.configStore.path = originalPath;
+            exports.configStore.save();
+            event.returnValue = true;
+        }
+        else {
+            event.returnValue = false;
+        }
     }
 };
 //# sourceMappingURL=config.js.map

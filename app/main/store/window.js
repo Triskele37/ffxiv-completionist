@@ -50,7 +50,8 @@ function loadSplashWindow() {
         alwaysOnTop: true,
         center: true
     });
-    loadUrl_1.loadSplashUrl();
+    // windowStore.splash.webContents.openDevTools();
+    exports.windowStore.splash.loadURL("file://" + __dirname + "/../../splash.html");
 }
 function loadMainWindow(isServe) {
     var oldState = state_1.loadWindowState();

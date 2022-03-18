@@ -40,18 +40,22 @@ export class AppComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.loading = true;
-
         try {
             this.svcBookmark.initializeBookmarks();
             this.svcCustomTask.initializeCustomTasks();
             this.svcData.initializeData();
 
-            setTimeout(() => this.loading = false, 1);
+            this.loading = false;
         }
         catch(e) {
             this.modalText = 'An error has occurred...';
             console.error(e);
         }
+
+        // Keep title lang synced
+        this.translate.get('MAIN.TITLE').subscribe((title) => {
+            document.title = title;
+        });
     }
+
 }

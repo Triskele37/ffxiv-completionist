@@ -1,7 +1,7 @@
 <div *ngIf="isModalVisible" class="xiv-modal"></div>
 
-<div class="setting">
-    <label>Language:</label>
+<div class="setting" *ngIf="languages">
+    <label>{{'MAIN.SETTING.LANGUAGE.LABEL' | translate}}:</label>
     <p-dropdown
         optionValue="short"
         optionLabel="long"
@@ -11,15 +11,15 @@
     ></p-dropdown>
 </div>
 
-<div class="setting starting-class">
+<div class="setting starting-class" *ngIf="startingClasses">
     <span
         class="tooltip-container"
-        pTooltip="Changing this value excludes innaccessible content"
+        [pTooltip]="'MAIN.SETTING.CLASSES.TOOLTIP' | translate"
         tooltipPosition="right"
     >
-        <label>Starting Class:</label>
+        <label>{{'MAIN.SETTING.CLASSES.LABEL' | translate}}:</label>
         <p-dropdown
-            placeholder="Select Class"
+            [placeholder]="'MAIN.SETTING.CLASSES.PLACEHOLDER' | translate"
             [options]="startingClasses"
             [(ngModel)]="settings.startingClass.value"
             (onChange)="onChangeStartingClass()"
@@ -30,61 +30,75 @@
 </div>
 
 <div class="setting">
-    <label>Save File Location:</label>
+    <label>{{'MAIN.SETTING.SAVE.LOCATION' | translate}}:</label>
     <label>{{settings.storeLocation.value}}</label>
 </div>
 
 <div class="setting">
-    <label>Save File Name:</label>
+    <label>{{'MAIN.SETTING.SAVE.NAME' | translate}}:</label>
     <label>{{settings.storeName.value}}.json</label>
 </div>
 
 <div class="setting">
-    <label>Change Save:</label>
+    <label>{{'MAIN.SETTING.SAVE.CHANGE' | translate}}:</label>
     <span class="p-buttonset">
         <p-button
-            label="Create New"
+            [label]="'MAIN.SETTING.SAVE.NEW' | translate"
             (onClick)="onNewSaveClick()"
         ></p-button>
         <p-button
-            label="Load Existing"
+            [label]="'MAIN.SETTING.SAVE.LOAD' | translate"
             (onClick)="onLoadSaveClick()"
         ></p-button>
     </span>
 </div>
 
 <div class="setting">
-    <label>Open Folder:</label>
+    <label>{{'MAIN.SETTING.SAVE.OPEN' | translate}}:</label>
     <span class="p-buttonset">
         <p-button
-            label="Config"
+            [label]="'MAIN.SETTING.SAVE.CONFIG' | translate"
             (onClick)="onOpenConfigClick()"
         ></p-button>
         <p-button
-            label="Save"
+            [label]="'MAIN.SETTING.SAVE.SAVE' | translate"
             (onClick)="onOpenSaveClick()"
         ></p-button>
         <p-button
-            label="Both"
+            [label]="'MAIN.SETTING.SAVE.BOTH' | translate"
             (onClick)="onOpenBothClick()"
         ></p-button>
     </span>
 </div>
 
 <div class="setting">
-    <label>Backup:</label>
+    <label>{{'MAIN.SETTING.SAVE.BACKUP' | translate}}:</label>
     <span class="p-buttonset">
         <p-button
-            label="Config"
+            [label]="'MAIN.SETTING.SAVE.CONFIG' | translate"
             (onClick)="onBackupConfigClick()"
         ></p-button>
         <p-button
-            label="Save"
+            [label]="'MAIN.SETTING.SAVE.SAVE' | translate"
             (onClick)="onBackupSaveClick()"
         ></p-button>
         <p-button
-            label="Both"
+            [label]="'MAIN.SETTING.SAVE.BOTH' | translate"
             (onClick)="onBackupBothClick()"
+        ></p-button>
+    </span>
+</div>
+
+<div class="setting">
+    <label>{{'MAIN.SETTING.SAVE.LOAD_BACKUP' | translate}}:</label>
+    <span class="p-buttonset">
+        <p-button
+            [label]="'MAIN.SETTING.SAVE.CONFIG' | translate"
+            (onClick)="onLoadBackupConfigClick()"
+        ></p-button>
+        <p-button
+            [label]="'MAIN.SETTING.SAVE.SAVE' | translate"
+            (onClick)="onLoadBackupSaveClick()"
         ></p-button>
     </span>
 </div>

@@ -68,5 +68,24 @@ export const playerStore = {
         }
 
         event.returnValue = null;
+    },
+    loadBackup: (event: IpcMainEvent) => {
+        const result = dialog.showOpenDialogSync(null, {
+            defaultPath: configStore.store['store-loc'],
+            properties: ['openFile'],
+            filters: [{ name: 'JSON', extensions: ['json'] }]
+        });
+
+        // Do stuff only if something was selected
+        if(result?.[0]) {
+            playerStore.set({} as any,
+                JSON.parse(fs.readFileSync(result[0], 'utf8'))
+            );
+
+            event.returnValue = true;
+        }
+        else {
+            event.returnValue = false;
+        }
     }
 };

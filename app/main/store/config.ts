@@ -19,7 +19,7 @@ export const configStore = {
             'store-loc': app.getPath('userData'),
             'lang': 'en',
             'starting-class': '',
-            'last-breadcrumbs': ['FFXIV Completionist'],
+            'last-breadcrumbs': ['main-menu'],
             'chaining-enabled': false,
             'chain-history-limit': 10,
             'chain-min-threshold': 10,
@@ -50,7 +50,14 @@ export const configStore = {
 
         // Overwrite with defined properties matching default keys
         Object.keys(configStore.store).forEach((key) => {
-            if(config[key] !== undefined) configStore.store[key] = config[key];
+            if(config[key] === undefined) return;
+            let overwriteDefault = true;
+
+            if(Array.isArray(config[key])) {
+                overwriteDefault = config[key].length > 0;
+            }
+
+            if(overwriteDefault) configStore.store[key] = config[key];
         });
     },
     get: (event: IpcMainEvent) => {
@@ -82,5 +89,26 @@ export const configStore = {
         }
 
         event.returnValue = null;
+    },
+    loadBackup: (event: IpcMainEvent) => {
+        const result = dialog.showOpenDialogSync(null, {
+            defaultPath: app.getPath('userData'),
+            properties: ['openFile'],
+            filters: [{ name: 'JSON', extensions: ['json'] }]
+        });
+
+        // Do stuff only if something was selected
+        if(result?.[0]) {
+            const originalPath = configStore.path;
+            configStore.path = result[0];
+            configStore.load();
+            configStore.path = originalPath;
+            configStore.save();
+
+            event.returnValue = true;
+        }
+        else {
+            event.returnValue = false;
+        }
     }
 };

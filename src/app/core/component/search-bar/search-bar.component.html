@@ -1,5 +1,5 @@
 <p-button
-    label="FFXIV Completionist"
+    [label]="'MAIN.TITLE' | translate"
     class="home-button"
     icon="pi pi-chevron-down"
     (onClick)="onHomeClick()"
@@ -12,7 +12,7 @@
     <input
         #searchInput
         pInputText
-        placeholder="Search"
+        [placeholder]="'MAIN.SEARCH.PLACEHOLDER' | translate"
         [ngClass]="svcSearch.searchStatus$ | async"
         [(ngModel)]="searchTerm"
         (keydown.enter)="searchOnEnter()"

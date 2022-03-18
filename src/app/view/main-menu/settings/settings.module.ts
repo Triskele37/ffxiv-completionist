@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { TranslateModule } from '@ngx-translate/core';
+
 import { ButtonModule } from 'primeng/button';
 import { CheckboxModule } from 'primeng/checkbox';
 import { ColorPickerModule } from 'primeng/colorpicker';
@@ -29,6 +31,8 @@ import { SettingsComponent } from './settings.component';
     imports: [
         CommonModule,
         FormsModule,
+        TranslateModule,
+
         ButtonModule,
         CheckboxModule,
         ColorPickerModule,

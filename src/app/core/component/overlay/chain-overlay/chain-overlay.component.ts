@@ -75,8 +75,11 @@ export class ChainOverlayComponent implements OnInit, OnChanges, OnDestroy {
     }
 
     onNavigateToGroup(path: string): void {
-        let safePath = path.split(' > ');
-        if(safePath[0] !== 'Overall') safePath = ['Overall', ...safePath];
+        //TODO: need to change what comes into this function instead of this
+        const safePath = path.split(' > ').map((p) =>
+            p.toLowerCase().replace(/^[a-z]/g, '-')
+        );
+        if(safePath[0] !== 'overall') safePath.unshift('overall');
 
         this.svcNavigation.setBreadcrumbs(safePath);
     }

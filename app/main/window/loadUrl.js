@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.loadSplashUrl = exports.loadWindowUrl = void 0;
+exports.loadWindowUrl = void 0;
 var path = require("path");
 var fs = require("fs");
 var url = require("url");
@@ -32,9 +32,4 @@ function loadWindowUrl(isServe) {
     }
 }
 exports.loadWindowUrl = loadWindowUrl;
-function loadSplashUrl() {
-    // windowStore.splash.webContents.openDevTools();
-    window_1.windowStore.splash.loadURL("file://" + __dirname + "/../../splash.html");
-}
-exports.loadSplashUrl = loadSplashUrl;
 //# sourceMappingURL=loadUrl.js.map

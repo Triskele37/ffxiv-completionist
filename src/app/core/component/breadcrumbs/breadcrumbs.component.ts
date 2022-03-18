@@ -2,6 +2,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { MenuItem } from 'primeng/api';
 
+import { DataGroup } from '@domain/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 type BreadcrumbData = { index: number };
@@ -20,26 +21,28 @@ export class BreadcrumbsComponent implements OnInit, OnDestroy {
     items: MenuItem[] = [];
     private sub: Subscription;
 
-    constructor(public svcNavigation: NavigationService) {
+    constructor(
+        public svcNavigation: NavigationService
+    ) {
     }
 
     ngOnInit() {
-        this.sub = this.svcNavigation.breadcrumbs$
-            .subscribe(this.onBreadcrumbsChange.bind(this));
+        this.sub = this.svcNavigation.selectedGroup$.subscribe(
+            this.onSelectedGroupChange.bind(this)
+        );
     }
 
     ngOnDestroy() {
         this.sub.unsubscribe();
     }
 
-    goToHistory(groupLink: string): void {
-        const breadcrumbs: string[] = groupLink.split(' > ');
-        this.svcNavigation.setBreadcrumbs(breadcrumbs);
+    goToHistory(group: DataGroup): void {
+        this.svcNavigation.setBreadcrumbs(group.fullStorageKey.split('.'));
     }
 
     // Handler for when breadcrumbs$ changes
-    private onBreadcrumbsChange(breadcrumbs: string[]): void {
-        this.items = breadcrumbs.map((breadcrumb, index) => ({
+    private onSelectedGroupChange(selectedGroup: DataGroup): void {
+        this.items = selectedGroup.groupPath.map((breadcrumb, index) => ({
             label: breadcrumb,
             data: { index }
         }));

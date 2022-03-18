@@ -58,6 +58,21 @@ exports.playerStore = {
             fs.writeFileSync(result, JSON.stringify(exports.playerStore.store, null, 4));
         }
         event.returnValue = null;
+    },
+    loadBackup: function (event) {
+        var result = electron_1.dialog.showOpenDialogSync(null, {
+            defaultPath: config_1.configStore.store['store-loc'],
+            properties: ['openFile'],
+            filters: [{ name: 'JSON', extensions: ['json'] }]
+        });
+        // Do stuff only if something was selected
+        if (result === null || result === void 0 ? void 0 : result[0]) {
+            exports.playerStore.set({}, JSON.parse(fs.readFileSync(result[0], 'utf8')));
+            event.returnValue = true;
+        }
+        else {
+            event.returnValue = false;
+        }
     }
 };
 //# sourceMappingURL=player.js.map

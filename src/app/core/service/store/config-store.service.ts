@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 import { ElectronService } from '@service/electron/electron.service';
 import { DataGroup } from '@domain/DataGroup';
@@ -12,7 +13,10 @@ import { Store } from './Store';
 export class ConfigStoreService {
     store: Store<ConfigStore>;
 
-    constructor(private svcElectron: ElectronService) {
+    constructor(
+        private translate: TranslateService,
+        private svcElectron: ElectronService,
+    ) {
         this.store = new Store(svcElectron, 'get-config', 'set-config');
 
         DataGroup.lang = this.store.get('lang');

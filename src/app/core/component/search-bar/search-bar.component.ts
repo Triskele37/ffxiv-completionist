@@ -1,8 +1,8 @@
 import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 
-import { MainMenu } from '../../../view/main-menu';
-import { SearchService } from '@service/search/search.service';
+import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { NavigationService } from '@service/navigation/navigation.service';
+import { SearchService } from '@service/search/search.service';
 
 @Component({
     selector: 'xiv-search-bar',
@@ -15,6 +15,7 @@ export class SearchBarComponent {
     @ViewChild('searchInput') searchInput: ElementRef;
 
     constructor(
+        private svcMainMenu: MainMenuService,
         private svcNavigation: NavigationService,
         public svcSearch: SearchService,
     ) {
@@ -28,7 +29,7 @@ export class SearchBarComponent {
     }
 
     onHomeClick(): void {
-        this.svcNavigation.setSelectedGroup(MainMenu);
+        this.svcNavigation.setSelectedGroup(this.svcMainMenu.data);
     }
 
     searchOnEnter(): void {

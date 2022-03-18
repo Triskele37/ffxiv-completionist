@@ -10,11 +10,13 @@ export function initActions() {
     ipcMain.on('set-config', configStore.set);
     ipcMain.on('open-config', configStore.open);
     ipcMain.on('backup-config', configStore.backup);
+    ipcMain.on('load-backup-config', configStore.loadBackup);
 
     ipcMain.on('get-save', playerStore.get);
     ipcMain.on('set-save', playerStore.set);
     ipcMain.on('open-save', playerStore.open);
     ipcMain.on('backup-save', playerStore.backup);
+    ipcMain.on('load-backup-save', playerStore.loadBackup);
 
     ipcMain.on('new-save', newSave);
     ipcMain.on('load-save', loadSave);

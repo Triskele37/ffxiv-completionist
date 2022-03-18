@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 import { Completion } from '@constant';
 import { DataService } from '@data';
@@ -6,19 +7,46 @@ import { ElectronService } from '@service/electron/electron.service';
 import { Settings } from '../settings.d';
 import { SettingsComponent } from '../settings.component';
 
+type ShortLong = {
+    short: string;
+    long: string;
+};
+
 @Component({
     selector: 'xiv-character-settings',
     templateUrl: './character-settings.component.html',
     styleUrls: ['./character-settings.component.scss']
 })
-export class CharacterSettingsComponent {
+export class CharacterSettingsComponent implements OnInit {
     @Input() settings: Settings;
 
     constructor(
+        private translate: TranslateService,
         public parent: SettingsComponent,
         private svcData: DataService,
         private svcElectron: ElectronService
     ) {
+    }
+
+    ngOnInit() {
+        const LANGUAGES = 'MAIN.SETTING.LANGUAGE';
+        this.languages = [
+            { short: 'en', long: this.translate.instant(`${LANGUAGES}.ENGLISH`) },
+            { short: 'fr', long: this.translate.instant(`${LANGUAGES}.FRENCH`) },
+        ];
+
+        const CLASSES = 'MAIN.SETTING.CLASSES';
+        this.startingClasses = [
+            this.translate.instant(`${CLASSES}.ACN`),
+            this.translate.instant(`${CLASSES}.ARC`),
+            this.translate.instant(`${CLASSES}.CNJ`),
+            this.translate.instant(`${CLASSES}.GLA`),
+            this.translate.instant(`${CLASSES}.LNC`),
+            this.translate.instant(`${CLASSES}.MRD`),
+            this.translate.instant(`${CLASSES}.PUG`),
+            this.translate.instant(`${CLASSES}.ROG`),
+            this.translate.instant(`${CLASSES}.THM`),
+        ];
     }
 
     //#region------------------------------------------------------- Modal
@@ -36,30 +64,18 @@ export class CharacterSettingsComponent {
     //#endregion
 
     //#region------------------------------------------------------- Language
-    languages = [
-        { short: 'en', long: 'English' },
-        { short: 'fr', long: 'French' },
-    ];
+    languages: ShortLong[];
 
     onChangeLanguage(): void {
         this.parent.onChangeStringSetting(this.settings.lang);
+        this.isModalVisible = true;
         location.reload();
     }
 
     //#endregion
 
     //#region------------------------------------------------------- Starting Class
-    startingClasses: string[] = [
-        'Arcanist',
-        'Archer',
-        'Conjurer',
-        'Gladiator',
-        'Lancer',
-        'Marauder',
-        'Pugilist',
-        'Rogue',
-        'Thaumaturge',
-    ];
+    startingClasses: string[];
 
     onChangeStartingClass(): void {
         this.parent.onChangeStringSetting(this.settings.startingClass);
@@ -153,6 +169,25 @@ export class CharacterSettingsComponent {
 
         this.onBackupConfigClick();
         this.onBackupSaveClick();
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Load Backup
+    onLoadBackupConfigClick(): void {
+        this.showModal(() => {
+            const confirmed = this.svcElectron.ipcRenderer.sendSync('load-backup-config');
+            if(confirmed) location.reload();
+            return confirmed;
+        });
+    }
+
+    onLoadBackupSaveClick(): void {
+        this.showModal(() => {
+            const confirmed = this.svcElectron.ipcRenderer.sendSync('load-backup-save');
+            if(confirmed) location.reload();
+            return confirmed;
+        });
     }
 
     //#endregion

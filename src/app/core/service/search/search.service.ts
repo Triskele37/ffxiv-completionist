@@ -57,7 +57,7 @@ export class SearchService {
                 this.searchError$.next(null);
                 this.searchMatches$.next(matches);
 
-                this.svcNavigation.setBreadcrumbs(['FFXIV Completionist', 'Search']);
+                this.svcNavigation.setBreadcrumbs(['main-menu', 'search']);
             }
             else {
                 this.searchStatus$.next(Status.Failure);

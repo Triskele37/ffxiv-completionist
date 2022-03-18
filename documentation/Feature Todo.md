@@ -8,8 +8,8 @@
 **Change**
 
 **Fix**
-- Mac Support
 - Remove old PLD trial weapon recipes
+- Starting Class needs to have short/long values for translation purposes
 
 ------------------------------------------------------------------ High Priority
 **Add**
@@ -19,9 +19,7 @@
 - api action to apply new cache pathing to existing cache without re-downloading
 
 **Change**
-- auto-updater
 - "spotlight" when searching (scroll to maybe?)
-- detach lang specific resources to a download after installation
 
 **Fix**
 - Triad opponents need re-verification of patch (arrtripletriad.com/en/npcs)
@@ -34,12 +32,17 @@
 
 ------------------------------------------------------------------ Low Priority
 **Add**
-- "Legacy Quest" section for removed quests
-- patch column everywhere
-- Armoire section
+- "Legacy Quest" section
+- Patch column on all data
+- Equipment Section
+  - Armoire
+  - All Glam
+  - Move Relic here
+- Installation
+  - auto-update
+  - download lang resources at time of lang change
 
 **Change**
-- Move relic gear to top-level Equipment category in prep for Armoire & all glam
 - emotes by in-game tabs
 
 **Fix**

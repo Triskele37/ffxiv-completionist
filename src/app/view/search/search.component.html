@@ -6,24 +6,24 @@
         <span class="p-buttonset">
             <button
                 pButton
-                label="{{willCollapseAll ? 'Collapse' : 'Expand'}} All"
+                [label]="'MAIN.SEARCH.' + (willCollapseAll ? 'COLLAPSE' : 'EXPAND') | translate"
                 (click)="setRowsExpanded(svcSearch.searchMatches$.value, !willCollapseAll)"
             ></button>
 
             <button
                 pButton
-                [label]="svcSearch.expanded ? 'Search Name Columns' : 'Search All Columns'"
+                [label]="'MAIN.SEARCH.' + (svcSearch.expanded ? 'SEARCH_NAME' : 'SEARCH_COLUMN') | translate"
                 (click)="expandSearch()"
             ></button>
         </span>
 
         <br/>
 
-        <div>{{(svcSearch.searchMatches$ | async).length}} Match/es</div>
+        <div>{{(svcSearch.searchMatches$ | async).length}} {{'MAIN.SEARCH.MATCHES' | translate}}</div>
     </div>
 
     <ng-template #noSearch>
-        <span>Please enter a search term</span>
+        <span>{{'MAIN.SEARCH.NO_SEARCH' | translate}}</span>
     </ng-template>
 
     <div
@@ -42,9 +42,9 @@
         >
             <ng-template pTemplate="header">
                 <tr>
-                    <th>Complete</th>
-                    <th *ngIf="svcSearch.expanded">Column</th>
-                    <th>Value</th>
+                    <th>{{'MAIN.SEARCH.COLUMN' | translate}}</th>
+                    <th *ngIf="svcSearch.expanded">{{'MAIN.SEARCH.COLUMN' | translate}}</th>
+                    <th>{{'MAIN.SEARCH.VALUE' | translate}}</th>
                 </tr>
             </ng-template>
             <ng-template pTemplate="groupheader" let-match let-expanded="expanded">

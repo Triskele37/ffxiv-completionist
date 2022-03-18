@@ -17,11 +17,11 @@ export class MainContentComponent implements OnInit {
     selectedGroup: DataGroup;
 
     _anchor: AnchorDirective;
+    hasUnloadedComponent: boolean = false;
     @ViewChild(AnchorDirective, { static: false }) set anchor(ref: AnchorDirective) {
         if(!ref) return;
         this._anchor = ref;
-
-        this.loadComponent();
+        if(this.hasUnloadedComponent) this.loadComponent();
     };
 
     constructor(
@@ -37,7 +37,6 @@ export class MainContentComponent implements OnInit {
 
             if(selectedGroup.isUiGroup) {
                 this.isShowAllVisible = false;
-
                 if(selectedGroup?.component) this.loadComponent();
             }
             else {
@@ -59,8 +58,7 @@ export class MainContentComponent implements OnInit {
             const component = viewContainerRef.createComponent(componentFactory);
             component.changeDetectorRef.detectChanges();
         }
-        else {
-            setTimeout(this.loadComponent.bind(this), 100);
-        }
+
+        this.hasUnloadedComponent = !this._anchor;
     }
 }
