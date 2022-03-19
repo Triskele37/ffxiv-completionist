@@ -4,12 +4,26 @@
 - chain duties to quests & achievements requiring them
 - much of new content needs manual verification of chains
 - Fill in fishing/spearfishing scaffold
+- Still needs translate support
+    - Landing Page
+    - Nav History
+    - Custom Task Overlay
+    - Quick-Mark Overlay
+    - Selection Actions Overlay
+    - Chain Overlay
+    - Table Actions Overlay
+    - Row Actions
+    - Statistics Tooltip
+    - Table Header
+        - Rows Displayed
+        - All Task Button
 
 **Change**
 
 **Fix**
 - Remove old PLD trial weapon recipes
 - Starting Class needs to have short/long values for translation purposes
+- Clicking the main menu in breadcrumbs, then a subGroup, does not change on first click
 
 ------------------------------------------------------------------ High Priority
 **Add**
@@ -17,6 +31,7 @@
 - Toolset to allow translation of single words/phrases and shove those in resources
 - Custom application container, specifically title bar
 - api action to apply new cache pathing to existing cache without re-downloading
+- Capitalize NPC names when merging into resources from API
 
 **Change**
 - "spotlight" when searching (scroll to maybe?)
