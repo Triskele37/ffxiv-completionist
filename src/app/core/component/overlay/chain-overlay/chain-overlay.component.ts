@@ -74,14 +74,11 @@ export class ChainOverlayComponent implements OnInit, OnChanges, OnDestroy {
         group.show = !group.show;
     }
 
-    onNavigateToGroup(path: string): void {
-        //TODO: need to change what comes into this function instead of this
-        const safePath = path.split(' > ').map((p) =>
-            p.toLowerCase().replace(/^[a-z]/g, '-')
-        );
-        if(safePath[0] !== 'overall') safePath.unshift('overall');
-
-        this.svcNavigation.setBreadcrumbs(safePath);
+    onNavigateToGroup(chain: ChainStart | ChainedGroup): void {
+        const task = 'task' in chain ? chain.task : chain.tasks[0].task;
+        const path = task.fullStorageKey.split('.');
+        path.pop();
+        this.svcNavigation.setBreadcrumbs(path);
     }
 
     onUndoLastChain(): number {

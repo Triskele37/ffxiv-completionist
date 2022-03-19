@@ -313,6 +313,7 @@ export const QUEST_DEFINITION = {
                         'samurai',
                         'gunbreaker',
                         'dancer',
+                        'reaper',
                     ]
                 },
                 {
@@ -324,6 +325,7 @@ export const QUEST_DEFINITION = {
                         'scholar',
                         'astrologian',
                         'red-mage',
+                        'sage',
                         'blue-mage',
                     ]
                 },

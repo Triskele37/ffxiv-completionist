@@ -1,5 +1,5 @@
 .setting.starting-class {
-    width: 375px;
+    margin-top: 10px;
 
     // Fixes issue when built where dropdown wraps
     .tooltip-container {
@@ -11,6 +11,7 @@
         .p-dropdown {
             border-top-right-radius: 0;
             border-bottom-right-radius: 0;
+            width: 180px;
         }
 
         .overlay-container {

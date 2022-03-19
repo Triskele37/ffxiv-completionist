@@ -43,7 +43,11 @@ export class Chainer {
 
         // Chain child tasks if this one was marked incomplete
         if(this.task.cNext && this.flag === Completion.N) {
-            this.applyChainedFlag(this.task.cNext);
+            this.getAllTasksFor(this.task.cNext).forEach((task) => {
+                if(task.completionFlag === Completion.Y) {
+                    this.applyFlagToTask(this.flag as Completion, task);
+                }
+            });
         }
 
         // Chain sibling tasks if this wasn't marked excluded

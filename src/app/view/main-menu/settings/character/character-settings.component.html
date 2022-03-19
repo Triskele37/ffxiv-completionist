@@ -21,6 +21,7 @@
         <p-dropdown
             [placeholder]="'MAIN.SETTING.CLASSES.PLACEHOLDER' | translate"
             [options]="startingClasses"
+            [showClear]="true"
             [(ngModel)]="settings.startingClass.value"
             (onChange)="onChangeStartingClass()"
         ></p-dropdown>

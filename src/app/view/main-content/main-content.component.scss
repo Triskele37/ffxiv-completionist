@@ -8,6 +8,9 @@
     height: 100%;
     margin: 10px;
 
+    // For .section-actions position
+    position: relative;
+
     .custom-group-component {
         // Prevent x overflow
         white-space: normal;
@@ -29,5 +32,6 @@
     .section-actions {
         position: absolute;
         right: 100px;
+        top: -42px;
     }
 }

@@ -7,46 +7,22 @@
 
     .overlay-panel {
         .content {
-            .p-buttonset {
-                width: 100%;
-
-                // Chain start summary specific
-                &.chain-start ::ng-deep .p-button {
-                    height: 50px;
-                }
-
-                // Chain group specific
-                &.chain-group ::ng-deep .p-button {
-                    height: 38px;
-                }
-
-                // Common
-                ::ng-deep .p-button {
-                    &.path {
-                        width: calc(100% - #{$nav-arrow-width});
-
-                        // Wrap lines, left align, vertical center
-                        flex-direction: column;
-                        align-items: flex-start;
-                        justify-content: center;
-                    }
-
-                    &.nav {
-                        width: $nav-arrow-width;
-                    }
-                }
+            p-button:not(.undo-button) ::ng-deep .p-button {
+                border-radius: unset;
             }
 
-            .chained-task ::ng-deep {
-                width: 100%;
+            // Chain start summary specific
+            .chain-start {
+                .summary {
+                    display: inline-flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: calc(100% - #{$nav-arrow-width});
+                }
 
-                .p-button {
-                    padding: 0 0 0 25px;
-                    width: 100%;
-
-                    .task-name {
-                        padding-left: 10px;
-                    }
+                ::ng-deep .p-button.nav {
+                    height: 50px;
+                    width: $nav-arrow-width;
                 }
             }
 
@@ -58,6 +34,32 @@
                 overflow-y: auto;
                 height: 50vh;
                 min-width: 700px;
+
+                .chain-group {
+                    width: 100%;
+
+                    ::ng-deep .p-button.path {
+                        flex-wrap: wrap;
+                        height: 38px;
+                        width: calc(100% - #{$nav-arrow-width});
+                    }
+
+                    ::ng-deep .p-button.nav {
+                        height: 38px;
+                        width: $nav-arrow-width;
+                    }
+                }
+
+                .chained-task {
+                    display: flex;
+                    align-items: center;
+                    padding: 0 0 0 25px;
+                    width: 100%;
+
+                    .task-name {
+                        padding-left: 10px;
+                    }
+                }
             }
 
             .Y, .N, .X {
