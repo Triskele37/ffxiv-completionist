@@ -24,6 +24,7 @@ export class SearchBarComponent {
     @HostListener('window:keydown', ['$event'])
     onKeydown($event: KeyboardEvent) {
         if(($event.ctrlKey || $event.metaKey) && $event.code === 'KeyF') {
+            this.searchTerm = '';
             this.searchInput.nativeElement.focus();
         }
     }

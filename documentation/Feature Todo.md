@@ -6,7 +6,6 @@
   - Beast Tribe Recipes on Beast Tribe Quests (one-way)
   - Duties on Quests (one-way)
   - Duties & Achievements (two-way)
-  - Mount Speed Increases on Quests (two-way)
 
 **Change**
 
@@ -28,6 +27,8 @@
   - Trust
   - Orchestrion
   - Travel
+Mount Speed > Thanalan
+  - Only 1 of the 2 that sibling The Ultimate Weapon chain
 
 ------------------------------------------------------------------ High Priority
 **Add**

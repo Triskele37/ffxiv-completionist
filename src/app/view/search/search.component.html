@@ -42,7 +42,8 @@
         >
             <ng-template pTemplate="header">
                 <tr>
-                    <th>{{'MAIN.SEARCH.COLUMN' | translate}}</th>
+                    <th>{{'MAIN.SEARCH.COMPLETE' | translate}}</th>
+                    <th *ngIf="showKey">ID</th>
                     <th *ngIf="svcSearch.expanded">{{'MAIN.SEARCH.COLUMN' | translate}}</th>
                     <th>{{'MAIN.SEARCH.VALUE' | translate}}</th>
                 </tr>
@@ -55,7 +56,7 @@
                             [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
                         ></p-button>
                     </td>
-                    <td [colSpan]="svcSearch.expanded ? 2 : 1">
+                    <td [colSpan]="1 + (svcSearch.expanded ? 1 : 0) + (showKey ? 1 : 0)">
                         <xiv-link-cell [task]="match.task"></xiv-link-cell>
                     </td>
                 </tr>
@@ -75,6 +76,7 @@
                         ></xiv-numeric-complete-cell>
                     </ng-template>
 
+                    <td *ngIf="showKey">{{match.task.fullStorageKey}}</td>
                     <td *ngIf="svcSearch.expanded">{{match.header}}</td>
                     <td>{{match.task[match.key]}}</td>
                 </tr>

@@ -1,4 +1,7 @@
-export const APP_CONFIG = {
+import { Environment } from './environment.d';
+
+export const APP_CONFIG: Environment = {
     production: false,
-    environment: 'DEV'
+    environment: 'DEV',
+    showKeys: true
 };

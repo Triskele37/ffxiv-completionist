@@ -1,6 +1,7 @@
 import { Observable, Subject } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 
+import { APP_CONFIG } from '../../environments/environment';
 import { Completion, CompletionFlag, Lang } from '@constant';
 import { loadJson } from '@data/loader';
 import { ElectronService } from '@service/electron/electron.service';
@@ -71,12 +72,14 @@ export class DataGroup {
         if(json.noContent) this.noContent = true;
         this.visible = json.visible !== false;
 
-        // Uncomment to show a column for task ids
-        if(this.columns && this.columns[0].key !== 'id') {
-            this.columns.unshift({
-                key: 'id',
-                header: 'ID'
-            });
+        // Show keys when in dev
+        if(APP_CONFIG.showKeys) {
+            if(this.columns && this.columns[0].key !== 'fullStorageKey') {
+                this.columns.unshift({
+                    key: 'fullStorageKey',
+                    header: 'ID'
+                });
+            }
         }
 
         return this;

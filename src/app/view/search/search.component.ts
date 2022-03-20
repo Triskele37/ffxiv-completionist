@@ -1,6 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 
+import { APP_CONFIG } from '../../../environments/environment';
 import { Match, SearchService, Status } from '@service/search/search.service';
 
 type ExpandedRows = {
@@ -19,6 +20,7 @@ export class SearchComponent implements OnInit, OnDestroy {
     willCollapseAll: boolean = false;
     expandedRows: ExpandedRows = {};
     rowKeys: string[];
+    showKey: boolean = APP_CONFIG.showKeys;
 
     constructor(public svcSearch: SearchService) {
     }

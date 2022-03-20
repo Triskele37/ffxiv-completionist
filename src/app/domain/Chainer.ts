@@ -299,6 +299,7 @@ const PathShorthand = {
     r5: 'character.relic-gear.resistance',
     r6: 'character.relic-gear.skysteel-tools',
     ss: 'logs.sightseeing-log',
+    ms: 'travel.mount-speed',
     fr: 'duty.collection.field-record',
     job: 'character.character.classes--jobs',
     konogg: 'duty.collection',
