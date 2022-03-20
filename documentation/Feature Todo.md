@@ -66,7 +66,6 @@
   - download lang resources at time of lang change
 
 **Change**
-- emotes by in-game tabs
 
 **Fix**
 - Quest/67635 is the only one without an NPC via XIVAPI (Tobana)

@@ -2,6 +2,7 @@ import { SaveStoreService } from '../../save-store.service';
 import { ChangeStore } from '../ChangeStore';
 
 import { migrate_6_1_fate } from './fate';
+import { migrate_6_1_emotes } from './emotes';
 import { migrate_6_1_housing } from './housing';
 import { migrate_6_1_gatheringLog } from './gathering-log';
 import { migrate_6_1_aetherCurrent } from './aether-current';
@@ -33,8 +34,12 @@ export function migrate_5_58_to_6_1(svcSaveStore: SaveStoreService): void {
         'travel.shared-fate.shb'
     );
 
+    // Removed
+    store.deleteTask('character.character.aesthetician', 27);
+
     // Large-scale changes by group
     migrate_6_1_fate(store);
+    migrate_6_1_emotes(store);
     migrate_6_1_housing(store);
     migrate_6_1_gatheringLog(store);
     migrate_6_1_aetherCurrent(store);
