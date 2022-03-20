@@ -75,5 +75,14 @@
                 background-color: var(--selected-2);
             }
         }
+
+        // Fix rendering artifact on dynamically filtered rows
+        //TODO: this is a bandaid for now, assuming the artifact still happens
+        //TODO: but is the same color as whats below the table
+        .p-datatable-wrapper {
+            .cdk-virtual-scroll-content-wrapper {
+                background: var(--surface-a);
+            }
+        }
     }
 }

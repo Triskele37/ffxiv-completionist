@@ -11,6 +11,8 @@
 **Change**
 
 **Fix**
+- loading tonberry doesn't show in build
+- use ngAfterViewInit in app.component to hide loading tonberry instead of when-ready
 - long table cells truncated, add tooltip
 - Remove old PLD trial weapon recipes
 - Starting Class needs to have short/long values for translation purposes
