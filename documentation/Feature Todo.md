@@ -11,6 +11,7 @@
 **Change**
 
 **Fix**
+- long table cells truncated, add tooltip
 - Remove old PLD trial weapon recipes
 - Starting Class needs to have short/long values for translation purposes
 - Clicking the main menu in breadcrumbs, then a subGroup, does not change on first click
@@ -18,6 +19,13 @@
 - Scroll height issue w/ Seventh Umbral section due to subGroups and large table
 - the "My First Gladius/Hora/etc." quests for each of the starting classes should be excluded for that class, as they're only available for classes other than the starting ones
   Rogue's level 1 quests names are a bit different so I'm not sure if it applies to them but I assume it does
+- Missing fr sections
+  - Various group names
+  - Lucis Tools
+  - Resplendent Tools
+  - Trust
+  - Orchestrion
+  - Travel
 
 ------------------------------------------------------------------ High Priority
 **Add**
