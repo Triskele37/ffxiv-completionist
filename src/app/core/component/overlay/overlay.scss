@@ -7,6 +7,17 @@
         z-index: 1000;
         left: 0;
 
+        // Pretty border
+        border: 1px solid var(--primary-color);
+        border-radius: var(--border-radius);
+        border-top-left-radius: 0;
+
+        // Apply border radius to content
+        overflow: hidden;
+
+        // Pull overlay up 1px so borders overlap
+        margin-top: -1px;
+
         .content {
             display: flex;
             flex-direction: column;

@@ -1,8 +1,14 @@
 {
+    "LANDING": {
+        "HEADER": "Welcome to the FFXIV Completionist App!",
+        "GUIDE": "Getting Started",
+        "PATCH_NOTES": "What's New",
+        "COMPLETION": "Completion Overview"
+    },
     "MAIN": {
         "TITLE": "FFXIV Completionist",
         "GUIDE": {
-            "TITLE": "Instructions",
+            "TITLE": "Guide",
             "NAVIGATION": {
                 "TITLE": "Navigation",
                 "NAV_DRAWER": {
@@ -383,6 +389,8 @@
             "TITLE": "Search",
             "PLACEHOLDER": "Search",
             "NO_SEARCH": "Please enter a search term",
+            "TOO_SHORT": "Please enter at least 3 characters",
+            "NO_RESULTS": "No tasks found",
             "EXPAND": "Expand All",
             "COLLAPSE": "Collapse All",
             "SEARCH_NAME": "Search Name Columns",
@@ -392,5 +400,77 @@
             "COLUMN": "Column",
             "VALUE": "Value"
         }
+    },
+    "TABLE": {
+        "DISPLAYED": "Rows displayed",
+        "HIDDEN": "Hidden",
+        "SHOW_ALL": "Show All Tasks",
+        "HIDE_ALL": "Hide All Tasks",
+        "ROW_ACTION": {
+            "TITLE": "Row Actions",
+            "BOOKMARK": "Bookmark Task",
+            "UNBOOKMARK": "Unbookmark Task",
+            "REORDER": "Reorder Row",
+            "GARLAND": "Garland Tools",
+            "ESCAPE": "Gamer Escape"
+        }
+    },
+    "OVERLAY": {
+        "HISTORY": {
+            "TITLE": "History",
+            "NO_CONTENT": "No History to display"
+        },
+        "QUICK_MARK": {
+            "TITLE": "Quick-Mark Actions",
+            "N-Y": "Mark Incomplete as Complete",
+            "N-X": "Mark Incomplete as Excluded",
+            "Y-N": "Mark Complete as Incomplete",
+            "Y-X": "Mark Complete as Excluded",
+            "X-N": "Mark Excluded as Incomplete",
+            "X-Y": "Mark Excluded as Complete",
+            "S-Y": "Mark Selected as Complete",
+            "S-N": "Mark Selected as Incomplete",
+            "S-X": "Mark Selected as Excluded",
+            "UNDO": "Undo Last Quick-Mark"
+        },
+        "SELECTION": {
+            "TITLE": "Selection Actions",
+            "SELECT_ALL": "Select All Tasks",
+            "DESELECT_ALL": "Deselect All Tasks",
+            "INVERT": "Invert Selection",
+            "ACTIONS": "Selected Actions",
+            "GARLAND": "Open in Garland Tools",
+            "TEAMCRAFT": "Open in Teamcraft"
+        },
+        "CHAIN": {
+            "NO_CONTENT": "No chain information to display",
+            "UNDO": "Undo this chain",
+            "VERIFY": "Are you sure?",
+            "CHAINED": "chained to {{count}} other task/s"
+        },
+        "TABLE": {
+            "TITLE": "Table Actions",
+            "ADD_BOOKMARK": "Bookmark Group",
+            "REM_BOOKMARK": "Unbookmark Group"
+        },
+        "CUSTOM": {
+            "NAME_PLACEHOLDER": "Enter Custom Task Name Here",
+            "NOTE_PLACEHOLDER": "Enter Custom Task Notes Here",
+            "ADD": "Add Task",
+            "AUTO": "Auto-Merge Tasks with One Match",
+            "MERGE": "Merge Tasks into App",
+            "REMOVE": "Remove Selected Tasks",
+            "MATCH": "matches found",
+            "NO_MATCH": "No match found",
+            "SKIP": "Skip",
+            "EXIT": "Exit",
+            "SELECT": "Select a match"
+        }
+    },
+    "GENERAL": {
+        "GROUP_NAVIGATE": "Navigate to this group",
+        "REMAINING": "Remaining",
+        "EXCLUDED": "Excluded",
+        "WEIGHT": "Weight"
     }
 }

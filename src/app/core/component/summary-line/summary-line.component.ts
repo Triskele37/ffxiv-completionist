@@ -1,4 +1,5 @@
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
 
 import { DataService } from '@data';
@@ -19,6 +20,7 @@ export class SummaryLineComponent implements OnChanges {
     tooltip: string;
 
     constructor(
+        private translate: TranslateService,
         private svcData: DataService,
         private svcNavigation: NavigationService
     ) {
@@ -44,12 +46,18 @@ export class SummaryLineComponent implements OnChanges {
 
         // Build tooltip line by line
         this.tooltip = Math.floor(totalCompleted).toLocaleString();
-        this.tooltip += ` / ${displayTotal.toLocaleString()}`;
-        this.tooltip += `\nRemaining: ${remaining.toLocaleString()}`;
-        this.tooltip += `\nExcluded: ${totalExcluded.toLocaleString()}`;
+        this.tooltip += ` / ${displayTotal.toLocaleString()}\n`;
+        this.tooltip += this.translate.instant('GENERAL.REMAINING');
+        this.tooltip += `: ${remaining.toLocaleString()}\n`;
+        this.tooltip += this.translate.instant('GENERAL.EXCLUDED');
+        this.tooltip += `: ${totalExcluded.toLocaleString()}`;
 
         // Don't add weight for overall
-        if(weight !== 100) this.tooltip += `\n\nWeight: ${weight.toFixed(3)}%`;
+        if(weight !== 100) {
+            this.tooltip += '\n\n';
+            this.tooltip += this.translate.instant('GENERAL.WEIGHT');
+            this.tooltip += `: ${weight.toFixed(3)}%`;
+        }
     }
 
     onClick(): void {

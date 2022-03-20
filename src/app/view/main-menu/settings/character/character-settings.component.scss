@@ -16,7 +16,11 @@
 
         .overlay-container {
             .overlay-panel {
-                left: -185px;
+                left: -180px;
+
+                .chain-scroll-container {
+                    height: 175px !important;
+                }
             }
 
             .p-button {

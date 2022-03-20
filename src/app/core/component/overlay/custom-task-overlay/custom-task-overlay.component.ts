@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 import { Completion } from '@constant';
 import { DataService } from '@data';
@@ -28,12 +29,12 @@ export class CustomTaskOverlayComponent {
     autoMerge: boolean = false;
     mergeFirstInChain: boolean = false;
     mergeIndex: number = 0;
-    mergeInfo: string = '';
     mergeMatches: Match[] = [];
     mergeTask: Task = {} as Task;
     tasksToRemove: Task[] = [];
 
     constructor(
+        private translate: TranslateService,
         private svcData: DataService,
         private svcChain: ChainService,
         private svcSearch: SearchService,
@@ -100,13 +101,6 @@ export class CustomTaskOverlayComponent {
                 !match.task._parent.isBookmarkGroup &&
                 !match.task._parent.isCustomGroup
             );
-
-        if(this.mergeMatches.length) {
-            this.mergeInfo = `${this.mergeMatches.length} matches found`;
-        }
-        else {
-            this.mergeInfo = 'No match found';
-        }
 
         if(this.autoMerge) {
             setTimeout(() => {

@@ -26,11 +26,11 @@
             border-radius: 0;
 
             &.success {
-                border-color: var(--completed);
+                box-shadow: inset 0 0 15px var(--completed);
             }
 
             &.failure {
-                border-color: var(--incomplete);
+                box-shadow: inset 0 0 15px var(--incomplete);
             }
         }
 

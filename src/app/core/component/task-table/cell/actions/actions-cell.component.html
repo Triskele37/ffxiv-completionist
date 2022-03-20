@@ -3,7 +3,7 @@
         class="action-dial"
         styleClass="p-button-text p-button-rounded p-button-plain p-mr-2"
         [icon]="expanded ? 'pi pi-chevron-right' : 'pi pi-chevron-left'"
-        [pTooltip]="expanded ? '' : 'Row Actions'"
+        [pTooltip]="expanded ? '' : ('TABLE.ROW_ACTION.TITLE' | translate)"
         tooltipPosition="left"
         (onClick)="expanded = !expanded"
     ></p-button>

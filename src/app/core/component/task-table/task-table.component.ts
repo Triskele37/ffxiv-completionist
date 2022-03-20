@@ -11,10 +11,6 @@ type UniqueValues = {
     [column: string]: string[];
 };
 
-type ExpandedGroups = {
-    [key: string]: boolean;
-};
-
 @Component({
     selector: 'xiv-task-table',
     templateUrl: 'task-table.component.html',
@@ -26,7 +22,6 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
     @Input() groupRows: boolean;
 
     debounceDrag: boolean;
-    expandedGroups: ExpandedGroups = {};
 
     uniqueValues: UniqueValues;
     filteredTasks: Task[];
@@ -243,29 +238,6 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
             this._taskTable.value = [...this._taskTable.value];
             og(event, rowElement);
         };
-    }
-
-    //#endregion
-
-    //#region----------------------------------------------------------- Row Group
-    toggleExpanded(): void {
-        const hasExpanded = !!Object.keys(this.expandedGroups).length;
-
-        if(hasExpanded) {
-            this.expandedGroups = {};
-        }
-        else {
-            this.expandedGroups = this.diveForExpandedGroups(this.group);
-        }
-    }
-
-    diveForExpandedGroups(group: DataGroup, obj: ExpandedGroups = {}): ExpandedGroups {
-        group.subGroups?.forEach((subGroup) => {
-            obj[subGroup.fullStorageKey] = true;
-            this.diveForExpandedGroups(subGroup, obj);
-        });
-
-        return obj;
     }
 
     //#endregion

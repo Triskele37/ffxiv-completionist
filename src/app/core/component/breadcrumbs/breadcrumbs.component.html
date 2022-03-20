@@ -11,18 +11,18 @@
 </div>
 
 <p-overlayPanel #op>
-    <span>History:</span>
+    <span>{{'OVERLAY.HISTORY.TITLE' | translate}}:</span>
     <div class="history-links">
         <p-button
             *ngFor="let group of svcNavigation.groupHistory$ | async"
             styleClass="p-button-link"
-            pTooltip="Navigate to this group"
+            [pTooltip]="'GENERAL.GROUP_NAVIGATE' | translate"
             [label]="group | groupLink"
             (onClick)="goToHistory(group)"
         ></p-button>
 
         <div *ngIf="!(svcNavigation.groupHistory$ | async).length">
-            No History to display
+            {{'OVERLAY.HISTORY.NO_CONTENT' | translate}}
         </div>
     </div>
 </p-overlayPanel>

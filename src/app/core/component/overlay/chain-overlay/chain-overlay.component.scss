@@ -18,6 +18,11 @@
                     flex-direction: column;
                     align-items: center;
                     width: calc(100% - #{$nav-arrow-width});
+
+                    .task {
+                        display: flex;
+                        align-items: center;
+                    }
                 }
 
                 ::ng-deep .p-button.nav {

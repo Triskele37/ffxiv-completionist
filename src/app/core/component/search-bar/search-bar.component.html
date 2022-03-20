@@ -7,11 +7,12 @@
 
 <div
     class="search-bar"
-    [pTooltip]="svcSearch.searchError$ | async"
 >
     <input
         #searchInput
         pInputText
+        tooltipEvent="focus"
+        [pTooltip]="svcSearch.searchError$ | async"
         [placeholder]="'MAIN.SEARCH.PLACEHOLDER' | translate"
         [ngClass]="svcSearch.searchStatus$ | async"
         [(ngModel)]="searchTerm"
@@ -20,6 +21,7 @@
 
     <p-button
         icon="material-icons mi-search"
+        [pTooltip]="svcSearch.searchError$ | async"
         (onClick)="onSearch()"
     ></p-button>
 </div>

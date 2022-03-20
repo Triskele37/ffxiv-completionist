@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 import { ButtonModule } from 'primeng/button';
 
 import { SummaryLineModule } from '@component/summary-line/summary-line.module';
@@ -18,6 +19,7 @@ import { MainContentComponent } from './main-content.component';
     ],
     imports: [
         CommonModule,
+        TranslateModule,
         ButtonModule,
 
         SummaryLineModule,

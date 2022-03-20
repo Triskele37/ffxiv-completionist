@@ -12,7 +12,7 @@
     <div *ngIf="isVisible" class="overlay-panel">
         <!-- Dropdown Content Body with no Data -->
         <div *ngIf="!chainStart" class="content">
-            <p-button label="No chain information to display"></p-button>
+            <p-button [label]="'OVERLAY.CHAIN.NO_CONTENT' | translate"></p-button>
         </div>
 
         <!-- Dropdown Content Body with Data -->
@@ -21,7 +21,7 @@
             <p-button
                 *ngIf="!chainStart.historyDisabled"
                 class="undo-button"
-                [label]="!undoVerified ? 'Undo This Chain' : 'Are you sure?'"
+                [label]="(!undoVerified ? 'OVERLAY.CHAIN.UNDO' : 'OVERLAY.CHAIN.VERIFY') | translate"
                 (onClick)="onUndoLastChain()"
             ></p-button>
 
@@ -29,16 +29,18 @@
             <span class="chain-start">
                 <div class="summary">
                     <div>{{chainStart.path}}</div>
-                    <div>
-                        Marking "{{chainStart.task.name}}"&nbsp;
-                        as "<span [ngClass]="[chainStart.toFlag]">{{chainStart.toFlag}}</span>"&nbsp;
-                        chained to {{chainedTaskCount}} other items
+                    <div class="task">
+                        <span [ngClass]="[chainStart.fromFlag]">{{chainStart.fromFlag}}</span>
+                        <i class="material-icons mi-arrow-right-alt"></i>
+                        <span [ngClass]="[chainStart.toFlag]">{{chainStart.toFlag}}</span>
+                        <span>&nbsp;"{{chainStart.task.name}}"&nbsp;</span>
+                        {{'OVERLAY.CHAIN.CHAINED' | translate:chainedTaskCount}}
                     </div>
                 </div>
                 <p-button
                     styleClass="nav"
                     icon="material-icons mi-navigate-next"
-                    pTooltip="Navigate to this group"
+                    [pTooltip]="'GENERAL.GROUP_NAVIGATE' | translate"
                     tooltipPosition="right"
                     (onClick)="onNavigateToGroup(chainStart)"
                 ></p-button>
@@ -58,7 +60,7 @@
                         <p-button
                             styleClass="nav"
                             icon="material-icons mi-navigate-next"
-                            pTooltip="Navigate to this group"
+                            [pTooltip]="'GENERAL.GROUP_NAVIGATE' | translate"
                             tooltipPosition="right"
                             tooltipStyleClass="chain-navigate-tooltip"
                             (onClick)="onNavigateToGroup(group)"

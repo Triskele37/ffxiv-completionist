@@ -10,23 +10,36 @@
 
     <div *ngIf="isVisible" class="overlay-panel">
         <span class="content">
-            <p-button label="Selection Actions Menu" [disabled]="true"></p-button>
-            <p-button label="Select All Tasks" (onClick)="onSelectChange(true)"></p-button>
-            <p-button label="Deselect All Tasks" (onClick)="onSelectChange(false)"></p-button>
-            <p-button label="Invert Selection" (onClick)="onSelectChange(null)"></p-button>
+            <p-button
+                [label]="'OVERLAY.SELECTION.TITLE' | translate"
+                [disabled]="true"
+            ></p-button>
+
+            <p-button
+                [label]="'OVERLAY.SELECTION.SELECT_ALL' | translate"
+                (onClick)="onSelectChange(true)"
+            ></p-button>
+            <p-button
+                [label]="'OVERLAY.SELECTION.DESELECT_ALL' | translate"
+                (onClick)="onSelectChange(false)"
+            ></p-button>
+            <p-button
+                [label]="'OVERLAY.SELECTION.INVERT' | translate"
+                (onClick)="onSelectChange(null)"
+            ></p-button>
 
             <ng-container *ngIf="group.isCraftingLogGroup">
                 <p-divider align="center">
-                    Selected Actions
+                    {{'OVERLAY.SELECTION.ACTIONS' | translate}}
                 </p-divider>
 
                 <p-button
-                    label="Open in Garland Tools"
+                    [label]="'OVERLAY.SELECTION.GARLAND' | translate"
                     (onClick)="openInGarland()"
                 ></p-button>
 
                 <p-button
-                    label="Open in Teamcraft"
+                    [label]="'OVERLAY.SELECTION.TEAMCRAFT' | translate"
                     (onClick)="openInTeamcraft()"
                 ></p-button>
             </ng-container>

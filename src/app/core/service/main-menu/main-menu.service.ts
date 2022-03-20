@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
-import { InstructionsComponent } from '../../../view/main-menu/instructions/instructions.component';
+import { GuideComponent } from '../../../view/main-menu/guide/guide.component';
 import { SearchComponent } from '../../../view/search/search.component';
 import { PatchNotesComponent } from '../../../view/main-menu/patch-notes/patch-notes.component';
 import { SettingsComponent } from '../../../view/main-menu/settings/settings.component';
@@ -23,18 +23,18 @@ export class MainMenuService {
         }, null);
 
         this.data.subGroups = [
-            this.newInstructions,
+            this.newGuide,
             this.newPatchNotes,
             this.newSettings,
             this.newSearch
         ];
     }
 
-    get newInstructions(): DataGroup {
+    get newGuide(): DataGroup {
         return new DataGroup({
-            key: 'instructions',
+            key: 'guide',
             groupName: this.translate.instant('MAIN.GUIDE.TITLE'),
-            component: InstructionsComponent
+            component: GuideComponent
         }, this.data);
     }
 

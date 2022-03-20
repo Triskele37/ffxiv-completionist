@@ -19,7 +19,6 @@
 
             <xiv-table-action-overlay
                 [group]="group"
-                (toggleExpanded)="toggleExpanded.emit()"
             ></xiv-table-action-overlay>
         </ng-container>
 
@@ -33,8 +32,8 @@
         *ngIf="totalTasks"
         class="row-count"
         tooltipPosition="top"
-        pTooltip="{{totalTasks - tasks.length}} Hidden"
+        pTooltip="{{totalTasks - tasks.length}} {{'TABLE.HIDDEN' | translate}}"
     >
-        {{tasks.length}} Rows displayed
+        {{tasks.length}} {{'TABLE.DISPLAYED' | translate}}
     </span>
 </div>

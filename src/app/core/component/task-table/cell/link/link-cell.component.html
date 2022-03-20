@@ -1,7 +1,7 @@
 <p-button
     class="group-link noSelect"
     styleClass="p-button-link"
-    pTooltip="Navigate to this group"
+    [pTooltip]="'GENERAL.GROUP_NAVIGATE' | translate"
     [label]="task | groupLink:group"
     (onClick)="onClickLink()"
 ></p-button>

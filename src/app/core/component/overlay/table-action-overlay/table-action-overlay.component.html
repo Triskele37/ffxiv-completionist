@@ -10,21 +10,17 @@
 
     <div *ngIf="isVisible" class="overlay-panel">
         <span class="content">
-            <p-button label="Table Actions" [disabled]="true"></p-button>
+            <p-button
+                [label]="'OVERLAY.TABLE.TITLE' | translate"
+                [disabled]="true"
+            ></p-button>
 
             <p-button
                 *ngIf="!group.isBookmarkGroup && !group.isCustomGroup"
-                [label]="isBookmarked ? 'Unbookmark Group' : 'Bookmark Group'"
+                [label]="(isBookmarked ? 'OVERLAY.TABLE.REM_BOOKMARK' : 'OVERLAY.TABLE.ADD_BOOKMARK') | translate"
                 [icon]="'material-icons ' + (isBookmarked ? 'mi-bookmark-remove' : 'mi-bookmark-add')"
                 (onClick)="bookmarkGroup()"
             ></p-button>
-
-<!-- TODO: Re-evaluate when PrimeNG supports rowexpansion with virtualscroll -->
-<!--            <p-button-->
-<!--                *ngIf="group.subGroups?.length"-->
-<!--                label="Toggle Expanded Groups"-->
-<!--                (onClick)="toggleExpanded.emit()"-->
-<!--            ></p-button>-->
         </span>
     </div>
 </span>

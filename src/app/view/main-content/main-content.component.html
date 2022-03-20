@@ -16,32 +16,25 @@
 
     <!----------- Summary & Task Table ----------->
     <ng-template #tableGroup>
-        <ng-container *ngIf="!showAll">
-            <div *ngIf="selectedGroup.subGroups" class="group-summary-section">
-                <xiv-summary-line
-                    *ngFor="let subGroup of selectedGroup.subGroups"
-                    [group]="subGroup"
-                ></xiv-summary-line>
-            </div>
+        <div
+            *ngIf="!showAll && selectedGroup.subGroups"
+            class="group-summary-section"
+        >
+            <xiv-summary-line
+                *ngFor="let subGroup of selectedGroup.subGroups"
+                [group]="subGroup"
+            ></xiv-summary-line>
+        </div>
 
-            <div class="section-actions" *ngIf="isShowAllVisible && !selectedGroup.isBookmarkGroup">
-                <p-button
-                    class="xiv-button"
-                    [label]="showAll ? 'Hide All Tasks' : 'Show All Tasks'"
-                    (onClick)="toggleShowAll()"
-                ></p-button>
-            </div>
-        </ng-container>
-
-        <ng-container *ngIf="showAll">
-            <div class="section-actions">
-                <p-button
-                    class="xiv-button"
-                    label="Exit All Task View"
-                    (onClick)="toggleShowAll()"
-                ></p-button>
-            </div>
-        </ng-container>
+        <div
+            *ngIf="isShowAllVisible && !selectedGroup.isBookmarkGroup"
+            class="section-actions"
+        >
+            <p-button
+                [label]="(showAll ? 'TABLE.HIDE_ALL' : 'TABLE.SHOW_ALL') | translate"
+                (onClick)="toggleShowAll()"
+            ></p-button>
+        </div>
 
         <!----------- Task Tables (show all & base) ----------->
         <ng-container *ngIf="isShowAllVisible && showAll; else baseTable">
@@ -57,11 +50,3 @@
         </ng-template>
     </ng-template>
 </div>
-
-<!--<div class="container">-->
-<!--    <h1 class="title">-->
-<!--        {{ 'PAGES.HOME.TITLE' | translate }}-->
-<!--    </h1>-->
-
-<!--    <a routerLink="/detail">{{ 'PAGES.HOME.GO_TO_DETAIL' | translate }}</a>-->
-<!--</div>-->

@@ -12,28 +12,35 @@
         }
     }
 
-    .merge-overlay .content {
-        // So overlay can grow with long group paths on merge
-        min-width: 300px;
-
-        .merge-details {
-            padding: 5px;
-
-            // Wrapping for long notes
-            white-space: initial;
-            max-height: 150px;
-            overflow: auto;
+    .merge-overlay {
+        // Overlay just above modal during manual merge
+        &.manual-merge {
+            z-index: 10000;
         }
 
-        .p-buttonset {
-            ::ng-deep .p-button {
-                width: 50%;
+        .content {
+            // So overlay can grow with long group paths on merge
+            min-width: 300px;
+
+            .merge-details {
+                padding: 5px;
+
+                // Wrapping for long notes
+                white-space: initial;
+                max-height: 150px;
+                overflow: auto;
             }
-        }
 
-        ::ng-deep .p-divider {
-            margin: 5px 0;
-            user-select: none;
+            .p-buttonset {
+                ::ng-deep .p-button {
+                    width: 50%;
+                }
+            }
+
+            ::ng-deep .p-divider {
+                margin: 5px 0;
+                user-select: none;
+            }
         }
     }
 }

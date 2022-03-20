@@ -9,7 +9,7 @@
     ></p-button>
 
     <div
-        *ngIf="autoMerge"
+        *ngIf="isMergeVisible"
         class="xiv-modal"
         (click)="modalNoNo($event)"
     ></div>
@@ -19,40 +19,70 @@
             <div class="task-property-input">
                 <input
                     pInputText
-                    placeholder="Enter Custom Task Name Here"
+                    [placeholder]="'OVERLAY.CUSTOM.NAME_PLACEHOLDER' | translate"
                     [(ngModel)]="newTaskName"
                 />
             </div>
             <div class="task-property-input">
                 <input
                     pInputText
-                    placeholder="Enter Custom Task Notes Here"
+                    [placeholder]="'OVERLAY.CUSTOM.NOTE_PLACEHOLDER' | translate"
                     [(ngModel)]="newTaskNotes"
                 />
             </div>
 
-            <p-button label="Add Task" (onClick)="addCustomTask()"></p-button>
-            <p-button label="Auto-Merge Tasks with One Match" (onClick)="autoMergeSingleMatches()"></p-button>
-            <p-button label="Merge Tasks into App" (onClick)="mergeCustomTasks()"></p-button>
-            <p-button label="Remove Selected Tasks" (click)="removeSelectedCustomTasks()"></p-button>
+            <p-button
+                [label]="'OVERLAY.CUSTOM.ADD' | translate"
+                (onClick)="addCustomTask()"
+            ></p-button>
+            <p-button
+                [label]="'OVERLAY.CUSTOM.AUTO' | translate"
+                (onClick)="autoMergeSingleMatches()"
+            ></p-button>
+            <p-button
+                [label]="'OVERLAY.CUSTOM.MERGE' | translate"
+                (onClick)="mergeCustomTasks()"
+            ></p-button>
+            <p-button
+                [label]="'OVERLAY.CUSTOM.REMOVE' | translate"
+                (onClick)="removeSelectedCustomTasks()"
+            ></p-button>
         </span>
     </div>
 
-    <div *ngIf="isMergeVisible" class="overlay-panel merge-overlay">
+    <div
+        *ngIf="isMergeVisible"
+        class="overlay-panel merge-overlay"
+        [ngClass]="{'manual-merge': !autoMerge}"
+    >
         <span class="content">
             <div class="merge-details">
-                {{mergeInfo}}<br/><br/>
+                <ng-container *ngIf="mergeMatches.length; else noMatches">
+                    {{mergeMatches.length}} {{'OVERLAY.CUSTOM.MATCH' | translate}}
+                </ng-container>
+                <ng-template #noMatches>
+                    {{'OVERLAY.CUSTOM.NO_MATCH' | translate}}
+                </ng-template>
+                <br/><br/>
                 {{mergeTask.name}}<br/>
                 {{mergeTask.notes}}
             </div>
 
             <span class="p-buttonset">
-                <p-button label="Skip" (onClick)="goToNextMerge()"></p-button>
-                <p-button label="Exit" (onClick)="exitMerge()"></p-button>
+                <p-button
+                    [label]="'OVERLAY.CUSTOM.SKIP' | translate"
+                    (onClick)="goToNextMerge()"
+                ></p-button>
+                <p-button
+                    [label]="'OVERLAY.CUSTOM.EXIT' | translate"
+                    (onClick)="exitMerge()"
+                ></p-button>
             </span>
 
             <ng-container *ngIf="mergeMatches.length > 0">
-                <p-divider align="center">Select a match</p-divider>
+                <p-divider align="center">
+                    {{'OVERLAY.CUSTOM.SELECT' | translate}}
+                </p-divider>
 
                 <p-button
                     *ngFor="let match of mergeMatches"

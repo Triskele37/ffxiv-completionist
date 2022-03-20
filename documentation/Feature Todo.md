@@ -1,19 +1,6 @@
 ------------------------------------------------------------------ Current Release ToDo
 **Add**
 - Fill in fishing/spearfishing scaffold
-- Still needs translate support
-    - Landing Page
-    - Nav History
-    - Custom Task Overlay
-    - Quick-Mark Overlay
-    - Selection Actions Overlay
-    - Chain Overlay
-    - Table Actions Overlay
-    - Row Actions
-    - Statistics Tooltip
-    - Table Header
-        - Rows Displayed
-        - All Task Button
 - Chains
   - Majority of new content
   - Beast Tribe Recipes on Beast Tribe Quests (one-way)

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
 import { TooltipModule } from 'primeng/tooltip';
@@ -22,6 +23,7 @@ import { ActionsCellComponent } from './actions-cell.component';
     ],
     imports: [
         CommonModule,
+        TranslateModule,
         ButtonModule,
         TableModule,
         TooltipModule,

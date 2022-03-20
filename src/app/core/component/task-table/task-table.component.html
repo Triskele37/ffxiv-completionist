@@ -4,7 +4,6 @@
         [tasks]="filteredTasks"
         [totalTasks]="tasks?.length"
         (onDataChange)="updateFilteredTasks()"
-        (toggleExpanded)="toggleExpanded()"
     ></xiv-task-table-toolbar>
 
     <div class="task-table-scroll-container">
@@ -15,7 +14,6 @@
             dataKey="_parent.fullStorageKey"
             [value]="filteredTasks"
 
-            [expandedRowKeys]="groupRows ? expandedGroups : null"
             [rowGroupMode]="groupRows ? 'subheader' : null"
             [groupRowsBy]="groupRows ? '_parent.fullStorageKey' : null"
 

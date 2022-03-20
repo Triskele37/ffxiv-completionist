@@ -10,56 +10,59 @@
 
     <div *ngIf="isVisible" class="overlay-panel">
         <span class="content">
-            <p-button label="Quick-Mark Menu" [disabled]="true"></p-button>
+            <p-button
+                [label]="'OVERLAY.QUICK_MARK.TITLE' | translate"
+                [disabled]="true"
+            ></p-button>
 
             <p-button (click)="onChangeTaskCompletion(N, Y)">
                 (<i class="i-incomplete"></i> <i class="i-arrow"></i> <i class="i-complete"></i>)
-                Mark Incomplete as Complete
+                {{'OVERLAY.QUICK_MARK.N-Y' | translate}}
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(N, X)">
                 (<i class="i-incomplete"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
-                Mark Incomplete as Excluded
+                {{'OVERLAY.QUICK_MARK.N-X' | translate}}
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(Y, N)">
                 (<i class="i-complete"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
-                Mark Complete as Incomplete
+                {{'OVERLAY.QUICK_MARK.Y-N' | translate}}
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(Y, X)">
                 (<i class="i-complete"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
-                Mark Complete as Excluded
+                {{'OVERLAY.QUICK_MARK.Y-X' | translate}}
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(X, N)">
                 (<i class="i-exclude"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
-                Mark Excluded as Incomplete
+                {{'OVERLAY.QUICK_MARK.X-N' | translate}}
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(X, Y)">
                 (<i class="i-exclude"></i> <i class="i-arrow"></i> <i class="i-complete"></i>)
-                Mark Excluded as Complete
+                {{'OVERLAY.QUICK_MARK.X-Y' | translate}}
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(null, Y)">
                 (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-complete"></i>)
-                Mark Selected as Complete
+                {{'OVERLAY.QUICK_MARK.S-Y' | translate}}
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(null, N)">
                 (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
-                Mark Selected as Incomplete
+                {{'OVERLAY.QUICK_MARK.S-N' | translate}}
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(null, X)">
                 (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
-                Mark Selected as Excluded
+                {{'OVERLAY.QUICK_MARK.S-X' | translate}}
             </p-button>
 
             <p-button
                 *ngIf="history.length"
-                label="Undo Last Quick-Mark"
+                [label]="'OVERLAY.QUICK_MARK.UNDO' | translate"
                 (onClick)="onUndoLastChange()"
             ></p-button>
         </span>

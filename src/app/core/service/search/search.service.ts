@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 import { BehaviorSubject } from 'rxjs';
 
 import { DataService } from '@data';
@@ -22,6 +23,7 @@ export type Match = {
 })
 export class SearchService {
     constructor(
+        private translate: TranslateService,
         private svcData: DataService,
         private svcNavigation: NavigationService
     ) {
@@ -47,7 +49,7 @@ export class SearchService {
 
         if(!this.searchTerm || this.searchTerm.length < 3) {
             this.searchStatus$.next(Status.Failure);
-            this.searchError$.next('Please enter at least 3 characters');
+            this.searchError$.next(this.translate.instant('MAIN.SEARCH.TOO_SHORT'));
         }
         else {
             const matches: Match[] = this.searchData(searchTerm, this.expanded, false);
@@ -61,7 +63,7 @@ export class SearchService {
             }
             else {
                 this.searchStatus$.next(Status.Failure);
-                this.searchError$.next('No tasks found');
+                this.searchError$.next(this.translate.instant('MAIN.SEARCH.NO_RESULTS'));
             }
         }
     }

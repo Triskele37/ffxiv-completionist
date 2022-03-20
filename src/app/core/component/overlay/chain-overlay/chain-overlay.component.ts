@@ -22,7 +22,7 @@ export class ChainOverlayComponent implements OnInit, OnChanges, OnDestroy {
     undoVerified: boolean = false;
     doNotify: boolean = false;
 
-    chainedTaskCount: number;
+    chainedTaskCount: { count: number };
     chainedGroups: ChainedGroup[];
     chainStart: ChainStart;
 
@@ -36,7 +36,7 @@ export class ChainOverlayComponent implements OnInit, OnChanges, OnDestroy {
     //#region------------------------------------------------------- Life-cycle
     ngOnInit() {
         this.svcChain.chainedTaskCount$.subscribe((count) => {
-            this.chainedTaskCount = count;
+            this.chainedTaskCount = { count };
             this.doNotify = count > 0;
         });
 

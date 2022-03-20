@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 
-import { InstructionsModule } from './main-menu/instructions/instructions.module';
+import { GuideModule } from './main-menu/guide/guide.module';
 import { PatchNotesModule } from './main-menu/patch-notes/patch-notes.module';
 import { SettingsModule } from './main-menu/settings/settings.module';
 import { SearchModule } from './search/search.module';
@@ -10,13 +10,13 @@ import { SearchModule } from './search/search.module';
  * */
 @NgModule({
     imports: [
-        InstructionsModule,
+        GuideModule,
         PatchNotesModule,
         SettingsModule,
         SearchModule,
     ],
     exports: [
-        InstructionsModule,
+        GuideModule,
         PatchNotesModule,
         SettingsModule,
         SearchModule,

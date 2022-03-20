@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 import { TooltipModule } from 'primeng/tooltip';
 
 import { ChainOverlayModule } from '@component/overlay/chain-overlay/chain-overlay.module';
@@ -16,6 +17,7 @@ import { TaskTableToolbarComponent } from './task-table-toolbar.component';
     ],
     imports: [
         CommonModule,
+        TranslateModule,
         TooltipModule,
 
         ChainOverlayModule,

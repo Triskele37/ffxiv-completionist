@@ -14,5 +14,4 @@ export class TaskTableToolbarComponent {
     @Input() totalTasks: number;
 
     @Output() onDataChange = new EventEmitter<void>();
-    @Output() toggleExpanded = new EventEmitter<void>();
 }
