@@ -1,347 +1,347 @@
 {
-    "groupName": "Logos Actions",
+    "groupName": "Actions Logos",
     "headers": {
         "name": "Action",
         "description": "Description",
-        "mnemesToCraft": "Mnemes Needed To Craft",
-        "equippableBy": "Equippable By"
+        "mnemesToCraft": "Évocation/Mémoire nécessaire pour la fabrication",
+        "equippableBy": "Équipable Par"
     },
     "tasks": {
         "x0": {
-            "name": "Wisdom of the Aetherweaver",
-            "description": "Increases magic damage dealt by 60%",
-            "mnemesToCraft": "Wisdom of the Aetherweaver",
-            "equippableBy": "Healers"
+            "name": "Mémoire d'un prêtre guerrier",
+            "description": "Augmente de 60% vos dégâts magiques infligés",
+            "mnemesToCraft": "Mémoire d'un prêtre guerrier",
+            "equippableBy": "Soigneurs"
         },
         "x1": {
-            "name": "Wisdom of the Martialist",
-            "description": "Increases physical damage dealt by 40%",
-            "mnemesToCraft": "Wisdom of the Martialist",
+            "name": "Mémoire d'un protecteur intrépide",
+            "description": "Augmente de 40% vos dégats infligés",
+            "mnemesToCraft": "Mémoire d'un protecteur intrépide",
             "equippableBy": "Tanks"
         },
         "x2": {
-            "name": "Wisdom of the Platebearer",
-            "description": "Increases defense by 3,000 and maximum HP by 50%",
-            "mnemesToCraft": "Wisdom of the Platebearer",
-            "equippableBy": "DPS (all)"
+            "name": "Mémoire d'un soldat cuirassé",
+            "description": "Augmente de 3000 votre défense et de 50% vos PV maximums",
+            "mnemesToCraft": "Mémoire d'un soldat cuirassé",
+            "equippableBy": "DPS (tous)"
         },
         "x3": {
-            "name": "Wisdom of the Guardian",
-            "description": "Increases defense by 1,800 and maximum HP by 10%",
-            "mnemesToCraft": "Wisdom of the Platebearer, Incense L, Incense L",
+            "name": "Mémoire d'un gardien",
+            "description": "Augmente de 1800 votre défense et de 10% vous PV maximums",
+            "mnemesToCraft": "Mémoire d'un gardien",
             "equippableBy": "Tanks"
         },
         "x4": {
-            "name": "Wisdom of the Ordained",
-            "description": "Increases maximum MP by 50% and healing magic potency by 25%",
-            "mnemesToCraft": "Wisdom of the Aetherweaver, Cure L, Cure L",
-            "equippableBy": "Healers"
+            "name": "Mémoire d'un prêtre",
+            "description": "Augmente de 50% vos PM maximums et de 25% la puissance de vous sorts curatifs",
+            "mnemesToCraft": "Mémoire d'un prêtre",
+            "equippableBy": "Soigneurs"
         },
         "x5": {
-            "name": "Wisdom of the Skirmisher",
-            "description": "Increases damage dealt by 12%",
-            "mnemesToCraft": "Wisdom of the Martialist, Wisdom of the Martialist, Wisdom of the Martialist",
-            "equippableBy": "DPS (all)"
+            "name": "Mémoire d'un combattant",
+            "description": "Augmente de 20% vos dégats infligé",
+            "mnemesToCraft": "Mémoire d'un combattant",
+            "equippableBy": "DPS (tous)"
         },
         "x6": {
-            "name": "Wisdom of the Watcher",
-            "description": "Increases evasion by 25% while reducing damage dealt by 5%",
-            "mnemesToCraft": "Stealth L, Stealth L",
+            "name": "Mémoire d'un éclaireur",
+            "description": "Augmente de 25% votre esquive et réduit vos dégats infligés de 5%",
+            "mnemesToCraft": "Évocation Logos: Furtivité, Évocation Logos: Furtivité",
             "equippableBy": "Tanks"
         },
         "x7": {
-            "name": "Wisdom of the Templar",
-            "description": "Increases healing magic potency by 50% and maximum HP by 30%, while reducing damage dealt by 5%",
-            "mnemesToCraft": "Wisdom of the Platebearer, Cure L, Stoneskin L",
-            "equippableBy": "Healers"
+            "name": "Mémoire d'un chevalier sacré",
+            "description": "Augmente de 50% la puissance de vous sorts curatifs et de 30% vos PV maximums",
+            "mnemesToCraft": "Mémoire d'un soldat cuirassé, Évocation Logos: Soin, Évocation Logos: Cuirasse",
+            "equippableBy": "Soigneurs"
         },
         "x8": {
-            "name": "Wisdom of the Irregular",
-            "description": "Increases damage dealt by 21% while reducing magic defense by 60%",
-            "mnemesToCraft": "Wisdom of the Martialist, Wisdom of the Skirmisher, Incense L",
-            "equippableBy": "DPS (all)"
+            "name": "Mémoire d'un guerrier enragé",
+            "description": "Augmente de 30% vos dégats infligés et réduit de 60% votre défense magique",
+            "mnemesToCraft": "Mémoire d'un protecteur intrépide, Mémoire d'un combattant, Évocation Logos: Incitation",
+            "equippableBy": "DPS (tous)"
         },
         "x9": {
-            "name": "Wisdom of the Breathtaker",
-            "description": "Increases poison resistance and movement speed, and increases evasion by 10%",
-            "mnemesToCraft": "Stealth L, Stealth L, Stealth L",
-            "equippableBy": "All Classes"
+            "name": "Mémoire d'un voleur",
+            "description": "Augmente de 10% votre esquive, votre vitesse de déplacement à pied et à dos de monture, ainsi que votre résistance au poison",
+            "mnemesToCraft": "Mémoire d'un bandit",
+            "equippableBy": "Tous"
         },
         "x10": {
-            "name": "Spirit of the Remembered",
-            "description": "Increases maximum HP by 10% and accuracy by 30% and grants a 70% chance of automatic revival upon KO",
-            "mnemesToCraft": "Wisdom of the Aetherwaver, Wisdom of the Martialist, Wisdom of the Platebearer",
-            "equippableBy": "All Classes"
+            "name": "Égide des héros vaillants",
+            "description": "Augmente de 10% vos PV maximums et votre précision de 30%",
+            "mnemesToCraft": "Égide d'un héros vaillant",
+            "equippableBy": "Tous"
         },
         "x11": {
-            "name": "Protect L",
-            "description": "Increases the physical defense of the target by 1,000 for 30m",
-            "mnemesToCraft": "Protect L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Bouclier",
+            "description": "Augmente de 1000 la défense physique de la cible. Durée: 30m",
+            "mnemesToCraft": "Évocation Logos: Bouclier",
+            "equippableBy": "Tous"
         },
         "x12": {
-            "name": "Shell L",
-            "description": "Increases the magic defense of the target by 1,000 for 30m",
-            "mnemesToCraft": "Protect L, Esuna L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Barrière",
+            "description": "Augmente de 1000 la défense magique de la cible. Durée: 30m",
+            "mnemesToCraft": "Évocation Logos: Barrière",
+            "equippableBy": "Tous"
         },
         "x13": {
-            "name": "Death L",
-            "description": "KOs target. The less the target's HP, the greater the chance of success",
-            "mnemesToCraft": "Wisdom of Aetherweaver, Raise L, Paralyse L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Mort",
+            "description": "Tente d'achever instantanément la cible. Moins elle a de PV, plus les chances de succès sont élevées",
+            "mnemesToCraft": "Mémoire d'un prêtre guerrier, Évocation Logos: Vie, Évocation Logos: Paralysie",
+            "equippableBy": "Tous"
         },
         "x14": {
-            "name": "Focus L",
-            "description": "Grants a stack of Boost for 30s. Each stack increases potency of next weaponskill by 30%. Max 16 stacks",
-            "mnemesToCraft": "Wisdom of the Skirmisher, Bloodbath L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Focalisation",
+            "description": "Augmente de 30% la puissance de votre prochaine technique d'arme. Cumulable jusuqu'au 16e degré. Durée: 30s",
+            "mnemesToCraft": "Mémoire d'un combattant, Évocation Logos: Bain de sang",
+            "equippableBy": "Tous"
         },
         "x15": {
-            "name": "Paralyze L",
-            "description": "Afflicts target with paralysis for 60s",
-            "mnemesToCraft": "Paralyze L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Paralysie",
+            "description": "Inflige Paralysie à la cible. Durée: 60s",
+            "mnemesToCraft": "Évocation Logos: Paralysie",
+            "equippableBy": "Tous"
         },
         "x16": {
-            "name": "Paralyze L III",
-            "description": "Afllicts target and all nearby enemies with paralysis for 60s",
-            "mnemesToCraft": "Paralyze L, Paralyze L, Paralyze L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Méga Paralysie",
+            "description": "Inflige Paralysie à la cible et aux ennemis autour. Durée: 60s",
+            "mnemesToCraft": "Évocation Logos: Paralysie, Évocation Logos: Paralysie, Évocation Logos: Paralysie",
+            "equippableBy": "Tous"
         },
         "x17": {
-            "name": "Swift L",
-            "description": "Greatly increases movement speed for 10s",
-            "mnemesToCraft": "Featherfoot L, Featherfoot L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Vélocité",
+            "description": "Augmente grandement votre vitesse de déplacement. Durée: 10s",
+            "mnemesToCraft": "Évocation Logos: Pieds légers, Évocation Logos: Pieds légers",
+            "equippableBy": "Tous"
         },
         "x18": {
-            "name": "Featherfoot L",
-            "description": "Increases evasion by 15% for 45s",
-            "mnemesToCraft": "Feint L, Feint L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Pieds légers",
+            "description": "Augmente de 15% vptre esquive. Durée: 45s",
+            "mnemesToCraft": "Évocation Logos: Pieds légers",
+            "equippableBy": "Tous"
         },
         "x19": {
-            "name": "Spirit Dart L",
-            "description": "Delivers a ranged attack with potency of 100 and afflicts target with Spirit Dart L, increasing damage taken by 8% for 60s",
-            "mnemesToCraft": "Spirit Dart L",
-            "equippableBy": "DPS (all)"
+            "name": "Évocation Logos: Flèche spirituelle",
+            "description": "Effectue une attaque physique à distance sur la cible. Puissance: 100. Effet additionnel: inflige Vulnérabilité augmentée. Durée: 60s. Vulnérabilité augmentée: augmente les dégâts subis de 8%",
+            "mnemesToCraft": "Évocation Logos: Flèche spirituelle",
+            "equippableBy": "DPS (tous)"
         },
         "x20": {
-            "name": "Catastrophe L",
-            "description": "Deals unaspected damage to all nearby enemies with potency of 4,000, while dealing damage with a potency of 999,999 to self",
-            "mnemesToCraft": "Spirit Dart L, Spirit Dart L, Spirit Dart L",
-            "equippableBy": "Tanks, Melee DPS, Ranged DPS"
+            "name": "Évocation Logos: Catastrophe",
+            "description": "Inflige des dégats magiques aux ennemis autour. Puissance : 4000. Vous subissez d'importants dégâts en contrecoup. Puissance du contrecoup: 999999",
+            "mnemesToCraft": "Évocation Logos: Flèche spirituelle, Évocation Logos: Flèche spirituelle, Évocation Logos: Flèche spirituelle",
+            "equippableBy": "Tanks, DPS de mêlée, DPS à distance physique"
         },
         "x21": {
-            "name": "Dispel L",
-            "description": "Removes one beneficial status from target",
-            "mnemesToCraft": "Tranquilizer L, Tranquilizer L, Tranquilizer L",
-            "equippableBy": "Healers, DPS (all)"
+            "name": "Évocation Logos: Dissipation",
+            "description": "Dissipe un effet bénéfice de la cible",
+            "mnemesToCraft": "Évocation Logos: Dissipation",
+            "equippableBy": "Soigneurs, DPS (tous)"
         },
         "x22": {
-            "name": "Feint L",
-            "description": "Delievrs an attack with potency of 100 and reduces target's evasion for 60s",
-            "mnemesToCraft": "Feint L",
-            "equippableBy": "Tanks, Healers"
+            "name": "Évocation Logos: Feinte",
+            "description": "Effectue une attaque physique sur la cible. Puissance: 100. Effet additionnel: réduit l'esquive de la cible. Durée: 60s",
+            "mnemesToCraft": "Évocation Logos: Feinte",
+            "equippableBy": "Tanks, Soigneurs"
         },
         "x23": {
-            "name": "Stealth L",
-            "description": "Activate to become invisible and reduce movement speed by 50%. Has no effect on some enemies",
-            "mnemesToCraft": "Stealth L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Furtivité",
+            "description": "Réduit de 50% votre vitesse de déplacement et dissimule votre présence à la plupart des ennemis.",
+            "mnemesToCraft": "Évocation Logos: Furtivité",
+            "equippableBy": "Tous"
         },
         "x24": {
-            "name": "Aetherial Manipulation L",
-            "description": "Rush to a target's side. Unable to be cast while bound",
-            "mnemesToCraft": "Wisdom of the Martialist, Feint L, Backstep L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Bond",
+            "description": "Vous amène en un bond au corps à corps avec votre cible",
+            "mnemesToCraft": "Mémoire d'un protecteur intrépide, Évocation Logos: Feinte, Évocation Logos: Bond arrière",
+            "equippableBy": "Tous"
         },
         "x25": {
-            "name": "Backstep L",
-            "description": "Jump 10 yalms back from current position. Can not be executed while bound",
-            "mnemesToCraft": "Backstep L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Bond arrière",
+            "description": "Vous fait faire un bond en arrière. Ne peut pas être utilisé sous l'effet Entrave",
+            "mnemesToCraft": "Évocation Logos: Bond arrière",
+            "equippableBy": "Tous"
         },
         "x26": {
-            "name": "Tranquilizer L",
-            "description": "Stuns target for 8s",
-            "mnemesToCraft": "Tranquilizer L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Tranquilisant",
+            "description": "Inflige étourdissement à la cible. Durée: 8s",
+            "mnemesToCraft": "Évocation Logos: Tranquilisant",
+            "equippableBy": "Tous"
         },
         "x27": {
-            "name": "Bloodbath L",
-            "description": "Converts portion of damage dealt into HP. Lasts 45s",
-            "mnemesToCraft": "Wisdom of the Martialist, Wisdom of the Martialist, Cure L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Bain de Sang",
+            "description": "Convertie une partie des dégats infligés par vos attaques physiques en PV. Durée: 45s",
+            "mnemesToCraft": "Évocation Logos: Bain de Sang",
+            "equippableBy": "Tous"
         },
         "x28": {
-            "name": "Rejuvenate L",
-            "description": "Instantly restores 50% of maximum MP",
-            "mnemesToCraft": "Wisdom of the Martialist, Wisdom of the Aetherweaver, Cure L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Restauration",
+            "description": "Restaure 500 de vos PT et 50% de vos PM maximums",
+            "mnemesToCraft": "Mémoire d'un prêtre guerrier, mémoire d'un protecteur intrépide, Évocation Logos: Soin",
+            "equippableBy": "Tous"
         },
         "x29": {
-            "name": "Haymaker L",
-            "description": "Delivers an attack with a potency of 300 and afflicts target with Slow +20%. Lasts 30s. Can only be executed after evasion",
-            "mnemesToCraft": "Wisdom of the Martialist, Incense L, Featherfoot L",
+            "name": "Évocation Logos: Haymaker",
+            "description": "Effectue une attaque physique sur la cible. Puissanc: 300. Effet additionnel: Inflige Lenteur 20%. Durée 30s. Condition: après une esquive.",
+            "mnemesToCraft": "Mémoire d'un protecteur intrépide, Évocation Logos: Incitation, Évocation Logos: Pieds légers",
             "equippableBy": "Tanks"
         },
         "x30": {
-            "name": "Rapid Recast L",
-            "description": "Shortens recast time for next ability used by 50%. Lasts 15s",
-            "mnemesToCraft": "Cure L, Esuna L, Feint L",
-            "equippableBy": "Tanks, DPS (all)"
+            "name": "Évocation Logos: Recharge rapide",
+            "description": "Réduit de 50% le temps de recharge de la prochaine action lancée. Durée: 15s",
+            "mnemesToCraft": "Évocation Logos: Soin, Évocation Logos: Guérison, Évocation Logos: Feinte",
+            "equippableBy": "Tanks, DPS (tous)"
         },
         "x31": {
-            "name": "Cure L",
-            "description": "Restores target's HP. Cure potency: 9,000",
-            "mnemesToCraft": "Cure L",
-            "equippableBy": "Tanks, DPS (all)"
+            "name": "Évocation Logos: Soin",
+            "description": "Restaure les points de vie de la cible. Puissance: 9000",
+            "mnemesToCraft": "Évocation Logos: Soin",
+            "equippableBy": "Tanks, DPS (tous)"
         },
         "x32": {
-            "name": "Cure L II",
-            "description": "Restores target's HP. Cure potency: 12,000",
-            "mnemesToCraft": "Cure L, Cure L, Cure L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Extra Soin",
+            "description": "Restaure les points de vie de la cible. Puissance: 12000",
+            "mnemesToCraft": "Évocation Logos: Extra Soin",
+            "equippableBy": "Tous"
         },
         "x33": {
-            "name": "Stoneskin L",
-            "description": "Creates a barrier around target that absorbs damage totalling 10% of targets maximum HP. Lasts 30s",
-            "mnemesToCraft": "Protect L, Protect L, Protect L",
-            "equippableBy": "Tanks, DPS (all)"
+            "name": "Évocation Logos: Cuirasse",
+            "description": "Créer sur la cible une barrière absorbant les dégâts pour un total de 10% de ses PV maximums. Durée: 30s",
+            "mnemesToCraft": "Évocation Logos: Cuirasse",
+            "equippableBy": "Tanks, DPS (tous)"
         },
         "x34": {
-            "name": "Cure L III",
-            "description": "Restores HP of target and all party members nearby target. Cure potency: 9,000",
-            "mnemesToCraft": "Cure L II, Cure L II",
-            "equippableBy": "Tanks, DPS (all)"
+            "name": "Évocation Logos: Méga Soin",
+            "description": "Restaure les PV de la cible et des équipiers autour. Puissance: 9000",
+            "mnemesToCraft": "Évocation Logos: Extra Soin, Évocation Logos: Extra Soin",
+            "equippableBy": "Tanks, DPS (tous)"
         },
         "x35": {
-            "name": "Regen L",
-            "description": "Grants healing over time effect to target. Cure potency: 2,500. Lasts 21s",
-            "mnemesToCraft": "Cure L, Cure L, Feint L",
-            "equippableBy": "Tanks, DPS (all)"
+            "name": "Évocation Logos: Récup",
+            "description": "Restaure périodiquement les PV del a cible. Puissance: 2500. Durée: 21s",
+            "mnemesToCraft": "Évocation Logos: Soin, Évocation Logos: Soin, Évocation Logos: Feinte",
+            "equippableBy": "Tanks, DPS (tous)"
         },
         "x36": {
-            "name": "Esuna L",
-            "description": "Removes a single detrimental status effect from target",
-            "mnemesToCraft": "Esuna L",
-            "equippableBy": "Tanks, DPS (all)"
+            "name": "Évocation Logos: Guérison",
+            "description": "Soigne une altération d'état de la cible",
+            "mnemesToCraft": "Évocation Logos: Guérison",
+            "equippableBy": "Tanks, DPS (tous)"
         },
         "x37": {
-            "name": "Incense L",
-            "description": "Gesture threateningly, placing yourself at the top of the target's enmity list and increasing enmity generation for 15s",
-            "mnemesToCraft": "Incense L",
-            "equippableBy": "Healers, DPS (all)"
+            "name": "Évocation Logos: Incitation",
+            "description": "Provoque la cible et vous place en tête de sa liste d'inimité. Augmente aussi l'inimité des ennemis alentour envers vous",
+            "mnemesToCraft": "Évocation Logos: Incitation",
+            "equippableBy": "Soigneurs, DPS (tous)"
         },
         "x38": {
-            "name": "Raise L",
-            "description": "Resurrects target to a weakened state",
-            "mnemesToCraft": "Raise L",
-            "equippableBy": "Tanks, DPS (all)"
+            "name": "Évocation Logos: Vie",
+            "description": "Ressuscite la cible avec l'effet Affaiblissement",
+            "mnemesToCraft": "Évocation Logos: Vie",
+            "equippableBy": "Tanks, DPS (tous)"
         },
         "x39": {
-            "name": "Bravery L",
-            "description": "Increases target's damage dealt by 10% for 100s",
-            "mnemesToCraft": "Wisdom of the Skirmisher, Wisdom of the Guardian, Wisdom of the Ordained",
-            "equippableBy": "Healers, Caster DPS"
+            "name": "Évocation Logos: Bravoure",
+            "description": "Augmente de 10% les dégâts infligés par la cible. Durée: 300s",
+            "mnemesToCraft": "Mémoire d'un combattant, Mémoire d'un gardien, Mémoire d'un prêtre",
+            "equippableBy": "Soigneurs, Dps à distance magique"
         },
         "x40": {
-            "name": "Solid Shield L",
-            "description": "Reduces physical damage by 99% for 8s",
-            "mnemesToCraft": "Wisdom of the Guardian, Protect L, Stoneskin L",
-            "equippableBy": "Healers, DPS (all)"
+            "name": "Évocation Logos: Protection physique",
+            "description": "Réduit de 99% les dégâts physiques subis. Durée: 8s",
+            "mnemesToCraft": "Mémoire d'un gardien, Évocation Logos: Bouclier, Évocation Logos: Cuirasse",
+            "equippableBy": "Soigneurs, DPS (tous)"
         },
         "x41": {
-            "name": "Spell Shield L",
-            "description": "Reduces magic damage taken by 99% for 8s",
-            "mnemesToCraft": "Wisdom of the Guardian, Shell L, Stoneskin L",
-            "equippableBy": "Healers, DPS (all)"
+            "name": "Évocation Logos: Protection magique",
+            "description": "Réduit de 99% les dégâts magiques subis. Durée: 8s",
+            "mnemesToCraft": "Mémoire d'un gardien, Évocation Logos: Barrière, Évocation Logos: Cuirasse",
+            "equippableBy": "Soigneurs, DPS (tous)"
         },
         "x42": {
-            "name": "Reflect L",
-            "description": "Creates a magic-reflecting barrier around self or party member. Lasts 10s",
-            "mnemesToCraft": "Wisdom of the Ordained, Protect L, Shell L",
-            "equippableBy": "All Classes"
+            "name": "Évocation Logos: Miroir",
+            "description": "Octroie une protection à vous ou à l'équipier ciblé qui renvoie les sorts de magie subis sur leur lanceur. Durée: 10s",
+            "mnemesToCraft": "Mémoire d'un prêtre, Évocation Logos: Bouclier, Évocation Logos: Barrière",
+            "equippableBy": "Tous"
         },
         "x43": {
-            "name": "Smite L",
-            "description": "Delivers an attack with potency of 1,000 and restores an amount of own HP proportional to damage dealt. Can only be executed when HP is below 50%",
-            "mnemesToCraft": "Wisdom of the Skirmisher, Spirit Dart L, Tranquilizer L",
+            "name": "Évocation Logos: Châtiment",
+            "description": "Effectue une attaque physique sur la cible. Puissance: 1000. Effet additionnel: régénère une partie des PV en fonction des dégâts infligés. Condition: vos PV restants sont inférieurs à 50% du maximum",
+            "mnemesToCraft": "Mémoire d'un combattant, Évocation Logos: Flèche spirituelle, Évocation Logos: Tranquillisant",
             "equippableBy": "Tanks"
         },
         "x44": {
-            "name": "Refresh L",
-            "description": "Increases the amount of magia aether regenerated over time by self and nearby party members. Lasts 30s",
-            "mnemesToCraft": "Wisdom of the Aetherweaver, Wisdom of the Ordained, Cure L II",
-            "equippableBy": "Healers"
+            "name": "Évocation Logos: Tonification",
+            "description": "Augmente votre régénération de points d'éther Magia et celle de vos équipiers alentour. Durée: 30s",
+            "mnemesToCraft": "Mémoire d'un prêtre guerrier, Mémoire d'un prêtre, Évocation Logos: Extra Soin",
+            "equippableBy": "Soigneurs"
         },
         "x45": {
-            "name": "Banish L",
-            "description": "Deals unaspected damage with a potency of 200 and afflicts undead targets with Banish L, increasing damage taken by 12% for 60s",
-            "mnemesToCraft": "Wisdom of the Aetherweaver, Dispel L, Dispel L",
-            "equippableBy": "Healers"
+            "name": "Évocation Logos: Bannissement",
+            "description": "Inflige des dégâts magiques neutres à la cible. Puissance: 200. Effet additionnel: dégâts augmentés de 25% sur les morts-vivants. Durée: 60s",
+            "mnemesToCraft": "Mémoire d'un prêtre guerrier, Évocation Logos: Dissipation, Évocation Logos: Dissipation",
+            "equippableBy": "Soigneurs"
         },
         "x46": {
-            "name": "Banish L III",
-            "description": "Deals unaspected damage with a potency of 150 to target and all nearby enemies and afflicts undead targets with Banish L, increasing damage taken by 12% for 60s",
-            "mnemesToCraft": "Wisdom of the Ordained, Dispel L, Dispel L",
-            "equippableBy": "Healers"
+            "name": "Évocation Logos: Méga Bannissement",
+            "description": "Inflige des dégâts magiques neutres à la cible et aux ennemis autour. Puissance: 150. Effet additionnel: dégâts augmentés de 25% sur les morts-vivants. Durée: 60s",
+            "mnemesToCraft": "Mémoire d'un prêtre, Évocation Logos: Dissipation, Évocation Logos: Dissipation",
+            "equippableBy": "Soigneurs"
         },
         "x47": {
-            "name": "Magic Burst L",
-            "description": "Increases spell damage by 100% while increasing MP cost for 20s",
-            "mnemesToCraft": "Spirit of the Remembered, Wisdom of the Ordained, Stoneskin L",
-            "equippableBy": "Healers, Caster DPS"
+            "name": "Évocation Logos: Explosion Magique",
+            "description": "Double les dégâts de vos actions de type magique et augmente les PM qu'elles consomment",
+            "mnemesToCraft": "Évocation Logos: Explosion Magique",
+            "equippableBy": "Soigneurs, DPS à distance magique"
         },
         "x48": {
-            "name": "Double Edge L",
-            "description": "Stacking buff that increases physical damage dealt by 15% and deals damage over time with potency of 1,200 per stack. Lasts 48s. Max 16 stacks",
-            "mnemesToCraft": "Wisdom of the Skirmisher, Bloodbath L, Wisdom of the Guardian",
-            "equippableBy": "Tanks, Melee DPS"
+            "name": "Évocation Logos: Double Tranchant",
+            "description": "Augmente des dégâts physiques que vous infligez, mais vous perdez peu à peu des PV. Durée: 48s. L'effet d'accumule toutes les 3 secondes jusqu'à un maximum de 16 fois. Chaque degré d'accumulation augmente les dégâts physiques de 15% et la perte de PV de 1200",
+            "mnemesToCraft": "Évocation Logos: Double Tranchant",
+            "equippableBy": "Tanks, DPS de mêlée"
         },
         "x49": {
-            "name": "Eagle Eye Shot L",
-            "description": "Delivers a ranged attack with potency of 80. Potency increases up to 1,000% the lower the target's HP. Generates significant enmity",
-            "mnemesToCraft": "Wisdom of the Skirmisher, Spirit of the Remembered, Spirit Dart L",
-            "equippableBy": "Ranged DPS"
+            "name": "Évocation Logos: Œil d'aigle",
+            "description": "Effectue une attaque physique à distance sur la cible. Puissance: 80. La puissance augmente d'autant plus que les PV restants de la cible sont bas, jusqu'à 10 fois sa valeur normale. Cette action génère beaucoup d'inimité envers vous",
+            "mnemesToCraft": "Évocation Logos: Œil d'aigle",
+            "equippableBy": "DPS à distance physique"
         },
         "x50": {
-            "name": "Perception L",
-            "description": "Reveals all traps within a 15-yalm radius. If no traps exist within 15 yalms, detects whether any traps are present within a 36-yalm radius. Only effective within dungeons.",
-            "mnemesToCraft": "Wisdom of the Breathtaker, Stealth L, Dispel L",
-            "equippableBy": "DPS (all)"
+            "name": "Évocation Logos: Vision radar",
+            "description": "Révèle les pièges cachés dans un rayon de 15 yalms. Si aucun piège n'est détecté dans un rayon de 15 yalms, vous indique la présence ou non d'un piège dans un rayon de 36 yalms. Fonctionne uniquement dans un donjon",
+            "mnemesToCraft": "Mémoire d'un bandit, Mémoire d'un bandit",
+            "equippableBy": "DPS (tous)"
         },
         "x51": {
-            "name": "Wisdom of the Elder",
-            "description": "Increases magic damage dealt by 35% and magic defense by 1,000, while decreasing spell MP cost.",
-            "mnemesToCraft": "Wisdom of the Aetherweaver, Wisdom of the Ordained, Magic Burst L",
-            "equippableBy": "Caster DPS"
+            "name": "mémoire d'un sage",
+            "description": "Augmente de 30% vos dégats magiques infligés, de 1000 votre défense magique, et réduit le coût en PM de vos sorts de magie.",
+            "mnemesToCraft": "Mémoire d'un prêtre guerrier, mémoire d'un prêtre, Évocation magique: Explosion magique",
+            "equippableBy": "DPS à distance magique"
         },
         "x52": {
-            "name": "Wisdom of the Duelist",
-            "description": "Increases physical damage dealt by 40% and maximum HP by 15%.",
-            "mnemesToCraft": "Double Edge L, Wisdom of the Skirmisher, Wisdom of the Skirmisher",
-            "equippableBy": "Melee DPS"
+            "name": "Mémoire d'une fine lame",
+            "description": "Augmente de 40% vos dégats physique infligés, de 15% vos PV maximums, et réduit le coût de PT des techniques d'armes",
+            "mnemesToCraft": "Évocation Logos: Double Tranchant, Mémoire d'un combattant, Mémoire d'un combattant",
+            "equippableBy": "DPS de mêlée"
         },
         "x53": {
-            "name": "Wisdom of the Fiendhunter",
-            "description": "Increases physical damage dealt by 25% and evasion by 25%.",
-            "mnemesToCraft": "Eagle Shot L, Spirit Dart L, Featherfoot L",
-            "equippableBy": "Ranged Physical DPS"
+            "name": "Mémoire d'un archer émérite",
+            "description": "Augmente de 25% vos dégâts physiques infligés et de 25% votre esquive",
+            "mnemesToCraft": "Évocation Logos: Œil d'aigle, Évocation Logos: Flèche spirituelle, Évocation Logos: Pieds légers",
+            "equippableBy": "DPS à distance physique"
         },
         "x54": {
-            "name": "Wisdom of the Indomitable",
-            "description": "Increases defense by 2,000. Grants one stack of HP Boost each time damage equal to or greater than half of maximum HP is taken from a single-target attack.",
-            "mnemesToCraft": "Double Edge L, Wisdom of the Platebearer, Incense L",
+            "name": "Mémoire d'un héros illustre",
+            "description": "Augmente de 2000 votre défense. Si vous subissez une attaque vous infligeant des dégâts d'un montant supérieur ou égal à 50% de vous Pv maximums, vous octroie 1 degré Bonus de PV. Cumulable jusqu'au 16e degré",
+            "mnemesToCraft": "Évocation Logos: Double Tranchant, Mémoire d'un soldat cuirassé, Évocation Logos: Incitation",
             "equippableBy": "Tanks"
         },
         "x55": {
-            "name": "Sacrifice L",
-            "description": "Restores 100% of target's HP, even if target is KO'd. Cannot be executed if currently afflicted with Doom. Inflicts Doom on self.",
-            "mnemesToCraft": "Magic Burst L, Raise L, Esuna L",
-            "equippableBy": "Healers"
+            "name": "Évocation Logos: Sacrifice",
+            "description": "Ressuscite la cible et restaure l'intégralité de ses PV. Effet additionnel: vous inflige l'effet Glas. Durée 10s. Condition: ne pas être déjà victime de l'effet Glas",
+            "mnemesToCraft": "Évocation Logos: Explosion magique, Évocation Logos: Vie, Évocation Logos: Guérison",
+            "equippableBy": "Soigneurs"
         }
     }
 }
