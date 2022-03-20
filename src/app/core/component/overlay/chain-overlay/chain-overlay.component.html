@@ -52,13 +52,13 @@
                     <!-- Group header button -->
                     <span class="chain-group">
                         <p-button
-                            styleClass="path"
+                            class="path"
                             icon="pi {{group.show ? 'pi-chevron-down' : 'pi-chevron-right'}}"
                             label="{{group.path}} ({{group.tasks.length}})"
                             (onClick)="onToggleShowChainedGroup(group)"
                         ></p-button>
                         <p-button
-                            styleClass="nav"
+                            class="nav"
                             icon="material-icons mi-navigate-next"
                             [pTooltip]="'GENERAL.GROUP_NAVIGATE' | translate"
                             tooltipPosition="right"

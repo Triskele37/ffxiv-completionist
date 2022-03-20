@@ -41,17 +41,24 @@
                 min-width: 700px;
 
                 .chain-group {
+                    display: flex;
                     width: 100%;
 
-                    ::ng-deep .p-button.path {
-                        flex-wrap: wrap;
-                        height: 38px;
+                    .path ::ng-deep {
                         width: calc(100% - #{$nav-arrow-width});
+
+                        .p-button {
+                            flex-wrap: wrap;
+                            height: 38px;
+                            width: 100%;
+                        }
                     }
 
-                    ::ng-deep .p-button.nav {
-                        height: 38px;
-                        width: $nav-arrow-width;
+                    .nav ::ng-deep {
+                        .p-button {
+                            height: 38px;
+                            width: $nav-arrow-width;
+                        }
                     }
                 }
 
