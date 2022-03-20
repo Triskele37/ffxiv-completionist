@@ -21,7 +21,7 @@ export class ShowAllComponent implements OnChanges, OnDestroy {
             this.tasks = diveForTasks(this.group);
 
             this.group.columns.unshift({
-                key: 'groupLink',
+                key: 'contentLink',
                 header: 'Group'
             });
         }
@@ -32,7 +32,7 @@ export class ShowAllComponent implements OnChanges, OnDestroy {
     }
 
     clean(group: DataGroup): void {
-        if(group?.columns[0].key === 'groupLink') group.columns.shift();
+        if(group?.columns[0].key === 'contentLink') group.columns.shift();
     }
 }
 

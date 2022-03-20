@@ -27,8 +27,10 @@
   - Trust
   - Orchestrion
   - Travel
-Mount Speed > Thanalan
-  - Only 1 of the 2 that sibling The Ultimate Weapon chain
+- Missing Unlock
+  - 66999 - Marvelously Mutable Materia
+  - All job stones chained from quests unlocked by Sylph-management
+  - All beast tribe quests chained from quests unlocked by In Puruit of the Past
 
 ------------------------------------------------------------------ High Priority
 **Add**
@@ -39,7 +41,6 @@ Mount Speed > Thanalan
 - Capitalize NPC names when merging into resources from API
 
 **Change**
-- "spotlight" when searching (scroll to maybe?)
 
 **Fix**
 - Triad opponents need re-verification of patch (arrtripletriad.com/en/npcs)

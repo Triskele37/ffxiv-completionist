@@ -12,7 +12,7 @@ import { CompleteCellModule } from '@component/task-table/cell/complete/complete
 import { NumericCompleteCellModule } from '@component/task-table/cell/numeric-complete/numeric-complete-cell.module';
 import { LinkCellModule } from '@component/task-table/cell/link/link-cell.module';
 
-import { GroupLinkModule } from '../../core/pipe/group-link.pipe';
+import { ContentLinkModule } from '../../core/pipe/content-link.pipe';
 import { SearchComponent } from './search.component';
 
 @NgModule({
@@ -32,7 +32,7 @@ import { SearchComponent } from './search.component';
         CompleteCellModule,
         NumericCompleteCellModule,
         LinkCellModule,
-        GroupLinkModule,
+        ContentLinkModule,
     ],
     exports: [
         SearchComponent

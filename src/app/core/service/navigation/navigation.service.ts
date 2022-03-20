@@ -3,6 +3,7 @@ import { BehaviorSubject } from 'rxjs';
 
 import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
+import { Task } from '@domain/Task';
 import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
@@ -13,6 +14,9 @@ export class NavigationService {
     breadcrumbs$ = new BehaviorSubject<string[]>(['main-menu']);
     selectedGroup$ = new BehaviorSubject<DataGroup>(null);
     groupHistory$ = new BehaviorSubject<DataGroup[]>([]);
+
+    // Holds the task to scroll to from a content link
+    selectedTask: Task;
 
     constructor(
         private svcData: DataService,
@@ -70,6 +74,12 @@ export class NavigationService {
         this.selectedGroup$.next(group);
         this.addGroupHistory();
         this.svcConfig.set('last-breadcrumbs', breadcrumbs);
+    }
+
+    setSelectedTask(task: Task): void {
+        this.selectedTask = task;
+        this.selectedTask.selected = true;
+        this.setSelectedGroup(task._parent);
     }
 
     //#endregion

@@ -4,7 +4,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { ButtonModule } from 'primeng/button';
 import { TooltipModule } from 'primeng/tooltip';
 
-import { GroupLinkModule } from '../../../../pipe/group-link.pipe';
+import { ContentLinkModule } from '../../../../pipe/content-link.pipe';
 import { LinkCellComponent } from './link-cell.component';
 
 @NgModule({
@@ -17,7 +17,7 @@ import { LinkCellComponent } from './link-cell.component';
         ButtonModule,
         TooltipModule,
 
-        GroupLinkModule,
+        ContentLinkModule,
     ],
     exports: [
         LinkCellComponent

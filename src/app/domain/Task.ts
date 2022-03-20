@@ -1,7 +1,7 @@
 import { Completion, CompletionFlag } from '@constant';
 import { ChainService } from '@service/chain/chain.service';
 
-import { GroupLinkPipe } from '../core/pipe/group-link.pipe';
+import { ContentLinkPipe } from '../core/pipe/content-link.pipe';
 import { DataGroup } from './DataGroup';
 import { AtLinks, Links } from './Links';
 import { Chainer } from './Chainer';
@@ -81,8 +81,8 @@ export class Task {
         this.deepConcatWithParent('cComboAt', parent);
     }
 
-    get groupLink(): string {
-        return new GroupLinkPipe().transform(this);
+    get contentLink(): string {
+        return new ContentLinkPipe().transform(this);
     }
 
     //#region------------------------------------------------------- Inheritance

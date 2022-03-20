@@ -33,9 +33,9 @@
 
         <ng-template #linkCell>
             <xiv-link-cell
-                *ngIf="column.key === 'groupLink'; else staticCell"
+                *ngIf="column.key === 'contentLink'; else staticCell"
                 [task]="task"
-                [group]="group"
+                [trimGroup]="group"
             ></xiv-link-cell>
         </ng-template>
 

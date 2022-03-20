@@ -86,7 +86,7 @@
 
                 <p-button
                     *ngFor="let match of mergeMatches"
-                    [label]="match.task | groupLink"
+                    [label]="match.task | contentLink"
                     (onClick)="confirmCurrentMerge(match.task)"
                 ></p-button>
             </ng-container>

@@ -4,6 +4,7 @@ import { Table } from 'primeng/table';
 import { Completion } from '@constant';
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
+import { NavigationService } from '@service/navigation/navigation.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { SaveStoreService } from '@service/store/save-store.service';
 
@@ -19,7 +20,6 @@ type UniqueValues = {
 export class TaskTableComponent implements OnChanges, OnDestroy {
     @Input() group: DataGroup;
     @Input() tasks: Task[];
-    @Input() groupRows: boolean;
 
     debounceDrag: boolean;
 
@@ -37,10 +37,12 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
         this._taskTable = ref;
         this.observeVirtualWrapper();
         this.fixVirtualReorder();
+        this.scrollToSelectedTask();
     }
 
     constructor(
         private cdr: ChangeDetectorRef,
+        private svcNavigation: NavigationService,
         private svcConfig: ConfigStoreService,
         private svcSaveStore: SaveStoreService
     ) {
@@ -57,11 +59,6 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
     ngOnDestroy() {
         this.observer?.disconnect();
     }
-
-    // scrollToRow(key: string, value: any) {
-    //     const index = this.filteredTasks.findIndex((t) => t[key] === value);
-    //     if(index !== -1) this._taskTable.scrollToVirtualIndex(index);
-    // }
 
     //#region----------------------------------------------------------- Computed
     get hasTasks(): boolean {
@@ -148,6 +145,22 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
     onFilterChange(filters) {
         this.filters = filters;
         this.updateFilteredTasks();
+    }
+
+    scrollToSelectedTask(): void {
+        if(!this.svcNavigation.selectedTask) return;
+
+        const index = this.filteredTasks.findIndex(
+            (t) => t.fullStorageKey === this.svcNavigation.selectedTask.fullStorageKey
+        );
+
+        if(index !== -1) {
+            // Clear the selectedTask
+            this.svcNavigation.selectedTask = null;
+
+            // scrollTo cannot take place in this same tick
+            setTimeout(() => this._taskTable.scrollToVirtualIndex(index), 1);
+        }
     }
 
     //#endregion

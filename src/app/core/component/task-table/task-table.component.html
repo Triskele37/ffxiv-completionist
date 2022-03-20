@@ -13,14 +13,9 @@
             styleClass="p-datatable-striped"
             dataKey="_parent.fullStorageKey"
             [value]="filteredTasks"
-
-            [rowGroupMode]="groupRows ? 'subheader' : null"
-            [groupRowsBy]="groupRows ? '_parent.fullStorageKey' : null"
-
             [virtualScroll]="true"
             [virtualRowHeight]="40"
             scrollHeight="100%"
-
             (onRowReorder)="onRowReorder($event)"
         >
             <ng-template pTemplate="header">
@@ -30,20 +25,7 @@
                     (filterChange)="onFilterChange($event)"
                 ></xiv-header-row>
             </ng-template>
-            <ng-template pTemplate="groupheader" let-task let-expanded="expanded">
-                <tr pRowGroupHeader [pRowToggler]="task">
-                    <td>
-                        <p-button
-                            styleClass="p-button-text p-button-rounded p-button-plain p-mr-2"
-                            [icon]="expanded ? 'pi pi-chevron-down' : 'pi pi-chevron-right'"
-                        ></p-button>
-                    </td>
-                    <td [colSpan]="group.columns.length + 1">
-                        <xiv-link-cell [task]="task"></xiv-link-cell>
-                    </td>
-                </tr>
-            </ng-template>
-            <ng-template [pTemplate]="groupRows ? 'rowexpansion' : 'body'" let-task let-rowIndex="rowIndex">
+            <ng-template pTemplate="body" let-task let-rowIndex="rowIndex">
                 <xiv-data-row
                     [dragEnabled]="group.draggable && !debounceDrag"
                     [rowIndex]="rowIndex"

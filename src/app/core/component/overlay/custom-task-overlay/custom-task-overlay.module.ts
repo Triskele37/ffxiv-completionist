@@ -8,7 +8,7 @@ import { DividerModule } from 'primeng/divider';
 import { InputTextModule } from 'primeng/inputtext';
 import { OverlayPanelModule } from 'primeng/overlaypanel';
 
-import { GroupLinkModule } from '../../../pipe/group-link.pipe';
+import { ContentLinkModule } from '../../../pipe/content-link.pipe';
 
 import { CustomTaskOverlayComponent } from './custom-task-overlay.component';
 
@@ -26,7 +26,7 @@ import { CustomTaskOverlayComponent } from './custom-task-overlay.component';
         InputTextModule,
         OverlayPanelModule,
 
-        GroupLinkModule
+        ContentLinkModule
     ],
     exports: [
         CustomTaskOverlayComponent

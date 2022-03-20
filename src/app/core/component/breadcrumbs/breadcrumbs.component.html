@@ -17,7 +17,7 @@
             *ngFor="let group of svcNavigation.groupHistory$ | async"
             styleClass="p-button-link"
             [pTooltip]="'GENERAL.GROUP_NAVIGATE' | translate"
-            [label]="group | groupLink"
+            [label]="group | contentLink"
             (onClick)="goToHistory(group)"
         ></p-button>
 

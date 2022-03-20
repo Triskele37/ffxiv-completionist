@@ -10,12 +10,22 @@ import { NavigationService } from '@service/navigation/navigation.service';
 })
 export class LinkCellComponent {
     @Input() task: Task;
-    @Input() group?: DataGroup;
+    @Input() trimGroup: DataGroup;
 
-    constructor(private svcNavigation: NavigationService) {
+    @Input() group: DataGroup;
+
+    constructor(
+        private svcNavigation: NavigationService
+    ) {
     }
 
     onClickLink(): void {
-        this.svcNavigation.setSelectedGroup(this.task._parent);
+        if(this.group) {
+            this.svcNavigation.setSelectedGroup(this.group);
+        }
+        else if(this.task) {
+            this.svcNavigation.setSelectedTask(this.task);
+        }
     }
+
 }
