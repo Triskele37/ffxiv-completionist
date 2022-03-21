@@ -1,6 +1,9 @@
 ------------------------------------------------------------------ Current Release ToDo
 **Add**
 - Fill in fishing/spearfishing scaffold
+  - fishing-guide page-41 to page-46
+  - spearfishing-guide page-7 to page-10
+  - spearfishing-log gyr-abania & othard
 - Chains
   - Majority of new content
   - Beast Tribe Recipes on Beast Tribe Quests (one-way)
@@ -11,6 +14,8 @@
 
 **Fix**
 - loading tonberry doesn't show in build
+- missing endwalker savage unlock quasi quest
+- search page expand doesn't work on first click after collapse all
 - use ngAfterViewInit in app.component to hide loading tonberry instead of when-ready
 - long table cells truncated, add tooltip
 - Remove old PLD trial weapon recipes

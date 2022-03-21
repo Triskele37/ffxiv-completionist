@@ -226,6 +226,7 @@
         },
         "x68836": {
             "level": 71,
+            "unlock": "duty.dutyraid-finder.dungeons.shb.0",
             "cPrev": [
                 68826,
                 68835
@@ -271,6 +272,7 @@
         },
         "x68840": {
             "level": 72,
+            "unlock": "travel.aether-currents.shb.lakeland.14",
             "cNext": [
                 68920,
                 68921,
@@ -365,6 +367,7 @@
         },
         "x68848": {
             "level": 73,
+            "unlock": "duty.dutyraid-finder.dungeons.shb.1",
             "cPrev": [
                 68847
             ],
@@ -458,6 +461,10 @@
         },
         "x68856": {
             "level": 73,
+            "unlock": [
+                "duty.dutyraid-finder.trials.shb.0",
+                "travel.aether-currents.shb.il-mheg.14"
+            ],
             "cNext": [
                 68961,
                 68857,
@@ -682,6 +689,10 @@
         },
         "x68876": {
             "level": 75,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.shb.2",
+                "travel.aether-currents.shb.the-raktika-greatwood.14"
+            ],
             "cPrev": [
                 68875
             ],
@@ -870,6 +881,10 @@
         },
         "x69157": {
             "level": 77,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.shb.3",
+                "travel.aether-currents.shb.amh-araeng.14"
+            ],
             "cNext": [
                 69158,
                 69066,
@@ -1040,13 +1055,21 @@
         },
         "x69179": {
             "level": 79,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.shb.4",
+                "duty.dutyraid-finder.trials.shb.1",
+                "travel.aether-currents.shb.kholusia.14"
+            ],
             "cPrev": [
                 69178
             ],
             "cNext": [
                 69180
             ],
-            "cSiblings": ["a.2297", "travel.aether-currents.shb.kholusia.14"]
+            "cSiblings": [
+                "a.2297",
+                "travel.aether-currents.shb.kholusia.14"
+            ]
         },
         "x69180": {
             "level": 79,
@@ -1158,6 +1181,7 @@
         },
         "x69189": {
             "level": 80,
+            "unlock": "travel.aether-currents.shb.the-tempest.14",
             "cPrev": [
                 69188
             ],
@@ -1168,6 +1192,10 @@
         },
         "x69190": {
             "level": 80,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.shb.5",
+                "duty.dutyraid-finder.trials.shb.2"
+            ],
             "cNext": [
                 69137,
                 68791,

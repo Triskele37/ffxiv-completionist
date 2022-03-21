@@ -5,6 +5,7 @@ import { EditCellModule } from './edit/edit-cell.module';
 import { ActionsCellModule } from './actions/actions-cell.module';
 import { NumericCompleteCellModule } from './numeric-complete/numeric-complete-cell.module';
 import { LinkCellModule } from './link/link-cell.module';
+import { LinksCellModule } from './links/links-cell.module';
 
 @NgModule({
     imports: [
@@ -13,6 +14,7 @@ import { LinkCellModule } from './link/link-cell.module';
         ActionsCellModule,
         NumericCompleteCellModule,
         LinkCellModule,
+        LinksCellModule,
     ],
     exports: [
         CompleteCellModule,
@@ -20,6 +22,7 @@ import { LinkCellModule } from './link/link-cell.module';
         ActionsCellModule,
         NumericCompleteCellModule,
         LinkCellModule,
+        LinksCellModule,
     ]
 })
 export class CellModule {

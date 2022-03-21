@@ -3,6 +3,10 @@
     "tasks": {
         "x68551": {
             "level": 70,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.sb.9",
+                "duty.dutyraid-finder.trials.sb.3"
+            ],
             "cPrev": [
                 68560
             ],
@@ -12,6 +16,7 @@
         },
         "x68552": {
             "level": 70,
+            "unlock": "duty.dutyraid-finder.dungeons.sb.11",
             "cPrev": [
                 68551
             ],
@@ -21,6 +26,7 @@
         },
         "x68688": {
             "level": 70,
+            "unlock": "duty.dutyraid-finder.trials.sb.12",
             "cPrev": [
                 68552
             ],
@@ -31,6 +37,7 @@
         },
         "x68701": {
             "level": 70,
+            "unlock": "duty.dutyraid-finder.trials.sb.13",
             "cPrev": [
                 68688
             ],

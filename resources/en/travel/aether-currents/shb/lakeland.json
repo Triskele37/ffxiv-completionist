@@ -1,27 +1,40 @@
 {
     "groupName": "Lakeland",
     "tasks": {
-        "x1": {},
-        "x2": {},
-        "x5": {},
-        "x9": {},
+        "x1": {
+            "name": "Current 1"
+        },
+        "x2": {
+            "name": "Current 2"
+        },
+        "x5": {
+            "name": "Current 3"
+        },
+        "x9": {
+            "name": "Current 4"
+        },
         "x10": {
+            "name": "Current 5",
             "source": "An Unreasonable Request",
             "notes": "Unlocks after completing MSQ \"Logistics of War\""
         },
         "x11": {
+            "name": "Current 6",
             "source": "The Astute Amaro",
             "notes": "Unlocks after completing MSQ \"Logistics of War\""
         },
         "x12": {
+            "name": "Current 7",
             "source": "Imperative Repairs",
             "notes": "Unlocks after completing MSQ \"Logistics of War\""
         },
         "x13": {
+            "name": "Current 8",
             "source": "A Jobb Well Done",
             "notes": "Unlocks after completing MSQ \"Warrior of Darkness\""
         },
         "x14": {
+            "name": "Current 9",
             "source": "Logistics of War",
             "notes": "Main Scenario Quest"
         }

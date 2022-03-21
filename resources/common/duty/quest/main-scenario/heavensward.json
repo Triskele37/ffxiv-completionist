@@ -178,6 +178,7 @@
         },
         "x67133": {
             "level": 50,
+            "unlock": "duty.collection.0",
             "cPrev": [
                 67125,
                 67132
@@ -278,6 +279,7 @@
         },
         "x67142": {
             "level": 51,
+            "unlock": "travel.mount-speed.ishgard--coerthas.2",
             "cNext": [
                 67296,
                 67647,
@@ -310,6 +312,7 @@
         },
         "x67144": {
             "level": 51,
+            "unlock": "travel.aether-currents.hw.coerthas-western-highlands.14",
             "cNext": [
                 67290,
                 67145
@@ -427,6 +430,10 @@
         },
         "x67152": {
             "level": 53,
+            "unlock": [
+                "duty.dutyraid-finder.trials.hw.0",
+                "travel.mount-speed.ishgard--coerthas.9"
+            ],
             "cNext": [
                 67153,
                 67346,
@@ -445,6 +452,10 @@
         },
         "x67153": {
             "level": 53,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.hw.1",
+                "travel.aether-currents.hw.the-dravanian-forelands.14"
+            ],
             "cPrev": [
                 67152
             ],
@@ -540,6 +551,7 @@
         },
         "x67162": {
             "level": 54,
+            "unlock": "travel.mount-speed.ishgard--coerthas.13",
             "cPrev": [
                 67161
             ],
@@ -624,6 +636,10 @@
         },
         "x67170": {
             "level": 55,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.hw.2",
+                "travel.aether-currents.hw.the-churning-mists.14"
+            ],
             "cNext": [
                 67171,
                 67856
@@ -785,6 +801,7 @@
         },
         "x67176": {
             "level": 57,
+            "unlock": "duty.dutyraid-finder.dungeons.hw.3",
             "cPrev": [
                 67175
             ],
@@ -859,6 +876,11 @@
         },
         "x67183": {
             "level": 57,
+            "unlock": [
+                "duty.dutyraid-finder.trials.hw.1",
+                "travel.aether-currents.hw.the-sea-of-clouds.11",
+                "travel.mount-speed.ishgard--coerthas.4"
+            ],
             "cNext": [
                 67448,
                 67455,
@@ -874,7 +896,7 @@
             ],
             "cSiblings": [
                 "travel.aether-currents.hw.the-sea-of-clouds.11",
-                "ms.ishgard--coerthas.4"
+                "travel.mount-speed.ishgard--coerthas.4"
             ]
         },
         "x67184": {
@@ -1023,6 +1045,7 @@
         },
         "x67195": {
             "level": 59,
+            "unlock": "travel.mount-speed.ishgard--coerthas.11",
             "cNext": [
                 67196,
                 67502,
@@ -1038,6 +1061,10 @@
         },
         "x67196": {
             "level": 59,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.hw.4",
+                "travel.aether-currents.hw.the-dravanian-hinterlands.13"
+            ],
             "cPrev": [
                 67195
             ],
@@ -1083,6 +1110,7 @@
         },
         "x67200": {
             "level": 59,
+            "unlock": "travel.aether-currents.hw.azys-lla.0",
             "cNext": [
                 67201,
                 67515,
@@ -1097,6 +1125,7 @@
         },
         "x67201": {
             "level": 59,
+            "unlock": "travel.aether-currents.hw.azys-lla.1",
             "cNext": [
                 67202,
                 67519,
@@ -1110,6 +1139,7 @@
         },
         "x67202": {
             "level": 59,
+            "unlock": "travel.aether-currents.hw.azys-lla.2",
             "cNext": [
                 67203,
                 67524,
@@ -1124,6 +1154,10 @@
         },
         "x67203": {
             "level": 59,
+            "unlock": [
+                "travel.aether-currents.hw.azys-lla.3",
+                "travel.mount-speed.ishgard--coerthas.6"
+            ],
             "cNext": [
                 67204,
                 67526,
@@ -1140,6 +1174,7 @@
         },
         "x67204": {
             "level": 59,
+            "unlock": "travel.aether-currents.hw.azys-lla.4",
             "cPrev": [
                 67203
             ],
@@ -1150,6 +1185,11 @@
         },
         "x67205": {
             "level": 60,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.hw.5",
+                "duty.dutyraid-finder.trials.hw.2",
+                "travel.mount-speed.ishgard--coerthas.8"
+            ],
             "cNext": [
                 67654,
                 67626,

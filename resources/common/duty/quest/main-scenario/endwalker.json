@@ -219,6 +219,7 @@
         },
         "x69913": {
             "level": 81,
+            "unlock": "duty.dutyraid-finder.dungeons.ew.0",
             "cPrev": [
                 69903,
                 69912
@@ -415,12 +416,17 @@
         },
         "x69931": {
             "level": 83,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.ew.1",
+                "travel.aether-currents.ew.garlemald.14"
+            ],
             "cPrev": [
                 69930
             ],
             "cNext": [
                 69932
-            ]
+            ],
+            "cSiblings": ["travel.aether-currents.ew.garlemald.14"]
         },
         "x69932": {
             "level": 83,
@@ -442,6 +448,7 @@
         },
         "x69934": {
             "level": 83,
+            "unlock": "duty.dutyraid-finder.trials.ew.0",
             "cPrev": [
                 69933
             ],
@@ -540,12 +547,14 @@
         },
         "x69943": {
             "level": 84,
+            "unlock": "travel.aether-currents.ew.mare-lamentorum.10",
             "cPrev": [
                 69942
             ],
             "cNext": [
                 69944
-            ]
+            ],
+            "cSiblings": ["travel.aether-currents.ew.mare-lamentorum.10"]
         },
         "x69944": {
             "level": 84,
@@ -558,6 +567,7 @@
         },
         "x69945": {
             "level": 85,
+            "unlock": "duty.dutyraid-finder.dungeons.ew.2",
             "cPrev": [
                 69944
             ],
@@ -621,6 +631,7 @@
         },
         "x69952": {
             "level": 85,
+            "unlock": "travel.aether-currents.ew.thavnair.10",
             "cPrev": [
                 69951
             ],
@@ -632,7 +643,8 @@
                 69953,
                 69799,
                 69804
-            ]
+            ],
+            "cSiblings": ["travel.aether-currents.ew.thavnair.10"]
         },
         "x69953": {
             "level": 85,
@@ -878,12 +890,17 @@
         },
         "x69973": {
             "level": 87,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.ew.3",
+                "travel.aether-currents.ew.elpis.10"
+            ],
             "cPrev": [
                 69972
             ],
             "cNext": [
                 69974
-            ]
+            ],
+            "cSiblings": ["travel.aether-currents.ew.elpis.10"]
         },
         "x69974": {
             "level": 87,
@@ -994,6 +1011,7 @@
         },
         "x69984": {
             "level": 88,
+            "unlock": "travel.aether-currents.ew.labyrinthos.10",
             "cPrev": [
                 69983
             ],
@@ -1001,10 +1019,15 @@
                 69985,
                 69854,
                 69855
-            ]
+            ],
+            "cSiblings": ["travel.aether-currents.ew.labyrinthos.10"]
         },
         "x69985": {
             "level": 89,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.ew.4",
+                "duty.dutyraid-finder.trials.ew.1"
+            ],
             "cPrev": [
                 69984
             ],
@@ -1141,15 +1164,25 @@
         },
         "x69999": {
             "level": 90,
+            "unlock": "travel.aether-currents.ew.ultima-thule.10",
             "cPrev": [
                 69998
             ],
             "cNext": [
                 70000
-            ]
+            ],
+            "cSiblings": ["travel.aether-currents.ew.ultima-thule.10"]
         },
         "x70000": {
             "level": 90,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.ew.5",
+                "duty.dutyraid-finder.trials.ew.2",
+                "character.mount-guide.201",
+                "character.minion-guide.428",
+                "logs.orchestrion-list.others.82",
+                "logs.orchestrion-list.others.83"
+            ],
             "cPrev": [
                 69999
             ],

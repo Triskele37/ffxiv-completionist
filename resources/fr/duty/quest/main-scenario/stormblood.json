@@ -119,7 +119,11 @@
         },
         "x68005": {
             "name": "Une grande traversée",
-            "npc": "Lyse"
+            "npc": "Lyse",
+            "unlock": [
+                "Kugane",
+                "duty.dutyraid-finder.dungeons.sb.0"
+            ]
         },
         "x68006": {
             "name": "Bienvenue à Kugane!",

@@ -1,0 +1,21 @@
+<div class="links-cell">
+    <ng-container *ngFor="let task of tasks; let i = index">
+        <ng-container *ngIf="i > 0">,</ng-container>
+
+        <ng-container *ngIf="!task?.completionFlag; else link">
+            {{task}}
+        </ng-container>
+        <ng-template #link>
+            <p-button
+                class="content-link noSelect"
+                styleClass="p-button-link"
+                [pTooltip]="
+                    (task._parent | contentLink) + '\n' +
+                    ('GENERAL.TASK_NAVIGATE' | translate)
+                "
+                [label]="task | contentLink"
+                (onClick)="onClickLink(task)"
+            ></p-button>
+        </ng-template>
+    </ng-container>
+</div>

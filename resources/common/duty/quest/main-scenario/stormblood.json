@@ -299,6 +299,7 @@
         },
         "x68005": {
             "level": 61,
+            "unlock": ["duty.dutyraid-finder.dungeons.sb.0"],
             "cPrev": [
                 68004
             ],
@@ -564,6 +565,10 @@
         },
         "x68025": {
             "level": 63,
+            "unlock": [
+                "duty.dutyraid-finder.trials.sb.0",
+                "travel.mount-speed.the-far-east.1"
+            ],
             "cPrev": [
                 68024
             ],
@@ -574,6 +579,7 @@
         },
         "x68026": {
             "level": 63,
+            "unlock": "travel.aether-currents.sb.the-ruby-sea.14",
             "cNext": [
                 68667,
                 68251,
@@ -593,7 +599,10 @@
             "cPrev": [
                 68025
             ],
-            "cSiblings": ["a.1789", "travel.aether-currents.sb.the-ruby-sea.14"]
+            "cSiblings": [
+                "a.1789",
+                "travel.aether-currents.sb.the-ruby-sea.14"
+            ]
         },
         "x68027": {
             "level": 63,
@@ -661,6 +670,7 @@
         },
         "x68032": {
             "level": 64,
+            "unlock": "travel.mount-speed.the-far-east.3",
             "cPrev": [
                 68031
             ],
@@ -698,6 +708,7 @@
         },
         "x68035": {
             "level": 64,
+            "unlock": "travel.aether-currents.sb.yanxia.14",
             "cNext": [
                 68278,
                 68271,
@@ -722,7 +733,10 @@
             "cPrev": [
                 68034
             ],
-            "cSiblings": ["a.1790", "travel.aether-currents.sb.yanxia.14"]
+            "cSiblings": [
+                "a.1790",
+                "travel.aether-currents.sb.yanxia.14"
+            ]
         },
         "x68166": {
             "level": 65,
@@ -820,6 +834,7 @@
         },
         "x68043": {
             "level": 65,
+            "unlock": "duty.dutyraid-finder.dungeons.sb.2",
             "cPrev": [
                 68042
             ],
@@ -917,6 +932,7 @@
         },
         "x68051": {
             "level": 66,
+            "unlock": "travel.mount-speed.the-far-east.5",
             "cPrev": [
                 68050
             ],
@@ -927,6 +943,7 @@
         },
         "x68052": {
             "level": 66,
+            "unlock": "travel.aether-currents.sb.the-azim-steppe.14",
             "cNext": [
                 68337,
                 68338,
@@ -1032,6 +1049,7 @@
         },
         "x68060": {
             "level": 67,
+            "unlock": "duty.dutyraid-finder.dungeons.sb.3",
             "cPrev": [
                 68059
             ],
@@ -1115,6 +1133,10 @@
         },
         "x68068": {
             "level": 67,
+            "unlock": [
+                "duty.dutyraid-finder.trials.sb.1",
+                "travel.mount-speed.gyr-abania.1"
+            ],
             "cPrev": [
                 68067
             ],
@@ -1125,6 +1147,7 @@
         },
         "x68069": {
             "level": 67,
+            "unlock": "travel.aether-currents.sb.the-fringes.14",
             "cNext": [
                 68358,
                 68362,
@@ -1260,6 +1283,10 @@
         },
         "x68080": {
             "level": 69,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.sb.4",
+                "travel.mount-speed.gyr-abania.3"
+            ],
             "cPrev": [
                 68079
             ],
@@ -1288,6 +1315,7 @@
         },
         "x68082": {
             "level": 69,
+            "unlock": "travel.aether-currents.sb.the-peaks.14",
             "cNext": [
                 68402,
                 68083,
@@ -1341,6 +1369,7 @@
         },
         "x68086": {
             "level": 69,
+            "unlock": "travel.mount-speed.gyr-abania.5",
             "cPrev": [
                 68085
             ],
@@ -1373,6 +1402,13 @@
         },
         "x68089": {
             "level": 70,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.sb.5",
+                "duty.dutyraid-finder.trials.sb.2",
+                "travel.aether-currents.sb.the-lochs.14",
+                "travel.mount-speed.gyr-abania.0",
+                "travel.mount-speed.the-far-east.0"
+            ],
             "cNext": [
                 68614,
                 68476,

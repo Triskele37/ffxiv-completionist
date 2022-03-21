@@ -3,6 +3,7 @@
     "tasks": {
         "x67086": {
             "level": 1,
+            "unlock": "character.mount-guide.67",
             "cSiblings": [
                 "a.1694"
             ],
@@ -96,6 +97,7 @@
         },
         "x67481": {
             "level": 58,
+            "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.11",
             "cPrev": [
                 67193
             ],
@@ -120,6 +122,7 @@
         },
         "x67499": {
             "level": 58,
+            "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.12",
             "cPrev": [
                 67194
             ],
@@ -268,6 +271,7 @@
         },
         "x67922": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.dungeons.hw.15",
             "cPrev": [
                 67205
             ]
@@ -280,6 +284,10 @@
         },
         "x67938": {
             "level": 60,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.hw.17",
+                "logs.orchestrion-list.dungeons.28"
+            ],
             "cPrev": [
                 67205
             ]

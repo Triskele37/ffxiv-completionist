@@ -1,27 +1,40 @@
 {
     "groupName": "The Peaks",
     "tasks": {
-        "x0": {},
-        "x3": {},
-        "x6": {},
-        "x8": {},
+        "x0": {
+            "name": "Current 1"
+        },
+        "x3": {
+            "name": "Current 2"
+        },
+        "x6": {
+            "name": "Current 3"
+        },
+        "x8": {
+            "name": "Current 4"
+        },
         "x10": {
+            "name": "Current 5",
             "source": "Closing Up Shop",
             "notes": "Unlocks after completing MSQ \"Raubahn's Invitation\""
         },
         "x11": {
+            "name": "Current 6",
             "source": "A Hunger For Trade",
             "notes": "Unlocks after completing MSQ \"Where Courage Endures\""
         },
         "x12": {
+            "name": "Current 7",
             "source": "Out of Sight",
             "notes": "Unlocks after completing MSQ \"The Path Forward\""
         },
         "x13": {
+            "name": "Current 8",
             "source": "Saint Sayer",
             "notes": "Unlocks after completing MSQ \"The Fires Fade\""
         },
         "x14": {
+            "name": "Current 9",
             "source": "Liberty or Death",
             "notes": "Main Scenario Quest"
         }

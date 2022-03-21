@@ -2,6 +2,7 @@ import { ChangeDetectorRef, Component, Input, OnChanges, OnDestroy, SimpleChange
 import { Table } from 'primeng/table';
 
 import { Completion } from '@constant';
+import { Column } from '@domain/Column';
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { NavigationService } from '@service/navigation/navigation.service';
@@ -37,7 +38,6 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
         this._taskTable = ref;
         this.observeVirtualWrapper();
         this.fixVirtualReorder();
-        this.scrollToSelectedTask();
     }
 
     constructor(
@@ -53,6 +53,7 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
         if(changes.group || changes.tasks) {
             this.updateFilteredTasks();
             this.adjustVirtualHeader();
+            this.scrollToSelectedTask();
         }
     }
 
@@ -100,10 +101,10 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
         let filtered = [...this.tasks];
 
         // Add completion as a column to non-numeric groups
-        const columns = this.group.isNumericCompletion ? [] : [{ key: 'completion' }];
+        const columns: Partial<Column>[] = this.group.isNumericCompletion ? [] : [{ key: 'completion' }];
         columns.push(...this.group.columns);
 
-        columns.forEach(({ key }) => {
+        columns.forEach(({ key, link }) => {
             const filter = this.filters[key];
             if(!filter) return;
 
@@ -111,29 +112,45 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
                 if(key === 'completion') {
                     // Completion filters
                     switch(task.completionFlag) {
-                        case Completion.Y:
-                            return filter.completed;
-                        case Completion.N:
-                            return filter.incomplete;
-                        case Completion.X:
-                            return filter.excluded;
-                        default:
-                            return filter.incomplete;
+                        case Completion.Y: return filter.completed;
+                        case Completion.N: return filter.incomplete;
+                        case Completion.X: return filter.excluded;
+                        default: return filter.incomplete;
                     }
                 }
-                else if(filter.value === 'Blank') {
+                else if(filter.value === 'Blank') { // filter out values
                     return !task[key];
                 }
+                else if(filter.value === '*') { // filter out blanks
+                    return !!task[key];
+                }
+                else if(!link || !Array.isArray(task[key])) {
+                    // Simple string columns
+                    return this.fuzzyMatches(task[key], filter.value);
+                }
                 else {
-                    // Column value fuzzy search filter
-                    const value = task[key] ?? '';
-                    const fuzzyValue = value.toString().toLowerCase();
-                    return fuzzyValue.includes(filter.value.toLowerCase());
+                    // Multiple value link columns
+                    const data = task._parent.getFirstParent();
+
+                    return task[key].some((path) => {
+                        const arrPath = path.split('.');
+                        const id = parseInt(arrPath.pop(), 10);
+                        const group = data.getChildGroupFromPath(arrPath);
+                        const linkedTask = group.getTaskById(id);
+                        return this.fuzzyMatches(linkedTask.name, filter.value);
+                    });
                 }
             });
         });
 
         return filtered;
+    }
+
+    // Column value fuzzy search filter
+    fuzzyMatches(taskValue: string, filterValue: string): boolean {
+        const value = taskValue ?? '';
+        const fuzzyValue = value.toString().toLowerCase();
+        return fuzzyValue.includes(filterValue.toLowerCase());
     }
 
     updateFilteredTasks() {
