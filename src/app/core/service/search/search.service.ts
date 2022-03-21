@@ -63,6 +63,9 @@ export class SearchService {
 
                 this.svcNavigation.setBreadcrumbs(['main-menu', 'search']);
             }
+            else if(!this.expanded) {
+                this.toggleSearchDepth();
+            }
             else {
                 this.searchStatus$.next(Status.Failure);
                 this.searchError$.next(this.translate.instant('MAIN.SEARCH.NO_RESULTS'));

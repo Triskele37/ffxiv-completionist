@@ -19,7 +19,6 @@
 - Starting Class needs to have short/long values for translation purposes
 
 **Fix**
-- non-expanded search can fail, preventing expanded search
 - loading tonberry doesn't show in build
 - long table cells truncated, add tooltip
 - Scroll height issue w/ Seventh Umbral section due to subGroups and large table
