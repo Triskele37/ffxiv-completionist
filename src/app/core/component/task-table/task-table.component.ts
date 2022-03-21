@@ -6,6 +6,7 @@ import { Column } from '@domain/Column';
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { NavigationService } from '@service/navigation/navigation.service';
+import { fuzzyMatchObject } from '@service/search/fuzzyMatch';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { SaveStoreService } from '@service/store/save-store.service';
 
@@ -124,33 +125,13 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
                 else if(filter.value === '*') { // filter out blanks
                     return !!task[key];
                 }
-                else if(!link || !Array.isArray(task[key])) {
-                    // Simple string columns
-                    return this.fuzzyMatches(task[key], filter.value);
-                }
                 else {
-                    // Multiple value link columns
-                    const data = task._parent.getFirstParent();
-
-                    return task[key].some((path) => {
-                        const arrPath = path.split('.');
-                        const id = parseInt(arrPath.pop(), 10);
-                        const group = data.getChildGroupFromPath(arrPath);
-                        const linkedTask = group.getTaskById(id);
-                        return this.fuzzyMatches(linkedTask.name, filter.value);
-                    });
+                    return fuzzyMatchObject(task, key, filter.value, true, link);
                 }
             });
         });
 
         return filtered;
-    }
-
-    // Column value fuzzy search filter
-    fuzzyMatches(taskValue: string, filterValue: string): boolean {
-        const value = taskValue ?? '';
-        const fuzzyValue = value.toString().toLowerCase();
-        return fuzzyValue.includes(filterValue.toLowerCase());
     }
 
     updateFilteredTasks() {

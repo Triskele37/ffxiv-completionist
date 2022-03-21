@@ -219,6 +219,16 @@ export class DataGroup {
         return this._parent?.getTaskById(taskId, hit) || null;
     }
 
+    getTaskByPath(path): Task {
+        // Separate the path and id
+        const segments = path.split('.');
+        const id = parseInt(segments.pop(), 10);
+
+        // Attempt to grab a task
+        const group = this.getFirstParent().getChildGroupFromPath(segments);
+        return group?.getTaskById(id);
+    }
+
     //#endregion
 
     //#region------------------------------------------------------- Task Counting

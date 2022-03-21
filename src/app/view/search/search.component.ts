@@ -38,15 +38,20 @@ export class SearchComponent implements OnInit, OnDestroy {
     setRowsExpanded(tasks: Match[], expanded: boolean): void {
         this.rowKeys = tasks.map((match) => match.task._parent.fullStorageKey);
 
+        // Collapsed rows must use 'null' as the falsy value
         this.expandedRows = this.rowKeys.reduce((acc, key) => {
-            acc[key] = expanded;
+            acc[key] = expanded ? true : null;
             return acc;
         }, {});
 
         this.willCollapseAll = expanded;
     }
 
-    evaluateToggleAll(wasCollapse: boolean): void {
+    evaluateToggleAll($event, wasCollapse: boolean): void {
+        // PrimeNG deletes the key when collapsed, add it back in as null if collapsed
+        const rowKey = $event.data.task._parent.fullStorageKey;
+        if(!this.expandedRows[rowKey]) this.expandedRows[rowKey] = null;
+
         const hasAnyCollapsed = this.rowKeys.some((key) => !this.expandedRows[key]);
         const hasAnyExpanded = this.rowKeys.some((key) => this.expandedRows[key]);
 

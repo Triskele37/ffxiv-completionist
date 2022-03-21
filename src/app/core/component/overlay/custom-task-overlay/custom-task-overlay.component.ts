@@ -96,7 +96,7 @@ export class CustomTaskOverlayComponent {
         // Search for matches and filter out matching itself
         this.mergeTask = this.customData.tasks[this.mergeIndex];
         this.mergeMatches = this.svcSearch
-            .searchData(this.mergeTask.name, false, true)
+            .searchData(this.mergeTask.name, false, false)
             .filter((match) =>
                 !match.task._parent.isBookmarkGroup &&
                 !match.task._parent.isCustomGroup

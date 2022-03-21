@@ -7,6 +7,8 @@ import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { NavigationService } from '@service/navigation/navigation.service';
 
+import { getObjValue, fuzzyMatchObject, fuzzyMatchValue } from './fuzzyMatch';
+
 export enum Status {
     Success = 'success',
     Failure = 'failure'
@@ -14,7 +16,7 @@ export enum Status {
 
 export type Match = {
     header: string;
-    key: string;
+    value: number | string;
     task: Task;
 };
 
@@ -22,6 +24,13 @@ export type Match = {
     providedIn: 'root'
 })
 export class SearchService {
+    searchTerm: string;
+    expanded: boolean;
+
+    searchStatus$: BehaviorSubject<Status> = new BehaviorSubject<Status>(null);
+    searchError$: BehaviorSubject<string> = new BehaviorSubject<string>(null);
+    searchMatches$: BehaviorSubject<Match[]> = new BehaviorSubject<Match[]>([]);
+
     constructor(
         private translate: TranslateService,
         private svcData: DataService,
@@ -30,13 +39,6 @@ export class SearchService {
     }
 
     //#region------------------------------------------------------- App Search
-    searchTerm: string;
-    expanded: boolean;
-
-    searchStatus$: BehaviorSubject<Status> = new BehaviorSubject<Status>(null);
-    searchError$: BehaviorSubject<string> = new BehaviorSubject<string>(null);
-    searchMatches$: BehaviorSubject<Match[]> = new BehaviorSubject<Match[]>([]);
-
     toggleSearchDepth(): void {
         if(!this.searchTerm) return;
 
@@ -52,7 +54,7 @@ export class SearchService {
             this.searchError$.next(this.translate.instant('MAIN.SEARCH.TOO_SHORT'));
         }
         else {
-            const matches: Match[] = this.searchData(searchTerm, this.expanded, false);
+            const matches: Match[] = this.searchData(searchTerm, this.expanded, true);
 
             if(matches.length > 0) {
                 this.searchStatus$.next(Status.Success);
@@ -71,31 +73,42 @@ export class SearchService {
     //#endregion
 
     //#region------------------------------------------------------- Reuseable Search Logic
-    searchData(searchTerm: string, expanded: boolean, strict: boolean): Match[] {
-        return this.searchGroupForTerm(this.svcData.data, searchTerm, expanded, strict);
+    searchData(searchTerm: string, expanded: boolean, partial: boolean): Match[] {
+        return this.searchGroupForTerm(this.svcData.data, searchTerm, expanded, partial);
     }
 
-    private searchGroupForTerm(group: DataGroup, searchTerm: string, expanded: boolean, strict: boolean): Match[] {
+    private searchGroupForTerm(group: DataGroup, searchTerm: string, expanded: boolean, partial: boolean): Match[] {
         const matches: Match[] = [];
 
         // Recurse downward
         group.subGroups?.forEach((subGroup) =>
-            matches.push(...this.searchGroupForTerm(subGroup, searchTerm, expanded, strict))
+            matches.push(...this.searchGroupForTerm(subGroup, searchTerm, expanded, partial))
         );
 
         // Search current group
         group.tasks.forEach((task) => {
             if(!expanded) { // name only search
-                if(task.name && SearchService.fuzzyMatch(searchTerm, task.name, strict)) {
-                    matches.push({ header: 'Name', key: 'name', task });
+                const termInName = fuzzyMatchValue(task.name, searchTerm, partial);
+                const nameInTerm = fuzzyMatchValue(searchTerm, task.name, partial);
+
+                if(task.name && (termInName || nameInTerm)) {
+                    matches.push({
+                        header: 'Name',
+                        value: task.name,
+                        task
+                    });
                 }
             }
             else { // all column search
-                task._parent.columns?.forEach(({ key, header }) => {
+                task._parent.columns?.forEach(({ key, header, link }) => {
                     if(!task[key]) return;
 
-                    if(SearchService.fuzzyMatch(searchTerm, task[key], strict)) {
-                        matches.push({ header, key, task });
+                    if(fuzzyMatchObject(task, key, searchTerm, partial, link)) {
+                        matches.push({
+                            header,
+                            value: getObjValue(task, key, link),
+                            task
+                        });
                     }
                 });
             }
@@ -106,16 +119,4 @@ export class SearchService {
 
     //#endregion
 
-    //#region------------------------------------------------------- Helpers
-    // Fuzzy matches search term against task name or if task name includes search term
-    private static fuzzyMatch(searchTerm: string, value: number | string, strict: boolean): boolean {
-        const fuzzySearchTerm = searchTerm.toLowerCase().replace(/[^a-z0-9 ]/g, '');
-        const fuzzyTaskValue = value.toString().toLowerCase().replace(/[^a-z0-9 ]/g, '');
-
-        if(fuzzySearchTerm === fuzzyTaskValue) return true;
-
-        return !strict && fuzzyTaskValue.includes(fuzzySearchTerm);
-    }
-
-    //#endregion
 }

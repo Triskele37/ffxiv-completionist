@@ -40,13 +40,7 @@ export class LinksCellComponent implements OnChanges {
 
     getTaskFromPath(pathOrValue: string): any { //Task | string {
         if(pathOrValue?.includes('.')) {
-            // Separate the path and id
-            const arrPath = pathOrValue.split('.');
-            const id = parseInt(arrPath.pop(), 10);
-
-            // Attempt to grab a task
-            const group = this.svcData.data.getChildGroupFromPath(arrPath);
-            return group?.getTaskById(id) || pathOrValue;
+            return this.svcData.data.getTaskByPath(pathOrValue) || pathOrValue;
         }
         else {
             // parameter is a raw value

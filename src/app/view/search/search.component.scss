@@ -1,3 +1,5 @@
+$header-height: 65px;
+
 .search-data-container {
     margin-right: 20px;
     height: 100%;
@@ -7,10 +9,20 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: $header-height;
     }
 
     // Allow columns to resize, but not too much
     .results ::ng-deep {
+        height: calc(100% - #{$header-height});
+        overflow-y: auto;
+
+        th {
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
         .p-rowgroup-header td {
             padding: 0;
 
