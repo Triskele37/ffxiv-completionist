@@ -2,10 +2,6 @@
 **Add**
 - missing endwalker savage unlock quasi quest
 - seasonal quest "Feline Fun" from Heavensturn 2022 is missing
-- Fill in fishing/spearfishing scaffold
-  - fishing-guide page-41 to page-46
-  - spearfishing-guide page-7 to page-10
-  - spearfishing-log gyr-abania & othard
 - Chains
   - Majority of new content
   - Beast Tribe Recipes on Beast Tribe Quests (one-way)
@@ -16,6 +12,7 @@
 **Change**
 
 **Fix**
+- endwalker role quests unlock (At World's End)
 
 ------------------------------------------------------------------ Prioritize
 **Add**
@@ -36,6 +33,7 @@
     - 66999 - Marvelously Mutable Materia
     - All job stones chained from quests unlocked by Sylph-management
     - All beast tribe quests chained from quests unlocked by In Puruit of the Past
+    - Aetheryte unlocks in msq
 - "Close to Home"s are based on starting class, so 8 different ones
 - Triad opponents need re-verification of patch (arrtripletriad.com/en/npcs)
 - Scholar/Summoner levels don't tie together properly
