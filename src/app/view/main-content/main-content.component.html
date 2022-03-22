@@ -18,6 +18,7 @@
     <ng-template #tableGroup>
         <div
             *ngIf="!showAll && selectedGroup.subGroups"
+            #groupSummary
             class="group-summary-section"
         >
             <xiv-summary-line
@@ -50,3 +51,6 @@
         </ng-template>
     </ng-template>
 </div>
+
+<!-- Forces the table to respect the summary line container's height -->
+<div [style.height.px]="footerHeight"></div>

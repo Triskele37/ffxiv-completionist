@@ -10,4 +10,3 @@
 
 **Fix**
 - long table cells truncated, add tooltip
-- Scroll height issue w/ Seventh Umbral section due to subGroups and large table

@@ -1,4 +1,12 @@
-import { Component, ComponentFactoryResolver, OnInit, ViewChild } from '@angular/core';
+import {
+    ChangeDetectorRef,
+    Component,
+    ComponentFactoryResolver,
+    ElementRef,
+    OnDestroy,
+    OnInit,
+    ViewChild
+} from '@angular/core';
 
 import { DataGroup } from '@domain/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
@@ -10,22 +18,11 @@ import { AnchorDirective } from './anchor.directive';
     templateUrl: './main-content.component.html',
     styleUrls: ['./main-content.component.scss']
 })
-export class MainContentComponent implements OnInit {
-    isShowAllVisible: boolean = false;
-    showAll: boolean = false;
-
+export class MainContentComponent implements OnInit, OnDestroy {
     selectedGroup: DataGroup;
 
-    _anchor: AnchorDirective;
-    @ViewChild(AnchorDirective, { static: false }) set anchor(ref: AnchorDirective) {
-        if(!ref) return;
-        this._anchor = ref;
-
-        // Custom components must be reloaded if this ref changes
-        this.loadComponent();
-    };
-
     constructor(
+        private cdr: ChangeDetectorRef,
         private cfr: ComponentFactoryResolver,
         private svcNavigation: NavigationService
     ) {
@@ -52,9 +49,54 @@ export class MainContentComponent implements OnInit {
         });
     }
 
+    ngOnDestroy() {
+        this.summaryObserver?.disconnect();
+    }
+
+    //#region------------------------------------------------------- Show All
+    isShowAllVisible: boolean = false;
+    showAll: boolean = false;
+
     toggleShowAll(): void {
         this.showAll = !this.showAll;
     }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Dynamic Scroll Height
+    footerHeight: number = 0;
+    summaryObserver: ResizeObserver;
+
+    @ViewChild('groupSummary', { static: false }) set groupSummary(ref: ElementRef) {
+        if(!ref) {
+            this.footerHeight = 0;
+            this.summaryObserver?.disconnect();
+            this.cdr.detectChanges();
+            return;
+        }
+
+        this.summaryObserver = new ResizeObserver((entries) => {
+            entries.forEach((entry) => {
+                this.footerHeight = entry.contentRect?.height || 0;
+            });
+
+            this.cdr.detectChanges();
+        });
+
+        this.summaryObserver.observe(ref.nativeElement);
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Dynamic Component
+    _anchor: AnchorDirective;
+    @ViewChild(AnchorDirective, { static: false }) set anchor(ref: AnchorDirective) {
+        if(!ref) return;
+        this._anchor = ref;
+
+        // Custom components must be reloaded if this ref changes
+        this.loadComponent();
+    };
 
     // _anchor will be defined here based on how this function is called
     loadComponent(): void {
@@ -65,5 +107,7 @@ export class MainContentComponent implements OnInit {
         const component = viewContainerRef.createComponent(componentFactory);
         component.changeDetectorRef.detectChanges();
     }
+
+    //#endregion
 
 }
