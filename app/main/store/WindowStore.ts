@@ -54,7 +54,7 @@ export class WindowStore {
             height: 200,
             transparent: true,
             frame: false,
-            alwaysOnTop: true,
+            // alwaysOnTop: true,
             center: true
         });
 

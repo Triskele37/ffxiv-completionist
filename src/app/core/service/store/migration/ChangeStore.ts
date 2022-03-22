@@ -1,3 +1,4 @@
+import { CompletionFlag } from '@constant';
 import { SaveStoreService } from '../save-store.service';
 
 type ID = number | string;
@@ -28,6 +29,18 @@ export class ChangeStore {
         this.svcSaveStore.store.set('version', this.version);
     }
 
+    // Util to get a task
+    getTask(groupPath: string, taskId: ID): CompletionFlag {
+        const group = dive(groupPath, this.newStore);
+        return group?.[taskId];
+    }
+
+    setTask(groupPath: string, taskId: ID, flag: CompletionFlag): void {
+        const group = dive(groupPath, this.newStore);
+        if(group) group[taskId] = flag;
+    }
+
+    //#region------------------------------------------------------- Move
     // Change Helper when task is in same group
     changeKey(groupPath: string, oldId: ID, newId: ID, newToNew?: boolean): void {
         const oldGroup = dive(groupPath, newToNew ? this.newStore : this.oldStore);
@@ -105,6 +118,9 @@ export class ChangeStore {
         }
     }
 
+    //#endregion
+
+    //#region------------------------------------------------------- Delete
     // Change helper when task is removed
     deleteTask(groupPath: string, taskId: ID): void {
         const group = dive(groupPath, this.newStore);
@@ -138,6 +154,9 @@ export class ChangeStore {
         const groupToDeleteParent = dive(groupPathArr, this.newStore);
         if(!!groupToDeleteParent) delete groupToDeleteParent[groupToDelete];
     }
+
+    //#endregion
+
 }
 
 // Dives a given path, creating objects along the way, returning the final object

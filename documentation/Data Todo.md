@@ -14,7 +14,6 @@
 - Add links to all columns referencing another task
 
 **Change**
-- Remove old PLD trial weapon recipes
 - Starting Class needs to have short/long values for translation purposes
 
 **Fix**
