@@ -1,21 +1,50 @@
 <div class="links-cell">
-    <ng-container *ngFor="let task of tasks; let i = index">
-        <ng-container *ngIf="i > 0">,</ng-container>
-
-        <ng-container *ngIf="!task?.completionFlag; else link">
-            {{task}}
-        </ng-container>
-        <ng-template #link>
-            <p-button
-                class="content-link noSelect"
-                styleClass="p-button-link"
-                [pTooltip]="
-                    (task._parent | contentLink) + '\n' +
-                    ('GENERAL.TASK_NAVIGATE' | translate)
-                "
-                [label]="task | contentLink"
-                (onClick)="onClickLink(task)"
-            ></p-button>
-        </ng-template>
-    </ng-container>
+    <ng-container *ngTemplateOutlet="tasks.length < 2 ? singleValue : multiValue"></ng-container>
 </div>
+
+<!-- One Value -->
+<ng-template #singleValue>
+    <ng-container
+        *ngTemplateOutlet="!tasks[0]?.completionFlag ? text : link; context: { $implicit: tasks[0] }"
+    ></ng-container>
+</ng-template>
+
+<!-- Multiple Values, use button & overlay -->
+<ng-template #multiValue>
+    <p-button
+        styleClass="p-button-link"
+        label="Show All ({{tasks.length}})"
+        (onClick)="linkOverlay.toggle($event)"
+    ></p-button>
+
+    <p-overlayPanel
+        #linkOverlay
+        styleClass="link-overlay"
+    >
+        <ng-container *ngFor="let task of tasks">
+            <ng-container
+                *ngTemplateOutlet="!task?.completionFlag ? text : link; context: { $implicit: task }"
+            ></ng-container>
+        </ng-container>
+    </p-overlayPanel>
+</ng-template>
+
+<!-- Raw Text -->
+<ng-template #text let-task>
+    {{task}}
+</ng-template>
+
+<!-- Task Link -->
+<ng-template #link let-task>
+    <p-button
+        class="content-link noSelect"
+        styleClass="p-button-link"
+        tooltipPosition="top"
+        [pTooltip]="
+            (task._parent | contentLink) + '\n' +
+            ('GENERAL.TASK_NAVIGATE' | translate)
+        "
+        [label]="task | contentLink"
+        (onClick)="onClickLink(task)"
+    ></p-button>
+</ng-template>

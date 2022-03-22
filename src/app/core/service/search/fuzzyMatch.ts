@@ -38,12 +38,13 @@ export function fuzzyMatchObject(
     isLink: boolean = false
 ): boolean {
     if(Array.isArray(objA[keyA])) {
-        return objA[keyA].some(
-            (_, i) => fuzzyMatchObject(objA[keyA], i, valueB, partial, isLink)
-        );
+        return objA[keyA].some((pathOrValue) => {
+            const valueA = getObjValue(objA, pathOrValue, isLink);
+            return fuzzyMatchValue(valueA, valueB, partial);
+        });
     }
     else {
-        const valueA = getObjValue(objA, keyA, isLink);
+        const valueA = getObjValue(objA, objA[keyA], isLink);
         return fuzzyMatchValue(valueA, valueB, partial);
     }
 }
@@ -51,13 +52,13 @@ export function fuzzyMatchObject(
 //TODO: more generic than current placement
 export function getObjValue(
     obj: any,
-    key: number | string,
+    pathOrValue: number | string,
     isLink: boolean
 ): number | string {
     if(isLink && '_parent' in obj) {
-        const linkedTask = obj._parent?.getTaskByPath(obj[key]);
+        const linkedTask = obj._parent?.getTaskByPath(pathOrValue);
         if(linkedTask) return linkedTask.name;
     }
 
-    return obj[key];
+    return pathOrValue;
 }

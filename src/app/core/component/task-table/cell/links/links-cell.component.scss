@@ -1,4 +1,11 @@
-.links-cell {
-    display: flex;
-    align-items: center;
+:host {
+    .content-link {
+        display: block;
+    }
+}
+
+::ng-deep .link-overlay {
+    .content-link {
+        display: block;
+    }
 }

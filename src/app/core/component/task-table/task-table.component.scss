@@ -56,10 +56,6 @@
 
         //---------------------- Table Data ----------------------
         td {
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            overflow: hidden;
-
             &.centered {
                 text-align: center;
             }

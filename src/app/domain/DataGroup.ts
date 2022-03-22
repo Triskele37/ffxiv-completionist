@@ -219,7 +219,9 @@ export class DataGroup {
         return this._parent?.getTaskById(taskId, hit) || null;
     }
 
-    getTaskByPath(path): Task {
+    getTaskByPath(path: string): Task {
+        if(typeof path !== 'string') return;
+
         // Separate the path and id
         const segments = path.split('.');
         const id = parseInt(segments.pop(), 10);

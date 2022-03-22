@@ -42,7 +42,7 @@
         </ng-template>
 
         <ng-template #staticCell>
-            {{task[column.key]}}
+            <xiv-data-cell [task]="task" [key]="column.key"></xiv-data-cell>
         </ng-template>
     </td>
 

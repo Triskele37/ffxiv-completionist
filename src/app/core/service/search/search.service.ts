@@ -107,11 +107,18 @@ export class SearchService {
                     if(!task[key]) return;
 
                     if(fuzzyMatchObject(task, key, searchTerm, partial, link)) {
-                        matches.push({
-                            header,
-                            value: getObjValue(task, key, link),
-                            task
-                        });
+                        let value = '';
+
+                        if(Array.isArray(task[key])) {
+                            value = task[key]
+                                .map((path) => getObjValue(task, path, link))
+                                .join(', ');
+                        }
+                        else {
+                            value = getObjValue(task, task[key], link).toString();
+                        }
+
+                        matches.push({ header, value, task });
                     }
                 });
             }
