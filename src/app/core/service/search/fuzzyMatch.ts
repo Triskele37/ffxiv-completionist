@@ -1,3 +1,5 @@
+import { DataGroup } from '@domain/DataGroup';
+
 /**
  @param valueA - value to match or see if contains B
  @param valueB - value being matched
@@ -55,8 +57,8 @@ export function getObjValue(
     pathOrValue: number | string,
     isLink: boolean
 ): number | string {
-    if(isLink && '_parent' in obj) {
-        const linkedTask = obj._parent?.getTaskByPath(pathOrValue);
+    if(pathOrValue && isLink) {
+        const linkedTask = DataGroup.overall.getChildTask(pathOrValue.toString());
         if(linkedTask) return linkedTask.name;
     }
 

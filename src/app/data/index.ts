@@ -24,6 +24,7 @@ export class DataService {
     ) {
         DataGroup.svcElectron = this.svcElectron;
         this.data = DataGroup.fromJSON(null, './index');
+        DataGroup.overall = this.data;
 
         this.data.subGroups = [
             DataGroup.fromDefinition(this.data, CHARACTER_DEFINITION),

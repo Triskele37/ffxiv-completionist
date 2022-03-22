@@ -56,14 +56,11 @@ export class BookmarkService {
     //#region------------------------------------------------------- Tasks
     private initializeBookmarkTasks(): void {
         this.svcSave.get('bookmarked-tasks').forEach((fullStorageKey) => {
-            // Calculate the path and id
-            const path: string[] = fullStorageKey.split('.');
-            const id: number = parseInt(path.pop(), 10);
-            path.shift(); // Remove 'Overall' step
+            // Remove 'Overall' step
+            const path = fullStorageKey.replace(/^overall./, '');
 
             // Add the task to this group
-            const group: DataGroup = this.svcData.data.getChildGroupFromPath(path);
-            const task: Task = group.getTaskById(id);
+            const task: Task = this.svcData.data.getChildTask(path);
             this.group.tasks.push(task);
         });
 
@@ -123,11 +120,10 @@ export class BookmarkService {
     //#region------------------------------------------------------- Groups
     private initializeBookmarkGroups(): void {
         this.svcSave.get('bookmarked-groups').forEach((fullStorageKey) => {
-            const path: string[] = fullStorageKey.split('.');
-            path.shift(); // Remove 'Overall' step
+            const path = fullStorageKey.replace(/^overall./, '');
 
             // Add the bookmarked group to this group
-            const group: DataGroup = this.svcData.data.getChildGroupFromPath(path);
+            const group: DataGroup = this.svcData.data.getChildGroup(path);
             if(group) this.group.subGroups.push(group);
         });
     }

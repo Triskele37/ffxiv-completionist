@@ -40,7 +40,7 @@ export class LinksCellComponent implements OnChanges {
 
     getTaskFromPath(pathOrValue: string): any { //Task | string {
         if(pathOrValue?.includes('.')) {
-            return this.svcData.data.getTaskByPath(pathOrValue) || pathOrValue;
+            return this.svcData.data.getChildTask(pathOrValue) || pathOrValue;
         }
         else {
             // parameter is a raw value

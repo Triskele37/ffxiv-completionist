@@ -4,14 +4,14 @@
         "x65643": {
             "level": 1,
             "cNext": [
-                65645,
+                "q.65645",
                 65647
             ]
         },
         "x69379": {
             "level": 1,
             "cPrev": [
-                66644
+                "q.66644"
             ]
         },
         "x65648": {
@@ -71,7 +71,7 @@
         "x65658": {
             "level": 4,
             "cPrev": [
-                65645
+                "q.65645"
             ]
         },
         "x66198": {
@@ -80,10 +80,10 @@
         "x66199": {
             "level": 4,
             "cPrev": [
-                65645
+                "q.65645"
             ],
             "cNext": [
-                66011
+                "q.66011"
             ]
         },
         "x66229": {
@@ -92,20 +92,20 @@
                 66005
             ],
             "cNext": [
-                65757,
-                65979,
-                66224,
-                66230,
-                66228,
-                65550,
-                65552,
-                65553,
-                65980,
-                65551,
-                66232,
-                66231,
-                65554,
-                65595
+                "q.65757",
+                "q.65979",
+                "q.66224",
+                "q.66230",
+                "q.66228",
+                "q.65550",
+                "q.65552",
+                "q.65553",
+                "q.65980",
+                "q.65551",
+                "q.66232",
+                "q.66231",
+                "q.65554",
+                "q.65595"
             ]
         },
         "x66962": {
@@ -115,7 +115,7 @@
             "cPrev": [
                 66088,
                 66081,
-                65985
+                "q.65985"
             ],
             "cSiblings": ["e.101"]
         },
@@ -123,50 +123,50 @@
             "level": 15,
             "cPrevAny": true,
             "cPrev": [
-                66209,
+                "q.66209",
                 "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
                 "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210"
             ],
             "cNext": [
-                67109
+                "q.67109"
             ]
         },
         "x66967": {
             "level": 15,
             "cPrevAny": true,
             "cPrev": [
-                66209,
+                "q.66209",
                 "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
                 "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210"
             ],
             "cNext": [
-                67925,
-                67926,
-                67927
+                "q.67925",
+                "q.67926",
+                "q.67927"
             ]
         },
         "x66969": {
             "level": 17,
             "cExclude": [
-                66968,
-                66970
+                "q.66968",
+                "q.66970"
             ]
         },
         "x66237": {
             "level": 20,
             "unlock": "character.mount-guide.39",
             "cNext": [
-                66698
+                "q.66698"
             ],
             "cExclude": [
-                66236,
-                66238
+                "q.66236",
+                "q.66238"
             ]
         },
         "x66966": {
             "level": 50,
             "cPrev": [
-                66654
+                "q.66654"
             ],
             "cNext": [
                 65782
@@ -183,23 +183,23 @@
         "x67896": {
             "level": 50,
             "cPrev": [
-                66632
+                "q.66632"
             ]
         },
         "x67737": {
             "level": 60,
             "unlock": "duty.dutyraid-finder.dungeons.hw.9",
             "cPrev": [
-                67205,
-                66745
+                "q.67205",
+                "q.66745"
             ]
         },
         "x67784": {
             "level": 60,
             "unlock": "duty.dutyraid-finder.dungeons.hw.13",
             "cPrev": [
-                67205,
-                67062
+                "q.67205",
+                "q.67062"
             ]
         }
     }

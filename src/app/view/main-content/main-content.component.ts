@@ -30,6 +30,7 @@ export class MainContentComponent implements OnInit, OnDestroy {
 
     ngOnInit(): void {
         this.svcNavigation.selectedGroup$.subscribe((selectedGroup) => {
+            this.footerHeight = 0;
             const refExists = !!this.selectedGroup?.component;
             this.selectedGroup = selectedGroup;
             this.showAll = false;

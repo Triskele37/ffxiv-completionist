@@ -12,6 +12,7 @@ import { Task } from './Task';
 
 export class DataGroup {
     static svcElectron: ElectronService;
+    static overall: DataGroup;
     static lang: Lang;
 
     _key: string; // key used for storage
@@ -141,94 +142,58 @@ export class DataGroup {
         return this;
     }
 
-    //#region------------------------------------------------------- Group Handling
     get groupPath(): string[] {
         return this._parent ? [...this._parent.groupPath, this.name] : [this.name];
     }
 
-    getFirstParent(): DataGroup {
-        let group: DataGroup = this;
-        while(group._parent) group = group._parent;
-        return group;
+    //#region------------------------------------------------------- Group Handling
+    getChildGroup(path: string): DataGroup {
+        return this.getChild(path) as DataGroup;
     }
 
-    getChildGroupFromPath(path: string | string[], byName?: boolean): DataGroup {
-        if(typeof path === 'string') path = path.split('.');
-
-        // No more path means we're the group being requested
-        if(path.length === 0) return this;
-
-        // Pop off the first part of the path and dive
-        const subGroup = this.getSubGroup(path.shift(), byName);
-        return subGroup?.getChildGroupFromPath(path, byName);
+    getChildTask(path: string): Task {
+        return this.getChild(path) as Task;
     }
 
-    getChildGroupWithTaskID(taskId: number): DataGroup {
-        const task = this.tasks.find((t) => t.id === taskId);
-        if(task) return this;
-
-        if(this.subGroups) {
-            for(const item of this.subGroups) {
-                const hit = item.getChildGroupWithTaskID(taskId);
-                if(hit) return hit;
-            }
-        }
-
-        return null;
-    }
-
-    getSubGroup(nameOrKey: string, byName?: boolean): DataGroup {
-        if(!this.subGroups) return null;
-        for(const item of this.subGroups) {
-            if(byName && item.name === nameOrKey) return item;
-            else if(!byName && item._key === nameOrKey) return item;
-        }
-        return null;
-    }
-
-    //#endregion
-
-    //#region------------------------------------------------------- Task Handling
-    getIndexOfTask(taskId: number): number {
-        return this.tasks.findIndex((t) => t.id === taskId);
-    }
-
-    /** Recursively searches ALL data starting at this group
-     * Checks this group and all subGroups first then moves to parent
-     * 'hit' prevents searching the same group multiple times
-     * */
-    getTaskById(taskId: number, hit: string[] = []): Task {
-        // Bail if recursion already hit this group
-        if(hit?.includes(this.fullStorageKey)) return null;
-
-        // Check immediate task collection
-        const task = this.tasks.find((t) => t.id === taskId);
-        if(task) return task;
-
-        hit.push(this.fullStorageKey);
-
-        // Recurse through subGroups
-        if(this.subGroups) {
-            for(const group of this.subGroups) {
-                const subTask = group.getTaskById(taskId, hit);
-                if(subTask) return subTask;
-            }
-        }
-
-        // Check through parents
-        return this._parent?.getTaskById(taskId, hit) || null;
-    }
-
-    getTaskByPath(path: string): Task {
+    private getChild(path: string): DataGroup | Task {
         if(typeof path !== 'string') return;
 
         // Separate the path and id
         const segments = path.split('.');
-        const id = parseInt(segments.pop(), 10);
+        const id = segments[segments.length - 1].match(/^[0-9]+$/) ?
+            parseInt(segments.pop(), 10) : null;
 
-        // Attempt to grab a task
-        const group = this.getFirstParent().getChildGroupFromPath(segments);
-        return group?.getTaskById(id);
+        let group: DataGroup = this;
+        for(const segment of segments) {
+            for(const subGroup of group.subGroups) {
+                if(subGroup._key === segment) {
+                    group = subGroup;
+                    break;
+                }
+            }
+        }
+
+        // No id means a group was requested
+        if(id === null) return group;
+
+        return this.getChild_digForTask(group, id);
+    }
+
+    private getChild_digForTask(group: DataGroup, id: number): Task {
+        // See if the requested task is in the passed group
+        for(const task of group.tasks) {
+            if(task.id === id) return task;
+        }
+
+        // Dive into subGroups recursively to find the task
+        if(group.subGroups) {
+            for(const subGroup of group.subGroups) {
+                const task = this.getChild_digForTask(subGroup, id);
+                if(task) return task;
+            }
+        }
+
+        return null;
     }
 
     //#endregion
@@ -335,6 +300,8 @@ export class DataGroup {
         this._isNumericCompletion = value;
         this.tasks.forEach((task) => task.isNumericCompletion = value);
     }
+
+    //#endregion
 
     //#endregion
 

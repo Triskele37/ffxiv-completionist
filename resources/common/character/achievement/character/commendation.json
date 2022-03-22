@@ -3,12 +3,14 @@
     "tasks": {
         "x858": {
             "points": 0,
+            "reward": "character.character.title.144",
             "patch": "2.1",
             "cNext": [859],
-            "cSiblings": ["t.144"]
+            "cSiblings": ["character.character.title.144"]
         },
         "x859": {
             "points": 0,
+            "reward": "character.minion-guide.194",
             "patch": "2.1",
             "cPrev": [858],
             "cNext": [860]
@@ -21,12 +23,14 @@
         },
         "x861": {
             "points": 0,
+            "reward": "character.companion.barding.20",
             "patch": "2.1",
             "cPrev": [860],
             "cNext": [862]
         },
         "x862": {
             "points": 0,
+            "reward": "character.mount-guide.74",
             "patch": "2.1",
             "cPrev": [861],
             "cNext": [1035]
@@ -39,6 +43,7 @@
         },
         "x1036": {
             "points": 0,
+            "reward": "character.mount-guide.134",
             "patch": "2.4",
             "cPrev": [1035]
         }

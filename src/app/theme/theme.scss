@@ -11,5 +11,9 @@ body {
 
     .p-tooltip {
         max-width: unset;
+
+        .p-tooltip-text {
+            border: 1px solid var(--surface-d);
+        }
     }
 }

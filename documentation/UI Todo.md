@@ -13,3 +13,4 @@
 **Change**
 
 **Fix**
+- quick-mark extremely slow on large groups (or heavily chained?)

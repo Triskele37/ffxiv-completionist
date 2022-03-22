@@ -56,6 +56,7 @@
         },
         "x968": {
             "points": 10,
+            "reward": "character.character.title.161",
             "patch": "2.3",
             "cPrev": [
                 964,
@@ -64,7 +65,7 @@
                 967
             ],
             "cSiblings": [
-                "t.161"
+                "character.character.title.161"
             ]
         },
         "x969": {
@@ -122,6 +123,7 @@
         },
         "x973": {
             "points": 10,
+            "reward": "character.character.title.162",
             "patch": "2.3",
             "cPrev": [
                 969,
@@ -130,7 +132,7 @@
                 972
             ],
             "cSiblings": [
-                "t.162"
+                "character.character.title.162"
             ]
         },
         "x974": {
@@ -188,6 +190,7 @@
         },
         "x978": {
             "points": 10,
+            "reward": "character.character.title.163",
             "patch": "2.3",
             "cPrev": [
                 974,
@@ -196,7 +199,7 @@
                 977
             ],
             "cSiblings": [
-                "t.163"
+                "character.character.title.163"
             ]
         },
         "x1259": {
@@ -350,6 +353,7 @@
         },
         "x981": {
             "points": 5,
+            "reward": "character.character.title.164",
             "patch": "2.3",
             "cPrev": [
                 980
@@ -358,7 +362,7 @@
                 982
             ],
             "cSiblings": [
-                "t.164"
+                "character.character.title.164"
             ]
         },
         "x982": {
@@ -387,6 +391,7 @@
         },
         "x985": {
             "points": 5,
+            "reward": "character.character.title.165",
             "patch": "2.3",
             "cPrev": [
                 984
@@ -395,7 +400,7 @@
                 986
             ],
             "cSiblings": [
-                "t.165"
+                "character.character.title.165"
             ]
         },
         "x986": {
@@ -420,6 +425,7 @@
         },
         "x1917": {
             "points": 10,
+            "reward": "character.character.title.379",
             "patch": "4.0",
             "cPrev": [
                 1916
@@ -431,17 +437,18 @@
                 1922
             ],
             "cSiblings": [
-                "t.379"
+                "character.character.title.379"
             ]
         },
         "x1918": {
             "points": 10,
+            "reward": "character.character.title.380",
             "patch": "4.0",
             "cPrev": [
                 1917
             ],
             "cSiblings": [
-                "t.380"
+                "character.character.title.380"
             ]
         },
         "x2350": {
@@ -463,6 +470,7 @@
         },
         "x2352": {
             "points": 10,
+            "reward": "character.character.title.460",
             "patch": "5.0",
             "cPrev": [
                 2351
@@ -471,7 +479,7 @@
                 2356
             ],
             "cSiblings": [
-                "t.460"
+                "character.character.title.460"
             ]
         },
         "x987": {
@@ -493,6 +501,7 @@
         },
         "x989": {
             "points": 5,
+            "reward": "character.character.title.166",
             "patch": "2.3",
             "cPrev": [
                 988
@@ -501,7 +510,7 @@
                 990
             ],
             "cSiblings": [
-                "t.166"
+                "character.character.title.166"
             ]
         },
         "x990": {
@@ -526,6 +535,7 @@
         },
         "x1920": {
             "points": 10,
+            "reward": "character.character.title.381",
             "patch": "4.0",
             "cPrev": [
                 1919
@@ -537,21 +547,23 @@
                 1922
             ],
             "cSiblings": [
-                "t.381"
+                "character.character.title.381"
             ]
         },
         "x1921": {
             "points": 10,
+            "reward": "character.character.title.382",
             "patch": "4.0",
             "cPrev": [
                 1920
             ],
             "cSiblings": [
-                "t.382"
+                "character.character.title.382"
             ]
         },
         "x1922": {
             "points": 10,
+            "reward": "character.mount-guide.30",
             "patch": "4.0",
             "cPrev": [
                 1917,
@@ -577,6 +589,7 @@
         },
         "x2355": {
             "points": 10,
+            "reward": "character.character.title.461",
             "patch": "5.0",
             "cPrev": [
                 2354
@@ -585,11 +598,12 @@
                 2356
             ],
             "cSiblings": [
-                "t.461"
+                "character.character.title.461"
             ]
         },
         "x2356": {
             "points": 10,
+            "reward": "character.mount-guide.168",
             "patch": "5.0",
             "cPrev": [
                 2352,
@@ -606,7 +620,11 @@
         },
         "x2996": {
             "points": 10,
-            "patch": "6.0"
+            "reward": "character.character.title.617",
+            "patch": "6.0",
+            "cSiblings": [
+                "character.character.title.617"
+            ]
         },
         "x2997": {
             "points": 10,
@@ -618,10 +636,15 @@
         },
         "x2999": {
             "points": 10,
-            "patch": "6.0"
+            "reward": "character.character.title.618",
+            "patch": "6.0",
+            "cSiblings": [
+                "character.character.title.618"
+            ]
         },
         "x3000": {
             "points": 10,
+            "reward": "character.mount-guide.211",
             "patch": "6.0"
         }
     }

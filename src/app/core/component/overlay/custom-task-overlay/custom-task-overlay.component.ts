@@ -41,7 +41,7 @@ export class CustomTaskOverlayComponent {
         private svcSaveStore: SaveStoreService,
         //TODO: utilize svcCustomTask
     ) {
-        this.customData = this.svcData.data.getSubGroup('custom');
+        this.customData = this.svcData.data.getChildGroup('custom');
     }
 
     //#region------------------------------------------------------- Common

@@ -16,7 +16,7 @@ export class Chainer {
 
     //#region------------------------------------------------------- Getters
     get overall(): DataGroup {
-        if(!this._overall) this._overall = this.task._parent.getFirstParent();
+        if(!this._overall) this._overall = DataGroup.overall;
         return this._overall;
     }
 
@@ -234,8 +234,8 @@ export class Chainer {
 
         // Not using shorthand path
         if(!expandedPath) {
-            const stringLinkedPath = linkedPath.map((l) => l.toString());
-            return this.overall.getChildGroupFromPath(stringLinkedPath);
+            const stringLinkedPath = linkedPath.map((l) => l.toString()).join('.');
+            return this.overall.getChildGroup(stringLinkedPath);
         }
 
         // Add remaining path segments back to expandedPath
@@ -246,11 +246,10 @@ export class Chainer {
         //   single task links can be an incomplete path
         const isRangeLink = linkedId === 'all' || linkedId.includes('-');
 
-        const group = this.overall.getChildGroupFromPath(expandedPath);
+        const group = this.overall.getChildGroup(expandedPath);
         if(isRangeLink) return group;
 
-        const id = parseInt(linkedId, 10);
-        return group.getChildGroupWithTaskID(id);
+        return group.getChildGroup(linkedId)?._parent;
     }
 
     private getTaskFromLink(link: Link): Task {
@@ -258,7 +257,7 @@ export class Chainer {
 
         // Raw ID link
         if(typeof link === 'number') {
-            chainTask = this.task._parent.getTaskById(link);
+            chainTask = this.task._parent.getChildTask(link.toString());
         }
         // String path link
         else {
@@ -266,8 +265,7 @@ export class Chainer {
             const linkedID = linkedPath.pop();
             const linkedGroup: DataGroup = this.mapGroupLink(linkedPath, linkedID);
 
-            const id = parseInt(linkedID, 10);
-            chainTask = linkedGroup?.getTaskById(id);
+            chainTask = linkedGroup?.getChildTask(linkedID);
         }
 
         if(!chainTask) {
