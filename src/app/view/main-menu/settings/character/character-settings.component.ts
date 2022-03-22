@@ -4,7 +4,9 @@ import { TranslateService } from '@ngx-translate/core';
 import { Completion } from '@constant';
 import { DataService } from '@data';
 import { Task } from '@domain/Task';
+import { ChainService } from '@service/chain/chain.service';
 import { ElectronService } from '@service/electron/electron.service';
+
 import { Settings } from '../settings.d';
 import { SettingsComponent } from '../settings.component';
 
@@ -25,6 +27,7 @@ export class CharacterSettingsComponent implements OnInit {
         private translate: TranslateService,
         public parent: SettingsComponent,
         private svcData: DataService,
+        private svcChain: ChainService,
         private svcElectron: ElectronService
     ) {
     }
@@ -45,7 +48,6 @@ export class CharacterSettingsComponent implements OnInit {
             { short: 'Lancer', long: this.translate.instant(`${CLASSES}.LNC`) },
             { short: 'Marauder', long: this.translate.instant(`${CLASSES}.MRD`) },
             { short: 'Pugilist', long: this.translate.instant(`${CLASSES}.PUG`) },
-            { short: 'Rogue', long: this.translate.instant(`${CLASSES}.ROG`) },
             { short: 'Thaumaturge', long: this.translate.instant(`${CLASSES}.THM`) },
         ];
     }
@@ -99,7 +101,7 @@ export class CharacterSettingsComponent implements OnInit {
                 pre = this.getTask(`${side}.gridanian.gridania`, 65575);
                 this.setAsStartingZone(gridania, pre);
                 break;
-            case 'Marauder': case 'Arcanist': case 'Rogue':
+            case 'Marauder': case 'Arcanist':
                 pre = this.getTask(`${side}.lominsan.limsa-lominsa`, 65643);
                 this.setAsStartingZone(limsa, pre);
                 break;
@@ -108,6 +110,9 @@ export class CharacterSettingsComponent implements OnInit {
                 this.setAsStartingZone(uldah, pre);
                 break;
         }
+
+        // Must be done after exclusive sets
+        this.excludeStartingClassQuest(this.settings.startingClass.value);
 
         this.svcData.applyDataToStore();
     }
@@ -119,6 +124,45 @@ export class CharacterSettingsComponent implements OnInit {
 
         // Undo the cPrev chain
         pre.setCompletion(Completion.N);
+    }
+
+    excludeStartingClassQuest(startingClass: string): void {
+        const dow = 'duty.quests.class--job.disciple-of-war';
+        const dom = 'duty.quests.class--job.disciple-of-magic';
+
+        [
+            { name: 'Archer', path: `${dow}.archer`, id: 65755 },
+            { name: 'Lancer', path: `${dow}.lancer`, id: 65754 },
+            { name: 'Conjurer', path: `${dom}.conjurer`, id: 65747 },
+            { name: 'Marauder', path: `${dow}.marauder`, id: 65848 },
+            { name: 'Arcanist', path: `${dom}.arcanist`, id: 65990 },
+            { name: 'Gladiator', path: `${dow}.gladiator`, id: 65822 },
+            { name: 'Pugilist', path: `${dow}.pugilist`, id: 66089 },
+            { name: 'Thaumaturge', path: `${dom}.thaumaturge`, id: 65882 },
+        ].forEach(({ name, path, id }) => {
+            const task = this.getTask(path, id);
+
+            if(startingClass === name) {
+                if(task.completionFlag !== Completion.X) {
+                    this.svcChain.pushChained({
+                        task,
+                        fromFlag: task.completionFlag,
+                        toFlag: Completion.X
+                    });
+
+                    task.setCompletion(Completion.X);
+                }
+            }
+            else if(task.completionFlag === Completion.X) {
+                this.svcChain.pushChained({
+                    task,
+                    fromFlag: task.completionFlag,
+                    toFlag: Completion.N
+                });
+
+                task.setCompletion(Completion.N);
+            }
+        });
     }
 
     clearStartingZone(gridania: Task, limsa: Task, uldah: Task): void {

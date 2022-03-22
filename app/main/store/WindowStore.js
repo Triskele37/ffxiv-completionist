@@ -56,7 +56,7 @@ var WindowStore = /** @class */ (function () {
             height: 200,
             transparent: true,
             frame: false,
-            alwaysOnTop: true,
+            // alwaysOnTop: true,
             center: true
         });
         // WindowStore.splash.webContents.openDevTools();

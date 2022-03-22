@@ -16,28 +16,27 @@
 **Change**
 
 **Fix**
-- the "My First Gladius/Hora/etc." quests for each of the starting classes should be
-  excluded for that class, as they're only available for classes other than the starting ones
-    - Rogue's level 1 quests names are a bit different so I'm not sure if it applies to them but I assume it does
-- Missing fr sections
-  - Various group names
-  - Lucis Tools
-  - Resplendent Tools
-  - Trust
-  - Orchestrion
-  - Travel
-- Missing Unlock
-  - 66999 - Marvelously Mutable Materia
-  - All job stones chained from quests unlocked by Sylph-management
-  - All beast tribe quests chained from quests unlocked by In Puruit of the Past
 
 ------------------------------------------------------------------ Prioritize
 **Add**
-- Toolset to allow translation of single words/phrases and shove those in resources
 
 **Change**
+- Sort Porters & Aetherytes into groups
+- save starting class in player save
 
 **Fix**
+- Missing fr sections
+    - Various group names
+    - Lucis Tools
+    - Resplendent Tools
+    - Trust
+    - Orchestrion
+    - Travel
+- Missing Unlock
+    - 66999 - Marvelously Mutable Materia
+    - All job stones chained from quests unlocked by Sylph-management
+    - All beast tribe quests chained from quests unlocked by In Puruit of the Past
+- "Close to Home"s are based on starting class, so 8 different ones
 - Triad opponents need re-verification of patch (arrtripletriad.com/en/npcs)
 - Scholar/Summoner levels don't tie together properly
 - Leve Issue/Start zones?
@@ -55,4 +54,5 @@
 **Change**
 
 **Fix**
+- "Just Deserts" unlocks "Guild Leves"
 - The 3 "Call of the Sea" ARR MSQs could be chained if starting class is set
