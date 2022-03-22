@@ -28,7 +28,7 @@ export class Store<StoreType> {
 
         let obj = this.data;
         for(const segment of segments) {
-            if(!obj[segment]) return null;
+            if(obj[segment] === undefined) return null;
             else obj = obj[segment];
         }
 

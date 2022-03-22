@@ -26,7 +26,7 @@
 .p-paginator .p-paginator-prev:not(.p-disabled):not(.p-highlight):hover,
 .p-paginator .p-paginator-next:not(.p-disabled):not(.p-highlight):hover,
 .p-paginator .p-paginator-last:not(.p-disabled):not(.p-highlight):hover {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
     border-color: transparent;
     color: var(--text-color-secondary);
 }
@@ -88,7 +88,7 @@
 }
 
 .p-paginator .p-paginator-pages .p-paginator-page:not(.p-highlight):hover {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
     border-color: transparent;
     color: var(--text-color-secondary);
 }
@@ -98,7 +98,7 @@
 }
 
 .p-paginator .p-paginator-element:focus {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(var(--text-color-rgb), 0.12);
 }
 
 .p-paginator .p-paginator-element:focus.p-highlight {

@@ -23,6 +23,24 @@
 </div>
 
 <div class="setting">
+    <label>{{'MAIN.SETTING.THEME.BACKGROUND' | translate}}:</label>
+    <p-colorPicker
+        format="hsb"
+        [(ngModel)]="background"
+        (onChange)="setBackground()"
+    ></p-colorPicker>
+</div>
+
+<div class="setting">
+    <label>{{'MAIN.SETTING.THEME.TEXT_COLOR' | translate}}:</label>
+    <p-colorPicker
+        format="rgb"
+        [(ngModel)]="textColor"
+        (onChange)="setTextColor()"
+    ></p-colorPicker>
+</div>
+
+<div class="setting">
     <label>{{'MAIN.SETTING.THEME.FONT' | translate}}:</label>
     <input
         pInputText

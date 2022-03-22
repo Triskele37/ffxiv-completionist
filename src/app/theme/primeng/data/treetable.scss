@@ -12,7 +12,7 @@
 .p-treetable .p-treetable-header {
     background: var(--surface-a);
     color: var(--text-color);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
     border-width: 0 0 1px 0;
     padding: var(--content-padding) var(--content-padding);
     font-weight: 500;
@@ -68,26 +68,26 @@
 }
 
 .p-treetable .p-sortable-column:not(.p-highlight):hover {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
     color: var(--text-color);
 }
 
 .p-treetable .p-sortable-column:not(.p-highlight):hover .p-sortable-column-icon {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(var(--text-color-rgb), 0.6);
 }
 
 .p-treetable .p-sortable-column.p-highlight {
     background: var(--surface-a);
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-treetable .p-sortable-column.p-highlight .p-sortable-column-icon {
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-treetable .p-treetable-tbody > tr {
     background: var(--surface-a);
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
     transition: none;
     outline-color: transparent;
 }
@@ -102,7 +102,7 @@
 .p-treetable .p-treetable-tbody > tr td .p-treetable-toggler {
     width: 2.5rem;
     height: 2.5rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(var(--text-color-rgb), 0.6);
     border: 0 none;
     background: transparent;
     border-radius: 50%;
@@ -111,9 +111,9 @@
 }
 
 .p-treetable .p-treetable-tbody > tr td .p-treetable-toggler:enabled:hover {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(var(--text-color-rgb), 0.6);
     border-color: transparent;
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
 }
 
 .p-treetable .p-treetable-tbody > tr td .p-treetable-toggler:focus {
@@ -127,7 +127,7 @@
 }
 
 .p-treetable .p-treetable-tbody > tr td p-treetablecheckbox .p-checkbox .p-indeterminate .p-checkbox-icon {
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-treetable .p-treetable-tbody > tr.p-highlight {
@@ -144,12 +144,12 @@
 }
 
 .p-treetable.p-treetable-hoverable-rows .p-treetable-tbody > tr:not(.p-highlight):hover {
-    background: rgba(255, 255, 255, 0.04);
-    color: rgba(255, 255, 255, 0.87);
+    background: rgba(var(--text-color-rgb), 0.04);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-treetable.p-treetable-hoverable-rows .p-treetable-tbody > tr:not(.p-highlight):hover .p-treetable-toggler {
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-treetable .p-column-resizer-helper {
@@ -238,7 +238,7 @@
 }
 
 .p-treetable .p-sortable-column:focus {
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(var(--text-color-rgb), 0.03);
 }
 
 .p-treetable .p-treetable-tbody > tr {
@@ -246,5 +246,5 @@
 }
 
 .p-treetable .p-treetable-tbody > tr:not(.p-highlight):focus {
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(var(--text-color-rgb), 0.03);
 }

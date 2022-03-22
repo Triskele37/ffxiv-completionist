@@ -1,5 +1,5 @@
 
 .p-scrollpanel .p-scrollpanel-bar {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(var(--text-color-rgb), 0.12);
     border: 0 none;
 }

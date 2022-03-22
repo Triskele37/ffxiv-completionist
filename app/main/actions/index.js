@@ -3,22 +3,23 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.initActions = void 0;
 var electron_1 = require("electron");
 var fs = require("fs");
-var config_1 = require("../store/config");
-var player_1 = require("../store/player");
-var saveLocation_1 = require("./saveLocation");
+var ConfigStore_1 = require("../store/ConfigStore");
+var PlayerStore_1 = require("../store/PlayerStore");
+var WindowStore_1 = require("../store/WindowStore");
 function initActions() {
-    electron_1.ipcMain.on('get-config', config_1.configStore.get);
-    electron_1.ipcMain.on('set-config', config_1.configStore.set);
-    electron_1.ipcMain.on('open-config', config_1.configStore.open);
-    electron_1.ipcMain.on('backup-config', config_1.configStore.backup);
-    electron_1.ipcMain.on('load-backup-config', config_1.configStore.loadBackup);
-    electron_1.ipcMain.on('get-save', player_1.playerStore.get);
-    electron_1.ipcMain.on('set-save', player_1.playerStore.set);
-    electron_1.ipcMain.on('open-save', player_1.playerStore.open);
-    electron_1.ipcMain.on('backup-save', player_1.playerStore.backup);
-    electron_1.ipcMain.on('load-backup-save', player_1.playerStore.loadBackup);
-    electron_1.ipcMain.on('new-save', saveLocation_1.newSave);
-    electron_1.ipcMain.on('load-save', saveLocation_1.loadSave);
+    electron_1.ipcMain.on('app-ready', WindowStore_1.WindowStore.showMainWindow);
+    electron_1.ipcMain.on('get-config', ConfigStore_1.ConfigStore.get);
+    electron_1.ipcMain.on('set-config', ConfigStore_1.ConfigStore.set);
+    electron_1.ipcMain.on('new-save', ConfigStore_1.ConfigStore.newSave);
+    electron_1.ipcMain.on('load-save', ConfigStore_1.ConfigStore.loadSave);
+    electron_1.ipcMain.on('open-config', ConfigStore_1.ConfigStore.open);
+    electron_1.ipcMain.on('backup-config', ConfigStore_1.ConfigStore.backup);
+    electron_1.ipcMain.on('load-backup-config', ConfigStore_1.ConfigStore.loadBackup);
+    electron_1.ipcMain.on('get-save', PlayerStore_1.PlayerStore.get);
+    electron_1.ipcMain.on('set-save', PlayerStore_1.PlayerStore.set);
+    electron_1.ipcMain.on('open-save', PlayerStore_1.PlayerStore.open);
+    electron_1.ipcMain.on('backup-save', PlayerStore_1.PlayerStore.backup);
+    electron_1.ipcMain.on('load-backup-save', PlayerStore_1.PlayerStore.loadBackup);
     electron_1.ipcMain.on('load-json', function (event, path) {
         try {
             event.returnValue = JSON.parse(fs.readFileSync(path, 'utf8'));

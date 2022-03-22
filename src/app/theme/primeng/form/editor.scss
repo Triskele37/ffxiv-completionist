@@ -6,7 +6,7 @@
 }
 
 .p-editor-container .p-editor-toolbar.ql-snow {
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
 }
 
 .p-editor-container .p-editor-toolbar.ql-snow .ql-stroke {
@@ -60,7 +60,7 @@
 
 .p-editor-container .p-editor-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options .ql-picker-item:hover {
     color: var(--text-color);
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
 }
 
 .p-editor-container .p-editor-toolbar.ql-snow .ql-picker.ql-expanded:not(.ql-icon-picker) .ql-picker-item {
@@ -73,7 +73,7 @@
 }
 
 .p-editor-container .p-editor-content.ql-snow {
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
 }
 
 .p-editor-container .p-editor-content .ql-editor {

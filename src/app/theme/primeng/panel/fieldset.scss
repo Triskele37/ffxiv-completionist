@@ -1,15 +1,15 @@
 
 .p-fieldset {
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
     background: var(--surface-a);
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
     border-radius: 4px;
 }
 
 .p-fieldset .p-fieldset-legend {
     padding: var(--content-padding);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    color: rgba(255, 255, 255, 0.87);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
+    color: rgba(var(--text-color-rgb), 0.87);
     background: var(--surface-a);
     font-weight: 500;
     border-radius: 4px;
@@ -22,7 +22,7 @@
 
 .p-fieldset.p-fieldset-toggleable .p-fieldset-legend a {
     padding: var(--content-padding);
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
     border-radius: 4px;
     transition: none;
 }
@@ -38,9 +38,9 @@
 }
 
 .p-fieldset.p-fieldset-toggleable .p-fieldset-legend:hover {
-    background: rgba(255, 255, 255, 0.04);
-    border-color: rgba(255, 255, 255, 0.12);
-    color: rgba(255, 255, 255, 0.87);
+    background: rgba(var(--text-color-rgb), 0.04);
+    border-color: rgba(var(--text-color-rgb), 0.12);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-fieldset .p-fieldset-content {
@@ -52,5 +52,5 @@
 }
 
 .p-fieldset.p-fieldset-toggleable .p-fieldset-legend a:focus {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(var(--text-color-rgb), 0.12);
 }

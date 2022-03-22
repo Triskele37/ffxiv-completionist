@@ -1,9 +1,9 @@
 
 .p-panel .p-panel-header {
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
     padding: var(--content-padding);
     background: var(--surface-a);
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
 }
@@ -15,7 +15,7 @@
 .p-panel .p-panel-header .p-panel-header-icon {
     width: 2.5rem;
     height: 2.5rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(var(--text-color-rgb), 0.6);
     border: 0 none;
     background: transparent;
     border-radius: 50%;
@@ -23,9 +23,9 @@
 }
 
 .p-panel .p-panel-header .p-panel-header-icon:enabled:hover {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(var(--text-color-rgb), 0.6);
     border-color: transparent;
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
 }
 
 .p-panel .p-panel-header .p-panel-header-icon:focus {
@@ -40,9 +40,9 @@
 
 .p-panel .p-panel-content {
     padding: var(--content-padding);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
     background: var(--surface-a);
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
     border-top: 0 none;
@@ -50,9 +50,9 @@
 
 .p-panel .p-panel-footer {
     padding: var(--content-padding) var(--content-padding);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
     background: var(--surface-a);
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
     border-top: 0 none;
 }
 
@@ -76,5 +76,5 @@
 }
 
 .p-panel .p-panel-header-icon:focus {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(var(--text-color-rgb), 0.12);
 }

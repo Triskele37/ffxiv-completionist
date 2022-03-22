@@ -2,7 +2,7 @@
 .p-accordion .p-accordion-header .p-accordion-header-link {
     padding: 1.5rem;
     border: 0 none;
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
     background: var(--surface-a);
     font-weight: 400;
     border-radius: 4px;
@@ -20,30 +20,30 @@
 }
 
 .p-accordion .p-accordion-header:not(.p-highlight):not(.p-disabled):hover .p-accordion-header-link {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
     border-color: transparent;
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-accordion .p-accordion-header:not(.p-disabled).p-highlight .p-accordion-header-link {
     background: var(--surface-a);
     border-color: transparent;
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
 
 .p-accordion .p-accordion-header:not(.p-disabled).p-highlight:hover .p-accordion-header-link {
     border-color: transparent;
-    background: rgba(255, 255, 255, 0.04);
-    color: rgba(255, 255, 255, 0.87);
+    background: rgba(var(--text-color-rgb), 0.04);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-accordion .p-accordion-content {
     padding: var(--content-padding) 1.5rem;
     border: 0 none;
     background: var(--surface-a);
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
     border-top: 0;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
@@ -111,7 +111,7 @@
 }
 
 .p-accordion .p-accordion-tab:not(.p-accordion-tab-active) .p-accordion-header-link:focus {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
 }
 
 .p-accordion .p-accordion-tab:not(.p-accordion-tab-active) .p-accordion-toggle-icon {

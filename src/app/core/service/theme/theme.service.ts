@@ -2,6 +2,18 @@ import { Injectable } from '@angular/core';
 
 import { ConfigStoreService } from '@service/store/config-store.service';
 
+export type HSL = {
+    h: number;
+    s: number;
+    b: number; // primeNg is weird
+};
+
+export type RGB = {
+    r: number;
+    g: number;
+    b: number;
+};
+
 @Injectable({
     providedIn: 'root'
 })
@@ -13,6 +25,17 @@ export class ThemeService {
 
         this.setPrimaryColor(this.svcConfig.get('theme.primary-color'));
         this.setPrimaryText(this.svcConfig.get('theme.primary-text'));
+        this.setBackground({
+            h: this.svcConfig.get('theme.bg-h'),
+            s: this.svcConfig.get('theme.bg-s'),
+            b: this.svcConfig.get('theme.bg-l')
+        });
+        const textColorRgb = this.svcConfig.get('theme.text-color').split(', ');
+        this.setTextColor({
+            r: parseInt(textColorRgb[0], 10),
+            g: parseInt(textColorRgb[1], 10),
+            b: parseInt(textColorRgb[2], 10)
+        });
         this.setFontFamily(this.svcConfig.get('theme.font-family'));
     }
 
@@ -66,6 +89,28 @@ export class ThemeService {
 
     //#endregion
 
+    //#region------------------------------------------------------- Background
+    setBackground(background: HSL): void {
+        this.setStyle('--bg-h', background.h.toString());
+        this.setStyle('--bg-s', background.s + '%');
+        this.setStyle('--bg-l', background.b + '%');
+
+        this.svcConfig.set('theme.bg-h', background.h);
+        this.svcConfig.set('theme.bg-s', background.s);
+        this.svcConfig.set('theme.bg-l', background.b);
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Text Color
+    setTextColor(rgb: RGB) {
+        const rgbString = `${rgb.r}, ${rgb.g}, ${rgb.b}`;
+        this.setStyle('--text-color-rgb', rgbString);
+        this.svcConfig.set('theme.text-color', rgbString);
+    }
+
+    //#endregion
+
     //#region------------------------------------------------------- Font
     setFontFamily(fontFamily: string): void {
         const includesFallback = ['serif', 'sans-serif', 'monospace']
@@ -79,4 +124,5 @@ export class ThemeService {
     }
 
     //#endregion
+
 }

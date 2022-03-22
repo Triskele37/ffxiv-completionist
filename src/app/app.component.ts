@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 import { DataService } from '@data';
@@ -14,13 +14,13 @@ import { ThemeService } from '@service/theme/theme.service';
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit, AfterViewInit {
     loading = true;
     modalText = 'Loading...';
 
     constructor(
-        private electronService: ElectronService,
         private translate: TranslateService,
+        private svcElectron: ElectronService,
         private svcData: DataService,
         private svcBookmark: BookmarkService,
         private svcCustomTask: CustomTaskService,
@@ -31,8 +31,8 @@ export class AppComponent implements OnInit {
 
         // if(electronService.isElectron) {
         //     console.log('Run in electron');
-        //     console.log('Electron ipcRenderer', this.electronService.ipcRenderer);
-        //     console.log('NodeJS childProcess', this.electronService.childProcess);
+        //     console.log('Electron ipcRenderer', this.svcElectron.ipcRenderer);
+        //     console.log('NodeJS childProcess', this.svcElectron.childProcess);
         // }
         // else {
         //     console.log('Run in browser');
@@ -56,6 +56,10 @@ export class AppComponent implements OnInit {
         this.translate.get('MAIN.TITLE').subscribe((title) => {
             document.title = title;
         });
+    }
+
+    ngAfterViewInit() {
+        this.svcElectron.ipcRenderer.sendSync('app-ready');
     }
 
 }

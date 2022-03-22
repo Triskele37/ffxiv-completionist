@@ -12,7 +12,7 @@
     .p-datatable-header {
         background: var(--surface-a);
         color: var(--text-color);
-        border: 1px solid rgba(255, 255, 255, 0.12);
+        border: 1px solid rgba(var(--text-color-rgb), 0.12);
         border-width: 0 0 1px 0;
         padding: var(--content-padding) var(--content-padding);
         font-weight: 500;
@@ -71,7 +71,7 @@
         }
 
         &:not(.p-highlight):hover {
-            background: rgba(255, 255, 255, 0.04);
+            background: rgba(var(--text-color-rgb), 0.04);
             color: var(--text-color);
 
             .p-sortable-column-icon {
@@ -81,24 +81,24 @@
 
         &.p-highlight {
             background: var(--surface-a);
-            color: rgba(255, 255, 255, 0.87);
+            color: rgba(var(--text-color-rgb), 0.87);
 
             .p-sortable-column-icon {
-                color: rgba(255, 255, 255, 0.87);
+                color: rgba(var(--text-color-rgb), 0.87);
             }
 
             &:hover {
-                background: rgba(255, 255, 255, 0.04);
-                color: rgba(255, 255, 255, 0.87);
+                background: rgba(var(--text-color-rgb), 0.04);
+                color: rgba(var(--text-color-rgb), 0.87);
 
                 .p-sortable-column-icon {
-                    color: rgba(255, 255, 255, 0.87);
+                    color: rgba(var(--text-color-rgb), 0.87);
                 }
             }
         }
 
         &:focus {
-            background-color: rgba(255, 255, 255, 0.03);
+            background-color: rgba(var(--text-color-rgb), 0.03);
             box-shadow: none;
             outline: 0 none;
         }
@@ -107,7 +107,7 @@
     .p-datatable-tbody {
         tr {
             background: var(--surface-a);
-            color: rgba(255, 255, 255, 0.87);
+            color: rgba(var(--text-color-rgb), 0.87);
             transition: none;
             outline: 0 none;
 
@@ -117,7 +117,7 @@
             }
 
             &:not(.p-highlight):focus {
-                background-color: rgba(255, 255, 255, 0.03);
+                background-color: rgba(var(--text-color-rgb), 0.03);
             }
 
             &.p-datatable-dragpoint-top td {
@@ -141,7 +141,7 @@
                 .p-row-editor-cancel {
                     width: 2.5rem;
                     height: 2.5rem;
-                    color: rgba(255, 255, 255, 0.6);
+                    color: rgba(var(--text-color-rgb), 0.6);
                     border: 0 none;
                     background: transparent;
                     border-radius: 50%;
@@ -152,9 +152,9 @@
                 .p-row-editor-init:enabled:hover,
                 .p-row-editor-save:enabled:hover,
                 .p-row-editor-cancel:enabled:hover {
-                    color: rgba(255, 255, 255, 0.6);
+                    color: rgba(var(--text-color-rgb), 0.6);
                     border-color: transparent;
-                    background: rgba(255, 255, 255, 0.04);
+                    background: rgba(var(--text-color-rgb), 0.04);
                 }
 
                 .p-row-toggler:focus,
@@ -174,8 +174,8 @@
     }
 
     &.p-datatable-hoverable-rows .p-datatable-tbody tr:not(.p-highlight):hover {
-        background: rgba(255, 255, 255, 0.04);
-        color: rgba(255, 255, 255, 0.87);
+        background: rgba(var(--text-color-rgb), 0.04);
+        color: rgba(var(--text-color-rgb), 0.87);
     }
 
     .p-column-resizer-helper {

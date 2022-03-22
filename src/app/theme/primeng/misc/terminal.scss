@@ -1,8 +1,8 @@
 
 .p-terminal {
     background: var(--surface-a);
-    color: rgba(255, 255, 255, 0.87);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: rgba(var(--text-color-rgb), 0.87);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
     padding: var(--content-padding);
 }
 

@@ -3,7 +3,7 @@
     padding: 0.5rem;
     background: var(--surface-a);
     color: var(--text-color);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(var(--text-color-rgb), 0.3);
     border-radius: 4px;
 }
 
@@ -23,7 +23,7 @@
     background: var(--surface-a);
     font-weight: 500;
     margin: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    border-bottom: 1px solid rgba(var(--text-color-rgb), 0.12);
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
 }
@@ -43,7 +43,7 @@
 .p-datepicker .p-datepicker-header .p-datepicker-next:enabled:hover {
     color: var(--text-color-secondary);
     border-color: transparent;
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
 }
 
 .p-datepicker .p-datepicker-header .p-datepicker-prev:focus,
@@ -112,7 +112,7 @@
 .p-datepicker table td.p-datepicker-today > span {
     background: transparent;
     color: var(--text-color);
-    border-color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(var(--text-color-rgb), 0.5);
 }
 
 .p-datepicker table td.p-datepicker-today > span.p-highlight {
@@ -122,7 +122,7 @@
 
 .p-datepicker .p-datepicker-buttonbar {
     padding: var(--content-padding) 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    border-top: 1px solid rgba(var(--text-color-rgb), 0.12);
 }
 
 .p-datepicker .p-datepicker-buttonbar .p-button {
@@ -130,7 +130,7 @@
 }
 
 .p-datepicker .p-timepicker {
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    border-top: 1px solid rgba(var(--text-color-rgb), 0.12);
     padding: 0.5rem;
 }
 
@@ -147,7 +147,7 @@
 .p-datepicker .p-timepicker button:enabled:hover {
     color: var(--text-color-secondary);
     border-color: transparent;
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
 }
 
 .p-datepicker .p-timepicker button:focus {
@@ -188,7 +188,7 @@
 }
 
 .p-datepicker.p-datepicker-multiple-month .p-datepicker-group {
-    border-right: 1px solid rgba(255, 255, 255, 0.12);
+    border-right: 1px solid rgba(var(--text-color-rgb), 0.12);
     padding-right: 0.5rem;
     padding-left: 0.5rem;
     padding-top: 0;
@@ -205,7 +205,7 @@
 }
 
 .p-datepicker:not(.p-disabled) table td span:not(.p-highlight):not(.p-disabled):hover {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
 }
 
 .p-datepicker:not(.p-disabled) table td span:not(.p-highlight):not(.p-disabled):focus {
@@ -215,7 +215,7 @@
 }
 
 .p-datepicker:not(.p-disabled) .p-monthpicker .p-monthpicker-month:not(.p-highlight):not(.p-disabled):hover {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
 }
 
 .p-datepicker:not(.p-disabled) .p-monthpicker .p-monthpicker-month:not(.p-highlight):not(.p-disabled):focus {
@@ -248,14 +248,14 @@
 }
 
 .p-datepicker table th {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-    color: rgba(255, 255, 255, 0.38);
+    border-bottom: 1px solid rgba(var(--text-color-rgb), 0.12);
+    color: rgba(var(--text-color-rgb), 0.38);
     font-weight: 400;
     font-size: 0.875rem;
 }
 
 .p-datepicker table td.p-datepicker-today > span {
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.38);
+    box-shadow: 0 0 0 1px rgba(var(--text-color-rgb), 0.38);
 }
 
 .p-datepicker table td.p-datepicker-today.p-highlight {

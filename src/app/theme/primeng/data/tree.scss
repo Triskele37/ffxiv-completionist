@@ -1,6 +1,6 @@
 
 .p-tree {
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
     background: var(--surface-a);
     color: var(--text-color);
     padding: var(--content-padding);
@@ -31,7 +31,7 @@
 .p-tree .p-tree-container .p-treenode .p-treenode-content .p-tree-toggler:enabled:hover {
     color: var(--text-color-secondary);
     border-color: transparent;
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
 }
 
 .p-tree .p-tree-container .p-treenode .p-treenode-content .p-tree-toggler:focus {
@@ -75,13 +75,13 @@
 }
 
 .p-tree .p-tree-container .p-treenode .p-treenode-content.p-treenode-selectable:not(.p-highlight):hover {
-    background: rgba(255, 255, 255, 0.04);
-    color: rgba(255, 255, 255, 0.87);
+    background: rgba(var(--text-color-rgb), 0.04);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-tree .p-tree-container .p-treenode .p-treenode-content.p-treenode-dragover {
-    background: rgba(255, 255, 255, 0.04);
-    color: rgba(255, 255, 255, 0.87);
+    background: rgba(var(--text-color-rgb), 0.04);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-tree .p-tree-filter-container {
@@ -112,9 +112,9 @@
 
 .p-tree.p-tree-horizontal .p-treenode .p-treenode-content {
     border-radius: 4px;
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
     background-color: var(--surface-a);
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
     padding: 0.5rem;
     transition: none;
 }
@@ -147,8 +147,8 @@
 }
 
 .p-tree.p-tree-horizontal .p-treenode .p-treenode-content.p-treenode-selectable:not(.p-highlight):hover {
-    background: rgba(255, 255, 255, 0.04);
-    color: rgba(255, 255, 255, 0.87);
+    background: rgba(var(--text-color-rgb), 0.04);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-tree.p-tree-horizontal .p-treenode .p-treenode-content:focus {
@@ -158,7 +158,7 @@
 }
 
 .p-tree .p-tree-container .p-treenode .p-treenode-content:focus {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(var(--text-color-rgb), 0.12);
 }
 
 .p-tree .p-tree-container .p-treenode .p-treenode-content:focus.p-highlight {

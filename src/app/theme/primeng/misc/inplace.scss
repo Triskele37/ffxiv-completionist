@@ -6,8 +6,8 @@
 }
 
 .p-inplace .p-inplace-display:not(.p-disabled):hover {
-    background: rgba(255, 255, 255, 0.04);
-    color: rgba(255, 255, 255, 0.87);
+    background: rgba(var(--text-color-rgb), 0.04);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-inplace .p-inplace-display:focus {

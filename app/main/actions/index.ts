@@ -1,25 +1,26 @@
 import { ipcMain } from 'electron';
 import * as fs from 'fs';
 
-import { configStore } from '../store/config';
-import { playerStore } from '../store/player';
-import { loadSave, newSave } from './saveLocation';
+import { ConfigStore } from '../store/ConfigStore';
+import { PlayerStore } from '../store/PlayerStore';
+import { WindowStore } from '../store/WindowStore';
 
 export function initActions() {
-    ipcMain.on('get-config', configStore.get);
-    ipcMain.on('set-config', configStore.set);
-    ipcMain.on('open-config', configStore.open);
-    ipcMain.on('backup-config', configStore.backup);
-    ipcMain.on('load-backup-config', configStore.loadBackup);
+    ipcMain.on('app-ready', WindowStore.showMainWindow);
 
-    ipcMain.on('get-save', playerStore.get);
-    ipcMain.on('set-save', playerStore.set);
-    ipcMain.on('open-save', playerStore.open);
-    ipcMain.on('backup-save', playerStore.backup);
-    ipcMain.on('load-backup-save', playerStore.loadBackup);
+    ipcMain.on('get-config', ConfigStore.get);
+    ipcMain.on('set-config', ConfigStore.set);
+    ipcMain.on('new-save', ConfigStore.newSave);
+    ipcMain.on('load-save', ConfigStore.loadSave);
+    ipcMain.on('open-config', ConfigStore.open);
+    ipcMain.on('backup-config', ConfigStore.backup);
+    ipcMain.on('load-backup-config', ConfigStore.loadBackup);
 
-    ipcMain.on('new-save', newSave);
-    ipcMain.on('load-save', loadSave);
+    ipcMain.on('get-save', PlayerStore.get);
+    ipcMain.on('set-save', PlayerStore.set);
+    ipcMain.on('open-save', PlayerStore.open);
+    ipcMain.on('backup-save', PlayerStore.backup);
+    ipcMain.on('load-backup-save', PlayerStore.loadBackup);
 
     ipcMain.on('load-json', (event, path) => {
         try {

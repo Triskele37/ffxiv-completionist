@@ -33,7 +33,7 @@
 
 .p-image-action.p-link:hover {
     color: #f8f9fa;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(var(--text-color-rgb), 0.1);
 }
 
 .p-image-action.p-link i {

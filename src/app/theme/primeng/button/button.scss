@@ -29,19 +29,19 @@
     }
 
     &:disabled {
-        background-color: rgba(255, 255, 255, 0.12) !important;
-        color: rgba(255, 255, 255, 0.38) !important;
+        background-color: rgba(var(--text-color-rgb), 0.12) !important;
+        color: rgba(var(--text-color-rgb), 0.38) !important;
         opacity: 1;
 
         &.p-button-text {
             background-color: transparent !important;
-            color: rgba(255, 255, 255, 0.38) !important;
+            color: rgba(var(--text-color-rgb), 0.38) !important;
         }
 
         &.p-button-outlined {
             background-color: transparent !important;
-            color: rgba(255, 255, 255, 0.38) !important;
-            border-color: rgba(255, 255, 255, 0.38) !important;
+            color: rgba(var(--text-color-rgb), 0.38) !important;
+            border-color: rgba(var(--text-color-rgb), 0.38) !important;
         }
     }
 
@@ -77,7 +77,7 @@
     }
 
     .p-ink {
-        background-color: rgba(255, 255, 255, 0.32);
+        background-color: rgba(var(--text-color-rgb), 0.32);
     }
 
     //#region options
@@ -117,13 +117,13 @@
 
             &:enabled {
                 &:hover {
-                    background: rgba(255, 255, 255, 0.04);
+                    background: rgba(var(--text-color-rgb), 0.04);
                     color: var(--text-color-secondary);
                 }
 
                 &:active {
-                    background: rgba(255, 255, 255, 0.16);
-                    color: rgba(255, 255, 255, 0.6);
+                    background: rgba(var(--text-color-rgb), 0.16);
+                    color: rgba(var(--text-color-rgb), 0.6);
                 }
             }
         }
@@ -157,17 +157,17 @@
         }
 
         &.p-button-plain {
-            color: rgba(255, 255, 255, 0.6);
+            color: rgba(var(--text-color-rgb), 0.6);
 
             &:enabled {
                 &:hover {
-                    background: rgba(255, 255, 255, 0.04);
-                    color: rgba(255, 255, 255, 0.6);
+                    background: rgba(var(--text-color-rgb), 0.04);
+                    color: rgba(var(--text-color-rgb), 0.6);
                 }
 
                 &:active {
-                    background: rgba(255, 255, 255, 0.16);
-                    color: rgba(255, 255, 255, 0.6);
+                    background: rgba(var(--text-color-rgb), 0.16);
+                    color: rgba(var(--text-color-rgb), 0.6);
                 }
             }
         }

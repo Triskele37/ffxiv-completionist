@@ -1,6 +1,6 @@
 import { app } from 'electron';
 
-import { windowStore } from './main/store/window';
+import { WindowStore } from './main/store/WindowStore';
 import { initActions } from './main/actions';
 
 // Initialize remote module
@@ -11,7 +11,7 @@ const args = process.argv.slice(1);
 const isServe = args.some((val) => val === '--serve');
 
 function createWindow() {
-    windowStore.create(isServe);
+    WindowStore.create(isServe);
     initActions();
 }
 
@@ -34,7 +34,7 @@ try {
     app.on('activate', () => {
         // On OS X it's common to re-create a window in the app when the
         // dock icon is clicked and there are no other windows open.
-        if(windowStore.window === null) {
+        if(WindowStore.main === null) {
             createWindow();
         }
     });

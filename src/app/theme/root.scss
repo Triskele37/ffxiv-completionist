@@ -1,33 +1,26 @@
 :root {
+    // Settings
     --primary-color: #0f4c75; //CE93D8
-    //--primary-color-2: #3282B8;
+    --primary-color-text: #121212;
+    --text-color-rgb: 255, 255, 255;
+    --font-family: Arial, Helvetica, sans-serif;
+    --bg-h: 0;
+    --bg-s: 0%;
+    --bg-l: 12%;
+
+    // Derived from settings
     --primary-color-light: #3282B8;
     --primary-color-rgb: 15, 76, 117;
+    --text-color: rgba(var(--text-color-rgb), 0.87);
+    --text-color-secondary: rgba(var(--text-color-rgb), 0.6);
 
-    --primary-color-text: #121212;
-    --text-color: rgba(255, 255, 255, 0.87);
-    --text-color-secondary: rgba(255, 255, 255, 0.6);
-    --font-family: Arial, Helvetica, sans-serif;
-    --icon-size: 16px;
-
-    --surface-a: #1e1e1e;
-    --surface-b: #121212;
-    --surface-c: hsla(0, 0%, 100%, .04);
-    --surface-d: hsla(0, 0%, 100%, .12);
-    --surface-e: #1e1e1e;
-    --surface-f: #262626;
-
-    --surface-0: #121212;
-    --surface-50: #2a2a2a;
-    --surface-100: #414141;
-    --surface-200: #595959;
-    --surface-300: #717171;
-    --surface-400: #898989;
-    --surface-500: #a0a0a0;
-    --surface-600: #b8b8b8;
-    --surface-700: #d0d0d0;
-    --surface-800: #e7e7e7;
-    --surface-900: #ffffff;
+    // Surfaces
+    --surface-a: hsl(var(--bg-h), var(--bg-s), var(--bg-l));
+    --surface-b: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 5%));
+    --surface-c: hsla(var(--bg-h), var(--bg-s), 100%, .04);
+    --surface-d: hsla(var(--bg-h), var(--bg-s), 100%, .12);
+    --surface-e: var(--surface-a);
+    --surface-f: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 3%));
 
     --surface-ground: var(--surface-b);
     --surface-section: var(--surface-b);
@@ -36,6 +29,7 @@
     --surface-border: var(--surface-d);
     --surface-hover: var(--surface-c);
 
+    // Gray
     --gray-50: #e7e7e7;
     --gray-100: #d0d0d0;
     --gray-200: #b8b8b8;
@@ -47,13 +41,17 @@
     --gray-800: #2a2a2a;
     --gray-900: #121212;
 
+    // Spacing
     --content-padding: 7px;
     --inline-spacing: 0.5rem;
     --border-radius: 4px;
+    --icon-size: 16px;
 
+    // Other
     --maskbg: rgba(0, 0, 0, 0.32);
     --focus-ring: none;
 
+    // XIV
     --selected: rgba(var(--primary-color-rgb), 0.5);
     --selected-2: rgba(var(--primary-color-rgb), 0.3);
     --incomplete: #75190f;

@@ -15,7 +15,7 @@
 .p-carousel .p-carousel-content .p-carousel-next:enabled:hover {
     color: var(--text-color-secondary);
     border-color: transparent;
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
 }
 
 .p-carousel .p-carousel-content .p-carousel-prev:focus,
@@ -35,7 +35,7 @@
 }
 
 .p-carousel .p-carousel-indicators .p-carousel-indicator button {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(var(--text-color-rgb), 0.3);
     width: 2rem;
     height: 0.5rem;
     transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;

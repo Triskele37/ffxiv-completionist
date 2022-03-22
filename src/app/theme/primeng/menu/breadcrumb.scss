@@ -1,7 +1,7 @@
 
 .p-breadcrumb {
     background: var(--surface-a);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
     border-radius: 4px;
     padding: var(--content-padding);
 }
@@ -18,7 +18,7 @@
 }
 
 .p-breadcrumb ul li .p-menuitem-link .p-menuitem-text {
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-breadcrumb ul li .p-menuitem-link .p-menuitem-icon {
@@ -31,7 +31,7 @@
 }
 
 .p-breadcrumb ul li:last-child .p-menuitem-text {
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-breadcrumb ul li:last-child .p-menuitem-icon {
@@ -43,5 +43,5 @@
 }
 
 .p-breadcrumb .p-menuitem-link:focus {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(var(--text-color-rgb), 0.12);
 }

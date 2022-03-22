@@ -1,6 +1,6 @@
 
 .p-organizationchart .p-organizationchart-node-content.p-organizationchart-selectable-node:not(.p-highlight):hover {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
     color: var(--text-color);
 }
 
@@ -14,21 +14,21 @@
 }
 
 .p-organizationchart .p-organizationchart-line-down {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(var(--text-color-rgb), 0.12);
 }
 
 .p-organizationchart .p-organizationchart-line-left {
-    border-right: 1px solid rgba(255, 255, 255, 0.12);
-    border-color: rgba(255, 255, 255, 0.12);
+    border-right: 1px solid rgba(var(--text-color-rgb), 0.12);
+    border-color: rgba(var(--text-color-rgb), 0.12);
 }
 
 .p-organizationchart .p-organizationchart-line-top {
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
-    border-color: rgba(255, 255, 255, 0.12);
+    border-top: 1px solid rgba(var(--text-color-rgb), 0.12);
+    border-color: rgba(var(--text-color-rgb), 0.12);
 }
 
 .p-organizationchart .p-organizationchart-node-content {
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
     background: var(--surface-a);
     color: var(--text-color);
     padding: var(--content-padding);

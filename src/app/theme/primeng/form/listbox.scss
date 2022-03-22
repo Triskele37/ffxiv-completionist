@@ -2,13 +2,13 @@
 .p-listbox {
     background: var(--surface-a);
     color: var(--text-color);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(var(--text-color-rgb), 0.3);
     border-radius: 4px;
 }
 
 .p-listbox .p-listbox-header {
     padding: var(--content-padding);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    border-bottom: 1px solid rgba(var(--text-color-rgb), 0.12);
     color: var(--text-color);
     background: var(--surface-a);
     margin: 0;
@@ -73,7 +73,7 @@
 
 .p-listbox:not(.p-disabled) .p-listbox-item:not(.p-highlight):not(.p-disabled):hover {
     color: var(--text-color);
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
 }
 
 p-listbox.ng-dirty.ng-invalid > .p-listbox {
@@ -85,7 +85,7 @@ p-listbox.ng-dirty.ng-invalid > .p-listbox {
 }
 
 .p-listbox .p-listbox-list .p-listbox-item:focus {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(var(--text-color-rgb), 0.12);
 }
 
 .p-listbox .p-listbox-list .p-listbox-item:focus.p-highlight {

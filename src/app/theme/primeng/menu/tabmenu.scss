@@ -1,7 +1,7 @@
 
 .p-tabmenu .p-tabmenu-nav {
     background: transparent;
-    border: solid rgba(255, 255, 255, 0.12);
+    border: solid rgba(var(--text-color-rgb), 0.12);
     border-width: 0 0 1px 0;
 }
 
@@ -10,11 +10,11 @@
 }
 
 .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
-    border: solid rgba(255, 255, 255, 0.12);
+    border: solid rgba(var(--text-color-rgb), 0.12);
     border-width: 0 0 1px 0;
-    border-color: transparent transparent rgba(255, 255, 255, 0.12) transparent;
+    border-color: transparent transparent rgba(var(--text-color-rgb), 0.12) transparent;
     background: transparent;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(var(--text-color-rgb), 0.6);
     padding: var(--content-padding) 1.5rem;
     font-weight: 500;
     border-top-right-radius: 4px;
@@ -35,13 +35,13 @@
 
 .p-tabmenu .p-tabmenu-nav .p-tabmenuitem:not(.p-highlight):not(.p-disabled):hover .p-menuitem-link {
     background: rgba(var(--primary-color-rgb), 0.04);
-    border-color: rgba(255, 255, 255, 0.12);
-    color: rgba(255, 255, 255, 0.6);
+    border-color: rgba(var(--text-color-rgb), 0.12);
+    color: rgba(var(--text-color-rgb), 0.6);
 }
 
 .p-tabmenu .p-tabmenu-nav .p-tabmenuitem.p-highlight .p-menuitem-link {
     background: transparent;
-    border-color: rgba(255, 255, 255, 0.12);
+    border-color: rgba(var(--text-color-rgb), 0.12);
     color: var(--primary-color);
 }
 

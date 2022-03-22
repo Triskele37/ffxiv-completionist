@@ -7,7 +7,7 @@
 }
 
 .p-steps .p-steps-item .p-menuitem-link .p-steps-number {
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
     border: 1px solid transparent;
     background: transparent;
     min-width: 2rem;
@@ -20,7 +20,7 @@
 
 .p-steps .p-steps-item .p-menuitem-link .p-steps-title {
     margin-top: 0.5rem;
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-steps .p-steps-item .p-menuitem-link:not(.p-disabled):focus {
@@ -36,12 +36,12 @@
 
 .p-steps .p-steps-item.p-highlight .p-steps-title {
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-steps .p-steps-item:before {
     content: " ";
-    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    border-top: 1px solid rgba(var(--text-color-rgb), 0.12);
     width: 100%;
     top: 50%;
     left: 0;
@@ -97,7 +97,7 @@
 }
 
 .p-steps .p-steps-item .p-menuitem-link:not(.p-disabled):focus {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(var(--text-color-rgb), 0.12);
 }
 
 .p-steps .p-steps-item.p-highlight .p-steps-number {
@@ -107,7 +107,7 @@
 
 .p-steps .p-steps-item.p-highlight .p-steps-title {
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-steps .p-steps-item.p-disabled {

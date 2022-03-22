@@ -1,121 +1,124 @@
-
 .p-dropdown {
     background: var(--surface-a);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(var(--text-color-rgb), 0.3);
     transition: background-color 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s, background-size 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
     border-radius: 4px;
-}
 
-.p-dropdown:not(.p-disabled):hover {
-    border-color: var(--text-color-secondary);
-}
+    &:not(.p-disabled) {
+        &:hover {
+            border-color: var(--text-color-secondary);
+        }
 
-.p-dropdown:not(.p-disabled).p-focus {
-    outline: 0 none;
-    outline-offset: 0;
-    box-shadow: none;
-    border-color: var(--primary-color);
-}
+        &.p-focus {
+            outline: 0 none;
+            outline-offset: 0;
+            box-shadow: none;
+            border-color: var(--primary-color);
+        }
+    }
 
-.p-dropdown.p-dropdown-clearable .p-dropdown-label {
-    padding-right: 2rem;
-}
+    &.p-dropdown-clearable .p-dropdown-label {
+        padding-right: 2rem;
+    }
 
-.p-dropdown .p-dropdown-label {
-    background: transparent;
-    border: 0 none;
-}
+    .p-dropdown-label {
+        background: transparent;
+        border: 0 none;
 
-.p-dropdown .p-dropdown-label.p-placeholder {
-    color: var(--text-color-secondary);
-}
+        &:enabled:focus {
+            outline: 0 none;
+            box-shadow: none;
+        }
 
-.p-dropdown .p-dropdown-label:enabled:focus {
-    outline: 0 none;
-    box-shadow: none;
-}
+        &.p-placeholder {
+            color: var(--text-color-secondary);
+        }
+    }
 
-.p-dropdown .p-dropdown-trigger {
-    background: transparent;
-    color: var(--text-color-secondary);
-    width: 2.357rem;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-}
+    .p-dropdown-trigger {
+        background: transparent;
+        color: var(--text-color-secondary);
+        width: 2.357rem;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
 
-.p-dropdown .p-dropdown-clear-icon {
-    color: var(--text-color-secondary);
-    right: 2.357rem;
+    .p-dropdown-clear-icon {
+        color: var(--text-color-secondary);
+        right: 2.357rem;
+    }
 }
 
 .p-dropdown-panel {
-    background: #2b2b2b;
+    background: var(--surface-f);
     color: var(--text-color);
     border: 0 none;
     border-radius: 4px;
     box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
-}
 
-.p-dropdown-panel .p-dropdown-header {
-    padding: var(--content-padding);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-    color: var(--text-color);
-    background: #2b2b2b;
-    margin: 0;
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
-}
+    .p-dropdown-header {
+        padding: var(--content-padding);
+        border-bottom: 1px solid rgba(var(--text-color-rgb), 0.12);
+        color: var(--text-color);
+        background: var(--surface-f);
+        margin: 0;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
 
-.p-dropdown-panel .p-dropdown-header .p-dropdown-filter {
-    padding-right: 2rem;
-    margin-right: -2rem;
-}
+        .p-dropdown-filter {
+            padding-right: 2rem;
+            margin-right: -2rem;
+        }
 
-.p-dropdown-panel .p-dropdown-header .p-dropdown-filter-icon {
-    right: var(--content-padding);
-    color: var(--text-color-secondary);
-}
+        .p-dropdown-filter-icon {
+            right: var(--content-padding);
+            color: var(--text-color-secondary);
+        }
+    }
 
-.p-dropdown-panel .p-dropdown-items:not(.p-dropdown-virtualscroll) {
-    padding: 0;
-}
+    .p-dropdown-items {
+        &:not(.p-dropdown-virtualscroll) {
+            padding: 0;
+        }
 
-.p-dropdown-panel .p-dropdown-items.p-dropdown-virtualscroll .cdk-virtual-scroll-content-wrapper {
-    padding: 0;
-}
+        &.p-dropdown-virtualscroll .cdk-virtual-scroll-content-wrapper {
+            padding: 0;
+        }
 
-.p-dropdown-panel .p-dropdown-items .p-dropdown-item {
-    margin: 0;
-    padding: var(--content-padding) var(--content-padding);
-    border: 0 none;
-    color: var(--text-color);
-    background: transparent;
-    transition: none;
-    border-radius: 0;
-}
+        .p-dropdown-item {
+            margin: 0;
+            padding: var(--content-padding) var(--content-padding);
+            border: 0 none;
+            color: var(--text-color);
+            background: transparent;
+            transition: none;
+            border-radius: 0;
 
-.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
-    color: var(--primary-color);
-    background: rgba(var(--primary-color-rgb), 0.16);
-}
+            &.p-highlight {
+                color: var(--primary-color);
+                background: rgba(var(--primary-color-rgb), 0.16);
+            }
 
-.p-dropdown-panel .p-dropdown-items .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover {
-    color: var(--text-color);
-    background: rgba(255, 255, 255, 0.04);
-}
+            &:not(.p-highlight):not(.p-disabled):hover {
+                color: var(--text-color);
+                background: rgba(var(--text-color-rgb), 0.04);
+            }
+        }
 
-.p-dropdown-panel .p-dropdown-items .p-dropdown-empty-message {
-    padding: var(--content-padding) var(--content-padding);
-    color: var(--text-color);
-    background: transparent;
-}
+        .p-dropdown-empty-message {
+            padding: var(--content-padding) var(--content-padding);
+            color: var(--text-color);
+            background: transparent;
+        }
 
-.p-dropdown-panel .p-dropdown-items .p-dropdown-item-group {
-    margin: 0;
-    padding: var(--content-padding);
-    color: var(--text-color-secondary);
-    background: transparent;
-    font-weight: 400;
+        .p-dropdown-item-group {
+            margin: 0;
+            padding: var(--content-padding);
+            color: var(--text-color-secondary);
+            background: transparent;
+            font-weight: 400;
+        }
+    }
 }
 
 p-dropdown.ng-dirty.ng-invalid > .p-dropdown {
@@ -123,15 +126,17 @@ p-dropdown.ng-dirty.ng-invalid > .p-dropdown {
 }
 
 .p-input-filled .p-dropdown {
-    background: rgba(255, 255, 255, 0.06);
-}
+    background: rgba(var(--text-color-rgb), 0.06);
 
-.p-input-filled .p-dropdown:not(.p-disabled):hover {
-    background-color: rgba(255, 255, 255, 0.08);
-}
+    &:not(.p-disabled) {
+        &:hover {
+            background-color: rgba(var(--text-color-rgb), 0.08);
+        }
 
-.p-input-filled .p-dropdown:not(.p-disabled).p-focus {
-    background-color: rgba(255, 255, 255, 0.1);
+        &.p-focus {
+            background-color: rgba(var(--text-color-rgb), 0.1);
+        }
+    }
 }
 
 .p-dropdown .p-inputtext, .p-dropdown .p-dropdown-trigger {
@@ -155,8 +160,8 @@ p-dropdown.ng-dirty.ng-invalid > .p-dropdown {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     border: 1px solid transparent;
-    background: rgba(255, 255, 255, 0.06) no-repeat;
-    background-image: linear-gradient(to bottom, var(--primary-color), var(--primary-color)), linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+    background: rgba(var(--text-color-rgb), 0.06) no-repeat;
+    background-image: linear-gradient(to bottom, var(--primary-color), var(--primary-color)), linear-gradient(to bottom, rgba(var(--text-color-rgb), 0.3), rgba(var(--text-color-rgb), 0.3));
     background-size: 0 2px, 100% 1px;
     background-position: 50% 100%, 50% 100%;
     background-origin: border-box;
@@ -168,14 +173,14 @@ p-dropdown.ng-dirty.ng-invalid > .p-dropdown {
 }
 
 .p-input-filled .p-dropdown:not(.p-disabled):hover {
-    background-color: rgba(255, 255, 255, 0.08);
+    background-color: rgba(var(--text-color-rgb), 0.08);
     border-color: transparent;
-    background-image: linear-gradient(to bottom, var(--primary-color), var(--primary-color)), linear-gradient(to bottom, rgba(255, 255, 255, 0.87), rgba(255, 255, 255, 0.87));
+    background-image: linear-gradient(to bottom, var(--primary-color), var(--primary-color)), linear-gradient(to bottom, rgba(var(--text-color-rgb), 0.87), rgba(var(--text-color-rgb), 0.87));
 }
 
 .p-input-filled .p-dropdown:not(.p-disabled).p-focus, .p-input-filled .p-dropdown:not(.p-disabled).p-inputwrapper-focus {
     box-shadow: none;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(var(--text-color-rgb), 0.1);
     border-color: transparent;
     background-size: 100% 2px, 100% 1px;
 }

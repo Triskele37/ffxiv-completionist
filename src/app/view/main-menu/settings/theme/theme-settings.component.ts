@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 
-import { ThemeService } from '@service/theme/theme.service';
+import { HSL, RGB, ThemeService } from '@service/theme/theme.service';
 
 import { Settings } from '../settings';
 import { SettingsComponent } from '../settings.component';
@@ -14,6 +14,8 @@ export class ThemeSettingsComponent implements OnInit {
 
     primaryColor: string;
     primaryText: string;
+    background: HSL;
+    textColor: RGB;
     fontFamily: string;
 
     constructor(
@@ -25,6 +27,20 @@ export class ThemeSettingsComponent implements OnInit {
     ngOnInit() {
         this.primaryColor = this.svcTheme.getStyle('--primary-color');
         this.primaryText = this.svcTheme.getStyle('--primary-color-text');
+
+        this.background = {
+            h: parseInt(this.svcTheme.getStyle('--bg-h'), 10),
+            s: parseInt(this.svcTheme.getStyle('--bg-s'), 10),
+            b: parseInt(this.svcTheme.getStyle('--bg-l'), 10),
+        };
+
+        const textRgb = this.svcTheme.getStyle('--text-color-rgb').split(', ');
+        this.textColor = {
+            r: parseInt(textRgb[0], 10),
+            g: parseInt(textRgb[1], 10),
+            b: parseInt(textRgb[2], 10)
+        };
+
         this.fontFamily = this.svcTheme.getStyle('--font-family');
     }
 
@@ -36,6 +52,14 @@ export class ThemeSettingsComponent implements OnInit {
         this.svcTheme.setPrimaryText(this.primaryText);
     }
 
+    setBackground(): void {
+        this.svcTheme.setBackground(this.background);
+    }
+
+    setTextColor(): void {
+        this.svcTheme.setTextColor(this.textColor);
+    }
+
     setFontFamily(): void {
         this.svcTheme.setFontFamily(this.fontFamily);
     }
@@ -43,11 +67,15 @@ export class ThemeSettingsComponent implements OnInit {
     resetTheme() {
         this.primaryColor = '#0f4c75';
         this.primaryText = '#121212';
+        this.background = { h: 0, s: 0, b: 12 };
+        this.textColor = { r: 255, g: 255, b: 255 };
         this.fontFamily = 'sans-serif';
 
         this.setPrimaryColor();
         this.setPrimaryText();
+        this.setTextColor();
         this.setFontFamily();
+        this.setBackground();
     }
 
 }

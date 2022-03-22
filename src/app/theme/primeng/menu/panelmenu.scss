@@ -2,7 +2,7 @@
 .p-panelmenu .p-panelmenu-header > a {
     padding: 1.5rem;
     border: 0 none;
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
     background: var(--surface-a);
     font-weight: 400;
     border-radius: 4px;
@@ -24,9 +24,9 @@
 }
 
 .p-panelmenu .p-panelmenu-header:not(.p-highlight):not(.p-disabled) > a:hover {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
     border-color: transparent;
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-panelmenu .p-panelmenu-header.p-highlight {
@@ -36,22 +36,22 @@
 .p-panelmenu .p-panelmenu-header.p-highlight > a {
     background: var(--surface-a);
     border-color: transparent;
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
 
 .p-panelmenu .p-panelmenu-header.p-highlight:not(.p-disabled) > a:hover {
     border-color: transparent;
-    background: rgba(255, 255, 255, 0.04);
-    color: rgba(255, 255, 255, 0.87);
+    background: rgba(var(--text-color-rgb), 0.04);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-panelmenu .p-panelmenu-content {
     padding: 0.5rem 0;
     border: 0 none;
     background: var(--surface-a);
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
     margin-bottom: 0;
     border-top: 0;
     border-top-right-radius: 0;
@@ -62,14 +62,14 @@
 
 .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link {
     padding: var(--content-padding) var(--content-padding);
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
     border-radius: 0;
     transition: none;
     user-select: none;
 }
 
 .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link .p-menuitem-text {
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link .p-menuitem-icon {
@@ -78,23 +78,23 @@
 }
 
 .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link .p-submenu-icon {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(var(--text-color-rgb), 0.6);
 }
 
 .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:not(.p-disabled):hover {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
 }
 
 .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(var(--text-color-rgb), 0.87);
 }
 
 .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(var(--text-color-rgb), 0.6);
 }
 
 .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:not(.p-disabled):hover .p-submenu-icon {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(var(--text-color-rgb), 0.6);
 }
 
 .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:focus {
@@ -179,9 +179,9 @@
 }
 
 .p-panelmenu .p-panelmenu-panel .p-panelmenu-header .p-panelmenu-header-link:focus {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(var(--text-color-rgb), 0.04);
 }
 
 .p-panelmenu .p-panelmenu-panel .p-menuitem .p-menuitem-link:focus {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(var(--text-color-rgb), 0.12);
 }

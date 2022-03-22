@@ -2,7 +2,7 @@
 .p-virtualscroller .p-virtualscroller-header {
     background: var(--surface-a);
     color: var(--text-color);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
     border-width: 0 0 1px 0;
     padding: var(--content-padding) var(--content-padding);
     font-weight: 500;
