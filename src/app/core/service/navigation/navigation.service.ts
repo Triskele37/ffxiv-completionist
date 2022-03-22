@@ -41,10 +41,13 @@ export class NavigationService {
             else return this.svcData.data;
         }
 
-        return breadcrumbs.reduce(
+        const group = breadcrumbs.reduce(
             (acc, crumb) => acc.subGroups.find((g) => g._key === crumb) || acc,
             { subGroups: [this.svcMainMenu.data, this.svcData.data] } as DataGroup
         );
+
+        if(group instanceof DataGroup) return group;
+        else return this.svcMainMenu.data;
     }
 
     addGroupHistory() {

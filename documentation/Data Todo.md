@@ -14,7 +14,6 @@
 - Add links to all columns referencing another task
 
 **Change**
-- Starting Class needs to have short/long values for translation purposes
 
 **Fix**
 - the "My First Gladius/Hora/etc." quests for each of the starting classes should be

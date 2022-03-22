@@ -38,15 +38,15 @@ export class CharacterSettingsComponent implements OnInit {
 
         const CLASSES = 'MAIN.SETTING.CLASSES';
         this.startingClasses = [
-            this.translate.instant(`${CLASSES}.ACN`),
-            this.translate.instant(`${CLASSES}.ARC`),
-            this.translate.instant(`${CLASSES}.CNJ`),
-            this.translate.instant(`${CLASSES}.GLA`),
-            this.translate.instant(`${CLASSES}.LNC`),
-            this.translate.instant(`${CLASSES}.MRD`),
-            this.translate.instant(`${CLASSES}.PUG`),
-            this.translate.instant(`${CLASSES}.ROG`),
-            this.translate.instant(`${CLASSES}.THM`),
+            { short: 'Arcanist', long: this.translate.instant(`${CLASSES}.ACN`) },
+            { short: 'Archer', long: this.translate.instant(`${CLASSES}.ARC`) },
+            { short: 'Conjurer', long: this.translate.instant(`${CLASSES}.CNJ`) },
+            { short: 'Gladiator', long: this.translate.instant(`${CLASSES}.GLA`) },
+            { short: 'Lancer', long: this.translate.instant(`${CLASSES}.LNC`) },
+            { short: 'Marauder', long: this.translate.instant(`${CLASSES}.MRD`) },
+            { short: 'Pugilist', long: this.translate.instant(`${CLASSES}.PUG`) },
+            { short: 'Rogue', long: this.translate.instant(`${CLASSES}.ROG`) },
+            { short: 'Thaumaturge', long: this.translate.instant(`${CLASSES}.THM`) },
         ];
     }
 
@@ -76,7 +76,7 @@ export class CharacterSettingsComponent implements OnInit {
     //#endregion
 
     //#region------------------------------------------------------- Starting Class
-    startingClasses: string[];
+    startingClasses: ShortLong[];
 
     onChangeStartingClass(): void {
         this.parent.onChangeStringSetting(this.settings.startingClass);
