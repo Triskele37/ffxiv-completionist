@@ -214,6 +214,7 @@
             "points": 30,
             "reward": "character.mount-guide.7",
             "patch": "5.0",
+            "cCombo": [2925],
             "cPrev": [
                 1834,
                 2275,
@@ -273,9 +274,9 @@
             "points": 30,
             "patch": "6.0",
             "cPrev": [
+                2277,
                 2923,
-                2924,
-                2925
+                2924
             ]
         },
         "x97": {
@@ -446,7 +447,7 @@
                 "character.character.title.596"
             ],
             "cPrevAt": {
-                "80": [
+                "90": [
                     "job.26",
                     "job.27",
                     "job.28"
@@ -710,26 +711,32 @@
         },
         "x3003": {
             "points": 5,
+            "cCombo": [3009],
             "patch": "6.0"
         },
         "x3004": {
             "points": 5,
+            "cCombo": [3009],
             "patch": "6.0"
         },
         "x3005": {
             "points": 5,
+            "cCombo": [3009],
             "patch": "6.0"
         },
         "x3006": {
             "points": 5,
+            "cCombo": [3009],
             "patch": "6.0"
         },
         "x3007": {
             "points": 5,
+            "cCombo": [3009],
             "patch": "6.0"
         },
         "x3008": {
             "points": 5,
+            "cCombo": [3009],
             "patch": "6.0"
         },
         "x3009": {
@@ -1343,12 +1350,12 @@
             ],
             "cPrevAt": {
                 "80": [
-                    "duty.trust.0",
-                    "duty.trust.1",
-                    "duty.trust.2",
-                    "duty.trust.3",
-                    "duty.trust.4",
-                    "duty.trust.5"
+                    "duty.trust.shb.0",
+                    "duty.trust.shb.1",
+                    "duty.trust.shb.2",
+                    "duty.trust.shb.3",
+                    "duty.trust.shb.4",
+                    "duty.trust.shb.5"
                 ]
             }
         },
@@ -1358,7 +1365,18 @@
             "patch": "6.0",
             "cSiblings": [
                 "character.character.title.612"
-            ]
+            ],
+            "cPrevAt": {
+                "90": [
+                    "duty.trust.ew.0",
+                    "duty.trust.ew.1",
+                    "duty.trust.ew.2",
+                    "duty.trust.ew.3",
+                    "duty.trust.ew.4",
+                    "duty.trust.ew.5",
+                    "duty.trust.ew.6"
+                ]
+            }
         }
     }
 }

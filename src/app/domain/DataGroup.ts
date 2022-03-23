@@ -174,7 +174,10 @@ export class DataGroup {
         }
 
         // No id means a group was requested
-        if(id === null) return group;
+        if(id === null) {
+            // Same group means path didn't work
+            return group !== this ? group : null;
+        }
 
         return this.getChild_digForTask(group, id);
     }

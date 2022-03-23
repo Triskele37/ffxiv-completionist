@@ -44,6 +44,12 @@
                     "L4": "Clicking the link in this column navigates to that sub group",
                     "L5": "When showing all tasks, the button becomes \"Exit All Task View\" which deactivates the table"
                 },
+                "CELL_LINK": {
+                    "TITLE": "Cell Links",
+                    "L1": "Some cells may have one or multiple links to other content",
+                    "L2": "Clicking on one of these links navigates to that content",
+                    "L3": "If the link is inside a tooltip, click on the value in the cell first"
+                },
                 "PERSIST": {
                     "TITLE": "Persistence",
                     "L1": "The currently selected group is saved when closing the app"
@@ -276,20 +282,22 @@
                 },
                 "ADD": {
                     "TITLE": "Additions",
-                    "L1": "Updated resources up to FFXIV 6.x",
-                    "L2": "Added loading splash image on startup",
-                    "L3": "Added theme customization",
-                    "L4": "Added Group & Task Bookmarks",
-                    "L5": "Added navigation history",
-                    "L6": "Added sortable columns",
-                    "L7": "Added group column to all task views",
-                    "L8": "Added virtual scrolling to prevent slow-rendering tables",
-                    "L9": "Added ability to hide overall OR selected group summary lines",
-                    "L10": "Added ability to open config and save folders from settings page",
-                    "L11": "Added ability to backup config and save files from settings page",
-                    "L12": "Added ability to overwrite active config and save with backup from settings page",
-                    "L13": "Expanded chain history and made the limit a setting",
-                    "L14":  "% a group accounts for of overall completion now displayed in its tooltip"
+                    "L1": "Resources up to FFXIV 6.08",
+                    "L2": "Splash image on startup",
+                    "L3": "Theme customization",
+                    "L4": "Group & Task Bookmarks",
+                    "L5": "Navigation history",
+                    "L6": "Sortable columns",
+                    "L7": "Links for most task info that directly reference another task",
+                    "L8": "Group column to all task views",
+                    "L9": "Virtual scrolling to prevent slow-rendering tables",
+                    "L10": "Ability to hide overall OR selected group summary lines",
+                    "L11": "Ability to open config and save folders from settings page",
+                    "L12": "Ability to backup config and save files from settings page",
+                    "L13": "Ability to overwrite active config and save with backup from settings page",
+                    "L14": "Chain history & Chain history limit setting",
+                    "L15": "Weight statistic in group summary tooltips",
+                    "L16": "Deep Dungeon tasks"
                 },
                 "CHANGE": {
                     "TITLE": "Changes",
@@ -416,6 +424,7 @@
         "HIDDEN": "Hidden",
         "SHOW_ALL": "Show All Tasks",
         "HIDE_ALL": "Hide All Tasks",
+        "VIEW_LINKS": "View All",
         "ROW_ACTION": {
             "TITLE": "Row Actions",
             "BOOKMARK": "Bookmark Task",

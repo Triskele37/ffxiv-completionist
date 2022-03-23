@@ -4,24 +4,20 @@
         "name": "Mascotte",
         "category": "Catégorie",
         "source": "Source",
-        "moreSources": "Sources Additionnelles",
         "patch": "Patch"
     },
     "tasks": {
         "x0": {
             "name": "Automate 2B",
-            "category": "Raid",
-            "source": "Base militaire des Pantins"
+            "category": "Raide"
         },
         "x1": {
             "name": "Automate 2P",
-            "category": "Raid",
-            "source": "Base militaire des Pantins"
+            "category": "Raide"
         },
         "x392": {
             "name": "Automate 9S",
-            "category": "Raid",
-            "source": "La tour de la Contingence"
+            "category": "Raide"
         },
         "x2": {
             "name": "Loutre aloha",
@@ -30,13 +26,12 @@
         },
         "x3": {
             "name": "Sphère de guidage",
-            "category": "Quête",
-            "source": "Le musée des machines"
+            "category": "Quête"
         },
         "x408": {
-            "name": "Adventure Basket",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
+            "name": "Malle d'aventure",
+            "category": "Artisanat",
+            "source": "Recette du Couturier"
         },
         "x4": {
             "name": "Melon allagois",
@@ -45,13 +40,12 @@
         },
         "x5": {
             "name": "Bébé amaro",
-            "category": "FATE",
+            "category": "ALÉA",
             "source": "400 Gemme Bicolore (Cristarium)"
         },
         "x6": {
             "name": "Poupée ascienne",
-            "category": "Donjon",
-            "source": "Anamnesis Anydre"
+            "category": "Donjon"
         },
         "x7": {
             "name": "Ange de la résurrection",
@@ -60,8 +54,7 @@
         },
         "x8": {
             "name": "Esprit synthétique",
-            "category": "Quête",
-            "source": "Un esprit qui fait le corps"
+            "category": "Quête"
         },
         "x393": {
             "name": "Tamandua",
@@ -70,8 +63,7 @@
         },
         "x9": {
             "name": "Tatou-boule",
-            "category": "Donjon",
-            "source": "Le Puits de Malikah"
+            "category": "Donjon"
         },
         "x10": {
             "name": "Fretin assassin",
@@ -81,8 +73,10 @@
         "x11": {
             "name": "Atomos atrophié",
             "category": "Artisanat",
-            "source": "Recette d'Alchimiste",
-            "moreSources": "Kupo de la Fortune"
+            "source": [
+                "Recette d'Alchimiste",
+                "Kupo de la Fortune"
+            ]
         },
         "x12": {
             "name": "Namazu nain festif",
@@ -97,7 +91,10 @@
         "x14": {
             "name": "Axolotl",
             "category": "Exploration",
-            "source": "Expédition sous-marine, Tâche d'exploration du servant"
+            "source": [
+                "Expédition sous-marine",
+                "Tâche d'exploration du servant"
+            ]
         },
         "x15": {
             "name": "Bébé chauve-souris",
@@ -112,13 +109,11 @@
         "x17": {
             "name": "Bébé brachiosaure",
             "category": "Achat",
-            "source": "800 Assignats d'Azurée",
-            "moreSources": "Pillier des Cieux"
+            "source": "800 Assignats d'Azurée"
         },
         "x18": {
             "name": "Fungus miniature",
-            "category": "ALÉA",
-            "source": "Défi: Laurence pas ravie"
+            "category": "ALÉA"
         },
         "x19": {
             "name": "Bébé gremlin",
@@ -128,8 +123,7 @@
         "x20": {
             "name": "Bébé opo-opo",
             "category": "Donjon",
-            "source": "Bivouac de Brayflox (brutal)",
-            "moreSources": "Palais des morts, Aquapole"
+            "source": "Aquapole"
         },
         "x21": {
             "name": "Bébé raptor",
@@ -139,7 +133,10 @@
         "x22": {
             "name": "Bout-de-cochon",
             "category": "Exploration",
-            "source": "Expédition sous-marine, Tâche d'exploration du servant"
+            "source": [
+                "Expédition sous-marine",
+                "Tâche d'exploration du servant"
+            ]
         },
         "x23": {
             "name": "Œil apprivoisé",
@@ -158,8 +155,7 @@
         },
         "x25": {
             "name": "Mini-pudding",
-            "category": "Donjon",
-            "source": "Le Palais de Vagabond"
+            "category": "Donjon"
         },
         "x26": {
             "name": "Ornithorynque nain",
@@ -178,8 +174,7 @@
         },
         "x29": {
             "name": "Kuro shiba",
-            "category": "Donjon",
-            "source": "Holminster"
+            "category": "Donjon"
         },
         "x30": {
             "name": "Blizzaria",
@@ -189,25 +184,25 @@
         "x31": {
             "name": "Oiseau bleu",
             "category": "Donjon sans fond",
-            "source": "Le Palais des morts",
-            "moreSources": "Vieille carte en peau de peiste, Vieille carte en peau de dragon, Aquapole"
+            "source": [
+                "Vieille carte en peau de peiste",
+                "Vieille carte en peau de dragon",
+                "Aquapole"
+            ]
         },
         "x32": {
             "name": "Bunbuku",
             "category": "Exploration",
-            "source": "Tâche d'exploration du servant",
-            "moreSources": "Pilier des Cieux"
+            "source": "Tâche d'exploration du servant"
         },
         "x33": {
             "name": "Poisson-bombo",
-            "category": "Donjon",
-            "source": "Le Palais aux Marées violettes",
-            "moreSources": "Palais des Cieux"
+            "category": "Donjon"
         },
         "x409": {
             "name": "Brave New Urianger",
             "category": "Wondrous Tails",
-            "source": "1 Khloe's Silver Certificate of Commendation"
+            "source": "1 Certificat de mérite d'argent de Khloe"
         },
         "x34": {
             "name": "Y'shtola miniature (premier reflet)",
@@ -221,19 +216,16 @@
         },
         "x36": {
             "name": "Brina",
-            "category": "Donjon",
-            "source": "L'Antitour"
+            "category": "Donjon"
         },
         "x37": {
             "name": "Bufflon",
-            "category": "Quête",
-            "source": "Un petit coup de main"
+            "category": "Quête"
         },
         "x38": {
             "name": "Chiot bulldog",
             "category": "Donjon",
-            "source": "La Muraille de Baelsar",
-            "moreSources": "Kupo de la Fortune"
+            "source": "Kupo de la Fortune"
         },
         "x39": {
             "name": "Couple de papillons",
@@ -247,13 +239,11 @@
         },
         "x41": {
             "name": "Mini-pampa",
-            "category": "Quête",
-            "source": "De piquants compagnons"
+            "category": "Quête"
         },
         "x410": {
             "name": "Caduceus",
-            "category": "Dungeon",
-            "source": "Ktisis Hyperboreia"
+            "category": "Donjon"
         },
         "x42": {
             "name": "Poupée Cait Sith",
@@ -262,25 +252,25 @@
         },
         "x43": {
             "name": "Tentacule minuscule",
-            "category": "Donjon",
-            "source": "L'Île de Crèvecarène (brutal)"
+            "category": "Donjon"
         },
         "x44": {
             "name": "Calca",
-            "category": "Donjon",
-            "source": "L'Antitour",
-            "moreSources": "ALÉA \"Creepy Doll\" - Eurêka Pyros"
+            "category": "Donjon"
         },
         "x45": {
             "name": "Bébé cabiaï",
             "category": "Chasse aux trésors",
-            "source": "Les Canaux perdus d'Uznair, Les Canaux cachés d'Uznair, Le Temple sacré d'Uznair"
+            "source": [
+                "Les Canaux perdus d'Uznair",
+                "Les Canaux cachés d'Uznair",
+                "Le Temple sacré d'Uznair"
+            ]
         },
         "x46": {
             "name": "Bébé chocobo des mers",
             "category": "Récolte",
-            "source": "Récolte du pêcheur",
-            "moreSources": "Pilier des Cieux"
+            "source": "Récolte du pêcheur"
         },
         "x47": {
             "name": "Cerbère chiot",
@@ -289,8 +279,7 @@
         },
         "x48": {
             "name": "Caméléon",
-            "category": "Donjon",
-            "source": "L'Enchevêtrement des Qitari"
+            "category": "Donjon"
         },
         "x49": {
             "name": "Bombino",
@@ -299,8 +288,7 @@
         },
         "x50": {
             "name": "Chigoe apprivoisé",
-            "category": "Quête",
-            "source": "Rassurer Yoenne"
+            "category": "Quête"
         },
         "x51": {
             "name": "Bébé chocobo noir volant",
@@ -309,8 +297,7 @@
         },
         "x52": {
             "name": "Jeune clionide",
-            "category": "Donjon",
-            "source": "Akadaemia Anydre"
+            "category": "Donjon"
         },
         "x53": {
             "name": "Brouette mécanique",
@@ -324,8 +311,7 @@
         },
         "x55": {
             "name": "Mini-Gémellia",
-            "category": "Haut fait",
-            "source": "Élève-officier CdM I"
+            "category": "Haut fait"
         },
         "x56": {
             "name": "Larve de coblyn",
@@ -334,18 +320,15 @@
         },
         "x57": {
             "name": "Joli coeurl",
-            "category": "Quête",
-            "source": "Le félin orphelin"
+            "category": "Quête"
         },
         "x58": {
             "name": "Mini-vertu",
-            "category": "Mission d'exploration",
-            "source": "L'Arsenal de Baldesion - Eurêka Hydatos"
+            "category": "Mission d'exploration"
         },
         "x59": {
             "name": "Bâtisseur n°8",
-            "category": "Raid",
-            "source": "Le Phare de Ridorana"
+            "category": "Raide"
         },
         "x60": {
             "name": "Œil du Cirque",
@@ -384,23 +367,27 @@
         },
         "x66": {
             "name": "Bloc démonique",
-            "category": "Donjon",
-            "source": "Le Château d'Amdapor"
+            "category": "Donjon"
         },
         "x67": {
             "name": "Bébé dhalmel",
             "category": "Mission d'exploration",
-            "source": "Coffre verrouillé de Pyros, Coffre roussi - Eurêka Pyros"
+            "source": [
+                "Coffre verrouillé de Pyros",
+                "Coffre roussi"
+            ]
         },
         "x395": {
             "name": "Bébé dauphin",
-            "category": "Haut fait",
-            "source": "Salut, et encore merci pour le poisson"
+            "category": "Haut fait"
         },
         "x68": {
             "name": "Domakin",
             "category": "Exploration",
-            "source": "Expédition sous-marine, Tâche d'exploration du servant"
+            "source": [
+                "Expédition sous-marine",
+                "Tâche d'exploration du servant"
+            ]
         },
         "x69": {
             "name": "Pie pimpante",
@@ -419,8 +406,7 @@
         },
         "x72": {
             "name": "Nouveau Raubahn miniature",
-            "category": "Quête",
-            "source": "Retour au bercail"
+            "category": "Quête"
         },
         "x73": {
             "name": "Nouvelle Tataru miniature",
@@ -439,30 +425,28 @@
         },
         "x76": {
             "name": "Yugiri miniature revisitée",
-            "category": "Instance",
-            "source": "Obtenu rarement dans le coffre final du donjon: \"Le Château de Kugane\""
+            "category": "Instance"
         },
         "x77": {
             "name": "Drippy",
-            "category": "Donjon",
-            "source": "L'Atelier abandonné de Matoya"
+            "category": "Donjon"
         },
         "x78": {
             "name": "Lapin mutin",
             "category": "Achat",
-            "source": "Auriana - Mor Dhona - 3 Mémoquartz allagois poétique",
-            "moreSources": "La chasse aux Prœufs (2016)"
+            "source": "Auriana - Mor Dhona - 3 Mémoquartz allagois poétique"
         },
         "x79": {
             "name": "Lapin nain",
             "category": "Donjon sans fond",
-            "source": "Pilier des Cieux",
-            "moreSources": "Kupo de la Fortune, Aquapole"
+            "source": [
+                "Kupo de la Fortune",
+                "Aquapole"
+            ]
         },
         "x80": {
             "name": "Mini-Éden",
-            "category": "Raid",
-            "source": "L'Éveil d'Éden - Inhumation"
+            "category": "Raide"
         },
         "x81": {
             "name": "Chevalier aubergine",
@@ -471,18 +455,15 @@
         },
         "x82": {
             "name": "Enkidu",
-            "category": "Défi",
-            "source": "Revanche au vieux château"
+            "category": "Défi"
         },
         "x83": {
             "name": "Nécromancienne évanescente",
-            "category": "Quête",
-            "source": "Des Guerriers pas comme les autres"
+            "category": "Quête"
         },
         "x84": {
             "name": "Chiot fantasmagorique",
-            "category": "Haut fait",
-            "source": "Traiteur pour festin III"
+            "category": "Haut fait"
         },
         "x85": {
             "name": "Gros minou",
@@ -491,8 +472,7 @@
         },
         "x86": {
             "name": "Faust articulé",
-            "category": "Raid",
-            "source": "Alexandre - Le Fardeau du Fils (sadique)"
+            "category": "Raide"
         },
         "x87": {
             "name": "Bébé Fenrir",
@@ -511,8 +491,7 @@
         },
         "x89": {
             "name": "Apkallu nain",
-            "category": "Haut fait",
-            "source": "Argonaute d'Éorzéa"
+            "category": "Haut fait"
         },
         "x90": {
             "name": "Dodu dodo",
@@ -521,8 +500,7 @@
         },
         "x91": {
             "name": "Haine pardonnée",
-            "category": "Donjon",
-            "source": "Mont Gulg"
+            "category": "Donjon"
         },
         "x92": {
             "name": "Bébé renard",
@@ -537,8 +515,10 @@
         "x94": {
             "name": "Gaélichaton",
             "category": "Donjon",
-            "source": "Sohm Al",
-            "moreSources": "Palais des Morts, Kupo de la Fortune, Aquapole"
+            "source": [
+                "Kupo de la Fortune",
+                "Aquapole"
+            ]
         },
         "x95": {
             "name": "Baron ail",
@@ -548,14 +528,11 @@
         "x96": {
             "name": "Gestahl",
             "category": "Exploration",
-            "source": "Tâche d'exploration du servant",
-            "moreSources": "Pilier des Cieux"
+            "source": "Tâche d'exploration du servant"
         },
         "x97": {
             "name": "Ghido",
-            "category": "Donjon",
-            "source": "La Mer du Chant des sirènes",
-            "moreSources": "Pilier des Cieux"
+            "category": "Donjon"
         },
         "x98": {
             "name": "Castor géant",
@@ -569,8 +546,7 @@
         },
         "x100": {
             "name": "Gigi",
-            "category": "Quête",
-            "source": "Chacun son meilleur jour"
+            "category": "Quête"
         },
         "x101": {
             "name": "Castor doré",
@@ -579,18 +555,15 @@
         },
         "x413": {
             "name": "Golden Dhyata",
-            "category": "Quest",
-            "source": "The Meeting of Minds"
+            "category": "Quête"
         },
         "x102": {
             "name": "Chariot de mine mécanique",
-            "category": "ALÉA",
-            "source": "ALÉA: \"Défi: mangeur de terre gardée\""
+            "category": "ALÉA"
         },
         "x103": {
             "name": "Goobbue goulu",
-            "category": "Quête",
-            "source": "Un pied de vigne ambulant"
+            "category": "Quête"
         },
         "x104": {
             "name": "Golem graveleux",
@@ -609,8 +582,7 @@
         },
         "x396": {
             "name": "Goé",
-            "category": "Haut fait",
-            "source": "Mouette mouette avec les mouettes"
+            "category": "Haut fait"
         },
         "x106": {
             "name": "Bébé chocobo grassouillet",
@@ -625,7 +597,11 @@
         "x108": {
             "name": "Hérisson mignon",
             "category": "Chasse aux trésors",
-            "source": "Temple sacré d'Uznair, Canaux perdus d'Uznair, Canaux cachés d'Uznair"
+            "source": [
+                "Temple sacré d'Uznair",
+                "Canaux perdus d'Uznair",
+                "Canaux cachés d'Uznair"
+            ]
         },
         "x109": {
             "name": "Carbuncle héliodore",
@@ -634,13 +610,11 @@
         },
         "x110": {
             "name": "Chiot des enfers",
-            "category": "Haut fait",
-            "source": "Prédateur dans l'âme III"
+            "category": "Haut fait"
         },
         "x415": {
             "name": "Hippo Calf",
-            "category": "Dungeon",
-            "source": "Vanaspati"
+            "category": "Donjon"
         },
         "x111": {
             "name": "Bébé bonhomme de neige",
@@ -655,13 +629,11 @@
         "x113": {
             "name": "Buse chasseuse",
             "category": "Achat",
-            "source": "800 Assignats d'Azurée",
-            "moreSources": "Pilier des Cieux"
+            "source": "800 Assignats d'Azurée"
         },
         "x114": {
             "name": "Bébé imp",
-            "category": "ALÉA",
-            "source": "ALÉA: \"Go, Go, Gorgimera\""
+            "category": "ALÉA"
         },
         "x115": {
             "name": "Nain d'acier",
@@ -675,8 +647,7 @@
         },
         "x117": {
             "name": "Poupée Ivon le Coeurl",
-            "category": "Donjon",
-            "source": "Le Temple du Poing"
+            "category": "Donjon"
         },
         "x118": {
             "name": "Jibanyan",
@@ -691,7 +662,11 @@
         "x120": {
             "name": "Bébé koala",
             "category": "Tâche de servant",
-            "source": "Expédition sous-marine"
+            "source": [
+                "Woodland Exploration XXII",
+                "Southern Front Lockbox",
+                "Zadnor Lockbox"
+            ]
         },
         "x121": {
             "name": "Komainu",
@@ -710,9 +685,7 @@
         },
         "x124": {
             "name": "Pon-korpokkur",
-            "category": "Donjon",
-            "source": "L'Arboretum Sainte-Mocianne",
-            "moreSources": "Pilier des Cieux"
+            "category": "Donjon"
         },
         "x125": {
             "name": "Kyubi",
@@ -721,8 +694,7 @@
         },
         "x126": {
             "name": "Laladile",
-            "category": "Haut fait",
-            "source": "Maître artisan d'Azurée"
+            "category": "Haut fait"
         },
         "x127": {
             "name": "Nain lali-ho",
@@ -732,8 +704,7 @@
         "x128": {
             "name": "Petit panda roux",
             "category": "Donjon",
-            "source": "L'Aire",
-            "moreSources": "Palais des Morts, Aquapole"
+            "source": "Aquapole"
         },
         "x129": {
             "name": "Enfeuillé miniature",
@@ -742,8 +713,7 @@
         },
         "x130": {
             "name": "Mini-Leannan Sith",
-            "category": "Donjon",
-            "source": "Le Cosmos coruscant"
+            "category": "Donjon"
         },
         "x131": {
             "name": "Fantôme joyeux",
@@ -782,23 +752,19 @@
         },
         "x138": {
             "name": "Vengeur magitek S1",
-            "category": "Donjon",
-            "source": "Castrum Abania"
+            "category": "Donjon"
         },
         "x139": {
             "name": "Plongeur infernal S1",
-            "category": "Bozja",
-            "source": "Castrum Lacus Litore - Front sud de Bozja"
+            "category": "Bozja"
         },
         "x397": {
             "name": "Prédateur magitek S1",
-            "category": "Donjon",
-            "source": "La grande prairie de Paglth'an"
+            "category": "Donjon"
         },
         "x140": {
             "name": "Malone",
-            "category": "Haut fait",
-            "source": "Maître récolteur d'Azurée"
+            "category": "Haut fait"
         },
         "x141": {
             "name": "Mame shiba",
@@ -812,18 +778,15 @@
         },
         "x143": {
             "name": "Pantin P003G",
-            "category": "Haut fait",
-            "source": "Carnet de chasse: Deux Vipères"
+            "category": "Haut fait"
         },
         "x144": {
             "name": "Pantin P003L",
-            "category": "Haut fait",
-            "source": "Carnet de chasse: Maelstrom"
+            "category": "Haut fait"
         },
         "x145": {
             "name": "Pantin P003U",
-            "category": "Haut fait",
-            "source": "Carnet de chasse: Immortels"
+            "category": "Haut fait"
         },
         "x146": {
             "name": "Reine mandragore",
@@ -847,19 +810,16 @@
         },
         "x150": {
             "name": "Midgardsormr",
-            "category": "Quête",
-            "source": "Le Gardien du lac"
+            "category": "Quête"
         },
         "x151": {
             "name": "Taupe trapue",
-            "category": "Quête",
-            "source": "Taupologie"
+            "category": "Quête"
         },
         "x152": {
             "name": "Wagonnet mécanique",
             "category": "Exploration",
-            "source": "Tâche d'exploration du servant",
-            "moreSources": "Pilier des Cieux"
+            "source": "Tâche d'exploration du servant"
         },
         "x153": {
             "name": "Mini-cavalier blanc",
@@ -879,13 +839,14 @@
         "x156": {
             "name": "Gentil flagelleur",
             "category": "Exploration",
-            "source": "Tâche d'exploration du servant",
-            "moreSources": "Palais des Morts, Aquapole"
+            "source": [
+                "Tâche d'exploration du servant",
+                "Aquapole"
+            ]
         },
         "x157": {
             "name": "Grynewaht miniature",
-            "category": "Donjon",
-            "source": "Le Château de Doma"
+            "category": "Donjon"
         },
         "x158": {
             "name": "Maquette de l'Entreprise",
@@ -904,19 +865,16 @@
         },
         "x161": {
             "name": "Petit Qitian Dasheng",
-            "category": "Donjon",
-            "source": "Le Compas de l'Hirondelle"
+            "category": "Donjon"
         },
         "x162": {
             "name": "Bulbe de morbol",
-            "category": "Donjon",
-            "source": "Le Val d'Aurum"
+            "category": "Donjon"
         },
         "x163": {
             "name": "Morpho",
             "category": "Donjon",
-            "source": "Les Vestiges de la cité d'Amdapor (brutal)",
-            "moreSources": "Pilier des Cieux, Kupo de la Fortune"
+            "source": "Kupo de la Fortune"
         },
         "x164": {
             "name": "Œuf bouffon",
@@ -925,19 +883,16 @@
         },
         "x165": {
             "name": "Momo Ramora",
-            "category": "Haut fait",
-            "source": "Grand pêcheur IV"
+            "category": "Haut fait"
         },
         "x166": {
             "name": "Pâté de boue",
-            "category": "Donjon",
-            "source": "L'Arboretum Sainte-Mocianne (brutal)"
+            "category": "Donjon"
         },
         "x167": {
             "name": "Mini-momie",
             "category": "Donjon",
-            "source": "Le Temple enseveli de Qarn (brutal)",
-            "moreSources": "Palais des Morts, Aquapole"
+            "source": "Aquapole"
         },
         "x168": {
             "name": "Arme mystique",
@@ -947,7 +902,7 @@
         "x416": {
             "name": "Nagxian Cat",
             "category": "Purchase",
-            "source": "800 Sacks of Nuts"
+            "source": "800 Insigne de chasse"
         },
         "x169": {
             "name": "Poupée Namingway",
@@ -961,8 +916,7 @@
         },
         "x171": {
             "name": "Nanka narquois",
-            "category": "Donjon",
-            "source": "L'Île de CrèveCarène"
+            "category": "Donjon"
         },
         "x172": {
             "name": "Noko",
@@ -971,25 +925,24 @@
         },
         "x417": {
             "name": "Nasferatu",
-            "category": "Raid",
-            "source": "Asphodelos: The Fourth Circle"
+            "category": "Raide"
         },
         "x173": {
             "name": "Écureuil grignoteur",
             "category": "Donjon sans fond",
-            "source": "Palais des morts",
-            "moreSources": "Carte secrète en cuir, Aquapole"
+            "source": [
+                "Carte secrète en cuir",
+                "Aquapole"
+            ]
         },
         "x174": {
             "name": "Loutre choute",
             "category": "Exploration",
-            "source": "Tâche d'exploration du servant",
-            "moreSources": "Pilier des Cieux"
+            "source": "Tâche d'exploration du servant"
         },
         "x175": {
             "name": "Mini-Oméga",
-            "category": "Raid",
-            "source": "Alphastice V4.0"
+            "category": "Raide"
         },
         "x176": {
             "name": "Prince oignon",
@@ -998,26 +951,26 @@
         },
         "x418": {
             "name": "Optimus Omicron",
-            "category": "Dungeon",
-            "source": "The Stigma Dreamscape"
+            "category": "Donjon"
         },
         "x177": {
             "name": "Bébé hibou",
             "category": "Donjon",
-            "source": "Le Continuum fractal",
-            "moreSources": "Palais des Morts, Aquapole"
+            "source": "Aquapole"
         },
         "x178": {
             "name": "Page 63",
             "category": "Donjon",
-            "source": "La Grande bibliothèque de Gubal",
-            "moreSources": "Palais des Morts, Aquapole"
+            "source": "Aquapole"
         },
         "x179": {
             "name": "Petiot païssa",
             "category": "Achat",
-            "source": "800 Assignats d'Azurée",
-            "moreSources": "Palais des Morts, Vieille carte en peau de dragon, Aquapole"
+            "source": [
+                "800 Assignats d'Azurée",
+                "Vieille carte en peau de dragon",
+                "Aquapole"
+            ]
         },
         "x180": {
             "name": "Païssa cuisinier",
@@ -1031,8 +984,7 @@
         },
         "x182": {
             "name": "Felyne",
-            "category": "Quête",
-            "source": "Le roi des cieux"
+            "category": "Quête"
         },
         "x183": {
             "name": "Petit panda pataud",
@@ -1046,8 +998,7 @@
         },
         "x185": {
             "name": "Manchot prince",
-            "category": "Haut fait",
-            "source": "Grand mini-stratège"
+            "category": "Haut fait"
         },
         "x186": {
             "name": "Carbuncle péridot",
@@ -1057,7 +1008,7 @@
         "x187": {
             "name": "Petit Pteranodon",
             "category": "Achat",
-            "source": "Kupo of Fortune"
+            "source": "Kupo de la Fortune"
         },
         "x188": {
             "name": "Porcelet promeneur",
@@ -1071,33 +1022,27 @@
         },
         "x190": {
             "name": "Pod 054",
-            "category": "Raid",
-            "source": "La réplique de l'usine désaffectée"
+            "category": "Raide"
         },
         "x191": {
             "name": "Pod 316",
-            "category": "Raid",
-            "source": "La réplique de l'usine désaffectée"
+            "category": "Raide"
         },
         "x192": {
             "name": "Poogie",
-            "category": "Défi",
-            "source": "Chasse au Rathalos (extrême)"
+            "category": "Défi"
         },
         "x193": {
             "name": "Poro Roggo",
-            "category": "Quête",
-            "source": "La voix de la planète"
+            "category": "Quête"
         },
         "x419": {
             "name": "Prince Lunatender",
-            "category": "Dungeon",
-            "source": "Smileton"
+            "category": "Donjon"
         },
         "x194": {
             "name": "Prince bébé chocobo",
-            "category": "Haut fait",
-            "source": "Laisser une bonne impression II"
+            "category": "Haut fait"
         },
         "x195": {
             "name": "Mini moai",
@@ -1106,13 +1051,11 @@
         },
         "x196": {
             "name": "Puk potelé",
-            "category": "ALÉA",
-            "source": "ALÉA :\" L'Œil de la Tête\""
+            "category": "ALÉA"
         },
         "x197": {
             "name": "Nuage noir miniature",
-            "category": "Raide",
-            "source": "La Tour de Cristal - Monde des Ténèbres"
+            "category": "Raide"
         },
         "x198": {
             "name": "Majordome citrouille",
@@ -1121,9 +1064,7 @@
         },
         "x199": {
             "name": "Moineau voyageur",
-            "category": "Donjon",
-            "source": "La Force de Bardam",
-            "moreSources": "Pilier des Cieux"
+            "category": "Donjon"
         },
         "x200": {
             "name": "Robonyan F-Type",
@@ -1133,12 +1074,11 @@
         "x420": {
             "name": "Royal Lunatender",
             "category": "Treasure Hunt",
-            "source": "The Excitatron 6000"
+            "source": "Le Ludodrome"
         },
         "x201": {
             "name": "Bébé phoque",
-            "category": "Donjon",
-            "source": "La Cité engloutie de Skalla"
+            "category": "Donjon"
         },
         "x202": {
             "name": "Renard des sables",
@@ -1147,8 +1087,7 @@
         },
         "x203": {
             "name": "Garde-la-Princesse",
-            "category": "Raid",
-            "source": "Delubrum Reginae (Sadique)"
+            "category": "Raide"
         },
         "x204": {
             "name": "Paonne vermillon",
@@ -1177,14 +1116,11 @@
         },
         "x208": {
             "name": "Marcassin",
-            "category": "Donjon",
-            "source": "Xelphatol",
-            "moreSources": "Pilier des Cieux"
+            "category": "Donjon"
         },
         "x209": {
             "name": "Poussin oculus",
-            "category": "Haut fait",
-            "source": "Tactique des mascottes II"
+            "category": "Haut fait"
         },
         "x210": {
             "name": "Sous-marin de classe Rémora",
@@ -1193,8 +1129,7 @@
         },
         "x211": {
             "name": "Bec-en-sabot",
-            "category": "Instance",
-            "source": "Amaurote"
+            "category": "Instance"
         },
         "x212": {
             "name": "Shogunyan",
@@ -1208,18 +1143,15 @@
         },
         "x214": {
             "name": "Mini-gluant",
-            "category": "Donjon",
-            "source": "Les Mines de Clochecuivre (brutal)"
+            "category": "Donjon"
         },
         "x399": {
             "name": "Forme de vie mécanique",
-            "category": "Raid",
-            "source": "La tour de la Contigence"
+            "category": "Raide"
         },
         "x215": {
             "name": "Coquépique",
-            "category": "ALÉA",
-            "source": "ALÉA: \"Cancer, le casque de mort\""
+            "category": "ALÉA"
         },
         "x216": {
             "name": "Edward miniature",
@@ -1233,8 +1165,7 @@
         },
         "x422": {
             "name": "Starbird",
-            "category": "Dungeon",
-            "source": "The Dead Ends"
+            "category": "Donjon"
         },
         "x217": {
             "name": "Gobblindé G-VII à vapeur",
@@ -1288,24 +1219,21 @@
         },
         "x227": {
             "name": "Serpent marin de Ronka ?",
-            "category": "Quête",
-            "source": "Tous unis pour Ronka"
+            "category": "Quête"
         },
         "x228": {
             "name": "Requin commandeur",
-            "category": "Haut fait",
-            "source": "Ratisseur des océans I"
+            "category": "Haut fait"
         },
         "x229": {
             "name": "Prince d'Anemos",
             "category": "Mission d'exploration",
-            "source": "Coffre verrouillé d'Anemos, ALÉA: \"Défi: Le Seigneur De La Terre Interdite\" - Eurêka Anemos"
+            "source": "Coffre verrouillé d'Anemos"
         },
         "x230": {
             "name": "Perroquet taciturne",
             "category": "Donjon",
-            "source": "Sastasha (brutal)",
-            "moreSources": "Aquapole"
+            "source": "Aquapole"
         },
         "x231": {
             "name": "Clochette",
@@ -1315,13 +1243,14 @@
         "x232": {
             "name": "Bulbe miniature",
             "category": "Donjon sans fond",
-            "source": "Palais des morts",
-            "moreSources": "Vieille carte en peau de crapaud, Aquapole"
+            "source": [
+                "Vieille carte en peau de crapaud",
+                "Aquapole"
+            ]
         },
         "x233": {
             "name": "Échevore nain",
-            "category": "Donjon",
-            "source": "Dohn Mheg"
+            "category": "Donjon"
         },
         "x234": {
             "name": "Écureuil nain",
@@ -1336,8 +1265,7 @@
         "x236": {
             "name": "Hippocampoupon",
             "category": "Récolte",
-            "source": "Récolter par le Pêcheur",
-            "moreSources": "Pilier des Cieux"
+            "source": "Récolter par le Pêcheur"
         },
         "x237": {
             "name": "Tortue naine",
@@ -1346,8 +1274,7 @@
         },
         "x423": {
             "name": "Tiny Troll",
-            "category": "Dungeon",
-            "source": "The Aitiascope"
+            "category": "Donjon"
         },
         "x238": {
             "name": "Roi tomate",
@@ -1361,8 +1288,7 @@
         },
         "x240": {
             "name": "Alexander articulé",
-            "category": "Raid",
-            "source": "Alexander - L'Âme du Créateur, Alexander - L'Âme du Créateur (Sadique)"
+            "category": "Raide"
         },
         "x241": {
             "name": "Coffre au trésor mécanique",
@@ -1377,14 +1303,15 @@
         "x243": {
             "name": "Vilain petit canard",
             "category": "Donjon",
-            "source": "Nalloncques",
-            "moreSources": "Palais des Morts, Kupo de la Fortune, Aquapole"
+            "source": [
+                "Kupo de la Fortune",
+                "Aquapole"
+            ]
         },
         "x244": {
             "name": "Bébé licorne",
             "category": "Donjon",
-            "source": "La Voûte",
-            "moreSources": "Palais des Morts, Aquapole"
+            "source": "Aquapole"
         },
         "x245": {
             "name": "Lapin malchanceux",
@@ -1423,8 +1350,8 @@
         },
         "x424": {
             "name": "Wee Ea",
-            "category": "FATE",
-            "source": "500 Bicolor Gemstones (Ultima Thule)"
+            "category": "ALÉA",
+            "source": "500 Gemme Bicolore (Ultima Thulé)"
         },
         "x251": {
             "name": "Whisper",
@@ -1433,8 +1360,7 @@
         },
         "x252": {
             "name": "Fouine blanche",
-            "category": "Donjon",
-            "source": "Le Couvercle des Enfers"
+            "category": "Donjon"
         },
         "x253": {
             "name": "Faon aux yeux de biche",
@@ -1448,8 +1374,7 @@
         },
         "x255": {
             "name": "Aéronef mécanique",
-            "category": "Quête",
-            "source": "L'Émissaire de Gridania, L'Émissaire de Limsa Lominsa, L'Émissaire d'Ul'dah"
+            "category": "Quête"
         },
         "x256": {
             "name": "Mini-bouquetin",
@@ -1463,13 +1388,11 @@
         },
         "x258": {
             "name": "Alpha mécanique",
-            "category": "Quête",
-            "source": "Le grand envol"
+            "category": "Quête"
         },
         "x259": {
             "name": "Alphinaud miniature",
-            "category": "Quête",
-            "source": "À la recherche de Cœur-de-glace"
+            "category": "Quête"
         },
         "x260": {
             "name": "Amalj'aa mécanique",
@@ -1483,8 +1406,7 @@
         },
         "x425": {
             "name": "Wind-up Anima",
-            "category": "Dungeon",
-            "source": "The Tower of Babil"
+            "category": "Donjon"
         },
         "x262": {
             "name": "Ardbert miniature",
@@ -1493,8 +1415,7 @@
         },
         "x263": {
             "name": "Aymeric miniature",
-            "category": "Quête",
-            "source": "Un chant pour l'avenir"
+            "category": "Quête"
         },
         "x264": {
             "name": "Bébé Bahamut",
@@ -1509,8 +1430,7 @@
         "x266": {
             "name": "Petit Bismarck",
             "category": "Artisanat",
-            "source": "Recette du Couturier",
-            "moreSources": "Pilier des Cieux"
+            "source": "Recette du Couturier"
         },
         "x267": {
             "name": "Siman mécanique",
@@ -1519,8 +1439,7 @@
         },
         "x268": {
             "name": "Poupée Calofisteri",
-            "category": "Raid",
-            "source": "La Cité défendue de Mhach"
+            "category": "Raide"
         },
         "x269": {
             "name": "Marionnette majorette",
@@ -1534,8 +1453,7 @@
         },
         "x271": {
             "name": "Cid miniature",
-            "category": "Quête",
-            "source": "Une impérieuse présence"
+            "category": "Quête"
         },
         "x272": {
             "name": "Cirina miniature",
@@ -1555,7 +1473,7 @@
         "x426": {
             "name": "Wind-up Daivadipa",
             "category": "Purchase",
-            "source": "5 Daivadipa's Beads"
+            "source": "5 Orbe sacré de Daivadipa"
         },
         "x275": {
             "name": "Dalamud mécanique",
@@ -1589,13 +1507,11 @@
         },
         "x281": {
             "name": "Echidna miniature",
-            "category": "Raid",
-            "source": "L'Arche du néant"
+            "category": "Raide"
         },
         "x282": {
             "name": "Edda miniature",
-            "category": "Donjon sans fond",
-            "source": "Palais des Morts"
+            "category": "Donjon sans fond"
         },
         "x401": {
             "name": "Edge miniature",
@@ -1609,8 +1525,7 @@
         },
         "x284": {
             "name": "Poupée elvaan",
-            "category": "Mission d'exploration",
-            "source": "ALÉA \"Jack le Bucheron\" - Eurêka Pyros"
+            "category": "Mission d'exploration"
         },
         "x285": {
             "name": "Estinien miniature",
@@ -1619,13 +1534,12 @@
         },
         "x286": {
             "name": "Exdeath miniature",
-            "category": "Raid",
-            "source": "Deltascape V4.0, Deltascape V4.0 (Savage)"
+            "category": "Raide"
         },
         "x287": {
             "name": "Fafnir mécanique",
             "category": "Mission d'exploration",
-            "source": "Coffre verrouillé d'Anemos, ALÉA \"Défi: Le Dragon Démentiel\" - Eurêka Anemos"
+            "source": "Coffre verrouillé d'Anemos"
         },
         "x288": {
             "name": "Firion miniature",
@@ -1649,24 +1563,20 @@
         },
         "x292": {
             "name": "Gaïa miniature",
-            "category": "Raid",
-            "source": "La Promesse d'Éden : Éternité / La Promesse d'Éden : Éternité (Sadique)"
+            "category": "Raide"
         },
         "x293": {
             "name": "G'raha Tia miniature",
-            "category": "Quête",
-            "source": "Porteurs d'ombre"
+            "category": "Quête"
         },
         "x294": {
             "name": "Petite Garuda",
             "category": "Artisanat",
-            "source": "Recette du Couturier",
-            "moreSources": "Pilier des Cieux"
+            "source": "Recette du Couturier"
         },
         "x295": {
             "name": "Hildibrand miniature",
-            "category": "Quête",
-            "source": "Boucler la boucle"
+            "category": "Quête"
         },
         "x296": {
             "name": "Pantin Gilgamesh",
@@ -1705,13 +1615,11 @@
         },
         "x301": {
             "name": "Haurchefant miniature",
-            "category": "Quête",
-            "source": "Entre Lumière et Ténèbres"
+            "category": "Quête"
         },
         "x428": {
             "name": "Wind-up Herois",
-            "category": "Quest",
-            "source": "Endwalker"
+            "category": "Quête"
         },
         "x302": {
             "name": "Hien miniature",
@@ -1736,8 +1644,7 @@
         "x306": {
             "name": "Petit Ifrit",
             "category": "Artisanat",
-            "source": "Recette du Couturier",
-            "moreSources": "Pilier des Cieux"
+            "source": "Recette du Couturier"
         },
         "x307": {
             "name": "Gobelin de la Mimine bleue",
@@ -1751,7 +1658,7 @@
         },
         "x309": {
             "name": "Petit Ixion",
-            "category": "AALÉA",
+            "category": "ALÉA",
             "source": "Eschina - L'Étendue de Rhalgr - 5 Cornes d'Ixion"
         },
         "x310": {
@@ -1761,8 +1668,7 @@
         },
         "x311": {
             "name": "Kefka miniature",
-            "category": "Raid",
-            "source": "Sigmastice v4.0 / Sigmastice v4.0 (Sadique)"
+            "category": "Raide"
         },
         "x312": {
             "name": "Khloe miniature",
@@ -1792,8 +1698,7 @@
         "x317": {
             "name": "Petite Lakshmi",
             "category": "Artisanat",
-            "source": "Recette du Couturier",
-            "moreSources": "Pilier des Cieux"
+            "source": "Recette du Couturier"
         },
         "x318": {
             "name": "Dirigeant miniature",
@@ -1803,13 +1708,11 @@
         "x319": {
             "name": "Petit Léviathan",
             "category": "Artisanat",
-            "source": "Recette du Couturier",
-            "moreSources": "Pilier des Cieux"
+            "source": "Recette du Couturier"
         },
         "x320": {
             "name": "Louisoix miniature",
-            "category": "Haut fait",
-            "source": "Jusqu'au fond de l'Abîme I"
+            "category": "Haut fait"
         },
         "x321": {
             "name": "Lulu miniature",
@@ -1833,8 +1736,7 @@
         },
         "x429": {
             "name": "Wind-up Magus Sisters",
-            "category": "Dungeon",
-            "source": "The Tower of Zot"
+            "category": "Donjon"
         },
         "x324": {
             "name": "Matanga mécanique",
@@ -1854,12 +1756,11 @@
         "x327": {
             "name": "Poupée Mithra",
             "category": "Mission d'exploration",
-            "source": "Coffre verrouillé d'Anemos / ALÉA \"Défi: Le Scorpion Mythique\" - Eurêka Anemos"
+            "source": "Coffre verrouillé d'Anemos"
         },
         "x328": {
             "name": "Moenbryda miniature",
-            "category": "Quête",
-            "source": "Les gardiens des âmes"
+            "category": "Quête"
         },
         "x329": {
             "name": "Poupée mog",
@@ -1873,8 +1774,7 @@
         },
         "x331": {
             "name": "Mystel miniature",
-            "category": "Quête",
-            "source": "Demain t'appartient"
+            "category": "Quête"
         },
         "x332": {
             "name": "Namazu mécanique",
@@ -1923,8 +1823,7 @@
         },
         "x341": {
             "name": "Poupée chevalier oignon",
-            "category": "Raid",
-            "source": "La Tour de Cristal - Tour de Syrcus"
+            "category": "Raide"
         },
         "x403": {
             "name": "Palom miniature",
@@ -1959,19 +1858,16 @@
         "x346": {
             "name": "Petit Ramuh",
             "category": "Artisanat",
-            "source": "Recette du Couturier",
-            "moreSources": "Pilier des Cieux"
+            "source": "Recette du Couturier"
         },
         "x347": {
             "name": "Ramza miniature",
-            "category": "Raid",
-            "source": "Le Monastère d'Orbonne"
+            "category": "Raide"
         },
         "x348": {
             "name": "Petit Ravana",
             "category": "Artisanat",
-            "source": "Recette du Couturier",
-            "moreSources": "Pilier des Cieux"
+            "source": "Recette du Couturier"
         },
         "x349": {
             "name": "Mage rouge mécanique",
@@ -2015,8 +1911,7 @@
         },
         "x353": {
             "name": "Ryne miniature",
-            "category": "Raid",
-            "source": "Les Accords d'Éden - Éclat, Les Accords d'Éden - Éclat (Sadique)"
+            "category": "Raide"
         },
         "x354": {
             "name": "Sadu miniature",
@@ -2035,8 +1930,7 @@
         },
         "x357": {
             "name": "Scáthach miniature",
-            "category": "Raid",
-            "source": "Dun Scaith"
+            "category": "Raide"
         },
         "x358": {
             "name": "Démon des mers mécanique",
@@ -2056,8 +1950,7 @@
         "x361": {
             "name": "Petite Shiva",
             "category": "Artisanat",
-            "source": "Recette du Couturier",
-            "moreSources": "Pilier des Cieux"
+            "source": "Recette du Couturier"
         },
         "x362": {
             "name": "Poupée succube",
@@ -2072,8 +1965,7 @@
         "x364": {
             "name": "Petit Susano",
             "category": "Fabrication",
-            "source": "Recette du Couturier",
-            "moreSources": "Pilier des Cieux"
+            "source": "Recette du Couturier"
         },
         "x365": {
             "name": "Suzaku mécanique",
@@ -2088,7 +1980,7 @@
         "x367": {
             "name": "Poupée Tarutaru",
             "category": "Mission d'exploration",
-            "source": "Coffre verrouillé de Pagos - Eurêka Pagos"
+            "source": "Coffre verrouillé de Pagos"
         },
         "x368": {
             "name": "Tataru miniature",
@@ -2108,14 +2000,15 @@
         "x371": {
             "name": "Petit Titan",
             "category": "Artisanat",
-            "source": "Recette du Couturier",
-            "moreSources": "Pilier des Cieux"
+            "source": "Recette du Couturier"
         },
         "x372": {
             "name": "Tomberry mécanique",
             "category": "Donjon sans fond",
-            "source": "Palais des Morts",
-            "moreSources": "Vieille carte en peau de sanglier, Aquapole"
+            "source": [
+                "Vieille carte en peau de sanglier",
+                "Aquapole"
+            ]
         },
         "x373": {
             "name": "Poupée Tsukuyomi",
@@ -2124,8 +2017,7 @@
         },
         "x374": {
             "name": "Orthros articulé",
-            "category": "Défi",
-            "source": "Le Col du dragon"
+            "category": "Défi"
         },
         "x375": {
             "name": "Urianger miniature",
@@ -2154,8 +2046,7 @@
         },
         "x379": {
             "name": "Mascotte blindée",
-            "category": "Donjon",
-            "source": "Les Ténèbres de Ghimlyt"
+            "category": "Donjon"
         },
         "x380": {
             "name": "Y'shtola miniature",
@@ -2194,13 +2085,15 @@
         },
         "x387": {
             "name": "Bébé chacal",
-            "category": "Quête",
-            "source": "Le chacal amical"
+            "category": "Quête"
         },
         "x388": {
             "name": "Ko-yukinko",
             "category": "Mission d'exploration",
-            "source": "Coffre verrouillé d'Hydatos, Coffre rouillé - Eurêka Hydatos"
+            "source": [
+                "Coffre verrouillé d'Hydatos",
+                "Coffre rouillé"
+            ]
         },
         "x389": {
             "name": "Zazel",

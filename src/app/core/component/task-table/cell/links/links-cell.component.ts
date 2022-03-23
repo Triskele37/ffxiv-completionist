@@ -1,4 +1,5 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges, ViewChild } from '@angular/core';
+import { OverlayPanel } from 'primeng/overlaypanel';
 
 import { Task } from '@domain/Task';
 import { DataService } from '@data';
@@ -13,6 +14,9 @@ export class LinksCellComponent implements OnChanges {
     @Input() taskPaths: string | string[];
     tasks: Task[] = []; // actually (Task | string)[]
 
+    isOverlayLocked: boolean = false;
+    @ViewChild('linkOverlay') linkOverlay: OverlayPanel;
+
     constructor(
         private svcData: DataService,
         private svcNavigation: NavigationService
@@ -23,6 +27,20 @@ export class LinksCellComponent implements OnChanges {
         if(changes.taskPaths?.currentValue) {
             this.compileLinkedTasks();
         }
+    }
+
+    onMultiLinkLeave(): void {
+        if(this.isOverlayLocked) return;
+        this.linkOverlay.hide();
+    }
+
+    onOverlayLeave(): void {
+        this.isOverlayLocked = false;
+        this.linkOverlay.hide();
+    }
+
+    onLockOverlayClick(): void {
+        this.isOverlayLocked = !this.isOverlayLocked;
     }
 
     onClickLink(task: Task): void {

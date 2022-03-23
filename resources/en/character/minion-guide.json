@@ -4,24 +4,20 @@
         "name": "Minion",
         "category": "Category",
         "source": "Source",
-        "moreSources": "Additional Sources",
         "patch": "Patch"
     },
     "tasks": {
         "x0": {
             "name": "2B Automaton",
-            "category": "Raid",
-            "source": "The Puppets' Bunker"
+            "category": "Raid"
         },
         "x1": {
             "name": "2P Automaton",
-            "category": "Raid",
-            "source": "The Puppets' Bunker"
+            "category": "Raid"
         },
         "x392": {
             "name": "9S Automaton",
-            "category": "Raid",
-            "source": "The Tower At Paradigm's Breach"
+            "category": "Raid"
         },
         "x2": {
             "name": "Abroader Otter",
@@ -30,8 +26,7 @@
         },
         "x3": {
             "name": "Accompaniment Node",
-            "category": "Quest",
-            "source": "Do It for Gilly"
+            "category": "Quest"
         },
         "x408": {
             "name": "Adventure Basket",
@@ -50,8 +45,7 @@
         },
         "x6": {
             "name": "Ancient One",
-            "category": "Dungeon",
-            "source": "Anamnesis Anyder"
+            "category": "Dungeon"
         },
         "x7": {
             "name": "Angel of Mercy",
@@ -60,8 +54,7 @@
         },
         "x8": {
             "name": "Anima",
-            "category": "Quest",
-            "source": "Body and Soul"
+            "category": "Quest"
         },
         "x393": {
             "name": "Anteater",
@@ -70,8 +63,7 @@
         },
         "x9": {
             "name": "Armadillo Bowler",
-            "category": "Dungeon",
-            "source": "Malikah's Well"
+            "category": "Dungeon"
         },
         "x10": {
             "name": "Assassin Fry",
@@ -81,8 +73,10 @@
         "x11": {
             "name": "Atrophied Atomos",
             "category": "Crafting",
-            "source": "Crafted by Alchemist",
-            "moreSources": "Kupo of Fortune"
+            "source": [
+                "Crafted by Alchemist",
+                "Kupo of Fortune"
+            ]
         },
         "x12": {
             "name": "Attendee #777",
@@ -97,7 +91,10 @@
         "x14": {
             "name": "Axolotl Eft",
             "category": "Venture",
-            "source": "Waterside Exploration XXII, Quick Exploration"
+            "source": [
+                "Waterside Exploration XXII",
+                "Quick Exploration"
+            ]
         },
         "x15": {
             "name": "Baby Bat",
@@ -112,13 +109,11 @@
         "x17": {
             "name": "Baby Brachiosaur",
             "category": "Purchase",
-            "source": "800 Skybuilders' Scrips",
-            "moreSources": "Heaven-on-High"
+            "source": "800 Skybuilders' Scrips"
         },
         "x18": {
             "name": "Baby Bun",
-            "category": "FATE",
-            "source": "FATE \"Lazy for You\""
+            "category": "FATE"
         },
         "x19": {
             "name": "Baby Gremlin",
@@ -128,8 +123,7 @@
         "x20": {
             "name": "Baby Opo-opo",
             "category": "Dungeon",
-            "source": "Brayflox's Longstop (Hard)",
-            "moreSources": "The Palace of the Dead, The Aquapolis"
+            "source": "The Aquapolis"
         },
         "x21": {
             "name": "Baby Raptor",
@@ -139,7 +133,10 @@
         "x22": {
             "name": "Bacon Bits",
             "category": "Venture",
-            "source": "Woodland Exploration XXV, Quick Exploration"
+            "source": [
+                "Woodland Exploration XXV",
+                "Quick Exploration"
+            ]
         },
         "x23": {
             "name": "Beady Eye",
@@ -158,8 +155,7 @@
         },
         "x25": {
             "name": "Bite-Sized Pudding",
-            "category": "Dungeon",
-            "source": "The Wanderer's Palace"
+            "category": "Dungeon"
         },
         "x26": {
             "name": "Bitty Duckbill",
@@ -178,8 +174,7 @@
         },
         "x29": {
             "name": "Black Hayate",
-            "category": "Dungeon",
-            "source": "Holminster Switch"
+            "category": "Dungeon"
         },
         "x30": {
             "name": "Blizzaria",
@@ -189,20 +184,24 @@
         "x31": {
             "name": "Bluebird",
             "category": "Deep Dungeon",
-            "source": "The Palace of the Dead",
-            "moreSources": "Timeworn Peisteskin Map, Timeworn Dragonskin Map, The Aquapolis"
+            "source": [
+                "Timeworn Peisteskin Map",
+                "Timeworn Dragonskin Map",
+                "The Aquapolis"
+            ]
         },
         "x32": {
             "name": "Bom Boko",
             "category": "Venture",
-            "source": "Field Exploration XX and XXII, Quick Exploration",
-            "moreSources": "Heaven-on-High"
+            "source": [
+                "Field Exploration XX",
+                "Field Exploration XXII",
+                "Quick Exploration"
+            ]
         },
         "x33": {
             "name": "Bombfish",
-            "category": "Dungeon",
-            "source": "Shisui of the Violet Tides",
-            "moreSources": "Heaven-on-High"
+            "category": "Dungeon"
         },
         "x409": {
             "name": "Brave New Urianger",
@@ -221,19 +220,16 @@
         },
         "x36": {
             "name": "Brina",
-            "category": "Dungeon",
-            "source": "The Antitower"
+            "category": "Dungeon"
         },
         "x37": {
             "name": "Buffalo Calf",
-            "category": "Quest",
-            "source": "It's Possibly a Primal"
+            "category": "Quest"
         },
         "x38": {
             "name": "Bullpup",
             "category": "Dungeon",
-            "source": "Baelsar's Wall",
-            "moreSources": "Kupo of Fortune"
+            "source": "Kupo of Fortune"
         },
         "x39": {
             "name": "Butterfly Effect",
@@ -247,13 +243,11 @@
         },
         "x41": {
             "name": "Cactuar Cutting",
-            "category": "Quest",
-            "source": "Zombies Are People Too"
+            "category": "Quest"
         },
         "x410": {
             "name": "Caduceus",
-            "category": "Dungeon",
-            "source": "Ktisis Hyperboreia"
+            "category": "Dungeon"
         },
         "x42": {
             "name": "Cait Sith Doll",
@@ -262,25 +256,25 @@
         },
         "x43": {
             "name": "Calamari",
-            "category": "Dungeon",
-            "source": "Hullbreaker Isle (Hard)"
+            "category": "Dungeon"
         },
         "x44": {
             "name": "Calca",
-            "category": "Dungeon",
-            "source": "The Antitower",
-            "moreSources": "FATE \"Creepy Doll\" - Eureka Pyros"
+            "category": "Dungeon"
         },
         "x45": {
             "name": "Capybara Pup",
             "category": "Treasure Hunt",
-            "source": "The Lost Canals of Uznair, The Hidden Canals of Uznair, The Shifting Canals of Uznair"
+            "source": [
+                "The Lost Canals of Uznair",
+                "The Hidden Canals of Uznair",
+                "The Shifting Canals of Uznair"
+            ]
         },
         "x46": {
             "name": "Castaway Chocobo Chick",
             "category": "Gathering",
-            "source": "Gathered by Fisher",
-            "moreSources": "Heaven-on-High"
+            "source": "Gathered by Fisher"
         },
         "x47": {
             "name": "Cerberpup",
@@ -289,8 +283,7 @@
         },
         "x48": {
             "name": "Chameleon",
-            "category": "Dungeon",
-            "source": "The Qitana Ravel"
+            "category": "Dungeon"
         },
         "x49": {
             "name": "Cherry Bomb",
@@ -299,8 +292,7 @@
         },
         "x50": {
             "name": "Chigoe Larva",
-            "category": "Quest",
-            "source": "Occupational Hazards"
+            "category": "Quest"
         },
         "x51": {
             "name": "Chocobo Chick Courier",
@@ -309,8 +301,7 @@
         },
         "x52": {
             "name": "Clionid Larva",
-            "category": "Dungeon",
-            "source": "Akadaemia Anyder"
+            "category": "Dungeon"
         },
         "x53": {
             "name": "Clockwork Barrow",
@@ -324,8 +315,7 @@
         },
         "x55": {
             "name": "Clockwork Twintania",
-            "category": "Achievement",
-            "source": "Challenge Accepted"
+            "category": "Achievement"
         },
         "x56": {
             "name": "Coblyn Larva",
@@ -334,18 +324,15 @@
         },
         "x57": {
             "name": "Coeurl Kitten",
-            "category": "Quest",
-            "source": "Curiosity Killed the Coeurl"
+            "category": "Quest"
         },
         "x58": {
             "name": "Conditional Virtue",
-            "category": "Exploratory Mission",
-            "source": "The Baldesion Arsenal - Eureka Hydatos"
+            "category": "Exploratory Mission"
         },
         "x59": {
             "name": "Construct 8",
-            "category": "Raid",
-            "source": "The Ridorana Lighthouse"
+            "category": "Raid"
         },
         "x60": {
             "name": "Continental Eye",
@@ -370,7 +357,7 @@
         "x63": {
             "name": "Dáinsleif F1",
             "category": "Exploratory Mission",
-            "source": "Southern Front Lockbox - The Bozjan Southern Front"
+            "source": "Southern Front Lockbox"
         },
         "x64": {
             "name": "Damona",
@@ -384,23 +371,27 @@
         },
         "x66": {
             "name": "Demon Brick",
-            "category": "Dungeon",
-            "source": "Amdapor Keep"
+            "category": "Dungeon"
         },
         "x67": {
             "name": "Dhalmel Calf",
             "category": "Exploratory Mission",
-            "source": "Pyros Lockbox, Heat-warped Lockbox - Eureka Pyros"
+            "source": [
+                "Pyros Lockbox",
+                "Heat-warped Lockbox"
+            ]
         },
         "x395": {
             "name": "Dolphin Calf",
-            "category": "Achievement",
-            "source": "Double-backwards Somersault"
+            "category": "Achievement"
         },
         "x68": {
             "name": "Domakin",
             "category": "Venture",
-            "source": "Waterside Exploration XXV, Quick Exploration"
+            "source": [
+                "Waterside Exploration XXV",
+                "Quick Exploration"
+            ]
         },
         "x69": {
             "name": "Doman Magpie",
@@ -419,8 +410,7 @@
         },
         "x72": {
             "name": "Dress-up Raubahn",
-            "category": "Quest",
-            "source": "Return of the Bull"
+            "category": "Quest"
         },
         "x73": {
             "name": "Dress-up Tataru",
@@ -439,30 +429,28 @@
         },
         "x76": {
             "name": "Dress-up Yugiri",
-            "category": "Dungeon",
-            "source": "Kugane Castle"
+            "category": "Dungeon"
         },
         "x77": {
             "name": "Drippy",
-            "category": "Dungeon",
-            "source": "Matoya's Relict"
+            "category": "Dungeon"
         },
         "x78": {
             "name": "Dust Bunny",
             "category": "Purchase",
-            "source": "Auriana - Mor Dhona - 3 Allagan Tomestones of Poetics",
-            "moreSources": "Hatching-tide (2016)"
+            "source": "Auriana - Mor Dhona - 3 Allagan Tomestones of Poetics"
         },
         "x79": {
             "name": "Dwarf Rabbit",
             "category": "Deep Dungeon",
-            "source": "Heaven-on-High",
-            "moreSources": "Kupo of Fortune, The Aquapolis"
+            "source": [
+                "Kupo of Fortune",
+                "The Aquapolis"
+            ]
         },
         "x80": {
             "name": "Eden Minor",
-            "category": "Raid",
-            "source": "Eden's Gate: Sepulture, Eden's Gate: Sepulture (Savage)"
+            "category": "Raid"
         },
         "x81": {
             "name": "Eggplant Knight",
@@ -471,18 +459,15 @@
         },
         "x82": {
             "name": "Enkidu",
-            "category": "Trial",
-            "source": "Battle in the Big Keep"
+            "category": "Trial"
         },
         "x83": {
             "name": "Ephemeral Necromancer",
-            "category": "Dungeon",
-            "source": "The Heroes' Gauntlet"
+            "category": "Dungeon"
         },
         "x84": {
             "name": "Faepup",
-            "category": "Achievement",
-            "source": "How Can I Help III"
+            "category": "Achievement"
         },
         "x85": {
             "name": "Fat Cat",
@@ -491,8 +476,7 @@
         },
         "x86": {
             "name": "Faustlet",
-            "category": "Raid",
-            "source": "Alexander - The Burden of the Son (Savage)"
+            "category": "Raid"
         },
         "x87": {
             "name": "Fenrir Pup",
@@ -511,8 +495,7 @@
         },
         "x89": {
             "name": "Fledgling Apkallu",
-            "category": "Achievement",
-            "source": "Out of Sight Out of Mind"
+            "category": "Achievement"
         },
         "x90": {
             "name": "Fledgling Dodo",
@@ -521,8 +504,7 @@
         },
         "x91": {
             "name": "Forgiven Hate",
-            "category": "Dungeon",
-            "source": "Mt. Gulg"
+            "category": "Dungeon"
         },
         "x92": {
             "name": "Fox Kit",
@@ -537,8 +519,10 @@
         "x94": {
             "name": "Gaelikitten",
             "category": "Dungeon",
-            "source": "Sohm Al",
-            "moreSources": "The Palace of the Dead, Kupo of Fortune, The Aquapolis"
+            "source": [
+                "Kupo of Fortune",
+                "The Aquapolis"
+            ]
         },
         "x95": {
             "name": "Garlic Jester",
@@ -548,14 +532,14 @@
         "x96": {
             "name": "Gestahl",
             "category": "Venture",
-            "source": "Waterside Exploration XVIII and XIX",
-            "moreSources": "Heaven-on-High"
+            "source": [
+                "Waterside Exploration XVIII",
+                "Waterside Exploration XIX"
+            ]
         },
         "x97": {
             "name": "Ghido",
-            "category": "Dungeon",
-            "source": "The Sirensong Sea",
-            "moreSources": "Heaven-on-High"
+            "category": "Dungeon"
         },
         "x98": {
             "name": "Giant Beaver",
@@ -569,8 +553,7 @@
         },
         "x100": {
             "name": "Gigi",
-            "category": "Quest",
-            "source": "If I Could Turn Back Time"
+            "category": "Quest"
         },
         "x101": {
             "name": "Golden Beaver",
@@ -579,18 +562,15 @@
         },
         "x413": {
             "name": "Golden Dhyata",
-            "category": "Quest",
-            "source": "The Meeting of Minds"
+            "category": "Quest"
         },
         "x102": {
             "name": "Gold Rush Minecart",
-            "category": "FATE",
-            "source": "FATE \"On Dangerous Ground\""
+            "category": "FATE"
         },
         "x103": {
             "name": "Goobbue Sproutling",
-            "category": "Quest",
-            "source": "It Was a Very Good Year"
+            "category": "Quest"
         },
         "x104": {
             "name": "Gravel Golem",
@@ -609,8 +589,7 @@
         },
         "x396": {
             "name": "Gull",
-            "category": "Achievement",
-            "source": "Mine, Mine, Mine"
+            "category": "Achievement"
         },
         "x106": {
             "name": "Heavy Hatchling",
@@ -625,7 +604,11 @@
         "x108": {
             "name": "Hedgehoglet",
             "category": "Treasure Hunt",
-            "source": "The Lost Canals of Uznair, The Hidden Canals of Uznair, The Shifting Canals of Uznair"
+            "source": [
+                "The Lost Canals of Uznair",
+                "The Hidden Canals of Uznair",
+                "The Shifting Canals of Uznair"
+            ]
         },
         "x109": {
             "name": "Heliodor Carbuncle",
@@ -634,13 +617,11 @@
         },
         "x110": {
             "name": "Hellpup",
-            "category": "Achievement",
-            "source": "Mama Said Knock You Out III"
+            "category": "Achievement"
         },
         "x415": {
             "name": "Hippo Calf",
-            "category": "Dungeon",
-            "source": "Vanaspati"
+            "category": "Dungeon"
         },
         "x111": {
             "name": "Hoary the Snowman",
@@ -655,13 +636,11 @@
         "x113": {
             "name": "Hunting Hawk",
             "category": "Purchase",
-            "source": "800 Skybuilders' Scrips",
-            "moreSources": "Heaven-on-High"
+            "source": "800 Skybuilders' Scrips"
         },
         "x114": {
             "name": "Infant Imp",
-            "category": "FATE",
-            "source": "FATE \"Go, Go, Gorgimera\""
+            "category": "FATE"
         },
         "x115": {
             "name": "Iron Dwarf",
@@ -675,8 +654,7 @@
         },
         "x117": {
             "name": "Ivon Coeurlfist Doll",
-            "category": "Dungeon",
-            "source": "The Temple of the Fist"
+            "category": "Dungeon"
         },
         "x118": {
             "name": "Jibanyan",
@@ -691,7 +669,11 @@
         "x120": {
             "name": "Koala Joey",
             "category": "Venture",
-            "source": "Woodland Exploration XXII, Quick Exploration, Woodland Exploration XXII, Quick Exploration"
+            "source": [
+                "Woodland Exploration XXII",
+                "Southern Front Lockbox",
+                "Zadnor Lockbox"
+            ]
         },
         "x121": {
             "name": "Komainu",
@@ -710,9 +692,7 @@
         },
         "x124": {
             "name": "Korpokkur Kid",
-            "category": "Dungeon",
-            "source": "Saint Mocianne's Arboretrum",
-            "moreSources": "Heaven-on-High"
+            "category": "Dungeon"
         },
         "x125": {
             "name": "Kyubi",
@@ -721,8 +701,7 @@
         },
         "x126": {
             "name": "Laladile",
-            "category": "Achievement",
-            "source": "Crafting in the Air"
+            "category": "Achievement"
         },
         "x127": {
             "name": "Lalinator 5.HO",
@@ -732,8 +711,7 @@
         "x128": {
             "name": "Lesser Panda",
             "category": "Dungeon",
-            "source": "The Aery",
-            "moreSources": "The Palace of the Dead, The Aquapolis"
+            "source": "The Aquapolis"
         },
         "x129": {
             "name": "Little Leafman",
@@ -742,8 +720,7 @@
         },
         "x130": {
             "name": "Little Leannan",
-            "category": "Dungeon",
-            "source": "The Grand Cosmos"
+            "category": "Dungeon"
         },
         "x131": {
             "name": "Little Yang",
@@ -782,28 +759,27 @@
         },
         "x138": {
             "name": "Magitek Avenger F1",
-            "category": "Dungeon",
-            "source": "Castrum Abania"
+            "category": "Dungeon"
         },
         "x139": {
             "name": "Magitek Helldiver F1",
-            "category": "Exploratory Mission",
-            "source": "Castrum Lacus Litore - The Bozjan Southern Front"
+            "category": "Exploratory Mission"
         },
         "x397": {
             "name": "Magitek Predator F1",
-            "category": "Dungeon",
-            "source": "Paglth'an"
+            "category": "Dungeon"
         },
         "x140": {
             "name": "Malone",
-            "category": "Achievement",
-            "source": "Gathering in the Air"
+            "category": "Achievement"
         },
         "x141": {
             "name": "Mameshiba",
             "category": "Venture",
-            "source": "Highland Exploration XXII, Quick Exploration"
+            "source": [
+                "Highland Exploration XXII",
+                "Quick Exploration"
+            ]
         },
         "x142": {
             "name": "Mammet #001",
@@ -812,18 +788,15 @@
         },
         "x143": {
             "name": "Mammet #003G",
-            "category": "Achievement",
-            "source": "Bump on a Log: Order of the Twin Adder"
+            "category": "Achievement"
         },
         "x144": {
             "name": "Mammet #003L",
-            "category": "Achievement",
-            "source": "Bump on a Log: Maelstrom"
+            "category": "Achievement"
         },
         "x145": {
             "name": "Mammet #003U",
-            "category": "Achievement",
-            "source": "Bump on a Log: Immortal Flames"
+            "category": "Achievement"
         },
         "x146": {
             "name": "Mandragora Queen",
@@ -847,19 +820,16 @@
         },
         "x150": {
             "name": "Midgardsormr",
-            "category": "Quest",
-            "source": "The Rising Chorus"
+            "category": "Quest"
         },
         "x151": {
             "name": "Mini Mole",
-            "category": "Quest",
-            "source": "Thwack-a-Mole"
+            "category": "Quest"
         },
         "x152": {
             "name": "Miniature Minecart",
             "category": "Venture",
-            "source": "Highland Exploration XIV",
-            "moreSources": "Heaven-on-High"
+            "source": "Highland Exploration XIV"
         },
         "x153": {
             "name": "Miniature White Knight",
@@ -879,13 +849,16 @@
         "x156": {
             "name": "Minute Mindflayer",
             "category": "Venture",
-            "source": "Field Exploration XIII, Highland Exploration XIII, Waterside Exploration XIII",
-            "moreSources": "The Palace of the Dead, The Aquapolis"
+            "source": [
+                "Field Exploration XIII",
+                "Highland Exploration XIII",
+                "Waterside Exploration XIII",
+                "The Aquapolis"
+            ]
         },
         "x157": {
             "name": "Mock-up Grynewaht",
-            "category": "Dungeon",
-            "source": "Doma Castle"
+            "category": "Dungeon"
         },
         "x158": {
             "name": "Model Enterprise",
@@ -904,19 +877,16 @@
         },
         "x161": {
             "name": "Monkey King",
-            "category": "Dungeon",
-            "source": "The Swallow's Compass"
+            "category": "Dungeon"
         },
         "x162": {
             "name": "Morbol Seedling",
-            "category": "Dungeon",
-            "source": "The Aurum Vale"
+            "category": "Dungeon"
         },
         "x163": {
             "name": "Morpho",
             "category": "Dungeon",
-            "source": "The Lost City of Amdapor (Hard)",
-            "moreSources": "Heaven-on-High, Kupo of Fortune"
+            "source": "Kupo of Fortune"
         },
         "x164": {
             "name": "Motley Egg",
@@ -925,24 +895,24 @@
         },
         "x165": {
             "name": "Much-coveted Mora",
-            "category": "Achievement",
-            "source": "On a Boat IV"
+            "category": "Achievement"
         },
         "x166": {
             "name": "Mudpie",
-            "category": "Dungeon",
-            "source": "Saint Mocianne's Arboretum (Hard)"
+            "category": "Dungeon"
         },
         "x167": {
             "name": "Mummy's Little Mummy",
             "category": "Dungeon",
-            "source": "The Sunken Temple of Qarn (Hard)",
-            "moreSources": "The Palace of the Dead, The Aquapolis"
+            "source": "The Aquapolis"
         },
         "x168": {
             "name": "Mystic Weapon",
             "category": "Venture",
-            "source": "Field Exploration XXV, Quick Exploration"
+            "source": [
+                "Field Exploration XXV",
+                "Quick Exploration"
+            ]
         },
         "x416": {
             "name": "Nagxian Cat",
@@ -961,8 +931,7 @@
         },
         "x171": {
             "name": "Naughty Nanka",
-            "category": "Dungeon",
-            "source": "Hullbreaker Isle"
+            "category": "Dungeon"
         },
         "x172": {
             "name": "Noko",
@@ -971,25 +940,29 @@
         },
         "x417": {
             "name": "Nasferatu",
-            "category": "Raid",
-            "source": "Asphodelos: The Fourth Circle"
+            "category": "Raid"
         },
         "x173": {
             "name": "Nutkin",
             "category": "Deep Dungeon",
-            "source": "The Palace of the Dead",
-            "moreSources": "Unhidden Leather Map, The Aquapolis"
+            "source": [
+                "Unhidden Leather Map",
+                "The Aquapolis"
+            ]
         },
         "x174": {
             "name": "Odder Otter",
             "category": "Venture",
-            "source": "Highland Exploration XIX - XXII, Woodland Exploration XIX - XXII, Waterside Exploration XIX - XXII, Quick Exploration",
-            "moreSources": "Heaven-on-High"
+            "source": [
+                "Highland Exploration XIX - XXII",
+                "Woodland Exploration XIX - XXII",
+                "Waterside Exploration XIX - XXII",
+                "Quick Exploration"
+            ]
         },
         "x175": {
             "name": "OMG",
-            "category": "Raid",
-            "source": "Alphascape V4.0, Alphascape V4.0 (Savage)"
+            "category": "Raid"
         },
         "x176": {
             "name": "Onion Prince",
@@ -998,26 +971,26 @@
         },
         "x418": {
             "name": "Optimus Omicron",
-            "category": "Dungeon",
-            "source": "The Stigma Dreamscape"
+            "category": "Dungeon"
         },
         "x177": {
             "name": "Owlet",
             "category": "Dungeon",
-            "source": "The Fractal Continuum",
-            "moreSources": "The Palace of the Dead, The Aquapolis"
+            "source": "The Aquapolis"
         },
         "x178": {
             "name": "Page 63",
             "category": "Dungeon",
-            "source": "The Great Gubal Library",
-            "moreSources": "The Palace of the Dead, The Aquapolis"
+            "source": "The Aquapolis"
         },
         "x179": {
             "name": "Paissa Brat",
             "category": "Purchase",
-            "source": "800 Skybuilders' Scrips",
-            "moreSources": "The Palace of the Dead, Timeworn Dragonskin Map, The Aquapolis"
+            "source": [
+                "800 Skybuilders' Scrips",
+                "Timeworn Dragonskin Map",
+                "The Aquapolis"
+            ]
         },
         "x180": {
             "name": "Paissa Patissier",
@@ -1031,8 +1004,7 @@
         },
         "x182": {
             "name": "Palico",
-            "category": "Quest",
-            "source": "The New King on the Block"
+            "category": "Quest"
         },
         "x183": {
             "name": "Panda Cub",
@@ -1046,8 +1018,7 @@
         },
         "x185": {
             "name": "Penguin Prince",
-            "category": "Achievement",
-            "source": "The Road of Verminion I"
+            "category": "Achievement"
         },
         "x186": {
             "name": "Peridot Carbuncle",
@@ -1071,33 +1042,27 @@
         },
         "x190": {
             "name": "Pod 054",
-            "category": "Raid",
-            "source": "The Copied Factory"
+            "category": "Raid"
         },
         "x191": {
             "name": "Pod 316",
-            "category": "Raid",
-            "source": "The Copied Factory"
+            "category": "Raid"
         },
         "x192": {
             "name": "Poogie",
-            "category": "Trial",
-            "source": "The Great Hunt (Extreme)"
+            "category": "Trial"
         },
         "x193": {
             "name": "Poro Roggo",
-            "category": "Quest",
-            "source": "The Word of the Mother"
+            "category": "Quest"
         },
         "x419": {
             "name": "Prince Lunatender",
-            "category": "Dungeon",
-            "source": "Smileton"
+            "category": "Dungeon"
         },
         "x194": {
             "name": "Princely Hatchling",
-            "category": "Achievement",
-            "source": "Leaving a Good Impression II"
+            "category": "Achievement"
         },
         "x195": {
             "name": "Private Moai",
@@ -1106,13 +1071,11 @@
         },
         "x196": {
             "name": "Pudgy Puk",
-            "category": "FATE",
-            "source": "FATE \"The Eyes Have It\""
+            "category": "FATE"
         },
         "x197": {
             "name": "Puff of Darkness",
-            "category": "Raid",
-            "source": "The World of Darkness"
+            "category": "Raid"
         },
         "x198": {
             "name": "Pumpkin Butler",
@@ -1121,9 +1084,7 @@
         },
         "x199": {
             "name": "Road Sparrow",
-            "category": "Dungeon",
-            "source": "Bardam's Mettle",
-            "moreSources": "Heaven-on-High"
+            "category": "Dungeon"
         },
         "x200": {
             "name": "Robonyan F-type",
@@ -1137,8 +1098,7 @@
         },
         "x201": {
             "name": "Salt & Pepper Seal",
-            "category": "Dungeon",
-            "source": "The Drowned City of Skalla"
+            "category": "Dungeon"
         },
         "x202": {
             "name": "Sand Fox",
@@ -1147,8 +1107,7 @@
         },
         "x203": {
             "name": "Save the Princess",
-            "category": "Raid",
-            "source": "Delubrum Reginae (Savage)"
+            "category": "Raid"
         },
         "x204": {
             "name": "Scarlet Peacock",
@@ -1177,24 +1136,23 @@
         },
         "x208": {
             "name": "Shaggy Shoat",
-            "category": "Dungeon",
-            "source": "Xelphatol",
-            "moreSources": "Heaven-on-High"
+            "category": "Dungeon"
         },
         "x209": {
             "name": "Shalloweye",
-            "category": "Achievement",
-            "source": "A Load of Verminion II"
+            "category": "Achievement"
         },
         "x210": {
             "name": "Sharksucker-class Insubmersible",
             "category": "Voyages",
-            "source": "Subaquatic Voyages - The Central Charnel Trench, Subaquatic Voyages - The Southern Charnel Trench"
+            "source": [
+                "Subaquatic Voyages - The Central Charnel Trench",
+                "Subaquatic Voyages - The Southern Charnel Trench"
+            ]
         },
         "x211": {
             "name": "Shoebill",
-            "category": "Dungeon",
-            "source": "Amaurot"
+            "category": "Dungeon"
         },
         "x212": {
             "name": "Shogunyan",
@@ -1208,18 +1166,15 @@
         },
         "x214": {
             "name": "Slime Puddle",
-            "category": "Dungeon",
-            "source": "Copperbell Mines (Hard)"
+            "category": "Dungeon"
         },
         "x399": {
             "name": "Smaller Stubby",
-            "category": "Raid",
-            "source": "The Tower At Paradigm's Breach"
+            "category": "Raid"
         },
         "x215": {
             "name": "Smallshell",
-            "category": "FATE",
-            "source": "FATE \"It's Not Lupus\""
+            "category": "FATE"
         },
         "x216": {
             "name": "Spoony Bard",
@@ -1233,8 +1188,7 @@
         },
         "x422": {
             "name": "Starbird",
-            "category": "Dungeon",
-            "source": "The Dead Ends"
+            "category": "Dungeon"
         },
         "x217": {
             "name": "Steam-powered Gobwalker G-VII",
@@ -1269,7 +1223,10 @@
         "x223": {
             "name": "Tengu Doll",
             "category": "Venture",
-            "source": "Field Exploration XXII, Quick Exploration"
+            "source": [
+                "Field Exploration XXII",
+                "Quick Exploration"
+            ]
         },
         "x224": {
             "name": "The Behatted Serpent of Ronka",
@@ -1288,24 +1245,21 @@
         },
         "x227": {
             "name": "The Great Serpent of Ronka",
-            "category": "Quest",
-            "source": "Protectors of the Wood"
+            "category": "Quest"
         },
         "x228": {
             "name": "The Major-General",
-            "category": "Achievement",
-            "source": "No More Fish in the Sea I"
+            "category": "Achievement"
         },
         "x229": {
             "name": "The Prince of Anemos",
             "category": "Exploratory Mission",
-            "source": "Anemos Lockbox, FATE \"The Shadow over Anemos\" - Eureka Anemos"
+            "source": "Anemos Lockbox"
         },
         "x230": {
             "name": "Tight-beaked Parrot",
             "category": "Dungeon",
-            "source": "Sastasha (Hard)",
-            "moreSources": "The Aquapolis"
+            "source": "The Aquapolis"
         },
         "x231": {
             "name": "Tinker's Bell",
@@ -1315,13 +1269,14 @@
         "x232": {
             "name": "Tiny Bulb",
             "category": "Deep Dungeon",
-            "source": "The Palace of the Dead",
-            "moreSources": "Timeworn Toadskin Map, The Aquapolis"
+            "source": [
+                "Timeworn Toadskin Map",
+                "The Aquapolis"
+            ]
         },
         "x233": {
             "name": "Tiny Echevore",
-            "category": "Dungeon",
-            "source": "Dohn Mheg"
+            "category": "Dungeon"
         },
         "x234": {
             "name": "Tiny Rat",
@@ -1331,13 +1286,16 @@
         "x235": {
             "name": "Tiny Tapir",
             "category": "Venture",
-            "source": "Field Exploration XIV, XV, XIX"
+            "source": [
+                "Field Exploration XIV",
+                "Field Exploration XV",
+                "Field Exploration XIX"
+            ]
         },
         "x236": {
             "name": "Tiny Tatsunoko",
             "category": "Gathering",
-            "source": "Gathered by Fisher",
-            "moreSources": "Heaven-on-High"
+            "source": "Gathered by Fisher"
         },
         "x237": {
             "name": "Tiny Tortoise",
@@ -1346,8 +1304,7 @@
         },
         "x423": {
             "name": "Tiny Troll",
-            "category": "Dungeon",
-            "source": "The Aitiascope"
+            "category": "Dungeon"
         },
         "x238": {
             "name": "Tomato King",
@@ -1361,8 +1318,7 @@
         },
         "x240": {
             "name": "Toy Alexander",
-            "category": "Raid",
-            "source": "Alexander - The Soul of the Creator, Alexander - The Soul of the Creator (Savage)"
+            "category": "Raid"
         },
         "x241": {
             "name": "Treasure Box",
@@ -1377,14 +1333,15 @@
         "x243": {
             "name": "Ugly Duckling",
             "category": "Dungeon",
-            "source": "Neverreap",
-            "moreSources": "The Palace of the Dead, Kupo of Fortune, The Aquapolis"
+            "source": [
+                "Kupo of Fortune",
+                "The Aquapolis"
+            ]
         },
         "x244": {
             "name": "Unicolt",
             "category": "Dungeon",
-            "source": "The Vault",
-            "moreSources": "The Palace of the Dead, The Aquapolis"
+            "source": "The Aquapolis"
         },
         "x245": {
             "name": "Unlucky Rabbit",
@@ -1433,8 +1390,7 @@
         },
         "x252": {
             "name": "White Whittret",
-            "category": "Dungeon",
-            "source": "Hells' Lid"
+            "category": "Dungeon"
         },
         "x253": {
             "name": "Wide-eyed Fawn",
@@ -1448,8 +1404,7 @@
         },
         "x255": {
             "name": "Wind-up Airship",
-            "category": "Quest",
-            "source": "The Gridanian Envoy, The Lominsan Envoy, The Ul'dahn Envoy"
+            "category": "Quest"
         },
         "x256": {
             "name": "Wind-up Aldgoat",
@@ -1463,13 +1418,11 @@
         },
         "x258": {
             "name": "Wind-up Alpha",
-            "category": "Quest",
-            "source": "To Kweh under Distant Skies"
+            "category": "Quest"
         },
         "x259": {
             "name": "Wind-up Alphinaud",
-            "category": "Quest",
-            "source": "In Search of Iceheart"
+            "category": "Quest"
         },
         "x260": {
             "name": "Wind-up Amalj'aa",
@@ -1483,8 +1436,7 @@
         },
         "x425": {
             "name": "Wind-up Anima",
-            "category": "Dungeon",
-            "source": "The Tower of Babil"
+            "category": "Dungeon"
         },
         "x262": {
             "name": "Wind-up Ardbert",
@@ -1493,8 +1445,7 @@
         },
         "x263": {
             "name": "Wind-up Aymeric",
-            "category": "Quest",
-            "source": "Litany of Peace"
+            "category": "Quest"
         },
         "x264": {
             "name": "Wind-up Bahamut",
@@ -1509,8 +1460,7 @@
         "x266": {
             "name": "Wind-up Bismarck",
             "category": "Crafting",
-            "source": "Crafted by Weaver",
-            "moreSources": "Heaven-on-High"
+            "source": "Crafted by Weaver"
         },
         "x267": {
             "name": "Wind-up Brickman",
@@ -1519,8 +1469,7 @@
         },
         "x268": {
             "name": "Wind-up Calofisteri",
-            "category": "Raid",
-            "source": "The Weeping City of Mhach"
+            "category": "Raid"
         },
         "x269": {
             "name": "Wind-up Cheerleader",
@@ -1534,8 +1483,7 @@
         },
         "x271": {
             "name": "Wind-up Cid",
-            "category": "Quest",
-            "source": "A Difference of Opinion"
+            "category": "Quest"
         },
         "x272": {
             "name": "Wind-up Cirina",
@@ -1589,13 +1537,11 @@
         },
         "x281": {
             "name": "Wind-up Echidna",
-            "category": "Raid",
-            "source": "The Void Ark"
+            "category": "Raid"
         },
         "x282": {
             "name": "Wind-up Edda",
-            "category": "Deep Dungeon",
-            "source": "The Palace of the Dead"
+            "category": "Deep Dungeon"
         },
         "x401": {
             "name": "Wind-up Edge",
@@ -1609,8 +1555,7 @@
         },
         "x284": {
             "name": "Wind-up Elvaan",
-            "category": "Exploratory Mission",
-            "source": "FATE \"You Do Know Jack\" - Eureka Pyros"
+            "category": "Exploratory Mission"
         },
         "x285": {
             "name": "Wind-up Estinien",
@@ -1619,13 +1564,12 @@
         },
         "x286": {
             "name": "Wind-up Exdeath",
-            "category": "Raid",
-            "source": "Deltascape V4.0, Deltascape V4.0 (Savage)"
+            "category": "Raid"
         },
         "x287": {
             "name": "Wind-up Fafnir",
             "category": "Exploratory Mission",
-            "source": "Anemos Lockbox, FATE \"Wine and Honey\" - Eureka Anemos"
+            "source": "Anemos Lockbox"
         },
         "x288": {
             "name": "Wind-up Firion",
@@ -1649,24 +1593,20 @@
         },
         "x292": {
             "name": "Wind-up Gaia",
-            "category": "Raid",
-            "source": "Eden's Promise: Eternity, Eden's Promise: Eternity (Savage)"
+            "category": "Raid"
         },
         "x293": {
             "name": "Wind-up G'raha Tia",
-            "category": "Quest",
-            "source": "Shadowbringers"
+            "category": "Quest"
         },
         "x294": {
             "name": "Wind-up Garuda",
             "category": "Crafting",
-            "source": "Crafted by Weaver",
-            "moreSources": "Heaven-on-High"
+            "source": "Crafted by Weaver"
         },
         "x295": {
             "name": "Wind-up Gentleman",
-            "category": "Quest",
-            "source": "Her Last Vow"
+            "category": "Quest"
         },
         "x296": {
             "name": "Wind-up Gilgamesh",
@@ -1705,13 +1645,11 @@
         },
         "x301": {
             "name": "Wind-up Haurchefant",
-            "category": "Quest",
-            "source": "As Goes Light, So Goes Darkness"
+            "category": "Quest"
         },
         "x428": {
             "name": "Wind-up Herois",
-            "category": "Quest",
-            "source": "Endwalker"
+            "category": "Quest"
         },
         "x302": {
             "name": "Wind-up Hien",
@@ -1721,7 +1659,10 @@
         "x303": {
             "name": "Wind-up Hobgoblin",
             "category": "Venture",
-            "source": "Highland Exploration XXV, Quick Exploration"
+            "source": [
+                "Highland Exploration XXV",
+                "Quick Exploration"
+            ]
         },
         "x304": {
             "name": "Wind-up Hraesvelgr",
@@ -1736,8 +1677,7 @@
         "x306": {
             "name": "Wind-up Ifrit",
             "category": "Crafting",
-            "source": "Crafted by Weaver",
-            "moreSources": "Heaven-on-High"
+            "source": "Crafted by Weaver"
         },
         "x307": {
             "name": "Wind-up Illuminatus",
@@ -1761,8 +1701,7 @@
         },
         "x311": {
             "name": "Wind-up Kefka",
-            "category": "Raid",
-            "source": "Sigmascape V4.0, Sigmascape V4.0 (Savage)"
+            "category": "Raid"
         },
         "x312": {
             "name": "Wind-up Khloe",
@@ -1792,8 +1731,7 @@
         "x317": {
             "name": "Wind-up Lakshmi",
             "category": "Crafting",
-            "source": "Crafted by Weaver",
-            "moreSources": "Heaven-on-High"
+            "source": "Crafted by Weaver"
         },
         "x318": {
             "name": "Wind-up Leader",
@@ -1803,13 +1741,11 @@
         "x319": {
             "name": "Wind-up Leviathan",
             "category": "Crafting",
-            "source": "Crafted by Weaver",
-            "moreSources": "Heaven-on-High"
+            "source": "Crafted by Weaver"
         },
         "x320": {
             "name": "Wind-Up Louisoix",
-            "category": "Achievement",
-            "source": "Out of a Bind I"
+            "category": "Achievement"
         },
         "x321": {
             "name": "Wind-up Lulu",
@@ -1833,8 +1769,7 @@
         },
         "x429": {
             "name": "Wind-up Magus Sisters",
-            "category": "Dungeon",
-            "source": "The Tower of Zot"
+            "category": "Dungeon"
         },
         "x324": {
             "name": "Wind-up Matanga",
@@ -1854,12 +1789,11 @@
         "x327": {
             "name": "Wind-up Mithra",
             "category": "Exploratory Mission",
-            "source": "Anemos Lockbox, FATE \"Short Serket 2\" - Eureka Anemos"
+            "source": "Anemos Lockbox"
         },
         "x328": {
             "name": "Wind-up Moenbryda",
-            "category": "Quest",
-            "source": "An Ending to Mark a New Beginning"
+            "category": "Quest"
         },
         "x329": {
             "name": "Wind-up Moogle",
@@ -1873,8 +1807,7 @@
         },
         "x331": {
             "name": "Wind-up Mystel",
-            "category": "Quest",
-            "source": "Unto the Morrow"
+            "category": "Quest"
         },
         "x332": {
             "name": "Wind-up Namazu",
@@ -1923,8 +1856,7 @@
         },
         "x341": {
             "name": "Wind-up Onion Knight",
-            "category": "Raid",
-            "source": "Syrcus Tower"
+            "category": "Raid"
         },
         "x403": {
             "name": "Wind-up Palom",
@@ -1959,19 +1891,16 @@
         "x346": {
             "name": "Wind-up Ramuh",
             "category": "Crafting",
-            "source": "Crafted by Weaver",
-            "moreSources": "Heaven-on-High"
+            "source": "Crafted by Weaver"
         },
         "x347": {
             "name": "Wind-up Ramza",
-            "category": "Raid",
-            "source": "The Orbonne Monastery"
+            "category": "Raid"
         },
         "x348": {
             "name": "Wind-up Ravana",
             "category": "Crafting",
-            "source": "Crafted by Weaver",
-            "moreSources": "Heaven-on-High"
+            "source": "Crafted by Weaver"
         },
         "x349": {
             "name": "Wind-up Red Mage",
@@ -2015,8 +1944,7 @@
         },
         "x353": {
             "name": "Wind-up Ryne",
-            "category": "Raid",
-            "source": "Eden's Verse: Refulgence, Eden's Verse: Refulgence (Savage)"
+            "category": "Raid"
         },
         "x354": {
             "name": "Wind-up Sadu",
@@ -2035,8 +1963,7 @@
         },
         "x357": {
             "name": "Wind-up Scathach",
-            "category": "Raid",
-            "source": "Dun Scaith"
+            "category": "Raid"
         },
         "x358": {
             "name": "Wind-up Sea Devil",
@@ -2056,8 +1983,7 @@
         "x361": {
             "name": "Wind-up Shiva",
             "category": "Crafting",
-            "source": "Crafted by Weaver",
-            "moreSources": "Heaven-on-High"
+            "source": "Crafted by Weaver"
         },
         "x362": {
             "name": "Wind-up Succubus",
@@ -2072,8 +1998,7 @@
         "x364": {
             "name": "Wind-up Susano",
             "category": "Crafting",
-            "source": "Crafted by Weaver",
-            "moreSources": "Heaven-on-High"
+            "source": "Crafted by Weaver"
         },
         "x365": {
             "name": "Wind-up Suzaku",
@@ -2088,7 +2013,7 @@
         "x367": {
             "name": "Wind-up Tarutaru",
             "category": "Exploratory Mission",
-            "source": "Pagos Lockbox - Eureka Pagos"
+            "source": "Pagos Lockbox"
         },
         "x368": {
             "name": "Wind-up Tataru",
@@ -2108,14 +2033,15 @@
         "x371": {
             "name": "Wind-up Titan",
             "category": "Crafting",
-            "source": "Crafted by Weaver",
-            "moreSources": "Heaven-on-High"
+            "source": "Crafted by Weaver"
         },
         "x372": {
             "name": "Wind-up Tonberry",
             "category": "Deep Dungeon",
-            "source": "The Palace of the Dead",
-            "moreSources": "Timeworn Boarskin Map, The Aquapolis"
+            "source": [
+                "Timeworn Boarskin Map",
+                "The Aquapolis"
+            ]
         },
         "x373": {
             "name": "Wind-up Tsukuyomi",
@@ -2124,8 +2050,7 @@
         },
         "x374": {
             "name": "Wind-up Ultros",
-            "category": "Trial",
-            "source": "The Dragon's Neck"
+            "category": "Trial"
         },
         "x375": {
             "name": "Wind-up Urianger",
@@ -2154,8 +2079,7 @@
         },
         "x379": {
             "name": "Wind-up Weapon",
-            "category": "Dungeon",
-            "source": "The Ghimlyt Dark"
+            "category": "Dungeon"
         },
         "x380": {
             "name": "Wind-up Y'shtola",
@@ -2194,13 +2118,15 @@
         },
         "x387": {
             "name": "Wolf Pup",
-            "category": "Quest",
-            "source": "Man's Best Friend"
+            "category": "Quest"
         },
         "x388": {
             "name": "Yukinko Snowflake",
             "category": "Exploratory Mission",
-            "source": "Hydatos Lockbox, Moisture-warped Lockbox - Eureka Hydatos"
+            "source": [
+                "Hydatos Lockbox",
+                "Moisture-warped Lockbox"
+            ]
         },
         "x389": {
             "name": "Zazel",

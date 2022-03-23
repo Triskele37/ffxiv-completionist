@@ -16,9 +16,10 @@
         <p-button
             *ngFor="let group of svcNavigation.groupHistory$ | async"
             styleClass="p-button-link"
+            [life]="1000"
             [pTooltip]="'GENERAL.GROUP_NAVIGATE' | translate"
             [label]="group | contentLink"
-            (onClick)="goToHistory(group)"
+            (onClick)="goToHistory(group); op.hide()"
         ></p-button>
 
         <div *ngIf="!(svcNavigation.groupHistory$ | async).length">

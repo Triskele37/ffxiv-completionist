@@ -25,9 +25,15 @@
         *ngFor="let column of group.columns"
         [ngClass]="{ centered: column.centered }"
     >
-        <ng-container *ngIf="column.editable; else linkCell">
-            <xiv-edit-cell [task]="task" [key]="column.key"></xiv-edit-cell>
+        <ng-container *ngIf="column.key === 'fullStorageKey'; else editCell">
+            {{task[column.key].substr(8)}}
         </ng-container>
+
+        <ng-template #editCell>
+            <ng-container *ngIf="column.editable; else linkCell">
+                <xiv-edit-cell [task]="task" [key]="column.key"></xiv-edit-cell>
+            </ng-container>
+        </ng-template>
 
         <ng-template #linkCell>
             <ng-container *ngIf="column.key === 'contentLink'; else linksCell">

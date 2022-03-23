@@ -29,6 +29,9 @@
     - Trust
     - Orchestrion
     - Travel
+- fr minion sources
+  - explorations aren't numbered and some are merged?
+  - voyages and retainer categories seem to be merged?
 - Missing Unlock
     - 66999 - Marvelously Mutable Materia
     - All job stones chained from quests unlocked by Sylph-management
@@ -50,6 +53,10 @@
   - Move Relic here
 
 **Change**
+- require fully qualified paths for all content links
+  - will speed up chaining and searching
+  - will increase resources size
+  - potentially reduce all key sizes to a few characters each
 
 **Fix**
 - "Just Deserts" unlocks "Guild Leves"

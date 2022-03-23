@@ -86,7 +86,10 @@
                         </td>
                         <td *ngIf="svcSearch.expanded">{{match.value}}</td>
                         <td *ngIf="svcSearch.expanded">{{match.header}}</td>
-                        <td *ngIf="showKey">{{match.task.fullStorageKey}}</td>
+                        <td *ngIf="showKey">
+                            <p-button label="Copy" (onClick)="onCopyPathClick(match)"></p-button>
+                            {{match.task.fullStorageKey.substr(8)}}
+                        </td>
                     </tr>
                 </ng-template>
             </p-table>

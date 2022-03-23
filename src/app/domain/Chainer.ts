@@ -2,7 +2,7 @@ import { Completion, CompletionFlag } from '@constant';
 
 import { DataGroup } from './DataGroup';
 import { Task } from './Task';
-import { Link, Links } from './Links';
+import { AtLinks, Link, Links } from './Links';
 
 export class Chainer {
     _overall: DataGroup; //TODO: import data directly?
@@ -34,12 +34,8 @@ export class Chainer {
             this.applyChainedFlag(this.task.cPrev);
         }
 
-        // TODO: ???
-        if(this.task.cPrevAt && this.flag === Completion.Y) {
-            Object.keys(this.task.cPrevAt).forEach((at) => {
-                this.applyChainedNumber(this.task.cPrevAt[at], at);
-            });
-        }
+        //
+        if(this.task.cPrevAt) this.applyAtChain(this.task.cPrevAt);
 
         // Chain child tasks if this one was marked incomplete
         if(this.task.cNext && this.flag === Completion.N) {
@@ -56,14 +52,7 @@ export class Chainer {
         }
 
         // Chain siblings if their 'at' value is met or this flag is completed
-        if(this.task.cSiblingsAt) {
-            Object.keys(this.task.cSiblingsAt).forEach((at) => {
-                const atMet = parseInt(at, 10) <= parseInt(this.flag, 10);
-                if(atMet || this.flag === Completion.Y) {
-                    this.applyChainedNumber(this.task.cSiblingsAt[at], at);
-                }
-            });
-        }
+        if(this.task.cSiblingsAt) this.applyAtChain(this.task.cSiblingsAt);
 
         // Evaluate combo chains if this wasn't marked excluded
         if(this.task.cCombo && this.flag !== Completion.X) {
@@ -84,16 +73,79 @@ export class Chainer {
         if(this.task.cExclusive) this.applyExclusiveChain();
     }
 
-    //#region------------------------------------------------------- Chaining
+    //#region------------------------------------------------------- Setters
     // Generic Chain for flags
     applyChainedFlag(cList: Links): void {
         const originalFlag = this.flag as Completion;
         this.getAllTasksFor(cList).forEach((task) => this.applyFlagToTask(originalFlag, task));
     }
 
-    // Generic chain for numeric completion
-    applyChainedNumber(cList: Links, num: string): void {
-        this.getAllTasksFor(cList).forEach((task) => this.applyNumberToTask(num, task));
+    private applyFlagToTask(flag: Completion, chainTask: Task): void {
+        chainTask.changeCompletionFlag(flag);
+    }
+
+    // Chain when a numeric is met
+    applyChainedNumberMet(cList: Links, num: string): void {
+        this.getAllTasksFor(cList).forEach((task) => this.applyMetNumberToTask(num, task));
+    }
+
+    applyMetNumberToTask(num: string, chainTask: Task): void {
+        if(!chainTask.isNumericCompletion) { // "at" threshold met, must be Y
+            chainTask.changeCompletionFlag(Completion.Y);
+        }
+        else if(parseInt(num, 10) > parseInt(chainTask.completionFlag, 10)) {
+            // only apply increases in completion number
+            chainTask.changeCompletionNumber(num);
+        }
+    }
+
+    // Chain when a numeric is not met
+    applyChainedNumberUnmet(cList: Links, num: string): void {
+        const newNum = (parseInt(num, 10) - 1).toString();
+        this.getAllTasksFor(cList).forEach(
+            (task, i, arr) => this.applyUnmetNumberToTask(newNum, task, arr.length)
+        );
+    }
+
+    applyUnmetNumberToTask(num: string, chainTask: Task, siblings: number): void {
+        if(!chainTask.isNumericCompletion) { // "at" threshold not met, must be N
+            chainTask.changeCompletionFlag(Completion.N);
+        }
+        else if(siblings === 1) {
+            // cannot assume which sibling should be lowered
+            if(parseInt(num, 10) < parseInt(chainTask.completionFlag, 10)) {
+                // only apply decreases in completion number
+                chainTask.changeCompletionNumber(num);
+            }
+        }
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Chaining
+    applyAtChain(atChains: AtLinks): void {
+        Object.keys(atChains).forEach((at) => {
+            const chainAt = parseInt(at, 10);
+
+            if(this.task._parent.isNumericCompletion) {
+                if(chainAt <= parseInt(this.flag, 10)) {
+                    // Numeric Completion meets 'at' requirement
+                    this.applyChainedNumberMet(atChains[at], at);
+                }
+                else {
+                    // Numeric Completion does not meet 'at' requirement
+                    this.applyChainedNumberUnmet(atChains[at], at);
+                }
+            }
+            else {
+                if(this.flag === Completion.Y) {
+                    this.applyChainedNumberMet(atChains[at], at);
+                }
+                else if(this.flag === Completion.N) {
+                    this.applyChainedNumberUnmet(atChains[at], at);
+                }
+            }
+        });
     }
 
     // Combo Chain
@@ -177,22 +229,6 @@ export class Chainer {
     //#endregion
 
     //#region------------------------------------------------------- Helpers
-    private applyFlagToTask(flag: Completion, chainTask: Task): void {
-        chainTask.changeCompletionFlag(flag);
-    }
-
-    private applyNumberToTask(num: string, chainTask: Task): void {
-        if(!chainTask.isNumericCompletion) {
-            // cast non-zero to Y and zero to N
-            const flag = parseInt(num, 10) !== 0 ? Completion.Y : Completion.N;
-            chainTask.changeCompletionFlag(flag);
-        }
-        else if(parseInt(num, 10) > parseInt(chainTask.completionFlag, 10)) {
-            // only apply increases in completion number
-            chainTask.changeCompletionNumber(num);
-        }
-    }
-
     private getAllTasksFor(pLinkList: Links): Task[] {
         const list = Array.isArray(pLinkList) ? pLinkList : [pLinkList];
 

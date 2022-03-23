@@ -92,7 +92,7 @@ export class SearchService {
         group.tasks.forEach((task) => {
             if(!expanded) { // name only search
                 const termInName = fuzzyMatchValue(task.name, searchTerm, partial);
-                const nameInTerm = fuzzyMatchValue(searchTerm, task.name, partial);
+                const nameInTerm = false; //fuzzyMatchValue(searchTerm, task.name, partial);
 
                 if(task.name && (termInName || nameInTerm)) {
                     matches.push({

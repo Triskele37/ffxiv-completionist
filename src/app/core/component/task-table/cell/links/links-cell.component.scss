@@ -1,11 +1,39 @@
 :host {
+    // Make xiv-data-cell mimic the spacing of p-button-link
+    ::ng-deep .data-cell {
+        padding: calc(var(--content-padding) * .75) var(--content-padding);
+    }
+
     .content-link {
-        display: block;
+        @extend %content-link;
     }
 }
 
 ::ng-deep .link-overlay {
+    &.p-overlaypanel-flipped {
+        margin-top: -20px;
+    }
+
+    // Remove the overlay arrow
+    &:before, &:after {
+        display: none;
+    }
+
+    // Give the container primeNgs wrapper padding
+    .overlay-container {
+        margin: calc(var(--content-padding) * -1);
+        padding: var(--content-padding);
+    }
+
     .content-link {
-        display: block;
+        @extend %content-link;
+    }
+}
+
+%content-link {
+    display: block;
+
+    ::ng-deep .p-button-label {
+        display: flex;
     }
 }

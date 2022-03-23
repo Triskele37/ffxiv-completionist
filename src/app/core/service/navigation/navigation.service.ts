@@ -73,9 +73,9 @@ export class NavigationService {
     setSelectedGroup(group: DataGroup): void {
         const breadcrumbs = group.fullStorageKey.split('.');
 
+        this.addGroupHistory();
         this.breadcrumbs$.next(breadcrumbs);
         this.selectedGroup$.next(group);
-        this.addGroupHistory();
         this.svcConfig.set('last-breadcrumbs', breadcrumbs);
     }
 
@@ -101,10 +101,10 @@ export class NavigationService {
 
     // All breadcrumb setting should flow through this function
     setBreadcrumbs(breadcrumbs: string[]): void {
+        this.addGroupHistory();
         this.breadcrumbs$.next(breadcrumbs);
         const group = this.getGroupFromBreadcrumbs(breadcrumbs);
         this.selectedGroup$.next(group);
-        this.addGroupHistory();
         this.svcConfig.set('last-breadcrumbs', breadcrumbs);
     }
 

@@ -19,6 +19,7 @@ import { Task } from '@domain/Task';
 export class DataCellComponent implements OnChanges, OnDestroy {
     @Input() task: Task;
     @Input() key: string = '';
+    @Input() value: string;
 
     tooltip: string;
 
@@ -77,7 +78,13 @@ export class DataCellComponent implements OnChanges, OnDestroy {
 
         if(this.shouldDetectOverflow) {
             const { clientWidth, scrollWidth } = this.ref.nativeElement;
-            this.tooltip = clientWidth !== scrollWidth ? this.task[this.key] : '';
+
+            if(clientWidth !== scrollWidth) {
+                this.tooltip = this.task ? this.task[this.key] : this.value;
+            }
+            else {
+                this.tooltip = '';
+            }
 
             this.shouldDetectOverflow = false;
             this.cdr.detectChanges();

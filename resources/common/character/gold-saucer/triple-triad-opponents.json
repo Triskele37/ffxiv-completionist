@@ -1,328 +1,949 @@
 {
     "key": "triple-triad-opponents",
+    "headers": {
+        "drops": {
+            "link": true
+        },
+        "quest": {
+            "link": true
+        }
+    },
     "tasks": {
         "x0": {
+            "location": "(4, 7)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-1.3",
+            "quest": "",
             "patch": "2.51"
         },
         "x1": {
+            "location": "(11, 11)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.28",
+                "character.gold-saucer.triple-triad-card-list.page-1.17"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66046",
             "patch": "2.51"
         },
         "x2": {
+            "location": "(11.9, 16.9)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-8.29",
+                "character.gold-saucer.triple-triad-card-list.page-9.1"
+            ],
+            "quest": "duty.quests.sidequests.amh-araeng.amh-araeng.69046",
             "patch": "5.0"
         },
         "x3": {
+            "location": "(9.8, 9.8)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.12",
+                "character.gold-saucer.triple-triad-card-list.page-6.22"
+            ],
+            "quest": "duty.quests.main-scenario.stormblood.67985",
             "patch": "3.0"
         },
         "x4": {
+            "location": "(23, 13)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-2.5",
+            "quest": "",
             "patch": "2.51"
         },
         "x5": {
+            "location": "(22, 17)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.24",
+                "character.gold-saucer.triple-triad-card-list.page-2.15"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66046",
             "patch": "2.51"
         },
         "x6": {
+            "location": "(10.8, 15.2)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-8.28",
+            "quest": "duty.quests.main-scenario.shadowbringers.68837",
             "patch": "5.0"
         },
         "x7": {
+            "location": "(4, 7)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.12",
+                "character.gold-saucer.triple-triad-card-list.page-1.26"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x8": {
+            "location": "(15.7, 31.9)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-6.19",
+                "character.gold-saucer.triple-triad-card-list.page-8.21"
+            ],
+            "quest": "duty.quests.sidequests.othardian.yanxia.68281",
             "patch": "4.0"
         },
         "x9": {
+            "location": "(19.1, 17.4)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-9.0",
+            "quest": "duty.quests.main-scenario.shadowbringers.69177",
             "patch": "5.0"
         },
         "x10": {
+            "location": "(13, 15)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.28",
+                "character.gold-saucer.triple-triad-card-list.page-1.14"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x11": {
+            "location": "(4, 7)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.14",
+                "character.gold-saucer.triple-triad-card-list.page-1.19"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x12": {
+            "location": "(10.2, 10.2)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-6.23",
+            "quest": "duty.quests.main-scenario.stormblood.68008",
             "patch": "4.0"
         },
         "x13": {
+            "location": "(11, 11)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.7",
+                "character.gold-saucer.triple-triad-card-list.page-1.15"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x14": {
+            "location": "(31, 23)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-3.16",
+            "quest": "duty.quests.main-scenario.heavensward.67148",
             "patch": "3.0"
         },
         "x15": {
+            "location": "(14, 24)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.13",
+                "character.gold-saucer.triple-triad-card-list.page-4.24",
+                "character.gold-saucer.triple-triad-card-list.page-2.6",
+                "character.gold-saucer.triple-triad-card-list.page-1.1"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x16": {
+            "location": "(25, 35)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.2",
+                "character.gold-saucer.triple-triad-card-list.page-1.20"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66503",
             "patch": "2.51"
         },
         "x17": {
+            "location": "(11.9, 9.6)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-1.27",
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66046",
             "patch": "2.51"
         },
         "x18": {
+            "location": "(11, 13)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.11",
+                "character.gold-saucer.triple-triad-card-list.page-1.29"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66046",
             "patch": "2.51"
         },
         "x19": {
+            "location": "(3.7, 3.3)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-5.24",
+            "quest": "",
             "patch": "3.4"
         },
         "x102": {
+            "location": "(19.7, 9.2)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-11.13",
+            "quest": "duty.quests.main-scenario.endwalker.69910",
             "patch": "6.0"
         },
         "x20": {
+            "location": "(19, 20)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.8",
+                "character.gold-saucer.triple-triad-card-list.page-1.4"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x21": {
+            "location": "(31.4, 17.3)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-9.4",
+            "quest": "duty.quests.sidequests.tempest.the-tempest.69113",
             "patch": "5.0"
         },
         "x22": {
+            "location": "(6.7, 7.4)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-4.2",
+                "character.gold-saucer.triple-triad-card-list.page-4.3",
+                "character.gold-saucer.triple-triad-card-list.page-4.13"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.alexander.67630",
             "patch": "3.1"
         },
         "x23": {
+            "location": "(35, 15)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.19",
+                "character.gold-saucer.triple-triad-card-list.page-2.10"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66053",
             "patch": "2.51"
         },
         "x24": {
+            "location": "(9.8, 8.7)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.7",
+                "character.gold-saucer.triple-triad-card-list.page-5.7"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x25": {
+            "location": "(3.3, 3.3)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-5.20",
+            "quest": "",
             "patch": "3.4"
         },
         "x103": {
+            "location": "(29.3, 13.2)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-11.12",
+            "quest": "duty.quests.main-scenario.endwalker.69898",
             "patch": "6.0"
         },
         "x26": {
+            "location": "(4, 7)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.11",
+                "character.gold-saucer.triple-triad-card-list.page-1.26"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x27": {
+            "location": "(7.8, 14,.7)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-8.5",
+                "character.gold-saucer.triple-triad-card-list.page-8.6",
+                "character.gold-saucer.triple-triad-card-list.page-8.14",
+                "character.gold-saucer.triple-triad-card-list.page-8.4"
+            ],
+            "quest": "duty.quests.other.quasi-quests.68148",
             "patch": "4.36"
         },
         "x104": {
+            "location": "(11.1, 8.9)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-11.16",
+                "character.gold-saucer.triple-triad-card-list.page-11.17"
+            ],
+            "quest": "duty.quests.main-scenario.endwalker.69985",
             "patch": "6.0"
         },
         "x28": {
+            "location": "(14.3, 7.8)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-10.9",
+                "character.gold-saucer.triple-triad-card-list.page-10.10"
+            ],
+            "quest": "duty.quests.beast-tribe.dwarf.69437",
             "patch": "5.3"
         },
         "x29": {
+            "location": "(16, 22)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.27",
+                "character.gold-saucer.triple-triad-card-list.page-3.12"
+            ],
+            "quest": "duty.quests.sidequests.coerthan.coerthas-western-highlands.67434",
             "patch": "3.0"
         },
         "x30": {
+            "location": "(11.8, 13.0)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-10.29",
+                "character.blue-mage.the-masked-carnivale.29"
+            ],
+            "quest": "duty.quests.class--job.disciple-of-magic-job.blue-mage.69273",
             "patch": "5.45"
         },
         "x31": {
+            "location": "(22.2, 3.6)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-9.21",
+                "character.gold-saucer.triple-triad-card-list.page-9.19"
+            ],
+            "quest": "duty.quests.beast-tribe.pixie.69219",
             "patch": "5.1"
         },
         "x32": {
+            "location": "(28.2, 19.9)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-6.21",
+                "character.gold-saucer.triple-triad-card-list.page-7.11"
+            ],
+            "quest": "duty.quests.sidequests.gyr-abanian.the-fringes.68353",
             "patch": "4.0"
         },
         "x33": {
+            "location": "(16.1, 30.7)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-9.2",
+            "quest": "duty.quests.main-scenario.shadowbringers.68856",
             "patch": "5.0"
         },
         "x34": {
+            "location": "(18.5, 26.0)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-9.3",
+                "character.gold-saucer.triple-triad-card-list.page-9.13"
+            ],
+            "quest": "duty.quests.sidequests.raktika.the-raktika-greatwood.68991",
             "patch": "5.0"
         },
         "x35": {
+            "location": "(20, 21)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.3",
+                "character.gold-saucer.triple-triad-card-list.page-1.21"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x36": {
+            "location": "(8.0, 13.6)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-8.25",
+                "character.gold-saucer.triple-triad-card-list.page-8.15",
+                "character.gold-saucer.triple-triad-card-list.page-8.24",
+                "character.gold-saucer.triple-triad-card-list.page-8.26"
+            ],
+            "quest": "duty.quests.other.quasi-quests.68149",
             "patch": "4.45"
         },
         "x37": {
+            "location": "(14.4, 11.2)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-8.13",
+                "character.gold-saucer.triple-triad-opponents.37"
+            ],
+            "quest": "duty.quests.sidequests.side-story.even-further-hildibrand-adventures.68687",
             "patch": "4.45"
         },
         "x38": {
+            "location": "(11, 11)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-4.29",
+                "character.gold-saucer.triple-triad-card-list.page-5.0",
+                "character.gold-saucer.triple-triad-card-list.page-4.17"
+            ],
+            "quest": "duty.quests.main-scenario.heavensward.67205",
             "patch": "3.2"
         },
         "x39": {
+            "location": "(28, 31)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-5.14",
+                "character.gold-saucer.triple-triad-card-list.page-3.17",
+                "character.gold-saucer.triple-triad-card-list.page-4.15",
+                "character.gold-saucer.triple-triad-card-list.page-5.17"
+            ],
+            "quest": "duty.quests.main-scenario.heavensward.67199",
             "patch": "3.0"
         },
         "x40": {
+            "location": "(22.3, 8.6)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-6.29",
+            "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68216",
             "patch": "4.0"
         },
         "x41": {
+            "location": "(35.4, 20.2)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-9.10",
+            "quest": "duty.quests.main-scenario.shadowbringers.69180",
             "patch": "5.0"
         },
         "x42": {
+            "location": "(6, 14)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.24",
+                "character.gold-saucer.triple-triad-card-list.page-4.19",
+                "character.gold-saucer.triple-triad-card-list.page-5.13"
+            ],
+            "quest": "duty.quests.beast-tribe.vanu.67761",
             "patch": "3.0"
         },
         "x105": {
+            "location": "(10.8, 7.6)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-11.15",
+            "quest": "duty.quests.sidequests.thavnairian.radz-at-han.69805",
             "patch": "6.0"
         },
         "x43": {
+            "location": "(11, 7)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-5.11",
+                "character.gold-saucer.triple-triad-card-list.page-3.4",
+                "character.gold-saucer.triple-triad-card-list.page-4.22"
+            ],
+            "quest": "duty.quests.sidequests.lominsan.limsa-lominsa.67784",
             "patch": "2.51"
         },
         "x44": {
+            "location": "(3.3, 3.7)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-6.0",
+            "quest": "",
             "patch": "3.4"
         },
         "x45": {
+            "location": "(10, 5)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.7",
+                "character.gold-saucer.triple-triad-card-list.page-4.27"
+            ],
+            "quest": "",
             "patch": "3.0"
         },
         "x46": {
+            "location": "(12, 13)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-5.10",
+                "character.gold-saucer.triple-triad-card-list.page-3.4",
+                "character.gold-saucer.triple-triad-card-list.page-5.15"
+            ],
+            "quest": "duty.quests.sidequests.lominsan.limsa-lominsa.67784",
             "patch": "4.0"
         },
         "x47": {
+            "location": "(17, 26)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.4",
+                "character.gold-saucer.triple-triad-card-list.page-1.23"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x48": {
+            "location": "(20.4, 27.2)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-10.1",
+                "character.gold-saucer.triple-triad-card-list.page-9.29"
+            ],
+            "quest": "duty.quests.beast-tribe.qitari.69330",
             "patch": "5.2"
         },
         "x49": {
+            "location": "(8.4, 8.9)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.28",
+                "character.gold-saucer.triple-triad-card-list.page-2.9",
+                "character.gold-saucer.triple-triad-card-list.page-4.9",
+                "character.gold-saucer.triple-triad-card-list.page-3.6"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66221",
             "patch": "2.51"
         },
         "x50": {
+            "location": "(28.5, 16.4)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-6.20",
+            "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68227",
             "patch": "4.0"
         },
         "x51": {
+            "location": "(21.7, 7.9)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-8.2",
+                "character.gold-saucer.triple-triad-card-list.page-8.3",
+                "character.gold-saucer.triple-triad-card-list.page-8.1"
+            ],
+            "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68668",
             "patch": "4.35"
         },
         "x52": {
+            "location": "(23, 19)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.23",
+                "character.gold-saucer.triple-triad-card-list.page-4.5",
+                "character.gold-saucer.triple-triad-card-list.page-3.11"
+            ],
+            "quest": "duty.quests.beast-tribe.vath.67796",
             "patch": "3.0"
         },
         "x53": {
+            "location": "(14, 13)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-3.10",
+            "quest": "",
             "patch": "3.0"
         },
         "x54": {
+            "location": "(31.6, 37.1)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-7.20",
+            "quest": "duty.quests.main-scenario.stormblood.68014",
             "patch": "4.2"
         },
         "x55": {
+            "location": "(5.9, 6.6)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-10.19",
+                "character.gold-saucer.triple-triad-card-list.page-10.18"
+            ],
+            "quest": "duty.quests.sidequests.side-story.resistance-weapons.69487",
             "patch": "5.35"
         },
         "x56": {
+            "location": "(18.1, 19.8)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.22",
+                "character.gold-saucer.triple-triad-card-list.page-2.17",
+                "character.gold-saucer.triple-triad-card-list.page-2.13"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66050",
             "patch": "2.51"
         },
         "x106": {
+            "location": "(15.8, 7.0)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-11.22",
+                "character.gold-saucer.triple-triad-card-list.page-11.25"
+            ],
+            "quest": "duty.quests.main-scenario.endwalker.70000",
             "patch": "6.0"
         },
         "x57": {
+            "location": "(3.7, 3.7)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-5.21",
+                "character.gold-saucer.triple-triad-card-list.page-6.3"
+            ],
+            "quest": "",
             "patch": "3.4"
         },
         "x58": {
+            "location": "(5.0, 6.3)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-10.14",
+            "quest": "duty.quests.chronicles-of-a-new-era.the-sorrow-of-werlyt.69431",
             "patch": "5.3"
         },
         "x59": {
+            "location": "(35, 30)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.25",
+                "character.gold-saucer.triple-triad-card-list.page-2.18"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66053",
             "patch": "2.51"
         },
         "x60": {
+            "location": "(12, 11)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-3.14",
+            "quest": "duty.quests.main-scenario.heavensward.67118",
             "patch": "3.0"
         },
         "x61": {
+            "location": "(12.5, 9.9)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-9.11",
+                "character.gold-saucer.triple-triad-card-list.page-9.15"
+            ],
+            "quest": "duty.quests.main-scenario.shadowbringers.69190",
             "patch": "5.0"
         },
         "x62": {
+            "location": "(24, 40)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.14",
+                "character.gold-saucer.triple-triad-card-list.page-3.1",
+                "character.gold-saucer.triple-triad-card-list.page-2.15"
+            ],
+            "quest": "duty.quests.sidequests.uldahn.southern-thanalan.66558",
             "patch": "2.51"
         },
         "x63": {
+            "location": "(26.4, 12.9)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-8.11",
+                "character.gold-saucer.triple-triad-card-list.page-7.7"
+            ],
+            "quest": "duty.quests.main-scenario.post-stormblood.68610",
             "patch": "4.0"
         },
         "x64": {
+            "location": "(10.4, 11.9)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.15",
+                "character.gold-saucer.triple-triad-card-list.page-7.14",
+                "character.gold-saucer.triple-triad-card-list.page-8.22",
+                "character.gold-saucer.triple-triad-card-list.page-7.29"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68725",
             "patch": "5.2"
         },
         "x65": {
+            "location": "(32.8, 30.1)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.13",
+                "character.gold-saucer.triple-triad-card-list.page-6.28",
+                "character.gold-saucer.triple-triad-card-list.page-7.4"
+            ],
+            "quest": "duty.quests.main-scenario.stormblood.68089",
             "patch": "4.0"
         },
         "x66": {
+            "location": "(11, 17)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.3",
+                "character.gold-saucer.triple-triad-card-list.page-2.0",
+                "character.gold-saucer.triple-triad-card-list.page-2.16",
+                "character.gold-saucer.triple-triad-card-list.page-2.1"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x67": {
+            "location": "(13.7, 11.3)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-8.20",
+                "character.gold-saucer.triple-triad-card-list.page-8.12",
+                "character.gold-saucer.triple-triad-card-list.page-7.3"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.omega.68693",
             "patch": "4.5"
         },
         "x68": {
+            "location": "(8.6, 14.0)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-7.25",
+            "quest": "duty.quests.main-scenario.stormblood.68008",
             "patch": "4.2"
         },
         "x69": {
+            "location": "(3, 7)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.0",
+                "character.gold-saucer.triple-triad-card-list.page-2.14"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x70": {
+            "location": "(6.9, 5.9)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-7.8",
+            "quest": "",
             "patch": "4.0"
         },
         "x71": {
+            "location": "(30, 13)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-5.6",
+                "character.gold-saucer.triple-triad-card-list.page-4.28",
+                "character.gold-saucer.triple-triad-card-list.page-5.1",
+                "character.gold-saucer.triple-triad-card-list.page-5.16"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.the-crystal-tower.66031",
             "patch": "3.2"
         },
         "x72": {
+            "location": "(16, 28)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.21",
+                "character.gold-saucer.triple-triad-card-list.page-2.10"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66053",
             "patch": "2.51"
         },
         "x73": {
+            "location": "(16, 37)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-4.0",
+                "character.gold-saucer.triple-triad-card-list.page-3.29"
+            ],
+            "quest": "duty.quests.sidequests.ishgardian.ishgard.67410",
             "patch": "3.1"
         },
         "x74": {
+            "location": "(26, 16)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-10.23",
+                "character.gold-saucer.triple-triad-card-list.page-10.22"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.eden.69515",
             "patch": "5.4"
         },
         "x75": {
+            "location": "(16, 18)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.4",
+                "character.gold-saucer.triple-triad-card-list.page-2.11"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x76": {
+            "location": "(15, 37)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.19",
+                "character.gold-saucer.triple-triad-card-list.page-5.9"
+            ],
+            "quest": "duty.quests.main-scenario.heavensward.67132",
             "patch": "3.0"
         },
         "x77": {
+            "location": "(29.5, 20.2)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.17",
+                "character.gold-saucer.triple-triad-card-list.page-7.24"
+            ],
+            "quest": "duty.quests.sidequests.othardian.yanxia.68268",
             "patch": "4.2"
         },
         "x78": {
+            "location": "(15, 28)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.12",
+                "character.gold-saucer.triple-triad-card-list.page-5.12",
+                "character.gold-saucer.triple-triad-card-list.page-5.19",
+                "character.gold-saucer.triple-triad-card-list.page-4.20"
+            ],
+            "quest": "duty.quests.beast-tribe.moogle.67863",
             "patch": "3.3"
         },
         "x79": {
+            "location": "(12.7, 36.8)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.20",
+                "character.gold-saucer.triple-triad-card-list.page-4.26",
+                "character.gold-saucer.triple-triad-card-list.page-5.27",
+                "character.gold-saucer.triple-triad-card-list.page-8.23"
+            ],
+            "quest": "duty.quests.main-scenario.post-stormblood.68685",
             "patch": "3.0"
         },
         "x80": {
+            "location": "(5.5, 6.6)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.18",
+                "character.gold-saucer.triple-triad-card-list.page-4.7"
+            ],
+            "quest": "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67501",
             "patch": "3.0"
         },
         "x81": {
+            "location": "(28, 35)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.9",
+                "character.gold-saucer.triple-triad-card-list.page-4.11",
+                "character.gold-saucer.triple-triad-card-list.page-3.8",
+                "character.gold-saucer.triple-triad-card-list.page-4.4"
+            ],
+            "quest": "duty.quests.sidequests.dravanian.the-churning-mists.67376",
             "patch": "3.0"
         },
         "x82": {
+            "location": "(12.2, 33.7)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.2",
+                "character.gold-saucer.triple-triad-card-list.page-6.24"
+            ],
+            "quest": "duty.quests.main-scenario.stormblood.68048",
             "patch": "4.0"
         },
         "x83": {
+            "location": "(31.9, 11.5)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.0",
+                "character.gold-saucer.triple-triad-card-list.page-6.24"
+            ],
+            "quest": "duty.quests.sidequests.othardian.the-azim-steppe.68308",
             "patch": "4.0"
         },
         "x84": {
+            "location": "(22, 20.7)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.1",
+                "character.gold-saucer.triple-triad-card-list.page-6.24"
+            ],
+            "quest": "duty.quests.sidequests.othardian.the-azim-steppe.68311",
             "patch": "4.0"
         },
         "x85": {
+            "location": "(6, 22)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.7",
+                "character.gold-saucer.triple-triad-card-list.page-1.25",
+                "character.gold-saucer.triple-triad-card-list.page-1.10"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x86": {
+            "location": "(13, 12)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.23",
+                "character.gold-saucer.triple-triad-card-list.page-3.4",
+                "character.gold-saucer.triple-triad-card-list.page-2.18"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66221",
             "patch": "2.51"
         },
         "x87": {
+            "location": "(3.8, 4.5)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-5.18",
+                "character.gold-saucer.triple-triad-card-list.page-6.13",
+                "character.gold-saucer.triple-triad-card-list.page-4.8",
+                "character.gold-saucer.triple-triad-card-list.page-4.25"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.the-shadow-of-mhach.67910",
             "patch": "3.1"
         },
         "x88": {
+            "location": "(21.9, 5.1)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.3",
+                "character.gold-saucer.triple-triad-card-list.page-2.29"
+            ],
+            "quest": "duty.quests.sidequests.uldahn.western-thanalan.66241",
             "patch": "2.51"
         },
         "x89": {
+            "location": "(3, 7)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.14",
+                "character.gold-saucer.triple-triad-card-list.page-2.19"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x90": {
+            "location": "(24, 23)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.7",
+                "character.gold-saucer.triple-triad-card-list.page-2.2",
+                "character.gold-saucer.triple-triad-card-list.page-2.27",
+                "character.gold-saucer.triple-triad-card-list.page-5.28"
+            ],
+            "quest": "duty.quests.beast-tribe.ixal.67029",
             "patch": "2.51"
         },
         "x101": {
+            "location": "(5, 6)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-11.9",
+                "character.gold-saucer.triple-triad-card-list.page-11.10"
+            ],
+            "quest": "duty.quests.sidequests.side-story.resistance-weapons.69624",
             "patch": "5.55"
         },
         "x91": {
+            "location": "(21, 18)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-5.29",
+                "character.gold-saucer.triple-triad-card-list.page-5.2",
+                "character.gold-saucer.triple-triad-card-list.page-4.13"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.alexander.67789",
             "patch": "3.1"
         },
         "x92": {
+            "location": "(16.4, 24.7)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.23",
+                "character.gold-saucer.triple-triad-card-list.page-6.25"
+            ],
+            "quest": "duty.quests.main-scenario.post-stormblood.68508",
             "patch": "4.0"
         },
         "x93": {
+            "location": "(23, 19)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-4.1",
+                "character.gold-saucer.triple-triad-card-list.page-4.5"
+            ],
+            "quest": "duty.quests.sidequests.dravanian.the-dravanian-forelands.67329",
             "patch": "3.1"
         },
         "x94": {
+            "location": "(8, 15)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-3.15",
+            "quest": "",
             "patch": "3.0"
         },
         "x107": {
+            "location": "(31.8, 17.0)",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-11.24",
+            "quest": "duty.quests.main-scenario.endwalker.69929",
             "patch": "6.0"
         },
         "x95": {
+            "location": "(7.3, 12.4)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.22",
+                "character.gold-saucer.triple-triad-card-list.page-4.23"
+            ],
+            "quest": "",
             "patch": "3.0"
         },
         "x96": {
+            "location": "(7, 10)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.28",
+                "character.gold-saucer.triple-triad-card-list.page-5.8"
+            ],
+            "quest": "duty.quests.sidequests.ishgardian.ishgard.67406",
             "patch": "3.1"
         },
         "x97": {
+            "location": "(3.5, 3.5)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.last-page.5",
+                "character.gold-saucer.triple-triad-card-list.page-5.26"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x98": {
+            "location": "(20.2, 19.5)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.18",
+                "character.gold-saucer.triple-triad-card-list.page-7.26"
+            ],
+            "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68243",
             "patch": "4.2"
         },
         "x99": {
+            "location": "(4, 6)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.last-page.4",
+                "character.gold-saucer.triple-triad-card-list.last-page.2",
+                "character.gold-saucer.triple-triad-card-list.last-page.5"
+            ],
+            "quest": "",
             "patch": "2.51"
         },
         "x100": {
+            "location": "(9.7, 11.0)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.5",
+                "character.gold-saucer.triple-triad-card-list.page-2.17",
+                "character.gold-saucer.triple-triad-card-list.page-2.22",
+                "character.gold-saucer.triple-triad-card-list.page-2.12"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66221",
             "patch": "2.51"
         }
     }

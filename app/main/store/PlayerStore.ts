@@ -3,10 +3,13 @@ import * as path from 'path';
 import * as fs from 'fs';
 
 import { ConfigStore } from './ConfigStore';
+import { WindowStore } from './WindowStore';
 
 export class PlayerStore {
     static path: string;
     static store;
+
+    static queuedSave;
 
     //#region------------------------------------------------------- Load/Save
     static get defaultSave() {
@@ -38,11 +41,28 @@ export class PlayerStore {
         });
     }
 
-    static save(): void {
-        fs.writeFileSync(
-            PlayerStore.path,
-            JSON.stringify(PlayerStore.store, null, 4)
-        );
+    static save(): boolean {
+        // In the event a queuedSave exists and another save was called
+        // trash the queuedSave so it doesn't overwrite the new store
+        if(PlayerStore.queuedSave) clearTimeout(PlayerStore.queuedSave);
+
+        try {
+            fs.writeFileSync(
+                PlayerStore.path,
+                JSON.stringify(PlayerStore.store, null, 4)
+            );
+
+            return true;
+        }
+        catch(e) {
+            if(e.code === 'EBUSY') {
+                console.log('----- busy hit');
+                PlayerStore.queuedSave = setTimeout(() => PlayerStore.save(), 1000);
+            }
+
+            WindowStore.splash.show();
+            return false;
+        }
     }
 
     //#endregion
@@ -57,9 +77,7 @@ export class PlayerStore {
 
     static set(event: IpcMainEvent, newSave) {
         PlayerStore.store = newSave;
-        PlayerStore.save();
-
-        event.returnValue = null;
+        event.returnValue = PlayerStore.save();
     }
 
     //#endregion

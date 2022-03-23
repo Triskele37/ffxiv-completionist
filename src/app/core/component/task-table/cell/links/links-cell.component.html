@@ -12,26 +12,36 @@
 <!-- Multiple Values, use button & overlay -->
 <ng-template #multiValue>
     <p-button
+        class="noSelect"
         styleClass="p-button-link"
-        label="Show All ({{tasks.length}})"
-        (onClick)="linkOverlay.toggle($event)"
+        label="{{'TABLE.VIEW_LINKS' | translate}} ({{tasks.length}})"
+        (mouseenter)="linkOverlay.show($event)"
+        (mouseleave)="onMultiLinkLeave()"
+        (onClick)="onLockOverlayClick()"
     ></p-button>
 
     <p-overlayPanel
         #linkOverlay
         styleClass="link-overlay"
     >
-        <ng-container *ngFor="let task of tasks">
-            <ng-container
-                *ngTemplateOutlet="!task?.completionFlag ? text : link; context: { $implicit: task }"
-            ></ng-container>
-        </ng-container>
+        <ng-template pTemplate="content">
+            <div
+                class="overlay-container"
+                (mouseleave)="onOverlayLeave()"
+            >
+                <ng-container *ngFor="let task of tasks">
+                    <ng-container
+                        *ngTemplateOutlet="!task?.completionFlag ? text : link; context: { $implicit: task }"
+                    ></ng-container>
+                </ng-container>
+            </div>
+        </ng-template>
     </p-overlayPanel>
 </ng-template>
 
 <!-- Raw Text -->
 <ng-template #text let-task>
-    {{task}}
+    <xiv-data-cell [value]="task"></xiv-data-cell>
 </ng-template>
 
 <!-- Task Link -->
@@ -39,7 +49,7 @@
     <p-button
         class="content-link noSelect"
         styleClass="p-button-link"
-        tooltipPosition="top"
+        tooltipPosition="left"
         [pTooltip]="
             (task._parent | contentLink) + '\n' +
             ('GENERAL.TASK_NAVIGATE' | translate)

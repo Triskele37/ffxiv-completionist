@@ -62,4 +62,12 @@ export class SearchComponent implements OnInit, OnDestroy {
     expandSearch(): void {
         this.svcSearch.toggleSearchDepth();
     }
+
+    onCopyPathClick(match: Match): void {
+        const path = match.task.fullStorageKey
+            .replace('overall.', '');
+
+        navigator.clipboard.writeText(path);
+    }
+
 }

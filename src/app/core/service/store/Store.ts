@@ -19,7 +19,7 @@ export class Store<StoreType> {
         this.load();
     }
 
-    load() {
+    load(): void {
         this.data = this.svcElectron.ipcRenderer.sendSync(this.ipcGetEvent);
     }
 
@@ -35,7 +35,7 @@ export class Store<StoreType> {
         return obj;
     }
 
-    set(path: string, value: any): void {
+    set(path: string, value: any): boolean {
         const segments = path.split('.');
         const key = segments.pop();
 
@@ -47,10 +47,10 @@ export class Store<StoreType> {
 
         obj[key] = value;
 
-        this.save();
+        return this.save();
     }
 
-    delete(path: string): void {
+    delete(path: string): boolean {
         const segments = path.split('.');
         const key = segments.pop();
 
@@ -62,10 +62,12 @@ export class Store<StoreType> {
 
         delete obj[key];
 
-        this.save();
+        return this.save();
     }
 
-    private save() {
-        this.svcElectron.ipcRenderer.sendSync(this.ipcSaveEvent, this.data);
+    // Returns whether the save was successful
+    private save(): boolean {
+        return this.svcElectron.ipcRenderer.sendSync(this.ipcSaveEvent, this.data);
     }
+
 }

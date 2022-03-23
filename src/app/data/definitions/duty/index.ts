@@ -35,10 +35,6 @@ export const DUTY_DEFINITION: GroupDefinition = {
                     ]
                 },
                 {
-                    path: 'guildhests',
-                    subGroups: Duty_Guildhests
-                },
-                {
                     path: 'trials',
                     subGroups: [
                         'arr',
@@ -58,6 +54,11 @@ export const DUTY_DEFINITION: GroupDefinition = {
                         'ew'
                     ]
                 },
+                {
+                    path: 'guildhests',
+                    subGroups: Duty_Guildhests
+                },
+                'deep-dungeon',
                 {
                     path: 'the-hunt',
                     subGroups: [

@@ -4,5 +4,5 @@
     tooltipPosition="top"
     [pTooltip]="tooltip"
 >
-    {{task[key]}}
+    {{task?.[key] || value}}
 </div>

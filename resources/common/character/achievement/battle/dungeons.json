@@ -88,31 +88,46 @@
         "x1576": {
             "points": 5,
             "patch": "3.35",
-            "cNext": [1577]
+            "cNext": [1577],
+            "cSiblingsAt": {
+                "10": ["duty.dutyraid-finder.deep-dungeon.0"]
+            }
         },
         "x1577": {
             "points": 5,
             "patch": "3.35",
             "cPrev": [1576],
-            "cNext": [1578]
+            "cNext": [1578],
+            "cSiblingsAt": {
+                "20": ["duty.dutyraid-finder.deep-dungeon.0"]
+            }
         },
         "x1578": {
             "points": 5,
             "patch": "3.35",
             "cPrev": [1577],
-            "cNext": [1579]
+            "cNext": [1579],
+            "cSiblingsAt": {
+                "30": ["duty.dutyraid-finder.deep-dungeon.0"]
+            }
         },
         "x1579": {
             "points": 5,
             "patch": "3.35",
             "cPrev": [1578],
-            "cNext": [1580]
+            "cNext": [1580],
+            "cSiblingsAt": {
+                "40": ["duty.dutyraid-finder.deep-dungeon.0"]
+            }
         },
         "x1580": {
             "points": 10,
             "patch": "3.35",
             "cPrev": [1579],
-            "cNext": [1655]
+            "cNext": [1655],
+            "cSiblingsAt": {
+                "50": ["duty.dutyraid-finder.deep-dungeon.0"]
+            }
         },
         "x1655": {
             "points": 10,
@@ -122,18 +137,27 @@
             "cNext": [1656],
             "cSiblings": [
                 "character.character.title.319"
-            ]
+            ],
+            "cSiblingsAt": {
+                "100": ["duty.dutyraid-finder.deep-dungeon.0"]
+            }
         },
         "x1656": {
             "points": 10,
             "patch": "3.45",
             "cPrev": [1655],
-            "cNext": [1657]
+            "cNext": [1657],
+            "cSiblingsAt": {
+                "150": ["duty.dutyraid-finder.deep-dungeon.0"]
+            }
         },
         "x1657": {
             "points": 20,
             "patch": "3.45",
-            "cPrev": [1656]
+            "cPrev": [1656],
+            "cSiblingsAt": {
+                "200": ["duty.dutyraid-finder.deep-dungeon.0"]
+            }
         },
         "x1659": {
             "points": 10,
@@ -212,13 +236,19 @@
         "x2047": {
             "points": 5,
             "patch": "4.35",
-            "cNext": [2048]
+            "cNext": [2048],
+            "cSiblingsAt": {
+                "10": ["duty.dutyraid-finder.deep-dungeon.1"]
+            }
         },
         "x2048": {
             "points": 5,
             "patch": "4.35",
             "cPrev": [2047],
-            "cNext": [2049]
+            "cNext": [2049],
+            "cSiblingsAt": {
+                "20": ["duty.dutyraid-finder.deep-dungeon.1"]
+            }
         },
         "x2049": {
             "points": 5,
@@ -228,13 +258,19 @@
             "cNext": [2050],
             "cSiblings": [
                 "character.character.title.384"
-            ]
+            ],
+            "cSiblingsAt": {
+                "30": ["duty.dutyraid-finder.deep-dungeon.1"]
+            }
         },
         "x2050": {
             "points": 10,
             "patch": "4.35",
             "cPrev": [2049],
-            "cNext": [2051]
+            "cNext": [2051],
+            "cSiblingsAt": {
+                "50": ["duty.dutyraid-finder.deep-dungeon.1"]
+            }
         },
         "x2051": {
             "points": 10,
@@ -243,7 +279,10 @@
             "cPrev": [2050],
             "cSiblings": [
                 "character.character.title.385"
-            ]
+            ],
+            "cSiblingsAt": {
+                "100": ["duty.dutyraid-finder.deep-dungeon.1"]
+            }
         },
         "x2054": {
             "points": 10,

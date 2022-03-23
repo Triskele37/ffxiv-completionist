@@ -97,6 +97,13 @@ function mapTasks(common, locale) {
                 ...common.tasks[id],
                 ...locale.tasks[id]
             };
+
+            // Merge props found on both into an array
+            Object.keys(common.tasks[id]).forEach((key) => {
+                if(common.tasks[id][key] && locale.tasks[id][key]) {
+                    tasks[id][key] = [].concat(common.tasks[id][key], locale.tasks[id][key]);
+                }
+            });
         }
     }
 

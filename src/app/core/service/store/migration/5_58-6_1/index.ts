@@ -35,7 +35,7 @@ export function migrate_5_58_to_6_1(svcSaveStore: SaveStoreService): void {
         'travel.shared-fate.shb'
     );
 
-    // Removed
+    // Combined Spiders/Webs facepaint
     store.deleteTask('character.character.aesthetician', 27);
 
     // Large-scale changes by group

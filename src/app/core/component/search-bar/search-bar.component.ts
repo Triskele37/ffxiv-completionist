@@ -27,6 +27,10 @@ export class SearchBarComponent {
             this.searchTerm = '';
             this.searchInput.nativeElement.focus();
         }
+
+        if(($event.ctrlKey || $event.metaKey) && $event.code === 'KeyV') {
+            setTimeout(this.onSearch.bind(this), 50);
+        }
     }
 
     onHomeClick(): void {
@@ -38,6 +42,10 @@ export class SearchBarComponent {
     }
 
     onSearch(): void {
+        this.searchTerm = this.searchTerm
+            .replace(/[\t\r\n]/g, '')
+            .trim();
+
         this.svcSearch.expanded = false;
         this.svcSearch.doAppSearch(this.searchTerm);
     }

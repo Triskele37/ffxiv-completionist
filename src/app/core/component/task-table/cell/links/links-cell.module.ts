@@ -6,6 +6,7 @@ import { OverlayPanelModule } from 'primeng/overlaypanel';
 import { TooltipModule } from 'primeng/tooltip';
 
 import { ContentLinkModule } from '../../../../pipe/content-link.pipe';
+import { DataCellModule } from '../data/data-cell.module';
 import { LinksCellComponent } from './links-cell.component';
 
 @NgModule({
@@ -20,6 +21,7 @@ import { LinksCellComponent } from './links-cell.component';
         TooltipModule,
 
         ContentLinkModule,
+        DataCellModule
     ],
     exports: [
         LinksCellComponent

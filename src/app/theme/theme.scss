@@ -9,6 +9,14 @@ body {
         }
     }
 
+    .p-overlaypanel {
+        border: 1px solid var(--surface-c);
+
+        &:before {
+            border-bottom-color: var(--surface-c);
+        }
+    }
+
     .p-tooltip {
         max-width: unset;
 
