@@ -21,10 +21,10 @@ export const TRAVEL_DEFINITION: GroupDefinition = {
                     path: 'sb',
                     subGroups: [
                         'the-fringes',
-                        'the-peaks',
-                        'the-lochs',
                         'the-ruby-sea',
+                        'the-peaks',
                         'yanxia',
+                        'the-lochs',
                         'the-azim-steppe',
                     ]
                 },
@@ -52,7 +52,20 @@ export const TRAVEL_DEFINITION: GroupDefinition = {
                 }
             ]
         },
-        'aetherytes',
+        {
+            path: 'aetherytes',
+            subGroups: [
+                'la-noscea',
+                'the-black-shroud',
+                'thanalan',
+                'ishgard-and-coerthas',
+                'gyr-abania',
+                'the-far-east',
+                'ilsabard',
+                'norvrandt',
+                'others',
+            ]
+        },
         {
             path: 'mount-speed',
             subGroups: [
@@ -67,7 +80,20 @@ export const TRAVEL_DEFINITION: GroupDefinition = {
                 'others',
             ]
         },
-        'porters',
+        {
+            path: 'porters',
+            subGroups: [
+                'la-noscea',
+                'the-black-shroud',
+                'thanalan',
+                'ishgard-and-coerthas',
+                'gyr-abania',
+                'the-far-east',
+                'ilsabard',
+                'norvrandt',
+                'others',
+            ]
+        },
         {
             path: 'shared-fate',
             subGroups: [

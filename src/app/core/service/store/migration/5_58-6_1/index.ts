@@ -5,6 +5,8 @@ import { migrate_6_1_fate } from './fate';
 import { migrate_6_1_emotes } from './emotes';
 import { migrate_6_1_paladin } from './paladin';
 import { migrate_6_1_housing } from './housing';
+import { migrate_6_1_porters } from './porters';
+import { migrate_6_1_aetherytes } from './aetherytes';
 import { migrate_6_1_gatheringLog } from './gathering-log';
 import { migrate_6_1_aetherCurrent } from './aether-current';
 
@@ -43,6 +45,8 @@ export function migrate_5_58_to_6_1(svcSaveStore: SaveStoreService): void {
     migrate_6_1_emotes(store);
     migrate_6_1_paladin(store);
     migrate_6_1_housing(store);
+    migrate_6_1_porters(store);
+    migrate_6_1_aetherytes(store);
     migrate_6_1_gatheringLog(store);
     migrate_6_1_aetherCurrent(store);
 

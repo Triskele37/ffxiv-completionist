@@ -17,7 +17,6 @@
 **Add**
 
 **Change**
-- Sort Porters & Aetherytes into groups
 - save starting class in player save
 - overhaul orchestrion log
 
