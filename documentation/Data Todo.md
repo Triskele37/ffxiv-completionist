@@ -8,6 +8,12 @@
   - Duties on Quests (one-way)
   - Duties & Achievements (two-way)
 - Add links to all columns referencing another task
+  - collection (konogg & field record)
+  - eureka nm rewards
+  - bozja rank
+  - sightseeing emotes?
+  - aether current
+  - mount speed
 
 **Change**
 
@@ -20,6 +26,7 @@
 **Change**
 - Sort Porters & Aetherytes into groups
 - save starting class in player save
+- overhaul orchestrion log
 
 **Fix**
 - Missing fr sections

@@ -4,26 +4,22 @@
         "x101": {
             "name": "Step Dance",
             "command": "/stepdance, /sdance",
-            "category": "Quest",
-            "source": "Good for What Ales You (Level 14 La Noscea Sidequest)"
+            "category": "Quest"
         },
         "x102": {
             "name": "Harvest Dance",
             "command": "/harvestdance, /hdance",
-            "category": "Quest",
-            "source": "Saw That One Coming (Level 14 Black Shroud Sidequest)"
+            "category": "Quest"
         },
         "x103": {
             "name": "Ball Dance",
             "command": "/balldance, /bdance",
-            "category": "Quest",
-            "source": "Help Me, Lord of the Dance (Level 14 Thanalan Sidequest)"
+            "category": "Quest"
         },
         "x104": {
             "name": "Manderville Dance",
             "command": "/mandervilledance, /mdance",
-            "category": "Quest",
-            "source": "The Hammer (Level 50 Side Story Quest)"
+            "category": "Quest"
         },
         "x109": {
             "name": "Bomb Dance",
@@ -34,8 +30,7 @@
         "x114": {
             "name": "Most Gentlemanly",
             "command": "/hildibrand, /hildy",
-            "category": "Quest",
-            "source": "Her Last Vow (Level 50 Side Story Quest)"
+            "category": "Quest"
         },
         "x118": {
             "name": "Thavnairian Dance",
@@ -52,20 +47,17 @@
         "x120": {
             "name": "Sundrop Dance",
             "command": "/sundropdance, /sundance",
-            "category": "Quest",
-            "source": "Sundrop the Beat (Level 50 Beast Tribe Quest)"
+            "category": "Quest"
         },
         "x145": {
             "name": "Moonlift Dance",
             "command": "/moonlift",
-            "category": "Quest",
-            "source": "Eternity, Loyalty, Honesty (Level 60 Side Story Quest)"
+            "category": "Quest"
         },
         "x126": {
             "name": "Moogle Dance",
             "command": "/mogdance",
-            "category": "Quest",
-            "source": "Piecing Together the Past (Level 50 Beast Tribe Quest)"
+            "category": "Quest"
         },
         "x130": {
             "name": "Red Ranger Pose A",
@@ -190,14 +182,12 @@
         "x187": {
             "name": "Hum",
             "command": "/hum",
-            "category": "Quest",
-            "source": "The Fire-bird Down Below (Level 70 Chronicles of a New Era Quest)"
+            "category": "Quest"
         },
         "x198": {
             "name": "Manderville Mambo",
             "command": "/mandervillemambo, /mmambo",
-            "category": "Quest",
-            "source": "Don't Do the Dewprism (Level 70 Side Story Quest)"
+            "category": "Quest"
         },
         "x210": {
             "name": "Wasshoi",
@@ -226,26 +216,22 @@
         "x155": {
             "name": "Squats",
             "command": "/squats",
-            "category": "Achievement",
-            "source": "Dear Leader I"
+            "category": "Achievement"
         },
         "x156": {
             "name": "Push-ups",
             "command": "/pushups",
-            "category": "Achievement",
-            "source": "Dear Leader I"
+            "category": "Achievement"
         },
         "x157": {
             "name": "Sit-ups",
             "command": "/situps",
-            "category": "Achievement",
-            "source": "Dear Leader I"
+            "category": "Achievement"
         },
         "x158": {
             "name": "Breath Control",
             "command": "/breathcontrol",
-            "category": "Achievement",
-            "source": "Dear Leader I"
+            "category": "Achievement"
         },
         "x164": {
             "name": "Attention",
@@ -262,8 +248,7 @@
         "x166": {
             "name": "Box",
             "command": "/box",
-            "category": "Quest",
-            "source": "Arenvald's Adventure (Level 70 Main Scenario Quest)"
+            "category": "Quest"
         },
         "x180": {
             "name": "Sweat",
@@ -275,7 +260,7 @@
             "name": "Shiver",
             "command": "/shiver",
             "category": "Exploratory Mission",
-            "source": "Cold-warped Lockbox - Eureka Pagos"
+            "source": "Cold-warped Lockbox"
         },
         "x169": {
             "name": "Tremble",
@@ -293,13 +278,17 @@
             "name": "Confirm",
             "command": "/confirm",
             "category": "Treasure Hunt",
-            "source": "The Lost Canals Of Uznair, The Hidden Canals Of Uznair, The Shifting Altars Of Uznair"
+            "source": [
+                "The Lost Canals Of Uznair",
+                "The Hidden Canals Of Uznair",
+                "The Shifting Altars Of Uznair"
+            ]
         },
         "x189": {
             "name": "Scheme",
             "command": "/scheme",
             "category": "Exploratory Mission",
-            "source": "Heat-warped Lockbox - Eureka Pyros"
+            "source": "Heat-warped Lockbox"
         },
         "x196": {
             "name": "Reprimand",

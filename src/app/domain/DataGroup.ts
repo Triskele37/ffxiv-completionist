@@ -235,7 +235,9 @@ export class DataGroup {
 
     get percentComplete(): string {
         if(!this.total || this.total - this.totalExcluded === 0) return null;
-        return ((this.totalCompleted / (this.total - this.totalExcluded)) * 100).toFixed(2);
+        const num = ((this.totalCompleted / (this.total - this.totalExcluded)) * 100);
+        const str = num.toString().match(/^\d+\.?\d{0,2}/)?.[0] || '0.00';
+        return str.includes('.') ? str : `${str}.00`;
     }
 
     // Propagate an excluded change up through parent groups
