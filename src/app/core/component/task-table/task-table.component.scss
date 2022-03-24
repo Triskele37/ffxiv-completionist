@@ -72,7 +72,7 @@
             }
         }
 
-        // Fix rendering artifact on dynamically filtered rows
+        // Fix rendering artifact on dynamically removed rows
         //TODO: this is a bandaid for now, assuming the artifact still happens
         //TODO: but is the same color as whats below the table
         // stems from "contain: content"
