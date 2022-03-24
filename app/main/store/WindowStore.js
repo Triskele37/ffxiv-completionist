@@ -101,6 +101,14 @@ var WindowStore = /** @class */ (function () {
             }));
         }
     };
+    WindowStore.focusMainWindow = function () {
+        var _a;
+        if ((_a = WindowStore.main) === null || _a === void 0 ? void 0 : _a.isVisible()) {
+            if (WindowStore.main.isMinimized())
+                WindowStore.main.restore();
+            WindowStore.main.focus();
+        }
+    };
     //#endregion
     //#region------------------------------------------------------- State
     WindowStore.loadWindowState = function () {

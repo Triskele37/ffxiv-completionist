@@ -115,6 +115,13 @@ export class WindowStore {
         }
     }
 
+    static focusMainWindow(): void {
+        if(WindowStore.main?.isVisible()) {
+            if(WindowStore.main.isMinimized()) WindowStore.main.restore();
+            WindowStore.main.focus();
+        }
+    }
+
     //#endregion
 
     //#region------------------------------------------------------- State
