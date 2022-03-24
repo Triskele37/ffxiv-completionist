@@ -3,49 +3,54 @@
     "cCombo": ["a.3004"],
     "tasks": {
         "x0": {
-            "source": "(17.9, 32.2, 0.2)"
+            "location": "(17.9, 32.2, 0.2)"
         },
         "x1": {
-            "source": "(27.5, 30.9, 0.0)"
+            "location": "(27.5, 30.9, 0.0)"
         },
         "x2": {
-            "source": "(19.1, 15.7, 0.8)"
+            "location": "(19.1, 15.7, 0.8)"
         },
         "x3": {
-            "source": "(20.4, 7.2, 0.9)"
+            "location": "(20.4, 7.2, 0.9)"
         },
         "x4": {
-            "source": "(11.9, 10.2, 0.7)"
+            "location": "(11.9, 10.2, 0.7)"
         },
         "x5": {
-            "source": "(23.3, 12.5, 0.3)"
+            "location": "(23.3, 12.5, 0.3)"
         },
         "x6": {
-            "source": "(23.8, 14.6, 0.0)"
+            "location": "(23.8, 14.6, 0.0)"
         },
         "x7": {
-            "source": "(32.4, 18.2, 0.2)"
+            "location": "(32.4, 18.2, 0.2)"
         },
         "x8": {
-            "source": "(27.3, 29.9, 0.0)"
+            "location": "(27.3, 29.9, 0.0)"
         },
         "x9": {
-            "source": "(22.5, 25.2, 0.1)"
+            "location": "(22.5, 25.2, 0.1)"
         },
         "x10": {
-            "cSiblings": ["q.69952"]
+            "quest": "duty.quests.main-scenario.endwalker.69952",
+            "cSiblings": ["duty.quests.main-scenario.endwalker.69952"]
         },
         "x11": {
-            "cSiblings": ["q.69739"]
+            "quest": "duty.quests.sidequests.thavnairian.thavnair.69739",
+            "cSiblings": ["duty.quests.sidequests.thavnairian.thavnair.69739"]
         },
         "x12": {
-            "cSiblings": ["q.70025"]
+            "quest": "duty.quests.sidequests.thavnairian.thavnair.70025",
+            "cSiblings": ["duty.quests.sidequests.thavnairian.thavnair.70025"]
         },
         "x13": {
-            "cSiblings": ["q.69795"]
+            "quest": "duty.quests.sidequests.thavnairian.thavnair.69795",
+            "cSiblings": ["duty.quests.sidequests.thavnairian.thavnair.69795"]
         },
         "x14": {
-            "cSiblings": ["q.69793"]
+            "quest": "duty.quests.sidequests.thavnairian.thavnair.69793",
+            "cSiblings": ["duty.quests.sidequests.thavnairian.thavnair.69793"]
         }
     }
 }

@@ -3,49 +3,54 @@
     "cCombo": ["a.3008"],
     "tasks": {
         "x0": {
-            "source": "(14.8, 14.2, 2.2)"
+            "location": "(14.8, 14.2, 2.2)"
         },
         "x1": {
-            "source": "(21.7, 6.3, 2.3)"
+            "location": "(21.7, 6.3, 2.3)"
         },
         "x2": {
-            "source": "(34.7, 29.7, 3.9)"
+            "location": "(34.7, 29.7, 3.9)"
         },
         "x3": {
-            "source": "(32.2, 26.2, 3.9)"
+            "location": "(32.2, 26.2, 3.9)"
         },
         "x4": {
-            "source": "(29.9, 7.8, 2.3)"
+            "location": "(29.9, 7.8, 2.3)"
         },
         "x5": {
-            "source": "(16.7, 15.5, 2.7)"
+            "location": "(16.7, 15.5, 2.7)"
         },
         "x6": {
-            "source": "(13.7, 8.8, 2.1)"
+            "location": "(13.7, 8.8, 2.1)"
         },
         "x7": {
-            "source": "(36.5, 28.6, 3.9)"
+            "location": "(36.5, 28.6, 3.9)"
         },
         "x8": {
-            "source": "(34.2, 27.2, 3.9)"
+            "location": "(34.2, 27.2, 3.9)"
         },
         "x9": {
-            "source": "(32.8, 29.5, 3.9)"
+            "location": "(32.8, 29.5, 3.9)"
         },
         "x10": {
-            "cSiblings": ["q.69999"]
+            "quest": "duty.quests.main-scenario.endwalker.69999",
+            "cSiblings": ["duty.quests.main-scenario.endwalker.69999"]
         },
         "x11": {
-            "cSiblings": ["q.69878"]
+            "quest": "duty.quests.sidequests.ultima-thule.ultima-thule.69878",
+            "cSiblings": ["duty.quests.sidequests.ultima-thule.ultima-thule.69878"]
         },
         "x12": {
-            "cSiblings": ["q.69882"]
+            "quest": "duty.quests.sidequests.ultima-thule.ultima-thule.69882",
+            "cSiblings": ["duty.quests.sidequests.ultima-thule.ultima-thule.69882"]
         },
         "x13": {
-            "cSiblings": ["q.69891"]
+            "quest": "duty.quests.sidequests.ultima-thule.ultima-thule.69891",
+            "cSiblings": ["duty.quests.sidequests.ultima-thule.ultima-thule.69891"]
         },
         "x14": {
-            "cSiblings": ["q.69890"]
+            "quest": "duty.quests.sidequests.ultima-thule.ultima-thule.69890",
+            "cSiblings": ["duty.quests.sidequests.ultima-thule.ultima-thule.69890"]
         }
     }
 }

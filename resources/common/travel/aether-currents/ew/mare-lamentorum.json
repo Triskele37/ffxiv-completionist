@@ -3,49 +3,54 @@
     "cCombo": ["a.3006"],
     "tasks": {
         "x0": {
-            "source": "(22.3, 18.1, 1.2)"
+            "location": "(22.3, 18.1, 1.2)"
         },
         "x1": {
-            "source": "(11.8, 9.5, -1.6)"
+            "location": "(11.8, 9.5, -1.6)"
         },
         "x2": {
-            "source": "(27.8, 9.5, -1.6)"
+            "location": "(27.8, 9.5, -1.6)"
         },
         "x3": {
-            "source": "(22.0, 10.4, -0.5)"
+            "location": "(22.0, 10.4, -0.5)"
         },
         "x4": {
-            "source": "(18.9, 20.1, 0.6)"
+            "location": "(18.9, 20.1, 0.6)"
         },
         "x5": {
-            "source": "(33.3, 23.7, 1.4)"
+            "location": "(33.3, 23.7, 1.4)"
         },
         "x6": {
-            "source": "(29.2, 27.6, 0.9)"
+            "location": "(29.2, 27.6, 0.9)"
         },
         "x7": {
-            "source": "(34.5, 13.3, -1.7)"
+            "location": "(34.5, 13.3, -1.7)"
         },
         "x8": {
-            "source": "(6.8, 6.8, -1.4)"
+            "location": "(6.8, 6.8, -1.4)"
         },
         "x9": {
-            "source": "(21.9, 13.7, -1.4)"
+            "location": "(21.9, 13.7, -1.4)"
         },
         "x10": {
-            "cSiblings": ["q.69943"]
+            "quest": "duty.quests.main-scenario.endwalker.69943",
+            "cSiblings": ["duty.quests.main-scenario.endwalker.69943"]
         },
         "x11": {
-            "cSiblings": ["q.69776"]
+            "quest": "duty.quests.sidequests.mare-lamentorum.mare-lamentorum.69776",
+            "cSiblings": ["duty.quests.sidequests.mare-lamentorum.mare-lamentorum.69776"]
         },
         "x12": {
-            "cSiblings": ["q.69777"]
+            "quest": "duty.quests.sidequests.mare-lamentorum.mare-lamentorum.69777",
+            "cSiblings": ["duty.quests.sidequests.mare-lamentorum.mare-lamentorum.69777"]
         },
         "x13": {
-            "cSiblings": ["q.69789"]
+            "quest": "duty.quests.sidequests.mare-lamentorum.mare-lamentorum.69789",
+            "cSiblings": ["duty.quests.sidequests.mare-lamentorum.mare-lamentorum.69789"]
         },
         "x14": {
-            "cSiblings": ["q.70052"]
+            "quest": "duty.quests.sidequests.mare-lamentorum.mare-lamentorum.70052",
+            "cSiblings": ["duty.quests.sidequests.mare-lamentorum.mare-lamentorum.70052"]
         }
     }
 }

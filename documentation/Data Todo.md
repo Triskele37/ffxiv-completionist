@@ -12,7 +12,6 @@
   - eureka nm rewards
   - bozja rank
   - sightseeing emotes?
-  - aether current
 
 **Change**
 

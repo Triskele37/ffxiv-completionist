@@ -3,49 +3,54 @@
     "cCombo": ["a.3003"],
     "tasks": {
         "x0": {
-            "source": "(28.4, 6.1, 4.3)"
+            "location": "(28.4, 6.1, 4.3)"
         },
         "x1": {
-            "source": "(36.4, 22.8, 3.3)"
+            "location": "(36.4, 22.8, 3.3)"
         },
         "x2": {
-            "source": "(10.5, 34.7, 2.0)"
+            "location": "(10.5, 34.7, 2.0)"
         },
         "x3": {
-            "source": "(18.9, 35.0, 2.0)"
+            "location": "(18.9, 35.0, 2.0)"
         },
         "x4": {
-            "source": "(15.1, 13.5, 3.0)"
+            "location": "(15.1, 13.5, 3.0)"
         },
         "x5": {
-            "source": "(22.1, 15.7, 2.9)"
+            "location": "(22.1, 15.7, 2.9)"
         },
         "x6": {
-            "source": "(31.5, 16.1, 0.5)"
+            "location": "(31.5, 16.1, 0.5)"
         },
         "x7": {
-            "source": "(17.9, 16.6, 2.1)"
+            "location": "(17.9, 16.6, 2.1)"
         },
         "x8": {
-            "source": "(11.3, 19.0, 2.0)"
+            "location": "(11.3, 19.0, 2.0)"
         },
         "x9": {
-            "source": "(22.4, 25.0, 1.9)"
+            "location": "(22.4, 25.0, 1.9)"
         },
         "x10": {
-            "cSiblings": ["q.69984"]
+            "quest": "duty.quests.main-scenario.endwalker.69984",
+            "cSiblings": ["duty.quests.main-scenario.endwalker.69984"]
         },
         "x11": {
-            "cSiblings": ["q.70016"]
+            "quest": "duty.quests.sidequests.sharlayan.labyrinthos.70016",
+            "cSiblings": ["duty.quests.sidequests.sharlayan.labyrinthos.70016"]
         },
         "x12": {
-            "cSiblings": ["q.70020"]
+            "quest": "duty.quests.sidequests.sharlayan.labyrinthos.70020",
+            "cSiblings": ["duty.quests.sidequests.sharlayan.labyrinthos.70020"]
         },
         "x13": {
-            "cSiblings": ["q.69856"]
+            "quest": "duty.quests.sidequests.sharlayan.labyrinthos.69856",
+            "cSiblings": ["duty.quests.sidequests.sharlayan.labyrinthos.69856"]
         },
         "x14": {
-            "cSiblings": ["q.69865"]
+            "quest": "duty.quests.sidequests.sharlayan.labyrinthos.69865",
+            "cSiblings": ["duty.quests.sidequests.sharlayan.labyrinthos.69865"]
         }
     }
 }
