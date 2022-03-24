@@ -10,8 +10,6 @@
 - Add links to all columns referencing another task
   - collection (konogg & field record)
   - eureka nm rewards
-  - bozja rank
-  - sightseeing emotes?
 
 **Change**
 
