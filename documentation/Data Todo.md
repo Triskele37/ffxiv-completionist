@@ -13,7 +13,6 @@
   - bozja rank
   - sightseeing emotes?
   - aether current
-  - mount speed
 
 **Change**
 

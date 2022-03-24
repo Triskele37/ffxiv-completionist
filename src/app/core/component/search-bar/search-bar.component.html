@@ -1,7 +1,7 @@
 <p-button
     [label]="'MAIN.TITLE' | translate"
     class="home-button"
-    icon="pi pi-chevron-down"
+    icon="pi pi-chevron-{{(svcNavigation.selectedGroup$ | async)?.isUiGroup ? 'down' : 'right'}}"
     (onClick)="onHomeClick()"
 ></p-button>
 

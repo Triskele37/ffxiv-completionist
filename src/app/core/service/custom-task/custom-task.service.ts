@@ -38,8 +38,10 @@ export class CustomTaskService {
 
         this.group.initializeTasks(meta);
 
-        // Add this group to main data
-        this.svcData.data.subGroups.push(this.group);
+        // Add this group to main data after the Bookmark group
+        // In the event Bookmark hasn't been added yet, Custom will be added as the first group
+        const index = this.svcData.data.subGroups.findIndex((g) => g.isBookmarkGroup);
+        this.svcData.data.subGroups.splice(index + 1, 0, this.group);
     }
 
     getMeta(): { [key: string]: CustomTaskMeta } {

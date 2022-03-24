@@ -18,7 +18,7 @@ export class SearchBarComponent {
     constructor(
         private svcData: DataService,
         private svcMainMenu: MainMenuService,
-        private svcNavigation: NavigationService,
+        public svcNavigation: NavigationService,
         public svcSearch: SearchService,
     ) {
     }
