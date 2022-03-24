@@ -35,7 +35,7 @@ export class Store<StoreType> {
         return obj;
     }
 
-    set(path: string, value: any): boolean {
+    set(path: string, value: any): void {
         const segments = path.split('.');
         const key = segments.pop();
 
@@ -47,10 +47,10 @@ export class Store<StoreType> {
 
         obj[key] = value;
 
-        return this.save();
+        this.save();
     }
 
-    delete(path: string): boolean {
+    delete(path: string): void {
         const segments = path.split('.');
         const key = segments.pop();
 
@@ -62,12 +62,11 @@ export class Store<StoreType> {
 
         delete obj[key];
 
-        return this.save();
+        this.save();
     }
 
-    // Returns whether the save was successful
-    private save(): boolean {
-        return this.svcElectron.ipcRenderer.sendSync(this.ipcSaveEvent, this.data);
+    private save(): void {
+        this.svcElectron.ipcRenderer.sendSync(this.ipcSaveEvent, this.data);
     }
 
 }

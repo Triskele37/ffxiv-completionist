@@ -5,7 +5,6 @@ var electron_1 = require("electron");
 var path = require("path");
 var fs = require("fs");
 var ConfigStore_1 = require("./ConfigStore");
-var WindowStore_1 = require("./WindowStore");
 var PlayerStore = /** @class */ (function () {
     function PlayerStore() {
     }
@@ -46,15 +45,12 @@ var PlayerStore = /** @class */ (function () {
             clearTimeout(PlayerStore.queuedSave);
         try {
             fs.writeFileSync(PlayerStore.path, JSON.stringify(PlayerStore.store, null, 4));
-            return true;
         }
         catch (e) {
+            // Retry save if the file was locked
             if (e.code === 'EBUSY') {
-                console.log('----- busy hit');
                 PlayerStore.queuedSave = setTimeout(function () { return PlayerStore.save(); }, 1000);
             }
-            WindowStore_1.WindowStore.splash.show();
-            return false;
         }
     };
     //#endregion
@@ -67,7 +63,8 @@ var PlayerStore = /** @class */ (function () {
     };
     PlayerStore.set = function (event, newSave) {
         PlayerStore.store = newSave;
-        event.returnValue = PlayerStore.save();
+        PlayerStore.save();
+        event.returnValue = null;
     };
     //#endregion
     //#region------------------------------------------------------- Backup Utils

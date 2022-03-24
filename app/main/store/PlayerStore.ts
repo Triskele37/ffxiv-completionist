@@ -41,7 +41,7 @@ export class PlayerStore {
         });
     }
 
-    static save(): boolean {
+    static save(): void {
         // In the event a queuedSave exists and another save was called
         // trash the queuedSave so it doesn't overwrite the new store
         if(PlayerStore.queuedSave) clearTimeout(PlayerStore.queuedSave);
@@ -51,17 +51,12 @@ export class PlayerStore {
                 PlayerStore.path,
                 JSON.stringify(PlayerStore.store, null, 4)
             );
-
-            return true;
         }
         catch(e) {
+            // Retry save if the file was locked
             if(e.code === 'EBUSY') {
-                console.log('----- busy hit');
                 PlayerStore.queuedSave = setTimeout(() => PlayerStore.save(), 1000);
             }
-
-            WindowStore.splash.show();
-            return false;
         }
     }
 
@@ -77,7 +72,8 @@ export class PlayerStore {
 
     static set(event: IpcMainEvent, newSave) {
         PlayerStore.store = newSave;
-        event.returnValue = PlayerStore.save();
+        PlayerStore.save();
+        event.returnValue = null;
     }
 
     //#endregion
