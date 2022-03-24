@@ -6,6 +6,7 @@
 - Custom application container, specifically title bar
 - Chain Viewer
 - Random Task Suggestion
+- coordinate viewer (maps)
 - Installation
     - auto-update
     - download lang resources at time of lang change

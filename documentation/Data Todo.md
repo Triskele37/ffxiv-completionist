@@ -7,8 +7,6 @@
   - Beast Tribe Recipes on Beast Tribe Quests (one-way)
   - Duties on Quests (one-way)
   - Duties & Achievements (two-way)
-- Add links to all columns referencing another task
-  - collection (konogg & field record)
 
 **Change**
 

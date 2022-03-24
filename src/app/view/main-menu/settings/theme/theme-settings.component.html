@@ -1,13 +1,9 @@
 <div class="setting">
-    <label></label>
+    <label>{{'MAIN.SETTING.THEME.PRIMARY_COLOR' | translate}}:</label>
     <p-button
         [label]="'MAIN.SETTING.THEME.RESET' | translate"
-        (onClick)="resetTheme()"
+        (onClick)="resetPrimaryColor()"
     ></p-button>
-</div>
-
-<div class="setting">
-    <label>{{'MAIN.SETTING.THEME.PRIMARY_COLOR' | translate}}:</label>
     <p-colorPicker
         [(ngModel)]="primaryColor"
         (onChange)="setPrimaryColor()"
@@ -16,23 +12,35 @@
 
 <div class="setting">
     <label>{{'MAIN.SETTING.THEME.PRIMARY_TEXT' | translate}}:</label>
+    <p-button
+        [label]="'MAIN.SETTING.THEME.RESET' | translate"
+        (onClick)="resetPrimaryTextColor()"
+    ></p-button>
     <p-colorPicker
-        [(ngModel)]="primaryText"
-        (onChange)="setPrimaryText()"
+        [(ngModel)]="primaryTextColor"
+        (onChange)="setPrimaryTextColor()"
     ></p-colorPicker>
 </div>
 
 <div class="setting">
     <label>{{'MAIN.SETTING.THEME.BACKGROUND' | translate}}:</label>
+    <p-button
+        [label]="'MAIN.SETTING.THEME.RESET' | translate"
+        (onClick)="resetBackgroundColor()"
+    ></p-button>
     <p-colorPicker
         format="hsb"
-        [(ngModel)]="background"
-        (onChange)="setBackground()"
+        [(ngModel)]="backgroundColor"
+        (onChange)="setBackgroundColor()"
     ></p-colorPicker>
 </div>
 
 <div class="setting">
     <label>{{'MAIN.SETTING.THEME.TEXT_COLOR' | translate}}:</label>
+    <p-button
+        [label]="'MAIN.SETTING.THEME.RESET' | translate"
+        (onClick)="resetTextColor()"
+    ></p-button>
     <p-colorPicker
         format="rgb"
         [(ngModel)]="textColor"
@@ -42,6 +50,10 @@
 
 <div class="setting">
     <label>{{'MAIN.SETTING.THEME.FONT' | translate}}:</label>
+    <p-button
+        [label]="'MAIN.SETTING.THEME.RESET' | translate"
+        (onClick)="resetFontFamily()"
+    ></p-button>
     <input
         pInputText
         [(ngModel)]="fontFamily"

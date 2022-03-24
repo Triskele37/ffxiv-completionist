@@ -7,14 +7,15 @@ import { SettingsComponent } from '../settings.component';
 
 @Component({
     selector: 'xiv-theme-settings',
-    templateUrl: './theme-settings.component.html'
+    templateUrl: './theme-settings.component.html',
+    styleUrls: ['./theme-settings.component.scss']
 })
 export class ThemeSettingsComponent implements OnInit {
     @Input() settings: Settings;
 
     primaryColor: string;
-    primaryText: string;
-    background: HSL;
+    primaryTextColor: string;
+    backgroundColor: HSL;
     textColor: RGB;
     fontFamily: string;
 
@@ -26,9 +27,9 @@ export class ThemeSettingsComponent implements OnInit {
 
     ngOnInit() {
         this.primaryColor = this.svcTheme.getStyle('--primary-color');
-        this.primaryText = this.svcTheme.getStyle('--primary-color-text');
+        this.primaryTextColor = this.svcTheme.getStyle('--primary-color-text');
 
-        this.background = {
+        this.backgroundColor = {
             h: parseInt(this.svcTheme.getStyle('--bg-h'), 10),
             s: parseInt(this.svcTheme.getStyle('--bg-s'), 10),
             b: parseInt(this.svcTheme.getStyle('--bg-l'), 10),
@@ -44,38 +45,64 @@ export class ThemeSettingsComponent implements OnInit {
         this.fontFamily = this.svcTheme.getStyle('--font-family');
     }
 
+    //#region------------------------------------------------------- Primary Color
     setPrimaryColor(): void {
         this.svcTheme.setPrimaryColor(this.primaryColor);
     }
 
-    setPrimaryText(): void {
-        this.svcTheme.setPrimaryText(this.primaryText);
+    resetPrimaryColor(): void {
+        this.primaryColor = this.svcTheme.defaultPrimaryColor;
+        this.setPrimaryColor();
     }
 
-    setBackground(): void {
-        this.svcTheme.setBackground(this.background);
+    //#endregion
+
+    //#region------------------------------------------------------- Primary Text Color
+    setPrimaryTextColor(): void {
+        this.svcTheme.setPrimaryTextColor(this.primaryTextColor);
     }
 
+    resetPrimaryTextColor(): void {
+        this.primaryTextColor = this.svcTheme.defaultPrimaryTextColor;
+        this.setPrimaryTextColor();
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Background Color
+    setBackgroundColor(): void {
+        this.svcTheme.setBackgroundColor(this.backgroundColor);
+    }
+
+    resetBackgroundColor(): void {
+        this.backgroundColor = this.svcTheme.defaultBackgroundColor;
+        this.setBackgroundColor();
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Text Color
     setTextColor(): void {
         this.svcTheme.setTextColor(this.textColor);
     }
 
+    resetTextColor(): void {
+        this.textColor = this.svcTheme.defaultTextColor;
+        this.setTextColor();
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Font Family
     setFontFamily(): void {
         this.svcTheme.setFontFamily(this.fontFamily);
     }
 
-    resetTheme() {
-        this.primaryColor = '#0f4c75';
-        this.primaryText = '#121212';
-        this.background = { h: 0, s: 0, b: 12 };
-        this.textColor = { r: 255, g: 255, b: 255 };
-        this.fontFamily = 'sans-serif';
-
-        this.setPrimaryColor();
-        this.setPrimaryText();
-        this.setTextColor();
+    resetFontFamily(): void {
+        this.fontFamily = this.svcTheme.defaultFontFamily;
         this.setFontFamily();
-        this.setBackground();
     }
+
+    //#endregion
 
 }
