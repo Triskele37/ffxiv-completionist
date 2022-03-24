@@ -21,10 +21,12 @@
             #groupSummary
             class="group-summary-section"
         >
-            <xiv-summary-line
-                *ngFor="let subGroup of selectedGroup.subGroups"
-                [group]="subGroup"
-            ></xiv-summary-line>
+            <ng-container *ngFor="let subGroup of selectedGroup.subGroups">
+                <xiv-summary-line
+                    *ngIf="!subGroup.isBookmarkGroup && !subGroup.isCustomGroup"
+                    [group]="subGroup"
+                ></xiv-summary-line>
+            </ng-container>
         </div>
 
         <div

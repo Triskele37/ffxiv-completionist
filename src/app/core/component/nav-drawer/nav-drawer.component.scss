@@ -6,23 +6,38 @@
 
     overflow-x: hidden;
 
-    ::ng-deep {
-        .p-panelmenu {
-            // Reduce default padding
-            .p-panelmenu-header-link, .p-menuitem-link {
-                padding: 5px;
-            }
-
-            // Make each item more distinct
-            .p-panelmenu-header, .p-menuitem {
-                box-shadow: inset 2px -1px 2px 0 var(--primary-color);
-            }
+    ::ng-deep .p-panelmenu {
+        .p-panelmenu-panel {
+            padding-top: 2px;
 
             // Hide the main menu's expand icon so its not visible behind
             // the search button when it is clicked
-            .p-panelmenu-panel:first-child .p-panelmenu-header .p-panelmenu-icon {
+            &:first-child .p-panelmenu-header .p-panelmenu-icon {
                 display: none;
             }
+
+            &:last-child {
+                margin-top: 10px;
+
+                .p-panelmenu-header {
+                    box-shadow: 0 -10px 0 1px rgba(0 0 0 / 33%);
+                }
+            }
+        }
+
+        .p-menuitem {
+            // Make each item more distinct
+            box-shadow: inset 1px -1px 0px 0px var(--primary-color);
+        }
+
+        .p-panelmenu-header-link, .p-menuitem-link {
+            // Reduce default padding
+            padding: 5px;
+        }
+
+        .p-panelmenu-header-link {
+            // Fix for primary showing through on the bottom link
+            border-radius: 0;
         }
     }
 }

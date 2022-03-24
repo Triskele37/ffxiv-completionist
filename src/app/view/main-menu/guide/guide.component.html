@@ -1,23 +1,23 @@
 <p-tabView class="guide">
-    <p-tabPanel header="Navigation">
+    <p-tabPanel [header]="'MAIN.GUIDE.NAVIGATION.TITLE' | translate">
         <xiv-navigation-guide></xiv-navigation-guide>
     </p-tabPanel>
-    <p-tabPanel header="Task Table">
+    <p-tabPanel [header]="'MAIN.GUIDE.TASK_TABLE.TITLE' | translate">
         <xiv-task-table-guide></xiv-task-table-guide>
     </p-tabPanel>
-    <p-tabPanel header="Special Groups">
-        <xiv-special-groups-guide></xiv-special-groups-guide>
+    <p-tabPanel [header]="'MAIN.GUIDE.PERSONAL_GROUPS.TITLE' | translate">
+        <xiv-personal-groups-guide></xiv-personal-groups-guide>
     </p-tabPanel>
-    <p-tabPanel header="Completion">
+    <p-tabPanel [header]="'MAIN.GUIDE.COMPLETION.TITLE' | translate">
         <xiv-completion-guide></xiv-completion-guide>
     </p-tabPanel>
-    <p-tabPanel header="Chaining">
+    <p-tabPanel [header]="'MAIN.GUIDE.CHAINING.TITLE' | translate">
         <xiv-chaining-guide></xiv-chaining-guide>
     </p-tabPanel>
-    <p-tabPanel header="Saving">
+    <p-tabPanel [header]="'MAIN.GUIDE.SAVING.TITLE' | translate">
         <xiv-saving-guide></xiv-saving-guide>
     </p-tabPanel>
-    <p-tabPanel header="Other">
+    <p-tabPanel [header]="'MAIN.GUIDE.OTHER.TITLE' | translate">
         <xiv-other-guide></xiv-other-guide>
     </p-tabPanel>
 </p-tabView>

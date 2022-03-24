@@ -5,7 +5,7 @@ import { TabViewModule } from 'primeng/tabview';
 import { NavigationGuideComponent } from './navigation/navigation-guide.component';
 import { TaskTableGuideComponent } from './task-table/task-table-guide.component';
 import { CompletionGuideComponent } from './completion/completion-guide.component';
-import { SpecialGroupsGuideComponent } from './special-groups/special-groups-guide.component';
+import { PersonalGroupsGuideComponent } from './personal-groups/personal-groups-guide.component';
 import { ChainingGuideComponent } from './chaining/chaining-guide.component';
 import { SavingGuideComponent } from './saving/saving-guide.component';
 import { OtherGuideComponent } from './other/other-guide.component';
@@ -17,7 +17,7 @@ import { GuideComponent } from './guide.component';
         NavigationGuideComponent,
         TaskTableGuideComponent,
         CompletionGuideComponent,
-        SpecialGroupsGuideComponent,
+        PersonalGroupsGuideComponent,
         ChainingGuideComponent,
         SavingGuideComponent,
         OtherGuideComponent,
