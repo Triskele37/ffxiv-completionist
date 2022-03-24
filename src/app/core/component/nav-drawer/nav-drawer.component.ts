@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 
 import { DataService } from '@data';
@@ -14,9 +14,9 @@ import { NavigationService } from '@service/navigation/navigation.service';
 })
 export class NavDrawerComponent implements OnInit {
     items: MenuItem[] = [];
-    hasFirstTranslations: boolean = false;
 
     constructor(
+        private cdr: ChangeDetectorRef,
         private svcData: DataService,
         private svcBookmark: BookmarkService,
         private svcMainMenu: MainMenuService,
@@ -38,6 +38,7 @@ export class NavDrawerComponent implements OnInit {
 
                 this.updateCollapsed(this.items, path);
                 this.items = [...this.items];
+                this.cdr.detectChanges();
             }
         });
 
@@ -88,6 +89,7 @@ export class NavDrawerComponent implements OnInit {
     // Recursive: Updates the collapsed state of all MenuItems to match "path"
     private updateCollapsed(items: MenuItem[], path: string[]): void {
         const name = path.shift();
+
         items.forEach((menuItem) => {
             menuItem.expanded = menuItem.label === name;
             if(menuItem.items) this.updateCollapsed(menuItem.items, [...path]);

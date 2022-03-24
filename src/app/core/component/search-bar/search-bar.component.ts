@@ -1,5 +1,6 @@
 import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 
+import { DataService } from '@data';
 import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { SearchService } from '@service/search/search.service';
@@ -15,6 +16,7 @@ export class SearchBarComponent {
     @ViewChild('searchInput') searchInput: ElementRef;
 
     constructor(
+        private svcData: DataService,
         private svcMainMenu: MainMenuService,
         private svcNavigation: NavigationService,
         public svcSearch: SearchService,
@@ -34,7 +36,12 @@ export class SearchBarComponent {
     }
 
     onHomeClick(): void {
-        this.svcNavigation.setSelectedGroup(this.svcMainMenu.data);
+        if(this.svcNavigation.selectedGroup$.value === this.svcMainMenu.data) {
+            this.svcNavigation.setSelectedGroup(this.svcData.data);
+        }
+        else {
+            this.svcNavigation.setSelectedGroup(this.svcMainMenu.data);
+        }
     }
 
     searchOnEnter(): void {
