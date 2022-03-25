@@ -7,12 +7,23 @@
     --bg-h: 0;
     --bg-s: 0%;
     --bg-l: 12%;
+    --incomplete-rgb: 117, 25, 15;
+    --partial-complete-rgb: 204, 204, 0;
+    --test: #cccc00;
+    --completed-rgb: 15, 117, 56;
+    --excluded-rgb: 170, 170, 170;
 
     // Derived from settings
     --primary-color-light: #3282B8;
     --primary-color-rgb: 15, 76, 117;
     --text-color: rgba(var(--text-color-rgb), 0.87);
     --text-color-secondary: rgba(var(--text-color-rgb), 0.6);
+    --incomplete: rgb(var(--incomplete-rgb));
+    --partial-complete: rgb(var(--partial-complete-rgb));
+    --completed: rgb(var(--completed-rgb));
+    --excluded: rgb(var(--excluded-rgb));
+    --selected: rgba(var(--primary-color-rgb), 0.5);
+    --selected-2: rgba(var(--primary-color-rgb), 0.3);
 
     // Surfaces
     --surface-a: hsl(var(--bg-h), var(--bg-s), var(--bg-l));
@@ -50,13 +61,6 @@
     // Other
     --maskbg: rgba(0, 0, 0, 0.32);
     --focus-ring: none;
-
-    // XIV
-    --selected: rgba(var(--primary-color-rgb), 0.5);
-    --selected-2: rgba(var(--primary-color-rgb), 0.3);
-    --incomplete: #75190f;
-    --completed: #0f7538;
-    --excluded: #aaa;
 }
 
 :root {

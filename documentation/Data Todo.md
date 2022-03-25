@@ -1,5 +1,7 @@
 ------------------------------------------------------------------ Current Release
 **Add**
+- dev config
+- GC Squadron
 - missing endwalker savage unlock quasi quest
 - seasonal quest "Feline Fun" from Heavensturn 2022 is missing
 - Chains
@@ -14,6 +16,7 @@
 
 ------------------------------------------------------------------ Prioritize
 **Add**
+- Discord FAQ Page
 
 **Change**
 - save starting class in player save

@@ -2,6 +2,7 @@
 **Add**
 - api action to apply new cache pathing to existing cache without re-downloading
 - Capitalize NPC names when merging into resources from API
+- Electron App, new repo
 
 **Change**
 

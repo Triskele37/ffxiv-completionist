@@ -35,10 +35,6 @@ export class WindowStore {
     }
 
     static showMainWindow(event: IpcMainEvent): void {
-        if(WindowStore.isServe) {
-            WindowStore.main.webContents.openDevTools();
-        }
-
         WindowStore.splash.destroy();
         WindowStore.main.show();
 
@@ -88,6 +84,7 @@ export class WindowStore {
 
     static loadWindowUrl(isServe: boolean): void {
         if(isServe) {
+            WindowStore.main.webContents.openDevTools();
             require('electron-reload')(__dirname, {
                 electron: require(path.join(__dirname, '../../../node_modules/electron'))
             });

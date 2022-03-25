@@ -22,8 +22,13 @@ export type ConfigStore = {
     'theme': {
         'primary-color': string;
         'primary-text': string;
+        'background': string;
+        'text-color-rgb': string;
         'font-family': string;
-        'brightness': number;
+        'incomplete-rgb': string;
+        'partial-complete-rgb': string;
+        'completed-rgb': string;
+        'excluded-rgb': string;
     };
 };
 

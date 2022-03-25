@@ -40,9 +40,6 @@ var WindowStore = /** @class */ (function () {
         });
     };
     WindowStore.showMainWindow = function (event) {
-        if (WindowStore.isServe) {
-            WindowStore.main.webContents.openDevTools();
-        }
         WindowStore.splash.destroy();
         WindowStore.main.show();
         if (WindowStore.maxOnShow)
@@ -78,6 +75,7 @@ var WindowStore = /** @class */ (function () {
     };
     WindowStore.loadWindowUrl = function (isServe) {
         if (isServe) {
+            WindowStore.main.webContents.openDevTools();
             require('electron-reload')(__dirname, {
                 electron: require(path.join(__dirname, '../../../node_modules/electron'))
             });

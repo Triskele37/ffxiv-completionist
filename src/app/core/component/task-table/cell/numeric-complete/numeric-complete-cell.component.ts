@@ -1,9 +1,9 @@
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 
 import { Task } from '@domain/Task';
-import { BackgroundColor, rygGradient } from '../../../../../../styles/gradients';
 
 import { SaveStoreService } from '@service/store/save-store.service';
+import { ThemeService } from '@service/theme/theme.service';
 
 @Component({
     selector: 'xiv-numeric-complete-cell',
@@ -17,10 +17,11 @@ export class NumericCompleteCellComponent implements OnChanges {
     step: number;
     tooltip: string;
     percentage: string;
-    gradientBackground;
+    gradientBackground: string;
 
     constructor(
         private svcStore: SaveStoreService,
+        private svcTheme: ThemeService
     ) {
     }
 
@@ -53,11 +54,11 @@ export class NumericCompleteCellComponent implements OnChanges {
         return ((prog / totProg) * 100).toFixed(2);
     }
 
-    get _gradientBackground(): BackgroundColor {
+    get _gradientBackground(): string {
         const prog = parseInt(this.value, 10) - this.task.minValue;
         const tot = this.task.maxValue - this.task.minValue;
 
-        return rygGradient(prog / tot);
+        return this.svcTheme.rygGradient(prog / tot);
     }
 
     onTaskValueChange(): void {

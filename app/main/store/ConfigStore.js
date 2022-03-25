@@ -37,11 +37,13 @@ var ConfigStore = /** @class */ (function () {
                 'theme': {
                     'primary-color': '#0f4c75',
                     'primary-text': '#121212',
-                    'text-color': '255, 255, 255',
+                    'background': '0, 0, 12',
+                    'text-color-rgb': '255, 255, 255',
                     'font-family': 'sans-serif',
-                    'bg-h': 0,
-                    'bg-s': 0,
-                    'bg-l': 12
+                    'incomplete-rgb': '111, 0, 0',
+                    'partial-complete-rgb': '111, 111, 0',
+                    'completed-rgb': '0, 111, 0',
+                    'excluded-rgb': '111, 111, 111'
                 }
             };
         },
