@@ -8,7 +8,8 @@ import { PlayerStore } from './PlayerStore';
 const isObj = (v) => !!v && typeof v === 'object' && !Array.isArray(v);
 
 export class ConfigStore {
-    static path = path.join(app.getPath('userData'), 'config.json');
+    static path: string;
+    static isServe: boolean;
     static store = null;
 
     //#region------------------------------------------------------- Load/Save
@@ -30,12 +31,12 @@ export class ConfigStore {
             'window': {
                 x: 100,
                 y: 100,
-                width: 800,
-                height: 600,
+                width: 1100,
+                height: 750,
                 max: false
             },
             'theme': {
-                'primary-color': '#0f4c75',
+                'primary-color': '#456c37',
                 'primary-text': '#121212',
                 'background': '0, 0, 12',
                 'text-color-rgb': '255, 255, 255',
@@ -49,6 +50,10 @@ export class ConfigStore {
     }
 
     static load(): void {
+        // Determine config file name (protects devs from nuking their config)
+        const configName = ConfigStore.isServe ? 'config-dev.json' : 'config.json';
+        ConfigStore.path = path.join(app.getPath('userData'), configName);
+
         // Default config structure
         ConfigStore.store = ConfigStore.defaultConfig;
 

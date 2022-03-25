@@ -30,12 +30,12 @@ var ConfigStore = /** @class */ (function () {
                 'window': {
                     x: 100,
                     y: 100,
-                    width: 800,
-                    height: 600,
+                    width: 1100,
+                    height: 750,
                     max: false
                 },
                 'theme': {
-                    'primary-color': '#0f4c75',
+                    'primary-color': '#456c37',
                     'primary-text': '#121212',
                     'background': '0, 0, 12',
                     'text-color-rgb': '255, 255, 255',
@@ -51,6 +51,9 @@ var ConfigStore = /** @class */ (function () {
         configurable: true
     });
     ConfigStore.load = function () {
+        // Determine config file path
+        var configName = ConfigStore.isServe ? 'config-dev.json' : 'config.json';
+        ConfigStore.path = path.join(electron_1.app.getPath('userData'), configName);
         // Default config structure
         ConfigStore.store = ConfigStore.defaultConfig;
         // Get if it exists
@@ -161,7 +164,6 @@ var ConfigStore = /** @class */ (function () {
             event.returnValue = false;
         }
     };
-    ConfigStore.path = path.join(electron_1.app.getPath('userData'), 'config.json');
     ConfigStore.store = null;
     return ConfigStore;
 }());

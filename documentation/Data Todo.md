@@ -1,6 +1,5 @@
 ------------------------------------------------------------------ Current Release
 **Add**
-- dev config
 - GC Squadron
 - missing endwalker savage unlock quasi quest
 - seasonal quest "Feline Fun" from Heavensturn 2022 is missing
@@ -12,7 +11,6 @@
 **Change**
 
 **Fix**
-- endwalker role quests unlock (At World's End)
 
 ------------------------------------------------------------------ Prioritize
 **Add**

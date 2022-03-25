@@ -1,5 +1,6 @@
 import { app } from 'electron';
 
+import { ConfigStore } from './main/store/ConfigStore';
 import { WindowStore } from './main/store/WindowStore';
 import { initActions } from './main/actions';
 
@@ -11,6 +12,7 @@ const args = process.argv.slice(1);
 const isServe = args.some((val) => val === '--serve');
 
 function createWindow() {
+    ConfigStore.isServe = isServe;
     WindowStore.create(isServe);
     initActions();
 }
