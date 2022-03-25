@@ -317,25 +317,9 @@ export class Chainer {
 const PathShorthand = {
     q: 'duty.quests',
     a: 'character.achievement',
-    t: 'character.character.title',
     e: 'social.emotes',
-    hl: 'logs.hunting-log',
-    h: 'duty.dutyraid-finder.the-hunt',
-    dt: 'duty.dutyraid-finder.trials',
-    dr: 'duty.dutyraid-finder.raids',
     bsf: 'duty.exploratory-missions.the-bozjan-southern-front',
     fle: 'duty.exploratory-missions.the-forbidden-land-eureka',
     br: 'character.character.beast-tribe-reputation',
-    r1: 'character.relic-gear.zodiac',
-    r2: 'character.relic-gear.lucis-tools',
-    r3: 'character.relic-gear.anima',
-    r4: 'character.relic-gear.eureka',
-    r5: 'character.relic-gear.resistance',
-    r6: 'character.relic-gear.skysteel-tools',
-    ss: 'logs.sightseeing-log',
-    ms: 'travel.mount-speed',
-    fr: 'duty.collection.field-record',
-    job: 'character.character.classes--jobs',
-    konogg: 'duty.collection',
-    mount: 'character.mount-guide'
+    job: 'character.character.classes--jobs'
 };

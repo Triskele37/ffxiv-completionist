@@ -3,10 +3,11 @@
 - GC Squadron
 - missing endwalker savage unlock quasi quest
 - seasonal quest "Feline Fun" from Heavensturn 2022 is missing
-- Chains
-  - Majority of new content
-  - Duties on Quests (one-way)
-  - Duties & Achievements (two-way)
+
+- current: class/job
+- skipped: achievements
+- confirmed missing
+  - quest achievements > quests
 
 **Change**
 
@@ -15,6 +16,9 @@
 ------------------------------------------------------------------ Prioritize
 **Add**
 - Discord FAQ Page
+- chain unsellable/tradable collectables to source? (one-way)
+  - mounts/minions/cards/fate achievements
+- chain duties to the quests requiring them (one-way)
 
 **Change**
 - save starting class in player save
@@ -44,6 +48,7 @@
 
 ------------------------------------------------------------------ Future
 **Add**
+- detail each set of chains in a doc list for easier updates
 - "Legacy Quest" section
 - Patch column on all data
 - Equipment Section
