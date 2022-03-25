@@ -51,7 +51,7 @@ var ConfigStore = /** @class */ (function () {
         configurable: true
     });
     ConfigStore.load = function () {
-        // Determine config file path
+        // Determine config file name (protects devs from nuking their config)
         var configName = ConfigStore.isServe ? 'config-dev.json' : 'config.json';
         ConfigStore.path = path.join(electron_1.app.getPath('userData'), configName);
         // Default config structure

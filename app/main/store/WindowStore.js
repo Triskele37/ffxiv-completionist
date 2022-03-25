@@ -44,6 +44,10 @@ var WindowStore = /** @class */ (function () {
         WindowStore.main.show();
         if (WindowStore.maxOnShow)
             WindowStore.main.maximize();
+        setTimeout(function () {
+            WindowStore.main.blur();
+            WindowStore.main.focus();
+        }, 100);
         event.returnValue = null;
     };
     //#region------------------------------------------------------- Splash Window
