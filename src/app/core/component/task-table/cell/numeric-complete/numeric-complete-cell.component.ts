@@ -3,8 +3,10 @@ import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Task } from '@domain/Task';
 
 import { SaveStoreService } from '@service/store/save-store.service';
-import { ThemeService } from '@service/theme/theme.service';
 
+/*TODO: currently a sync bug if another numeric task is chained
+*  in the same view, can be fixed by binding to [value] after
+*  upgrading ngPrime to 13.x to replace ngModel */
 @Component({
     selector: 'xiv-numeric-complete-cell',
     templateUrl: './numeric-complete-cell.component.html',
@@ -17,12 +19,8 @@ export class NumericCompleteCellComponent implements OnChanges {
     step: number;
     tooltip: string;
     percentage: string;
-    gradientBackground: string;
 
-    constructor(
-        private svcStore: SaveStoreService,
-        private svcTheme: ThemeService
-    ) {
+    constructor(private svcStore: SaveStoreService) {
     }
 
     ngOnChanges(changes: SimpleChanges) {
@@ -35,7 +33,6 @@ export class NumericCompleteCellComponent implements OnChanges {
 
     update(): void {
         this.percentage = this._percentage;
-        this.gradientBackground = this._gradientBackground;
     }
 
     get _step(): number {
@@ -52,13 +49,6 @@ export class NumericCompleteCellComponent implements OnChanges {
         if(prog < 0) prog = 0;
 
         return ((prog / totProg) * 100).toFixed(2);
-    }
-
-    get _gradientBackground(): string {
-        const prog = parseInt(this.value, 10) - this.task.minValue;
-        const tot = this.task.maxValue - this.task.minValue;
-
-        return this.svcTheme.rygGradient(prog / tot);
     }
 
     onTaskValueChange(): void {

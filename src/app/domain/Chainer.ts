@@ -48,7 +48,7 @@ export class Chainer {
 
         // Chain sibling tasks if this wasn't marked excluded
         if(this.task.cSiblings && this.flag !== Completion.X) {
-            this.applyChainedFlag(this.task.cSiblings);
+            this.applySiblingChain(this.task.cSiblings);
         }
 
         // Chain siblings if their 'at' value is met or this flag is completed
@@ -77,7 +77,9 @@ export class Chainer {
     // Generic Chain for flags
     applyChainedFlag(cList: Links): void {
         const originalFlag = this.flag as Completion;
-        this.getAllTasksFor(cList).forEach((task) => this.applyFlagToTask(originalFlag, task));
+        this.getAllTasksFor(cList).forEach((task) => {
+            this.applyFlagToTask(originalFlag, task);
+        });
     }
 
     private applyFlagToTask(flag: Completion, chainTask: Task): void {
@@ -144,6 +146,18 @@ export class Chainer {
                 else if(this.flag === Completion.N) {
                     this.applyChainedNumberUnmet(atChains[at], at);
                 }
+            }
+        });
+    }
+
+    applySiblingChain(cList: Links): void {
+        const originalFlag = this.flag as Completion;
+        this.getAllTasksFor(cList).forEach((task) => {
+            if(task.isNumericCompletion) {
+                task.changeCompletionNumber(originalFlag);
+            }
+            else {
+                this.applyFlagToTask(originalFlag, task);
             }
         });
     }

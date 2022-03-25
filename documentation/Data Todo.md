@@ -4,11 +4,6 @@
 - missing endwalker savage unlock quasi quest
 - seasonal quest "Feline Fun" from Heavensturn 2022 is missing
 
-- current: class/job
-- skipped: achievements
-- confirmed missing
-  - quest achievements > quests
-
 **Change**
 
 **Fix**

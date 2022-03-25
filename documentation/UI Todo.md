@@ -15,5 +15,3 @@
 
 **Fix**
 - quick-mark extremely slow on large groups (or heavily chained?)
-- chained numeric gradient doesn't update
-- tasks with changed completion aren't added back to a filtered table
