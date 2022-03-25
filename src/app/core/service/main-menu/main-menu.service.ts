@@ -4,6 +4,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { GuideComponent } from '../../../view/main-menu/guide/guide.component';
 import { SearchComponent } from '../../../view/search/search.component';
 import { PatchNotesComponent } from '../../../view/main-menu/patch-notes/patch-notes.component';
+import { RandomComponent } from '../../../view/main-menu/random/random.component';
 import { SettingsComponent } from '../../../view/main-menu/settings/settings.component';
 
 import { DataGroup } from '@domain/DataGroup';
@@ -25,6 +26,7 @@ export class MainMenuService {
         this.data.subGroups = [
             this.newGuide,
             this.newPatchNotes,
+            this.newRandom,
             this.newSettings,
             this.newSearch
         ];
@@ -43,6 +45,14 @@ export class MainMenuService {
             key: 'patch-notes',
             groupName: this.translate.instant('MAIN.NOTES.TITLE'),
             component: PatchNotesComponent
+        }, this.data);
+    }
+
+    get newRandom(): DataGroup {
+        return new DataGroup({
+            key: 'random',
+            groupName: this.translate.instant('MAIN.RANDOM.TITLE'),
+            component: RandomComponent
         }, this.data);
     }
 

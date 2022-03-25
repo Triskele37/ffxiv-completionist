@@ -1,7 +1,6 @@
 ------------------------------------------------------------------ ToDo
 **Add**
 - Expand history limit, setting?
-- Random Task Suggestion
 
 - Attempt to get CSP working
 - Custom application container, specifically title bar

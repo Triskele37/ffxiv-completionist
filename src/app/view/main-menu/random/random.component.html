@@ -1,0 +1,20 @@
+<div class="random">
+    <p-button
+        icon="mi mi-casino"
+        (onClick)="onGenerateRandomClick()"
+    ></p-button>
+
+    <ng-container *ngFor="let task of randomTasks">
+        <p-button
+            class="content-link noSelect"
+            styleClass="p-button-link"
+            tooltipPosition="right"
+            [pTooltip]="
+                (task._parent | contentLink) + '\n' +
+                ('GENERAL.TASK_NAVIGATE' | translate)
+            "
+            [label]="task | contentLink"
+            (onClick)="onClickLink(task)"
+        ></p-button>
+    </ng-container>
+</div>

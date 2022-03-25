@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 
 import { GuideModule } from './main-menu/guide/guide.module';
 import { PatchNotesModule } from './main-menu/patch-notes/patch-notes.module';
+import { RandomModule } from './main-menu/random/random.module';
 import { SettingsModule } from './main-menu/settings/settings.module';
 import { SearchModule } from './search/search.module';
 
@@ -12,12 +13,14 @@ import { SearchModule } from './search/search.module';
     imports: [
         GuideModule,
         PatchNotesModule,
+        RandomModule,
         SettingsModule,
         SearchModule,
     ],
     exports: [
         GuideModule,
         PatchNotesModule,
+        RandomModule,
         SettingsModule,
         SearchModule,
     ]

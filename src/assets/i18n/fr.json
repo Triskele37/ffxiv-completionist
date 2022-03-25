@@ -290,14 +290,15 @@
                     "L6": "Sortable columns",
                     "L7": "Links for most task info that directly reference another task",
                     "L8": "Group column to all task views",
-                    "L9": "Virtual scrolling to prevent slow-rendering tables",
-                    "L10": "Ability to hide overall OR selected group summary lines",
-                    "L11": "Ability to open config and save folders from settings page",
-                    "L12": "Ability to backup config and save files from settings page",
-                    "L13": "Ability to overwrite active config and save with backup from settings page",
-                    "L14": "Chain history & Chain history limit setting",
-                    "L15": "Weight statistic in group summary tooltips",
-                    "L16": "Deep Dungeon tasks"
+                    "L9": "Random task generator for incomplete tasks",
+                    "L10": "Virtual scrolling to prevent slow-rendering tables",
+                    "L11": "Ability to hide overall OR selected group summary lines",
+                    "L12": "Ability to open config and save folders from settings page",
+                    "L13": "Ability to backup config and save files from settings page",
+                    "L14": "Ability to overwrite active config and save with backup from settings page",
+                    "L15": "Chain history & Chain history limit setting",
+                    "L16": "Weight statistic in group summary tooltips",
+                    "L17": "Deep Dungeon tasks"
                 },
                 "CHANGE": {
                     "TITLE": "Changes",
@@ -325,6 +326,9 @@
                     "L3": "Tasks excluded by default no longer show as incomplete"
                 }
             }
+        },
+        "RANDOM": {
+            "TITLE": "Random"
         },
         "SETTING": {
             "TITLE": "Settings",

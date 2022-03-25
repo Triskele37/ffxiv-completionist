@@ -1,0 +1,10 @@
+.random {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+    p-button:first-child ::ng-deep .p-button {
+        min-width: 200px;
+        width: 100%;
+    }
+}
