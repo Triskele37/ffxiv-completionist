@@ -43,10 +43,6 @@ export class ThemeService {
         this.setPrimaryColor(this.svcConfig.get('theme.primary-color'));
     }
 
-    get defaultPrimaryColor(): string {
-        return '#0f4c75';
-    }
-
     setPrimaryColor(hex: string): void {
         this.setStyle('--primary-color', hex);
         this.setStyle('--primary-color-light', this.shadeColor(hex, 21));
@@ -85,10 +81,6 @@ export class ThemeService {
         this.setPrimaryTextColor(this.svcConfig.get('theme.primary-text'));
     }
 
-    get defaultPrimaryTextColor(): string {
-        return '#121212';
-    }
-
     setPrimaryTextColor(hex: string): void {
         this.setStyle('--primary-color-text', hex);
         this.svcConfig.set('theme.primary-text', hex);
@@ -103,10 +95,6 @@ export class ThemeService {
             s: this.svcConfig.get('theme.bg-s'),
             b: this.svcConfig.get('theme.bg-l')
         });
-    }
-
-    get defaultBackgroundColor(): HSL {
-        return { h: 0, s: 0, b: 12 };
     }
 
     setBackgroundColor(background: HSL): void {
@@ -131,10 +119,6 @@ export class ThemeService {
         });
     }
 
-    get defaultTextColor(): RGB {
-        return { r: 255, g: 255, b: 255 };
-    }
-
     setTextColor(rgb: RGB) {
         const rgbString = `${rgb.r}, ${rgb.g}, ${rgb.b}`;
         this.setStyle('--text-color-rgb', rgbString);
@@ -146,10 +130,6 @@ export class ThemeService {
     //#region------------------------------------------------------- Font
     loadFontFamily(): void {
         this.setFontFamily(this.svcConfig.get('theme.font-family'));
-    }
-
-    get defaultFontFamily(): string {
-        return 'sans-serif';
     }
 
     setFontFamily(fontFamily: string): void {

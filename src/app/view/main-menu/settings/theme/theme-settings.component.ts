@@ -7,8 +7,7 @@ import { SettingsComponent } from '../settings.component';
 
 @Component({
     selector: 'xiv-theme-settings',
-    templateUrl: './theme-settings.component.html',
-    styleUrls: ['./theme-settings.component.scss']
+    templateUrl: './theme-settings.component.html'
 })
 export class ThemeSettingsComponent implements OnInit {
     @Input() settings: Settings;
@@ -21,7 +20,7 @@ export class ThemeSettingsComponent implements OnInit {
 
     constructor(
         public parent: SettingsComponent,
-        private svcTheme: ThemeService
+        public svcTheme: ThemeService
     ) {
     }
 
@@ -45,62 +44,65 @@ export class ThemeSettingsComponent implements OnInit {
         this.fontFamily = this.svcTheme.getStyle('--font-family');
     }
 
-    //#region------------------------------------------------------- Primary Color
-    setPrimaryColor(): void {
-        this.svcTheme.setPrimaryColor(this.primaryColor);
+    //#region------------------------------------------------------- Themes
+    useDefaultTheme(): void {
+        this.setPrimaryColor('#456c37');
+        this.setPrimaryTextColor('#121212');
+        this.setBackgroundColor({ h: 0, s: 0, b: 12 });
+        this.setTextColor({ r: 255, g: 255, b: 255 });
+        this.setFontFamily('sans-serif');
     }
 
-    resetPrimaryColor(): void {
-        this.primaryColor = this.svcTheme.defaultPrimaryColor;
-        this.setPrimaryColor();
+    useDarkTheme(): void {
+        this.setPrimaryColor('#9B8152');
+        this.setPrimaryTextColor('#ded2ba');
+        this.setBackgroundColor({ h: 160, s: 0, b: 19 });
+        this.setTextColor({ r: 222, g: 210, b: 186 });
+        this.setFontFamily('sans-serif');
     }
 
-    //#endregion
-
-    //#region------------------------------------------------------- Primary Text Color
-    setPrimaryTextColor(): void {
-        this.svcTheme.setPrimaryTextColor(this.primaryTextColor);
+    useLightTheme(): void {
+        this.setPrimaryColor('#4e3c24');
+        this.setPrimaryTextColor('#fdfdfe');
+        this.setBackgroundColor({ h: 32, s: 75, b: 84 });
+        this.setTextColor({ r: 86, g: 63, b: 57 });
+        this.setFontFamily('sans-serif');
     }
 
-    resetPrimaryTextColor(): void {
-        this.primaryTextColor = this.svcTheme.defaultPrimaryTextColor;
-        this.setPrimaryTextColor();
-    }
-
-    //#endregion
-
-    //#region------------------------------------------------------- Background Color
-    setBackgroundColor(): void {
-        this.svcTheme.setBackgroundColor(this.backgroundColor);
-    }
-
-    resetBackgroundColor(): void {
-        this.backgroundColor = this.svcTheme.defaultBackgroundColor;
-        this.setBackgroundColor();
-    }
-
-    //#endregion
-
-    //#region------------------------------------------------------- Text Color
-    setTextColor(): void {
-        this.svcTheme.setTextColor(this.textColor);
-    }
-
-    resetTextColor(): void {
-        this.textColor = this.svcTheme.defaultTextColor;
-        this.setTextColor();
+    useClassicTheme(): void {
+        this.setPrimaryColor('#888888');
+        this.setPrimaryTextColor('#ffffff');
+        this.setBackgroundColor({ h: 253, s: 100, b: 31 });
+        this.setTextColor({ r: 238, g: 236, b: 247 });
+        this.setFontFamily('sans-serif');
     }
 
     //#endregion
 
-    //#region------------------------------------------------------- Font Family
-    setFontFamily(): void {
-        this.svcTheme.setFontFamily(this.fontFamily);
+    //#region------------------------------------------------------- Setters
+    setPrimaryColor(color: string): void {
+        this.primaryColor = color;
+        this.svcTheme.setPrimaryColor(color);
     }
 
-    resetFontFamily(): void {
-        this.fontFamily = this.svcTheme.defaultFontFamily;
-        this.setFontFamily();
+    setPrimaryTextColor(color: string): void {
+        this.primaryTextColor = color;
+        this.svcTheme.setPrimaryTextColor(color);
+    }
+
+    setBackgroundColor(color: HSL): void {
+        this.backgroundColor = color;
+        this.svcTheme.setBackgroundColor(color);
+    }
+
+    setTextColor(color: RGB): void {
+        this.textColor = color;
+        this.svcTheme.setTextColor(color);
+    }
+
+    setFontFamily(font: string): void {
+        this.fontFamily = font;
+        this.svcTheme.setFontFamily(font);
     }
 
     //#endregion

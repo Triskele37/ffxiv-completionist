@@ -4,7 +4,6 @@
 - seasonal quest "Feline Fun" from Heavensturn 2022 is missing
 - Chains
   - Majority of new content
-  - Beast Tribe Recipes on Beast Tribe Quests (one-way)
   - Duties on Quests (one-way)
   - Duties & Achievements (two-way)
 

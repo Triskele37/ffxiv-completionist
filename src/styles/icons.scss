@@ -4,6 +4,7 @@
 .i-complete {
     @extend .material-icons;
     color: var(--completed);
+    text-shadow: 0 0 var(--text-color);
 
     &::before {
         content: "\e5ca"; // .mi-check
@@ -13,6 +14,7 @@
 .i-incomplete {
     @extend .material-icons;
     color: var(--incomplete);
+    text-shadow: 0 0 var(--text-color);
 
     &::before {
         content: "\e5cd"; // .mi-close
@@ -22,6 +24,7 @@
 .i-exclude {
     @extend .material-icons;
     color: var(--excluded);
+    text-shadow: 0 0 var(--text-color);
 
     &::before {
         content: "\e5cd"; // .mi-close
@@ -30,7 +33,7 @@
 
 .i-selected {
     @extend .material-icons;
-    color: var(--text-color-secondary);
+    color: var(--primary-color-text);
 
     &::before {
         content: "\e913"; // .mi-touch-app
@@ -39,7 +42,7 @@
 
 .i-arrow {
     @extend .material-icons;
-    color: var(--text-color-secondary);
+    color: var(--primary-color-text);
 
     &::before {
         content: "\e941"; // .mi-arrow-right-alt
