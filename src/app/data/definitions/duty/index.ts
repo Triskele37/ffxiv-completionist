@@ -188,6 +188,14 @@ export const DUTY_DEFINITION: GroupDefinition = {
             ]
         },
         {
+            path: 'squadron',
+            subGroups: [
+                'members',
+                'command-missions',
+                'squadron'
+            ]
+        },
+        {
             path: 'exploratory-missions',
             subGroups: [
                 {

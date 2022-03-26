@@ -1,6 +1,6 @@
 <td
     class="completion-flag-cell noSelect"
-    [style.background-color]="task | gradient"
+    [style.background-color]="task | gradient:task.completionFlag"
     [pTooltip]="tooltip"
 >
     <p-inputNumber
