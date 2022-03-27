@@ -10,8 +10,10 @@
         "x0": {
             "name": "Soldat 3e classe",
             "grandCompany": "Le Maelstrom",
-            "requirement": "Accomplissement de la quête: \"Jusqu'à ce que la mer nous engloutisse tous\"",
-            "entitlements": "10.000 Sceaux de compagnie limséen maximum; Ravitaillement"
+            "entitlements": [
+                "10.000 Sceaux de compagnie limséen maximum",
+                "Ravitaillement"
+            ]
         },
         "x1": {
             "name": "Soldat 2e classe",
@@ -34,14 +36,24 @@
         "x4": {
             "name": "Adjudant(e)",
             "grandCompany": "Le Maelstrom",
-            "requirement": "Accomplissement du Bestiaire: Maelstrom Rang 1 & 5.000 Sceaux de compagnie limséen",
-            "entitlements": "30.000 Sceaux de compagnie limséen maximum; Mandats de Grande Compagnie niveau 30; Mandats de Grande Compagnie au Poste de L'Arête blanche"
+            "requirement": [
+                "pour Rang 1",
+                "5.000 Sceaux de compagnie limséen"
+            ],
+            "entitlements": [
+                "30.000 Sceaux de compagnie limséen maximum",
+                "Mandats de Grande Compagnie niveau 30",
+                "Mandats de Grande Compagnie au Poste de L'Arête blanche"
+            ]
         },
         "x5": {
             "name": "Sergent(e)",
             "grandCompany": "Le Maelstrom",
             "requirement": "6.000 Sceaux de compagnie limséen",
-            "entitlements": "35.000 Sceaux de compagnie limséen maximum ; Prises de guerre"
+            "entitlements": [
+                "35.000 Sceaux de compagnie limséen maximum ",
+                "Prises de guerre"
+            ]
         },
         "x6": {
             "name": "Sergent-major",
@@ -52,14 +64,23 @@
         "x7": {
             "name": "Major",
             "grandCompany": "Le Maelstrom",
-            "requirement": "Accomplissement de la quête: \"Opération Dzemael (Maelstrom)\" & 8.000 Sceaux de compagnie limséen",
-            "entitlements": "45.000 Sceaux de compagnie limséen maximum; Mandats de Grande Compagnie au Mor Dhona"
+            "requirement": "8.000 Sceaux de compagnie limséen",
+            "entitlements": [
+                "45.000 Sceaux de compagnie limséen maximum",
+                "Mandats de Grande Compagnie au Mor Dhona"
+            ]
         },
         "x8": {
             "name": "Sous-lieutenant(e)",
             "grandCompany": "Le Maelstrom",
-            "requirement": "Accomplissement du Bestiaire: Maelstrom Rang 2, \"Opération Val d'Aurum (Maelstrom)\" & 9.000 Sceaux de compagnie limséen",
-            "entitlements": "50.000 Sceaux de compagnie limséen maximum; Escouade de Grande Compagnie"
+            "requirement": [
+                "pour Rang 2",
+                "9.000 Sceaux de compagnie limséen"
+            ],
+            "entitlements": [
+                "50.000 Sceaux de compagnie limséen maximum",
+                "Escouade de Grande Compagnie"
+            ]
         },
         "x9": {
             "name": "Lieutenant(e)",
@@ -70,14 +91,19 @@
         "x10": {
             "name": "Capitaine",
             "grandCompany": "Le Maelstrom",
-            "requirement": "Accomplissement de 5 Incursions d'escouade différente & de la mission d'escouade normale: \"Destruction des forces spéciales impériales\"",
+            "requirement": [
+                "Accomplissement de 5 Incursions d'escouade différente",
+                "de la mission d'escouade normale: \"Destruction des forces spéciales impériales\""
+            ],
             "entitlements": "90.000 Sceaux de compagnie limséen maximum"
         },
         "x11": {
             "name": "Soldat 3e classe",
             "grandCompany": "L'ordre des Deux Vipères",
-            "requirement": "Accomplissement de la quête: \"Jusqu'à ce que la mer nous engloutisse tous\"",
-            "entitlements": "10.000 Sceaux de compagnie gridanien maximum; Ravitaillement"
+            "entitlements": [
+                "10.000 Sceaux de compagnie gridanien maximum",
+                "Ravitaillement"
+            ]
         },
         "x12": {
             "name": "Soldat 2e classe",
@@ -100,14 +126,24 @@
         "x15": {
             "name": "Adjudant(e)",
             "grandCompany": "L'ordre des Deux Vipères",
-            "requirement": "Accomplissement du Bestiaire: L'Odre des Deux Vipères Rang 1 & 5.000 Sceaux de compagnie gridanien",
-            "entitlements": "30.000 Sceaux de compagnie gridanien maximum; Mandats de Grande Compagnie niveau 30; Mandats de Grande Compagnie au Poste de L'Arête blanche"
+            "requirement": [
+                "pour Rang 1",
+                "5.000 Sceaux de compagnie gridanien"
+            ],
+            "entitlements": [
+                "30.000 Sceaux de compagnie gridanien maximum",
+                "Mandats de Grande Compagnie niveau 30",
+                "Mandats de Grande Compagnie au Poste de L'Arête blanche"
+            ]
         },
         "x16": {
             "name": "Sergent(e)",
             "grandCompany": "L'ordre des Deux Vipères",
             "requirement": "6.000 Sceaux de compagnie gridanien",
-            "entitlements": "35.000 Sceaux de compagnie gridanien maximum; Prises de guerre"
+            "entitlements": [
+                "35.000 Sceaux de compagnie gridanien maximum",
+                "Prises de guerre"
+            ]
         },
         "x17": {
             "name": "Sergent-major",
@@ -118,14 +154,20 @@
         "x18": {
             "name": "Major",
             "grandCompany": "L'ordre des Deux Vipères",
-            "requirement": "Accomplissement de la quête: \"Opération Dzemael (Deux Vipères)\" & 8.000 Sceaux de compagnie gridanien",
-            "entitlements": "45.000 Sceaux de compagnie gridanien maximum; Mandats de Grande Compagnie au Mor Dhona"
+            "requirement": "8.000 Sceaux de compagnie gridanien",
+            "entitlements": [
+                "45.000 Sceaux de compagnie gridanien maximum",
+                "Mandats de Grande Compagnie au Mor Dhona"
+            ]
         },
         "x19": {
             "name": "Sous-lieutenant(e)",
             "grandCompany": "L'ordre des Deux Vipères",
             "requirement": "Accomplissement du Bestiaire: L'Ordre des Deux Vipères Rang 2, \"Opération Val d'Aurum (Deux Vipères)\" & 9.000 Sceaux de compagnie gridanien",
-            "entitlements": "50.000 Sceaux de compagnie gridanien maximum; Escouade de Grande Compagnie"
+            "entitlements": [
+                "50.000 Sceaux de compagnie gridanien maximum",
+                "Escouade de Grande Compagnie"
+            ]
         },
         "x20": {
             "name": "Lieutenant(e)",
@@ -136,14 +178,19 @@
         "x21": {
             "name": "Capitaine",
             "grandCompany": "L'ordre des Deux Vipères",
-            "requirement": "Accomplissement de 5 Incursions d'escouade différente & de la mission d'escouade normale: \"Destruction des forces spéciales impériales\"",
+            "requirement": [
+                "Accomplissement de 5 Incursions d'escouade différente",
+                "de la mission d'escouade normale: \"Destruction des forces spéciales impériales\""
+            ],
             "entitlements": "90.000 Sceaux de compagnie gridanien maximum"
         },
         "x22": {
             "name": "Soldat 3e classe",
             "grandCompany": "Les Immortels",
-            "requirement": "Accomplissement de la quête: \"Jusqu'à ce que la mer nous engloutisse tous\"",
-            "entitlements": "10.000 Sceaux de compagnie uldien maximum; Ravitaillement"
+            "entitlements": [
+                "10.000 Sceaux de compagnie uldien maximum",
+                "Ravitaillement"
+            ]
         },
         "x23": {
             "name": "Soldat 2e classe",
@@ -166,14 +213,24 @@
         "x26": {
             "name": "Adjudant(e)",
             "grandCompany": "Les Immortels",
-            "requirement": "Accomplissement du Bestiaire: Les Immortels Rang 1 & 5.000 Sceaux de compagnie uldien",
-            "entitlements": "30.000 Sceaux de compagnie uldien maximum; Mandats de Grande Compagnie niveau 30; Mandats de Grande Compagnie au Poste de L'Arête blanche"
+            "requirement": [
+                "pour Rang 1",
+                "5.000 Sceaux de compagnie uldien"
+            ],
+            "entitlements": [
+                "30.000 Sceaux de compagnie uldien maximum",
+                "Mandats de Grande Compagnie niveau 30",
+                "Mandats de Grande Compagnie au Poste de L'Arête blanche"
+            ]
         },
         "x27": {
             "name": "Sergent(e)",
             "grandCompany": "Les Immortels",
             "requirement": "6.000 Sceaux de compagnie uldien",
-            "entitlements": "35.000 Sceaux de compagnie uldien maximum; Prise de guerre"
+            "entitlements": [
+                "35.000 Sceaux de compagnie uldien maximum",
+                "Prise de guerre"
+            ]
         },
         "x28": {
             "name": "Sergent-major",
@@ -184,14 +241,23 @@
         "x29": {
             "name": "Major",
             "grandCompany": "Les Immortels",
-            "requirement": "Accomplissement de la quête: \"Opération Dzemael (Deux Vipères)\" & 8,000 Sceaux de compagnie uldien",
-            "entitlements": "45,000 Sceaux de compagnie uldien maximum; Mandats de Grande Compagnie au Mor Dhona"
+            "requirement": "8,000 Sceaux de compagnie uldien",
+            "entitlements": [
+                "45,000 Sceaux de compagnie uldien maximum",
+                "Mandats de Grande Compagnie au Mor Dhona"
+            ]
         },
         "x30": {
             "name": "Sous-lieutenant(e)",
             "grandCompany": "Les Immortels",
-            "requirement": "Accomplissment du Bestiaire: Les Immortels Rang 2, \"Opération Val d'Aurum (Deux Vipères)\" & 9.000 Sceaux de compagnie uldien",
-            "entitlements": "50.000 Sceaux de compagnie uldien maximum; Escouade de Grande Compagnie"
+            "requirement": [
+                "pour Rang 2",
+                "9.000 Sceaux de compagnie uldien"
+            ],
+            "entitlements": [
+                "50.000 Sceaux de compagnie uldien maximum",
+                "Escouade de Grande Compagnie"
+            ]
         },
         "x31": {
             "name": "Lieutenant(e)",
@@ -202,7 +268,10 @@
         "x32": {
             "name": "Capitaine",
             "grandCompany": "Les Immortels",
-            "requirement": "Accomplissement de 5 Incursions d'escouade différente & de la mission d'escouade normale: \"Destruction des forces spéciales impériales\"",
+            "requirement": [
+                "Accomplissement de 5 Incursions d'escouade différente",
+                "de la mission d'escouade normale: \"Destruction des forces spéciales impériales\""
+            ],
             "entitlements": "90.000 Sceaux de compagnie uldien maximum"
         }
     }

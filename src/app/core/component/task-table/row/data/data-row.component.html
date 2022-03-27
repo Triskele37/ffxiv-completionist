@@ -43,7 +43,7 @@
 
         <ng-template #linksCell>
             <ng-container *ngIf="column.link; else staticCell">
-                <xiv-links-cell [taskPaths]="task[column.key]"></xiv-links-cell>
+                <xiv-links-cell [linkPaths]="task[column.key]"></xiv-links-cell>
             </ng-container>
         </ng-template>
 

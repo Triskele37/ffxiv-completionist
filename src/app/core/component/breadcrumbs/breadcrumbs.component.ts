@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnDestroy, OnInit, Output } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { MenuItem } from 'primeng/api';
 
@@ -20,6 +20,10 @@ type ClickEvent = {
 export class BreadcrumbsComponent implements OnInit, OnDestroy {
     items: MenuItem[] = [];
     private sub: Subscription;
+
+    @Output() showAllChange = new EventEmitter<boolean>();
+    showAll: boolean = false;
+    isShowAllVisible: boolean;
 
     constructor(
         public svcNavigation: NavigationService
@@ -46,10 +50,26 @@ export class BreadcrumbsComponent implements OnInit, OnDestroy {
             label: breadcrumb,
             data: { index }
         }));
+
+        const { isUiGroup, isCustomGroup, isBookmarkGroup } = selectedGroup;
+        if(isUiGroup || isCustomGroup || isBookmarkGroup) {
+            this.isShowAllVisible = false;
+        }
+        else {
+            this.isShowAllVisible = !!(selectedGroup.subGroups && selectedGroup.columns);
+        }
+
+        this.emitShowAllChange(false);
     }
 
     // Callback fired when a section of the breadcrumbs is clicked
     onItemClick($event: ClickEvent): void {
         this.svcNavigation.popCrumbsUntil($event.item.data.index);
     }
+
+    emitShowAllChange(value: boolean): void {
+        this.showAll = value;
+        this.showAllChange.emit(value);
+    }
+
 }

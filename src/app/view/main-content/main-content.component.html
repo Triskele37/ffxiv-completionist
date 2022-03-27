@@ -29,18 +29,8 @@
             </ng-container>
         </div>
 
-        <div
-            *ngIf="isShowAllVisible && !selectedGroup.isBookmarkGroup"
-            class="section-actions"
-        >
-            <p-button
-                [label]="(showAll ? 'TABLE.HIDE_ALL' : 'TABLE.SHOW_ALL') | translate"
-                (onClick)="toggleShowAll()"
-            ></p-button>
-        </div>
-
         <!----------- Task Tables (show all & base) ----------->
-        <ng-container *ngIf="isShowAllVisible && showAll; else baseTable">
+        <ng-container *ngIf="showAll; else baseTable">
             <xiv-show-all-section [group]="selectedGroup"></xiv-show-all-section>
         </ng-container>
 

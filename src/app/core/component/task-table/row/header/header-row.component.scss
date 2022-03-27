@@ -7,9 +7,8 @@
             vertical-align: middle;
             text-align: center;
 
-            &.numeric {
-                width: 100px;
-            }
+            &:not(.numeric) { width: 60px; }
+            &.numeric { width: 100px; }
 
             .i-complete {
                 margin-right: 4px;
@@ -68,6 +67,10 @@
 
                 cursor: pointer;
             }
+        }
+
+        .row-action {
+            width: 40px;
         }
 
         th {

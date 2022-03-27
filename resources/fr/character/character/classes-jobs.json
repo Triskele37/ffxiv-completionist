@@ -9,158 +9,127 @@
     "tasks": {
         "x0": {
             "name": "Paladin / Gladiateur",
-            "role": "Tank",
-            "startingQuest": "Le serment du paladin - Lulutsu - Ul'dah - Faubourg de Thal / La voie de l'épée - Lulutsu - Ul'dah - Faubourg de Thal"
+            "role": "Tank"
         },
         "x1": {
             "name": "Guerrier / Maraudeur",
-            "role": "Tank",
-            "startingQuest": "L'art de la guerre - Wyrnzoen - Limsa Lominsa - Le Tillac / La voie de la hache - Blauthota - Limsa Lominsa - Le Tillac"
+            "role": "Tank"
         },
         "x2": {
             "name": "Chevalier noir",
-            "role": "Tank",
-            "startingQuest": "Un cadavre tout Fray - Citoyen ishgardais - Ishgard - Les Contreforts"
+            "role": "Tank"
         },
         "x3": {
             "name": "Pistosabreur",
-            "role": "Tank",
-            "startingQuest": "Le dernier des pistosabreurs - Soldat hardi des flèches divines - Nouvelle Gridania"
+            "role": "Tank"
         },
         "x4": {
             "name": "Mage blanc / Élémentaliste",
-            "role": "Soigneur",
-            "startingQuest": "L'héritage d'un grand homme - E-Sumi-Yan - Vieille Gridania / La voie de l'élémentaliste - Madelle - Vieille Gridania"
+            "role": "Soigneur"
         },
         "x5": {
             "name": "Érudit / Arcaniste",
-            "role": "Soigneur",
-            "startingQuest": "Le maraudeur intellectuel - Murie - Limsa Lominsa - L'Entrepont"
+            "role": "Soigneur"
         },
         "x6": {
             "name": "Astromancien",
-            "role": "Soigneur",
-            "startingQuest": "L'arbre des étoiles - Jannequinard - Ishgard - Les Contreforts"
+            "role": "Soigneur"
         },
         "x29": {
             "name": "Sage",
-            "role": "Soigneur",
-            "startingQuest": "Le serment du sage - Jeune Fille Au Style Nordique - Limsa Lominsa Lower Decks"
+            "role": "Soigneur"
         },
         "x7": {
             "name": "Moine / Pugiliste",
-            "role": "DPS de mêlée",
-            "startingQuest": "Le moine errant - Gagaruna - Ul'dah - Faubourg de Nald / La voie du pugilat - Gagaruna - Ul'dah - Faubourg de Nald"
+            "role": "DPS de mêlée"
         },
         "x8": {
             "name": "Chevalier dragon / Maître d'hast",
-            "role": "DPS de mêlée",
-            "startingQuest": "L'Œil du dragon - Ywain - Vieille Gridania / La voie de l'hast - Jillian - Vieille Gridania"
+            "role": "DPS de mêlée"
         },
         "x9": {
             "name": "Ninja / Surineur",
-            "role": "DPS de mêlée",
-            "startingQuest": "Les visiteurs de l'ombre - Jacke - Limsa Lominsa - L'Entrepont / Les guerriers de l'ombre - Lonwoerd - Limsa Lominsa - L'Entrepont'"
+            "role": "DPS de mêlée"
         },
         "x10": {
             "name": "Samouraï",
-            "role": "DPS de mêlée",
-            "startingQuest": "La voie du samouraï - Uldien surexcité - Ul'dah - Faubourg de Nald"
+            "role": "DPS de mêlée"
         },
         "x30": {
             "name": "Reaper",
-            "role": "DPS de mêlée",
-            "startingQuest": "La Faucheuse - Serviteur Inquiet - Ul'dah - Faubourg de Nald"
+            "role": "DPS de mêlée"
         },
         "x11": {
             "name": "Barde / Archer",
-            "role": "DPS physique à distance",
-            "startingQuest": "Quand les cordes résonnent à l'unisson - Luciane - Nouvelle Gridania / La voie de l'archerie - Athelyna - Nouvelle Gridania"
+            "role": "DPS physique à distance"
         },
         "x12": {
             "name": "Machiniste",
-            "role": "DPS physique à distance",
-            "startingQuest": "Instructeur introuvable - Stephanivien - Ishgard - L'Assise"
+            "role": "DPS physique à distance"
         },
         "x13": {
             "name": "Danseur",
-            "role": "DPS physique à distance",
-            "startingQuest": "Entrez dans la danse ! - Marin exalté - Limsa Lominsa - L'Entrepont"
+            "role": "DPS physique à distance"
         },
         "x14": {
             "name": "Mage noir / Occultiste",
-            "role": "DPS magique à distance",
-            "startingQuest": "La voix des Marchands - Yayake - Ul'dah - Faubourg de Nald / La voie de l'occultisme - Yayake - Ul'dah - Faubourg de Nald"
+            "role": "DPS magique à distance"
         },
         "x15": {
             "name": "Invocateur / Arcaniste",
-            "role": "DPS magique à distance",
-            "startingQuest": "Le baptême du feu - Thubyrgeim - Limsa Lominsa - L'Entrepont / La voie de l'arcanisme - Murie - Limsa Lominsa - L'Entrepont"
+            "role": "DPS magique à distance"
         },
         "x16": {
             "name": "Mage rouge",
-            "role": "DPS magique à distance",
-            "startingQuest": "Le vagabond rouge - Fillette aux yeux humides - Ul'dah - Faubourg de Thal"
+            "role": "DPS magique à distance"
         },
         "x17": {
             "name": "Mage bleu",
-            "role": "DPS magique à distance",
-            "startingQuest": "Escroc, mais pas trop - Sentinelle incorruptible - Limsa Lominsa - L'Entrepont"
+            "role": "DPS magique à distance"
         },
         "x18": {
             "name": "Menuisier",
-            "role": "Artisan",
-            "startingQuest": "La voie de la menuiserie - Corgg - Nouvelle Gridania"
+            "role": "Artisan"
         },
         "x19": {
             "name": "Forgeron",
-            "role": "Artisan",
-            "startingQuest": "La voie de la forge - Randwulf - Limsa Lominsa - Le Tillac"
+            "role": "Artisan"
         },
         "x20": {
             "name": "Armurier",
-            "role": "Artisan",
-            "startingQuest": "La voie des plaques de métal - G'wahnako - Limsa Lominsa - Le Tillac"
+            "role": "Artisan"
         },
         "x21": {
             "name": "Orfèvre",
-            "role": "Artisan",
-            "startingQuest": "La voie de l'orfèvrerie - Jemime - Ul'dah - Faubourg de Thal"
+            "role": "Artisan"
         },
         "x22": {
             "name": "Tanneur",
-            "role": "Artisan",
-            "startingQuest": "La voie de la tannerie - Randall - Vieille Gridania"
+            "role": "Artisan"
         },
         "x23": {
             "name": "Couturier",
-            "role": "Artisan",
-            "startingQuest": "La voie de la couture - Maronne - Ul'dah - Faubourg de Thal"
+            "role": "Artisan"
         },
         "x24": {
             "name": "Alchimiste",
-            "role": "Artisan",
-            "startingQuest": "La voie de l'alchimie - Deitrich - Ul'dah - Faubourg de Thal"
+            "role": "Artisan"
         },
         "x25": {
             "name": "Cuisinier",
-            "role": "Artisan",
-            "startingQuest": "La voie de la cuisine - Charlys - Limsa Lominsa - Le Tillac"
+            "role": "Artisan"
         },
         "x26": {
             "name": "Mineur",
-            "role": "Récolteur",
-            "startingQuest": "La voie de l'extraction minière - Linette - Ul'dah - Faubourg de Thal"
+            "role": "Récolteur"
         },
         "x27": {
             "name": "Botaniste",
-            "role": "Récolteur",
-            "startingQuest": "La voie de la botanique - Leonceault - Vieille Gridania"
+            "role": "Récolteur"
         },
         "x28": {
             "name": "Pêcheur",
-            "role": "Récolteur",
-            "startingQuest": "La voie de la pêche - N'nmulika - Limsa Lominsa - L'Entrepont"
+            "role": "Récolteur"
         }
     }
 }

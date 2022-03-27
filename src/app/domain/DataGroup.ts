@@ -155,7 +155,7 @@ export class DataGroup {
         return this.getChild(path) as Task;
     }
 
-    private getChild(path: string): DataGroup | Task {
+    getChild(path: string): DataGroup | Task {
         if(typeof path !== 'string') return;
 
         // Separate the path and id

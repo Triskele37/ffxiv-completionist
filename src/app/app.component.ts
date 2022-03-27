@@ -18,6 +18,8 @@ export class AppComponent implements OnInit, AfterViewInit {
     loading = true;
     modalText = 'Loading...';
 
+    showAll: boolean = false;
+
     constructor(
         private translate: TranslateService,
         private svcElectron: ElectronService,
@@ -60,6 +62,10 @@ export class AppComponent implements OnInit, AfterViewInit {
 
     ngAfterViewInit() {
         this.svcElectron.ipcRenderer.sendSync('app-ready');
+    }
+
+    onShowAllChange(showAll: boolean): void {
+        this.showAll = showAll;
     }
 
 }

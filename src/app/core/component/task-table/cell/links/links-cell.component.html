@@ -1,12 +1,16 @@
 <div class="links-cell">
-    <ng-container *ngTemplateOutlet="tasks.length < 2 ? singleValue : multiValue"></ng-container>
+    <ng-container
+        *ngTemplateOutlet="links.length < 2 ? singleValue : multiValue"
+    ></ng-container>
 </div>
 
 <!-- One Value -->
 <ng-template #singleValue>
-    <ng-container
-        *ngTemplateOutlet="!tasks[0]?.completionFlag ? text : link; context: { $implicit: tasks[0] }"
-    ></ng-container>
+    <ng-container *ngIf="links[0]">
+        <ng-container
+            *ngTemplateOutlet="value; context: { $implicit: links[0] }"
+        ></ng-container>
+    </ng-container>
 </ng-template>
 
 <!-- Multiple Values, use button & overlay -->
@@ -14,7 +18,7 @@
     <p-button
         class="noSelect"
         styleClass="p-button-link"
-        label="{{'TABLE.VIEW_LINKS' | translate}} ({{tasks.length}})"
+        label="{{'TABLE.VIEW_LINKS' | translate}} ({{links.length}})"
         (mouseenter)="linkOverlay.show($event)"
         (mouseleave)="onMultiLinkLeave()"
         (onClick)="onLockOverlayClick()"
@@ -29,9 +33,9 @@
                 class="overlay-container"
                 (mouseleave)="onOverlayLeave()"
             >
-                <ng-container *ngFor="let task of tasks">
+                <ng-container *ngFor="let linkValue of links">
                     <ng-container
-                        *ngTemplateOutlet="!task?.completionFlag ? text : link; context: { $implicit: task }"
+                        *ngTemplateOutlet="value; context: { $implicit: linkValue }"
                     ></ng-container>
                 </ng-container>
             </div>
@@ -39,22 +43,32 @@
     </p-overlayPanel>
 </ng-template>
 
+<!-- Value Branch -->
+<ng-template #value let-value>
+    <ng-container
+        *ngTemplateOutlet="
+            value?.toUpperCase ? rawTextTemplate : linkTemplate;
+            context: { $implicit: value }
+        "
+    ></ng-container>
+</ng-template>
+
 <!-- Raw Text -->
-<ng-template #text let-task>
+<ng-template #rawTextTemplate let-task>
     <xiv-data-cell [value]="task"></xiv-data-cell>
 </ng-template>
 
 <!-- Task Link -->
-<ng-template #link let-task>
+<ng-template #linkTemplate let-data>
     <p-button
-        class="content-link noSelect"
+        class="noSelect"
         styleClass="p-button-link"
-        tooltipPosition="left"
+        tooltipPosition="bottom"
         [pTooltip]="
-            (task._parent | contentLink) + '\n' +
-            ('GENERAL.TASK_NAVIGATE' | translate)
+            ('GENERAL.NAVIGATE' | translate) + '\n' +
+            (data | contentLink:data?._parent)
         "
-        [label]="task | contentLink"
-        (onClick)="onClickLink(task)"
+        [label]="data | contentLink"
+        (onClick)="onClickLink(data)"
     ></p-button>
 </ng-template>

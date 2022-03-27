@@ -1,3 +1,4 @@
+@import '../../../../styles/ellipsis-overflow';
 @import './colors';
 
 :host {
@@ -19,6 +20,10 @@
 
     ::ng-deep .p-datatable {
         height: 100%;
+
+        .p-datatable-table {
+            width: 100%;
+        }
 
         //---------------------- Table Row ----------------------
         tr {
@@ -42,7 +47,7 @@
 
         //---------------------- Common ----------------------
         th, td {
-            max-width: 20vw;
+            //max-width: 20vw;
         }
 
         //---------------------- Table Header ----------------------
@@ -56,8 +61,19 @@
 
         //---------------------- Table Data ----------------------
         td {
+            overflow: hidden;
+
             &.centered {
                 text-align: center;
+            }
+
+            ::ng-deep .p-button {
+                width: 100%;
+
+                .p-button-label {
+                    @extend %ellipsis-overflow;
+                    text-align: left;
+                }
             }
         }
 

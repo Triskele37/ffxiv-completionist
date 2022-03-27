@@ -1,11 +1,11 @@
-:host {
+:host, ::ng-deep .link-overlay {
     // Make xiv-data-cell mimic the spacing of p-button-link
     ::ng-deep .data-cell {
         padding: calc(var(--content-padding) * .75) var(--content-padding);
     }
 
-    .content-link {
-        @extend %content-link;
+    p-button {
+        display: block;
     }
 }
 
@@ -23,17 +23,5 @@
     .overlay-container {
         margin: calc(var(--content-padding) * -1);
         padding: var(--content-padding);
-    }
-
-    .content-link {
-        @extend %content-link;
-    }
-}
-
-%content-link {
-    display: block;
-
-    ::ng-deep .p-button-label {
-        display: flex;
     }
 }

@@ -2,10 +2,16 @@
     margin: 0 10px;
     display: flex;
 
-    p-button ::ng-deep .p-button {
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
-        height: 34px;
+    p-button {
+        &:last-child ::ng-deep .p-button {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        ::ng-deep .p-button {
+            height: 34px;
+            width: 34px;
+        }
     }
 
     p-breadcrumb {

@@ -19,6 +19,7 @@ body {
 
     .p-tooltip {
         max-width: unset;
+        pointer-events: none;
 
         .p-tooltip-text {
             border: 1px solid var(--surface-d);

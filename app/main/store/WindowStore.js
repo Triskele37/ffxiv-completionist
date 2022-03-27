@@ -44,10 +44,12 @@ var WindowStore = /** @class */ (function () {
         WindowStore.main.show();
         if (WindowStore.maxOnShow)
             WindowStore.main.maximize();
+        // Fixes redraw issue preventing app interaction
+        // Started popping up on release-1-0-0 near commit a70c0ba
         setTimeout(function () {
             WindowStore.main.blur();
             WindowStore.main.focus();
-        }, 100);
+        }, 500);
         event.returnValue = null;
     };
     //#region------------------------------------------------------- Splash Window

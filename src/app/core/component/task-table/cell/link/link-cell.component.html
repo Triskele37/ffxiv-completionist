@@ -2,7 +2,11 @@
     <p-button
         class="content-link noSelect"
         styleClass="p-button-link"
-        [pTooltip]="'GENERAL.GROUP_NAVIGATE' | translate"
+        tooltipPosition="bottom"
+        [pTooltip]="
+            (group | contentLink) + '\n' +
+            ('GENERAL.GROUP_NAVIGATE' | translate)
+        "
         [label]="group | contentLink"
         (onClick)="onClickLink()"
     ></p-button>
@@ -12,7 +16,11 @@
     <p-button
         class="content-link noSelect"
         styleClass="p-button-link"
-        [pTooltip]="'GENERAL.TASK_NAVIGATE' | translate"
+        tooltipPosition="bottom"
+        [pTooltip]="
+            (task._parent | contentLink) + '\n' +
+            ('GENERAL.TASK_NAVIGATE' | translate)
+        "
         [label]="task | contentLink:trimGroup"
         (onClick)="onClickLink()"
     ></p-button>

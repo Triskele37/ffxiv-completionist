@@ -73,15 +73,18 @@ function mapHeaders(common, locale) {
 function applyStaticHeaderProps(headers, key) {
     switch(key) {
         case 'category':
-            headers[key].filterable = true;
-            // headers[key].width = 250;
+            headers[key].filterable = headers[key].filterable ?? true;
+            // headers[key].width = headers[key].width ?? 250;
             break;
         case 'patch':
-            headers[key].filterable = true;
-            headers[key].width = 110;
+            headers[key].filterable = headers[key].filterable ?? true;
+            headers[key].width = headers[key].width ?? 100;
             break;
         case 'zone':
-            headers[key].filterable = true;
+            headers[key].filterable = headers[key].filterable ?? true;
+            break;
+        case 'level': case 'iLevel': case 'iLvl':
+            headers[key].width = headers[key].width ?? 75;
             break;
     }
 }

@@ -10,8 +10,10 @@
         "x0": {
             "name": "Storm Private Third Class",
             "grandCompany": "Maelstrom",
-            "requirement": "Completion of Till Sea Swallows All Quest",
-            "entitlements": "10,000 Seal Cap; Deliveries"
+            "entitlements": [
+                "10,000 Seal Cap",
+                "Deliveries"
+            ]
         },
         "x1": {
             "name": "Storm Private Second Class",
@@ -34,14 +36,24 @@
         "x4": {
             "name": "Storm Sergeant Third Class",
             "grandCompany": "Maelstrom",
-            "requirement": "Completion of Hunting Log: Maelstrom Rank 1 & 5,000 Storm Seals",
-            "entitlements": "30,000 Seal Cap; Level 30 GC Leves; Whitebrim GC Leves"
+            "requirement": [
+                "to Rank 1",
+                "5,000 Storm Seals"
+            ],
+            "entitlements": [
+                "30,000 Seal Cap",
+                "Level 30 GC Leves",
+                "Whitebrim GC Leves"
+            ]
         },
         "x5": {
             "name": "Storm Sergeant Second Class",
             "grandCompany": "Maelstrom",
             "requirement": "6,000 Storm Seals",
-            "entitlements": "35,000 Seal Cap; Expert Deliveries"
+            "entitlements": [
+                "35,000 Seal Cap",
+                "Expert Deliveries"
+            ]
         },
         "x6": {
             "name": "Storm Sergeant First Class",
@@ -52,14 +64,23 @@
         "x7": {
             "name": "Chief Storm Sergeant",
             "grandCompany": "Maelstrom",
-            "requirement": "Completion of Shadows Uncast (Maelstrom) Quest & 8,000 Storm Seals",
-            "entitlements": "45,000 Seal Cap; Mor Dhona GC Leves"
+            "requirement": "8,000 Storm Seals",
+            "entitlements": [
+                "45,000 Seal Cap",
+                "Mor Dhona GC Leves"
+            ]
         },
         "x8": {
             "name": "Second Storm Lieutenant",
             "grandCompany": "Maelstrom",
-            "requirement": "Completion of Hunting Log: Maelstrom Rank 2, Gilding the Bilious (Maelstrom) & 9,000 Storm Seals",
-            "entitlements": "50,000 Seal Cap; Adventurer Squadrons"
+            "requirement": [
+                "to Rank 2",
+                "9,000 Storm Seals"
+            ],
+            "entitlements": [
+                "50,000 Seal Cap",
+                "Adventurer Squadrons"
+            ]
         },
         "x9": {
             "name": "First Storm Lieutenant",
@@ -70,14 +91,19 @@
         "x10": {
             "name": "Storm Captain",
             "grandCompany": "Maelstrom",
-            "requirement": "Completion of 5 Different Command Missions & Completion of \"Flagged Mission: Sapper Strike\" via Adventurer Squadrons",
+            "requirement": [
+                "Completion of 5 Different Command Missions",
+                "Completion of \"Flagged Mission: Sapper Strike\" via Adventurer Squadrons"
+            ],
             "entitlements": "90,000 Seal Cap"
         },
         "x11": {
             "name": "Serpent Private Third Class",
             "grandCompany": "Order of the Twin Adder",
-            "requirement": "Completion of Till Sea Swallows All Quest",
-            "entitlements": "10,000 Seal Cap; Deliveries"
+            "entitlements": [
+                "10,000 Seal Cap",
+                "Deliveries"
+            ]
         },
         "x12": {
             "name": "Serpent Private Second Class",
@@ -100,14 +126,24 @@
         "x15": {
             "name": "Serpent Sergeant Third Class",
             "grandCompany": "Order of the Twin Adder",
-            "requirement": "Completion of Hunting Log: Order of the Twin Adder Rank 1 & 5,000 Serpent Seals",
-            "entitlements": "30,000 Seal Cap; Level 30 GC Leves; Whitebrim GC Leves"
+            "requirement": [
+                "to Rank 1",
+                "5,000 Serpent Seals"
+            ],
+            "entitlements": [
+                "30,000 Seal Cap",
+                "Level 30 GC Leves",
+                "Whitebrim GC Leves"
+            ]
         },
         "x16": {
             "name": "Serpent Sergeant Second Class",
             "grandCompany": "Order of the Twin Adder",
             "requirement": "6,000 Serpent Seals",
-            "entitlements": "35,000 Seal Cap; Expert Deliveries"
+            "entitlements": [
+                "35,000 Seal Cap",
+                "Expert Deliveries"
+            ]
         },
         "x17": {
             "name": "Serpent Sergeant First Class",
@@ -118,14 +154,23 @@
         "x18": {
             "name": "Chief Serpent Sergeant",
             "grandCompany": "Order of the Twin Adder",
-            "requirement": "Completion of Shadows Uncast (Twin Adder) Quest & 8,000 Serpent Seals",
-            "entitlements": "45,000 Seal Cap; Mor Dhona GC Leves"
+            "requirement": "8,000 Serpent Seals",
+            "entitlements": [
+                "45,000 Seal Cap",
+                "Mor Dhona GC Leves"
+            ]
         },
         "x19": {
             "name": "Second Serpent Lieutenant",
             "grandCompany": "Order of the Twin Adder",
-            "requirement": "Completion of Hunting Log: Order of the Twin Adder Rank 2, Gilding the Bilious (Twin Adder) & 9,000 Serpent Seals",
-            "entitlements": "50,000 Seal Cap; Adventurer Squadrons"
+            "requirement": [
+                "to Rank 2",
+                "9,000 Serpent Seals"
+            ],
+            "entitlements": [
+                "50,000 Seal Cap",
+                "Adventurer Squadrons"
+            ]
         },
         "x20": {
             "name": "First Serpent Lieutenant",
@@ -136,14 +181,19 @@
         "x21": {
             "name": "Serpent Captain",
             "grandCompany": "Order of the Twin Adder",
-            "requirement": "Completion of 5 Different Command Missions & Completion of \"Flagged Mission: Sapper Strike\" via Adventurer Squadrons",
+            "requirement": [
+                "Completion of 5 Different Command Missions",
+                "Completion of \"Flagged Mission: Sapper Strike\" via Adventurer Squadrons"
+            ],
             "entitlements": "90,000 Seal Cap"
         },
         "x22": {
             "name": "Flame Private Third Class",
             "grandCompany": "Immortal Flames",
-            "requirement": "Completion of Till Sea Swallows All Quest",
-            "entitlements": "10,000 Seal Cap; Deliveries"
+            "entitlements": [
+                "10,000 Seal Cap",
+                "Deliveries"
+            ]
         },
         "x23": {
             "name": "Flame Private Second Class",
@@ -166,14 +216,24 @@
         "x26": {
             "name": "Flame Sergeant Third Class",
             "grandCompany": "Immortal Flames",
-            "requirement": "Completion of Hunting Log: Immortal Flames Rank 1 & 5,000 Flame Seals",
-            "entitlements": "30,000 Seal Cap; Level 30 GC Leves; Whitebrim GC Leves"
+            "requirement": [
+                "to Rank 1",
+                "5,000 Flame Seals"
+            ],
+            "entitlements": [
+                "30,000 Seal Cap",
+                "Level 30 GC Leves",
+                "Whitebrim GC Leves"
+            ]
         },
         "x27": {
             "name": "Flame Sergeant Second Class",
             "grandCompany": "Immortal Flames",
             "requirement": "6,000 Flame Seals",
-            "entitlements": "35,000 Seal Cap; Expert Deliveries"
+            "entitlements": [
+                "35,000 Seal Cap",
+                "Expert Deliveries"
+            ]
         },
         "x28": {
             "name": "Flame Sergeant First Class",
@@ -184,14 +244,23 @@
         "x29": {
             "name": "Chief Flame Sergeant",
             "grandCompany": "Immortal Flames",
-            "requirement": "Completion of Shadows Uncast (Immortal Flames) Quest & 8,000 Flame Seals",
-            "entitlements": "45,000 Seal Cap; Mor Dhona GC Leves"
+            "requirement": "8,000 Flame Seals",
+            "entitlements": [
+                "45,000 Seal Cap",
+                "Mor Dhona GC Leves"
+            ]
         },
         "x30": {
             "name": "Second Flame Lieutenant",
             "grandCompany": "Immortal Flames",
-            "requirement": "Completion of Hunting Log: Immortal Flames Rank 2, Gilding the Bilious (Immortal Flames) & 9,000 Flame Seals",
-            "entitlements": "50,000 Seal Cap; Adventurer Squadrons"
+            "requirement": [
+                "to Rank 2",
+                "9,000 Flame Seals"
+            ],
+            "entitlements": [
+                "50,000 Seal Cap",
+                "Adventurer Squadrons"
+            ]
         },
         "x31": {
             "name": "First Flame Lieutenant",
@@ -202,7 +271,10 @@
         "x32": {
             "name": "Flame Captain",
             "grandCompany": "Immortal Flames",
-            "requirement": "Completion of 5 Different Command Missions & Completion of \"Flagged Mission: Sapper Strike\" via Adventurer Squadrons",
+            "requirement": [
+                "Completion of 5 Different Command Missions",
+                "Completion of \"Flagged Mission: Sapper Strike\" via Adventurer Squadrons"
+            ],
             "entitlements": "90,000 Seal Cap"
         }
     }

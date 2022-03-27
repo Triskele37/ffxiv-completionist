@@ -1,9 +1,12 @@
 import { Component, Input, OnChanges, SimpleChanges, ViewChild } from '@angular/core';
 import { OverlayPanel } from 'primeng/overlaypanel';
 
+import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { DataService } from '@data';
 import { NavigationService } from '@service/navigation/navigation.service';
+
+type LinkData = DataGroup | Task | string;
 
 @Component({
     selector: 'xiv-links-cell',
@@ -11,8 +14,8 @@ import { NavigationService } from '@service/navigation/navigation.service';
     styleUrls: ['./links-cell.component.scss']
 })
 export class LinksCellComponent implements OnChanges {
-    @Input() taskPaths: string | string[];
-    tasks: Task[] = []; // actually (Task | string)[]
+    @Input() linkPaths: string | string[];
+    links: LinkData[] = [];
 
     isOverlayLocked: boolean = false;
     @ViewChild('linkOverlay') linkOverlay: OverlayPanel;
@@ -24,8 +27,8 @@ export class LinksCellComponent implements OnChanges {
     }
 
     ngOnChanges(changes: SimpleChanges) {
-        if(changes.taskPaths?.currentValue) {
-            this.compileLinkedTasks();
+        if(changes.linkPaths?.currentValue) {
+            this.compileLinks();
         }
     }
 
@@ -43,22 +46,29 @@ export class LinksCellComponent implements OnChanges {
         this.isOverlayLocked = !this.isOverlayLocked;
     }
 
-    onClickLink(task: Task): void {
-        this.svcNavigation.setSelectedTask(task);
-    }
-
-    compileLinkedTasks(): void {
-        if(Array.isArray(this.taskPaths)) {
-            this.tasks = this.taskPaths.map((path) => this.getTaskFromPath(path));
+    onClickLink(data: DataGroup | Task): void {
+        if(data instanceof DataGroup) {
+            this.svcNavigation.setSelectedGroup(data);
         }
         else {
-            this.tasks = [this.getTaskFromPath(this.taskPaths)];
+            this.svcNavigation.setSelectedTask(data);
         }
     }
 
-    getTaskFromPath(pathOrValue: string): any { //Task | string {
+    compileLinks(): void {
+        if(Array.isArray(this.linkPaths)) {
+            this.links = this.linkPaths.map((path) => this.getLinkFromPath(path));
+        }
+        else {
+            this.links = [this.getLinkFromPath(this.linkPaths)];
+        }
+
+        this.links = this.links.filter((l) => !!l);
+    }
+
+    getLinkFromPath(pathOrValue: string): LinkData {
         if(pathOrValue?.includes('.')) {
-            return this.svcData.data.getChildTask(pathOrValue) || pathOrValue;
+            return this.svcData.data.getChild(pathOrValue) || pathOrValue;
         }
         else {
             // parameter is a raw value

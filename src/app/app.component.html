@@ -10,8 +10,8 @@
 
     <div class="right-container">
         <xiv-stat-bar></xiv-stat-bar>
-        <xiv-breadcrumbs></xiv-breadcrumbs>
+        <xiv-breadcrumbs (showAllChange)="onShowAllChange($event)"></xiv-breadcrumbs>
 
-        <xiv-main-content></xiv-main-content>
+        <xiv-main-content [showAll]="showAll"></xiv-main-content>
     </div>
 </div>

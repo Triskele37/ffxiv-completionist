@@ -3,6 +3,7 @@ import {
     Component,
     ComponentFactoryResolver,
     ElementRef,
+    Input,
     OnDestroy,
     OnInit,
     ViewChild
@@ -19,6 +20,8 @@ import { AnchorDirective } from './anchor.directive';
     styleUrls: ['./main-content.component.scss']
 })
 export class MainContentComponent implements OnInit, OnDestroy {
+    @Input() showAll: boolean;
+
     selectedGroup: DataGroup;
 
     constructor(
@@ -36,16 +39,11 @@ export class MainContentComponent implements OnInit, OnDestroy {
             this.showAll = false;
 
             if(selectedGroup.isUiGroup) {
-                this.isShowAllVisible = false;
-
                 // When the previous selectedGroup had a custom component, load immediately
                 // Otherwise rely on 'set anchor' to load the component
                 if(refExists && selectedGroup.component) {
                     this.loadComponent();
                 }
-            }
-            else {
-                this.isShowAllVisible = !!(selectedGroup?.subGroups && selectedGroup.columns);
             }
         });
     }
@@ -53,16 +51,6 @@ export class MainContentComponent implements OnInit, OnDestroy {
     ngOnDestroy() {
         this.summaryObserver?.disconnect();
     }
-
-    //#region------------------------------------------------------- Show All
-    isShowAllVisible: boolean = false;
-    showAll: boolean = false;
-
-    toggleShowAll(): void {
-        this.showAll = !this.showAll;
-    }
-
-    //#endregion
 
     //#region------------------------------------------------------- Dynamic Scroll Height
     footerHeight: number = 0;

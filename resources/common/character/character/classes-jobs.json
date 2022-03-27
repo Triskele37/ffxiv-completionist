@@ -5,10 +5,17 @@
     "headers": {
         "role": {
             "filterable": true
+        },
+        "startingQuest": {
+            "link": true
         }
     },
     "tasks": {
         "x0": {
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-war.gladiator.65821",
+                "duty.quests.class--job.disciple-of-war-job.paladin.66591"
+            ],
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -32,6 +39,10 @@
             }
         },
         "x1": {
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-war.marauder.65846",
+                "duty.quests.class--job.disciple-of-war-job.warrior.66585"
+            ],
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -55,6 +66,7 @@
             }
         },
         "x2": {
+            "startingQuest": "duty.quests.class--job.disciple-of-war-job.dark-knight.67589",
             "patch": "3.0",
             "minValue": 30,
             "maxValue": 90,
@@ -75,6 +87,7 @@
             }
         },
         "x3": {
+            "startingQuest": "duty.quests.class--job.disciple-of-war-job.gunbreaker.68797",
             "patch": "5.0",
             "minValue": 60,
             "maxValue": 90,
@@ -89,6 +102,10 @@
             }
         },
         "x4": {
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-magic.conjurer.65669",
+                "duty.quests.class--job.disciple-of-magic-job.white-mage.66615"
+            ],
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -112,6 +129,10 @@
             }
         },
         "x5": {
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-magic.arcanist.65988",
+                "duty.quests.class--job.disciple-of-magic-job.scholar.66633"
+            ],
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -136,6 +157,7 @@
             }
         },
         "x6": {
+            "startingQuest": "duty.quests.class--job.disciple-of-magic-job.astrologian.67548",
             "patch": "3.0",
             "minValue": 30,
             "maxValue": 90,
@@ -156,6 +178,7 @@
             }
         },
         "x29": {
+            "startingQuest": "duty.quests.class--job.disciple-of-magic-job.sage.69603",
             "patch": "6.0",
             "minValue": 70,
             "maxValue": 90,
@@ -168,6 +191,10 @@
             }
         },
         "x7": {
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-war.pugilist.66068",
+                "duty.quests.class--job.disciple-of-war-job.monk.66597"
+            ],
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -191,6 +218,10 @@
             }
         },
         "x8": {
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-war.lancer.65668",
+                "duty.quests.class--job.disciple-of-war-job.dragoon.66603"
+            ],
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -214,6 +245,10 @@
             }
         },
         "x9": {
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-war.rogue.65638",
+                "duty.quests.class--job.disciple-of-war-job.ninja.65748"
+            ],
             "patch": "2.4",
             "minValue": 0,
             "maxValue": 90,
@@ -236,6 +271,7 @@
             }
         },
         "x10": {
+            "startingQuest": "duty.quests.class--job.disciple-of-war-job.samurai.68095",
             "patch": "4.0",
             "minValue": 50,
             "maxValue": 90,
@@ -253,6 +289,7 @@
             }
         },
         "x30": {
+            "startingQuest": "duty.quests.class--job.disciple-of-war-job.reaper.69609",
             "patch": "6.0",
             "minValue": 70,
             "maxValue": 90,
@@ -265,6 +302,10 @@
             }
         },
         "x11": {
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-war.archer.65667",
+                "duty.quests.class--job.disciple-of-war-job.bard.66621"
+            ],
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -288,6 +329,7 @@
             }
         },
         "x12": {
+            "startingQuest": "duty.quests.class--job.disciple-of-war-job.machinist.67232",
             "patch": "3.0",
             "minValue": 30,
             "maxValue": 90,
@@ -308,6 +350,7 @@
             }
         },
         "x13": {
+            "startingQuest": "duty.quests.class--job.disciple-of-war-job.dancer.68785",
             "patch": "5.0",
             "minValue": 60,
             "maxValue": 90,
@@ -322,6 +365,10 @@
             }
         },
         "x14": {
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-magic.thaumaturge.65880",
+                "duty.quests.class--job.disciple-of-magic-job.black-mage.66609"
+            ],
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -345,6 +392,10 @@
             }
         },
         "x15": {
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-magic.arcanist.65988",
+                "duty.quests.class--job.disciple-of-magic-job.summoner.66627"
+            ],
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -369,6 +420,7 @@
             }
         },
         "x16": {
+            "startingQuest": "duty.quests.class--job.disciple-of-magic-job.red-mage.68112",
             "patch": "4.0",
             "minValue": 50,
             "maxValue": 90,
@@ -386,6 +438,7 @@
             }
         },
         "x17": {
+            "startingQuest": "duty.quests.class--job.disciple-of-magic-job.blue-mage.68728",
             "patch": "4.5",
             "minValue": 0,
             "maxValue": 70,
@@ -400,6 +453,7 @@
             }
         },
         "x18": {
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.carpenter.65674",
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -423,6 +477,7 @@
             }
         },
         "x19": {
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.blacksmith.65827",
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -446,6 +501,7 @@
             }
         },
         "x20": {
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.armorer.65809",
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -469,6 +525,7 @@
             }
         },
         "x21": {
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.goldsmith.66144",
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -492,6 +549,7 @@
             }
         },
         "x22": {
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.leatherworker.65641",
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -515,6 +573,7 @@
             }
         },
         "x23": {
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.weaver.66070",
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -538,6 +597,7 @@
             }
         },
         "x24": {
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.alchemist.66111",
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -561,6 +621,7 @@
             }
         },
         "x25": {
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.culinarian.65807",
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -584,6 +645,7 @@
             }
         },
         "x26": {
+            "startingQuest": "duty.quests.class--job.disciple-of-the-land.miner.66133",
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -607,6 +669,7 @@
             }
         },
         "x27": {
+            "startingQuest": "duty.quests.class--job.disciple-of-the-land.botanist.65539",
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
@@ -630,6 +693,7 @@
             }
         },
         "x28": {
+            "startingQuest": "duty.quests.class--job.disciple-of-the-land.fisher.66643",
             "patch": "2.0",
             "minValue": 0,
             "maxValue": 90,
