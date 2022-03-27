@@ -5,7 +5,10 @@ import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { DataService } from '@data';
 
-type LinkData = DataGroup | Task | string;
+type LinkData = {
+    value: DataGroup | Task | string;
+    type: 'Group' | 'Task' | 'Value';
+};
 
 @Component({
     selector: 'xiv-links-cell',
@@ -54,16 +57,23 @@ export class LinksCellComponent implements OnChanges {
             this.links = [this.getLinkFromPath(this.linkPaths)];
         }
 
-        this.links = this.links.filter((l) => !!l);
+        this.links = this.links.filter((l) => !!l.value);
     }
 
     getLinkFromPath(pathOrValue: string): LinkData {
         if(pathOrValue?.includes('.')) {
-            return this.svcData.data.getChild(pathOrValue) || pathOrValue;
+            const content = this.svcData.data.getChild(pathOrValue) || pathOrValue;
+            const isGroup = content instanceof DataGroup;
+            const isTask = content instanceof Task;
+
+            return {
+                value: content,
+                type: isGroup ? 'Group' : isTask ? 'Task' : 'Value'
+            };
         }
         else {
             // parameter is a raw value
-            return pathOrValue;
+            return { value: pathOrValue, type: 'Value' };
         }
     }
 
