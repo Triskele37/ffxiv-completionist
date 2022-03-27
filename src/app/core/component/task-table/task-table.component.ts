@@ -52,8 +52,7 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
     ngOnChanges(changes: SimpleChanges): void {
         if(changes.group) {
             this.filters = {
-                // completion: this.filters.completion as CompletionFilter
-                completion: this.filters.completion as any
+                completion: this.filters.completion
             };
         }
 

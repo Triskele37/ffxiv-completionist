@@ -7,8 +7,9 @@
             vertical-align: middle;
             text-align: center;
 
-            &:not(.numeric) { width: 60px; }
-            &.numeric { width: 100px; }
+            &.numeric {
+                width: 100px;
+            }
 
             .i-complete {
                 margin-right: 4px;

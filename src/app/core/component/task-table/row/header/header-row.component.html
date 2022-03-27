@@ -1,7 +1,8 @@
 <tr class="task-table-header">
-    <ng-container
-        *ngTemplateOutlet="group._isNumericCompletion ? numericHeader : flagHeader"
-    ></ng-container>
+    <ng-container *ngTemplateOutlet="
+        group._isNumericCompletion ? numericHeader : flagHeader;
+        context: { $implicit: group }
+    "></ng-container>
 
     <!-- Data Headers -->
     <ng-container *ngFor="let column of group.columns">
@@ -35,8 +36,11 @@
 <!---------------------------------------------------------------------------------->
 <!--------------------------------- Cell Templates --------------------------------->
 <!---------------------------------------------------------------------------------->
-<ng-template #flagHeader>
-    <th class="completion-column">
+<ng-template #flagHeader let-group>
+    <th
+        class="completion-column"
+        [style.width.px]="group.isBookmarkGroup ? 100 : 60"
+    >
         <i
             class="i-complete"
             [ngClass]="{ enabled: filters.completion.completed }"

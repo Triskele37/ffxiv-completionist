@@ -37,7 +37,7 @@
             "name": "Adjudant(e)",
             "grandCompany": "Le Maelstrom",
             "requirement": [
-                "pour Rang 1",
+                "pour le Rang 1",
                 "5.000 Sceaux de compagnie limséen"
             ],
             "entitlements": [
@@ -74,7 +74,7 @@
             "name": "Sous-lieutenant(e)",
             "grandCompany": "Le Maelstrom",
             "requirement": [
-                "pour Rang 2",
+                "pour le Rang 2",
                 "9.000 Sceaux de compagnie limséen"
             ],
             "entitlements": [
@@ -127,7 +127,7 @@
             "name": "Adjudant(e)",
             "grandCompany": "L'ordre des Deux Vipères",
             "requirement": [
-                "pour Rang 1",
+                "pour le Rang 1",
                 "5.000 Sceaux de compagnie gridanien"
             ],
             "entitlements": [
@@ -163,7 +163,10 @@
         "x19": {
             "name": "Sous-lieutenant(e)",
             "grandCompany": "L'ordre des Deux Vipères",
-            "requirement": "Accomplissement du Bestiaire: L'Ordre des Deux Vipères Rang 2, \"Opération Val d'Aurum (Deux Vipères)\" & 9.000 Sceaux de compagnie gridanien",
+            "requirement": [
+                "pour le Rang 2",
+                "9.000 Sceaux de compagnie gridanien"
+            ],
             "entitlements": [
                 "50.000 Sceaux de compagnie gridanien maximum",
                 "Escouade de Grande Compagnie"
@@ -214,7 +217,7 @@
             "name": "Adjudant(e)",
             "grandCompany": "Les Immortels",
             "requirement": [
-                "pour Rang 1",
+                "pour le Rang 1",
                 "5.000 Sceaux de compagnie uldien"
             ],
             "entitlements": [
@@ -251,7 +254,7 @@
             "name": "Sous-lieutenant(e)",
             "grandCompany": "Les Immortels",
             "requirement": [
-                "pour Rang 2",
+                "pour le Rang 2",
                 "9.000 Sceaux de compagnie uldien"
             ],
             "entitlements": [

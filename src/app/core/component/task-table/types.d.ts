@@ -1,17 +1,13 @@
-export type Filters = CompletionFilter | DataFilter;
-
-export type CompletionFilter = {
-    completion: {
+export type Filters = {
+    [key: string]: {
+        // for 'completion' filter
         completed?: boolean;
         incomplete?: boolean;
         excluded?: boolean;
-    };
-};
 
-export type DataFilter = {
-    [key: string]: {
-        key: string;
-        value: string;
+        // for any other filter
+        key?: string;
+        value?: string;
     };
 };
 
