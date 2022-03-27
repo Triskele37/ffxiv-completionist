@@ -1,3 +1,5 @@
+@import './sizes';
+
 :host {
     $size: 34px;
     display: contents;
@@ -6,7 +8,7 @@
         position: absolute;
         font-weight: bold;
         border-radius: 0;
-        width: 250px;
+        width: $nav-drawer-width;
         height: 25px;
         left: 0;
         top: 0;
@@ -21,7 +23,7 @@
         display: flex;
 
         ::ng-deep .p-inputtext {
-            width: calc(250px - #{$size});
+            width: calc(#{$nav-drawer-width} - #{$size});
             height: $size;
             border-radius: 0;
 

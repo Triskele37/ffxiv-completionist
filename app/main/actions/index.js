@@ -6,6 +6,7 @@ var fs = require("fs");
 var ConfigStore_1 = require("../store/ConfigStore");
 var PlayerStore_1 = require("../store/PlayerStore");
 var WindowStore_1 = require("../store/WindowStore");
+var Remote = require("../remote");
 function initActions() {
     electron_1.ipcMain.on('app-ready', WindowStore_1.WindowStore.showMainWindow);
     electron_1.ipcMain.on('get-config', ConfigStore_1.ConfigStore.get);
@@ -29,6 +30,11 @@ function initActions() {
             event.returnValue = null;
         }
     });
+    electron_1.ipcMain.on('search-console-games', Remote.searchConsoleGamer);
+    electron_1.ipcMain.on('search-gamer-escape', Remote.searchGamerEscape);
+    electron_1.ipcMain.on('search-garland-tools', Remote.searchGarlandTools);
+    electron_1.ipcMain.on('open-in-garland-tools', Remote.openInGarlandTools);
+    electron_1.ipcMain.on('open-in-teamcraft', Remote.openInTeamcraft);
 }
 exports.initActions = initActions;
 //# sourceMappingURL=index.js.map

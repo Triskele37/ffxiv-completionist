@@ -29,8 +29,11 @@
             "@component/*": ["src/app/core/component/*"],
             "@data": ["src/app/data"],
             "@data/*": ["src/app/data/*"],
+            "@directive/*": ["src/app/core/directive/*"],
             "@domain/*": ["src/app/domain/*"],
-            "@service/*": ["src/app/core/service/*"]
+            "@pipe/*": ["src/app/core/pipe/*"],
+            "@service/*": ["src/app/core/service/*"],
+            "@util/*": ["src/app/core/util/*"]
         }
     },
     "include": [

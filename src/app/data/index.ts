@@ -12,7 +12,9 @@ import { TRAVEL_DEFINITION } from './definitions/travel';
 import { SOCIAL_DEFINITION } from './definitions/social';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
-@Injectable({ providedIn: 'root' })
+@Injectable({
+    providedIn: 'root'
+})
 export class DataService {
     data: DataGroup;
     whenLoaded$: AsyncSubject<void> = new AsyncSubject<void>();
@@ -85,12 +87,7 @@ function diveForLoad(group: DataGroup, storeGroup: any): void {
 
     group.tasks?.forEach((task) => {
         if(storeGroup[task.storageKey]) {
-            if(!group.isNumericCompletion) {
-                task.setCompletionFlag(storeGroup[task.storageKey]);
-            }
-            else {
-                task.setCompletionNumber(storeGroup[task.storageKey]);
-            }
+            task.setCompletion(storeGroup[task.storageKey]);
         }
     });
 }

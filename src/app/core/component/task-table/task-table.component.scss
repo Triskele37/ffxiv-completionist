@@ -1,4 +1,4 @@
-@import '../../../../styles/ellipsis-overflow';
+@import './ellipsis-overflow';
 @import './colors';
 
 :host {
@@ -23,68 +23,43 @@
 
         .p-datatable-table {
             width: 100%;
+
+            .p-datatable-tbody {
+                :nth-child(odd) .selected td:not(.noSelect) {
+                    background-color: var(--selected);
+                }
+
+                :nth-child(even) .selected td:not(.noSelect) {
+                    background-color: var(--selected-2);
+                }
+            }
         }
 
-        //---------------------- Table Row ----------------------
         tr {
-            cursor: pointer;
+            th {
+                // Prevent headers from scrolling with the table
+                position: sticky;
+                top: 0;
 
-            &.p-rowgroup-header td {
-                padding: 0;
+                // Prevent weird highlighting
+                user-select: none;
+            }
 
-                &:first-child {
-                    width: 30px;
+            td {
+                cursor: pointer;
+
+                // Prevent any overflow into sibling cells
+                overflow: hidden;
+
+                ::ng-deep .p-button {
+                    // Ensure buttons take the width of their cell
+                    width: 100%;
+
+                    .p-button-label {
+                        @extend %ellipsis-overflow;
+                        text-align: left;
+                    }
                 }
-
-                // the expand toggle button
-                .p-button.p-button-text {
-                    margin-left: calc(50% - 1rem);
-                    height: 2rem;
-                    width: 2rem;
-                }
-            }
-        }
-
-        //---------------------- Common ----------------------
-        th, td {
-            //max-width: 20vw;
-        }
-
-        //---------------------- Table Header ----------------------
-        th {
-            position: sticky;
-            top: 0;
-
-            cursor: context-menu;
-            user-select: none;
-        }
-
-        //---------------------- Table Data ----------------------
-        td {
-            overflow: hidden;
-
-            &.centered {
-                text-align: center;
-            }
-
-            ::ng-deep .p-button {
-                width: 100%;
-
-                .p-button-label {
-                    @extend %ellipsis-overflow;
-                    text-align: left;
-                }
-            }
-        }
-
-        //---------------------- Selection ----------------------
-        .p-datatable-tbody {
-            :nth-child(odd) .selected td:not(.noSelect) {
-                background-color: var(--selected);
-            }
-
-            :nth-child(even) .selected td:not(.noSelect) {
-                background-color: var(--selected-2);
             }
         }
 

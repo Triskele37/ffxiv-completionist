@@ -27,14 +27,14 @@ export class DataCellComponent implements OnChanges, OnDestroy {
         this.createObserver();
     }
 
-    ngOnChanges(changes: SimpleChanges) {
+    ngOnChanges(changes: SimpleChanges): void {
         if(changes.task || changes.key) {
             this.shouldDetectOverflow = true;
             this.detectOverflow();
         }
     }
 
-    ngOnDestroy() {
+    ngOnDestroy(): void {
         this.observer?.disconnect();
     }
 

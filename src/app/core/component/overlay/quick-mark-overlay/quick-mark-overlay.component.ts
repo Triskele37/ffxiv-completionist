@@ -59,7 +59,7 @@ export class QuickMarkOverlayComponent {
                     flag: task.completionFlag as Completion
                 });
 
-                first = !task.changeCompletionFlag(to, first) && first;
+                first = !task.changeCompletion(to, first) && first;
             }
         });
 
@@ -74,13 +74,14 @@ export class QuickMarkOverlayComponent {
         const history = this.history.pop();
 
         let first = true;
-        history.tasks.forEach((changed, index) => {
+        history.tasks.forEach((changed) => {
             if(changed.task.completionFlag !== changed.flag) {
-                first = !changed.task.changeCompletionFlag(changed.flag, first) && first;
+                first = !changed.task.changeCompletion(changed.flag, first) && first;
             }
         });
 
         this.onMark.emit();
         this.svcData.applyDataToStore();
     }
+
 }

@@ -1,49 +1,64 @@
-<div class="main-content" *ngIf="selectedGroup">
-    <!----------- Landing Page / Fallback ----------->
-    <ng-container *ngIf="selectedGroup.noContent || !selectedGroup; else customGroup">
-        <xiv-landing-page></xiv-landing-page>
-    </ng-container>
-
-    <!----------- Custom Component Group ----------->
-    <ng-template #customGroup>
-        <div
-            *ngIf="selectedGroup.component; else tableGroup"
-            class="custom-group-component"
-        >
-            <ng-template anchor></ng-template>
-        </div>
-    </ng-template>
-
-    <!----------- Summary & Task Table ----------->
-    <ng-template #tableGroup>
-        <div
-            *ngIf="!showAll && selectedGroup.subGroups"
-            #groupSummary
-            class="group-summary-section"
-        >
-            <ng-container *ngFor="let subGroup of selectedGroup.subGroups">
-                <xiv-summary-line
-                    *ngIf="!subGroup.isBookmarkGroup && !subGroup.isCustomGroup"
-                    [group]="subGroup"
-                ></xiv-summary-line>
-            </ng-container>
-        </div>
-
-        <!----------- Task Tables (show all & base) ----------->
-        <ng-container *ngIf="showAll; else baseTable">
-            <xiv-show-all-section [group]="selectedGroup"></xiv-show-all-section>
-        </ng-container>
-
-        <ng-template #baseTable>
-            <xiv-task-table
-                *ngIf="selectedGroup.tasks"
-                [group]="selectedGroup"
-                [tasks]="selectedGroup.tasks"
-            ></xiv-task-table>
-        </ng-template>
-    </ng-template>
+<div class="main-content">
+    <ng-container
+        *ngTemplateOutlet="
+            !selectedGroup || selectedGroup.noContent ? fallbackView :
+            selectedGroup.component ? customComponentView :
+            tableView
+        "
+    ></ng-container>
 </div>
 
 <!-- Forces the table to respect the summary line container's height -->
 <!--TODO: screws up table sometimes??? -->
 <div [style.height.px]="footerHeight"></div>
+
+<!---------------------------------------------------------------------------->
+<!------------------------------ View Templates ------------------------------>
+<!---------------------------------------------------------------------------->
+<ng-template #fallbackView>
+    <xiv-landing-page></xiv-landing-page>
+</ng-template>
+
+<ng-template #customComponentView>
+    <div class="custom-group-component">
+        <ng-template anchor></ng-template>
+    </div>
+</ng-template>
+
+<ng-template #tableView>
+    <ng-container *ngIf="!svcNavigation.allTaskViewEnabled && selectedGroup.subGroups">
+        <ng-container *ngTemplateOutlet="groupSummaries"></ng-container>
+    </ng-container>
+
+    <ng-container
+        *ngTemplateOutlet="svcNavigation.allTaskViewEnabled ? allTaskTable : baseTable"
+    ></ng-container>
+</ng-template>
+
+<!----------------------------------------------------------------------------->
+<!------------------------------ Group Templates ------------------------------>
+<!----------------------------------------------------------------------------->
+<ng-template #groupSummaries>
+    <div class="group-summary-section">
+        <ng-container *ngFor="let subGroup of selectedGroup.subGroups">
+            <xiv-summary-line
+                *ngIf="!subGroup.isBookmarkGroup && !subGroup.isCustomGroup"
+                [group]="subGroup"
+            ></xiv-summary-line>
+        </ng-container>
+    </div>
+</ng-template>
+
+<ng-template #allTaskTable>
+    <xiv-show-all-section
+        [group]="selectedGroup"
+    ></xiv-show-all-section>
+</ng-template>
+
+<ng-template #baseTable>
+    <xiv-task-table
+        *ngIf="selectedGroup.tasks"
+        [group]="selectedGroup"
+        [tasks]="selectedGroup.tasks"
+    ></xiv-task-table>
+</ng-template>

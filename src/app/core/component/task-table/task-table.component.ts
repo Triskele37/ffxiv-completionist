@@ -6,13 +6,11 @@ import { Column } from '@domain/Column';
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { NavigationService } from '@service/navigation/navigation.service';
-import { fuzzyMatchObject } from '@service/search/fuzzyMatch';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { SaveStoreService } from '@service/store/save-store.service';
+import { fuzzyMatchObject } from '@util/fuzzyMatch';
 
-type UniqueValues = {
-    [column: string]: string[];
-};
+import { DragEvent, Filters, UniqueValues } from './types';
 
 @Component({
     selector: 'xiv-task-table',
@@ -28,11 +26,11 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
     uniqueValues: UniqueValues;
     filteredTasks: Task[];
 
-    filters = {
+    filters: Filters = {
         completion: {}
     };
 
-    private _taskTable: Table;
+    _taskTable: Table;
 
     @ViewChild('taskTable', { static: false }) set taskTable(ref: Table) {
         if(!ref) return;
@@ -50,10 +48,12 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
         this.filters.completion = this.svcConfig.get('table-filters');
     }
 
-    ngOnChanges(changes: SimpleChanges) {
+    //#region----------------------------------------------------------- Lifecycle
+    ngOnChanges(changes: SimpleChanges): void {
         if(changes.group) {
             this.filters = {
-                completion: this.filters.completion
+                // completion: this.filters.completion as CompletionFilter
+                completion: this.filters.completion as any
             };
         }
 
@@ -64,46 +64,43 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
         }
     }
 
-    ngOnDestroy() {
+    ngOnDestroy(): void {
         this.observer?.disconnect();
-    }
-
-    //#region----------------------------------------------------------- Computed
-    get hasTasks(): boolean {
-        return !!this.tasks?.length;
-    }
-
-    get _uniqueValues(): UniqueValues {
-        const unique: UniqueValues = {};
-
-        // Grab unique values from the filtered task list
-        this.group.columns?.forEach(({ key, ...column }) => {
-            if(!column.filterable) return;
-            if(!unique[key]) unique[key] = [];
-
-            // Grab unique values
-            this.filteredTasks.forEach((task) => {
-                const value = task[key] ?? '';
-                if(!unique[key].includes(value)) unique[key].push(value);
-            });
-
-            // Sort
-            if(column.filterType === 'number') {
-                unique[key].sort((a, b) =>
-                    parseInt(a, 10) - parseInt(b, 10)
-                );
-            }
-            else {
-                unique[key].sort();
-            }
-        });
-
-        return unique;
     }
 
     //#endregion
 
+    scrollToSelectedTask(): void {
+        if(this.svcNavigation.selectedTask) {
+            const index = this.filteredTasks.findIndex(
+                (t) => t.fullStorageKey === this.svcNavigation.selectedTask.fullStorageKey
+            );
+
+            if(index !== -1) {
+                // Clear the selectedTask
+                this.svcNavigation.selectedTask = null;
+
+                // scrollTo cannot take place in this same tick
+                setTimeout(() => this._taskTable.scrollToVirtualIndex(index), 1);
+            }
+        }
+        else {
+            this._taskTable?.scrollToVirtualIndex(0);
+        }
+    }
+
     //#region----------------------------------------------------------- Filter
+    updateFilteredTasks(): void {
+        this.filteredTasks = this._filteredTasks;
+        this.uniqueValues = this._uniqueValues;
+        this.cdr.detectChanges();
+    }
+
+    onFilterChange(filters: Filters): void {
+        this.filters = filters;
+        this.updateFilteredTasks();
+    }
+
     get _filteredTasks(): Task[] {
         let filtered = [...this.tasks];
 
@@ -140,37 +137,38 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
         return filtered;
     }
 
-    updateFilteredTasks() {
-        this.filteredTasks = this._filteredTasks;
-        this.uniqueValues = this._uniqueValues;
-        this.cdr.detectChanges();
-    }
+    get _uniqueValues(): UniqueValues {
+        const unique: UniqueValues = {};
 
-    onFilterChange(filters) {
-        this.filters = filters;
-        this.updateFilteredTasks();
-    }
+        // Grab unique values from the filtered task list
+        this.group.columns?.forEach(({ key, ...column }) => {
+            if(!column.filterable) return;
+            if(!unique[key]) unique[key] = [];
 
-    scrollToSelectedTask(): void {
-        if(!this.svcNavigation.selectedTask) return;
+            // Grab unique values
+            this.filteredTasks.forEach((task) => {
+                const value = task[key] ?? '';
+                if(!unique[key].includes(value)) unique[key].push(value);
+            });
 
-        const index = this.filteredTasks.findIndex(
-            (t) => t.fullStorageKey === this.svcNavigation.selectedTask.fullStorageKey
-        );
+            // Sort
+            if(column.filterType === 'number') {
+                unique[key].sort((a, b) =>
+                    parseInt(a, 10) - parseInt(b, 10)
+                );
+            }
+            else {
+                unique[key].sort();
+            }
+        });
 
-        if(index !== -1) {
-            // Clear the selectedTask
-            this.svcNavigation.selectedTask = null;
-
-            // scrollTo cannot take place in this same tick
-            setTimeout(() => this._taskTable.scrollToVirtualIndex(index), 1);
-        }
+        return unique;
     }
 
     //#endregion
 
     //#region----------------------------------------------------------- Order
-    onRowReorder($event: { dragIndex: number; dropIndex: number }): void {
+    onRowReorder($event: DragEvent): void {
         // Bail if nothing moved
         if($event.dragIndex === $event.dropIndex) return;
 
@@ -207,7 +205,7 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
     //#endregion
 
     //#region----------------------------------------------------------- Fix Virtual Headers
-    private observer: MutationObserver;
+    observer: MutationObserver;
 
     observeVirtualWrapper(): void {
         if(!this._taskTable?.virtualScrollBody) return;

@@ -18,19 +18,9 @@ export class GamerEscapeActionComponent {
     constructor(private svcElectron: ElectronService) {
     }
 
-    gotoGamerEscape() {
-        let name = this.task.name.replace(/ /g, '_');
-        name = this.gamerEscapeSafeMap(name);
-
-        this.svcElectron.remote.shell.openExternal(`https://ffxiv.gamerescape.com/wiki/${name}`);
+    searchGamerEscape(): void {
+        this.svcElectron.ipcRenderer.sendSync('search-gamer-escape', this.task.name);
         this.onClick.emit();
     }
 
-    gamerEscapeSafeMap(name) {
-        const match = (n, id) => this.task.name === n && this.task.id === id;
-
-        if(match('Mending Fences', 143)) return `${name}_(Levequest)`;
-
-        return name;
-    }
 }

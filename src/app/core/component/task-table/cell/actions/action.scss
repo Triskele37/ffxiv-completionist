@@ -19,6 +19,6 @@ $button-size: 25px;
     cursor: pointer;
 
     &:hover {
-        border-color: var(--primary-color-light);
+        box-shadow: 0 0 5px 3px var(--primary-color);
     }
 }

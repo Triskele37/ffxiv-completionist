@@ -4,10 +4,6 @@ import { ConfigStore } from './main/store/ConfigStore';
 import { WindowStore } from './main/store/WindowStore';
 import { initActions } from './main/actions';
 
-// Initialize remote module
-//TODO: potentially remove as its a work-around for adhearing to main/renderer division
-require('@electron/remote/main').initialize();
-
 const args = process.argv.slice(1);
 const isServe = args.some((val) => val === '--serve');
 

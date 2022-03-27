@@ -4,7 +4,6 @@ import { OverlayPanel } from 'primeng/overlaypanel';
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { DataService } from '@data';
-import { NavigationService } from '@service/navigation/navigation.service';
 
 type LinkData = DataGroup | Task | string;
 
@@ -20,18 +19,16 @@ export class LinksCellComponent implements OnChanges {
     isOverlayLocked: boolean = false;
     @ViewChild('linkOverlay') linkOverlay: OverlayPanel;
 
-    constructor(
-        private svcData: DataService,
-        private svcNavigation: NavigationService
-    ) {
+    constructor(private svcData: DataService) {
     }
 
-    ngOnChanges(changes: SimpleChanges) {
+    ngOnChanges(changes: SimpleChanges): void {
         if(changes.linkPaths?.currentValue) {
             this.compileLinks();
         }
     }
 
+    //#region------------------------------------------------------- Events
     onMultiLinkLeave(): void {
         if(this.isOverlayLocked) return;
         this.linkOverlay.hide();
@@ -46,15 +43,9 @@ export class LinksCellComponent implements OnChanges {
         this.isOverlayLocked = !this.isOverlayLocked;
     }
 
-    onClickLink(data: DataGroup | Task): void {
-        if(data instanceof DataGroup) {
-            this.svcNavigation.setSelectedGroup(data);
-        }
-        else {
-            this.svcNavigation.setSelectedTask(data);
-        }
-    }
+    //#endregion
 
+    //#region------------------------------------------------------- Update
     compileLinks(): void {
         if(Array.isArray(this.linkPaths)) {
             this.links = this.linkPaths.map((path) => this.getLinkFromPath(path));
@@ -75,5 +66,7 @@ export class LinksCellComponent implements OnChanges {
             return pathOrValue;
         }
     }
+
+    //#endregion
 
 }

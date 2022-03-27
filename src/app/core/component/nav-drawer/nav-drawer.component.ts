@@ -1,4 +1,4 @@
-import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 
 import { DataService } from '@data';
@@ -16,7 +16,6 @@ export class NavDrawerComponent implements OnInit {
     items: MenuItem[] = [];
 
     constructor(
-        private cdr: ChangeDetectorRef,
         private svcData: DataService,
         private svcBookmark: BookmarkService,
         private svcMainMenu: MainMenuService,
@@ -24,45 +23,49 @@ export class NavDrawerComponent implements OnInit {
     ) {
     }
 
-    ngOnInit() {
+    ngOnInit(): void {
         this.buildMenuItems();
         this.addSubscriptions();
     }
 
-    private addSubscriptions(): void {
+    addSubscriptions(): void {
         // Collapse all groups not in the direct path of the selected group
         this.svcNavigation.selectedGroup$.subscribe((group) => {
             let path = group?.groupPath;
             if(path) {
+                // Remove the "overall" data container
                 if(!group.isUiGroup) path = path.slice(1);
 
                 this.updateCollapsed(this.items, path);
+
+                // Mutate "items" so changes are detected
                 this.items = [...this.items];
-                this.cdr.detectChanges();
             }
         });
 
         this.svcBookmark.onGroupUpdated$.subscribe(this.updateBookmarkGroup.bind(this));
     }
 
-    private buildMenuItems(): void {
+    buildMenuItems(): void {
         this.items = [
             this.addSubGroup(this.svcMainMenu.data),
             ...this.svcData.data.subGroups.map((group) => this.addSubGroup(group))
         ];
     }
 
-    private updateBookmarkGroup() {
+    updateBookmarkGroup() {
         const bookmarksIndex = this.items.findIndex(
             (item) => item.label === this.svcBookmark.group.name
         );
 
         this.items[bookmarksIndex] = this.addSubGroup(this.svcBookmark.group);
+
+        // Mutate "items" so changes are detected
         this.items = [...this.items];
     }
 
     // Recursive: Builds a MenuItem for all data groups
-    private addSubGroup(group: DataGroup, depth: number = 1): MenuItem {
+    addSubGroup(group: DataGroup, depth: number = 1): MenuItem {
         const item: MenuItem = { label: group.name };
 
         // Allow UI groups to hide themselves
@@ -87,7 +90,7 @@ export class NavDrawerComponent implements OnInit {
     }
 
     // Recursive: Updates the collapsed state of all MenuItems to match "path"
-    private updateCollapsed(items: MenuItem[], path: string[]): void {
+    updateCollapsed(items: MenuItem[], path: string[]): void {
         const name = path.shift();
 
         items.forEach((menuItem) => {

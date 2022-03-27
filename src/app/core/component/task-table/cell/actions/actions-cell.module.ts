@@ -5,8 +5,9 @@ import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
 import { TooltipModule } from 'primeng/tooltip';
 
-import { GarlandActionComponent } from './garland/garland-action.component';
+import { ConsoleGamesActionComponent } from './console-games/console-games-action.component';
 import { GamerEscapeActionComponent } from './gamer-escape/gamer-escape-action.component';
+import { GarlandActionComponent } from './garland/garland-action.component';
 import { DragActionComponent } from './drag/drag-action.component';
 import { BookmarkActionComponent } from './bookmark/bookmark-action.component';
 
@@ -16,8 +17,9 @@ import { ActionsCellComponent } from './actions-cell.component';
     declarations: [
         ActionsCellComponent,
 
-        GarlandActionComponent,
+        ConsoleGamesActionComponent,
         GamerEscapeActionComponent,
+        GarlandActionComponent,
         DragActionComponent,
         BookmarkActionComponent,
     ],

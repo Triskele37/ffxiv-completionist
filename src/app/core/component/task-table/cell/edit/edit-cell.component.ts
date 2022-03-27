@@ -57,4 +57,5 @@ export class EditCellComponent {
 
         this.svcStore.set(`custom.x${this.task.id}`, customTask);
     }
+
 }

@@ -3,7 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { InputNumberModule } from 'primeng/inputnumber';
 import { TooltipModule } from 'primeng/tooltip';
 
-import { GradientModule } from '../../../../pipe/gradient.pipe';
+import { GradientPipeModule } from '@pipe/gradient.pipe';
 import { NumericCompleteCellComponent } from './numeric-complete-cell.component';
 
 @NgModule({
@@ -14,7 +14,8 @@ import { NumericCompleteCellComponent } from './numeric-complete-cell.component'
         FormsModule,
         InputNumberModule,
         TooltipModule,
-        GradientModule
+
+        GradientPipeModule
     ],
     exports: [
         NumericCompleteCellComponent

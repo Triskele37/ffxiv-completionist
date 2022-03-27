@@ -8,11 +8,11 @@ import { InputTextModule } from 'primeng/inputtext';
 import { TableModule } from 'primeng/table';
 import { TooltipModule } from 'primeng/tooltip';
 
+import { ContentLinkModule } from '@component/content-link/content-link.module';
 import { CompleteCellModule } from '@component/task-table/cell/complete/complete-cell.module';
 import { NumericCompleteCellModule } from '@component/task-table/cell/numeric-complete/numeric-complete-cell.module';
-import { LinkCellModule } from '@component/task-table/cell/link/link-cell.module';
+import { ContentLinkPipeModule } from '@pipe/content-link.pipe';
 
-import { ContentLinkModule } from '../../core/pipe/content-link.pipe';
 import { SearchComponent } from './search.component';
 
 @NgModule({
@@ -29,10 +29,10 @@ import { SearchComponent } from './search.component';
         TableModule,
         TooltipModule,
 
+        ContentLinkModule,
         CompleteCellModule,
         NumericCompleteCellModule,
-        LinkCellModule,
-        ContentLinkModule,
+        ContentLinkPipeModule,
     ],
     exports: [
         SearchComponent

@@ -22,16 +22,18 @@ export class SearchComponent implements OnInit, OnDestroy {
     rowKeys: string[];
     showKey: boolean = APP_CONFIG.showKeys;
 
-    constructor(public svcSearch: SearchService) {
+    constructor(
+        public svcSearch: SearchService
+    ) {
     }
 
-    ngOnInit() {
+    ngOnInit(): void {
         this.sub = this.svcSearch.searchMatches$.subscribe((tasks) => {
             this.setRowsExpanded(tasks, true);
         });
     }
 
-    ngOnDestroy() {
+    ngOnDestroy(): void {
         this.sub?.unsubscribe();
     }
 

@@ -5,7 +5,7 @@
 >
     <p-button
         styleClass="p-button-outlined"
-        icon="material-icons mi-add"
+        icon="mi mi-add"
     ></p-button>
 
     <div
@@ -14,7 +14,16 @@
         (click)="modalNoNo($event)"
     ></div>
 
-    <div *ngIf="isVisible && !isMergeVisible" class="overlay-panel add-overlay">
+    <ng-container *ngIf="isVisible || isMergeVisible">
+        <ng-container
+            *ngTemplateOutlet="isMergeVisible ? mergeOverlay : addOverlay"
+        ></ng-container>
+    </ng-container>
+</span>
+
+<!--------------------------------- Templates --------------------------------->
+<ng-template #addOverlay>
+    <div class="overlay-panel add-overlay">
         <span class="content">
             <div class="task-property-input">
                 <input
@@ -49,9 +58,10 @@
             ></p-button>
         </span>
     </div>
+</ng-template>
 
+<ng-template #mergeOverlay>
     <div
-        *ngIf="isMergeVisible"
         class="overlay-panel merge-overlay"
         [ngClass]="{'manual-merge': !autoMerge}"
     >
@@ -92,4 +102,4 @@
             </ng-container>
         </span>
     </div>
-</span>
+</ng-template>

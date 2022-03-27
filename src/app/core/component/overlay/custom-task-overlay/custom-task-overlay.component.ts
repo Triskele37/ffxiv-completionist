@@ -156,8 +156,8 @@ export class CustomTaskOverlayComponent {
     confirmCurrentMerge(match: Task): void {
         // Update the completion flag if it has changed
         if(match.completionFlag !== this.mergeTask.completionFlag) {
-            this.mergeFirstInChain = !match.changeCompletionFlag(
-                this.mergeTask.completionFlag as Completion,
+            this.mergeFirstInChain = !match.changeCompletion(
+                this.mergeTask.completionFlag,
                 this.mergeFirstInChain
             ) && this.mergeFirstInChain;
         }
@@ -179,7 +179,7 @@ export class CustomTaskOverlayComponent {
 
     removeCustomTask_UI(task: Task): void {
         // Update displayed completion
-        task.setCompletionFlag(Completion.N);
+        task.setCompletion(Completion.N);
 
         // Find & Remove from data
         const index = this.customData.tasks.findIndex((t) => t.id === task.id);

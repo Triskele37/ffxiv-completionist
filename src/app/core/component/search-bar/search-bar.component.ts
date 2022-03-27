@@ -1,18 +1,19 @@
-import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
 
 import { DataService } from '@data';
 import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { NavigationService } from '@service/navigation/navigation.service';
-import { SearchService } from '@service/search/search.service';
+import { SearchService, Status } from '@service/search/search.service';
 
 @Component({
     selector: 'xiv-search-bar',
     templateUrl: './search-bar.component.html',
     styleUrls: ['./search-bar.component.scss']
 })
-export class SearchBarComponent {
-    searchTerm: string;
+export class SearchBarComponent implements OnInit {
+    searchTerm: string = '';
 
+    @ViewChild('searchBar') searchBar: ElementRef;
     @ViewChild('searchInput') searchInput: ElementRef;
 
     constructor(
@@ -23,8 +24,16 @@ export class SearchBarComponent {
     ) {
     }
 
+    ngOnInit() {
+        this.svcSearch.searchStatus$.subscribe((status) => {
+            if(status === Status.Success) {
+                this.svcNavigation.setBreadcrumbs(['main-menu', 'search']);
+            }
+        });
+    }
+
     @HostListener('window:keydown', ['$event'])
-    onKeydown($event: KeyboardEvent) {
+    onKeydown($event: KeyboardEvent): void {
         if(($event.ctrlKey || $event.metaKey) && $event.code === 'KeyF') {
             this.searchTerm = '';
             this.searchInput.nativeElement.focus();
@@ -55,5 +64,11 @@ export class SearchBarComponent {
 
         this.svcSearch.expanded = false;
         this.svcSearch.doAppSearch(this.searchTerm);
+
+        // Force the tooltip to show
+        // timeout since pTooltip clears on click of the search icon
+        setTimeout(() => {
+            this.searchBar.nativeElement.dispatchEvent(new Event('mouseenter'));
+        });
     }
 }

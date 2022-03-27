@@ -62,7 +62,7 @@
                             ></p-button>
                         </td>
                         <td [colSpan]="1 + (svcSearch.expanded ? 2 : 0) + (showKey ? 1 : 0)">
-                            <xiv-link-cell [group]="match.task._parent"></xiv-link-cell>
+                            <xiv-content-link [content]="match.task._parent"></xiv-content-link>
                         </td>
                     </tr>
                 </ng-template>
@@ -82,7 +82,10 @@
                         </ng-template>
 
                         <td>
-                            <xiv-link-cell [task]="match.task"></xiv-link-cell>
+                            <xiv-content-link
+                                [content]="match.task"
+                                [nameOnly]="true"
+                            ></xiv-content-link>
                         </td>
                         <td *ngIf="svcSearch.expanded">{{match.value}}</td>
                         <td *ngIf="svcSearch.expanded">{{match.header}}</td>

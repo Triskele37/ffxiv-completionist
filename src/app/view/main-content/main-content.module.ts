@@ -5,17 +5,16 @@ import { ButtonModule } from 'primeng/button';
 
 import { SummaryLineModule } from '@component/summary-line/summary-line.module';
 import { TaskTableModule } from '@component/task-table/task-table.module';
+import { AnchorDirectiveModule } from '@directive/anchor.directive';
 
-import { AnchorDirective } from './anchor.directive';
-import { LandingPageModule } from '../main-menu/landing-page';
+import { LandingPageModule } from '../landing-page';
 import { ShowAllModule } from '../show-all/show-all.module';
 
 import { MainContentComponent } from './main-content.component';
 
 @NgModule({
     declarations: [
-        MainContentComponent,
-        AnchorDirective
+        MainContentComponent
     ],
     imports: [
         CommonModule,
@@ -23,9 +22,11 @@ import { MainContentComponent } from './main-content.component';
         ButtonModule,
 
         SummaryLineModule,
+        TaskTableModule,
+        AnchorDirectiveModule,
+
         LandingPageModule,
         ShowAllModule,
-        TaskTableModule,
     ],
     exports: [
         MainContentComponent

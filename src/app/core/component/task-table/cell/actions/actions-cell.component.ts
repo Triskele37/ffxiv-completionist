@@ -12,7 +12,8 @@ export class ActionsCellComponent {
     @Input() rowIndex: number;
     expanded: boolean;
 
-    onCloseActions() {
+    onCloseActions(): void {
         this.expanded = false;
     }
+
 }

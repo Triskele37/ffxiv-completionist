@@ -5,9 +5,9 @@ import { BehaviorSubject } from 'rxjs';
 import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
-import { NavigationService } from '@service/navigation/navigation.service';
 
-import { getObjValue, fuzzyMatchObject, fuzzyMatchValue } from './fuzzyMatch';
+import { getLinkedName } from '@util/getLinkedName';
+import { fuzzyMatchObject, fuzzyMatchValue } from '@util/fuzzyMatch';
 
 export enum Status {
     Success = 'success',
@@ -33,8 +33,7 @@ export class SearchService {
 
     constructor(
         private translate: TranslateService,
-        private svcData: DataService,
-        private svcNavigation: NavigationService
+        private svcData: DataService
     ) {
     }
 
@@ -60,8 +59,6 @@ export class SearchService {
                 this.searchStatus$.next(Status.Success);
                 this.searchError$.next(null);
                 this.searchMatches$.next(matches);
-
-                this.svcNavigation.setBreadcrumbs(['main-menu', 'search']);
             }
             else if(!this.expanded) {
                 this.toggleSearchDepth();
@@ -80,7 +77,12 @@ export class SearchService {
         return this.searchGroupForTerm(this.svcData.data, searchTerm, expanded, partial);
     }
 
-    private searchGroupForTerm(group: DataGroup, searchTerm: string, expanded: boolean, partial: boolean): Match[] {
+    private searchGroupForTerm(
+        group: DataGroup,
+        searchTerm: string,
+        expanded: boolean,
+        partial: boolean
+    ): Match[] {
         const matches: Match[] = [];
 
         // Recurse downward
@@ -111,11 +113,11 @@ export class SearchService {
 
                         if(Array.isArray(task[key])) {
                             value = task[key]
-                                .map((path) => getObjValue(task, path, link))
+                                .map((path) => getLinkedName(path, link))
                                 .join(', ');
                         }
                         else {
-                            value = getObjValue(task, task[key], link).toString();
+                            value = getLinkedName(task[key], link).toString();
                         }
 
                         matches.push({ header, value, task });

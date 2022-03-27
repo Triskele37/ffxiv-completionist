@@ -9,10 +9,11 @@ import { TranslateModule, TranslateLoader, TranslateService } from '@ngx-transla
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 // App
+import { Lang } from '@constant';
 import { NavDrawerModule } from '@component/nav-drawer/nav-drawer.module';
 import { SearchBarModule } from '@component/search-bar/search-bar.module';
-import { StatBarModule } from '@component/stat-bar/stat-bar.module';
-import { BreadcrumbsModule } from '@component/breadcrumbs/breadcrumbs.module';
+import { SummaryHeaderModule } from '@component/summary-header/summary-header.module';
+import { NavBarModule } from '@component/nav-bar/nav-bar.module';
 import { MainContentModule } from './view/main-content/main-content.module';
 import { ViewModule } from './view/view.module';
 
@@ -25,7 +26,7 @@ const httpLoaderFactory = (http: HttpClient): TranslateHttpLoader => new Transla
 // Ensure translations are loaded before allowing the app to load
 function appInitializerFactory(svcConfig: ConfigStoreService, translate: TranslateService) {
     return () => {
-        translate.setDefaultLang('en');
+        translate.setDefaultLang(Lang.EN);
         return translate.use(svcConfig.store.get('lang')).toPromise();
     };
 }
@@ -46,8 +47,8 @@ function appInitializerFactory(svcConfig: ConfigStoreService, translate: Transla
         }),
         NavDrawerModule,
         SearchBarModule,
-        StatBarModule,
-        BreadcrumbsModule,
+        SummaryHeaderModule,
+        NavBarModule,
         MainContentModule,
         ViewModule
     ],

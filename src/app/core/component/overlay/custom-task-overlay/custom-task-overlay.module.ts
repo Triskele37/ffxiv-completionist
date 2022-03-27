@@ -6,9 +6,8 @@ import { TranslateModule } from '@ngx-translate/core';
 import { ButtonModule } from 'primeng/button';
 import { DividerModule } from 'primeng/divider';
 import { InputTextModule } from 'primeng/inputtext';
-import { OverlayPanelModule } from 'primeng/overlaypanel';
 
-import { ContentLinkModule } from '../../../pipe/content-link.pipe';
+import { ContentLinkPipeModule } from '@pipe/content-link.pipe';
 
 import { CustomTaskOverlayComponent } from './custom-task-overlay.component';
 
@@ -24,9 +23,8 @@ import { CustomTaskOverlayComponent } from './custom-task-overlay.component';
         ButtonModule,
         DividerModule,
         InputTextModule,
-        OverlayPanelModule,
 
-        ContentLinkModule
+        ContentLinkPipeModule
     ],
     exports: [
         CustomTaskOverlayComponent

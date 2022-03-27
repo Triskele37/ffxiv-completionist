@@ -4,6 +4,8 @@ import { Completion } from '@constant';
 import { DataGroup } from '@domain/DataGroup';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
+import { Filters, UniqueValues } from '@component/task-table/types';
+
 @Component({
     selector: 'xiv-header-row',
     templateUrl: './header-row.component.html',
@@ -11,12 +13,12 @@ import { ConfigStoreService } from '@service/store/config-store.service';
 })
 export class HeaderRowComponent implements OnInit {
     @Input() group: DataGroup;
-    @Input() uniqueValues;
-    @Output() filterChange = new EventEmitter<any>();
+    @Input() uniqueValues: UniqueValues;
+    @Output() filterChange = new EventEmitter<Filters>();
 
     Completion = Completion;
 
-    filters = {
+    filters: Filters = {
         completion: {
             completed: false,
             incomplete: false,
@@ -27,19 +29,25 @@ export class HeaderRowComponent implements OnInit {
     constructor(private svcConfig: ConfigStoreService) {
     }
 
-    ngOnInit() {
+    ngOnInit(): void {
         const filters = this.svcConfig.get('table-filters');
 
-        this.filters.completion.completed = !!filters.completed;
-        this.filters.completion.incomplete = !!filters.incomplete;
-        this.filters.completion.excluded = !!filters.excluded;
+        if('completed' in this.filters.completion) {
+            this.filters.completion.completed = !!filters.completed;
+            this.filters.completion.incomplete = !!filters.incomplete;
+            this.filters.completion.excluded = !!filters.excluded;
+        }
 
         this.filterChange.emit(this.filters);
     }
 
     onFilterCompletion(value: Completion): void {
-        const key = value === Completion.Y ? 'completed' :
-            value === Completion.N ? 'incomplete' : 'excluded';
+        const key = {
+            [Completion.Y]: 'completed',
+            [Completion.N]: 'incomplete',
+            [Completion.X]: 'excluded'
+        }[value];
+
         this.filters.completion[key] = !this.filters.completion[key];
         this.svcConfig.set(`table-filters.${key}`, this.filters.completion[key]);
 
@@ -47,7 +55,7 @@ export class HeaderRowComponent implements OnInit {
         this.filterChange.emit(this.filters);
     }
 
-    displayedFilterValue(filterValue) {
+    displayedFilterValue(filterValue: string): string {
         switch(filterValue) {
             case null:
             case undefined:
@@ -56,16 +64,16 @@ export class HeaderRowComponent implements OnInit {
         }
     }
 
-    onFilterKeyup($event, column) {
+    onFilterKeyup($event, column): void {
         this.modifySearch($event.target.value, column);
     }
 
-    onFilterDropdownChange($event, column) {
+    onFilterDropdownChange($event, column): void {
         if($event.value === '') this.modifySearch('Blank', column);
         else this.modifySearch($event.value, column);
     }
 
-    modifySearch(value, column) {
+    modifySearch(value, column): void {
         // Don't run filter unnecessarily
         if(this.filters[column.key]?.value === value) return;
 
@@ -77,4 +85,5 @@ export class HeaderRowComponent implements OnInit {
 
         this.filterChange.emit(this.filters);
     }
+
 }

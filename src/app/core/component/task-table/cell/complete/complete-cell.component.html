@@ -1,8 +1,7 @@
 <td
-    class="completion-flag-cell noSelect"
+    class="completion-flag-cell {{flag}} noSelect"
     (click)="onTaskCompleteClick()"
     (contextmenu)="onExcludeTaskClick($event)"
-    [class]="'completion-flag-cell-' + flag"
 >
     {{flag}}
 </td>

@@ -1,9 +1,9 @@
-#app {
-    $left-container-size: 250px;
+@import './sizes';
 
+#app {
     height: 100%;
     width: 100%;
-    min-width: calc(250px + 850px);
+    min-width: calc(#{$nav-drawer-width} + #{$main-view-min-width});
 
     overflow: hidden;
     white-space: nowrap;
@@ -24,15 +24,15 @@
     }
 
     .left-container {
-        padding-top: 33px;
-        width: $left-container-size;
+        padding-top: $main-menu-button-height;
+        width: $nav-drawer-width;
     }
 
     .right-container {
         display: flex;
         flex-direction: column;
 
-        width: calc(100% - #{$left-container-size});
+        width: calc(100% - #{$nav-drawer-width});
         height: 100%;
     }
 }

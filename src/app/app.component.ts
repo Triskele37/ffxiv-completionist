@@ -15,10 +15,8 @@ import { ThemeService } from '@service/theme/theme.service';
     styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit, AfterViewInit {
-    loading = true;
-    modalText = 'Loading...';
-
-    showAll: boolean = false;
+    loading: boolean = true;
+    modalText: string = 'Loading...';
 
     constructor(
         private translate: TranslateService,
@@ -29,19 +27,9 @@ export class AppComponent implements OnInit, AfterViewInit {
         private svcTheme: ThemeService, // inits theme
         private svcChain: ChainService // inits chain
     ) {
-        this.translate.setDefaultLang('en');
-
-        // if(electronService.isElectron) {
-        //     console.log('Run in electron');
-        //     console.log('Electron ipcRenderer', this.svcElectron.ipcRenderer);
-        //     console.log('NodeJS childProcess', this.svcElectron.childProcess);
-        // }
-        // else {
-        //     console.log('Run in browser');
-        // }
     }
 
-    ngOnInit() {
+    ngOnInit(): void {
         try {
             this.svcBookmark.initializeBookmarks();
             this.svcCustomTask.initializeCustomTasks();
@@ -60,12 +48,9 @@ export class AppComponent implements OnInit, AfterViewInit {
         });
     }
 
-    ngAfterViewInit() {
+    ngAfterViewInit(): void {
+        // Hide the loading splash and show the main window
         this.svcElectron.ipcRenderer.sendSync('app-ready');
-    }
-
-    onShowAllChange(showAll: boolean): void {
-        this.showAll = showAll;
     }
 
 }

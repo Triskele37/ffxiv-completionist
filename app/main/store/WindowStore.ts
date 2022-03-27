@@ -78,8 +78,6 @@ export class WindowStore {
             show: false,
             webPreferences: {
                 nodeIntegration: true,
-                // true if you want to run e2e test with Spectron or use remote module in renderer context (ie. Angular)
-                enableRemoteModule: true,
                 // Necessary for ElectronService to function
                 contextIsolation: false,
             },

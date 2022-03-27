@@ -18,9 +18,8 @@ export class GarlandActionComponent {
     constructor(private svcElectron: ElectronService) {
     }
 
-    gotoGarlandTools() {
-        const name = this.task.name.replace(/ /g, '%20');
-        this.svcElectron.remote.shell.openExternal(`https://www.garlandtools.org/db/#search/${name}`);
+    searchGarlandTools(): void {
+        this.svcElectron.ipcRenderer.sendSync('search-garland-tools', this.task.name);
         this.onClick.emit();
     }
 }

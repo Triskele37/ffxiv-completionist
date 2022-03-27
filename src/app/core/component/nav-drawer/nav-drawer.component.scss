@@ -1,8 +1,10 @@
-#nav-drawer {
+@import './sizes';
+
+.nav-drawer {
     display: inline-block;
 
     height: 100%;
-    width: 250px;
+    width: $nav-drawer-width;
 
     overflow-x: hidden;
 
@@ -10,20 +12,12 @@
         .p-panelmenu-panel {
             padding-top: 2px;
 
-            // Hide the main menu's expand icon so its not visible behind
-            // the search button when it is clicked
+            // Hide main menu's expand icon so its not visible behind the search button
             &:first-child .p-panelmenu-header .p-panelmenu-icon {
                 display: none;
             }
 
-            //&:nth-child(2) {
-            //    margin-top: 10px;
-            //
-            //    .p-panelmenu-header {
-            //        box-shadow: 0 -10px 0 1px rgba(0 0 0 / 33%);
-            //    }
-            //}
-
+            // Create space between user groups and main data groups
             &:nth-child(3) {
                 margin-bottom: 10px;
 

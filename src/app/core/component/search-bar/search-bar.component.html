@@ -1,18 +1,18 @@
 <p-button
-    [label]="'MAIN.TITLE' | translate"
     class="home-button"
     icon="pi pi-chevron-{{(svcNavigation.selectedGroup$ | async)?.isUiGroup ? 'down' : 'right'}}"
+    [label]="'MAIN.TITLE' | translate"
     (onClick)="onHomeClick()"
 ></p-button>
 
 <div
+    #searchBar
     class="search-bar"
+    [pTooltip]="svcSearch.searchError$ | async"
 >
     <input
         #searchInput
         pInputText
-        tooltipEvent="focus"
-        [pTooltip]="svcSearch.searchError$ | async"
         [placeholder]="'MAIN.SEARCH.PLACEHOLDER' | translate"
         [ngClass]="svcSearch.searchStatus$ | async"
         [(ngModel)]="searchTerm"
@@ -21,7 +21,6 @@
 
     <p-button
         icon="material-icons mi-search"
-        [pTooltip]="svcSearch.searchError$ | async"
         (onClick)="onSearch()"
     ></p-button>
 </div>

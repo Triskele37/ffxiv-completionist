@@ -13,7 +13,7 @@ export class ShowAllComponent implements OnChanges, OnDestroy {
 
     tasks: Task[];
 
-    ngOnChanges(changes: SimpleChanges) {
+    ngOnChanges(changes: SimpleChanges): void {
         if(changes.group) {
             this.clean(changes.group.previousValue);
             this.clean(this.group);
@@ -27,7 +27,7 @@ export class ShowAllComponent implements OnChanges, OnDestroy {
         }
     }
 
-    ngOnDestroy() {
+    ngOnDestroy(): void {
         this.clean(this.group);
     }
 

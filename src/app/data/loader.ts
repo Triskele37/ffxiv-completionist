@@ -1,8 +1,8 @@
+import { Lang } from '@constant';
 import { ElectronService } from '@service/electron/electron.service';
 
-type Lang = 'en' | 'fr';
 export function loadJson(svcElectron: ElectronService, path: string, lang: Lang) {
-    const [langPrefix, commonPrefix] = getPrefixes(lang || 'en');
+    const [langPrefix, commonPrefix] = getPrefixes(lang || Lang.EN);
 
     let finalJson: any;
     try {

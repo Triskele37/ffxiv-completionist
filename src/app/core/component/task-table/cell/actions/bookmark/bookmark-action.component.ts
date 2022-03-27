@@ -17,7 +17,7 @@ export class BookmarkActionComponent implements OnChanges {
     constructor(private svcBookmark: BookmarkService) {
     }
 
-    ngOnChanges(changes: SimpleChanges) {
+    ngOnChanges(changes: SimpleChanges): void {
         this.isBookmarked = this.svcBookmark.isBookmarked(this.task);
     }
 

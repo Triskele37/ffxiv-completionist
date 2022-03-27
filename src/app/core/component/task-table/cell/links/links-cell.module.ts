@@ -5,7 +5,7 @@ import { ButtonModule } from 'primeng/button';
 import { OverlayPanelModule } from 'primeng/overlaypanel';
 import { TooltipModule } from 'primeng/tooltip';
 
-import { ContentLinkModule } from '../../../../pipe/content-link.pipe';
+import { ContentLinkModule } from '@component/content-link/content-link.module';
 import { DataCellModule } from '../data/data-cell.module';
 import { LinksCellComponent } from './links-cell.component';
 

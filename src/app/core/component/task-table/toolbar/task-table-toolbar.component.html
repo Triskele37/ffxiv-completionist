@@ -1,6 +1,7 @@
 <div class="task-table-toolbar">
     <span class="p-buttonset">
         <ng-container *ngIf="totalTasks">
+            <!-- Flaged Completion Only -->
             <ng-container *ngIf="!group._isNumericCompletion">
                 <xiv-quick-mark-overlay
                     [tasks]="tasks"
@@ -31,7 +32,7 @@
     <span
         *ngIf="totalTasks"
         class="row-count"
-        tooltipPosition="top"
+        tooltipPosition="bottom"
         pTooltip="{{totalTasks - tasks.length}} {{'TABLE.HIDDEN' | translate}}"
     >
         {{tasks.length}} {{'TABLE.DISPLAYED' | translate}}

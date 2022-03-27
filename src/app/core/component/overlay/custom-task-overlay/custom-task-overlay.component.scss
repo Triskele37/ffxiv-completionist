@@ -1,13 +1,15 @@
-// Shared class between add and merge overlays
+// Shared container class for all overlays
 .overlay-container {
-    .add-overlay .content {
-        width: 300px;
+    .add-overlay {
+        .content {
+            width: 300px;
 
-        .task-property-input {
-            padding: 5px;
+            .task-property-input {
+                padding: 5px;
 
-            input {
-                width: 100%;
+                input {
+                    width: 100%;
+                }
             }
         }
     }
@@ -32,7 +34,11 @@
             }
 
             .p-buttonset {
+                display: inline-block;
+                width: 100%;
+
                 ::ng-deep .p-button {
+                    border-radius: 0;
                     width: 50%;
                 }
             }

@@ -71,8 +71,6 @@ var WindowStore = /** @class */ (function () {
         var oldState = WindowStore.loadWindowState();
         WindowStore.main = new electron_1.BrowserWindow(__assign(__assign({}, oldState), { autoHideMenuBar: true, backgroundColor: '#1e1e1e', show: false, webPreferences: {
                 nodeIntegration: true,
-                // true if you want to run e2e test with Spectron or use remote module in renderer context (ie. Angular)
-                enableRemoteModule: true,
                 // Necessary for ElectronService to function
                 contextIsolation: false,
             } }));

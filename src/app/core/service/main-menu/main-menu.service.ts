@@ -1,17 +1,19 @@
 import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
-import { GuideComponent } from '../../../view/main-menu/guide/guide.component';
+import { GuideComponent } from '../../../view/guide/guide.component';
+import { PatchNotesComponent } from '../../../view/patch-notes/patch-notes.component';
+import { RandomComponent } from '../../../view/random/random.component';
+import { SettingsComponent } from '../../../view/settings/settings.component';
 import { SearchComponent } from '../../../view/search/search.component';
-import { PatchNotesComponent } from '../../../view/main-menu/patch-notes/patch-notes.component';
-import { RandomComponent } from '../../../view/main-menu/random/random.component';
-import { SettingsComponent } from '../../../view/main-menu/settings/settings.component';
 
 import { DataGroup } from '@domain/DataGroup';
 
 /** Has to be a service so TranslateService can load the group names properly
  * */
-@Injectable({ providedIn: 'root' })
+@Injectable({
+    providedIn: 'root'
+})
 export class MainMenuService {
     data: DataGroup;
 

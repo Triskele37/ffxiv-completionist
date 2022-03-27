@@ -27,4 +27,5 @@ export class DataRowComponent {
         if(!element.parentNode) return false;
         return this.parentHasClass(element.parentNode as Element, className);
     }
+
 }

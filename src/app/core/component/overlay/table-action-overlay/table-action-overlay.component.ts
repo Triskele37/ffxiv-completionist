@@ -20,16 +20,16 @@ export class TableActionOverlayComponent implements OnChanges {
     constructor(private svcBookmark: BookmarkService) {
     }
 
+    ngOnChanges(changes: SimpleChanges): void {
+        this.isBookmarked = this.svcBookmark.isBookmarked(this.group);
+    }
+
     onMouseEnter(): void {
         this.isVisible = true;
     }
 
     onMouseLeave(): void {
         this.isVisible = false;
-    }
-
-    ngOnChanges(changes: SimpleChanges) {
-        this.isBookmarked = this.svcBookmark.isBookmarked(this.group);
     }
 
     bookmarkGroup(): void {

@@ -46,6 +46,32 @@ export class ThemeService {
         this.loadExcludedColor();
     }
 
+    //#region------------------------------------------------------- Primary Color
+    static shadeColor(color: string, percent: number): string {
+        let R = parseInt(color.substring(1, 3), 16);
+        let G = parseInt(color.substring(3, 5), 16);
+        let B = parseInt(color.substring(5, 7), 16);
+
+        R = Math.min(Math.floor(R * (100 + percent) / 100), 255);
+        G = Math.min(Math.floor(G * (100 + percent) / 100), 255);
+        B = Math.min(Math.floor(B * (100 + percent) / 100), 255);
+
+        const RR = `0${R.toString(16)}`.slice(-2);
+        const GG = `0${G.toString(16)}`.slice(-2);
+        const BB = `0${B.toString(16)}`.slice(-2);
+
+        return `#${RR}${GG}${BB}`;
+    }
+
+    static hexToRgb(hex: string): string {
+        const r = parseInt(hex.substr(1, 2), 16);
+        const g = parseInt(hex.substr(3, 2), 16);
+        const b = parseInt(hex.substr(5, 2), 16);
+        return `${r}, ${g}, ${b}`;
+    }
+
+    //#endregion
+
     getStyle(varKey: string): string {
         return getComputedStyle(this.root).getPropertyValue(varKey).trim();
     }
@@ -81,33 +107,10 @@ export class ThemeService {
         this.primaryColor = hex;
 
         this.setStyle('--primary-color', hex);
-        this.setStyle('--primary-color-light', this.shadeColor(hex, 21));
-        this.setStyle('--primary-color-rgb', this.hexToRgb(hex));
+        this.setStyle('--primary-color-light', ThemeService.shadeColor(hex, 21));
+        this.setStyle('--primary-color-rgb', ThemeService.hexToRgb(hex));
 
         this.svcConfig.set('theme.primary-color', hex);
-    }
-
-    private shadeColor(color: string, percent: number): string {
-        let R = parseInt(color.substring(1, 3), 16);
-        let G = parseInt(color.substring(3, 5), 16);
-        let B = parseInt(color.substring(5, 7), 16);
-
-        R = Math.min(Math.floor(R * (100 + percent) / 100), 255);
-        G = Math.min(Math.floor(G * (100 + percent) / 100), 255);
-        B = Math.min(Math.floor(B * (100 + percent) / 100), 255);
-
-        const RR = `0${R.toString(16)}`.slice(-2);
-        const GG = `0${G.toString(16)}`.slice(-2);
-        const BB = `0${B.toString(16)}`.slice(-2);
-
-        return `#${RR}${GG}${BB}`;
-    }
-
-    private hexToRgb(hex: string): string {
-        const r = parseInt(hex.substr(1, 2), 16);
-        const g = parseInt(hex.substr(3, 2), 16);
-        const b = parseInt(hex.substr(5, 2), 16);
-        return `${r}, ${g}, ${b}`;
     }
 
     //#endregion

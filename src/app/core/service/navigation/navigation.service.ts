@@ -14,6 +14,7 @@ export class NavigationService {
     breadcrumbs$ = new BehaviorSubject<string[]>(['main-menu']);
     selectedGroup$ = new BehaviorSubject<DataGroup>(null);
     groupHistory$ = new BehaviorSubject<DataGroup[]>([]);
+    allTaskViewEnabled: boolean = false;
 
     // Holds the task to scroll to from a content link
     selectedTask: Task;
@@ -50,7 +51,7 @@ export class NavigationService {
         else return this.svcMainMenu.data;
     }
 
-    addGroupHistory() {
+    addGroupHistory(): void {
         if(!this.selectedGroup$.value) return; // Must exist
         if(this.selectedGroup$.value.isUiGroup) return; // Must not be Main Menu
         if(!this.selectedGroup$.value.tasks?.length) return; // Must have tasks

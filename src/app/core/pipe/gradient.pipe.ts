@@ -21,5 +21,5 @@ export class GradientPipe implements PipeTransform {
     declarations: [GradientPipe],
     exports: [GradientPipe]
 })
-export class GradientModule {
+export class GradientPipeModule {
 }

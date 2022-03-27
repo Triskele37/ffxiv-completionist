@@ -9,6 +9,11 @@
     ></p-button>
 
     <div *ngIf="expanded" class="actions noSelect">
+        <xiv-console-games-action
+            [task]="task"
+            (onClick)="onCloseActions()"
+        ></xiv-console-games-action>
+
         <xiv-gamer-escape-action
             [task]="task"
             (onClick)="onCloseActions()"

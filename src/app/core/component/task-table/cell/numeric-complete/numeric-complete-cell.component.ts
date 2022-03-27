@@ -1,7 +1,6 @@
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 
 import { Task } from '@domain/Task';
-
 import { SaveStoreService } from '@service/store/save-store.service';
 
 /*TODO: currently a sync bug if another numeric task is chained
@@ -23,7 +22,7 @@ export class NumericCompleteCellComponent implements OnChanges {
     constructor(private svcStore: SaveStoreService) {
     }
 
-    ngOnChanges(changes: SimpleChanges) {
+    ngOnChanges(changes: SimpleChanges): void {
         if(changes.task) {
             this.step = this._step;
             this.tooltip = this._tooltip;
@@ -53,7 +52,7 @@ export class NumericCompleteCellComponent implements OnChanges {
 
     onTaskValueChange(): void {
         // Update the new value
-        this.task.changeCompletionNumber(this.value, true);
+        this.task.changeCompletion(this.value, true);
         this.svcStore.set(this.task.fullStorageKey, this.task.completionFlag);
 
         // onBlur and rebinding value can't happen in the same tick
@@ -62,4 +61,5 @@ export class NumericCompleteCellComponent implements OnChanges {
             this.update();
         });
     }
+
 }

@@ -3,13 +3,14 @@ import { BehaviorSubject } from 'rxjs';
 
 import { Task } from '@domain/Task';
 import { ConfigStoreService } from '@service/store/config-store.service';
+
 import { ChainedGroup, ChainStart, ChainedTask, ChainHistory } from './types';
 
 @Injectable({
     providedIn: 'root'
 })
 export class ChainService {
-    static Instance;
+    static Instance: ChainService;
 
     private history: ChainHistory[] = [];
     private historyDisabled: boolean;
@@ -99,7 +100,7 @@ export class ChainService {
     //#endregion
 
     //#region------------------------------------------------------- Chain History
-    addHistory() {
+    addHistory(): void {
         if(
             this.svcConfig.get('chain-history-limit') > this.history.length && // Chain limit won't be exceeded
             !this.chainStart$.value?.historyDisabled && // Initial task didn't disable history
@@ -117,7 +118,7 @@ export class ChainService {
         this.historyDisabled = historyDisabled;
     }
 
-    undoCurrentChain() {
+    undoCurrentChain(): void {
         const chainStart = this.chainStart$.value;
         const chainedGroups = this.chainedGroups$.value;
 

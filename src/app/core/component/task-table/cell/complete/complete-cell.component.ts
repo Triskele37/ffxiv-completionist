@@ -17,22 +17,23 @@ export class CompleteCellComponent {
     constructor(private svcData: DataService) {
     }
 
-    onTaskCompleteClick() {
+    onTaskCompleteClick(): void {
         const flag = this.task.completionFlag === Completion.Y ? Completion.N : Completion.Y;
-        this.task.changeCompletionFlag(flag, true);
+        this.task.changeCompletion(flag, true);
         this.changeCompletion();
     }
 
-    onExcludeTaskClick($event) {
+    onExcludeTaskClick($event: MouseEvent): void {
         $event.preventDefault();
 
         const flag = this.task.completionFlag === Completion.X ? Completion.N : Completion.X;
-        this.task.setCompletionFlag(flag);
+        this.task.setCompletion(flag);
         this.changeCompletion();
     }
 
-    changeCompletion() {
+    changeCompletion(): void {
         this.svcData.applyDataToStore();
         this.onChange.emit();
     }
+
 }

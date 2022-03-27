@@ -1,7 +1,5 @@
 ------------------------------------------------------------------ ToDo
 **Add**
-- Expand history limit, setting?
-
 - Attempt to get CSP working
 - Custom application container, specifically title bar
 - Chain Viewer
@@ -11,6 +9,7 @@
     - download lang resources at time of lang change
 
 **Change**
+- replace most of Guide with Active Help
 
 **Fix**
 - quick-mark extremely slow on large groups (or heavily chained?)

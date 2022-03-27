@@ -12,20 +12,18 @@
         width: 30px;
 
         &:hover {
-            border: 1px solid white;
-            border-left: none;
-            border-right: none;
+            box-shadow: inset 0 0 5px 1px var(--surface-d);
         }
 
-        &.completion-flag-cell-Y {
+        &.Y {
             background-color: var(--completed);
         }
 
-        &.completion-flag-cell-N {
+        &.N {
             background-color: var(--incomplete);
         }
 
-        &.completion-flag-cell-X {
+        &.X {
             background-color: var(--excluded);
         }
     }

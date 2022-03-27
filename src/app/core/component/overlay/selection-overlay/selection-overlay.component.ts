@@ -30,7 +30,7 @@ export class SelectionOverlayComponent {
         this.isVisible = false;
     }
 
-    private selectedIds(): number[] {
+    selectedIds(): number[] {
         return this.tasks
             .filter((t) => t.selected)
             .map((t) => t.id);
@@ -50,18 +50,12 @@ export class SelectionOverlayComponent {
         const ids = this.selectedIds();
 
         if(ids.length) {
-            const baseUrl = 'https://www.garlandtools.org/db/#group';
-            const idsString = ids.map((id) => `item/${id}`).join('|');
-
             // Create a pretty group name
             let parent = this.group._parent;
-            while(parent._parent._parent?.isCraftingLogGroup) {
-                parent = parent._parent;
-            }
+            while(parent._parent._parent?.isCraftingLogGroup) parent = parent._parent;
+            const groupName = `${parent.name} > ${this.group.name}`;
 
-            const encodedGroupName = `${parent.name} > ${this.group.name}`.replace(' ', '%20');
-
-            this.svcElectron.remote.shell.openExternal(`${baseUrl}/${encodedGroupName}{${idsString}}`);
+            this.svcElectron.ipcRenderer.sendSync('open-in-garland-tools', ids, groupName);
         }
     }
 
@@ -69,10 +63,7 @@ export class SelectionOverlayComponent {
         const ids = this.selectedIds();
 
         if(ids.length) {
-            const baseUrl = 'https://www.ffxivteamcraft.com/import';
-            const idsString = ids.map((id) => `${id},null,1`).join(';');
-
-            this.svcElectron.remote.shell.openExternal(`${baseUrl}/${btoa(idsString)}`);
+            this.svcElectron.ipcRenderer.sendSync('open-in-teamcraft', ids);
         }
     }
 }

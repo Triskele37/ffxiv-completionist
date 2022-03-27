@@ -3,16 +3,14 @@ import {
     Component,
     ComponentFactoryResolver,
     ElementRef,
-    Input,
     OnDestroy,
     OnInit,
     ViewChild
 } from '@angular/core';
 
+import { AnchorDirective } from '@directive/anchor.directive';
 import { DataGroup } from '@domain/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
-
-import { AnchorDirective } from './anchor.directive';
 
 @Component({
     selector: 'xiv-main-content',
@@ -20,14 +18,12 @@ import { AnchorDirective } from './anchor.directive';
     styleUrls: ['./main-content.component.scss']
 })
 export class MainContentComponent implements OnInit, OnDestroy {
-    @Input() showAll: boolean;
-
     selectedGroup: DataGroup;
 
     constructor(
         private cdr: ChangeDetectorRef,
         private cfr: ComponentFactoryResolver,
-        private svcNavigation: NavigationService
+        public svcNavigation: NavigationService
     ) {
     }
 
@@ -36,7 +32,6 @@ export class MainContentComponent implements OnInit, OnDestroy {
             this.footerHeight = 0;
             const refExists = !!this.selectedGroup?.component;
             this.selectedGroup = selectedGroup;
-            this.showAll = false;
 
             if(selectedGroup.isUiGroup) {
                 // When the previous selectedGroup had a custom component, load immediately
@@ -48,7 +43,7 @@ export class MainContentComponent implements OnInit, OnDestroy {
         });
     }
 
-    ngOnDestroy() {
+    ngOnDestroy(): void {
         this.summaryObserver?.disconnect();
     }
 

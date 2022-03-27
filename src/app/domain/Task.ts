@@ -1,7 +1,7 @@
 import { Completion, CompletionFlag } from '@constant';
 import { ChainService } from '@service/chain/chain.service';
 
-import { ContentLinkPipe } from '../core/pipe/content-link.pipe';
+import { ContentLinkPipe } from '@pipe/content-link.pipe';
 import { DataGroup } from './DataGroup';
 import { AtLinks, Links } from './Links';
 import { Chainer } from './Chainer';
@@ -34,6 +34,11 @@ export class Task {
     isNumericCompletion: boolean;
     minValue: number;
     maxValue: number;
+
+    get defaultNumericCompletion(): number {
+        if(isNaN(Number(this.defaultCompletion))) return 0;
+        else return parseFloat(this.defaultCompletion);
+    }
 
     //#endregion
 
@@ -142,17 +147,35 @@ export class Task {
 
     //#endregion
 
+    //#region------------------------------------------------------- Flag Mutation
     setCompletion(flag: CompletionFlag): void {
-        if(this.isNumericCompletion) {
-            this.setCompletionNumber(flag);
-        }
-        else {
-            this.setCompletionFlag(flag as Completion);
-        }
+        if(this.isNumericCompletion) this.setCompletionNumber(flag);
+        else this.setCompletionFlag(flag as Completion);
     }
 
-    //#region------------------------------------------------------- Flag Mutation
-    setCompletionFlag(flag: Completion): void {
+    // returns whether the task chained
+    changeCompletion(to: CompletionFlag, firstInChain?: boolean): boolean {
+        // Don't continue if the current flag hasn't changed
+        if(this.completionFlag === to) {
+            // Clear the chainstore in the event the first chain is blocked
+            // if(firstInChain) ChainService.Instance.undoCurrentChain();
+            return false;
+        }
+
+        // Dodge all of this if chaining is disabled
+        if(!Task.chainingEnabled) {
+            this.setCompletion(to);
+            return false;
+        }
+        else if(this.shouldChain(firstInChain, to)) {
+            this.chain(firstInChain, to);
+            return true;
+        }
+
+        return false;
+    }
+
+    private setCompletionFlag(flag: Completion): void {
         const fromFlag = this.completionFlag;
 
         // Do nothing if the flag isn't changing
@@ -170,27 +193,7 @@ export class Task {
         else if(flag === Completion.Y) this._parent.updateCompleted(1);
     }
 
-    // returns whether the task chained
-    changeCompletionFlag(toFlag: Completion, firstInChain?: boolean): boolean {
-        // Dodge all of this if chaining is disabled
-        if(!Task.chainingEnabled) {
-            this.setCompletionFlag(toFlag);
-            return false;
-        }
-        else if(this.shouldChain(firstInChain, toFlag)) {
-            const fromFlag = this.completionFlag;
-            this.setCompletionFlag(toFlag);
-            this.chain(firstInChain, fromFlag, toFlag);
-            return true;
-        }
-
-        return false;
-    }
-
-    //#endregion
-
-    //#region------------------------------------------------------- Numeric Mutation
-    setCompletionNumber(value: string | number): void {
+    private setCompletionNumber(value: string | number): void {
         const defaultValue = this.defaultNumericCompletion;
 
         // Ensure previous value is a number, assume 0 as default
@@ -215,42 +218,11 @@ export class Task {
         this._parent.updateCompleted(diff);
     }
 
-    // returns whether the task chained
-    changeCompletionNumber(toNum: string, firstInChain?: boolean): boolean {
-        const shouldChain = this.shouldChain(firstInChain, toNum);
-
-        // Dodge all of this if chaining is disabled
-        if(!Task.chainingEnabled || !shouldChain) {
-            this.setCompletionNumber(toNum);
-            return false;
-        }
-        else if(shouldChain) {
-            const fromNum = this.completionFlag;
-            this.setCompletionNumber(toNum);
-            this.chain(firstInChain, fromNum, toNum);
-            return true;
-        }
-
-        return false;
-    }
-
-    get defaultNumericCompletion(): number {
-        if(isNaN(Number(this.defaultCompletion))) return 0;
-        else return parseFloat(this.defaultCompletion);
-    }
-
     //#endregion
 
     //#region------------------------------------------------------- Chaining
     // Checks performed before setting the new flag and chaining
     private shouldChain(firstInChain: boolean, toFlag: CompletionFlag): boolean {
-        // Don't continue if the current flag hasn't changed
-        if(this.completionFlag === toFlag) {
-            // Clear the chainstore in the event the first chain is blocked
-            // if(firstInChain) ChainService.Instance.undoCurrentChain();
-            return false;
-        }
-
         if(firstInChain) return true;
 
         // Don't continue if this task has already been chained through
@@ -258,12 +230,16 @@ export class Task {
     }
 
     // Chaining logic that occurs after the flag has been updated
-    private chain(firstInChain: boolean, fromFlag: CompletionFlag, toFlag: CompletionFlag): void {
+    private chain(firstInChain: boolean, toFlag: CompletionFlag): void {
+        const fromFlag = this.completionFlag;
+        this.setCompletion(toFlag);
+
         // Commit this task to the stored chain
         if(firstInChain) {
             ChainService.Instance.startChain({
                 task: this,
                 fromFlag,
+                // setCompletion may not have ended with toFlag, use actual current value
                 toFlag: this.completionFlag
             });
         }

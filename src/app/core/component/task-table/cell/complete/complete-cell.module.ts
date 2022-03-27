@@ -6,9 +6,6 @@ import { CompleteCellComponent } from './complete-cell.component';
     declarations: [
         CompleteCellComponent
     ],
-    imports: [
-
-    ],
     exports: [
         CompleteCellComponent
     ]

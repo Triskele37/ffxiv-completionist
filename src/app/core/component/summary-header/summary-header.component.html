@@ -1,0 +1,19 @@
+<div #summaryHeaderContainer>
+    <xiv-summary-line
+        *ngIf="!hideOverall"
+        [group]="allData"
+        [isBig]="true"
+    ></xiv-summary-line>
+
+    <xiv-summary-line
+        *ngIf="!hideGroup && group?._parent && !group?.isUiGroup"
+        [group]="group"
+        [isBig]="true"
+    ></xiv-summary-line>
+
+    <p-contextMenu
+        *ngIf="!!this.group?._parent"
+        [target]="summaryHeaderContainer"
+        [model]="contextMenuItems"
+    ></p-contextMenu>
+</div>

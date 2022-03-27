@@ -26,7 +26,7 @@ export class SummaryLineComponent implements OnChanges {
     ) {
     }
 
-    ngOnChanges(changes: SimpleChanges) {
+    ngOnChanges(changes: SimpleChanges): void {
         if(changes.group) {
             this.update();
             this.subscription?.unsubscribe();
@@ -34,12 +34,12 @@ export class SummaryLineComponent implements OnChanges {
         }
     }
 
-    update() {
+    update(): void {
         this.percentComplete = this.group.percentComplete;
         this.updateTooltip();
     }
 
-    private updateTooltip(): void {
+    updateTooltip(): void {
         const { total, totalCompleted, totalExcluded, displayTotal } = this.group;
         const remaining = Math.ceil((total - totalExcluded) - totalCompleted);
         const weight = (displayTotal / this.svcData.data.displayTotal) * 100;
@@ -64,4 +64,5 @@ export class SummaryLineComponent implements OnChanges {
         // Don't allow the stat bar summaries to modify breadcrumbs
         if(!this.isBig) this.svcNavigation.setSelectedGroup(this.group);
     }
+
 }

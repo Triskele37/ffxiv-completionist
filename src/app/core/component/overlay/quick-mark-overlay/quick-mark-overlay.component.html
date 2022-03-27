@@ -5,7 +5,7 @@
 >
     <p-button
         styleClass="p-button-outlined"
-        icon="material-icons mi-rule"
+        icon="mi mi-rule"
     ></p-button>
 
     <div *ngIf="isVisible" class="overlay-panel">
@@ -16,48 +16,75 @@
             ></p-button>
 
             <p-button (click)="onChangeTaskCompletion(N, Y)">
-                (<i class="i-incomplete"></i> <i class="i-arrow"></i> <i class="i-complete"></i>)
-                {{'OVERLAY.QUICK_MARK.N-Y' | translate}}
+                <ng-container *ngTemplateOutlet="fromToIcons; context: {
+                    from: 'i-incomplete',
+                    to: 'i-complete',
+                    text: 'N-Y'
+                }"></ng-container>
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(N, X)">
-                (<i class="i-incomplete"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
-                {{'OVERLAY.QUICK_MARK.N-X' | translate}}
+                <ng-container *ngTemplateOutlet="fromToIcons; context: {
+                    from: 'i-incomplete',
+                    to: 'i-exclude',
+                    text: 'N-X'
+                }"></ng-container>
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(Y, N)">
-                (<i class="i-complete"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
-                {{'OVERLAY.QUICK_MARK.Y-N' | translate}}
+                <ng-container *ngTemplateOutlet="fromToIcons; context: {
+                    from: 'i-complete',
+                    to: 'i-incomplete',
+                    text: 'Y-N'
+                }"></ng-container>
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(Y, X)">
-                (<i class="i-complete"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
-                {{'OVERLAY.QUICK_MARK.Y-X' | translate}}
+                <ng-container *ngTemplateOutlet="fromToIcons; context: {
+                    from: 'i-complete',
+                    to: 'i-exclude',
+                    text: 'Y-X'
+                }"></ng-container>
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(X, N)">
-                (<i class="i-exclude"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
-                {{'OVERLAY.QUICK_MARK.X-N' | translate}}
+                <ng-container *ngTemplateOutlet="fromToIcons; context: {
+                    from: 'i-exclude',
+                    to: 'i-incomplete',
+                    text: 'X-N'
+                }"></ng-container>
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(X, Y)">
-                (<i class="i-exclude"></i> <i class="i-arrow"></i> <i class="i-complete"></i>)
-                {{'OVERLAY.QUICK_MARK.X-Y' | translate}}
+                <ng-container *ngTemplateOutlet="fromToIcons; context: {
+                    from: 'i-exclude',
+                    to: 'i-complete',
+                    text: 'X-Y'
+                }"></ng-container>
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(null, Y)">
-                (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-complete"></i>)
-                {{'OVERLAY.QUICK_MARK.S-Y' | translate}}
+                <ng-container *ngTemplateOutlet="fromToIcons; context: {
+                    from: 'i-selected',
+                    to: 'i-complete',
+                    text: 'S-Y'
+                }"></ng-container>
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(null, N)">
-                (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-incomplete"></i>)
-                {{'OVERLAY.QUICK_MARK.S-N' | translate}}
+                <ng-container *ngTemplateOutlet="fromToIcons; context: {
+                    from: 'i-selected',
+                    to: 'i-incomplete',
+                    text: 'S-N'
+                }"></ng-container>
             </p-button>
 
             <p-button (click)="onChangeTaskCompletion(null, X)">
-                (<i class="i-selected"></i> <i class="i-arrow"></i> <i class="i-exclude"></i>)
-                {{'OVERLAY.QUICK_MARK.S-X' | translate}}
+                <ng-container *ngTemplateOutlet="fromToIcons; context: {
+                    from: 'i-selected',
+                    to: 'i-exclude',
+                    text: 'S-X'
+                }"></ng-container>
             </p-button>
 
             <p-button
@@ -68,3 +95,13 @@
         </span>
     </div>
 </span>
+
+<ng-template
+    #fromToIcons
+    let-from="from"
+    let-to="to"
+    let-text="text"
+>
+    (<i class="{{from}}"></i> <i class="i-arrow"></i> <i class="{{to}}"></i>)
+    {{'OVERLAY.QUICK_MARK.' + text | translate}}
+</ng-template>

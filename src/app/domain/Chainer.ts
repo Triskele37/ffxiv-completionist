@@ -83,7 +83,9 @@ export class Chainer {
     }
 
     private applyFlagToTask(flag: Completion, chainTask: Task): void {
-        chainTask.changeCompletionFlag(flag);
+        if(chainTask.completionFlag !== Completion.X) {
+            chainTask.changeCompletion(flag);
+        }
     }
 
     // Chain when a numeric is met
@@ -93,11 +95,11 @@ export class Chainer {
 
     applyMetNumberToTask(num: string, chainTask: Task): void {
         if(!chainTask.isNumericCompletion) { // "at" threshold met, must be Y
-            chainTask.changeCompletionFlag(Completion.Y);
+            chainTask.changeCompletion(Completion.Y);
         }
         else if(parseInt(num, 10) > parseInt(chainTask.completionFlag, 10)) {
             // only apply increases in completion number
-            chainTask.changeCompletionNumber(num);
+            chainTask.changeCompletion(num);
         }
     }
 
@@ -111,13 +113,13 @@ export class Chainer {
 
     applyUnmetNumberToTask(num: string, chainTask: Task, siblings: number): void {
         if(!chainTask.isNumericCompletion) { // "at" threshold not met, must be N
-            chainTask.changeCompletionFlag(Completion.N);
+            chainTask.changeCompletion(Completion.N);
         }
         else if(siblings === 1) {
             // cannot assume which sibling should be lowered
             if(parseInt(num, 10) < parseInt(chainTask.completionFlag, 10)) {
                 // only apply decreases in completion number
-                chainTask.changeCompletionNumber(num);
+                chainTask.changeCompletion(num);
             }
         }
     }
@@ -154,7 +156,7 @@ export class Chainer {
         const originalFlag = this.flag as Completion;
         this.getAllTasksFor(cList).forEach((task) => {
             if(task.isNumericCompletion) {
-                task.changeCompletionNumber(originalFlag);
+                task.changeCompletion(originalFlag);
             }
             else {
                 this.applyFlagToTask(originalFlag, task);

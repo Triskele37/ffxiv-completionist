@@ -1,0 +1,39 @@
+<div class="nav-bar-container">
+    <span class="p-buttonset">
+        <p-button
+            icon="material-icons mi-history"
+            (onClick)="op.toggle($event)"
+        ></p-button>
+
+        <p-button
+            *ngIf="isShowAllVisible"
+            icon="mi mi-{{svcNavigation.allTaskViewEnabled ? 'close-fullscreen' : 'open-in-full'}}"
+            tooltipPosition="bottom"
+            [pTooltip]="(svcNavigation.allTaskViewEnabled ? 'TABLE.HIDE_ALL' : 'TABLE.SHOW_ALL') | translate"
+            (onClick)="emitShowAllChange(!svcNavigation.allTaskViewEnabled)"
+        ></p-button>
+    </span>
+
+    <p-breadcrumb
+        [model]="items"
+        (onItemClick)="onItemClick($event)"
+    ></p-breadcrumb>
+</div>
+
+<p-overlayPanel #op>
+    <span>{{'OVERLAY.HISTORY.TITLE' | translate}}</span>
+    <div class="history-links">
+        <p-button
+            *ngFor="let group of svcNavigation.groupHistory$ | async"
+            styleClass="p-button-link"
+            [life]="2000"
+            [pTooltip]="'GENERAL.GROUP_NAVIGATE' | translate"
+            [label]="group | contentLink"
+            (onClick)="goToHistory(group); op.hide()"
+        ></p-button>
+
+        <div *ngIf="!(svcNavigation.groupHistory$ | async).length">
+            {{'OVERLAY.HISTORY.NO_CONTENT' | translate}}
+        </div>
+    </div>
+</p-overlayPanel>

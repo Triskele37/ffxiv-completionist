@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 
 import { DataService } from '@data';
-import { SaveStoreService } from '@service/store/save-store.service';
 import { DataGroup } from '@domain/DataGroup';
+import { SaveStoreService } from '@service/store/save-store.service';
 
 type CustomTaskMeta = {
     name: string;
@@ -47,4 +47,5 @@ export class CustomTaskService {
     getMeta(): { [key: string]: CustomTaskMeta } {
         return this.svcSaveStore.get('custom') || {};
     }
+
 }

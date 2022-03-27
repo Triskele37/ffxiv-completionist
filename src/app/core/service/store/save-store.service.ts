@@ -13,12 +13,12 @@ export class SaveStoreService {
     store: Store<SaveStore>;
 
     constructor(
-        private svcElectron: ElectronService,
+        private svcElectron: ElectronService
     ) {
         this.store = new Store(svcElectron, 'get-save', 'set-save');
     }
 
-    migrateData() {
+    migrateData(): void {
         migrateData(this);
     }
 

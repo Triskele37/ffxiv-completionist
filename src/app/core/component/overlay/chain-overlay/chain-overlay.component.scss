@@ -1,3 +1,4 @@
+// Shared container class for all overlays
 .overlay-container {
     $nav-arrow-width: 38px;
 
@@ -11,7 +12,6 @@
                 border-radius: unset;
             }
 
-            // Chain start summary specific
             .chain-start {
                 .summary {
                     display: inline-flex;
@@ -89,6 +89,7 @@
     }
 }
 
+// Push navigation tooltips outside the overlay
 ::ng-deep .chain-navigate-tooltip {
     margin-left: 10px;
 }

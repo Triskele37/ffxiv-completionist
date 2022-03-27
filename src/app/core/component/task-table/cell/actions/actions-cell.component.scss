@@ -24,9 +24,11 @@
 
                 &:not(:last-child):after {
                     content: "";
-                    background-color: rgba(var(--primary-color-rgb), 0.4);
+                    background: var(--surface-a);
+                    border: 1px solid var(--primary-color);
+
                     width: 35px;
-                    height: $button-size;
+                    height: $button-size - 2;
 
                     top: 0;
                     left: calc(35px / 2);

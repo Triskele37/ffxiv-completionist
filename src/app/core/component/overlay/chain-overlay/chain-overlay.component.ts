@@ -1,5 +1,4 @@
-import { Component, Input, OnChanges, OnDestroy, OnInit, SimpleChanges, ViewChild } from '@angular/core';
-import { OverlayPanel } from 'primeng/overlaypanel';
+import { Component, Input, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
 
 import { DataService } from '@data';
 import { NavigationService } from '@service/navigation/navigation.service';
@@ -16,7 +15,6 @@ import { ChainedGroup, ChainStart } from '@service/chain/types';
 })
 export class ChainOverlayComponent implements OnInit, OnChanges, OnDestroy {
     @Input() disableUndo: boolean;
-    @ViewChild('overlayPanel') overlayPanel: OverlayPanel;
     isVisible: boolean = false;
 
     undoVerified: boolean = false;
@@ -34,7 +32,7 @@ export class ChainOverlayComponent implements OnInit, OnChanges, OnDestroy {
     }
 
     //#region------------------------------------------------------- Life-cycle
-    ngOnInit() {
+    ngOnInit(): void {
         this.svcChain.chainedTaskCount$.subscribe((count) => {
             this.chainedTaskCount = { count };
             this.doNotify = count > 0;
@@ -50,11 +48,11 @@ export class ChainOverlayComponent implements OnInit, OnChanges, OnDestroy {
         });
     }
 
-    ngOnChanges(changes: SimpleChanges) {
+    ngOnChanges(changes: SimpleChanges): void {
         this.svcChain.setHistoryDisabled(!!changes.disableUndo.currentValue);
     }
 
-    ngOnDestroy() {
+    ngOnDestroy(): void {
         this.svcChain.setHistoryDisabled(false);
     }
 
@@ -93,6 +91,9 @@ export class ChainOverlayComponent implements OnInit, OnChanges, OnDestroy {
         // Fire undo and apply changes to save
         this.svcChain.undoCurrentChain();
         this.svcData.applyDataToStore();
+
+        // Make sure the overlay doesn't stick open
+        this.isVisible = false;
     }
 
     //#endregion
