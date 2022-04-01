@@ -332,6 +332,5 @@ export class Chainer {
 
 const PathShorthand = {
     q: 'duty.quests',
-    a: 'character.achievement',
-    job: 'character.character.classes--jobs'
+    a: 'character.achievement'
 };
