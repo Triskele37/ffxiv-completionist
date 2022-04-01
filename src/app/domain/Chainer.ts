@@ -333,8 +333,6 @@ export class Chainer {
 const PathShorthand = {
     q: 'duty.quests',
     a: 'character.achievement',
-    bsf: 'duty.exploratory-missions.the-bozjan-southern-front',
-    fle: 'duty.exploratory-missions.the-forbidden-land-eureka',
     br: 'character.character.beast-tribe-reputation',
     job: 'character.character.classes--jobs'
 };

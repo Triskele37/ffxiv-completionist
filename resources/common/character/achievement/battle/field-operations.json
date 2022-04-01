@@ -6,7 +6,7 @@
             "reward": "character.mount-guide.44",
             "patch": "4.55",
             "cNext": [2228],
-            "cSiblings": ["fle.duties.0"]
+            "cSiblings": ["duty.exploratory-missions.the-forbidden-land-eureka.duties.0"]
         },
         "x2228": {
             "points": 5,
@@ -77,7 +77,7 @@
             "patch": "5.35",
             "cCombo": [2686],
             "cSiblings": [
-                "bsf.events.45",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.45",
                 "character.character.title.542"
             ]
         },
@@ -87,7 +87,7 @@
             "patch": "5.35",
             "cCombo": [2686],
             "cSiblings": [
-                "bsf.events.47",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.47",
                 "character.character.title.543"
             ]
         },
@@ -97,7 +97,7 @@
             "patch": "5.35",
             "cCombo": [2686],
             "cSiblings": [
-                "bsf.events.46",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.46",
                 "character.character.title.544"
             ]
         },
@@ -115,7 +115,7 @@
             "points": 10,
             "patch": "5.35",
             "cNext": [2681],
-            "cSiblings": ["bsf.duties.0"]
+            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.0"]
         },
         "x2681": {
             "points": 10,
@@ -178,7 +178,7 @@
             "points": 5,
             "patch": "5.45",
             "cNext": [2763],
-            "cSiblings": ["bsf.duties.1"]
+            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.1"]
         },
         "x2763": {
             "points": 10,
@@ -196,7 +196,7 @@
             "reward": "character.mount-guide.31",
             "patch": "5.45",
             "cNext": [2766],
-            "cSiblings": ["bsf.duties.2"]
+            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.2"]
         },
         "x2766": {
             "points": 10,
@@ -219,7 +219,7 @@
             "patch": "5.55",
             "cCombo": [2880],
             "cSiblings": [
-                "bsf.events.82",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.82",
                 "character.character.title.586"
             ]
         },
@@ -229,7 +229,7 @@
             "patch": "5.55",
             "cCombo": [2880],
             "cSiblings": [
-                "bsf.events.63",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.63",
                 "character.character.title.587"
             ]
         },
@@ -239,7 +239,7 @@
             "patch": "5.55",
             "cCombo": [2880],
             "cSiblings": [
-                "bsf.events.78",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.78",
                 "character.character.title.588"
             ]
         },
@@ -266,7 +266,7 @@
             "points": 10,
             "patch": "5.55",
             "cNext": [2875],
-            "cSiblings": ["bsf.duties.3"]
+            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.3"]
         },
         "x2875": {
             "points": 10,
@@ -289,9 +289,9 @@
             "patch": "5.55",
             "cPrevAt": {
                 "10": [
-                    "bsf.resistance-honors.0",
-                    "bsf.resistance-honors.1",
-                    "bsf.resistance-honors.2"
+                    "duty.exploratory-missions.the-bozjan-southern-front.resistance-honors.0",
+                    "duty.exploratory-missions.the-bozjan-southern-front.resistance-honors.1",
+                    "duty.exploratory-missions.the-bozjan-southern-front.resistance-honors.2"
                 ]
             },
             "cSiblings": [
@@ -301,7 +301,7 @@
         "x2883": {
             "points": 10,
             "patch": "5.55",
-            "cPrev": ["bsf.lost-actions.all"]
+            "cPrev": ["duty.exploratory-missions.the-bozjan-southern-front.lost-actions.all"]
         }
     }
 }
