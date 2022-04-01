@@ -6,7 +6,6 @@
 **Change**
 
 **Fix**
-- review npm audits one by one and build in between
 
 ------------------------------------------------------------------ Prioritize
 **Add**

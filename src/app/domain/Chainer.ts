@@ -83,9 +83,9 @@ export class Chainer {
     }
 
     private applyFlagToTask(flag: Completion, chainTask: Task): void {
-        if(chainTask.completionFlag !== Completion.X) {
-            chainTask.changeCompletion(flag);
-        }
+        const isExcluded = chainTask.completionFlag === Completion.X;
+        const isDefaultExcluded = chainTask.defaultCompletion === Completion.X;
+        if(!isExcluded || isDefaultExcluded) chainTask.changeCompletion(flag);
     }
 
     // Chain when a numeric is met
