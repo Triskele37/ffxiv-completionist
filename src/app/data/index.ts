@@ -28,15 +28,24 @@ export class DataService {
         this.data = DataGroup.fromJSON(null, './index');
         DataGroup.overall = this.data;
 
-        this.data.subGroups = [
-            // Bookmarks added in svcBookmarks
-            DataGroup.fromDefinition(this.data, CHARACTER_DEFINITION),
-            DataGroup.fromDefinition(this.data, DUTY_DEFINITION),
-            DataGroup.fromDefinition(this.data, LOGS_DEFINITION),
-            DataGroup.fromDefinition(this.data, TRAVEL_DEFINITION),
-            DataGroup.fromDefinition(this.data, SOCIAL_DEFINITION),
-            // Custom Tasks added in svcCustomTasks
-        ];
+        this.data.subGroups = new Map();
+        this.data.subGroups.set('bookmarks', null);
+        this.data.subGroups.set('custom', null);
+
+        const character = DataGroup.fromDefinition(this.data, CHARACTER_DEFINITION);
+        this.data.subGroups.set(character._key, character);
+
+        const duty = DataGroup.fromDefinition(this.data, DUTY_DEFINITION);
+        this.data.subGroups.set(duty._key, duty);
+
+        const logs = DataGroup.fromDefinition(this.data, LOGS_DEFINITION);
+        this.data.subGroups.set(logs._key, logs);
+
+        const travel = DataGroup.fromDefinition(this.data, TRAVEL_DEFINITION);
+        this.data.subGroups.set(travel._key, travel);
+
+        const social = DataGroup.fromDefinition(this.data, SOCIAL_DEFINITION);
+        this.data.subGroups.set(social._key, social);
     }
 
     // Must be called after all groups are attached

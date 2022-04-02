@@ -3,6 +3,7 @@
 - missing endwalker savage unlock quasi quest
 
 **Change**
+- Convert DataGroup.tasks to Map<string, Task>
 
 **Fix**
 

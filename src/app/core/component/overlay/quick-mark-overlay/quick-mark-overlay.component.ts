@@ -28,6 +28,7 @@ export class QuickMarkOverlayComponent {
     @Output() onMark = new EventEmitter<void>();
     history: History[] = [];
     isVisible: boolean = false;
+    isModalVisible = false;
 
     // Expose constants to template
     Y = Completion.Y;
@@ -50,24 +51,28 @@ export class QuickMarkOverlayComponent {
      * */
     onChangeTaskCompletion(from: Completion, to: Completion): void {
         const history: History = { from: from || 'selected', to, tasks: [] };
+        this.isModalVisible = true;
 
-        let first = true;
-        this.tasks.forEach((task) => {
-            if((!from && task.selected) || (from && task.completionFlag === from)) {
-                history.tasks.push({
-                    task,
-                    flag: task.completionFlag as Completion
-                });
+        setTimeout(() => {
+            let first = true;
+            this.tasks.forEach((task) => {
+                if((!from && task.selected) || (from && task.completionFlag === from)) {
+                    history.tasks.push({
+                        task,
+                        flag: task.completionFlag as Completion
+                    });
 
-                first = !task.changeCompletion(to, first) && first;
+                    first = !task.changeCompletion(to, first) && first;
+                }
+            });
+
+            if(history.tasks.length) {
+                this.onMark.emit();
+                this.history.push(history);
+                this.svcData.applyDataToStore();
+                this.isModalVisible = false;
             }
-        });
-
-        if(history.tasks.length) {
-            this.onMark.emit();
-            this.history.push(history);
-            this.svcData.applyDataToStore();
-        }
+        }, 100);
     }
 
     onUndoLastChange(): void {

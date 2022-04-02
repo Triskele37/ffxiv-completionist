@@ -18,7 +18,7 @@ export class DataGroup {
     _key: string; // key used for storage
     name: string;
     _parent: DataGroup; // A reference to the parent group
-    subGroups: DataGroup[];  // Child groups of this group
+    subGroups: Map<string, DataGroup>;  // Child groups of this group
     tasks: Task[] = [];
 
     cCombo; //TODO:
@@ -95,15 +95,20 @@ export class DataGroup {
         if(definition.subGroups) {
             if(Array.isArray(definition.subGroups)) {
                 const group = DataGroup.fromJSON(parent, `${definition.path}/index`);
+                group.subGroups = new Map();
 
-                group.subGroups = definition.subGroups.map((subGroup) => {
-                    if(typeof subGroup === 'string') {
-                        return DataGroup.fromJSON(group, `${definition.path}/${subGroup}`);
+                definition.subGroups.forEach((subGroupDef) => {
+                    let subGroup;
+
+                    if(typeof subGroupDef === 'string') {
+                        subGroup = DataGroup.fromJSON(group, `${definition.path}/${subGroupDef}`);
                     }
                     else {
-                        subGroup.path = `${definition.path}/${subGroup.path}`;
-                        return DataGroup.fromDefinition(group, subGroup);
+                        subGroupDef.path = `${definition.path}/${subGroupDef.path}`;
+                        subGroup = DataGroup.fromDefinition(group, subGroupDef);
                     }
+
+                    group.subGroups.set(subGroup._key, subGroup);
                 });
 
                 return group;
@@ -165,12 +170,7 @@ export class DataGroup {
 
         let group: DataGroup = this;
         for(const segment of segments) {
-            for(const subGroup of group.subGroups) {
-                if(subGroup._key === segment) {
-                    group = subGroup;
-                    break;
-                }
-            }
+            group = group.subGroups.get(segment) || group;
         }
 
         // No id means a group was requested
@@ -179,21 +179,9 @@ export class DataGroup {
             return group !== this ? group : null;
         }
 
-        return this.getChild_digForTask(group, id);
-    }
-
-    private getChild_digForTask(group: DataGroup, id: number): Task {
-        // See if the requested task is in the passed group
+        // Look for the task in this group
         for(const task of group.tasks) {
             if(task.id === id) return task;
-        }
-
-        // Dive into subGroups recursively to find the task
-        if(group.subGroups) {
-            for(const subGroup of group.subGroups) {
-                const task = this.getChild_digForTask(subGroup, id);
-                if(task) return task;
-            }
         }
 
         return null;
@@ -282,9 +270,7 @@ export class DataGroup {
     set defaultCompletion(value: CompletionFlag) {
         this._defaultCompletion = value;
 
-        if(this.subGroups) {
-            this.subGroups.forEach((subGroup) => subGroup.defaultCompletion = value);
-        }
+        this.subGroups?.forEach((subGroup) => subGroup.defaultCompletion = value);
 
         this.tasks.forEach((task) => {
             if(task.defaultCompletion) task.setCompletion(value);

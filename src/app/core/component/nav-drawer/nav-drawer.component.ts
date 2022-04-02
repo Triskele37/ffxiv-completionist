@@ -48,9 +48,12 @@ export class NavDrawerComponent implements OnInit {
 
     buildMenuItems(): void {
         this.items = [
-            this.addSubGroup(this.svcMainMenu.data),
-            ...this.svcData.data.subGroups.map((group) => this.addSubGroup(group))
+            this.addSubGroup(this.svcMainMenu.data)
         ];
+
+        this.svcData.data.subGroups.forEach((subGroup) => {
+            this.items.push(this.addSubGroup(subGroup));
+        });
     }
 
     updateBookmarkGroup() {
@@ -72,10 +75,11 @@ export class NavDrawerComponent implements OnInit {
         item.visible = group.visible;
 
         // Add "sub" MenuItems if this group has subGroups
-        if(group.subGroups?.length) {
-            item.items = group.subGroups.map(
-                (g) => this.addSubGroup(g, depth + 1)
-            );
+        if(group.subGroups?.size) {
+            item.items = [];
+            group.subGroups.forEach((subGroup) => {
+                item.items.push(this.addSubGroup(subGroup, depth + 1));
+            });
         }
 
         // The callback when the MenuItem is clicked

@@ -42,9 +42,13 @@ export class NavigationService {
             else return this.svcData.data;
         }
 
+        const superGroup = { subGroups: new Map() } as DataGroup;
+        superGroup.subGroups.set(this.svcMainMenu.data._key, this.svcMainMenu.data);
+        superGroup.subGroups.set(this.svcData.data._key, this.svcData.data);
+
         const group = breadcrumbs.reduce(
-            (acc, crumb) => acc.subGroups.find((g) => g._key === crumb) || acc,
-            { subGroups: [this.svcMainMenu.data, this.svcData.data] } as DataGroup
+            (acc, crumb) => acc.subGroups.get(crumb) || acc,
+            superGroup
         );
 
         if(group instanceof DataGroup) return group;

@@ -3,12 +3,19 @@
     (mouseenter)="onMouseEnter()"
     (mouseleave)="onMouseLeave()"
 >
+    <div
+        *ngIf="isModalVisible"
+        class="xiv-modal"
+    >
+        {{'OVERLAY.QUICK_MARK.PROCESSING' | translate}}...
+    </div>
+
     <p-button
         styleClass="p-button-outlined"
         icon="mi mi-rule"
     ></p-button>
 
-    <div *ngIf="isVisible" class="overlay-panel">
+    <div *ngIf="isVisible || isModalVisible" class="overlay-panel">
         <span class="content">
             <p-button
                 [label]="'OVERLAY.QUICK_MARK.TITLE' | translate"

@@ -2,23 +2,27 @@ import { DataGroup } from '@domain/DataGroup';
 
 export const Duty_Guildhests = function(parent: DataGroup, path: string) {
     const group = DataGroup.fromJSON(parent, `${path}/index`);
+    group.subGroups = new Map();
 
-    group.subGroups = [
-        DataGroup.fromJSON(group, `${path}/guildhests`).forceName('Arcanist'),
-        DataGroup.fromJSON(group, `${path}/guildhests`).forceName('Archer'),
-        DataGroup.fromJSON(group, `${path}/guildhests`).forceName('Astrologian'),
-        DataGroup.fromJSON(group, `${path}/guildhests`).forceName('Conjurer'),
-        DataGroup.fromJSON(group, `${path}/guildhests`).forceName('Dark Knight'),
-        DataGroup.fromJSON(group, `${path}/guildhests`).forceName('Gladiator'),
-        DataGroup.fromJSON(group, `${path}/guildhests`).forceName('Lancer'),
-        DataGroup.fromJSON(group, `${path}/guildhests`).forceName('Machinist'),
-        DataGroup.fromJSON(group, `${path}/guildhests`).forceName('Marauder'),
-        DataGroup.fromJSON(group, `${path}/guildhests`).forceName('Pugilist'),
-        DataGroup.fromJSON(group, `${path}/guildhests`).forceName('Red Mage'),
-        DataGroup.fromJSON(group, `${path}/guildhests`).forceName('Rogue'),
-        DataGroup.fromJSON(group, `${path}/guildhests`).forceName('Samurai'),
-        DataGroup.fromJSON(group, `${path}/guildhests`).forceName('Thaumaturge'),
-    ];
+    const addGuildhestClone = (name: string) => {
+        const clone = DataGroup.fromJSON(group, `${path}/guildhests`).forceName(name);
+        group.subGroups.set(clone._key, clone);
+    };
+
+    addGuildhestClone('Arcanist');
+    addGuildhestClone('Archer');
+    addGuildhestClone('Astrologian');
+    addGuildhestClone('Conjurer');
+    addGuildhestClone('Dark Knight');
+    addGuildhestClone('Gladiator');
+    addGuildhestClone('Lancer');
+    addGuildhestClone('Machinist');
+    addGuildhestClone('Marauder');
+    addGuildhestClone('Pugilist');
+    addGuildhestClone('Red Mage');
+    addGuildhestClone('Rogue');
+    addGuildhestClone('Samurai');
+    addGuildhestClone('Thaumaturge');
 
     return group;
 };

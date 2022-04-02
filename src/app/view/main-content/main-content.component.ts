@@ -47,6 +47,11 @@ export class MainContentComponent implements OnInit, OnDestroy {
         this.summaryObserver?.disconnect();
     }
 
+    // Force "keyvalue" pipe to respect Map order
+    asIsOrder(a, b): number {
+        return 1;
+    }
+
     //#region------------------------------------------------------- Dynamic Scroll Height
     footerHeight: number = 0;
     summaryObserver: ResizeObserver;

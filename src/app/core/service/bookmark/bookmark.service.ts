@@ -28,10 +28,10 @@ export class BookmarkService {
     initializeBookmarks(): void {
         this.group = DataGroup.fromJSON(this.svcData.data, './bookmarks');
         this.group.isBookmarkGroup = true;
-        this.group.subGroups = [];
+        this.group.subGroups = new Map();
 
-        // Add this group to main data as the first group
-        this.svcData.data.subGroups.unshift(this.group);
+        // Put this group in its placeholder
+        this.svcData.data.subGroups.set(this.group._key, this.group);
 
         this.initializeBookmarkTasks();
         this.initializeBookmarkGroups();
@@ -125,7 +125,9 @@ export class BookmarkService {
 
             // Add the bookmarked group to this group
             const group: DataGroup = this.svcData.data.getChildGroup(path);
-            if(group) this.group.subGroups.push(group);
+            if(group) {
+                this.group.subGroups.set(group._key, group);
+            }
         });
     }
 
@@ -148,7 +150,7 @@ export class BookmarkService {
         store.push(group.fullStorageKey);
 
         // Sync app data
-        this.group.subGroups.push(group);
+        this.group.subGroups.set(group._key, group);
     }
 
     private removeBookmarkGroup(store, group: DataGroup): void {
@@ -156,11 +158,8 @@ export class BookmarkService {
         store.splice(store.indexOf(group.fullStorageKey), 1);
 
         // Sync app data
-        const appIndex = this.group.subGroups.findIndex(
-            (g) => g.fullStorageKey === group.fullStorageKey
-        );
-        this.group.subGroups.splice(appIndex, 1);
-        this.group.subGroups = [...this.group.subGroups];
+        this.group.subGroups.delete(group._key);
+        this.group.subGroups = new Map(this.group.subGroups);
     }
 
     //#endregion
