@@ -48,7 +48,9 @@
 </ng-template>
 
 <ng-template #keyCell let-key>
-    {{task[key].substr(8)}}
+    <span [pTooltip]="task[key].substr(8)">
+        {{task[key].substr(8)}}
+    </span>
 </ng-template>
 
 <ng-template #editCell let-key>

@@ -4,7 +4,7 @@
         "x68815": {
             "level": 70,
             "cPrev": [
-                "q.68721"
+                "duty.quests.main-scenario.post-stormblood.68721"
             ],
             "cNext": [
                 68816
@@ -23,16 +23,16 @@
             "level": 70,
             "cNext": [
                 68827,
-                "q.68881",
-                "q.68882",
-                "q.68879",
-                "q.68880",
+                "duty.quests.sidequests.lakeland.the-crystarium.68881",
+                "duty.quests.sidequests.lakeland.the-crystarium.68882",
+                "duty.quests.sidequests.lakeland.the-crystarium.68879",
+                "duty.quests.sidequests.lakeland.the-crystarium.68880",
                 68818,
-                "q.69138",
-                "q.68883",
-                "q.68884",
-                "q.69140",
-                "q.69133"
+                "duty.quests.other.quasi-quests.69138",
+                "duty.quests.sidequests.lakeland.the-crystarium.68883",
+                "duty.quests.sidequests.lakeland.the-crystarium.68884",
+                "duty.quests.other.quasi-quests.69140",
+                "duty.quests.sidequests.lakeland.the-crystarium.69133"
             ],
             "cPrev": [
                 68816
@@ -50,10 +50,10 @@
         "x68819": {
             "level": 70,
             "cNext": [
-                "q.68885",
-                "q.68887",
+                "duty.quests.sidequests.kholusia.kholusia.68885",
+                "duty.quests.sidequests.kholusia.kholusia.68887",
                 68820,
-                "q.68886"
+                "duty.quests.sidequests.kholusia.kholusia.68886"
             ],
             "cPrev": [
                 68818
@@ -62,11 +62,11 @@
         "x68820": {
             "level": 70,
             "cNext": [
-                "q.68888",
-                "q.68889",
-                "q.68890",
+                "duty.quests.sidequests.kholusia.kholusia.68888",
+                "duty.quests.sidequests.kholusia.kholusia.68889",
+                "duty.quests.sidequests.kholusia.kholusia.68890",
                 68821,
-                "q.68891"
+                "duty.quests.sidequests.kholusia.kholusia.68891"
             ],
             "cPrev": [
                 68819
@@ -75,13 +75,13 @@
         "x68821": {
             "level": 70,
             "cNext": [
-                "q.68896",
-                "q.68907",
+                "duty.quests.sidequests.kholusia.kholusia.68896",
+                "duty.quests.sidequests.kholusia.kholusia.68907",
                 68822,
-                "q.68895",
-                "q.68892",
-                "q.68893",
-                "q.68894"
+                "duty.quests.sidequests.kholusia.kholusia.68895",
+                "duty.quests.sidequests.kholusia.kholusia.68892",
+                "duty.quests.sidequests.kholusia.kholusia.68893",
+                "duty.quests.sidequests.kholusia.kholusia.68894"
             ],
             "cPrev": [
                 68820
@@ -91,7 +91,7 @@
             "level": 70,
             "cNext": [
                 68823,
-                "q.69139"
+                "duty.quests.other.quasi-quests.69139"
             ],
             "cPrev": [
                 68821
@@ -146,11 +146,11 @@
             "level": 70,
             "cNext": [
                 68829,
-                "q.68897",
-                "q.68898",
-                "q.68899",
-                "q.68902",
-                "q.68901"
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68897",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68898",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68899",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68902",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68901"
             ],
             "cPrev": [
                 68827
@@ -159,7 +159,7 @@
         "x68829": {
             "level": 70,
             "cNext": [
-                "q.68911",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68911",
                 68830
             ],
             "cPrev": [
@@ -188,10 +188,10 @@
             "level": 70,
             "cNext": [
                 68833,
-                "q.68903",
-                "q.68904",
-                "q.68905",
-                "q.68906"
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68903",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68904",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68905",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68906"
             ],
             "cPrev": [
                 68831
@@ -238,13 +238,13 @@
         "x68837": {
             "level": 71,
             "cNext": [
-                "q.68916",
+                "duty.quests.sidequests.lakeland.the-crystarium.68916",
                 68838,
-                "q.68809",
-                "q.68915",
-                "q.68779",
-                "q.68803",
-                "q.69159"
+                "duty.quests.class--job.role.physical-dps.68809",
+                "duty.quests.sidequests.lakeland.the-crystarium.68915",
+                "duty.quests.class--job.role.tank.68779",
+                "duty.quests.class--job.role.healer.68803",
+                "duty.quests.class--job.role.magical-ranged-dps.69159"
             ],
             "cPrev": [
                 68836
@@ -266,7 +266,7 @@
             "level": 72,
             "cNext": [
                 68840,
-                "q.69191"
+                "duty.quests.class--job.crystalline-mean.69191"
             ],
             "cPrev": [
                 68838
@@ -276,14 +276,14 @@
             "level": 72,
             "unlock": "travel.aether-currents.shb.lakeland.14",
             "cNext": [
-                "q.68920",
-                "q.68921",
-                "q.68922",
+                "duty.quests.sidequests.lakeland.lakeland.68920",
+                "duty.quests.sidequests.lakeland.lakeland.68921",
+                "duty.quests.sidequests.lakeland.lakeland.68922",
                 68841,
-                "q.68924",
-                "q.68925",
-                "q.68926",
-                "q.68927"
+                "duty.quests.sidequests.lakeland.lakeland.68924",
+                "duty.quests.sidequests.lakeland.lakeland.68925",
+                "duty.quests.sidequests.lakeland.lakeland.68926",
+                "duty.quests.sidequests.lakeland.lakeland.68927"
             ],
             "cPrev": [
                 68839
@@ -304,13 +304,13 @@
         "x68842": {
             "level": 72,
             "cNext": [
-                "q.68931",
+                "duty.quests.sidequests.il-mheg.il-mheg.68931",
                 68843,
                 68844,
                 68845,
-                "q.68929",
-                "q.68928",
-                "q.68930"
+                "duty.quests.sidequests.il-mheg.il-mheg.68929",
+                "duty.quests.sidequests.il-mheg.il-mheg.68928",
+                "duty.quests.sidequests.il-mheg.il-mheg.68930"
             ],
             "cPrev": [
                 68841
@@ -346,9 +346,9 @@
         "x68846": {
             "level": 72,
             "cNext": [
-                "q.68934",
+                "duty.quests.sidequests.il-mheg.il-mheg.68934",
                 68847,
-                "q.68936"
+                "duty.quests.sidequests.il-mheg.il-mheg.68936"
             ],
             "cPrev": [
                 68843,
@@ -359,11 +359,11 @@
         "x68847": {
             "level": 72,
             "cNext": [
-                "q.68940",
-                "q.68937",
-                "q.68938",
+                "duty.quests.sidequests.il-mheg.il-mheg.68940",
+                "duty.quests.sidequests.il-mheg.il-mheg.68937",
+                "duty.quests.sidequests.il-mheg.il-mheg.68938",
                 68848,
-                "q.68939"
+                "duty.quests.sidequests.il-mheg.il-mheg.68939"
             ],
             "cPrev": [
                 68846
@@ -409,18 +409,18 @@
         "x68852": {
             "level": 73,
             "cNext": [
-                "q.68944",
-                "q.68945",
-                "q.68949",
-                "q.68950",
-                "q.68951",
-                "q.68946",
-                "q.68947",
-                "q.68952",
-                "q.68953",
-                "q.68954",
+                "duty.quests.sidequests.il-mheg.il-mheg.68944",
+                "duty.quests.sidequests.il-mheg.il-mheg.68945",
+                "duty.quests.sidequests.il-mheg.il-mheg.68949",
+                "duty.quests.sidequests.il-mheg.il-mheg.68950",
+                "duty.quests.sidequests.il-mheg.il-mheg.68951",
+                "duty.quests.sidequests.il-mheg.il-mheg.68946",
+                "duty.quests.sidequests.il-mheg.il-mheg.68947",
+                "duty.quests.sidequests.il-mheg.il-mheg.68952",
+                "duty.quests.sidequests.il-mheg.il-mheg.68953",
+                "duty.quests.sidequests.il-mheg.il-mheg.68954",
                 68853,
-                "q.68948"
+                "duty.quests.sidequests.il-mheg.il-mheg.68948"
             ],
             "cPrev": [
                 68851
@@ -438,17 +438,17 @@
         "x68854": {
             "level": 73,
             "cNext": [
-                "q.68963",
+                "duty.quests.sidequests.il-mheg.il-mheg.68963",
                 68855,
-                "q.68955",
-                "q.68956",
-                "q.68958",
-                "q.68959",
-                "q.68960",
-                "q.68970",
-                "q.68968",
-                "q.68957",
-                "q.68969"
+                "duty.quests.sidequests.il-mheg.il-mheg.68955",
+                "duty.quests.sidequests.il-mheg.il-mheg.68956",
+                "duty.quests.sidequests.il-mheg.il-mheg.68958",
+                "duty.quests.sidequests.il-mheg.il-mheg.68959",
+                "duty.quests.sidequests.il-mheg.il-mheg.68960",
+                "duty.quests.sidequests.il-mheg.il-mheg.68970",
+                "duty.quests.sidequests.il-mheg.il-mheg.68968",
+                "duty.quests.sidequests.il-mheg.il-mheg.68957",
+                "duty.quests.sidequests.il-mheg.il-mheg.68969"
             ],
             "cPrev": [
                 68853
@@ -470,9 +470,9 @@
                 "travel.aether-currents.shb.il-mheg.14"
             ],
             "cNext": [
-                "q.68961",
+                "duty.quests.sidequests.il-mheg.il-mheg.68961",
                 68857,
-                "q.68962"
+                "duty.quests.sidequests.il-mheg.il-mheg.68962"
             ],
             "cPrev": [
                 68855
@@ -485,7 +485,7 @@
             "level": 73,
             "cNext": [
                 68858,
-                "q.69219"
+                "duty.quests.beast-tribe.pixie.69219"
             ],
             "cPrev": [
                 68856
@@ -497,11 +497,11 @@
         "x68858": {
             "level": 74,
             "cNext": [
-                "q.68972",
+                "duty.quests.sidequests.lakeland.lakeland.68972",
                 68859,
-                "q.68971",
-                "q.68973",
-                "q.68992"
+                "duty.quests.sidequests.lakeland.lakeland.68971",
+                "duty.quests.sidequests.lakeland.lakeland.68973",
+                "duty.quests.sidequests.lakeland.lakeland.68992"
             ],
             "cPrev": [
                 68857
@@ -528,12 +528,12 @@
         "x68861": {
             "level": 74,
             "cNext": [
-                "q.68980",
-                "q.68976",
-                "q.68979",
-                "q.68978",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68980",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68976",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68979",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68978",
                 68862,
-                "q.68977"
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68977"
             ],
             "cPrev": [
                 68860
@@ -560,15 +560,15 @@
         "x68864": {
             "level": 74,
             "cNext": [
-                "q.68985",
-                "q.68986",
-                "q.68983",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68985",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68986",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68983",
                 68865,
-                "q.68990",
-                "q.68991",
-                "q.68984",
-                "q.68987",
-                "q.68989"
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68990",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68991",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68984",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68987",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68989"
             ],
             "cPrev": [
                 68863
@@ -595,7 +595,7 @@
         "x68867": {
             "level": 74,
             "cNext": [
-                "q.69192",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69192",
                 68868
             ],
             "cPrev": [
@@ -623,18 +623,18 @@
         "x68870": {
             "level": 75,
             "cNext": [
-                "q.69003",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69003",
                 68871,
-                "q.68996",
-                "q.68997",
-                "q.68999",
-                "q.69004",
-                "q.69001",
-                "q.69006",
-                "q.68998",
-                "q.69000",
-                "q.69002",
-                "q.69005"
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68996",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68997",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68999",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69004",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69001",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69006",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68998",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69000",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69002",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69005"
             ],
             "cPrev": [
                 68869
@@ -680,16 +680,16 @@
             "level": 75,
             "cNext": [
                 68876,
-                "q.69014",
-                "q.69008",
-                "q.69009",
-                "q.69007",
-                "q.69020",
-                "q.69011",
-                "q.69010",
-                "q.69012",
-                "q.69019",
-                "q.69021"
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69014",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69008",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69009",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69007",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69020",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69011",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69010",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69012",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69019",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69021"
             ],
             "cPrev": [
                 68874
@@ -715,7 +715,7 @@
             "level": 75,
             "cNext": [
                 68878,
-                "q.69330"
+                "duty.quests.beast-tribe.qitari.69330"
             ],
             "cPrev": [
                 68876
@@ -772,12 +772,12 @@
         "x69146": {
             "level": 76,
             "cNext": [
-                "q.69022",
-                "q.69024",
-                "q.69025",
-                "q.69026",
-                "q.69027",
-                "q.69023",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69022",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69024",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69025",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69026",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69027",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69023",
                 69147
             ],
             "cPrev": [
@@ -805,21 +805,21 @@
         "x69149": {
             "level": 76,
             "cNext": [
-                "q.69039",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69039",
                 69150,
-                "q.69032",
-                "q.69033",
-                "q.69045",
-                "q.69046",
-                "q.69030",
-                "q.69034",
-                "q.69038",
-                "q.69037",
-                "q.69028",
-                "q.69029",
-                "q.69031",
-                "q.69042",
-                "q.69044"
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69032",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69033",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69045",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69046",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69030",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69034",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69038",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69037",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69028",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69029",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69031",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69042",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69044"
             ],
             "cPrev": [
                 69148
@@ -837,9 +837,9 @@
         "x69151": {
             "level": 76,
             "cNext": [
-                "q.69047",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69047",
                 69152,
-                "q.69035"
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69035"
             ],
             "cPrev": [
                 69150
@@ -857,7 +857,7 @@
         "x69153": {
             "level": 77,
             "cNext": [
-                "q.69061",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69061",
                 69154
             ],
             "cPrev": [
@@ -899,9 +899,9 @@
             ],
             "cNext": [
                 69158,
-                "q.69066",
-                "q.69067",
-                "q.69068"
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69066",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69067",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69068"
             ],
             "cPrev": [
                 69156
@@ -913,7 +913,7 @@
         "x69158": {
             "level": 77,
             "cNext": [
-                "q.69069",
+                "duty.quests.sidequests.lakeland.the-crystarium.69069",
                 69166
             ],
             "cPrev": [
@@ -945,14 +945,14 @@
             "level": 77,
             "cNext": [
                 69169,
-                "q.69055",
-                "q.69056",
-                "q.69059",
-                "q.69060",
-                "q.69052",
-                "q.69054",
-                "q.69057",
-                "q.69058"
+                "duty.quests.sidequests.kholusia.eulmore.69055",
+                "duty.quests.sidequests.kholusia.eulmore.69056",
+                "duty.quests.sidequests.kholusia.eulmore.69059",
+                "duty.quests.sidequests.kholusia.eulmore.69060",
+                "duty.quests.sidequests.kholusia.eulmore.69052",
+                "duty.quests.sidequests.kholusia.eulmore.69054",
+                "duty.quests.sidequests.kholusia.eulmore.69057",
+                "duty.quests.sidequests.kholusia.eulmore.69058"
             ],
             "cPrev": [
                 69167
@@ -970,9 +970,9 @@
         "x69170": {
             "level": 78,
             "cNext": [
-                "q.69079",
-                "q.69080",
-                "q.69081",
+                "duty.quests.sidequests.kholusia.kholusia.69079",
+                "duty.quests.sidequests.kholusia.kholusia.69080",
+                "duty.quests.sidequests.kholusia.kholusia.69081",
                 69171
             ],
             "cPrev": [
@@ -1000,18 +1000,18 @@
         "x69173": {
             "level": 78,
             "cNext": [
-                "q.69092",
-                "q.69083",
-                "q.69084",
-                "q.69085",
-                "q.69087",
-                "q.69089",
-                "q.69097",
-                "q.69091",
-                "q.69207",
-                "q.69086",
-                "q.69088",
-                "q.69090",
+                "duty.quests.sidequests.kholusia.kholusia.69092",
+                "duty.quests.sidequests.kholusia.kholusia.69083",
+                "duty.quests.sidequests.kholusia.kholusia.69084",
+                "duty.quests.sidequests.kholusia.kholusia.69085",
+                "duty.quests.sidequests.kholusia.kholusia.69087",
+                "duty.quests.sidequests.kholusia.kholusia.69089",
+                "duty.quests.sidequests.kholusia.kholusia.69097",
+                "duty.quests.sidequests.kholusia.kholusia.69091",
+                "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69207",
+                "duty.quests.sidequests.kholusia.kholusia.69086",
+                "duty.quests.sidequests.kholusia.kholusia.69088",
+                "duty.quests.sidequests.kholusia.kholusia.69090",
                 69174
             ],
             "cPrev": [
@@ -1039,13 +1039,13 @@
         "x69176": {
             "level": 78,
             "cNext": [
-                "q.69073",
-                "q.69075",
-                "q.69076",
-                "q.69078",
-                "q.69082",
+                "duty.quests.sidequests.kholusia.kholusia.69073",
+                "duty.quests.sidequests.kholusia.kholusia.69075",
+                "duty.quests.sidequests.kholusia.kholusia.69076",
+                "duty.quests.sidequests.kholusia.kholusia.69078",
+                "duty.quests.sidequests.kholusia.kholusia.69082",
                 69177,
-                "q.69074"
+                "duty.quests.sidequests.kholusia.kholusia.69074"
             ],
             "cPrev": [
                 69175
@@ -1108,11 +1108,11 @@
         "x69182": {
             "level": 79,
             "cNext": [
-                "q.69100",
-                "q.69101",
-                "q.69103",
-                "q.69102",
-                "q.69104",
+                "duty.quests.sidequests.lakeland.the-crystarium.69100",
+                "duty.quests.sidequests.lakeland.the-crystarium.69101",
+                "duty.quests.sidequests.lakeland.the-crystarium.69103",
+                "duty.quests.sidequests.lakeland.the-crystarium.69102",
+                "duty.quests.sidequests.lakeland.the-crystarium.69104",
                 69183
             ],
             "cPrev": [
@@ -1122,13 +1122,13 @@
         "x69183": {
             "level": 79,
             "cNext": [
-                "q.69105",
-                "q.69106",
-                "q.69107",
-                "q.69110",
-                "q.69108",
-                "q.69111",
-                "q.69109",
+                "duty.quests.sidequests.lakeland.lakeland.69105",
+                "duty.quests.sidequests.lakeland.lakeland.69106",
+                "duty.quests.sidequests.lakeland.lakeland.69107",
+                "duty.quests.sidequests.lakeland.lakeland.69110",
+                "duty.quests.sidequests.lakeland.lakeland.69108",
+                "duty.quests.sidequests.lakeland.lakeland.69111",
+                "duty.quests.sidequests.lakeland.lakeland.69109",
                 69184
             ],
             "cPrev": [
@@ -1138,19 +1138,19 @@
         "x69184": {
             "level": 79,
             "cNext": [
-                "q.69124",
-                "q.69115",
-                "q.69117",
-                "q.69113",
+                "duty.quests.sidequests.tempest.the-tempest.69124",
+                "duty.quests.sidequests.tempest.the-tempest.69115",
+                "duty.quests.sidequests.tempest.the-tempest.69117",
+                "duty.quests.sidequests.tempest.the-tempest.69113",
                 69185,
-                "q.69121",
-                "q.69114",
-                "q.69118",
-                "q.69120",
-                "q.69112",
-                "q.69116",
-                "q.69119",
-                "q.69123"
+                "duty.quests.sidequests.tempest.the-tempest.69121",
+                "duty.quests.sidequests.tempest.the-tempest.69114",
+                "duty.quests.sidequests.tempest.the-tempest.69118",
+                "duty.quests.sidequests.tempest.the-tempest.69120",
+                "duty.quests.sidequests.tempest.the-tempest.69112",
+                "duty.quests.sidequests.tempest.the-tempest.69116",
+                "duty.quests.sidequests.tempest.the-tempest.69119",
+                "duty.quests.sidequests.tempest.the-tempest.69123"
             ],
             "cPrev": [
                 69183
@@ -1187,9 +1187,9 @@
             "level": 80,
             "cNext": [
                 69189,
-                "q.69128",
-                "q.69129",
-                "q.69130"
+                "duty.quests.sidequests.tempest.the-tempest.69128",
+                "duty.quests.sidequests.tempest.the-tempest.69129",
+                "duty.quests.sidequests.tempest.the-tempest.69130"
             ],
             "cPrev": [
                 69187
@@ -1215,33 +1215,33 @@
                 "duty.dutyraid-finder.trials.shb.2"
             ],
             "cNext": [
-                "q.69137",
-                "q.68791",
-                "q.69131",
-                "q.69132",
-                "q.69141",
-                "q.69198",
-                "q.69253",
-                "q.69209",
-                "q.69370",
-                "q.69501",
-                "q.68754",
-                "q.68749",
-                "q.68757",
-                "q.68748",
-                "q.68755",
-                "q.68746",
-                "q.68747",
-                "q.68750",
-                "q.68751",
-                "q.68752",
-                "q.68756",
-                "q.68758",
-                "q.68759",
-                "q.68760",
-                "q.68761",
-                "q.68762",
-                "q.69569"
+                "duty.quests.sidequests.kholusia.eulmore.69137",
+                "duty.quests.chronicles-of-a-new-era.eden.68791",
+                "duty.quests.sidequests.lakeland.the-crystarium.69131",
+                "duty.quests.sidequests.kholusia.eulmore.69132",
+                "duty.quests.other.quasi-quests.69141",
+                "duty.quests.other.quasi-quests.69198",
+                "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69253",
+                "duty.quests.main-scenario.post-shadowbringers.69209",
+                "duty.quests.sidequests.side-story.resistance-weapons.69370",
+                "duty.quests.sidequests.dravanian.idyllshire.69501",
+                "duty.quests.class--job.disciple-of-magic-job.scholar.68754",
+                "duty.quests.class--job.disciple-of-war-job.dragoon.68749",
+                "duty.quests.class--job.disciple-of-war-job.dark-knight.68757",
+                "duty.quests.class--job.disciple-of-war-job.warrior.68748",
+                "duty.quests.class--job.disciple-of-war-job.ninja.68755",
+                "duty.quests.class--job.disciple-of-war-job.paladin.68746",
+                "duty.quests.class--job.disciple-of-war-job.monk.68747",
+                "duty.quests.class--job.disciple-of-war-job.bard.68750",
+                "duty.quests.class--job.disciple-of-magic-job.white-mage.68751",
+                "duty.quests.class--job.disciple-of-magic-job.black-mage.68752",
+                "duty.quests.class--job.disciple-of-war-job.machinist.68756",
+                "duty.quests.class--job.disciple-of-magic-job.astrologian.68758",
+                "duty.quests.class--job.disciple-of-war-job.samurai.68759",
+                "duty.quests.class--job.disciple-of-magic-job.red-mage.68760",
+                "duty.quests.class--job.disciple-of-war-job.gunbreaker.68761",
+                "duty.quests.class--job.disciple-of-war-job.dancer.68762",
+                "duty.quests.class--job.disciple-of-magic-job.summoner.69569"
             ],
             "cPrev": [
                 69189

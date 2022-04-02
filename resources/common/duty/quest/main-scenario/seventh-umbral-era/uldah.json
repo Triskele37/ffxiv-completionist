@@ -4,17 +4,17 @@
         "x66106": {
             "level": 1,
             "cNext": [
-                "q.65925",
-                "q.65926",
+                "duty.quests.sidequests.uldahn.uldah.65925",
+                "duty.quests.sidequests.uldahn.uldah.65926",
                 66131
             ],
             "cExclude": [
-                "q.65660",
-                "q.65645"
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65660",
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645"
             ],
             "cExclusive": [
-                "q.66130",
-                "q.566",
+                "duty.quests.sidequests.uldahn.uldah.66130",
+                "duty.quests.levequests.battlecraft.566",
                 66131,
                 66207,
                 66086,
@@ -39,27 +39,27 @@
                 66064,
                 66209,
                 "character.achievement.quests.quests.312",
-                "q.65925",
-                "q.65926",
-                "q.65857",
-                "q.65858",
-                "q.65840",
-                "q.65924",
-                "q.65862",
-                "q.65844",
-                "q.66223",
-                "q.65594",
-                "q.66040",
-                "q.65877",
-                "q.66066",
-                "q.66067",
-                "q.66109",
-                "q.65878",
-                "q.66041",
-                "q.66042"
+                "duty.quests.sidequests.uldahn.uldah.65925",
+                "duty.quests.sidequests.uldahn.uldah.65926",
+                "duty.quests.sidequests.uldahn.central-thanalan.65857",
+                "duty.quests.sidequests.uldahn.central-thanalan.65858",
+                "duty.quests.sidequests.uldahn.central-thanalan.65840",
+                "duty.quests.sidequests.uldahn.central-thanalan.65924",
+                "duty.quests.sidequests.uldahn.central-thanalan.65862",
+                "duty.quests.sidequests.uldahn.central-thanalan.65844",
+                "duty.quests.sidequests.uldahn.uldah.66223",
+                "duty.quests.sidequests.uldahn.western-thanalan.65594",
+                "duty.quests.sidequests.uldahn.western-thanalan.66040",
+                "duty.quests.sidequests.uldahn.western-thanalan.65877",
+                "duty.quests.sidequests.uldahn.central-thanalan.66066",
+                "duty.quests.sidequests.uldahn.central-thanalan.66067",
+                "duty.quests.sidequests.uldahn.central-thanalan.66109",
+                "duty.quests.sidequests.uldahn.western-thanalan.65878",
+                "duty.quests.sidequests.uldahn.western-thanalan.66041",
+                "duty.quests.sidequests.uldahn.western-thanalan.66042"
             ],
             "cPrev": [
-                "q.66130"
+                "duty.quests.sidequests.uldahn.uldah.66130"
             ]
         },
         "x66131": {
@@ -84,7 +84,7 @@
             "level": 5,
             "cNext": [
                 65839,
-                "q.65857"
+                "duty.quests.sidequests.uldahn.central-thanalan.65857"
             ],
             "cPrev": [
                 66207
@@ -103,7 +103,7 @@
             "level": 8,
             "cNext": [
                 65843,
-                "q.65924"
+                "duty.quests.sidequests.uldahn.central-thanalan.65924"
             ],
             "cPrev": [
                 65839
@@ -112,7 +112,7 @@
         "x65843": {
             "level": 9,
             "cNext": [
-                "q.65862",
+                "duty.quests.sidequests.uldahn.central-thanalan.65862",
                 65856
             ],
             "cPrev": [
@@ -122,7 +122,7 @@
         "x65856": {
             "level": 9,
             "cNext": [
-                "q.66223",
+                "duty.quests.sidequests.uldahn.uldah.66223",
                 66159
             ],
             "cPrev": [
@@ -142,7 +142,7 @@
             "level": 10,
             "cNext": [
                 66039,
-                "q.66040"
+                "duty.quests.sidequests.uldahn.western-thanalan.66040"
             ],
             "cPrev": [
                 66159
@@ -160,7 +160,7 @@
         "x65865": {
             "level": 11,
             "cNext": [
-                "q.65877",
+                "duty.quests.sidequests.uldahn.western-thanalan.65877",
                 65866
             ],
             "cPrev": [
@@ -170,9 +170,9 @@
         "x65866": {
             "level": 11,
             "cNext": [
-                "q.66109",
-                "q.66066",
-                "q.66067",
+                "duty.quests.sidequests.uldahn.central-thanalan.66109",
+                "duty.quests.sidequests.uldahn.central-thanalan.66066",
+                "duty.quests.sidequests.uldahn.central-thanalan.66067",
                 69389
             ],
             "cPrev": [
@@ -192,9 +192,9 @@
             "level": 12,
             "cNext": [
                 65869,
-                "q.65878",
-                "q.66041",
-                "q.66042"
+                "duty.quests.sidequests.uldahn.western-thanalan.65878",
+                "duty.quests.sidequests.uldahn.western-thanalan.66041",
+                "duty.quests.sidequests.uldahn.western-thanalan.66042"
             ],
             "cPrev": [
                 69389
@@ -258,9 +258,9 @@
             "level": 14,
             "cNext": [
                 66064,
-                "q.66961",
-                "q.66962",
-                "q.66963"
+                "duty.quests.sidequests.gridanian.gridania.66961",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66962",
+                "duty.quests.sidequests.uldahn.uldah.66963"
             ],
             "cPrev": [
                 66177
@@ -270,14 +270,14 @@
             "level": 15,
             "cNext": [
                 66209,
-                "q.65970",
-                "q.67677",
-                "q.67960",
-                "q.68669",
-                "q.68743",
-                "q.69499",
-                "q.69532",
-                "q.69590"
+                "duty.quests.sidequests.uldahn.uldah.65970",
+                "duty.quests.other.special.collaboration.67677",
+                "duty.quests.other.seasonal.gold-saucer-festivities.67960",
+                "duty.quests.other.seasonal.gold-saucer-festivities.68669",
+                "duty.quests.other.seasonal.gold-saucer-festivities.68743",
+                "duty.quests.other.seasonal.gold-saucer-festivities.69499",
+                "duty.quests.other.seasonal.valentiones-little-ladies-day.69532",
+                "duty.quests.other.seasonal.gold-saucer-festivities.69590"
             ],
             "cPrev": [
                 66088
@@ -289,11 +289,11 @@
         "x66209": {
             "level": 15,
             "cNext": [
-                "q.66681",
-                "q.66678",
-                "q.66746",
-                "q.66967",
-                "q.65781"
+                "duty.quests.sidequests.lominsan.western-la-noscea.66681",
+                "duty.quests.sidequests.lominsan.western-la-noscea.66678",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66746",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66967",
+                "duty.quests.main-scenario.seventh-umbral-era.65781"
             ],
             "cPrev": [
                 66064

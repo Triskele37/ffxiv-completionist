@@ -5,13 +5,13 @@
             "level": 30,
             "cNext": [
                 67063,
-                "q.67064",
-                "q.67065",
-                "q.68543"
+                "duty.quests.other.grand-company.maelstrom.67064",
+                "duty.quests.other.grand-company.immortal-flames.67065",
+                "duty.quests.sidequests.lominsan.wolves-den-pier.68543"
             ],
             "cExclude": [
-                "q.66640",
-                "q.66642"
+                "duty.quests.other.grand-company.maelstrom.66640",
+                "duty.quests.other.grand-company.immortal-flames.66642"
             ]
         },
         "x67063": {
@@ -19,12 +19,12 @@
             "cPrevAny": true,
             "cPrev": [
                 66641,
-                "q.66642",
-                "q.66640"
+                "duty.quests.other.grand-company.immortal-flames.66642",
+                "duty.quests.other.grand-company.maelstrom.66640"
             ],
             "cExclude": [
-                "q.67065",
-                "q.67064"
+                "duty.quests.other.grand-company.immortal-flames.67065",
+                "duty.quests.other.grand-company.maelstrom.67064"
             ]
         },
         "x66665": {
@@ -42,11 +42,11 @@
         "x67099": {
             "level": 50,
             "cNext": [
-                "q.67655"
+                "duty.quests.sidequests.ishgardian.ishgard.67655"
             ],
             "cExclude": [
-                "q.67100",
-                "q.67101"
+                "duty.quests.other.grand-company.maelstrom.67100",
+                "duty.quests.other.grand-company.immortal-flames.67101"
             ]
         }
     }

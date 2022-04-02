@@ -4,17 +4,17 @@
         "x65645": {
             "level": 1,
             "cNext": [
-                "q.65658",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.65658",
                 65998,
-                "q.66199"
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66199"
             ],
             "cExclude": [
-                "q.65660",
-                "q.66106"
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65660",
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.66106"
             ],
             "cExclusive": [
-                "q.65643",
-                "q.556",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.65643",
+                "duty.quests.levequests.battlecraft.556",
                 65998,
                 65999,
                 66079,
@@ -38,34 +38,34 @@
                 66082,
                 "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210",
                 "character.achievement.quests.quests.310",
-                "q.65595",
-                "q.65647",
-                "q.65648",
-                "q.65658",
-                "q.65936",
-                "q.65937",
-                "q.65941",
-                "q.66006",
-                "q.66008",
-                "q.66009",
-                "q.66010",
-                "q.66011",
-                "q.66012",
-                "q.66013",
-                "q.66014",
-                "q.66015",
-                "q.66022",
-                "q.66199",
-                "q.66229"
+                "duty.quests.sidequests.lominsan.western-la-noscea.65595",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.65647",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.65648",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.65658",
+                "duty.quests.sidequests.lominsan.middle-la-noscea.65936",
+                "duty.quests.sidequests.lominsan.middle-la-noscea.65937",
+                "duty.quests.sidequests.lominsan.western-la-noscea.65941",
+                "duty.quests.sidequests.lominsan.middle-la-noscea.66006",
+                "duty.quests.sidequests.lominsan.middle-la-noscea.66008",
+                "duty.quests.sidequests.lominsan.middle-la-noscea.66009",
+                "duty.quests.sidequests.lominsan.middle-la-noscea.66010",
+                "duty.quests.sidequests.lominsan.lower-la-noscea.66011",
+                "duty.quests.sidequests.lominsan.lower-la-noscea.66012",
+                "duty.quests.sidequests.lominsan.lower-la-noscea.66013",
+                "duty.quests.sidequests.lominsan.lower-la-noscea.66014",
+                "duty.quests.sidequests.lominsan.lower-la-noscea.66015",
+                "duty.quests.sidequests.lominsan.lower-la-noscea.66022",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66199",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229"
             ],
             "cPrev": [
-                "q.65643"
+                "duty.quests.sidequests.lominsan.limsa-lominsa.65643"
             ]
         },
         "x65998": {
             "level": 4,
             "cNext": [
-                "q.66008",
+                "duty.quests.sidequests.lominsan.middle-la-noscea.66008",
                 65999
             ],
             "cPrev": [
@@ -102,7 +102,7 @@
         "x66002": {
             "level": 8,
             "cNext": [
-                "q.66010",
+                "duty.quests.sidequests.lominsan.middle-la-noscea.66010",
                 66003,
                 66003
             ],
@@ -131,7 +131,7 @@
         "x66005": {
             "level": 9,
             "cNext": [
-                "q.66229",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
                 65933
             ],
             "cPrev": [
@@ -141,7 +141,7 @@
         "x65933": {
             "level": 10,
             "cNext": [
-                "q.65936",
+                "duty.quests.sidequests.lominsan.middle-la-noscea.65936",
                 65938
             ],
             "cPrev": [
@@ -242,9 +242,9 @@
             "level": 14,
             "cNext": [
                 66082,
-                "q.66961",
-                "q.66962",
-                "q.66963"
+                "duty.quests.sidequests.gridanian.gridania.66961",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66962",
+                "duty.quests.sidequests.uldahn.uldah.66963"
             ],
             "cPrev": [
                 66226
@@ -254,14 +254,14 @@
             "level": 15,
             "cNext": [
                 "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210",
-                "q.65970",
-                "q.67677",
-                "q.67960",
-                "q.68669",
-                "q.68743",
-                "q.69499",
-                "q.69532",
-                "q.69590"
+                "duty.quests.sidequests.uldahn.uldah.65970",
+                "duty.quests.other.special.collaboration.67677",
+                "duty.quests.other.seasonal.gold-saucer-festivities.67960",
+                "duty.quests.other.seasonal.gold-saucer-festivities.68669",
+                "duty.quests.other.seasonal.gold-saucer-festivities.68743",
+                "duty.quests.other.seasonal.gold-saucer-festivities.69499",
+                "duty.quests.other.seasonal.valentiones-little-ladies-day.69532",
+                "duty.quests.other.seasonal.gold-saucer-festivities.69590"
             ],
             "cPrev": [
                 66081
@@ -273,10 +273,10 @@
         "x66210": {
             "level": 15,
             "cNext": [
-                "q.66678",
-                "q.66681",
-                "q.66746",
-                "q.66967"
+                "duty.quests.sidequests.lominsan.western-la-noscea.66678",
+                "duty.quests.sidequests.lominsan.western-la-noscea.66681",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66746",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66967"
             ],
             "cPrev": [
                 66082

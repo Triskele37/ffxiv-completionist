@@ -4,17 +4,17 @@
         "x65660": {
             "level": 1,
             "cNext": [
-                "q.65568",
-                "q.65570",
+                "duty.quests.sidequests.gridanian.gridania.65568",
+                "duty.quests.sidequests.gridanian.gridania.65570",
                 65564
             ],
             "cExclude": [
-                "q.65645",
-                "q.66106"
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645",
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.66106"
             ],
             "cExclusive": [
-                "q.65575",
-                "q.546",
+                "duty.quests.sidequests.gridanian.gridania.65575",
+                "duty.quests.levequests.battlecraft.546",
                 65564,
                 65737,
                 65981,
@@ -38,19 +38,19 @@
                 66043,
                 "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
                 "character.achievement.quests.quests.311",
-                "q.65537",
-                "q.65573",
-                "q.65568",
-                "q.65570",
-                "q.65708",
-                "q.65663",
-                "q.65666",
-                "q.65756",
-                "q.65596",
-                "q.65914"
+                "duty.quests.sidequests.gridanian.gridania.65537",
+                "duty.quests.sidequests.gridanian.gridania.65573",
+                "duty.quests.sidequests.gridanian.gridania.65568",
+                "duty.quests.sidequests.gridanian.gridania.65570",
+                "duty.quests.sidequests.gridanian.central-shroud.65708",
+                "duty.quests.sidequests.gridanian.central-shroud.65663",
+                "duty.quests.sidequests.gridanian.central-shroud.65666",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.gridanian.central-shroud.65596",
+                "duty.quests.sidequests.gridanian.central-shroud.65914"
             ],
             "cPrev": [
-                "q.65575"
+                "duty.quests.sidequests.gridanian.gridania.65575"
             ]
         },
         "x65564": {
@@ -84,7 +84,7 @@
             "level": 7,
             "cNext": [
                 65711,
-                "q.65708"
+                "duty.quests.sidequests.gridanian.central-shroud.65708"
             ],
             "cPrev": [
                 65981
@@ -93,7 +93,7 @@
         "x65711": {
             "level": 8,
             "cNext": [
-                "q.65663",
+                "duty.quests.sidequests.gridanian.central-shroud.65663",
                 69391
             ],
             "cPrev": [
@@ -112,7 +112,7 @@
         "x65665": {
             "level": 9,
             "cNext": [
-                "q.65756",
+                "duty.quests.sidequests.gridanian.gridania.65756",
                 65712
             ],
             "cPrev": [
@@ -132,7 +132,7 @@
             "level": 10,
             "cNext": [
                 65913,
-                "q.65914"
+                "duty.quests.sidequests.gridanian.central-shroud.65914"
             ],
             "cPrev": [
                 65712
@@ -233,9 +233,9 @@
             "level": 14,
             "cNext": [
                 66043,
-                "q.66961",
-                "q.66962",
-                "q.66963"
+                "duty.quests.sidequests.gridanian.gridania.66961",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66962",
+                "duty.quests.sidequests.uldahn.uldah.66963"
             ],
             "cPrev": [
                 65984
@@ -244,15 +244,15 @@
         "x66043": {
             "level": 15,
             "cNext": [
-                "q.65970",
-                "q.67677",
-                "q.67960",
+                "duty.quests.sidequests.uldahn.uldah.65970",
+                "duty.quests.other.special.collaboration.67677",
+                "duty.quests.other.seasonal.gold-saucer-festivities.67960",
                 "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
-                "q.68669",
-                "q.68743",
-                "q.69499",
-                "q.69532",
-                "q.69590"
+                "duty.quests.other.seasonal.gold-saucer-festivities.68669",
+                "duty.quests.other.seasonal.gold-saucer-festivities.68743",
+                "duty.quests.other.seasonal.gold-saucer-festivities.69499",
+                "duty.quests.other.seasonal.valentiones-little-ladies-day.69532",
+                "duty.quests.other.seasonal.gold-saucer-festivities.69590"
             ],
             "cPrev": [
                 65985
@@ -264,11 +264,11 @@
         "x66210": {
             "level": 15,
             "cNext": [
-                "q.66746",
-                "q.66967",
-                "q.65781",
-                "q.66681",
-                "q.66678"
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66746",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66967",
+                "duty.quests.main-scenario.seventh-umbral-era.65781",
+                "duty.quests.sidequests.lominsan.western-la-noscea.66681",
+                "duty.quests.sidequests.lominsan.western-la-noscea.66678"
             ],
             "cPrev": [
                 66043

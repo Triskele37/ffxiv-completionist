@@ -4,7 +4,7 @@
         "x65595": {
             "level": 10,
             "cPrev": [
-                "q.66229"
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229"
             ]
         },
         "x65941": {
@@ -14,9 +14,9 @@
             "level": 15,
             "cPrevAny": true,
             "cPrev": [
-                "q.66229",
-                "q.65756",
-                "q.66223"
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
             ]
         },
         "x66826": {
@@ -46,7 +46,7 @@
             "level": 15,
             "cPrevAny": true,
             "cPrev": [
-                "q.66209",
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.66209",
                 "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
                 "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210"
             ],
@@ -83,7 +83,7 @@
             "level": 15,
             "cPrevAny": true,
             "cPrev": [
-                "q.66209",
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.66209",
                 "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
                 "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210"
             ],
@@ -197,7 +197,7 @@
         "x66562": {
             "level": 48,
             "cPrev": [
-                "q.66561"
+                "duty.quests.sidequests.uldahn.the-waking-sands.66561"
             ],
             "cNext": [
                 66563
@@ -221,14 +221,14 @@
                 66744
             ],
             "cNext": [
-                "q.67737"
+                "duty.quests.sidequests.lominsan.limsa-lominsa.67737"
             ]
         },
         "x66744": {
             "level": 50,
             "unlock": "duty.dutyraid-finder.dungeons.arr.16",
             "cPrev": [
-                "q.66060"
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ],
             "cNext": [
                 66745

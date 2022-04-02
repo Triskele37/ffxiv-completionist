@@ -254,7 +254,7 @@ export class Chainer {
 
             if(id === 'all' || id.includes('-')) {
                 // Dealing with a range of tasks
-                const group = this.mapGroupLink(path, id);
+                const group = this.getLinkGroup(path, id);
                 const range = id === 'all' ? [-1, Infinity] :
                     id.split('-').map((n) => parseInt(n, 10));
 
@@ -274,34 +274,16 @@ export class Chainer {
         }, []);
     }
 
-    // Returns the group for a chain task, allowing shorthand for some groups
-    private mapGroupLink(linkedPath: Links, linkedId: string): DataGroup {
+    // Returns the group for a chain task
+    private getLinkGroup(linkedPath: Links, linkedId: string): DataGroup {
         // Allow linkedPath to be passed as a dot string or already split array of path
-        if(!Array.isArray(linkedPath)) {
-            linkedPath = (typeof linkedPath === 'string') ? linkedPath.split('.') : [linkedPath];
-        }
+        const path = Array.isArray(linkedPath) ? linkedPath.join('.') :
+            (typeof linkedPath === 'number') ? linkedPath.toString() :
+                linkedPath;
 
-        // Attempt to translate shorthand into longform path
-        let expandedPath = PathShorthand[linkedPath[0]];
-
-        // Not using shorthand path
-        if(!expandedPath) {
-            const stringLinkedPath = linkedPath.map((l) => l.toString()).join('.');
-            return this.overall.getChildGroup(stringLinkedPath);
-        }
-
-        // Add remaining path segments back to expandedPath
-        if(linkedPath.length > 1) expandedPath += `.${linkedPath.slice(1).join('.')}`;
-
-        // Determine if the link is for a range or singular task
-        //   range links must path to a specific group
-        //   single task links can be an incomplete path
-        const isRangeLink = linkedId === 'all' || linkedId.includes('-');
-
-        const group = this.overall.getChildGroup(expandedPath);
-        if(isRangeLink) return group;
-
-        return group.getChildGroup(linkedId)?._parent;
+        const group = this.overall.getChildGroup(path);
+        if(!group) console.error(`Invalid path:`, linkedPath, linkedId);
+        return group;
     }
 
     private getTaskFromLink(link: Link): Task {
@@ -315,7 +297,7 @@ export class Chainer {
         else {
             const linkedPath = link.split('.');
             const linkedID = linkedPath.pop();
-            const linkedGroup: DataGroup = this.mapGroupLink(linkedPath, linkedID);
+            const linkedGroup: DataGroup = this.getLinkGroup(linkedPath, linkedID);
 
             chainTask = linkedGroup?.getChildTask(linkedID);
         }
@@ -329,7 +311,3 @@ export class Chainer {
 
     //#endregion
 }
-
-const PathShorthand = {
-    q: 'duty.quests'
-};

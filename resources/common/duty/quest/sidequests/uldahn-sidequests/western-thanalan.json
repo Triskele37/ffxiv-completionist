@@ -4,7 +4,7 @@
         "x66973": {
             "level": 1,
             "cPrev": [
-                "q.66060"
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ],
             "cSiblings": [
                 "character.achievement.quests.quests.1005"
@@ -88,43 +88,43 @@
         "x65594": {
             "level": 10,
             "cPrev": [
-                "q.66223"
+                "duty.quests.sidequests.uldahn.uldah.66223"
             ]
         },
         "x65877": {
             "level": 11,
             "cPrev": [
-                65865
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.65865"
             ]
         },
         "x66040": {
             "level": 11,
             "cPrev": [
-                65864
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.65864"
             ]
         },
         "x66042": {
             "level": 12,
             "cPrev": [
-                65868
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.65868"
             ]
         },
         "x65878": {
             "level": 13,
             "cPrev": [
-                65868
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.65868"
             ]
         },
         "x66041": {
             "level": 13,
             "cPrev": [
-                65868
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.65868"
             ]
         },
         "x66235": {
             "level": 15,
             "cNext": [
-                "q.67094"
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67094"
             ]
         },
         "x68553": {
@@ -133,7 +133,7 @@
                 68554
             ],
             "cExclude": [
-                "q.66957"
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.66957"
             ]
         },
         "x68554": {
@@ -142,7 +142,7 @@
                 68553
             ],
             "cExclude": [
-                "q.66958"
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.66958"
             ]
         },
         "x66960": {
@@ -152,7 +152,7 @@
             "level": 20,
             "unlock": "duty.dutyraid-finder.dungeons.arr.3",
             "cPrev": [
-                "q.66110"
+                "duty.quests.main-scenario.seventh-umbral-era.66110"
             ]
         },
         "x66300": {
@@ -167,7 +167,7 @@
             "level": 50,
             "unlock": "duty.dutyraid-finder.dungeons.arr.15",
             "cPrev": [
-                "q.66060"
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
         },
         "x66406": {
@@ -177,19 +177,19 @@
         "x66241": {
             "level": 50,
             "cPrev": [
-                "q.66060"
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ],
             "cNext": [
-                "q.66656",
-                "q.66655",
-                "q.66657",
-                "q.66658",
-                "q.66661",
-                "q.66660",
-                "q.66659",
-                "q.66663",
-                "q.66662",
-                "q.67115"
+                "duty.quests.class--job.disciple-of-war-job.paladin.66656",
+                "duty.quests.class--job.disciple-of-war-job.warrior.66655",
+                "duty.quests.class--job.disciple-of-war-job.monk.66657",
+                "duty.quests.class--job.disciple-of-war-job.dragoon.66658",
+                "duty.quests.class--job.disciple-of-war-job.bard.66661",
+                "duty.quests.class--job.disciple-of-magic-job.white-mage.66660",
+                "duty.quests.class--job.disciple-of-magic-job.black-mage.66659",
+                "duty.quests.class--job.disciple-of-magic-job.scholar.66663",
+                "duty.quests.class--job.disciple-of-magic-job.summoner.66662",
+                "duty.quests.class--job.disciple-of-war-job.ninja.67115"
             ]
         }
     }

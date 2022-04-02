@@ -4,27 +4,27 @@
         "x66642": {
             "level": 30,
             "cNext": [
-                "q.67063",
-                "q.67064",
+                "duty.quests.other.grand-company.order-of-the-twin-adder.67063",
+                "duty.quests.other.grand-company.maelstrom.67064",
                 67065,
-                "q.68543"
+                "duty.quests.sidequests.lominsan.wolves-den-pier.68543"
             ],
             "cExclude": [
-                "q.66640",
-                "q.66641"
+                "duty.quests.other.grand-company.maelstrom.66640",
+                "duty.quests.other.grand-company.order-of-the-twin-adder.66641"
             ]
         },
         "x67065": {
             "level": 30,
             "cPrevAny": true,
             "cPrev": [
-                "q.66641",
+                "duty.quests.other.grand-company.order-of-the-twin-adder.66641",
                 66642,
-                "q.66640"
+                "duty.quests.other.grand-company.maelstrom.66640"
             ],
             "cExclude": [
-                "q.67063",
-                "q.67064"
+                "duty.quests.other.grand-company.order-of-the-twin-adder.67063",
+                "duty.quests.other.grand-company.maelstrom.67064"
             ]
         },
         "x66666": {
@@ -42,11 +42,11 @@
         "x67101": {
             "level": 50,
             "cNext": [
-                "q.67655"
+                "duty.quests.sidequests.ishgardian.ishgard.67655"
             ],
             "cExclude": [
-                "q.67099",
-                "q.67100"
+                "duty.quests.other.grand-company.order-of-the-twin-adder.67099",
+                "duty.quests.other.grand-company.maelstrom.67100"
             ]
         }
     }

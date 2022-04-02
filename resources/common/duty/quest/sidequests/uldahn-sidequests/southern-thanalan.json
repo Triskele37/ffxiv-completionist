@@ -5,9 +5,9 @@
             "level": 25,
             "cPrevAny": true,
             "cPrev": [
-                "q.66229",
-                "q.65756",
-                "q.66223"
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
             ]
         },
         "x66295": {
@@ -22,7 +22,7 @@
         "x66294": {
             "level": 25,
             "cPrev": [
-                "q.66293"
+                "duty.quests.main-scenario.seventh-umbral-era.66293"
             ],
             "cNext": [
                 66295
@@ -31,7 +31,7 @@
         "x66315": {
             "level": 27,
             "cPrev": [
-                "q.66314"
+                "duty.quests.main-scenario.seventh-umbral-era.66314"
             ]
         },
         "x66316": {
@@ -97,7 +97,7 @@
         "x66557": {
             "level": 47,
             "cPrev": [
-                "q.67089"
+                "duty.quests.sidequests.uldahn.the-waking-sands.67089"
             ],
             "cNext": [
                 66559
@@ -107,7 +107,7 @@
             "level": 47,
             "unlock": "character.minion-guide.41",
             "cPrev": [
-                "q.67089"
+                "duty.quests.sidequests.uldahn.the-waking-sands.67089"
             ]
         },
         "x66559": {
@@ -128,8 +128,8 @@
         "x68422": {
             "level": 70,
             "cPrev": [
-                "q.68089",
-                "q.68421"
+                "duty.quests.main-scenario.stormblood.68089",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68421"
             ],
             "cNext": [
                 68423
@@ -138,11 +138,11 @@
         "x68423": {
             "level": 70,
             "cPrev": [
-                "q.68089",
+                "duty.quests.main-scenario.stormblood.68089",
                 68422
             ],
             "cNext": [
-                "q.68424"
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68424"
             ]
         }
     }
