@@ -39,7 +39,6 @@ export class RandomComponent {
     //                 if(task.completionFlag !== task.defaultCompletion.toString()) {
     //                     task.changeCompletion(task.defaultCompletion);
     //                 }
-    //
     //                 task.changeCompletion(task.maxValue.toString());
     //                 task.changeCompletion(task.minValue.toString());
     //             }
