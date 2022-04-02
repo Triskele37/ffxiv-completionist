@@ -8,7 +8,10 @@
                 65998,
                 "q.66199"
             ],
-            "cExclude": ["q.65660", "q.66106"],
+            "cExclude": [
+                "q.65660",
+                "q.66106"
+            ],
             "cExclusive": [
                 "q.65643",
                 "q.556",
@@ -34,7 +37,7 @@
                 66081,
                 66082,
                 "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210",
-                "a.310",
+                "character.achievement.quests.quests.310",
                 "q.65595",
                 "q.65647",
                 "q.65648",
@@ -263,7 +266,9 @@
             "cPrev": [
                 66081
             ],
-            "cSiblings": ["a.310"]
+            "cSiblings": [
+                "character.achievement.quests.quests.310"
+            ]
         },
         "x66210": {
             "level": 15,
@@ -273,7 +278,9 @@
                 "q.66746",
                 "q.66967"
             ],
-            "cPrev": [66082]
+            "cPrev": [
+                66082
+            ]
         }
     }
 }

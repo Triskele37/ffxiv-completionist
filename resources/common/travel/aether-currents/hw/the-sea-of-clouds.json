@@ -1,6 +1,8 @@
 {
     "key": "the-sea-of-clouds",
-    "cCombo": ["a.1161"],
+    "cCombo": [
+        "character.achievement.character.general.1161"
+    ],
     "tasks": {
         "x0": {
             "location": "(11.2, 15.2, 2.0)"
@@ -16,23 +18,33 @@
         },
         "x10": {
             "quest": "duty.quests.sidequests.abalathian.the-sea-of-clouds.67284",
-            "cSiblings": ["duty.quests.sidequests.abalathian.the-sea-of-clouds.67284"]
+            "cSiblings": [
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67284"
+            ]
         },
         "x11": {
             "quest": "duty.quests.main-scenario.heavensward.67183",
-            "cSiblings": ["duty.quests.main-scenario.heavensward.67183"]
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67183"
+            ]
         },
         "x12": {
             "quest": "duty.quests.sidequests.ishgardian.ishgard.67410",
-            "cSiblings": ["duty.quests.sidequests.ishgardian.ishgard.67410"]
+            "cSiblings": [
+                "duty.quests.sidequests.ishgardian.ishgard.67410"
+            ]
         },
         "x13": {
             "quest": "duty.quests.sidequests.abalathian.the-sea-of-clouds.67445",
-            "cSiblings": ["duty.quests.sidequests.abalathian.the-sea-of-clouds.67445"]
+            "cSiblings": [
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67445"
+            ]
         },
         "x14": {
             "quest": "duty.quests.sidequests.abalathian.the-sea-of-clouds.67446",
-            "cSiblings": ["duty.quests.sidequests.abalathian.the-sea-of-clouds.67446"]
+            "cSiblings": [
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67446"
+            ]
         }
     }
 }

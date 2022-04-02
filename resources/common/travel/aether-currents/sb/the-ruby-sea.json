@@ -1,6 +1,8 @@
 {
     "key": "the-ruby-sea",
-    "cCombo": ["a.1873"],
+    "cCombo": [
+        "character.achievement.character.general.1873"
+    ],
     "tasks": {
         "x0": {
             "location": "(5.3, 26.1, 0.3)"
@@ -16,23 +18,33 @@
         },
         "x10": {
             "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68168",
-            "cSiblings": ["duty.quests.sidequests.othardian.the-ruby-sea.68168"]
+            "cSiblings": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68168"
+            ]
         },
         "x11": {
             "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68229",
-            "cSiblings": ["duty.quests.sidequests.othardian.the-ruby-sea.68229"]
+            "cSiblings": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68229"
+            ]
         },
         "x12": {
             "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68223",
-            "cSiblings": ["duty.quests.sidequests.othardian.the-ruby-sea.68223"]
+            "cSiblings": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68223"
+            ]
         },
         "x13": {
             "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68209",
-            "cSiblings": ["duty.quests.sidequests.othardian.the-ruby-sea.68209"]
+            "cSiblings": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68209"
+            ]
         },
         "x14": {
             "quest": "duty.quests.main-scenario.stormblood.68026",
-            "cSiblings": ["duty.quests.main-scenario.stormblood.68026"]
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68026"
+            ]
         }
     }
 }

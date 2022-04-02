@@ -1,6 +1,8 @@
 {
     "key": "the-peaks",
-    "cCombo": ["a.1871"],
+    "cCombo": [
+        "character.achievement.character.general.1871"
+    ],
     "tasks": {
         "x0": {
             "location": "(24.4, 30.6, 2.5)"
@@ -16,23 +18,33 @@
         },
         "x10": {
             "quest": "duty.quests.sidequests.gyr-abanian.the-peaks.68396",
-            "cSiblings": ["duty.quests.sidequests.gyr-abanian.the-peaks.68396"]
+            "cSiblings": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68396"
+            ]
         },
         "x11": {
             "quest": "duty.quests.sidequests.gyr-abanian.the-peaks.68387",
-            "cSiblings": ["duty.quests.sidequests.gyr-abanian.the-peaks.68387"]
+            "cSiblings": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68387"
+            ]
         },
         "x12": {
             "quest": "duty.quests.sidequests.gyr-abanian.the-peaks.68378",
-            "cSiblings": ["duty.quests.sidequests.gyr-abanian.the-peaks.68378"]
+            "cSiblings": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68378"
+            ]
         },
         "x13": {
             "quest": "duty.quests.sidequests.gyr-abanian.the-peaks.68191",
-            "cSiblings": ["duty.quests.sidequests.gyr-abanian.the-peaks.68191"]
+            "cSiblings": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68191"
+            ]
         },
         "x14": {
             "quest": "duty.quests.main-scenario.stormblood.68082",
-            "cSiblings": ["duty.quests.main-scenario.stormblood.68082"]
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68082"
+            ]
         }
     }
 }

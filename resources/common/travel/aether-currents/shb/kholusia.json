@@ -1,6 +1,8 @@
 {
     "key": "kholusia",
-    "cCombo": ["a.2330"],
+    "cCombo": [
+        "character.achievement.character.general.2330"
+    ],
     "tasks": {
         "x1": {
             "location": "(20.2, 21.1, 3.4)"
@@ -16,23 +18,33 @@
         },
         "x10": {
             "quest": "duty.quests.sidequests.kholusia.kholusia.68896",
-            "cSiblings": ["duty.quests.sidequests.kholusia.kholusia.68896"]
+            "cSiblings": [
+                "duty.quests.sidequests.kholusia.kholusia.68896"
+            ]
         },
         "x11": {
             "quest": "duty.quests.sidequests.kholusia.kholusia.69073",
-            "cSiblings": ["duty.quests.sidequests.kholusia.kholusia.69073"]
+            "cSiblings": [
+                "duty.quests.sidequests.kholusia.kholusia.69073"
+            ]
         },
         "x12": {
             "quest": "duty.quests.sidequests.kholusia.kholusia.68907",
-            "cSiblings": ["duty.quests.sidequests.kholusia.kholusia.68907"]
+            "cSiblings": [
+                "duty.quests.sidequests.kholusia.kholusia.68907"
+            ]
         },
         "x13": {
             "quest": "duty.quests.sidequests.kholusia.kholusia.69092",
-            "cSiblings": ["duty.quests.sidequests.kholusia.kholusia.69092"]
+            "cSiblings": [
+                "duty.quests.sidequests.kholusia.kholusia.69092"
+            ]
         },
         "x14": {
             "quest": "duty.quests.main-scenario.shadowbringers.69179",
-            "cSiblings": ["duty.quests.main-scenario.shadowbringers.69179"]
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.69179"
+            ]
         }
     }
 }

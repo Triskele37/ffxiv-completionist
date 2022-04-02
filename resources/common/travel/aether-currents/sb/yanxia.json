@@ -1,6 +1,8 @@
 {
     "key": "yanxia",
-    "cCombo": ["a.1874"],
+    "cCombo": [
+        "character.achievement.character.general.1874"
+    ],
     "tasks": {
         "x1": {
             "location": "(19.7, 32.7, 0.1)"
@@ -16,23 +18,33 @@
         },
         "x10": {
             "quest": "duty.quests.sidequests.othardian.yanxia.68269",
-            "cSiblings": ["duty.quests.sidequests.othardian.yanxia.68269"]
+            "cSiblings": [
+                "duty.quests.sidequests.othardian.yanxia.68269"
+            ]
         },
         "x11": {
             "quest": "duty.quests.sidequests.othardian.yanxia.68266",
-            "cSiblings": ["duty.quests.sidequests.othardian.yanxia.68266"]
+            "cSiblings": [
+                "duty.quests.sidequests.othardian.yanxia.68266"
+            ]
         },
         "x12": {
             "quest": "duty.quests.sidequests.othardian.yanxia.68264",
-            "cSiblings": ["duty.quests.sidequests.othardian.yanxia.68264"]
+            "cSiblings": [
+                "duty.quests.sidequests.othardian.yanxia.68264"
+            ]
         },
         "x13": {
             "quest": "duty.quests.sidequests.othardian.yanxia.68260",
-            "cSiblings": ["duty.quests.sidequests.othardian.yanxia.68260"]
+            "cSiblings": [
+                "duty.quests.sidequests.othardian.yanxia.68260"
+            ]
         },
         "x14": {
             "quest": "duty.quests.main-scenario.stormblood.68035",
-            "cSiblings": ["duty.quests.main-scenario.stormblood.68035"]
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68035"
+            ]
         }
     }
 }

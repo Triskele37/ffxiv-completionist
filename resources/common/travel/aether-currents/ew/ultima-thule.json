@@ -1,6 +1,8 @@
 {
     "key": "ultima-thule",
-    "cCombo": ["a.3008"],
+    "cCombo": [
+        "character.achievement.character.general.3008"
+    ],
     "tasks": {
         "x0": {
             "location": "(14.8, 14.2, 2.2)"
@@ -34,23 +36,33 @@
         },
         "x10": {
             "quest": "duty.quests.main-scenario.endwalker.69999",
-            "cSiblings": ["duty.quests.main-scenario.endwalker.69999"]
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69999"
+            ]
         },
         "x11": {
             "quest": "duty.quests.sidequests.ultima-thule.ultima-thule.69878",
-            "cSiblings": ["duty.quests.sidequests.ultima-thule.ultima-thule.69878"]
+            "cSiblings": [
+                "duty.quests.sidequests.ultima-thule.ultima-thule.69878"
+            ]
         },
         "x12": {
             "quest": "duty.quests.sidequests.ultima-thule.ultima-thule.69882",
-            "cSiblings": ["duty.quests.sidequests.ultima-thule.ultima-thule.69882"]
+            "cSiblings": [
+                "duty.quests.sidequests.ultima-thule.ultima-thule.69882"
+            ]
         },
         "x13": {
             "quest": "duty.quests.sidequests.ultima-thule.ultima-thule.69891",
-            "cSiblings": ["duty.quests.sidequests.ultima-thule.ultima-thule.69891"]
+            "cSiblings": [
+                "duty.quests.sidequests.ultima-thule.ultima-thule.69891"
+            ]
         },
         "x14": {
             "quest": "duty.quests.sidequests.ultima-thule.ultima-thule.69890",
-            "cSiblings": ["duty.quests.sidequests.ultima-thule.ultima-thule.69890"]
+            "cSiblings": [
+                "duty.quests.sidequests.ultima-thule.ultima-thule.69890"
+            ]
         }
     }
 }

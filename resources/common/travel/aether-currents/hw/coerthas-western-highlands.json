@@ -1,6 +1,8 @@
 {
     "key": "coerthas-western-highlands",
-    "cCombo": ["a.1157"],
+    "cCombo": [
+        "character.achievement.character.general.1157"
+    ],
     "tasks": {
         "x2": {
             "location": "(30.6, 33.7, 1.3)"
@@ -16,23 +18,33 @@
         },
         "x10": {
             "quest": "duty.quests.sidequests.coerthan.coerthas-western-highlands.67280",
-            "cSiblings": ["duty.quests.sidequests.coerthan.coerthas-western-highlands.67280"]
+            "cSiblings": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67280"
+            ]
         },
         "x11": {
             "quest": "duty.quests.sidequests.coerthan.coerthas-western-highlands.67647",
-            "cSiblings": ["duty.quests.sidequests.coerthan.coerthas-western-highlands.67647"]
+            "cSiblings": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67647"
+            ]
         },
         "x12": {
             "quest": "duty.quests.sidequests.coerthan.coerthas-western-highlands.67296",
-            "cSiblings": ["duty.quests.sidequests.coerthan.coerthas-western-highlands.67296"]
+            "cSiblings": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67296"
+            ]
         },
         "x13": {
             "quest": "duty.quests.sidequests.coerthan.coerthas-western-highlands.67295",
-            "cSiblings": ["duty.quests.sidequests.coerthan.coerthas-western-highlands.67295"]
+            "cSiblings": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67295"
+            ]
         },
         "x14": {
             "quest": "duty.quests.main-scenario.heavensward.67144",
-            "cSiblings": ["duty.quests.main-scenario.heavensward.67144"]
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67144"
+            ]
         }
     }
 }

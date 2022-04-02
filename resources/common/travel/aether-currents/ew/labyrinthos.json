@@ -1,6 +1,8 @@
 {
     "key": "labyrinthos",
-    "cCombo": ["a.3003"],
+    "cCombo": [
+        "character.achievement.character.general.3003"
+    ],
     "tasks": {
         "x0": {
             "location": "(28.4, 6.1, 4.3)"
@@ -34,23 +36,33 @@
         },
         "x10": {
             "quest": "duty.quests.main-scenario.endwalker.69984",
-            "cSiblings": ["duty.quests.main-scenario.endwalker.69984"]
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69984"
+            ]
         },
         "x11": {
             "quest": "duty.quests.sidequests.sharlayan.labyrinthos.70016",
-            "cSiblings": ["duty.quests.sidequests.sharlayan.labyrinthos.70016"]
+            "cSiblings": [
+                "duty.quests.sidequests.sharlayan.labyrinthos.70016"
+            ]
         },
         "x12": {
             "quest": "duty.quests.sidequests.sharlayan.labyrinthos.70020",
-            "cSiblings": ["duty.quests.sidequests.sharlayan.labyrinthos.70020"]
+            "cSiblings": [
+                "duty.quests.sidequests.sharlayan.labyrinthos.70020"
+            ]
         },
         "x13": {
             "quest": "duty.quests.sidequests.sharlayan.labyrinthos.69856",
-            "cSiblings": ["duty.quests.sidequests.sharlayan.labyrinthos.69856"]
+            "cSiblings": [
+                "duty.quests.sidequests.sharlayan.labyrinthos.69856"
+            ]
         },
         "x14": {
             "quest": "duty.quests.sidequests.sharlayan.labyrinthos.69865",
-            "cSiblings": ["duty.quests.sidequests.sharlayan.labyrinthos.69865"]
+            "cSiblings": [
+                "duty.quests.sidequests.sharlayan.labyrinthos.69865"
+            ]
         }
     }
 }

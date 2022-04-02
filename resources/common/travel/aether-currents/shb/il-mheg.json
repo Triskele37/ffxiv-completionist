@@ -1,6 +1,8 @@
 {
     "key": "il-mheg",
-    "cCombo": ["a.2332"],
+    "cCombo": [
+        "character.achievement.character.general.2332"
+    ],
     "tasks": {
         "x0": {
             "location": "(20.3, 14.9, 1.1)"
@@ -16,23 +18,33 @@
         },
         "x10": {
             "quest": "duty.quests.sidequests.il-mheg.il-mheg.68963",
-            "cSiblings": ["duty.quests.sidequests.il-mheg.il-mheg.68963"]
+            "cSiblings": [
+                "duty.quests.sidequests.il-mheg.il-mheg.68963"
+            ]
         },
         "x11": {
             "quest": "duty.quests.sidequests.il-mheg.il-mheg.68940",
-            "cSiblings": ["duty.quests.sidequests.il-mheg.il-mheg.68940"]
+            "cSiblings": [
+                "duty.quests.sidequests.il-mheg.il-mheg.68940"
+            ]
         },
         "x12": {
             "quest": "duty.quests.sidequests.il-mheg.il-mheg.68934",
-            "cSiblings": ["duty.quests.sidequests.il-mheg.il-mheg.68934"]
+            "cSiblings": [
+                "duty.quests.sidequests.il-mheg.il-mheg.68934"
+            ]
         },
         "x13": {
             "quest": "duty.quests.sidequests.il-mheg.il-mheg.68931",
-            "cSiblings": ["duty.quests.sidequests.il-mheg.il-mheg.68931"]
+            "cSiblings": [
+                "duty.quests.sidequests.il-mheg.il-mheg.68931"
+            ]
         },
         "x14": {
             "quest": "duty.quests.main-scenario.shadowbringers.68856",
-            "cSiblings": ["duty.quests.main-scenario.shadowbringers.68856"]
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.68856"
+            ]
         }
     }
 }

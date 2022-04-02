@@ -1,6 +1,8 @@
 {
     "key": "mare-lamentorum",
-    "cCombo": ["a.3006"],
+    "cCombo": [
+        "character.achievement.character.general.3006"
+    ],
     "tasks": {
         "x0": {
             "location": "(22.3, 18.1, 1.2)"
@@ -34,23 +36,33 @@
         },
         "x10": {
             "quest": "duty.quests.main-scenario.endwalker.69943",
-            "cSiblings": ["duty.quests.main-scenario.endwalker.69943"]
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69943"
+            ]
         },
         "x11": {
             "quest": "duty.quests.sidequests.mare-lamentorum.mare-lamentorum.69776",
-            "cSiblings": ["duty.quests.sidequests.mare-lamentorum.mare-lamentorum.69776"]
+            "cSiblings": [
+                "duty.quests.sidequests.mare-lamentorum.mare-lamentorum.69776"
+            ]
         },
         "x12": {
             "quest": "duty.quests.sidequests.mare-lamentorum.mare-lamentorum.69777",
-            "cSiblings": ["duty.quests.sidequests.mare-lamentorum.mare-lamentorum.69777"]
+            "cSiblings": [
+                "duty.quests.sidequests.mare-lamentorum.mare-lamentorum.69777"
+            ]
         },
         "x13": {
             "quest": "duty.quests.sidequests.mare-lamentorum.mare-lamentorum.69789",
-            "cSiblings": ["duty.quests.sidequests.mare-lamentorum.mare-lamentorum.69789"]
+            "cSiblings": [
+                "duty.quests.sidequests.mare-lamentorum.mare-lamentorum.69789"
+            ]
         },
         "x14": {
             "quest": "duty.quests.sidequests.mare-lamentorum.mare-lamentorum.70052",
-            "cSiblings": ["duty.quests.sidequests.mare-lamentorum.mare-lamentorum.70052"]
+            "cSiblings": [
+                "duty.quests.sidequests.mare-lamentorum.mare-lamentorum.70052"
+            ]
         }
     }
 }

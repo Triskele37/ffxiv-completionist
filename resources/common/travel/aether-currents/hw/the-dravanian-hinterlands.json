@@ -1,6 +1,8 @@
 {
     "key": "the-dravanian-hinterlands",
-    "cCombo": ["a.1159"],
+    "cCombo": [
+        "character.achievement.character.general.1159"
+    ],
     "tasks": {
         "x0": {
             "location": "(13.5, 36.1, 1.0)"
@@ -16,23 +18,33 @@
         },
         "x10": {
             "quest": "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67472",
-            "cSiblings": ["duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67472"]
+            "cSiblings": [
+                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67472"
+            ]
         },
         "x11": {
             "quest": "duty.quests.sidequests.dravanian.idyllshire.67481",
-            "cSiblings": ["duty.quests.sidequests.dravanian.idyllshire.67481"]
+            "cSiblings": [
+                "duty.quests.sidequests.dravanian.idyllshire.67481"
+            ]
         },
         "x12": {
             "quest": "duty.quests.sidequests.dravanian.idyllshire.67499",
-            "cSiblings": ["duty.quests.sidequests.dravanian.idyllshire.67499"]
+            "cSiblings": [
+                "duty.quests.sidequests.dravanian.idyllshire.67499"
+            ]
         },
         "x13": {
             "quest": "duty.quests.main-scenario.heavensward.67196",
-            "cSiblings": ["duty.quests.main-scenario.heavensward.67196"]
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67196"
+            ]
         },
         "x14": {
             "quest": "duty.quests.sidequests.dravanian.matoyas-cave.67502",
-            "cSiblings": ["duty.quests.sidequests.dravanian.matoyas-cave.67502"]
+            "cSiblings": [
+                "duty.quests.sidequests.dravanian.matoyas-cave.67502"
+            ]
         }
     }
 }

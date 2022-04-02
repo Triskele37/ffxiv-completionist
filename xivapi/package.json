@@ -10,6 +10,7 @@
         "getKeyChanges": "npm run run-ts -- ./scripts/getKeyChanges/index.ts",
         "mapKeyChanges": "npm run run-ts -- ./scripts/getKeyChanges/mapKeyChanges.ts",
         "getGroupChanges": "npm run run-ts -- ./scripts/getGroupChanges/index.ts",
+        "mapData": "npm run run-ts -- ./scripts/mapData/index.ts",
         "run-ts": "node --loader ts-node/esm --experimental-specifier-resolution=node --no-warnings"
     },
     "dependencies": {

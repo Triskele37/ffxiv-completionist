@@ -613,20 +613,30 @@
         "x2994": {
             "points": 10,
             "patch": "6.0",
-            "cNext": [2995]
+            "cNext": [
+                2995
+            ]
         },
         "x2995": {
             "points": 10,
             "patch": "6.0",
-            "cPrev": [2994],
-            "cNext": [2996]
+            "cPrev": [
+                2994
+            ],
+            "cNext": [
+                2996
+            ]
         },
         "x2996": {
             "points": 10,
             "reward": "character.character.title.617",
             "patch": "6.0",
-            "cPrev": [2995],
-            "cCombo": [3000],
+            "cPrev": [
+                2995
+            ],
+            "cCombo": [
+                3000
+            ],
             "cSiblings": [
                 "character.character.title.617"
             ]
@@ -634,20 +644,30 @@
         "x2997": {
             "points": 10,
             "patch": "6.0",
-            "cNext": [2998]
+            "cNext": [
+                2998
+            ]
         },
         "x2998": {
             "points": 10,
             "patch": "6.0",
-            "cPrev": [2997],
-            "cNext": [2999]
+            "cPrev": [
+                2997
+            ],
+            "cNext": [
+                2999
+            ]
         },
         "x2999": {
             "points": 10,
             "reward": "character.character.title.618",
             "patch": "6.0",
-            "cPrev": [2998],
-            "cCombo": [3000],
+            "cPrev": [
+                2998
+            ],
+            "cCombo": [
+                3000
+            ],
             "cSiblings": [
                 "character.character.title.618"
             ]
@@ -656,7 +676,10 @@
             "points": 10,
             "reward": "character.mount-guide.211",
             "patch": "6.0",
-            "cPrev": [2996, 2999]
+            "cPrev": [
+                2996,
+                2999
+            ]
         }
     }
 }

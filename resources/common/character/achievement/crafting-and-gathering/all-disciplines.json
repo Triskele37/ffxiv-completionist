@@ -6,13 +6,33 @@
             "reward": "character.minion-guide.126",
             "patch": "5.21",
             "cPrevAny": true,
-            "cPrev": [2489, 2492, 2495, 2498, 2501, 2504, 2507, 2510]
+            "cPrev": [
+                "character.achievement.crafting--gathering.carpenter.2489",
+                "character.achievement.crafting--gathering.blacksmith.2492",
+                "character.achievement.crafting--gathering.armorer.2495",
+                "character.achievement.crafting--gathering.goldsmith.2498",
+                "character.achievement.crafting--gathering.leatherworker.2501",
+                "character.achievement.crafting--gathering.weaver.2504",
+                "character.achievement.crafting--gathering.alchemist.2507",
+                "character.achievement.crafting--gathering.culinarian.2510"
+            ]
         },
         "x2524": {
             "points": 10,
             "patch": "5.21",
-            "cPrev": [2491, 2494, 2497, 2500, 2503, 2506, 2509, 2512],
-            "cCombo": [2526],
+            "cPrev": [
+                "character.achievement.crafting--gathering.carpenter.2491",
+                "character.achievement.crafting--gathering.blacksmith.2494",
+                "character.achievement.crafting--gathering.armorer.2497",
+                "character.achievement.crafting--gathering.goldsmith.2500",
+                "character.achievement.crafting--gathering.leatherworker.2503",
+                "character.achievement.crafting--gathering.weaver.2506",
+                "character.achievement.crafting--gathering.alchemist.2509",
+                "character.achievement.crafting--gathering.culinarian.2512"
+            ],
+            "cCombo": [
+                2526
+            ],
             "cSiblings": [
                 "character.character.title.501"
             ],
@@ -23,13 +43,23 @@
             "reward": "character.minion-guide.140",
             "patch": "5.21",
             "cPrevAny": true,
-            "cPrev": [2513, 2516, 2519]
+            "cPrev": [
+                "character.achievement.crafting--gathering.miner.2513",
+                "character.achievement.crafting--gathering.botanist.2516",
+                "character.achievement.crafting--gathering.fisher.2519"
+            ]
         },
         "x2525": {
             "points": 10,
             "patch": "5.21",
-            "cPrev": [2515, 2518, 2521],
-            "cCombo": [2526],
+            "cPrev": [
+                "character.achievement.crafting--gathering.miner.2515",
+                "character.achievement.crafting--gathering.botanist.2518",
+                "character.achievement.crafting--gathering.fisher.2521"
+            ],
+            "cCombo": [
+                2526
+            ],
             "cSiblings": [
                 "character.character.title.502"
             ],
@@ -39,39 +69,58 @@
             "points": 20,
             "reward": "character.mount-guide.139",
             "patch": "5.21",
-            "cPrev": [2524, 2525]
+            "cPrev": [
+                2524,
+                2525
+            ]
         },
         "x2550": {
             "points": 5,
             "patch": "5.21",
-            "cNext": [2551]
+            "cNext": [
+                2551
+            ]
         },
         "x2551": {
             "points": 5,
             "patch": "5.21",
-            "cPrev": [2550],
-            "cNext": [2552]
+            "cPrev": [
+                2550
+            ],
+            "cNext": [
+                2552
+            ]
         },
         "x2552": {
             "points": 10,
             "patch": "5.21",
-            "cPrev": [2551]
+            "cPrev": [
+                2551
+            ]
         },
         "x2538": {
             "points": 5,
             "patch": "5.21",
-            "cNext": [2539]
+            "cNext": [
+                2539
+            ]
         },
         "x2539": {
             "points": 5,
             "patch": "5.21",
-            "cPrev": [2538],
-            "cNext": [2540]
+            "cPrev": [
+                2538
+            ],
+            "cNext": [
+                2540
+            ]
         },
         "x2540": {
             "points": 10,
             "patch": "5.21",
-            "cPrev": [2539],
+            "cPrev": [
+                2539
+            ],
             "cSiblings": [
                 "character.character.title.514"
             ],
@@ -143,7 +192,14 @@
             ],
             "reward": "character.character.title.578",
             "cPrev": [
-                2821, 2822, 2823, 2824, 2826, 2825, 2827, 2828
+                "character.achievement.crafting--gathering.carpenter.2821",
+                "character.achievement.crafting--gathering.blacksmith.2822",
+                "character.achievement.crafting--gathering.armorer.2823",
+                "character.achievement.crafting--gathering.goldsmith.2824",
+                "character.achievement.crafting--gathering.leatherworker.2826",
+                "character.achievement.crafting--gathering.weaver.2825",
+                "character.achievement.crafting--gathering.alchemist.2827",
+                "character.achievement.crafting--gathering.culinarian.2828"
             ]
         }
     }

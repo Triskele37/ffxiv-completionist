@@ -4,44 +4,70 @@
         "x1006": {
             "points": 5,
             "patch": "2.3",
-            "cNext": [1007]
+            "cNext": [
+                1007
+            ]
         },
         "x1007": {
             "points": 5,
             "patch": "2.3",
-            "cPrev": [1006],
-            "cNext": [1008]
+            "cPrev": [
+                1006
+            ],
+            "cNext": [
+                1008
+            ]
         },
         "x1008": {
             "points": 5,
             "patch": "2.3",
-            "cPrev": [1007],
-            "cNext": [1009]
+            "cPrev": [
+                1007
+            ],
+            "cNext": [
+                1009
+            ]
         },
         "x1009": {
             "points": 5,
             "patch": "2.3",
-            "cPrev": [1008],
-            "cNext": [1010]
+            "cPrev": [
+                1008
+            ],
+            "cNext": [
+                1010
+            ]
         },
         "x1010": {
             "points": 10,
             "patch": "2.3",
-            "cPrev": [1009],
-            "cNext": [1011]
+            "cPrev": [
+                1009
+            ],
+            "cNext": [
+                1011
+            ]
         },
         "x1011": {
             "points": 10,
             "reward": "character.character.title.171",
             "patch": "2.3",
-            "cPrev": [1010],
-            "cNext": [1904],
-            "cSiblings": ["character.character.title.171"]
+            "cPrev": [
+                1010
+            ],
+            "cNext": [
+                1904
+            ],
+            "cSiblings": [
+                "character.character.title.171"
+            ]
         },
         "x1904": {
             "points": 10,
             "patch": "4.0",
-            "cPrev": [1011]
+            "cPrev": [
+                1011
+            ]
         }
     }
 }

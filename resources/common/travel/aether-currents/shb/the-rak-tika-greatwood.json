@@ -1,6 +1,8 @@
 {
     "key": "the-raktika-greatwood",
-    "cCombo": ["a.2333"],
+    "cCombo": [
+        "character.achievement.character.general.2333"
+    ],
     "tasks": {
         "x0": {
             "location": "(34.6, 16.0, -0.4)"
@@ -16,23 +18,33 @@
         },
         "x10": {
             "quest": "duty.quests.sidequests.raktika.the-raktika-greatwood.69014",
-            "cSiblings": ["duty.quests.sidequests.raktika.the-raktika-greatwood.69014"]
+            "cSiblings": [
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69014"
+            ]
         },
         "x11": {
             "quest": "duty.quests.sidequests.raktika.the-raktika-greatwood.69003",
-            "cSiblings": ["duty.quests.sidequests.raktika.the-raktika-greatwood.69003"]
+            "cSiblings": [
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69003"
+            ]
         },
         "x12": {
             "quest": "duty.quests.sidequests.raktika.the-raktika-greatwood.69192",
-            "cSiblings": ["duty.quests.sidequests.raktika.the-raktika-greatwood.69192"]
+            "cSiblings": [
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69192"
+            ]
         },
         "x13": {
             "quest": "duty.quests.sidequests.raktika.the-raktika-greatwood.68980",
-            "cSiblings": ["duty.quests.sidequests.raktika.the-raktika-greatwood.68980"]
+            "cSiblings": [
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68980"
+            ]
         },
         "x14": {
             "quest": "duty.quests.main-scenario.shadowbringers.68876",
-            "cSiblings": ["duty.quests.main-scenario.shadowbringers.68876"]
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.68876"
+            ]
         }
     }
 }

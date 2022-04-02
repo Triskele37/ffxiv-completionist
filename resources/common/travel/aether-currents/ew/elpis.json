@@ -1,6 +1,8 @@
 {
     "key": "elpis",
-    "cCombo": ["a.3007"],
+    "cCombo": [
+        "character.achievement.character.general.3007"
+    ],
     "tasks": {
         "x0": {
             "location": "(34.0, 23.6, 1.6)"
@@ -34,23 +36,33 @@
         },
         "x10": {
             "quest": "duty.quests.main-scenario.endwalker.69973",
-            "cSiblings": ["duty.quests.main-scenario.endwalker.69973"]
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69973"
+            ]
         },
         "x11": {
             "quest": "duty.quests.sidequests.elpis.elpis.69824",
-            "cSiblings": ["duty.quests.sidequests.elpis.elpis.69824"]
+            "cSiblings": [
+                "duty.quests.sidequests.elpis.elpis.69824"
+            ]
         },
         "x12": {
             "quest": "duty.quests.sidequests.elpis.elpis.69849",
-            "cSiblings": ["duty.quests.sidequests.elpis.elpis.69849"]
+            "cSiblings": [
+                "duty.quests.sidequests.elpis.elpis.69849"
+            ]
         },
         "x13": {
             "quest": "duty.quests.sidequests.elpis.elpis.70043",
-            "cSiblings": ["duty.quests.sidequests.elpis.elpis.70043"]
+            "cSiblings": [
+                "duty.quests.sidequests.elpis.elpis.70043"
+            ]
         },
         "x14": {
             "quest": "duty.quests.sidequests.elpis.elpis.70047",
-            "cSiblings": ["duty.quests.sidequests.elpis.elpis.70047"]
+            "cSiblings": [
+                "duty.quests.sidequests.elpis.elpis.70047"
+            ]
         }
     }
 }
