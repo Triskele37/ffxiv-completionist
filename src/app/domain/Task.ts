@@ -251,7 +251,7 @@ export class Task {
         }
 
         if(this.hasChainProps()) {
-            const chainer = new Chainer(this, this.completionFlag);
+            const chainer = new Chainer(this, this.completionFlag, ChainService.force);
             chainer.triggerChains();
         }
     }

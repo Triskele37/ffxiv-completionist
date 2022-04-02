@@ -11,6 +11,7 @@ import { ChainedGroup, ChainStart, ChainedTask, ChainHistory } from './types';
 })
 export class ChainService {
     static Instance: ChainService;
+    static force: boolean;
 
     private history: ChainHistory[] = [];
     private historyDisabled: boolean;

@@ -81,8 +81,10 @@ export class CharacterSettingsComponent implements OnInit {
     startingClasses: ShortLong[];
 
     onChangeStartingClass(): void {
+        ChainService.force = true;
         this.parent.onChangeStringSetting(this.settings.startingClass);
         this.chainStartingClass();
+        ChainService.force = false;
     }
 
     chainStartingClass(): void {

@@ -13,6 +13,8 @@
             }
 
             .chain-start {
+                display: flex;
+
                 .summary {
                     display: inline-flex;
                     flex-direction: column;

@@ -1,7 +1,6 @@
 ------------------------------------------------------------------ Current Release
 **Add**
 - missing endwalker savage unlock quasi quest
-- seasonal quest "Feline Fun" from Heavensturn 2022 is missing
 
 **Change**
 

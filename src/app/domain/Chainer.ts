@@ -9,9 +9,13 @@ export class Chainer {
     task: Task = null;
     flag: CompletionFlag = null;
 
-    constructor(task: Task, flag: CompletionFlag) {
+    // Override to ignoring X when chaining for starting class
+    force: boolean;
+
+    constructor(task: Task, flag: CompletionFlag, force: boolean = false) {
         this.task = task;
         this.flag = flag;
+        this.force = force;
     }
 
     //#region------------------------------------------------------- Getters
@@ -85,7 +89,9 @@ export class Chainer {
     private applyFlagToTask(flag: Completion, chainTask: Task): void {
         const isExcluded = chainTask.completionFlag === Completion.X;
         const isDefaultExcluded = chainTask.defaultCompletion === Completion.X;
-        if(!isExcluded || isDefaultExcluded) chainTask.changeCompletion(flag);
+        if(!isExcluded || isDefaultExcluded || this.force) {
+            chainTask.changeCompletion(flag);
+        }
     }
 
     // Chain when a numeric is met
@@ -289,7 +295,7 @@ export class Chainer {
     private getTaskFromLink(link: Link): Task {
         let chainTask;
 
-        // Raw ID link
+        // 'number' type links are within the same group
         if(typeof link === 'number') {
             chainTask = this.task._parent.getChildTask(link.toString());
         }
