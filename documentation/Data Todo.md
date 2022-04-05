@@ -53,10 +53,8 @@
   - Move Relic here
 
 **Change**
-- require fully qualified paths for all content links
-  - will speed up chaining and searching
-  - will increase resources size
-  - potentially reduce all key sizes to a few characters each
+- Rename long keys to reduce link string lengths
+  - Priority: eureka, bozja
 
 **Fix**
 - "Just Deserts" unlocks "Guild Leves"

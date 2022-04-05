@@ -23,7 +23,7 @@
 <td
     *ngIf="task.completionFlag === Completion.X"
     class="completion-flag-cell excluded noSelect"
-    [pTooltip]="task.maxValue"
+    [pTooltip]="task.maxValue | asString"
     (click)="onExcludeTaskClick($event)"
 >
     X

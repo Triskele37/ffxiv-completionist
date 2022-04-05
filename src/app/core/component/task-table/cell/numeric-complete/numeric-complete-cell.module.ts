@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { InputNumberModule } from 'primeng/inputnumber';
 import { TooltipModule } from 'primeng/tooltip';
 
+import { AsStringPipeModule } from '@pipe/as/string.pipe';
 import { GradientPipeModule } from '@pipe/gradient.pipe';
 
 import { PercentagePipe } from './percentage.pipe';
@@ -20,6 +21,7 @@ import { NumericCompleteCellComponent } from './numeric-complete-cell.component'
         InputNumberModule,
         TooltipModule,
 
+        AsStringPipeModule,
         GradientPipeModule
     ],
     exports: [

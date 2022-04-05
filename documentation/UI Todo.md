@@ -12,4 +12,3 @@
 - replace most of Guide with Active Help
 
 **Fix**
-- quick-mark extremely slow on large groups (or heavily chained?)
