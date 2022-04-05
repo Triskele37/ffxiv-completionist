@@ -6,6 +6,7 @@
 - Convert DataGroup.tasks to Map<string, Task>
 
 **Fix**
+- Achievement Order
 
 ------------------------------------------------------------------ Prioritize
 **Add**
@@ -13,6 +14,7 @@
 - chain unsellable/tradable collectables to source? (one-way)
   - mounts/minions/cards/fate achievements
 - chain duties to the quests requiring them (one-way)
+- Add all Unlock values to Unlock type quests
 
 **Change**
 - save starting class in player save
