@@ -14,6 +14,7 @@ import { NavigationService } from '@service/navigation/navigation.service';
 export class SummaryLineComponent implements OnChanges {
     @Input() group: DataGroup;
     @Input() isBig: boolean;
+    @Input() showGroup: boolean;
 
     subscription: Subscription;
     percentComplete: string;
@@ -40,12 +41,22 @@ export class SummaryLineComponent implements OnChanges {
     }
 
     updateTooltip(): void {
+        this.tooltip = '';
+
+        if(this.showGroup) {
+            const groupPath = this.group.groupPath;
+            groupPath.shift(); // remove overall
+            groupPath.pop(); // remove group name
+
+            this.tooltip += `${groupPath.join(' > ')}\n\n`;
+        }
+
         const { total, totalCompleted, totalExcluded, displayTotal } = this.group;
         const remaining = Math.ceil((total - totalExcluded) - totalCompleted);
         const weight = (displayTotal / this.svcData.data.displayTotal) * 100;
 
         // Build tooltip line by line
-        this.tooltip = Math.floor(totalCompleted).toLocaleString();
+        this.tooltip += Math.floor(totalCompleted).toLocaleString();
         this.tooltip += ` / ${displayTotal.toLocaleString()}\n`;
         this.tooltip += this.translate.instant('GENERAL.REMAINING');
         this.tooltip += `: ${remaining.toLocaleString()}\n`;

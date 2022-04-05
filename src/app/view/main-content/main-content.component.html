@@ -44,6 +44,7 @@
             <xiv-summary-line
                 *ngIf="!subGroup.value.isBookmarkGroup && !subGroup.value.isCustomGroup"
                 [group]="subGroup.value"
+                [showGroup]="selectedGroup.isBookmarkGroup"
             ></xiv-summary-line>
         </ng-container>
     </div>
