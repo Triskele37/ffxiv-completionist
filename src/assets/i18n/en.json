@@ -64,7 +64,7 @@
                 },
                 "FILTER_COMPLETION": {
                     "TITLE": "Filter Completion",
-                    "L1": "At the top of non-numeric completion columns are 3 icons that indicate \"completed\", \"not completed\", and \"excluded\"",
+                    "L1": "At the top of completion columns are 3 icons that indicate \"completed\", \"not completed\", and \"excluded\"",
                     "L2": "These can be enabled/disabled separately and their state is saved between tables and reloads",
                     "L3": "Items in the table that match any enabled icon will be displayed"
                 },
@@ -292,14 +292,15 @@
                     "L8": "Group column to all task views",
                     "L9": "Random task generator for incomplete tasks",
                     "L10": "Virtual scrolling to prevent slow-rendering tables",
-                    "L11": "Ability to hide overall OR selected group summary lines",
-                    "L12": "Ability to open config and save folders from settings page",
-                    "L13": "Ability to backup config and save files from settings page",
-                    "L14": "Ability to overwrite active config and save with backup from settings page",
-                    "L15": "Chain history & Chain history limit setting",
-                    "L16": "Weight statistic in group summary tooltips",
-                    "L17": "Duty > Duty/Raid Finder > Deep Dungeon",
-                    "L18": "Duty > Squadron"
+                    "L11": "Ability to exclude, filter, and quick-mark numeric tasks",
+                    "L12": "Ability to hide overall OR selected group summary lines",
+                    "L13": "Ability to open config and save folders from settings page",
+                    "L14": "Ability to backup config and save files from settings page",
+                    "L15": "Ability to overwrite active config and save with backup from settings page",
+                    "L16": "Chain history & Chain history limit setting",
+                    "L17": "Weight statistic in group summary tooltips",
+                    "L18": "Duty > Duty/Raid Finder > Deep Dungeon",
+                    "L19": "Duty > Squadron"
                 },
                 "CHANGE": {
                     "TITLE": "Changes",

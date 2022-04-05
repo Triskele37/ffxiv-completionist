@@ -1,5 +1,6 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges } from '@angular/core';
 
+import { Completion } from '@constant';
 import { Task } from '@domain/Task';
 import { SaveStoreService } from '@service/store/save-store.service';
 
@@ -14,6 +15,9 @@ import { SaveStoreService } from '@service/store/save-store.service';
 export class NumericCompleteCellComponent implements OnChanges {
     @Input() task: Task;
     @Input() value: string;
+    @Output() onChange = new EventEmitter<void>();
+
+    Completion = Completion;
 
     step: number;
     tooltip: string;
@@ -26,12 +30,7 @@ export class NumericCompleteCellComponent implements OnChanges {
         if(changes.task) {
             this.step = this._step;
             this.tooltip = this._tooltip;
-            this.update();
         }
-    }
-
-    update(): void {
-        this.percentage = this._percentage;
     }
 
     get _step(): number {
@@ -42,14 +41,6 @@ export class NumericCompleteCellComponent implements OnChanges {
         return `${this.task.minValue} - ${this.task.maxValue}`;
     }
 
-    get _percentage(): string {
-        const totProg = this.task.maxValue - this.task.minValue;
-        let prog = parseFloat(this.value) - this.task.minValue;
-        if(prog < 0) prog = 0;
-
-        return ((prog / totProg) * 100).toFixed(2);
-    }
-
     onTaskValueChange(): void {
         // Update the new value
         this.task.changeCompletion(this.value, true);
@@ -58,8 +49,15 @@ export class NumericCompleteCellComponent implements OnChanges {
         // onBlur and rebinding value can't happen in the same tick
         setTimeout(() => {
             this.value = this.task.completionFlag;
-            this.update();
+            this.onChange.emit();
         });
+    }
+
+    onExcludeTaskClick($event: MouseEvent): void {
+        $event.preventDefault();
+
+        this.value = this.task.completionFlag === Completion.X ? '0' : Completion.X;
+        this.onTaskValueChange();
     }
 
 }

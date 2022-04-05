@@ -1,18 +1,15 @@
 <div class="task-table-toolbar">
     <span class="p-buttonset">
         <ng-container *ngIf="totalTasks">
-            <!-- Flaged Completion Only -->
-            <ng-container *ngIf="!group._isNumericCompletion">
-                <xiv-quick-mark-overlay
-                    [tasks]="tasks"
-                    (onMark)="onDataChange.emit()"
-                ></xiv-quick-mark-overlay>
+            <xiv-quick-mark-overlay
+                [tasks]="tasks"
+                (onMark)="onDataChange.emit()"
+            ></xiv-quick-mark-overlay>
 
-                <xiv-selection-overlay
-                    [group]="group"
-                    [tasks]="tasks"
-                ></xiv-selection-overlay>
-            </ng-container>
+            <xiv-selection-overlay
+                [group]="group"
+                [tasks]="tasks"
+            ></xiv-selection-overlay>
 
             <xiv-chain-overlay
                 [disableUndo]="group.isCustomGroup"

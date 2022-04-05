@@ -75,8 +75,21 @@ export class BookmarkService {
         this.group.totalExcluded = 0;
 
         this.group.tasks.forEach((task) => {
-            if(task.completionFlag === Completion.Y) this.group.totalCompleted++;
-            if(task.completionFlag === Completion.X) this.group.totalExcluded++;
+            if(task.isNumericCompletion) {
+                // Only increase excluded/completed by potential completion
+                if(task.completionFlag === Completion.X) {
+                    const potential = task.maxValue - task.minValue;
+                    this.group.totalExcluded += potential;
+                }
+                else {
+                    const completed = parseInt(task.completionFlag, 10) - task.minValue;
+                    this.group.totalCompleted += completed > 0 ? completed : 0;
+                }
+            }
+            else {
+                if(task.completionFlag === Completion.Y) this.group.totalCompleted++;
+                if(task.completionFlag === Completion.X) this.group.totalExcluded++;
+            }
         });
 
         this.group.updated$.next();

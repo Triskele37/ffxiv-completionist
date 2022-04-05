@@ -56,13 +56,14 @@ export class QuickMarkOverlayComponent {
         setTimeout(() => {
             let first = true;
             this.tasks.forEach((task) => {
-                if((!from && task.selected) || (from && task.completionFlag === from)) {
+                const realTo = this.getToFlag(task, from, to);
+                if(realTo !== false) {
                     history.tasks.push({
                         task,
                         flag: task.completionFlag as Completion
                     });
 
-                    first = !task.changeCompletion(to, first) && first;
+                    first = !task.changeCompletion(realTo, first) && first;
                 }
             });
 
@@ -70,9 +71,32 @@ export class QuickMarkOverlayComponent {
                 this.onMark.emit();
                 this.history.push(history);
                 this.svcData.applyDataToStore();
-                this.isModalVisible = false;
             }
+
+            this.isModalVisible = false;
         }, 100);
+    }
+
+    getToFlag(task: Task, from: Completion, to: Completion): string | false {
+        if(task.isNumericCompletion) {
+            const matches =
+                (!from && task.selected) ||
+                (from === Completion.Y && task.completionFlag === task.maxValue.toString()) ||
+                (from === Completion.N && task.completionFlag !== task.maxValue.toString()) ||
+                (from === Completion.X && task.completionFlag === Completion.X);
+
+            if(matches) {
+                if(to === Completion.Y) return task.maxValue.toString();
+                if(to === Completion.N) return '0';
+                if(to === Completion.X) return Completion.X;
+            }
+        }
+        else {
+            if(!from && task.selected) return to;
+            if(from && task.completionFlag === from) return to;
+        }
+
+        return false;
     }
 
     onUndoLastChange(): void {

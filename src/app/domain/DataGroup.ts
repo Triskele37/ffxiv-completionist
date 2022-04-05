@@ -198,13 +198,13 @@ export class DataGroup {
 
     // Total count of all tasks of this group & children
     get total(): number {
-        let totalTasks = this.tasks?.length ||  0;
-        if(this.isBookmarkGroup) return totalTasks;
+        let totalTasks: number = 0;
 
-        if(this._isNumericCompletion) {
-            totalTasks = 0;
-            Object.values(this.tasks).forEach((task) => totalTasks += task.maxValue - task.minValue);
-        }
+        this.tasks?.forEach((task) =>
+            totalTasks += task.isNumericCompletion ? task.maxValue - task.minValue : 1
+        );
+
+        if(this.isBookmarkGroup) return totalTasks;
 
         this.subGroups?.forEach((subGroup) => totalTasks += subGroup.total);
 

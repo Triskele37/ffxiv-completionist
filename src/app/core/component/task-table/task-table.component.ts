@@ -1,23 +1,30 @@
-import { ChangeDetectorRef, Component, Input, OnChanges, OnDestroy, SimpleChanges, ViewChild } from '@angular/core';
+import {
+    ChangeDetectorRef,
+    Component,
+    Input,
+    OnChanges,
+    OnDestroy,
+    OnInit,
+    SimpleChanges,
+    ViewChild
+} from '@angular/core';
 import { Table } from 'primeng/table';
 
-import { Completion } from '@constant';
-import { Column } from '@domain/Column';
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
+import { FilterService } from '@service/filter/filter.service';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { SaveStoreService } from '@service/store/save-store.service';
-import { fuzzyMatchObject } from '@util/fuzzyMatch';
 
-import { DragEvent, Filters, UniqueValues } from './types';
+import { DragEvent, UniqueValues } from './types';
 
 @Component({
     selector: 'xiv-task-table',
     templateUrl: 'task-table.component.html',
     styleUrls: ['./task-table.component.scss']
 })
-export class TaskTableComponent implements OnChanges, OnDestroy {
+export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
     @Input() group: DataGroup;
     @Input() tasks: Task[];
 
@@ -25,10 +32,6 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
 
     uniqueValues: UniqueValues;
     filteredTasks: Task[];
-
-    filters: Filters = {
-        completion: {}
-    };
 
     _taskTable: Table;
 
@@ -41,21 +44,19 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
 
     constructor(
         private cdr: ChangeDetectorRef,
+        private svcFilter: FilterService,
         private svcNavigation: NavigationService,
         private svcConfig: ConfigStoreService,
         private svcSaveStore: SaveStoreService
     ) {
-        this.filters.completion = this.svcConfig.get('table-filters');
     }
 
     //#region----------------------------------------------------------- Lifecycle
-    ngOnChanges(changes: SimpleChanges): void {
-        if(changes.group) {
-            this.filters = {
-                completion: this.filters.completion
-            };
-        }
+    ngOnInit() {
+        this.svcFilter.onFilterUpdate$.subscribe(this.onFilterChange.bind(this));
+    }
 
+    ngOnChanges(changes: SimpleChanges): void {
         if(changes.group || changes.tasks) {
             this.updateFilteredTasks();
             this.adjustVirtualHeader();
@@ -89,51 +90,14 @@ export class TaskTableComponent implements OnChanges, OnDestroy {
     }
 
     //#region----------------------------------------------------------- Filter
-    updateFilteredTasks(): void {
-        this.filteredTasks = this._filteredTasks;
-        this.uniqueValues = this._uniqueValues;
-        this.cdr.detectChanges();
-    }
-
-    onFilterChange(filters: Filters): void {
-        this.filters = filters;
+    onFilterChange(): void {
         this.updateFilteredTasks();
     }
 
-    get _filteredTasks(): Task[] {
-        let filtered = [...this.tasks];
-
-        // Add completion as a column to non-numeric groups
-        const columns: Partial<Column>[] = this.group.isNumericCompletion ? [] : [{ key: 'completion' }];
-        columns.push(...this.group.columns);
-
-        columns.forEach(({ key, link }) => {
-            const filter = this.filters[key];
-            if(!filter) return;
-
-            filtered = filtered.filter((task) => {
-                if(key === 'completion') {
-                    // Completion filters
-                    switch(task.completionFlag) {
-                        case Completion.Y: return filter.completed;
-                        case Completion.N: return filter.incomplete;
-                        case Completion.X: return filter.excluded;
-                        default: return filter.incomplete;
-                    }
-                }
-                else if(filter.value === 'Blank') { // filter out values
-                    return !task[key];
-                }
-                else if(filter.value === '*') { // filter out blanks
-                    return !!task[key];
-                }
-                else {
-                    return fuzzyMatchObject(task, key, filter.value, true, link);
-                }
-            });
-        });
-
-        return filtered;
+    updateFilteredTasks(): void {
+        this.filteredTasks = this.svcFilter.filterTasks(this.group, this.tasks);
+        this.uniqueValues = this._uniqueValues;
+        this.cdr.detectChanges();
     }
 
     get _uniqueValues(): UniqueValues {

@@ -1,7 +1,9 @@
 <td
+    *ngIf="task.completionFlag !== Completion.X"
     class="completion-flag-cell noSelect"
     [style.background-color]="task | gradient:task.completionFlag"
     [pTooltip]="tooltip"
+    (contextmenu)="onExcludeTaskClick($event)"
 >
     <p-inputNumber
         class="numeric-input"
@@ -14,6 +16,15 @@
     ></p-inputNumber>
 
     <span class="percentage">
-        {{percentage}}%
+        {{value | percentage:task.minValue:task.maxValue}}%
     </span>
+</td>
+
+<td
+    *ngIf="task.completionFlag === Completion.X"
+    class="completion-flag-cell excluded noSelect"
+    [pTooltip]="task.maxValue"
+    (click)="onExcludeTaskClick($event)"
+>
+    X
 </td>

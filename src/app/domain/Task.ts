@@ -194,6 +194,20 @@ export class Task {
     }
 
     private setCompletionNumber(value: string | number): void {
+        if(value === Completion.X) {
+            this._parent.updateExcluded(this.maxValue - this.minValue);
+            const completed = parseFloat(this.completionFlag);
+            if(completed - this.minValue > 0) {
+                this._parent.updateCompleted(-(completed - this.minValue));
+            }
+
+            this.completionFlag = value;
+            return;
+        }
+        else if(this.completionFlag === Completion.X) {
+            this._parent.updateExcluded(-(this.maxValue - this.minValue));
+        }
+
         const defaultValue = this.defaultNumericCompletion;
 
         // Ensure previous value is a number, assume 0 as default
