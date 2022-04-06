@@ -32,7 +32,7 @@
         "splashImage": "dist/assets/icons/favicon.png"
     },
     "mac": {
-        "icon": "assets/icons/icon.icns",
+        "icon": "assets/icons/favicon.png",
         "target": [
             "dmg"
         ]
@@ -53,10 +53,9 @@
         ]
     },
     "linux": {
-        "icon": "assets/icons",
+        "icon": "assets/icons/favicon.png",
         "target": [
             "AppImage"
         ]
     }
 }
-
