@@ -42,7 +42,16 @@ export const CRAFTING_LOG_DEFINITION: GroupDefinition = {
     ]
 };
 
-type Crafter = 'carpenter' | 'blacksmith' | 'armorer' | 'goldsmith' | 'leatherworker' | 'weaver' | 'alchemist' | 'culinarian';
+type Crafter =
+    'carpenter'
+    | 'blacksmith'
+    | 'armorer'
+    | 'goldsmith'
+    | 'leatherworker'
+    | 'weaver'
+    | 'alchemist'
+    | 'culinarian';
+
 function defineCrafter(crafter: Crafter): GroupDefinition {
     const definition = {
         path: crafter,
@@ -99,7 +108,7 @@ function defineCrafter(crafter: Crafter): GroupDefinition {
     });
 
     if(crafter === 'alchemist') {
-       definition.subGroups.push('ornaments');
+        definition.subGroups.push('ornaments');
     }
 
     definition.subGroups.push({

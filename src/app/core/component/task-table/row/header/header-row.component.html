@@ -17,10 +17,11 @@
             </div>
 
             <div class="column-filter">
-                <ng-container *ngTemplateOutlet="
-                    column.filterable ? filterableHeader : nonFilterableHeader;
-                    context: { $implicit: column }
-                "></ng-container>
+                <ng-container
+                    *ngTemplateOutlet="
+                        column.filterable ? filterableHeader : nonFilterableHeader;
+                        context: { $implicit: column }"
+                ></ng-container>
             </div>
         </th>
     </ng-container>

@@ -47,7 +47,7 @@
     left: 0;
     display: block;
     position: absolute;
-    margin-top: -var(--content-padding);
+    margin-top: -(var(--content-padding));
 }
 
 .p-steps {

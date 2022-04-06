@@ -106,10 +106,14 @@ export class FilterService {
 
     filterFlagCompletion(task: Task): boolean {
         switch(task.completionFlag) {
-            case Completion.Y: return this.completion.completed;
-            case Completion.N: return this.completion.incomplete;
-            case Completion.X: return this.completion.excluded;
-            default: return this.completion.incomplete;
+            case Completion.Y:
+                return this.completion.completed;
+            case Completion.N:
+                return this.completion.incomplete;
+            case Completion.X:
+                return this.completion.excluded;
+            default:
+                return this.completion.incomplete;
         }
     }
 

@@ -1,6 +1,6 @@
 {
-    "asar": false,
-    "productName": "ffxiv-completionist",
+    "asar": true,
+    "productName": "FFXIV Completionist",
     "appId": "com.ffxiv.completionist",
     "directories": {
         "output": "release/"
@@ -27,9 +27,6 @@
         "target": [
             "portable"
         ]
-    },
-    "portable": {
-        "splashImage": "dist/assets/icons/favicon.png"
     },
     "mac": {
         "icon": "assets/icons/favicon.png",

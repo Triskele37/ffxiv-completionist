@@ -24,8 +24,10 @@ export class HeaderRowComponent {
         switch(filterValue) {
             case null:
             case undefined:
-            case '': return 'Blank';
-            default: return filterValue;
+            case '':
+                return 'Blank';
+            default:
+                return filterValue;
         }
     }
 

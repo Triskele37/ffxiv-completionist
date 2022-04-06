@@ -37,4 +37,5 @@ export class LandingPageComponent {
         LandingPageComponent
     ]
 })
-export class LandingPageModule {}
+export class LandingPageModule {
+}

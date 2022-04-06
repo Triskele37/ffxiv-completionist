@@ -21,7 +21,9 @@ export class TableActionOverlayComponent implements OnChanges {
     }
 
     ngOnChanges(changes: SimpleChanges): void {
-        this.isBookmarked = this.svcBookmark.isBookmarked(this.group);
+        if(changes.group) {
+            this.isBookmarked = this.svcBookmark.isBookmarked(this.group);
+        }
     }
 
     onMouseEnter(): void {

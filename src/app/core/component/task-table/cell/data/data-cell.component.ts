@@ -40,6 +40,7 @@ export class DataCellComponent implements OnChanges, OnDestroy {
 
     //#region------------------------------------------------------- Ref
     ref: ElementRef;
+
     @ViewChild('cell') set cell(ref: ElementRef) {
         this.ref = ref;
         this.observeCellResize();

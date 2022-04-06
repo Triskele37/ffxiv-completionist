@@ -99,15 +99,20 @@ export class CharacterSettingsComponent implements OnInit {
         this.clearStartingZone(gridania, limsa, uldah);
 
         switch(this.settings.startingClass.value) {
-            case 'Archer': case 'Lancer': case 'Conjurer':
+            case 'Archer':
+            case 'Lancer':
+            case 'Conjurer':
                 pre = this.svcData.data.getChildTask(`${side}.gridanian.gridania.65575`);
                 this.setAsStartingZone(gridania, pre);
                 break;
-            case 'Marauder': case 'Arcanist':
+            case 'Marauder':
+            case 'Arcanist':
                 pre = this.svcData.data.getChildTask(`${side}.lominsan.limsa-lominsa.65643`);
                 this.setAsStartingZone(limsa, pre);
                 break;
-            case 'Gladiator': case 'Pugilist': case 'Thaumaturge':
+            case 'Gladiator':
+            case 'Pugilist':
+            case 'Thaumaturge':
                 pre = this.svcData.data.getChildTask(`${side}.uldahn.uldah.66130`);
                 this.setAsStartingZone(uldah, pre);
                 break;

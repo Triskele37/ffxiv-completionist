@@ -290,7 +290,7 @@
     }
 
     .p-menubar .p-menubar-root-list ul li ul li ul li ul li ul li a {
-        padding-left: 1var(--content-padding);
+        padding-left: var(--content-padding);
     }
 
     .p-menubar.p-menubar-mobile-active .p-menubar-root-list {

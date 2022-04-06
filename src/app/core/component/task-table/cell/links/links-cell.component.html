@@ -34,10 +34,9 @@
                 (mouseleave)="onOverlayLeave()"
             >
                 <ng-container *ngFor="let link of links">
-                    <ng-container *ngTemplateOutlet="
-                        valueTemplate;
-                        context: { $implicit: link }
-                    "></ng-container>
+                    <ng-container
+                        *ngTemplateOutlet="valueTemplate; context: { $implicit: link }"
+                    ></ng-container>
                 </ng-container>
             </div>
         </ng-template>

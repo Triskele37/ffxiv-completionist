@@ -5,20 +5,21 @@
     (click)="onClick($event)"
 >
     <!-- Completion Cell -->
-    <ng-container *ngTemplateOutlet="
-        task.isNumericCompletion ? numericCompletionCell : completionCell
-    "></ng-container>
+    <ng-container
+        *ngTemplateOutlet="task.isNumericCompletion ? numericCompletionCell : completionCell"
+    ></ng-container>
 
     <!-- Data Cells -->
     <ng-container *ngFor="let column of group.columns">
         <td class="data-cell">
-            <ng-container *ngTemplateOutlet="
-                column.key === 'fullStorageKey' ? keyCell :
-                column.editable ? editCell :
-                column.key === 'contentLink' ? showAllLinkCell :
-                column.link ? linksCell : staticCell;
-                context: { $implicit: column.key }
-            "></ng-container>
+            <ng-container
+                *ngTemplateOutlet="
+                    column.key === 'fullStorageKey' ? keyCell :
+                    column.editable ? editCell :
+                    column.key === 'contentLink' ? showAllLinkCell :
+                    column.link ? linksCell : staticCell;
+                    context: { $implicit: column.key }"
+            ></ng-container>
         </td>
     </ng-container>
 

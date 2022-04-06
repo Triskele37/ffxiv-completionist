@@ -109,7 +109,7 @@ export class SearchService {
                     if(!task[key]) return;
 
                     if(fuzzyMatchObject(task, key, searchTerm, partial, link)) {
-                        let value = '';
+                        let value: string;
 
                         if(Array.isArray(task[key])) {
                             value = task[key]

@@ -24,14 +24,16 @@ export class SummaryHeaderComponent implements OnInit {
     hideGroup: boolean = false;
 
     // Actions available when right clicking either bar
-    contextMenuItems: MenuItem[] = [{
-        label: 'Hide Overall',
-        command: this.toggleOverall.bind(this),
-        state: { hide: false }
-    }, {
-        label: 'Hide Group Line',
-        command: this.toggleGroup.bind(this)
-    }];
+    contextMenuItems: MenuItem[] = [
+        {
+            label: 'Hide Overall',
+            command: this.toggleOverall.bind(this),
+            state: { hide: false }
+        }, {
+            label: 'Hide Group Line',
+            command: this.toggleGroup.bind(this)
+        }
+    ];
 
     constructor(
         private svcData: DataService,

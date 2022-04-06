@@ -97,7 +97,7 @@ p-checkbox.ng-dirty.ng-invalid > .p-checkbox > .p-checkbox-box {
     border-right: 2px solid transparent;
     border-bottom: 2px solid transparent;
     transform: rotate(45deg);
-    transform-origin: 0% 100%;
+    transform-origin: 0 100%;
     animation: checkbox-check 125ms 50ms linear forwards;
 }
 

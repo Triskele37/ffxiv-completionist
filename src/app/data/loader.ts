@@ -83,7 +83,9 @@ function applyStaticHeaderProps(headers, key) {
         case 'zone':
             headers[key].filterable = headers[key].filterable ?? true;
             break;
-        case 'level': case 'iLevel': case 'iLvl':
+        case 'level':
+        case 'iLevel':
+        case 'iLvl':
             headers[key].width = headers[key].width ?? 75;
             break;
     }
