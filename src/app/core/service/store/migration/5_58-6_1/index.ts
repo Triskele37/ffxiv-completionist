@@ -40,6 +40,10 @@ export function migrate_5_58_to_6_1(svcSaveStore: SaveStoreService): void {
     // Combined Spiders/Webs facepaint
     store.deleteTask('character.character.aesthetician', 27);
 
+    // Removed FATE bosses from hunt
+    store.deleteTask('duty.dutyraid-finder.the-hunt.shb', 31);
+    store.deleteTask('duty.dutyraid-finder.the-hunt.shb', 32);
+
     // Large-scale changes by group
     migrate_6_1_fate(store);
     migrate_6_1_emotes(store);

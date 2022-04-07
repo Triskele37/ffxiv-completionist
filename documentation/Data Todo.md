@@ -7,6 +7,7 @@
 
 **Fix**
 - Achievement Order
+- Move Forged Anew resistance sidequest into quasi-quests
 
 ------------------------------------------------------------------ Prioritize
 **Add**
