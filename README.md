@@ -1,7 +1,7 @@
 # FFXIV Completionist
 
 ## Documentation
-[Development Setup](_documentation/Development.md)
+[Development Setup](_documentation/Development.md)  
 [Localization](_documentation/Localization%20Notes.md)
 
 ## Electron Main Process

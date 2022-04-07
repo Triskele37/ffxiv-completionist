@@ -1,6 +1,6 @@
 **General**
-> Content under `resources` and in `src/assets/i18n` have content to be localized
-> Only the right side of any value should be localized
+> Content under `resources` and in `src/assets/i18n` have content to be localized  
+> Only the right side of any value should be localized  
 > `resources/common` should not contain language specific text
 
 **Automated Sections**
