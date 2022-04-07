@@ -10,11 +10,12 @@ main.js
 /out-tsc
 /release
 src/**/*.js
-!src/karma.conf.js
 /tmp
 *.js.map
+!src/karma.conf.js
 
 # Miscellaneous.
+/.angular/cache
 /.sass-cache
 /connect.lock
 /coverage
@@ -25,8 +26,10 @@ testem.log
 
 # End-to-end testing.
 /e2e/*.js
-!/e2e/protractor.conf.js
 /e2e/*.map
+/e2e/tracing
+/e2e/screenshots
+!/e2e/protractor.conf.js
 
 # Operating system files.
 .DS_Store
@@ -36,11 +39,11 @@ Thumbs.db
 xivapi/cache/*
 
 # IDE - General.
-.project
-.classpath
 .c9/
-*.launch
+.classpath
+.project
 .settings/
+*.launch
 *.sublime-workspace
 
 # IDE - JetBrains.
@@ -68,6 +71,6 @@ xivapi/cache/*
 # IDE - VSCode.
 .vscode/*
 .vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
 !.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
