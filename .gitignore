@@ -1,36 +1,20 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# compiled output
-/build
-/dist
-/tmp
-/out-tsc
-/app-builds
-/release
-main.js
-src/**/*.js
-!src/karma.conf.js
-*.js.map
-
-# dependencies
+# Dependencies.
 node_modules
 
-# IDEs and editors
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+# Compiled output.
+/app-builds
+/build
+/dist
+main.js
+/out-tsc
+/release
+src/**/*.js
+!src/karma.conf.js
+/tmp
+*.js.map
 
-# IDE - VSCode
-.vscode/*
-.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-# misc
+# Miscellaneous.
 /.sass-cache
 /connect.lock
 /coverage
@@ -39,14 +23,51 @@ npm-debug.log
 testem.log
 /typings
 
-# e2e
+# End-to-end testing.
 /e2e/*.js
 !/e2e/protractor.conf.js
 /e2e/*.map
 
-# System Files
+# Operating system files.
 .DS_Store
 Thumbs.db
 
-# scripts
+# Scripts.
 xivapi/cache/*
+
+# IDE - General.
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - JetBrains.
+.idea/**/aws.xml
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/dbnavigator.xml
+.idea/**/dictionaries
+.idea/**/dynamic.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/mongoSettings.xml
+.idea/**/shelf
+.idea/**/sqlDataSources.xml
+.idea/**/tasks.xml
+.idea/**/uiDesigner.xml
+.idea/**/usage.statistics.xml
+.idea/**/workspace.xml
+.idea/httpRequests
+.idea/replstate.xml
+*.iws
+
+# IDE - VSCode.
+.vscode/*
+.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
