@@ -1,8 +1,11 @@
 {
     "name": "ffxiv-completionist",
     "version": "1.0.0",
-    "main": "app/main.js",
+    "description": "Track your progress to 100% completion of Final Fantasy XIV.",
+    "license": "GPL-3.0-only",
+    "author": "Nicholas Simmons",
     "private": true,
+    "main": "app/main.js",
     "scripts": {
         "postinstall": "electron-builder install-app-deps",
         "ng": "ng",
