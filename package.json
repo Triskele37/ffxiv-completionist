@@ -30,7 +30,6 @@
         "electron:build": "npm run build:prod && electron-builder build --publish=never",
         "test": "ng test --watch=false",
         "test:watch": "ng test",
-        "version": "conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
         "lint": "ng lint"
     },
     "dependencies": {
@@ -71,7 +70,6 @@
         "@typescript-eslint/parser": "4.28.3",
         "chai": "4.3.4",
         "cli-truncate": "3.1.0",
-        "conventional-changelog-cli": "2.1.1",
         "cross-env": "7.0.3",
         "electron": "13.1.7",
         "electron-builder": "23.0.3",
