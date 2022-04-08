@@ -24,19 +24,9 @@ npm-debug.log
 testem.log
 /typings
 
-# End-to-end testing.
-/e2e/*.js
-/e2e/*.map
-/e2e/tracing
-/e2e/screenshots
-!/e2e/protractor.conf.js
-
 # Operating system files.
 .DS_Store
 Thumbs.db
-
-# Scripts.
-xivapi/cache/*
 
 # IDE - General.
 .c9/

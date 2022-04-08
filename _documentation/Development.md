@@ -15,9 +15,7 @@ Ensure at least the following is setup on your system:
 Multiple directories within this project need to have modules installed  
 * `ffxiv-completionist`
 * `ffxiv-completionist/app`
-* `ffxiv-completionist/xivapi`
-
-The app itself only needs the first two directories to be setup  
+  
 To install node modules:
 1. Open a console window
 2. Navigate to the relevant directory
