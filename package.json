@@ -1,38 +1,30 @@
 {
     "name": "ffxiv-completionist",
     "version": "1.0.0",
-    "keywords": [
-        "angular",
-        "angular 12",
-        "electron",
-        "nodejs",
-        "typescript",
-        "spectron",
-        "eslint",
-        "sass",
-        "windows",
-        "mac",
-        "linux"
-    ],
-    "main": "app/main.js",
+    "description": "Track your progress to 100% completion of Final Fantasy XIV.",
+    "license": "GPL-3.0-only",
+    "author": "Nicholas Simmons",
     "private": true,
+    "main": "app/main.js",
     "scripts": {
-        "postinstall": "electron-builder install-app-deps",
-        "ng": "ng",
-        "start": "npm-run-all -p electron:serve ng:serve",
         "build": "npm run electron:serve-tsc && ng build --base-href ./",
         "build:dev": "npm run build -- -c dev",
         "build:prod": "npm run build -- -c production",
-        "ng:serve": "ng serve -c web",
-        "electron:serve-tsc": "tsc -p tsconfig.serve.json",
-        "electron:serve": "wait-on tcp:4200 && npm run electron:serve-tsc && npx electron . --serve",
-        "electron:local": "npm run build:prod && npx electron .",
         "electron:build": "npm run build:prod && electron-builder build --publish=never",
+        "electron:local": "npm run build:prod && npx electron .",
+        "electron:serve": "wait-on tcp:4200 && npm run electron:serve-tsc && npx electron . --serve",
+        "electron:serve-tsc": "tsc -p tsconfig.serve.json",
+        "lint": "ng lint",
+        "ng": "ng",
+        "ng:serve": "ng serve -c web",
+        "postinstall": "electron-builder install-app-deps",
+        "start": "npm-run-all -p electron:serve ng:serve",
         "test": "ng test --watch=false",
-        "test:watch": "ng test",
-        "version": "conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
-        "lint": "ng lint"
+        "test:watch": "ng test"
     },
+    "browserslist": [
+        "chrome 91"
+    ],
     "dependencies": {
         "@angular/animations": "^12.x",
         "@angular/common": "^12.x",
@@ -71,7 +63,6 @@
         "@typescript-eslint/parser": "4.28.3",
         "chai": "4.3.4",
         "cli-truncate": "3.1.0",
-        "conventional-changelog-cli": "2.1.1",
         "cross-env": "7.0.3",
         "electron": "13.1.7",
         "electron-builder": "23.0.3",
@@ -95,16 +86,5 @@
         "typescript": "~4.2.0",
         "wait-on": "6.0.1",
         "webdriver-manager": "12.1.8"
-    },
-    "engines": {
-        "node": ">=14.0.0"
-    },
-    "browserslist": [
-        "chrome 91"
-    ],
-    "browser": {
-        "fs": false,
-        "path": false,
-        "os": false
     }
 }
