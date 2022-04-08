@@ -21,7 +21,7 @@ from it are subject to the following license
 > along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Documentation
-[License](LICENSE.md)
+[License](LICENSE.txt)
 [Development Setup](_documentation/Development.md)  
 [Localization](_documentation/Localization%20Notes.md)
 
