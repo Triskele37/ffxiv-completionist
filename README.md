@@ -1,7 +1,7 @@
 # FFXIV Completionist
 
 ## License
-The "source code" in this repository and "source code" conveyed and/or propagated  
+The "source code" in this repository and "source code" conveyed and/or propagated 
 from it are subject to the following license
 
 > FFXIV Completionist is an application for tracking progress in Final Fantasy XIV  
@@ -21,7 +21,7 @@ from it are subject to the following license
 > along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Documentation
-[License](LICENSE.txt)
+[License](LICENSE.txt)  
 [Development Setup](_documentation/Development.md)  
 [Localization](_documentation/Localization%20Notes.md)
 
