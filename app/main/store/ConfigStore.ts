@@ -20,7 +20,7 @@ export class ConfigStore {
             'lang': 'en',
             'starting-class': '',
             'last-breadcrumbs': ['main-menu'],
-            'chaining-enabled': false,
+            'chaining-enabled': true,
             'chain-history-limit': 10,
             'chain-min-threshold': 10,
             'table-filters': {
