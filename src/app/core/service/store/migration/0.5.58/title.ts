@@ -1,7 +1,7 @@
 /** Titles ingested from XIVAPI in this version
  * All IDs need to be updated to their actual ID
  * */
-export function migrate_5_58_titles(store): void {
+export function migrateTitles(store): void {
     const titlePath = 'character.character.title';
 
     // Remove old IDs that become unused

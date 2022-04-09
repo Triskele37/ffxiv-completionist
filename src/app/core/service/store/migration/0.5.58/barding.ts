@@ -1,7 +1,7 @@
 /** Barding ingested from XIVAPI in this version
  * All IDs need to be updated to their actual ID
  * */
-export function migrate_5_58_barding(store): void {
+export function migrateBarding(store): void {
     const bardingPath = 'character.companion.barding';
 
     // Remove old IDs that become unused

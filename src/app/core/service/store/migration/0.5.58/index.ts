@@ -1,12 +1,12 @@
 import { SaveStoreService } from '../../save-store.service';
 import { ChangeStore } from '../ChangeStore';
 
-import { migrate_5_58_titles } from './title';
-import { migrate_5_58_barding } from './barding';
-import { migrate_5_58_emotes } from './emote';
-import { migrate_5_58_shared_fate } from './shared-fate';
+import { migrateTitles } from './title';
+import { migrateBarding } from './barding';
+import { migrateEmotes } from './emote';
+import { migrateSharedFate } from './shared-fate';
 
-export function migrate_5_5_to_5_58(svcSaveStore: SaveStoreService): void {
+export function migrateTo_0_5_58(svcSaveStore: SaveStoreService): void {
     const store = new ChangeStore(svcSaveStore, '0.5.58');
 
     // Fixing bug from last build
@@ -26,10 +26,10 @@ export function migrate_5_5_to_5_58(svcSaveStore: SaveStoreService): void {
 
     // Sections where ids have to be completely re-mapped
     if(process.env.NODE_ENV !== 'development') {
-        migrate_5_58_titles(store);
-        migrate_5_58_barding(store);
-        migrate_5_58_emotes(store);
-        migrate_5_58_shared_fate(store);
+        migrateTitles(store);
+        migrateBarding(store);
+        migrateEmotes(store);
+        migrateSharedFate(store);
     }
 
     //------------------------------------------------------------------ Custom Task Reformat

@@ -1,6 +1,6 @@
 /** IDs made unique within all shared fates
  * */
-export function migrate_5_58_shared_fate(store): void {
+export function migrateSharedFate(store): void {
     const sharedFate = 'travel.shared-fate';
 
     const changeAndMove = (zone, oldId, newId) => {

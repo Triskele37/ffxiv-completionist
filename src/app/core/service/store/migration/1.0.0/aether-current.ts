@@ -3,7 +3,7 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 /** 6 Aether Currents removed from each zone in previous expansions
  * Delete removed current ids
  * */
-export function migrate_6_1_aetherCurrent(store: ChangeStore): void {
+export function migrateAetherCurrents(store: ChangeStore): void {
     // Delete removed currents
 
     const CWH = 'travel.aether-currents.hw.coerthas-western-highlands'; //#region

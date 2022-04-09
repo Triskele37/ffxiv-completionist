@@ -1,16 +1,16 @@
 import { SaveStoreService } from '../../save-store.service';
 import { ChangeStore } from '../ChangeStore';
 
-import { migrate_6_1_fate } from './fate';
-import { migrate_6_1_emotes } from './emotes';
-import { migrate_6_1_paladin } from './paladin';
-import { migrate_6_1_housing } from './housing';
-import { migrate_6_1_porters } from './porters';
-import { migrate_6_1_aetherytes } from './aetherytes';
-import { migrate_6_1_gatheringLog } from './gathering-log';
-import { migrate_6_1_aetherCurrent } from './aether-current';
+import { migrateFates } from './fate';
+import { migrateEmotes } from './emotes';
+import { migratePaladinArms } from './paladin';
+import { migrateHousing } from './housing';
+import { migratePorters } from './porters';
+import { migrateAetherytes } from './aetherytes';
+import { migrateGatheringLogs } from './gathering-log';
+import { migrateAetherCurrents } from './aether-current';
 
-export function migrate_5_58_to_6_1(svcSaveStore: SaveStoreService): void {
+export function migrateTo_1_0_0(svcSaveStore: SaveStoreService): void {
     const store = new ChangeStore(svcSaveStore, '1.0.0');
 
     // Renamed key
@@ -21,21 +21,14 @@ export function migrate_5_58_to_6_1(svcSaveStore: SaveStoreService): void {
     const ROLE = 'duty.quests.class--job.role';
     store.moveGroup(`${ROLE}.magical-dps`, `${ROLE}.magical-ranged-dps`);
 
-    // 3 duplicate recipe errors
+    // 3 duplicate recipes, clear in-case of unintended markings
     store.deleteTask('logs.crafting-log.carpenter.level-based.46-50', 1941);
     store.deleteTask('logs.crafting-log.goldsmith.level-based.46-50', 2139);
     store.deleteTask('logs.crafting-log.weaver.level-based.41-45', 2837);
 
-    // Moved
-    store.moveGroup(
-        'duty.trust',
-        'duty.trust.shb'
-    );
-
-    store.moveGroup(
-        'travel.shared-fate',
-        'travel.shared-fate.shb'
-    );
+    // Expanded with expansion
+    store.moveGroup('duty.trust', 'duty.trust.shb');
+    store.moveGroup('travel.shared-fate', 'travel.shared-fate.shb');
 
     // Combined Spiders/Webs facepaint
     store.deleteTask('character.character.aesthetician', 27);
@@ -45,15 +38,16 @@ export function migrate_5_58_to_6_1(svcSaveStore: SaveStoreService): void {
     store.deleteTask('duty.dutyraid-finder.the-hunt.shb', 32);
 
     // Large-scale changes by group
-    migrate_6_1_fate(store);
-    migrate_6_1_emotes(store);
-    migrate_6_1_paladin(store);
-    migrate_6_1_housing(store);
-    migrate_6_1_porters(store);
-    migrate_6_1_aetherytes(store);
-    migrate_6_1_gatheringLog(store);
-    migrate_6_1_aetherCurrent(store);
+    migrateFates(store);
+    migrateEmotes(store);
+    migratePaladinArms(store);
+    migrateHousing(store);
+    migratePorters(store);
+    migrateAetherytes(store);
+    migrateGatheringLogs(store);
+    migrateAetherCurrents(store);
 
+    // Fix "defaultCompletion": "X" being ignored
     diveForClear(store.newStore);
 
     store.write();

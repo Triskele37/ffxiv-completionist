@@ -1,7 +1,7 @@
 /** Emotes ingested from XIVAPI in this version
  * All IDs need to be updated to their actual ID
  * */
-export function migrate_5_58_emotes(store): void {
+export function migrateEmotes(store): void {
     const emotePath = 'social.emotes';
 
     // Remove old IDs that become unused

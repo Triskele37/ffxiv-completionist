@@ -3,7 +3,7 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 
 /** Paladin trial weapon recipes were combined in 6.0
  * */
-export function migrate_6_1_paladin(store: ChangeStore): void {
+export function migratePaladinArms(store: ChangeStore): void {
     const setNewRecipeCompletion = (
         mr: number,
         swordId: number,

@@ -3,7 +3,7 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 /** Housing 1 & 2 moved into different
  * sections based on item type in 6.0
  * */
-export function migrate_6_1_housing(store: ChangeStore): void {
+export function migrateHousing(store: ChangeStore): void {
     //#region Alchemist
     const ALC = buildCrafterPaths('alchemist');
 

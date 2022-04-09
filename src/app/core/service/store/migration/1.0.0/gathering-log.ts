@@ -2,7 +2,7 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 
 /** Reorganize Gathering Special Sections
  * */
-export function migrate_6_1_gatheringLog(store: ChangeStore): void {
+export function migrateGatheringLogs(store: ChangeStore): void {
     store.moveGroup('logs.gathering-log', 'logs.gathering');
 
     store.moveTask(

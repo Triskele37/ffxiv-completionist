@@ -4,6 +4,7 @@
 
 **Change**
 - Convert DataGroup.tasks to Map<string, Task>
+- flatten Duty/Raid Finder group
 
 **Fix**
 - Achievement Order

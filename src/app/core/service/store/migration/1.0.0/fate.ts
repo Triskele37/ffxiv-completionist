@@ -3,7 +3,7 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 /** FATE ingested from XIVAPI in this version
  * All IDs need to be updated to their actual ID
  * */
-export function migrate_6_1_fate(store: ChangeStore): void {
+export function migrateFates(store: ChangeStore): void {
     store.moveGroup('duty.fates', 'duty.fate');
 
     // Update with new IDs

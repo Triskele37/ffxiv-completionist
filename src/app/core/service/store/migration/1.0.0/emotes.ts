@@ -2,7 +2,7 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 
 /** Categorized Emotes to match in-game
  * */
-export function migrate_6_1_emotes(store: ChangeStore): void {
+export function migrateEmotes(store: ChangeStore): void {
     const EMOTES = 'social.emotes';
 
     const GENERAL = `${EMOTES}.general`;
