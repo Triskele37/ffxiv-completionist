@@ -1,0 +1,205 @@
+{
+    "key": "leatherworker",
+    "tasks": {
+        "x65641": {
+            "level": 1,
+            "cPrev": [
+                "duty.quests.other.quasi-quests.65724"
+            ],
+            "cNext": [
+                65745
+            ]
+        },
+        "x65745": {
+            "level": 1,
+            "cPrev": [
+                65641
+            ],
+            "cNext": [
+                65642
+            ]
+        },
+        "x65642": {
+            "level": 5,
+            "cPrev": [
+                65745
+            ],
+            "cNext": [
+                65671
+            ]
+        },
+        "x65671": {
+            "level": 10,
+            "cPrev": [
+                65642
+            ],
+            "cNext": [
+                65672
+            ]
+        },
+        "x65672": {
+            "level": 15,
+            "cPrev": [
+                65671
+            ],
+            "cNext": [
+                65673
+            ]
+        },
+        "x65673": {
+            "level": 20,
+            "cPrev": [
+                65672
+            ],
+            "cNext": [
+                65587
+            ]
+        },
+        "x65587": {
+            "level": 25,
+            "cPrev": [
+                65673
+            ],
+            "cNext": [
+                65597
+            ]
+        },
+        "x65597": {
+            "level": 30,
+            "cPrev": [
+                65587
+            ],
+            "cNext": [
+                65599
+            ],
+            "cCombo": [
+                "character.achievement.quests.quests.316"
+            ]
+        },
+        "x65599": {
+            "level": 35,
+            "cPrev": [
+                65597
+            ],
+            "cNext": [
+                65600
+            ]
+        },
+        "x65600": {
+            "level": 40,
+            "cPrev": [
+                65599
+            ],
+            "cNext": [
+                65601
+            ]
+        },
+        "x65601": {
+            "level": 45,
+            "cPrev": [
+                65600
+            ],
+            "cNext": [
+                65602
+            ]
+        },
+        "x65602": {
+            "level": 50,
+            "cPrev": [
+                65601
+            ],
+            "cNext": [
+                67611
+            ]
+        },
+        "x67611": {
+            "level": 50,
+            "cPrev": [
+                65602,
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                67612
+            ]
+        },
+        "x67612": {
+            "level": 53,
+            "cPrev": [
+                67611
+            ],
+            "cNext": [
+                67613
+            ]
+        },
+        "x67613": {
+            "level": 55,
+            "cPrev": [
+                67612
+            ],
+            "cNext": [
+                67614
+            ]
+        },
+        "x67614": {
+            "level": 58,
+            "cPrev": [
+                67613
+            ],
+            "cNext": [
+                67615
+            ]
+        },
+        "x67615": {
+            "level": 60,
+            "cPrev": [
+                67614
+            ],
+            "cNext": [
+                68145
+            ]
+        },
+        "x68145": {
+            "level": 60,
+            "cPrev": [
+                67615,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                68146
+            ]
+        },
+        "x68146": {
+            "level": 63,
+            "cPrev": [
+                68145
+            ],
+            "cNext": [
+                68147
+            ]
+        },
+        "x68147": {
+            "level": 65,
+            "cPrev": [
+                68146
+            ],
+            "cNext": [
+                68150
+            ]
+        },
+        "x68150": {
+            "level": 68,
+            "cPrev": [
+                68147
+            ],
+            "cNext": [
+                68151
+            ]
+        },
+        "x68151": {
+            "level": 70,
+            "cPrev": [
+                68150
+            ]
+        }
+    }
+}

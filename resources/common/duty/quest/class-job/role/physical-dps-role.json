@@ -1,0 +1,68 @@
+{
+    "key": "physical-dps",
+    "tasks": {
+        "x68809": {
+            "level": 70,
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68837"
+            ],
+            "cNext": [
+                68810
+            ]
+        },
+        "x68810": {
+            "level": 72,
+            "cPrev": [
+                68809
+            ],
+            "cNext": [
+                68811
+            ]
+        },
+        "x68811": {
+            "level": 74,
+            "cPrev": [
+                68810
+            ],
+            "cNext": [
+                68812
+            ]
+        },
+        "x68812": {
+            "level": 76,
+            "cPrev": [
+                68811
+            ],
+            "cNext": [
+                68813
+            ]
+        },
+        "x68813": {
+            "level": 78,
+            "cPrev": [
+                68812
+            ],
+            "cNext": [
+                68814
+            ]
+        },
+        "x68814": {
+            "level": 80,
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war-job.dragoon.68749",
+                "duty.quests.class--job.disciple-of-war-job.ninja.68755",
+                "duty.quests.class--job.disciple-of-war-job.monk.68747",
+                "duty.quests.class--job.disciple-of-war-job.bard.68750",
+                "duty.quests.class--job.disciple-of-war-job.machinist.68756",
+                "duty.quests.class--job.disciple-of-war-job.samurai.68759",
+                "duty.quests.class--job.disciple-of-war-job.dancer.68762"
+            ],
+            "cPrev": [
+                68813
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.2303"
+            ]
+        }
+    }
+}

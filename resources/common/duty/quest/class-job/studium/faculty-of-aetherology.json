@@ -1,0 +1,65 @@
+{
+    "key": "faculty-of-aetherology",
+    "tasks": {
+        "x69696": {
+            "level": 80,
+            "cPrev": [
+                "duty.quests.class--job.studium.70009"
+            ],
+            "cNext": [
+                69697
+            ]
+        },
+        "x69697": {
+            "level": 80,
+            "cPrev": [
+                69696
+            ],
+            "cNext": [
+                69698
+            ]
+        },
+        "x69698": {
+            "level": 83,
+            "cPrev": [
+                69697
+            ],
+            "cNext": [
+                69699
+            ]
+        },
+        "x69699": {
+            "level": 85,
+            "cPrev": [
+                69698
+            ],
+            "cNext": [
+                69700
+            ]
+        },
+        "x69700": {
+            "level": 85,
+            "cPrev": [
+                69699
+            ],
+            "cNext": [
+                69701
+            ]
+        },
+        "x69701": {
+            "level": 88,
+            "cPrev": [
+                69700
+            ],
+            "cNext": [
+                69702
+            ]
+        },
+        "x69702": {
+            "level": 90,
+            "cPrev": [
+                69701
+            ]
+        }
+    }
+}

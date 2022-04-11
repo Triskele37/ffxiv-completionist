@@ -3,11 +3,12 @@
     "tasks": {
         "x69319": {
             "level": 80,
+            "unlock": "duty.dutyraid-finder.trials.shb.3",
             "cPrev": [
-                69297
+                "duty.quests.main-scenario.post-shadowbringers.69297"
             ],
             "cNext": [
-                69378,
+                "duty.quests.other.quasi-quests.69378",
                 69431
             ]
         },
@@ -22,6 +23,7 @@
         },
         "x69516": {
             "level": 80,
+            "unlock": "duty.dutyraid-finder.trials.shb.5",
             "cPrev": [
                 69431
             ],
@@ -40,6 +42,7 @@
         },
         "x69567": {
             "level": 80,
+            "unlock": "duty.dutyraid-finder.trials.shb.17",
             "cPrev": [
                 69517
             ],
@@ -52,7 +55,9 @@
             "cPrev": [
                 69567
             ],
-            "cSiblings": ["a.2887"]
+            "cSiblings": [
+                "character.achievement.quests.quests.2887"
+            ]
         }
     }
 }

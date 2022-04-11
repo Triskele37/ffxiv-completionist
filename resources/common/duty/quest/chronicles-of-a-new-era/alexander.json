@@ -3,8 +3,9 @@
     "tasks": {
         "x67626": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.raids.hw.0",
             "cPrev": [
-                67205
+                "duty.quests.main-scenario.heavensward.67205"
             ],
             "cNext": [
                 67627
@@ -12,6 +13,7 @@
         },
         "x67627": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.raids.hw.1",
             "cPrev": [
                 67626
             ],
@@ -21,6 +23,7 @@
         },
         "x67628": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.raids.hw.2",
             "cPrev": [
                 67627
             ],
@@ -30,6 +33,7 @@
         },
         "x67629": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.raids.hw.3",
             "cPrev": [
                 67628
             ],
@@ -44,12 +48,15 @@
             ],
             "cNext": [
                 67785,
-                67644
+                "duty.quests.sidequests.side-story.wandering-minstrel.67644"
             ],
-            "cSiblings": ["a.1164"]
+            "cSiblings": [
+                "character.achievement.quests.quests.1164"
+            ]
         },
         "x67785": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.raids.hw.8",
             "cPrev": [
                 67630
             ],
@@ -59,6 +66,7 @@
         },
         "x67786": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.raids.hw.9",
             "cPrev": [
                 67785
             ],
@@ -68,6 +76,7 @@
         },
         "x67787": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.raids.hw.10",
             "cPrev": [
                 67786
             ],
@@ -77,6 +86,7 @@
         },
         "x67788": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.raids.hw.11",
             "cPrev": [
                 67787
             ],
@@ -90,13 +100,16 @@
                 67788
             ],
             "cNext": [
-                67790,
+                "duty.quests.sidequests.side-story.wandering-minstrel.67790",
                 67871
             ],
-            "cSiblings": ["a.1494"]
+            "cSiblings": [
+                "character.achievement.quests.quests.1494"
+            ]
         },
         "x67871": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.raids.hw.16",
             "cPrev": [
                 67789
             ],
@@ -106,6 +119,7 @@
         },
         "x67872": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.raids.hw.17",
             "cPrev": [
                 67871
             ],
@@ -115,6 +129,7 @@
         },
         "x67873": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.raids.hw.18",
             "cPrev": [
                 67872
             ],
@@ -124,6 +139,7 @@
         },
         "x67874": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.raids.hw.19",
             "cPrev": [
                 67873
             ],
@@ -137,9 +153,11 @@
                 67874
             ],
             "cNext": [
-                67876
+                "duty.quests.sidequests.side-story.wandering-minstrel.67876"
             ],
-            "cSiblings": ["a.1629"]
+            "cSiblings": [
+                "character.achievement.quests.quests.1629"
+            ]
         }
     }
 }

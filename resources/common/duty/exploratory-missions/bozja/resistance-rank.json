@@ -1,128 +1,253 @@
 {
     "key": "resistance-rank",
+    "headers": {
+        "name": {
+            "width": 75
+        },
+        "questUnlock": {
+            "link": true
+        },
+        "areaUnlock": {
+            "link": true
+        }
+    },
     "tasks": {
         "x0": {
             "name": "1",
-            "cNext": [1]
+            "cNext": [
+                1
+            ]
         },
         "x1": {
             "name": "2",
-            "cPrev": [0],
-            "cNext": [2]
+            "questUnlock": "duty.quests.sidequests.side-story.resistance-weapons.69480",
+            "cPrev": [
+                0
+            ],
+            "cNext": [
+                2
+            ]
         },
         "x2": {
             "name": "3",
-            "cPrev": [1],
-            "cNext": [3]
+            "cPrev": [
+                1
+            ],
+            "cNext": [
+                3
+            ]
         },
         "x3": {
             "name": "4",
-            "cPrev": [2],
-            "cNext": [4]
+            "cPrev": [
+                2
+            ],
+            "cNext": [
+                4
+            ]
         },
         "x4": {
             "name": "5",
-            "cPrev": [3],
-            "cNext": [5]
+            "questUnlock": "duty.quests.sidequests.side-story.resistance-weapons.69481",
+            "cPrev": [
+                3
+            ],
+            "cNext": [
+                5
+            ]
         },
         "x5": {
             "name": "6",
-            "cPrev": [4],
-            "cNext": [6]
+            "questUnlock": "duty.quests.sidequests.side-story.resistance-weapons.69482",
+            "cPrev": [
+                4
+            ],
+            "cNext": [
+                6
+            ]
         },
         "x6": {
             "name": "7",
-            "cPrev": [5],
-            "cNext": [7]
+            "questUnlock": "duty.quests.sidequests.side-story.resistance-weapons.69483",
+            "cPrev": [
+                5
+            ],
+            "cNext": [
+                7
+            ]
         },
         "x7": {
             "name": "8",
-            "cPrev": [6],
-            "cNext": [8]
+            "questUnlock": "duty.quests.sidequests.side-story.resistance-weapons.69484",
+            "cPrev": [
+                6
+            ],
+            "cNext": [
+                8
+            ]
         },
         "x8": {
             "name": "9",
-            "cPrev": [7],
-            "cNext": [9]
+            "questUnlock": [
+                "duty.quests.sidequests.side-story.resistance-weapons.69485",
+                "duty.quests.sidequests.side-story.resistance-weapons.69486"
+            ],
+            "cPrev": [
+                7
+            ],
+            "cNext": [
+                9
+            ]
         },
         "x9": {
             "name": "10",
-            "cPrev": [8],
-            "cNext": [10]
+            "questUnlock": "duty.quests.sidequests.side-story.resistance-weapons.69487",
+            "areaUnlock": "duty.exploratory-missions.the-bozjan-southern-front.duties.0",
+            "cPrev": [
+                8
+            ],
+            "cNext": [
+                10
+            ]
         },
         "x10": {
             "name": "11",
-            "cPrev": [9],
-            "cNext": [11]
+            "cPrev": [
+                9
+            ],
+            "cNext": [
+                11
+            ]
         },
         "x11": {
             "name": "12",
-            "cPrev": [10],
-            "cNext": [12]
+            "cPrev": [
+                10
+            ],
+            "cNext": [
+                12
+            ]
         },
         "x12": {
             "name": "13",
-            "cPrev": [11],
-            "cNext": [13]
+            "cPrev": [
+                11
+            ],
+            "cNext": [
+                13
+            ]
         },
         "x13": {
             "name": "14",
-            "cPrev": [12],
-            "cNext": [14]
+            "cPrev": [
+                12
+            ],
+            "cNext": [
+                14
+            ]
         },
         "x14": {
             "name": "15",
-            "cPrev": [13],
-            "cNext": [15]
+            "cPrev": [
+                13
+            ],
+            "cNext": [
+                15
+            ]
         },
         "x15": {
             "name": "16",
-            "cPrev": [14],
-            "cNext": [16]
+            "questUnlock": "duty.quests.sidequests.side-story.resistance-weapons.69621",
+            "cPrev": [
+                14
+            ],
+            "cNext": [
+                16
+            ]
         },
         "x16": {
             "name": "17",
-            "cPrev": [15],
-            "cNext": [17]
+            "cPrev": [
+                15
+            ],
+            "cNext": [
+                17
+            ]
         },
         "x17": {
             "name": "18",
-            "cPrev": [16],
-            "cNext": [18]
+            "questUnlock": "duty.quests.sidequests.side-story.resistance-weapons.69628",
+            "cPrev": [
+                16
+            ],
+            "cNext": [
+                18
+            ]
         },
         "x18": {
             "name": "19",
-            "cPrev": [17],
-            "cNext": [19]
+            "cPrev": [
+                17
+            ],
+            "cNext": [
+                19
+            ]
         },
         "x19": {
             "name": "20",
-            "cPrev": [18],
-            "cNext": [20]
+            "questUnlock": "duty.quests.sidequests.side-story.resistance-weapons.69622",
+            "cPrev": [
+                18
+            ],
+            "cNext": [
+                20
+            ]
         },
         "x20": {
             "name": "21",
-            "cPrev": [19],
-            "cNext": [21]
+            "cPrev": [
+                19
+            ],
+            "cNext": [
+                21
+            ]
         },
         "x21": {
             "name": "22",
-            "cPrev": [20],
-            "cNext": [22]
+            "questUnlock": "duty.quests.sidequests.side-story.resistance-weapons.69629",
+            "cPrev": [
+                20
+            ],
+            "cNext": [
+                22
+            ]
         },
         "x22": {
             "name": "23",
-            "cPrev": [21],
-            "cNext": [23]
+            "questUnlock": "duty.quests.sidequests.side-story.resistance-weapons.69623",
+            "cPrev": [
+                21
+            ],
+            "cNext": [
+                23
+            ]
         },
         "x23": {
             "name": "24",
-            "cPrev": [22],
-            "cNext": [24]
+            "cPrev": [
+                22
+            ],
+            "cNext": [
+                24
+            ]
         },
         "x24": {
             "name": "25",
-            "cPrev": [23]
+            "questUnlock": "duty.quests.sidequests.side-story.resistance-weapons.69624",
+            "areaUnlock": "duty.exploratory-missions.the-bozjan-southern-front.duties.3",
+            "cPrev": [
+                23
+            ]
         }
     }
 }

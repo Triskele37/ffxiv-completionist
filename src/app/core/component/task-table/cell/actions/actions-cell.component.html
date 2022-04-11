@@ -1,0 +1,38 @@
+<td class="actions-cell noSelect">
+    <p-button
+        class="action-dial"
+        styleClass="p-button-text p-button-rounded p-button-plain p-mr-2"
+        [icon]="expanded ? 'pi pi-chevron-right' : 'pi pi-chevron-left'"
+        [pTooltip]="expanded ? '' : ('TABLE.ROW_ACTION.TITLE' | translate)"
+        tooltipPosition="left"
+        (onClick)="expanded = !expanded"
+    ></p-button>
+
+    <div *ngIf="expanded" class="actions noSelect">
+        <xiv-console-games-action
+            [task]="task"
+            (onClick)="onCloseActions()"
+        ></xiv-console-games-action>
+
+        <xiv-gamer-escape-action
+            [task]="task"
+            (onClick)="onCloseActions()"
+        ></xiv-gamer-escape-action>
+
+        <xiv-garland-action
+            [task]="task"
+            (onClick)="onCloseActions()"
+        ></xiv-garland-action>
+
+        <xiv-bookmark-action
+            *ngIf="!task._parent.isCustomGroup"
+            [task]="task"
+            (onClick)="onCloseActions()"
+        ></xiv-bookmark-action>
+
+        <xiv-drag-action
+            *ngIf="task._parent.draggable"
+            [rowIndex]="rowIndex"
+        ></xiv-drag-action>
+    </div>
+</td>

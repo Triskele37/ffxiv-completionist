@@ -4,35 +4,52 @@
         "x149": {
             "points": 5,
             "patch": "2.0",
-            "cCombo": [154]
+            "cCombo": [
+                154
+            ]
         },
         "x150": {
             "points": 5,
             "patch": "2.0",
-            "cCombo": [154]
+            "cCombo": [
+                154
+            ]
         },
         "x151": {
             "points": 5,
             "patch": "2.0",
-            "cCombo": [154]
+            "cCombo": [
+                154
+            ]
         },
         "x152": {
             "points": 5,
             "patch": "2.0",
-            "cCombo": [154]
+            "cCombo": [
+                154
+            ]
         },
         "x153": {
             "points": 10,
             "patch": "2.0",
-            "cCombo": [154],
+            "cCombo": [
+                154
+            ],
             "cSiblings": [
-                "t.19"
-            ]
+                "character.character.title.19"
+            ],
+            "reward": "character.character.title.19"
         },
         "x154": {
             "points": 30,
             "patch": "2.0",
-            "cPrev": [149, 150, 151, 152, 153]
+            "cPrev": [
+                149,
+                150,
+                151,
+                152,
+                153
+            ]
         },
         "x1303": {
             "points": 10,
@@ -46,117 +63,176 @@
             "points": 10,
             "patch": "5.0"
         },
+        "x2930": {
+            "points": 10,
+            "patch": "6.0"
+        },
         "x701": {
             "points": 5,
             "patch": "2.1",
-            "cNext": [702]
+            "cNext": [
+                702
+            ]
         },
         "x702": {
             "points": 5,
             "patch": "2.1",
-            "cPrev": [701],
-            "cNext": [703]
+            "cPrev": [
+                701
+            ],
+            "cNext": [
+                703
+            ]
         },
         "x703": {
             "points": 10,
             "patch": "2.1",
-            "cPrev": [702],
-            "cNext": [1280]
+            "cPrev": [
+                702
+            ],
+            "cNext": [
+                1280
+            ]
         },
         "x1280": {
             "points": 10,
             "patch": "3.0",
-            "cPrev": [703],
-            "cNext": [1723]
+            "cPrev": [
+                703
+            ],
+            "cNext": [
+                1723
+            ]
         },
         "x1723": {
             "points": 10,
             "patch": "3.5",
-            "cPrev": [1280],
-            "cNext": [2168]
+            "cPrev": [
+                1280
+            ],
+            "cNext": [
+                2168
+            ]
         },
         "x2168": {
             "points": 10,
             "patch": "4.5",
-            "cPrev": [1723]
+            "cPrev": [
+                1723
+            ]
         },
         "x756": {
             "points": 5,
             "patch": "2.1",
-            "cNext": [757]
+            "cNext": [
+                757
+            ]
         },
         "x757": {
             "points": 5,
             "patch": "2.1",
-            "cPrev": [756],
-            "cNext": [758]
+            "cPrev": [
+                756
+            ],
+            "cNext": [
+                758
+            ]
         },
         "x758": {
             "points": 10,
             "patch": "2.1",
-            "cPrev": [757],
-            "cNext": [1315]
+            "cPrev": [
+                757
+            ],
+            "cNext": [
+                1315
+            ]
         },
         "x1315": {
             "points": 10,
             "patch": "3.0",
-            "cPrev": [758],
-            "cNext": [1323]
+            "cPrev": [
+                758
+            ],
+            "cNext": [
+                1323
+            ]
         },
         "x1323": {
             "points": 10,
             "patch": "3.0",
-            "cPrev": [1315],
+            "cPrev": [
+                1315
+            ],
             "cSiblings": [
-                "t.255"
-            ]
+                "character.character.title.255"
+            ],
+            "reward": "character.character.title.255"
         },
         "x2495": {
             "points": 5,
             "patch": "5.21",
-            "cNext": [2496],
-            "cCombo": [2522]
+            "cNext": [
+                2496
+            ],
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2522"
+            ]
         },
         "x2496": {
             "points": 5,
             "patch": "5.21",
-            "cPrev": [2495],
-            "cNext": [2497]
+            "cPrev": [
+                2495
+            ],
+            "cNext": [
+                2497
+            ]
         },
         "x2497": {
             "points": 10,
             "patch": "5.21",
-            "cPrev": [2496],
-            "cCombo": [2524],
+            "cPrev": [
+                2496
+            ],
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2524"
+            ],
             "cSiblings": [
-                "t.492"
-            ]
+                "character.character.title.492"
+            ],
+            "reward": "character.character.title.492"
         },
         "x2529": {
             "points": 10,
             "patch": "5.21",
             "cSiblings": [
-                "t.505"
-            ]
+                "character.character.title.505"
+            ],
+            "reward": "character.character.title.505"
         },
         "x2650": {
             "points": 10,
             "patch": "5.31",
             "cSiblings": [
-                "t.530"
-            ]
+                "character.character.title.530"
+            ],
+            "reward": "character.character.title.530"
         },
         "x2809": {
             "points": 10,
             "patch": "5.41",
             "cSiblings": [
-                "t.567"
-            ]
+                "character.character.title.567"
+            ],
+            "reward": "character.character.title.567"
         },
         "x2823": {
             "points": 10,
             "patch": "5.5",
-            "cCombo": [2829]
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2829"
+            ]
         }
     }
 }

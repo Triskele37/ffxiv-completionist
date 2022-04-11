@@ -3,10 +3,11 @@
     "tasks": {
         "x66232": {
             "level": 30,
-            "cPrevAny": [
-                66229,
-                65756,
-                66223
+            "cPrevAny": true,
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
             ]
         },
         "x66349": {
@@ -18,7 +19,7 @@
         "x66369": {
             "level": 32,
             "cPrev": [
-                66368
+                "duty.quests.main-scenario.seventh-umbral-era.66368"
             ],
             "cNext": [
                 66370
@@ -33,7 +34,7 @@
         "x66371": {
             "level": 32,
             "cPrev": [
-                66368
+                "duty.quests.main-scenario.seventh-umbral-era.66368"
             ],
             "cNext": [
                 66374
@@ -42,7 +43,7 @@
         "x66372": {
             "level": 32,
             "cPrev": [
-                66368
+                "duty.quests.main-scenario.seventh-umbral-era.66368"
             ],
             "cNext": [
                 66373
@@ -66,7 +67,7 @@
         "x66377": {
             "level": 32,
             "cPrev": [
-                66368
+                "duty.quests.main-scenario.seventh-umbral-era.66368"
             ],
             "cNext": [
                 66380
@@ -75,7 +76,7 @@
         "x66378": {
             "level": 32,
             "cPrev": [
-                66368
+                "duty.quests.main-scenario.seventh-umbral-era.66368"
             ]
         },
         "x66380": {
@@ -116,10 +117,11 @@
         },
         "x65550": {
             "level": 35,
-            "cPrevAny": [
-                66229,
-                65756,
-                66223
+            "cPrevAny": true,
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
             ]
         },
         "x66747": {

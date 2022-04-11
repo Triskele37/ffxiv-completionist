@@ -4,7 +4,7 @@
         "x69373": {
             "level": 60,
             "cPrev": [
-                69264
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69264"
             ],
             "cNext": [
                 69425
@@ -14,7 +14,10 @@
             "level": 70,
             "cPrev": [
                 69373,
-                67634
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67634"
+            ],
+            "cSiblings": [
+                "character.achievement.character.general.2623"
             ],
             "cNext": [
                 69426
@@ -31,6 +34,7 @@
         },
         "x69427": {
             "level": 70,
+            "unlock": "character.mount-guide.53",
             "cPrev": [
                 69426
             ]
@@ -38,8 +42,8 @@
         "x69374": {
             "level": 60,
             "cPrev": [
-                69264,
-                67792
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69264",
+                "duty.quests.beast-tribe.vath.67792"
             ],
             "cNext": [
                 69498
@@ -48,38 +52,38 @@
         "x69498": {
             "level": 60,
             "cPrev": [
-                69494,
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69494",
                 69374
             ]
         },
         "x69497": {
             "level": 60,
             "cPrev": [
-                69494
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69494"
             ]
         },
         "x69540": {
             "level": 60,
             "cPrev": [
-                69538
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69538"
             ]
         },
         "x69541": {
             "level": 60,
             "cPrev": [
-                69538
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69538"
             ]
         },
         "x69542": {
             "level": 60,
             "cPrev": [
-                69538
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69538"
             ]
         },
         "x69496": {
             "level": 60,
             "cPrev": [
-                69494
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69494"
             ],
             "cNext": [
                 69615
@@ -88,7 +92,7 @@
         "x69375": {
             "level": 60,
             "cPrev": [
-                69264
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69264"
             ],
             "cNext": [
                 69376
@@ -106,7 +110,7 @@
         "x69495": {
             "level": 60,
             "cPrev": [
-                69494,
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69494",
                 69376
             ],
             "cNext": [
@@ -116,14 +120,14 @@
         "x69539": {
             "level": 60,
             "cPrev": [
-                69538,
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69538",
                 69495
             ]
         },
         "x69384": {
             "level": 80,
             "cPrev": [
-                69208
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69208"
             ],
             "cNext": [
                 69385
@@ -137,7 +141,9 @@
             "cNext": [
                 69428
             ],
-            "cSiblings": ["a.2568"]
+            "cSiblings": [
+                "character.achievement.quests.quests.2568"
+            ]
         },
         "x69428": {
             "level": 80,
@@ -189,14 +195,19 @@
             "cPrev": [
                 69519
             ],
-            "cSiblings": ["a.2798"]
+            "cSiblings": [
+                "character.achievement.quests.quests.2798"
+            ]
         },
         "x69615": {
             "level": 70,
             "cPrev": [
-                69538,
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69538",
                 69496,
-                67634
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67634"
+            ],
+            "cSiblings": [
+                "character.achievement.character.general.2835"
             ],
             "cNext": [
                 69616

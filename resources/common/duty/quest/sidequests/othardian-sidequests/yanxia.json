@@ -3,63 +3,75 @@
     "tasks": {
         "x68260": {
             "level": 64,
+            "unlock": "travel.aether-currents.sb.yanxia.13",
             "cPrev": [
-                68029
+                "duty.quests.main-scenario.stormblood.68029"
             ],
-            "cSiblings": ["travel.aether-currents.sb.yanxia.13"]
+            "cSiblings": [
+                "travel.aether-currents.sb.yanxia.13"
+            ]
         },
         "x68261": {
             "level": 64,
             "cPrev": [
-                68029
+                "duty.quests.main-scenario.stormblood.68029"
             ]
         },
         "x68264": {
             "level": 64,
+            "unlock": "travel.aether-currents.sb.yanxia.12",
             "cPrev": [
-                68029
+                "duty.quests.main-scenario.stormblood.68029"
             ],
-            "cSiblings": ["travel.aether-currents.sb.yanxia.12"]
+            "cSiblings": [
+                "travel.aether-currents.sb.yanxia.12"
+            ]
         },
         "x68265": {
             "level": 64,
             "cPrev": [
-                68029
+                "duty.quests.main-scenario.stormblood.68029"
             ]
         },
         "x68267": {
             "level": 64,
             "cPrev": [
-                68030
+                "duty.quests.main-scenario.stormblood.68030"
             ]
         },
         "x68268": {
             "level": 64,
             "cPrev": [
-                68030
+                "duty.quests.main-scenario.stormblood.68030"
             ]
         },
         "x68269": {
             "level": 64,
+            "unlock": "travel.aether-currents.sb.yanxia.10",
             "cPrev": [
-                68030
+                "duty.quests.main-scenario.stormblood.68030"
             ],
-            "cSiblings": ["travel.aether-currents.sb.yanxia.10"]
+            "cSiblings": [
+                "travel.aether-currents.sb.yanxia.10"
+            ]
         },
         "x68266": {
             "level": 64,
+            "unlock": "travel.aether-currents.sb.yanxia.11",
             "cPrev": [
-                68030
+                "duty.quests.main-scenario.stormblood.68030"
             ],
             "cNext": [
                 68262
             ],
-            "cSiblings": ["travel.aether-currents.sb.yanxia.11"]
+            "cSiblings": [
+                "travel.aether-currents.sb.yanxia.11"
+            ]
         },
         "x68262": {
             "level": 64,
             "cPrev": [
-                68030,
+                "duty.quests.main-scenario.stormblood.68030",
                 68266
             ],
             "cNext": [
@@ -69,20 +81,20 @@
         "x68263": {
             "level": 64,
             "cPrev": [
-                68030,
+                "duty.quests.main-scenario.stormblood.68030",
                 68262
             ]
         },
         "x68271": {
             "level": 64,
             "cPrev": [
-                68035
+                "duty.quests.main-scenario.stormblood.68035"
             ]
         },
         "x68272": {
             "level": 64,
             "cPrev": [
-                68035
+                "duty.quests.main-scenario.stormblood.68035"
             ],
             "cNext": [
                 68273
@@ -91,7 +103,7 @@
         "x68273": {
             "level": 64,
             "cPrev": [
-                68035,
+                "duty.quests.main-scenario.stormblood.68035",
                 68272
             ],
             "cNext": [
@@ -101,7 +113,7 @@
         "x68274": {
             "level": 64,
             "cPrev": [
-                68035,
+                "duty.quests.main-scenario.stormblood.68035",
                 68273
             ],
             "cNext": [
@@ -111,7 +123,7 @@
         "x68275": {
             "level": 64,
             "cPrev": [
-                68035,
+                "duty.quests.main-scenario.stormblood.68035",
                 68274
             ],
             "cNext": [
@@ -121,7 +133,7 @@
         "x68270": {
             "level": 64,
             "cPrev": [
-                68035
+                "duty.quests.main-scenario.stormblood.68035"
             ],
             "cNext": [
                 68278,
@@ -136,49 +148,49 @@
         "x68277": {
             "level": 64,
             "cPrev": [
-                68035,
+                "duty.quests.main-scenario.stormblood.68035",
                 68270
             ]
         },
         "x68278": {
             "level": 64,
             "cPrev": [
-                68035,
+                "duty.quests.main-scenario.stormblood.68035",
                 68270
             ]
         },
         "x68279": {
             "level": 64,
             "cPrev": [
-                68035,
+                "duty.quests.main-scenario.stormblood.68035",
                 68270
             ]
         },
         "x68280": {
             "level": 64,
             "cPrev": [
-                68035,
+                "duty.quests.main-scenario.stormblood.68035",
                 68270
             ]
         },
         "x68281": {
             "level": 64,
             "cPrev": [
-                68035,
+                "duty.quests.main-scenario.stormblood.68035",
                 68270
             ]
         },
         "x68282": {
             "level": 64,
             "cPrev": [
-                68035,
+                "duty.quests.main-scenario.stormblood.68035",
                 68270
             ]
         },
         "x68284": {
             "level": 64,
             "cPrev": [
-                68035,
+                "duty.quests.main-scenario.stormblood.68035",
                 68270
             ],
             "cNext": [
@@ -188,7 +200,7 @@
         "x68285": {
             "level": 64,
             "cPrev": [
-                68035,
+                "duty.quests.main-scenario.stormblood.68035",
                 68284
             ],
             "cNext": [
@@ -198,7 +210,7 @@
         "x68286": {
             "level": 64,
             "cPrev": [
-                68035,
+                "duty.quests.main-scenario.stormblood.68035",
                 68285
             ],
             "cNext": [
@@ -208,7 +220,7 @@
         "x68287": {
             "level": 64,
             "cPrev": [
-                68035,
+                "duty.quests.main-scenario.stormblood.68035",
                 68286
             ],
             "cNext": [
@@ -218,7 +230,7 @@
         "x68283": {
             "level": 64,
             "cPrev": [
-                68035,
+                "duty.quests.main-scenario.stormblood.68035",
                 68287
             ],
             "cNext": [
@@ -228,60 +240,60 @@
         "x68276": {
             "level": 64,
             "cPrev": [
-                68035,
+                "duty.quests.main-scenario.stormblood.68035",
                 68275,
                 68283
             ],
             "cNext": [
-                68632
+                "duty.quests.beast-tribe.namazu.68632"
             ]
         },
         "x68340": {
             "level": 67,
             "cPrev": [
-                68482
+                "duty.quests.main-scenario.stormblood.68482"
             ]
         },
         "x68341": {
             "level": 67,
             "cPrev": [
-                68482
+                "duty.quests.main-scenario.stormblood.68482"
             ]
         },
         "x68342": {
             "level": 67,
             "cPrev": [
-                68482
+                "duty.quests.main-scenario.stormblood.68482"
             ]
         },
         "x68343": {
             "level": 67,
             "cPrev": [
-                68482
+                "duty.quests.main-scenario.stormblood.68482"
             ]
         },
         "x68344": {
             "level": 67,
             "cPrev": [
-                68482
+                "duty.quests.main-scenario.stormblood.68482"
             ]
         },
         "x68345": {
             "level": 67,
             "cPrev": [
-                68482
+                "duty.quests.main-scenario.stormblood.68482"
             ]
         },
         "x68346": {
             "level": 67,
             "cPrev": [
-                68482
+                "duty.quests.main-scenario.stormblood.68482"
             ]
         },
         "x68347": {
             "level": 67,
             "cPrev": [
-                68482
+                "duty.quests.main-scenario.stormblood.68482"
             ]
         }
     }

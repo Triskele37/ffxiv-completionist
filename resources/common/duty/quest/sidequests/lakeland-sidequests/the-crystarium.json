@@ -4,100 +4,103 @@
         "x68879": {
             "level": 70,
             "cPrev": [
-                68817
+                "duty.quests.main-scenario.shadowbringers.68817"
             ]
         },
         "x68880": {
             "level": 70,
             "cPrev": [
-                68817
+                "duty.quests.main-scenario.shadowbringers.68817"
             ]
         },
         "x68881": {
             "level": 70,
             "cPrev": [
-                68817
+                "duty.quests.main-scenario.shadowbringers.68817"
             ]
         },
         "x68882": {
             "level": 70,
             "cPrev": [
-                68817
+                "duty.quests.main-scenario.shadowbringers.68817"
             ]
         },
         "x68883": {
             "level": 70,
             "cPrev": [
-                68817
+                "duty.quests.main-scenario.shadowbringers.68817"
             ]
         },
         "x68884": {
             "level": 70,
             "cPrev": [
-                68817
+                "duty.quests.main-scenario.shadowbringers.68817"
             ]
         },
         "x68915": {
             "level": 70,
             "cPrev": [
-                68837
+                "duty.quests.main-scenario.shadowbringers.68837"
             ]
         },
         "x68916": {
             "level": 70,
+            "unlock": "travel.aether-currents.shb.lakeland.13",
             "cPrev": [
-                68837
+                "duty.quests.main-scenario.shadowbringers.68837"
             ],
             "cNext": [
-                68918,
-                68917
+                "duty.quests.sidequests.lakeland.lakeland.68918",
+                "duty.quests.sidequests.lakeland.lakeland.68917"
             ],
-            "cSiblings": ["travel.aether-currents.shb.lakeland.13"]
+            "cSiblings": [
+                "travel.aether-currents.shb.lakeland.13"
+            ]
         },
         "x69069": {
             "level": 70,
             "cPrev": [
-                69158
+                "duty.quests.main-scenario.shadowbringers.69158"
             ],
             "cNext": [
-                69070
+                "duty.quests.sidequests.lakeland.lakeland.69070"
             ]
         },
         "x69100": {
             "level": 70,
             "cPrev": [
-                69182
+                "duty.quests.main-scenario.shadowbringers.69182"
             ]
         },
         "x69101": {
             "level": 70,
             "cPrev": [
-                69182
+                "duty.quests.main-scenario.shadowbringers.69182"
             ]
         },
         "x69102": {
             "level": 70,
             "cPrev": [
-                69182
+                "duty.quests.main-scenario.shadowbringers.69182"
             ]
         },
         "x69103": {
             "level": 70,
             "cPrev": [
-                69182
+                "duty.quests.main-scenario.shadowbringers.69182"
             ]
         },
         "x69104": {
             "level": 70,
             "cPrev": [
-                69182
+                "duty.quests.main-scenario.shadowbringers.69182"
             ]
         },
         "x69133": {
             "level": 70,
             "cPrev": [
-                67658,
-                68817
+                "duty.quests.sidequests.ishgardian.ishgard.67658",
+                "duty.quests.main-scenario.shadowbringers.68817"
             ],
             "cNext": [
                 69134
@@ -129,8 +132,9 @@
         },
         "x69131": {
             "level": 80,
+            "unlock": "duty.dutyraid-finder.dungeons.shb.6",
             "cPrev": [
-                69190
+                "duty.quests.main-scenario.shadowbringers.69190"
             ]
         }
     }

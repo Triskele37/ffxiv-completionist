@@ -1,0 +1,17 @@
+<div id="app">
+    <div id="loading-modal" *ngIf="loading">
+        {{modalText}}
+    </div>
+
+    <div class="left-container">
+        <xiv-nav-drawer></xiv-nav-drawer>
+        <xiv-search-bar></xiv-search-bar>
+    </div>
+
+    <div class="right-container">
+        <xiv-summary-header></xiv-summary-header>
+        <xiv-nav-bar></xiv-nav-bar>
+
+        <xiv-main-content></xiv-main-content>
+    </div>
+</div>

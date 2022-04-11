@@ -3,168 +3,311 @@
     "tasks": {
         "x0": {
             "iLevel": "55",
-            "cNext": [1],
-            "cSiblings": ["q.66075"]
+            "requirements": "duty.quests.class--job.disciple-of-the-hand.carpenter.66075",
+            "cNext": [
+                1
+            ],
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-the-hand.carpenter.66075"
+            ]
         },
         "x1": {
             "iLevel": "75",
-            "cPrev": [0],
-            "cNext": [2]
+            "cPrev": [
+                0
+            ],
+            "cNext": [
+                2
+            ]
         },
         "x2": {
             "iLevel": "90",
-            "cPrev": [1],
-            "cCombo": ["a.1078"]
+            "cPrev": [
+                1
+            ],
+            "cCombo": [
+                "character.achievement.items.items.1078"
+            ]
         },
         "x3": {
             "iLevel": "55",
-            "cNext": [4],
-            "cSiblings": ["q.65838"]
+            "requirements": "duty.quests.class--job.disciple-of-the-hand.blacksmith.65838",
+            "cNext": [
+                4
+            ],
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-the-hand.blacksmith.65838"
+            ]
         },
         "x4": {
             "iLevel": "75",
-            "cPrev": [3],
-            "cNext": [5]
+            "cPrev": [
+                3
+            ],
+            "cNext": [
+                5
+            ]
         },
         "x5": {
             "iLevel": "90",
-            "cPrev": [4],
-            "cCombo": ["a.1078"]
+            "cPrev": [
+                4
+            ],
+            "cCombo": [
+                "character.achievement.items.items.1078"
+            ]
         },
         "x6": {
             "iLevel": "55",
-            "cNext": [7],
-            "cSiblings": ["q.65820"]
+            "requirements": "duty.quests.class--job.disciple-of-the-hand.armorer.65820",
+            "cNext": [
+                7
+            ],
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-the-hand.armorer.65820"
+            ]
         },
         "x7": {
             "iLevel": "75",
-            "cPrev": [6],
-            "cNext": [8]
+            "cPrev": [
+                6
+            ],
+            "cNext": [
+                8
+            ]
         },
         "x8": {
             "iLevel": "90",
-            "cPrev": [7],
-            "cCombo": ["a.1078"]
+            "cPrev": [
+                7
+            ],
+            "cCombo": [
+                "character.achievement.items.items.1078"
+            ]
         },
         "x9": {
             "iLevel": "55",
-            "cNext": [10],
-            "cSiblings": ["q.66194"]
+            "requirements": "duty.quests.class--job.disciple-of-the-hand.goldsmith.66194",
+            "cNext": [
+                10
+            ],
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-the-hand.goldsmith.66194"
+            ]
         },
         "x10": {
             "iLevel": "75",
-            "cPrev": [9],
-            "cNext": [11]
+            "cPrev": [
+                9
+            ],
+            "cNext": [
+                11
+            ]
         },
         "x11": {
             "iLevel": "90",
-            "cPrev": [10],
-            "cCombo": ["a.1078"]
+            "cPrev": [
+                10
+            ],
+            "cCombo": [
+                "character.achievement.items.items.1078"
+            ]
         },
         "x12": {
             "iLevel": "55",
-            "cNext": [13],
-            "cSiblings": ["q.65602"]
+            "requirements": "duty.quests.class--job.disciple-of-the-hand.leatherworker.65602",
+            "cNext": [
+                13
+            ],
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-the-hand.leatherworker.65602"
+            ]
         },
         "x13": {
             "iLevel": "75",
-            "cPrev": [12],
-            "cNext": [14]
+            "cPrev": [
+                12
+            ],
+            "cNext": [
+                14
+            ]
         },
         "x14": {
             "iLevel": "90",
-            "cPrev": [13],
-            "cCombo": ["a.1078"]
+            "cPrev": [
+                13
+            ],
+            "cCombo": [
+                "character.achievement.items.items.1078"
+            ]
         },
         "x15": {
             "iLevel": "55",
-            "cNext": [16],
-            "cSiblings": ["q.66190"]
+            "requirements": "duty.quests.class--job.disciple-of-the-hand.weaver.66190",
+            "cNext": [
+                16
+            ],
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-the-hand.weaver.66190"
+            ]
         },
         "x16": {
             "iLevel": "75",
-            "cPrev": [15],
-            "cNext": [17]
+            "cPrev": [
+                15
+            ],
+            "cNext": [
+                17
+            ]
         },
         "x17": {
             "iLevel": "90",
-            "cPrev": [16],
-            "cCombo": ["a.1078"]
+            "cPrev": [
+                16
+            ],
+            "cCombo": [
+                "character.achievement.items.items.1078"
+            ]
         },
         "x18": {
             "iLevel": "55",
-            "cNext": [19],
-            "cSiblings": ["q.66186"]
+            "requirements": "duty.quests.class--job.disciple-of-the-hand.alchemist.66186",
+            "cNext": [
+                19
+            ],
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-the-hand.alchemist.66186"
+            ]
         },
         "x19": {
             "iLevel": "75",
-            "cPrev": [18],
-            "cNext": [20]
+            "cPrev": [
+                18
+            ],
+            "cNext": [
+                20
+            ]
         },
         "x20": {
             "iLevel": "90",
-            "cPrev": [19],
-            "cCombo": ["a.1078"]
+            "cPrev": [
+                19
+            ],
+            "cCombo": [
+                "character.achievement.items.items.1078"
+            ]
         },
         "x21": {
             "iLevel": "55",
-            "cNext": [22],
-            "cSiblings": ["q.65806"]
+            "requirements": "duty.quests.class--job.disciple-of-the-hand.culinarian.65806",
+            "cNext": [
+                22
+            ],
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-the-hand.culinarian.65806"
+            ]
         },
         "x22": {
             "iLevel": "75",
-            "cPrev": [21],
-            "cNext": [23]
+            "cPrev": [
+                21
+            ],
+            "cNext": [
+                23
+            ]
         },
         "x23": {
             "iLevel": "90",
-            "cPrev": [22],
-            "cCombo": ["a.1078"]
+            "cPrev": [
+                22
+            ],
+            "cCombo": [
+                "character.achievement.items.items.1078"
+            ]
         },
         "x24": {
             "iLevel": "55",
-            "cNext": [25],
-            "cSiblings": ["q.66182"]
+            "requirements": "duty.quests.class--job.disciple-of-the-land.miner.66182",
+            "cNext": [
+                25
+            ],
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-the-land.miner.66182"
+            ]
         },
         "x25": {
             "iLevel": "75",
-            "cPrev": [24],
-            "cNext": [26]
+            "cPrev": [
+                24
+            ],
+            "cNext": [
+                26
+            ]
         },
         "x26": {
             "iLevel": "90",
-            "cPrev": [25],
-            "cCombo": ["a.1079"]
+            "cPrev": [
+                25
+            ],
+            "cCombo": [
+                "character.achievement.items.items.1079"
+            ]
         },
         "x27": {
             "iLevel": "55",
-            "cNext": [28],
-            "cSiblings": ["q.65549"]
+            "requirements": "duty.quests.class--job.disciple-of-the-land.botanist.65549",
+            "cNext": [
+                28
+            ],
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-the-land.botanist.65549"
+            ]
         },
         "x28": {
             "iLevel": "75",
-            "cPrev": [27],
-            "cNext": [29]
+            "cPrev": [
+                27
+            ],
+            "cNext": [
+                29
+            ]
         },
         "x29": {
             "iLevel": "90",
-            "cPrev": [28],
-            "cCombo": ["a.1079"]
+            "cPrev": [
+                28
+            ],
+            "cCombo": [
+                "character.achievement.items.items.1079"
+            ]
         },
         "x30": {
             "iLevel": "55",
-            "cNext": [31],
-            "cSiblings": ["q.66654"]
+            "requirements": "duty.quests.class--job.disciple-of-the-land.fisher.66654",
+            "cNext": [
+                31
+            ],
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-the-land.fisher.66654"
+            ]
         },
         "x31": {
             "iLevel": "75",
-            "cPrev": [30],
-            "cNext": [32]
+            "cPrev": [
+                30
+            ],
+            "cNext": [
+                32
+            ]
         },
         "x32": {
             "iLevel": "90",
-            "cPrev": [31],
-            "cCombo": ["a.1079"]
+            "cPrev": [
+                31
+            ],
+            "cCombo": [
+                "character.achievement.items.items.1079"
+            ]
         }
     }
 }

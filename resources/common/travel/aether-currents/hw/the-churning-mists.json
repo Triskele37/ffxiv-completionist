@@ -1,71 +1,50 @@
 {
     "key": "the-churning-mists",
-    "cCombo": ["a.1160"],
+    "cCombo": [
+        "character.achievement.character.general.1160"
+    ],
     "tasks": {
         "x0": {
-            "name": "1",
-            "coordinates": "X: 29.3   Y: 19.9   Z: 0.5"
-        },
-        "x1": {
-            "name": "2",
-            "coordinates": "X: 35.9   Y: 33.8   Z: 0.4"
-        },
-        "x2": {
-            "name": "3",
-            "coordinates": "X: 27.4   Y: 26.1   Z: 0.6"
-        },
-        "x3": {
-            "name": "4",
-            "coordinates": "X: 21.0   Y: 30.1   Z: 0.8"
-        },
-        "x4": {
-            "name": "5",
-            "coordinates": "X: 16.9   Y: 33.6   Z: 1.1"
-        },
-        "x5": {
-            "name": "6",
-            "coordinates": "X: 28.4   Y: 28.3   Z: 0.4"
+            "location": "(29.3, 19.9, 0.5)"
         },
         "x6": {
-            "name": "7",
-            "coordinates": "X: 30.9   Y: 35.7   Z: 0.3"
+            "location": "(30.9, 35.7, 0.3)"
         },
         "x7": {
-            "name": "8",
-            "coordinates": "X: 20.8   Y: 27.4   Z: 0.7"
-        },
-        "x8": {
-            "name": "9",
-            "coordinates": "X: 34.5   Y: 15.8   Z: 0.7"
+            "location": "(20.6, 27.0, 0.7)"
         },
         "x9": {
-            "name": "10",
-            "coordinates": "X:   7.0   Y: 27.4   Z: 2.0"
+            "location": "(7.0, 27.4, 2.0)"
         },
         "x10": {
-            "name": "11",
-            "coordinates": "X: 29.8   Y: 36.1   Z: 0.0",
-            "cSiblings": ["q.67355"]
+            "quest": "duty.quests.sidequests.dravanian.the-churning-mists.67355",
+            "cSiblings": [
+                "duty.quests.sidequests.dravanian.the-churning-mists.67355"
+            ]
         },
         "x11": {
-            "name": "12",
-            "coordinates": "X: 32.9   Y: 15.4   Z: 0.7",
-            "cSiblings": ["q.67371"]
+            "quest": "duty.quests.sidequests.dravanian.the-churning-mists.67371",
+            "cSiblings": [
+                "duty.quests.sidequests.dravanian.the-churning-mists.67371"
+            ]
         },
         "x12": {
-            "name": "13",
-            "coordinates": "X: 27.5   Y: 33.8   Z: 0.4",
-            "cSiblings": ["q.67359"]
+            "quest": "duty.quests.sidequests.dravanian.the-churning-mists.67359",
+            "cSiblings": [
+                "duty.quests.sidequests.dravanian.the-churning-mists.67359"
+            ]
         },
         "x13": {
-            "name": "14",
-            "coordinates": "X: 12.3   Y: 29.5   Z: 1.3",
-            "cSiblings": ["q.67364"]
+            "quest": "duty.quests.sidequests.dravanian.the-churning-mists.67364",
+            "cSiblings": [
+                "duty.quests.sidequests.dravanian.the-churning-mists.67364"
+            ]
         },
         "x14": {
-            "name": "15",
-            "coordinates": "X: 13.3   Y: 11.0",
-            "cSiblings": ["q.67170"]
+            "quest": "duty.quests.main-scenario.heavensward.67170",
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67170"
+            ]
         }
     }
 }

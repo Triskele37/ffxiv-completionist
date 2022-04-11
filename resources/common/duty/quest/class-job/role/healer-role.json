@@ -1,0 +1,115 @@
+{
+    "key": "healer",
+    "tasks": {
+        "x69644": {
+            "level": 85,
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69954"
+            ],
+            "cNext": [
+                69645
+            ]
+        },
+        "x69645": {
+            "level": 86,
+            "cPrev": [
+                69644
+            ],
+            "cNext": [
+                69646
+            ]
+        },
+        "x69646": {
+            "level": 87,
+            "cPrev": [
+                69645
+            ],
+            "cNext": [
+                69647
+            ]
+        },
+        "x69647": {
+            "level": 88,
+            "cPrev": [
+                69646
+            ],
+            "cNext": [
+                69648
+            ]
+        },
+        "x69648": {
+            "level": 89,
+            "cPrev": [
+                69647
+            ],
+            "cNext": [
+                69649
+            ]
+        },
+        "x69649": {
+            "level": 90,
+            "cPrev": [
+                69648
+            ]
+        },
+        "x68803": {
+            "level": 70,
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68837"
+            ],
+            "cNext": [
+                68804
+            ]
+        },
+        "x68804": {
+            "level": 72,
+            "cPrev": [
+                68803
+            ],
+            "cNext": [
+                68805
+            ]
+        },
+        "x68805": {
+            "level": 74,
+            "cPrev": [
+                68804
+            ],
+            "cNext": [
+                68806
+            ]
+        },
+        "x68806": {
+            "level": 76,
+            "cPrev": [
+                68805
+            ],
+            "cNext": [
+                68807
+            ]
+        },
+        "x68807": {
+            "level": 78,
+            "cPrev": [
+                68806
+            ],
+            "cNext": [
+                68808
+            ]
+        },
+        "x68808": {
+            "level": 80,
+            "cNext": [
+                "duty.quests.class--job.disciple-of-magic-job.scholar.68754",
+                "duty.quests.class--job.disciple-of-magic-job.white-mage.68751",
+                "duty.quests.class--job.disciple-of-magic-job.astrologian.68758"
+            ],
+            "cPrev": [
+                68807
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.2302"
+            ]
+        }
+    }
+}

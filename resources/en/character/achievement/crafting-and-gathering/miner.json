@@ -22,7 +22,6 @@
             "name": "Mining Your Own Business: La Noscea V"
         },
         "x190": {
-            "reward": "Meadowbreaker",
             "description": "Obtain all five “Mining Your Own Business: La Noscea” achievements.",
             "name": "A Miner's Life for Me: La Noscea"
         },
@@ -47,7 +46,6 @@
             "name": "Mining Your Own Business: Black Shroud V"
         },
         "x196": {
-            "reward": "Forestbreaker",
             "description": "Obtain all five “Mining Your Own Business: Black Shroud” achievements.",
             "name": "A Miner's Life for Me: Black Shroud"
         },
@@ -72,7 +70,6 @@
             "name": "Mining Your Own Business: Thanalan V"
         },
         "x202": {
-            "reward": "Desertbreaker",
             "description": "Obtain all five “Mining Your Own Business: Thanalan” achievements.",
             "name": "A Miner's Life for Me: Thanalan"
         },
@@ -92,6 +89,10 @@
         "x2289": {
             "description": "Gather 5,000 times at level 71-80 mineral deposits or rocky outcrops.",
             "name": "Mining Shadowbringers"
+        },
+        "x2937": {
+            "description": "Gather 5,000 times at level 81-90 mineral deposits or rocky outcrops.",
+            "name": "Mining the End"
         },
         "x719": {
             "description": "Mine and record discovery of 15 unique items that can only be gathered as a miner.",
@@ -122,24 +123,22 @@
         },
         "x2830": {
             "name": "I Found That: Miner VII",
-            "description": "Mine and record discovery of 220 unique items that can only be gathered as a miner.",
-            "reward": "Resplendent Minefiend's Pickaxe"
+            "description": "Mine and record discovery of 220 unique items that can only be gathered as a miner."
         },
         "x774": {
-            "description": "Gather 300 high-quality items as a miner.",
-            "name": "An Eye for Quality: Miner I"
+            "description": "Gather 300 items with the Gatherer's Boon effect as a miner.",
+            "name": "An Eye for Quantity: Miner I"
         },
         "x775": {
-            "description": "Gather 1,500 high-quality items as a miner.",
-            "name": "An Eye for Quality: Miner II"
+            "description": "Gather 1,500 items with the Gatherer's Boon effect as a miner.",
+            "name": "An Eye for Quantity: Miner II"
         },
         "x776": {
-            "description": "Gather 10,000 high-quality items as a miner.",
-            "name": "An Eye for Quality: Miner III"
+            "description": "Gather 10,000 items with the Gatherer's Boon effect as a miner.",
+            "name": "An Eye for Quantity: Miner III"
         },
         "x1329": {
-            "reward": "Master Miner",
-            "description": "Gather 20,000 high-quality items as a miner.",
+            "description": "Gather 20,000 items with the Gatherer's Boon effect as a miner.",
             "name": "An Eye for Quality: Miner IV"
         },
         "x2513": {
@@ -151,7 +150,6 @@
             "name": "Skyward Sledgehammer II"
         },
         "x2515": {
-            "reward": "Pick of the Firmament",
             "description": "Earn 500,000 points toward your skyward score as a miner.",
             "name": "Skyward Sledgehammer III"
         },
@@ -168,20 +166,16 @@
             "name": "With Mines Unclouded III"
         },
         "x2535": {
-            "reward": "The Nest's Own Miner",
             "description": "As a miner, submit 50,000 expert recipe materials for the second phase of the Ishgardian restoration.",
             "name": "The Height of Mining"
         },
         "x2656": {
             "name": "Miners of a Feather",
-            "description": "As a miner, submit 50,000 expert recipe materials for the third phase of the Ishgardian restoration.",
-            "reward": "Featherfall's Finest Miner"
+            "description": "As a miner, submit 50,000 expert recipe materials for the third phase of the Ishgardian restoration."
         },
         "x2815": {
             "name": "An Ode to Mining",
-            "description": "As a miner, submit 50,000 expert recipe materials for the fourth phase of the Ishgardian restoration.",
-            "reward": "The Risensung Miner",
-            "id": 2815
+            "description": "As a miner, submit 50,000 expert recipe materials for the fourth phase of the Ishgardian restoration."
         }
     }
 }

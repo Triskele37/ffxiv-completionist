@@ -1,34 +1,43 @@
 {
-    "groupName": "Aetherytes",
+    "groupName": "Éthérites",
     "headers": {
-        "name": "Name",
-        "rankReq": "Rank Required",
-        "coordinates": "Coordinates"
+        "name": "Nom",
+        "rankReq": "Rang requis",
+        "zone": "Zone",
+        "coordinates": "Coordonnées"
     },
     "tasks": {
         "x0": {
-            "name": "Utya's Aegis"
+            "name": "Avant-poste d'Utya",
+            "zone": "Front sud de Bozja"
         },
         "x1": {
-            "name": "Olana's Stand"
+            "name": "Camp avancé d'Olana",
+            "zone": "Front sud de Bozja"
         },
         "x2": {
-            "name": "Lunya's Stand"
+            "name": "Camp avancé de Lunya",
+            "zone": "Front sud de Bozja"
         },
         "x3": {
-            "name": "Camp Steva"
+            "name": "Camp avancé de Steve",
+            "zone": "Front sud de Bozja"
         },
         "x4": {
-            "name": "Camp Vrdelnis"
+            "name": "Avant-poste de Vrdelnis",
+            "zone": "Zadnor"
         },
         "x5": {
-            "name": "Zuprtik Point"
+            "name": "Camp avancé de Zuprtik",
+            "zone": "Zadnor"
         },
         "x6": {
-            "name": "Ljeaban Point"
+            "name": "Camp avancé de Ljeaban",
+            "zone": "Zadnor"
         },
         "x7": {
-            "name": "Hrmovir Point"
+            "name": "Camp avancé de Hrmovir",
+            "zone": "Zadnor"
         }
     }
 }

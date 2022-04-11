@@ -1,0 +1,159 @@
+
+p-inputmask.ng-dirty.ng-invalid > .p-inputtext {
+    border-color: #f44435;
+}
+
+p-inputnumber.ng-dirty.ng-invalid > .p-inputnumber > .p-inputtext {
+    border-color: #f44435;
+}
+
+.p-inputtext {
+    font-family: var(--font-family);
+    font-size: 1rem;
+    color: var(--text-color);
+    background: var(--surface-a);
+    padding: var(--content-padding) var(--content-padding);
+    border: 1px solid rgba(var(--text-color-rgb), 0.3);
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s, background-size 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+    appearance: none;
+    border-radius: 4px;
+}
+
+.p-inputtext:enabled:hover {
+    border-color: var(--text-color-secondary);
+}
+
+.p-inputtext:enabled:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+
+.p-inputtext.ng-dirty.ng-invalid {
+    border-color: #f44435;
+}
+
+.p-inputtext.p-inputtext-sm {
+    font-size: 0.875rem;
+    padding: 0.875rem 0.875rem;
+}
+
+.p-inputtext.p-inputtext-lg {
+    font-size: 1.25rem;
+    padding: 1.25rem 1.25rem;
+}
+
+.p-input-icon-left > i:first-of-type {
+    left: var(--content-padding);
+    color: var(--text-color-secondary);
+}
+
+.p-input-icon-left > .p-inputtext {
+    padding-left: 3rem;
+}
+
+.p-input-icon-left.p-float-label > label {
+    left: 3rem;
+}
+
+.p-input-icon-right > i:last-of-type {
+    right: var(--content-padding);
+    color: var(--text-color-secondary);
+}
+
+.p-input-icon-right > .p-inputtext {
+    padding-right: 3rem;
+}
+
+.p-input-filled .p-inputtext {
+    background-color: rgba(var(--text-color-rgb), 0.06);
+}
+
+.p-input-filled .p-inputtext:enabled:hover {
+    background-color: rgba(var(--text-color-rgb), 0.08);
+}
+
+.p-input-filled .p-inputtext:enabled:focus {
+    background-color: rgba(var(--text-color-rgb), 0.1);
+}
+
+.p-inputtext-sm .p-inputtext {
+    font-size: 0.875rem;
+    padding: 0.875rem 0.875rem;
+}
+
+.p-inputtext-lg .p-inputtext {
+    font-size: 1.25rem;
+    padding: 1.25rem 1.25rem;
+}
+
+.p-inputtext:enabled:focus {
+    box-shadow: inset 0 0 0 1px var(--primary-color), inset 0 0 0 1px var(--primary-color), inset 0 0 0 1px var(--primary-color), inset 0 0 0 1px var(--primary-color);
+}
+
+.p-inputtext:enabled:focus.ng-invalid.ng-dirty {
+    box-shadow: inset 0 0 0 1px #f44435, inset 0 0 0 1px #f44435, inset 0 0 0 1px #f44435, inset 0 0 0 1px #f44435;
+}
+
+.p-input-filled .p-inputtext {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid transparent;
+    background: rgba(var(--text-color-rgb), 0.06) no-repeat;
+    background-image: linear-gradient(to bottom, var(--primary-color), var(--primary-color)), linear-gradient(to bottom, rgba(var(--text-color-rgb), 0.3), rgba(var(--text-color-rgb), 0.3));
+    background-size: 0 2px, 100% 1px;
+    background-position: 50% 100%, 50% 100%;
+    background-origin: border-box;
+}
+
+.p-input-filled .p-inputtext:enabled:hover {
+    background-color: rgba(var(--text-color-rgb), 0.08);
+    border-color: transparent;
+    background-image: linear-gradient(to bottom, var(--primary-color), var(--primary-color)), linear-gradient(to bottom, var(--text-color-secondary), var(--text-color-secondary));
+}
+
+.p-input-filled .p-inputtext:enabled:focus {
+    box-shadow: none;
+    background-color: rgba(var(--text-color-rgb), 0.1);
+    border-color: transparent;
+    background-size: 100% 2px, 100% 1px;
+}
+
+.p-input-filled .p-inputtext.ng-invalid.ng-dirty {
+    border-color: transparent;
+    background-image: linear-gradient(to bottom, #f44435, #f44435), linear-gradient(to bottom, #f44435, #f44435);
+}
+
+.p-input-filled .p-inputtext.ng-invalid.ng-dirty:enabled:focus {
+    box-shadow: none;
+    border-color: transparent;
+}
+
+p-inputmask.ng-dirty.ng-invalid .p-inputtext:enabled:focus {
+    box-shadow: inset 0 0 0 1px #f44435, inset 0 0 0 1px #f44435, inset 0 0 0 1px #f44435, inset 0 0 0 1px #f44435;
+}
+
+.p-input-filled p-inputmask.ng-dirty.ng-invalid .p-inputtext {
+    border-color: transparent;
+    background-image: linear-gradient(to bottom, #f44435, #f44435), linear-gradient(to bottom, #f44435, #f44435);
+}
+
+.p-input-filled p-inputmask.ng-dirty.ng-invalid .p-inputtext:enabled:focus {
+    box-shadow: none;
+    border-color: transparent;
+}
+
+p-inputnumber.ng-dirty.ng-invalid .p-inputtext:enabled:focus {
+    box-shadow: inset 0 0 0 1px #f44435, inset 0 0 0 1px #f44435, inset 0 0 0 1px #f44435, inset 0 0 0 1px #f44435;
+}
+
+.p-input-filled p-inputnumber.ng-dirty.ng-invalid .p-inputtext {
+    border-color: transparent;
+    background-image: linear-gradient(to bottom, #f44435, #f44435), linear-gradient(to bottom, #f44435, #f44435);
+}
+
+.p-input-filled p-inputnumber.ng-dirty.ng-invalid .p-inputtext:enabled:focus {
+    box-shadow: none;
+    border-color: transparent;
+}

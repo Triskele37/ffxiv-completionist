@@ -1,0 +1,82 @@
+{
+    "key": "marauder",
+    "tasks": {
+        "x65846": {
+            "level": 1,
+            "cNext": [
+                65848
+            ]
+        },
+        "x65848": {
+            "level": 1,
+            "cPrev": [
+                65846
+            ],
+            "cNext": [
+                65851,
+                65849
+            ]
+        },
+        "x65849": {
+            "level": 5,
+            "cPrevAny": true,
+            "cPrev": [
+                65846,
+                65848
+            ],
+            "cNext": [
+                65851
+            ]
+        },
+        "x65851": {
+            "level": 10,
+            "cPrev": [
+                65848,
+                65849
+            ],
+            "cNext": [
+                65852
+            ]
+        },
+        "x65852": {
+            "level": 15,
+            "cPrev": [
+                65851
+            ],
+            "cNext": [
+                65853
+            ]
+        },
+        "x65853": {
+            "level": 20,
+            "cPrev": [
+                65852
+            ],
+            "cNext": [
+                65854
+            ]
+        },
+        "x65854": {
+            "level": 25,
+            "cPrev": [
+                65853
+            ],
+            "cNext": [
+                65855
+            ]
+        },
+        "x65855": {
+            "level": 30,
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war-job.warrior.66585"
+            ],
+            "cPrev": [
+                65854
+            ],
+            "cCombo": [
+                "character.achievement.quests.quests.313",
+                "character.achievement.quests.quests.314"
+            ]
+        }
+    }
+}

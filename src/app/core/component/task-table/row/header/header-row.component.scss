@@ -1,0 +1,82 @@
+:host {
+    display: contents;
+
+    .task-table-header {
+        .completion-column {
+            padding: calc(var(--content-padding) / 2);
+            vertical-align: middle;
+            text-align: center;
+
+            &.numeric {
+                width: 100px;
+            }
+
+            .i-complete {
+                margin-right: 4px;
+            }
+
+            .i-exclude {
+                margin-top: -4px;
+            }
+
+            .i-complete, .i-incomplete, .i-exclude {
+                cursor: pointer;
+
+                &.enabled {
+                    box-shadow: inset 0 0 3px 1px var(--primary-color);
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .column-name {
+            text-align: center;
+
+            ::ng-deep {
+                .p-sortable-column-icon {
+                    margin-left: unset;
+                }
+            }
+        }
+
+        .column-filter {
+            ::ng-deep {
+                .dropdown-filter, .text-filter {
+                    margin-top: 3px;
+                    height: 27px;
+                    width: 100%;
+                }
+
+                .p-inputtext {
+                    padding-right: unset;
+                }
+
+                .p-dropdown-clear-icon {
+                    right: 24px;
+                }
+
+                .p-dropdown-trigger {
+                    width: 24px;
+                }
+            }
+
+            // Clear button for pure text filters
+            .pi.pi-times {
+                position: absolute;
+                right: 15px;
+                top: 55%;
+
+                cursor: pointer;
+            }
+        }
+
+        .row-action {
+            width: 40px;
+        }
+
+        th {
+            // Scrolls row-action-icon behind th
+            z-index: 2;
+        }
+    }
+}

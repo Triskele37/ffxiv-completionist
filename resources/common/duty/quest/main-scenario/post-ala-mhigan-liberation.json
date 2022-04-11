@@ -1,0 +1,411 @@
+{
+    "key": "post-stormblood",
+    "tasks": {
+        "x68498": {
+            "level": 70,
+            "unlock": "social.emotes.special.166",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68089"
+            ],
+            "cNext": [
+                68499
+            ],
+            "cSiblings": [
+                "social.emotes.special.166"
+            ]
+        },
+        "x68499": {
+            "level": 70,
+            "cPrev": [
+                68498
+            ],
+            "cNext": [
+                68500
+            ]
+        },
+        "x68500": {
+            "level": 70,
+            "unlock": "duty.dutyraid-finder.dungeons.sb.8",
+            "cPrev": [
+                68499
+            ],
+            "cNext": [
+                68501
+            ]
+        },
+        "x68501": {
+            "level": 70,
+            "cPrev": [
+                68500
+            ],
+            "cNext": [
+                68502
+            ]
+        },
+        "x68502": {
+            "level": 70,
+            "cPrev": [
+                68501
+            ],
+            "cNext": [
+                68503
+            ]
+        },
+        "x68503": {
+            "level": 70,
+            "cPrev": [
+                68502
+            ],
+            "cNext": [
+                68504
+            ]
+        },
+        "x68504": {
+            "level": 70,
+            "cPrev": [
+                68503
+            ],
+            "cNext": [
+                68505
+            ]
+        },
+        "x68505": {
+            "level": 70,
+            "cPrev": [
+                68504
+            ],
+            "cNext": [
+                68506
+            ]
+        },
+        "x68506": {
+            "level": 70,
+            "cPrev": [
+                68505
+            ],
+            "cNext": [
+                68507
+            ]
+        },
+        "x68507": {
+            "level": 70,
+            "cPrev": [
+                68506
+            ],
+            "cNext": [
+                68508
+            ]
+        },
+        "x68508": {
+            "level": 70,
+            "unlock": "character.minion-guide.72",
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68541",
+                68558
+            ],
+            "cPrev": [
+                68507
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1990"
+            ]
+        },
+        "x68558": {
+            "level": 70,
+            "unlock": "social.emotes.general.172",
+            "cPrev": [
+                68508
+            ],
+            "cNext": [
+                68559
+            ],
+            "cSiblings": [
+                "social.emotes.general.172"
+            ]
+        },
+        "x68559": {
+            "level": 70,
+            "cPrev": [
+                68558
+            ],
+            "cNext": [
+                68560
+            ]
+        },
+        "x68560": {
+            "level": 70,
+            "cNext": [
+                "duty.quests.chronicles-of-a-new-era.the-four-lords.68551",
+                68561
+            ],
+            "cPrev": [
+                68559
+            ]
+        },
+        "x68561": {
+            "level": 70,
+            "cNext": [
+                "duty.quests.sidequests.side-story.doman-reconstruction.68622",
+                68562
+            ],
+            "cPrev": [
+                68560
+            ]
+        },
+        "x68562": {
+            "level": 70,
+            "cPrev": [
+                68561
+            ],
+            "cNext": [
+                68563
+            ]
+        },
+        "x68563": {
+            "level": 70,
+            "cPrev": [
+                68562
+            ],
+            "cNext": [
+                68564
+            ]
+        },
+        "x68564": {
+            "level": 70,
+            "cPrev": [
+                68563
+            ],
+            "cNext": [
+                68565
+            ]
+        },
+        "x68565": {
+            "level": 70,
+            "unlock": "logs.orchestrion-list.others.26",
+            "cPrev": [
+                68564
+            ],
+            "cNext": [
+                68606
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.2013"
+            ]
+        },
+        "x68606": {
+            "level": 70,
+            "cPrev": [
+                68565
+            ],
+            "cNext": [
+                68607
+            ]
+        },
+        "x68607": {
+            "level": 70,
+            "cPrev": [
+                68606
+            ],
+            "cNext": [
+                68608
+            ]
+        },
+        "x68608": {
+            "level": 70,
+            "cPrev": [
+                68607
+            ],
+            "cNext": [
+                68609
+            ]
+        },
+        "x68609": {
+            "level": 70,
+            "cPrev": [
+                68608
+            ],
+            "cNext": [
+                68610
+            ]
+        },
+        "x68610": {
+            "level": 70,
+            "unlock": "duty.dutyraid-finder.trials.sb.4",
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68566",
+                68611
+            ],
+            "cPrev": [
+                68609
+            ]
+        },
+        "x68611": {
+            "level": 70,
+            "cPrev": [
+                68610
+            ],
+            "cNext": [
+                68612
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.2098"
+            ]
+        },
+        "x68612": {
+            "level": 70,
+            "unlock": "social.emotes.expressions.183",
+            "cNext": [
+                68679,
+                "duty.quests.class--job.disciple-of-magic-job.blue-mage.69525"
+            ],
+            "cPrev": [
+                68611
+            ],
+            "cSiblings": [
+                "social.emotes.expressions.183"
+            ]
+        },
+        "x68679": {
+            "level": 70,
+            "cPrev": [
+                68612
+            ],
+            "cNext": [
+                68680
+            ]
+        },
+        "x68680": {
+            "level": 70,
+            "unlock": "duty.dutyraid-finder.dungeons.sb.12",
+            "cPrev": [
+                68679
+            ],
+            "cNext": [
+                68681
+            ]
+        },
+        "x68681": {
+            "level": 70,
+            "cPrev": [
+                68680
+            ],
+            "cNext": [
+                68682
+            ]
+        },
+        "x68682": {
+            "level": 70,
+            "cPrev": [
+                68681
+            ],
+            "cNext": [
+                68683
+            ]
+        },
+        "x68683": {
+            "level": 70,
+            "cPrev": [
+                68682
+            ],
+            "cNext": [
+                68684
+            ]
+        },
+        "x68684": {
+            "level": 70,
+            "unlock": "social.emotes.expressions.190",
+            "cPrev": [
+                68683
+            ],
+            "cNext": [
+                68685
+            ],
+            "cSiblings": [
+                "social.emotes.expressions.190"
+            ]
+        },
+        "x68685": {
+            "level": 70,
+            "cPrev": [
+                68684
+            ],
+            "cNext": [
+                68715
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.2124"
+            ]
+        },
+        "x68715": {
+            "level": 70,
+            "cPrev": [
+                68685
+            ],
+            "cNext": [
+                68716
+            ]
+        },
+        "x68716": {
+            "level": 70,
+            "cPrev": [
+                68715
+            ],
+            "cNext": [
+                68717
+            ]
+        },
+        "x68717": {
+            "level": 70,
+            "cNext": [
+                68718,
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.68722"
+            ],
+            "cPrev": [
+                68716
+            ]
+        },
+        "x68718": {
+            "level": 70,
+            "cPrev": [
+                68717
+            ],
+            "cNext": [
+                68719
+            ]
+        },
+        "x68719": {
+            "level": 70,
+            "unlock": "duty.dutyraid-finder.dungeons.sb.14",
+            "cPrev": [
+                68718
+            ],
+            "cNext": [
+                68720
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.2160"
+            ]
+        },
+        "x68720": {
+            "level": 70,
+            "cPrev": [
+                68719
+            ],
+            "cNext": [
+                68721
+            ]
+        },
+        "x68721": {
+            "level": 70,
+            "cPrev": [
+                68720
+            ],
+            "cNext": [
+                "duty.quests.main-scenario.shadowbringers.68815"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.2233"
+            ]
+        }
+    }
+}

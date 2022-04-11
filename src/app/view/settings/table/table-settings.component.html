@@ -1,0 +1,38 @@
+<div
+    class="setting bool"
+    [pTooltip]="'MAIN.SETTING.TABLE.COMPLETED.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'MAIN.SETTING.TABLE.COMPLETED.LABEL' | translate}}</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="settings.tableFilters.completed.value"
+        (onChange)="parent.onChangeBoolSetting(settings.tableFilters.completed)"
+    ></p-checkbox>
+</div>
+
+<div
+    class="setting bool"
+    [pTooltip]="'MAIN.SETTING.TABLE.INCOMPLETE.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'MAIN.SETTING.TABLE.INCOMPLETE.LABEL' | translate}}</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="settings.tableFilters.incomplete.value"
+        (onChange)="parent.onChangeBoolSetting(settings.tableFilters.incomplete)"
+    ></p-checkbox>
+</div>
+
+<div
+    class="setting bool"
+    [pTooltip]="'MAIN.SETTING.TABLE.EXCLUDED.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'MAIN.SETTING.TABLE.EXCLUDED.LABEL' | translate}}</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="settings.tableFilters.excluded.value"
+        (onChange)="parent.onChangeBoolSetting(settings.tableFilters.excluded)"
+    ></p-checkbox>
+</div>

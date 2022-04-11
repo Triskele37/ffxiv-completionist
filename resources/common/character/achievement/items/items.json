@@ -15,239 +15,294 @@
         },
         "x1063": {
             "points": 20,
+            "reward": "character.character.title.187",
             "patch": "2.5",
             "cSiblings": [
-                "q.65968",
-                "t.187"
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.65968",
+                "character.character.title.187"
             ]
         },
         "x1078": {
             "points": 10,
+            "reward": "character.character.title.191",
             "patch": "2.5",
-            "cPrevAny": [
-                "r2.2",
-                "r2.5",
-                "r2.8",
-                "r2.11",
-                "r2.14",
-                "r2.17",
-                "r2.20",
-                "r2.23"
+            "cPrevAny": true,
+            "cPrev": [
+                "character.relic-gear.lucis-tools.2",
+                "character.relic-gear.lucis-tools.5",
+                "character.relic-gear.lucis-tools.8",
+                "character.relic-gear.lucis-tools.11",
+                "character.relic-gear.lucis-tools.14",
+                "character.relic-gear.lucis-tools.17",
+                "character.relic-gear.lucis-tools.20",
+                "character.relic-gear.lucis-tools.23"
             ],
             "cSiblings": [
-                "t.191"
+                "character.character.title.191"
             ]
         },
         "x1079": {
             "points": 10,
+            "reward": "character.character.title.192",
             "patch": "2.5",
-            "cPrevAny": [
-                "r2.26",
-                "r2.29",
-                "r2.32"
+            "cPrevAny": true,
+            "cPrev": [
+                "character.relic-gear.lucis-tools.26",
+                "character.relic-gear.lucis-tools.29",
+                "character.relic-gear.lucis-tools.32"
             ],
             "cSiblings": [
-                "t.192"
+                "character.character.title.192"
             ]
         },
         "x1377": {
             "points": 5,
             "patch": "3.1",
-            "cNext": [1378],
+            "reward": "character.character.title.266",
+            "cNext": [
+                1378
+            ],
             "cSiblings": [
-                "t.266"
+                "character.character.title.266"
             ]
         },
         "x1378": {
             "points": 10,
             "patch": "3.1",
-            "cPrev": [1377],
+            "reward": "character.character.title.267",
+            "cPrev": [
+                1377
+            ],
             "cSiblings": [
-                "t.267"
+                "character.character.title.267"
             ]
         },
         "x1379": {
             "points": 10,
+            "reward": "character.character.title.268",
             "patch": "3.1",
             "cSiblings": [
-                "t.268"
+                "character.character.title.268"
             ]
         },
         "x1433": {
             "points": 5,
+            "reward": "logs.orchestrion-list.others.0",
             "patch": "3.15",
-            "cNext": [1434]
+            "cNext": [
+                1434
+            ]
         },
         "x1434": {
             "points": 5,
+            "reward": "logs.orchestrion-list.trials.1",
             "patch": "3.15",
-            "cPrev": [1433],
-            "cNext": [1623]
+            "cPrev": [
+                1433
+            ],
+            "cNext": [
+                1623
+            ]
         },
         "x1623": {
             "points": 10,
+            "reward": "logs.orchestrion-list.others.12",
             "patch": "3.3",
-            "cPrev": [1434],
-            "cNext": [1634]
+            "cPrev": [
+                1434
+            ],
+            "cNext": [
+                1634
+            ]
         },
         "x1634": {
             "points": 10,
             "patch": "3.4",
-            "cPrev": [1623],
-            "cNext": [1635]
+            "cPrev": [
+                1623
+            ],
+            "cNext": [
+                1635
+            ]
         },
         "x1635": {
             "points": 10,
+            "reward": "logs.orchestrion-list.others.14",
             "patch": "3.4",
-            "cPrev": [1634],
-            "cNext": [2006]
+            "cPrev": [
+                1634
+            ],
+            "cNext": [
+                2006
+            ]
         },
         "x2006": {
             "points": 10,
+            "reward": "logs.orchestrion-list.others.31",
             "patch": "4.2",
-            "cPrev": [1635]
+            "cPrev": [
+                1635
+            ]
         },
         "x2053": {
             "points": 10,
+            "reward": "character.character.title.386",
             "patch": "4.35",
             "cSiblings": [
-                "t.386"
+                "character.character.title.386"
             ]
         },
         "x1694": {
             "points": 20,
+            "reward": "character.character.title.344",
             "patch": "3.5",
             "cSiblings": [
-                "q.67086",
-                "t.344"
+                "duty.quests.sidequests.dravanian.idyllshire.67086",
+                "character.character.title.344"
             ]
         },
         "x1757": {
             "points": 20,
+            "reward": "character.character.title.325",
             "patch": "3.5",
             "defaultCompletion": "X",
             "cSiblings": [
-                "t.325"
+                "character.character.title.325"
             ]
         },
         "x1758": {
             "points": 10,
+            "reward": "character.character.title.326",
             "patch": "3.5",
             "defaultCompletion": "X",
             "cSiblings": [
-                "t.326"
+                "character.character.title.326"
             ]
         },
         "x1762": {
             "points": 10,
+            "reward": "character.character.title.327",
             "patch": "3.5",
             "defaultCompletion": "X",
             "cSiblings": [
-                "t.327"
+                "character.character.title.327"
             ]
         },
         "x1759": {
             "points": 10,
+            "reward": "character.character.title.328",
             "patch": "3.5",
             "defaultCompletion": "X",
             "cSiblings": [
-                "t.328"
+                "character.character.title.328"
             ]
         },
         "x1761": {
             "points": 10,
+            "reward": "character.character.title.329",
             "patch": "3.5",
             "defaultCompletion": "X",
             "cSiblings": [
-                "t.329"
+                "character.character.title.329"
             ]
         },
         "x1764": {
             "points": 10,
+            "reward": "character.character.title.330",
             "patch": "3.5",
             "defaultCompletion": "X",
             "cSiblings": [
-                "t.330"
+                "character.character.title.330"
             ]
         },
         "x1763": {
             "points": 10,
+            "reward": "character.character.title.333",
             "patch": "3.5",
             "defaultCompletion": "X",
             "cSiblings": [
-                "t.333"
+                "character.character.title.333"
             ]
         },
         "x1768": {
             "points": 10,
+            "reward": "character.character.title.332",
             "patch": "3.5",
             "defaultCompletion": "X",
             "cSiblings": [
-                "t.332"
+                "character.character.title.332"
             ]
         },
         "x1766": {
             "points": 10,
+            "reward": "character.character.title.331",
             "patch": "3.5",
             "defaultCompletion": "X",
             "cSiblings": [
-                "t.331"
+                "character.character.title.331"
             ]
         },
         "x1767": {
             "points": 10,
+            "reward": "character.character.title.334",
             "patch": "3.5",
             "defaultCompletion": "X",
             "cSiblings": [
-                "t.334"
+                "character.character.title.334"
             ]
         },
         "x1769": {
             "points": 10,
+            "reward": "character.character.title.335",
             "patch": "3.5",
             "defaultCompletion": "X",
             "cSiblings": [
-                "t.335"
+                "character.character.title.335"
             ]
         },
         "x1760": {
             "points": 10,
+            "reward": "character.character.title.336",
             "patch": "3.5",
             "defaultCompletion": "X",
             "cSiblings": [
-                "t.336"
+                "character.character.title.336"
             ]
         },
         "x1765": {
             "points": 10,
+            "reward": "character.character.title.337",
             "patch": "3.5",
             "defaultCompletion": "X",
             "cSiblings": [
-                "t.337"
+                "character.character.title.337"
             ]
         },
         "x1770": {
             "points": 10,
+            "reward": "character.character.title.338",
             "patch": "3.5",
             "defaultCompletion": "X",
             "cSiblings": [
-                "t.338"
+                "character.character.title.338"
             ]
         },
         "x2161": {
             "points": 20,
+            "reward": "character.character.title.408",
             "patch": "4.5",
             "cSiblings": [
-                "q.68736",
-                "t.408"
+                "duty.quests.sidequests.hingan.kugane.68736",
+                "character.character.title.408"
             ]
         },
         "x2820": {
             "points": 20,
+            "reward": "character.character.title.577",
             "patch": "5.5",
             "cSiblings": [
-                "q.69593",
-                "t.577"
+                "duty.quests.sidequests.gyr-abanian.the-lochs.69593",
+                "character.character.title.577"
             ]
         }
     }

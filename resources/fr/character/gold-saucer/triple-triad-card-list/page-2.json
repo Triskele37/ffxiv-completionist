@@ -3,183 +3,134 @@
     "tasks": {
         "x0": {
             "name": "Livia",
-            "type": "Garlemaldais",
-            "opponent": "Impérial paresseux",
-            "acquiredBy": "Castrum Meridianum"
+            "opponent": "Impérial paresseux"
         },
         "x1": {
             "name": "Rhitahtyn",
-            "type": "Garlemaldais",
-            "opponent": "Impérial paresseux",
-            "acquiredBy": "Cape Vendouest"
+            "opponent": "Impérial paresseux"
         },
         "x2": {
             "name": "Biggs & Wedge",
-            "type": "Aucun",
-            "opponent": "Mimidoa, Sezul Totoloc",
-            "acquiredBy": ""
+            "opponent": "Mimidoa, Sezul Totoloc"
         },
         "x3": {
             "name": "Gerolt",
-            "type": "Aucun",
             "opponent": "Helmhart, Rowena",
-            "acquiredBy": "Pochette Triple Triade or"
+            "source": "Pochette Triple Triade or"
         },
         "x4": {
             "name": "Frixio",
-            "type": "Homme-bête",
-            "opponent": "Marcette, Piralnaut",
-            "acquiredBy": ""
+            "opponent": "Marcette, Piralnaut"
         },
         "x5": {
             "name": "Mutamix",
-            "type": "Homme-bête",
-            "opponent": "F'hobhas",
-            "acquiredBy": ""
+            "opponent": "F'hobhas"
         },
         "x6": {
             "name": "Memeroon",
-            "type": "Homme-bête",
-            "opponent": "Memeroon",
-            "acquiredBy": ""
+            "opponent": "Memeroon"
         },
         "x7": {
             "name": "Béhémoth",
-            "type": "Aucun",
             "opponent": "Sezul Totoloc, Ourdilic",
-            "acquiredBy": "Pochette Triple Triade bronze"
+            "source": "Pochette Triple Triade bronze"
         },
         "x8": {
             "name": "Gilgamesh & Enkidu",
-            "type": "Aucun",
-            "opponent": "",
-            "acquiredBy": "Affrontement sur le grand pont, Pochette Triple Triade mithrite"
+            "source": "Pochette Triple Triade mithrite"
         },
         "x9": {
             "name": "Ifrit",
-            "type": "Primordial",
             "opponent": "Swift",
-            "acquiredBy": "Le Cratère des tisons (brutal), Le Cratère des tisons (extrême)"
+            "source": "Pochette Triple Triade argent"
         },
         "x10": {
             "name": "Titan",
-            "type": "Primordial",
-            "opponent": "Landenel, Trachtoum",
-            "acquiredBy": "Le Nombril (brutal), Le Nombril (extrême)"
+            "opponent": "Landenel, Trachtoum"
         },
         "x11": {
             "name": "Garuda",
-            "type": "Primordial",
-            "opponent": "Marcette",
-            "acquiredBy": "Hurlœil (brutal), Hurlœil (extrême)"
+            "opponent": "Marcette"
         },
         "x12": {
             "name": "Moggle Mog XII",
-            "type": "Primordial",
-            "opponent": "Vorsaile Heuloix, Mogzin",
-            "acquiredBy": "La Lisière des ronces (brutal), La Lisière des ronces (extrême)"
+            "opponent": "Vorsaile Heuloix, Mogzin"
         },
         "x13": {
             "name": "Raya-O-Senna & A-Ruhn-Senna",
-            "type": "Aucun",
             "opponent": "Buscarron",
-            "acquiredBy": "4.800 PGS"
+            "source": "4.800 PGS"
         },
         "x14": {
             "name": "Godbert",
-            "type": "Aucun",
             "opponent": "Ruthwyda la Dame de cœur, Elmer le Roi, Hab",
-            "acquiredBy": "9.600 PGS"
+            "source": "9.600 PGS"
         },
         "x15": {
             "name": "Thancred",
-            "type": "Héritier",
-            "opponent": "Fufulupa, Hab",
-            "acquiredBy": ""
+            "opponent": "Fufulupa, Hab"
         },
         "x16": {
             "name": "Nero",
-            "type": "Garlemadais",
-            "opponent": "Impérial paresseux",
-            "acquiredBy": ""
+            "opponent": "Impérial paresseux"
         },
         "x17": {
             "name": "Papalymo & Yda",
-            "type": "Héritier",
-            "opponent": "Buscarron, Vorsaile Heuloix",
-            "acquiredBy": ""
+            "opponent": "Buscarron, Vorsaile Heuloix"
         },
         "x18": {
             "name": "Y'shtola",
-            "type": "Héritier",
-            "opponent": "Gegeruju, R'ashaht Rhiki",
-            "acquiredBy": ""
+            "opponent": "Gegeruju, R'ashaht Rhiki"
         },
         "x19": {
             "name": "Urianger",
-            "type": "Héritier",
             "opponent": "Ruthwyda la Dame de cœur",
-            "acquiredBy": "Pochette Triple Triade argent"
+            "source": "Pochette Triple Triade argent"
         },
         "x20": {
             "name": "Ultima Arma",
-            "type": "Garlemaldais",
-            "opponent": "",
-            "acquiredBy": "Le fléau d'Ultima, Pochette Triple Triade or, Pochette Triple Triade platine"
+            "source": [
+                "Pochette Triple Triade or",
+                "Pochette Triple Triade platine"
+            ]
         },
         "x21": {
             "name": "Odin",
-            "type": "Primal",
             "opponent": "Landenel",
-            "acquiredBy": "Urth's Fount, Mythril Triad Card"
+            "source": "Mythril Triad Card"
         },
         "x22": {
             "name": "Ramuh",
-            "type": "Primordial",
-            "opponent": "Vorsaile Heuloix",
-            "acquiredBy": "La Fontaine d'Urth, Pochette Triple Triade mithrite"
+            "opponent": "Vorsaile Heuloix"
         },
         "x23": {
             "name": "Léviathan",
-            "type": "Primordial",
-            "opponent": "R'ashaht Rhiki",
-            "acquiredBy": "Le Briseur de marées (brutal), Le Briseur de marées (extrême)"
+            "opponent": "R'ashaht Rhiki"
         },
         "x24": {
-            "name": "Shiva",
-            "type": "Primordial",
-            "opponent": "",
-            "acquiredBy": "L'Amphithéâtre d'Akh Afah (brutal), L'Amphithéâtre d'Akh Afah (extrême), Pochette Triple Triade platine"
+            "name": "Shiva"
         },
         "x25": {
             "name": "Minfilia",
-            "type": "Héritier",
             "opponent": "Gegeruju",
-            "acquiredBy": "Pochette Triple Triade argent"
+            "source": "Pochette Triple Triade argent"
         },
         "x26": {
             "name": "Lahabrea",
-            "type": "Aucun",
-            "opponent": "",
-            "acquiredBy": "Pochette Triple Triade argent, Pochette Triple Triade platine"
+            "source": "Pochette Triple Triade argent, Pochette Triple Triade platine"
         },
         "x27": {
             "name": "Cid",
-            "type": "Aucun",
             "opponent": "Sezul Totoloc",
-            "acquiredBy": "Pochette Triple Triade or"
+            "source": "Pochette Triple Triade or"
         },
         "x28": {
             "name": "Alphinaud & Alisaie",
-            "type": "Hériter",
-            "opponent": "Joellaut, Swift",
-            "acquiredBy": ""
+            "opponent": "Joellaut, Swift"
         },
         "x29": {
             "name": "Louisoix",
-            "type": "Aucun",
-            "opponent": "Rowena",
-            "acquiredBy": ""
+            "opponent": "Rowena"
         }
     }
 }

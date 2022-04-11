@@ -4,12 +4,23 @@
         "x67094": {
             "level": 1,
             "cPrev": [
-                66235
+                "duty.quests.sidequests.uldahn.western-thanalan.66235"
             ]
         },
         "x65968": {
             "level": 1,
-            "cSiblings": ["a.1063"]
+            "unlock": "character.mount-guide.96",
+            "cSiblings": [
+                "character.achievement.items.items.1063"
+            ],
+            "cPrev": [
+                "character.mount-guide.4",
+                "character.mount-guide.25",
+                "character.mount-guide.56",
+                "character.mount-guide.83",
+                "character.mount-guide.120",
+                "character.mount-guide.186"
+            ]
         },
         "x66958": {
             "level": 15,
@@ -17,7 +28,7 @@
                 66957
             ],
             "cExclude": [
-                68554
+                "duty.quests.sidequests.uldahn.western-thanalan.68554"
             ]
         },
         "x66957": {
@@ -26,7 +37,7 @@
                 66958
             ],
             "cExclude": [
-                68553
+                "duty.quests.sidequests.uldahn.western-thanalan.68553"
             ]
         },
         "x66524": {
@@ -100,10 +111,11 @@
         },
         "x65554": {
             "level": 45,
-            "cPrevAny": [
-                66229,
-                65756,
-                66223
+            "cPrevAny": true,
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
             ]
         },
         "x66535": {
@@ -121,109 +133,120 @@
         "x66677": {
             "level": 50,
             "cPrev": [
-                66676
+                "duty.quests.sidequests.gridanian.north-shroud.66676"
             ]
         },
         "x66751": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.dungeons.arr.18",
             "cPrev": [
-                66060
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
         },
         "x66752": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.dungeons.arr.17",
             "cPrev": [
-                66060
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
         },
         "x66946": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.dungeons.arr.20",
             "cPrev": [
-                66060
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
         },
         "x66947": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.dungeons.arr.21",
             "cPrev": [
-                66060
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
         },
         "x65700": {
             "level": 50,
             "cPrev": [
-                66060
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
         },
         "x67062": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.dungeons.arr.22",
             "cPrev": [
-                66060
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ],
             "cNext": [
-                67784
+                "duty.quests.sidequests.lominsan.limsa-lominsa.67784"
             ]
         },
         "x67061": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.dungeons.arr.23",
             "cPrev": [
-                66060
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
         },
         "x65632": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.dungeons.arr.27",
             "cPrev": [
-                66060
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
         },
         "x65630": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.dungeons.arr.26",
             "cPrev": [
-                66060
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
         },
         "x65967": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.dungeons.arr.29",
             "cPrev": [
-                66060
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
         },
         "x65966": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.dungeons.arr.30",
             "cPrev": [
-                66060
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
         },
         "x67632": {
             "level": 55,
             "cPrev": [
-                67118
+                "duty.quests.main-scenario.heavensward.67118"
             ]
         },
         "x67633": {
             "level": 56,
             "cPrev": [
-                67118
+                "duty.quests.main-scenario.heavensward.67118"
             ]
         },
         "x67634": {
             "level": 60,
             "cPrev": [
-                67118,
-                67631
+                "duty.quests.main-scenario.heavensward.67118",
+                "duty.quests.sidequests.ishgardian.ishgard.67631"
             ],
             "cNext": [
-                67087,
-                67635,
-                68477,
-                69139,
-                69425,
-                69615
+                "duty.quests.sidequests.dravanian.idyllshire.67087",
+                "duty.quests.other.quasi-quests.67635",
+                "duty.quests.other.quasi-quests.68477",
+                "duty.quests.other.quasi-quests.69711",
+                "duty.quests.other.quasi-quests.69139",
+                "duty.quests.sidequests.side-story.ishgardian-restoration-sidequests.69425",
+                "duty.quests.sidequests.side-story.ishgardian-restoration-sidequests.69615"
             ]
         },
         "x68722": {
             "level": 70,
             "cPrev": [
-                68717
+                "duty.quests.main-scenario.post-stormblood.68717"
             ]
         }
     }

@@ -1,0 +1,47 @@
+{
+    "key": "stormblood-beast-tribe",
+    "tasks": {
+        "x68697": {
+            "level": 70,
+            "cPrev": [
+                "duty.quests.beast-tribe.kojin.68514",
+                "duty.quests.beast-tribe.ananta.68577",
+                "duty.quests.beast-tribe.namazu.68638"
+            ],
+            "cNext": [
+                68698
+            ]
+        },
+        "x68698": {
+            "level": 70,
+            "cPrev": [
+                68697
+            ],
+            "cNext": [
+                68699
+            ]
+        },
+        "x68699": {
+            "level": 70,
+            "cPrev": [
+                68698
+            ],
+            "cNext": [
+                68700
+            ]
+        },
+        "x68700": {
+            "level": 70,
+            "cPrev": [
+                68699
+            ],
+            "cSiblings": [
+                "character.character.beast-tribe-reputation.59",
+                "character.character.beast-tribe-reputation.66",
+                "character.character.beast-tribe-reputation.73",
+                "character.achievement.quests.beast-tribe-quests.2235",
+                "social.emotes.general.194"
+            ]
+        }
+    }
+}

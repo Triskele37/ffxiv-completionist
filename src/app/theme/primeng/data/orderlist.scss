@@ -1,0 +1,94 @@
+
+.p-orderlist .p-orderlist-controls {
+    padding: var(--content-padding);
+}
+
+.p-orderlist .p-orderlist-controls .p-button {
+    margin-bottom: 0.5rem;
+}
+
+.p-orderlist .p-orderlist-header {
+    background: var(--surface-a);
+    color: var(--text-color);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
+    padding: var(--content-padding);
+    border-bottom: 0 none;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.p-orderlist .p-orderlist-header .p-orderlist-title {
+    font-weight: 500;
+}
+
+.p-orderlist .p-orderlist-filter-container {
+    padding: var(--content-padding);
+    background: var(--surface-a);
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
+    border-bottom: 0 none;
+}
+
+.p-orderlist .p-orderlist-filter-container .p-orderlist-filter-input {
+    padding-right: 2rem;
+}
+
+.p-orderlist .p-orderlist-filter-container .p-orderlist-filter-icon {
+    right: var(--content-padding);
+    color: var(--text-color-secondary);
+}
+
+.p-orderlist .p-orderlist-list {
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
+    background: var(--surface-a);
+    color: var(--text-color);
+    padding: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.p-orderlist .p-orderlist-list .p-orderlist-item {
+    padding: var(--content-padding) var(--content-padding);
+    margin: 0;
+    border: 0 none;
+    color: var(--text-color);
+    background: transparent;
+    transition: none;
+}
+
+.p-orderlist .p-orderlist-list .p-orderlist-item:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: none;
+}
+
+.p-orderlist .p-orderlist-list .p-orderlist-item.p-highlight {
+    color: var(--primary-color);
+    background: rgba(var(--primary-color-rgb), 0.16);
+}
+
+.p-orderlist .p-orderlist-list .p-orderlist-empty-message {
+    padding: var(--content-padding) var(--content-padding);
+    color: var(--text-color);
+}
+
+.p-orderlist .p-orderlist-list:not(.cdk-drop-list-dragging) .p-orderlist-item:not(.p-highlight):hover {
+    background: rgba(var(--text-color-rgb), 0.04);
+    color: var(--text-color);
+}
+
+.p-orderlist-item.cdk-drag-preview {
+    padding: var(--content-padding) var(--content-padding);
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+    border: 0 none;
+    color: var(--text-color);
+    background: var(--surface-a);
+    margin: 0;
+}
+
+.p-orderlist .p-orderlist-list .p-orderlist-item:focus {
+    background: rgba(var(--text-color-rgb), 0.12);
+}
+
+.p-orderlist .p-orderlist-list .p-orderlist-item:focus.p-highlight {
+    background: rgba(var(--primary-color-rgb), 0.24);
+}

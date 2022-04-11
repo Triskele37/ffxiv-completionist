@@ -3,87 +3,74 @@
     "tasks": {
         "x0": {
             "name": "Warrior of Light",
-            "type": "None",
-            "opponent": "",
-            "acquiredBy": "Gold Triad Card"
+            "source": "Gold Triad Card"
         },
         "x1": {
             "name": "Firion",
-            "type": "None",
-            "opponent": "",
-            "acquiredBy": "Triple Triad Tournament, Platinum Triad Card"
+            "source": [
+                "1st-3rd place in Durai Memorial tournament",
+                "Platinum Triad Card"
+            ]
         },
         "x2": {
             "name": "Onion Knight",
-            "type": "None",
             "opponent": "Lewena",
-            "acquiredBy": "The World of Darkness, Mythril Triad Card"
+            "source": "Mythril Triad Card"
         },
         "x3": {
             "name": "Cecil Harvey",
-            "type": "None",
-            "opponent": "",
-            "acquiredBy": "Triple Triad Tournament, Platinum Triad Card"
+            "source": [
+                "1st-3rd place in Spinner's Pull tournament",
+                "Platinum Triad Card"
+            ]
         },
         "x4": {
             "name": "Bartz Klauser",
-            "type": "None",
             "opponent": "Lewena",
-            "acquiredBy": "Battle in the Big Keep, Mythril Triad Card"
+            "source": "Mythril Triad Card"
         },
         "x5": {
             "name": "Terra Branford",
-            "type": "None",
             "opponent": "Lewena, Hall Overseer",
-            "acquiredBy": "The Dragon's Neck, Mythril Triad Card"
+            "source": "Mythril Triad Card"
         },
         "x6": {
             "name": "Cloud Strife",
-            "type": "None",
-            "opponent": "",
-            "acquiredBy": "1,000,000 MGP"
+            "source": "1,000,000 MGP"
         },
         "x7": {
-            "name": "Squall Leonhart",
-            "type": "None",
-            "opponent": "",
-            "acquiredBy": "Achievement: Triple Team II"
+            "name": "Squall Leonhart"
         },
         "x8": {
             "name": "Zidane Tribal",
-            "type": "None",
-            "opponent": "",
-            "acquiredBy": "Gold Triad Card"
+            "source": "Gold Triad Card"
         },
         "x9": {
             "name": "Tidus",
-            "type": "None",
-            "opponent": "",
-            "acquiredBy": "Triple Triad Tournament, Platinum Triad Card"
+            "source": [
+                "1st-3rd place in Rowena Cup Classic tournament",
+                "Platinum Triad Card"
+            ]
         },
         "x10": {
-            "name": "Shantotto",
-            "type": "None",
-            "opponent": "",
-            "acquiredBy": "Achievement: Kumite Kumite Kumite"
+            "name": "Shantotto"
         },
         "x11": {
-            "name": "Vaan",
-            "type": "None",
-            "opponent": "",
-            "acquiredBy": "Achievement: Wheel of Fortune V"
+            "name": "Vaan"
         },
         "x12": {
             "name": "Lightning",
-            "type": "None",
-            "opponent": "",
-            "acquiredBy": "Triple Triad Tournament, Platinum Triad Card"
+            "source": [
+                "1st-3rd place in Manderville Tournament of Champions",
+                "Platinum Triad Card"
+            ]
         },
         "x13": {
             "name": "Noctis Lucis Caelum",
-            "type": "None",
-            "opponent": "",
-            "acquiredBy": "Event: A Nocturne for Heroes (FFXV Crossover), 200,000 MGP"
+            "source": [
+                "200,000 MGP",
+                "Event: A Nocturne for Heroes (FFXV Crossover)"
+            ]
         }
     }
 }

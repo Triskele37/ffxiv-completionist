@@ -1,0 +1,17 @@
+/* Add global styles to this file, import other style files */
+html, body {
+    background-color: var(--surface-a);
+    font-family: var(--font-family);
+    color: var(--text-color);
+
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@import './styles/global';
+@import './styles/icons';
+@import './styles/modal';
+@import './styles/scrollbar';
+@import './app/theme/theme';
+@import '~material-icons/css/material-icons.css';

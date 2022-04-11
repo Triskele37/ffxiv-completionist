@@ -4,7 +4,7 @@
         "x67011": {
             "level": 60,
             "cPrev": [
-                67783
+                "duty.quests.main-scenario.dragonsong.67783"
             ],
             "cNext": [
                 67012
@@ -42,7 +42,10 @@
             "cPrev": [
                 67014
             ],
-            "cSiblings": ["a.1595", "e.127"]
+            "cSiblings": [
+                "character.achievement.quests.quests.1595",
+                "social.emotes.general.127"
+            ]
         }
     }
 }

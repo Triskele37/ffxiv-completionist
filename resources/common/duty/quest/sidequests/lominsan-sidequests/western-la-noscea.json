@@ -4,7 +4,7 @@
         "x65595": {
             "level": 10,
             "cPrev": [
-                66229
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229"
             ]
         },
         "x65941": {
@@ -12,14 +12,16 @@
         },
         "x66230": {
             "level": 15,
-            "cPrevAny": [
-                66229,
-                65756,
-                66223
+            "cPrevAny": true,
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
             ]
         },
         "x66826": {
             "level": 15,
+            "unlock": "character.minion-guide.387",
             "cPrev": [
                 66825
             ]
@@ -42,9 +44,11 @@
         },
         "x66681": {
             "level": 15,
-            "cPrevAny": [
-                66210,
-                66209
+            "cPrevAny": true,
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.66209",
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210"
             ],
             "cNext": [
                 66682
@@ -70,15 +74,18 @@
         },
         "x66827": {
             "level": 15,
+            "unlock": "character.minion-guide.57",
             "cPrev": [
                 66825
             ]
         },
         "x66678": {
             "level": 15,
-            "cPrevAny": [
-                66210,
-                66209
+            "cPrevAny": true,
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.66209",
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210"
             ],
             "cNext": [
                 66679
@@ -190,7 +197,7 @@
         "x66562": {
             "level": 48,
             "cPrev": [
-                66561
+                "duty.quests.sidequests.uldahn.the-waking-sands.66561"
             ],
             "cNext": [
                 66563
@@ -214,13 +221,14 @@
                 66744
             ],
             "cNext": [
-                67737
+                "duty.quests.sidequests.lominsan.limsa-lominsa.67737"
             ]
         },
         "x66744": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.dungeons.arr.16",
             "cPrev": [
-                66060
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ],
             "cNext": [
                 66745

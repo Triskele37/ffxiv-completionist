@@ -1,0 +1,29 @@
+{
+    "key": "void-quests",
+    "tasks": {
+        "x69522": {
+            "level": 80,
+            "cNext": [
+                69523
+            ]
+        },
+        "x69523": {
+            "level": 80,
+            "cPrev": [
+                69522
+            ],
+            "cNext": [
+                69524
+            ]
+        },
+        "x69524": {
+            "level": 80,
+            "cPrev": [
+                69523
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.2715"
+            ]
+        }
+    }
+}

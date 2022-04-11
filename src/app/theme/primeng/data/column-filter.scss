@@ -1,0 +1,123 @@
+.p-column-filter-row .p-column-filter-menu-button,
+.p-column-filter-row .p-column-filter-clear-button {
+    margin-left: 0.5rem;
+}
+
+.p-column-filter-menu-button,
+.p-column-filter-clear-button {
+    width: calc(var(--icon-size) * 2);
+    height: calc(var(--icon-size) * 2);
+    color: var(--text-color-secondary);
+    border: 0 none;
+    background: transparent;
+    border-radius: 50%;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+
+    &:hover {
+        color: var(--text-color-secondary);
+        border-color: transparent;
+        background: rgba(var(--text-color-rgb), 0.04);
+    }
+
+    &:focus {
+        outline: 0 none;
+        outline-offset: 0;
+        box-shadow: none;
+    }
+}
+
+.p-column-filter-menu-button {
+    &.p-column-filter-menu-button-open,
+    &.p-column-filter-menu-button-open:hover {
+        background: rgba(var(--text-color-rgb), 0.04);
+        color: var(--text-color-secondary);
+    }
+
+    &.p-column-filter-menu-button-active,
+    &.p-column-filter-menu-button-active:hover {
+        // Hides the hover effect when active
+        //background: rgba(var(--primary-color-rgb), 0.16);
+        color: var(--primary-color);
+    }
+}
+
+.p-column-filter-overlay {
+    background: #2b2b2b;
+    color: var(--text-color);
+    border: 0 none;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+    min-width: 12.5rem;
+
+    .p-column-filter-row-items {
+        padding: 0;
+
+        .p-column-filter-row-item {
+            margin: 0;
+            padding: var(--content-padding) var(--content-padding);
+            border: 0 none;
+            color: var(--text-color);
+            background: transparent;
+            transition: none;
+            border-radius: 0;
+
+            &.p-highlight {
+                color: var(--primary-color);
+                background: rgba(var(--primary-color-rgb), 0.16);
+            }
+
+            &:not(.p-highlight):not(.p-disabled):hover {
+                color: var(--text-color);
+                background: rgba(var(--text-color-rgb), 0.04);
+            }
+
+            &:focus {
+                outline: 0 none;
+                outline-offset: 0;
+                box-shadow: none;
+            }
+        }
+
+        .p-column-filter-separator {
+            border-top: 1px solid rgba(var(--text-color-rgb), 0.12);
+            margin: 0.5rem 0;
+        }
+    }
+}
+
+.p-column-filter-overlay-menu {
+    .p-column-filter-operator {
+        padding: var(--content-padding);
+        border-bottom: 1px solid rgba(var(--text-color-rgb), 0.12);
+        color: var(--text-color);
+        background: #2b2b2b;
+        margin: 0;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+    }
+
+    .p-column-filter-constraint {
+        padding: var(--content-padding);
+        border-bottom: 1px solid rgba(var(--text-color-rgb), 0.12);
+
+        .p-column-filter-matchmode-dropdown {
+            margin-bottom: 0.5rem;
+        }
+
+        .p-column-filter-remove-button {
+            margin-top: 0.5rem;
+        }
+
+        &:last-child {
+            border-bottom: 0 none;
+        }
+    }
+
+    .p-column-filter-add-rule {
+        padding: var(--content-padding) var(--content-padding);
+    }
+
+    .p-column-filter-buttonbar {
+        padding: var(--content-padding);
+    }
+}

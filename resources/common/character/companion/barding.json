@@ -1,5 +1,10 @@
 {
     "key": "barding",
+    "headers": {
+        "source": {
+            "link": true
+        }
+    },
     "tasks": {
         "x1": {
             "patch": "2.0"
@@ -107,6 +112,7 @@
             "defaultCompletion": "X"
         },
         "x48": {
+            "source": "duty.dutyraid-finder.deep-dungeon.0",
             "patch": "3.4"
         },
         "x49": {
@@ -165,40 +171,58 @@
             "defaultCompletion": "X"
         },
         "x22": {
+            "source": "duty.dutyraid-finder.deep-dungeon.1",
             "patch": "2.2"
         },
         "x25": {
+            "source": "duty.dutyraid-finder.deep-dungeon.1",
             "patch": "2.3"
         },
         "x28": {
+            "source": "duty.dutyraid-finder.deep-dungeon.1",
             "patch": "2.4"
         },
         "x34": {
+            "source": "duty.dutyraid-finder.deep-dungeon.1",
             "patch": "3.0"
         },
         "x35": {
+            "source": "duty.dutyraid-finder.deep-dungeon.1",
             "patch": "3.0"
         },
         "x40": {
             "patch": "3.1"
         },
         "x41": {
+            "source": "duty.dutyraid-finder.deep-dungeon.1",
             "patch": "3.2"
         },
         "x45": {
+            "source": "duty.dutyraid-finder.deep-dungeon.1",
             "patch": "3.3"
         },
         "x47": {
+            "source": "duty.dutyraid-finder.deep-dungeon.1",
             "patch": "3.4"
         },
         "x52": {
+            "source": "duty.dutyraid-finder.deep-dungeon.1",
             "patch": "3.5"
         },
         "x53": {
+            "source": "duty.dutyraid-finder.deep-dungeon.1",
             "patch": "4.0"
         },
+        "x85": {
+            "patch": "6.0"
+        },
         "x55": {
+            "source": "duty.dutyraid-finder.deep-dungeon.1",
             "patch": "4.0"
+        },
+        "x84": {
+            "patch": "6.0",
+            "defaulCompletion": "X"
         },
         "x59": {
             "patch": "4.1"
@@ -251,6 +275,12 @@
         },
         "x60": {
             "patch": "4.1"
+        },
+        "x82": {
+            "patch": "6.0"
+        },
+        "x83": {
+            "patch": "6.0"
         },
         "x68": {
             "patch": "4.5"

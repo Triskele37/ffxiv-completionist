@@ -1,0 +1,38 @@
+<div *ngIf="group.columns" class="task-table-container">
+    <xiv-task-table-toolbar
+        [group]="group"
+        [tasks]="filteredTasks"
+        [totalTasks]="tasks?.length"
+        (onDataChange)="updateFilteredTasks()"
+    ></xiv-task-table-toolbar>
+
+    <div class="task-table-scroll-container">
+        <p-table
+            *ngIf="!!tasks?.length"
+            #taskTable
+            styleClass="p-datatable-striped"
+            dataKey="_parent.fullStorageKey"
+            [value]="filteredTasks"
+            [virtualScroll]="true"
+            [virtualRowHeight]="40"
+            scrollHeight="100%"
+            (onRowReorder)="onRowReorder($event)"
+        >
+            <ng-template pTemplate="header">
+                <xiv-header-row
+                    [group]="group"
+                    [uniqueValues]="uniqueValues"
+                ></xiv-header-row>
+            </ng-template>
+            <ng-template pTemplate="body" let-task let-rowIndex="rowIndex">
+                <xiv-data-row
+                    [dragEnabled]="group.draggable && !debounceDrag"
+                    [rowIndex]="rowIndex"
+                    [group]="group"
+                    [task]="task"
+                    (completionChange)="updateFilteredTasks()"
+                ></xiv-data-row>
+            </ng-template>
+        </p-table>
+    </div>
+</div>

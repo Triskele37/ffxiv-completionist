@@ -1,0 +1,189 @@
+{
+    "key": "monk",
+    "tasks": {
+        "x66597": {
+            "level": 30,
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-war.pugilist.66103",
+                "duty.quests.main-scenario.seventh-umbral-era.66049"
+            ],
+            "cNext": [
+                66598
+            ]
+        },
+        "x66598": {
+            "level": 35,
+            "cPrev": [
+                66597
+            ],
+            "cNext": [
+                66599
+            ]
+        },
+        "x66599": {
+            "level": 40,
+            "cPrev": [
+                66598
+            ],
+            "cNext": [
+                66600
+            ]
+        },
+        "x66600": {
+            "level": 45,
+            "cPrev": [
+                66599
+            ],
+            "cNext": [
+                66601
+            ]
+        },
+        "x66601": {
+            "level": 45,
+            "cPrev": [
+                66600
+            ],
+            "cNext": [
+                66602
+            ]
+        },
+        "x66602": {
+            "level": 50,
+            "cPrev": [
+                66601
+            ],
+            "cNext": [
+                66657,
+                67562
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.408"
+            ]
+        },
+        "x66657": {
+            "level": 50,
+            "cPrev": [
+                66602,
+                "duty.quests.sidequests.uldahn.western-thanalan.66241"
+            ]
+        },
+        "x67562": {
+            "level": 50,
+            "cPrev": [
+                66602,
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                67563
+            ]
+        },
+        "x67563": {
+            "level": 52,
+            "cPrev": [
+                67562
+            ],
+            "cNext": [
+                67564
+            ]
+        },
+        "x67564": {
+            "level": 54,
+            "cPrev": [
+                67563
+            ],
+            "cNext": [
+                67565
+            ]
+        },
+        "x67565": {
+            "level": 56,
+            "cPrev": [
+                67564
+            ],
+            "cNext": [
+                67566
+            ]
+        },
+        "x67566": {
+            "level": 58,
+            "cPrev": [
+                67565
+            ],
+            "cNext": [
+                67567
+            ]
+        },
+        "x67567": {
+            "level": 60,
+            "cPrev": [
+                67566
+            ],
+            "cNext": [
+                67962
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1142"
+            ]
+        },
+        "x67962": {
+            "level": 60,
+            "cPrev": [
+                67567,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                67963
+            ]
+        },
+        "x67963": {
+            "level": 63,
+            "cPrev": [
+                67962
+            ],
+            "cNext": [
+                67964
+            ]
+        },
+        "x67964": {
+            "level": 65,
+            "cPrev": [
+                67963
+            ],
+            "cNext": [
+                67965
+            ]
+        },
+        "x67965": {
+            "level": 68,
+            "cPrev": [
+                67964
+            ],
+            "cNext": [
+                67966
+            ]
+        },
+        "x67966": {
+            "level": 70,
+            "cPrev": [
+                67965
+            ],
+            "cNext": [
+                68747
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1798"
+            ]
+        },
+        "x68747": {
+            "level": 80,
+            "cPrev": [
+                67966,
+                "duty.quests.class--job.role.physical-dps.68814",
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.2307"
+            ]
+        }
+    }
+}

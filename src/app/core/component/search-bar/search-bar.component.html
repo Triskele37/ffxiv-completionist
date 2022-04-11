@@ -1,0 +1,26 @@
+<p-button
+    class="home-button"
+    icon="pi pi-chevron-{{(svcNavigation.selectedGroup$ | async)?.isUiGroup ? 'down' : 'right'}}"
+    [label]="'MAIN.TITLE' | translate"
+    (onClick)="onHomeClick()"
+></p-button>
+
+<div
+    #searchBar
+    class="search-bar"
+    [pTooltip]="svcSearch.searchError$ | async"
+>
+    <input
+        #searchInput
+        pInputText
+        [placeholder]="'MAIN.SEARCH.PLACEHOLDER' | translate"
+        [ngClass]="svcSearch.searchStatus$ | async"
+        [(ngModel)]="searchTerm"
+        (keydown.enter)="searchOnEnter()"
+    />
+
+    <p-button
+        icon="material-icons mi-search"
+        (onClick)="onSearch()"
+    ></p-button>
+</div>

@@ -1,71 +1,50 @@
 {
     "key": "the-ruby-sea",
-    "cCombo": ["a.1873"],
+    "cCombo": [
+        "character.achievement.character.general.1873"
+    ],
     "tasks": {
         "x0": {
-            "name": "1",
-            "coordinates": "X:   7.9   Y: 28.9   Z: 0.2"
-        },
-        "x1": {
-            "name": "2",
-            "coordinates": "X: 31.4   Y: 25.0   Z: 0.0"
+            "location": "(5.3, 26.1, 0.3)"
         },
         "x2": {
-            "name": "3",
-            "coordinates": "X: 35.5   Y: 20.5   Z: 0.4"
-        },
-        "x3": {
-            "name": "4",
-            "coordinates": "X: 22.7   Y:   3.9   Z: 0.0"
-        },
-        "x4": {
-            "name": "5",
-            "coordinates": "X: 31.5   Y:   6.4   Z: 0.2"
+            "location": "(35.3, 20.4, 0.0)"
         },
         "x5": {
-            "name": "6",
-            "coordinates": "X: 21.9   Y:   9.0   Z: 0.2"
-        },
-        "x6": {
-            "name": "7",
-            "coordinates": "X: 17.7   Y:   7.5   Z: 0.0"
-        },
-        "x7": {
-            "name": "8",
-            "coordinates": "X:   8.4   Y:   9.2   Z: 0.2"
-        },
-        "x8": {
-            "name": "9",
-            "coordinates": "X: 15.2   Y: 38.3   Z: 0.0"
+            "location": "(21.9, 9.0, 0.2)"
         },
         "x9": {
-            "name": "10",
-            "coordinates": "X: 29.9   Y: 38.8   Z: 0.1"
+            "location": "(29.9, 37.5, 0.1)"
         },
         "x10": {
-            "name": "11",
-            "coordinates": "X: 20.2   Y: 20.1   Z:-2.0",
-            "cSiblings": ["q.68168"]
+            "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68168",
+            "cSiblings": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68168"
+            ]
         },
         "x11": {
-            "name": "12",
-            "coordinates": "X: 32.7   Y: 18.5   Z:-0.7",
-            "cSiblings": ["q.68229"]
+            "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68229",
+            "cSiblings": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68229"
+            ]
         },
         "x12": {
-            "name": "13",
-            "coordinates": "X: 23.4   Y:   9.1   Z: 0.0",
-            "cSiblings": ["q.68223"]
+            "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68223",
+            "cSiblings": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68223"
+            ]
         },
         "x13": {
-            "name": "14",
-            "coordinates": "X: 31.4   Y: 37.1   Z: 0.3",
-            "cSiblings": ["q.68209"]
+            "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68209",
+            "cSiblings": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68209"
+            ]
         },
         "x14": {
-            "name": "15",
-            "coordinates": "X:   6.2   Y: 12.3   Z: 0.0",
-            "cSiblings": ["q.68026"]
+            "quest": "duty.quests.main-scenario.stormblood.68026",
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68026"
+            ]
         }
     }
 }

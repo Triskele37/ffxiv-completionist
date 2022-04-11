@@ -1,0 +1,82 @@
+.setting-line, .completion-line {
+    label:first-child, .title {
+        text-align: right;
+        padding-right: 5px;
+        width: 170px;
+    }
+
+    p-colorPicker {
+        margin: 5px;
+    }
+}
+
+.setting-line {
+    display: flex;
+    align-items: center;
+}
+
+.completion-line {
+    display: flex;
+
+    label:first-child {
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .settings {
+        margin-top: 5px;
+
+        .gradient-steps {
+            display: flex;
+            border-radius: 9px;
+            overflow: hidden;
+            margin-bottom: 5px;
+            height: 20px;
+            width: 300px;
+
+            .gradient-step {
+                display: inline-block;
+                width: 3px;
+                height: 20px;
+            }
+        }
+
+        .color-pickers {
+            display: flex;
+            justify-content: space-evenly;
+            width: 300px;
+
+            > span {
+                position: relative;
+                width: 51px;
+            }
+
+            .i-incomplete, .i-complete, .i-exclude {
+                pointer-events: none;
+                position: absolute;
+                filter: invert(50%);
+                z-index: 1;
+                top: 4px;
+                left: 14px;
+            }
+
+            .i-exclude {
+                filter: invert(90%);
+            }
+
+            ::ng-deep .p-colorpicker-preview {
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+                width: 42px;
+            }
+
+            ::ng-deep .p-button {
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                margin: 0 5px;
+                padding: 0;
+                width: 42px;
+            }
+        }
+    }
+}

@@ -22,7 +22,7 @@
                 66972
             ],
             "cNext": [
-                66676,
+                "duty.quests.sidequests.gridanian.north-shroud.66676",
                 67000
             ]
         },
@@ -78,7 +78,7 @@
             "level": 50,
             "cPrev": [
                 65892,
-                66676
+                "duty.quests.sidequests.gridanian.north-shroud.66676"
             ]
         },
         "x65897": {
@@ -86,7 +86,9 @@
             "cNext": [
                 66096
             ],
-            "cSiblings": ["a.1058"]
+            "cSiblings": [
+                "character.achievement.quests.quests.1058"
+            ]
         },
         "x66096": {
             "level": 50,
@@ -103,9 +105,11 @@
                 66096
             ],
             "cNext": [
-                67206
+                "duty.quests.sidequests.gridanian.north-shroud.67206"
             ],
-            "cSiblings": ["a.1080"]
+            "cSiblings": [
+                "character.achievement.quests.quests.1080"
+            ]
         }
     }
 }

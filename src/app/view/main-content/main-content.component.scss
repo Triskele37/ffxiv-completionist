@@ -1,0 +1,28 @@
+@import './colors';
+
+:host {
+    display: contents;
+}
+
+.main-content {
+    height: 100%;
+    margin: 10px;
+
+    .custom-group-component {
+        // Prevent x overflow
+        white-space: normal;
+
+        // Scrollbar
+        overflow-y: auto;
+        height: calc(100vh - 104px);
+
+        // Space on right when viewport is smaller
+        padding-right: 10px;
+    }
+
+    .group-summary-section {
+        // wraps summaries each 3
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

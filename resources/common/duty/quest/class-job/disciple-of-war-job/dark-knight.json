@@ -1,0 +1,179 @@
+{
+    "key": "dark-knight",
+    "tasks": {
+        "x67589": {
+            "level": 50,
+            "cPrev": [
+                "duty.quests.other.quasi-quests.67646"
+            ],
+            "cNext": [
+                67590
+            ]
+        },
+        "x67590": {
+            "level": 30,
+            "cPrev": [
+                67589
+            ],
+            "cNext": [
+                67591
+            ]
+        },
+        "x67591": {
+            "level": 35,
+            "cPrev": [
+                67590
+            ],
+            "cNext": [
+                67592
+            ]
+        },
+        "x67592": {
+            "level": 40,
+            "cPrev": [
+                67591
+            ],
+            "cNext": [
+                67593
+            ]
+        },
+        "x67593": {
+            "level": 45,
+            "cPrev": [
+                67592
+            ],
+            "cNext": [
+                67594
+            ]
+        },
+        "x67594": {
+            "level": 50,
+            "cPrev": [
+                67593
+            ],
+            "cNext": [
+                67595
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1151"
+            ]
+        },
+        "x67595": {
+            "level": 50,
+            "cPrev": [
+                67594
+            ],
+            "cNext": [
+                67596
+            ]
+        },
+        "x67596": {
+            "level": 52,
+            "cPrev": [
+                67595
+            ],
+            "cNext": [
+                67597
+            ]
+        },
+        "x67597": {
+            "level": 54,
+            "cPrev": [
+                67596
+            ],
+            "cNext": [
+                67598
+            ]
+        },
+        "x67598": {
+            "level": 56,
+            "cPrev": [
+                67597
+            ],
+            "cNext": [
+                67599
+            ]
+        },
+        "x67599": {
+            "level": 58,
+            "cPrev": [
+                67598
+            ],
+            "cNext": [
+                67600
+            ]
+        },
+        "x67600": {
+            "level": 60,
+            "cPrev": [
+                67599
+            ],
+            "cNext": [
+                68451
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1154"
+            ]
+        },
+        "x68451": {
+            "level": 60,
+            "cPrev": [
+                67600,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                68452
+            ]
+        },
+        "x68452": {
+            "level": 63,
+            "cPrev": [
+                68451
+            ],
+            "cNext": [
+                68453
+            ]
+        },
+        "x68453": {
+            "level": 65,
+            "cPrev": [
+                68452
+            ],
+            "cNext": [
+                68454
+            ]
+        },
+        "x68454": {
+            "level": 68,
+            "cPrev": [
+                68453
+            ],
+            "cNext": [
+                68455
+            ]
+        },
+        "x68455": {
+            "level": 70,
+            "cPrev": [
+                68454
+            ],
+            "cNext": [
+                68757
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1807"
+            ]
+        },
+        "x68757": {
+            "level": 80,
+            "cPrev": [
+                68455,
+                "duty.quests.class--job.role.tank.68784",
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.2316"
+            ]
+        }
+    }
+}

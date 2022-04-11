@@ -11,42 +11,59 @@
         },
         "x591": {
             "points": 5,
+            "reward": "character.character.title.104",
             "patch": "2.0",
             "cSiblings": [
-                "t.104"
+                "character.character.title.104"
             ]
         },
         "x1556": {
             "points": 5,
             "patch": "3.4",
-            "cNext": [1557]
+            "cNext": [
+                1557
+            ]
         },
         "x1557": {
             "points": 5,
             "patch": "3.4",
-            "cPrev": [1556],
-            "cNext": [1558]
+            "cPrev": [
+                1556
+            ],
+            "cNext": [
+                1558
+            ]
         },
         "x1558": {
             "points": 10,
             "patch": "3.4",
-            "cPrev": [1557]
+            "cPrev": [
+                1557
+            ]
         },
         "x1966": {
             "points": 5,
             "patch": "4.1",
-            "cNext": [1967]
+            "cNext": [
+                1967
+            ]
         },
         "x1967": {
             "points": 5,
             "patch": "4.1",
-            "cPrev": [1966],
-            "cNext": [1968]
+            "cPrev": [
+                1966
+            ],
+            "cNext": [
+                1968
+            ]
         },
         "x1968": {
             "points": 10,
             "patch": "4.1",
-            "cPrev": [1967]
+            "cPrev": [
+                1967
+            ]
         }
     }
 }

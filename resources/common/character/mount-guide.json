@@ -1,31 +1,42 @@
 {
     "key": "mount-guide",
+    "headers": {
+        "source": {
+            "link": true
+        }
+    },
     "tasks": {
         "x0": {
             "patch": "2.51"
         },
         "x1": {
+            "source": "character.achievement.pvp.frontline.1563",
             "patch": "3.3"
         },
         "x2": {
             "patch": "2.0"
         },
         "x3": {
+            "source": "duty.dutyraid-finder.raids.sb.16",
             "patch": "4.2"
         },
         "x4": {
+            "source": "duty.dutyraid-finder.trials.arr.22",
             "patch": "2.2"
         },
         "x199": {
+            "source": "character.achievement.exploration.duty.2886",
             "patch": "5.55"
         },
         "x5": {
             "patch": "5.21"
         },
         "x6": {
+            "source": "duty.dutyraid-finder.raids.sb.7",
             "patch": "4.05"
         },
         "x7": {
+            "source": "character.achievement.character.general.2277",
             "patch": "5.0"
         },
         "x8": {
@@ -45,25 +56,40 @@
         "x10": {
             "patch": "3.5"
         },
+        "x201": {
+            "source": "duty.quests.main-scenario.endwalker.70000",
+            "patch": "6.0"
+        },
+        "x202": {
+            "patch": "6.0",
+            "defaultCompletion": "X"
+        },
         "x11": {
+            "source": "duty.dutyraid-finder.raids.hw.23",
             "patch": "3.4"
         },
         "x12": {
+            "source": "character.achievement.character.general.1604",
             "patch": "3.3"
         },
         "x13": {
+            "source": "duty.dutyraid-finder.trials.sb.9",
             "patch": "4.2"
         },
         "x14": {
+            "source": "character.achievement.battle.battle.1958",
             "patch": "4.0"
         },
         "x15": {
+            "source": "character.achievement.battle.battle.1955",
             "patch": "4.0"
         },
         "x16": {
+            "source": "character.achievement.battle.battle.1961",
             "patch": "4.0"
         },
         "x17": {
+            "source": "character.achievement.battle.battle.2392",
             "patch": "5.0"
         },
         "x18": {
@@ -77,18 +103,22 @@
             "patch": "5.41"
         },
         "x21": {
+            "source": "duty.quests.main-scenario.heavensward.67133",
             "patch": "3.0"
         },
         "x22": {
+            "source": "duty.dutyraid-finder.deep-dungeon.0",
             "patch": "3.4"
         },
         "x23": {
+            "source": "duty.dutyraid-finder.trials.sb.6",
             "patch": "4.0"
         },
         "x24": {
             "patch": "2.2"
         },
         "x25": {
+            "source": "duty.dutyraid-finder.trials.arr.26",
             "patch": "2.4"
         },
         "x26": {
@@ -99,6 +129,9 @@
             "patch": "4.2",
             "defaultCompletion": "X"
         },
+        "x203": {
+            "patch": "6.0"
+        },
         "x28": {
             "patch": "2.1"
         },
@@ -106,12 +139,15 @@
             "patch": "2.2"
         },
         "x30": {
+            "source": "character.achievement.battle.the-hunt.1922",
             "patch": "4.0"
         },
         "x31": {
+            "source": "character.achievement.battle.field-operations.2765",
             "patch": "5.45"
         },
         "x32": {
+            "source": "duty.quests.other.special.67114",
             "patch": "2.45"
         },
         "x33": {
@@ -138,6 +174,11 @@
             "defaultCompletion": "X"
         },
         "x39": {
+            "source": [
+                "duty.quests.sidequests.gridanian.gridania.66236",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66237",
+                "duty.quests.sidequests.uldahn.uldah.66238"
+            ],
             "patch": "2.0"
         },
         "x40": {
@@ -147,6 +188,7 @@
             "patch": "5.4"
         },
         "x42": {
+            "source": "character.achievement.pvp.frontline.2481",
             "patch": "5.15"
         },
         "x193": {
@@ -154,21 +196,29 @@
             "defaultCompletion": "X"
         },
         "x43": {
+            "source": "duty.dutyraid-finder.trials.hw.10",
             "patch": "3.3"
         },
         "x198": {
             "patch": "5.55"
         },
         "x44": {
+            "source": "character.achievement.battle.field-operations.2227",
             "patch": "4.5"
         },
+        "x204": {
+            "source": "duty.dutyraid-finder.raids.ew.7",
+            "patch": "6.05"
+        },
         "x45": {
+            "source": "duty.dutyraid-finder.trials.hw.13",
             "patch": "3.5"
         },
         "x46": {
             "patch": "5.21"
         },
         "x194": {
+            "source": "duty.dutyraid-finder.trials.shb.16",
             "patch": "5.5"
         },
         "x47": {
@@ -178,13 +228,19 @@
             "patch": "3.35"
         },
         "x49": {
+            "source": "duty.dutyraid-finder.deep-dungeon.1",
             "patch": "4.35"
         },
         "x50": {
             "patch": "2.3",
             "defaultCompletion": "X"
         },
+        "x205": {
+            "patch": "6.0",
+            "defaultCompletion": "X"
+        },
         "x51": {
+            "source": "duty.dutyraid-finder.raids.shb.26",
             "patch": "5.4"
         },
         "x52": {
@@ -192,15 +248,18 @@
             "defaultCompletion": "X"
         },
         "x53": {
+            "source": "duty.quests.sidequests.side-story.ishgardian-restoration-sidequests.69427",
             "patch": "5.3"
         },
         "x54": {
             "patch": "4.45"
         },
         "x55": {
+            "source": "duty.dutyraid-finder.trials.shb.12",
             "patch": "5.4"
         },
         "x56": {
+            "source": "duty.dutyraid-finder.trials.arr.24",
             "patch": "2.2"
         },
         "x57": {
@@ -208,12 +267,14 @@
             "defaultCompletion": "X"
         },
         "x58": {
+            "source": "duty.dutyraid-finder.trials.sb.15",
             "patch": "4.4"
         },
         "x59": {
             "patch": "4.5"
         },
         "x60": {
+            "source": "duty.dutyraid-finder.trials.shb.6",
             "patch": "5.0"
         },
         "x61": {
@@ -240,9 +301,14 @@
             "patch": "2.51"
         },
         "x67": {
-            "patch": "3.5"
+            "source": "duty.quests.sidequests.dravanian.idyllshire.67086",
+            "patch": "3.5",
+            "cPrev": [
+                "duty.quests.sidequests.dravanian.idyllshire.67086"
+            ]
         },
         "x68": {
+            "source": "character.achievement.pvp.frontline.951",
             "patch": "2.3"
         },
         "x69": {
@@ -259,9 +325,11 @@
             "patch": "5.35"
         },
         "x73": {
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.duties.1",
             "patch": "5.45"
         },
         "x74": {
+            "source": "character.achievement.character.commendation.862",
             "patch": "2.1"
         },
         "x196": {
@@ -272,9 +340,11 @@
             "defaultCompletion": "X"
         },
         "x76": {
+            "source": "character.achievement.pvp.the-wolves-den.1444",
             "patch": "3.2"
         },
         "x77": {
+            "source": "duty.dutyraid-finder.raids.hw.7",
             "patch": "3.05"
         },
         "x78": {
@@ -297,15 +367,19 @@
             "defaultCompletion": "X"
         },
         "x83": {
+            "source": "duty.dutyraid-finder.trials.arr.21",
             "patch": "2.2"
         },
         "x84": {
+            "source": "duty.dutyraid-finder.trials.shb.11",
             "patch": "5.3"
         },
         "x85": {
+            "source": "duty.dutyraid-finder.trials.sb.16",
             "patch": "4.45"
         },
         "x86": {
+            "source": "character.achievement.crafting--gathering.fisher.2561",
             "patch": "5.2"
         },
         "x87": {
@@ -316,6 +390,7 @@
             "defaultCompletion": "X"
         },
         "x89": {
+            "source": "duty.dutyraid-finder.trials.shb.7",
             "patch": "5.0"
         },
         "x90": {
@@ -329,17 +404,26 @@
             "defaultCompletion": "X"
         },
         "x93": {
+            "source": "character.achievement.items.items.2053",
             "patch": "4.35"
         },
         "x94": {
-            "patch": "4.45"
+            "source": "duty.quests.sidequests.hingan.kugane.68736",
+            "patch": "4.45",
+            "cPrev": [
+                "duty.quests.sidequests.hingan.kugane.68736"
+            ]
         },
         "x95": {
             "patch": "5.2",
             "defaultCompletion": "X"
         },
         "x96": {
-            "patch": "2.5"
+            "source": "duty.quests.sidequests.mor-dhonan.mor-dhona.65968",
+            "patch": "2.5",
+            "cPrev": [
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.65968"
+            ]
         },
         "x97": {
             "patch": "3.2"
@@ -348,7 +432,11 @@
             "patch": "4.1"
         },
         "x190": {
-            "patch": "5.5"
+            "source": "duty.quests.sidequests.gyr-abanian.the-lochs.69593",
+            "patch": "5.5",
+            "cPrev": [
+                "duty.quests.sidequests.gyr-abanian.the-lochs.69593"
+            ]
         },
         "x99": {
             "patch": "2.1"
@@ -358,9 +446,14 @@
             "defaultCompletion": "X"
         },
         "x101": {
+            "source": "duty.dutyraid-finder.trials.sb.8",
             "patch": "4.1"
         },
+        "x206": {
+            "patch": "6.0"
+        },
         "x102": {
+            "source": "character.achievement.pvp.frontline.1132",
             "patch": "2.5"
         },
         "x103": {
@@ -372,16 +465,26 @@
             "defaultCompletion": "X"
         },
         "x105": {
+            "source": "duty.dutyraid-finder.trials.sb.10",
             "patch": "4.3"
         },
         "x189": {
             "patch": "5.5",
             "defaultCompletion": "X"
         },
+        "x207": {
+            "source": "duty.dutyraid-finder.trials.ew.4",
+            "patch": "6.0"
+        },
+        "x208": {
+            "source": "duty.dutyraid-finder.trials.ew.3",
+            "patch": "6.0"
+        },
         "x106": {
             "patch": "5.05"
         },
         "x200": {
+            "source": "duty.quests.sidequests.uldahn.the-gold-saucer.69617",
             "patch": "5.55"
         },
         "x107": {
@@ -389,12 +492,15 @@
             "defaultCompletion": "X"
         },
         "x108": {
+            "source": "duty.quests.main-scenario.seventh-umbral-era.66060",
             "patch": "2.0"
         },
         "x109": {
+            "source": "character.achievement.pvp.rival-wings.1939",
             "patch": "4.1"
         },
         "x110": {
+            "source": "character.achievement.pvp.rival-wings.2232",
             "patch": "4.5"
         },
         "x111": {
@@ -409,6 +515,7 @@
             "defaultCompletion": "X"
         },
         "x114": {
+            "source": "duty.dutyraid-finder.dungeons.sb.5",
             "patch": "4.0"
         },
         "x115": {
@@ -419,6 +526,7 @@
             "defaultCompletion": "X"
         },
         "x117": {
+            "source": "duty.quests.main-scenario.heavensward.67170",
             "patch": "3.0"
         },
         "x118": {
@@ -429,6 +537,7 @@
             "patch": "4.2"
         },
         "x120": {
+            "source": "duty.dutyraid-finder.trials.arr.25",
             "patch": "2.3"
         },
         "x121": {
@@ -443,15 +552,18 @@
             "defaultCompletion": "X"
         },
         "x124": {
+            "source": "duty.quests.main-scenario.heavensward.67204",
             "patch": "3.0"
         },
         "x125": {
             "patch": "4.3"
         },
         "x126": {
+            "source": "duty.dutyraid-finder.raids.sb.25",
             "patch": "4.4"
         },
         "x127": {
+            "source": "character.achievement.battle.battle.2476",
             "patch": "5.15"
         },
         "x128": {
@@ -463,6 +575,11 @@
             "defaultCompletion": "X"
         },
         "x130": {
+            "source": [
+                "duty.dutyraid-finder.trials.arr.22",
+                "duty.dutyraid-finder.trials.arr.20",
+                "duty.dutyraid-finder.trials.arr.21"
+            ],
             "patch": "2.1"
         },
         "x131": {
@@ -477,7 +594,12 @@
             "patch": "3.55a",
             "defaultCompletion": "X"
         },
+        "x209": {
+            "patch": "6.0",
+            "defaultCompletion": "X"
+        },
         "x134": {
+            "source": "character.achievement.character.commendation.1036",
             "patch": "2.4"
         },
         "x135": {
@@ -490,6 +612,10 @@
         "x136": {
             "patch": "5.1"
         },
+        "x210": {
+            "patch": "6.0",
+            "defaultCompletion": "X"
+        },
         "x137": {
             "patch": "4.31",
             "defaultCompletion": "X"
@@ -499,6 +625,7 @@
             "defaultCompletion": "X"
         },
         "x139": {
+            "source": "character.achievement.crafting--gathering.all-disciplines.2526",
             "patch": "5.21"
         },
         "x140": {
@@ -506,9 +633,11 @@
             "defaultCompletion": "X"
         },
         "x141": {
+            "source": "duty.dutyraid-finder.raids.shb.17",
             "patch": "5.2"
         },
         "x142": {
+            "source": "duty.dutyraid-finder.trials.sb.11",
             "patch": "4.36"
         },
         "x143": {
@@ -527,15 +656,18 @@
             "patch": "5.5"
         },
         "x146": {
+            "source": "duty.dutyraid-finder.trials.sb.7",
             "patch": "4.0"
         },
         "x147": {
             "patch": "5.3"
         },
         "x148": {
+            "source": "duty.dutyraid-finder.trials.hw.8",
             "patch": "3.2"
         },
         "x149": {
+            "source": "duty.dutyraid-finder.trials.hw.9",
             "patch": "3.2"
         },
         "x150": {
@@ -543,12 +675,14 @@
             "defaultCompletion": "X"
         },
         "x151": {
+            "source": "duty.dutyraid-finder.trials.shb.9",
             "patch": "5.2"
         },
         "x152": {
             "patch": "4.45"
         },
         "x153": {
+            "source": "character.achievement.pvp.frontline.2065",
             "patch": "4.3"
         },
         "x154": {
@@ -559,12 +693,15 @@
             "defaultCompletion": "X"
         },
         "x156": {
+            "source": "character.achievement.pvp.frontline.945",
             "patch": "2.3"
         },
         "x157": {
+            "source": "duty.dutyraid-finder.trials.shb.8",
             "patch": "5.1"
         },
         "x158": {
+            "source": "duty.dutyraid-finder.raids.shb.7",
             "patch": "5.05"
         },
         "x159": {
@@ -576,6 +713,7 @@
             "defaultCompletion": "X"
         },
         "x161": {
+            "source": "duty.dutyraid-finder.trials.hw.12",
             "patch": "3.4"
         },
         "x162": {
@@ -587,6 +725,7 @@
             "defaultCompletion": "X"
         },
         "x164": {
+            "source": "character.achievement.pvp.frontline.939",
             "patch": "2.3"
         },
         "x165": {
@@ -601,6 +740,7 @@
             "defaultCompletion": "X"
         },
         "x168": {
+            "source": "character.achievement.battle.the-hunt.2356",
             "patch": "5.0"
         },
         "x169": {
@@ -620,21 +760,31 @@
             "patch": "5.11"
         },
         "x174": {
+            "source": "duty.quests.sidequests.gridanian.gridania.65730",
             "patch": "2.0"
         },
+        "x211": {
+            "source": "character.achievement.battle.the-hunt.3000",
+            "patch": "6.0"
+        },
         "x175": {
+            "source": "character.achievement.battle.battle.1195",
             "patch": "3.0"
         },
         "x176": {
+            "source": "character.achievement.battle.battle.2391",
             "patch": "5.0"
         },
         "x177": {
+            "source": "character.achievement.battle.battle.924",
             "patch": "2.2"
         },
         "x178": {
+            "source": "character.achievement.battle.battle.921",
             "patch": "2.2"
         },
         "x179": {
+            "source": "duty.dutyraid-finder.trials.hw.11",
             "patch": "3.2"
         },
         "x180": {
@@ -650,19 +800,25 @@
             "defaultCompletion": "X"
         },
         "x183": {
+            "source": "duty.dutyraid-finder.trials.hw.7",
             "patch": "3.2"
         },
         "x184": {
             "patch": "3.07",
             "defaultCompletion": "X"
         },
+        "x212": {
+            "patch": "6.0"
+        },
         "x185": {
             "patch": "3.1"
         },
         "x186": {
+            "source": "duty.dutyraid-finder.trials.arr.20",
             "patch": "2.2"
         },
         "x187": {
+            "source": "duty.quests.main-scenario.stormblood.68043",
             "patch": "4.0"
         },
         "x188": {

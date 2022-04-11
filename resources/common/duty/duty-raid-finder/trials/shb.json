@@ -3,83 +3,98 @@
     "tasks": {
         "x0": {
             "level": "73",
-            "iLvlReq": "-"
+            "unlock": "duty.quests.main-scenario.shadowbringers.68856"
         },
         "x1": {
             "level": "79",
-            "iLvlReq": "-"
+            "unlock": "duty.quests.main-scenario.shadowbringers.69179"
         },
         "x2": {
             "level": "80",
-            "iLvlReq": "410"
+            "unlock": "duty.quests.main-scenario.shadowbringers.69190"
         },
         "x3": {
             "level": "80",
-            "iLvlReq": "455"
+            "unlock": "duty.quests.chronicles-of-a-new-era.the-sorrow-of-werlyt.69319"
         },
         "x4": {
             "level": "80",
-            "iLvlReq": "465"
+            "unlock": "duty.quests.main-scenario.post-shadowbringers.69314"
         },
         "x5": {
             "level": "80",
-            "iLvlReq": "485"
+            "unlock": "duty.quests.chronicles-of-a-new-era.the-sorrow-of-werlyt.69516"
         },
         "x17": {
             "level": "80",
-            "iLvlReq": "495"
+            "unlock": "duty.quests.chronicles-of-a-new-era.the-sorrow-of-werlyt.69567"
         },
         "x6": {
             "level": "80",
-            "iLvlReq": "430",
-            "cSiblings": ["a.2385"]
+            "unlock": "duty.quests.other.quasi-quests.69198",
+            "cSiblings": [
+                "character.achievement.battle.trials.2385"
+            ]
         },
         "x7": {
             "level": "80",
-            "iLvlReq": "430",
-            "cSiblings": ["a.2386"]
+            "unlock": "duty.quests.other.quasi-quests.69198",
+            "cSiblings": [
+                "character.achievement.battle.trials.2386"
+            ]
         },
         "x8": {
             "level": "80",
-            "iLvlReq": "450",
-            "cSiblings": ["a.2441"]
+            "unlock": "duty.quests.other.quasi-quests.69198",
+            "cSiblings": [
+                "character.achievement.battle.trials.2441"
+            ]
         },
         "x9": {
             "level": "80",
-            "iLvlReq": "470",
-            "cSiblings": ["a.2590"]
+            "unlock": "duty.quests.other.quasi-quests.69378",
+            "cSiblings": [
+                "character.achievement.battle.trials.2590"
+            ]
         },
         "x10": {
             "level": "80",
-            "iLvlReq": "470",
-            "cSiblings": ["a.2586"]
+            "cSiblings": [
+                "character.achievement.battle.trials.2586"
+            ]
         },
         "x11": {
             "level": "80",
-            "iLvlReq": "480",
-            "cSiblings": ["a.2621"]
+            "unlock": "duty.quests.other.quasi-quests.69198",
+            "cSiblings": [
+                "character.achievement.battle.trials.2621"
+            ]
         },
         "x12": {
             "level": "80",
-            "iLvlReq": "500",
-            "cSiblings": ["a.2718"]
+            "unlock": "duty.quests.other.quasi-quests.69378",
+            "cSiblings": [
+                "character.achievement.battle.trials.2718"
+            ]
         },
         "x16": {
             "level": "80",
-            "iLvlReq": "510",
-            "cSiblings": ["a.2846"]
+            "unlock": "duty.quests.other.quasi-quests.69378",
+            "cSiblings": [
+                "character.achievement.battle.trials.2846"
+            ]
         },
         "x13": {
             "level": "80",
-            "iLvlReq": "430"
+            "defaultCompletion": "X"
         },
         "x14": {
             "level": "80",
-            "iLvlReq": "430"
+            "defaultCompletion": "X"
         },
         "x15": {
             "level": "80",
-            "iLvlReq": "430"
+            "defaultCompletion": "X"
         }
     }
 }

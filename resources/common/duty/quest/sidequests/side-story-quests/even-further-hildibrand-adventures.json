@@ -4,8 +4,8 @@
         "x68544": {
             "level": 70,
             "cPrev": [
-                67908,
-                68089
+                "duty.quests.sidequests.side-story.further-hildibrand-adventures.67908",
+                "duty.quests.main-scenario.stormblood.68089"
             ],
             "cNext": [
                 68556
@@ -67,6 +67,7 @@
         },
         "x68703": {
             "level": 70,
+            "unlock": "duty.dutyraid-finder.trials.sb.14",
             "cPrev": [
                 68687
             ],
@@ -79,7 +80,10 @@
             "cPrev": [
                 68703
             ],
-            "cSiblings": ["a.2234"]
+            "cSiblings": [
+                "character.achievement.quests.quests.2234",
+                "social.emotes.special.198"
+            ]
         }
     }
 }

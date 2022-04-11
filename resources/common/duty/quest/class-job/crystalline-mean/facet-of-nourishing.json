@@ -1,0 +1,32 @@
+{
+    "key": "facet-of-nourishing",
+    "tasks": {
+        "x68769": {
+            "level": 70,
+            "cPrev": [
+                "duty.quests.class--job.crystalline-mean.69191"
+            ],
+            "cNext": [
+                68770
+            ]
+        },
+        "x68770": {
+            "level": 75,
+            "cPrev": [
+                68769
+            ],
+            "cNext": [
+                68771
+            ]
+        },
+        "x68771": {
+            "level": 80,
+            "cPrev": [
+                68770
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.2325"
+            ]
+        }
+    }
+}

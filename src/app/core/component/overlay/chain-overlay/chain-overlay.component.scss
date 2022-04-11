@@ -1,0 +1,111 @@
+// Shared container class for all overlays
+.overlay-container {
+    $nav-arrow-width: 38px;
+
+    .do-notify ::ng-deep .mi-link {
+        animation: chainNotificationPulse 2s infinite;
+    }
+
+    .overlay-panel {
+        .content {
+            p-button:not(.undo-button) ::ng-deep .p-button {
+                border-radius: unset;
+            }
+
+            .chain-start {
+                display: flex;
+
+                .summary {
+                    display: inline-flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: calc(100% - #{$nav-arrow-width});
+
+                    .task {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+
+                ::ng-deep .p-button.nav {
+                    height: 50px;
+                    width: $nav-arrow-width;
+                }
+            }
+
+            .chain-scroll-container {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                overflow-y: auto;
+                height: 50vh;
+                min-width: 700px;
+
+                .chain-group {
+                    display: flex;
+                    width: 100%;
+
+                    .path ::ng-deep {
+                        width: calc(100% - #{$nav-arrow-width});
+
+                        .p-button {
+                            flex-wrap: wrap;
+                            height: 38px;
+                            width: 100%;
+                        }
+                    }
+
+                    .nav ::ng-deep {
+                        .p-button {
+                            height: 38px;
+                            width: $nav-arrow-width;
+                        }
+                    }
+                }
+
+                .chained-task {
+                    display: flex;
+                    align-items: center;
+                    padding: 0 0 0 25px;
+                    width: 100%;
+
+                    .task-name {
+                        padding-left: 10px;
+                    }
+                }
+            }
+
+            .Y, .N, .X {
+                display: inline-block;
+                padding: 3px;
+            }
+
+            .Y { background-color: var(--completed); }
+            .N { background-color: var(--incomplete); }
+            .X {
+                background-color: var(--excluded);
+                color: black;
+            }
+        }
+    }
+}
+
+// Push navigation tooltips outside the overlay
+::ng-deep .chain-navigate-tooltip {
+    margin-left: 10px;
+}
+
+@keyframes chainNotificationPulse {
+    0% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}

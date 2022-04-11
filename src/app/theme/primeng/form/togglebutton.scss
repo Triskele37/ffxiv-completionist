@@ -1,0 +1,59 @@
+
+.p-togglebutton.p-button {
+    background: #2f2f2f;
+    border: 1px solid rgba(var(--text-color-rgb), 0.12);
+    color: var(--text-color);
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s, background-size 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+
+.p-togglebutton.p-button .p-button-icon-left,
+.p-togglebutton.p-button .p-button-icon-right {
+    color: var(--text-color-secondary);
+}
+
+.p-togglebutton.p-button:not(.p-disabled):not(.p-highlight):hover {
+    background: #373737;
+    border-color: rgba(var(--text-color-rgb), 0.12);
+    color: var(--text-color);
+}
+
+.p-togglebutton.p-button:not(.p-disabled):not(.p-highlight):hover .p-button-icon-left,
+.p-togglebutton.p-button:not(.p-disabled):not(.p-highlight):hover .p-button-icon-right {
+    color: var(--text-color-secondary);
+}
+
+.p-togglebutton.p-button.p-highlight {
+    background: #1c1c1c;
+    border-color: rgba(var(--text-color-rgb), 0.12);
+    color: var(--text-color);
+}
+
+.p-togglebutton.p-button.p-highlight .p-button-icon-left,
+.p-togglebutton.p-button.p-highlight .p-button-icon-right {
+    color: var(--text-color-secondary);
+}
+
+.p-togglebutton.p-button.p-highlight:hover {
+    background: var(--surface-f);
+    border-color: rgba(var(--text-color-rgb), 0.12);
+    color: var(--text-color);
+}
+
+.p-togglebutton.p-button.p-highlight:hover .p-button-icon-left,
+.p-togglebutton.p-button.p-highlight:hover .p-button-icon-right {
+    color: var(--text-color-secondary);
+}
+
+p-togglebutton.ng-dirty.ng-invalid > .p-togglebutton.p-button {
+    border-color: #f44435;
+}
+
+.p-togglebutton.p-button:focus {
+    background: #1c1c1c;
+    border-color: rgba(var(--text-color-rgb), 0.12);
+}
+
+.p-togglebutton.p-button:focus.p-highlight {
+    background: var(--surface-f);
+    border-color: rgba(var(--text-color-rgb), 0.12);
+}

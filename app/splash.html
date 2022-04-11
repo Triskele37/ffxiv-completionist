@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <title>FFXIV Completionist</title>
+        <style>
+            body {
+                height: 180px;
+
+                /* Splash Image */
+                background-image: url('../src/assets/icons/favicon.png'), /* Development */
+                                  url('../app/assets/icons/favicon.png'); /* Release */
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position-y: -15px;
+
+                /* Align Text */
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+            }
+
+            .loading {
+                /* Container */
+                border-radius: 5px;
+                background: #222;
+                padding: 2px 5px;
+
+                /* Text */
+                user-select: none;
+                font-weight: bold;
+                color: #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="loading">Loading...</div>
+    </body>
+</html>

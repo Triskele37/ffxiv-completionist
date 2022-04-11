@@ -1,71 +1,50 @@
 {
     "key": "lakeland",
-    "cCombo": ["a.2329"],
+    "cCombo": [
+        "character.achievement.character.general.2329"
+    ],
     "tasks": {
-        "x0": {
-            "name": "1",
-            "coordinates": "X:   5.7   Y: 14.3   Z: 1.1"
-        },
         "x1": {
-            "name": "2",
-            "coordinates": "X:   9.4   Y: 17.7   Z: 0.5"
+            "location": "(9.4, 17.7, 0.5)"
         },
         "x2": {
-            "name": "3",
-            "coordinates": "X: 18.6   Y: 18.4   Z: 0.1"
-        },
-        "x3": {
-            "name": "4",
-            "coordinates": "X: 35.4   Y: 11.1   Z: 0.8"
-        },
-        "x4": {
-            "name": "5",
-            "coordinates": "X: 32.0   Y: 14.6   Z: 0.4"
+            "location": "(18.6, 18.4, 0.1)"
         },
         "x5": {
-            "name": "6",
-            "coordinates": "X: 34.6   Y: 17.0   Z: 0.4"
-        },
-        "x6": {
-            "name": "7",
-            "coordinates": "X: 37.3   Y: 21.1   Z: 0.3"
-        },
-        "x7": {
-            "name": "8",
-            "coordinates": "X; 35.5   Y: 21.5   Z: 0.3"
-        },
-        "x8": {
-            "name": "9",
-            "coordinates": "X: 30.1   Y: 24.0   Z: 0.1"
+            "location": "(34.6, 17.0, 0.4)"
         },
         "x9": {
-            "name": "10",
-            "coordinates": "X: 33.5   Y: 28.8   Z: 0.3"
+            "location": "(33.5, 28.8, 0.3)"
         },
         "x10": {
-            "name": "11",
-            "coordinates": "X:   7.4   Y: 14.4   Z: 0.6",
-            "cSiblings": ["q.68922"]
+            "quest": "duty.quests.sidequests.lakeland.lakeland.68922",
+            "cSiblings": [
+                "duty.quests.sidequests.lakeland.lakeland.68922"
+            ]
         },
         "x11": {
-            "name": "12",
-            "coordinates": "X:   8.0   Y: 17.0   Z: 0.5",
-            "cSiblings": ["q.68921"]
+            "quest": "duty.quests.sidequests.lakeland.lakeland.68921",
+            "cSiblings": [
+                "duty.quests.sidequests.lakeland.lakeland.68921"
+            ]
         },
         "x12": {
-            "name": "13",
-            "coordinates": "X:   6.1   Y: 15.4   Z: 0.6",
-            "cSiblings": ["q.68920"]
+            "quest": "duty.quests.sidequests.lakeland.lakeland.68920",
+            "cSiblings": [
+                "duty.quests.sidequests.lakeland.lakeland.68920"
+            ]
         },
         "x13": {
-            "name": "14",
-            "coordinates": "X: 12.0   Y: 16.4",
-            "cSiblings": ["q.68916"]
+            "quest": "duty.quests.sidequests.lakeland.the-crystarium.68916",
+            "cSiblings": [
+                "duty.quests.sidequests.lakeland.the-crystarium.68916"
+            ]
         },
         "x14": {
-            "name": "15",
-            "coordinates": "X:   8.5   Y:   9.7",
-            "cSiblings": ["q.68840"]
+            "quest": "duty.quests.main-scenario.shadowbringers.68840",
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.68840"
+            ]
         }
     }
 }

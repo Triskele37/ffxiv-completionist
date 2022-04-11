@@ -1,71 +1,50 @@
 {
     "key": "coerthas-western-highlands",
-    "cCombo": ["a.1157"],
+    "cCombo": [
+        "character.achievement.character.general.1157"
+    ],
     "tasks": {
-        "x0": {
-            "name": "1",
-            "coordinates": "X: 20.8   Y: 21.3   Z: 0.5"
-        },
-        "x1": {
-            "name": "2",
-            "coordinates": "X: 29.1   Y: 26.2   Z: 1.1"
-        },
         "x2": {
-            "name": "3",
-            "coordinates": "X: 30.6   Y: 33.7   Z: 1.3"
+            "location": "(30.6, 33.7, 1.3)"
         },
         "x3": {
-            "name": "4",
-            "coordinates": "X: 31.5   Y: 11.8   Z: 1.1"
+            "location": "(31.5, 11.8, 1.1)"
         },
         "x4": {
-            "name": "5",
-            "coordinates": "X:   9.3   Y: 15.0   Z: 0.8"
-        },
-        "x5": {
-            "name": "6",
-            "coordinates": "X: 16.3   Y: 18.7   Z: 0.4"
-        },
-        "x6": {
-            "name": "7",
-            "coordinates": "X: 20.5   Y:   8.9   Z: 0.3"
+            "location": "(9.3, 15.0, 0.8)"
         },
         "x7": {
-            "name": "8",
-            "coordinates": "X: 15.8   Y: 22.3   Z: 0.8"
-        },
-        "x8": {
-            "name": "9",
-            "coordinates": "X: 30.0   Y: 19.3   Z: 1.0"
-        },
-        "x9": {
-            "name": "10",
-            "coordinates": "X: 35.1   Y: 27.0   Z: 0.2"
+            "location": "(15.8, 22.3, 0.8)"
         },
         "x10": {
-            "name": "11",
-            "coordinates": "X: 32.4   Y: 35.8   Z: 1.4",
-            "cSiblings": ["q.67280"]
+            "quest": "duty.quests.sidequests.coerthan.coerthas-western-highlands.67280",
+            "cSiblings": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67280"
+            ]
         },
         "x11": {
-            "name": "12",
-            "coordinates": "X: 16.9   Y: 22.8   Z: 0.7",
-            "cSiblings": ["q.67647"]
+            "quest": "duty.quests.sidequests.coerthan.coerthas-western-highlands.67647",
+            "cSiblings": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67647"
+            ]
         },
         "x12": {
-            "name": "13",
-            "coordinates": "X: 16.7   Y: 22.8   Z: 0.7",
-            "cSiblings": ["q.67296"]
+            "quest": "duty.quests.sidequests.coerthan.coerthas-western-highlands.67296",
+            "cSiblings": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67296"
+            ]
         },
         "x13": {
-            "name": "14",
-            "coordinates": "X: 16.5   Y: 22.5   Z: 0.7",
-            "cSiblings": ["q.67295"]
+            "quest": "duty.quests.sidequests.coerthan.coerthas-western-highlands.67295",
+            "cSiblings": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67295"
+            ]
         },
         "x14": {
-            "name": "15",
-            "coordinates": "X: 16.4   Y: 22.4   Z: 0.7",
-            "cSiblings": ["q.67144"]
+            "quest": "duty.quests.main-scenario.heavensward.67144",
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67144"
+            ]
         }
     }
 }

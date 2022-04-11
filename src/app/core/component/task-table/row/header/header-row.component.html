@@ -1,0 +1,92 @@
+<tr class="task-table-header">
+    <ng-container *ngTemplateOutlet="flagHeader; context: { $implicit: group }"></ng-container>
+
+    <!-- Data Headers -->
+    <ng-container *ngFor="let column of group.columns">
+        <th [style.width.px]="column.width">
+            <div
+                class="column-name"
+                [pSortableColumn]="column.key"
+                [pSortableColumnDisabled]="group.isCustomGroup"
+            >
+                {{column.header}}
+                <p-sortIcon
+                    *ngIf="!group.isCustomGroup"
+                    [field]="column.key"
+                ></p-sortIcon>
+            </div>
+
+            <div class="column-filter">
+                <ng-container
+                    *ngTemplateOutlet="
+                        column.filterable ? filterableHeader : nonFilterableHeader;
+                        context: { $implicit: column }"
+                ></ng-container>
+            </div>
+        </th>
+    </ng-container>
+
+    <!-- Row Action Header -->
+    <!-- TODO: Move Table Actions Here -->
+    <th class="row-action"></th>
+</tr>
+
+<!---------------------------------------------------------------------------------->
+<!--------------------------------- Cell Templates --------------------------------->
+<!---------------------------------------------------------------------------------->
+<ng-template #flagHeader let-group>
+    <th
+        class="completion-column"
+        [style.width.px]="group.isBookmarkGroup || group.isNumericCompletion ? 100 : 60"
+    >
+        <i
+            class="i-complete"
+            [ngClass]="{ enabled: svcFilter.completion.completed }"
+            (click)="svcFilter.onFilterCompletion(Completion.Y)"
+        ></i>
+
+        <i
+            class="i-incomplete"
+            [ngClass]="{ enabled: svcFilter.completion.incomplete }"
+            (click)="svcFilter.onFilterCompletion(Completion.N)"
+        ></i>
+
+        <br/>
+
+        <i
+            class="i-exclude"
+            [ngClass]="{ enabled: svcFilter.completion.excluded }"
+            (click)="svcFilter.onFilterCompletion(Completion.X)"
+        ></i>
+    </th>
+</ng-template>
+
+<ng-template #filterableHeader let-column>
+    <p-dropdown
+        styleClass="dropdown-filter"
+        [editable]="true"
+        [options]="uniqueValues[column.key]"
+        [showClear]="true"
+        appendTo="body"
+        (keyup)="onFilterKeyup($event, column)"
+        (onChange)="onFilterDropdownChange($event, column)"
+    >
+        <ng-template pTemplate="item" let-item>
+            {{displayedFilterValue(item)}}
+        </ng-template>
+    </p-dropdown>
+</ng-template>
+
+<ng-template #nonFilterableHeader let-column>
+    <input
+        class="text-filter"
+        pInputText
+        [value]="svcFilter.filters[column.key]?.value"
+        (keyup)="onFilterKeyup($event, column)"
+    />
+    <i
+        *ngIf="svcFilter.filters[column.key]?.value"
+        class="pi pi-times"
+        (click)="svcFilter.modifySearch('', column)"
+    ></i>
+</ng-template>

@@ -1,0 +1,39 @@
+.nav-bar-container {
+    margin: 0 10px;
+    display: flex;
+
+    p-button {
+        &:last-child ::ng-deep .p-button {
+            // Smooth transition to p-breadcrumb
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        ::ng-deep .p-button {
+            // Box style icon buttons
+            height: 34px;
+            width: 34px;
+        }
+    }
+
+    p-breadcrumb {
+        flex-grow: 1;
+
+        ::ng-deep {
+            .p-breadcrumb {
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+
+                // Make cursor a pointer when hovering a breadcrumb MenuItem
+                .p-menuitem-link {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.history-links {
+    display: flex;
+    flex-direction: column;
+}

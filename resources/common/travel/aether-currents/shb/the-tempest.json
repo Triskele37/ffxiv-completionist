@@ -1,71 +1,50 @@
 {
     "key": "the-tempest",
-    "cCombo": ["a.2334"],
+    "cCombo": [
+        "character.achievement.character.general.2334"
+    ],
     "tasks": {
         "x0": {
-            "name": "1",
-            "coordinates": "X:   5.3   Y: 19.4   Z:-4.9"
-        },
-        "x1": {
-            "name": "2",
-            "coordinates": "X:   7.0   Y: 13.6   Z:-4.6"
-        },
-        "x2": {
-            "name": "3",
-            "coordinates": "X: 14.5   Y: 16.9   Z:-4.3"
-        },
-        "x3": {
-            "name": "4",
-            "coordinates": "X: 22.3   Y: 18.0   Z:-3.6"
+            "location": "(5.3, 19.4, -4.9)"
         },
         "x4": {
-            "name": "5",
-            "coordinates": "X: 28.2   Y: 15.9   Z:-2.5"
-        },
-        "x5": {
-            "name": "6",
-            "coordinates": "X: 39.5   Y: 16.8   Z:-1.7"
-        },
-        "x6": {
-            "name": "7",
-            "coordinates": "X: 35.7   Y: 23.1   Z:-1.5"
+            "location": "(28.2, 15.9, -2.5)"
         },
         "x7": {
-            "name": "8",
-            "coordinates": "X: 22.8   Y: 11.2   Z:-1.7"
-        },
-        "x8": {
-            "name": "9",
-            "coordinates": "X: 33.6   Y:   9.4   Z:-1.0"
+            "location": "(22.8, 11.2, -1.7)"
         },
         "x9": {
-            "name": "10",
-            "coordinates": "X: 29.1   Y:   7.2   Z:-1.6"
+            "location": "(29.1, 7.2, -1.6)"
         },
         "x10": {
-            "name": "11",
-            "coordinates": "X:   9.5   Y: 28.2   Z:-8.2",
-            "cSiblings": ["q.69130"]
+            "quest": "duty.quests.sidequests.tempest.the-tempest.69130",
+            "cSiblings": [
+                "duty.quests.sidequests.tempest.the-tempest.69130"
+            ]
         },
         "x11": {
-            "name": "12",
-            "coordinates": "X:   7.2   Y: 31.4   Z:-8.0",
-            "cSiblings": ["q.69129"]
+            "quest": "duty.quests.sidequests.tempest.the-tempest.69129",
+            "cSiblings": [
+                "duty.quests.sidequests.tempest.the-tempest.69129"
+            ]
         },
         "x12": {
-            "name": "13",
-            "coordinates": "X: 13.7   Y: 27.6   Z:-8.1",
-            "cSiblings": ["q.69128"]
+            "quest": "duty.quests.sidequests.tempest.the-tempest.69128",
+            "cSiblings": [
+                "duty.quests.sidequests.tempest.the-tempest.69128"
+            ]
         },
         "x13": {
-            "name": "14",
-            "coordinates": "X: 32.1   Y: 16.6   Z:-2.0",
-            "cSiblings": ["q.69124"]
+            "quest": "duty.quests.sidequests.tempest.the-tempest.69124",
+            "cSiblings": [
+                "duty.quests.sidequests.tempest.the-tempest.69124"
+            ]
         },
         "x14": {
-            "name": "15",
-            "coordinates": "X:   8.8   Y: 26.5   Z:-8.4",
-            "cSiblings": ["q.69189"]
+            "quest": "duty.quests.main-scenario.shadowbringers.69189",
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.69189"
+            ]
         }
     }
 }

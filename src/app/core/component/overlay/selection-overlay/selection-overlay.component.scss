@@ -1,0 +1,11 @@
+// Shared container class for all overlays
+.overlay-panel {
+    .content {
+        width: 200px;
+
+        ::ng-deep .p-divider {
+            margin: 5px 0;
+            user-select: none;
+        }
+    }
+}

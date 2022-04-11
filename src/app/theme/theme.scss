@@ -1,0 +1,28 @@
+@import './root';
+@import './primeng';
+
+// App specific overrides
+body {
+    .p-button {
+        &.p-button-link {
+            color: var(--primary-color-light);
+        }
+    }
+
+    .p-overlaypanel {
+        border: 1px solid var(--surface-c);
+
+        &:before {
+            border-bottom-color: var(--surface-c);
+        }
+    }
+
+    .p-tooltip {
+        max-width: unset;
+        pointer-events: none;
+
+        .p-tooltip-text {
+            border: 1px solid var(--surface-d);
+        }
+    }
+}

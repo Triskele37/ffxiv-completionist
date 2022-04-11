@@ -1,11 +1,9 @@
 {
     "groupName": "Triple Triad Opponents",
     "headers": {
-        "difficulty": "Difficulty",
         "name": "Opponent",
         "zone": "Zone",
         "location": "Location",
-        "rules": "Rules",
         "drops": "Drops",
         "quest": "Quest",
         "patch": "Patch"
@@ -13,819 +11,435 @@
     "tasks": {
         "x0": {
             "name": "Triple Triad Master",
-            "zone": "The Gold Saucer",
-            "location": "Card Square (4, 7)",
-            "rules": "All Open",
-            "drops": "Spriggan",
-            "quest": ""
+            "zone": "The Gold Saucer"
         },
         "x1": {
             "name": "Baderon",
-            "zone": "Limsa Lominsa Upper Decks",
-            "location": "The Drowning Wench (11, 11)",
-            "rules": "Three Open",
-            "drops": "Baderon Tenfingers, Sahagin",
-            "quest": "A Wild Rose by Any Other Name"
+            "zone": "Limsa Lominsa Upper Decks"
         },
         "x2": {
             "name": "Drery",
-            "zone": "Amh Araeng",
-            "location": "Twine (11.9, 16.9)",
-            "rules": "Same, Plus",
-            "drops": "Evil Weapon, Gigantender",
-            "quest": "Mystery Miners"
+            "zone": "Amh Araeng"
         },
         "x3": {
             "name": "Ercanbald",
-            "zone": "Rhalgr's Reach",
-            "location": "Starfall (9.8, 9.8)",
-            "rules": "None",
-            "drops": "Griffin, M'naago",
-            "quest": "A Haven for the Bold"
+            "zone": "Rhalgr's Reach"
         },
         "x4": {
             "name": "F'hobhas",
-            "zone": "Central Thanalan",
-            "location": "Black Brush (23, 13)",
-            "rules": "Three Open",
-            "drops": "Mutamix Bubblypots",
-            "quest": ""
+            "zone": "Central Thanalan"
         },
         "x5": {
             "name": "Fufulupa",
-            "zone": "Western Thanalan",
-            "location": "Horizon's Edge (22, 17)",
-            "rules": "Three Open",
-            "drops": "Chimera, Thancred",
-            "quest": "A Wild Rose by Any Other Name"
+            "zone": "Western Thanalan"
         },
         "x6": {
             "name": "Glynard",
-            "zone": "The Crystarium",
-            "location": "The Wandering Stairs (10.8, 15.2)",
-            "rules": "Three Open",
-            "drops": "Amaro",
-            "quest": "Warrior of Darkness"
+            "zone": "The Crystarium"
         },
         "x7": {
             "name": "Guhtwint of the Three Diamonds",
-            "zone": "The Gold Saucer",
-            "location": "Card Square (4, 7)",
-            "rules": "Three Open, Plus",
-            "drops": "Chocobo, Scarface Bugaal Ja",
-            "quest": ""
+            "zone": "The Gold Saucer"
         },
         "x8": {
             "name": "Gyoei",
-            "zone": "Yanxia",
-            "location": "Yuzuka Manor (15.7, 31.9)",
-            "rules": "Reverse, Plus",
-            "drops": "Namazu, Great Gold Whisker",
-            "quest": "Criminal Phrenology"
+            "zone": "Yanxia"
         },
         "x9": {
             "name": "Ibenart",
-            "zone": "Kholusia",
-            "location": "Amity (19.1, 17.4)",
-            "rules": "Three Open, Fallen Ace",
-            "drops": "Lord and Lady Chai",
-            "quest": "That None Shall Ever Again"
+            "zone": "Kholusia"
         },
         "x10": {
             "name": "Joellaut",
-            "zone": "Coerthas Central Highlands",
-            "location": "Whitebrim (13, 15)",
-            "rules": "Three Open",
-            "drops": "Alphinaud and Alisaie, Ixal",
-            "quest": ""
+            "zone": "Coerthas Central Highlands"
         },
         "x11": {
             "name": "Jonas of the Three Spades",
-            "zone": "The Gold Saucer",
-            "location": "Card Square (4, 7)",
-            "rules": "All Open, Same",
-            "drops": "Ixal, Moogle",
-            "quest": ""
+            "zone": "The Gold Saucer"
         },
         "x12": {
             "name": "Kotokaze",
-            "zone": "Kugane",
-            "location": "Shiokaze Hostelry (10.2, 10.2)",
-            "rules": "Same",
-            "drops": "Kotokaze",
-            "quest": "By The Grace of Lord Lolorito"
+            "zone": "Kugane"
         },
         "x13": {
             "name": "Maisenta",
-            "zone": "New Gridania",
-            "location": "The Knot (11, 11)",
-            "rules": "All Open",
-            "drops": "Coblyn, Sylph",
-            "quest": ""
+            "zone": "New Gridania"
         },
         "x14": {
             "name": "Marcechamp",
-            "zone": "The Dravanian Forelands",
-            "location": "Chocobo Forest (31, 23)",
-            "rules": "Reverse, Plus",
-            "drops": "Ysayle",
-            "quest": "Gifts for the Outcasts"
+            "zone": "The Dravanian Forelands"
         },
         "x15": {
             "name": "Memeroon",
-            "zone": "Upper La Noscea",
-            "location": "Oakwood (14, 24)",
-            "rules": "All Open",
-            "drops": "Amalj'aa, Manxome Molaa Ja Ja, Memeroon, Tonberry",
-            "quest": ""
+            "zone": "Upper La Noscea"
         },
         "x16": {
             "name": "Mimidoa",
-            "zone": "Lower La Noscea",
-            "location": "The Gods' Grip (25, 35)",
-            "rules": "Three Open",
-            "drops": "Biggs and Wedge, Siren",
-            "quest": "History Repeating"
+            "zone": "Lower La Noscea"
         },
         "x17": {
             "name": "Momodi",
-            "zone": "Ul'dah - Steps of Nald",
-            "location": "The Quicksand (11.6, 9.6)",
-            "rules": "Three Open",
-            "drops": "Momodi Modi",
-            "quest": "A Wild Rose by Any Other Name"
+            "zone": "Ul'dah - Steps of Nald"
         },
         "x18": {
             "name": "Mother Miounne",
-            "zone": "New Gridania",
-            "location": "Carline Canopy (11, 13)",
-            "rules": "Three Open",
-            "drops": "Goobbue, Mother Miounne",
-            "quest": "A Wild Rose by Any Other Name"
+            "zone": "New Gridania"
         },
         "x19": {
             "name": "Prideful Stag",
-            "zone": "The Triple Triad Battlehall",
-            "location": "Battlehall (3.7, 3.3)",
-            "rules": "Plus",
-            "drops": "Lost Lamb",
-            "quest": ""
+            "zone": "The Triple Triad Battlehall"
+        },
+        "x102": {
+            "name": "Qetanur",
+            "zone": "Thavnair"
         },
         "x20": {
             "name": "Roger",
-            "zone": "Central Thanalan",
-            "location": "Black Brush (19, 20)",
-            "rules": "All Open",
-            "drops": "Morbol, Pudding",
-            "quest": ""
+            "zone": "Central Thanalan"
         },
         "x21": {
             "name": "Saushs Koal",
-            "zone": "The Tempest",
-            "location": "The Ondo Cups (31.4, 17.3)",
-            "rules": "All Open",
-            "drops": "Grenoldt",
-            "quest": "Pearls of the Deep"
+            "zone": "The Tempest"
         },
         "x22": {
             "name": "Seika",
-            "zone": "Idyllshire",
-            "location": "Freewalks Roundspot (6.7, 7.4)",
-            "rules": "Chaos, Reverse",
-            "drops": "Crawler, Poroggo, Roundrox",
-            "quest": "Enigma"
+            "zone": "Idyllshire"
         },
         "x23": {
             "name": "Trachtoum",
-            "zone": "Lower La Noscea",
-            "location": "Cedarwood (35, 15)",
-            "rules": "Three Open",
-            "drops": "Moogle, Titan",
-            "quest": "All Good Things"
+            "zone": "Lower La Noscea"
         },
         "x24": {
             "name": "Wymond",
-            "zone": "Ul'dah - Steps of Nald",
-            "location": "Emerald Avenue (9.8, 8.7)",
-            "rules": "Three Open",
-            "drops": "Coblyn, Lolorito Nanarito",
-            "quest": ""
+            "zone": "Ul'dah - Steps of Nald"
         },
         "x25": {
             "name": "Wyra \"Greenhands\" Lyehga",
-            "zone": "The Triple Triad Battlehall",
-            "location": "Battlehall (3.3, 3.3)",
-            "rules": "All Open, Same",
-            "drops": "Apkallu",
-            "quest": ""
+            "zone": "The Triple Triad Battlehall"
+        },
+        "x103": {
+            "name": "Aiglephine",
+            "zone": "Labyrinthos"
         },
         "x26": {
             "name": "Aurifort of the Three Clubs",
-            "zone": "The Gold Saucer",
-            "location": "Card Square (4, 7)",
-            "rules": "Three Open, Order",
-            "drops": "Goobbue, Scarface Bugaal Ja",
-            "quest": ""
+            "zone": "The Gold Saucer"
         },
         "x27": {
             "name": "Botan",
-            "zone": "Kugane",
-            "location": "Pier 1 (7.8, 14.7)",
-            "rules": "Plus, Roulette",
-            "drops": "Happy Bunny, Louhi, Pazuzu, Yukinko",
-            "quest": "And We Shall Call It Pyros"
+            "zone": "Kugane"
+        },
+        "x104": {
+            "name": "Cheatingway",
+            "zone": "Old Sharlayan"
         },
         "x28": {
             "name": "Cobleva",
-            "zone": "Lakeland",
-            "location": "Clearmelt (14.3, 7.8)",
-            "rules": "Plus, Reverse",
-            "drops": "Dwarf, Rolling Tankard",
-            "quest": "Tanks for the Memory"
+            "zone": "Lakeland"
         },
         "x29": {
             "name": "Dominiac",
-            "zone": "Coerthas Western Highlands",
-            "location": "Twinpools (16, 22)",
-            "rules": "Order",
-            "drops": "Deepeye, Griffin",
-            "quest": "A War Without End"
+            "zone": "Coerthas Western Highlands"
         },
         "x30": {
             "name": "Droyn",
-            "zone": "Ul'dah - Steps of Thal",
-            "location": "Onyx Lane (11.8, 13.0)",
-            "rules": "Same, Descension",
-            "drops": "Azulmagia, Siegfried",
-            "quest": "Blue Cheese"
+            "zone": "Ul'dah - Steps of Thal"
         },
         "x31": {
             "name": "Eo Sigun",
-            "zone": "Il Mheg",
-            "location": "Pla Enni (22.2, 3.6)",
-            "rules": "Plus",
-            "drops": "Nu Mou, Porxie",
-            "quest": "Manic Pixie Dream Realm"
+            "zone": "Il Mheg"
         },
         "x32": {
             "name": "Garima",
-            "zone": "The Fringes",
-            "location": "Vira Nilya (28.2, 19.9)",
-            "rules": "Plus, Ascension",
-            "drops": "Ananta, Qiqirn Meateater",
-            "quest": "Delicate as a Flower"
+            "zone": "The Fringes"
         },
         "x33": {
             "name": "Gyuf Uin",
-            "zone": "Il Mheg",
-            "location": "Lydha Lran (16.1, 30.7)",
-            "rules": "Three Open, Swap",
-            "drops": "Feo-Ul",
-            "quest": "Acht-la Ormh Inn"
+            "zone": "Il Mheg"
         },
         "x34": {
             "name": "Hargra",
-            "zone": "The Rak'tika Greatwood",
-            "location": "Slitherbough (18.5, 26.0)",
-            "rules": "Same, Roulette",
-            "drops": "Runar, Shadowbringers Y'shtola",
-            "quest": "An Express Delivery"
+            "zone": "The Rak'tika Greatwood"
         },
         "x35": {
             "name": "Helmhart",
-            "zone": "Eastern Thanalan",
-            "location": "Drybone (20, 21)",
-            "rules": "Three Open",
-            "drops": "Gerolt, Ultros and Typhon",
-            "quest": ""
+            "zone": "Eastern Thanalan"
         },
         "x36": {
             "name": "Hetsukaze",
-            "zone": "Kugane",
-            "location": "Pier 1 (8.0, 13.6)",
-            "rules": "Same, Plus",
-            "drops": "Ejika Tsunjika, Penthesilea, Dvergr, Provenance Watcher",
-            "quest": "And We Shall Call It Hydatos"
+            "zone": "Kugane"
         },
         "x37": {
             "name": "Hokushin",
-            "zone": "Kugane",
-            "location": "Kugane Castle (14.4, 11.2)",
-            "rules": "Plus, Swap",
-            "drops": "Karakuri Hanya, Yojimbo & Daigoro",
-            "quest": "Good Swords, Good Dogs"
+            "zone": "Kugane"
         },
         "x38": {
             "name": "House Fortemps Manservant",
-            "zone": "Fortemps Manor",
-            "location": "Various (Inside Fortemps Manor)",
-            "rules": "Three Open, Plus",
-            "drops": "Artoirel de Fortemps, Emmanellain de Fortemps, Honoroit",
-            "quest": "Heavensward"
+            "zone": "Fortemps Manor"
         },
         "x39": {
             "name": "Idle Imperial",
-            "zone": "Azys La",
-            "location": "Gamma Quadrant (28, 31)",
-            "rules": "Chaos, Swap",
-            "drops": "Curator, Hilda, Regula van Hydrus, Tiamat",
-            "quest": "The First Flight of the Excelsior"
+            "zone": "Azys Lla"
         },
         "x40": {
             "name": "Kaizan",
-            "zone": "The Ruby Sea",
-            "location": "The Ruby Sea (22.3, 8.6)",
-            "rules": "Swap, Descension",
-            "drops": "Rasho",
-            "quest": "A Dance with Snakes"
+            "zone": "The Ruby Sea"
         },
         "x41": {
             "name": "Lamlyn",
-            "zone": "Lakeland",
-            "location": "Fort Jobb (35.4, 20.2)",
-            "rules": "Chaos",
-            "drops": "Lyna",
-            "quest": "Reassuring the Masses"
+            "zone": "Lakeland"
         },
         "x42": {
             "name": "Linu Vali",
-            "zone": "The Sea of Clouds",
-            "location": "Various",
-            "rules": "Reverse, Chaos",
-            "drops": "Bismarck, Brachiosaur, Waukkeon",
-            "quest": "The Nest of Honor"
+            "zone": "The Sea of Clouds"
+        },
+        "x105": {
+            "name": "Mehryde",
+            "zone": "Radz-at-Han"
         },
         "x43": {
             "name": "Mordyn",
-            "zone": "Limsa Lominsa Upper Decks",
-            "location": "The Seventh Sage (11, 7)",
-            "rules": "Swap. Same",
-            "drops": "Carvallain de Gorgagne, Merlwyb Bloefhiswyn, Kraken",
-            "quest": "Storming the Hull"
+            "zone": "Limsa Lominsa Upper Decks"
         },
         "x44": {
             "name": "Nell Half-Full",
-            "zone": "The Triple Triad Battlehall",
-            "location": "Battlehall (3.3, 3.7)",
-            "rules": "Same, Plus",
-            "drops": "Brendt, Brennan, & Bremondt",
-            "quest": ""
+            "zone": "The Triple Triad Battlehall"
         },
         "x45": {
             "name": "Noes",
-            "zone": "Old Gridania",
-            "location": "Apkallu Falls (10, 5)",
-            "rules": "Descension, Plus",
-            "drops": "Gaelicat, Kuribu",
-            "quest": ""
+            "zone": "Old Gridania"
         },
         "x46": {
             "name": "O'kalkaya",
-            "zone": "Limsa Lominsa Upper Decks",
-            "location": "The Aftcastle (12, 13)",
-            "rules": "Roulette, Plus",
-            "drops": "Rhoswen, Merlwyb Bloefhiswyn, Mistbeard",
-            "quest": "Storming the Hull"
+            "zone": "Limsa Lominsa Upper Decks"
         },
         "x47": {
             "name": "Piralnaut",
-            "zone": "East Shroud",
-            "location": "Nine Ivies (17, 26)",
-            "rules": "Three Open",
-            "drops": "Frixio, Succubus",
-            "quest": ""
+            "zone": "East Shroud"
         },
         "x48": {
             "name": "Redard",
-            "zone": "The Rak'tika Greatwood",
-            "location": "Slitherbough (20.4, 27.2)",
-            "rules": "Reverse, Same",
-            "drops": "Batsquatch, Qitari",
-            "quest": "The Stewards of Note"
+            "zone": "The Rak'tika Greatwood"
         },
         "x49": {
             "name": "Swift",
-            "zone": "Ul'dah - Steps of Nald",
-            "location": "Hall of Flames (8.4, 8.9)",
-            "rules": "Chaos",
-            "drops": "Alphinaud and Alisaie, Ifrit, Pipin Tarupin, Raubahn Aldynn",
-            "quest": "For Coin and Country"
+            "zone": "Ul'dah - Steps of Nald"
         },
         "x50": {
             "name": "Tsuzura",
-            "zone": "The Ruby Sea",
-            "location": "The Ruby Sea (28.5, 16.4)",
-            "rules": "Chaos, Roulette",
-            "drops": "Kojin",
-            "quest": "Our Most Venerated Ancestor"
+            "zone": "The Ruby Sea"
         },
         "x51": {
             "name": "Ushiogi",
-            "zone": "The Ruby Sea",
-            "location": "Rasen Kaikyo (21.7, 7.9)",
-            "rules": "Swap, Order",
-            "drops": "Hatamoto, Hiruko, Wanyudo and Katasharin",
-            "quest": "On The Shoulders of Giants"
+            "zone": "The Ruby Sea"
         },
         "x52": {
             "name": "Vath Deftarm",
-            "zone": "The Dravanian Forelands",
-            "location": "Various",
-            "rules": "Roulette",
-            "drops": "Ravana, Coeurlregina, Fat Chocobo",
-            "quest": "A Symbiotic Friendship"
+            "zone": "The Dravanian Forelands"
         },
         "x53": {
             "name": "Yellow Moon",
-            "zone": "Ul'dah - Steps of Thal",
-            "location": "Weavers' Guild (14, 13)",
-            "rules": "Ascension, Swap",
-            "drops": "Yugiri Mistwalker",
-            "quest": ""
+            "zone": "Ul'dah - Steps of Thal"
         },
         "x54": {
             "name": "Yusui",
-            "zone": "The Ruby Sea",
-            "location": "Sakazuki (31.6, 37.1)",
-            "rules": "Plus",
-            "drops": "Tansui",
-            "quest": "Boys with Boats"
+            "zone": "The Ruby Sea"
         },
         "x55": {
             "name": "Arsieu",
-            "zone": "???",
-            "location": "Gangos (5.9, 6.6)",
-            "rules": "Ascension, Plus",
-            "drops": "Adrammelech, Dawon",
-            "quest": "The Lady of Blades"
+            "zone": "???"
         },
         "x56": {
             "name": "Buscarron",
-            "zone": "South Shroud",
-            "location": "Buscarron's Druthers (18.1, 19.8)",
-            "rules": "Order",
-            "drops": "Demon Wall, Papalymo and Yda, Raya-O-Senna and A-Ruhn-Senna",
-            "quest": "Into the Beast's Maw"
+            "zone": "South Shroud"
+        },
+        "x106": {
+            "name": "Celia",
+            "zone": "Old Sharlayan"
         },
         "x57": {
             "name": "Flichoirel the Lordling",
-            "zone": "The Triple Triad Battlehall",
-            "location": "Battlehall (3.7, 3.7)",
-            "rules": "None",
-            "drops": "Colibri, Nael van Darnus",
-            "quest": ""
+            "zone": "The Triple Triad Battlehall"
         },
         "x58": {
             "name": "Furtive Former Imperial",
-            "zone": "???",
-            "location": "Terncliff (5.0, 6.3)",
-            "rules": "Swap, Fallen Ace",
-            "drops": "Sapphire Weapon",
-            "quest": "Sleep Now in Sapphire"
+            "zone": "???"
         },
         "x59": {
             "name": "Gegeruju",
-            "zone": "Eastern La Noscea",
-            "location": "Bloodshore (35, 30)",
-            "rules": "Swap, Sudden Death",
-            "drops": "Minfilia, Y'shtola",
-            "quest": "All Good Things"
+            "zone": "Eastern La Noscea"
         },
         "x60": {
             "name": "Gibrillont",
-            "zone": "Foundation",
-            "location": "The Forgotton Knight (12, 11)",
-            "rules": "Roulette",
-            "drops": "Estinien",
-            "quest": "The Better Half"
+            "zone": "Foundation"
         },
         "x61": {
             "name": "Grewenn",
-            "zone": "Eulmore",
-            "location": "The Beehive (12.5, 9.9)",
-            "rules": "Plus, Swap",
-            "drops": "Jongleurs of Eulmore, Ran'jit",
-            "quest": "Shadowbringers"
+            "zone": "Eulmore"
         },
         "x62": {
             "name": "Hab",
-            "zone": "Southern Thanalan",
-            "location": "Sagolii Desert (24, 40)",
-            "rules": "Descension",
-            "drops": "Godbert Manderville, Hildibrand and Nashu Mhakaracca, Thancred",
-            "quest": "Zombies Are People Too"
+            "zone": "Southern Thanalan"
         },
         "x63": {
             "name": "Hachinan",
-            "zone": "Yanxia",
-            "location": "The House of the Fierce (26.4, 12.9)",
-            "rules": "Ascension, Fallen Ace",
-            "drops": "Asahi sas Brutus, Zenos yae Galvus",
-            "quest": "The Primary Agreement"
+            "zone": "Yanxia"
         },
         "x64": {
             "name": "Hanagasa",
-            "zone": "Kugane",
-            "location": "The Short Pier (10.4, 11.9)",
-            "rules": "Descension, Plus",
-            "drops": "Argath Thadalfus, Rofocale, Ultima, the High Seraph, Yiazmat",
-            "quest": "The City of Lost Angels"
+            "zone": "Kugane"
         },
         "x65": {
             "name": "Imperial Deserter",
-            "zone": "The Lochs",
-            "location": "The Lochs (32.8, 30.1)",
-            "rules": "Fallen Ace",
-            "drops": "Fordola rem Lupis, Grynewaht, Yotsuyu",
-            "quest": "Stormblood"
+            "zone": "The Lochs"
         },
         "x66": {
             "name": "Indolent Imperial",
-            "zone": "Mor Dhona",
-            "location": "Castrum Centri (11, 17)",
-            "rules": "Ascension",
-            "drops": "Gaius van Baelsar, Livia sas Junius, Nero tol Scaeva, Rhitahtyn sas Arvina",
-            "quest": ""
+            "zone": "Mor Dhona"
         },
         "x67": {
             "name": "Ironworks Hand",
-            "zone": "Rhalgr's Reach",
-            "location": "Chocobo Keep (13.7, 11.3)",
-            "rules": "Roulette, Roulette",
-            "drops": "Alpha, Omega, Shinryu",
-            "quest": "To Kweh Under Distant Skies"
+            "zone": "Rhalgr's Reach"
         },
         "x68": {
             "name": "Kikimo",
-            "zone": "Kugane",
-            "location": "Pier #1 (8.6, 14.0)",
-            "rules": "Swap, Fallen Ace",
-            "drops": "Hancock",
-            "quest": "By The Grace of Lord Lolorito"
+            "zone": "Kugane"
         },
         "x69": {
             "name": "King Elmer III",
-            "zone": "The Gold Saucer",
-            "location": "Card Square (3, 7)",
-            "rules": "Plus",
-            "drops": "Bahamut, Godbert Manderville",
-            "quest": ""
+            "zone": "The Gold Saucer"
         },
         "x70": {
             "name": "Kiuka",
-            "zone": "The Doman Enclave",
-            "location": "Tenkonto (6.9, 5.9)",
-            "rules": "Chaos",
-            "drops": "Hien",
-            "quest": ""
+            "zone": "The Doman Enclave"
         },
         "x71": {
             "name": "Klynthota",
-            "zone": "Mor Dhona",
-            "location": "North Silvertear (30, 13)",
-            "rules": "Same, Plus",
-            "drops": "Cloud of Darkness, Phlegethon, Xande, Unei & Doga",
-            "quest": "The Light of Hope"
+            "zone": "Mor Dhona"
         },
         "x72": {
             "name": "Landenel",
-            "zone": "South Shroud",
-            "location": "Camp Tranquil (16, 28)",
-            "rules": "Chaos, Fallen Ace",
-            "drops": "Odin, Titan",
-            "quest": "All Good Things"
+            "zone": "South Shroud"
         },
         "x73": {
             "name": "Laniaitte",
-            "zone": "The Sea of Clouds",
-            "location": "Cloudtop (16, 37)",
-            "rules": "Same, Plus",
-            "drops": "Dhalmel, Paissa",
-            "quest": "Honoring the Past"
+            "zone": "The Sea of Clouds"
         },
         "x74": {
             "name": "Lewto-Sue",
-            "zone": "Amh Araeng",
-            "location": "Mord Suuq (26, 16)",
-            "rules": "Fallen Ace, Plus",
-            "drops": "Gaia, Ryne",
-            "quest": "Where I Belong"
+            "zone": "Amh Araeng"
         },
         "x75": {
             "name": "Marcette",
-            "zone": "Central Shroud",
-            "location": "Sorrel Haven (16, 18)",
-            "rules": "Chaos",
-            "drops": "Frixio, Garuda",
-            "quest": ""
+            "zone": "Central Shroud"
         },
         "x76": {
             "name": "Marielle",
-            "zone": "The Sea of Clouds",
-            "location": "Cloudtop (15, 37)",
-            "rules": "Order",
-            "drops": "Count Edmont de Fortemps, Laniaitte de Haillenarte",
-            "quest": "A Reward Long in Coming"
+            "zone": "The Sea of Clouds"
         },
         "x77": {
             "name": "Masatsuchi",
-            "zone": "Yanxia",
-            "location": "Namai (29.5, 20.2)",
-            "rules": "Same",
-            "drops": "Koja, Lupin",
-            "quest": "Tiger Blood"
+            "zone": "Yanxia"
         },
         "x78": {
             "name": "Master Mogzin",
-            "zone": "The Churning Mists",
-            "location": "Various",
-            "rules": "Plus, Same",
-            "drops": "Good King Moggle Mog XII, Kal Myhk, Hraesvelgr, Darkscale",
-            "quest": "The Zenith of Craftsmanship"
+            "zone": "The Churning Mists"
         },
         "x79": {
             "name": "Mero Roggo",
-            "zone": "The Dravanian Hinterlands",
-            "location": "The Ruling Quarter (12.7, 36.8)",
-            "rules": "Plus, Roulette",
-            "drops": "Byblos, Calcabrina, Strix, Stormblood Alphinaud and Alisaie",
-            "quest": "Prelude in Violet"
+            "zone": "The Dravanian Hinterlands"
         },
         "x80": {
             "name": "Midnight Dew",
-            "zone": "Idyllshire",
-            "location": "Freewalks Roundspot (5.5, 6.6)",
-            "rules": "Roulette, Roulette",
-            "drops": "Matoya, Belladonna",
-            "quest": "Over My Dead Gobbie"
+            "zone": "Idyllshire"
         },
         "x81": {
             "name": "Mogmill",
-            "zone": "The Churning Mists",
-            "location": "Sohm Al Summit (28, 35)",
-            "rules": "Roulette, Roulette",
-            "drops": "Gnath, Moglin, Vanu Vanu, Vedrfolnir",
-            "quest": "A Secret from Everyone"
+            "zone": "The Churning Mists"
         },
         "x82": {
             "name": "Munglig",
-            "zone": "The Azim Steppe",
-            "location": "Dotharl Khaa (12.2, 33.7)",
-            "rules": "Chaos, Same",
-            "drops": "Sadu, Mammoth",
-            "quest": "The Undying Ones"
+            "zone": "The Azim Steppe"
         },
         "x83": {
             "name": "Nigen",
-            "zone": "The Azim Steppe",
-            "location": "The Azim Steppe (31.9, 11.5)",
-            "rules": "Same, Plus",
-            "drops": "Cirina, Mammoth",
-            "quest": "And Dzo It Goes"
+            "zone": "The Azim Steppe"
         },
         "x84": {
             "name": "Ogodei",
-            "zone": "The Azim Steppe",
-            "location": "The Dawn Throne (22, 20.7)",
-            "rules": "Fallen Ace, Plus",
-            "drops": "Magnai, Mammoth",
-            "quest": "A Warm Welcome"
+            "zone": "The Azim Steppe"
         },
         "x85": {
             "name": "Ourdilic",
-            "zone": "Coerthas Central Highlands",
-            "location": "Whitebrim (6, 22)",
-            "rules": "Order",
-            "drops": "Behemoth, Blue Dragon, Ahriman",
-            "quest": ""
+            "zone": "Coerthas Central Highlands"
         },
         "x86": {
             "name": "R'ashaht Rhiki",
-            "zone": "Limsa Lominsa Upper Decks",
-            "location": "Maelstrom Command (13, 12)",
-            "rules": "Same, Plus",
-            "drops": "Leviathan, Merlwyb Bloefhiswyn, Y'shtola",
-            "quest": "For Coin and Country"
+            "zone": "Limsa Lominsa Upper Decks"
         },
         "x87": {
             "name": "Redbill Storeboy",
-            "zone": "Idyllshire",
-            "location": "Greengrub Mudplots (3.8, 4.5)",
-            "rules": "Chaos",
-            "drops": "Calofisteri, Diabolos Hollow, Echidna, Ferdiad",
-            "quest": "A Redbill Farewell"
+            "zone": "Idyllshire"
         },
         "x88": {
             "name": "Rowena",
-            "zone": "Mor Dhona",
-            "location": "Rowena's House of Splendors (21.9, 5.1)",
-            "rules": "Roulette, Roulette",
-            "drops": "Gerolt, Louisoix Leveilleur",
-            "quest": "The Weaponsmith of Legend"
+            "zone": "Mor Dhona"
         },
         "x89": {
             "name": "Ruhtwyda of the Three Hearts",
-            "zone": "The Gold Saucer",
-            "location": "Card Square (3, 7)",
-            "rules": "Ascension, Sudden Death",
-            "drops": "Godbert Manderville, Urianger",
-            "quest": ""
+            "zone": "The Gold Saucer"
         },
         "x90": {
             "name": "Sezul Totoloc",
-            "zone": "North Shroud",
-            "location": "Peacegarden (24, 23)",
-            "rules": "Same, Plus",
-            "drops": "Behemoth, Biggs and Wedge, Cid Garlond, Tozol Huatotl",
-            "quest": "Spread Your Wings and Soar"
+            "zone": "North Shroud"
         },
         "x101": {
             "name": "Sladkey",
-            "zone": "???",
-            "location": "Gangos (5, 6)",
-            "rules": "Same, Swap",
-            "drops": "4th-make Shemhazai, 4th-make Cuchulainn",
-            "quest": "March of the Bloody Queen"
+            "zone": "???"
         },
         "x91": {
             "name": "Tapklix",
-            "zone": "The Dravanian Hinterlands",
-            "location": "The Collectors' Quarter (21, 18)",
-            "rules": "Swap, Same",
-            "drops": "Alexander Prime, Brute Justice, Roundrox",
-            "quest": "A Gob in the Machine"
+            "zone": "The Dravanian Hinterlands"
         },
         "x92": {
             "name": "Umber Torrent",
-            "zone": "The Lochs",
-            "location": "The Saltery (16.4, 24.7)",
-            "rules": "Plus, Same",
-            "drops": "Arenvald Lentinus, Phoebad",
-            "quest": "Return of the Bull"
+            "zone": "The Lochs"
         },
         "x93": {
             "name": "Voracious Vath",
-            "zone": "The Dravanian Forelands",
-            "location": "The Smoldering Wastes (23, 19)",
-            "rules": "Ascension, Swap",
-            "drops": "Bandersnatch, Coeurlregina",
-            "quest": "Yellow Stones"
+            "zone": "The Dravanian Forelands"
         },
         "x94": {
             "name": "Wawalago",
-            "zone": "Limsa Lominsa Lower Decks",
-            "location": "Fisherman's Bottom (8, 15)",
-            "rules": "Swap, Chaos",
-            "drops": "Lucia goe Junius",
-            "quest": ""
+            "zone": "Limsa Lominsa Lower Decks"
+        },
+        "x107": {
+            "name": "Worldly Imperial",
+            "zone": "Garlemald"
         },
         "x95": {
             "name": "Yayake",
-            "zone": "Ul'dah - Steps of Nald",
-            "location": "Arrzaneth Ossuary (7.3, 12.4)",
-            "rules": "Chaos, Roulette",
-            "drops": "Aymeric, Vicegerent to the Warden",
-            "quest": ""
+            "zone": "Ul'dah - Steps of Nald"
         },
         "x96": {
             "name": "Elaisse",
-            "zone": "The Pillars",
-            "location": "The Jeweled Crozier (7, 10)",
-            "rules": "Chaos, Plus",
-            "drops": "Archaeornis, Gibrillont",
-            "quest": "Caught in the Act"
+            "zone": "The Pillars"
         },
         "x97": {
             "name": "Hall Overseer",
-            "zone": "The Triple Triad Battlehall",
-            "location": "Battlehall (3.5, 3.5)",
-            "rules": "Fallen Ace, Chaos",
-            "drops": "Terra Branford, Magitek Collosus",
-            "quest": ""
+            "zone": "The Triple Triad Battlehall"
         },
         "x98": {
             "name": "Isobe",
-            "zone": "The Ruby Sea",
-            "location": "Sui-no-Sato (20.2, 19.5)",
-            "rules": "Plus, Swap",
-            "drops": "Ango, Hisui and Kurenai",
-            "quest": "The Two Princesses of Sui-no-Sato"
+            "zone": "The Ruby Sea"
         },
         "x99": {
             "name": "Lewena",
-            "zone": "The Gold Saucer",
-            "location": "Entrance Square (4, 6)",
-            "rules": "Chaos, Fallen Ace",
-            "drops": "Bartz Klauser, Onion Knight, Terra Branford",
-            "quest": ""
+            "zone": "The Gold Saucer"
         },
         "x100": {
             "name": "Vorsaile Heuloix",
-            "zone": "New Gridania",
-            "location": "Adders' Nest (9.7, 11.0)",
-            "rules": "Ascension",
-            "drops": "Kan-E-Senna, Papalymo and Yda, Ramuh, Good King Moggle Mog XII",
-            "quest": "For Coin and Country"
+            "zone": "New Gridania"
         }
     }
 }

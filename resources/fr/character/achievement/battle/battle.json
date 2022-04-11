@@ -22,7 +22,6 @@
             "name": "Une mer de sang"
         },
         "x6": {
-            "reward": "Le Sanguinaire / La Sanguinaire",
             "description": "Vaincre 50 000 ennemis.",
             "name": "C'est une véritable boucherie"
         },
@@ -212,6 +211,14 @@
             "description": "Accomplir l'ALÉA “L'annonciatrice du chaos: bataille au sommet des fonds” avec la meilleure évaluation possible.",
             "name": "Les dents de La Tempête"
         },
+        "x3029": {
+            "name": "Daivadipa tapé",
+            "description": "Accomplir l'ALÉA “Le culte des Mrga: le faux dieu” avec la meilleure évaluation possible."
+        },
+        "x3030": {
+            "name": "Protokhipique",
+            "description": "Accomplir l'ALÉA “Mémoire vive: arrêter le processus” avec la meilleure évaluation possible."
+        },
         "x2343": {
             "description": "Atteindre le rang 3 de réussite des ALÉA à Grand-Lac.",
             "name": "Héros de grand chemin : Grand-Lac"
@@ -237,9 +244,36 @@
             "name": "Héros de grand chemin : La Tempête"
         },
         "x2349": {
-            "reward": "Main invisible",
             "description": "Accomplir les hauts faits “Héros de grand chemin” pour les régions de Grand-Lac, Kholusia, Amh Araeng, Il Mheg, Rak'tika et La Tempête.",
             "name": "Héros de grand chemin : Norvrandt"
+        },
+        "x3022": {
+            "name": "Héros de grand chemin : Le Labyrinthos",
+            "description": "Atteindre le rang 3 de réussite des ALÉA dans le Labyrinthos."
+        },
+        "x3023": {
+            "name": "Héros de grand chemin : Thavnair",
+            "description": "Atteindre le rang 3 de réussite des ALÉA à Thavnair."
+        },
+        "x3024": {
+            "name": "Héros de grand chemin : Garlemald",
+            "description": "Atteindre le rang 3 de réussite des ALÉA à Garlemald."
+        },
+        "x3025": {
+            "name": "Héros de grand chemin : Mare Lamentorum",
+            "description": "Atteindre le rang 3 de réussite des ALÉA à Mare Lamentorum."
+        },
+        "x3026": {
+            "name": "Héros de grand chemin : Elpis",
+            "description": "Atteindre le rang 3 de réussite des ALÉA à Elpis."
+        },
+        "x3027": {
+            "name": "Héros de grand chemin : Ultima Thulé",
+            "description": "Atteindre le rang 3 de réussite des ALÉA à Ultima Thulé."
+        },
+        "x3028": {
+            "name": "La fin d'un chemin",
+            "description": "Accomplir les hauts faits “Héros de grand chemin” pour les régions du Labyrinthos, de Thavnair, de Garlemald, de Mare Lamentorum, d'Elpis et d'Ultima Thulé."
         },
         "x803": {
             "description": "Accomplir un total de 10 ALÉA.",
@@ -254,7 +288,6 @@
             "name": "Faire face aux imprévus III"
         },
         "x806": {
-            "reward": "Jouet des aléas du destin",
             "description": "Accomplir un total de 1 000 ALÉA.",
             "name": "Faire face aux imprévus IV"
         },
@@ -268,7 +301,6 @@
             "name": "Faire face aux imprévus V"
         },
         "x1354": {
-            "reward": "Le Chanceux / La Chanceuse",
             "description": "Accomplir un total de 10 000 ALÉA.",
             "name": "Faire face aux imprévus VI"
         },
@@ -302,127 +334,124 @@
             "name": "Bon Samaritain IV"
         },
         "x1357": {
-            "reward": "Bon Samaritain",
             "description": "Ressusciter un joueur qui n'est pas dans l'équipe 200 fois.",
             "name": "Bon Samaritain V"
         },
         "x919": {
-            "reward": "Le Bouclier humain",
             "description": "Effectuer 50 missions de haut niveau en tant que paladin.",
             "name": "On demande un paladin I"
         },
         "x920": {
-            "reward": "Le Bouclier infaillible",
             "description": "Effectuer 100 missions de haut niveau en tant que paladin.",
             "name": "On demande un paladin II"
         },
         "x921": {
-            "reward": "Cor lion de guerre",
             "description": "Effectuer 200 missions de haut niveau en tant que paladin.",
             "name": "Chevalier errant à mi-temps"
         },
         "x922": {
-            "reward": "La Hache humaine",
             "description": "Effectuer 50 missions de haut niveau en tant que guerrier.",
             "name": "On demande un guerrier I"
         },
         "x923": {
-            "reward": "La Hache impitoyable",
             "description": "Effectuer 100 missions de haut niveau en tant que guerrier.",
             "name": "On demande un guerrier II"
         },
         "x924": {
-            "reward": "Cor ours de guerre",
             "description": "Effectuer 200 missions de haut niveau en tant que guerrier.",
             "name": "Je suis chef de guerre, moi"
         },
         "x1193": {
-            "reward": "Guide des ténèbres",
             "description": "Effectuer 50 missions de haut niveau en tant que chevalier noir.",
             "name": "On demande un chevalier noir I"
         },
         "x1194": {
-            "reward": "L'Épée implacable",
             "description": "Effectuer 100 missions de haut niveau en tant que chevalier noir.",
             "name": "On demande un chevalier noir II"
         },
         "x1195": {
-            "reward": "Cloche panthère",
             "description": "Effectuer 200 missions de haut niveau en tant que chevalier noir.",
             "name": "La séduction du côté obscur"
         },
         "x1953": {
-            "description": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Paladin philanthrope I"
         },
         "x1954": {
-            "description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Paladin philanthrope II"
         },
         "x1955": {
-            "reward": "Cor lion de combat",
-            "description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Paladin philanthrope III"
         },
         "x2387": {
-            "reward": "Serment inflexible",
-            "description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Paladin philanthrope IV"
         },
+        "x2990": {
+            "description": "Finir 700 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "name": "Paladin philanthrope V"
+        },
         "x1956": {
-            "description": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Guerrier philanthrope I"
         },
         "x1957": {
-            "description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Guerrier philanthrope II"
         },
         "x1958": {
-            "reward": "Cor ours de combat",
-            "description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Guerrier philanthrope III"
         },
         "x2388": {
-            "reward": "Acier inflexible",
-            "description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Guerrier philanthrope IV"
         },
+        "x2991": {
+            "description": "Finir 700 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "name": "Guerrier philanthrope V"
+        },
         "x1959": {
-            "description": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Chevalier noir philanthrope I"
         },
         "x1960": {
-            "description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Chevalier noir philanthrope II"
         },
         "x1961": {
-            "reward": "Cloche panthère de combat",
-            "description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Chevalier noir philanthrope III"
         },
         "x2389": {
-            "reward": "Morale inflexible",
-            "description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Chevalier noir philanthrope IV"
         },
+        "x2992": {
+            "description": "Finir 700 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "name": "Chevalier noir philanthrope V"
+        },
         "x2390": {
-            "description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Pistosabreur philanthrope I"
         },
         "x2391": {
-            "reward": "Cor tigre de guerre",
-            "description": "Finir 200 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 200 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Pistosabreur philanthrope II"
         },
         "x2392": {
-            "reward": "Cor tigre de combat",
-            "description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 300 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Pistosabreur philanthrope III"
         },
         "x2393": {
-            "reward": "Loyauté inflexible",
-            "description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "description": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "name": "Pistosabreur philanthrope IV"
+        },
+        "x2993": {
+            "description": "Finir 700 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
+            "name": "Pistosabreur philanthrope V"
         },
         "x2451": {
             "description": "Accomplir 5 missions différentes dans le palmarès bleu.",
@@ -433,155 +462,148 @@
             "name": "Tout un palmarès II"
         },
         "x2453": {
-            "reward": "Sommité bleue",
             "description": "Accomplir 50 missions différentes dans le palmarès bleu.",
             "name": "Tout un palmarès III"
         },
         "x2728": {
-            "name": "Tout un palmarès IV",
             "description": "Accomplir 90 missions différentes dans le palmarès bleu.",
-            "reward": "Ranger bleu / Ranger bleue"
+            "name": "Tout un palmarès IV"
         },
         "x2454": {
-            "description": "Vaincre Ifrit dans le défi “Le Cratère des tisons (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Vaincre Ifrit dans le défi “Le Cratère des tisons (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour le Seigneur des flammes"
         },
         "x2455": {
-            "description": "Vaincre Titan dans le défi “Le Nombril (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Vaincre Titan dans le défi “Le Nombril (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour l'Ébranleur des terres"
         },
         "x2456": {
-            "description": "Vaincre Garuda dans le défi “Hurlœil (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Vaincre Garuda dans le défi “Hurlœil (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour la Souffleuse de rafales"
         },
         "x2457": {
-            "description": "Vaincre le bon roi Moggle Mog XII dans le défi “La Lisière de ronces (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Vaincre le bon roi Moggle Mog XII dans le défi “La Lisière de ronces (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour le bon roi"
         },
         "x2458": {
-            "description": "Vaincre Léviathan dans le défi “Le Briseur de marées (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Vaincre Léviathan dans le défi “Le Briseur de marées (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour le Déchaîneur des marées"
         },
         "x2459": {
-            "description": "Vaincre Ramuh dans le défi “L'Arbre du jugement (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Vaincre Ramuh dans le défi “L'Arbre du jugement (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour le Patriarche fulgurant"
         },
         "x2460": {
-            "description": "Vaincre Shiva dans le défi “L'Amphithéâtre d'Akh Afah (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Vaincre Shiva dans le défi “L'Amphithéâtre d'Akh Afah (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour la Furie des neiges"
         },
         "x2461": {
-            "description": "Finir “Le Labyrinthe de Bahamut V” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Finir “Le Labyrinthe de Bahamut V” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour Bahamut I"
         },
         "x2462": {
-            "description": "Finir “Les Méandres de Bahamut IV” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Finir “Les Méandres de Bahamut IV” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour Bahamut II"
         },
         "x2463": {
-            "description": "Finir “L'Abîme de Bahamut IV” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Finir “L'Abîme de Bahamut IV” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour Bahamut III"
         },
         "x2464": {
-            "description": "Vaincre Ravana dans le défi “Thok ast Thok (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Vaincre Ravana dans le défi “Thok ast Thok (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour le Maître des lames"
         },
         "x2465": {
-            "description": "Vaincre Bismarck dans le défi “L'Immensité bleue (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Vaincre Bismarck dans le défi “L'Immensité bleue (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour le Migrateur des brumes"
         },
         "x2466": {
-            "reward": "Masque vedette",
-            "description": "Vaincre le roi Thordan et les douze chevaliers de la Table ronde dans le défi “Le règne de Thordan” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Vaincre le roi Thordan et les douze chevaliers de la Table ronde dans le défi “Le règne de Thordan” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour le Roi des rois"
         },
         "x2467": {
-            "description": "Vaincre Sephirot dans le défi “Unité de contention S1P7 (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Vaincre Sephirot dans le défi “Unité de contention S1P7 (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour Sephirot"
         },
         "x2468": {
-            "description": "Vaincre Nidhogg dans le défi “L'ire de Nidhogg” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Vaincre Nidhogg dans le défi “L'ire de Nidhogg” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour le dragon maléfique"
         },
         "x2469": {
-            "description": "Vaincre Sophia dans le défi “Unité de contention P1P6 (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Vaincre Sophia dans le défi “Unité de contention P1P6 (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour Sophia"
         },
         "x2470": {
-            "description": "Vaincre Zurvan dans le défi “Unité de contention Z1P9 (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Vaincre Zurvan dans le défi “Unité de contention Z1P9 (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour Zurvan"
         },
         "x2471": {
-            "description": "Finir “Le Fardeau du Père (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Finir “Le Fardeau du Père (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour Alexander I"
         },
         "x2472": {
-            "description": "Finir “Le Fardeau du Fils (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Finir “Le Fardeau du Fils (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour Alexander II"
         },
         "x2473": {
-            "description": "Finir “L'Âme du Créateur (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho.",
+            "description": "Finir “L'Âme du Créateur (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "name": "Des bleus pour Alexander III"
         },
         "x2474": {
-            "reward": "Bleu infini",
             "description": "Accomplir les trois hauts faits de la série “Des bleus pour Bahamut”.",
             "name": "Conte bleu de Bahamut"
         },
         "x2475": {
-            "reward": "Justicier bleu / Justicière bleue",
             "description": "Accomplir les trois hauts faits de la série “Des bleus pour Alexander”.",
             "name": "Conte bleu d'Alexander"
         },
         "x2476": {
-            "reward": "Cor morbol",
             "description": "Accomplir les hauts faits “Conte bleu de Bahamut” et “Conte bleu d'Alexander”.",
             "name": "L'épopée des bleus d'Éorzéa"
         },
         "x2729": {
             "name": "Des bleus pour le Kami de la fougue",
-            "description": "Vaincre Susano dans le défi “La Crique aux tributs (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
+            "description": "Vaincre Susano dans le défi “La Crique aux tributs (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho."
         },
         "x2730": {
             "name": "Des bleus pour la Béatificatrice onirique",
-            "description": "Vaincre Lakshmi dans le défi “Émanation (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
+            "description": "Vaincre Lakshmi dans le défi “Émanation (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho."
         },
         "x2731": {
             "name": "Des bleus pour le Dragon divin",
-            "description": "Vaincre Shinryu dans le défi “Le domaine de Shinryu” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
+            "description": "Vaincre Shinryu dans le défi “Le domaine de Shinryu” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho."
         },
         "x2732": {
             "name": "Des bleus pour la Maîtresse de la lune et de la nuit",
-            "description": "Vaincre Tsukuyomi dans le défi “Castrum Fluminis (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
+            "description": "Vaincre Tsukuyomi dans le défi “Castrum Fluminis (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho."
         },
         "x2733": {
             "name": "Des bleus pour le Tigre blanc de l'ouest",
-            "description": "Vaincre Byakko dans le défi “La Clairière de Jade (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
+            "description": "Vaincre Byakko dans le défi “La Clairière de Jade (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho."
         },
         "x2734": {
             "name": "Des bleus pour l'Oiseau vermillon du sud",
-            "description": "Vaincre Suzaku dans le défi “Le Nid des Lamentations (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
+            "description": "Vaincre Suzaku dans le défi “Le Nid des Lamentations (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho."
         },
         "x2735": {
             "name": "Des bleus pour le Dragon azur de l'est",
-            "description": "Vaincre Seiryû dans le défi “L'Îlot des Amertumes (extrême)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
+            "description": "Vaincre Seiryû dans le défi “L'Îlot des Amertumes (extrême)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho."
         },
         "x2736": {
             "name": "Des bleus pour Oméga I",
-            "description": "Finir “Deltastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
+            "description": "Finir “Deltastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho."
         },
         "x2737": {
             "name": "Des bleus pour Oméga II",
-            "description": "Finir “Sigmastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
+            "description": "Finir “Sigmastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho."
         },
         "x2738": {
             "name": "Des bleus pour Oméga III",
-            "description": "Finir “Alphastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans être en équipe réduite et en ayant désactivé le pouvoir de l'Écho."
+            "description": "Finir “Alphastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho."
         },
         "x2739": {
-            "name": "Conte bleu d'Oméga",
             "description": "Accomplir les trois hauts faits de la série “Des bleus pour Oméga”.",
-            "reward": "L'Azur et l'Oméga"
+            "name": "Conte bleu d'Oméga"
         }
     }
 }

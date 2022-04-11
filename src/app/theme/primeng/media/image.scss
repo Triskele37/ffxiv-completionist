@@ -1,0 +1,41 @@
+
+.p-image-mask {
+    --maskbg: rgba(0, 0, 0, 0.9);
+}
+
+.p-image-preview-indicator {
+    background-color: transparent;
+    color: #f8f9fa;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.p-image-preview-container:hover > .p-image-preview-indicator {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.p-image-toolbar {
+    padding: var(--content-padding);
+}
+
+.p-image-action.p-link {
+    color: #f8f9fa;
+    background-color: transparent;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+    margin-right: 0.5rem;
+}
+
+.p-image-action.p-link:last-child {
+    margin-right: 0;
+}
+
+.p-image-action.p-link:hover {
+    color: #f8f9fa;
+    background-color: rgba(var(--text-color-rgb), 0.1);
+}
+
+.p-image-action.p-link i {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,42 @@
+<div
+    class="setting bool"
+    [pTooltip]="'MAIN.SETTING.CHAINING.ENABLED.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'MAIN.SETTING.CHAINING.ENABLED.LABEL' | translate}}</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="settings.chainingEnabled.value"
+        (onChange)="parent.onChainingEnabledChange()"
+    ></p-checkbox>
+</div>
+
+<div
+    class="setting number"
+    [pTooltip]="'MAIN.SETTING.CHAINING.HISTORY.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'MAIN.SETTING.CHAINING.HISTORY.LABEL' | translate}}</label>
+    <p-inputNumber
+        [(ngModel)]="settings.chainHistoryLimit.value"
+        [showButtons]="true"
+        [min]="settings.chainHistoryLimit.min"
+        [max]="settings.chainHistoryLimit.max"
+        (onBlur)="parent.onChangeNumSetting(settings.chainHistoryLimit)"
+    ></p-inputNumber>
+</div>
+
+<div
+    class="setting number"
+    [pTooltip]="'MAIN.SETTING.CHAINING.THRESHOLD.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'MAIN.SETTING.CHAINING.THRESHOLD.LABEL' | translate}}</label>
+    <p-inputNumber
+        [(ngModel)]="settings.chainMinThreshold.value"
+        [showButtons]="true"
+        [min]="settings.chainMinThreshold.min"
+        [max]="settings.chainMinThreshold.max"
+        (onBlur)="parent.onChangeNumSetting(settings.chainMinThreshold)"
+    ></p-inputNumber>
+</div>

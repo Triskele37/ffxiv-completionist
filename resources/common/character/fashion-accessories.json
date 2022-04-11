@@ -4,6 +4,9 @@
         "x0": {
             "patch": "5.4"
         },
+        "x16": {
+            "patch": "6.05"
+        },
         "x1": {
             "patch": "5.31"
         },
@@ -13,9 +16,18 @@
         "x3": {
             "patch": "5.35"
         },
+        "x17": {
+            "patch": "6.0"
+        },
+        "x18": {
+            "patch": "6.0"
+        },
+        "x19": {
+            "patch": "6.0"
+        },
         "x14": {
-            "hidden": true,
-            "patch": "5.5"
+            "patch": "5.5",
+            "hidden": "true"
         },
         "x4": {
             "patch": "5.3"
@@ -24,14 +36,17 @@
             "patch": "5.4"
         },
         "x13": {
-            "hidden": true,
-            "patch": "5.5"
+            "patch": "5.5",
+            "defaultCompletion": "X"
         },
         "x6": {
             "patch": "5.21"
         },
         "x7": {
             "patch": "5.41"
+        },
+        "x20": {
+            "patch": "6.0"
         },
         "x8": {
             "patch": "5.45"

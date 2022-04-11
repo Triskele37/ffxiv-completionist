@@ -1,0 +1,49 @@
+{
+    "appId": "com.ffxiv.completionist",
+    "productName": "FFXIV Completionist",
+    "asar": true,
+    "directories": {
+        "output": "release/"
+    },
+    "files": [
+        "**/*",
+        "!**/*.ts",
+        "!*.map",
+        "!package.json",
+        "!package-lock.json"
+    ],
+    "extraResources": [
+        "./resources/**",
+        {
+            "from": "dist",
+            "to": "app",
+            "filter": [
+                "**/*"
+            ]
+        }
+    ],
+    "win": {
+        "icon": "src/assets/icons/favicon.png",
+        "target": [
+            "nsis"
+        ]
+    },
+    "mac": {
+        "icon": "src/assets/icons/favicon.png",
+        "target": [
+            "dmg"
+        ]
+    },
+    "dmg": {
+        "window": {
+            "width": 540,
+            "height": 420
+        }
+    },
+    "linux": {
+        "icon": "src/assets/icons/favicon.png",
+        "target": [
+            "AppImage"
+        ]
+    }
+}

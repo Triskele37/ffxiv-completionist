@@ -1,0 +1,41 @@
+:host {
+    $button-size: 25px;
+
+    display: contents;
+
+    .actions-cell {
+        width: 45px;
+
+        .action-dial ::ng-deep .p-button {
+            height: $button-size;
+            width: $button-size;
+        }
+
+        .actions {
+            position: absolute;
+            display: flex;
+            right: 50px;
+            margin-top: -$button-size;
+            z-index: 1;
+            cursor: default;
+
+            > * {
+                position: relative;
+
+                &:not(:last-child):after {
+                    content: "";
+                    background: var(--surface-a);
+                    border: 1px solid var(--primary-color);
+
+                    width: 35px;
+                    height: $button-size - 2;
+
+                    top: 0;
+                    left: calc(35px / 2);
+                    position: absolute;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}

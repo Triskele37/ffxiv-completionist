@@ -1,16 +1,66 @@
-node_modules/
-.idea/
 
-.DS_Store
-dist/electron/*
-dist/web/*
-build/*
-!assets/icons
-coverage
+# Dependencies.
+node_modules
+
+# Compiled output.
+/app-builds
+/build
+/dist
+main.js
+/out-tsc
+/release
+src/**/*.js
+/tmp
+*.js.map
+!src/karma.conf.js
+
+# Miscellaneous.
+/.angular/cache
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
 npm-debug.log
-npm-debug.log.*
-thumbs.db
-!.gitkeep
+testem.log
+/typings
 
-scripts/xivapi/cache/*
-scripts/resourceManager/convertSheetToJSON/output.json
+# Operating system files.
+.DS_Store
+Thumbs.db
+
+# IDE - General.
+.c9/
+.classpath
+.project
+.settings/
+*.launch
+*.sublime-workspace
+
+# IDE - JetBrains.
+.idea/**/aws.xml
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/dbnavigator.xml
+.idea/**/dictionaries
+.idea/**/dynamic.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/mongoSettings.xml
+.idea/**/shelf
+.idea/**/sqlDataSources.xml
+.idea/**/tasks.xml
+.idea/**/uiDesigner.xml
+.idea/**/usage.statistics.xml
+.idea/**/workspace.xml
+.idea/httpRequests
+.idea/replstate.xml
+*.iws
+
+# IDE - VSCode.
+.vscode/*
+.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json

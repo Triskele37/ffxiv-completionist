@@ -3,16 +3,17 @@
     "tasks": {
         "x65757": {
             "level": 15,
-            "cPrevAny": [
-                66229,
-                65756,
-                66223
+            "cPrevAny": true,
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
             ]
         },
         "x66248": {
             "level": 20,
             "cPrev": [
-                66245
+                "duty.quests.main-scenario.seventh-umbral-era.66245"
             ]
         },
         "x66249": {
@@ -33,13 +34,13 @@
         "x66252": {
             "level": 21,
             "cPrev": [
-                66246
+                "duty.quests.main-scenario.seventh-umbral-era.66246"
             ]
         },
         "x66256": {
             "level": 21,
             "cPrev": [
-                69393
+                "duty.quests.main-scenario.seventh-umbral-era.69393"
             ],
             "cNext": [
                 66257
@@ -54,7 +55,7 @@
         "x66258": {
             "level": 21,
             "cPrev": [
-                69393
+                "duty.quests.main-scenario.seventh-umbral-era.69393"
             ],
             "cNext": [
                 66259
@@ -69,13 +70,13 @@
         "x66281": {
             "level": 24,
             "cPrev": [
-                66050
+                "duty.quests.main-scenario.seventh-umbral-era.66050"
             ]
         },
         "x66506": {
             "level": 43,
             "cPrev": [
-                66505
+                "duty.quests.sidequests.gridanian.gridania.66505"
             ],
             "cNext": [
                 66508

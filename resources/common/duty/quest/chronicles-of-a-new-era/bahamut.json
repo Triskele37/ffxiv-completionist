@@ -3,8 +3,9 @@
     "tasks": {
         "x66695": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.raids.arr.0",
             "cPrev": [
-                66694
+                "duty.quests.chronicles-of-a-new-era.primals.66694"
             ],
             "cNext": [
                 66696
@@ -12,16 +13,20 @@
         },
         "x66696": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.raids.arr.4",
             "cPrev": [
                 66695
             ],
             "cNext": [
                 66849
             ],
-            "cSiblings": ["a.900"]
+            "cSiblings": [
+                "character.achievement.quests.quests.900"
+            ]
         },
         "x66849": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.raids.arr.5",
             "cPrev": [
                 66696
             ],
@@ -31,16 +36,20 @@
         },
         "x66850": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.raids.arr.8",
             "cPrev": [
                 66849
             ],
             "cNext": [
                 65579
             ],
-            "cSiblings": ["a.901"]
+            "cSiblings": [
+                "character.achievement.quests.quests.901"
+            ]
         },
         "x65579": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.raids.arr.9",
             "cPrev": [
                 66850
             ],
@@ -50,10 +59,13 @@
         },
         "x65580": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.raids.arr.12",
             "cPrev": [
                 65579
             ],
-            "cSiblings": ["a.1030"]
+            "cSiblings": [
+                "character.achievement.quests.quests.1030"
+            ]
         }
     }
 }

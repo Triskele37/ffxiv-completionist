@@ -1,0 +1,189 @@
+{
+    "key": "paladin",
+    "tasks": {
+        "x66591": {
+            "level": 30,
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-war.gladiator.65801",
+                "duty.quests.main-scenario.seventh-umbral-era.66049"
+            ],
+            "cNext": [
+                66592
+            ]
+        },
+        "x66592": {
+            "level": 35,
+            "cPrev": [
+                66591
+            ],
+            "cNext": [
+                66593
+            ]
+        },
+        "x66593": {
+            "level": 40,
+            "cPrev": [
+                66592
+            ],
+            "cNext": [
+                66594
+            ]
+        },
+        "x66594": {
+            "level": 45,
+            "cPrev": [
+                66593
+            ],
+            "cNext": [
+                66595
+            ]
+        },
+        "x66595": {
+            "level": 45,
+            "cPrev": [
+                66594
+            ],
+            "cNext": [
+                66596
+            ]
+        },
+        "x66596": {
+            "level": 50,
+            "cPrev": [
+                66595
+            ],
+            "cNext": [
+                66656,
+                67568
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.407"
+            ]
+        },
+        "x66656": {
+            "level": 50,
+            "cPrev": [
+                66596,
+                "duty.quests.sidequests.uldahn.western-thanalan.66241"
+            ]
+        },
+        "x67568": {
+            "level": 50,
+            "cPrev": [
+                66596,
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                67569
+            ]
+        },
+        "x67569": {
+            "level": 52,
+            "cPrev": [
+                67568
+            ],
+            "cNext": [
+                67570
+            ]
+        },
+        "x67570": {
+            "level": 54,
+            "cPrev": [
+                67569
+            ],
+            "cNext": [
+                67571
+            ]
+        },
+        "x67571": {
+            "level": 56,
+            "cPrev": [
+                67570
+            ],
+            "cNext": [
+                67572
+            ]
+        },
+        "x67572": {
+            "level": 58,
+            "cPrev": [
+                67571
+            ],
+            "cNext": [
+                67573
+            ]
+        },
+        "x67573": {
+            "level": 60,
+            "cPrev": [
+                67572
+            ],
+            "cNext": [
+                68107
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1141"
+            ]
+        },
+        "x68107": {
+            "level": 60,
+            "cPrev": [
+                67573,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                68108
+            ]
+        },
+        "x68108": {
+            "level": 63,
+            "cPrev": [
+                68107
+            ],
+            "cNext": [
+                68109
+            ]
+        },
+        "x68109": {
+            "level": 65,
+            "cPrev": [
+                68108
+            ],
+            "cNext": [
+                68110
+            ]
+        },
+        "x68110": {
+            "level": 68,
+            "cPrev": [
+                68109
+            ],
+            "cNext": [
+                68111
+            ]
+        },
+        "x68111": {
+            "level": 70,
+            "cPrev": [
+                68110
+            ],
+            "cNext": [
+                68746
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1797"
+            ]
+        },
+        "x68746": {
+            "level": 80,
+            "cPrev": [
+                68111,
+                "duty.quests.class--job.role.tank.68784",
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.2306"
+            ]
+        }
+    }
+}

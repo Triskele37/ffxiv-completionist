@@ -1,0 +1,30 @@
+<td
+    *ngIf="task.completionFlag !== Completion.X"
+    class="completion-flag-cell noSelect"
+    [style.background-color]="task | gradient:task.completionFlag"
+    [pTooltip]="tooltip"
+    (contextmenu)="onExcludeTaskClick($event)"
+>
+    <p-inputNumber
+        class="numeric-input"
+        [(ngModel)]="value"
+        [step]="step"
+        [showButtons]="true"
+        [minFractionDigits]="task._parent.numericDecimal"
+        [maxFractionDigits]="task._parent.numericDecimal"
+        (onBlur)="onTaskValueChange()"
+    ></p-inputNumber>
+
+    <span class="percentage">
+        {{value | percentage:task.minValue:task.maxValue}}%
+    </span>
+</td>
+
+<td
+    *ngIf="task.completionFlag === Completion.X"
+    class="completion-flag-cell excluded noSelect"
+    [pTooltip]="task.maxValue | asString"
+    (click)="onExcludeTaskClick($event)"
+>
+    X
+</td>

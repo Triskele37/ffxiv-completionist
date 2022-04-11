@@ -22,7 +22,6 @@
             "name": "To Crush Your Enemies V"
         },
         "x6": {
-            "reward": "The Exterminator",
             "description": "Defeat 50,000 enemies.",
             "name": "To Crush Your Enemies VI"
         },
@@ -212,6 +211,14 @@
             "description": "Successfully complete the FATE “The Head, the Tail, the Whole Damned Thing” with the highest rating possible.",
             "name": "Another World, Another Turn"
         },
+        "x3029": {
+            "description": "Successfully complete the FATE “Devout Pilgrims vs. Daivadipa” with the highest rating possible.",
+            "name": "Don't Go into the Light"
+        },
+        "x3030": {
+            "description": "Successfully complete the FATE “Omicron Recall: Killing Order” with the highest rating possible.",
+            "name": "Prototypical"
+        },
         "x2343": {
             "description": "Achieve shared FATE rank 3 in Lakeland.",
             "name": "Free Market Friend: Lakeland"
@@ -237,9 +244,36 @@
             "name": "Free Market Friend: The Tempest"
         },
         "x2349": {
-            "reward": "The Invisible Hand",
             "description": "Obtain “Free Market Friend” achievements for all six regions in Norvrandt.",
             "name": "Merchant's Best Friend"
+        },
+        "x3022": {
+            "description": "Achieve shared FATE rank 3 in Labyrinthos.",
+            "name": "Free Market Friend: Labyrinthos"
+        },
+        "x3023": {
+            "description": "Achieve shared FATE rank 3 in Thavnair.",
+            "name": "Free Market Friend: Thavnair"
+        },
+        "x3024": {
+            "description": "Achieve shared FATE rank 3 in Garlemald.",
+            "name": "Free Market Friend: Garlemald"
+        },
+        "x3025": {
+            "description": "Achieve shared FATE rank 3 in Mare Lamentorum.",
+            "name": "Free Market Friend: Mare Lamentorum"
+        },
+        "x3026": {
+            "description": "Achieve shared FATE rank 3 in Elpis.",
+            "name": "Free Market Friend: Elpis"
+        },
+        "x3027": {
+            "description": "Achieve shared FATE rank 3 in Ultima Thule.",
+            "name": "Free Market Friend: Ultima Thule"
+        },
+        "x3028": {
+            "description": "Obtain “Free Market Friend” achievements for Labyrinthos, Thavnair, Garlemald, Mare Lamentorum, Elpis, and Ultima Thule.",
+            "name": "Far Trade"
         },
         "x803": {
             "description": "Successfully complete 10 FATEs.",
@@ -254,7 +288,6 @@
             "name": "Date with Destiny III"
         },
         "x806": {
-            "reward": "Tempter of Fate / Temptress of Fate",
             "description": "Successfully complete 1,000 FATEs.",
             "name": "Date with Destiny IV"
         },
@@ -268,7 +301,6 @@
             "name": "Date with Destiny V"
         },
         "x1354": {
-            "reward": "The Fortunate",
             "description": "Successfully complete 10,000 FATEs.",
             "name": "Date with Destiny VI"
         },
@@ -302,127 +334,124 @@
             "name": "The Kindness of Strangers IV"
         },
         "x1357": {
-            "reward": "Good Samaritan",
             "description": "Resurrect a player who is not in your party or alliance 200 times.",
             "name": "The Kindness of Strangers V"
         },
         "x919": {
-            "reward": "The Meat Shield",
             "description": "Complete 50 high-level duties as a paladin.",
             "name": "A Tankless Job I (Paladin)"
         },
         "x920": {
-            "reward": "Of the Stalwart Shield",
             "description": "Complete 100 high-level duties as a paladin.",
             "name": "A Tankless Job II (Paladin)"
         },
         "x921": {
-            "reward": "Warlion Horn",
             "description": "Complete 200 high-level duties as a paladin.",
             "name": "But Somebody's Gotta Do It (Paladin)"
         },
         "x922": {
-            "reward": "The Meat Axe",
             "description": "Complete 50 high-level duties as a warrior.",
             "name": "A Tankless Job I (Warrior)"
         },
         "x923": {
-            "reward": "Of the Stalwart Axe",
             "description": "Complete 100 high-level duties as a warrior.",
             "name": "A Tankless Job II (Warrior)"
         },
         "x924": {
-            "reward": "Warbear Horn",
             "description": "Complete 200 high-level duties as a warrior.",
             "name": "But Somebody's Gotta Do It (Warrior)"
         },
         "x1193": {
-            "reward": "Dark Driver",
             "description": "Complete 50 high-level duties as a dark knight.",
             "name": "A Tankless Job I (Dark Knight)"
         },
         "x1194": {
-            "reward": "Of the Stalwart Sword",
             "description": "Complete 100 high-level duties as a dark knight.",
             "name": "A Tankless Job II (Dark Knight)"
         },
         "x1195": {
-            "reward": "Panther Bell",
             "description": "Complete 200 high-level duties as a dark knight.",
             "name": "But Somebody's Gotta Do It (Dark Knight)"
         },
         "x1953": {
-            "description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Paladin I"
         },
         "x1954": {
-            "description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Paladin II"
         },
         "x1955": {
-            "reward": "Battle Lion Horn",
-            "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Paladin III"
         },
         "x2387": {
-            "reward": "Of Unyielding Oath",
-            "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Paladin IV"
         },
+        "x2990": {
+            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Paladin V"
+        },
         "x1956": {
-            "description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Warrior I"
         },
         "x1957": {
-            "description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Warrior II"
         },
         "x1958": {
-            "reward": "Battle Bear Horn",
-            "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Warrior III"
         },
         "x2388": {
-            "reward": "Of Unyielding Steel",
-            "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Warrior IV"
         },
+        "x2991": {
+            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Warrior V"
+        },
         "x1959": {
-            "description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 50 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Dark Knight I"
         },
         "x1960": {
-            "description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Dark Knight II"
         },
         "x1961": {
-            "reward": "Battle Panther Bell",
-            "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Dark Knight III"
         },
         "x2389": {
-            "reward": "Of Unyielding Principle",
-            "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Dark Knight IV"
         },
+        "x2992": {
+            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Dark Knight V"
+        },
         "x2390": {
-            "description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 100 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Gunbreaker I"
         },
         "x2391": {
-            "reward": "War Tiger Horn",
-            "description": "Complete 200 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 200 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Gunbreaker II"
         },
         "x2392": {
-            "reward": "Battle Tiger Horn",
-            "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 300 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Gunbreaker III"
         },
         "x2393": {
-            "reward": "Of Unyielding Lealty",
-            "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
+            "description": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
             "name": "Tank You, Gunbreaker IV"
+        },
+        "x2993": {
+            "description": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
+            "name": "Tank You, Gunbreaker V"
         },
         "x2451": {
             "description": "Complete 5 types of routine mission in the Blue Mage Log.",
@@ -433,167 +462,148 @@
             "name": "Jack of All Trades II"
         },
         "x2453": {
-            "reward": "Blue Luminary",
             "description": "Complete 50 types of routine mission in the Blue Mage Log.",
             "name": "Jack of All Trades III"
         },
         "x2728": {
-            "reward": "Blue Ranger",
             "description": "Complete 90 types of routine mission in the Blue Mage Log.",
-            "name": "Jack of All Trades IV",
-            "id": 2728
+            "name": "Jack of All Trades IV"
         },
         "x2454": {
-            "description": "Complete the Bowl of Embers (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete the Bowl of Embers (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Inferno"
         },
         "x2455": {
-            "description": "Complete the Navel (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete the Navel (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Crag"
         },
         "x2456": {
-            "description": "Complete the Howling Eye (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete the Howling Eye (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Vortex"
         },
         "x2457": {
-            "description": "Complete Thornmarch (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete Thornmarch (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the King"
         },
         "x2458": {
-            "description": "Complete the Whorleater (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete the Whorleater (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Whorl"
         },
         "x2459": {
-            "description": "Complete the Striking Tree (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete the Striking Tree (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than Levin"
         },
         "x2460": {
-            "description": "Complete the Akh Afah Amphitheatre (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete the Akh Afah Amphitheatre (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Frost"
         },
         "x2461": {
-            "description": "Complete the Binding Coil of Bahamut - Turn 5 with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete the Binding Coil of Bahamut - Turn 5 with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Dragon"
         },
         "x2462": {
-            "description": "Complete the Second Coil of Bahamut - Turn 4 with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete the Second Coil of Bahamut - Turn 4 with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Raven"
         },
         "x2463": {
-            "description": "Complete the Final Coil of Bahamut - Turn 4 with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete the Final Coil of Bahamut - Turn 4 with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Dreadwyrm"
         },
         "x2464": {
-            "description": "Complete Thok ast Thok (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete Thok ast Thok (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Hive"
         },
         "x2465": {
-            "description": "Complete the Limitless Blue (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete the Limitless Blue (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Expanse"
         },
         "x2466": {
-            "reward": "Masked of the Round",
-            "description": "Complete the Minstrel's Ballad: Thordan's Reign with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete the Minstrel's Ballad: Thordan's Reign with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Round"
         },
         "x2467": {
-            "description": "Complete Containment Bay S1T7 (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete Containment Bay S1T7 (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Fiend"
         },
         "x2468": {
-            "description": "Complete the Minstrel's Ballad: Nidhogg's Rage with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete the Minstrel's Ballad: Nidhogg's Rage with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Horde"
         },
         "x2469": {
-            "description": "Complete Containment Bay P1T6 (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete Containment Bay P1T6 (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Goddess"
         },
         "x2470": {
-            "description": "Complete Containment Bay Z1T9 (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete Containment Bay Z1T9 (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Demon"
         },
         "x2471": {
-            "description": "Complete Alexander - The Burden of the Father (Savage) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete Alexander - The Burden of the Father (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Manipulator"
         },
         "x2472": {
-            "description": "Complete Alexander - The Burden of the Son (Savage) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete Alexander - The Burden of the Son (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than Justice"
         },
         "x2473": {
-            "description": "Complete Alexander - The Soul of the Creator (Savage) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
+            "description": "Complete Alexander - The Soul of the Creator (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "name": "Mightier than the Prime"
         },
         "x2474": {
-            "reward": "Unbound Blue",
             "description": "Obtain the achievements “Mightier than the Dragon,” “Mightier than the Raven,” and “Mightier than the Dreadwyrm.”",
             "name": "Blue Unchained"
         },
         "x2475": {
-            "reward": "Blue Justice",
             "description": "Obtain the achievements “Mightier than the Manipulator,” “Mightier than Justice,” and “Mightier than the Prime.”",
             "name": "Masked Conqueror"
         },
         "x2476": {
-            "reward": "Morbol Horn",
             "description": "Obtain the achievements “Blue Unchained” and “Masked Conqueror.”",
             "name": "True Blue"
         },
         "x2729": {
-            "description": "Complete the Pool of Tribute (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
-            "name": "Mightier than the Revel",
-            "id": 2729
+            "description": "Complete the Pool of Tribute (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Revel"
         },
         "x2730": {
-            "description": "Complete Emanation (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
-            "name": "Mightier than Bliss",
-            "id": 2730
+            "description": "Complete Emanation (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than Bliss"
         },
         "x2731": {
-            "description": "Complete the Minstrel's Ballad: Shinryu's Domain with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
-            "name": "Mightier than the Worm",
-            "id": 2731
+            "description": "Complete the Minstrel's Ballad: Shinryu's Domain with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Worm"
         },
         "x2732": {
-            "description": "Complete the Minstrel's Ballad: Tsukuyomi's Pain with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
-            "name": "Mightier than the Moon",
-            "id": 2732
+            "description": "Complete the Minstrel's Ballad: Tsukuyomi's Pain with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Moon"
         },
         "x2733": {
-            "description": "Complete the Jade Stoa (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
-            "name": "Mightier than the White",
-            "id": 2733
+            "description": "Complete the Jade Stoa (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the White"
         },
         "x2734": {
-            "description": "Complete Hells' Kier (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
-            "name": "Mightier than the Vermilion",
-            "id": 2734
+            "description": "Complete Hells' Kier (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Vermilion"
         },
         "x2735": {
-            "description": "Complete the Wreath of Snakes (Extreme) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
-            "name": "Mightier than the Azure",
-            "id": 2735
+            "description": "Complete the Wreath of Snakes (Extreme) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Azure"
         },
         "x2736": {
-            "description": "Complete Deltascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
-            "name": "Mightier than the Delta",
-            "id": 2736
+            "description": "Complete Deltascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Delta"
         },
         "x2737": {
-            "description": "Complete Sigmascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
-            "name": "Mightier than the Sigma",
-            "id": 2737
+            "description": "Complete Sigmascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Sigma"
         },
         "x2738": {
-            "description": "Complete Alphascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Undersized Party turned off.",
-            "name": "Mightier than the Alpha",
-            "id": 2738
+            "description": "Complete Alphascape V4.0 (Savage) with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
+            "name": "Mightier than the Alpha"
         },
         "x2739": {
-            "reward": "The Azure and Omega",
             "description": "Obtain the achievements “Mightier than the Delta,” “Mightier than the Sigma,” and “Mightier than the Alpha.”",
-            "name": "Omega Blue",
-            "id": 2739
+            "name": "Omega Blue"
         }
     }
 }

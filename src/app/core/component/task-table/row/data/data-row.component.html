@@ -1,0 +1,83 @@
+<tr
+    [pReorderableRow]="rowIndex"
+    [pReorderableRowDisabled]="!dragEnabled"
+    [ngClass]="{ selected: task.selected }"
+    (click)="onClick($event)"
+>
+    <!-- Completion Cell -->
+    <ng-container
+        *ngTemplateOutlet="task.isNumericCompletion ? numericCompletionCell : completionCell"
+    ></ng-container>
+
+    <!-- Data Cells -->
+    <ng-container *ngFor="let column of group.columns">
+        <td class="data-cell">
+            <ng-container
+                *ngTemplateOutlet="
+                    column.key === 'fullStorageKey' ? keyCell :
+                    column.editable ? editCell :
+                    column.key === 'contentLink' ? showAllLinkCell :
+                    column.link ? linksCell : staticCell;
+                    context: { $implicit: column.key }"
+            ></ng-container>
+        </td>
+    </ng-container>
+
+    <!-- Row Action Cell -->
+    <xiv-actions-cell
+        [task]="task"
+        [rowIndex]="rowIndex"
+    ></xiv-actions-cell>
+</tr>
+
+<!---------------------------------------------------------------------------------->
+<!--------------------------------- Cell Templates --------------------------------->
+<!---------------------------------------------------------------------------------->
+<ng-template #completionCell>
+    <xiv-complete-cell
+        [task]="task"
+        [flag]="task.completionFlag"
+        (onChange)="completionChange.emit()"
+    ></xiv-complete-cell>
+</ng-template>
+
+<ng-template #numericCompletionCell>
+    <xiv-numeric-complete-cell
+        [task]="task"
+        [value]="task.completionFlag"
+        (onChange)="completionChange.emit()"
+    ></xiv-numeric-complete-cell>
+</ng-template>
+
+<ng-template #keyCell let-key>
+    <span [pTooltip]="task[key].substr(8)">
+        {{task[key].substr(8)}}
+    </span>
+</ng-template>
+
+<ng-template #editCell let-key>
+    <xiv-edit-cell
+        [task]="task"
+        [key]="key"
+    ></xiv-edit-cell>
+</ng-template>
+
+<ng-template #showAllLinkCell>
+    <xiv-content-link
+        [content]="task._parent"
+        [trimGroup]="group"
+    ></xiv-content-link>
+</ng-template>
+
+<ng-template #linksCell let-key>
+    <xiv-links-cell
+        [linkPaths]="task[key]"
+    ></xiv-links-cell>
+</ng-template>
+
+<ng-template #staticCell let-key>
+    <xiv-data-cell
+        [task]="task"
+        [key]="key"
+    ></xiv-data-cell>
+</ng-template>

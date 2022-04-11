@@ -1,0 +1,13 @@
+// Declare styles for all guide pages
+.guide ::ng-deep {
+    .section {
+        margin-bottom: 15px;
+
+        .header {
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: underline;
+            padding-bottom: 5px;
+        }
+    }
+}

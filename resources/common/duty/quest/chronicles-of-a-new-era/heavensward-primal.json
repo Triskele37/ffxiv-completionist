@@ -4,7 +4,7 @@
         "x67650": {
             "level": 60,
             "cPrev": [
-                67205
+                "duty.quests.main-scenario.heavensward.67205"
             ],
             "cNext": [
                 67766,
@@ -14,9 +14,10 @@
         },
         "x67766": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.trials.hw.4",
             "cPrev": [
                 67650,
-                67699
+                "duty.quests.main-scenario.dragonsong.67699"
             ],
             "cNext": [
                 67817,
@@ -34,6 +35,7 @@
         },
         "x67868": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.trials.hw.5",
             "cPrev": [
                 67824
             ],
@@ -44,6 +46,7 @@
         },
         "x67930": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.trials.hw.6",
             "cPrev": [
                 67868
             ],
@@ -53,34 +56,43 @@
         },
         "x67651": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.trials.hw.7",
             "cPrev": [
-                67205,
+                "duty.quests.main-scenario.heavensward.67205",
                 67650
             ],
-            "cCombo": ["a.1165"]
+            "cCombo": [
+                "character.achievement.quests.quests.1165"
+            ]
         },
         "x67652": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.trials.hw.8",
             "cPrev": [
-                67205,
+                "duty.quests.main-scenario.heavensward.67205",
                 67650
             ],
-            "cCombo": ["a.1165"]
+            "cCombo": [
+                "character.achievement.quests.quests.1165"
+            ]
         },
         "x67817": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.trials.hw.11",
             "cPrev": [
                 67766
             ]
         },
         "x67869": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.trials.hw.12",
             "cPrev": [
                 67868
             ]
         },
         "x67931": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.trials.hw.13",
             "cPrev": [
                 67930
             ]

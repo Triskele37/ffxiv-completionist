@@ -1,0 +1,43 @@
+:host {
+    display: contents;
+}
+
+.completion-flag-cell {
+    position: relative;
+    user-select: none;
+    cursor: default;
+    width: 99px;
+
+    &.excluded {
+        background-color: var(--excluded);
+        color: var(--primary-color-text);
+        text-align: center;
+
+        &:hover {
+            box-shadow: inset 0 0 5px 1px var(--surface-d);
+        }
+    }
+
+    .numeric-input ::ng-deep {
+        .p-inputtext {
+            padding: 5px;
+            width: 65px;
+        }
+
+        .p-inputnumber-button {
+            width: 20px;
+        }
+    }
+
+    .percentage {
+        pointer-events: none;
+        position: absolute;
+        left: 8px;
+        bottom: 2px;
+        width: 45px;
+
+        color: var(--text-color-secondary);
+        text-align: center;
+        font-size: 8pt;
+    }
+}

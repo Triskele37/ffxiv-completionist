@@ -1,0 +1,5 @@
+@import './ellipsis-overflow';
+
+.data-cell {
+    @extend %ellipsis-overflow;
+}

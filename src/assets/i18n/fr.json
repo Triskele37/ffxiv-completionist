@@ -1,0 +1,506 @@
+{
+    "LANDING": {
+        "HEADER": "Welcome to the FFXIV Completionist App!",
+        "GUIDE": "Getting Started",
+        "PATCH_NOTES": "What's New",
+        "COMPLETION": "Completion Overview"
+    },
+    "MAIN": {
+        "TITLE": "FFXIV Completionist",
+        "GUIDE": {
+            "TITLE": "Guide",
+            "NAVIGATION": {
+                "TITLE": "Navigation",
+                "NAV_DRAWER": {
+                    "TITLE": "Navigation Drawer (that thingy on the left)",
+                    "L1": "This UI shows all top level groups at all times as well as the home menu (FFXIV Completionist)",
+                    "L2": "Clicking one of these groups expands its sub groups while the previously selected group's retracts"
+                },
+                "CRUMBS": {
+                    "TITLE": "Breadcrumbs (that chain of groups just below the overall completion metric)",
+                    "L1": "Clicking one of these navigates back up to that earlier parent group"
+                },
+                "NAV_HISTORY": {
+                    "TITLE": "Navigation History (the button to the left of the breadcrumbs)",
+                    "L1": "Several previously opened groups are cached in this menu",
+                    "L2": "Clicking on one of these navigates to that group"
+                },
+                "COMPLETION": {
+                    "TITLE": "Completion Bars (those pretty bars that show up when a group is selected)",
+                    "L1": "When any group that shows completion bars is selected, you can click on those bars to dive down instead of using the nav drawer"
+                },
+                "SEARCH": {
+                    "TITLE": "Search",
+                    "L1": "The Search input in the top-left of the page enables searching the entire app for a term",
+                    "L2": "After entering the term hit Enter or click the search button to run the search",
+                    "L3": "Clicking on a group in the results takes you directly to that group",
+                    "L4": "The search input can be focused by hitting Ctrl+F or Cmd+F"
+                },
+                "SHOW_ALL": {
+                    "TITLE": "Show All Tasks",
+                    "L1": "Groups that have sub groups with similar data have a \"Show All Tasks\" button",
+                    "L2": "Activating this gives a table with all tasks from each sub group",
+                    "L3": "An additional column is added indicating which sub group the task comes from",
+                    "L4": "Clicking the link in this column navigates to that sub group",
+                    "L5": "When showing all tasks, the button becomes \"Exit All Task View\" which deactivates the table"
+                },
+                "CELL_LINK": {
+                    "TITLE": "Cell Links",
+                    "L1": "Some cells may have one or multiple links to other content",
+                    "L2": "Clicking on one of these links navigates to that content",
+                    "L3": "If the link is inside a tooltip, click on the value in the cell first"
+                },
+                "PERSIST": {
+                    "TITLE": "Persistence",
+                    "L1": "The currently selected group is saved when closing the app"
+                }
+            },
+            "TASK_TABLE": {
+                "TITLE": "Task Table",
+                "SORTING": {
+                    "TITLE": "Sorting",
+                    "L1": "Columns can be sorted by clicking the column title",
+                    "L2": "The icons in the column headers indicate the currently active sort"
+                },
+                "FILTER_COMPLETION": {
+                    "TITLE": "Filter Completion",
+                    "L1": "At the top of completion columns are 3 icons that indicate \"completed\", \"not completed\", and \"excluded\"",
+                    "L2": "These can be enabled/disabled separately and their state is saved between tables and reloads",
+                    "L3": "Items in the table that match any enabled icon will be displayed"
+                },
+                "FILTER_COLUMN": {
+                    "TITLE": "Filter Columns",
+                    "L1": "At the top of each column is a text input to filter tasks in that table",
+                    "L2": "This input may have a dropdown if the column has few unique values",
+                    "L3": "This filter is case-insensitive and matches anywhere within that column",
+                    "L4": "Entering \"Blank\" will filter for tasks without a value in that column"
+                },
+                "SELECT": {
+                    "TITLE": "Select Items",
+                    "L1": "Clicking on any row will \"select\" it and turn it a different color",
+                    "L2": "The \"Quick-Mark\" and \"Selection Actions\" overlays contain actions for selected tasks",
+                    "L3": "In Crafting Log groups this menu contains an option to export all selected recipes to external sites"
+                },
+                "ROW_ACTION": {
+                    "TITLE": "Row Actions",
+                    "L1": "The last column in every row has a \"Row Action\" menu",
+                    "L2": "Some actions attempt to export the task to external sites",
+                    "L3": "NOTE: Some tasks may not open properly on external sites"
+                },
+                "VIRTUAL": {
+                    "TITLE": "Virtual Scrolling",
+                    "L1": "In order to accomodate quick rendering of particularly large groups, all tables implement \"virtual scrolling\"",
+                    "L2": "As tables are scrolled, their header may jitter, this is a product of that feature"
+                }
+            },
+            "PERSONAL_GROUPS": {
+                "TITLE": "Personal Groups",
+                "BOOKMARKS": {
+                    "TITLE": "Bookmarks",
+                    "L1": "Individual tasks can be added or removed from bookmarks through the row action menu",
+                    "L2": "Groups can be added or removed as well through the \"Table Settings\" overlay",
+                    "L3": "Bookmarked tasks are counted toward completion of the Bookmarks group",
+                    "L4": "Bookmarked groups are not counted toward completion of the Bookmarks group",
+                    "L5": "Bookmarked items are not duplicated in the Overall percentage"
+                },
+                "CUSTOM_TASKS": {
+                    "TITLE": "Custom Tasks",
+                    "L1": "Tasks can be manually added in this group along with custom notes",
+                    "L2": "Custom tasks can be edited by selecting them",
+                    "L3": "Custom tasks can be reordered through the row action menu",
+                    "L4": "Custom tasks also have the ability to merge into the app, allowing for easier updates after patches",
+                    "MERGING": {
+                        "TITLE": "Notes about merging:",
+                        "L1": "Merge searches are case-insensitive and ignores anything that isn't a letter or number",
+                        "L2": "Merge searches look for the whole name of the task, partials will not be displayed",
+                        "L3": "Upon clicking one of the matches for merge, that Custom Task will be removed along with its notes",
+                        "L4": "All tasks with a single match can be auto-merged without needing to confirm each one"
+                    }
+                }
+            },
+            "COMPLETION": {
+                "TITLE": "Completion",
+                "MARKING": {
+                    "TITLE": "Marking Completion",
+                    "L1": "When navigated to a group that has tasks there will be a table",
+                    "L2": "On the left of that table is the completion column",
+                    "L3": "Left Click: Toggles the task's completion",
+                    "L31": "from \"N\" to \"Y\"",
+                    "L32": "from \"Y\" to \"N\"",
+                    "L33": "from \"X\" to \"Y\"",
+                    "L4": "Right Click: Mark the task as \"X\""
+                },
+                "NUMERIC": {
+                    "TITLE": "Numeric Completion",
+                    "L1": "Some groups have completion based on a number range",
+                    "L2": "In these tables the completion column will instead contain an numeric input field",
+                    "L3": "These fields validate data entered into them, so data entered may be changed to fit within the range",
+                    "L4": "These fields only commit the data entered after clicking away from them",
+                    "L5": "The arrows next to the field may also be used to change the value by a single step"
+                },
+                "QUICK_MARK": {
+                    "TITLE": "Quick-Mark Overlay",
+                    "L1": "Above the table is an overlay menu that has several options for altering completion state of many tasks at once",
+                    "L2": "Only visible tasks will be modified by the actions in this menu"
+                },
+                "CALCULATIONS": {
+                    "TITLE": "Calculations",
+                    "L1": "Tasks marked as \"X\" are excluded from completion percentages",
+                    "L2": "Numeric completion tasks are counted as their value minus their base value",
+                    "L3": "i.e. Reaper starts at 70, so will only count as 10 points if set to 80",
+                    "L4": "Tasks are not weighted so completing an ultimate nets the same progress as crafting an Oak Lumber",
+                    "L5": "Custom tasks are counted toward overall completion"
+                },
+                "STATISTICS": {
+                    "TITLE": "Statistics",
+                    "L1": "Hovering over the progress bar for any group gives you a tooltip detailing that group's completion stats"
+                },
+                "SAVING": {
+                    "TITLE": "Saving",
+                    "L1": "Completion is saved as soon as tasks are marked",
+                    "L2": "Completion is migrated between versions of the app",
+                    "L3": "Sometimes Patch Notes will indicate tasks that need to be manually reviewed"
+                }
+            },
+            "CHAINING": {
+                "TITLE": "Chaining",
+                "OVERVIEW": {
+                    "TITLE": "Overview",
+                    "L1": "\"Chaining\" is the term used for when the app auto-marks a related task to the one just marked",
+                    "L11": "Tasks are chained backwards if the marked task could not have been completed without the previous",
+                    "L12": "Tasks are chained together if it is not possible to have one without the other",
+                    "L13": "Tasks can chain to exclude another task if they are mutually exclusive",
+                    "L14": "Tasks can be chained if each required task is completed",
+                    "L15": "Numeric tasks can be chained in the same way normal tasks can",
+                    "L2": "Chaining can be disabled in the settings page"
+                },
+                "SPECIFICS": {
+                    "TITLE": "Specifics",
+                    "L1": "Items that must be used after acquiring them from another task are not chained",
+                    "L2": "Tasks that require \"X\" amount of some thing may not be chained if:",
+                    "L21": "X is something other than 1, all, or a contiguous range",
+                    "L22": "That thing is not a numeric completion task"
+                },
+                "INTERFACE": {
+                    "TITLE": "Interface",
+                    "L1": "Any page with a table will have the chain overlay available",
+                    "L2": "The overlay button will pulse if the most recently marked task chained to other tasks",
+                    "L3": "Affected groups can be navigated to using this overlay",
+                    "L4": "An undo is available for the most recently chained events",
+                    "L5": "NOTE: Undo is not available for chains from custom tasks or setting starting class"
+                },
+                "SETTINGS": {
+                    "TITLE": "Settings",
+                    "L1": "Enable/Disable: Allows you to turn chaining on or off completely",
+                    "L2": "History Limit: The amount of chained events to keep in memory to undo",
+                    "L3": "Min Threshold: Sets the number of chained tasks allowed before collapsing groups within the chain overlay",
+                    "L4": "NOTE: Setting the history limit too high may cause memory issues"
+                }
+            },
+            "SAVING": {
+                "TITLE": "Saving",
+                "OVERVIEW": {
+                    "TITLE": "Overview",
+                    "L1": "The app creates a save with a default name in a default location",
+                    "L2": "The currently active save can be viewed in the settings page",
+                    "L3": "The app relies on 2+ files to handle save data",
+                    "L31": "\"config.json\": Holds configuration data for the app itself",
+                    "L32": "\"completion.json\": Holds save data for characters, can be renamed to anything",
+                    "L4": "NOTE: Modifying these files manually may lead to unexpected issues, especially with the app open",
+                    "L5": "The following actions can be found in Character Settings"
+                },
+                "CHANGE": {
+                    "TITLE": "Change Save",
+                    "L1": "\"Create New\" creates an additional new save and makes it the active save",
+                    "L2": "\"Load Existing\" changes the active save to the chosen save"
+                },
+                "OPEN": {
+                    "TITLE": "Open Folder",
+                    "L1": "Opens the folders containing the active config and/or save"
+                },
+                "BACKUP": {
+                    "TITLE": "Backup",
+                    "L1": "Creates a backup of the active config and/or save",
+                    "L2": "I recommended doing this before updating to a new version of the app",
+                    "L3": "May be unnecessary for the save file if it is located in a directory that is automatically cloud saved with history"
+                },
+                "LOAD_BACKUP": {
+                    "TITLE": "Load Backup",
+                    "L1": "OVERWRITES the currently active config or save with a backup"
+                }
+            },
+            "OTHER": {
+                "TITLE": "Other",
+                "RELEASE": {
+                    "TITLE": "Releases",
+                    "L1": "Release times may vary",
+                    "L2": "Each release comes with Patch Notes"
+                },
+                "LOCALIZATION": {
+                    "TITLE": "Localization",
+                    "L1": "Current language can be set within the settings page",
+                    "L2": "French localization is a work-in-progress",
+                    "L3": "German and Japanese localization is a possiblity with volunteers",
+                    "L4": "Additional localization is possible with volunteers and more effort"
+                },
+                "FEEDBACK": {
+                    "TITLE": "Feedback",
+                    "L1": "Any feedback for the app can be communicated through discord here:",
+                    "L2": "Feedback can mean a number of things:",
+                    "L21": "Bugs with the app",
+                    "L22": "Incorrect/miszpelled information",
+                    "L23": "Feature Requests"
+                },
+                "ABOUT": {
+                    "TITLE": "App Specs",
+                    "L1": "Built using Electron",
+                    "L2": "Powered by Angular",
+                    "L3": "UI by PrimeNG"
+                },
+                "FINAL": {
+                    "TITLE": "Final Note",
+                    "L1": "Thats it! Go forth and complete! :D"
+                }
+            }
+        },
+        "NOTES": {
+            "TITLE": "Patch Notes",
+            "1_0_0": {
+                "MANUAL": {
+                    "TITLE": "Tasks that need manual review",
+                    "L1": "Vintage Bow - Carpenter 46-50 Recipe",
+                    "L2": "Astrolabe - Goldsmith 46-50 Recipe",
+                    "L3": "Felt Coif of Gathering - Weaver 41-45 Recipe",
+                    "L4": "White Oak Branch - Gathering Log - Logging",
+                    "L5": "Any tasks intentionally changed from \"Excluded\" to \"Incomplete\""
+                },
+                "PALADIN": {
+                    "TITLE": "Paladin Crafted Arms",
+                    "L1": "BSM \"Arms\" recipes were marked complete if the sword was crafted",
+                    "L2": "ARM \"Arms\" recipes were marked complete if the shield was crafted",
+                    "L3": "There is currently no intent to chain the BSM & ARM versions of these recipes"
+                },
+                "ADD": {
+                    "TITLE": "Additions",
+                    "L1": "Resources up to FFXIV 6.08",
+                    "L2": "Splash image on startup",
+                    "L3": "Theme customization",
+                    "L4": "Group & Task Bookmarks",
+                    "L5": "Navigation history",
+                    "L6": "Sortable columns",
+                    "L7": "Links for most task info that directly reference another task",
+                    "L8": "Group column to all task views",
+                    "L9": "Random task generator for incomplete tasks",
+                    "L10": "Virtual scrolling to prevent slow-rendering tables",
+                    "L11": "Ability to exclude, filter, and quick-mark numeric tasks",
+                    "L12": "Ability to hide overall OR selected group summary lines",
+                    "L13": "Ability to open config and save folders from settings page",
+                    "L14": "Ability to backup config and save files from settings page",
+                    "L15": "Ability to overwrite active config and save with backup from settings page",
+                    "L16": "Chain history & Chain history limit setting",
+                    "L17": "Weight statistic in group summary tooltips",
+                    "L18": "Duty > Duty/Raid Finder > Deep Dungeon",
+                    "L19": "Duty > Squadron"
+                },
+                "CHANGE": {
+                    "TITLE": "Changes",
+                    "L1": "Completely overhauled Search",
+                    "L2": "Applied in-game categories and order to Emotes",
+                    "L3": "Condensed row actions into a slide-out menu",
+                    "L4": "Condensed main menu groups using tabbed UI",
+                    "L5": "Moved save management and language selection into settings page",
+                    "L6": "Moved custom task auto-merge into custom task overlay",
+                    "L7": "Renamed \"Instructions\" to \"Guide\"",
+                    "L8": "Renamed \"Version History\" to \"Patch Notes\"",
+                    "L9": "Changed custom task reordering to work with row actions menu"
+                },
+                "FIX": {
+                    "TITLE": "Fixes",
+                    "L1": "Various data/chain corrections",
+                    "L2": "ShB Trust NPCs now start at 71",
+                    "L3": "Tasks excluded by default no longer show as incomplete"
+                }
+            }
+        },
+        "RANDOM": {
+            "TITLE": "Random"
+        },
+        "SETTING": {
+            "TITLE": "Settings",
+            "CHARACTER": {
+                "TITLE": "Character"
+            },
+            "LANGUAGE": {
+                "LABEL": "Language",
+                "ENGLISH": "English",
+                "FRENCH": "French"
+            },
+            "CLASSES": {
+                "LABEL": "Starting Class",
+                "TOOLTIP": "Changing this value excludes innaccessible content\nResets completion of any content chained to ARR starting quests",
+                "PLACEHOLDER": "Select Class",
+                "ACN": "Arcanist",
+                "ARC": "Archer",
+                "CNJ": "Conjurer",
+                "GLA": "Gladiator",
+                "LNC": "Lancer",
+                "MRD": "Marauder",
+                "PUG": "Pugilist",
+                "THM": "Thaumaturge"
+            },
+            "SAVE": {
+                "LOCATION": "Save File Location",
+                "NAME": "Save File Name",
+                "CHANGE": "Change Save",
+                "OPEN": "Open Folder",
+                "BACKUP": "Backup",
+                "LOAD_BACKUP": "Load Backup",
+                "NEW": "Create New",
+                "LOAD": "Load Existing",
+                "SAVE": "Save",
+                "CONFIG": "Config",
+                "BOTH": "Both"
+            },
+            "THEME": {
+                "TITLE": "Theme",
+                "RESET": "Reset",
+                "PRIMARY_COLOR": "Primary Color",
+                "PRIMARY_TEXT": "Primary Color Text",
+                "TEXT_COLOR": "Text Color",
+                "FONT": "Font",
+                "BACKGROUND": "Background",
+                "COMPLETION": "Completion",
+                "PRESETS": {
+                    "TITLE": "Presets",
+                    "DEFAULT": "Default",
+                    "DARK": "Dark",
+                    "LIGHT": "Light",
+                    "CLASSIC": "Classic"
+                }
+            },
+            "TABLE": {
+                "TITLE": "Table",
+                "COMPLETED": {
+                    "LABEL": "Show Completed",
+                    "TOOLTIP": "Whether completed items are shown in tables"
+                },
+                "INCOMPLETE": {
+                    "LABEL": "Show Incomplete",
+                    "TOOLTIP": "Whether non-completed items are shown in tables"
+                },
+                "EXCLUDED": {
+                    "LABEL": "Show Excluded",
+                    "TOOLTIP": "Whether excluded items are shown in tables"
+                }
+            },
+            "CHAINING": {
+                "TITLE": "Chaining",
+                "ENABLED": {
+                    "LABEL": "Chaining Enabled",
+                    "TOOLTIP": "Allow or disallow tasks from auto-marking other related tasks"
+                },
+                "HISTORY": {
+                    "LABEL": "Chain History Limit",
+                    "TOOLTIP": "The amount of chains to keep in history to allow undos"
+                },
+                "THRESHOLD": {
+                    "LABEL": "Chain Min Threshold",
+                    "TOOLTIP": "Chain overlay will auto-collapse groups when the total chained items hits this number"
+                }
+            }
+        },
+        "SEARCH": {
+            "TITLE": "Search",
+            "PLACEHOLDER": "Search",
+            "NO_SEARCH": "Please enter a search term",
+            "TOO_SHORT": "Please enter at least 3 characters",
+            "NO_RESULTS": "No tasks found",
+            "EXPAND": "Expand All",
+            "COLLAPSE": "Collapse All",
+            "SEARCH_NAME": "Search Name Columns",
+            "SEARCH_COLUMN": "Search All Columns",
+            "MATCHES": "Match/es",
+            "COMPLETE": "Complete",
+            "COLUMN": "Column",
+            "VALUE": "Value",
+            "LINK": "Link"
+        }
+    },
+    "TABLE": {
+        "DISPLAYED": "Rows displayed",
+        "HIDDEN": "Hidden",
+        "SHOW_ALL": "Show All Tasks",
+        "HIDE_ALL": "Hide All Tasks",
+        "VIEW_LINKS": "View All",
+        "ROW_ACTION": {
+            "TITLE": "Row Actions",
+            "BOOKMARK": "Bookmark Task",
+            "UNBOOKMARK": "Unbookmark Task",
+            "REORDER": "Reorder Row",
+            "GARLAND": "Garland Tools",
+            "ESCAPE": "Gamer Escape",
+            "CONSOLE": "Console Games Wiki"
+        }
+    },
+    "OVERLAY": {
+        "HISTORY": {
+            "TITLE": "History",
+            "NO_CONTENT": "No History to display"
+        },
+        "QUICK_MARK": {
+            "TITLE": "Quick-Mark Actions",
+            "PROCESSING": "Processing",
+            "N-Y": "Mark Incomplete as Complete",
+            "N-X": "Mark Incomplete as Excluded",
+            "Y-N": "Mark Complete as Incomplete",
+            "Y-X": "Mark Complete as Excluded",
+            "X-N": "Mark Excluded as Incomplete",
+            "X-Y": "Mark Excluded as Complete",
+            "S-Y": "Mark Selected as Complete",
+            "S-N": "Mark Selected as Incomplete",
+            "S-X": "Mark Selected as Excluded",
+            "UNDO": "Undo Last Quick-Mark"
+        },
+        "SELECTION": {
+            "TITLE": "Selection Actions",
+            "SELECT_ALL": "Select All Tasks",
+            "DESELECT_ALL": "Deselect All Tasks",
+            "INVERT": "Invert Selection",
+            "ACTIONS": "Selected Actions",
+            "GARLAND": "Open in Garland Tools",
+            "TEAMCRAFT": "Open in Teamcraft"
+        },
+        "CHAIN": {
+            "NO_CONTENT": "No chain information to display",
+            "UNDO": "Undo this chain",
+            "VERIFY": "Are you sure?",
+            "CHAINED": "chained to {{count}} other task/s"
+        },
+        "TABLE": {
+            "TITLE": "Table Actions",
+            "ADD_BOOKMARK": "Bookmark Group",
+            "REM_BOOKMARK": "Unbookmark Group"
+        },
+        "CUSTOM": {
+            "NAME_PLACEHOLDER": "Enter Custom Task Name Here",
+            "NOTE_PLACEHOLDER": "Enter Custom Task Notes Here",
+            "ADD": "Add Task",
+            "AUTO": "Auto-Merge Tasks with One Match",
+            "MERGE": "Merge Tasks into App",
+            "REMOVE": "Remove Selected Tasks",
+            "MATCH": "matches found",
+            "NO_MATCH": "No match found",
+            "SKIP": "Skip",
+            "EXIT": "Exit",
+            "SELECT": "Select a match"
+        }
+    },
+    "GENERAL": {
+        "NAVIGATE": "Click to navigate to",
+        "GROUP_NAVIGATE": "Navigate to this group",
+        "TASK_NAVIGATE": "Navigate to this task",
+        "REMAINING": "Remaining",
+        "EXCLUDED": "Excluded",
+        "WEIGHT": "Weight"
+    }
+}

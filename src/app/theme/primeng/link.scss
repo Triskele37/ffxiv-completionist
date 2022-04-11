@@ -1,0 +1,12 @@
+
+.p-link {
+    font-size: 1rem;
+    font-family: var(--font-family);
+    border-radius: 4px;
+}
+
+.p-link:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: none;
+}

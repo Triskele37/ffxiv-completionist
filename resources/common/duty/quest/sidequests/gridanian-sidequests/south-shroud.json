@@ -3,10 +3,11 @@
     "tasks": {
         "x65979": {
             "level": 20,
-            "cPrevAny": [
-                66229,
-                65756,
-                66223
+            "cPrevAny": true,
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
             ]
         },
         "x66263": {
@@ -31,6 +32,7 @@
         },
         "x66266": {
             "level": 22,
+            "unlock": "character.minion-guide.50",
             "cPrev": [
                 66265
             ]
@@ -50,13 +52,13 @@
         "x66275": {
             "level": 23,
             "cPrev": [
-                66274
+                "duty.quests.main-scenario.seventh-umbral-era.66274"
             ]
         },
         "x66278": {
             "level": 24,
             "cPrev": [
-                66050
+                "duty.quests.main-scenario.seventh-umbral-era.66050"
             ]
         },
         "x66305": {
@@ -103,33 +105,35 @@
         },
         "x65980": {
             "level": 30,
-            "cPrevAny": [
-                66229,
-                65756,
-                66223
+            "cPrevAny": true,
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
             ]
         },
         "x66353": {
             "level": 30,
             "cPrev": [
-                66350
+                "duty.quests.main-scenario.seventh-umbral-era.66350"
             ]
         },
         "x66354": {
             "level": 30,
             "cPrev": [
-                66350
+                "duty.quests.main-scenario.seventh-umbral-era.66350"
             ]
         },
         "x66698": {
             "level": 30,
-            "cPrevAny": [
-                66236,
-                66237,
-                66238
+            "cPrevAny": true,
+            "cPrev": [
+                "duty.quests.sidequests.gridanian.gridania.66236",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66237",
+                "duty.quests.sidequests.uldahn.uldah.66238"
             ],
             "cNext": [
-                67096
+                "duty.quests.sidequests.gridanian.central-shroud.67096"
             ]
         },
         "x66546": {
@@ -141,28 +145,32 @@
         "x66548": {
             "level": 46,
             "cPrev": [
-                66545
+                "duty.quests.sidequests.gridanian.gridania.66545"
             ],
             "cNext": [
-                65969
+                "duty.quests.chronicles-of-a-new-era.primals.65969"
             ]
         },
         "x67093": {
             "level": 50,
             "cPrev": [
-                67060
+                "duty.quests.sidequests.uldahn.uldah.67060"
             ],
             "cNext": [
                 67924
             ],
-            "cSiblings": ["a.1575"]
+            "cSiblings": [
+                "character.achievement.quests.quests.1575"
+            ]
         },
         "x67924": {
             "level": 60,
             "cPrev": [
                 67093
             ],
-            "cSiblings": ["a.1680"]
+            "cSiblings": [
+                "character.achievement.quests.quests.1680"
+            ]
         }
     }
 }

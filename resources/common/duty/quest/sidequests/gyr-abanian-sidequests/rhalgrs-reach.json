@@ -4,12 +4,15 @@
         "x68541": {
             "level": 60,
             "cPrev": [
-                68508,
-                68477
+                "duty.quests.main-scenario.post-stormblood.68508",
+                "duty.quests.other.quasi-quests.68477"
+            ],
+            "cSiblings": [
+                "character.achievement.character.general.1969"
             ],
             "cNext": [
                 68542,
-                68675
+                "duty.quests.sidequests.hingan.kugane.68675"
             ]
         },
         "x68542": {
@@ -21,83 +24,86 @@
         "x68187": {
             "level": 61,
             "cPrev": [
-                68000
+                "duty.quests.main-scenario.stormblood.68000"
             ]
         },
         "x68188": {
             "level": 61,
             "cPrev": [
-                68000
+                "duty.quests.main-scenario.stormblood.68000"
             ],
             "cNext": [
-                68189
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68189"
             ]
         },
         "x68404": {
             "level": 69,
             "cPrev": [
-                68083
+                "duty.quests.main-scenario.stormblood.68083"
             ]
         },
         "x68405": {
             "level": 69,
             "cPrev": [
-                68083
+                "duty.quests.main-scenario.stormblood.68083"
             ],
             "cNext": [
-                68407,
-                68408
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68407",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68408"
             ]
         },
         "x68406": {
             "level": 69,
             "cPrev": [
-                68083
+                "duty.quests.main-scenario.stormblood.68083"
             ],
             "cNext": [
-                68411,
-                68410
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68411",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68410"
             ]
         },
         "x68421": {
             "level": 70,
             "cPrev": [
-                68089
+                "duty.quests.main-scenario.stormblood.68089"
             ],
             "cNext": [
-                68422
+                "duty.quests.sidequests.uldahn.southern-thanalan.68422"
             ]
         },
         "x68169": {
             "level": 70,
+            "unlock": "duty.dutyraid-finder.dungeons.sb.7",
             "cPrev": [
-                68089
+                "duty.quests.main-scenario.stormblood.68089"
             ]
         },
         "x68613": {
             "level": 70,
+            "unlock": "duty.dutyraid-finder.dungeons.sb.10",
             "cPrev": [
-                68089
+                "duty.quests.main-scenario.stormblood.68089"
             ]
         },
         "x68678": {
             "level": 70,
+            "unlock": "duty.dutyraid-finder.dungeons.sb.13",
             "cPrev": [
-                68089,
-                67738
+                "duty.quests.main-scenario.stormblood.68089",
+                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67738"
             ]
         },
         "x68476": {
             "level": 70,
             "cPrev": [
-                68089,
-                67654
+                "duty.quests.main-scenario.stormblood.68089",
+                "duty.quests.sidequests.dravanian.idyllshire.67654"
             ]
         },
         "x68566": {
             "level": 70,
             "cPrev": [
-                68610
+                "duty.quests.main-scenario.post-stormblood.68610"
             ]
         }
     }

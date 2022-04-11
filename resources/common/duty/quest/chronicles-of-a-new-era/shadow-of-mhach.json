@@ -4,7 +4,7 @@
         "x67740": {
             "level": 60,
             "cPrev": [
-                67205
+                "duty.quests.main-scenario.heavensward.67205"
             ],
             "cNext": [
                 67741
@@ -12,16 +12,20 @@
         },
         "x67741": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.raids.hw.24",
             "cPrev": [
                 67740
             ],
             "cNext": [
                 67821
             ],
-            "cSiblings": ["a.1388"]
+            "cSiblings": [
+                "character.achievement.quests.quests.1388"
+            ]
         },
         "x67821": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.raids.hw.25",
             "cPrev": [
                 67741
             ],
@@ -41,6 +45,7 @@
         },
         "x67909": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.raids.hw.26",
             "cPrev": [
                 67822
             ],

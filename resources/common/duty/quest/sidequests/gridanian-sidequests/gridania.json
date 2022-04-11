@@ -5,7 +5,7 @@
             "level": 1,
             "cNext": [
                 65537,
-                65660
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65660"
             ]
         },
         "x65585": {
@@ -52,8 +52,8 @@
         },
         "x65570": {
             "level": 4,
-            "cPrevAny": [
-                65660
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65660"
             ]
         },
         "x65573": {
@@ -64,75 +64,83 @@
         },
         "x65568": {
             "level": 4,
-            "cPrevAny": [
-                65660
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65660"
             ]
         },
         "x65756": {
             "level": 10,
             "cPrev": [
-                65665
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65665"
             ],
             "cNext": [
-                65596,
-                65757,
-                65979,
-                66224,
-                66230,
-                66228,
-                65550,
-                65552,
-                65553,
-                65980,
-                65551,
-                66232,
-                66231,
-                65554
+                "duty.quests.sidequests.gridanian.central-shroud.65596",
+                "duty.quests.sidequests.gridanian.east-shroud.65757",
+                "duty.quests.sidequests.gridanian.south-shroud.65979",
+                "duty.quests.sidequests.uldahn.eastern-thanalan.66224",
+                "duty.quests.sidequests.lominsan.western-la-noscea.66230",
+                "duty.quests.sidequests.uldahn.southern-thanalan.66228",
+                "duty.quests.sidequests.lominsan.eastern-la-noscea.65550",
+                "duty.quests.sidequests.coerthan.coerthas-central-highlands.65552",
+                "duty.quests.sidequests.coerthan.coerthas-central-highlands.65553",
+                "duty.quests.sidequests.gridanian.south-shroud.65980",
+                "duty.quests.sidequests.uldahn.northern-thanalan.65551",
+                "duty.quests.sidequests.lominsan.eastern-la-noscea.66232",
+                "duty.quests.sidequests.lominsan.lower-la-noscea.66231",
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.65554"
             ]
         },
         "x66961": {
             "level": 14,
-            "cPrevAny": [
+            "unlock": "social.emotes.special.102",
+            "cPrevAny": true,
+            "cPrev": [
                 66088,
                 66081,
-                65985
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65985"
             ],
-            "cSiblings": ["e.102"]
+            "cSiblings": [
+                "social.emotes.special.102"
+            ]
         },
         "x66968": {
             "level": 17,
             "cExclude": [
-                66969,
-                66970
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66969",
+                "duty.quests.sidequests.uldahn.uldah.66970"
             ]
         },
         "x67092": {
             "level": 17,
+            "unlock": "duty.dutyraid-finder.deep-dungeon.0",
             "cPrev": [
-                66196
+                "duty.quests.main-scenario.seventh-umbral-era.66196"
             ],
             "cNext": [
-                67923
+                "duty.quests.other.quasi-quests.67923"
             ]
         },
         "x66236": {
             "level": 20,
+            "unlock": "character.mount-guide.39",
             "cNext": [
-                66698
+                "duty.quests.sidequests.gridanian.south-shroud.66698"
             ],
             "cExclude": [
-                66237,
-                66238
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66237",
+                "duty.quests.sidequests.uldahn.uldah.66238"
             ]
         },
         "x65698": {
             "level": 20,
             "cPrev": [
-                66049
+                "duty.quests.main-scenario.seventh-umbral-era.66049"
             ],
             "cNext": [
-                68456,
-                67643
+                "duty.quests.other.quasi-quests.68456",
+                "duty.quests.other.quasi-quests.69140",
+                "duty.quests.other.quasi-quests.69710",
+                "duty.quests.other.quasi-quests.67643"
             ]
         },
         "x66338": {
@@ -150,19 +158,19 @@
         "x65730": {
             "level": 30,
             "cPrev": [
-                65977
+                "duty.quests.class--job.disciple-of-magic.conjurer.65977"
             ]
         },
         "x66505": {
             "level": 43,
             "cNext": [
-                66506
+                "duty.quests.sidequests.gridanian.east-shroud.66506"
             ]
         },
         "x66544": {
             "level": 46,
             "cPrev": [
-                66543
+                "duty.quests.sidequests.uldahn.the-waking-sands.66543"
             ],
             "cNext": [
                 66545
@@ -174,13 +182,14 @@
                 66544
             ],
             "cNext": [
-                66548
+                "duty.quests.sidequests.gridanian.south-shroud.66548"
             ]
         },
         "x66925": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.dungeons.arr.19",
             "cPrev": [
-                66060
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ],
             "cNext": [
                 67818
@@ -188,9 +197,10 @@
         },
         "x67818": {
             "level": 60,
+            "unlock": "duty.dutyraid-finder.dungeons.hw.11",
             "cPrev": [
                 66925,
-                67205
+                "duty.quests.main-scenario.heavensward.67205"
             ]
         }
     }

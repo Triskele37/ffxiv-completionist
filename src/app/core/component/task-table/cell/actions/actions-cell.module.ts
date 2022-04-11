@@ -1,0 +1,38 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
+import { ButtonModule } from 'primeng/button';
+import { TableModule } from 'primeng/table';
+import { TooltipModule } from 'primeng/tooltip';
+
+import { ConsoleGamesActionComponent } from './console-games/console-games-action.component';
+import { GamerEscapeActionComponent } from './gamer-escape/gamer-escape-action.component';
+import { GarlandActionComponent } from './garland/garland-action.component';
+import { DragActionComponent } from './drag/drag-action.component';
+import { BookmarkActionComponent } from './bookmark/bookmark-action.component';
+
+import { ActionsCellComponent } from './actions-cell.component';
+
+@NgModule({
+    declarations: [
+        ActionsCellComponent,
+
+        ConsoleGamesActionComponent,
+        GamerEscapeActionComponent,
+        GarlandActionComponent,
+        DragActionComponent,
+        BookmarkActionComponent,
+    ],
+    imports: [
+        CommonModule,
+        TranslateModule,
+        ButtonModule,
+        TableModule,
+        TooltipModule,
+    ],
+    exports: [
+        ActionsCellComponent
+    ]
+})
+export class ActionsCellModule {
+}

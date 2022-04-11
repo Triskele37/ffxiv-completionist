@@ -3,80 +3,98 @@
     "tasks": {
         "x0": {
             "level": "63",
-            "iLvlReq": "-"
+            "unlock": "duty.quests.main-scenario.stormblood.68025"
         },
         "x1": {
             "level": "67",
-            "iLvlReq": "-"
+            "unlock": "duty.quests.main-scenario.stormblood.68068"
         },
         "x2": {
             "level": "70",
-            "iLvlReq": "280"
+            "unlock": "duty.quests.main-scenario.stormblood.68089"
         },
         "x3": {
             "level": "70",
-            "iLvlReq": "325"
+            "unlock": "duty.quests.chronicles-of-a-new-era.the-four-lords.68551"
         },
         "x4": {
             "level": "70",
-            "iLvlReq": "335"
-        },
-        "x5": {
-            "level": "70",
-            "iLvlReq": "320"
-        },
-        "x6": {
-            "level": "70",
-            "iLvlReq": "300",
-            "cSiblings": ["a.1901"]
-        },
-        "x7": {
-            "level": "70",
-            "iLvlReq": "300",
-            "cSiblings": ["a.1902"]
-        },
-        "x8": {
-            "level": "70",
-            "iLvlReq": "320",
-            "cSiblings": ["a.1989"]
-        },
-        "x9": {
-            "level": "70",
-            "iLvlReq": "340",
-            "cSiblings": ["a.2023"]
-        },
-        "x10": {
-            "level": "70",
-            "iLvlReq": "350",
-            "cSiblings": ["a.2060"]
-        },
-        "x11": {
-            "level": "70",
-            "iLvlReq": "350",
-            "cSiblings": ["a.2109"]
+            "unlock": "duty.quests.main-scenario.post-stormblood.68610"
         },
         "x12": {
             "level": "70",
-            "iLvlReq": "355"
+            "unlock": "duty.quests.chronicles-of-a-new-era.the-four-lords.68688"
         },
         "x13": {
             "level": "70",
-            "iLvlReq": "365"
+            "unlock": "duty.quests.chronicles-of-a-new-era.the-four-lords.68701"
         },
         "x14": {
             "level": "70",
-            "iLvlReq": "365",
-            "cSiblings": ["a.2236"]
+            "unlock": "duty.quests.sidequests.side-story.even-further-hildibrand-adventures.68703",
+            "cSiblings": [
+                "character.achievement.battle.trials.2236"
+            ]
+        },
+        "x5": {
+            "level": "70",
+            "unlock": "duty.quests.other.special.collaboration.67090"
+        },
+        "x6": {
+            "level": "70",
+            "unlock": "duty.quests.other.quasi-quests.68479",
+            "cSiblings": [
+                "character.achievement.battle.trials.1901"
+            ]
+        },
+        "x7": {
+            "level": "70",
+            "unlock": "duty.quests.other.quasi-quests.68479",
+            "cSiblings": [
+                "character.achievement.battle.trials.1902"
+            ]
+        },
+        "x8": {
+            "level": "70",
+            "unlock": "duty.quests.other.quasi-quests.68479",
+            "cSiblings": [
+                "character.achievement.battle.trials.1989"
+            ]
+        },
+        "x9": {
+            "level": "70",
+            "unlock": "duty.quests.other.quasi-quests.68479",
+            "cSiblings": [
+                "character.achievement.battle.trials.2023"
+            ]
+        },
+        "x10": {
+            "level": "70",
+            "unlock": "duty.quests.other.quasi-quests.68479",
+            "cSiblings": [
+                "character.achievement.battle.trials.2060"
+            ]
+        },
+        "x11": {
+            "level": "70",
+            "unlock": "duty.quests.other.special.collaboration.67091",
+            "cSiblings": [
+                "character.achievement.battle.trials.2109"
+            ]
         },
         "x15": {
             "level": "70",
-            "iLvlReq": "370",
-            "cSiblings": ["a.2117"]
+            "unlock": "duty.quests.other.quasi-quests.68479",
+            "cSiblings": [
+                "character.achievement.battle.trials.2117"
+            ]
         },
         "x16": {
             "level": "70",
-            "iLvlReq": "380",
-            "cSiblings": ["a.2165"]
+            "unlock": "duty.quests.other.quasi-quests.68479",
+            "cSiblings": [
+                "character.achievement.battle.trials.2165"
+            ]
         }
     }
 }

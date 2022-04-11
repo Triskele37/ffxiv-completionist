@@ -1,0 +1,92 @@
+{
+    "key": "arcanist",
+    "tasks": {
+        "x65988": {
+            "level": 1,
+            "cNext": [
+                65990
+            ]
+        },
+        "x65990": {
+            "level": 1,
+            "cPrev": [
+                65988
+            ],
+            "cNext": [
+                65993,
+                65991
+            ]
+        },
+        "x65991": {
+            "level": 5,
+            "cPrevAny": true,
+            "cPrev": [
+                65988,
+                65990
+            ],
+            "cNext": [
+                65993
+            ]
+        },
+        "x65993": {
+            "level": 10,
+            "cPrev": [
+                65990,
+                65991
+            ],
+            "cNext": [
+                66639
+            ]
+        },
+        "x66639": {
+            "level": 15,
+            "cPrev": [
+                65993
+            ],
+            "cNext": [
+                65994
+            ]
+        },
+        "x65994": {
+            "level": 15,
+            "cPrev": [
+                66639
+            ],
+            "cNext": [
+                65995
+            ]
+        },
+        "x65995": {
+            "level": 20,
+            "cPrev": [
+                65994
+            ],
+            "cNext": [
+                65996
+            ]
+        },
+        "x65996": {
+            "level": 25,
+            "cPrev": [
+                65995
+            ],
+            "cNext": [
+                65997
+            ]
+        },
+        "x65997": {
+            "level": 30,
+            "cNext": [
+                "duty.quests.class--job.disciple-of-magic-job.scholar.66633",
+                "duty.quests.class--job.disciple-of-magic-job.summoner.66627"
+            ],
+            "cPrev": [
+                65996
+            ],
+            "cCombo": [
+                "character.achievement.quests.quests.313",
+                "character.achievement.quests.quests.315"
+            ]
+        }
+    }
+}

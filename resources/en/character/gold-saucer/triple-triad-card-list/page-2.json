@@ -3,183 +3,134 @@
     "tasks": {
         "x0": {
             "name": "Livia sas Junius",
-            "type": "Garlean",
-            "opponent": "Indolent Imperial",
-            "acquiredBy": "Castrum Meridianum"
+            "opponent": "Indolent Imperial"
         },
         "x1": {
             "name": "Rhitahtyn sas Arvina",
-            "type": "Garlean",
-            "opponent": "Indolent Imperial",
-            "acquiredBy": "Cape Westwind"
+            "opponent": "Indolent Imperial"
         },
         "x2": {
             "name": "Biggs & Wedge",
-            "type": "None",
-            "opponent": "Mimidoa, Sezul Totoloc",
-            "acquiredBy": ""
+            "opponent": "Mimidoa, Sezul Totoloc"
         },
         "x3": {
             "name": "Gerolt",
-            "type": "None",
             "opponent": "Helmhart, Rowena",
-            "acquiredBy": "Gold Triad Card"
+            "source": "Gold Triad Card"
         },
         "x4": {
             "name": "Frixio",
-            "type": "Beastman",
-            "opponent": "Marcette, Piralnaut",
-            "acquiredBy": ""
+            "opponent": "Marcette, Piralnaut"
         },
         "x5": {
             "name": "Mutamix Bubblypots",
-            "type": "Beastman",
-            "opponent": "F'hobhas",
-            "acquiredBy": ""
+            "opponent": "F'hobhas"
         },
         "x6": {
             "name": "Memeroon",
-            "type": "Beastman",
-            "opponent": "Memeroon",
-            "acquiredBy": ""
+            "opponent": "Memeroon"
         },
         "x7": {
             "name": "Behemoth",
-            "type": "None",
             "opponent": "Sezul Totoloc, Ourdilic",
-            "acquiredBy": "Bronze Triad Card"
+            "source": "Bronze Triad Card"
         },
         "x8": {
             "name": "Gilgamesh & Enkidu",
-            "type": "None",
-            "opponent": "",
-            "acquiredBy": "Battle on the Big Bridge, Mythril Triad Card"
+            "source": "Mythril Triad Card"
         },
         "x9": {
             "name": "Ifrit",
-            "type": "Primal",
             "opponent": "Swift",
-            "acquiredBy": "The Bowl of Embers (Hard), The Bowl of Embers (Extreme)"
+            "source": "Silver Triad Card"
         },
         "x10": {
             "name": "Titan",
-            "type": "Primal",
-            "opponent": "Landenel, Trachtoum",
-            "acquiredBy": "The Navel (Hard), The Navel (Extreme)"
+            "opponent": "Landenel, Trachtoum"
         },
         "x11": {
             "name": "Garuda",
-            "type": "Primal",
-            "opponent": "Marcette",
-            "acquiredBy": "The Howling Eye (Hard), The Howling Eye (Extreme)"
+            "opponent": "Marcette"
         },
         "x12": {
             "name": "Good King Moggle Mog XII",
-            "type": "Primal",
-            "opponent": "Vorsaile Heuloix, Master Mogzin",
-            "acquiredBy": "Thornmarch (Hard), Thornmarch (Extreme)"
+            "opponent": "Vorsaile Heuloix, Master Mogzin"
         },
         "x13": {
             "name": "Raya-O-Senna & A-Ruhn-Senna",
-            "type": "None",
             "opponent": "Buscarron",
-            "acquiredBy": "4,800 MGP"
+            "source": "4,800 MGP"
         },
         "x14": {
             "name": "Godbert Manderville",
-            "type": "None",
             "opponent": "Ruhtwyda of the Three Hearts, King Elmer III, Hab",
-            "acquiredBy": "9,600 MGP"
+            "source": "9,600 MGP"
         },
         "x15": {
             "name": "Thancred",
-            "type": "Scion",
-            "opponent": "Fufulupa, Hab",
-            "acquiredBy": ""
+            "opponent": "Fufulupa, Hab"
         },
         "x16": {
             "name": "Nero tol Scaeva",
-            "type": "Garlean",
-            "opponent": "Indolent Imperial",
-            "acquiredBy": ""
+            "opponent": "Indolent Imperial"
         },
         "x17": {
             "name": "Papalymo & Yda",
-            "type": "Scion",
-            "opponent": "Buscarron, Vorsaile Heuloix",
-            "acquiredBy": ""
+            "opponent": "Buscarron, Vorsaile Heuloix"
         },
         "x18": {
             "name": "Y'shtola",
-            "type": "Scion",
-            "opponent": "Gegeruju, R'ashaht Rhiki",
-            "acquiredBy": ""
+            "opponent": "Gegeruju, R'ashaht Rhiki"
         },
         "x19": {
             "name": "Urianger",
-            "type": "Scion",
             "opponent": "Ruhtwyda of the Three Hearts",
-            "acquiredBy": "Silver Triad Card"
+            "source": "Silver Triad Card"
         },
         "x20": {
             "name": "The Ultima Weapon",
-            "type": "Garlean",
-            "opponent": "",
-            "acquiredBy": "The Minstrel's Ballad: Ultima's Bane, Gold Triad Card, Platinum Triad Card"
+            "source": [
+                "Gold Triad Card",
+                "Platinum Triad Card"
+            ]
         },
         "x21": {
             "name": "Odin",
-            "type": "Primal",
             "opponent": "Landenel",
-            "acquiredBy": "Urth's Fount, Mythril Triad Card"
+            "source": "Mythril Triad Card"
         },
         "x22": {
             "name": "Ramuh",
-            "type": "Primal",
-            "opponent": "Vorsaile Heuloix",
-            "acquiredBy": "The Striking Tree (Hard), The Striking Tree (Extreme)"
+            "opponent": "Vorsaile Heuloix"
         },
         "x23": {
             "name": "Leviathan",
-            "type": "Primal",
-            "opponent": "R'ashaht Rhiki",
-            "acquiredBy": "The Whorleater (Hard), The Whorleater (Extreme)"
+            "opponent": "R'ashaht Rhiki"
         },
         "x24": {
-            "name": "Shiva",
-            "type": "Primal",
-            "opponent": "",
-            "acquiredBy": "Akh Afah Amphitheatre (Hard), Akh Afah Amphitheatre (Extreme), Platinum Triad Card"
+            "name": "Shiva"
         },
         "x25": {
             "name": "Minfilia",
-            "type": "Scion",
             "opponent": "Gegeruju",
-            "acquiredBy": "Silver Triad Card"
+            "source": "Silver Triad Card"
         },
         "x26": {
             "name": "Lahabrea",
-            "type": "None",
-            "opponent": "",
-            "acquiredBy": "Silver Triad Card, Platinum Triad Card"
+            "source": "Silver Triad Card, Platinum Triad Card"
         },
         "x27": {
             "name": "Cid Garlond",
-            "type": "None",
             "opponent": "Sezul Totoloc",
-            "acquiredBy": "Gold Triad Card"
+            "source": "Gold Triad Card"
         },
         "x28": {
             "name": "Alphinaud & Alisaie",
-            "type": "Scion",
-            "opponent": "Joellaut, Swift",
-            "acquiredBy": ""
+            "opponent": "Joellaut, Swift"
         },
         "x29": {
             "name": "Louisoix Leveilleur",
-            "type": "None",
-            "opponent": "Rowena",
-            "acquiredBy": ""
+            "opponent": "Rowena"
         }
     }
 }

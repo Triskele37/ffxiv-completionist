@@ -9,148 +9,127 @@
     "tasks": {
         "x0": {
             "name": "Paladin / Gladiator",
-            "role": "Tank",
-            "startingQuest": "Paladin's Pledge - Lulutsu - Ul'dah - Steps of Thal / Way of the Gladiator - Lulutsu - Ul'dah - Steps of Thal"
+            "role": "Tank"
         },
         "x1": {
             "name": "Warrior / Marauder",
-            "role": "Tank",
-            "startingQuest": "Pride and Duty (Will Take You from the Mountain) - Wyrnzoen - Limsa Lominsa Upper Decks / Way of the Marauder - Blauthota - Limsa Lominsa Upper Decks"
+            "role": "Tank"
         },
         "x2": {
             "name": "Dark Knight",
-            "role": "Tank",
-            "startingQuest": "Our End - Ishgardian Citizen - The Pillars"
+            "role": "Tank"
         },
         "x3": {
             "name": "Gunbreaker",
-            "role": "Tank",
-            "startingQuest": "The Makings of a Gunbreaker - Gods' Quiver Bow - New Gridania"
+            "role": "Tank"
         },
         "x4": {
             "name": "White Mage / Conjurer",
-            "role": "Healer",
-            "startingQuest": "Seer Folly - E-Sumi-Yan - Old Gridania / Way of the Conjurer - Madelle - Old Gridania"
+            "role": "Healer"
         },
         "x5": {
             "name": "Scholar / Arcanist",
-            "role": "Healer",
-            "startingQuest": "Forgotten but Not Gone - Murie - Limsa Lominsa Lower Decks"
+            "role": "Healer"
         },
         "x6": {
             "name": "Astrologian",
-            "role": "Healer",
-            "startingQuest": "Stairway to the Heavens - Jannequinard - The Pillars"
+            "role": "Healer"
+        },
+        "x29": {
+            "name": "Sage",
+            "role": "Healer"
         },
         "x7": {
             "name": "Monk / Pugilist",
-            "role": "Melee DPS",
-            "startingQuest": "Brother from Another Mother - Gagaruna - Ul'dah - Steps of Nald / Way of the Pugilist - Gagaruna - Ul'dah - Steps of Nald"
+            "role": "Melee DPS"
         },
         "x8": {
             "name": "Dragoon / Lancer",
-            "role": "Melee DPS",
-            "startingQuest": "Eye of the Dragon - Ywain - Old Gridania / Way of the Lancer - Jillian - Old Gridania"
+            "role": "Melee DPS"
         },
         "x9": {
             "name": "Ninja / Rogue",
-            "role": "Melee DPS",
-            "startingQuest": "Peasants by Day, Ninjas by Night - Jacke - Limsa Lominsa Lower Decks / My First Daggers - Lonwoerd - Limsa Lominsa Lower Decks"
+            "role": "Melee DPS"
         },
         "x10": {
             "name": "Samurai",
-            "role": "Melee DPS",
-            "startingQuest": "The Way of the Samurai - Ul'dahn Citizen - Ul'dah - Steps of Nald"
+            "role": "Melee DPS"
+        },
+        "x30": {
+            "name": "Reaper",
+            "role": "Melee DPS"
         },
         "x11": {
             "name": "Bard / Archer",
-            "role": "Physical Ranged DPS",
-            "startingQuest": "A Song of Bards and Bowmen - Luciane - New Gridania / Way of the Archer - Athelyna - New Gridania"
+            "role": "Physical Ranged DPS"
         },
         "x12": {
             "name": "Machinist",
-            "role": "Physical Ranged DPS",
-            "startingQuest": "Savior of Skysteel - Stephanivien - Foundation"
+            "role": "Physical Ranged DPS"
         },
         "x13": {
             "name": "Dancer",
-            "role": "Physical Ranged DPS",
-            "startingQuest": "Shall We Dance - Eager Lominsan - Limsa Lominsa Lower Decks"
+            "role": "Physical Ranged DPS"
         },
         "x14": {
             "name": "Black Mage / Thaumaturge",
-            "role": "Magical Ranged DPS",
-            "startingQuest": "Taking the Black - Yayake - Ul'dah - Steps of Nald / Way of the Thaumaturge - Yayake - Ul'dah - Steps of Nald"
+            "role": "Magical Ranged DPS"
         },
         "x15": {
             "name": "Summoner / Arcanist",
-            "role": "Magical Ranged DPS",
-            "startingQuest": "Austerities of Flame - Thubyrgeim - Limsa Lominsa Lower Decks / Way of the Arcanist - Murie - Limsa Lominsa Lower Decks"
+            "role": "Magical Ranged DPS"
         },
         "x16": {
             "name": "Red Mage",
-            "role": "Magical Ranged DPS",
-            "startingQuest": "Taking the Red - Distraught Lass - Ul'dah - Steps of Thal"
+            "role": "Magical Ranged DPS"
         },
         "x17": {
             "name": "Blue Mage",
-            "role": "Magical Ranged DPS",
-            "startingQuest": "Out of the Blue - Zealous Yellowjacket - Limsa Lominsa Lower Decks"
+            "role": "Magical Ranged DPS"
         },
         "x18": {
             "name": "Carpenter",
-            "role": "Crafter",
-            "startingQuest": "Way of the Carpenter - Corgg - New Gridania"
+            "role": "Crafter"
         },
         "x19": {
             "name": "Blacksmith",
-            "role": "Crafter",
-            "startingQuest": "Way of the Blacksmith - Randwulf - Limsa Lominsa Upper Decks"
+            "role": "Crafter"
         },
         "x20": {
             "name": "Armorer",
-            "role": "Crafter",
-            "startingQuest": "Way of the Armorer - G'wahnako - Limsa Lominsa Upper Decks"
+            "role": "Crafter"
         },
         "x21": {
             "name": "Goldsmith",
-            "role": "Crafter",
-            "startingQuest": "Way of the Goldsmith - Jemime - Ul'dah - Steps of Thal"
+            "role": "Crafter"
         },
         "x22": {
             "name": "Leatherworker",
-            "role": "Crafter",
-            "startingQuest": "Way of the Leatherworker - Randall - Old Gridania"
+            "role": "Crafter"
         },
         "x23": {
             "name": "Weaver",
-            "role": "Crafter",
-            "startingQuest": "Way of the Weaver - Maronne - Ul'dah - Steps of Thal"
+            "role": "Crafter"
         },
         "x24": {
             "name": "Alchemist",
-            "role": "Crafter",
-            "startingQuest": "Way of the Alchemist - Deitrich - Ul'dah - Steps of Thal"
+            "role": "Crafter"
         },
         "x25": {
             "name": "Culinarian",
-            "role": "Crafter",
-            "startingQuest": "Way of the Culinarian - Charlys - Limsa Lominsa Upper Decks"
+            "role": "Crafter"
         },
         "x26": {
             "name": "Miner",
-            "role": "Gatherer",
-            "startingQuest": "Way of the Miner - Linette - Ul'dah - Steps of Thal"
+            "role": "Gatherer"
         },
         "x27": {
             "name": "Botanist",
-            "role": "Gatherer",
-            "startingQuest": "Way of the Botanist - Leonceault - Old Gridania"
+            "role": "Gatherer"
         },
         "x28": {
             "name": "Fisher",
-            "role": "Gatherer",
-            "startingQuest": "Way of the Fisher - N'nmulika - Limsa Lominsa Lower Decks"
+            "role": "Gatherer"
         }
     }
 }

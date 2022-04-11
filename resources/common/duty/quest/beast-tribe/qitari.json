@@ -1,0 +1,240 @@
+{
+    "key": "qitari",
+    "tasks": {
+        "x69330": {
+            "level": 70,
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68877",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69018"
+            ],
+            "cNext": [
+                69331
+            ],
+            "cSiblings": [
+                "character.character.beast-tribe-reputation.80"
+            ]
+        },
+        "x69331": {
+            "level": 70,
+            "cPrev": [
+                69330
+            ],
+            "cNext": [
+                69336,
+                69337
+            ],
+            "cSiblings": [
+                "character.character.beast-tribe-reputation.81"
+            ]
+        },
+        "x69336": {
+            "level": 70,
+            "cExclude": [
+                69337
+            ],
+            "cPrev": [
+                69331
+            ],
+            "cNext": [
+                69332
+            ]
+        },
+        "x69337": {
+            "level": 70,
+            "cExclude": [
+                69336
+            ],
+            "cPrev": [
+                69331
+            ],
+            "cNext": [
+                69332
+            ]
+        },
+        "x69332": {
+            "level": 70,
+            "cNext": [
+                69338,
+                69339
+            ],
+            "cPrevAny": true,
+            "cPrev": [
+                69336,
+                69337
+            ],
+            "cSiblings": [
+                "character.character.beast-tribe-reputation.82"
+            ]
+        },
+        "x69338": {
+            "level": 70,
+            "cExclude": [
+                69339
+            ],
+            "cPrev": [
+                69332
+            ],
+            "cNext": [
+                69333
+            ]
+        },
+        "x69339": {
+            "level": 70,
+            "cExclude": [
+                69338
+            ],
+            "cPrev": [
+                69332
+            ],
+            "cNext": [
+                69333
+            ]
+        },
+        "x69333": {
+            "level": 70,
+            "cNext": [
+                69340,
+                69341
+            ],
+            "cPrevAny": true,
+            "cPrev": [
+                69338,
+                69339
+            ],
+            "cSiblings": [
+                "character.character.beast-tribe-reputation.83"
+            ]
+        },
+        "x69340": {
+            "level": 70,
+            "cExclude": [
+                69341
+            ],
+            "cPrev": [
+                69333
+            ],
+            "cNext": [
+                69334
+            ]
+        },
+        "x69341": {
+            "level": 70,
+            "cExclude": [
+                69340
+            ],
+            "cPrev": [
+                69333
+            ],
+            "cNext": [
+                69334
+            ]
+        },
+        "x69334": {
+            "level": 70,
+            "cNext": [
+                69335
+            ],
+            "cPrevAny": true,
+            "cPrev": [
+                69340,
+                69341
+            ],
+            "cSiblings": [
+                "character.character.beast-tribe-reputation.84"
+            ]
+        },
+        "x69335": {
+            "level": 70,
+            "cPrev": [
+                69334
+            ],
+            "cSiblings": [
+                "character.character.beast-tribe-reputation.85"
+            ]
+        },
+        "x69342": {
+            "level": 70
+        },
+        "x69343": {
+            "level": 70
+        },
+        "x69344": {
+            "level": 70
+        },
+        "x69345": {
+            "level": 70
+        },
+        "x69346": {
+            "level": 70
+        },
+        "x69347": {
+            "level": 70
+        },
+        "x69348": {
+            "level": 70
+        },
+        "x69349": {
+            "level": 70
+        },
+        "x69350": {
+            "level": 70
+        },
+        "x69351": {
+            "level": 70
+        },
+        "x69352": {
+            "level": 70
+        },
+        "x69353": {
+            "level": 70
+        },
+        "x69354": {
+            "level": 70
+        },
+        "x69355": {
+            "level": 70
+        },
+        "x69356": {
+            "level": 70
+        },
+        "x69357": {
+            "level": 70
+        },
+        "x69358": {
+            "level": 70
+        },
+        "x69359": {
+            "level": 70
+        },
+        "x69360": {
+            "level": 70
+        },
+        "x69361": {
+            "level": 70
+        },
+        "x69362": {
+            "level": 70
+        },
+        "x69363": {
+            "level": 70
+        },
+        "x69364": {
+            "level": 70
+        },
+        "x69365": {
+            "level": 70
+        },
+        "x69366": {
+            "level": 70
+        },
+        "x69367": {
+            "level": 70
+        },
+        "x69368": {
+            "level": 70
+        },
+        "x69369": {
+            "level": 70
+        }
+    }
+}

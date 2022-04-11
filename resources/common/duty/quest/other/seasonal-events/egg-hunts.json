@@ -1,0 +1,264 @@
+{
+    "key": "egg-hunts",
+    "tasks": {
+        "x66950": {
+            "level": 15,
+            "year": "2014",
+            "cNext": [
+                66953
+            ],
+            "cExclude": [
+                66951,
+                66952
+            ]
+        },
+        "x66951": {
+            "level": 15,
+            "year": "2014",
+            "cNext": [
+                66953
+            ],
+            "cExclude": [
+                66950,
+                66952
+            ]
+        },
+        "x66952": {
+            "level": 15,
+            "year": "2014",
+            "cNext": [
+                66953
+            ],
+            "cExclude": [
+                66950,
+                66951
+            ]
+        },
+        "x66953": {
+            "level": 15,
+            "year": "2014",
+            "cPrevAny": true,
+            "cPrev": [
+                66950,
+                66951,
+                66952
+            ],
+            "cNext": [
+                66954
+            ]
+        },
+        "x66954": {
+            "level": 15,
+            "year": "2014",
+            "cPrev": [
+                66953
+            ],
+            "cNext": [
+                66955
+            ]
+        },
+        "x66955": {
+            "level": 15,
+            "year": "2014",
+            "cPrev": [
+                66954
+            ],
+            "cNext": [
+                66956
+            ]
+        },
+        "x66956": {
+            "level": 15,
+            "year": "2014",
+            "cPrev": [
+                66955
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.903"
+            ]
+        },
+        "x66092": {
+            "level": 15,
+            "year": "2015",
+            "cNext": [
+                66093
+            ]
+        },
+        "x66093": {
+            "level": 15,
+            "year": "2015",
+            "cPrev": [
+                66092
+            ],
+            "cNext": [
+                66095
+            ]
+        },
+        "x66095": {
+            "level": 15,
+            "year": "2015",
+            "cPrev": [
+                66093
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1131"
+            ]
+        },
+        "x67664": {
+            "level": 15,
+            "year": "2016",
+            "cNext": [
+                67666,
+                67665,
+                67667
+            ]
+        },
+        "x67665": {
+            "level": 15,
+            "year": "2016",
+            "cPrev": [
+                67664
+            ],
+            "cNext": [
+                67668
+            ]
+        },
+        "x67666": {
+            "level": 15,
+            "year": "2016",
+            "cPrev": [
+                67664
+            ],
+            "cNext": [
+                67668
+            ]
+        },
+        "x67667": {
+            "level": 15,
+            "year": "2016",
+            "cPrev": [
+                67664
+            ],
+            "cNext": [
+                67668
+            ]
+        },
+        "x67668": {
+            "level": 15,
+            "year": "2016",
+            "cPrev": [
+                67665,
+                67666,
+                67667
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1490"
+            ]
+        },
+        "x67957": {
+            "level": 15,
+            "year": "2017",
+            "cNext": [
+                67958
+            ]
+        },
+        "x67958": {
+            "level": 15,
+            "year": "2017",
+            "cPrev": [
+                67957
+            ],
+            "cNext": [
+                67959
+            ]
+        },
+        "x67959": {
+            "level": 15,
+            "year": "2017",
+            "cPrev": [
+                67958
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1683"
+            ]
+        },
+        "x68615": {
+            "level": 15,
+            "year": "2018",
+            "cNext": [
+                68616
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2020"
+            ]
+        },
+        "x68616": {
+            "level": 15,
+            "year": "2018",
+            "cPrev": [
+                68615
+            ]
+        },
+        "x68738": {
+            "level": 15,
+            "year": "2019",
+            "cNext": [
+                68739
+            ]
+        },
+        "x68739": {
+            "level": 15,
+            "year": "2019",
+            "cPrev": [
+                68738
+            ],
+            "cNext": [
+                68740
+            ]
+        },
+        "x68740": {
+            "level": 15,
+            "year": "2019",
+            "cPrev": [
+                68739
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2239"
+            ]
+        },
+        "x69382": {
+            "level": 15,
+            "year": "2020",
+            "cNext": [
+                69383
+            ]
+        },
+        "x69383": {
+            "level": 15,
+            "year": "2020",
+            "cPrev": [
+                69382
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2602"
+            ]
+        },
+        "x69625": {
+            "level": 15,
+            "year": "2021",
+            "cNext": [
+                69626
+            ]
+        },
+        "x69626": {
+            "level": 15,
+            "year": "2021",
+            "cPrev": [
+                69625
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2854"
+            ]
+        }
+    }
+}

@@ -1,0 +1,56 @@
+$header-height: 65px;
+
+.search-data-container {
+    margin-right: 20px;
+    height: 100%;
+    width: 100%;
+
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: $header-height;
+    }
+
+    // Allow columns to resize, but not too much
+    .results ::ng-deep {
+        height: calc(100% - #{$header-height});
+        overflow-y: auto;
+
+        th {
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        .p-rowgroup-header td {
+            padding: 0;
+
+            &:first-child {
+                width: 30px;
+            }
+
+            // the expand toggle button
+            .p-button.p-button-text {
+                margin-left: calc(50% - 1rem);
+                height: 2rem;
+                width: 2rem;
+            }
+        }
+    }
+
+    .result-row td {
+        &:first-child {
+            user-select: none;
+            text-align: center;
+
+            &.Y, &.N, &.X {
+                color: var(--primary-color-text);
+            }
+
+            &.Y { background-color: var(--completed); }
+            &.N { background-color: var(--incomplete); }
+            &.X { background-color: var(--excluded); }
+        }
+    }
+}

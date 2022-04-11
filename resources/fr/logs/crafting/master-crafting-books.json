@@ -2,398 +2,438 @@
     "groupName": "Livres d'artisanat expert",
     "headers": {
         "name": "Book",
-        "npc": "NPC",
+        "purchase": "Purchase",
         "requirements": "Requirements"
     },
     "tasks": {
         "x0": {
             "name": "Menuiserie experte I",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Madrier d'épicéa durci (HQ)"
         },
         "x1": {
             "name": "Menuiserie experte II",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Épicéa contreplaqué (HQ)"
         },
         "x2": {
             "name": "Menuiserie experte III",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x3": {
             "name": "Menuiserie experte IV",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x4": {
             "name": "Menuiserie V",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "300 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x5": {
             "name": "Menuiserie VI",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x6": {
             "name": "Menuiserie VII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "300 Assignats jaune d'artisan"
         },
         "x7": {
             "name": "Menuiserie VIII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
+            "requirements": "400 Assignats jaune d'artisan"
+        },
+        "x78": {
+            "name": "Menuiserie IX",
+            "purchase": "Comptable des assignats",
             "requirements": "1200 Assignats jaune d'artisan"
         },
         "x8": {
             "name": "Menuiserie experte : demi-matérias",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Demi-matéria de l'artifice I & Demi-matéria de l'art militaire I"
         },
         "x9": {
             "name": "Menuiserie experte : mirages",
-            "npc": "Tataroga: Mor Dhona (x22, y6)",
+            "purchase": "Tataroga: Mor Dhona (x22, y6)",
             "requirements": "300 gils"
         },
         "x10": {
             "name": "Métallurgie I",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Lingot de sombracier (HQ)"
         },
         "x11": {
             "name": "Métallurgie II",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Crochet de sombracier équilibré (HQ)"
         },
         "x12": {
             "name": "Métallurgie III",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x13": {
             "name": "Métallurgie IV",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x14": {
             "name": "Métallurgie V",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "300 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x15": {
             "name": "Métallurgie VI",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x16": {
             "name": "Métallurgie VII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "300 Assignats jaune d'artisan"
         },
         "x17": {
             "name": "Métallurgie VIII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
+            "requirements": "400 Assignats jaune d'artisan"
+        },
+        "x79": {
+            "name": "Métallurgie IX",
+            "purchase": "Comptable des assignats",
             "requirements": "1200 Assignats jaune d'artisan"
         },
         "x18": {
             "name": "Métallurgie: Demimateria",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Demi-matéria de l'artifice I & Demi-matéria de l'art militaire I"
         },
         "x19": {
             "name": "Métallurgie: Glamours",
-            "npc": "Tataroga: Mor Dhona (x22, y6)",
+            "purchase": "Tataroga: Mor Dhona (x22, y6)",
             "requirements": "300 gils"
         },
         "x20": {
             "name": "Armurerie I",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Lingot de sombracier (HQ)"
         },
         "x21": {
             "name": "Armurerie II",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Fil de sombracier renforcé (HQ)"
         },
         "x22": {
             "name": "Armurerie III",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x23": {
             "name": "Armurerie IV",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x24": {
             "name": "Armurerie V",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "300 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x25": {
             "name": "Armurerie VI",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x26": {
             "name": "Armurerie VII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "300 Assignats jaune d'artisan"
         },
         "x27": {
             "name": "Armurerie VIII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
+            "requirements": "400 Assignats jaune d'artisan"
+        },
+        "x80": {
+            "name": "Armurerie IX",
+            "purchase": "Comptable des assignats",
             "requirements": "1200 Assignats jaune d'artisan"
         },
         "x28": {
             "name": "Armurerie: Demimateria",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Demi-matéria de l'artifice I & Demi-matéria de l'art militaire I"
         },
         "x29": {
             "name": "Armurerie: Glamours",
-            "npc": "Tataroga: Mor Dhona (x22, y6)",
+            "purchase": "Tataroga: Mor Dhona (x22, y6)",
             "requirements": "300 gils"
         },
         "x30": {
             "name": "Orfèvrerie I",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Lingot d'or rose (HQ)"
         },
         "x31": {
             "name": "Orfèvrerie II",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Engrenage en or rose renforcé (HQ)"
         },
         "x32": {
             "name": "Orfèvrerie III",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x33": {
             "name": "Orfèvrerie IV",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x34": {
             "name": "Orfèvrerie V",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "300 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x35": {
             "name": "Orfèvrerie VI",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x36": {
             "name": "Orfèvrerie VII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "300 Assignats jaune d'artisan"
         },
         "x37": {
             "name": "Orfèvrerie VIII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
+            "requirements": "400 Assignats jaune d'artisan"
+        },
+        "x81": {
+            "name": "Orfèvrerie IX",
+            "purchase": "Comptable des assignats",
             "requirements": "1200 Assignats jaune d'artisan"
         },
         "x38": {
             "name": "Orfèvrerie: Demimateria",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Demi-matéria de l'artifice I & Demi-matéria de l'art militaire I"
         },
         "x39": {
             "name": "Orfèvrerie: Glamours",
-            "npc": "Tataroga: Mor Dhona (x22, y6)",
+            "purchase": "Tataroga: Mor Dhona (x22, y6)",
             "requirements": "300 gils"
         },
         "x40": {
             "name": "Tannerie I",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Cuir d'hippogriffe assoupli (HQ)"
         },
         "x41": {
             "name": "Tannerie II",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Lanière en cuir d'hippogriffe bouilli (HQ)"
         },
         "x42": {
             "name": "Tannerie III",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x43": {
             "name": "Tannerie IV",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x44": {
             "name": "Tannerie V",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "300 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x45": {
             "name": "Tannerie VI",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x46": {
             "name": "Tannerie VII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "300 Assignats jaune d'artisan"
         },
         "x47": {
             "name": "Tannerie VIII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
+            "requirements": "400 Assignats jaune d'artisan"
+        },
+        "x82": {
+            "name": "Tannerie IX",
+            "purchase": "Comptable des assignats",
             "requirements": "1200 Assignats jaune d'artisan"
         },
         "x48": {
             "name": "Tannerie: Demimateria",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Demi-matéria de l'artifice I & Demi-matéria de l'art militaire I"
         },
         "x49": {
             "name": "Tannerie: Glamours",
-            "npc": "Tataroga: Mor Dhona (x22, y6)",
+            "purchase": "Tataroga: Mor Dhona (x22, y6)",
             "requirements": "300 gils"
         },
         "x50": {
             "name": "Couture I",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Étoffe de soie vanya (HQ)"
         },
         "x51": {
             "name": "Couture II",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Brocart fin en argent (HQ)"
         },
         "x52": {
             "name": "Couture III",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x53": {
             "name": "Couture IV",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x54": {
             "name": "Couture V",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "300 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x55": {
             "name": "Couture VI",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x56": {
             "name": "Couture VII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "300 Assignats jaune d'artisan"
         },
         "x57": {
             "name": "Couture VIII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
+            "requirements": "400 Assignats jaune d'artisan"
+        },
+        "x83": {
+            "name": "Couture IX",
+            "purchase": "Comptable des assignats",
             "requirements": "1200 Assignats jaune d'artisan"
         },
         "x58": {
             "name": "Couture: Demimateria",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Demi-matéria de l'artifice I & Demi-matéria de l'art militaire I"
         },
         "x59": {
             "name": "Couture: Glamours",
-            "npc": "Tataroga: Mor Dhona (x22, y6)",
+            "purchase": "Tataroga: Mor Dhona (x22, y6)",
             "requirements": "300 gils"
         },
         "x60": {
             "name": "Alchimie I",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Formule de croissance delta concentrée (HQ)"
         },
         "x61": {
             "name": "Alchimie II",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Esprit de sel concentré (HQ)"
         },
         "x62": {
             "name": "Alchimie III",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x63": {
             "name": "Alchimie IV",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x64": {
             "name": "Alchimie V",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "300 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x65": {
             "name": "Alchimie VI",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x66": {
             "name": "Alchimie VII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "300 Assignats jaune d'artisan"
         },
         "x67": {
             "name": "Alchimie VIII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
+            "requirements": "400 Assignats jaune d'artisan"
+        },
+        "x84": {
+            "name": "Alchimie IX",
+            "purchase": "Comptable des assignats",
             "requirements": "1200 Assignats jaune d'artisan"
         },
         "x68": {
             "name": "Alchimie: Demimateria",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Demi-matéria de l'artifice I & Demi-matéria de l'art militaire I"
         },
         "x69": {
             "name": "Alchimie: Glamours",
-            "npc": "Tataroga: Mor Dhona (x22, y6)",
+            "purchase": "Tataroga: Mor Dhona (x22, y6)",
             "requirements": "300 gils"
         },
         "x70": {
             "name": "Cuisine I",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Coeurl au vin (HQ)"
         },
         "x71": {
             "name": "Cuisine II",
-            "npc": "Talan: Mor Dhona (x21, y6)",
+            "purchase": "Talan: Mor Dhona (x21, y6)",
             "requirements": "Condiment piquant à la tomate (HQ)"
         },
         "x72": {
             "name": "Cuisine III",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x73": {
             "name": "Cuisine IV",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
             "requirements": "100 Assignats jaune d'artisan"
         },
         "x74": {
             "name": "Cuisine V",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "300 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x75": {
             "name": "Cuisine VI",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "100 Assignats jaune d'artisan"
         },
         "x76": {
             "name": "Cuisine VII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
-            "requirements": "400 Assignats jaune d'artisan"
+            "purchase": "Comptable des assignats",
+            "requirements": "300 Assignats jaune d'artisan"
         },
         "x77": {
             "name": "Cuisine VIII",
-            "npc": "Comptable des assignats: Eulmore (x11, y10)",
+            "purchase": "Comptable des assignats",
+            "requirements": "400 Assignats jaune d'artisan"
+        },
+        "x85": {
+            "name": "Cuisine IX",
+            "purchase": "Comptable des assignats",
             "requirements": "1200 Assignats jaune d'artisan"
         }
     }

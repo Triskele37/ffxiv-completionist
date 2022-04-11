@@ -1,0 +1,135 @@
+<div class="setting">
+    <label>{{'MAIN.SETTING.THEME.PRESETS.TITLE' | translate}}</label>
+    <div class="p-buttonset">
+        <p-button
+            [label]="'MAIN.SETTING.THEME.PRESETS.DEFAULT' | translate"
+            (onClick)="useDefaultTheme()"
+        ></p-button>
+
+        <p-button
+            [label]="'MAIN.SETTING.THEME.PRESETS.DARK' | translate"
+            (onClick)="useDarkTheme()"
+        ></p-button>
+
+        <p-button
+            [label]="'MAIN.SETTING.THEME.PRESETS.LIGHT' | translate"
+            (onClick)="useLightTheme()"
+        ></p-button>
+
+        <p-button
+            [label]="'MAIN.SETTING.THEME.PRESETS.CLASSIC' | translate"
+            (onClick)="useClassicTheme()"
+        ></p-button>
+    </div>
+</div>
+
+<div class="setting">
+    <label>{{'MAIN.SETTING.THEME.FONT' | translate}}</label>
+    <input
+        pInputText
+        [(ngModel)]="svcTheme.fontFamily"
+        (change)="svcTheme.setFontFamily(svcTheme.fontFamily)"
+    />
+</div>
+
+<div class="setting-line">
+    <label>{{'MAIN.SETTING.THEME.PRIMARY_COLOR' | translate}}</label>
+
+    <p-colorPicker
+        [(ngModel)]="svcTheme.primaryColor"
+        (onChange)="svcTheme.setPrimaryColor(svcTheme.primaryColor)"
+    ></p-colorPicker>
+
+    <p-colorPicker
+        [(ngModel)]="svcTheme.primaryTextColor"
+        (onChange)="svcTheme.setPrimaryTextColor(svcTheme.primaryTextColor)"
+    ></p-colorPicker>
+
+    <label>{{'MAIN.SETTING.THEME.PRIMARY_TEXT' | translate}}</label>
+</div>
+
+<div class="setting-line">
+    <label>{{'MAIN.SETTING.THEME.BACKGROUND' | translate}}</label>
+
+    <p-colorPicker
+        format="hsb"
+        [(ngModel)]="svcTheme.backgroundColor"
+        (onChange)="svcTheme.setBackgroundColor(svcTheme.backgroundColor)"
+    ></p-colorPicker>
+
+    <p-colorPicker
+        format="rgb"
+        [(ngModel)]="svcTheme.textColor"
+        (onChange)="svcTheme.setTextColor(svcTheme.textColor)"
+    ></p-colorPicker>
+
+    <label>{{'MAIN.SETTING.THEME.TEXT_COLOR' | translate}}</label>
+</div>
+
+<div class="completion-line">
+    <label>{{'MAIN.SETTING.THEME.COMPLETION' | translate}}</label>
+
+    <div class="settings">
+        <div class="gradient-steps">
+            <ng-container *ngFor="let gradientStep of gradients">
+                <div
+                    class="gradient-step"
+                    [style.background-color]="gradientStep"
+                ></div>
+            </ng-container>
+        </div>
+
+        <div class="color-pickers">
+            <span>
+                <i class="i-incomplete"></i>
+                <p-colorPicker
+                    format="rgb"
+                    [(ngModel)]="svcTheme.incompleteColor"
+                    (onChange)="setIncompleteColor()"
+                ></p-colorPicker>
+                <p-button
+                    icon="mi mi-restart-alt"
+                    (onClick)="resetIncompleteColor()"
+                ></p-button>
+            </span>
+
+            <span>
+                <p-colorPicker
+                    format="rgb"
+                    [(ngModel)]="svcTheme.partialCompleteColor"
+                    (onChange)="setPartialCompleteColor()"
+                ></p-colorPicker>
+                <p-button
+                    icon="mi mi-restart-alt"
+                    (onClick)="resetPartialCompleteColor()"
+                ></p-button>
+            </span>
+
+            <span>
+                <i class="i-complete"></i>
+                <p-colorPicker
+                    format="rgb"
+                    [(ngModel)]="svcTheme.completeColor"
+                    (onChange)="setCompleteColor()"
+                ></p-colorPicker>
+                <p-button
+                    icon="mi mi-restart-alt"
+                    (onClick)="resetCompleteColor()"
+                ></p-button>
+            </span>
+
+            <span>
+                <i class="i-exclude"></i>
+                <p-colorPicker
+                    format="rgb"
+                    [(ngModel)]="svcTheme.excludedColor"
+                    (onChange)="svcTheme.setExcludedColor(svcTheme.excludedColor)"
+                ></p-colorPicker>
+                <p-button
+                    icon="mi mi-restart-alt"
+                    (onClick)="resetExcludedColor()"
+                ></p-button>
+            </span>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,206 @@
+{
+    "key": "hildibrand",
+    "tasks": {
+        "x66740": {
+            "level": 50,
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.side-story.delivery-moogle.65776",
+                66741
+            ]
+        },
+        "x66741": {
+            "level": 50,
+            "cPrev": [
+                66740
+            ],
+            "cNext": [
+                66742
+            ]
+        },
+        "x66742": {
+            "level": 50,
+            "cPrev": [
+                66741
+            ],
+            "cNext": [
+                66743
+            ]
+        },
+        "x66743": {
+            "level": 50,
+            "cPrev": [
+                66742
+            ],
+            "cNext": [
+                66851
+            ]
+        },
+        "x66851": {
+            "level": 50,
+            "cPrev": [
+                66743
+            ],
+            "cNext": [
+                66852
+            ]
+        },
+        "x66852": {
+            "level": 50,
+            "cPrev": [
+                66851
+            ],
+            "cNext": [
+                66853
+            ],
+            "cSiblings": [
+                "social.emotes.special.104"
+            ]
+        },
+        "x66853": {
+            "level": 50,
+            "cPrev": [
+                66852
+            ],
+            "cNext": [
+                66854
+            ]
+        },
+        "x66854": {
+            "level": 50,
+            "unlock": "duty.dutyraid-finder.trials.arr.8",
+            "cPrev": [
+                66853
+            ],
+            "cNext": [
+                66974
+            ]
+        },
+        "x66974": {
+            "level": 50,
+            "cPrev": [
+                66854
+            ],
+            "cNext": [
+                66975
+            ]
+        },
+        "x66975": {
+            "level": 50,
+            "cPrev": [
+                66974
+            ],
+            "cNext": [
+                66976
+            ]
+        },
+        "x66976": {
+            "level": 50,
+            "cPrev": [
+                66975
+            ],
+            "cNext": [
+                66977
+            ]
+        },
+        "x66977": {
+            "level": 50,
+            "cPrev": [
+                66976
+            ],
+            "cNext": [
+                65702
+            ]
+        },
+        "x65702": {
+            "level": 50,
+            "cPrev": [
+                66977
+            ],
+            "cNext": [
+                65738
+            ]
+        },
+        "x65738": {
+            "level": 50,
+            "cPrev": [
+                65702
+            ],
+            "cNext": [
+                65739
+            ]
+        },
+        "x65739": {
+            "level": 50,
+            "cPrev": [
+                65738
+            ],
+            "cNext": [
+                65740
+            ]
+        },
+        "x65740": {
+            "level": 50,
+            "unlock": "duty.dutyraid-finder.trials.arr.9",
+            "cPrev": [
+                65739
+            ],
+            "cNext": [
+                66026
+            ]
+        },
+        "x66026": {
+            "level": 50,
+            "cPrev": [
+                65740
+            ],
+            "cNext": [
+                66027
+            ]
+        },
+        "x66027": {
+            "level": 50,
+            "cPrev": [
+                66026
+            ],
+            "cNext": [
+                66028
+            ]
+        },
+        "x66028": {
+            "level": 50,
+            "cPrev": [
+                66027
+            ],
+            "cNext": [
+                66029
+            ]
+        },
+        "x66029": {
+            "level": 50,
+            "cPrev": [
+                66028
+            ],
+            "cNext": [
+                66038
+            ]
+        },
+        "x66038": {
+            "level": 50,
+            "unlock": "duty.dutyraid-finder.trials.arr.10",
+            "cPrev": [
+                66029
+            ],
+            "cNext": [
+                "duty.quests.sidequests.side-story.further-hildibrand-adventures.67762",
+                "duty.quests.sidequests.side-story.scholasticate.67688"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1061",
+                "social.emotes.special.114"
+            ]
+        }
+    }
+}

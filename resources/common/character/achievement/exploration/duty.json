@@ -500,10 +500,11 @@
         },
         "x1432": {
             "points": 20,
+            "reward": "character.character.title.278",
             "patch": "3.1",
             "defaultCompletion": "X",
             "cSiblings": [
-                "t.278"
+                "character.character.title.278"
             ]
         },
         "x1734": {
@@ -576,9 +577,10 @@
         },
         "x2231": {
             "points": 10,
+            "reward": "character.character.title.416",
             "patch": "4.55",
             "cSiblings": [
-                "t.416"
+                "character.character.title.416"
             ]
         },
         "x2242": {
@@ -596,25 +598,74 @@
         "x2671": {
             "points": 10,
             "patch": "5.35",
-            "cCombo": [2886],
-            "cPrev": ["fr.0-19"]
+            "cCombo": [
+                2886
+            ],
+            "cPrev": [
+                "duty.collection.field-record.0-19"
+            ]
         },
         "x2761": {
             "points": 10,
             "patch": "5.45",
-            "cCombo": [2886],
-            "cPrev": ["fr.20-29"]
+            "cCombo": [
+                2886
+            ],
+            "cPrev": [
+                "duty.collection.field-record.20-29"
+            ]
         },
         "x2885": {
             "points": 10,
             "patch": "5.55",
-            "cCombo": [2886],
-            "cPrev": ["fr.30-49"]
+            "cCombo": [
+                2886
+            ],
+            "cPrev": [
+                "duty.collection.field-record.30-49"
+            ]
         },
         "x2886": {
             "points": 20,
+            "reward": "character.mount-guide.199",
             "patch": "5.55",
-            "cPrev": [2671, 2761, 2885]
+            "cPrev": [
+                2671,
+                2761,
+                2885
+            ]
+        },
+        "x2980": {
+            "points": 10,
+            "patch": "6.0"
+        },
+        "x2981": {
+            "points": 10,
+            "patch": "6.0"
+        },
+        "x2982": {
+            "points": 10,
+            "patch": "6.0"
+        },
+        "x2983": {
+            "points": 10,
+            "patch": "6.0"
+        },
+        "x2984": {
+            "points": 10,
+            "patch": "6.0"
+        },
+        "x2985": {
+            "points": 10,
+            "patch": "6.0"
+        },
+        "x2986": {
+            "points": 10,
+            "patch": "6.0"
+        },
+        "x2987": {
+            "points": 10,
+            "patch": "6.0"
         }
     }
 }

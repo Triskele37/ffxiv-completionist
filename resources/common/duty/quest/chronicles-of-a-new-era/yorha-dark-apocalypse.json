@@ -4,7 +4,7 @@
         "x69207": {
             "level": 70,
             "cPrev": [
-                69173
+                "duty.quests.main-scenario.shadowbringers.69173"
             ],
             "cNext": [
                 69253
@@ -13,7 +13,7 @@
         "x69253": {
             "level": 80,
             "cPrev": [
-                69190,
+                "duty.quests.main-scenario.shadowbringers.69190",
                 69207
             ],
             "cNext": [
@@ -22,6 +22,7 @@
         },
         "x69254": {
             "level": 80,
+            "unlock": "duty.dutyraid-finder.raids.shb.9",
             "cPrev": [
                 69253
             ],
@@ -68,7 +69,8 @@
             "cNext": [
                 69321
             ],
-            "cPrevAny": [
+            "cPrevAny": true,
+            "cPrev": [
                 69256,
                 69257
             ]
@@ -93,6 +95,7 @@
         },
         "x69489": {
             "level": 80,
+            "unlock": "duty.dutyraid-finder.raids.shb.18",
             "cPrev": [
                 69488
             ],
@@ -129,6 +132,7 @@
         },
         "x69571": {
             "level": 80,
+            "unlock": "duty.dutyraid-finder.raids.shb.27",
             "cPrev": [
                 69570
             ],
@@ -152,7 +156,7 @@
             ],
             "cNext": [
                 69586,
-                69580
+                "duty.quests.other.quasi-quests.69580"
             ]
         },
         "x69586": {
@@ -164,21 +168,23 @@
         "x69587": {
             "level": 80,
             "cPrev": [
-                69581
+                "duty.quests.other.quasi-quests.69581"
             ]
         },
         "x69588": {
             "level": 80,
             "cPrev": [
-                69583
+                "duty.quests.other.quasi-quests.69583"
             ]
         },
         "x69589": {
             "level": 80,
             "cPrev": [
-                69585
+                "duty.quests.other.quasi-quests.69585"
             ],
-            "cSiblings": ["a.2852"]
+            "cSiblings": [
+                "character.achievement.quests.quests.2852"
+            ]
         }
     }
 }

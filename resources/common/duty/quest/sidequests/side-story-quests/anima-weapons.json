@@ -4,7 +4,7 @@
         "x67747": {
             "level": 60,
             "cPrev": [
-                67205
+                "duty.quests.main-scenario.heavensward.67205"
             ],
             "cNext": [
                 67748
@@ -36,7 +36,9 @@
             "cNext": [
                 67820
             ],
-            "cSiblings": ["a.1394"]
+            "cSiblings": [
+                "character.achievement.quests.quests.1394"
+            ]
         },
         "x67820": {
             "level": 60,
@@ -54,7 +56,7 @@
             ],
             "cNext": [
                 67915,
-                67870
+                "duty.quests.other.quasi-quests.67870"
             ]
         },
         "x67915": {

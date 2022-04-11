@@ -1,0 +1,83 @@
+{
+    "key": "lancer",
+    "tasks": {
+        "x65668": {
+            "level": 1,
+            "cPrev": [
+                "duty.quests.other.quasi-quests.65716"
+            ],
+            "cNext": [
+                65754,
+                65679
+            ]
+        },
+        "x65754": {
+            "level": 1,
+            "cPrev": [
+                65668
+            ],
+            "cNext": [
+                65583
+            ]
+        },
+        "x65583": {
+            "level": 5,
+            "cPrev": [
+                65754
+            ],
+            "cNext": [
+                65679
+            ]
+        },
+        "x65679": {
+            "level": 10,
+            "cPrev": [
+                65583,
+                65668
+            ],
+            "cNext": [
+                65591
+            ]
+        },
+        "x65591": {
+            "level": 15,
+            "cPrev": [
+                65679
+            ],
+            "cNext": [
+                65592
+            ]
+        },
+        "x65592": {
+            "level": 20,
+            "cPrev": [
+                65591
+            ],
+            "cNext": [
+                65974
+            ]
+        },
+        "x65974": {
+            "level": 25,
+            "cPrev": [
+                65592
+            ],
+            "cNext": [
+                65975
+            ]
+        },
+        "x65975": {
+            "level": 30,
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war-job.dragoon.66603"
+            ],
+            "cPrev": [
+                65974
+            ],
+            "cCombo": [
+                "character.achievement.quests.quests.313",
+                "character.achievement.quests.quests.314"
+            ]
+        }
+    }
+}

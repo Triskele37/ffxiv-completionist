@@ -1,71 +1,50 @@
 {
     "key": "the-lochs",
-    "cCombo": ["a.1872"],
+    "cCombo": [
+        "character.achievement.character.general.1872"
+    ],
     "tasks": {
         "x0": {
-            "name": "1",
-            "coordinates": "X: 34.9   Y: 31.6   Z: 0.8"
+            "location": "(35.1, 31.9, 0.7)"
         },
         "x1": {
-            "name": "2",
-            "coordinates": "X: 29.5   Y: 22.8   Z: 1.1"
+            "location": "(26.7, 22.8, 0.8)"
         },
         "x2": {
-            "name": "3",
-            "coordinates": "X: 23.6   Y: 37.2   Z: 0.4"
-        },
-        "x3": {
-            "name": "4",
-            "coordinates": "X: 13.3   Y: 36.2   Z: 2.0"
-        },
-        "x4": {
-            "name": "5",
-            "coordinates": "X: 18.0   Y: 30.9   Z: 0.3"
-        },
-        "x5": {
-            "name": "6",
-            "coordinates": "X: 22.5   Y: 16.3   Z: 0.0"
-        },
-        "x6": {
-            "name": "7",
-            "coordinates": "X: 34.9   Y:   7.2   Z: 1.1"
+            "location": "(23.6, 37.2, 0.4)"
         },
         "x7": {
-            "name": "8",
-            "coordinates": "X: 14.3   Y: 21.7   Z: 0.2"
-        },
-        "x8": {
-            "name": "9",
-            "coordinates": "X: 15.0   Y: 12.3   Z: 0.5"
-        },
-        "x9": {
-            "name": "10",
-            "coordinates": "X:   8.6   Y: 15.6   Z: 0.6"
+            "location": "(13.8, 21.8, 0.1)"
         },
         "x10": {
-            "name": "11",
-            "coordinates": "X: 10.6   Y: 22.5   Z: 0.0",
-            "cSiblings": ["q.68419"]
+            "quest": "duty.quests.sidequests.gyr-abanian.the-lochs.68419",
+            "cSiblings": [
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68419"
+            ]
         },
         "x11": {
-            "name": "12",
-            "coordinates": "X:   8.2   Y: 20.5   Z: 0.5",
-            "cSiblings": ["q.68417"]
+            "quest": "duty.quests.sidequests.gyr-abanian.the-lochs.68417",
+            "cSiblings": [
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68417"
+            ]
         },
         "x12": {
-            "name": "13",
-            "coordinates": "X: 10.9   Y: 21.0   Z: 0.1",
-            "cSiblings": ["q.68416"]
+            "quest": "duty.quests.sidequests.gyr-abanian.the-lochs.68416",
+            "cSiblings": [
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68416"
+            ]
         },
         "x13": {
-            "name": "14",
-            "coordinates": "X: 11.3   Y: 20.6   Z: 0.1",
-            "cSiblings": ["q.68413"]
+            "quest": "duty.quests.sidequests.gyr-abanian.the-lochs.68413",
+            "cSiblings": [
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68413"
+            ]
         },
         "x14": {
-            "name": "15",
-            "coordinates": "X: 32.6   Y: 22.9   Z: 1.6",
-            "cSiblings": ["q.68089"]
+            "quest": "duty.quests.main-scenario.stormblood.68089",
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68089"
+            ]
         }
     }
 }

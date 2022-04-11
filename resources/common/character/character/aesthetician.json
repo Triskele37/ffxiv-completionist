@@ -1,5 +1,13 @@
 {
     "key": "aesthetician",
+    "headers": {
+        "gender": {
+            "filterable": true
+        },
+        "source": {
+            "link": true
+        }
+    },
     "tasks": {
         "x0": {
             "patch": "3.1"
@@ -32,6 +40,7 @@
             "patch": "5.0"
         },
         "x8": {
+            "source": "duty.dutyraid-finder.deep-dungeon.1",
             "patch": "4.35"
         },
         "x9": {
@@ -66,6 +75,7 @@
             "patch": "5.31"
         },
         "x18": {
+            "source": "duty.dutyraid-finder.deep-dungeon.0",
             "patch": "3.4"
         },
         "x28": {
@@ -101,8 +111,8 @@
             "patch": "2.38",
             "defaultCompletion": "X"
         },
-        "x27": {
-            "patch": "2.38",
+        "x31": {
+            "patch": "6.0",
             "defaultCompletion": "X"
         }
     }

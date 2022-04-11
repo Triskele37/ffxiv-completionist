@@ -3,40 +3,46 @@
     "tasks": {
         "x67355": {
             "level": 54,
+            "unlock": "travel.aether-currents.hw.the-churning-mists.10",
             "cPrev": [
-                67156
+                "duty.quests.main-scenario.heavensward.67156"
             ],
-            "cSiblings": ["travel.aether-currents.hw.the-churning-mists.10"]
+            "cSiblings": [
+                "travel.aether-currents.hw.the-churning-mists.10"
+            ]
         },
         "x67356": {
             "level": 54,
             "cPrev": [
-                67157
+                "duty.quests.main-scenario.heavensward.67157"
             ]
         },
         "x67358": {
             "level": 54,
             "cPrev": [
-                67158
+                "duty.quests.main-scenario.heavensward.67158"
             ]
         },
         "x67359": {
             "level": 54,
+            "unlock": "travel.aether-currents.hw.the-churning-mists.12",
             "cPrev": [
-                67160
+                "duty.quests.main-scenario.heavensward.67160"
             ],
-            "cSiblings": ["travel.aether-currents.hw.the-churning-mists.12"]
+            "cSiblings": [
+                "travel.aether-currents.hw.the-churning-mists.12"
+            ]
         },
         "x67366": {
             "level": 54,
             "cPrev": [
-                67164
+                "duty.quests.main-scenario.heavensward.67164"
             ]
         },
         "x67361": {
             "level": 54,
             "cPrev": [
-                67161
+                "duty.quests.main-scenario.heavensward.67161"
             ],
             "cNext": [
                 67369,
@@ -46,56 +52,62 @@
         "x67362": {
             "level": 54,
             "cPrev": [
-                67161
+                "duty.quests.main-scenario.heavensward.67161"
             ]
         },
         "x67363": {
             "level": 54,
             "cPrev": [
-                67161
+                "duty.quests.main-scenario.heavensward.67161"
             ]
         },
         "x67369": {
             "level": 54,
             "cPrev": [
-                67164,
+                "duty.quests.main-scenario.heavensward.67164",
                 67361
             ]
         },
         "x67370": {
             "level": 54,
             "cPrev": [
-                67164
+                "duty.quests.main-scenario.heavensward.67164"
             ]
         },
         "x67364": {
             "level": 54,
+            "unlock": "travel.aether-currents.hw.the-churning-mists.13",
             "cPrev": [
-                67164
+                "duty.quests.main-scenario.heavensward.67164"
             ],
             "cNext": [
                 67365
             ],
-            "cSiblings": ["travel.aether-currents.hw.the-churning-mists.13"]
+            "cSiblings": [
+                "travel.aether-currents.hw.the-churning-mists.13"
+            ]
         },
         "x67365": {
             "level": 54,
             "cPrev": [
-                67164,
+                "duty.quests.main-scenario.heavensward.67164",
                 67364
             ]
         },
         "x67371": {
             "level": 54,
+            "unlock": "travel.aether-currents.hw.the-churning-mists.11",
             "cPrev": [
-                67163
+                "duty.quests.main-scenario.heavensward.67163"
             ],
-            "cSiblings": ["travel.aether-currents.hw.the-churning-mists.11"]
+            "cSiblings": [
+                "travel.aether-currents.hw.the-churning-mists.11"
+            ]
         },
         "x67357": {
             "level": 54,
             "cPrev": [
-                67159
+                "duty.quests.main-scenario.heavensward.67159"
             ],
             "cNext": [
                 67360
@@ -104,7 +116,7 @@
         "x67360": {
             "level": 54,
             "cPrev": [
-                67159,
+                "duty.quests.main-scenario.heavensward.67159",
                 67357
             ],
             "cNext": [
@@ -114,7 +126,7 @@
         "x67367": {
             "level": 54,
             "cPrev": [
-                67163,
+                "duty.quests.main-scenario.heavensward.67163",
                 67360
             ],
             "cNext": [
@@ -124,18 +136,18 @@
         "x67368": {
             "level": 54,
             "cPrev": [
-                67163,
+                "duty.quests.main-scenario.heavensward.67163",
                 67367
             ],
             "cNext": [
                 67399,
-                67508
+                "duty.quests.sidequests.ishgardian.ishgard.67508"
             ]
         },
         "x67372": {
             "level": 55,
             "cPrev": [
-                67171
+                "duty.quests.main-scenario.heavensward.67171"
             ],
             "cNext": [
                 67374
@@ -144,13 +156,13 @@
         "x67373": {
             "level": 55,
             "cPrev": [
-                67171
+                "duty.quests.main-scenario.heavensward.67171"
             ]
         },
         "x67374": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67372
             ],
             "cNext": [
@@ -160,7 +172,7 @@
         "x67375": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67374
             ],
             "cNext": [
@@ -170,26 +182,26 @@
         "x67376": {
             "level": 55,
             "cPrev": [
-                67171
+                "duty.quests.main-scenario.heavensward.67171"
             ]
         },
         "x67396": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67375
             ]
         },
         "x67377": {
             "level": 55,
             "cPrev": [
-                67171
+                "duty.quests.main-scenario.heavensward.67171"
             ]
         },
         "x67378": {
             "level": 55,
             "cPrev": [
-                67171
+                "duty.quests.main-scenario.heavensward.67171"
             ],
             "cNext": [
                 67380
@@ -198,7 +210,7 @@
         "x67379": {
             "level": 55,
             "cPrev": [
-                67171
+                "duty.quests.main-scenario.heavensward.67171"
             ],
             "cNext": [
                 67380
@@ -207,7 +219,7 @@
         "x67380": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67378,
                 67379
             ]
@@ -215,14 +227,14 @@
         "x67383": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67361
             ]
         },
         "x67384": {
             "level": 55,
             "cPrev": [
-                67171
+                "duty.quests.main-scenario.heavensward.67171"
             ],
             "cNext": [
                 67385
@@ -231,14 +243,14 @@
         "x67385": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67384
             ]
         },
         "x67382": {
             "level": 55,
             "cPrev": [
-                67171
+                "duty.quests.main-scenario.heavensward.67171"
             ],
             "cNext": [
                 67381
@@ -247,7 +259,7 @@
         "x67381": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67382
             ],
             "cNext": [
@@ -257,7 +269,7 @@
         "x67386": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67381
             ],
             "cNext": [
@@ -269,7 +281,7 @@
         "x67387": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67386
             ],
             "cNext": [
@@ -279,7 +291,7 @@
         "x67388": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67386
             ],
             "cNext": [
@@ -289,7 +301,7 @@
         "x67389": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67386
             ],
             "cNext": [
@@ -310,19 +322,19 @@
         "x67395": {
             "level": 55,
             "cPrev": [
-                67171
+                "duty.quests.main-scenario.heavensward.67171"
             ]
         },
         "x67397": {
             "level": 55,
             "cPrev": [
-                67171
+                "duty.quests.main-scenario.heavensward.67171"
             ]
         },
         "x67391": {
             "level": 55,
             "cPrev": [
-                67171
+                "duty.quests.main-scenario.heavensward.67171"
             ],
             "cNext": [
                 67392
@@ -331,7 +343,7 @@
         "x67392": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67391
             ],
             "cNext": [
@@ -341,7 +353,7 @@
         "x67393": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67392
             ],
             "cNext": [
@@ -351,20 +363,20 @@
         "x67394": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67393
             ]
         },
         "x67398": {
             "level": 55,
             "cPrev": [
-                67171
+                "duty.quests.main-scenario.heavensward.67171"
             ]
         },
         "x67399": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67368
             ],
             "cNext": [
@@ -374,7 +386,7 @@
         "x67400": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67399
             ],
             "cNext": [
@@ -384,7 +396,7 @@
         "x67401": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67400
             ],
             "cNext": [
@@ -395,7 +407,7 @@
         "x67402": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67401
             ],
             "cNext": [
@@ -405,7 +417,7 @@
         "x67403": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67401
             ],
             "cNext": [
@@ -415,20 +427,20 @@
         "x67404": {
             "level": 55,
             "cPrev": [
-                67171,
+                "duty.quests.main-scenario.heavensward.67171",
                 67402,
                 67403
             ],
             "cNext": [
-                67408
+                "duty.quests.sidequests.ishgardian.ishgard.67408"
             ]
         },
         "x67411": {
             "level": 56,
             "cPrev": [
-                67173,
+                "duty.quests.main-scenario.heavensward.67173",
                 67390,
-                67408
+                "duty.quests.sidequests.ishgardian.ishgard.67408"
             ],
             "cNext": [
                 67412
@@ -437,7 +449,7 @@
         "x67412": {
             "level": 56,
             "cPrev": [
-                67173,
+                "duty.quests.main-scenario.heavensward.67173",
                 67411
             ],
             "cNext": [
@@ -447,15 +459,15 @@
         "x67413": {
             "level": 56,
             "cPrev": [
-                67173,
+                "duty.quests.main-scenario.heavensward.67173",
                 67412
             ]
         },
         "x67414": {
             "level": 56,
             "cPrev": [
-                67173,
-                67408
+                "duty.quests.main-scenario.heavensward.67173",
+                "duty.quests.sidequests.ishgardian.ishgard.67408"
             ],
             "cNext": [
                 67417
@@ -464,7 +476,7 @@
         "x67417": {
             "level": 56,
             "cPrev": [
-                67173,
+                "duty.quests.main-scenario.heavensward.67173",
                 67414
             ],
             "cNext": [
@@ -474,7 +486,7 @@
         "x67418": {
             "level": 56,
             "cPrev": [
-                67173,
+                "duty.quests.main-scenario.heavensward.67173",
                 67417
             ],
             "cNext": [
@@ -484,7 +496,7 @@
         "x67415": {
             "level": 56,
             "cPrev": [
-                67173,
+                "duty.quests.main-scenario.heavensward.67173",
                 67418
             ],
             "cNext": [
@@ -494,7 +506,7 @@
         "x67419": {
             "level": 56,
             "cPrev": [
-                67173,
+                "duty.quests.main-scenario.heavensward.67173",
                 67415
             ],
             "cNext": [
@@ -504,7 +516,7 @@
         "x67420": {
             "level": 56,
             "cPrev": [
-                67173,
+                "duty.quests.main-scenario.heavensward.67173",
                 67419
             ],
             "cNext": [
@@ -514,7 +526,7 @@
         "x67416": {
             "level": 56,
             "cPrev": [
-                67173,
+                "duty.quests.main-scenario.heavensward.67173",
                 67420
             ],
             "cNext": [
@@ -524,28 +536,28 @@
         "x67407": {
             "level": 56,
             "cPrev": [
-                67173,
+                "duty.quests.main-scenario.heavensward.67173",
                 67416
             ],
             "cNext": [
-                67856
+                "duty.quests.beast-tribe.moogle.67856"
             ]
         },
         "x67509": {
             "level": 59,
             "cPrev": [
-                67197,
-                67508
+                "duty.quests.main-scenario.heavensward.67197",
+                "duty.quests.sidequests.ishgardian.ishgard.67508"
             ],
             "cNext": [
-                67510
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67510"
             ]
         },
         "x67514": {
             "level": 59,
             "cPrev": [
-                67197,
-                67513
+                "duty.quests.main-scenario.heavensward.67197",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67513"
             ]
         }
     }

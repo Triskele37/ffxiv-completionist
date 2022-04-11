@@ -1,0 +1,23 @@
+<ng-container
+    *ngTemplateOutlet="task.selected ? textArea : staticValue"
+></ng-container>
+
+<ng-template #textArea>
+    <span class="edit-cell">
+        <textarea
+            #editInput
+            pInputTextarea
+            class="noSelect"
+            rows="1"
+            [value]="task[key]"
+            (change)="onTextAreaChange($event)"
+            (keyup)="onTextAreaKeyup($event)"
+        ></textarea>
+    </span>
+</ng-template>
+
+<ng-template #staticValue>
+    <div (click)="onCellClick()">
+        {{task[key]}}
+    </div>
+</ng-template>

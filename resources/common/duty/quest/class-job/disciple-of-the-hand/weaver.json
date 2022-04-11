@@ -1,0 +1,205 @@
+{
+    "key": "weaver",
+    "tasks": {
+        "x66070": {
+            "level": 1,
+            "cPrev": [
+                "duty.quests.other.quasi-quests.65725"
+            ],
+            "cNext": [
+                66071
+            ]
+        },
+        "x66071": {
+            "level": 1,
+            "cPrev": [
+                66070
+            ],
+            "cNext": [
+                66123
+            ]
+        },
+        "x66123": {
+            "level": 5,
+            "cPrev": [
+                66071
+            ],
+            "cNext": [
+                66125
+            ]
+        },
+        "x66125": {
+            "level": 10,
+            "cPrev": [
+                66123
+            ],
+            "cNext": [
+                66126
+            ]
+        },
+        "x66126": {
+            "level": 15,
+            "cPrev": [
+                66125
+            ],
+            "cNext": [
+                66127
+            ]
+        },
+        "x66127": {
+            "level": 20,
+            "cPrev": [
+                66126
+            ],
+            "cNext": [
+                66128
+            ]
+        },
+        "x66128": {
+            "level": 25,
+            "cPrev": [
+                66127
+            ],
+            "cNext": [
+                66129
+            ]
+        },
+        "x66129": {
+            "level": 30,
+            "cPrev": [
+                66128
+            ],
+            "cNext": [
+                66187
+            ],
+            "cCombo": [
+                "character.achievement.quests.quests.316"
+            ]
+        },
+        "x66187": {
+            "level": 35,
+            "cPrev": [
+                66129
+            ],
+            "cNext": [
+                66188
+            ]
+        },
+        "x66188": {
+            "level": 40,
+            "cPrev": [
+                66187
+            ],
+            "cNext": [
+                66189
+            ]
+        },
+        "x66189": {
+            "level": 45,
+            "cPrev": [
+                66188
+            ],
+            "cNext": [
+                66190
+            ]
+        },
+        "x66190": {
+            "level": 50,
+            "cPrev": [
+                66189
+            ],
+            "cNext": [
+                67538
+            ]
+        },
+        "x67538": {
+            "level": 50,
+            "cPrev": [
+                66190,
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                67539
+            ]
+        },
+        "x67539": {
+            "level": 53,
+            "cPrev": [
+                67538
+            ],
+            "cNext": [
+                67540
+            ]
+        },
+        "x67540": {
+            "level": 55,
+            "cPrev": [
+                67539
+            ],
+            "cNext": [
+                67541
+            ]
+        },
+        "x67541": {
+            "level": 58,
+            "cPrev": [
+                67540
+            ],
+            "cNext": [
+                67542
+            ]
+        },
+        "x67542": {
+            "level": 60,
+            "cPrev": [
+                67541
+            ],
+            "cNext": [
+                67967
+            ]
+        },
+        "x67967": {
+            "level": 60,
+            "cPrev": [
+                67542,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                67968
+            ]
+        },
+        "x67968": {
+            "level": 63,
+            "cPrev": [
+                67967
+            ],
+            "cNext": [
+                67969
+            ]
+        },
+        "x67969": {
+            "level": 65,
+            "cPrev": [
+                67968
+            ],
+            "cNext": [
+                67970
+            ]
+        },
+        "x67970": {
+            "level": 68,
+            "cPrev": [
+                67969
+            ],
+            "cNext": [
+                67971
+            ]
+        },
+        "x67971": {
+            "level": 70,
+            "cPrev": [
+                67970
+            ]
+        }
+    }
+}

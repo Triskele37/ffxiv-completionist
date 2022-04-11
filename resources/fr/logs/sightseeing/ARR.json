@@ -1,10 +1,18 @@
 {
     "groupName": "ARR",
+    "headers": {
+        "vista": "#",
+        "name": "Name",
+        "zone": "Zone",
+        "location": "Location",
+        "weather": "Weather",
+        "time": "Time",
+        "emote": "Emote"
+    },
     "tasks": {
         "x0": {
             "name": "Quais du barracuda",
             "zone": "Limsa Lominsa - Le Tillac",
-            "location": "Le Bismark (9,7)",
             "weather": "Dégagé/Clair",
             "time": "8h-12h",
             "emote": "Scruter"
@@ -12,7 +20,6 @@
         "x1": {
             "name": "Astalicia",
             "zone": "Limsa Lominsa - L'Entrepont",
-            "location": "Astalicia (7,15)",
             "weather": "Dégagé/Clair",
             "time": "18h-5h",
             "emote": "Scruter"
@@ -20,7 +27,6 @@
         "x2": {
             "name": "Stèle du chant marin",
             "zone": "Noscea centrale",
-            "location": "Estival (20,19)",
             "weather": "Pluie/Pluie torrentielle",
             "time": "5h-8h",
             "emote": "Prier"
@@ -28,7 +34,6 @@
         "x3": {
             "name": "Ascenciel",
             "zone": "Noscea centrale",
-            "location": "Le Coude de Trois-Malms (16,17)",
             "weather": "Dégagé/Clair",
             "time": "12h-17h",
             "emote": "Scruter"
@@ -36,7 +41,6 @@
         "x4": {
             "name": "Route orientale de la Thagran",
             "zone": "Noscea centrale",
-            "location": "Dérive du Zéphyr (25,27)",
             "weather": "Couvert",
             "time": "8h-12h",
             "emote": "Scruter"
@@ -44,7 +48,6 @@
         "x5": {
             "name": "Atolls de sel",
             "zone": "Basse-Noscea",
-            "location": "La Poigne des Dieux (23,40)",
             "weather": "Dégagé/Clair",
             "time": "18h-1h",
             "emote": "Scruter"
@@ -52,7 +55,6 @@
         "x6": {
             "name": "Métairie du Coq rouge",
             "zone": "Basse-Noscea",
-            "location": "La Cédrière (33,19)",
             "weather": "Brouillard",
             "time": "5h-8h",
             "emote": "Scruter"
@@ -60,7 +62,6 @@
         "x7": {
             "name": "Phare des Brasseurs",
             "zone": "Noscea occidentale",
-            "location": "Vallée du Crâne (29,30)",
             "weather": "Dégagé/Clair",
             "time": "5h-8h",
             "emote": "Scruter"
@@ -68,7 +69,6 @@
         "x8": {
             "name": "Guilde des tanneurs",
             "zone": "Vieille Gridania",
-            "location": "Guilde des tanneurs (12,8)",
             "weather": "Couvert",
             "time": "12h-17h",
             "emote": "Scruter"
@@ -76,7 +76,6 @@
         "x9": {
             "name": "Chutes de l'Apkallu",
             "zone": "Vieille Gridania",
-            "location": "Chutes de l'Apkallu (10,6)",
             "weather": "Dégagé/Clair",
             "time": "18h-5h",
             "emote": "Scruter"
@@ -84,7 +83,6 @@
         "x10": {
             "name": "Ranch de Brancharquée",
             "zone": "Forêt centrale",
-            "location": "Brancharquée (21,21)",
             "weather": "Dégagé/Clair",
             "time": "12h-16h",
             "emote": "S'asseoir"
@@ -92,7 +90,6 @@
         "x11": {
             "name": "Sanctuaire des Douze",
             "zone": "Forêt de l'est",
-            "location": "Massif de ronces (17,18)",
             "weather": "Dégagé/Clair",
             "time": "8h-12h",
             "emote": "Prier"
@@ -100,7 +97,6 @@
         "x12": {
             "name": "Le Refuge",
             "zone": "Forêt de l'est",
-            "location": "Neuf-Lierres (22,26)",
             "weather": "Dégagé/Clair",
             "time": "18h-5h",
             "emote": "Scruter"
@@ -108,7 +104,6 @@
         "x13": {
             "name": "Promenade royale",
             "zone": "Ul'dah - Faubourg de Thal",
-            "location": "District politique (11,11)",
             "weather": "Dégagé/Clair",
             "time": "5h-8h",
             "emote": "Scruter"
@@ -116,7 +111,6 @@
         "x14": {
             "name": "Cour dorée",
             "zone": "Ul'dah - Faubourg de Thal",
-            "location": "Cour dorée (11,11)",
             "weather": "Couvert",
             "time": "12h-17h",
             "emote": "Scruter"
@@ -124,7 +118,6 @@
         "x15": {
             "name": "Ul'dah",
             "zone": "Thanalan occidental",
-            "location": "Confins d'Horizon (22,22)",
             "weather": "Dégagé/Clair",
             "time": "18h-2h",
             "emote": "Scruter"
@@ -132,7 +125,6 @@
         "x16": {
             "name": "Vestiges de Sil'dih",
             "zone": "Thanalan central",
-            "location": "Roncenoire (15,22)",
             "weather": "Brouillard",
             "time": "8h-12h",
             "emote": "Scruter"
@@ -140,7 +132,6 @@
         "x17": {
             "name": "Le géant solitaire",
             "zone": "Thanalan oriental",
-            "location": "Les Os desséchés (19,24)",
             "weather": "Pluie/Pluie torrentielle",
             "time": "17h-18h",
             "emote": "Consoler"
@@ -148,7 +139,6 @@
         "x18": {
             "name": "La Cité invisible",
             "zone": "Thanalan oriental",
-            "location": "Les Os desséchés (14,18)",
             "weather": "Couvert",
             "time": "8h-12h",
             "emote": "Scruter"
@@ -156,7 +146,6 @@
         "x19": {
             "name": "Le Viaduc",
             "zone": "Thanalan oriental",
-            "location": "Bois du Renouveau (21,20)",
             "weather": "Dégagé/Clair",
             "time": "5h-8h",
             "emote": "Prier"
@@ -164,7 +153,6 @@
         "x20": {
             "name": "Canyon des Chuchotements",
             "zone": "Noscea centrale",
-            "location": "Le Coude de Trois-Malms (19,13)",
             "weather": "Dégagé/Clair",
             "time": "12h-16h",
             "emote": "Scruter"
@@ -172,7 +160,6 @@
         "x21": {
             "name": "Vergers d'Estival",
             "zone": "Noscea centrale",
-            "location": "Estival (25,17)",
             "weather": "Dégagé/Clair",
             "time": "5h-7h",
             "emote": "Scruter"
@@ -180,7 +167,6 @@
         "x22": {
             "name": "Flotte grise",
             "zone": "Basse-Noscea",
-            "location": "La Cédrière (31,12)",
             "weather": "Pluie/Pluie torrentielle",
             "time": "12h-16h",
             "emote": "Scruter"
@@ -188,7 +174,6 @@
         "x23": {
             "name": "Chute cachée",
             "zone": "Noscea orientale",
-            "location": "Rives sanglantes (32,23)",
             "weather": "Dégagé/Clair",
             "time": "8h-12h",
             "emote": "S'asseoir"
@@ -196,7 +181,6 @@
         "x24": {
             "name": "Tour de la Mouette",
             "zone": "Noscea orientale",
-            "location": "Rives sanglantes (29,33)",
             "weather": "Pluie/Pluie torrentielle",
             "time": "18h-4h",
             "emote": "Scruter"
@@ -204,7 +188,6 @@
         "x25": {
             "name": "Statue de Llymlaen",
             "zone": "Noscea occidentale",
-            "location": "Vallée du Crâne (26,26)",
             "weather": "Dégagé/Clair",
             "time": "17h-18h",
             "emote": "Prier"
@@ -212,7 +195,6 @@
         "x26": {
             "name": "Cimetière de bateaux",
             "zone": "Noscea occidentale",
-            "location": "Îles d'Ombra (17,36)",
             "weather": "Vents violents",
             "time": "18h-5h",
             "emote": "Scruter"
@@ -220,7 +202,6 @@
         "x27": {
             "name": "Camp de la vallée du Crâne",
             "zone": "Noscea occidentale",
-            "location": "Vallée du Crâne (22,22)",
             "weather": "Dégagé/Clair",
             "time": "8h-12h",
             "emote": "Scruter"
@@ -228,7 +209,6 @@
         "x28": {
             "name": "Barrages du nord et du sud",
             "zone": "Noscea occidentale",
-            "location": "Vallée du Crâne (19,23)",
             "weather": "Dégagé/Clair",
             "time": "12h-17h",
             "emote": "Scruter"
@@ -236,7 +216,6 @@
         "x29": {
             "name": "Camp du lac d'Airain",
             "zone": "Haute-Noscea",
-            "location": "Lac d'Airain (30,22)",
             "weather": "Dégagé/Clair",
             "time": "17h-18h",
             "emote": "Scruter"
@@ -244,7 +223,6 @@
         "x30": {
             "name": "Thalaos",
             "zone": "Haute-Noscea",
-            "location": "La Chênaie (12,22)",
             "weather": "Dégagé/Clair",
             "time": "12h-17h",
             "emote": "Scruter"
@@ -252,7 +230,6 @@
         "x31": {
             "name": "Comptoir de Jijiroon",
             "zone": "Haute-Noscea",
-            "location": "Lac d'Airain (29,25)",
             "weather": "Orages violents",
             "time": "18h-5h",
             "emote": "Scruter"
@@ -260,7 +237,6 @@
         "x32": {
             "name": "Cité flottante de Nym",
             "zone": "Noscea extérieure",
-            "location": "L'Ascension (12,15)",
             "weather": "Dégagé/Clair",
             "time": "18h-5h",
             "emote": "Scruter"
@@ -268,7 +244,6 @@
         "x33": {
             "name": "Camp du Guet",
             "zone": "Noscea extérieure",
-            "location": "L'Ascension (17,16)",
             "weather": "Couvert",
             "time": "5h-8h",
             "emote": "Scruter"
@@ -276,7 +251,6 @@
         "x34": {
             "name": "Mines d'U'Ghamaro",
             "zone": "Noscea extérieure",
-            "location": "Lac de Fer (23,11)",
             "weather": "Dégagé/Clair",
             "time": "12h-17h",
             "emote": "Scruter"
@@ -284,7 +258,6 @@
         "x35": {
             "name": "Masure de l'ermite",
             "zone": "Noscea extérieure",
-            "location": "L'Ascension (15,9)",
             "weather": "Pluie/Pluie torrentielle",
             "time": "18h-5h",
             "emote": "S'asseoir"
@@ -292,7 +265,6 @@
         "x36": {
             "name": "Don de Figaga",
             "zone": "Nouvelle Gridania",
-            "location": "Porte du Blaireau bleu (14,14)",
             "weather": "Dégagé/Clair",
             "time": "8h-12h",
             "emote": "Scruter"
@@ -300,7 +272,6 @@
         "x37": {
             "name": "Guilde des maîtres d'hast",
             "zone": "Vieille Gridania",
-            "location": "Caserne des Vigiles (14,5)",
             "weather": "Pluie/Pluie torrentielle",
             "time": "5h-8h",
             "emote": "Scruter"
@@ -308,7 +279,6 @@
         "x38": {
             "name": "Le Bannock",
             "zone": "Forêt centrale",
-            "location": "Berges de Jade (23,19)",
             "weather": "Pluie/Pluie torrentielle",
             "time": "5h-8h",
             "emote": "Scruter"
@@ -316,7 +286,6 @@
         "x39": {
             "name": "Manoir des Haukke",
             "zone": "Forêt centrale",
-            "location": "Havre des Renouées (13,23)",
             "weather": "Dégagé/Clair",
             "time": "18h-5h",
             "emote": "Scruter"
@@ -324,7 +293,6 @@
         "x40": {
             "name": "Arbre gardien",
             "zone": "Forêt centrale",
-            "location": "Havre des Renouées (16,22)",
             "weather": "Dégagé/Clair",
             "time": "12h-17h",
             "emote": "Scruter"
@@ -332,7 +300,6 @@
         "x41": {
             "name": "Cascade de l'arc-en-ciel",
             "zone": "Forêt centrale",
-            "location": "Berges de Jade (26,18)",
             "weather": "Dégagé/Clair",
             "time": "11h-13h",
             "emote": "Scruter"
@@ -340,7 +307,6 @@
         "x42": {
             "name": "Le Berceau",
             "zone": "Forêt de l'est",
-            "location": "Terres sylphes (20,10)",
             "weather": "Orages",
             "time": "18h-8h",
             "emote": "Scruter"
@@ -348,7 +314,6 @@
         "x43": {
             "name": "Au Choix de Buscarron",
             "zone": "Forêt du sud",
-            "location": "Hauts-Chemins (17,20)",
             "weather": "Orages violents",
             "time": "8h-12h",
             "emote": "Scruter"
@@ -356,7 +321,6 @@
         "x44": {
             "name": "Aérodrome de la Forêt du sud",
             "zone": "Forêt du sud",
-            "location": "Bas-Chemins (14,33)",
             "weather": "Dégagé/Clair",
             "time": "8h-12h",
             "emote": "Scruter"
@@ -364,7 +328,6 @@
         "x45": {
             "name": "Le Don d'Urth",
             "zone": "Forêt du sud",
-            "location": "Le Don d'Urth (33,23)",
             "weather": "Brouillard",
             "time": "12-17h",
             "emote": "Scruter"
@@ -372,7 +335,6 @@
         "x46": {
             "name": "Moulin de la Carrirère",
             "zone": "Forêt du sud",
-            "location": "Charmille silencieuse (25,21)",
             "weather": "Dégagé/Clair",
             "time": "5h-8h",
             "emote": "Scruter"
@@ -380,7 +342,6 @@
         "x47": {
             "name": "Site de déboisement ixal",
             "zone": "Forêt du nord",
-            "location": "La Fierté (18,19)",
             "weather": "Dégagé/Clair",
             "time": "12h-5h",
             "emote": "Scruter"
@@ -388,7 +349,6 @@
         "x48": {
             "name": "Ombrage du Météore",
             "zone": "Forêt du nord",
-            "location": "Sources de l'Aulne (16,31)",
             "weather": "Dégagé/Clair",
             "time": "18h-5h",
             "emote": "Scruter"
@@ -396,7 +356,6 @@
         "x49": {
             "name": "Sources de l'Aulne",
             "zone": "Forêt du nord",
-            "location": "Sources de l'Aulne (15,27)",
             "weather": "Couvert",
             "time": "8h-12h",
             "emote": "Scruter"
@@ -404,7 +363,6 @@
         "x50": {
             "name": "Castrum Marinum",
             "zone": "Thanalan occidental",
-            "location": "Cap Vendouest (8,5)",
             "weather": "Dégagé/Clair",
             "time": "17h-18h",
             "emote": "Scruter"
@@ -412,7 +370,6 @@
         "x51": {
             "name": "Baie des Vêpres",
             "zone": "Thanalan occidental",
-            "location": "Vallée des Pas perdus (12,14)",
             "weather": "Dégagé/Clair",
             "time": "12h-17h",
             "emote": "Montrer"
@@ -420,7 +377,6 @@
         "x52": {
             "name": "Gare de Roncenoire",
             "zone": "Thanalan central",
-            "location": "Roncenoire (21,17)",
             "weather": "Tempêtes de poussière",
             "time": "18h-5h",
             "emote": "Scruter"
@@ -428,7 +384,6 @@
         "x53": {
             "name": "Porte de Nald",
             "zone": "Thanalan central",
-            "location": "Bassin des Désépinés (18,26)",
             "weather": "Dégagé/Clair",
             "time": "12h-17h",
             "emote": "S'asseoir"
@@ -436,7 +391,6 @@
         "x54": {
             "name": "Le Mur Incandescent",
             "zone": "Thanalan oriental",
-            "location": "Mur incandescent (30,26)",
             "weather": "Dégagé/Clair",
             "time": "12h-17h",
             "emote": "Scruter"
@@ -444,7 +398,6 @@
         "x55": {
             "name": "Bazar doré",
             "zone": "Thanalan oriental",
-            "location": "Les Os desséchés (10,16)",
             "weather": "Dégagé/Clair",
             "time": "8h-12h",
             "emote": "Scruter"
@@ -452,7 +405,6 @@
         "x56": {
             "name": "Sursis de Thal",
             "zone": "Thanalan oriental",
-            "location": "Bois du Renouveau (25,14)",
             "weather": "Pluie/Pluie torrentielle",
             "time": "18h-5h",
             "emote": "Prier"
@@ -460,7 +412,6 @@
         "x57": {
             "name": "Thébaïde de Nald",
             "zone": "Thanalan méridional",
-            "location": "Labyrinthe rouge (12,22)",
             "weather": "Brouillard",
             "time": "5h-8h",
             "emote": "Prier"
@@ -468,7 +419,6 @@
         "x58": {
             "name": "Zahar'ak",
             "zone": "Thanalan méridional",
-            "location": "Zanr'ak (19,20)",
             "weather": "Dégagé/Clair",
             "time": "5h-8h",
             "emote": "Scruter"
@@ -476,7 +426,6 @@
         "x59": {
             "name": "Foreuse de Byregot",
             "zone": "Thanalan méridional",
-            "location": "Désert de Sagolii (21,38)",
             "weather": "Torride",
             "time": "12h-17h",
             "emote": "Scruter"
@@ -484,7 +433,6 @@
         "x60": {
             "name": "Temple enseveli de Qarn",
             "zone": "Thanalan méridional",
-            "location": "Eaux-Mortes (23,11)",
             "weather": "Dégagé/Clair",
             "time": "12h-17h",
             "emote": "Scruter"
@@ -492,7 +440,6 @@
         "x61": {
             "name": "Malm du Minotaure",
             "zone": "Thanalan méridional",
-            "location": "Désert de Sagolii (14,26)",
             "weather": "Torride",
             "time": "5h-8h",
             "emote": "Se motiver"
@@ -500,7 +447,6 @@
         "x62": {
             "name": "Tour de guet est",
             "zone": "Thanalan septentrional",
-            "location": "Brumebleue (22,25)",
             "weather": "Dégagé/Clair",
             "time": "5h-8h",
             "emote": "Saluer"
@@ -508,7 +454,6 @@
         "x63": {
             "name": "Céruléoducs",
             "zone": "Thanalan septentrional",
-            "location": "Brumebleue (20,29)",
             "weather": "Dégagé/Clair",
             "time": "18h-5h",
             "emote": "Scruter"
@@ -516,7 +461,6 @@
         "x64": {
             "name": "Brumebleue",
             "zone": "Thanalan septentrional",
-            "location": "Brumebleue (20,22)",
             "weather": "Dégagé/Clair",
             "time": "12h-17h",
             "emote": "Scruter"
@@ -524,7 +468,6 @@
         "x65": {
             "name": "La Poussée de Raubahn",
             "zone": "Thanalan septentrional",
-            "location": "Brumebleue (20,17)",
             "weather": "Couvert",
             "time": "8h-12h",
             "emote": "Scruter"
@@ -532,7 +475,6 @@
         "x66": {
             "name": "Mine de mithril abandonnée",
             "zone": "Thanalan septentrional",
-            "location": "Brumebleue (26,22)",
             "weather": "Brouillard",
             "time": "18h-5h",
             "emote": "Scruter"
@@ -540,7 +482,6 @@
         "x67": {
             "name": "L'Épée",
             "zone": "Hautes terres du Coerthas central",
-            "location": "Tête du dragon (25,29)",
             "weather": "Dégagé/Clair",
             "time": "17h-18h",
             "emote": "Scruter"
@@ -548,7 +489,6 @@
         "x68": {
             "name": "Observatoire",
             "zone": "Hautes terres du Coerthas central",
-            "location": "Tête du dragon (25,29)",
             "weather": "Brouillard",
             "time": "18h-5h",
             "emote": "Scruter"
@@ -556,7 +496,6 @@
         "x69": {
             "name": "Cadavre de dragon",
             "zone": "Hautes terres du Coerthas central",
-            "location": "L'Arête blanche (11,15)",
             "weather": "Blizzard",
             "time": "8h-12h",
             "emote": "Scruter"
@@ -564,7 +503,6 @@
         "x70": {
             "name": "Sainte Cité d'Ishgard",
             "zone": "Hautes terres du Coerthas central",
-            "location": "L'Arête blanche (12,17)",
             "weather": "Dégagé/Clair",
             "time": "5h-8h",
             "emote": "Scruter"
@@ -572,7 +510,6 @@
         "x71": {
             "name": "Coteaux rocheux",
             "zone": "Hautes terres du Coerthas central",
-            "location": "Coteaux rocheux (7,28)",
             "weather": "Dégagé/Clair",
             "time": "17h-18h",
             "emote": "Scruter"
@@ -580,7 +517,6 @@
         "x72": {
             "name": "L'Œil de la Conquérante",
             "zone": "Hautes terres du Coerthas central",
-            "location": "Coteaux rocheux (7,31)",
             "weather": "Blizzard",
             "time": "18h-5h",
             "emote": "Scruter"
@@ -588,7 +524,6 @@
         "x73": {
             "name": "Manteneige",
             "zone": "Hautes terres du Coerthas central",
-            "location": "L'Arête blanche (2,21)",
             "weather": "Dégagé/Clair",
             "time": "8h-12h",
             "emote": "Scruter"
@@ -596,7 +531,6 @@
         "x74": {
             "name": "Camp de la Tête du dragon",
             "zone": "Hautes terres du Coerthas central",
-            "location": "Tête du dragon (26,17)",
             "weather": "Dégagé/Clair",
             "time": "12h-17h",
             "emote": "Scruter"
@@ -604,7 +538,6 @@
         "x75": {
             "name": "Vigile d'Acier",
             "zone": "Hautes terres du Coerthas central",
-            "location": "Providence (28,10)",
             "weather": "Dégagé/Clair",
             "time": "5h-8h",
             "emote": "Scruter"
@@ -612,7 +545,6 @@
         "x76": {
             "name": "Castrum Centri",
             "zone": "Mor Dhona",
-            "location": "Fangebrume (9,13)",
             "weather": "Nébuleux",
             "time": "12h-17h",
             "emote": "Scruter"
@@ -620,7 +552,6 @@
         "x77": {
             "name": "Tour de Cristal",
             "zone": "Mor Dhona",
-            "location": "Rive nord de Pleurargent (27,8)",
             "weather": "Dégagé/Clair",
             "time": "18h-5h",
             "emote": "Scruter"
@@ -628,7 +559,6 @@
         "x78": {
             "name": "Hâtegel",
             "zone": "Mor Dhona",
-            "location": "Fangebrume (18,17)",
             "weather": "Dégagé/Clair",
             "time": "12h-17h",
             "emote": "Scruter"
@@ -636,7 +566,6 @@
         "x79": {
             "name": "Gardien du lac",
             "zone": "Mor Dhona",
-            "location": "Rive nord de Pleurargent (26,11)",
             "weather": "Dégagé/Clair",
             "time": "17h-18h",
             "emote": "S'asseoir"

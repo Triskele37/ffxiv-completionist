@@ -4,7 +4,7 @@
         "x67245": {
             "level": 50,
             "cPrev": [
-                66060
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
             ],
             "cNext": [
                 66736
@@ -30,6 +30,7 @@
         },
         "x66738": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.raids.arr.17",
             "cPrev": [
                 66737
             ],
@@ -48,6 +49,7 @@
         },
         "x67010": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.raids.arr.18",
             "cPrev": [
                 66739
             ],
@@ -57,6 +59,7 @@
         },
         "x66030": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.raids.arr.19",
             "cPrev": [
                 67010
             ],
@@ -72,7 +75,9 @@
             "cNext": [
                 66033
             ],
-            "cSiblings": ["a.1060"]
+            "cSiblings": [
+                "character.achievement.quests.quests.1060"
+            ]
         },
         "x66033": {
             "level": 50,

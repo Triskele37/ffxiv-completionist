@@ -1,0 +1,57 @@
+
+.p-carousel .p-carousel-content .p-carousel-prev,
+.p-carousel .p-carousel-content .p-carousel-next {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: var(--text-color-secondary);
+    border: 0 none;
+    background: transparent;
+    border-radius: 50%;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+    margin: 0.5rem;
+}
+
+.p-carousel .p-carousel-content .p-carousel-prev:enabled:hover,
+.p-carousel .p-carousel-content .p-carousel-next:enabled:hover {
+    color: var(--text-color-secondary);
+    border-color: transparent;
+    background: rgba(var(--text-color-rgb), 0.04);
+}
+
+.p-carousel .p-carousel-content .p-carousel-prev:focus,
+.p-carousel .p-carousel-content .p-carousel-next:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: none;
+}
+
+.p-carousel .p-carousel-indicators {
+    padding: var(--content-padding);
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator button {
+    background-color: rgba(var(--text-color-rgb), 0.3);
+    width: 2rem;
+    height: 0.5rem;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+    border-radius: 0;
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator button:hover {
+    background: var(--text-color-secondary);
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+    background: rgba(var(--primary-color-rgb), 0.16);
+    color: var(--primary-color);
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+    background: #A5D6A7;
+    color: var(--primary-color-text);
+}

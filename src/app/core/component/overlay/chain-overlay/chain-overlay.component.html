@@ -1,0 +1,97 @@
+<span
+    class="overlay-container"
+    (mouseenter)="onMouseEnter()"
+    (mouseleave)="onMouseLeave()"
+>
+    <p-button
+        styleClass="p-button-outlined"
+        icon="material-icons mi-link"
+        [ngClass]="{ 'do-notify': doNotify }"
+    ></p-button>
+
+    <div *ngIf="isVisible" class="overlay-panel">
+        <!-- Dropdown Content Body with no Data -->
+        <div *ngIf="!chainStart" class="content">
+            <p-button [label]="'OVERLAY.CHAIN.NO_CONTENT' | translate"></p-button>
+        </div>
+
+        <!-- Dropdown Content Body with Data -->
+        <span *ngIf="chainStart" class="content">
+            <!-- Undo Button -->
+            <p-button
+                *ngIf="!chainStart.historyDisabled"
+                class="undo-button"
+                [label]="(!undoVerified ? 'OVERLAY.CHAIN.UNDO' : 'OVERLAY.CHAIN.VERIFY') | translate"
+                (onClick)="onUndoLastChain()"
+            ></p-button>
+
+            <!-- Recent Action Info -->
+            <span class="chain-start">
+                <div class="summary">
+                    <div>{{chainStart.path}}</div>
+                    <div class="task">
+                        <span [ngClass]="[chainStart.fromFlag]">{{chainStart.fromFlag}}</span>
+                        <i class="material-icons mi-arrow-right-alt"></i>
+                        <span [ngClass]="[chainStart.toFlag]">{{chainStart.toFlag}}</span>
+                        <span>&nbsp;"{{chainStart.task.name}}"&nbsp;</span>
+                        {{'OVERLAY.CHAIN.CHAINED' | translate:chainedTaskCount}}
+                    </div>
+                </div>
+                <p-button
+                    styleClass="nav"
+                    icon="material-icons mi-navigate-next"
+                    [pTooltip]="'GENERAL.GROUP_NAVIGATE' | translate"
+                    tooltipPosition="right"
+                    (onClick)="onNavigateToGroup(chainStart)"
+                ></p-button>
+            </span>
+
+            <!-- Chained Groups Scroll Container -->
+            <div class="chain-scroll-container">
+                <ng-container *ngFor="let chainedGroup of chainedGroups">
+                    <!-- Group header button -->
+                    <span class="chain-group">
+                        <p-button
+                            class="path"
+                            icon="pi {{chainedGroup.show ? 'pi-chevron-down' : 'pi-chevron-right'}}"
+                            label="{{chainedGroup.path}} ({{chainedGroup.tasks.length}})"
+                            (onClick)="onToggleShowChainedGroup(chainedGroup)"
+                        ></p-button>
+                        <p-button
+                            class="nav"
+                            icon="material-icons mi-navigate-next"
+                            [pTooltip]="'GENERAL.GROUP_NAVIGATE' | translate"
+                            tooltipPosition="right"
+                            tooltipStyleClass="chain-navigate-tooltip"
+                            (onClick)="onNavigateToGroup(chainedGroup)"
+                        ></p-button>
+                    </span>
+
+                    <!-- Group Content Items -->
+                    <ng-container *ngIf="chainedGroup.show">
+                        <ng-container *ngFor="let chainedTask of chainedGroup.tasks">
+                            <div
+                                *ngIf="chainedTask.task"
+                                class="chained-task"
+                            >
+                                <span [ngClass]="chainedTask.fromFlag">
+                                    {{chainedTask.fromFlag}}
+                                </span>
+                                <i class="material-icons mi-arrow-right-alt"></i>
+                                <span [ngClass]="chainedTask.task.completionFlag">
+                                    {{chainedTask.task.completionFlag}}
+                                </span>
+                                <span class="task-name">
+                                    <xiv-content-link
+                                        [content]="chainedTask.task"
+                                        [nameOnly]="true"
+                                    ></xiv-content-link>
+                                </span>
+                            </div>
+                        </ng-container>
+                    </ng-container>
+                </ng-container>
+            </div>
+        </span>
+    </div>
+</span>
