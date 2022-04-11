@@ -9,15 +9,15 @@
     "tasks": {
         "x0": {
             "name": "Automate 2B",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x1": {
             "name": "Automate 2P",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x392": {
             "name": "Automate 9S",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x2": {
             "name": "Loutre aloha",
@@ -90,10 +90,10 @@
         },
         "x14": {
             "name": "Axolotl",
-            "category": "Exploration",
+            "category": "Servant",
             "source": [
-                "Expédition sous-marine",
-                "Tâche d'exploration du servant"
+                "Exploration en rivage XXII",
+                "Quick Exploration"
             ]
         },
         "x15": {
@@ -132,10 +132,10 @@
         },
         "x22": {
             "name": "Bout-de-cochon",
-            "category": "Exploration",
+            "category": "Servant",
             "source": [
-                "Expédition sous-marine",
-                "Tâche d'exploration du servant"
+                "Woodland Exploration XXV",
+                "Quick Exploration"
             ]
         },
         "x23": {
@@ -178,7 +178,7 @@
         },
         "x30": {
             "name": "Blizzaria",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)"
         },
         "x31": {
@@ -192,16 +192,20 @@
         },
         "x32": {
             "name": "Bunbuku",
-            "category": "Exploration",
-            "source": "Tâche d'exploration du servant"
+            "category": "Servant",
+            "source": [
+                "Field Exploration XX",
+                "Field Exploration XXII",
+                "Quick Exploration"
+            ]
         },
         "x33": {
             "name": "Poisson-bombo",
             "category": "Donjon"
         },
         "x409": {
-            "name": "Brave New Urianger",
-            "category": "Wondrous Tails",
+            "name": "Nouvel Urianger miniature",
+            "category": "Carnet de Khloe",
             "source": "1 Certificat de mérite d'argent de Khloe"
         },
         "x34": {
@@ -242,7 +246,7 @@
             "category": "Quête"
         },
         "x410": {
-            "name": "Caduceus",
+            "name": "Caducée",
             "category": "Donjon"
         },
         "x42": {
@@ -328,7 +332,7 @@
         },
         "x59": {
             "name": "Bâtisseur n°8",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x60": {
             "name": "Œil du Cirque",
@@ -341,9 +345,9 @@
             "source": "Coffre verrouillé de Pagos - Eurêka: Pagos"
         },
         "x411": {
-            "name": "Crabe de la Crabe",
-            "category": "Venture",
-            "source": "Waterside Exploration XXVI - XXVII"
+            "name": "Crabe du Crabe",
+            "category": "Servant",
+            "source": "Exploration en rivage XXVI - XXVII"
         },
         "x62": {
             "name": "Ultragokin Justice",
@@ -357,7 +361,7 @@
         },
         "x64": {
             "name": "Damona",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x65": {
@@ -383,10 +387,10 @@
         },
         "x68": {
             "name": "Domakin",
-            "category": "Exploration",
+            "category": "Servant",
             "source": [
-                "Expédition sous-marine",
-                "Tâche d'exploration du servant"
+                "Exploration en rivage XXV",
+                "Quick Exploration"
             ]
         },
         "x69": {
@@ -446,7 +450,7 @@
         },
         "x80": {
             "name": "Mini-Éden",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x81": {
             "name": "Chevalier aubergine",
@@ -467,12 +471,12 @@
         },
         "x85": {
             "name": "Gros minou",
-            "category": "Exploration",
-            "source": "Expédition sous-marine"
+            "category": "Servant",
+            "source": "Exploration en rivage XIV - XXV"
         },
         "x86": {
             "name": "Faust articulé",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x87": {
             "name": "Bébé Fenrir",
@@ -480,8 +484,8 @@
             "source": "Feast: obtention aléatoire"
         },
         "x412": {
-            "name": "Flag",
-            "category": "Venture",
+            "name": "Drapo",
+            "category": "Servant",
             "source": "Field Exploration XXVI"
         },
         "x88": {
@@ -527,8 +531,11 @@
         },
         "x96": {
             "name": "Gestahl",
-            "category": "Exploration",
-            "source": "Tâche d'exploration du servant"
+            "category": "Servant",
+            "source": [
+                "Exploration en rivage XVIII",
+                "Exploration en rivage XIX"
+            ]
         },
         "x97": {
             "name": "Ghido",
@@ -554,7 +561,7 @@
             "source": "Le Jardin secret du Lyhe Ghiah"
         },
         "x413": {
-            "name": "Golden Dhyata",
+            "name": "Dhyata dorée",
             "category": "Quête"
         },
         "x102": {
@@ -571,8 +578,8 @@
             "source": "Recette d'Orfèvrier"
         },
         "x414": {
-            "name": "Greener Gleaner",
-            "category": "Venture",
+            "name": "Glaneur vert",
+            "category": "Servant",
             "source": "Woodland Exploration XXVI - XXVII"
         },
         "x105": {
@@ -613,7 +620,7 @@
             "category": "Haut fait"
         },
         "x415": {
-            "name": "Hippo Calf",
+            "name": "Bébé hippo",
             "category": "Donjon"
         },
         "x111": {
@@ -623,7 +630,7 @@
         },
         "x112": {
             "name": "Hovernyan",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x113": {
@@ -651,7 +658,7 @@
         },
         "x118": {
             "name": "Jibanyan",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x119": {
@@ -661,7 +668,7 @@
         },
         "x120": {
             "name": "Bébé koala",
-            "category": "Tâche de servant",
+            "category": "Servant",
             "source": [
                 "Woodland Exploration XXII",
                 "Southern Front Lockbox",
@@ -675,12 +682,12 @@
         },
         "x122": {
             "name": "Komajiro",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x123": {
             "name": "Komasan",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x124": {
@@ -689,7 +696,7 @@
         },
         "x125": {
             "name": "Kyubi",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x126": {
@@ -727,17 +734,17 @@
         },
         "x133": {
             "name": "Petit yéti",
-            "category": "Exploration",
-            "source": "Tâche d'exploration du servant"
+            "category": "Servant",
+            "source": "Woodland Exploration XIV - XVIII"
         },
         "x134": {
             "name": "Lord Ananta",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x135": {
             "name": "Lord Enma",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x136": {
@@ -768,8 +775,11 @@
         },
         "x141": {
             "name": "Mame shiba",
-            "category": "Exploration",
-            "source": "Tâche d'exploration du servant"
+            "category": "Servant",
+            "source": [
+                "Highland Exploration XXII",
+                "Quick Exploration"
+            ]
         },
         "x142": {
             "name": "Pantin P001",
@@ -795,13 +805,13 @@
         },
         "x147": {
             "name": "Corniot",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x148": {
             "name": "Suricate",
             "category": "Expédition",
-            "source": "Expédition sous-marine"
+            "source": "Expédition sous-marine - Coldtoe Isle"
         },
         "x149": {
             "name": "Mini-gigapampa",
@@ -818,8 +828,8 @@
         },
         "x152": {
             "name": "Wagonnet mécanique",
-            "category": "Exploration",
-            "source": "Tâche d'exploration du servant"
+            "category": "Servant",
+            "source": "Highland Exploration XIV"
         },
         "x153": {
             "name": "Mini-cavalier blanc",
@@ -838,9 +848,11 @@
         },
         "x156": {
             "name": "Gentil flagelleur",
-            "category": "Exploration",
+            "category": "Servant",
             "source": [
-                "Tâche d'exploration du servant",
+                "Field Exploration XIII",
+                "Highland Exploration XIII",
+                "Exploration en rivage XIII",
                 "Aquapole"
             ]
         },
@@ -896,12 +908,15 @@
         },
         "x168": {
             "name": "Arme mystique",
-            "category": "Exploration",
-            "source": "Tâche d'exploration du servant"
+            "category": "Servant",
+            "source": [
+                "Field Exploration XXV",
+                "Quick Exploration"
+            ]
         },
         "x416": {
-            "name": "Nagxian Cat",
-            "category": "Purchase",
+            "name": "Chat nagxien",
+            "category": "Achat",
             "source": "800 Insigne de chasse"
         },
         "x169": {
@@ -920,12 +935,12 @@
         },
         "x172": {
             "name": "Noko",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x417": {
             "name": "Nosferatu",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x173": {
             "name": "Écureuil grignoteur",
@@ -937,12 +952,17 @@
         },
         "x174": {
             "name": "Loutre choute",
-            "category": "Exploration",
-            "source": "Tâche d'exploration du servant"
+            "category": "Servant",
+            "source": [
+                "Highland Exploration XIX - XXII",
+                "Woodland Exploration XIX - XXII",
+                "Exploration en rivage XIX - XXII",
+                "Quick Exploration"
+            ]
         },
         "x175": {
             "name": "Mini-Oméga",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x176": {
             "name": "Prince oignon",
@@ -950,7 +970,7 @@
             "source": "Jardinage"
         },
         "x418": {
-            "name": "Optimus Omicron",
+            "name": "Omicron Optimus",
             "category": "Donjon"
         },
         "x177": {
@@ -1022,11 +1042,11 @@
         },
         "x190": {
             "name": "Pod 054",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x191": {
             "name": "Pod 316",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x192": {
             "name": "Poogie",
@@ -1037,7 +1057,7 @@
             "category": "Quête"
         },
         "x419": {
-            "name": "Prince Lunatender",
+            "name": "Prince pampa sélénien",
             "category": "Donjon"
         },
         "x194": {
@@ -1055,7 +1075,7 @@
         },
         "x197": {
             "name": "Nuage noir miniature",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x198": {
             "name": "Majordome citrouille",
@@ -1068,12 +1088,12 @@
         },
         "x200": {
             "name": "Robonyan F-Type",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x420": {
-            "name": "Royal Lunatender",
-            "category": "Treasure Hunt",
+            "name": "Roi pampa sélénien",
+            "category": "Chasse aux trésors",
             "source": "Le Ludodrome"
         },
         "x201": {
@@ -1087,7 +1107,7 @@
         },
         "x203": {
             "name": "Garde-la-Princesse",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x204": {
             "name": "Paonne vermillon",
@@ -1101,7 +1121,7 @@
         },
         "x398": {
             "name": "Señorita Pampa",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Le festival du Gold Saucer (2021)"
         },
         "x206": {
@@ -1124,8 +1144,11 @@
         },
         "x210": {
             "name": "Sous-marin de classe Rémora",
-            "category": "Exploration",
-            "source": "Expédition du sous-marine"
+            "category": "Expédition",
+            "source": [
+                "Expédition sous-marine - The Central Charnel Trench",
+                "Expédition sous-marine - The Southern Charnel Trench"
+            ]
         },
         "x211": {
             "name": "Bec-en-sabot",
@@ -1133,13 +1156,13 @@
         },
         "x212": {
             "name": "Shogunyan",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x213": {
             "name": "Mésange à longue queue",
-            "category": "Exploration",
-            "source": "Expédition du sous-marine"
+            "category": "Expédition",
+            "source": "Expédition du sous-marine - The Open Robe"
         },
         "x214": {
             "name": "Mini-gluant",
@@ -1147,7 +1170,7 @@
         },
         "x399": {
             "name": "Forme de vie mécanique",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x215": {
             "name": "Coquépique",
@@ -1159,12 +1182,12 @@
             "source": "Bonus d'achat: \"Final Fantasy XIV: Heavensward Soundtrack\""
         },
         "x421": {
-            "name": "Squirrel Emperor",
-            "category": "Event",
-            "source": "Starlight Celebration (2021)"
+            "name": "Rissai chimérique",
+            "category": "Événement",
+            "source": "La fête des étoiles (2021)"
         },
         "x422": {
-            "name": "Starbird",
+            "name": "Oiseau stellaire",
             "category": "Donjon"
         },
         "x217": {
@@ -1184,8 +1207,8 @@
         },
         "x220": {
             "name": "Sous-marin aérien de classe Syldra",
-            "category": "Exploration",
-            "source": "Expédition du sous'marin"
+            "category": "Expédition",
+            "source": "Expédition du sous marin - Sea of Jade 4"
         },
         "x221": {
             "name": "Mog dàoshi",
@@ -1199,8 +1222,11 @@
         },
         "x223": {
             "name": "Poupée Tengu",
-            "category": "Exploration",
-            "source": "Tâche d'exploration du servant"
+            "category": "Servant",
+            "source": [
+                "Field Exploration XXII",
+                "Quick Exploration"
+            ]
         },
         "x224": {
             "name": "Grand Serpent des Qitari ?",
@@ -1259,8 +1285,12 @@
         },
         "x235": {
             "name": "Petit tapir",
-            "category": "Exploration",
-            "source": "Tâche d'exploration du servant"
+            "category": "Servant",
+            "source": [
+                "Field Exploration XIV",
+                "Field Exploration XV",
+                "Field Exploration XIX"
+            ]
         },
         "x236": {
             "name": "Hippocampoupon",
@@ -1273,7 +1303,7 @@
             "source": "Récolter par le Pêcheur"
         },
         "x423": {
-            "name": "Tiny Troll",
+            "name": "Petit troll",
             "category": "Donjon"
         },
         "x238": {
@@ -1288,7 +1318,7 @@
         },
         "x240": {
             "name": "Alexander articulé",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x241": {
             "name": "Coffre au trésor mécanique",
@@ -1320,12 +1350,12 @@
         },
         "x246": {
             "name": "Usapyon",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x247": {
             "name": "Octorgone",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x400": {
@@ -1349,13 +1379,13 @@
             "source": "Kupo de la Fortune"
         },
         "x424": {
-            "name": "Wee Ea",
+            "name": "Mini-Éa",
             "category": "ALÉA",
             "source": "500 Gemme Bicolore (Ultima Thulé)"
         },
         "x251": {
             "name": "Whisper",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x252": {
@@ -1405,12 +1435,12 @@
             "source": "Madhura - Castellum Velodyna - 7 Barettes béatifiques ananta"
         },
         "x425": {
-            "name": "Wind-up Anima",
+            "name": "Anima miniature",
             "category": "Donjon"
         },
         "x262": {
             "name": "Ardbert miniature",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "La fête de la Commémoration (2020)"
         },
         "x263": {
@@ -1434,12 +1464,12 @@
         },
         "x267": {
             "name": "Siman mécanique",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Golems hors du Commun"
         },
         "x268": {
             "name": "Poupée Calofisteri",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x269": {
             "name": "Marionnette majorette",
@@ -1471,7 +1501,7 @@
             "source": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits"
         },
         "x426": {
-            "name": "Wind-up Daivadipa",
+            "name": "Daïvadipa miniature",
             "category": "Purchase",
             "source": "5 Orbe sacré de Daivadipa"
         },
@@ -1507,7 +1537,7 @@
         },
         "x281": {
             "name": "Echidna miniature",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x282": {
             "name": "Edda miniature",
@@ -1534,7 +1564,7 @@
         },
         "x286": {
             "name": "Exdeath miniature",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x287": {
             "name": "Fafnir mécanique",
@@ -1563,7 +1593,7 @@
         },
         "x292": {
             "name": "Gaïa miniature",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x293": {
             "name": "G'raha Tia miniature",
@@ -1599,8 +1629,8 @@
             "source": "Boutique en ligne Final Fantasy XIV"
         },
         "x427": {
-            "name": "Wind-up Grebuloff",
-            "category": "Venture",
+            "name": "Grébuloff miniature",
+            "category": "Servant",
             "source": "Highland Exploration XXVI - XXVII"
         },
         "x300": {
@@ -1618,7 +1648,7 @@
             "category": "Quête"
         },
         "x428": {
-            "name": "Wind-up Herois",
+            "name": "Héroïne miniature",
             "category": "Quête"
         },
         "x302": {
@@ -1628,8 +1658,11 @@
         },
         "x303": {
             "name": "Hobgobelin miniature",
-            "category": "Exploration",
-            "source": "Tâche d'exploration du servant"
+            "category": "Servant",
+            "source": [
+                "Highland Exploration XXV",
+                "Quick Exploration"
+            ]
         },
         "x304": {
             "name": "Hraesvelgr miniature",
@@ -1668,7 +1701,7 @@
         },
         "x311": {
             "name": "Kefka miniature",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x312": {
             "name": "Khloe miniature",
@@ -1735,7 +1768,7 @@
             "source": "Recette du Couturier"
         },
         "x429": {
-            "name": "Wind-up Magus Sisters",
+            "name": "Sœurs Magus miniatures",
             "category": "Donjon"
         },
         "x324": {
@@ -1823,7 +1856,7 @@
         },
         "x341": {
             "name": "Poupée chevalier oignon",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x403": {
             "name": "Palom miniature",
@@ -1841,9 +1874,9 @@
             "source": "Jul Oul - Il Mheg - 8 Cristal illusoire pixie"
         },
         "x430": {
-            "name": "Wind-up Porom",
+            "name": "Porom miniature ",
             "category": "Premium",
-            "source": "Endwalker Collector's Edition"
+            "source": "Endwalker Édition Collector"
         },
         "x344": {
             "name": "Poupée qalyana",
@@ -1862,7 +1895,7 @@
         },
         "x347": {
             "name": "Ramza miniature",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x348": {
             "name": "Petit Ravana",
@@ -1895,9 +1928,9 @@
             "source": "Digital Fan Festival (2021)"
         },
         "x431": {
-            "name": "Wind-up Rudy",
-            "category": "Event",
-            "source": "Starlight Celebration (2021)"
+            "name": "Rudy miniature",
+            "category": "Événement",
+            "source": "La fête des étoiles (2021)"
         },
         "x405": {
             "name": "Runar miniature",
@@ -1911,7 +1944,7 @@
         },
         "x353": {
             "name": "Ryne miniature",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x354": {
             "name": "Sadu miniature",
@@ -1930,7 +1963,7 @@
         },
         "x357": {
             "name": "Scáthach miniature",
-            "category": "Raide"
+            "category": "Raid"
         },
         "x358": {
             "name": "Démon des mers mécanique",
@@ -2035,9 +2068,9 @@
             "source": "Vendeur sylphe - Le Refuge - 25.000 Gil"
         },
         "x432": {
-            "name": "Wind-up Vrtra",
+            "name": "Vrtra miniature",
             "category": "Premium",
-            "source": "Item code included with Endwalker Original Soundtrack"
+            "source": "Objet inclus avec l'Original Soundtrack d'Endwalker"
         },
         "x378": {
             "name": "Guerrier de la Lumière",
@@ -2097,7 +2130,7 @@
         },
         "x389": {
             "name": "Zazel",
-            "category": "Évènement",
+            "category": "Événement",
             "source": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "x390": {
