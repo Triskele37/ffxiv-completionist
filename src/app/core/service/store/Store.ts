@@ -65,7 +65,7 @@ export class Store<StoreType> {
         this.save();
     }
 
-    private save(): void {
+    save(): void {
         this.svcElectron.ipcRenderer.sendSync(this.ipcSaveEvent, this.data);
     }
 

@@ -1,32 +1,38 @@
 import { CompletionFlag } from '@constant';
+
+import { SaveStore } from '../Store.d';
 import { SaveStoreService } from '../save-store.service';
 
 type ID = number | string;
 
 export class ChangeStore {
     svcSaveStore: SaveStoreService;
-    newStore: any;
-    oldStore: any;
-
-    version: string;
+    newStore: SaveStore;
+    oldStore: SaveStore;
 
     constructor(svcSaveStore: SaveStoreService, version: string) {
         console.log(`Migrating to ${version}`);
         this.svcSaveStore = svcSaveStore;
 
-        // Create the initial `overall` object for new users
-        const save = this.svcSaveStore.store.get('overall') || {};
+        // Create the initial store object for new users
+        const save: SaveStore = this.svcSaveStore.store.data || {
+            overall: {},
+            custom: {},
+            'bookmarked-groups': [],
+            'bookmarked-tasks': [],
+            version
+        };
 
         // Clone the save data
         this.oldStore = Object.assign(save, {}); // original state
         this.newStore = Object.assign(save, {}); // working copy
-        this.version = version;
+        this.newStore.version = version;
     }
 
     // Function to run when finished migrating that actually commits the changes
     write(): void {
-        this.svcSaveStore.store.set('overall', this.newStore);
-        this.svcSaveStore.store.set('version', this.version);
+        this.svcSaveStore.store.data = this.newStore;
+        this.svcSaveStore.store.save();
     }
 
     // Util to get a task
@@ -39,6 +45,42 @@ export class ChangeStore {
         const group = dive(groupPath, this.newStore);
         if(group) group[taskId] = flag;
     }
+
+    //#region------------------------------------------------------- Bookmarks
+    fixBookmarkedGroup(oldPath: string, newPath: string): void {
+        if(!this.newStore['bookmarked-groups']) return;
+
+        // Fix bookmarked groups at and descending from oldPath
+        this.newStore['bookmarked-groups'].forEach((bookmark, i) => {
+            if(bookmark.startsWith(oldPath)) {
+                this.newStore['bookmarked-groups'][i].replace(oldPath, newPath);
+            }
+        });
+    }
+
+    removeBookmarkedGroup(groupPath: string): void {
+        if(!this.newStore['bookmarked-groups']) return;
+
+        // Remove bookmarked groups at and descending from groupPath
+        this.newStore['bookmarked-groups'] = this.newStore['bookmarked-groups']
+            .filter((bookmark) => !bookmark.startsWith(groupPath));
+    }
+
+    fixBookmarkedTask(oldPath: string, oldId: ID, newPath: string, newId: ID): void {
+        if(!this.newStore['bookmarked-tasks']) return;
+
+        const index = this.newStore['bookmarked-tasks'].indexOf(`${oldPath}.${oldId}`);
+        if(index !== -1) this.newStore['bookmarked-tasks'][index] = `${newPath}.${newId}`;
+    }
+
+    removeBookmarkedTask(groupPath: string, taskId: ID): void {
+        if(!this.newStore['bookmarked-tasks']) return;
+
+        const index = this.newStore['bookmarked-tasks'].indexOf(`${groupPath}.${taskId}`);
+        if(index !== -1) this.newStore['bookmarked-tasks'].splice(index, 1);
+    }
+
+    //#endregion
 
     //#region------------------------------------------------------- Move
     // Change Helper when task is in same group
@@ -54,6 +96,9 @@ export class ChangeStore {
             }
             else console.error(`Updated store missing ${groupPath}`);
         }
+
+        // Fix bookmark
+        this.fixBookmarkedTask(groupPath, oldId, groupPath, newId);
     }
 
     // Change helper when task is in different group
@@ -72,6 +117,9 @@ export class ChangeStore {
                 console.error(`${newGroupPath} does not exist, create it first`);
             }
         }
+
+        // Fix bookmark
+        this.fixBookmarkedTask(oldGroupPath, taskId, newGroupPath, taskId);
     }
 
     // Change helper when multiple task are in different group
@@ -91,6 +139,9 @@ export class ChangeStore {
                     console.error(`${newGroupPath} does not exist, create it first`);
                 }
             }
+
+            // Fix bookmark
+            this.fixBookmarkedTask(oldGroupPath, taskId, newGroupPath, taskId);
         });
     }
 
@@ -116,6 +167,8 @@ export class ChangeStore {
         else {
             console.error(`Could not move group: ${oldGroupPath}`);
         }
+
+        this.fixBookmarkedGroup(oldGroupPath, newGroupPath);
     }
 
     //#endregion
@@ -125,6 +178,7 @@ export class ChangeStore {
     deleteTask(groupPath: string, taskId: ID): void {
         const group = dive(groupPath, this.newStore);
         if(group) delete group[taskId];
+        this.removeBookmarkedTask(groupPath, taskId);
     }
 
     // Change helper when tasks are removed
@@ -133,7 +187,10 @@ export class ChangeStore {
         if(!group) return;
 
         if(typeof taskIdsOrRange !== 'string') {
-            taskIdsOrRange.forEach((taskId) => delete group[taskId]);
+            taskIdsOrRange.forEach((taskId) => {
+                delete group[taskId];
+                this.removeBookmarkedTask(groupPath, taskId);
+            });
         }
         else {
             const [startStr, endStr] = taskIdsOrRange.split('-');
@@ -142,6 +199,7 @@ export class ChangeStore {
 
             for(let i = start; i <= end; i++) {
                 delete group[i];
+                this.removeBookmarkedTask(groupPath, i);
             }
         }
     }
@@ -153,6 +211,8 @@ export class ChangeStore {
 
         const groupToDeleteParent = dive(groupPathArr, this.newStore);
         if(!!groupToDeleteParent) delete groupToDeleteParent[groupToDelete];
+
+        this.removeBookmarkedGroup(groupPath);
     }
 
     //#endregion

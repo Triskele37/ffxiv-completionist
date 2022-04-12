@@ -7,8 +7,16 @@
 - flatten Duty/Raid Finder group
 
 **Fix**
-- Achievement Order
+- Order all groups to in-game order
+  - Achievement
+  - Title
+  - Crafting Log
+- Changing starting class resets completion on tasks outside of the starting city MSQ and content directly related to them
+- Migrations need to consider bookmark paths
 - Move Forged Anew resistance sidequest into quasi-quests
+- Studium quests do not chain to their achievements
+- Excluding an item chained to another marks the other as N when the other is marked X
+  - should not change mark
 
 ------------------------------------------------------------------ Prioritize
 **Add**

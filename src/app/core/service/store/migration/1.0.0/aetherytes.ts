@@ -3,7 +3,7 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 /** Sorted Aetherytes into groups matching in-game
  * */
 export function migrateAetherytes(store: ChangeStore): void {
-    const AETHERYTES = 'travel.aetherytes';
+    const AETHERYTES = 'overall.travel.aetherytes';
 
     store.moveTasks(AETHERYTES, `${AETHERYTES}.la-noscea`, [
         0, 3, 4, 6, 1, 2, 5, 7, 8, 9,

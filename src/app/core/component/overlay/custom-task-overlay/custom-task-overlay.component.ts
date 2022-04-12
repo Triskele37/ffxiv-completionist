@@ -8,6 +8,7 @@ import { Task } from '@domain/Task';
 import { ChainService } from '@service/chain/chain.service';
 import { Match, SearchService } from '@service/search/search.service';
 import { SaveStoreService } from '@service/store/save-store.service';
+import { CustomTaskService } from '@service/custom-task/custom-task.service';
 
 @Component({
     selector: 'xiv-custom-task-overlay',
@@ -22,7 +23,6 @@ export class CustomTaskOverlayComponent {
     isVisible: boolean = false;
     isMergeVisible: boolean = false;
 
-    customData: DataGroup;
     newTaskName: string = '';
     newTaskNotes: string = '';
 
@@ -39,9 +39,8 @@ export class CustomTaskOverlayComponent {
         private svcChain: ChainService,
         private svcSearch: SearchService,
         private svcSaveStore: SaveStoreService,
-        //TODO: utilize svcCustomTask
+        public svcCustomTask: CustomTaskService
     ) {
-        this.customData = this.svcData.data.getChildGroup('custom');
     }
 
     //#region------------------------------------------------------- Common
@@ -73,28 +72,28 @@ export class CustomTaskOverlayComponent {
         });
 
         // Update data with new custom task
-        this.customData.tasks.push(new Task({
+        this.svcCustomTask.group.tasks.push(new Task({
             id: nextId,
             name: this.newTaskName,
             notes: this.newTaskNotes
-        }, this.customData));
+        }, this.svcCustomTask.group));
 
         // Generate new object reference so bindings update
-        this.customData.tasks = [...this.customData.tasks];
+        this.svcCustomTask.group.tasks = [...this.svcCustomTask.group.tasks];
 
         this.svcData.applyDataToStore();
     }
 
     mergeCustomTasks(): void {
         // Don't merge without items
-        if(this.customData.tasks.length < 1) return;
+        if(this.svcCustomTask.group.tasks.length < 1) return;
 
         // Switch displayed overlay
         this.isVisible = false;
         this.isMergeVisible = true;
 
         // Search for matches and filter out matching itself
-        this.mergeTask = this.customData.tasks[this.mergeIndex];
+        this.mergeTask = this.svcCustomTask.group.tasks[this.mergeIndex];
         this.mergeMatches = this.svcSearch
             .searchData(this.mergeTask.name, false, false)
             .filter((match) =>
@@ -139,7 +138,7 @@ export class CustomTaskOverlayComponent {
     goToNextMerge(): void {
         this.mergeIndex++;
 
-        if(this.mergeIndex > this.customData.tasks.length - 1) {
+        if(this.mergeIndex > this.svcCustomTask.group.tasks.length - 1) {
             this.autoMerge = false;
             this.exitMerge();
         }
@@ -178,15 +177,16 @@ export class CustomTaskOverlayComponent {
     //#endregion
 
     removeCustomTask_UI(task: Task): void {
-        // Update displayed completion
+        // Update displayed completion (must change to update properly, hence Y to N)
+        task.setCompletion(Completion.Y);
         task.setCompletion(Completion.N);
 
         // Find & Remove from data
-        const index = this.customData.tasks.findIndex((t) => t.id === task.id);
-        this.customData.tasks.splice(index, 1);
+        const index = this.svcCustomTask.group.tasks.findIndex((t) => t.id === task.id);
+        this.svcCustomTask.group.tasks.splice(index, 1);
 
         // Generate new object reference so bindings update
-        this.customData.tasks = [...this.customData.tasks];
+        this.svcCustomTask.group.tasks = [...this.svcCustomTask.group.tasks];
     }
 
     removeCustomTask_Store(task: Task): void {

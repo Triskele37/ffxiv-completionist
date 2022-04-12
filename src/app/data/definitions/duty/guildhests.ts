@@ -7,6 +7,12 @@ export const Duty_Guildhests = function(parent: DataGroup, path: string) {
     const addGuildhestClone = (name: string) => {
         const clone = DataGroup.fromJSON(group, `${path}/guildhests`).forceName(name);
         group.subGroups.set(clone._key, clone);
+
+        for(let i = 1; i < clone.tasks.length; i++) {
+            const linkPath = clone.tasks[i].unlock.split('.');
+            const id = linkPath.pop();
+            clone.tasks[i].unlock = `${linkPath.join('.')}.${clone._key}.${id}`;
+        }
     };
 
     addGuildhestClone('Arcanist');
