@@ -1,159 +1,231 @@
 {
-    "groupName": "Lucis Tools",
+    "groupName": "Outils Lucis",
     "tasks": {
         "x0": {
-            "name": "Ullikummi",
-            "job": "Carpenter"
+            "name": "Scie d'Ullikummi",
+            "job": "Menuisier"
         },
         "x1": {
-            "name": "Ullikummi Supra",
-            "job": "Carpenter",
-            "requirements": "1x Mastercraft Demimateria"
+            "name": "Scie d'Ullikummi Supra",
+            "job": "Menuisier",
+            "requirements": [
+                "Demi-matéria de la maîtrise divine",
+                "Épicéa contreplaqué double"
+            ]
         },
         "x2": {
-            "name": "Ullikummi Lucis",
-            "job": "Carpenter",
-            "requirements": "5x HQ Petrified Orb"
+            "name": "Scied'Ullikummi Lucis",
+            "job": "Menuisier",
+            "requirements": [
+                "5 Bille de bois pétrifié HQ",
+                "5 Pierre de lune"
+            ]
         },
         "x3": {
-            "name": "Vulcan",
-            "job": "Blacksmith"
+            "name": "Marteau de Vulcain",
+            "job": "Forgeron"
         },
         "x4": {
-            "name": "Vulcan Supra",
-            "job": "Blacksmith",
-            "requirements": "1x Mastercraft Demimateria"
+            "name": "Marteau de Vulcain Supra",
+            "job": "Forgeron",
+            "requirements": [
+                "Demi-matéria de la maîtrise divine",
+                "Crochet de sombracier équilibré"
+            ]
         },
         "x5": {
-            "name": "Vulcan Lucis",
-            "job": "Blacksmith",
-            "requirements": "5x HQ Mummer's Daggers"
+            "name": "Marteau de Vulcain lucis",
+            "job": "Forgeron",
+            "requirements": [
+                "5 Dagues d'acrobate HQ",
+                "5 Pierre de lune"
+            ]
         },
         "x6": {
-            "name": "Kurdalegon",
-            "job": "Armorer"
+            "name": "Marteau de Kurdalaegon",
+            "job": "Armurier"
         },
         "x7": {
-            "name": "Kurdalegon Supra",
-            "job": "Armorer",
-            "requirements": "1x Mastercraft Demimateria"
+            "name": "Marteau de Kurdalaegon Supra",
+            "job": "Armurier",
+            "requirements": [
+                "Demi-matéria de la maîtrise divine",
+                "Fil de sombracier renforcé"
+            ]
         },
         "x8": {
-            "name": "Kurdalegon Lucis",
-            "job": "Armorer",
-            "requirements": "5x HQ Lapdog Collar Bell"
+            "name": "Marteau de Kurdalaegon Lucis",
+            "job": "Armurier",
+            "requirements": [
+                "5 Cloche d'animal HQ",
+                "5 Pierre de lune"
+            ]
         },
         "x9": {
-            "name": "Urcaguary",
-            "job": "Goldsmith"
+            "name": "Marteaud'Urcaguary",
+            "job": "Orfèvre"
         },
         "x10": {
-            "name": "Urcaguary Supra",
-            "job": "Goldsmith",
-            "requirements": "1x Mastercraft Demimateria"
+            "name": "Marteau d'Urcaguary Supra",
+            "job": "Orfèvre",
+            "requirements": [
+                "Demi-matéria de la maîtrise divine",
+                "Engrenage en or rose calibré"
+            ]
         },
         "x11": {
-            "name": "Urcaguary Lucis",
-            "job": "Goldsmith",
-            "requirements": "5x HQ Fluorite Lens"
+            "name": "Marteau d'Urcaguary Lucis",
+            "job": "Orfèvre",
+            "requirements": [
+                "5 Lentille en fluorine claire HQ",
+                "5 Pierre de lune"
+            ]
         },
         "x12": {
-            "name": "Pinga",
-            "job": "Leatherworker"
+            "name": "Couteau de Pinga",
+            "job": "Tanneur"
         },
         "x13": {
-            "name": "Pinga Supra",
-            "job": "Leatherworker",
-            "requirements": "1x Mastercraft Demimateria"
+            "name": "Couteau de Pinga Supra",
+            "job": "Tanneur",
+            "requirements": [
+                "Demi-matéria de la maîtrise divine",
+                "Lanière en cuir d'hippogriffe bouilli"
+            ]
         },
         "x14": {
-            "name": "Pinga Lucis",
-            "job": "Leatherworker",
-            "requirements": "5x HQ Patent Leather"
+            "name": "Couteau de Pinga Lucis",
+            "job": "Tanneur",
+            "requirements": [
+                "5 Cuir de saurien verni HQ",
+                "5 Pierre de lune"
+            ]
         },
         "x15": {
-            "name": "Clotho",
-            "job": "Weaver"
+            "name": "Fuseau de Clotho",
+            "job": "Couturier"
         },
         "x16": {
-            "name": "Clotho Supra",
-            "job": "Weaver",
-            "requirements": "1x Mastercraft Demimateria"
+            "name": "Fuseau de Clotho Supra",
+            "job": "Couturier",
+            "requirements": [
+                "Demi-matéria de la maîtrise divine",
+                "Brocart fin en argent"
+            ]
         },
         "x17": {
-            "name": "Clotho Lucis",
-            "job": "Weaver",
-            "requirements": "5x HQ Camlet"
+            "name": "Fuseau de Clotho Lucis",
+            "job": "Couturier",
+            "requirements": [
+                "5 Camelot HQ",
+                "5 Pierre de lune"
+            ]
         },
         "x18": {
-            "name": "Paracelsus",
-            "job": "Alchemist"
+            "name": "Alambic de Paracelse",
+            "job": "Alchimiste"
         },
         "x19": {
-            "name": "Paracelsus Supra",
-            "job": "Alchemist",
-            "requirements": "1x Mastercraft Demimateria"
+            "name": "Alambic de Paracelse Supra",
+            "job": "Alchimiste",
+            "requirements": [
+                "Demi-matéria de la maîtrise divine",
+                "Esprit de sel concentré"
+            ]
         },
         "x20": {
-            "name": "Paracelsus Lucis",
-            "job": "Alchemist",
-            "requirements": "5x HQ Enchanted Quicksilver"
+            "name": "Alambic de Paracelse Lucis",
+            "job": "Alchimiste",
+            "requirements": [
+                "5 Mercure enchanté HQ",
+                "5 Pierre de lune"
+            ]
         },
         "x21": {
-            "name": "Chantico",
-            "job": "Culinarian"
+            "name": "Sauteuse de Chantico",
+            "job": "Cuisinier"
         },
         "x22": {
-            "name": "Chantico Supra",
-            "job": "Culinarian",
-            "requirements": "1x Mastercraft Demimateria"
+            "name": "Sauteuse de Chantico Supra",
+            "job": "Cuisinier",
+            "requirements": [
+                "Demi-matéria de la maîtrise divine",
+                "Condiment piquant à la tomate"
+            ]
         },
         "x23": {
-            "name": "Chantico Lucis",
-            "job": "Culinarian",
-            "requirements": "5x HQ Duck Broth"
+            "name": "Sauteuse de Chantico Lucis",
+            "job": "Cuisinier",
+            "requirements": [
+                "5 Fond de canard HQ",
+                "5 Pierre de lune"
+            ]
         },
         "x24": {
-            "name": "Mammon",
-            "job": "Miner"
+            "name": "Piolet de Mammon",
+            "job": "Mineur"
         },
         "x25": {
-            "name": "Mammon Supra",
-            "job": "Miner",
-            "requirements": "1x Mastercraft Demimateria"
+            "name": "Piolet de Mammon Supra",
+            "job": "Mineur",
+            "requirements": [
+                "Demi-matéria de la maîtrise divine",
+                "30 roche antéombrale",
+                "2 Demi-matéria de l'artifice III"
+            ]
         },
         "x26": {
-            "name": "Mammon Lucis",
-            "job": "Miner",
-            "requirements": "30x HQ Antumbral Rock, 15x Magicked Oilcloth"
+            "name": "Piolet de Mammon Lucis",
+            "job": "Mineur",
+            "requirements": [
+                "30 Roche antéombrale",
+                "15 Toile enduite éthéréenne",
+                "5 Pierre de lune"
+            ]
         },
         "x27": {
-            "name": "Rauni",
-            "job": "Botanist"
+            "name": "Hachette de Rauni",
+            "job": "Botaniste"
         },
         "x28": {
-            "name": "Rauni Supra",
-            "job": "Botanist",
-            "requirements": "1x Mastercraft Demimateria"
+            "name": "Hachette de Rauni Supra",
+            "job": "Botaniste",
+            "requirements": [
+                "Demi-matéria de la maîtrise divine",
+                "30 Rondin fragrant",
+                "2 Demi-matéria de l'artifice III"
+            ]
         },
         "x29": {
-            "name": "Rauni Lucis",
-            "job": "Botanist",
-            "requirements": "30x HQ Redolent Log, 15x Bamboo Paper"
+            "name": "Hachette de Rauni Lucis",
+            "job": "Botaniste",
+            "requirements": [
+                "30 Rondin fragrant",
+                "15 Papier bambou",
+                "5 Pierre de lune"
+            ]
         },
         "x30": {
-            "name": "Halcyon",
-            "job": "Fisher"
+            "name": "Canne à pêche alcyon",
+            "job": "Pêcheur"
         },
         "x31": {
-            "name": "Halcyon Supra",
-            "job": "Fisher",
-            "requirements": "1x Mastercraft Demimateria"
+            "name": "Canne à pêche alcyon Supra",
+            "job": "Pêcheur",
+            "requirements": [
+                "Demi-matéria de la maîtrise divine",
+                "Olgoi-Khorkhoi",
+                "2 Demi-matéria de l'artifice III"
+            ]
         },
         "x32": {
-            "name": "Halcyon Lucis",
-            "job": "Fisher",
-            "requirements": "10x HQ Gigant Clam, 15x Glacier Crystal"
+            "name": "Canne à pêche alcyon Lucis",
+            "job": "Pêcheur",
+            "requirements": [
+                "10 Cocoquillage géant",
+                "15 Cristal de givre",
+                "5 Pierre de lune"
+            ]
         }
     }
 }
