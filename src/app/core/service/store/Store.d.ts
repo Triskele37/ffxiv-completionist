@@ -35,4 +35,7 @@ export type ConfigStore = {
 export type SaveStore = {
     overall: any;
     custom: any;
+    'bookmarked-groups': string[];
+    'bookmarked-tasks': string[];
+    version: string;
 };

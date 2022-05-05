@@ -4,10 +4,11 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
  * All IDs need to be updated to their actual ID
  * */
 export function migrateFates(store: ChangeStore): void {
-    store.moveGroup('duty.fates', 'duty.fate');
+    const FATE = 'overall.duty.fate';
+    store.moveGroup('overall.duty.fates', FATE);
 
     // Update with new IDs
-    const AZYS_LLA = 'duty.fate.abalathias-spine.azys-lla'; //#region
+    const AZYS_LLA = `${FATE}.abalathias-spine.azys-lla`; //#region
     store.changeKey(AZYS_LLA, 0, 890);
     store.changeKey(AZYS_LLA, 1, 888);
     store.changeKey(AZYS_LLA, 2, 889);
@@ -31,7 +32,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(AZYS_LLA, 20, 898);
     store.changeKey(AZYS_LLA, 21, 880); //#endregion
 
-    const THE_SEA_OF_CLOUDS = 'duty.fate.abalathias-spine.the-sea-of-clouds'; //#region
+    const THE_SEA_OF_CLOUDS = `${FATE}.abalathias-spine.the-sea-of-clouds`; //#region
     store.changeKey(THE_SEA_OF_CLOUDS, 0, 842);
     store.changeKey(THE_SEA_OF_CLOUDS, 1, 839);
     store.changeKey(THE_SEA_OF_CLOUDS, 2, 847);
@@ -58,10 +59,10 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(THE_SEA_OF_CLOUDS, 23, 863);
     store.changeKey(THE_SEA_OF_CLOUDS, 24, 875); //#endregion
 
-    store.moveGroup('duty.fate.the-black-shroud', 'duty.fate.black-shroud');
-    store.changeKey('duty.fate.black-shroud', 0, 196);
+    store.moveGroup(`${FATE}.the-black-shroud`, `${FATE}.black-shroud`);
+    store.changeKey(`${FATE}.black-shroud`, 0, 196);
 
-    const CENTRAL_SHROUD = 'duty.fate.black-shroud.central-shroud'; //#region
+    const CENTRAL_SHROUD = `${FATE}.black-shroud.central-shroud`; //#region
     store.changeKey(CENTRAL_SHROUD, 0, 121);
     store.changeKey(CENTRAL_SHROUD, 1, 120);
     store.changeKey(CENTRAL_SHROUD, 2, 136);
@@ -85,7 +86,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(CENTRAL_SHROUD, 20, 125);
     store.changeKey(CENTRAL_SHROUD, 21, 604); //#endregion
 
-    const EAST_SHROUD = 'duty.fate.black-shroud.east-shroud'; //#region
+    const EAST_SHROUD = `${FATE}.black-shroud.east-shroud`; //#region
     store.changeKey(EAST_SHROUD, 0, 143);
     store.changeKey(EAST_SHROUD, 1, 214);
     store.changeKey(EAST_SHROUD, 2, 144);
@@ -111,7 +112,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(EAST_SHROUD, 22, 622);
     store.changeKey(EAST_SHROUD, 23, 692); //#endregion
 
-    const NORTH_SHROUD = 'duty.fate.black-shroud.north-shroud'; //#region
+    const NORTH_SHROUD = `${FATE}.black-shroud.north-shroud`; //#region
     store.changeKey(NORTH_SHROUD, 0, 178);
     store.changeKey(NORTH_SHROUD, 1, 183);
     store.changeKey(NORTH_SHROUD, 2, 174);
@@ -127,7 +128,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(NORTH_SHROUD, 12, 633);
     store.changeKey(NORTH_SHROUD, 13, 632); //#endregion
 
-    const SOUTH_SHROUD = 'duty.fate.black-shroud.south-shroud'; //#region
+    const SOUTH_SHROUD = `${FATE}.black-shroud.south-shroud`; //#region
     store.changeKey(SOUTH_SHROUD, 0, 167);
     store.changeKey(SOUTH_SHROUD, 1, 170);
     store.changeKey(SOUTH_SHROUD, 2, 163);
@@ -149,7 +150,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(SOUTH_SHROUD, 18, 154);
     store.changeKey(SOUTH_SHROUD, 19, 628); //#endregion
 
-    const CENTRAL_HIGHLANDS = 'duty.fate.coerthas.central-highlands'; //#region
+    const CENTRAL_HIGHLANDS = `${FATE}.coerthas.central-highlands`; //#region
     store.changeKey(CENTRAL_HIGHLANDS, 0, 466);
     store.changeKey(CENTRAL_HIGHLANDS, 1, 464);
     store.changeKey(CENTRAL_HIGHLANDS, 2, 460);
@@ -188,7 +189,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(CENTRAL_HIGHLANDS, 35, 505);
     store.changeKey(CENTRAL_HIGHLANDS, 36, 506); //#endregion
 
-    const WESTERN_HIGHLANDS = 'duty.fate.coerthas.western-highlands'; //#region
+    const WESTERN_HIGHLANDS = `${FATE}.coerthas.western-highlands`; //#region
     store.changeKey(WESTERN_HIGHLANDS, 0, 814);
     store.changeKey(WESTERN_HIGHLANDS, 1, 788);
     store.changeKey(WESTERN_HIGHLANDS, 2, 815);
@@ -216,7 +217,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(WESTERN_HIGHLANDS, 24, 909);
     store.changeKey(WESTERN_HIGHLANDS, 25, 908); //#endregion
 
-    const THE_CHURNING_MISTS = 'duty.fate.dravania.the-churning-mists'; //#region
+    const THE_CHURNING_MISTS = `${FATE}.dravania.the-churning-mists`; //#region
     store.changeKey(THE_CHURNING_MISTS, 0, 727);
     store.changeKey(THE_CHURNING_MISTS, 1, 726);
     store.changeKey(THE_CHURNING_MISTS, 2, 872);
@@ -247,7 +248,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(THE_CHURNING_MISTS, 27, 746);
     store.changeKey(THE_CHURNING_MISTS, 28, 871); //#endregion
 
-    const THE_DRAVANIAN_FORELANDS = 'duty.fate.dravania.the-dravanian-forelands'; //#region
+    const THE_DRAVANIAN_FORELANDS = `${FATE}.dravania.the-dravanian-forelands`; //#region
     store.changeKey(THE_DRAVANIAN_FORELANDS, 0, 822);
     store.changeKey(THE_DRAVANIAN_FORELANDS, 1, 833);
     store.changeKey(THE_DRAVANIAN_FORELANDS, 2, 823);
@@ -274,7 +275,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(THE_DRAVANIAN_FORELANDS, 23, 903);
     store.changeKey(THE_DRAVANIAN_FORELANDS, 24, 905); //#endregion
 
-    const THE_DRAVANIAN_HINTERLANDS = 'duty.fate.dravania.the-dravanian-hinterlands'; //#region
+    const THE_DRAVANIAN_HINTERLANDS = `${FATE}.dravania.the-dravanian-hinterlands`; //#region
     store.changeKey(THE_DRAVANIAN_HINTERLANDS, 0, 767);
     store.changeKey(THE_DRAVANIAN_HINTERLANDS, 1, 786);
     store.changeKey(THE_DRAVANIAN_HINTERLANDS, 2, 768);
@@ -305,7 +306,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(THE_DRAVANIAN_HINTERLANDS, 27, 784);
     store.changeKey(THE_DRAVANIAN_HINTERLANDS, 28, 778); //#endregion
 
-    const THE_FRINGES = 'duty.fate.gyr-abania.the-fringes'; //#region
+    const THE_FRINGES = `${FATE}.gyr-abania.the-fringes`; //#region
     store.changeKey(THE_FRINGES, 0, 1124);
     store.changeKey(THE_FRINGES, 1, 1115);
     store.changeKey(THE_FRINGES, 2, 1116);
@@ -336,7 +337,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(THE_FRINGES, 27, 1141);
     store.changeKey(THE_FRINGES, 28, 1134); //#endregion
 
-    const THE_LOCHS = 'duty.fate.gyr-abania.the-lochs'; //#region
+    const THE_LOCHS = `${FATE}.gyr-abania.the-lochs`; //#region
     store.changeKey(THE_LOCHS, 0, 1291);
     store.changeKey(THE_LOCHS, 1, 1293);
     store.changeKey(THE_LOCHS, 2, 1303);
@@ -373,7 +374,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(THE_LOCHS, 33, 1290);
     store.changeKey(THE_LOCHS, 34, 1103); //#endregion
 
-    const THE_PEAKS = 'duty.fate.gyr-abania.the-peaks'; //#region
+    const THE_PEAKS = `${FATE}.gyr-abania.the-peaks`; //#region
     store.changeKey(THE_PEAKS, 0, 1174);
     store.changeKey(THE_PEAKS, 1, 1197);
     store.changeKey(THE_PEAKS, 2, 1173);
@@ -407,8 +408,8 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(THE_PEAKS, 30, 1190);
     store.changeKey(THE_PEAKS, 31, 1186); //#endregion
 
-    const EASTERN_LA_NOSCEA = 'duty.fate.la-noscea.eastern-la-noscea'; //#region
-    store.moveGroup('duty.fate.la-noscea.eastern', EASTERN_LA_NOSCEA);
+    const EASTERN_LA_NOSCEA = `${FATE}.la-noscea.eastern-la-noscea`; //#region
+    store.moveGroup(`${FATE}.la-noscea.eastern`, EASTERN_LA_NOSCEA);
     store.changeKey(EASTERN_LA_NOSCEA, 0, 278);
     store.changeKey(EASTERN_LA_NOSCEA, 1, 282);
     store.changeKey(EASTERN_LA_NOSCEA, 2, 287);
@@ -430,8 +431,8 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(EASTERN_LA_NOSCEA, 18, 563);
     store.changeKey(EASTERN_LA_NOSCEA, 19, 561); //#endregion
 
-    const LOWER_LA_NOSCEA = 'duty.fate.la-noscea.lower-la-noscea'; //#region
-    store.moveGroup('duty.fate.la-noscea.lower', LOWER_LA_NOSCEA);
+    const LOWER_LA_NOSCEA = `${FATE}.la-noscea.lower-la-noscea`; //#region
+    store.moveGroup(`${FATE}.la-noscea.lower`, LOWER_LA_NOSCEA);
     store.changeKey(LOWER_LA_NOSCEA, 0, 257);
     store.changeKey(LOWER_LA_NOSCEA, 1, 249);
     store.changeKey(LOWER_LA_NOSCEA, 2, 246);
@@ -445,8 +446,8 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(LOWER_LA_NOSCEA, 10, 262);
     store.changeKey(LOWER_LA_NOSCEA, 11, 245); //#endregion
 
-    const MIDDLE_LA_NOSCEA = 'duty.fate.la-noscea.middle-la-noscea'; //#region
-    store.moveGroup('duty.fate.la-noscea.middle', MIDDLE_LA_NOSCEA);
+    const MIDDLE_LA_NOSCEA = `${FATE}.la-noscea.middle-la-noscea`; //#region
+    store.moveGroup(`${FATE}.la-noscea.middle`, MIDDLE_LA_NOSCEA);
     store.changeKey(MIDDLE_LA_NOSCEA, 0, 227);
     store.changeKey(MIDDLE_LA_NOSCEA, 1, 239);
     store.changeKey(MIDDLE_LA_NOSCEA, 2, 226);
@@ -463,8 +464,8 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(MIDDLE_LA_NOSCEA, 13, 233);
     store.changeKey(MIDDLE_LA_NOSCEA, 14, 223); //#endregion
 
-    const OUTER_LA_NOSCEA = 'duty.fate.la-noscea.outer-la-noscea'; //#region
-    store.moveGroup('duty.fate.la-noscea.outer', OUTER_LA_NOSCEA);
+    const OUTER_LA_NOSCEA = `${FATE}.la-noscea.outer-la-noscea`; //#region
+    store.moveGroup(`${FATE}.la-noscea.outer`, OUTER_LA_NOSCEA);
     store.changeKey(OUTER_LA_NOSCEA, 0, 591);
     store.changeKey(OUTER_LA_NOSCEA, 1, 593);
     store.changeKey(OUTER_LA_NOSCEA, 2, 580);
@@ -480,8 +481,8 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(OUTER_LA_NOSCEA, 12, 700);
     store.changeKey(OUTER_LA_NOSCEA, 13, 597); //#endregion
 
-    const UPPER_LA_NOSCEA = 'duty.fate.la-noscea.upper-la-noscea'; //#region
-    store.moveGroup('duty.fate.la-noscea.upper', UPPER_LA_NOSCEA);
+    const UPPER_LA_NOSCEA = `${FATE}.la-noscea.upper-la-noscea`; //#region
+    store.moveGroup(`${FATE}.la-noscea.upper`, UPPER_LA_NOSCEA);
     store.changeKey(UPPER_LA_NOSCEA, 0, 451);
     store.changeKey(UPPER_LA_NOSCEA, 1, 453);
     store.changeKey(UPPER_LA_NOSCEA, 2, 452);
@@ -495,8 +496,8 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(UPPER_LA_NOSCEA, 10, 332);
     store.changeKey(UPPER_LA_NOSCEA, 11, 317); //#endregion
 
-    const WESTERN_LA_NOSCEA = 'duty.fate.la-noscea.western-la-noscea'; //#region
-    store.moveGroup('duty.fate.la-noscea.western', WESTERN_LA_NOSCEA);
+    const WESTERN_LA_NOSCEA = `${FATE}.la-noscea.western-la-noscea`; //#region
+    store.moveGroup(`${FATE}.la-noscea.western`, WESTERN_LA_NOSCEA);
     store.changeKey(WESTERN_LA_NOSCEA, 0, 306);
     store.changeKey(WESTERN_LA_NOSCEA, 1, 291);
     store.changeKey(WESTERN_LA_NOSCEA, 2, 650);
@@ -521,7 +522,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(WESTERN_LA_NOSCEA, 21, 575);
     store.changeKey(WESTERN_LA_NOSCEA, 22, 578); //#endregion
 
-    const MOR_DHONA = 'duty.fate.mor-dhona'; //#region
+    const MOR_DHONA = `${FATE}.mor-dhona`; //#region
     store.changeKey(MOR_DHONA, 0, 514);
     store.changeKey(MOR_DHONA, 1, 517);
     store.changeKey(MOR_DHONA, 2, 530);
@@ -537,7 +538,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(MOR_DHONA, 12, 526);
     store.changeKey(MOR_DHONA, 13, 521); //#endregion
 
-    const AMH_ARAENG = 'duty.fate.norvrandt.amh-araeng'; //#region
+    const AMH_ARAENG = `${FATE}.norvrandt.amh-araeng`; //#region
     store.changeKey(AMH_ARAENG, 0, 1522);
     store.changeKey(AMH_ARAENG, 1, 1513);
     store.changeKey(AMH_ARAENG, 2, 1519);
@@ -556,7 +557,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(AMH_ARAENG, 15, 1526);
     store.changeKey(AMH_ARAENG, 16, 1525); //#endregion
 
-    const IL_MHEG = 'duty.fate.norvrandt.il-mheg'; //#region
+    const IL_MHEG = `${FATE}.norvrandt.il-mheg`; //#region
     store.changeKey(IL_MHEG, 0, 1489);
     store.changeKey(IL_MHEG, 1, 1493);
     store.changeKey(IL_MHEG, 2, 1491);
@@ -574,7 +575,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(IL_MHEG, 14, 1486);
     store.changeKey(IL_MHEG, 15, 1481); //#endregion
 
-    const KHOLUSIA = 'duty.fate.norvrandt.kholusia'; //#region
+    const KHOLUSIA = `${FATE}.norvrandt.kholusia`; //#region
     store.changeKey(KHOLUSIA, 0, 1469);
     store.changeKey(KHOLUSIA, 1, 1470);
     store.changeKey(KHOLUSIA, 2, 1472);
@@ -592,7 +593,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(KHOLUSIA, 14, 1475);
     store.changeKey(KHOLUSIA, 15, 1464); //#endregion
 
-    const LAKELAND = 'duty.fate.norvrandt.lakeland'; //#region
+    const LAKELAND = `${FATE}.norvrandt.lakeland`; //#region
     store.changeKey(LAKELAND, 0, 1507);
     store.changeKey(LAKELAND, 1, 1509);
     store.changeKey(LAKELAND, 2, 1510);
@@ -609,8 +610,8 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(LAKELAND, 13, 1502);
     store.changeKey(LAKELAND, 14, 1503); //#endregion
 
-    const THE_RAK_TIKA_GREATWOOD = 'duty.fate.norvrandt.the-rak-tika-greatwood'; //#region
-    store.moveGroup('duty.fate.norvrandt.the-raktika-greatwood', THE_RAK_TIKA_GREATWOOD);
+    const THE_RAK_TIKA_GREATWOOD = `${FATE}.norvrandt.the-rak-tika-greatwood`; //#region
+    store.moveGroup(`${FATE}.norvrandt.the-raktika-greatwood`, THE_RAK_TIKA_GREATWOOD);
     store.changeKey(THE_RAK_TIKA_GREATWOOD, 0, 1456);
     store.changeKey(THE_RAK_TIKA_GREATWOOD, 1, 1455);
     store.changeKey(THE_RAK_TIKA_GREATWOOD, 2, 1451);
@@ -631,7 +632,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(THE_RAK_TIKA_GREATWOOD, 17, 1450);
     store.changeKey(THE_RAK_TIKA_GREATWOOD, 18, 1445); //#endregion
 
-    const THE_TEMPEST = 'duty.fate.norvrandt.the-tempest'; //#region
+    const THE_TEMPEST = `${FATE}.norvrandt.the-tempest`; //#region
     store.changeKey(THE_TEMPEST, 0, 1439);
     store.changeKey(THE_TEMPEST, 1, 1429);
     store.changeKey(THE_TEMPEST, 2, 1438);
@@ -648,7 +649,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(THE_TEMPEST, 13, 1426);
     store.changeKey(THE_TEMPEST, 14, 1432); //#endregion
 
-    const THE_AZIM_STEPPE = 'duty.fate.othard.the-azim-steppe'; //#region
+    const THE_AZIM_STEPPE = `${FATE}.othard.the-azim-steppe`; //#region
     store.changeKey(THE_AZIM_STEPPE, 0, 1250);
     store.changeKey(THE_AZIM_STEPPE, 1, 1309);
     store.changeKey(THE_AZIM_STEPPE, 2, 1243);
@@ -693,7 +694,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(THE_AZIM_STEPPE, 41, 1248);
     store.changeKey(THE_AZIM_STEPPE, 42, 1266); //#endregion
 
-    const THE_RUBY_SEA = 'duty.fate.othard.the-ruby-sea'; //#region
+    const THE_RUBY_SEA = `${FATE}.othard.the-ruby-sea`; //#region
     store.changeKey(THE_RUBY_SEA, 0, 1148);
     store.changeKey(THE_RUBY_SEA, 1, 1153);
     store.changeKey(THE_RUBY_SEA, 2, 1151);
@@ -725,7 +726,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(THE_RUBY_SEA, 28, 1145);
     store.changeKey(THE_RUBY_SEA, 29, 1144); //#endregion
 
-    const YANXIA = 'duty.fate.othard.yanxia'; //#region
+    const YANXIA = `${FATE}.othard.yanxia`; //#region
     store.changeKey(YANXIA, 0, 1209);
     store.changeKey(YANXIA, 1, 1208);
     store.changeKey(YANXIA, 2, 1217);
@@ -765,8 +766,8 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(YANXIA, 36, 1238);
     store.changeKey(YANXIA, 37, 1106); //#endregion
 
-    const CENTRAL_THANALAN = 'duty.fate.thanalan.central-thanalan'; //#region
-    store.moveGroup('duty.fate.thanalan.central', CENTRAL_THANALAN);
+    const CENTRAL_THANALAN = `${FATE}.thanalan.central-thanalan`; //#region
+    store.moveGroup(`${FATE}.thanalan.central`, CENTRAL_THANALAN);
     store.changeKey(CENTRAL_THANALAN, 0, 378);
     store.changeKey(CENTRAL_THANALAN, 1, 370);
     store.changeKey(CENTRAL_THANALAN, 2, 373);
@@ -781,8 +782,8 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(CENTRAL_THANALAN, 11, 385);
     store.changeKey(CENTRAL_THANALAN, 12, 377); //#endregion
 
-    const EASTERN_THANALAN = 'duty.fate.thanalan.eastern-thanalan'; //#region
-    store.moveGroup('duty.fate.thanalan.eastern', EASTERN_THANALAN);
+    const EASTERN_THANALAN = `${FATE}.thanalan.eastern-thanalan`; //#region
+    store.moveGroup(`${FATE}.thanalan.eastern`, EASTERN_THANALAN);
     store.changeKey(EASTERN_THANALAN, 0, 395);
     store.changeKey(EASTERN_THANALAN, 1, 400);
     store.changeKey(EASTERN_THANALAN, 2, 413);
@@ -805,8 +806,8 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(EASTERN_THANALAN, 19, 542);
     store.changeKey(EASTERN_THANALAN, 20, 543); //#endregion
 
-    const NORTHERN_THANALAN = 'duty.fate.thanalan.northern-thanalan'; //#region
-    store.moveGroup('duty.fate.thanalan.northern', NORTHERN_THANALAN);
+    const NORTHERN_THANALAN = `${FATE}.thanalan.northern-thanalan`; //#region
+    store.moveGroup(`${FATE}.thanalan.northern`, NORTHERN_THANALAN);
     store.changeKey(NORTHERN_THANALAN, 0, 642);
     store.changeKey(NORTHERN_THANALAN, 1, 457);
     store.changeKey(NORTHERN_THANALAN, 2, 450);
@@ -824,8 +825,8 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(NORTHERN_THANALAN, 14, 645);
     store.changeKey(NORTHERN_THANALAN, 15, 449); //#endregion
 
-    const SOUTHERN_THANALAN = 'duty.fate.thanalan.southern-thanalan'; //#region
-    store.moveGroup('duty.fate.thanalan.southern', SOUTHERN_THANALAN);
+    const SOUTHERN_THANALAN = `${FATE}.thanalan.southern-thanalan`; //#region
+    store.moveGroup(`${FATE}.thanalan.southern`, SOUTHERN_THANALAN);
     store.changeKey(SOUTHERN_THANALAN, 0, 421);
     store.changeKey(SOUTHERN_THANALAN, 1, 434);
     store.changeKey(SOUTHERN_THANALAN, 2, 420);
@@ -856,8 +857,8 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(SOUTHERN_THANALAN, 27, 557);
     store.changeKey(SOUTHERN_THANALAN, 28, 430); //#endregion
 
-    const WESTERN_THANALAN = 'duty.fate.thanalan.western-thanalan'; //#region
-    store.moveGroup('duty.fate.thanalan.western', WESTERN_THANALAN);
+    const WESTERN_THANALAN = `${FATE}.thanalan.western-thanalan`; //#region
+    store.moveGroup(`${FATE}.thanalan.western`, WESTERN_THANALAN);
     store.changeKey(WESTERN_THANALAN, 0, 342);
     store.changeKey(WESTERN_THANALAN, 1, 356);
     store.changeKey(WESTERN_THANALAN, 2, 343);
@@ -877,7 +878,8 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(WESTERN_THANALAN, 16, 366);
     store.changeKey(WESTERN_THANALAN, 17, 355); //#endregion
 
-    const ANEMOS = 'duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.anemos'; //#region
+    const EUREKA_NM = 'overall.duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters';
+    const ANEMOS = `${EUREKA_NM}.anemos`; //#region
     store.changeKey(ANEMOS, 0, 1332);
     store.changeKey(ANEMOS, 1, 1348);
     store.changeKey(ANEMOS, 2, 1333);
@@ -899,7 +901,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(ANEMOS, 18, 1338);
     store.changeKey(ANEMOS, 19, 1329); //#endregion
 
-    const HYDATOS = 'duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.hydatos'; //#region
+    const HYDATOS = `${EUREKA_NM}.hydatos`; //#region
     store.changeKey(HYDATOS, 0, 1425);
     store.changeKey(HYDATOS, 1, 1412);
     store.changeKey(HYDATOS, 2, 1413);
@@ -915,7 +917,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(HYDATOS, 12, 1424);
     store.changeKey(HYDATOS, 13, 1422); //#endregion
 
-    const PAGOS = 'duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.pagos'; //#region
+    const PAGOS = `${EUREKA_NM}.pagos`; //#region
     store.changeKey(PAGOS, 0, 1367);
     store.changeKey(PAGOS, 1, 1351);
     store.changeKey(PAGOS, 2, 1369);
@@ -936,7 +938,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(PAGOS, 17, 1365);
     store.changeKey(PAGOS, 18, 1364); //#endregion
 
-    const PYROS = 'duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.pyros'; //#region
+    const PYROS = `${EUREKA_NM}.pyros`; //#region
     store.changeKey(PYROS, 0, 1388);
     store.changeKey(PYROS, 1, 1407);
     store.changeKey(PYROS, 2, 1389);
@@ -957,7 +959,7 @@ export function migrateFates(store: ChangeStore): void {
     store.changeKey(PYROS, 17, 1403);
     store.changeKey(PYROS, 18, 1404); //#endregion
 
-    const EVENTS = 'duty.exploratory-missions.the-bozjan-southern-front.events'; //#region
+    const EVENTS = 'overall.duty.exploratory-missions.the-bozjan-southern-front.events'; //#region
     store.changeKey(EVENTS, 0, 1604);
     store.changeKey(EVENTS, 1, 1606);
     store.changeKey(EVENTS, 2, 1602);

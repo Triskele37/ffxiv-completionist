@@ -1,13 +1,10 @@
 {
-    "groupName": "Quêtes de rôle",
-    "tasks": {
-        "x69165": {
-            "name": "L'héroïne de l'ombre",
-            "npc": "Glynard"
-        },
-        "x69521": {
-            "name": "Les cristaux du souvenir",
-            "npc": "Cyella"
-        }
+    "groupName": "Rôle",
+    "headers": {
+        "level": "Level",
+        "role": "Role",
+        "name": "Name",
+        "npc": "NPC",
+        "unlock": "Unlock"
     }
 }

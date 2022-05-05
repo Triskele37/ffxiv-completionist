@@ -265,6 +265,12 @@
         },
         "NOTES": {
             "TITLE": "Patch Notes",
+            "COMMON": {
+                "MANUAL": "Tasks that need manual review",
+                "ADD": "Additions",
+                "CHANGE": "Changes",
+                "FIX": "Fixes"
+            },
             "1_0_0": {
                 "MANUAL": {
                     "TITLE": "Tasks that need manual review",
@@ -281,7 +287,6 @@
                     "L3": "There is currently no intent to chain the BSM & ARM versions of these recipes"
                 },
                 "ADD": {
-                    "TITLE": "Additions",
                     "L1": "Resources up to FFXIV 6.08",
                     "L2": "Splash image on startup",
                     "L3": "Theme customization",
@@ -303,7 +308,6 @@
                     "L19": "Duty > Squadron"
                 },
                 "CHANGE": {
-                    "TITLE": "Changes",
                     "L1": "Completely overhauled Search",
                     "L2": "Applied in-game categories and order to Emotes",
                     "L3": "Condensed row actions into a slide-out menu",
@@ -315,10 +319,21 @@
                     "L9": "Changed custom task reordering to work with row actions menu"
                 },
                 "FIX": {
-                    "TITLE": "Fixes",
                     "L1": "Various data/chain corrections",
                     "L2": "ShB Trust NPCs now start at 71",
                     "L3": "Tasks excluded by default no longer show as incomplete"
+                }
+            },
+            "1_0_1": {
+                "ADD": {
+                    "L1": "Resources up to FFXIV 6.1"
+                },
+                "CHANGE": {
+                    "L1": "Grouped Role Quests by expansion"
+                },
+                "FIX": {
+                    "L1": "Various data/chain corrections",
+                    "L2": "Several columns showing raw link paths"
                 }
             }
         },

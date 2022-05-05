@@ -308,7 +308,7 @@ export function migrateHousing(store: ChangeStore): void {
 }
 
 function buildCrafterPaths(crafter: string) {
-    const BASE = `logs.crafting-log.${crafter}.housing`;
+    const BASE = `overall.logs.crafting-log.${crafter}.housing`;
     return {
         BASE,
         HOUSING_1: `${BASE}.housing-1`,

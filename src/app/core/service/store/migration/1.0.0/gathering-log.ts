@@ -3,65 +3,66 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 /** Reorganize Gathering Special Sections
  * */
 export function migrateGatheringLogs(store: ChangeStore): void {
-    store.moveGroup('logs.gathering-log', 'logs.gathering');
+    const GATHERING = 'overall.logs.gathering';
+    store.moveGroup('overall.logs.gathering-log', GATHERING);
 
     store.moveTask(
-        'logs.gathering.logging.level.66-70',
-        'logs.gathering.logging.level.71-75',
+        `${GATHERING}.logging.level.66-70`,
+        `${GATHERING}.logging.level.71-75`,
         11
     );
 
     //#region Gathering Reorg
     store.moveGroup(
-        'logs.gathering.harvesting',
-        'logs.gathering.gathering-log.harvesting'
+        `${GATHERING}.harvesting`,
+        `${GATHERING}.gathering-log.harvesting`
     );
 
     store.moveGroup(
-        'logs.gathering.logging',
-        'logs.gathering.gathering-log.logging'
+        `${GATHERING}.logging`,
+        `${GATHERING}.gathering-log.logging`
     );
 
     store.moveGroup(
-        'logs.gathering.mining',
-        'logs.gathering.gathering-log.mining'
+        `${GATHERING}.mining`,
+        `${GATHERING}.gathering-log.mining`
     );
 
     store.moveGroup(
-        'logs.gathering.quarrying',
-        'logs.gathering.gathering-log.quarrying'
+        `${GATHERING}.quarrying`,
+        `${GATHERING}.gathering-log.quarrying`
     );
 
-    store.deleteGroup('logs.gathering.harvesting');
-    store.deleteGroup('logs.gathering.logging');
-    store.deleteGroup('logs.gathering.mining');
-    store.deleteGroup('logs.gathering.quarrying');
+    store.deleteGroup(`${GATHERING}.harvesting`);
+    store.deleteGroup(`${GATHERING}.logging`);
+    store.deleteGroup(`${GATHERING}.mining`);
+    store.deleteGroup(`${GATHERING}.quarrying`);
 
     //#endregion
 
     //#region Fishing Reorg
     store.moveGroup(
-        'logs.gathering.fishing.log',
-        'logs.gathering.fishing-log.fishing'
+        `${GATHERING}.fishing.log`,
+        `${GATHERING}.fishing-log.fishing`
     );
 
     store.moveGroup(
-        'logs.gathering.spearfishing.log',
-        'logs.gathering.fishing-log.spearfishing'
+        `${GATHERING}.spearfishing.log`,
+        `${GATHERING}.fishing-log.spearfishing`
     );
 
     store.moveGroup(
-        'logs.gathering.fishing.guide',
-        'logs.gathering.fishing-guide.fishing'
+        `${GATHERING}.fishing.guide`,
+        `${GATHERING}.fishing-guide.fishing`
     );
 
     store.moveGroup(
-        'logs.gathering.spearfishing.guide',
-        'logs.gathering.fishing-guide.spearfishing'
+        `${GATHERING}.spearfishing.guide`,
+        `${GATHERING}.fishing-guide.spearfishing`
     );
 
-    store.deleteGroup('logs.gathering.fishing');
-    store.deleteGroup('logs.gathering.spearfishing');
+    store.deleteGroup(`${GATHERING}.fishing`);
+    store.deleteGroup(`${GATHERING}.spearfishing`);
 
     //#endregion
 
@@ -72,7 +73,7 @@ export function migrateGatheringLogs(store: ChangeStore): void {
 }
 
 function migrateGatherer(store: ChangeStore, key: string): void {
-    const GATHERER = `logs.gathering.gathering-log.${key}`;
+    const GATHERER = `overall.logs.gathering.gathering-log.${key}`;
     const SPECIAL = `${GATHERER}.special`;
 
     //#region Collectables

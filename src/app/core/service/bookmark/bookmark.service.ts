@@ -23,16 +23,15 @@ export class BookmarkService {
         private svcData: DataService,
         private svcSave: SaveStoreService
     ) {
-    }
-
-    initializeBookmarks(): void {
         this.group = DataGroup.fromJSON(this.svcData.data, './bookmarks');
         this.group.isBookmarkGroup = true;
         this.group.subGroups = new Map();
 
         // Put this group in its placeholder
         this.svcData.data.subGroups.set(this.group._key, this.group);
+    }
 
+    initializeBookmarks(): void {
         this.initializeBookmarkTasks();
         this.initializeBookmarkGroups();
     }
@@ -62,7 +61,10 @@ export class BookmarkService {
 
             // Add the task to this group
             const task: Task = this.svcData.data.getChildTask(path);
-            this.group.tasks.push(task);
+            if(task) this.group.tasks.push(task);
+            else {
+                console.error('Unable to find bookmarked task:', path);
+            }
         });
 
         // Re-count totals if data changes
@@ -138,8 +140,9 @@ export class BookmarkService {
 
             // Add the bookmarked group to this group
             const group: DataGroup = this.svcData.data.getChildGroup(path);
-            if(group) {
-                this.group.subGroups.set(group._key, group);
+            if(group) this.group.subGroups.set(group._key, group);
+            else {
+                console.error('Unable to find bookmarked group:', path);
             }
         });
     }

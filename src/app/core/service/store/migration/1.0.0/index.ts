@@ -14,28 +14,42 @@ export function migrateTo_1_0_0(svcSaveStore: SaveStoreService): void {
     const store = new ChangeStore(svcSaveStore, '1.0.0');
 
     // Renamed key
-    store.moveGroup('character.achievements', 'character.achievement');
-    store.moveGroup('duty.quests.beast-tribe.vanu-vanu', 'duty.quests.beast-tribe.vanu');
+    store.moveGroup(
+        'overall.character.achievements',
+        'overall.character.achievement'
+    );
+
+    store.moveGroup(
+        'overall.duty.quests.beast-tribe.vanu-vanu',
+        'overall.duty.quests.beast-tribe.vanu'
+    );
 
     // Renamed in api
-    const ROLE = 'duty.quests.class--job.role';
+    const ROLE = 'overall.duty.quests.class--job.role';
     store.moveGroup(`${ROLE}.magical-dps`, `${ROLE}.magical-ranged-dps`);
 
     // 3 duplicate recipes, clear in-case of unintended markings
-    store.deleteTask('logs.crafting-log.carpenter.level-based.46-50', 1941);
-    store.deleteTask('logs.crafting-log.goldsmith.level-based.46-50', 2139);
-    store.deleteTask('logs.crafting-log.weaver.level-based.41-45', 2837);
+    store.deleteTask('overall.logs.crafting-log.carpenter.level-based.46-50', 1941);
+    store.deleteTask('overall.logs.crafting-log.goldsmith.level-based.46-50', 2139);
+    store.deleteTask('overall.logs.crafting-log.weaver.level-based.41-45', 2837);
 
     // Expanded with expansion
-    store.moveGroup('duty.trust', 'duty.trust.shb');
-    store.moveGroup('travel.shared-fate', 'travel.shared-fate.shb');
+    store.moveGroup(
+        'overall.duty.trust',
+        'overall.duty.trust.shb'
+    );
+
+    store.moveGroup(
+        'overall.travel.shared-fate',
+        'overall.travel.shared-fate.shb'
+    );
 
     // Combined Spiders/Webs facepaint
-    store.deleteTask('character.character.aesthetician', 27);
+    store.deleteTask('overall.character.character.aesthetician', 27);
 
     // Removed FATE bosses from hunt
-    store.deleteTask('duty.dutyraid-finder.the-hunt.shb', 31);
-    store.deleteTask('duty.dutyraid-finder.the-hunt.shb', 32);
+    store.deleteTask('overall.duty.dutyraid-finder.the-hunt.shb', 31);
+    store.deleteTask('overall.duty.dutyraid-finder.the-hunt.shb', 32);
 
     // Large-scale changes by group
     migrateFates(store);
@@ -48,7 +62,7 @@ export function migrateTo_1_0_0(svcSaveStore: SaveStoreService): void {
     migrateAetherCurrents(store);
 
     // Fix "defaultCompletion": "X" being ignored
-    diveForClear(store.newStore);
+    diveForClear(store.newStore.overall);
 
     store.write();
 }

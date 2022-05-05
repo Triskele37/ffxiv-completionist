@@ -1,21 +1,11 @@
 {
     "key": "role",
-    "tasks": {
-        "x69165": {
-            "level": 80,
-            "cSiblings": [
-                "character.achievement.quests.quests.2305"
-            ],
-            "cNext": [
-                69521
-            ]
+    "headers": {
+        "role": {
+            "filterable": true
         },
-        "x69521": {
-            "level": 80,
-            "cPrev": [
-                69165,
-                "duty.quests.main-scenario.post-shadowbringers.69318"
-            ]
+        "unlock": {
+            "link": true
         }
     }
 }

@@ -10,7 +10,7 @@ export function migratePaladinArms(store: ChangeStore): void {
         shieldId: number,
         armsId: number // new recipe shares the same ID between BSM/ARM
     ): void => {
-        const path = 'logs.crafting-log.{{crafter}}.master-recipes.master-recipes-' + mr;
+        const path = 'overall.logs.crafting-log.{{crafter}}.master-recipes.master-recipes-' + mr;
 
         const BSM = path.replace('{{crafter}}', 'blacksmith');
         const swordCompleted = store.getTask(BSM, swordId) === Completion.Y;

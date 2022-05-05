@@ -1,13 +1,10 @@
 {
     "groupName": "Role",
-    "tasks": {
-        "x69165": {
-            "name": "Shadow Walk with Me",
-            "npc": "Glynard"
-        },
-        "x69521": {
-            "name": "Safekeeping",
-            "npc": "Cyella"
-        }
+    "headers": {
+        "level": "Level",
+        "role": "Role",
+        "name": "Name",
+        "npc": "NPC",
+        "unlock": "Unlock"
     }
 }

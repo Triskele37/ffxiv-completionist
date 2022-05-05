@@ -3,7 +3,7 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 /** Sorted Porters into groups matching in-game
  * */
 export function migratePorters(store: ChangeStore): void {
-    const PORTERS = 'travel.porters';
+    const PORTERS = 'overall.travel.porters';
 
     store.moveTasks(PORTERS, `${PORTERS}.la-noscea`, [
         0, 1, 2, 3, 4, 5, 6, 7, 8
