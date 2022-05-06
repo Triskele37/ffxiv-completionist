@@ -163,16 +163,16 @@
                 }
             },
             "CHAINING": {
-                "TITLE": "Reliement",
+                "TITLE": "Liaison",
                 "OVERVIEW": {
                     "TITLE": "Aperçu",
-                    "L1": "\"Reliement\" est le terme utilisé pour décrire le moment où la validation d'une tâche entrâine automatiquement d'une autre",
+                    "L1": "\"Liaison\" est le terme utilisé pour décrire le moment où la validation d'une tâche entrâine automatiquement d'une autre",
                     "L11": "Les tâches sont reliées \"en arrière\" si une tâche ne peut être complétée sans la complétion d'une précédente tâche",
                     "L12": "Les tâches sont reliées ensemble si la complétion d'une des tâches ne peut se faire sans l'autre",
                     "L13": "Les tâches sont reliées si la complétion d'une empêche la complétion d'une autre",
                     "L14": "Les tâches sont reliées si chaques tâches requises pour la complétion d'une tâche sont complétées",
                     "L15": "Les tâches à complétion numériques sont reliées de la même manière que les tâches normales",
-                    "L2": "Le reliement peut être désactivé dans les options"
+                    "L2": "La Liaison peut être désactivée dans les options"
                 },
                 "SPECIFICS": {
                     "TITLE": "Spécifités",
@@ -183,17 +183,17 @@
                 },
                 "INTERFACE": {
                     "TITLE": "Interface",
-                    "L1": "Toute page possédant un tableau possède le menu de reliement",
+                    "L1": "Toute page possédant un tableau possède le menu de liaison",
                     "L2": "Le bouton clignotera si la tâche la plus récemment complétée est reliées à une autre tâche",
                     "L3": "Vous pouvez vous diriger dans les catégories affectées en utilisant le bouton",
-                    "L4": "Vous pouvez annulez l'évènement de reliement le plus récent",
+                    "L4": "Vous pouvez annulez l'évènement de liaison le plus récent",
                     "L5": "PS: L'annulation n'est pas disponible pour toutes tâches personnalisées ou les options de classe de début"
                 },
                 "SETTINGS": {
                     "TITLE": "Options",
-                    "L1": "Activer/Désactiver: Permet d'activer ou de désactiver complètement le reliement",
+                    "L1": "Activer/Désactiver: Permet d'activer ou de désactiver complètement la liaison",
                     "L2": "Limite de l'historique: Défini la limite d'événement de tâches reliées gardées en mémoire",
-                    "L3": "Seuil minimal: Défini le nombre de tâches reliées autorisées avant de rétracter la catégorie dans le menu de reliement",
+                    "L3": "Seuil minimal: Défini le nombre de tâches reliées autorisées avant de rétracter la catégorie dans le menu de liaison",
                     "L4": "PS: des problème de mémoire peuvent survenir si la Limite de l'historique est trop haute"
                 }
             },
@@ -409,18 +409,18 @@
                 }
             },
             "CHAINING": {
-                "TITLE": "Reliement",
+                "TITLE": "Liaison",
                 "ENABLED": {
-                    "LABEL": "Reliement activé",
+                    "LABEL": "Liaison activée",
                     "TOOLTIP": "Active ou désactive la complétion automatique des tâches liées à la complétion d'autres tâches"
                 },
                 "HISTORY": {
                     "LABEL": "Limite de l'historique",
-                    "TOOLTIP": "Le nombre de reliement affichés dans l'historique dont l'annulation est permise"
+                    "TOOLTIP": "Le nombre de liaison affichées dans l'historique dont l'annulation est permise"
                 },
                 "THRESHOLD": {
                     "LABEL": "Seuil minimal",
-                    "TOOLTIP": "Le menu de reliement rétractera automatiquement les catégories quand le nombre d'objets reliés atteint ce nombre"
+                    "TOOLTIP": "Le menu de liaison rétractera automatiquement les catégories quand le nombre d'objets reliés atteint ce nombre"
                 }
             }
         },
@@ -486,8 +486,8 @@
             "TEAMCRAFT": "Ouvrir dans Teamcraft"
         },
         "CHAIN": {
-            "NO_CONTENT": "Aucune information de reliement à afficher",
-            "UNDO": "Annuler ce reliement",
+            "NO_CONTENT": "Aucune information de liaison à afficher",
+            "UNDO": "Annuler cette liaison",
             "VERIFY": "Êtes-vous sûrs ?",
             "CHAINED": "Lier à {{count}} autre tâche/s"
         },
