@@ -105,16 +105,16 @@
                 },
                 "CUSTOM_TASKS": {
                     "TITLE": "Tâches personnalisées",
-                    "L1": "Les Tâches peuvent être rentrer manuellement dans cette catégorie avec des notes personnalisés",
+                    "L1": "Dans cette catégorie, les tâches peuvent être entrer manuellement avec des commentaires personnalisés",
                     "L2": "Les Tâches personnalisés peuvent être édités en les sélectionnant",
                     "L3": "Les Tâches personnalisés peuvent être réarrangés avec le Menu \"Commandes sur les lignes\"",
                     "L4": "Les Tâches personnalisés ont la possibilité de fusionné avec l'application, cela permet des mis à jour plus simple après les différents patch",
                     "MERGING": {
-                        "TITLE": "Notes à propos de la fusion:",
+                        "TITLE": "Commentaires à propos de la fusion:",
                         "L1": "Les recherches sur la fusion sont sensible à la casse et ignore tout ce qui n'est pas un chiffre ou une lettre",
-                        "L2": "Les recherches sur la fusion se font sur des mots complets, les recherches partielles ne seront pas montrer",
-                        "L3": "En cliquant sur l'un des résultats, la tâche personnalisée sera supprimée avec sa note",
-                        "L4": "Toutes les tâches comportant une seule correspondance peuvent être fusionnée automatiquement sans avoir besoin de confirmer pour chaque tâche"
+                        "L2": "Les recherches sur la fusion se font sur des mots complets, les recherches partielles ne seront pas afficher",
+                        "L3": "En cliquant sur l'un des résultats, la tâche personnalisée sera supprimée avec son commentaire",
+                        "L4": "Toutes les tâches comportant une seule correspondance peuvent être fusionnée automatiquement sans confirmation pour chaque tâche"
                     }
                 }
             },
@@ -430,8 +430,8 @@
             "NO_SEARCH": "Veuillez rentrer un terme de recherche",
             "TOO_SHORT": "Veuillez rentrer un minimum de 3 caractères",
             "NO_RESULTS": "Aucune tâche trouvée",
-            "EXPAND": "Étendre",
-            "COLLAPSE": "Rétracter",
+            "EXPAND": "Étendre les résultats",
+            "COLLAPSE": "Rétracter les résultats",
             "SEARCH_NAME": "Rechercher dans les colonnes nommées",
             "SEARCH_COLUMN": "Rechercher dans toutes les colonnes",
             "MATCHES": "Correspondance/s",
@@ -449,8 +449,8 @@
         "VIEW_LINKS": "Afficher la totalité",
         "ROW_ACTION": {
             "TITLE": "Commandes sur les lignes",
-            "BOOKMARK": "Ajouter marque-page à la tâche",
-            "UNBOOKMARK": "Enlever marque-page à la tâche",
+            "BOOKMARK": "Ajouter un marque-page à la tâche",
+            "UNBOOKMARK": "Enlever le marque-page à la tâche",
             "REORDER": "Réarranger la ligne",
             "GARLAND": "Garland Tools",
             "ESCAPE": "Gamer Escape",
@@ -460,7 +460,7 @@
     "OVERLAY": {
         "HISTORY": {
             "TITLE": "Historique",
-            "NO_CONTENT": "Historique vide"
+            "NO_CONTENT": "Rien à afficher"
         },
         "QUICK_MARK": {
             "TITLE": "Commandes de Coche-rapide",
@@ -468,7 +468,7 @@
             "N-Y": "Changer les non complétés en complété",
             "N-X": "Changer les non complétés en exclus",
             "Y-N": "Changer les complétés en non complété",
-            "Y-X": "Changer les complétés en exclus Complete as Excluded",
+            "Y-X": "Changer les complétés en exclus",
             "X-N": "Changer les exclus en non complété",
             "X-Y": "Changer les exclus en complété",
             "S-Y": "Changer les sélectionnés en complété",
@@ -497,11 +497,11 @@
             "REM_BOOKMARK": "Enlever le marque-page à la catégorie"
         },
         "CUSTOM": {
-            "NAME_PLACEHOLDER": "Rentrer la tâche personnalisée ici",
-            "NOTE_PLACEHOLDER": "Rentrer la note de tâche personnalisée ici",
+            "NAME_PLACEHOLDER": "Entrer la tâche personnalisée ici",
+            "NOTE_PLACEHOLDER": "Entrer un commentaire sur la tâche personnalisée ici",
             "ADD": "Ajouter une tâche",
             "AUTO": "Fusionner les tâches avec une correspondance",
-            "MERGE": "Fusionner les tâches dans l'application",
+            "MERGE": "Fusionner les tâches de l'application",
             "REMOVE": "Supprimer les tâches sélectionnées",
             "MATCH": "Correspondances trouvées",
             "NO_MATCH": "Aucune correspondance trouvée",
@@ -514,8 +514,8 @@
         "NAVIGATE": "Cliquer pour naviguer vers",
         "GROUP_NAVIGATE": "Naviguer vers cette catégorie",
         "TASK_NAVIGATE": "Naviguer vers cette tâche",
-        "REMAINING": "Restant",
-        "EXCLUDED": "Exclus",
+        "REMAINING": "Tâche Restante",
+        "EXCLUDED": "Tâche Exclues",
         "WEIGHT": "Poids"
     }
 }
