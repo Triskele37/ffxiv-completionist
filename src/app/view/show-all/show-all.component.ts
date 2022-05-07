@@ -1,5 +1,5 @@
 import { Component, Input, OnChanges, OnDestroy, SimpleChanges } from '@angular/core';
-
+import {TranslateService} from '@ngx-translate/core';
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 
@@ -12,6 +12,7 @@ export class ShowAllComponent implements OnChanges, OnDestroy {
     @Input() group: DataGroup;
 
     tasks: Task[];
+    private translate : TranslateService;
 
     ngOnChanges(changes: SimpleChanges): void {
         if(changes.group) {
@@ -22,7 +23,7 @@ export class ShowAllComponent implements OnChanges, OnDestroy {
 
             this.group.columns.unshift({
                 key: 'contentLink',
-                header: 'Group'
+                header: this.translate.instant('TABLE.GROUP')
             });
         }
     }
