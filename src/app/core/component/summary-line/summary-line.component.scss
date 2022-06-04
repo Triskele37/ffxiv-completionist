@@ -1,3 +1,5 @@
+@import './ellipsis-overflow';
+
 :host {
     display: contents;
 
@@ -48,10 +50,17 @@
             width: calc(33% - 20px);
 
             .summary-info {
-                left: 5px;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+
+                .group-name {
+                    @extend %ellipsis-overflow;
+                    margin: 0 5px;
+                }
 
                 .percent-complete {
-                    float: right;
+                    margin-right: 5px;
                 }
             }
         }

@@ -48,8 +48,10 @@ export class SummaryLineComponent implements OnChanges {
             groupPath.shift(); // remove overall
             groupPath.pop(); // remove group name
 
-            this.tooltip += `${groupPath.join(' > ')}\n\n`;
+            this.tooltip += `${groupPath.join(' > ')}\n`;
         }
+
+        this.tooltip += this.group.name + '\n\n';
 
         const { total, totalCompleted, totalExcluded, displayTotal } = this.group;
         const remaining = Math.ceil((total - totalExcluded) - totalCompleted);

@@ -11,22 +11,33 @@
 
         ::ng-deep .p-button {
             // Box style icon buttons
-            height: 34px;
+            height: 100%;
             width: 34px;
         }
     }
 
     p-breadcrumb {
-        flex-grow: 1;
+        display: contents;
 
         ::ng-deep {
             .p-breadcrumb {
                 border-top-left-radius: 0;
                 border-bottom-left-radius: 0;
+                padding: unset;
+
+                // Fit the whole page
+                display: flex;
+                flex-grow: 1;
 
                 // Make cursor a pointer when hovering a breadcrumb MenuItem
                 .p-menuitem-link {
                     cursor: pointer;
+                }
+
+                &::-webkit-scrollbar {
+                    // Override unknown source of display: none;
+                    display: unset;
+                    height: 10px;
                 }
             }
         }
