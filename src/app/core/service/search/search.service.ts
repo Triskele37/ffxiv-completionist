@@ -86,9 +86,10 @@ export class SearchService {
         const matches: Match[] = [];
 
         // Recurse downward
-        group.subGroups?.forEach((subGroup) =>
-            matches.push(...this.searchGroupForTerm(subGroup, searchTerm, expanded, partial))
-        );
+        group.subGroups?.forEach((subGroup) => {
+            if(subGroup.isBookmarkGroup) return;
+            matches.push(...this.searchGroupForTerm(subGroup, searchTerm, expanded, partial));
+        });
 
         // Search current group
         group.tasks.forEach((task) => {
