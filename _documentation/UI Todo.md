@@ -7,6 +7,7 @@
 - coordinate viewer (maps)
 - Installation
     - auto-update
+- Patch content viewer
 
 **Change**
 - replace most of Guide with Active Help
