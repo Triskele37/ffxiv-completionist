@@ -1,9 +1,9 @@
 {
     "LANDING": {
-        "HEADER": "Welcome to the FFXIV Completionist App!",
-        "GUIDE": "Getting Started",
-        "PATCH_NOTES": "What's New",
-        "COMPLETION": "Completion Overview"
+        "HEADER": "Bienvenue sur l'application FFXIV Completionist!",
+        "GUIDE": "Pour commencer",
+        "PATCH_NOTES": "Nouveauté",
+        "COMPLETION": "Aperçu de la complétion"
     },
     "MAIN": {
         "TITLE": "FFXIV Completionist",
@@ -12,244 +12,244 @@
             "NAVIGATION": {
                 "TITLE": "Navigation",
                 "NAV_DRAWER": {
-                    "TITLE": "Navigation Drawer (that thingy on the left)",
-                    "L1": "This UI shows all top level groups at all times as well as the home menu (FFXIV Completionist)",
-                    "L2": "Clicking one of these groups expands its sub groups while the previously selected group's retracts"
+                    "TITLE": "Menu de Navigation (Cette chose à gauche)",
+                    "L1": "Cette partie du menu vous montrera l'arbre de chaque catégorie ainsi que le menu principal (FFXIV Completionist)",
+                    "L2": "En cliquant sur l'une de ces catégories, les sous-catégories de cette catégorie apparaissent tandis que les sous-catégories précédemment affichées disparaissent"
                 },
                 "CRUMBS": {
-                    "TITLE": "Breadcrumbs (that chain of groups just below the overall completion metric)",
-                    "L1": "Clicking one of these navigates back up to that earlier parent group"
+                    "TITLE": "Le fil d'Ariane (l'enchaînement de catégories en dessous du pourcentage de complétion)",
+                    "L1": "Cliquer sur l'une des catégories pour vous y diriger"
                 },
                 "NAV_HISTORY": {
-                    "TITLE": "Navigation History (the button to the left of the breadcrumbs)",
-                    "L1": "Several previously opened groups are cached in this menu",
-                    "L2": "Clicking on one of these navigates to that group"
+                    "TITLE": "Historique de navigation (le bouton à gauche du fil d'Ariane)",
+                    "L1": "Les catégories précédemment ouvertes sont stockés dans cet onglet",
+                    "L2": "Cliquer sur l'une des catégories pour vous y diriger"
                 },
                 "COMPLETION": {
-                    "TITLE": "Completion Bars (those pretty bars that show up when a group is selected)",
-                    "L1": "When any group that shows completion bars is selected, you can click on those bars to dive down instead of using the nav drawer"
+                    "TITLE": "Barres de complétion (ces mignognes barres qui se montrent après avoir cliquer sur l'une des catégories de navigation)",
+                    "L1": "Quand l'une des catégories possédant une barre de complétion est sélectionnée, vous pouvez cliquer sur ces barres pour vous diriger au lieu d'utiliser le menu de navigation"
                 },
                 "SEARCH": {
-                    "TITLE": "Search",
-                    "L1": "The Search input in the top-left of the page enables searching the entire app for a term",
-                    "L2": "After entering the term hit Enter or click the search button to run the search",
-                    "L3": "Clicking on a group in the results takes you directly to that group",
-                    "L4": "The search input can be focused by hitting Ctrl+F or Cmd+F"
+                    "TITLE": "Recherche",
+                    "L1": "Vous pouvez rechercher une mot dans l'application en utilisant l'entrée de recherche situé en haut à gauche",
+                    "L2": "Après avoir rentré votre terme de recherche, appuyer sur Entrée ou cliquer sur le bouton de recherche pour lancer la recherche",
+                    "L3": "Cliquer sur l'une des catégories dans les résultats de recherche pour vous y diriger",
+                    "L4": "La recherche peut être activée avec les touches Ctrl+F ou Cmd+F"
                 },
                 "SHOW_ALL": {
-                    "TITLE": "Show All Tasks",
-                    "L1": "Groups that have sub groups with similar data have a \"Show All Tasks\" button",
-                    "L2": "Activating this gives a table with all tasks from each sub group",
-                    "L3": "An additional column is added indicating which sub group the task comes from",
-                    "L4": "Clicking the link in this column navigates to that sub group",
-                    "L5": "When showing all tasks, the button becomes \"Exit All Task View\" which deactivates the table"
+                    "TITLE": "Montrer les tâches",
+                    "L1": "Les catégories possédant plusieurs sous-catégories avec des données similaires possèdent un bouton \"Montrer les tâches\"",
+                    "L2": "Appuyer sur ce bouton pour créer un tableau avec toutes les tâches de toutes les sous-catégories",
+                    "L3": "Une colonne additionnelle est rajoutée pour indiquer à quelle sous-catégorie la tâche appartient",
+                    "L4": "Cliquer sur le lien de la sous-catégorie pour vous y diriger",
+                    "L5": "Quand le bouton \"Montrer les tâches\" est actionné, le bouton \"Cacher les tâches\" le remplace"
                 },
                 "CELL_LINK": {
-                    "TITLE": "Cell Links",
-                    "L1": "Some cells may have one or multiple links to other content",
-                    "L2": "Clicking on one of these links navigates to that content",
-                    "L3": "If the link is inside a tooltip, click on the value in the cell first"
+                    "TITLE": "Liens des cellules",
+                    "L1": "Certaines cellules peuvent avoir un ou plusieurs lien vous dirigeant vers d'autre contenu",
+                    "L2": "En cliquant sur l'un de ces liens, vous serez redirigé vers ce contenu",
+                    "L3": "Si le lien est dans une info-bulle, Cliquer d'abord sur la cellule"
                 },
                 "PERSIST": {
-                    "TITLE": "Persistence",
-                    "L1": "The currently selected group is saved when closing the app"
+                    "TITLE": "Persistance",
+                    "L1": "La catégorie actuellement selectionnée est sauvegardée en quittant l'application"
                 }
             },
             "TASK_TABLE": {
-                "TITLE": "Task Table",
+                "TITLE": "Tableau des tâches",
                 "SORTING": {
-                    "TITLE": "Sorting",
-                    "L1": "Columns can be sorted by clicking the column title",
-                    "L2": "The icons in the column headers indicate the currently active sort"
+                    "TITLE": "Tri",
+                    "L1": "Vous pouvez trier les colonnes en cliquant sur son nom",
+                    "L2": "L'icone dans le nom de colonnes indique le tri actif"
                 },
                 "FILTER_COMPLETION": {
-                    "TITLE": "Filter Completion",
-                    "L1": "At the top of completion columns are 3 icons that indicate \"completed\", \"not completed\", and \"excluded\"",
-                    "L2": "These can be enabled/disabled separately and their state is saved between tables and reloads",
-                    "L3": "Items in the table that match any enabled icon will be displayed"
+                    "TITLE": "Filtre sur la complétion",
+                    "L1": "Au sommet de cette colonne se trouve trois boutons indiquant \"completed\", \"not completed\", and \"excluded\"",
+                    "L2": "Ces boutons peuvent être activés/désactivés séparemment et leurs status sont sauvegardés entre chaque tableau",
+                    "L3": "Les entrées correspondantes à n'importe laquelle des icones activées sont affichées"
                 },
                 "FILTER_COLUMN": {
-                    "TITLE": "Filter Columns",
-                    "L1": "At the top of each column is a text input to filter tasks in that table",
-                    "L2": "This input may have a dropdown if the column has few unique values",
-                    "L3": "This filter is case-insensitive and matches anywhere within that column",
-                    "L4": "Entering \"Blank\" will filter for tasks without a value in that column"
+                    "TITLE": "Filtre sur les colonnes",
+                    "L1": "Au sommet de chaque colonnes se trouvent des zone de texte permettant de filtrer les tâches dans ce tableau",
+                    "L2": "Cette zone peut être un menu déroulant si la colonne possède plusieurs valeurs uniques",
+                    "L3": "Ce filtre est sensible à la casse et le filtre est partiel (exemple: \"onj\" en recherche vous donnera en résultat \"bonjour\"",
+                    "L4": "Entrer \"Blank\" filtrera les tâches qui ne possèdent pas de valeurs dans cette colonne"
                 },
                 "SELECT": {
-                    "TITLE": "Select Items",
-                    "L1": "Clicking on any row will \"select\" it and turn it a different color",
-                    "L2": "The \"Quick-Mark\" and \"Selection Actions\" overlays contain actions for selected tasks",
-                    "L3": "In Crafting Log groups this menu contains an option to export all selected recipes to external sites"
+                    "TITLE": "Sélection d'objets",
+                    "L1": "Cliquer sur une ligne la \"sélectionnera\" et la changera de couleur",
+                    "L2": "Les menus \"Coche-rapide\" et \"Tâches sélectionnées\" contiennent des actions pour les tâches selectionnées",
+                    "L3": "Dans la catégorie Carnet d'Artisanat, une option pour exporter toutes les recettes sélectionnées vers un site externe est disponible"
                 },
                 "ROW_ACTION": {
-                    "TITLE": "Row Actions",
-                    "L1": "The last column in every row has a \"Row Action\" menu",
-                    "L2": "Some actions attempt to export the task to external sites",
-                    "L3": "NOTE: Some tasks may not open properly on external sites"
+                    "TITLE": "Actions sur les lignes",
+                    "L1": "La dernière colonne de chaque ligne possède un menu \"Row Action\"",
+                    "L2": "Certaines actions vous dirigerons vers un site externe",
+                    "L3": "PS: Certaines tâches ne s'ouvriront pas correctement sur les sites externes"
                 },
                 "VIRTUAL": {
-                    "TITLE": "Virtual Scrolling",
-                    "L1": "In order to accomodate quick rendering of particularly large groups, all tables implement \"virtual scrolling\"",
-                    "L2": "As tables are scrolled, their header may jitter, this is a product of that feature"
+                    "TITLE": "Barre de défilement",
+                    "L1": "Pour pouvoir charger rapidement des catégories particulièrement larges, tous les tableaux possèdent une \"Barre de défilement\"",
+                    "L2": "Quand vous défilerez les tableaux, leurs entêtes peuvent bouger, cela est causé par cette fonctionnalité"
                 }
             },
             "PERSONAL_GROUPS": {
-                "TITLE": "Personal Groups",
+                "TITLE": "Catégories personnalisées",
                 "BOOKMARKS": {
-                    "TITLE": "Bookmarks",
-                    "L1": "Individual tasks can be added or removed from bookmarks through the row action menu",
-                    "L2": "Groups can be added or removed as well through the \"Table Settings\" overlay",
-                    "L3": "Bookmarked tasks are counted toward completion of the Bookmarks group",
-                    "L4": "Bookmarked groups are not counted toward completion of the Bookmarks group",
-                    "L5": "Bookmarked items are not duplicated in the Overall percentage"
+                    "TITLE": "Marque-page",
+                    "L1": "Des marque-pages peuvent être ajoutées ou supprimées des tâches individuelles avec le menu \"Commandes sur les lignes\"",
+                    "L2": "Les catégories peuvent aussi être ajoutées ou supprimées avec le menu \"Commandes sur tableau\"",
+                    "L3": "Les tâches mis en signet sont comptabilisées dans la complétion de la catégorie Marque-Page",
+                    "L4": "Les catégories mis en signet ne sont pas comptabilisées dans la complétion de la catégorie Marque-Page",
+                    "L5": "Les objets mis en signet ne sont pas dupliqués dans le pourcentage de complétion globale"
                 },
                 "CUSTOM_TASKS": {
-                    "TITLE": "Custom Tasks",
-                    "L1": "Tasks can be manually added in this group along with custom notes",
-                    "L2": "Custom tasks can be edited by selecting them",
-                    "L3": "Custom tasks can be reordered through the row action menu",
-                    "L4": "Custom tasks also have the ability to merge into the app, allowing for easier updates after patches",
+                    "TITLE": "Tâches personnalisées",
+                    "L1": "Dans cette catégorie, les tâches peuvent être entrer manuellement avec des commentaires personnalisés",
+                    "L2": "Les Tâches personnalisés peuvent être édités en les sélectionnant",
+                    "L3": "Les Tâches personnalisés peuvent être réarrangés avec le Menu \"Commandes sur les lignes\"",
+                    "L4": "Les Tâches personnalisés ont la possibilité de fusionné avec l'application, cela permet des mis à jour plus simple après les différents patch",
                     "MERGING": {
-                        "TITLE": "Notes about merging:",
-                        "L1": "Merge searches are case-insensitive and ignores anything that isn't a letter or number",
-                        "L2": "Merge searches look for the whole name of the task, partials will not be displayed",
-                        "L3": "Upon clicking one of the matches for merge, that Custom Task will be removed along with its notes",
-                        "L4": "All tasks with a single match can be auto-merged without needing to confirm each one"
+                        "TITLE": "Commentaires à propos de la fusion:",
+                        "L1": "Les recherches sur la fusion sont sensible à la casse et ignore tout ce qui n'est pas un chiffre ou une lettre",
+                        "L2": "Les recherches sur la fusion se font sur des mots complets, les recherches partielles ne seront pas afficher",
+                        "L3": "En cliquant sur l'un des résultats, la tâche personnalisée sera supprimée avec son commentaire",
+                        "L4": "Toutes les tâches comportant une seule correspondance peuvent être fusionnée automatiquement sans confirmation pour chaque tâche"
                     }
                 }
             },
             "COMPLETION": {
-                "TITLE": "Completion",
+                "TITLE": "Complétion",
                 "MARKING": {
-                    "TITLE": "Marking Completion",
-                    "L1": "When navigated to a group that has tasks there will be a table",
-                    "L2": "On the left of that table is the completion column",
-                    "L3": "Left Click: Toggles the task's completion",
-                    "L31": "from \"N\" to \"Y\"",
-                    "L32": "from \"Y\" to \"N\"",
-                    "L33": "from \"X\" to \"Y\"",
-                    "L4": "Right Click: Mark the task as \"X\""
+                    "TITLE": "Marquer la Complétion",
+                    "L1": "Un tableau sera montrer après la navigation dans une catégorie comportant des tâches",
+                    "L2": "Sur la gauche de ce tableau ce trouve la colonne de complétion",
+                    "L3": "Clic gauche: Bascule la complétion de la tâche",
+                    "L31": "De \"N\" à \"Y\"",
+                    "L32": "De \"Y\" à \"N\"",
+                    "L33": "De \"X\" à \"Y\"",
+                    "L4": "Clic droit: Bascule la tâche en \"X\""
                 },
                 "NUMERIC": {
-                    "TITLE": "Numeric Completion",
-                    "L1": "Some groups have completion based on a number range",
-                    "L2": "In these tables the completion column will instead contain an numeric input field",
-                    "L3": "These fields validate data entered into them, so data entered may be changed to fit within the range",
-                    "L4": "These fields only commit the data entered after clicking away from them",
-                    "L5": "The arrows next to the field may also be used to change the value by a single step"
+                    "TITLE": "Complétion numérique",
+                    "L1": "Certaines catégories ont des complétions numériques",
+                    "L2": "Pour ces tableaux, la colonne de complétion contiendra une zone de texte pour chiffres",
+                    "L3": "Ces zones de texte vérifient les données qui leurs sont entrées, ces données puevent donc être changer pour respecter la limite",
+                    "L4": "Ces zones de texte ne prennent en compte le changement que quand elles sont désélectionnées",
+                    "L5": "Les flêches présentent à côté de ces zones de texte peuvent aussi être utilisées pour changer la valeur en une seule étape"
                 },
                 "QUICK_MARK": {
-                    "TITLE": "Quick-Mark Overlay",
-                    "L1": "Above the table is an overlay menu that has several options for altering completion state of many tasks at once",
-                    "L2": "Only visible tasks will be modified by the actions in this menu"
+                    "TITLE": "Menu de Coche-rapide",
+                    "L1": "Au dessus du tableau se trouve un menu permettant de changer la complétion de plusieurs tâches en une fois",
+                    "L2": "Seules les tâches visibles seront modifiées par ce menu"
                 },
                 "CALCULATIONS": {
-                    "TITLE": "Calculations",
-                    "L1": "Tasks marked as \"X\" are excluded from completion percentages",
-                    "L2": "Numeric completion tasks are counted as their value minus their base value",
-                    "L3": "i.e. Reaper starts at 70, so will only count as 10 points if set to 80",
-                    "L4": "Tasks are not weighted so completing an ultimate nets the same progress as crafting an Oak Lumber",
-                    "L5": "Custom tasks are counted toward overall completion"
+                    "TITLE": "Calcul",
+                    "L1": "Les tâches marquées comme \"X\" sont exclus du calcul du pourcentage de complétion",
+                    "L2": "Les complétion numériques sont comptabilisées comme leur valeur actuel moins la valeur de base",
+                    "L3": "Exemple: Le Faucheur débute au niveau 70, il ne comptera donc que pour 10 points s'il est mis comme niveau 80",
+                    "L4": "Les tâches ont toutes le même coefficient, compléter un raid fatal rapporte donc la même chose que la fabrication d'un madrier de chêne",
+                    "L5": "Les tâches personnalisées sont comptées dans la complétion globale"
                 },
                 "STATISTICS": {
-                    "TITLE": "Statistics",
-                    "L1": "Hovering over the progress bar for any group gives you a tooltip detailing that group's completion stats"
+                    "TITLE": "Statistiques",
+                    "L1": "Survoler la barre de progression d'une catégorie vous permet de voir des statistiques sur la complétion de cette catégorie"
                 },
                 "SAVING": {
-                    "TITLE": "Saving",
-                    "L1": "Completion is saved as soon as tasks are marked",
-                    "L2": "Completion is migrated between versions of the app",
-                    "L3": "Sometimes Patch Notes will indicate tasks that need to be manually reviewed"
+                    "TITLE": "Sauvegarde",
+                    "L1": "La complétion est sauvegardée dès qu'une tâche voit sa complétion modifiée",
+                    "L2": "La complétion est sauvegardée entre chaque version de l'application",
+                    "L3": "Parfois, les patch indiqueront des tâches qui devront être revues manuellement"
                 }
             },
             "CHAINING": {
-                "TITLE": "Chaining",
+                "TITLE": "Liaison",
                 "OVERVIEW": {
-                    "TITLE": "Overview",
-                    "L1": "\"Chaining\" is the term used for when the app auto-marks a related task to the one just marked",
-                    "L11": "Tasks are chained backwards if the marked task could not have been completed without the previous",
-                    "L12": "Tasks are chained together if it is not possible to have one without the other",
-                    "L13": "Tasks can chain to exclude another task if they are mutually exclusive",
-                    "L14": "Tasks can be chained if each required task is completed",
-                    "L15": "Numeric tasks can be chained in the same way normal tasks can",
-                    "L2": "Chaining can be disabled in the settings page"
+                    "TITLE": "Aperçu",
+                    "L1": "\"Liaison\" est le terme utilisé pour décrire le moment où la validation d'une tâche entrâine automatiquement d'une autre",
+                    "L11": "Les tâches sont reliées \"en arrière\" si une tâche ne peut être complétée sans la complétion d'une précédente tâche",
+                    "L12": "Les tâches sont reliées ensemble si la complétion d'une des tâches ne peut se faire sans l'autre",
+                    "L13": "Les tâches sont reliées si la complétion d'une empêche la complétion d'une autre",
+                    "L14": "Les tâches sont reliées si chaques tâches requises pour la complétion d'une tâche sont complétées",
+                    "L15": "Les tâches à complétion numériques sont reliées de la même manière que les tâches normales",
+                    "L2": "La Liaison peut être désactivée dans les options"
                 },
                 "SPECIFICS": {
-                    "TITLE": "Specifics",
-                    "L1": "Items that must be used after acquiring them from another task are not chained",
-                    "L2": "Tasks that require \"X\" amount of some thing may not be chained if:",
-                    "L21": "X is something other than 1, all, or a contiguous range",
-                    "L22": "That thing is not a numeric completion task"
+                    "TITLE": "Spécifités",
+                    "L1": "Les objets qui doivent être utilisés pour les obtenir et provenant d'une autre tâche ne sont pas reliés",
+                    "L2": "Les tâches nécessitant \"X\" quantités de quelques choses ne sont pas reliées si:",
+                    "L21": "X est quelque chose de différent de 1, tous, ou un bloc de cellules",
+                    "L22": "Cette chose n'est pas une tâche à complétion numérique"
                 },
                 "INTERFACE": {
                     "TITLE": "Interface",
-                    "L1": "Any page with a table will have the chain overlay available",
-                    "L2": "The overlay button will pulse if the most recently marked task chained to other tasks",
-                    "L3": "Affected groups can be navigated to using this overlay",
-                    "L4": "An undo is available for the most recently chained events",
-                    "L5": "NOTE: Undo is not available for chains from custom tasks or setting starting class"
+                    "L1": "Toute page possédant un tableau possède le menu de liaison",
+                    "L2": "Le bouton clignotera si la tâche la plus récemment complétée est reliées à une autre tâche",
+                    "L3": "Vous pouvez vous diriger dans les catégories affectées en utilisant le bouton",
+                    "L4": "Vous pouvez annulez l'évènement de liaison le plus récent",
+                    "L5": "PS: L'annulation n'est pas disponible pour toutes tâches personnalisées ou les options de classe de début"
                 },
                 "SETTINGS": {
-                    "TITLE": "Settings",
-                    "L1": "Enable/Disable: Allows you to turn chaining on or off completely",
-                    "L2": "History Limit: The amount of chained events to keep in memory to undo",
-                    "L3": "Min Threshold: Sets the number of chained tasks allowed before collapsing groups within the chain overlay",
-                    "L4": "NOTE: Setting the history limit too high may cause memory issues"
+                    "TITLE": "Options",
+                    "L1": "Activer/Désactiver: Permet d'activer ou de désactiver complètement la liaison",
+                    "L2": "Limite de l'historique: Défini la limite d'événement de tâches reliées gardées en mémoire",
+                    "L3": "Seuil minimal: Défini le nombre de tâches reliées autorisées avant de rétracter la catégorie dans le menu de liaison",
+                    "L4": "PS: des problème de mémoire peuvent survenir si la Limite de l'historique est trop haute"
                 }
             },
             "SAVING": {
-                "TITLE": "Saving",
+                "TITLE": "Sauvegarde",
                 "OVERVIEW": {
-                    "TITLE": "Overview",
-                    "L1": "The app creates a save with a default name in a default location",
-                    "L2": "The currently active save can be viewed in the settings page",
-                    "L3": "The app relies on 2+ files to handle save data",
-                    "L31": "\"config.json\": Holds configuration data for the app itself",
-                    "L32": "\"completion.json\": Holds save data for characters, can be renamed to anything",
-                    "L4": "NOTE: Modifying these files manually may lead to unexpected issues, especially with the app open",
-                    "L5": "The following actions can be found in Character Settings"
+                    "TITLE": "Aperçu",
+                    "L1": "L'application créer une sauvegarde avec un nom par défaut dans un dossier par défaut",
+                    "L2": "La sauvegarde active peut être vu dans les options",
+                    "L3": "L'application se base sur 2 fichiers pour sauvegarder les données",
+                    "L31": "\"config.json\": Contient les données de confiuration de l'application elle-même",
+                    "L32": "\"completion.json\": Contient les données des personnages, peut être renommer en n'importe quoi",
+                    "L4": "PS: Modifier ces fichiers peut créer des problèmes inattendu, spécialement si l'application est ouverte",
+                    "L5": "Les actions suivantes se situent dans l'onglet Character Settings"
                 },
                 "CHANGE": {
-                    "TITLE": "Change Save",
-                    "L1": "\"Create New\" creates an additional new save and makes it the active save",
-                    "L2": "\"Load Existing\" changes the active save to the chosen save"
+                    "TITLE": "Modifier la sauvegarde",
+                    "L1": "\"Modifier la sauvegarde\" créera un fichier de sauvegarde additionnel et met ce fichier en sauvegarde active",
+                    "L2": "\"Charger existant\" permet de choisir le fichier de sauvegarde actif"
                 },
                 "OPEN": {
-                    "TITLE": "Open Folder",
-                    "L1": "Opens the folders containing the active config and/or save"
+                    "TITLE": "Ouvrir le dossier",
+                    "L1": "Ouvre le dossier contenant le fichier de configuration / sauvegarde actif"
                 },
                 "BACKUP": {
                     "TITLE": "Backup",
-                    "L1": "Creates a backup of the active config and/or save",
-                    "L2": "I recommended doing this before updating to a new version of the app",
-                    "L3": "May be unnecessary for the save file if it is located in a directory that is automatically cloud saved with history"
+                    "L1": "Créer une backup du fichier de configuration / sauvegarde actif",
+                    "L2": "Nous recommendons d'utiliser cette option avant de mettre à jour l'application",
+                    "L3": "Peut-être inutile pour le fichier de sauvegarde si il est localisé dans un dossier automatiquement sauvegardé dans un cloud"
                 },
                 "LOAD_BACKUP": {
-                    "TITLE": "Load Backup",
-                    "L1": "OVERWRITES the currently active config or save with a backup"
+                    "TITLE": "Charger la Backup",
+                    "L1": "ÉCRASE le fichier de configuration / sauvegarde actif par la backup"
                 }
             },
             "OTHER": {
-                "TITLE": "Other",
+                "TITLE": "Divers",
                 "RELEASE": {
-                    "TITLE": "Releases",
-                    "L1": "Release times may vary",
-                    "L2": "Each release comes with Patch Notes"
+                    "TITLE": "Mis à jour",
+                    "L1": "Le temps de sortie d'une mise à jour n'est pas fixe",
+                    "L2": "Chaque version est accompagnée d'une note de mise à jour"
                 },
                 "LOCALIZATION": {
-                    "TITLE": "Localization",
-                    "L1": "Current language can be set within the settings page",
-                    "L2": "French localization is a work-in-progress",
-                    "L3": "German and Japanese localization is a possiblity with volunteers",
-                    "L4": "Additional localization is possible with volunteers and more effort"
+                    "TITLE": "Langues",
+                    "L1": "La langue de l'application peut être modifier dans les options",
+                    "L2": "Le français est normalement complet",
+                    "L3": "Avec des volontaires, l'allemand et le japonais peuvent être inclus dans l'application",
+                    "L4": "D'autres langues peuvent être incluses avec des volontaires et plus d'efforts"
                 },
                 "FEEDBACK": {
                     "TITLE": "Feedback",
-                    "L1": "Any feedback for the app can be communicated through discord here:",
-                    "L2": "Feedback can mean a number of things:",
-                    "L21": "Bugs with the app",
-                    "L22": "Incorrect/miszpelled information",
-                    "L23": "Feature Requests"
+                    "L1": "Vous pouvez faire des retours sur l'application sur ce discord:",
+                    "L2": "Un retour peut être fait sur plusieurs points:",
+                    "L21": "Bugs avec l'application",
+                    "L22": "Des informations incorrectes ou mal orthographié",
+                    "L23": "Des requêtes sur des features"
                 },
                 "ABOUT": {
                     "TITLE": "App Specs",
@@ -258,8 +258,8 @@
                     "L3": "UI by PrimeNG"
                 },
                 "FINAL": {
-                    "TITLE": "Final Note",
-                    "L1": "Thats it! Go forth and complete! :D"
+                    "TITLE": "Note finale",
+                    "L1": "Et voilà! Amusez-vous! :D"
                 }
             }
         },
@@ -338,120 +338,121 @@
             }
         },
         "RANDOM": {
-            "TITLE": "Random"
+            "TITLE": "Aléatoire"
         },
         "SETTING": {
-            "TITLE": "Settings",
+            "TITLE": "Options",
             "CHARACTER": {
-                "TITLE": "Character"
+                "TITLE": "Personnage"
             },
             "LANGUAGE": {
-                "LABEL": "Language",
-                "ENGLISH": "English",
-                "FRENCH": "French"
+                "LABEL": "Langues",
+                "ENGLISH": "Anglais",
+                "FRENCH": "Français"
             },
             "CLASSES": {
-                "LABEL": "Starting Class",
-                "TOOLTIP": "Changing this value excludes innaccessible content\nResets completion of any content chained to ARR starting quests",
-                "PLACEHOLDER": "Select Class",
-                "ACN": "Arcanist",
+                "LABEL": "Classe de départ",
+                "TOOLTIP": "Changer cette valeur exclura tout contenu innaccessible\n Réinitialise la complétion de tout contenu enchaînée au quête de début de A Realm Reborn",
+                "PLACEHOLDER": "Sélectionner une classe",
+                "ACN": "Arcaniste",
                 "ARC": "Archer",
-                "CNJ": "Conjurer",
-                "GLA": "Gladiator",
-                "LNC": "Lancer",
-                "MRD": "Marauder",
-                "PUG": "Pugilist",
-                "THM": "Thaumaturge"
+                "CNJ": "Élémentaliste",
+                "GLA": "Gladiateur",
+                "LNC": "Maître d'hast",
+                "MRD": "Maraudeur",
+                "PUG": "Pugiliste",
+                "THM": "Occultiste"
             },
             "SAVE": {
-                "LOCATION": "Save File Location",
-                "NAME": "Save File Name",
-                "CHANGE": "Change Save",
-                "OPEN": "Open Folder",
+                "LOCATION": "Lieu du fichier de sauvegarde",
+                "NAME": "Nom du fichier de sauvegarde",
+                "CHANGE": "Modifier la sauvegarde",
+                "OPEN": "Ouvrir le dossier",
                 "BACKUP": "Backup",
-                "LOAD_BACKUP": "Load Backup",
-                "NEW": "Create New",
-                "LOAD": "Load Existing",
-                "SAVE": "Save",
-                "CONFIG": "Config",
-                "BOTH": "Both"
+                "LOAD_BACKUP": "Charger la Backup",
+                "NEW": "Créer nouveau",
+                "LOAD": "Charger existant",
+                "SAVE": "Sauvegarde",
+                "CONFIG": "Configuration",
+                "BOTH": "Les deux"
             },
             "THEME": {
-                "TITLE": "Theme",
-                "RESET": "Reset",
-                "PRIMARY_COLOR": "Primary Color",
-                "PRIMARY_TEXT": "Primary Color Text",
-                "TEXT_COLOR": "Text Color",
+                "TITLE": "Thème",
+                "RESET": "Réinitialiser",
+                "PRIMARY_COLOR": "Couleur principale",
+                "PRIMARY_TEXT": "Couleur principale du texte",
+                "TEXT_COLOR": "Couleur du texte",
                 "FONT": "Font",
-                "BACKGROUND": "Background",
-                "COMPLETION": "Completion",
+                "BACKGROUND": "Fond",
+                "COMPLETION": "Complétion",
                 "PRESETS": {
-                    "TITLE": "Presets",
-                    "DEFAULT": "Default",
-                    "DARK": "Dark",
-                    "LIGHT": "Light",
-                    "CLASSIC": "Classic"
+                    "TITLE": "Préconfigurations",
+                    "DEFAULT": "Défaut",
+                    "DARK": "Sombre",
+                    "LIGHT": "Claire",
+                    "CLASSIC": "Classique"
                 }
             },
             "TABLE": {
-                "TITLE": "Table",
+                "TITLE": "Tableau",
                 "COMPLETED": {
-                    "LABEL": "Show Completed",
-                    "TOOLTIP": "Whether completed items are shown in tables"
+                    "LABEL": "Montrer les tâches complètes",
+                    "TOOLTIP": "Les tâches complétées seront affichées dans les tableaux"
                 },
                 "INCOMPLETE": {
-                    "LABEL": "Show Incomplete",
-                    "TOOLTIP": "Whether non-completed items are shown in tables"
+                    "LABEL": "Montrer les tâches incomplètes",
+                    "TOOLTIP": "Les tâches incomplètes seront affichées dans les tableaux"
                 },
                 "EXCLUDED": {
-                    "LABEL": "Show Excluded",
-                    "TOOLTIP": "Whether excluded items are shown in tables"
+                    "LABEL": "Montrer les tâches excludes",
+                    "TOOLTIP": "Les tâches excludes seront affichées dans les tableaux"
                 }
             },
             "CHAINING": {
-                "TITLE": "Chaining",
+                "TITLE": "Liaison",
                 "ENABLED": {
-                    "LABEL": "Chaining Enabled",
-                    "TOOLTIP": "Allow or disallow tasks from auto-marking other related tasks"
+                    "LABEL": "Liaison activée",
+                    "TOOLTIP": "Active ou désactive la complétion automatique des tâches liées à la complétion d'autres tâches"
                 },
                 "HISTORY": {
-                    "LABEL": "Chain History Limit",
-                    "TOOLTIP": "The amount of chains to keep in history to allow undos"
+                    "LABEL": "Limite de l'historique",
+                    "TOOLTIP": "Le nombre de liaison affichées dans l'historique dont l'annulation est permise"
                 },
                 "THRESHOLD": {
-                    "LABEL": "Chain Min Threshold",
-                    "TOOLTIP": "Chain overlay will auto-collapse groups when the total chained items hits this number"
+                    "LABEL": "Seuil minimal",
+                    "TOOLTIP": "Le menu de liaison rétractera automatiquement les catégories quand le nombre d'objets reliés atteint ce nombre"
                 }
             }
         },
         "SEARCH": {
-            "TITLE": "Search",
-            "PLACEHOLDER": "Search",
-            "NO_SEARCH": "Please enter a search term",
-            "TOO_SHORT": "Please enter at least 3 characters",
-            "NO_RESULTS": "No tasks found",
-            "EXPAND": "Expand All",
-            "COLLAPSE": "Collapse All",
-            "SEARCH_NAME": "Search Name Columns",
-            "SEARCH_COLUMN": "Search All Columns",
-            "MATCHES": "Match/es",
-            "COMPLETE": "Complete",
-            "COLUMN": "Column",
-            "VALUE": "Value",
-            "LINK": "Link"
+            "TITLE": "Recherche",
+            "PLACEHOLDER": "Recherche",
+            "NO_SEARCH": "Veuillez rentrer un terme de recherche",
+            "TOO_SHORT": "Veuillez rentrer un minimum de 3 caractères",
+            "NO_RESULTS": "Aucune tâche trouvée",
+            "EXPAND": "Étendre les résultats",
+            "COLLAPSE": "Rétracter les résultats",
+            "SEARCH_NAME": "Rechercher dans les colonnes nommées",
+            "SEARCH_COLUMN": "Rechercher dans toutes les colonnes",
+            "MATCHES": "Correspondance/s",
+            "COMPLETE": "Complété",
+            "COLUMN": "Colonne",
+            "VALUE": "Valeur",
+            "LINK": "Lien"
         }
     },
     "TABLE": {
-        "DISPLAYED": "Rows displayed",
-        "HIDDEN": "Hidden",
-        "SHOW_ALL": "Show All Tasks",
-        "HIDE_ALL": "Hide All Tasks",
-        "VIEW_LINKS": "View All",
+        "DISPLAYED": "Lignes affichées",
+        "GROUP": "Catégorie",
+        "HIDDEN": "Cachées",
+        "SHOW_ALL": "Afficher les tâches",
+        "HIDE_ALL": "Cacher les tâches",
+        "VIEW_LINKS": "Afficher la totalité",
         "ROW_ACTION": {
-            "TITLE": "Row Actions",
-            "BOOKMARK": "Bookmark Task",
-            "UNBOOKMARK": "Unbookmark Task",
-            "REORDER": "Reorder Row",
+            "TITLE": "Commandes sur les lignes",
+            "BOOKMARK": "Ajouter un marque-page à la tâche",
+            "UNBOOKMARK": "Enlever le marque-page à la tâche",
+            "REORDER": "Réarranger la ligne",
             "GARLAND": "Garland Tools",
             "ESCAPE": "Gamer Escape",
             "CONSOLE": "Console Games Wiki"
@@ -459,63 +460,63 @@
     },
     "OVERLAY": {
         "HISTORY": {
-            "TITLE": "History",
-            "NO_CONTENT": "No History to display"
+            "TITLE": "Historique",
+            "NO_CONTENT": "Rien à afficher"
         },
         "QUICK_MARK": {
-            "TITLE": "Quick-Mark Actions",
-            "PROCESSING": "Processing",
-            "N-Y": "Mark Incomplete as Complete",
-            "N-X": "Mark Incomplete as Excluded",
-            "Y-N": "Mark Complete as Incomplete",
-            "Y-X": "Mark Complete as Excluded",
-            "X-N": "Mark Excluded as Incomplete",
-            "X-Y": "Mark Excluded as Complete",
-            "S-Y": "Mark Selected as Complete",
-            "S-N": "Mark Selected as Incomplete",
-            "S-X": "Mark Selected as Excluded",
-            "UNDO": "Undo Last Quick-Mark"
+            "TITLE": "Commandes de Coche-rapide",
+            "PROCESSING": "En traitement",
+            "N-Y": "Changer les non complétés en complété",
+            "N-X": "Changer les non complétés en exclus",
+            "Y-N": "Changer les complétés en non complété",
+            "Y-X": "Changer les complétés en exclus",
+            "X-N": "Changer les exclus en non complété",
+            "X-Y": "Changer les exclus en complété",
+            "S-Y": "Changer les sélectionnés en complété",
+            "S-N": "Changer les sélectionés en non complété",
+            "S-X": "Changer les sélectionés en exclus",
+            "UNDO": "Annuler la dernière Coche-rapide"
         },
         "SELECTION": {
-            "TITLE": "Selection Actions",
-            "SELECT_ALL": "Select All Tasks",
-            "DESELECT_ALL": "Deselect All Tasks",
-            "INVERT": "Invert Selection",
-            "ACTIONS": "Selected Actions",
-            "GARLAND": "Open in Garland Tools",
-            "TEAMCRAFT": "Open in Teamcraft"
+            "TITLE": "Commandes de sélection",
+            "SELECT_ALL": "Sélectionner toutes les tâches",
+            "DESELECT_ALL": "Désélectionner toutes les tâches",
+            "INVERT": "Inverser la sélection",
+            "ACTIONS": "Tâches sélectionnées",
+            "GARLAND": "Ouvrir dans Garland Tools",
+            "TEAMCRAFT": "Ouvrir dans Teamcraft"
         },
         "CHAIN": {
-            "NO_CONTENT": "No chain information to display",
-            "UNDO": "Undo this chain",
-            "VERIFY": "Are you sure?",
-            "CHAINED": "chained to {{count}} other task/s"
+            "NO_CONTENT": "Aucune information de liaison à afficher",
+            "UNDO": "Annuler cette liaison",
+            "VERIFY": "Êtes-vous sûrs ?",
+            "CHAINED": "Lier à {{count}} autre tâche/s"
         },
         "TABLE": {
-            "TITLE": "Table Actions",
-            "ADD_BOOKMARK": "Bookmark Group",
-            "REM_BOOKMARK": "Unbookmark Group"
+            "TITLE": "Commandes sur le tableau",
+            "ADD_BOOKMARK": "Ajouter un marque-page à la catégorie",
+            "REM_BOOKMARK": "Enlever le marque-page à la catégorie"
         },
         "CUSTOM": {
-            "NAME_PLACEHOLDER": "Enter Custom Task Name Here",
-            "NOTE_PLACEHOLDER": "Enter Custom Task Notes Here",
-            "ADD": "Add Task",
-            "AUTO": "Auto-Merge Tasks with One Match",
-            "MERGE": "Merge Tasks into App",
-            "REMOVE": "Remove Selected Tasks",
-            "MATCH": "matches found",
-            "NO_MATCH": "No match found",
-            "SKIP": "Skip",
-            "EXIT": "Exit",
-            "SELECT": "Select a match"
+            "NAME_PLACEHOLDER": "Entrer la tâche personnalisée ici",
+            "NOTE_PLACEHOLDER": "Entrer un commentaire sur la tâche personnalisée ici",
+            "ADD": "Ajouter une tâche",
+            "AUTO": "Fusionner les tâches avec une correspondance",
+            "MERGE": "Fusionner les tâches de l'application",
+            "REMOVE": "Supprimer les tâches sélectionnées",
+            "MATCH": "Correspondances trouvées",
+            "NO_MATCH": "Aucune correspondance trouvée",
+            "SKIP": "Passer",
+            "EXIT": "Quitter",
+            "SELECT": "Sélectionner une correspondance"
         }
     },
     "GENERAL": {
-        "NAVIGATE": "Click to navigate to",
-        "GROUP_NAVIGATE": "Navigate to this group",
-        "TASK_NAVIGATE": "Navigate to this task",
-        "REMAINING": "Remaining",
-        "EXCLUDED": "Excluded",
-        "WEIGHT": "Weight"
+        "NAVIGATE": "Cliquer pour naviguer vers",
+        "GROUP_NAVIGATE": "Naviguer vers cette catégorie",
+        "TASK_NAVIGATE": "Naviguer vers cette tâche",
+        "REMAINING": "Tâche Restante",
+        "EXCLUDED": "Tâche Exclues",
+        "WEIGHT": "Poids"
     }
 }

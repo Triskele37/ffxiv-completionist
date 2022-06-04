@@ -1,5 +1,5 @@
 {
-    "groupName": "ARR",
+    "groupName": "A Realm Reborn",
     "tasks": {
         "x0": {
             "name": "Albin le blafard",
@@ -173,87 +173,87 @@
         },
         "x34": {
             "name": "Agrippa",
-            "condition": "Réussir une carte au trésor dans le Mor Dhona",
+            "condition": "Possible en ouvrant le coffre d'une carte au trésor dans la zone",
             "location": "Mor Dhona"
         },
         "x35": {
             "name": "Bonnacon",
-            "condition": "Récolter un poireau noscéen",
+            "condition": "Possible après la récolte de Poireau noscéen",
             "location": "Noscea occidentale"
         },
         "x36": {
             "name": "Brontes",
-            "condition": "Manger de la nourriture dans le point d'apparition",
+            "condition": "Possible lors de la consommation d'un plat ou d'une boisson aux coordonnées de spawn. (fonctionne en volant)",
             "location": "Thanalan central"
         },
         "x37": {
             "name": "Czernobog",
-            "condition": "Un joueur est mort en Noscea extérieure",
+            "condition": "Possible lors de la mort d'un joueur en Noscéa extérieure",
             "location": "Noscea extérieure"
         },
         "x38": {
             "name": "Croabéros",
-            "condition": "Apparait pendant une pleine lune",
+            "condition": "Passez sur le point de spawn pendant les nuits de pleine lune",
             "location": "Basse-Noscea"
         },
         "x39": {
             "name": "Croque-mitaine",
-            "condition": "Récolter un Poireau noscéen",
+            "condition": "Possible après l'extraction de Terreau noscéen III",
             "location": "Noscea centrale"
         },
         "x40": {
             "name": "Laideronnette",
-            "condition": "Apparait 6 minutes quand deux pluies s'enchaînent",
+            "condition": "Après 30 minutes (en temps réel) de pluie active dans la zone",
             "location": "Forêt centrale"
         },
         "x41": {
             "name": "Balaur",
-            "condition": "Réaliser des mandats de mercenariat au Camp des Os desséchés pendant la fenêtre d'apparition",
+            "condition": "Possible en commençant un mandat de Guilde ou de Grande Compagnie dans le Thanalan Oriental",
             "location": "Thanalan oriental"
         },
         "x42": {
             "name": "Flagelleur mental",
-            "condition": "Chance d'apparition à minuit lors d'une nouvelle lune",
+            "condition": "Passez sur le point de spawn pendant les nuits de nouvelle lune",
             "location": "Forêt du sud"
         },
         "x43": {
             "name": "Minhocao",
-            "condition": "Tuer des Élémentaire de terre",
+            "condition": "Tuez 100 Élémentaire de terre",
             "location": "Thanalan septentrional"
         },
         "x44": {
             "name": "Nandi",
-            "condition": "Courir sur le point d'apparition avec une mascotte",
+            "condition": "Possible en visitant les coordonnées de spawn avec une mascotte",
             "location": "Haute-Noscea"
         },
         "x45": {
             "name": "Nunyunuwi",
-            "condition": "Réussir tous les ALÉAs de la zone pendant une heure",
+            "condition": "Terminez tous les ALÉAs en Thanalan Méridional pendant une heure (en temps réel) sans aucun échec",
             "location": "Thanalan méridional"
         },
         "x46": {
             "name": "Safat",
-            "condition": "Sauter d'un lieu assez élevé pour se retrouver avec un PV",
+            "condition": "Tombez à 1 HP en subissant des dégâts de chute",
             "location": "Hautes terres du Coerthas central"
         },
         "x47": {
             "name": "Garlok",
-            "condition": "Après que la fenêtre d'apparition soit apparues, s'il pleut, il n'apparaîtra pas pendant 200 minutes",
+            "condition": "Après 200 minutes (en temps réel) consécutives de météo sans pluie dans la zone",
             "location": "Noscea orientale"
         },
         "x48": {
-            "name": "Theda la ttipoteuse",
-            "condition": "Pêcher une raie juge",
+            "name": "Theda la tripoteuse",
+            "condition": "Possible après la pêche d'une Raie juge",
             "location": "Forêt du nord"
         },
         "x49": {
             "name": "Wulgaru",
-            "condition": "Commencer ou finir un mandat de mercenariat ou de Grande compagnie",
+            "condition": "Possible au commencement d'un mandat de Guilde ou de Grande Compagnie",
             "location": "Forêt de l'est"
         },
         "x50": {
             "name": "Zona Seeker",
-            "condition": "Pêcher un cyprin de platine",
+            "condition": "Possible après la pêche d'un Cyprin de platine",
             "location": "Thanalan occidental"
         }
     }
