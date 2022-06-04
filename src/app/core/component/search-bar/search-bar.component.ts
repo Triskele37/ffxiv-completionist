@@ -33,14 +33,20 @@ export class SearchBarComponent implements OnInit {
     }
 
     @HostListener('window:keydown', ['$event'])
-    onKeydown($event: KeyboardEvent): void {
+    onWindowKeydown($event: KeyboardEvent): void {
         if(($event.ctrlKey || $event.metaKey) && $event.code === 'KeyF') {
             this.searchTerm = '';
             this.searchInput.nativeElement.focus();
         }
+    }
 
+    onSearchKeydown($event: KeyboardEvent): void {
         if(($event.ctrlKey || $event.metaKey) && $event.code === 'KeyV') {
             setTimeout(this.onSearch.bind(this), 50);
+        }
+
+        if($event.code === 'Enter') {
+            this.onSearch();
         }
     }
 
@@ -51,10 +57,6 @@ export class SearchBarComponent implements OnInit {
         else {
             this.svcNavigation.setSelectedGroup(this.svcMainMenu.data);
         }
-    }
-
-    searchOnEnter(): void {
-        this.onSearch();
     }
 
     onSearch(): void {

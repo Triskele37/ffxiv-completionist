@@ -9,357 +9,401 @@
         "patch": "Patch"
     },
     "tasks": {
-        "x0": {
-            "name": "Triple Triad Master",
-            "zone": "The Gold Saucer"
-        },
-        "x1": {
-            "name": "Baderon",
-            "zone": "Limsa Lominsa Upper Decks"
-        },
-        "x2": {
-            "name": "Drery",
-            "zone": "Amh Araeng"
-        },
-        "x3": {
-            "name": "Ercanbald",
-            "zone": "Rhalgr's Reach"
-        },
-        "x4": {
-            "name": "F'hobhas",
-            "zone": "Central Thanalan"
-        },
-        "x5": {
-            "name": "Fufulupa",
-            "zone": "Western Thanalan"
-        },
-        "x6": {
-            "name": "Glynard",
-            "zone": "The Crystarium"
-        },
-        "x7": {
-            "name": "Guhtwint of the Three Diamonds",
-            "zone": "The Gold Saucer"
-        },
-        "x8": {
-            "name": "Gyoei",
-            "zone": "Yanxia"
-        },
-        "x9": {
-            "name": "Ibenart",
-            "zone": "Kholusia"
-        },
-        "x10": {
-            "name": "Joellaut",
-            "zone": "Coerthas Central Highlands"
-        },
-        "x11": {
-            "name": "Jonas of the Three Spades",
-            "zone": "The Gold Saucer"
-        },
-        "x12": {
-            "name": "Kotokaze",
-            "zone": "Kugane"
-        },
-        "x13": {
-            "name": "Maisenta",
-            "zone": "New Gridania"
-        },
-        "x14": {
-            "name": "Marcechamp",
-            "zone": "The Dravanian Forelands"
-        },
-        "x15": {
-            "name": "Memeroon",
-            "zone": "Upper La Noscea"
-        },
-        "x16": {
-            "name": "Mimidoa",
-            "zone": "Lower La Noscea"
-        },
-        "x17": {
-            "name": "Momodi",
-            "zone": "Ul'dah - Steps of Nald"
-        },
-        "x18": {
-            "name": "Mother Miounne",
-            "zone": "New Gridania"
-        },
-        "x19": {
-            "name": "Prideful Stag",
-            "zone": "The Triple Triad Battlehall"
-        },
-        "x102": {
-            "name": "Qetanur",
-            "zone": "Thavnair"
-        },
-        "x20": {
-            "name": "Roger",
-            "zone": "Central Thanalan"
-        },
-        "x21": {
-            "name": "Saushs Koal",
-            "zone": "The Tempest"
-        },
-        "x22": {
-            "name": "Seika",
-            "zone": "Idyllshire"
-        },
-        "x23": {
-            "name": "Trachtoum",
-            "zone": "Lower La Noscea"
-        },
-        "x24": {
-            "name": "Wymond",
-            "zone": "Ul'dah - Steps of Nald"
-        },
-        "x25": {
-            "name": "Wyra \"Greenhands\" Lyehga",
-            "zone": "The Triple Triad Battlehall"
-        },
-        "x103": {
-            "name": "Aiglephine",
-            "zone": "Labyrinthos"
-        },
-        "x26": {
-            "name": "Aurifort of the Three Clubs",
-            "zone": "The Gold Saucer"
-        },
-        "x27": {
-            "name": "Botan",
-            "zone": "Kugane"
-        },
-        "x104": {
-            "name": "Cheatingway",
-            "zone": "Old Sharlayan"
-        },
-        "x28": {
-            "name": "Cobleva",
-            "zone": "Lakeland"
-        },
-        "x29": {
-            "name": "Dominiac",
-            "zone": "Coerthas Western Highlands"
-        },
-        "x30": {
-            "name": "Droyn",
-            "zone": "Ul'dah - Steps of Thal"
-        },
-        "x31": {
-            "name": "Eo Sigun",
-            "zone": "Il Mheg"
-        },
-        "x32": {
-            "name": "Garima",
-            "zone": "The Fringes"
-        },
-        "x33": {
-            "name": "Gyuf Uin",
-            "zone": "Il Mheg"
-        },
-        "x34": {
-            "name": "Hargra",
-            "zone": "The Rak'tika Greatwood"
-        },
-        "x35": {
-            "name": "Helmhart",
-            "zone": "Eastern Thanalan"
-        },
-        "x36": {
-            "name": "Hetsukaze",
-            "zone": "Kugane"
-        },
-        "x37": {
-            "name": "Hokushin",
-            "zone": "Kugane"
-        },
-        "x38": {
-            "name": "House Fortemps Manservant",
-            "zone": "Fortemps Manor"
-        },
-        "x39": {
-            "name": "Idle Imperial",
-            "zone": "Azys Lla"
-        },
-        "x40": {
-            "name": "Kaizan",
-            "zone": "The Ruby Sea"
-        },
-        "x41": {
-            "name": "Lamlyn",
-            "zone": "Lakeland"
-        },
-        "x42": {
-            "name": "Linu Vali",
-            "zone": "The Sea of Clouds"
-        },
-        "x105": {
-            "name": "Mehryde",
-            "zone": "Radz-at-Han"
-        },
-        "x43": {
-            "name": "Mordyn",
-            "zone": "Limsa Lominsa Upper Decks"
-        },
-        "x44": {
-            "name": "Nell Half-Full",
-            "zone": "The Triple Triad Battlehall"
-        },
-        "x45": {
-            "name": "Noes",
-            "zone": "Old Gridania"
-        },
-        "x46": {
-            "name": "O'kalkaya",
-            "zone": "Limsa Lominsa Upper Decks"
-        },
-        "x47": {
-            "name": "Piralnaut",
-            "zone": "East Shroud"
-        },
-        "x48": {
-            "name": "Redard",
-            "zone": "The Rak'tika Greatwood"
-        },
-        "x49": {
-            "name": "Swift",
-            "zone": "Ul'dah - Steps of Nald"
-        },
-        "x50": {
-            "name": "Tsuzura",
-            "zone": "The Ruby Sea"
-        },
-        "x51": {
-            "name": "Ushiogi",
-            "zone": "The Ruby Sea"
-        },
-        "x52": {
-            "name": "Vath Deftarm",
-            "zone": "The Dravanian Forelands"
-        },
-        "x53": {
-            "name": "Yellow Moon",
-            "zone": "Ul'dah - Steps of Thal"
-        },
-        "x54": {
-            "name": "Yusui",
-            "zone": "The Ruby Sea"
-        },
-        "x55": {
-            "name": "Arsieu",
-            "zone": "???"
-        },
-        "x56": {
-            "name": "Buscarron",
-            "zone": "South Shroud"
+        "x108": {
+            "name": "Prudence",
+            "zone": "Mor Dhona"
         },
         "x106": {
             "name": "Celia",
             "zone": "Old Sharlayan"
         },
-        "x57": {
-            "name": "Flichoirel the Lordling",
-            "zone": "The Triple Triad Battlehall"
+        "x102": {
+            "name": "Qetanur",
+            "zone": "Thavnair"
         },
-        "x58": {
-            "name": "Furtive Former Imperial",
-            "zone": "???"
+        "x104": {
+            "name": "Cheatingway",
+            "zone": "Old Sharlayan"
         },
-        "x59": {
-            "name": "Gegeruju",
-            "zone": "Eastern La Noscea"
+        "x101": {
+            "name": "Sladkey",
+            "zone": "Gangos"
         },
-        "x60": {
-            "name": "Gibrillont",
-            "zone": "Foundation"
+        "x55": {
+            "name": "Arsieu",
+            "zone": "Gangos"
         },
-        "x61": {
-            "name": "Grewenn",
-            "zone": "Eulmore"
-        },
-        "x62": {
-            "name": "Hab",
-            "zone": "Southern Thanalan"
-        },
-        "x63": {
-            "name": "Hachinan",
-            "zone": "Yanxia"
+        "x28": {
+            "name": "Cobleva",
+            "zone": "Lakeland"
         },
         "x64": {
             "name": "Hanagasa",
             "zone": "Kugane"
         },
-        "x65": {
-            "name": "Imperial Deserter",
-            "zone": "The Lochs"
-        },
-        "x66": {
-            "name": "Indolent Imperial",
-            "zone": "Mor Dhona"
-        },
-        "x67": {
-            "name": "Ironworks Hand",
-            "zone": "Rhalgr's Reach"
-        },
-        "x68": {
-            "name": "Kikimo",
-            "zone": "Kugane"
-        },
-        "x69": {
-            "name": "King Elmer III",
-            "zone": "The Gold Saucer"
-        },
-        "x70": {
-            "name": "Kiuka",
-            "zone": "The Doman Enclave"
-        },
-        "x71": {
-            "name": "Klynthota",
-            "zone": "Mor Dhona"
-        },
-        "x72": {
-            "name": "Landenel",
-            "zone": "South Shroud"
-        },
-        "x73": {
-            "name": "Laniaitte",
-            "zone": "The Sea of Clouds"
-        },
-        "x74": {
-            "name": "Lewto-Sue",
-            "zone": "Amh Araeng"
-        },
-        "x75": {
-            "name": "Marcette",
-            "zone": "Central Shroud"
-        },
-        "x76": {
-            "name": "Marielle",
-            "zone": "The Sea of Clouds"
+        "x51": {
+            "name": "Ushiogi",
+            "zone": "The Ruby Sea"
         },
         "x77": {
             "name": "Masatsuchi",
+            "zone": "Yanxia"
+        },
+        "x3": {
+            "name": "Ercanbald",
+            "zone": "Rhalgr's Reach"
+        },
+        "x8": {
+            "name": "Gyoei",
             "zone": "Yanxia"
         },
         "x78": {
             "name": "Master Mogzin",
             "zone": "The Churning Mists"
         },
+        "x0": {
+            "name": "Triple Triad Master",
+            "zone": "The Gold Saucer"
+        },
+        "x13": {
+            "name": "Maisenta",
+            "zone": "New Gridania"
+        },
+        "x20": {
+            "name": "Roger",
+            "zone": "Central Thanalan"
+        },
+        "x11": {
+            "name": "Jonas of the Three Spades",
+            "zone": "The Gold Saucer"
+        },
+        "x15": {
+            "name": "Memeroon",
+            "zone": "Upper La Noscea"
+        },
+        "x49": {
+            "name": "Swift",
+            "zone": "Ul'dah - Steps of Nald"
+        },
+        "x103": {
+            "name": "Aiglephine",
+            "zone": "Labyrinthos"
+        },
+        "x30": {
+            "name": "Droyn",
+            "zone": "Ul'dah - Steps of Thal"
+        },
+        "x74": {
+            "name": "Lewto-Sue",
+            "zone": "Amh Araeng"
+        },
+        "x31": {
+            "name": "Eo Sigun",
+            "zone": "Il Mheg"
+        },
+        "x92": {
+            "name": "Umber Torrent",
+            "zone": "The Lochs"
+        },
+        "x32": {
+            "name": "Garima",
+            "zone": "The Fringes"
+        },
+        "x38": {
+            "name": "House Fortemps Manservant",
+            "zone": "Fortemps Manor"
+        },
+        "x18": {
+            "name": "Mother Miounne",
+            "zone": "New Gridania"
+        },
+        "x24": {
+            "name": "Wymond",
+            "zone": "Ul'dah - Steps of Nald"
+        },
+        "x35": {
+            "name": "Helmhart",
+            "zone": "Eastern Thanalan"
+        },
+        "x89": {
+            "name": "Ruhtwyda of the Three Hearts",
+            "zone": "The Gold Saucer"
+        },
+        "x105": {
+            "name": "Mehryde",
+            "zone": "Radz-at-Han"
+        },
+        "x48": {
+            "name": "Redard",
+            "zone": "The Rak'tika Greatwood"
+        },
+        "x9": {
+            "name": "Ibenart",
+            "zone": "Kholusia"
+        },
+        "x21": {
+            "name": "Saushs Koal",
+            "zone": "The Tempest"
+        },
+        "x33": {
+            "name": "Gyuf Uin",
+            "zone": "Il Mheg"
+        },
+        "x2": {
+            "name": "Drery",
+            "zone": "Amh Araeng"
+        },
+        "x36": {
+            "name": "Hetsukaze",
+            "zone": "Kugane"
+        },
+        "x87": {
+            "name": "Redbill Storeboy",
+            "zone": "Idyllshire"
+        },
+        "x54": {
+            "name": "Yusui",
+            "zone": "The Ruby Sea"
+        },
+        "x12": {
+            "name": "Kotokaze",
+            "zone": "Kugane"
+        },
+        "x40": {
+            "name": "Kaizan",
+            "zone": "The Ruby Sea"
+        },
+        "x50": {
+            "name": "Tsuzura",
+            "zone": "The Ruby Sea"
+        },
+        "x25": {
+            "name": "Wyra \"Greenhands\" Lyehga",
+            "zone": "The Triple Triad Battlehall"
+        },
+        "x91": {
+            "name": "Tapklix",
+            "zone": "The Dravanian Hinterlands"
+        },
+        "x42": {
+            "name": "Linu Vali",
+            "zone": "The Sea of Clouds"
+        },
+        "x29": {
+            "name": "Dominiac",
+            "zone": "Coerthas Western Highlands"
+        },
+        "x7": {
+            "name": "Guhtwint of the Three Diamonds",
+            "zone": "The Gold Saucer"
+        },
+        "x17": {
+            "name": "Momodi",
+            "zone": "Ul'dah - Steps of Nald"
+        },
+        "x4": {
+            "name": "F'hobhas",
+            "zone": "Central Thanalan"
+        },
+        "x23": {
+            "name": "Trachtoum",
+            "zone": "Lower La Noscea"
+        },
+        "x10": {
+            "name": "Joellaut",
+            "zone": "Coerthas Central Highlands"
+        },
+        "x5": {
+            "name": "Fufulupa",
+            "zone": "Western Thanalan"
+        },
+        "x1": {
+            "name": "Baderon",
+            "zone": "Limsa Lominsa Upper Decks"
+        },
+        "x16": {
+            "name": "Mimidoa",
+            "zone": "Lower La Noscea"
+        },
+        "x26": {
+            "name": "Aurifort of the Three Clubs",
+            "zone": "The Gold Saucer"
+        },
+        "x47": {
+            "name": "Piralnaut",
+            "zone": "East Shroud"
+        },
+        "x90": {
+            "name": "Sezul Totoloc",
+            "zone": "North Shroud"
+        },
+        "x56": {
+            "name": "Buscarron",
+            "zone": "South Shroud"
+        },
+        "x85": {
+            "name": "Ourdilic",
+            "zone": "Coerthas Central Highlands"
+        },
+        "x75": {
+            "name": "Marcette",
+            "zone": "Central Shroud"
+        },
+        "x107": {
+            "name": "Worldly Imperial",
+            "zone": "Garlemald"
+        },
+        "x58": {
+            "name": "Furtive Former Imperial",
+            "zone": "Terncliff"
+        },
+        "x6": {
+            "name": "Glynard",
+            "zone": "The Crystarium"
+        },
+        "x34": {
+            "name": "Hargra",
+            "zone": "The Rak'tika Greatwood"
+        },
+        "x61": {
+            "name": "Grewenn",
+            "zone": "Eulmore"
+        },
         "x79": {
             "name": "Mero Roggo",
             "zone": "The Dravanian Hinterlands"
         },
-        "x80": {
-            "name": "Midnight Dew",
+        "x67": {
+            "name": "Ironworks Hand",
+            "zone": "Rhalgr's Reach"
+        },
+        "x27": {
+            "name": "Botan",
+            "zone": "Kugane"
+        },
+        "x44": {
+            "name": "Nell Half-Full",
+            "zone": "The Triple Triad Battlehall"
+        },
+        "x19": {
+            "name": "Prideful Stag",
+            "zone": "The Triple Triad Battlehall"
+        },
+        "x57": {
+            "name": "Flichoirel the Lordling",
+            "zone": "The Triple Triad Battlehall"
+        },
+        "x22": {
+            "name": "Seika",
             "zone": "Idyllshire"
         },
-        "x81": {
-            "name": "Mogmill",
-            "zone": "The Churning Mists"
+        "x45": {
+            "name": "Noes",
+            "zone": "Old Gridania"
         },
-        "x82": {
-            "name": "Munglig",
-            "zone": "The Azim Steppe"
+        "x53": {
+            "name": "Yellow Moon",
+            "zone": "Ul'dah - Steps of Thal"
+        },
+        "x95": {
+            "name": "Yayake",
+            "zone": "Ul'dah - Steps of Nald"
+        },
+        "x72": {
+            "name": "Landenel",
+            "zone": "South Shroud"
+        },
+        "x41": {
+            "name": "Lamlyn",
+            "zone": "Lakeland"
+        },
+        "x37": {
+            "name": "Hokushin",
+            "zone": "Kugane"
+        },
+        "x68": {
+            "name": "Kikimo",
+            "zone": "Kugane"
+        },
+        "x46": {
+            "name": "O'kalkaya",
+            "zone": "Limsa Lominsa Upper Decks"
+        },
+        "x43": {
+            "name": "Mordyn",
+            "zone": "Limsa Lominsa Upper Decks"
+        },
+        "x52": {
+            "name": "Vath Deftarm",
+            "zone": "The Dravanian Forelands"
+        },
+        "x71": {
+            "name": "Klynthota",
+            "zone": "Mor Dhona"
+        },
+        "x94": {
+            "name": "Wawalago",
+            "zone": "Limsa Lominsa Lower Decks"
+        },
+        "x60": {
+            "name": "Gibrillont",
+            "zone": "Foundation"
+        },
+        "x59": {
+            "name": "Gegeruju",
+            "zone": "Eastern La Noscea"
+        },
+        "x93": {
+            "name": "Voracious Vath",
+            "zone": "The Dravanian Forelands"
+        },
+        "x62": {
+            "name": "Hab",
+            "zone": "Southern Thanalan"
+        },
+        "x100": {
+            "name": "Vorsaile Heuloix",
+            "zone": "New Gridania"
+        },
+        "x63": {
+            "name": "Hachinan",
+            "zone": "Yanxia"
+        },
+        "x98": {
+            "name": "Isobe",
+            "zone": "The Ruby Sea"
+        },
+        "x65": {
+            "name": "Imperial Deserter",
+            "zone": "The Lochs"
+        },
+        "x73": {
+            "name": "Laniaitte",
+            "zone": "The Sea of Clouds"
+        },
+        "x96": {
+            "name": "Elaisse",
+            "zone": "The Pillars"
+        },
+        "x76": {
+            "name": "Marielle",
+            "zone": "The Sea of Clouds"
+        },
+        "x39": {
+            "name": "Idle Imperial",
+            "zone": "Azys Lla"
+        },
+        "x86": {
+            "name": "R'ashaht Rhiki",
+            "zone": "Limsa Lominsa Upper Decks"
+        },
+        "x69": {
+            "name": "King Elmer III",
+            "zone": "The Gold Saucer"
+        },
+        "x66": {
+            "name": "Indolent Imperial",
+            "zone": "Mor Dhona"
         },
         "x83": {
             "name": "Nigen",
@@ -369,77 +413,37 @@
             "name": "Ogodei",
             "zone": "The Azim Steppe"
         },
-        "x85": {
-            "name": "Ourdilic",
-            "zone": "Coerthas Central Highlands"
+        "x82": {
+            "name": "Munglig",
+            "zone": "The Azim Steppe"
         },
-        "x86": {
-            "name": "R'ashaht Rhiki",
-            "zone": "Limsa Lominsa Upper Decks"
+        "x97": {
+            "name": "Hall Overseer",
+            "zone": "The Triple Triad Battlehall"
         },
-        "x87": {
-            "name": "Redbill Storeboy",
+        "x14": {
+            "name": "Marcechamp",
+            "zone": "The Dravanian Forelands"
+        },
+        "x81": {
+            "name": "Mogmill",
+            "zone": "The Churning Mists"
+        },
+        "x80": {
+            "name": "Midnight Dew",
             "zone": "Idyllshire"
         },
         "x88": {
             "name": "Rowena",
             "zone": "Mor Dhona"
         },
-        "x89": {
-            "name": "Ruhtwyda of the Three Hearts",
-            "zone": "The Gold Saucer"
-        },
-        "x90": {
-            "name": "Sezul Totoloc",
-            "zone": "North Shroud"
-        },
-        "x101": {
-            "name": "Sladkey",
-            "zone": "???"
-        },
-        "x91": {
-            "name": "Tapklix",
-            "zone": "The Dravanian Hinterlands"
-        },
-        "x92": {
-            "name": "Umber Torrent",
-            "zone": "The Lochs"
-        },
-        "x93": {
-            "name": "Voracious Vath",
-            "zone": "The Dravanian Forelands"
-        },
-        "x94": {
-            "name": "Wawalago",
-            "zone": "Limsa Lominsa Lower Decks"
-        },
-        "x107": {
-            "name": "Worldly Imperial",
-            "zone": "Garlemald"
-        },
-        "x95": {
-            "name": "Yayake",
-            "zone": "Ul'dah - Steps of Nald"
-        },
-        "x96": {
-            "name": "Elaisse",
-            "zone": "The Pillars"
-        },
-        "x97": {
-            "name": "Hall Overseer",
-            "zone": "The Triple Triad Battlehall"
-        },
-        "x98": {
-            "name": "Isobe",
-            "zone": "The Ruby Sea"
+        "x70": {
+            "name": "Kiuka",
+            "zone": "The Doman Enclave"
         },
         "x99": {
             "name": "Lewena",
             "zone": "The Gold Saucer"
-        },
-        "x100": {
-            "name": "Vorsaile Heuloix",
-            "zone": "New Gridania"
         }
     }
 }

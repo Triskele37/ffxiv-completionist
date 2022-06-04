@@ -21,7 +21,8 @@ export const QUEST_DEFINITION = {
                 'shadowbringers',
                 'the-voyage-home',
                 'dark-reprise',
-                'endwalker'
+                'endwalker',
+                'post-endwalker'
             ]
         },
         {
@@ -39,7 +40,8 @@ export const QUEST_DEFINITION = {
                 'eden',
                 'yorha-dark-apocalypse',
                 'garlemalds-machinations',
-                'pandaemonium'
+                'pandaemonium',
+                'myths-of-the-realm'
             ]
         },
         {

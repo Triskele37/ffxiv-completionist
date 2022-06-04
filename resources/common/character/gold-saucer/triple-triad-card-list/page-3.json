@@ -3,10 +3,12 @@
     "tasks": {
         "x0": {
             "number": "061",
+            "source": "character.gold-saucer.triple-triad-opponents.69",
             "patch": "2.51"
         },
         "x1": {
             "number": "062",
+            "source": "character.gold-saucer.triple-triad-opponents.62",
             "patch": "2.51"
         },
         "x2": {
@@ -15,45 +17,66 @@
         },
         "x3": {
             "number": "064",
-            "source": "duty.dutyraid-finder.dungeons.arr.13",
+            "source": [
+                "character.gold-saucer.triple-triad-opponents.66",
+                "duty.dutyraid-finder.dungeons.arr.13"
+            ],
             "patch": "2.51"
         },
         "x4": {
             "number": "065",
+            "source": [
+                "character.gold-saucer.triple-triad-opponents.86",
+                "character.gold-saucer.triple-triad-opponents.46",
+                "character.gold-saucer.triple-triad-opponents.43"
+            ],
             "patch": "2.51"
         },
         "x5": {
             "number": "066",
+            "source": "character.gold-saucer.triple-triad-opponents.100",
             "patch": "2.51"
         },
         "x6": {
             "number": "067",
+            "source": "character.gold-saucer.triple-triad-opponents.49",
             "patch": "2.51"
         },
         "x7": {
             "number": "068",
+            "source": "character.gold-saucer.triple-triad-opponents.45",
             "patch": "3.0"
         },
         "x8": {
             "number": "069",
+            "source": "character.gold-saucer.triple-triad-opponents.81",
             "patch": "3.0"
         },
         "x9": {
             "number": "070",
+            "source": "character.gold-saucer.triple-triad-opponents.81",
             "patch": "3.0"
         },
         "x10": {
             "number": "071",
+            "source": "character.gold-saucer.triple-triad-opponents.53",
             "patch": "3.0"
         },
         "x11": {
             "number": "072",
-            "source": "duty.fate.dravania.the-dravanian-forelands.838",
+            "source": [
+                "character.gold-saucer.triple-triad-opponents.52",
+                "duty.fate.dravania.the-dravanian-forelands.838"
+            ],
             "patch": "3.0"
         },
         "x12": {
             "number": "073",
-            "source": "duty.dutyraid-finder.dungeons.hw.0",
+            "source": [
+                "character.gold-saucer.triple-triad-opponents.29",
+                "character.gold-saucer.triple-triad-opponents.3",
+                "duty.dutyraid-finder.dungeons.hw.0"
+            ],
             "patch": "3.0"
         },
         "x13": {
@@ -63,31 +86,40 @@
         },
         "x14": {
             "number": "075",
+            "source": "character.gold-saucer.triple-triad-opponents.60",
             "patch": "3.0"
         },
         "x15": {
             "number": "076",
+            "source": "character.gold-saucer.triple-triad-opponents.94",
             "patch": "3.0"
         },
         "x16": {
             "number": "077",
+            "source": "character.gold-saucer.triple-triad-opponents.14",
             "patch": "3.0"
         },
         "x17": {
             "number": "078",
+            "source": "character.gold-saucer.triple-triad-opponents.39",
             "patch": "3.0"
         },
         "x18": {
             "number": "079",
+            "source": "character.gold-saucer.triple-triad-opponents.80",
             "patch": "3.0"
         },
         "x19": {
             "number": "080",
+            "source": "character.gold-saucer.triple-triad-opponents.76",
             "patch": "3.0"
         },
         "x20": {
             "number": "081",
-            "source": "duty.dutyraid-finder.dungeons.hw.4",
+            "source": [
+                "character.gold-saucer.triple-triad-opponents.79",
+                "duty.dutyraid-finder.dungeons.hw.4"
+            ],
             "patch": "3.0"
         },
         "x21": {
@@ -97,11 +129,13 @@
         },
         "x22": {
             "number": "083",
+            "source": "character.gold-saucer.triple-triad-opponents.95",
             "patch": "3.0"
         },
         "x23": {
             "number": "084",
             "source": [
+                "character.gold-saucer.triple-triad-opponents.52",
                 "duty.dutyraid-finder.trials.hw.0",
                 "duty.dutyraid-finder.trials.hw.8"
             ],
@@ -110,6 +144,7 @@
         "x24": {
             "number": "085",
             "source": [
+                "character.gold-saucer.triple-triad-opponents.42",
                 "duty.dutyraid-finder.trials.hw.1",
                 "duty.dutyraid-finder.trials.hw.7"
             ],
@@ -117,7 +152,11 @@
         },
         "x25": {
             "number": "086",
-            "source": "duty.dutyraid-finder.dungeons.hw.2",
+            "source": [
+                "duty.dutyraid-finder.dungeons.hw.2",
+                "duty.dutyraid-finder.trials.hw.3",
+                "duty.dutyraid-finder.trials.hw.10"
+            ],
             "patch": "3.0"
         },
         "x26": {
@@ -127,14 +166,17 @@
         },
         "x27": {
             "number": "088",
+            "source": "character.gold-saucer.triple-triad-opponents.29",
             "patch": "3.1"
         },
         "x28": {
             "number": "089",
+            "source": "character.gold-saucer.triple-triad-opponents.96",
             "patch": "3.1"
         },
         "x29": {
             "number": "090",
+            "source": "character.gold-saucer.triple-triad-opponents.73",
             "patch": "3.1"
         }
     }

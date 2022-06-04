@@ -16,7 +16,7 @@
         [placeholder]="'MAIN.SEARCH.PLACEHOLDER' | translate"
         [ngClass]="svcSearch.searchStatus$ | async"
         [(ngModel)]="searchTerm"
-        (keydown.enter)="searchOnEnter()"
+        (keydown)="onSearchKeydown($event)"
     />
 
     <p-button

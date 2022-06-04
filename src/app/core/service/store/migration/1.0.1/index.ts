@@ -8,5 +8,13 @@ export function migrateTo_1_0_1(svcSaveStore: SaveStoreService): void {
 
     migrateRoleQuests(store);
 
+    store.moveTask(
+        'logs.gathering.gathering-log.logging.level.56-60',
+        'logs.gathering.gathering-log.logging.level.61-65',
+        11
+    );
+
+    store.deleteTask('duty.dutyraider-finder.trials.arr', 3);
+
     store.write();
 }

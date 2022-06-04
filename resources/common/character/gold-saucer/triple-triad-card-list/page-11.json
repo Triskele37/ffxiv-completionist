@@ -3,6 +3,7 @@
     "tasks": {
         "x0": {
             "number": "301",
+            "source": "character.gold-saucer.triple-triad-opponents.30",
             "patch": "5.45"
         },
         "x1": {
@@ -28,7 +29,10 @@
         },
         "x6": {
             "number": "307",
-            "source": "duty.dutyraid-finder.trials.shb.17",
+            "source": [
+                "duty.dutyraid-finder.trials.shb.17",
+                "duty.dutyraid-finder.trials.shb.16"
+            ],
             "patch": "5.5"
         },
         "x7": {
@@ -42,10 +46,12 @@
         },
         "x9": {
             "number": "310",
+            "source": "character.gold-saucer.triple-triad-opponents.101",
             "patch": "5.55"
         },
         "x10": {
             "number": "311",
+            "source": "character.gold-saucer.triple-triad-opponents.101",
             "patch": "5.55"
         },
         "x11": {
@@ -54,10 +60,12 @@
         },
         "x12": {
             "number": "313",
+            "source": "character.gold-saucer.triple-triad-opponents.103",
             "patch": "6.0"
         },
         "x13": {
             "number": "314",
+            "source": "character.gold-saucer.triple-triad-opponents.102",
             "patch": "6.0"
         },
         "x14": {
@@ -66,14 +74,17 @@
         },
         "x15": {
             "number": "316",
+            "source": "character.gold-saucer.triple-triad-opponents.105",
             "patch": "6.0"
         },
         "x16": {
             "number": "317",
+            "source": "character.gold-saucer.triple-triad-opponents.104",
             "patch": "6.0"
         },
         "x17": {
             "number": "318",
+            "source": "character.gold-saucer.triple-triad-opponents.104",
             "patch": "6.0"
         },
         "x18": {
@@ -98,6 +109,7 @@
         },
         "x22": {
             "number": "323",
+            "source": "character.gold-saucer.triple-triad-opponents.106",
             "patch": "6.0"
         },
         "x23": {
@@ -107,10 +119,12 @@
         },
         "x24": {
             "number": "325",
+            "source": "character.gold-saucer.triple-triad-opponents.107",
             "patch": "6.0"
         },
         "x25": {
             "number": "326",
+            "source": "character.gold-saucer.triple-triad-opponents.106",
             "patch": "6.0"
         },
         "x26": {

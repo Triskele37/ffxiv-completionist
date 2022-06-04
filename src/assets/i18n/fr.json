@@ -326,14 +326,16 @@
             },
             "1_0_1": {
                 "ADD": {
-                    "L1": "Resources up to FFXIV 6.1"
+                    "L1": "Resources up to FFXIV 6.15"
                 },
                 "CHANGE": {
-                    "L1": "Grouped Role Quests by expansion"
+                    "L1": "Grouped Role Quests by expansion",
+                    "L2": "Merged \"Drop\" and \"Acquired\" columns in triad cards"
                 },
                 "FIX": {
                     "L1": "Various data/chain corrections",
-                    "L2": "Several columns showing raw link paths"
+                    "L2": "Several columns showing raw link paths",
+                    "L3": "Ctrl+V automatically searching from any input field"
                 }
             }
         },
