@@ -2,6 +2,7 @@
 **Add**
 - missing endwalker savage unlock quasi quest
 - DSR Unlock Quasi
+- Overlay "Lock" open
 
 **Change**
 - Convert DataGroup.tasks to Map<string, Task>
@@ -13,6 +14,7 @@
   - Title
   - Crafting Log
 - Changing starting class resets completion on tasks outside of the starting city MSQ and content directly related to them
+- Dis/re-enabling chaining clears completion, similar to ^?
 - Move Forged Anew resistance sidequest into quasi-quests
 
 ------------------------------------------------------------------ Prioritize

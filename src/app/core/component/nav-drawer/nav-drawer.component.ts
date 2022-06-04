@@ -58,7 +58,7 @@ export class NavDrawerComponent implements OnInit {
 
     updateBookmarkGroup() {
         const bookmarksIndex = this.items.findIndex(
-            (item) => item.label === this.svcBookmark.group.name
+            (item) => item.state.name === this.svcBookmark.group.name
         );
 
         this.items[bookmarksIndex] = this.addSubGroup(this.svcBookmark.group);
@@ -69,10 +69,21 @@ export class NavDrawerComponent implements OnInit {
 
     // Recursive: Builds a MenuItem for all data groups
     addSubGroup(group: DataGroup, depth: number = 1): MenuItem {
-        const item: MenuItem = { label: group.name };
+        const item: MenuItem = {
+            label: this.getSubGroupLabel(group),
+            escape: false,
+            visible: group.visible, // Allow UI groups to hide themselves,
+            state: {
+                name: group.name
+            }
+        };
 
-        // Allow UI groups to hide themselves
-        item.visible = group.visible;
+        group.onUpdated$.subscribe(() => {
+            item.label = this.getSubGroupLabel(group);
+
+            // Mutate "items" so changes are detected
+            this.items = [...this.items];
+        });
 
         // Add "sub" MenuItems if this group has subGroups
         if(group.subGroups?.size) {
@@ -93,12 +104,22 @@ export class NavDrawerComponent implements OnInit {
         return item;
     }
 
+    getSubGroupLabel(group: DataGroup): string {
+        let label = `<span>${group.name}</span>`;
+
+        if(group.percentComplete === '100.00') {
+            label += '<i class="mi mi-star"></i>';
+        }
+
+        return label;
+    }
+
     // Recursive: Updates the collapsed state of all MenuItems to match "path"
     updateCollapsed(items: MenuItem[], path: string[]): void {
         const name = path.shift();
 
         items.forEach((menuItem) => {
-            menuItem.expanded = menuItem.label === name;
+            menuItem.expanded = menuItem.state.name === name;
             if(menuItem.items) this.updateCollapsed(menuItem.items, [...path]);
         });
     }

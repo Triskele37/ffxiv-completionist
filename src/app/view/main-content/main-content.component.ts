@@ -2,8 +2,6 @@ import {
     ChangeDetectorRef,
     Component,
     ComponentFactoryResolver,
-    ElementRef,
-    OnDestroy,
     OnInit,
     ViewChild
 } from '@angular/core';
@@ -17,7 +15,7 @@ import { NavigationService } from '@service/navigation/navigation.service';
     templateUrl: './main-content.component.html',
     styleUrls: ['./main-content.component.scss']
 })
-export class MainContentComponent implements OnInit, OnDestroy {
+export class MainContentComponent implements OnInit {
     selectedGroup: DataGroup;
 
     constructor(
@@ -29,7 +27,6 @@ export class MainContentComponent implements OnInit, OnDestroy {
 
     ngOnInit(): void {
         this.svcNavigation.selectedGroup$.subscribe((selectedGroup) => {
-            this.footerHeight = 0;
             const refExists = !!this.selectedGroup?.component;
             this.selectedGroup = selectedGroup;
 
@@ -43,39 +40,10 @@ export class MainContentComponent implements OnInit, OnDestroy {
         });
     }
 
-    ngOnDestroy(): void {
-        this.summaryObserver?.disconnect();
-    }
-
     // Force "keyvalue" pipe to respect Map order
     asIsOrder(a, b): number {
         return 1;
     }
-
-    //#region------------------------------------------------------- Dynamic Scroll Height
-    footerHeight: number = 0;
-    summaryObserver: ResizeObserver;
-
-    @ViewChild('groupSummary', { static: false }) set groupSummary(ref: ElementRef) {
-        if(!ref) {
-            this.footerHeight = 0;
-            this.summaryObserver?.disconnect();
-            this.cdr.detectChanges();
-            return;
-        }
-
-        this.summaryObserver = new ResizeObserver((entries) => {
-            entries.forEach((entry) => {
-                this.footerHeight = entry.contentRect?.height || 0;
-            });
-
-            this.cdr.detectChanges();
-        });
-
-        this.summaryObserver.observe(ref.nativeElement);
-    }
-
-    //#endregion
 
     //#region------------------------------------------------------- Dynamic Component
     _anchor: AnchorDirective;

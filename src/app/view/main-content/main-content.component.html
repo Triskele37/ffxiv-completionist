@@ -8,10 +8,6 @@
     ></ng-container>
 </div>
 
-<!-- Forces the table to respect the summary line container's height -->
-<!--TODO: screws up table sometimes??? -->
-<div [style.height.px]="footerHeight"></div>
-
 <!---------------------------------------------------------------------------->
 <!------------------------------ View Templates ------------------------------>
 <!---------------------------------------------------------------------------->
@@ -26,14 +22,15 @@
 </ng-template>
 
 <ng-template #tableView>
-    <div class="table-content">
-        <ng-container *ngIf="!svcNavigation.allTaskViewEnabled && selectedGroup.subGroups">
+    <div
+        *ngIf="!svcNavigation.allTaskViewEnabled; else allTaskTable"
+        class="table-content"
+    >
+        <ng-container *ngIf="selectedGroup.subGroups">
             <ng-container *ngTemplateOutlet="groupSummaries"></ng-container>
         </ng-container>
 
-        <ng-container
-            *ngTemplateOutlet="svcNavigation.allTaskViewEnabled ? allTaskTable : baseTable"
-        ></ng-container>
+        <ng-container *ngTemplateOutlet="baseTable"></ng-container>
     </div>
 </ng-template>
 

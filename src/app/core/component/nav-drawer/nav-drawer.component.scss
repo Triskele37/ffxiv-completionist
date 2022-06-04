@@ -41,5 +41,18 @@
             // Fix for primary showing through on the bottom link
             border-radius: 0;
         }
+
+        .p-menuitem-text {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+
+            .mi.mi-star {
+                color: var(--completed);
+                margin-right: 10px;
+                font-size: 16px;
+            }
+        }
     }
 }
