@@ -8,6 +8,7 @@ import {
     SimpleChanges,
     ViewChild
 } from '@angular/core';
+import { SortEvent } from 'primeng/api';
 import { Table } from 'primeng/table';
 
 import { DataGroup } from '@domain/DataGroup';
@@ -16,8 +17,10 @@ import { FilterService } from '@service/filter/filter.service';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { SaveStoreService } from '@service/store/save-store.service';
+import { getLinkedName } from '@util/getLinkedName';
 
 import { DragEvent, UniqueValues } from './types';
+import { A } from '@angular/cdk/keycodes';
 
 @Component({
     selector: 'xiv-task-table',
@@ -88,6 +91,54 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
             this._taskTable?.scrollToVirtualIndex(0);
         }
     }
+
+    //#region----------------------------------------------------------- Sort
+    alphanumericRegex = new RegExp(/[^\w]/g);
+
+    sortData($event: SortEvent): void {
+        $event.data.sort((taskA, taskB) => {
+            for(const { field, order } of $event.multiSortMeta) {
+                const a = taskA[field];
+                const b = taskB[field];
+                let result;
+
+                if(!a || !b) result = a ? -1 : b ? 1 : 0;
+                else if(typeof a === 'number' && typeof b === 'number') {
+                    result = (a < b) ? -1 : (a > b) ? 1 : 0;
+                }
+                else {
+                    result = this.compareStringOrLink(a, b);
+                }
+
+                if(result) return result * order;
+            }
+        });
+
+        // Table doesn't re-render otherwise
+        this.filteredTasks = [...$event.data];
+    }
+
+    compareStringOrLink(a: string | string[], b: string | string[]): number {
+        // In case of an array of links, take the first
+        let aVal = Array.isArray(a) ? a[0] : a;
+        let bVal = Array.isArray(b) ? b[0] : b;
+
+        // Attempt to get link text
+        const linkA = getLinkedName(aVal, true);
+        const linkB = getLinkedName(bVal, true);
+
+        // non-matching means the values are links, make sure they're strings
+        if(linkA !== aVal) aVal = linkA.toString();
+        if(linkB !== bVal) bVal = linkB.toString();
+
+        // Replace non-alphanumeric characters
+        aVal = aVal.replace(this.alphanumericRegex, '');
+        bVal = bVal.replace(this.alphanumericRegex, '');
+
+        return aVal.localeCompare(bVal, undefined, { numeric: true });
+    }
+
+    //#endregion
 
     //#region----------------------------------------------------------- Filter
     onFilterChange(): void {

@@ -1,6 +1,7 @@
 ------------------------------------------------------------------ Current Release
 **Add**
 - missing endwalker savage unlock quasi quest
+- DSR Unlock Quasi
 
 **Change**
 - Convert DataGroup.tasks to Map<string, Task>
@@ -12,11 +13,7 @@
   - Title
   - Crafting Log
 - Changing starting class resets completion on tasks outside of the starting city MSQ and content directly related to them
-- Migrations need to consider bookmark paths
 - Move Forged Anew resistance sidequest into quasi-quests
-- Studium quests do not chain to their achievements
-- Excluding an item chained to another marks the other as N when the other is marked X
-  - should not change mark
 
 ------------------------------------------------------------------ Prioritize
 **Add**
@@ -31,16 +28,6 @@
 - overhaul orchestrion log
 
 **Fix**
-- Missing fr sections
-    - Various group names
-    - Lucis Tools
-    - Resplendent Tools
-    - Trust
-    - Orchestrion
-    - Travel
-- fr minion sources
-  - explorations aren't numbered and some are merged?
-  - voyages and retainer categories seem to be merged?
 - Missing Unlock
     - 66999 - Marvelously Mutable Materia
     - All job stones chained from quests unlocked by Sylph-management
@@ -49,7 +36,6 @@
 - "Close to Home"s are based on starting class, so 8 different ones
 - Triad opponents need re-verification of patch (arrtripletriad.com/en/npcs)
 - Scholar/Summoner levels don't tie together properly
-- Leve Issue/Start zones?
 - Delivery Moogle quests after "Thwack-a-Mole" have no chain information (anywhere)
 
 ------------------------------------------------------------------ Future
