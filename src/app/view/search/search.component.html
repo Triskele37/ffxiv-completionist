@@ -33,6 +33,8 @@
             <div>{{(svcSearch.searchMatches$ | async).length}} {{'MAIN.SEARCH.MATCHES' | translate}}</div>
         </div>
 
+        <xiv-chain-overlay></xiv-chain-overlay>
+
         <div class="results">
             <p-table
                 [expandedRowKeys]="expandedRows"
