@@ -20,9 +20,18 @@
         padding-right: 10px;
     }
 
-    .group-summary-section {
-        // wraps summaries each 3
+    .table-content {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        height: 100%;
+
+        .group-summary-section {
+            // wraps summaries each 3
+            display: flex;
+            flex-wrap: wrap;
+
+            // For table height
+            flex-shrink: 0;
+        }
     }
 }

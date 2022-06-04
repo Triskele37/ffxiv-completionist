@@ -26,13 +26,15 @@
 </ng-template>
 
 <ng-template #tableView>
-    <ng-container *ngIf="!svcNavigation.allTaskViewEnabled && selectedGroup.subGroups">
-        <ng-container *ngTemplateOutlet="groupSummaries"></ng-container>
-    </ng-container>
+    <div class="table-content">
+        <ng-container *ngIf="!svcNavigation.allTaskViewEnabled && selectedGroup.subGroups">
+            <ng-container *ngTemplateOutlet="groupSummaries"></ng-container>
+        </ng-container>
 
-    <ng-container
-        *ngTemplateOutlet="svcNavigation.allTaskViewEnabled ? allTaskTable : baseTable"
-    ></ng-container>
+        <ng-container
+            *ngTemplateOutlet="svcNavigation.allTaskViewEnabled ? allTaskTable : baseTable"
+        ></ng-container>
+    </div>
 </ng-template>
 
 <!----------------------------------------------------------------------------->
