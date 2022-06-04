@@ -1,12 +1,9 @@
 import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges } from '@angular/core';
 
 import { Completion } from '@constant';
+import { DataService } from '@data';
 import { Task } from '@domain/Task';
-import { SaveStoreService } from '@service/store/save-store.service';
 
-/*TODO: currently a sync bug if another numeric task is chained
-*  in the same view, can be fixed by binding to [value] after
-*  upgrading ngPrime to 13.x to replace ngModel */
 @Component({
     selector: 'xiv-numeric-complete-cell',
     templateUrl: './numeric-complete-cell.component.html',
@@ -23,7 +20,7 @@ export class NumericCompleteCellComponent implements OnChanges {
     tooltip: string;
     percentage: string;
 
-    constructor(private svcStore: SaveStoreService) {
+    constructor(private svcData: DataService) {
     }
 
     ngOnChanges(changes: SimpleChanges): void {
@@ -44,7 +41,7 @@ export class NumericCompleteCellComponent implements OnChanges {
     onTaskValueChange(): void {
         // Update the new value
         this.task.changeCompletion(this.value, true);
-        this.svcStore.set(this.task.fullStorageKey, this.task.completionFlag);
+        this.svcData.applyDataToStore();
 
         // onBlur and rebinding value can't happen in the same tick
         setTimeout(() => {
