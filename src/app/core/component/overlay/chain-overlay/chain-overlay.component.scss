@@ -11,9 +11,9 @@
 
         position: absolute;
         transform: translateX(-50%);
-        bottom: -($size / 2);
+        bottom: -($size * 0.5);
         left: 50%;
-        z-index: 1;
+        z-index: 999;
 
         line-height: $size;
         height: $size;
