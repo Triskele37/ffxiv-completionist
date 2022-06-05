@@ -7,588 +7,38 @@
         "patch": "Patch"
     },
     "tasks": {
-        "x0": {
-            "name": "2B Automaton",
-            "category": "Raid"
-        },
-        "x1": {
-            "name": "2P Automaton",
-            "category": "Raid"
-        },
-        "x392": {
-            "name": "9S Automaton",
-            "category": "Raid"
-        },
-        "x2": {
-            "name": "Abroader Otter",
-            "category": "Voyages",
-            "source": "Subaquatic Voyages"
-        },
-        "x3": {
-            "name": "Accompaniment Node",
-            "category": "Quest"
-        },
-        "x408": {
-            "name": "Adventure Basket",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
-        },
-        "x4": {
-            "name": "Allagan Melon",
-            "category": "Other",
-            "source": "Gardening"
-        },
-        "x5": {
-            "name": "Amaro Hatchling",
-            "category": "FATE",
-            "source": "400 Bicolor Gemstones (The Crystarium)"
-        },
-        "x6": {
-            "name": "Ancient One",
-            "category": "Dungeon"
-        },
-        "x7": {
-            "name": "Angel of Mercy",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x8": {
-            "name": "Anima",
-            "category": "Quest"
-        },
-        "x393": {
-            "name": "Anteater",
-            "category": "Purchase",
-            "source": "400 Faux Leaves"
-        },
-        "x9": {
-            "name": "Armadillo Bowler",
-            "category": "Dungeon"
-        },
-        "x10": {
-            "name": "Assassin Fry",
-            "category": "Other",
-            "source": "Desynthesize a Ninja Betta"
-        },
-        "x11": {
-            "name": "Atrophied Atomos",
-            "category": "Crafting",
-            "source": [
-                "Crafted by Alchemist",
-                "Kupo of Fortune"
-            ]
-        },
-        "x12": {
-            "name": "Attendee #777",
-            "category": "Beast Tribe",
-            "source": "Gyosho - Dhoro Iloh - 7 Namazu Koban"
-        },
-        "x13": {
-            "name": "Aurelia Polyp",
-            "category": "Voyages",
-            "source": "Subaquatic Voyages"
-        },
-        "x14": {
-            "name": "Axolotl Eft",
-            "category": "Venture",
-            "source": [
-                "Waterside Exploration XXII",
-                "Quick Exploration"
-            ]
-        },
-        "x15": {
-            "name": "Baby Bat",
-            "category": "Purchase",
-            "source": "Junkmonger Nonoroon - Poor Maid's Mill - 2,400 Gil"
-        },
-        "x16": {
-            "name": "Baby Behemoth",
-            "category": "Premium",
-            "source": "A Realm Reborn Collector's Edition"
-        },
-        "x17": {
-            "name": "Baby Brachiosaur",
-            "category": "Purchase",
-            "source": "800 Skybuilders' Scrips"
-        },
-        "x18": {
-            "name": "Baby Bun",
-            "category": "FATE"
-        },
-        "x19": {
-            "name": "Baby Gremlin",
-            "category": "Premium",
-            "source": "Shadowbringers Pre-order"
-        },
-        "x20": {
-            "name": "Baby Opo-opo",
-            "category": "Dungeon",
-            "source": "The Aquapolis"
-        },
-        "x21": {
-            "name": "Baby Raptor",
-            "category": "Purchase",
-            "source": "Boughbury Trader - Redbelly Hive - 2,400 Gil"
-        },
-        "x22": {
-            "name": "Bacon Bits",
-            "category": "Venture",
-            "source": [
-                "Woodland Exploration XXV",
-                "Quick Exploration"
-            ]
-        },
-        "x23": {
-            "name": "Beady Eye",
-            "category": "Purchase",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
-        },
-        "x24": {
-            "name": "Behemoth Heir",
-            "category": "Purchase",
-            "source": "400 Centurio Seals"
-        },
-        "x394": {
-            "name": "Benben Stone",
-            "category": "Voyages",
-            "source": "Subaquatic Voyages - The Devil's Crypt"
-        },
-        "x25": {
-            "name": "Bite-Sized Pudding",
-            "category": "Dungeon"
-        },
-        "x26": {
-            "name": "Bitty Duckbill",
-            "category": "Purchase",
-            "source": "800 Sacks of Nuts"
-        },
-        "x27": {
-            "name": "Black Chocobo Chick",
-            "category": "Purchase",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
-        },
-        "x28": {
-            "name": "Black Coeurl",
-            "category": "Purchase",
-            "source": "20,000 MGP"
-        },
-        "x29": {
-            "name": "Black Hayate",
-            "category": "Dungeon"
-        },
-        "x30": {
-            "name": "Blizzaria",
-            "category": "Event",
-            "source": "Yo-kai Watch (2016, 2017, 2020)"
-        },
-        "x31": {
-            "name": "Bluebird",
-            "category": "Deep Dungeon",
-            "source": [
-                "Timeworn Peisteskin Map",
-                "Timeworn Dragonskin Map",
-                "The Aquapolis"
-            ]
-        },
-        "x32": {
-            "name": "Bom Boko",
-            "category": "Venture",
-            "source": [
-                "Field Exploration XX",
-                "Field Exploration XXII",
-                "Quick Exploration"
-            ]
-        },
-        "x33": {
-            "name": "Bombfish",
-            "category": "Dungeon"
-        },
-        "x409": {
-            "name": "Brave New Urianger",
-            "category": "Wondrous Tails",
-            "source": "1 Khloe's Silver Certificate of Commendation"
-        },
-        "x34": {
-            "name": "Brave New Y'shtola",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x35": {
-            "name": "Bridesmoogle",
-            "category": "Premium",
-            "source": "Attend a Ceremony of Eternal Bonding (Gold/Platinum)"
-        },
-        "x36": {
-            "name": "Brina",
-            "category": "Dungeon"
-        },
-        "x37": {
-            "name": "Buffalo Calf",
-            "category": "Quest"
-        },
-        "x38": {
-            "name": "Bullpup",
-            "category": "Dungeon",
-            "source": "Kupo of Fortune"
-        },
-        "x39": {
-            "name": "Butterfly Effect",
-            "category": "FATE",
-            "source": "400 Bicolor Gemstones (The Rak'tika Greatwood)"
-        },
-        "x40": {
-            "name": "Byakko Cub",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
-        },
-        "x41": {
-            "name": "Cactuar Cutting",
-            "category": "Quest"
-        },
-        "x410": {
-            "name": "Caduceus",
-            "category": "Dungeon"
-        },
-        "x42": {
-            "name": "Cait Sith Doll",
-            "category": "Premium",
-            "source": "A Realm Reborn Pre-order"
-        },
-        "x43": {
-            "name": "Calamari",
-            "category": "Dungeon"
-        },
-        "x44": {
-            "name": "Calca",
-            "category": "Dungeon"
-        },
-        "x45": {
-            "name": "Capybara Pup",
-            "category": "Treasure Hunt",
-            "source": [
-                "The Lost Canals of Uznair",
-                "The Hidden Canals of Uznair",
-                "The Shifting Canals of Uznair"
-            ]
-        },
-        "x46": {
-            "name": "Castaway Chocobo Chick",
-            "category": "Gathering",
-            "source": "Gathered by Fisher"
-        },
-        "x47": {
-            "name": "Cerberpup",
-            "category": "Purchase",
-            "source": "1,200 Skybuilders' Scrips"
-        },
-        "x48": {
-            "name": "Chameleon",
-            "category": "Dungeon"
-        },
-        "x49": {
-            "name": "Cherry Bomb",
+        "x249": {
+            "name": "Wayward Hatchling",
             "category": "Purchase",
             "source": "Minion Trader - The Gold Saucer - 2,400 Gil"
         },
-        "x50": {
-            "name": "Chigoe Larva",
-            "category": "Quest"
-        },
-        "x51": {
-            "name": "Chocobo Chick Courier",
-            "category": "Premium",
-            "source": "Heavensward Pre-order"
-        },
-        "x52": {
-            "name": "Clionid Larva",
-            "category": "Dungeon"
-        },
-        "x53": {
-            "name": "Clockwork Barrow",
-            "category": "Crafting",
-            "source": "Crafted by Carpenter"
-        },
-        "x54": {
-            "name": "Clockwork Lantern",
+        "x218": {
+            "name": "Storm Hatchling",
             "category": "Purchase",
-            "source": "15,000 Wolf Marks"
+            "source": "20,000 Storm Seals"
         },
-        "x55": {
-            "name": "Clockwork Twintania",
-            "category": "Achievement"
-        },
-        "x56": {
-            "name": "Coblyn Larva",
-            "category": "Gathering",
-            "source": "Gathered by Miner"
-        },
-        "x57": {
-            "name": "Coeurl Kitten",
-            "category": "Quest"
-        },
-        "x58": {
-            "name": "Conditional Virtue",
-            "category": "Exploratory Mission"
-        },
-        "x59": {
-            "name": "Construct 8",
-            "category": "Raid"
-        },
-        "x60": {
-            "name": "Continental Eye",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x61": {
-            "name": "Copycat Bulb",
-            "category": "Exploratory Mission",
-            "source": "Happy Bunny Lockbox - Eureka Pagos"
-        },
-        "x411": {
-            "name": "Crabe de la Crabe",
-            "category": "Venture",
-            "source": "Waterside Exploration XXVI - XXVII"
-        },
-        "x62": {
-            "name": "Cute Justice",
+        "x206": {
+            "name": "Serpent Hatchling",
             "category": "Purchase",
-            "source": "Maudlin Latool Ja - Ul'dah - 400 Allied Seals (60 BLU)"
-        },
-        "x63": {
-            "name": "Dáinsleif F1",
-            "category": "Exploratory Mission",
-            "source": "Southern Front Lockbox"
-        },
-        "x64": {
-            "name": "Damona",
-            "category": "Event",
-            "source": "Yo-kai Watch (2020)"
-        },
-        "x65": {
-            "name": "Demon Box",
-            "category": "Premium",
-            "source": "Attend a Ceremony of Eternal Bonding"
-        },
-        "x66": {
-            "name": "Demon Brick",
-            "category": "Dungeon"
-        },
-        "x67": {
-            "name": "Dhalmel Calf",
-            "category": "Exploratory Mission",
-            "source": [
-                "Pyros Lockbox",
-                "Heat-warped Lockbox"
-            ]
-        },
-        "x395": {
-            "name": "Dolphin Calf",
-            "category": "Achievement"
-        },
-        "x68": {
-            "name": "Domakin",
-            "category": "Venture",
-            "source": [
-                "Waterside Exploration XXV",
-                "Quick Exploration"
-            ]
-        },
-        "x69": {
-            "name": "Doman Magpie",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x70": {
-            "name": "Dress-up Alisaie",
-            "category": "Wondrous Tails",
-            "source": "1 Khloe's Bronze Certificate of Commendation"
-        },
-        "x71": {
-            "name": "Dress-up Estinien",
-            "category": "Purchase",
-            "source": "1,200 Skybuilders' Scrips"
-        },
-        "x72": {
-            "name": "Dress-up Raubahn",
-            "category": "Quest"
-        },
-        "x73": {
-            "name": "Dress-up Tataru",
-            "category": "Premium",
-            "source": "Item code included with Art of the Revolution: Eastern Memories"
-        },
-        "x74": {
-            "name": "Dress-up Thancred",
-            "category": "Wondrous Tails",
-            "source": "1 Khloe's Bronze Certificate of Commendation"
-        },
-        "x75": {
-            "name": "Dress-up Y'shtola",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x76": {
-            "name": "Dress-up Yugiri",
-            "category": "Dungeon"
-        },
-        "x77": {
-            "name": "Drippy",
-            "category": "Dungeon"
-        },
-        "x78": {
-            "name": "Dust Bunny",
-            "category": "Purchase",
-            "source": "Auriana - Mor Dhona - 3 Allagan Tomestones of Poetics"
-        },
-        "x79": {
-            "name": "Dwarf Rabbit",
-            "category": "Deep Dungeon",
-            "source": [
-                "Kupo of Fortune",
-                "The Aquapolis"
-            ]
-        },
-        "x80": {
-            "name": "Eden Minor",
-            "category": "Raid"
-        },
-        "x81": {
-            "name": "Eggplant Knight",
-            "category": "Other",
-            "source": "Gardening"
-        },
-        "x82": {
-            "name": "Enkidu",
-            "category": "Trial"
-        },
-        "x83": {
-            "name": "Ephemeral Necromancer",
-            "category": "Dungeon"
-        },
-        "x84": {
-            "name": "Faepup",
-            "category": "Achievement"
-        },
-        "x85": {
-            "name": "Fat Cat",
-            "category": "Venture",
-            "source": "Waterside Exploration XIV - XXV"
-        },
-        "x86": {
-            "name": "Faustlet",
-            "category": "Raid"
-        },
-        "x87": {
-            "name": "Fenrir Pup",
-            "category": "Other",
-            "source": "The Feast: Random Drop"
-        },
-        "x412": {
-            "name": "Flag",
-            "category": "Venture",
-            "source": "Field Exploration XXVI"
+            "source": "20,000 Serpent Seals"
         },
         "x88": {
             "name": "Flame Hatchling",
             "category": "Purchase",
             "source": "20,000 Flame Seals"
         },
-        "x89": {
-            "name": "Fledgling Apkallu",
-            "category": "Achievement"
-        },
-        "x90": {
-            "name": "Fledgling Dodo",
+        "x27": {
+            "name": "Black Chocobo Chick",
             "category": "Purchase",
-            "source": "Auriana - Mor Dhona - 3 Allagan Tomestones of Poetics"
+            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
         },
-        "x91": {
-            "name": "Forgiven Hate",
-            "category": "Dungeon"
+        "x51": {
+            "name": "Chocobo Chick Courier",
+            "category": "Premium",
+            "source": "Heavensward Pre-order"
         },
-        "x92": {
-            "name": "Fox Kit",
-            "category": "FATE",
-            "source": "Eschina - Rhalgr's Reach - 3 Sassho-seki Fragments (FATEs \"Outfoxed\" and \"Foxy Lady\")"
-        },
-        "x93": {
-            "name": "Frilled Dragon",
-            "category": "Deep Dungeon",
-            "source": "Confederate Custodian - Crick - 10 Empyrean Potsherds"
-        },
-        "x94": {
-            "name": "Gaelikitten",
-            "category": "Dungeon",
-            "source": [
-                "Kupo of Fortune",
-                "The Aquapolis"
-            ]
-        },
-        "x95": {
-            "name": "Garlic Jester",
-            "category": "Other",
-            "source": "Gardening"
-        },
-        "x96": {
-            "name": "Gestahl",
-            "category": "Venture",
-            "source": [
-                "Waterside Exploration XVIII",
-                "Waterside Exploration XIX"
-            ]
-        },
-        "x97": {
-            "name": "Ghido",
-            "category": "Dungeon"
-        },
-        "x98": {
-            "name": "Giant Beaver",
-            "category": "Purchase",
-            "source": "Giant Beaver - Il Mheg - 1 Dancing Wing (Titania) (Required Quests: And Then There Were None, Acht-la Ormh Inn)"
-        },
-        "x99": {
-            "name": "Gigantpole",
-            "category": "Gathering",
-            "source": "Gathered by Fisher"
-        },
-        "x100": {
-            "name": "Gigi",
-            "category": "Quest"
-        },
-        "x101": {
-            "name": "Golden Beaver",
-            "category": "Treasure Hunt",
-            "source": "The Shifting Oubliettes Of Lyhe Ghiah"
-        },
-        "x413": {
-            "name": "Golden Dhyata",
-            "category": "Quest"
-        },
-        "x102": {
-            "name": "Gold Rush Minecart",
-            "category": "FATE"
-        },
-        "x103": {
-            "name": "Goobbue Sproutling",
-            "category": "Quest"
-        },
-        "x104": {
-            "name": "Gravel Golem",
-            "category": "Crafting",
-            "source": "Crafted by Goldsmith"
-        },
-        "x414": {
-            "name": "Greener Gleaner",
-            "category": "Venture",
-            "source": "Woodland Exploration XXVI - XXVII"
-        },
-        "x105": {
-            "name": "Griffin Hatchling",
-            "category": "Purchase",
-            "source": "400 Centurio Seals"
-        },
-        "x396": {
-            "name": "Gull",
+        "x194": {
+            "name": "Princely Hatchling",
             "category": "Achievement"
         },
         "x106": {
@@ -596,255 +46,245 @@
             "category": "Purchase",
             "source": "20,000 MGP"
         },
-        "x107": {
-            "name": "Hecteye",
-            "category": "Deep Dungeon",
-            "source": "E-Una-Kotor - Quarrymill - 3 Gelmorran Potsherds"
+        "x46": {
+            "name": "Castaway Chocobo Chick",
+            "category": "Gathering",
+            "source": "Gathered by Fisher"
         },
-        "x108": {
-            "name": "Hedgehoglet",
-            "category": "Treasure Hunt",
-            "source": [
-                "The Lost Canals of Uznair",
-                "The Hidden Canals of Uznair",
-                "The Shifting Canals of Uznair"
-            ]
-        },
-        "x109": {
-            "name": "Heliodor Carbuncle",
+        "x329": {
+            "name": "Wind-up Moogle",
             "category": "Premium",
-            "source": "Item code Included with Topaz Carbuncle Plushie"
+            "source": "A Realm Reborn Collector's Edition"
         },
-        "x110": {
-            "name": "Hellpup",
-            "category": "Achievement"
+        "x276": {
+            "name": "Wind-up Deliver Moogle",
+            "category": "Premium",
+            "source": "Item code included with Delivery Moogle Plushie"
         },
-        "x415": {
-            "name": "Hippo Calf",
+        "x207": {
+            "name": "Set of Primogs",
+            "category": "Premium",
+            "source": "Item code included with Before the Fall Original Soundtrack"
+        },
+        "x221": {
+            "name": "Taoist Moogle",
+            "category": "Event",
+            "source": "Itinerant Moogle"
+        },
+        "x35": {
+            "name": "Bridesmoogle",
+            "category": "Premium",
+            "source": "Attend a Ceremony of Eternal Bonding (Gold/Platinum)"
+        },
+        "x49": {
+            "name": "Cherry Bomb",
+            "category": "Purchase",
+            "source": "Minion Trader - The Gold Saucer - 2,400 Gil"
+        },
+        "x16": {
+            "name": "Baby Behemoth",
+            "category": "Premium",
+            "source": "A Realm Reborn Collector's Edition"
+        },
+        "x24": {
+            "name": "Behemoth Heir",
+            "category": "Purchase",
+            "source": "400 Centurio Seals"
+        },
+        "x162": {
+            "name": "Morbol Seedling",
             "category": "Dungeon"
         },
-        "x111": {
-            "name": "Hoary the Snowman",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x112": {
-            "name": "Hovernyan",
-            "category": "Event",
-            "source": "Yo-kai Watch (2016, 2017, 2020)"
-        },
-        "x113": {
-            "name": "Hunting Hawk",
+        "x234": {
+            "name": "Tiny Rat",
             "category": "Purchase",
-            "source": "800 Skybuilders' Scrips"
+            "source": "Chachamun - Wellwick Wood - 2,400 Gil"
+        },
+        "x18": {
+            "name": "Baby Bun",
+            "category": "FATE"
+        },
+        "x50": {
+            "name": "Chigoe Larva",
+            "category": "Quest"
+        },
+        "x253": {
+            "name": "Wide-eyed Fawn",
+            "category": "Purchase",
+            "source": "Auriana - Mor Dhona - 3 Allagan Tomestones of Poetics"
         },
         "x114": {
             "name": "Infant Imp",
             "category": "FATE"
         },
-        "x115": {
-            "name": "Iron Dwarf",
+        "x57": {
+            "name": "Coeurl Kitten",
+            "category": "Quest"
+        },
+        "x28": {
+            "name": "Black Coeurl",
+            "category": "Purchase",
+            "source": "20,000 MGP"
+        },
+        "x104": {
+            "name": "Gravel Golem",
+            "category": "Crafting",
+            "source": "Crafted by Goldsmith"
+        },
+        "x372": {
+            "name": "Wind-up Tonberry",
+            "category": "Deep Dungeon",
+            "source": [
+                "Timeworn Boarskin Map",
+                "The Aquapolis"
+            ]
+        },
+        "x237": {
+            "name": "Tiny Tortoise",
+            "category": "Gathering",
+            "source": "Gathered by Fisher"
+        },
+        "x21": {
+            "name": "Baby Raptor",
+            "category": "Purchase",
+            "source": "Boughbury Trader - Redbelly Hive - 2,400 Gil"
+        },
+        "x15": {
+            "name": "Baby Bat",
+            "category": "Purchase",
+            "source": "Junkmonger Nonoroon - Poor Maid's Mill - 2,400 Gil"
+        },
+        "x232": {
+            "name": "Tiny Bulb",
+            "category": "Deep Dungeon",
+            "source": [
+                "Timeworn Toadskin Map",
+                "The Aquapolis"
+            ]
+        },
+        "x78": {
+            "name": "Dust Bunny",
+            "category": "Purchase",
+            "source": "Auriana - Mor Dhona - 3 Allagan Tomestones of Poetics"
+        },
+        "x280": {
+            "name": "Wind-up Dullahan",
             "category": "Crafting",
             "source": "Crafted by Armorer"
         },
-        "x116": {
-            "name": "Ironfrog Ambler",
-            "category": "FATE",
-            "source": "Fathard - Eulmore - 6 Formidable Cog (FATE \"A Finale Most Formidable\")"
+        "x99": {
+            "name": "Gigantpole",
+            "category": "Gathering",
+            "source": "Gathered by Fisher"
         },
-        "x117": {
-            "name": "Ivon Coeurlfist Doll",
-            "category": "Dungeon"
+        "x196": {
+            "name": "Pudgy Puk",
+            "category": "FATE"
         },
-        "x118": {
-            "name": "Jibanyan",
-            "category": "Event",
-            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        "x37": {
+            "name": "Buffalo Calf",
+            "category": "Quest"
+        },
+        "x41": {
+            "name": "Cactuar Cutting",
+            "category": "Quest"
+        },
+        "x215": {
+            "name": "Smallshell",
+            "category": "FATE"
+        },
+        "x387": {
+            "name": "Wolf Pup",
+            "category": "Quest"
+        },
+        "x23": {
+            "name": "Beady Eye",
+            "category": "Purchase",
+            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+        },
+        "x60": {
+            "name": "Continental Eye",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x90": {
+            "name": "Fledgling Dodo",
+            "category": "Purchase",
+            "source": "Auriana - Mor Dhona - 3 Allagan Tomestones of Poetics"
         },
         "x119": {
             "name": "Kidragora",
             "category": "Gathering",
             "source": "Gathered by Botanist"
         },
-        "x120": {
-            "name": "Koala Joey",
-            "category": "Venture",
-            "source": [
-                "Woodland Exploration XXII",
-                "Southern Front Lockbox",
-                "Zadnor Lockbox"
-            ]
+        "x176": {
+            "name": "Onion Prince",
+            "category": "Other",
+            "source": "Gardening"
         },
-        "x121": {
-            "name": "Komainu",
-            "category": "Purchase",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+        "x81": {
+            "name": "Eggplant Knight",
+            "category": "Other",
+            "source": "Gardening"
         },
-        "x122": {
-            "name": "Komajiro",
-            "category": "Event",
-            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        "x95": {
+            "name": "Garlic Jester",
+            "category": "Other",
+            "source": "Gardening"
         },
-        "x123": {
-            "name": "Komasan",
-            "category": "Event",
-            "source": "Yo-kai Watch (2016, 2017, 2020)"
-        },
-        "x124": {
-            "name": "Korpokkur Kid",
-            "category": "Dungeon"
-        },
-        "x125": {
-            "name": "Kyubi",
-            "category": "Event",
-            "source": "Yo-kai Watch (2016, 2017, 2020)"
-        },
-        "x126": {
-            "name": "Laladile",
-            "category": "Achievement"
-        },
-        "x127": {
-            "name": "Lalinator 5.HO",
-            "category": "Beast Tribe",
-            "source": "8 Hammered Frogments"
-        },
-        "x128": {
-            "name": "Lesser Panda",
-            "category": "Dungeon",
-            "source": "The Aquapolis"
-        },
-        "x129": {
-            "name": "Little Leafman",
-            "category": "FATE",
-            "source": "400 Bicolor Gemstones (Il Mheg)"
-        },
-        "x130": {
-            "name": "Little Leannan",
-            "category": "Dungeon"
-        },
-        "x131": {
-            "name": "Little Yang",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x132": {
-            "name": "Little Yin",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x133": {
-            "name": "Littlefoot",
-            "category": "Venture",
-            "source": "Woodland Exploration XIV - XVIII"
-        },
-        "x134": {
-            "name": "Lord Ananta",
-            "category": "Event",
-            "source": "Yo-kai Watch (2020)"
-        },
-        "x135": {
-            "name": "Lord Enma",
-            "category": "Event",
-            "source": "Yo-kai Watch (2020)"
-        },
-        "x136": {
-            "name": "Magic Broom",
-            "category": "Crafting",
-            "source": "Crafted by Carpenter"
-        },
-        "x137": {
-            "name": "Magic Bucket",
-            "category": "Gathering",
-            "source": "Gathered by Fisher"
-        },
-        "x138": {
-            "name": "Magitek Avenger F1",
-            "category": "Dungeon"
-        },
-        "x139": {
-            "name": "Magitek Helldiver F1",
-            "category": "Exploratory Mission"
-        },
-        "x397": {
-            "name": "Magitek Predator F1",
-            "category": "Dungeon"
-        },
-        "x140": {
-            "name": "Malone",
-            "category": "Achievement"
-        },
-        "x141": {
-            "name": "Mameshiba",
-            "category": "Venture",
-            "source": [
-                "Highland Exploration XXII",
-                "Quick Exploration"
-            ]
-        },
-        "x142": {
-            "name": "Mammet #001",
-            "category": "Purchase",
-            "source": "Minion Trade - The Gold Saucer - 2,400 Gil"
-        },
-        "x143": {
-            "name": "Mammet #003G",
-            "category": "Achievement"
-        },
-        "x144": {
-            "name": "Mammet #003L",
-            "category": "Achievement"
-        },
-        "x145": {
-            "name": "Mammet #003U",
-            "category": "Achievement"
+        "x238": {
+            "name": "Tomato King",
+            "category": "Other",
+            "source": "Gardening"
         },
         "x146": {
             "name": "Mandragora Queen",
             "category": "Other",
             "source": "Gardening"
         },
-        "x147": {
-            "name": "Manjimutt",
-            "category": "Event",
-            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        "x198": {
+            "name": "Pumpkin Butler",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
-        "x148": {
-            "name": "Meerkat",
-            "category": "Voyages",
-            "source": "Subaquatic Voyages - Coldtoe Isle"
+        "x56": {
+            "name": "Coblyn Larva",
+            "category": "Gathering",
+            "source": "Gathered by Miner"
         },
-        "x149": {
-            "name": "Micro Gigantender",
-            "category": "FATE",
-            "source": "400 Bicolor Gemstones (Amh Araeng)"
+        "x256": {
+            "name": "Wind-up Aldgoat",
+            "category": "Crafting",
+            "source": "Crafted by Weaver"
         },
-        "x150": {
-            "name": "Midgardsormr",
+        "x89": {
+            "name": "Fledgling Apkallu",
+            "category": "Achievement"
+        },
+        "x103": {
+            "name": "Goobbue Sproutling",
             "category": "Quest"
+        },
+        "x25": {
+            "name": "Bite-Sized Pudding",
+            "category": "Dungeon"
+        },
+        "x66": {
+            "name": "Demon Brick",
+            "category": "Dungeon"
         },
         "x151": {
             "name": "Mini Mole",
             "category": "Quest"
         },
-        "x152": {
-            "name": "Miniature Minecart",
-            "category": "Venture",
-            "source": "Highland Exploration XIV"
+        "x222": {
+            "name": "Tender Lamb",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
-        "x153": {
-            "name": "Miniature White Knight",
-            "category": "Purchase",
-            "source": "1,200 Skybuilders' Scrips"
-        },
-        "x154": {
-            "name": "Minion of Light",
-            "category": "Purchase",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
-        },
-        "x155": {
-            "name": "Minitek Conveyer",
-            "category": "Purchase",
-            "source": "15,000 Wolf Marks"
+        "x214": {
+            "name": "Slime Puddle",
+            "category": "Dungeon"
         },
         "x156": {
             "name": "Minute Mindflayer",
@@ -856,132 +296,85 @@
                 "The Aquapolis"
             ]
         },
-        "x157": {
-            "name": "Mock-up Grynewaht",
-            "category": "Dungeon"
-        },
-        "x158": {
-            "name": "Model Enterprise",
-            "category": "Premium",
-            "source": "Item code included with The Art of Eorzea: Another Dawn"
-        },
-        "x159": {
-            "name": "Model Magitek Bit",
-            "category": "Crafting",
-            "source": "Crafted by Blacksmith"
-        },
-        "x160": {
-            "name": "Model Vanguard",
-            "category": "Crafting",
-            "source": "Crafted by Goldsmith"
-        },
-        "x161": {
-            "name": "Monkey King",
-            "category": "Dungeon"
-        },
-        "x162": {
-            "name": "Morbol Seedling",
-            "category": "Dungeon"
-        },
-        "x163": {
-            "name": "Morpho",
+        "x230": {
+            "name": "Tight-beaked Parrot",
             "category": "Dungeon",
-            "source": "Kupo of Fortune"
+            "source": "The Aquapolis"
         },
-        "x164": {
-            "name": "Motley Egg",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
+        "x20": {
+            "name": "Baby Opo-opo",
+            "category": "Dungeon",
+            "source": "The Aquapolis"
         },
-        "x165": {
-            "name": "Much-coveted Mora",
-            "category": "Achievement"
+        "x362": {
+            "name": "Wind-up Succubus",
+            "category": "Purchase",
+            "source": "500 Allied Seals"
         },
-        "x166": {
-            "name": "Mudpie",
+        "x391": {
+            "name": "Zu Hatchling",
+            "category": "Purchase",
+            "source": "10,000 MGP"
+        },
+        "x241": {
+            "name": "Treasure Box",
+            "category": "Purchase",
+            "source": "440 Allied Seals"
+        },
+        "x171": {
+            "name": "Naughty Nanka",
             "category": "Dungeon"
+        },
+        "x133": {
+            "name": "Littlefoot",
+            "category": "Venture",
+            "source": "Woodland Exploration XIV - XVIII"
+        },
+        "x431": {
+            "name": "Wind-up Rudy",
+            "category": "Event",
+            "source": "Starlight Celebration (2021)"
         },
         "x167": {
             "name": "Mummy's Little Mummy",
             "category": "Dungeon",
             "source": "The Aquapolis"
         },
-        "x168": {
-            "name": "Mystic Weapon",
-            "category": "Venture",
+        "x11": {
+            "name": "Atrophied Atomos",
+            "category": "Crafting",
             "source": [
-                "Field Exploration XXV",
-                "Quick Exploration"
+                "Crafted by Alchemist",
+                "Kupo of Fortune"
             ]
         },
-        "x416": {
-            "name": "Nagxian Cat",
-            "category": "Purchase",
-            "source": "800 Sacks of Nuts"
-        },
-        "x169": {
-            "name": "Namingway",
-            "category": "Premium",
-            "source": "Item code included with Encyclopaedia Eorzea"
-        },
-        "x170": {
-            "name": "Nana Bear",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
-        },
-        "x171": {
-            "name": "Naughty Nanka",
-            "category": "Dungeon"
-        },
-        "x172": {
-            "name": "Noko",
-            "category": "Event",
-            "source": "Yo-kai Watch (2016, 2017, 2020)"
-        },
-        "x417": {
-            "name": "Nosferatu",
-            "category": "Raid"
-        },
-        "x173": {
-            "name": "Nutkin",
-            "category": "Deep Dungeon",
+        "x94": {
+            "name": "Gaelikitten",
+            "category": "Dungeon",
             "source": [
-                "Unhidden Leather Map",
+                "Kupo of Fortune",
                 "The Aquapolis"
             ]
         },
-        "x174": {
-            "name": "Odder Otter",
-            "category": "Venture",
-            "source": [
-                "Highland Exploration XIX - XXII",
-                "Woodland Exploration XIX - XXII",
-                "Waterside Exploration XIX - XXII",
-                "Quick Exploration"
-            ]
-        },
-        "x175": {
-            "name": "OMG",
-            "category": "Raid"
-        },
-        "x176": {
-            "name": "Onion Prince",
-            "category": "Other",
-            "source": "Gardening"
-        },
-        "x418": {
-            "name": "Optimus Omicron",
-            "category": "Dungeon"
-        },
-        "x177": {
-            "name": "Owlet",
-            "category": "Dungeon",
-            "source": "The Aquapolis"
+        "x250": {
+            "name": "Weatherproof Gaelicat",
+            "category": "Purchase",
+            "source": "Kupo of Fortune"
         },
         "x178": {
             "name": "Page 63",
             "category": "Dungeon",
             "source": "The Aquapolis"
+        },
+        "x115": {
+            "name": "Iron Dwarf",
+            "category": "Crafting",
+            "source": "Crafted by Armorer"
+        },
+        "x105": {
+            "name": "Griffin Hatchling",
+            "category": "Purchase",
+            "source": "400 Centurio Seals"
         },
         "x179": {
             "name": "Paissa Brat",
@@ -1002,286 +395,355 @@
             "category": "Purchase",
             "source": "Kupo of Fortune"
         },
-        "x182": {
-            "name": "Palico",
+        "x209": {
+            "name": "Shalloweye",
+            "category": "Achievement"
+        },
+        "x124": {
+            "name": "Korpokkur Kid",
+            "category": "Dungeon"
+        },
+        "x44": {
+            "name": "Calca",
+            "category": "Dungeon"
+        },
+        "x36": {
+            "name": "Brina",
+            "category": "Dungeon"
+        },
+        "x163": {
+            "name": "Morpho",
+            "category": "Dungeon",
+            "source": "Kupo of Fortune"
+        },
+        "x193": {
+            "name": "Poro Roggo",
             "category": "Quest"
         },
-        "x183": {
-            "name": "Panda Cub",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
+        "x87": {
+            "name": "Fenrir Pup",
+            "category": "Other",
+            "source": "The Feast: Random Drop"
+        },
+        "x43": {
+            "name": "Calamari",
+            "category": "Dungeon"
+        },
+        "x17": {
+            "name": "Baby Brachiosaur",
+            "category": "Purchase",
+            "source": "800 Skybuilders' Scrips"
         },
         "x184": {
             "name": "Pegasus Colt",
             "category": "Purchase",
             "source": "800 Skybuilders' Scrips"
         },
-        "x185": {
-            "name": "Penguin Prince",
-            "category": "Achievement"
+        "x356": {
+            "name": "Wind-up Sasquatch",
+            "category": "Deep Dungeon",
+            "source": "E-Una-Kotor - Quarrymill - 3 Gelmorran Potsherds"
         },
-        "x186": {
-            "name": "Peridot Carbuncle",
-            "category": "Premium",
-            "source": "Item code included with Emerald Carbuncle Plushie"
-        },
-        "x187": {
-            "name": "Petit Pteranodon",
-            "category": "Purchase",
-            "source": "Kupo of Fortune"
-        },
-        "x188": {
-            "name": "Piggy",
-            "category": "Purchase",
-            "source": "30,000 MGP"
-        },
-        "x189": {
-            "name": "Plush Cushion",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
-        },
-        "x190": {
-            "name": "Pod 054",
-            "category": "Raid"
-        },
-        "x191": {
-            "name": "Pod 316",
-            "category": "Raid"
-        },
-        "x192": {
-            "name": "Poogie",
-            "category": "Trial"
-        },
-        "x193": {
-            "name": "Poro Roggo",
-            "category": "Quest"
-        },
-        "x419": {
-            "name": "Prince Lunatender",
-            "category": "Dungeon"
-        },
-        "x194": {
-            "name": "Princely Hatchling",
-            "category": "Achievement"
-        },
-        "x195": {
-            "name": "Private Moai",
-            "category": "Crafting",
-            "source": "Crafted by Blacksmith"
-        },
-        "x196": {
-            "name": "Pudgy Puk",
-            "category": "FATE"
-        },
-        "x197": {
-            "name": "Puff of Darkness",
-            "category": "Raid"
-        },
-        "x198": {
-            "name": "Pumpkin Butler",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x199": {
-            "name": "Road Sparrow",
-            "category": "Dungeon"
-        },
-        "x200": {
-            "name": "Robonyan F-type",
-            "category": "Event",
-            "source": "Yo-kai Watch (2016, 2017, 2020)"
-        },
-        "x420": {
-            "name": "Royal Lunatender",
-            "category": "Treasure Hunt",
-            "source": "The Excitatron 6000"
-        },
-        "x201": {
-            "name": "Salt & Pepper Seal",
-            "category": "Dungeon"
-        },
-        "x202": {
-            "name": "Sand Fox",
-            "category": "Purchase",
-            "source": "400 Faux Leaves"
-        },
-        "x203": {
-            "name": "Save the Princess",
-            "category": "Raid"
-        },
-        "x204": {
-            "name": "Scarlet Peacock",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
-        },
-        "x205": {
-            "name": "Seitei",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
-        },
-        "x398": {
-            "name": "Senorita Sabotender",
-            "category": "Event",
-            "source": "The Make It Rain Campaign (2021)"
-        },
-        "x206": {
-            "name": "Serpent Hatchling",
-            "category": "Purchase",
-            "source": "20,000 Serpent Seals"
-        },
-        "x207": {
-            "name": "Set of Primogs",
-            "category": "Premium",
-            "source": "Item code included with Before the Fall Original Soundtrack"
+        "x107": {
+            "name": "Hecteye",
+            "category": "Deep Dungeon",
+            "source": "E-Una-Kotor - Quarrymill - 3 Gelmorran Potsherds"
         },
         "x208": {
             "name": "Shaggy Shoat",
             "category": "Dungeon"
         },
-        "x209": {
-            "name": "Shalloweye",
+        "x38": {
+            "name": "Bullpup",
+            "category": "Dungeon",
+            "source": "Kupo of Fortune"
+        },
+        "x110": {
+            "name": "Hellpup",
             "category": "Achievement"
         },
-        "x210": {
-            "name": "Sharksucker-class Insubmersible",
-            "category": "Voyages",
-            "source": [
-                "Subaquatic Voyages - The Central Charnel Trench",
-                "Subaquatic Voyages - The Southern Charnel Trench"
-            ]
+        "x84": {
+            "name": "Faepup",
+            "category": "Achievement"
         },
-        "x211": {
-            "name": "Shoebill",
+        "x236": {
+            "name": "Tiny Tatsunoko",
+            "category": "Gathering",
+            "source": "Gathered by Fisher"
+        },
+        "x33": {
+            "name": "Bombfish",
             "category": "Dungeon"
         },
-        "x212": {
-            "name": "Shogunyan",
-            "category": "Event",
-            "source": "Yo-kai Watch (2016, 2017, 2020)"
-        },
-        "x213": {
-            "name": "Silver Dasher",
-            "category": "Voyages",
-            "source": "Subaquatic Voyages - The Open Robe"
-        },
-        "x214": {
-            "name": "Slime Puddle",
+        "x117": {
+            "name": "Ivon Coeurlfist Doll",
             "category": "Dungeon"
         },
-        "x399": {
-            "name": "Smaller Stubby",
-            "category": "Raid"
-        },
-        "x215": {
-            "name": "Smallshell",
-            "category": "FATE"
-        },
-        "x216": {
-            "name": "Spoony Bard",
-            "category": "Premium",
-            "source": "Item code included with Heavensward Original Soundtrack"
-        },
-        "x421": {
-            "name": "Squirrel Emperor",
-            "category": "Event",
-            "source": "Starlight Celebration (2021)"
-        },
-        "x422": {
-            "name": "Starbird",
-            "category": "Dungeon"
-        },
-        "x217": {
-            "name": "Steam-powered Gobwalker G-VII",
-            "category": "Crafting",
-            "source": "Crafted by Armorer"
-        },
-        "x218": {
-            "name": "Storm Hatchling",
-            "category": "Purchase",
-            "source": "20,000 Storm Seals"
-        },
-        "x219": {
-            "name": "Sungold Talos",
-            "category": "Treasure Hunt",
-            "source": "The Dungeons of Lyhe Ghiah"
-        },
-        "x220": {
-            "name": "Syldrion-class Insubmersible",
-            "category": "Voyages",
-            "source": "Subaquatic Voyages - Sea of Jade 4"
-        },
-        "x221": {
-            "name": "Taoist Moogle",
-            "category": "Event",
-            "source": "Itinerant Moogle"
-        },
-        "x222": {
-            "name": "Tender Lamb",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x223": {
-            "name": "Tengu Doll",
-            "category": "Venture",
-            "source": [
-                "Field Exploration XXII",
-                "Quick Exploration"
-            ]
-        },
-        "x224": {
-            "name": "The Behatted Serpent of Ronka",
-            "category": "Beast Tribe",
-            "source": "Yuqurl Manl - The Rak'tika Greatwood - 8 Qitari Compliments"
-        },
-        "x225": {
-            "name": "The Behelmeted Serpent of Ronka",
-            "category": "Beast Tribe",
-            "source": "Yuqurl Manl - The Rak'tika Greatwood - 8 Qitari Compliments"
-        },
-        "x226": {
-            "name": "The Gold Whisker",
+        "x324": {
+            "name": "Wind-up Matanga",
             "category": "Treasure Hunt",
             "source": "The Hidden Canals of Uznair"
         },
-        "x227": {
-            "name": "The Great Serpent of Ronka",
-            "category": "Quest"
+        "x309": {
+            "name": "Wind-up Ixion",
+            "category": "FATE",
+            "source": "Eschina - Rhalgr's Reach - 5 Ixion Horns (FATE \"A Horse Outside\")"
         },
-        "x228": {
-            "name": "The Major-General",
-            "category": "Achievement"
+        "x287": {
+            "name": "Wind-up Fafnir",
+            "category": "Exploratory Mission",
+            "source": "Anemos Lockbox"
         },
         "x229": {
             "name": "The Prince of Anemos",
             "category": "Exploratory Mission",
             "source": "Anemos Lockbox"
         },
-        "x230": {
-            "name": "Tight-beaked Parrot",
-            "category": "Dungeon",
-            "source": "The Aquapolis"
+        "x61": {
+            "name": "Copycat Bulb",
+            "category": "Exploratory Mission",
+            "source": "Happy Bunny Lockbox - Eureka Pagos"
         },
-        "x231": {
-            "name": "Tinker's Bell",
-            "category": "FATE",
-            "source": "Fathard - Eulmore - 6 Archaeotania's Horn (FATE \"The Head, The Tail, the Whole Damned Thing\")"
-        },
-        "x232": {
-            "name": "Tiny Bulb",
-            "category": "Deep Dungeon",
+        "x67": {
+            "name": "Dhalmel Calf",
+            "category": "Exploratory Mission",
             "source": [
-                "Timeworn Toadskin Map",
-                "The Aquapolis"
+                "Pyros Lockbox",
+                "Heat-warped Lockbox"
             ]
+        },
+        "x58": {
+            "name": "Conditional Virtue",
+            "category": "Exploratory Mission"
+        },
+        "x161": {
+            "name": "Monkey King",
+            "category": "Dungeon"
+        },
+        "x166": {
+            "name": "Mudpie",
+            "category": "Dungeon"
+        },
+        "x19": {
+            "name": "Baby Gremlin",
+            "category": "Premium",
+            "source": "Shadowbringers Pre-order"
+        },
+        "x388": {
+            "name": "Yukinko Snowflake",
+            "category": "Exploratory Mission",
+            "source": [
+                "Hydatos Lockbox",
+                "Moisture-warped Lockbox"
+            ]
+        },
+        "x9": {
+            "name": "Armadillo Bowler",
+            "category": "Dungeon"
+        },
+        "x149": {
+            "name": "Micro Gigantender",
+            "category": "FATE",
+            "source": "400 Bicolor Gemstones (Amh Araeng)"
+        },
+        "x52": {
+            "name": "Clionid Larva",
+            "category": "Dungeon"
         },
         "x233": {
             "name": "Tiny Echevore",
             "category": "Dungeon"
         },
-        "x234": {
-            "name": "Tiny Rat",
+        "x91": {
+            "name": "Forgiven Hate",
+            "category": "Dungeon"
+        },
+        "x22": {
+            "name": "Bacon Bits",
+            "category": "Venture",
+            "source": [
+                "Woodland Exploration XXV",
+                "Quick Exploration"
+            ]
+        },
+        "x168": {
+            "name": "Mystic Weapon",
+            "category": "Venture",
+            "source": [
+                "Field Exploration XXV",
+                "Quick Exploration"
+            ]
+        },
+        "x153": {
+            "name": "Miniature White Knight",
             "category": "Purchase",
-            "source": "Chachamun - Wellwick Wood - 2,400 Gil"
+            "source": "1,200 Skybuilders' Scrips"
+        },
+        "x130": {
+            "name": "Little Leannan",
+            "category": "Dungeon"
+        },
+        "x219": {
+            "name": "Sungold Talos",
+            "category": "Treasure Hunt",
+            "source": "The Dungeons of Lyhe Ghiah"
+        },
+        "x140": {
+            "name": "Malone",
+            "category": "Achievement"
+        },
+        "x83": {
+            "name": "Ephemeral Necromancer",
+            "category": "Dungeon"
+        },
+        "x187": {
+            "name": "Petit Pteranodon",
+            "category": "Purchase",
+            "source": "Kupo of Fortune"
+        },
+        "x77": {
+            "name": "Drippy",
+            "category": "Dungeon"
+        },
+        "x242": {
+            "name": "Trike",
+            "category": "Purchase",
+            "source": "Kupo of Fortune"
+        },
+        "x5": {
+            "name": "Amaro Hatchling",
+            "category": "FATE",
+            "source": "400 Bicolor Gemstones (The Crystarium)"
+        },
+        "x424": {
+            "name": "Wee Ea",
+            "category": "FATE",
+            "source": "500 Bicolor Gemstones (Ultima Thule)"
+        },
+        "x419": {
+            "name": "Prince Lunatender",
+            "category": "Dungeon"
+        },
+        "x420": {
+            "name": "Royal Lunatender",
+            "category": "Treasure Hunt",
+            "source": "The Excitatron 6000"
+        },
+        "x423": {
+            "name": "Tiny Troll",
+            "category": "Dungeon"
+        },
+        "x414": {
+            "name": "Greener Gleaner",
+            "category": "Venture",
+            "source": "Woodland Exploration XXVI - XXVII"
+        },
+        "x426": {
+            "name": "Wind-up Daivadipa",
+            "category": "Purchase",
+            "source": "5 Daivadipa's Beads"
+        },
+        "x429": {
+            "name": "Wind-up Magus Sisters",
+            "category": "Dungeon"
+        },
+        "x425": {
+            "name": "Wind-up Anima",
+            "category": "Dungeon"
+        },
+        "x433": {
+            "name": "Hatching Bunny",
+            "category": "Quest"
+        },
+        "x55": {
+            "name": "Clockwork Twintania",
+            "category": "Achievement"
+        },
+        "x264": {
+            "name": "Wind-up Bahamut",
+            "category": "Premium",
+            "source": "Item code included with A Realm Reborn Original Sountrack"
+        },
+        "x86": {
+            "name": "Faustlet",
+            "category": "Raid"
+        },
+        "x217": {
+            "name": "Steam-powered Gobwalker G-VII",
+            "category": "Crafting",
+            "source": "Crafted by Armorer"
+        },
+        "x62": {
+            "name": "Cute Justice",
+            "category": "Purchase",
+            "source": "Maudlin Latool Ja - Ul'dah - 400 Allied Seals (60 BLU)"
+        },
+        "x240": {
+            "name": "Toy Alexander",
+            "category": "Raid"
+        },
+        "x286": {
+            "name": "Wind-up Exdeath",
+            "category": "Raid"
+        },
+        "x311": {
+            "name": "Wind-up Kefka",
+            "category": "Raid"
+        },
+        "x175": {
+            "name": "OMG",
+            "category": "Raid"
+        },
+        "x340": {
+            "name": "Wind-up Omega-M",
+            "category": "Wondrous Tails",
+            "source": "1 Khloe's Silver Certificate of Commendation"
+        },
+        "x339": {
+            "name": "Wind-up Omega-F",
+            "category": "Wondrous Tails",
+            "source": "1 Khloe's Silver Certificate of Commendation"
+        },
+        "x80": {
+            "name": "Eden Minor",
+            "category": "Raid"
+        },
+        "x417": {
+            "name": "Nosferatu",
+            "category": "Raid"
+        },
+        "x197": {
+            "name": "Puff of Darkness",
+            "category": "Raid"
+        },
+        "x281": {
+            "name": "Wind-up Echidna",
+            "category": "Raid"
+        },
+        "x268": {
+            "name": "Wind-up Calofisteri",
+            "category": "Raid"
+        },
+        "x357": {
+            "name": "Wind-up Scathach",
+            "category": "Raid"
+        },
+        "x59": {
+            "name": "Construct 8",
+            "category": "Raid"
+        },
+        "x47": {
+            "name": "Cerberpup",
+            "category": "Purchase",
+            "source": "1,200 Skybuilders' Scrips"
+        },
+        "x203": {
+            "name": "Save the Princess",
+            "category": "Raid"
+        },
+        "x440": {
+            "name": "Wind-up Azeyma",
+            "category": "Raid"
         },
         "x235": {
             "name": "Tiny Tapir",
@@ -1292,43 +754,291 @@
                 "Field Exploration XIX"
             ]
         },
-        "x236": {
-            "name": "Tiny Tatsunoko",
-            "category": "Gathering",
-            "source": "Gathered by Fisher"
+        "x170": {
+            "name": "Nana Bear",
+            "category": "Crafting",
+            "source": "Crafted by Weaver"
         },
-        "x237": {
-            "name": "Tiny Tortoise",
-            "category": "Gathering",
-            "source": "Gathered by Fisher"
+        "x173": {
+            "name": "Nutkin",
+            "category": "Deep Dungeon",
+            "source": [
+                "Unhidden Leather Map",
+                "The Aquapolis"
+            ]
         },
-        "x423": {
-            "name": "Tiny Troll",
-            "category": "Dungeon"
+        "x421": {
+            "name": "Squirrel Emperor",
+            "category": "Event",
+            "source": "Starlight Celebration (2021)"
         },
-        "x238": {
-            "name": "Tomato King",
-            "category": "Other",
-            "source": "Gardening"
+        "x183": {
+            "name": "Panda Cub",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x85": {
+            "name": "Fat Cat",
+            "category": "Venture",
+            "source": "Waterside Exploration XIV - XXV"
+        },
+        "x244": {
+            "name": "Unicolt",
+            "category": "Dungeon",
+            "source": "The Aquapolis"
+        },
+        "x128": {
+            "name": "Lesser Panda",
+            "category": "Dungeon",
+            "source": "The Aquapolis"
+        },
+        "x96": {
+            "name": "Gestahl",
+            "category": "Venture",
+            "source": [
+                "Waterside Exploration XVIII",
+                "Waterside Exploration XIX"
+            ]
+        },
+        "x79": {
+            "name": "Dwarf Rabbit",
+            "category": "Deep Dungeon",
+            "source": [
+                "Kupo of Fortune",
+                "The Aquapolis"
+            ]
+        },
+        "x92": {
+            "name": "Fox Kit",
+            "category": "FATE",
+            "source": "Eschina - Rhalgr's Reach - 3 Sassho-seki Fragments (FATEs \"Outfoxed\" and \"Foxy Lady\")"
         },
         "x239": {
             "name": "Tora-jiro",
             "category": "Purchase",
             "source": "800 Centurio Seals"
         },
-        "x240": {
-            "name": "Toy Alexander",
-            "category": "Raid"
+        "x32": {
+            "name": "Bom Boko",
+            "category": "Venture",
+            "source": [
+                "Field Exploration XX",
+                "Field Exploration XXII",
+                "Quick Exploration"
+            ]
         },
-        "x241": {
-            "name": "Treasure Box",
-            "category": "Purchase",
-            "source": "440 Allied Seals"
+        "x141": {
+            "name": "Mameshiba",
+            "category": "Venture",
+            "source": [
+                "Highland Exploration XXII",
+                "Quick Exploration"
+            ]
         },
-        "x242": {
-            "name": "Trike",
+        "x29": {
+            "name": "Black Hayate",
+            "category": "Dungeon"
+        },
+        "x120": {
+            "name": "Koala Joey",
+            "category": "Venture",
+            "source": [
+                "Woodland Exploration XXII",
+                "Southern Front Lockbox",
+                "Zadnor Lockbox"
+            ]
+        },
+        "x252": {
+            "name": "White Whittret",
+            "category": "Dungeon"
+        },
+        "x121": {
+            "name": "Komainu",
             "category": "Purchase",
-            "source": "Kupo of Fortune"
+            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+        },
+        "x93": {
+            "name": "Frilled Dragon",
+            "category": "Deep Dungeon",
+            "source": "Confederate Custodian - Crick - 10 Empyrean Potsherds"
+        },
+        "x45": {
+            "name": "Capybara Pup",
+            "category": "Treasure Hunt",
+            "source": [
+                "The Lost Canals of Uznair",
+                "The Hidden Canals of Uznair",
+                "The Shifting Canals of Uznair"
+            ]
+        },
+        "x108": {
+            "name": "Hedgehoglet",
+            "category": "Treasure Hunt",
+            "source": [
+                "The Lost Canals of Uznair",
+                "The Hidden Canals of Uznair",
+                "The Shifting Canals of Uznair"
+            ]
+        },
+        "x48": {
+            "name": "Chameleon",
+            "category": "Dungeon"
+        },
+        "x227": {
+            "name": "The Great Serpent of Ronka",
+            "category": "Quest"
+        },
+        "x225": {
+            "name": "The Behelmeted Serpent of Ronka",
+            "category": "Beast Tribe",
+            "source": "Yuqurl Manl - The Rak'tika Greatwood - 8 Qitari Compliments"
+        },
+        "x224": {
+            "name": "The Behatted Serpent of Ronka",
+            "category": "Beast Tribe",
+            "source": "Yuqurl Manl - The Rak'tika Greatwood - 8 Qitari Compliments"
+        },
+        "x39": {
+            "name": "Butterfly Effect",
+            "category": "FATE",
+            "source": "400 Bicolor Gemstones (The Rak'tika Greatwood)"
+        },
+        "x148": {
+            "name": "Meerkat",
+            "category": "Voyages",
+            "source": "Subaquatic Voyages - Coldtoe Isle"
+        },
+        "x202": {
+            "name": "Sand Fox",
+            "category": "Purchase",
+            "source": "400 Faux Leaves"
+        },
+        "x393": {
+            "name": "Anteater",
+            "category": "Purchase",
+            "source": "400 Faux Leaves"
+        },
+        "x412": {
+            "name": "Flag",
+            "category": "Venture",
+            "source": "Field Exploration XXVI"
+        },
+        "x416": {
+            "name": "Nagxian Cat",
+            "category": "Purchase",
+            "source": "800 Sacks of Nuts"
+        },
+        "x415": {
+            "name": "Hippo Calf",
+            "category": "Dungeon"
+        },
+        "x411": {
+            "name": "Crabe de la Crabe",
+            "category": "Venture",
+            "source": "Waterside Exploration XXVI - XXVII"
+        },
+        "x410": {
+            "name": "Caduceus",
+            "category": "Dungeon"
+        },
+        "x434": {
+            "name": "Wind-up Kangaroo",
+            "category": "Venture",
+            "source": "Highland Exploration XXVIII"
+        },
+        "x435": {
+            "name": "Chewy",
+            "category": "Venture",
+            "source": "Woodland Exploration XXVIII"
+        },
+        "x10": {
+            "name": "Assassin Fry",
+            "category": "Other",
+            "source": "Desynthesize a Ninja Betta"
+        },
+        "x174": {
+            "name": "Odder Otter",
+            "category": "Venture",
+            "source": [
+                "Highland Exploration XIX - XXII",
+                "Woodland Exploration XIX - XXII",
+                "Waterside Exploration XIX - XXII",
+                "Quick Exploration"
+            ]
+        },
+        "x2": {
+            "name": "Abroader Otter",
+            "category": "Voyages",
+            "source": "Subaquatic Voyages"
+        },
+        "x97": {
+            "name": "Ghido",
+            "category": "Dungeon"
+        },
+        "x201": {
+            "name": "Salt & Pepper Seal",
+            "category": "Dungeon"
+        },
+        "x14": {
+            "name": "Axolotl Eft",
+            "category": "Venture",
+            "source": [
+                "Waterside Exploration XXII",
+                "Quick Exploration"
+            ]
+        },
+        "x13": {
+            "name": "Aurelia Polyp",
+            "category": "Voyages",
+            "source": "Subaquatic Voyages"
+        },
+        "x26": {
+            "name": "Bitty Duckbill",
+            "category": "Purchase",
+            "source": "800 Sacks of Nuts"
+        },
+        "x68": {
+            "name": "Domakin",
+            "category": "Venture",
+            "source": [
+                "Waterside Exploration XXV",
+                "Quick Exploration"
+            ]
+        },
+        "x228": {
+            "name": "The Major-General",
+            "category": "Achievement"
+        },
+        "x126": {
+            "name": "Laladile",
+            "category": "Achievement"
+        },
+        "x165": {
+            "name": "Much-coveted Mora",
+            "category": "Achievement"
+        },
+        "x395": {
+            "name": "Dolphin Calf",
+            "category": "Achievement"
+        },
+        "x31": {
+            "name": "Bluebird",
+            "category": "Deep Dungeon",
+            "source": [
+                "Timeworn Peisteskin Map",
+                "Timeworn Dragonskin Map",
+                "The Aquapolis"
+            ]
+        },
+        "x69": {
+            "name": "Doman Magpie",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x177": {
+            "name": "Owlet",
+            "category": "Dungeon",
+            "source": "The Aquapolis"
         },
         "x243": {
             "name": "Ugly Duckling",
@@ -1338,323 +1048,91 @@
                 "The Aquapolis"
             ]
         },
-        "x244": {
-            "name": "Unicolt",
-            "category": "Dungeon",
-            "source": "The Aquapolis"
-        },
-        "x245": {
-            "name": "Unlucky Rabbit",
+        "x113": {
+            "name": "Hunting Hawk",
             "category": "Purchase",
-            "source": "30,000 MGP"
+            "source": "800 Skybuilders' Scrips"
         },
-        "x246": {
-            "name": "USApyon",
-            "category": "Event",
-            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        "x185": {
+            "name": "Penguin Prince",
+            "category": "Achievement"
         },
-        "x247": {
-            "name": "Venoct",
-            "category": "Event",
-            "source": "Yo-kai Watch (2016, 2017, 2020)"
-        },
-        "x400": {
-            "name": "Wanderer's Campfire",
-            "category": "Crafting",
-            "source": "Crafted by Alchemist"
-        },
-        "x248": {
-            "name": "Water Imp",
-            "category": "Purchase",
-            "source": "10,000 MGP"
-        },
-        "x249": {
-            "name": "Wayward Hatchling",
-            "category": "Purchase",
-            "source": "Minion Trader - The Gold Saucer - 2,400 Gil"
-        },
-        "x250": {
-            "name": "Weatherproof Gaelicat",
-            "category": "Purchase",
-            "source": "Kupo of Fortune"
-        },
-        "x424": {
-            "name": "Wee Ea",
-            "category": "FATE",
-            "source": "500 Bicolor Gemstones (Ultima Thule)"
-        },
-        "x251": {
-            "name": "Whisper",
-            "category": "Event",
-            "source": "Yo-kai Watch (2016, 2017, 2020)"
-        },
-        "x252": {
-            "name": "White Whittret",
+        "x199": {
+            "name": "Road Sparrow",
             "category": "Dungeon"
         },
-        "x253": {
-            "name": "Wide-eyed Fawn",
-            "category": "Purchase",
-            "source": "Auriana - Mor Dhona - 3 Allagan Tomestones of Poetics"
-        },
-        "x254": {
-            "name": "Wind-up Aerith",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x255": {
-            "name": "Wind-up Airship",
-            "category": "Quest"
-        },
-        "x256": {
-            "name": "Wind-up Aldgoat",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
-        },
-        "x257": {
-            "name": "Wind-up Alisaie",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x258": {
-            "name": "Wind-up Alpha",
-            "category": "Quest"
-        },
-        "x259": {
-            "name": "Wind-up Alphinaud",
-            "category": "Quest"
-        },
-        "x260": {
-            "name": "Wind-up Amalj'aa",
-            "category": "Beast Tribe",
-            "source": "Amalj'aa Vendor - Ring of Ash - 25,000 Gil"
-        },
-        "x261": {
-            "name": "Wind-up Ananta",
-            "category": "Beast Tribe",
-            "source": "Madhura - Castellum Velodyna - 7 Ananta Dreamstaffs"
-        },
-        "x425": {
-            "name": "Wind-up Anima",
+        "x211": {
+            "name": "Shoebill",
             "category": "Dungeon"
         },
-        "x262": {
-            "name": "Wind-up Ardbert",
-            "category": "Event",
-            "source": "The Rising (2020)"
+        "x213": {
+            "name": "Silver Dasher",
+            "category": "Voyages",
+            "source": "Subaquatic Voyages - The Open Robe"
         },
-        "x263": {
-            "name": "Wind-up Aymeric",
-            "category": "Quest"
+        "x396": {
+            "name": "Gull",
+            "category": "Achievement"
         },
-        "x264": {
-            "name": "Wind-up Bahamut",
-            "category": "Premium",
-            "source": "Item code included with A Realm Reborn Original Sountrack"
+        "x436": {
+            "name": "Blue-footed Booby",
+            "category": "Venture",
+            "source": "Waterside Exploration XXVIII"
         },
-        "x265": {
-            "name": "Wind-up Bartz",
-            "category": "Premium",
-            "source": "Stormblood Collector's Edition"
-        },
-        "x266": {
-            "name": "Wind-up Bismarck",
+        "x345": {
+            "name": "Wind-up Qiqirn",
             "category": "Crafting",
             "source": "Crafted by Weaver"
         },
-        "x267": {
-            "name": "Wind-up Brickman",
-            "category": "Event",
-            "source": "Breaking Brick Mountains (2014, 2017)"
-        },
-        "x268": {
-            "name": "Wind-up Calofisteri",
-            "category": "Raid"
-        },
-        "x269": {
-            "name": "Wind-up Cheerleader",
+        "x325": {
+            "name": "Wind-up Meateater",
             "category": "Purchase",
-            "source": "15,000 Wolf Marks"
+            "source": "800 Centurio Seals"
         },
-        "x270": {
-            "name": "Wind-up Chimera",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
+        "x332": {
+            "name": "Wind-up Namazu",
+            "category": "Treasure Hunt",
+            "source": "Timeworn Gazelleskin Map"
         },
-        "x271": {
-            "name": "Wind-up Cid",
-            "category": "Quest"
+        "x226": {
+            "name": "The Gold Whisker",
+            "category": "Treasure Hunt",
+            "source": "The Hidden Canals of Uznair"
         },
-        "x272": {
-            "name": "Wind-up Cirina",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x273": {
-            "name": "Wind-Up Cloud",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x274": {
-            "name": "Wind-up Cursor",
-            "category": "Purchase",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
-        },
-        "x426": {
-            "name": "Wind-up Daivadipa",
-            "category": "Purchase",
-            "source": "5 Daivadipa's Beads"
-        },
-        "x275": {
-            "name": "Wind-up Dalamud",
-            "category": "Premium",
-            "source": "Item code included with Before Meteor Original Soundtrack"
-        },
-        "x276": {
-            "name": "Wind-up Deliver Moogle",
-            "category": "Premium",
-            "source": "Item code included with Delivery Moogle Plushie"
-        },
-        "x277": {
-            "name": "Wind-up Dezul Qualan",
+        "x12": {
+            "name": "Attendee #777",
             "category": "Beast Tribe",
-            "source": "Ixali Vendor - Ehcatl - 25,000 Gil"
-        },
-        "x278": {
-            "name": "Wind-up Dragonet",
-            "category": "Beast Tribe",
-            "source": "Mogmul Mogbelly - Bahrr Lehs - 30,000 Gil"
-        },
-        "x279": {
-            "name": "Wind-up Dulia-Chai",
-            "category": "Premium",
-            "source": "Item code included with The Art of Reflection -Histories Forsaken- Artbook"
-        },
-        "x280": {
-            "name": "Wind-up Dullahan",
-            "category": "Crafting",
-            "source": "Crafted by Armorer"
-        },
-        "x281": {
-            "name": "Wind-up Echidna",
-            "category": "Raid"
-        },
-        "x282": {
-            "name": "Wind-up Edda",
-            "category": "Deep Dungeon"
-        },
-        "x401": {
-            "name": "Wind-up Edge",
-            "category": "Premium",
-            "source": "Digital Fan Festival (2021)"
-        },
-        "x283": {
-            "name": "Wind-up Edvya",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x284": {
-            "name": "Wind-up Elvaan",
-            "category": "Exploratory Mission"
-        },
-        "x285": {
-            "name": "Wind-up Estinien",
-            "category": "Wondrous Tails",
-            "source": "1 Khloe's Bronze Certificate of Commendation"
-        },
-        "x286": {
-            "name": "Wind-up Exdeath",
-            "category": "Raid"
-        },
-        "x287": {
-            "name": "Wind-up Fafnir",
-            "category": "Exploratory Mission",
-            "source": "Anemos Lockbox"
-        },
-        "x288": {
-            "name": "Wind-up Firion",
-            "category": "Purchase",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
-        },
-        "x289": {
-            "name": "Wind-up Founder",
-            "category": "Beast Tribe",
-            "source": "Amalj'aa Vendor - Ring of Ash - 25,000 Gil"
-        },
-        "x290": {
-            "name": "Wind-up Fran",
-            "category": "Premium",
-            "source": "Shadowbringers Collector's Edition"
+            "source": "Gyosho - Dhoro Iloh - 7 Namazu Koban"
         },
         "x291": {
             "name": "Wind-up Fuath",
             "category": "Treasure Hunt",
             "source": "The Dungeons of Lyhe Ghiah"
         },
-        "x292": {
-            "name": "Wind-up Gaia",
-            "category": "Raid"
-        },
-        "x293": {
-            "name": "Wind-up G'raha Tia",
-            "category": "Quest"
-        },
-        "x294": {
-            "name": "Wind-up Garuda",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
-        },
-        "x295": {
-            "name": "Wind-up Gentleman",
-            "category": "Quest"
-        },
-        "x296": {
-            "name": "Wind-up Gilgamesh",
+        "x98": {
+            "name": "Giant Beaver",
             "category": "Purchase",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+            "source": "Giant Beaver - Il Mheg - 1 Dancing Wing (Titania) (Required Quests: And Then There Were None, Acht-la Ormh Inn)"
         },
-        "x297": {
-            "name": "Wind-up Gnath",
-            "category": "Beast Tribe",
-            "source": "Vath Stickpeddler - Loth ast Vath - 30,000 Gil"
-        },
-        "x298": {
-            "name": "Wind-up Goblin",
-            "category": "Purchase",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
-        },
-        "x299": {
-            "name": "Wind-up Gosetsu",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
+        "x101": {
+            "name": "Golden Beaver",
+            "category": "Treasure Hunt",
+            "source": "The Shifting Oubliettes Of Lyhe Ghiah"
         },
         "x427": {
             "name": "Wind-up Grebuloff",
             "category": "Venture",
             "source": "Highland Exploration XXVI - XXVII"
         },
-        "x300": {
-            "name": "Wind-up Gundu Warrior",
-            "category": "Beast Tribe",
-            "source": "Luna Vanu - Ok' Gundu Nakki - 30,000 Gil"
-        },
-        "x407": {
-            "name": "Wind-up Gunnhildr",
+        "x298": {
+            "name": "Wind-up Goblin",
             "category": "Purchase",
-            "source": "100 Bozjan Clusters"
+            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
         },
-        "x301": {
-            "name": "Wind-up Haurchefant",
-            "category": "Quest"
-        },
-        "x428": {
-            "name": "Wind-up Herois",
-            "category": "Quest"
-        },
-        "x302": {
-            "name": "Wind-up Hien",
-            "category": "Wondrous Tails",
-            "source": "1 Khloe's Bronze Certificate of Commendation"
+        "x307": {
+            "name": "Wind-up Illuminatus",
+            "category": "Crafting",
+            "source": "Crafted by Weaver"
         },
         "x303": {
             "name": "Wind-up Hobgoblin",
@@ -1664,49 +1142,35 @@
                 "Quick Exploration"
             ]
         },
-        "x304": {
-            "name": "Wind-up Hraesvelgr",
-            "category": "Premium",
-            "source": "Item code included with The Art of Ishgard: The Scars of War"
+        "x366": {
+            "name": "Wind-up Sylph",
+            "category": "Beast Tribe",
+            "source": "Sylphic Vendor - Little Solace - 25,000 Gil"
         },
-        "x305": {
-            "name": "Wind-up Iceheart",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
+        "x377": {
+            "name": "Wind-up Violet",
+            "category": "Beast Tribe",
+            "source": "Sylphic Vendor - Little Solace - 25,000 Gil"
         },
-        "x306": {
-            "name": "Wind-up Ifrit",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
+        "x260": {
+            "name": "Wind-up Amalj'aa",
+            "category": "Beast Tribe",
+            "source": "Amalj'aa Vendor - Ring of Ash - 25,000 Gil"
         },
-        "x307": {
-            "name": "Wind-up Illuminatus",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
+        "x289": {
+            "name": "Wind-up Founder",
+            "category": "Beast Tribe",
+            "source": "Amalj'aa Vendor - Ring of Ash - 25,000 Gil"
+        },
+        "x277": {
+            "name": "Wind-up Dezul Qualan",
+            "category": "Beast Tribe",
+            "source": "Ixali Vendor - Ehcatl - 25,000 Gil"
         },
         "x308": {
             "name": "Wind-up Ixal",
             "category": "Beast Tribe",
             "source": "Ixali Vendor - Ehcatl - 25,000 Gil"
-        },
-        "x309": {
-            "name": "Wind-up Ixion",
-            "category": "FATE",
-            "source": "Eschina - Rhalgr's Reach - 5 Ixion Horns (FATE \"A Horse Outside\")"
-        },
-        "x310": {
-            "name": "Wind-up Kain",
-            "category": "Premium",
-            "source": "Heavensward Collector's Edition"
-        },
-        "x311": {
-            "name": "Wind-up Kefka",
-            "category": "Raid"
-        },
-        "x312": {
-            "name": "Wind-up Khloe",
-            "category": "Wondrous Tails",
-            "source": "1 Khloe's Bronze Certificate of Commendation"
         },
         "x313": {
             "name": "Wind-up Kobold",
@@ -1718,173 +1182,93 @@
             "category": "Beast Tribe",
             "source": "Kobold Vendor - 789th Order Dig - 25,000 Gil"
         },
-        "x315": {
-            "name": "Wind-up Kojin",
+        "x355": {
+            "name": "Wind-up Sahagin",
             "category": "Beast Tribe",
-            "source": "Shikitahe - Tamamizu - 5 Kojin Sango"
+            "source": "Sahagin Vendor - Novv's Nursery - 25,000 Gil"
         },
-        "x316": {
-            "name": "Wind-up Krile",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
+        "x358": {
+            "name": "Wind-up Sea Devil",
+            "category": "Beast Tribe",
+            "source": "Sahagin Vendor - Novv's Nursery - 25,000 Gil"
         },
-        "x317": {
-            "name": "Wind-up Lakshmi",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
+        "x376": {
+            "name": "Wind-up Vath",
+            "category": "Beast Tribe",
+            "source": "Vath Stickpeddler - Loth ast Vath - 30,000 Gil"
         },
-        "x318": {
-            "name": "Wind-up Leader",
-            "category": "Purchase",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+        "x297": {
+            "name": "Wind-up Gnath",
+            "category": "Beast Tribe",
+            "source": "Vath Stickpeddler - Loth ast Vath - 30,000 Gil"
         },
-        "x319": {
-            "name": "Wind-up Leviathan",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
+        "x300": {
+            "name": "Wind-up Gundu Warrior",
+            "category": "Beast Tribe",
+            "source": "Luna Vanu - Ok' Gundu Nakki - 30,000 Gil"
         },
-        "x320": {
-            "name": "Wind-Up Louisoix",
-            "category": "Achievement"
+        "x386": {
+            "name": "Wind-up Zundu Warrior",
+            "category": "Beast Tribe",
+            "source": "Luna Vanu - Ok' Gundu Nakki - 30,000 Gil"
         },
-        "x321": {
-            "name": "Wind-up Lulu",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x402": {
-            "name": "Wind-up Lyna",
-            "category": "Premium",
-            "source": "Item code included with Death Unto Dawn Original Soundtrack"
-        },
-        "x322": {
-            "name": "Wind-up Lyse",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x323": {
-            "name": "Wind-up Magnai",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
-        },
-        "x429": {
-            "name": "Wind-up Magus Sisters",
-            "category": "Dungeon"
-        },
-        "x324": {
-            "name": "Wind-up Matanga",
-            "category": "Treasure Hunt",
-            "source": "The Hidden Canals of Uznair"
-        },
-        "x325": {
-            "name": "Wind-up Meateater",
-            "category": "Purchase",
-            "source": "800 Centurio Seals"
-        },
-        "x326": {
-            "name": "Wind-up Minfilia",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x327": {
-            "name": "Wind-up Mithra",
-            "category": "Exploratory Mission",
-            "source": "Anemos Lockbox"
-        },
-        "x328": {
-            "name": "Wind-up Moenbryda",
-            "category": "Quest"
-        },
-        "x329": {
-            "name": "Wind-up Moogle",
-            "category": "Premium",
-            "source": "A Realm Reborn Collector's Edition"
-        },
-        "x330": {
-            "name": "Wind-up Moon",
-            "category": "Purchase",
-            "source": "Magic Pot - The Isles of Umbra - 1 Hi-Elixir"
-        },
-        "x331": {
-            "name": "Wind-up Mystel",
-            "category": "Quest"
-        },
-        "x332": {
-            "name": "Wind-up Namazu",
-            "category": "Treasure Hunt",
-            "source": "Timeworn Gazelleskin Map"
-        },
-        "x333": {
-            "name": "Wind-up Nanamo",
-            "category": "Purchase",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
-        },
-        "x334": {
-            "name": "Wind-up Nero tol Scaeva",
-            "category": "Purchase",
-            "source": "30,000 MGP"
-        },
-        "x335": {
-            "name": "Wind-up Nidhogg",
-            "category": "Premium",
-            "source": "Item code included with The Far Edge of Fate Original Soundtrack"
-        },
-        "x336": {
-            "name": "Wind-up Nu Mou",
-            "category": "Purchase",
-            "source": "800 Sacks of Nuts"
-        },
-        "x337": {
-            "name": "Wind-up Odin",
-            "category": "Purchase",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+        "x278": {
+            "name": "Wind-up Dragonet",
+            "category": "Beast Tribe",
+            "source": "Mogmul Mogbelly - Bahrr Lehs - 30,000 Gil"
         },
         "x338": {
             "name": "Wind-up Ohl Deeh",
             "category": "Beast Tribe",
             "source": "Mogmul Mogbelly - Bahrr Lehs - 30,000 Gil"
         },
-        "x339": {
-            "name": "Wind-up Omega-F",
-            "category": "Wondrous Tails",
-            "source": "1 Khloe's Silver Certificate of Commendation"
-        },
-        "x340": {
-            "name": "Wind-up Omega-M",
-            "category": "Wondrous Tails",
-            "source": "1 Khloe's Silver Certificate of Commendation"
-        },
-        "x341": {
-            "name": "Wind-up Onion Knight",
-            "category": "Raid"
-        },
-        "x403": {
-            "name": "Wind-up Palom",
-            "category": "Premium",
-            "source": "Endwalker Pre-order"
-        },
-        "x342": {
-            "name": "Wind-up Papalymo",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x343": {
-            "name": "Wind-up Pixie",
+        "x315": {
+            "name": "Wind-up Kojin",
             "category": "Beast Tribe",
-            "source": "Jul Oul - Il Mheg - 8 Fae Fancy"
+            "source": "Shikitahe - Tamamizu - 5 Kojin Sango"
         },
-        "x430": {
-            "name": "Wind-up Porom",
-            "category": "Premium",
-            "source": "Endwalker Collector's Edition"
+        "x350": {
+            "name": "Wind-up Redback",
+            "category": "Beast Tribe",
+            "source": "Shikitahe - Tamamizu - 5 Kojin Sango"
+        },
+        "x261": {
+            "name": "Wind-up Ananta",
+            "category": "Beast Tribe",
+            "source": "Madhura - Castellum Velodyna - 7 Ananta Dreamstaffs"
         },
         "x344": {
             "name": "Wind-up Qalyana",
             "category": "Beast Tribe",
             "source": "Madhura - Castellum Velodyna - 7 Ananta Dreamstaffs"
         },
-        "x345": {
-            "name": "Wind-up Qiqirn",
+        "x336": {
+            "name": "Wind-up Nu Mou",
+            "category": "Purchase",
+            "source": "800 Sacks of Nuts"
+        },
+        "x343": {
+            "name": "Wind-up Pixie",
+            "category": "Beast Tribe",
+            "source": "Jul Oul - Il Mheg - 8 Fae Fancy"
+        },
+        "x306": {
+            "name": "Wind-up Ifrit",
+            "category": "Crafting",
+            "source": "Crafted by Weaver"
+        },
+        "x294": {
+            "name": "Wind-up Garuda",
+            "category": "Crafting",
+            "source": "Crafted by Weaver"
+        },
+        "x371": {
+            "name": "Wind-up Titan",
+            "category": "Crafting",
+            "source": "Crafted by Weaver"
+        },
+        "x319": {
+            "name": "Wind-up Leviathan",
             "category": "Crafting",
             "source": "Crafted by Weaver"
         },
@@ -1893,110 +1277,53 @@
             "category": "Crafting",
             "source": "Crafted by Weaver"
         },
-        "x347": {
-            "name": "Wind-up Ramza",
-            "category": "Raid"
+        "x361": {
+            "name": "Wind-up Shiva",
+            "category": "Crafting",
+            "source": "Crafted by Weaver"
+        },
+        "x337": {
+            "name": "Wind-up Odin",
+            "category": "Purchase",
+            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+        },
+        "x266": {
+            "name": "Wind-up Bismarck",
+            "category": "Crafting",
+            "source": "Crafted by Weaver"
         },
         "x348": {
             "name": "Wind-up Ravana",
             "category": "Crafting",
             "source": "Crafted by Weaver"
         },
-        "x349": {
-            "name": "Wind-up Red Mage",
-            "category": "Premium",
-            "source": "Stormblood Pre-order"
-        },
-        "x350": {
-            "name": "Wind-up Redback",
-            "category": "Beast Tribe",
-            "source": "Shikitahe - Tamamizu - 5 Kojin Sango"
-        },
-        "x351": {
-            "name": "Wind-up Relm",
-            "category": "Premium",
-            "source": "Item code included with The Art of Ishgard: Stone and Steel"
-        },
-        "x352": {
-            "name": "Wind-up Rikku",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
-        },
-        "x404": {
-            "name": "Wind-up Rosa",
-            "category": "Premium",
-            "source": "Digital Fan Festival (2021)"
-        },
-        "x431": {
-            "name": "Wind-up Rudy",
-            "category": "Event",
-            "source": "Starlight Celebration (2021)"
-        },
-        "x405": {
-            "name": "Wind-up Runar",
-            "category": "Premium",
-            "source": "Item code included with The Art of Reflection -Histories Unwritten- Artbook"
-        },
-        "x406": {
-            "name": "Wind-up Rydia",
-            "category": "Premium",
-            "source": "Digital Fan Festival (2021)"
-        },
-        "x353": {
-            "name": "Wind-up Ryne",
-            "category": "Raid"
-        },
-        "x354": {
-            "name": "Wind-up Sadu",
+        "x364": {
+            "name": "Wind-up Susano",
             "category": "Crafting",
             "source": "Crafted by Weaver"
         },
-        "x355": {
-            "name": "Wind-up Sahagin",
-            "category": "Beast Tribe",
-            "source": "Sahagin Vendor - Novv's Nursery - 25,000 Gil"
-        },
-        "x356": {
-            "name": "Wind-up Sasquatch",
-            "category": "Deep Dungeon",
-            "source": "E-Una-Kotor - Quarrymill - 3 Gelmorran Potsherds"
-        },
-        "x357": {
-            "name": "Wind-up Scathach",
-            "category": "Raid"
-        },
-        "x358": {
-            "name": "Wind-up Sea Devil",
-            "category": "Beast Tribe",
-            "source": "Sahagin Vendor - Novv's Nursery - 25,000 Gil"
-        },
-        "x359": {
-            "name": "Wind-up Shantotto",
-            "category": "Premium",
-            "source": "Final Fantasy XIV Online Store"
+        "x317": {
+            "name": "Wind-up Lakshmi",
+            "category": "Crafting",
+            "source": "Crafted by Weaver"
         },
         "x360": {
             "name": "Wind-up Shinryu",
             "category": "Crafting",
             "source": "Crafted by Weaver"
         },
-        "x361": {
-            "name": "Wind-up Shiva",
+        "x373": {
+            "name": "Wind-up Tsukuyomi",
+            "category": "Premium",
+            "source": "Item code included with Stormblood Original Soundtrack"
+        },
+        "x40": {
+            "name": "Byakko Cub",
             "category": "Crafting",
             "source": "Crafted by Weaver"
         },
-        "x362": {
-            "name": "Wind-up Succubus",
-            "category": "Purchase",
-            "source": "500 Allied Seals"
-        },
-        "x363": {
-            "name": "Wind-up Sun",
-            "category": "Purchase",
-            "source": "Magic Pot - The Isles of Umbra - 1 Elixir"
-        },
-        "x364": {
-            "name": "Wind-up Susano",
+        "x204": {
+            "name": "Scarlet Peacock",
             "category": "Crafting",
             "source": "Crafted by Weaver"
         },
@@ -2005,18 +1332,28 @@
             "category": "Premium",
             "source": "Item code included with Shadowbringers Original Soundtrack"
         },
-        "x366": {
-            "name": "Wind-up Sylph",
-            "category": "Beast Tribe",
-            "source": "Sylphic Vendor - Little Solace - 25,000 Gil"
+        "x205": {
+            "name": "Seitei",
+            "category": "Crafting",
+            "source": "Crafted by Weaver"
         },
-        "x367": {
-            "name": "Wind-up Tarutaru",
-            "category": "Exploratory Mission",
-            "source": "Pagos Lockbox"
+        "x380": {
+            "name": "Wind-up Y'shtola",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
-        "x368": {
-            "name": "Wind-up Tataru",
+        "x75": {
+            "name": "Dress-up Y'shtola",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x34": {
+            "name": "Brave New Y'shtola",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x326": {
+            "name": "Wind-up Minfilia",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
@@ -2025,69 +1362,138 @@
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
-        "x370": {
-            "name": "Wind-up Tifa",
+        "x74": {
+            "name": "Dress-up Thancred",
+            "category": "Wondrous Tails",
+            "source": "1 Khloe's Bronze Certificate of Commendation"
+        },
+        "x381": {
+            "name": "Wind-up Yda",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
-        "x371": {
-            "name": "Wind-up Titan",
-            "category": "Crafting",
-            "source": "Crafted by Weaver"
-        },
-        "x372": {
-            "name": "Wind-up Tonberry",
-            "category": "Deep Dungeon",
-            "source": [
-                "Timeworn Boarskin Map",
-                "The Aquapolis"
-            ]
-        },
-        "x373": {
-            "name": "Wind-up Tsukuyomi",
+        "x322": {
+            "name": "Wind-up Lyse",
             "category": "Premium",
-            "source": "Item code included with Stormblood Original Soundtrack"
+            "source": "Final Fantasy XIV Online Store"
         },
-        "x374": {
-            "name": "Wind-up Ultros",
-            "category": "Trial"
+        "x342": {
+            "name": "Wind-up Papalymo",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
         "x375": {
             "name": "Wind-up Urianger",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
-        "x376": {
-            "name": "Wind-up Vath",
-            "category": "Beast Tribe",
-            "source": "Vath Stickpeddler - Loth ast Vath - 30,000 Gil"
+        "x409": {
+            "name": "Brave New Urianger",
+            "category": "Wondrous Tails",
+            "source": "1 Khloe's Silver Certificate of Commendation"
         },
-        "x377": {
-            "name": "Wind-up Violet",
-            "category": "Beast Tribe",
-            "source": "Sylphic Vendor - Little Solace - 25,000 Gil"
+        "x320": {
+            "name": "Wind-Up Louisoix",
+            "category": "Achievement"
         },
-        "x432": {
-            "name": "Wind-up Vrtra",
-            "category": "Premium",
-            "source": "Item code included with Endwalker Original Soundtrack"
+        "x259": {
+            "name": "Wind-up Alphinaud",
+            "category": "Quest"
         },
-        "x378": {
-            "name": "Wind-up Warrior of Light",
-            "category": "Purchase",
-            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
-        },
-        "x379": {
-            "name": "Wind-up Weapon",
-            "category": "Dungeon"
-        },
-        "x380": {
-            "name": "Wind-up Y'shtola",
+        "x257": {
+            "name": "Wind-up Alisaie",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
-        "x381": {
-            "name": "Wind-up Yda",
+        "x70": {
+            "name": "Dress-up Alisaie",
+            "category": "Wondrous Tails",
+            "source": "1 Khloe's Bronze Certificate of Commendation"
+        },
+        "x368": {
+            "name": "Wind-up Tataru",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x73": {
+            "name": "Dress-up Tataru",
+            "category": "Premium",
+            "source": "Item code included with Art of the Revolution: Eastern Memories"
+        },
+        "x271": {
+            "name": "Wind-up Cid",
+            "category": "Quest"
+        },
+        "x316": {
+            "name": "Wind-up Krile",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x328": {
+            "name": "Wind-up Moenbryda",
+            "category": "Quest"
+        },
+        "x295": {
+            "name": "Wind-up Gentleman",
+            "category": "Quest"
+        },
+        "x318": {
+            "name": "Wind-up Leader",
+            "category": "Purchase",
+            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+        },
+        "x72": {
+            "name": "Dress-up Raubahn",
+            "category": "Quest"
+        },
+        "x333": {
+            "name": "Wind-up Nanamo",
+            "category": "Purchase",
+            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+        },
+        "x305": {
+            "name": "Wind-up Iceheart",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x383": {
+            "name": "Wind-up Yugiri",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x76": {
+            "name": "Dress-up Yugiri",
+            "category": "Dungeon"
+        },
+        "x301": {
+            "name": "Wind-up Haurchefant",
+            "category": "Quest"
+        },
+        "x334": {
+            "name": "Wind-up Nero tol Scaeva",
+            "category": "Purchase",
+            "source": "30,000 MGP"
+        },
+        "x263": {
+            "name": "Wind-up Aymeric",
+            "category": "Quest"
+        },
+        "x282": {
+            "name": "Wind-up Edda",
+            "category": "Deep Dungeon"
+        },
+        "x285": {
+            "name": "Wind-up Estinien",
+            "category": "Wondrous Tails",
+            "source": "1 Khloe's Bronze Certificate of Commendation"
+        },
+        "x71": {
+            "name": "Dress-up Estinien",
+            "category": "Purchase",
+            "source": "1,200 Skybuilders' Scrips"
+        },
+        "x299": {
+            "name": "Wind-up Gosetsu",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
@@ -2096,8 +1502,525 @@
             "category": "Premium",
             "source": "Item code included with Art of the Revolution: Western Memories"
         },
-        "x383": {
-            "name": "Wind-up Yugiri",
+        "x302": {
+            "name": "Wind-up Hien",
+            "category": "Wondrous Tails",
+            "source": "1 Khloe's Bronze Certificate of Commendation"
+        },
+        "x385": {
+            "name": "Wind-up Zhloe",
+            "category": "Wondrous Tails",
+            "source": "1 Khloe's Bronze Certificate of Commendation"
+        },
+        "x312": {
+            "name": "Wind-up Khloe",
+            "category": "Wondrous Tails",
+            "source": "1 Khloe's Bronze Certificate of Commendation"
+        },
+        "x272": {
+            "name": "Wind-up Cirina",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x323": {
+            "name": "Wind-up Magnai",
+            "category": "Crafting",
+            "source": "Crafted by Weaver"
+        },
+        "x354": {
+            "name": "Wind-up Sadu",
+            "category": "Crafting",
+            "source": "Crafted by Weaver"
+        },
+        "x157": {
+            "name": "Mock-up Grynewaht",
+            "category": "Dungeon"
+        },
+        "x290": {
+            "name": "Wind-up Fran",
+            "category": "Premium",
+            "source": "Shadowbringers Collector's Edition"
+        },
+        "x293": {
+            "name": "Wind-up G'raha Tia",
+            "category": "Quest"
+        },
+        "x353": {
+            "name": "Wind-up Ryne",
+            "category": "Raid"
+        },
+        "x279": {
+            "name": "Wind-up Dulia-Chai",
+            "category": "Premium",
+            "source": "Item code included with The Art of Reflection -Histories Forsaken- Artbook"
+        },
+        "x331": {
+            "name": "Wind-up Mystel",
+            "category": "Quest"
+        },
+        "x262": {
+            "name": "Wind-up Ardbert",
+            "category": "Event",
+            "source": "The Rising (2020)"
+        },
+        "x292": {
+            "name": "Wind-up Gaia",
+            "category": "Raid"
+        },
+        "x398": {
+            "name": "Senorita Sabotender",
+            "category": "Event",
+            "source": "The Make It Rain Campaign (2021)"
+        },
+        "x402": {
+            "name": "Wind-up Lyna",
+            "category": "Premium",
+            "source": "Item code included with Death Unto Dawn Original Soundtrack"
+        },
+        "x405": {
+            "name": "Wind-up Runar",
+            "category": "Premium",
+            "source": "Item code included with The Art of Reflection -Histories Unwritten- Artbook"
+        },
+        "x407": {
+            "name": "Wind-up Gunnhildr",
+            "category": "Purchase",
+            "source": "100 Bozjan Clusters"
+        },
+        "x428": {
+            "name": "Wind-up Herois",
+            "category": "Quest"
+        },
+        "x296": {
+            "name": "Wind-up Gilgamesh",
+            "category": "Purchase",
+            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+        },
+        "x82": {
+            "name": "Enkidu",
+            "category": "Trial"
+        },
+        "x374": {
+            "name": "Wind-up Ultros",
+            "category": "Trial"
+        },
+        "x150": {
+            "name": "Midgardsormr",
+            "category": "Quest"
+        },
+        "x304": {
+            "name": "Wind-up Hraesvelgr",
+            "category": "Premium",
+            "source": "Item code included with The Art of Ishgard: The Scars of War"
+        },
+        "x335": {
+            "name": "Wind-up Nidhogg",
+            "category": "Premium",
+            "source": "Item code included with The Far Edge of Fate Original Soundtrack"
+        },
+        "x432": {
+            "name": "Wind-up Vrtra",
+            "category": "Premium",
+            "source": "Item code included with Endwalker Original Soundtrack"
+        },
+        "x258": {
+            "name": "Wind-up Alpha",
+            "category": "Quest"
+        },
+        "x422": {
+            "name": "Starbird",
+            "category": "Dungeon"
+        },
+        "x142": {
+            "name": "Mammet #001",
+            "category": "Purchase",
+            "source": "Minion Trade - The Gold Saucer - 2,400 Gil"
+        },
+        "x144": {
+            "name": "Mammet #003L",
+            "category": "Achievement"
+        },
+        "x143": {
+            "name": "Mammet #003G",
+            "category": "Achievement"
+        },
+        "x145": {
+            "name": "Mammet #003U",
+            "category": "Achievement"
+        },
+        "x100": {
+            "name": "Gigi",
+            "category": "Quest"
+        },
+        "x42": {
+            "name": "Cait Sith Doll",
+            "category": "Premium",
+            "source": "A Realm Reborn Pre-order"
+        },
+        "x283": {
+            "name": "Wind-up Edvya",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x186": {
+            "name": "Peridot Carbuncle",
+            "category": "Premium",
+            "source": "Item code included with Emerald Carbuncle Plushie"
+        },
+        "x109": {
+            "name": "Heliodor Carbuncle",
+            "category": "Premium",
+            "source": "Item code Included with Topaz Carbuncle Plushie"
+        },
+        "x269": {
+            "name": "Wind-up Cheerleader",
+            "category": "Purchase",
+            "source": "15,000 Wolf Marks"
+        },
+        "x7": {
+            "name": "Angel of Mercy",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x8": {
+            "name": "Anima",
+            "category": "Quest"
+        },
+        "x270": {
+            "name": "Wind-up Chimera",
+            "category": "Crafting",
+            "source": "Crafted by Weaver"
+        },
+        "x223": {
+            "name": "Tengu Doll",
+            "category": "Venture",
+            "source": [
+                "Field Exploration XXII",
+                "Quick Exploration"
+            ]
+        },
+        "x164": {
+            "name": "Motley Egg",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x327": {
+            "name": "Wind-up Mithra",
+            "category": "Exploratory Mission",
+            "source": "Anemos Lockbox"
+        },
+        "x367": {
+            "name": "Wind-up Tarutaru",
+            "category": "Exploratory Mission",
+            "source": "Pagos Lockbox"
+        },
+        "x284": {
+            "name": "Wind-up Elvaan",
+            "category": "Exploratory Mission"
+        },
+        "x132": {
+            "name": "Little Yin",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x131": {
+            "name": "Little Yang",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x129": {
+            "name": "Little Leafman",
+            "category": "FATE",
+            "source": "400 Bicolor Gemstones (Il Mheg)"
+        },
+        "x6": {
+            "name": "Ancient One",
+            "category": "Dungeon"
+        },
+        "x245": {
+            "name": "Unlucky Rabbit",
+            "category": "Purchase",
+            "source": "30,000 MGP"
+        },
+        "x255": {
+            "name": "Wind-up Airship",
+            "category": "Quest"
+        },
+        "x158": {
+            "name": "Model Enterprise",
+            "category": "Premium",
+            "source": "Item code included with The Art of Eorzea: Another Dawn"
+        },
+        "x160": {
+            "name": "Model Vanguard",
+            "category": "Crafting",
+            "source": "Crafted by Goldsmith"
+        },
+        "x275": {
+            "name": "Wind-up Dalamud",
+            "category": "Premium",
+            "source": "Item code included with Before Meteor Original Soundtrack"
+        },
+        "x159": {
+            "name": "Model Magitek Bit",
+            "category": "Crafting",
+            "source": "Crafted by Blacksmith"
+        },
+        "x3": {
+            "name": "Accompaniment Node",
+            "category": "Quest"
+        },
+        "x138": {
+            "name": "Magitek Avenger F1",
+            "category": "Dungeon"
+        },
+        "x379": {
+            "name": "Wind-up Weapon",
+            "category": "Dungeon"
+        },
+        "x155": {
+            "name": "Minitek Conveyer",
+            "category": "Purchase",
+            "source": "15,000 Wolf Marks"
+        },
+        "x210": {
+            "name": "Sharksucker-class Insubmersible",
+            "category": "Voyages",
+            "source": [
+                "Subaquatic Voyages - The Central Charnel Trench",
+                "Subaquatic Voyages - The Southern Charnel Trench"
+            ]
+        },
+        "x220": {
+            "name": "Syldrion-class Insubmersible",
+            "category": "Voyages",
+            "source": "Subaquatic Voyages - Sea of Jade 4"
+        },
+        "x116": {
+            "name": "Ironfrog Ambler",
+            "category": "FATE",
+            "source": "Fathard - Eulmore - 6 Formidable Cog (FATE \"A Finale Most Formidable\")"
+        },
+        "x139": {
+            "name": "Magitek Helldiver F1",
+            "category": "Exploratory Mission"
+        },
+        "x63": {
+            "name": "Dáinsleif F1",
+            "category": "Exploratory Mission",
+            "source": "Southern Front Lockbox"
+        },
+        "x397": {
+            "name": "Magitek Predator F1",
+            "category": "Dungeon"
+        },
+        "x418": {
+            "name": "Optimus Omicron",
+            "category": "Dungeon"
+        },
+        "x413": {
+            "name": "Golden Dhyata",
+            "category": "Quest"
+        },
+        "x439": {
+            "name": "Protonaught",
+            "category": "Other",
+            "source": "1,000 Trophy Crystals"
+        },
+        "x437": {
+            "name": "Teacup Kapikulu",
+            "category": "Dungeon"
+        },
+        "x438": {
+            "name": "Clockwork Novus D",
+            "category": "Venture",
+            "source": "Field Exploration XXVIII"
+        },
+        "x441": {
+            "name": "Wind-up Ragnarok",
+            "category": "Premium",
+            "source": "Item code include with The Art of Resurrection – Among The Stars – Artbook"
+        },
+        "x274": {
+            "name": "Wind-up Cursor",
+            "category": "Purchase",
+            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+        },
+        "x363": {
+            "name": "Wind-up Sun",
+            "category": "Purchase",
+            "source": "Magic Pot - The Isles of Umbra - 1 Elixir"
+        },
+        "x330": {
+            "name": "Wind-up Moon",
+            "category": "Purchase",
+            "source": "Magic Pot - The Isles of Umbra - 1 Hi-Elixir"
+        },
+        "x189": {
+            "name": "Plush Cushion",
+            "category": "Crafting",
+            "source": "Crafted by Weaver"
+        },
+        "x390": {
+            "name": "Zephyrous Zabuton",
+            "category": "Beast Tribe",
+            "source": "Shikitahe - Tamamizu - 5 Kojin Sango"
+        },
+        "x136": {
+            "name": "Magic Broom",
+            "category": "Crafting",
+            "source": "Crafted by Carpenter"
+        },
+        "x152": {
+            "name": "Miniature Minecart",
+            "category": "Venture",
+            "source": "Highland Exploration XIV"
+        },
+        "x102": {
+            "name": "Gold Rush Minecart",
+            "category": "FATE"
+        },
+        "x53": {
+            "name": "Clockwork Barrow",
+            "category": "Crafting",
+            "source": "Crafted by Carpenter"
+        },
+        "x111": {
+            "name": "Hoary the Snowman",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x65": {
+            "name": "Demon Box",
+            "category": "Premium",
+            "source": "Attend a Ceremony of Eternal Bonding"
+        },
+        "x137": {
+            "name": "Magic Bucket",
+            "category": "Gathering",
+            "source": "Gathered by Fisher"
+        },
+        "x195": {
+            "name": "Private Moai",
+            "category": "Crafting",
+            "source": "Crafted by Blacksmith"
+        },
+        "x54": {
+            "name": "Clockwork Lantern",
+            "category": "Purchase",
+            "source": "15,000 Wolf Marks"
+        },
+        "x231": {
+            "name": "Tinker's Bell",
+            "category": "FATE",
+            "source": "Fathard - Eulmore - 6 Archaeotania's Horn (FATE \"The Head, The Tail, the Whole Damned Thing\")"
+        },
+        "x4": {
+            "name": "Allagan Melon",
+            "category": "Other",
+            "source": "Gardening"
+        },
+        "x394": {
+            "name": "Benben Stone",
+            "category": "Voyages",
+            "source": "Subaquatic Voyages - The Devil's Crypt"
+        },
+        "x400": {
+            "name": "Wanderer's Campfire",
+            "category": "Crafting",
+            "source": "Crafted by Alchemist"
+        },
+        "x408": {
+            "name": "Adventure Basket",
+            "category": "Crafting",
+            "source": "Crafted by Weaver"
+        },
+        "x154": {
+            "name": "Minion of Light",
+            "category": "Purchase",
+            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+        },
+        "x349": {
+            "name": "Wind-up Red Mage",
+            "category": "Premium",
+            "source": "Stormblood Pre-order"
+        },
+        "x378": {
+            "name": "Wind-up Warrior of Light",
+            "category": "Purchase",
+            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+        },
+        "x288": {
+            "name": "Wind-up Firion",
+            "category": "Purchase",
+            "source": "Jonathas - Old Gridania - 2 Achievement Certificates"
+        },
+        "x341": {
+            "name": "Wind-up Onion Knight",
+            "category": "Raid"
+        },
+        "x310": {
+            "name": "Wind-up Kain",
+            "category": "Premium",
+            "source": "Heavensward Collector's Edition"
+        },
+        "x216": {
+            "name": "Spoony Bard",
+            "category": "Premium",
+            "source": "Item code included with Heavensward Original Soundtrack"
+        },
+        "x169": {
+            "name": "Namingway",
+            "category": "Premium",
+            "source": "Item code included with Encyclopaedia Eorzea"
+        },
+        "x403": {
+            "name": "Wind-up Palom",
+            "category": "Premium",
+            "source": "Endwalker Pre-order"
+        },
+        "x430": {
+            "name": "Wind-up Porom",
+            "category": "Premium",
+            "source": "Endwalker Collector's Edition"
+        },
+        "x401": {
+            "name": "Wind-up Edge",
+            "category": "Premium",
+            "source": "Digital Fan Festival (2021)"
+        },
+        "x406": {
+            "name": "Wind-up Rydia",
+            "category": "Premium",
+            "source": "Digital Fan Festival (2021)"
+        },
+        "x404": {
+            "name": "Wind-up Rosa",
+            "category": "Premium",
+            "source": "Digital Fan Festival (2021)"
+        },
+        "x265": {
+            "name": "Wind-up Bartz",
+            "category": "Premium",
+            "source": "Stormblood Collector's Edition"
+        },
+        "x351": {
+            "name": "Wind-up Relm",
+            "category": "Premium",
+            "source": "Item code included with The Art of Ishgard: Stone and Steel"
+        },
+        "x273": {
+            "name": "Wind-Up Cloud",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x254": {
+            "name": "Wind-up Aerith",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x370": {
+            "name": "Wind-up Tifa",
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
@@ -2106,42 +2029,161 @@
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
-        "x385": {
-            "name": "Wind-up Zhloe",
-            "category": "Wondrous Tails",
-            "source": "1 Khloe's Bronze Certificate of Commendation"
+        "x352": {
+            "name": "Wind-up Rikku",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
         },
-        "x386": {
-            "name": "Wind-up Zundu Warrior",
+        "x321": {
+            "name": "Wind-up Lulu",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x359": {
+            "name": "Wind-up Shantotto",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x347": {
+            "name": "Wind-up Ramza",
+            "category": "Raid"
+        },
+        "x248": {
+            "name": "Water Imp",
+            "category": "Purchase",
+            "source": "10,000 MGP"
+        },
+        "x188": {
+            "name": "Piggy",
+            "category": "Purchase",
+            "source": "30,000 MGP"
+        },
+        "x127": {
+            "name": "Lalinator 5.HO",
             "category": "Beast Tribe",
-            "source": "Luna Vanu - Ok' Gundu Nakki - 30,000 Gil"
+            "source": "8 Hammered Frogments"
         },
-        "x387": {
-            "name": "Wolf Pup",
-            "category": "Quest"
+        "x267": {
+            "name": "Wind-up Brickman",
+            "category": "Event",
+            "source": "Breaking Brick Mountains (2014, 2017)"
         },
-        "x388": {
-            "name": "Yukinko Snowflake",
-            "category": "Exploratory Mission",
-            "source": [
-                "Hydatos Lockbox",
-                "Moisture-warped Lockbox"
-            ]
+        "x118": {
+            "name": "Jibanyan",
+            "category": "Event",
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        },
+        "x123": {
+            "name": "Komasan",
+            "category": "Event",
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        },
+        "x251": {
+            "name": "Whisper",
+            "category": "Event",
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        },
+        "x30": {
+            "name": "Blizzaria",
+            "category": "Event",
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        },
+        "x125": {
+            "name": "Kyubi",
+            "category": "Event",
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        },
+        "x122": {
+            "name": "Komajiro",
+            "category": "Event",
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        },
+        "x147": {
+            "name": "Manjimutt",
+            "category": "Event",
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        },
+        "x172": {
+            "name": "Noko",
+            "category": "Event",
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        },
+        "x247": {
+            "name": "Venoct",
+            "category": "Event",
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        },
+        "x212": {
+            "name": "Shogunyan",
+            "category": "Event",
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        },
+        "x112": {
+            "name": "Hovernyan",
+            "category": "Event",
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        },
+        "x200": {
+            "name": "Robonyan F-type",
+            "category": "Event",
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        },
+        "x246": {
+            "name": "USApyon",
+            "category": "Event",
+            "source": "Yo-kai Watch (2016, 2017, 2020)"
+        },
+        "x135": {
+            "name": "Lord Enma",
+            "category": "Event",
+            "source": "Yo-kai Watch (2020)"
+        },
+        "x134": {
+            "name": "Lord Ananta",
+            "category": "Event",
+            "source": "Yo-kai Watch (2020)"
         },
         "x389": {
             "name": "Zazel",
             "category": "Event",
             "source": "Yo-kai Watch (2020)"
         },
-        "x390": {
-            "name": "Zephyrous Zabuton",
-            "category": "Beast Tribe",
-            "source": "Shikitahe - Tamamizu - 5 Kojin Sango"
+        "x64": {
+            "name": "Damona",
+            "category": "Event",
+            "source": "Yo-kai Watch (2020)"
         },
-        "x391": {
-            "name": "Zu Hatchling",
-            "category": "Purchase",
-            "source": "10,000 MGP"
+        "x182": {
+            "name": "Palico",
+            "category": "Quest"
+        },
+        "x192": {
+            "name": "Poogie",
+            "category": "Trial"
+        },
+        "x190": {
+            "name": "Pod 054",
+            "category": "Raid"
+        },
+        "x191": {
+            "name": "Pod 316",
+            "category": "Raid"
+        },
+        "x0": {
+            "name": "2B Automaton",
+            "category": "Raid"
+        },
+        "x1": {
+            "name": "2P Automaton",
+            "category": "Raid"
+        },
+        "x399": {
+            "name": "Smaller Stubby",
+            "category": "Raid"
+        },
+        "x392": {
+            "name": "9S Automaton",
+            "category": "Raid"
         }
     }
 }
