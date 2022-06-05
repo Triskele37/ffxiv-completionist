@@ -37,6 +37,9 @@
             "patch": "3.5",
             "defaultCompletion": "X"
         },
+        "x240": {
+            "patch": "6.1"
+        },
         "x110": {
             "patch": "2.35",
             "defaultCompletion": "X"
@@ -105,16 +108,20 @@
             "defaultCompletion": "X"
         },
         "x224": {
-            "patch": "5.4"
+            "patch": "5.4",
+            "cSiblings": [225, 226, 227]
         },
         "x225": {
-            "patch": "5.4"
+            "patch": "5.4",
+            "cSiblings": [224, 226, 227]
         },
         "x226": {
-            "patch": "5.4"
+            "patch": "5.4",
+            "cSiblings": [224, 225, 227]
         },
         "x227": {
-            "patch": "5.4"
+            "patch": "5.4",
+            "cSiblings": [224, 225, 226]
         },
         "x171": {
             "patch": "4.2"
@@ -200,6 +207,14 @@
             "patch": "5.5",
             "defaultCompletion": "X"
         },
+        "x235": {
+            "patch": "6.1",
+            "defaultCompletion": "X"
+        },
+        "x239": {
+            "patch": "6.1",
+            "defaultCompletion": "X"
+        },
         "x207": {
             "patch": "5.21"
         },
@@ -213,6 +228,12 @@
         "x229": {
             "patch": "5.5",
             "defaultCompletion": "X"
+        },
+        "x238": {
+            "patch": "6.1"
+        },
+        "x237": {
+            "patch": "6.1"
         }
     }
 }

@@ -38,6 +38,12 @@
             "command": "/étreinte, /embrace",
             "category": "Premium"
         },
+        "x240": {
+            "name": "Détermination",
+            "command": "/determined, /détermination",
+            "category": "Autre",
+            "source": "Crystalline Conflict - Series 1"
+        },
         "x110": {
             "name": "Hourra",
             "command": "/hourra, /hurray",
@@ -248,6 +254,18 @@
             "category": "",
             "source": ""
         },
+        "x235": {
+            "name": "Manger Un Œuf À La Coque",
+            "command": "/eategg, /mangerunoeuf",
+            "category": "Événement",
+            "source": "La Chasse aux Prœufs (2022)"
+        },
+        "x239": {
+            "name": "Boire Du Thé",
+            "command": "/tea, /thé",
+            "category": "Premium",
+            "source": "Boutique en ligne Final Fantasy XIV"
+        },
         "x207": {
             "name": "Lire un livre",
             "command": "/lireunlivre, /lire, /read",
@@ -271,6 +289,18 @@
             "command": "/pantomime, /mime",
             "category": "Premium",
             "source": "Limité à la Chine"
+        },
+        "x238": {
+            "name": "Sortir Son Arme",
+            "command": "/draw, /dégainer",
+            "category": "Achat",
+            "source": "100.000 PGS"
+        },
+        "x237": {
+            "name": "Ranger Son Arme",
+            "command": "/sheathe, /rengainer",
+            "category": "Achat",
+            "source": "100.000 PGS"
         }
     }
 }
