@@ -1,6 +1,6 @@
 ------------------------------------------------------------------ Current Release
 **Add**
-- missing endwalker savage unlock quasi quest
+- missing endwalker savage unlock quasi quest (Recount tales of Asphodelos?)
 - DSR Unlock Quasi
 - Overlay "Lock" open
 
