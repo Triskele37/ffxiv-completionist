@@ -1,6 +1,5 @@
 ------------------------------------------------------------------ ToDo
 **Add**
-- Chain overlay to search results window
 - Attempt to get CSP working
 - Custom application container, specifically title bar
 - Chain Viewer
@@ -13,9 +12,6 @@
 - replace most of Guide with Active Help
 
 **Fix**
-- Bookmarked groups push bookmarked tasks outside of the scrollable viewport
-- Search includes bookmarked groups/tasks, resulting in duplicate results
-- Titles sort with the "..." considered
 
 **Check**
 - Title achievement links

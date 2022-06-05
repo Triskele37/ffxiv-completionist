@@ -2,7 +2,6 @@
 **Add**
 - missing endwalker savage unlock quasi quest (Recount tales of Asphodelos?)
 - DSR Unlock Quasi
-- Overlay "Lock" open
 
 **Change**
 - Convert DataGroup.tasks to Map<string, Task>
