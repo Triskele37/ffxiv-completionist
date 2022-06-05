@@ -4,8 +4,9 @@
     (mouseleave)="onMouseLeave()"
 >
     <p-button
-        styleClass="p-button-outlined"
+        [styleClass]="isLocked ? '' : 'p-button-outlined'"
         icon="mi mi-add"
+        (onClick)="onClick()"
     ></p-button>
 
     <div

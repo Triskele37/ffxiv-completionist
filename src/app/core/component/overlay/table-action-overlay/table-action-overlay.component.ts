@@ -3,6 +3,8 @@ import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { DataGroup } from '@domain/DataGroup';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 
+import { Overlay } from '../Overlay';
+
 @Component({
     selector: 'xiv-table-action-overlay',
     templateUrl: './table-action-overlay.component.html',
@@ -11,27 +13,19 @@ import { BookmarkService } from '@service/bookmark/bookmark.service';
         './table-action-overlay.component.scss'
     ]
 })
-export class TableActionOverlayComponent implements OnChanges {
+export class TableActionOverlayComponent extends Overlay implements OnChanges {
     @Input() group: DataGroup;
 
-    isVisible: boolean = false;
     isBookmarked: boolean;
 
     constructor(private svcBookmark: BookmarkService) {
+        super();
     }
 
     ngOnChanges(changes: SimpleChanges): void {
         if(changes.group) {
             this.isBookmarked = this.svcBookmark.isBookmarked(this.group);
         }
-    }
-
-    onMouseEnter(): void {
-        this.isVisible = true;
-    }
-
-    onMouseLeave(): void {
-        this.isVisible = false;
     }
 
     bookmarkGroup(): void {

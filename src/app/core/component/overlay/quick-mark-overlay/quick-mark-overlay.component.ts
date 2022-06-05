@@ -4,6 +4,8 @@ import { Completion } from '@constant';
 import { DataService } from '@data';
 import { Task } from '@domain/Task';
 
+import { Overlay } from '../Overlay';
+
 type History = {
     tasks: TaskHistory[];
     from: string;
@@ -23,11 +25,10 @@ type TaskHistory = {
         './quick-mark-overlay.component.scss'
     ]
 })
-export class QuickMarkOverlayComponent {
+export class QuickMarkOverlayComponent extends Overlay {
     @Input() tasks: Task[];
     @Output() onMark = new EventEmitter<void>();
     history: History[] = [];
-    isVisible: boolean = false;
     isModalVisible = false;
 
     // Expose constants to template
@@ -36,14 +37,7 @@ export class QuickMarkOverlayComponent {
     X = Completion.X;
 
     constructor(private svcData: DataService) {
-    }
-
-    onMouseEnter(): void {
-        this.isVisible = true;
-    }
-
-    onMouseLeave(): void {
-        this.isVisible = false;
+        super();
     }
 
     /** Change all tasks in filteredTasks with 'from' flag to 'to' flag

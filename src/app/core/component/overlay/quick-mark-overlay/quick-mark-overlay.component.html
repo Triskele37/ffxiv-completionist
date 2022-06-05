@@ -11,8 +11,9 @@
     </div>
 
     <p-button
-        styleClass="p-button-outlined"
+        [styleClass]="isLocked ? '' : 'p-button-outlined'"
         icon="mi mi-rule"
+        (onClick)="onClick()"
     ></p-button>
 
     <div *ngIf="isVisible || isModalVisible" class="overlay-panel">

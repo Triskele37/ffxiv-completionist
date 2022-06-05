@@ -4,6 +4,8 @@ import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { ElectronService } from '@service/electron/electron.service';
 
+import { Overlay } from '../Overlay';
+
 @Component({
     selector: 'xiv-selection-overlay',
     templateUrl: './selection-overlay.component.html',
@@ -12,22 +14,13 @@ import { ElectronService } from '@service/electron/electron.service';
         './selection-overlay.component.scss'
     ]
 })
-export class SelectionOverlayComponent {
+export class SelectionOverlayComponent extends Overlay {
     @Input() group: DataGroup;
     @Input() tasks: Task[];
     @Output() selectChange = new EventEmitter<void>();
 
-    isVisible: boolean = false;
-
     constructor(private svcElectron: ElectronService) {
-    }
-
-    onMouseEnter(): void {
-        this.isVisible = true;
-    }
-
-    onMouseLeave(): void {
-        this.isVisible = false;
+        super();
     }
 
     selectedIds(): number[] {

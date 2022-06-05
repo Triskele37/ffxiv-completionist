@@ -3,12 +3,13 @@ import { TranslateService } from '@ngx-translate/core';
 
 import { Completion } from '@constant';
 import { DataService } from '@data';
-import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
 import { ChainService } from '@service/chain/chain.service';
 import { Match, SearchService } from '@service/search/search.service';
 import { SaveStoreService } from '@service/store/save-store.service';
 import { CustomTaskService } from '@service/custom-task/custom-task.service';
+
+import { Overlay } from '../Overlay';
 
 @Component({
     selector: 'xiv-custom-task-overlay',
@@ -18,9 +19,8 @@ import { CustomTaskService } from '@service/custom-task/custom-task.service';
         './custom-task-overlay.component.scss'
     ]
 })
-export class CustomTaskOverlayComponent {
+export class CustomTaskOverlayComponent extends Overlay {
     @Input() tasks: Task[];
-    isVisible: boolean = false;
     isMergeVisible: boolean = false;
 
     newTaskName: string = '';
@@ -41,18 +41,13 @@ export class CustomTaskOverlayComponent {
         private svcSaveStore: SaveStoreService,
         public svcCustomTask: CustomTaskService
     ) {
+        super();
     }
 
-    //#region------------------------------------------------------- Common
     onMouseEnter(): void {
+        if(Overlay.anyLocked) return;
         if(!this.isMergeVisible) this.isVisible = true;
     }
-
-    onMouseLeave(): void {
-        this.isVisible = false;
-    }
-
-    //#endregion
 
     //#region------------------------------------------------------- Base Events
     addCustomTask(): void {
@@ -89,6 +84,8 @@ export class CustomTaskOverlayComponent {
         if(this.svcCustomTask.group.tasks.length < 1) return;
 
         // Switch displayed overlay
+        Overlay.anyLocked = false;
+        this.isLocked = false;
         this.isVisible = false;
         this.isMergeVisible = true;
 

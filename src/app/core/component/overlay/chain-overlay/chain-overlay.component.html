@@ -4,10 +4,16 @@
     (mouseleave)="onMouseLeave()"
 >
     <p-button
-        styleClass="p-button-outlined"
+        [styleClass]="isLocked ? '' : 'p-button-outlined'"
         icon="material-icons mi-link"
         [ngClass]="{ 'do-notify': doNotify }"
+        (onClick)="onClick()"
     ></p-button>
+
+    <p-badge
+        *ngIf="doNotify"
+        value="{{chainedTaskCount.count}}"
+    ></p-badge>
 
     <div *ngIf="isVisible" class="overlay-panel">
         <!-- Dropdown Content Body with no Data -->

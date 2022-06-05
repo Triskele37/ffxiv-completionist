@@ -5,6 +5,8 @@ import { NavigationService } from '@service/navigation/navigation.service';
 import { ChainService } from '@service/chain/chain.service';
 import { ChainedGroup, ChainStart } from '@service/chain/types';
 
+import { Overlay } from '../Overlay';
+
 @Component({
     selector: 'xiv-chain-overlay',
     templateUrl: './chain-overlay.component.html',
@@ -13,9 +15,8 @@ import { ChainedGroup, ChainStart } from '@service/chain/types';
         './chain-overlay.component.scss'
     ]
 })
-export class ChainOverlayComponent implements OnInit, OnChanges, OnDestroy {
+export class ChainOverlayComponent extends Overlay implements OnInit, OnChanges, OnDestroy {
     @Input() disableUndo: boolean;
-    isVisible: boolean = false;
 
     undoVerified: boolean = false;
     doNotify: boolean = false;
@@ -29,6 +30,7 @@ export class ChainOverlayComponent implements OnInit, OnChanges, OnDestroy {
         private svcNavigation: NavigationService,
         private svcChain: ChainService,
     ) {
+        super();
     }
 
     //#region------------------------------------------------------- Life-cycle
@@ -60,12 +62,8 @@ export class ChainOverlayComponent implements OnInit, OnChanges, OnDestroy {
 
     //#region------------------------------------------------------- Template Actions
     onMouseEnter(): void {
-        this.isVisible = true;
-        this.doNotify = false;
-    }
-
-    onMouseLeave(): void {
-        this.isVisible = false;
+        super.onMouseEnter();
+        if(this.isVisible) this.doNotify = false;
     }
 
     onToggleShowChainedGroup(group: ChainedGroup): void {
