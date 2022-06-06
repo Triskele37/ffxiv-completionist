@@ -91,7 +91,7 @@ export class ChainOverlayComponent extends Overlay implements OnInit, OnChanges,
         this.svcData.applyDataToStore();
 
         // Make sure the overlay doesn't stick open
-        this.isVisible = false;
+        if(!this.isLocked) this.hide();
     }
 
     //#endregion

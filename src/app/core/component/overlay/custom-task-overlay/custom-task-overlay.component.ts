@@ -84,9 +84,7 @@ export class CustomTaskOverlayComponent extends Overlay {
         if(this.svcCustomTask.group.tasks.length < 1) return;
 
         // Switch displayed overlay
-        Overlay.anyLocked = false;
-        this.isLocked = false;
-        this.isVisible = false;
+        this.hide();
         this.isMergeVisible = true;
 
         // Search for matches and filter out matching itself

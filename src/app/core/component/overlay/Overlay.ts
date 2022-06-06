@@ -21,4 +21,10 @@ export class Overlay {
             Overlay.anyLocked = this.isLocked;
         }
     }
+
+    hide(): void {
+        this.isVisible = false;
+        this.isLocked = false;
+        Overlay.anyLocked = false;
+    }
 }

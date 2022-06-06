@@ -1,6 +1,36 @@
 {
     "key": "the-wolves-den",
     "tasks": {
+        "x3041": {
+            "points": 5,
+            "patch": "6.1",
+            "cNext": [3042]
+        },
+        "x3042": {
+            "points": 5,
+            "patch": "6.1",
+            "cPrev": [3041],
+            "cNext": [3043]
+        },
+        "x3043": {
+            "points": 10,
+            "patch": "6.1",
+            "cPrev": [3042],
+            "cNext": [3044]
+        },
+        "x3044": {
+            "points": 10,
+            "patch": "6.1",
+            "cPrev": [3043],
+            "cNext": [3045]
+        },
+        "x3045": {
+            "points": 20,
+            "reward": "character.character.title.623",
+            "patch": "6.1",
+            "cPrev": [3044],
+            "cSiblings": ["character.character.title.623"]
+        },
         "x2110": {
             "points": 0,
             "reward": "character.character.title.399",
@@ -630,7 +660,8 @@
             "patch": "4.2",
             "cNext": [
                 2008
-            ]
+            ],
+            "defaultCompletion": "X"
         },
         "x2008": {
             "points": 5,
@@ -640,7 +671,8 @@
             ],
             "cNext": [
                 2009
-            ]
+            ],
+            "defaultCompletion": "X"
         },
         "x2009": {
             "points": 5,
@@ -650,7 +682,8 @@
             ],
             "cNext": [
                 2010
-            ]
+            ],
+            "defaultCompletion": "X"
         },
         "x2010": {
             "points": 10,
@@ -660,7 +693,8 @@
             ],
             "cNext": [
                 2011
-            ]
+            ],
+            "defaultCompletion": "X"
         },
         "x2011": {
             "points": 10,
@@ -670,7 +704,8 @@
             ],
             "cNext": [
                 2012
-            ]
+            ],
+            "defaultCompletion": "X"
         },
         "x2012": {
             "points": 20,
@@ -681,7 +716,8 @@
             ],
             "cSiblings": [
                 "character.character.title.172"
-            ]
+            ],
+            "defaultCompletion": "X"
         }
     }
 }
