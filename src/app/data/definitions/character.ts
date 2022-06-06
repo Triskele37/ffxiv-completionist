@@ -3,6 +3,7 @@ import { GroupDefinition } from '@domain/Definition';
 export const CHARACTER_DEFINITION: GroupDefinition = {
     path: 'character',
     subGroups: [
+        'portraits',
         {
             path: 'character',
             subGroups: [

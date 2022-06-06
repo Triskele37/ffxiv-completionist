@@ -7,55 +7,90 @@
         "patch": "Patch"
     },
     "tasks": {
-        "x0": {
-            "name": "Ailes angéliques",
+        "x6": {
+            "name": "Ombrelle",
             "category": "Achat",
-            "source": "500,000 PGS"
+            "source": [
+                "1,800 Assignats d'Azurée",
+                "Boîte à cadeaux de feste"
+            ]
         },
-        "x16": {
-            "name": "Ailes d'archange",
-            "category": "Chasse aux trésors",
-            "source": "Le Ludodrome"
+        "x11": {
+            "name": "Ombrelle d'azur",
+            "category": "Achat",
+            "source": [
+                "900 Assignats d'Azurée",
+                "Boîte à cadeaux de feste"
+            ]
+        },
+        "x12": {
+            "name": "Ombrelle pourpre laquée",
+            "category": "Achat",
+            "source": "Tokohana - Kugane - 100,000 gils"
+        },
+        "x9": {
+            "name": "Ombrelle mauve laquée",
+            "category": "Expédition",
+            "source": "Expédition sous-marine - Repos de Rogo-Tumu-Here (F)"
+        },
+        "x4": {
+            "name": "Ombrelle dorée laquée",
+            "category": "Achat",
+            "source": "200,000 PGS"
         },
         "x1": {
             "name": "Ombrelle à carreaux bleue",
             "category": "Achat",
-            "source": "900 Assignats d'Azurée, Boîte à cadeaux de feste"
+            "source": [
+                "900 Assignats d'Azurée",
+                "Boîte à cadeaux de feste"
+            ]
         },
         "x2": {
             "name": "Ombrelle à carreaux rouge",
             "category": "Achat",
-            "source": "1,800 Assignats d'Azurée, Boîte à cadeaux de feste"
+            "source": [
+                "1,800 Assignats d'Azurée",
+                "Boîte à cadeaux de feste"
+            ]
         },
         "x3": {
             "name": "Ombrelle à carreaux noire",
             "category": "Bozja",
             "source": "Coffre verrouillé du Front sud de Bozja"
         },
-        "x17": {
-            "name": "Ailes de Diabolos",
-            "category": "Achat",
-            "source": "800 Insigne de chasse"
+        "x8": {
+            "name": "Ombrelle bleue à pois",
+            "category": "Bozja",
+            "source": "25 Cristaux bozjiens"
         },
-        "x18": {
-            "name": "Ailes d'ange déchu",
+        "x10": {
+            "name": "Ombrelle rose à pois",
             "category": "Achat",
-            "source": "Edelina - Mor Dhona - 500 Bons de livraison de gemmes bicolores"
+            "source": "Ys Gyuf - Il Mheg - 100,000 gils"
         },
-        "x19": {
-            "name": "Mirage de lunettes ovales",
+        "x7": {
+            "name": "Ombrelle vert d'eau à pois",
             "category": "Achat",
-            "source": "100,000 PGS"
+            "source": [
+                "1,800 Assignats d'Azurée",
+                "Boîte à cadeaux de feste"
+            ]
         },
-        "x14": {
-            "name": "Ombrelle gros minou",
-            "category": "",
-            "source": ""
+        "x15": {
+            "name": "Ombrelle Dalamud",
+            "category": "Événement",
+            "source": "Fête de la Commémoration (2021)"
         },
-        "x4": {
-            "name": "Ombrelle dorée laquée",
-            "category": "Achat",
-            "source": "200,000 PGS"
+        "x21": {
+            "name": "Ombrelle À Dentelle Blanche",
+            "category": "Chasse aux trésors",
+            "source": "Le Ludodrome"
+        },
+        "x22": {
+            "name": "Ombrelle À Fleurs Bleues",
+            "category": "Expédition",
+            "source": "Subaquatic Voyages - Thrall's Unrest"
         },
         "x5": {
             "name": "Ombrelle du Gold Saucer",
@@ -67,50 +102,50 @@
             "category": "Événement",
             "source": "Récompense de concours communautaire"
         },
-        "x6": {
-            "name": "Ombrelle",
-            "category": "Achat",
-            "source": "1,800 Assignats d'Azurée, Boîte à cadeaux de feste"
+        "x14": {
+            "name": "Ombrelle gros minou",
+            "category": "",
+            "source": ""
         },
-        "x7": {
-            "name": "Ombrelle vert d'eau à pois",
+        "x0": {
+            "name": "Ailes angéliques",
             "category": "Achat",
-            "source": "1,800 Assignats d'Azurée, Boîte à cadeaux de feste"
+            "source": "500,000 PGS"
+        },
+        "x16": {
+            "name": "Ailes d'archange",
+            "category": "Chasse aux trésors",
+            "source": "Le Ludodrome"
+        },
+        "x18": {
+            "name": "Ailes d'ange déchu",
+            "category": "Achat",
+            "source": "Edelina - Mor Dhona - 500 Bons de livraison de gemmes bicolores"
+        },
+        "x17": {
+            "name": "Ailes de Diabolos",
+            "category": "Achat",
+            "source": "800 Insigne de chasse"
         },
         "x20": {
             "name": "Ailes de Pixie",
             "category": "Chasse aux trésors",
             "source": "Vieille carte en peau d'ophiotauros"
         },
-        "x8": {
-            "name": "Ombrelle bleue à pois",
-            "category": "Bozja",
-            "source": "25 Cristaux bozjiens"
+        "x19": {
+            "name": "Mirage de lunettes ovales",
+            "category": "Achat",
+            "source": "100,000 PGS"
         },
-        "x9": {
-            "name": "Ombrelle mauve laquée",
+        "x23": {
+            "name": "Mirage De Lunettes Teintées",
+            "category": "PvP",
+            "source:": "Series Reward"
+        },
+        "x24": {
+            "name": "Mirage De Lunettes Classiques",
             "category": "Expédition",
-            "source": "Expédition sous-marine - Repos de Rogo-Tumu-Here (F)"
-        },
-        "x10": {
-            "name": "Ombrelle rose à pois",
-            "category": "Achat",
-            "source": "Ys Gyuf - Il Mheg - 100,000 gils"
-        },
-        "x15": {
-            "name": "Ombrelle Dalamud",
-            "category": "Événement",
-            "source": "Fête de la Commémoration (2021)"
-        },
-        "x11": {
-            "name": "Ombrelle d'azur",
-            "category": "Achat",
-            "source": "900 Assignats d'Azurée, Boîte à cadeaux de feste"
-        },
-        "x12": {
-            "name": "Ombrelle pourpre laquée",
-            "category": "Achat",
-            "source": "Tokohana - Kugane - 100,000 gils"
+            "source:": "Subaquatic Voyages - Anthemoessa"
         }
     }
 }
