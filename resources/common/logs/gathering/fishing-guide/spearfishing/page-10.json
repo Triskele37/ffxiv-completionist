@@ -1,23 +1,36 @@
 {
     "key": "page-10",
+    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
-            "iLvl": "560"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.19",
+            "bait": "BITE.NORMAL_VERY_FAST"
         },
         "x1": {
-            "iLvl": "520"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.22",
+            "bait": "BITE.LARGE_AVERAGE"
         },
         "x2": {
-            "iLvl": "527"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.22",
+            "bait": "BITE.SMALL_FAST"
         },
         "x3": {
-            "iLvl": "560"
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.1",
+            "bait": "BITE.LARGE_AVERAGE"
         },
         "x4": {
-            "iLvl": "560"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.20",
+            "bait": "BITE.LARGE_SLOW"
         },
         "x5": {
-            "iLvl": "560"
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.1",
+            "bait": "BITE.SMALL_VERY_FAST"
         }
     }
 }

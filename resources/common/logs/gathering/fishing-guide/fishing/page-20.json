@@ -1,80 +1,131 @@
 {
     "key": "page-20",
+    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
-            "iLvl": "240"
+            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.10",
+            "bait": "logs.gathering.fishing-guide.fishing.page-14.17"
         },
         "x1": {
-            "iLvl": "230"
+            "zone": "ZONE.THE_CHURNING_MISTS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.14",
+            "bait": "BAIT.BRUTE_LEECH"
         },
         "x2": {
-            "iLvl": "250"
+            "zone": "ZONE.THE_CHURNING_MISTS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.17",
+            "bait": "BAIT.GIANT_CRANE_FLY"
         },
         "x3": {
-            "iLvl": "250"
+            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.7",
+            "bait": "logs.gathering.fishing-guide.fishing.page-14.14"
         },
         "x4": {
-            "iLvl": "250"
+            "zone": "ZONE.AZYS_LLA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.11",
+            "bait": "logs.gathering.fishing-guide.fishing.page-15.11"
         },
         "x5": {
-            "iLvl": "250"
+            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.10",
+            "bait": "logs.gathering.fishing-guide.fishing.page-14.17"
         },
         "x6": {
-            "iLvl": "250"
+            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.4",
+            "bait": "BAIT.GIANT_CRANE_FLY"
         },
         "x7": {
-            "iLvl": "250"
+            "zone": "ZONE.COERTHAS_WESTERN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.12",
+            "bait": "logs.gathering.fishing-guide.fishing.page-13.1"
         },
         "x8": {
-            "iLvl": "250"
+            "zone": "ZONE.THE_CHURNING_MISTS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.17",
+            "bait": "logs.gathering.fishing-guide.fishing.page-16.15"
         },
         "x9": {
-            "iLvl": "142"
+            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.10",
+            "bait": "BAIT.STONEFLY_NYMPH"
         },
         "x10": {
-            "iLvl": "145"
+            "zone": "ZONE.COERTHAS_WESTERN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.12",
+            "bait": "BAIT.STONEFLY_NYMPH"
         },
         "x11": {
-            "iLvl": "148"
+            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.1",
+            "bait": "BAIT.BLADED_STEEL_JIG"
         },
         "x12": {
-            "iLvl": "150"
+            "zone": "ZONE.THE_CHURNING_MISTS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.14",
+            "bait": "BAIT.BLADED_STEEL_JIG"
         },
         "x13": {
-            "iLvl": "160"
+            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.0",
+            "bait": "BAIT.BRUTE_LEECH"
         },
         "x14": {
-            "iLvl": "205"
+            "zone": "ZONE.RHALGRS_REACH",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.2",
+            "bait": "BAIT.SALMON_ROE"
         },
         "x15": {
-            "iLvl": "205"
+            "zone": "ZONE.RHALGRS_REACH",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.1",
+            "bait": "BAIT.SALMON_ROE"
         },
         "x16": {
-            "iLvl": "205"
+            "zone": "ZONE.RHALGRS_REACH",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.0",
+            "bait": "BAIT.SALMON_ROE"
         },
         "x17": {
-            "iLvl": "205"
+            "zone": "ZONE.THE_PEAKS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.9",
+            "bait": "BAIT.SALMON_ROE"
         },
         "x18": {
-            "iLvl": "205"
+            "zone": "ZONE.THE_FRINGES",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.3",
+            "bait": "BAIT.SALMON_ROE"
         },
         "x19": {
-            "iLvl": "205"
+            "zone": "ZONE.RHALGRS_REACH",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.0",
+            "bait": "BAIT.SALMON_ROE"
         },
         "x20": {
-            "iLvl": "205"
+            "zone": "ZONE.THE_FRINGES",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.3",
+            "bait": "logs.gathering.fishing-guide.fishing.page-20.22"
         },
         "x21": {
-            "iLvl": "205"
+            "zone": "ZONE.RHALGRS_REACH",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.1",
+            "bait": "BAIT.SALMON_ROE"
         },
         "x22": {
-            "iLvl": "205"
+            "zone": "ZONE.THE_FRINGES",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.3",
+            "bait": "BAIT.SALMON_ROE"
         },
         "x23": {
-            "iLvl": "205"
+            "zone": "ZONE.RHALGRS_REACH",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.2",
+            "bait": "BAIT.SALMON_ROE"
         },
         "x24": {
-            "iLvl": "220"
+            "zone": "ZONE.THE_PEAKS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.9",
+            "bait": "BAIT.SALMON_ROE"
         }
     }
 }

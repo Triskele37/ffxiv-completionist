@@ -1,80 +1,134 @@
 {
     "key": "page-4",
+    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
-            "iLvl": "32"
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.18",
+            "bait": "BAIT.SYRPHID_BASKET"
         },
         "x1": {
-            "iLvl": "32"
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.18",
+            "bait": "BAIT.SPOON_WORM"
         },
         "x2": {
-            "iLvl": "32"
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.14",
+            "bait": "BAIT.CHOCOBO_FLY"
         },
         "x3": {
-            "iLvl": "33"
+            "zone": "ZONE.EASTERN_THANALAN",
+            "fishingHoles": [
+                "logs.gathering.fishing-log.fishing.thanalan.12",
+                "logs.gathering.fishing-log.fishing.thanalan.13"
+            ],
+            "bait": "BAIT.SYRPHID_BASKET"
         },
         "x4": {
-            "iLvl": "33"
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.19",
+            "bait": "BAIT.SILVER_SPOON_LURE"
         },
         "x5": {
-            "iLvl": "33"
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.10",
+            "bait": "BAIT.SPOON_WORM"
         },
         "x6": {
-            "iLvl": "34"
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.18",
+            "bait": "BAIT.SILVER_SPOON_LURE"
         },
         "x7": {
-            "iLvl": "34"
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.17",
+            "bait": "BAIT.SPOON_WORM"
         },
         "x8": {
-            "iLvl": "34"
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.17",
+            "bait": "BAIT.SILVER_SPOON_LURE"
         },
         "x9": {
-            "iLvl": "34"
+            "zone": "ZONE.WESTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.5",
+            "bait": "BAIT.HERRING_BALL"
         },
         "x10": {
-            "iLvl": "33"
+            "zone": "ZONE.CENTRAL_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.6",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.5"
         },
         "x11": {
-            "iLvl": "35"
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.17",
+            "bait": "BAIT.SILVER_SPOON_LURE"
         },
         "x12": {
-            "iLvl": "35"
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.31",
+            "bait": "BAIT.HERRING_BALL"
         },
         "x13": {
-            "iLvl": "35"
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.19",
+            "bait": "BAIT.SAND_LEECH"
         },
         "x14": {
-            "iLvl": "36"
+            "zone": "ZONE.THE_GOBLET",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.23",
+            "bait": "BAIT.SILVER_SPOON_LURE"
         },
         "x15": {
-            "iLvl": "36"
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.18",
+            "bait": "BAIT.HONEY_WORM"
         },
         "x16": {
-            "iLvl": "36"
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.19",
+            "bait": "BAIT.SAND_LEECH"
         },
         "x17": {
-            "iLvl": "36"
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.18",
+            "bait": "BAIT.STEEL_JIG"
         },
         "x18": {
-            "iLvl": "37"
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.17",
+            "bait": "BAIT.SILVER_SPOON_LURE"
         },
         "x19": {
-            "iLvl": "37"
+            "zone": "ZONE.COERTHAS_CENTRAL",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.0",
+            "bait": "BAIT.SILVER_SPOON_LURE"
         },
         "x20": {
-            "iLvl": "37"
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.20",
+            "bait": "BAIT.SAND_LEECH"
         },
         "x21": {
-            "iLvl": "37"
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.19",
+            "bait": "BAIT.SINKING_MINNOW"
         },
         "x22": {
-            "iLvl": "38"
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.14",
+            "bait": "BAIT.SINKING_MINNOW"
         },
         "x23": {
-            "iLvl": "38"
+            "zone": "ZONE.WESTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.3",
+            "bait": "BAIT.KRILL_CAGE_FEEDER"
         },
         "x24": {
-            "iLvl": "38"
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.19",
+            "bait": "BAIT.SAND_LEECH"
         }
     }
 }

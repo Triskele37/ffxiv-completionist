@@ -1,80 +1,315 @@
 {
     "key": "page-1",
+    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
-            "iLvl": "4"
+            "zone": [
+                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+                "ZONE.LIMSA_LOMINSA_LOWER_DECKS"
+            ],
+            "fishingHoles": [
+                "logs.gathering.fishing-log.fishing.la-noscea.0",
+                "logs.gathering.fishing-log.fishing.la-noscea.1"
+            ],
+            "bait": "BAIT.PILL_BUG"
         },
         "x1": {
-            "iLvl": "2"
+            "zone": [
+                "ZONE.MIDDLE_LA_NOSCEA",
+                "ZONE.LOWER_LA_NOSCEA",
+                "ZONE.NEW_GRIDANIA",
+                "ZONE.OLD_GRIDANIA",
+                "ZONE.CENTRAL_SHROUD",
+                "ZONE.WESTERN_THANALAN"
+            ],
+            "fishingHoles": [
+                "logs.gathering.fishing-log.fishing.la-noscea.3",
+                "logs.gathering.fishing-log.fishing.la-noscea.4",
+                "logs.gathering.fishing-log.fishing.la-noscea.8",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.0",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.1",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.2",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.3",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.4",
+                "logs.gathering.fishing-log.fishing.thanalan.1"
+            ],
+            "bait": "BAIT.MOTH_PUPA"
         },
         "x2": {
-            "iLvl": "3"
+            "zone": "ZONE.MIDDLE_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.3",
+            "bait": "BAIT.MOTH_PUPA"
         },
         "x3": {
-            "iLvl": "3"
+            "zone": [
+                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+                "ZONE.LIMSA_LOMINSA_LOWER_DECKS",
+                "ZONE.MIDDLE_LA_NOSCEA",
+                "ZONE.LOWER_LA_NOSCEA",
+                "ZONE.EASTERN_LA_NOSCEA",
+                "ZONE.WESTERN_LA_NOSCEA",
+                "ZONE.WESTERN_THANALAN"
+            ],
+            "fishingHoles": [
+                "logs.gathering.fishing-log.fishing.la-noscea.0",
+                "logs.gathering.fishing-log.fishing.la-noscea.1",
+                "logs.gathering.fishing-log.fishing.la-noscea.2",
+                "logs.gathering.fishing-log.fishing.la-noscea.5",
+                "logs.gathering.fishing-log.fishing.la-noscea.9",
+                "logs.gathering.fishing-log.fishing.la-noscea.10",
+                "logs.gathering.fishing-log.fishing.la-noscea.17",
+                "logs.gathering.fishing-log.fishing.la-noscea.21",
+                "logs.gathering.fishing-log.fishing.la-noscea.27",
+                "logs.gathering.fishing-log.fishing.la-noscea.29",
+                "logs.gathering.fishing-log.fishing.la-noscea.32",
+                "logs.gathering.fishing-log.fishing.la-noscea.33",
+                "logs.gathering.fishing-log.fishing.la-noscea.36",
+                "logs.gathering.fishing-log.fishing.thanalan.5"
+            ],
+            "bait": "BAIT.GOBY_BALL"
         },
         "x4": {
-            "iLvl": "3"
+            "zone": [
+                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+                "ZONE.LIMSA_LOMINSA_LOWER_DECKS",
+                "ZONE.MIDDLE_LA_NOSCEA",
+                "ZONE.LOWER_LA_NOSCEA",
+                "ZONE.WESTERN_LA_NOSCEA",
+                "ZONE.WESTERN_THANALAN"
+            ],
+            "fishingHoles": [
+                "logs.gathering.fishing-log.fishing.la-noscea.0",
+                "logs.gathering.fishing-log.fishing.la-noscea.1",
+                "logs.gathering.fishing-log.fishing.la-noscea.2",
+                "logs.gathering.fishing-log.fishing.la-noscea.12",
+                "logs.gathering.fishing-log.fishing.la-noscea.28",
+                "logs.gathering.fishing-log.fishing.la-noscea.36",
+                "logs.gathering.fishing-log.fishing.thanalan.4",
+                "logs.gathering.fishing-log.fishing.thanalan.2",
+                "logs.gathering.fishing-log.fishing.thanalan.3"
+            ],
+            "bait": "BAIT.LUGWORM"
         },
         "x5": {
-            "iLvl": "4"
+            "zone": "ZONE.CENTRAL_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.4",
+            "bait": "BAIT.MOTH_PUPA"
         },
         "x6": {
-            "iLvl": "4"
+            "zone": "ZONE.MIDDLE_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.3",
+            "bait": "BAIT.MOTH_PUPA"
         },
         "x7": {
-            "iLvl": "4"
+            "zone": [
+                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+                "ZONE.LIMSA_LOMINSA_LOWER_DECKS",
+                "ZONE.MIDDLE_LA_NOSCEA",
+                "ZONE.EASTERN_LA_NOSCEA"
+            ],
+            "fishingHoles": [
+                "logs.gathering.fishing-log.fishing.la-noscea.0",
+                "logs.gathering.fishing-log.fishing.la-noscea.1",
+                "logs.gathering.fishing-log.fishing.la-noscea.2",
+                "logs.gathering.fishing-log.fishing.la-noscea.5",
+                "logs.gathering.fishing-log.fishing.la-noscea.20"
+            ],
+            "bait": "BAIT.LUGWORM"
         },
         "x8": {
-            "iLvl": "5"
+            "zone": "ZONE.WESTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.0",
+            "bait": "BAIT.MOTH_PUPA"
         },
         "x9": {
-            "iLvl": "5"
+            "zone": "ZONE.MIDDLE_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.5",
+            "bait": "BAIT.GOBY_BALL"
         },
         "x10": {
-            "iLvl": "5"
+            "zone": "ZONE.MIDDLE_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.3",
+            "bait": "BAIT.MOTH_PUPA"
         },
         "x11": {
-            "iLvl": "6"
+            "zone": [
+                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+                "ZONE.LIMSA_LOMINSA_LOWER_DECKS",
+                "ZONE.MIDDLE_LA_NOSCEA",
+                "ZONE.LOWER_LA_NOSCEA",
+                "ZONE.WESTERN_LA_NOSCEA"
+            ],
+            "fishingHoles": [
+                "logs.gathering.fishing-log.fishing.la-noscea.0",
+                "logs.gathering.fishing-log.fishing.la-noscea.1",
+                "logs.gathering.fishing-log.fishing.la-noscea.2",
+                "logs.gathering.fishing-log.fishing.la-noscea.5",
+                "logs.gathering.fishing-log.fishing.la-noscea.9",
+                "logs.gathering.fishing-log.fishing.la-noscea.10",
+                "logs.gathering.fishing-log.fishing.la-noscea.13",
+                "logs.gathering.fishing-log.fishing.la-noscea.32"
+            ],
+            "bait": "BAIT.PILL_BUG"
         },
         "x12": {
-            "iLvl": "6"
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.8",
+            "bait": "BAIT.CRAYFISH_BALL"
         },
         "x13": {
-            "iLvl": "7"
+            "zone": "ZONE.MIDDLE_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.2",
+            "bait": "BAIT.PILL_BUG"
         },
         "x14": {
-            "iLvl": "7"
+            "zone": [
+                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+                "ZONE.LIMSA_LOMINSA_LOWER_DECKS",
+                "ZONE.MIDDLE_LA_NOSCEA",
+                "ZONE.LOWER_LA_NOSCEA",
+                "ZONE.EASTERN_LA_NOSCEA",
+                "ZONE.WESTERN_LA_NOSCEA",
+                "ZONE.MIST",
+                "ZONE.WESTERN_THANALAN"
+            ],
+            "fishingHoles": [
+                "logs.gathering.fishing-log.fishing.la-noscea.0",
+                "logs.gathering.fishing-log.fishing.la-noscea.1",
+                "logs.gathering.fishing-log.fishing.la-noscea.2",
+                "logs.gathering.fishing-log.fishing.la-noscea.5",
+                "logs.gathering.fishing-log.fishing.la-noscea.10",
+                "logs.gathering.fishing-log.fishing.la-noscea.13",
+                "logs.gathering.fishing-log.fishing.la-noscea.19",
+                "logs.gathering.fishing-log.fishing.la-noscea.20",
+                "logs.gathering.fishing-log.fishing.la-noscea.28",
+                "logs.gathering.fishing-log.fishing.la-noscea.30",
+                "logs.gathering.fishing-log.fishing.la-noscea.43",
+                "logs.gathering.fishing-log.fishing.thanalan.2"
+            ],
+            "bait": "BAIT.PILL_BUG"
         },
         "x15": {
-            "iLvl": "7"
+            "zone": [
+                "ZONE.NEW_GRIDANIA",
+                "ZONE.OLD_GRIDANIA",
+                "ZONE.CENTRAL_SHROUD",
+                "ZONE.EAST_SHROUD",
+                "ZONE.THE_LAVENDER_BEDS"
+            ],
+            "fishingHoles": [
+                "logs.gathering.fishing-log.fishing.the-black-shroud.0",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.1",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.2",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.3",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.4",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.5",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.9",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.25"
+            ],
+            "bait": "BAIT.MIDGE_BASKET"
         },
         "x16": {
-            "iLvl": "8"
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.14",
+            "bait": "BAIT.BLOODWORM"
         },
         "x17": {
-            "iLvl": "8"
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.9",
+            "bait": "BAIT.PILL_BUG"
         },
         "x18": {
-            "iLvl": "8"
+            "zone": [
+                "ZONE.MIDDLE_LA_NOSCEA",
+                "ZONE.LOWER_LA_NOSCEA",
+                "ZONE.NEW_GRIDANIA",
+                "ZONE.OLD_GRIDANIA",
+                "ZONE.SOUTH_SHROUD",
+                "ZONE.WESTERN_THANALAN"
+            ],
+            "fishingHoles": [
+                "logs.gathering.fishing-log.fishing.la-noscea.4",
+                "logs.gathering.fishing-log.fishing.la-noscea.6",
+                "logs.gathering.fishing-log.fishing.la-noscea.8",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.0",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.1",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.2",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.3",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.4",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.5",
+                "logs.gathering.fishing-log.fishing.thanalan.0"
+            ],
+            "bait": "BAIT.CRAYFISH_BALL"
         },
         "x19": {
-            "iLvl": "9"
+            "zone": [
+                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+                "ZONE.LIMSA_LOMINSA_LOWER_DECKS",
+                "ZONE.MIDDLE_LA_NOSCEA",
+                "ZONE.EASTERN_LA_NOSCEA"
+            ],
+            "fishingHoles": [
+                "logs.gathering.fishing-log.fishing.la-noscea.0",
+                "logs.gathering.fishing-log.fishing.la-noscea.1",
+                "logs.gathering.fishing-log.fishing.la-noscea.2",
+                "logs.gathering.fishing-log.fishing.la-noscea.17"
+            ],
+            "bait": "BAIT.GOBY_BALL"
         },
         "x20": {
-            "iLvl": "9"
+            "zone": "ZONE.CENTRAL_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.4",
+            "bait": "BAIT.CRAYFISH_BALL"
         },
         "x21": {
-            "iLvl": "10"
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.9",
+            "bait": "BAIT.GOBY_BALL"
         },
         "x22": {
-            "iLvl": "10"
+            "zone": [
+                "ZONE.MIDDLE_LA_NOSCEA",
+                "ZONE.LOWER_LA_NOSCEA",
+                "ZONE.NEW_GRIDANIA",
+                "ZONE.OLD_GRIDANIA",
+                "ZONE.CENTRAL_SHROUD",
+                "ZONE.EAST_SHROUD",
+                "ZONE.NORTH_SHROUD",
+                "ZONE.WESTERN_THANALAN",
+                "ZONE.CENTRAL_THANALAN",
+                "ZONE.COERTHAS_CENTRAL"
+            ],
+            "fishingHoles": [
+                "logs.gathering.fishing-log.fishing.la-noscea.6",
+                "logs.gathering.fishing-log.fishing.la-noscea.8",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.0",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.1",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.2",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.3",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.4",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.5",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.9",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.10",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.21",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.22",
+                "logs.gathering.fishing-log.fishing.thanalan.0",
+                "logs.gathering.fishing-log.fishing.thanalan.8",
+                "logs.gathering.fishing-log.fishing.thanalan.9",
+                "logs.gathering.fishing-log.fishing.thanalan.11",
+                "logs.gathering.fishing-log.fishing.thanalan.10",
+                "logs.gathering.fishing-log.fishing.coerthas.0"
+            ],
+            "bait": "BAIT.CRAYFISH_BALL"
         },
         "x23": {
-            "iLvl": "35"
+            "zone": "ZONE.COERTHAS_CENTRAL",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.1",
+            "bait": "BAIT.HONEY_WORM"
         },
         "x24": {
-            "iLvl": "31"
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.16",
+            "bait": "BAIT.SPINNERBAIT"
         }
     }
 }

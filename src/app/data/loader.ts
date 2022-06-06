@@ -1,13 +1,25 @@
+import { TranslateService } from '@ngx-translate/core';
+
 import { Lang } from '@constant';
+import { DataGroup } from '@domain/DataGroup';
 import { ElectronService } from '@service/electron/electron.service';
 
-export function loadJson(svcElectron: ElectronService, path: string, lang: Lang) {
+export const refs: {
+    svcElectron: ElectronService;
+    translate: TranslateService;
+} = {
+    svcElectron: null,
+    translate: null,
+};
+
+export function loadJson(path: string) {
+    const { lang } = DataGroup;
     const [langPrefix, commonPrefix] = getPrefixes(lang || Lang.EN);
 
     let finalJson: any;
     try {
-        const common = svcElectron.ipcRenderer.sendSync('load-json', `${commonPrefix}/${path}.json`);
-        const locale = svcElectron.ipcRenderer.sendSync('load-json', `${langPrefix}/${path}.json`);
+        const common = refs.svcElectron.ipcRenderer.sendSync('load-json', `${commonPrefix}/${path}.json`);
+        const locale = refs.svcElectron.ipcRenderer.sendSync('load-json', `${langPrefix}/${path}.json`);
 
         try {
             // Destructure headers and tasks so they aren't mapped
@@ -115,11 +127,30 @@ function mapTasks(common, locale) {
     // Map ids
     for(const id in tasks) {
         if(tasks.hasOwnProperty(id)) {
-            // Remove the leading "x" and cast to int
-            tasks[id].id = parseInt(id.substr(1), 10);
-
             // Removes tasks with 'hidden' so placeholders can be in resources
-            if(tasks[id].hidden) delete tasks[id];
+            if(tasks[id].hidden) {
+                delete tasks[id];
+            }
+            else {
+                // Remove the leading "x" and cast to int
+                tasks[id].id = parseInt(id.substr(1), 10);
+
+                common.common?.forEach((field) => {
+                    const value = tasks[id][field];
+                    if(Array.isArray(value)) {
+                        tasks[id][field] = value.map((v) => {
+                            const transKey = `DATA.${v}`;
+                            const cmn = refs.translate.instant(transKey);
+                            return cmn === transKey ? v : cmn;
+                        });
+                    }
+                    else {
+                        const transKey = `DATA.${value}`;
+                        const cmn = refs.translate.instant(transKey);
+                        if(cmn !== transKey) tasks[id][field] = cmn;
+                    }
+                });
+            }
         }
     }
 

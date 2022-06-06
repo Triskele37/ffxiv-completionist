@@ -1,14 +1,16 @@
 {
     "key": "fishing-guide",
     "headers": {
-        "primeLocation": {
-            "filterable": true
-        },
-        "type": {
-            "filterable": true
+        "fishingHoles": {
+            "filterable": true,
+            "link": true
         },
         "bait": {
-            "filterable": true
+            "filterable": true,
+            "link": true
+        },
+        "zone": {
+            "link": true
         }
     }
 }

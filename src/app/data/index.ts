@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 import { AsyncSubject } from 'rxjs';
 
+import { refs } from '@data/loader';
 import { DataGroup } from '@domain/DataGroup';
 import { ElectronService } from '@service/electron/electron.service';
 import { SaveStoreService } from '@service/store/save-store.service';
@@ -20,11 +22,15 @@ export class DataService {
     whenLoaded$: AsyncSubject<void> = new AsyncSubject<void>();
 
     constructor(
+        private translate: TranslateService,
         private svcElectron: ElectronService,
         private svcConfigStore: ConfigStoreService, // needs to be here to load lang right
         private svcSaveStore: SaveStoreService,
     ) {
-        DataGroup.svcElectron = this.svcElectron;
+        // Give the loader util references
+        refs.svcElectron = this.svcElectron;
+        refs.translate = this.translate;
+
         this.data = DataGroup.fromJSON(null, './index');
         DataGroup.overall = this.data;
 

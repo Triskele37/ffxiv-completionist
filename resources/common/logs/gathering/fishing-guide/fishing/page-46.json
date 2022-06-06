@@ -1,32 +1,99 @@
 {
     "key": "page-46",
+    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
-            "iLvl": "560"
+            "zone": "ZONE.ULTIMA_THULE",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.5",
+            "bait": "BAIT.STARDUST"
         },
         "x1": {
-            "iLvl": "560"
+            "zone": "ZONE.ULTIMA_THULE",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.8",
+            "bait": "BAIT.PANIC_JIG"
         },
         "x2": {
-            "iLvl": "560"
+            "zone": "ZONE.ULTIMA_THULE",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.8",
+            "bait": "BAIT.VERSATILE_LURE"
         },
         "x3": {
-            "iLvl": "560"
+            "zone": "ZONE.ULTIMA_THULE",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.8",
+            "bait": "BAIT.PANIC_JIG"
         },
         "x4": {
-            "iLvl": "560"
+            "zone": "ZONE.ULTIMA_THULE",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.8",
+            "bait": "BAIT.STARDUST"
         },
         "x5": {
-            "iLvl": "560"
+            "zone": "ZONE.ULTIMA_THULE",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.9",
+            "bait": "BAIT.STARDUST"
         },
         "x6": {
-            "iLvl": "560"
+            "zone": "ZONE.ULTIMA_THULE",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.9",
+            "bait": "BAIT.PANIC_JIG"
         },
         "x7": {
-            "iLvl": "560"
+            "zone": "ZONE.ULTIMA_THULE",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.9",
+            "bait": "BAIT.STARDUST"
         },
         "x8": {
-            "iLvl": "570"
+            "zone": "ZONE.ULTIMA_THULE",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.9",
+            "bait": "BAIT.STARDUST"
+        },
+        "x9": {
+            "zone": "ZONE.OLD_SHARLAYAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-northern-empty.0",
+            "bait": "BAIT.MACKEREL_STRIP",
+            "patch": "6.1"
+        },
+        "x10": {
+            "zone": "ZONE.LABYRINTHOS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-northern-empty.4",
+            "bait": "BAIT.MAYFLY",
+            "patch": "6.1"
+        },
+        "x11": {
+            "zone": "ZONE.RADZ_AT_HAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.0",
+            "bait": "BAIT.MAYFLY",
+            "patch": "6.1"
+        },
+        "x12": {
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.3",
+            "bait": "BAIT.MAYFLY",
+            "patch": "6.1"
+        },
+        "x13": {
+            "zone": "ZONE.GARLEMALD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.11",
+            "bait": "logs.gathering.fishing-guide.fishing.page-44.5",
+            "patch": "6.1"
+        },
+        "x14": {
+            "zone": "ZONE.ULTIMA_THULE",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.4",
+            "bait": "BAIT.CHIMERA_WORM",
+            "patch": "6.1"
+        },
+        "x15": {
+            "zone": "ZONE.ULTIMA_THULE",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.5",
+            "bait": "BAIT.STARDUST",
+            "patch": "6.1"
+        },
+        "x16": {
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.7",
+            "bait": "BAIT.MACKEREL_STRIP",
+            "patch": "6.1"
         }
     }
 }

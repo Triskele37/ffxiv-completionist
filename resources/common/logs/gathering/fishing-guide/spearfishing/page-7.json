@@ -1,80 +1,131 @@
 {
     "key": "page-7",
+    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
-            "iLvl": "415"
+            "zone": "ZONE.IL_MHEG",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.8",
+            "bait": "BITE.LARGE_FAST"
         },
         "x1": {
-            "iLvl": "415"
+            "zone": "ZONE.IL_MHEG",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.8",
+            "bait": "BITE.LARGE_VERY_FAST"
         },
         "x2": {
-            "iLvl": "415"
+            "zone": "ZONE.RAK_TIKA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.11",
+            "bait": "BITE.LARGE_FAST"
         },
         "x3": {
-            "iLvl": "415"
+            "zone": "ZONE.RAK_TIKA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.11",
+            "bait": "BITE.SMALL_SLOW"
         },
         "x4": {
-            "iLvl": "403"
+            "zone": "ZONE.LAKELAND",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.2",
+            "bait": "BITE.NORMAL_VERY_FAST"
         },
         "x5": {
-            "iLvl": "418"
+            "zone": "ZONE.IL_MHEG",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.6",
+            "bait": "BITE.LARGE_VERY_FAST"
         },
         "x6": {
-            "iLvl": "418"
+            "zone": "ZONE.RAK_TIKA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.10",
+            "bait": "BITE.NORMAL_AVERAGE"
         },
         "x7": {
-            "iLvl": "418"
+            "zone": "ZONE.RAK_TIKA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.11",
+            "bait": "BITE.LARGE_AVERAGE"
         },
         "x8": {
-            "iLvl": "418"
+            "zone": "ZONE.RAK_TIKA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.11",
+            "bait": "BITE.SMALL_AVERAGE"
         },
         "x9": {
-            "iLvl": "418"
+            "zone": "ZONE.RAK_TIKA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.10",
+            "bait": "BITE.LARGE_SLOW"
         },
         "x10": {
-            "iLvl": "406"
+            "zone": "ZONE.LAKELAND",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.2",
+            "bait": "BITE.SMALL_FAST"
         },
         "x11": {
-            "iLvl": "420"
+            "zone": "ZONE.IL_MHEG",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.6",
+            "bait": "BITE.LARGE_AVERAGE"
         },
         "x12": {
-            "iLvl": "420"
+            "zone": "ZONE.RAK_TIKA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.10",
+            "bait": "BITE.NORMAL_FAST"
         },
         "x13": {
-            "iLvl": "420"
+            "zone": "ZONE.RAK_TIKA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.11",
+            "bait": "BITE.LARGE_VERY_FAST"
         },
         "x14": {
-            "iLvl": "420"
+            "zone": "ZONE.RAK_TIKA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.10",
+            "bait": "BITE.LARGE_FAST"
         },
         "x15": {
-            "iLvl": "495"
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.0",
+            "bait": "BITE.SMALL_VERY_FAST"
         },
         "x16": {
-            "iLvl": "510"
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.0",
+            "bait": "BITE.SMALL_SLOW"
         },
         "x17": {
-            "iLvl": "500"
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.0",
+            "bait": "BITE.NORMAL_AVERAGE"
         },
         "x18": {
-            "iLvl": "527"
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.1",
+            "bait": "BITE.NORMAL_FAST"
         },
         "x19": {
-            "iLvl": "495"
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.0",
+            "bait": "BITE.LARGE_AVERAGE"
         },
         "x20": {
-            "iLvl": "500"
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.0",
+            "bait": "BITE.LARGE_VERY_FAST"
         },
         "x21": {
-            "iLvl": "495"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.17",
+            "bait": "BITE.SMALL_SLOW"
         },
         "x22": {
-            "iLvl": "495"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.17",
+            "bait": "BITE.SMALL_FAST"
         },
         "x23": {
-            "iLvl": "500"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.17",
+            "bait": "BITE.NORMAL_AVERAGE"
         },
         "x24": {
-            "iLvl": "495"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.22",
+            "bait": "BITE.NORMAL_SLOW"
         }
     }
 }

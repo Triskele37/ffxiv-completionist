@@ -1,80 +1,131 @@
 {
     "key": "page-4",
+    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
-            "iLvl": "275"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.12",
+            "bait": "BITE.LARGE_AVERAGE"
         },
         "x1": {
-            "iLvl": "275"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "Unspoiled Teeming Waters",
+            "bait": "BITE.NORMAL_FAST"
         },
         "x2": {
-            "iLvl": "275"
+            "zone": "ZONE.THE_AZIM_STEPPE",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.14",
+            "bait": "BITE.NORMAL_FAST"
         },
         "x3": {
-            "iLvl": "275"
+            "zone": "ZONE.THE_AZIM_STEPPE",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.15",
+            "bait": "BITE.LARGE_FAST"
         },
         "x4": {
-            "iLvl": "275"
+            "zone": "ZONE.THE_LOCHS",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.0",
+            "bait": "BITE.NORMAL_FAST"
         },
         "x5": {
-            "iLvl": "275"
+            "zone": "ZONE.THE_LOCHS",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.1",
+            "bait": "BITE.SMALL_FAST"
         },
         "x6": {
-            "iLvl": "275"
+            "zone": "ZONE.THE_LOCHS",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.2",
+            "bait": "BITE.NORMAL_SLOW"
         },
         "x7": {
-            "iLvl": "290"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.5",
+            "bait": "BITE.LARGE_AVERAGE"
         },
         "x8": {
-            "iLvl": "290"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "Unspoiled Teeming Waters",
+            "bait": "BITE.LARGE_VERY_FAST"
         },
         "x9": {
-            "iLvl": "290"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.11",
+            "bait": "BITE.LARGE_VERY_FAST"
         },
         "x10": {
-            "iLvl": "290"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.12",
+            "bait": "BITE.NORMAL_VERY_FAST"
         },
         "x11": {
-            "iLvl": "290"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "Unspoiled Teeming Waters",
+            "bait": "BITE.NORMAL_AVERAGE"
         },
         "x12": {
-            "iLvl": "290"
+            "zone": "ZONE.THE_AZIM_STEPPE",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.14",
+            "bait": "BITE.LARGE_FAST"
         },
         "x13": {
-            "iLvl": "290"
+            "zone": "ZONE.THE_AZIM_STEPPE",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.15",
+            "bait": "BITE.NORMAL_AVERAGE"
         },
         "x14": {
-            "iLvl": "275"
+            "zone": "ZONE.THE_AZIM_STEPPE",
+            "fishingHoles": "Unspoiled Teeming Waters",
+            "bait": "BITE.SMALL_FAST"
         },
         "x15": {
-            "iLvl": "290"
+            "zone": "ZONE.THE_AZIM_STEPPE",
+            "fishingHoles": "Unspoiled Teeming Waters",
+            "bait": "BITE.SMALL_VERY_FAST"
         },
         "x16": {
-            "iLvl": "290"
+            "zone": "ZONE.THE_LOCHS",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.0",
+            "bait": "BITE.LARGE_VERY_FAST"
         },
         "x17": {
-            "iLvl": "290"
+            "zone": "ZONE.THE_LOCHS",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.1",
+            "bait": "BITE.NORMAL_SLOW"
         },
         "x18": {
-            "iLvl": "290"
+            "zone": "ZONE.THE_LOCHS",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.2",
+            "bait": "BITE.SMALL_FAST"
         },
         "x19": {
-            "iLvl": "275"
+            "zone": "ZONE.THE_LOCHS",
+            "fishingHoles": "Unspoiled Teeming Waters",
+            "bait": "BITE.LARGE_SLOW"
         },
         "x20": {
-            "iLvl": "290"
+            "zone": "ZONE.THE_LOCHS",
+            "fishingHoles": "Unspoiled Teeming Waters",
+            "bait": "BITE.LARGE_VERY_FAST"
         },
         "x21": {
-            "iLvl": "70"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "Unspoiled Teeming Waters",
+            "bait": "BITE.SMALL_AVERAGE"
         },
         "x22": {
-            "iLvl": "300"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.5",
+            "bait": "BITE.LARGE_VERY_FAST"
         },
         "x23": {
-            "iLvl": "300"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "Unspoiled Teeming Waters",
+            "bait": "BITE.NORMAL_AVERAGE"
         },
         "x24": {
-            "iLvl": "390"
+            "zone": "ZONE.LAKELAND",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.1",
+            "bait": "BITE.SMALL_AVERAGE"
         }
     }
 }

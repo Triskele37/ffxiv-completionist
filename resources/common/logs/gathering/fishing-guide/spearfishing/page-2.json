@@ -1,80 +1,131 @@
 {
     "key": "page-2",
+    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
-            "iLvl": "215"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.9",
+            "bait": "BITE.LARGE_VERY_FAST"
         },
         "x1": {
-            "iLvl": "215"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.10",
+            "bait": "BITE.SMALL_SLOW"
         },
         "x2": {
-            "iLvl": "220"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.0",
+            "bait": "BITE.LARGE_VERY_FAST"
         },
         "x3": {
-            "iLvl": "220"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.1",
+            "bait": "BITE.LARGE_VERY_FAST"
         },
         "x4": {
-            "iLvl": "220"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.2",
+            "bait": "BITE.LARGE_VERY_FAST"
         },
         "x5": {
-            "iLvl": "220"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.3",
+            "bait": "BITE.SMALL_SLOW"
         },
         "x6": {
-            "iLvl": "220"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.4",
+            "bait": "BITE.SMALL_SLOW"
         },
         "x7": {
-            "iLvl": "220"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.8",
+            "bait": "BITE.SMALL_AVERAGE"
         },
         "x8": {
-            "iLvl": "220"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.9",
+            "bait": "BITE.NORMAL_FAST"
         },
         "x9": {
-            "iLvl": "220"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.10",
+            "bait": "BITE.LARGE_FAST"
         },
         "x10": {
-            "iLvl": "225"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.1",
+            "bait": "BITE.NORMAL_VERY_FAST"
         },
         "x11": {
-            "iLvl": "225"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.2",
+            "bait": "BITE.NORMAL_FAST"
         },
         "x12": {
-            "iLvl": "225"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.3",
+            "bait": "BITE.NORMAL_FAST"
         },
         "x13": {
-            "iLvl": "225"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.4",
+            "bait": "BITE.LARGE_FAST"
         },
         "x14": {
-            "iLvl": "225"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.8",
+            "bait": "BITE.NORMAL_AVERAGE"
         },
         "x15": {
-            "iLvl": "225"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.8",
+            "bait": "BITE.LARGE_AVERAGE"
         },
         "x16": {
-            "iLvl": "225"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.10",
+            "bait": "BITE.NORMAL_FAST"
         },
         "x17": {
-            "iLvl": "230"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.5",
+            "bait": "BITE.NORMAL_AVERAGE"
         },
         "x18": {
-            "iLvl": "230"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.11",
+            "bait": "BITE.SMALL_FAST"
         },
         "x19": {
-            "iLvl": "230"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.11",
+            "bait": "BITE.NORMAL_AVERAGE"
         },
         "x20": {
-            "iLvl": "230"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.12",
+            "bait": "BITE.SMALL_SLOW"
         },
         "x21": {
-            "iLvl": "230"
+            "zone": "ZONE.YANXIA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.12",
+            "bait": "BITE.LARGE_SLOW"
         },
         "x22": {
-            "iLvl": "230"
+            "zone": "ZONE.THE_AZIM_STEPPE",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.14",
+            "bait": "BITE.SMALL_SLOW"
         },
         "x23": {
-            "iLvl": "230"
+            "zone": "ZONE.THE_AZIM_STEPPE",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.14",
+            "bait": "BITE.LARGE_AVERAGE"
         },
         "x24": {
-            "iLvl": "230"
+            "zone": "ZONE.THE_AZIM_STEPPE",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.15",
+            "bait": "BITE.NORMAL_FAST"
         }
     }
 }

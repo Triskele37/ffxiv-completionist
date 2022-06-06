@@ -20,7 +20,7 @@ export class SearchComponent implements OnInit, OnDestroy {
     willCollapseAll: boolean = false;
     expandedRows: ExpandedRows = {};
     rowKeys: string[];
-    showKey: boolean = APP_CONFIG.showKeys;
+    showKey: boolean = !APP_CONFIG.production;
 
     constructor(
         public svcSearch: SearchService

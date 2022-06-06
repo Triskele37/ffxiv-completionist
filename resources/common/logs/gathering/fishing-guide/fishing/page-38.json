@@ -1,80 +1,131 @@
 {
     "key": "page-38",
+    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
-            "iLvl": "460"
+            "zone": "ZONE.AZYS_LLA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.5",
+            "bait": "BAIT.SIGNATURE_SKYBALL"
         },
         "x1": {
-            "iLvl": "490"
+            "zone": "ZONE.LAKELAND",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.5",
+            "bait": "BAIT.BAITBUGS"
         },
         "x2": {
-            "iLvl": "490"
+            "zone": "ZONE.KHOLUSIA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.10",
+            "bait": "BAIT.MARBLE_NYMPH"
         },
         "x3": {
-            "iLvl": "490"
+            "zone": "ZONE.KHOLUSIA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.15",
+            "bait": "logs.gathering.fishing-guide.fishing.page-30.6"
         },
         "x4": {
-            "iLvl": "490"
+            "zone": "ZONE.IL_MHEG",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.21",
+            "bait": "BAIT.MARBLE_NYMPH"
         },
         "x5": {
-            "iLvl": "490"
+            "zone": "ZONE.RAK_TIKA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.27",
+            "bait": "logs.gathering.fishing-guide.fishing.page-31.23"
         },
         "x6": {
-            "iLvl": "490"
+            "zone": "ZONE.THE_TEMPEST",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.33",
+            "bait": "BAIT.SQUID_STRIP"
         },
         "x7": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_CIELDALAES",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.8",
+            "bait": "BAIT.KRILL"
         },
         "x8": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_CIELDALAES",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.8",
+            "bait": "BAIT.KRILL"
         },
         "x9": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_CIELDALAES",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.8",
+            "bait": "BAIT.RAGWORM"
         },
         "x10": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_BLOODBRINE_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.10",
+            "bait": "BAIT.RAGWORM"
         },
         "x11": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_BLOODBRINE_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.10",
+            "bait": "BAIT.RAGWORM"
         },
         "x12": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_BLOODBRINE_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.10",
+            "bait": "BAIT.RAGWORM"
         },
         "x13": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_ROTHLYT_SOUND",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.12",
+            "bait": "BAIT.PLUMP_WORM"
         },
         "x14": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_ROTHLYT_SOUND",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.12",
+            "bait": "BAIT.PLUMP_WORM"
         },
         "x15": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_ROTHLYT_SOUND",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.12",
+            "bait": "BAIT.KRILL"
         },
         "x16": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_CIELDALAES",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.8",
+            "bait": "BAIT.RAGWORM"
         },
         "x17": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_CIELDALAES",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.8",
+            "bait": "BAIT.KRILL"
         },
         "x18": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_CIELDALAES",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.8",
+            "bait": "BAIT.RAGWORM"
         },
         "x19": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_BLOODBRINE_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.10",
+            "bait": "BAIT.RAGWORM"
         },
         "x20": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_BLOODBRINE_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.10",
+            "bait": "BAIT.RAGWORM"
         },
         "x21": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_BLOODBRINE_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.10",
+            "bait": "BAIT.KRILL"
         },
         "x22": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_ROTHLYT_SOUND",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.12",
+            "bait": "BAIT.RAGWORM"
         },
         "x23": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_ROTHLYT_SOUND",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.12",
+            "bait": "BAIT.KRILL"
         },
         "x24": {
-            "iLvl": "1"
+            "zone": "ZONE.THE_ROTHLYT_SOUND",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.12",
+            "bait": "BAIT.PLUMP_WORM"
         }
     }
 }

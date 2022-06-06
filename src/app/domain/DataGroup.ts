@@ -4,14 +4,12 @@ import { debounceTime } from 'rxjs/operators';
 import { APP_CONFIG } from '../../environments/environment';
 import { Completion, CompletionFlag, Lang } from '@constant';
 import { loadJson } from '@data/loader';
-import { ElectronService } from '@service/electron/electron.service';
 
 import { GroupDefinition } from './Definition';
 import { Column } from './Column';
 import { Task } from './Task';
 
 export class DataGroup {
-    static svcElectron: ElectronService;
     static overall: DataGroup;
     static lang: Lang;
 
@@ -87,7 +85,7 @@ export class DataGroup {
     }
 
     static fromJSON(parent: DataGroup, path: string): DataGroup {
-        const json = loadJson(DataGroup.svcElectron, path, DataGroup.lang);
+        const json = loadJson(path);
         return new DataGroup(json, parent);
     }
 

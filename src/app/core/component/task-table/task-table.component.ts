@@ -20,7 +20,6 @@ import { SaveStoreService } from '@service/store/save-store.service';
 import { getLinkedName } from '@util/getLinkedName';
 
 import { DragEvent, UniqueValues } from './types';
-import { A } from '@angular/cdk/keycodes';
 
 @Component({
     selector: 'xiv-task-table',
@@ -161,8 +160,10 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
 
             // Grab unique values
             this.filteredTasks.forEach((task) => {
-                const value = task[key] ?? '';
-                if(!unique[key].includes(value)) unique[key].push(value);
+                [].concat(task[key]).forEach((v) => {
+                    const value = getLinkedName(v, column.link).toString() ?? '';
+                    if(!unique[key].includes(value)) unique[key].push(value);
+                });
             });
 
             // Sort

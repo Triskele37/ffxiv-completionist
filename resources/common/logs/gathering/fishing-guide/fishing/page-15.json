@@ -1,80 +1,131 @@
 {
     "key": "page-15",
+    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
-            "iLvl": "136"
+            "zone": "ZONE.COERTHAS_WESTERN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.16",
+            "bait": "logs.gathering.fishing-guide.fishing.page-13.1"
         },
         "x1": {
-            "iLvl": "136"
+            "zone": "ZONE.COERTHAS_WESTERN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.10",
+            "bait": "logs.gathering.fishing-guide.fishing.page-13.9"
         },
         "x2": {
-            "iLvl": "139"
+            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.2",
+            "bait": "BAIT.PURSE_WEB_SPIDER"
         },
         "x3": {
-            "iLvl": "139"
+            "zone": "ZONE.THE_CHURNING_MISTS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.12",
+            "bait": "BAIT.PURSE_WEB_SPIDER"
         },
         "x4": {
-            "iLvl": "136"
+            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.0",
+            "bait": "BAIT.STONEFLY_NYMPH"
         },
         "x5": {
-            "iLvl": "139"
+            "zone": "ZONE.THE_CHURNING_MISTS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.16",
+            "bait": "BAIT.RED_BALLOON"
         },
         "x6": {
-            "iLvl": "139"
+            "zone": "ZONE.THE_CHURNING_MISTS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.15",
+            "bait": "BAIT.RED_BALLOON"
         },
         "x7": {
-            "iLvl": "139"
+            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.4",
+            "bait": "BAIT.MAGMA_WORM"
         },
         "x8": {
-            "iLvl": "139"
+            "zone": "ZONE.AZYS_LLA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.5",
+            "bait": "BAIT.FIEND_WORM"
         },
         "x9": {
-            "iLvl": "150"
+            "zone": "ZONE.AZYS_LLA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.9",
+            "bait": "BAIT.PURSE_WEB_SPIDER"
         },
         "x10": {
-            "iLvl": "139"
+            "zone": "ZONE.AZYS_LLA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.5",
+            "bait": "logs.gathering.fishing-guide.fishing.page-15.11"
         },
         "x11": {
-            "iLvl": "139"
+            "zone": "ZONE.AZYS_LLA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.5",
+            "bait": "BAIT.FIEND_WORM"
         },
         "x12": {
-            "iLvl": "139"
+            "zone": "ZONE.AZYS_LLA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.8",
+            "bait": "BAIT.PURSE_WEB_SPIDER"
         },
         "x13": {
-            "iLvl": "139"
+            "zone": "ZONE.AZYS_LLA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.11",
+            "bait": "BAIT.FIEND_WORM"
         },
         "x14": {
-            "iLvl": "145"
+            "zone": "ZONE.AZYS_LLA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.9",
+            "bait": "BAIT.BRUTE_LEECH"
         },
         "x15": {
-            "iLvl": "136"
+            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.8",
+            "bait": "BAIT.GOBLIN_JIG"
         },
         "x16": {
-            "iLvl": "142"
+            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.9",
+            "bait": "BAIT.PURSE_WEB_SPIDER"
         },
         "x17": {
-            "iLvl": "142"
+            "zone": "ZONE.THE_CHURNING_MISTS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.14",
+            "bait": "BAIT.GOBLIN_JIG"
         },
         "x18": {
-            "iLvl": "142"
+            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.8",
+            "bait": "BAIT.PURSE_WEB_SPIDER"
         },
         "x19": {
-            "iLvl": "139"
+            "zone": "ZONE.THE_CHURNING_MISTS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.17",
+            "bait": "BAIT.RED_BALLOON"
         },
         "x20": {
-            "iLvl": "142"
+            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.3",
+            "bait": "logs.gathering.fishing-guide.fishing.page-14.13"
         },
         "x21": {
-            "iLvl": "142"
+            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.6",
+            "bait": "logs.gathering.fishing-guide.fishing.page-14.14"
         },
         "x22": {
-            "iLvl": "142"
+            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.4",
+            "bait": "logs.gathering.fishing-guide.fishing.page-14.14"
         },
         "x23": {
-            "iLvl": "142"
+            "zone": "ZONE.AZYS_LLA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.6",
+            "bait": "logs.gathering.fishing-guide.fishing.page-15.11"
         },
         "x24": {
-            "iLvl": "142"
+            "zone": "ZONE.THE_CHURNING_MISTS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.17",
+            "bait": "BAIT.RED_BALLOON"
         }
     }
 }

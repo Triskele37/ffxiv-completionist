@@ -1,80 +1,131 @@
 {
     "key": "page-12",
+    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
-            "iLvl": "80"
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.21",
+            "bait": "BAIT.NORTHERN_KRILL"
         },
         "x1": {
-            "iLvl": "80"
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.35",
+            "bait": "logs.gathering.fishing-guide.fishing.page-4.7"
         },
         "x2": {
-            "iLvl": "80"
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.35",
+            "bait": "logs.gathering.fishing-guide.fishing.page-4.7"
         },
         "x3": {
-            "iLvl": "80"
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.36",
+            "bait": "logs.gathering.fishing-guide.fishing.page-5.15"
         },
         "x4": {
-            "iLvl": "80"
+            "zone": "ZONE.MOR_DHONA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.mor-dhona.1",
+            "bait": "BAIT.GLOWWORM"
         },
         "x5": {
-            "iLvl": "80"
+            "zone": "ZONE.MOR_DHONA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.mor-dhona.3",
+            "bait": "BAIT.GLOWWORM"
         },
         "x6": {
-            "iLvl": "80"
+            "zone": "ZONE.NORTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.24",
+            "bait": "BAIT.RAINBOW_SPOON_LURE"
         },
         "x7": {
-            "iLvl": "80"
+            "zone": "ZONE.MOR_DHONA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.mor-dhona.4",
+            "bait": "logs.gathering.fishing-guide.fishing.page-6.4"
         },
         "x8": {
-            "iLvl": "80"
+            "zone": "ZONE.MOR_DHONA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.mor-dhona.5",
+            "bait": "logs.gathering.fishing-guide.fishing.page-6.20"
         },
         "x9": {
-            "iLvl": "80"
+            "zone": "ZONE.MOR_DHONA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.mor-dhona.5",
+            "bait": "logs.gathering.fishing-guide.fishing.page-6.4"
         },
         "x10": {
-            "iLvl": "80"
+            "zone": "ZONE.WESTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.5",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.3"
         },
         "x11": {
-            "iLvl": "80"
+            "zone": "ZONE.WESTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.6",
+            "bait": "logs.gathering.fishing-guide.fishing.page-4.14"
         },
         "x12": {
-            "iLvl": "80"
+            "zone": "ZONE.WESTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.7",
+            "bait": "logs.gathering.fishing-guide.fishing.page-4.14"
         },
         "x13": {
-            "iLvl": "80"
+            "zone": "ZONE.NORTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.22",
+            "bait": "logs.gathering.fishing-guide.fishing.page-4.14"
         },
         "x14": {
-            "iLvl": "80"
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.19",
+            "bait": "logs.gathering.fishing-guide.fishing.page-5.1"
         },
         "x15": {
-            "iLvl": "80"
+            "zone": "ZONE.COERTHAS_CENTRAL",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.5",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.23"
         },
         "x16": {
-            "iLvl": "80"
+            "zone": "ZONE.COERTHAS_CENTRAL",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.6",
+            "bait": "BAIT.CADDISFLY_LARVA"
         },
         "x17": {
-            "iLvl": "80"
+            "zone": "ZONE.COERTHAS_CENTRAL",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.8",
+            "bait": "logs.gathering.fishing-guide.fishing.page-6.8"
         },
         "x18": {
-            "iLvl": "80"
+            "zone": "ZONE.COERTHAS_CENTRAL",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.8",
+            "bait": "logs.gathering.fishing-guide.fishing.page-12.17"
         },
         "x19": {
-            "iLvl": "80"
+            "zone": "ZONE.EAST_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.13",
+            "bait": "logs.gathering.fishing-guide.fishing.page-5.18"
         },
         "x20": {
-            "iLvl": "80"
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.20",
+            "bait": "BAIT.GLOWWORM"
         },
         "x21": {
-            "iLvl": "80"
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.20",
+            "bait": "BAIT.TOPWATER_FROG"
         },
         "x22": {
-            "iLvl": "80"
+            "zone": "ZONE.MOR_DHONA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.mor-dhona.2",
+            "bait": "logs.gathering.fishing-guide.fishing.page-4.14"
         },
         "x23": {
-            "iLvl": "80"
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.17",
+            "bait": "BAIT.HEAVY_STEEL_JIG"
         },
         "x24": {
-            "iLvl": "120"
+            "zone": "ZONE.COERTHAS_WESTERN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.11",
+            "bait": "BAIT.STONEFLY_NYMPH"
         }
     }
 }

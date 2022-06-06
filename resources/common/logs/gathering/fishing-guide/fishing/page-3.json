@@ -1,80 +1,131 @@
 {
     "key": "page-3",
+    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
-            "iLvl": "23"
+            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.37",
+            "bait": "BAIT.CROW_FLY"
         },
         "x1": {
-            "iLvl": "24"
+            "zone": "ZONE.MIDDLE_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.7",
+            "bait": "BAIT.BUTTERWORM"
         },
         "x2": {
-            "iLvl": "24"
+            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.38",
+            "bait": "BAIT.BUTTERWORM"
         },
         "x3": {
-            "iLvl": "24"
+            "zone": "ZONE.WESTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.3",
+            "bait": "BAIT.FLOATING_MINNOW"
         },
         "x4": {
-            "iLvl": "25"
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.14",
+            "bait": "BAIT.BASS_BALL"
         },
         "x5": {
-            "iLvl": "25"
+            "zone": "ZONE.CENTRAL_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.9",
+            "bait": "BAIT.CROW_FLY"
         },
         "x6": {
-            "iLvl": "25"
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.17",
+            "bait": "BAIT.SHRIMP_CAGE_FEEDER"
         },
         "x7": {
-            "iLvl": "25"
+            "zone": "ZONE.MIDDLE_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.5",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.14"
         },
         "x8": {
-            "iLvl": "26"
+            "zone": "ZONE.CENTRAL_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.9",
+            "bait": "BAIT.BASS_BALL"
         },
         "x9": {
-            "iLvl": "26"
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.18",
+            "bait": "BAIT.BASS_BALL"
         },
         "x10": {
-            "iLvl": "26"
+            "zone": "ZONE.WESTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.3",
+            "bait": "BAIT.HEAVY_STEEL_JIG"
         },
         "x11": {
-            "iLvl": "26"
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.15",
+            "bait": "BAIT.KRILL_CAGE_FEEDER"
         },
         "x12": {
-            "iLvl": "27"
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.15",
+            "bait": "BAIT.BASS_BALL"
         },
         "x13": {
-            "iLvl": "27"
+            "zone": "ZONE.NORTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.22",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.5"
         },
         "x14": {
-            "iLvl": "27"
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.17",
+            "bait": "BAIT.STEEL_JIG"
         },
         "x15": {
-            "iLvl": "28"
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.18",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.5"
         },
         "x16": {
-            "iLvl": "28"
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.15",
+            "bait": "BAIT.SHRIMP_CAGE_FEEDER"
         },
         "x17": {
-            "iLvl": "29"
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.16",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.15"
         },
         "x18": {
-            "iLvl": "29"
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.16",
+            "bait": "BAIT.BASS_BALL"
         },
         "x19": {
-            "iLvl": "29"
+            "zone": "ZONE.WESTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.4",
+            "bait": "BAIT.STEEL_JIG"
         },
         "x20": {
-            "iLvl": "28"
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.15",
+            "bait": "BAIT.BASS_BALL"
         },
         "x21": {
-            "iLvl": "30"
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.19",
+            "bait": "BAIT.SPOON_WORM"
         },
         "x22": {
-            "iLvl": "30"
+            "zone": "ZONE.EAST_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.12",
+            "bait": "BAIT.BASS_BALL"
         },
         "x23": {
-            "iLvl": "31"
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.16",
+            "bait": "BAIT.SPINNERBAIT"
         },
         "x24": {
-            "iLvl": "31"
+            "zone": "ZONE.WESTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.4",
+            "bait": "BAIT.KRILL_CAGE_FEEDER"
         }
     }
 }
