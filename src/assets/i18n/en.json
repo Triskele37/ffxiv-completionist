@@ -365,15 +365,7 @@
             "CLASSES": {
                 "LABEL": "Starting Class",
                 "TOOLTIP": "Changing this value excludes innaccessible content\nResets completion of any content chained to ARR starting quests",
-                "PLACEHOLDER": "Select Class",
-                "ACN": "Arcanist",
-                "ARC": "Archer",
-                "CNJ": "Conjurer",
-                "GLA": "Gladiator",
-                "LNC": "Lancer",
-                "MRD": "Marauder",
-                "PUG": "Pugilist",
-                "THM": "Thaumaturge"
+                "PLACEHOLDER": "Select Class"
             },
             "SAVE": {
                 "LOCATION": "Save File Location",
@@ -532,6 +524,37 @@
         "WEIGHT": "Weight"
     },
     "DATA": {
+        "CLASS_JOB": {
+            "GLA": "Gladiator",
+            "PLD": "Paladin",
+            "MRD": "Marauder",
+            "WAR": "Warrior",
+            "DRK": "Dark Knight",
+            "GNB": "Gunbreaker",
+            "CNJ": "Conjurer",
+            "WHM": "White Mage",
+            "ACN": "Arcanist",
+            "SCH": "Scholar",
+            "AST": "Astrologian",
+            "SGE": "Sage",
+            "PGL": "Pugilist",
+            "MNK": "Monk",
+            "LNC": "Lancer",
+            "DRG": "Dragoon",
+            "ROG": "Rogue",
+            "NIN": "Ninja",
+            "SAM": "Samurai",
+            "RPR": "Reaper",
+            "ARC": "Archer",
+            "BRD": "Archer",
+            "MCH": "Machinist",
+            "DNC": "Dancer",
+            "THM": "Thaumaturge",
+            "BLM": "Black Mage",
+            "SMN": "Summoner",
+            "RDM": "Red Mage",
+            "BLU": "Blue Mage"
+        },
         "ZONE": {
             "LA_NOSCEA": "La Noscea",
             "LIMSA_LOMINSA_LOWER_DECKS": "Limsa Lominsa Lower Decks",

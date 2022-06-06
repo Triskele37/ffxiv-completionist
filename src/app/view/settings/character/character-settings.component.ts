@@ -39,7 +39,7 @@ export class CharacterSettingsComponent implements OnInit {
             { short: Lang.FR, long: this.translate.instant(`${LANGUAGES}.FRENCH`) },
         ];
 
-        const CLASSES = 'MAIN.SETTING.CLASSES';
+        const CLASSES = 'DATA.CLASS_JOB';
         this.startingClasses = [
             { short: 'Arcanist', long: this.translate.instant(`${CLASSES}.ACN`) },
             { short: 'Archer', long: this.translate.instant(`${CLASSES}.ARC`) },

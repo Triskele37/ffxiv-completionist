@@ -41,7 +41,7 @@ export class DataService {
         const character = DataGroup.fromDefinition(this.data, CHARACTER_DEFINITION);
         this.data.subGroups.set(character._key, character);
 
-        const duty = DataGroup.fromDefinition(this.data, DUTY_DEFINITION);
+        const duty = DataGroup.fromDefinition(this.data, DUTY_DEFINITION(this.translate));
         this.data.subGroups.set(duty._key, duty);
 
         const logs = DataGroup.fromDefinition(this.data, LOGS_DEFINITION);

@@ -365,15 +365,7 @@
             "CLASSES": {
                 "LABEL": "Classe de départ",
                 "TOOLTIP": "Changer cette valeur exclura tout contenu innaccessible\n Réinitialise la complétion de tout contenu enchaînée au quête de début de A Realm Reborn",
-                "PLACEHOLDER": "Sélectionner une classe",
-                "ACN": "Arcaniste",
-                "ARC": "Archer",
-                "CNJ": "Élémentaliste",
-                "GLA": "Gladiateur",
-                "LNC": "Maître d'hast",
-                "MRD": "Maraudeur",
-                "PUG": "Pugiliste",
-                "THM": "Occultiste"
+                "PLACEHOLDER": "Sélectionner une classe"
             },
             "SAVE": {
                 "LOCATION": "Lieu du fichier de sauvegarde",
@@ -532,6 +524,37 @@
         "WEIGHT": "Poids"
     },
     "DATA": {
+        "CLASS_JOB": {
+            "GLA": "Gladiateur",
+            "PLD": "Paladin",
+            "MRD": "Maraudeur",
+            "WAR": "Warrior",
+            "DRK": "Dark Knight",
+            "GNB": "Gunbreaker",
+            "CNJ": "Élémentaliste",
+            "WHM": "White Mage",
+            "ACN": "Arcaniste",
+            "SCH": "Scholar",
+            "AST": "Astrologian",
+            "SGE": "Sage",
+            "PGL": "Pugiliste",
+            "MNK": "Monk",
+            "LNC": "Maître d'hast",
+            "DRG": "Dragoon",
+            "ROG": "Rogue",
+            "NIN": "Ninja",
+            "SAM": "Samurai",
+            "RPR": "Reaper",
+            "ARC": "Archer",
+            "BRD": "Archer",
+            "MCH": "Machinist",
+            "DNC": "Dancer",
+            "THM": "Occultiste",
+            "BLM": "Black Mage",
+            "SMN": "Summoner",
+            "RDM": "Red Mage",
+            "BLU": "Blue Mage"
+        },
         "ZONE": {
             "LA_NOSCEA": "Noscea",
             "LIMSA_LOMINSA_LOWER_DECKS": "Limsa Lominsa - L'Entrepont",

@@ -1,6 +1,7 @@
 import { DataGroup } from '@domain/DataGroup';
+import { TranslateService } from '@ngx-translate/core';
 
-export const Duty_Guildhests = function(parent: DataGroup, path: string) {
+export const Duty_Guildhests = (translate: TranslateService) => (parent: DataGroup, path: string) => {
     const group = DataGroup.fromJSON(parent, `${path}/index`);
     group.subGroups = new Map();
 
@@ -15,20 +16,20 @@ export const Duty_Guildhests = function(parent: DataGroup, path: string) {
         }
     };
 
-    addGuildhestClone('Arcanist');
-    addGuildhestClone('Archer');
-    addGuildhestClone('Astrologian');
-    addGuildhestClone('Conjurer');
-    addGuildhestClone('Dark Knight');
-    addGuildhestClone('Gladiator');
-    addGuildhestClone('Lancer');
-    addGuildhestClone('Machinist');
-    addGuildhestClone('Marauder');
-    addGuildhestClone('Pugilist');
-    addGuildhestClone('Red Mage');
-    addGuildhestClone('Rogue');
-    addGuildhestClone('Samurai');
-    addGuildhestClone('Thaumaturge');
+    addGuildhestClone(translate.instant('DATA.CLASS_JOB.ACN'));
+    addGuildhestClone(translate.instant('DATA.CLASS_JOB.ARC'));
+    addGuildhestClone(translate.instant('DATA.CLASS_JOB.AST'));
+    addGuildhestClone(translate.instant('DATA.CLASS_JOB.CNJ'));
+    addGuildhestClone(translate.instant('DATA.CLASS_JOB.DRK'));
+    addGuildhestClone(translate.instant('DATA.CLASS_JOB.GLA'));
+    addGuildhestClone(translate.instant('DATA.CLASS_JOB.LNC'));
+    addGuildhestClone(translate.instant('DATA.CLASS_JOB.MCH'));
+    addGuildhestClone(translate.instant('DATA.CLASS_JOB.MRD'));
+    addGuildhestClone(translate.instant('DATA.CLASS_JOB.PGL'));
+    addGuildhestClone(translate.instant('DATA.CLASS_JOB.RDM'));
+    addGuildhestClone(translate.instant('DATA.CLASS_JOB.ROG'));
+    addGuildhestClone(translate.instant('DATA.CLASS_JOB.SAM'));
+    addGuildhestClone(translate.instant('DATA.CLASS_JOB.THM'));
 
     return group;
 };

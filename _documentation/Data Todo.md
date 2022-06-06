@@ -2,16 +2,14 @@
 **Add**
 - missing endwalker savage unlock quasi quest (Recount tales of Asphodelos?)
 - DSR Unlock Quasi
+- Tracker (see Ctrl+U menu)
 
 **Change**
 - Convert DataGroup.tasks to Map<string, Task>
 - flatten Duty/Raid Finder group
+- Move "Crystarium" & "Studium" into "Shared"
 
 **Fix**
-- Order all groups to in-game order
-  - Achievement
-  - Title
-  - Crafting Log
 - Changing starting class resets completion on tasks outside of the starting city MSQ and content directly related to them
 - Dis/re-enabling chaining clears completion, similar to ^?
 - Move Forged Anew resistance sidequest into quasi-quests

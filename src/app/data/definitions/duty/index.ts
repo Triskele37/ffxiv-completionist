@@ -1,9 +1,11 @@
 import { GroupDefinition } from '@domain/Definition';
+import { TranslateService } from '@ngx-translate/core';
 
 import { QUEST_DEFINITION } from './quest';
 import { Duty_Guildhests } from './guildhests';
 
-export const DUTY_DEFINITION: GroupDefinition = {
+type DefinitionCallback = (translate: TranslateService) => GroupDefinition;
+export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService) => ({
     path: 'duty',
     subGroups: [
         {
@@ -57,7 +59,7 @@ export const DUTY_DEFINITION: GroupDefinition = {
                 },
                 {
                     path: 'guildhests',
-                    subGroups: Duty_Guildhests
+                    subGroups: Duty_Guildhests(translate)
                 },
                 'deep-dungeon',
                 {
@@ -240,4 +242,4 @@ export const DUTY_DEFINITION: GroupDefinition = {
             ]
         }
     ]
-};
+});
