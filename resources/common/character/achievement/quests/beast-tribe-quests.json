@@ -699,6 +699,36 @@
                 "character.character.beast-tribe-reputation.78",
                 "character.character.title.526"
             ]
+        },
+        "x3055": {
+            "points": 5,
+            "patch": "6.15",
+            "cNext": [3056],
+            "cSiblings": ["character.character.beast-tribe-reputation.92"]
+        },
+        "x3056": {
+            "points": 5,
+            "patch": "6.15",
+            "cPrev": [3055],
+            "cNext": [3057],
+            "cSiblings": ["character.character.beast-tribe-reputation.93"]
+        },
+        "x3057": {
+            "points": 10,
+            "patch": "6.15",
+            "cPrev": [3056],
+            "cNext": [3058],
+            "cSiblings": ["character.character.beast-tribe-reputation.95"]
+        },
+        "x3058": {
+            "points": 20,
+            "reward": "character.character.title.645",
+            "patch": "6.15",
+            "cPrev": [3057],
+            "cSiblings": [
+                "character.character.beast-tribe-reputation.96",
+                "character.character.title.645"
+            ]
         }
     }
 }

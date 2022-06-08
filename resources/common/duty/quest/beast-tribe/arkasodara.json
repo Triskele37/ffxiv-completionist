@@ -1,0 +1,173 @@
+{
+    "key": "arkasodara",
+    "common": ["reputation"],
+    "tasks": {
+        "x70081": {
+            "patch": "6.15",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.70000",
+                "duty.quests.sidequests.thavnairian.thavnair.70033"
+            ],
+            "cNext": [70082],
+            "cSiblings": [
+                "character.character.beast-tribe-reputation.92"
+            ]
+        },
+        "x70082": {
+            "reputation": "REPUTATION.3",
+            "patch": "6.15",
+            "cPrev": [70081],
+            "CNext": [70083],
+            "cSiblings": [
+                "character.character.beast-tribe-reputation.93"
+            ]
+        },
+        "x70083": {
+            "reputation": "REPUTATION.4",
+            "patch": "6.15",
+            "cPrev": [70082],
+            "CNext": [70084],
+            "cSiblings": [
+                "character.character.beast-tribe-reputation.94"
+            ]
+        },
+        "x70084": {
+            "reputation": "REPUTATION.5",
+            "patch": "6.15",
+            "cPrev": [70083],
+            "CNext": [70085],
+            "cSiblings": [
+                "character.character.beast-tribe-reputation.95"
+            ]
+        },
+        "x70085": {
+            "reputation": "REPUTATION.6",
+            "patch": "6.15",
+            "cPrev": [70084],
+            "CNext": [70086],
+            "cSiblings": [
+                "character.character.beast-tribe-reputation.96"
+            ]
+        },
+        "x70086": {
+            "reputation": "REPUTATION.7",
+            "patch": "6.15",
+            "cPrev": [70085],
+            "cSiblings": [
+                "character.character.beast-tribe-reputation.97"
+            ]
+        },
+        "x70087": {
+            "reputation": "REPUTATION.3",
+            "patch": "6.15"
+        },
+        "x70088": {
+            "reputation": "REPUTATION.3",
+            "patch": "6.15"
+        },
+        "x70089": {
+            "reputation": "REPUTATION.3",
+            "patch": "6.15"
+        },
+        "x70090": {
+            "reputation": "REPUTATION.3",
+            "patch": "6.15"
+        },
+        "x70091": {
+            "reputation": "REPUTATION.3",
+            "patch": "6.15"
+        },
+        "x70092": {
+            "reputation": "REPUTATION.3",
+            "patch": "6.15"
+        },
+        "x70093": {
+            "reputation": "REPUTATION.3",
+            "patch": "6.15"
+        },
+        "x70094": {
+            "reputation": "REPUTATION.4",
+            "patch": "6.15"
+        },
+        "x70095": {
+            "reputation": "REPUTATION.4",
+            "patch": "6.15"
+        },
+        "x70096": {
+            "reputation": "REPUTATION.4",
+            "patch": "6.15"
+        },
+        "x70097": {
+            "reputation": "REPUTATION.4",
+            "patch": "6.15"
+        },
+        "x70098": {
+            "reputation": "REPUTATION.4",
+            "patch": "6.15"
+        },
+        "x70099": {
+            "reputation": "REPUTATION.4",
+            "patch": "6.15"
+        },
+        "x70100": {
+            "reputation": "REPUTATION.4",
+            "patch": "6.15"
+        },
+        "x70101": {
+            "reputation": "REPUTATION.5",
+            "patch": "6.15"
+        },
+        "x70102": {
+            "reputation": "REPUTATION.5",
+            "patch": "6.15"
+        },
+        "x70103": {
+            "reputation": "REPUTATION.5",
+            "patch": "6.15"
+        },
+        "x70104": {
+            "reputation": "REPUTATION.5",
+            "patch": "6.15"
+        },
+        "x70105": {
+            "reputation": "REPUTATION.5",
+            "patch": "6.15"
+        },
+        "x70106": {
+            "reputation": "REPUTATION.5",
+            "patch": "6.15"
+        },
+        "x70107": {
+            "reputation": "REPUTATION.5",
+            "patch": "6.15"
+        },
+        "x70108": {
+            "reputation": "REPUTATION.6",
+            "patch": "6.15"
+        },
+        "x70109": {
+            "reputation": "REPUTATION.6",
+            "patch": "6.15"
+        },
+        "x70110": {
+            "reputation": "REPUTATION.6",
+            "patch": "6.15"
+        },
+        "x70111": {
+            "reputation": "REPUTATION.6",
+            "patch": "6.15"
+        },
+        "x70112": {
+            "reputation": "REPUTATION.6",
+            "patch": "6.15"
+        },
+        "x70113": {
+            "reputation": "REPUTATION.6",
+            "patch": "6.15"
+        },
+        "x70114": {
+            "reputation": "REPUTATION.6",
+            "patch": "6.15"
+        }
+    }
+}

@@ -1,7 +1,8 @@
 ------------------------------------------------------------------ Current Release
 **Add**
-- missing endwalker savage unlock quasi quest (Recount tales of Asphodelos?)
+- missing Ghasa unlock quests
 - DSR Unlock Quasi
+- missing endwalker savage unlock quasi quest (Recount tales of Asphodelos?)
 - Tracker (see Ctrl+U menu)
 
 **Change**

@@ -34,7 +34,10 @@ export const QUEST_DEFINITION = {
                 'alexander',
                 'heavensward-primal',
                 'shadow-of-mhach',
-                'omega',
+                {
+                    path: 'omega',
+                    subGroups: ['beyond-the-rift']
+                },
                 'return-to-ivalice',
                 'the-four-lords',
                 'eden',
@@ -53,6 +56,7 @@ export const QUEST_DEFINITION = {
                         'hildibrand',
                         'further-hildibrand-adventures',
                         'even-further-hildibrand-adventures',
+                        'somehow-further-hildibrand-adventures',
                         'scholasticate',
                         'tales-of-the-dragonsong-war',
                         'wandering-minstrel',
@@ -68,6 +72,7 @@ export const QUEST_DEFINITION = {
                         'doman-reconstruction',
                         'tales-from-the-shadows',
                         'void',
+                        'tatarus-grand-endeavor',
                         'ishgardian-restoration-main',
                         'ishgardian-restoration-sidequests',
                     ]
@@ -236,6 +241,7 @@ export const QUEST_DEFINITION = {
                 'pixie',
                 'qitari',
                 'dwarf',
+                'arkasodara',
             ]
         },
         {

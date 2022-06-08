@@ -132,6 +132,29 @@
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69984"
             ]
+        },
+        "x70059": {
+            "level": 80,
+            "patch": "6.15",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.70000",
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67634"
+            ],
+            "cNext": [70060],
+            "cSiblings": [
+                "character.achievement.character.general.3059"
+            ]
+        },
+        "x70060": {
+            "level": 80,
+            "patch": "6.15",
+            "cPrev": [70059],
+            "cNext": [70061]
+        },
+        "x70061": {
+            "level": 80,
+            "patch": "6.15",
+            "cPrev": [70060]
         }
     }
 }

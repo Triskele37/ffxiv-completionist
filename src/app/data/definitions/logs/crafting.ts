@@ -34,6 +34,7 @@ export const CRAFTING_LOG_DEFINITION: GroupDefinition = {
                         'kai-shirr',
                         'ehll-tou',
                         'charlemend',
+                        'ameliance',
                     ]
                 },
                 'dyes'
