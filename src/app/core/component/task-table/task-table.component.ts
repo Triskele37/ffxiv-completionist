@@ -161,7 +161,7 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
             // Grab unique values
             this.filteredTasks.forEach((task) => {
                 [].concat(task[key]).forEach((v) => {
-                    const value = getLinkedName(v, column.link).toString() ?? '';
+                    const value = getLinkedName(v, column.link)?.toString() ?? '';
                     if(!unique[key].includes(value)) unique[key].push(value);
                 });
             });
