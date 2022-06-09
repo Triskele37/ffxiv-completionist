@@ -1,7 +1,9 @@
 {
     "key": "lucis-tools",
+    "common": ["job"],
     "tasks": {
         "x0": {
+            "job": "CLASS_JOB.CRP",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.carpenter.66075",
             "cNext": [
@@ -12,6 +14,7 @@
             ]
         },
         "x1": {
+            "job": "CLASS_JOB.CRP",
             "iLevel": "75",
             "cPrev": [
                 0
@@ -21,6 +24,7 @@
             ]
         },
         "x2": {
+            "job": "CLASS_JOB.CRP",
             "iLevel": "90",
             "cPrev": [
                 1
@@ -30,6 +34,7 @@
             ]
         },
         "x3": {
+            "job": "CLASS_JOB.BSM",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.blacksmith.65838",
             "cNext": [
@@ -40,6 +45,7 @@
             ]
         },
         "x4": {
+            "job": "CLASS_JOB.BSM",
             "iLevel": "75",
             "cPrev": [
                 3
@@ -49,6 +55,7 @@
             ]
         },
         "x5": {
+            "job": "CLASS_JOB.BSM",
             "iLevel": "90",
             "cPrev": [
                 4
@@ -58,6 +65,7 @@
             ]
         },
         "x6": {
+            "job": "CLASS_JOB.ARM",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.armorer.65820",
             "cNext": [
@@ -68,6 +76,7 @@
             ]
         },
         "x7": {
+            "job": "CLASS_JOB.ARM",
             "iLevel": "75",
             "cPrev": [
                 6
@@ -77,6 +86,7 @@
             ]
         },
         "x8": {
+            "job": "CLASS_JOB.ARM",
             "iLevel": "90",
             "cPrev": [
                 7
@@ -86,6 +96,7 @@
             ]
         },
         "x9": {
+            "job": "CLASS_JOB.GSM",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.goldsmith.66194",
             "cNext": [
@@ -96,6 +107,7 @@
             ]
         },
         "x10": {
+            "job": "CLASS_JOB.GSM",
             "iLevel": "75",
             "cPrev": [
                 9
@@ -105,6 +117,7 @@
             ]
         },
         "x11": {
+            "job": "CLASS_JOB.GSM",
             "iLevel": "90",
             "cPrev": [
                 10
@@ -114,6 +127,7 @@
             ]
         },
         "x12": {
+            "job": "CLASS_JOB.LTW",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.leatherworker.65602",
             "cNext": [
@@ -124,6 +138,7 @@
             ]
         },
         "x13": {
+            "job": "CLASS_JOB.LTW",
             "iLevel": "75",
             "cPrev": [
                 12
@@ -133,6 +148,7 @@
             ]
         },
         "x14": {
+            "job": "CLASS_JOB.LTW",
             "iLevel": "90",
             "cPrev": [
                 13
@@ -142,6 +158,7 @@
             ]
         },
         "x15": {
+            "job": "CLASS_JOB.WVR",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.weaver.66190",
             "cNext": [
@@ -152,6 +169,7 @@
             ]
         },
         "x16": {
+            "job": "CLASS_JOB.WVR",
             "iLevel": "75",
             "cPrev": [
                 15
@@ -161,6 +179,7 @@
             ]
         },
         "x17": {
+            "job": "CLASS_JOB.WVR",
             "iLevel": "90",
             "cPrev": [
                 16
@@ -170,6 +189,7 @@
             ]
         },
         "x18": {
+            "job": "CLASS_JOB.ALC",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.alchemist.66186",
             "cNext": [
@@ -180,6 +200,7 @@
             ]
         },
         "x19": {
+            "job": "CLASS_JOB.ALC",
             "iLevel": "75",
             "cPrev": [
                 18
@@ -189,6 +210,7 @@
             ]
         },
         "x20": {
+            "job": "CLASS_JOB.ALC",
             "iLevel": "90",
             "cPrev": [
                 19
@@ -198,6 +220,7 @@
             ]
         },
         "x21": {
+            "job": "CLASS_JOB.CUL",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.culinarian.65806",
             "cNext": [
@@ -208,6 +231,7 @@
             ]
         },
         "x22": {
+            "job": "CLASS_JOB.CUL",
             "iLevel": "75",
             "cPrev": [
                 21
@@ -217,6 +241,7 @@
             ]
         },
         "x23": {
+            "job": "CLASS_JOB.CUL",
             "iLevel": "90",
             "cPrev": [
                 22
@@ -226,6 +251,7 @@
             ]
         },
         "x24": {
+            "job": "CLASS_JOB.MIN",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-land.miner.66182",
             "cNext": [
@@ -236,6 +262,7 @@
             ]
         },
         "x25": {
+            "job": "CLASS_JOB.MIN",
             "iLevel": "75",
             "cPrev": [
                 24
@@ -245,6 +272,7 @@
             ]
         },
         "x26": {
+            "job": "CLASS_JOB.MIN",
             "iLevel": "90",
             "cPrev": [
                 25
@@ -254,6 +282,7 @@
             ]
         },
         "x27": {
+            "job": "CLASS_JOB.BTN",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-land.botanist.65549",
             "cNext": [
@@ -264,6 +293,7 @@
             ]
         },
         "x28": {
+            "job": "CLASS_JOB.BTN",
             "iLevel": "75",
             "cPrev": [
                 27
@@ -273,6 +303,7 @@
             ]
         },
         "x29": {
+            "job": "CLASS_JOB.BTN",
             "iLevel": "90",
             "cPrev": [
                 28
@@ -282,6 +313,7 @@
             ]
         },
         "x30": {
+            "job": "CLASS_JOB.FSH",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-land.fisher.66654",
             "cNext": [
@@ -292,6 +324,7 @@
             ]
         },
         "x31": {
+            "job": "CLASS_JOB.FSH",
             "iLevel": "75",
             "cPrev": [
                 30
@@ -301,6 +334,7 @@
             ]
         },
         "x32": {
+            "job": "CLASS_JOB.FSH",
             "iLevel": "90",
             "cPrev": [
                 31

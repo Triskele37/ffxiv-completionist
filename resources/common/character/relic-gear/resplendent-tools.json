@@ -1,32 +1,41 @@
 {
     "key": "resplendent",
-    "groupName": "Resplendent Tools",
+    "common": ["job"],
     "tasks": {
         "x0": {
+            "job": "CLASS_JOB.CRP",
             "iLevel": "500"
         },
         "x1": {
+            "job": "CLASS_JOB.BSM",
             "iLevel": "500"
         },
         "x2": {
+            "job": "CLASS_JOB.ARM",
             "iLevel": "500"
         },
         "x3": {
+            "job": "CLASS_JOB.GSM",
             "iLevel": "500"
         },
         "x4": {
+            "job": "CLASS_JOB.LTW",
             "iLevel": "500"
         },
         "x5": {
+            "job": "CLASS_JOB.WVR",
             "iLevel": "500"
         },
         "x6": {
+            "job": "CLASS_JOB.ALC",
             "iLevel": "500"
         },
         "x7": {
+            "job": "CLASS_JOB.CUL",
             "iLevel": "500"
         },
         "x8": {
+            "job": "CLASS_JOB.MIN",
             "iLevel": "500",
             "requirements": "character.achievement.crafting--gathering.miner.2830",
             "cSiblings": [
@@ -34,6 +43,7 @@
             ]
         },
         "x9": {
+            "job": "CLASS_JOB.BTN",
             "iLevel": "500",
             "requirements": "character.achievement.crafting--gathering.botanist.2831",
             "cSiblings": [
@@ -41,6 +51,7 @@
             ]
         },
         "x10": {
+            "job": "CLASS_JOB.FSH",
             "iLevel": "500",
             "requirements": "character.achievement.crafting--gathering.fisher.2832",
             "cSiblings": [

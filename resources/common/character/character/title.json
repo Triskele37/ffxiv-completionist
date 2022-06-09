@@ -1,5 +1,6 @@
 {
     "key": "title",
+    "common": ["category"],
     "headers": {
         "achievement": {
             "link": true
@@ -7,6 +8,7 @@
     },
     "tasks": {
         "x1": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.0",
             "achievement": "character.achievement.items.relic-weapons.136",
             "cSiblings": [
@@ -14,6 +16,7 @@
             ]
         },
         "x2": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.0",
             "achievement": "character.achievement.items.relic-weapons.129",
             "cSiblings": [
@@ -21,6 +24,7 @@
             ]
         },
         "x3": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.0",
             "achievement": "character.achievement.items.relic-weapons.130",
             "cSiblings": [
@@ -28,6 +32,7 @@
             ]
         },
         "x4": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.0",
             "achievement": "character.achievement.items.relic-weapons.131",
             "cSiblings": [
@@ -35,6 +40,7 @@
             ]
         },
         "x5": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.0",
             "achievement": "character.achievement.items.relic-weapons.132",
             "cSiblings": [
@@ -42,6 +48,7 @@
             ]
         },
         "x6": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.0",
             "achievement": "character.achievement.items.relic-weapons.133",
             "cSiblings": [
@@ -49,6 +56,7 @@
             ]
         },
         "x7": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.0",
             "achievement": "character.achievement.items.relic-weapons.134",
             "cSiblings": [
@@ -56,6 +64,7 @@
             ]
         },
         "x8": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.0",
             "achievement": "character.achievement.items.relic-weapons.135",
             "cSiblings": [
@@ -63,6 +72,7 @@
             ]
         },
         "x9": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.0",
             "achievement": "character.achievement.battle.battle.6",
             "cSiblings": [
@@ -70,6 +80,7 @@
             ]
         },
         "x10": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.battle.15",
@@ -78,6 +89,7 @@
             ]
         },
         "x11": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.0",
             "achievement": "character.achievement.items.currency.119",
             "cSiblings": [
@@ -85,6 +97,7 @@
             ]
         },
         "x12": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.currency.125",
@@ -93,6 +106,7 @@
             ]
         },
         "x13": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.0",
             "achievement": "character.achievement.character.general.44",
             "cSiblings": [
@@ -100,6 +114,7 @@
             ]
         },
         "x14": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.0",
             "achievement": "character.achievement.character.general.55",
             "cSiblings": [
@@ -107,6 +122,7 @@
             ]
         },
         "x15": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.0",
             "achievement": "character.achievement.character.general.97",
             "cSiblings": [
@@ -114,6 +130,7 @@
             ]
         },
         "x16": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.0",
             "achievement": "character.achievement.character.general.113",
             "cSiblings": [
@@ -121,6 +138,7 @@
             ]
         },
         "x17": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.carpenter.141",
             "cSiblings": [
@@ -128,6 +146,7 @@
             ]
         },
         "x18": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.blacksmith.147",
             "cSiblings": [
@@ -135,6 +154,7 @@
             ]
         },
         "x19": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.armorer.153",
             "cSiblings": [
@@ -142,6 +162,7 @@
             ]
         },
         "x20": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.goldsmith.159",
             "cSiblings": [
@@ -149,6 +170,7 @@
             ]
         },
         "x21": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.leatherworker.165",
             "cSiblings": [
@@ -156,6 +178,7 @@
             ]
         },
         "x22": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.weaver.171",
             "cSiblings": [
@@ -163,6 +186,7 @@
             ]
         },
         "x23": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.alchemist.177",
             "cSiblings": [
@@ -170,6 +194,7 @@
             ]
         },
         "x24": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.culinarian.183",
             "cSiblings": [
@@ -177,6 +202,7 @@
             ]
         },
         "x25": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.miner.190",
             "cSiblings": [
@@ -184,6 +210,7 @@
             ]
         },
         "x26": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.miner.196",
             "cSiblings": [
@@ -191,6 +218,7 @@
             ]
         },
         "x27": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.miner.202",
             "cSiblings": [
@@ -198,6 +226,7 @@
             ]
         },
         "x28": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.gathering.209",
@@ -206,6 +235,7 @@
             ]
         },
         "x29": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.gathering.215",
@@ -214,6 +244,7 @@
             ]
         },
         "x30": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.gathering.221",
@@ -222,6 +253,7 @@
             ]
         },
         "x31": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.botanist.227",
             "cSiblings": [
@@ -229,6 +261,7 @@
             ]
         },
         "x32": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.botanist.233",
             "cSiblings": [
@@ -236,6 +269,7 @@
             ]
         },
         "x33": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.botanist.239",
             "cSiblings": [
@@ -243,6 +277,7 @@
             ]
         },
         "x34": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.gathering.246",
@@ -251,6 +286,7 @@
             ]
         },
         "x35": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.gathering.252",
@@ -259,6 +295,7 @@
             ]
         },
         "x36": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.gathering.258",
@@ -267,6 +304,7 @@
             ]
         },
         "x37": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.fisher.264",
             "cSiblings": [
@@ -274,6 +312,7 @@
             ]
         },
         "x38": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.fisher.270",
             "cSiblings": [
@@ -281,6 +320,7 @@
             ]
         },
         "x39": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.0",
             "achievement": "character.achievement.crafting--gathering.fisher.276",
             "cSiblings": [
@@ -288,6 +328,7 @@
             ]
         },
         "x40": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.gathering.283",
@@ -296,6 +337,7 @@
             ]
         },
         "x41": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.gathering.289",
@@ -304,6 +346,7 @@
             ]
         },
         "x42": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.gathering.295",
@@ -312,6 +355,7 @@
             ]
         },
         "x43": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.0",
             "achievement": "character.achievement.items.materia.300",
             "cSiblings": [
@@ -319,6 +363,7 @@
             ]
         },
         "x44": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.0",
             "achievement": "character.achievement.items.materia.309",
             "cSiblings": [
@@ -326,6 +371,7 @@
             ]
         },
         "x45": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.0",
             "achievement": "character.achievement.quests.quests.314",
             "cSiblings": [
@@ -333,6 +379,7 @@
             ]
         },
         "x46": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.0",
             "achievement": "character.achievement.quests.quests.315",
             "cSiblings": [
@@ -340,6 +387,7 @@
             ]
         },
         "x47": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.0",
             "achievement": "character.achievement.quests.quests.316",
             "cSiblings": [
@@ -347,6 +395,7 @@
             ]
         },
         "x48": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.0",
             "achievement": "character.achievement.quests.quests.317",
             "cSiblings": [
@@ -354,6 +403,7 @@
             ]
         },
         "x49": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.322",
@@ -362,6 +412,7 @@
             ]
         },
         "x50": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.0",
             "achievement": "character.achievement.quests.levequests.328",
             "cSiblings": [
@@ -369,6 +420,7 @@
             ]
         },
         "x51": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.0",
             "achievement": "character.achievement.quests.levequests.335",
             "cSiblings": [
@@ -376,6 +428,7 @@
             ]
         },
         "x52": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.339",
@@ -384,6 +437,7 @@
             ]
         },
         "x53": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.0",
             "achievement": "character.achievement.quests.quests.346",
             "cSiblings": [
@@ -391,6 +445,7 @@
             ]
         },
         "x54": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.356",
@@ -399,6 +454,7 @@
             ]
         },
         "x55": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.364",
@@ -407,6 +463,7 @@
             ]
         },
         "x56": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.372",
@@ -415,6 +472,7 @@
             ]
         },
         "x57": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.373",
@@ -423,6 +481,7 @@
             ]
         },
         "x58": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.382",
@@ -431,6 +490,7 @@
             ]
         },
         "x59": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.390",
@@ -439,6 +499,7 @@
             ]
         },
         "x60": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.398",
@@ -447,6 +508,7 @@
             ]
         },
         "x61": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.399",
@@ -455,6 +517,7 @@
             ]
         },
         "x62": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.401",
@@ -463,6 +526,7 @@
             ]
         },
         "x63": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.403",
@@ -471,6 +535,7 @@
             ]
         },
         "x64": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.405",
@@ -479,6 +544,7 @@
             ]
         },
         "x65": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.406",
@@ -487,6 +553,7 @@
             ]
         },
         "x66": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.0",
             "achievement": "character.achievement.quests.quests.414",
             "cSiblings": [
@@ -494,6 +561,7 @@
             ]
         },
         "x67": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.416",
@@ -502,6 +570,7 @@
             ]
         },
         "x68": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.417",
@@ -510,6 +579,7 @@
             ]
         },
         "x69": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.418",
@@ -518,6 +588,7 @@
             ]
         },
         "x70": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.423",
@@ -526,6 +597,7 @@
             ]
         },
         "x71": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.428",
@@ -534,6 +606,7 @@
             ]
         },
         "x72": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.433",
@@ -542,6 +615,7 @@
             ]
         },
         "x73": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.438",
@@ -550,6 +624,7 @@
             ]
         },
         "x74": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.443",
@@ -558,6 +633,7 @@
             ]
         },
         "x75": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.448",
@@ -566,6 +642,7 @@
             ]
         },
         "x76": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.453",
@@ -574,6 +651,7 @@
             ]
         },
         "x77": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.458",
@@ -582,6 +660,7 @@
             ]
         },
         "x78": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.463",
@@ -590,6 +669,7 @@
             ]
         },
         "x79": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.468",
@@ -598,6 +678,7 @@
             ]
         },
         "x80": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.473",
@@ -606,6 +687,7 @@
             ]
         },
         "x81": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.quests.478",
@@ -614,6 +696,7 @@
             ]
         },
         "x82": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.seasonal-events.486",
@@ -622,6 +705,7 @@
             ]
         },
         "x83": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.seasonal-events.491",
@@ -630,6 +714,7 @@
             ]
         },
         "x84": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.seasonal-events.495",
@@ -638,6 +723,7 @@
             ]
         },
         "x85": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.seasonal-events.496",
@@ -646,6 +732,7 @@
             ]
         },
         "x86": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.seasonal-events.502",
@@ -654,6 +741,7 @@
             ]
         },
         "x87": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.seasonal-events.509",
@@ -662,6 +750,7 @@
             ]
         },
         "x88": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.seasonal-events.510",
@@ -670,6 +759,7 @@
             ]
         },
         "x89": {
+            "category": "CATEGORY.GRAND_COMPANY",
             "patch": "2.0",
             "achievement": "character.achievement.grand-company.maelstrom.532",
             "cSiblings": [
@@ -677,6 +767,7 @@
             ]
         },
         "x90": {
+            "category": "CATEGORY.GRAND_COMPANY",
             "patch": "2.0",
             "achievement": "character.achievement.grand-company.order-of-the-twin-adder.536",
             "cSiblings": [
@@ -684,6 +775,7 @@
             ]
         },
         "x91": {
+            "category": "CATEGORY.GRAND_COMPANY",
             "patch": "2.0",
             "achievement": "character.achievement.grand-company.immortal-flames.540",
             "cSiblings": [
@@ -691,6 +783,7 @@
             ]
         },
         "x92": {
+            "category": "CATEGORY.GRAND_COMPANY",
             "patch": "2.0",
             "achievement": "character.achievement.grand-company.maelstrom.544",
             "cSiblings": [
@@ -698,6 +791,7 @@
             ]
         },
         "x93": {
+            "category": "CATEGORY.GRAND_COMPANY",
             "patch": "2.0",
             "achievement": "character.achievement.grand-company.order-of-the-twin-adder.548",
             "cSiblings": [
@@ -705,6 +799,7 @@
             ]
         },
         "x94": {
+            "category": "CATEGORY.GRAND_COMPANY",
             "patch": "2.0",
             "achievement": "character.achievement.grand-company.immortal-flames.552",
             "cSiblings": [
@@ -712,6 +807,7 @@
             ]
         },
         "x95": {
+            "category": "CATEGORY.GRAND_COMPANY",
             "patch": "2.0",
             "achievement": "character.achievement.grand-company.maelstrom.556",
             "cSiblings": [
@@ -719,6 +815,7 @@
             ]
         },
         "x96": {
+            "category": "CATEGORY.GRAND_COMPANY",
             "patch": "2.0",
             "achievement": "character.achievement.grand-company.order-of-the-twin-adder.560",
             "cSiblings": [
@@ -726,6 +823,7 @@
             ]
         },
         "x97": {
+            "category": "CATEGORY.GRAND_COMPANY",
             "patch": "2.0",
             "achievement": "character.achievement.grand-company.immortal-flames.564",
             "cSiblings": [
@@ -733,6 +831,7 @@
             ]
         },
         "x98": {
+            "category": "CATEGORY.GRAND_COMPANY",
             "patch": "2.0",
             "achievement": "character.achievement.grand-company.maelstrom.568",
             "cSiblings": [
@@ -740,6 +839,7 @@
             ]
         },
         "x99": {
+            "category": "CATEGORY.GRAND_COMPANY",
             "patch": "2.0",
             "achievement": "character.achievement.grand-company.order-of-the-twin-adder.572",
             "cSiblings": [
@@ -747,6 +847,7 @@
             ]
         },
         "x100": {
+            "category": "CATEGORY.GRAND_COMPANY",
             "patch": "2.0",
             "achievement": "character.achievement.grand-company.immortal-flames.576",
             "cSiblings": [
@@ -754,6 +855,7 @@
             ]
         },
         "x101": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.grand-company.580",
@@ -762,6 +864,7 @@
             ]
         },
         "x102": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.grand-company.587",
@@ -770,6 +873,7 @@
             ]
         },
         "x103": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.grand-company.583",
@@ -778,6 +882,7 @@
             ]
         },
         "x104": {
+            "category": "CATEGORY.GRAND_COMPANY",
             "patch": "2.0",
             "achievement": "character.achievement.grand-company.grand-company.591",
             "cSiblings": [
@@ -785,6 +890,7 @@
             ]
         },
         "x105": {
+            "category": "CATEGORY.LEGACY",
             "patch": "2.0",
             "defaultCompletion": "X",
             "achievement": "character.achievement.legacy.exploration.526",
@@ -793,6 +899,7 @@
             ]
         },
         "x106": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.0",
             "achievement": "character.achievement.items.relic-weapons.597",
             "cSiblings": [
@@ -800,6 +907,7 @@
             ]
         },
         "x107": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.0",
             "achievement": "character.achievement.items.relic-weapons.598",
             "cSiblings": [
@@ -807,6 +915,7 @@
             ]
         },
         "x108": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.0",
             "achievement": "character.achievement.quests.levequests.606",
             "cSiblings": [
@@ -814,6 +923,7 @@
             ]
         },
         "x109": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.0",
             "achievement": "character.achievement.battle.dungeons.745",
             "cSiblings": [
@@ -821,6 +931,7 @@
             ]
         },
         "x110": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.0",
             "achievement": "character.achievement.battle.battle.806",
             "cSiblings": [
@@ -828,6 +939,7 @@
             ]
         },
         "x111": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.0",
             "achievement": "character.achievement.quests.seasonal-events.811",
             "cSiblings": [
@@ -835,6 +947,7 @@
             ]
         },
         "x112": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.813",
             "cSiblings": [
@@ -842,6 +955,7 @@
             ]
         },
         "x113": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.814",
             "cSiblings": [
@@ -849,6 +963,7 @@
             ]
         },
         "x114": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.815",
             "cSiblings": [
@@ -856,6 +971,7 @@
             ]
         },
         "x115": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.816",
             "cSiblings": [
@@ -863,6 +979,7 @@
             ]
         },
         "x116": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.817",
             "cSiblings": [
@@ -870,6 +987,7 @@
             ]
         },
         "x117": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.818",
             "cSiblings": [
@@ -877,6 +995,7 @@
             ]
         },
         "x122": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.833",
             "cSiblings": [
@@ -884,6 +1003,7 @@
             ]
         },
         "x123": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.834",
             "cSiblings": [
@@ -891,6 +1011,7 @@
             ]
         },
         "x124": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.835",
             "cSiblings": [
@@ -898,6 +1019,7 @@
             ]
         },
         "x125": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.836",
             "cSiblings": [
@@ -905,6 +1027,7 @@
             ]
         },
         "x126": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.837",
             "cSiblings": [
@@ -912,6 +1035,7 @@
             ]
         },
         "x127": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.838",
             "cSiblings": [
@@ -919,6 +1043,7 @@
             ]
         },
         "x132": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.823",
             "cSiblings": [
@@ -926,6 +1051,7 @@
             ]
         },
         "x133": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.824",
             "cSiblings": [
@@ -933,6 +1059,7 @@
             ]
         },
         "x134": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.825",
             "cSiblings": [
@@ -940,6 +1067,7 @@
             ]
         },
         "x135": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.826",
             "cSiblings": [
@@ -947,6 +1075,7 @@
             ]
         },
         "x136": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.827",
             "cSiblings": [
@@ -954,6 +1083,7 @@
             ]
         },
         "x137": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.general.828",
             "cSiblings": [
@@ -961,6 +1091,7 @@
             ]
         },
         "x142": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.the-wolves-den.848",
             "cSiblings": [
@@ -968,6 +1099,7 @@
             ]
         },
         "x143": {
+            "category": "CATEGORY.PVP",
             "patch": "2.1",
             "achievement": "character.achievement.pvp.the-wolves-den.854",
             "cSiblings": [
@@ -975,6 +1107,7 @@
             ]
         },
         "x144": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.1",
             "achievement": "character.achievement.character.commendation.858",
             "cSiblings": [
@@ -982,6 +1115,7 @@
             ]
         },
         "x145": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.1",
             "achievement": "character.achievement.quests.beast-tribe-quests.866",
             "cSiblings": [
@@ -989,6 +1123,7 @@
             ]
         },
         "x146": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.1",
             "achievement": "character.achievement.quests.beast-tribe-quests.870",
             "cSiblings": [
@@ -996,6 +1131,7 @@
             ]
         },
         "x147": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.1",
             "achievement": "character.achievement.battle.treasure-hunt.882",
             "cSiblings": [
@@ -1003,6 +1139,7 @@
             ]
         },
         "x148": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.2",
             "achievement": "character.achievement.quests.beast-tribe-quests.907",
             "cSiblings": [
@@ -1010,6 +1147,7 @@
             ]
         },
         "x149": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.2",
             "achievement": "character.achievement.quests.beast-tribe-quests.911",
             "cSiblings": [
@@ -1017,6 +1155,7 @@
             ]
         },
         "x150": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.2",
             "achievement": "character.achievement.quests.quests.902",
             "cSiblings": [
@@ -1024,6 +1163,7 @@
             ]
         },
         "x151": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.2",
             "achievement": "character.achievement.battle.battle.919",
             "cSiblings": [
@@ -1031,6 +1171,7 @@
             ]
         },
         "x152": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.2",
             "achievement": "character.achievement.battle.battle.922",
             "cSiblings": [
@@ -1038,6 +1179,7 @@
             ]
         },
         "x153": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.2",
             "achievement": "character.achievement.battle.battle.920",
             "cSiblings": [
@@ -1045,6 +1187,7 @@
             ]
         },
         "x154": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.2",
             "achievement": "character.achievement.battle.battle.923",
             "cSiblings": [
@@ -1052,6 +1195,7 @@
             ]
         },
         "x155": {
+            "category": "CATEGORY.PVP",
             "patch": "2.3",
             "achievement": "character.achievement.pvp.frontline.934",
             "cSiblings": [
@@ -1059,6 +1203,7 @@
             ]
         },
         "x156": {
+            "category": "CATEGORY.PVP",
             "patch": "2.3",
             "achievement": "character.achievement.pvp.frontline.940",
             "cSiblings": [
@@ -1066,6 +1211,7 @@
             ]
         },
         "x158": {
+            "category": "CATEGORY.PVP",
             "patch": "2.3",
             "achievement": "character.achievement.pvp.frontline.946",
             "cSiblings": [
@@ -1073,6 +1219,7 @@
             ]
         },
         "x157": {
+            "category": "CATEGORY.PVP",
             "patch": "2.3",
             "achievement": "character.achievement.pvp.frontline.952",
             "cSiblings": [
@@ -1080,6 +1227,7 @@
             ]
         },
         "x159": {
+            "category": "CATEGORY.PVP",
             "patch": "2.3",
             "achievement": "character.achievement.pvp.frontline.957",
             "cSiblings": [
@@ -1087,6 +1235,7 @@
             ]
         },
         "x160": {
+            "category": "CATEGORY.PVP",
             "patch": "2.3",
             "achievement": "character.achievement.pvp.frontline.962",
             "cSiblings": [
@@ -1094,6 +1243,7 @@
             ]
         },
         "x161": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.3",
             "achievement": "character.achievement.battle.the-hunt.968",
             "cSiblings": [
@@ -1101,6 +1251,7 @@
             ]
         },
         "x162": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.3",
             "achievement": "character.achievement.battle.the-hunt.973",
             "cSiblings": [
@@ -1108,6 +1259,7 @@
             ]
         },
         "x163": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.3",
             "achievement": "character.achievement.battle.the-hunt.978",
             "cSiblings": [
@@ -1115,6 +1267,7 @@
             ]
         },
         "x164": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.3",
             "achievement": "character.achievement.battle.the-hunt.981",
             "cSiblings": [
@@ -1122,6 +1275,7 @@
             ]
         },
         "x165": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.3",
             "achievement": "character.achievement.battle.the-hunt.985",
             "cSiblings": [
@@ -1129,6 +1283,7 @@
             ]
         },
         "x166": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.3",
             "achievement": "character.achievement.battle.the-hunt.989",
             "cSiblings": [
@@ -1136,6 +1291,7 @@
             ]
         },
         "x167": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.3",
             "achievement": "character.achievement.battle.raids.997",
             "cSiblings": [
@@ -1143,6 +1299,7 @@
             ]
         },
         "x168": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.3",
             "achievement": "character.achievement.battle.raids.998",
             "cSiblings": [
@@ -1150,6 +1307,7 @@
             ]
         },
         "x169": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.3",
             "achievement": "character.achievement.battle.raids.999",
             "cSiblings": [
@@ -1157,6 +1315,7 @@
             ]
         },
         "x170": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.3",
             "achievement": "character.achievement.battle.raids.1000",
             "cSiblings": [
@@ -1164,6 +1323,7 @@
             ]
         },
         "x171": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.3",
             "achievement": "character.achievement.items.desynthesis.1011",
             "cSiblings": [
@@ -1171,6 +1331,7 @@
             ]
         },
         "x173": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.3",
             "achievement": "character.achievement.battle.treasure-hunt.1019",
             "cSiblings": [
@@ -1178,6 +1339,7 @@
             ]
         },
         "x174": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.3",
             "achievement": "character.achievement.quests.quests.1001",
             "cSiblings": [
@@ -1185,6 +1347,7 @@
             ]
         },
         "x175": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.3",
             "achievement": "character.achievement.quests.quests.1004",
             "cSiblings": [
@@ -1192,6 +1355,7 @@
             ]
         },
         "x176": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.35",
             "achievement": "character.achievement.quests.beast-tribe-quests.1025",
             "cSiblings": [
@@ -1199,6 +1363,7 @@
             ]
         },
         "x177": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.35",
             "achievement": "character.achievement.quests.beast-tribe-quests.1026",
             "cSiblings": [
@@ -1206,6 +1371,7 @@
             ]
         },
         "x178": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.4",
             "achievement": "character.achievement.quests.quests.1030",
             "cSiblings": [
@@ -1213,6 +1379,7 @@
             ]
         },
         "x179": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.4",
             "achievement": "character.achievement.quests.quests.1031",
             "cSiblings": [
@@ -1220,6 +1387,7 @@
             ]
         },
         "x180": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "2.4",
             "achievement": "character.achievement.crafting--gathering.fisher.1033",
             "cSiblings": [
@@ -1227,6 +1395,7 @@
             ]
         },
         "x182": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.4",
             "achievement": "character.achievement.items.relic-weapons.1053",
             "cSiblings": [
@@ -1234,6 +1403,7 @@
             ]
         },
         "x183": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.4",
             "achievement": "character.achievement.quests.quests.1029",
             "cSiblings": [
@@ -1241,6 +1411,7 @@
             ]
         },
         "x184": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.5",
             "achievement": "character.achievement.quests.quests.1060",
             "cSiblings": [
@@ -1248,6 +1419,7 @@
             ]
         },
         "x185": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.5",
             "achievement": "character.achievement.quests.quests.1061",
             "cSiblings": [
@@ -1255,6 +1427,7 @@
             ]
         },
         "x186": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.5",
             "achievement": "character.achievement.quests.seasonal-events.1062",
             "cSiblings": [
@@ -1262,6 +1435,7 @@
             ]
         },
         "x187": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.5",
             "achievement": "character.achievement.items.items.1063",
             "cSiblings": [
@@ -1269,6 +1443,7 @@
             ]
         },
         "x188": {
+            "category": "CATEGORY.BATTLE",
             "patch": "2.5",
             "achievement": "character.achievement.battle.trials.1064",
             "cSiblings": [
@@ -1276,6 +1451,7 @@
             ]
         },
         "x189": {
+            "category": "CATEGORY.PVP",
             "patch": "2.5",
             "achievement": "character.achievement.pvp.frontline.1076",
             "cSiblings": [
@@ -1283,6 +1459,7 @@
             ]
         },
         "x190": {
+            "category": "CATEGORY.PVP",
             "patch": "2.5",
             "achievement": "character.achievement.pvp.frontline.1077",
             "cSiblings": [
@@ -1290,6 +1467,7 @@
             ]
         },
         "x191": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.5",
             "achievement": "character.achievement.items.items.1078",
             "cSiblings": [
@@ -1297,6 +1475,7 @@
             ]
         },
         "x192": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.5",
             "achievement": "character.achievement.items.items.1079",
             "cSiblings": [
@@ -1304,6 +1483,7 @@
             ]
         },
         "x193": {
+            "category": "CATEGORY.ITEMS",
             "patch": "2.51",
             "achievement": "character.achievement.items.zodiac-weapons.1081",
             "cSiblings": [
@@ -1311,6 +1491,7 @@
             ]
         },
         "x194": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.51",
             "achievement": "character.achievement.quests.seasonal-events.1082",
             "cSiblings": [
@@ -1318,6 +1499,7 @@
             ]
         },
         "x195": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1083",
             "cSiblings": [
@@ -1325,6 +1507,7 @@
             ]
         },
         "x196": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1088",
             "cSiblings": [
@@ -1332,6 +1515,7 @@
             ]
         },
         "x197": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1089",
             "cSiblings": [
@@ -1339,6 +1523,7 @@
             ]
         },
         "x198": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1091",
             "cSiblings": [
@@ -1346,6 +1531,7 @@
             ]
         },
         "x199": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1092",
             "cSiblings": [
@@ -1353,6 +1539,7 @@
             ]
         },
         "x200": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1094",
             "cSiblings": [
@@ -1360,6 +1547,7 @@
             ]
         },
         "x201": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1095",
             "cSiblings": [
@@ -1367,6 +1555,7 @@
             ]
         },
         "x202": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1099",
             "cSiblings": [
@@ -1374,6 +1563,7 @@
             ]
         },
         "x203": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1101",
             "cSiblings": [
@@ -1381,6 +1571,7 @@
             ]
         },
         "x204": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1102",
             "cSiblings": [
@@ -1388,6 +1579,7 @@
             ]
         },
         "x205": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1110",
             "cSiblings": [
@@ -1395,6 +1587,7 @@
             ]
         },
         "x206": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1114",
             "cSiblings": [
@@ -1402,6 +1595,7 @@
             ]
         },
         "x207": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1117",
             "cSiblings": [
@@ -1409,6 +1603,7 @@
             ]
         },
         "x208": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1120",
             "cSiblings": [
@@ -1416,6 +1611,7 @@
             ]
         },
         "x209": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1124",
             "cSiblings": [
@@ -1423,6 +1619,7 @@
             ]
         },
         "x210": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "2.51",
             "achievement": "character.achievement.character.gold-saucer.1128",
             "cSiblings": [
@@ -1430,6 +1627,7 @@
             ]
         },
         "x211": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.55",
             "achievement": "character.achievement.quests.quests.1129",
             "cSiblings": [
@@ -1437,6 +1635,7 @@
             ]
         },
         "x212": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.55",
             "achievement": "character.achievement.quests.quests.1130",
             "cSiblings": [
@@ -1444,6 +1643,7 @@
             ]
         },
         "x213": {
+            "category": "CATEGORY.QUEST",
             "patch": "2.55",
             "achievement": "character.achievement.quests.seasonal-events.1131",
             "cSiblings": [
@@ -1451,6 +1651,7 @@
             ]
         },
         "x214": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1133",
             "cSiblings": [
@@ -1458,6 +1659,7 @@
             ]
         },
         "x215": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1134",
             "cSiblings": [
@@ -1465,6 +1667,7 @@
             ]
         },
         "x216": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1135",
             "cSiblings": [
@@ -1472,6 +1675,7 @@
             ]
         },
         "x217": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1136",
             "cSiblings": [
@@ -1479,6 +1683,7 @@
             ]
         },
         "x218": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1137",
             "cSiblings": [
@@ -1486,6 +1691,7 @@
             ]
         },
         "x219": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1138",
             "cSiblings": [
@@ -1493,6 +1699,7 @@
             ]
         },
         "x220": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1139",
             "cSiblings": [
@@ -1500,6 +1707,7 @@
             ]
         },
         "x222": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1141",
             "cSiblings": [
@@ -1507,6 +1715,7 @@
             ]
         },
         "x223": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1142",
             "cSiblings": [
@@ -1514,6 +1723,7 @@
             ]
         },
         "x224": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1143",
             "cSiblings": [
@@ -1521,6 +1731,7 @@
             ]
         },
         "x225": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1144",
             "cSiblings": [
@@ -1528,6 +1739,7 @@
             ]
         },
         "x226": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1145",
             "cSiblings": [
@@ -1535,6 +1747,7 @@
             ]
         },
         "x227": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1146",
             "cSiblings": [
@@ -1542,6 +1755,7 @@
             ]
         },
         "x228": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1147",
             "cSiblings": [
@@ -1549,6 +1763,7 @@
             ]
         },
         "x229": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1148",
             "cSiblings": [
@@ -1556,6 +1771,7 @@
             ]
         },
         "x230": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1149",
             "cSiblings": [
@@ -1563,6 +1779,7 @@
             ]
         },
         "x231": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1150",
             "cSiblings": [
@@ -1570,6 +1787,7 @@
             ]
         },
         "x232": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1154",
             "cSiblings": [
@@ -1577,6 +1795,7 @@
             ]
         },
         "x233": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1155",
             "cSiblings": [
@@ -1584,6 +1803,7 @@
             ]
         },
         "x234": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1156",
             "cSiblings": [
@@ -1591,6 +1811,7 @@
             ]
         },
         "x235": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1164",
             "cSiblings": [
@@ -1598,6 +1819,7 @@
             ]
         },
         "x236": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1165",
             "cSiblings": [
@@ -1605,6 +1827,7 @@
             ]
         },
         "x237": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.0",
             "achievement": "character.achievement.quests.quests.1166",
             "cSiblings": [
@@ -1612,6 +1835,7 @@
             ]
         },
         "x239": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "3.0",
             "achievement": "character.achievement.character.general.1188",
             "cSiblings": [
@@ -1619,6 +1843,7 @@
             ]
         },
         "x240": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "3.0",
             "achievement": "character.achievement.character.general.1189",
             "cSiblings": [
@@ -1626,6 +1851,7 @@
             ]
         },
         "x241": {
+            "category": "CATEGORY.BATTLE",
             "patch": "3.0",
             "achievement": "character.achievement.battle.battle.1193",
             "cSiblings": [
@@ -1633,6 +1859,7 @@
             ]
         },
         "x242": {
+            "category": "CATEGORY.BATTLE",
             "patch": "3.0",
             "achievement": "character.achievement.battle.battle.1194",
             "cSiblings": [
@@ -1640,6 +1867,7 @@
             ]
         },
         "x243": {
+            "category": "CATEGORY.PVP",
             "patch": "3.0",
             "achievement": "character.achievement.pvp.frontline.1199",
             "cSiblings": [
@@ -1647,6 +1875,7 @@
             ]
         },
         "x248": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "3.0",
             "achievement": "character.achievement.character.general.1276",
             "cSiblings": [
@@ -1654,6 +1883,7 @@
             ]
         },
         "x249": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "3.0",
             "achievement": "character.achievement.character.general.1277",
             "cSiblings": [
@@ -1661,6 +1891,7 @@
             ]
         },
         "x250": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.0",
             "achievement": "character.achievement.items.collectables.1291",
             "cSiblings": [
@@ -1668,6 +1899,7 @@
             ]
         },
         "x251": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.0",
             "achievement": "character.achievement.items.collectables.1294",
             "cSiblings": [
@@ -1675,6 +1907,7 @@
             ]
         },
         "x252": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.0",
             "achievement": "character.achievement.items.collectables.1297",
             "cSiblings": [
@@ -1682,6 +1915,7 @@
             ]
         },
         "x253": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "3.0",
             "achievement": "character.achievement.crafting--gathering.carpenter.1321",
             "cSiblings": [
@@ -1689,6 +1923,7 @@
             ]
         },
         "x254": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "3.0",
             "achievement": "character.achievement.crafting--gathering.blacksmith.1322",
             "cSiblings": [
@@ -1696,6 +1931,7 @@
             ]
         },
         "x255": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "3.0",
             "achievement": "character.achievement.crafting--gathering.armorer.1323",
             "cSiblings": [
@@ -1703,6 +1939,7 @@
             ]
         },
         "x256": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "3.0",
             "achievement": "character.achievement.crafting--gathering.goldsmith.1324",
             "cSiblings": [
@@ -1710,6 +1947,7 @@
             ]
         },
         "x257": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "3.0",
             "achievement": "character.achievement.crafting--gathering.leatherworker.1325",
             "cSiblings": [
@@ -1717,6 +1955,7 @@
             ]
         },
         "x258": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "3.0",
             "achievement": "character.achievement.crafting--gathering.weaver.1326",
             "cSiblings": [
@@ -1724,6 +1963,7 @@
             ]
         },
         "x259": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "3.0",
             "achievement": "character.achievement.crafting--gathering.alchemist.1327",
             "cSiblings": [
@@ -1731,6 +1971,7 @@
             ]
         },
         "x260": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "3.0",
             "achievement": "character.achievement.crafting--gathering.culinarian.1328",
             "cSiblings": [
@@ -1738,6 +1979,7 @@
             ]
         },
         "x261": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "3.0",
             "achievement": "character.achievement.crafting--gathering.miner.1329",
             "cSiblings": [
@@ -1745,6 +1987,7 @@
             ]
         },
         "x262": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "3.0",
             "achievement": "character.achievement.crafting--gathering.botanist.1330",
             "cSiblings": [
@@ -1752,6 +1995,7 @@
             ]
         },
         "x263": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "3.0",
             "achievement": "character.achievement.crafting--gathering.fisher.1331",
             "cSiblings": [
@@ -1759,6 +2003,7 @@
             ]
         },
         "x264": {
+            "category": "CATEGORY.BATTLE",
             "patch": "3.0",
             "achievement": "character.achievement.battle.battle.1354",
             "cSiblings": [
@@ -1766,6 +2011,7 @@
             ]
         },
         "x265": {
+            "category": "CATEGORY.BATTLE",
             "patch": "3.0",
             "achievement": "character.achievement.battle.battle.1357",
             "cSiblings": [
@@ -1773,6 +2019,7 @@
             ]
         },
         "x266": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.1",
             "achievement": "character.achievement.items.items.1377",
             "cSiblings": [
@@ -1780,6 +2027,7 @@
             ]
         },
         "x267": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.1",
             "achievement": "character.achievement.items.items.1378",
             "cSiblings": [
@@ -1787,6 +2035,7 @@
             ]
         },
         "x268": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.1",
             "achievement": "character.achievement.items.items.1379",
             "cSiblings": [
@@ -1794,6 +2043,7 @@
             ]
         },
         "x269": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "3.1",
             "achievement": "character.achievement.character.gold-saucer.1383",
             "cSiblings": [
@@ -1801,6 +2051,7 @@
             ]
         },
         "x270": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "3.1",
             "achievement": "character.achievement.character.gold-saucer.1384",
             "cSiblings": [
@@ -1808,6 +2059,7 @@
             ]
         },
         "x271": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.1",
             "achievement": "character.achievement.quests.quests.1387",
             "cSiblings": [
@@ -1815,6 +2067,7 @@
             ]
         },
         "x272": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.1",
             "achievement": "character.achievement.quests.quests.1388",
             "cSiblings": [
@@ -1822,6 +2075,7 @@
             ]
         },
         "x273": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.15",
             "achievement": "character.achievement.quests.quests.1394",
             "cSiblings": [
@@ -1829,6 +2083,7 @@
             ]
         },
         "x274": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.1",
             "achievement": "character.achievement.quests.beast-tribe-quests.1398",
             "cSiblings": [
@@ -1836,6 +2091,7 @@
             ]
         },
         "x275": {
+            "category": "CATEGORY.BATTLE",
             "patch": "3.1",
             "achievement": "character.achievement.battle.trials.1400",
             "cSiblings": [
@@ -1843,6 +2099,7 @@
             ]
         },
         "x276": {
+            "category": "CATEGORY.EXPLORATION",
             "patch": "3.1",
             "achievement": "character.achievement.exploration.sightseeing-log.1386",
             "cSiblings": [
@@ -1850,6 +2107,7 @@
             ]
         },
         "x277": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.15",
             "achievement": "character.achievement.quests.quests.1405",
             "cSiblings": [
@@ -1857,6 +2115,7 @@
             ]
         },
         "x278": {
+            "category": "CATEGORY.EXPLORATION",
             "patch": "3.1",
             "achievement": "character.achievement.exploration.duty.1432",
             "cSiblings": [
@@ -1864,6 +2123,7 @@
             ]
         },
         "x279": {
+            "category": "CATEGORY.PVP",
             "patch": "3.2",
             "achievement": "character.achievement.pvp.the-wolves-den.1440",
             "cSiblings": [
@@ -1871,6 +2131,7 @@
             ]
         },
         "x280": {
+            "category": "CATEGORY.PVP",
             "patch": "3.2",
             "achievement": "character.achievement.pvp.the-wolves-den.1446",
             "cSiblings": [
@@ -1878,6 +2139,7 @@
             ]
         },
         "x281": {
+            "category": "CATEGORY.PVP",
             "patch": "3.2",
             "achievement": "character.achievement.pvp.the-wolves-den.1451",
             "cSiblings": [
@@ -1885,6 +2147,7 @@
             ]
         },
         "x282": {
+            "category": "CATEGORY.PVP",
             "patch": "3.2",
             "achievement": "character.achievement.pvp.the-wolves-den.1456",
             "cSiblings": [
@@ -1892,6 +2155,7 @@
             ]
         },
         "x283": {
+            "category": "CATEGORY.PVP",
             "patch": "3.2",
             "achievement": "character.achievement.pvp.the-wolves-den.1461",
             "cSiblings": [
@@ -1899,6 +2163,7 @@
             ]
         },
         "x284": {
+            "category": "CATEGORY.PVP",
             "patch": "3.2",
             "achievement": "character.achievement.pvp.the-wolves-den.1466",
             "cSiblings": [
@@ -1906,6 +2171,7 @@
             ]
         },
         "x285": {
+            "category": "CATEGORY.PVP",
             "patch": "3.2",
             "achievement": "character.achievement.pvp.the-wolves-den.1471",
             "cSiblings": [
@@ -1913,6 +2179,7 @@
             ]
         },
         "x286": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "3.2",
             "achievement": "character.achievement.character.general.1473",
             "cSiblings": [
@@ -1920,6 +2187,7 @@
             ]
         },
         "x287": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "3.2",
             "achievement": "character.achievement.character.general.1475",
             "cSiblings": [
@@ -1927,6 +2195,7 @@
             ]
         },
         "x288": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.2",
             "achievement": "character.achievement.quests.quests.1492",
             "cSiblings": [
@@ -1934,6 +2203,7 @@
             ]
         },
         "x289": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.2",
             "achievement": "character.achievement.quests.quests.1493",
             "cSiblings": [
@@ -1941,6 +2211,7 @@
             ]
         },
         "x290": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.2",
             "achievement": "character.achievement.quests.quests.1494",
             "cSiblings": [
@@ -1948,6 +2219,7 @@
             ]
         },
         "x291": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.2",
             "achievement": "character.achievement.quests.beast-tribe-quests.1498",
             "cSiblings": [
@@ -1955,6 +2227,7 @@
             ]
         },
         "x292": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.3",
             "achievement": "character.achievement.quests.quests.1594",
             "cSiblings": [
@@ -1962,6 +2235,7 @@
             ]
         },
         "x293": {
+            "category": "CATEGORY.BATTLE",
             "patch": "3.3",
             "achievement": "character.achievement.battle.treasure-hunt.1548",
             "cSiblings": [
@@ -1969,6 +2243,7 @@
             ]
         },
         "x294": {
+            "category": "CATEGORY.BATTLE",
             "patch": "3.3",
             "achievement": "character.achievement.battle.treasure-hunt.1551",
             "cSiblings": [
@@ -1976,6 +2251,7 @@
             ]
         },
         "x295": {
+            "category": "CATEGORY.BATTLE",
             "patch": "3.3",
             "achievement": "character.achievement.battle.treasure-hunt.1555",
             "cSiblings": [
@@ -1983,6 +2259,7 @@
             ]
         },
         "x296": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.3",
             "achievement": "character.achievement.quests.beast-tribe-quests.1621",
             "cSiblings": [
@@ -1990,6 +2267,7 @@
             ]
         },
         "x297": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1540",
             "cSiblings": [
@@ -1997,6 +2275,7 @@
             ]
         },
         "x298": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1541",
             "cSiblings": [
@@ -2004,6 +2283,7 @@
             ]
         },
         "x299": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1542",
             "cSiblings": [
@@ -2011,6 +2291,7 @@
             ]
         },
         "x300": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1543",
             "cSiblings": [
@@ -2018,6 +2299,7 @@
             ]
         },
         "x301": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1544",
             "cSiblings": [
@@ -2025,6 +2307,7 @@
             ]
         },
         "x302": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1545",
             "cSiblings": [
@@ -2032,6 +2315,7 @@
             ]
         },
         "x303": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1546",
             "cSiblings": [
@@ -2039,6 +2323,7 @@
             ]
         },
         "x304": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1547",
             "cSiblings": [
@@ -2046,6 +2331,7 @@
             ]
         },
         "x305": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1565",
             "cSiblings": [
@@ -2053,6 +2339,7 @@
             ]
         },
         "x306": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1566",
             "cSiblings": [
@@ -2060,6 +2347,7 @@
             ]
         },
         "x307": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1567",
             "cSiblings": [
@@ -2067,6 +2355,7 @@
             ]
         },
         "x308": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1568",
             "cSiblings": [
@@ -2074,6 +2363,7 @@
             ]
         },
         "x309": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1569",
             "cSiblings": [
@@ -2081,6 +2371,7 @@
             ]
         },
         "x310": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1570",
             "cSiblings": [
@@ -2088,6 +2379,7 @@
             ]
         },
         "x311": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1571",
             "cSiblings": [
@@ -2095,6 +2387,7 @@
             ]
         },
         "x312": {
+            "category": "CATEGORY.PVP",
             "patch": "3.35",
             "achievement": "character.achievement.pvp.ranking.1572",
             "cSiblings": [
@@ -2102,6 +2395,7 @@
             ]
         },
         "x313": {
+            "category": "CATEGORY.PVP",
             "patch": "3.3",
             "achievement": "character.achievement.pvp.frontline.1564",
             "cSiblings": [
@@ -2109,6 +2403,7 @@
             ]
         },
         "x314": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.35",
             "achievement": "character.achievement.quests.quests.1575",
             "cSiblings": [
@@ -2116,6 +2411,7 @@
             ]
         },
         "x315": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.4",
             "achievement": "character.achievement.quests.quests.1629",
             "cSiblings": [
@@ -2123,6 +2419,7 @@
             ]
         },
         "x316": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.4",
             "achievement": "character.achievement.quests.quests.1630",
             "cSiblings": [
@@ -2130,6 +2427,7 @@
             ]
         },
         "x317": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "3.4",
             "achievement": "character.achievement.character.general.1649",
             "cSiblings": [
@@ -2137,6 +2435,7 @@
             ]
         },
         "x318": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "3.4",
             "achievement": "character.achievement.character.general.1654",
             "cSiblings": [
@@ -2144,6 +2443,7 @@
             ]
         },
         "x319": {
+            "category": "CATEGORY.BATTLE",
             "patch": "3.45",
             "achievement": "character.achievement.battle.dungeons.1655",
             "cSiblings": [
@@ -2151,6 +2451,7 @@
             ]
         },
         "x320": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.45",
             "achievement": "character.achievement.items.deep-dungeon-weapons.1658",
             "cSiblings": [
@@ -2158,6 +2459,7 @@
             ]
         },
         "x321": {
+            "category": "CATEGORY.BATTLE",
             "patch": "3.45",
             "achievement": "character.achievement.battle.dungeons.1660",
             "cSiblings": [
@@ -2165,6 +2467,7 @@
             ]
         },
         "x322": {
+            "category": "CATEGORY.BATTLE",
             "patch": "3.4",
             "achievement": "character.achievement.battle.dungeons.1663",
             "cSiblings": [
@@ -2172,6 +2475,7 @@
             ]
         },
         "x323": {
+            "category": "CATEGORY.BATTLE",
             "patch": "3.4",
             "achievement": "character.achievement.battle.dungeons.1666",
             "cSiblings": [
@@ -2179,6 +2483,7 @@
             ]
         },
         "x324": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.45",
             "achievement": "character.achievement.quests.quests.1680",
             "cSiblings": [
@@ -2186,6 +2491,7 @@
             ]
         },
         "x325": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.5",
             "defaultCompletion": "X",
             "achievement": "character.achievement.items.items.1757",
@@ -2194,6 +2500,7 @@
             ]
         },
         "x326": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.5",
             "defaultCompletion": "X",
             "achievement": "character.achievement.items.items.1758",
@@ -2202,6 +2509,7 @@
             ]
         },
         "x327": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.5",
             "defaultCompletion": "X",
             "achievement": "character.achievement.items.items.1762",
@@ -2210,6 +2518,7 @@
             ]
         },
         "x328": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.5",
             "defaultCompletion": "X",
             "achievement": "character.achievement.items.items.1759",
@@ -2218,6 +2527,7 @@
             ]
         },
         "x329": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.5",
             "defaultCompletion": "X",
             "achievement": "character.achievement.items.items.1761",
@@ -2226,6 +2536,7 @@
             ]
         },
         "x330": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.5",
             "defaultCompletion": "X",
             "achievement": "character.achievement.items.items.1764",
@@ -2234,6 +2545,7 @@
             ]
         },
         "x331": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.5",
             "defaultCompletion": "X",
             "achievement": "character.achievement.items.items.1766",
@@ -2242,6 +2554,7 @@
             ]
         },
         "x332": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.5",
             "defaultCompletion": "X",
             "achievement": "character.achievement.items.items.1768",
@@ -2250,6 +2563,7 @@
             ]
         },
         "x333": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.5",
             "defaultCompletion": "X",
             "achievement": "character.achievement.items.items.1763",
@@ -2258,6 +2572,7 @@
             ]
         },
         "x334": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.5",
             "defaultCompletion": "X",
             "achievement": "character.achievement.items.items.1767",
@@ -2266,6 +2581,7 @@
             ]
         },
         "x335": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.5",
             "defaultCompletion": "X",
             "achievement": "character.achievement.items.items.1769",
@@ -2274,6 +2590,7 @@
             ]
         },
         "x336": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.5",
             "defaultCompletion": "X",
             "achievement": "character.achievement.items.items.1760",
@@ -2282,6 +2599,7 @@
             ]
         },
         "x337": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.5",
             "defaultCompletion": "X",
             "achievement": "character.achievement.items.items.1765",
@@ -2290,6 +2608,7 @@
             ]
         },
         "x338": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.5",
             "defaultCompletion": "X",
             "achievement": "character.achievement.items.items.1770",
@@ -2298,6 +2617,7 @@
             ]
         },
         "x339": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.5",
             "achievement": "character.achievement.quests.beast-tribe-quests.1627",
             "cSiblings": [
@@ -2305,6 +2625,7 @@
             ]
         },
         "x340": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.5",
             "achievement": "character.achievement.quests.quests.1690",
             "cSiblings": [
@@ -2312,6 +2633,7 @@
             ]
         },
         "x341": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.56",
             "achievement": "character.achievement.quests.quests.1691",
             "cSiblings": [
@@ -2319,6 +2641,7 @@
             ]
         },
         "x342": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.5",
             "achievement": "character.achievement.quests.quests.1692",
             "cSiblings": [
@@ -2326,6 +2649,7 @@
             ]
         },
         "x343": {
+            "category": "CATEGORY.QUEST",
             "patch": "3.5",
             "achievement": "character.achievement.quests.quests.1693",
             "cSiblings": [
@@ -2333,6 +2657,7 @@
             ]
         },
         "x344": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.5",
             "achievement": "character.achievement.items.items.1694",
             "cSiblings": [
@@ -2340,6 +2665,7 @@
             ]
         },
         "x345": {
+            "category": "CATEGORY.PVP",
             "patch": "3.55a",
             "achievement": "character.achievement.pvp.the-wolves-den.1748",
             "cSiblings": [
@@ -2347,6 +2673,7 @@
             ]
         },
         "x346": {
+            "category": "CATEGORY.PVP",
             "patch": "3.55a",
             "achievement": "character.achievement.pvp.the-wolves-den.1751",
             "cSiblings": [
@@ -2354,6 +2681,7 @@
             ]
         },
         "x347": {
+            "category": "CATEGORY.PVP",
             "patch": "3.55a",
             "achievement": "character.achievement.pvp.the-wolves-den.1753",
             "cSiblings": [
@@ -2361,6 +2689,7 @@
             ]
         },
         "x348": {
+            "category": "CATEGORY.PVP",
             "patch": "3.55a",
             "achievement": "character.achievement.pvp.the-wolves-den.1756",
             "cSiblings": [
@@ -2368,6 +2697,7 @@
             ]
         },
         "x349": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "3.55a",
             "achievement": "character.achievement.character.general.1778",
             "cSiblings": [
@@ -2375,6 +2705,7 @@
             ]
         },
         "x350": {
+            "category": "CATEGORY.ITEMS",
             "patch": "3.55a",
             "achievement": "character.achievement.items.collectables.1784",
             "cSiblings": [
@@ -2382,6 +2713,7 @@
             ]
         },
         "x351": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1787",
             "cSiblings": [
@@ -2389,6 +2721,7 @@
             ]
         },
         "x352": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1788",
             "cSiblings": [
@@ -2396,6 +2729,7 @@
             ]
         },
         "x353": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1789",
             "cSiblings": [
@@ -2403,6 +2737,7 @@
             ]
         },
         "x354": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1790",
             "cSiblings": [
@@ -2410,6 +2745,7 @@
             ]
         },
         "x355": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1791",
             "cSiblings": [
@@ -2417,6 +2753,7 @@
             ]
         },
         "x356": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1792",
             "cSiblings": [
@@ -2424,6 +2761,7 @@
             ]
         },
         "x357": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1793",
             "cSiblings": [
@@ -2431,6 +2769,7 @@
             ]
         },
         "x358": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1794",
             "cSiblings": [
@@ -2438,6 +2777,7 @@
             ]
         },
         "x359": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.01",
             "achievement": "character.achievement.quests.quests.1796",
             "cSiblings": [
@@ -2445,6 +2785,7 @@
             ]
         },
         "x360": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1797",
             "cSiblings": [
@@ -2452,6 +2793,7 @@
             ]
         },
         "x361": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1798",
             "cSiblings": [
@@ -2459,6 +2801,7 @@
             ]
         },
         "x362": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1799",
             "cSiblings": [
@@ -2466,6 +2809,7 @@
             ]
         },
         "x363": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1800",
             "cSiblings": [
@@ -2473,6 +2817,7 @@
             ]
         },
         "x364": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1801",
             "cSiblings": [
@@ -2480,6 +2825,7 @@
             ]
         },
         "x365": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1802",
             "cSiblings": [
@@ -2487,6 +2833,7 @@
             ]
         },
         "x366": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1803",
             "cSiblings": [
@@ -2494,6 +2841,7 @@
             ]
         },
         "x367": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1804",
             "cSiblings": [
@@ -2501,6 +2849,7 @@
             ]
         },
         "x368": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1805",
             "cSiblings": [
@@ -2508,6 +2857,7 @@
             ]
         },
         "x369": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1806",
             "cSiblings": [
@@ -2515,6 +2865,7 @@
             ]
         },
         "x370": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1807",
             "cSiblings": [
@@ -2522,6 +2873,7 @@
             ]
         },
         "x371": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1808",
             "cSiblings": [
@@ -2529,6 +2881,7 @@
             ]
         },
         "x372": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1809",
             "cSiblings": [
@@ -2536,6 +2889,7 @@
             ]
         },
         "x373": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1811",
             "cSiblings": [
@@ -2543,6 +2897,7 @@
             ]
         },
         "x374": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.0",
             "achievement": "character.achievement.quests.quests.1813",
             "cSiblings": [
@@ -2550,6 +2905,7 @@
             ]
         },
         "x375": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "4.0",
             "achievement": "character.achievement.character.general.1832",
             "cSiblings": [
@@ -2557,6 +2913,7 @@
             ]
         },
         "x376": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "4.0",
             "achievement": "character.achievement.character.general.1833",
             "cSiblings": [
@@ -2564,6 +2921,7 @@
             ]
         },
         "x377": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "4.0",
             "achievement": "character.achievement.character.general.1846",
             "cSiblings": [
@@ -2571,6 +2929,7 @@
             ]
         },
         "x378": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "4.0",
             "achievement": "character.achievement.character.general.1847",
             "cSiblings": [
@@ -2578,6 +2937,7 @@
             ]
         },
         "x379": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.0",
             "achievement": "character.achievement.battle.the-hunt.1917",
             "cSiblings": [
@@ -2585,6 +2945,7 @@
             ]
         },
         "x380": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.0",
             "achievement": "character.achievement.battle.the-hunt.1918",
             "cSiblings": [
@@ -2592,6 +2953,7 @@
             ]
         },
         "x381": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.0",
             "achievement": "character.achievement.battle.the-hunt.1920",
             "cSiblings": [
@@ -2599,6 +2961,7 @@
             ]
         },
         "x382": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.0",
             "achievement": "character.achievement.battle.the-hunt.1921",
             "cSiblings": [
@@ -2606,6 +2969,7 @@
             ]
         },
         "x383": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.05",
             "achievement": "character.achievement.battle.treasure-hunt.1944",
             "cSiblings": [
@@ -2613,6 +2977,7 @@
             ]
         },
         "x244": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.05",
             "achievement": "character.achievement.battle.treasure-hunt.1947",
             "cSiblings": [
@@ -2620,6 +2985,7 @@
             ]
         },
         "x245": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.05",
             "achievement": "character.achievement.battle.treasure-hunt.1951",
             "cSiblings": [
@@ -2627,6 +2993,7 @@
             ]
         },
         "x246": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.0",
             "achievement": "character.achievement.battle.dungeons.1952",
             "cSiblings": [
@@ -2634,6 +3001,7 @@
             ]
         },
         "x118": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "4.1",
             "achievement": "character.achievement.character.general.1973",
             "cSiblings": [
@@ -2641,6 +3009,7 @@
             ]
         },
         "x119": {
+            "category": "CATEGORY.ITEMS",
             "patch": "4.1",
             "achievement": "character.achievement.items.collectables.1979",
             "cSiblings": [
@@ -2648,6 +3017,7 @@
             ]
         },
         "x120": {
+            "category": "CATEGORY.PVP",
             "patch": "4.15",
             "achievement": "character.achievement.pvp.rival-wings.1936",
             "cSiblings": [
@@ -2655,6 +3025,7 @@
             ]
         },
         "x121": {
+            "category": "CATEGORY.PVP",
             "patch": "4.15",
             "achievement": "character.achievement.pvp.rival-wings.1941",
             "cSiblings": [
@@ -2662,6 +3033,7 @@
             ]
         },
         "x128": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.1",
             "achievement": "character.achievement.battle.treasure-hunt.1980",
             "cSiblings": [
@@ -2669,6 +3041,7 @@
             ]
         },
         "x129": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.1",
             "achievement": "character.achievement.battle.treasure-hunt.1983",
             "cSiblings": [
@@ -2676,6 +3049,7 @@
             ]
         },
         "x130": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.1",
             "achievement": "character.achievement.battle.treasure-hunt.1987",
             "cSiblings": [
@@ -2683,6 +3057,7 @@
             ]
         },
         "x131": {
+            "category": "CATEGORY.EXPLORATION",
             "patch": "4.1",
             "achievement": "character.achievement.exploration.sightseeing-log.1965",
             "cSiblings": [
@@ -2690,6 +3065,7 @@
             ]
         },
         "x138": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.11",
             "achievement": "character.achievement.battle.raids.1993",
             "cSiblings": [
@@ -2697,6 +3073,7 @@
             ]
         },
         "x139": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.1",
             "achievement": "character.achievement.quests.quests.1990",
             "cSiblings": [
@@ -2704,6 +3081,7 @@
             ]
         },
         "x140": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.1",
             "achievement": "character.achievement.quests.beast-tribe-quests.2000",
             "cSiblings": [
@@ -2711,6 +3089,7 @@
             ]
         },
         "x141": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "4.2",
             "achievement": "character.achievement.character.general.2003",
             "cSiblings": [
@@ -2718,6 +3097,7 @@
             ]
         },
         "x172": {
+            "category": "CATEGORY.PVP",
             "patch": "4.2",
             "achievement": "character.achievement.pvp.the-wolves-den.2012",
             "cSiblings": [
@@ -2725,6 +3105,7 @@
             ]
         },
         "x181": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.2",
             "achievement": "character.achievement.quests.quests.2013",
             "cSiblings": [
@@ -2732,6 +3113,7 @@
             ]
         },
         "x221": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.2",
             "achievement": "character.achievement.quests.beast-tribe-quests.2017",
             "cSiblings": [
@@ -2739,6 +3121,7 @@
             ]
         },
         "x393": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.3",
             "achievement": "character.achievement.quests.beast-tribe-quests.2102",
             "cSiblings": [
@@ -2746,6 +3129,7 @@
             ]
         },
         "x394": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.3",
             "achievement": "character.achievement.quests.seasonal-events.2103",
             "cSiblings": [
@@ -2753,6 +3137,7 @@
             ]
         },
         "x395": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.3",
             "achievement": "character.achievement.quests.seasonal-events.2104",
             "cSiblings": [
@@ -2760,6 +3145,7 @@
             ]
         },
         "x389": {
+            "category": "CATEGORY.PVP",
             "patch": "4.3",
             "achievement": "character.achievement.pvp.frontline.2066",
             "cSiblings": [
@@ -2767,6 +3153,7 @@
             ]
         },
         "x390": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "4.3",
             "achievement": "character.achievement.character.general.2071",
             "cSiblings": [
@@ -2774,6 +3161,7 @@
             ]
         },
         "x391": {
+            "category": "CATEGORY.ITEMS",
             "patch": "4.3",
             "achievement": "character.achievement.items.collectables.2077",
             "cSiblings": [
@@ -2781,6 +3169,7 @@
             ]
         },
         "x392": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.3",
             "achievement": "character.achievement.quests.quests.2098",
             "cSiblings": [
@@ -2788,6 +3177,7 @@
             ]
         },
         "x397": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.31",
             "achievement": "character.achievement.battle.raids.2107",
             "cSiblings": [
@@ -2795,6 +3185,7 @@
             ]
         },
         "x396": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.35",
             "achievement": "character.achievement.quests.seasonal-events.2105",
             "cSiblings": [
@@ -2802,6 +3193,7 @@
             ]
         },
         "x384": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.35",
             "achievement": "character.achievement.battle.dungeons.2049",
             "cSiblings": [
@@ -2809,6 +3201,7 @@
             ]
         },
         "x385": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.35",
             "achievement": "character.achievement.battle.dungeons.2051",
             "cSiblings": [
@@ -2816,6 +3209,7 @@
             ]
         },
         "x386": {
+            "category": "CATEGORY.ITEMS",
             "patch": "4.35",
             "achievement": "character.achievement.items.items.2053",
             "cSiblings": [
@@ -2823,6 +3217,7 @@
             ]
         },
         "x387": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.35",
             "achievement": "character.achievement.battle.dungeons.2055",
             "cSiblings": [
@@ -2830,6 +3225,7 @@
             ]
         },
         "x388": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.35",
             "achievement": "character.achievement.battle.dungeons.2056",
             "cSiblings": [
@@ -2837,6 +3233,7 @@
             ]
         },
         "x398": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.36",
             "achievement": "character.achievement.quests.quests.2108",
             "cSiblings": [
@@ -2844,6 +3241,7 @@
             ]
         },
         "x399": {
+            "category": "CATEGORY.PVP",
             "patch": "4.4",
             "defaultCompletion": "X",
             "achievement": [
@@ -2858,6 +3256,7 @@
             ]
         },
         "x400": {
+            "category": "CATEGORY.PVP",
             "patch": "4.4",
             "defaultCompletion": "X",
             "achievement": "character.achievement.pvp.the-wolves-den.2113",
@@ -2866,6 +3265,7 @@
             ]
         },
         "x401": {
+            "category": "CATEGORY.PVP",
             "patch": "4.4",
             "defaultCompletion": "X",
             "achievement": "character.achievement.pvp.the-wolves-den.2114",
@@ -2874,6 +3274,7 @@
             ]
         },
         "x402": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.4",
             "achievement": "character.achievement.quests.quests.2124",
             "cSiblings": [
@@ -2881,6 +3282,7 @@
             ]
         },
         "x403": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "4.4",
             "achievement": "character.achievement.character.general.2131",
             "cSiblings": [
@@ -2888,6 +3290,7 @@
             ]
         },
         "x404": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.4",
             "achievement": "character.achievement.battle.treasure-hunt.2132",
             "cSiblings": [
@@ -2895,6 +3298,7 @@
             ]
         },
         "x405": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.4",
             "achievement": "character.achievement.battle.treasure-hunt.2135",
             "cSiblings": [
@@ -2902,6 +3306,7 @@
             ]
         },
         "x406": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.4",
             "achievement": "character.achievement.battle.treasure-hunt.2139",
             "cSiblings": [
@@ -2909,6 +3314,7 @@
             ]
         },
         "x408": {
+            "category": "CATEGORY.ITEMS",
             "patch": "4.45",
             "achievement": "character.achievement.items.items.2161",
             "cSiblings": [
@@ -2916,6 +3322,7 @@
             ]
         },
         "x409": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "4.45",
             "achievement": "character.achievement.character.gold-saucer.2181",
             "cSiblings": [
@@ -2923,6 +3330,7 @@
             ]
         },
         "x410": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "4.45",
             "achievement": "character.achievement.character.gold-saucer.2182",
             "cSiblings": [
@@ -2930,6 +3338,7 @@
             ]
         },
         "x411": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "4.45",
             "achievement": "character.achievement.character.general.2187",
             "cSiblings": [
@@ -2937,6 +3346,7 @@
             ]
         },
         "x412": {
+            "category": "CATEGORY.ITEMS",
             "patch": "4.45",
             "achievement": "character.achievement.items.collectables.2193",
             "cSiblings": [
@@ -2944,6 +3354,7 @@
             ]
         },
         "x413": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "4.45",
             "achievement": "character.achievement.character.disciple-of-magic.2201",
             "cSiblings": [
@@ -2951,6 +3362,7 @@
             ]
         },
         "x414": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.45",
             "achievement": "character.achievement.battle.dungeons.2208",
             "cSiblings": [
@@ -2958,6 +3370,7 @@
             ]
         },
         "x415": {
+            "category": "CATEGORY.BATTLE",
             "patch": "4.45",
             "achievement": "character.achievement.battle.dungeons.2211",
             "cSiblings": [
@@ -2965,6 +3378,7 @@
             ]
         },
         "x416": {
+            "category": "CATEGORY.EXPLORATION",
             "patch": "4.5",
             "achievement": "character.achievement.exploration.duty.2231",
             "cSiblings": [
@@ -2972,6 +3386,7 @@
             ]
         },
         "x417": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.5",
             "achievement": "character.achievement.quests.quests.2233",
             "cSiblings": [
@@ -2979,6 +3394,7 @@
             ]
         },
         "x418": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.5",
             "achievement": "character.achievement.quests.quests.2234",
             "cSiblings": [
@@ -2986,6 +3402,7 @@
             ]
         },
         "x419": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.5",
             "achievement": "character.achievement.quests.beast-tribe-quests.2235",
             "cSiblings": [
@@ -2993,6 +3410,7 @@
             ]
         },
         "x420": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.5",
             "defaultCompletion": "X",
             "achievement": "character.achievement.quests.seasonal-events.2241",
@@ -3001,6 +3419,7 @@
             ]
         },
         "x421": {
+            "category": "CATEGORY.QUEST",
             "patch": "4.45",
             "achievement": "character.achievement.quests.quests.2243",
             "cSiblings": [
@@ -3008,6 +3427,7 @@
             ]
         },
         "x407": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "4.5",
             "achievement": "character.achievement.crafting--gathering.fisher.2245",
             "cSiblings": [
@@ -3015,6 +3435,7 @@
             ]
         },
         "x422": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "5.0",
             "achievement": "character.achievement.character.general.2275",
             "cSiblings": [
@@ -3022,6 +3443,7 @@
             ]
         },
         "x423": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "5.0",
             "achievement": "character.achievement.character.general.2276",
             "cSiblings": [
@@ -3029,6 +3451,7 @@
             ]
         },
         "x424": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "5.0",
             "achievement": "character.achievement.character.general.2278",
             "cSiblings": [
@@ -3036,6 +3459,7 @@
             ]
         },
         "x425": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "5.0",
             "achievement": "character.achievement.character.general.2279",
             "cSiblings": [
@@ -3043,6 +3467,7 @@
             ]
         },
         "x426": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2293",
             "cSiblings": [
@@ -3050,6 +3475,7 @@
             ]
         },
         "x427": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2294",
             "cSiblings": [
@@ -3057,6 +3483,7 @@
             ]
         },
         "x428": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2295",
             "cSiblings": [
@@ -3064,6 +3491,7 @@
             ]
         },
         "x429": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2296",
             "cSiblings": [
@@ -3071,6 +3499,7 @@
             ]
         },
         "x430": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2297",
             "cSiblings": [
@@ -3078,6 +3507,7 @@
             ]
         },
         "x431": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2298",
             "cSiblings": [
@@ -3085,6 +3515,7 @@
             ]
         },
         "x432": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2299",
             "cSiblings": [
@@ -3092,6 +3523,7 @@
             ]
         },
         "x433": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2300",
             "cSiblings": [
@@ -3099,6 +3531,7 @@
             ]
         },
         "x434": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2305",
             "cSiblings": [
@@ -3106,6 +3539,7 @@
             ]
         },
         "x435": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2306",
             "cSiblings": [
@@ -3113,6 +3547,7 @@
             ]
         },
         "x436": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2307",
             "cSiblings": [
@@ -3120,6 +3555,7 @@
             ]
         },
         "x437": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2308",
             "cSiblings": [
@@ -3127,6 +3563,7 @@
             ]
         },
         "x438": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2309",
             "cSiblings": [
@@ -3134,6 +3571,7 @@
             ]
         },
         "x439": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2310",
             "cSiblings": [
@@ -3141,6 +3579,7 @@
             ]
         },
         "x440": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2311",
             "cSiblings": [
@@ -3148,6 +3587,7 @@
             ]
         },
         "x441": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2312",
             "cSiblings": [
@@ -3155,6 +3595,7 @@
             ]
         },
         "x442": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2313",
             "cSiblings": [
@@ -3162,6 +3603,7 @@
             ]
         },
         "x443": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2314",
             "cSiblings": [
@@ -3169,6 +3611,7 @@
             ]
         },
         "x444": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2315",
             "cSiblings": [
@@ -3176,6 +3619,7 @@
             ]
         },
         "x445": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2316",
             "cSiblings": [
@@ -3183,6 +3627,7 @@
             ]
         },
         "x446": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2317",
             "cSiblings": [
@@ -3190,6 +3635,7 @@
             ]
         },
         "x447": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2318",
             "cSiblings": [
@@ -3197,6 +3643,7 @@
             ]
         },
         "x448": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2319",
             "cSiblings": [
@@ -3204,6 +3651,7 @@
             ]
         },
         "x449": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2320",
             "cSiblings": [
@@ -3211,6 +3659,7 @@
             ]
         },
         "x450": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2321",
             "cSiblings": [
@@ -3218,6 +3667,7 @@
             ]
         },
         "x451": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2322",
             "cSiblings": [
@@ -3225,6 +3675,7 @@
             ]
         },
         "x452": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2323",
             "cSiblings": [
@@ -3232,6 +3683,7 @@
             ]
         },
         "x453": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2324",
             "cSiblings": [
@@ -3239,6 +3691,7 @@
             ]
         },
         "x454": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2325",
             "cSiblings": [
@@ -3246,6 +3699,7 @@
             ]
         },
         "x455": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2326",
             "cSiblings": [
@@ -3253,6 +3707,7 @@
             ]
         },
         "x456": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2327",
             "cSiblings": [
@@ -3260,6 +3715,7 @@
             ]
         },
         "x457": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.0",
             "achievement": "character.achievement.quests.quests.2328",
             "cSiblings": [
@@ -3267,6 +3723,7 @@
             ]
         },
         "x458": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "5.0",
             "achievement": "character.achievement.character.general.2336",
             "cSiblings": [
@@ -3274,6 +3731,7 @@
             ]
         },
         "x459": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.0",
             "achievement": "character.achievement.battle.battle.2349",
             "cSiblings": [
@@ -3281,6 +3739,7 @@
             ]
         },
         "x460": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.0",
             "achievement": "character.achievement.battle.the-hunt.2352",
             "cSiblings": [
@@ -3288,6 +3747,7 @@
             ]
         },
         "x461": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.0",
             "achievement": "character.achievement.battle.the-hunt.2355",
             "cSiblings": [
@@ -3295,6 +3755,7 @@
             ]
         },
         "x462": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.0",
             "achievement": "character.achievement.battle.battle.2387",
             "cSiblings": [
@@ -3302,6 +3763,7 @@
             ]
         },
         "x463": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.0",
             "achievement": "character.achievement.battle.battle.2388",
             "cSiblings": [
@@ -3309,6 +3771,7 @@
             ]
         },
         "x464": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.0",
             "achievement": "character.achievement.battle.battle.2389",
             "cSiblings": [
@@ -3316,6 +3779,7 @@
             ]
         },
         "x465": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.0",
             "achievement": "character.achievement.battle.battle.2393",
             "cSiblings": [
@@ -3323,6 +3787,7 @@
             ]
         },
         "x466": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.05",
             "achievement": "character.achievement.battle.treasure-hunt.2401",
             "cSiblings": [
@@ -3330,6 +3795,7 @@
             ]
         },
         "x467": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.05",
             "achievement": "character.achievement.battle.treasure-hunt.2404",
             "cSiblings": [
@@ -3337,6 +3803,7 @@
             ]
         },
         "x468": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.05",
             "achievement": "character.achievement.battle.treasure-hunt.2408",
             "cSiblings": [
@@ -3344,6 +3811,7 @@
             ]
         },
         "x469": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "5.1",
             "achievement": "character.achievement.character.gold-saucer.2417",
             "cSiblings": [
@@ -3351,6 +3819,7 @@
             ]
         },
         "x476": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.1",
             "achievement": "character.achievement.quests.quests.2424",
             "cSiblings": [
@@ -3358,6 +3827,7 @@
             ]
         },
         "x477": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "5.1",
             "achievement": "character.achievement.character.general.2429",
             "cSiblings": [
@@ -3365,6 +3835,7 @@
             ]
         },
         "x478": {
+            "category": "CATEGORY.ITEMS",
             "patch": "5.1",
             "achievement": "character.achievement.items.collectables.2435",
             "cSiblings": [
@@ -3372,6 +3843,7 @@
             ]
         },
         "x479": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.1",
             "achievement": "character.achievement.quests.beast-tribe-quests.2439",
             "cSiblings": [
@@ -3379,6 +3851,7 @@
             ]
         },
         "x480": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.11",
             "achievement": "character.achievement.battle.raids.2444",
             "cSiblings": [
@@ -3386,6 +3859,7 @@
             ]
         },
         "x481": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "5.15",
             "achievement": "character.achievement.character.disciple-of-magic.2448",
             "cSiblings": [
@@ -3393,6 +3867,7 @@
             ]
         },
         "x482": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.15",
             "achievement": "character.achievement.battle.battle.2453",
             "cSiblings": [
@@ -3400,6 +3875,7 @@
             ]
         },
         "x483": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.15",
             "achievement": "character.achievement.battle.battle.2466",
             "cSiblings": [
@@ -3407,6 +3883,7 @@
             ]
         },
         "x484": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.15",
             "achievement": "character.achievement.battle.battle.2474",
             "cSiblings": [
@@ -3414,6 +3891,7 @@
             ]
         },
         "x485": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.15",
             "achievement": "character.achievement.battle.battle.2475",
             "cSiblings": [
@@ -3421,6 +3899,7 @@
             ]
         },
         "x486": {
+            "category": "CATEGORY.PVP",
             "patch": "5.15",
             "achievement": "character.achievement.pvp.frontline.2482",
             "cSiblings": [
@@ -3428,6 +3907,7 @@
             ]
         },
         "x487": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.15",
             "achievement": "character.achievement.battle.dungeons.2450",
             "cSiblings": [
@@ -3435,6 +3915,7 @@
             ]
         },
         "x490": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.carpenter.2491",
             "cSiblings": [
@@ -3442,6 +3923,7 @@
             ]
         },
         "x491": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.blacksmith.2494",
             "cSiblings": [
@@ -3449,6 +3931,7 @@
             ]
         },
         "x492": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.armorer.2497",
             "cSiblings": [
@@ -3456,6 +3939,7 @@
             ]
         },
         "x493": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.goldsmith.2500",
             "cSiblings": [
@@ -3463,6 +3947,7 @@
             ]
         },
         "x494": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.leatherworker.2503",
             "cSiblings": [
@@ -3470,6 +3955,7 @@
             ]
         },
         "x495": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.weaver.2506",
             "cSiblings": [
@@ -3477,6 +3963,7 @@
             ]
         },
         "x496": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.alchemist.2509",
             "cSiblings": [
@@ -3484,6 +3971,7 @@
             ]
         },
         "x497": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.culinarian.2512",
             "cSiblings": [
@@ -3491,6 +3979,7 @@
             ]
         },
         "x498": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.miner.2515",
             "cSiblings": [
@@ -3498,6 +3987,7 @@
             ]
         },
         "x499": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.botanist.2518",
             "cSiblings": [
@@ -3505,6 +3995,7 @@
             ]
         },
         "x500": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.fisher.2521",
             "cSiblings": [
@@ -3512,6 +4003,7 @@
             ]
         },
         "x501": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.all-disciplines.2524",
             "cSiblings": [
@@ -3519,6 +4011,7 @@
             ]
         },
         "x502": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.all-disciplines.2525",
             "cSiblings": [
@@ -3526,6 +4019,7 @@
             ]
         },
         "x503": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.carpenter.2527",
             "cSiblings": [
@@ -3533,6 +4027,7 @@
             ]
         },
         "x504": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.blacksmith.2528",
             "cSiblings": [
@@ -3540,6 +4035,7 @@
             ]
         },
         "x505": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.armorer.2529",
             "cSiblings": [
@@ -3547,6 +4043,7 @@
             ]
         },
         "x506": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.goldsmith.2530",
             "cSiblings": [
@@ -3554,6 +4051,7 @@
             ]
         },
         "x507": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.leatherworker.2531",
             "cSiblings": [
@@ -3561,6 +4059,7 @@
             ]
         },
         "x508": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.weaver.2532",
             "cSiblings": [
@@ -3568,6 +4067,7 @@
             ]
         },
         "x509": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.alchemist.2533",
             "cSiblings": [
@@ -3575,6 +4075,7 @@
             ]
         },
         "x510": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.culinarian.2534",
             "cSiblings": [
@@ -3582,6 +4083,7 @@
             ]
         },
         "x511": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.miner.2535",
             "cSiblings": [
@@ -3589,6 +4091,7 @@
             ]
         },
         "x512": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.botanist.2536",
             "cSiblings": [
@@ -3596,6 +4099,7 @@
             ]
         },
         "x513": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.fisher.2537",
             "cSiblings": [
@@ -3603,6 +4107,7 @@
             ]
         },
         "x514": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "achievement": "character.achievement.crafting--gathering.all-disciplines.2540",
             "cSiblings": [
@@ -3610,6 +4115,7 @@
             ]
         },
         "x515": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.2",
             "achievement": "character.achievement.crafting--gathering.fisher.2562",
             "cSiblings": [
@@ -3617,6 +4123,7 @@
             ]
         },
         "x516": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.2",
             "achievement": "character.achievement.crafting--gathering.fisher.2563",
             "cSiblings": [
@@ -3624,6 +4131,7 @@
             ]
         },
         "x517": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.2",
             "achievement": "character.achievement.crafting--gathering.fisher.2564",
             "cSiblings": [
@@ -3631,6 +4139,7 @@
             ]
         },
         "x518": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.2",
             "achievement": "character.achievement.crafting--gathering.fisher.2565",
             "cSiblings": [
@@ -3638,6 +4147,7 @@
             ]
         },
         "x519": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.2",
             "achievement": "character.achievement.crafting--gathering.fisher.2566",
             "cSiblings": [
@@ -3645,6 +4155,7 @@
             ]
         },
         "x520": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.2",
             "achievement": "character.achievement.quests.quests.2587",
             "cSiblings": [
@@ -3652,6 +4163,7 @@
             ]
         },
         "x521": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.2",
             "achievement": "character.achievement.quests.beast-tribe-quests.2600",
             "cSiblings": [
@@ -3659,6 +4171,7 @@
             ]
         },
         "x522": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "5.3",
             "achievement": "character.achievement.character.general.2627",
             "cSiblings": [
@@ -3666,6 +4179,7 @@
             ]
         },
         "x523": {
+            "category": "CATEGORY.ITEMS",
             "patch": "5.3",
             "achievement": "character.achievement.items.collectables.2633",
             "cSiblings": [
@@ -3673,6 +4187,7 @@
             ]
         },
         "x524": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "5.3",
             "achievement": "character.achievement.character.general.2635",
             "cSiblings": [
@@ -3680,6 +4195,7 @@
             ]
         },
         "x525": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "5.3",
             "achievement": "character.achievement.character.general.2637",
             "cSiblings": [
@@ -3687,6 +4203,7 @@
             ]
         },
         "x526": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.3",
             "achievement": "character.achievement.quests.beast-tribe-quests.2641",
             "cSiblings": [
@@ -3694,6 +4211,7 @@
             ]
         },
         "x527": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.3",
             "achievement": "character.achievement.quests.quests.2642",
             "cSiblings": [
@@ -3701,6 +4219,7 @@
             ]
         },
         "x528": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.31",
             "achievement": "character.achievement.crafting--gathering.carpenter.2648",
             "cSiblings": [
@@ -3708,6 +4227,7 @@
             ]
         },
         "x529": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.31",
             "achievement": "character.achievement.crafting--gathering.blacksmith.2649",
             "cSiblings": [
@@ -3715,6 +4235,7 @@
             ]
         },
         "x530": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.31",
             "achievement": "character.achievement.crafting--gathering.armorer.2650",
             "cSiblings": [
@@ -3722,6 +4243,7 @@
             ]
         },
         "x531": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.31",
             "achievement": "character.achievement.crafting--gathering.goldsmith.2651",
             "cSiblings": [
@@ -3729,6 +4251,7 @@
             ]
         },
         "x532": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.31",
             "achievement": "character.achievement.crafting--gathering.leatherworker.2652",
             "cSiblings": [
@@ -3736,6 +4259,7 @@
             ]
         },
         "x533": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.31",
             "achievement": "character.achievement.crafting--gathering.weaver.2653",
             "cSiblings": [
@@ -3743,6 +4267,7 @@
             ]
         },
         "x534": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.31",
             "achievement": "character.achievement.crafting--gathering.alchemist.2654",
             "cSiblings": [
@@ -3750,6 +4275,7 @@
             ]
         },
         "x535": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.31",
             "achievement": "character.achievement.crafting--gathering.culinarian.2655",
             "cSiblings": [
@@ -3757,6 +4283,7 @@
             ]
         },
         "x536": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.31",
             "achievement": "character.achievement.crafting--gathering.miner.2656",
             "cSiblings": [
@@ -3764,6 +4291,7 @@
             ]
         },
         "x537": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.31",
             "achievement": "character.achievement.crafting--gathering.botanist.2657",
             "cSiblings": [
@@ -3771,6 +4299,7 @@
             ]
         },
         "x538": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.31",
             "achievement": "character.achievement.crafting--gathering.fisher.2658",
             "cSiblings": [
@@ -3778,6 +4307,7 @@
             ]
         },
         "x539": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.35",
             "achievement": "character.achievement.battle.field-operations.2675",
             "cSiblings": [
@@ -3785,6 +4315,7 @@
             ]
         },
         "x540": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.35",
             "achievement": "character.achievement.battle.field-operations.2679",
             "cSiblings": [
@@ -3792,6 +4323,7 @@
             ]
         },
         "x541": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.35",
             "achievement": "character.achievement.battle.field-operations.2682",
             "cSiblings": [
@@ -3799,6 +4331,7 @@
             ]
         },
         "x542": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.35",
             "achievement": "character.achievement.battle.field-operations.2683",
             "cSiblings": [
@@ -3806,6 +4339,7 @@
             ]
         },
         "x543": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.35",
             "achievement": "character.achievement.battle.field-operations.2684",
             "cSiblings": [
@@ -3813,6 +4347,7 @@
             ]
         },
         "x544": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.35",
             "achievement": "character.achievement.battle.field-operations.2685",
             "cSiblings": [
@@ -3820,6 +4355,7 @@
             ]
         },
         "x545": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.35",
             "achievement": "character.achievement.battle.field-operations.2686",
             "cSiblings": [
@@ -3827,6 +4363,7 @@
             ]
         },
         "x546": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.35",
             "achievement": "character.achievement.battle.field-operations.2693",
             "cSiblings": [
@@ -3834,6 +4371,7 @@
             ]
         },
         "x549": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.4",
             "achievement": "character.achievement.quests.quests.2714",
             "cSiblings": [
@@ -3841,6 +4379,7 @@
             ]
         },
         "x550": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.45",
             "achievement": "character.achievement.battle.dungeons.2727",
             "cSiblings": [
@@ -3848,6 +4387,7 @@
             ]
         },
         "x551": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.45",
             "achievement": "character.achievement.battle.battle.2728",
             "cSiblings": [
@@ -3855,6 +4395,7 @@
             ]
         },
         "x552": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.45",
             "achievement": "character.achievement.battle.battle.2739",
             "cSiblings": [
@@ -3862,6 +4403,7 @@
             ]
         },
         "x553": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.4",
             "achievement": "character.achievement.crafting--gathering.fisher.2754",
             "cSiblings": [
@@ -3869,6 +4411,7 @@
             ]
         },
         "x554": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.4",
             "achievement": "character.achievement.crafting--gathering.fisher.2755",
             "cSiblings": [
@@ -3876,6 +4419,7 @@
             ]
         },
         "x555": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.4",
             "achievement": "character.achievement.crafting--gathering.fisher.2756",
             "cSiblings": [
@@ -3883,6 +4427,7 @@
             ]
         },
         "x556": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.4",
             "achievement": "character.achievement.crafting--gathering.fisher.2758",
             "cSiblings": [
@@ -3890,6 +4435,7 @@
             ]
         },
         "x559": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "5.4",
             "achievement": "character.achievement.character.gold-saucer.2800",
             "cSiblings": [
@@ -3897,6 +4443,7 @@
             ]
         },
         "x560": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.4",
             "achievement": "character.achievement.battle.treasure-hunt.2740",
             "cSiblings": [
@@ -3904,6 +4451,7 @@
             ]
         },
         "x561": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.4",
             "achievement": "character.achievement.battle.treasure-hunt.2743",
             "cSiblings": [
@@ -3911,6 +4459,7 @@
             ]
         },
         "x562": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.4",
             "achievement": "character.achievement.battle.treasure-hunt.2747",
             "cSiblings": [
@@ -3918,6 +4467,7 @@
             ]
         },
         "x563": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.4",
             "achievement": "character.achievement.crafting--gathering.fisher.2759",
             "cSiblings": [
@@ -3925,6 +4475,7 @@
             ]
         },
         "x564": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.45",
             "achievement": "character.achievement.battle.field-operations.2766",
             "cSiblings": [
@@ -3932,6 +4483,7 @@
             ]
         },
         "x593": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "6.0",
             "achievement": "character.achievement.character.general.2923",
             "cSiblings": [
@@ -3939,6 +4491,7 @@
             ]
         },
         "x594": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "6.0",
             "achievement": "character.achievement.character.general.2924",
             "cSiblings": [
@@ -3946,6 +4499,7 @@
             ]
         },
         "x595": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "6.0",
             "achievement": "character.achievement.character.general.2926",
             "cSiblings": [
@@ -3953,6 +4507,7 @@
             ]
         },
         "x596": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "6.0",
             "achievement": "character.achievement.character.general.2927",
             "cSiblings": [
@@ -3960,6 +4515,7 @@
             ]
         },
         "x597": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.0",
             "achievement": "character.achievement.quests.quests.2952",
             "cSiblings": [
@@ -3967,6 +4523,7 @@
             ]
         },
         "x598": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.0",
             "achievement": "character.achievement.quests.quests.2953",
             "cSiblings": [
@@ -3974,6 +4531,7 @@
             ]
         },
         "x599": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.0",
             "achievement": "character.achievement.quests.quests.2954",
             "cSiblings": [
@@ -3981,6 +4539,7 @@
             ]
         },
         "x600": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.0",
             "achievement": "character.achievement.quests.quests.2955",
             "cSiblings": [
@@ -3988,6 +4547,7 @@
             ]
         },
         "x601": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.0",
             "achievement": "character.achievement.quests.quests.2956",
             "cSiblings": [
@@ -3995,6 +4555,7 @@
             ]
         },
         "x602": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.0",
             "achievement": "character.achievement.quests.quests.2957",
             "cSiblings": [
@@ -4002,6 +4563,7 @@
             ]
         },
         "x603": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.0",
             "achievement": "character.achievement.quests.quests.2958",
             "cSiblings": [
@@ -4009,6 +4571,7 @@
             ]
         },
         "x604": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.0",
             "achievement": "character.achievement.quests.quests.2959",
             "cSiblings": [
@@ -4016,6 +4579,7 @@
             ]
         },
         "x605": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.0",
             "achievement": "character.achievement.quests.quests.2960",
             "cSiblings": [
@@ -4023,6 +4587,7 @@
             ]
         },
         "x606": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.0",
             "achievement": "character.achievement.quests.quests.2966",
             "cSiblings": [
@@ -4030,6 +4595,7 @@
             ]
         },
         "x607": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.0",
             "achievement": "character.achievement.quests.quests.2967",
             "cSiblings": [
@@ -4037,6 +4603,7 @@
             ]
         },
         "x608": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.0",
             "achievement": "character.achievement.quests.quests.2968",
             "cSiblings": [
@@ -4044,6 +4611,7 @@
             ]
         },
         "x609": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.0",
             "achievement": "character.achievement.quests.quests.2969",
             "cSiblings": [
@@ -4051,6 +4619,7 @@
             ]
         },
         "x610": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.0",
             "achievement": "character.achievement.quests.quests.2970",
             "cSiblings": [
@@ -4058,6 +4627,7 @@
             ]
         },
         "x611": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.0",
             "achievement": "character.achievement.quests.quests.2971",
             "cSiblings": [
@@ -4065,6 +4635,7 @@
             ]
         },
         "x612": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "6.0",
             "achievement": "character.achievement.character.general.2972",
             "cSiblings": [
@@ -4072,6 +4643,7 @@
             ]
         },
         "x613": {
+            "category": "CATEGORY.BATTLE",
             "patch": "6.0",
             "achievement": "character.achievement.battle.battle.2990",
             "cSiblings": [
@@ -4079,6 +4651,7 @@
             ]
         },
         "x614": {
+            "category": "CATEGORY.BATTLE",
             "patch": "6.0",
             "achievement": "character.achievement.battle.battle.2991",
             "cSiblings": [
@@ -4086,6 +4659,7 @@
             ]
         },
         "x615": {
+            "category": "CATEGORY.BATTLE",
             "patch": "6.0",
             "achievement": "character.achievement.battle.battle.2992",
             "cSiblings": [
@@ -4093,6 +4667,7 @@
             ]
         },
         "x616": {
+            "category": "CATEGORY.BATTLE",
             "patch": "6.0",
             "achievement": "character.achievement.battle.battle.2993",
             "cSiblings": [
@@ -4100,6 +4675,7 @@
             ]
         },
         "x617": {
+            "category": "CATEGORY.BATTLE",
             "patch": "6.0",
             "achievement": "character.achievement.battle.the-hunt.2996",
             "cSiblings": [
@@ -4107,6 +4683,7 @@
             ]
         },
         "x618": {
+            "category": "CATEGORY.BATTLE",
             "patch": "6.0",
             "achievement": "character.achievement.battle.the-hunt.2999",
             "cSiblings": [
@@ -4114,6 +4691,7 @@
             ]
         },
         "x619": {
+            "category": "CATEGORY.BATTLE",
             "patch": "6.05",
             "achievement": "character.achievement.battle.treasure-hunt.3012",
             "cSiblings": [
@@ -4121,6 +4699,7 @@
             ]
         },
         "x620": {
+            "category": "CATEGORY.BATTLE",
             "patch": "6.05",
             "achievement": "character.achievement.battle.treasure-hunt.3015",
             "cSiblings": [
@@ -4128,6 +4707,7 @@
             ]
         },
         "x621": {
+            "category": "CATEGORY.BATTLE",
             "patch": "6.05",
             "achievement": "character.achievement.battle.treasure-hunt.3019",
             "cSiblings": [
@@ -4135,6 +4715,7 @@
             ]
         },
         "x622": {
+            "category": "CATEGORY.BATTLE",
             "patch": "6.0",
             "achievement": "character.achievement.battle.battle.3028",
             "cSiblings": [
@@ -4142,125 +4723,148 @@
             ]
         },
         "x623": {
+            "category": "CATEGORY.PVP",
             "patch": "6.1",
             "achievement": "character.achievement.pvp.the-wolves-den.3045",
             "cSiblings": ["character.achievement.pvp.the-wolves-den.3045"]
         },
         "x624": {
+            "category": "CATEGORY.PVP",
             "patch": "6.1",
             "achievement": "character.achievement.pvp.ranking.3046",
             "cSiblings": ["character.achievement.pvp.ranking.3046"]
         },
         "x625": {
+            "category": "CATEGORY.PVP",
             "patch": "6.1",
             "achievement": "character.achievement.pvp.ranking.3047",
             "cSiblings": ["character.achievement.pvp.ranking.3047"]
         },
         "x626": {
+            "category": "CATEGORY.PVP",
             "patch": "6.1",
             "achievement": "character.achievement.pvp.ranking.3048",
             "cSiblings": ["character.achievement.pvp.ranking.3048"]
         },
         "x627": {
+            "category": "CATEGORY.PVP",
             "patch": "6.1",
             "achievement": "character.achievement.pvp.ranking.3049",
             "cSiblings": ["character.achievement.pvp.ranking.3049"]
         },
         "x628": {
+            "category": "CATEGORY.PVP",
             "patch": "6.1",
             "achievement": "character.achievement.pvp.ranking.3050",
             "cSiblings": ["character.achievement.pvp.ranking.3050"]
         },
         "x629": {
+            "category": "CATEGORY.PVP",
             "patch": "6.1",
             "achievement": "character.achievement.pvp.ranking.3051",
             "cSiblings": ["character.achievement.pvp.ranking.3051"]
         },
         "x630": {
+            "category": "CATEGORY.PVP",
             "patch": "6.1",
             "achievement": "character.achievement.pvp.ranking.3052",
             "cSiblings": ["character.achievement.pvp.ranking.3052"],
             "defaultCompletion": "X"
         },
         "x631": {
+            "category": "CATEGORY.PVP",
             "patch": "6.1",
             "achievement": "character.achievement.pvp.ranking.3053",
             "cSiblings": ["character.achievement.pvp.ranking.3053"],
             "defaultCompletion": "X"
         },
         "x632": {
+            "category": "CATEGORY.PVP",
             "patch": "6.1",
             "achievement": "character.achievement.pvp.ranking.3054",
             "cSiblings": ["character.achievement.pvp.ranking.3054"],
             "defaultCompletion": "X"
         },
         "x636": {
+            "category": "CATEGORY.BATTLE",
             "patch": "6.11",
             "achievement": "character.achievement.battle.raids.3074",
             "cSiblings": ["character.achievement.battle.raids.3074"]
         },
         "x637": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.1",
             "achievement": "character.achievement.quests.quests.3075",
             "cSiblings": ["character.achievement.quests.quests.3075"]
         },
         "x638": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.1",
             "achievement": "character.achievement.quests.quests.3076",
             "cSiblings": ["character.achievement.quests.quests.3076"]
         },
         "x639": {
+            "category": "CATEGORY.ITEMS",
             "patch": "6.1",
             "achievement": "character.achievement.items.items.3083",
             "cSiblings": ["character.achievement.items.items.3083"],
             "defaultCompletion": "X"
         },
         "x640": {
+            "category": "CATEGORY.ITEMS",
             "patch": "6.1",
             "achievement": "character.achievement.items.items.3084",
             "cSiblings": ["character.achievement.items.items.3084"],
             "defaultCompletion": "X"
         },
         "x641": {
+            "category": "CATEGORY.ITEMS",
             "patch": "6.1",
             "achievement": "character.achievement.items.items.3085",
             "cSiblings": ["character.achievement.items.items.3085"],
             "defaultCompletion": "X"
         },
         "x642": {
+            "category": "CATEGORY.ITEMS",
             "patch": "6.1",
             "achievement": "character.achievement.items.items.3086",
             "cSiblings": ["character.achievement.items.items.3086"],
             "defaultCompletion": "X"
         },
         "x643": {
+            "category": "CATEGORY.ITEMS",
             "patch": "6.1",
             "achievement": "character.achievement.items.items.3087",
             "cSiblings": ["character.achievement.items.items.3087"],
             "defaultCompletion": "X"
         },
         "x644": {
+            "category": "CATEGORY.ITEMS",
             "patch": "6.1",
             "achievement": "character.achievement.items.items.3088",
             "cSiblings": ["character.achievement.items.items.3088"],
             "defaultCompletion": "X"
         },
         "x645": {
+            "category": "CATEGORY.QUEST",
             "patch": "6.15",
             "achievement": "character.achievement.quests.beast-tribe-quests.3058",
             "cSiblings": ["character.achievement.quests.beast-tribe-quests.3058"]
         },
         "x646": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "6.15",
             "achievement": "character.achievement.character.general.3063",
             "cSiblings": ["character.achievement.character.general.3063"]
         },
         "x647": {
+            "category": "CATEGORY.ITEMS",
             "patch": "6.15",
             "achievement": "character.achievement.items.collectables.3069",
             "cSiblings": ["character.achievement.items.collectables.3069"]
         },
         "x565": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.41",
             "achievement": "character.achievement.crafting--gathering.carpenter.2807",
             "cSiblings": [
@@ -4268,6 +4872,7 @@
             ]
         },
         "x566": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.41",
             "achievement": "character.achievement.crafting--gathering.blacksmith.2808",
             "cSiblings": [
@@ -4275,6 +4880,7 @@
             ]
         },
         "x567": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.41",
             "achievement": "character.achievement.crafting--gathering.armorer.2809",
             "cSiblings": [
@@ -4282,6 +4888,7 @@
             ]
         },
         "x568": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.41",
             "achievement": "character.achievement.crafting--gathering.goldsmith.2810",
             "cSiblings": [
@@ -4289,6 +4896,7 @@
             ]
         },
         "x569": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.41",
             "achievement": "character.achievement.crafting--gathering.leatherworker.2811",
             "cSiblings": [
@@ -4296,6 +4904,7 @@
             ]
         },
         "x570": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.41",
             "achievement": "character.achievement.crafting--gathering.weaver.2812",
             "cSiblings": [
@@ -4303,6 +4912,7 @@
             ]
         },
         "x571": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.41",
             "achievement": "character.achievement.crafting--gathering.alchemist.2813",
             "cSiblings": [
@@ -4310,6 +4920,7 @@
             ]
         },
         "x572": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.41",
             "achievement": "character.achievement.crafting--gathering.culinarian.2814",
             "cSiblings": [
@@ -4317,6 +4928,7 @@
             ]
         },
         "x573": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.41",
             "achievement": "character.achievement.crafting--gathering.miner.2815",
             "cSiblings": [
@@ -4324,6 +4936,7 @@
             ]
         },
         "x574": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.41",
             "achievement": "character.achievement.crafting--gathering.botanist.2816",
             "cSiblings": [
@@ -4331,6 +4944,7 @@
             ]
         },
         "x575": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.41",
             "achievement": "character.achievement.crafting--gathering.fisher.2817",
             "cSiblings": [
@@ -4338,6 +4952,7 @@
             ]
         },
         "x576": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "5.55",
             "achievement": "character.achievement.character.gold-saucer.2819",
             "cSiblings": [
@@ -4345,6 +4960,7 @@
             ]
         },
         "x577": {
+            "category": "CATEGORY.ITEMS",
             "patch": "5.5",
             "achievement": "character.achievement.items.items.2820",
             "cSiblings": [
@@ -4352,6 +4968,7 @@
             ]
         },
         "x578": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.5",
             "achievement": "character.achievement.crafting--gathering.all-disciplines.2829",
             "cSiblings": [
@@ -4359,6 +4976,7 @@
             ]
         },
         "x579": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.55",
             "achievement": "character.achievement.crafting--gathering.fisher.2833",
             "cSiblings": [
@@ -4366,6 +4984,7 @@
             ]
         },
         "x580": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.55",
             "achievement": "character.achievement.crafting--gathering.fisher.2834",
             "cSiblings": [
@@ -4373,6 +4992,7 @@
             ]
         },
         "x581": {
+            "category": "CATEGORY.CHARACTER",
             "patch": "5.5",
             "achievement": "character.achievement.character.general.2839",
             "cSiblings": [
@@ -4380,6 +5000,7 @@
             ]
         },
         "x582": {
+            "category": "CATEGORY.ITEMS",
             "patch": "5.5",
             "achievement": "character.achievement.items.collectables.2845",
             "cSiblings": [
@@ -4387,6 +5008,7 @@
             ]
         },
         "x583": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.55",
             "achievement": "character.achievement.quests.quests.2851",
             "cSiblings": [
@@ -4394,6 +5016,7 @@
             ]
         },
         "x584": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.55",
             "achievement": "character.achievement.quests.quests.2852",
             "cSiblings": [
@@ -4401,6 +5024,7 @@
             ]
         },
         "x585": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.55",
             "achievement": "character.achievement.battle.field-operations.2876",
             "cSiblings": [
@@ -4408,6 +5032,7 @@
             ]
         },
         "x586": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.55",
             "achievement": "character.achievement.battle.field-operations.2877",
             "cSiblings": [
@@ -4415,6 +5040,7 @@
             ]
         },
         "x587": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.55",
             "achievement": "character.achievement.battle.field-operations.2878",
             "cSiblings": [
@@ -4422,6 +5048,7 @@
             ]
         },
         "x588": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.55",
             "achievement": "character.achievement.battle.field-operations.2879",
             "cSiblings": [
@@ -4429,6 +5056,7 @@
             ]
         },
         "x589": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.55",
             "achievement": "character.achievement.battle.field-operations.2880",
             "cSiblings": [
@@ -4436,6 +5064,7 @@
             ]
         },
         "x590": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.55",
             "achievement": "character.achievement.battle.field-operations.2881",
             "cSiblings": [
@@ -4443,6 +5072,7 @@
             ]
         },
         "x591": {
+            "category": "CATEGORY.BATTLE",
             "patch": "5.55",
             "achievement": "character.achievement.battle.field-operations.2882",
             "cSiblings": [
@@ -4450,6 +5080,7 @@
             ]
         },
         "x592": {
+            "category": "CATEGORY.QUEST",
             "patch": "5.55",
             "achievement": "character.achievement.quests.quests.2884",
             "cSiblings": [
@@ -4457,6 +5088,7 @@
             ]
         },
         "x488": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "defaultCompletion": "X",
             "achievement": "character.achievement.crafting--gathering.all-disciplines.2487",
@@ -4465,6 +5097,7 @@
             ]
         },
         "x547": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.31",
             "defaultCompletion": "X",
             "achievement": "character.achievement.crafting--gathering.all-disciplines.2712",
@@ -4473,6 +5106,7 @@
             ]
         },
         "x557": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.41",
             "defaultCompletion": "X",
             "achievement": "character.achievement.crafting--gathering.all-disciplines.2785",
@@ -4481,6 +5115,7 @@
             ]
         },
         "x489": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.21",
             "defaultCompletion": "X",
             "achievement": "character.achievement.crafting--gathering.all-disciplines.2488",
@@ -4489,6 +5124,7 @@
             ]
         },
         "x548": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.31",
             "defaultCompletion": "X",
             "achievement": "character.achievement.crafting--gathering.all-disciplines.2713",
@@ -4497,6 +5133,7 @@
             ]
         },
         "x558": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
             "patch": "5.41",
             "defaultCompletion": "X",
             "achievement": "character.achievement.crafting--gathering.all-disciplines.2786",
