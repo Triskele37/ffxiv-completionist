@@ -37,6 +37,13 @@ export const CRAFTING_LOG_DEFINITION: GroupDefinition = {
                         'ameliance',
                     ]
                 },
+                {
+                    path: 'story',
+                    subGroups: [
+                        'crystarium-deliveries',
+                        'studium',
+                    ]
+                },
                 'dyes'
             ]
         }
@@ -116,8 +123,6 @@ function defineCrafter(crafter: Crafter): GroupDefinition {
         path: 'story',
         subGroups: [
             'class-quests',
-            'crystarium-deliveries',
-            'studium',
         ]
     });
 

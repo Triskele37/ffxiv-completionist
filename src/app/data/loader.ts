@@ -136,23 +136,32 @@ function mapTasks(common, locale) {
                 tasks[id].id = parseInt(id.substr(1), 10);
 
                 common.common?.forEach((field) => {
-                    const value = tasks[id][field];
-                    if(Array.isArray(value)) {
-                        tasks[id][field] = value.map((v) => {
-                            const transKey = `DATA.${v}`;
-                            const cmn = refs.translate.instant(transKey);
-                            return cmn === transKey ? v : cmn;
-                        });
-                    }
-                    else {
-                        const transKey = `DATA.${value}`;
-                        const cmn = refs.translate.instant(transKey);
-                        if(cmn !== transKey) tasks[id][field] = cmn;
-                    }
+                    tasks[id][field] = replaceCommonStrings(tasks[id][field]);
                 });
             }
         }
     }
 
     return tasks;
+}
+
+function replaceCommonStrings(value: string | string[]): string | string[] {
+    if(!value) return value;
+
+    if(Array.isArray(value)) return value.map((v) => getCommonTranslation(v));
+    else return getCommonTranslation(value);
+}
+
+function getCommonTranslation(value: string): string {
+    const keys = value.match(/[A-Z0-9_]+.[A-Z0-9_.]+/g);
+    if(!keys) return value;
+
+    return keys.reduce((acc, key) => {
+        // Attempt to get a common translation
+        const fullKey = `DATA.${key}`;
+        const common = refs.translate.instant(fullKey);
+
+        if(common === fullKey) return acc; // Not found
+        else return acc.replace(key, common); // Found
+    }, value);
 }

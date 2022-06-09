@@ -1,5 +1,6 @@
 {
     "key": "beast-tribe-reputation",
+    "common": ["expansion"],
     "headers": {
         "expansion": {
             "filterable": true
@@ -7,6 +8,7 @@
     },
     "tasks": {
         "x0": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "150",
             "cNext": [
                 1
@@ -17,6 +19,7 @@
             ]
         },
         "x1": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "360",
             "cPrev": [
                 0
@@ -30,6 +33,7 @@
             ]
         },
         "x2": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "510",
             "cPrev": [
                 1
@@ -43,6 +47,7 @@
             ]
         },
         "x3": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "-",
             "cPrev": [
                 2
@@ -56,6 +61,7 @@
             ]
         },
         "x4": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "-",
             "cPrev": [
                 3
@@ -65,6 +71,7 @@
             ]
         },
         "x5": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "150",
             "cNext": [
                 6
@@ -75,6 +82,7 @@
             ]
         },
         "x6": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "360",
             "cPrev": [
                 5
@@ -88,6 +96,7 @@
             ]
         },
         "x7": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "510",
             "cPrev": [
                 6
@@ -101,6 +110,7 @@
             ]
         },
         "x8": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "-",
             "cPrev": [
                 7
@@ -114,6 +124,7 @@
             ]
         },
         "x9": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "-",
             "cPrev": [
                 8
@@ -123,6 +134,7 @@
             ]
         },
         "x10": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "150",
             "cNext": [
                 11
@@ -133,6 +145,7 @@
             ]
         },
         "x11": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "360",
             "cPrev": [
                 10
@@ -146,6 +159,7 @@
             ]
         },
         "x12": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "510",
             "cPrev": [
                 11
@@ -159,6 +173,7 @@
             ]
         },
         "x13": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "-",
             "cPrev": [
                 12
@@ -172,6 +187,7 @@
             ]
         },
         "x14": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "-",
             "cPrev": [
                 13
@@ -181,6 +197,7 @@
             ]
         },
         "x15": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "150",
             "cNext": [
                 16
@@ -191,6 +208,7 @@
             ]
         },
         "x16": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "360",
             "cPrev": [
                 15
@@ -204,6 +222,7 @@
             ]
         },
         "x17": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "510",
             "cPrev": [
                 16
@@ -217,6 +236,7 @@
             ]
         },
         "x18": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "-",
             "cPrev": [
                 17
@@ -230,6 +250,7 @@
             ]
         },
         "x19": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "-",
             "cPrev": [
                 18
@@ -239,6 +260,7 @@
             ]
         },
         "x20": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "150",
             "cNext": [
                 21
@@ -249,6 +271,7 @@
             ]
         },
         "x21": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "360",
             "cPrev": [
                 20
@@ -261,6 +284,7 @@
             ]
         },
         "x22": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "510",
             "cPrev": [
                 21
@@ -274,6 +298,7 @@
             ]
         },
         "x23": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "720",
             "cPrev": [
                 22
@@ -286,6 +311,7 @@
             ]
         },
         "x24": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "990",
             "cPrev": [
                 23
@@ -299,6 +325,7 @@
             ]
         },
         "x25": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "1320",
             "cPrev": [
                 24
@@ -311,6 +338,7 @@
             ]
         },
         "x26": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "-",
             "cPrev": [
                 25
@@ -324,6 +352,7 @@
             ]
         },
         "x27": {
+            "expansion": "EXPANSION.ARR",
             "reputationToCap": "-",
             "cPrev": [
                 26
@@ -333,6 +362,7 @@
             ]
         },
         "x28": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "150",
             "cNext": [
                 29
@@ -343,6 +373,7 @@
             ]
         },
         "x29": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "360",
             "cPrev": [
                 28
@@ -355,6 +386,7 @@
             ]
         },
         "x30": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "510",
             "cPrev": [
                 29
@@ -368,6 +400,7 @@
             ]
         },
         "x31": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "720",
             "cPrev": [
                 30
@@ -380,6 +413,7 @@
             ]
         },
         "x32": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "990",
             "cPrev": [
                 31
@@ -393,6 +427,7 @@
             ]
         },
         "x33": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "1320",
             "cPrev": [
                 32
@@ -405,6 +440,7 @@
             ]
         },
         "x34": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "1730",
             "cPrev": [
                 33
@@ -418,6 +454,7 @@
             ]
         },
         "x35": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "-",
             "cPrev": [
                 34
@@ -430,6 +467,7 @@
             ]
         },
         "x36": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "-",
             "cPrev": [
                 35
@@ -439,6 +477,7 @@
             ]
         },
         "x37": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "510",
             "cNext": [
                 38
@@ -449,6 +488,7 @@
             ]
         },
         "x38": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "720",
             "cPrev": [
                 37
@@ -462,6 +502,7 @@
             ]
         },
         "x39": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "990",
             "cPrev": [
                 38
@@ -474,6 +515,7 @@
             ]
         },
         "x40": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "1320",
             "cPrev": [
                 39
@@ -487,6 +529,7 @@
             ]
         },
         "x41": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "1730",
             "cPrev": [
                 40
@@ -500,6 +543,7 @@
             ]
         },
         "x42": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "-",
             "cPrev": [
                 41
@@ -512,6 +556,7 @@
             ]
         },
         "x43": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "-",
             "cPrev": [
                 42
@@ -521,6 +566,7 @@
             ]
         },
         "x44": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "150",
             "cNext": [
                 45
@@ -531,6 +577,7 @@
             ]
         },
         "x45": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "360",
             "cPrev": [
                 44
@@ -543,6 +590,7 @@
             ]
         },
         "x46": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "510",
             "cPrev": [
                 45
@@ -556,6 +604,7 @@
             ]
         },
         "x47": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "720",
             "cPrev": [
                 46
@@ -568,6 +617,7 @@
             ]
         },
         "x48": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "990",
             "cPrev": [
                 47
@@ -581,6 +631,7 @@
             ]
         },
         "x49": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "1320",
             "cPrev": [
                 48
@@ -593,6 +644,7 @@
             ]
         },
         "x50": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "1730",
             "cPrev": [
                 49
@@ -606,6 +658,7 @@
             ]
         },
         "x51": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "-",
             "cPrev": [
                 50
@@ -618,6 +671,7 @@
             ]
         },
         "x52": {
+            "expansion": "EXPANSION.HW",
             "reputationToCap": "-",
             "cPrev": [
                 51
@@ -627,6 +681,7 @@
             ]
         },
         "x53": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "510",
             "cNext": [
                 54
@@ -637,6 +692,7 @@
             ]
         },
         "x54": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "720",
             "cPrev": [
                 53
@@ -650,6 +706,7 @@
             ]
         },
         "x55": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "990",
             "cPrev": [
                 54
@@ -662,6 +719,7 @@
             ]
         },
         "x56": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "1320",
             "cPrev": [
                 55
@@ -675,6 +733,7 @@
             ]
         },
         "x57": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "1730",
             "cPrev": [
                 56
@@ -688,6 +747,7 @@
             ]
         },
         "x58": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "-",
             "cPrev": [
                 57
@@ -700,6 +760,7 @@
             ]
         },
         "x59": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "-",
             "cPrev": [
                 58
@@ -709,6 +770,7 @@
             ]
         },
         "x60": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "510",
             "cNext": [
                 61
@@ -719,6 +781,7 @@
             ]
         },
         "x61": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "720",
             "cPrev": [
                 60
@@ -732,6 +795,7 @@
             ]
         },
         "x62": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "990",
             "cPrev": [
                 61
@@ -744,6 +808,7 @@
             ]
         },
         "x63": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "1320",
             "cPrev": [
                 62
@@ -757,6 +822,7 @@
             ]
         },
         "x64": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "1730",
             "cPrev": [
                 63
@@ -770,6 +836,7 @@
             ]
         },
         "x65": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "-",
             "cPrev": [
                 64
@@ -782,6 +849,7 @@
             ]
         },
         "x66": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "-",
             "cPrev": [
                 65
@@ -791,6 +859,7 @@
             ]
         },
         "x67": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "510",
             "cNext": [
                 68
@@ -801,6 +870,7 @@
             ]
         },
         "x68": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "720",
             "cPrev": [
                 67
@@ -814,6 +884,7 @@
             ]
         },
         "x69": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "990",
             "cPrev": [
                 68
@@ -826,6 +897,7 @@
             ]
         },
         "x70": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "1320",
             "cPrev": [
                 69
@@ -839,6 +911,7 @@
             ]
         },
         "x71": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "1730",
             "cPrev": [
                 70
@@ -852,6 +925,7 @@
             ]
         },
         "x72": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "-",
             "cPrev": [
                 71
@@ -864,6 +938,7 @@
             ]
         },
         "x73": {
+            "expansion": "EXPANSION.SB",
             "reputationToCap": "-",
             "cPrev": [
                 72
@@ -873,6 +948,7 @@
             ]
         },
         "x86": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "510",
             "cNext": [
                 87
@@ -883,6 +959,7 @@
             ]
         },
         "x87": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "720",
             "cPrev": [
                 86
@@ -896,6 +973,7 @@
             ]
         },
         "x88": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "990",
             "cPrev": [
                 87
@@ -908,6 +986,7 @@
             ]
         },
         "x89": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "1320",
             "cPrev": [
                 88
@@ -921,6 +1000,7 @@
             ]
         },
         "x90": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "1730",
             "cPrev": [
                 89
@@ -934,6 +1014,7 @@
             ]
         },
         "x91": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "-",
             "cPrev": [
                 90
@@ -943,6 +1024,7 @@
             ]
         },
         "x80": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "510",
             "cNext": [
                 81
@@ -953,6 +1035,7 @@
             ]
         },
         "x81": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "720",
             "cPrev": [
                 80
@@ -966,6 +1049,7 @@
             ]
         },
         "x82": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "990",
             "cPrev": [
                 81
@@ -978,6 +1062,7 @@
             ]
         },
         "x83": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "1320",
             "cPrev": [
                 82
@@ -991,6 +1076,7 @@
             ]
         },
         "x84": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "1730",
             "cPrev": [
                 83
@@ -1004,6 +1090,7 @@
             ]
         },
         "x85": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "-",
             "cPrev": [
                 84
@@ -1013,6 +1100,7 @@
             ]
         },
         "x74": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "510",
             "cNext": [
                 75
@@ -1023,6 +1111,7 @@
             ]
         },
         "x75": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "720",
             "cPrev": [
                 74
@@ -1036,6 +1125,7 @@
             ]
         },
         "x76": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "990",
             "cPrev": [
                 75
@@ -1048,6 +1138,7 @@
             ]
         },
         "x77": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "1320",
             "cPrev": [
                 76
@@ -1061,6 +1152,7 @@
             ]
         },
         "x78": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "1730",
             "cPrev": [
                 77
@@ -1074,6 +1166,7 @@
             ]
         },
         "x79": {
+            "expansion": "EXPANSION.SHB",
             "reputationToCap": "-",
             "cPrev": [
                 78
@@ -1083,6 +1176,7 @@
             ]
         },
         "x92": {
+            "expansion": "EXPANSION.EW",
             "reputationToCap": "510",
             "cNext": [93],
             "cSiblings": [
@@ -1091,6 +1185,7 @@
             ]
         },
         "x93": {
+            "expansion": "EXPANSION.EW",
             "reputationToCap": "720",
             "cPrev": [92],
             "cNext": [94],
@@ -1100,6 +1195,7 @@
             ]
         },
         "x94": {
+            "expansion": "EXPANSION.EW",
             "reputationToCap": "990",
             "cPrev": [93],
             "cNext": [95],
@@ -1108,6 +1204,7 @@
             ]
         },
         "x95": {
+            "expansion": "EXPANSION.EW",
             "reputationToCap": "1320",
             "cPrev": [94],
             "cNext": [96],
@@ -1117,6 +1214,7 @@
             ]
         },
         "x96": {
+            "expansion": "EXPANSION.EW",
             "reputationToCap": "1730",
             "cPrev": [95],
             "cNext": [97],
@@ -1126,6 +1224,7 @@
             ]
         },
         "x97": {
+            "expansion": "EXPANSION.EW",
             "reputationToCap": "-",
             "cPrev": [96],
             "cSiblings": [

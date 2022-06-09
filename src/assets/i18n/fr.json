@@ -339,7 +339,8 @@
                 "CHANGE": {
                     "L1": "Grouped Role Quests by expansion",
                     "L2": "Merged \"Drop\" and \"Acquired\" columns for triad cards",
-                    "L3": "Sorted Minion Guide by in-game order"
+                    "L3": "Sorted Minion Guide by in-game order",
+                    "L4": "Merged Crystarium & Studium recipes into Shared log"
                 },
                 "FIX": {
                     "L1": "Various data/chain corrections",
@@ -553,7 +554,18 @@
             "BLM": "Mage noir",
             "SMN": "Invocateur",
             "RDM": "Mage rouge",
-            "BLU": "Mage bleu"
+            "BLU": "Mage bleu",
+            "MIN": "Mineur",
+            "BTN": "Botaniste",
+            "FSH": "Pêcheur",
+            "CRP": "Menuisier",
+            "BSM": "Forgeron",
+            "ARM": "Armurier",
+            "GSM": "Orfèvre",
+            "LTW": "Tanneur",
+            "WVR": "Couturier",
+            "ALC": "Alchimiste",
+            "CUL": "Cuisinier"
         },
         "ZONE": {
             "LA_NOSCEA": "Noscea",
@@ -586,10 +598,12 @@
             "NORTHERN_THANALAN": "Thanalan septentrional",
             "THE_GOLD_SAUCER": "Gold Saucer (Gold Saucer)",
             "CHOCOBO_SQUARE": "Gold Saucer (Square des chocobos)",
+            "BATTLE_HALL": "Arène Triple Triade",
             "COERTHAS_CENTRAL": "Hautes terres du Coerthas central",
             "MOR_DHONA": "Mor Dhona",
             "FOUNDATION": "Ishgard - L'Assise",
             "THE_PILLARS": "Ishgard - Les Contreforts",
+            "FORTEMPS_MANOR": "Manoir des Fortemps",
             "COERTHAS_WESTERN": "Hautes terres du Coerthas occidentale",
             "THE_SEA_OF_CLOUDS": "L'Écume des cieux d'Abalathia",
             "AZYS_LLA": "Azys Lla",
@@ -615,6 +629,8 @@
             "IL_MHEG": "Il Mheg",
             "RAK_TIKA": "Rak'tika",
             "THE_TEMPEST": "La Tempête",
+            "GANGOS": "Gangos",
+            "TERNCLIFF": "Terncliff",
             "OLD_SHARLAYAN": "Vieille Sharlayan",
             "LABYRINTHOS": "Le Labyrinthos",
             "RADZ_AT_HAN": "Radz-at-Han",
@@ -630,6 +646,12 @@
             "THE_ROTHLYT_SOUND":  "Golfe de Rothlyt",
             "THE_SOUTHERN_STRAIT_OF_MERLTHOR": "Détroit sud de Merlthor",
             "THE_NORTHERN_STRAIT_OF_MERLTHOR": "Détroit nord de Merlthor"
+        },
+        "REGION": {
+            "ABALATHIA": "Abalathia",
+            "DRAVANIA": "Dravania",
+            "GYR_ABANIA": "Gyr Abania",
+            "OTHARD": "Othard"
         },
         "BAIT": {
             "PILL_BUG": "Cloporte",
@@ -743,6 +765,46 @@
             "7": "Assermenté",
             "8": "Assermenté★",
             "9": "Allié"
+        },
+        "CATEGORY": {
+            "ACHIEVEMENT": "Haut fait",
+            "BATTLE": "Combats",
+            "BEAST_TRIBE": "Tribus barbares",
+            "CHARACTER": "Personnage",
+            "CRAFTING_GATHERING": "Synthèse et récolte",
+            "DEEP_DUNGEON": "Donjon sans fond",
+            "DUNGEON": "Donjon",
+            "DUTY": "Mission",
+            "EVENT": "Événement",
+            "EXPLORATION": "Exploration",
+            "EXPLORATORY_MISSION": "Mission d'exploration",
+            "FATE": "ALÉA",
+            "GRAND_COMPANY": "Grandes compagnies",
+            "ITEMS": "Objets",
+            "LEGACY": "Legacy",
+            "OTHER": "Autre",
+            "PREMIUM": "Premium",
+            "PURCHASE": "Achat",
+            "PVP": "JcJ",
+            "QUEST": "Quête",
+            "RAID": "Raid",
+            "TREASURE_HUNT": "Chasse aux trésors",
+            "TRIAL": "Défi",
+            "VENTURE": "Servant",
+            "VOYAGE": "Expédition",
+            "WONDROUS_TAILS": "Carnet de Khloe"
+        },
+        "SOCIETY": {
+            "MAELSTROM": "Le Maelstrom",
+            "ADDER": "L'ordre des Deux Vipères",
+            "FLAMES": "Les Immortels"
+        },
+        "EXPANSION": {
+            "ARR": "A Realm Reborn",
+            "HW": "Heavensward",
+            "SB": "Stormblood",
+            "SHB": "Shadowbringers",
+            "EW": "Endwalker"
         }
     }
 }

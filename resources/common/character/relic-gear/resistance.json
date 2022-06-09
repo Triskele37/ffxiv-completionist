@@ -1,7 +1,9 @@
 {
     "key": "resistance",
+    "common": ["job"],
     "tasks": {
         "x0": {
+            "job": "CLASS_JOB.AST",
             "iLevel": "485",
             "cNext": [
                 1
@@ -11,6 +13,7 @@
             ]
         },
         "x1": {
+            "job": "CLASS_JOB.AST",
             "iLevel": "500",
             "cPrev": [
                 0
@@ -20,6 +23,7 @@
             ]
         },
         "x2": {
+            "job": "CLASS_JOB.AST",
             "iLevel": "500",
             "cPrev": [
                 1
@@ -32,6 +36,7 @@
             ]
         },
         "x3": {
+            "job": "CLASS_JOB.AST",
             "iLevel": "510",
             "cPrev": [
                 2
@@ -41,6 +46,7 @@
             ]
         },
         "x4": {
+            "job": "CLASS_JOB.AST",
             "iLevel": "515",
             "cPrev": [
                 3
@@ -53,6 +59,7 @@
             ]
         },
         "x85": {
+            "job": "CLASS_JOB.AST",
             "iLevel": "535",
             "cPrev": [
                 4
@@ -62,6 +69,7 @@
             ]
         },
         "x5": {
+            "job": "CLASS_JOB.BRD",
             "iLevel": "485",
             "cNext": [
                 6
@@ -71,6 +79,7 @@
             ]
         },
         "x6": {
+            "job": "CLASS_JOB.BRD",
             "iLevel": "500",
             "cPrev": [
                 5
@@ -80,6 +89,7 @@
             ]
         },
         "x7": {
+            "job": "CLASS_JOB.BRD",
             "iLevel": "500",
             "cPrev": [
                 6
@@ -92,6 +102,7 @@
             ]
         },
         "x8": {
+            "job": "CLASS_JOB.BRD",
             "iLevel": "510",
             "cPrev": [
                 7
@@ -101,6 +112,7 @@
             ]
         },
         "x9": {
+            "job": "CLASS_JOB.BRD",
             "iLevel": "515",
             "cPrev": [
                 8
@@ -113,6 +125,7 @@
             ]
         },
         "x86": {
+            "job": "CLASS_JOB.BRD",
             "iLevel": "535",
             "cPrev": [
                 9
@@ -122,6 +135,7 @@
             ]
         },
         "x10": {
+            "job": "CLASS_JOB.BLM",
             "iLevel": "485",
             "cNext": [
                 11
@@ -131,6 +145,7 @@
             ]
         },
         "x11": {
+            "job": "CLASS_JOB.BLM",
             "iLevel": "500",
             "cPrev": [
                 10
@@ -140,6 +155,7 @@
             ]
         },
         "x12": {
+            "job": "CLASS_JOB.BLM",
             "iLevel": "500",
             "cPrev": [
                 11
@@ -152,6 +168,7 @@
             ]
         },
         "x13": {
+            "job": "CLASS_JOB.BLM",
             "iLevel": "510",
             "cPrev": [
                 12
@@ -161,6 +178,7 @@
             ]
         },
         "x14": {
+            "job": "CLASS_JOB.BLM",
             "iLevel": "515",
             "cPrev": [
                 13
@@ -173,6 +191,7 @@
             ]
         },
         "x87": {
+            "job": "CLASS_JOB.BLM",
             "iLevel": "535",
             "cPrev": [
                 14
@@ -182,6 +201,7 @@
             ]
         },
         "x15": {
+            "job": "CLASS_JOB.DNC",
             "iLevel": "485",
             "cNext": [
                 16
@@ -191,6 +211,7 @@
             ]
         },
         "x16": {
+            "job": "CLASS_JOB.DNC",
             "iLevel": "500",
             "cPrev": [
                 15
@@ -200,6 +221,7 @@
             ]
         },
         "x17": {
+            "job": "CLASS_JOB.DNC",
             "iLevel": "500",
             "cPrev": [
                 16
@@ -212,6 +234,7 @@
             ]
         },
         "x18": {
+            "job": "CLASS_JOB.DNC",
             "iLevel": "510",
             "cPrev": [
                 17
@@ -221,6 +244,7 @@
             ]
         },
         "x19": {
+            "job": "CLASS_JOB.DNC",
             "iLevel": "515",
             "cPrev": [
                 18
@@ -233,6 +257,7 @@
             ]
         },
         "x88": {
+            "job": "CLASS_JOB.DNC",
             "iLevel": "535",
             "cPrev": [
                 19
@@ -242,6 +267,7 @@
             ]
         },
         "x20": {
+            "job": "CLASS_JOB.DRK",
             "iLevel": "485",
             "cNext": [
                 21
@@ -251,6 +277,7 @@
             ]
         },
         "x21": {
+            "job": "CLASS_JOB.DRK",
             "iLevel": "500",
             "cPrev": [
                 20
@@ -260,6 +287,7 @@
             ]
         },
         "x22": {
+            "job": "CLASS_JOB.DRK",
             "iLevel": "500",
             "cPrev": [
                 21
@@ -272,6 +300,7 @@
             ]
         },
         "x23": {
+            "job": "CLASS_JOB.DRK",
             "iLevel": "510",
             "cPrev": [
                 22
@@ -281,6 +310,7 @@
             ]
         },
         "x24": {
+            "job": "CLASS_JOB.DRK",
             "iLevel": "515",
             "cPrev": [
                 23
@@ -293,6 +323,7 @@
             ]
         },
         "x89": {
+            "job": "CLASS_JOB.DRK",
             "iLevel": "535",
             "cPrev": [
                 24
@@ -302,6 +333,7 @@
             ]
         },
         "x25": {
+            "job": "CLASS_JOB.DRG",
             "iLevel": "485",
             "cNext": [
                 26
@@ -311,6 +343,7 @@
             ]
         },
         "x26": {
+            "job": "CLASS_JOB.DRG",
             "iLevel": "500",
             "cPrev": [
                 25
@@ -320,6 +353,7 @@
             ]
         },
         "x27": {
+            "job": "CLASS_JOB.DRG",
             "iLevel": "500",
             "cPrev": [
                 26
@@ -332,6 +366,7 @@
             ]
         },
         "x28": {
+            "job": "CLASS_JOB.DRG",
             "iLevel": "510",
             "cPrev": [
                 27
@@ -341,6 +376,7 @@
             ]
         },
         "x29": {
+            "job": "CLASS_JOB.DRG",
             "iLevel": "515",
             "cPrev": [
                 28
@@ -353,6 +389,7 @@
             ]
         },
         "x90": {
+            "job": "CLASS_JOB.DRG",
             "iLevel": "535",
             "cPrev": [
                 29
@@ -362,6 +399,7 @@
             ]
         },
         "x30": {
+            "job": "CLASS_JOB.GNB",
             "iLevel": "485",
             "cNext": [
                 31
@@ -371,6 +409,7 @@
             ]
         },
         "x31": {
+            "job": "CLASS_JOB.GNB",
             "iLevel": "500",
             "cPrev": [
                 30
@@ -380,6 +419,7 @@
             ]
         },
         "x32": {
+            "job": "CLASS_JOB.GNB",
             "iLevel": "500",
             "cPrev": [
                 31
@@ -392,6 +432,7 @@
             ]
         },
         "x33": {
+            "job": "CLASS_JOB.GNB",
             "iLevel": "510",
             "cPrev": [
                 32
@@ -401,6 +442,7 @@
             ]
         },
         "x34": {
+            "job": "CLASS_JOB.GNB",
             "iLevel": "515",
             "cPrev": [
                 33
@@ -413,6 +455,7 @@
             ]
         },
         "x91": {
+            "job": "CLASS_JOB.GNB",
             "iLevel": "535",
             "cPrev": [
                 34
@@ -422,6 +465,7 @@
             ]
         },
         "x35": {
+            "job": "CLASS_JOB.MCH",
             "iLevel": "485",
             "cNext": [
                 36
@@ -431,6 +475,7 @@
             ]
         },
         "x36": {
+            "job": "CLASS_JOB.MCH",
             "iLevel": "500",
             "cPrev": [
                 35
@@ -440,6 +485,7 @@
             ]
         },
         "x37": {
+            "job": "CLASS_JOB.MCH",
             "iLevel": "500",
             "cPrev": [
                 36
@@ -452,6 +498,7 @@
             ]
         },
         "x38": {
+            "job": "CLASS_JOB.MCH",
             "iLevel": "510",
             "cPrev": [
                 37
@@ -461,6 +508,7 @@
             ]
         },
         "x39": {
+            "job": "CLASS_JOB.MCH",
             "iLevel": "515",
             "cPrev": [
                 38
@@ -473,6 +521,7 @@
             ]
         },
         "x92": {
+            "job": "CLASS_JOB.MCH",
             "iLevel": "535",
             "cPrev": [
                 39
@@ -482,6 +531,7 @@
             ]
         },
         "x40": {
+            "job": "CLASS_JOB.MNK",
             "iLevel": "485",
             "cNext": [
                 41
@@ -491,6 +541,7 @@
             ]
         },
         "x41": {
+            "job": "CLASS_JOB.MNK",
             "iLevel": "500",
             "cPrev": [
                 40
@@ -500,6 +551,7 @@
             ]
         },
         "x42": {
+            "job": "CLASS_JOB.MNK",
             "iLevel": "500",
             "cPrev": [
                 41
@@ -512,6 +564,7 @@
             ]
         },
         "x43": {
+            "job": "CLASS_JOB.MNK",
             "iLevel": "510",
             "cPrev": [
                 42
@@ -521,6 +574,7 @@
             ]
         },
         "x44": {
+            "job": "CLASS_JOB.MNK",
             "iLevel": "515",
             "cPrev": [
                 43
@@ -533,6 +587,7 @@
             ]
         },
         "x93": {
+            "job": "CLASS_JOB.MNK",
             "iLevel": "535",
             "cPrev": [
                 44
@@ -542,6 +597,7 @@
             ]
         },
         "x45": {
+            "job": "CLASS_JOB.NIN",
             "iLevel": "485",
             "cNext": [
                 46
@@ -551,6 +607,7 @@
             ]
         },
         "x46": {
+            "job": "CLASS_JOB.NIN",
             "iLevel": "500",
             "cPrev": [
                 45
@@ -560,6 +617,7 @@
             ]
         },
         "x47": {
+            "job": "CLASS_JOB.NIN",
             "iLevel": "500",
             "cPrev": [
                 46
@@ -572,6 +630,7 @@
             ]
         },
         "x48": {
+            "job": "CLASS_JOB.NIN",
             "iLevel": "510",
             "cPrev": [
                 47
@@ -581,6 +640,7 @@
             ]
         },
         "x49": {
+            "job": "CLASS_JOB.NIN",
             "iLevel": "515",
             "cPrev": [
                 48
@@ -593,6 +653,7 @@
             ]
         },
         "x94": {
+            "job": "CLASS_JOB.NIN",
             "iLevel": "535",
             "cPrev": [
                 49
@@ -602,6 +663,7 @@
             ]
         },
         "x50": {
+            "job": "CLASS_JOB.PLD",
             "iLevel": "485",
             "cNext": [
                 51
@@ -611,6 +673,7 @@
             ]
         },
         "x51": {
+            "job": "CLASS_JOB.PLD",
             "iLevel": "500",
             "cPrev": [
                 50
@@ -620,6 +683,7 @@
             ]
         },
         "x52": {
+            "job": "CLASS_JOB.PLD",
             "iLevel": "500",
             "cPrev": [
                 51
@@ -632,6 +696,7 @@
             ]
         },
         "x53": {
+            "job": "CLASS_JOB.PLD",
             "iLevel": "510",
             "cPrev": [
                 52
@@ -641,6 +706,7 @@
             ]
         },
         "x54": {
+            "job": "CLASS_JOB.PLD",
             "iLevel": "515",
             "cPrev": [
                 53
@@ -653,6 +719,7 @@
             ]
         },
         "x95": {
+            "job": "CLASS_JOB.PLD",
             "iLevel": "535",
             "cPrev": [
                 54
@@ -662,6 +729,7 @@
             ]
         },
         "x55": {
+            "job": "CLASS_JOB.RDM",
             "iLevel": "485",
             "cNext": [
                 56
@@ -671,6 +739,7 @@
             ]
         },
         "x56": {
+            "job": "CLASS_JOB.RDM",
             "iLevel": "500",
             "cPrev": [
                 55
@@ -680,6 +749,7 @@
             ]
         },
         "x57": {
+            "job": "CLASS_JOB.RDM",
             "iLevel": "500",
             "cPrev": [
                 56
@@ -692,6 +762,7 @@
             ]
         },
         "x58": {
+            "job": "CLASS_JOB.RDM",
             "iLevel": "510",
             "cPrev": [
                 57
@@ -701,6 +772,7 @@
             ]
         },
         "x59": {
+            "job": "CLASS_JOB.RDM",
             "iLevel": "515",
             "cPrev": [
                 58
@@ -713,6 +785,7 @@
             ]
         },
         "x96": {
+            "job": "CLASS_JOB.RDM",
             "iLevel": "535",
             "cPrev": [
                 59
@@ -722,6 +795,7 @@
             ]
         },
         "x60": {
+            "job": "CLASS_JOB.SAM",
             "iLevel": "485",
             "cNext": [
                 61
@@ -731,6 +805,7 @@
             ]
         },
         "x61": {
+            "job": "CLASS_JOB.SAM",
             "iLevel": "500",
             "cPrev": [
                 60
@@ -740,6 +815,7 @@
             ]
         },
         "x62": {
+            "job": "CLASS_JOB.SAM",
             "iLevel": "500",
             "cPrev": [
                 61
@@ -752,6 +828,7 @@
             ]
         },
         "x63": {
+            "job": "CLASS_JOB.SAM",
             "iLevel": "510",
             "cPrev": [
                 62
@@ -761,6 +838,7 @@
             ]
         },
         "x64": {
+            "job": "CLASS_JOB.SAM",
             "iLevel": "515",
             "cPrev": [
                 63
@@ -773,6 +851,7 @@
             ]
         },
         "x97": {
+            "job": "CLASS_JOB.SAM",
             "iLevel": "535",
             "cPrev": [
                 64
@@ -782,6 +861,7 @@
             ]
         },
         "x65": {
+            "job": "CLASS_JOB.SCH",
             "iLevel": "485",
             "cNext": [
                 66
@@ -791,6 +871,7 @@
             ]
         },
         "x66": {
+            "job": "CLASS_JOB.SCH",
             "iLevel": "500",
             "cPrev": [
                 65
@@ -800,6 +881,7 @@
             ]
         },
         "x67": {
+            "job": "CLASS_JOB.SCH",
             "iLevel": "500",
             "cPrev": [
                 66
@@ -812,6 +894,7 @@
             ]
         },
         "x68": {
+            "job": "CLASS_JOB.SCH",
             "iLevel": "510",
             "cPrev": [
                 67
@@ -821,6 +904,7 @@
             ]
         },
         "x69": {
+            "job": "CLASS_JOB.SCH",
             "iLevel": "515",
             "cPrev": [
                 68
@@ -833,6 +917,7 @@
             ]
         },
         "x98": {
+            "job": "CLASS_JOB.SCH",
             "iLevel": "535",
             "cPrev": [
                 69
@@ -842,6 +927,7 @@
             ]
         },
         "x70": {
+            "job": "CLASS_JOB.SMN",
             "iLevel": "485",
             "cNext": [
                 71
@@ -851,6 +937,7 @@
             ]
         },
         "x71": {
+            "job": "CLASS_JOB.SMN",
             "iLevel": "500",
             "cPrev": [
                 70
@@ -860,6 +947,7 @@
             ]
         },
         "x72": {
+            "job": "CLASS_JOB.SMN",
             "iLevel": "500",
             "cPrev": [
                 71
@@ -872,6 +960,7 @@
             ]
         },
         "x73": {
+            "job": "CLASS_JOB.SMN",
             "iLevel": "510",
             "cPrev": [
                 72
@@ -881,6 +970,7 @@
             ]
         },
         "x74": {
+            "job": "CLASS_JOB.SMN",
             "iLevel": "515",
             "cPrev": [
                 73
@@ -893,6 +983,7 @@
             ]
         },
         "x99": {
+            "job": "CLASS_JOB.SMN",
             "iLevel": "535",
             "cPrev": [
                 74
@@ -902,6 +993,7 @@
             ]
         },
         "x75": {
+            "job": "CLASS_JOB.WAR",
             "iLevel": "485",
             "cNext": [
                 76
@@ -911,6 +1003,7 @@
             ]
         },
         "x76": {
+            "job": "CLASS_JOB.WAR",
             "iLevel": "500",
             "cPrev": [
                 75
@@ -920,6 +1013,7 @@
             ]
         },
         "x77": {
+            "job": "CLASS_JOB.WAR",
             "iLevel": "500",
             "cPrev": [
                 76
@@ -932,6 +1026,7 @@
             ]
         },
         "x78": {
+            "job": "CLASS_JOB.WAR",
             "iLevel": "510",
             "cPrev": [
                 77
@@ -941,6 +1036,7 @@
             ]
         },
         "x79": {
+            "job": "CLASS_JOB.WAR",
             "iLevel": "515",
             "cPrev": [
                 78
@@ -953,6 +1049,7 @@
             ]
         },
         "x100": {
+            "job": "CLASS_JOB.WAR",
             "iLevel": "535",
             "cPrev": [
                 79
@@ -962,6 +1059,7 @@
             ]
         },
         "x80": {
+            "job": "CLASS_JOB.WHM",
             "iLevel": "485",
             "cNext": [
                 81
@@ -971,6 +1069,7 @@
             ]
         },
         "x81": {
+            "job": "CLASS_JOB.WHM",
             "iLevel": "500",
             "cPrev": [
                 80
@@ -980,6 +1079,7 @@
             ]
         },
         "x82": {
+            "job": "CLASS_JOB.WHM",
             "iLevel": "500",
             "cPrev": [
                 81
@@ -992,6 +1092,7 @@
             ]
         },
         "x83": {
+            "job": "CLASS_JOB.WHM",
             "iLevel": "510",
             "cPrev": [
                 82
@@ -1001,6 +1102,7 @@
             ]
         },
         "x84": {
+            "job": "CLASS_JOB.WHM",
             "iLevel": "515",
             "cPrev": [
                 83
@@ -1013,6 +1115,7 @@
             ]
         },
         "x101": {
+            "job": "CLASS_JOB.WHM",
             "iLevel": "535",
             "cPrev": [
                 84
