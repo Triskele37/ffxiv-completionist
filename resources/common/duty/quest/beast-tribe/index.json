@@ -1,3 +1,11 @@
 {
-    "key": "beast-tribe"
+    "key": "beast-tribe",
+    "headers": {
+        "type": {
+            "filterable": true
+        },
+        "reputation": {
+            "filterable": true
+        }
+    }
 }

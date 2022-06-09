@@ -1,8 +1,10 @@
 {
     "key": "ixal",
+    "common": ["type"],
     "tasks": {
         "x67022": {
             "level": 1,
+            "type": "CATEGORY.MAIN",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.66488"
             ],
@@ -12,6 +14,7 @@
         },
         "x67023": {
             "level": 1,
+            "type": "CATEGORY.MAIN",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8129",
                 67022
@@ -26,6 +29,7 @@
         },
         "x67024": {
             "level": 3,
+            "type": "CATEGORY.MAIN",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8130",
                 67023
@@ -39,6 +43,7 @@
         },
         "x67025": {
             "level": 6,
+            "type": "CATEGORY.MAIN",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8131",
                 67024
@@ -52,6 +57,7 @@
         },
         "x67026": {
             "level": 10,
+            "type": "CATEGORY.MAIN",
             "cPrev": [
                 67025
             ],
@@ -64,6 +70,7 @@
         },
         "x67027": {
             "level": 15,
+            "type": "CATEGORY.MAIN",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8132",
                 67026
@@ -77,6 +84,7 @@
         },
         "x67028": {
             "level": 16,
+            "type": "CATEGORY.MAIN",
             "cPrev": [
                 67027
             ],
@@ -89,6 +97,7 @@
         },
         "x67029": {
             "level": 18,
+            "type": "CATEGORY.MAIN",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8133",
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8134",
@@ -100,204 +109,238 @@
         },
         "x67105": {
             "level": 1,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 67023
             ]
         },
         "x67030": {
             "level": 1,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8091"
             ]
         },
         "x67031": {
             "level": 1,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8092"
             ]
         },
         "x67032": {
             "level": 1,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8093"
             ]
         },
         "x67033": {
             "level": 1,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8094"
             ]
         },
         "x67040": {
             "level": 3,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8095"
             ]
         },
         "x67041": {
             "level": 3,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8096"
             ]
         },
         "x67042": {
             "level": 3,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8097"
             ]
         },
         "x67043": {
             "level": 3,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8098"
             ]
         },
         "x67044": {
             "level": 3,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8099"
             ]
         },
         "x67050": {
             "level": 6,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8100"
             ]
         },
         "x67051": {
             "level": 6,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8101"
             ]
         },
         "x67052": {
             "level": 6,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8102"
             ]
         },
         "x67053": {
             "level": 6,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8103"
             ]
         },
         "x67054": {
             "level": 6,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8104"
             ]
         },
         "x67034": {
             "level": 10,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8105"
             ]
         },
         "x67035": {
             "level": 10,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8106"
             ]
         },
         "x67036": {
             "level": 10,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8107"
             ]
         },
         "x67037": {
             "level": 10,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8108"
             ]
         },
         "x67038": {
             "level": 10,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8109"
             ]
         },
         "x67039": {
             "level": 10,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8110"
             ]
         },
         "x67045": {
             "level": 15,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8112"
             ]
         },
         "x67046": {
             "level": 15,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8113"
             ]
         },
         "x67047": {
             "level": 15,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8114"
             ]
         },
         "x67048": {
             "level": 15,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8115"
             ]
         },
         "x67049": {
             "level": 15,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8117"
             ]
         },
         "x67055": {
             "level": 15,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8118"
             ]
         },
         "x67056": {
             "level": 16,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8120"
             ]
         },
         "x67057": {
             "level": 16,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8121"
             ]
         },
         "x67058": {
             "level": 16,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8122"
             ]
         },
         "x67059": {
             "level": 16,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8123"
             ]
         },
         "x67102": {
             "level": 16,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8125"
             ]
         },
         "x67103": {
             "level": 16,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8126"
             ]
         },
         "x67104": {
             "level": 16,
+            "type": "CATEGORY.DAILY",
             "cPrev": [
                 "logs.crafting-log.shared.beast-tribe-quests.ixal.8127"
             ]

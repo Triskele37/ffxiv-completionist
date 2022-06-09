@@ -1,8 +1,10 @@
 {
     "key": "qitari",
+    "common": ["type"],
     "tasks": {
         "x69330": {
             "level": 70,
+            "type": "CATEGORY.MAIN",
             "cPrev": [
                 "duty.quests.main-scenario.shadowbringers.68877",
                 "duty.quests.sidequests.raktika.the-raktika-greatwood.69018"
@@ -16,6 +18,7 @@
         },
         "x69331": {
             "level": 70,
+            "type": "CATEGORY.MAIN",
             "cPrev": [
                 69330
             ],
@@ -29,6 +32,7 @@
         },
         "x69336": {
             "level": 70,
+            "type": "CATEGORY.MAIN",
             "cExclude": [
                 69337
             ],
@@ -41,6 +45,7 @@
         },
         "x69337": {
             "level": 70,
+            "type": "CATEGORY.MAIN",
             "cExclude": [
                 69336
             ],
@@ -53,6 +58,7 @@
         },
         "x69332": {
             "level": 70,
+            "type": "CATEGORY.MAIN",
             "cNext": [
                 69338,
                 69339
@@ -68,6 +74,7 @@
         },
         "x69338": {
             "level": 70,
+            "type": "CATEGORY.MAIN",
             "cExclude": [
                 69339
             ],
@@ -80,6 +87,7 @@
         },
         "x69339": {
             "level": 70,
+            "type": "CATEGORY.MAIN",
             "cExclude": [
                 69338
             ],
@@ -92,6 +100,7 @@
         },
         "x69333": {
             "level": 70,
+            "type": "CATEGORY.MAIN",
             "cNext": [
                 69340,
                 69341
@@ -107,6 +116,7 @@
         },
         "x69340": {
             "level": 70,
+            "type": "CATEGORY.MAIN",
             "cExclude": [
                 69341
             ],
@@ -119,6 +129,7 @@
         },
         "x69341": {
             "level": 70,
+            "type": "CATEGORY.MAIN",
             "cExclude": [
                 69340
             ],
@@ -131,6 +142,7 @@
         },
         "x69334": {
             "level": 70,
+            "type": "CATEGORY.MAIN",
             "cNext": [
                 69335
             ],
@@ -145,6 +157,7 @@
         },
         "x69335": {
             "level": 70,
+            "type": "CATEGORY.MAIN",
             "cPrev": [
                 69334
             ],
@@ -153,88 +166,116 @@
             ]
         },
         "x69342": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69343": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69344": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69345": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69346": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69347": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69348": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69349": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69350": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69351": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69352": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69353": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69354": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69355": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69356": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69357": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69358": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69359": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69360": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69361": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69362": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69363": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69364": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69365": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69366": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69367": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69368": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         },
         "x69369": {
-            "level": 70
+            "level": 70,
+            "type": "CATEGORY.DAILY"
         }
     }
 }
