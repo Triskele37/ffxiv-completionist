@@ -2,7 +2,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
-import { ElectronService } from '@service/electron/electron.service';
+import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 
 import { Overlay } from '../Overlay';
 
@@ -48,7 +48,7 @@ export class SelectionOverlayComponent extends Overlay {
             while(parent._parent._parent?.isCraftingLogGroup) parent = parent._parent;
             const groupName = `${parent.name} > ${this.group.name}`;
 
-            this.svcElectron.ipcRenderer.sendSync('open-in-garland-tools', ids, groupName);
+            this.svcElectron.sendSync(IPC_EVENT.OPEN_IN_GARLAND_TOOLS, ids, groupName);
         }
     }
 
@@ -56,7 +56,7 @@ export class SelectionOverlayComponent extends Overlay {
         const ids = this.selectedIds();
 
         if(ids.length) {
-            this.svcElectron.ipcRenderer.sendSync('open-in-teamcraft', ids);
+            this.svcElectron.sendSync(IPC_EVENT.OPEN_IN_TEAMCRAFT, ids);
         }
     }
 }

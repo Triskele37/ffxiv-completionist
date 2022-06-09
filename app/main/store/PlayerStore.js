@@ -24,19 +24,30 @@ var PlayerStore = /** @class */ (function () {
     });
     PlayerStore.load = function () {
         var base = ConfigStore_1.ConfigStore.store['store-loc'] || electron_1.app.getPath('userData');
-        var file = (ConfigStore_1.ConfigStore.store['store-name'] || 'completion') + '.json';
-        PlayerStore.path = path.join(base, file);
+        var file = ConfigStore_1.ConfigStore.store['store-name'] || 'completion';
+        PlayerStore.path = path.join(base, file + '.json');
         PlayerStore.store = PlayerStore.defaultSave;
         // Get if it exists
-        var save = {};
+        var save = {}, successful = true;
         if (fs.existsSync(PlayerStore.path)) {
-            save = JSON.parse(fs.readFileSync(PlayerStore.path, 'utf8'));
+            try {
+                save = JSON.parse(fs.readFileSync(PlayerStore.path, 'utf8'));
+            }
+            catch (e) {
+                // Switch the target file to a temp so the original isn't wiped out
+                var temp = file + '.temp';
+                PlayerStore.path = path.join(base, temp + '.json');
+                ConfigStore_1.ConfigStore.store['store-name'] = temp;
+                ConfigStore_1.ConfigStore.save();
+                successful = false;
+            }
         }
         // Overwrite with defined properties matching default keys
         Object.keys(PlayerStore.store).forEach(function (key) {
             if (save[key] !== undefined)
                 PlayerStore.store[key] = save[key];
         });
+        return { data: PlayerStore.store, successful: successful };
     };
     PlayerStore.save = function () {
         // In the event a queuedSave exists and another save was called
@@ -58,8 +69,7 @@ var PlayerStore = /** @class */ (function () {
     PlayerStore.get = function (event) {
         if (!ConfigStore_1.ConfigStore.store)
             ConfigStore_1.ConfigStore.load();
-        PlayerStore.load();
-        event.returnValue = PlayerStore.store;
+        event.returnValue = PlayerStore.load();
     };
     PlayerStore.set = function (event, newSave) {
         PlayerStore.store = newSave;

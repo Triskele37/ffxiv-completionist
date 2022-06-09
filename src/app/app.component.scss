@@ -36,3 +36,13 @@
         height: 100%;
     }
 }
+
+:host {
+    ::ng-deep .p-toast-message-content {
+        background: var(--surface-f);
+
+        .p-toast-icon-close {
+            color: var(--text-color);
+        }
+    }
+}

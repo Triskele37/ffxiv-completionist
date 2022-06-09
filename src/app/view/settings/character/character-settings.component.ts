@@ -5,7 +5,7 @@ import { Completion, Lang } from '@constant';
 import { DataService } from '@data';
 import { Task } from '@domain/Task';
 import { ChainService } from '@service/chain/chain.service';
-import { ElectronService } from '@service/electron/electron.service';
+import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 
 import { Settings } from '../settings';
 import { SettingsComponent } from '../settings.component';
@@ -187,7 +187,7 @@ export class CharacterSettingsComponent implements OnInit {
     //#region------------------------------------------------------- Change Save
     onNewSaveClick(): void {
         this.showModal(() => {
-            const confirmed = this.svcElectron.ipcRenderer.sendSync('new-save');
+            const confirmed = this.svcElectron.sendSync(IPC_EVENT.NEW_SAVE);
             if(confirmed) location.reload();
             return confirmed;
         });
@@ -195,7 +195,7 @@ export class CharacterSettingsComponent implements OnInit {
 
     onLoadSaveClick(): void {
         this.showModal(() => {
-            const confirmed = this.svcElectron.ipcRenderer.sendSync('load-save');
+            const confirmed = this.svcElectron.sendSync(IPC_EVENT.LOAD_SAVE);
             if(confirmed) location.reload();
             return confirmed;
         });
@@ -205,11 +205,11 @@ export class CharacterSettingsComponent implements OnInit {
 
     //#region------------------------------------------------------- Open Folder
     onOpenConfigClick(): void {
-        this.svcElectron.ipcRenderer.sendSync('open-config');
+        this.svcElectron.sendSync(IPC_EVENT.OPEN_CONFIG);
     }
 
     onOpenSaveClick(): void {
-        this.svcElectron.ipcRenderer.sendSync('open-save');
+        this.svcElectron.sendSync(IPC_EVENT.OPEN_SAVE);
     }
 
     onOpenBothClick(): void {
@@ -224,14 +224,14 @@ export class CharacterSettingsComponent implements OnInit {
 
     onBackupConfigClick(): void {
         this.showModal(() => {
-            this.svcElectron.ipcRenderer.sendSync('backup-config');
+            this.svcElectron.sendSync(IPC_EVENT.BACKUP_CONFIG);
             return this.isBackingUpBoth;
         });
     }
 
     onBackupSaveClick(): void {
         this.showModal(() => {
-            this.svcElectron.ipcRenderer.sendSync('backup-save');
+            this.svcElectron.sendSync(IPC_EVENT.BACKUP_SAVE);
             this.isBackingUpBoth = false;
         });
     }
@@ -248,7 +248,7 @@ export class CharacterSettingsComponent implements OnInit {
     //#region------------------------------------------------------- Load Backup
     onLoadBackupConfigClick(): void {
         this.showModal(() => {
-            const confirmed = this.svcElectron.ipcRenderer.sendSync('load-backup-config');
+            const confirmed = this.svcElectron.sendSync(IPC_EVENT.LOAD_BACKUP_CONFIG);
             if(confirmed) location.reload();
             return confirmed;
         });
@@ -256,7 +256,7 @@ export class CharacterSettingsComponent implements OnInit {
 
     onLoadBackupSaveClick(): void {
         this.showModal(() => {
-            const confirmed = this.svcElectron.ipcRenderer.sendSync('load-backup-save');
+            const confirmed = this.svcElectron.sendSync(IPC_EVENT.LOAD_BACKUP_SAVE);
             if(confirmed) location.reload();
             return confirmed;
         });

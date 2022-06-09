@@ -4,7 +4,7 @@ import { migrateTo_1_0_0 } from './1.0.0';
 import { migrateTo_1_0_1 } from './1.0.1';
 
 export function migrateData(svcSaveStore: SaveStoreService): void {
-    const version = svcSaveStore.store.get('version');
+    const version = svcSaveStore.get('version');
 
     // Migrate based on current store version
     // Must flow to each migration for multi-version jumps
@@ -14,6 +14,6 @@ export function migrateData(svcSaveStore: SaveStoreService): void {
 
     if(!version) {
         console.log('No version found, setting to current');
-        svcSaveStore.store.set('version', '1.0.1');
+        svcSaveStore.set('version', '1.0.1');
     }
 }

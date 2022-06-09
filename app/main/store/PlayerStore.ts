@@ -22,23 +22,37 @@ export class PlayerStore {
         };
     }
 
-    static load(): void {
+    static load(): { data: any, successful: boolean } {
         const base = ConfigStore.store['store-loc'] || app.getPath('userData');
-        const file = (ConfigStore.store['store-name'] || 'completion') + '.json';
+        const file = ConfigStore.store['store-name'] || 'completion';
 
-        PlayerStore.path = path.join(base, file);
+        PlayerStore.path = path.join(base, file + '.json');
         PlayerStore.store = PlayerStore.defaultSave;
 
         // Get if it exists
-        let save = {};
+        let save = {}, successful = true;
         if(fs.existsSync(PlayerStore.path)) {
-            save = JSON.parse(fs.readFileSync(PlayerStore.path, 'utf8'));
+            try {
+                save = JSON.parse(fs.readFileSync(PlayerStore.path, 'utf8'));
+            }
+            catch(e) {
+                // Switch the target file to a temp so the original isn't wiped out
+                const temp = file + '.temp';
+                PlayerStore.path = path.join(base, temp + '.json');
+
+                ConfigStore.store['store-name'] = temp;
+                ConfigStore.save();
+
+                successful = false;
+            }
         }
 
         // Overwrite with defined properties matching default keys
         Object.keys(PlayerStore.store).forEach((key) => {
             if(save[key] !== undefined) PlayerStore.store[key] = save[key];
         });
+
+        return { data: PlayerStore.store, successful };
     }
 
     static save(): void {
@@ -65,9 +79,7 @@ export class PlayerStore {
     //#region------------------------------------------------------- App Methods
     static get(event: IpcMainEvent) {
         if(!ConfigStore.store) ConfigStore.load();
-        PlayerStore.load();
-
-        event.returnValue = PlayerStore.store;
+        event.returnValue = PlayerStore.load();
     }
 
     static set(event: IpcMainEvent, newSave) {

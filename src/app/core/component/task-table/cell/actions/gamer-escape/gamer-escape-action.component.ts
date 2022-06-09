@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 import { Task } from '@domain/Task';
-import { ElectronService } from '@service/electron/electron.service';
+import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 
 @Component({
     selector: 'xiv-gamer-escape-action',
@@ -19,7 +19,7 @@ export class GamerEscapeActionComponent {
     }
 
     searchGamerEscape(): void {
-        this.svcElectron.ipcRenderer.sendSync('search-gamer-escape', this.task.name);
+        this.svcElectron.sendSync(IPC_EVENT.SEARCH_GAMER_ESCAPE, this.task.name);
         this.onClick.emit();
     }
 

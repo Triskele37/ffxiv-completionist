@@ -3,6 +3,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { MessageService } from 'primeng/api';
+import { ToastModule } from 'primeng/toast';
 
 // NG Translate
 import { TranslateModule, TranslateLoader, TranslateService } from '@ngx-translate/core';
@@ -27,7 +29,7 @@ const httpLoaderFactory = (http: HttpClient): TranslateHttpLoader => new Transla
 function appInitializerFactory(svcConfig: ConfigStoreService, translate: TranslateService) {
     return () => {
         translate.setDefaultLang(Lang.EN);
-        return translate.use(svcConfig.store.get('lang')).toPromise();
+        return translate.use(svcConfig.get('lang')).toPromise();
     };
 }
 
@@ -45,6 +47,8 @@ function appInitializerFactory(svcConfig: ConfigStoreService, translate: Transla
                 deps: [HttpClient]
             }
         }),
+        ToastModule,
+
         NavDrawerModule,
         SearchBarModule,
         SummaryHeaderModule,
@@ -53,6 +57,7 @@ function appInitializerFactory(svcConfig: ConfigStoreService, translate: Transla
         ViewModule
     ],
     providers: [
+        MessageService,
         {
             provide: APP_INITIALIZER,
             useFactory: appInitializerFactory,

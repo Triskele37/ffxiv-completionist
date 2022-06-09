@@ -2,7 +2,7 @@ import { TranslateService } from '@ngx-translate/core';
 
 import { Lang } from '@constant';
 import { DataGroup } from '@domain/DataGroup';
-import { ElectronService } from '@service/electron/electron.service';
+import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 
 export const refs: {
     svcElectron: ElectronService;
@@ -18,8 +18,8 @@ export function loadJson(path: string) {
 
     let finalJson: any;
     try {
-        const common = refs.svcElectron.ipcRenderer.sendSync('load-json', `${commonPrefix}/${path}.json`);
-        const locale = refs.svcElectron.ipcRenderer.sendSync('load-json', `${langPrefix}/${path}.json`);
+        const common = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, `${commonPrefix}/${path}.json`);
+        const locale = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, `${langPrefix}/${path}.json`);
 
         try {
             // Destructure headers and tasks so they aren't mapped

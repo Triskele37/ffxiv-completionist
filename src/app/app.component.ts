@@ -2,7 +2,7 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 import { DataService } from '@data';
-import { ElectronService } from '@service/electron/electron.service';
+import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { CustomTaskService } from '@service/custom-task/custom-task.service';
 
@@ -54,7 +54,8 @@ export class AppComponent implements OnInit, AfterViewInit {
 
     ngAfterViewInit(): void {
         // Hide the loading splash and show the main window
-        this.svcElectron.ipcRenderer.sendSync('app-ready');
+        this.svcElectron.sendSync(IPC_EVENT.APP_READY);
+        this.svcElectron.setAppReady();
     }
 
 }

@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 import { Task } from '@domain/Task';
-import { ElectronService } from '@service/electron/electron.service';
+import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 
 @Component({
     selector: 'xiv-garland-action',
@@ -19,7 +19,7 @@ export class GarlandActionComponent {
     }
 
     searchGarlandTools(): void {
-        this.svcElectron.ipcRenderer.sendSync('search-garland-tools', this.task.name);
+        this.svcElectron.sendSync(IPC_EVENT.SEARCH_GARLAND_TOOLS, this.task.name);
         this.onClick.emit();
     }
 }

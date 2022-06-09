@@ -346,7 +346,8 @@
                     "L1": "Various data/chain corrections",
                     "L2": "Several columns showing raw link paths",
                     "L3": "Ctrl+V automatically searching from any input field",
-                    "L4": "SCH/SMN chaining together improperly"
+                    "L4": "SCH/SMN chaining together improperly",
+                    "L5": "Config & Save load failure handling"
                 }
             }
         },
@@ -523,6 +524,12 @@
         "REMAINING": "Tâche Restante",
         "EXCLUDED": "Tâche Exclue",
         "WEIGHT": "Poids"
+    },
+    "TOAST": {
+        "CONFIG_FAILED_SUMMARY": "Failed To Load Config",
+        "CONFIG_FAILED_DETAIL": "Using last working version",
+        "SAVE_FAILED_SUMMARY": "Failed To Load Progress",
+        "SAVE_FAILED_DETAIL": "A temporary save has been created"
     },
     "DATA": {
         "CLASS_JOB": {

@@ -9,6 +9,7 @@ const isObj = (v) => !!v && typeof v === 'object' && !Array.isArray(v);
 
 export class ConfigStore {
     static path: string;
+    static backupPath: string;
     static isServe: boolean;
     static store = null;
 
@@ -49,22 +50,41 @@ export class ConfigStore {
         };
     }
 
-    static load(): void {
+    static load(): { data: any, successful: boolean } {
         // Determine config file name (protects devs from nuking their config)
         const configName = ConfigStore.isServe ? 'config-dev.json' : 'config.json';
         ConfigStore.path = path.join(app.getPath('userData'), configName);
+
+        // Determine valid config backup values
+        const backupName = configName.replace('.json', '-last-valid.json');
+        ConfigStore.backupPath = path.join(app.getPath('userData'), backupName);
 
         // Default config structure
         ConfigStore.store = ConfigStore.defaultConfig;
 
         // Get if it exists
-        let config = {};
+        let config = {}, successful = true;
         if(fs.existsSync(ConfigStore.path)) {
-            config = JSON.parse(fs.readFileSync(ConfigStore.path, 'utf8'));
+            try {
+                config = JSON.parse(fs.readFileSync(ConfigStore.path, 'utf8'));
+            }
+            catch(e) {
+                // Config is corrupted
+                successful = false;
+                config = JSON.parse(fs.readFileSync(ConfigStore.backupPath, 'utf8'));
+            }
         }
 
         // Overwrite with defined properties matching default keys
         ConfigStore.overwriteDefault(ConfigStore.store, config);
+
+        // Make a "last valid config" backup
+        if(successful) this.saveBackup();
+
+        return {
+            data: ConfigStore.store,
+            successful
+        };
     }
 
     private static overwriteDefault(defaultConfig, loadedConfig): void {
@@ -93,14 +113,34 @@ export class ConfigStore {
             ConfigStore.path,
             JSON.stringify(ConfigStore.store, null, 4)
         );
+
+        this.saveBackupIfValid();
+    }
+
+    static saveBackupIfValid(): void {
+        try {
+            JSON.parse(fs.readFileSync(ConfigStore.path, 'utf8'));
+
+            // Backup will not be saved if the above line errors
+            this.saveBackup();
+        }
+        catch(e) {
+            // do nothing
+        }
+    }
+
+    static saveBackup(): void {
+        fs.writeFileSync(
+            ConfigStore.backupPath,
+            JSON.stringify(ConfigStore.store, null, 4)
+        );
     }
 
     //#endregion
 
     //#region------------------------------------------------------- App Methods
     static get(event: IpcMainEvent): void {
-        ConfigStore.load();
-        event.returnValue = ConfigStore.store;
+        event.returnValue = ConfigStore.load();
     }
 
     static set(event, config): void {
@@ -184,11 +224,16 @@ export class ConfigStore {
         if(result?.[0]) {
             const originalPath = ConfigStore.path;
             ConfigStore.path = result[0];
-            ConfigStore.load();
+            const { successful } = ConfigStore.load();
             ConfigStore.path = originalPath;
-            ConfigStore.save();
 
-            event.returnValue = true;
+            if(successful) {
+                ConfigStore.save();
+                event.returnValue = true;
+            }
+            else {
+                event.returnValue = false;
+            }
         }
         else {
             event.returnValue = false;

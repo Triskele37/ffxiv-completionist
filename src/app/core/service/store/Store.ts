@@ -1,26 +1,46 @@
-import { ElectronService } from '@service/electron/electron.service';
+import { MessageService } from 'primeng/api';
+import { TranslateService } from '@ngx-translate/core';
 
-export class Store<StoreType> {
-    data: StoreType;
-    path: string;
-    name: string;
-    ipcGetEvent: 'get-config' | 'get-save';
-    ipcSaveEvent: 'set-config' | 'set-save';
+import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
+
+export abstract class Store<StoreType> {
+    translate: TranslateService;
+    primeMessage: MessageService;
     svcElectron: ElectronService;
 
-    constructor(
-        electronService: ElectronService,
-        ipcGetEvent: 'get-config' | 'get-save',
-        ipcSaveEvent: 'set-config' | 'set-save'
+    abstract ipcGetEvent: IPC_EVENT;
+    abstract ipcSaveEvent: IPC_EVENT;
+
+    abstract failedSummaryKey: string;
+    abstract failedDetailKey: string;
+
+    data: StoreType;
+
+    protected constructor(
+        translate: TranslateService,
+        primeMessage: MessageService,
+        svcElectron: ElectronService,
     ) {
-        this.svcElectron = electronService;
-        this.ipcGetEvent = ipcGetEvent;
-        this.ipcSaveEvent = ipcSaveEvent;
-        this.load();
+        this.translate = translate;
+        this.primeMessage = primeMessage;
+        this.svcElectron = svcElectron;
     }
 
-    load(): void {
-        this.data = this.svcElectron.ipcRenderer.sendSync(this.ipcGetEvent);
+    load(): boolean {
+        const { data, successful } = this.svcElectron.sendSync(this.ipcGetEvent);
+
+        if(!successful) {
+            this.svcElectron.appReady$.subscribe(() => {
+                this.primeMessage.add({
+                    summary: this.translate.instant(this.failedSummaryKey),
+                    detail: this.translate.instant(this.failedDetailKey),
+                    sticky: true
+                });
+            });
+        }
+
+        this.data = data;
+        return successful;
     }
 
     get(path?: string): any {
@@ -66,7 +86,7 @@ export class Store<StoreType> {
     }
 
     save(): void {
-        this.svcElectron.ipcRenderer.sendSync(this.ipcSaveEvent, this.data);
+        this.svcElectron.sendSync(this.ipcSaveEvent, this.data);
     }
 
 }

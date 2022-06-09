@@ -15,7 +15,7 @@ export class ChangeStore {
         this.svcSaveStore = svcSaveStore;
 
         // Create the initial store object for new users
-        const save: SaveStore = this.svcSaveStore.store.data || {
+        const save: SaveStore = this.svcSaveStore.data || {
             overall: {},
             custom: {},
             'bookmarked-groups': [],
@@ -31,8 +31,8 @@ export class ChangeStore {
 
     // Function to run when finished migrating that actually commits the changes
     write(): void {
-        this.svcSaveStore.store.data = this.newStore;
-        this.svcSaveStore.store.save();
+        this.svcSaveStore.data = this.newStore;
+        this.svcSaveStore.save();
     }
 
     // Util to get a task

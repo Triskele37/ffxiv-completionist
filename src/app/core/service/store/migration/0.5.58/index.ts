@@ -33,7 +33,7 @@ export function migrateTo_0_5_58(svcSaveStore: SaveStoreService): void {
     }
 
     //------------------------------------------------------------------ Custom Task Reformat
-    const oldCustom = svcSaveStore.store.get('custom');
+    const oldCustom = svcSaveStore.get('custom');
 
     // Perform once
     if(Array.isArray(oldCustom)) {
@@ -57,17 +57,17 @@ export function migrateTo_0_5_58(svcSaveStore: SaveStoreService): void {
             customMeta[`x${newId}`] = meta;
         });
 
-        svcSaveStore.store.set('custom', customMeta);
+        svcSaveStore.set('custom', customMeta);
 
         // Update custom flag storage
-        const oldFlags: any = svcSaveStore.store.get('overall.custom');
+        const oldFlags: any = svcSaveStore.get('overall.custom');
         if(oldFlags.undefined) delete oldFlags.undefined;
 
         const customFlag = {};
         Object.keys(oldFlags).forEach((id) => {
             customFlag[`x${id}`] = oldFlags[id];
         });
-        svcSaveStore.store.set('overall.custom', customFlag);
+        svcSaveStore.set('overall.custom', customFlag);
     }
 
     store.write();
