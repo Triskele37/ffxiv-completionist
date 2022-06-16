@@ -7,6 +7,23 @@
 - Installation
     - auto-update
 - Patch content viewer
+- Tracker (see Ctrl+U menu)
+  - make cap & timer?
+  - Other
+    - Leve Allowance (12 hr) (max 99) (additive)
+    - Venture (variable?)
+  - Daily
+    - "Next Mission Allowance"
+    - Map Allowance
+    - Beast Tribe Allowance (max 12) (reset)
+  - Weekly
+    - Custom Deliveries (max 6) (reset)
+    - Fashion Report
+    - Adventurer Squadron ()
+    - Doman Enclave Reconstruction Effort
+    - The Masked Carnivale
+    - Jumbo Cactpot
+    - Tome Cap (max 450) (reset)
 
 **Change**
 - replace most of Guide with Active Help

@@ -3,7 +3,6 @@
 - missing Ghasa unlock quests
 - DSR Unlock Quasi
 - missing endwalker savage unlock quasi quest (Recount tales of Asphodelos?)
-- Tracker (see Ctrl+U menu)
 
 **Change**
 - Convert DataGroup.tasks to Map<string, Task>
