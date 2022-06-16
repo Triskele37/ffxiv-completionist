@@ -226,6 +226,9 @@ export class Chainer {
 
     // Exclusive Chain
     applyExclusiveChain(): void {
+        // starting class exclusive content is jank
+        this.force = true;
+
         this.getAllTasksFor(this.task.cExclusive).forEach((chainTask) => {
             if(this.flag === Completion.X) {
                 // Chain exclusive tasks to be excluded as well

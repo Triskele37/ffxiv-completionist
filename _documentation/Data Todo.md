@@ -8,11 +8,8 @@
 **Change**
 - Convert DataGroup.tasks to Map<string, Task>
 - flatten Duty/Raid Finder group
-- Move "Crystarium" & "Studium" into "Shared"
 
 **Fix**
-- Changing starting class resets completion on tasks outside of the starting city MSQ and content directly related to them
-- Dis/re-enabling chaining clears completion, similar to ^?
 - Move Forged Anew resistance sidequest into quasi-quests
 
 ------------------------------------------------------------------ Prioritize
