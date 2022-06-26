@@ -3,12 +3,14 @@ import { ChangeStore } from '../ChangeStore';
 
 import { migrateRoleQuests } from './role-quests';
 import { migrateStoryRecipes } from './story-recipes';
+import { migrateAdventurePlate } from './adventure-plate';
 
 export function migrateTo_1_0_1(svcSaveStore: SaveStoreService): void {
     const store = new ChangeStore(svcSaveStore, '1.0.1');
 
     migrateRoleQuests(store);
     migrateStoryRecipes(store);
+    migrateAdventurePlate(store);
 
     store.moveTask(
         'overall.logs.gathering.gathering-log.logging.level.56-60',
