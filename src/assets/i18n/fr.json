@@ -525,10 +525,10 @@
         "WEIGHT": "Poids"
     },
     "TOAST": {
-        "CONFIG_FAILED_SUMMARY": "Failed To Load Config",
-        "CONFIG_FAILED_DETAIL": "Using last working version",
-        "SAVE_FAILED_SUMMARY": "Failed To Load Progress",
-        "SAVE_FAILED_DETAIL": "A temporary save has been created"
+        "CONFIG_FAILED_SUMMARY": "Échec du chargement de la configuration",
+        "CONFIG_FAILED_DETAIL": "Utilisation de la dernière version fonctionnelle",
+        "SAVE_FAILED_SUMMARY": "Échec du chargement de la progression",
+        "SAVE_FAILED_DETAIL": "Une sauvegarde temporaire a été créée"
     },
     "DATA": {
         "CLASS_JOB": {
@@ -815,21 +815,21 @@
             "EW": "Endwalker"
         },
         "PLATE": {
-            "BASE": "Base Plate",
-            "PATTERN": "Plate Pattern Overlay",
-            "BACKING": "Plate Backing",
-            "TOP_BORDER": "Plate Top Border",
-            "BOTTOM_BORDER": "Plate Bottom Border",
-            "PORTRAIT_FRAME": "Plate Portrait Frame",
-            "FRAME": "Plate Frame",
-            "ACCENT": "Plate Accent"
+            "BASE": "Carte de base",
+            "PATTERN": "Motif",
+            "BACKING": "Motif arrière",
+            "TOP_BORDER": "En-tête",
+            "BOTTOM_BORDER": "Pied",
+            "PORTRAIT_FRAME": "Cadre du portrait",
+            "FRAME": "Bordure de la carte",
+            "ACCENT": "Décoration"
         },
         "PORTRAIT": {
-            "BACKGROUND": "Portrait Background",
-            "FRAME": "Portrait Frame",
-            "ACCENT": "Portrait Accent",
-            "POSE": "Portrait Pose",
-            "EXPRESSION": "Portrait Expression"
+            "BACKGROUND": "Arrière-plan (Portrait)",
+            "FRAME": "Cadre (Portrait)",
+            "ACCENT": "Décoration (Portrait)",
+            "POSE": "Pose (Portrait)",
+            "EXPRESSION": "Expression (Portrait)"
         }
     }
 }
