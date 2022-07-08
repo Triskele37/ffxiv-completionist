@@ -35,4 +35,13 @@
   - "of the golden" crafter/gatherer
   - Charlemend's Angel
   - Skirmisher
+  - Storm Growler
+  - Storm Hound
+  - Serpent Puppy
+  - Serpent Howler
+  - Serpent Growler
+  - Serpent Hound
+- Title Order
+  - Starts going out of wack at or under "Master of the Sea"
+  - Titles below "Risensung X" and above "Saint x" might belong there
 - Some Titles may be seasonal events and un'X'd

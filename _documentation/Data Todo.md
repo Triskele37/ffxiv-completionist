@@ -1,8 +1,8 @@
 ------------------------------------------------------------------ Current Release
 **Add**
-- missing Ghasa unlock quests
 - DSR Unlock Quasi
 - missing endwalker savage unlock quasi quest (Recount tales of Asphodelos?)
+- Toy Chest? (Cheap Dungeon has 5 levels)
 
 **Change**
 - Convert DataGroup.tasks to Map<string, Task>
