@@ -47,7 +47,7 @@ export class CharacterSettingsComponent implements OnInit {
             { short: 'Gladiator', long: this.translate.instant(`${CLASSES}.GLA`) },
             { short: 'Lancer', long: this.translate.instant(`${CLASSES}.LNC`) },
             { short: 'Marauder', long: this.translate.instant(`${CLASSES}.MRD`) },
-            { short: 'Pugilist', long: this.translate.instant(`${CLASSES}.PUG`) },
+            { short: 'Pugilist', long: this.translate.instant(`${CLASSES}.PGL`) },
             { short: 'Thaumaturge', long: this.translate.instant(`${CLASSES}.THM`) },
         ];
     }
