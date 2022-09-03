@@ -1,8 +1,11 @@
 ------------------------------------------------------------------ Current Release
 **Add**
 - DSR Unlock Quasi
-- missing endwalker savage unlock quasi quest (Recount tales of Asphodelos?)
+- missing endwalker asphodelos savage unlock quasi quest (Recount tales of Asphodelos?)
+- missing endwalker abyssos savage unlock quasi quest
 - Toy Chest? (Cheap Dungeon has 5 levels)
+
+- Shadowed Pasts quest (don't know if new sidestory category)
 
 **Change**
 - Convert DataGroup.tasks to Map<string, Task>

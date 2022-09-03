@@ -88,7 +88,54 @@
             "level": 90,
             "cPrev": [
                 70070
-            ]
+            ],
+            "cNext": [70128]
+        },
+        "x70128": {
+            "level": 90,
+            "cPrev": [70071],
+            "cNext": [70129],
+            "unlock": "duty.duty-raid-finder.dungeon.ew.9"
+        },
+        "x70129": {
+            "level": 90,
+            "cPrev": [70128],
+            "cNext": [70130]
+        },
+        "x70130": {
+            "level": 90,
+            "cPrev": [70129],
+            "cNext": [70131]
+        },
+        "x70131": {
+            "level": 90,
+            "cPrev": [70130],
+            "cNext": [70132]
+        },
+        "x70132": {
+            "level": 90,
+            "cPrev": [70131],
+            "cNext": [70133]
+        },
+        "x70133": {
+            "level": 90,
+            "cPrev": [70132],
+            "cNext": [70134],
+            "unlock": "duty.duty-raid-finder.trials.ew.7"
+        },
+        "x70134": {
+            "level": 90,
+            "cPrev": [70133],
+            "cNext": [70135]
+        },
+        "x70135": {
+            "level": 90,
+            "cPrev": [70134],
+            "cNext": [70136]
+        },
+        "x70136": {
+            "level": 90,
+            "cPrev": [70135]
         }
     }
 }
