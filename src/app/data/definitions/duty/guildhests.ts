@@ -2,7 +2,7 @@ import { DataGroup } from '@domain/DataGroup';
 import { TranslateService } from '@ngx-translate/core';
 
 export const Duty_Guildhests = (translate: TranslateService) => (parent: DataGroup, path: string) => {
-    const group = DataGroup.fromJSON(parent, `${path}/index`);
+    const group = DataGroup.fromJSON(parent, `${path}`);
     group.subGroups = new Map();
 
     const addGuildhestClone = (name: string) => {

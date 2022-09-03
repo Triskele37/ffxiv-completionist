@@ -13,13 +13,15 @@ export const refs: {
 };
 
 export function loadJson(path: string) {
-    const { lang } = DataGroup;
-    const [langPrefix, commonPrefix] = getPrefixes(lang || Lang.EN);
+    const lang = DataGroup.lang || Lang.EN;
+    const prefix = getPrefix();
 
     let finalJson: any;
     try {
-        const common = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, `${commonPrefix}/${path}.json`);
-        const locale = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, `${langPrefix}/${path}.json`);
+        const commonPath = [prefix, path, 'cmn.json'].filter((s) => s).join('/');
+        const localePath = [prefix, path, `${lang}.json`].filter((s) => s).join('/');
+        const common = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, commonPath);
+        const locale = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, localePath);
 
         try {
             // Destructure headers and tasks so they aren't mapped
@@ -36,29 +38,23 @@ export function loadJson(path: string) {
             finalJson.tasks = mapTasks(common, locale);
         }
         catch(e) {
-            console.error(`Error in ${commonPrefix}/${path}.json`, e);
+            console.error(`Error in ${prefix}/${path}/cmn.json`, e);
         }
     }
     catch(e) {
-        console.error(`Error in ${langPrefix}/${path}.json`, e);
+        console.error(`Error in ${prefix}/${path}/${lang}.json`, e);
     }
 
     return finalJson;
 }
 
-// Get the path prefixes based on environment
-function getPrefixes(lang: Lang) {
+// Get the path prefix based on environment
+function getPrefix() {
     if(process.env.NODE_ENV === 'production') {
-        return [
-            `${process.resourcesPath}/resources/${lang}`,
-            `${process.resourcesPath}/resources/common`
-        ];
+        return `${process.resourcesPath}/resources`;
     }
     else {
-        return [
-            `./resources/${lang}`,
-            `./resources/common`
-        ];
+        return './resources';
     }
 }
 

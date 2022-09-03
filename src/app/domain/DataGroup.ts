@@ -92,7 +92,7 @@ export class DataGroup {
     static fromDefinition(parent: DataGroup, definition: GroupDefinition): DataGroup {
         if(definition.subGroups) {
             if(Array.isArray(definition.subGroups)) {
-                const group = DataGroup.fromJSON(parent, `${definition.path}/index`);
+                const group = DataGroup.fromJSON(parent, `${definition.path}`);
                 group.subGroups = new Map();
 
                 definition.subGroups.forEach((subGroupDef) => {
