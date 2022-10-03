@@ -95,7 +95,7 @@
             "level": 90,
             "cPrev": [70071],
             "cNext": [70129],
-            "unlock": "duty.duty-raid-finder.dungeon.ew.9"
+            "unlock": "duty.dutyraid-finder.dungeons.ew.9"
         },
         "x70129": {
             "level": 90,
@@ -121,7 +121,7 @@
             "level": 90,
             "cPrev": [70132],
             "cNext": [70134],
-            "unlock": "duty.duty-raid-finder.trials.ew.7"
+            "unlock": "duty.dutyraid-finder.trials.ew.7"
         },
         "x70134": {
             "level": 90,
@@ -135,7 +135,10 @@
         },
         "x70136": {
             "level": 90,
-            "cPrev": [70135]
+            "cPrev": [70135],
+            "cNext": [
+                "duty.quests.sidequests.side-story.tales-of-newfound-adventure.70196"
+            ]
         }
     }
 }

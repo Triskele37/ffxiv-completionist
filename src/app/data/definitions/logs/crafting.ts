@@ -102,6 +102,7 @@ function defineCrafter(crafter: Crafter): GroupDefinition {
             'mr-7',
             'mr-8',
             'mr-9',
+            'mr-10',
             'other',
         ]
     });
@@ -116,7 +117,13 @@ function defineCrafter(crafter: Crafter): GroupDefinition {
     });
 
     if(crafter === 'alchemist') {
-        definition.subGroups.push('ornaments');
+        definition.subGroups.push({
+            path: 'ornaments',
+            subGroups: [
+                'ornaments-1',
+                'ornaments-2',
+            ]
+        });
     }
 
     definition.subGroups.push({

@@ -11,6 +11,20 @@
     },
     "common": ["elements", "category"],
     "tasks": {
+        "x112": {
+            "elements": [
+                "PLATE.BASE",
+                "PLATE.TOP_BORDER",
+                "PLATE.BOTTOM_BORDER",
+                "PLATE.ACCENT",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.other.quasi-quests.68555",
+            "patch": "6.2",
+            "cSiblings": ["duty.quests.other.quasi-quests.68555"]
+        },
         "x0": {
             "elements": [
                 "PLATE.PATTERN",
@@ -732,6 +746,86 @@
             "patch": "6.1",
             "cSiblings": ["duty.quests.sidequests.uldahn.the-gold-saucer.65971"]
         },
+        "x107": {
+            "elements": [
+                "PLATE.TOP_BORDER",
+                "PLATE.BOTTOM_BORDER",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.seventh-umbral-era.66047",
+            "patch": "6.2",
+            "cSiblings": ["duty.quests.main-scenario.seventh-umbral-era.66047"]
+        },
+        "x108": {
+            "elements": [
+                "PLATE.BASE",
+                "PLATE.BACKING",
+                "PLATE.TOP_BORDER",
+                "PLATE.PORTRAIT_FRAME",
+                "PLATE.FRAME",
+                "PLATE.ACCENT",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.8",
+            "patch": "6.2",
+            "cSiblings": ["duty.dutyraid-finder.raids.sb.8"]
+        },
+        "x109": {
+            "elements": [
+                "PLATE.BASE",
+                "PLATE.BACKING",
+                "PLATE.TOP_BORDER",
+                "PLATE.PORTRAIT_FRAME",
+                "PLATE.FRAME",
+                "PLATE.ACCENT",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.17",
+            "patch": "6.2",
+            "cSiblings": ["duty.dutyraid-finder.raids.sb.17"]
+        },
+        "x110": {
+            "elements": [
+                "PLATE.BASE",
+                "PLATE.BACKING",
+                "PLATE.TOP_BORDER",
+                "PLATE.PORTRAIT_FRAME",
+                "PLATE.FRAME",
+                "PLATE.ACCENT",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.8",
+            "patch": "6.2",
+            "cSiblings": ["duty.dutyraid-finder.raids.shb.8"]
+        },
+        "x111": {
+            "elements": [
+                "PLATE.BASE",
+                "PLATE.BACKING",
+                "PLATE.TOP_BORDER",
+                "PLATE.PORTRAIT_FRAME",
+                "PLATE.FRAME",
+                "PLATE.ACCENT",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.9",
+            "patch": "6.2",
+            "cSiblings": ["duty.dutyraid-finder.raids.ew.9"]
+        },
         "x91": {
             "elements": "PORTRAIT.BACKGROUND",
             "category": "CATEGORY.QUEST",
@@ -756,6 +850,24 @@
             ],
             "category": "CATEGORY.PVP",
             "patch": "6.1"
+        },
+        "x105": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.PVP",
+            "patch": "6.2"
+        },
+        "x106": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.PVP",
+            "patch": "6.2"
         },
         "x94": {
             "elements": [

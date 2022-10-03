@@ -789,32 +789,40 @@
         "x3108": {
             "points": 5,
             "patch": "6.2",
+            "cNext": [3109],
             "cSiblings": [
-                "duty.dutyraid-finder.raids.ew.10"
+                "duty.dutyraid-finder.raids.ew.13"
             ]
         },
         "x3109": {
             "points": 10,
-            "patch": "6.2"
+            "patch": "6.2",
+            "cPrev": [3108],
+            "cNext": [3110]
         },
         "x3110": {
             "points": 20,
-            "patch": "6.2"
+            "patch": "6.2",
+            "cPrev": [3109]
         },
         "x3111": {
             "points": 5,
             "patch": "6.2",
+            "cNext": [3112],
             "cSiblings": [
-                "duty.dutyraid-finder.raids.ew.14"
+                "duty.dutyraid-finder.raids.ew.17"
             ]
         },
         "x3112": {
             "points": 10,
-            "patch": "6.2"
+            "patch": "6.2",
+            "cPrev": [3111],
+            "cNext": [3113]
         },
         "x3113": {
             "points": 20,
-            "patch": "6.2"
+            "patch": "6.2",
+            "cPrev": [3112]
         }
     }
 }

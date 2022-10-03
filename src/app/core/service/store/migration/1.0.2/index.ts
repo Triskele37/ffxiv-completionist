@@ -9,5 +9,11 @@ export function migrateTo_1_0_2(svcSaveStore: SaveStoreService): void {
     store.changeKey('overall.character.character.title', 646, 634);
     store.changeKey('overall.character.character.title', 647, 635);
 
+    // Ornament split
+    store.moveGroup(
+        'overall.logs.crafting-log.alchemist.ornaments',
+        'overall.logs.crafting-log.alchemist.ornaments.ornaments-1'
+    );
+
     store.write();
 }

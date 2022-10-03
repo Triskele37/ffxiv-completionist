@@ -635,6 +635,11 @@
             "source": "duty.quests.other.seasonal.egg-hunts.70126",
             "patch": "6.1"
         },
+        "x460": {
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.ew.9",
+            "patch": "6.0"
+        },
         "x55": {
             "category": "CATEGORY.ACHIEVEMENT",
             "source": "character.achievement.character.gold-saucer.1380",
@@ -908,6 +913,10 @@
             "category": "CATEGORY.DUNGEON",
             "source": "duty.dutyraid-finder.dungeons.ew.3",
             "patch": "6.0"
+        },
+        "x462": {
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.2"
         },
         "x434": {
             "category": "CATEGORY.VENTURE",
@@ -1523,6 +1532,20 @@
             "source": "duty.quests.main-scenario.endwalker.70000",
             "patch": "6.0"
         },
+        "x455": {
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.other.seasonal.rising.70080",
+            "patch": "6.2",
+            "defaultCompletion": "X"
+        },
+        "x466": {
+            "category": "CATEGORY.RAID",
+            "source": [
+                "duty.dutyraid-finder.raids.ew.13",
+                "duty.dutyraid-finder.raids.ew.17"
+            ],
+            "patch": "6.2"
+        },
         "x296": {
             "category": "CATEGORY.PURCHASE",
             "patch": "2.3"
@@ -1674,6 +1697,18 @@
         "x245": {
             "category": "CATEGORY.PURCHASE",
             "patch": "5.2"
+        },
+        "x458": {
+            "category": "CATEGORY.PVP",
+            "patch": "6.2"
+        },
+        "x459": {
+            "category": "CATEGORY.PVP",
+            "patch": "6.2"
+        },
+        "x456": {
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.2"
         },
         "x255": {
             "category": "CATEGORY.QUEST",
