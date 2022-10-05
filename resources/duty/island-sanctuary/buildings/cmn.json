@@ -1,0 +1,109 @@
+{
+    "key": "buildings",
+    "headers": {
+        "requires": {
+            "link": true
+        },
+        "unlocks": {
+            "link": true
+        }
+    },
+    "tasks": {
+        "x0": {
+            "requires": "duty.island-sanctuary.rank.0",
+            "unlocks": [
+                "duty.island-sanctuary.buildings.3",
+                "duty.island-sanctuary.buildings.7"
+            ]
+        },
+        "x1": {
+            "requires": "duty.island-sanctuary.rank.3",
+            "unlocks": [
+                "duty.island-sanctuary.buildings.4",
+                "duty.island-sanctuary.buildings.8"
+            ]
+        },
+        "x2": {
+            "requires": "duty.island-sanctuary.rank.6",
+            "unlocks": [
+                "duty.island-sanctuary.buildings.5",
+                "duty.island-sanctuary.buildings.9"
+            ]
+        },
+        "x3": {
+            "requires": "duty.island-sanctuary.rank.1"
+        },
+        "x4": {
+            "requires": "duty.island-sanctuary.rank.3"
+        },
+        "x5": {
+            "requires": "duty.island-sanctuary.rank.6"
+        },
+        "x6": {
+            "requires": "duty.island-sanctuary.buildings.5"
+        },
+        "x7": {
+            "requires": "duty.island-sanctuary.rank.1"
+        },
+        "x8": {
+            "requires": "duty.island-sanctuary.rank.3"
+        },
+        "x9": {
+            "requires": "duty.island-sanctuary.rank.6"
+        },
+        "x10": {
+            "requires": "duty.island-sanctuary.buildings.9"
+        },
+        "x11": {
+            "requires": "duty.island-sanctuary.rank.4",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 2
+        },
+        "x12": {
+            "requires": "duty.island-sanctuary.rank.5",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 2
+        },
+        "x13": {
+            "requires": "duty.island-sanctuary.rank.7",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 2
+        },
+        "x14": {
+            "requires": "duty.island-sanctuary.rank.2",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 3
+        },
+        "x15": {
+            "requires": "duty.island-sanctuary.rank.5",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 3
+        },
+        "x16": {
+            "requires": "duty.island-sanctuary.rank.7",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 3
+        },
+        "x17": {
+            "requires": "duty.island-sanctuary.rank.2"
+        },
+        "x18": {
+            "requires": "duty.island-sanctuary.rank.2"
+        },
+        "x19": {
+            "requires": "duty.island-sanctuary.rank.4"
+        },
+        "x20": {
+            "requires": "duty.island-sanctuary.rank.8"
+        },
+        "x21": {
+            "requires": "duty.island-sanctuary.rank.8"
+        }
+    }
+}

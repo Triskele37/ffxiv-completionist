@@ -240,6 +240,24 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                     ]
                 }
             ]
+        },
+        {
+            path: 'island-sanctuary',
+            subGroups: [
+                'rank',
+                'buildings',
+                'crafting',
+                {
+                    path: 'isleventory',
+                    subGroups: [
+                        'materials',
+                        'gardening-starters',
+                        'produce',
+                        'leavings'
+                    ]
+                },
+                'animals'
+            ]
         }
     ]
 });

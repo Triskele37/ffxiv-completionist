@@ -841,6 +841,33 @@
             "ACCENT": "Portrait Accent",
             "POSE": "Portrait Pose",
             "EXPRESSION": "Portrait Expression"
+        },
+        "ISLAND": {
+            "EXPEDITION": {
+                "MEADOWS": "Meandering Meadows",
+                "FALLS": "Fatal Falls",
+                "WOODS": "Wild Woods",
+                "BEACHES": "Bending Beaches",
+                "MOUNTAINS": "Mossy Mountains"
+            },
+            "CRAFT_GROUP": {
+                "TOOLS": "Tools",
+                "FEED": "Feed",
+                "RESTRAINTS": "Restraints"
+            },
+            "ANIMAL_SIZE": {
+                "SMALL": "Small",
+                "MEDIUM": "Medium",
+                "LARGE": "Large"
+            }
+        },
+        "WEATHER": {
+            "CLEAR_SKIES": "Clear Skies",
+            "CLOUDS": "Clouds",
+            "FAIR_SKIES": "Fair Skies",
+            "FOG": "Fog",
+            "RAIN": "Rain",
+            "SHOWERS": "Showers"
         }
     }
 }

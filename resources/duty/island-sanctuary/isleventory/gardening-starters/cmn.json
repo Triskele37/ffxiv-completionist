@@ -1,0 +1,45 @@
+{
+    "key": "gardening-starters",
+    "headers": {
+        "requirement": {
+            "link": true
+        },
+        "produce": {
+            "link": true
+        }
+    },
+    "tasks": {
+        "x0": {
+            "requirement": ["duty.island-sanctuary.crafting.2"],
+            "produce": ["duty.island-sanctuary.isleventory.produce.0"]
+        },
+        "x1": {
+            "produce": ["duty.island-sanctuary.isleventory.produce.1"]
+        },
+        "x2": {
+            "produce": ["duty.island-sanctuary.isleventory.produce.2"]
+        },
+        "x3": {
+            "produce": ["duty.island-sanctuary.isleventory.produce.3"]
+        },
+        "x4": {
+            "produce": ["duty.island-sanctuary.isleventory.produce.4"]
+        },
+        "x5": {
+            "produce": ["duty.island-sanctuary.isleventory.produce.5"]
+        },
+        "x6": {
+            "produce": ["duty.island-sanctuary.isleventory.produce.6"]
+        },
+        "x7": {
+            "produce": ["duty.island-sanctuary.isleventory.produce.7"]
+        },
+        "x8": {
+            "requirement": ["duty.island-sanctuary.crafting.2"],
+            "produce": ["duty.island-sanctuary.isleventory.produce.8"]
+        },
+        "x9": {
+            "produce": ["duty.island-sanctuary.isleventory.produce.9"]
+        }
+    }
+}
