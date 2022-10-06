@@ -246,7 +246,14 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
             subGroups: [
                 'rank',
                 'buildings',
-                'crafting',
+                {
+                    path: 'crafting',
+                    subGroups: [
+                        'tools',
+                        'feed',
+                        'restraints'
+                    ]
+                },
                 {
                     path: 'isleventory',
                     subGroups: [
