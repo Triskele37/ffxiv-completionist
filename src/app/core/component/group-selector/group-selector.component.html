@@ -1,0 +1,11 @@
+<p-button
+    [label]="group.name"
+    (onClick)="slideMenu.toggle($event)"
+></p-button>
+
+<p-slideMenu
+    #slideMenu
+    [model]="items"
+    [popup]="true"
+    [viewportHeight]="300"
+></p-slideMenu>
