@@ -29,6 +29,7 @@
 - replace most of Guide with Active Help
 
 **Fix**
+- Quick-Mark disappears in win 11 after show all enabled?
 
 **Check**
 - Title achievement links

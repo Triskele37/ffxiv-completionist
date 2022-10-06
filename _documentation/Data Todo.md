@@ -9,10 +9,12 @@
 
 **Change**
 - Convert DataGroup.tasks to Map<string, Task>
-- flatten Duty/Raid Finder group
+- Flatten Duty/Raid Finder group
+- Flatten gathering section into logs
 
 **Fix**
 - Move Forged Anew resistance sidequest into quasi-quests
+- Reverify craft/gather log
 
 ------------------------------------------------------------------ Prioritize
 **Add**
