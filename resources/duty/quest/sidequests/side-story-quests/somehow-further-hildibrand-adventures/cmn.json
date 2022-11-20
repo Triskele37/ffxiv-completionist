@@ -13,7 +13,22 @@
         "x70079": {
             "level": 90,
             "patch": "6.15",
-            "cPrev": [70078]
+            "cPrev": [70078],
+            "cNext": [70177]
+        },
+        "x70177": {
+            "level": 90,
+            "patch": "6.25",
+            "cPrev": [70079],
+            "cNext": [70178]
+        },
+        "x70178": {
+            "level": 90,
+            "patch": "6.25",
+            "cPrev": [70177],
+            "cNext": [
+                "duty.quests.sidequests.side-story.manderville-weapons.70188"
+            ]
         }
     }
 }

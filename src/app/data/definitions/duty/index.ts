@@ -62,6 +62,7 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                     subGroups: Duty_Guildhests(translate)
                 },
                 'deep-dungeon',
+                'v-and-c-dungeon',
                 {
                     path: 'the-hunt',
                     subGroups: [

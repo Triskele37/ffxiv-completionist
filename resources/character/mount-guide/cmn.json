@@ -725,7 +725,8 @@
         },
         "x279": {
             "category": "CATEGORY.PREMIUM",
-            "patch": "6.2"
+            "patch": "6.2",
+            "defaultCompletion": "X"
         },
         "x122": {
             "category": "CATEGORY.PURCHASE",
@@ -749,6 +750,10 @@
         "x125": {
             "category": "CATEGORY.PURCHASE",
             "patch": "4.3"
+        },
+        "x220": {
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.25"
         },
         "x126": {
             "category": "CATEGORY.RAID",
@@ -931,6 +936,15 @@
             "category": "CATEGORY.TRIAL",
             "source": "duty.dutyraid-finder.trials.shb.8",
             "patch": "5.1"
+        },
+        "x221": {
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.25"
+        },
+        "x222": {
+            "category": "CATEGORY.ACHIEVEMENT",
+            "source": "character.achievement.exploration.duty.3153",
+            "patch": "6.25"
         },
         "x158": {
             "category": "CATEGORY.RAID",

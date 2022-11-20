@@ -16,7 +16,7 @@ export const CRAFTING_LOG_DEFINITION: GroupDefinition = {
             path: 'shared',
             subGroups: [
                 {
-                    path: 'beast-tribe-quests',
+                    path: 'tribal-quests',
                     subGroups: [
                         'ixal-quests',
                         'moogle-quests',

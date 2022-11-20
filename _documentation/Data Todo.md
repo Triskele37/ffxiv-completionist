@@ -4,6 +4,7 @@
 - missing endwalker asphodelos savage unlock quasi quest (Recount tales of Asphodelos?)
 - missing endwalker abyssos savage unlock quasi quest
 - Toy Chest? (Cheap Dungeon has 5 levels)
+- Chain NPC only triad cards to their npc
 
 **Change**
 - Convert DataGroup.tasks to Map<string, Task>

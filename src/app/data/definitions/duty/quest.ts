@@ -60,6 +60,7 @@ export const QUEST_DEFINITION = {
                         'further-hildibrand-adventures',
                         'even-further-hildibrand-adventures',
                         'somehow-further-hildibrand-adventures',
+                        'manderville-weapons',
                         'zodiac-weapons',
                         'anima-weapons',
                         'the-forbidden-land-eureka',
@@ -73,9 +74,10 @@ export const QUEST_DEFINITION = {
                         'ishgardian-restoration-main',
                         'ishgardian-restoration-sidequests',
                         'island-sanctuary',
-                        'allied-beast-tribe',
-                        'heavensward-beast-tribe',
-                        'stormblood-beast-tribe',
+                        'variant-dungeons',
+                        'allied-tribal-quests',
+                        'heavensward-tribal-quests',
+                        'stormblood-tribal-quests',
                         'wandering-minstrel',
                     ]
                 },
@@ -227,7 +229,7 @@ export const QUEST_DEFINITION = {
             ]
         },
         {
-            path: 'beast-tribe',
+            path: 'tribal-quests',
             subGroups: [
                 'amaljaa',
                 'sylph',
@@ -244,6 +246,7 @@ export const QUEST_DEFINITION = {
                 'qitari',
                 'dwarf',
                 'arkasodara',
+                'omicron',
             ]
         },
         {
