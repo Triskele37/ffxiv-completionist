@@ -483,15 +483,15 @@
         "QUICK_MARK": {
             "TITLE": "Commandes de Coche-rapide",
             "PROCESSING": "En traitement",
-            "N-Y": "Changer les non complétés en complété",
-            "N-X": "Changer les non complétés en exclus",
-            "Y-N": "Changer les complétés en non complété",
-            "Y-X": "Changer les complétés en exclus",
-            "X-N": "Changer les exclus en non complété",
-            "X-Y": "Changer les exclus en complété",
-            "S-Y": "Changer les sélectionnés en complété",
-            "S-N": "Changer les sélectionés en non complété",
-            "S-X": "Changer les sélectionés en exclus",
+            "N-Y": "Non complété -> complété",
+            "N-X": "Non complété -> exclu",
+            "Y-N": "Complété -> non complété",
+            "Y-X": "Complété -> exclu",
+            "X-N": "Exclu -> non complété",
+            "X-Y": "Exclu -> complété",
+            "S-Y": "Sélectionné -> complété",
+            "S-N": "Sélectioné -> non complété",
+            "S-X": "Sélectioné -> exclu",
             "UNDO": "Annuler la dernière Coche-rapide"
         },
         "SELECTION": {
@@ -845,16 +845,16 @@
         },
         "ISLAND": {
             "EXPEDITION": {
-                "MEADOWS": "Meandering Meadows",
-                "FALLS": "Fatal Falls",
-                "WOODS": "Wild Woods",
-                "BEACHES": "Bending Beaches",
-                "MOUNTAINS": "Mossy Mountains"
+                "MEADOWS": "Prairie verdoyante",
+                "FALLS": "Ruisseau cristallin",
+                "WOODS": "Bois sauvages",
+                "BEACHES": "Plage sablonneuse",
+                "MOUNTAINS": "Montagne moussue"
             },
             "ANIMAL_SIZE": {
-                "SMALL": "Small",
-                "MEDIUM": "Medium",
-                "LARGE": "Large"
+                "SMALL": "Petit",
+                "MEDIUM": "Moyen",
+                "LARGE": "Grand"
             }
         }
     }
