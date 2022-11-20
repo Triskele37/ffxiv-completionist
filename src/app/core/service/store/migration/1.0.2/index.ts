@@ -9,6 +9,13 @@ export function migrateTo_1_0_2(svcSaveStore: SaveStoreService): void {
     store.changeKey('overall.character.character.title', 646, 634);
     store.changeKey('overall.character.character.title', 647, 635);
 
+    // Moved?
+    store.moveTask(
+        'overall.logs.crafting-log.carpenter.housing.indoor',
+        'overall.logs.crafting-log.carpenter.housing.tabletop',
+        35574
+    );
+
     // Ornament split
     store.moveGroup(
         'overall.logs.crafting-log.alchemist.ornaments',
@@ -50,6 +57,9 @@ export function migrateTo_1_0_2(svcSaveStore: SaveStoreService): void {
         'overall.logs.crafting-log.shared.beast-tribe-quests',
         'overall.logs.crafting-log.shared.tribal-quests',
     );
+
+    // Removed
+    store.deleteTask('duty.dutyraid-finder.trial.arr', 5);
 
     store.write();
 }
