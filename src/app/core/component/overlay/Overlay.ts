@@ -4,6 +4,10 @@ export class Overlay {
     isVisible: boolean = false;
     isLocked: boolean = false;
 
+    ngOnDestroy(): void {
+        Overlay.anyLocked = false;
+    }
+
     onMouseEnter(): void {
         if(Overlay.anyLocked) return;
         this.isVisible = true;
