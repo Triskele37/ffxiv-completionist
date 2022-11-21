@@ -1,4 +1,7 @@
-export class Overlay {
+import { Directive, OnDestroy } from '@angular/core';
+
+@Directive()
+export class Overlay implements OnDestroy {
     static anyLocked: boolean = false;
 
     isVisible: boolean = false;
