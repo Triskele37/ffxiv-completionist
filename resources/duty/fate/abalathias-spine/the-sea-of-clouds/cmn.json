@@ -1,39 +1,19 @@
 {
     "key": "the-sea-of-clouds",
     "tasks": {
-        "x842": {
-            "level": 50,
-            "location": "(28, 32)",
-            "patch": "3.0"
-        },
         "x839": {
             "level": 50,
             "location": "(14, 37)",
             "patch": "3.0"
         },
-        "x847": {
+        "x842": {
             "level": 50,
-            "location": "(34, 30)",
+            "location": "(28, 32)",
             "patch": "3.0"
         },
         "x843": {
             "level": 50,
             "location": "(25, 35)",
-            "patch": "3.0"
-        },
-        "x841": {
-            "level": 50,
-            "location": "(20, 32)",
-            "patch": "3.0"
-        },
-        "x840": {
-            "level": 50,
-            "location": "(20, 32)",
-            "patch": "3.0"
-        },
-        "x846": {
-            "level": 50,
-            "location": "(36, 33)",
             "patch": "3.0"
         },
         "x844": {
@@ -46,14 +26,34 @@
             "location": "(30, 30)",
             "patch": "3.0"
         },
-        "x855": {
+        "x846": {
+            "level": 50,
+            "location": "(36, 33)",
+            "patch": "3.0"
+        },
+        "x847": {
+            "level": 50,
+            "location": "(34, 30)",
+            "patch": "3.0"
+        },
+        "x851": {
             "level": 57,
-            "location": "(21, 13)",
+            "location": "(6, 20)",
             "patch": "3.0"
         },
         "x852": {
             "level": 57,
             "location": "(12, 12)",
+            "patch": "3.0"
+        },
+        "x855": {
+            "level": 57,
+            "location": "(21, 13)",
+            "patch": "3.0"
+        },
+        "x856": {
+            "level": 57,
+            "location": "(26, 10)",
             "patch": "3.0"
         },
         "x857": {
@@ -66,24 +66,9 @@
             "location": "(23, 19)",
             "patch": "3.0"
         },
-        "x854": {
-            "level": 57,
-            "location": "(17, 10)",
-            "patch": "3.0"
-        },
-        "x856": {
-            "level": 57,
-            "location": "(26, 10)",
-            "patch": "3.0"
-        },
-        "x851": {
-            "level": 57,
-            "location": "(6, 20)",
-            "patch": "3.0"
-        },
-        "x853": {
-            "level": 57,
-            "location": "(28, 10)",
+        "x864": {
+            "level": 59,
+            "location": "(36.4, 36.4)",
             "patch": "3.0"
         },
         "x865": {
@@ -96,14 +81,36 @@
             "location": "(36, 8)",
             "patch": "3.0"
         },
-        "x862": {
-            "level": 59,
-            "location": "(20, 23)",
-            "patch": "3.0"
-        },
         "x867": {
             "level": 59,
             "location": "(22, 6)",
+            "patch": "3.0"
+        },
+        "x875": {
+            "level": 59,
+            "location": "(37, 14)",
+            "patch": "3.0"
+        },
+        "x840": {
+            "level": 50,
+            "location": "(20, 32)",
+            "patch": "3.0"
+        },
+        "x841": {
+            "level": 50,
+            "location": "(20, 32)",
+            "previousFate": "duty.fate.abalathias-spine.the-sea-of-clouds.840",
+            "patch": "3.0"
+        },
+        "x853": {
+            "level": 57,
+            "location": "(28, 10)",
+            "patch": "3.0"
+        },
+        "x854": {
+            "level": 57,
+            "location": "(17, 10)",
+            "previousFate": "duty.fate.abalathias-spine.the-sea-of-clouds.853",
             "patch": "3.0"
         },
         "x861": {
@@ -111,19 +118,16 @@
             "location": "(20, 23)",
             "patch": "3.0"
         },
-        "x864": {
+        "x862": {
             "level": 59,
-            "location": "(36.4, 36.4)",
+            "location": "(20, 23)",
+            "previousFate": "duty.fate.abalathias-spine.the-sea-of-clouds.861",
             "patch": "3.0"
         },
         "x863": {
             "level": 59,
             "location": "(20, 23)",
-            "patch": "3.0"
-        },
-        "x875": {
-            "level": 59,
-            "location": "(37, 14)",
+            "previousFate": "duty.fate.abalathias-spine.the-sea-of-clouds.862",
             "patch": "3.0"
         }
     }

@@ -1,16 +1,6 @@
 {
     "key": "thavnair",
     "tasks": {
-        "x1763": {
-            "level": 90,
-            "location": "(9.3, 37.7)",
-            "patch": "6.0"
-        },
-        "x1764": {
-            "level": 80,
-            "location": "(21.5, 11.1)",
-            "patch": "6.0"
-        },
         "x1765": {
             "level": 80,
             "location": "(17.8, 27.7)",
@@ -39,16 +29,6 @@
         "x1770": {
             "level": 81,
             "location": "(8.2, 15.4)",
-            "patch": "6.0"
-        },
-        "x1771": {
-            "level": 80,
-            "location": "(14.1, 17.0)",
-            "patch": "6.0"
-        },
-        "x1772": {
-            "level": 85,
-            "location": "(34.3, 27.5)",
             "patch": "6.0"
         },
         "x1773": {
@@ -81,9 +61,32 @@
             "location": "(24.9, 27.1)",
             "patch": "6.0"
         },
+        "x1764": {
+            "level": 80,
+            "location": "(21.5, 11.1)",
+            "patch": "6.0"
+        },
+        "x1771": {
+            "level": 80,
+            "location": "(14.1, 17.0)",
+            "previousFate": "duty.fate.ilsabard.thavnair.1764",
+            "patch": "6.0"
+        },
+        "x1772": {
+            "level": 85,
+            "location": "(34.3, 27.5)",
+            "patch": "6.0"
+        },
         "x1779": {
             "level": 85,
             "location": "(23.0, 23.3)",
+            "previousFate": "duty.fate.ilsabard.thavnair.1772",
+            "patch": "6.0"
+        },
+        "x1763": {
+            "level": 90,
+            "location": "(9.3, 37.7)",
+            "previousFate": "duty.fate.ilsabard.thavnair.1779",
             "patch": "6.0"
         }
     }

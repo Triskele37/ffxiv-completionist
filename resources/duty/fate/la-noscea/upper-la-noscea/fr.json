@@ -1,41 +1,33 @@
 {
     "groupName": "Haute-Noscea",
     "tasks": {
-        "x451": {
-            "name": "Pauvre hameau: des rats qui grignotent",
-            "type": "Défense"
-        },
-        "x453": {
-            "name": "Pauvre hameau: des coeurls qui battent",
-            "type": "Défi"
-        },
-        "x452": {
-            "name": "Pauvre hameau: des Kobolds qui saccagent",
-            "type": "Défi"
-        },
-        "x323": {
-            "name": "Défi: crabe qui ne pond pas...",
-            "type": "Défi"
-        },
         "x314": {
             "name": "Défi: Simurgh le redoutable",
             "type": "Défi"
         },
+        "x317": {
+            "name": "Escorte pour le Guet",
+            "type": "Défense"
+        },
         "x320": {
             "name": "Mamool repart chez maman",
+            "type": "Ennemis à abattre"
+        },
+        "x321": {
+            "name": "Frapper dans l'œuf",
             "type": "Ennemis à abattre"
         },
         "x322": {
             "name": "Défi: attention, ça mord",
             "type": "Défi"
         },
+        "x323": {
+            "name": "Défi: crabe qui ne pond pas...",
+            "type": "Défi"
+        },
         "x329": {
             "name": "Défi: prudence avec l'eau chaude...",
             "type": "Défi"
-        },
-        "x321": {
-            "name": "Frapper dans l'œuf",
-            "type": "Ennemis à abattre"
         },
         "x331": {
             "name": "Défi: un baigneur gênant",
@@ -45,9 +37,17 @@
             "name": "Trop d'œufs, bonjour les dégâts",
             "type": "Ennemis à abattre"
         },
-        "x317": {
-            "name": "Escorte pour le Guet",
+        "x451": {
+            "name": "Pauvre hameau: des rats qui grignotent",
             "type": "Défense"
+        },
+        "x452": {
+            "name": "Pauvre hameau: des Kobolds qui saccagent",
+            "type": "Défi"
+        },
+        "x453": {
+            "name": "Pauvre hameau: des coeurls qui battent",
+            "type": "Défi"
         }
     }
 }

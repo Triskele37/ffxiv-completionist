@@ -1,16 +1,6 @@
 {
     "key": "elpis",
     "tasks": {
-        "x1823": {
-            "level": 86,
-            "location": "(8.3, 28.6)",
-            "patch": "6.0"
-        },
-        "x1824": {
-            "level": 86,
-            "location": "(8.3, 28.6)",
-            "patch": "6.0"
-        },
         "x1825": {
             "level": 86,
             "location": "(28.4, 29.2)",
@@ -39,16 +29,6 @@
         "x1830": {
             "level": 86,
             "location": "(30.7, 25.4)",
-            "patch": "6.0"
-        },
-        "x1831": {
-            "level": 87,
-            "location": "(9.6, 23.8)",
-            "patch": "6.0"
-        },
-        "x1832": {
-            "level": 87,
-            "location": "(9.6, 23.8)",
             "patch": "6.0"
         },
         "x1833": {
@@ -80,6 +60,29 @@
         "x1838": {
             "level": 87,
             "location": "(27.0, 14.7)",
+            "patch": "6.0"
+        },
+        "x1831": {
+            "level": 87,
+            "location": "(9.6, 23.8)",
+            "patch": "6.0"
+        },
+        "x1832": {
+            "level": 87,
+            "location": "(9.6, 23.8)",
+            "previousFate": "duty.fate.world-unsundered.elpis.1831",
+            "patch": "6.0"
+        },
+        "x1823": {
+            "level": 86,
+            "location": "(8.3, 28.6)",
+            "previousFate": "duty.fate.world-unsundered.elpis.1832",
+            "patch": "6.0"
+        },
+        "x1824": {
+            "level": 86,
+            "location": "(8.3, 28.6)",
+            "previousFate": "duty.fate.world-unsundered.elpis.1823",
             "patch": "6.0"
         }
     }

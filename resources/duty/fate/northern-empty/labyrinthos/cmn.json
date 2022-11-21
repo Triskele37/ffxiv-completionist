@@ -1,16 +1,6 @@
 {
     "key": "labyrinthos",
     "tasks": {
-        "x1743": {
-            "level": 80,
-            "location": "(33.6, 14.9)",
-            "patch": "6.0"
-        },
-        "x1744": {
-            "level": 81,
-            "location": "(29.7, 25.1)",
-            "patch": "6.0"
-        },
         "x1745": {
             "level": 80,
             "location": "(16.2, 6.7)",
@@ -41,16 +31,6 @@
             "location": "(14.4, 9.4)",
             "patch": "6.0"
         },
-        "x1751": {
-            "level": 85,
-            "location": "(23.6, 31.8)",
-            "patch": "6.0"
-        },
-        "x1752": {
-            "level": 85,
-            "location": "(18.1, 38.4)",
-            "patch": "6.0"
-        },
         "x1753": {
             "level": 88,
             "location": "(6.3, 31.8)",
@@ -79,6 +59,29 @@
         "x1758": {
             "level": 88,
             "location": "(8.3, 24.0)",
+            "patch": "6.0"
+        },
+        "x1743": {
+            "level": 80,
+            "location": "(33.6, 14.9)",
+            "patch": "6.0"
+        },
+        "x1744": {
+            "level": 81,
+            "location": "(29.7, 25.1)",
+            "previousFate": "duty.fate.northern-empty.labyrinthos.1743",
+            "patch": "6.0"
+        },
+        "x1752": {
+            "level": 85,
+            "location": "(18.1, 38.4)",
+            "previousFate": "duty.fate.northern-empty.labyrinthos.1744",
+            "patch": "6.0"
+        },
+        "x1751": {
+            "level": 85,
+            "location": "(23.6, 31.8)",
+            "previousFate": "duty.fate.northern-empty.labyrinthos.1752",
             "patch": "6.0"
         }
     }
