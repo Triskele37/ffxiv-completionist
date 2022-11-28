@@ -11,9 +11,21 @@ export function migrateTo_1_0_2(svcSaveStore: SaveStoreService): void {
 
     // Moved?
     store.moveTask(
+        'overall.logs.crafting-log.blacksmith.housing.indoor',
+        'overall.logs.crafting-log.blacksmith.housing.tables-rugs',
+        37374
+    );
+
+    store.moveTask(
         'overall.logs.crafting-log.carpenter.housing.indoor',
         'overall.logs.crafting-log.carpenter.housing.tabletop',
         35574
+    );
+
+    store.moveTask(
+        'overall.logs.crafting-log.goldsmith.housing.indoor',
+        'overall.logs.crafting-log.goldsmith.housing.tables-rugs',
+        35576
     );
 
     // Ornament split
