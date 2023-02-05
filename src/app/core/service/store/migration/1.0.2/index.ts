@@ -72,6 +72,8 @@ export function migrateTo_1_0_2(svcSaveStore: SaveStoreService): void {
 
     // Removed
     store.deleteTask('overall.duty.dutyraid-finder.trial.arr', 5);
+    store.deleteTask('duty.quests.chronicles-of-a-new-era.return-to-ivalice', 68629);
+    store.deleteTask('duty.quests.chronicles-of-a-new-era.return-to-ivalice', 68727);
 
     store.write();
 }
