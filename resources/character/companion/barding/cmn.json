@@ -206,6 +206,10 @@
             "category": "CATEGORY.PURCHASE",
             "patch": "6.1"
         },
+        "x89": {
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.2"
+        },
         "x21": {
             "category": "CATEGORY.EVENT",
             "patch": "2.1",
@@ -416,6 +420,11 @@
             "category": "CATEGORY.CRAFTING_GATHERING",
             "source": "CLASS_JOB.ARM",
             "patch": "6.1"
+        },
+        "x88": {
+            "category": "CATEGORY.CRAFTING_GATHERING",
+            "source": "CLASS_JOB.LTW",
+            "patch": "6.2"
         },
         "x16": {
             "category": "CATEGORY.PURCHASE",

@@ -10,13 +10,22 @@
         }
     },
     "tasks": {
+        "x110": {
+            "zone": "ZONE.UL_DAH_STEPS_OF_NALD",
+            "location": "(13, 8)",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-12.19"
+            ],
+            "quest": "duty.quests.sidequests.side-story.variant-dungeons.70182",
+            "patch": "6.25"
+        },
         "x109": {
             "zone": "ZONE.THAVNAIR",
             "location": "(20, 28)",
             "drops": [
                 "character.gold-saucer.triple-triad-card-list.page-12.10"
             ],
-            "quest": "duty.quests.beast-tribe.arkasodara.70085",
+            "quest": "duty.quests.tribal-quests.arkasodara.70085",
             "patch": "6.15"
         },
         "x108": {
@@ -83,7 +92,7 @@
                 "character.gold-saucer.triple-triad-card-list.page-10.9",
                 "character.gold-saucer.triple-triad-card-list.page-10.10"
             ],
-            "quest": "duty.quests.beast-tribe.dwarf.69437",
+            "quest": "duty.quests.tribal-quests.dwarf.69437",
             "patch": "5.3"
         },
         "x64": {
@@ -148,7 +157,7 @@
                 "character.gold-saucer.triple-triad-card-list.page-5.19",
                 "character.gold-saucer.triple-triad-card-list.page-4.20"
             ],
-            "quest": "duty.quests.beast-tribe.moogle.67863",
+            "quest": "duty.quests.tribal-quests.moogle.67863",
             "patch": "3.3"
         },
         "x0": {
@@ -246,7 +255,7 @@
                 "character.gold-saucer.triple-triad-card-list.page-9.21",
                 "character.gold-saucer.triple-triad-card-list.page-9.19"
             ],
-            "quest": "duty.quests.beast-tribe.pixie.69219",
+            "quest": "duty.quests.tribal-quests.pixie.69219",
             "patch": "5.1"
         },
         "x92": {
@@ -334,7 +343,7 @@
                 "character.gold-saucer.triple-triad-card-list.page-10.1",
                 "character.gold-saucer.triple-triad-card-list.page-9.29"
             ],
-            "quest": "duty.quests.beast-tribe.qitari.69330",
+            "quest": "duty.quests.tribal-quests.qitari.69330",
             "patch": "5.2"
         },
         "x9": {
@@ -446,7 +455,7 @@
                 "character.gold-saucer.triple-triad-card-list.page-4.19",
                 "character.gold-saucer.triple-triad-card-list.page-5.13"
             ],
-            "quest": "duty.quests.beast-tribe.vanu.67761",
+            "quest": "duty.quests.tribal-quests.vanu.67761",
             "patch": "3.0"
         },
         "x29": {
@@ -562,7 +571,7 @@
                 "character.gold-saucer.triple-triad-card-list.page-2.27",
                 "character.gold-saucer.triple-triad-card-list.page-5.28"
             ],
-            "quest": "duty.quests.beast-tribe.ixal.67029",
+            "quest": "duty.quests.tribal-quests.ixal.67029",
             "patch": "2.51"
         },
         "x56": {
@@ -757,7 +766,7 @@
             "location": "(14.4, 11.2)",
             "drops": [
                 "character.gold-saucer.triple-triad-card-list.page-8.13",
-                "character.gold-saucer.triple-triad-opponents.37"
+                "character.gold-saucer.triple-triad-card-list.page-8.16"
             ],
             "quest": "duty.quests.sidequests.side-story.even-further-hildibrand-adventures.68687",
             "patch": "4.45"
@@ -799,7 +808,7 @@
                 "character.gold-saucer.triple-triad-card-list.page-4.5",
                 "character.gold-saucer.triple-triad-card-list.page-3.11"
             ],
-            "quest": "duty.quests.beast-tribe.vath.67796",
+            "quest": "duty.quests.tribal-quests.vath.67796",
             "patch": "3.0"
         },
         "x71": {

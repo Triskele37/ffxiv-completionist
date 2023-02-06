@@ -544,8 +544,36 @@
             "points": 10,
             "reward": "character.character.title.550",
             "patch": "5.45",
+            "cSiblings": ["character.character.title.550"]
+        },
+        "x3148": {
+            "points": 5,
+            "patch": "6.25"
+        },
+        "x3149": {
+            "points": 5,
+            "patch": "6.25"
+        },
+        "x3150": {
+            "points": 5,
+            "patch": "6.25"
+        },
+        "x3151": {
+            "points": 5,
+            "patch": "6.25"
+        },
+        "x3155": {
+            "points": 10,
+            "patch": "6.25",
+            "cSiblings": ["duty.dutyraid-finder.v-and-c-dungeon.1"]
+        },
+        "x3156": {
+            "points": 20,
+            "reward": "character.character.title.657",
+            "patch": "6.25",
             "cSiblings": [
-                "character.character.title.550"
+                "duty.dutyraid-finder.v-and-c-dungeon.2",
+                "character.character.title.657"
             ]
         }
     }

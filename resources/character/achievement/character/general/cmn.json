@@ -23,7 +23,7 @@
         },
         "x55": {
             "points": 20,
-            "reward": "character.character.title.13",
+            "reward": "character.character.title.14",
             "patch": "2.0",
             "cCombo": [
                 56
@@ -1321,10 +1321,10 @@
         },
         "x3063": {
             "points": 10,
-            "reward": "character.character.title.646",
+            "reward": "character.character.title.634",
             "patch": "6.15",
             "cPrev": [3062],
-            "cSiblings": ["character.character.title.646"]
+            "cSiblings": ["character.character.title.634"]
         },
         "x2001": {
             "points": 5,
@@ -1439,6 +1439,94 @@
                     "duty.trust.ew.6"
                 ]
             }
+        },
+        "x3089": {
+            "reward": "character.character.title.645",
+            "points": 10,
+            "patch": "6.2",
+            "cSiblings": ["character.character.title.645"]
+        },
+        "x3090": {
+            "points": 5,
+            "patch": "6.2",
+            "cNext": [3091]
+        },
+        "x3091": {
+            "points": 10,
+            "patch": "6.2",
+            "cPrev": [3090],
+            "cNext": [3092]
+        },
+        "x3092": {
+            "points": 20,
+            "patch": "6.2",
+            "cPrev": [3091]
+        },
+        "x3093": {
+            "points": 5,
+            "patch": "6.2",
+            "cNext": [3094]
+        },
+        "x3094": {
+            "points": 10,
+            "patch": "6.2",
+            "cPrev": [3093],
+            "cNext": [3095]
+        },
+        "x3095": {
+            "points": 20,
+            "patch": "6.2",
+            "cPrev": [3094]
+        },
+        "x3096": {
+            "points": 5,
+            "patch": "6.2",
+            "cNext": [3097]
+        },
+        "x3097": {
+            "points": 10,
+            "patch": "6.2",
+            "cPrev": [3096],
+            "cNext": [3098]
+        },
+        "x3098": {
+            "points": 20,
+            "patch": "6.2",
+            "cPrev": [3097]
+        },
+        "x3099": {
+            "points": 5,
+            "patch": "6.2",
+            "cNext": [3100]
+        },
+        "x3100": {
+            "points": 10,
+            "patch": "6.2",
+            "cPrev": [3099],
+            "cNext": [3101]
+        },
+        "x3101": {
+            "points": 20,
+            "patch": "6.2",
+            "cPrev": [3100]
+        },
+        "x3102": {
+            "points": 10,
+            "patch": "6.2",
+            "cNext": [3103]
+        },
+        "x3103": {
+            "reward": "character.character.title.646",
+            "points": 20,
+            "patch": "6.2",
+            "cPrev": [3102],
+            "cSiblings": ["character.character.title.646"]
+        },
+        "x3104": {
+            "reward": "character.character.title.647",
+            "points": 20,
+            "patch": "6.2",
+            "cSiblings": ["character.character.title.647"]
         }
     }
 }

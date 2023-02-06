@@ -53,28 +53,32 @@ export const QUEST_DEFINITION = {
                 {
                     path: 'side-story-quests',
                     subGroups: [
+                        'tales-of-the-dragonsong-war',
+                        'tales-from-the-shadows',
+                        'tales-of-newfound-adventure',
                         'hildibrand',
                         'further-hildibrand-adventures',
                         'even-further-hildibrand-adventures',
                         'somehow-further-hildibrand-adventures',
-                        'scholasticate',
-                        'tales-of-the-dragonsong-war',
-                        'wandering-minstrel',
+                        'manderville-weapons',
                         'zodiac-weapons',
                         'anima-weapons',
                         'the-forbidden-land-eureka',
                         'resistance-weapons',
                         'delivery-moogle',
-                        'allied-beast-tribe',
-                        'heavensward-beast-tribe',
-                        'stormblood-beast-tribe',
-                        'doman-adventurers-guild',
-                        'doman-reconstruction',
-                        'tales-from-the-shadows',
+                        'scholasticate',
                         'void',
                         'tatarus-grand-endeavor',
+                        'doman-adventurers-guild',
+                        'doman-reconstruction',
                         'ishgardian-restoration-main',
                         'ishgardian-restoration-sidequests',
+                        'island-sanctuary',
+                        'variant-dungeons',
+                        'allied-tribal-quests',
+                        'heavensward-tribal-quests',
+                        'stormblood-tribal-quests',
+                        'wandering-minstrel',
                     ]
                 },
                 {
@@ -225,7 +229,7 @@ export const QUEST_DEFINITION = {
             ]
         },
         {
-            path: 'beast-tribe',
+            path: 'tribal-quests',
             subGroups: [
                 'amaljaa',
                 'sylph',
@@ -242,6 +246,7 @@ export const QUEST_DEFINITION = {
                 'qitari',
                 'dwarf',
                 'arkasodara',
+                'omicron',
             ]
         },
         {

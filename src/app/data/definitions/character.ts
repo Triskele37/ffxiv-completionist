@@ -12,7 +12,7 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                 'grand-company-rank',
                 'classes-jobs',
                 'desynthesis',
-                'beast-tribe-reputation',
+                'tribal-relations',
             ]
         },
         {
@@ -33,6 +33,7 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                 'anima',
                 'eureka',
                 'resistance',
+                'manderville',
                 'lucis-tools',
                 'skysteel-tools',
                 'resplendent-tools',
@@ -128,6 +129,7 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                         'deep-dungeon-weapons',
                         'eureka-weapons',
                         'resistance-weapons',
+                        'manderville-weapons',
                         'skysteel-tools',
                     ]
                 },
@@ -153,7 +155,7 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                     subGroups: [
                         'quests',
                         'levequests',
-                        'beast-tribe-quests',
+                        'tribal-quests',
                         'seasonal-events',
                     ]
                 },

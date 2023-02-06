@@ -13,10 +13,16 @@
             ]
         },
         "x65714": {
-            "level": 1
+            "level": 1,
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war.pugilist.66068"
+            ]
         },
         "x65715": {
-            "level": 1
+            "level": 1,
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war.marauder.65846"
+            ]
         },
         "x65716": {
             "level": 1,
@@ -37,7 +43,10 @@
             ]
         },
         "x65719": {
-            "level": 1
+            "level": 1,
+            "cNext": [
+                "duty.quests.class--job.disciple-of-magic.thaumaturge.65880"
+            ]
         },
         "x65720": {
             "level": 1,
@@ -481,6 +490,21 @@
             "level": 80,
             "cPrev": [
                 "duty.quests.sidequests.mor-dhonan.mor-dhona.67634"
+            ]
+        },
+        "x70180": {
+            "level": 1,
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ]
+        },
+        "x70187": {
+            "level": 90,
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.70000"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.side-story.variant-dungeons.70182"
             ]
         }
     }

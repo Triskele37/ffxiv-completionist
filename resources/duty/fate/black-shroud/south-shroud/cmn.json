@@ -1,14 +1,14 @@
 {
     "key": "south-shroud",
     "tasks": {
-        "x167": {
-            "level": 21,
-            "location": "(15, 18)",
+        "x153": {
+            "level": 23,
+            "location": "(19, 22)",
             "patch": "2.0"
         },
-        "x170": {
-            "level": 22,
-            "location": "(20, 20)",
+        "x154": {
+            "level": 34,
+            "location": "(21, 29)",
             "patch": "2.0"
         },
         "x163": {
@@ -21,19 +21,19 @@
             "location": "(17, 20)",
             "patch": "2.0"
         },
-        "x153": {
-            "level": 23,
-            "location": "(19, 22)",
+        "x167": {
+            "level": 21,
+            "location": "(15, 18)",
             "patch": "2.0"
         },
-        "x215": {
-            "level": 24,
-            "location": "(16, 22)",
+        "x169": {
+            "level": 32,
+            "location": "(15, 33)",
             "patch": "2.0"
         },
-        "x158": {
-            "level": 28,
-            "location": "(26, 22)",
+        "x170": {
+            "level": 22,
+            "location": "(20, 20)",
             "patch": "2.0"
         },
         "x172": {
@@ -41,15 +41,15 @@
             "location": "(27, 20)",
             "patch": "2.0"
         },
-        "x164": {
-            "level": 29,
-            "location": "(30, 19)",
+        "x215": {
+            "level": 24,
+            "location": "(16, 22)",
             "patch": "2.0"
         },
-        "x168": {
-            "level": 29,
-            "location": "(28, 21)",
-            "patch": "2.0"
+        "x624": {
+            "level": 33,
+            "location": "(19, 29)",
+            "patch": "2.1"
         },
         "x626": {
             "level": 30,
@@ -61,6 +61,11 @@
             "location": "(16, 29)",
             "patch": "2.1"
         },
+        "x628": {
+            "level": 46,
+            "location": "(32, 25)",
+            "patch": "2.1"
+        },
         "x159": {
             "level": 32,
             "location": "(22, 18)",
@@ -69,37 +74,37 @@
         "x160": {
             "level": 32,
             "location": "(22, 17)",
+            "previousFate": "duty.fate.black-shroud.south-shroud.159",
             "patch": "2.0"
         },
         "x161": {
             "level": 32,
             "location": "(22, 17)",
+            "previousFate": "duty.fate.black-shroud.south-shroud.160",
             "patch": "2.0"
         },
         "x162": {
             "level": 32,
             "location": "(22, 17)",
+            "previousFate": "duty.fate.black-shroud.south-shroud.161",
             "patch": "2.0"
         },
-        "x169": {
-            "level": 32,
-            "location": "(15, 33)",
+        "x158": {
+            "level": 28,
+            "location": "(26, 22)",
             "patch": "2.0"
         },
-        "x624": {
-            "level": 33,
-            "location": "(19, 29)",
-            "patch": "2.1"
-        },
-        "x154": {
-            "level": 34,
-            "location": "(21, 29)",
+        "x168": {
+            "level": 29,
+            "location": "(28, 21)",
+            "previousFate": "duty.fate.black-shroud.south-shroud.158",
             "patch": "2.0"
         },
-        "x628": {
-            "level": 46,
-            "location": "(32, 25)",
-            "patch": "2.1"
+        "x164": {
+            "level": 29,
+            "location": "(30, 19)",
+            "previousFate": "duty.fate.black-shroud.south-shroud.168",
+            "patch": "2.0"
         }
     }
 }

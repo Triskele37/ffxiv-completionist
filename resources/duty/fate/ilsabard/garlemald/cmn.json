@@ -1,16 +1,6 @@
 {
     "key": "garlemald",
     "tasks": {
-        "x1783": {
-            "level": 82,
-            "location": "(17.4, 23.3)",
-            "patch": "6.0"
-        },
-        "x1784": {
-            "level": 82,
-            "location": "(26.1, 19.3)",
-            "patch": "6.0"
-        },
         "x1785": {
             "level": 82,
             "location": "(12.8, 27.2)",
@@ -41,16 +31,6 @@
             "location": "(16.5, 26.1)",
             "patch": "6.0"
         },
-        "x1791": {
-            "level": 83,
-            "location": "(11.4, 11.2)",
-            "patch": "6.0"
-        },
-        "x1792": {
-            "level": 83,
-            "location": "(11.4, 11.2)",
-            "patch": "6.0"
-        },
         "x1793": {
             "level": 83,
             "location": "(19.3, 10.9)",
@@ -79,6 +59,29 @@
         "x1798": {
             "level": 83,
             "location": "(20.8, 15.2)",
+            "patch": "6.0"
+        },
+        "x1783": {
+            "level": 82,
+            "location": "(17.4, 23.3)",
+            "patch": "6.0"
+        },
+        "x1784": {
+            "level": 82,
+            "location": "(26.1, 19.3)",
+            "previousFate": "duty.fate.ilsabard.garlemald.1783",
+            "patch": "6.0"
+        },
+        "x1791": {
+            "level": 83,
+            "location": "(11.4, 11.2)",
+            "previousFate": "duty.fate.ilsabard.garlemald.1784",
+            "patch": "6.0"
+        },
+        "x1792": {
+            "level": 83,
+            "location": "(11.4, 11.2)",
+            "previousFate": "duty.fate.ilsabard.garlemald.1791",
             "patch": "6.0"
         }
     }

@@ -1,0 +1,42 @@
+{
+    "key": "heavensward-tribal-quests",
+    "tasks": {
+        "x67918": {
+            "level": 60,
+            "cNext": [
+                67919
+            ]
+        },
+        "x67919": {
+            "level": 60,
+            "cPrev": [
+                67918
+            ],
+            "cNext": [
+                67920
+            ]
+        },
+        "x67920": {
+            "level": 60,
+            "cPrev": [
+                67919
+            ],
+            "cNext": [
+                67921
+            ]
+        },
+        "x67921": {
+            "level": 60,
+            "cPrev": [
+                67920
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.36",
+                "character.character.tribal-relations.43",
+                "character.character.tribal-relations.52",
+                "character.achievement.quests.tribal-quests.1627",
+                "social.emotes.special.145"
+            ]
+        }
+    }
+}

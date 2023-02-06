@@ -348,6 +348,18 @@
                     "L4": "SCH/SMN chaining together improperly",
                     "L5": "Config & Save load failure handling"
                 }
+            },
+            "1_0_2": {
+                "ADD": {
+                    "L1": "Resources up to FFXIV 6.28",
+                    "L2": "Customization of random count and group",
+                    "L3": "Previous FATE column"
+                },
+                "FIX": {
+                    "L1": "Various data/chain corrections",
+                    "L2": "Removed Namazu crafting log chains, as the chained quests can be completed via DoL",
+                    "L3": "Issue where overlays would become unresponsive"
+                }
             }
         },
         "RANDOM": {
@@ -471,15 +483,15 @@
         "QUICK_MARK": {
             "TITLE": "Commandes de Coche-rapide",
             "PROCESSING": "En traitement",
-            "N-Y": "Changer les non complétés en complété",
-            "N-X": "Changer les non complétés en exclus",
-            "Y-N": "Changer les complétés en non complété",
-            "Y-X": "Changer les complétés en exclus",
-            "X-N": "Changer les exclus en non complété",
-            "X-Y": "Changer les exclus en complété",
-            "S-Y": "Changer les sélectionnés en complété",
-            "S-N": "Changer les sélectionés en non complété",
-            "S-X": "Changer les sélectionés en exclus",
+            "N-Y": "Non complété -> complété",
+            "N-X": "Non complété -> exclu",
+            "Y-N": "Complété -> non complété",
+            "Y-X": "Complété -> exclu",
+            "X-N": "Exclu -> non complété",
+            "X-Y": "Exclu -> complété",
+            "S-Y": "Sélectionné -> complété",
+            "S-N": "Sélectioné -> non complété",
+            "S-X": "Sélectioné -> exclu",
             "UNDO": "Annuler la dernière Coche-rapide"
         },
         "SELECTION": {
@@ -830,6 +842,20 @@
             "ACCENT": "Décoration (Portrait)",
             "POSE": "Pose (Portrait)",
             "EXPRESSION": "Expression (Portrait)"
+        },
+        "ISLAND": {
+            "EXPEDITION": {
+                "MEADOWS": "Prairie verdoyante",
+                "FALLS": "Ruisseau cristallin",
+                "WOODS": "Bois sauvages",
+                "BEACHES": "Plage sablonneuse",
+                "MOUNTAINS": "Montagne moussue"
+            },
+            "ANIMAL_SIZE": {
+                "SMALL": "Petit",
+                "MEDIUM": "Moyen",
+                "LARGE": "Grand"
+            }
         }
     }
 }

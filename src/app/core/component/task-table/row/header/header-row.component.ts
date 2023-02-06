@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 
 import { Completion } from '@constant';
 import { DataGroup } from '@domain/DataGroup';
@@ -11,13 +11,33 @@ import { UniqueValues } from '@component/task-table/types';
     templateUrl: './header-row.component.html',
     styleUrls: ['./header-row.component.scss']
 })
-export class HeaderRowComponent {
+export class HeaderRowComponent implements OnChanges {
     @Input() group: DataGroup;
     @Input() uniqueValues: UniqueValues;
 
     Completion = Completion;
+    hasNumericColumns: boolean;
 
     constructor(public svcFilter: FilterService) {
+    }
+
+    ngOnChanges(changes: SimpleChanges): void {
+        if(changes.group) {
+            this.hasNumericColumns = this.getHasNumericColumns();
+        }
+    }
+
+    getHasNumericColumns(): boolean {
+        if(this.group.isBookmarkGroup) return true;
+        if(this.group.isNumericCompletion) return true;
+
+        if(this.group.tasks) {
+            return Object.keys(this.group.tasks).some(
+                (key) => this.group.tasks[key].isNumericCompletion
+            );
+        }
+
+        return false;
     }
 
     displayedFilterValue(filterValue: string): string {

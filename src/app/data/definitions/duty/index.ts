@@ -62,6 +62,7 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                     subGroups: Duty_Guildhests(translate)
                 },
                 'deep-dungeon',
+                'v-and-c-dungeon',
                 {
                     path: 'the-hunt',
                     subGroups: [
@@ -239,6 +240,31 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                         'duties',
                     ]
                 }
+            ]
+        },
+        {
+            path: 'island-sanctuary',
+            subGroups: [
+                'rank',
+                'buildings',
+                {
+                    path: 'crafting',
+                    subGroups: [
+                        'tools',
+                        'feed',
+                        'restraints'
+                    ]
+                },
+                {
+                    path: 'isleventory',
+                    subGroups: [
+                        'materials',
+                        'gardening-starters',
+                        'produce',
+                        'leavings'
+                    ]
+                },
+                'animals'
             ]
         }
     ]
