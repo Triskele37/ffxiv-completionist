@@ -1,0 +1,1025 @@
+{
+    "key": "adventure-plate",
+    "headers": {
+        "elements": {
+            "filterable": true,
+            "link": true
+        },
+        "source": {
+            "link": true
+        }
+    },
+    "common": ["elements", "category"],
+    "tasks": {
+        "x112": {
+            "elements": [
+                "PLATE.BASE",
+                "PLATE.TOP_BORDER",
+                "PLATE.BOTTOM_BORDER",
+                "PLATE.ACCENT",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.other.quasi-quests.68555",
+            "patch": "6.2",
+            "cSiblings": ["duty.quests.other.quasi-quests.68555"]
+        },
+        "x0": {
+            "elements": [
+                "PLATE.PATTERN",
+                "PORTRAIT.BACKGROUND"
+            ],
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war.gladiator.65801",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war.gladiator.65801"]
+        },
+        "x1": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.paladin.68746",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.paladin.68746"]
+        },
+        "x2": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.paladin.66591",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.paladin.66591"]
+        },
+        "x3": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x4": {
+            "elements": [
+                "PLATE.PATTERN",
+                "PORTRAIT.BACKGROUND"
+            ],
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war.marauder.65855",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war.marauder.65855"]
+        },
+        "x5": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.warrior.68748",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.warrior.68748"]
+        },
+        "x6": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.warrior.66585",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.warrior.66585"]
+        },
+        "x7": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x8": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.dark-knight.68757",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.dark-knight.68757"]
+        },
+        "x9": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.dark-knight.67589",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.dark-knight.67589"]
+        },
+        "x10": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x11": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.gunbreaker.68761",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.gunbreaker.68761"]
+        },
+        "x12": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.gunbreaker.68797",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.gunbreaker.68797"]
+        },
+        "x13": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x14": {
+            "elements": [
+                "PLATE.PATTERN",
+                "PORTRAIT.BACKGROUND"
+            ],
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic.conjurer.65977",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic.conjurer.65977"]
+        },
+        "x15": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.white-mage.68751",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.white-mage.68751"]
+        },
+        "x16": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.white-mage.66615",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.white-mage.66615"]
+        },
+        "x17": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x18": {
+            "elements": [
+                "PLATE.PATTERN",
+                "PORTRAIT.BACKGROUND"
+            ],
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic.arcanist.65997",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic.arcanist.65997"]
+        },
+        "x19": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.scholar.68754",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.scholar.68754"]
+        },
+        "x20": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.scholar.66633",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.scholar.66633"]
+        },
+        "x21": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x22": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.astrologian.68758",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.astrologian.68758"]
+        },
+        "x23": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.astrologian.67548",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.astrologian.67548"]
+        },
+        "x24": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x25": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.sage.69608",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.sage.69608"]
+        },
+        "x26": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.sage.69603",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.sage.69603"]
+        },
+        "x27": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x28": {
+            "elements": [
+                "PLATE.PATTERN",
+                "PORTRAIT.BACKGROUND"
+            ],
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war.pugilist.66103",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war.pugilist.66103"]
+        },
+        "x29": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.monk.68747",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.monk.68747"]
+        },
+        "x30": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.monk.66597",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.monk.66597"]
+        },
+        "x31": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x32": {
+            "elements": [
+                "PLATE.PATTERN",
+                "PORTRAIT.BACKGROUND"
+            ],
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war.lancer.65975",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war.lancer.65975"]
+        },
+        "x33": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.dragoon.68749",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.dragoon.68749"]
+        },
+        "x34": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.dragoon.66603",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.dragoon.66603"]
+        },
+        "x35": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x36": {
+            "elements": [
+                "PLATE.PATTERN",
+                "PORTRAIT.BACKGROUND"
+            ],
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war.rogue.65691",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war.rogue.65691"]
+        },
+        "x37": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.ninja.68755",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.ninja.68755"]
+        },
+        "x38": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.ninja.65748",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.ninja.65748"]
+        },
+        "x39": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x40": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.samurai.68759",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.samurai.68759"]
+        },
+        "x41": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.samurai.68095",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.samurai.68095"]
+        },
+        "x42": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x43": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.reaper.69614",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.reaper.69614"]
+        },
+        "x44": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.reaper.69609",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.reaper.69609"]
+        },
+        "x45": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x46": {
+            "elements": [
+                "PLATE.PATTERN",
+                "PORTRAIT.BACKGROUND"
+            ],
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war.archer.65612",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war.archer.65612"]
+        },
+        "x47": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.bard.68750",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.bard.68750"]
+        },
+        "x48": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.bard.66621",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.bard.66621"]
+        },
+        "x49": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x50": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.machinist.68756",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.machinist.68756"]
+        },
+        "x51": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.machinist.67232",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.machinist.67232"]
+        },
+        "x52": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x53": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.dancer.68762",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.dancer.68762"]
+        },
+        "x54": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-war-job.dancer.68785",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-war-job.dancer.68785"]
+        },
+        "x55": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x56": {
+            "elements": [
+                "PLATE.PATTERN",
+                "PORTRAIT.BACKGROUND"
+            ],
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic.thaumaturge.65889",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic.thaumaturge.65889"]
+        },
+        "x57": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.black-mage.68752",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.black-mage.68752"]
+        },
+        "x58": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.black-mage.66609",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.black-mage.66609"]
+        },
+        "x59": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x60": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.summoner.69569",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.summoner.69569"]
+        },
+        "x61": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.summoner.66627",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.summoner.66627"]
+        },
+        "x62": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x63": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.red-mage.68760",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.red-mage.68760"]
+        },
+        "x64": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.red-mage.68112",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.red-mage.68112"]
+        },
+        "x65": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT",
+                "PORTRAIT.POSE"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.1"
+        },
+        "x66": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.blue-mage.69530",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.blue-mage.69530"]
+        },
+        "x67": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-magic-job.blue-mage.68728",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-magic-job.blue-mage.68728"]
+        },
+        "x68": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.carpenter.67981",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.carpenter.67981"]
+        },
+        "x69": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.carpenter.65674",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.carpenter.65674"]
+        },
+        "x70": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.blacksmith.68155",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.blacksmith.68155"]
+        },
+        "x71": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.blacksmith.65827",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.blacksmith.65827"]
+        },
+        "x72": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.armorer.68134",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.armorer.68134"]
+        },
+        "x73": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.armorer.65809",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.armorer.65809"]
+        },
+        "x74": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.goldsmith.68139",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.goldsmith.68139"]
+        },
+        "x75": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.goldsmith.66144",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.goldsmith.66144"]
+        },
+        "x76": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.leatherworker.68151",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.leatherworker.68151"]
+        },
+        "x77": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.leatherworker.65641",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.leatherworker.65641"]
+        },
+        "x78": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.weaver.67971",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.weaver.67971"]
+        },
+        "x79": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.weaver.66070",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.weaver.66070"]
+        },
+        "x80": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.alchemist.67976",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.alchemist.67976"]
+        },
+        "x81": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.alchemist.66111",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.alchemist.66111"]
+        },
+        "x82": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.culinarian.68144",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.culinarian.68144"]
+        },
+        "x83": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-hand.culinarian.65807",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.culinarian.65807"]
+        },
+        "x84": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-land.miner.68094",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-land.miner.68094"]
+        },
+        "x85": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-land.miner.66133",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-land.miner.66133"]
+        },
+        "x86": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-land.botanist.68160",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-land.botanist.68160"]
+        },
+        "x87": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-land.botanist.65539",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-land.botanist.65539"]
+        },
+        "x88": {
+            "elements": "PLATE.PATTERN",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-land.fisher.68435",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-land.fisher.68435"]
+        },
+        "x89": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.class--job.disciple-of-the-land.fisher.66643",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-land.fisher.66643"]
+        },
+        "x90": {
+            "elements": "PLATE.FRAME",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.sidequests.uldahn.the-gold-saucer.65971",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.sidequests.uldahn.the-gold-saucer.65971"]
+        },
+        "x107": {
+            "elements": [
+                "PLATE.TOP_BORDER",
+                "PLATE.BOTTOM_BORDER",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.seventh-umbral-era.66047",
+            "patch": "6.2",
+            "cSiblings": ["duty.quests.main-scenario.seventh-umbral-era.66047"]
+        },
+        "x113": {
+            "elements": [
+                "PLATE.BASE",
+                "PLATE.TOP_BORDER",
+                "PLATE.BOTTOM_BORDER",
+                "PLATE.ACCENT",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.25"
+        },
+        "x114": {
+            "elements": [
+                "PLATE.PATTERN",
+                "PLATE.PORTRAIT_FRAME",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.25"
+        },
+        "x108": {
+            "elements": [
+                "PLATE.BASE",
+                "PLATE.BACKING",
+                "PLATE.TOP_BORDER",
+                "PLATE.PORTRAIT_FRAME",
+                "PLATE.FRAME",
+                "PLATE.ACCENT",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.8",
+            "patch": "6.2",
+            "cSiblings": ["duty.dutyraid-finder.raids.sb.8"]
+        },
+        "x109": {
+            "elements": [
+                "PLATE.BASE",
+                "PLATE.BACKING",
+                "PLATE.TOP_BORDER",
+                "PLATE.PORTRAIT_FRAME",
+                "PLATE.FRAME",
+                "PLATE.ACCENT",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.17",
+            "patch": "6.2",
+            "cSiblings": ["duty.dutyraid-finder.raids.sb.17"]
+        },
+        "x110": {
+            "elements": [
+                "PLATE.BASE",
+                "PLATE.BACKING",
+                "PLATE.TOP_BORDER",
+                "PLATE.PORTRAIT_FRAME",
+                "PLATE.FRAME",
+                "PLATE.ACCENT",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.8",
+            "patch": "6.2",
+            "cSiblings": ["duty.dutyraid-finder.raids.shb.8"]
+        },
+        "x111": {
+            "elements": [
+                "PLATE.BASE",
+                "PLATE.BACKING",
+                "PLATE.TOP_BORDER",
+                "PLATE.PORTRAIT_FRAME",
+                "PLATE.FRAME",
+                "PLATE.ACCENT",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.9",
+            "patch": "6.2",
+            "cSiblings": ["duty.dutyraid-finder.raids.ew.9"]
+        },
+        "x91": {
+            "elements": "PORTRAIT.BACKGROUND",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.seventh-umbral-era.66196",
+            "patch": "6.1",
+            "cSiblings": ["duty.quests.main-scenario.seventh-umbral-era.66196"]
+        },
+        "x92": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.PVP",
+            "patch": "6.1"
+        },
+        "x93": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.PVP",
+            "patch": "6.1"
+        },
+        "x105": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.PVP",
+            "patch": "6.2"
+        },
+        "x106": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.PVP",
+            "patch": "6.2"
+        },
+        "x94": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.ACHIEVEMENT",
+            "source": "character.achievement.pvp.ranking.3052",
+            "patch": "6.1",
+            "cPrev": ["character.achievement.pvp.ranking.3052"]
+        },
+        "x95": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.ACHIEVEMENT",
+            "source": "character.achievement.pvp.ranking.3053",
+            "patch": "6.1",
+            "cPrev": ["character.achievement.pvp.ranking.3053"]
+        },
+        "x96": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.ACHIEVEMENT",
+            "source": "character.achievement.pvp.ranking.3054",
+            "patch": "6.1",
+            "cPrev": ["character.achievement.pvp.ranking.3054"]
+        },
+        "x97": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.ACHIEVEMENT",
+            "source": "character.achievement.pvp.ranking.3046",
+            "patch": "6.1",
+            "cPrev": ["character.achievement.pvp.ranking.3046"]
+        },
+        "x98": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.ACHIEVEMENT",
+            "source": "character.achievement.pvp.ranking.3047",
+            "patch": "6.1",
+            "cPrev": ["character.achievement.pvp.ranking.3047"]
+        },
+        "x99": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.ACHIEVEMENT",
+            "source": "character.achievement.pvp.ranking.3048",
+            "patch": "6.1",
+            "cPrev": ["character.achievement.pvp.ranking.3048"]
+        },
+        "x100": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.ACHIEVEMENT",
+            "source": "character.achievement.pvp.ranking.3049",
+            "patch": "6.1",
+            "cPrev": ["character.achievement.pvp.ranking.3049"]
+        },
+        "x101": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.ACHIEVEMENT",
+            "source": "character.achievement.pvp.ranking.3050",
+            "patch": "6.1",
+            "cPrev": ["character.achievement.pvp.ranking.3050"]
+        },
+        "x102": {
+            "elements": [
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.ACHIEVEMENT",
+            "source": "character.achievement.pvp.ranking.3051",
+            "patch": "6.1",
+            "cPrev": ["character.achievement.pvp.ranking.3051"]
+        },
+        "x103": {
+            "elements": [
+                "PLATE.BASE",
+                "PLATE.BACKING",
+                "PLATE.PORTRAIT_FRAME",
+                "PLATE.FRAME",
+                "PLATE.ACCENT",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.OTHER",
+            "patch": "6.1",
+            "defaultCompletion": "X"
+        },
+        "x104": {
+            "elements": [
+                "PLATE.BASE",
+                "PLATE.BACKING",
+                "PLATE.PORTRAIT_FRAME",
+                "PLATE.FRAME",
+                "PLATE.ACCENT",
+                "PORTRAIT.BACKGROUND",
+                "PORTRAIT.FRAME",
+                "PORTRAIT.ACCENT"
+            ],
+            "category": "CATEGORY.OTHER",
+            "patch": "6.1",
+            "defaultCompletion": "X"
+        }
+    }
+}

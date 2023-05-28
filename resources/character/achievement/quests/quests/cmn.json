@@ -1,0 +1,1910 @@
+{
+    "key": "quests",
+    "tasks": {
+        "x341": {
+            "points": 5,
+            "patch": "2.0",
+            "cNext": [
+                342
+            ]
+        },
+        "x342": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                341
+            ],
+            "cNext": [
+                343
+            ]
+        },
+        "x343": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                342
+            ],
+            "cNext": [
+                344
+            ]
+        },
+        "x344": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                343
+            ],
+            "cNext": [
+                345
+            ]
+        },
+        "x345": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrev": [
+                344
+            ],
+            "cNext": [
+                346
+            ]
+        },
+        "x346": {
+            "points": 10,
+            "reward": "character.character.title.53",
+            "patch": "2.0",
+            "cPrev": [
+                345
+            ],
+            "cNext": [
+                347
+            ],
+            "cSiblings": [
+                "character.character.title.53"
+            ]
+        },
+        "x347": {
+            "points": 20,
+            "patch": "2.0",
+            "cPrev": [
+                346
+            ]
+        },
+        "x644": {
+            "points": 5,
+            "patch": "2.1",
+            "cNext": [
+                645
+            ]
+        },
+        "x645": {
+            "points": 5,
+            "patch": "2.1",
+            "cPrev": [
+                644
+            ],
+            "cNext": [
+                646
+            ]
+        },
+        "x646": {
+            "points": 10,
+            "patch": "2.1",
+            "cPrev": [
+                645
+            ]
+        },
+        "x310": {
+            "points": 5,
+            "patch": "2.0",
+            "cExclude": [
+                311,
+                312
+            ],
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66082"
+            ]
+        },
+        "x311": {
+            "points": 5,
+            "patch": "2.0",
+            "cExclude": [
+                310,
+                312
+            ],
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66043"
+            ]
+        },
+        "x312": {
+            "points": 5,
+            "patch": "2.0",
+            "cExclude": [
+                310,
+                311
+            ],
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.66064"
+            ]
+        },
+        "x783": {
+            "points": 5,
+            "patch": "2.1",
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.66282"
+            ]
+        },
+        "x784": {
+            "points": 5,
+            "patch": "2.1",
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.66337"
+            ]
+        },
+        "x785": {
+            "points": 5,
+            "patch": "2.1",
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.66053"
+            ]
+        },
+        "x786": {
+            "points": 5,
+            "patch": "2.1",
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.66488"
+            ]
+        },
+        "x787": {
+            "points": 10,
+            "patch": "2.1",
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.66055"
+            ]
+        },
+        "x788": {
+            "points": 20,
+            "patch": "2.1",
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ]
+        },
+        "x898": {
+            "points": 20,
+            "patch": "2.2",
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-astral-era.69414"
+            ]
+        },
+        "x899": {
+            "points": 20,
+            "patch": "2.2",
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-astral-era.66899"
+            ]
+        },
+        "x1001": {
+            "points": 20,
+            "reward": "character.character.title.174",
+            "patch": "2.3",
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-astral-era.66996",
+                "character.character.title.174"
+            ]
+        },
+        "x1029": {
+            "points": 20,
+            "reward": "character.character.title.183",
+            "patch": "2.4",
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-astral-era.65625",
+                "character.character.title.183"
+            ]
+        },
+        "x1129": {
+            "points": 20,
+            "reward": "character.character.title.211",
+            "patch": "2.55",
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-astral-era.65964",
+                "character.character.title.211"
+            ]
+        },
+        "x1133": {
+            "points": 20,
+            "reward": "character.character.title.214",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67134",
+                "character.character.title.214"
+            ]
+        },
+        "x1134": {
+            "points": 20,
+            "reward": "character.character.title.215",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67137",
+                "character.character.title.215"
+            ]
+        },
+        "x1135": {
+            "points": 20,
+            "reward": "character.character.title.216",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67172",
+                "character.character.title.216"
+            ]
+        },
+        "x1136": {
+            "points": 20,
+            "reward": "character.character.title.217",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67177",
+                "character.character.title.217"
+            ]
+        },
+        "x1137": {
+            "points": 20,
+            "reward": "character.character.title.218",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67185",
+                "character.character.title.218"
+            ]
+        },
+        "x1138": {
+            "points": 20,
+            "reward": "character.character.title.219",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67198",
+                "character.character.title.219"
+            ]
+        },
+        "x1139": {
+            "points": 20,
+            "reward": "character.character.title.220",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67205",
+                "character.character.title.220"
+            ]
+        },
+        "x1387": {
+            "points": 10,
+            "reward": "character.character.title.271",
+            "patch": "3.1",
+            "cSiblings": [
+                "duty.quests.main-scenario.dragonsong.67699",
+                "character.character.title.271"
+            ]
+        },
+        "x1493": {
+            "points": 10,
+            "reward": "character.character.title.289",
+            "patch": "3.15",
+            "cSiblings": [
+                "duty.quests.main-scenario.dragonsong.67777",
+                "character.character.title.289"
+            ]
+        },
+        "x1594": {
+            "points": 10,
+            "reward": "character.character.title.292",
+            "patch": "3.3",
+            "cSiblings": [
+                "duty.quests.main-scenario.dragonsong.67783",
+                "character.character.title.292"
+            ]
+        },
+        "x1595": {
+            "points": 10,
+            "patch": "3.3",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.tales-of-the-dragonsong-war.67015"
+            ]
+        },
+        "x1630": {
+            "points": 10,
+            "reward": "character.character.title.316",
+            "patch": "3.4",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-dragonsong.67886",
+                "character.character.title.316"
+            ]
+        },
+        "x1690": {
+            "points": 10,
+            "reward": "character.character.title.340",
+            "patch": "3.5",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-dragonsong.67891",
+                "character.character.title.340"
+            ]
+        },
+        "x1691": {
+            "points": 10,
+            "reward": "character.character.title.341",
+            "patch": "3.56",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-dragonsong.67895",
+                "character.character.title.341"
+            ]
+        },
+        "x1787": {
+            "points": 20,
+            "reward": "character.character.title.351",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68005",
+                "character.character.title.351"
+            ]
+        },
+        "x1788": {
+            "points": 20,
+            "reward": "character.character.title.352",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68012",
+                "character.character.title.352"
+            ]
+        },
+        "x1789": {
+            "points": 20,
+            "reward": "character.character.title.353",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68026",
+                "character.character.title.353"
+            ]
+        },
+        "x1790": {
+            "points": 20,
+            "reward": "character.character.title.354",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68035",
+                "character.character.title.354"
+            ]
+        },
+        "x1791": {
+            "points": 20,
+            "reward": "character.character.title.355",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68053",
+                "character.character.title.355"
+            ]
+        },
+        "x1792": {
+            "points": 20,
+            "reward": "character.character.title.356",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68062",
+                "character.character.title.356"
+            ]
+        },
+        "x1793": {
+            "points": 20,
+            "reward": "character.character.title.357",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68083",
+                "character.character.title.357"
+            ]
+        },
+        "x1794": {
+            "points": 20,
+            "reward": "character.character.title.358",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68089",
+                "character.character.title.358"
+            ]
+        },
+        "x1990": {
+            "points": 20,
+            "reward": "character.character.title.139",
+            "patch": "4.1",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-stormblood.68508",
+                "character.character.title.139"
+            ]
+        },
+        "x2013": {
+            "points": 20,
+            "reward": "character.character.title.181",
+            "patch": "4.2",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-stormblood.68565",
+                "character.character.title.181"
+            ]
+        },
+        "x2098": {
+            "points": 20,
+            "reward": "character.character.title.392",
+            "patch": "4.3",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-stormblood.68611",
+                "character.character.title.392"
+            ]
+        },
+        "x2124": {
+            "points": 20,
+            "reward": "character.character.title.402",
+            "patch": "4.4",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-stormblood.68685",
+                "character.character.title.402"
+            ]
+        },
+        "x2160": {
+            "points": 20,
+            "patch": "4.5",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-stormblood.68719"
+            ]
+        },
+        "x2233": {
+            "points": 20,
+            "reward": "character.character.title.417",
+            "patch": "4.56",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-stormblood.68721",
+                "character.character.title.417"
+            ]
+        },
+        "x2293": {
+            "points": 20,
+            "reward": "character.character.title.426",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.68837",
+                "character.character.title.426"
+            ]
+        },
+        "x2294": {
+            "points": 20,
+            "reward": "character.character.title.427",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.68857",
+                "character.character.title.427"
+            ]
+        },
+        "x2295": {
+            "points": 20,
+            "reward": "character.character.title.428",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.68878",
+                "character.character.title.428"
+            ]
+        },
+        "x2296": {
+            "points": 20,
+            "reward": "character.character.title.429",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.69158",
+                "character.character.title.429"
+            ]
+        },
+        "x2297": {
+            "points": 20,
+            "reward": "character.character.title.430",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.69179",
+                "character.character.title.430"
+            ]
+        },
+        "x2298": {
+            "points": 20,
+            "reward": "character.character.title.431",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.69190",
+                "character.character.title.431"
+            ]
+        },
+        "x2424": {
+            "points": 20,
+            "reward": "character.character.title.476",
+            "patch": "5.1",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-shadowbringers.69218",
+                "character.character.title.476"
+            ]
+        },
+        "x2587": {
+            "points": 20,
+            "reward": "character.character.title.520",
+            "patch": "5.2",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-shadowbringers.69306",
+                "character.character.title.520"
+            ]
+        },
+        "x2642": {
+            "points": 20,
+            "reward": "character.character.title.527",
+            "patch": "5.3",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-shadowbringers.69318",
+                "character.character.title.527"
+            ]
+        },
+        "x2714": {
+            "points": 20,
+            "reward": "character.character.title.549",
+            "patch": "5.4",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-shadowbringers-ii.69552",
+                "character.character.title.549"
+            ]
+        },
+        "x2850": {
+            "points": 20,
+            "patch": "5.5",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-shadowbringers-ii.69599"
+            ]
+        },
+        "x2851": {
+            "points": 20,
+            "reward": "character.character.title.583",
+            "patch": "5.55",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-shadowbringers-ii.69602",
+                "character.character.title.583"
+            ]
+        },
+        "x2952": {
+            "points": 20,
+            "reward": "character.character.title.597",
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69915",
+                "character.character.title.597"
+            ]
+        },
+        "x2953": {
+            "points": 20,
+            "reward": "character.character.title.598",
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69934",
+                "character.character.title.598"
+            ]
+        },
+        "x2954": {
+            "points": 20,
+            "reward": "character.character.title.599",
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69944",
+                "character.character.title.599"
+            ]
+        },
+        "x2955": {
+            "points": 20,
+            "reward": "character.character.title.600",
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69954",
+                "character.character.title.600"
+            ]
+        },
+        "x2956": {
+            "points": 20,
+            "reward": "character.character.title.601",
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69974",
+                "character.character.title.601"
+            ]
+        },
+        "x2957": {
+            "points": 20,
+            "reward": "character.character.title.602",
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69985",
+                "character.character.title.602"
+            ]
+        },
+        "x2958": {
+            "points": 20,
+            "reward": "character.character.title.603",
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.70000",
+                "character.character.title.603"
+            ]
+        },
+        "x3075": {
+            "points": 20,
+            "reward": "character.character.title.637",
+            "patch": "6.1",
+            "cSiblings": [
+                "character.character.title.637"
+            ]
+        },
+        "x3105": {
+            "points": 20,
+            "reward": "character.character.title.648",
+            "patch": "6.2",
+            "cSiblings": ["character.character.title.648"]
+        },
+        "x902": {
+            "points": 10,
+            "reward": "character.character.title.150",
+            "patch": "2.2",
+            "cSiblings": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66966",
+                "character.character.title.150"
+            ]
+        },
+        "x1575": {
+            "points": 10,
+            "reward": "character.character.title.314",
+            "patch": "3.35",
+            "cSiblings": [
+                "duty.quests.sidequests.gridanian.south-shroud.67093",
+                "character.character.title.314"
+            ]
+        },
+        "x1680": {
+            "points": 10,
+            "reward": "character.character.title.324",
+            "patch": "3.45",
+            "cSiblings": [
+                "duty.quests.sidequests.gridanian.south-shroud.67924",
+                "character.character.title.324"
+            ]
+        },
+        "x900": {
+            "points": 10,
+            "patch": "2.2",
+            "cSiblings": [
+                "duty.quests.chronicles-of-a-new-era.bahamut.66696"
+            ]
+        },
+        "x901": {
+            "points": 20,
+            "patch": "2.2",
+            "cSiblings": [
+                "duty.quests.chronicles-of-a-new-era.bahamut.66850"
+            ]
+        },
+        "x1030": {
+            "points": 20,
+            "reward": "character.character.title.178",
+            "patch": "2.4",
+            "cSiblings": [
+                "duty.quests.chronicles-of-a-new-era.bahamut.65580",
+                "character.character.title.178"
+            ]
+        },
+        "x1164": {
+            "points": 10,
+            "reward": "character.character.title.235",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.chronicles-of-a-new-era.alexander.67630",
+                "character.character.title.235"
+            ]
+        },
+        "x1494": {
+            "points": 10,
+            "reward": "character.character.title.290",
+            "patch": "3.15",
+            "cSiblings": [
+                "duty.quests.chronicles-of-a-new-era.alexander.67789",
+                "character.character.title.290"
+            ]
+        },
+        "x1629": {
+            "points": 10,
+            "reward": "character.character.title.315",
+            "patch": "3.4",
+            "cSiblings": [
+                "duty.quests.chronicles-of-a-new-era.alexander.67875",
+                "character.character.title.315"
+            ]
+        },
+        "x1796": {
+            "points": 10,
+            "reward": "character.character.title.359",
+            "patch": "4.01",
+            "cSiblings": [
+                "duty.quests.chronicles-of-a-new-era.omega.68469",
+                "character.character.title.359"
+            ]
+        },
+        "x1388": {
+            "points": 10,
+            "reward": "character.character.title.272",
+            "patch": "3.1",
+            "cSiblings": [
+                "duty.quests.chronicles-of-a-new-era.the-shadow-of-mhach.67741",
+                "character.character.title.272"
+            ]
+        },
+        "x1031": {
+            "points": 30,
+            "reward": "character.character.title.179",
+            "patch": "2.4",
+            "cSiblings": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.65782",
+                "character.character.title.179"
+            ]
+        },
+        "x1004": {
+            "points": 10,
+            "reward": "character.character.title.175",
+            "patch": "2.3",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.delivery-moogle.67017",
+                "character.character.title.175"
+            ]
+        },
+        "x1130": {
+            "points": 10,
+            "reward": "character.character.title.212",
+            "patch": "2.55",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.delivery-moogle.65898",
+                "character.character.title.212"
+            ]
+        },
+        "x1005": {
+            "points": 10,
+            "patch": "2.3",
+            "cSiblings": [
+                "duty.quests.sidequests.uldahn.western-thanalan.66973"
+            ]
+        },
+        "x789": {
+            "points": 5,
+            "patch": "2.1",
+            "cNext": [
+                790
+            ]
+        },
+        "x790": {
+            "points": 10,
+            "patch": "2.1",
+            "cPrev": [
+                789
+            ],
+            "cNext": [
+                791
+            ]
+        },
+        "x791": {
+            "points": 20,
+            "patch": "2.1",
+            "cPrev": [
+                790
+            ]
+        },
+        "x313": {
+            "points": 5,
+            "patch": "2.0",
+            "cPrevAny": true,
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-war.gladiator.65801",
+                "duty.quests.class--job.disciple-of-war.pugilist.66103",
+                "duty.quests.class--job.disciple-of-war.marauder.65855",
+                "duty.quests.class--job.disciple-of-war.lancer.65975",
+                "duty.quests.class--job.disciple-of-war.archer.65612",
+                "duty.quests.class--job.disciple-of-war.rogue.65691",
+                "duty.quests.class--job.disciple-of-magic.conjurer.65977",
+                "duty.quests.class--job.disciple-of-magic.thaumaturge.65889",
+                "duty.quests.class--job.disciple-of-magic.arcanist.65997"
+            ]
+        },
+        "x314": {
+            "points": 10,
+            "reward": "character.character.title.45",
+            "patch": "2.0",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-war.gladiator.65801",
+                "duty.quests.class--job.disciple-of-war.pugilist.66103",
+                "duty.quests.class--job.disciple-of-war.marauder.65855",
+                "duty.quests.class--job.disciple-of-war.lancer.65975",
+                "duty.quests.class--job.disciple-of-war.archer.65612"
+            ],
+            "cCombo": [
+                318
+            ],
+            "cSiblings": [
+                "character.character.title.45"
+            ]
+        },
+        "x315": {
+            "points": 10,
+            "reward": "character.character.title.46",
+            "patch": "2.0",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-magic.conjurer.65977",
+                "duty.quests.class--job.disciple-of-magic.thaumaturge.65889",
+                "duty.quests.class--job.disciple-of-magic.arcanist.65997"
+            ],
+            "cCombo": [
+                318
+            ],
+            "cSiblings": [
+                "character.character.title.46"
+            ]
+        },
+        "x316": {
+            "points": 10,
+            "reward": "character.character.title.47",
+            "patch": "2.0",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-the-hand.carpenter.65705",
+                "duty.quests.class--job.disciple-of-the-hand.blacksmith.65834",
+                "duty.quests.class--job.disciple-of-the-hand.armorer.65816",
+                "duty.quests.class--job.disciple-of-the-hand.goldsmith.66153",
+                "duty.quests.class--job.disciple-of-the-hand.leatherworker.65597",
+                "duty.quests.class--job.disciple-of-the-hand.weaver.66129",
+                "duty.quests.class--job.disciple-of-the-hand.alchemist.66120",
+                "duty.quests.class--job.disciple-of-the-hand.culinarian.65802"
+            ],
+            "cCombo": [
+                318
+            ],
+            "cSiblings": [
+                "character.character.title.47"
+            ]
+        },
+        "x317": {
+            "points": 10,
+            "reward": "character.character.title.48",
+            "patch": "2.0",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-the-land.miner.66142",
+                "duty.quests.class--job.disciple-of-the-land.botanist.65545",
+                "duty.quests.class--job.disciple-of-the-land.fisher.66650"
+            ],
+            "cCombo": [
+                318
+            ],
+            "cSiblings": [
+                "character.character.title.48"
+            ]
+        },
+        "x318": {
+            "points": 20,
+            "patch": "2.0",
+            "cPrev": [
+                314,
+                315,
+                316,
+                317
+            ]
+        },
+        "x407": {
+            "points": 5,
+            "patch": "2.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.paladin.66596"
+            ],
+            "cCombo": [
+                414
+            ]
+        },
+        "x1141": {
+            "points": 5,
+            "reward": "character.character.title.222",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.paladin.67573",
+                "character.character.title.222"
+            ]
+        },
+        "x1797": {
+            "points": 5,
+            "reward": "character.character.title.360",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.paladin.68111",
+                "character.character.title.360"
+            ]
+        },
+        "x2306": {
+            "points": 5,
+            "reward": "character.character.title.435",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.paladin.68746",
+                "character.character.title.435"
+            ]
+        },
+        "x408": {
+            "points": 5,
+            "patch": "2.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.monk.66602"
+            ],
+            "cCombo": [
+                414
+            ]
+        },
+        "x1142": {
+            "points": 5,
+            "reward": "character.character.title.223",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.monk.67567",
+                "character.character.title.223"
+            ]
+        },
+        "x1798": {
+            "points": 5,
+            "reward": "character.character.title.361",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.monk.67966",
+                "character.character.title.361"
+            ]
+        },
+        "x2307": {
+            "points": 5,
+            "reward": "character.character.title.436",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.monk.68747",
+                "character.character.title.436"
+            ]
+        },
+        "x409": {
+            "points": 5,
+            "patch": "2.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.warrior.66590"
+            ],
+            "cCombo": [
+                414
+            ]
+        },
+        "x1143": {
+            "points": 5,
+            "reward": "character.character.title.224",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.warrior.66137",
+                "character.character.title.224"
+            ]
+        },
+        "x1799": {
+            "points": 5,
+            "reward": "character.character.title.362",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.warrior.68440",
+                "character.character.title.362"
+            ]
+        },
+        "x2308": {
+            "points": 5,
+            "reward": "character.character.title.437",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.warrior.68748",
+                "character.character.title.437"
+            ]
+        },
+        "x410": {
+            "points": 5,
+            "patch": "2.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.dragoon.66608"
+            ],
+            "cCombo": [
+                414
+            ]
+        },
+        "x1144": {
+            "points": 5,
+            "reward": "character.character.title.225",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.dragoon.67231",
+                "character.character.title.225"
+            ]
+        },
+        "x1800": {
+            "points": 5,
+            "reward": "character.character.title.363",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.dragoon.68450",
+                "character.character.title.363"
+            ]
+        },
+        "x2309": {
+            "points": 5,
+            "reward": "character.character.title.438",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.dragoon.68749",
+                "character.character.title.438"
+            ]
+        },
+        "x411": {
+            "points": 5,
+            "patch": "2.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.bard.66626"
+            ],
+            "cCombo": [
+                414
+            ]
+        },
+        "x1145": {
+            "points": 5,
+            "reward": "character.character.title.226",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.bard.67254",
+                "character.character.title.226"
+            ]
+        },
+        "x1801": {
+            "points": 5,
+            "reward": "character.character.title.364",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.bard.68430",
+                "character.character.title.364"
+            ]
+        },
+        "x2310": {
+            "points": 5,
+            "reward": "character.character.title.439",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.bard.68750",
+                "character.character.title.439"
+            ]
+        },
+        "x1052": {
+            "points": 5,
+            "patch": "2.4",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.ninja.65770"
+            ]
+        },
+        "x1150": {
+            "points": 5,
+            "reward": "character.character.title.231",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.ninja.67224",
+                "character.character.title.231"
+            ]
+        },
+        "x1806": {
+            "points": 5,
+            "reward": "character.character.title.369",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.ninja.68488",
+                "character.character.title.369"
+            ]
+        },
+        "x2315": {
+            "points": 5,
+            "reward": "character.character.title.444",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.ninja.68755",
+                "character.character.title.444"
+            ]
+        },
+        "x412": {
+            "points": 5,
+            "patch": "2.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.white-mage.66620"
+            ],
+            "cCombo": [
+                414
+            ]
+        },
+        "x1146": {
+            "points": 5,
+            "reward": "character.character.title.227",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.white-mage.67261",
+                "character.character.title.227"
+            ]
+        },
+        "x1802": {
+            "points": 5,
+            "reward": "character.character.title.365",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.white-mage.67954",
+                "character.character.title.365"
+            ]
+        },
+        "x2311": {
+            "points": 5,
+            "reward": "character.character.title.440",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.white-mage.68751",
+                "character.character.title.440"
+            ]
+        },
+        "x413": {
+            "points": 5,
+            "patch": "2.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.black-mage.66614"
+            ],
+            "cCombo": [
+                414
+            ]
+        },
+        "x1147": {
+            "points": 5,
+            "reward": "character.character.title.228",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.black-mage.67219",
+                "character.character.title.228"
+            ]
+        },
+        "x1803": {
+            "points": 5,
+            "reward": "character.character.title.366",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.black-mage.68128",
+                "character.character.title.366"
+            ]
+        },
+        "x2312": {
+            "points": 5,
+            "reward": "character.character.title.441",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.black-mage.68752",
+                "character.character.title.441"
+            ]
+        },
+        "x599": {
+            "points": 5,
+            "patch": "2.1",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.summoner.66632"
+            ],
+            "cCombo": [
+                414
+            ]
+        },
+        "x1148": {
+            "points": 5,
+            "reward": "character.character.title.229",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.summoner.67641",
+                "character.character.title.229"
+            ]
+        },
+        "x1804": {
+            "points": 5,
+            "reward": "character.character.title.367",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.summoner.68165",
+                "character.character.title.367"
+            ]
+        },
+        "x2313": {
+            "points": 5,
+            "reward": "character.character.title.442",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.summoner.69569",
+                "character.character.title.442"
+            ]
+        },
+        "x600": {
+            "points": 5,
+            "patch": "2.1",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.scholar.66638"
+            ],
+            "cCombo": [
+                414
+            ]
+        },
+        "x1149": {
+            "points": 5,
+            "reward": "character.character.title.230",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.scholar.67212",
+                "character.character.title.230"
+            ]
+        },
+        "x1805": {
+            "points": 5,
+            "reward": "character.character.title.368",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.scholar.68463",
+                "character.character.title.368"
+            ]
+        },
+        "x2314": {
+            "points": 5,
+            "reward": "character.character.title.443",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.scholar.68754",
+                "character.character.title.443"
+            ]
+        },
+        "x1151": {
+            "points": 5,
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.dark-knight.67594"
+            ]
+        },
+        "x1154": {
+            "points": 5,
+            "reward": "character.character.title.232",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.dark-knight.67600",
+                "character.character.title.232"
+            ]
+        },
+        "x1807": {
+            "points": 5,
+            "reward": "character.character.title.370",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.dark-knight.68455",
+                "character.character.title.370"
+            ]
+        },
+        "x2316": {
+            "points": 5,
+            "reward": "character.character.title.445",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.dark-knight.68757",
+                "character.character.title.445"
+            ]
+        },
+        "x1152": {
+            "points": 5,
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.machinist.67240"
+            ]
+        },
+        "x1155": {
+            "points": 5,
+            "reward": "character.character.title.233",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.machinist.67248",
+                "character.character.title.233"
+            ]
+        },
+        "x1808": {
+            "points": 5,
+            "reward": "character.character.title.371",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.machinist.68445",
+                "character.character.title.371"
+            ]
+        },
+        "x2317": {
+            "points": 5,
+            "reward": "character.character.title.446",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.machinist.68756",
+                "character.character.title.446"
+            ]
+        },
+        "x1153": {
+            "points": 5,
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.astrologian.67555"
+            ]
+        },
+        "x1156": {
+            "points": 5,
+            "reward": "character.character.title.234",
+            "patch": "3.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.astrologian.67561",
+                "character.character.title.234"
+            ]
+        },
+        "x1809": {
+            "points": 5,
+            "reward": "character.character.title.372",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.astrologian.67949",
+                "character.character.title.372"
+            ]
+        },
+        "x2318": {
+            "points": 5,
+            "reward": "character.character.title.447",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.astrologian.68758",
+                "character.character.title.447"
+            ]
+        },
+        "x1810": {
+            "points": 5,
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.red-mage.68118"
+            ]
+        },
+        "x1811": {
+            "points": 5,
+            "reward": "character.character.title.373",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.red-mage.68123",
+                "character.character.title.373"
+            ]
+        },
+        "x2319": {
+            "points": 5,
+            "reward": "character.character.title.448",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.red-mage.68760",
+                "character.character.title.448"
+            ]
+        },
+        "x1812": {
+            "points": 5,
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.samurai.68101"
+            ]
+        },
+        "x1813": {
+            "points": 5,
+            "reward": "character.character.title.374",
+            "patch": "4.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.samurai.68106",
+                "character.character.title.374"
+            ]
+        },
+        "x2320": {
+            "points": 5,
+            "reward": "character.character.title.449",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.samurai.68759",
+                "character.character.title.449"
+            ]
+        },
+        "x2299": {
+            "points": 5,
+            "reward": "character.character.title.432",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.gunbreaker.68802",
+                "character.character.title.432"
+            ]
+        },
+        "x2321": {
+            "points": 5,
+            "reward": "character.character.title.450",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.gunbreaker.68761",
+                "character.character.title.450"
+            ]
+        },
+        "x2300": {
+            "points": 5,
+            "reward": "character.character.title.433",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.dancer.68790",
+                "character.character.title.433"
+            ]
+        },
+        "x2322": {
+            "points": 5,
+            "reward": "character.character.title.451",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.dancer.68762",
+                "character.character.title.451"
+            ]
+        },
+        "x2959": {
+            "points": 5,
+            "reward": "character.character.title.604",
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-war-job.reaper.69614",
+                "character.character.title.604"
+            ]
+        },
+        "x2960": {
+            "points": 5,
+            "reward": "character.character.title.605",
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.class--job.disciple-of-magic-job.sage.69608",
+                "character.character.title.605"
+            ]
+        },
+        "x2301": {
+            "points": 5,
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.role.shb.68784"
+            ]
+        },
+        "x2302": {
+            "points": 5,
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.role.shb.68808"
+            ]
+        },
+        "x2303": {
+            "points": 5,
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.role.shb.68814"
+            ]
+        },
+        "x2304": {
+            "points": 5,
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.role.shb.69164"
+            ]
+        },
+        "x2305": {
+            "points": 10,
+            "reward": "character.character.title.434",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.role.shb.69165",
+                "character.character.title.434"
+            ]
+        },
+        "x2323": {
+            "points": 5,
+            "reward": "character.character.title.452",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.crystalline-mean.facet-of-forging.68765",
+                "character.character.title.452"
+            ]
+        },
+        "x2324": {
+            "points": 5,
+            "reward": "character.character.title.453",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.crystalline-mean.facet-of-crafting.68768",
+                "character.character.title.453"
+            ]
+        },
+        "x2325": {
+            "points": 5,
+            "reward": "character.character.title.454",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.crystalline-mean.facet-of-nourishing.68771",
+                "character.character.title.454"
+            ]
+        },
+        "x2326": {
+            "points": 5,
+            "reward": "character.character.title.455",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.crystalline-mean.facet-of-gathering.68774",
+                "character.character.title.455"
+            ]
+        },
+        "x2327": {
+            "points": 5,
+            "reward": "character.character.title.456",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.crystalline-mean.facet-of-fishing.68777",
+                "character.character.title.456"
+            ]
+        },
+        "x2328": {
+            "points": 10,
+            "reward": "character.character.title.457",
+            "patch": "5.0",
+            "cSiblings": [
+                "duty.quests.class--job.crystalline-mean.68778",
+                "character.character.title.457"
+            ]
+        },
+        "x2715": {
+            "points": 10,
+            "patch": "5.4",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.void-quests.69524"
+            ]
+        },
+        "x2961": {
+            "points": 5,
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.class--job.role.ew.69643"
+            ]
+        },
+        "x2962": {
+            "points": 5,
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.class--job.role.ew.69649"
+            ]
+        },
+        "x2963": {
+            "points": 5,
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.class--job.role.ew.69655"
+            ]
+        },
+        "x2964": {
+            "points": 5,
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.class--job.role.ew.69661"
+            ]
+        },
+        "x2965": {
+            "points": 5,
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.class--job.role.ew.69667"
+            ]
+        },
+        "x2966": {
+            "points": 5,
+            "reward": "character.character.title.606",
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.class--job.studium.faculty-of-archaeology.69674",
+                "character.character.title.606"
+            ]
+        },
+        "x2967": {
+            "points": 5,
+            "reward": "character.character.title.607",
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.class--job.studium.faculty-of-astronomy.69681",
+                "character.character.title.607"
+            ]
+        },
+        "x2968": {
+            "points": 5,
+            "reward": "character.character.title.608",
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.class--job.studium.faculty-of-medicine.69688",
+                "character.character.title.608"
+            ]
+        },
+        "x2969": {
+            "points": 5,
+            "reward": "character.character.title.609",
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.class--job.studium.faculty-of-anthropology.69695",
+                "character.character.title.609"
+            ]
+        },
+        "x2970": {
+            "points": 5,
+            "reward": "character.character.title.610",
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.class--job.studium.faculty-of-aetherology.69702",
+                "character.character.title.610"
+            ]
+        },
+        "x2971": {
+            "points": 10,
+            "reward": "character.character.title.611",
+            "patch": "6.0",
+            "cSiblings": [
+                "duty.quests.class--job.studium.70010",
+                "character.character.title.611"
+            ]
+        },
+        "x3076": {
+            "points": 10,
+            "reward": "character.character.title.638",
+            "patch": "6.1",
+            "cSiblings": [
+                "character.character.title.638"
+            ]
+        },
+        "x414": {
+            "points": 20,
+            "reward": "character.character.title.66",
+            "patch": "2.0",
+            "cPrev": [
+                407,
+                408,
+                409,
+                410,
+                411,
+                412,
+                413,
+                599,
+                600
+            ],
+            "cSiblings": [
+                "character.character.title.66"
+            ]
+        },
+        "x1058": {
+            "points": 10,
+            "patch": "2.45",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.zodiac-weapons.65897"
+            ]
+        },
+        "x1060": {
+            "points": 20,
+            "reward": "character.character.title.184",
+            "patch": "2.5",
+            "cSiblings": [
+                "duty.quests.chronicles-of-a-new-era.the-crystal-tower.66031",
+                "character.character.title.184"
+            ]
+        },
+        "x1061": {
+            "points": 20,
+            "reward": "character.character.title.185",
+            "patch": "2.5",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.hildibrand.66038",
+                "character.character.title.185"
+            ]
+        },
+        "x1080": {
+            "points": 20,
+            "patch": "2.51",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.zodiac-weapons.67823"
+            ]
+        },
+        "x1165": {
+            "points": 10,
+            "reward": "character.character.title.236",
+            "patch": "3.0",
+            "cPrev": [
+                "duty.quests.chronicles-of-a-new-era.the-warring-triad.67652",
+                "duty.quests.chronicles-of-a-new-era.the-warring-triad.67651"
+            ],
+            "cSiblings": [
+                "character.character.title.236"
+            ]
+        },
+        "x1166": {
+            "points": 10,
+            "reward": "character.character.title.237",
+            "patch": "3.0",
+            "defaultCompletion": "X",
+            "cSiblings": [
+                "character.character.title.237"
+            ]
+        },
+        "x1405": {
+            "points": 10,
+            "reward": "character.character.title.277",
+            "patch": "3.15",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.scholasticate.67691",
+                "character.character.title.277"
+            ]
+        },
+        "x1628": {
+            "points": 10,
+            "patch": "3.4",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.scholasticate.67746"
+            ]
+        },
+        "x1692": {
+            "points": 10,
+            "reward": "character.character.title.342",
+            "patch": "3.5",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.scholasticate.67900",
+                "character.character.title.342"
+            ]
+        },
+        "x1693": {
+            "points": 10,
+            "reward": "character.character.title.343",
+            "patch": "3.5",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.further-hildibrand-adventures.67908",
+                "character.character.title.343"
+            ]
+        },
+        "x1394": {
+            "points": 10,
+            "reward": "character.character.title.273",
+            "patch": "3.15",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.anima-weapons.67750",
+                "character.character.title.273"
+            ]
+        },
+        "x1492": {
+            "points": 10,
+            "reward": "character.character.title.288",
+            "patch": "3.15",
+            "cSiblings": [
+                "duty.quests.sidequests.gridanian.north-shroud.67206",
+                "character.character.title.288"
+            ]
+        },
+        "x2234": {
+            "points": 10,
+            "reward": "character.character.title.418",
+            "patch": "4.56",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.even-further-hildibrand-adventures.68704",
+                "character.character.title.418"
+            ]
+        },
+        "x3127": {
+            "points": 5,
+            "patch": "6.25",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.manderville-weapons.70188"
+            ]
+        },
+        "x2567": {
+            "points": 5,
+            "patch": "5.21",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69264"
+            ]
+        },
+        "x2711": {
+            "points": 5,
+            "patch": "5.31",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69494"
+            ]
+        },
+        "x2818": {
+            "points": 5,
+            "patch": "5.41",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.ishgardian-restoration-main.69538"
+            ]
+        },
+        "x2568": {
+            "points": 5,
+            "patch": "5.25",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.ishgardian-restoration-sidequests.69385"
+            ]
+        },
+        "x2798": {
+            "points": 10,
+            "patch": "5.45",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.ishgardian-restoration-sidequests.69520"
+            ]
+        },
+        "x2607": {
+            "points": 10,
+            "patch": "5.25",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.resistance-weapons.69372"
+            ]
+        },
+        "x2670": {
+            "points": 10,
+            "patch": "5.35",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.resistance-weapons.69487"
+            ]
+        },
+        "x2760": {
+            "points": 10,
+            "patch": "5.45",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.resistance-weapons.69562"
+            ]
+        },
+        "x2884": {
+            "points": 10,
+            "reward": "character.character.title.592",
+            "patch": "5.55",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.resistance-weapons.69624",
+                "character.character.title.592"
+            ]
+        },
+        "x2887": {
+            "points": 10,
+            "patch": "5.5",
+            "cSiblings": [
+                "duty.quests.chronicles-of-a-new-era.the-sorrow-of-werlyt.69568"
+            ]
+        },
+        "x3152": {
+            "points": 20,
+            "reward": "character.character.title.656",
+            "patch": "6.25",
+            "cSiblings": [
+                "duty.quests.sidequests.side-story.variant-dungeons.70185",
+                "character.character.title.656"
+            ]
+        },
+        "x2243": {
+            "points": 10,
+            "reward": "character.character.title.421",
+            "patch": "4.5",
+            "cSiblings": [
+                "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68726",
+                "character.character.title.421"
+            ]
+        },
+        "x2852": {
+            "points": 10,
+            "reward": "character.character.title.584",
+            "patch": "5.55",
+            "cSiblings": [
+                "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69589",
+                "character.character.title.584"
+            ]
+        },
+        "x2108": {
+            "points": 10,
+            "reward": "character.character.title.398",
+            "patch": "4.4",
+            "cSiblings": [
+                "duty.quests.other.special.collaboration.67090",
+                "character.character.title.398"
+            ]
+        }
+    }
+}

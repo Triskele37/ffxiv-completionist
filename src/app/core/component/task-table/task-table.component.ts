@@ -92,7 +92,7 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
     }
 
     //#region----------------------------------------------------------- Sort
-    alphanumericRegex = new RegExp(/[^\w]/g);
+    alphanumericRegex = new RegExp(/[^\w.]/g);
 
     sortData($event: SortEvent): void {
         $event.data.sort((taskA, taskB) => {

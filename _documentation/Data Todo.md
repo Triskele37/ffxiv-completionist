@@ -1,19 +1,22 @@
 ------------------------------------------------------------------ Current Release
 **Add**
 - DSR Unlock Quasi
-- missing endwalker savage unlock quasi quest (Recount tales of Asphodelos?)
+- missing endwalker asphodelos savage unlock quasi quest (Recount tales of Asphodelos?)
+- missing endwalker abyssos savage unlock quasi quest
 - Toy Chest? (Cheap Dungeon has 5 levels)
+- Chain NPC only triad cards to their npc
 
 **Change**
 - Convert DataGroup.tasks to Map<string, Task>
-- flatten Duty/Raid Finder group
+- Flatten Duty/Raid Finder group
+- Flatten gathering section into logs
 
 **Fix**
 - Move Forged Anew resistance sidequest into quasi-quests
+- Reverify craft/gather log
 
 ------------------------------------------------------------------ Prioritize
 **Add**
-- Discord FAQ Page
 - chain unsellable/tradable collectables to source? (one-way)
   - mounts/minions/cards/fate achievements
 - chain duties to the quests requiring them (one-way)
@@ -35,7 +38,6 @@
 
 ------------------------------------------------------------------ Future
 **Add**
-- detail each set of chains in a doc list for easier updates
 - "Legacy Quest" section
 - Patch column on all data
 - Equipment Section

@@ -53,7 +53,7 @@ export const GATHERING_LOG_DEFINITION: GroupDefinition = {
             subGroups: [
                 {
                     path: 'fishing',
-                    subGroups: makePages(46)
+                    subGroups: makePages(47)
                 },
                 {
                     path: 'spearfishing',

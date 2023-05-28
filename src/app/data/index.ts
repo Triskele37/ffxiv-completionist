@@ -31,7 +31,7 @@ export class DataService {
         refs.svcElectron = this.svcElectron;
         refs.translate = this.translate;
 
-        this.data = DataGroup.fromJSON(null, './index');
+        this.data = DataGroup.fromJSON(null, '');
         DataGroup.overall = this.data;
 
         this.data.subGroups = new Map();

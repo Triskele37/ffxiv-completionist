@@ -17,8 +17,11 @@ export class RandomComponent {
     randomCount: number = 10;
     randomTasks: Task[] = [];
 
+    group: DataGroup;
+
     constructor(private svcData: DataService) {
         if(lastRandom.length) this.randomTasks = lastRandom;
+        this.group = this.svcData.data;
     }
 
     //TODO: Create a developer settings menu and add this as an action
@@ -55,8 +58,17 @@ export class RandomComponent {
     //     });
     // }
 
+    onGroupChange(group: DataGroup): void {
+        this.group = group;
+    }
+
+    onCountChange(): void {
+
+    }
+
+    //#region------------------------------------------------------- Click
     onGenerateRandomClick(): void {
-        let randomTasks = this.getIncompleteTasks(this.svcData.data);
+        let randomTasks = this.getIncompleteTasks(this.group);
         randomTasks = this.filterFutureChained(randomTasks);
         this.randomTasks = this.pluckRandomTasks(randomTasks);
         this.randomTasks.sort(this.randomTaskSort);
@@ -98,6 +110,8 @@ export class RandomComponent {
     }
 
     pluckRandomTasks(tasks: Task[]): Task[] {
+        if(tasks.length < this.randomCount) return tasks;
+
         const randomTasks = [];
 
         for(let i = 0; i < this.randomCount; i++) {
@@ -115,4 +129,5 @@ export class RandomComponent {
         return aPath.localeCompare(bPath);
     }
 
+    //#endregion
 }

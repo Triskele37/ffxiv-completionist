@@ -1,0 +1,240 @@
+{
+    "key": "all-saints-wake",
+    "tasks": {
+        "x66699": {
+            "level": 1,
+            "year": "2013",
+            "cNext": [
+                66700
+            ]
+        },
+        "x66700": {
+            "level": 15,
+            "year": "2013",
+            "cPrev": [
+                66699
+            ],
+            "cNext": [
+                66701
+            ]
+        },
+        "x66701": {
+            "level": 15,
+            "year": "2013",
+            "cPrev": [
+                66700
+            ],
+            "cNext": [
+                66702
+            ]
+        },
+        "x66702": {
+            "level": 15,
+            "year": "2013",
+            "cPrev": [
+                66701
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.812"
+            ]
+        },
+        "x65772": {
+            "level": 15,
+            "year": "2014",
+            "cNext": [
+                65773
+            ]
+        },
+        "x65773": {
+            "level": 15,
+            "year": "2014",
+            "cPrev": [
+                65772
+            ],
+            "cNext": [
+                65774
+            ]
+        },
+        "x65774": {
+            "level": 15,
+            "year": "2014",
+            "cPrev": [
+                65773
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1027"
+            ]
+        },
+        "x67685": {
+            "level": 20,
+            "year": "2015",
+            "cNext": [
+                67686
+            ]
+        },
+        "x67686": {
+            "level": 20,
+            "year": "2015",
+            "cPrev": [
+                67685
+            ],
+            "cNext": [
+                67687
+            ]
+        },
+        "x67687": {
+            "level": 20,
+            "year": "2015",
+            "cPrev": [
+                67686
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1376"
+            ]
+        },
+        "x67084": {
+            "level": 15,
+            "year": "2016",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.65781"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1624"
+            ]
+        },
+        "x68547": {
+            "level": 15,
+            "year": "2017",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.65781"
+            ],
+            "cNext": [
+                68548
+            ]
+        },
+        "x68548": {
+            "level": 15,
+            "year": "2017",
+            "cPrev": [
+                68547
+            ],
+            "cNext": [
+                68549
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1994"
+            ]
+        },
+        "x68549": {
+            "level": 15,
+            "year": "2017",
+            "cPrev": [
+                68548
+            ]
+        },
+        "x68705": {
+            "level": 15,
+            "year": "2018",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.65781"
+            ],
+            "cNext": [
+                68706
+            ]
+        },
+        "x68706": {
+            "level": 15,
+            "year": "2018",
+            "cPrev": [
+                68705
+            ],
+            "cNext": [
+                68707
+            ]
+        },
+        "x68707": {
+            "level": 15,
+            "year": "2018",
+            "cPrev": [
+                68706
+            ],
+            "cNext": [
+                68708
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2140"
+            ]
+        },
+        "x68708": {
+            "level": 15,
+            "year": "2018",
+            "cPrev": [
+                68707
+            ]
+        },
+        "x69204": {
+            "level": 15,
+            "year": "2019",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.65781"
+            ],
+            "cNext": [
+                69206,
+                69205
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2400"
+            ]
+        },
+        "x69205": {
+            "level": 15,
+            "year": "2019",
+            "cPrev": [
+                69204
+            ]
+        },
+        "x69206": {
+            "level": 15,
+            "year": "2019",
+            "cPrev": [
+                69204
+            ]
+        },
+        "x69531": {
+            "level": 15,
+            "year": "2021",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.65781"
+            ],
+            "cNext": [
+                70056
+            ]
+        },
+        "x70056": {
+            "level": 15,
+            "year": "2021",
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3031"
+            ],
+            "cPrev": [
+                69531
+            ]
+        },
+        "x70191": {
+            "level": 15,
+            "year": "2022",
+            "cNext": [70192, 70193],
+            "cSiblings": ["character.achievement.quests.seasonal-events.3120"]
+        },
+        "x70192": {
+            "level": 15,
+            "year": "2022",
+            "cPrev": [70191]
+        },
+        "x70193": {
+            "level": 15,
+            "year": "2022",
+            "cPrev": [70191]
+        }
+    }
+}

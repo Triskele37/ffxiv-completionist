@@ -348,6 +348,18 @@
                     "L4": "SCH/SMN chaining together improperly",
                     "L5": "Config & Save load failure handling"
                 }
+            },
+            "1_0_2": {
+                "ADD": {
+                    "L1": "Resources up to FFXIV 6.28",
+                    "L2": "Customization of random count and group",
+                    "L3": "Previous FATE column"
+                },
+                "FIX": {
+                    "L1": "Various data/chain corrections",
+                    "L2": "Removed Namazu crafting log chains, as the chained quests can be completed via DoL",
+                    "L3": "Issue where overlays would become unresponsive"
+                }
             }
         },
         "RANDOM": {
@@ -830,6 +842,28 @@
             "ACCENT": "Portrait Accent",
             "POSE": "Portrait Pose",
             "EXPRESSION": "Portrait Expression"
+        },
+        "ISLAND": {
+            "EXPEDITION": {
+                "MEADOWS": "Meandering Meadows",
+                "FALLS": "Fatal Falls",
+                "WOODS": "Wild Woods",
+                "BEACHES": "Bending Beaches",
+                "MOUNTAINS": "Mossy Mountains"
+            },
+            "ANIMAL_SIZE": {
+                "SMALL": "Small",
+                "MEDIUM": "Medium",
+                "LARGE": "Large"
+            }
+        },
+        "WEATHER": {
+            "CLEAR_SKIES": "Clear Skies",
+            "CLOUDS": "Clouds",
+            "FAIR_SKIES": "Fair Skies",
+            "FOG": "Fog",
+            "RAIN": "Rain",
+            "SHOWERS": "Showers"
         }
     }
 }

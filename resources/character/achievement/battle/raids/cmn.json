@@ -1,0 +1,828 @@
+{
+    "key": "raids",
+    "tasks": {
+        "x747": {
+            "points": 5,
+            "patch": "2.1",
+            "cNext": [
+                748
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.arr.4"
+            ]
+        },
+        "x748": {
+            "points": 10,
+            "patch": "2.1",
+            "cPrev": [
+                747
+            ],
+            "cNext": [
+                749
+            ]
+        },
+        "x749": {
+            "points": 20,
+            "patch": "2.1",
+            "cPrev": [
+                748
+            ]
+        },
+        "x883": {
+            "points": 10,
+            "patch": "2.1",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.arr.17"
+            ]
+        },
+        "x887": {
+            "points": 5,
+            "patch": "2.2",
+            "cNext": [
+                888
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.arr.8"
+            ]
+        },
+        "x888": {
+            "points": 10,
+            "patch": "2.2",
+            "cPrev": [
+                887
+            ],
+            "cNext": [
+                889
+            ]
+        },
+        "x889": {
+            "points": 20,
+            "patch": "2.2",
+            "cPrev": [
+                888
+            ]
+        },
+        "x995": {
+            "points": 10,
+            "patch": "2.3",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.arr.18"
+            ]
+        },
+        "x997": {
+            "points": 10,
+            "reward": "character.character.title.167",
+            "patch": "2.3",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.arr.13",
+                "character.character.title.167"
+            ]
+        },
+        "x998": {
+            "points": 10,
+            "reward": "character.character.title.168",
+            "patch": "2.3",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.arr.14",
+                "character.character.title.168"
+            ]
+        },
+        "x999": {
+            "points": 10,
+            "reward": "character.character.title.169",
+            "patch": "2.3",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.arr.15",
+                "character.character.title.169"
+            ]
+        },
+        "x1000": {
+            "points": 10,
+            "reward": "character.character.title.170",
+            "patch": "2.3",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.arr.16",
+                "character.character.title.170"
+            ]
+        },
+        "x1040": {
+            "points": 5,
+            "reward": "character.minion-guide.320",
+            "patch": "2.4",
+            "cNext": [
+                1041
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.arr.12"
+            ]
+        },
+        "x1041": {
+            "points": 10,
+            "patch": "2.4",
+            "cPrev": [
+                1040
+            ],
+            "cNext": [
+                1042
+            ]
+        },
+        "x1042": {
+            "points": 20,
+            "patch": "2.4",
+            "cPrev": [
+                1041
+            ]
+        },
+        "x1068": {
+            "points": 20,
+            "patch": "2.5",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.arr.19"
+            ]
+        },
+        "x1228": {
+            "points": 5,
+            "patch": "3.0",
+            "cNext": [
+                1229
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.hw.3"
+            ]
+        },
+        "x1229": {
+            "points": 10,
+            "patch": "3.0",
+            "cPrev": [
+                1228
+            ],
+            "cNext": [
+                1230
+            ]
+        },
+        "x1230": {
+            "points": 20,
+            "patch": "3.0",
+            "cPrev": [
+                1229
+            ]
+        },
+        "x1231": {
+            "points": 5,
+            "patch": "3.05",
+            "cNext": [
+                1232
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.hw.7"
+            ]
+        },
+        "x1232": {
+            "points": 10,
+            "patch": "3.05",
+            "cPrev": [
+                1231
+            ],
+            "cNext": [
+                1233
+            ]
+        },
+        "x1233": {
+            "points": 20,
+            "patch": "3.05",
+            "cPrev": [
+                1232
+            ]
+        },
+        "x1399": {
+            "points": 10,
+            "patch": "3.1",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.hw.24"
+            ]
+        },
+        "x1476": {
+            "points": 5,
+            "patch": "3.15",
+            "cNext": [
+                1477
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.hw.11"
+            ]
+        },
+        "x1477": {
+            "points": 10,
+            "patch": "3.15",
+            "cPrev": [
+                1476
+            ],
+            "cNext": [
+                1478
+            ]
+        },
+        "x1478": {
+            "points": 20,
+            "patch": "3.15",
+            "cPrev": [
+                1477
+            ]
+        },
+        "x1479": {
+            "points": 5,
+            "patch": "3.15",
+            "cNext": [
+                1480
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.hw.15"
+            ]
+        },
+        "x1480": {
+            "points": 10,
+            "patch": "3.15",
+            "cPrev": [
+                1479
+            ],
+            "cNext": [
+                1481
+            ]
+        },
+        "x1481": {
+            "points": 20,
+            "patch": "3.15",
+            "cPrev": [
+                1480
+            ]
+        },
+        "x1574": {
+            "points": 10,
+            "patch": "3.3",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.hw.25"
+            ]
+        },
+        "x1639": {
+            "points": 5,
+            "patch": "3.4",
+            "cNext": [
+                1640
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.hw.19"
+            ]
+        },
+        "x1640": {
+            "points": 10,
+            "patch": "3.4",
+            "cPrev": [
+                1639
+            ],
+            "cNext": [
+                1641
+            ]
+        },
+        "x1641": {
+            "points": 20,
+            "patch": "3.4",
+            "cPrev": [
+                1640
+            ]
+        },
+        "x1642": {
+            "points": 5,
+            "patch": "3.4",
+            "cNext": [
+                1643
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.hw.23"
+            ]
+        },
+        "x1643": {
+            "points": 10,
+            "patch": "3.4",
+            "cPrev": [
+                1642
+            ],
+            "cNext": [
+                1644
+            ]
+        },
+        "x1644": {
+            "points": 20,
+            "patch": "3.4",
+            "cPrev": [
+                1643
+            ]
+        },
+        "x1689": {
+            "points": 10,
+            "patch": "3.5",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.hw.26"
+            ]
+        },
+        "x1895": {
+            "points": 5,
+            "patch": "4.01",
+            "cNext": [
+                1896
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.sb.3"
+            ]
+        },
+        "x1896": {
+            "points": 10,
+            "patch": "4.01",
+            "cPrev": [
+                1895
+            ],
+            "cNext": [
+                1897
+            ]
+        },
+        "x1897": {
+            "points": 20,
+            "patch": "4.01",
+            "cPrev": [
+                1896
+            ]
+        },
+        "x1898": {
+            "points": 5,
+            "patch": "4.01",
+            "cNext": [
+                1899
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.sb.7"
+            ]
+        },
+        "x1899": {
+            "points": 10,
+            "patch": "4.01",
+            "cPrev": [
+                1898
+            ],
+            "cNext": [
+                1900
+            ]
+        },
+        "x1900": {
+            "points": 20,
+            "patch": "4.01",
+            "cPrev": [
+                1899
+            ]
+        },
+        "x1992": {
+            "points": 5,
+            "patch": "4.1",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.sb.26"
+            ]
+        },
+        "x1993": {
+            "points": 10,
+            "reward": "character.character.title.138",
+            "patch": "4.11",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.sb.8",
+                "character.character.title.138"
+            ]
+        },
+        "x2024": {
+            "points": 5,
+            "patch": "4.2",
+            "cNext": [
+                2025
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.sb.12"
+            ]
+        },
+        "x2025": {
+            "points": 10,
+            "patch": "4.2",
+            "cPrev": [
+                2024
+            ],
+            "cNext": [
+                2026
+            ]
+        },
+        "x2026": {
+            "points": 20,
+            "patch": "4.2",
+            "cPrev": [
+                2025
+            ]
+        },
+        "x2027": {
+            "points": 5,
+            "patch": "4.2",
+            "cNext": [
+                2028
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.sb.16"
+            ]
+        },
+        "x2028": {
+            "points": 10,
+            "patch": "4.2",
+            "cPrev": [
+                2027
+            ],
+            "cNext": [
+                2029
+            ]
+        },
+        "x2029": {
+            "points": 20,
+            "patch": "4.2",
+            "cPrev": [
+                2028
+            ]
+        },
+        "x2106": {
+            "points": 5,
+            "patch": "4.3",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.sb.27"
+            ]
+        },
+        "x2107": {
+            "points": 10,
+            "reward": "character.character.title.397",
+            "patch": "4.31",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.sb.17",
+                "character.character.title.397"
+            ]
+        },
+        "x2118": {
+            "points": 5,
+            "patch": "4.4",
+            "cNext": [
+                2119
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.sb.21"
+            ]
+        },
+        "x2119": {
+            "points": 10,
+            "patch": "4.4",
+            "cPrev": [
+                2118
+            ],
+            "cNext": [
+                2120
+            ]
+        },
+        "x2120": {
+            "points": 20,
+            "patch": "4.4",
+            "cPrev": [
+                2119
+            ]
+        },
+        "x2121": {
+            "points": 5,
+            "patch": "4.4",
+            "cNext": [
+                2122
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.sb.25"
+            ]
+        },
+        "x2122": {
+            "points": 10,
+            "patch": "4.4",
+            "cPrev": [
+                2121
+            ],
+            "cNext": [
+                2123
+            ]
+        },
+        "x2123": {
+            "points": 20,
+            "patch": "4.4",
+            "cPrev": [
+                2122
+            ]
+        },
+        "x2164": {
+            "points": 5,
+            "patch": "4.5",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.sb.28"
+            ]
+        },
+        "x2409": {
+            "points": 5,
+            "patch": "5.01",
+            "cNext": [
+                2410
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.shb.3"
+            ]
+        },
+        "x2410": {
+            "points": 10,
+            "patch": "5.01",
+            "cPrev": [
+                2409
+            ],
+            "cNext": [
+                2411
+            ]
+        },
+        "x2411": {
+            "points": 20,
+            "patch": "5.01",
+            "cPrev": [
+                2410
+            ]
+        },
+        "x2412": {
+            "points": 5,
+            "patch": "5.05",
+            "cNext": [
+                2413
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.shb.7"
+            ]
+        },
+        "x2413": {
+            "points": 10,
+            "patch": "5.05",
+            "cPrev": [
+                2412
+            ],
+            "cNext": [
+                2414
+            ]
+        },
+        "x2414": {
+            "points": 20,
+            "patch": "5.05",
+            "cPrev": [
+                2413
+            ]
+        },
+        "x2443": {
+            "points": 5,
+            "patch": "5.1",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.shb.9"
+            ]
+        },
+        "x2444": {
+            "points": 10,
+            "reward": "character.character.title.480",
+            "patch": "5.11",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.shb.8",
+                "character.character.title.480"
+            ]
+        },
+        "x2591": {
+            "points": 5,
+            "patch": "5.2",
+            "cNext": [
+                2592
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.shb.13"
+            ]
+        },
+        "x2592": {
+            "points": 10,
+            "patch": "5.2",
+            "cPrev": [
+                2591
+            ],
+            "cNext": [
+                2593
+            ]
+        },
+        "x2593": {
+            "points": 20,
+            "patch": "5.2",
+            "cPrev": [
+                2592
+            ]
+        },
+        "x2594": {
+            "points": 5,
+            "patch": "5.2",
+            "cNext": [
+                2595
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.shb.17"
+            ]
+        },
+        "x2595": {
+            "points": 10,
+            "patch": "5.2",
+            "cPrev": [
+                2594
+            ],
+            "cNext": [
+                2596
+            ]
+        },
+        "x2596": {
+            "points": 20,
+            "patch": "5.2",
+            "cPrev": [
+                2595
+            ]
+        },
+        "x2622": {
+            "points": 5,
+            "patch": "5.3",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.shb.18"
+            ]
+        },
+        "x2719": {
+            "points": 5,
+            "patch": "5.4",
+            "cNext": [
+                2720
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.shb.22"
+            ]
+        },
+        "x2720": {
+            "points": 10,
+            "patch": "5.4",
+            "cPrev": [
+                2719
+            ],
+            "cNext": [
+                2721
+            ]
+        },
+        "x2721": {
+            "points": 20,
+            "patch": "5.4",
+            "cPrev": [
+                2720
+            ]
+        },
+        "x2722": {
+            "points": 5,
+            "patch": "5.4",
+            "cNext": [
+                2723
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.shb.26"
+            ]
+        },
+        "x2723": {
+            "points": 10,
+            "patch": "5.4",
+            "cPrev": [
+                2722
+            ],
+            "cNext": [
+                2724
+            ]
+        },
+        "x2724": {
+            "points": 20,
+            "patch": "5.4",
+            "cPrev": [
+                2723
+            ]
+        },
+        "x2847": {
+            "points": 5,
+            "patch": "5.5",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.shb.27"
+            ]
+        },
+        "x3035": {
+            "points": 5,
+            "patch": "6.05",
+            "cNext": [
+                3036
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.ew.3"
+            ]
+        },
+        "x3036": {
+            "points": 10,
+            "patch": "6.05",
+            "cPrev": [
+                3035
+            ],
+            "cNext": [
+                3037
+            ]
+        },
+        "x3037": {
+            "points": 20,
+            "patch": "6.05",
+            "cPrev": [
+                3036
+            ]
+        },
+        "x3038": {
+            "points": 5,
+            "patch": "6.05",
+            "cNext": [
+                3039
+            ],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.ew.7"
+            ]
+        },
+        "x3039": {
+            "points": 10,
+            "patch": "6.05",
+            "cPrev": [
+                3038
+            ],
+            "cNext": [
+                3040
+            ]
+        },
+        "x3040": {
+            "points": 20,
+            "patch": "6.05",
+            "cPrev": [
+                3039
+            ]
+        },
+        "x3073": {
+            "points": 5,
+            "patch": "6.1",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.ew.8"
+            ]
+        },
+        "x3074": {
+            "points": 10,
+            "reward": "character.character.title.636",
+            "patch": "6.11",
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.ew.9",
+                "character.character.title.636"
+            ]
+        },
+        "x3108": {
+            "points": 5,
+            "patch": "6.2",
+            "cNext": [3109],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.ew.13"
+            ]
+        },
+        "x3109": {
+            "points": 10,
+            "patch": "6.2",
+            "cPrev": [3108],
+            "cNext": [3110]
+        },
+        "x3110": {
+            "points": 20,
+            "patch": "6.2",
+            "cPrev": [3109]
+        },
+        "x3111": {
+            "points": 5,
+            "patch": "6.2",
+            "cNext": [3112],
+            "cSiblings": [
+                "duty.dutyraid-finder.raids.ew.17"
+            ]
+        },
+        "x3112": {
+            "points": 10,
+            "patch": "6.2",
+            "cPrev": [3111],
+            "cNext": [3113]
+        },
+        "x3113": {
+            "points": 20,
+            "patch": "6.2",
+            "cPrev": [3112]
+        }
+    }
+}

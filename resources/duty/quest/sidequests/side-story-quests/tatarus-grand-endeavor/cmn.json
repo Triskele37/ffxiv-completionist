@@ -1,0 +1,16 @@
+{
+    "key": "tatarus-grand-endeavor",
+    "tasks": {
+        "x70119": {
+            "level": 90,
+            "patch": "6.15",
+            "cPrev": ["duty.quests.main-scenario.post-endwalker.70062"],
+            "cNext": [70186]
+        },
+        "x70186": {
+            "level": 90,
+            "patch": "6.2",
+            "cPrev": [70119]
+        }
+    }
+}

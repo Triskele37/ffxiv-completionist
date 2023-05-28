@@ -1,0 +1,1477 @@
+{
+    "key": "stormblood",
+    "tasks": {
+        "x67982": {
+            "level": 60,
+            "cPrev": [
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                67983
+            ]
+        },
+        "x67983": {
+            "level": 60,
+            "cPrev": [
+                67982
+            ],
+            "cNext": [
+                67984
+            ]
+        },
+        "x67984": {
+            "level": 60,
+            "cPrev": [
+                67983
+            ],
+            "cNext": [
+                67985
+            ]
+        },
+        "x67985": {
+            "level": 60,
+            "cNext": [
+                67986,
+                "duty.quests.other.quasi-quests.68456"
+            ],
+            "cPrev": [
+                67984
+            ]
+        },
+        "x67986": {
+            "level": 60,
+            "cNext": [
+                67991,
+                67987
+            ],
+            "cPrev": [
+                67985
+            ]
+        },
+        "x67987": {
+            "level": 60,
+            "cPrev": [
+                67986
+            ],
+            "cNext": [
+                67988
+            ]
+        },
+        "x67988": {
+            "level": 60,
+            "cPrev": [
+                67987
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68175",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68179",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68180",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68178",
+                67989,
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68176",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68177"
+            ]
+        },
+        "x67989": {
+            "level": 60,
+            "cPrev": [
+                67988
+            ],
+            "cNext": [
+                67990
+            ]
+        },
+        "x67990": {
+            "level": 60,
+            "cPrev": [
+                67989
+            ],
+            "cNext": [
+                67997
+            ]
+        },
+        "x67991": {
+            "level": 60,
+            "cPrev": [
+                67986
+            ],
+            "cNext": [
+                67992
+            ]
+        },
+        "x67992": {
+            "level": 60,
+            "cPrev": [
+                67991
+            ],
+            "cNext": [
+                68490,
+                68491
+            ]
+        },
+        "x68490": {
+            "level": 60,
+            "cPrev": [
+                67992
+            ],
+            "cNext": [
+                67993
+            ]
+        },
+        "x68491": {
+            "level": 60,
+            "cPrev": [
+                67992
+            ],
+            "cNext": [
+                67993
+            ]
+        },
+        "x67993": {
+            "level": 60,
+            "cPrev": [
+                68490,
+                68491
+            ],
+            "cNext": [
+                67994
+            ]
+        },
+        "x67994": {
+            "level": 60,
+            "cPrev": [
+                67993
+            ],
+            "cNext": [
+                67995
+            ]
+        },
+        "x67995": {
+            "level": 60,
+            "cPrev": [
+                67994
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68182",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68183",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68186",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68181",
+                67996,
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68184",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68185"
+            ]
+        },
+        "x67996": {
+            "level": 60,
+            "cPrev": [
+                67995
+            ],
+            "cNext": [
+                67997
+            ]
+        },
+        "x67997": {
+            "level": 60,
+            "cPrev": [
+                67990,
+                67996
+            ],
+            "cNext": [
+                68171,
+                68172,
+                68173
+            ]
+        },
+        "x68171": {
+            "level": 60,
+            "cPrev": [
+                67997
+            ],
+            "cNext": [
+                68174
+            ]
+        },
+        "x68172": {
+            "level": 60,
+            "cPrev": [
+                67997
+            ],
+            "cNext": [
+                68174
+            ]
+        },
+        "x68173": {
+            "level": 60,
+            "cPrev": [
+                67997
+            ],
+            "cNext": [
+                68174
+            ]
+        },
+        "x68174": {
+            "level": 60,
+            "cPrev": [
+                68171,
+                68172,
+                68173
+            ],
+            "cNext": [
+                67998
+            ]
+        },
+        "x67998": {
+            "level": 61,
+            "cPrev": [
+                68174
+            ],
+            "cNext": [
+                67999
+            ]
+        },
+        "x67999": {
+            "level": 61,
+            "cPrev": [
+                67998
+            ],
+            "cNext": [
+                68000
+            ]
+        },
+        "x68000": {
+            "level": 61,
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68191",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68188",
+                68001,
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68190",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68189",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68187",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68192",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68193",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68194"
+            ],
+            "cPrev": [
+                67999
+            ]
+        },
+        "x68001": {
+            "level": 61,
+            "cPrev": [
+                68000
+            ],
+            "cNext": [
+                68002
+            ]
+        },
+        "x68002": {
+            "level": 61,
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68197",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68196",
+                68003,
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68195",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68198",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68199",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68200"
+            ],
+            "cPrev": [
+                68001
+            ]
+        },
+        "x68003": {
+            "level": 61,
+            "cPrev": [
+                68002
+            ],
+            "cNext": [
+                68004
+            ]
+        },
+        "x68004": {
+            "level": 61,
+            "cPrev": [
+                68003
+            ],
+            "cNext": [
+                68005
+            ]
+        },
+        "x68005": {
+            "level": 61,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.sb.0"
+            ],
+            "cPrev": [
+                68004
+            ],
+            "cNext": [
+                68006
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1787"
+            ]
+        },
+        "x68006": {
+            "level": 61,
+            "cPrev": [
+                68005
+            ],
+            "cNext": [
+                68007
+            ]
+        },
+        "x68007": {
+            "level": 61,
+            "cPrev": [
+                68006
+            ],
+            "cNext": [
+                68008
+            ]
+        },
+        "x68008": {
+            "level": 61,
+            "cNext": [
+                68009,
+                "duty.quests.sidequests.hingan.kugane.68202",
+                "duty.quests.sidequests.hingan.kugane.68204",
+                "duty.quests.sidequests.hingan.kugane.68201",
+                "duty.quests.sidequests.hingan.kugane.68205",
+                "duty.quests.sidequests.hingan.kugane.68167",
+                "duty.quests.sidequests.hingan.kugane.68203",
+                "duty.quests.sidequests.hingan.kugane.68472"
+            ],
+            "cPrev": [
+                68007
+            ]
+        },
+        "x68009": {
+            "level": 61,
+            "cPrev": [
+                68008
+            ],
+            "cNext": [
+                68010
+            ]
+        },
+        "x68010": {
+            "level": 61,
+            "cPrev": [
+                68009
+            ],
+            "cNext": [
+                68011
+            ]
+        },
+        "x68011": {
+            "level": 61,
+            "cNext": [
+                68012,
+                "duty.quests.sidequests.hingan.kugane.68206",
+                "duty.quests.sidequests.hingan.kugane.68207",
+                "duty.quests.sidequests.hingan.kugane.68208"
+            ],
+            "cPrev": [
+                68010
+            ]
+        },
+        "x68012": {
+            "level": 62,
+            "cPrev": [
+                68011
+            ],
+            "cNext": [
+                68013
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1788"
+            ]
+        },
+        "x68013": {
+            "level": 62,
+            "cPrev": [
+                68012
+            ],
+            "cNext": [
+                68014
+            ]
+        },
+        "x68014": {
+            "level": 62,
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68209",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68212",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68211",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68210",
+                68015,
+                "duty.quests.sidequests.othardian.the-ruby-sea.68213",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68214"
+            ],
+            "cPrev": [
+                68013
+            ]
+        },
+        "x68015": {
+            "level": 62,
+            "cPrev": [
+                68014
+            ],
+            "cNext": [
+                68016
+            ]
+        },
+        "x68016": {
+            "level": 62,
+            "cNext": [
+                68217,
+                68489,
+                68215
+            ],
+            "cPrev": [
+                68015
+            ],
+            "cSiblings": [
+                "social.emotes.general.154"
+            ]
+        },
+        "x68217": {
+            "level": 62,
+            "cPrev": [
+                68016
+            ],
+            "cNext": [
+                68017
+            ]
+        },
+        "x68489": {
+            "level": 62,
+            "cPrev": [
+                68016
+            ],
+            "cNext": [
+                68017
+            ]
+        },
+        "x68215": {
+            "level": 62,
+            "cPrev": [
+                68016
+            ],
+            "cNext": [
+                68017
+            ]
+        },
+        "x68017": {
+            "level": 62,
+            "cPrev": [
+                68215,
+                68217,
+                68489
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68223",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68220",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68224",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68216",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68221",
+                68018,
+                "duty.quests.sidequests.othardian.the-ruby-sea.68218",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68219",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68222",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68225",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68226"
+            ]
+        },
+        "x68018": {
+            "level": 62,
+            "cPrev": [
+                68017
+            ],
+            "cNext": [
+                68019
+            ]
+        },
+        "x68019": {
+            "level": 62,
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68229",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68230",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68228",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68227",
+                68020,
+                "duty.quests.sidequests.othardian.the-ruby-sea.68231",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68232"
+            ],
+            "cPrev": [
+                68018
+            ]
+        },
+        "x68020": {
+            "level": 63,
+            "cNext": [
+                68021,
+                "duty.quests.sidequests.othardian.the-ruby-sea.68458"
+            ],
+            "cPrev": [
+                68019
+            ],
+            "cSiblings": [
+                "social.emotes.general.151"
+            ]
+        },
+        "x68021": {
+            "level": 63,
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68168",
+                68022,
+                "duty.quests.sidequests.othardian.the-ruby-sea.68239",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68235",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68233",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68242",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68237",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68234",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68236",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68238",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68240",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68241",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68243"
+            ],
+            "cPrev": [
+                68020
+            ]
+        },
+        "x68022": {
+            "level": 63,
+            "cPrev": [
+                68021
+            ],
+            "cNext": [
+                68023
+            ]
+        },
+        "x68023": {
+            "level": 63,
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68247",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68244",
+                68024,
+                "duty.quests.sidequests.othardian.the-ruby-sea.68245",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68246",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68248"
+            ],
+            "cPrev": [
+                68022
+            ]
+        },
+        "x68024": {
+            "level": 63,
+            "cPrev": [
+                68023
+            ],
+            "cNext": [
+                68025
+            ]
+        },
+        "x68025": {
+            "level": 63,
+            "unlock": [
+                "duty.dutyraid-finder.trials.sb.0",
+                "travel.mount-speed.the-far-east.1"
+            ],
+            "cPrev": [
+                68024
+            ],
+            "cNext": [
+                68026
+            ],
+            "cSiblings": [
+                "travel.mount-speed.the-far-east.1"
+            ]
+        },
+        "x68026": {
+            "level": 63,
+            "unlock": "travel.aether-currents.sb.the-ruby-sea.14",
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68667",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68251",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68252",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68253",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68254",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68256",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68257",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68258",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68259",
+                68027,
+                "duty.quests.sidequests.othardian.the-ruby-sea.68249",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68250",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68255",
+                "duty.quests.tribal-quests.kojin.68509"
+            ],
+            "cPrev": [
+                68025
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1789",
+                "travel.aether-currents.sb.the-ruby-sea.14"
+            ]
+        },
+        "x68027": {
+            "level": 63,
+            "cPrev": [
+                68026
+            ],
+            "cNext": [
+                68028
+            ]
+        },
+        "x68028": {
+            "level": 64,
+            "cPrev": [
+                68027
+            ],
+            "cNext": [
+                68470
+            ]
+        },
+        "x68470": {
+            "level": 64,
+            "cPrev": [
+                68028
+            ],
+            "cNext": [
+                68029
+            ]
+        },
+        "x68029": {
+            "level": 64,
+            "cNext": [
+                "duty.quests.sidequests.othardian.yanxia.68260",
+                "duty.quests.sidequests.othardian.yanxia.68264",
+                68030,
+                "duty.quests.sidequests.othardian.yanxia.68261",
+                "duty.quests.sidequests.othardian.yanxia.68265"
+            ],
+            "cPrev": [
+                68470
+            ]
+        },
+        "x68030": {
+            "level": 64,
+            "cNext": [
+                "duty.quests.sidequests.othardian.yanxia.68266",
+                "duty.quests.sidequests.othardian.yanxia.68269",
+                68031,
+                "duty.quests.sidequests.othardian.yanxia.68268",
+                "duty.quests.sidequests.othardian.yanxia.68262",
+                "duty.quests.sidequests.othardian.yanxia.68263",
+                "duty.quests.sidequests.othardian.yanxia.68267"
+            ],
+            "cPrev": [
+                68029
+            ]
+        },
+        "x68031": {
+            "level": 64,
+            "cPrev": [
+                68030
+            ],
+            "cNext": [
+                68032
+            ]
+        },
+        "x68032": {
+            "level": 64,
+            "unlock": "travel.mount-speed.the-far-east.3",
+            "cPrev": [
+                68031
+            ],
+            "cNext": [
+                68033
+            ],
+            "cSiblings": [
+                "travel.mount-speed.the-far-east.3"
+            ]
+        },
+        "x68033": {
+            "level": 64,
+            "cPrev": [
+                68032
+            ],
+            "cNext": [
+                68471
+            ]
+        },
+        "x68471": {
+            "level": 64,
+            "cPrev": [
+                68033
+            ],
+            "cNext": [
+                68034
+            ]
+        },
+        "x68034": {
+            "level": 64,
+            "cPrev": [
+                68471
+            ],
+            "cNext": [
+                68035
+            ]
+        },
+        "x68035": {
+            "level": 64,
+            "unlock": "travel.aether-currents.sb.yanxia.14",
+            "cNext": [
+                "duty.quests.sidequests.othardian.yanxia.68278",
+                "duty.quests.sidequests.othardian.yanxia.68271",
+                "duty.quests.sidequests.othardian.yanxia.68279",
+                "duty.quests.sidequests.othardian.yanxia.68270",
+                "duty.quests.sidequests.othardian.yanxia.68277",
+                "duty.quests.sidequests.othardian.yanxia.68281",
+                "duty.quests.sidequests.othardian.yanxia.68282",
+                "duty.quests.sidequests.othardian.yanxia.68274",
+                "duty.quests.sidequests.othardian.yanxia.68284",
+                "duty.quests.sidequests.othardian.yanxia.68286",
+                "duty.quests.sidequests.othardian.yanxia.68280",
+                68166,
+                "duty.quests.sidequests.othardian.yanxia.68272",
+                "duty.quests.sidequests.othardian.yanxia.68273",
+                "duty.quests.sidequests.othardian.yanxia.68275",
+                "duty.quests.sidequests.othardian.yanxia.68276",
+                "duty.quests.sidequests.othardian.yanxia.68283",
+                "duty.quests.sidequests.othardian.yanxia.68285",
+                "duty.quests.sidequests.othardian.yanxia.68287"
+            ],
+            "cPrev": [
+                68034
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1790",
+                "travel.aether-currents.sb.yanxia.14"
+            ]
+        },
+        "x68166": {
+            "level": 65,
+            "cPrev": [
+                68035
+            ],
+            "cNext": [
+                68036
+            ]
+        },
+        "x68036": {
+            "level": 65,
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68292",
+                68037,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68288",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68289",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68290",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68291",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68293"
+            ],
+            "cPrev": [
+                68166
+            ]
+        },
+        "x68037": {
+            "level": 65,
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68296",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68298",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68299",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68294",
+                68038,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68295",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68297"
+            ],
+            "cPrev": [
+                68036
+            ]
+        },
+        "x68038": {
+            "level": 65,
+            "cPrev": [
+                68037
+            ],
+            "cNext": [
+                68039
+            ]
+        },
+        "x68039": {
+            "level": 65,
+            "cNext": [
+                68040,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68303",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68301",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68300",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68302"
+            ],
+            "cPrev": [
+                68038
+            ]
+        },
+        "x68040": {
+            "level": 65,
+            "cNext": [
+                68041,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68305",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68304",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68306"
+            ],
+            "cPrev": [
+                68039
+            ]
+        },
+        "x68041": {
+            "level": 65,
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68307",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68309",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68308",
+                68042
+            ],
+            "cPrev": [
+                68040
+            ]
+        },
+        "x68042": {
+            "level": 65,
+            "cPrev": [
+                68041
+            ],
+            "cNext": [
+                68043
+            ]
+        },
+        "x68043": {
+            "level": 65,
+            "unlock": "duty.dutyraid-finder.dungeons.sb.2",
+            "cPrev": [
+                68042
+            ],
+            "cNext": [
+                68044
+            ]
+        },
+        "x68044": {
+            "level": 65,
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68314",
+                68045,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68311",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68312",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68310",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68313"
+            ],
+            "cPrev": [
+                68043
+            ]
+        },
+        "x68045": {
+            "level": 66,
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68315",
+                68046,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68316",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68317"
+            ],
+            "cPrev": [
+                68044
+            ]
+        },
+        "x68046": {
+            "level": 66,
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68318",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68319",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68320",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68321",
+                68047
+            ],
+            "cPrev": [
+                68045
+            ]
+        },
+        "x68047": {
+            "level": 66,
+            "cPrev": [
+                68046
+            ],
+            "cNext": [
+                68048
+            ]
+        },
+        "x68048": {
+            "level": 66,
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68327",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68326",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68333",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68334",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68322",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68324",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68331",
+                68049,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68323",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68325",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68328",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68329",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68330",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68332"
+            ],
+            "cPrev": [
+                68047
+            ]
+        },
+        "x68049": {
+            "level": 66,
+            "cPrev": [
+                68048
+            ],
+            "cNext": [
+                68050
+            ]
+        },
+        "x68050": {
+            "level": 66,
+            "cPrev": [
+                68049
+            ],
+            "cNext": [
+                68051
+            ]
+        },
+        "x68051": {
+            "level": 66,
+            "unlock": "travel.mount-speed.the-far-east.5",
+            "cPrev": [
+                68050
+            ],
+            "cNext": [
+                68052
+            ],
+            "cSiblings": [
+                "travel.mount-speed.the-far-east.5"
+            ]
+        },
+        "x68052": {
+            "level": 66,
+            "unlock": "travel.aether-currents.sb.the-azim-steppe.14",
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68337",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68338",
+                68053,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68336",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68339"
+            ],
+            "cPrev": [
+                68051
+            ],
+            "cSiblings": [
+                "travel.aether-currents.sb.the-azim-steppe.14"
+            ]
+        },
+        "x68053": {
+            "level": 66,
+            "cNext": [
+                "duty.quests.tribal-quests.namazu.68632",
+                68054
+            ],
+            "cPrev": [
+                68052
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1791"
+            ]
+        },
+        "x68054": {
+            "level": 66,
+            "cPrev": [
+                68053
+            ],
+            "cNext": [
+                68055
+            ]
+        },
+        "x68055": {
+            "level": 67,
+            "cPrev": [
+                68054
+            ],
+            "cNext": [
+                68482
+            ]
+        },
+        "x68482": {
+            "level": 67,
+            "cNext": [
+                "duty.quests.sidequests.othardian.yanxia.68342",
+                "duty.quests.sidequests.othardian.yanxia.68341",
+                "duty.quests.sidequests.othardian.yanxia.68343",
+                "duty.quests.sidequests.othardian.yanxia.68344",
+                "duty.quests.sidequests.othardian.yanxia.68346",
+                "duty.quests.sidequests.othardian.yanxia.68340",
+                68056,
+                "duty.quests.sidequests.othardian.yanxia.68345",
+                "duty.quests.sidequests.othardian.yanxia.68347"
+            ],
+            "cPrev": [
+                68055
+            ]
+        },
+        "x68056": {
+            "level": 67,
+            "cPrev": [
+                68482
+            ],
+            "cNext": [
+                68057
+            ]
+        },
+        "x68057": {
+            "level": 67,
+            "cPrev": [
+                68056
+            ],
+            "cNext": [
+                68483
+            ]
+        },
+        "x68483": {
+            "level": 67,
+            "cPrev": [
+                68057
+            ],
+            "cNext": [
+                68058
+            ]
+        },
+        "x68058": {
+            "level": 67,
+            "cPrev": [
+                68483
+            ],
+            "cNext": [
+                68059
+            ]
+        },
+        "x68059": {
+            "level": 67,
+            "cPrev": [
+                68058
+            ],
+            "cNext": [
+                68060
+            ]
+        },
+        "x68060": {
+            "level": 67,
+            "unlock": "duty.dutyraid-finder.dungeons.sb.3",
+            "cPrev": [
+                68059
+            ],
+            "cNext": [
+                68061
+            ]
+        },
+        "x68061": {
+            "level": 67,
+            "cNext": [
+                "duty.quests.sidequests.hingan.kugane.68349",
+                "duty.quests.sidequests.hingan.kugane.68350",
+                "duty.quests.sidequests.hingan.kugane.68351",
+                68062,
+                "duty.quests.sidequests.hingan.kugane.68348"
+            ],
+            "cPrev": [
+                68060
+            ]
+        },
+        "x68062": {
+            "level": 67,
+            "cPrev": [
+                68061
+            ],
+            "cNext": [
+                68063
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1792"
+            ]
+        },
+        "x68063": {
+            "level": 67,
+            "cPrev": [
+                68062
+            ],
+            "cNext": [
+                68064
+            ]
+        },
+        "x68064": {
+            "level": 67,
+            "cPrev": [
+                68063
+            ],
+            "cNext": [
+                68065
+            ]
+        },
+        "x68065": {
+            "level": 67,
+            "cPrev": [
+                68064
+            ],
+            "cNext": [
+                68066
+            ]
+        },
+        "x68066": {
+            "level": 67,
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68357",
+                68067,
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68356"
+            ],
+            "cPrev": [
+                68065
+            ]
+        },
+        "x68067": {
+            "level": 67,
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68352",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68354",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68355",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68353",
+                68068
+            ],
+            "cPrev": [
+                68066
+            ]
+        },
+        "x68068": {
+            "level": 67,
+            "unlock": [
+                "duty.dutyraid-finder.trials.sb.1",
+                "travel.mount-speed.gyr-abania.1"
+            ],
+            "cPrev": [
+                68067
+            ],
+            "cNext": [
+                68069
+            ],
+            "cSiblings": [
+                "travel.mount-speed.gyr-abania.1"
+            ]
+        },
+        "x68069": {
+            "level": 67,
+            "unlock": "travel.aether-currents.sb.the-fringes.14",
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68358",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68362",
+                68070,
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68359",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68360",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68361",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68363",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68364"
+            ],
+            "cPrev": [
+                68068
+            ],
+            "cSiblings": [
+                "travel.aether-currents.sb.the-fringes.14"
+            ]
+        },
+        "x68070": {
+            "level": 68,
+            "cPrev": [
+                68069
+            ],
+            "cNext": [
+                68071
+            ]
+        },
+        "x68071": {
+            "level": 68,
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68366",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68365",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68368",
+                68072,
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68367",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68369"
+            ],
+            "cPrev": [
+                68070
+            ]
+        },
+        "x68072": {
+            "level": 68,
+            "cPrev": [
+                68071
+            ],
+            "cNext": [
+                68073
+            ]
+        },
+        "x68073": {
+            "level": 68,
+            "cPrev": [
+                68072
+            ],
+            "cNext": [
+                68074
+            ]
+        },
+        "x68074": {
+            "level": 68,
+            "cPrev": [
+                68073
+            ],
+            "cNext": [
+                68075
+            ]
+        },
+        "x68075": {
+            "level": 68,
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68370",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68371",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68373",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68383",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68384",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68382",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68372",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68374",
+                68076
+            ],
+            "cPrev": [
+                68074
+            ]
+        },
+        "x68076": {
+            "level": 68,
+            "cPrev": [
+                68075
+            ],
+            "cNext": [
+                68077
+            ]
+        },
+        "x68077": {
+            "level": 68,
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68378",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68380",
+                68078,
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68375",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68376",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68377",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68379",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68381"
+            ],
+            "cPrev": [
+                68076
+            ]
+        },
+        "x68078": {
+            "level": 68,
+            "cPrev": [
+                68077
+            ],
+            "cNext": [
+                68079
+            ]
+        },
+        "x68079": {
+            "level": 68,
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68387",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68391",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68389",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68385",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68386",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68388",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68390",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68392",
+                68080
+            ],
+            "cPrev": [
+                68078
+            ]
+        },
+        "x68080": {
+            "level": 69,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.sb.4",
+                "travel.mount-speed.gyr-abania.3"
+            ],
+            "cPrev": [
+                68079
+            ],
+            "cNext": [
+                68081
+            ],
+            "cSiblings": [
+                "travel.mount-speed.gyr-abania.3"
+            ]
+        },
+        "x68081": {
+            "level": 69,
+            "cNext": [
+                68082,
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68396",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68399",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68400",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68394",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68393",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68395",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68397",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68398",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68401"
+            ],
+            "cPrev": [
+                68080
+            ]
+        },
+        "x68082": {
+            "level": 69,
+            "unlock": "travel.aether-currents.sb.the-peaks.14",
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68402",
+                68083,
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68403"
+            ],
+            "cPrev": [
+                68081
+            ],
+            "cSiblings": [
+                "travel.aether-currents.sb.the-peaks.14"
+            ]
+        },
+        "x68083": {
+            "level": 69,
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68404",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68412",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68406",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68407",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68411",
+                68084,
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68405",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68408",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68409",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68410"
+            ],
+            "cPrev": [
+                68082
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1793"
+            ]
+        },
+        "x68084": {
+            "level": 69,
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68413",
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68416",
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68415",
+                68085,
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68414"
+            ],
+            "cPrev": [
+                68083
+            ]
+        },
+        "x68085": {
+            "level": 69,
+            "cPrev": [
+                68084
+            ],
+            "cNext": [
+                68086
+            ]
+        },
+        "x68086": {
+            "level": 69,
+            "unlock": "travel.mount-speed.gyr-abania.5",
+            "cPrev": [
+                68085
+            ],
+            "cNext": [
+                68087
+            ],
+            "cSiblings": [
+                "travel.mount-speed.gyr-abania.5"
+            ]
+        },
+        "x68087": {
+            "level": 69,
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68417",
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68419",
+                68088,
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68418",
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68420"
+            ],
+            "cPrev": [
+                68086
+            ]
+        },
+        "x68088": {
+            "level": 70,
+            "cPrev": [
+                68087
+            ],
+            "cNext": [
+                68089
+            ]
+        },
+        "x68089": {
+            "level": 70,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.sb.5",
+                "duty.dutyraid-finder.trials.sb.2",
+                "travel.aether-currents.sb.the-lochs.14",
+                "travel.mount-speed.gyr-abania.0",
+                "travel.mount-speed.the-far-east.0"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.side-story.the-forbidden-land-eureka.68614",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68476",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68421",
+                "duty.quests.sidequests.uldahn.southern-thanalan.68422",
+                "duty.quests.other.special.collaboration.67090",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68169",
+                "duty.quests.sidequests.hingan.kugane.68170",
+                "duty.quests.sidequests.uldahn.southern-thanalan.68423",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68424",
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68425",
+                "duty.quests.chronicles-of-a-new-era.omega.68464",
+                "duty.quests.other.quasi-quests.68479",
+                "duty.quests.main-scenario.post-stormblood.68498",
+                "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68539",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68613",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68678",
+                "duty.quests.sidequests.dravanian.idyllshire.68713",
+                "duty.quests.sidequests.side-story.even-further-hildibrand-adventures.68544"
+            ],
+            "cPrev": [
+                68088
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1794",
+                "travel.aether-currents.sb.the-lochs.14",
+                "travel.mount-speed.gyr-abania.0",
+                "travel.mount-speed.the-far-east.0"
+            ]
+        }
+    }
+}

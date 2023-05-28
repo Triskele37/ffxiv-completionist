@@ -6,7 +6,6 @@
 - coordinate viewer (maps)
 - Installation
     - auto-update
-- Patch content viewer
 - Tracker (see Ctrl+U menu)
   - make cap & timer?
   - Other
@@ -24,11 +23,22 @@
     - The Masked Carnivale
     - Jumbo Cactpot
     - Tome Cap (max 450) (reset)
+- Chain Confirmation
+  - Confirm if chain would change x tasks
+  - Requires simulation of chaining
+- Global Filter
+  - Multiple selection
+  - Types
+    - Patch
+    - Completion
+    - Class/Job
+    - Zone
 
 **Change**
 - replace most of Guide with Active Help
 
 **Fix**
+- Quick-Mark disappears in win 11 after show all enabled?
 
 **Check**
 - Title achievement links

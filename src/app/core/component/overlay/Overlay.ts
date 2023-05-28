@@ -1,8 +1,15 @@
-export class Overlay {
+import { Directive, OnDestroy } from '@angular/core';
+
+@Directive()
+export class Overlay implements OnDestroy {
     static anyLocked: boolean = false;
 
     isVisible: boolean = false;
     isLocked: boolean = false;
+
+    ngOnDestroy(): void {
+        Overlay.anyLocked = false;
+    }
 
     onMouseEnter(): void {
         if(Overlay.anyLocked) return;
