@@ -5,11 +5,16 @@
             "level": 90,
             "patch": "6.15",
             "cPrev": ["duty.quests.main-scenario.post-endwalker.70062"],
-            "cNext": [70186]
+            "cNext": [70186, 70198]
         },
         "x70186": {
             "level": 90,
             "patch": "6.2",
+            "cPrev": [70119]
+        },
+        "x70198": {
+            "level": 90,
+            "patch": "6.3",
             "cPrev": [70119]
         }
     }

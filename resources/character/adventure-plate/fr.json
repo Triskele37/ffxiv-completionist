@@ -8,310 +8,349 @@
         "patch": "Patch"
     },
     "tasks": {
+        "x91": {
+            "name": "Grandes Compagnies 1"
+        },
+        "x107": {
+            "name": "Grandes Compagnies 2"
+        },
         "x112": {
             "name": "Musique"
+        },
+        "x90": {
+            "name": "Triple Triade"
         },
         "x0": {
             "name": "Gladiateur"
         },
+        "x4": {
+            "name": "Maraudeur"
+        },
+        "x14": {
+            "name": "Élémentaliste"
+        },
+        "x18": {
+            "name": "Arcaniste"
+        },
+        "x28": {
+            "name": "Pugiliste"
+        },
+        "x32": {
+            "name": "Maître d'hast"
+        },
+        "x36": {
+            "name": "Surineur"
+        },
+        "x46": {
+            "name": "Archer"
+        },
+        "x56": {
+            "name": "Occultiste"
+        },
+        "x68": {
+            "name": "Menuisier"
+        },
+        "x70": {
+            "name": "Forgeron"
+        },
+        "x72": {
+            "name": "Armurier"
+        },
+        "x74": {
+            "name": "Orfèvre"
+        },
+        "x76": {
+            "name": "Tanneur"
+        },
+        "x78": {
+            "name": "Couturier"
+        },
+        "x80": {
+            "name": "Alchimiste"
+        },
+        "x82": {
+            "name": "Cuisinier"
+        },
+        "x84": {
+            "name": "Mineur"
+        },
+        "x86": {
+            "name": "Botaniste"
+        },
+        "x88": {
+            "name": "Pêcheur"
+        },
         "x1": {
             "name": "Paladin"
         },
+        "x5": {
+            "name": "Guerrier"
+        },
+        "x8": {
+            "name": "Chevalier noir"
+        },
+        "x11": {
+            "name": "Pistosabreur"
+        },
+        "x15": {
+            "name": "Mage blanc"
+        },
+        "x19": {
+            "name": "Érudit"
+        },
+        "x22": {
+            "name": "Astromancien"
+        },
+        "x25": {
+            "name": "Sage"
+        },
+        "x29": {
+            "name": "Moine"
+        },
+        "x33": {
+            "name": "Chevalier dragon"
+        },
+        "x37": {
+            "name": "Ninja"
+        },
+        "x40": {
+            "name": "Samouraï"
+        },
+        "x43": {
+            "name": "Faucheur"
+        },
+        "x47": {
+            "name": "Barde"
+        },
+        "x50": {
+            "name": "Machiniste"
+        },
+        "x53": {
+            "name": "Danseur"
+        },
+        "x57": {
+            "name": "Mage noir"
+        },
+        "x60": {
+            "name": "Invocateur"
+        },
+        "x63": {
+            "name": "Mage rouge"
+        },
+        "x66": {
+            "name": "Mage bleu"
+        },
         "x2": {
             "name": "Paladin (standard)"
+        },
+        "x6": {
+            "name": "Guerrier (standard)"
+        },
+        "x9": {
+            "name": "Chevalier noir (standard)"
+        },
+        "x12": {
+            "name": "Pistosabreur (standard)"
+        },
+        "x16": {
+            "name": "Mage blanc (standard)"
+        },
+        "x20": {
+            "name": "Érudit (standard)"
+        },
+        "x23": {
+            "name": "Astromancien (standard)"
+        },
+        "x26": {
+            "name": "Sage (standard)"
+        },
+        "x30": {
+            "name": "Moine (standard)"
+        },
+        "x34": {
+            "name": "Chevalier dragon (standard)"
+        },
+        "x38": {
+            "name": "Ninja (standard)"
+        },
+        "x41": {
+            "name": "Samouraï (standard)"
+        },
+        "x44": {
+            "name": "Faucheur (standard)"
+        },
+        "x48": {
+            "name": "Barde (standard)"
+        },
+        "x51": {
+            "name": "Machiniste (standard)"
+        },
+        "x54": {
+            "name": "Danseur (standard)"
+        },
+        "x58": {
+            "name": "Mage noir (standard)"
+        },
+        "x61": {
+            "name": "Invocateur (standard)"
+        },
+        "x64": {
+            "name": "Mage rouge (standard)"
+        },
+        "x67": {
+            "name": "Mage bleu (standard)"
+        },
+        "x69": {
+            "name": "Menuisier (standard)"
+        },
+        "x71": {
+            "name": "Forgeron (standard)"
+        },
+        "x73": {
+            "name": "Armurier (standard)"
+        },
+        "x75": {
+            "name": "Orfèvre (standard)"
+        },
+        "x77": {
+            "name": "Tanneur (standard)"
+        },
+        "x79": {
+            "name": "Couturier (standard)"
+        },
+        "x81": {
+            "name": "Alchimiste (standard)"
+        },
+        "x83": {
+            "name": "Cuisinier (standard)"
+        },
+        "x85": {
+            "name": "Mineur (standard)"
+        },
+        "x87": {
+            "name": "Botaniste (standard)"
+        },
+        "x89": {
+            "name": "Pêcheur (standard)"
         },
         "x3": {
             "name": "Paladin (dynamique)",
             "source": "1.500 Cristaux-trophées"
         },
-        "x4": {
-            "name": "Maraudeur"
-        },
-        "x5": {
-            "name": "Guerrier"
-        },
-        "x6": {
-            "name": "Guerrier (standard)"
-        },
         "x7": {
             "name": "Guerrier (dynamique)",
             "source": "1.500 Cristaux-trophées"
-        },
-        "x8": {
-            "name": "Chevalier noir"
-        },
-        "x9": {
-            "name": "Chevalier noir (standard)"
         },
         "x10": {
             "name": "Chevalier noir (dynamique)",
             "source": "1.500 Cristaux-trophées"
         },
-        "x11": {
-            "name": "Pistosabreur"
-        },
-        "x12": {
-            "name": "Pistosabreur (standard)"
-        },
         "x13": {
             "name": "Pistosabreur (dynamique)",
             "source": "1.500 Cristaux-trophées"
-        },
-        "x14": {
-            "name": "Élémentaliste"
-        },
-        "x15": {
-            "name": "Mage blanc"
-        },
-        "x16": {
-            "name": "Mage blanc (standard)"
         },
         "x17": {
             "name": "Mage blanc (dynamique)",
             "source": "1.500 Cristaux-trophées"
         },
-        "x18": {
-            "name": "Arcaniste"
-        },
-        "x19": {
-            "name": "Érudit"
-        },
-        "x20": {
-            "name": "Érudit (standard)"
-        },
         "x21": {
             "name": "Érudit (dynamique)",
             "source": "1.500 Cristaux-trophées"
-        },
-        "x22": {
-            "name": "Astromancien"
-        },
-        "x23": {
-            "name": "Astromancien (standard)"
         },
         "x24": {
             "name": "Astromancien (dynamique)",
             "source": "1.500 Cristaux-trophées"
         },
-        "x25": {
-            "name": "Sage"
-        },
-        "x26": {
-            "name": "Sage (standard)"
-        },
         "x27": {
             "name": "Sage (dynamique)",
             "source": "1.500 Cristaux-trophées"
-        },
-        "x28": {
-            "name": "Pugiliste"
-        },
-        "x29": {
-            "name": "Moine"
-        },
-        "x30": {
-            "name": "Moine (standard)"
         },
         "x31": {
             "name": "Moine (dynamique)",
             "source": "1.500 Cristaux-trophées"
         },
-        "x32": {
-            "name": "Maître d'hast"
-        },
-        "x33": {
-            "name": "Chevalier dragon"
-        },
-        "x34": {
-            "name": "Chevalier dragon (standard)"
-        },
         "x35": {
             "name": "Chevalier dragon (dynamique)",
             "source": "1.500 Cristaux-trophées"
-        },
-        "x36": {
-            "name": "Surineur"
-        },
-        "x37": {
-            "name": "Ninja"
-        },
-        "x38": {
-            "name": "Ninja (standard)"
         },
         "x39": {
             "name": "Ninja (dynamique)",
             "source": "1.500 Cristaux-trophées"
         },
-        "x40": {
-            "name": "Samouraï"
-        },
-        "x41": {
-            "name": "Samouraï (standard)"
-        },
         "x42": {
             "name": "Samouraï (dynamique)",
             "source": "1.500 Cristaux-trophées"
-        },
-        "x43": {
-            "name": "Faucheur"
-        },
-        "x44": {
-            "name": "Faucheur (standard)"
         },
         "x45": {
             "name": "Faucheur (dynamique)",
             "source": "1.500 Cristaux-trophées"
         },
-        "x46": {
-            "name": "Archer"
-        },
-        "x47": {
-            "name": "Barde"
-        },
-        "x48": {
-            "name": "Barde (standard)"
-        },
         "x49": {
             "name": "Barde (dynamique)",
             "source": "1.500 Cristaux-trophées"
-        },
-        "x50": {
-            "name": "Machiniste"
-        },
-        "x51": {
-            "name": "Machiniste (standard)"
         },
         "x52": {
             "name": "Machiniste (dynamique)",
             "source": "1.500 Cristaux-trophées"
         },
-        "x53": {
-            "name": "Danseur"
-        },
-        "x54": {
-            "name": "Danseur (standard)"
-        },
         "x55": {
             "name": "Danseur (dynamique)",
             "source": "1.500 Cristaux-trophées"
-        },
-        "x56": {
-            "name": "Occultiste"
-        },
-        "x57": {
-            "name": "Mage noir"
-        },
-        "x58": {
-            "name": "Mage noir (standard)"
         },
         "x59": {
             "name": "Mage noir (dynamique)",
             "source": "1.500 Cristaux-trophées"
         },
-        "x60": {
-            "name": "Invocateur"
-        },
-        "x61": {
-            "name": "Invocateur (standard)"
-        },
         "x62": {
             "name": "Invocateur (dynamique)",
             "source": "1.500 Cristaux-trophées"
-        },
-        "x63": {
-            "name": "Mage rouge"
-        },
-        "x64": {
-            "name": "Mage rouge (standard)"
         },
         "x65": {
             "name": "Mage rouge (dynamique)",
             "source": "1.500 Cristaux-trophées"
         },
-        "x66": {
-            "name": "Mage bleu"
+        "x115": {
+            "name": "Four Lords"
         },
-        "x67": {
-            "name": "Mage bleu (standard)"
+        "x116": {
+            "name": "Dreamspinners",
+            "source": "Jul Oul - Il Mheg - 6 Fey Fancy"
         },
-        "x68": {
-            "name": "Menuisier"
+        "x117": {
+            "name": "Stewards",
+            "source": "Yuqurl Manl - The Rak'tika Greatwood - 6 Qitari Compliment"
         },
-        "x69": {
-            "name": "Menuisier (standard)"
+        "x118": {
+            "name": "Watt's Anvil",
+            "source": "Mizutt - Lakeland - 6 Hammered Frogment"
         },
-        "x70": {
-            "name": "Forgeron"
-        },
-        "x71": {
-            "name": "Forgeron (standard)"
-        },
-        "x72": {
-            "name": "Armurier"
-        },
-        "x73": {
-            "name": "Armurier (standard)"
-        },
-        "x74": {
-            "name": "Orfèvre"
-        },
-        "x75": {
-            "name": "Orfèvre (standard)"
-        },
-        "x76": {
-            "name": "Tanneur"
-        },
-        "x77": {
-            "name": "Tanneur (standard)"
-        },
-        "x78": {
-            "name": "Couturier"
-        },
-        "x79": {
-            "name": "Couturier (standard)"
-        },
-        "x80": {
-            "name": "Alchimiste"
-        },
-        "x81": {
-            "name": "Alchimiste (standard)"
-        },
-        "x82": {
-            "name": "Cuisinier"
-        },
-        "x83": {
-            "name": "Cuisinier (standard)"
-        },
-        "x84": {
-            "name": "Mineur"
-        },
-        "x85": {
-            "name": "Mineur (standard)"
-        },
-        "x86": {
-            "name": "Botaniste"
-        },
-        "x87": {
-            "name": "Botaniste (standard)"
-        },
-        "x88": {
-            "name": "Pêcheur"
-        },
-        "x89": {
-            "name": "Pêcheur (standard)"
-        },
-        "x90": {
-            "name": "Triple Triade"
-        },
-        "x91": {
-            "name": "Grandes Compagnies"
-        },
-        "x107": {
-            "name": "Grandes Compagnies 2"
+        "x119": {
+            "name": "Hippo Riders",
+            "source": "Ghanta - Thavnair - 6 Arkasodara Pana"
         },
         "x113": {
             "name": "Quêtes triables: Omicrons",
             "source": "N-0598 - Ultima Thulé - 6 Omicoin"
+        },
+        "x120": {
+            "name": "Dreaming Ways",
+            "source": "Coiningway - Mare Lamentorum - 6 Loporrit Carat"
+        },
+        "x121": {
+            "name": "Island Vacation",
+            "source": "Horrendous Hoarder - Island Sanctuary - 3,000 Seafarer's Cowry"
+        },
+        "x122": {
+            "name": "Island Memories",
+            "source": "Horrendous Hoarder - Island Sanctuary - 3,000 Seafarer's Cowry"
+        },
+        "x123": {
+            "name": "Eureka Orthos",
+            "source": "Synthesis Node - Mor Dhona - 10 Orthos Aetherpool Fragment"
+        },
+        "x124": {
+            "name": "Enaretos",
+            "source": "Synthesis Node - Mor Dhona - 1 Orthos Tomestone"
         },
         "x114": {
             "name": "Les canalisations sildiennes",
@@ -329,6 +368,9 @@
         "x111": {
             "name": "La Guerre du chant des dragons (fatal)"
         },
+        "x125": {
+            "name": "Protocole Oméga"
+        },
         "x92": {
             "name": "Équipe Astra",
             "source": "Récompense de série"
@@ -345,6 +387,14 @@
             "name": "Conflit rouge",
             "source": "Récompense de série"
         },
+        "x126": {
+            "name": "Falcons",
+            "source": "Récompense de série"
+        },
+        "x127": {
+            "name": "Ravens",
+            "source": "Récompense de série"
+        },
         "x94": {
             "name": "Roi du conflit"
         },
@@ -354,23 +404,23 @@
         "x96": {
             "name": "As du conflit"
         },
-        "x97": {
-            "name": "Crystalline Conflict : bronze"
-        },
-        "x98": {
-            "name": "Crystalline Conflict : argent"
-        },
-        "x99": {
-            "name": "Crystalline Conflict : or"
-        },
-        "x100": {
-            "name": "Crystalline Conflict : platine"
+        "x102": {
+            "name": "Crystalline Conflict : cristal"
         },
         "x101": {
             "name": "Crystalline Conflict : diamant"
         },
-        "x102": {
-            "name": "Crystalline Conflict : cristal"
+        "x100": {
+            "name": "Crystalline Conflict : platine"
+        },
+        "x99": {
+            "name": "Crystalline Conflict : or"
+        },
+        "x98": {
+            "name": "Crystalline Conflict : argent"
+        },
+        "x97": {
+            "name": "Crystalline Conflict : bronze"
         },
         "x103": {
             "name": "Companion 1",

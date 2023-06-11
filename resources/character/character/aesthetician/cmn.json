@@ -14,14 +14,6 @@
             "category": "CATEGORY.PURCHASE",
             "patch": "3.1"
         },
-        "x29": {
-            "category": "CATEGORY.DUTY",
-            "patch": "5.5"
-        },
-        "x30": {
-            "category": "CATEGORY.DUTY",
-            "patch": "5.55"
-        },
         "x1": {
             "category": "CATEGORY.PURCHASE",
             "patch": "5.21"
@@ -59,11 +51,6 @@
             "category": "CATEGORY.PURCHASE",
             "patch": "4.45"
         },
-        "x34": {
-            "category": "CATEGORY.PREMIUM",
-            "patch": "6.1",
-            "defaultCompletion": "X"
-        },
         "x10": {
             "category": "CATEGORY.EVENT",
             "patch": "4.5",
@@ -81,10 +68,6 @@
         "x13": {
             "category": "CATEGORY.PURCHASE",
             "patch": "2.51"
-        },
-        "x33": {
-            "category": "CATEGORY.PURCHASE",
-            "patch": "6.2"
         },
         "x14": {
             "category": "CATEGORY.PREMIUM",
@@ -108,10 +91,6 @@
             "category": "CATEGORY.DUTY",
             "source": "duty.dutyraid-finder.deep-dungeon.0",
             "patch": "3.4"
-        },
-        "x28": {
-            "category": "CATEGORY.DUTY",
-            "patch": "5.5"
         },
         "x19": {
             "category": "CATEGORY.PREMIUM",
@@ -142,10 +121,6 @@
             "category": "CATEGORY.PURCHASE",
             "patch": "4.4"
         },
-        "x32": {
-            "category": "CATEGORY.PURCHASE",
-            "patch": "6.2"
-        },
         "x25": {
             "category": "CATEGORY.DUTY",
             "patch": "5.35"
@@ -155,10 +130,45 @@
             "patch": "2.38",
             "defaultCompletion": "X"
         },
+        "x28": {
+            "category": "CATEGORY.DUTY",
+            "patch": "5.5"
+        },
+        "x29": {
+            "category": "CATEGORY.DUTY",
+            "patch": "5.5"
+        },
+        "x30": {
+            "category": "CATEGORY.DUTY",
+            "patch": "5.55"
+        },
         "x31": {
             "category": "CATEGORY.EVENT",
             "patch": "6.0",
             "defaultCompletion": "X"
+        },
+        "x32": {
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.2"
+        },
+        "x33": {
+            "category": "CATEGORY.PURCHASE",
+            "patch": "6.2"
+        },
+        "x34": {
+            "category": "CATEGORY.PREMIUM",
+            "patch": "6.1",
+            "defaultCompletion": "X"
+        },
+        "x35": {
+            "category": "CATEGORY.PREMIUM",
+            "patch": "6.3",
+            "defaultCompletion": "X"
+        },
+        "x36": {
+            "category": "CATEGORY.DUTY",
+            "source": "duty.dutyraid-finder.deep-dungeon.2",
+            "patch": "6.35"
         }
     }
 }

@@ -328,12 +328,16 @@
             "points": 20,
             "reward": "character.character.title.388",
             "patch": "4.35",
-            "cPrev": [
-                1664
-            ],
-            "cSiblings": [
-                "character.character.title.388"
-            ]
+            "cPrev": [1664],
+            "cNext": [3184],
+            "cSiblings": ["character.character.title.388"]
+        },
+        "x3184": {
+            "points": 20,
+            "reward": "character.character.title.664",
+            "patch": "6.35",
+            "cPrev": [2056],
+            "cSiblings": ["character.character.title.664"]
         },
         "x1665": {
             "points": 10,
@@ -447,6 +451,50 @@
             "cSiblings": [
                 "character.character.title.387"
             ]
+        },
+        "x3174": {
+            "points": 5,
+            "patch": "6.35",
+            "cNext": [3175]
+        },
+        "x3175": {
+            "points": 5,
+            "patch": "6.35",
+            "cPrev": [3174],
+            "cNext": [3176]
+        },
+        "x3176": {
+            "points": 5,
+            "reward": "character.character.title.661",
+            "patch": "6.35",
+            "cPrev": [3175],
+            "cNext": [3177],
+            "cSiblings": ["character.character.title.661"]
+        },
+        "x3177": {
+            "points": 10,
+            "patch": "6.35",
+            "cPrev": [3176],
+            "cNext": [3178]
+        },
+        "x3178": {
+            "points": 10,
+            "reward": "character.character.title.662",
+            "patch": "6.35",
+            "cPrev": [3177],
+            "cSiblings": ["character.character.title.662"]
+        },
+        "x3182": {
+            "points": 10,
+            "patch": "6.35",
+            "cNext": [3183]
+        },
+        "x3183": {
+            "points": 10,
+            "reward": "character.character.title.663",
+            "patch": "6.35",
+            "cPrev": [3182],
+            "cSiblings": ["character.character.title.663"]
         },
         "x2203": {
             "points": 5,

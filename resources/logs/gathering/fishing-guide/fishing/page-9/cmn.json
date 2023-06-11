@@ -3,129 +3,504 @@
     "common": ["zone", "bait"],
     "tasks": {
         "x0": {
-            "zone": "ZONE.CENTRAL_THANALAN",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.8",
-            "bait": "BAIT.CRAYFISH_BALL"
+            "zone": "ZONE.THE_TEMPEST",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.33",
+            "bait": "BAIT.SHORT_BILL_MINNOW"
         },
         "x1": {
-            "zone": "ZONE.WESTERN_LA_NOSCEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.30",
-            "bait": "BAIT.YUMIZUNO"
+            "zone": "ZONE.THE_TEMPEST",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.34",
+            "bait": "BAIT.SHORT_BILL_MINNOW"
         },
         "x2": {
-            "zone": "ZONE.EAST_SHROUD",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.9",
-            "bait": "logs.gathering.fishing-guide.fishing.page-1.5"
+            "zone": "ZONE.THE_TEMPEST",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.37",
+            "bait": "BAIT.SHORT_BILL_MINNOW"
         },
         "x3": {
-            "zone": "ZONE.NORTH_SHROUD",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.22",
-            "bait": "BAIT.WILDFOWL_FLY"
+            "zone": "ZONE.THE_TEMPEST",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.36",
+            "bait": "BAIT.SHORT_BILL_MINNOW"
         },
         "x4": {
-            "zone": "ZONE.NEW_GRIDANIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.1",
-            "bait": "BAIT.CRAYFISH_BALL"
+            "zone": "ZONE.THE_TEMPEST",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.38",
+            "bait": "BAIT.SHORT_BILL_MINNOW"
         },
         "x5": {
-            "zone": "ZONE.LOWER_LA_NOSCEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.14",
-            "bait": "BAIT.SPINNERBAIT"
+            "zone": "ZONE.THE_TEMPEST",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.32",
+            "bait": "BAIT.SHORT_BILL_MINNOW"
         },
         "x6": {
-            "zone": "ZONE.CENTRAL_THANALAN",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.9",
-            "bait": "BAIT.CRAYFISH_BALL"
+            "zone": "ZONE.THE_TEMPEST",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.35",
+            "bait": "logs.gathering.fishing-guide.fishing.page-32.13"
         },
         "x7": {
-            "zone": "ZONE.NORTH_SHROUD",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.21",
-            "bait": "BAIT.FLOATING_MINNOW"
+            "zone": "ZONE.THE_TEMPEST",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.34",
+            "bait": "BAIT.SQUID_STRIP"
         },
         "x8": {
-            "zone": "ZONE.CENTRAL_SHROUD",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.5",
-            "bait": "BAIT.BUTTERWORM"
+            "zone": "ZONE.THE_CRYSTARIUM",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.2",
+            "bait": "BAIT.BAITBUGS"
         },
         "x9": {
-            "zone": "ZONE.OLD_GRIDANIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.3",
-            "bait": "BAIT.CROW_FLY"
+            "zone": "ZONE.EULMORE",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.3",
+            "bait": "BAIT.SQUID_STRIP"
         },
         "x10": {
-            "zone": "ZONE.EASTERN_THANALAN",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.13",
-            "bait": "BAIT.MIDGE_BASKET"
+            "zone": "ZONE.LAKELAND",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.6",
+            "bait": "BAIT.BAITBUGS"
         },
         "x11": {
-            "zone": "ZONE.CENTRAL_THANALAN",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.10",
-            "bait": "BAIT.BLOODWORM"
+            "zone": "ZONE.KHOLUSIA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.12",
+            "bait": "BAIT.MARBLE_NYMPH"
         },
         "x12": {
-            "zone": "ZONE.EASTERN_THANALAN",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.12",
-            "bait": "BAIT.SYRPHID_BASKET"
+            "zone": "ZONE.AMH_ARAENG",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.16",
+            "bait": "logs.gathering.fishing-guide.fishing.page-30.20"
         },
         "x13": {
-            "zone": "ZONE.CENTRAL_SHROUD",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.4",
-            "bait": "logs.gathering.fishing-guide.fishing.page-1.5"
+            "zone": "ZONE.IL_MHEG",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.20",
+            "bait": "BAIT.BAITBUGS"
         },
         "x14": {
-            "zone": "ZONE.WESTERN_THANALAN",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.1",
-            "bait": "BAIT.BUTTERWORM"
+            "zone": "ZONE.RAK_TIKA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.26",
+            "bait": "logs.gathering.fishing-guide.fishing.page-31.22"
         },
         "x15": {
-            "zone": "ZONE.LIMSA_LOMINSA_LOWER_DECKS",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.1",
-            "bait": "logs.gathering.fishing-guide.fishing.page-1.3"
+            "zone": "ZONE.THE_TEMPEST",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.37",
+            "bait": "BAIT.SQUID_STRIP"
         },
         "x16": {
-            "zone": "ZONE.OLD_GRIDANIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.2",
-            "bait": "BAIT.BLOODWORM"
+            "zone": "ZONE.LAKELAND",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.6",
+            "bait": "BAIT.METAL_SPINNER"
         },
         "x17": {
-            "zone": "ZONE.MIDDLE_LA_NOSCEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.6",
-            "bait": "BAIT.SINKING_MINNOW"
+            "zone": "ZONE.KHOLUSIA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.10",
+            "bait": "BAIT.METAL_SPINNER"
         },
         "x18": {
-            "zone": "ZONE.LOWER_LA_NOSCEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.10",
-            "bait": "BAIT.SPOON_WORM"
+            "zone": "ZONE.IL_MHEG",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.19",
+            "bait": "BAIT.METAL_SPINNER"
         },
         "x19": {
-            "zone": "ZONE.WESTERN_THANALAN",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.2",
-            "bait": "BAIT.HEAVY_STEEL_JIG"
+            "zone": "ZONE.AMH_ARAENG",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.17",
+            "bait": "BAIT.METAL_SPINNER"
         },
         "x20": {
-            "zone": "ZONE.LOWER_LA_NOSCEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.13",
-            "bait": "BAIT.GOBY_BALL"
+            "zone": "ZONE.KHOLUSIA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.13",
+            "bait": "BAIT.METAL_SPINNER"
         },
         "x21": {
-            "zone": "ZONE.NEW_GRIDANIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.0",
-            "bait": "BAIT.STEM_BORER"
+            "zone": "ZONE.LAKELAND",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.8",
+            "bait": "BAIT.BAITBUGS"
         },
         "x22": {
-            "zone": "ZONE.WESTERN_THANALAN",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.0",
-            "bait": "BAIT.BUTTERWORM"
+            "zone": "ZONE.KHOLUSIA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.11",
+            "bait": "BAIT.BAITBUGS"
         },
         "x23": {
-            "zone": "ZONE.LOWER_LA_NOSCEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.16",
-            "bait": "BAIT.SYRPHID_BASKET"
+            "zone": "ZONE.AMH_ARAENG",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.18",
+            "bait": "logs.gathering.fishing-guide.fishing.page-30.21"
         },
         "x24": {
-            "zone": "ZONE.LOWER_LA_NOSCEA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.15",
-            "bait": "BAIT.RAT_TAIL"
+            "zone": "ZONE.IL_MHEG",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.22",
+            "bait": "BAIT.MARBLE_NYMPH"
+        },
+        "x25": {
+            "zone": "ZONE.RAK_TIKA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.28",
+            "bait": "BAIT.ROBBER_BALL"
+        },
+        "x26": {
+            "zone": "ZONE.THE_TEMPEST",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.32",
+            "bait": "BAIT.SQUID_STRIP"
+        },
+        "x27": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.0",
+            "bait": "BAIT.KRILL"
+        },
+        "x28": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.0",
+            "bait": "BAIT.KRILL"
+        },
+        "x29": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.2",
+            "bait": "BAIT.KRILL"
+        },
+        "x30": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.2",
+            "bait": "BAIT.KRILL"
+        },
+        "x31": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.0",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x32": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.2",
+            "bait": "BAIT.KRILL"
+        },
+        "x33": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.6",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x34": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.6",
+            "bait": "BAIT.KRILL"
+        },
+        "x35": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.6",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x36": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.4",
+            "bait": "BAIT.RAGWORM"
+        },
+        "x37": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.4",
+            "bait": "BAIT.RAGWORM"
+        },
+        "x38": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.4",
+            "bait": "BAIT.RAGWORM"
+        },
+        "x39": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.0",
+            "bait": "BAIT.KRILL"
+        },
+        "x40": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.0",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x41": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.0",
+            "bait": "BAIT.KRILL"
+        },
+        "x42": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.2",
+            "bait": "BAIT.KRILL"
+        },
+        "x43": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.4",
+            "bait": "BAIT.RAGWORM"
+        },
+        "x44": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.2",
+            "bait": "BAIT.KRILL"
+        },
+        "x45": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.6",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x46": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.6",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x47": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.6",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x48": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.4",
+            "bait": "BAIT.RAGWORM"
+        },
+        "x49": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.2",
+            "bait": "BAIT.KRILL"
+        },
+        "x50": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.4",
+            "bait": "BAIT.RAGWORM"
+        },
+        "x51": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.0",
+            "bait": "BAIT.KRILL"
+        },
+        "x52": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.0",
+            "bait": "BAIT.KRILL"
+        },
+        "x53": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.2",
+            "bait": "BAIT.KRILL"
+        },
+        "x54": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.2",
+            "bait": "logs.gathering.fishing-guide.fishing.page-34.5"
+        },
+        "x55": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.6",
+            "bait": "BAIT.KRILL"
+        },
+        "x56": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.6",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x57": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.4",
+            "bait": "BAIT.RAGWORM"
+        },
+        "x58": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.4",
+            "bait": "logs.gathering.fishing-guide.fishing.page-34.23"
+        },
+        "x59": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.0",
+            "bait": "BAIT.KRILL"
+        },
+        "x60": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.2",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x61": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.6",
+            "bait": "BAIT.KRILL"
+        },
+        "x62": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.4",
+            "bait": "BAIT.RAGWORM"
+        },
+        "x63": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.1",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x64": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.1",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x65": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.1",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x66": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.1",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x67": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.1",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x68": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.1",
+            "bait": "BAIT.RAGWORM"
+        },
+        "x69": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.1",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x70": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.3",
+            "bait": "BAIT.KRILL"
+        },
+        "x71": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.1",
+            "bait": "BAIT.RAGWORM"
+        },
+        "x72": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.3",
+            "bait": "BAIT.RAGWORM"
+        },
+        "x73": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.3",
+            "bait": "logs.gathering.fishing-guide.fishing.page-36.1"
+        },
+        "x74": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.3",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x75": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.3",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x76": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.3",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x77": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.3",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x78": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.3",
+            "bait": "logs.gathering.fishing-guide.fishing.page-36.1"
+        },
+        "x79": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.5",
+            "bait": "BAIT.RAGWORM"
+        },
+        "x80": {
+            "zone": "ZONE.THE_SOUTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.3",
+            "bait": "logs.gathering.fishing-guide.fishing.page-36.1"
+        },
+        "x81": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.7",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x82": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.7",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x83": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.7",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x84": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.7",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x85": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.7",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x86": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.5",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x87": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.7",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x88": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.7",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x89": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.7",
+            "bait": "BAIT.RAGWORM"
+        },
+        "x90": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.5",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x91": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.5",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x92": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.5",
+            "bait": "BAIT.RAGWORM"
+        },
+        "x93": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.5",
+            "bait": "BAIT.RAGWORM"
+        },
+        "x94": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.5",
+            "bait": "BAIT.KRILL"
+        },
+        "x95": {
+            "zone": "ZONE.RHOTANO_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.7",
+            "bait": "BAIT.KRILL"
+        },
+        "x96": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.5",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x97": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.1",
+            "bait": "BAIT.PLUMP_WORM"
+        },
+        "x98": {
+            "zone": "ZONE.THE_NORTHERN_STRAIT_OF_MERLTHOR",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.5",
+            "bait": "BAIT.KRILL"
+        },
+        "x99": {
+            "zone": "ZONE.GALADION_BAY",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-high-seas.0",
+            "bait": "BAIT.KRILL"
         }
     }
 }

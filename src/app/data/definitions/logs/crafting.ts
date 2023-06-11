@@ -22,6 +22,7 @@ export const CRAFTING_LOG_DEFINITION: GroupDefinition = {
                         'moogle-quests',
                         'namazu-quests',
                         'dwarf-quests',
+                        'loporrit-quests',
                     ]
                 },
                 {
@@ -35,6 +36,7 @@ export const CRAFTING_LOG_DEFINITION: GroupDefinition = {
                         'ehll-tou',
                         'charlemend',
                         'ameliance',
+                        'anden',
                     ]
                 },
                 {
@@ -136,11 +138,12 @@ function defineCrafter(crafter: Crafter): GroupDefinition {
     definition.subGroups.push({
         path: 'ishgard-restoration',
         subGroups: [
+            'skysteel-tools',
+            'splendorous-tools',
             'restoration-1',
             'restoration-2',
             'restoration-3',
             'restoration-4',
-            'skysteel-tools',
             'other',
         ]
     });

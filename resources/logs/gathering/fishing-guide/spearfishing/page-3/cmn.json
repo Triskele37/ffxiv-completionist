@@ -3,128 +3,219 @@
     "common": ["zone", "bait"],
     "tasks": {
         "x0": {
-            "zone": "ZONE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.0",
-            "bait": "BITE.SMALL_AVERAGE"
-        },
-        "x1": {
-            "zone": "ZONE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.0",
-            "bait": "BITE.LARGE_SLOW"
-        },
-        "x2": {
-            "zone": "ZONE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.1",
-            "bait": "BITE.NORMAL_FAST"
-        },
-        "x3": {
-            "zone": "ZONE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.2",
-            "bait": "BITE.LARGE_AVERAGE"
-        },
-        "x4": {
-            "zone": "ZONE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.5",
-            "bait": "BITE.SMALL_SLOW"
-        },
-        "x5": {
-            "zone": "ZONE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.5",
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.1",
             "bait": "BITE.LARGE_FAST"
         },
+        "x1": {
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.3",
+            "bait": "BITE.SMALL_SLOW"
+        },
+        "x2": {
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.3",
+            "bait": "BITE.SMALL_FAST"
+        },
+        "x3": {
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.3",
+            "bait": "BITE.NORMAL_AVERAGE"
+        },
+        "x4": {
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.3",
+            "bait": "BITE.NORMAL_FAST"
+        },
+        "x5": {
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.3",
+            "bait": "BITE.LARGE_SLOW"
+        },
         "x6": {
-            "zone": "ZONE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.11",
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.3",
             "bait": "BITE.LARGE_FAST"
         },
         "x7": {
-            "zone": "ZONE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.12",
-            "bait": "BITE.NORMAL_SLOW"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.20",
+            "bait": "BITE.SMALL_SLOW"
         },
         "x8": {
-            "zone": "ZONE.THE_AZIM_STEPPE",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.14",
-            "bait": "BITE.NORMAL_AVERAGE"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.20",
+            "bait": "BITE.SMALL_FAST"
         },
         "x9": {
-            "zone": "ZONE.THE_AZIM_STEPPE",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.15",
-            "bait": "BITE.SMALL_AVERAGE"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.20",
+            "bait": "BITE.NORMAL_FAST"
         },
         "x10": {
-            "zone": "ZONE.THE_AZIM_STEPPE",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.15",
-            "bait": "BITE.LARGE_AVERAGE"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.20",
+            "bait": "BITE.NORMAL_SLOW"
         },
         "x11": {
-            "zone": "ZONE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.0",
-            "bait": "BITE.NORMAL_AVERAGE"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.20",
+            "bait": "BITE.LARGE_VERY_FAST"
         },
         "x12": {
-            "zone": "ZONE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.1",
-            "bait": "BITE.SMALL_SLOW"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.20",
+            "bait": "BITE.LARGE_FAST"
         },
         "x13": {
-            "zone": "ZONE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.2",
-            "bait": "BITE.SMALL_SLOW"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.21",
+            "bait": "BITE.SMALL_AVERAGE"
         },
         "x14": {
-            "zone": "ZONE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.2",
-            "bait": "BITE.NORMAL_AVERAGE"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.21",
+            "bait": "BITE.SMALL_FAST"
         },
         "x15": {
             "zone": "ZONE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.5",
-            "bait": "BITE.NORMAL_SLOW"
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.21",
+            "bait": "BITE.NORMAL_FAST"
         },
         "x16": {
             "zone": "ZONE.THE_RUBY_SEA",
-            "bait": "BITE.LARGE_FAST"
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.21",
+            "bait": "BITE.NORMAL_AVERAGE"
         },
         "x17": {
-            "zone": "ZONE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.11",
-            "bait": "BITE.SMALL_AVERAGE"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.21",
+            "bait": "BITE.LARGE_FAST"
         },
         "x18": {
-            "zone": "ZONE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.12",
-            "bait": "BITE.SMALL_FAST"
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.21",
+            "bait": "BITE.LARGE_AVERAGE"
         },
         "x19": {
-            "zone": "ZONE.THE_AZIM_STEPPE",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.14",
-            "bait": "BITE.SMALL_FAST"
+            "zone": "ZONE.THE_LOCHS",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.4",
+            "bait": "BITE.SMALL_AVERAGE"
         },
         "x20": {
             "zone": "ZONE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.0",
-            "bait": "BITE.SMALL_SLOW"
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.4",
+            "bait": "BITE.SMALL_VERY_FAST"
         },
         "x21": {
             "zone": "ZONE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.1",
-            "bait": "BITE.LARGE_FAST"
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.4",
+            "bait": "BITE.NORMAL_AVERAGE"
         },
         "x22": {
             "zone": "ZONE.THE_LOCHS",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.2",
-            "bait": "BITE.LARGE_FAST"
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.4",
+            "bait": "BITE.NORMAL_FAST"
         },
         "x23": {
-            "zone": "ZONE.THE_RUBY_SEA",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.5",
-            "bait": "BITE.SMALL_AVERAGE"
+            "zone": "ZONE.THE_LOCHS",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.4",
+            "bait": "BITE.LARGE_SLOW"
         },
         "x24": {
-            "zone": "ZONE.YANXIA",
-            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.11",
+            "zone": "ZONE.THE_LOCHS",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.4",
+            "bait": "BITE.LARGE_VERY_FAST"
+        },
+        "x25": {
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.19",
             "bait": "BITE.NORMAL_VERY_FAST"
+        },
+        "x26": {
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.22",
+            "bait": "BITE.LARGE_AVERAGE"
+        },
+        "x27": {
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.22",
+            "bait": "BITE.SMALL_FAST"
+        },
+        "x28": {
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.1",
+            "bait": "BITE.LARGE_AVERAGE"
+        },
+        "x29": {
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.20",
+            "bait": "BITE.LARGE_SLOW"
+        },
+        "x30": {
+            "zone": "ZONE.THAVNAIR",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.ilsabard.1",
+            "bait": "BITE.SMALL_VERY_FAST"
+        },
+        "x31": {
+            "zone": "ZONE.THE_LOCHS",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.5",
+            "bait": "BITE.NORMAL_FAST",
+            "patch": "6.15"
+        },
+        "x32": {
+            "zone": "ZONE.THE_RUBY_SEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.23",
+            "bait": "BITE.SMALL_SLOW",
+            "patch": "6.15"
+        },
+        "x33": {
+            "zone": "ZONE.LAKELAND",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.15",
+            "bait": "TODO - Ken Kiln",
+            "patch": "6.3"
+        },
+        "x34": {
+            "zone": "ZONE.IL_MHEG",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.16",
+            "bait": "TODO - Glorianda's Tear",
+            "patch": "6.3"
+        },
+        "x35": {
+            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.la-noscea.0",
+            "bait": "BITE.SMALL_FAST",
+            "patch": "6.3"
+        },
+        "x36": {
+            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.la-noscea.0",
+            "bait": "BITE.SMALL_AVERAGE",
+            "patch": "6.3"
+        },
+        "x37": {
+            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.la-noscea.0",
+            "bait": "BITE.NORMAL_AVERAGE",
+            "patch": "6.3"
+        },
+        "x38": {
+            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.la-noscea.0",
+            "bait": "BITE.NORMAL_FAST",
+            "patch": "6.3"
+        },
+        "x39": {
+            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.la-noscea.0",
+            "bait": "BITE.LARGE_AVERAGE",
+            "patch": "6.3"
+        },
+        "x40": {
+            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.spearfishing.la-noscea.0",
+            "bait": "BITE.LARGE_AVERAGE",
+            "patch": "6.3"
         }
     }
 }

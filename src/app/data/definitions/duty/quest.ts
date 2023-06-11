@@ -51,6 +51,14 @@ export const QUEST_DEFINITION = {
             path: 'sidequests',
             subGroups: [
                 {
+                    path: 'records-of-unusual-endeavors',
+                    subGroups: [
+                        'splendorous-tools',
+                        'eureka-orthos'
+                    ]
+                },
+
+                {
                     path: 'side-story-quests',
                     subGroups: [
                         'tales-of-the-dragonsong-war',
@@ -247,6 +255,7 @@ export const QUEST_DEFINITION = {
                 'dwarf',
                 'arkasodara',
                 'omicron',
+                'loporrit',
             ]
         },
         {
