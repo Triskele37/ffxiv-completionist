@@ -5,7 +5,7 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 export function migrateQuests(store: ChangeStore): void {
     const SIDE_STORY = 'overall.duty.quests.sidequests.side-story';
 
-    //#region --------------------------------- Chronciles of Light
+    //#region --------------------------------- Chronicles of Light
     const COL = 'overall.duty.quests.sidequests.chronicles-of-light';
 
     store.moveGroup(
@@ -171,7 +171,7 @@ export function migrateQuests(store: ChangeStore): void {
     //#endregion
 
     //#region --------------------------------- Wandering Minstrel
-    const MINSTREL = 'overall.duty.quests.sidequests.side-story-quests.wandering-minstrel';
+    const MINSTREL = 'overall.duty.quests.sidequests.side-story.wandering-minstrel';
     const MOR_DHONA = 'overall.duty.quests.sidequests.mor-dhonan.mor-dhona';
 
     store.moveTask(MINSTREL, MOR_DHONA, 66844);
