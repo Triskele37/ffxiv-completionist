@@ -119,16 +119,11 @@ function makeGatherer(path: string) {
                 ]
             },
             {
-                path: 'ishgard-restoration',
-                subGroups: [
-                    'ishgard-restoration',
-                    'skysteel-tools',
-                ]
-            },
-            {
                 path: 'sidequests',
                 subGroups: [
-                    'splendorous-tools'
+                    'splendorous-tools',
+                    'skysteel-tools',
+                    'ishgard-restoration',
                 ]
             }
         ]

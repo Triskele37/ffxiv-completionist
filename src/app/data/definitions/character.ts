@@ -158,6 +158,7 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                     subGroups: [
                         'quests',
                         'main-scenario',
+                        'job-role-quests',
                         'levequests',
                         'tribal-quests',
                         'seasonal-events',

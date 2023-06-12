@@ -51,42 +51,54 @@ export const QUEST_DEFINITION = {
             path: 'sidequests',
             subGroups: [
                 {
-                    path: 'records-of-unusual-endeavors',
-                    subGroups: [
-                        'splendorous-tools',
-                        'eureka-orthos'
-                    ]
-                },
-
-                {
-                    path: 'side-story-quests',
+                    path: 'chronicles-of-light',
                     subGroups: [
                         'tales-of-the-dragonsong-war',
                         'tales-from-the-shadows',
                         'tales-of-newfound-adventure',
+                    ]
+                },
+                {
+                    path: 'hildibrand-sidequests',
+                    subGroups: [
                         'hildibrand',
                         'further-hildibrand-adventures',
                         'even-further-hildibrand-adventures',
                         'somehow-further-hildibrand-adventures',
                         'manderville-weapons',
+                    ]
+                },
+                {
+                    path: 'weapon-enhancement-sidequests',
+                    subGroups: [
                         'zodiac-weapons',
                         'anima-weapons',
                         'the-forbidden-land-eureka',
                         'resistance-weapons',
-                        'delivery-moogle',
-                        'scholasticate',
-                        'void',
-                        'tatarus-grand-endeavor',
+                    ]
+                },
+                {
+                    path: 'records-of-unusual-endeavors',
+                    subGroups: [
                         'doman-adventurers-guild',
                         'doman-reconstruction',
                         'ishgardian-restoration-main',
                         'ishgardian-restoration-sidequests',
+                        'splendorous-tools',
+                        'palace-of-the-dead',
+                        'heaven-on-high',
+                        'eureka-orthos',
                         'island-sanctuary',
                         'variant-dungeons',
-                        'allied-tribal-quests',
-                        'heavensward-tribal-quests',
-                        'stormblood-tribal-quests',
-                        'wandering-minstrel',
+                    ]
+                },
+                {
+                    path: 'side-story-quests',
+                    subGroups: [
+                        'delivery-moogle',
+                        'scholasticate',
+                        'void',
+                        'tatarus-grand-endeavor',
                     ]
                 },
                 {
@@ -212,11 +224,11 @@ export const QUEST_DEFINITION = {
                 },
                 {
                     path: 'sharlayan-sidequests',
-                    subGroups: ['labyrinthos', 'old-sharlayan']
+                    subGroups: ['old-sharlayan', 'labyrinthos']
                 },
                 {
                     path: 'thavnairian-sidequests',
-                    subGroups: ['thavnair', 'radz-at-han']
+                    subGroups: ['radz-at-han', 'thavnair']
                 },
                 {
                     path: 'garlean-sidequests',
@@ -256,6 +268,14 @@ export const QUEST_DEFINITION = {
                 'arkasodara',
                 'omicron',
                 'loporrit',
+                {
+                    path: 'tribal-alliance-quests',
+                    subGroups: [
+                        'a-realm-reborn-tribal-quests',
+                        'heavensward-tribal-quests',
+                        'stormblood-tribal-quests',
+                    ]
+                }
             ]
         },
         {
