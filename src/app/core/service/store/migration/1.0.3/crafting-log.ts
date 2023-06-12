@@ -4,18 +4,18 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
  * Mimicking 3 menu setup
  * */
 export function migrateCraftingLog(store: ChangeStore): void {
-    migrateCrafter(store, 'overall.logs.crafting.carpenter');
-    migrateCrafter(store, 'overall.logs.crafting.blacksmith');
-    migrateCrafter(store, 'overall.logs.crafting.armorer');
-    migrateCrafter(store, 'overall.logs.crafting.goldsmith');
-    migrateCrafter(store, 'overall.logs.crafting.leatherworker');
-    migrateCrafter(store, 'overall.logs.crafting.weaver');
-    migrateCrafter(store, 'overall.logs.crafting.alchemist');
-    migrateCrafter(store, 'overall.logs.crafting.culinarian');
+    migrateCrafter(store, 'overall.logs.crafting-log.carpenter');
+    migrateCrafter(store, 'overall.logs.crafting-log.blacksmith');
+    migrateCrafter(store, 'overall.logs.crafting-log.armorer');
+    migrateCrafter(store, 'overall.logs.crafting-log.goldsmith');
+    migrateCrafter(store, 'overall.logs.crafting-log.leatherworker');
+    migrateCrafter(store, 'overall.logs.crafting-log.weaver');
+    migrateCrafter(store, 'overall.logs.crafting-log.alchemist');
+    migrateCrafter(store, 'overall.logs.crafting-log.culinarian');
 
     store.moveGroup(
-        'overall.logs.crafting.shared.story',
-        'overall.logs.crafting.shared.class',
+        'overall.logs.crafting-log.shared.story',
+        'overall.logs.crafting-log.shared.class',
     );
 }
 
