@@ -95,6 +95,43 @@ export function migrateFish(store: ChangeStore): void {
     }
 
     //#endregion
+
+    //#region --------------------------------- Reorder?
+    // 5 fish out of order and on wrong page, shenanigans ensue
+    const PAGE_10 = `${F_GUIDE}.page-10`;
+    const PAGE_11 = `${F_GUIDE}.page-11`;
+
+    // Shift ids so data is not overwritten when page-10 fish move in
+    store.changeKey(PAGE_11, 4, 194);
+    store.changeKey(PAGE_11, 3, 195);
+    store.changeKey(PAGE_11, 2, 196);
+    store.changeKey(PAGE_11, 1, 197);
+    store.changeKey(PAGE_11, 0, 198);
+
+    // Shift ids so data is not overwritten on this page
+    store.changeKey(PAGE_10, 98, 100);
+    store.changeKey(PAGE_10, 97, 101);
+    store.changeKey(PAGE_10, 96, 102);
+    store.changeKey(PAGE_10, 95, 103);
+    store.changeKey(PAGE_10, 94, 104);
+
+    // Flip fish between pages
+    store.moveTasks(PAGE_10, PAGE_11, [100, 101, 102, 103, 104]);
+    store.moveTasks(PAGE_11, PAGE_10, [194, 195, 196, 197, 198]);
+
+    // Unshift ids (on their new pages)
+    store.changeKey(PAGE_10, 194, 94);
+    store.changeKey(PAGE_10, 195, 95);
+    store.changeKey(PAGE_10, 196, 96);
+    store.changeKey(PAGE_10, 197, 97);
+    store.changeKey(PAGE_10, 198, 98);
+    store.changeKey(PAGE_11, 100, 0);
+    store.changeKey(PAGE_11, 101, 1);
+    store.changeKey(PAGE_11, 102, 2);
+    store.changeKey(PAGE_11, 103, 3);
+    store.changeKey(PAGE_11, 104, 4);
+
+    //#endregion
 }
 
 // quarter is zero based slot in new pages page

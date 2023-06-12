@@ -3,29 +3,29 @@
     "common": ["zone", "bait"],
     "tasks": {
         "x0": {
-            "zone": "ZONE.AMH_ARAENG",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.17",
-            "bait": "logs.gathering.fishing-guide.fishing.page-32.7"
+            "zone": "ZONE.IL_MHEG",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.25",
+            "bait": "BAIT.BAITBUGS"
         },
         "x1": {
-            "zone": "ZONE.KHOLUSIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.14",
-            "bait": "BAIT.SQUID_STRIP"
+            "zone": "ZONE.RAK_TIKA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.30",
+            "bait": "BAIT.BAITBUGS"
         },
         "x2": {
-            "zone": "ZONE.KHOLUSIA",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.13",
-            "bait": "BAIT.MOYEBI_SHRIMP"
+            "zone": "ZONE.RAK_TIKA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.31",
+            "bait": "BAIT.ROBBER_BALL"
         },
         "x3": {
-            "zone": "ZONE.LAKELAND",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.7",
-            "bait": "BAIT.FRUIT_WORM"
+            "zone": "ZONE.THE_TEMPEST",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.34",
+            "bait": "BAIT.SHORT_BILL_MINNOW"
         },
         "x4": {
-            "zone": "ZONE.THE_CRYSTARIUM",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.0",
-            "bait": "BAIT.MARBLE_NYMPH"
+            "zone": "ZONE.THE_TEMPEST",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.35",
+            "bait": "logs.gathering.fishing-guide.fishing.page-8.88"
         },
         "x5": {
             "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
@@ -55,7 +55,7 @@
         "x10": {
             "zone": "ZONE.LAKELAND",
             "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.8",
-            "bait": "logs.gathering.fishing-guide.fishing.page-33.21"
+            "bait": "logs.gathering.fishing-guide.fishing.page-9.21"
         },
         "x11": {
             "zone": "ZONE.KHOLUSIA",
@@ -75,7 +75,7 @@
         "x14": {
             "zone": "ZONE.RAK_TIKA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.norvrandt.26",
-            "bait": "logs.gathering.fishing-guide.fishing.page-33.14"
+            "bait": "logs.gathering.fishing-guide.fishing.page-9.14"
         },
         "x15": {
             "zone": "ZONE.THE_TEMPEST",
@@ -90,7 +90,7 @@
         "x17": {
             "zone": "ZONE.OLD_SHARLAYAN",
             "fishingHoles": "logs.gathering.fishing-log.fishing.the-northern-empty.0",
-            "bait": "BAIT.MACKEREL_STRIP"
+            "bait": "BAIT.SHRIMP_BALL"
         },
         "x18": {
             "zone": "ZONE.OLD_SHARLAYAN",
@@ -100,7 +100,7 @@
         "x19": {
             "zone": "ZONE.OLD_SHARLAYAN",
             "fishingHoles": "logs.gathering.fishing-log.fishing.the-northern-empty.0",
-            "bait": "BAIT.MACKEREL_STRIP"
+            "bait": "BAIT.SHRIMP_BALL"
         },
         "x20": {
             "zone": "ZONE.OLD_SHARLAYAN",
@@ -180,17 +180,17 @@
         "x35": {
             "zone": "ZONE.LABYRINTHOS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.the-northern-empty.3",
-            "bait": "BAIT.GOLD_SALMON_ROE"
+            "bait": "BAIT.LEECH"
         },
         "x36": {
             "zone": "ZONE.LABYRINTHOS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.the-northern-empty.7",
-            "bait": "BAIT.GOLD_SALMON_ROE"
+            "bait": "BAIT.LEECH"
         },
         "x37": {
             "zone": "ZONE.LABYRINTHOS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.the-northern-empty.7",
-            "bait": "BAIT.MAYFLY"
+            "bait": "BAIT.SKY_SPOON_LURE"
         },
         "x38": {
             "zone": "ZONE.LABYRINTHOS",
@@ -215,7 +215,7 @@
         "x42": {
             "zone": "ZONE.LABYRINTHOS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.the-northern-empty.5",
-            "bait": "BAIT.LEECH"
+            "bait": "logs.gathering.fishing-guide.fishing.page-11.41"
         },
         "x43": {
             "zone": "ZONE.RADZ_AT_HAN",
@@ -230,12 +230,12 @@
         "x45": {
             "zone": "ZONE.RADZ_AT_HAN",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.0",
-            "bait": "BAIT.GOLD_SALMON_ROE"
+            "bait": "BAIT.LEECH"
         },
         "x46": {
             "zone": "ZONE.RADZ_AT_HAN",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.0",
-            "bait": "BAIT.GOLD_SALMON_ROE"
+            "bait": "BAIT.LEECH"
         },
         "x47": {
             "zone": "ZONE.THAVNAIR",
@@ -260,7 +260,7 @@
         "x51": {
             "zone": "ZONE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.1",
-            "bait": "BAIT.SHRIMP_BALL"
+            "bait": "BAIT.METAL_SPINNER"
         },
         "x52": {
             "zone": "ZONE.THAVNAIR",
@@ -270,7 +270,7 @@
         "x53": {
             "zone": "ZONE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.1",
-            "bait": "BAIT.SHRIMP_BALL"
+            "bait": "logs.gathering.fishing-guide.fishing.page-11.52"
         },
         "x54": {
             "zone": "ZONE.THAVNAIR",
@@ -290,7 +290,7 @@
         "x57": {
             "zone": "ZONE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.3",
-            "bait": "BAIT.LEECH"
+            "bait": "BAIT.GOLD_SALMON_ROE"
         },
         "x58": {
             "zone": "ZONE.THAVNAIR",
@@ -300,7 +300,7 @@
         "x59": {
             "zone": "ZONE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.3",
-            "bait": "BAIT.LEECH"
+            "bait": "BAIT.GOLD_SALMON_ROE"
         },
         "x60": {
             "zone": "ZONE.THAVNAIR",
@@ -310,12 +310,12 @@
         "x61": {
             "zone": "ZONE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.9",
-            "bait": "BAIT.GOLD_SALMON_ROE"
+            "bait": "BAIT.LEECH"
         },
         "x62": {
             "zone": "ZONE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.9",
-            "bait": "BAIT.MAYFLY"
+            "bait": "BAIT.SKY_SPOON_LURE"
         },
         "x63": {
             "zone": "ZONE.THAVNAIR",
@@ -325,22 +325,22 @@
         "x64": {
             "zone": "ZONE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.5",
-            "bait": "BAIT.LEECH"
+            "bait": "BAIT.SKY_SPOON_LURE"
         },
         "x65": {
             "zone": "ZONE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.5",
-            "bait": "BAIT.LEECH"
+            "bait": "BAIT.SKY_SPOON_LURE"
         },
         "x66": {
             "zone": "ZONE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.6",
-            "bait": "BAIT.SKY_SPOON_LURE"
+            "bait": "BAIT.LEECH"
         },
         "x67": {
             "zone": "ZONE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.6",
-            "bait": "BAIT.SKY_SPOON_LURE"
+            "bait": "BAIT.LEECH"
         },
         "x68": {
             "zone": "ZONE.THAVNAIR",
@@ -350,7 +350,7 @@
         "x69": {
             "zone": "ZONE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.8",
-            "bait": "BAIT.VERSATILE_LURE"
+            "bait": "BAIT.SKY_SPOON_LURE"
         },
         "x70": {
             "zone": "ZONE.THAVNAIR",
@@ -360,7 +360,7 @@
         "x71": {
             "zone": "ZONE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.8",
-            "bait": "BAIT.MAYFLY"
+            "bait": "BAIT.SKY_SPOON_LURE"
         },
         "x72": {
             "zone": "ZONE.THAVNAIR",
@@ -375,32 +375,32 @@
         "x74": {
             "zone": "ZONE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.7",
-            "bait": "BAIT.SHRIMP_BALL"
+            "bait": "logs.gathering.fishing-guide.fishing.page-11.73"
         },
         "x75": {
             "zone": "ZONE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.7",
-            "bait": "BAIT.MACKEREL_STRIP"
+            "bait": "logs.gathering.fishing-guide.fishing.page-11.73"
         },
         "x76": {
             "zone": "ZONE.THAVNAIR",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.7",
-            "bait": "BAIT.MACKEREL_STRIP"
+            "bait": "logs.gathering.fishing-guide.fishing.page-11.73"
         },
         "x77": {
             "zone": "ZONE.GARLEMALD",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.10",
-            "bait": "BAIT.GOLD_SALMON_ROE"
+            "bait": "BAIT.LEECH"
         },
         "x78": {
             "zone": "ZONE.GARLEMALD",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.11",
-            "bait": "BAIT.LEECH"
+            "bait": "BAIT.GOLD_SALMON_ROE"
         },
         "x79": {
             "zone": "ZONE.GARLEMALD",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.11",
-            "bait": "BAIT.LEECH"
+            "bait": "BAIT.GOLD_SALMON_ROE"
         },
         "x80": {
             "zone": "ZONE.GARLEMALD",
@@ -420,12 +420,12 @@
         "x83": {
             "zone": "ZONE.GARLEMALD",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.10",
-            "bait": "BAIT.VERSATILE_LURE"
+            "bait": "BAIT.LEECH"
         },
         "x84": {
             "zone": "ZONE.GARLEMALD",
             "fishingHoles": "logs.gathering.fishing-log.fishing.ilsabard.10",
-            "bait": "BAIT.SKY_SPOON_LURE"
+            "bait": "BAIT.LEECH"
         },
         "x85": {
             "zone": "ZONE.MARE_LAMENTORUM",
@@ -450,12 +450,12 @@
         "x89": {
             "zone": "ZONE.MARE_LAMENTORUM",
             "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.1",
-            "bait": "BAIT.CHIMERA_WORM"
+            "bait": "BAIT.GREY_WORM"
         },
         "x90": {
             "zone": "ZONE.MARE_LAMENTORUM",
             "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.1",
-            "bait": "BAIT.CHIMERA_WORM"
+            "bait": "BAIT.GREY_WORM"
         },
         "x91": {
             "zone": "ZONE.MARE_LAMENTORUM",
@@ -465,17 +465,17 @@
         "x92": {
             "zone": "ZONE.MARE_LAMENTORUM",
             "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.1",
-            "bait": "BAIT.GREY_WORM"
+            "bait": "logs.gathering.fishing-guide.fishing.page-11.90"
         },
         "x93": {
             "zone": "ZONE.MARE_LAMENTORUM",
             "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.2",
-            "bait": "BAIT.VERSATILE_LURE"
+            "bait": "BAIT.GREY_WORM"
         },
         "x94": {
             "zone": "ZONE.MARE_LAMENTORUM",
             "fishingHoles": "logs.gathering.fishing-log.fishing.the-sea-of-stars.2",
-            "bait": "BAIT.CHIMERA_WORM"
+            "bait": "BAIT.GREY_WORM"
         },
         "x95": {
             "zone": "ZONE.ELPIS",
@@ -490,7 +490,7 @@
         "x97": {
             "zone": "ZONE.ELPIS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.the-world-unsundered.0",
-            "bait": "BAIT.VERSATILE_LURE"
+            "bait": "BAIT.SKY_SPOON_LURE"
         },
         "x98": {
             "zone": "ZONE.ELPIS",
@@ -500,7 +500,7 @@
         "x99": {
             "zone": "ZONE.ELPIS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.the-world-unsundered.0",
-            "bait": "BAIT.MAYFLY"
+            "bait": "logs.gathering.fishing-guide.fishing.page-11.97"
         }
     }
 }
