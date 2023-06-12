@@ -365,6 +365,9 @@
                 "ADD": {
                     "L1": "Resources up to FFXIV 6.38"
                 },
+                "CHANGE": {
+                    "L1": "Reduced minimum search characters to 2"
+                },
                 "FIX": {
                     "L1": "Various data/chain corrections"
                 }
@@ -453,7 +456,7 @@
             "TITLE": "Search",
             "PLACEHOLDER": "Search",
             "NO_SEARCH": "Please enter a search term",
-            "TOO_SHORT": "Please enter at least 3 characters",
+            "TOO_SHORT": "Please enter at least 2 characters",
             "NO_RESULTS": "No tasks found",
             "EXPAND": "Expand All",
             "COLLAPSE": "Collapse All",

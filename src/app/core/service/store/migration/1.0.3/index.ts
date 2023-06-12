@@ -10,5 +10,11 @@ export function migrateTo_1_0_3(svcSaveStore: SaveStoreService): void {
     migrateOrchestrion(store);
     migrateFish(store);
 
+    //TODO gotta replace moved group bookmarks?
+
     store.write();
+}
+
+function removeOldBeastTribeBookmarks() {
+    //TODO:
 }
