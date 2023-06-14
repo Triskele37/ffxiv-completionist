@@ -59,7 +59,7 @@ export function migrateFish(store: ChangeStore): void {
     for(let oldId = 0; oldId <= 4; oldId++) {
         const newId = oldId + 50; // 2 pages already on page 12
         store.changeKey(lastOldFPage, oldId, newId);
-        store.moveTask(lastOldFPage, lastNewFPage, newId);
+        store.moveTask(lastOldFPage, lastNewFPage, newId, true);
     }
 
     // Cleanup empty pages
@@ -81,8 +81,8 @@ export function migrateFish(store: ChangeStore): void {
     movePage(store, S_GUIDE, 'page-9', 'page-3', 0);
 
     // Move remaining partial page to last new page
-    const lastOldSPage = `${S_GUIDE}.page-47`;
-    const lastNewSPage = `${S_GUIDE}.page-12`;
+    const lastOldSPage = `${S_GUIDE}.page-10`;
+    const lastNewSPage = `${S_GUIDE}.page-3`;
     for(let oldId = 0; oldId <= 7; oldId++) {
         const newId = oldId + 25; // 1 page already on page 3
         store.changeKey(lastOldSPage, oldId, newId);
@@ -148,7 +148,8 @@ function movePage(
     for(let i = 0; i < 25; i++) {
         // Change key first because all pages use the same 0-24 id
         const newId = (25 * quarter) + i;
-        store.changeKey(fromPath, i, newId);
-        store.moveTask(fromPath, toPath, newId);
+        if(quarter > 0) store.changeKey(fromPath, i, newId);
+
+        store.moveTask(fromPath, toPath, newId, true);
     }
 }

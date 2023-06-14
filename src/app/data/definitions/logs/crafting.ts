@@ -40,7 +40,7 @@ export const CRAFTING_LOG_DEFINITION: GroupDefinition = {
                     ]
                 },
                 {
-                    path: 'story',
+                    path: 'class',
                     subGroups: [
                         'crystarium-deliveries',
                         'studium',

@@ -18,11 +18,9 @@ export function migrateTo_1_0_3(svcSaveStore: SaveStoreService): void {
     migrateFish(store);
     migrateOrchestrion(store);
 
+    // What?
+    const CD = `overall.logs.crafting-log.shared.custom-deliveries`;
+    store.moveGroup(`${CD}.undefined`, `${CD}.charlemend`);
+
     store.write();
-}
-
-//TODO: update store to automatically fix bookmarks with group/task actions
-
-function removeOldBeastTribeBookmarks() {
-    //TODO: fix for old tribes not going through bookmark migration
 }

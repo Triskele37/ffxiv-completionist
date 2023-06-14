@@ -16,13 +16,17 @@ export function migrateGatheringLog(store: ChangeStore): void {
 
     store.moveGroup(oldResto(MINING), newResto(MINING));
     store.moveGroup(oldSkysteel(MINING), newSkysteel(MINING));
+    store.deleteGroup(`${MINING}.ishgard-restoration`);
 
     store.moveGroup(oldResto(QUARRYING), newResto(QUARRYING));
     store.moveGroup(oldSkysteel(QUARRYING), newSkysteel(QUARRYING));
+    store.deleteGroup(`${QUARRYING}.ishgard-restoration`);
 
     store.moveGroup(oldResto(LOGGING), newResto(LOGGING));
     store.moveGroup(oldSkysteel(LOGGING), newSkysteel(LOGGING));
+    store.deleteGroup(`${LOGGING}.ishgard-restoration`);
 
     store.moveGroup(oldResto(HARVESTING), newResto(HARVESTING));
     store.moveGroup(oldSkysteel(HARVESTING), newSkysteel(HARVESTING));
+    store.deleteGroup(`${HARVESTING}.ishgard-restoration`);
 }

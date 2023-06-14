@@ -66,4 +66,6 @@ function migrateCrafter(store: ChangeStore, crafter: string) {
             `${crafter}.special-recipes.others`
         );
     }
+    
+    store.deleteGroup(`${crafter}.ishgard-restoration`);
 }
