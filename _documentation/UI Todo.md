@@ -4,6 +4,7 @@
 - Custom application container, specifically title bar
 - Chain Viewer
 - coordinate viewer (maps)
+- Fishing hole viewer
 - Installation
     - auto-update
 - Tracker (see Ctrl+U menu)
@@ -33,12 +34,13 @@
     - Completion
     - Class/Job
     - Zone
+- Recreate p-breadcrumbs
+  - Make the arrows dropdowns with all subGroups for the previous group
 
 **Change**
 - replace most of Guide with Active Help
 
 **Fix**
-- Quick-Mark disappears in win 11 after show all enabled?
 
 **Check**
 - Title achievement links

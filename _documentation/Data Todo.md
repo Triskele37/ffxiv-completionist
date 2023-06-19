@@ -1,10 +1,11 @@
------------------------------------------------------------------- Current Release
+------------------------------------------------------------------
 **Add**
 - DSR Unlock Quasi
 - missing endwalker asphodelos savage unlock quasi quest (Recount tales of Asphodelos?)
 - missing endwalker abyssos savage unlock quasi quest
 - Toy Chest? (Cheap Dungeon has 5 levels)
-- Chain NPC only triad cards to their npc
+- Chain NPC only triad cards to their npc?
+- Currencies to i18n, move values from local to cmn
 
 **Change**
 - Convert DataGroup.tasks to Map<string, Task>
@@ -24,7 +25,7 @@
 
 **Change**
 - save starting class in player save
-- overhaul orchestrion log
+- Update orchestrion log to standard method/source columns
 
 **Fix**
 - Missing Unlock
@@ -48,6 +49,7 @@
 **Change**
 - Rename long keys to reduce link string lengths
   - Priority: eureka, bozja
+- Implement "build" step for resources so release doesn't transform resources when read in
 
 **Fix**
 - "Just Deserts" unlocks "Guild Leves"
