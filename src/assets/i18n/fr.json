@@ -768,22 +768,29 @@
             "VERSATILE_LURE": "Leurre universel",
             "SELECT_BAIT_BALL": "Select Bait Ball"
         },
-        "BITE": {
-            "WEAK": "!",
-            "MEDIUM": "!!",
-            "STRONG": "!!!",
-            "SMALL_SLOW": "Petit / Lent",
-            "SMALL_AVERAGE": "Petit / Moyen",
-            "SMALL_FAST": "Petit / Rapide",
-            "SMALL_VERY_FAST": "Petit / Très Rapide",
-            "NORMAL_SLOW": "Moyen / Lent",
-            "NORMAL_AVERAGE": "Moyen / Moyen",
-            "NORMAL_FAST": "Moyen / Rapide",
-            "NORMAL_VERY_FAST": "Moyen / Très Rapide",
-            "LARGE_SLOW": "Grand / Lent",
-            "LARGE_AVERAGE": "Grand / Moyen",
-            "LARGE_FAST": "Grand / Rapide",
-            "LARGE_VERY_FAST": "Grand / Très Rapide"
+        "FISH": {
+            "BITE": {
+                "WEAK": "!",
+                "MEDIUM": "!!",
+                "STRONG": "!!!"
+            },
+            "SIZE": {
+                "SMALL": "Petit",
+                "MEDIUM": "Moyen",
+                "LARGE": "Grand"
+            },
+            "SPEED": {
+                "EXTREMELY_SLOW": "Extremely Slow",
+                "VERY_SLOW": "Very Slow",
+                "SLOW": "Lent",
+                "AVERAGE": "Moyen",
+                "FAST": "Rapide",
+                "VERY_FAST": "Très Rapide",
+                "EXTREMELY_FAST": "Extremely Fast",
+                "SUPER_FAST": "Super Fast",
+                "MEGA_FAST": "Mega Fast",
+                "HYPER_FAST": "Hyper Fast"
+            }
         },
         "REPUTATION": {
             "1": "Neutre",
