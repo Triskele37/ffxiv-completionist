@@ -1334,16 +1334,16 @@
         "x3164": {
             "points": 5,
             "patch": "6.3",
+            "cPrev": [3163],
+            "cNext": [3165]
+        },
+        "x3165": {
+            "points": 5,
+            "patch": "6.3",
             "cPrev": [3164],
             "cNext": [3166]
         },
         "x3166": {
-            "points": 5,
-            "patch": "6.3",
-            "cPrev": [3166],
-            "cNext": [3165]
-        },
-        "x3165": {
             "points": 5,
             "patch": "6.3",
             "cPrev": [3165],
@@ -1353,7 +1353,7 @@
             "points": 10,
             "reward": "character.character.title.659",
             "patch": "6.3",
-            "cPrev": [3167],
+            "cPrev": [3166],
             "cSiblings": ["character.character.title.659"]
         },
         "x2001": {
