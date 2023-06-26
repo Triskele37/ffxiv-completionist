@@ -1,0 +1,19 @@
+{
+    "key": "island-sanctuary",
+    "tasks": {
+        "x70179": {
+            "level": 1,
+            "cPrev": ["duty.quests.main-scenario.endwalker.70000"],
+            "cNext": [70181]
+        },
+        "x70181": {
+            "level": 1,
+            "cPrev": [70179],
+            "cNext": [70265]
+        },
+        "x70265": {
+            "level": 1,
+            "cPrev": [70181]
+        }
+    }
+}

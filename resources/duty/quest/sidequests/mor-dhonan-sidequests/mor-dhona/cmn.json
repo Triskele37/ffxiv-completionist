@@ -1,12 +1,6 @@
 {
     "key": "mor-dhona",
     "tasks": {
-        "x67094": {
-            "level": 1,
-            "cPrev": [
-                "duty.quests.sidequests.uldahn.western-thanalan.66235"
-            ]
-        },
         "x65968": {
             "level": 1,
             "unlock": "character.mount-guide.96",
@@ -20,6 +14,12 @@
                 "character.mount-guide.83",
                 "character.mount-guide.120",
                 "character.mount-guide.186"
+            ]
+        },
+        "x67094": {
+            "level": 1,
+            "cPrev": [
+                "duty.quests.sidequests.uldahn.western-thanalan.66235"
             ]
         },
         "x66958": {
@@ -49,25 +49,19 @@
                 66535
             ]
         },
-        "x66534": {
+        "x65554": {
             "level": 45,
+            "cPrevAny": true,
             "cPrev": [
-                66525
-            ],
-            "cNext": [
-                66536
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
             ]
         },
         "x66523": {
             "level": 45,
             "cPrev": [
                 66535
-            ]
-        },
-        "x66536": {
-            "level": 45,
-            "cPrev": [
-                66534
             ]
         },
         "x66525": {
@@ -109,13 +103,13 @@
                 66527
             ]
         },
-        "x65554": {
+        "x66534": {
             "level": 45,
-            "cPrevAny": true,
             "cPrev": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
-                "duty.quests.sidequests.gridanian.gridania.65756",
-                "duty.quests.sidequests.uldahn.uldah.66223"
+                66525
+            ],
+            "cNext": [
+                66536
             ]
         },
         "x66535": {
@@ -127,8 +121,17 @@
                 66523
             ]
         },
-        "x66959": {
-            "level": 50
+        "x66536": {
+            "level": 45,
+            "cPrev": [
+                66534
+            ]
+        },
+        "x65700": {
+            "level": 50,
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ]
         },
         "x66677": {
             "level": 50,
@@ -164,8 +167,12 @@
                 "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
         },
-        "x65700": {
+        "x66959": {
+            "level": 50
+        },
+        "x67061": {
             "level": 50,
+            "unlock": "duty.dutyraid-finder.dungeons.arr.23",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
@@ -180,9 +187,31 @@
                 "duty.quests.sidequests.lominsan.limsa-lominsa.67784"
             ]
         },
-        "x67061": {
+        "x66844": {
             "level": 50,
-            "unlock": "duty.dutyraid-finder.dungeons.arr.23",
+            "unlock": "duty.dutyraid-finder.trials.arr.19",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ],
+            "cNext": [
+                67095
+            ]
+        },
+        "x67095": {
+            "level": 50,
+            "unlock": [
+                "duty.dutyraid-finder.raids.arr.13",
+                "duty.dutyraid-finder.raids.arr.14",
+                "duty.dutyraid-finder.raids.arr.15",
+                "duty.dutyraid-finder.raids.arr.16"
+            ],
+            "cPrev": [
+                66844
+            ]
+        },
+        "x65630": {
+            "level": 50,
+            "unlock": "duty.dutyraid-finder.dungeons.arr.26",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
@@ -194,9 +223,9 @@
                 "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
         },
-        "x65630": {
+        "x65966": {
             "level": 50,
-            "unlock": "duty.dutyraid-finder.dungeons.arr.26",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.30",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
@@ -204,13 +233,6 @@
         "x65967": {
             "level": 50,
             "unlock": "duty.dutyraid-finder.dungeons.arr.29",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ]
-        },
-        "x65966": {
-            "level": 50,
-            "unlock": "duty.dutyraid-finder.dungeons.arr.30",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.66060"
             ]
@@ -239,8 +261,58 @@
                 "duty.quests.other.quasi-quests.68477",
                 "duty.quests.other.quasi-quests.69711",
                 "duty.quests.other.quasi-quests.69139",
-                "duty.quests.sidequests.side-story.ishgardian-restoration-sidequests.69425",
-                "duty.quests.sidequests.side-story.ishgardian-restoration-sidequests.69615"
+                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69425",
+                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69615"
+            ]
+        },
+        "x67739": {
+            "level": 60,
+            "unlock": "duty.dutyraid-finder.trials.hw.9",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67205"
+            ]
+        },
+        "x67825": {
+            "level": 60,
+            "unlock": "duty.dutyraid-finder.trials.hw.10",
+            "cPrev": [
+                "duty.quests.main-scenario.dragonsong.67783"
+            ]
+        },
+        "x67644": {
+            "level": 60,
+            "unlock": [
+                "duty.dutyraid-finder.raids.hw.4",
+                "duty.dutyraid-finder.raids.hw.5",
+                "duty.dutyraid-finder.raids.hw.6",
+                "duty.dutyraid-finder.raids.hw.7"
+            ],
+            "cPrev": [
+                "duty.quests.chronicles-of-a-new-era.alexander.67630"
+            ]
+        },
+        "x67790": {
+            "level": 60,
+            "unlock": [
+                "duty.dutyraid-finder.raids.hw.12",
+                "duty.dutyraid-finder.raids.hw.13",
+                "duty.dutyraid-finder.raids.hw.14",
+                "duty.dutyraid-finder.raids.hw.15"
+            ],
+            "cPrev": [
+                "duty.quests.chronicles-of-a-new-era.alexander.67789"
+            ]
+        },
+        "x67876": {
+            "level": 60,
+            "unlock": [
+                "duty.dutyraid-finder.raids.hw.16",
+                "duty.dutyraid-finder.raids.hw.17",
+                "duty.dutyraid-finder.raids.hw.18",
+                "duty.dutyraid-finder.raids.hw.19"
+            ],
+            "cPrev": [
+                "duty.quests.chronicles-of-a-new-era.alexander.67875"
             ]
         },
         "x68722": {

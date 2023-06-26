@@ -1,0 +1,89 @@
+{
+    "key": "even-further-hildibrand-adventures",
+    "tasks": {
+        "x68544": {
+            "level": 70,
+            "cPrev": [
+                "duty.quests.sidequests.hildibrand-sidequests.further-hildibrand-adventures.67908",
+                "duty.quests.main-scenario.stormblood.68089"
+            ],
+            "cNext": [
+                68556
+            ]
+        },
+        "x68556": {
+            "level": 70,
+            "cPrev": [
+                68544
+            ],
+            "cNext": [
+                68557
+            ]
+        },
+        "x68557": {
+            "level": 70,
+            "cPrev": [
+                68556
+            ],
+            "cNext": [
+                68630
+            ]
+        },
+        "x68630": {
+            "level": 70,
+            "cPrev": [
+                68557
+            ],
+            "cNext": [
+                68631
+            ]
+        },
+        "x68631": {
+            "level": 70,
+            "cPrev": [
+                68630
+            ],
+            "cNext": [
+                68686
+            ]
+        },
+        "x68686": {
+            "level": 70,
+            "cPrev": [
+                68631
+            ],
+            "cNext": [
+                68687
+            ]
+        },
+        "x68687": {
+            "level": 70,
+            "cPrev": [
+                68686
+            ],
+            "cNext": [
+                68703
+            ]
+        },
+        "x68703": {
+            "level": 70,
+            "unlock": "duty.dutyraid-finder.trials.sb.14",
+            "cPrev": [
+                68687
+            ],
+            "cNext": [
+                68704
+            ]
+        },
+        "x68704": {
+            "level": 70,
+            "cPrev": [
+                68703
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.2234",
+                "social.emotes.special.198"
+            ]
+        }
+    }
+}

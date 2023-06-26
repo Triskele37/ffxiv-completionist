@@ -48,7 +48,7 @@ export class SearchService {
     doAppSearch(searchTerm: string): void {
         this.searchTerm = searchTerm?.toLowerCase().replace(/[^a-z0-9 ]/g, '');
 
-        if(!this.searchTerm || this.searchTerm.length < 3) {
+        if(!this.searchTerm || this.searchTerm.length < 2) {
             this.searchStatus$.next(Status.Failure);
             this.searchError$.next(this.translate.instant('MAIN.SEARCH.TOO_SHORT'));
         }

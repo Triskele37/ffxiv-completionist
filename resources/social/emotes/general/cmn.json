@@ -76,9 +76,9 @@
         },
         "x127": {
             "patch": "3.3",
-            "source": "duty.quests.sidequests.side-story.tales-of-the-dragonsong-war.67015",
+            "source": "duty.quests.sidequests.chronicles-of-light.tales-of-the-dragonsong-war.67015",
             "cSiblings": [
-                "duty.quests.sidequests.side-story.tales-of-the-dragonsong-war.67015"
+                "duty.quests.sidequests.chronicles-of-light.tales-of-the-dragonsong-war.67015"
             ]
         },
         "x246": {
@@ -86,9 +86,9 @@
         },
         "x194": {
             "patch": "4.5",
-            "source": "duty.quests.sidequests.side-story.stormblood-tribal-quests.68700",
+            "source": "duty.quests.tribal-quests.tribal-alliance-quests.stormblood-tribal-quests.68700",
             "cSiblings": [
-                "duty.quests.sidequests.side-story.stormblood-tribal-quests.68700"
+                "duty.quests.tribal-quests.tribal-alliance-quests.stormblood-tribal-quests.68700"
             ]
         },
         "x195": {
@@ -126,9 +126,19 @@
             "patch": "5.4",
             "cSiblings": [224, 225, 226]
         },
+        "x252": {
+            "patch": "6.35",
+            "source": "duty.quests.tribal-quests.loporrit.70222",
+            "cSiblings": [
+                "duty.quests.tribal-quests.loporrit.70222"
+            ]
+        },
         "x245": {
             "patch": "6.2",
             "defaultCompletion": "X"
+        },
+        "x256": {
+            "patch": "6.3"
         },
         "x171": {
             "patch": "4.2"
@@ -195,6 +205,9 @@
             "patch": "4.3",
             "defaultCompletion": "X"
         },
+        "x250": {
+            "patch": "6.3"
+        },
         "x191": {
             "patch": "4.4"
         },
@@ -243,6 +256,9 @@
         "x229": {
             "patch": "5.5",
             "defaultCompletion": "X"
+        },
+        "x251": {
+            "patch": "6.3"
         },
         "x238": {
             "patch": "6.1"

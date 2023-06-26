@@ -312,6 +312,15 @@
             "cPrev": [
                 "duty.quests.main-scenario.shadowbringers.68856"
             ]
+        },
+        "x70252": {
+            "level": 80,
+            "cPrev": ["duty.quests.sidequests.lakeland.the-crystarium.70251"],
+            "cNext": [70253]
+        },
+        "x70253": {
+            "level": 80,
+            "cPrev": [70252]
         }
     }
 }

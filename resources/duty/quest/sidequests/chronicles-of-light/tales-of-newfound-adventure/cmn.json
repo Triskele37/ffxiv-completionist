@@ -1,0 +1,19 @@
+{
+    "key": "tales-of-newfound-adventure",
+    "tasks": {
+        "x70196": {
+            "level": 90,
+            "cPrev": [
+                "duty.quests.main-scenario.post-endwalker.70136"
+            ],
+            "cNext": [70197]
+        },
+        "x70197": {
+            "level": 90,
+            "cPrev": [
+                "duty.quests.main-scenario.post-endwalker.70214",
+                70196
+            ]
+        }
+    }
+}

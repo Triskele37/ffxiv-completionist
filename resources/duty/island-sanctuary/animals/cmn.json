@@ -94,6 +94,14 @@
             "time": "18:00 - 21:00",
             "weather": "WEATHER.FOG"
         },
+        "x29": {
+            "size": "ISLAND.ANIMAL_SIZE.SMALL",
+            "commonLeaving": "duty.island-sanctuary.isleventory.leavings.5",
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.6",
+            "location": "(19, 19)",
+            "time": "03:00 - 06:00",
+            "weather": "WEATHER.CLOUDS"
+        },
         "x12": {
             "size": "ISLAND.ANIMAL_SIZE.MEDIUM",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.4",
@@ -154,6 +162,14 @@
             "time": "12:00 - 15:00",
             "weather": "WEATHER.FAIR_SKIES"
         },
+        "x30": {
+            "size": "ISLAND.ANIMAL_SIZE.MEDIUM",
+            "commonLeaving": "duty.island-sanctuary.isleventory.leavings.6",
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.2",
+            "location": "(15, 14)",
+            "time": "18:00 - 21:00",
+            "weather": "WEATHER.FAIR_SKIES"
+        },
         "x21": {
             "size": "ISLAND.ANIMAL_SIZE.LARGE",
             "commonLeaving": "duty.island-sanctuary.isleventory.leavings.8",
@@ -208,6 +224,14 @@
             "location": "(33, 16)",
             "time": "09:00 - 12:00",
             "weather": "WEATHER.CLOUDS"
+        },
+        "x31": {
+            "size": "ISLAND.ANIMAL_SIZE.LARGE",
+            "commonLeaving": "duty.island-sanctuary.isleventory.leavings.3",
+            "chanceLeaving": "duty.island-sanctuary.isleventory.leavings.1",
+            "location": "(15, 22)",
+            "time": "15:00 - 18:00",
+            "weather": "WEATHER.CLEAR_SKIES"
         }
     }
 }

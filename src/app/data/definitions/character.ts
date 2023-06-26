@@ -37,6 +37,7 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                 'lucis-tools',
                 'skysteel-tools',
                 'resplendent-tools',
+                'splendorous-tools',
             ]
         },
         {
@@ -72,6 +73,7 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                         'page-10',
                         'page-11',
                         'page-12',
+                        'page-13',
                         'last-page',
                     ]
                 },
@@ -131,6 +133,7 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                         'resistance-weapons',
                         'manderville-weapons',
                         'skysteel-tools',
+                        'splendorous-tools',
                     ]
                 },
                 {
@@ -154,6 +157,8 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                     path: 'quests',
                     subGroups: [
                         'quests',
+                        'main-scenario',
+                        'job-role-quests',
                         'levequests',
                         'tribal-quests',
                         'seasonal-events',

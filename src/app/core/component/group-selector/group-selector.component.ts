@@ -33,12 +33,11 @@ export class GroupSelectorComponent implements OnInit {
             if(group.subGroups) {
                 menuItem.items = this.addGroup(group.subGroups);
             }
-            else {
-                menuItem.command = () => {
-                    this.group = group;
-                    this.onGroupChange.emit(group);
-                };
-            }
+
+            menuItem.command = () => {
+                this.group = group;
+                this.onGroupChange.emit(group);
+            };
 
             items.push(menuItem);
         });

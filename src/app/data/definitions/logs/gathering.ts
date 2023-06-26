@@ -40,6 +40,7 @@ export const GATHERING_LOG_DEFINITION: GroupDefinition = {
                 {
                     path: 'spearfishing',
                     subGroups: [
+                        'la-noscea',
                         'gyr-abania',
                         'othard',
                         'norvrandt',
@@ -53,11 +54,11 @@ export const GATHERING_LOG_DEFINITION: GroupDefinition = {
             subGroups: [
                 {
                     path: 'fishing',
-                    subGroups: makePages(47)
+                    subGroups: makePages(12)
                 },
                 {
                     path: 'spearfishing',
-                    subGroups: makePages(10)
+                    subGroups: makePages(3)
                 }
             ]
         }
@@ -118,10 +119,11 @@ function makeGatherer(path: string) {
                 ]
             },
             {
-                path: 'ishgard-restoration',
+                path: 'sidequests',
                 subGroups: [
-                    'ishgard-restoration',
+                    'splendorous-tools',
                     'skysteel-tools',
+                    'ishgard-restoration',
                 ]
             }
         ]

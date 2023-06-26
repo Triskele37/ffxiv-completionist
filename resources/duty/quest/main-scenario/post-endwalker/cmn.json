@@ -89,7 +89,8 @@
             "cPrev": [
                 70070
             ],
-            "cNext": [70128]
+            "cNext": [70128],
+            "cSiblings": ["character.achievement.quests.main-scenario.3075"]
         },
         "x70128": {
             "level": 90,
@@ -137,8 +138,58 @@
             "level": 90,
             "cPrev": [70135],
             "cNext": [
-                "duty.quests.sidequests.side-story.tales-of-newfound-adventure.70196"
-            ]
+                "duty.quests.sidequests.chronicles-of-light.tales-of-newfound-adventure.70196",
+                70206
+            ],
+            "cSiblings": ["character.achievement.quests.main-scenario.3105"]
+        },
+        "x70206": {
+            "level": 90,
+            "cPrev": [70136],
+            "cNext": [70207]
+        },
+        "x70207": {
+            "level": 90,
+            "cPrev": [70206],
+            "cNext": [70208]
+        },
+        "x70208": {
+            "level": 90,
+            "cPrev": [70207],
+            "cNext": [70209]
+        },
+        "x70209": {
+            "level": 90,
+            "cPrev": [70208],
+            "cNext": [70210]
+        },
+        "x70210": {
+            "level": 90,
+            "cPrev": [70209],
+            "cNext": [70211]
+        },
+        "x70211": {
+            "level": 90,
+            "cPrev": [70210],
+            "cNext": [70212]
+        },
+        "x70212": {
+            "level": 90,
+            "cPrev": [70211],
+            "cNext": [70213]
+        },
+        "x70213": {
+            "level": 90,
+            "cPrev": [70212],
+            "cNext": [70214]
+        },
+        "x70214": {
+            "level": 90,
+            "cPrev": [70213],
+            "cNext": [
+                "duty.quests.sidequests.chronicles-of-light.tales-of-newfound-adventure.70197"
+            ],
+            "cSiblings": ["character.achievement.quests.main-scenario.3157"]
         }
     }
 }

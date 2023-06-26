@@ -1,0 +1,26 @@
+{
+    "key": "manderville-weapons",
+    "tasks": {
+        "x70188": {
+            "level": 90,
+            "cPrev": ["duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70178"],
+            "cNext": [70189, 70261]
+        },
+        "x70189": {
+            "level": 90,
+            "cPrev": [70188]
+        },
+        "x70261": {
+            "level": 90,
+            "cPrev": [
+                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70255",
+                70188
+            ],
+            "cNext": [70262]
+        },
+        "x70262": {
+            "level": 90,
+            "cPrev": [70261, 70189]
+        }
+    }
+}

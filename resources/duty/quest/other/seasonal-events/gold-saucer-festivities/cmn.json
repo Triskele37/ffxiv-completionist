@@ -130,6 +130,25 @@
                 66064,
                 66082
             ]
+        },
+        "x70263": {
+            "level": 15,
+            "year": "2023",
+            "cPrevAny": true,
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66043",
+                66064,
+                66082
+            ],
+            "cNext": [70264]
+        },
+        "x70264": {
+            "level": 15,
+            "year": "2023",
+            "cPrev": [70263],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3206"
+            ]
         }
     }
 }

@@ -1,0 +1,81 @@
+{
+    "key": "further-hildibrand-adventures",
+    "tasks": {
+        "x67762": {
+            "level": 60,
+            "cPrev": [
+                "duty.quests.sidequests.hildibrand-sidequests.hildibrand.66038",
+                "duty.quests.main-scenario.heavensward.67205"
+            ],
+            "cNext": [
+                67763
+            ]
+        },
+        "x67763": {
+            "level": 60,
+            "cPrev": [
+                67762
+            ],
+            "cNext": [
+                67764
+            ]
+        },
+        "x67764": {
+            "level": 60,
+            "cPrev": [
+                67763
+            ],
+            "cNext": [
+                67765
+            ]
+        },
+        "x67765": {
+            "level": 60,
+            "cPrev": [
+                67764
+            ],
+            "cNext": [
+                67905
+            ]
+        },
+        "x67905": {
+            "level": 60,
+            "cPrev": [
+                67765
+            ],
+            "cNext": [
+                67906
+            ]
+        },
+        "x67906": {
+            "level": 60,
+            "cPrev": [
+                67905
+            ],
+            "cNext": [
+                67907
+            ]
+        },
+        "x67907": {
+            "level": 60,
+            "cPrev": [
+                67906
+            ],
+            "cNext": [
+                67908
+            ]
+        },
+        "x67908": {
+            "level": 60,
+            "cPrev": [
+                67907
+            ],
+            "cNext": [
+                "duty.quests.sidequests.hildibrand-sidequests.even-further-hildibrand-adventures.68544"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1693"
+            ]
+        }
+    }
+}

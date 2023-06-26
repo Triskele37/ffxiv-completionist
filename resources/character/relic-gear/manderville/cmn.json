@@ -5,97 +5,230 @@
         "x0": {
             "job": "CLASS_JOB.PLD",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3128"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3128"],
+            "cNext": [19]
+        },
+        "x19": {
+            "job": "CLASS_JOB.PLD",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3224"],
+            "cPrev": [0]
         },
         "x1": {
             "job": "CLASS_JOB.WAR",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3129"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3129"],
+            "cNext": [20]
+        },
+        "x20": {
+            "job": "CLASS_JOB.WAR",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3226"],
+            "cPrev": [1]
         },
         "x2": {
             "job": "CLASS_JOB.DRK",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3130"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3130"],
+            "cNext": [21]
+        },
+        "x21": {
+            "job": "CLASS_JOB.DRK",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3234"],
+            "cPrev": [2]
         },
         "x3": {
             "job": "CLASS_JOB.GNB",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3131"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3131"],
+            "cNext": [22]
+        },
+        "x22": {
+            "job": "CLASS_JOB.GNB",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3239"],
+            "cPrev": [3]
         },
         "x4": {
             "job": "CLASS_JOB.DRG",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3132"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3132"],
+            "cNext": [23]
+        },
+        "x23": {
+            "job": "CLASS_JOB.DRG",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3227"],
+            "cPrev": [4]
         },
         "x5": {
             "job": "CLASS_JOB.MNK",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3133"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3133"],
+            "cNext": [24]
+        },
+        "x24": {
+            "job": "CLASS_JOB.MNK",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3225"],
+            "cPrev": [5]
         },
         "x6": {
             "job": "CLASS_JOB.NIN",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3134"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3134"],
+            "cNext": [25]
+        },
+        "x25": {
+            "job": "CLASS_JOB.NIN",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3229"],
+            "cPrev": [6]
         },
         "x7": {
             "job": "CLASS_JOB.SAM",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3135"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3135"],
+            "cNext": [26]
+        },
+        "x26": {
+            "job": "CLASS_JOB.SAM",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3237"],
+            "cPrev": [7]
         },
         "x8": {
             "job": "CLASS_JOB.RPR",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3136"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3136"],
+            "cNext": [27]
+        },
+        "x27": {
+            "job": "CLASS_JOB.RPR",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3241"],
+            "cPrev": [8]
         },
         "x9": {
             "job": "CLASS_JOB.BRD",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3137"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3137"],
+            "cNext": [28]
+        },
+        "x28": {
+            "job": "CLASS_JOB.BRD",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3228"],
+            "cPrev": [9]
         },
         "x10": {
             "job": "CLASS_JOB.MCH",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3138"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3138"],
+            "cNext": [29]
+        },
+        "x29": {
+            "job": "CLASS_JOB.MCH",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3235"],
+            "cPrev": [10]
         },
         "x11": {
             "job": "CLASS_JOB.DNC",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3139"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3139"],
+            "cNext": [30]
+        },
+        "x30": {
+            "job": "CLASS_JOB.DNC",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3240"],
+            "cPrev": [11]
         },
         "x12": {
             "job": "CLASS_JOB.BLM",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3140"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3140"],
+            "cNext": [31]
+        },
+        "x31": {
+            "job": "CLASS_JOB.BLM",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3231"],
+            "cPrev": [12]
         },
         "x13": {
             "job": "CLASS_JOB.SMN",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3141"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3141"],
+            "cNext": [32]
+        },
+        "x32": {
+            "job": "CLASS_JOB.SMN",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3232"],
+            "cPrev": [13]
         },
         "x14": {
             "job": "CLASS_JOB.RDM",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3142"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3142"],
+            "cNext": [33]
+        },
+        "x33": {
+            "job": "CLASS_JOB.RDM",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3238"],
+            "cPrev": [14]
         },
         "x15": {
             "job": "CLASS_JOB.WHM",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3143"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3143"],
+            "cNext": [34]
+        },
+        "x34": {
+            "job": "CLASS_JOB.WHM",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3230"],
+            "cPrev": [15]
         },
         "x16": {
             "job": "CLASS_JOB.SCH",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3144"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3144"],
+            "cNext": [35]
+        },
+        "x35": {
+            "job": "CLASS_JOB.SCH",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3233"],
+            "cPrev": [16]
         },
         "x17": {
             "job": "CLASS_JOB.AST",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3145"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3145"],
+            "cNext": [36]
+        },
+        "x36": {
+            "job": "CLASS_JOB.AST",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3236"],
+            "cPrev": [17]
         },
         "x18": {
             "job": "CLASS_JOB.SGE",
             "iLevel": "615",
-            "cSiblings": ["character.achievement.items.manderville-weapons.3146"]
+            "cSiblings": ["character.achievement.items.manderville-weapons.3146"],
+            "cNext": [37]
+        },
+        "x37": {
+            "job": "CLASS_JOB.SGE",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.manderville-weapons.3242"],
+            "cPrev": [18]
         }
     }
 }

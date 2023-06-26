@@ -140,7 +140,9 @@ export class BookmarkService {
 
             // Add the bookmarked group to this group
             const group: DataGroup = this.svcData.data.getChildGroup(path);
-            if(group) this.group.subGroups.set(group._key, group);
+            if(group?.fullStorageKey === fullStorageKey) {
+                this.group.subGroups.set(group._key, group);
+            }
             else {
                 console.error('Unable to find bookmarked group:', path);
             }

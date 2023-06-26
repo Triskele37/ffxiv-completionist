@@ -1,9 +1,11 @@
 ------------------------------------------------------------------ ToDo
 **Add**
+- Feedback on Random view when selected group has no incomplete tasks
 - Attempt to get CSP working
 - Custom application container, specifically title bar
 - Chain Viewer
 - coordinate viewer (maps)
+- Fishing hole viewer
 - Installation
     - auto-update
 - Tracker (see Ctrl+U menu)
@@ -33,12 +35,13 @@
     - Completion
     - Class/Job
     - Zone
+- Recreate p-breadcrumbs
+  - Make the arrows dropdowns with all subGroups for the previous group
 
 **Change**
 - replace most of Guide with Active Help
 
 **Fix**
-- Quick-Mark disappears in win 11 after show all enabled?
 
 **Check**
 - Title achievement links
@@ -54,3 +57,4 @@
 - Title Order
   - Starts going out of wack at or under "Master of the Sea"
   - Titles below "Risensung X" and above "Saint x" might belong there
+- Some Titles may be seasonal events and un'X'd

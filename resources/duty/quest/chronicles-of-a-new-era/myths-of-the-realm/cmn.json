@@ -31,9 +31,28 @@
         },
         "x70075": {
             "level": 90,
-            "cPrev": [
-                70074
-            ]
+            "cPrev": [70074],
+            "cNext": [70202]
+        },
+        "x70202": {
+            "level": 90,
+            "unlock": "duty.dutyraid-finder.raids.ew.18",
+            "cPrev": [70075],
+            "cNext": [70203]
+        },
+        "x70203": {
+            "level": 90,
+            "cPrev": [70202],
+            "cNext": [70204]
+        },
+        "x70204": {
+            "level": 90,
+            "cPrev": [70203],
+            "cNext": [70205]
+        },
+        "x70205": {
+            "level": 90,
+            "cPrev": [70204]
         }
     }
 }
