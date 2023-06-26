@@ -1,5 +1,6 @@
 ------------------------------------------------------------------ ToDo
 **Add**
+- Feedback on Random view when selected group has no incomplete tasks
 - Attempt to get CSP working
 - Custom application container, specifically title bar
 - Chain Viewer
