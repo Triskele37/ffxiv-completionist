@@ -10,7 +10,8 @@
                 "duty.quests.sidequests.mare-lamentorum.mare-lamentorum.70055",
                 "duty.quests.main-scenario.endwalker.70000"
             ],
-            "cNext": [70218]
+            "cNext": [70218],
+            "cSiblings": ["character.character.tribal-relations.104"]
         },
         "x70218": {
             "level": 80,
@@ -19,7 +20,7 @@
             "patch":  "6.3",
             "cPrev": [70217],
             "cNext": [70219],
-            "cSiblings": ["character.character.tribal-relations.104"]
+            "cSiblings": ["character.character.tribal-relations.105"]
         },
         "x70219": {
             "level": 80,
@@ -28,7 +29,7 @@
             "patch": "6.3",
             "cPrev": [70218],
             "cNext": [70220],
-            "cSiblings": ["character.character.tribal-relations.105"]
+            "cSiblings": ["character.character.tribal-relations.106"]
         },
         "x70220": {
             "level": 80,
@@ -37,7 +38,7 @@
             "patch": "6.3",
             "cPrev": [70219],
             "cNext": [70221],
-            "cSiblings": ["character.character.tribal-relations.106"]
+            "cSiblings": ["character.character.tribal-relations.107"]
         },
         "x70221": {
             "level": 80,
@@ -46,7 +47,7 @@
             "patch": "6.3",
             "cPrev": [70220],
             "cNext": [70222],
-            "cSiblings": ["character.character.tribal-relations.107"]
+            "cSiblings": ["character.character.tribal-relations.108"]
         },
         "x70222": {
             "level": 80,
@@ -54,7 +55,10 @@
             "reputation": "REPUTATION.7",
             "patch": "6.3",
             "cPrev": [70221],
-            "cSiblings": ["character.character.tribal-relations.108"]
+            "cSiblings": [
+                "character.character.tribal-relations.109",
+                "social.emotes.general.252"
+            ]
         },
 
         "x70223": {

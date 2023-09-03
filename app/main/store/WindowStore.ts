@@ -1,4 +1,4 @@
-import { BrowserWindow, IpcMainEvent, screen } from 'electron';
+import { BrowserWindow, IpcMainEvent, Rectangle, screen } from 'electron';
 import * as path from 'path';
 import * as fs from 'fs';
 import * as url from 'url';
@@ -130,6 +130,8 @@ export class WindowStore {
     static loadWindowState() {
         if(!ConfigStore.store) ConfigStore.load();
 
+        WindowStore.pointInAnyWindow(ConfigStore.store.window);
+
         if(!ConfigStore.store.window) {
             const primaryDisplay = screen.getPrimaryDisplay();
 
@@ -155,5 +157,10 @@ export class WindowStore {
     }
 
     //#endregion
+
+    static pointInAnyWindow(rect: Rectangle) {
+        const test = screen.getDisplayMatching({ x: 0, y: 0, height: 100, width: 100 });
+        console.log(test);
+    }
 
 }
