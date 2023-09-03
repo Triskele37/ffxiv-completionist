@@ -7,6 +7,12 @@
         ></p-button>
 
         <p-button
+            icon="material-icons mi-arrow-upward"
+            [disabled]="!(svcNavigation.selectedGroup$ | async)._parent"
+            (onClick)="goToParent()"
+        ></p-button>
+
+        <p-button
             icon="material-icons mi-history"
             (onClick)="op.toggle($event)"
         ></p-button>

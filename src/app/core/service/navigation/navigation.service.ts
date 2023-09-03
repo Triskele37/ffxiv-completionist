@@ -93,6 +93,13 @@ export class NavigationService {
     //#endregion
 
     //#region------------------------------------------------ Breadcrumbs
+    popCrumbsOnce(): void {
+        const breadcrumbs = this.breadcrumbs$.value;
+        breadcrumbs.pop();
+
+        this.setBreadcrumbs(breadcrumbs);
+    }
+
     popCrumbsUntil(index: number): void {
         // Step backward through breadcrumbs, pop until index is hit
         const breadcrumbs = this.breadcrumbs$.value;

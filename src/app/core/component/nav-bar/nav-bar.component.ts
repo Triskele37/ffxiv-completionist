@@ -40,6 +40,10 @@ export class NavBarComponent implements OnInit, OnDestroy {
         this.svcNavigation.setBreadcrumbs(group.fullStorageKey.split('.'));
     }
 
+    goToParent(): void {
+        this.svcNavigation.popCrumbsOnce();
+    }
+
     // Handler for when breadcrumbs$ changes
     onSelectedGroupChange(selectedGroup: DataGroup): void {
         this.items = selectedGroup.groupPath.map((breadcrumb, index) => ({
