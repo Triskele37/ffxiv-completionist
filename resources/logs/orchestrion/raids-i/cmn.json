@@ -1,244 +1,382 @@
 {
     "key": "raids-i",
+    "common": ["category", "location", "source"],
     "tasks": {
         "x0": {
             "number": "1",
+            "category": "CATEGORY.CRAFTING",
+            "source": "duty.dutyraid-finder.raids.arr.17",
             "patch": "3.25"
         },
         "x1": {
             "number": "2",
+            "category": "CATEGORY.CRAFTING",
+            "source": "duty.dutyraid-finder.raids.arr.17",
             "patch": "3.25"
         },
         "x2": {
             "number": "3",
+            "category": "CATEGORY.CRAFTING",
+            "source": "duty.dutyraid-finder.raids.arr.18",
             "patch": "3.25"
         },
         "x3": {
             "number": "4",
+            "category": "CATEGORY.CRAFTING",
+            "source": "duty.dutyraid-finder.raids.arr.18",
             "patch": "3.25"
         },
         "x4": {
             "number": "5",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.arr.18",
             "patch": "4.2"
         },
         "x5": {
             "number": "6",
+            "category": "CATEGORY.CRAFTING",
+            "source": "duty.dutyraid-finder.raids.arr.19",
             "patch": "3.25"
         },
         "x6": {
             "number": "7",
+            "category": "CATEGORY.CRAFTING",
+            "source": "duty.dutyraid-finder.raids.arr.19",
             "patch": "3.25"
         },
         "x7": {
             "number": "8",
+            "category": "CATEGORY.CRAFTING",
+            "source": [
+                "duty.dutyraid-finder.raids.arr.17",
+                "duty.dutyraid-finder.raids.arr.18",
+                "duty.dutyraid-finder.raids.arr.19"
+            ],
             "patch": "3.25"
         },
         "x8": {
             "number": "9",
+            "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.KUPO_OF_FORTUNE"],
+            "location": "ZONE.THE_FIRMAMENT",
+            "source": ["duty.treasure-hunt.100", "CATEGORY.KUPO_OF_FORTUNE"],
             "patch": "3.4"
         },
         "x9": {
             "number": "10",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.THE_GOLD_SAUCER",
             "patch": "3.5"
         },
         "x10": {
             "number": "11",
+            "category": "CATEGORY.CRAFTING",
+            "source": "duty.dutyraid-finder.raids.arr.4",
             "patch": "3.25"
         },
         "x11": {
             "number": "12",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.THE_GOLD_SAUCER",
             "patch": "3.5"
         },
         "x12": {
             "number": "13",
+            "category": "CATEGORY.CRAFTING",
+            "source": "duty.dutyraid-finder.raids.arr.8",
             "patch": "3.25"
         },
         "x13": {
             "number": "14",
+            "category": "CATEGORY.CRAFTING",
+            "source": "duty.dutyraid-finder.raids.arr.11",
             "patch": "3.25"
         },
         "x14": {
             "number": "15",
+            "category": "CATEGORY.CRAFTING",
+            "source": [
+                "duty.dutyraid-finder.raids.arr.4",
+                "duty.dutyraid-finder.raids.arr.8",
+                "duty.dutyraid-finder.raids.arr.12"
+            ],
             "patch": "3.25"
         },
         "x15": {
             "number": "16",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.OLD_GRIDANIA",
             "patch": "4.45"
         },
         "x16": {
             "number": "17",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.IDYLLSHIRE",
             "patch": "3.5"
         },
         "x17": {
             "number": "18",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.IDYLLSHIRE",
             "patch": "3.5"
         },
         "x18": {
             "number": "19",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.IDYLLSHIRE",
             "patch": "3.5"
         },
         "x19": {
             "number": "20",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.IDYLLSHIRE",
             "patch": "3.5"
         },
         "x20": {
             "number": "21",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.the-shadow-of-mhach.67909",
             "patch": "3.5"
         },
         "x21": {
             "number": "22",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.the-shadow-of-mhach.67909",
             "patch": "3.5"
         },
         "x22": {
             "number": "23",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.alexander.67875",
             "patch": "3.4"
         },
         "x23": {
             "number": "24",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.alexander.67875",
             "patch": "3.4"
         },
         "x24": {
             "number": "25",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.alexander.67875",
             "patch": "3.4"
         },
         "x25": {
             "number": "26",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.alexander.67875",
             "patch": "3.4"
         },
         "x26": {
             "number": "27",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.alexander.67873",
             "patch": "3.4"
         },
         "x27": {
             "number": "28",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.alexander.67874",
             "patch": "3.4"
         },
         "x28": {
             "number": "29",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.IDYLLSHIRE",
             "patch": "3.5"
         },
         "x29": {
             "number": "30",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.26",
             "patch": "4.1"
         },
         "x30": {
             "number": "31",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.26",
             "patch": "4.1"
         },
         "x31": {
             "number": "32",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.26",
             "patch": "4.1"
         },
         "x32": {
             "number": "33",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68540",
             "patch": "4.1"
         },
         "x33": {
             "number": "34",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68540",
             "patch": "4.1"
         },
         "x34": {
             "number": "35",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68627",
             "patch": "4.3"
         },
         "x35": {
             "number": "36",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68628",
             "patch": "4.3"
         },
         "x36": {
             "number": "37",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.27",
             "patch": "4.3"
         },
         "x37": {
             "number": "38",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.27",
             "patch": "4.3"
         },
         "x38": {
             "number": "39",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.27",
             "patch": "4.3"
         },
         "x39": {
             "number": "40",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68725",
             "patch": "4.45"
         },
         "x40": {
             "number": "41",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68725",
             "patch": "4.45"
         },
         "x41": {
             "number": "42",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.28",
             "patch": "4.45"
         },
         "x42": {
             "number": "43",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.28",
             "patch": "4.45"
         },
         "x43": {
             "number": "44",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.28",
             "patch": "4.45"
         },
         "x44": {
             "number": "45",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.28",
             "patch": "4.45"
         },
         "x45": {
             "number": "46",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.28",
             "patch": "4.45"
         },
         "x46": {
             "number": "47",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.omega.68691",
             "patch": "4.4"
         },
         "x47": {
             "number": "48",
+            "category": "CATEGORY.RAID",
+            "source": [
+                "duty.dutyraid-finder.raids.sb.0",
+                "duty.dutyraid-finder.raids.sb.1",
+                "duty.dutyraid-finder.raids.sb.2"
+            ],
             "patch": "4.4"
         },
         "x48": {
             "number": "49",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.3",
             "patch": "4.4"
         },
         "x49": {
             "number": "50",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.RHALGRS_REACH",
             "patch": "4.4"
         },
         "x50": {
             "number": "51",
+            "category": "CATEGORY.RAID",
+            "source": [
+                "duty.dutyraid-finder.raids.sb.9",
+                "duty.dutyraid-finder.raids.sb.10",
+                "duty.dutyraid-finder.raids.sb.11"
+            ],
             "patch": "4.4"
         },
         "x51": {
             "number": "52",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.12",
             "patch": "4.4"
         },
         "x52": {
             "number": "53",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.12",
             "patch": "4.4"
         },
         "x53": {
             "number": "54",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.12",
             "patch": "4.4"
         },
         "x54": {
             "number": "55",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.RHALGRS_REACH",
             "patch": "4.4"
         },
         "x55": {
             "number": "56",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.18",
             "patch": "4.4"
         },
         "x56": {
             "number": "57",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.19",
             "patch": "4.4"
         },
         "x57": {
             "number": "58",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.20",
             "patch": "4.4"
         },
         "x58": {
             "number": "59",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.sb.21",
             "patch": "4.4"
         },
         "x59": {
             "number": "60",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.RHALGRS_REACH",
             "patch": "4.4"
         }
     }

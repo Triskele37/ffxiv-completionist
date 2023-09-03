@@ -376,10 +376,11 @@
                 "ADD": {
                     "L1": "Resources up to FFXIV 6.48",
                     "L2": "Excluded star for groups with no unexcluded tasks",
-                    "L3": "\"Go to parent\" button in navigation bar"
+                    "L3": "\"Go to parent\" button in navigation bar",
+                    "L4": "Treasure Hunt Duties"
                 },
                 "CHANGE": {
-                    "L1": ""
+                    "L1": "Reworked Orchestrion data"
                 },
                 "FIX": {
                     "L1": "Various data/chain corrections",
@@ -639,20 +640,24 @@
             "EASTERN_THANALAN": "Eastern Thanalan",
             "SOUTHERN_THANALAN": "Southern Thanalan",
             "NORTHERN_THANALAN": "Northern Thanalan",
+            "THE_WAKING_SANDS": "The Waking Sands",
             "THE_GOLD_SAUCER": "The Gold Saucer",
             "CHOCOBO_SQUARE": "Chocobo Square",
             "BATTLE_HALL": "The Triple Triad Battlehall",
-            "COERTHAS_CENTRAL": "Coerthas Central Highlands",
-            "MOR_DHONA": "Mor Dhona",
+            "COERTHAS_CENTRAL_HIGHLANDS": "Coerthas Central Highlands",
+            "COERTHAS_WESTERN_HIGHLANDS": "Coerthas Western Highlands",
             "FOUNDATION": "Foundation",
             "THE_PILLARS": "The Pillars",
+            "THE_FIRMAMENT": "The Firmament",
+            "EMPYREUM": "Empyreum",
             "FORTEMPS_MANOR": "Fortemps Manor",
-            "COERTHAS_WESTERN": "Coerthas Western Highlands",
+            "MOR_DHONA": "Mor Dhona",
             "THE_SEA_OF_CLOUDS": "The Sea of Clouds",
             "AZYS_LLA": "Azys Lla",
             "THE_DRAVANIAN_FORELANDS": "The Dravanian Forelands",
             "THE_CHURNING_MISTS": "The Churning Mists",
             "THE_DRAVANIAN_HINTERLANDS": "The Dravanian Hinterlands",
+            "MATOYAS_CAVE": "Matoya's Cave",
             "IDYLLSHIRE": "Idyllshire",
             "RHALGRS_REACH": "Rhalgr's Reach",
             "THE_FRINGES": "The Fringes",
@@ -664,6 +669,10 @@
             "YANXIA": "Yanxia",
             "THE_AZIM_STEPPE": "The Azim Steppe",
             "THE_DOMAN_ENCLAVE": "The Doman Enclave",
+            "EUREKA_ANEMOS": "Eureka Anemos",
+            "EUREKA_PAGOS": "Eureka Pagos",
+            "EUREKA_PYROS": "Eureka Pyros",
+            "EUREKA_HYDATOS": "Eureka Hydatos",
             "THE_CRYSTARIUM": "The Crystarium",
             "EULMORE": "Eulmore",
             "LAKELAND": "Lakeland",
@@ -684,6 +693,7 @@
             "MARE_LAMENTORUM": "Mare Lamentorum",
             "ELPIS": "Elpis",
             "ULTIMA_THULE": "Ultima Thule",
+            "ISLAND_SANCTUARY": "Island Sanctuary",
             "GALADION_BAY": "Galadion Bay",
             "RHOTANO_SEA": "Rhotano Sea",
             "THE_CIELDALAES": "The Cieldalaes",
@@ -826,6 +836,7 @@
             "BATTLE": "Battle",
             "BEAST_TRIBE": "Beast Tribe",
             "CHARACTER": "Character",
+            "CRAFTING": "Crafting",
             "CRAFTING_GATHERING": "Crafting & Gathering",
             "DAILY": "Daily",
             "DEEP_DUNGEON": "Deep Dungeon",
@@ -835,8 +846,10 @@
             "EXPLORATION": "Exploration",
             "EXPLORATORY_MISSION": "Exploratory Mission",
             "FATE": "FATE",
+            "GATHERING": "Gathering",
             "GRAND_COMPANY": "Grand Company",
             "ITEMS": "Items",
+            "KUPO_OF_FORTUNE": "Kupo of Fortune",
             "LEGACY": "Legacy",
             "MAIN": "Main",
             "OTHER": "Other",
@@ -915,6 +928,21 @@
                 "WAVES": "Waves",
                 "DUEL": "Duel"
             }
+        },
+        "VOYAGE": {
+            "MOERGYNNS_FORGE": "Moergynn's Forge",
+            "THE_MYSTIC_BASIN": "The Mystic Basin",
+            "DEEPSEA_SITE_5": "Deep-sea Site 5",
+            "THE_RIMILALA_SHELF": "The Rimilala Shelf",
+            "FLICKERING_DIP": "Flickering Dip",
+            "BLOODBREAK": "Bloodbreak",
+            "SEA_OF_JADE_5": "Sea of Jade 5",
+            "SIRENSONG_SEA_3":  "Sirensong Sea 3",
+            "SEA_OF_CLOUDS_SECTOR_18": "Sea of Clouds - Sector 18",
+            "SEA_OF_CLOUDS_23": "Sea of Clouds 23",
+            "FORTUNES_FORD":  "Fortune's Ford",
+            "THE_CRYSTAL_FONT": "The Crystal Font",
+            "TANGAROAS_PROW": "Tangaroa's Prow"
         }
     }
 }

@@ -1,60 +1,172 @@
 {
     "key": "ambient",
+    "common": ["category", "location", "source"],
     "tasks": {
         "x0": {
             "number": "1",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "4.0"
         },
         "x1": {
             "number": "2",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "4.0"
         },
         "x2": {
             "number": "3",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "4.0"
         },
         "x3": {
             "number": "4",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "4.0"
         },
         "x4": {
             "number": "5",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "4.1"
         },
         "x5": {
             "number": "6",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "4.1"
         },
         "x6": {
             "number": "7",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "4.1"
         },
         "x7": {
             "number": "8",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "4.2"
         },
         "x8": {
             "number": "9",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "4.2"
         },
         "x9": {
             "number": "10",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "4.2"
         },
         "x10": {
             "number": "11",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "4.2"
         },
         "x11": {
             "number": "12",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "4.3"
         },
         "x12": {
             "number": "13",
+            "category": ["CATEGORY.VOYAGE", "CATEGORY.CRAFTING"],
+            "source": [
+                "VOYAGE.THE_MYSTIC_BASIN",
+                "VOYAGE.DEEPSEA_SITE_5",
+                "VOYAGE.THE_RIMILALA_SHELF",
+                "VOYAGE.FLICKERING_DIP"
+            ],
             "patch": "4.3"
         },
         "x13": {
             "number": "14",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "6.2"
         }
     }

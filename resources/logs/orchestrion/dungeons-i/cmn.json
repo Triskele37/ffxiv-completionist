@@ -1,305 +1,462 @@
 {
     "key": "dungeons-i",
+    "common": ["category", "location", "source"],
     "tasks": {
         "x71": {
             "number": "1",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.0",
             "patch": "6.0"
         },
         "x64": {
             "number": "2",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.2",
             "patch": "5.4"
         },
         "x65": {
             "number": "3",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.3",
             "patch": "5.4"
         },
         "x91": {
             "number": "4",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.4",
             "patch": "6.2"
         },
         "x0": {
             "number": "5",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.5",
             "patch": "5.2"
         },
         "x92": {
             "number": "6",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.6",
             "patch": "6.2"
         },
         "x59": {
             "number": "7",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.8",
             "patch": "5.3"
         },
         "x1": {
             "number": "8",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.10",
             "patch": "5.2"
         },
         "x60": {
             "number": "9",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.14",
             "patch": "5.3"
         },
         "x89": {
             "number": "10",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.GARLEMALD",
             "patch": "6.2"
         },
         "x90": {
             "number": "11",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.GARLEMALD",
             "patch": "6.2"
         },
         "x2": {
             "number": "12",
+            "category": "CATEGORY.CRAFTING",
+            "source": ["duty.dutyraid-finder.dungeons.arr.16", "duty.dutyraid-finder.dungeons.hw.9"],
             "patch": "3.25"
         },
         "x3": {
             "number": "13",
+            "category": "CATEGORY.CRAFTING",
+            "source": ["duty.dutyraid-finder.dungeons.arr.2", "duty.dutyraid-finder.dungeons.arr.17"],
             "patch": "3.25"
         },
         "x4": {
             "number": "14",
+            "category": "CATEGORY.CRAFTING",
+            "source": ["duty.dutyraid-finder.dungeons.arr.19", "duty.dutyraid-finder.dungeons.hw.11"],
             "patch": "3.25"
         },
         "x5": {
             "number": "15",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.20",
             "patch": "4.4"
         },
         "x6": {
             "number": "16",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.6",
             "patch": "5.0"
         },
         "x7": {
             "number": "17",
+            "category": "CATEGORY.DUNGEON",
+            "source": ["duty.dutyraid-finder.dungeons.arr.22", "duty.dutyraid-finder.dungeons.hw.13"],
             "patch": "3.3"
         },
         "x8": {
             "number": "18",
+            "category": "CATEGORY.CRAFTING",
+            "source": ["duty.dutyraid-finder.dungeons.arr.1", "duty.dutyraid-finder.dungeons.arr.24"],
             "patch": "3.25"
         },
         "x9": {
             "number": "19",
+            "category": "CATEGORY.CRAFTING",
+            "source": "duty.dutyraid-finder.dungeons.arr.25",
             "patch": "3.3"
         },
         "x10": {
             "number": "20",
+            "category": "CATEGORY.CRAFTING",
+            "source": ["duty.dutyraid-finder.dungeons.arr.0", "duty.dutyraid-finder.dungeons.arr.26"],
             "patch": "3.25"
         },
         "x11": {
             "number": "21",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.28",
             "patch": "3.4"
         },
         "x12": {
             "number": "22",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.29",
             "patch": "4.4"
         },
         "x83": {
             "number": "23",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.30",
             "patch": "6.1"
         },
         "x63": {
             "number": "24",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.THE_GOLD_SAUCER",
             "patch": "5.4"
         },
         "x62": {
             "number": "25",
+            "category": "CATEGORY.VOYAGE",
+            "source": "VOYAGE.MOERGYNNS_FORGE",
             "patch": "5.4"
         },
         "x29": {
             "number": "26",
+            "category": "CATEGORY.DEEP_DUNGEON",
+            "source": "duty.dutyraid-finder.deep-dungeon.0",
             "patch": "3.45"
         },
         "x31": {
             "number": "27",
+            "category": ["CATEGORY.ACHIEVEMENT", "CATEGORY.PURCHASE"],
+            "source": "character.achievement.battle.dungeons.1656",
             "patch": "3.45"
         },
         "x30": {
             "number": "28",
+            "category": ["CATEGORY.ACHIEVEMENT", "CATEGORY.PURCHASE"],
+            "source": "character.achievement.battle.dungeons.1655",
             "patch": "3.45"
         },
         "x32": {
             "number": "29",
+            "category": ["CATEGORY.ACHIEVEMENT", "CATEGORY.PURCHASE"],
+            "source": "character.achievement.battle.dungeons.1657",
             "patch": "3.45"
         },
         "x82": {
             "number": "30",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.0",
             "patch": "6.1"
         },
         "x15": {
             "number": "31",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.1",
             "patch": "3.4"
         },
         "x70": {
             "number": "32",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.2",
             "patch": "6.0"
         },
         "x87": {
             "number": "33",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.3",
             "patch": "6.2"
         },
         "x16": {
             "number": "34",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.3",
             "patch": "3.5"
         },
         "x88": {
             "number": "35",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.3",
             "patch": "6.2"
         },
         "x17": {
             "number": "36",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.4",
             "patch": "3.3"
         },
         "x18": {
             "number": "37",
+            "category": "CATEGORY.CRAFTING",
+            "source": "duty.dutyraid-finder.dungeons.hw.5",
             "patch": "3.25"
         },
         "x81": {
             "number": "38",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.6",
             "patch": "6.1"
         },
         "x19": {
             "number": "39",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.7",
             "patch": "3.3"
         },
         "x20": {
             "number": "40",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.8",
             "patch": "4.0"
         },
         "x21": {
             "number": "41",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.9",
             "patch": "4.4"
         },
         "x22": {
             "number": "42",
+            "category": "CATEGORY.CRAFTING",
+            "source": "duty.dutyraid-finder.dungeons.hw.10",
             "patch": "3.25"
         },
         "x66": {
             "number": "43",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.10",
             "patch": "5.4"
         },
         "x23": {
             "number": "44",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.11",
             "patch": "4.3"
         },
         "x24": {
             "number": "45",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.12",
             "patch": "3.3"
         },
         "x25": {
             "number": "46",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.post-dragonsong.67878",
             "patch": "3.4"
         },
         "x26": {
             "number": "47",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.15",
             "patch": "4.0"
         },
         "x27": {
             "number": "48",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.post-dragonsong.67890",
             "patch": "3.5"
         },
         "x28": {
             "number": "49",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.sidequests.dravanian.idyllshire.67938",
             "patch": "3.5"
         },
         "x13": {
             "number": "50",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.IDYLLSHIRE",
             "patch": "3.3"
         },
         "x14": {
             "number": "51",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.THE_GOLD_SAUCER",
             "patch": "4.2"
         },
         "x69": {
             "number": "52",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.0",
             "patch": "6.0"
         },
         "x34": {
             "number": "53",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.1",
             "patch": "4.1"
         },
         "x35": {
             "number": "54",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.2",
             "patch": "4.1"
         },
         "x36": {
             "number": "55",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.3",
             "patch": "4.3"
         },
         "x37": {
             "number": "56",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.4",
             "patch": "5.0"
         },
         "x38": {
             "number": "57",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.5",
             "patch": "4.2"
         },
         "x39": {
             "number": "58",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.6",
             "patch": "4.1"
         },
         "x40": {
             "number": "59",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.7",
             "patch": "4.2"
         },
         "x41": {
             "number": "60",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.8",
             "patch": "4.1"
         },
         "x42": {
             "number": "61",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.9",
             "patch": "4.2"
         },
         "x43": {
             "number": "62",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.10",
             "patch": "4.2"
         },
         "x44": {
             "number": "63",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.11",
             "patch": "4.3"
         },
         "x45": {
             "number": "64",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.12",
             "patch": "4.4"
         },
         "x46": {
             "number": "65",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.13",
             "patch": "4.4"
         },
         "x47": {
             "number": "66",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.14",
             "patch": "4.45"
         },
         "x33": {
             "number": "67",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.THE_GOLD_SAUCER",
             "patch": "4.2"
         },
         "x94": {
             "number": "68",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.7",
             "patch": "6.3"
         },
         "x95": {
             "number": "69",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.9",
             "patch": "6.3"
         },
         "x96": {
             "number": "70",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.11",
             "patch": "6.3"
         },
         "x97": {
             "number": "71",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.15",
             "patch": "6.3"
         },
         "x98": {
             "number": "72",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.27",
             "patch": "6.3"
         },
         "x99": {
             "number": "73",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.13",
             "patch": "6.3"
         },
         "x100": {
             "number": "74",
+            "category": "CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.106", "duty.treasure-hunt.107"],
             "patch": "6.3"
         },
         "x101": {
             "number": "75",
+            "category": "CATEGORY.DEEP_DUNGEON",
+            "source": "duty.dutyraid-finder.deep-dungeon.2",
             "patch": "6.35"
+        },
+        "x102": {
+            "number": "76",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.OLD_GRIDANIA",
+            "patch": "6.4"
         }
     }
 }

@@ -3,6 +3,12 @@
     "headers": {
         "number": {
             "width": 100
+        },
+        "location": {
+            "filterable": true
+        },
+        "source": {
+            "link": true
         }
     }
 }

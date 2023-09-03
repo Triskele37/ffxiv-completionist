@@ -1,225 +1,465 @@
 {
     "key": "quests",
+    "common": ["category", "location", "source"],
     "tasks": {
         "x0": {
             "number": "1",
+            "category": "CATEGORY.ACHIEVEMENT",
+            "source": "character.achievement.items.items.1433",
             "patch": "3.25"
         },
         "x18": {
             "number": "2",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.post-dragonsong.67891",
             "patch": "3.5"
         },
         "x29": {
             "number": "3",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.THE_GOLD_SAUCER",
             "patch": "4.2"
         },
         "x77": {
             "number": "4",
+            "category": "CATEGORY.VOYAGE",
+            "source": [
+                "VOYAGE.BLOODBREAK",
+                "VOYAGE.SEA_OF_JADE_5",
+                "VOYAGE.SIRENSONG_SEA_3"
+            ],
             "patch": "5.5"
         },
         "x17": {
             "number": "5",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "3.5"
         },
         "x94": {
             "number": "6",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.NEW_GRIDANIA",
             "patch": "6.2"
         },
         "x95": {
             "number": "7",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
             "patch": "6.2"
         },
         "x96": {
             "number": "8",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.UL_DAH_STEPS_OF_NALD",
             "patch": "6.2"
         },
         "x89": {
             "number": "9",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "6.1"
         },
         "x4": {
             "number": "10",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.THE_GOLD_SAUCER",
             "patch": "3.25"
         },
         "x22": {
             "number": "11",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.post-dragonsong.67892",
             "patch": "3.56"
         },
         "x21": {
             "number": "12",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.post-dragonsong.67894",
             "patch": "3.56"
         },
         "x5": {
             "number": "13",
+            "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.CRAFTING"],
+            "source": [
+                "duty.treasure-hunt.0",
+                "duty.treasure-hunt.1",
+                "duty.treasure-hunt.5",
+                "duty.treasure-hunt.7",
+                "duty.treasure-hunt.8"
+            ],
             "patch": "3.25"
         },
         "x6": {
             "number": "14",
+            "category": ["CATEGORY.VOYAGE", "CATEGORY.CRAFTING"],
+            "source": "VOYAGE.SEA_OF_CLOUDS_23",
             "patch": "3.25"
         },
         "x14": {
             "number": "15",
+            "category": "CATEGORY.ACHIEVEMENT",
+            "source": "character.achievement.items.items.1635",
             "patch": "3.4"
         },
         "x16": {
             "number": "16",
+            "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.100", "CATEGORY.KUPO_OF_FORTUNE"],
             "patch": "3.5"
         },
         "x12": {
             "number": "17",
+            "category": "CATEGORY.ACHIEVEMENT",
+            "source": "character.achievement.items.items.1623",
             "patch": "3.3"
         },
         "x15": {
             "number": "18",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.THE_GOLD_SAUCER",
             "patch": "3.4"
         },
         "x13": {
             "number": "19",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.dragonsong.67783",
             "patch": "3.3"
         },
         "x1": {
             "number": "20",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.THE_GOLD_SAUCER",
             "patch": "3.25"
         },
         "x3": {
             "number": "21",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.IDYLLSHIRE",
             "patch": "3.25"
         },
         "x11": {
             "number": "22",
+            "category": ["CATEGORY.VOYAGE", "CATEGORY.CRAFTING"],
+            "source": "VOYAGE.SEA_OF_CLOUDS_SECTOR_18",
             "patch": "3.3"
         },
         "x20": {
             "number": "23",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.post-dragonsong.67894",
             "patch": "3.56"
         },
         "x78": {
             "number": "24",
+            "category": "CATEGORY.PURCHASE",
             "patch": "5.5"
         },
         "x30": {
             "number": "25",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "4.2"
         },
         "x55": {
             "number": "26",
+            "category": "CATEGORY.KUPO_OF_FORTUNE",
+            "location": "ZONE.THE_FIRMAMENT",
+            "source": "CATEGORY.KUPO_OF_FORTUNE",
             "patch": "5.21"
         },
         "x59": {
             "number": "27",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.THE_FIRMAMENT",
             "patch": "5.31"
         },
         "x31": {
             "number": "28",
+            "category": "CATEGORY.ACHIEVEMENT",
+            "source": "character.achievement.items.items.2006",
             "patch": "4.2"
         },
         "x25": {
             "number": "29",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.post-stormblood.68507",
             "patch": "4.1"
         },
         "x27": {
             "number": "30",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.post-stormblood.68501",
             "patch": "4.1"
         },
         "x35": {
             "number": "31",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.THE_RUBY_SEA",
             "patch": "4.35"
         },
         "x36": {
             "number": "32",
+            "category": "CATEGORY.DEEP_DUNGEON",
+            "source": "duty.dutyraid-finder.deep-dungeon.1",
             "patch": "4.35"
         },
         "x26": {
             "number": "33",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.post-stormblood.68565",
             "patch": "4.2"
         },
         "x28": {
             "number": "34",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.the-four-lords.68551",
             "patch": "4.2"
         },
         "x53": {
             "number": "35",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.THE_TEMPEST",
             "patch": "5.2"
         },
         "x66": {
             "number": "36",
+            "category": "CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.105",
             "patch": "5.4"
         },
         "x34": {
             "number": "37",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.THE_DOMAN_ENCLAVE",
             "patch": "4.3"
         },
         "x39": {
             "number": "38",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.omega.68693",
             "patch": "4.4"
         },
         "x38": {
             "number": "39",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.omega.68693",
             "patch": "4.4"
         },
         "x46": {
             "number": "40",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.shadowbringers.68815",
             "patch": "5.0"
         },
         "x67": {
             "number": "41",
+            "category": "CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.104",
             "patch": "5.4"
         },
         "x68": {
             "number": "42",
+            "category": "CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.104",
             "patch": "5.4"
         },
         "x76": {
             "number": "43",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.the-sorrow-of-werlyt.69567",
             "patch": "5.5"
         },
         "x79": {
             "number": "44",
+            "category": "CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.104",
             "patch": "5.5"
         },
         "x52": {
             "number": "45",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.THE_GOLD_SAUCER",
             "patch": "5.2"
         },
         "x58": {
             "number": "46",
+            "category": ["CATEGORY.TRIAL", "CATEGORY.CRAFTING"],
+            "source": "duty.dutyraid-finder.trials.shb.11",
             "patch": "5.3"
         },
         "x47": {
             "number": "47",
+            "category": "CATEGORY.QUEST",
+            "source": "character.achievement.quests.main-scenario.2298",
             "patch": "5.0"
         },
         "x82": {
             "number": "48",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.endwalker.70000",
             "patch": "6.0"
         },
         "x84": {
             "number": "49",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.GARLEMALD",
             "patch": "6.1"
         },
         "x83": {
             "number": "50",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.endwalker.70000",
             "patch": "6.0"
         },
         "x90": {
             "number": "51",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.omega.beyond-the-rift.70123",
             "patch": "6.15"
         },
         "x100": {
             "number": "52",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "6.3"
         },
         "x101": {
             "number": "53",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.MIST",
+                "ZONE.THE_LAVENDER_BEDS",
+                "ZONE.THE_GOBLET",
+                "ZONE.SHIROGANE",
+                "ZONE.EMPYREUM"
+            ],
             "patch": "6.3"
         },
         "x102": {
             "number": "54",
+            "category": "CATEGORY.VOYAGE",
+            "source": [
+                "VOYAGE.FORTUNES_FORD",
+                "VOYAGE.THE_CRYSTAL_FONT"
+            ],
             "patch": "6.3"
         },
         "x103": {
             "number": "55",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.sidequests.chronicles-of-light.tales-of-newfound-adventure.70197",
             "patch": "6.3"
+        },
+        "x104": {
+            "number": "56",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.NEW_GRIDANIA",
+                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+                "ZONE.UL_DAH_STEPS_OF_NALD"
+            ],
+            "patch": "6.4"
+        },
+        "x105": {
+            "number": "57",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.NEW_GRIDANIA",
+                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+                "ZONE.UL_DAH_STEPS_OF_NALD"
+            ],
+            "patch": "6.4"
+        },
+        "x106": {
+            "number": "58",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.NEW_GRIDANIA",
+                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+                "ZONE.UL_DAH_STEPS_OF_NALD"
+            ],
+            "patch": "6.4"
+        },
+        "x107": {
+            "number": "59",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.NEW_GRIDANIA",
+                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+                "ZONE.UL_DAH_STEPS_OF_NALD"
+            ],
+            "patch": "6.4"
+        },
+        "x108": {
+            "number": "60",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.NEW_GRIDANIA",
+                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+                "ZONE.UL_DAH_STEPS_OF_NALD"
+            ],
+            "patch": "6.4"
+        },
+        "x109": {
+            "number": "61",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.NEW_GRIDANIA",
+                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+                "ZONE.UL_DAH_STEPS_OF_NALD"
+            ],
+            "patch": "6.4"
+        },
+        "x110": {
+            "number": "62",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.NEW_GRIDANIA",
+                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+                "ZONE.UL_DAH_STEPS_OF_NALD"
+            ],
+            "patch": "6.4"
+        },
+        "x111": {
+            "number": "63",
+            "category": "CATEGORY.PURCHASE",
+            "location": [
+                "ZONE.NEW_GRIDANIA",
+                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+                "ZONE.UL_DAH_STEPS_OF_NALD"
+            ],
+            "patch": "6.4"
+        },
+        "x112": {
+            "number": "64",
+            "category": "CATEGORY.PURCHASE",
+            "location": "ZONE.OLD_GRIDANIA",
+            "patch": "6.4"
         }
     }
 }

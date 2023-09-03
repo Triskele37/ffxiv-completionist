@@ -25,7 +25,6 @@
 
 **Change**
 - save starting class in player save
-- Update orchestrion log to standard method/source columns
 
 **Fix**
 - Missing Unlock
