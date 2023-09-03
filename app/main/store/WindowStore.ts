@@ -130,20 +130,18 @@ export class WindowStore {
     static loadWindowState() {
         if(!ConfigStore.store) ConfigStore.load();
 
-        WindowStore.pointInAnyWindow(ConfigStore.store.window);
-
-        if(!ConfigStore.store.window) {
+        if(WindowStore.isStoredPositionValid(ConfigStore.store.window)) {
+            return ConfigStore.store.window;
+        }
+        else {
             const primaryDisplay = screen.getPrimaryDisplay();
 
             return {
-                x: primaryDisplay.bounds.x,
-                y: primaryDisplay.bounds.y,
-                height: primaryDisplay.workAreaSize.height,
-                width: primaryDisplay.workAreaSize.width
+                x: primaryDisplay.workArea.x,
+                y: primaryDisplay.workArea.y,
+                height: primaryDisplay.workArea.height,
+                width: primaryDisplay.workArea.width
             };
-        }
-        else {
-            return ConfigStore.store.window;
         }
     }
 
@@ -156,11 +154,22 @@ export class WindowStore {
         ConfigStore.save();
     }
 
-    //#endregion
+    static isStoredPositionValid(rect?: Rectangle) {
+        if(!rect) return false;
 
-    static pointInAnyWindow(rect: Rectangle) {
-        const test = screen.getDisplayMatching({ x: 0, y: 0, height: 100, width: 100 });
-        console.log(test);
+        // Unreasonably small
+        if(rect.height < 100 || rect.width < 100) return false;
+
+        // Get the window closest to the stored rect
+        const closestWindow = screen.getDisplayMatching(rect);
+
+        // Coordinates are not in a window
+        if(rect.x < closestWindow.bounds.x) return false;
+        if(rect.y < closestWindow.bounds.y) return false;
+
+        return true;
     }
+
+    //#endregion
 
 }

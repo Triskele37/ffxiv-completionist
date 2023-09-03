@@ -116,22 +116,43 @@ var WindowStore = /** @class */ (function () {
     WindowStore.loadWindowState = function () {
         if (!ConfigStore_1.ConfigStore.store)
             ConfigStore_1.ConfigStore.load();
-        if (!ConfigStore_1.ConfigStore.store.window) {
-            var primaryDisplay = electron_1.screen.getPrimaryDisplay();
-            return {
-                x: primaryDisplay.bounds.x,
-                y: primaryDisplay.bounds.y,
-                height: primaryDisplay.workAreaSize.height,
-                width: primaryDisplay.workAreaSize.width
-            };
+        var test = { x: -30000, y: -30000, height: 1880, width: 1080 };
+        // if(WindowStore.isStoredPositionValid(ConfigStore.store.window)) {
+        if (WindowStore.isStoredPositionValid(test)) {
+            console.log('STORED');
+            return ConfigStore_1.ConfigStore.store.window;
         }
         else {
-            return ConfigStore_1.ConfigStore.store.window;
+            console.log('DEFAULT');
+            var primaryDisplay = electron_1.screen.getPrimaryDisplay();
+            return {
+                x: primaryDisplay.workArea.x,
+                y: primaryDisplay.workArea.y,
+                height: primaryDisplay.workArea.height,
+                width: primaryDisplay.workArea.width
+            };
         }
     };
     WindowStore.saveWindowState = function () {
         ConfigStore_1.ConfigStore.store.window = __assign(__assign({}, WindowStore.main.getBounds()), { max: WindowStore.main.isMaximized() });
         ConfigStore_1.ConfigStore.save();
+    };
+    //#endregion
+    WindowStore.isStoredPositionValid = function (rect) {
+        if (!rect)
+            return false;
+        // Unreasonably small
+        if (rect.height < 100 || rect.width < 100)
+            return false;
+        // Get the window closest to the stored rect
+        var closestWindow = electron_1.screen.getDisplayMatching(rect);
+        console.log(closestWindow);
+        // Coordinates are not in a window
+        if (rect.x < closestWindow.bounds.x)
+            return false;
+        if (rect.y < closestWindow.bounds.y)
+            return false;
+        return true;
     };
     return WindowStore;
 }());
