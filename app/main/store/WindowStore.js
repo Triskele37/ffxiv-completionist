@@ -116,14 +116,10 @@ var WindowStore = /** @class */ (function () {
     WindowStore.loadWindowState = function () {
         if (!ConfigStore_1.ConfigStore.store)
             ConfigStore_1.ConfigStore.load();
-        var test = { x: -30000, y: -30000, height: 1880, width: 1080 };
-        // if(WindowStore.isStoredPositionValid(ConfigStore.store.window)) {
-        if (WindowStore.isStoredPositionValid(test)) {
-            console.log('STORED');
+        if (WindowStore.isStoredPositionValid(ConfigStore_1.ConfigStore.store.window)) {
             return ConfigStore_1.ConfigStore.store.window;
         }
         else {
-            console.log('DEFAULT');
             var primaryDisplay = electron_1.screen.getPrimaryDisplay();
             return {
                 x: primaryDisplay.workArea.x,
@@ -137,7 +133,6 @@ var WindowStore = /** @class */ (function () {
         ConfigStore_1.ConfigStore.store.window = __assign(__assign({}, WindowStore.main.getBounds()), { max: WindowStore.main.isMaximized() });
         ConfigStore_1.ConfigStore.save();
     };
-    //#endregion
     WindowStore.isStoredPositionValid = function (rect) {
         if (!rect)
             return false;
@@ -146,7 +141,6 @@ var WindowStore = /** @class */ (function () {
             return false;
         // Get the window closest to the stored rect
         var closestWindow = electron_1.screen.getDisplayMatching(rect);
-        console.log(closestWindow);
         // Coordinates are not in a window
         if (rect.x < closestWindow.bounds.x)
             return false;

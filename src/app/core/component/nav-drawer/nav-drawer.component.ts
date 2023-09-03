@@ -107,8 +107,14 @@ export class NavDrawerComponent implements OnInit {
     getSubGroupLabel(group: DataGroup): string {
         let label = `<span>${group.name}</span>`;
 
+        // Don't modify UI groups
+        if(group.isUiGroup) return label;
+
         if(group.percentComplete === '100.00') {
             label += '<i class="mi mi-star"></i>';
+        }
+        else if(group.remaining === '0') {
+            label += '<i class="mi mi-star empty"></i>';
         }
 
         return label;
