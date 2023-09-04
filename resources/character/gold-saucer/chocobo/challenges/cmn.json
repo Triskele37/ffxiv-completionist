@@ -1,0 +1,109 @@
+{
+    "key": "challenges",
+    "tasks": {
+        "x0": {
+            "race": "1",
+            "minimumRating": "41",
+            "patch": "3.25",
+            "cNext": [1]
+        },
+        "x1": {
+            "race": "2",
+            "minimumRating": "61",
+            "patch": "3.25",
+            "cPrev": [0],
+            "cNext": [2]
+        },
+        "x2": {
+            "race": "3",
+            "minimumRating": "81",
+            "patch": "3.25",
+            "cPrev": [1],
+            "cNext": [3]
+        },
+        "x3": {
+            "race": "4",
+            "minimumRating": "101",
+            "patch": "3.25",
+            "cPrev": [2],
+            "cNext": [4]
+        },
+        "x4": {
+            "race": "5",
+            "minimumRating": "121",
+            "patch": "3.25",
+            "cPrev": [3],
+            "cNext": [5]
+        },
+        "x5": {
+            "race": "6",
+            "minimumRating": "141",
+            "patch": "3.25",
+            "cPrev": [4],
+            "cNext": [6]
+        },
+        "x6": {
+            "race": "7",
+            "minimumRating": "161",
+            "patch": "3.25",
+            "cPrev": [5],
+            "cNext": [7]
+        },
+        "x7": {
+            "race": "8",
+            "minimumRating": "181",
+            "patch": "3.25",
+            "cPrev": [6],
+            "cNext": [8]
+        },
+        "x8": {
+            "race": "9",
+            "minimumRating": "201",
+            "patch": "3.25",
+            "cPrev": [7],
+            "cNext": [9]
+        },
+        "x9": {
+            "race": "10",
+            "minimumRating": "221",
+            "patch": "3.25",
+            "cPrev": [8],
+            "cNext": [10]
+        },
+        "x10": {
+            "race": "11",
+            "minimumRating": "231",
+            "patch": "3.25",
+            "cPrev": [9],
+            "cNext": [11]
+        },
+        "x11": {
+            "race": "12",
+            "minimumRating": "241",
+            "patch": "3.25",
+            "cPrev": [10],
+            "cNext": [12]
+        },
+        "x12": {
+            "race": "13",
+            "minimumRating": "251",
+            "patch": "3.25",
+            "cPrev": [11],
+            "cNext": [13]
+        },
+        "x13": {
+            "race": "14",
+            "minimumRating": "261",
+            "patch": "3.25",
+            "cPrev": [12],
+            "cNext": [14]
+        },
+        "x14": {
+            "race": "15",
+            "minimumRating": "271",
+            "patch": "3.25",
+            "cPrev": [13],
+            "cSiblings": ["character.achievement.character.gold-saucer.1512"]
+        }
+    }
+}
