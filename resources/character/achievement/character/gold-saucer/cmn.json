@@ -76,7 +76,12 @@
         },
         "x1090": {
             "points": 5,
-            "patch": "2.51"
+            "patch": "2.51",
+            "cSiblingsAt": {
+                "9": [
+                    "character.gold-saucer.chocobo.attributes.0"
+                ]
+            }
         },
         "x1091": {
             "points": 5,
@@ -176,7 +181,8 @@
         "x1512": {
             "points": 10,
             "reward": "character.companion.barding.44",
-            "patch": "3.25"
+            "patch": "3.25",
+            "cSiblings": ["character.gold-saucer.chocobo.challenges.14"]
         },
         "x1100": {
             "points": 5,

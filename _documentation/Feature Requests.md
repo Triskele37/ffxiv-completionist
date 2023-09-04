@@ -16,7 +16,6 @@
     * Requires simulation of chaining
   * Chain ocean fish to achievements?
   * Flatten Duty/Raid Finder
-  * Chocobo Racing
   * V&C dungeon records
   * Fish iLvl
 

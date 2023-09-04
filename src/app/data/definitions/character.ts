@@ -59,6 +59,13 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
             path: 'gold-saucer',
             subGroups: [
                 {
+                    path: 'chocobo',
+                    subGroups: [
+                        'attributes',
+                        'challenges'
+                    ]
+                },
+                {
                     path: 'triple-triad-card-list',
                     subGroups: [
                         'page-1',
