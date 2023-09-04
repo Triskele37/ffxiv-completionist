@@ -12,6 +12,8 @@ export type ConfigStore = {
         incomplete: boolean;
         excluded: boolean;
     };
+    'show-completed-groups': boolean;
+    'show-empty-groups': boolean;
     'window': {
         x: number;
         y: number;

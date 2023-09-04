@@ -380,7 +380,8 @@
                     "L3": "\"Go to parent\" button in navigation bar",
                     "L4": "Treasure Hunt Duties",
                     "L5": "Gold Saucer Chocobo Group",
-                    "L6": "Version display in app bar and lower left"
+                    "L6": "Version display in app bar and lower left",
+                    "L7": "Option to show/hide completed and empty groups"
                 },
                 "CHANGE": {
                     "L1": "Reworked Orchestrion data"
@@ -439,18 +440,26 @@
                     "CLASSIC": "Classic"
                 }
             },
-            "TABLE": {
-                "TITLE": "Table",
-                "COMPLETED": {
-                    "LABEL": "Show Completed",
+            "COMPLETION": {
+                "TITLE": "Completion",
+                "COMPLETE_GROUP": {
+                    "LABEL": "Show Completed Groups",
+                    "TOOLTIP": "Whether completed groups are shown"
+                },
+                "EMPTY_GROUP": {
+                    "LABEL": "Show Empty Groups",
+                    "TOOLTIP": "Whether empty groups are shown"
+                },
+                "COMPLETE_TASK": {
+                    "LABEL": "Show Completed Items",
                     "TOOLTIP": "Whether completed items are shown in tables"
                 },
-                "INCOMPLETE": {
-                    "LABEL": "Show Incomplete",
+                "INCOMPLETE_TASK": {
+                    "LABEL": "Show Incomplete Items",
                     "TOOLTIP": "Whether non-completed items are shown in tables"
                 },
-                "EXCLUDED": {
-                    "LABEL": "Show Excluded",
+                "EXCLUDED_TASK": {
+                    "LABEL": "Show Excluded Items",
                     "TOOLTIP": "Whether excluded items are shown in tables"
                 }
             },

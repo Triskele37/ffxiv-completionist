@@ -21,6 +21,8 @@ export class SettingsComponent implements OnInit {
             incomplete: { key: 'table-filters.incomplete' },
             excluded: { key: 'table-filters.excluded' }
         },
+        showCompletedGroups: { key: 'show-completed-groups' },
+        showEmptyGroups: { key: 'show-empty-groups' },
         chainingEnabled: { key: 'chaining-enabled' },
         chainHistoryLimit: { key: 'chain-history-limit', min: 0, max: 99 },
         chainMinThreshold: { key: 'chain-min-threshold', min: 1, max: 999 },

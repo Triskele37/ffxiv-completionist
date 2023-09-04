@@ -7,16 +7,16 @@
             ></xiv-character-settings>
         </p-tabPanel>
 
-        <p-tabPanel [header]="'MAIN.SETTING.THEME.TITLE' | translate">
-            <xiv-theme-settings [settings]="settings"></xiv-theme-settings>
-        </p-tabPanel>
-
-        <p-tabPanel [header]="'MAIN.SETTING.TABLE.TITLE' | translate">
-            <xiv-table-settings [settings]="settings"></xiv-table-settings>
+        <p-tabPanel [header]="'MAIN.SETTING.COMPLETION.TITLE' | translate">
+            <xiv-completion-settings [settings]="settings"></xiv-completion-settings>
         </p-tabPanel>
 
         <p-tabPanel [header]="'MAIN.SETTING.CHAINING.TITLE' | translate">
             <xiv-chain-settings [settings]="settings"></xiv-chain-settings>
+        </p-tabPanel>
+
+        <p-tabPanel [header]="'MAIN.SETTING.THEME.TITLE' | translate">
+            <xiv-theme-settings [settings]="settings"></xiv-theme-settings>
         </p-tabPanel>
     </p-tabView>
 </div>

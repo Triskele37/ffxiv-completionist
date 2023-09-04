@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
+import { Subject } from 'rxjs';
 
 import { DataGroup } from '@domain/DataGroup';
 import { Task } from '@domain/Task';
@@ -17,6 +18,8 @@ export class ConfigStoreService extends Store<ConfigStore> {
     ipcSaveEvent = IPC_EVENT.SET_CONFIG;
     failedSummaryKey = 'TOAST.CONFIG_FAILED_SUMMARY';
     failedDetailKey = 'TOAST.CONFIG_FAILED_DETAIL';
+
+    navSettingUpdated$ = new Subject();
 
     constructor(
         translate: TranslateService,
@@ -35,5 +38,16 @@ export class ConfigStoreService extends Store<ConfigStore> {
 
         if(key === 'lang') DataGroup.lang = value;
         if(key === 'chaining-enabled') Task.chainingEnabled = value;
+
+        this.emitNavSettingUpdated(key);
+    }
+
+    private emitNavSettingUpdated(key: string) {
+        const shouldEmit = [
+            'show-completed-groups',
+            'show-empty-groups',
+        ].includes(key);
+
+        if(shouldEmit) this.navSettingUpdated$.next();
     }
 }

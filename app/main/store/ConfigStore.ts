@@ -29,6 +29,8 @@ export class ConfigStore {
                 incomplete: true,
                 excluded: true
             },
+            'show-completed-groups': true,
+            'show-empty-groups': true,
             'window': {
                 x: 100,
                 y: 100,

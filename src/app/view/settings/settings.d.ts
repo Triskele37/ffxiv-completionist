@@ -8,6 +8,8 @@ export interface Settings {
         incomplete: BoolSetting;
         excluded: BoolSetting;
     };
+    showCompletedGroups: BoolSetting;
+    showEmptyGroups: BoolSetting;
     chainingEnabled: BoolSetting;
     chainHistoryLimit: NumberSetting;
     chainMinThreshold: NumberSetting;

@@ -1,0 +1,66 @@
+<div
+    class="setting bool"
+    [pTooltip]="'MAIN.SETTING.COMPLETION.COMPLETE_GROUP.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'MAIN.SETTING.COMPLETION.COMPLETE_GROUP.LABEL' | translate}}</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="settings.showCompletedGroups.value"
+        (onChange)="parent.onChangeBoolSetting(settings.showCompletedGroups)"
+    ></p-checkbox>
+</div>
+
+<div
+    class="setting bool"
+    [pTooltip]="'MAIN.SETTING.COMPLETION.EMPTY_GROUP.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'MAIN.SETTING.COMPLETION.EMPTY_GROUP.LABEL' | translate}}</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="settings.showEmptyGroups.value"
+        (onChange)="parent.onChangeBoolSetting(settings.showEmptyGroups)"
+    ></p-checkbox>
+</div>
+
+<br/>
+
+<div
+    class="setting bool"
+    [pTooltip]="'MAIN.SETTING.COMPLETION.COMPLETE_TASK.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'MAIN.SETTING.COMPLETION.COMPLETE_TASK.LABEL' | translate}}</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="settings.tableFilters.completed.value"
+        (onChange)="parent.onChangeBoolSetting(settings.tableFilters.completed)"
+    ></p-checkbox>
+</div>
+
+<div
+    class="setting bool"
+    [pTooltip]="'MAIN.SETTING.COMPLETION.INCOMPLETE_TASK.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'MAIN.SETTING.COMPLETION.INCOMPLETE_TASK.LABEL' | translate}}</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="settings.tableFilters.incomplete.value"
+        (onChange)="parent.onChangeBoolSetting(settings.tableFilters.incomplete)"
+    ></p-checkbox>
+</div>
+
+<div
+    class="setting bool"
+    [pTooltip]="'MAIN.SETTING.COMPLETION.EXCLUDED_TASK.TOOLTIP' | translate"
+    tooltipPosition="right"
+>
+    <label>{{'MAIN.SETTING.COMPLETION.EXCLUDED_TASK.LABEL' | translate}}</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="settings.tableFilters.excluded.value"
+        (onChange)="parent.onChangeBoolSetting(settings.tableFilters.excluded)"
+    ></p-checkbox>
+</div>

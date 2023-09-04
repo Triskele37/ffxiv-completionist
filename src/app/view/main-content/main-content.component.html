@@ -41,7 +41,7 @@
     <div class="group-summary-section">
         <ng-container *ngFor="let subGroup of selectedGroup.subGroups | keyvalue: asIsOrder">
             <xiv-summary-line
-                *ngIf="!subGroup.value.isBookmarkGroup && !subGroup.value.isCustomGroup"
+                *ngIf="subGroup.value | shouldShowSummaryGroup"
                 [group]="subGroup.value"
                 [showGroup]="selectedGroup.isBookmarkGroup"
             ></xiv-summary-line>

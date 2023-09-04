@@ -226,6 +226,14 @@ export class DataGroup {
         return str.includes('.') ? str : `${str}.00`;
     }
 
+    get isComplete(): boolean {
+        return this.percentComplete === '100.00';
+    }
+
+    get isEmpty(): boolean {
+        return this.remaining === '0';
+    }
+
     // Propagate an excluded change up through parent groups
     updateExcluded(mod: number): void {
         if(this.isBookmarkGroup) return;

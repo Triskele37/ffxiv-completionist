@@ -3,7 +3,9 @@ import { MenuItem } from 'primeng/api';
 
 import { DataService } from '@data';
 import { DataGroup } from '@domain/DataGroup';
+import { isHiddenGroup } from '@domain/DataGroup/isHiddenGroup';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
+import { ConfigStoreService } from '@service/store/config-store.service';
 import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { NavigationService } from '@service/navigation/navigation.service';
 
@@ -16,8 +18,9 @@ export class NavDrawerComponent implements OnInit {
     items: MenuItem[] = [];
 
     constructor(
-        private svcData: DataService,
         private svcBookmark: BookmarkService,
+        private svcConfig: ConfigStoreService,
+        private svcData: DataService,
         private svcMainMenu: MainMenuService,
         private svcNavigation: NavigationService
     ) {
@@ -29,6 +32,9 @@ export class NavDrawerComponent implements OnInit {
     }
 
     addSubscriptions(): void {
+        // Update items if any config changes, some affect display
+        this.svcConfig.navSettingUpdated$.subscribe(this.buildMenuItems.bind(this));
+
         // Collapse all groups not in the direct path of the selected group
         this.svcNavigation.selectedGroup$.subscribe((group) => {
             let path = group?.groupPath;
@@ -47,11 +53,10 @@ export class NavDrawerComponent implements OnInit {
     }
 
     buildMenuItems(): void {
-        this.items = [
-            this.addSubGroup(this.svcMainMenu.data)
-        ];
+        this.items = [this.addSubGroup(this.svcMainMenu.data)];
 
         this.svcData.data.subGroups.forEach((subGroup) => {
+            if(!this.shouldAddGroup(subGroup)) return;
             this.items.push(this.addSubGroup(subGroup));
         });
     }
@@ -89,6 +94,7 @@ export class NavDrawerComponent implements OnInit {
         if(group.subGroups?.size) {
             item.items = [];
             group.subGroups.forEach((subGroup) => {
+                if(!this.shouldAddGroup(subGroup)) return;
                 item.items.push(this.addSubGroup(subGroup, depth + 1));
             });
         }
@@ -104,18 +110,18 @@ export class NavDrawerComponent implements OnInit {
         return item;
     }
 
+    shouldAddGroup(group: DataGroup): boolean {
+        return !isHiddenGroup(group, this.svcConfig);
+    }
+
     getSubGroupLabel(group: DataGroup): string {
         let label = `<span>${group.name}</span>`;
 
         // Don't modify UI groups
         if(group.isUiGroup) return label;
 
-        if(group.percentComplete === '100.00') {
-            label += '<i class="mi mi-star"></i>';
-        }
-        else if(group.remaining === '0') {
-            label += '<i class="mi mi-star empty"></i>';
-        }
+        if(group.isComplete) label += '<i class="mi mi-star"></i>';
+        else if(group.isEmpty) label += '<i class="mi mi-star empty"></i>';
 
         return label;
     }

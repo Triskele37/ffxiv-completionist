@@ -6,6 +6,7 @@ import { ButtonModule } from 'primeng/button';
 import { SummaryLineModule } from '@component/summary-line/summary-line.module';
 import { TaskTableModule } from '@component/task-table/task-table.module';
 import { AnchorDirectiveModule } from '@directive/anchor.directive';
+import { GroupDisplayPipeModule } from '@pipe/should-show-group.pipe';
 
 import { LandingPageModule } from '../landing-page';
 import { ShowAllModule } from '../show-all/show-all.module';
@@ -24,6 +25,7 @@ import { MainContentComponent } from './main-content.component';
         SummaryLineModule,
         TaskTableModule,
         AnchorDirectiveModule,
+        GroupDisplayPipeModule,
 
         LandingPageModule,
         ShowAllModule,
