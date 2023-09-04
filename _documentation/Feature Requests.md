@@ -6,7 +6,6 @@
   * Global Filters
     * Allow Multi-selection
     * Types: Patch, Status, Class/Job/s, Zone
-  * Visible version/patch #
   * "Hide Complete Groups" option
   * Search to include category name
 * Data
