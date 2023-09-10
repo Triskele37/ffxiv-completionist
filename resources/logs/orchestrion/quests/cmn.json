@@ -94,11 +94,11 @@
             "number": "13",
             "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.CRAFTING"],
             "source": [
-                "duty.treasure-hunt.0",
-                "duty.treasure-hunt.1",
-                "duty.treasure-hunt.5",
-                "duty.treasure-hunt.7",
-                "duty.treasure-hunt.8"
+                "duty.treasure-hunt.maps.0",
+                "duty.treasure-hunt.maps.1",
+                "duty.treasure-hunt.maps.5",
+                "duty.treasure-hunt.maps.7",
+                "duty.treasure-hunt.maps.8"
             ],
             "patch": "3.25"
         },
@@ -117,7 +117,7 @@
         "x16": {
             "number": "16",
             "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.KUPO_OF_FORTUNE"],
-            "source": ["duty.treasure-hunt.100", "CATEGORY.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "CATEGORY.KUPO_OF_FORTUNE"],
             "patch": "3.5"
         },
         "x12": {
@@ -243,7 +243,7 @@
         "x66": {
             "number": "36",
             "category": "CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.105",
+            "source": "duty.treasure-hunt.duties.5",
             "patch": "5.4"
         },
         "x34": {
@@ -273,13 +273,13 @@
         "x67": {
             "number": "41",
             "category": "CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.104",
+            "source": "duty.treasure-hunt.duties.4",
             "patch": "5.4"
         },
         "x68": {
             "number": "42",
             "category": "CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.104",
+            "source": "duty.treasure-hunt.duties.4",
             "patch": "5.4"
         },
         "x76": {
@@ -291,7 +291,7 @@
         "x79": {
             "number": "44",
             "category": "CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.104",
+            "source": "duty.treasure-hunt.duties.4",
             "patch": "5.5"
         },
         "x52": {

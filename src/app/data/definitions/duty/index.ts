@@ -214,7 +214,13 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                 }
             ]
         },
-        'treasure-hunt',
+        {
+            path: 'treasure-hunt',
+            subGroups: [
+                'maps',
+                'duties'
+            ]
+        },
         {
             path: 'exploratory-missions',
             subGroups: [

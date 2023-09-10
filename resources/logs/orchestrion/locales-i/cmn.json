@@ -60,8 +60,8 @@
             "number": "10",
             "category": "CATEGORY.TREASURE_HUNT",
             "source": [
-                "duty.treasure-hunt.101",
-                "duty.treasure-hunt.102"
+                "duty.treasure-hunt.duties.1",
+                "duty.treasure-hunt.duties.2"
             ],
             "patch": "4.05"
         },
@@ -69,8 +69,8 @@
             "number": "11",
             "category": "CATEGORY.TREASURE_HUNT",
             "source": [
-                "duty.treasure-hunt.101",
-                "duty.treasure-hunt.102"
+                "duty.treasure-hunt.duties.1",
+                "duty.treasure-hunt.duties.2"
             ],
             "patch": "4.05"
         },
@@ -78,33 +78,33 @@
             "number": "12",
             "category": "CATEGORY.TREASURE_HUNT",
             "source": [
-                "duty.treasure-hunt.101",
-                "duty.treasure-hunt.102"
+                "duty.treasure-hunt.duties.1",
+                "duty.treasure-hunt.duties.2"
             ],
             "patch": "4.05"
         },
         "x12": {
             "number": "13",
             "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.KUPO_OF_FORTUNE"],
-            "source": ["duty.treasure-hunt.100", "CATEGORY.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "CATEGORY.KUPO_OF_FORTUNE"],
             "patch": "3.3"
         },
         "x13": {
             "number": "14",
             "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.KUPO_OF_FORTUNE"],
-            "source": ["duty.treasure-hunt.100", "CATEGORY.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "CATEGORY.KUPO_OF_FORTUNE"],
             "patch": "3.3"
         },
         "x14": {
             "number": "15",
             "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.KUPO_OF_FORTUNE"],
-            "source": ["duty.treasure-hunt.100", "CATEGORY.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "CATEGORY.KUPO_OF_FORTUNE"],
             "patch": "3.3"
         },
         "x15": {
             "number": "16",
             "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.KUPO_OF_FORTUNE"],
-            "source": ["duty.treasure-hunt.100", "CATEGORY.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "CATEGORY.KUPO_OF_FORTUNE"],
             "patch": "3.4"
         },
         "x16": {
@@ -402,8 +402,8 @@
             "number": "53",
             "category": "CATEGORY.TREASURE_HUNT",
             "source": [
-                "duty.treasure-hunt.101",
-                "duty.treasure-hunt.102"
+                "duty.treasure-hunt.duties.1",
+                "duty.treasure-hunt.duties.2"
             ],
             "patch": "4.1"
         },
@@ -418,8 +418,8 @@
             "number": "55",
             "category": "CATEGORY.TREASURE_HUNT",
             "source": [
-                "duty.treasure-hunt.101",
-                "duty.treasure-hunt.102"
+                "duty.treasure-hunt.duties.1",
+                "duty.treasure-hunt.duties.2"
             ],
             "patch": "4.1"
         },
@@ -456,7 +456,7 @@
         "x60": {
             "number": "61",
             "category": "CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.102",
+            "source": "duty.treasure-hunt.duties.2",
             "patch": "4.2"
         },
         "x61": {
@@ -468,7 +468,7 @@
         "x62": {
             "number": "63",
             "category": "CATEGORY.TREASURE_HUNT",
-            "source": "duty.treasure-hunt.102",
+            "source": "duty.treasure-hunt.duties.2",
             "patch": "4.2"
         },
         "x63": {

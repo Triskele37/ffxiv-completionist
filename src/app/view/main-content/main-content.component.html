@@ -30,7 +30,7 @@
             <ng-container *ngTemplateOutlet="groupSummaries"></ng-container>
         </ng-container>
 
-        <ng-container *ngIf="selectedGroup.subGroups && selectedGroup.tasks">
+        <ng-container *ngIf="selectedGroup.subGroups && selectedGroup.tasks.length">
             <p-divider></p-divider>
         </ng-container>
 

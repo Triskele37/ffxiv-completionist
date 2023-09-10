@@ -1,3 +1,4 @@
+@import './ellipsis-overflow';
 @import './sizes';
 
 .nav-drawer {
@@ -42,15 +43,23 @@
             border-radius: 0;
         }
 
+        // Shorten labels when preceeded by an expand icon
+        .p-panelmenu-icon + .p-menuitem-text {
+            width: calc(100% - 24px);
+        }
+
         .p-menuitem-text {
             display: flex;
             align-items: center;
             justify-content: space-between;
             width: 100%;
 
+            .group-label {
+                @extend %ellipsis-overflow;
+            }
+
             .mi.mi-star {
                 color: var(--completed);
-                margin-right: 10px;
                 font-size: 16px;
 
                 &.empty {

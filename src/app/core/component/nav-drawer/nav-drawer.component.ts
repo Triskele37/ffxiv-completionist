@@ -115,7 +115,7 @@ export class NavDrawerComponent implements OnInit {
     }
 
     getSubGroupLabel(group: DataGroup): string {
-        let label = `<span>${group.name}</span>`;
+        let label = `<span class="group-label">${group.name}</span>`;
 
         // Don't modify UI groups
         if(group.isUiGroup) return label;
