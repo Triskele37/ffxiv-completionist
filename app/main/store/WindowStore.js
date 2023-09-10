@@ -130,7 +130,7 @@ var WindowStore = /** @class */ (function () {
         }
     };
     WindowStore.saveWindowState = function () {
-        ConfigStore_1.ConfigStore.store.window = __assign(__assign({}, WindowStore.main.getBounds()), { max: WindowStore.main.isMaximized() });
+        ConfigStore_1.ConfigStore.store.window = __assign(__assign({}, WindowStore.main.getNormalBounds()), { max: WindowStore.main.isMaximized() });
         ConfigStore_1.ConfigStore.save();
     };
     WindowStore.isStoredPositionValid = function (rect) {

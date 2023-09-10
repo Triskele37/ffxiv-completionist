@@ -147,14 +147,14 @@ export class WindowStore {
 
     static saveWindowState(): void {
         ConfigStore.store.window = {
-            ...WindowStore.main.getBounds(),
+            ...WindowStore.main.getNormalBounds(),
             max: WindowStore.main.isMaximized()
         };
 
         ConfigStore.save();
     }
 
-    static isStoredPositionValid(rect?: Rectangle) {
+    static isStoredPositionValid(rect?: Rectangle): boolean {
         if(!rect) return false;
 
         // Unreasonably small
