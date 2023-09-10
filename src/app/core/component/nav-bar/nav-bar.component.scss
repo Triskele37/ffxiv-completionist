@@ -1,50 +1,12 @@
 .nav-bar-container {
-    margin: 0 10px;
     display: flex;
+    margin: 0 10px;
 
-    p-button {
-        &:last-child ::ng-deep .p-button {
-            // Smooth transition to p-breadcrumb
-            border-top-right-radius: 0;
-            border-bottom-right-radius: 0;
-        }
-
-        ::ng-deep .p-button {
-            // Box style icon buttons
+    ::ng-deep {
+        // Consistent and smaller button size
+        .p-button {
             height: 100%;
             width: 34px;
         }
     }
-
-    p-breadcrumb {
-        display: contents;
-
-        ::ng-deep {
-            .p-breadcrumb {
-                border-top-left-radius: 0;
-                border-bottom-left-radius: 0;
-                padding: 0 5px;
-
-                // Fit the whole page
-                display: flex;
-                flex-grow: 1;
-
-                // Make cursor a pointer when hovering a breadcrumb MenuItem
-                .p-menuitem-link {
-                    cursor: pointer;
-                }
-
-                &::-webkit-scrollbar {
-                    // Override unknown source of display: none;
-                    display: unset;
-                    height: 10px;
-                }
-            }
-        }
-    }
-}
-
-.history-links {
-    display: flex;
-    flex-direction: column;
 }

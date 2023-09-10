@@ -1,0 +1,42 @@
+:host {
+    display: contents;
+}
+
+.breadcrumbs-container {
+    // Spacing
+    width: 100%;
+
+    // Coloring
+    background: var(--surface-a);
+    border: 2px solid var(--surface-border);
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+
+    // Flow
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    // Make cursor a pointer when hovering a breadcrumb MenuItem
+    .breadcrumb {
+        margin: var(--content-padding);
+        cursor: pointer;
+    }
+
+    .breadcrumb-group-arrow {
+        margin: var(--content-padding);
+        cursor: pointer;
+    }
+
+    // Trim down horizontal scrollbar
+    overflow-x: auto;
+    &::-webkit-scrollbar {
+        height: 10px;
+    }
+}
+
+// Weird offset for using margins with chevron icon
+::ng-deep .breadcrumb-overlay-panel {
+    --overlayArrowLeft: 0px !important;
+    transform: translateX(-13px) !important;
+}

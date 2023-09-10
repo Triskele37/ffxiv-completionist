@@ -7,7 +7,8 @@ import { NavigationService } from '@service/navigation/navigation.service';
 //TODO: potentially move "multiple" piece of xiv-links-cell into here
 @Component({
     selector: 'xiv-content-link',
-    templateUrl: './content-link.component.html'
+    templateUrl: './content-link.component.html',
+    styleUrls: ['./content-link.component.scss']
 })
 export class ContentLinkComponent implements OnChanges {
     @Input() content: DataGroup | Task;

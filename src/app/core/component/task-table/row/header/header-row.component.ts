@@ -23,21 +23,28 @@ export class HeaderRowComponent implements OnChanges {
 
     ngOnChanges(changes: SimpleChanges): void {
         if(changes.group) {
-            this.hasNumericColumns = this.getHasNumericColumns();
+            this.hasNumericColumns = this.getHasNumericColumns(this.group);
         }
     }
 
-    getHasNumericColumns(): boolean {
-        if(this.group.isBookmarkGroup) return true;
-        if(this.group.isNumericCompletion) return true;
+    getHasNumericColumns(group: DataGroup): boolean {
+        if(group.isBookmarkGroup) return true;
+        if(group.isNumericCompletion) return true;
 
-        if(this.group.tasks) {
-            return Object.keys(this.group.tasks).some(
-                (key) => this.group.tasks[key].isNumericCompletion
+        if(group.tasks?.length) {
+            return Object.keys(group.tasks).some(
+                (key) => group.tasks[key].isNumericCompletion
             );
         }
+        else { // should be in show all mode
+            let anySubGroupIsNumericCompletion = false;
 
-        return false;
+            group.subGroups.forEach((subGroup) => {
+                anySubGroupIsNumericCompletion ||= this.getHasNumericColumns(subGroup);
+            });
+
+            return anySubGroupIsNumericCompletion;
+        }
     }
 
     displayedFilterValue(filterValue: string): string {

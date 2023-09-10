@@ -33,6 +33,10 @@ export class NavigationService {
         }
     }
 
+    goToHistory(group: DataGroup): void {
+        this.setBreadcrumbs(group.fullStorageKey.split('.'));
+    }
+
     //#region------------------------------------------------ Selected Group
     getGroupFromBreadcrumbs(breadcrumbs: string[]): DataGroup {
         if(!breadcrumbs) return null;
