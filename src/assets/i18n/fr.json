@@ -376,12 +376,13 @@
             "1_0_4": {
                 "ADD": {
                     "L1": "Resources up to FFXIV 6.48",
-                    "L2": "Excluded star for groups with no unexcluded tasks",
+                    "L2": "Star for groups in navigation drawer with no unexcluded tasks",
                     "L3": "\"Go to parent\" button in navigation bar",
-                    "L4": "Treasure Hunt Duties",
-                    "L5": "Gold Saucer Chocobo Group",
+                    "L4": "Treasure Hunt group",
+                    "L5": "Gold Saucer Chocobo group",
                     "L6": "Version display in app bar and lower left",
-                    "L7": "Option to show/hide completed and empty groups"
+                    "L7": "Option to hide completed and empty groups from navigation",
+                    "L8": "Groups tab to app search"
                 },
                 "CHANGE": {
                     "L1": "Reworked Orchestrion data"
@@ -484,16 +485,17 @@
             "PLACEHOLDER": "Recherche",
             "NO_SEARCH": "Veuillez rentrer un terme de recherche",
             "TOO_SHORT": "Veuillez rentrer un minimum de 2 caractères",
-            "NO_RESULTS": "Aucune tâche trouvée",
+            "NO_RESULTS": "No results found",
             "EXPAND": "Étendre les résultats",
             "COLLAPSE": "Rétracter les résultats",
             "SEARCH_NAME": "Rechercher dans les colonnes nommées",
             "SEARCH_COLUMN": "Rechercher dans toutes les colonnes",
-            "MATCHES": "Correspondance/s",
             "COMPLETE": "Complété",
             "COLUMN": "Colonne",
             "VALUE": "Valeur",
-            "LINK": "Lien"
+            "LINK": "Lien",
+            "GROUP_TAB": "Catégorie",
+            "TASK_TAB": "Tâches"
         }
     },
     "TABLE": {

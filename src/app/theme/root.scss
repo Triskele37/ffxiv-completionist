@@ -27,11 +27,11 @@
 
     // Surfaces
     --surface-a: hsl(var(--bg-h), var(--bg-s), var(--bg-l));
-    --surface-b: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 5%));
-    --surface-c: hsla(var(--bg-h), var(--bg-s), 100%, .04);
-    --surface-d: hsla(var(--bg-h), var(--bg-s), 100%, .12);
-    --surface-e: var(--surface-a);
-    --surface-f: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 3%));
+    --surface-b: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 2%));
+    --surface-c: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 4%));
+    --surface-d: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 6%));
+    --surface-e: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 8%));
+    --surface-f: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 10%));
 
     --surface-ground: var(--surface-b);
     --surface-section: var(--surface-b);

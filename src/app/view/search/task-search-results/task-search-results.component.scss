@@ -1,0 +1,27 @@
+$header-height: 40px;
+
+.task-search-results-header {
+    height: $header-height;
+}
+
+.task-search-results-table {
+    height: calc(100% - #{$header-height});
+
+    ::ng-deep {
+        // Make the first column in headers, groups, and tasks 100px wide
+        .p-datatable-thead, .p-datatable-tbody, .p-rowgroup-header {
+            tr > :first-child {
+                &, th, td {
+                    flex-grow: 0;
+                    flex-basis: 100px;
+                    justify-content: center;
+                }
+            }
+        }
+
+        // Make group rows smaller
+        .p-rowgroup-header td {
+            padding: 0;
+        }
+    }
+}

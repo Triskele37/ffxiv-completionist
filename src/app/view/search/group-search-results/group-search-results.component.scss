@@ -1,0 +1,9 @@
+$header-height: 0px;
+
+.group-search-results-header {
+    height: $header-height;
+}
+
+.group-search-results-table {
+    height: calc(100% - #{$header-height});
+}

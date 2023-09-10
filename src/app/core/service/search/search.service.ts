@@ -20,6 +20,12 @@ export type Match = {
     task: Task;
 };
 
+export type GroupMatch = {
+    header: string;
+    value: number | string;
+    group: DataGroup;
+};
+
 @Injectable({
     providedIn: 'root'
 })
@@ -29,7 +35,8 @@ export class SearchService {
 
     searchStatus$: BehaviorSubject<Status> = new BehaviorSubject<Status>(null);
     searchError$: BehaviorSubject<string> = new BehaviorSubject<string>(null);
-    searchMatches$: BehaviorSubject<Match[]> = new BehaviorSubject<Match[]>([]);
+    searchTaskMatches$: BehaviorSubject<Match[]> = new BehaviorSubject<Match[]>([]);
+    searchGroupMatches$: BehaviorSubject<GroupMatch[]> = new BehaviorSubject<GroupMatch[]>([]);
 
     constructor(
         private translate: TranslateService,
@@ -53,12 +60,14 @@ export class SearchService {
             this.searchError$.next(this.translate.instant('MAIN.SEARCH.TOO_SHORT'));
         }
         else {
-            const matches: Match[] = this.searchData(searchTerm, this.expanded, true);
+            const matches: Match[] = this.searchTasks(searchTerm, this.expanded, true);
+            const groupMatches: GroupMatch[] = this.searchGroups(searchTerm, true);
 
-            if(matches.length > 0) {
+            if(matches.length > 0 || groupMatches.length > 0) {
                 this.searchStatus$.next(Status.Success);
                 this.searchError$.next(null);
-                this.searchMatches$.next(matches);
+                this.searchTaskMatches$.next(matches);
+                this.searchGroupMatches$.next(groupMatches);
             }
             else if(!this.expanded) {
                 this.toggleSearchDepth();
@@ -72,12 +81,39 @@ export class SearchService {
 
     //#endregion
 
-    //#region------------------------------------------------------- Reuseable Search Logic
-    searchData(searchTerm: string, expanded: boolean, partial: boolean): Match[] {
-        return this.searchGroupForTerm(this.svcData.data, searchTerm, expanded, partial);
+    //#region------------------------------------------------------- Group Search
+    searchGroups(searchTerm: string, partial: boolean) {
+        return this.searchGroupsForTerm(this.svcData.data, searchTerm, partial);
     }
 
-    private searchGroupForTerm(
+    private searchGroupsForTerm(
+        group: DataGroup,
+        searchTerm: string,
+        partial: boolean,
+    ): GroupMatch[] {
+        if(group.isBookmarkGroup) return [];
+
+        const matches: GroupMatch[] = [];
+
+        if(fuzzyMatchValue(group.name, searchTerm, partial)) {
+            matches.push({ header: 'ABC', value: group.name, group });
+        }
+
+        group.subGroups?.forEach((subGroup) => {
+            matches.push(...this.searchGroupsForTerm(subGroup, searchTerm, partial));
+        });
+
+        return matches;
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Task Search
+    searchTasks(searchTerm: string, expanded: boolean, partial: boolean): Match[] {
+        return this.searchTasksForTerm(this.svcData.data, searchTerm, expanded, partial);
+    }
+
+    private searchTasksForTerm(
         group: DataGroup,
         searchTerm: string,
         expanded: boolean,
@@ -88,22 +124,27 @@ export class SearchService {
         // Recurse downward
         group.subGroups?.forEach((subGroup) => {
             if(subGroup.isBookmarkGroup) return;
-            matches.push(...this.searchGroupForTerm(subGroup, searchTerm, expanded, partial));
+            matches.push(...this.searchTasksForTerm(subGroup, searchTerm, expanded, partial));
         });
 
         // Search current group
         group.tasks.forEach((task) => {
             if(!expanded) { // name only search
-                const termInName = fuzzyMatchValue(task.name, searchTerm, partial);
-                const nameInTerm = false; //fuzzyMatchValue(searchTerm, task.name, partial);
+                task._parent.columns?.forEach(({ key, header }) => {
+                    if(!task.name) return;
+                    if(key !== 'name') return;
 
-                if(task.name && (termInName || nameInTerm)) {
-                    matches.push({
-                        header: 'Name',
-                        value: task.name,
-                        task
-                    });
-                }
+                    const termInName = fuzzyMatchValue(task.name, searchTerm, partial);
+                    const nameInTerm = false; //fuzzyMatchValue(searchTerm, task.name, partial);
+
+                    if(termInName || nameInTerm) {
+                        matches.push({
+                            header,
+                            value: task.name,
+                            task
+                        });
+                    }
+                });
             }
             else { // all column search
                 task._parent.columns?.forEach(({ key, header, link }) => {
