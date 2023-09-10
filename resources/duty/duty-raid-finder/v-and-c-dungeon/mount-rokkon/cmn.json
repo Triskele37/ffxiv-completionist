@@ -1,0 +1,27 @@
+{
+    "key": "mount-rokkon",
+    "headers": {
+        "unlock": {
+            "link": true
+        }
+    },
+    "tasks": {
+        "x0": {
+            "level": "90",
+            "unlock": "duty.quests.sidequests.records-of-unusual-endeavors.variant-dungeons.70269",
+            "patch": "6.45"
+        },
+        "x1": {
+            "level": "90",
+            "unlock": "",
+            "patch": "6.45",
+            "cSiblings": ["character.achievement.battle.dungeons.3339"]
+        },
+        "x2": {
+            "level": "90",
+            "unlock": "",
+            "patch": "6.45",
+            "cSiblings": ["character.achievement.battle.dungeons.3340"]
+        }
+    }
+}

@@ -30,6 +30,10 @@
             <ng-container *ngTemplateOutlet="groupSummaries"></ng-container>
         </ng-container>
 
+        <ng-container *ngIf="selectedGroup.subGroups && selectedGroup.tasks">
+            <p-divider></p-divider>
+        </ng-container>
+
         <ng-container *ngTemplateOutlet="baseTable"></ng-container>
     </div>
 </ng-template>
