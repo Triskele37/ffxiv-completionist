@@ -6,7 +6,6 @@
   * Global Filters
     * Allow Multi-selection
     * Types: Patch, Status, Class/Job/s, Zone
-  * Search to include category name
 * Data
   * 70 DoW/DoM quest chain to Antiquated relics
   * Chain duties to quest completion where applicable
@@ -14,7 +13,6 @@
     * Requires simulation of chaining
   * Chain ocean fish to achievements?
   * Flatten Duty/Raid Finder
-  * V&C dungeon records
   * Fish iLvl
 
 **Todonts**
