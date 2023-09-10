@@ -61,8 +61,8 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                 {
                     path: 'chocobo',
                     subGroups: [
-                        'attributes',
-                        'challenges'
+                        'challenges',
+                        'pedigree'
                     ]
                 },
                 {
