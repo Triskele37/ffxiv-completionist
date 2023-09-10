@@ -7,7 +7,7 @@ import {
 } from '@angular/core';
 
 import { AnchorDirective } from '@directive/anchor.directive';
-import { DataGroup } from '@domain/DataGroup';
+import { DataGroup } from '@model/DataGroup';
 import { AsIsOrderPipe } from '@pipe/asIsOrder.pipe';
 import { NavigationService } from '@service/navigation/navigation.service';
 

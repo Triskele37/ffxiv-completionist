@@ -11,8 +11,8 @@ import {
 import { SortEvent } from 'primeng/api';
 import { Table } from 'primeng/table';
 
-import { DataGroup } from '@domain/DataGroup';
-import { Task } from '@domain/Task';
+import { DataGroup } from '@model/DataGroup';
+import { Task } from '@model/Task';
 import { FilterService } from '@service/filter/filter.service';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { ConfigStoreService } from '@service/store/config-store.service';

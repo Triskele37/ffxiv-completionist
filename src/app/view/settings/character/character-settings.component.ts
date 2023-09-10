@@ -3,7 +3,7 @@ import { TranslateService } from '@ngx-translate/core';
 
 import { Completion, Lang } from '@constant';
 import { DataService } from '@data';
-import { Task } from '@domain/Task';
+import { Task } from '@model/Task';
 import { ChainService } from '@service/chain/chain.service';
 import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 

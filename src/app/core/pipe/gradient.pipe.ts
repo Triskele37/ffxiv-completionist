@@ -1,6 +1,6 @@
 import { NgModule, Pipe, PipeTransform } from '@angular/core';
 
-import { Task } from '@domain/Task';
+import { Task } from '@model/Task';
 import { ThemeService } from '@service/theme/theme.service';
 
 @Pipe({ name: 'gradient' })

@@ -30,7 +30,7 @@
             "@data": ["src/app/data"],
             "@data/*": ["src/app/data/*"],
             "@directive/*": ["src/app/core/directive/*"],
-            "@domain/*": ["src/app/domain/*"],
+            "@model/*": ["src/app/model/*"],
             "@pipe/*": ["src/app/core/pipe/*"],
             "@service/*": ["src/app/core/service/*"],
             "@util/*": ["src/app/core/util/*"]

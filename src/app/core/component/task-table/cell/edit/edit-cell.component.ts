@@ -1,6 +1,6 @@
 import { Component, ElementRef, Input, ViewChild } from '@angular/core';
 
-import { Task } from '@domain/Task';
+import { Task } from '@model/Task';
 import { SaveStoreService } from '@service/store/save-store.service';
 
 @Component({

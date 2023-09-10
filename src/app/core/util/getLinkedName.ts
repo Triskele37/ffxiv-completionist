@@ -1,4 +1,4 @@
-import { DataGroup } from '@domain/DataGroup';
+import { DataGroup } from '@model/DataGroup';
 
 export function getLinkedName(
     pathOrValue: number | string,

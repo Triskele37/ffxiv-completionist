@@ -11,7 +11,7 @@
             "@data": ["app/data"],
             "@data/*": ["app/data/*"],
             "@directive/*": ["app/core/directive/*"],
-            "@domain/*": ["app/domain/*"],
+            "@model/*": ["app/model/*"],
             "@pipe/*": ["app/core/pipe/*"],
             "@service/*": ["app/core/service/*"],
             "@util/*": ["app/core/util/*"]

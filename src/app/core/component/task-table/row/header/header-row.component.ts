@@ -1,7 +1,7 @@
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 
 import { Completion } from '@constant';
-import { DataGroup } from '@domain/DataGroup';
+import { DataGroup } from '@model/DataGroup';
 import { FilterService } from '@service/filter/filter.service';
 
 import { UniqueValues } from '@component/task-table/types';

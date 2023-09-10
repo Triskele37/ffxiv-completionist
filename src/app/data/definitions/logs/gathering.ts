@@ -1,4 +1,4 @@
-import { GroupDefinition } from '@domain/Definition';
+import { GroupDefinition } from '@model/Definition';
 
 export const GATHERING_LOG_DEFINITION: GroupDefinition = {
     path: 'gathering',

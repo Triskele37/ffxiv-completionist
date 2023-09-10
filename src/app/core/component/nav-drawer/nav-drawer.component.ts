@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 
 import { DataService } from '@data';
-import { DataGroup } from '@domain/DataGroup';
-import { isHiddenGroup } from '@domain/DataGroup/isHiddenGroup';
+import { DataGroup } from '@model/DataGroup';
+import { isHiddenGroup } from '@model/DataGroup/isHiddenGroup';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { MainMenuService } from '@service/main-menu/main-menu.service';

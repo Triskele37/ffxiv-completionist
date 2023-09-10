@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 
 import { DataService } from '@data';
-import { DataGroup } from '@domain/DataGroup';
+import { DataGroup } from '@model/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 enum Lines {

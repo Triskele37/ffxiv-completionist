@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
-import { Task } from '@domain/Task';
+import { Task } from '@model/Task';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
 import { ChainedGroup, ChainStart, ChainedTask, ChainHistory } from './types';

@@ -1,9 +1,9 @@
 import { ChangeDetectorRef, Component, ElementRef, Input, OnChanges, OnDestroy, SimpleChanges, ViewChild } from '@angular/core';
 import { OverlayPanel } from 'primeng/overlaypanel';
 
-import { Column } from '@domain/Column';
-import { DataGroup } from '@domain/DataGroup';
-import { Task } from '@domain/Task';
+import { Column } from '@model/Column';
+import { DataGroup } from '@model/DataGroup';
+import { Task } from '@model/Task';
 import { DataService } from '@data';
 
 type LinkData = {

@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 import { Completion } from '@constant';
 import { DataService } from '@data';
-import { DataGroup } from '@domain/DataGroup';
-import { Task } from '@domain/Task';
+import { DataGroup } from '@model/DataGroup';
+import { Task } from '@model/Task';
 
 // Cache the last roll for if returning to page
 let lastRandom: Task[] = [];

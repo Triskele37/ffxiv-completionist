@@ -3,7 +3,7 @@ import { TranslateService } from '@ngx-translate/core';
 
 import { Completion } from '@constant';
 import { DataService } from '@data';
-import { Task } from '@domain/Task';
+import { Task } from '@model/Task';
 import { ChainService } from '@service/chain/chain.service';
 import { Match, SearchService } from '@service/search/search.service';
 import { SaveStoreService } from '@service/store/save-store.service';

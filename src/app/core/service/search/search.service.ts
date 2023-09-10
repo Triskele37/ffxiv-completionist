@@ -3,8 +3,8 @@ import { TranslateService } from '@ngx-translate/core';
 import { BehaviorSubject } from 'rxjs';
 
 import { DataService } from '@data';
-import { DataGroup } from '@domain/DataGroup';
-import { Task } from '@domain/Task';
+import { DataGroup } from '@model/DataGroup';
+import { Task } from '@model/Task';
 
 import { getLinkedName } from '@util/getLinkedName';
 import { fuzzyMatchObject, fuzzyMatchValue } from '@util/fuzzyMatch';

@@ -1,6 +1,6 @@
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 
-import { DataGroup } from '@domain/DataGroup';
+import { DataGroup } from '@model/DataGroup';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 
 import { Overlay } from '../Overlay';

@@ -7,7 +7,7 @@ import { RandomComponent } from '../../../view/random/random.component';
 import { SettingsComponent } from '../../../view/settings/settings.component';
 import { SearchComponent } from '../../../view/search/search.component';
 
-import { DataGroup } from '@domain/DataGroup';
+import { DataGroup } from '@model/DataGroup';
 
 /** Has to be a service so TranslateService can load the group names properly
  * */

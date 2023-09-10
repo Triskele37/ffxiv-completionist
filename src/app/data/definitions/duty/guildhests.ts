@@ -1,4 +1,4 @@
-import { DataGroup } from '@domain/DataGroup';
+import { DataGroup } from '@model/DataGroup';
 import { TranslateService } from '@ngx-translate/core';
 
 export const Duty_Guildhests = (translate: TranslateService) => (parent: DataGroup, path: string) => {

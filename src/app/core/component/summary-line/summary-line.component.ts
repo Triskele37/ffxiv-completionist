@@ -3,7 +3,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
 
 import { DataService } from '@data';
-import { DataGroup } from '@domain/DataGroup';
+import { DataGroup } from '@model/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 @Component({

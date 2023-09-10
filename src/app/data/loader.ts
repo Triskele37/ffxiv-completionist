@@ -1,7 +1,7 @@
 import { TranslateService } from '@ngx-translate/core';
 
 import { Lang } from '@constant';
-import { DataGroup } from '@domain/DataGroup';
+import { DataGroup } from '@model/DataGroup';
 import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 
 export const refs: {

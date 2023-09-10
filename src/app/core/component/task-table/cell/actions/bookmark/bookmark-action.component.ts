@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges } from '@angular/core';
 
-import { Task } from '@domain/Task';
+import { Task } from '@model/Task';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 
 @Component({

@@ -1,4 +1,4 @@
-import { Task } from '@domain/Task';
+import { Task } from '@model/Task';
 
 // Each unique group containing chained tasks
 export type ChainedGroup = {

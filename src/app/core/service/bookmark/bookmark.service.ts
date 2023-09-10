@@ -3,8 +3,8 @@ import { Subject } from 'rxjs';
 
 import { Completion } from '@constant';
 import { DataService } from '@data';
-import { DataGroup } from '@domain/DataGroup';
-import { Task } from '@domain/Task';
+import { DataGroup } from '@model/DataGroup';
+import { Task } from '@model/Task';
 import { SaveStoreService } from '@service/store/save-store.service';
 
 /** Handles Group and Task bookmarks

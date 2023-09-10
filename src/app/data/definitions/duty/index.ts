@@ -1,4 +1,4 @@
-import { GroupDefinition } from '@domain/Definition';
+import { GroupDefinition } from '@model/Definition';
 import { TranslateService } from '@ngx-translate/core';
 
 import { QUEST_DEFINITION } from './quest';

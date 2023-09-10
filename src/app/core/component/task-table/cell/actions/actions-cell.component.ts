@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-import { Task } from '@domain/Task';
+import { Task } from '@model/Task';
 
 @Component({
     selector: 'xiv-actions-cell',

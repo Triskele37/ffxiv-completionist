@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
 import { DataService } from '@data';
-import { DataGroup } from '@domain/DataGroup';
-import { Task } from '@domain/Task';
+import { DataGroup } from '@model/DataGroup';
+import { Task } from '@model/Task';
 import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 

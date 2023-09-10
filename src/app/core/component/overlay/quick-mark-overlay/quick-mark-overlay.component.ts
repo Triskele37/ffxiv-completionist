@@ -2,7 +2,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 import { Completion } from '@constant';
 import { DataService } from '@data';
-import { Task } from '@domain/Task';
+import { Task } from '@model/Task';
 
 import { Overlay } from '../Overlay';
 

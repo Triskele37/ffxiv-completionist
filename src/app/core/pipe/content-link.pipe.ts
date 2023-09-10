@@ -1,7 +1,7 @@
 import { NgModule, Pipe, PipeTransform } from '@angular/core';
 
-import { DataGroup } from '@domain/DataGroup';
-import { Task } from '@domain/Task';
+import { DataGroup } from '@model/DataGroup';
+import { Task } from '@model/Task';
 
 /** Returns a pretty path to the passed DataGroup or Task
  * */

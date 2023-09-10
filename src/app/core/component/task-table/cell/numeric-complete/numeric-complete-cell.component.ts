@@ -2,7 +2,7 @@ import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges } from
 
 import { Completion } from '@constant';
 import { DataService } from '@data';
-import { Task } from '@domain/Task';
+import { Task } from '@model/Task';
 
 @Component({
     selector: 'xiv-numeric-complete-cell',

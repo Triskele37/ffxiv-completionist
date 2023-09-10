@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
 import { DataService } from '@data';
-import { DataGroup } from '@domain/DataGroup';
+import { DataGroup } from '@model/DataGroup';
 import { SaveStoreService } from '@service/store/save-store.service';
 
 type CustomTaskMeta = {

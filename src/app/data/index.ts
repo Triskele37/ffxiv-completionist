@@ -3,7 +3,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { AsyncSubject } from 'rxjs';
 
 import { refs } from '@data/loader';
-import { DataGroup } from '@domain/DataGroup';
+import { DataGroup } from '@model/DataGroup';
 import { ElectronService } from '@service/electron/electron.service';
 import { SaveStoreService } from '@service/store/save-store.service';
 
