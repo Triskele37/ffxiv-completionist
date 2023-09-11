@@ -51,3 +51,13 @@
 * Rename long keys to reduce link string lengths
   * Priority: eureka, bozja
 * Implement "build" step for resources so release doesn't transform resources when read
+* Follow up on Model rewrite
+  * Hoist into root so model can be shared between ipcMain/ipcRenderer
+  * Unit tests
+  * Find and pull out more model logic from within components
+* Remove "Definition" pattern
+  * Define child groups directly in resource json
+  * (just duplicate guildhests, its the only reason definitions exist)
+  * Strictly match against lowercase and dashes when loading
+    * ensures no shenanigans with fs loading a path partial within a file outside the app
+    * change any keys that do not match this pattern

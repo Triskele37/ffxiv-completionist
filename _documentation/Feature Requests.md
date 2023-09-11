@@ -54,6 +54,7 @@
   * Breadcrumb UI Improvement
     * add dropdown arrow to each crumb to open subgroups directly for that crumb
   * Feedback on Random view when selected group has no incomplete tasks
+    * or hide complete groups?
   * Replace most of Guide with "Contextual Help"
   * Custom application container
     * specifically title bar
