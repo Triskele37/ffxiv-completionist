@@ -1,9 +1,10 @@
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 
-import { Completion } from '@constant';
 import { DataService } from '@data';
 import { DataGroup } from '@model/DataGroup';
+import { fromJson } from '@model/DataGroup/createDataGroup/fromJson';
+import { getChildGroup, getChildTask } from '@model/DataGroup/children/getChild';
 import { Task } from '@model/Task';
 import { SaveStoreService } from '@service/store/save-store.service';
 
@@ -23,12 +24,15 @@ export class BookmarkService {
         private svcData: DataService,
         private svcSave: SaveStoreService
     ) {
-        this.group = DataGroup.fromJSON(this.svcData.data, './bookmarks');
+        this.group = fromJson(this.svcData.data, './bookmarks');
         this.group.isBookmarkGroup = true;
         this.group.subGroups = new Map();
 
         // Put this group in its placeholder
         this.svcData.data.subGroups.set(this.group._key, this.group);
+
+        // Keep task counts in sync when root data updates
+        this.svcData.data.onUpdated$.subscribe(() => this.group.updated$.next());
     }
 
     initializeBookmarks(): void {
@@ -38,14 +42,19 @@ export class BookmarkService {
 
     // Returns whether something is in the store
     isBookmarked(item: DataGroup | Task): boolean {
-        const configKey = (item instanceof DataGroup) ? 'bookmarked-groups' : 'bookmarked-tasks';
-        const bookmarks = this.svcSave.get(configKey);
-        return bookmarks.includes(item.fullStorageKey);
+        if(item.xivDataType === 'Group') {
+            const bookmarks = this.svcSave.get('bookmarked-groups');
+            return bookmarks.includes(item.fullStorageKey);
+        }
+        else {
+            const bookmarks = this.svcSave.get('bookmarked-tasks');
+            return bookmarks.includes(item.fullStorageKey);
+        }
     }
 
     // Returns whether the item is now in the store
     toggleBookmark(item: DataGroup | Task): boolean {
-        if(item instanceof DataGroup) {
+        if(item.xivDataType === 'Group') {
             return this.toggleBookmarkGroup(item);
         }
         else {
@@ -60,41 +69,12 @@ export class BookmarkService {
             const path = fullStorageKey.replace(/^overall./, '');
 
             // Add the task to this group
-            const task: Task = this.svcData.data.getChildTask(path);
+            const task: Task = getChildTask(this.svcData.data, path);
             if(task) this.group.tasks.push(task);
             else {
                 console.error('Unable to find bookmarked task:', path);
             }
         });
-
-        // Re-count totals if data changes
-        this.svcData.data.onUpdated$.subscribe(() => this.evaluateTaskCounts());
-        this.evaluateTaskCounts();
-    }
-
-    private evaluateTaskCounts(): void {
-        this.group.totalCompleted = 0;
-        this.group.totalExcluded = 0;
-
-        this.group.tasks.forEach((task) => {
-            if(task.isNumericCompletion) {
-                // Only increase excluded/completed by potential completion
-                if(task.completionFlag === Completion.X) {
-                    const potential = task.maxValue - task.minValue;
-                    this.group.totalExcluded += potential;
-                }
-                else {
-                    const completed = parseInt(task.completionFlag, 10) - task.minValue;
-                    this.group.totalCompleted += completed > 0 ? completed : 0;
-                }
-            }
-            else {
-                if(task.completionFlag === Completion.Y) this.group.totalCompleted++;
-                if(task.completionFlag === Completion.X) this.group.totalExcluded++;
-            }
-        });
-
-        this.group.updated$.next();
     }
 
     // Returns whether the task is now in the store
@@ -105,7 +85,6 @@ export class BookmarkService {
         if(addBookmark) this.addBookmarkTask(store, task);
         else this.removeBookmarkTask(store, task);
 
-        this.evaluateTaskCounts();
         this.svcSave.set('bookmarked-tasks', store);
 
         return addBookmark;
@@ -139,7 +118,7 @@ export class BookmarkService {
             const path = fullStorageKey.replace(/^overall./, '');
 
             // Add the bookmarked group to this group
-            const group: DataGroup = this.svcData.data.getChildGroup(path);
+            const group: DataGroup = getChildGroup(this.svcData.data, path);
             if(group?.fullStorageKey === fullStorageKey) {
                 this.group.subGroups.set(group._key, group);
             }

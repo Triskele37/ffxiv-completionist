@@ -1,7 +1,7 @@
 import { NgModule, Pipe, PipeTransform } from '@angular/core';
 
 import { DataGroup } from '@model/DataGroup';
-import { isHiddenGroup } from '@model/DataGroup/isHiddenGroup';
+import { isHiddenGroup } from '@model/DataGroup/ui/isHiddenGroup';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
 /** Determine if a summary group should be displayed

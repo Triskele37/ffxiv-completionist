@@ -1,7 +1,7 @@
 import { TranslateService } from '@ngx-translate/core';
 
 import { Lang } from '@constant';
-import { DataGroup } from '@model/DataGroup';
+import { Globals } from '@constant/Global';
 import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 
 export const refs: {
@@ -13,7 +13,7 @@ export const refs: {
 };
 
 export function loadJson(path: string) {
-    const lang = DataGroup.lang || Lang.EN;
+    const lang = Globals.lang || Lang.EN;
     const prefix = getPrefix();
 
     let finalJson: any;

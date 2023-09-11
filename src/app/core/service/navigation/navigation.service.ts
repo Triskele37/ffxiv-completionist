@@ -55,7 +55,7 @@ export class NavigationService {
             superGroup
         );
 
-        if(group instanceof DataGroup) return group;
+        if(group.xivDataType === 'Group') return group;
         else return this.svcMainMenu.data;
     }
 

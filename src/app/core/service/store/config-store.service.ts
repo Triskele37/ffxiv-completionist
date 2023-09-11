@@ -3,8 +3,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
 import { Subject } from 'rxjs';
 
-import { DataGroup } from '@model/DataGroup';
-import { Task } from '@model/Task';
+import { Globals } from '@constant/Global';
 import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 
 import { ConfigStore } from './Store.d';
@@ -29,15 +28,15 @@ export class ConfigStoreService extends Store<ConfigStore> {
         super(translate, primeMessage, svcElectron);
         this.load();
 
-        DataGroup.lang = this.get('lang');
-        Task.chainingEnabled = this.get('chaining-enabled');
+        Globals.lang = this.get('lang');
+        Globals.chainingEnabled = this.get('chaining-enabled');
     }
 
     set(key: string, value: any): void {
         super.set(key, value);
 
-        if(key === 'lang') DataGroup.lang = value;
-        if(key === 'chaining-enabled') Task.chainingEnabled = value;
+        if(key === 'lang') Globals.lang = value;
+        if(key === 'chaining-enabled') Globals.chainingEnabled = value;
 
         this.emitNavSettingUpdated(key);
     }

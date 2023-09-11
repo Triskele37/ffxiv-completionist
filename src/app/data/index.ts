@@ -2,8 +2,12 @@ import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { AsyncSubject } from 'rxjs';
 
+import { Globals } from '@constant/Global';
 import { refs } from '@data/loader';
 import { DataGroup } from '@model/DataGroup';
+import { fromDefinition } from '@model/DataGroup/createDataGroup/fromDefinition';
+import { fromJson } from '@model/DataGroup/createDataGroup/fromJson';
+import { setCompletion } from '@model/Task/completion/setCompletion';
 import { ElectronService } from '@service/electron/electron.service';
 import { SaveStoreService } from '@service/store/save-store.service';
 
@@ -31,26 +35,26 @@ export class DataService {
         refs.svcElectron = this.svcElectron;
         refs.translate = this.translate;
 
-        this.data = DataGroup.fromJSON(null, '');
-        DataGroup.overall = this.data;
+        this.data = fromJson(null, '');
+        Globals.allData = this.data;
 
         this.data.subGroups = new Map();
         this.data.subGroups.set('bookmarks', null);
         this.data.subGroups.set('custom', null);
 
-        const character = DataGroup.fromDefinition(this.data, CHARACTER_DEFINITION);
+        const character = fromDefinition(this.data, CHARACTER_DEFINITION);
         this.data.subGroups.set(character._key, character);
 
-        const duty = DataGroup.fromDefinition(this.data, DUTY_DEFINITION(this.translate));
+        const duty = fromDefinition(this.data, DUTY_DEFINITION(this.translate));
         this.data.subGroups.set(duty._key, duty);
 
-        const logs = DataGroup.fromDefinition(this.data, LOGS_DEFINITION);
+        const logs = fromDefinition(this.data, LOGS_DEFINITION);
         this.data.subGroups.set(logs._key, logs);
 
-        const travel = DataGroup.fromDefinition(this.data, TRAVEL_DEFINITION);
+        const travel = fromDefinition(this.data, TRAVEL_DEFINITION);
         this.data.subGroups.set(travel._key, travel);
 
-        const social = DataGroup.fromDefinition(this.data, SOCIAL_DEFINITION);
+        const social = fromDefinition(this.data, SOCIAL_DEFINITION);
         this.data.subGroups.set(social._key, social);
     }
 
@@ -102,7 +106,7 @@ function diveForLoad(group: DataGroup, storeGroup: any): void {
 
     group.tasks?.forEach((task) => {
         if(storeGroup[task.storageKey]) {
-            task.setCompletion(storeGroup[task.storageKey]);
+            setCompletion(task, storeGroup[task.storageKey]);
         }
     });
 }

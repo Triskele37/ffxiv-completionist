@@ -3,6 +3,8 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Completion } from '@constant';
 import { DataService } from '@data';
 import { Task } from '@model/Task';
+import { changeCompletion } from '@model/Task/completion/changeCompletion';
+import { setCompletion } from '@model/Task/completion/setCompletion';
 
 @Component({
     selector: 'xiv-complete-cell',
@@ -19,7 +21,7 @@ export class CompleteCellComponent {
 
     onTaskCompleteClick(): void {
         const flag = this.task.completionFlag === Completion.Y ? Completion.N : Completion.Y;
-        this.task.changeCompletion(flag, true);
+        changeCompletion(this.task, flag, true);
         this.changeCompletion();
     }
 
@@ -27,7 +29,7 @@ export class CompleteCellComponent {
         $event.preventDefault();
 
         const flag = this.task.completionFlag === Completion.X ? Completion.N : Completion.X;
-        this.task.setCompletion(flag);
+        setCompletion(this.task, flag);
         this.changeCompletion();
     }
 

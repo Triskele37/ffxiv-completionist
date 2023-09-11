@@ -3,7 +3,10 @@ import { TranslateService } from '@ngx-translate/core';
 
 import { Completion, Lang } from '@constant';
 import { DataService } from '@data';
+import { getChildTask } from '@model/DataGroup/children/getChild';
 import { Task } from '@model/Task';
+import { changeCompletion } from '@model/Task/completion/changeCompletion';
+import { setCompletion } from '@model/Task/completion/setCompletion';
 import { ChainService } from '@service/chain/chain.service';
 import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 
@@ -90,9 +93,9 @@ export class CharacterSettingsComponent implements OnInit {
     chainStartingClass(): void {
         const msq = 'duty.quests.main-scenario.seventh-umbral-era';
         const side = 'duty.quests.sidequests';
-        const gridania = this.svcData.data.getChildTask(`${msq}.gridania.65660`);
-        const limsa = this.svcData.data.getChildTask(`${msq}.limsa-lominsa.65645`);
-        const uldah = this.svcData.data.getChildTask(`${msq}.uldah.66106`);
+        const gridania = getChildTask(this.svcData.data, `${msq}.gridania.65660`);
+        const limsa = getChildTask(this.svcData.data, `${msq}.limsa-lominsa.65645`);
+        const uldah = getChildTask(this.svcData.data, `${msq}.uldah.66106`);
         let pre;
 
         // Not clearing state first makes for botched chains
@@ -102,18 +105,18 @@ export class CharacterSettingsComponent implements OnInit {
             case 'Archer':
             case 'Lancer':
             case 'Conjurer':
-                pre = this.svcData.data.getChildTask(`${side}.gridanian.gridania.65575`);
+                pre = getChildTask(this.svcData.data, `${side}.gridanian.gridania.65575`);
                 this.setAsStartingZone(gridania, pre);
                 break;
             case 'Marauder':
             case 'Arcanist':
-                pre = this.svcData.data.getChildTask(`${side}.lominsan.limsa-lominsa.65643`);
+                pre = getChildTask(this.svcData.data, `${side}.lominsan.limsa-lominsa.65643`);
                 this.setAsStartingZone(limsa, pre);
                 break;
             case 'Gladiator':
             case 'Pugilist':
             case 'Thaumaturge':
-                pre = this.svcData.data.getChildTask(`${side}.uldahn.uldah.66130`);
+                pre = getChildTask(this.svcData.data, `${side}.uldahn.uldah.66130`);
                 this.setAsStartingZone(uldah, pre);
                 break;
         }
@@ -126,11 +129,11 @@ export class CharacterSettingsComponent implements OnInit {
 
     setAsStartingZone(exclusive: Task, pre: Task): void {
         // Toggle the flag to trigger chaining
-        exclusive.changeCompletion(Completion.Y, true);
-        exclusive.setCompletion(Completion.N);
+        changeCompletion(exclusive, Completion.Y, true);
+        setCompletion(exclusive, Completion.N);
 
         // Undo the cPrev chain
-        pre.setCompletion(Completion.N);
+        setCompletion(pre, Completion.N);
     }
 
     excludeStartingClassQuest(startingClass: string): void {
@@ -147,7 +150,7 @@ export class CharacterSettingsComponent implements OnInit {
             { name: 'Pugilist', path: `${dow}.pugilist.66089` },
             { name: 'Thaumaturge', path: `${dom}.thaumaturge.65882` },
         ].forEach(({ name, path }) => {
-            const task = this.svcData.data.getChildTask(path);
+            const task = getChildTask(this.svcData.data, path);
 
             if(startingClass === name) {
                 if(task.completionFlag !== Completion.X) {
@@ -157,7 +160,7 @@ export class CharacterSettingsComponent implements OnInit {
                         toFlag: Completion.X
                     });
 
-                    task.setCompletion(Completion.X);
+                    setCompletion(task, Completion.X);
                 }
             }
             else if(task.completionFlag === Completion.X) {
@@ -167,19 +170,19 @@ export class CharacterSettingsComponent implements OnInit {
                     toFlag: Completion.N
                 });
 
-                task.setCompletion(Completion.N);
+                setCompletion(task, Completion.N);
             }
         });
     }
 
     clearStartingZone(gridania: Task, limsa: Task, uldah: Task): void {
         // The current flag cannot be N for the first zone to trigger chains properly
-        if(gridania.completionFlag === Completion.N) gridania.setCompletion(Completion.Y);
+        if(gridania.completionFlag === Completion.N) setCompletion(gridania, Completion.Y);
 
         // firstInChain must be true for the first zone to be cleared
-        gridania.changeCompletion(Completion.N, true);
-        limsa.changeCompletion(Completion.N);
-        uldah.changeCompletion(Completion.N);
+        changeCompletion(gridania, Completion.N, true);
+        changeCompletion(limsa, Completion.N);
+        changeCompletion(uldah, Completion.N);
     }
 
     //#endregion

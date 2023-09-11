@@ -26,6 +26,7 @@
         ],
         "paths": {
             "@constant": ["src/app/constant"],
+            "@constant/*": ["src/app/constant/*"],
             "@component/*": ["src/app/core/component/*"],
             "@data": ["src/app/data"],
             "@data/*": ["src/app/data/*"],

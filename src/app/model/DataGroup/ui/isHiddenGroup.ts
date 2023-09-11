@@ -1,6 +1,7 @@
 import { ConfigStoreService } from '@service/store/config-store.service';
 
-import { DataGroup } from '../DataGroup';
+import { DataGroup } from '../';
+import { isComplete, isEmpty } from '../completion/metrics';
 
 export function isHiddenGroup(
     group: DataGroup,
@@ -9,10 +10,10 @@ export function isHiddenGroup(
     if(group.isUiGroup) return false;
 
     const showCompletedGroups = svcConfig.get('show-completed-groups');
-    if(group.isComplete && !showCompletedGroups) return true;
+    if(isComplete(group) && !showCompletedGroups) return true;
 
     const showEmptyGroups = svcConfig.get('show-empty-groups');
-    if(!group.isComplete && group.isEmpty && !showEmptyGroups) return true;
+    if(!isComplete(group) && isEmpty(group) && !showEmptyGroups) return true;
 
     return false;
 }

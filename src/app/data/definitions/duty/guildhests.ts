@@ -1,12 +1,13 @@
 import { DataGroup } from '@model/DataGroup';
+import { fromJson } from '@model/DataGroup/createDataGroup/fromJson';
 import { TranslateService } from '@ngx-translate/core';
 
 export const Duty_Guildhests = (translate: TranslateService) => (parent: DataGroup, path: string) => {
-    const group = DataGroup.fromJSON(parent, `${path}`);
+    const group = fromJson(parent, `${path}`);
     group.subGroups = new Map();
 
     const addGuildhestClone = (name: string) => {
-        const clone = DataGroup.fromJSON(group, `${path}/guildhests`).forceName(name);
+        const clone = forceName(fromJson(group, `${path}/guildhests`), name);
         group.subGroups.set(clone._key, clone);
 
         for(let i = 1; i < clone.tasks.length; i++) {
@@ -33,3 +34,13 @@ export const Duty_Guildhests = (translate: TranslateService) => (parent: DataGro
 
     return group;
 };
+
+// allow one json for guildhests instead of 1 per class
+function forceName(group: DataGroup, name) {
+    group.name = name;
+    group._key = name.toLowerCase()
+        .replace(/ /g, '-')
+        .replace(/[^a-z0-9-]/g, '');
+
+    return group;
+}

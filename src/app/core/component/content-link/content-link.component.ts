@@ -23,12 +23,12 @@ export class ContentLinkComponent implements OnChanges {
 
     ngOnChanges(changes: SimpleChanges): void {
         if(changes.content) {
-            this.isGroup = this.content instanceof DataGroup;
+            this.isGroup = this.content.xivDataType === 'Group';
         }
     }
 
     onClickLink(): void {
-        if(this.content instanceof DataGroup) {
+        if(this.content.xivDataType === 'Group') {
             this.svcNavigation.setSelectedGroup(this.content);
         }
         else {

@@ -3,7 +3,9 @@ import { MenuItem } from 'primeng/api';
 
 import { DataService } from '@data';
 import { DataGroup } from '@model/DataGroup';
-import { isHiddenGroup } from '@model/DataGroup/isHiddenGroup';
+import { getGroupPath } from '@model/DataGroup/children/getGroupPath';
+import { isComplete, isEmpty } from '@model/DataGroup/completion/metrics';
+import { isHiddenGroup } from '@model/DataGroup/ui/isHiddenGroup';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 import { MainMenuService } from '@service/main-menu/main-menu.service';
@@ -37,7 +39,7 @@ export class NavDrawerComponent implements OnInit {
 
         // Collapse all groups not in the direct path of the selected group
         this.svcNavigation.selectedGroup$.subscribe((group) => {
-            let path = group?.groupPath;
+            let path = group ? getGroupPath(group) : null;
             if(path) {
                 // Remove the "overall" data container
                 if(!group.isUiGroup) path = path.slice(1);
@@ -102,9 +104,11 @@ export class NavDrawerComponent implements OnInit {
         // The callback when the MenuItem is clicked
         item.command = () => {
             const selectedGroup = this.svcNavigation.selectedGroup$.value;
-            const sameGroup = selectedGroup.groupPath.join('.') === group.groupPath.join('.');
+            const selectedPath = getGroupPath(selectedGroup).join('.');
+            const addingPath = getGroupPath(group).join('.');
+            const isSameGroup = selectedPath === addingPath;
 
-            this.svcNavigation.setSelectedGroup(sameGroup ? group._parent : group);
+            this.svcNavigation.setSelectedGroup(isSameGroup ? group._parent : group);
         };
 
         return item;
@@ -120,8 +124,8 @@ export class NavDrawerComponent implements OnInit {
         // Don't modify UI groups
         if(group.isUiGroup) return label;
 
-        if(group.isComplete) label += '<i class="mi mi-star"></i>';
-        else if(group.isEmpty) label += '<i class="mi mi-star empty"></i>';
+        if(isComplete(group)) label += '<i class="mi mi-star"></i>';
+        else if(isEmpty(group)) label += '<i class="mi mi-star empty"></i>';
 
         return label;
     }

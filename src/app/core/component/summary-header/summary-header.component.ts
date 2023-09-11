@@ -44,9 +44,9 @@ export class SummaryHeaderComponent implements OnInit {
     ngOnInit(): void {
         this.allData = this.svcData.data;
         this.svcNavigation.selectedGroup$.subscribe((group) => {
-            this.group = (group instanceof DataGroup) ? group : null;
+            this.group = group?.xivDataType === 'Group' ? group : null;
 
-            if(!this.group?._parent) {
+            if(!this.group._parent) {
                 // Overall can't be hidden if there is no sub group
                 this.hideOverall = false;
             }

@@ -3,6 +3,7 @@ import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges } from
 import { Completion } from '@constant';
 import { DataService } from '@data';
 import { Task } from '@model/Task';
+import { changeCompletion } from '@model/Task/completion/changeCompletion';
 
 @Component({
     selector: 'xiv-numeric-complete-cell',
@@ -40,7 +41,7 @@ export class NumericCompleteCellComponent implements OnChanges {
 
     onTaskValueChange(): void {
         // Update the new value
-        this.task.changeCompletion(this.value, true);
+        changeCompletion(this.task, this.value, true);
         this.svcData.applyDataToStore();
 
         // onBlur and rebinding value can't happen in the same tick

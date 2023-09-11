@@ -3,6 +3,7 @@ import { OverlayPanel } from 'primeng/overlaypanel';
 
 import { Column } from '@model/Column';
 import { DataGroup } from '@model/DataGroup';
+import { getChild } from '@model/DataGroup/children/getChild';
 import { Task } from '@model/Task';
 import { DataService } from '@data';
 
@@ -77,14 +78,10 @@ export class DataCellComponent implements OnChanges, OnDestroy {
 
     getLinkFromPath(pathOrValue: string): LinkData {
         if(this.column.link && pathOrValue?.includes('.')) {
-            const content = this.svcData.data.getChild(pathOrValue) || pathOrValue;
-            const isGroup = content instanceof DataGroup;
-            const isTask = content instanceof Task;
-
-            return {
-                value: content,
-                type: isGroup ? 'Group' : isTask ? 'Task' : 'Value'
-            };
+            const content = getChild(this.svcData.data, pathOrValue);
+            if(content?.xivDataType === 'Group') return { value: content, type: 'Group' };
+            if(content?.xivDataType === 'Task') return { value: content, type: 'Task' };
+            return { value: pathOrValue, type: 'Value' };
         }
         else {
             // parameter is a raw value

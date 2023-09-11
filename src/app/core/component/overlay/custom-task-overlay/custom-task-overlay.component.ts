@@ -4,6 +4,9 @@ import { TranslateService } from '@ngx-translate/core';
 import { Completion } from '@constant';
 import { DataService } from '@data';
 import { Task } from '@model/Task';
+import { createTask } from '@model/Task/createTask';
+import { changeCompletion } from '@model/Task/completion/changeCompletion';
+import { setCompletion } from '@model/Task/completion/setCompletion';
 import { ChainService } from '@service/chain/chain.service';
 import { Match, SearchService } from '@service/search/search.service';
 import { SaveStoreService } from '@service/store/save-store.service';
@@ -67,7 +70,7 @@ export class CustomTaskOverlayComponent extends Overlay {
         });
 
         // Update data with new custom task
-        this.svcCustomTask.group.tasks.push(new Task({
+        this.svcCustomTask.group.tasks.push(createTask({
             id: nextId,
             name: this.newTaskName,
             notes: this.newTaskNotes
@@ -150,7 +153,8 @@ export class CustomTaskOverlayComponent extends Overlay {
     confirmCurrentMerge(match: Task): void {
         // Update the completion flag if it has changed
         if(match.completionFlag !== this.mergeTask.completionFlag) {
-            this.mergeFirstInChain = !match.changeCompletion(
+            this.mergeFirstInChain = !changeCompletion(
+                match,
                 this.mergeTask.completionFlag,
                 this.mergeFirstInChain
             ) && this.mergeFirstInChain;
@@ -173,8 +177,8 @@ export class CustomTaskOverlayComponent extends Overlay {
 
     removeCustomTask_UI(task: Task): void {
         // Update displayed completion (must change to update properly, hence Y to N)
-        task.setCompletion(Completion.Y);
-        task.setCompletion(Completion.N);
+        setCompletion(task, Completion.Y);
+        setCompletion(task, Completion.N);
 
         // Find & Remove from data
         const index = this.svcCustomTask.group.tasks.findIndex((t) => t.id === task.id);

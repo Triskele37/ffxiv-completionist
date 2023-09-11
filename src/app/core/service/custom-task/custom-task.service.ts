@@ -2,6 +2,8 @@ import { Injectable } from '@angular/core';
 
 import { DataService } from '@data';
 import { DataGroup } from '@model/DataGroup';
+import { fromJson } from '@model/DataGroup/createDataGroup/fromJson';
+import { initializeTasks } from '@model/DataGroup/createDataGroup/initializeTasks';
 import { SaveStoreService } from '@service/store/save-store.service';
 
 type CustomTaskMeta = {
@@ -19,7 +21,7 @@ export class CustomTaskService {
         private svcData: DataService,
         private svcSaveStore: SaveStoreService
     ) {
-        this.group = DataGroup.fromJSON(this.svcData.data, './custom');
+        this.group = fromJson(this.svcData.data, './custom');
         this.group.isCustomGroup = true;
         this.group.draggable = true;
 
@@ -38,7 +40,7 @@ export class CustomTaskService {
             };
         });
 
-        this.group.initializeTasks(meta);
+        initializeTasks(this.group, meta);
     }
 
     getMeta(): { [key: string]: CustomTaskMeta } {
