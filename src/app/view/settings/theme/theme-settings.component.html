@@ -32,6 +32,30 @@
     />
 </div>
 
+<div class="setting">
+    <label>{{'MAIN.SETTING.THEME.FONT_SIZE.LABEL' | translate}}</label>
+
+    <div
+        class="font-size-controls"
+        [pTooltip]="'MAIN.SETTING.THEME.FONT_SIZE.TOOLTIP' | translate"
+        tooltipPosition="right"
+    >
+        <p-inputNumber
+            [(ngModel)]="svcTheme.fontSize"
+            [showButtons]="true"
+            [min]="8"
+            [max]="24"
+            (onBlur)="svcTheme.setFontSize(svcTheme.fontSize)"
+        ></p-inputNumber>
+
+        <p-button
+            styleClass="reset-font-size"
+            icon="mi mi-restart-alt"
+            (onClick)="resetFontSize()"
+        ></p-button>
+    </div>
+</div>
+
 <div class="setting-line">
     <label>{{'MAIN.SETTING.THEME.PRIMARY_COLOR' | translate}}</label>
 

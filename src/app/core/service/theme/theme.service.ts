@@ -25,6 +25,7 @@ export class ThemeService {
     backgroundColor: HSL;
     textColor: RGB;
     fontFamily: string;
+    fontSize: number;
 
     completeColor: RGB;
     incompleteColor: RGB;
@@ -39,6 +40,7 @@ export class ThemeService {
         this.loadBackgroundColor();
         this.loadTextColor();
         this.loadFontFamily();
+        this.loadFontSize();
 
         this.loadIncompleteColor();
         this.loadPartialCompleteColor();
@@ -180,6 +182,17 @@ export class ThemeService {
 
         this.setStyle('--font-family', fontFamily);
         this.svcConfig.set('theme.font-family', fontFamily);
+    }
+
+    loadFontSize(): void {
+        this.setFontSize(this.svcConfig.get('theme.font-size'));
+    }
+
+    setFontSize(fontSize: number): void {
+        this.fontSize = fontSize;
+
+        this.setStyle('--font-size', `${fontSize}px`);
+        this.svcConfig.set('theme.font-size', fontSize);
     }
 
     //#endregion

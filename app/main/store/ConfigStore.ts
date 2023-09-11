@@ -44,6 +44,7 @@ export class ConfigStore {
                 'background': '0, 0, 12',
                 'text-color-rgb': '255, 255, 255',
                 'font-family': 'sans-serif',
+                'font-size': 16,
                 'incomplete-rgb': '111, 0, 0',
                 'partial-complete-rgb': '111, 111, 0',
                 'completed-rgb': '0, 111, 0',

@@ -4,6 +4,7 @@
     --primary-color-text: #121212;
     --text-color-rgb: 255, 255, 255;
     --font-family: Arial, Helvetica, sans-serif;
+    --font-size: 16px;
     --bg-h: 0;
     --bg-s: 0%;
     --bg-l: 12%;
@@ -53,7 +54,7 @@
     --gray-900: #121212;
 
     // Spacing
-    --content-padding: 7px;
+    --content-padding: calc(var(--font-size) * 0.5);
     --inline-spacing: 0.5rem;
     --border-radius: 4px;
     --icon-size: 16px;

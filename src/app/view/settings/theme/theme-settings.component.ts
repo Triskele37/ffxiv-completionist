@@ -68,6 +68,10 @@ export class ThemeSettingsComponent implements OnInit {
 
     //#endregion
 
+    resetFontSize(): void {
+        this.svcTheme.setFontSize(16);
+    }
+
     //#region------------------------------------------------------- Completion Colors
     setIncompleteColor(): void {
         this.svcTheme.setIncompleteColor(this.svcTheme.incompleteColor);

@@ -1,6 +1,10 @@
 @import '~material-icons/iconfont/material-icons';
 @import '~material-icons/css/material-icons.css';
 
+.material-icons {
+    font-size: calc(var(--font-size) * 1.5);
+}
+
 .i-complete {
     @extend .material-icons;
     color: var(--completed);

@@ -1,8 +1,11 @@
+$setting-height: 40px;
+
 .settings-page {
     ::ng-deep .setting {
         display: flex;
         align-items: center;
-        height: 38px;
+        margin: 4px 0;
+        height: $setting-height;
 
         &.bool {
             width: 250px;
@@ -19,13 +22,18 @@
             width: 200px;
         }
 
+        .p-button:not(.p-inputnumber-button) {
+            height: $setting-height;
+        }
+
         .p-dropdown {
             align-items: center;
-            height: 38px;
+            height: $setting-height;
             width: 150px;
         }
 
         .p-inputnumber input {
+            height: $setting-height;
             width: 60px;
         }
     }

@@ -383,7 +383,8 @@
                     "L6": "Version display in app bar and lower left",
                     "L7": "Option to hide completed and empty groups from navigation",
                     "L8": "Groups tab to app search",
-                    "L9": "Subgroup selection from breadcrumb arrows"
+                    "L9": "Subgroup selection from breadcrumb arrows",
+                    "L10": "Font size setting in Theme"
                 },
                 "CHANGE": {
                     "L1": "Reworked Orchestrion data"
@@ -433,6 +434,10 @@
                 "PRIMARY_TEXT": "Primary Color Text",
                 "TEXT_COLOR": "Text Color",
                 "FONT": "Font",
+                "FONT_SIZE": {
+                    "LABEL": "Font Size",
+                    "TOOLTIP": "Changing drastically may create poor UI"
+                },
                 "BACKGROUND": "Background",
                 "COMPLETION": "Completion",
                 "PRESETS": {

@@ -27,6 +27,7 @@ export type ConfigStore = {
         'background': string;
         'text-color-rgb': string;
         'font-family': string;
+        'font-size': number;
         'incomplete-rgb': string;
         'partial-complete-rgb': string;
         'completed-rgb': string;
