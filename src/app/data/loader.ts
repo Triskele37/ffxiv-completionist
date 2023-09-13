@@ -13,7 +13,7 @@ export const refs: {
 };
 
 export function loadJson(path: string) {
-    const lang = Globals.lang || Lang.EN;
+    const lang = Globals.config.lang || Lang.EN;
     const prefix = getPrefix();
 
     let finalJson: any;

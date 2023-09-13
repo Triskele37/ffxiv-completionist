@@ -84,6 +84,9 @@ export class ConfigStore {
         // Make a "last valid config" backup
         if(successful) this.saveBackup();
 
+        // Attach admin flag
+        ConfigStore.store.isAdmin = ConfigStore.isServe;
+
         return {
             data: ConfigStore.store,
             successful
@@ -133,6 +136,9 @@ export class ConfigStore {
     }
 
     static saveBackup(): void {
+        // Ensure admin flag is not stored
+        delete ConfigStore.store.isAdmin;
+
         fs.writeFileSync(
             ConfigStore.backupPath,
             JSON.stringify(ConfigStore.store, null, 4)

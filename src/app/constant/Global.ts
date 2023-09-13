@@ -1,19 +1,13 @@
 import { DataGroup } from '@model/DataGroup';
-
-import { Lang } from './';
+import { ConfigStore } from '@service/store/Store.d';
 
 /**
  * Figure out a better way to share this data
  * with the model
  * */
 type GlobalNaughtyStore = {
-    allData: DataGroup;
-    chainingEnabled: boolean;
-    lang: Lang;
+    config?: ConfigStore;
+    allData?: DataGroup;
 };
 
-export const Globals: GlobalNaughtyStore = {
-    allData: undefined,
-    chainingEnabled: undefined,
-    lang: undefined,
-};
+export const Globals: GlobalNaughtyStore = {};

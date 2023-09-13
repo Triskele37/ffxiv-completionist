@@ -1,4 +1,4 @@
-import { APP_CONFIG } from '../../../../environments/environment';
+import { Globals } from '@constant/Global';
 import { DataGroup } from '../';
 
 export function initializeColumns(group: DataGroup, json) {
@@ -11,8 +11,8 @@ export function initializeColumns(group: DataGroup, json) {
     }
 
     // Show keys when in dev mode
-    if(APP_CONFIG.showKeys) {
-        if(group.columns?.[0].key !== 'fullStorageKey') {
+    if(Globals.config.isAdmin) {
+        if(group.columns?.[0] && group.columns[0].key !== 'fullStorageKey') {
             group.columns.unshift({
                 key: 'fullStorageKey',
                 header: 'ID'

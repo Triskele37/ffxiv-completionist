@@ -24,7 +24,7 @@ export function changeCompletion(
     }
 
     // Dodge all of this if chaining is disabled
-    if(!Globals.chainingEnabled) {
+    if(!Globals.config['chaining-enabled']) {
         setCompletion(task, to);
         return false;
     }

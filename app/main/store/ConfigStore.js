@@ -79,6 +79,8 @@ var ConfigStore = /** @class */ (function () {
         // Make a "last valid config" backup
         if (successful)
             this.saveBackup();
+        // Attach admin flag
+        ConfigStore.store.isAdmin = ConfigStore.isServe;
         return {
             data: ConfigStore.store,
             successful: successful
@@ -118,6 +120,8 @@ var ConfigStore = /** @class */ (function () {
         }
     };
     ConfigStore.saveBackup = function () {
+        // Ensure admin flag is not stored
+        delete ConfigStore.store.isAdmin;
         fs.writeFileSync(ConfigStore.backupPath, JSON.stringify(ConfigStore.store, null, 4));
     };
     //#endregion

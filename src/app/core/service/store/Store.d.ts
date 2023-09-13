@@ -1,4 +1,5 @@
 export type ConfigStore = {
+    isAdmin: boolean;
     'store-name': string;
     'store-loc': string;
     'lang': string;

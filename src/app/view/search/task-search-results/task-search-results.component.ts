@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 
-import { APP_CONFIG } from '../../../../environments/environment';
+import { Globals } from '@constant/Global';
 import { Match, SearchService } from '@service/search/search.service';
 
 type ExpandedRows = {
@@ -17,7 +17,7 @@ export class TaskSearchResultsComponent implements OnInit, OnDestroy {
     private sub: Subscription;
 
     rowKeys: string[];
-    showKey: boolean = !APP_CONFIG.production;
+    showKey: boolean = Globals.config.isAdmin;
 
     willCollapseAll: boolean = false;
     expandedRows: ExpandedRows = {};

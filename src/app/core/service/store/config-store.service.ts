@@ -28,15 +28,13 @@ export class ConfigStoreService extends Store<ConfigStore> {
         super(translate, primeMessage, svcElectron);
         this.load();
 
-        Globals.lang = this.get('lang');
-        Globals.chainingEnabled = this.get('chaining-enabled');
+        Globals.config = this.data;
     }
 
     set(key: string, value: any): void {
         super.set(key, value);
 
-        if(key === 'lang') Globals.lang = value;
-        if(key === 'chaining-enabled') Globals.chainingEnabled = value;
+        Globals.config = this.data; // necessary?
 
         this.emitNavSettingUpdated(key);
     }
