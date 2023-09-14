@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 
-import { Globals } from '@constant/Global';
+import { ConfigStoreService } from '@service/store/config-store.service';
 import { Match, SearchService } from '@service/search/search.service';
 
 type ExpandedRows = {
@@ -14,28 +14,37 @@ type ExpandedRows = {
     styleUrls: ['./task-search-results.component.scss']
 })
 export class TaskSearchResultsComponent implements OnInit, OnDestroy {
-    private sub: Subscription;
+    private searchSub: Subscription;
+    private storeSub: Subscription;
 
     rowKeys: string[];
-    showKey: boolean = Globals.config.isAdmin;
+    showKey: boolean;
 
     willCollapseAll: boolean = false;
     expandedRows: ExpandedRows = {};
 
     hasResults: boolean;
 
-    constructor(public svcSearch: SearchService) {
+    constructor(
+        public svcConfigStore: ConfigStoreService,
+        public svcSearch: SearchService
+    ) {
     }
 
     ngOnInit(): void {
-        this.sub = this.svcSearch.searchTaskMatches$.subscribe((tasks) => {
+        this.searchSub = this.svcSearch.searchTaskMatches$.subscribe((tasks) => {
             this.hasResults = !!tasks.length;
             this.setRowsExpanded(tasks, true);
+        });
+
+        this.storeSub = this.svcConfigStore.updated$.subscribe((data) => {
+            this.showKey = data.isAdmin;
         });
     }
 
     ngOnDestroy(): void {
-        this.sub?.unsubscribe();
+        this.searchSub?.unsubscribe();
+        this.storeSub?.unsubscribe();
     }
 
     expandSearch(): void {

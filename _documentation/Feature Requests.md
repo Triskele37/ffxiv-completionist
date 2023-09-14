@@ -58,6 +58,8 @@
   * Replace most of Guide with "Contextual Help"
   * Custom application container
     * specifically title bar
+* Potential fix for .p-buttonset
+  * ALL buttons in a buttonset have to be children of another element
 * Data
   * Toy Chest?
     * Cheap Dungeon has 5 levels

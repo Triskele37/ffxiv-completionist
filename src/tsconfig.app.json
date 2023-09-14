@@ -6,6 +6,7 @@
         "baseUrl": ".",
         "types": [],
         "paths": {
+            "@admin/*": ["app/admin/*"],
             "@constant": ["app/constant"],
             "@constant/*": ["app/constant/*"],
             "@component/*": ["app/core/component/*"],

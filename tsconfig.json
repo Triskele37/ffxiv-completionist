@@ -25,6 +25,7 @@
             "dom"
         ],
         "paths": {
+            "@admin/*": ["src/app/admin/*"],
             "@constant": ["src/app/constant"],
             "@constant/*": ["src/app/constant/*"],
             "@component/*": ["src/app/core/component/*"],
