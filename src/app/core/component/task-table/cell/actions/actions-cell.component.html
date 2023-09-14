@@ -24,6 +24,15 @@
             (onClick)="onCloseActions()"
         ></xiv-garland-action>
 
+        <span *ngIf="showCopyId">
+            <div
+                class="action mi mi-content-copy"
+                tooltipPosition="top"
+                pTooltip="Copy ID"
+                (click)="copyTaskId()"
+            ></div>
+        </span>
+
         <xiv-bookmark-action
             *ngIf="!task._parent.isCustomGroup"
             [task]="task"

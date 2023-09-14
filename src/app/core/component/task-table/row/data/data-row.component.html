@@ -14,7 +14,6 @@
         <td class="data-cell">
             <ng-container
                 *ngTemplateOutlet="
-                    column.key === 'fullStorageKey' ? keyCell :
                     column.editable ? editCell :
                     column.key === 'contentLink' ? showAllLinkCell :
                     superCell;
@@ -47,12 +46,6 @@
         [value]="task.completionFlag"
         (onChange)="completionChange.emit()"
     ></xiv-numeric-complete-cell>
-</ng-template>
-
-<ng-template #keyCell let-column>
-    <span [pTooltip]="task[column.key].substr(8)">
-        {{task[column.key].substr(8)}}
-    </span>
 </ng-template>
 
 <ng-template #editCell let-column>
