@@ -1,7 +1,6 @@
 import { BrowserWindow, IpcMainEvent, Rectangle, screen } from 'electron';
 import * as path from 'path';
 import * as fs from 'fs';
-import * as url from 'url';
 
 import { ConfigStore } from './ConfigStore';
 
@@ -89,7 +88,9 @@ export class WindowStore {
 
     static loadWindowUrl(isServe: boolean): void {
         if(isServe) {
-            WindowStore.main.webContents.openDevTools();
+            const debug = require('electron-debug');
+            debug();
+
             require('electron-reload')(__dirname, {
                 electron: require(path.join(__dirname, '../../../node_modules/electron'))
             });
@@ -109,11 +110,8 @@ export class WindowStore {
                 pathIndex = '../../../app/index.html';
             }
 
-            WindowStore.main.loadURL(url.format({
-                pathname: path.join(__dirname, pathIndex),
-                protocol: 'file:',
-                slashes: true
-            }));
+            const url = new URL(path.join('file:', __dirname, pathIndex));
+            void WindowStore.main.loadURL(url.href);
         }
     }
 

@@ -15,7 +15,6 @@ exports.WindowStore = void 0;
 var electron_1 = require("electron");
 var path = require("path");
 var fs = require("fs");
-var url = require("url");
 var ConfigStore_1 = require("./ConfigStore");
 var WindowStore = /** @class */ (function () {
     function WindowStore() {
@@ -63,7 +62,7 @@ var WindowStore = /** @class */ (function () {
             center: true
         });
         // WindowStore.splash.webContents.openDevTools();
-        WindowStore.splash.loadURL("file://" + __dirname + "/../../splash.html");
+        WindowStore.splash.loadURL("file://".concat(__dirname, "/../../splash.html"));
     };
     //#endregion
     //#region------------------------------------------------------- Main Window
@@ -79,11 +78,12 @@ var WindowStore = /** @class */ (function () {
     };
     WindowStore.loadWindowUrl = function (isServe) {
         if (isServe) {
-            WindowStore.main.webContents.openDevTools();
+            var debug = require('electron-debug');
+            debug();
             require('electron-reload')(__dirname, {
                 electron: require(path.join(__dirname, '../../../node_modules/electron'))
             });
-            WindowStore.main.loadURL('http://localhost:4200');
+            WindowStore.main.loadURL('http://127.0.0.1:3000');
         }
         else {
             // Path when running electron executable
@@ -96,11 +96,8 @@ var WindowStore = /** @class */ (function () {
                 // Path when running release
                 pathIndex = '../../../app/index.html';
             }
-            WindowStore.main.loadURL(url.format({
-                pathname: path.join(__dirname, pathIndex),
-                protocol: 'file:',
-                slashes: true
-            }));
+            var url = new URL(path.join('file:', __dirname, pathIndex));
+            void WindowStore.main.loadURL(url.href);
         }
     };
     WindowStore.focusMainWindow = function () {

@@ -223,39 +223,40 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
     observer: MutationObserver;
 
     observeVirtualWrapper(): void {
-        if(!this._taskTable?.virtualScrollBody) return;
-
-        const callback: MutationCallback = (mutations) => {
-            const styleChanged = mutations.some(
-                (m) => m.type === 'attributes' && m.attributeName === 'style'
-            );
-
-            if(styleChanged) this.adjustVirtualHeader();
-        };
-
-        this.observer?.disconnect();
-        this.observer = new MutationObserver(callback);
-
-        // Observe the virtual wrapper for style changes
-        const config = { attributes: true, childList: false, subtree: false };
-        const { nativeElement } = this._taskTable.virtualScrollBody._contentWrapper;
-        this.observer.observe(nativeElement, config);
+        //TODO - fixed something with virtual scroll, `virtualScrollBody` might be `scroller`?
+        // if(!this._taskTable?.virtualScrollBody) return;
+        //
+        // const callback: MutationCallback = (mutations) => {
+        //     const styleChanged = mutations.some(
+        //         (m) => m.type === 'attributes' && m.attributeName === 'style'
+        //     );
+        //
+        //     if(styleChanged) this.adjustVirtualHeader();
+        // };
+        //
+        // this.observer?.disconnect();
+        // this.observer = new MutationObserver(callback);
+        //
+        // // Observe the virtual wrapper for style changes
+        // const config = { attributes: true, childList: false, subtree: false };
+        // const { nativeElement } = this._taskTable.virtualScrollBody._contentWrapper;
+        // this.observer.observe(nativeElement, config);
     }
 
     adjustVirtualHeader(): void {
-        if(!this._taskTable?.virtualScrollBody) return;
-
-        // Grab the translation from the virtual scroll container
-        const { transform } = this._taskTable.virtualScrollBody._contentWrapper.nativeElement.style;
-        if(!transform) return;
-
-        const transformInt: number = parseInt(transform.match(/[0-9]+/)[0], 10);
-
-        // Apply the inverse to each <th>
-        const headers = this._taskTable.el.nativeElement.getElementsByTagName('th');
-        for(const header of headers) {
-            header.style.top = `${-transformInt}px`;
-        }
+        // if(!this._taskTable?.virtualScrollBody) return;
+        //
+        // // Grab the translation from the virtual scroll container
+        // const { transform } = this._taskTable.virtualScrollBody._contentWrapper.nativeElement.style;
+        // if(!transform) return;
+        //
+        // const transformInt: number = parseInt(transform.match(/[0-9]+/)[0], 10);
+        //
+        // // Apply the inverse to each <th>
+        // const headers = this._taskTable.el.nativeElement.getElementsByTagName('th');
+        // for(const header of headers) {
+        //     header.style.top = `${-transformInt}px`;
+        // }
     }
 
     //#endregion

@@ -5,19 +5,19 @@ var electron_1 = require("electron");
 //#region------------------------------------------------------- Search External
 function searchConsoleGamer(event, term) {
     var query = asQueryString(term, true);
-    electron_1.shell.openExternal("https://ffxiv.consolegameswiki.com/?search=" + query);
+    electron_1.shell.openExternal("https://ffxiv.consolegameswiki.com/?search=".concat(query));
     event.returnValue = null;
 }
 exports.searchConsoleGamer = searchConsoleGamer;
 function searchGamerEscape(event, term) {
     var query = asQueryString(term, true);
-    electron_1.shell.openExternal("https://ffxiv.gamerescape.com/?search=" + query);
+    electron_1.shell.openExternal("https://ffxiv.gamerescape.com/?search=".concat(query));
     event.returnValue = null;
 }
 exports.searchGamerEscape = searchGamerEscape;
 function searchGarlandTools(event, term) {
     var query = asQueryString(term, false);
-    electron_1.shell.openExternal("https://www.garlandtools.org/db/#search/" + query);
+    electron_1.shell.openExternal("https://www.garlandtools.org/db/#search/".concat(query));
     event.returnValue = null;
 }
 exports.searchGarlandTools = searchGarlandTools;
@@ -25,17 +25,17 @@ exports.searchGarlandTools = searchGarlandTools;
 //#region------------------------------------------------------- Open External
 function openInGarlandTools(event, ids, groupName) {
     var baseUrl = 'https://www.garlandtools.org/db/#group';
-    var idsString = ids.map(function (id) { return "item/" + id; }).join('|');
+    var idsString = ids.map(function (id) { return "item/".concat(id); }).join('|');
     var encodedGroupName = groupName.replace(' ', '%20');
-    electron_1.shell.openExternal(baseUrl + "/" + encodedGroupName + "{" + idsString + "}");
+    electron_1.shell.openExternal("".concat(baseUrl, "/").concat(encodedGroupName, "{").concat(idsString, "}"));
     event.returnValue = null;
 }
 exports.openInGarlandTools = openInGarlandTools;
 function openInTeamcraft(event, ids) {
     var baseUrl = 'https://www.ffxivteamcraft.com/import';
-    var idsString = ids.map(function (id) { return id + ",null,1"; }).join(';');
+    var idsString = ids.map(function (id) { return "".concat(id, ",null,1"); }).join(';');
     var b64ids = Buffer.from(idsString).toString('base64');
-    electron_1.shell.openExternal(baseUrl + "/" + b64ids);
+    electron_1.shell.openExternal("".concat(baseUrl, "/").concat(b64ids));
     event.returnValue = null;
 }
 exports.openInTeamcraft = openInTeamcraft;

@@ -30,7 +30,7 @@ export class TableActionOverlayComponent extends Overlay implements OnInit, OnCh
     ) {
         super();
     }
-    
+
     ngOnInit() {
         this.storeSub = this.svcConfigStore.updated$.subscribe((data) => {
             this.showAddTask = data.isAdmin;

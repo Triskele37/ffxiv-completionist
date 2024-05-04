@@ -18,7 +18,7 @@ export class ConfigStoreService extends Store<ConfigStore> {
     failedSummaryKey = 'TOAST.CONFIG_FAILED_SUMMARY';
     failedDetailKey = 'TOAST.CONFIG_FAILED_DETAIL';
 
-    navSettingUpdated$ = new Subject();
+    navSettingUpdated$ = new Subject<void>();
 
     constructor(
         translate: TranslateService,

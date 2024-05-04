@@ -172,7 +172,7 @@ var ConfigStore = /** @class */ (function () {
         event.returnValue = null;
     };
     ConfigStore.backup = function (event) {
-        var fileName = "config-" + PlayerStore_1.PlayerStore.store.version + "-backup.json";
+        var fileName = "config-".concat(PlayerStore_1.PlayerStore.store.version, "-backup.json");
         var result = electron_1.dialog.showSaveDialogSync({
             defaultPath: path.join(electron_1.app.getPath('userData'), fileName),
             filters: [{ name: 'JSON', extensions: ['json'] }]
