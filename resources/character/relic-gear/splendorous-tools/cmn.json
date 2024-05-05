@@ -17,7 +17,33 @@
             "job": "CLASS_JOB.CRP",
             "iLevel": "620",
             "cSiblings":  ["character.achievement.items.splendorous-tools.3193"],
-            "cPrev": [11]
+            "cPrev": [11],
+            "cNext": [33]
+        },
+        "x33": {
+            "job": "CLASS_JOB.CRP",
+            "iLevel": "325",
+            "cPrev": [22],
+            "cNext": [44]
+        },
+        "x44": {
+            "job": "CLASS_JOB.CRP",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3305"],
+            "cPrev": [33],
+            "cNext": [55]
+        },
+        "x55": {
+            "job": "CLASS_JOB.CRP",
+            "iLevel": "635",
+            "cPrev": [44],
+            "cNext": [66]
+        },
+        "x66": {
+            "job": "CLASS_JOB.CRP",
+            "iLevel": "640",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3362"],
+            "cPrev": [55]
         },
         "x1": {
             "job": "CLASS_JOB.BSM",
@@ -34,7 +60,33 @@
             "job": "CLASS_JOB.BSM",
             "iLevel": "620",
             "cSiblings": ["character.achievement.items.splendorous-tools.3194"],
-            "cPrev": [12]
+            "cPrev": [12],
+            "cNext": [34]
+        },
+        "x34": {
+            "job": "CLASS_JOB.BSM",
+            "iLevel": "325",
+            "cPrev": [23],
+            "cNext": [45]
+        },
+        "x45": {
+            "job": "CLASS_JOB.BSM",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3306"],
+            "cPrev": [34],
+            "cNext": [56]
+        },
+        "x56": {
+            "job": "CLASS_JOB.BSM",
+            "iLevel": "635",
+            "cPrev": [45],
+            "cNext": [67]
+        },
+        "x67": {
+            "job": "CLASS_JOB.BSM",
+            "iLevel": "640",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3363"],
+            "cPrev": [56]
         },
         "x2": {
             "job": "CLASS_JOB.ARM",
@@ -51,7 +103,33 @@
             "job": "CLASS_JOB.ARM",
             "iLevel": "620",
             "cSiblings": ["character.achievement.items.splendorous-tools.3195"],
-            "cPrev": [13]
+            "cPrev": [13],
+            "cNext": [35]
+        },
+        "x35": {
+            "job": "CLASS_JOB.ARM",
+            "iLevel": "325",
+            "cPrev": [24],
+            "cNext": [46]
+        },
+        "x46": {
+            "job": "CLASS_JOB.ARM",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3307"],
+            "cPrev": [35],
+            "cNext": [57]
+        },
+        "x57": {
+            "job": "CLASS_JOB.ARM",
+            "iLevel": "635",
+            "cPrev": [46],
+            "cNext": [68]
+        },
+        "x68": {
+            "job": "CLASS_JOB.ARM",
+            "iLevel": "640",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3364"],
+            "cPrev": [57]
         },
         "x3": {
             "job": "CLASS_JOB.GSM",
@@ -68,7 +146,33 @@
             "job": "CLASS_JOB.GSM",
             "iLevel": "620",
             "cSiblings": ["character.achievement.items.splendorous-tools.3196"],
-            "cPrev": [14]
+            "cPrev": [14],
+            "cNext": [36]
+        },
+        "x36": {
+            "job": "CLASS_JOB.GSM",
+            "iLevel": "325",
+            "cPrev": [25],
+            "cNext": [47]
+        },
+        "x47": {
+            "job": "CLASS_JOB.GSM",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3308"],
+            "cPrev": [36],
+            "cNext": [58]
+        },
+        "x58": {
+            "job": "CLASS_JOB.GSM",
+            "iLevel": "635",
+            "cPrev": [47],
+            "cNext": [69]
+        },
+        "x69": {
+            "job": "CLASS_JOB.GSM",
+            "iLevel": "640",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3365"],
+            "cPrev": [58]
         },
         "x4": {
             "job": "CLASS_JOB.LTW",
@@ -85,7 +189,33 @@
             "job": "CLASS_JOB.LTW",
             "iLevel": "620",
             "cSiblings": ["character.achievement.items.splendorous-tools.3197"],
-            "cPrev": [15]
+            "cPrev": [15],
+            "cNext": [37]
+        },
+        "x37": {
+            "job": "CLASS_JOB.LTW",
+            "iLevel": "325",
+            "cPrev": [26],
+            "cNext": [48]
+        },
+        "x48": {
+            "job": "CLASS_JOB.LTW",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3309"],
+            "cPrev": [37],
+            "cNext": [59]
+        },
+        "x59": {
+            "job": "CLASS_JOB.LTW",
+            "iLevel": "635",
+            "cPrev": [48],
+            "cNext": [70]
+        },
+        "x70": {
+            "job": "CLASS_JOB.LTW",
+            "iLevel": "640",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3366"],
+            "cPrev": [59]
         },
         "x5": {
             "job": "CLASS_JOB.WVR",
@@ -102,7 +232,33 @@
             "job": "CLASS_JOB.WVR",
             "iLevel": "620",
             "cSiblings": ["character.achievement.items.splendorous-tools.3198"],
-            "cPrev": [16]
+            "cPrev": [16],
+            "cNext": [38]
+        },
+        "x38": {
+            "job": "CLASS_JOB.WVR",
+            "iLevel": "325",
+            "cPrev": [27],
+            "cNext": [49]
+        },
+        "x49": {
+            "job": "CLASS_JOB.WVR",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3310"],
+            "cPrev": [38],
+            "cNext": [60]
+        },
+        "x60": {
+            "job": "CLASS_JOB.WVR",
+            "iLevel": "635",
+            "cPrev": [49],
+            "cNext": [71]
+        },
+        "x71": {
+            "job": "CLASS_JOB.WVR",
+            "iLevel": "640",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3367"],
+            "cPrev": [60]
         },
         "x6": {
             "job": "CLASS_JOB.ALC",
@@ -119,7 +275,33 @@
             "job": "CLASS_JOB.ALC",
             "iLevel": "620",
             "cSiblings": ["character.achievement.items.splendorous-tools.3199"],
-            "cPrev": [17]
+            "cPrev": [17],
+            "cNext": [39]
+        },
+        "x39": {
+            "job": "CLASS_JOB.ALC",
+            "iLevel": "325",
+            "cPrev": [28],
+            "cNext": [50]
+        },
+        "x50": {
+            "job": "CLASS_JOB.ALC",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3311"],
+            "cPrev": [39],
+            "cNext": [61]
+        },
+        "x61": {
+            "job": "CLASS_JOB.ALC",
+            "iLevel": "635",
+            "cPrev": [50],
+            "cNext": [72]
+        },
+        "x72": {
+            "job": "CLASS_JOB.ALC",
+            "iLevel": "640",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3368"],
+            "cPrev": [61]
         },
         "x7": {
             "job": "CLASS_JOB.CUL",
@@ -136,7 +318,33 @@
             "job": "CLASS_JOB.CUL",
             "iLevel": "620",
             "cSiblings": ["character.achievement.items.splendorous-tools.3200"],
-            "cPrev": [18]
+            "cPrev": [18],
+            "cNext": [40]
+        },
+        "x40": {
+            "job": "CLASS_JOB.CUL",
+            "iLevel": "325",
+            "cPrev": [29],
+            "cNext": [51]
+        },
+        "x51": {
+            "job": "CLASS_JOB.CUL",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3312"],
+            "cPrev": [40],
+            "cNext": [62]
+        },
+        "x62": {
+            "job": "CLASS_JOB.CUL",
+            "iLevel": "635",
+            "cPrev": [51],
+            "cNext": [73]
+        },
+        "x73": {
+            "job": "CLASS_JOB.CUL",
+            "iLevel": "640",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3369"],
+            "cPrev": [62]
         },
         "x8": {
             "job": "CLASS_JOB.MIN",
@@ -153,7 +361,33 @@
             "job": "CLASS_JOB.MIN",
             "iLevel": "620",
             "cSiblings": ["character.achievement.items.splendorous-tools.3201"],
-            "cPrev": [19]
+            "cPrev": [19],
+            "cNext": [41]
+        },
+        "x41": {
+            "job": "CLASS_JOB.MIN",
+            "iLevel": "325",
+            "cPrev": [30],
+            "cNext": [52]
+        },
+        "x52": {
+            "job": "CLASS_JOB.MIN",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3313"],
+            "cPrev": [41],
+            "cNext": [63]
+        },
+        "x63": {
+            "job": "CLASS_JOB.MIN",
+            "iLevel": "635",
+            "cPrev": [52],
+            "cNext": [74]
+        },
+        "x74": {
+            "job": "CLASS_JOB.MIN",
+            "iLevel": "640",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3370"],
+            "cPrev": [63]
         },
         "x9": {
             "job": "CLASS_JOB.BTN",
@@ -170,7 +404,33 @@
             "job": "CLASS_JOB.BTN",
             "iLevel": "620",
             "cSiblings": ["character.achievement.items.splendorous-tools.3202"],
-            "cPrev": [20]
+            "cPrev": [20],
+            "cNext": [42]
+        },
+        "x42": {
+            "job": "CLASS_JOB.BTN",
+            "iLevel": "325",
+            "cPrev": [31],
+            "cNext": [53]
+        },
+        "x53": {
+            "job": "CLASS_JOB.BTN",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3314"],
+            "cPrev": [42],
+            "cNext": [64]
+        },
+        "x64": {
+            "job": "CLASS_JOB.BTN",
+            "iLevel": "635",
+            "cPrev": [53],
+            "cNext": [75]
+        },
+        "x75": {
+            "job": "CLASS_JOB.BTN",
+            "iLevel": "640",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3371"],
+            "cPrev": [64]
         },
         "x10": {
             "job": "CLASS_JOB.FSH",
@@ -187,7 +447,33 @@
             "job": "CLASS_JOB.FSH",
             "iLevel": "620",
             "cSiblings": ["character.achievement.items.splendorous-tools.3203"],
-            "cPrev": [21]
+            "cPrev": [21],
+            "cNext": [43]
+        },
+        "x43": {
+            "job": "CLASS_JOB.FSH",
+            "iLevel": "325",
+            "cPrev": [32],
+            "cNext": [54]
+        },
+        "x54": {
+            "job": "CLASS_JOB.FSH",
+            "iLevel": "630",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3315"],
+            "cPrev": [43],
+            "cNext": [65]
+        },
+        "x65": {
+            "job": "CLASS_JOB.FSH",
+            "iLevel": "635",
+            "cPrev": [54],
+            "cNext": [76]
+        },
+        "x76": {
+            "job": "CLASS_JOB.FSH",
+            "iLevel": "640",
+            "cSiblings": ["character.achievement.items.splendorous-tools.3372"],
+            "cPrev": [65]
         }
     }
 }

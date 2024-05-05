@@ -682,8 +682,19 @@
             "cPrev": [
                 2446
             ],
+            "cNext": [3316],
             "cSiblingsAt": {
                 "70": [
+                    "character.character.classes--jobs.17"
+                ]
+            }
+        },
+        "x3316": {
+            "points": 5,
+            "patch": "6.4",
+            "cPrev": [2725],
+            "cSiblingsAt": {
+                "80": [
                     "character.character.classes--jobs.17"
                 ]
             }
@@ -766,9 +777,13 @@
         "x2726": {
             "points": 5,
             "patch": "5.45",
-            "cPrev": [
-                2448
-            ]
+            "cPrev": [2448],
+            "cNext": [3317]
+        },
+        "x3317": {
+            "points": 5,
+            "patch": "6.4",
+            "cPrev": [2448]
         }
     }
 }
