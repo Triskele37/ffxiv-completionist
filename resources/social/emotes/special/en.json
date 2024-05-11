@@ -137,6 +137,24 @@
             "category": "Premium",
             "source": "Final Fantasy XIV Online Store"
         },
+        "x266": {
+            "name": "Cheer Jump: Green",
+            "command": "/cheerjumpgreen, /cheergreen",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x265": {
+            "name": "Cheer Wave: Violet",
+            "command": "/cheerwaveviolet, /cheerviolet",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
+        "x264": {
+            "name": "Cheer On: Bright",
+            "command": "/cheeronbright, /cheerbright",
+            "category": "Premium",
+            "source": "Final Fantasy XIV Online Store"
+        },
         "x176": {
             "name": "Yol Dance",
             "command": "/yoldance",
@@ -212,6 +230,11 @@
             "command": "/lalihop",
             "category": "Purchase",
             "source": "8 Hammered Frogments"
+        },
+        "x269": {
+            "name": "Lop Hop",
+            "command": "/lophop",
+            "category": "Quest"
         },
         "x155": {
             "name": "Squats",
@@ -295,6 +318,12 @@
             "command": "/youknowyourname, /reprimand",
             "category": "Purchase",
             "source": "15,000 Wolf Marks"
+        },
+        "x273": {
+            "name": "Slump",
+            "command": "/slump",
+            "category": "Other",
+            "source": "Series Reward"
         },
         "x143": {
             "name": "Play Dead",
@@ -385,6 +414,12 @@
             "command": "/simulationf",
             "category": "Premium",
             "source": "Item code included with Meister Quality Figure Omega"
+        },
+        "x272": {
+            "name": "Sundering",
+            "command": "/sundering, /exodus",
+            "category": "Premium",
+            "source": "Item code included with Meister Quality Figure Hydaelyn & Zodiark"
         }
     }
 }

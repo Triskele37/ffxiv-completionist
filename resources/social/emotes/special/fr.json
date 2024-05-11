@@ -137,6 +137,24 @@
             "category": "Premium",
             "source": "La fête des demoiselles (2018)"
         },
+        "x266": {
+            "name": "Encourager (vert)",
+            "command": "/encouragervert, /cheergreen, /cheerjumpgreen",
+            "category": "Premium",
+            "source": "Boutique en ligne Final Fantasy XIV"
+        },
+        "x265": {
+            "name": "Encourager (violet)",
+            "command": "/encouragerviolet, /cheerviolet, /cheerwaveviolet",
+            "category": "Premium",
+            "source": "Boutique en ligne Final Fantasy XIV"
+        },
+        "x264": {
+            "name": "Encourager (blanc)",
+            "command": "/encouragerblanc, /cheerbright, /cheeronbright",
+            "category": "Premium",
+            "source": "Boutique en ligne Final Fantasy XIV"
+        },
         "x176": {
             "name": "Danse des yols",
             "command": "/dansedesyols, /yoldance",
@@ -212,6 +230,11 @@
             "command": "/lali-hop, /lalihop",
             "category": "Achat",
             "source": "8 Médailles naines"
+        },
+        "x269": {
+            "name": "Danse des Loporrites",
+            "command": "/dansedesloporrites, /danslopo, /lophop",
+            "category": "Quête"
         },
         "x155": {
             "name": "Flexions de jambes",
@@ -291,6 +314,12 @@
             "command": "/réprimander, /reprimand",
             "category": "Achat",
             "source": "15.000 Marques de loup"
+        },
+        "x273": {
+            "name": "Être Accablé",
+            "command": "/êtreaccablé, /accablé, /slump",
+            "category": "Autre",
+            "source": "Récompense de série"
         },
         "x143": {
             "name": "Feindre la mort",
@@ -381,6 +410,12 @@
             "command": "/simulationf",
             "category": "Premium",
             "source": "Objet inclus avec la Meister Quality Figure Omega"
+        },
+        "x272": {
+            "name": "Exode",
+            "command": "/exode, /sundering, /exodus",
+            "category": "Premium",
+            "source": "Objet inclus avec la Meister Quality Figure Hydaelyn & Zodiark"
         }
     }
 }

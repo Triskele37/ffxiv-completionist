@@ -460,6 +460,25 @@
             "category": "CATEGORY.PURCHASE",
             "location": "ZONE.OLD_GRIDANIA",
             "patch": "6.4"
+        },
+        "x650": {
+            "number": "65",
+            "category": "CATEGORY.VOYAGE",
+            "source": ["VOYAGE.WINGSREACH"],
+            "patch": "6.5"
+        },
+        "x651": {
+            "number": "66",
+            "category": "CATEGORY.VOYAGE",
+            "source": ["VOYAGE.THE_FLORAL_REEF"],
+            "patch": "6.5"
+        },
+        "x644": {
+            "number": "67",
+            "category": "CATEGORY.QUEST",
+            "location": "ZONE.THAVNAIR",
+            "source": "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70336",
+            "patch": "6.55"
         }
     }
 }

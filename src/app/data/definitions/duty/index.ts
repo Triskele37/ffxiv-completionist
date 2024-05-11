@@ -67,6 +67,7 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                     subGroups: [
                         { path: 'sildihn-subterrane', subGroups: ['record'] },
                         { path: 'mount-rokkon', subGroups: ['record'] },
+                        { path: 'aloalo-island', subGroups: ['record'] },
                     ]
                 },
                 {
