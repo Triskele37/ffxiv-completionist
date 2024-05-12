@@ -43,7 +43,7 @@
         }
         @else {
             border-color: rgba(nth($overlayContentBorder, 3), 0);
-            border-bottom-color: scale-color(nth($overlayContentBorder, 3), $lightness: -5%);
+            border-bottom-color: nth($overlayContentBorder, 3);
         }
     }
 

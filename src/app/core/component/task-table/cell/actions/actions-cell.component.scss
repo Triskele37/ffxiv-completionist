@@ -24,7 +24,7 @@
 
                 &:not(:last-child):after {
                     content: "";
-                    background: var(--surface-a);
+                    background: var(--surface-500);
                     border: 1px solid var(--primary-color);
 
                     width: 35px;

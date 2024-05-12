@@ -23,8 +23,8 @@
     --primary-color-darker: color-mix(in srgb, var(--primary-color), black 30%);
     --primary-color-rgb: 15, 76, 117;
 
-    --text-color: rgba(var(--text-color-rgb), 0.87); // $shade000
-    --text-color-secondary: rgba(var(--text-color-rgb), 0.6); // $shade100
+    --text-color: rgba(var(--text-color-rgb), 0.87);
+    --text-color-secondary: rgba(var(--text-color-rgb), 0.6);
 
     --incomplete: rgb(var(--incomplete-rgb));
     --partial-complete: rgb(var(--partial-complete-rgb));
@@ -34,19 +34,16 @@
     --selected-2: rgba(var(--primary-color-rgb), 0.3);
 
     // Surfaces
-    --surface-a: hsl(var(--bg-h), var(--bg-s), var(--bg-l)); // $shade800
-    --surface-b: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 2%)); // $shade900
-    --surface-c: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 4%)); // $hoverBg
-    --surface-d: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 6%)); // $shade600
-    --surface-e: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 8%)); // $shade800
-    --surface-f: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 10%)); // $shade800
-
-    --surface-ground: var(--surface-b);
-    --surface-section: var(--surface-b);
-    --surface-card: var(--surface-a);
-    --surface-overlay: var(--surface-f);
-    --surface-border: var(--surface-d);
-    --surface-hover: var(--surface-c);
+    --surface-50: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 10%));
+    --surface-100: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 8%));
+    --surface-200: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 6%));
+    --surface-300: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 4%));
+    --surface-400: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 2%));
+    --surface-500: hsl(var(--bg-h), var(--bg-s), var(--bg-l));
+    --surface-600: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 2%));
+    --surface-700: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 4%));
+    --surface-800: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 6%));
+    --surface-900: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 8%));
 
     // Gray
     --gray-50: #e7e7e7;

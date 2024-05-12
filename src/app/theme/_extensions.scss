@@ -7,10 +7,10 @@
     }
 
     .p-overlaypanel {
-        border: 1px solid var(--surface-c);
+        border: 1px solid var(--surface-700);
 
         &:before {
-            border-bottom-color: var(--surface-c);
+            border-bottom-color: var(--surface-700);
         }
     }
 
@@ -27,7 +27,7 @@
         pointer-events: none;
 
         .p-tooltip-text {
-            border: 1px solid var(--surface-d);
+            border: 1px solid var(--surface-800);
         }
     }
 

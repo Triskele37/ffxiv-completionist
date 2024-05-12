@@ -34,7 +34,7 @@ export class ThemeSettingsComponent implements OnInit {
     useDefaultTheme(): void {
         this.svcTheme.setPrimaryColor('#456c37');
         this.svcTheme.setPrimaryTextColor('#121212');
-        this.svcTheme.setBackgroundColor({ h: 0, s: 0, b: 12 });
+        this.svcTheme.setBackgroundColorFromHsl({ h: 0, s: 0, l: 12 });
         this.svcTheme.setTextColor({ r: 255, g: 255, b: 255 });
         this.svcTheme.setFontFamily('sans-serif');
     }
@@ -42,7 +42,7 @@ export class ThemeSettingsComponent implements OnInit {
     useDarkTheme(): void {
         this.svcTheme.setPrimaryColor('#9B8152');
         this.svcTheme.setPrimaryTextColor('#ded2ba');
-        this.svcTheme.setBackgroundColor({ h: 160, s: 0, b: 19 });
+        this.svcTheme.setBackgroundColorFromHsl({ h: 160, s: 0, l: 19 });
         this.svcTheme.setTextColor({ r: 222, g: 210, b: 186 });
         this.svcTheme.setFontFamily('sans-serif');
     }
@@ -50,7 +50,7 @@ export class ThemeSettingsComponent implements OnInit {
     useLightTheme(): void {
         this.svcTheme.setPrimaryColor('#4e3c24');
         this.svcTheme.setPrimaryTextColor('#fdfdfe');
-        this.svcTheme.setBackgroundColor({ h: 32, s: 75, b: 84 });
+        this.svcTheme.setBackgroundColorFromHsl({ h: 32, s: 75, l: 84 });
         this.svcTheme.setTextColor({ r: 86, g: 63, b: 57 });
         this.svcTheme.setFontFamily('sans-serif');
     }
@@ -58,7 +58,7 @@ export class ThemeSettingsComponent implements OnInit {
     useClassicTheme(): void {
         this.svcTheme.setPrimaryColor('#888888');
         this.svcTheme.setPrimaryTextColor('#ffffff');
-        this.svcTheme.setBackgroundColor({ h: 253, s: 100, b: 31 });
+        this.svcTheme.setBackgroundColorFromHsl({ h: 253, s: 100, l: 31 });
         this.svcTheme.setTextColor({ r: 238, g: 236, b: 247 });
         this.svcTheme.setFontFamily('sans-serif');
     }

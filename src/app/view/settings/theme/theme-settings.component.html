@@ -77,8 +77,8 @@
 
     <p-colorPicker
         format="hsb"
-        [(ngModel)]="svcTheme.backgroundColor"
-        (onChange)="svcTheme.setBackgroundColor(svcTheme.backgroundColor)"
+        [(ngModel)]="svcTheme.backgroundColorHsb"
+        (onChange)="svcTheme.setBackgroundColorFromHsb(svcTheme.backgroundColorHsb)"
     ></p-colorPicker>
 
     <p-colorPicker
