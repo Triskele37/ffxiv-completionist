@@ -18,6 +18,10 @@
             border-bottom-left-radius: 0;
         }
 
+        .p-inputnumber {
+            flex-grow: 1;
+        }
+
         .p-inputnumber-button-up {
             border-top-right-radius: 0;
         }
@@ -36,5 +40,9 @@
             min-width: 200px;
             width: 100%;
         }
+    }
+
+    .random-result ::ng-deep .p-button {
+        width: 100%;
     }
 }

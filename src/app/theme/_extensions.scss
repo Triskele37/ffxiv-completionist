@@ -23,8 +23,8 @@
     }
 
     .p-tooltip {
-        max-width: unset;
-        pointer-events: none;
+        max-width: unset !important;
+        pointer-events: none !important;
 
         .p-tooltip-text {
             border: 1px solid var(--surface-800);
