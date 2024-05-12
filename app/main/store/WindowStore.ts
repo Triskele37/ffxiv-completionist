@@ -94,7 +94,7 @@ export class WindowStore {
             require('electron-reload')(__dirname, {
                 electron: require(path.join(__dirname, '../../../node_modules/electron'))
             });
-            WindowStore.main.loadURL('http://localhost:4200');
+            WindowStore.main.loadURL('http://localhost:4200/');
         }
         else {
             // Path when running electron executable

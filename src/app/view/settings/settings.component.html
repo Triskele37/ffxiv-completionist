@@ -1,22 +1,19 @@
 <div class="settings-page">
     <p-tabView>
         <p-tabPanel [header]="'MAIN.SETTING.CHARACTER.TITLE' | translate">
-            <xiv-character-settings
-                #characterSettings
-                [settings]="settings"
-            ></xiv-character-settings>
+            <xiv-character-settings></xiv-character-settings>
         </p-tabPanel>
 
         <p-tabPanel [header]="'MAIN.SETTING.COMPLETION.TITLE' | translate">
-            <xiv-completion-settings [settings]="settings"></xiv-completion-settings>
+            <xiv-completion-settings></xiv-completion-settings>
         </p-tabPanel>
 
         <p-tabPanel [header]="'MAIN.SETTING.CHAINING.TITLE' | translate">
-            <xiv-chain-settings [settings]="settings"></xiv-chain-settings>
+            <xiv-chain-settings></xiv-chain-settings>
         </p-tabPanel>
 
         <p-tabPanel [header]="'MAIN.SETTING.THEME.TITLE' | translate">
-            <xiv-theme-settings [settings]="settings"></xiv-theme-settings>
+            <xiv-theme-settings></xiv-theme-settings>
         </p-tabPanel>
     </p-tabView>
 </div>

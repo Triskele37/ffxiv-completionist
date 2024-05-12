@@ -1,5 +1,5 @@
 <div class="task-search-results-header">
-    <span *ngIf="hasResults" class="p-buttonset">
+    <p-buttonGroup *ngIf="hasResults">
         <button
             pButton
             [label]="'MAIN.SEARCH.' + (willCollapseAll ? 'COLLAPSE' : 'EXPAND') | translate"
@@ -13,7 +13,7 @@
         ></button>
 
         <xiv-chain-overlay></xiv-chain-overlay>
-    </span>
+    </p-buttonGroup>
 </div>
 
 <div *ngIf="hasResults; else noResults" class="task-search-results-table">

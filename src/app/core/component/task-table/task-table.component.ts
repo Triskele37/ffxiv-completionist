@@ -9,7 +9,7 @@ import {
     ViewChild
 } from '@angular/core';
 import { SortEvent } from 'primeng/api';
-import { Table } from 'primeng/table';
+import { Table, TableRowReorderEvent } from 'primeng/table';
 
 import { DataGroup } from '@model/DataGroup';
 import { Task } from '@model/Task';
@@ -19,7 +19,7 @@ import { ConfigStoreService } from '@service/store/config-store.service';
 import { SaveStoreService } from '@service/store/save-store.service';
 import { getLinkedName } from '@util/getLinkedName';
 
-import { DragEvent, UniqueValues } from './types';
+import { UniqueValues } from './types';
 
 @Component({
     selector: 'xiv-task-table',
@@ -183,7 +183,7 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
     //#endregion
 
     //#region----------------------------------------------------------- Order
-    onRowReorder($event: DragEvent): void {
+    onRowReorder($event: TableRowReorderEvent): void {
         // Bail if nothing moved
         if($event.dragIndex === $event.dropIndex) return;
 

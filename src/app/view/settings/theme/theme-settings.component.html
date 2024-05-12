@@ -1,6 +1,6 @@
 <div class="setting">
     <label>{{'MAIN.SETTING.THEME.PRESETS.TITLE' | translate}}</label>
-    <div class="p-buttonset">
+    <p-buttonGroup>
         <p-button
             [label]="'MAIN.SETTING.THEME.PRESETS.DEFAULT' | translate"
             (onClick)="useDefaultTheme()"
@@ -20,7 +20,7 @@
             [label]="'MAIN.SETTING.THEME.PRESETS.CLASSIC' | translate"
             (onClick)="useClassicTheme()"
         ></p-button>
-    </div>
+    </p-buttonGroup>
 </div>
 
 <div class="setting">

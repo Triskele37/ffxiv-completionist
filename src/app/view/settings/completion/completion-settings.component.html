@@ -6,8 +6,8 @@
     <label>{{'MAIN.SETTING.COMPLETION.COMPLETE_GROUP.LABEL' | translate}}</label>
     <p-checkbox
         [binary]="true"
-        [(ngModel)]="settings.showCompletedGroups.value"
-        (onChange)="parent.onChangeBoolSetting(settings.showCompletedGroups)"
+        [(ngModel)]="svcSettings.settings.showCompletedGroups.value"
+        (onChange)="svcSettings.onChangeBoolSetting(svcSettings.settings.showCompletedGroups)"
     ></p-checkbox>
 </div>
 
@@ -19,8 +19,8 @@
     <label>{{'MAIN.SETTING.COMPLETION.EMPTY_GROUP.LABEL' | translate}}</label>
     <p-checkbox
         [binary]="true"
-        [(ngModel)]="settings.showEmptyGroups.value"
-        (onChange)="parent.onChangeBoolSetting(settings.showEmptyGroups)"
+        [(ngModel)]="svcSettings.settings.showEmptyGroups.value"
+        (onChange)="svcSettings.onChangeBoolSetting(svcSettings.settings.showEmptyGroups)"
     ></p-checkbox>
 </div>
 
@@ -34,8 +34,8 @@
     <label>{{'MAIN.SETTING.COMPLETION.COMPLETE_TASK.LABEL' | translate}}</label>
     <p-checkbox
         [binary]="true"
-        [(ngModel)]="settings.tableFilters.completed.value"
-        (onChange)="parent.onChangeBoolSetting(settings.tableFilters.completed)"
+        [(ngModel)]="svcSettings.settings.tableFilters.completed.value"
+        (onChange)="svcSettings.onChangeBoolSetting(svcSettings.settings.tableFilters.completed)"
     ></p-checkbox>
 </div>
 
@@ -47,8 +47,8 @@
     <label>{{'MAIN.SETTING.COMPLETION.INCOMPLETE_TASK.LABEL' | translate}}</label>
     <p-checkbox
         [binary]="true"
-        [(ngModel)]="settings.tableFilters.incomplete.value"
-        (onChange)="parent.onChangeBoolSetting(settings.tableFilters.incomplete)"
+        [(ngModel)]="svcSettings.settings.tableFilters.incomplete.value"
+        (onChange)="svcSettings.onChangeBoolSetting(svcSettings.settings.tableFilters.incomplete)"
     ></p-checkbox>
 </div>
 
@@ -60,7 +60,7 @@
     <label>{{'MAIN.SETTING.COMPLETION.EXCLUDED_TASK.LABEL' | translate}}</label>
     <p-checkbox
         [binary]="true"
-        [(ngModel)]="settings.tableFilters.excluded.value"
-        (onChange)="parent.onChangeBoolSetting(settings.tableFilters.excluded)"
+        [(ngModel)]="svcSettings.settings.tableFilters.excluded.value"
+        (onChange)="svcSettings.onChangeBoolSetting(svcSettings.settings.tableFilters.excluded)"
     ></p-checkbox>
 </div>

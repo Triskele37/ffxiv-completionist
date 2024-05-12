@@ -6,8 +6,8 @@
     <label>{{'MAIN.SETTING.CHAINING.ENABLED.LABEL' | translate}}</label>
     <p-checkbox
         [binary]="true"
-        [(ngModel)]="settings.chainingEnabled.value"
-        (onChange)="parent.onChainingEnabledChange()"
+        [(ngModel)]="svcSettings.settings.chainingEnabled.value"
+        (onChange)="onChainingEnabledChange()"
     ></p-checkbox>
 </div>
 
@@ -18,11 +18,11 @@
 >
     <label>{{'MAIN.SETTING.CHAINING.HISTORY.LABEL' | translate}}</label>
     <p-inputNumber
-        [(ngModel)]="settings.chainHistoryLimit.value"
+        [(ngModel)]="svcSettings.settings.chainHistoryLimit.value"
         [showButtons]="true"
-        [min]="settings.chainHistoryLimit.min"
-        [max]="settings.chainHistoryLimit.max"
-        (onBlur)="parent.onChangeNumSetting(settings.chainHistoryLimit)"
+        [min]="svcSettings.settings.chainHistoryLimit.min"
+        [max]="svcSettings.settings.chainHistoryLimit.max"
+        (onBlur)="svcSettings.onChangeNumSetting(svcSettings.settings.chainHistoryLimit)"
     ></p-inputNumber>
 </div>
 
@@ -33,10 +33,10 @@
 >
     <label>{{'MAIN.SETTING.CHAINING.THRESHOLD.LABEL' | translate}}</label>
     <p-inputNumber
-        [(ngModel)]="settings.chainMinThreshold.value"
+        [(ngModel)]="svcSettings.settings.chainMinThreshold.value"
         [showButtons]="true"
-        [min]="settings.chainMinThreshold.min"
-        [max]="settings.chainMinThreshold.max"
-        (onBlur)="parent.onChangeNumSetting(settings.chainMinThreshold)"
+        [min]="svcSettings.settings.chainMinThreshold.min"
+        [max]="svcSettings.settings.chainMinThreshold.max"
+        (onBlur)="svcSettings.onChangeNumSetting(svcSettings.settings.chainMinThreshold)"
     ></p-inputNumber>
 </div>

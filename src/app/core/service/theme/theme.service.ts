@@ -109,7 +109,6 @@ export class ThemeService {
         this.primaryColor = hex;
 
         this.setStyle('--primary-color', hex);
-        this.setStyle('--primary-color-light', ThemeService.shadeColor(hex, 21));
         this.setStyle('--primary-color-rgb', ThemeService.hexToRgb(hex));
 
         this.svcConfig.set('theme.primary-color', hex);

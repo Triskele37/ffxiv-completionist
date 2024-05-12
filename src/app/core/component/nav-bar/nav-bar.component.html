@@ -1,5 +1,5 @@
 <div class="nav-bar-container">
-    <span class="p-buttonset">
+    <p-buttonGroup>
         <p-button
             icon="material-icons mi-arrow-back"
             [disabled]="!(svcNavigation.groupHistory$ | async).length"
@@ -14,7 +14,7 @@
 
         <xiv-history-overlay></xiv-history-overlay>
         <xiv-show-all></xiv-show-all>
-    </span>
+    </p-buttonGroup>
 
     <xiv-breadcrumbs></xiv-breadcrumbs>
 </div>

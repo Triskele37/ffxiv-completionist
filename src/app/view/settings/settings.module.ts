@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
 
 import { ButtonModule } from 'primeng/button';
+import { ButtonGroupModule } from 'primeng/buttongroup';
 import { CheckboxModule } from 'primeng/checkbox';
 import { ColorPickerModule } from 'primeng/colorpicker';
 import { DropdownModule } from 'primeng/dropdown';
@@ -34,6 +35,7 @@ import { SettingsComponent } from './settings.component';
         TranslateModule,
 
         ButtonModule,
+        ButtonGroupModule,
         CheckboxModule,
         ColorPickerModule,
         DropdownModule,

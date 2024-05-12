@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
 
 import { ButtonModule } from 'primeng/button';
+import { ButtonGroupModule } from 'primeng/buttongroup';
 import { DividerModule } from 'primeng/divider';
 import { InputTextModule } from 'primeng/inputtext';
 
@@ -21,6 +22,7 @@ import { CustomTaskOverlayComponent } from './custom-task-overlay.component';
         TranslateModule,
 
         ButtonModule,
+        ButtonGroupModule,
         DividerModule,
         InputTextModule,
 

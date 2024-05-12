@@ -50,7 +50,7 @@ export function loadJson(path: string) {
 
 // Get the path prefix based on environment
 function getPrefix() {
-    if(process.env.NODE_ENV === 'production') {
+    if(process.env.NODE_ENV === 'production' && process.resourcesPath) {
         return `${process.resourcesPath}/resources`;
     }
     else {

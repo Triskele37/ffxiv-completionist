@@ -1,9 +1,8 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 import { ThemeService } from '@service/theme/theme.service';
 
-import { Settings } from '../settings';
-import { SettingsComponent } from '../settings.component';
+import { SettingsService } from '../settings.service';
 
 @Component({
     selector: 'xiv-theme-settings',
@@ -11,12 +10,10 @@ import { SettingsComponent } from '../settings.component';
     styleUrls: ['./theme-settings.component.scss']
 })
 export class ThemeSettingsComponent implements OnInit {
-    @Input() settings: Settings;
-
     gradients: string[];
 
     constructor(
-        public parent: SettingsComponent,
+        public svcSettings: SettingsService,
         public svcTheme: ThemeService
     ) {
     }

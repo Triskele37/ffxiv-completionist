@@ -628,6 +628,16 @@
             "patch": "6.3",
             "cSiblings": ["duty.quests.other.seasonal.moonfire-faire.70260"]
         },
+        "x3208": {
+            "points": 10,
+            "patch": "6.5",
+            "cSiblings": ["duty.quests.other.seasonal.heavensturn.70216"]
+        },
+        "x3281": {
+            "points": 10,
+            "patch": "6.48",
+            "cSiblings": ["duty.quests.other.seasonal.rising.70302"]
+        },
         "x3283": {
             "points": 10,
             "patch": "6.4",
@@ -637,6 +647,21 @@
             "points": 10,
             "patch": "6.4",
             "cSiblings": ["duty.quests.other.seasonal.starlight-celebration.70318"]
+        },
+        "x3416": {
+            "points": 10,
+            "patch": "6.5",
+            "cSiblings": ["duty.quests.other.seasonal.valentiones-day.70345"]
+        },
+        "x3417": {
+            "points": 10,
+            "patch": "6.5",
+            "cSiblings": ["duty.quests.other.seasonal.little-ladies-hatching-tide.70347"]
+        },
+        "x3418": {
+            "points": 10,
+            "patch": "6.5",
+            "cSiblings": ["duty.quests.other.seasonal.gold-saucer-festivities.70350"]
         },
         "x1513": {
             "points": 10,
@@ -792,6 +817,15 @@
             "points": 20,
             "reward": "character.mount-guide.92",
             "patch": "5.3"
+        },
+        "x3409": {
+            "points": 10,
+            "patch": "6.58",
+            "reward": "character.character.title.710",
+            "cSiblings": [
+                "character.character.title.710",
+                "duty.quests.other.special.collaboration.70334"
+            ]
         }
     }
 }

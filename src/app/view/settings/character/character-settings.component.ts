@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 import { Completion, Lang } from '@constant';
@@ -10,8 +10,7 @@ import { setCompletion } from '@model/Task/completion/setCompletion';
 import { ChainService } from '@service/chain/chain.service';
 import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 
-import { Settings } from '../settings';
-import { SettingsComponent } from '../settings.component';
+import { SettingsService } from "../settings.service";
 
 type ShortLong = {
     short: string;
@@ -24,14 +23,12 @@ type ShortLong = {
     styleUrls: ['./character-settings.component.scss']
 })
 export class CharacterSettingsComponent implements OnInit {
-    @Input() settings: Settings;
-
     constructor(
         private translate: TranslateService,
-        public parent: SettingsComponent,
         private svcData: DataService,
         private svcChain: ChainService,
-        private svcElectron: ElectronService
+        private svcElectron: ElectronService,
+        public svcSettings: SettingsService,
     ) {
     }
 
@@ -53,6 +50,8 @@ export class CharacterSettingsComponent implements OnInit {
             { short: 'Pugilist', long: this.translate.instant(`${CLASSES}.PGL`) },
             { short: 'Thaumaturge', long: this.translate.instant(`${CLASSES}.THM`) },
         ];
+
+        this.svcSettings.onChainingEnabled$.subscribe(this.chainStartingClass);
     }
 
     //#region------------------------------------------------------- Modal
@@ -73,7 +72,7 @@ export class CharacterSettingsComponent implements OnInit {
     languages: ShortLong[];
 
     onChangeLanguage(): void {
-        this.parent.onChangeStringSetting(this.settings.lang);
+        this.svcSettings.onChangeStringSetting(this.svcSettings.settings.lang);
         this.isModalVisible = true;
         location.reload();
     }
@@ -85,7 +84,7 @@ export class CharacterSettingsComponent implements OnInit {
 
     onChangeStartingClass(): void {
         ChainService.force = true;
-        this.parent.onChangeStringSetting(this.settings.startingClass);
+        this.svcSettings.onChangeStringSetting(this.svcSettings.settings.startingClass);
         this.chainStartingClass();
         ChainService.force = false;
     }
@@ -101,7 +100,7 @@ export class CharacterSettingsComponent implements OnInit {
         // Not clearing state first makes for botched chains
         this.clearStartingZone(gridania, limsa, uldah);
 
-        switch(this.settings.startingClass.value) {
+        switch(this.svcSettings.settings.startingClass.value) {
             case 'Archer':
             case 'Lancer':
             case 'Conjurer':
@@ -122,7 +121,7 @@ export class CharacterSettingsComponent implements OnInit {
         }
 
         // Must be done after exclusive sets
-        this.excludeStartingClassQuest(this.settings.startingClass.value);
+        this.excludeStartingClassQuest(this.svcSettings.settings.startingClass.value);
 
         this.svcData.applyDataToStore();
     }

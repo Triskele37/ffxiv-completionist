@@ -40,14 +40,12 @@ export class NavDrawerComponent implements OnInit {
         // Collapse all groups not in the direct path of the selected group
         this.svcNavigation.selectedGroup$.subscribe((group) => {
             let path = group ? getGroupPath(group) : null;
+
             if(path) {
                 // Remove the "overall" data container
                 if(!group.isUiGroup) path = path.slice(1);
 
-                this.updateCollapsed(this.items, path);
-
-                // Mutate "items" so changes are detected
-                this.items = [...this.items];
+                this.items = this.mapUpdatedCollapsed(this.items, path);
             }
         });
 
@@ -131,12 +129,16 @@ export class NavDrawerComponent implements OnInit {
     }
 
     // Recursive: Updates the collapsed state of all MenuItems to match "path"
-    updateCollapsed(items: MenuItem[], path: string[]): void {
+    mapUpdatedCollapsed(
+        items: MenuItem[] | undefined,
+        [...path]: string[],
+    ): MenuItem[] | undefined {
         const name = path.shift();
 
-        items.forEach((menuItem) => {
-            menuItem.expanded = menuItem.state.name === name;
-            if(menuItem.items) this.updateCollapsed(menuItem.items, [...path]);
-        });
+        return items?.map((menuItem) => ({
+            ...menuItem,
+            expanded: menuItem.state.name === name,
+            items: this.mapUpdatedCollapsed(menuItem.items, path)
+        }));
     }
 }

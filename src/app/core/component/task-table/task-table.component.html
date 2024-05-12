@@ -17,8 +17,9 @@
             [customSort]="true"
             (sortFunction)="sortData($event)"
             [virtualScroll]="true"
-            [virtualRowHeight]="40"
-            scrollHeight="100%"
+            [virtualScrollItemSize]="40"
+            [scrollable]="true"
+            scrollHeight="flex"
             (onRowReorder)="onRowReorder($event)"
         >
             <ng-template pTemplate="header">

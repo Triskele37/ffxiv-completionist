@@ -21,8 +21,7 @@
         "ng": "ng",
         "ng:serve": "ng serve -c web -o",
         "postinstall": "electron-builder install-app-deps",
-        "start": "npm-run-all -p electron:serve ng:serve",
-        "serve": "npm run electron:serve-tsc && electron . --serve"
+        "start": "npm-run-all -p electron:serve ng:serve"
     },
     "browserslist": [
         "chrome 91"
