@@ -38,3 +38,13 @@ Use `ipcRenderer` actions to delegate any file system or remote logic to the mai
 `development` - Working branch for upcoming release
 
 Tag `master` each release for historical reference
+
+## Commands
+`npm run start` - Main development command
+* Combines other commands to serve the electron app in dev mode
+
+`npm run electron:build` - Windows build  
+
+`npm run electron:build-linux` - Linux build  
+
+`npm run electron:build-mac` - Mac build  

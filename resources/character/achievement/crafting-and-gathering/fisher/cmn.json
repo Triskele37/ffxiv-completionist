@@ -248,7 +248,15 @@
             "patch": "5.5",
             "cPrev": [
                 2176
-            ]
+            ],
+            "cNext": [3377]
+        },
+        "x3377": {
+            "points": 10,
+            "reward": "character.character.title.704",
+            "patch": "6.5",
+            "cPrev": [2832],
+            "cSiblings": ["character.character.title.704"]
         },
         "x780": {
             "points": 5,
@@ -511,6 +519,7 @@
                 2245,
                 2833
             ],
+            "cCombo": [3379],
             "cSiblings": [
                 "character.character.title.580"
             ],
@@ -524,7 +533,25 @@
         "x3187": {
             "points": 10,
             "patch": "6.3",
-            "cPrev": [3077]
+            "cPrev": [3077],
+            "cNext": [3378]
+        },
+        "x3378": {
+            "points": 10,
+            "reward": "character.character.title.705",
+            "patch": "6.55",
+            "cPrev": [3187],
+            "cCombo": [3379],
+            "cSiblings": ["character.character.title.705"]
+        },
+        "x3379": {
+            "points": 20,
+            "reward": "character.character.title.706",
+            "patch": "6.55",
+            "cPrev": [2834, 3378],
+            "cSiblings": [
+                "character.character.title.706"
+            ]
         },
         "x2519": {
             "points": 5,

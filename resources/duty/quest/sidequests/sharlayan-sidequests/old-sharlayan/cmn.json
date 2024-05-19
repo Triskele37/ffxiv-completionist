@@ -158,6 +158,22 @@
             "level": 80,
             "patch": "6.15",
             "cPrev": [70060]
+        },
+        "x70331": {
+            "level": 80,
+            "patch": "6.5",
+            "cPrev": ["duty.quests.main-scenario.post-endwalker.70284"]
+        },
+        "x70351": {
+            "level": 80,
+            "patch": "6.5",
+            "cPrev": [
+                "duty.quests.main-scenario.post-endwalker.70272",
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67634"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.sharlayan.labyrinthos.70352"
+            ]
         }
     }
 }

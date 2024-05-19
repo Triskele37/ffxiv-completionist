@@ -246,9 +246,15 @@
             "points": 10,
             "reward": "character.relic-gear.resplendent.8",
             "patch": "5.5",
-            "cPrev": [
-                2174
-            ]
+            "cPrev": [2174],
+            "cNext": [3375]
+        },
+        "x3375": {
+            "points": 10,
+            "reward": "character.character.title.702",
+            "patch": "6.5",
+            "cPrev": [2830],
+            "cSiblings": ["character.character.title.702"]
         },
         "x774": {
             "points": 5,

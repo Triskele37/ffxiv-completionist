@@ -83,7 +83,42 @@
         "x70176": {
             "level": 90,
             "patch": "6.2",
-            "cPrev": [70175]
+            "cPrev": [70175],
+            "cNext": [70292]
+        },
+        "x70292": {
+            "level": 90,
+            "unlock": "duty.dutyraid-finder.raids.ew.20",
+            "patch": "6.4",
+            "cPrev": [70176],
+            "cNext": [70293]
+        },
+        "x70293": {
+            "level": 90,
+            "unlock": "duty.dutyraid-finder.raids.ew.21",
+            "patch": "6.4",
+            "cPrev": [70292],
+            "cNext": [70294]
+        },
+        "x70294": {
+            "level": 90,
+            "unlock": "duty.dutyraid-finder.raids.ew.22",
+            "patch": "6.4",
+            "cPrev": [70293],
+            "cNext": [70295]
+        },
+        "x70295": {
+            "level": 90,
+            "unlock": "duty.dutyraid-finder.raids.ew.23",
+            "patch": "6.4",
+            "cPrev": [70294],
+            "cNext": [70296]
+        },
+        "x70296": {
+            "level": 90,
+            "patch": "6.4",
+            "cPrev": [70295],
+            "cSiblings": ["character.achievement.quests.quests.3247"]
         }
     }
 }

@@ -52,7 +52,23 @@
         },
         "x70205": {
             "level": 90,
-            "cPrev": [70204]
+            "cPrev": [70204],
+            "cNext": [70327]
+        },
+        "x70327": {
+            "level": 90,
+            "unlock": "duty.dutyraid-finder.raids.ew.28",
+            "patch": "6.5",
+            "cPrev": [70205],
+            "cNext": [70328],
+            "cSiblings": [
+                "character.achievement.quests.quests.3408"
+            ]
+        },
+        "x70328": {
+            "level": 90,
+            "patch": "6.5",
+            "cPrev": [70327]
         }
     }
 }

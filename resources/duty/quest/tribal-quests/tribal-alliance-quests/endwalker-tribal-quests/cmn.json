@@ -1,0 +1,19 @@
+{
+    "key": "endwalker-tribal-quests",
+    "tasks": {
+        "x70323": {
+            "level": 90,
+            "patch": "6.55",
+            "cPrev": [
+                "duty.quests.tribal-quests.arkasodara.70086",
+                "duty.quests.tribal-quests.omicron.70142"
+            ],
+            "cNext": [70324]
+        },
+        "x70324": {
+            "level": 90,
+            "patch": "6.55",
+            "cPrev": [70323]
+        }
+    }
+}

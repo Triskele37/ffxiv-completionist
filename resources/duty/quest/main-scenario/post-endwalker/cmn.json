@@ -187,9 +187,141 @@
             "level": 90,
             "cPrev": [70213],
             "cNext": [
-                "duty.quests.sidequests.chronicles-of-light.tales-of-newfound-adventure.70197"
+                "duty.quests.sidequests.chronicles-of-light.tales-of-newfound-adventure.70197",
+                70271
             ],
             "cSiblings": ["character.achievement.quests.main-scenario.3157"]
+        },
+        "x70271": {
+            "level": 90,
+            "patch": "6.4",
+            "cPrev": [70214],
+            "cNext": [70272]
+        },
+        "x70272": {
+            "level": 90,
+            "unlock": "duty.dutyraid-finder.dungeons.ew.11",
+            "patch": "6.4",
+            "cPrev": [70271],
+            "cNext": [
+                "duty.quests.sidequests.sharlayan.old-sharlayan.70351",
+                70273
+            ]
+        },
+        "x70273": {
+            "level": 90,
+            "patch": "6.4",
+            "cPrev": [70272],
+            "cNext": [70274]
+        },
+        "x70274": {
+            "level": 90,
+            "patch": "6.4",
+            "cPrev": [70273],
+            "cNext": [70275]
+        },
+        "x70275": {
+            "level": 90,
+            "patch": "6.4",
+            "cPrev": [70274],
+            "cNext": [70276]
+        },
+        "x70276": {
+            "level": 90,
+            "patch": "6.4",
+            "cPrev": [70275],
+            "cNext": [70277]
+        },
+        "x70277": {
+            "level": 90,
+            "patch": "6.4",
+            "cPrev": [70276],
+            "cNext": [70278]
+        },
+        "x70278": {
+            "level": 90,
+            "unlock": "duty.dutyraid-finder.trials.ew.13",
+            "patch": "6.4",
+            "cPrev": [70277],
+            "cNext": [70279]
+        },
+        "x70279": {
+            "level": 90,
+            "patch": "6.4",
+            "cPrev": [70278],
+            "cNext": [70280],
+            "cSiblings": ["character.achievement.quests.main-scenario.3244"]
+        },
+        "x70280": {
+            "level": 90,
+            "patch": "6.5",
+            "cPrev": [70279],
+            "cNext": [70281]
+        },
+        "x70281": {
+            "level": 90,
+            "patch": "6.5",
+            "cPrev": [70280],
+            "cNext": [70282]
+        },
+        "x70282": {
+            "level": 90,
+            "patch": "6.5",
+            "cPrev": [70281],
+            "cNext": [70283]
+        },
+        "x70283": {
+            "level": 90,
+            "patch": "6.5",
+            "cPrev": [70282],
+            "cNext": [70284]
+        },
+        "x70284": {
+            "level": 90,
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.ew.12",
+                "duty.dutyraid-finder.trials.ew.16"
+            ],
+            "patch": "6.5",
+            "cPrev": [70283],
+            "cNext": [
+                "duty.quests.sidequests.sharlayan.old-sharlayan.70331",
+                70285
+            ]
+        },
+        "x70285": {
+            "level": 90,
+            "patch": "6.5",
+            "cPrev": [70284],
+            "cNext": [70286]
+        },
+        "x70286": {
+            "level": 90,
+            "patch": "6.5",
+            "cPrev": [70285],
+            "cNext": [
+                "duty.quests.sidequests.records-of-unusual-endeavors.island-sanctuary.70330",
+                70287
+            ],
+            "cSiblings": ["character.achievement.quests.main-scenario.3413"]
+        },
+        "x70287": {
+            "level": 90,
+            "patch": "6.55",
+            "cPrev": [70286],
+            "cNext": [70288]
+        },
+        "x70288": {
+            "level": 90,
+            "patch": "6.55",
+            "cPrev": [70287],
+            "cNext": [70299]
+        },
+        "x70299": {
+            "level": 90,
+            "patch": "6.55",
+            "cPrev": [70288],
+            "cSiblings": ["character.achievement.quests.main-scenario.3414"]
         }
     }
 }

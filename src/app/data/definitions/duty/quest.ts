@@ -95,6 +95,7 @@ export const QUEST_DEFINITION = {
                 {
                     path: 'side-story-quests',
                     subGroups: [
+                        'tales-from-the-calamity',
                         'delivery-moogle',
                         'scholasticate',
                         'void',
@@ -274,6 +275,7 @@ export const QUEST_DEFINITION = {
                         'a-realm-reborn-tribal-quests',
                         'heavensward-tribal-quests',
                         'stormblood-tribal-quests',
+                        'endwalker-tribal-quests',
                     ]
                 }
             ]
@@ -398,6 +400,7 @@ export const QUEST_DEFINITION = {
                         'valentiones-day',
                         'valentiones-little-ladies-day',
                         'little-ladies-day',
+                        'little-ladies-and-hatchingtide',
                         'egg-hunts',
                         'gold-saucer-festivities',
                         'moonfire-faire',

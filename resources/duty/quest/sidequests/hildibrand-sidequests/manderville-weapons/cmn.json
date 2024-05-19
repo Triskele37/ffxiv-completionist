@@ -21,6 +21,35 @@
         "x70262": {
             "level": 90,
             "cPrev": [70261, 70189]
+        },
+        "x70307": {
+            "level": 90,
+            "patch": "6.4",
+            "cPrev": [
+                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70291",
+                70261
+            ],
+            "cNext": [70308]
+        },
+        "x70308": {
+            "level": 90,
+            "patch": "6.4",
+            "cPrev": [70262, 70307]
+        },
+        "x70342": {
+            "level": 90,
+            "patch": "6.55",
+            "cPrev": [
+                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70336",
+                70307
+            ],
+            "cNext": [70343],
+            "cSiblings": ["character.achievement.quests.quests.3374"]
+        },
+        "x70343": {
+            "level": 90,
+            "patch": "6.55",
+            "cPrev": [70342, 70308]
         }
     }
 }

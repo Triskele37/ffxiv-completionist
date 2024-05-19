@@ -180,7 +180,46 @@
             "cPrev": [
                 69529
             ],
+            "cNext": [70309],
             "cSiblings": ["character.adventure-plate.66"]
+        },
+        "x70309": {
+            "level": 70,
+            "patch": "6.4",
+            "cPrev": [
+                "duty.quests.main-scenario.post-shadowbringers.69318",
+                69530
+            ],
+            "cNext": [70310]
+        },
+        "x70310": {
+            "level": 70,
+            "patch": "6.4",
+            "cPrev": [70309],
+            "cNext": [70311]
+        },
+        "x70311": {
+            "level": 70,
+            "patch": "6.4",
+            "cPrev": [70310],
+            "cNext": [70312]
+        },
+        "x70312": {
+            "level": 70,
+            "patch": "6.4",
+            "cPrev": [70311],
+            "cNext": [70313]
+        },
+        "x70313": {
+            "level": 70,
+            "patch": "6.4",
+            "cPrev": [70312],
+            "cNext": [70314]
+        },
+        "x70314": {
+            "level": 70,
+            "patch": "6.4",
+            "cPrev": [70313]
         }
     }
 }

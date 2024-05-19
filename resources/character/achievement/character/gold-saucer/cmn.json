@@ -851,6 +851,30 @@
             "cSiblings": [
                 "character.character.title.410"
             ]
+        },
+        "x3404": {
+            "points": 5,
+            "patch": "6.51",
+            "cNext": [3405]
+        },
+        "x3405": {
+            "points": 5,
+            "patch": "6.51",
+            "cPrev": [3404],
+            "cNext": [3406]
+        },
+        "x3406": {
+            "points": 5,
+            "patch": "6.51",
+            "cPrev": [3405],
+            "cNext": [3407]
+        },
+        "x3407": {
+            "points": 10,
+            "reward": "character.character.title.708",
+            "patch": "6.51",
+            "cPrev": [3406],
+            "cSiblings": ["character.character.title.708"]
         }
     }
 }

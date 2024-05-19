@@ -42,7 +42,38 @@
             "patch": "6.3",
             "cPrev": [70254],
             "cNext": [
-                "duty.quests.sidequests.hildibrand-sidequests.manderville-weapons.70261"
+                "duty.quests.sidequests.hildibrand-sidequests.manderville-weapons.70261",
+                70290
+            ]
+        },
+        "x70290": {
+            "level": 90,
+            "patch": "6.4",
+            "cPrev": [70255],
+            "cNext": [70291]
+        },
+        "x70291": {
+            "level": 90,
+            "patch": "6.4",
+            "cPrev": [70290],
+            "cNext": [
+                "duty.quests.sidequests.hildibrand-sidequests.manderville-weapons.70307",
+                70335
+            ]
+        },
+        "x70335": {
+            "level": 90,
+            "patch": "6.55",
+            "cPrev": [70291],
+            "cNext": [70336]
+        },
+        "x70336": {
+            "level": 90,
+            "unlock": "duty.dutyraid-finder.trials.ew.19",
+            "patch": "6.55",
+            "cPrev": [70335],
+            "cNext": [
+                "duty.quests.sidequests.hildibrand-sidequests.manderville-weapons.70342"
             ]
         }
     }

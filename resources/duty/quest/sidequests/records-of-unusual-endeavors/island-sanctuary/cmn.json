@@ -13,7 +13,27 @@
         },
         "x70265": {
             "level": 1,
-            "cPrev": [70181]
+            "cPrev": [70181],
+            "cNext": [70299]
+        },
+        "x70299": {
+            "level": 1,
+            "patch": "6.4",
+            "cPrev": [70265],
+            "cNext": [70329]
+        },
+        "x70329": {
+            "level": 1,
+            "patch": "6.5",
+            "cPrev": [70299]
+        },
+        "x70330": {
+            "level": 1,
+            "patch": "6.55",
+            "cPrev": [
+                "duty.quests.main-scenario.post-endwalker.70286",
+                70329
+            ]
         }
     }
 }
