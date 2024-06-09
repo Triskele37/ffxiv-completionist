@@ -1,0 +1,94 @@
+{
+    "key": "matoyas-cave",
+    "groupName_en": "Matoya's Cave",
+    "groupName_fr": "Caverne de Matoya",
+    "tasks": {
+        "x67502": {
+            "level": 59,
+            "name_en": "Saro Roggo's Common Life",
+            "name_fr": "Le serviteur poroggo",
+            "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.14",
+            "npc_en": "Saro Roggo",
+            "npc_fr": "Saro Roggo",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67195"
+            ],
+            "cNext": [
+                67503,
+                67504,
+                67505
+            ],
+            "cSiblings": [
+                "travel.aether-currents.hw.the-dravanian-hinterlands.14"
+            ]
+        },
+        "x67503": {
+            "level": 59,
+            "name_en": "A Straightforward Fancy",
+            "name_fr": "Le rêve d'un balai",
+            "npc_en": "Straightforward Broom",
+            "npc_fr": "balai agité",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67195",
+                67502
+            ],
+            "cNext": [
+                67506
+            ]
+        },
+        "x67504": {
+            "level": 59,
+            "name_en": "A Statuesque Interest",
+            "name_fr": "Le désir d'un balai",
+            "npc_en": "Statuesque Broom",
+            "npc_fr": "balai brillant",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67195",
+                67502
+            ],
+            "cNext": [
+                67506
+            ]
+        },
+        "x67505": {
+            "level": 59,
+            "name_en": "A Self-possessed Pastime",
+            "name_fr": "La curiosité d'un balai",
+            "npc_en": "Self-possessed Broom",
+            "npc_fr": "balai capricieux",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67195",
+                67502
+            ],
+            "cNext": [
+                67506
+            ]
+        },
+        "x67506": {
+            "level": 59,
+            "name_en": "The Magic Word",
+            "name_fr": "L'incantation révélatrice",
+            "npc_en": "Saro Roggo",
+            "npc_fr": "Saro Roggo",
+            "cPrev": [
+                67503,
+                67504,
+                67505
+            ],
+            "cNext": [
+                67507
+            ]
+        },
+        "x67507": {
+            "level": 59,
+            "name_en": "Have I Toad You Lately",
+            "name_fr": "En désespoâr de cause",
+            "npc_en": "Saro Roggo",
+            "npc_fr": "Saro Roggo",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67195",
+                67506
+            ]
+        }
+    }
+}

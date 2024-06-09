@@ -1,0 +1,386 @@
+{
+    "key": "garlemald",
+    "groupName_en": "Garlemald",
+    "groupName_fr": "Garlemald",
+    "tasks": {
+        "x69752": {
+            "level": 80,
+            "name_en": "Best Delivered Cold",
+            "name_fr": "De l'aide",
+            "unlock": "travel.aether-currents.ew.garlemald.12",
+            "npc_en": "Commissary Officer",
+            "npc_fr": "factionnaire aux cheveux blonds",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ],
+            "cNext": [
+                69753
+            ],
+            "cSiblings": [
+                "travel.aether-currents.ew.garlemald.12"
+            ]
+        },
+        "x69753": {
+            "level": 80,
+            "name_en": "Armored Up",
+            "name_fr": "Encore de l'aide",
+            "npc_en": "Commissary Officer",
+            "npc_fr": "factionnaire aux cheveux blonds",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929",
+                69752
+            ],
+            "cNext": [
+                69754
+            ]
+        },
+        "x69754": {
+            "level": 80,
+            "name_en": "A Dream of Home",
+            "name_fr": "Toujours de l'aide",
+            "npc_en": "Commissary Officer",
+            "npc_fr": "factionnaire aux cheveux blonds",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929",
+                69753
+            ]
+        },
+        "x69755": {
+            "level": 80,
+            "name_en": "Your Inventory Is Not Full",
+            "name_fr": "Il y a toujours de la place",
+            "npc_en": "Contingent Quartermaster",
+            "npc_fr": "officier de la délégation",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69919"
+            ]
+        },
+        "x69756": {
+            "level": 80,
+            "name_en": "Help Me to Help You",
+            "name_fr": "Besoin d'aide?",
+            "npc_en": "Menuki",
+            "npc_fr": "Menuki",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x69757": {
+            "level": 80,
+            "name_en": "Heroes All",
+            "name_fr": "Soigner ceux qui soignent",
+            "npc_en": "June",
+            "npc_fr": "June",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69923"
+            ]
+        },
+        "x69758": {
+            "level": 80,
+            "name_en": "Scouting for Scouts",
+            "name_fr": "Trouver l'espionne",
+            "npc_en": "Talon",
+            "npc_fr": "Talon",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x69759": {
+            "level": 80,
+            "name_en": "Bear Baiting",
+            "name_fr": "La peau de l'ours",
+            "npc_en": "Iliette",
+            "npc_fr": "Iliette",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69919"
+            ]
+        },
+        "x69760": {
+            "level": 80,
+            "name_en": "Under Lock and Code",
+            "name_fr": "Énigme martiale",
+            "npc_en": "Ambaghai",
+            "npc_fr": "Ambaghai",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69923"
+            ]
+        },
+        "x69761": {
+            "level": 80,
+            "name_en": "And Then a Hero Comes Along",
+            "name_fr": "L'amour d'un père",
+            "npc_en": "Amanieu",
+            "npc_fr": "Amanieu",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x69762": {
+            "level": 80,
+            "name_en": "With Folded Hands",
+            "name_fr": "La toile du ciel",
+            "npc_en": "Retired Magitek Engineer",
+            "npc_fr": "ingénieur magitek à la retraite",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x69763": {
+            "level": 80,
+            "name_en": "A Light That Never Goes Out",
+            "name_fr": "Gare aux ténèbres",
+            "npc_en": "Spurius",
+            "npc_fr": "Spurius",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x69764": {
+            "level": 80,
+            "name_en": "P.S. I Love You",
+            "name_fr": "Pour qui écris-tu?",
+            "npc_en": "Maelstrom Delegate",
+            "npc_fr": "déléguée du Maelstrom",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x69765": {
+            "level": 80,
+            "name_en": "Brick by Brick, Tank by Tank",
+            "name_fr": "Rebâtir, pierre après pierre",
+            "npc_en": "Dossennus",
+            "npc_fr": "Dossennus",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x69766": {
+            "level": 80,
+            "name_en": "Rest, Thy Warfare O'er",
+            "name_fr": "Il faut sauver un camarade!",
+            "npc_en": "Mol Delegate",
+            "npc_fr": "soldate mol",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x69767": {
+            "level": 80,
+            "name_en": "Some Like It Hot",
+            "name_fr": "Servir la soupe à l'ennemi!?",
+            "npc_en": "Temple Knight",
+            "npc_fr": "templière déléguée",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x69768": {
+            "level": 80,
+            "name_en": "Children Are Our Future",
+            "name_fr": "Tu peux toujours courir!",
+            "unlock": "travel.aether-currents.ew.garlemald.11",
+            "npc_en": "Azure-haired Woman",
+            "npc_fr": "femme aux cheveux bleu ciel",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.ew.garlemald.11"
+            ]
+        },
+        "x69769": {
+            "level": 80,
+            "name_en": "Mama, She Is in Rubble Deep",
+            "name_fr": "Impériales de mère en fille",
+            "npc_en": "Makago Nokago",
+            "npc_fr": "Makago Nokago",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x69770": {
+            "level": 80,
+            "name_en": "Put Your Plasma Where Your Mouth Is",
+            "name_fr": "Manipuler avec précaution",
+            "npc_en": "Immortal Flame Delegate",
+            "npc_fr": "délégué des Immortels",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x69771": {
+            "level": 80,
+            "name_en": "The Hero Never Bombs",
+            "name_fr": "Cherche héros pour mission explosive",
+            "npc_en": "Iliette",
+            "npc_fr": "Iliette",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x69772": {
+            "level": 80,
+            "name_en": "Beasts of the Imperial Wild",
+            "name_fr": "Astuces de chasseur",
+            "npc_en": "Berthellemy",
+            "npc_fr": "Berthellemy",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x69773": {
+            "level": 80,
+            "name_en": "Ordnance Cleanup Committee",
+            "name_fr": "Ramassez-les toutes!",
+            "npc_en": "Kochacha",
+            "npc_fr": "Kochacha",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x69774": {
+            "level": 80,
+            "name_en": "A Place of Greater Safety",
+            "name_fr": "Civils et soldats, main dans la main",
+            "npc_en": "Talon",
+            "npc_fr": "Talon",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x69775": {
+            "level": 80,
+            "name_en": "In the Skies above Garlemald",
+            "name_fr": "La capitale vue du ciel",
+            "npc_en": "Contingent Scout",
+            "npc_fr": "éclaireur délégué",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ]
+        },
+        "x70034": {
+            "level": 80,
+            "name_en": "In Pursuit of Power",
+            "name_fr": "Un ingénieur déterminé",
+            "unlock": "travel.aether-currents.ew.garlemald.10",
+            "npc_en": "Rimelnaud",
+            "npc_fr": "Rimelnaud",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ],
+            "cNext": [
+                70035
+            ],
+            "cSiblings": [
+                "travel.aether-currents.ew.garlemald.10"
+            ]
+        },
+        "x70035": {
+            "level": 80,
+            "name_en": "Camp Broken Engines",
+            "name_fr": "Faire renaître la région",
+            "npc_en": "Rimelnaud",
+            "npc_fr": "Rimelnaud",
+            "cPrev": [
+                70034
+            ],
+            "cNext": [
+                70036
+            ]
+        },
+        "x70036": {
+            "level": 80,
+            "name_en": "Operation: Reactivation",
+            "name_fr": "La plateforme",
+            "npc_en": "Rimelnaud",
+            "npc_fr": "Rimelnaud",
+            "cPrev": [
+                70035
+            ],
+            "cNext": [
+                70037
+            ]
+        },
+        "x70037": {
+            "level": 80,
+            "name_en": "Energy for All",
+            "name_fr": "Un espoir de renouveau",
+            "npc_en": "Rimelnaud",
+            "npc_fr": "Rimelnaud",
+            "cPrev": [
+                70036
+            ],
+            "cNext": [
+                70042
+            ]
+        },
+        "x70038": {
+            "level": 80,
+            "name_en": "Stranded at the Station",
+            "name_fr": "Le garçon qui attendait",
+            "unlock": "travel.aether-currents.ew.garlemald.13",
+            "npc_en": "Galla",
+            "npc_fr": "Galla",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69929"
+            ],
+            "cNext": [
+                70039
+            ],
+            "cSiblings": [
+                "travel.aether-currents.ew.garlemald.13"
+            ]
+        },
+        "x70039": {
+            "level": 80,
+            "name_en": "Longing for Home",
+            "name_fr": "Les ruines de mon enfance",
+            "npc_en": "Volusus",
+            "npc_fr": "Volusus",
+            "cPrev": [
+                70038
+            ],
+            "cNext": [
+                70040
+            ]
+        },
+        "x70040": {
+            "level": 80,
+            "name_en": "Palatial Possibilities",
+            "name_fr": "Elle travaillait au Palatium",
+            "npc_en": "Galla",
+            "npc_fr": "Galla",
+            "cPrev": [
+                70039
+            ],
+            "cNext": [
+                70041
+            ]
+        },
+        "x70041": {
+            "level": 80,
+            "name_en": "Mum Is the Word",
+            "name_fr": "La fin des recherches?",
+            "npc_en": "Galla",
+            "npc_fr": "Galla",
+            "cPrev": [
+                70040
+            ],
+            "cNext": [
+                70042
+            ]
+        },
+        "x70042": {
+            "level": 80,
+            "name_en": "Who Is Your Daddy",
+            "name_fr": "Famille réunie, renaissance à venir",
+            "npc_en": "Vipsania",
+            "npc_fr": "Vipsania",
+            "cPrev": [
+                70037,
+                70041
+            ]
+        }
+    }
+}

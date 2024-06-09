@@ -1,0 +1,503 @@
+{
+    "key": "mor-dhona",
+    "groupName_en": "Mor Dhona",
+    "groupName_fr": "Mor Dhona",
+    "tasks": {
+        "x65968": {
+            "level": 1,
+            "name_en": "A Legend for a Legend",
+            "name_fr": "Qui se ressemble s'assemble",
+            "unlock": "character.mount-guide.96",
+            "npc_en": "Wandering Minstrel",
+            "npc_fr": "ménestrel errant",
+            "cPrev": [
+                "character.mount-guide.4",
+                "character.mount-guide.25",
+                "character.mount-guide.56",
+                "character.mount-guide.83",
+                "character.mount-guide.120",
+                "character.mount-guide.186"
+            ],
+            "cSiblings": [
+                "character.achievement.items.items.1063"
+            ]
+        },
+        "x67094": {
+            "level": 1,
+            "name_en": "Simply to Dye For",
+            "name_fr": "Une armure arc-en-ciel",
+            "npc_en": "Alys",
+            "npc_fr": "Alys",
+            "unlock_en": "Augmented Artifact Armor",
+            "cPrev": [
+                "duty.quests.sidequests.uldahn.western-thanalan.66235"
+            ]
+        },
+        "x66958": {
+            "level": 15,
+            "name_en": "Submission Impossible",
+            "name_fr": "Juste une illusion",
+            "npc_en": "Wiscard",
+            "npc_fr": "Wiscard",
+            "cPrev": [
+                66957
+            ],
+            "cExclude": [
+                "duty.quests.sidequests.uldahn.western-thanalan.68554"
+            ]
+        },
+        "x66957": {
+            "level": 15,
+            "name_en": "A Self-improving Man",
+            "name_fr": "L'homme le plus classe du monde",
+            "npc_en": "Wiscard",
+            "npc_fr": "Wiscard",
+            "unlock_en": "Glamours",
+            "cNext": [
+                66958
+            ],
+            "cExclude": [
+                "duty.quests.sidequests.uldahn.western-thanalan.68553"
+            ]
+        },
+        "x66524": {
+            "level": 44,
+            "name_en": "Crazy about Crystals",
+            "name_fr": "Un grrros empêcheur de tourner en rond",
+            "npc_en": "Npah Tayuun",
+            "npc_fr": "Npah Tayuun"
+        },
+        "x66533": {
+            "level": 44,
+            "name_en": "Passing the Smell Test",
+            "name_fr": "Un animal de compagnie insolite",
+            "npc_en": "Aganbold",
+            "npc_fr": "Aganbold",
+            "cNext": [
+                66535
+            ]
+        },
+        "x65554": {
+            "level": 45,
+            "name_en": "Leves of Saint Coinach's Find",
+            "name_fr": "Mandataire de la Trouvaille de Saint-Coinach",
+            "cPrevAny": true,
+            "npc_en": "K'leytai",
+            "npc_fr": "K'leytai",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
+            ]
+        },
+        "x66523": {
+            "level": 45,
+            "name_en": "Problem with Plasma",
+            "name_fr": "Quelle catalyse",
+            "npc_en": "Aganbold",
+            "npc_fr": "Aganbold",
+            "cPrev": [
+                66535
+            ]
+        },
+        "x66525": {
+            "level": 45,
+            "name_en": "Dirt and Ashes",
+            "name_fr": "Les âmes des revenants",
+            "npc_en": "Guolgeim",
+            "npc_fr": "Guolgeim",
+            "cNext": [
+                66534
+            ]
+        },
+        "x66526": {
+            "level": 45,
+            "name_en": "The Sons Also Rise",
+            "name_fr": "La Trouvaille de Saint-Coinach",
+            "npc_en": "Kakamehi",
+            "npc_fr": "Kakamehi"
+        },
+        "x66527": {
+            "level": 45,
+            "name_en": "Playing the Postman",
+            "name_fr": "Des nouvelles de la maison",
+            "npc_en": "Nazyl Duzyl",
+            "npc_fr": "Nazyl Duzyl",
+            "cNext": [
+                66532
+            ]
+        },
+        "x66528": {
+            "level": 45,
+            "name_en": "Hit the Hippogryphs",
+            "name_fr": "Recherche archéologue musclé",
+            "npc_en": "Rammbroes",
+            "npc_fr": "Rammbroes"
+        },
+        "x66529": {
+            "level": 45,
+            "name_en": "Straight Outta Abalathia",
+            "name_fr": "Des monstres qui n'aiment pas les fouilles",
+            "npc_en": "Wandering Breeze",
+            "npc_fr": "Wandering Breeze",
+            "cNext": [
+                66531
+            ]
+        },
+        "x66530": {
+            "level": 45,
+            "name_en": "Moon Sliver and Me",
+            "name_fr": "Le secret de Dalamud",
+            "npc_en": "Klynthota",
+            "npc_fr": "Klynthota"
+        },
+        "x66531": {
+            "level": 45,
+            "name_en": "Holier than Thou",
+            "name_fr": "Un lieu saint géant",
+            "npc_en": "Wandering Breeze",
+            "npc_fr": "Wandering Breeze",
+            "cPrev": [
+                66529
+            ]
+        },
+        "x66532": {
+            "level": 45,
+            "name_en": "Dropping Out",
+            "name_fr": "Une histoire qui commence par la chute",
+            "npc_en": "Nazyl Duzyl",
+            "npc_fr": "Nazyl Duzyl",
+            "cPrev": [
+                66527
+            ]
+        },
+        "x66534": {
+            "level": 45,
+            "name_en": "The Organ of Choice",
+            "name_fr": "L'appât du gain",
+            "npc_en": "Guolgeim",
+            "npc_fr": "Guolgeim",
+            "cPrev": [
+                66525
+            ],
+            "cNext": [
+                66536
+            ]
+        },
+        "x66535": {
+            "level": 45,
+            "name_en": "The Trickster of the Toll",
+            "name_fr": "Flemmite aiguë",
+            "npc_en": "Aganbold",
+            "npc_fr": "Aganbold",
+            "cPrev": [
+                66533
+            ],
+            "cNext": [
+                66523
+            ]
+        },
+        "x66536": {
+            "level": 45,
+            "name_en": "Heart of Cermet",
+            "name_fr": "S'en mettre plein les fouilles",
+            "npc_en": "Guolgeim",
+            "npc_fr": "Guolgeim",
+            "cPrev": [
+                66534
+            ]
+        },
+        "x65700": {
+            "level": 50,
+            "name_en": "Magiteknical Difficulties",
+            "name_fr": "Il est beau mon canon",
+            "npc_en": "Slafborn",
+            "npc_fr": "Slafborn",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ]
+        },
+        "x66677": {
+            "level": 50,
+            "name_en": "Morbid Motivation",
+            "name_fr": "Échange de bons procédés",
+            "npc_en": "Brangwine",
+            "npc_fr": "Brangwine",
+            "unlock_en": "Mystery Map",
+            "cPrev": [
+                "duty.quests.sidequests.gridanian.north-shroud.66676"
+            ]
+        },
+        "x66751": {
+            "level": 50,
+            "name_en": "Maniac Manor",
+            "name_fr": "Le manoir dont on ne revient pas",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.18",
+            "npc_en": "Lauriane",
+            "npc_fr": "Lauriane",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ]
+        },
+        "x66752": {
+            "level": 50,
+            "name_en": "Out of Sight, Out of Mine",
+            "name_fr": "Les profondeurs de Clochecuivre",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.17",
+            "npc_en": "Hugubert",
+            "npc_fr": "Hugubert",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ]
+        },
+        "x66946": {
+            "level": 50,
+            "name_en": "This Time's for Fun",
+            "name_fr": "L'invitation au carnage",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.20",
+            "npc_en": "Hugubert",
+            "npc_fr": "Hugubert",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ]
+        },
+        "x66947": {
+            "level": 50,
+            "name_en": "Curds and Slay",
+            "name_fr": "Une recette bien gardée",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.21",
+            "npc_en": "Bloezoeng",
+            "npc_fr": "Bloezoeng",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ]
+        },
+        "x66959": {
+            "level": 50,
+            "name_en": "Just Tooling Around",
+            "name_fr": "Les bons ouvriers ont toujours de bons outils",
+            "npc_en": "Guiding Star",
+            "npc_fr": "Guiding Star"
+        },
+        "x67061": {
+            "level": 50,
+            "name_en": "Blood for Stone",
+            "name_fr": "La reprise du Vigile de Pierre",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.23",
+            "npc_en": "Faillicie",
+            "npc_fr": "Faillicie",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ]
+        },
+        "x67062": {
+            "level": 50,
+            "name_en": "King of the Hull",
+            "name_fr": "Le trésor caché de Crèvecarène",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.22",
+            "npc_en": "Bloezoeng",
+            "npc_fr": "Bloezoeng",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.67784"
+            ]
+        },
+        "x66844": {
+            "level": 50,
+            "name_en": "The Ultimate Ballad",
+            "name_fr": "La ballade du fléau d'Ultima",
+            "unlock": "duty.dutyraid-finder.trials.arr.19",
+            "npc_en": "Alys",
+            "npc_fr": "Alys",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ],
+            "cNext": [
+                67095
+            ]
+        },
+        "x67095": {
+            "level": 50,
+            "name_en": "Sing Me Another Song",
+            "name_fr": "La ballade des vainqueurs des Méandres",
+            "unlock": [
+                "duty.dutyraid-finder.raids.arr.13",
+                "duty.dutyraid-finder.raids.arr.14",
+                "duty.dutyraid-finder.raids.arr.15",
+                "duty.dutyraid-finder.raids.arr.16"
+            ],
+            "npc_en": "Alys",
+            "npc_fr": "Alys",
+            "cPrev": [
+                66844
+            ]
+        },
+        "x65630": {
+            "level": 50,
+            "name_en": "It's Definitely Pirates",
+            "name_fr": "Les oubliés de Sastasha",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.26",
+            "npc_en": "Bloezoeng",
+            "npc_fr": "Bloezoeng",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ]
+        },
+        "x65632": {
+            "level": 50,
+            "name_en": "The Wrath of Qarn",
+            "name_fr": "Les profanateurs de Qarn",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.27",
+            "npc_en": "Hugubert",
+            "npc_fr": "Hugubert",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ]
+        },
+        "x65966": {
+            "level": 50,
+            "name_en": "For Keep's Sake",
+            "name_fr": "Retour en piste à Amdapor",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.30",
+            "npc_en": "Lauriane",
+            "npc_fr": "Lauriane",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ]
+        },
+        "x65967": {
+            "level": 50,
+            "name_en": "Not Easy Being Green",
+            "name_fr": "Invasion au Palais du Vagabond",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.29",
+            "npc_en": "Bloezoeng",
+            "npc_fr": "Bloezoeng",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ]
+        },
+        "x67632": {
+            "level": 55,
+            "name_en": "Beloved of the Builder",
+            "name_fr": "De nouveaux sommets",
+            "npc_en": "Lydirlona",
+            "npc_fr": "Lydirlona",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67118"
+            ]
+        },
+        "x67633": {
+            "level": 56,
+            "name_en": "No Longer a Collectable",
+            "name_fr": "Le maître de l'éthérolyse",
+            "npc_en": "Lydirlona",
+            "npc_fr": "Lydirlona",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67118"
+            ]
+        },
+        "x67634": {
+            "level": 60,
+            "name_en": "Go West, Craftsman",
+            "name_fr": "De nouveaux horizons",
+            "npc_en": "Lydirlona",
+            "npc_fr": "Lydirlona",
+            "unlock_en": "Aetherial Reduction",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67118",
+                "duty.quests.sidequests.ishgardian.ishgard.67631"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.idyllshire.67087",
+                "duty.quests.other.quasi-quests.67635",
+                "duty.quests.other.quasi-quests.68477",
+                "duty.quests.other.quasi-quests.69711",
+                "duty.quests.other.quasi-quests.69139",
+                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69425",
+                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69615"
+            ]
+        },
+        "x67739": {
+            "level": 60,
+            "name_en": "Thordan's Reign",
+            "name_fr": "La ballade du dieu autoproclamé",
+            "unlock": "duty.dutyraid-finder.trials.hw.9",
+            "npc_en": "Alys",
+            "npc_fr": "Alys",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67205"
+            ]
+        },
+        "x67825": {
+            "level": 60,
+            "name_en": "Nidhogg's Rage",
+            "name_fr": "La ballade de l'Avancée de la Foi",
+            "unlock": "duty.dutyraid-finder.trials.hw.10",
+            "npc_en": "Alys",
+            "npc_fr": "Alys",
+            "cPrev": [
+                "duty.quests.main-scenario.dragonsong.67783"
+            ]
+        },
+        "x67644": {
+            "level": 60,
+            "name_en": "A Song of Steam and Steel",
+            "name_fr": "La ballade du géant mécanique",
+            "unlock": [
+                "duty.dutyraid-finder.raids.hw.4",
+                "duty.dutyraid-finder.raids.hw.5",
+                "duty.dutyraid-finder.raids.hw.6",
+                "duty.dutyraid-finder.raids.hw.7"
+            ],
+            "npc_en": "Wandering Minstrel",
+            "npc_fr": "ménestrel errant",
+            "cPrev": [
+                "duty.quests.chronicles-of-a-new-era.alexander.67630"
+            ]
+        },
+        "x67790": {
+            "level": 60,
+            "name_en": "A Refrain for the Undaunted",
+            "name_fr": "Un chant mythologico-mécanique",
+            "unlock": [
+                "duty.dutyraid-finder.raids.hw.12",
+                "duty.dutyraid-finder.raids.hw.13",
+                "duty.dutyraid-finder.raids.hw.14",
+                "duty.dutyraid-finder.raids.hw.15"
+            ],
+            "npc_en": "Wandering Minstrel",
+            "npc_fr": "ménestrel errant",
+            "cPrev": [
+                "duty.quests.chronicles-of-a-new-era.alexander.67789"
+            ]
+        },
+        "x67876": {
+            "level": 60,
+            "name_en": "Who Lives, Who Dies, Who Retells Your Story",
+            "name_fr": "Un lied mécanico-temporel",
+            "unlock": [
+                "duty.dutyraid-finder.raids.hw.16",
+                "duty.dutyraid-finder.raids.hw.17",
+                "duty.dutyraid-finder.raids.hw.18",
+                "duty.dutyraid-finder.raids.hw.19"
+            ],
+            "npc_en": "Wandering Minstrel",
+            "npc_fr": "ménestrel errant",
+            "cPrev": [
+                "duty.quests.chronicles-of-a-new-era.alexander.67875"
+            ]
+        },
+        "x68722": {
+            "level": 70,
+            "name_en": "Take with a Tonze of Salt",
+            "name_fr": "La Salaisonnerie a fait des petits",
+            "npc_en": "Bloezoeng",
+            "npc_fr": "Bloezoeng",
+            "cPrev": [
+                "duty.quests.main-scenario.post-stormblood.68717"
+            ]
+        }
+    }
+}

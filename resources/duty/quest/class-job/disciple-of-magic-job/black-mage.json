@@ -1,0 +1,271 @@
+{
+    "key": "black-mage",
+    "groupName_en": "Black Mage",
+    "groupName_fr": "Quêtes de mage noir",
+    "tasks": {
+        "x66609": {
+            "level": 30,
+            "name_en": "Taking the Black",
+            "name_fr": "La voix des Marchands",
+            "npc_en": "Yayake",
+            "npc_fr": "Yayake",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-magic.thaumaturge.65889",
+                "duty.quests.main-scenario.seventh-umbral-era.66049"
+            ],
+            "cNext": [
+                66610
+            ],
+            "cSiblings": [
+                "character.adventure-plate.58"
+            ]
+        },
+        "x66610": {
+            "level": 35,
+            "name_en": "You'll Never Go Back",
+            "name_fr": "L'appel du sang",
+            "npc_en": "Lalai",
+            "npc_fr": "Lalai",
+            "cPrev": [
+                66609
+            ],
+            "cNext": [
+                66611
+            ]
+        },
+        "x66611": {
+            "level": 40,
+            "name_en": "International Relations",
+            "name_fr": "Des amis étrangers",
+            "npc_en": "Lalai",
+            "npc_fr": "Lalai",
+            "cPrev": [
+                66610
+            ],
+            "cNext": [
+                66612
+            ]
+        },
+        "x66612": {
+            "level": 45,
+            "name_en": "The Voidgate Breathes Gloomy",
+            "name_fr": "La corruption du néant",
+            "npc_en": "Kazagg Chah",
+            "npc_fr": "Kazagg Chah",
+            "cPrev": [
+                66611
+            ],
+            "cNext": [
+                66613
+            ]
+        },
+        "x66613": {
+            "level": 45,
+            "name_en": "The Blood Must Flow",
+            "name_fr": "Les habits du pouvoir",
+            "npc_en": "Kazagg Chah",
+            "npc_fr": "Kazagg Chah",
+            "cPrev": [
+                66612
+            ],
+            "cNext": [
+                66614
+            ]
+        },
+        "x66614": {
+            "level": 50,
+            "name_en": "Always Bet on Black",
+            "name_fr": "La voie de la magie noire",
+            "npc_en": "Kazagg Chah",
+            "npc_fr": "Kazagg Chah",
+            "cPrev": [
+                66613
+            ],
+            "cNext": [
+                66659,
+                67214
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.413"
+            ]
+        },
+        "x66659": {
+            "level": 50,
+            "name_en": "A Relic Reborn (Stardust Rod)",
+            "name_fr": "Restauration du Sceptre étoilé",
+            "npc_en": "Gerolt",
+            "npc_fr": "Gerolt",
+            "cPrev": [
+                66614,
+                "duty.quests.sidequests.uldahn.western-thanalan.66241"
+            ]
+        },
+        "x67214": {
+            "level": 50,
+            "name_en": "Black Books",
+            "name_fr": "L'héritage de Ququruka",
+            "npc_en": "Lalai",
+            "npc_fr": "Lalai",
+            "cPrev": [
+                66614,
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                67215
+            ]
+        },
+        "x67215": {
+            "level": 52,
+            "name_en": "An Unexpected Journey",
+            "name_fr": "Qui veut du mal à l'Amalj'aa?",
+            "npc_en": "Lalai",
+            "npc_fr": "Lalai",
+            "cPrev": [
+                67214
+            ],
+            "cNext": [
+                67216
+            ]
+        },
+        "x67216": {
+            "level": 54,
+            "name_en": "A Cunning Plan",
+            "name_fr": "Le Kobold a eu moins de bol",
+            "npc_en": "Lalai",
+            "npc_fr": "Lalai",
+            "cPrev": [
+                67215
+            ],
+            "cNext": [
+                67217
+            ]
+        },
+        "x67217": {
+            "level": 56,
+            "name_en": "Black Squawk Down",
+            "name_fr": "L'Ixal exilé pris en chasse",
+            "npc_en": "Lalai",
+            "npc_fr": "Lalai",
+            "cPrev": [
+                67216
+            ],
+            "cNext": [
+                67218
+            ]
+        },
+        "x67218": {
+            "level": 58,
+            "name_en": "Destruction in the Name of Justice",
+            "name_fr": "Un allié un peu trop zélé",
+            "npc_en": "Lalai",
+            "npc_fr": "Lalai",
+            "cPrev": [
+                67217
+            ],
+            "cNext": [
+                67219
+            ]
+        },
+        "x67219": {
+            "level": 60,
+            "name_en": "The Defiant Ones",
+            "name_fr": "Un mariage explosif",
+            "npc_en": "Lalai",
+            "npc_fr": "Lalai",
+            "cPrev": [
+                67218
+            ],
+            "cNext": [
+                68124
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1147"
+            ]
+        },
+        "x68124": {
+            "level": 60,
+            "name_en": "Shades of Shatotto",
+            "name_fr": "Souvenirs d'outre-tombe",
+            "npc_en": "Lalai",
+            "npc_fr": "Lalai",
+            "cPrev": [
+                67219,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                68125
+            ]
+        },
+        "x68125": {
+            "level": 63,
+            "name_en": "Golems Gone Wild",
+            "name_fr": "Cavale minérale",
+            "npc_en": "Lalai",
+            "npc_fr": "Lalai",
+            "cPrev": [
+                68124
+            ],
+            "cNext": [
+                68126
+            ]
+        },
+        "x68126": {
+            "level": 65,
+            "name_en": "When the Golems Get Tough",
+            "name_fr": "Roc indépendant",
+            "npc_en": "Lalai",
+            "npc_fr": "Lalai",
+            "cPrev": [
+                68125
+            ],
+            "cNext": [
+                68127
+            ]
+        },
+        "x68127": {
+            "level": 68,
+            "name_en": "Unnatural Selection",
+            "name_fr": "Des golems et des gemmes",
+            "npc_en": "Lalai",
+            "npc_fr": "Lalai",
+            "cPrev": [
+                68126
+            ],
+            "cNext": [
+                68128
+            ]
+        },
+        "x68128": {
+            "level": 70,
+            "name_en": "One Golem to Rule Them All",
+            "name_fr": "Il n'en restera qu'un",
+            "npc_en": "Lalai",
+            "npc_fr": "Lalai",
+            "cPrev": [
+                68127
+            ],
+            "cNext": [
+                68752
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1803"
+            ]
+        },
+        "x68752": {
+            "level": 80,
+            "name_en": "A Home for a Tome",
+            "name_fr": "Lalai, censurée!",
+            "npc_en": "Lalai",
+            "npc_fr": "Lalai",
+            "cPrev": [
+                68128,
+                "duty.quests.class--job.role.shb.69164",
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.57",
+                "character.achievement.quests.job-role-quests.2312"
+            ]
+        }
+    }
+}

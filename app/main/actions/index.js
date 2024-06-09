@@ -21,15 +21,7 @@ function initActions() {
     electron_1.ipcMain.on('open-save', PlayerStore_1.PlayerStore.open);
     electron_1.ipcMain.on('backup-save', PlayerStore_1.PlayerStore.backup);
     electron_1.ipcMain.on('load-backup-save', PlayerStore_1.PlayerStore.loadBackup);
-    electron_1.ipcMain.on('load-json', function (event, path) {
-        try {
-            event.returnValue = JSON.parse(fs.readFileSync(path, 'utf8'));
-        }
-        catch (e) {
-            console.error(e);
-            event.returnValue = null;
-        }
-    });
+    electron_1.ipcMain.on('load-json', loadJson);
     electron_1.ipcMain.on('search-console-games', Remote.searchConsoleGamer);
     electron_1.ipcMain.on('search-gamer-escape', Remote.searchGamerEscape);
     electron_1.ipcMain.on('search-garland-tools', Remote.searchGarlandTools);
@@ -37,4 +29,20 @@ function initActions() {
     electron_1.ipcMain.on('open-in-teamcraft', Remote.openInTeamcraft);
 }
 exports.initActions = initActions;
+function loadJson(event, path) {
+    try {
+        if (fs.existsSync(path)) {
+            var finalPath = path + '\\_index.json';
+            event.returnValue = JSON.parse(fs.readFileSync(finalPath, 'utf8'));
+        }
+        else {
+            var finalPath = path + '.json';
+            event.returnValue = JSON.parse(fs.readFileSync(finalPath, 'utf8'));
+        }
+    }
+    catch (e) {
+        console.error('load-json failed:', e);
+        event.returnValue = null;
+    }
+}
 //# sourceMappingURL=index.js.map

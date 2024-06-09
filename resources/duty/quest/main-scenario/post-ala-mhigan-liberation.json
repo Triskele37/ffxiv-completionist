@@ -1,0 +1,574 @@
+{
+    "key": "post-stormblood",
+    "groupName_en": "Post-Stormblood",
+    "groupName_fr": "Après la Tempête de Sang",
+    "tasks": {
+        "x68498": {
+            "level": 70,
+            "name_en": "Arenvald's Adventure",
+            "name_fr": "Une soif d'aventure",
+            "unlock": "social.emotes.special.166",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68089"
+            ],
+            "cNext": [
+                68499
+            ],
+            "cSiblings": [
+                "social.emotes.special.166"
+            ]
+        },
+        "x68499": {
+            "level": 70,
+            "name_en": "The Darkness Below",
+            "name_fr": "Exhumer la légende",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68498
+            ],
+            "cNext": [
+                68500
+            ]
+        },
+        "x68500": {
+            "level": 70,
+            "name_en": "The Mad King's Trove",
+            "name_fr": "Le trésor de Theodoric",
+            "unlock": "duty.dutyraid-finder.dungeons.sb.8",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68499
+            ],
+            "cNext": [
+                68501
+            ]
+        },
+        "x68501": {
+            "level": 70,
+            "name_en": "The Butcher's Blood",
+            "name_fr": "La vindicte d'un peuple",
+            "npc_en": "Arenvald",
+            "npc_fr": "Arenvald",
+            "cPrev": [
+                68500
+            ],
+            "cNext": [
+                68502
+            ]
+        },
+        "x68502": {
+            "level": 70,
+            "name_en": "Echoes of an Echo",
+            "name_fr": "Le spectre des Résonnants",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68501
+            ],
+            "cNext": [
+                68503
+            ]
+        },
+        "x68503": {
+            "level": 70,
+            "name_en": "A Sultana's Strings",
+            "name_fr": "Détermination souveraine",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68502
+            ],
+            "cNext": [
+                68504
+            ]
+        },
+        "x68504": {
+            "level": 70,
+            "name_en": "A Sultana's Duty",
+            "name_fr": "L'idée de Nanamo",
+            "npc_en": "Nanamo Ul Namo",
+            "npc_fr": "Nanamo Ul Namo",
+            "cPrev": [
+                68503
+            ],
+            "cNext": [
+                68505
+            ]
+        },
+        "x68505": {
+            "level": 70,
+            "name_en": "A Sultana's Resolve",
+            "name_fr": "Nanamo, négociatrice",
+            "npc_en": "Nanamo Ul Namo",
+            "npc_fr": "Nanamo Ul Namo",
+            "cPrev": [
+                68504
+            ],
+            "cNext": [
+                68506
+            ]
+        },
+        "x68506": {
+            "level": 70,
+            "name_en": "Securing the Saltery",
+            "name_fr": "L'avenir de La Salaisonnerie",
+            "npc_en": "Nanamo Ul Namo",
+            "npc_fr": "Nanamo Ul Namo",
+            "cPrev": [
+                68505
+            ],
+            "cNext": [
+                68507
+            ]
+        },
+        "x68507": {
+            "level": 70,
+            "name_en": "A Blissful Arrival",
+            "name_fr": "Une délégation inattendue",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68506
+            ],
+            "cNext": [
+                68508
+            ]
+        },
+        "x68508": {
+            "level": 70,
+            "name_en": "Return of the Bull",
+            "name_fr": "Retour au bercail",
+            "unlock": "character.minion-guide.72",
+            "npc_en": "Raubahn",
+            "npc_fr": "Raubahn",
+            "cPrev": [
+                68507
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68541",
+                68558
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1990"
+            ]
+        },
+        "x68558": {
+            "level": 70,
+            "name_en": "Tidings from the East",
+            "name_fr": "À l'Est, du nouveau",
+            "unlock": "social.emotes.general.172",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68508
+            ],
+            "cNext": [
+                68559
+            ],
+            "cSiblings": [
+                "social.emotes.general.172"
+            ]
+        },
+        "x68559": {
+            "level": 70,
+            "name_en": "The Sword in the Store",
+            "name_fr": "Au fil du katana",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68558
+            ],
+            "cNext": [
+                68560
+            ]
+        },
+        "x68560": {
+            "level": 70,
+            "name_en": "Hope on the Waves",
+            "name_fr": "L'espoir au large",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": [
+                68559
+            ],
+            "cNext": [
+                "duty.quests.chronicles-of-a-new-era.the-four-lords.68551",
+                68561
+            ]
+        },
+        "x68561": {
+            "level": 70,
+            "name_en": "Elation and Trepidation",
+            "name_fr": "Entre joie et douleur",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": [
+                68560
+            ],
+            "cNext": [
+                "duty.quests.sidequests.records-of-unusual-endeavors.doman-reconstruction.68622",
+                68562
+            ]
+        },
+        "x68562": {
+            "level": 70,
+            "name_en": "Storm on the Horizon",
+            "name_fr": "Un nuage noir à l'horizon",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68561
+            ],
+            "cNext": [
+                68563
+            ]
+        },
+        "x68563": {
+            "level": 70,
+            "name_en": "His Forgotten Home",
+            "name_fr": "L'enfant du pays",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68562
+            ],
+            "cNext": [
+                68564
+            ]
+        },
+        "x68564": {
+            "level": 70,
+            "name_en": "A Guilty Conscience",
+            "name_fr": "L'avocat du diable",
+            "npc_en": "Asahi",
+            "npc_fr": "Asahi",
+            "cPrev": [
+                68563
+            ],
+            "cNext": [
+                68565
+            ]
+        },
+        "x68565": {
+            "level": 70,
+            "name_en": "Rise of a New Sun",
+            "name_fr": "La pointe de l'aube",
+            "unlock": "logs.orchestrion-list.others.26",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68564
+            ],
+            "cNext": [
+                68606
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.2013"
+            ]
+        },
+        "x68606": {
+            "level": 70,
+            "name_en": "Gosetsu and Tsuyu",
+            "name_fr": "La jeune fille et le vieux samouraï",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68565
+            ],
+            "cNext": [
+                68607
+            ]
+        },
+        "x68607": {
+            "level": 70,
+            "name_en": "Gone Like the Morning Dew",
+            "name_fr": "Veuve noire en fugue",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68606
+            ],
+            "cNext": [
+                68608
+            ]
+        },
+        "x68608": {
+            "level": 70,
+            "name_en": "Fruits of Her Labor",
+            "name_fr": "Nouvelle passe d'armes",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68607
+            ],
+            "cNext": [
+                68609
+            ]
+        },
+        "x68609": {
+            "level": 70,
+            "name_en": "Conscripts and Contingencies",
+            "name_fr": "En attendant l'échange",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68608
+            ],
+            "cNext": [
+                68610
+            ]
+        },
+        "x68610": {
+            "level": 70,
+            "name_en": "The Primary Agreement",
+            "name_fr": "La clause principale",
+            "unlock": "duty.dutyraid-finder.trials.sb.4",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68609
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68566",
+                68611
+            ]
+        },
+        "x68611": {
+            "level": 70,
+            "name_en": "Under the Moonlight",
+            "name_fr": "Sous le clair de lune",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68610
+            ],
+            "cNext": [
+                68612
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.2098"
+            ]
+        },
+        "x68612": {
+            "level": 70,
+            "name_en": "Emissary of the Dawn",
+            "name_fr": "Voyage en terre hostile",
+            "unlock": "social.emotes.expressions.183",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68611
+            ],
+            "cNext": [
+                68679,
+                "duty.quests.class--job.disciple-of-magic-job.blue-mage.69525"
+            ],
+            "cSiblings": [
+                "social.emotes.expressions.183"
+            ]
+        },
+        "x68679": {
+            "level": 70,
+            "name_en": "Sisterly Act",
+            "name_fr": "À la recherche d'un Héritier",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68612
+            ],
+            "cNext": [
+                68680
+            ]
+        },
+        "x68680": {
+            "level": 70,
+            "name_en": "Feel the Burn",
+            "name_fr": "Les terres dévastées",
+            "unlock": "duty.dutyraid-finder.dungeons.sb.12",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68679
+            ],
+            "cNext": [
+                68681
+            ]
+        },
+        "x68681": {
+            "level": 70,
+            "name_en": "Shadows in the Empire",
+            "name_fr": "Un danger peut en cacher un autre",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68680
+            ],
+            "cNext": [
+                68682
+            ]
+        },
+        "x68682": {
+            "level": 70,
+            "name_en": "A Power in Slumber",
+            "name_fr": "L'énergie de la steppe",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68681
+            ],
+            "cNext": [
+                68683
+            ]
+        },
+        "x68683": {
+            "level": 70,
+            "name_en": "The Will of the Moon",
+            "name_fr": "Ralliement dans la steppe",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": [
+                68682
+            ],
+            "cNext": [
+                68684
+            ]
+        },
+        "x68684": {
+            "level": 70,
+            "name_en": "The Call",
+            "name_fr": "Ravageuses résonances",
+            "unlock": "social.emotes.expressions.190",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": [
+                68683
+            ],
+            "cNext": [
+                68685
+            ],
+            "cSiblings": [
+                "social.emotes.expressions.190"
+            ]
+        },
+        "x68685": {
+            "level": 70,
+            "name_en": "Prelude in Violet",
+            "name_fr": "Prélude pourpré",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68684
+            ],
+            "cNext": [
+                68715
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.2124"
+            ]
+        },
+        "x68715": {
+            "level": 70,
+            "name_en": "Soul Searching",
+            "name_fr": "Les âmes perdues",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68685
+            ],
+            "cNext": [
+                68716
+            ]
+        },
+        "x68716": {
+            "level": 70,
+            "name_en": "A Defector's Tidings",
+            "name_fr": "Nouvelles d'un transfuge",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68715
+            ],
+            "cNext": [
+                68717
+            ]
+        },
+        "x68717": {
+            "level": 70,
+            "name_en": "Seiryu's Wall",
+            "name_fr": "La barrière de Seiryû",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68716
+            ],
+            "cNext": [
+                68718,
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.68722"
+            ]
+        },
+        "x68718": {
+            "level": 70,
+            "name_en": "Parley on the Front Lines",
+            "name_fr": "Pourparlers à Ghimlyt",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68717
+            ],
+            "cNext": [
+                68719
+            ]
+        },
+        "x68719": {
+            "level": 70,
+            "name_en": "The Face of War",
+            "name_fr": "Guerre ouverte",
+            "unlock": "duty.dutyraid-finder.dungeons.sb.14",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68718
+            ],
+            "cNext": [
+                68720
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.2160"
+            ]
+        },
+        "x68720": {
+            "level": 70,
+            "name_en": "A Brief Reprieve",
+            "name_fr": "Visite d'un ami",
+            "npc_en": "Hoary Boulder",
+            "npc_fr": "Hoary Boulder",
+            "cPrev": [
+                68719
+            ],
+            "cNext": [
+                68721
+            ]
+        },
+        "x68721": {
+            "level": 70,
+            "name_en": "A Requiem for Heroes",
+            "name_fr": "Un requiem pour les héros",
+            "npc_en": "Resistance Fighter",
+            "npc_fr": "officier mhigois",
+            "unlock_en": "Scion Traveller's Garb",
+            "cPrev": [
+                68720
+            ],
+            "cNext": [
+                "duty.quests.main-scenario.shadowbringers.68815"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.2233"
+            ]
+        }
+    }
+}

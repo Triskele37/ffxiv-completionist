@@ -1,0 +1,272 @@
+{
+    "key": "summoner",
+    "groupName_en": "Summoner",
+    "groupName_fr": "Quêtes d'invocateur",
+    "tasks": {
+        "x66627": {
+            "level": 30,
+            "name_en": "Austerities of Flame",
+            "name_fr": "Le baptême du feu",
+            "npc_en": "Thubyrgeim",
+            "npc_fr": "Thubyrgeim",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-magic.arcanist.65997",
+                "duty.quests.main-scenario.seventh-umbral-era.66049"
+            ],
+            "cNext": [
+                66628
+            ],
+            "cSiblings": [
+                "character.adventure-plate.61"
+            ]
+        },
+        "x66628": {
+            "level": 35,
+            "name_en": "Austerities of Earth",
+            "name_fr": "L'appel de la terre",
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "cPrev": [
+                66627
+            ],
+            "cNext": [
+                66629
+            ]
+        },
+        "x66629": {
+            "level": 40,
+            "name_en": "Shadowing the Summoner",
+            "name_fr": "À la poursuite d'une ombre",
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "cPrev": [
+                66628
+            ],
+            "cNext": [
+                66630
+            ]
+        },
+        "x66630": {
+            "level": 45,
+            "name_en": "Allagan Attire",
+            "name_fr": "Vestiges de la mode allagoise",
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "cPrev": [
+                66629
+            ],
+            "cNext": [
+                66631
+            ]
+        },
+        "x66631": {
+            "level": 45,
+            "name_en": "Austerities of Wind",
+            "name_fr": "Libre comme le vent",
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "cPrev": [
+                66630
+            ],
+            "cNext": [
+                66632
+            ]
+        },
+        "x66632": {
+            "level": 50,
+            "name_en": "Primal Burdens",
+            "name_fr": "La fin ne justifie pas toujours les moyens",
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "cPrev": [
+                66631
+            ],
+            "cNext": [
+                66662,
+                67636,
+                "duty.quests.sidequests.lominsan.limsa-lominsa.67896"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.599"
+            ]
+        },
+        "x66662": {
+            "level": 50,
+            "name_en": "A Relic Reborn (The Veil of Wiyu)",
+            "name_fr": "Restauration de l'Œilvert",
+            "npc_en": "Gerolt",
+            "npc_fr": "Gerolt",
+            "cPrev": [
+                66632,
+                "duty.quests.sidequests.uldahn.western-thanalan.66241"
+            ]
+        },
+        "x67636": {
+            "level": 50,
+            "name_en": "A Fitting Tomestone",
+            "name_fr": "Un pouvoir fulgurant?",
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "cPrev": [
+                66632,
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                67637
+            ]
+        },
+        "x67637": {
+            "level": 52,
+            "name_en": "A Matter of Fact",
+            "name_fr": "Le retour d'une ombre",
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "cPrev": [
+                67636
+            ],
+            "cNext": [
+                67638
+            ]
+        },
+        "x67638": {
+            "level": 54,
+            "name_en": "A Miner Negotiation",
+            "name_fr": "Les leçons de l'Histoire",
+            "npc_en": "Dancing Wolf",
+            "npc_fr": "Dancing Wolf",
+            "cPrev": [
+                67637
+            ],
+            "cNext": [
+                67639
+            ]
+        },
+        "x67639": {
+            "level": 56,
+            "name_en": "Mad, Bad, and Ebon-clad",
+            "name_fr": "Invocateur de marionnettes",
+            "npc_en": "Dancing Wolf",
+            "npc_fr": "Dancing Wolf",
+            "cPrev": [
+                67638
+            ],
+            "cNext": [
+                67640
+            ]
+        },
+        "x67640": {
+            "level": 58,
+            "name_en": "I Could Have Tranced All Night",
+            "name_fr": "Une transe ancestrale",
+            "npc_en": "Dancing Wolf",
+            "npc_fr": "Dancing Wolf",
+            "cPrev": [
+                67639
+            ],
+            "cNext": [
+                67641
+            ]
+        },
+        "x67641": {
+            "level": 60,
+            "name_en": "A Flare for the Dramatic",
+            "name_fr": "Du brasier naît la paix",
+            "npc_en": "Dancing Wolf",
+            "npc_fr": "Dancing Wolf",
+            "cPrev": [
+                67640
+            ],
+            "cNext": [
+                68161
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1148"
+            ]
+        },
+        "x68161": {
+            "level": 60,
+            "name_en": "A Book with Bite",
+            "name_fr": "Un livre pour le moins savant",
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "cPrev": [
+                67641,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                68162
+            ]
+        },
+        "x68162": {
+            "level": 63,
+            "name_en": "Performing for Prin",
+            "name_fr": "Duels d'invocateurs",
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "cPrev": [
+                68161
+            ],
+            "cNext": [
+                68163
+            ]
+        },
+        "x68163": {
+            "level": 65,
+            "name_en": "An Egi-stential Crisis",
+            "name_fr": "Une menace invisible",
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "cPrev": [
+                68162
+            ],
+            "cNext": [
+                68164
+            ]
+        },
+        "x68164": {
+            "level": 68,
+            "name_en": "Off the Record",
+            "name_fr": "En quête de savoirs perdus",
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "cPrev": [
+                68163
+            ],
+            "cNext": [
+                68165
+            ]
+        },
+        "x68165": {
+            "level": 70,
+            "name_en": "An Art for the Living",
+            "name_fr": "L'invocateur invoqué",
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "cPrev": [
+                68164
+            ],
+            "cNext": [
+                69569
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1804"
+            ]
+        },
+        "x69569": {
+            "level": 80,
+            "name_en": "To Be Second Best",
+            "name_fr": "La dubitation d'un invocateur",
+            "npc_en": "Y'mhitra",
+            "npc_fr": "Y'mhitra",
+            "cPrev": [
+                68165,
+                "duty.quests.class--job.role.shb.69164",
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.60",
+                "character.achievement.quests.job-role-quests.2313"
+            ]
+        }
+    }
+}

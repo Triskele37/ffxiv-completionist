@@ -1,0 +1,320 @@
+{
+    "key": "north-shroud",
+    "groupName_en": "North Shroud",
+    "groupName_fr": "Forêt du nord",
+    "tasks": {
+        "x65706": {
+            "level": 5,
+            "name_en": "Jumping at Shadows",
+            "name_fr": "Effroyables petits acari",
+            "npc_en": "Bodwine",
+            "npc_fr": "Bodwine",
+            "cNext": [
+                65707
+            ]
+        },
+        "x65731": {
+            "level": 5,
+            "name_en": "A Glim Harvest",
+            "name_fr": "Un champignon ramassé, une vie conservée",
+            "npc_en": "Linyeve",
+            "npc_fr": "Linyeve"
+        },
+        "x65709": {
+            "level": 5,
+            "name_en": "The Nose Knows",
+            "name_fr": "Une livraison de boules puantes",
+            "npc_en": "Vionne",
+            "npc_fr": "Vionne"
+        },
+        "x65707": {
+            "level": 6,
+            "name_en": "The Valued Vilekin",
+            "name_fr": "De prodigieux pucerons",
+            "npc_en": "Bodwine",
+            "npc_fr": "Bodwine",
+            "cPrev": [
+                65706
+            ],
+            "cNext": [
+                65710
+            ]
+        },
+        "x65735": {
+            "level": 6,
+            "name_en": "A Clear Sign",
+            "name_fr": "Décrasser les bornes",
+            "npc_en": "Paulemont",
+            "npc_fr": "Paulemont",
+            "cNext": [
+                65639
+            ]
+        },
+        "x65639": {
+            "level": 6,
+            "name_en": "Death to the Bean Thieves",
+            "name_fr": "La main dans le sac",
+            "npc_en": "Q'djawana",
+            "npc_fr": "Q'djawana",
+            "cPrev": [
+                65735
+            ],
+            "cNext": [
+                65634
+            ]
+        },
+        "x65631": {
+            "level": 7,
+            "name_en": "Hematophagic Harassment",
+            "name_fr": "La confiance, ça se mérite",
+            "npc_en": "Eadbert",
+            "npc_fr": "Eadbert",
+            "cNext": [
+                65633
+            ]
+        },
+        "x65710": {
+            "level": 7,
+            "name_en": "No Quarter Given",
+            "name_fr": "Voler dans les plumes des Ixali",
+            "npc_en": "Guithrit",
+            "npc_fr": "Guithrit",
+            "cPrev": [
+                65707
+            ]
+        },
+        "x65634": {
+            "level": 8,
+            "name_en": "Drink Your Beans, Dear",
+            "name_fr": "Faut pas gâcher",
+            "npc_en": "Dametta",
+            "npc_fr": "Dametta",
+            "cPrev": [
+                65639
+            ],
+            "cNext": [
+                65635
+            ]
+        },
+        "x65633": {
+            "level": 8,
+            "name_en": "Harriers of the Hedgetree",
+            "name_fr": "Patrouille à l'orée du bois",
+            "npc_en": "Eadbert",
+            "npc_fr": "Eadbert",
+            "cPrev": [
+                65631
+            ],
+            "cNext": [
+                65635
+            ]
+        },
+        "x65635": {
+            "level": 9,
+            "name_en": "The Kindness of Strangers",
+            "name_fr": "Un admirateur inconnu",
+            "npc_en": "Emeria",
+            "npc_fr": "Emeria",
+            "cPrev": [
+                65633,
+                65634
+            ]
+        },
+        "x66324": {
+            "level": 28,
+            "name_en": "Potable Perils",
+            "name_fr": "La clef de ses soucis",
+            "npc_en": "Somerhild",
+            "npc_fr": "Somerhild",
+            "cNext": [
+                66328
+            ]
+        },
+        "x66325": {
+            "level": 28,
+            "name_en": "No News Is Good News",
+            "name_fr": "Pas de nouvelles, bonnes nouvelles",
+            "npc_en": "Godwin",
+            "npc_fr": "Godwin"
+        },
+        "x66326": {
+            "level": 28,
+            "name_en": "Save the Trees",
+            "name_fr": "Arbres en péril",
+            "npc_en": "Oriane",
+            "npc_fr": "Oriane",
+            "cNext": [
+                66327
+            ]
+        },
+        "x66327": {
+            "level": 28,
+            "name_en": "Pumiceous Pursuits",
+            "name_fr": "Pierre à son âme",
+            "npc_en": "Oriane",
+            "npc_fr": "Oriane",
+            "cPrev": [
+                66326
+            ]
+        },
+        "x66328": {
+            "level": 28,
+            "name_en": "Cleaning House",
+            "name_fr": "Par amour de l'art",
+            "npc_en": "Aeluuin",
+            "npc_fr": "Aeluuin",
+            "cPrev": [
+                66324
+            ],
+            "cNext": [
+                66329
+            ]
+        },
+        "x66329": {
+            "level": 28,
+            "name_en": "Trouble on the Road",
+            "name_fr": "Un retard inquiétant",
+            "npc_en": "Aeluuin",
+            "npc_fr": "Aeluuin",
+            "cPrev": [
+                66328
+            ],
+            "cNext": [
+                66332
+            ]
+        },
+        "x66330": {
+            "level": 28,
+            "name_en": "A Welcome Overstayed",
+            "name_fr": "La fugue de Gogolata",
+            "npc_en": "Gogolata",
+            "npc_fr": "Gogolata",
+            "cNext": [
+                66331
+            ]
+        },
+        "x66331": {
+            "level": 28,
+            "name_en": "No Place Like Home",
+            "name_fr": "Les aveux de Gogolata",
+            "npc_en": "Gogolata",
+            "npc_fr": "Gogolata",
+            "cPrev": [
+                66330
+            ]
+        },
+        "x66332": {
+            "level": 28,
+            "name_en": "Meals for Miners",
+            "name_fr": "Le repas des prospecteurs",
+            "npc_en": "Aeluuin",
+            "npc_fr": "Aeluuin",
+            "cPrev": [
+                66329
+            ]
+        },
+        "x66333": {
+            "level": 28,
+            "name_en": "Digging in the Dark",
+            "name_fr": "Et la lumière fut",
+            "npc_en": "Ademar",
+            "npc_fr": "Ademar",
+            "cNext": [
+                66334
+            ]
+        },
+        "x66334": {
+            "level": 28,
+            "name_en": "A Leg Up",
+            "name_fr": "Courtes échelles",
+            "npc_en": "Ademar",
+            "npc_fr": "Ademar",
+            "cPrev": [
+                66333
+            ]
+        },
+        "x66421": {
+            "level": 36,
+            "name_en": "Hunger Is the Best Sauce",
+            "name_fr": "Ça jette un froid",
+            "npc_en": "Idristan",
+            "npc_fr": "Idristan"
+        },
+        "x66442": {
+            "level": 37,
+            "name_en": "Tit for Tat",
+            "name_fr": "La chasse aux volatiles",
+            "npc_en": "Isaudorel",
+            "npc_fr": "Isaudorel",
+            "cPrev": [
+                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66441"
+            ],
+            "cNext": [
+                66443
+            ]
+        },
+        "x66443": {
+            "level": 37,
+            "name_en": "Inquire at the Spire",
+            "name_fr": "Une haine viscérale",
+            "npc_en": "Ireine",
+            "npc_fr": "Ireine",
+            "cPrev": [
+                66442
+            ],
+            "cNext": [
+                66444
+            ]
+        },
+        "x66444": {
+            "level": 37,
+            "name_en": "Don't Shut Me Out",
+            "name_fr": "Oh, la belle rouge!",
+            "npc_en": "Miah Molkot",
+            "npc_fr": "Miah Molkot",
+            "cPrev": [
+                66443
+            ],
+            "cNext": [
+                66445
+            ]
+        },
+        "x66445": {
+            "level": 37,
+            "name_en": "From Gridania, with Love",
+            "name_fr": "Un important message",
+            "npc_en": "Miah Molkot",
+            "npc_fr": "Miah Molkot",
+            "cPrev": [
+                66444
+            ]
+        },
+        "x66676": {
+            "level": 50,
+            "name_en": "One Man's Trash",
+            "name_fr": "Une carte au trésor inestimable",
+            "npc_en": "Ealdwine",
+            "npc_fr": "Ealdwine",
+            "cPrev": [
+                "duty.quests.sidequests.weapon-enhancement-sidequests.zodiac-weapons.66998"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.66677",
+                "duty.quests.sidequests.weapon-enhancement-sidequests.zodiac-weapons.65896"
+            ]
+        },
+        "x67206": {
+            "level": 50,
+            "name_en": "Kettle to the Mettle",
+            "name_fr": "La goutte d'eau qui fait déborder la bouilloire",
+            "npc_en": "Jalzahn",
+            "npc_fr": "Jalzahn",
+            "cPrev": [
+                "duty.quests.sidequests.weapon-enhancement-sidequests.zodiac-weapons.67823"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1492"
+            ]
+        }
+    }
+}

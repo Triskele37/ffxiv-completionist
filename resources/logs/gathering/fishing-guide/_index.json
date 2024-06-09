@@ -1,0 +1,28 @@
+{
+    "key": "fishing-guide",
+    "groupName_en": "Fishing Guide",
+    "groupName_fr": "Nomenclature",
+    "headers": {
+        "name": {
+            "header_en": "Name",
+            "header_fr": "Nom"
+        },
+        "bait": {
+            "filterable": true,
+            "link": true,
+            "header_en": "Bait",
+            "header_fr": "Attributs"
+        },
+        "zone": {
+            "link": true,
+            "header_en": "Zone",
+            "header_fr": "Région"
+        },
+        "fishingHoles": {
+            "filterable": true,
+            "link": true,
+            "header_en": "Fishing Holes",
+            "header_fr": "Lieu"
+        }
+    }
+}

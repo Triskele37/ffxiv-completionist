@@ -1,0 +1,32 @@
+{
+    "key": "tales-from-the-calamity",
+    "groupName_en": "Tales from the Calamity",
+    "groupName_fr": "Mémoires du septième fléau",
+    "tasks": {
+        "x70315": {
+            "level": 50,
+            "name_en": "Remembering the Past",
+            "name_fr": "Perpétuer le souvenir des générations passées",
+            "patch": "6.45",
+            "npc_en": "Nananji",
+            "npc_fr": "Nananji",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ],
+            "cNext": [
+                70316
+            ]
+        },
+        "x70316": {
+            "level": 50,
+            "name_en": "Preserving the Future",
+            "name_fr": "Transmettre l'espoir aux générations futures",
+            "patch": "6.45",
+            "npc_en": "Nananji",
+            "npc_fr": "Nananji",
+            "cPrev": [
+                70315
+            ]
+        }
+    }
+}

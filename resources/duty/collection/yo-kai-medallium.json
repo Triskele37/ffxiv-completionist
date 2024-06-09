@@ -1,0 +1,171 @@
+{
+    "key": "yo-kai-medallium",
+    "groupName_en": "Yo-Kai Medallium",
+    "groupName_fr": "Médallium des Yo-kai",
+    "headers": {
+        "name": {
+            "header_en": "Name",
+            "header_fr": "Nom"
+        },
+        "area1": {
+            "header_en": "Area 1",
+            "header_fr": "Zone 1"
+        },
+        "area2": {
+            "header_en": "Area 2",
+            "header_fr": "Zone 2"
+        },
+        "area3": {
+            "header_en": "Area 3",
+            "header_fr": "Zone 3"
+        },
+        "patch": {
+            "header_en": "Patch",
+            "header_fr": "Patch"
+        }
+    },
+    "common": [
+        "area1",
+        "area2",
+        "area3"
+    ],
+    "defaultCompletion": "X",
+    "tasks": {
+        "x0": {
+            "name_en": "Jibanyan",
+            "name_fr": "Jibanyan",
+            "patch": "3.35",
+            "area1": "ZONE.CENTRAL_SHROUD",
+            "area2": "ZONE.LOWER_LA_NOSCEA",
+            "area3": "ZONE.CENTRAL_THANALAN"
+        },
+        "x1": {
+            "name_en": "Komasan",
+            "name_fr": "Komasan",
+            "patch": "3.35",
+            "area1": "ZONE.EAST_SHROUD",
+            "area2": "ZONE.WESTERN_LA_NOSCEA",
+            "area3": "ZONE.EASTERN_THANALAN"
+        },
+        "x2": {
+            "name_en": "Whisper",
+            "name_fr": "Whisper",
+            "patch": "3.35",
+            "area1": "ZONE.SOUTH_SHROUD",
+            "area2": "ZONE.UPPER_LA_NOSCEA",
+            "area3": "ZONE.SOUTHERN_THANALAN"
+        },
+        "x3": {
+            "name_en": "Blizzaria",
+            "name_fr": "Blizzaria",
+            "patch": "3.35",
+            "area1": "ZONE.NORTH_SHROUD",
+            "area2": "ZONE.OUTER_LA_NOSCEA",
+            "area3": "ZONE.MIDDLE_LA_NOSCEA"
+        },
+        "x4": {
+            "name_en": "Kyubi",
+            "name_fr": "Kyubi",
+            "patch": "3.35",
+            "area1": "ZONE.CENTRAL_SHROUD",
+            "area2": "ZONE.LOWER_LA_NOSCEA",
+            "area3": "ZONE.WESTERN_THANALAN"
+        },
+        "x5": {
+            "name_en": "Komajiro",
+            "name_fr": "Komajiro",
+            "patch": "3.35",
+            "area1": "ZONE.EAST_SHROUD",
+            "area2": "ZONE.WESTERN_LA_NOSCEA",
+            "area3": "ZONE.CENTRAL_THANALAN"
+        },
+        "x6": {
+            "name_en": "Manjimutt",
+            "name_fr": "Corniot",
+            "patch": "3.35",
+            "area1": "ZONE.SOUTH_SHROUD",
+            "area2": "ZONE.UPPER_LA_NOSCEA",
+            "area3": "ZONE.EASTERN_THANALAN"
+        },
+        "x7": {
+            "name_en": "Noko",
+            "name_fr": "Noko",
+            "patch": "3.35",
+            "area1": "ZONE.NORTH_SHROUD",
+            "area2": "ZONE.OUTER_LA_NOSCEA",
+            "area3": "ZONE.SOUTHERN_THANALAN"
+        },
+        "x8": {
+            "name_en": "Venoct",
+            "name_fr": "Octorgone",
+            "patch": "3.35",
+            "area1": "ZONE.CENTRAL_SHROUD",
+            "area2": "ZONE.MIDDLE_LA_NOSCEA",
+            "area3": "ZONE.WESTERN_THANALAN"
+        },
+        "x9": {
+            "name_en": "Shogunyan",
+            "name_fr": "Shogunyan",
+            "patch": "3.35",
+            "area1": "ZONE.EAST_SHROUD",
+            "area2": "ZONE.LOWER_LA_NOSCEA",
+            "area3": "ZONE.CENTRAL_THANALAN"
+        },
+        "x10": {
+            "name_en": "Hovernyan",
+            "name_fr": "Hovernyan",
+            "patch": "3.35",
+            "area1": "ZONE.SOUTH_SHROUD",
+            "area2": "ZONE.WESTERN_LA_NOSCEA",
+            "area3": "ZONE.EASTERN_THANALAN"
+        },
+        "x11": {
+            "name_en": "Robonyan F-type",
+            "name_fr": "Robonyan F-type",
+            "patch": "3.35",
+            "area1": "ZONE.NORTH_SHROUD",
+            "area2": "ZONE.UPPER_LA_NOSCEA",
+            "area3": "ZONE.SOUTHERN_THANALAN"
+        },
+        "x12": {
+            "name_en": "USApyon",
+            "name_fr": "Usapyon",
+            "patch": "3.35",
+            "area1": "ZONE.OUTER_LA_NOSCEA",
+            "area2": "ZONE.MIDDLE_LA_NOSCEA",
+            "area3": "ZONE.WESTERN_THANALAN"
+        },
+        "x13": {
+            "name_en": "Lord Enma",
+            "name_fr": "Baron Enma",
+            "patch": "5.3",
+            "area1": "REGION.GYR_ABANIA",
+            "area2": "REGION.OTHARD",
+            "area3": ""
+        },
+        "x14": {
+            "name_en": "Lord Ananta",
+            "name_fr": "Baron Ananta",
+            "patch": "5.3",
+            "area1": "REGION.DRAVANIA",
+            "area2": "REGION.ABALATHIA",
+            "area3": "ZONE.COERTHAS_WESTERN_HIGHLANDS"
+        },
+        "x15": {
+            "name_en": "Zazel",
+            "name_fr": "Zazel",
+            "patch": "5.3",
+            "area1": "REGION.DRAVANIA",
+            "area2": "REGION.ABALATHIA",
+            "area3": "ZONE.COERTHAS_WESTERN_HIGHLANDS"
+        },
+        "x16": {
+            "name_en": "Damona",
+            "name_fr": "Damona",
+            "patch": "5.3",
+            "area1": "REGION.GYR_ABANIA",
+            "area2": "REGION.OTHARD",
+            "area3": ""
+        }
+    }
+}

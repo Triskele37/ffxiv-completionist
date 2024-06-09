@@ -1,0 +1,30 @@
+{
+    "key": "emotes",
+    "groupName_en": "Emotes",
+    "groupName_fr": "Emotes",
+    "headers": {
+        "name": {
+            "header_en": "Emote",
+            "header_fr": "Emote"
+        },
+        "command": {
+            "header_en": "Command",
+            "header_fr": "Commande"
+        },
+        "category": {
+            "filterable": true,
+            "header_en": "Category",
+            "header_fr": "Catégorie"
+        },
+        "source": {
+            "link": true,
+            "header_en": "Source",
+            "header_fr": "Source"
+        },
+        "patch": {
+            "filterable": true,
+            "header_en": "Patch",
+            "header_fr": "Patch"
+        }
+    }
+}

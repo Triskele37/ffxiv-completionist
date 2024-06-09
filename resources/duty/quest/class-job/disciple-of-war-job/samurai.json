@@ -1,0 +1,186 @@
+{
+    "key": "samurai",
+    "groupName_en": "Samurai",
+    "groupName_fr": "Quêtes de samouraï",
+    "tasks": {
+        "x68095": {
+            "level": 50,
+            "name_en": "The Way of the Samurai",
+            "name_fr": "La voie du samouraï",
+            "npc_en": "Ul'dahn Citizen",
+            "npc_fr": "Uldien surexcité",
+            "cNext": [
+                68096
+            ],
+            "cSiblings": [
+                "character.adventure-plate.41"
+            ]
+        },
+        "x68096": {
+            "level": 50,
+            "name_en": "Master Musosai",
+            "name_fr": "Maître Musosai",
+            "npc_en": "Musosai",
+            "npc_fr": "Musosai",
+            "cPrev": [
+                68095
+            ],
+            "cNext": [
+                68097
+            ]
+        },
+        "x68097": {
+            "level": 52,
+            "name_en": "The Sands of Debt",
+            "name_fr": "La légende de Musosai: la crapule d'Ul'dah",
+            "npc_en": "Musosai",
+            "npc_fr": "Musosai",
+            "cPrev": [
+                68096
+            ],
+            "cNext": [
+                68098
+            ]
+        },
+        "x68098": {
+            "level": 54,
+            "name_en": "Blood on the Deck",
+            "name_fr": "La légende de Musosai: l'assassin de Limsa Lominsa",
+            "npc_en": "Musosai",
+            "npc_fr": "Musosai",
+            "cPrev": [
+                68097
+            ],
+            "cNext": [
+                68099
+            ]
+        },
+        "x68099": {
+            "level": 56,
+            "name_en": "A Fraudster in the Forest",
+            "name_fr": "La légende de Musosai: l'escroc de Gridania",
+            "npc_en": "Musosai",
+            "npc_fr": "Musosai",
+            "cPrev": [
+                68098
+            ],
+            "cNext": [
+                68100
+            ]
+        },
+        "x68100": {
+            "level": 58,
+            "name_en": "Tears in the Snow",
+            "name_fr": "La légende de Musosai: le bourreau d'Ishgard",
+            "npc_en": "Musosai",
+            "npc_fr": "Musosai",
+            "cPrev": [
+                68099
+            ],
+            "cNext": [
+                68101
+            ]
+        },
+        "x68101": {
+            "level": 60,
+            "name_en": "The Face of True Evil",
+            "name_fr": "L'abominable Kogarashi",
+            "npc_en": "Momozigo",
+            "npc_fr": "Momozigo",
+            "cPrev": [
+                68100
+            ],
+            "cNext": [
+                68102
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1812"
+            ]
+        },
+        "x68102": {
+            "level": 60,
+            "name_en": "A Dignified Visitor",
+            "name_fr": "La visite de la femme samouraï",
+            "npc_en": "Momozigo",
+            "npc_fr": "Momozigo",
+            "cPrev": [
+                68101,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                68103
+            ]
+        },
+        "x68103": {
+            "level": 63,
+            "name_en": "Trials of the Sekiseigumi",
+            "name_fr": "L'appel à l'aide du Sekiseigumi",
+            "npc_en": "Momozigo",
+            "npc_fr": "Momozigo",
+            "cPrev": [
+                68102
+            ],
+            "cNext": [
+                68104
+            ]
+        },
+        "x68104": {
+            "level": 65,
+            "name_en": "Matsuba Mayhem",
+            "name_fr": "Règlement de compte au square Matsuba",
+            "npc_en": "Makoto",
+            "npc_fr": "Makoto",
+            "cPrev": [
+                68103
+            ],
+            "cNext": [
+                68105
+            ]
+        },
+        "x68105": {
+            "level": 68,
+            "name_en": "The Hunt for Ugetsu",
+            "name_fr": "La traque d'Ugetsu",
+            "npc_en": "Makoto",
+            "npc_fr": "Makoto",
+            "cPrev": [
+                68104
+            ],
+            "cNext": [
+                68106
+            ]
+        },
+        "x68106": {
+            "level": 70,
+            "name_en": "The Battle on Bekko",
+            "name_fr": "L'affrontement de deux justices",
+            "npc_en": "Makoto",
+            "npc_fr": "Makoto",
+            "cPrev": [
+                68105
+            ],
+            "cNext": [
+                68759
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1813"
+            ]
+        },
+        "x68759": {
+            "level": 80,
+            "name_en": "The Legend of Musosai",
+            "name_fr": "L'héritage de Musosai",
+            "npc_en": "Makoto",
+            "npc_fr": "Makoto",
+            "cPrev": [
+                68106,
+                "duty.quests.class--job.role.shb.68814",
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.40",
+                "character.achievement.quests.job-role-quests.2320"
+            ]
+        }
+    }
+}

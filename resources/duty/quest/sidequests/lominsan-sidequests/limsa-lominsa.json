@@ -1,0 +1,344 @@
+{
+    "key": "limsa-lominsa",
+    "groupName_en": "Limsa Lominsa",
+    "groupName_fr": "Limsa Lominsa",
+    "tasks": {
+        "x65643": {
+            "level": 1,
+            "name_en": "Coming to Limsa Lominsa",
+            "name_fr": "Bienvenue à Limsa Lominsa",
+            "npc_en": "Ryssfloh",
+            "npc_fr": "Ryssfloh",
+            "cNext": [
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645",
+                65647
+            ]
+        },
+        "x69379": {
+            "level": 1,
+            "name_en": "All the Fish in the Sea",
+            "name_fr": "L'Ambition fait le poisson",
+            "npc_en": "Fhilsnoe",
+            "npc_fr": "Fhilsnoe",
+            "unlock_en": "Ocean Fishing",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-the-land.fisher.66644"
+            ]
+        },
+        "x65648": {
+            "level": 1,
+            "name_en": "Suspiciously Sober",
+            "name_fr": "Un marin suspect",
+            "npc_en": "Ahldskyf",
+            "npc_fr": "Ahldskyf",
+            "cPrev": [
+                65647
+            ]
+        },
+        "x65649": {
+            "level": 1,
+            "name_en": "Proper Procedure",
+            "name_fr": "De la timidité du marchand gobelin",
+            "npc_en": "Sweetnix Rosycheeks",
+            "npc_fr": "Sweetnix Rosycheeks"
+        },
+        "x65650": {
+            "level": 1,
+            "name_en": "The Right Price",
+            "name_fr": "La transparence des prix",
+            "npc_en": "Swozblaet",
+            "npc_fr": "Swozblaet"
+        },
+        "x65651": {
+            "level": 1,
+            "name_en": "Duty Calls",
+            "name_fr": "Inquisition fiscale",
+            "npc_en": "P'tahjha",
+            "npc_fr": "P'tahjha"
+        },
+        "x65647": {
+            "level": 1,
+            "name_en": "Making a Name",
+            "name_fr": "C'est l'intention qui compte",
+            "npc_en": "Niniya",
+            "npc_fr": "Niniya",
+            "cPrev": [
+                65643
+            ],
+            "cNext": [
+                65648
+            ]
+        },
+        "x65859": {
+            "level": 1,
+            "name_en": "Edelweiss, Edelweiss",
+            "name_fr": "Échange de politesses",
+            "npc_en": "J'nasshym",
+            "npc_fr": "J'nasshym"
+        },
+        "x65654": {
+            "level": 2,
+            "name_en": "Licensed to Reave",
+            "name_fr": "Des épices de haute mer",
+            "npc_en": "Mordyn",
+            "npc_fr": "Mordyn"
+        },
+        "x65656": {
+            "level": 2,
+            "name_en": "I Stay the Streetlight",
+            "name_fr": "La jumelle délégante",
+            "npc_en": "N'tanmo",
+            "npc_fr": "N'tanmo",
+            "cPrev": [
+                65655
+            ]
+        },
+        "x65655": {
+            "level": 2,
+            "name_en": "Lost and Found",
+            "name_fr": "La jumelle diligente",
+            "npc_en": "Ginnade",
+            "npc_fr": "Ginnade",
+            "cNext": [
+                65656
+            ]
+        },
+        "x65653": {
+            "level": 2,
+            "name_en": "A Thousand Words",
+            "name_fr": "Un portrait fidèle",
+            "npc_en": "Latisha",
+            "npc_fr": "Latisha"
+        },
+        "x65657": {
+            "level": 3,
+            "name_en": "Back in the Water",
+            "name_fr": "La pêche aux bateaux",
+            "npc_en": "Sisipu",
+            "npc_fr": "Sisipu"
+        },
+        "x65652": {
+            "level": 3,
+            "name_en": "A Sheepish Request",
+            "name_fr": "Le saigneur des agneaux",
+            "npc_en": "H'lahono",
+            "npc_fr": "H'lahono"
+        },
+        "x66197": {
+            "level": 3,
+            "name_en": "The Rats in the Wharf",
+            "name_fr": "Un pont à ne pas rater",
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza"
+        },
+        "x65658": {
+            "level": 4,
+            "name_en": "Glory Days",
+            "name_fr": "Une saveur médusante",
+            "npc_en": "S'dhodjbi",
+            "npc_fr": "S'dhodjbi",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645"
+            ]
+        },
+        "x66198": {
+            "level": 4,
+            "name_en": "Soothing the Savage Siren",
+            "name_fr": "Vague à l'âme d'une sirène",
+            "npc_en": "O'kalkaya",
+            "npc_fr": "O'kalkaya"
+        },
+        "x66199": {
+            "level": 4,
+            "name_en": "Fool Me Once",
+            "name_fr": "C'est vraiment l'intention qui compte",
+            "npc_en": "Niniya",
+            "npc_fr": "Niniya",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.lominsan.lower-la-noscea.66011"
+            ]
+        },
+        "x66229": {
+            "level": 10,
+            "name_en": "Leves of Swiftperch",
+            "name_fr": "Mandataire du Martinet",
+            "npc_en": "T'mokkri",
+            "npc_fr": "T'mokkri",
+            "unlock_en": "Leves",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66005"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gridanian.east-shroud.65757",
+                "duty.quests.sidequests.gridanian.south-shroud.65979",
+                "duty.quests.sidequests.uldahn.eastern-thanalan.66224",
+                "duty.quests.sidequests.lominsan.western-la-noscea.66230",
+                "duty.quests.sidequests.uldahn.southern-thanalan.66228",
+                "duty.quests.sidequests.lominsan.eastern-la-noscea.65550",
+                "duty.quests.sidequests.coerthan.coerthas-central-highlands.65552",
+                "duty.quests.sidequests.coerthan.coerthas-central-highlands.65553",
+                "duty.quests.sidequests.gridanian.south-shroud.65980",
+                "duty.quests.sidequests.uldahn.northern-thanalan.65551",
+                "duty.quests.sidequests.lominsan.eastern-la-noscea.66232",
+                "duty.quests.sidequests.lominsan.lower-la-noscea.66231",
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.65554",
+                "duty.quests.sidequests.lominsan.western-la-noscea.65595"
+            ]
+        },
+        "x66962": {
+            "level": 14,
+            "name_en": "Good for What Ales You",
+            "name_fr": "Danse avec les fous",
+            "unlock": "social.emotes.special.101",
+            "cPrevAny": true,
+            "npc_en": "Dodozan",
+            "npc_fr": "Dodozan",
+            "cPrev": [
+                66088,
+                66081,
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65985"
+            ],
+            "cSiblings": [
+                "social.emotes.special.101"
+            ]
+        },
+        "x66746": {
+            "level": 15,
+            "name_en": "Beauty Is Only Scalp Deep",
+            "name_fr": "L'égorgeur aux ciseaux",
+            "cPrevAny": true,
+            "npc_en": "S'dhodjbi",
+            "npc_fr": "S'dhodjbi",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.66209",
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.side-story.delivery-moogle.67109"
+            ]
+        },
+        "x66967": {
+            "level": 15,
+            "name_en": "Rising to the Challenge",
+            "name_fr": "Un carnet oublié",
+            "cPrevAny": true,
+            "npc_en": "I'tolwann",
+            "npc_fr": "I'tolwann",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.66209",
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210"
+            ],
+            "cNext": [
+                "duty.quests.other.quasi-quests.67925",
+                "duty.quests.other.quasi-quests.67926",
+                "duty.quests.other.quasi-quests.67927"
+            ]
+        },
+        "x70300": {
+            "level": 30,
+            "name_en": "A Faerie Tale Come True",
+            "name_fr": "Fée déguisée",
+            "patch": "6.4",
+            "npc_en": "Thubyrgeim",
+            "npc_fr": "Thubyrgeim",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-magic-job.scholar.66633"
+            ]
+        },
+        "x66969": {
+            "level": 17,
+            "name_en": "An Ill-conceived Venture",
+            "name_fr": "Chevalier servant (Limsa Lominsa)",
+            "npc_en": "Troubled Adventurer",
+            "npc_fr": "aventurier dans l'embarras",
+            "unlock_en": "Retainer Ventures",
+            "cExclude": [
+                "duty.quests.sidequests.gridanian.gridania.66968",
+                "duty.quests.sidequests.uldahn.uldah.66970"
+            ]
+        },
+        "x66237": {
+            "level": 20,
+            "name_en": "My Little Chocobo (Maelstrom)",
+            "name_fr": "À chacun sa monture (Limsa Lominsa)",
+            "unlock": "character.mount-guide.39",
+            "npc_en": "R'ashaht Rhiki",
+            "npc_fr": "R'ashaht Rhiki",
+            "cNext": [
+                "duty.quests.sidequests.gridanian.south-shroud.66698"
+            ],
+            "cExclude": [
+                "duty.quests.sidequests.gridanian.gridania.66236",
+                "duty.quests.sidequests.uldahn.uldah.66238"
+            ]
+        },
+        "x66966": {
+            "level": 50,
+            "name_en": "The Beast of Brewer's Beacon",
+            "name_fr": "Des poissons de légende",
+            "npc_en": "Sisipu",
+            "npc_fr": "Sisipu",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-the-land.fisher.66654"
+            ],
+            "cNext": [
+                65782
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.902"
+            ]
+        },
+        "x65782": {
+            "level": 50,
+            "name_en": "Feast of Famine",
+            "name_fr": "Une légende de la pêche",
+            "npc_en": "Wawalago",
+            "npc_fr": "Wawalago",
+            "cPrev": [
+                66966
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1031"
+            ]
+        },
+        "x67896": {
+            "level": 50,
+            "name_en": "An Egi by Any Other Name",
+            "name_fr": "Egi déguisé",
+            "npc_en": "Thubyrgeim",
+            "npc_fr": "Thubyrgeim",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-magic-job.summoner.66632"
+            ]
+        },
+        "x67737": {
+            "level": 60,
+            "name_en": "Things Are Getting Sirius",
+            "name_fr": "L'appel du phare",
+            "unlock": "duty.dutyraid-finder.dungeons.hw.9",
+            "npc_en": "Trachraet",
+            "npc_fr": "Trachraet",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67205",
+                "duty.quests.sidequests.lominsan.western-la-noscea.66745"
+            ]
+        },
+        "x67784": {
+            "level": 60,
+            "name_en": "Storming the Hull",
+            "name_fr": "Retour à Crèvecarène",
+            "unlock": "duty.dutyraid-finder.dungeons.hw.13",
+            "npc_en": "Denston",
+            "npc_fr": "Denston",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67205",
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67062"
+            ]
+        }
+    }
+}

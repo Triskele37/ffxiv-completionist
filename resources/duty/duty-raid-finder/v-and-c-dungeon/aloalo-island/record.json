@@ -1,0 +1,250 @@
+{
+    "key": "record",
+    "groupName_en": "Record",
+    "groupName_fr": "Record",
+    "headers": {
+        "entry": {
+            "width": 100,
+            "header_en": "Entry",
+            "header_fr": "Entry"
+        },
+        "name": {
+            "header_en": "Name",
+            "header_fr": "Name"
+        },
+        "steps": {
+            "header_en": "Steps",
+            "header_fr": "Steps"
+        },
+        "patch": {
+            "header_en": "Patch",
+            "header_fr": "Patch"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "A Not-quite Deserted Island",
+            "name_fr": "A Not-quite Deserted Island",
+            "patch": "6.51",
+            "entry": "1",
+            "steps_en": [
+                "Take the left path",
+                "Do not allow Matsya to fish",
+                "Do not assist Zozone"
+            ],
+            "steps_fr": [
+                "Take the left path",
+                "Do not allow Matsya to fish",
+                "Do not assist Zozone"
+            ]
+        },
+        "x1": {
+            "name_en": "The First Settlers of Aloalo Island",
+            "name_fr": "The First Settlers of Aloalo Island",
+            "patch": "6.51",
+            "entry": "2",
+            "steps_en": [
+                "Take the left path",
+                "Do not allow Matsya to fish",
+                "Assist Zozone"
+            ],
+            "steps_fr": [
+                "Take the left path",
+                "Do not allow Matsya to fish",
+                "Assist Zozone"
+            ]
+        },
+        "x2": {
+            "name_en": "God of Heaven and Sea",
+            "name_fr": "God of Heaven and Sea",
+            "patch": "6.51",
+            "entry": "3",
+            "steps_en": [
+                "Take the left path",
+                "Allow Matsya to fish",
+                "Search the Patch of Sand"
+            ],
+            "steps_fr": [
+                "Take the left path",
+                "Allow Matsya to fish",
+                "Search the Patch of Sand"
+            ]
+        },
+        "x3": {
+            "name_en": "A Noxious Gift",
+            "name_fr": "A Noxious Gift",
+            "patch": "6.51",
+            "entry": "4",
+            "steps_en": [
+                "Take the left path",
+                "Allow Matsya to fish",
+                "Search the Mound of Rocks"
+            ],
+            "steps_fr": [
+                "Take the left path",
+                "Allow Matsya to fish",
+                "Search the Mound of Rocks"
+            ]
+        },
+        "x4": {
+            "name_en": "The Roots of Arcanima",
+            "name_fr": "The Roots of Arcanima",
+            "patch": "6.51",
+            "entry": "5",
+            "steps_en": [
+                "Take the middle path",
+                "Do not activate the panel",
+                "Ignore the Rodiaki"
+            ],
+            "steps_fr": [
+                "Take the middle path",
+                "Do not activate the panel",
+                "Ignore the Rodiaki"
+            ]
+        },
+        "x5": {
+            "name_en": "Under the Boughs of the Great Tree",
+            "name_fr": "Under the Boughs of the Great Tree",
+            "patch": "6.51",
+            "entry": "6",
+            "steps_en": [
+                "Take the middle path",
+                "Do not activate the panel",
+                "Scare the Rodiaki hidden behind the red bushes"
+            ],
+            "steps_fr": [
+                "Take the middle path",
+                "Do not activate the panel",
+                "Scare the Rodiaki hidden behind the red bushes"
+            ]
+        },
+        "x6": {
+            "name_en": "A Dear Friend",
+            "name_fr": "A Dear Friend",
+            "patch": "6.51",
+            "entry": "7",
+            "steps_en": [
+                "Take the middle path",
+                "Activate the panel",
+                "Do not interrupt J'jhimei"
+            ],
+            "steps_fr": [
+                "Take the middle path",
+                "Activate the panel",
+                "Do not interrupt J'jhimei"
+            ]
+        },
+        "x7": {
+            "name_en": "Fish for the Mind",
+            "name_fr": "Fish for the Mind",
+            "patch": "6.51",
+            "entry": "8",
+            "steps_en": [
+                "Take the middle path",
+                "Activate the panel",
+                "Interrupt J'jhimei"
+            ],
+            "steps_fr": [
+                "Take the middle path",
+                "Activate the panel",
+                "Interrupt J'jhimei"
+            ]
+        },
+        "x8": {
+            "name_en": "A Familiar History",
+            "name_fr": "A Familiar History",
+            "patch": "6.51",
+            "entry": "9",
+            "steps_en": [
+                "Take the right path",
+                "Trust Statice"
+            ],
+            "steps_fr": [
+                "Take the right path",
+                "Trust Statice"
+            ]
+        },
+        "x9": {
+            "name_en": "The Remnants of Faith",
+            "name_fr": "The Remnants of Faith",
+            "patch": "6.51",
+            "entry": "10",
+            "steps_en": [
+                "Take the right path",
+                "Do not trust Statice",
+                "Ignore the chests",
+                "Ignore the statues"
+            ],
+            "steps_fr": [
+                "Take the right path",
+                "Do not trust Statice",
+                "Ignore the chests",
+                "Ignore the statues"
+            ]
+        },
+        "x10": {
+            "name_en": "A Lalafell or a Fish?",
+            "name_fr": "A Lalafell or a Fish?",
+            "patch": "6.51",
+            "entry": "11",
+            "steps_en": [
+                "Take the right path",
+                "Do not trust Statice",
+                "Open a chest",
+                "Ignore the statues"
+            ],
+            "steps_fr": [
+                "Take the right path",
+                "Do not trust Statice",
+                "Open a chest",
+                "Ignore the statues"
+            ]
+        },
+        "x11": {
+            "name_en": "Wellspring of Golden Memories",
+            "name_fr": "Wellspring of Golden Memories",
+            "patch": "6.51",
+            "entry": "12",
+            "steps_en": [
+                "Take the right path",
+                "Do not trust Statice",
+                "Perform this ritual in front of the Whale statue:",
+                "  /s O messenger from beyond the horizon, hear me.",
+                "  Run a clockwise circle around the statues",
+                "  Run a counter clockwise circle around the statues",
+                "  /dance",
+                "Perform this ritual in front of the Sparrow statue:",
+                "  /s O dancer of the skies, hear me.",
+                "  /blowkiss",
+                "  Run a clockwise circle around the statues",
+                "  /dance",
+                "Perform this ritual in front of the Turtle statue:",
+                "  /s O wayfarer of land and sea, hear me.",
+                "  Run two counter clockwise circles around the statues",
+                "  /bow",
+                "Collect the sack after defeating Whasbyrm",
+                "Place the statues in order nearest to furthest; Sparrow, Whale, Turtle"
+            ],
+            "steps_fr": [
+                "Take the right path",
+                "Do not trust Statice",
+                "Perform this ritual in front of the Whale statue:",
+                "  /s O messenger from beyond the horizon, hear me.",
+                "  Run a clockwise circle around the statues",
+                "  Run a counter clockwise circle around the statues",
+                "  /dance",
+                "Perform this ritual in front of the Sparrow statue:",
+                "  /s O dancer of the skies, hear me.",
+                "  /blowkiss",
+                "  Run a clockwise circle around the statues",
+                "  /dance",
+                "Perform this ritual in front of the Turtle statue:",
+                "  /s O wayfarer of land and sea, hear me.",
+                "  Run two counter clockwise circles around the statues",
+                "  /bow",
+                "Collect the sack after defeating Whasbyrm",
+                "Place the statues in order nearest to furthest; Sparrow, Whale, Turtle"
+            ]
+        }
+    }
+}

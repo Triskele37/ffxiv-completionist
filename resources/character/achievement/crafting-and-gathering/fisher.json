@@ -1,0 +1,1425 @@
+{
+    "key": "fisher",
+    "groupName_en": "Fisher",
+    "groupName_fr": "Pêcheur",
+    "tasks": {
+        "x259": {
+            "name_en": "Good Things Come to Those Who Bait: La Noscea I",
+            "name_fr": "Surveiller sa ligne : la Noscea I",
+            "description_en": "Fish 20 times from level 1-10 waters in La Noscea.",
+            "description_fr": "Pêcher 20 fois dans des bancs de niveaux 1 à 10 dans la Noscea.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                264
+            ]
+        },
+        "x260": {
+            "name_en": "Good Things Come to Those Who Bait: La Noscea II",
+            "name_fr": "Surveiller sa ligne : la Noscea II",
+            "description_en": "Fish 100 times from level 11-20 waters in La Noscea.",
+            "description_fr": "Pêcher 100 fois dans des bancs de niveaux 11 à 20 dans la Noscea.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                264
+            ]
+        },
+        "x261": {
+            "name_en": "Good Things Come to Those Who Bait: La Noscea III",
+            "name_fr": "Surveiller sa ligne : la Noscea III",
+            "description_en": "Fish 300 times from level 21-30 waters in La Noscea.",
+            "description_fr": "Pêcher 300 fois dans des bancs de niveaux 21 à 30 dans la Noscea.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                264
+            ]
+        },
+        "x262": {
+            "name_en": "Good Things Come to Those Who Bait: La Noscea IV",
+            "name_fr": "Surveiller sa ligne : la Noscea IV",
+            "description_en": "Fish 500 times from level 31-40 waters in La Noscea.",
+            "description_fr": "Pêcher 500 fois dans des bancs de niveaux 31 à 40 dans la Noscea.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                264
+            ]
+        },
+        "x263": {
+            "name_en": "Good Things Come to Those Who Bait: La Noscea V",
+            "name_fr": "Surveiller sa ligne : la Noscea V",
+            "description_en": "Fish 1,000 times from level 41-50 waters in La Noscea.",
+            "description_fr": "Pêcher 1 000 fois dans des bancs de niveaux 41 à 50 dans la Noscea.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                264
+            ]
+        },
+        "x264": {
+            "name_en": "A Fisher's Life for Me: La Noscea",
+            "name_fr": "Noyer le poisson : la Noscea",
+            "description_en": "Obtain all five “Good Things Come to Those Who Bait: La Noscea” achievements.",
+            "description_fr": "Accomplir les cinq hauts faits de la série “Surveiller sa ligne: la Noscea”.",
+            "reward": "character.character.title.37",
+            "patch": "2.0",
+            "points": 10,
+            "cPrev": [
+                259,
+                260,
+                261,
+                262,
+                263
+            ],
+            "cSiblings": [
+                "character.character.title.37"
+            ],
+            "cCombo": [
+                277
+            ]
+        },
+        "x265": {
+            "name_en": "Good Things Come to Those Who Bait: Black Shroud I",
+            "name_fr": "Surveiller sa ligne : Sombrelinceul I",
+            "description_en": "Fish 20 times from level 1-10 waters in the Black Shroud.",
+            "description_fr": "Pêcher 20 fois dans des bancs de niveaux 1 à 10 dans la forêt de Sombrelinceul.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                270
+            ]
+        },
+        "x266": {
+            "name_en": "Good Things Come to Those Who Bait: Black Shroud II",
+            "name_fr": "Surveiller sa ligne : Sombrelinceul II",
+            "description_en": "Fish 100 times from level 11-20 waters in the Black Shroud.",
+            "description_fr": "Pêcher 100 fois dans des bancs de niveaux 11 à 20 dans la forêt de Sombrelinceul.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                270
+            ]
+        },
+        "x267": {
+            "name_en": "Good Things Come to Those Who Bait: Black Shroud III",
+            "name_fr": "Surveiller sa ligne : Sombrelinceul III",
+            "description_en": "Fish 300 times from level 21-30 waters in the Black Shroud.",
+            "description_fr": "Pêcher 300 fois dans des bancs de niveaux 21 à 30 dans la forêt de Sombrelinceul.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                270
+            ]
+        },
+        "x268": {
+            "name_en": "Good Things Come to Those Who Bait: Black Shroud IV",
+            "name_fr": "Surveiller sa ligne : Sombrelinceul IV",
+            "description_en": "Fish 500 times from level 31-40 waters in the Black Shroud.",
+            "description_fr": "Pêcher 500 fois dans des bancs de niveaux 31 à 40 dans la forêt de Sombrelinceul.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                270
+            ]
+        },
+        "x269": {
+            "name_en": "Good Things Come to Those Who Bait: Black Shroud V",
+            "name_fr": "Surveiller sa ligne : Sombrelinceul V",
+            "description_en": "Fish 1,000 times from level 41-50 waters in the Black Shroud.",
+            "description_fr": "Pêcher 1 000 fois dans des bancs de niveaux 41 à 50 dans la forêt de Sombrelinceul.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                270
+            ]
+        },
+        "x270": {
+            "name_en": "A Fisher's Life for Me: Black Shroud",
+            "name_fr": "Noyer le poisson : Sombrelinceul",
+            "description_en": "Obtain all five “Good Things Come to Those Who Bait: Black Shroud” achievements.",
+            "description_fr": "Accomplir les cinq hauts faits de la série “Surveiller sa ligne: Sombrelinceul”.",
+            "reward": "character.character.title.38",
+            "patch": "2.0",
+            "points": 10,
+            "cPrev": [
+                265,
+                266,
+                267,
+                268,
+                269
+            ],
+            "cSiblings": [
+                "character.character.title.38"
+            ],
+            "cCombo": [
+                277
+            ]
+        },
+        "x271": {
+            "name_en": "Good Things Come to Those Who Bait: Thanalan I",
+            "name_fr": "Surveiller sa ligne : Thanalan I",
+            "description_en": "Fish 20 times from level 1-10 waters in Thanalan.",
+            "description_fr": "Pêcher 20 fois dans des bancs de niveaux 1 à 10 dans le Thanalan.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                276
+            ]
+        },
+        "x272": {
+            "name_en": "Good Things Come to Those Who Bait: Thanalan II",
+            "name_fr": "Surveiller sa ligne : Thanalan II",
+            "description_en": "Fish 100 times from level 11-20 waters in Thanalan.",
+            "description_fr": "Pêcher 100 fois dans des bancs de niveaux 11 à 20 dans le Thanalan.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                276
+            ]
+        },
+        "x273": {
+            "name_en": "Good Things Come to Those Who Bait: Thanalan III",
+            "name_fr": "Surveiller sa ligne : Thanalan III",
+            "description_en": "Fish 300 times from level 21-30 waters in Thanalan.",
+            "description_fr": "Pêcher 300 fois dans des bancs de niveaux 21 à 30 dans le Thanalan.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                276
+            ]
+        },
+        "x274": {
+            "name_en": "Good Things Come to Those Who Bait: Thanalan IV",
+            "name_fr": "Surveiller sa ligne : Thanalan IV",
+            "description_en": "Fish 500 times from level 31-40 waters in Thanalan.",
+            "description_fr": "Pêcher 500 fois dans des bancs de niveaux 31 à 40 dans le Thanalan.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                276
+            ]
+        },
+        "x275": {
+            "name_en": "Good Things Come to Those Who Bait: Thanalan V",
+            "name_fr": "Surveiller sa ligne : Thanalan V",
+            "description_en": "Fish 1,000 times from level 41-50 waters in Thanalan.",
+            "description_fr": "Pêcher 1 000 fois dans des bancs de niveaux 41 à 50 dans le Thanalan.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                276
+            ]
+        },
+        "x276": {
+            "name_en": "A Fisher's Life for Me: Thanalan",
+            "name_fr": "Noyer le poisson : Thanalan",
+            "description_en": "Obtain all five “Good Things Come to Those Who Bait: Thanalan” achievements.",
+            "description_fr": "Accomplir les cinq hauts faits de la série “Surveiller sa ligne: Thanalan”.",
+            "reward": "character.character.title.39",
+            "patch": "2.0",
+            "points": 10,
+            "cPrev": [
+                271,
+                272,
+                273,
+                274,
+                275
+            ],
+            "cSiblings": [
+                "character.character.title.39"
+            ],
+            "cCombo": [
+                277
+            ]
+        },
+        "x277": {
+            "name_en": "A Fisher's Life for Me: Greater Eorzea",
+            "name_fr": "Mordu de l'hameçon",
+            "description_en": "Obtain the “A Fisher's Life for Me” achievements for La Noscea, the Black Shroud, and Thanalan.",
+            "description_fr": "Accomplir les trois hauts faits de la série “Noyer le poisson”.",
+            "reward_en": "Rod of the Luminary",
+            "reward_fr": "Canne à pêche de virtuose",
+            "patch": "2.0",
+            "points": 30,
+            "cPrev": [
+                264,
+                270,
+                276
+            ]
+        },
+        "x1311": {
+            "name_en": "Baiting Heavensward",
+            "name_fr": "Surveiller sa ligne : terres du nord",
+            "description_en": "Fish 3,000 times from level 51-60 waters.",
+            "description_fr": "Pêcher 3 000 fois dans des bancs de niveaux 51 à 60.",
+            "patch": "3.0",
+            "points": 10
+        },
+        "x1858": {
+            "name_en": "Baiting Stormblood",
+            "name_fr": "Surveiller sa ligne : terres de l'est",
+            "description_en": "Fish or gig 3,000 times from level 61-70 waters.",
+            "description_fr": "Pêcher 3 000 fois dans des points de pêche ou de harponnage de niveau 61 à 70.",
+            "patch": "4.0",
+            "points": 10
+        },
+        "x2290": {
+            "name_en": "Baiting Shadowbringers",
+            "name_fr": "Surveiller sa ligne : terres de Ténèbres",
+            "description_en": "Fish or gig 3,000 times from level 71-80 waters.",
+            "description_fr": "Pêcher 3 000 fois dans des points de pêche ou de harponnage de niveau 71 à 80.",
+            "patch": "5.0",
+            "points": 10
+        },
+        "x2938": {
+            "name_en": "Baiting the End",
+            "name_fr": "Surveiller sa ligne : terres des finitudes",
+            "description_en": "Fish or gig 3,000 times from level 81-90 waters.",
+            "description_fr": "Pêcher 3 000 fois dans des points de pêche ou de harponnage de niveau 81 à 90.",
+            "patch": "6.0",
+            "points": 10
+        },
+        "x725": {
+            "name_en": "I Caught That I",
+            "name_fr": "Carnet de notes : pêcheur I",
+            "description_en": "Catch and record discovery of 40 unique fish.",
+            "description_fr": "Pêcher 40 prises différentes et les avoir notées dans le carnet de pêche.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                726
+            ]
+        },
+        "x726": {
+            "name_en": "I Caught That II",
+            "name_fr": "Carnet de notes : pêcheur II",
+            "description_en": "Catch and record discovery of 80 unique fish.",
+            "description_fr": "Pêcher 80 prises différentes et les avoir notées dans le carnet de pêche.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                725
+            ],
+            "cNext": [
+                727
+            ]
+        },
+        "x727": {
+            "name_en": "I Caught That III",
+            "name_fr": "Carnet de notes : pêcheur III",
+            "description_en": "Catch and record discovery of 160 unique fish.",
+            "description_fr": "Pêcher 160 prises différentes et les avoir notées dans le carnet de pêche.",
+            "reward_en": "Master Fisher's Ring",
+            "reward_fr": "Anneau de maître pêcheur",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                726
+            ],
+            "cNext": [
+                1288
+            ]
+        },
+        "x1288": {
+            "name_en": "I Caught That IV",
+            "name_fr": "Carnet de notes : pêcheur IV",
+            "description_en": "Catch and record discovery of 400 unique fish.",
+            "description_fr": "Pêcher 400 prises différentes et les avoir notées dans le carnet de pêche.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                727
+            ],
+            "cNext": [
+                1731
+            ]
+        },
+        "x1731": {
+            "name_en": "I Caught That V",
+            "name_fr": "Carnet de notes : pêcheur V",
+            "description_en": "Catch and record discovery of 460 unique fish.",
+            "description_fr": "Pêcher 460 prises différentes et les avoir notées dans le carnet de pêche.",
+            "reward_en": "Blessed Tacklekeep's Rod",
+            "reward_fr": "Canne à pêche d'halieutiste bénie",
+            "patch": "3.5",
+            "points": 10,
+            "cPrev": [
+                1288
+            ],
+            "cNext": [
+                2176
+            ]
+        },
+        "x2176": {
+            "name_en": "I Caught That VI",
+            "name_fr": "Carnet de notes : pêcheur VI",
+            "description_en": "Catch and record discovery of 780 unique fish.",
+            "description_fr": "Pêcher 780 prises différentes et les avoir notées dans le carnet de pêche.",
+            "reward_en": "Blessed Tackleking's Rod",
+            "reward_fr": "Canne à pêche du roi de l'halieutique bénie",
+            "patch": "4.5",
+            "points": 10,
+            "cPrev": [
+                1731
+            ],
+            "cNext": [
+                2832
+            ]
+        },
+        "x2832": {
+            "name_en": "I Caught That VII",
+            "name_fr": "Carnet de notes : pêcheur VII",
+            "description_en": "Catch and record discovery of 1,140 unique fish.",
+            "description_fr": "Pêcher 1 140 prises différentes et les avoir notées dans le carnet de pêche.",
+            "reward": "character.relic-gear.resplendent.10",
+            "patch": "5.5",
+            "points": 10,
+            "cPrev": [
+                2176
+            ],
+            "cNext": [
+                3377
+            ]
+        },
+        "x3377": {
+            "name_en": "I Caught That VIII",
+            "name_fr": "Carnet de notes : pêcheur VIII",
+            "description_en": "Catch and record discovery of 1,460 unique fish.",
+            "description_fr": "Pêcher 1 460 prises différentes et les avoir notées dans le carnet de pêche.",
+            "reward": "character.character.title.704",
+            "patch": "6.5",
+            "points": 10,
+            "cPrev": [
+                2832
+            ],
+            "cSiblings": [
+                "character.character.title.704"
+            ]
+        },
+        "x780": {
+            "name_en": "The One That Didn't Get Away I",
+            "name_fr": "Pêche miraculeuse I",
+            "description_en": "Catch 100 large-sized fish.",
+            "description_fr": "Pêcher un total de 100 poissons énormes.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                781
+            ]
+        },
+        "x781": {
+            "name_en": "The One That Didn't Get Away II",
+            "name_fr": "Pêche miraculeuse II",
+            "description_en": "Catch 500 large-sized fish.",
+            "description_fr": "Pêcher un total de 500 poissons énormes.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                780
+            ],
+            "cNext": [
+                782
+            ]
+        },
+        "x782": {
+            "name_en": "The One That Didn't Get Away III",
+            "name_fr": "Pêche miraculeuse III",
+            "description_en": "Catch 3,000 large-sized fish.",
+            "description_fr": "Pêcher un total de 3 000 poissons énormes.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                781
+            ],
+            "cNext": [
+                1331
+            ]
+        },
+        "x1331": {
+            "name_en": "The One that Didn't Get Away IV",
+            "name_fr": "Pêche miraculeuse IV",
+            "description_en": "Catch 10,000 large-sized fish.",
+            "description_fr": "Pêcher un total de 10 000 poissons énormes.",
+            "reward": "character.character.title.263",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                782
+            ],
+            "cSiblings": [
+                "character.character.title.263"
+            ]
+        },
+        "x916": {
+            "name_en": "Go Big or Go Home I",
+            "name_fr": "Pêcheur de légendes I",
+            "description_en": "Catch your first big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher une prise légendaire dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "patch": "2.2",
+            "points": 5,
+            "cNext": [
+                917
+            ]
+        },
+        "x917": {
+            "name_en": "Go Big or Go Home II",
+            "name_fr": "Pêcheur de légendes II",
+            "description_en": "Catch 16 different varieties of big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher 16 prises légendaires différentes dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "patch": "2.2",
+            "points": 10,
+            "cPrev": [
+                916
+            ],
+            "cNext": [
+                918
+            ]
+        },
+        "x918": {
+            "name_en": "Go Big or Go Home III",
+            "name_fr": "Pêcheur de légendes III",
+            "description_en": "Catch 37 different varieties of big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher 37 prises légendaires différentes dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "patch": "2.2",
+            "points": 20,
+            "cPrev": [
+                917
+            ],
+            "cNext": [
+                1015
+            ]
+        },
+        "x1015": {
+            "name_en": "Go Big or Go Home IV",
+            "name_fr": "Pêcheur de légendes IV",
+            "description_en": "Catch 56 different varieties of big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher 56 prises légendaires différentes dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "patch": "2.3",
+            "points": 20,
+            "cPrev": [
+                918
+            ],
+            "cNext": [
+                1016
+            ]
+        },
+        "x1016": {
+            "name_en": "Go Big or Go Home V",
+            "name_fr": "Pêcheur de légendes V",
+            "description_en": "Catch 71 different varieties of big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher 71 prises légendaires différentes dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "patch": "2.3",
+            "points": 20,
+            "cPrev": [
+                1015
+            ],
+            "cNext": [
+                1017
+            ]
+        },
+        "x1017": {
+            "name_en": "Go Big or Go Home VI",
+            "name_fr": "Pêcheur de légendes VI",
+            "description_en": "Catch 81 different varieties of big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher 81 prises légendaires différentes dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "patch": "2.3",
+            "points": 20,
+            "cPrev": [
+                1016
+            ],
+            "cNext": [
+                1018
+            ]
+        },
+        "x1018": {
+            "name_en": "Go Big or Go Home VII",
+            "name_fr": "Pêcheur de légendes VII",
+            "description_en": "Catch 87 different varieties of big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher 87 prises légendaires différentes dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "patch": "2.3",
+            "points": 20,
+            "cPrev": [
+                1017
+            ],
+            "cNext": [
+                1032
+            ]
+        },
+        "x1032": {
+            "name_en": "Go Big or Go Home VIII",
+            "name_fr": "Pêcheur de légendes VIII",
+            "description_en": "Catch 94 different varieties of big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher 94 prises légendaires différentes dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "patch": "2.4",
+            "points": 20,
+            "cPrev": [
+                1018
+            ],
+            "cNext": [
+                1033
+            ]
+        },
+        "x1033": {
+            "name_en": "Go Big or Go Home IX",
+            "name_fr": "Pêcheur de légendes IX",
+            "description_en": "Catch 100 different varieties of big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher 100 prises légendaires différentes dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "reward": "character.character.title.180",
+            "patch": "2.4",
+            "points": 20,
+            "cPrev": [
+                1032
+            ],
+            "cNext": [
+                1034
+            ],
+            "cSiblings": [
+                "character.character.title.180"
+            ]
+        },
+        "x1034": {
+            "name_en": "Go Big or Go Home X",
+            "name_fr": "Pêcheur de légendes X",
+            "description_en": "Catch 106 different varieties of big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher 106 prises légendaires différentes dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "reward_en": "Ironworks Fishing Rod",
+            "reward_fr": "Canne à pêche des Forges",
+            "patch": "2.4",
+            "points": 20,
+            "cPrev": [
+                1033
+            ],
+            "cNext": [
+                1622
+            ]
+        },
+        "x1622": {
+            "name_en": "Go Big or Go Home XI",
+            "name_fr": "Pêcheur de légendes XI",
+            "description_en": "Catch 119 different varieties of big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher 119 prises légendaires différentes dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "patch": "3.3",
+            "points": 20,
+            "cPrev": [
+                1034
+            ],
+            "cNext": [
+                1633
+            ]
+        },
+        "x1633": {
+            "name_en": "Go Big or Go Home XII",
+            "name_fr": "Pêcheur de légendes XII",
+            "description_en": "Catch 135 different varieties of big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher 135 prises légendaires différentes dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "patch": "3.4",
+            "points": 20,
+            "cPrev": [
+                1622
+            ],
+            "cNext": [
+                1732
+            ]
+        },
+        "x1732": {
+            "name_en": "Go Big or Go Home XIII",
+            "name_fr": "Pêcheur de légendes XIII",
+            "description_en": "Catch 156 different varieties of big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher 156 prises légendaires différentes dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "patch": "3.5",
+            "points": 20,
+            "cPrev": [
+                1633
+            ],
+            "cNext": [
+                2079
+            ]
+        },
+        "x2079": {
+            "name_en": "Go Big or Go Home XIV",
+            "name_fr": "Pêcheur de légendes XIV",
+            "description_en": "Catch 170 different varieties of big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher 170 prises légendaires différentes dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "patch": "4.3",
+            "points": 20,
+            "cPrev": [
+                1732
+            ],
+            "cNext": [
+                2125
+            ]
+        },
+        "x2125": {
+            "name_en": "Go Big or Go Home XV",
+            "name_fr": "Pêcheur de légendes XV",
+            "description_en": "Catch 185 different varieties of big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher 185 prises légendaires différentes dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "patch": "4.4",
+            "points": 20,
+            "cPrev": [
+                2079
+            ],
+            "cNext": [
+                2245
+            ]
+        },
+        "x2245": {
+            "name_en": "Go Big or Go Home XVI",
+            "name_fr": "Pêcheur de légendes XVI",
+            "description_en": "Catch 204 different varieties of big fish in an area explored during A Realm Reborn, Heavensward, or Stormblood.",
+            "description_fr": "Pêcher 204 prises légendaires différentes dans les zones explorées lors de A Realm Reborn, Heavensward et Stormblood.",
+            "reward": "character.character.title.407",
+            "patch": "4.56",
+            "points": 20,
+            "cPrev": [
+                2125
+            ],
+            "cSiblings": [
+                "character.character.title.407"
+            ],
+            "cCombo": [
+                2834
+            ]
+        },
+        "x2486": {
+            "name_en": "Go Big Far from Home I",
+            "name_fr": "Pêcheur de légendes itinérant I",
+            "description_en": "Catch 8 different varieties of big fish in areas explored during Shadowbringers.",
+            "description_fr": "Pêcher 8 prises légendaires différentes dans les zones explorées lors de Shadowbringers.",
+            "patch": "5.1",
+            "points": 10,
+            "cNext": [
+                2588
+            ]
+        },
+        "x2588": {
+            "name_en": "Go Big Far from Home II",
+            "name_fr": "Pêcheur de légendes itinérant II",
+            "description_en": "Catch 14 different varieties of big fish in areas explored during Shadowbringers.",
+            "description_fr": "Pêcher 14 prises légendaires différentes dans les zones explorées lors de Shadowbringers.",
+            "patch": "5.2",
+            "points": 10,
+            "cPrev": [
+                2486
+            ],
+            "cNext": [
+                2644
+            ]
+        },
+        "x2644": {
+            "name_en": "Go Big Far from Home III",
+            "name_fr": "Pêcheur de légendes itinérant III",
+            "description_en": "Catch 22 different varieties of big fish in areas explored during Shadowbringers.",
+            "description_fr": "Pêcher 22 prises légendaires différentes dans les zones explorées lors de Shadowbringers.",
+            "patch": "5.3",
+            "points": 10,
+            "cPrev": [
+                2588
+            ],
+            "cNext": [
+                2716
+            ]
+        },
+        "x2716": {
+            "name_en": "Go Big Far from Home IV",
+            "name_fr": "Pêcheur de légendes itinérant IV",
+            "description_en": "Catch 28 different varieties of big fish in areas explored during Shadowbringers.",
+            "description_fr": "Pêcher 28 prises légendaires différentes dans les zones explorées lors de Shadowbringers.",
+            "patch": "5.4",
+            "points": 10,
+            "cPrev": [
+                2644
+            ],
+            "cNext": [
+                2833
+            ]
+        },
+        "x2833": {
+            "name_en": "Go Big Far from Home V",
+            "name_fr": "Pêcheur de légendes itinérant V",
+            "description_en": "Catch 45 different varieties of big fish in areas explored during Shadowbringers.",
+            "description_fr": "Pêcher 45 prises légendaires différentes dans les zones explorées lors de Shadowbringers.",
+            "reward": "character.character.title.579",
+            "patch": "5.55",
+            "points": 10,
+            "cPrev": [
+                2716
+            ],
+            "cSiblings": [
+                "character.character.title.579"
+            ],
+            "cCombo": [
+                2834
+            ]
+        },
+        "x2834": {
+            "name_en": "No River Wide Enough",
+            "name_fr": "À la croisée des mers",
+            "description_en": "Obtain the achievements “Go Big or Go Home XVI” and “Go Big Far from Home V.”",
+            "description_fr": "Accomplir les hauts faits “Pêcheur de légendes XVI” et “Pêcheur de légendes itinérant V”.",
+            "reward": "character.character.title.580",
+            "patch": "5.55",
+            "points": 20,
+            "cPrev": [
+                2245,
+                2833
+            ],
+            "cSiblings": [
+                "character.character.title.580"
+            ],
+            "cCombo": [
+                3379
+            ]
+        },
+        "x3077": {
+            "name_en": "Go Big Till the End I",
+            "name_fr": "Pêcheur de légendes intemporel",
+            "description_en": "Catch 7 different varieties of big fish in areas explored during Endwalker.",
+            "description_fr": "Pêcher 8 prises légendaires différentes dans les zones explorées lors de Endwalker.",
+            "patch": "6.1",
+            "points": 10,
+            "cNext": [
+                3187
+            ]
+        },
+        "x3187": {
+            "name_en": "Go Big Till the End II",
+            "name_fr": "Pêcheur de légendes intemporel II",
+            "description_en": "Catch 23 different varieties of big fish in areas explored during Endwalker.",
+            "description_fr": "Pêcher 23 prises légendaires différentes dans les zones explorées lors de Endwalker.",
+            "patch": "6.3",
+            "points": 10,
+            "cPrev": [
+                3077
+            ],
+            "cNext": [
+                3378
+            ]
+        },
+        "x3378": {
+            "name_en": "Go Big Till the End III",
+            "name_fr": "Pêcheur de légendes intemporel III",
+            "description_en": "Catch 40 different varieties of big fish in areas explored during Endwalker.",
+            "description_fr": "Pêcher 40 prises légendaires différentes dans les zones explorées lors d'Endwalker.",
+            "reward": "character.character.title.705",
+            "patch": "6.55",
+            "points": 10,
+            "cPrev": [
+                3187
+            ],
+            "cSiblings": [
+                "character.character.title.705"
+            ],
+            "cCombo": [
+                3379
+            ]
+        },
+        "x3379": {
+            "name_en": "Fish Fear Me",
+            "name_fr": "Fléau des mers",
+            "description_en": "Obtain the achievements “No River Wide Enough” and “Go Big Till the End III.”",
+            "description_fr": "Accomplir les hauts faits “À la croisée des mers” et “Pêcheur de légendes intemporel III”.",
+            "reward": "character.character.title.706",
+            "patch": "6.55",
+            "points": 20,
+            "cPrev": [
+                2834,
+                3378
+            ],
+            "cSiblings": [
+                "character.character.title.706"
+            ]
+        },
+        "x2519": {
+            "name_en": "Skyward Rod I",
+            "name_fr": "Hameçon d'Azurée I",
+            "description_en": "Earn 50,000 points toward your skyward score as a fisher.",
+            "description_fr": "Gagner un total de 50 000 points d'azur en tant que pêcheur.",
+            "patch": "5.21",
+            "points": 5,
+            "cNext": [
+                2520
+            ],
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2523"
+            ]
+        },
+        "x2520": {
+            "name_en": "Skyward Rod II",
+            "name_fr": "Hameçon d'Azurée II",
+            "description_en": "Earn 150,000 points toward your skyward score as a fisher.",
+            "description_fr": "Gagner un total de 150 000 points d'azur en tant que pêcheur.",
+            "patch": "5.21",
+            "points": 5,
+            "cPrev": [
+                2519
+            ],
+            "cNext": [
+                2521
+            ]
+        },
+        "x2521": {
+            "name_en": "Skyward Rod III",
+            "name_fr": "Hameçon d'Azurée III",
+            "description_en": "Earn 500,000 points toward your skyward score as a fisher.",
+            "description_fr": "Gagner un total de 500 000 points d'azur en tant que pêcheur.",
+            "reward": "character.character.title.500",
+            "patch": "5.21",
+            "points": 10,
+            "cPrev": [
+                2520
+            ],
+            "cSiblings": [
+                "character.character.title.500"
+            ],
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2525"
+            ]
+        },
+        "x2547": {
+            "name_en": "Dauntless Treader I",
+            "name_fr": "Pêcheur des éléments I",
+            "description_en": "Catch 5 fish that only appear during an umbral flare, umbral duststorm, umbral tempest, or amid umbral levin.",
+            "description_fr": "Pêcher 5 poissons apparaissant uniquement en temps de vent ombral de feu, de terre, de foudre ou des tempêtes.",
+            "patch": "5.21",
+            "points": 5,
+            "cNext": [
+                2548
+            ]
+        },
+        "x2548": {
+            "name_en": "Dauntless Treader II",
+            "name_fr": "Pêcheur des éléments II",
+            "description_en": "Catch 50 fish that only appear during an umbral flare, umbral duststorm, umbral tempest, or amid umbral levin.",
+            "description_fr": "Pêcher 50 poissons apparaissant uniquement en temps de vent ombral de feu, de terre, de foudre ou des tempêtes.",
+            "patch": "5.21",
+            "points": 5,
+            "cPrev": [
+                2547
+            ],
+            "cNext": [
+                2549
+            ]
+        },
+        "x2549": {
+            "name_en": "Dauntless Treader III",
+            "name_fr": "Pêcheur des éléments III",
+            "description_en": "Catch 100 fish that only appear during an umbral flare, umbral duststorm, umbral tempest, or amid umbral levin.",
+            "description_fr": "Pêcher 100 poissons apparaissant uniquement en temps de vent ombral de feu, de terre, de foudre ou des tempêtes.",
+            "patch": "5.21",
+            "points": 10,
+            "cPrev": [
+                2548
+            ]
+        },
+        "x2537": {
+            "name_en": "The Height of Angling",
+            "name_fr": "Pêcheur du Nichoir",
+            "description_en": "As a fisher, submit 300 artisanal seafood items for the second phase of the Ishgardian restoration.",
+            "description_fr": "Faire expertiser un total de 300 produits de la mer de la deuxième phase de reconstruction d'Azurée.",
+            "reward": "character.character.title.513",
+            "patch": "5.21",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.513"
+            ]
+        },
+        "x2658": {
+            "name_en": "Fishers of a Feather",
+            "name_fr": "Pêcheur de Tombeplume",
+            "description_en": "As a fisher, submit 300 artisanal seafood items for the third phase of the Ishgardian restoration.",
+            "description_fr": "Faire expertiser un total de 300 produits de la mer de la troisième phase de reconstruction d'Azurée.",
+            "reward": "character.character.title.538",
+            "patch": "5.31",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.538"
+            ]
+        },
+        "x2817": {
+            "name_en": "An Ode to Angling",
+            "name_fr": "Pêcheur du Nouveau Refrain",
+            "description_en": "As a fisher, submit 300 artisanal seafood items for the fourth phase of the Ishgardian restoration.",
+            "description_fr": "Faire expertiser un total de 300 produits de la mer de la quatrième phase de reconstruction d'Azurée.",
+            "reward": "character.character.title.575",
+            "patch": "5.41",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.575"
+            ]
+        },
+        "x2553": {
+            "name_en": "Denizens of Galadion",
+            "name_fr": "Ichtyogrammiste de la baie de Galadion",
+            "description_en": "Catch every type of fish in outer Galadion Bay when a spectral current is not present.",
+            "description_fr": "Pêcher un poisson de chaque espèce dans la baie de Galadion, sauf ceux apparaissant dans les courants spectraux.",
+            "patch": "5.2",
+            "points": 10
+        },
+        "x2603": {
+            "name_en": "Specters of Galadion",
+            "name_fr": "Spectre de la baie de Galadion",
+            "description_en": "Catch every type of fish in outer Galadion Bay when a spectral current is present.",
+            "description_fr": "Pêcher un poisson de chaque espèce apparaissant dans les courants spectraux de la baie de Galadion.",
+            "patch": "5.2",
+            "points": 10
+        },
+        "x2554": {
+            "name_en": "Denizens of South Merlthor",
+            "name_fr": "Ichtyogrammiste du détroit sud de Merlthor",
+            "description_en": "Catch every type of fish in the southern Strait of Merlthor when a spectral current is not present.",
+            "description_fr": "Pêcher un poisson de chaque espèce dans le détroit sud de Merlthor, sauf ceux apparaissant dans les courants spectraux.",
+            "patch": "5.2",
+            "points": 10
+        },
+        "x2604": {
+            "name_en": "Specters of South Merlthor",
+            "name_fr": "Spectre du détroit sud de Merlthor",
+            "description_en": "Catch every type of fish in the southern Strait of Merlthor when a spectral current is present.",
+            "description_fr": "Pêcher un poisson de chaque espèce apparaissant dans les courants spectraux du détroit sud de Merlthor.",
+            "patch": "5.2",
+            "points": 10
+        },
+        "x2556": {
+            "name_en": "Denizens of North Merlthor",
+            "name_fr": "Ichtyogrammiste du détroit nord de Merlthor",
+            "description_en": "Catch every type of fish in the northern Strait of Merlthor when a spectral current is not present.",
+            "description_fr": "Pêcher un poisson de chaque espèce dans le détroit nord de Merlthor, sauf ceux apparaissant dans les courants spectraux.",
+            "patch": "5.2",
+            "points": 10
+        },
+        "x2606": {
+            "name_en": "Specters of North Merlthor",
+            "name_fr": "Spectre du détroit nord de Merlthor",
+            "description_en": "Catch every type of fish in the northern Strait of Merlthor when a spectral current is present.",
+            "description_fr": "Pêcher un poisson de chaque espèce apparaissant dans les courants spectraux du détroit nord de Merlthor.",
+            "patch": "5.2",
+            "points": 10
+        },
+        "x2555": {
+            "name_en": "Denizens of the Rhotano",
+            "name_fr": "Ichtyogrammiste de la mer de Rhotano",
+            "description_en": "Catch every type of fish in the open Rhotano Sea when a spectral current is not present.",
+            "description_fr": "Pêcher un poisson de chaque espèce dans la mer de Rhotano, sauf ceux apparaissant dans les courants spectraux.",
+            "patch": "5.2",
+            "points": 10
+        },
+        "x2605": {
+            "name_en": "Specters of the Rhotano",
+            "name_fr": "Spectre de la mer de Rhotano",
+            "description_en": "Catch every type of fish in the open Rhotano Sea when a spectral current is present.",
+            "description_fr": "Pêcher un poisson de chaque espèce apparaissant dans les courants spectraux de la mer de Rhotano.",
+            "patch": "5.2",
+            "points": 10
+        },
+        "x2748": {
+            "name_en": "Denizens of the Cieldalaes",
+            "name_fr": "Ichtyogrammiste des îles de Cieldalaes",
+            "description_en": "Catch every type of fish in the Cieldalaes Margin when a spectral current is not present.",
+            "description_fr": "Pêcher un poisson de chaque espèce au large des îles de Cieldalaes, sauf ceux apparaissant dans les courants spectraux.",
+            "patch": "5.4",
+            "points": 10
+        },
+        "x2751": {
+            "name_en": "Specters of the Cieldalaes",
+            "name_fr": "Spectre des îles de Cieldalaes",
+            "description_en": "Catch every type of fish in the Cieldalaes Margin when a spectral current is present.",
+            "description_fr": "Pêcher un poisson de chaque espèce apparaissant dans les courants spectraux au large des îles de Cieldalaes.",
+            "patch": "5.4",
+            "points": 10
+        },
+        "x2749": {
+            "name_en": "Denizens of the Bloodbrine",
+            "name_fr": "Ichtyogrammiste de la mer Pourpre",
+            "description_en": "Catch every type of fish in the open Bloodbrine Sea when a spectral current is not present.",
+            "description_fr": "Pêcher un poisson de chaque espèce au large de la mer Pourpre, sauf ceux apparaissant dans les courants spectraux.",
+            "patch": "5.4",
+            "points": 10
+        },
+        "x2752": {
+            "name_en": "Specters of the Bloodbrine",
+            "name_fr": "Spectre de la mer Pourpre",
+            "description_en": "Catch every type of fish in the open Bloodbrine Sea when a spectral current is present.",
+            "description_fr": "Pêcher un poisson de chaque espèce apparaissant dans les courants spectraux au large de la mer Pourpre.",
+            "patch": "5.4",
+            "points": 10
+        },
+        "x2750": {
+            "name_en": "Denizens of the Rothlyt Sound",
+            "name_fr": "Ichtyogrammiste du golfe de Rothlyt",
+            "description_en": "Catch every type of fish in the outer Rothlyt Sound when a spectral current is not present.",
+            "description_fr": "Pêcher un poisson de chaque espèce au large du golfe de Rothlyt, sauf ceux apparaissant dans les courants spectraux.",
+            "patch": "5.4",
+            "points": 10
+        },
+        "x2753": {
+            "name_en": "Specters of the Rothlyt Sound",
+            "name_fr": "Spectre du golfe de Rothlyt",
+            "description_en": "Catch every type of fish in the outer Rothlyt Sound when a spectral current is present.",
+            "description_fr": "Pêcher un poisson de chaque espèce apparaissant dans les courants spectraux au large du golfe de Rothlyt.",
+            "patch": "5.4",
+            "points": 10
+        },
+        "x3256": {
+            "name_en": "Denizens of the Sirensong Sea",
+            "name_fr": "Ichtyogrammiste de la Mer du Chant des sirènes",
+            "description_en": "Catch every type of fish in the Sirensong Sea when a spectral current is not present.",
+            "description_fr": "Pêcher un poisson de chaque espèce dans la Mer du Chant des sirènes, sauf ceux apparaissant dans les courants spectraux.",
+            "patch": "6.4",
+            "points": 10
+        },
+        "x3260": {
+            "name_en": "Specters of the Sirensong Sea",
+            "name_fr": "Spectre de la Mer du Chant des sirènes",
+            "description_en": "Catch every type of fish in the Sirensong Sea when a spectral current is present.",
+            "description_fr": "Pêcher un poisson de chaque espèce apparaissant dans les courants spectraux de la Mer du Chant des sirènes.",
+            "patch": "6.4",
+            "points": 10
+        },
+        "x3257": {
+            "name_en": "Denizens of the Kugane Coast",
+            "name_fr": "Ichtyogrammiste de la baie de Kugane",
+            "description_en": "Catch every type of fish off the Kugane Coast when a spectral current is not present.",
+            "description_fr": "Pêcher un poisson de chaque espèce dans la baie de Kugane, sauf ceux apparaissant dans les courants spectraux.",
+            "patch": "6.4",
+            "points": 10
+        },
+        "x3261": {
+            "name_en": "Specters of the Kugane Coast",
+            "name_fr": "Spectre de la baie de Kugane",
+            "description_en": "Catch every type of fish off the Kugane Coast when a spectral current is present.",
+            "description_fr": "Pêcher un poisson de chaque espèce apparaissant dans les courants spectraux de la baie de Kugane.",
+            "patch": "6.4",
+            "points": 10
+        },
+        "x3258": {
+            "name_en": "Denizens of the Ruby Sea",
+            "name_fr": "Ichtyogrammiste de la Mer de Rubis",
+            "description_en": "Catch every type of fish on the Ruby Sea when a spectral current is not present.",
+            "description_fr": "Pêcher un poisson de chaque espèce dans la Mer de Rubis, sauf ceux apparaissant dans les courants spectraux.",
+            "patch": "6.4",
+            "points": 10
+        },
+        "x3262": {
+            "name_en": "Specters of the Ruby Sea",
+            "name_fr": "Spectre de la Mer de Rubis",
+            "description_en": "Catch every type of fish on the Ruby Sea when a spectral current is present.",
+            "description_fr": "Pêcher un poisson de chaque espèce apparaissant dans les courants spectraux de la Mer de Rubis.",
+            "patch": "6.4",
+            "points": 10
+        },
+        "x3259": {
+            "name_en": "Denizens of the One River",
+            "name_fr": "Ichtyogrammiste de Yanxia",
+            "description_en": "Catch every type of fish in the One River when a spectral current is not present.",
+            "description_fr": "Pêcher un poisson de chaque espèce en aval de Yanxia, sauf ceux apparaissant dans les courants spectraux.",
+            "patch": "6.4",
+            "points": 10
+        },
+        "x3263": {
+            "name_en": "Specters of the One River",
+            "name_fr": "Spectre de Yanxia",
+            "description_en": "Catch every type of fish in the One River when a spectral current is present.",
+            "description_fr": "Pêcher un poisson de chaque espèce apparaissant dans les courants spectraux en aval de Yanxia.",
+            "patch": "6.4",
+            "points": 10
+        },
+        "x2557": {
+            "name_en": "On a Boat I",
+            "name_fr": "Grand pêcheur I",
+            "description_en": "Earn a cumulative total of 10,000 points while ocean fishing.",
+            "description_fr": "Cumuler 10 000 points à la pêche en mer.",
+            "patch": "5.2",
+            "points": 5,
+            "cNext": [
+                2558
+            ]
+        },
+        "x2558": {
+            "name_en": "On a Boat II",
+            "name_fr": "Grand pêcheur II",
+            "description_en": "Earn a cumulative total of 100,000 points while ocean fishing.",
+            "description_fr": "Cumuler 100 000 points à la pêche en mer.",
+            "patch": "5.2",
+            "points": 10,
+            "cPrev": [
+                2557
+            ],
+            "cNext": [
+                2559
+            ]
+        },
+        "x2559": {
+            "name_en": "On a Boat III",
+            "name_fr": "Grand pêcheur III",
+            "description_en": "Earn a cumulative total of 500,000 points while ocean fishing.",
+            "description_fr": "Cumuler 500 000 points à la pêche en mer.",
+            "patch": "5.2",
+            "points": 20,
+            "cPrev": [
+                2558
+            ],
+            "cNext": [
+                2757
+            ]
+        },
+        "x2757": {
+            "name_en": "On a Boat IV",
+            "name_fr": "Grand pêcheur IV",
+            "description_en": "Earn a cumulative total of 1,000,000 points while ocean fishing.",
+            "description_fr": "Cumuler 1 000 000 de points à la pêche en mer.",
+            "patch": "5.4",
+            "points": 20,
+            "cPrev": [
+                2559
+            ],
+            "cNext": [
+                2758
+            ]
+        },
+        "x2758": {
+            "name_en": "On a Boat V",
+            "name_fr": "Grand pêcheur V",
+            "description_en": "Earn a cumulative total of 3,000,000 points while ocean fishing.",
+            "description_fr": "Cumuler 3 000 000 de points à la pêche en mer.",
+            "reward": "character.character.title.556",
+            "patch": "5.4",
+            "points": 20,
+            "cPrev": [
+                2757
+            ],
+            "cSiblings": [
+                "character.character.title.556"
+            ]
+        },
+        "x2560": {
+            "name_en": "No More Fish in the Sea I",
+            "name_fr": "Ratisseur des océans I",
+            "description_en": "Score at least 5,000 points during a single ocean fishing voyage.",
+            "description_fr": "Atteindre un score de 5 000 points au cours d'une expédition de pêche en mer.",
+            "reward": "character.minion-guide.228",
+            "patch": "5.2",
+            "points": 5,
+            "cNext": [
+                2561
+            ]
+        },
+        "x2561": {
+            "name_en": "No More Fish in the Sea II",
+            "name_fr": "Ratisseur des océans II",
+            "description_en": "Score at least 10,000 points during a single ocean fishing voyage.",
+            "description_fr": "Atteindre un score de 10 000 points au cours d'une expédition de pêche en mer.",
+            "reward": "character.mount-guide.86",
+            "patch": "5.2",
+            "points": 10,
+            "cPrev": [
+                2560
+            ],
+            "cNext": [
+                2562
+            ]
+        },
+        "x2562": {
+            "name_en": "No More Fish in the Sea III",
+            "name_fr": "Ratisseur des océans III",
+            "description_en": "Score at least 16,000 points during a single ocean fishing voyage.",
+            "description_fr": "Atteindre un score de 16 000 points au cours d'une expédition de pêche en mer.",
+            "reward": "character.character.title.515",
+            "patch": "5.2",
+            "points": 20,
+            "cPrev": [
+                2561
+            ],
+            "cNext": [
+                2759
+            ],
+            "cSiblings": [
+                "character.character.title.515"
+            ]
+        },
+        "x2759": {
+            "name_en": "No More Fish in the Sea IV",
+            "name_fr": "Ratisseur des océans IV",
+            "description_en": "Score at least 20,000 points during a single ocean fishing voyage.",
+            "description_fr": "Atteindre un score de 20 000 points au cours d'une expédition de pêche en mer.",
+            "reward": "character.character.title.563",
+            "patch": "5.4",
+            "points": 20,
+            "cPrev": [
+                2562
+            ],
+            "cSiblings": [
+                "character.character.title.563"
+            ]
+        },
+        "x3264": {
+            "name_en": "Near, Far, Wherever Fish Are I",
+            "name_fr": "Ratisseur des hautes mers I",
+            "description_en": "Score at least 5,000 points during a single ocean fishing voyage on the Ruby route.",
+            "description_fr": "Atteindre un score de 5 000 points au cours d'une expédition de pêche en mer (haute mer).",
+            "patch": "6.4",
+            "points": 5
+        },
+        "x3265": {
+            "name_en": "Near, Far, Wherever Fish Are II",
+            "name_fr": "Ratisseur des hautes mers II",
+            "description_en": "Score at least 10,000 points during a single ocean fishing voyage on the Ruby route.",
+            "description_fr": "Atteindre un score de 10 000 points au cours d'une expédition de pêche en mer (haute mer).",
+            "reward": "character.minion-guide.",
+            "patch": "6.4",
+            "points": 10
+        },
+        "x3266": {
+            "name_en": "Near, Far, Wherever Fish Are III",
+            "name_fr": "Ratisseur des hautes mers III",
+            "description_en": "Score at least 16,000 points during a single ocean fishing voyage on the Ruby route.",
+            "description_fr": "Atteindre un score de 16 000 points au cours d'une expédition de pêche en mer (haute mer).",
+            "reward": "character.character.title.679",
+            "patch": "6.4",
+            "points": 20,
+            "cSiblings": [
+                "character.character.title.679"
+            ]
+        },
+        "x2563": {
+            "name_en": "What Did Octopodes Do to You?",
+            "name_fr": "Octo-opus",
+            "description_en": "Earn the “Octopus Travelers” bonus during an ocean fishing voyage.",
+            "description_fr": "Obtenir le bonus Octo-opus au cours d'une expédition de pêche en mer.",
+            "reward": "character.character.title.516",
+            "patch": "5.2",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.516"
+            ]
+        },
+        "x2564": {
+            "name_en": "What Did Sharks Do to You?",
+            "name_fr": "Chasseurs de requins",
+            "description_en": "Earn the “Certifiable Shark Hunters” bonus during an ocean fishing voyage.",
+            "description_fr": "Obtenir le bonus Chasseurs de requins au cours d'une expédition de pêche en mer.",
+            "reward": "character.character.title.517",
+            "patch": "5.2",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.517"
+            ]
+        },
+        "x2565": {
+            "name_en": "What Did Jellyfish Do to You?",
+            "name_fr": "Le bateau de la méduse",
+            "description_en": "Earn the “Jelled Together” bonus during an ocean fishing voyage.",
+            "description_fr": "Obtenir le bonus Le bateau de la méduse au cours d'une expédition de pêche en mer.",
+            "reward": "character.character.title.518",
+            "patch": "5.2",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.518"
+            ]
+        },
+        "x2566": {
+            "name_en": "What Did Seadragons Do to You?",
+            "name_fr": "Fièvre de cheval des mers",
+            "description_en": "Earn the “Maritime Dragonslayers” bonus during an ocean fishing voyage.",
+            "description_fr": "Obtenir le bonus Fièvre de cheval des mers au cours d'une expédition de pêche en mer.",
+            "reward": "character.character.title.519",
+            "patch": "5.2",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.519"
+            ]
+        },
+        "x2754": {
+            "name_en": "What Did Balloons Do to You?",
+            "name_fr": "Amateur du ballon rond",
+            "description_en": "Earn the “Balloon Catchers” bonus during an ocean fishing voyage.",
+            "description_fr": "Obtenir le bonus Amateur du ballon rond au cours d'une expédition de pêche en mer.",
+            "reward": "character.character.title.553",
+            "patch": "5.4",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.553"
+            ]
+        },
+        "x2755": {
+            "name_en": "What Did Crabs Do to You?",
+            "name_fr": "Pince-sans-rire",
+            "description_en": "Earn the “Crab Boat Crew” bonus during an ocean fishing voyage.",
+            "description_fr": "Obtenir le bonus Pince-sans-rire au cours d'une expédition de pêche en mer.",
+            "reward": "character.character.title.554",
+            "patch": "5.4",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.554"
+            ]
+        },
+        "x2756": {
+            "name_en": "What Did Mantas Do to You?",
+            "name_fr": "Raies arraisonnées",
+            "description_en": "Earn the “Sticking it to the Manta” bonus during an ocean fishing voyage.",
+            "description_fr": "Obtenir le bonus Raies arraisonnées au cours d'une expédition de pêche en mer.",
+            "reward": "character.character.title.555",
+            "patch": "5.4",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.555"
+            ]
+        },
+        "x3267": {
+            "name_en": "What Did Shellfish Do to You?",
+            "name_fr": "Malacologue",
+            "description_en": "Earn the “Maximum Mussel” bonus during an ocean fishing voyage on the Ruby route.",
+            "description_fr": "Obtenir le bonus Malacologie au cours d'une expédition de pêche en mer (haute mer).",
+            "reward": "character.character.title.680",
+            "patch": "6.4",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.680"
+            ]
+        },
+        "x3268": {
+            "name_en": "What Did Squid Do to You?",
+            "name_fr": "Surume dragon",
+            "description_en": "Earn the “Squid Squadron” bonus during an ocean fishing voyage on the Ruby route.",
+            "description_fr": "Obtenir le bonus Surume dragon au cours d'une expédition de pêche en mer (haute mer).",
+            "reward": "character.character.title.681",
+            "patch": "6.4",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.681"
+            ]
+        },
+        "x3269": {
+            "name_en": "What Did Shrimp Do to You?",
+            "name_fr": "La crevette",
+            "description_en": "Earn the “Shrimp Smorgasbord” bonus during an ocean fishing voyage on the Ruby route.",
+            "description_fr": "Obtenir le bonus Banc de crevettes au cours d'une expédition de pêche en mer (haute mer).",
+            "reward": "character.character.title.682",
+            "patch": "6.4",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.682"
+            ]
+        },
+        "x2888": {
+            "name_en": "Mine, Mine, Mine",
+            "name_fr": "Mouette mouette avec les mouettes",
+            "description_en": "Encounter 3 seagull flocks while ocean fishing.",
+            "description_fr": "Croiser trois vols de mouettes au cours d'expéditions de pêche en mer.",
+            "reward": "character.minion-guide.396",
+            "patch": "5.5",
+            "points": 10
+        },
+        "x2889": {
+            "name_en": "Double-backwards Somersault",
+            "name_fr": "Salut, et encore merci pour le poisson",
+            "description_en": "Encounter 3 dolphin pods while ocean fishing.",
+            "description_fr": "Croiser trois bancs de dauphins au cours d'expéditions de pêche en mer.",
+            "reward": "character.minion-guide.395",
+            "patch": "5.5",
+            "points": 10
+        }
+    }
+}

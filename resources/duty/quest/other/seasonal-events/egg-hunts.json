@@ -1,0 +1,410 @@
+{
+    "key": "egg-hunts",
+    "groupName_en": "Egg Hunts",
+    "groupName_fr": "Chasse aux Prœufs",
+    "tasks": {
+        "x66950": {
+            "level": 15,
+            "name_en": "Egg-hunting We Will Go (Gridania)",
+            "name_fr": "Ouverture de la chasse aux Prœufs (Gridania)",
+            "year": "2014",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cNext": [
+                66953
+            ],
+            "cExclude": [
+                66951,
+                66952
+            ]
+        },
+        "x66951": {
+            "level": 15,
+            "name_en": "Egg-hunting We Will Go (Limsa Lominsa)",
+            "name_fr": "Ouverture de la chasse aux Prœufs (Limsa Lominsa)",
+            "year": "2014",
+            "npc_en": "Oscarlet",
+            "npc_fr": "Oscarlet",
+            "cNext": [
+                66953
+            ],
+            "cExclude": [
+                66950,
+                66952
+            ]
+        },
+        "x66952": {
+            "level": 15,
+            "name_en": "Egg-hunting We Will Go (Ul'dah)",
+            "name_fr": "Ouverture de la chasse aux Prœufs (Ul'dah)",
+            "year": "2014",
+            "npc_en": "Orselfaux",
+            "npc_fr": "Orselfaux",
+            "cNext": [
+                66953
+            ],
+            "cExclude": [
+                66950,
+                66951
+            ]
+        },
+        "x66953": {
+            "level": 15,
+            "name_en": "Eggsigent Circumstances",
+            "name_fr": "Chasse aux Prœufs dans les bois",
+            "year": "2014",
+            "cPrevAny": true,
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": [
+                66950,
+                66951,
+                66952
+            ],
+            "cNext": [
+                66954
+            ]
+        },
+        "x66954": {
+            "level": 15,
+            "name_en": "Nothing to Yolk About",
+            "name_fr": "Chasse aux Prœufs sur le pont",
+            "year": "2014",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": [
+                66953
+            ],
+            "cNext": [
+                66955
+            ]
+        },
+        "x66955": {
+            "level": 15,
+            "name_en": "The Yolks on Us",
+            "name_fr": "Chasse aux Prœufs dans le désert",
+            "year": "2014",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": [
+                66954
+            ],
+            "cNext": [
+                66956
+            ]
+        },
+        "x66956": {
+            "level": 15,
+            "name_en": "Hard-boiled",
+            "name_fr": "Tous ses Prœufs dans le même panier",
+            "year": "2014",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": [
+                66955
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.903"
+            ]
+        },
+        "x66092": {
+            "level": 15,
+            "name_en": "Great Eggspectations",
+            "name_fr": "Les beaux Prœufs des rêveuses",
+            "year": "2015",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cNext": [
+                66093
+            ]
+        },
+        "x66093": {
+            "level": 15,
+            "name_en": "Poaching the Poachers",
+            "name_fr": "Des Prœufs qui fument et gênent",
+            "year": "2015",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": [
+                66092
+            ],
+            "cNext": [
+                66095
+            ]
+        },
+        "x66095": {
+            "level": 15,
+            "name_en": "Eggs Pluribus Unum",
+            "name_fr": "Des Prœufs fabuleux",
+            "year": "2015",
+            "npc_en": "Nonotta",
+            "npc_fr": "Nonotta",
+            "cPrev": [
+                66093
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1131"
+            ]
+        },
+        "x67664": {
+            "level": 15,
+            "name_en": "Jihli Dreams of Egg Hunts",
+            "name_fr": "Faites vos j'œufs",
+            "year": "2016",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cNext": [
+                67666,
+                67665,
+                67667
+            ]
+        },
+        "x67665": {
+            "level": 15,
+            "name_en": "Pass the Poacher",
+            "name_fr": "Course à l'œuf",
+            "year": "2016",
+            "npc_en": "Cock-a-hoop Collector",
+            "npc_fr": "animatrice sérieuse",
+            "cPrev": [
+                67664
+            ],
+            "cNext": [
+                67668
+            ]
+        },
+        "x67666": {
+            "level": 15,
+            "name_en": "Hard-boiled Hocus",
+            "name_fr": "Attrap'œuf",
+            "year": "2016",
+            "npc_en": "Cultured Collector",
+            "npc_fr": "animateur chaleureux",
+            "cPrev": [
+                67664
+            ],
+            "cNext": [
+                67668
+            ]
+        },
+        "x67667": {
+            "level": 15,
+            "name_en": "Spriggan Scramble",
+            "name_fr": "Méli-mél'œuf",
+            "year": "2016",
+            "npc_en": "Motte",
+            "npc_fr": "Motte",
+            "cPrev": [
+                67664
+            ],
+            "cNext": [
+                67668
+            ]
+        },
+        "x67668": {
+            "level": 15,
+            "name_en": "Eggsaltation of a Lark",
+            "name_fr": "La prœufétie de Jihli",
+            "year": "2016",
+            "npc_en": "Nonotta",
+            "npc_fr": "Nonotta",
+            "cPrev": [
+                67665,
+                67666,
+                67667
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1490"
+            ]
+        },
+        "x67957": {
+            "level": 15,
+            "name_en": "When Eggs Fly",
+            "name_fr": "Œuf volant non identifié",
+            "year": "2017",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cNext": [
+                67958
+            ]
+        },
+        "x67958": {
+            "level": 15,
+            "name_en": "Shock-full of Eggcitement",
+            "name_fr": "Œuffet de surprise",
+            "year": "2017",
+            "npc_en": "Nonotta",
+            "npc_fr": "Nonotta",
+            "cPrev": [
+                67957
+            ],
+            "cNext": [
+                67959
+            ]
+        },
+        "x67959": {
+            "level": 15,
+            "name_en": "Eggsistential Crisis",
+            "name_fr": "Riggy, il s'appelle Riggy",
+            "year": "2017",
+            "npc_en": "Nonotta",
+            "npc_fr": "Nonotta",
+            "cPrev": [
+                67958
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1683"
+            ]
+        },
+        "x68615": {
+            "level": 15,
+            "name_en": "Uneggseptable Losses",
+            "name_fr": "Pas de fête sans cacher des Prœufs",
+            "year": "2018",
+            "npc_en": "Nonotta",
+            "npc_fr": "Nonotta",
+            "cNext": [
+                68616
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2020"
+            ]
+        },
+        "x68616": {
+            "level": 15,
+            "name_en": "Uneggspected Encounters",
+            "name_fr": "Des rencontres à prœufusion",
+            "year": "2018",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": [
+                68615
+            ]
+        },
+        "x68738": {
+            "level": 15,
+            "name_en": "Eggstreme Eggstrapolation",
+            "name_fr": "Chasse Prœuférée",
+            "year": "2019",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cNext": [
+                68739
+            ]
+        },
+        "x68739": {
+            "level": 15,
+            "name_en": "A Shelltered Eggsistence",
+            "name_fr": "Prœufesseur Jihli, \n\nreine des énigmes",
+            "year": "2019",
+            "npc_en": "Nonotta",
+            "npc_fr": "Nonotta",
+            "cPrev": [
+                68738
+            ],
+            "cNext": [
+                68740
+            ]
+        },
+        "x68740": {
+            "level": 15,
+            "name_en": "Deus Eggs Machina",
+            "name_fr": "Des énigmes à prœufusion",
+            "year": "2019",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": [
+                68739
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2239"
+            ]
+        },
+        "x69382": {
+            "level": 15,
+            "name_en": "The Eggth Umbral Calamity",
+            "name_fr": "Lapins en folie",
+            "year": "2020",
+            "npc_en": "Revelrous Rabbit",
+            "npc_fr": "lapine enjouée",
+            "cNext": [
+                69383
+            ]
+        },
+        "x69383": {
+            "level": 15,
+            "name_en": "A Procession Eggstraordinaire",
+            "name_fr": "Lapins en balade",
+            "year": "2020",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cPrev": [
+                69382
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2602"
+            ]
+        },
+        "x69625": {
+            "level": 15,
+            "name_en": "Fowl Demands",
+            "name_fr": "Des cocottes pas commodes",
+            "year": "2021",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cNext": [
+                69626
+            ]
+        },
+        "x69626": {
+            "level": 15,
+            "name_en": "A Poultry Sum",
+            "name_fr": "Prœufusion de cadeaux",
+            "year": "2021",
+            "npc_en": "Nonotta",
+            "npc_fr": "Nonotta",
+            "cPrev": [
+                69625
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2854"
+            ]
+        },
+        "x70126": {
+            "level": 15,
+            "name_en": "Hippity, Hoppity, Happily",
+            "name_fr": "Chasse aux Prœufs et au bonheur",
+            "year": "2022",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3078"
+            ]
+        },
+        "x70257": {
+            "level": 15,
+            "name_en": "Get Along and Play Knife",
+            "name_fr": "Des farceurs sèment la pagaille",
+            "year": "2023",
+            "npc_en": "Jihli Aliapoh",
+            "npc_fr": "Jihli Aliapoh",
+            "cNext": [
+                70258
+            ]
+        },
+        "x70258": {
+            "level": 15,
+            "name_en": "Chaos, Carnage, Eggs",
+            "name_fr": "Aimer les tomberrys à la folie",
+            "year": "2023",
+            "npc_en": "Hamlyn",
+            "npc_fr": "Hamlyn",
+            "cPrev": [
+                70257
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3205"
+            ]
+        }
+    }
+}

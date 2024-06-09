@@ -1,0 +1,283 @@
+{
+    "key": "heavensturn",
+    "groupName_en": "Heavensturn",
+    "groupName_fr": "Fête de la transition",
+    "tasks": {
+        "x66828": {
+            "level": 15,
+            "name_en": "A Horse for Heavensturn",
+            "name_fr": "L'année du cheval",
+            "year": "2014",
+            "npc_en": "Damaris",
+            "npc_fr": "Damaris",
+            "cNext": [
+                66829,
+                66830,
+                66831,
+                66832
+            ]
+        },
+        "x66829": {
+            "level": 15,
+            "name_en": "Turn Around, Beautiful",
+            "name_fr": "Intégration animale",
+            "year": "2014",
+            "npc_en": "Golden Uma Yoriki",
+            "npc_fr": "général doré des chevaux",
+            "cPrev": [
+                66828
+            ]
+        },
+        "x66830": {
+            "level": 15,
+            "name_en": "Heavens Know You're Fast",
+            "name_fr": "File comme le vent!",
+            "year": "2014",
+            "npc_en": "Black Uma Yoriki",
+            "npc_fr": "général noir des chevaux",
+            "cPrev": [
+                66828
+            ]
+        },
+        "x66831": {
+            "level": 15,
+            "name_en": "Heavenly Power",
+            "name_fr": "La bête de somme",
+            "year": "2014",
+            "npc_en": "Red Uma Yoriki",
+            "npc_fr": "général rouge des chevaux",
+            "cPrev": [
+                66828
+            ]
+        },
+        "x66832": {
+            "level": 15,
+            "name_en": "Thank Heavensturn for You",
+            "name_fr": "Promotion chevaline",
+            "year": "2014",
+            "npc_en": "Uma Bugyo",
+            "npc_fr": "maréchale des chevaux",
+            "cPrev": [
+                66828
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.875"
+            ]
+        },
+        "x65788": {
+            "level": 15,
+            "name_en": "Lions for Lambs",
+            "name_fr": "Le maréchal des moutons et la transition",
+            "year": "2015",
+            "npc_en": "Merry Maid",
+            "npc_fr": "jeune fille enjouée",
+            "cNext": [
+                65845,
+                65825,
+                65823,
+                65826
+            ]
+        },
+        "x65825": {
+            "level": 15,
+            "name_en": "Sleepless in the Stable",
+            "name_fr": "Le mouton et le chocobo",
+            "year": "2015",
+            "npc_en": "Hitsuji Bugyo",
+            "npc_fr": "maréchal des moutons",
+            "cPrev": [
+                65788
+            ]
+        },
+        "x65826": {
+            "level": 15,
+            "name_en": "Sleepless in the Swaddle",
+            "name_fr": "Le mouton et le nourrisson",
+            "year": "2015",
+            "npc_en": "Hitsuji Bugyo",
+            "npc_fr": "maréchal des moutons",
+            "cPrev": [
+                65788
+            ]
+        },
+        "x65845": {
+            "level": 15,
+            "name_en": "Sleepless in the Saloon",
+            "name_fr": "Le mouton et le soldat",
+            "year": "2015",
+            "npc_en": "Hitsuji Bugyo",
+            "npc_fr": "maréchal des moutons",
+            "cPrev": [
+                65788
+            ]
+        },
+        "x65823": {
+            "level": 15,
+            "name_en": "All's Wool That Ends Wool",
+            "name_fr": "L'année du mouton",
+            "year": "2015",
+            "npc_en": "Hitsuji Bugyo",
+            "npc_fr": "maréchal des moutons",
+            "cPrev": [
+                65788
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1057"
+            ]
+        },
+        "x67753": {
+            "level": 15,
+            "name_en": "Monkey about Town",
+            "name_fr": "Des singeries pour du mochi",
+            "year": "2016",
+            "npc_en": "Saru Bugyo",
+            "npc_fr": "maréchal des singes",
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1391"
+            ]
+        },
+        "x67085": {
+            "level": 15,
+            "name_en": "A Thousand Blows",
+            "name_fr": "Le maréchal de la basse-cour",
+            "year": "2017",
+            "npc_en": "Tori Bugyo",
+            "npc_fr": "maréchal des coqs",
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1626"
+            ]
+        },
+        "x67961": {
+            "level": 15,
+            "name_en": "More Bark and Mochi Bite",
+            "name_fr": "Des chiens à la rubrique des mochi écrasés",
+            "year": "2018",
+            "npc_en": "Inu Bugyo",
+            "npc_fr": "maréchal des chiens",
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1964"
+            ]
+        },
+        "x68550": {
+            "level": 15,
+            "name_en": "Hogging the Spotlight",
+            "name_fr": "Pas copains comme cochons",
+            "year": "2019",
+            "npc_en": "Inoshishi Bugyo",
+            "npc_fr": "maréchal des cochons",
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1996"
+            ]
+        },
+        "x68712": {
+            "level": 15,
+            "name_en": "Mochi to Be Desired",
+            "name_fr": "Rat-zzia de mochi",
+            "year": "2020",
+            "npc_en": "Nezumi Bugyo",
+            "npc_fr": "maréchal des rats",
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2142"
+            ]
+        },
+        "x69274": {
+            "level": 15,
+            "name_en": "Steering Clear of Trouble",
+            "name_fr": "Prendre le mochi par les cornes",
+            "year": "2021",
+            "npc_en": "Ushi Bugyo",
+            "npc_fr": "maréchal des bœufs",
+            "cNext": [
+                69287
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2485"
+            ]
+        },
+        "x69287": {
+            "level": 15,
+            "name_en": "Bully for Mochi",
+            "name_fr": "Des mochi à l'effet bœuf",
+            "year": "2021",
+            "npc_en": "Ushi Bugyo",
+            "npc_fr": "maréchal des bœufs",
+            "cPrev": [
+                69274
+            ]
+        },
+        "x69559": {
+            "level": 15,
+            "name_en": "Tangle with a Tora",
+            "name_fr": "Danse avec le tigre",
+            "year": "2022",
+            "npc_en": "Tora Bugyo",
+            "npc_fr": "maréchal des tigres",
+            "cNext": [
+                69560
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2805"
+            ]
+        },
+        "x69560": {
+            "level": 15,
+            "name_en": "Let Them Eat Cake",
+            "name_fr": "Un tigre couleur mochi",
+            "year": "2022",
+            "npc_en": "Tora Bugyo",
+            "npc_fr": "maréchal des tigres",
+            "cPrev": [
+                69559
+            ]
+        },
+        "x70124": {
+            "level": 15,
+            "name_en": "The Box of Fortune",
+            "name_fr": "Les petits papiers de la transition",
+            "year": "2023",
+            "npc_en": "Usagi Bugyo",
+            "npc_fr": "Usagi Bugyo"
+        },
+        "x70125": {
+            "level": 15,
+            "name_en": "With Great Fortune Comes Great Responsibility",
+            "name_fr": "Chance, malchance et transition",
+            "year": "2023",
+            "npc_en": "Far Eastern Omikujishi",
+            "npc_fr": "Divinateur Oriental",
+            "cPrev": [
+                70124
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3082"
+            ]
+        },
+        "x70215": {
+            "level": 15,
+            "name_en": "To Be a Mascot",
+            "name_fr": "Le flop des mascottes",
+            "patch": "6.5",
+            "year": "2024",
+            "npc_en": "Ryu Metsuke",
+            "npc_fr": "inspecteur des dragons",
+            "cNext": [
+                70216
+            ]
+        },
+        "x70216": {
+            "level": 15,
+            "name_en": "Unlike a Dragon",
+            "name_fr": "Sous le signe du dragon d'eau",
+            "patch": "6.5",
+            "year": "2024",
+            "npc_en": "Ryu Bugyo",
+            "npc_fr": "maréchale des dragons",
+            "cPrev": [
+                70215
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3208"
+            ]
+        }
+    }
+}

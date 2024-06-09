@@ -1,0 +1,89 @@
+{
+    "key": "the-sorrow-of-werlyt",
+    "groupName_en": "The Sorrow of Werlyt",
+    "groupName_fr": "La Complainte de Werlyt",
+    "tasks": {
+        "x69319": {
+            "level": 80,
+            "name_en": "Ruby Doomsday",
+            "name_fr": "Une bataille en rouge",
+            "unlock": "duty.dutyraid-finder.trials.shb.3",
+            "npc_en": "Resistance Officer",
+            "npc_fr": "Officier mhigois",
+            "cPrev": [
+                "duty.quests.main-scenario.post-shadowbringers.69297"
+            ],
+            "cNext": [
+                "duty.quests.other.quasi-quests.69378",
+                69431
+            ]
+        },
+        "x69431": {
+            "level": 80,
+            "name_en": "Sleep Now in Sapphire",
+            "name_fr": "Sur la mer de saphir",
+            "npc_en": "Resistance Officer",
+            "npc_fr": "Officier mhigois",
+            "cPrev": [
+                69319
+            ],
+            "cNext": [
+                69516
+            ]
+        },
+        "x69516": {
+            "level": 80,
+            "name_en": "Blood of Emerald",
+            "name_fr": "À la poursuite du joyau vert",
+            "unlock": "duty.dutyraid-finder.trials.shb.5",
+            "npc_en": "Resistance Officer",
+            "npc_fr": "Officier mhigois",
+            "cPrev": [
+                69431
+            ],
+            "cNext": [
+                69517
+            ]
+        },
+        "x69517": {
+            "level": 80,
+            "name_en": "In Memory",
+            "name_fr": "Memento Mori",
+            "npc_en": "Resistance Officer",
+            "npc_fr": "Officier mhigois",
+            "cPrev": [
+                69516
+            ],
+            "cNext": [
+                69567
+            ]
+        },
+        "x69567": {
+            "level": 80,
+            "name_en": "Duty in the Sky with Diamond",
+            "name_fr": "Les diamants sont immuables",
+            "unlock": "duty.dutyraid-finder.trials.shb.17",
+            "npc_en": "Resistance Officer",
+            "npc_fr": "Officier mhigois",
+            "cPrev": [
+                69517
+            ],
+            "cNext": [
+                69568
+            ]
+        },
+        "x69568": {
+            "level": 80,
+            "name_en": "Forever at Your Side",
+            "name_fr": "Toujours près de toi",
+            "npc_en": "Severa",
+            "npc_fr": "Severa",
+            "cPrev": [
+                69567
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.2887"
+            ]
+        }
+    }
+}

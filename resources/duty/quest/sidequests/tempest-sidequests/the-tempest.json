@@ -1,0 +1,225 @@
+{
+    "key": "the-tempest",
+    "groupName_en": "The Tempest",
+    "groupName_fr": "La Tempête",
+    "tasks": {
+        "x69112": {
+            "level": 70,
+            "name_en": "Ondo Dream of Oranges",
+            "name_fr": "Voir la vie en orange",
+            "npc_en": "Ondo Visionary",
+            "npc_fr": "Ondo résolu",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69184"
+            ]
+        },
+        "x69113": {
+            "level": 70,
+            "name_en": "Pearls of the Deep",
+            "name_fr": "Donne-moi tes dents!",
+            "npc_en": "Saushs Koal",
+            "npc_fr": "Saushs Koal",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69184"
+            ]
+        },
+        "x69114": {
+            "level": 70,
+            "name_en": "Beware the Benthos",
+            "name_fr": "Des Ondos sans scrupules",
+            "npc_en": "Kewshs Ooan",
+            "npc_fr": "Kewshs Ooan",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69184"
+            ]
+        },
+        "x69115": {
+            "level": 70,
+            "name_en": "Beyond the Reach of Koal",
+            "name_fr": "Une trop haute couche",
+            "npc_en": "Sorashs Koal",
+            "npc_fr": "Sorashs Koal",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69184"
+            ]
+        },
+        "x69116": {
+            "level": 70,
+            "name_en": "Do the Chuckle",
+            "name_fr": "Dites-le sans les mots",
+            "npc_en": "Deushs Aath",
+            "npc_fr": "Deushs Aath",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69184"
+            ]
+        },
+        "x69117": {
+            "level": 70,
+            "name_en": "Strange Stew",
+            "name_fr": "Pattes de trilobite au menu",
+            "npc_en": "Pulshs Ooan",
+            "npc_fr": "Pulshs Ooan",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69184"
+            ]
+        },
+        "x69118": {
+            "level": 70,
+            "name_en": "Scales for the Scaled Ones",
+            "name_fr": "Dur, dur d'écailles",
+            "npc_en": "Amshs Aath",
+            "npc_fr": "Amshs Aath",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69184"
+            ]
+        },
+        "x69119": {
+            "level": 70,
+            "name_en": "Secrets and Spears",
+            "name_fr": "Trouvez l'Ondo suspect!",
+            "npc_en": "Pegshs Ooan",
+            "npc_fr": "Pegshs Ooan",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69184"
+            ]
+        },
+        "x69120": {
+            "level": 70,
+            "name_en": "Scavenger Deep",
+            "name_fr": "Ondo en quête de valeurs",
+            "npc_en": "Nakshs Koal",
+            "npc_fr": "Nakshs Koal",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69184"
+            ],
+            "cNext": [
+                69122
+            ]
+        },
+        "x69121": {
+            "level": 70,
+            "name_en": "Mistake or Machination",
+            "name_fr": "C'est pas si gravier",
+            "npc_en": "Distressed Ondo",
+            "npc_fr": "Ondo tracassé",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69184"
+            ]
+        },
+        "x69122": {
+            "level": 70,
+            "name_en": "More than One Way to Skin a Stingray",
+            "name_fr": "Dur, dur de peau",
+            "npc_en": "Nakshs Koal",
+            "npc_fr": "Nakshs Koal",
+            "cPrev": [
+                69120
+            ]
+        },
+        "x69123": {
+            "level": 70,
+            "name_en": "Doggone Dagons",
+            "name_fr": "Tout a bon dos pour un Ondo",
+            "npc_en": "Nemshs Ooan",
+            "npc_fr": "Nemshs Ooan",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69184"
+            ]
+        },
+        "x69124": {
+            "level": 70,
+            "name_en": "Koal of the Cups",
+            "name_fr": "Un Ondo pas comme les autres",
+            "unlock": "travel.aether-currents.shb.the-tempest.13",
+            "npc_en": "Naroshs Koal",
+            "npc_fr": "Naroshs Koal",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69184"
+            ],
+            "cNext": [
+                69125
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.the-tempest.13"
+            ]
+        },
+        "x69125": {
+            "level": 70,
+            "name_en": "Mother's Mnyiri",
+            "name_fr": "Maman a faim, maman a foie",
+            "npc_en": "Naroshs Koal",
+            "npc_fr": "Naroshs Koal",
+            "cPrev": [
+                69124
+            ],
+            "cNext": [
+                69126
+            ]
+        },
+        "x69126": {
+            "level": 70,
+            "name_en": "Create the Birthing Rope",
+            "name_fr": "Contractions, réaction",
+            "npc_en": "Naroshs Koal",
+            "npc_fr": "Naroshs Koal",
+            "cPrev": [
+                69125
+            ],
+            "cNext": [
+                69127
+            ]
+        },
+        "x69127": {
+            "level": 70,
+            "name_en": "Tomorrow Is in Your Fins",
+            "name_fr": "Tellement frai",
+            "npc_en": "Naroshs Koal",
+            "npc_fr": "Naroshs Koal",
+            "cPrev": [
+                69126
+            ]
+        },
+        "x69128": {
+            "level": 70,
+            "name_en": "Responsible Creation",
+            "name_fr": "Les créateurs amateurs",
+            "unlock": "travel.aether-currents.shb.the-tempest.12",
+            "npc_en": "Bureau Attendant",
+            "npc_fr": "fonctionnaire du bureau des créations",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69188"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.the-tempest.12"
+            ]
+        },
+        "x69129": {
+            "level": 70,
+            "name_en": "Debate and Discourse",
+            "name_fr": "La rhétorique du peuple",
+            "unlock": "travel.aether-currents.shb.the-tempest.11",
+            "npc_en": "Loquacious Amaurotine",
+            "npc_fr": "Amaurotain amène",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69188"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.the-tempest.11"
+            ]
+        },
+        "x69130": {
+            "level": 70,
+            "name_en": "Community Cohesion",
+            "name_fr": "La coule attitude",
+            "unlock": "travel.aether-currents.shb.the-tempest.10",
+            "npc_en": "Patronizing Amaurotine",
+            "npc_fr": "Amaurotain charitable",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69188"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.the-tempest.10"
+            ]
+        }
+    }
+}

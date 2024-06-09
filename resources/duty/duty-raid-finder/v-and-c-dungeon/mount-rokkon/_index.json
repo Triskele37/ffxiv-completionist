@@ -1,0 +1,53 @@
+{
+    "key": "mount-rokkon",
+    "groupName_en": "Mount Rokkon",
+    "groupName_fr": "Mont Rokkon",
+    "headers": {
+        "level": {
+            "header_en": "Level",
+            "header_fr": "Niveau"
+        },
+        "name": {
+            "header_en": "Name",
+            "header_fr": "Nom"
+        },
+        "unlock": {
+            "link": true,
+            "header_en": "Unlock",
+            "header_fr": "Débloqué par"
+        },
+        "patch": {
+            "header_en": "Patch",
+            "header_fr": "Patch"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "level": "90",
+            "name_en": "Mount Rokkon",
+            "name_fr": "Le mont Rokkon - Donjon à embranchements",
+            "patch": "6.45",
+            "unlock": "duty.quests.sidequests.records-of-unusual-endeavors.variant-dungeons.70269"
+        },
+        "x1": {
+            "level": "90",
+            "name_en": "Another Mount Rokkon",
+            "name_fr": "Le mont Rokkon annexe - Donjon alternatif",
+            "patch": "6.45",
+            "unlock": "",
+            "cSiblings": [
+                "character.achievement.battle.dungeons.3339"
+            ]
+        },
+        "x2": {
+            "level": "90",
+            "name_en": "Another Mount Rokkon (Savage)",
+            "name_fr": "Le mont Rokkon annexe - Donjon alternatif (sadique)",
+            "patch": "6.45",
+            "unlock": "",
+            "cSiblings": [
+                "character.achievement.battle.dungeons.3340"
+            ]
+        }
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "key": "rising",
+    "groupName_en": "Rising",
+    "groupName_fr": "Fête de la Commémoration",
+    "tasks": {
+        "x67082": {
+            "level": 15,
+            "name_en": "What Blooms in the Night",
+            "name_fr": "Réminiscence",
+            "year": "2014",
+            "npc_en": "Bran",
+            "npc_fr": "Bran",
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1003"
+            ]
+        },
+        "x67670": {
+            "level": 15,
+            "name_en": "A World Away",
+            "name_fr": "Si loin, si proche",
+            "year": "2015",
+            "npc_en": "Nonora",
+            "npc_fr": "Nonora",
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1192"
+            ]
+        },
+        "x67865": {
+            "level": 15,
+            "name_en": "A Play in Three Acts",
+            "name_fr": "Un rôle sur mesure",
+            "year": "2016",
+            "npc_en": "Crystal Caravan Leader",
+            "npc_fr": "directrice de Jidoor",
+            "cNext": [
+                67866
+            ]
+        },
+        "x67866": {
+            "level": 15,
+            "name_en": "The Show Must Go On",
+            "name_fr": "Chroniques du septième fléau",
+            "year": "2016",
+            "npc_en": "Crystal Caravan Leader",
+            "npc_fr": "directrice de Jidoor",
+            "cPrev": [
+                67865
+            ],
+            "cNext": [
+                67867
+            ]
+        },
+        "x67867": {
+            "level": 15,
+            "name_en": "After the Curtain Falls",
+            "name_fr": "À la gloire de la Lumière",
+            "year": "2016",
+            "npc_en": "Crystal Caravan Leader",
+            "npc_fr": "directrice de Jidoor",
+            "cPrev": [
+                67866
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1597"
+            ]
+        },
+        "x68497": {
+            "level": 15,
+            "name_en": "A Reoccurring Bug",
+            "name_fr": "Le chevalier du labyrinthe",
+            "year": "2017",
+            "npc_en": "Nonora",
+            "npc_fr": "Nonora",
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1786"
+            ]
+        },
+        "x68674": {
+            "level": 15,
+            "name_en": "In Adventurers We Trust",
+            "name_fr": "Une commémoration bien trempée",
+            "year": "2018",
+            "npc_en": "Dural Tharal",
+            "npc_fr": "Dural Tharal",
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2105"
+            ]
+        },
+        "x69196": {
+            "level": 30,
+            "name_en": "Message in a Bottle",
+            "name_fr": "Une étrange lettre en bouteille",
+            "year": "2019",
+            "npc_en": "P'obyano",
+            "npc_fr": "P'obyano",
+            "cNext": [
+                69197
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2399"
+            ]
+        },
+        "x69197": {
+            "level": 30,
+            "name_en": "Messages from Distant Shores",
+            "name_fr": "Les lettres en bouteille de la Commémoration",
+            "year": "2019",
+            "npc_en": "P'obyano",
+            "npc_fr": "P'obyano",
+            "cPrev": [
+                69196
+            ]
+        },
+        "x69509": {
+            "level": 15,
+            "name_en": "Art of Glass",
+            "name_fr": "Le jeune homme de la fête de la Commémoration",
+            "year": "2020",
+            "npc_en": "J'bhen Tia",
+            "npc_fr": "J'bhen Tia",
+            "cNext": [
+                69510
+            ]
+        },
+        "x69510": {
+            "level": 15,
+            "name_en": "Glass from the Past",
+            "name_fr": "Les jeunes hommes de la fête de la Commémoration",
+            "year": "2020",
+            "npc_en": "J'bhen Tia",
+            "npc_fr": "J'bhen Tia",
+            "cPrev": [
+                69509
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2647"
+            ]
+        },
+        "x69627": {
+            "level": 15,
+            "name_en": "Rising Calm",
+            "name_fr": "Commémorez-le avec des fleurs",
+            "year": "2021",
+            "npc_en": "Kipih Jakkya",
+            "npc_fr": "Kipih Jakkya",
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2856"
+            ]
+        },
+        "x70080": {
+            "level": 15,
+            "name_en": "Newfound Journey",
+            "name_fr": "Commémoration et renouveau",
+            "year": "2022",
+            "npc_en": "Wandering Minstrel",
+            "npc_fr": "Ménestrel Errant",
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3081"
+            ]
+        },
+        "x70301": {
+            "level": 15,
+            "name_en": "Siblings Rising",
+            "name_fr": "La fratrie de la Commémoration",
+            "patch": "6.48",
+            "year": "2023",
+            "npc_en": "Kipih Jakkya",
+            "npc_fr": "Kipih Jakkya",
+            "cNext": [
+                70302
+            ]
+        },
+        "x70302": {
+            "level": 15,
+            "name_en": "What Drives Us",
+            "name_fr": "La raison d'une vocation",
+            "patch": "6.48",
+            "year": "2023",
+            "npc_en": "Kipih Jakkya",
+            "npc_fr": "Kipih Jakkya",
+            "cPrev": [
+                70301
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3281"
+            ]
+        }
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "key": "sage",
+    "groupName_en": "Sage",
+    "groupName_fr": "Quêtes de sage",
+    "tasks": {
+        "x69603": {
+            "level": 70,
+            "name_en": "Sage's Path",
+            "name_fr": "Le serment du sage",
+            "npc_en": "Sharlayan Maiden",
+            "npc_fr": "jeune fille au style nordique",
+            "cNext": [
+                69604
+            ],
+            "cSiblings": [
+                "character.adventure-plate.26"
+            ]
+        },
+        "x69604": {
+            "level": 70,
+            "name_en": "Sage's Focus",
+            "name_fr": "Principes de noologie",
+            "npc_en": "Lalah Jinjahl",
+            "npc_fr": "Lalah Jinjahl",
+            "cPrev": [
+                69603
+            ],
+            "cNext": [
+                69605
+            ]
+        },
+        "x69605": {
+            "level": 73,
+            "name_en": "Sands of Despair",
+            "name_fr": "Sur la piste du chicotin",
+            "npc_en": "Lalah Jinjahl",
+            "npc_fr": "Lalah Jinjahl",
+            "cPrev": [
+                69604
+            ],
+            "cNext": [
+                69606
+            ]
+        },
+        "x69606": {
+            "level": 75,
+            "name_en": "A Poisoned Gift",
+            "name_fr": "Le vrai visage du bon docteur",
+            "npc_en": "Lalah Jinjahl",
+            "npc_fr": "Lalah Jinjahl",
+            "cPrev": [
+                69605
+            ],
+            "cNext": [
+                69607
+            ]
+        },
+        "x69607": {
+            "level": 78,
+            "name_en": "Pledge of Hope",
+            "name_fr": "Devoir et espoir",
+            "npc_en": "Lalah Jinjahl",
+            "npc_fr": "Lalah Jinjahl",
+            "cPrev": [
+                69606
+            ],
+            "cNext": [
+                69608
+            ]
+        },
+        "x69608": {
+            "level": 80,
+            "name_en": "Life Ephemeral, Path Eternal",
+            "name_fr": "Existences éphémères et savoir éternel",
+            "npc_en": "Lalah Jinjahl",
+            "npc_fr": "Lalah Jinjahl",
+            "cPrev": [
+                69607
+            ],
+            "cSiblings": [
+                "character.adventure-plate.25",
+                "character.achievement.quests.job-role-quests.2960"
+            ]
+        }
+    }
+}

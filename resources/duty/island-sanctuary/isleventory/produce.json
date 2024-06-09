@@ -1,0 +1,105 @@
+{
+    "key": "produce",
+    "groupName_en": "Produce",
+    "groupName_fr": "Cultures",
+    "headers": {
+        "name": {
+            "header_en": "Produce",
+            "header_fr": "Culture"
+        },
+        "starter": {
+            "link": true,
+            "header_en": "Starter",
+            "header_fr": "Graine"
+        }
+    },
+    "common": [
+        "requirement"
+    ],
+    "tasks": {
+        "x0": {
+            "name_en": "Island Popoto",
+            "name_fr": "Popoto exotique",
+            "starter": [
+                "duty.island-sanctuary.isleventory.gardening-starters.0"
+            ]
+        },
+        "x1": {
+            "name_en": "Island Cabbage",
+            "name_fr": "Chou exotique",
+            "starter": [
+                "duty.island-sanctuary.isleventory.gardening-starters.1"
+            ]
+        },
+        "x2": {
+            "name_en": "Isleberry",
+            "name_fr": "Fraise exotique",
+            "starter": [
+                "duty.island-sanctuary.isleventory.gardening-starters.2"
+            ]
+        },
+        "x3": {
+            "name_en": "Island Pumpkin",
+            "name_fr": "Citrouille exotique",
+            "starter": [
+                "duty.island-sanctuary.isleventory.gardening-starters.3"
+            ]
+        },
+        "x4": {
+            "name_en": "Island Onion",
+            "name_fr": "Oignon exotique",
+            "starter": [
+                "duty.island-sanctuary.isleventory.gardening-starters.4"
+            ]
+        },
+        "x5": {
+            "name_en": "Island Tomato",
+            "name_fr": "Tomate exotique",
+            "starter": [
+                "duty.island-sanctuary.isleventory.gardening-starters.5"
+            ]
+        },
+        "x6": {
+            "name_en": "Island Wheat",
+            "name_fr": "Blé exotique",
+            "starter": [
+                "duty.island-sanctuary.isleventory.gardening-starters.6"
+            ]
+        },
+        "x7": {
+            "name_en": "Island Corn",
+            "name_fr": "Maïs exotique",
+            "starter": [
+                "duty.island-sanctuary.isleventory.gardening-starters.7"
+            ]
+        },
+        "x8": {
+            "name_en": "Island Parsnip",
+            "name_fr": "Panais exotique",
+            "starter": [
+                "duty.island-sanctuary.isleventory.gardening-starters.8"
+            ]
+        },
+        "x9": {
+            "name_en": "Island Radish",
+            "name_fr": "Radis exotique",
+            "starter": [
+                "duty.island-sanctuary.isleventory.gardening-starters.9"
+            ]
+        },
+        "x10": {
+            "name_en": "Island Paprika",
+            "name_fr": "Poivron exotique",
+            "starter": [
+                "duty.island-sanctuary.isleventory.gardening-starters.10"
+            ]
+        },
+        "x11": {
+            "name_en": "Island Leek",
+            "name_fr": "Poireau exotique",
+            "starter": [
+                "duty.island-sanctuary.isleventory.gardening-starters.11"
+            ]
+        }
+    }
+}

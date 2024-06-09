@@ -1,0 +1,402 @@
+{
+    "key": "arkasodara",
+    "groupName_en": "Arkasodara",
+    "groupName_fr": "Arkasodara",
+    "common": [
+        "type",
+        "reputation"
+    ],
+    "tasks": {
+        "x70081": {
+            "level": 80,
+            "name_en": "Hippos Born to Run",
+            "name_fr": "Hippos dans la poussière",
+            "patch": "6.15",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Kancana",
+            "npc_fr": "Kancana",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.70000",
+                "duty.quests.sidequests.thavnairian.thavnair.70033"
+            ],
+            "cNext": [
+                70082
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.92"
+            ]
+        },
+        "x70082": {
+            "level": 80,
+            "name_en": "A Pachyderm's Promptitude",
+            "name_fr": "Les Hippotracteurs à la conquête de Thavnair",
+            "patch": "6.15",
+            "type": "CATEGORY.MAIN",
+            "reputation": "REPUTATION.3",
+            "npc_en": "Trna",
+            "npc_fr": "Trna",
+            "cPrev": [
+                70081
+            ],
+            "cNext": [
+                70083
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.93"
+            ]
+        },
+        "x70083": {
+            "level": 80,
+            "name_en": "Hippo Healing",
+            "name_fr": "Un hippo averti en vaut deux",
+            "patch": "6.15",
+            "type": "CATEGORY.MAIN",
+            "reputation": "REPUTATION.4",
+            "npc_en": "Trna",
+            "npc_fr": "Trna",
+            "cPrev": [
+                70082
+            ],
+            "cNext": [
+                70084
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.94"
+            ]
+        },
+        "x70084": {
+            "level": 80,
+            "name_en": "Defiant Ogul, Deified!",
+            "name_fr": "Les fourberies d'Ogul",
+            "patch": "6.15",
+            "type": "CATEGORY.MAIN",
+            "reputation": "REPUTATION.5",
+            "npc_en": "Trna",
+            "npc_fr": "Trna",
+            "cPrev": [
+                70083
+            ],
+            "cNext": [
+                70085
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.95"
+            ]
+        },
+        "x70085": {
+            "level": 80,
+            "name_en": "Leader to Leader",
+            "name_fr": "Dans l'œil rouge des Gajasuras",
+            "patch": "6.15",
+            "type": "CATEGORY.MAIN",
+            "reputation": "REPUTATION.6",
+            "npc_en": "Trna",
+            "npc_fr": "Trna",
+            "cPrev": [
+                70084
+            ],
+            "cNext": [
+                70086
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.96"
+            ]
+        },
+        "x70086": {
+            "level": 80,
+            "name_en": "The Hippo Riders",
+            "name_fr": "La botte secrète de Kancana",
+            "patch": "6.15",
+            "type": "CATEGORY.MAIN",
+            "reputation": "REPUTATION.7",
+            "npc_en": "Trna",
+            "npc_fr": "Trna",
+            "cPrev": [
+                70085
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.97"
+            ]
+        },
+        "x70087": {
+            "level": 80,
+            "name_en": "Ridin' Flyers for Flyin' Riders",
+            "name_fr": "Des dépliants pour les hippos",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.3",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70088": {
+            "level": 80,
+            "name_en": "Deal by the Docks",
+            "name_fr": "Une affaire qui roule",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.3",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70089": {
+            "level": 80,
+            "name_en": "Do It for the Vine",
+            "name_fr": "Répare ton char",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.3",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70090": {
+            "level": 80,
+            "name_en": "Missing Rider",
+            "name_fr": "À la recherche du livreur perdu",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.3",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70091": {
+            "level": 80,
+            "name_en": "Flowers for Sanduruva",
+            "name_fr": "Samanta préfère le vert",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.3",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70092": {
+            "level": 80,
+            "name_en": "Anxious Rookie",
+            "name_fr": "Débuts timides",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.3",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70093": {
+            "level": 80,
+            "name_en": "Gulal Generosity",
+            "name_fr": "Une prière qui sent la poudre",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.3",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70094": {
+            "level": 80,
+            "name_en": "Essential Eggredients",
+            "name_fr": "Attention, fragile!",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.4",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70095": {
+            "level": 80,
+            "name_en": "Darling Defender",
+            "name_fr": "Un cœur gros comme ça",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.4",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70096": {
+            "level": 80,
+            "name_en": "Bloomin' Ocean",
+            "name_fr": "Délices sous-marins",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.4",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70097": {
+            "level": 80,
+            "name_en": "Fresh Eats and Ripe Sweets",
+            "name_fr": "Vos plats préférés, toujours bien livrés",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.4",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70098": {
+            "level": 80,
+            "name_en": "Waste Not, Want None of That",
+            "name_fr": "Recyclage, réduction, réutilisation",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.4",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70099": {
+            "level": 80,
+            "name_en": "Seedy Affair",
+            "name_fr": "Prends-en de la graine",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.4",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70100": {
+            "level": 80,
+            "name_en": "Olfactory Warfare",
+            "name_fr": "Poudre d'escampette",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.4",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70101": {
+            "level": 80,
+            "name_en": "Ridin' Hazards",
+            "name_fr": "Invasion de starmites",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.5",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70102": {
+            "level": 80,
+            "name_en": "Hippo Scrub",
+            "name_fr": "Un bon bain qui fait du bien",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.5",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70103": {
+            "level": 80,
+            "name_en": "Vanaspati's Blessing",
+            "name_fr": "Les bienfaits de Vanaspati",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.5",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70104": {
+            "level": 80,
+            "name_en": "Hells Hath No Fury as a Hippo Scorned",
+            "name_fr": "L'échappée de l'hippo affamé",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.5",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70105": {
+            "level": 80,
+            "name_en": "Tusk Trouble",
+            "name_fr": "Des dents dures comme fer",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.5",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70106": {
+            "level": 80,
+            "name_en": "Patching Up",
+            "name_fr": "Fuite d'eau dans les tuyaux",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.5",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70107": {
+            "level": 80,
+            "name_en": "A Hippo's Best Friend",
+            "name_fr": "Une crème solaire pas comme les autres",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.5",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70108": {
+            "level": 80,
+            "name_en": "An Explosive Brew",
+            "name_fr": "Une origine explosive",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.6",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70109": {
+            "level": 80,
+            "name_en": "Gathering Moss",
+            "name_fr": "Vous prendrez bien un peu de mousse?",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.6",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70110": {
+            "level": 80,
+            "name_en": "Blood from a Stonemason",
+            "name_fr": "Paie ton ardoise!",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.6",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70111": {
+            "level": 80,
+            "name_en": "A Radiant Delivery",
+            "name_fr": "Les fournitures de l'Ost rayonnant",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.6",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70112": {
+            "level": 80,
+            "name_en": "Like a Crate to Water",
+            "name_fr": "Hippo déchaîné, éléphant trempé",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.6",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70113": {
+            "level": 80,
+            "name_en": "Manusyan for a Day",
+            "name_fr": "Ô Manusya, entendez mon appel!",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.6",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        },
+        "x70114": {
+            "level": 80,
+            "name_en": "Steep the Legs",
+            "name_fr": "Des pattes de crabe appétissantes",
+            "patch": "6.15",
+            "type": "CATEGORY.DAILY",
+            "reputation": "REPUTATION.6",
+            "npc_en": "Maru",
+            "npc_fr": "Maru"
+        }
+    }
+}

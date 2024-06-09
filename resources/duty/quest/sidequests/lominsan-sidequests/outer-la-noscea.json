@@ -1,0 +1,135 @@
+{
+    "key": "outer-la-noscea",
+    "groupName_en": "Outer La Noscea",
+    "groupName_fr": "Noscea extérieure",
+    "tasks": {
+        "x66400": {
+            "level": 34,
+            "name_en": "Looking for Trouble",
+            "name_fr": "La traque des éclaireurs",
+            "npc_en": "Bloeidin",
+            "npc_fr": "Bloeidin",
+            "cPrev": [
+                66397
+            ],
+            "cNext": [
+                66401
+            ]
+        },
+        "x66395": {
+            "level": 34,
+            "name_en": "Never Trout That I Love",
+            "name_fr": "De la truite pour les affamés",
+            "npc_en": "Bloeidin",
+            "npc_fr": "Bloeidin",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.upper-la-noscea.66394"
+            ],
+            "cNext": [
+                66397
+            ]
+        },
+        "x66397": {
+            "level": 34,
+            "name_en": "Return to Your Dust",
+            "name_fr": "La guerre des golems",
+            "npc_en": "Bloeidin",
+            "npc_fr": "Bloeidin",
+            "cPrev": [
+                66395
+            ],
+            "cNext": [
+                66400
+            ]
+        },
+        "x66398": {
+            "level": 34,
+            "name_en": "Deduce, Reuse, Recycle",
+            "name_fr": "Pas de métal pour les Kobolds",
+            "npc_en": "Swygrael",
+            "npc_fr": "Swygrael",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66393"
+            ],
+            "cNext": [
+                66399
+            ]
+        },
+        "x66399": {
+            "level": 34,
+            "name_en": "Don't Let the Cat out of the Bag",
+            "name_fr": "La belle et la très bête",
+            "npc_en": "Swygrael",
+            "npc_fr": "Swygrael",
+            "cPrev": [
+                66398
+            ]
+        },
+        "x66396": {
+            "level": 34,
+            "name_en": "Dead or Sumfin' Like It",
+            "name_fr": "Dégommage de volatiles",
+            "npc_en": "Augustine",
+            "npc_fr": "Augustine",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66393"
+            ]
+        },
+        "x66401": {
+            "level": 34,
+            "name_en": "Helm Me You Love Me",
+            "name_fr": "Vengeance explosive",
+            "npc_en": "Bloeidin",
+            "npc_fr": "Bloeidin",
+            "cPrev": [
+                66400
+            ]
+        },
+        "x66553": {
+            "level": 47,
+            "name_en": "A Pirate's Life for Me",
+            "name_fr": "L'âme des pirates",
+            "npc_en": "Bloeidin",
+            "npc_fr": "Bloeidin",
+            "cPrev": [
+                "duty.quests.sidequests.uldahn.the-waking-sands.66551"
+            ],
+            "cNext": [
+                66555
+            ]
+        },
+        "x66554": {
+            "level": 47,
+            "name_en": "Honor the Fallen",
+            "name_fr": "Souvenirs d'Hirondelles",
+            "npc_en": "F'majha",
+            "npc_fr": "F'majha",
+            "cPrev": [
+                "duty.quests.sidequests.uldahn.the-waking-sands.66551"
+            ]
+        },
+        "x66555": {
+            "level": 47,
+            "name_en": "Operation Crucible Down",
+            "name_fr": "Diversion pour un creuset",
+            "npc_en": "Bloeidin",
+            "npc_fr": "Bloeidin",
+            "cPrev": [
+                66553
+            ],
+            "cNext": [
+                66556
+            ]
+        },
+        "x66556": {
+            "level": 47,
+            "name_en": "Claiming the Booty",
+            "name_fr": "Récompense, récompense",
+            "npc_en": "Bloeidin",
+            "npc_fr": "Bloeidin",
+            "cPrev": [
+                66555
+            ]
+        }
+    }
+}

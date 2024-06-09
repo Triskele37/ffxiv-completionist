@@ -1,0 +1,153 @@
+{
+    "key": "east-shroud",
+    "groupName_en": "East Shroud",
+    "groupName_fr": "Forêt de l'est",
+    "tasks": {
+        "x65757": {
+            "level": 15,
+            "name_en": "Leves of Hawthorne",
+            "name_fr": "Mandataire de la hutte des Hawthorne",
+            "cPrevAny": true,
+            "npc_en": "Qina Lyehga",
+            "npc_fr": "Qina Lyehga",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
+            ]
+        },
+        "x66248": {
+            "level": 20,
+            "name_en": "Meat of the Matter",
+            "name_fr": "Dévouement et gratitude",
+            "npc_en": "Ysabel Hawthorne",
+            "npc_fr": "Ysabel",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66245"
+            ]
+        },
+        "x66249": {
+            "level": 20,
+            "name_en": "Stand-in Sentry",
+            "name_fr": "Tour de patrouille",
+            "npc_en": "Piralnaut",
+            "npc_fr": "Piralnaut",
+            "cPrev": [
+                66250
+            ]
+        },
+        "x66250": {
+            "level": 20,
+            "name_en": "Swinophobia",
+            "name_fr": "Phobie porcine",
+            "npc_en": "Piralnaut",
+            "npc_fr": "Piralnaut",
+            "cNext": [
+                66249
+            ]
+        },
+        "x66247": {
+            "level": 20,
+            "name_en": "The Replacement Culler",
+            "name_fr": "Pour l'honneur d'un homme blessé",
+            "npc_en": "Florimond",
+            "npc_fr": "Florimond"
+        },
+        "x66252": {
+            "level": 21,
+            "name_en": "Roof Riders",
+            "name_fr": "Silhouette sur le toit",
+            "npc_en": "Blaisette",
+            "npc_fr": "Blaisette",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66246"
+            ]
+        },
+        "x66256": {
+            "level": 21,
+            "name_en": "Sylph Says",
+            "name_fr": "Un Sylphe taquin",
+            "npc_en": "Laxio",
+            "npc_fr": "Laxio",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.69393"
+            ],
+            "cNext": [
+                66257
+            ]
+        },
+        "x66257": {
+            "level": 21,
+            "name_en": "Buzz Kill",
+            "name_fr": "Sa majesté des puces",
+            "npc_en": "Laxio",
+            "npc_fr": "Laxio",
+            "cPrev": [
+                66256
+            ]
+        },
+        "x66258": {
+            "level": 21,
+            "name_en": "A Porcine Plight",
+            "name_fr": "Sangliers sanglants",
+            "npc_en": "Ameexia",
+            "npc_fr": "Ameexia",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.69393"
+            ],
+            "cNext": [
+                66259
+            ]
+        },
+        "x66259": {
+            "level": 21,
+            "name_en": "Threads Unraveled",
+            "name_fr": "Fils de joie",
+            "npc_en": "Ameexia",
+            "npc_fr": "Ameexia",
+            "cPrev": [
+                66258
+            ]
+        },
+        "x66281": {
+            "level": 24,
+            "name_en": "The Blood Price",
+            "name_fr": "Du sang pour des remerciements",
+            "npc_en": "Knolexia",
+            "npc_fr": "Knolexia",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66050"
+            ]
+        },
+        "x66506": {
+            "level": 43,
+            "name_en": "Some Seedy Business",
+            "name_fr": "Prenez-en de la graine",
+            "npc_en": "Jeulerand",
+            "npc_fr": "Jeulerand",
+            "cPrev": [
+                "duty.quests.sidequests.gridanian.gridania.66505"
+            ],
+            "cNext": [
+                66508
+            ]
+        },
+        "x66508": {
+            "level": 43,
+            "name_en": "This One's for the Lovers",
+            "name_fr": "Un inconnu vous offre des fleurs",
+            "npc_en": "Kain",
+            "npc_fr": "Kain",
+            "cPrev": [
+                66506
+            ]
+        },
+        "x66509": {
+            "level": 43,
+            "name_en": "Windy Wedding",
+            "name_fr": "Tempête florale",
+            "npc_en": "Elfleda",
+            "npc_fr": "Elfleda"
+        }
+    }
+}

@@ -1,0 +1,510 @@
+{
+    "key": "conjurer",
+    "groupName_en": "Conjurer",
+    "groupName_fr": "Élémentaliste",
+    "cCombo": [
+        "character.achievement.battle.battle.733"
+    ],
+    "tasks": {
+        "x0": {
+            "rank": "1",
+            "name_en": "Conjurer 01",
+            "name_fr": "Élémentaliste 01",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(25, 19)",
+            "mob_en": "Little Ladybug x3",
+            "mob_fr": "Coccinelle x3"
+        },
+        "x1": {
+            "rank": "1",
+            "name_en": "Conjurer 02",
+            "name_fr": "Élémentaliste 02",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(23, 16)",
+            "mob_en": "Ground Squirrel x3",
+            "mob_fr": "Écureuil x3"
+        },
+        "x2": {
+            "rank": "1",
+            "name_en": "Conjurer 03",
+            "name_fr": "Élémentaliste 03",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(25, 19)",
+            "mob_en": "Forest Funguar x3",
+            "mob_fr": "Fungus des forêts x3"
+        },
+        "x3": {
+            "rank": "1",
+            "name_en": "Conjurer 04",
+            "name_fr": "Élémentaliste 04",
+            "zone_en": "North Shroud",
+            "zone_fr": "Forêt du nord",
+            "location": "(24, 27)",
+            "mob_en": "Miteling x3",
+            "mob_fr": "Petit acarus x3"
+        },
+        "x4": {
+            "rank": "1",
+            "name_en": "Conjurer 05",
+            "name_fr": "Élémentaliste 05",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(23, 21)",
+            "mob_en": "Chigoe x3",
+            "mob_fr": "Chigoe x3"
+        },
+        "x5": {
+            "rank": "1",
+            "name_en": "Conjurer 06",
+            "name_fr": "Élémentaliste 06",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(23, 23)",
+            "mob_en": "Water Sprite x3",
+            "mob_fr": "Élémentaire d'eau x3"
+        },
+        "x6": {
+            "rank": "1",
+            "name_en": "Conjurer 07",
+            "name_fr": "Élémentaliste 07",
+            "zone_en": "North Shroud",
+            "zone_fr": "Forêt du nord",
+            "location": "(27, 23)",
+            "mob_en": "Midge Swarm x3",
+            "mob_fr": "Nuée de moucherons x3"
+        },
+        "x7": {
+            "rank": "1",
+            "name_en": "Conjurer 08",
+            "name_fr": "Élémentaliste 08",
+            "zone_en": "North Shroud",
+            "zone_fr": "Forêt du nord",
+            "location": "(26, 20)",
+            "mob_en": "Microchu x3",
+            "mob_fr": "Microtyugh x3"
+        },
+        "x8": {
+            "rank": "1",
+            "name_en": "Conjurer 09",
+            "name_fr": "Élémentaliste 09",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(29, 23)",
+            "mob_en": "Syrphid Swarm x3",
+            "mob_fr": "Nuée de syrphes x3"
+        },
+        "x9": {
+            "rank": "1",
+            "name_en": "Conjurer 10",
+            "name_fr": "Élémentaliste 10",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(14, 26)",
+            "mob_en": "Northern Vulture x3",
+            "mob_fr": "Vautour x3"
+        },
+        "x10": {
+            "rank": "2",
+            "name_en": "Conjurer 11",
+            "name_fr": "Élémentaliste 11",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(13, 26)",
+            "mob_en": "Tree Slug x3",
+            "mob_fr": "Limace arboricole x3"
+        },
+        "x11": {
+            "rank": "2",
+            "name_en": "Conjurer 12",
+            "name_fr": "Élémentaliste 12",
+            "zone_en": "Central Shroud, East Shroud",
+            "zone_fr": "Forêt centrale, Forêt de l'est",
+            "location": "(26, 29), (13, 27)",
+            "mob_en": "Arbor Buzzard x3, Goblin Hunter x2",
+            "mob_fr": "Busard x3, Chasseur gobelin x2"
+        },
+        "x12": {
+            "rank": "2",
+            "name_en": "Conjurer 13",
+            "name_fr": "Élémentaliste 13",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(19, 27)",
+            "mob_en": "Firefly x3",
+            "mob_fr": "Luciole x3"
+        },
+        "x13": {
+            "rank": "2",
+            "name_en": "Conjurer 14",
+            "name_fr": "Élémentaliste 14",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(13, 25)",
+            "mob_en": "Mandragora x3",
+            "mob_fr": "Mandragore x3"
+        },
+        "x14": {
+            "rank": "2",
+            "name_en": "Conjurer 15",
+            "name_fr": "Élémentaliste 15",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(15, 28)",
+            "mob_en": "Boring Weevil x3",
+            "mob_fr": "Hanneton x3"
+        },
+        "x15": {
+            "rank": "2",
+            "name_en": "Conjurer 16",
+            "name_fr": "Élémentaliste 16",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(18, 28)",
+            "mob_en": "Faerie Funguar x3",
+            "mob_fr": "Fungus fée x3"
+        },
+        "x16": {
+            "rank": "2",
+            "name_en": "Conjurer 17",
+            "name_fr": "Élémentaliste 17",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(18, 27)",
+            "mob_en": "Giant Gnat x3",
+            "mob_fr": "Taon géant x3"
+        },
+        "x17": {
+            "rank": "2",
+            "name_en": "Conjurer 18",
+            "name_fr": "Élémentaliste 18",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(19, 30)",
+            "mob_en": "Wolf Poacher x3",
+            "mob_fr": "Braconnière de loups x3"
+        },
+        "x18": {
+            "rank": "2",
+            "name_en": "Conjurer 19",
+            "name_fr": "Élémentaliste 19",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(15, 17)",
+            "mob_en": "Qiqirn Beater x3",
+            "mob_fr": "Qiqirn rabatteur x3"
+        },
+        "x19": {
+            "rank": "2",
+            "name_en": "Conjurer 20",
+            "name_fr": "Élémentaliste 20",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(16, 21)",
+            "mob_en": "Black Bat x3",
+            "mob_fr": "Chauve-souris noire x3"
+        },
+        "x20": {
+            "rank": "3",
+            "name_en": "Conjurer 21",
+            "name_fr": "Élémentaliste 21",
+            "zone_en": "Upper La Noscea",
+            "zone_fr": "Haute-Noscea",
+            "location": "(13, 24)",
+            "mob_en": "Stoneshell x3",
+            "mob_fr": "Coquepierre x3"
+        },
+        "x21": {
+            "rank": "3",
+            "name_en": "Conjurer 22",
+            "name_fr": "Élémentaliste 22",
+            "zone_en": "East Shroud, Western Thanalan",
+            "zone_fr": "Forêt de l'est, Thanalan occidental",
+            "location": "(17, 23), (13, 11), (14, 6)",
+            "mob_en": "Diseased Treant x3, Lead Coblyn x2, Laughing Toad x2",
+            "mob_fr": "Tréant malade x3, Coblyn de plomb x2, Crapaud rieur x2"
+        },
+        "x22": {
+            "rank": "3",
+            "name_en": "Conjurer 23",
+            "name_fr": "Élémentaliste 23",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(19, 22)",
+            "mob_en": "Bark Eft x3",
+            "mob_fr": "Triton noir x3"
+        },
+        "x23": {
+            "rank": "3",
+            "name_en": "Conjurer 24",
+            "name_fr": "Élémentaliste 24",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(15, 20)",
+            "mob_en": "Glowfly x3",
+            "mob_fr": "lampyre x3"
+        },
+        "x24": {
+            "rank": "3",
+            "name_en": "Conjurer 25",
+            "name_fr": "Élémentaliste 25",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(23, 20)",
+            "mob_en": "Antelope Stag x3",
+            "mob_fr": "Antilope cerf x3"
+        },
+        "x25": {
+            "rank": "3",
+            "name_en": "Conjurer 26",
+            "name_fr": "Élémentaliste 26",
+            "zone_en": "Southern Thanalan",
+            "zone_fr": "Thanalan méridional",
+            "location": "(17, 15)",
+            "mob_en": "Sabotender x3",
+            "mob_fr": "Pampa x3"
+        },
+        "x26": {
+            "rank": "3",
+            "name_en": "Conjurer 27",
+            "name_fr": "Élémentaliste 27",
+            "zone_en": "Eastern Thanalan",
+            "zone_fr": "Thanalan oriental",
+            "location": "(24, 22)",
+            "mob_en": "Qiqirn Roerunner x3",
+            "mob_fr": "Qiqirn gobe-oisillon x3"
+        },
+        "x27": {
+            "rank": "3",
+            "name_en": "Conjurer 28",
+            "name_fr": "Élémentaliste 28",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(27, 21)",
+            "mob_en": "Goblin Thug x3",
+            "mob_fr": "Malfrat gobelin x3"
+        },
+        "x28": {
+            "rank": "3",
+            "name_en": "Conjurer 29",
+            "name_fr": "Élémentaliste 29",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(15, 17)",
+            "mob_en": "Toadstool x3",
+            "mob_fr": "Vesse-de-crapaud x3"
+        },
+        "x29": {
+            "rank": "3",
+            "name_en": "Conjurer 30",
+            "name_fr": "Élémentaliste 30",
+            "zone_en": "Eastern La Noscea",
+            "zone_fr": "Noscea orientale",
+            "location": "(28, 35)",
+            "mob_en": "Apkallu x3",
+            "mob_fr": "Apkallu x3"
+        },
+        "x30": {
+            "rank": "4",
+            "name_en": "Conjurer 31",
+            "name_fr": "Élémentaliste 31",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(13, 20)",
+            "mob_en": "Lindwurm x4",
+            "mob_fr": "Lindwurm x4"
+        },
+        "x31": {
+            "rank": "4",
+            "name_en": "Conjurer 32",
+            "name_fr": "Élémentaliste 32",
+            "zone_en": "South Shroud, Upper La Noscea, Eastern La Noscea, Southern Thanalan",
+            "zone_fr": "Forêt du sud, Haute-Noscea, Noscea orientale, Thanalan méridional",
+            "location": "(17, 31), (28, 21), (17, 26), (22, 33)",
+            "mob_en": "Bigmouth Orobon x4, Mamool Ja Infiltrator x2, Gigantoad x2, Sandworm x1",
+            "mob_fr": "Orobon grande gueule x4, Infiltrateur mamool ja x2, Crapaud géant x2, Ver des sables x1"
+        },
+        "x32": {
+            "rank": "4",
+            "name_en": "Conjurer 33",
+            "name_fr": "Élémentaliste 33",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(11, 20)",
+            "mob_en": "Revenant x4",
+            "mob_fr": "Revenant x4"
+        },
+        "x33": {
+            "rank": "4",
+            "name_en": "Conjurer 34",
+            "name_fr": "Élémentaliste 34",
+            "zone_en": "Eastern La Noscea",
+            "zone_fr": "Noscea orientale",
+            "location": "(32, 25)",
+            "mob_en": "Bloodshore Bell x4",
+            "mob_fr": "Cloche des Rives sanglantes x4"
+        },
+        "x34": {
+            "rank": "4",
+            "name_en": "Conjurer 35",
+            "name_fr": "Élémentaliste 35",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas central",
+            "location": "(26, 20)",
+            "mob_en": "Ornery Karakul x4",
+            "mob_fr": "karakul rageur x4"
+        },
+        "x35": {
+            "rank": "4",
+            "name_en": "Conjurer 36",
+            "name_fr": "Élémentaliste 36",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(25, 22)",
+            "mob_en": "Deepvoid Deathmouse x4",
+            "mob_fr": "Souris meurtrière du néant profond x4"
+        },
+        "x36": {
+            "rank": "4",
+            "name_en": "Conjurer 37",
+            "name_fr": "Élémentaliste 37",
+            "zone_en": "North Shroud",
+            "zone_fr": "Forêt du nord",
+            "location": "(23, 25)",
+            "mob_en": "Dryad x4",
+            "mob_fr": "Dryade x4"
+        },
+        "x37": {
+            "rank": "4",
+            "name_en": "Conjurer 38",
+            "name_fr": "Élémentaliste 38",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas central",
+            "location": "(25, 10)",
+            "mob_en": "Downy Aevis x4",
+            "mob_fr": "Eibis duveteux x4"
+        },
+        "x38": {
+            "rank": "4",
+            "name_en": "Conjurer 39",
+            "name_fr": "Élémentaliste 39",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(23, 24)",
+            "mob_en": "Will-o'-the-wisp x4",
+            "mob_fr": "Feu follet x4"
+        },
+        "x39": {
+            "rank": "4",
+            "name_en": "Conjurer 40",
+            "name_fr": "Élémentaliste 40",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas central",
+            "location": "(9, 14)",
+            "mob_en": "Dragonfly x4",
+            "mob_fr": "Draguêpe x4"
+        },
+        "x40": {
+            "rank": "5",
+            "name_en": "Conjurer 41",
+            "name_fr": "Élémentaliste 41",
+            "zone_en": "Eastern Thanalan",
+            "zone_fr": "Thanalan oriental",
+            "location": "(25, 24)",
+            "mob_en": "Golden Fleece x4",
+            "mob_fr": "Toison d'or x4"
+        },
+        "x41": {
+            "rank": "5",
+            "name_en": "Conjurer 42",
+            "name_fr": "Élémentaliste 42",
+            "zone_en": "Outer La Noscea, Coerthas Central Highlands, Western La Noscea",
+            "zone_fr": "Noscea extérieure, Hautes terres du Coerthas central",
+            "location": "(21, 15), (12, 18), (12, 35), (14, 35)",
+            "mob_en": "Grenade x4, Hippocerf x2, Lammergeyer x2, Dead Man's Moan x1",
+            "mob_fr": "Grenado x4, Hippocerf x2, Gypaète x2, Mort gémissant x1"
+        },
+        "x42": {
+            "rank": "5",
+            "name_en": "Conjurer 43",
+            "name_fr": "Élémentaliste 43",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(32, 20)",
+            "mob_en": "3rd Cohort Hoplomachus x2",
+            "mob_fr": "Hoplomacus de la 3e cohorte x2"
+        },
+        "x43": {
+            "rank": "5",
+            "name_en": "Conjurer 44",
+            "name_fr": "Élémentaliste 44",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(28, 22)",
+            "mob_en": "Lesser Kalong x4",
+            "mob_fr": "Kalong x4"
+        },
+        "x44": {
+            "rank": "5",
+            "name_en": "Conjurer 45",
+            "name_fr": "Élémentaliste 45",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas central",
+            "location": "(15, 30)",
+            "mob_en": "Snow Wolf x4",
+            "mob_fr": "Loup des neiges x4"
+        },
+        "x45": {
+            "rank": "5",
+            "name_en": "Conjurer 46",
+            "name_fr": "Élémentaliste 46",
+            "zone_en": "Mor Dhona",
+            "zone_fr": "Mor Dhona",
+            "location": "(12, 12)",
+            "mob_en": "5th Cohort Eques x4",
+            "mob_fr": "Eques de la 5e cohorte x4"
+        },
+        "x46": {
+            "rank": "5",
+            "name_en": "Conjurer 47",
+            "name_fr": "Élémentaliste 47",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidental",
+            "location": "(14, 17)",
+            "mob_en": "Sea Wasp x4",
+            "mob_fr": "Guêpe des mers x4"
+        },
+        "x47": {
+            "rank": "5",
+            "name_en": "Conjurer 48",
+            "name_fr": "Élémentaliste 48",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt des l'est",
+            "location": "(25, 13)",
+            "mob_en": "Sylph Bonnet x4",
+            "mob_fr": "Chapeau sylphe x4"
+        },
+        "x48": {
+            "rank": "5",
+            "name_en": "Conjurer 49",
+            "name_fr": "Élémentaliste 49",
+            "zone_en": "Northern Thanalan",
+            "zone_fr": "Thanalan septentrional",
+            "location": "(24, 20)",
+            "mob_en": "Ahriman x4",
+            "mob_fr": "Ahriman x4"
+        },
+        "x49": {
+            "rank": "5",
+            "name_en": "Conjurer 50",
+            "name_fr": "Élémentaliste 50",
+            "zone_en": "Eastern La Noscea",
+            "zone_fr": "Noscea orientale",
+            "location": "(30, 20)",
+            "mob_en": "2nd Cohort Vanguard x4",
+            "mob_fr": "Avant-garde de la 2e cohorte x4"
+        }
+    }
+}

@@ -1,0 +1,175 @@
+{
+    "key": "the-dravanian-hinterlands",
+    "groupName_en": "The Dravanian Hinterlands",
+    "groupName_fr": "Arrière-pays dravanien",
+    "tasks": {
+        "x67472": {
+            "level": 58,
+            "name_en": "Louder than Words",
+            "name_fr": "Avec nous ou contre nous",
+            "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.10",
+            "npc_en": "Tapklix",
+            "npc_fr": "Tapklix",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67191"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.hw.the-dravanian-hinterlands.10"
+            ]
+        },
+        "x67483": {
+            "level": 58,
+            "name_en": "A Bum Rap",
+            "name_fr": "Surtout pas les fesses!",
+            "npc_en": "Tapklix",
+            "npc_fr": "Tapklix",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67193"
+            ]
+        },
+        "x67469": {
+            "level": 58,
+            "name_en": "Feltsmox Needs Bait",
+            "name_fr": "Sortir de la crise avec des yeux",
+            "npc_en": "Feltsmox",
+            "npc_fr": "Feltsmox",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67191"
+            ],
+            "cNext": [
+                67470
+            ]
+        },
+        "x67470": {
+            "level": 58,
+            "name_en": "Feltsmox's Reel Problems",
+            "name_fr": "Sortir de la crise en tuant des nuisibles",
+            "npc_en": "Feltsmox",
+            "npc_fr": "Feltsmox",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67192",
+                67469
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.idyllshire.67479"
+            ]
+        },
+        "x67496": {
+            "level": 58,
+            "name_en": "Feltsmox Can't Bear It",
+            "name_fr": "Sortir de la crise avec de la viande",
+            "npc_en": "Feltsmox",
+            "npc_fr": "Feltsmox",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67194",
+                "duty.quests.sidequests.dravanian.idyllshire.67479"
+            ],
+            "cNext": [
+                67497
+            ]
+        },
+        "x67497": {
+            "level": 58,
+            "name_en": "Feltsmox Tackles the Morbols",
+            "name_fr": "Sortir de la crise en se reconvertissant",
+            "npc_en": "Salvaging Goblin",
+            "npc_fr": "récupérateur gobelin",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67194",
+                67496
+            ]
+        },
+        "x67494": {
+            "level": 58,
+            "name_en": "A Slimier Stymier",
+            "name_fr": "Prolifération gênante",
+            "npc_en": "Boomshox",
+            "npc_fr": "Boomshox",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67194",
+                "duty.quests.sidequests.dravanian.idyllshire.67493"
+            ],
+            "cNext": [
+                67495
+            ]
+        },
+        "x67495": {
+            "level": 58,
+            "name_en": "Mission Unpossible",
+            "name_fr": "La der des ders",
+            "npc_en": "Boomshox",
+            "npc_fr": "Boomshox",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67194",
+                67494
+            ]
+        },
+        "x67500": {
+            "level": 58,
+            "name_en": "What the Boat Brought In",
+            "name_fr": "Cinq sur huit",
+            "npc_en": "Midnight Dew",
+            "npc_fr": "Midnight Dew",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67194",
+                "duty.quests.sidequests.dravanian.idyllshire.67499"
+            ],
+            "cNext": [
+                67501
+            ]
+        },
+        "x67501": {
+            "level": 58,
+            "name_en": "Over My Dead Gobbie",
+            "name_fr": "Resserrer les liens",
+            "npc_en": "Midnight Dew",
+            "npc_fr": "Midnight Dew",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67194",
+                67500
+            ]
+        },
+        "x67473": {
+            "level": 58,
+            "name_en": "Uncoordinated Defense",
+            "name_fr": "Coordination difficile",
+            "npc_en": "Tapklix",
+            "npc_fr": "Tapklix",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67193",
+                "duty.quests.sidequests.dravanian.idyllshire.67471"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.idyllshire.67478"
+            ]
+        },
+        "x67480": {
+            "level": 58,
+            "name_en": "The Missing Logbook",
+            "name_fr": "Cher journal...",
+            "npc_en": "Dripwix",
+            "npc_fr": "Dripwix",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67193",
+                "duty.quests.sidequests.dravanian.idyllshire.67478"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.idyllshire.67484"
+            ]
+        },
+        "x67738": {
+            "level": 60,
+            "name_en": "An Overgrown Ambition",
+            "name_fr": "Le trésor inestimable de l'Arboretum",
+            "unlock": "duty.dutyraid-finder.dungeons.hw.8",
+            "npc_en": "Tetchy Treasure Hunter",
+            "npc_fr": "chasseuse de trésors",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67205"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68678"
+            ]
+        }
+    }
+}

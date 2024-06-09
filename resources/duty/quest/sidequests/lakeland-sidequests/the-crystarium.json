@@ -1,0 +1,233 @@
+{
+    "key": "the-crystarium",
+    "groupName_en": "The Crystarium",
+    "groupName_fr": "Cristarium",
+    "tasks": {
+        "x68879": {
+            "level": 70,
+            "name_en": "A Cry for Help",
+            "name_fr": "On recrute à la clinique",
+            "npc_en": "Billfort",
+            "npc_fr": "Billfort",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68817"
+            ]
+        },
+        "x68880": {
+            "level": 70,
+            "name_en": "Rate and Review",
+            "name_fr": "Sondage sur Cristarium",
+            "npc_en": "Pitrig",
+            "npc_fr": "Pitrig",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68817"
+            ]
+        },
+        "x68881": {
+            "level": 70,
+            "name_en": "Pour One Out",
+            "name_fr": "Quand l'alcool soulage",
+            "npc_en": "Darlfort",
+            "npc_fr": "Darlfort",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68817"
+            ]
+        },
+        "x68882": {
+            "level": 70,
+            "name_en": "A Dirty Trick",
+            "name_fr": "Les joies du travail de ferme",
+            "npc_en": "Szel Guanleu",
+            "npc_fr": "Szel Guanleu",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68817"
+            ]
+        },
+        "x68883": {
+            "level": 70,
+            "name_en": "From a Distance",
+            "name_fr": "Découvrir le monde extérieur",
+            "npc_en": "Anthibert",
+            "npc_fr": "Anthibert",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68817"
+            ]
+        },
+        "x68884": {
+            "level": 70,
+            "name_en": "A Fitting Challenge",
+            "name_fr": "Armurière cherche mannequin",
+            "npc_en": "Astute Artisan",
+            "npc_fr": "femme en tenue d'artisanat",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68817"
+            ]
+        },
+        "x68915": {
+            "level": 70,
+            "name_en": "Do You Believe in Magic",
+            "name_fr": "En souvenir de mon père",
+            "npc_en": "Distraught Damsel",
+            "npc_fr": "réfugiée de Holminster",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68837"
+            ]
+        },
+        "x68916": {
+            "level": 70,
+            "name_en": "A Jobb Well Done",
+            "name_fr": "Tout travail mérite casse-croûte!",
+            "unlock": "travel.aether-currents.shb.lakeland.13",
+            "npc_en": "Heggie",
+            "npc_fr": "Heggie",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68837"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.lakeland.lakeland.68918",
+                "duty.quests.sidequests.lakeland.lakeland.68917"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.lakeland.13"
+            ]
+        },
+        "x70251": {
+            "level": 80,
+            "name_en": "That's So Anden",
+            "name_fr": "L'enfeuillé doté de parole",
+            "npc_en": "Supplicant Sheep",
+            "npc_fr": "Supplicant Sheep",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.70000",
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67634"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.il-mheg.il-mheg.70252"
+            ]
+        },
+        "x69069": {
+            "level": 70,
+            "name_en": "Scars of War",
+            "name_fr": "Blessures de guerre",
+            "npc_en": "Mauwyl",
+            "npc_fr": "Mauwyl",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69158"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.lakeland.lakeland.69070"
+            ]
+        },
+        "x69100": {
+            "level": 70,
+            "name_en": "Simple Gifts",
+            "name_fr": "Tournée de remerciement",
+            "npc_en": "Irill",
+            "npc_fr": "Irill",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69182"
+            ]
+        },
+        "x69101": {
+            "level": 70,
+            "name_en": "His Own Medicine",
+            "name_fr": "Un sirop pour les écœurer tous",
+            "npc_en": "Bethden",
+            "npc_fr": "Bethden",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69182"
+            ]
+        },
+        "x69102": {
+            "level": 70,
+            "name_en": "Welcome to the Future",
+            "name_fr": "Accueillir une nouvelle vie",
+            "npc_en": "Flustered Father-to-be",
+            "npc_fr": "jeune Elfe",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69182"
+            ]
+        },
+        "x69103": {
+            "level": 70,
+            "name_en": "Made, Not Born",
+            "name_fr": "Encouragement des Ténèbres",
+            "npc_en": "Drill Instructor",
+            "npc_fr": "chef de groupe",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69182"
+            ]
+        },
+        "x69104": {
+            "level": 70,
+            "name_en": "The Poet Doesn't Know It",
+            "name_fr": "Des vers pour les cieux",
+            "npc_en": "Prospective Poet",
+            "npc_fr": "aspirant poète",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69182"
+            ]
+        },
+        "x69133": {
+            "level": 70,
+            "name_en": "Nuts to You",
+            "name_fr": "Ouverture de la chasse chez les Kupo",
+            "npc_en": "Hume Lout",
+            "npc_fr": "Hume robuste",
+            "cPrev": [
+                "duty.quests.sidequests.ishgardian.ishgard.67658",
+                "duty.quests.main-scenario.shadowbringers.68817"
+            ],
+            "cNext": [
+                69134
+            ]
+        },
+        "x69134": {
+            "level": 73,
+            "name_en": "Two Nuts Too Nutty",
+            "name_fr": "Un joujou des Eulmoriens?",
+            "npc_en": "Halldor",
+            "npc_fr": "Halldor",
+            "cPrev": [
+                69133
+            ],
+            "cNext": [
+                69135
+            ]
+        },
+        "x69135": {
+            "level": 76,
+            "name_en": "How Do You Like Three Nuts",
+            "name_fr": "La tête sur les épaules",
+            "npc_en": "Halldor",
+            "npc_fr": "Halldor",
+            "cPrev": [
+                69134
+            ],
+            "cNext": [
+                69136
+            ]
+        },
+        "x69136": {
+            "level": 80,
+            "name_en": "Too Many Nutters",
+            "name_fr": "Meneur à la place du meneur",
+            "npc_en": "Halldor",
+            "npc_fr": "Halldor",
+            "cPrev": [
+                69135
+            ]
+        },
+        "x69131": {
+            "level": 80,
+            "name_en": "By the Time You Hear This",
+            "name_fr": "Une descente aux enfers",
+            "unlock": "duty.dutyraid-finder.dungeons.shb.6",
+            "npc_en": "Bethana",
+            "npc_fr": "Bethana",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ]
+        }
+    }
+}

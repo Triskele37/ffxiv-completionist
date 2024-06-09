@@ -1,0 +1,152 @@
+{
+    "key": "central-thanalan",
+    "groupName_en": "Central Thanalan",
+    "groupName_fr": "Thanalan central",
+    "tasks": {
+        "x65857": {
+            "level": 6,
+            "name_en": "The Slaying of the Shrews",
+            "name_fr": "Les lombrics, c'est fantastique",
+            "npc_en": "Hihiyaja",
+            "npc_fr": "Hihiyaja",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.66086"
+            ],
+            "cNext": [
+                65858
+            ]
+        },
+        "x65840": {
+            "level": 7,
+            "name_en": "The Tasting of the Shrews",
+            "name_fr": "Le goût des musaraignes",
+            "npc_en": "Wowobaru",
+            "npc_fr": "Wowobaru",
+            "cPrev": [
+                65858
+            ]
+        },
+        "x65858": {
+            "level": 7,
+            "name_en": "Listen to Your Fish",
+            "name_fr": "L'orobon, mon péché mignon",
+            "npc_en": "Hihiyaja",
+            "npc_fr": "Hihiyaja",
+            "cPrev": [
+                65857
+            ],
+            "cNext": [
+                65840
+            ]
+        },
+        "x65924": {
+            "level": 8,
+            "name_en": "Bloodied and Bowed",
+            "name_fr": "Les risques du métier",
+            "npc_en": "Aethelgyth",
+            "npc_fr": "Aethelgyth",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.69388"
+            ]
+        },
+        "x65862": {
+            "level": 9,
+            "name_en": "Sometimes the Old Ways Are Best",
+            "name_fr": "La bonne vieille méthode",
+            "npc_en": "Zezeda",
+            "npc_fr": "Zezeda",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.65843"
+            ],
+            "cNext": [
+                65844
+            ]
+        },
+        "x65844": {
+            "level": 9,
+            "name_en": "In the Court of the Rat King",
+            "name_fr": "Trou à rats",
+            "npc_en": "Zezeda",
+            "npc_fr": "Zezeda",
+            "cPrev": [
+                65862
+            ]
+        },
+        "x66067": {
+            "level": 11,
+            "name_en": "Need Not Apply in Person",
+            "name_fr": "Candidat à l'enfer",
+            "npc_en": "Hamund",
+            "npc_fr": "Hamund",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.65866"
+            ]
+        },
+        "x66066": {
+            "level": 12,
+            "name_en": "Alternative Medicine",
+            "name_fr": "Des crapauds qui ont du cœur",
+            "npc_en": "Blayves",
+            "npc_fr": "Blayves",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.65866"
+            ]
+        },
+        "x66109": {
+            "level": 12,
+            "name_en": "Fringe Benefits",
+            "name_fr": "Contrer la contrebande",
+            "npc_en": "Amalberga",
+            "npc_fr": "Amalberga",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.65866"
+            ]
+        },
+        "x66174": {
+            "level": 19,
+            "name_en": "Forging the Spirit",
+            "name_fr": "Matérialisation spirituelle",
+            "npc_en": "Swynbroes",
+            "npc_fr": "Swynbroes",
+            "unlock_en": "Materia Assimilating",
+            "cNext": [
+                66175
+            ]
+        },
+        "x66175": {
+            "level": 19,
+            "name_en": "Waking the Spirit",
+            "name_fr": "Attachement spirituel",
+            "npc_en": "F'hobhas",
+            "npc_fr": "F'hobhas",
+            "unlock_en": "Materia Melding",
+            "cPrev": [
+                66174
+            ],
+            "cNext": [
+                66176
+            ]
+        },
+        "x66999": {
+            "level": 19,
+            "name_en": "Marvelously Mutable Materia",
+            "name_fr": "Transmatérialise-moi!",
+            "npc_en": "Kokosamu",
+            "npc_fr": "Kokosamu",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.65808"
+            ]
+        },
+        "x66176": {
+            "level": 25,
+            "name_en": "Melding Materia Muchly",
+            "name_fr": "Sertissage gobelin",
+            "npc_en": "Mutamix Bubblypots",
+            "npc_fr": "Mutamix Bubblypots",
+            "unlock_en": "Advanced Materia Melding",
+            "cPrev": [
+                66175
+            ]
+        }
+    }
+}

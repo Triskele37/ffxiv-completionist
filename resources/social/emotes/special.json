@@ -1,0 +1,887 @@
+{
+    "key": "special",
+    "groupName_en": "Special",
+    "groupName_fr": "Spéciales",
+    "tasks": {
+        "x101": {
+            "name_en": "Step Dance",
+            "name_fr": "Claquettes",
+            "category_en": "Quest",
+            "category_fr": "Quête",
+            "source": "duty.quests.sidequests.lominsan.limsa-lominsa.66962",
+            "patch": "2.2",
+            "command_en": "/stepdance, /sdance",
+            "command_fr": "/claquettes, /stepdance, /sdance",
+            "cSiblings": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66962"
+            ]
+        },
+        "x102": {
+            "name_en": "Harvest Dance",
+            "name_fr": "Danse des moissons",
+            "category_en": "Quest",
+            "category_fr": "Quête",
+            "source": "duty.quests.sidequests.gridanian.gridania.66961",
+            "patch": "2.2",
+            "command_en": "/harvestdance, /hdance",
+            "command_fr": "/dansemoissons, /dmoissons, /harvestdance, /hdance",
+            "cSiblings": [
+                "duty.quests.sidequests.gridanian.gridania.66961"
+            ]
+        },
+        "x103": {
+            "name_en": "Ball Dance",
+            "name_fr": "Danse de la cour",
+            "category_en": "Quest",
+            "category_fr": "Quête",
+            "source": "duty.quests.sidequests.uldahn.uldah.66963",
+            "patch": "2.2",
+            "command_en": "/balldance, /bdance",
+            "command_fr": "/dansecour, /dcour, /balldance, /bdance",
+            "cSiblings": [
+                "duty.quests.sidequests.uldahn.uldah.66963"
+            ]
+        },
+        "x104": {
+            "name_en": "Manderville Dance",
+            "name_fr": "Danse du gentilhomme",
+            "category_en": "Quest",
+            "category_fr": "Quête",
+            "source": "duty.quests.sidequests.hildibrand-sidequests.hildibrand.66852",
+            "patch": "2.2",
+            "command_en": "/mandervilledance, /mdance",
+            "command_fr": "/dansegentilhomme, /dghomme, /mandervilledance, /mdance",
+            "cSiblings": [
+                "duty.quests.sidequests.hildibrand-sidequests.hildibrand.66852"
+            ]
+        },
+        "x109": {
+            "name_en": "Bomb Dance",
+            "name_fr": "Danse du bombo",
+            "category_en": "Premium",
+            "category_fr": "Événement / Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Les Feux de la Mort (2014), Boutique en ligne Final Fantasy XIV",
+            "patch": "2.3",
+            "command_en": "/bombdance",
+            "command_fr": "/dansebombo, /dbombo, /bombdance",
+            "defaultCompletion": "X"
+        },
+        "x114": {
+            "name_en": "Most Gentlemanly",
+            "name_fr": "Pose du détective",
+            "category_en": "Quest",
+            "category_fr": "Quête",
+            "source": "duty.quests.sidequests.hildibrand-sidequests.hildibrand.66038",
+            "patch": "2.5",
+            "command_en": "/hildibrand, /hildy",
+            "command_fr": "/hildibrand, /hildy",
+            "cSiblings": [
+                "duty.quests.sidequests.hildibrand-sidequests.hildibrand.66038"
+            ]
+        },
+        "x118": {
+            "name_en": "Thavnairian Dance",
+            "name_fr": "Danse thavnairoise",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "80,000 MGP",
+            "source_fr": "Vendu par le Préposé aux lots au Gold Saucer pour 80.000 PGS",
+            "patch": "3.1",
+            "command_en": "/thavdance, /tdance",
+            "command_fr": "/dansethavnairoise, /dthavn, /thavdance, /tdance"
+        },
+        "x119": {
+            "name_en": "Gold Dance",
+            "name_fr": "Danse de l'or",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "80,000 MGP",
+            "source_fr": "Vendu par le Préposé aux lots au Gold Saucer pour 80.000 PGS",
+            "patch": "3.1",
+            "command_en": "/golddance, /gdance",
+            "command_fr": "/dansedelor, /ddelor, /golddance, /gdance"
+        },
+        "x120": {
+            "name_en": "Sundrop Dance",
+            "name_fr": "Danse du soleil",
+            "category_en": "Quest",
+            "category_fr": "Quête",
+            "source": "duty.quests.tribal-quests.vanu.67705",
+            "patch": "3.1",
+            "command_en": "/sundropdance, /sundance",
+            "command_fr": "/dansedusoleil, /dsoleil, /sundance",
+            "cSiblings": [
+                "duty.quests.tribal-quests.vanu.67705"
+            ]
+        },
+        "x145": {
+            "name_en": "Moonlift Dance",
+            "name_fr": "Danse du soleil et de la lune",
+            "category_en": "Quest",
+            "category_fr": "Quête",
+            "source": "duty.quests.tribal-quests.tribal-alliance-quests.heavensward-tribal-quests.67921",
+            "patch": "3.5",
+            "command_en": "/moonlift",
+            "command_fr": "/dansesoleiletlune, /dsoleillune, /moonlift",
+            "cSiblings": [
+                "duty.quests.tribal-quests.tribal-alliance-quests.heavensward-tribal-quests.67921"
+            ]
+        },
+        "x126": {
+            "name_en": "Moogle Dance",
+            "name_fr": "Danse mog",
+            "category_en": "Quest",
+            "category_fr": "Quête",
+            "source": "duty.quests.tribal-quests.moogle.67862",
+            "patch": "3.3",
+            "command_en": "/mogdance",
+            "command_fr": "/dansemog, /dmog, /mogdance",
+            "cSiblings": [
+                "duty.quests.tribal-quests.moogle.67862"
+            ]
+        },
+        "x130": {
+            "name_en": "Red Ranger Pose A",
+            "name_fr": "Bomboforce rouge",
+            "category_en": "Premium",
+            "category_fr": "Événement / Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Les Feux de la Mort (2016), Boutique en ligne Final Fantasy XIV",
+            "patch": "3.35",
+            "command_en": "/redrangerposea, /rrpa, /rangerpose1r, /rpose1r",
+            "command_fr": "/bomboforcerouge, /bbfrouge, /rangerpose1r, /rpose1r",
+            "defaultCompletion": "X",
+            "cSiblings": [
+                134
+            ]
+        },
+        "x134": {
+            "name_en": "Red Ranger Pose B",
+            "name_fr": "Bomboforce rouge inversé",
+            "category_en": "Premium",
+            "category_fr": "Événement / Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Les Feux de la Mort (2016), Boutique en ligne Final Fantasy XIV",
+            "patch": "3.35",
+            "command_en": "/redrangerposeb, /rrpb, /rangerpose1l, /rpose1l",
+            "command_fr": "/bomboforcerougeinversé, /bbfrougeinv, /rangerpose1l, /rpose1l",
+            "defaultCompletion": "X",
+            "cSiblings": [
+                130
+            ]
+        },
+        "x131": {
+            "name_en": "Black Ranger Pose A",
+            "name_fr": "Bomboforce noire",
+            "category_en": "Premium",
+            "category_fr": "Événement / Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Les Feux de la Mort (2016), Boutique en ligne Final Fantasy XIV",
+            "patch": "3.35",
+            "command_en": "/blackrangerposea, /brpa, /rangerpose2r, /rpose2r",
+            "command_fr": "/bomboforcenoire, /bbfnoire, /rangerpose2r, /rpose2r",
+            "defaultCompletion": "X",
+            "cSiblings": [
+                135
+            ]
+        },
+        "x135": {
+            "name_en": "Black Ranger Pose B",
+            "name_fr": "Bomboforce noire inversé",
+            "category_en": "Premium",
+            "category_fr": "Événement / Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Les Feux de la Mort (2016), Boutique en ligne Final Fantasy XIV",
+            "patch": "3.35",
+            "command_en": "/blackrangerposeb, /brpb, /rangerpose2l, /rpose2l",
+            "command_fr": "/bomboforcenoireinversé, /bbfnoireinv, /rangerpose2l, /rpose2l",
+            "defaultCompletion": "X",
+            "cSiblings": [
+                131
+            ]
+        },
+        "x132": {
+            "name_en": "Yellow Ranger Pose A",
+            "name_fr": "Bomboforce jaune",
+            "category_en": "Premium",
+            "category_fr": "Événement / Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Les Feux de la Mort (2016), Boutique en ligne Final Fantasy XIV",
+            "patch": "3.35",
+            "command_en": "/yellowrangerposea, /yrpa, /rangerpose3r, /rpose3r",
+            "command_fr": "/bomboforcejaune, /bbfjaune, /rangerpose3r, /rpose3r",
+            "defaultCompletion": "X",
+            "cSiblings": [
+                136
+            ]
+        },
+        "x136": {
+            "name_en": "Yellow Ranger Pose B",
+            "name_fr": "Bomboforce jaune inversé",
+            "category_en": "Premium",
+            "category_fr": "Événement / Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Les Feux de la Mort (2016), Boutique en ligne Final Fantasy XIV",
+            "patch": "3.35",
+            "command_en": "/yellowrangerposeb, /yrpb, /rangerpose3l, /rpose3l",
+            "command_fr": "/bomboforcejauneinversé, /bbfjauneinv, /rangerpose3l, /rpose3l",
+            "defaultCompletion": "X",
+            "cSiblings": [
+                132
+            ]
+        },
+        "x129": {
+            "name_en": "Eastern Dance",
+            "name_fr": "Danse orientale",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "4.0",
+            "command_en": "/easterndance, /edance",
+            "command_fr": "/danseorientale, /dorientale, /easterndance, /edance",
+            "defaultCompletion": "X"
+        },
+        "x149": {
+            "name_en": "Songbird",
+            "name_fr": "Danse des Églantines",
+            "category_en": "Premium",
+            "category_fr": "Événement / Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "La fête des demoiselles (2017), Boutique en ligne Final Fantasy XIV",
+            "patch": "3.5",
+            "command_en": "/songbird",
+            "command_fr": "/dansedeséglantines, /déglantines, /songbird",
+            "defaultCompletion": "X"
+        },
+        "x167": {
+            "name_en": "Ritual Prayer",
+            "name_fr": "Prière rituelle",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "Shikitahe - Tamamizu - 3 Kojin Sango",
+            "source_fr": "Échangeable avec Shikitahe à Tamamizu",
+            "patch": "4.1",
+            "command_en": "/ritualprayer",
+            "command_fr": "/prièrerituelle, /prituelle, /ritualprayer"
+        },
+        "x64": {
+            "name_en": "Charmed",
+            "name_fr": "Tomber sous le charme",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "Madhura - Castellum Velodyna - 5 Ananta Dreamstaffs",
+            "source_fr": "Échangeable avec Madhura à Castellum Velodyna",
+            "patch": "4.2",
+            "command_en": "/charmed",
+            "command_fr": "/tombersouslecharme, /charmed"
+        },
+        "x65": {
+            "name_en": "Cheer On",
+            "name_fr": "Encourager (bleu)",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "La fête des demoiselles (2018)",
+            "patch": "4.2",
+            "command_en": "/cheeron",
+            "command_fr": "/encouragerbleu, /cheeron",
+            "defaultCompletion": "X"
+        },
+        "x66": {
+            "name_en": "Cheer Wave",
+            "name_fr": "Encourager (jaune)",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "La fête des demoiselles (2018)",
+            "patch": "4.2",
+            "command_en": "/cheerwave, /hiphophurray",
+            "command_fr": "/encouragerjaune, /cheerwave",
+            "defaultCompletion": "X"
+        },
+        "x67": {
+            "name_en": "Cheer Jump",
+            "name_fr": "Encourager (rouge)",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "La fête des demoiselles (2018)",
+            "patch": "4.2",
+            "command_en": "/cheerjump, /jumparound",
+            "command_fr": "/encouragerrouge, /cheerjump",
+            "defaultCompletion": "X"
+        },
+        "x266": {
+            "name_en": "Cheer Jump: Green",
+            "name_fr": "Encourager (vert)",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "6.4",
+            "command_en": "/cheerjumpgreen, /cheergreen",
+            "command_fr": "/encouragervert, /cheergreen, /cheerjumpgreen"
+        },
+        "x265": {
+            "name_en": "Cheer Wave: Violet",
+            "name_fr": "Encourager (violet)",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "6.4",
+            "command_en": "/cheerwaveviolet, /cheerviolet",
+            "command_fr": "/encouragerviolet, /cheerviolet, /cheerwaveviolet"
+        },
+        "x264": {
+            "name_en": "Cheer On: Bright",
+            "name_fr": "Encourager (blanc)",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "6.4",
+            "command_en": "/cheeronbright, /cheerbright",
+            "command_fr": "/encouragerblanc, /cheerbright, /cheeronbright"
+        },
+        "x176": {
+            "name_en": "Yol Dance",
+            "name_fr": "Danse des yols",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "Gyosho - Dhoro Iloh - 8 Namazu Koban",
+            "source_fr": "Échangeable avec Gyosho à Dhoro Iloh",
+            "patch": "4.3",
+            "command_en": "/yoldance",
+            "command_fr": "/dansedesyols, /yoldance"
+        },
+        "x173": {
+            "name_en": "Box Step",
+            "name_fr": "Pas de base",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "4.4",
+            "command_en": "/2legit, /boxstep",
+            "command_fr": "/pasdebase, /boxstep",
+            "defaultCompletion": "X"
+        },
+        "x174": {
+            "name_en": "Side Step",
+            "name_fr": "Pas de côté",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "4.4",
+            "command_en": "/sidestep",
+            "command_fr": "/pasdecôté, /sidestep",
+            "defaultCompletion": "X"
+        },
+        "x185": {
+            "name_en": "Get Fantasy",
+            "name_fr": "Fantaisie urbaine",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "4.45",
+            "command_en": "/getfantasy",
+            "command_fr": "/fantaisieurbaine, /getfantasy",
+            "defaultCompletion": "X"
+        },
+        "x186": {
+            "name_en": "Popoto Step",
+            "name_fr": "Popping popoto",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "4.45",
+            "command_en": "/popotostep",
+            "command_fr": "/poppingpopoto, /popotostep",
+            "defaultCompletion": "X"
+        },
+        "x192": {
+            "name_en": "Heel Toe",
+            "name_fr": "Danse sautillante",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "5.2",
+            "command_en": "/heeltoe",
+            "command_fr": "/dansesautillante, /heeltoe",
+            "defaultCompletion": "X"
+        },
+        "x193": {
+            "name_en": "Goobbue Do",
+            "name_fr": "Danse festive du goobbue",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "5.2",
+            "command_en": "/mysterymachine, /goobbuedo",
+            "command_fr": "/dansegoobbue, /goobbuedo",
+            "defaultCompletion": "X"
+        },
+        "x187": {
+            "name_en": "Hum",
+            "name_fr": "Fredonner",
+            "category_en": "Quest",
+            "category_fr": "Quête",
+            "source": "duty.quests.chronicles-of-a-new-era.the-four-lords.68688",
+            "patch": "4.4",
+            "command_en": "/hum",
+            "command_fr": "/fredonner, /hum",
+            "cSiblings": [
+                "duty.quests.chronicles-of-a-new-era.the-four-lords.68688"
+            ]
+        },
+        "x198": {
+            "name_en": "Manderville Mambo",
+            "name_fr": "Mambo du gentilhomme",
+            "category_en": "Quest",
+            "category_fr": "Quête",
+            "source": "duty.quests.sidequests.hildibrand-sidequests.even-further-hildibrand-adventures.68704",
+            "patch": "4.5",
+            "command_en": "/mandervillemambo, /mmambo",
+            "command_fr": "/mambogentilhomme, /mandervillemambo, /mmambo"
+        },
+        "x210": {
+            "name_en": "Wasshoi",
+            "name_fr": "Oh hisse !",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "5.4",
+            "command_en": "/wasshoi",
+            "command_fr": "/ohhisse, /wasshoi",
+            "defaultCompletion": "X"
+        },
+        "x212": {
+            "name_en": "Flame Dance",
+            "name_fr": "Danse des flammes",
+            "category_en": "Event",
+            "category_fr": "Événement",
+            "source_en": "Moonfire Faire (2020)",
+            "source_fr": "Les Feux de la Mort (2020)",
+            "patch": "5.3",
+            "command_en": "/flamedance",
+            "command_fr": "/dansedesflammes, /flamedance",
+            "defaultCompletion": "X"
+        },
+        "x216": {
+            "name_en": "Bee's Knees",
+            "name_fr": "Danse des abeilles",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "80,000 MGP",
+            "source_fr": "80.000 PGS",
+            "patch": "5.3",
+            "command_en": "/beesknees",
+            "command_fr": "/dansedesabeilles, /beesknees"
+        },
+        "x217": {
+            "name_en": "Lali Hop",
+            "name_fr": "Lali-hop",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "8 Hammered Frogments",
+            "source_fr": "8 Médailles naines",
+            "patch": "5.3",
+            "command_en": "/lalihop",
+            "command_fr": "/lali-hop, /lalihop"
+        },
+        "x269": {
+            "name_en": "Lop Hop",
+            "name_fr": "Danse des Loporrites",
+            "category_en": "Quest",
+            "category_fr": "Quête",
+            "source": "duty.quests.tribal-quests.tribal-alliance-quests.stormblood-tribal-quests.70324",
+            "patch": "6.55",
+            "command_en": "/lophop",
+            "command_fr": "/dansedesloporrites, /danslopo, /lophop"
+        },
+        "x274": {
+            "name_en": "Love Heart",
+            "name_fr": "Pose en cœur",
+            "category_en": "Event",
+            "category_fr": "Événement",
+            "source_en": "Valentione's Day (2024)",
+            "source_fr": "Valention (2024)",
+            "patch": "6.5",
+            "command_en": "/loveheart, /heart",
+            "command_fr": "/loveheart, /heart, /poseencoeur, /coeur"
+        },
+        "x155": {
+            "name_en": "Squats",
+            "name_fr": "Flexions de jambes",
+            "category_en": "Achievement",
+            "category_fr": "Haut-fait",
+            "source": "character.achievement.grand-company.grand-company.1966",
+            "patch": "4.1",
+            "command_en": "/squats",
+            "command_fr": "/flexionsjambes, /squats"
+        },
+        "x156": {
+            "name_en": "Push-ups",
+            "name_fr": "Pompes",
+            "category_en": "Achievement",
+            "category_fr": "Haut-fait",
+            "source": "character.achievement.grand-company.grand-company.1966",
+            "patch": "4.1",
+            "command_en": "/pushups",
+            "command_fr": "/pompes, /pushups"
+        },
+        "x157": {
+            "name_en": "Sit-ups",
+            "name_fr": "Abdos",
+            "category_en": "Achievement",
+            "category_fr": "Haut-fait",
+            "source": "character.achievement.grand-company.grand-company.1966",
+            "patch": "4.1",
+            "command_en": "/situps",
+            "command_fr": "/abdos, /situps"
+        },
+        "x158": {
+            "name_en": "Breath Control",
+            "name_fr": "Respiration profonde",
+            "category_en": "Achievement",
+            "category_fr": "Haut-fait",
+            "source": "character.achievement.grand-company.grand-company.1966",
+            "patch": "4.1",
+            "command_en": "/breathcontrol",
+            "command_fr": "/respirationprofonde, /respiprof, /breathcontrol"
+        },
+        "x164": {
+            "name_en": "Attention",
+            "name_fr": "Garde-à-vous",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "40,000 Company Seals",
+            "source_fr": "Échangeable à un officier de la logistique des Grandes compagnies",
+            "patch": "4.1",
+            "command_en": "/attention",
+            "command_fr": "/gardeàvous, /gàv, /attention"
+        },
+        "x165": {
+            "name_en": "At Ease",
+            "name_fr": "Repos",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "40,000 Company Seals",
+            "source_fr": "Échangeable à un officier de la logistique des Grandes compagnies",
+            "patch": "4.1",
+            "command_en": "/atease",
+            "command_fr": "/repos, /atease"
+        },
+        "x166": {
+            "name_en": "Box",
+            "name_fr": "Boxe",
+            "category_en": "Quest",
+            "category_fr": "Quête",
+            "source": "duty.quests.main-scenario.post-stormblood.68498",
+            "patch": "4.1",
+            "command_en": "/box",
+            "command_fr": "/boxe, /box",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-stormblood.68498"
+            ]
+        },
+        "x180": {
+            "name_en": "Sweat",
+            "name_fr": "Transpirer",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "Confederate Custodian - Crick - 10 Empyrean Potsherds",
+            "source_fr": "Échangeable avec la Fournisseuse de la Confédération en Mer de Rubis",
+            "patch": "4.35",
+            "command_en": "/tillyoubleed, /sweat",
+            "command_fr": "/transpirer, /sweat"
+        },
+        "x181": {
+            "name_en": "Shiver",
+            "name_fr": "Grelotter",
+            "category_en": "Exploratory Mission",
+            "category_fr": "Mission d'exploration",
+            "source_en": "Cold-warped Lockbox",
+            "source_fr": "\"La terre interdite\"",
+            "patch": "4.36",
+            "command_en": "/shiver",
+            "command_fr": "/grelotter, /shiver"
+        },
+        "x169": {
+            "name_en": "Tremble",
+            "name_fr": "Trembler de peur",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "Eschina - Rhalgr's Reach - 6 Mythic Clan Mark Logs",
+            "source_fr": "Échangeable avec Eschidna à L'Étendue de Rhalgr",
+            "patch": "4.2",
+            "command_en": "/tremble",
+            "command_fr": "/tremblerdepeur, /tremble"
+        },
+        "x170": {
+            "name_en": "Winded",
+            "name_fr": "Genou à terre",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "Eschina - Rhalgr's Reach - 6 Mythic Clan Mark Logs",
+            "source_fr": "Échangeable avec Eschidna à L'Étendue de Rhalgr",
+            "patch": "4.2",
+            "command_en": "/winded",
+            "command_fr": "/genouàterre, /winded"
+        },
+        "x188": {
+            "name_en": "Confirm",
+            "name_fr": "Confirmer",
+            "category_en": "Treasure Hunt",
+            "category_fr": "Chasse aux trésors",
+            "source_en": [
+                "The Lost Canals Of Uznair",
+                "The Hidden Canals Of Uznair",
+                "The Shifting Altars Of Uznair"
+            ],
+            "source_fr": "Les canaux perdus d'Uznair",
+            "patch": "4.4",
+            "command_en": "/confirm",
+            "command_fr": "/confirmer, /confirm"
+        },
+        "x189": {
+            "name_en": "Scheme",
+            "name_fr": "Expliquer son plan",
+            "category_en": "Exploratory Mission",
+            "category_fr": "Mission d'exploration",
+            "source_en": "Heat-warped Lockbox",
+            "source_fr": "\"La terre interdite\"",
+            "patch": "4.45",
+            "command_en": "/scheme",
+            "command_fr": "/expliquerplan, /scheme"
+        },
+        "x196": {
+            "name_en": "Reprimand",
+            "name_fr": "Réprimander",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "15,000 Wolf Marks",
+            "source_fr": "15.000 Marques de loup",
+            "patch": "4.45",
+            "command_en": "/youknowyourname, /reprimand",
+            "command_fr": "/réprimander, /reprimand"
+        },
+        "x273": {
+            "name_en": "Slump",
+            "name_fr": "Être Accablé",
+            "category_en": "Other",
+            "category_fr": "Autre",
+            "source_en": "Series Reward",
+            "source_fr": "Récompense de série",
+            "patch": "6.5",
+            "command_en": "/slump",
+            "command_fr": "/êtreaccablé, /accablé, /slump"
+        },
+        "x143": {
+            "name_en": "Play Dead",
+            "name_fr": "Feindre la mort",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "3.5",
+            "command_en": "/playdead, /pdead",
+            "command_fr": "/feindrelamort, /feinmort, /playdead, /pdead",
+            "defaultCompletion": "X"
+        },
+        "x203": {
+            "name_en": "Lean",
+            "name_fr": "Posture inclinée",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "1,800 Skybuilders' Scrips",
+            "source_fr": "Vendu par Enie à Azurée pour 1.800 assignats d'Azurée",
+            "patch": "5.11",
+            "command_en": "/lean",
+            "command_fr": "/sepencher, /lean"
+        },
+        "x214": {
+            "name_en": "Guard",
+            "name_fr": "Monter la garde",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "50 Bozjan Clusters",
+            "source_fr": "50 Cristaux bozjiens",
+            "patch": "5.35",
+            "command_en": "/guard",
+            "command_fr": "/monterlagarde, /guard"
+        },
+        "x215": {
+            "name_en": "Malevolence",
+            "name_fr": "Pose de l'occultiste",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "50 Bozjan Clusters",
+            "source_fr": "50 Cristaux bozjiens",
+            "patch": "5.45",
+            "command_en": "/malevolence",
+            "command_fr": "/occultiste, /malevolence"
+        },
+        "x222": {
+            "name_en": "Wring Hands",
+            "name_fr": "Se frotter les mains",
+            "category_en": "Exploratory Mission",
+            "category_fr": "Mission d'exploration",
+            "source_en": "Zadnor Lockbox",
+            "source_fr": "Coffre verrouillé des Hauts plateaux de Zadnor",
+            "patch": "5.55",
+            "command_en": "/wringhands",
+            "command_fr": "/sefrotterlesmains, /frottmains, /wringhands"
+        },
+        "x223": {
+            "name_en": "Sweep Up",
+            "name_fr": "Balayer",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "1,800 Skybuilders' Scrips",
+            "source_fr": "1,800 Assignats d'Azurée",
+            "patch": "5.41",
+            "command_en": "/sweep, /broom",
+            "command_fr": "/balayer, /balai, /sweep, /broom"
+        },
+        "x241": {
+            "name_en": "Show Right",
+            "name_fr": "Montrer fièrement la gauche",
+            "category_en": "Event",
+            "category_fr": "Événement",
+            "source_en": "The Make It Rain Campaign (2022)",
+            "source_fr": "Le festival du Gold Saucer (2022)",
+            "patch": "6.1",
+            "command_en": "/showright",
+            "command_fr": "/showleft, /montrergauche",
+            "defaultCompletion": "X",
+            "cSiblings": [
+                242
+            ]
+        },
+        "x242": {
+            "name_en": "Show Left",
+            "name_fr": "Montrer fièrement la droite",
+            "category_en": "Event",
+            "category_fr": "Événement",
+            "source_en": "The Make It Rain Campaign (2022)",
+            "source_fr": "Le festival du Gold Saucer (2022)",
+            "patch": "6.1",
+            "command_en": "/showleft",
+            "command_fr": "/showright, /montrerdroite/showleft, /montrergauche",
+            "defaultCompletion": "X",
+            "cSiblings": [
+                241
+            ]
+        },
+        "x248": {
+            "name_en": "Spirit",
+            "name_fr": "Apprécier le spectacle",
+            "category_en": "Other",
+            "category_fr": "Autre",
+            "source_en": "Series Reward",
+            "source_fr": "Récompense de série",
+            "patch": "6.2",
+            "command_en": "/spirit",
+            "command_fr": "/spirit, /apprécierlespectacle"
+        },
+        "x138": {
+            "name_en": "Zantetsuken",
+            "name_fr": "Zantetsuken",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Item code included with Meister Quality Figure Odin",
+            "source_fr": "Bonus de commande de la figurine \"Meister Quality Odin\"",
+            "patch": "3.4",
+            "command_en": "/zantetsuken, /ztk",
+            "command_fr": "/zantetsuken, /ztk",
+            "defaultCompletion": "X"
+        },
+        "x144": {
+            "name_en": "Diamond Dust",
+            "name_fr": "Illusions glacées",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Item code included with Meister Quality Figure Shiva",
+            "source_fr": "Bonus d'achat de la Statue \"Meister Quality Shiva\"",
+            "patch": "4.05",
+            "command_en": "/iceheart",
+            "command_fr": "/illusionsglacées, /shiva, /iceheart",
+            "defaultCompletion": "X"
+        },
+        "x62": {
+            "name_en": "Megaflare",
+            "name_fr": "MégaBrasier",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "4.25",
+            "command_en": "/megaflare",
+            "command_fr": "/mégabrasier, /megaflare",
+            "defaultCompletion": "X"
+        },
+        "x175": {
+            "name_en": "Ultima",
+            "name_fr": "Ultima",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Item code included with Meister Quality Figure Ultima, the High Seraph",
+            "source_fr": "Bonus de commande de la figurine \"Meister Quality Ultima\"",
+            "patch": "4.45",
+            "command_en": "/ultima",
+            "command_fr": "/ultima",
+            "defaultCompletion": "X"
+        },
+        "x200": {
+            "name_en": "Simulation M",
+            "name_fr": "Simulation M",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Item code included with Meister Quality Figure Omega",
+            "source_fr": "Objet inclus avec la Meister Quality Figure Omega",
+            "patch": "5.4",
+            "command_en": "/simulationm",
+            "command_fr": "/simulationm",
+            "defaultCompletion": "X",
+            "cSiblings": [
+                201
+            ]
+        },
+        "x201": {
+            "name_en": "Simulation F",
+            "name_fr": "Simulation F",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Item code included with Meister Quality Figure Omega",
+            "source_fr": "Objet inclus avec la Meister Quality Figure Omega",
+            "patch": "5.4",
+            "command_en": "/simulationf",
+            "command_fr": "/simulationf",
+            "defaultCompletion": "X",
+            "cSiblings": [
+                200
+            ]
+        },
+        "x272": {
+            "name_en": "Sundering",
+            "name_fr": "Exode",
+            "category_en": "Premium",
+            "category_fr": "Premium",
+            "source_en": "Item code included with Meister Quality Figure Hydaelyn & Zodiark",
+            "source_fr": "Objet inclus avec la Meister Quality Figure Hydaelyn & Zodiark",
+            "patch": "6.5",
+            "command_en": "/sundering, /exodus",
+            "command_fr": "/exode, /sundering, /exodus"
+        }
+    }
+}

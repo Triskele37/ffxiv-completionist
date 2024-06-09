@@ -1,0 +1,360 @@
+{
+    "key": "armorer",
+    "groupName_en": "Armorer",
+    "groupName_fr": "Armurier",
+    "tasks": {
+        "x149": {
+            "name_en": "Pounding Out the Dents: Amateur",
+            "name_fr": "Entre le marteau et l'enclume : Amateur",
+            "description_en": "Successfully synthesize 50 times for level 1-10 armorcraft recipes.",
+            "description_fr": "Réaliser 50 synthèses d'armurerie de niveau 1 à 10.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                154
+            ]
+        },
+        "x150": {
+            "name_en": "Pounding Out the Dents: Initiate",
+            "name_fr": "Entre le marteau et l'enclume : Recrue",
+            "description_en": "Successfully synthesize 300 times for level 11-20 armorcraft recipes.",
+            "description_fr": "Réaliser 300 synthèses d'armurerie de niveau 11 à 20.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                154
+            ]
+        },
+        "x151": {
+            "name_en": "Pounding Out the Dents: Apprentice",
+            "name_fr": "Entre le marteau et l'enclume : Initié",
+            "description_en": "Successfully synthesize 750 times for level 21-30 armorcraft recipes.",
+            "description_fr": "Réaliser 750 synthèses d'armurerie de niveau 21 à 30.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                154
+            ]
+        },
+        "x152": {
+            "name_en": "Pounding Out the Dents: Journeyman",
+            "name_fr": "Entre le marteau et l'enclume : Novice",
+            "description_en": "Successfully synthesize 1,500 times for level 31-40 armorcraft recipes.",
+            "description_fr": "Réaliser 1 500 synthèses d'armurerie de niveau 31 à 40.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                154
+            ]
+        },
+        "x153": {
+            "name_en": "Pounding Out the Dents: Artisan",
+            "name_fr": "Entre le marteau et l'enclume : Qualifié",
+            "description_en": "Successfully synthesize 3,000 times for level 41-50 armorcraft recipes.",
+            "description_fr": "Réaliser 3 000 synthèses d'armurerie de niveau 41 à 50.",
+            "reward": "character.character.title.19",
+            "patch": "2.0",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.19"
+            ],
+            "cCombo": [
+                154
+            ]
+        },
+        "x154": {
+            "name_en": "An Armorer's Life for Me",
+            "name_fr": "Amoureux des armures",
+            "description_en": "Obtain the first five “Pounding Out the Dents” achievements.",
+            "description_fr": "Accomplir les cinq hauts faits de la série “Entre le marteau et l'enclume”.",
+            "reward_en": "Mallet of the Luminary",
+            "reward_fr": "Massette de virtuose",
+            "patch": "2.0",
+            "points": 30,
+            "cPrev": [
+                149,
+                150,
+                151,
+                152,
+                153
+            ]
+        },
+        "x1303": {
+            "name_en": "Pounding Out the Dents: Adept",
+            "name_fr": "Entre le marteau et l'enclume : Expert",
+            "description_en": "Successfully synthesize 1,000 times for level 51-60 armorcraft recipes.",
+            "description_fr": "Réaliser 1 000 synthèses d'armurerie de niveau 51 à 60.",
+            "patch": "3.0",
+            "points": 10
+        },
+        "x1850": {
+            "name_en": "Pounding Out the Dents: Veteran",
+            "name_fr": "Entre le marteau et l'enclume : Maître",
+            "description_en": "Successfully synthesize 1,000 times for level 61-70 armorcraft recipes.",
+            "description_fr": "Réaliser 1 000 synthèses d'armurerie de niveau 61 à 70.",
+            "patch": "4.0",
+            "points": 10
+        },
+        "x2282": {
+            "name_en": "Pounding Out the Dents: Master",
+            "name_fr": "Entre le marteau et l'enclume : Génie",
+            "description_en": "Successfully synthesize 1,000 times for level 71-80 armorcraft recipes.",
+            "description_fr": "Réaliser 1 000 synthèses d'armurerie de niveau 71 à 80.",
+            "patch": "5.0",
+            "points": 10
+        },
+        "x2930": {
+            "name_en": "Pounding Out the Dents: Genius",
+            "name_fr": "Entre le marteau et l'enclume : Prodige",
+            "description_en": "Successfully synthesize 1,000 times for level 81-90 armorcraft recipes.",
+            "description_fr": "Réaliser 1 000 synthèses d'armurerie de niveau 81 à 90.",
+            "patch": "6.0",
+            "points": 10
+        },
+        "x701": {
+            "name_en": "I Made That: Armorer I",
+            "name_fr": "Carnet de notes : armurier I",
+            "description_en": "Craft and record completion of 30 unique armorer recipes.",
+            "description_fr": "Faire 30 synthèses d'armurier différentes et les avoir notées dans le carnet d'artisanat.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                702
+            ]
+        },
+        "x702": {
+            "name_en": "I Made That: Armorer II",
+            "name_fr": "Carnet de notes : armurier II",
+            "description_en": "Craft and record completion of 70 unique armorer recipes.",
+            "description_fr": "Faire 70 synthèses d'armurier différentes et les avoir notées dans le carnet d'artisanat.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                701
+            ],
+            "cNext": [
+                703
+            ]
+        },
+        "x703": {
+            "name_en": "I Made That: Armorer III",
+            "name_fr": "Carnet de notes : armurier III",
+            "description_en": "Craft and record completion of 160 unique armorer recipes.",
+            "description_fr": "Faire 160 synthèses d'armurier différentes et les avoir notées dans le carnet d'artisanat.",
+            "reward_en": "Master Armorer's Ring",
+            "reward_fr": "Anneau de maître armurier",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                702
+            ],
+            "cNext": [
+                1280
+            ]
+        },
+        "x1280": {
+            "name_en": "I Made That: Armorer IV",
+            "name_fr": "Carnet de notes : armurier IV",
+            "description_en": "Craft and record completion of 210 unique armorer recipes.",
+            "description_fr": "Faire 210 synthèses d'armurier différentes et les avoir notées dans le carnet d'artisanat.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                703
+            ],
+            "cNext": [
+                1723
+            ]
+        },
+        "x1723": {
+            "name_en": "I Made That: Armorer V",
+            "name_fr": "Carnet de notes : armurier V",
+            "description_en": "Craft and record completion of 280 unique armorer recipes.",
+            "description_fr": "Faire 280 synthèses d'armurier différentes et les avoir notées dans le carnet d'artisanat.",
+            "reward_en": "Blessed Hammerkeep's Beetle",
+            "reward_fr": "Marteau de haubergier béni",
+            "patch": "3.5",
+            "points": 10,
+            "cPrev": [
+                1280
+            ],
+            "cNext": [
+                2168
+            ]
+        },
+        "x2168": {
+            "name_en": "I Made That: Armorer VI",
+            "name_fr": "Carnet de notes : armurier VI",
+            "description_en": "Craft and record completion of 340 unique armorer recipes.",
+            "description_fr": "Faire 340 synthèses d'armurier différentes et les avoir notées dans le carnet d'artisanat.",
+            "reward_en": "Blessed Hammerking's Beetle",
+            "reward_fr": "Marteau du roi de la fonderie béni",
+            "patch": "4.5",
+            "points": 10,
+            "cPrev": [
+                1723
+            ]
+        },
+        "x756": {
+            "name_en": "An Eye for Detail: Armorer I",
+            "name_fr": "De main de maître : armurier I",
+            "description_en": "Craft 100 high-quality items as an armorer.",
+            "description_fr": "Fabriquer un total de 100 objets de haute qualité en tant qu'armurier.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                757
+            ]
+        },
+        "x757": {
+            "name_en": "An Eye for Detail: Armorer II",
+            "name_fr": "De main de maître : armurier II",
+            "description_en": "Craft 500 high-quality items as an armorer.",
+            "description_fr": "Fabriquer un total de 500 objets de haute qualité en tant qu'armurier.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                756
+            ],
+            "cNext": [
+                758
+            ]
+        },
+        "x758": {
+            "name_en": "An Eye for Detail: Armorer III",
+            "name_fr": "De main de maître : armurier III",
+            "description_en": "Craft 3,000 high-quality items as an armorer.",
+            "description_fr": "Fabriquer un total de 3 000 objets de haute qualité en tant qu'armurier.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                757
+            ],
+            "cNext": [
+                1315
+            ]
+        },
+        "x1315": {
+            "name_en": "An Eye for Detail: Armorer IV",
+            "name_fr": "De main de maître : armurier IV",
+            "description_en": "Craft 5,000 high-quality items as an armorer.",
+            "description_fr": "Fabriquer un total de 5 000 objets de haute qualité en tant qu'armurier.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                758
+            ],
+            "cNext": [
+                1323
+            ]
+        },
+        "x1323": {
+            "name_en": "An Eye for Detail: Armorer V",
+            "name_fr": "De main de maître : armurier V",
+            "description_en": "Craft 10,000 high-quality items as an armorer.",
+            "description_fr": "Fabriquer un total de 10 000  objets de haute qualité en tant qu'armurier.",
+            "reward": "character.character.title.255",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                1315
+            ],
+            "cSiblings": [
+                "character.character.title.255"
+            ]
+        },
+        "x2495": {
+            "name_en": "Skyward Hammer I",
+            "name_fr": "Marteau d'Azurée I",
+            "description_en": "Earn 50,000 points toward your skyward score as an armorer.",
+            "description_fr": "Gagner un total de 50 000 points d'azur en tant qu'armurier.",
+            "patch": "5.21",
+            "points": 5,
+            "cNext": [
+                2496
+            ],
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2522"
+            ]
+        },
+        "x2496": {
+            "name_en": "Skyward Hammer II",
+            "name_fr": "Marteau d'Azurée II",
+            "description_en": "Earn 150,000 points toward your skyward score as an armorer.",
+            "description_fr": "Gagner un total de 150 000 points d'azur en tant qu'armurier.",
+            "patch": "5.21",
+            "points": 5,
+            "cPrev": [
+                2495
+            ],
+            "cNext": [
+                2497
+            ]
+        },
+        "x2497": {
+            "name_en": "Skyward Hammer III",
+            "name_fr": "Marteau d'Azurée III",
+            "description_en": "Earn 500,000 points toward your skyward score as an armorer.",
+            "description_fr": "Gagner un total de 500 000 points d'azur en tant qu'armurier.",
+            "reward": "character.character.title.492",
+            "patch": "5.21",
+            "points": 10,
+            "cPrev": [
+                2496
+            ],
+            "cSiblings": [
+                "character.character.title.492"
+            ],
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2524"
+            ]
+        },
+        "x2529": {
+            "name_en": "The Height of Armorcraft",
+            "name_fr": "Armurier du Nichoir",
+            "description_en": "As an armorer, craft and submit 100 expert recipe items for the second phase of the Ishgardian restoration.",
+            "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées d'armurier de la deuxième phase de reconstruction d'Azurée.",
+            "reward": "character.character.title.505",
+            "patch": "5.21",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.505"
+            ]
+        },
+        "x2650": {
+            "name_en": "Armorers of a Feather",
+            "name_fr": "Armurier de Tombeplume",
+            "description_en": "As an armorer, craft and submit 100 expert recipe items for the third phase of the Ishgardian restoration.",
+            "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées d'armurier de la troisième phase de reconstruction d'Azurée.",
+            "reward": "character.character.title.530",
+            "patch": "5.31",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.530"
+            ]
+        },
+        "x2809": {
+            "name_en": "An Ode to Armorcraft",
+            "name_fr": "Armurier du Nouveau Refrain",
+            "description_en": "As an armorer, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
+            "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées d'armurier de la quatrième phase de reconstruction d'Azurée.",
+            "reward": "character.character.title.567",
+            "patch": "5.41",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.567"
+            ]
+        },
+        "x2823": {
+            "name_en": "Retooled: Resplendent Hammerfiend's Beetle",
+            "name_fr": "Armurerie resplendissante",
+            "description_en": "Obtain a resplendent hammerfiend's beetle.",
+            "description_fr": "Obtenir un marteau du fiélon de la fonderie resplendissant.",
+            "patch": "5.5",
+            "points": 10,
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2829"
+            ]
+        }
+    }
+}

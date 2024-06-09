@@ -1,0 +1,397 @@
+{
+    "key": "uldah",
+    "groupName_en": "Ul'Dah",
+    "groupName_fr": "Ul'Dah",
+    "tasks": {
+        "x66106": {
+            "level": 1,
+            "name_en": "Close to Home",
+            "name_fr": "Une visite s'impose",
+            "npc_en": "Momodi",
+            "npc_fr": "Momodi",
+            "unlock_en": "Return",
+            "cPrev": [
+                "duty.quests.sidequests.uldahn.uldah.66130"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.uldahn.uldah.65925",
+                "duty.quests.sidequests.uldahn.uldah.65926",
+                66131
+            ],
+            "cExclude": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65660",
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645"
+            ],
+            "cExclusive": [
+                "duty.quests.sidequests.uldahn.uldah.66130",
+                "duty.quests.levequests.battlecraft.566",
+                66131,
+                66207,
+                66086,
+                65839,
+                69388,
+                65843,
+                65856,
+                66159,
+                65864,
+                66039,
+                65865,
+                65866,
+                69389,
+                65868,
+                65869,
+                65870,
+                65872,
+                66164,
+                66087,
+                66177,
+                66088,
+                66064,
+                66209,
+                "character.achievement.quests.main-scenario.312",
+                "duty.quests.sidequests.uldahn.uldah.65925",
+                "duty.quests.sidequests.uldahn.uldah.65926",
+                "duty.quests.sidequests.uldahn.central-thanalan.65857",
+                "duty.quests.sidequests.uldahn.central-thanalan.65858",
+                "duty.quests.sidequests.uldahn.central-thanalan.65840",
+                "duty.quests.sidequests.uldahn.central-thanalan.65924",
+                "duty.quests.sidequests.uldahn.central-thanalan.65862",
+                "duty.quests.sidequests.uldahn.central-thanalan.65844",
+                "duty.quests.sidequests.uldahn.uldah.66223",
+                "duty.quests.sidequests.uldahn.western-thanalan.65594",
+                "duty.quests.sidequests.uldahn.western-thanalan.66040",
+                "duty.quests.sidequests.uldahn.western-thanalan.65877",
+                "duty.quests.sidequests.uldahn.central-thanalan.66066",
+                "duty.quests.sidequests.uldahn.central-thanalan.66067",
+                "duty.quests.sidequests.uldahn.central-thanalan.66109",
+                "duty.quests.sidequests.uldahn.western-thanalan.65878",
+                "duty.quests.sidequests.uldahn.western-thanalan.66041",
+                "duty.quests.sidequests.uldahn.western-thanalan.66042"
+            ]
+        },
+        "x66131": {
+            "level": 4,
+            "name_en": "We Must Rebuild",
+            "name_fr": "Destination gare de triage",
+            "npc_en": "Momodi",
+            "npc_fr": "Momodi",
+            "cPrev": [
+                66106
+            ],
+            "cNext": [
+                66207
+            ]
+        },
+        "x66207": {
+            "level": 5,
+            "name_en": "Nothing to See Here",
+            "name_fr": "Un bretzel pour le goûter",
+            "npc_en": "Papashan",
+            "npc_fr": "Papashan",
+            "cPrev": [
+                66131
+            ],
+            "cNext": [
+                66086
+            ]
+        },
+        "x66086": {
+            "level": 5,
+            "name_en": "Underneath the Sultantree",
+            "name_fr": "Sous l'Arbre du Sultan",
+            "npc_en": "Papashan",
+            "npc_fr": "Papashan",
+            "cPrev": [
+                66207
+            ],
+            "cNext": [
+                65839,
+                "duty.quests.sidequests.uldahn.central-thanalan.65857"
+            ]
+        },
+        "x65839": {
+            "level": 6,
+            "name_en": "Step Nine",
+            "name_fr": "Dites-le avec une citrouille",
+            "npc_en": "Cicidoa",
+            "npc_fr": "Cicidoa",
+            "cPrev": [
+                66086
+            ],
+            "cNext": [
+                69388
+            ]
+        },
+        "x69388": {
+            "level": 8,
+            "name_en": "Prudence at This Junction",
+            "name_fr": "Tenue adéquate exigée",
+            "npc_en": "Roger",
+            "npc_fr": "Roger",
+            "cPrev": [
+                65839
+            ],
+            "cNext": [
+                65843,
+                "duty.quests.sidequests.uldahn.central-thanalan.65924"
+            ]
+        },
+        "x65843": {
+            "level": 9,
+            "name_en": "Out of House and Home",
+            "name_fr": "Amateurs de minerai dérangeants",
+            "npc_en": "Warin",
+            "npc_fr": "Warin",
+            "cPrev": [
+                69388
+            ],
+            "cNext": [
+                "duty.quests.sidequests.uldahn.central-thanalan.65862",
+                65856
+            ]
+        },
+        "x65856": {
+            "level": 9,
+            "name_en": "Way Down in the Hole",
+            "name_fr": "Manque de veine",
+            "npc_en": "Zuzumeda",
+            "npc_fr": "Zuzumeda",
+            "unlock_en": "Inn Rooms",
+            "cPrev": [
+                65843
+            ],
+            "cNext": [
+                "duty.quests.sidequests.uldahn.uldah.66223",
+                66159
+            ]
+        },
+        "x66159": {
+            "level": 10,
+            "name_en": "Takin' What They're Givin'",
+            "name_fr": "Du travail à l'Horizon",
+            "npc_en": "Momodi",
+            "npc_fr": "Momodi",
+            "cPrev": [
+                65856
+            ],
+            "cNext": [
+                65864
+            ]
+        },
+        "x65864": {
+            "level": 10,
+            "name_en": "Supply and Demands",
+            "name_fr": "Circonstances atténuantes",
+            "npc_en": "Dadanen",
+            "npc_fr": "Dadanen",
+            "cPrev": [
+                66159
+            ],
+            "cNext": [
+                66039,
+                "duty.quests.sidequests.uldahn.western-thanalan.66040"
+            ]
+        },
+        "x66039": {
+            "level": 10,
+            "name_en": "Give It to Me Raw",
+            "name_fr": "À la poursuite de la nashachite",
+            "npc_en": "Drunken Stag",
+            "npc_fr": "Drunken Stag",
+            "cPrev": [
+                65864
+            ],
+            "cNext": [
+                65865
+            ]
+        },
+        "x65865": {
+            "level": 11,
+            "name_en": "The Perfect Swarm",
+            "name_fr": "Opération anti-moucherons",
+            "npc_en": "Drunken Stag",
+            "npc_fr": "Drunken Stag",
+            "cPrev": [
+                66039
+            ],
+            "cNext": [
+                "duty.quests.sidequests.uldahn.western-thanalan.65877",
+                65866
+            ]
+        },
+        "x65866": {
+            "level": 11,
+            "name_en": "Last Letter to Lost Hope",
+            "name_fr": "Courrier égaré",
+            "npc_en": "Fufulupa",
+            "npc_fr": "Fufulupa",
+            "cPrev": [
+                65865
+            ],
+            "cNext": [
+                "duty.quests.sidequests.uldahn.central-thanalan.66109",
+                "duty.quests.sidequests.uldahn.central-thanalan.66066",
+                "duty.quests.sidequests.uldahn.central-thanalan.66067",
+                69389
+            ]
+        },
+        "x69389": {
+            "level": 12,
+            "name_en": "Heir Today, Gone Tomorrow",
+            "name_fr": "Baron que de nom",
+            "npc_en": "Leofric",
+            "npc_fr": "Leofric",
+            "cPrev": [
+                65866
+            ],
+            "cNext": [
+                65868
+            ]
+        },
+        "x65868": {
+            "level": 12,
+            "name_en": "Passing the Blade",
+            "name_fr": "Un don lourd de sens",
+            "npc_en": "Leofric",
+            "npc_fr": "Leofric",
+            "cPrev": [
+                69389
+            ],
+            "cNext": [
+                65869,
+                "duty.quests.sidequests.uldahn.western-thanalan.65878",
+                "duty.quests.sidequests.uldahn.western-thanalan.66041",
+                "duty.quests.sidequests.uldahn.western-thanalan.66042"
+            ]
+        },
+        "x65869": {
+            "level": 13,
+            "name_en": "Following Footfalls",
+            "name_fr": "Visite aux vestiges",
+            "npc_en": "Fufulupa",
+            "npc_fr": "Fufulupa",
+            "cPrev": [
+                65868
+            ],
+            "cNext": [
+                65870
+            ]
+        },
+        "x65870": {
+            "level": 13,
+            "name_en": "Storms on the Horizon",
+            "name_fr": "Le poisson du festin",
+            "npc_en": "Nunuzofu",
+            "npc_fr": "Nunuzofu",
+            "cPrev": [
+                65869
+            ],
+            "cNext": [
+                65872
+            ]
+        },
+        "x65872": {
+            "level": 14,
+            "name_en": "Oh Captain, My Captain",
+            "name_fr": "L'honneur des lames de cuivre",
+            "npc_en": "Merilda",
+            "npc_fr": "Merilda",
+            "cPrev": [
+                65870
+            ],
+            "cNext": [
+                66164
+            ]
+        },
+        "x66164": {
+            "level": 14,
+            "name_en": "Secrets and Lies",
+            "name_fr": "Une correspondance suspecte",
+            "npc_en": "Fufulupa",
+            "npc_fr": "Fufulupa",
+            "cPrev": [
+                65872
+            ],
+            "cNext": [
+                66087
+            ]
+        },
+        "x66087": {
+            "level": 14,
+            "name_en": "Duty, Honor, Country",
+            "name_fr": "Les ténèbres qui menacent la couronne",
+            "npc_en": "Momodi",
+            "npc_fr": "Momodi",
+            "cPrev": [
+                66164
+            ],
+            "cNext": [
+                66177
+            ]
+        },
+        "x66177": {
+            "level": 14,
+            "name_en": "A Matter of Tradition",
+            "name_fr": "Les préparatifs de la soirée",
+            "npc_en": "Owyne",
+            "npc_fr": "Owyne",
+            "cPrev": [
+                66087
+            ]
+        },
+        "x66088": {
+            "level": 14,
+            "name_en": "A Royal Reception",
+            "name_fr": "Une soirée au palais",
+            "npc_en": "Momodi",
+            "npc_fr": "Momodi",
+            "cNext": [
+                66064,
+                "duty.quests.sidequests.gridanian.gridania.66961",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66962",
+                "duty.quests.sidequests.uldahn.uldah.66963"
+            ]
+        },
+        "x66064": {
+            "level": 15,
+            "name_en": "The Ul'dahn Envoy",
+            "name_fr": "L'émissaire d'Ul'dah",
+            "npc_en": "Raubahn",
+            "npc_fr": "Raubahn",
+            "unlock_en": "Airships",
+            "cPrev": [
+                66088
+            ],
+            "cNext": [
+                66209,
+                "duty.quests.sidequests.uldahn.uldah.65970",
+                "duty.quests.other.special.collaboration.67677",
+                "duty.quests.other.seasonal.gold-saucer-festivities.67960",
+                "duty.quests.other.seasonal.gold-saucer-festivities.68669",
+                "duty.quests.other.seasonal.gold-saucer-festivities.68743",
+                "duty.quests.other.seasonal.gold-saucer-festivities.69499",
+                "duty.quests.other.seasonal.valentiones-little-ladies-day.69532",
+                "duty.quests.other.seasonal.gold-saucer-festivities.69590"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.312"
+            ]
+        },
+        "x66209": {
+            "level": 15,
+            "name_en": "Call of the Sea",
+            "name_fr": "L'appel de la mer",
+            "npc_en": "Bartholomew",
+            "npc_fr": "Bartholomew",
+            "cPrev": [
+                66064
+            ],
+            "cNext": [
+                "duty.quests.sidequests.lominsan.western-la-noscea.66681",
+                "duty.quests.sidequests.lominsan.western-la-noscea.66678",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66746",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66967"
+            ]
+        }
+    }
+}

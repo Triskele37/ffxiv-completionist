@@ -1,0 +1,717 @@
+{
+    "key": "page-2",
+    "groupName_en": "Page 2",
+    "groupName_fr": "Page 2",
+    "common": [
+        "zone",
+        "bait"
+    ],
+    "tasks": {
+        "x0": {
+            "name_en": "Golden Loach",
+            "name_fr": "Loche dorée",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.1",
+            "bait": "FISH.BAIT.HONEY_WORM"
+        },
+        "x1": {
+            "name_en": "Storm Rider",
+            "name_fr": "Poisson tempête",
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.19",
+            "bait": "FISH.BAIT.SAND_LEECH"
+        },
+        "x2": {
+            "name_en": "Trader Eel",
+            "name_fr": "Anguille de Nald'thal",
+            "zone": "ZONE.EASTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.14",
+            "bait": "FISH.BAIT.HONEY_WORM"
+        },
+        "x3": {
+            "name_en": "Crimson Trout",
+            "name_fr": "Truite écarlate",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.0",
+            "bait": "FISH.BAIT.SPINNER"
+        },
+        "x4": {
+            "name_en": "Discus",
+            "name_fr": "Discus",
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.22",
+            "bait": "FISH.BAIT.HONEY_WORM"
+        },
+        "x5": {
+            "name_en": "Antlion Slug",
+            "name_fr": "Limace fourmilion",
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.19",
+            "bait": "FISH.BAIT.SAND_GECKO"
+        },
+        "x6": {
+            "name_en": "Red Coral",
+            "name_fr": "Corail rouge",
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.19",
+            "bait": "FISH.BAIT.KRILL_CAGE_FEEDER"
+        },
+        "x7": {
+            "name_en": "Bronze Lake Trout",
+            "name_fr": "Truite d'airain",
+            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.40",
+            "bait": "FISH.BAIT.MYTHRIL_SPOON_LURE"
+        },
+        "x8": {
+            "name_en": "Ignus Snail",
+            "name_fr": "Escargot infernal",
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.17",
+            "bait": "FISH.BAIT.STEM_BORER"
+        },
+        "x9": {
+            "name_en": "Dune Manta",
+            "name_fr": "Raie des dunes",
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.19",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.1"
+        },
+        "x10": {
+            "name_en": "Silver Shark",
+            "name_fr": "Requin argenté",
+            "zone": "ZONE.MIDDLE_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.5",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.3"
+        },
+        "x11": {
+            "name_en": "Loyal Pleco",
+            "name_fr": "Pléco royal",
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.23",
+            "bait": "FISH.BAIT.STEM_BORER"
+        },
+        "x12": {
+            "name_en": "Thunderbolt Sculpin",
+            "name_fr": "Grondin éclair",
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.24",
+            "bait": "FISH.BAIT.SPINNER"
+        },
+        "x13": {
+            "name_en": "Fall Jumper",
+            "name_fr": "Carpe dragon",
+            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.38",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.40"
+        },
+        "x14": {
+            "name_en": "Knifefish",
+            "name_fr": "Poisson couteau",
+            "zone": "ZONE.EASTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.15",
+            "bait": "FISH.BAIT.SPINNER"
+        },
+        "x15": {
+            "name_en": "Wahoo",
+            "name_fr": "Thazard noir",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.29",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.3"
+        },
+        "x16": {
+            "name_en": "Raincaller",
+            "name_fr": "Poisson cherche-pluie",
+            "zone": [
+                "ZONE.NEW_GRIDANIA",
+                "ZONE.OLD_GRIDANIA"
+            ],
+            "fishingHoles": [
+                "logs.gathering.fishing-log.fishing.the-black-shroud.0",
+                "logs.gathering.fishing-log.fishing.the-black-shroud.2"
+            ],
+            "bait": "FISH.BAIT.STEM_BORER"
+        },
+        "x17": {
+            "name_en": "Oakroot",
+            "name_fr": "Anguille racine",
+            "zone": "ZONE.NORTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.23",
+            "bait": "FISH.BAIT.STEM_BORER"
+        },
+        "x18": {
+            "name_en": "Common Sculpin",
+            "name_fr": "Chabot",
+            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.37",
+            "bait": "FISH.BAIT.SPINNER"
+        },
+        "x19": {
+            "name_en": "Blacklip Oyster",
+            "name_fr": "Huître aux lèvres noires",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.34",
+            "bait": "FISH.BAIT.KRILL_CAGE_FEEDER"
+        },
+        "x20": {
+            "name_en": "Southern Pike",
+            "name_fr": "Brochet du sud",
+            "zone": "ZONE.NORTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.23",
+            "bait": "FISH.BAIT.TOPWATER_FROG"
+        },
+        "x21": {
+            "name_en": "Northern Pike",
+            "name_fr": "Brochet du nord",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.4",
+            "bait": "FISH.BAIT.TOPWATER_FROG"
+        },
+        "x22": {
+            "name_en": "Kobold Puffer",
+            "name_fr": "Tétrodon kobold",
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.22",
+            "bait": "FISH.BAIT.SNURBLE_FLY"
+        },
+        "x23": {
+            "name_en": "Nautilus",
+            "name_fr": "Nautile",
+            "zone": "ZONE.MIST",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.43",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.82"
+        },
+        "x24": {
+            "name_en": "Archerfish",
+            "name_fr": "Poisson-archer",
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.23",
+            "bait": "FISH.BAIT.SNURBLE_FLY"
+        },
+        "x25": {
+            "name_en": "Cloud Jellyfish",
+            "name_fr": "Méduse cumulus",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.7",
+            "bait": "FISH.BAIT.HOVERWORM"
+        },
+        "x26": {
+            "name_en": "Goblin Perch",
+            "name_fr": "Perche gobeline",
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.18",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.89"
+        },
+        "x27": {
+            "name_en": "Agelyss Carp",
+            "name_fr": "Carpe d'Agelyss",
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.23",
+            "bait": "FISH.BAIT.TOPWATER_FROG"
+        },
+        "x28": {
+            "name_en": "Pike Eel",
+            "name_fr": "Murène congre",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.32",
+            "bait": "FISH.BAIT.GLOWWORM"
+        },
+        "x29": {
+            "name_en": "Assassin Betta",
+            "name_fr": "Betta assassin",
+            "zone": "ZONE.MOR_DHONA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.mor-dhona.0",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.89"
+        },
+        "x30": {
+            "name_en": "Sludgeskipper",
+            "name_fr": "Gobie mithridatisé",
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.25",
+            "bait": "FISH.BAIT.STEM_BORER"
+        },
+        "x31": {
+            "name_en": "Skyfish",
+            "name_fr": "Fulgure",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.7",
+            "bait": "FISH.BAIT.HOVERWORM"
+        },
+        "x32": {
+            "name_en": "Mummer Wrasse",
+            "name_fr": "Labre à bosse",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.33",
+            "bait": "FISH.BAIT.GLOWWORM"
+        },
+        "x33": {
+            "name_en": "Cloud Cutter",
+            "name_fr": "Brise nuage",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.7",
+            "bait": "FISH.BAIT.HOVERWORM"
+        },
+        "x34": {
+            "name_en": "Boltfish",
+            "name_fr": "Poisson tonnerre",
+            "zone": "ZONE.NORTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.22",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.89"
+        },
+        "x35": {
+            "name_en": "Garpike",
+            "name_fr": "Orphie",
+            "zone": "ZONE.NORTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.21",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.89"
+        },
+        "x36": {
+            "name_en": "Blind Manta",
+            "name_fr": "Manta volante",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.7",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.33"
+        },
+        "x37": {
+            "name_en": "Plaice",
+            "name_fr": "Plie",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.33",
+            "bait": "FISH.BAIT.YUMIZUNO"
+        },
+        "x38": {
+            "name_en": "Ilsabardian Bass",
+            "name_fr": "Bar d'Ilsabard",
+            "zone": "ZONE.MOR_DHONA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.mor-dhona.0",
+            "bait": "FISH.BAIT.TOPWATER_FROG"
+        },
+        "x39": {
+            "name_en": "Paglth'an Discus",
+            "name_fr": "Discus de Paglth'an",
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.17",
+            "bait": "FISH.BAIT.GLOWWORM"
+        },
+        "x40": {
+            "name_en": "Boxing Pleco",
+            "name_fr": "Pléco adonis",
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.20",
+            "bait": "FISH.BAIT.GLOWWORM"
+        },
+        "x41": {
+            "name_en": "Rift Sailor",
+            "name_fr": "Timonier du ciel",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.7",
+            "bait": "FISH.BAIT.HOVERWORM"
+        },
+        "x42": {
+            "name_en": "Sea Devil",
+            "name_fr": "Démon marin",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.5",
+            "bait": "FISH.BAIT.YUMIZUNO"
+        },
+        "x43": {
+            "name_en": "Kissing Trout",
+            "name_fr": "Truite de Nymeia",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.0",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.5"
+        },
+        "x44": {
+            "name_en": "Angry Pike",
+            "name_fr": "Brochet de Halone",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.5",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.23"
+        },
+        "x45": {
+            "name_en": "Goldfish",
+            "name_fr": "Cyprin doré",
+            "zone": "ZONE.THE_GOBLET",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.23",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.89"
+        },
+        "x46": {
+            "name_en": "Sagolii Monkfish",
+            "name_fr": "Poisson lanterne de Sagolii",
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.19",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.88"
+        },
+        "x47": {
+            "name_en": "Saucerfish",
+            "name_fr": "Poisson soucoupe",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.8",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.33"
+        },
+        "x48": {
+            "name_en": "Rock Lobster",
+            "name_fr": "Homard des rochers",
+            "zone": "ZONE.WESTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.4",
+            "bait": "FISH.BAIT.NORTHERN_KRILL"
+        },
+        "x49": {
+            "name_en": "Vampire Lampern",
+            "name_fr": "Lamproie vampire",
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.25",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.89"
+        },
+        "x50": {
+            "name_en": "Wandering Sculpin",
+            "name_fr": "Chabot d'Oschon",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.6",
+            "bait": "FISH.BAIT.CADDISFLY_LARVA"
+        },
+        "x51": {
+            "name_en": "Goosefish",
+            "name_fr": "Baudroie",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.29",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.15"
+        },
+        "x52": {
+            "name_en": "Cave Cherax",
+            "name_fr": "Cherax des cavernes",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.1",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.5"
+        },
+        "x53": {
+            "name_en": "Coeurlfish",
+            "name_fr": "Poisson coeurl",
+            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.37",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.18"
+        },
+        "x54": {
+            "name_en": "Little Thalaos",
+            "name_fr": "Petit Thalaos",
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.18",
+            "bait": "FISH.BAIT.NORTHERN_KRILL"
+        },
+        "x55": {
+            "name_en": "Shall Shell",
+            "name_fr": "Cocoquillage",
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.12",
+            "bait": "FISH.BAIT.NORTHERN_KRILL"
+        },
+        "x56": {
+            "name_en": "Giant Donko",
+            "name_fr": "Donko géant",
+            "zone": "ZONE.OUTER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.41",
+            "bait": "FISH.BAIT.SPINNERBAIT"
+        },
+        "x57": {
+            "name_en": "Sundisc",
+            "name_fr": "Discus solaire",
+            "zone": "ZONE.EASTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.15",
+            "bait": "FISH.BAIT.CADDISFLY_LARVA"
+        },
+        "x58": {
+            "name_en": "Mahi-Mahi",
+            "name_fr": "Mahi-Mahi",
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.11",
+            "bait": "FISH.BAIT.YUMIZUNO"
+        },
+        "x59": {
+            "name_en": "Halibut",
+            "name_fr": "Flétan",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.28",
+            "bait": "FISH.BAIT.NORTHERN_KRILL"
+        },
+        "x60": {
+            "name_en": "Alligator Garfish",
+            "name_fr": "Orphie crocodile",
+            "zone": "ZONE.NORTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.21",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.18"
+        },
+        "x61": {
+            "name_en": "Wootz Knifefish",
+            "name_fr": "Poisson couteau wootz",
+            "zone": "ZONE.NORTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.22",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.45"
+        },
+        "x62": {
+            "name_en": "Giant Catfish",
+            "name_fr": "Poisson-chat géant",
+            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.40",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.89"
+        },
+        "x63": {
+            "name_en": "Caravan Eel",
+            "name_fr": "Anguille nomade",
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.20",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.1"
+        },
+        "x64": {
+            "name_en": "Mazlaya Marlin",
+            "name_fr": "Marlin de Mazlaya",
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.19",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.57"
+        },
+        "x65": {
+            "name_en": "Coelacanth",
+            "name_fr": "Cœlacanthe",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.35",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.82"
+        },
+        "x66": {
+            "name_en": "Cadaver Carp",
+            "name_fr": "Poisson putride",
+            "zone": "ZONE.MOR_DHONA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.mor-dhona.4",
+            "bait": "FISH.BAIT.RAINBOW_SPOON_LURE"
+        },
+        "x67": {
+            "name_en": "Rhamphorhynchus",
+            "name_fr": "Rhamphorhynchus",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.8",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.47"
+        },
+        "x68": {
+            "name_en": "Giant Squid",
+            "name_fr": "Calmar géant",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.33",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.15"
+        },
+        "x69": {
+            "name_en": "Gigant Octopus",
+            "name_fr": "Gigantopoulpe",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.30",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.57"
+        },
+        "x70": {
+            "name_en": "Sunfish",
+            "name_fr": "Poisson lune",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.32",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.11"
+        },
+        "x71": {
+            "name_en": "Dinichthys",
+            "name_fr": "Dinichthys",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.36",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.15"
+        },
+        "x72": {
+            "name_en": "Mushroom Crab",
+            "name_fr": "Crabe champignon",
+            "zone": "ZONE.EAST_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.13",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.18"
+        },
+        "x73": {
+            "name_en": "Judgment Staff",
+            "name_fr": "Dieu fulgurant",
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.19",
+            "bait": "FISH.BAIT.CADDISFLY_LARVA"
+        },
+        "x74": {
+            "name_en": "Poxpike",
+            "name_fr": "Orphie mouchetée",
+            "zone": "ZONE.MOR_DHONA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.mor-dhona.3",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.45"
+        },
+        "x75": {
+            "name_en": "Emperor Fish",
+            "name_fr": "Poisson empereur",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.2",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.23"
+        },
+        "x76": {
+            "name_en": "Bowfin",
+            "name_fr": "Poisson-castor",
+            "zone": "ZONE.NORTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.24",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.45"
+        },
+        "x77": {
+            "name_en": "Heliobatis",
+            "name_fr": "Pastenague soleil",
+            "zone": "ZONE.MOR_DHONA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.mor-dhona.0",
+            "bait": "FISH.BAIT.CADDISFLY_LARVA"
+        },
+        "x78": {
+            "name_en": "Megalodon",
+            "name_fr": "Mégalodon",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.33",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.15"
+        },
+        "x79": {
+            "name_en": "Titanic Sawfish",
+            "name_fr": "Poisson-scie titan",
+            "zone": "ZONE.WESTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.5",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.15"
+        },
+        "x80": {
+            "name_en": "Takitaro",
+            "name_fr": "Takitaro",
+            "zone": "ZONE.SOUTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.20",
+            "bait": "FISH.BAIT.STREAMER"
+        },
+        "x81": {
+            "name_en": "Pirarucu",
+            "name_fr": "Pirarucu",
+            "zone": "ZONE.NORTH_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.23",
+            "bait": "FISH.BAIT.STREAMER"
+        },
+        "x82": {
+            "name_en": "Morinabaligi",
+            "name_fr": "Morina baligi",
+            "zone": "ZONE.MOR_DHONA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.mor-dhona.5",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.45"
+        },
+        "x83": {
+            "name_en": "Jungle Catfish",
+            "name_fr": "Poisson-chat de jungle",
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.26",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.45"
+        },
+        "x84": {
+            "name_en": "Tiny Tortoise",
+            "name_fr": "Tortue naine",
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.15",
+            "bait": "FISH.BAIT.YUMIZUNO"
+        },
+        "x85": {
+            "name_en": "Gigantpole",
+            "name_fr": "Têtard géant",
+            "zone": "ZONE.EASTERN_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.15",
+            "bait": "FISH.BAIT.TOPWATER_FROG"
+        },
+        "x86": {
+            "name_en": "Zalera",
+            "name_fr": "Zaléra",
+            "zone": "ZONE.MIDDLE_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.2",
+            "bait": "FISH.BAIT.RAT_TAIL"
+        },
+        "x87": {
+            "name_en": "Beguiler Chub",
+            "name_fr": "Chevesne narquois",
+            "zone": "ZONE.MIDDLE_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.3",
+            "bait": "FISH.BAIT.MOTH_PUPA"
+        },
+        "x88": {
+            "name_en": "Oschon's Print",
+            "name_fr": "Flet d'Oschon",
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.9",
+            "bait": "FISH.BAIT.GOBY_BALL"
+        },
+        "x89": {
+            "name_en": "Caterwauler",
+            "name_fr": "Bagre hurleur",
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.8",
+            "bait": "FISH.BAIT.MOTH_PUPA"
+        },
+        "x90": {
+            "name_en": "Crystal Perch",
+            "name_fr": "Perche de cristal",
+            "zone": "ZONE.MIDDLE_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.7",
+            "bait": "FISH.BAIT.BUTTERWORM"
+        },
+        "x91": {
+            "name_en": "Moldva",
+            "name_fr": "Moldva",
+            "zone": "ZONE.EAST_SHROUD",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.the-black-shroud.10",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.30"
+        },
+        "x92": {
+            "name_en": "Junkmonger",
+            "name_fr": "Baudroie éboueuse",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.29",
+            "bait": "logs.gathering.fishing-guide.fishing.page-2.15"
+        },
+        "x93": {
+            "name_en": "Goldenfin",
+            "name_fr": "Papillon d'or",
+            "zone": "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.0",
+            "bait": "FISH.BAIT.PILL_BUG"
+        },
+        "x94": {
+            "name_en": "Gigantshark",
+            "name_fr": "Giga requin",
+            "zone": "ZONE.MIDDLE_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.5",
+            "bait": "logs.gathering.fishing-guide.fishing.page-1.14"
+        },
+        "x95": {
+            "name_en": "Armorer",
+            "name_fr": "Conquedure",
+            "zone": "ZONE.WESTERN_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.28",
+            "bait": "FISH.BAIT.NORTHERN_KRILL"
+        },
+        "x96": {
+            "name_en": "Great Gudgeon",
+            "name_fr": "Goujon espion",
+            "zone": "ZONE.MIDDLE_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.4",
+            "bait": "FISH.BAIT.CRAYFISH_BALL"
+        },
+        "x97": {
+            "name_en": "Dark Knight",
+            "name_fr": "Chevalier noir",
+            "zone": "ZONE.CENTRAL_THANALAN",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.thanalan.11",
+            "bait": "FISH.BAIT.CROW_FLY"
+        },
+        "x98": {
+            "name_en": "Silver Sovereign",
+            "name_fr": "Souverain d'argent",
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.11",
+            "bait": "FISH.BAIT.YUMIZUNO"
+        },
+        "x99": {
+            "name_en": "Sabertooth Cod",
+            "name_fr": "Morue à dents de sabre",
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.la-noscea.12",
+            "bait": "FISH.BAIT.GOBY_BALL"
+        }
+    }
+}

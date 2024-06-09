@@ -1,0 +1,28 @@
+{
+    "key": "squadron",
+    "groupName_en": "Squadron",
+    "groupName_fr": "Escouade de Grande Compagnie",
+    "headers": {
+        "name": {
+            "link": true,
+            "header_en": "Value",
+            "header_fr": "Valeur"
+        }
+    },
+    "defaultCompletion": 0,
+    "isNumericCompletion": true,
+    "tasks": {
+        "x0": {
+            "name_en": "Squadron Rank",
+            "name_fr": "Rang de l'escouade",
+            "minValue": 0,
+            "maxValue": 3
+        },
+        "x1": {
+            "name_en": "Squadron Attributes",
+            "name_fr": "Capacités de l'escouade",
+            "minValue": 0,
+            "maxValue": 400
+        }
+    }
+}

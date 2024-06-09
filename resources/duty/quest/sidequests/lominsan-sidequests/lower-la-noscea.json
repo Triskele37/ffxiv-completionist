@@ -1,0 +1,217 @@
+{
+    "key": "lower-la-noscea",
+    "groupName_en": "Lower La Noscea",
+    "groupName_fr": "Basse-Noscea",
+    "tasks": {
+        "x66750": {
+            "level": 5,
+            "name_en": "Where the Heart Is (Mist)",
+            "name_fr": "La maison de mes rêves à Brumée",
+            "npc_en": "Ahctkoen",
+            "npc_fr": "Ahctkoen"
+        },
+        "x66017": {
+            "level": 5,
+            "name_en": "Moegramm Had a Little Lamb",
+            "name_fr": "Avoir la puce à l'ovin",
+            "npc_en": "Moegramm",
+            "npc_fr": "Moegramm",
+            "cNext": [
+                66016
+            ]
+        },
+        "x66011": {
+            "level": 5,
+            "name_en": "Cry Me a Liver",
+            "name_fr": "Avoir les foies",
+            "npc_en": "Ancreta",
+            "npc_fr": "Ancreta",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66199"
+            ],
+            "cNext": [
+                66012
+            ]
+        },
+        "x66012": {
+            "level": 6,
+            "name_en": "Wool's Errand",
+            "name_fr": "Pas de feutre sans laine",
+            "npc_en": "Anaoc",
+            "npc_fr": "Anaoc",
+            "cPrev": [
+                66011
+            ],
+            "cNext": [
+                66013,
+                66022
+            ]
+        },
+        "x66016": {
+            "level": 6,
+            "name_en": "Much Ado About Dodos",
+            "name_fr": "Le dodo est dans le sac",
+            "npc_en": "Moegramm",
+            "npc_fr": "Moegramm",
+            "cPrev": [
+                66017
+            ]
+        },
+        "x66020": {
+            "level": 7,
+            "name_en": "What Goes Around",
+            "name_fr": "Les matelots des moulins",
+            "npc_en": "Loetrswys",
+            "npc_fr": "Loetrswys",
+            "cNext": [
+                66022
+            ]
+        },
+        "x66018": {
+            "level": 7,
+            "name_en": "Whack-a-Mole",
+            "name_fr": "Un potager taupe-à-l'œil",
+            "npc_en": "Arenlona",
+            "npc_fr": "Arenlona",
+            "cNext": [
+                66019
+            ]
+        },
+        "x66022": {
+            "level": 8,
+            "name_en": "Kobolds Ahoy",
+            "name_fr": "Attention aux Kobolds",
+            "npc_en": "Loetrswys",
+            "npc_fr": "Loetrswys",
+            "cPrev": [
+                66012,
+                66020
+            ]
+        },
+        "x66019": {
+            "level": 8,
+            "name_en": "Beetle Juice",
+            "name_fr": "Du jus de bête à bon dieu",
+            "npc_en": "Arenlona",
+            "npc_fr": "Arenlona",
+            "cPrev": [
+                66018
+            ]
+        },
+        "x66013": {
+            "level": 8,
+            "name_en": "Flour Power",
+            "name_fr": "Rouler les galagos dans la farine",
+            "npc_en": "Weitzaren",
+            "npc_fr": "Weitzaren",
+            "cPrev": [
+                66012
+            ],
+            "cNext": [
+                66014
+            ]
+        },
+        "x66021": {
+            "level": 8,
+            "name_en": "Fire and Brimstone",
+            "name_fr": "Une quête qui sent le soufre",
+            "npc_en": "Broenruht",
+            "npc_fr": "Broenruht"
+        },
+        "x66015": {
+            "level": 9,
+            "name_en": "Bait and Swat",
+            "name_fr": "Guet-apens dans les mines",
+            "npc_en": "Anaoc",
+            "npc_fr": "Anaoc",
+            "cPrev": [
+                66014
+            ]
+        },
+        "x66014": {
+            "level": 9,
+            "name_en": "Kobolds and Indigents",
+            "name_fr": "Des pillards de charrette",
+            "npc_en": "Skarnmhar",
+            "npc_fr": "Skarnmhar",
+            "cPrev": [
+                66013
+            ],
+            "cNext": [
+                66015
+            ]
+        },
+        "x65943": {
+            "level": 11,
+            "name_en": "A Bridge Too Full",
+            "name_fr": "Pont-bouteillage",
+            "npc_en": "Doesrael",
+            "npc_fr": "Doesrael"
+        },
+        "x65944": {
+            "level": 12,
+            "name_en": "What Counts",
+            "name_fr": "Le compte est baux",
+            "npc_en": "Yulgi Honalgi",
+            "npc_fr": "Yulgi Honalgi",
+            "cPrev": [
+                65945
+            ]
+        },
+        "x65945": {
+            "level": 12,
+            "name_en": "Failure to Lunch",
+            "name_fr": "Une chasse au casse-croûte",
+            "npc_en": "Wafufu",
+            "npc_fr": "Wafufu",
+            "cNext": [
+                65946,
+                65944
+            ]
+        },
+        "x65953": {
+            "level": 13,
+            "name_en": "Say It with Flowers",
+            "name_fr": "Un phare qui brûle d'une flamme secrète",
+            "npc_en": "Rostnzeh",
+            "npc_fr": "Rostnzeh"
+        },
+        "x65952": {
+            "level": 13,
+            "name_en": "Forbidden Island",
+            "name_fr": "De petits touristes indésirables",
+            "npc_en": "A'zumyn",
+            "npc_fr": "A'zumyn"
+        },
+        "x65947": {
+            "level": 13,
+            "name_en": "Constant Carvings",
+            "name_fr": "Des crocs contre la solitude",
+            "npc_en": "Mimidoa",
+            "npc_fr": "Mimidoa"
+        },
+        "x65946": {
+            "level": 13,
+            "name_en": "Nailed It",
+            "name_fr": "Des rivets fulgurants",
+            "npc_en": "Hezzkhezl",
+            "npc_fr": "Hezzkhezl",
+            "cPrev": [
+                65945
+            ]
+        },
+        "x66231": {
+            "level": 20,
+            "name_en": "Leves of Moraby",
+            "name_fr": "Mandataire du chantier naval de Moraby",
+            "cPrevAny": true,
+            "npc_en": "Ourawann",
+            "npc_fr": "Ourawann",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
+            ]
+        }
+    }
+}

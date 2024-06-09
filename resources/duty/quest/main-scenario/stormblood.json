@@ -1,0 +1,1968 @@
+{
+    "key": "stormblood",
+    "groupName_en": "Stormblood",
+    "groupName_fr": "Récits d'une Tempête de Sang",
+    "tasks": {
+        "x67982": {
+            "level": 60,
+            "name_en": "Beyond the Great Wall",
+            "name_fr": "Au-delà de la muraille",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                67983
+            ]
+        },
+        "x67983": {
+            "level": 60,
+            "name_en": "Lyse Takes the Lead",
+            "name_fr": "Suivez la guide!",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                67982
+            ],
+            "cNext": [
+                67984
+            ]
+        },
+        "x67984": {
+            "level": 60,
+            "name_en": "The Promise of a New Beginning",
+            "name_fr": "La proposition de l'Alliance",
+            "npc_en": "Conrad",
+            "npc_fr": "Conrad",
+            "cPrev": [
+                67983
+            ],
+            "cNext": [
+                67985
+            ]
+        },
+        "x67985": {
+            "level": 60,
+            "name_en": "A Haven for the Bold",
+            "name_fr": "L'Étendue du Destructeur",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67984
+            ],
+            "cNext": [
+                67986,
+                "duty.quests.other.quasi-quests.68456"
+            ]
+        },
+        "x67986": {
+            "level": 60,
+            "name_en": "A Bargain Struck",
+            "name_fr": "La décision de Conrad",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                67985
+            ],
+            "cNext": [
+                67991,
+                67987
+            ]
+        },
+        "x67987": {
+            "level": 60,
+            "name_en": "A Friend of a Friend in Need",
+            "name_fr": "La mission de M'naago",
+            "npc_en": "M'naago",
+            "npc_fr": "M'naago",
+            "cPrev": [
+                67986
+            ],
+            "cNext": [
+                67988
+            ]
+        },
+        "x67988": {
+            "level": 60,
+            "name_en": "Signed, Sealed, to Be Delivered",
+            "name_fr": "La missive de Conrad",
+            "npc_en": "M'naago",
+            "npc_fr": "M'naago",
+            "cPrev": [
+                67987
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68175",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68179",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68180",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68178",
+                67989,
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68176",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68177"
+            ]
+        },
+        "x67989": {
+            "level": 60,
+            "name_en": "Best Served with Cold Steel",
+            "name_fr": "Le prototype magitek",
+            "npc_en": "Raubahn",
+            "npc_fr": "Raubahn",
+            "cPrev": [
+                67988
+            ],
+            "cNext": [
+                67990
+            ]
+        },
+        "x67990": {
+            "level": 60,
+            "name_en": "Let Fill Your Hearts with Pride",
+            "name_fr": "La conviction d'une messagère",
+            "npc_en": "M'naago",
+            "npc_fr": "M'naago",
+            "cPrev": [
+                67989
+            ],
+            "cNext": [
+                67997
+            ]
+        },
+        "x67991": {
+            "level": 60,
+            "name_en": "A Familiar Face Forgotten",
+            "name_fr": "La mission de Meffrid",
+            "npc_en": "Meffrid",
+            "npc_fr": "Meffrid",
+            "cPrev": [
+                67986
+            ],
+            "cNext": [
+                67992
+            ]
+        },
+        "x67992": {
+            "level": 60,
+            "name_en": "The Prodigal Daughter",
+            "name_fr": "Retour au village natal",
+            "npc_en": "Meffrid",
+            "npc_fr": "Meffrid",
+            "cPrev": [
+                67991
+            ],
+            "cNext": [
+                68490,
+                68491
+            ]
+        },
+        "x68490": {
+            "level": 60,
+            "name_en": "Hard Country",
+            "name_fr": "Remède pour jambes douloureuses",
+            "npc_en": "Griseldis",
+            "npc_fr": "Griseldis",
+            "cPrev": [
+                67992
+            ],
+            "cNext": [
+                67993
+            ]
+        },
+        "x68491": {
+            "level": 60,
+            "name_en": "Death by a Thousand Rocks",
+            "name_fr": "Livraison d'“objet oublié”",
+            "npc_en": "Angry Coeurl",
+            "npc_fr": "Angry Coeurl",
+            "cPrev": [
+                67992
+            ],
+            "cNext": [
+                67993
+            ]
+        },
+        "x67993": {
+            "level": 60,
+            "name_en": "A Life More Ordinary",
+            "name_fr": "Les gens d'Ala Gannha",
+            "npc_en": "Meffrid",
+            "npc_fr": "Meffrid",
+            "cPrev": [
+                68490,
+                68491
+            ],
+            "cNext": [
+                67994
+            ]
+        },
+        "x67994": {
+            "level": 60,
+            "name_en": "The Color of Angry Qiqirn",
+            "name_fr": "La Ziggourat",
+            "npc_en": "Meffrid",
+            "npc_fr": "Meffrid",
+            "cPrev": [
+                67993
+            ],
+            "cNext": [
+                67995
+            ]
+        },
+        "x67995": {
+            "level": 60,
+            "name_en": "The Black Wolf's Pups",
+            "name_fr": "Cruelle jeunesse",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                67994
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68182",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68183",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68186",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68181",
+                67996,
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68184",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68185"
+            ]
+        },
+        "x67996": {
+            "level": 60,
+            "name_en": "Homeward Bound",
+            "name_fr": "Malgré les différends",
+            "npc_en": "Meffrid",
+            "npc_fr": "Meffrid",
+            "cPrev": [
+                67995
+            ],
+            "cNext": [
+                67997
+            ]
+        },
+        "x67997": {
+            "level": 60,
+            "name_en": "Where Men Go as One",
+            "name_fr": "La tactique, c'est l'attaque",
+            "npc_en": "Conrad",
+            "npc_fr": "Conrad",
+            "cPrev": [
+                67990,
+                67996
+            ],
+            "cNext": [
+                68171,
+                68172,
+                68173
+            ]
+        },
+        "x68171": {
+            "level": 60,
+            "name_en": "Future Rust, Future Dust",
+            "name_fr": "Faire la guerre par amour",
+            "npc_en": "Beves",
+            "npc_fr": "Beves",
+            "cPrev": [
+                67997
+            ],
+            "cNext": [
+                68174
+            ]
+        },
+        "x68172": {
+            "level": 60,
+            "name_en": "A Dash of Green",
+            "name_fr": "La soupe aux cailloux et au chiendent",
+            "npc_en": "Ahelissa",
+            "npc_fr": "Ahelissa",
+            "cPrev": [
+                67997
+            ],
+            "cNext": [
+                68174
+            ]
+        },
+        "x68173": {
+            "level": 60,
+            "name_en": "Ye Wayward Brothers",
+            "name_fr": "Plus l'attente est longue...",
+            "npc_en": "Ananta Battlemaid",
+            "npc_fr": "guerrière ananta",
+            "cPrev": [
+                67997
+            ],
+            "cNext": [
+                68174
+            ]
+        },
+        "x68174": {
+            "level": 60,
+            "name_en": "Token of Faith",
+            "name_fr": "Avoir la foi bien accrochée",
+            "npc_en": "Swarthy Resistance Fighter",
+            "npc_fr": "guerrier roegadyn",
+            "cPrev": [
+                68171,
+                68172,
+                68173
+            ],
+            "cNext": [
+                67998
+            ]
+        },
+        "x67998": {
+            "level": 61,
+            "name_en": "Crossing the Velodyna",
+            "name_fr": "Le choix de Raubahn",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68174
+            ],
+            "cNext": [
+                67999
+            ]
+        },
+        "x67999": {
+            "level": 61,
+            "name_en": "In Crimson It Began",
+            "name_fr": "Dans le feu ardent",
+            "npc_en": "Pipin",
+            "npc_fr": "Pipin",
+            "cPrev": [
+                67998
+            ],
+            "cNext": [
+                68000
+            ]
+        },
+        "x68000": {
+            "level": 61,
+            "name_en": "The Fires Fade",
+            "name_fr": "Certains succombent, d'autres subsistent",
+            "npc_en": "Raubahn",
+            "npc_fr": "Raubahn",
+            "cPrev": [
+                67999
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68191",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68188",
+                68001,
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68190",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68189",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68187",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68192",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68193",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68194"
+            ]
+        },
+        "x68001": {
+            "level": 61,
+            "name_en": "Bereft of Hearth and Home",
+            "name_fr": "Le convoi de blessés",
+            "npc_en": "Pipin",
+            "npc_fr": "Pipin",
+            "cPrev": [
+                68000
+            ],
+            "cNext": [
+                68002
+            ]
+        },
+        "x68002": {
+            "level": 61,
+            "name_en": "Divide and Conquer",
+            "name_fr": "Une intervention revigorante",
+            "npc_en": "Conrad",
+            "npc_fr": "Conrad",
+            "cPrev": [
+                68001
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68197",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68196",
+                68003,
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68195",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68198",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68199",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68200"
+            ]
+        },
+        "x68003": {
+            "level": 61,
+            "name_en": "Lies, Damn Lies, and Pirates",
+            "name_fr": "En quête d'un navire",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68002
+            ],
+            "cNext": [
+                68004
+            ]
+        },
+        "x68004": {
+            "level": 61,
+            "name_en": "Tales from the Far East",
+            "name_fr": "Renseignements sur Doma",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68003
+            ],
+            "cNext": [
+                68005
+            ]
+        },
+        "x68005": {
+            "level": 61,
+            "name_en": "Not without Incident",
+            "name_fr": "Une grande traversée",
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.sb.0"
+            ],
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68004
+            ],
+            "cNext": [
+                68006
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1787"
+            ]
+        },
+        "x68006": {
+            "level": 61,
+            "name_en": "The Man from Ul'dah",
+            "name_fr": "Bienvenue à Kugane!",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68005
+            ],
+            "cNext": [
+                68007
+            ]
+        },
+        "x68007": {
+            "level": 61,
+            "name_en": "Where the Streets Are Paved with Koban",
+            "name_fr": "Le port aux quais d'or",
+            "npc_en": "Hancock",
+            "npc_fr": "Hancock",
+            "cPrev": [
+                68006
+            ],
+            "cNext": [
+                68008
+            ]
+        },
+        "x68008": {
+            "level": 61,
+            "name_en": "By the Grace of Lord Lolorito",
+            "name_fr": "Le Bazar de Rubis",
+            "npc_en": "Hancock",
+            "npc_fr": "Hancock",
+            "cPrev": [
+                68007
+            ],
+            "cNext": [
+                68009,
+                "duty.quests.sidequests.hingan.kugane.68202",
+                "duty.quests.sidequests.hingan.kugane.68204",
+                "duty.quests.sidequests.hingan.kugane.68201",
+                "duty.quests.sidequests.hingan.kugane.68205",
+                "duty.quests.sidequests.hingan.kugane.68167",
+                "duty.quests.sidequests.hingan.kugane.68203",
+                "duty.quests.sidequests.hingan.kugane.68472"
+            ]
+        },
+        "x68009": {
+            "level": 61,
+            "name_en": "A Good Samurai Is Hard to Find",
+            "name_fr": "Sur les traces des Domiens",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68008
+            ],
+            "cNext": [
+                68010
+            ]
+        },
+        "x68010": {
+            "level": 61,
+            "name_en": "It's Probably a Trap",
+            "name_fr": "Un capitaine pas comme les autres",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68009
+            ],
+            "cNext": [
+                68011
+            ]
+        },
+        "x68011": {
+            "level": 61,
+            "name_en": "Making the Catfish Sing",
+            "name_fr": "Les aveux de Gyodo",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68010
+            ],
+            "cNext": [
+                68012,
+                "duty.quests.sidequests.hingan.kugane.68206",
+                "duty.quests.sidequests.hingan.kugane.68207",
+                "duty.quests.sidequests.hingan.kugane.68208"
+            ]
+        },
+        "x68012": {
+            "level": 62,
+            "name_en": "Once More, to the Ruby Sea",
+            "name_fr": "En route pour Othard",
+            "npc_en": "Gosetsu",
+            "npc_fr": "Gosetsu",
+            "cPrev": [
+                68011
+            ],
+            "cNext": [
+                68013
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1788"
+            ]
+        },
+        "x68013": {
+            "level": 62,
+            "name_en": "Open Water",
+            "name_fr": "Baignade avec Lyse",
+            "npc_en": "Soroban",
+            "npc_fr": "Soroban",
+            "cPrev": [
+                68012
+            ],
+            "cNext": [
+                68014
+            ]
+        },
+        "x68014": {
+            "level": 62,
+            "name_en": "Boys with Boats",
+            "name_fr": "Les pirates de la Confédération",
+            "npc_en": "Tansui",
+            "npc_fr": "Tansui",
+            "cPrev": [
+                68013
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68209",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68212",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68211",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68210",
+                68015,
+                "duty.quests.sidequests.othardian.the-ruby-sea.68213",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68214"
+            ]
+        },
+        "x68015": {
+            "level": 62,
+            "name_en": "To Bend with the Wind",
+            "name_fr": "Un continent hostile",
+            "npc_en": "Soroban",
+            "npc_fr": "Soroban",
+            "cPrev": [
+                68014
+            ],
+            "cNext": [
+                68016
+            ]
+        },
+        "x68016": {
+            "level": 62,
+            "name_en": "Confederate Consternation",
+            "name_fr": "Le hameau des parias",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68015
+            ],
+            "cNext": [
+                68217,
+                68489,
+                68215
+            ],
+            "cSiblings": [
+                "social.emotes.general.154"
+            ]
+        },
+        "x68217": {
+            "level": 62,
+            "name_en": "The Solace of the Sea",
+            "name_fr": "Soigner le mal de mer",
+            "npc_en": "Afumi",
+            "npc_fr": "Afumi",
+            "cPrev": [
+                68016
+            ],
+            "cNext": [
+                68017
+            ]
+        },
+        "x68489": {
+            "level": 62,
+            "name_en": "The Arrows of Misfortune",
+            "name_fr": "C'est comme ça qu'on décarcasse",
+            "npc_en": "Kajika",
+            "npc_fr": "Kajika",
+            "cPrev": [
+                68016
+            ],
+            "cNext": [
+                68017
+            ]
+        },
+        "x68215": {
+            "level": 62,
+            "name_en": "The Last Voyage",
+            "name_fr": "Partir un jour sans retour",
+            "npc_en": "Aranami",
+            "npc_fr": "Aranami",
+            "cPrev": [
+                68016
+            ],
+            "cNext": [
+                68017
+            ]
+        },
+        "x68017": {
+            "level": 62,
+            "name_en": "Alisaie's Stones",
+            "name_fr": "Des pirates dans le besoin",
+            "npc_en": "Hirase",
+            "npc_fr": "Hirase",
+            "cPrev": [
+                68215,
+                68217,
+                68489
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68223",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68220",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68224",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68216",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68221",
+                68018,
+                "duty.quests.sidequests.othardian.the-ruby-sea.68218",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68219",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68222",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68225",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68226"
+            ]
+        },
+        "x68018": {
+            "level": 62,
+            "name_en": "Under the Sea",
+            "name_fr": "Tamamizu la Verte",
+            "npc_en": "Rasho",
+            "npc_fr": "Rasho",
+            "cPrev": [
+                68017
+            ],
+            "cNext": [
+                68019
+            ]
+        },
+        "x68019": {
+            "level": 62,
+            "name_en": "Of Kojin and Kami",
+            "name_fr": "Une myriade de kami",
+            "npc_en": "Soroban",
+            "npc_fr": "Soroban",
+            "cPrev": [
+                68018
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68229",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68230",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68228",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68227",
+                68020,
+                "duty.quests.sidequests.othardian.the-ruby-sea.68231",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68232"
+            ]
+        },
+        "x68020": {
+            "level": 63,
+            "name_en": "In Soroban We Trust",
+            "name_fr": "Plongée dans les fonds marins",
+            "npc_en": "Soroban",
+            "npc_fr": "Soroban",
+            "unlock_en": "Diving",
+            "cPrev": [
+                68019
+            ],
+            "cNext": [
+                68021,
+                "duty.quests.sidequests.othardian.the-ruby-sea.68458"
+            ],
+            "cSiblings": [
+                "social.emotes.general.151"
+            ]
+        },
+        "x68021": {
+            "level": 63,
+            "name_en": "Forever and Ever Apart",
+            "name_fr": "Ao Ra en autarcie",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68020
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68168",
+                68022,
+                "duty.quests.sidequests.othardian.the-ruby-sea.68239",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68235",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68233",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68242",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68237",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68234",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68236",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68238",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68240",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68241",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68243"
+            ]
+        },
+        "x68022": {
+            "level": 63,
+            "name_en": "In Darkness the Magatama Dreams",
+            "name_fr": "Expédition sous-marine",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68021
+            ],
+            "cNext": [
+                68023
+            ]
+        },
+        "x68023": {
+            "level": 63,
+            "name_en": "The Whims of the Divine",
+            "name_fr": "Le retour du joyau sacré",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68022
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68247",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68244",
+                68024,
+                "duty.quests.sidequests.othardian.the-ruby-sea.68245",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68246",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68248"
+            ]
+        },
+        "x68024": {
+            "level": 63,
+            "name_en": "Breaking and Delivering",
+            "name_fr": "L'île au trésor",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68023
+            ],
+            "cNext": [
+                68025
+            ]
+        },
+        "x68025": {
+            "level": 63,
+            "name_en": "The Lord of the Revel",
+            "name_fr": "Que la fête commence",
+            "unlock": [
+                "duty.dutyraid-finder.trials.sb.0",
+                "travel.mount-speed.the-far-east.1"
+            ],
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68024
+            ],
+            "cNext": [
+                68026
+            ],
+            "cSiblings": [
+                "travel.mount-speed.the-far-east.1"
+            ]
+        },
+        "x68026": {
+            "level": 63,
+            "name_en": "Tide Goes in, Imperials Go Out",
+            "name_fr": "Isari, village libéré",
+            "unlock": "travel.aether-currents.sb.the-ruby-sea.14",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68025
+            ],
+            "cNext": [
+                "duty.quests.sidequests.records-of-unusual-endeavors.heaven-on-high.68667",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68251",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68252",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68253",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68254",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68256",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68257",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68258",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68259",
+                68027,
+                "duty.quests.sidequests.othardian.the-ruby-sea.68249",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68250",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68255",
+                "duty.quests.tribal-quests.kojin.68509"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1789",
+                "travel.aether-currents.sb.the-ruby-sea.14"
+            ]
+        },
+        "x68027": {
+            "level": 63,
+            "name_en": "A Silence in Three Parts",
+            "name_fr": "La quiétude de Yanxia",
+            "npc_en": "Gosetsu",
+            "npc_fr": "Gosetsu",
+            "cPrev": [
+                68026
+            ],
+            "cNext": [
+                68028
+            ]
+        },
+        "x68028": {
+            "level": 64,
+            "name_en": "Life after Doma",
+            "name_fr": "Le prix de la rébellion",
+            "npc_en": "Gosetsu",
+            "npc_fr": "Gosetsu",
+            "cPrev": [
+                68027
+            ],
+            "cNext": [
+                68470
+            ]
+        },
+        "x68470": {
+            "level": 64,
+            "name_en": "A Glimpse of Madness",
+            "name_fr": "Un reste d'intrépidité",
+            "npc_en": "Liberation Front Guard",
+            "npc_fr": "combattant de la rébellion domienne",
+            "cPrev": [
+                68028
+            ],
+            "cNext": [
+                68029
+            ]
+        },
+        "x68029": {
+            "level": 64,
+            "name_en": "The Stubborn Remainder",
+            "name_fr": "La triste réalité domienne",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": [
+                68470
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.yanxia.68260",
+                "duty.quests.sidequests.othardian.yanxia.68264",
+                68030,
+                "duty.quests.sidequests.othardian.yanxia.68261",
+                "duty.quests.sidequests.othardian.yanxia.68265"
+            ]
+        },
+        "x68030": {
+            "level": 64,
+            "name_en": "The Ones We Leave Behind",
+            "name_fr": "La douleur de ceux qui restent",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": [
+                68029
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.yanxia.68266",
+                "duty.quests.sidequests.othardian.yanxia.68269",
+                68031,
+                "duty.quests.sidequests.othardian.yanxia.68268",
+                "duty.quests.sidequests.othardian.yanxia.68262",
+                "duty.quests.sidequests.othardian.yanxia.68263",
+                "duty.quests.sidequests.othardian.yanxia.68267"
+            ]
+        },
+        "x68031": {
+            "level": 64,
+            "name_en": "A New Ruby Tithe",
+            "name_fr": "Persécutions sans fin",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": [
+                68030
+            ],
+            "cNext": [
+                68032
+            ]
+        },
+        "x68032": {
+            "level": 64,
+            "name_en": "The Will to Live",
+            "name_fr": "Mascarade au castrum",
+            "unlock": "travel.mount-speed.the-far-east.3",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": [
+                68031
+            ],
+            "cNext": [
+                68033
+            ],
+            "cSiblings": [
+                "travel.mount-speed.the-far-east.3"
+            ]
+        },
+        "x68033": {
+            "level": 64,
+            "name_en": "Daughter of the Deep",
+            "name_fr": "Enfant des profondeurs",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": [
+                68032
+            ],
+            "cNext": [
+                68471
+            ]
+        },
+        "x68471": {
+            "level": 64,
+            "name_en": "Path of No Return",
+            "name_fr": "Une détermination de shinobi",
+            "npc_en": "Gosetsu",
+            "npc_fr": "Gosetsu",
+            "cPrev": [
+                68033
+            ],
+            "cNext": [
+                68034
+            ]
+        },
+        "x68034": {
+            "level": 64,
+            "name_en": "The Time between the Seconds",
+            "name_fr": "Sus à Zenos!",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": [
+                68471
+            ],
+            "cNext": [
+                68035
+            ]
+        },
+        "x68035": {
+            "level": 64,
+            "name_en": "All the Little Angels",
+            "name_fr": "Le premier pas en avant",
+            "unlock": "travel.aether-currents.sb.yanxia.14",
+            "npc_en": "Isse",
+            "npc_fr": "Isse",
+            "cPrev": [
+                68034
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.yanxia.68278",
+                "duty.quests.sidequests.othardian.yanxia.68271",
+                "duty.quests.sidequests.othardian.yanxia.68279",
+                "duty.quests.sidequests.othardian.yanxia.68270",
+                "duty.quests.sidequests.othardian.yanxia.68277",
+                "duty.quests.sidequests.othardian.yanxia.68281",
+                "duty.quests.sidequests.othardian.yanxia.68282",
+                "duty.quests.sidequests.othardian.yanxia.68274",
+                "duty.quests.sidequests.othardian.yanxia.68284",
+                "duty.quests.sidequests.othardian.yanxia.68286",
+                "duty.quests.sidequests.othardian.yanxia.68280",
+                68166,
+                "duty.quests.sidequests.othardian.yanxia.68272",
+                "duty.quests.sidequests.othardian.yanxia.68273",
+                "duty.quests.sidequests.othardian.yanxia.68275",
+                "duty.quests.sidequests.othardian.yanxia.68276",
+                "duty.quests.sidequests.othardian.yanxia.68283",
+                "duty.quests.sidequests.othardian.yanxia.68285",
+                "duty.quests.sidequests.othardian.yanxia.68287"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1790",
+                "travel.aether-currents.sb.yanxia.14"
+            ]
+        },
+        "x68166": {
+            "level": 65,
+            "name_en": "Here There Be Xaela",
+            "name_fr": "En route vers la steppe",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": [
+                68035
+            ],
+            "cNext": [
+                68036
+            ]
+        },
+        "x68036": {
+            "level": 65,
+            "name_en": "The Search for Lord Hien",
+            "name_fr": "Le Ralliement",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": [
+                68166
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68292",
+                68037,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68288",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68289",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68290",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68291",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68293"
+            ]
+        },
+        "x68037": {
+            "level": 65,
+            "name_en": "A Season for War",
+            "name_fr": "Le Tsagaan Sar",
+            "npc_en": "Cirina",
+            "npc_fr": "Cirina",
+            "cPrev": [
+                68036
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68296",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68298",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68299",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68294",
+                68038,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68295",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68297"
+            ]
+        },
+        "x68038": {
+            "level": 65,
+            "name_en": "An Impossible Dream",
+            "name_fr": "L'écho d'un peuple",
+            "npc_en": "Cirina",
+            "npc_fr": "Cirina",
+            "cPrev": [
+                68037
+            ],
+            "cNext": [
+                68039
+            ]
+        },
+        "x68039": {
+            "level": 65,
+            "name_en": "Stars in the Dark",
+            "name_fr": "Oracle prophétique",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68038
+            ],
+            "cNext": [
+                68040,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68303",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68301",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68300",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68302"
+            ]
+        },
+        "x68040": {
+            "level": 65,
+            "name_en": "A Warrior's Welcome",
+            "name_fr": "La tâche capitale",
+            "npc_en": "Cirina",
+            "npc_fr": "Cirina",
+            "cPrev": [
+                68039
+            ],
+            "cNext": [
+                68041,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68305",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68304",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68306"
+            ]
+        },
+        "x68041": {
+            "level": 65,
+            "name_en": "The Heart of Nations",
+            "name_fr": "Bienvenue chez les Mol",
+            "npc_en": "Cirina",
+            "npc_fr": "Cirina",
+            "cPrev": [
+                68040
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68307",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68309",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68308",
+                68042
+            ]
+        },
+        "x68042": {
+            "level": 65,
+            "name_en": "A Trial Before the Trial",
+            "name_fr": "Les aléas de la steppe",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68041
+            ],
+            "cNext": [
+                68043
+            ]
+        },
+        "x68043": {
+            "level": 65,
+            "name_en": "In the Footsteps of Bardam the Brave",
+            "name_fr": "La Force de Bardam",
+            "unlock": "duty.dutyraid-finder.dungeons.sb.2",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68042
+            ],
+            "cNext": [
+                68044
+            ]
+        },
+        "x68044": {
+            "level": 65,
+            "name_en": "The Children of Azim",
+            "name_fr": "L'hospitalité oronir",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68043
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68314",
+                68045,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68311",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68312",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68310",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68313"
+            ]
+        },
+        "x68045": {
+            "level": 66,
+            "name_en": "The Labors of Magnai",
+            "name_fr": "À chacun sa corvée",
+            "npc_en": "Baatu",
+            "npc_fr": "Baatu",
+            "cPrev": [
+                68044
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68315",
+                68046,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68316",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68317"
+            ]
+        },
+        "x68046": {
+            "level": 66,
+            "name_en": "For Love of the Moon",
+            "name_fr": "Un seigneur, des agneaux",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68045
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68318",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68319",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68320",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68321",
+                68047
+            ]
+        },
+        "x68047": {
+            "level": 66,
+            "name_en": "Sworn Enemies of the Sun",
+            "name_fr": "D'une tribu à l'autre",
+            "npc_en": "Magnai",
+            "npc_fr": "Magnai",
+            "cPrev": [
+                68046
+            ],
+            "cNext": [
+                68048
+            ]
+        },
+        "x68048": {
+            "level": 66,
+            "name_en": "The Undying Ones",
+            "name_fr": "À la découverte des Dotharl",
+            "npc_en": "Gosetsu",
+            "npc_fr": "Gosetsu",
+            "cPrev": [
+                68047
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68327",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68326",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68333",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68334",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68322",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68324",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68331",
+                68049,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68323",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68325",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68328",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68329",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68330",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68332"
+            ]
+        },
+        "x68049": {
+            "level": 66,
+            "name_en": "A Final Peace",
+            "name_fr": "Les trompe-la-mort",
+            "npc_en": "Gosetsu",
+            "npc_fr": "Gosetsu",
+            "cPrev": [
+                68048
+            ],
+            "cNext": [
+                68050
+            ]
+        },
+        "x68050": {
+            "level": 66,
+            "name_en": "As the Gods Will",
+            "name_fr": "Liberté retrouvée",
+            "npc_en": "Gosetsu",
+            "npc_fr": "Gosetsu",
+            "cPrev": [
+                68049
+            ],
+            "cNext": [
+                68051
+            ]
+        },
+        "x68051": {
+            "level": 66,
+            "name_en": "Naadam",
+            "name_fr": "Au Naadam!",
+            "unlock": "travel.mount-speed.the-far-east.5",
+            "npc_en": "Cirina",
+            "npc_fr": "Cirina",
+            "cPrev": [
+                68050
+            ],
+            "cNext": [
+                68052
+            ],
+            "cSiblings": [
+                "travel.mount-speed.the-far-east.5"
+            ]
+        },
+        "x68052": {
+            "level": 66,
+            "name_en": "Glory to the Khagan",
+            "name_fr": "Jubilation collective",
+            "unlock": "travel.aether-currents.sb.the-azim-steppe.14",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68051
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-azim-steppe.68337",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68338",
+                68053,
+                "duty.quests.sidequests.othardian.the-azim-steppe.68336",
+                "duty.quests.sidequests.othardian.the-azim-steppe.68339"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.sb.the-azim-steppe.14"
+            ]
+        },
+        "x68053": {
+            "level": 66,
+            "name_en": "In Crimson They Walked",
+            "name_fr": "Tour d'adieu",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68052
+            ],
+            "cNext": [
+                "duty.quests.tribal-quests.namazu.68632",
+                68054
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1791"
+            ]
+        },
+        "x68054": {
+            "level": 66,
+            "name_en": "The Hour of Reckoning",
+            "name_fr": "Retour aux affaires",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68053
+            ],
+            "cNext": [
+                68055
+            ]
+        },
+        "x68055": {
+            "level": 67,
+            "name_en": "The Room Where It Happened",
+            "name_fr": "La soif d'indépendance",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68054
+            ],
+            "cNext": [
+                68482
+            ]
+        },
+        "x68482": {
+            "level": 67,
+            "name_en": "How Tataru Got Her Groove Back",
+            "name_fr": "Tataru l'entremetteuse",
+            "npc_en": "Tataru",
+            "npc_fr": "Tataru",
+            "cPrev": [
+                68055
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.yanxia.68342",
+                "duty.quests.sidequests.othardian.yanxia.68341",
+                "duty.quests.sidequests.othardian.yanxia.68343",
+                "duty.quests.sidequests.othardian.yanxia.68344",
+                "duty.quests.sidequests.othardian.yanxia.68346",
+                "duty.quests.sidequests.othardian.yanxia.68340",
+                68056,
+                "duty.quests.sidequests.othardian.yanxia.68345",
+                "duty.quests.sidequests.othardian.yanxia.68347"
+            ]
+        },
+        "x68056": {
+            "level": 67,
+            "name_en": "Seeds of Despair",
+            "name_fr": "Les germes du désespoir",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68482
+            ],
+            "cNext": [
+                68057
+            ]
+        },
+        "x68057": {
+            "level": 67,
+            "name_en": "The Limits of Our Endurance",
+            "name_fr": "L'union des Domiens",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68056
+            ],
+            "cNext": [
+                68483
+            ]
+        },
+        "x68483": {
+            "level": 67,
+            "name_en": "Broken Steel, Broken Men",
+            "name_fr": "Du métal pour survivre",
+            "npc_en": "Tsuranuki",
+            "npc_fr": "Tsuranuki",
+            "cPrev": [
+                68057
+            ],
+            "cNext": [
+                68058
+            ]
+        },
+        "x68058": {
+            "level": 67,
+            "name_en": "The Doma Within",
+            "name_fr": "Un seigneur et son château",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68483
+            ],
+            "cNext": [
+                68059
+            ]
+        },
+        "x68059": {
+            "level": 67,
+            "name_en": "On the Eve of Destiny",
+            "name_fr": "Un dernier verre",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68058
+            ],
+            "cNext": [
+                68060
+            ]
+        },
+        "x68060": {
+            "level": 67,
+            "name_en": "The Die Is Cast",
+            "name_fr": "L'aube de la libération",
+            "unlock": "duty.dutyraid-finder.dungeons.sb.3",
+            "npc_en": "Hien",
+            "npc_fr": "Hien",
+            "cPrev": [
+                68059
+            ],
+            "cNext": [
+                68061
+            ]
+        },
+        "x68061": {
+            "level": 67,
+            "name_en": "The World Turned Upside Down",
+            "name_fr": "Doma retrouvée",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68060
+            ],
+            "cNext": [
+                "duty.quests.sidequests.hingan.kugane.68349",
+                "duty.quests.sidequests.hingan.kugane.68350",
+                "duty.quests.sidequests.hingan.kugane.68351",
+                68062,
+                "duty.quests.sidequests.hingan.kugane.68348"
+            ]
+        },
+        "x68062": {
+            "level": 67,
+            "name_en": "A Swift and Secret Departure",
+            "name_fr": "Un départ discret",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68061
+            ],
+            "cNext": [
+                68063
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1792"
+            ]
+        },
+        "x68063": {
+            "level": 67,
+            "name_en": "While You Were Away",
+            "name_fr": "Accueil inattendu au port",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68062
+            ],
+            "cNext": [
+                68064
+            ]
+        },
+        "x68064": {
+            "level": 67,
+            "name_en": "Rhalgr's Beacon",
+            "name_fr": "La Comète de Rhalgr",
+            "npc_en": "Raubahn",
+            "npc_fr": "Raubahn",
+            "cPrev": [
+                68063
+            ],
+            "cNext": [
+                68065
+            ]
+        },
+        "x68065": {
+            "level": 67,
+            "name_en": "The Fortunes of War",
+            "name_fr": "La chasse aux ennemis",
+            "npc_en": "Conrad",
+            "npc_fr": "Conrad",
+            "cPrev": [
+                68064
+            ],
+            "cNext": [
+                68066
+            ]
+        },
+        "x68066": {
+            "level": 67,
+            "name_en": "Rising Fortunes, Rising Spirits",
+            "name_fr": "Bienvenue chez les M",
+            "npc_en": "Conrad",
+            "npc_fr": "Conrad",
+            "cPrev": [
+                68065
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68357",
+                68067,
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68356"
+            ]
+        },
+        "x68067": {
+            "level": 67,
+            "name_en": "The Lure of the Dream",
+            "name_fr": "Deux tribus, une déesse",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68066
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68352",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68354",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68355",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68353",
+                68068
+            ]
+        },
+        "x68068": {
+            "level": 67,
+            "name_en": "The Lady of Bliss",
+            "name_fr": "Lakshmi",
+            "unlock": [
+                "duty.dutyraid-finder.trials.sb.1",
+                "travel.mount-speed.gyr-abania.1"
+            ],
+            "npc_en": "Vajra",
+            "npc_fr": "Vajra",
+            "cPrev": [
+                68067
+            ],
+            "cNext": [
+                68069
+            ],
+            "cSiblings": [
+                "travel.mount-speed.gyr-abania.1"
+            ]
+        },
+        "x68069": {
+            "level": 67,
+            "name_en": "The Silence of the Gods",
+            "name_fr": "L'hospitalité des M",
+            "unlock": "travel.aether-currents.sb.the-fringes.14",
+            "npc_en": "Vajra",
+            "npc_fr": "Vajra",
+            "cPrev": [
+                68068
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68358",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68362",
+                68070,
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68359",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68360",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68361",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68363",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68364"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.sb.the-fringes.14"
+            ]
+        },
+        "x68070": {
+            "level": 68,
+            "name_en": "The First of Many",
+            "name_fr": "En route vers Les Pics",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68069
+            ],
+            "cNext": [
+                68071
+            ]
+        },
+        "x68071": {
+            "level": 68,
+            "name_en": "Strong and Unified",
+            "name_fr": "Conseil militaire à Ala Ghiri",
+            "npc_en": "M'naago",
+            "npc_fr": "M'naago",
+            "cPrev": [
+                68070
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68366",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68365",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68368",
+                68072,
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68367",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68369"
+            ]
+        },
+        "x68072": {
+            "level": 68,
+            "name_en": "Hells Open",
+            "name_fr": "Une mission de soutien",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68071
+            ],
+            "cNext": [
+                68073
+            ]
+        },
+        "x68073": {
+            "level": 68,
+            "name_en": "Heavens Weep",
+            "name_fr": "Chaos à Specula Imperatoris",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68072
+            ],
+            "cNext": [
+                68074
+            ]
+        },
+        "x68074": {
+            "level": 68,
+            "name_en": "The Road Home",
+            "name_fr": "Un triste repli",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68073
+            ],
+            "cNext": [
+                68075
+            ]
+        },
+        "x68075": {
+            "level": 68,
+            "name_en": "For the Living and the Dead",
+            "name_fr": "La peine au fond du cœur",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68074
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68370",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68371",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68373",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68383",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68384",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68382",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68372",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68374",
+                68076
+            ]
+        },
+        "x68076": {
+            "level": 68,
+            "name_en": "Above the Churning Waters",
+            "name_fr": "Avec vue sur la forteresse",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68075
+            ],
+            "cNext": [
+                68077
+            ]
+        },
+        "x68077": {
+            "level": 68,
+            "name_en": "The Path Forward",
+            "name_fr": "L'atout de Pipin",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68076
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68378",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68380",
+                68078,
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68375",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68376",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68377",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68379",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68381"
+            ]
+        },
+        "x68078": {
+            "level": 68,
+            "name_en": "With Tired Hands We Toil",
+            "name_fr": "À la solde de l'ennemi",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68077
+            ],
+            "cNext": [
+                68079
+            ]
+        },
+        "x68079": {
+            "level": 68,
+            "name_en": "Where Courage Endures",
+            "name_fr": "Du courage au cœur",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68078
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68387",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68391",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68389",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68385",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68386",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68388",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68390",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68392",
+                68080
+            ]
+        },
+        "x68080": {
+            "level": 69,
+            "name_en": "The Price of Freedom",
+            "name_fr": "Infiltration à Castrum Abania",
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.sb.4",
+                "travel.mount-speed.gyr-abania.3"
+            ],
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68079
+            ],
+            "cNext": [
+                68081
+            ],
+            "cSiblings": [
+                "travel.mount-speed.gyr-abania.3"
+            ]
+        },
+        "x68081": {
+            "level": 69,
+            "name_en": "Raubahn's Invitation",
+            "name_fr": "Le calcul de Raubahn",
+            "npc_en": "Raubahn",
+            "npc_fr": "Raubahn",
+            "cPrev": [
+                68080
+            ],
+            "cNext": [
+                68082,
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68396",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68399",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68400",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68394",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68393",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68395",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68397",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68398",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68401"
+            ]
+        },
+        "x68082": {
+            "level": 69,
+            "name_en": "Liberty or Death",
+            "name_fr": "La liberté ou la mort!",
+            "unlock": "travel.aether-currents.sb.the-peaks.14",
+            "npc_en": "Raubahn",
+            "npc_fr": "Raubahn",
+            "cPrev": [
+                68081
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68402",
+                68083,
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68403"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.sb.the-peaks.14"
+            ]
+        },
+        "x68083": {
+            "level": 69,
+            "name_en": "The Lady in Red",
+            "name_fr": "Dans le creux de la main",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68082
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68404",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68412",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68406",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68407",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68411",
+                68084,
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68405",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68408",
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68409",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68410"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1793"
+            ]
+        },
+        "x68084": {
+            "level": 69,
+            "name_en": "Upon the Great Loch's Shore",
+            "name_fr": "Rassemblements aux Lacs",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68083
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68413",
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68416",
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68415",
+                68085,
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68414"
+            ]
+        },
+        "x68085": {
+            "level": 69,
+            "name_en": "The Key to Victory",
+            "name_fr": "La clef des canaux",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68084
+            ],
+            "cNext": [
+                68086
+            ]
+        },
+        "x68086": {
+            "level": 69,
+            "name_en": "The Resonant",
+            "name_fr": "La ruse d'Urianger",
+            "unlock": "travel.mount-speed.gyr-abania.5",
+            "npc_en": "Lyse",
+            "npc_fr": "Lyse",
+            "cPrev": [
+                68085
+            ],
+            "cNext": [
+                68087
+            ],
+            "cSiblings": [
+                "travel.mount-speed.gyr-abania.5"
+            ]
+        },
+        "x68087": {
+            "level": 69,
+            "name_en": "The Legacy of Our Fathers",
+            "name_fr": "La marche pour la liberté",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68086
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68417",
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68419",
+                68088,
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68418",
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68420"
+            ]
+        },
+        "x68088": {
+            "level": 70,
+            "name_en": "The Measure of His Reach",
+            "name_fr": "La grande porte d'Ala Mhigo",
+            "npc_en": "Raubahn",
+            "npc_fr": "Raubahn",
+            "cPrev": [
+                68087
+            ],
+            "cNext": [
+                68089
+            ]
+        },
+        "x68089": {
+            "level": 70,
+            "name_en": "Stormblood",
+            "name_fr": "Tempête de sang",
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.sb.5",
+                "duty.dutyraid-finder.trials.sb.2",
+                "travel.aether-currents.sb.the-lochs.14",
+                "travel.mount-speed.gyr-abania.0",
+                "travel.mount-speed.the-far-east.0"
+            ],
+            "npc_en": "Pipin",
+            "npc_fr": "Pipin",
+            "cPrev": [
+                68088
+            ],
+            "cNext": [
+                "duty.quests.sidequests.weapon-enhancement-sidequests.the-forbidden-land-eureka.68614",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68476",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68421",
+                "duty.quests.sidequests.uldahn.southern-thanalan.68422",
+                "duty.quests.other.special.collaboration.67090",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68169",
+                "duty.quests.sidequests.hingan.kugane.68170",
+                "duty.quests.sidequests.uldahn.southern-thanalan.68423",
+                "duty.quests.sidequests.gyr-abanian.the-peaks.68424",
+                "duty.quests.sidequests.gyr-abanian.the-lochs.68425",
+                "duty.quests.chronicles-of-a-new-era.omega.68464",
+                "duty.quests.other.quasi-quests.68479",
+                "duty.quests.main-scenario.post-stormblood.68498",
+                "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68539",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68613",
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68678",
+                "duty.quests.sidequests.dravanian.idyllshire.68713",
+                "duty.quests.sidequests.hildibrand-sidequests.even-further-hildibrand-adventures.68544"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1794",
+                "travel.aether-currents.sb.the-lochs.14",
+                "travel.mount-speed.gyr-abania.0",
+                "travel.mount-speed.the-far-east.0"
+            ]
+        }
+    }
+}

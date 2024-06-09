@@ -1,0 +1,120 @@
+{
+    "key": "archer",
+    "groupName_en": "Archer",
+    "groupName_fr": "Quêtes d'archer",
+    "tasks": {
+        "x65667": {
+            "level": 1,
+            "name_en": "Way of the Archer",
+            "name_fr": "La voie de l'archerie",
+            "npc_en": "Athelyna",
+            "npc_fr": "Athelyna",
+            "cPrev": [
+                "duty.quests.other.quasi-quests.65717"
+            ],
+            "cNext": [
+                65755,
+                65670
+            ]
+        },
+        "x65755": {
+            "level": 1,
+            "name_en": "My First Bow",
+            "name_fr": "L'enfance de l'arc",
+            "npc_en": "Luciane",
+            "npc_fr": "Luciane",
+            "cPrev": [
+                65667
+            ],
+            "cNext": [
+                65582
+            ]
+        },
+        "x65582": {
+            "level": 5,
+            "name_en": "A Matter of Perspective",
+            "name_fr": "L'arc et le regard",
+            "npc_en": "Luciane",
+            "npc_fr": "Luciane",
+            "cPrev": [
+                65755
+            ],
+            "cNext": [
+                65670
+            ]
+        },
+        "x65670": {
+            "level": 10,
+            "name_en": "Training with Leih",
+            "name_fr": "Connaître ses ennemis",
+            "npc_en": "Luciane",
+            "npc_fr": "Luciane",
+            "cPrev": [
+                65582,
+                65667
+            ],
+            "cNext": [
+                65604
+            ]
+        },
+        "x65604": {
+            "level": 15,
+            "name_en": "Violators Will Be Shot",
+            "name_fr": "L'arc et la manière",
+            "npc_en": "Luciane",
+            "npc_fr": "Luciane",
+            "cPrev": [
+                65670
+            ],
+            "cNext": [
+                65606
+            ]
+        },
+        "x65606": {
+            "level": 20,
+            "name_en": "To Catch a Poacher",
+            "name_fr": "La proie pour l'ombre",
+            "npc_en": "Luciane",
+            "npc_fr": "Luciane",
+            "cPrev": [
+                65604
+            ],
+            "cNext": [
+                65607
+            ]
+        },
+        "x65607": {
+            "level": 25,
+            "name_en": "Homecoming",
+            "name_fr": "Fuite en avant",
+            "npc_en": "Luciane",
+            "npc_fr": "Luciane",
+            "cPrev": [
+                65606
+            ],
+            "cNext": [
+                65612
+            ]
+        },
+        "x65612": {
+            "level": 30,
+            "name_en": "The One That Got Away",
+            "name_fr": "Droit comme une flèche",
+            "npc_en": "Luciane",
+            "npc_fr": "Luciane",
+            "cPrev": [
+                65607
+            ],
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war-job.bard.66621"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.46"
+            ],
+            "cCombo": [
+                "character.achievement.quests.job-role-quests.313",
+                "character.achievement.quests.job-role-quests.314"
+            ]
+        }
+    }
+}

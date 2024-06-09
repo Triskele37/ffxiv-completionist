@@ -1,0 +1,98 @@
+{
+    "key": "faculty-of-aetherology",
+    "groupName_en": "Faculty of Aetherology",
+    "groupName_fr": "Quêtes du département d'éthérologie",
+    "tasks": {
+        "x69696": {
+            "level": 80,
+            "name_en": "Fear the Thesis",
+            "name_fr": "L'éthérologue au mal d'éther",
+            "npc_en": "T'laqa Tia",
+            "npc_fr": "T'laqa Tia",
+            "cPrev": [
+                "duty.quests.class--job.studium.70009"
+            ],
+            "cNext": [
+                69697
+            ]
+        },
+        "x69697": {
+            "level": 80,
+            "name_en": "Go with the Flow",
+            "name_fr": "La théorie des marées d'éther",
+            "npc_en": "T'laqa Tia",
+            "npc_fr": "T'laqa Tia",
+            "cPrev": [
+                69696
+            ],
+            "cNext": [
+                69698
+            ]
+        },
+        "x69698": {
+            "level": 83,
+            "name_en": "Data across the Decades",
+            "name_fr": "Des poissons qui font des vagues",
+            "npc_en": "T'laqa Tia",
+            "npc_fr": "T'laqa Tia",
+            "cPrev": [
+                69697
+            ],
+            "cNext": [
+                69699
+            ]
+        },
+        "x69699": {
+            "level": 85,
+            "name_en": "History Lesson",
+            "name_fr": "Passé écrit dans des coquilles",
+            "npc_en": "T'laqa Tia",
+            "npc_fr": "T'laqa Tia",
+            "cPrev": [
+                69698
+            ],
+            "cNext": [
+                69700
+            ]
+        },
+        "x69700": {
+            "level": 85,
+            "name_en": "The Wandering Whale",
+            "name_fr": "Baleine égarée et flux irréguliers",
+            "npc_en": "T'laqa Tia",
+            "npc_fr": "T'laqa Tia",
+            "cPrev": [
+                69699
+            ],
+            "cNext": [
+                69701
+            ]
+        },
+        "x69701": {
+            "level": 88,
+            "name_en": "Fish Time Forgot",
+            "name_fr": "Fraîchement pêchés du passé",
+            "npc_en": "T'laqa Tia",
+            "npc_fr": "T'laqa Tia",
+            "cPrev": [
+                69700
+            ],
+            "cNext": [
+                69702
+            ]
+        },
+        "x69702": {
+            "level": 90,
+            "name_en": "Pastures New",
+            "name_fr": "Vers de nouveaux horizons éthérologiques",
+            "npc_en": "T'laqa Tia",
+            "npc_fr": "T'laqa Tia",
+            "cPrev": [
+                69701
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.2970"
+            ]
+        }
+    }
+}

@@ -1,0 +1,224 @@
+{
+    "key": "record",
+    "groupName_en": "Record",
+    "groupName_fr": "Record",
+    "headers": {
+        "entry": {
+            "width": 100,
+            "header_en": "Entry",
+            "header_fr": "Entry"
+        },
+        "name": {
+            "header_en": "Name",
+            "header_fr": "Name"
+        },
+        "steps": {
+            "header_en": "Steps",
+            "header_fr": "Steps"
+        },
+        "patch": {
+            "header_en": "Patch",
+            "header_fr": "Patch"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Whom the Silkie Serves",
+            "name_fr": "Whom the Silkie Serves",
+            "patch": "6.25",
+            "entry": "1",
+            "steps_en": [
+                "Take the left path",
+                "Complete the eyes puzzle successfully",
+                "Open the hidden door before Nanamo opens the gate"
+            ],
+            "steps_fr": [
+                "Take the left path",
+                "Complete the eyes puzzle successfully",
+                "Open the hidden door before Nanamo opens the gate"
+            ]
+        },
+        "x1": {
+            "name_en": "Pride and Acceptance",
+            "name_fr": "Pride and Acceptance",
+            "patch": "6.25",
+            "entry": "2",
+            "steps_en": [
+                "Take the left path",
+                "Complete the eyes puzzle successfully",
+                "Do not open the hidden door"
+            ],
+            "steps_fr": [
+                "Take the left path",
+                "Complete the eyes puzzle successfully",
+                "Do not open the hidden door"
+            ]
+        },
+        "x2": {
+            "name_en": "A Spot in the Sunlight",
+            "name_fr": "A Spot in the Sunlight",
+            "patch": "6.25",
+            "entry": "3",
+            "steps_en": [
+                "Take the left path",
+                "Fail the eyes puzzle",
+                "Get hit by cotton spores"
+            ],
+            "steps_fr": [
+                "Take the left path",
+                "Fail the eyes puzzle",
+                "Get hit by cotton spores"
+            ]
+        },
+        "x3": {
+            "name_en": "A Key Memory",
+            "name_fr": "A Key Memory",
+            "patch": "6.25",
+            "entry": "4",
+            "steps_en": [
+                "Take the left path",
+                "Fail the eyes puzzle",
+                "Do not get hit by cotton spores"
+            ],
+            "steps_fr": [
+                "Take the left path",
+                "Fail the eyes puzzle",
+                "Do not get hit by cotton spores"
+            ]
+        },
+        "x4": {
+            "name_en": "In Father's Stead",
+            "name_fr": "In Father's Stead",
+            "patch": "6.25",
+            "entry": "5",
+            "steps_en": [
+                "Take the right path",
+                "Take the left lift",
+                "Choose \"The blessed spark\""
+            ],
+            "steps_fr": [
+                "Take the right path",
+                "Take the left lift",
+                "Choose \"The blessed spark\""
+            ]
+        },
+        "x5": {
+            "name_en": "Ul'dah's Sin to Bear",
+            "name_fr": "Ul'dah's Sin to Bear",
+            "patch": "6.25",
+            "entry": "6",
+            "steps_en": [
+                "Take the right path",
+                "Take the left lift",
+                "Choose \"The sacred fire\""
+            ],
+            "steps_fr": [
+                "Take the right path",
+                "Take the left lift",
+                "Choose \"The sacred fire\""
+            ]
+        },
+        "x6": {
+            "name_en": "To Learn More of Myrrh",
+            "name_fr": "To Learn More of Myrrh",
+            "patch": "6.25",
+            "entry": "7",
+            "steps_en": [
+                "Take the right path",
+                "Take the right lift",
+                "Kill the drakes largest to smallest",
+                "Interact with the Myrrh Incense Burner"
+            ],
+            "steps_fr": [
+                "Take the right path",
+                "Take the right lift",
+                "Kill the drakes largest to smallest",
+                "Interact with the Myrrh Incense Burner"
+            ]
+        },
+        "x7": {
+            "name_en": "Ul'dah and Sil'dih",
+            "name_fr": "Ul'dah and Sil'dih",
+            "patch": "6.25",
+            "entry": "8",
+            "steps_en": [
+                "Take the middle path",
+                "Fail the scale puzzle",
+                "Use the right lever"
+            ],
+            "steps_fr": [
+                "Take the middle path",
+                "Fail the scale puzzle",
+                "Use the right lever"
+            ]
+        },
+        "x8": {
+            "name_en": "Raising the Flags",
+            "name_fr": "Raising the Flags",
+            "patch": "6.25",
+            "entry": "9",
+            "steps_en": [
+                "Take the middle path",
+                "Fail the scale puzzle",
+                "Use the left lever"
+            ],
+            "steps_fr": [
+                "Take the middle path",
+                "Fail the scale puzzle",
+                "Use the left lever"
+            ]
+        },
+        "x9": {
+            "name_en": "My Mother's Eyes",
+            "name_fr": "My Mother's Eyes",
+            "patch": "6.25",
+            "entry": "10",
+            "steps_en": [
+                "Take the middle path",
+                "Complete the scale puzzle successfully",
+                "Interact with the Nald statue"
+            ],
+            "steps_fr": [
+                "Take the middle path",
+                "Complete the scale puzzle successfully",
+                "Interact with the Nald statue"
+            ]
+        },
+        "x10": {
+            "name_en": "The Thorne Legacy",
+            "name_fr": "The Thorne Legacy",
+            "patch": "6.25",
+            "entry": "11",
+            "steps_en": [
+                "Take the middle path",
+                "Complete the scale puzzle successfully",
+                "Interact with the Thal statue"
+            ],
+            "steps_fr": [
+                "Take the middle path",
+                "Complete the scale puzzle successfully",
+                "Interact with the Thal statue"
+            ]
+        },
+        "x11": {
+            "name_en": "In Parchment We Trust",
+            "name_fr": "In Parchment We Trust",
+            "patch": "6.25",
+            "entry": "12",
+            "steps_en": [
+                "Take the right path",
+                "Take the right lift",
+                "Kill the drakes largest to smallest",
+                "Interact with the Myrrh Incense Burner",
+                "Perform /bow, /respect, /vpose, and /kneel at the sarcophagus"
+            ],
+            "steps_fr": [
+                "Take the right path",
+                "Take the right lift",
+                "Kill the drakes largest to smallest",
+                "Interact with the Myrrh Incense Burner",
+                "Perform /bow, /respect, /vpose, and /kneel at the sarcophagus"
+            ]
+        }
+    }
+}

@@ -1,0 +1,284 @@
+{
+    "key": "white-mage",
+    "groupName_en": "White Mage",
+    "groupName_fr": "Quêtes de mage blanc",
+    "tasks": {
+        "x66615": {
+            "level": 30,
+            "name_en": "Seer Folly",
+            "name_fr": "L'héritage d'un grand homme",
+            "npc_en": "E-Sumi-Yan",
+            "npc_fr": "E-Sumi-Yan",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-magic.conjurer.65977",
+                "duty.quests.main-scenario.seventh-umbral-era.66049"
+            ],
+            "cNext": [
+                66616
+            ],
+            "cSiblings": [
+                "character.adventure-plate.16"
+            ]
+        },
+        "x66616": {
+            "level": 35,
+            "name_en": "Only You Can Prevent Forest Ire",
+            "name_fr": "La colère est une souffrance",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": [
+                66615
+            ],
+            "cNext": [
+                66617
+            ]
+        },
+        "x66617": {
+            "level": 40,
+            "name_en": "O Brother, Where Art Thou",
+            "name_fr": "La vanité est une faiblesse",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": [
+                66616
+            ],
+            "cNext": [
+                66618
+            ]
+        },
+        "x66618": {
+            "level": 45,
+            "name_en": "Following in His Footsteps",
+            "name_fr": "Sur les traces du pèlerin",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": [
+                66617
+            ],
+            "cNext": [
+                66619
+            ]
+        },
+        "x66619": {
+            "level": 45,
+            "name_en": "Yearn for the Urn",
+            "name_fr": "Un acte impardonnable",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": [
+                66618
+            ],
+            "cNext": [
+                66620
+            ]
+        },
+        "x66620": {
+            "level": 50,
+            "name_en": "Heart of the Forest",
+            "name_fr": "Devoir de guérison",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": [
+                66619
+            ],
+            "cNext": [
+                66660,
+                67255
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.412"
+            ]
+        },
+        "x66660": {
+            "level": 50,
+            "name_en": "A Relic Reborn (Thyrus)",
+            "name_fr": "Restauration du Thyrse",
+            "npc_en": "Gerolt",
+            "npc_fr": "Gerolt",
+            "cPrev": [
+                66620,
+                "duty.quests.sidequests.uldahn.western-thanalan.66241"
+            ]
+        },
+        "x67255": {
+            "level": 50,
+            "name_en": "Taint Misbehaving",
+            "name_fr": "Un voyage inattendu",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": [
+                66620,
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                67256
+            ]
+        },
+        "x67256": {
+            "level": 52,
+            "name_en": "A Journey of Purification",
+            "name_fr": "Créatures sous influence",
+            "npc_en": "Eschiva",
+            "npc_fr": "Eschiva",
+            "cPrev": [
+                67255
+            ],
+            "cNext": [
+                67257
+            ]
+        },
+        "x67257": {
+            "level": 54,
+            "name_en": "The Girl with the Dragon Tissue",
+            "name_fr": "La traqueuse de dragons",
+            "npc_en": "Eschiva",
+            "npc_fr": "Eschiva",
+            "cPrev": [
+                67256
+            ],
+            "cNext": [
+                67258
+            ]
+        },
+        "x67258": {
+            "level": 56,
+            "name_en": "The Dark Blight Writhes",
+            "name_fr": "Le pouvoir de guérison",
+            "npc_en": "Eschiva",
+            "npc_fr": "Eschiva",
+            "cPrev": [
+                67257
+            ],
+            "cNext": [
+                67259
+            ]
+        },
+        "x67259": {
+            "level": 58,
+            "name_en": "In the Wake of Death",
+            "name_fr": "La paria aoranne",
+            "npc_en": "Eschiva",
+            "npc_fr": "Eschiva",
+            "cPrev": [
+                67258
+            ],
+            "cNext": [
+                67260
+            ]
+        },
+        "x67260": {
+            "level": 58,
+            "name_en": "Trials of the Padjals",
+            "name_fr": "Le dilemme des Padjals",
+            "npc_en": "Eschiva",
+            "npc_fr": "Eschiva",
+            "cPrev": [
+                67259
+            ],
+            "cNext": [
+                67261
+            ]
+        },
+        "x67261": {
+            "level": 60,
+            "name_en": "Hands of Healing",
+            "name_fr": "Soigner le monde",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": [
+                67260
+            ],
+            "cNext": [
+                67950
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1146"
+            ]
+        },
+        "x67950": {
+            "level": 60,
+            "name_en": "Unease in East End",
+            "name_fr": "Le bruissement des Confins est",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": [
+                67261,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                67951
+            ]
+        },
+        "x67951": {
+            "level": 63,
+            "name_en": "An Aura for Trouble",
+            "name_fr": "Un aimant à problèmes",
+            "npc_en": "Sylphie",
+            "npc_fr": "Sylphie",
+            "cPrev": [
+                67950
+            ],
+            "cNext": [
+                67952
+            ]
+        },
+        "x67952": {
+            "level": 65,
+            "name_en": "A Beacon for Bad Things",
+            "name_fr": "Fatale puissance",
+            "npc_en": "Sylphie",
+            "npc_fr": "Sylphie",
+            "cPrev": [
+                67951
+            ],
+            "cNext": [
+                67953
+            ]
+        },
+        "x67953": {
+            "level": 68,
+            "name_en": "The Problem with Padjals",
+            "name_fr": "La règle de Gridania",
+            "npc_en": "Sylphie",
+            "npc_fr": "Sylphie",
+            "cPrev": [
+                67952
+            ],
+            "cNext": [
+                67954
+            ]
+        },
+        "x67954": {
+            "level": 70,
+            "name_en": "What She Always Wanted",
+            "name_fr": "Le trésor d'une Padjale",
+            "npc_en": "Sylphie",
+            "npc_fr": "Sylphie",
+            "cPrev": [
+                67953
+            ],
+            "cNext": [
+                68751
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1802"
+            ]
+        },
+        "x68751": {
+            "level": 80,
+            "name_en": "Whence the Healing Springs",
+            "name_fr": "Où l'élémentalisme puise sa source",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": [
+                67954,
+                "duty.quests.class--job.role.shb.68808",
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.15",
+                "character.achievement.quests.job-role-quests.2311"
+            ]
+        }
+    }
+}

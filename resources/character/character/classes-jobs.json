@@ -1,0 +1,1595 @@
+{
+    "key": "classes--jobs",
+    "groupName_en": "Classes & Jobs",
+    "groupName_fr": "Classes & Jobs",
+    "headers": {
+        "name": {
+            "header_en": "Job / Class",
+            "header_fr": "Job / Classe"
+        },
+        "role": {
+            "filterable": true,
+            "header_en": "Role",
+            "header_fr": "Rôle"
+        },
+        "startingQuest": {
+            "link": true,
+            "header_en": "Starting Quest",
+            "header_fr": "Quête de départ"
+        },
+        "patch": {
+            "header_en": "Patch",
+            "header_fr": "Patch"
+        }
+    },
+    "defaultCompletion": 0,
+    "isNumericCompletion": true,
+    "tasks": {
+        "x0": {
+            "name_en": "Paladin / Gladiator",
+            "name_fr": "Paladin / Gladiateur",
+            "patch": "2.0",
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-war.gladiator.65821",
+                "duty.quests.class--job.disciple-of-war-job.paladin.66591"
+            ],
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-war.19"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-war.20"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-war.21"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-war.22"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-war.23"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-war.1167"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-war.1814"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-war.2246"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-war.2892"
+                ]
+            },
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.44"
+                ],
+                "60": [
+                    "character.achievement.character.general.1188"
+                ],
+                "70": [
+                    "character.achievement.character.general.1832"
+                ],
+                "80": [
+                    "character.achievement.character.general.2275"
+                ],
+                "90": [
+                    "character.achievement.character.general.2923"
+                ]
+            }
+        },
+        "x1": {
+            "name_en": "Warrior / Marauder",
+            "name_fr": "Guerrier / Maraudeur",
+            "patch": "2.0",
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-war.marauder.65846",
+                "duty.quests.class--job.disciple-of-war-job.warrior.66585"
+            ],
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-war.29"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-war.30"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-war.31"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-war.32"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-war.33"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-war.1169"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-war.1816"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-war.2248"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-war.2894"
+                ]
+            },
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.44"
+                ],
+                "60": [
+                    "character.achievement.character.general.1188"
+                ],
+                "70": [
+                    "character.achievement.character.general.1832"
+                ],
+                "80": [
+                    "character.achievement.character.general.2275"
+                ],
+                "90": [
+                    "character.achievement.character.general.2923"
+                ]
+            }
+        },
+        "x2": {
+            "name_en": "Dark Knight",
+            "name_fr": "Chevalier noir",
+            "patch": "3.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-war-job.dark-knight.67589",
+            "minValue": 30,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "30": [
+                    "character.achievement.character.disciple-of-war.1176"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-war.1177"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-war.1178"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-war.1179"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-war.1823"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-war.2255"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-war.2901"
+                ]
+            },
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "cComboAt": {
+                "60": [
+                    "character.achievement.character.general.1188"
+                ],
+                "70": [
+                    "character.achievement.character.general.1832"
+                ],
+                "80": [
+                    "character.achievement.character.general.2275"
+                ],
+                "90": [
+                    "character.achievement.character.general.2923"
+                ]
+            }
+        },
+        "x3": {
+            "name_en": "Gunbreaker",
+            "name_fr": "Pistosabreur",
+            "patch": "5.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-war-job.gunbreaker.68797",
+            "minValue": 60,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "70": [
+                    "character.achievement.character.disciple-of-war.2260"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-war.2261"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-war.2906"
+                ]
+            },
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "cComboAt": {
+                "80": [
+                    "character.achievement.character.general.2275"
+                ],
+                "90": [
+                    "character.achievement.character.general.2923"
+                ]
+            }
+        },
+        "x4": {
+            "name_en": "White Mage / Conjurer",
+            "name_fr": "Mage blanc / Élémentaliste",
+            "patch": "2.0",
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-magic.conjurer.65669",
+                "duty.quests.class--job.disciple-of-magic-job.white-mage.66615"
+            ],
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-magic.45"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-magic.46"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-magic.47"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-magic.48"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-magic.49"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-magic.1172"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-magic.1819"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-magic.2251"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-magic.2897"
+                ]
+            },
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.55"
+                ],
+                "60": [
+                    "character.achievement.character.general.1189"
+                ],
+                "70": [
+                    "character.achievement.character.general.1833"
+                ],
+                "80": [
+                    "character.achievement.character.general.2276"
+                ],
+                "90": [
+                    "character.achievement.character.general.2924"
+                ]
+            }
+        },
+        "x5": {
+            "name_en": "Scholar / Arcanist",
+            "name_fr": "Érudit / Arcaniste",
+            "patch": "2.0",
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-magic.arcanist.65988",
+                "duty.quests.class--job.disciple-of-magic-job.scholar.66633"
+            ],
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-magic.592"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-magic.593"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-magic.594"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-magic.595"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-magic.596"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-magic.1174"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-magic.1821"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-magic.2253"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-magic.2899"
+                ]
+            },
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "cSiblings": [
+                15
+            ],
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.55"
+                ],
+                "60": [
+                    "character.achievement.character.general.1189"
+                ],
+                "70": [
+                    "character.achievement.character.general.1833"
+                ],
+                "80": [
+                    "character.achievement.character.general.2276"
+                ],
+                "90": [
+                    "character.achievement.character.general.2924"
+                ]
+            }
+        },
+        "x6": {
+            "name_en": "Astrologian",
+            "name_fr": "Astromancien",
+            "patch": "3.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-magic-job.astrologian.67548",
+            "minValue": 30,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "30": [
+                    "character.achievement.character.disciple-of-magic.1184"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-magic.1185"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-magic.1186"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-magic.1187"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-magic.1825"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-magic.2257"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-magic.2903"
+                ]
+            },
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "cComboAt": {
+                "60": [
+                    "character.achievement.character.general.1189"
+                ],
+                "70": [
+                    "character.achievement.character.general.1833"
+                ],
+                "80": [
+                    "character.achievement.character.general.2276"
+                ],
+                "90": [
+                    "character.achievement.character.general.2924"
+                ]
+            }
+        },
+        "x29": {
+            "name_en": "Sage",
+            "name_fr": "Sage",
+            "patch": "6.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-magic-job.sage.69603",
+            "minValue": 70,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "80": [
+                    "character.achievement.character.disciple-of-magic.2910"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-magic.2911"
+                ]
+            },
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "cComboAt": {
+                "90": [
+                    "character.achievement.character.general.2924"
+                ]
+            }
+        },
+        "x7": {
+            "name_en": "Monk / Pugilist",
+            "name_fr": "Moine / Pugiliste",
+            "patch": "2.0",
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-war.pugilist.66068",
+                "duty.quests.class--job.disciple-of-war-job.monk.66597"
+            ],
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-war.24"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-war.25"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-war.26"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-war.27"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-war.28"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-war.1168"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-war.1815"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-war.2247"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-war.2893"
+                ]
+            },
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.44"
+                ],
+                "60": [
+                    "character.achievement.character.general.1188"
+                ],
+                "70": [
+                    "character.achievement.character.general.1832"
+                ],
+                "80": [
+                    "character.achievement.character.general.2275"
+                ],
+                "90": [
+                    "character.achievement.character.general.2923"
+                ]
+            }
+        },
+        "x8": {
+            "name_en": "Dragoon / Lancer",
+            "name_fr": "Chevalier dragon / Maître d'hast",
+            "patch": "2.0",
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-war.lancer.65668",
+                "duty.quests.class--job.disciple-of-war-job.dragoon.66603"
+            ],
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-war.34"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-war.35"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-war.36"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-war.37"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-war.38"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-war.1170"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-war.1817"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-war.2249"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-war.2895"
+                ]
+            },
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.44"
+                ],
+                "60": [
+                    "character.achievement.character.general.1188"
+                ],
+                "70": [
+                    "character.achievement.character.general.1832"
+                ],
+                "80": [
+                    "character.achievement.character.general.2275"
+                ],
+                "90": [
+                    "character.achievement.character.general.2923"
+                ]
+            }
+        },
+        "x9": {
+            "name_en": "Ninja / Rogue",
+            "name_fr": "Ninja / Surineur",
+            "patch": "2.4",
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-war.rogue.65638",
+                "duty.quests.class--job.disciple-of-war-job.ninja.65748"
+            ],
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-war.1046"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-war.1047"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-war.1048"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-war.1049"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-war.1050"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-war.1175"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-war.1822"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-war.2254"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-war.2900"
+                ]
+            },
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "cComboAt": {
+                "60": [
+                    "character.achievement.character.general.1188"
+                ],
+                "70": [
+                    "character.achievement.character.general.1832"
+                ],
+                "80": [
+                    "character.achievement.character.general.2275"
+                ],
+                "90": [
+                    "character.achievement.character.general.2923"
+                ]
+            }
+        },
+        "x10": {
+            "name_en": "Samurai",
+            "name_fr": "Samouraï",
+            "patch": "4.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-war-job.samurai.68095",
+            "minValue": 50,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "50": [
+                    "character.achievement.character.disciple-of-war.1829"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-war.1830"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-war.1831"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-war.2259"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-war.2905"
+                ]
+            },
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "cComboAt": {
+                "70": [
+                    "character.achievement.character.general.1832"
+                ],
+                "80": [
+                    "character.achievement.character.general.2275"
+                ],
+                "90": [
+                    "character.achievement.character.general.2923"
+                ]
+            }
+        },
+        "x30": {
+            "name_en": "Reaper",
+            "name_fr": "Faucheur",
+            "patch": "6.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-war-job.reaper.69609",
+            "minValue": 70,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "80": [
+                    "character.achievement.character.disciple-of-war.2908"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-war.2909"
+                ]
+            },
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "cComboAt": {
+                "90": [
+                    "character.achievement.character.general.2923"
+                ]
+            }
+        },
+        "x11": {
+            "name_en": "Bard / Archer",
+            "name_fr": "Barde / Archer",
+            "patch": "2.0",
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-war.archer.65667",
+                "duty.quests.class--job.disciple-of-war-job.bard.66621"
+            ],
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-war.39"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-war.40"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-war.41"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-war.42"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-war.43"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-war.1171"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-war.1818"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-war.2250"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-war.2896"
+                ]
+            },
+            "role_en": "Physical Ranged DPS",
+            "role_fr": "DPS physique à distance",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.44"
+                ],
+                "60": [
+                    "character.achievement.character.general.1188"
+                ],
+                "70": [
+                    "character.achievement.character.general.1832"
+                ],
+                "80": [
+                    "character.achievement.character.general.2275"
+                ],
+                "90": [
+                    "character.achievement.character.general.2923"
+                ]
+            }
+        },
+        "x12": {
+            "name_en": "Machinist",
+            "name_fr": "Machiniste",
+            "patch": "3.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-war-job.machinist.67232",
+            "minValue": 30,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "30": [
+                    "character.achievement.character.disciple-of-war.1180"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-war.1181"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-war.1182"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-war.1183"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-war.1824"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-war.2256"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-war.2902"
+                ]
+            },
+            "role_en": "Physical Ranged DPS",
+            "role_fr": "DPS physique à distance",
+            "cComboAt": {
+                "60": [
+                    "character.achievement.character.general.1188"
+                ],
+                "70": [
+                    "character.achievement.character.general.1832"
+                ],
+                "80": [
+                    "character.achievement.character.general.2275"
+                ],
+                "90": [
+                    "character.achievement.character.general.2923"
+                ]
+            }
+        },
+        "x13": {
+            "name_en": "Dancer",
+            "name_fr": "Danseur",
+            "patch": "5.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-war-job.dancer.68785",
+            "minValue": 60,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "70": [
+                    "character.achievement.character.disciple-of-war.2262"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-war.2263"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-war.2907"
+                ]
+            },
+            "role_en": "Physical Ranged DPS",
+            "role_fr": "DPS physique à distance",
+            "cComboAt": {
+                "80": [
+                    "character.achievement.character.general.2275"
+                ],
+                "90": [
+                    "character.achievement.character.general.2923"
+                ]
+            }
+        },
+        "x14": {
+            "name_en": "Black Mage / Thaumaturge",
+            "name_fr": "Mage noir / Occultiste",
+            "patch": "2.0",
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-magic.thaumaturge.65880",
+                "duty.quests.class--job.disciple-of-magic-job.black-mage.66609"
+            ],
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-magic.50"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-magic.51"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-magic.52"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-magic.53"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-magic.54"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-magic.1173"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-magic.1820"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-magic.2252"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-magic.2898"
+                ]
+            },
+            "role_en": "Magical Ranged DPS",
+            "role_fr": "DPS magique à distance",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.55"
+                ],
+                "60": [
+                    "character.achievement.character.general.1189"
+                ],
+                "70": [
+                    "character.achievement.character.general.1833"
+                ],
+                "80": [
+                    "character.achievement.character.general.2276"
+                ],
+                "90": [
+                    "character.achievement.character.general.2924"
+                ]
+            }
+        },
+        "x15": {
+            "name_en": "Summoner / Arcanist",
+            "name_fr": "Invocateur / Arcaniste",
+            "patch": "2.0",
+            "startingQuest": [
+                "duty.quests.class--job.disciple-of-magic.arcanist.65988",
+                "duty.quests.class--job.disciple-of-magic-job.summoner.66627"
+            ],
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-magic.592"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-magic.593"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-magic.594"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-magic.595"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-magic.596"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-magic.1174"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-magic.1821"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-magic.2253"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-magic.2899"
+                ]
+            },
+            "role_en": "Magical Ranged DPS",
+            "role_fr": "DPS magique à distance",
+            "cSiblings": [
+                5
+            ],
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.55"
+                ],
+                "60": [
+                    "character.achievement.character.general.1189"
+                ],
+                "70": [
+                    "character.achievement.character.general.1833"
+                ],
+                "80": [
+                    "character.achievement.character.general.2276"
+                ],
+                "90": [
+                    "character.achievement.character.general.2924"
+                ]
+            }
+        },
+        "x16": {
+            "name_en": "Red Mage",
+            "name_fr": "Mage rouge",
+            "patch": "4.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-magic-job.red-mage.68112",
+            "minValue": 50,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "50": [
+                    "character.achievement.character.disciple-of-magic.1826"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-magic.1827"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-magic.1828"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-magic.2258"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-magic.2904"
+                ]
+            },
+            "role_en": "Magical Ranged DPS",
+            "role_fr": "DPS magique à distance",
+            "cComboAt": {
+                "70": [
+                    "character.achievement.character.general.1833"
+                ],
+                "80": [
+                    "character.achievement.character.general.2276"
+                ],
+                "90": [
+                    "character.achievement.character.general.2924"
+                ]
+            }
+        },
+        "x17": {
+            "name_en": "Blue Mage",
+            "name_fr": "Mage bleu",
+            "patch": "4.5",
+            "startingQuest": "duty.quests.class--job.disciple-of-magic-job.blue-mage.68728",
+            "minValue": 0,
+            "maxValue": 80,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-magic.2194"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-magic.2195"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-magic.2196"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-magic.2197"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-magic.2198"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-magic.2446"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-magic.2725"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-magic.3316"
+                ]
+            },
+            "role_en": "Magical Ranged DPS",
+            "role_fr": "DPS magique à distance"
+        },
+        "x18": {
+            "name_en": "Carpenter",
+            "name_fr": "Menuisier",
+            "patch": "2.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.carpenter.65674",
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-the-hand.57"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-the-hand.58"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-the-hand.59"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-the-hand.60"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-the-hand.61"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-the-hand.1265"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-the-hand.1835"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-the-hand.2264"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-the-hand.2912"
+                ]
+            },
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.97"
+                ],
+                "60": [
+                    "character.achievement.character.general.1276"
+                ],
+                "70": [
+                    "character.achievement.character.general.1846"
+                ],
+                "80": [
+                    "character.achievement.character.general.2278"
+                ],
+                "90": [
+                    "character.achievement.character.general.2926"
+                ]
+            }
+        },
+        "x19": {
+            "name_en": "Blacksmith",
+            "name_fr": "Forgeron",
+            "patch": "2.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.blacksmith.65827",
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-the-hand.62"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-the-hand.63"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-the-hand.64"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-the-hand.65"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-the-hand.66"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-the-hand.1266"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-the-hand.1836"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-the-hand.2265"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-the-hand.2913"
+                ]
+            },
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.97"
+                ],
+                "60": [
+                    "character.achievement.character.general.1276"
+                ],
+                "70": [
+                    "character.achievement.character.general.1846"
+                ],
+                "80": [
+                    "character.achievement.character.general.2278"
+                ],
+                "90": [
+                    "character.achievement.character.general.2926"
+                ]
+            }
+        },
+        "x20": {
+            "name_en": "Armorer",
+            "name_fr": "Armurier",
+            "patch": "2.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.armorer.65809",
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-the-hand.67"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-the-hand.68"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-the-hand.69"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-the-hand.70"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-the-hand.71"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-the-hand.1267"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-the-hand.1837"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-the-hand.2266"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-the-hand.2914"
+                ]
+            },
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.97"
+                ],
+                "60": [
+                    "character.achievement.character.general.1276"
+                ],
+                "70": [
+                    "character.achievement.character.general.1846"
+                ],
+                "80": [
+                    "character.achievement.character.general.2278"
+                ],
+                "90": [
+                    "character.achievement.character.general.2926"
+                ]
+            }
+        },
+        "x21": {
+            "name_en": "Goldsmith",
+            "name_fr": "Orfèvre",
+            "patch": "2.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.goldsmith.66144",
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-the-hand.72"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-the-hand.73"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-the-hand.74"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-the-hand.75"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-the-hand.76"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-the-hand.1268"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-the-hand.1838"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-the-hand.2267"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-the-hand.2915"
+                ]
+            },
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.97"
+                ],
+                "60": [
+                    "character.achievement.character.general.1276"
+                ],
+                "70": [
+                    "character.achievement.character.general.1846"
+                ],
+                "80": [
+                    "character.achievement.character.general.2278"
+                ],
+                "90": [
+                    "character.achievement.character.general.2926"
+                ]
+            }
+        },
+        "x22": {
+            "name_en": "Leatherworker",
+            "name_fr": "Tanneur",
+            "patch": "2.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.leatherworker.65641",
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-the-hand.77"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-the-hand.78"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-the-hand.79"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-the-hand.80"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-the-hand.81"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-the-hand.1269"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-the-hand.1839"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-the-hand.2268"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-the-hand.2916"
+                ]
+            },
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.97"
+                ],
+                "60": [
+                    "character.achievement.character.general.1276"
+                ],
+                "70": [
+                    "character.achievement.character.general.1846"
+                ],
+                "80": [
+                    "character.achievement.character.general.2278"
+                ],
+                "90": [
+                    "character.achievement.character.general.2926"
+                ]
+            }
+        },
+        "x23": {
+            "name_en": "Weaver",
+            "name_fr": "Couturier",
+            "patch": "2.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.weaver.66070",
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-the-hand.82"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-the-hand.83"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-the-hand.84"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-the-hand.85"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-the-hand.86"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-the-hand.1270"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-the-hand.1840"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-the-hand.2269"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-the-hand.2917"
+                ]
+            },
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.97"
+                ],
+                "60": [
+                    "character.achievement.character.general.1276"
+                ],
+                "70": [
+                    "character.achievement.character.general.1846"
+                ],
+                "80": [
+                    "character.achievement.character.general.2278"
+                ],
+                "90": [
+                    "character.achievement.character.general.2926"
+                ]
+            }
+        },
+        "x24": {
+            "name_en": "Alchemist",
+            "name_fr": "Alchimiste",
+            "patch": "2.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.alchemist.66111",
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-the-hand.87"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-the-hand.88"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-the-hand.89"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-the-hand.90"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-the-hand.91"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-the-hand.1271"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-the-hand.1841"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-the-hand.2270"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-the-hand.2918"
+                ]
+            },
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.97"
+                ],
+                "60": [
+                    "character.achievement.character.general.1276"
+                ],
+                "70": [
+                    "character.achievement.character.general.1846"
+                ],
+                "80": [
+                    "character.achievement.character.general.2278"
+                ],
+                "90": [
+                    "character.achievement.character.general.2926"
+                ]
+            }
+        },
+        "x25": {
+            "name_en": "Culinarian",
+            "name_fr": "Cuisinier",
+            "patch": "2.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.culinarian.65807",
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-the-hand.92"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-the-hand.93"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-the-hand.94"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-the-hand.95"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-the-hand.96"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-the-hand.1272"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-the-hand.1842"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-the-hand.2271"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-the-hand.2919"
+                ]
+            },
+            "role_en": "Crafter",
+            "role_fr": "Artisan",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.97"
+                ],
+                "60": [
+                    "character.achievement.character.general.1276"
+                ],
+                "70": [
+                    "character.achievement.character.general.1846"
+                ],
+                "80": [
+                    "character.achievement.character.general.2278"
+                ],
+                "90": [
+                    "character.achievement.character.general.2926"
+                ]
+            }
+        },
+        "x26": {
+            "name_en": "Miner",
+            "name_fr": "Mineur",
+            "patch": "2.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-the-land.miner.66133",
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-the-land.98"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-the-land.99"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-the-land.100"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-the-land.101"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-the-land.102"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-the-land.1273"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-the-land.1844"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-the-land.2273"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-the-land.2921"
+                ]
+            },
+            "role_en": "Gatherer",
+            "role_fr": "Récolteur",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.113"
+                ],
+                "60": [
+                    "character.achievement.character.general.1277"
+                ],
+                "70": [
+                    "character.achievement.character.general.1847"
+                ],
+                "80": [
+                    "character.achievement.character.general.2279"
+                ],
+                "90": [
+                    "character.achievement.character.general.2927"
+                ]
+            }
+        },
+        "x27": {
+            "name_en": "Botanist",
+            "name_fr": "Botaniste",
+            "patch": "2.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-the-land.botanist.65539",
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-the-land.103"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-the-land.104"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-the-land.105"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-the-land.106"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-the-land.107"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-the-land.1274"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-the-land.1843"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-the-land.2272"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-the-land.2920"
+                ]
+            },
+            "role_en": "Gatherer",
+            "role_fr": "Récolteur",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.113"
+                ],
+                "60": [
+                    "character.achievement.character.general.1277"
+                ],
+                "70": [
+                    "character.achievement.character.general.1847"
+                ],
+                "80": [
+                    "character.achievement.character.general.2279"
+                ],
+                "90": [
+                    "character.achievement.character.general.2927"
+                ]
+            }
+        },
+        "x28": {
+            "name_en": "Fisher",
+            "name_fr": "Pêcheur",
+            "patch": "2.0",
+            "startingQuest": "duty.quests.class--job.disciple-of-the-land.fisher.66643",
+            "minValue": 0,
+            "maxValue": 90,
+            "cSiblingsAt": {
+                "10": [
+                    "character.achievement.character.disciple-of-the-land.108"
+                ],
+                "20": [
+                    "character.achievement.character.disciple-of-the-land.109"
+                ],
+                "30": [
+                    "character.achievement.character.disciple-of-the-land.110"
+                ],
+                "40": [
+                    "character.achievement.character.disciple-of-the-land.111"
+                ],
+                "50": [
+                    "character.achievement.character.disciple-of-the-land.112"
+                ],
+                "60": [
+                    "character.achievement.character.disciple-of-the-land.1275"
+                ],
+                "70": [
+                    "character.achievement.character.disciple-of-the-land.1845"
+                ],
+                "80": [
+                    "character.achievement.character.disciple-of-the-land.2274"
+                ],
+                "90": [
+                    "character.achievement.character.disciple-of-the-land.2922"
+                ]
+            },
+            "role_en": "Gatherer",
+            "role_fr": "Récolteur",
+            "cComboAt": {
+                "50": [
+                    "character.achievement.character.general.113"
+                ],
+                "60": [
+                    "character.achievement.character.general.1277"
+                ],
+                "70": [
+                    "character.achievement.character.general.1847"
+                ],
+                "80": [
+                    "character.achievement.character.general.2279"
+                ],
+                "90": [
+                    "character.achievement.character.general.2927"
+                ]
+            }
+        }
+    }
+}

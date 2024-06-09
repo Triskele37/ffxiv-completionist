@@ -1,0 +1,237 @@
+{
+    "key": "gold-saucer-festivities",
+    "groupName_en": "Gold Saucer Festivities",
+    "groupName_fr": "Festival du Gold Saucer",
+    "tasks": {
+        "x67669": {
+            "level": 15,
+            "name_en": "And Then There Were Some",
+            "name_fr": "Une nouvelle attraction",
+            "year": "2016",
+            "npc_en": "Ollier",
+            "npc_fr": "Ollier",
+            "cNext": [
+                67671
+            ]
+        },
+        "x67671": {
+            "level": 15,
+            "name_en": "An Inspector's Gadget",
+            "name_fr": "La marque du détective",
+            "year": "2016",
+            "npc_en": "Attentive Attendant",
+            "npc_fr": "employé modèle",
+            "cPrev": [
+                67669
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1491"
+            ]
+        },
+        "x67960": {
+            "level": 15,
+            "name_en": "Golden Rain",
+            "name_fr": "Les jolis petits lots du Gold Saucer",
+            "year": "2017",
+            "cPrevAny": true,
+            "npc_en": "Beggarly Bloke",
+            "npc_fr": "homme désargenté",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66043",
+                66064,
+                66082
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1684"
+            ]
+        },
+        "x68669": {
+            "level": 15,
+            "name_en": "Trouble in Paradise",
+            "name_fr": "Les spectres du Gold Saucer",
+            "year": "2018",
+            "cPrevAny": true,
+            "npc_en": "Dismayed Maiden",
+            "npc_fr": "femme effrayée",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66043",
+                66064,
+                66082
+            ],
+            "cNext": [
+                68670
+            ]
+        },
+        "x68670": {
+            "level": 15,
+            "name_en": "Love and Kupo Nuts",
+            "name_fr": "Sortie en amoureux au Gold Saucer",
+            "year": "2018",
+            "npc_en": "Moogle Suitor",
+            "npc_fr": "jeune Mog amoureux",
+            "cPrev": [
+                68669
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2103"
+            ]
+        },
+        "x68743": {
+            "level": 15,
+            "name_en": "The Sabotender Shimmy",
+            "name_fr": "Il est l'heure, mon Señor",
+            "year": "2019",
+            "cPrevAny": true,
+            "npc_en": "Lamenting Lalafell",
+            "npc_fr": "garçon déprimé",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66043",
+                66064,
+                66082
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2240"
+            ]
+        },
+        "x69499": {
+            "level": 15,
+            "name_en": "Caught Shorthanded",
+            "name_fr": "La soucoupe dorée est pleine",
+            "year": "2020",
+            "cPrevAny": true,
+            "npc_en": "Nanaphon",
+            "npc_fr": "Nanaphon",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66043",
+                66064,
+                66082
+            ],
+            "cNext": [
+                69500
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2645"
+            ]
+        },
+        "x69500": {
+            "level": 15,
+            "name_en": "A Guide to Fun",
+            "name_fr": "Guider n'est pas jouer",
+            "year": "2020",
+            "npc_en": "Chief Attendant",
+            "npc_fr": "guide du Gold Saucer",
+            "cPrev": [
+                69499
+            ]
+        },
+        "x69590": {
+            "level": 15,
+            "name_en": "The Great Horn Heist",
+            "name_fr": "Le mystérieux vol du Gold Saucer",
+            "year": "2021",
+            "cPrevAny": true,
+            "npc_en": "Ollier",
+            "npc_fr": "Ollier",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66043",
+                66064,
+                66082
+            ],
+            "cNext": [
+                69592,
+                69591
+            ]
+        },
+        "x69591": {
+            "level": 15,
+            "name_en": "A Token of Thanks",
+            "name_fr": "Le sceau du détective",
+            "year": "2021",
+            "npc_en": "Stern Saucer Attendant",
+            "npc_fr": "employé dévoué",
+            "cPrev": [
+                69590
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2855"
+            ]
+        },
+        "x69592": {
+            "level": 15,
+            "name_en": "The Great Horn Heist Redux",
+            "name_fr": "L'autre version de l'histoire",
+            "year": "2021",
+            "npc_en": "Ollier",
+            "npc_fr": "Ollier",
+            "cPrev": [
+                69590
+            ]
+        },
+        "x70120": {
+            "level": 15,
+            "name_en": "A Prickly Plaint",
+            "name_fr": "L'employé tourmenté du Gold Saucer",
+            "year": "2022",
+            "cPrevAny": true,
+            "npc_en": "Ollier",
+            "npc_fr": "Ollier",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66043",
+                66064,
+                66082
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3079"
+            ]
+        },
+        "x70263": {
+            "level": 15,
+            "name_en": "A Golden Opportunity",
+            "name_fr": "Petits mais costauds",
+            "year": "2023",
+            "cPrevAny": true,
+            "npc_en": "Kipih Jakkya",
+            "npc_fr": "Kipih Jakkya",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66043",
+                66064,
+                66082
+            ],
+            "cNext": [
+                70264
+            ]
+        },
+        "x70264": {
+            "level": 15,
+            "name_en": "Hearts of Gold",
+            "name_fr": "Les honneurs du Gold Saucer",
+            "year": "2023",
+            "npc_en": "Ollier",
+            "npc_fr": "Ollier",
+            "cPrev": [
+                70263
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3206"
+            ]
+        },
+        "x70350": {
+            "level": 15,
+            "name_en": "Of Impish Importance",
+            "name_fr": "Les petits hommes verts du Gold Saucer",
+            "patch": "6.5",
+            "year": "2024",
+            "cPrevAny": true,
+            "npc_en": "Quevain",
+            "npc_fr": "Quevain",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66043",
+                66064,
+                66082
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3418"
+            ]
+        }
+    }
+}

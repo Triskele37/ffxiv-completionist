@@ -1,0 +1,73 @@
+{
+    "key": "upper-la-noscea",
+    "groupName_en": "Upper La Noscea",
+    "groupName_fr": "Haute-Noscea",
+    "tasks": {
+        "x66271": {
+            "level": 23,
+            "name_en": "The Hottest of Box Lunches",
+            "name_fr": "Le repas de Tanga Tonga",
+            "npc_en": "Gegeroon",
+            "npc_fr": "Gegeroon",
+            "cNext": [
+                66272
+            ]
+        },
+        "x66272": {
+            "level": 23,
+            "name_en": "Buried Truth",
+            "name_fr": "Les restes de Thalaos",
+            "npc_en": "Tanga Tonga",
+            "npc_fr": "Tanga Tonga",
+            "cPrev": [
+                66271
+            ]
+        },
+        "x66394": {
+            "level": 34,
+            "name_en": "One Swallow Does Not a Victory Make",
+            "name_fr": "L'appel du front",
+            "npc_en": "Blaugybal",
+            "npc_fr": "Blaugybal",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66393"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.lominsan.outer-la-noscea.66395"
+            ]
+        },
+        "x66402": {
+            "level": 34,
+            "name_en": "The Monster of Bronze Lake",
+            "name_fr": "Des doigts de fée",
+            "npc_en": "Rukusa Farusa",
+            "npc_fr": "Rukusa Farusa",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66393"
+            ],
+            "cNext": [
+                66404
+            ]
+        },
+        "x66403": {
+            "level": 34,
+            "name_en": "Red, Red Wine",
+            "name_fr": "Du vin chaud pour soigner",
+            "npc_en": "A'rhunlika",
+            "npc_fr": "A'rhunlika",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66393"
+            ]
+        },
+        "x66404": {
+            "level": 34,
+            "name_en": "The Adventure of the Fainting Goldsmith",
+            "name_fr": "Une bonne douche froide",
+            "npc_en": "Rukusa Farusa",
+            "npc_fr": "Rukusa Farusa",
+            "cPrev": [
+                66402
+            ]
+        }
+    }
+}

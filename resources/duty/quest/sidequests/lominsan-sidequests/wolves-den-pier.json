@@ -1,0 +1,42 @@
+{
+    "key": "wolves-den-pier",
+    "groupName_en": "Wolves' Den Pier",
+    "groupName_fr": "Jetée de l'Antre des loups",
+    "tasks": {
+        "x67929": {
+            "level": 1,
+            "name_en": "It's Time to Duel",
+            "name_fr": "Duel sur la jetée",
+            "npc_en": "Faint-hearted Fighter",
+            "npc_fr": "Ao Ra bagarreur"
+        },
+        "x68543": {
+            "level": 30,
+            "name_en": "Earning Your Wings",
+            "name_fr": "Battre des ailes",
+            "cPrevAny": true,
+            "npc_en": "Softknox",
+            "npc_fr": "Softknox",
+            "unlock_en": "Astragalos",
+            "cPrev": [
+                "duty.quests.other.grand-company.maelstrom.66640",
+                "duty.quests.other.grand-company.order-of-the-twin-adder.66641",
+                "duty.quests.other.grand-company.immortal-flames.66642"
+            ]
+        },
+        "x70121": {
+            "level": 30,
+            "name_en": "The Crystal (Line's) Call",
+            "name_fr": "Source de conflits",
+            "cPrevAny": true,
+            "npc_en": "Gungi Zelungi",
+            "npc_fr": "Gungi Zelungi",
+            "unlock_en": "Crystalline Conflict",
+            "cPrev": [
+                "duty.quests.other.grand-company.maelstrom.66640",
+                "duty.quests.other.grand-company.order-of-the-twin-adder.66641",
+                "duty.quests.other.grand-company.immortal-flames.66642"
+            ]
+        }
+    }
+}

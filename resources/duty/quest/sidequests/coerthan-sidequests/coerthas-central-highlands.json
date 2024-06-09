@@ -1,0 +1,469 @@
+{
+    "key": "coerthas-central-highlands",
+    "groupName_en": "Coerthas Central Highlands",
+    "groupName_fr": "Hautes terres du Coerthas central",
+    "tasks": {
+        "x65552": {
+            "level": 35,
+            "name_en": "Leves of the Observatorium",
+            "name_fr": "Mandataire de l'Observatoire",
+            "cPrevAny": true,
+            "npc_en": "Cimeaurant",
+            "npc_fr": "Cimeaurant",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
+            ]
+        },
+        "x66847": {
+            "level": 36,
+            "name_en": "Rolling with the Snowies",
+            "name_fr": "Coups de boules",
+            "npc_en": "Duvicauroix",
+            "npc_fr": "Duvicauroix",
+            "cPrev": [
+                66846
+            ]
+        },
+        "x66424": {
+            "level": 36,
+            "name_en": "Speak Softly to Me",
+            "name_fr": "Rafraîchissante rencontre",
+            "npc_en": "Maucolyn",
+            "npc_fr": "Maucolyn"
+        },
+        "x66427": {
+            "level": 36,
+            "name_en": "White Mischief",
+            "name_fr": "Vengeance froide",
+            "npc_en": "Duvicauroix",
+            "npc_fr": "Duvicauroix"
+        },
+        "x66428": {
+            "level": 36,
+            "name_en": "Adding Fuel to the Fire",
+            "name_fr": "Feu de tout bois",
+            "npc_en": "Prairillot",
+            "npc_fr": "Prairillot",
+            "cNext": [
+                66430
+            ]
+        },
+        "x66429": {
+            "level": 36,
+            "name_en": "Sheep to the Slaughter",
+            "name_fr": "La tournée des Cadenas",
+            "npc_en": "Sylvaintel",
+            "npc_fr": "Sylvaintel"
+        },
+        "x66430": {
+            "level": 36,
+            "name_en": "I'd Rather Be Cannon Fodder",
+            "name_fr": "C'est toujours les meilleurs...",
+            "npc_en": "Stephannot",
+            "npc_fr": "Stephannot",
+            "cPrev": [
+                66428
+            ],
+            "cNext": [
+                66431
+            ]
+        },
+        "x66431": {
+            "level": 36,
+            "name_en": "Death Becomes You",
+            "name_fr": "Un dernier service",
+            "npc_en": "Stephannot",
+            "npc_fr": "Stephannot",
+            "cPrev": [
+                66430
+            ]
+        },
+        "x66846": {
+            "level": 36,
+            "name_en": "Toss Fit Workout",
+            "name_fr": "Le cantinier a les boules",
+            "unlock": "social.emotes.general.85",
+            "npc_en": "Maucolyn",
+            "npc_fr": "Maucolyn",
+            "cNext": [
+                66847
+            ],
+            "cSiblings": [
+                "social.emotes.general.85"
+            ]
+        },
+        "x66435": {
+            "level": 37,
+            "name_en": "Dead Is Dead",
+            "name_fr": "La preuve par les peaux",
+            "npc_en": "Corentiaux",
+            "npc_fr": "Corentiaux",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66426"
+            ],
+            "cNext": [
+                66436
+            ]
+        },
+        "x66436": {
+            "level": 37,
+            "name_en": "Don't Light My Fire",
+            "name_fr": "Plein la panse",
+            "npc_en": "Corentiaux",
+            "npc_fr": "Corentiaux",
+            "cPrev": [
+                66435
+            ]
+        },
+        "x66438": {
+            "level": 37,
+            "name_en": "Dark and Stormy Night",
+            "name_fr": "Torches dans le vent",
+            "npc_en": "Arthurioux",
+            "npc_fr": "Arthurioux",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66426"
+            ]
+        },
+        "x66439": {
+            "level": 37,
+            "name_en": "Too Many Enemies",
+            "name_fr": "Ils arrivent de partout",
+            "npc_en": "Belmont",
+            "npc_fr": "Belmont",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66426"
+            ],
+            "cNext": [
+                66440
+            ]
+        },
+        "x66440": {
+            "level": 37,
+            "name_en": "The Forest for the Trees",
+            "name_fr": "Le plan des Ixali",
+            "npc_en": "Belmont",
+            "npc_fr": "Belmont",
+            "cPrev": [
+                66439
+            ],
+            "cNext": [
+                66441
+            ]
+        },
+        "x66441": {
+            "level": 37,
+            "name_en": "Stand and Quiver",
+            "name_fr": "L'appel aux Béliers blancs",
+            "npc_en": "Belmont",
+            "npc_fr": "Belmont",
+            "cPrev": [
+                66440
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gridanian.north-shroud.66442"
+            ]
+        },
+        "x66434": {
+            "level": 37,
+            "name_en": "Papa Do Preach",
+            "name_fr": "Aristocratie menacée",
+            "npc_en": "Duchesnelt",
+            "npc_fr": "Duchesnelt",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66426"
+            ]
+        },
+        "x66451": {
+            "level": 37,
+            "name_en": "A Fool and His Life Are Soon Parted",
+            "name_fr": "La vengeance d'une mère",
+            "npc_en": "Meduil",
+            "npc_fr": "Meduil"
+        },
+        "x66450": {
+            "level": 38,
+            "name_en": "Second Lives",
+            "name_fr": "De précieuses perles",
+            "npc_en": "Juline",
+            "npc_fr": "Juline"
+        },
+        "x66452": {
+            "level": 38,
+            "name_en": "Burn Before Reading",
+            "name_fr": "Le livre interdit",
+            "npc_en": "Eugennoix",
+            "npc_fr": "Eugennoix"
+        },
+        "x66454": {
+            "level": 38,
+            "name_en": "Where's My Juice",
+            "name_fr": "Un problème peut en cacher un autre",
+            "npc_en": "Edwyn",
+            "npc_fr": "Edwyn",
+            "cNext": [
+                "duty.quests.sidequests.uldahn.uldah.66455"
+            ]
+        },
+        "x66437": {
+            "level": 38,
+            "name_en": "Sebastian vs. the Ogre",
+            "name_fr": "Sebastian contre l'ogre",
+            "npc_en": "Yaelle",
+            "npc_fr": "Yaelle",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66426"
+            ]
+        },
+        "x66449": {
+            "level": 38,
+            "name_en": "A Cup of Joy",
+            "name_fr": "Un cru d'exception",
+            "npc_en": "Aurelle",
+            "npc_fr": "Aurelle",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66448"
+            ]
+        },
+        "x66465": {
+            "level": 39,
+            "name_en": "A Few Good Men",
+            "name_fr": "Pour quelques hommes de plus",
+            "npc_en": "Jeantremont",
+            "npc_fr": "Jeantremont",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66460"
+            ]
+        },
+        "x66466": {
+            "level": 39,
+            "name_en": "The Pecking Order",
+            "name_fr": "Becs et ongles",
+            "npc_en": "Loanne",
+            "npc_fr": "Loanne",
+            "cPrev": [
+                66464
+            ]
+        },
+        "x66467": {
+            "level": 39,
+            "name_en": "Rubble Rouser",
+            "name_fr": "Déblayage en règle",
+            "npc_en": "Chaunollet",
+            "npc_fr": "Chaunollet",
+            "cPrev": [
+                66464
+            ],
+            "cNext": [
+                66468
+            ]
+        },
+        "x66468": {
+            "level": 39,
+            "name_en": "Salving the Wounds",
+            "name_fr": "L'ami des chocobos",
+            "npc_en": "Chaunollet",
+            "npc_fr": "Chaunollet",
+            "cPrev": [
+                66467
+            ]
+        },
+        "x66464": {
+            "level": 39,
+            "name_en": "Cleaning Out the Dead",
+            "name_fr": "Pillage de cadavres",
+            "npc_en": "Oncenedl",
+            "npc_fr": "Oncenedl",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66460"
+            ],
+            "cNext": [
+                66466,
+                66467
+            ]
+        },
+        "x66470": {
+            "level": 39,
+            "name_en": "An Augury of Innocence",
+            "name_fr": "Un hérétique bien singulier",
+            "npc_en": "Boyle",
+            "npc_fr": "Boyle",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66460"
+            ]
+        },
+        "x66471": {
+            "level": 39,
+            "name_en": "Love's Hard Labor",
+            "name_fr": "L'amour comme remède",
+            "npc_en": "Charmine",
+            "npc_fr": "Charmine",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66460"
+            ],
+            "cNext": [
+                66480
+            ]
+        },
+        "x66472": {
+            "level": 39,
+            "name_en": "The King Rat Must Die",
+            "name_fr": "Sa Majesté des rats",
+            "npc_en": "Fousquenet",
+            "npc_fr": "Fousquenet",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66460"
+            ]
+        },
+        "x66469": {
+            "level": 39,
+            "name_en": "Run, Fido, Run",
+            "name_fr": "Interception de coursiers",
+            "npc_en": "Faucillien",
+            "npc_fr": "Faucillien",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66460"
+            ]
+        },
+        "x66478": {
+            "level": 40,
+            "name_en": "It Tolls for Us",
+            "name_fr": "Oublier les outrages du passé",
+            "npc_en": "Liautroix",
+            "npc_fr": "Liautroix",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66477"
+            ]
+        },
+        "x66480": {
+            "level": 40,
+            "name_en": "Blood Sacrifice",
+            "name_fr": "La grande évasion",
+            "npc_en": "Daimbert",
+            "npc_fr": "Daimbert",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66477",
+                66471
+            ]
+        },
+        "x66481": {
+            "level": 40,
+            "name_en": "The Bone Collector",
+            "name_fr": "Il y a comme un os...",
+            "npc_en": "Berengeoit",
+            "npc_fr": "Berengeoit",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66477"
+            ]
+        },
+        "x66482": {
+            "level": 40,
+            "name_en": "Ice Ice Daily",
+            "name_fr": "Des chercheurs sans défense",
+            "npc_en": "Forsemart",
+            "npc_fr": "Forsemart",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66477"
+            ],
+            "cNext": [
+                66483
+            ]
+        },
+        "x66483": {
+            "level": 40,
+            "name_en": "A Heart Divided",
+            "name_fr": "Un cœur divisé",
+            "npc_en": "Ourdilic",
+            "npc_fr": "Ourdilic",
+            "cPrev": [
+                66482
+            ],
+            "cNext": [
+                66485
+            ]
+        },
+        "x66484": {
+            "level": 40,
+            "name_en": "When a Man Loves a Woman",
+            "name_fr": "L'amour plus fort que la mort",
+            "npc_en": "Lancefer",
+            "npc_fr": "Lancefer",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66477"
+            ]
+        },
+        "x66479": {
+            "level": 40,
+            "name_en": "Physician, Find Yourself",
+            "name_fr": "Le médecin malchanceux",
+            "npc_en": "Astidien",
+            "npc_fr": "Astidien",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66477"
+            ]
+        },
+        "x66486": {
+            "level": 40,
+            "name_en": "Days of Brandewine and Behemoths",
+            "name_fr": "Réchauffer les entrailles",
+            "npc_en": "Meurise",
+            "npc_fr": "Meurise",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66477"
+            ]
+        },
+        "x66487": {
+            "level": 40,
+            "name_en": "Living on the Edge",
+            "name_fr": "Au fond du gouffre",
+            "npc_en": "Briannaix",
+            "npc_fr": "Briannaix",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66477"
+            ]
+        },
+        "x65553": {
+            "level": 40,
+            "name_en": "Leves of Whitebrim",
+            "name_fr": "Mandataire du poste de L'Arête blanche",
+            "cPrevAny": true,
+            "npc_en": "Voilinaut",
+            "npc_fr": "Voilinaut",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
+            ]
+        },
+        "x66485": {
+            "level": 40,
+            "name_en": "Whey Too into You",
+            "name_fr": "L'élément perturbateur",
+            "npc_en": "Ourdilic",
+            "npc_fr": "Ourdilic",
+            "cPrev": [
+                66483
+            ]
+        },
+        "x66521": {
+            "level": 44,
+            "name_en": "Doubt Truth to Be a Liar",
+            "name_fr": "La chasse à l'impérial",
+            "npc_en": "Cailean",
+            "npc_fr": "Cailean",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66519"
+            ]
+        },
+        "x66515": {
+            "level": 44,
+            "name_en": "Fort of Fear",
+            "name_fr": "Les ténèbres de la Forteresse de Dzemael",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.10",
+            "npc_en": "Carrilaut",
+            "npc_fr": "Carrilaut"
+        }
+    }
+}

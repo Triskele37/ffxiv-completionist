@@ -1,0 +1,164 @@
+{
+    "key": "eulmore",
+    "groupName_en": "Eulmore",
+    "groupName_fr": "Eulmore",
+    "tasks": {
+        "x69052": {
+            "level": 70,
+            "name_en": "My Heart Will (Not) Go On",
+            "name_fr": "D'amour et d'eau de mer",
+            "npc_en": "Queen Bee",
+            "npc_fr": "gérant de La Ruche",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69168"
+            ],
+            "cNext": [
+                69053
+            ]
+        },
+        "x69053": {
+            "level": 70,
+            "name_en": "Near, Far, Wherever You Are",
+            "name_fr": "Un gérant au grand cœur",
+            "npc_en": "Solina",
+            "npc_fr": "Solina",
+            "cPrev": [
+                69052
+            ]
+        },
+        "x69054": {
+            "level": 70,
+            "name_en": "The Invisible Hand",
+            "name_fr": "L'approvisionnement de La Fange",
+            "npc_en": "Zoi-Chorr",
+            "npc_fr": "Zoi-Chorr",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69168"
+            ]
+        },
+        "x69055": {
+            "level": 70,
+            "name_en": "Scattered to the Winds",
+            "name_fr": "Lettres éparpillées",
+            "npc_en": "Aarner",
+            "npc_fr": "Aarner",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69168"
+            ]
+        },
+        "x69056": {
+            "level": 70,
+            "name_en": "One Good Meal",
+            "name_fr": "Qu'est-ce qu'on mange?",
+            "npc_en": "Eulmoran Soldier",
+            "npc_fr": "soldat eulmorien",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69168"
+            ]
+        },
+        "x69057": {
+            "level": 70,
+            "name_en": "Little and Late",
+            "name_fr": "Qui aime bien châtie bien",
+            "npc_en": "Forlorn Free Citizen",
+            "npc_fr": "Libéré d'Eulmore",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69168"
+            ]
+        },
+        "x69058": {
+            "level": 70,
+            "name_en": "Children of the Derelicts",
+            "name_fr": "Les enfants de La Fange",
+            "npc_en": "Sristialla",
+            "npc_fr": "Sristialla",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69168"
+            ]
+        },
+        "x69059": {
+            "level": 70,
+            "name_en": "Rebuild, Reuse, Recycle",
+            "name_fr": "Un jour, je serai capitaine!",
+            "npc_en": "Tui-Shirr",
+            "npc_fr": "Tui-Shirr",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69168"
+            ]
+        },
+        "x69060": {
+            "level": 70,
+            "name_en": "Of Legacies Lost and Reclaimed",
+            "name_fr": "Tendre la main aux moins fortunés",
+            "npc_en": "Debonair Dame",
+            "npc_fr": "Eulmorienne élégante",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69168"
+            ]
+        },
+        "x69265": {
+            "level": 70,
+            "name_en": "Oh, Beehive Yourself",
+            "name_fr": "Kai-Shirr et ses commandes spéciales",
+            "npc_en": "Kai-Shirr",
+            "npc_fr": "Kai-Shirr",
+            "unlock_en": "Custom Deliveries: Kai-Shirr",
+            "unlock_fr": "Custom Deliveries: Kai-Shirr",
+            "cPrev": [
+                "duty.quests.main-scenario.post-shadowbringers.69217",
+                "duty.quests.other.quasi-quests.69139"
+            ],
+            "cNext": [
+                69266
+            ],
+            "cSiblings": [
+                "character.achievement.character.general.2425"
+            ]
+        },
+        "x69266": {
+            "level": 70,
+            "name_en": "Commercially Flyable",
+            "name_fr": "Tactique touristique",
+            "npc_en": "Bosta-Zia",
+            "npc_fr": "Bosta-Zia",
+            "cPrev": [
+                69265
+            ],
+            "cNext": [
+                69267
+            ]
+        },
+        "x69267": {
+            "level": 70,
+            "name_en": "A Ship on His Shoulder",
+            "name_fr": "Embarquement immédiat",
+            "npc_en": "Anfrigg",
+            "npc_fr": "Anfrigg",
+            "cPrev": [
+                69266
+            ]
+        },
+        "x69137": {
+            "level": 80,
+            "name_en": "Yet Another Striking Opportunity",
+            "name_fr": "Un lieu pour jauger sa force",
+            "npc_en": "Weary Dockworker",
+            "npc_fr": "travailleur modeste",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69190",
+                "duty.quests.sidequests.dravanian.idyllshire.67654"
+            ]
+        },
+        "x69132": {
+            "level": 80,
+            "name_en": "Akadaemia Anyder",
+            "name_fr": "L'académie des horreurs",
+            "unlock": "duty.dutyraid-finder.dungeons.shb.7",
+            "npc_en": "Overwrought Ondo",
+            "npc_fr": "Ondo affolé",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ]
+        }
+    }
+}

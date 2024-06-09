@@ -1,0 +1,542 @@
+{
+    "key": "elpis",
+    "groupName_en": "Elpis",
+    "groupName_fr": "Elpis",
+    "tasks": {
+        "x69812": {
+            "level": 80,
+            "name_en": "The Ore the Merrier",
+            "name_fr": "Mangeuses de minerai",
+            "npc_en": "Eukleides",
+            "npc_fr": "Euclide",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69959"
+            ]
+        },
+        "x69813": {
+            "level": 80,
+            "name_en": "A Colorful Concept",
+            "name_fr": "Concept coloré",
+            "npc_en": "Impatient Observer",
+            "npc_fr": "observateur impatient",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69959"
+            ]
+        },
+        "x69814": {
+            "level": 80,
+            "name_en": "Digestive Problems",
+            "name_fr": "Sucs digestifs agressifs",
+            "npc_en": "Zeuxis",
+            "npc_fr": "Zeuxis",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69959"
+            ]
+        },
+        "x69815": {
+            "level": 80,
+            "name_en": "Nothing to Sneeze At",
+            "name_fr": "Éternuement étonnant",
+            "npc_en": "Pheidias",
+            "npc_fr": "Phidias",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69961"
+            ]
+        },
+        "x69816": {
+            "level": 80,
+            "name_en": "Sweet Temptations",
+            "name_fr": "Exterminateurs en herbe",
+            "npc_en": "Earnest Observer",
+            "npc_fr": "observateur austère",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69959"
+            ]
+        },
+        "x69817": {
+            "level": 80,
+            "name_en": "Breaking the Eyes",
+            "name_fr": "Instinct paternel",
+            "npc_en": "Vivacious Observer",
+            "npc_fr": "observateur distingué",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69959"
+            ]
+        },
+        "x69818": {
+            "level": 80,
+            "name_en": "Kick Some Asp",
+            "name_fr": "Échantillons revêches",
+            "npc_en": "Paramonos",
+            "npc_fr": "Paramonos",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69959"
+            ]
+        },
+        "x69819": {
+            "level": 80,
+            "name_en": "Clutch Devastation",
+            "name_fr": "Un œil sur les couvées",
+            "npc_en": "Kallias",
+            "npc_fr": "Callias",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69959"
+            ]
+        },
+        "x69820": {
+            "level": 80,
+            "name_en": "Second Guest",
+            "name_fr": "Livraison fascinante",
+            "npc_en": "Eurydome",
+            "npc_fr": "Eurydomé",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69961"
+            ]
+        },
+        "x69821": {
+            "level": 80,
+            "name_en": "Labors of My Fruit",
+            "name_fr": "Le goût du hasard",
+            "npc_en": "Pompous Creator",
+            "npc_fr": "créateur élégant",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69961"
+            ]
+        },
+        "x69822": {
+            "level": 80,
+            "name_en": "I Order You to Relax",
+            "name_fr": "Le repos fait partie du travail",
+            "npc_en": "Serene Observer",
+            "npc_fr": "observateur calme",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69961"
+            ]
+        },
+        "x69823": {
+            "level": 80,
+            "name_en": "We'll Meet Again",
+            "name_fr": "L'au revoir d'une observatrice",
+            "npc_en": "Blaste",
+            "npc_fr": "Blasté",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69961"
+            ]
+        },
+        "x69824": {
+            "level": 80,
+            "name_en": "You and the Ailouros",
+            "name_fr": "Patrouille anti-chamailleries",
+            "unlock": "travel.aether-currents.ew.elpis.11",
+            "npc_en": "Hippothoe",
+            "npc_fr": "Hippothoé",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69963"
+            ],
+            "cNext": [
+                69825
+            ],
+            "cSiblings": [
+                "travel.aether-currents.ew.elpis.11"
+            ]
+        },
+        "x69825": {
+            "level": 80,
+            "name_en": "Sing, O Mews",
+            "name_fr": "Familier chavirant",
+            "npc_en": "Hippothoe",
+            "npc_fr": "Hippothoé",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69963",
+                69824
+            ]
+        },
+        "x69826": {
+            "level": 80,
+            "name_en": "Beg Pardon?",
+            "name_fr": "Quand on a la tête et les jambes",
+            "npc_en": "Gryllos",
+            "npc_fr": "Gryllos",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69963"
+            ]
+        },
+        "x69827": {
+            "level": 80,
+            "name_en": "Unresolved Mysteries",
+            "name_fr": "Celles qui survivent",
+            "npc_en": "Hierax",
+            "npc_fr": "Hiérax",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69963"
+            ]
+        },
+        "x69828": {
+            "level": 80,
+            "name_en": "Every Rose",
+            "name_fr": "Le doux parfum de la mort",
+            "npc_en": "Chloris",
+            "npc_fr": "Chloris",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69963"
+            ]
+        },
+        "x69829": {
+            "level": 80,
+            "name_en": "Wonder-full",
+            "name_fr": "Le secret des Douze Merveilles",
+            "npc_en": "Alkmene",
+            "npc_fr": "Alcmène",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69963"
+            ]
+        },
+        "x69830": {
+            "level": 80,
+            "name_en": "Background Research",
+            "name_fr": "Une nouvelle île flottante",
+            "npc_en": "Isle Designer",
+            "npc_fr": "créateur d'îles",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69963"
+            ]
+        },
+        "x69831": {
+            "level": 80,
+            "name_en": "Coming to Gryps",
+            "name_fr": "Vol d'essai inespéré",
+            "npc_en": "Mount Researcher",
+            "npc_fr": "observateur des montures",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69963"
+            ]
+        },
+        "x69832": {
+            "level": 80,
+            "name_en": "Small Size Advantage",
+            "name_fr": "Petit format pour le combat",
+            "npc_en": "Combat Concept Observer",
+            "npc_fr": "observateur des gardiens",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69966"
+            ]
+        },
+        "x69833": {
+            "level": 80,
+            "name_en": "Take to the Skies",
+            "name_fr": "L'envol de nouveaux végétaux",
+            "npc_en": "Eccentric Creator",
+            "npc_fr": "créatrice excentrique",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69969"
+            ]
+        },
+        "x69834": {
+            "level": 80,
+            "name_en": "Naughty Little Ones",
+            "name_fr": "Un en-cas au bord de l'eau",
+            "npc_en": "Calm Observer",
+            "npc_fr": "observateur circonspect",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69966"
+            ]
+        },
+        "x69835": {
+            "level": 80,
+            "name_en": "Floating Like Clouds",
+            "name_fr": "Ces fleurs qui volent au vent",
+            "npc_en": "Enthusiastic Observer",
+            "npc_fr": "observateur des plantes flottantes",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69967"
+            ]
+        },
+        "x69836": {
+            "level": 80,
+            "name_en": "Familiar vs. Familiar",
+            "name_fr": "Petite course entre familiers",
+            "npc_en": "Erinna",
+            "npc_fr": "Érinna",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69969"
+            ]
+        },
+        "x69837": {
+            "level": 80,
+            "name_en": "What's in a Name?",
+            "name_fr": "Le parrain de maintes créatures",
+            "npc_en": "Meleagros",
+            "npc_fr": "Méléagre",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69966"
+            ]
+        },
+        "x69838": {
+            "level": 80,
+            "name_en": "Siren Flower",
+            "name_fr": "Des fleurs envoûtantes",
+            "npc_en": "Familiar Aficionado",
+            "npc_fr": "amateur de familiers",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69969"
+            ]
+        },
+        "x69839": {
+            "level": 80,
+            "name_en": "Searching for Eidos",
+            "name_fr": "Génie empirique",
+            "npc_en": "Glaukon",
+            "npc_fr": "Glaucon",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69969"
+            ]
+        },
+        "x69840": {
+            "level": 80,
+            "name_en": "To Name a Tale",
+            "name_fr": "Pour la pérennité",
+            "npc_en": "Troubled Taxonomist",
+            "npc_fr": "nommeur soucieux",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69966"
+            ]
+        },
+        "x69841": {
+            "level": 80,
+            "name_en": "Meaningful Measurements",
+            "name_fr": "Environnements coordonnés",
+            "npc_en": "Isle Surveyor",
+            "npc_fr": "coordonnatrice d'Elpis",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69966"
+            ]
+        },
+        "x69842": {
+            "level": 80,
+            "name_en": "Specializing in Sharks",
+            "name_fr": "Les jambes de la mer",
+            "npc_en": "Mitron Creator",
+            "npc_fr": "chercheuse de l'institut Mitron",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69969"
+            ]
+        },
+        "x69843": {
+            "level": 80,
+            "name_en": "Woken by the Familiar",
+            "name_fr": "Sommeil perturbateur",
+            "npc_en": "Epiphron",
+            "npc_fr": "Épiphron",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69967"
+            ]
+        },
+        "x69844": {
+            "level": 80,
+            "name_en": "The Abyss Stares Back",
+            "name_fr": "Le regard de l'abyssos",
+            "npc_en": "Perikles",
+            "npc_fr": "Périclès",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69969"
+            ]
+        },
+        "x69845": {
+            "level": 80,
+            "name_en": "Rolling Bryons Gather No Moss",
+            "name_fr": "Bryon qu'il ne pleuve pas trop",
+            "npc_en": "Euaion",
+            "npc_fr": "Évaion",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69969"
+            ]
+        },
+        "x69846": {
+            "level": 80,
+            "name_en": "Very Familiar Carrots",
+            "name_fr": "Dites-le avec une carotte",
+            "npc_en": "Rhodopis",
+            "npc_fr": "Rhodope",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69967"
+            ]
+        },
+        "x69847": {
+            "level": 80,
+            "name_en": "Flight of the Charybdis",
+            "name_fr": "Charybdes envolées",
+            "npc_en": "Frazzled Researcher",
+            "npc_fr": "observateur anxieux",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69969"
+            ]
+        },
+        "x69848": {
+            "level": 80,
+            "name_en": "A Most Succulent Name",
+            "name_fr": "Réflexion déambulatoire",
+            "npc_en": "Priggish Taxonomist",
+            "npc_fr": "nommeur austère",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69967"
+            ]
+        },
+        "x69849": {
+            "level": 80,
+            "name_en": "The Perks of Being a Lost Flower",
+            "name_fr": "Discrètes indiscrétions",
+            "unlock": "travel.aether-currents.ew.elpis.12",
+            "npc_en": "Akadaemia Student",
+            "npc_fr": "étudiante de l'Akadaemia",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69969"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.ew.elpis.12"
+            ]
+        },
+        "x69850": {
+            "level": 80,
+            "name_en": "Taking the Minutes: Ktisis Hyperboreia",
+            "name_fr": "Le poids des débats",
+            "npc_en": "Forbearing Visitor",
+            "npc_fr": "visiteur affairé",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69967"
+            ]
+        },
+        "x69851": {
+            "level": 80,
+            "name_en": "Terror on Two Legs",
+            "name_fr": "Bipède fugace",
+            "npc_en": "Glaphyra",
+            "npc_fr": "Glaphyra",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69967"
+            ]
+        },
+        "x70043": {
+            "level": 80,
+            "name_en": "Touring Anagnorisis, Part I",
+            "name_fr": "Observateurs observés",
+            "unlock": "travel.aether-currents.ew.elpis.13",
+            "npc_en": "Sokles",
+            "npc_fr": "Soclès",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69961"
+            ],
+            "cNext": [
+                70044
+            ],
+            "cSiblings": [
+                "travel.aether-currents.ew.elpis.13"
+            ]
+        },
+        "x70044": {
+            "level": 80,
+            "name_en": "Touring Anagnorisis, Part II",
+            "name_fr": "Visite guidée d'intérêt mutuel",
+            "npc_en": "Sokles",
+            "npc_fr": "Soclès",
+            "cPrev": [
+                70043
+            ],
+            "cNext": [
+                70045
+            ]
+        },
+        "x70045": {
+            "level": 80,
+            "name_en": "Familiar Food",
+            "name_fr": "Collation fleurie à l'Anagnorisis",
+            "npc_en": "Charmion",
+            "npc_fr": "Charmion",
+            "cPrev": [
+                70044
+            ],
+            "cNext": [
+                70046
+            ]
+        },
+        "x70046": {
+            "level": 80,
+            "name_en": "Familiar Fate",
+            "name_fr": "Notre rôle en ce monde",
+            "npc_en": "Charmion",
+            "npc_fr": "Charmion",
+            "cPrev": [
+                70045
+            ],
+            "cNext": [
+                70051
+            ]
+        },
+        "x70047": {
+            "level": 80,
+            "name_en": "An Expected Guest",
+            "name_fr": "À la rencontre d'un visiteur",
+            "unlock": "travel.aether-currents.ew.elpis.14",
+            "npc_en": "Maira",
+            "npc_fr": "Méra",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69969"
+            ],
+            "cNext": [
+                70048
+            ],
+            "cSiblings": [
+                "travel.aether-currents.ew.elpis.14"
+            ]
+        },
+        "x70048": {
+            "level": 80,
+            "name_en": "A Better Batrachoi",
+            "name_fr": "Tout rond et tout mignon",
+            "npc_en": "Kleon",
+            "npc_fr": "Cléon",
+            "cPrev": [
+                70047
+            ],
+            "cNext": [
+                70049
+            ]
+        },
+        "x70049": {
+            "level": 80,
+            "name_en": "Meekly Majestic",
+            "name_fr": "Les cornes de la disette",
+            "npc_en": "Kleon",
+            "npc_fr": "Cléon",
+            "cPrev": [
+                70048
+            ],
+            "cNext": [
+                70050
+            ]
+        },
+        "x70050": {
+            "level": 80,
+            "name_en": "Unleash the Beast",
+            "name_fr": "Conception d'un grand prédateur",
+            "npc_en": "Kleon",
+            "npc_fr": "Cléon",
+            "cPrev": [
+                70049
+            ],
+            "cNext": [
+                70051
+            ]
+        },
+        "x70051": {
+            "level": 80,
+            "name_en": "Methods of Mourning",
+            "name_fr": "Une offrande d'un nouveau genre",
+            "npc_en": "Maira",
+            "npc_fr": "Méra",
+            "cPrev": [
+                70046,
+                70050
+            ]
+        }
+    }
+}

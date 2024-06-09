@@ -1,0 +1,306 @@
+{
+    "key": "ishgard",
+    "groupName_en": "Ishgard",
+    "groupName_fr": "Ishgard",
+    "tasks": {
+        "x67262": {
+            "level": 50,
+            "name_en": "Remembering Ishgard",
+            "name_fr": "Des saints incroyables",
+            "npc_en": "Fury-fearing Elezen",
+            "npc_fr": "vieillard très croyant",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67118"
+            ]
+        },
+        "x67263": {
+            "level": 50,
+            "name_en": "The Best Laid Plans",
+            "name_fr": "Cargaisons et dragons",
+            "npc_en": "Cliaux",
+            "npc_fr": "Cliaux",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67118"
+            ]
+        },
+        "x67264": {
+            "level": 50,
+            "name_en": "Drinking the Pain Away",
+            "name_fr": "Une dernière pour la route",
+            "npc_en": "Gibrillont",
+            "npc_fr": "Gibrillont",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67118"
+            ]
+        },
+        "x67265": {
+            "level": 50,
+            "name_en": "Landing a Stable Job",
+            "name_fr": "Un régime de champion",
+            "npc_en": "Mathye",
+            "npc_fr": "Mathye",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67118"
+            ]
+        },
+        "x67266": {
+            "level": 50,
+            "name_en": "Cold Days, Colder Nights",
+            "name_fr": "À la manière d'un feu de joie",
+            "npc_en": "Brictt",
+            "npc_fr": "Brictt",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67118"
+            ],
+            "cNext": [
+                67406
+            ]
+        },
+        "x67267": {
+            "level": 50,
+            "name_en": "Dinner for Four",
+            "name_fr": "Le dîner de compagnons",
+            "npc_en": "Torsefers",
+            "npc_fr": "Torsefers",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67118"
+            ]
+        },
+        "x67278": {
+            "level": 50,
+            "name_en": "Mum's the Word",
+            "name_fr": "Cinquante nuances de Halone",
+            "npc_en": "House Durendaire Knight",
+            "npc_fr": "chevalier gêné",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67134"
+            ]
+        },
+        "x67279": {
+            "level": 50,
+            "name_en": "An Unwanted Delivery",
+            "name_fr": "Jeu d'enfant",
+            "npc_en": "Torsefers",
+            "npc_fr": "Torsefers",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67134"
+            ]
+        },
+        "x67286": {
+            "level": 51,
+            "name_en": "Homesick",
+            "name_fr": "Le Nid du fauconnier",
+            "npc_en": "Bohemondas",
+            "npc_fr": "Bohemondas",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67139"
+            ]
+        },
+        "x67287": {
+            "level": 51,
+            "name_en": "Looking to the Future",
+            "name_fr": "Les joies du célibat",
+            "npc_en": "Hyur On Hard Times",
+            "npc_fr": "homme embarrassé",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67139"
+            ]
+        },
+        "x67409": {
+            "level": 56,
+            "name_en": "Enlisted",
+            "name_fr": "Sans même un au revoir",
+            "npc_en": "Languid Noblewoman",
+            "npc_fr": "fille languide",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67173"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67433",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67430",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67425",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67426",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67427",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67434",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67421",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67422",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67423",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67424",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67428",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67429",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67431",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67432"
+            ]
+        },
+        "x67410": {
+            "level": 56,
+            "name_en": "Honoring the Past",
+            "name_fr": "Le début de la fin",
+            "npc_en": "House Haillenarte Knight",
+            "npc_fr": "chevalier des Haillenarte",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67173"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67437",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67436",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67438",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67439",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67435",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67440"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.hw.the-sea-of-clouds.12"
+            ]
+        },
+        "x67406": {
+            "level": 56,
+            "name_en": "Caught in the Act",
+            "name_fr": "Pièces piégées",
+            "npc_en": "Elaisse",
+            "npc_fr": "Elaisse",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67173",
+                67266
+            ],
+            "cNext": [
+                67442
+            ]
+        },
+        "x67408": {
+            "level": 56,
+            "name_en": "Into the Mists",
+            "name_fr": "Départ pour Dravania",
+            "npc_en": "Unflinching Temple Knight",
+            "npc_fr": "templier déterminé",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67173",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67404"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-churning-mists.67414",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67411"
+            ]
+        },
+        "x67441": {
+            "level": 57,
+            "name_en": "A Full Stomach and Happy Heart",
+            "name_fr": "Le bonheur est dans la soupe",
+            "npc_en": "Ermiance",
+            "npc_fr": "Ermiance",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67177"
+            ]
+        },
+        "x67442": {
+            "level": 57,
+            "name_en": "Unfulfilled Dreams",
+            "name_fr": "Le dernier vol d'Osaulie",
+            "npc_en": "Brictt",
+            "npc_fr": "Brictt",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67177",
+                67406
+            ]
+        },
+        "x67508": {
+            "level": 59,
+            "name_en": "Moogles in the Sky",
+            "name_fr": "Une invitation inattendue",
+            "npc_en": "House Fortemps Knight",
+            "npc_fr": "chevalier des Fortemps",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67197",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67368"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-churning-mists.67509"
+            ]
+        },
+        "x67631": {
+            "level": 50,
+            "name_en": "Inscrutable Tastes",
+            "name_fr": "De nouvelles collections",
+            "npc_en": "Morgayne",
+            "npc_fr": "Morgayne",
+            "unlock_en": "Collectable Action",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67118"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67634"
+            ]
+        },
+        "x67655": {
+            "level": 53,
+            "name_en": "Let the Clan Hunt Begin",
+            "name_fr": "Faire bonne chasse à Ishgard",
+            "cPrevAny": true,
+            "npc_en": "Aytienne",
+            "npc_fr": "Aytienne",
+            "cPrev": [
+                "duty.quests.other.grand-company.maelstrom.67100",
+                "duty.quests.other.grand-company.order-of-the-twin-adder.67099",
+                "duty.quests.other.grand-company.immortal-flames.67101"
+            ],
+            "cNext": [
+                67656
+            ]
+        },
+        "x67656": {
+            "level": 56,
+            "name_en": "Better Bill Hunting",
+            "name_fr": "Chasse dans la glace",
+            "npc_en": "Eustacia",
+            "npc_fr": "Eustacia",
+            "cPrev": [
+                67655
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.idyllshire.67657"
+            ]
+        },
+        "x67658": {
+            "level": 60,
+            "name_en": "Elite and Dangerous",
+            "name_fr": "Cibles d'élite du Grand Nord",
+            "npc_en": "Ardolain",
+            "npc_fr": "Ardolain",
+            "cPrev": [
+                "duty.quests.sidequests.dravanian.idyllshire.67657"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.hingan.kugane.68472",
+                "duty.quests.sidequests.lakeland.the-crystarium.69133",
+                "duty.quests.sidequests.sharlayan.old-sharlayan.69712"
+            ]
+        },
+        "x67649": {
+            "level": 60,
+            "name_en": "Do It for Gilly",
+            "name_fr": "Le musée des machines",
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.hw.7",
+                "character.minion-guide.3"
+            ],
+            "npc_en": "Notrelchamps",
+            "npc_fr": "Notrelchamps",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67205"
+            ]
+        },
+        "x69708": {
+            "level": 60,
+            "name_en": "Ascending to Empyreum",
+            "name_fr": "Empyrée, à ciel ouvert",
+            "npc_en": "Gondelimbaud",
+            "npc_fr": "Gondelimbaud",
+            "cPrev": [
+                "duty.quests.main-scenario.dragonsong.67783"
+            ],
+            "cSiblings": [
+                "travel.mount-speed.ishgard--coerthas.15"
+            ]
+        }
+    }
+}

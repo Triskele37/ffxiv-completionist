@@ -1,0 +1,254 @@
+{
+    "key": "south-shroud",
+    "groupName_en": "South Shroud",
+    "groupName_fr": "Forêt du sud",
+    "tasks": {
+        "x65979": {
+            "level": 20,
+            "name_en": "Leves of Quarrymill",
+            "name_fr": "Mandataire du Moulin de la Carrière",
+            "cPrevAny": true,
+            "npc_en": "Nyell",
+            "npc_fr": "Nyell",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
+            ]
+        },
+        "x66263": {
+            "level": 22,
+            "name_en": "Cloven-hoofed Horrors",
+            "name_fr": "Soupe anti-antilopes",
+            "npc_en": "Ianna",
+            "npc_fr": "Ianna",
+            "cNext": [
+                66264
+            ]
+        },
+        "x66264": {
+            "level": 22,
+            "name_en": "The Trees Have Eyes",
+            "name_fr": "Demande d'offrande",
+            "npc_en": "Ianna",
+            "npc_fr": "Ianna",
+            "cPrev": [
+                66263
+            ]
+        },
+        "x66265": {
+            "level": 22,
+            "name_en": "No Guts, No Glory",
+            "name_fr": "Plus de poisson chez Buscarron",
+            "npc_en": "Auphiliot",
+            "npc_fr": "Auphiliot",
+            "cNext": [
+                66267,
+                66268,
+                66266
+            ]
+        },
+        "x66266": {
+            "level": 22,
+            "name_en": "Occupational Hazards",
+            "name_fr": "Rassurer Yoenne",
+            "unlock": "character.minion-guide.50",
+            "npc_en": "Yoenne",
+            "npc_fr": "Yoenne",
+            "cPrev": [
+                66265
+            ]
+        },
+        "x66267": {
+            "level": 22,
+            "name_en": "Potsherds for Posterity",
+            "name_fr": "Les reliques de Gelmorra",
+            "npc_en": "Rolandaix",
+            "npc_fr": "Rolandaix",
+            "cPrev": [
+                66265
+            ]
+        },
+        "x66268": {
+            "level": 22,
+            "name_en": "Stash Saboteur",
+            "name_fr": "Mieux vaut faire sauter que guérir",
+            "npc_en": "Auphiliot",
+            "npc_fr": "Auphiliot",
+            "cPrev": [
+                66265
+            ]
+        },
+        "x66275": {
+            "level": 23,
+            "name_en": "Enemy Mine",
+            "name_fr": "L'ennemi de mon ennemi",
+            "npc_en": "Auphiliot",
+            "npc_fr": "Auphiliot",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66274"
+            ]
+        },
+        "x66278": {
+            "level": 24,
+            "name_en": "Shadows of the Empire",
+            "name_fr": "Indésirables Impériaux",
+            "npc_en": "Auphiliot",
+            "npc_fr": "Auphiliot",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66050"
+            ]
+        },
+        "x66305": {
+            "level": 26,
+            "name_en": "A Bumper Crop",
+            "name_fr": "Offrez des pommes",
+            "npc_en": "Fawkes",
+            "npc_fr": "Fawkes",
+            "cPrev": [
+                66304
+            ]
+        },
+        "x66302": {
+            "level": 26,
+            "name_en": "Savage Snares",
+            "name_fr": "Pièges pernicieux",
+            "npc_en": "Balan",
+            "npc_fr": "Balan"
+        },
+        "x66303": {
+            "level": 26,
+            "name_en": "Forest Law",
+            "name_fr": "La loi de la Sylve",
+            "npc_en": "Wlfric",
+            "npc_fr": "Wlfric"
+        },
+        "x66304": {
+            "level": 26,
+            "name_en": "An Apple a Day",
+            "name_fr": "Travail saisonnier",
+            "npc_en": "Deidra",
+            "npc_fr": "Deidra",
+            "cNext": [
+                66305
+            ]
+        },
+        "x66309": {
+            "level": 26,
+            "name_en": "Masher for a Day",
+            "name_fr": "Le secret de la sauce de Mun-Tuy",
+            "npc_en": "Erimmont",
+            "npc_fr": "Erimmont",
+            "cPrev": [
+                66308
+            ]
+        },
+        "x66306": {
+            "level": 26,
+            "name_en": "Wretched Hive of Villainy",
+            "name_fr": "Du rififi au Guêpier",
+            "npc_en": "Faucertaux",
+            "npc_fr": "Faucertaux"
+        },
+        "x66307": {
+            "level": 26,
+            "name_en": "In Grandfather's Name",
+            "name_fr": "Au nom du grand-père",
+            "npc_en": "Cuthbert",
+            "npc_fr": "Cuthbert",
+            "cNext": [
+                66308
+            ]
+        },
+        "x66308": {
+            "level": 26,
+            "name_en": "The Marvelous Mun-Tuy Bean",
+            "name_fr": "Mets la sauce",
+            "npc_en": "Aedoc",
+            "npc_fr": "Aedoc",
+            "cPrev": [
+                66307
+            ],
+            "cNext": [
+                66309
+            ]
+        },
+        "x65980": {
+            "level": 30,
+            "name_en": "Leves of Camp Tranquil",
+            "name_fr": "Mandataire des Sentes tranquilles",
+            "cPrevAny": true,
+            "npc_en": "Merthelin",
+            "npc_fr": "Merthelin",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
+            ]
+        },
+        "x66353": {
+            "level": 30,
+            "name_en": "We'll Always Have Ul'dah",
+            "name_fr": "Un parfum d'ailleurs",
+            "npc_en": "Detoh Moshroca",
+            "npc_fr": "Detoh Moshroca",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66350"
+            ]
+        },
+        "x66354": {
+            "level": 30,
+            "name_en": "A Burning Request",
+            "name_fr": "Une commande qui tombe à l'eau",
+            "npc_en": "Florent",
+            "npc_fr": "Florent",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66350"
+            ]
+        },
+        "x66698": {
+            "level": 30,
+            "name_en": "My Feisty Little Chocobo",
+            "name_fr": "Meilleur ami de l'homme",
+            "cPrevAny": true,
+            "npc_en": "Docette",
+            "npc_fr": "Docette",
+            "unlock_en": "Companion",
+            "cPrev": [
+                "duty.quests.sidequests.gridanian.gridania.66236",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66237",
+                "duty.quests.sidequests.uldahn.uldah.66238"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gridanian.central-shroud.67096"
+            ]
+        },
+        "x66546": {
+            "level": 46,
+            "name_en": "Slim Pickings",
+            "name_fr": "Viande de choix",
+            "npc_en": "Isarmoix",
+            "npc_fr": "Isarmoix"
+        },
+        "x66547": {
+            "level": 46,
+            "name_en": "Serveth Thy Master",
+            "name_fr": "Kerrich le Terrible",
+            "npc_en": "Kerrich",
+            "npc_fr": "Kerrich"
+        },
+        "x66548": {
+            "level": 46,
+            "name_en": "All You Wanted to Know about Odin",
+            "name_fr": "À chacun sa vérité",
+            "npc_en": "Simmie",
+            "npc_fr": "Simmie",
+            "cPrev": [
+                "duty.quests.sidequests.gridanian.gridania.66545"
+            ],
+            "cNext": [
+                "duty.quests.chronicles-of-a-new-era.primals.65969"
+            ]
+        }
+    }
+}

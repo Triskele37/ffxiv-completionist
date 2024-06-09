@@ -1,0 +1,439 @@
+{
+    "key": "labyrinthos",
+    "groupName_en": "Labyrinthos",
+    "groupName_fr": "Le Labyrinthos",
+    "tasks": {
+        "x69720": {
+            "level": 80,
+            "name_en": "It's Not the Heat, It's the Humidity",
+            "name_fr": "Quand il y a du mystère dans l'air...",
+            "npc_en": "Outer Circuit Researcher",
+            "npc_fr": "chercheuse du Circuit externe",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69898"
+            ]
+        },
+        "x69721": {
+            "level": 80,
+            "name_en": "No Laughing Matter",
+            "name_fr": "Des farceurs chez les glaneurs",
+            "npc_en": "Nonolato",
+            "npc_fr": "Nonolato",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69898"
+            ]
+        },
+        "x69722": {
+            "level": 80,
+            "name_en": "Building Good Habitats",
+            "name_fr": "L'écosystème du Labyrinthos",
+            "npc_en": "Green Gleaner",
+            "npc_fr": "glaneur novice",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69898"
+            ]
+        },
+        "x69723": {
+            "level": 80,
+            "name_en": "An Ore-ful Lot",
+            "name_fr": "Il y a de quoi en faire des caisses",
+            "npc_en": "Burly Researcher",
+            "npc_fr": "chercheur baraqué",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69898"
+            ]
+        },
+        "x69724": {
+            "level": 80,
+            "name_en": "Raised on the Fallen",
+            "name_fr": "L'ingrédient secret",
+            "npc_en": "N'nagali",
+            "npc_fr": "N'nagali",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69898"
+            ]
+        },
+        "x69725": {
+            "level": 80,
+            "name_en": "Pot Luck",
+            "name_fr": "Le génie du vase",
+            "npc_en": "Vyell",
+            "npc_fr": "Vyell",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69898"
+            ]
+        },
+        "x69726": {
+            "level": 80,
+            "name_en": "Uncommon Scents",
+            "name_fr": "L'heure du goûter",
+            "npc_en": "Boragchin",
+            "npc_fr": "Boragchin",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69898"
+            ]
+        },
+        "x69727": {
+            "level": 80,
+            "name_en": "A Hard Task to Digest",
+            "name_fr": "Une soif de savoir dévorante",
+            "npc_en": "Chatbert",
+            "npc_fr": "Chatbert",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69898"
+            ]
+        },
+        "x69728": {
+            "level": 80,
+            "name_en": "Learning to Sow",
+            "name_fr": "Un petit coup de main verte",
+            "npc_en": "Jonquinet",
+            "npc_fr": "Jonquinet",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69901"
+            ]
+        },
+        "x69729": {
+            "level": 80,
+            "name_en": "A Ripe Trade",
+            "name_fr": "Entre les fruits et le fromage",
+            "npc_en": "Rubh'a Epocan",
+            "npc_fr": "Rubh'a Epocan",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69901"
+            ]
+        },
+        "x69730": {
+            "level": 80,
+            "name_en": "It's Not Mud",
+            "name_fr": "Ouh, la gadoue",
+            "npc_en": "Emaniette",
+            "npc_fr": "Emaniette",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69901"
+            ]
+        },
+        "x69731": {
+            "level": 80,
+            "name_en": "Not Mushroom for Error",
+            "name_fr": "Les mystères de la mycologie",
+            "npc_en": "Parbeloix",
+            "npc_fr": "Parbeloix",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69901"
+            ]
+        },
+        "x69856": {
+            "level": 80,
+            "name_en": "Gleaner's Wish",
+            "name_fr": "La prière du voyageur",
+            "unlock": "travel.aether-currents.ew.labyrinthos.13",
+            "npc_en": "Viera Gleaner",
+            "npc_fr": "glaneur viéra",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69982"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.ew.labyrinthos.13"
+            ]
+        },
+        "x69857": {
+            "level": 80,
+            "name_en": "A Job for a Loporrit",
+            "name_fr": "Loporrite recherche travail désespérément",
+            "npc_en": "Wandering Loporrit",
+            "npc_fr": "Loporrite errant",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69982"
+            ]
+        },
+        "x69858": {
+            "level": 80,
+            "name_en": "Gift for a Fan",
+            "name_fr": "Au bonheur des fans",
+            "npc_en": "Cweilsaem",
+            "npc_fr": "Cweilsaem",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69982"
+            ]
+        },
+        "x69859": {
+            "level": 80,
+            "name_en": "Wayward Carbuncle",
+            "name_fr": "Un Carbuncle qui revient de loin",
+            "npc_en": "Studium Researcher",
+            "npc_fr": "magismologue",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69982"
+            ]
+        },
+        "x69860": {
+            "level": 80,
+            "name_en": "Don't Philter Yourself",
+            "name_fr": "Dans la santé comme dans la maladie",
+            "npc_en": "Fretting Researcher",
+            "npc_fr": "chercheuse roegadyne",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69982"
+            ]
+        },
+        "x69861": {
+            "level": 80,
+            "name_en": "Take a Look, It's in a Book",
+            "name_fr": "Le don de l'Histoire",
+            "npc_en": "Determined Bibliothec",
+            "npc_fr": "archiviste passionné",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69982"
+            ]
+        },
+        "x69862": {
+            "level": 80,
+            "name_en": "Seeing Red",
+            "name_fr": "Le démon légumier",
+            "npc_en": "Fjola",
+            "npc_fr": "Fjola",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69978"
+            ]
+        },
+        "x69863": {
+            "level": 80,
+            "name_en": "To Care Enough to Send the Very Best",
+            "name_fr": "Le portrait du bonheur",
+            "npc_en": "Experienced Researcher",
+            "npc_fr": "chercheuse hyurgothe",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69982"
+            ]
+        },
+        "x69864": {
+            "level": 80,
+            "name_en": "Herbicidal Tendencies",
+            "name_fr": "Désherbage et déraison",
+            "npc_en": "Charmont",
+            "npc_fr": "Charmont",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69978"
+            ]
+        },
+        "x69865": {
+            "level": 80,
+            "name_en": "Let the Good Times Troll",
+            "name_fr": "Le protecteur de la forêt",
+            "unlock": "travel.aether-currents.ew.labyrinthos.14",
+            "npc_en": "Vexed Veterinarian",
+            "npc_fr": "vétérinaire lalafelle",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69978"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.ew.labyrinthos.14"
+            ]
+        },
+        "x69866": {
+            "level": 80,
+            "name_en": "Apple-y Ever After",
+            "name_fr": "Quand on parle de la mandragore, on en voit la tête",
+            "npc_en": "Distressed Chef",
+            "npc_fr": "cuisinière miqo'te",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69978"
+            ]
+        },
+        "x69867": {
+            "level": 80,
+            "name_en": "The Dry Eyes Have It",
+            "name_fr": "Un gardien de nuit très chouette",
+            "npc_en": "A'naidjaa",
+            "npc_fr": "A'naidjaa",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69982"
+            ]
+        },
+        "x69868": {
+            "level": 80,
+            "name_en": "Dolling out Punishment",
+            "name_fr": "Le pantin maléfique",
+            "npc_en": "Jessamy",
+            "npc_fr": "Jessamy",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69982"
+            ]
+        },
+        "x69869": {
+            "level": 80,
+            "name_en": "The Case of the Missing Gleaner",
+            "name_fr": "Le retour de la boue mystérieuse",
+            "npc_en": "Elemental Reactor Operator",
+            "npc_fr": "employé des réacteurs",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69978"
+            ]
+        },
+        "x69870": {
+            "level": 80,
+            "name_en": "Cooler than Being Cool",
+            "name_fr": "Des ardeurs à refroidir",
+            "npc_en": "Marvene",
+            "npc_fr": "Marvene",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69985"
+            ]
+        },
+        "x69871": {
+            "level": 80,
+            "name_en": "For the Record",
+            "name_fr": "Les archives de L'Aporie",
+            "npc_en": "Asasamu",
+            "npc_fr": "Asasamu",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69985"
+            ]
+        },
+        "x69872": {
+            "level": 80,
+            "name_en": "Harbinger of Breath",
+            "name_fr": "La conquête de la Lune",
+            "npc_en": "Tatasako",
+            "npc_fr": "Tatasako",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69985"
+            ]
+        },
+        "x70016": {
+            "level": 80,
+            "name_en": "Lost Little Troll",
+            "name_fr": "Un amour de Poilu",
+            "unlock": "travel.aether-currents.ew.labyrinthos.11",
+            "npc_en": "Distracted Archivist",
+            "npc_fr": "employé empoté",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69901"
+            ],
+            "cNext": [
+                70017
+            ],
+            "cSiblings": [
+                "travel.aether-currents.ew.labyrinthos.11"
+            ]
+        },
+        "x70017": {
+            "level": 80,
+            "name_en": "Problematic Pests",
+            "name_fr": "La menace des anobides",
+            "npc_en": "Shaggles",
+            "npc_fr": "Poilu",
+            "cPrev": [
+                70016
+            ],
+            "cNext": [
+                70018
+            ]
+        },
+        "x70018": {
+            "level": 80,
+            "name_en": "Pests Be Gone",
+            "name_fr": "Le super-insecticide",
+            "npc_en": "Agronomics Biologist",
+            "npc_fr": "biologiste",
+            "cPrev": [
+                70017
+            ],
+            "cNext": [
+                70019
+            ]
+        },
+        "x70019": {
+            "level": 80,
+            "name_en": "Dream Big",
+            "name_fr": "L'horizon d'un spécimen",
+            "npc_en": "Shaggles",
+            "npc_fr": "Poilu",
+            "cPrev": [
+                70018
+            ],
+            "cNext": [
+                70024
+            ]
+        },
+        "x70020": {
+            "level": 80,
+            "name_en": "The Lad in Labyrinthos",
+            "name_fr": "L'enfant de la Petite Sharlayan",
+            "unlock": "travel.aether-currents.ew.labyrinthos.12",
+            "npc_en": "Mussalfret",
+            "npc_fr": "Mussalfret",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69982"
+            ],
+            "cNext": [
+                70021
+            ],
+            "cSiblings": [
+                "travel.aether-currents.ew.labyrinthos.12"
+            ]
+        },
+        "x70021": {
+            "level": 80,
+            "name_en": "Here Comes the Sun",
+            "name_fr": "Enquête au Phoïbos",
+            "npc_en": "Verpaulaine",
+            "npc_fr": "Verpaulaine",
+            "cPrev": [
+                70020
+            ],
+            "cNext": [
+                70022
+            ]
+        },
+        "x70022": {
+            "level": 80,
+            "name_en": "Fiery Thirst",
+            "name_fr": "Le dévoreur de feu",
+            "npc_en": "Verpaulaine",
+            "npc_fr": "Verpaulaine",
+            "cPrev": [
+                70021
+            ],
+            "cNext": [
+                70023
+            ]
+        },
+        "x70023": {
+            "level": 80,
+            "name_en": "The Hero in Labyrinthos",
+            "name_fr": "Le héros de la Petite Sharlayan",
+            "npc_en": "Verpaulaine",
+            "npc_fr": "Verpaulaine",
+            "cPrev": [
+                70022
+            ],
+            "cNext": [
+                70024
+            ]
+        },
+        "x70024": {
+            "level": 80,
+            "name_en": "Thick as Thieves",
+            "name_fr": "Les jeunes espoirs du Labyrinthos",
+            "npc_en": "Verpaulaine",
+            "npc_fr": "Verpaulaine",
+            "cPrev": [
+                70019,
+                70023
+            ]
+        },
+        "x70352": {
+            "level": 80,
+            "name_en": "The Pride of Labyrinthos",
+            "name_fr": "L'idole du Labyrinthos",
+            "patch": "6.5",
+            "npc_en": "Margrat",
+            "npc_fr": "Margrat",
+            "cPrev": [
+                "duty.quests.sidequests.sharlayan.old-sharlayan.70351"
+            ]
+        }
+    }
+}

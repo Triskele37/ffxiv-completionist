@@ -1,0 +1,45 @@
+{
+    "key": "doman-adventurers-guild",
+    "groupName_en": "Doman Adventurers' Guild",
+    "groupName_fr": "Clan des aventuriers de Doma",
+    "tasks": {
+        "x65581": {
+            "level": 54,
+            "name_en": "Toll Booty",
+            "name_fr": "Les trésors du camp dévasté",
+            "npc_en": "Rhesh Polaali",
+            "npc_fr": "Rhesh Polaali",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67168"
+            ],
+            "cNext": [
+                65586
+            ]
+        },
+        "x65586": {
+            "level": 54,
+            "name_en": "Li'l Rascals",
+            "name_fr": "Des suspects trop parfaits",
+            "npc_en": "Yozan",
+            "npc_fr": "Yozan",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67168",
+                65581
+            ],
+            "cNext": [
+                65636
+            ]
+        },
+        "x65636": {
+            "level": 54,
+            "name_en": "Short Arms of the Law",
+            "name_fr": "À malin, malin et demi",
+            "npc_en": "Yozan",
+            "npc_fr": "Yozan",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67168",
+                65586
+            ]
+        }
+    }
+}

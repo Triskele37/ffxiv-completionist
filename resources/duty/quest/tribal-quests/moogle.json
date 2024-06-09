@@ -1,0 +1,527 @@
+{
+    "key": "moogle",
+    "groupName_en": "Moogle",
+    "groupName_fr": "Mogs",
+    "common": [
+        "type"
+    ],
+    "tasks": {
+        "x67856": {
+            "level": 50,
+            "name_en": "Tricks and Stones",
+            "name_fr": "Les Mogdernisateurs célestes",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Seething Stonemason",
+            "npc_fr": "maçon en colère",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15720",
+                "duty.quests.main-scenario.heavensward.67170",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67407"
+            ],
+            "cNext": [
+                67857
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.44"
+            ]
+        },
+        "x67857": {
+            "level": 50,
+            "name_en": "The Milk of Moogle Kindness",
+            "name_fr": "La résolution peut renverser des montagnes",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Master Mogzin",
+            "npc_fr": "Mogzin",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "cPrev": [
+                67856
+            ],
+            "cNext": [
+                67858
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.45"
+            ]
+        },
+        "x67858": {
+            "level": 50,
+            "name_en": "Trying Times",
+            "name_fr": "Un renfort de poids",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Master Mogzin",
+            "npc_fr": "Mogzin",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15721",
+                67857
+            ],
+            "cNext": [
+                67859
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.46"
+            ]
+        },
+        "x67859": {
+            "level": 50,
+            "name_en": "A Crystalline Solution",
+            "name_fr": "La fontaine de la discorde",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Master Mogzin",
+            "npc_fr": "Mogzin",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                67858
+            ],
+            "cNext": [
+                67860
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.47"
+            ]
+        },
+        "x67860": {
+            "level": 50,
+            "name_en": "The Tools Make the Moogle",
+            "name_fr": "Mogdernisation du matériel",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Master Mogzin",
+            "npc_fr": "Mogzin",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15722",
+                67859
+            ],
+            "cNext": [
+                67861
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.48"
+            ]
+        },
+        "x67861": {
+            "level": 50,
+            "name_en": "A Monumental Task",
+            "name_fr": "La statue de l'Amitié",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Master Mogzin",
+            "npc_fr": "Mogzin",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15723",
+                67860
+            ],
+            "cNext": [
+                67862
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.49"
+            ]
+        },
+        "x67862": {
+            "level": 50,
+            "name_en": "Piecing Together the Past",
+            "name_fr": "Tout le monde aura sa plaque",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Master Mogzin",
+            "npc_fr": "Mogzin",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15724",
+                67861
+            ],
+            "cNext": [
+                67863
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.50",
+                "social.emotes.special.126"
+            ]
+        },
+        "x67863": {
+            "level": 50,
+            "name_en": "The Zenith of Craftsmanship",
+            "name_fr": "Mogzin au zénith",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Master Mogzin",
+            "npc_fr": "Mogzin",
+            "reputation_en": "Sworn",
+            "reputation_fr": "Assermenté",
+            "cPrev": [
+                67862
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.51"
+            ]
+        },
+        "x67826": {
+            "level": 50,
+            "name_en": "With a Little Help",
+            "name_fr": "Avec un peu d'entraînement",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15725"
+            ]
+        },
+        "x67827": {
+            "level": 50,
+            "name_en": "Hasty Conclusions",
+            "name_fr": "Un trésor à la maison",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15726"
+            ]
+        },
+        "x67828": {
+            "level": 50,
+            "name_en": "A Fundamentally Important Task",
+            "name_fr": "Des fondations d'utilité publique",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15727"
+            ]
+        },
+        "x67829": {
+            "level": 50,
+            "name_en": "Deep into the Weeds",
+            "name_fr": "Vanniers vannés",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15728"
+            ]
+        },
+        "x67830": {
+            "level": 50,
+            "name_en": "Moogle on the Wall",
+            "name_fr": "Au pied du mur",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15729"
+            ]
+        },
+        "x67831": {
+            "level": 50,
+            "name_en": "Kupo for Kupo Nuts",
+            "name_fr": "Des travailleurs à la noix",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu"
+        },
+        "x67832": {
+            "level": 50,
+            "name_en": "Work That Mallow",
+            "name_fr": "À coups de serpe",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15730"
+            ]
+        },
+        "x67833": {
+            "level": 50,
+            "name_en": "A Little Pick-me-up",
+            "name_fr": "Monture remontante",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu"
+        },
+        "x67834": {
+            "level": 50,
+            "name_en": "A Fine Finish",
+            "name_fr": "Pavé de bonnes intentions",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15731"
+            ]
+        },
+        "x67835": {
+            "level": 50,
+            "name_en": "The Mining Mishap",
+            "name_fr": "L'ivresse du travail",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15732"
+            ]
+        },
+        "x67836": {
+            "level": 50,
+            "name_en": "Stumbling Blocks",
+            "name_fr": "Quand la taille compte",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15733"
+            ]
+        },
+        "x67837": {
+            "level": 50,
+            "name_en": "Tricks without Treats",
+            "name_fr": "Amitié explosive",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15734"
+            ]
+        },
+        "x67838": {
+            "level": 50,
+            "name_en": "For Moogles in Peril",
+            "name_fr": "Pour rugir de plaisir",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé"
+        },
+        "x67839": {
+            "level": 50,
+            "name_en": "The Negotiator",
+            "name_fr": "La diplomatie du pompon",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15735"
+            ]
+        },
+        "x67840": {
+            "level": 50,
+            "name_en": "Back to the Drawing Board",
+            "name_fr": "Restauration mogderniste",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15736"
+            ]
+        },
+        "x67841": {
+            "level": 50,
+            "name_en": "Built to Last",
+            "name_fr": "Le secret de la longévité",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15737"
+            ]
+        },
+        "x67842": {
+            "level": 50,
+            "name_en": "Let There Be Light",
+            "name_fr": "Statues et rugissements",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé"
+        },
+        "x67843": {
+            "level": 50,
+            "name_en": "Rare Refreshments",
+            "name_fr": "Mog chef",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15738"
+            ]
+        },
+        "x67844": {
+            "level": 50,
+            "name_en": "A Stone's Throw Away",
+            "name_fr": "Les Mogdernisateurs font le kupoirier",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté"
+        },
+        "x67845": {
+            "level": 50,
+            "name_en": "A Revivifying Roar",
+            "name_fr": "Décharge générale",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté"
+        },
+        "x67846": {
+            "level": 50,
+            "name_en": "Journey of a Thousand Hews",
+            "name_fr": "Une vocation de taille",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15739"
+            ]
+        },
+        "x67847": {
+            "level": 50,
+            "name_en": "Ship of Dreams",
+            "name_fr": "Des bêtes curieuses",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15740"
+            ]
+        },
+        "x67848": {
+            "level": 50,
+            "name_en": "Stirring by Sternutation",
+            "name_fr": "Opération sternutation",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté"
+        },
+        "x67849": {
+            "level": 50,
+            "name_en": "Dragon Draff for Their Behalf",
+            "name_fr": "Un accord gagnant-gagnant",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15741"
+            ]
+        },
+        "x67850": {
+            "level": 50,
+            "name_en": "A Fish for His Favors",
+            "name_fr": "Leurre de gloire",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15742"
+            ]
+        },
+        "x67851": {
+            "level": 50,
+            "name_en": "From Lax to Max",
+            "name_fr": "Paresse sociale",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite"
+        },
+        "x67852": {
+            "level": 50,
+            "name_en": "An Ishgardian Treat",
+            "name_fr": "Mettre du cœur au ventre",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15743"
+            ]
+        },
+        "x67853": {
+            "level": 50,
+            "name_en": "Mine and Craft",
+            "name_fr": "Au fond du trou",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15744"
+            ]
+        },
+        "x67854": {
+            "level": 50,
+            "name_en": "The Moogle Motivator",
+            "name_fr": "La carotte et le bâton",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.moogle.15745"
+            ]
+        },
+        "x67855": {
+            "level": 50,
+            "name_en": "Tremble Finishing",
+            "name_fr": "Rugissement dynamisant",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Mogek the Marvelous",
+            "npc_fr": "Mogek",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite"
+        }
+    }
+}

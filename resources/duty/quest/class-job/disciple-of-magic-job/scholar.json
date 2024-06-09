@@ -1,0 +1,271 @@
+{
+    "key": "scholar",
+    "groupName_en": "Scholar",
+    "groupName_fr": "Quêtes d'érudit",
+    "tasks": {
+        "x66633": {
+            "level": 30,
+            "name_en": "Forgotten but Not Gone",
+            "name_fr": "Le maraudeur intellectuel",
+            "npc_en": "Murie",
+            "npc_fr": "Murie",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-magic.arcanist.65997",
+                "duty.quests.main-scenario.seventh-umbral-era.66049"
+            ],
+            "cNext": [
+                66634
+            ],
+            "cSiblings": [
+                "character.adventure-plate.20"
+            ]
+        },
+        "x66634": {
+            "level": 35,
+            "name_en": "The Last Remnants",
+            "name_fr": "Excursion réminiscente",
+            "npc_en": "Alka Zolka",
+            "npc_fr": "Alka Zolka",
+            "cPrev": [
+                66633
+            ],
+            "cNext": [
+                66635
+            ]
+        },
+        "x66635": {
+            "level": 40,
+            "name_en": "The Consequences of Anger",
+            "name_fr": "La chasse au tomberry",
+            "npc_en": "Alka Zolka",
+            "npc_fr": "Alka Zolka",
+            "cPrev": [
+                66634
+            ],
+            "cNext": [
+                66636
+            ]
+        },
+        "x66636": {
+            "level": 45,
+            "name_en": "In the Image of the Ancients",
+            "name_fr": "Une restauration vestimentaire",
+            "npc_en": "Alka Zolka",
+            "npc_fr": "Alka Zolka",
+            "cPrev": [
+                66635
+            ],
+            "cNext": [
+                66637
+            ]
+        },
+        "x66637": {
+            "level": 45,
+            "name_en": "For Your Fellow Man",
+            "name_fr": "M*É*S*H",
+            "npc_en": "Alka Zolka",
+            "npc_fr": "Alka Zolka",
+            "cPrev": [
+                66636
+            ],
+            "cNext": [
+                66638
+            ]
+        },
+        "x66638": {
+            "level": 50,
+            "name_en": "The Beast Within",
+            "name_fr": "Le passé caché de Nym",
+            "npc_en": "Alka Zolka",
+            "npc_fr": "Alka Zolka",
+            "cPrev": [
+                66637
+            ],
+            "cNext": [
+                66663,
+                67207
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.600"
+            ]
+        },
+        "x66663": {
+            "level": 50,
+            "name_en": "A Relic Reborn (Omnilex)",
+            "name_fr": "Restauration de l'Omnilex",
+            "npc_en": "Gerolt",
+            "npc_fr": "Gerolt",
+            "cPrev": [
+                66638,
+                "duty.quests.sidequests.uldahn.western-thanalan.66241"
+            ]
+        },
+        "x67207": {
+            "level": 50,
+            "name_en": "The Green Death",
+            "name_fr": "Une lettre inattendue",
+            "npc_en": "Alka Zolka",
+            "npc_fr": "Alka Zolka",
+            "cPrev": [
+                66638,
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                67208
+            ]
+        },
+        "x67208": {
+            "level": 52,
+            "name_en": "Quarantine",
+            "name_fr": "Gare au gardien!",
+            "npc_en": "Surito Carito",
+            "npc_fr": "Surito Carito",
+            "cPrev": [
+                67207
+            ],
+            "cNext": [
+                67209
+            ]
+        },
+        "x67209": {
+            "level": 54,
+            "name_en": "False Friends",
+            "name_fr": "Le secret de la lèpre du tomberry",
+            "npc_en": "Surito Carito",
+            "npc_fr": "Surito Carito",
+            "cPrev": [
+                67208
+            ],
+            "cNext": [
+                67210
+            ]
+        },
+        "x67210": {
+            "level": 56,
+            "name_en": "Ooh Rah",
+            "name_fr": "Mets tomberry, légionnaire!",
+            "npc_en": "Surito Carito",
+            "npc_fr": "Surito Carito",
+            "cPrev": [
+                67209
+            ],
+            "cNext": [
+                67211
+            ]
+        },
+        "x67211": {
+            "level": 58,
+            "name_en": "Unseen",
+            "name_fr": "Documentation glacée",
+            "npc_en": "Surito Carito",
+            "npc_fr": "Surito Carito",
+            "cPrev": [
+                67210
+            ],
+            "cNext": [
+                67212
+            ]
+        },
+        "x67212": {
+            "level": 60,
+            "name_en": "Forward, the Royal Marines",
+            "name_fr": "Éradication érudite",
+            "npc_en": "Surito Carito",
+            "npc_fr": "Surito Carito",
+            "cPrev": [
+                67211
+            ],
+            "cNext": [
+                68459
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1149"
+            ]
+        },
+        "x68459": {
+            "level": 60,
+            "name_en": "The Vanishing Act",
+            "name_fr": "La grande vadrouille du tomberry",
+            "npc_en": "Alka Zolka",
+            "npc_fr": "Alka Zolka",
+            "cPrev": [
+                67212,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                68460
+            ]
+        },
+        "x68460": {
+            "level": 63,
+            "name_en": "A Safe Place to Hide",
+            "name_fr": "Des sentes pas si tranquilles",
+            "npc_en": "Surito Carito",
+            "npc_fr": "Surito Carito",
+            "cPrev": [
+                68459
+            ],
+            "cNext": [
+                68461
+            ]
+        },
+        "x68461": {
+            "level": 65,
+            "name_en": "In Loving Memory",
+            "name_fr": "Pour le souvenir d'un père",
+            "npc_en": "Alka Zolka",
+            "npc_fr": "Alka Zolka",
+            "cPrev": [
+                68460
+            ],
+            "cNext": [
+                68462
+            ]
+        },
+        "x68462": {
+            "level": 68,
+            "name_en": "The Chase",
+            "name_fr": "La chasse à la fée",
+            "npc_en": "Alka Zolka",
+            "npc_fr": "Alka Zolka",
+            "cPrev": [
+                68461
+            ],
+            "cNext": [
+                68463
+            ]
+        },
+        "x68463": {
+            "level": 70,
+            "name_en": "Our Unsung Heroes",
+            "name_fr": "L'espoir en héritage",
+            "npc_en": "Alka Zolka",
+            "npc_fr": "Alka Zolka",
+            "cPrev": [
+                68462
+            ],
+            "cNext": [
+                68754
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1805"
+            ]
+        },
+        "x68754": {
+            "level": 80,
+            "name_en": "True Beauty",
+            "name_fr": "Remède dimensionnel",
+            "npc_en": "Alka Zolka",
+            "npc_fr": "Alka Zolka",
+            "cPrev": [
+                68463,
+                "duty.quests.class--job.role.shb.68808",
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.19",
+                "character.achievement.quests.job-role-quests.2314"
+            ]
+        }
+    }
+}

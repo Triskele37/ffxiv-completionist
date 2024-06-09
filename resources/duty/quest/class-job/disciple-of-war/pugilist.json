@@ -1,0 +1,122 @@
+{
+    "key": "pugilist",
+    "groupName_en": "Pugilist",
+    "groupName_fr": "Quêtes de pugiliste",
+    "tasks": {
+        "x66068": {
+            "level": 1,
+            "name_en": "Way of the Pugilist",
+            "name_fr": "La voie du pugilat",
+            "npc_en": "Gagaruna",
+            "npc_fr": "Gagaruna",
+            "cPrev": [
+                "duty.quests.other.quasi-quests.65714"
+            ],
+            "cNext": [
+                66089
+            ]
+        },
+        "x66089": {
+            "level": 1,
+            "name_en": "My First Hora",
+            "name_fr": "Premiers pas à mains nues",
+            "npc_en": "Hamon",
+            "npc_fr": "Hamon",
+            "cPrev": [
+                66068
+            ],
+            "cNext": [
+                66090,
+                66234
+            ]
+        },
+        "x66090": {
+            "level": 5,
+            "name_en": "Harder than Rock",
+            "name_fr": "Plus dur que la roche",
+            "cPrevAny": true,
+            "npc_en": "Hamon",
+            "npc_fr": "Hamon",
+            "cPrev": [
+                66089,
+                66068
+            ],
+            "cNext": [
+                66234
+            ]
+        },
+        "x66234": {
+            "level": 10,
+            "name_en": "Burning Up the Quarter Malm",
+            "name_fr": "Plus rapide que l'éclair",
+            "npc_en": "Hamon",
+            "npc_fr": "Hamon",
+            "cPrev": [
+                66090,
+                66089
+            ],
+            "cNext": [
+                66094
+            ]
+        },
+        "x66094": {
+            "level": 15,
+            "name_en": "The Spirit Is Willing",
+            "name_fr": "La combativité du maître",
+            "npc_en": "Hamon",
+            "npc_fr": "Hamon",
+            "cPrev": [
+                66234
+            ],
+            "cNext": [
+                66098
+            ]
+        },
+        "x66098": {
+            "level": 20,
+            "name_en": "Keeping the Spirit Alive",
+            "name_fr": "Attiser l'ancien feu",
+            "npc_en": "Hamon",
+            "npc_fr": "Hamon",
+            "cPrev": [
+                66094
+            ],
+            "cNext": [
+                66102
+            ]
+        },
+        "x66102": {
+            "level": 25,
+            "name_en": "Star-crossed Rivals",
+            "name_fr": "Deux étoiles rivales",
+            "npc_en": "Hamon",
+            "npc_fr": "Hamon",
+            "cPrev": [
+                66098
+            ],
+            "cNext": [
+                66103
+            ]
+        },
+        "x66103": {
+            "level": 30,
+            "name_en": "Return of the Holyfist",
+            "name_fr": "Le retour des Poings divins",
+            "npc_en": "Hamon",
+            "npc_fr": "Hamon",
+            "cPrev": [
+                66102
+            ],
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war-job.monk.66597"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.28"
+            ],
+            "cCombo": [
+                "character.achievement.quests.job-role-quests.313",
+                "character.achievement.quests.job-role-quests.314"
+            ]
+        }
+    }
+}

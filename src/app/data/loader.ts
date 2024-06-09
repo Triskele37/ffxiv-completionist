@@ -1,7 +1,5 @@
 import { TranslateService } from '@ngx-translate/core';
 
-import { Lang } from '@constant';
-import { Globals } from '@constant/Global';
 import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 
 export const refs: {
@@ -13,36 +11,26 @@ export const refs: {
 };
 
 export function loadJson(path: string) {
-    const lang = Globals.config.lang || Lang.EN;
     const prefix = getPrefix();
 
     let finalJson: any;
     try {
-        const commonPath = [prefix, path, 'cmn.json'].filter((s) => s).join('/');
-        const localePath = [prefix, path, `${lang}.json`].filter((s) => s).join('/');
-        const common = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, commonPath);
-        const locale = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, localePath);
+        const fullPath = [prefix, path].filter((s) => s).join('/');
+        const json = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, fullPath);
 
         try {
-            // Destructure headers and tasks so they aren't mapped
-            const { headers: cHeaders, tasks: cTasks, ...cProps } = common;
-            const { headers: lHeaders, tasks: lTasks, ...lProps } = locale;
-
-            // Map group-level common props
             finalJson = {
-                ...cProps, // map common props onto final json
-                ...lProps // allow locale to override common
+                ...json,
+                headers: mapHeaders(json),
+                tasks: mapTasks(json),
             };
-
-            finalJson.headers = mapHeaders(common, locale);
-            finalJson.tasks = mapTasks(common, locale);
         }
         catch(e) {
-            console.error(`Error in ${prefix}/${path}/cmn.json`, e);
+            console.error(`Error in ${prefix}/${path}.json`, e);
         }
     }
     catch(e) {
-        console.error(`Error in ${prefix}/${path}/${lang}.json`, e);
+        console.error(`Error in ${prefix}/${path}.json`, e);
     }
 
     return finalJson;
@@ -58,65 +46,52 @@ function getPrefix() {
     }
 }
 
-function mapHeaders(common, locale) {
-    if(!common.headers && !locale.headers) return null;
-    const headers: any = {};
-
-    Object.keys(locale.headers).forEach((key) => {
-        headers[key] = { key, header: locale.headers[key] };
-
-        if(common.headers?.[key]) {
-            headers[key] = {
-                ...headers[key],
-                ...common.headers[key]
-            };
-        }
-
-        applyStaticHeaderProps(headers, key);
-    });
-
-    return headers;
+function mapHeaders(json) {
+    if(!json.headers) return null;
+    return Object.keys(json.headers)
+        .map((key) => ({
+            key,
+            ...json.headers[key],
+            ...staticHeaderProps(key, json.headers[key])
+        }));
 }
 
-function applyStaticHeaderProps(headers, key) {
+function staticHeaderProps(key, column) {
     switch(key) {
         case 'category':
-            headers[key].filterable = headers[key].filterable ?? true;
-            // headers[key].width = headers[key].width ?? 250;
-            break;
+            return {
+                filterable: column.filterable ?? true,
+                width: column.width ?? 250,
+            };
         case 'patch':
-            headers[key].filterable = headers[key].filterable ?? true;
-            headers[key].width = headers[key].width ?? 100;
-            break;
+            return {
+                filterable: column.filterable ?? true,
+                width: column.width ?? 100,
+            };
         case 'zone':
-            headers[key].filterable = headers[key].filterable ?? true;
-            break;
+            return {
+                filterable: column.filterable ?? true,
+            };
         case 'level':
         case 'iLevel':
         case 'iLvl':
-            headers[key].width = headers[key].width ?? 75;
-            break;
+            return {
+                width: column.width ?? 75,
+            };
+        default: return {};
     }
 }
 
-function mapTasks(common, locale) {
+function mapTasks(json) {
     const tasks: any = {};
 
     // Map task-level common props
-    for(const id in common.tasks) {
-        if(common.tasks.hasOwnProperty(id)) {
+    for(const id in json.tasks) {
+        if(json.tasks.hasOwnProperty(id)) {
             tasks[id] = {
                 id: parseInt(id.substr(1), 10),
-                ...common.tasks[id],
-                ...locale.tasks[id]
+                ...json.tasks[id]
             };
-
-            // Merge props found on both into an array
-            Object.keys(common.tasks[id]).forEach((key) => {
-                if(common.tasks[id][key] && locale.tasks[id][key]) {
-                    tasks[id][key] = [].concat(common.tasks[id][key], locale.tasks[id][key]);
-                }
-            });
         }
     }
 
@@ -131,7 +106,7 @@ function mapTasks(common, locale) {
                 // Remove the leading "x" and cast to int
                 tasks[id].id = parseInt(id.substr(1), 10);
 
-                common.common?.forEach((field) => {
+                json.common?.forEach((field) => {
                     tasks[id][field] = replaceCommonStrings(tasks[id][field]);
                 });
             }

@@ -1,10 +1,13 @@
 import { Completion } from '@constant';
+import { Globals } from '@constant/Global';
 import { DataGroup } from '@model/DataGroup';
 import { getContentLink } from '@model/Link/getContentLink';
 
 import { Task } from './';
 
 export function createTask(json: any, parent: DataGroup): Task {
+    const lang = Globals.config.lang;
+
     // Map all properties from json to this class
     const task = {
         ...json,
@@ -15,6 +18,15 @@ export function createTask(json: any, parent: DataGroup): Task {
     task.contentLink = getContentLink(task);
     task.storageKey = `${task.id ?? -1}`;
     task.fullStorageKey = `${parent.fullStorageKey}.${task.storageKey}`;
+
+    //
+    const langEnd = `_${lang}`;
+    Object.keys(task).forEach((key) => {
+        if(key.endsWith(langEnd)) {
+            const flatKey = key.replace(langEnd, '');
+            task[flatKey] = task[key];
+        }
+    });
 
     // Inherit properties from parent group if not explicitly defined on task json
     inheritFromParent(task, 'defaultCompletion');

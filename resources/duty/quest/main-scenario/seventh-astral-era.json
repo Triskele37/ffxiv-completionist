@@ -1,0 +1,1099 @@
+{
+    "key": "seventh-astral-era",
+    "groupName_en": "Seventh Astral Era",
+    "groupName_fr": "Chroniques 7e ère astrale",
+    "tasks": {
+        "x66711": {
+            "level": 50,
+            "name_en": "The Price of Principles",
+            "name_fr": "La rançon de la gloire",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ],
+            "cNext": [
+                69410
+            ]
+        },
+        "x69410": {
+            "level": 50,
+            "name_en": "Moving On",
+            "name_fr": "Le Joyau d'Ul'dah",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                66711
+            ],
+            "cNext": [
+                69411
+            ]
+        },
+        "x69411": {
+            "level": 50,
+            "name_en": "All Things in Time",
+            "name_fr": "Les retrouvailles",
+            "npc_en": "F'lhaminn",
+            "npc_fr": "F'lhaminn",
+            "cPrev": [
+                69410
+            ],
+            "cNext": [
+                69412
+            ]
+        },
+        "x69412": {
+            "level": 50,
+            "name_en": "Laying the Foundation",
+            "name_fr": "Début des travaux",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                69411
+            ],
+            "cNext": [
+                69413
+            ]
+        },
+        "x69413": {
+            "level": 50,
+            "name_en": "It's Possibly a Primal",
+            "name_fr": "Un nouveau Primordial?",
+            "npc_en": "Slafborn",
+            "npc_fr": "Slafborn",
+            "cPrev": [
+                69412
+            ],
+            "cNext": [
+                66725
+            ]
+        },
+        "x66725": {
+            "level": 50,
+            "name_en": "Hail to the King, Kupo",
+            "name_fr": "Le retour du bon roi",
+            "npc_en": "Vorsaile Heuloix",
+            "npc_fr": "Vorsaile Heuloix",
+            "cPrev": [
+                69413
+            ],
+            "cNext": [
+                66726
+            ]
+        },
+        "x66726": {
+            "level": 50,
+            "name_en": "You Have Selected Regicide",
+            "name_fr": "Régicide",
+            "unlock": "duty.dutyraid-finder.trials.arr.14",
+            "npc_en": "E-Sumi-Yan",
+            "npc_fr": "E-Sumi-Yan",
+            "cPrev": [
+                66725
+            ],
+            "cNext": [
+                66727
+            ]
+        },
+        "x66727": {
+            "level": 50,
+            "name_en": "On the Properties of Primals",
+            "name_fr": "Un mauvais pressentiment",
+            "npc_en": "Raya-O-Senna",
+            "npc_fr": "Raya-O-Senna",
+            "cPrev": [
+                66726
+            ],
+            "cNext": [
+                66728,
+                "duty.quests.chronicles-of-a-new-era.primals.66948"
+            ]
+        },
+        "x66728": {
+            "level": 50,
+            "name_en": "The Gifted",
+            "name_fr": "Le messager de la paix",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                66727
+            ],
+            "cNext": [
+                69414
+            ]
+        },
+        "x69414": {
+            "level": 50,
+            "name_en": "Build on the Stone",
+            "name_fr": "Une volonté forgée dans la pierre",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                66728
+            ],
+            "cNext": [
+                69415
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.898"
+            ]
+        },
+        "x69415": {
+            "level": 50,
+            "name_en": "Still Waters",
+            "name_fr": "Une nouvelle aube",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                69414
+            ],
+            "cNext": [
+                66882
+            ]
+        },
+        "x66882": {
+            "level": 50,
+            "name_en": "A Final Temptation",
+            "name_fr": "Bas les masques!",
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "cPrev": [
+                69415
+            ],
+            "cNext": [
+                66883
+            ]
+        },
+        "x66883": {
+            "level": 50,
+            "name_en": "The Mother of Exiles",
+            "name_fr": "Une terre d'asile peu accueillante",
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "cPrev": [
+                66882
+            ],
+            "cNext": [
+                69416
+            ]
+        },
+        "x69416": {
+            "level": 50,
+            "name_en": "Promises to Keep",
+            "name_fr": "Un cocher désespéré",
+            "npc_en": "Raubahn",
+            "npc_fr": "Raubahn Aldynn",
+            "cPrev": [
+                66883
+            ],
+            "cNext": [
+                69417
+            ]
+        },
+        "x69417": {
+            "level": 50,
+            "name_en": "Yugiri's Game",
+            "name_fr": "Les petites canailles",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                69416
+            ],
+            "cNext": [
+                66888
+            ]
+        },
+        "x66888": {
+            "level": 50,
+            "name_en": "Why We Adventure",
+            "name_fr": "L'idole des jeunes",
+            "npc_en": "Hozan",
+            "npc_fr": "Hozan",
+            "cPrev": [
+                69417
+            ],
+            "cNext": [
+                69418
+            ]
+        },
+        "x69418": {
+            "level": 50,
+            "name_en": "All Due Respect",
+            "name_fr": "Bienvenue chez vous",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                66888
+            ],
+            "cNext": [
+                66892
+            ]
+        },
+        "x66892": {
+            "level": 50,
+            "name_en": "The Sea Rises",
+            "name_fr": "Avis de tempête",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                69418
+            ],
+            "cNext": [
+                66894
+            ]
+        },
+        "x66894": {
+            "level": 50,
+            "name_en": "Scouts in Distress",
+            "name_fr": "Éclaireurs en détresse",
+            "npc_en": "Falkbryda",
+            "npc_fr": "Falkbryda",
+            "cPrev": [
+                66892
+            ],
+            "cNext": [
+                66895
+            ]
+        },
+        "x66895": {
+            "level": 50,
+            "name_en": "The Gift of Eternity",
+            "name_fr": "Le secret de l'éternité",
+            "npc_en": "Falkbryda",
+            "npc_fr": "Falkbryda",
+            "cPrev": [
+                66894
+            ],
+            "cNext": [
+                66896
+            ]
+        },
+        "x66896": {
+            "level": 50,
+            "name_en": "Into the Heart of the Whorl",
+            "name_fr": "Une idée folle",
+            "npc_en": "Merlwyb",
+            "npc_fr": "Merlwyb",
+            "cPrev": [
+                66895
+            ],
+            "cNext": [
+                66897
+            ]
+        },
+        "x66897": {
+            "level": 50,
+            "name_en": "Lord of the Whorl",
+            "name_fr": "Branle-bas de combat!",
+            "unlock": "duty.dutyraid-finder.trials.arr.15",
+            "npc_en": "Eynzahr Slafyrsyn",
+            "npc_fr": "Eynzahr Slafyrsyn",
+            "cPrev": [
+                66896
+            ],
+            "cNext": [
+                66898
+            ]
+        },
+        "x66898": {
+            "level": 50,
+            "name_en": "When Yugiri Met the Fraternity",
+            "name_fr": "La communauté de l'ombre",
+            "npc_en": "Zanthael",
+            "npc_fr": "Zanthael",
+            "cPrev": [
+                66897
+            ],
+            "cNext": [
+                66899
+            ]
+        },
+        "x66899": {
+            "level": 50,
+            "name_en": "Through the Maelstrom",
+            "name_fr": "La spirale du chaos",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "cPrev": [
+                66898
+            ],
+            "cNext": [
+                "duty.quests.chronicles-of-a-new-era.primals.66949",
+                66978
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.899"
+            ]
+        },
+        "x66978": {
+            "level": 50,
+            "name_en": "The Great Divide",
+            "name_fr": "Un vent de révolte",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                66899
+            ],
+            "cNext": [
+                66979
+            ]
+        },
+        "x66979": {
+            "level": 50,
+            "name_en": "Desperate Times",
+            "name_fr": "Le Thanalan s'embrase",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                66978
+            ],
+            "cNext": [
+                69419
+            ]
+        },
+        "x69419": {
+            "level": 50,
+            "name_en": "Shock and Awe",
+            "name_fr": "Les révoltés du Nid",
+            "npc_en": "Terrified Refugee",
+            "npc_fr": "homme apeuré",
+            "cPrev": [
+                66979
+            ],
+            "cNext": [
+                69420
+            ]
+        },
+        "x69420": {
+            "level": 50,
+            "name_en": "Reap the Whirlwind",
+            "name_fr": "Réduit au silence",
+            "npc_en": "Terrified Refugee",
+            "npc_fr": "homme apeuré",
+            "cPrev": [
+                69419
+            ],
+            "cNext": [
+                66982
+            ]
+        },
+        "x66982": {
+            "level": 50,
+            "name_en": "Revolution",
+            "name_fr": "Le Projet Frontière",
+            "npc_en": "Swift",
+            "npc_fr": "Swift Ryder",
+            "cPrev": [
+                69420
+            ],
+            "cNext": [
+                66983
+            ]
+        },
+        "x66983": {
+            "level": 50,
+            "name_en": "Stories We Tell",
+            "name_fr": "La menace gronde à Sombrelinceul",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                66982
+            ],
+            "cNext": [
+                66984
+            ]
+        },
+        "x66984": {
+            "level": 50,
+            "name_en": "Lord of Levin",
+            "name_fr": "Le Patriarche fulgurant",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                66983
+            ],
+            "cNext": [
+                69421
+            ]
+        },
+        "x69421": {
+            "level": 50,
+            "name_en": "Levin an Impression",
+            "name_fr": "L'éclair du jugement",
+            "unlock": "duty.dutyraid-finder.trials.arr.16",
+            "npc_en": "Serpent Lieutenant",
+            "npc_fr": "envoyé des Deux Vipères",
+            "cPrev": [
+                66984
+            ],
+            "cNext": [
+                66989
+            ]
+        },
+        "x66989": {
+            "level": 50,
+            "name_en": "What Little Gods Are Made Of",
+            "name_fr": "Le cycle divin",
+            "npc_en": "Serpent Lieutenant",
+            "npc_fr": "envoyé des Deux Vipères",
+            "cPrev": [
+                69421
+            ],
+            "cNext": [
+                66992
+            ]
+        },
+        "x66992": {
+            "level": 50,
+            "name_en": "Guardian of Eorzea",
+            "name_fr": "Démonstration de force",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                66989
+            ],
+            "cNext": [
+                66993
+            ]
+        },
+        "x66993": {
+            "level": 50,
+            "name_en": "Recruiting the Realm",
+            "name_fr": "Campagne de recrutement",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                66992
+            ],
+            "cNext": [
+                66994
+            ]
+        },
+        "x66994": {
+            "level": 50,
+            "name_en": "Heretical Harassment",
+            "name_fr": "Une nouvelle qui jette un froid",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                66993
+            ],
+            "cNext": [
+                66995
+            ]
+        },
+        "x66995": {
+            "level": 50,
+            "name_en": "When the Cold Sets In",
+            "name_fr": "Rencontre en terrain glissant",
+            "npc_en": "Haurchefant",
+            "npc_fr": "Haurchefant",
+            "cPrev": [
+                66994
+            ],
+            "cNext": [
+                66996
+            ]
+        },
+        "x66996": {
+            "level": 50,
+            "name_en": "Brave New Companions",
+            "name_fr": "Les protecteurs d'Éorzéa",
+            "npc_en": "Slafborn",
+            "npc_fr": "Slafborn",
+            "cPrev": [
+                66995
+            ],
+            "cNext": [
+                65588,
+                "duty.quests.chronicles-of-a-new-era.primals.67066"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1001"
+            ]
+        },
+        "x65588": {
+            "level": 50,
+            "name_en": "Traitor in the Midst",
+            "name_fr": "Alerte au virus",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                66996
+            ],
+            "cNext": [
+                65589
+            ]
+        },
+        "x65589": {
+            "level": 50,
+            "name_en": "Back and Fourth",
+            "name_fr": "Braves en danger",
+            "npc_en": "Ilberd",
+            "npc_fr": "Ilberd",
+            "cPrev": [
+                65588
+            ],
+            "cNext": [
+                65590
+            ]
+        },
+        "x65590": {
+            "level": 50,
+            "name_en": "Coming to Terms",
+            "name_fr": "L'ambassadeur d'Ishgard",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                65589
+            ],
+            "cNext": [
+                65593
+            ]
+        },
+        "x65593": {
+            "level": 50,
+            "name_en": "The Intercession of Saints",
+            "name_fr": "Vol à main glacée",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                65590
+            ],
+            "cNext": [
+                65598
+            ]
+        },
+        "x65598": {
+            "level": 50,
+            "name_en": "Strength in Unity",
+            "name_fr": "La force dans l'unité",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                65593
+            ],
+            "cNext": [
+                65605
+            ]
+        },
+        "x65605": {
+            "level": 50,
+            "name_en": "Dark Words, Dark Deeds",
+            "name_fr": "Sombres agissements",
+            "npc_en": "Drillemont",
+            "npc_fr": "Drillemont",
+            "cPrev": [
+                65598
+            ],
+            "cNext": [
+                65610
+            ]
+        },
+        "x65610": {
+            "level": 50,
+            "name_en": "First Blood",
+            "name_fr": "Embuscade hérétique",
+            "npc_en": "Drillemont",
+            "npc_fr": "Drillemont",
+            "cPrev": [
+                65605
+            ],
+            "cNext": [
+                65611
+            ]
+        },
+        "x65611": {
+            "level": 50,
+            "name_en": "The Path of the Righteous",
+            "name_fr": "Incursion dans Manteneige",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.25",
+            "npc_en": "Drillemont",
+            "npc_fr": "Drillemont",
+            "cPrev": [
+                65610
+            ],
+            "cNext": [
+                65613
+            ]
+        },
+        "x65613": {
+            "level": 50,
+            "name_en": "For the Greater Good",
+            "name_fr": "Poursuite dans la neige",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                65611
+            ],
+            "cNext": [
+                65614
+            ]
+        },
+        "x65614": {
+            "level": 50,
+            "name_en": "Tendrils of Intrigue",
+            "name_fr": "L'étau se resserre",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                65613
+            ],
+            "cNext": [
+                69422
+            ]
+        },
+        "x69422": {
+            "level": 50,
+            "name_en": "Chasing Ivy",
+            "name_fr": "Sur la piste de Virus",
+            "npc_en": "Ilberd",
+            "npc_fr": "Ilberd",
+            "cPrev": [
+                65614
+            ],
+            "cNext": [
+                69423
+            ]
+        },
+        "x69423": {
+            "level": 50,
+            "name_en": "In Flagrante Delicto",
+            "name_fr": "Flagrant délit",
+            "npc_en": "Ilberd",
+            "npc_fr": "Ilberd",
+            "cPrev": [
+                69422
+            ],
+            "cNext": [
+                65618
+            ]
+        },
+        "x65618": {
+            "level": 50,
+            "name_en": "A Simple Plan",
+            "name_fr": "Leçon d'éthéritologie",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                69423
+            ],
+            "cNext": [
+                65620
+            ]
+        },
+        "x65620": {
+            "level": 50,
+            "name_en": "The Instruments of Our Deliverance",
+            "name_fr": "Le second avènement",
+            "unlock": "duty.dutyraid-finder.trials.arr.17",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                65618
+            ],
+            "cNext": [
+                65622
+            ]
+        },
+        "x65622": {
+            "level": 50,
+            "name_en": "The Road Less Traveled",
+            "name_fr": "Une relation mutuellement bénéfique",
+            "npc_en": "Moenbryda",
+            "npc_fr": "Moenbryda",
+            "cPrev": [
+                65620
+            ],
+            "cNext": [
+                65623
+            ]
+        },
+        "x65623": {
+            "level": 50,
+            "name_en": "Eyes Unclouded",
+            "name_fr": "La nature de l'invocation",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                65622
+            ],
+            "cNext": [
+                65624
+            ]
+        },
+        "x65624": {
+            "level": 50,
+            "name_en": "The Reason Roaille",
+            "name_fr": "Née sous une mauvaise étoile",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                65623
+            ],
+            "cNext": [
+                65625
+            ]
+        },
+        "x65625": {
+            "level": 50,
+            "name_en": "Let Us Cling Together",
+            "name_fr": "Climat d'incertitudes",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                65624
+            ],
+            "cNext": [
+                "duty.quests.chronicles-of-a-new-era.primals.65626",
+                65899
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1029"
+            ]
+        },
+        "x65899": {
+            "level": 50,
+            "name_en": "Good Intentions",
+            "name_fr": "Jeune et fragile",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                65625
+            ],
+            "cNext": [
+                65900
+            ]
+        },
+        "x65900": {
+            "level": 50,
+            "name_en": "Bait and Switch",
+            "name_fr": "Dérapage incontrôlé",
+            "npc_en": "Ilberd",
+            "npc_fr": "Ilberd",
+            "cPrev": [
+                65899
+            ],
+            "cNext": [
+                65901
+            ]
+        },
+        "x65901": {
+            "level": 50,
+            "name_en": "Best Laid Schemes",
+            "name_fr": "Une saisie au rabais",
+            "npc_en": "Ilberd",
+            "npc_fr": "Ilberd",
+            "cPrev": [
+                65900
+            ],
+            "cNext": [
+                65902
+            ]
+        },
+        "x65902": {
+            "level": 50,
+            "name_en": "The Rising Chorus",
+            "name_fr": "Le Gardien du lac",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.28",
+            "npc_en": "Tataru",
+            "npc_fr": "Tataru",
+            "cPrev": [
+                65901
+            ],
+            "cNext": [
+                69424
+            ]
+        },
+        "x69424": {
+            "level": 50,
+            "name_en": "Aether on Demand",
+            "name_fr": "La théorie de Moenbryda",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                65902
+            ],
+            "cNext": [
+                65904
+            ]
+        },
+        "x65904": {
+            "level": 50,
+            "name_en": "On the Counteroffensive",
+            "name_fr": "Contre-offensive",
+            "npc_en": "Edelstein",
+            "npc_fr": "Edelstein",
+            "cPrev": [
+                69424
+            ],
+            "cNext": [
+                65905
+            ]
+        },
+        "x65905": {
+            "level": 50,
+            "name_en": "An Uninvited Ascian",
+            "name_fr": "Retour de bâton",
+            "unlock": "duty.dutyraid-finder.trials.arr.4",
+            "npc_en": "Edelstein",
+            "npc_fr": "Edelstein",
+            "cPrev": [
+                65904
+            ],
+            "cNext": [
+                65965
+            ]
+        },
+        "x65965": {
+            "level": 50,
+            "name_en": "In Memory of Moenbryda",
+            "name_fr": "En mémoire de Moenbryda",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                65905
+            ],
+            "cNext": [
+                65906
+            ]
+        },
+        "x65906": {
+            "level": 50,
+            "name_en": "Mask of Grief",
+            "name_fr": "Aller de l'avant",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                65965
+            ],
+            "cNext": [
+                65907
+            ]
+        },
+        "x65907": {
+            "level": 50,
+            "name_en": "Defenders for Ishgard",
+            "name_fr": "Ishgard en danger",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                65906
+            ],
+            "cNext": [
+                65908
+            ]
+        },
+        "x65908": {
+            "level": 50,
+            "name_en": "The Wyrm's Roar",
+            "name_fr": "Dos au mur",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                65907
+            ],
+            "cNext": [
+                65909
+            ]
+        },
+        "x65909": {
+            "level": 50,
+            "name_en": "Committed to the Cause",
+            "name_fr": "Une voie périlleuse",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                65908
+            ],
+            "cNext": [
+                65927
+            ]
+        },
+        "x65927": {
+            "level": 50,
+            "name_en": "Volunteer Dragonslayers",
+            "name_fr": "Engagez-vous!",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                65909
+            ],
+            "cNext": [
+                65954
+            ]
+        },
+        "x65954": {
+            "level": 50,
+            "name_en": "An Allied Perspective",
+            "name_fr": "Chacun voit midi à sa porte",
+            "npc_en": "Tataru",
+            "npc_fr": "Tataru",
+            "cPrev": [
+                65927
+            ],
+            "cNext": [
+                65955
+            ]
+        },
+        "x65955": {
+            "level": 50,
+            "name_en": "The Steps of Faith",
+            "name_fr": "Le péril dravanien",
+            "npc_en": "Marcelain",
+            "npc_fr": "Marcelain",
+            "cPrev": [
+                65954
+            ],
+            "cNext": [
+                65956
+            ]
+        },
+        "x65956": {
+            "level": 50,
+            "name_en": "Administrative Decision",
+            "name_fr": "La résolution d'une Lalafelle",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                65955
+            ],
+            "cNext": [
+                65957,
+                65959
+            ]
+        },
+        "x65957": {
+            "level": 50,
+            "name_en": "An Unexpected Ambition",
+            "name_fr": "La passion d'une Lalafelle",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                65956
+            ],
+            "cNext": [
+                65958
+            ]
+        },
+        "x65958": {
+            "level": 50,
+            "name_en": "Ancient Ways, Timeless Wants",
+            "name_fr": "L'abnégation d'une Lalafelle",
+            "npc_en": "Tataru",
+            "npc_fr": "Tataru",
+            "cPrev": [
+                65957
+            ],
+            "cNext": [
+                65961
+            ]
+        },
+        "x65959": {
+            "level": 50,
+            "name_en": "Where We Are Needed",
+            "name_fr": "Une mission d'escorte",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                65956
+            ],
+            "cNext": [
+                65960
+            ]
+        },
+        "x65960": {
+            "level": 50,
+            "name_en": "The Least among Us",
+            "name_fr": "Perturbations dans l'éther",
+            "npc_en": "Unsettled Scholar",
+            "npc_fr": "érudit nerveux",
+            "cPrev": [
+                65959
+            ],
+            "cNext": [
+                65961
+            ]
+        },
+        "x65961": {
+            "level": 50,
+            "name_en": "A Time to Every Purpose",
+            "name_fr": "Boire et déboires",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                65958,
+                65960
+            ],
+            "cNext": [
+                65962
+            ]
+        },
+        "x65962": {
+            "level": 50,
+            "name_en": "Come, but Not Gone",
+            "name_fr": "Une bouteille sale à la mer",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                65961
+            ],
+            "cNext": [
+                65963
+            ]
+        },
+        "x65963": {
+            "level": 50,
+            "name_en": "The Parting Glass",
+            "name_fr": "Le grand banquet",
+            "npc_en": "Momodi",
+            "npc_fr": "Momodi",
+            "cPrev": [
+                65962
+            ],
+            "cNext": [
+                65964
+            ]
+        },
+        "x65964": {
+            "level": 50,
+            "name_en": "Before the Dawn",
+            "name_fr": "Le flambeau de l'espoir",
+            "npc_en": "Haurchefant",
+            "npc_fr": "Haurchefant",
+            "cPrev": [
+                65963
+            ],
+            "cNext": [
+                "duty.quests.main-scenario.heavensward.67116",
+                "duty.quests.other.quasi-quests.67645",
+                "duty.quests.other.quasi-quests.67646",
+                "duty.quests.other.quasi-quests.67659",
+                "duty.quests.class--job.disciple-of-magic-job.scholar.67207",
+                "duty.quests.class--job.disciple-of-war-job.warrior.66121",
+                "duty.quests.class--job.disciple-of-the-land.botanist.67584",
+                "duty.quests.class--job.disciple-of-the-hand.carpenter.67533",
+                "duty.quests.class--job.disciple-of-magic-job.white-mage.67255",
+                "duty.quests.class--job.disciple-of-the-hand.alchemist.67601",
+                "duty.quests.class--job.disciple-of-the-hand.leatherworker.67611",
+                "duty.quests.class--job.disciple-of-the-land.fisher.67621",
+                "duty.quests.class--job.disciple-of-the-land.miner.67616",
+                "duty.quests.class--job.disciple-of-war-job.ninja.65771",
+                "duty.quests.class--job.disciple-of-magic-job.black-mage.67214",
+                "duty.quests.class--job.disciple-of-war-job.dragoon.67225",
+                "duty.quests.class--job.disciple-of-war-job.bard.67249",
+                "duty.quests.class--job.disciple-of-the-hand.weaver.67538",
+                "duty.quests.class--job.disciple-of-the-hand.blacksmith.67543",
+                "duty.quests.class--job.disciple-of-war-job.monk.67562",
+                "duty.quests.class--job.disciple-of-war-job.paladin.67568",
+                "duty.quests.class--job.disciple-of-the-hand.armorer.67574",
+                "duty.quests.class--job.disciple-of-the-hand.culinarian.67579",
+                "duty.quests.class--job.disciple-of-the-hand.goldsmith.67606",
+                "duty.quests.class--job.disciple-of-magic-job.summoner.67636"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1129"
+            ]
+        }
+    }
+}

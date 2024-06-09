@@ -1,0 +1,519 @@
+{
+    "key": "ew",
+    "groupName_en": "Endwalker",
+    "groupName_fr": "Endwalker",
+    "tasks": {
+        "x69638": {
+            "level": 85,
+            "name_en": "Shrouded in Peril",
+            "name_fr": "Les chaînes de la mort",
+            "npc_en": "Gridanian Delegate",
+            "npc_fr": "Attaché militaire de Gridania",
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69954"
+            ],
+            "cNext": [
+                69639
+            ]
+        },
+        "x69639": {
+            "level": 86,
+            "name_en": "To Give Voice",
+            "name_fr": "Angoisses galopantes",
+            "npc_en": "Keeper of the Entwined Serpents",
+            "npc_fr": "Gardien des Vipères enlacées",
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "cPrev": [
+                69638
+            ],
+            "cNext": [
+                69640
+            ]
+        },
+        "x69640": {
+            "level": 87,
+            "name_en": "A Gift Undone",
+            "name_fr": "Les cornes de l'infortune",
+            "npc_en": "Keeper of the Entwined Serpents",
+            "npc_fr": "Gardien des Vipères enlacées",
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "cPrev": [
+                69639
+            ],
+            "cNext": [
+                69641
+            ]
+        },
+        "x69641": {
+            "level": 88,
+            "name_en": "A Pact Proven",
+            "name_fr": "Opération anticorruptions",
+            "npc_en": "Keeper of the Entwined Serpents",
+            "npc_fr": "Gardien des Vipères enlacées",
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "cPrev": [
+                69640
+            ],
+            "cNext": [
+                69642
+            ]
+        },
+        "x69642": {
+            "level": 89,
+            "name_en": "Hearts True",
+            "name_fr": "De la dévotion à la haine",
+            "npc_en": "Keeper of the Entwined Serpents",
+            "npc_fr": "Gardien des Vipères enlacées",
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "cPrev": [
+                69641
+            ],
+            "cNext": [
+                69643
+            ]
+        },
+        "x69643": {
+            "level": 90,
+            "name_en": "A Path Unveiled",
+            "name_fr": "Des esprits et des hommes",
+            "npc_en": "Keeper of the Entwined Serpents",
+            "npc_fr": "Gardien des Vipères enlacées",
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "cPrev": [
+                69642
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.2961"
+            ]
+        },
+        "x69644": {
+            "level": 85,
+            "name_en": "Far from Free",
+            "name_fr": "Paix à deux vitesses",
+            "npc_en": "Ala Mhigan Delegate",
+            "npc_fr": "Attaché militaire d'Ala Mhigo",
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69954"
+            ],
+            "cNext": [
+                69645
+            ]
+        },
+        "x69645": {
+            "level": 86,
+            "name_en": "The Butcher's Blade",
+            "name_fr": "Le spectre de l'Exécutrice",
+            "npc_en": "Blasphemy Hunter",
+            "npc_fr": "Soldate de la B.A.H.",
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "cPrev": [
+                69644
+            ],
+            "cNext": [
+                69646
+            ]
+        },
+        "x69646": {
+            "level": 87,
+            "name_en": "A New Battleground",
+            "name_fr": "Le héros sans arme",
+            "npc_en": "Blasphemy Hunter",
+            "npc_fr": "Soldate de la B.A.H.",
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "cPrev": [
+                69645
+            ],
+            "cNext": [
+                69647
+            ]
+        },
+        "x69647": {
+            "level": 88,
+            "name_en": "Laying the Past to Rest",
+            "name_fr": "Ressouder les cœurs",
+            "npc_en": "Blasphemy Hunter",
+            "npc_fr": "Soldate de la B.A.H.",
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "cPrev": [
+                69646
+            ],
+            "cNext": [
+                69648
+            ]
+        },
+        "x69648": {
+            "level": 89,
+            "name_en": "Trail of Skulls",
+            "name_fr": "Une piste mortuaire",
+            "npc_en": "Blasphemy Hunter",
+            "npc_fr": "Soldate de la B.A.H.",
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "cPrev": [
+                69647
+            ],
+            "cNext": [
+                69649
+            ]
+        },
+        "x69649": {
+            "level": 90,
+            "name_en": "The Gift of Mercy",
+            "name_fr": "Acceptation",
+            "npc_en": "Blasphemy Hunter",
+            "npc_fr": "Soldate de la B.A.H.",
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "cPrev": [
+                69648
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.2962"
+            ]
+        },
+        "x69650": {
+            "level": 85,
+            "name_en": "Storm Clouds Brewing",
+            "name_fr": "L'appel de la Noscea",
+            "npc_en": "Lominsan Delegate",
+            "npc_fr": "Attaché militaire de Limsa Lominsa",
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69954"
+            ],
+            "cNext": [
+                69651
+            ]
+        },
+        "x69651": {
+            "level": 86,
+            "name_en": "The Crushing Tide",
+            "name_fr": "Scission sahuagine",
+            "npc_en": "Maelstrom Secretariat",
+            "npc_fr": "Secrétaire du Maelstrom",
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "cPrev": [
+                69650
+            ],
+            "cNext": [
+                69652
+            ]
+        },
+        "x69652": {
+            "level": 87,
+            "name_en": "Old Heroes Never Die",
+            "name_fr": "Retrouvailles fraternelles",
+            "npc_en": "Maelstrom Secretariat",
+            "npc_fr": "Secrétaire du Maelstrom",
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "cPrev": [
+                69651
+            ],
+            "cNext": [
+                69653
+            ]
+        },
+        "x69653": {
+            "level": 88,
+            "name_en": "A Mother's Suffering",
+            "name_fr": "La souffrance d'une mère",
+            "npc_en": "Maelstrom Secretariat",
+            "npc_fr": "Secrétaire du Maelstrom",
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "cPrev": [
+                69652
+            ],
+            "cNext": [
+                69654
+            ]
+        },
+        "x69654": {
+            "level": 89,
+            "name_en": "Out of the Shadows",
+            "name_fr": "Le dernier gabier",
+            "npc_en": "Maelstrom Secretariat",
+            "npc_fr": "Secrétaire du Maelstrom",
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "cPrev": [
+                69653
+            ],
+            "cNext": [
+                69655
+            ]
+        },
+        "x69655": {
+            "level": 90,
+            "name_en": "To Calmer Seas",
+            "name_fr": "Cap sur la paix",
+            "npc_en": "Maelstrom Secretariat",
+            "npc_fr": "Secrétaire du Maelstrom",
+            "role_en": "Melee DPS",
+            "role_fr": "DPS de mêlée",
+            "cPrev": [
+                69654
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.2963"
+            ]
+        },
+        "x69656": {
+            "level": 85,
+            "name_en": "Seeds of Disquiet",
+            "name_fr": "Le secret du peuple",
+            "npc_en": "Doman Delegate",
+            "npc_fr": "Attaché militaire de Doma",
+            "role_en": "Physical Ranged DPS",
+            "role_fr": "DPS physique à distance",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69954"
+            ],
+            "cNext": [
+                69657
+            ]
+        },
+        "x69657": {
+            "level": 86,
+            "name_en": "When the Kami Answer",
+            "name_fr": "L'avènement d'Izanami",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "role_en": "Physical Ranged DPS",
+            "role_fr": "DPS physique à distance",
+            "cPrev": [
+                69656
+            ],
+            "cNext": [
+                69658
+            ]
+        },
+        "x69658": {
+            "level": 87,
+            "name_en": "Home No Longer",
+            "name_fr": "Le retour de Yugiri",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "role_en": "Physical Ranged DPS",
+            "role_fr": "DPS physique à distance",
+            "cPrev": [
+                69657
+            ],
+            "cNext": [
+                69659
+            ]
+        },
+        "x69659": {
+            "level": 88,
+            "name_en": "The Devoted Daughter",
+            "name_fr": "Une femme nommée Minato",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "role_en": "Physical Ranged DPS",
+            "role_fr": "DPS physique à distance",
+            "cPrev": [
+                69658
+            ],
+            "cNext": [
+                69660
+            ]
+        },
+        "x69660": {
+            "level": 89,
+            "name_en": "A Singular Gift",
+            "name_fr": "Âmes et reliques",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "role_en": "Physical Ranged DPS",
+            "role_fr": "DPS physique à distance",
+            "cPrev": [
+                69659
+            ],
+            "cNext": [
+                69661
+            ]
+        },
+        "x69661": {
+            "level": 90,
+            "name_en": "Laid to Rest",
+            "name_fr": "Des adieux domiens",
+            "npc_en": "Yugiri",
+            "npc_fr": "Yugiri",
+            "role_en": "Physical Ranged DPS",
+            "role_fr": "DPS physique à distance",
+            "cPrev": [
+                69660
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.2964"
+            ]
+        },
+        "x69662": {
+            "level": 85,
+            "name_en": "Our Aching Souls",
+            "name_fr": "Ishgard en proie aux tourments",
+            "npc_en": "Ishgardian Delegate",
+            "npc_fr": "Attaché militaire d'Ishgard",
+            "role_en": "Magical Ranged DPS",
+            "role_fr": "Magical Ranged DPS",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69954"
+            ],
+            "cNext": [
+                69663
+            ]
+        },
+        "x69663": {
+            "level": 86,
+            "name_en": "No Forgiveness, No Deliverance",
+            "name_fr": "Ni pardon, ni salut",
+            "npc_en": "Artoirel",
+            "npc_fr": "Artoirel",
+            "role_en": "Magical Ranged DPS",
+            "role_fr": "DPS magique à distance",
+            "cPrev": [
+                69662
+            ],
+            "cNext": [
+                69664
+            ]
+        },
+        "x69664": {
+            "level": 87,
+            "name_en": "Only Justice, Only Vengeance",
+            "name_fr": "Vengeresse justice",
+            "npc_en": "Artoirel",
+            "npc_fr": "Artoirel",
+            "role_en": "Magical Ranged DPS",
+            "role_fr": "DPS magique à distance",
+            "cPrev": [
+                69663
+            ],
+            "cNext": [
+                69665
+            ]
+        },
+        "x69665": {
+            "level": 88,
+            "name_en": "Wills Unending, Faith Unbending",
+            "name_fr": "Une pieuse résolution",
+            "npc_en": "Artoirel",
+            "npc_fr": "Artoirel",
+            "role_en": "Magical Ranged DPS",
+            "role_fr": "DPS magique à distance",
+            "cPrev": [
+                69664
+            ],
+            "cNext": [
+                69666
+            ]
+        },
+        "x69666": {
+            "level": 89,
+            "name_en": "O Mighty Fury, Guide Us to Victory",
+            "name_fr": "Sous l'égide de Halone",
+            "npc_en": "Artoirel",
+            "npc_fr": "Artoirel",
+            "role_en": "Magical Ranged DPS",
+            "role_fr": "DPS magique à distance",
+            "cPrev": [
+                69665
+            ],
+            "cNext": [
+                69667
+            ]
+        },
+        "x69667": {
+            "level": 90,
+            "name_en": "Ever March Heavensward",
+            "name_fr": "La voie du renouveau",
+            "npc_en": "Artoirel",
+            "npc_fr": "Artoirel",
+            "role_en": "Magical Ranged DPS",
+            "role_fr": "DPS magique à distance",
+            "cPrev": [
+                69666
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.2965"
+            ]
+        },
+        "x70115": {
+            "level": 90,
+            "name_en": "Bitter Snow",
+            "name_fr": "La bête venue du froid",
+            "npc_en": "Shirabaht",
+            "npc_fr": "Shirabaht",
+            "role_en": "Prologue",
+            "role_fr": "Prologue",
+            "cPrev": [
+                69643,
+                69649,
+                69655
+            ],
+            "cNext": [
+                70116
+            ]
+        },
+        "x70116": {
+            "level": 90,
+            "name_en": "Frozen Hope",
+            "name_fr": "Rapatriés à la dérive",
+            "npc_en": "Artoirel",
+            "npc_fr": "Artoirel",
+            "role_en": "Prologue",
+            "role_fr": "Prologue",
+            "cPrev": [
+                70115
+            ],
+            "cNext": [
+                70117
+            ]
+        },
+        "x70117": {
+            "level": 90,
+            "name_en": "Misguided Few",
+            "name_fr": "Être garlemaldais",
+            "npc_en": "Fourchenault",
+            "npc_fr": "Fourchenault",
+            "role_en": "Prologue",
+            "role_fr": "Prologue",
+            "cPrev": [
+                70116
+            ],
+            "cNext": [
+                70118
+            ]
+        },
+        "x70118": {
+            "level": 90,
+            "name_en": "Forlorn Glory",
+            "name_fr": "Nerva, le patriote",
+            "npc_en": "Fourchenault",
+            "npc_fr": "Fourchenault",
+            "role_en": "Prologue",
+            "role_fr": "Prologue",
+            "cPrev": [
+                70117
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.3076"
+            ]
+        }
+    }
+}

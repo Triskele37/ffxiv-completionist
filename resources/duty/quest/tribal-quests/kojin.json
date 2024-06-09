@@ -1,0 +1,362 @@
+{
+    "key": "kojin",
+    "groupName_en": "Kojin",
+    "groupName_fr": "Kojin",
+    "common": [
+        "type"
+    ],
+    "tasks": {
+        "x68509": {
+            "level": 60,
+            "name_en": "Heaven-sent",
+            "name_fr": "Kami miniature",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Vexed Villager",
+            "npc_fr": "pêcheur inquiet",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68026"
+            ],
+            "cNext": [
+                68510
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.53"
+            ]
+        },
+        "x68510": {
+            "level": 60,
+            "name_en": "Under Wraps",
+            "name_fr": "Un silure en filature",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                68509
+            ],
+            "cNext": [
+                68511
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.54"
+            ]
+        },
+        "x68511": {
+            "level": 60,
+            "name_en": "The Value of Silence",
+            "name_fr": "Les rois du silence",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                68510
+            ],
+            "cNext": [
+                68512
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.55"
+            ]
+        },
+        "x68512": {
+            "level": 60,
+            "name_en": "Misdelivered",
+            "name_fr": "Les Rouges contre-attaquent",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                68511
+            ],
+            "cNext": [
+                68513
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.56"
+            ]
+        },
+        "x68513": {
+            "level": 60,
+            "name_en": "A Test of Courage",
+            "name_fr": "Allez les Verts!",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                68512
+            ],
+            "cNext": [
+                68514
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.57"
+            ]
+        },
+        "x68514": {
+            "level": 60,
+            "name_en": "True-blue",
+            "name_fr": "Il s'appelait Tsukumo",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "reputation_en": "Sworn",
+            "reputation_fr": "Assermenté",
+            "cPrev": [
+                68513
+            ],
+            "cNext": [
+                "duty.quests.tribal-quests.tribal-alliance-quests.stormblood-tribal-quests.68697"
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.58"
+            ]
+        },
+        "x68515": {
+            "level": 60,
+            "name_en": "Best Served Foul",
+            "name_fr": "Dégelée pour les Rouges",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        },
+        "x68516": {
+            "level": 60,
+            "name_en": "A Real Pearler",
+            "name_fr": "Pas le temps d'enfiler les perles",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        },
+        "x68517": {
+            "level": 60,
+            "name_en": "You Have the Rite",
+            "name_fr": "Le rituel de purification",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        },
+        "x68518": {
+            "level": 60,
+            "name_en": "Krilled to Pieces",
+            "name_fr": "Raie à régaler",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        },
+        "x68519": {
+            "level": 60,
+            "name_en": "Tonight We Dine in Shells",
+            "name_fr": "C'est dans les vieilles carapaces...",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        },
+        "x68520": {
+            "level": 60,
+            "name_en": "Pickles of Partnership",
+            "name_fr": "La politique des Verts",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        },
+        "x68521": {
+            "level": 60,
+            "name_en": "Little Kojin Lost",
+            "name_fr": "La Kojin égarée",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé"
+        },
+        "x68522": {
+            "level": 60,
+            "name_en": "Much at Steak",
+            "name_fr": "Y a pas d'arêtes dans le bifteck",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé"
+        },
+        "x68523": {
+            "level": 60,
+            "name_en": "Confused Courier",
+            "name_fr": "Expérience passe science",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé"
+        },
+        "x68524": {
+            "level": 60,
+            "name_en": "Buoyant Bounty",
+            "name_fr": "Les lingots de la mer",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé"
+        },
+        "x68525": {
+            "level": 60,
+            "name_en": "Anala-lyze This",
+            "name_fr": "Feu rouge pour les Verts",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé"
+        },
+        "x68526": {
+            "level": 60,
+            "name_en": "Sand-sifting Specialist",
+            "name_fr": "La raie qui ne perd pas l'aspiration",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé"
+        },
+        "x68527": {
+            "level": 60,
+            "name_en": "Forever Blowing Bubbles",
+            "name_fr": "Une passion faite de bulles",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté"
+        },
+        "x68528": {
+            "level": 60,
+            "name_en": "No, Not the Boo Box",
+            "name_fr": "Coffres à la dérive",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté"
+        },
+        "x68529": {
+            "level": 60,
+            "name_en": "Pleasure Doing Business",
+            "name_fr": "Une amitié réciproque",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté"
+        },
+        "x68530": {
+            "level": 60,
+            "name_en": "Deep Turquoise Sea",
+            "name_fr": "Les fragments de lune",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté"
+        },
+        "x68531": {
+            "level": 60,
+            "name_en": "Holy Mother of Pearl",
+            "name_fr": "Sculpture sur fruits de mer",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté"
+        },
+        "x68532": {
+            "level": 60,
+            "name_en": "Flotsam and Jetsam",
+            "name_fr": "Trésors en débris",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté"
+        },
+        "x68533": {
+            "level": 60,
+            "name_en": "Clammed Up",
+            "name_fr": "Des coquillages gloutons",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite"
+        },
+        "x68534": {
+            "level": 60,
+            "name_en": "Tale of Roe",
+            "name_fr": "Le caviar des Kojin",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite"
+        },
+        "x68535": {
+            "level": 60,
+            "name_en": "You Blow It Up",
+            "name_fr": "Résidus impériaux",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite"
+        },
+        "x68536": {
+            "level": 60,
+            "name_en": "Tentacles of Trade",
+            "name_fr": "Un cadeau bien frais",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite"
+        },
+        "x68537": {
+            "level": 60,
+            "name_en": "The Hot-blooded Kojin",
+            "name_fr": "Une tortue qui en a dans la carapace",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite"
+        },
+        "x68538": {
+            "level": 60,
+            "name_en": "Disciplinary Action",
+            "name_fr": "Du rififi chez les raies rayées",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Zukin",
+            "npc_fr": "Zukin",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite"
+        }
+    }
+}

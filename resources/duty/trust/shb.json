@@ -1,0 +1,87 @@
+{
+    "key": "shb",
+    "groupName_en": "ShB",
+    "groupName_fr": "Shadowbringers",
+    "defaultCompletion": 71,
+    "isNumericCompletion": true,
+    "tasks": {
+        "x0": {
+            "name_en": "Alphinaud",
+            "name_fr": "Alphinaud",
+            "minValue": 71,
+            "maxValue": 80,
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "cComboAt": {
+                "80": [
+                    "character.achievement.character.general.2336"
+                ]
+            }
+        },
+        "x1": {
+            "name_en": "Alisaie",
+            "name_fr": "Alisaie",
+            "minValue": 71,
+            "maxValue": 80,
+            "role_en": "Ranged Magical DPS",
+            "role_fr": "DPS magique à distance",
+            "cComboAt": {
+                "80": [
+                    "character.achievement.character.general.2336"
+                ]
+            }
+        },
+        "x2": {
+            "name_en": "Thancred",
+            "name_fr": "Thancred",
+            "minValue": 71,
+            "maxValue": 80,
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "cComboAt": {
+                "80": [
+                    "character.achievement.character.general.2336"
+                ]
+            }
+        },
+        "x3": {
+            "name_en": "Urianger",
+            "name_fr": "Urianger",
+            "minValue": 71,
+            "maxValue": 80,
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "cComboAt": {
+                "80": [
+                    "character.achievement.character.general.2336"
+                ]
+            }
+        },
+        "x4": {
+            "name_en": "Y'shtola",
+            "name_fr": "Y'shtola",
+            "minValue": 71,
+            "maxValue": 80,
+            "role_en": "Ranged Magical DPS",
+            "role_fr": "DPS magique à distance",
+            "cComboAt": {
+                "80": [
+                    "character.achievement.character.general.2336"
+                ]
+            }
+        },
+        "x5": {
+            "name_en": "Ryne",
+            "name_fr": "Ryne",
+            "minValue": 71,
+            "maxValue": 80,
+            "role_en": "Melee Physical DPS",
+            "role_fr": "Dps de mêlée",
+            "cComboAt": {
+                "80": [
+                    "character.achievement.character.general.2336"
+                ]
+            }
+        }
+    }
+}

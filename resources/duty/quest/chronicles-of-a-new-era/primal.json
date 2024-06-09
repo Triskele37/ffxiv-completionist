@@ -1,0 +1,197 @@
+{
+    "key": "primals",
+    "groupName_en": "Primals",
+    "groupName_fr": "Primordiaux (A Realm Reborn)",
+    "tasks": {
+        "x66584": {
+            "level": 50,
+            "name_en": "Ifrit Bleeds, We Can Kill It",
+            "name_fr": "Quand la flamme se ravive",
+            "unlock": "duty.dutyraid-finder.trials.arr.11",
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "cPrev": [
+                66583
+            ],
+            "cNext": [
+                66693
+            ]
+        },
+        "x66583": {
+            "level": 50,
+            "name_en": "A Recurring Problem",
+            "name_fr": "La résurgence des Primordiaux",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ],
+            "cNext": [
+                66584
+            ]
+        },
+        "x66693": {
+            "level": 50,
+            "name_en": "In for Garuda Awakening",
+            "name_fr": "Un vent de panique",
+            "unlock": "duty.dutyraid-finder.trials.arr.12",
+            "npc_en": "Papalymo",
+            "npc_fr": "Papalymo",
+            "cPrev": [
+                66584
+            ],
+            "cNext": [
+                66694
+            ]
+        },
+        "x66694": {
+            "level": 50,
+            "name_en": "In a Titan Spot",
+            "name_fr": "Un retour fracassant",
+            "unlock": "duty.dutyraid-finder.trials.arr.13",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": [
+                66693
+            ],
+            "cNext": [
+                "duty.quests.chronicles-of-a-new-era.bahamut.66695",
+                66730
+            ]
+        },
+        "x66731": {
+            "level": 50,
+            "name_en": "Gale-force Warning",
+            "name_fr": "La furie de la Souffleuse de rafales",
+            "unlock": "duty.dutyraid-finder.trials.arr.20",
+            "npc_en": "Vorsaile Heuloix",
+            "npc_fr": "Vorsaile Heuloix",
+            "cPrev": [
+                66730
+            ],
+            "cNext": [
+                66732
+            ]
+        },
+        "x66730": {
+            "level": 50,
+            "name_en": "Primal Nature",
+            "name_fr": "Une nouvelle tempête primordiale",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                66694
+            ],
+            "cNext": [
+                66731
+            ]
+        },
+        "x66732": {
+            "level": 50,
+            "name_en": "Quake Me Up Before You O'Ghomoro",
+            "name_fr": "La rage de l'Ébranleur des terres",
+            "unlock": "duty.dutyraid-finder.trials.arr.21",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                66731
+            ],
+            "cNext": [
+                66733
+            ]
+        },
+        "x66733": {
+            "level": 50,
+            "name_en": "Ifrit Ain't Broke",
+            "name_fr": "Le brasier du Seigneur des flammes",
+            "unlock": "duty.dutyraid-finder.trials.arr.22",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                66732
+            ],
+            "cNext": [
+                66734
+            ]
+        },
+        "x66734": {
+            "level": 50,
+            "name_en": "To Tussle with Gods",
+            "name_fr": "Les artifices de la puissance",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                66733
+            ],
+            "cNext": [
+                66845
+            ]
+        },
+        "x66845": {
+            "level": 50,
+            "name_en": "Primal Focus",
+            "name_fr": "Des totems primordiaux",
+            "npc_en": "Laraina",
+            "npc_fr": "Laraina",
+            "cPrev": [
+                66734
+            ]
+        },
+        "x66948": {
+            "level": 50,
+            "name_en": "The King Lives",
+            "name_fr": "Le roi est mort, vive le roi!",
+            "unlock": "duty.dutyraid-finder.trials.arr.23",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-astral-era.66727"
+            ]
+        },
+        "x66949": {
+            "level": 50,
+            "name_en": "Whorl of a Time",
+            "name_fr": "Le reflux du Déchaîneur des marées",
+            "unlock": "duty.dutyraid-finder.trials.arr.24",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-astral-era.66899"
+            ]
+        },
+        "x67066": {
+            "level": 50,
+            "name_en": "Judgment Bolts and Lightning",
+            "name_fr": "Les foudres du Patriarche fulgurant",
+            "unlock": "duty.dutyraid-finder.trials.arr.25",
+            "npc_en": "Scarlet",
+            "npc_fr": "Scarlet",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-astral-era.66996"
+            ]
+        },
+        "x65626": {
+            "level": 50,
+            "name_en": "Drop Dead Shiva",
+            "name_fr": "La froideur de la Furie des neiges",
+            "unlock": "duty.dutyraid-finder.trials.arr.26",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-astral-era.65625"
+            ]
+        },
+        "x65969": {
+            "level": 50,
+            "name_en": "Fear and Odin in the Shroud",
+            "name_fr": "Le Chevalier des ombres",
+            "unlock": "duty.dutyraid-finder.trials.arr.18",
+            "npc_en": "Scarlet",
+            "npc_fr": "Scarlet",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060",
+                "duty.quests.sidequests.gridanian.south-shroud.66548"
+            ]
+        }
+    }
+}

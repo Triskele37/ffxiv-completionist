@@ -1,0 +1,184 @@
+{
+    "key": "anima-weapons",
+    "groupName_en": "Anima Weapons",
+    "groupName_fr": "Armes anima",
+    "tasks": {
+        "x67747": {
+            "level": 60,
+            "name_en": "An Unexpected Proposal",
+            "name_fr": "De l'esprit des armes",
+            "npc_en": "Rowena",
+            "npc_fr": "Rowena",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67205"
+            ],
+            "cNext": [
+                67748
+            ]
+        },
+        "x67748": {
+            "level": 60,
+            "name_en": "Soul without Life",
+            "name_fr": "Les cristaux d'Ardashir",
+            "npc_en": "Ardashir",
+            "npc_fr": "Ardashir",
+            "cPrev": [
+                67747
+            ],
+            "cNext": [
+                67749
+            ]
+        },
+        "x67749": {
+            "level": 60,
+            "name_en": "Toughening Up",
+            "name_fr": "Les marches de l'éveil",
+            "npc_en": "Ardashir",
+            "npc_fr": "Ardashir",
+            "cPrev": [
+                67748
+            ],
+            "cNext": [
+                67750
+            ]
+        },
+        "x67750": {
+            "level": 60,
+            "name_en": "Coming into Its Own",
+            "name_fr": "Anima nova",
+            "npc_en": "Ardashir",
+            "npc_fr": "Ardashir",
+            "cPrev": [
+                67749
+            ],
+            "cNext": [
+                67820
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1394"
+            ]
+        },
+        "x67820": {
+            "level": 60,
+            "name_en": "Finding Your Voice",
+            "name_fr": "Parole à l'esprit",
+            "npc_en": "Ardashir",
+            "npc_fr": "Ardashir",
+            "cPrev": [
+                67750
+            ],
+            "cNext": [
+                67864
+            ]
+        },
+        "x67864": {
+            "level": 60,
+            "name_en": "A Dream Fulfilled",
+            "name_fr": "Épanouissement accéléré",
+            "npc_en": "Ardashir",
+            "npc_fr": "Ardashir",
+            "cPrev": [
+                67820
+            ],
+            "cNext": [
+                67915,
+                "duty.quests.other.quasi-quests.67870"
+            ]
+        },
+        "x67915": {
+            "level": 60,
+            "name_en": "Future Proof",
+            "name_fr": "Souvenirs vivifiants",
+            "npc_en": "Ardashir",
+            "npc_fr": "Ardashir",
+            "cPrev": [
+                67864
+            ],
+            "cNext": [
+                67916,
+                67917,
+                67932
+            ]
+        },
+        "x67916": {
+            "level": 60,
+            "name_en": "Seeking Inspiration",
+            "name_fr": "Au service d'Amphelice",
+            "npc_en": "Amphelice",
+            "npc_fr": "Amphelice",
+            "cPrev": [
+                67915
+            ]
+        },
+        "x67917": {
+            "level": 60,
+            "name_en": "Cut from a Different Cloth",
+            "name_fr": "Au service d'Angelet",
+            "npc_en": "Angelet",
+            "npc_fr": "Angelet",
+            "cPrev": [
+                67915
+            ]
+        },
+        "x67932": {
+            "level": 60,
+            "name_en": "Born Again Anima",
+            "name_fr": "Le dernier transfert",
+            "npc_en": "Ardashir",
+            "npc_fr": "Ardashir",
+            "cPrev": [
+                67915
+            ],
+            "cNext": [
+                67933,
+                67934
+            ]
+        },
+        "x67933": {
+            "level": 60,
+            "name_en": "Some Assembly Required",
+            "name_fr": "Fabrication d'une nouvelle pierre d'âme",
+            "npc_en": "Processing Node",
+            "npc_fr": "dispositif de transformation",
+            "cPrev": [
+                67932
+            ]
+        },
+        "x67934": {
+            "level": 60,
+            "name_en": "Body and Soul",
+            "name_fr": "Un esprit qui fait corps",
+            "npc_en": "Automaton",
+            "npc_fr": "pantin",
+            "cPrev": [
+                67932
+            ],
+            "cNext": [
+                67939
+            ]
+        },
+        "x67939": {
+            "level": 60,
+            "name_en": "Words of Wisdom",
+            "name_fr": "Un courrier qui fait autorité",
+            "npc_en": "Ardashir",
+            "npc_fr": "Ardashir",
+            "cPrev": [
+                67934
+            ],
+            "cNext": [
+                67940
+            ]
+        },
+        "x67940": {
+            "level": 60,
+            "name_en": "Best Friends Forever",
+            "name_fr": "Double complicité",
+            "npc_en": "Ardashir",
+            "npc_fr": "Ardashir",
+            "cPrev": [
+                67939
+            ]
+        }
+    }
+}

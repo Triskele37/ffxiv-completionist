@@ -1,0 +1,301 @@
+{
+    "key": "leatherworker",
+    "groupName_en": "Leatherworker",
+    "groupName_fr": "Quêtes de tanneur",
+    "tasks": {
+        "x65641": {
+            "level": 1,
+            "name_en": "Way of the Leatherworker",
+            "name_fr": "La voie de la tannerie",
+            "npc_en": "Randall",
+            "npc_fr": "Randall",
+            "cPrev": [
+                "duty.quests.other.quasi-quests.65724"
+            ],
+            "cNext": [
+                65745
+            ],
+            "cSiblings": [
+                "character.adventure-plate.77"
+            ]
+        },
+        "x65745": {
+            "level": 1,
+            "name_en": "My First Head Knife",
+            "name_fr": "Jouer du couteau",
+            "npc_en": "Geva",
+            "npc_fr": "Geva",
+            "cPrev": [
+                65641
+            ],
+            "cNext": [
+                65642
+            ]
+        },
+        "x65642": {
+            "level": 5,
+            "name_en": "A Test of Technique",
+            "name_fr": "Un test de technique",
+            "npc_en": "Geva",
+            "npc_fr": "Geva",
+            "cPrev": [
+                65745
+            ],
+            "cNext": [
+                65671
+            ]
+        },
+        "x65671": {
+            "level": 10,
+            "name_en": "Geva's Gambit",
+            "name_fr": "Un premier travail pour Fen-Yll",
+            "npc_en": "Geva",
+            "npc_fr": "Geva",
+            "cPrev": [
+                65642
+            ],
+            "cNext": [
+                65672
+            ]
+        },
+        "x65672": {
+            "level": 15,
+            "name_en": "Working Hells for Leather",
+            "name_fr": "Avoir la peau dure",
+            "npc_en": "Geva",
+            "npc_fr": "Geva",
+            "cPrev": [
+                65671
+            ],
+            "cNext": [
+                65673
+            ]
+        },
+        "x65673": {
+            "level": 20,
+            "name_en": "Aldgoat Everything",
+            "name_fr": "Tant qu'il y a de la vie, il y a du cuir",
+            "npc_en": "Geva",
+            "npc_fr": "Geva",
+            "cPrev": [
+                65672
+            ],
+            "cNext": [
+                65587
+            ]
+        },
+        "x65587": {
+            "level": 25,
+            "name_en": "Skin in the Game",
+            "name_fr": "Contrefaçon",
+            "npc_en": "Geva",
+            "npc_fr": "Geva",
+            "cPrev": [
+                65673
+            ],
+            "cNext": [
+                65597
+            ]
+        },
+        "x65597": {
+            "level": 30,
+            "name_en": "Toadskins of the Father",
+            "name_fr": "Les défauts de la cuirasse",
+            "npc_en": "Geva",
+            "npc_fr": "Geva",
+            "cPrev": [
+                65587
+            ],
+            "cNext": [
+                65599
+            ],
+            "cCombo": [
+                "character.achievement.quests.job-role-quests.316"
+            ]
+        },
+        "x65599": {
+            "level": 35,
+            "name_en": "Lead by Example",
+            "name_fr": "Donner l'exemple",
+            "npc_en": "Geva",
+            "npc_fr": "Geva",
+            "cPrev": [
+                65597
+            ],
+            "cNext": [
+                65600
+            ]
+        },
+        "x65600": {
+            "level": 40,
+            "name_en": "Brand Loyalty",
+            "name_fr": "La marque de qualité",
+            "npc_en": "Geva",
+            "npc_fr": "Geva",
+            "cPrev": [
+                65599
+            ],
+            "cNext": [
+                65601
+            ]
+        },
+        "x65601": {
+            "level": 45,
+            "name_en": "Dissension in the Ranks",
+            "name_fr": "Dissension dans les rangs",
+            "npc_en": "Geva",
+            "npc_fr": "Geva",
+            "cPrev": [
+                65600
+            ],
+            "cNext": [
+                65602
+            ]
+        },
+        "x65602": {
+            "level": 50,
+            "name_en": "Accept No Imitations",
+            "name_fr": "Le concours",
+            "npc_en": "Geva",
+            "npc_fr": "Geva",
+            "cPrev": [
+                65601
+            ],
+            "cNext": [
+                67611
+            ]
+        },
+        "x67611": {
+            "level": 50,
+            "name_en": "Turndown Service",
+            "name_fr": "Lutter contre l'injustice",
+            "npc_en": "Geva",
+            "npc_fr": "Geva",
+            "cPrev": [
+                65602,
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                67612
+            ]
+        },
+        "x67612": {
+            "level": 53,
+            "name_en": "By Your Bootstraps",
+            "name_fr": "Valoir son pesant de cuir",
+            "npc_en": "Elde",
+            "npc_fr": "Elde",
+            "cPrev": [
+                67611
+            ],
+            "cNext": [
+                67613
+            ]
+        },
+        "x67613": {
+            "level": 55,
+            "name_en": "Perfect Pitch",
+            "name_fr": "La mode à petits prix",
+            "npc_en": "Elde",
+            "npc_fr": "Elde",
+            "cPrev": [
+                67612
+            ],
+            "cNext": [
+                67614
+            ]
+        },
+        "x67614": {
+            "level": 58,
+            "name_en": "From the Hoplon to the Brume",
+            "name_fr": "Montée en gamme",
+            "npc_en": "Elde",
+            "npc_fr": "Elde",
+            "cPrev": [
+                67613
+            ],
+            "cNext": [
+                67615
+            ]
+        },
+        "x67615": {
+            "level": 60,
+            "name_en": "A Winter's Sale",
+            "name_fr": "Souple comme le cuir, solide comme l'acier",
+            "npc_en": "Elde",
+            "npc_fr": "Elde",
+            "cPrev": [
+                67614
+            ],
+            "cNext": [
+                68145
+            ]
+        },
+        "x68145": {
+            "level": 60,
+            "name_en": "A Taxing Request",
+            "name_fr": "La naturaliste et le taxidermiste",
+            "npc_en": "Geva",
+            "npc_fr": "Geva",
+            "cPrev": [
+                67615,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                68146
+            ]
+        },
+        "x68146": {
+            "level": 63,
+            "name_en": "Mounting Expectations",
+            "name_fr": "Commençons par un dhalmel",
+            "npc_en": "Atelloune",
+            "npc_fr": "Atelloune",
+            "cPrev": [
+                68145
+            ],
+            "cNext": [
+                68147
+            ]
+        },
+        "x68147": {
+            "level": 65,
+            "name_en": "The Value of Life",
+            "name_fr": "Pour ne jamais oublier",
+            "npc_en": "Atelloune",
+            "npc_fr": "Atelloune",
+            "cPrev": [
+                68146
+            ],
+            "cNext": [
+                68150
+            ]
+        },
+        "x68150": {
+            "level": 68,
+            "name_en": "The Trouble with Taxidermy",
+            "name_fr": "Œuvre blasphématoire",
+            "npc_en": "Atelloune",
+            "npc_fr": "Atelloune",
+            "cPrev": [
+                68147
+            ],
+            "cNext": [
+                68151
+            ]
+        },
+        "x68151": {
+            "level": 70,
+            "name_en": "True to Life",
+            "name_fr": "La valeur de la Vie",
+            "npc_en": "Atelloune",
+            "npc_fr": "Atelloune",
+            "cPrev": [
+                68150
+            ],
+            "cSiblings": [
+                "character.adventure-plate.76"
+            ]
+        }
+    }
+}

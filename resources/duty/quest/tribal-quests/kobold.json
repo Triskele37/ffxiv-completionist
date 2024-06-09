@@ -1,0 +1,395 @@
+{
+    "key": "kobold",
+    "groupName_en": "Kobold",
+    "groupName_fr": "Kobolds",
+    "common": [
+        "type"
+    ],
+    "tasks": {
+        "x66856": {
+            "level": 41,
+            "name_en": "Highway Robbery",
+            "name_fr": "Un mystérieux vol de salpêtre",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Trachraet",
+            "npc_fr": "Trachraet",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66488"
+            ],
+            "cNext": [
+                66857
+            ]
+        },
+        "x66857": {
+            "level": 41,
+            "name_en": "How Low Can You Go",
+            "name_fr": "Dur dur d'être un Kobold",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "789th Order Pickman Gi Gu",
+            "npc_fr": "Gi Gu",
+            "cPrev": [
+                66856
+            ],
+            "cNext": [
+                66858
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.10"
+            ]
+        },
+        "x66858": {
+            "level": 44,
+            "name_en": "No-good Zo Ga's Ambition",
+            "name_fr": "Sabotage à la kobolde",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "789th Order Pickman Gi Gu",
+            "npc_fr": "Gi Gu",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "cPrev": [
+                66857
+            ],
+            "cNext": [
+                66859
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.11"
+            ]
+        },
+        "x66859": {
+            "level": 48,
+            "name_en": "The Kobold and the Beautiful",
+            "name_fr": "À la rescousse de la belle des mines",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Skaetswys",
+            "npc_fr": "Skaetswys",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "cPrev": [
+                66858
+            ],
+            "cNext": [
+                66860
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.12"
+            ]
+        },
+        "x66860": {
+            "level": 48,
+            "name_en": "Revenge of the Furred",
+            "name_fr": "La révolte du 789e ordre",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "789th Order Pickman Gi Gu",
+            "npc_fr": "Gi Gu",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                66859
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.13"
+            ]
+        },
+        "x66861": {
+            "level": 41,
+            "name_en": "Rubbish for Refuse",
+            "name_fr": "Tout fer pour manger",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Zu",
+            "npc_fr": "Bo Zu",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre"
+        },
+        "x66862": {
+            "level": 41,
+            "name_en": "No Such Thing as a Free Lunch",
+            "name_fr": "L'en-cas du travailleur kobold",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Zu",
+            "npc_fr": "Bo Zu",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre"
+        },
+        "x66863": {
+            "level": 41,
+            "name_en": "Finger Licking Good",
+            "name_fr": "Un appétit explosif",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Zu",
+            "npc_fr": "Bo Zu",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre"
+        },
+        "x66864": {
+            "level": 41,
+            "name_en": "Battle of the Bottom-feeders",
+            "name_fr": "T'ar ta gueule de Kobold",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Zu",
+            "npc_fr": "Bo Zu",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre"
+        },
+        "x66865": {
+            "level": 41,
+            "name_en": "Mothers of All Bombs",
+            "name_fr": "Y a le feu au lac",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Zu",
+            "npc_fr": "Bo Zu",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre"
+        },
+        "x66868": {
+            "level": 41,
+            "name_en": "Ill-gotten Gains",
+            "name_fr": "Extraction manuelle",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Zu",
+            "npc_fr": "Bo Zu",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre"
+        },
+        "x66869": {
+            "level": 41,
+            "name_en": "Hells Have No Fury",
+            "name_fr": "Mini-bombos dans la nature",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Zu",
+            "npc_fr": "Bo Zu",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre"
+        },
+        "x66866": {
+            "level": 41,
+            "name_en": "Know Your Place",
+            "name_fr": "Tricheurs expansionnistes",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Zu",
+            "npc_fr": "Bo Zu",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre"
+        },
+        "x66867": {
+            "level": 41,
+            "name_en": "Misery Loves Company",
+            "name_fr": "Une excavatrice gênante",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Zu",
+            "npc_fr": "Bo Zu",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre"
+        },
+        "x66870": {
+            "level": 41,
+            "name_en": "Bo Zu's Blown Cover",
+            "name_fr": "Tromperie sur la marchandise",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Zu",
+            "npc_fr": "Bo Zu",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre"
+        },
+        "x66871": {
+            "level": 44,
+            "name_en": "Ambushing the Assessors",
+            "name_fr": "Inspection du travail kobolde",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Craftsman Bo Gu",
+            "npc_fr": "Bo Gu",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu"
+        },
+        "x66873": {
+            "level": 44,
+            "name_en": "Armed and Dangerous",
+            "name_fr": "Une légère mollesse du genou",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Craftsman Bo Gu",
+            "npc_fr": "Bo Gu",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu"
+        },
+        "x66874": {
+            "level": 44,
+            "name_en": "Too Hot to Handle",
+            "name_fr": "La bombo-machine",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Craftsman Bo Gu",
+            "npc_fr": "Bo Gu",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu"
+        },
+        "x66876": {
+            "level": 44,
+            "name_en": "The Sly Salvages",
+            "name_fr": "Massacre de golems en règle",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Craftsman Bo Gu",
+            "npc_fr": "Bo Gu",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu"
+        },
+        "x66877": {
+            "level": 44,
+            "name_en": "Belles of the Ball",
+            "name_fr": "Ça va chauffer au laboratoire",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Craftsman Bo Gu",
+            "npc_fr": "Bo Gu",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu"
+        },
+        "x66878": {
+            "level": 44,
+            "name_en": "Contents Unknown",
+            "name_fr": "Pillage alchimique",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Craftsman Bo Gu",
+            "npc_fr": "Bo Gu",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu"
+        },
+        "x66879": {
+            "level": 44,
+            "name_en": "Brain Buster",
+            "name_fr": "Le laboratoire de la frousse",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Craftsman Bo Gu",
+            "npc_fr": "Bo Gu",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu"
+        },
+        "x66872": {
+            "level": 44,
+            "name_en": "The Lode Warrior",
+            "name_fr": "Un odorat en or",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Craftsman Bo Gu",
+            "npc_fr": "Bo Gu",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu"
+        },
+        "x66875": {
+            "level": 44,
+            "name_en": "Operation Riffraff",
+            "name_fr": "Déréglage de creuset",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Craftsman Bo Gu",
+            "npc_fr": "Bo Gu",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu"
+        },
+        "x66880": {
+            "level": 44,
+            "name_en": "A Dangerous Delivery",
+            "name_fr": "Livraison de bombo",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Craftsman Bo Gu",
+            "npc_fr": "Bo Gu",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu"
+        },
+        "x66901": {
+            "level": 48,
+            "name_en": "Friends in Low Places",
+            "name_fr": "Mes précieuses mines",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Bu",
+            "npc_fr": "Bo Bu",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        },
+        "x66903": {
+            "level": 48,
+            "name_en": "Genius at Work",
+            "name_fr": "Aliments pour bombos",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Bu",
+            "npc_fr": "Bo Bu",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        },
+        "x66907": {
+            "level": 48,
+            "name_en": "Ba Go's Behest",
+            "name_fr": "L'ego d'un éboueur kobold",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Bu",
+            "npc_fr": "Bo Bu",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        },
+        "x66902": {
+            "level": 48,
+            "name_en": "Glutton for Punishment",
+            "name_fr": "Des plats pour un Kobold gourmet",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Bu",
+            "npc_fr": "Bo Bu",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        },
+        "x66904": {
+            "level": 48,
+            "name_en": "Fulminating Furnaces",
+            "name_fr": "Bomboréacteur bombardé",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Bu",
+            "npc_fr": "Bo Bu",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        },
+        "x66905": {
+            "level": 48,
+            "name_en": "A Meal Fit for a Fugleman",
+            "name_fr": "Un délice jaune doré",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Bu",
+            "npc_fr": "Bo Bu",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        },
+        "x66906": {
+            "level": 48,
+            "name_en": "Spread the Wealth",
+            "name_fr": "Un nouveau jouet explosif",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Bu",
+            "npc_fr": "Bo Bu",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        },
+        "x66900": {
+            "level": 48,
+            "name_en": "A Coblyn Catastrophe",
+            "name_fr": "Le “docteur Doblynstein”",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Bu",
+            "npc_fr": "Bo Bu",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        },
+        "x66908": {
+            "level": 48,
+            "name_en": "Wrath of the Roundsman",
+            "name_fr": "Intimider le 59e ordre",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Bu",
+            "npc_fr": "Bo Bu",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        },
+        "x66909": {
+            "level": 48,
+            "name_en": "Angry Angry Acolyte",
+            "name_fr": "Récupération de bombo volé",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "789th Order Dustman Bo Bu",
+            "npc_fr": "Bo Bu",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami"
+        }
+    }
+}

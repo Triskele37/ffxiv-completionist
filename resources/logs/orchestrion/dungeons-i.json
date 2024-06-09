@@ -1,0 +1,670 @@
+{
+    "key": "dungeons-i",
+    "groupName_en": "Dungeons I",
+    "groupName_fr": "Donjons I",
+    "common": [
+        "category",
+        "location",
+        "source"
+    ],
+    "tasks": {
+        "x71": {
+            "number": "1",
+            "name_en": "From the Depths",
+            "name_fr": "From the Depths",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.0",
+            "patch": "6.0"
+        },
+        "x64": {
+            "number": "2",
+            "name_en": "Below",
+            "name_fr": "Below",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.2",
+            "patch": "5.4"
+        },
+        "x65": {
+            "number": "3",
+            "name_en": "The Ludus",
+            "name_fr": "The Ludus",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.3",
+            "patch": "5.4"
+        },
+        "x91": {
+            "number": "4",
+            "name_en": "A Thousand Screams",
+            "name_fr": "A Thousand Screams",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.4",
+            "patch": "6.2"
+        },
+        "x0": {
+            "number": "5",
+            "name_en": "The Maiden's Lament",
+            "name_fr": "The Maiden's Lament",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.5",
+            "patch": "5.2"
+        },
+        "x92": {
+            "number": "6",
+            "name_en": "Lipflaps on Longstops",
+            "name_fr": "Lipflaps on Longstops",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.6",
+            "patch": "6.2"
+        },
+        "x59": {
+            "number": "7",
+            "name_en": "Abomination",
+            "name_fr": "Abomination",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.8",
+            "patch": "5.3"
+        },
+        "x1": {
+            "number": "8",
+            "name_en": "The Darkhold",
+            "name_fr": "The Darkhold",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.10",
+            "patch": "5.2"
+        },
+        "x60": {
+            "number": "9",
+            "name_en": "A Tonberry's Tears",
+            "name_fr": "A Tonberry's Tears",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.14",
+            "patch": "5.3"
+        },
+        "x89": {
+            "number": "10",
+            "name_en": "The Emperor's Wont",
+            "name_fr": "The Emperor's Wont",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Zawawa - 350 Bicolor Gemstones",
+            "source_fr": "Zawawa - 350 Gemme bicolore",
+            "location": "ZONE.GARLEMALD",
+            "patch": "6.2"
+        },
+        "x90": {
+            "number": "11",
+            "name_en": "Penitus",
+            "name_fr": "Penitus",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Zawawa - 350 Bicolor Gemstones",
+            "source_fr": "Zawawa - 350 Gemme bicolore",
+            "location": "ZONE.GARLEMALD",
+            "patch": "6.2"
+        },
+        "x2": {
+            "number": "12",
+            "name_en": "A Light in the Storm",
+            "name_fr": "A Light in the Storm",
+            "category": "CATEGORY.CRAFTING",
+            "source": [
+                "duty.dutyraid-finder.dungeons.arr.16",
+                "duty.dutyraid-finder.dungeons.hw.9"
+            ],
+            "patch": "3.25"
+        },
+        "x3": {
+            "number": "13",
+            "name_en": "The Dark's Embrace",
+            "name_fr": "The Dark's Embrace",
+            "category": "CATEGORY.CRAFTING",
+            "source": [
+                "duty.dutyraid-finder.dungeons.arr.2",
+                "duty.dutyraid-finder.dungeons.arr.17"
+            ],
+            "patch": "3.25"
+        },
+        "x4": {
+            "number": "14",
+            "name_en": "The Scars of Battle",
+            "name_fr": "The Scars of Battle",
+            "category": "CATEGORY.CRAFTING",
+            "source": [
+                "duty.dutyraid-finder.dungeons.arr.19",
+                "duty.dutyraid-finder.dungeons.hw.11"
+            ],
+            "patch": "3.25"
+        },
+        "x5": {
+            "number": "15",
+            "name_en": "Beneath Bloodied Banners",
+            "name_fr": "Beneath Bloodied Banners",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.20",
+            "patch": "4.4"
+        },
+        "x6": {
+            "number": "16",
+            "name_en": "Fury",
+            "name_fr": "Fury",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.6",
+            "patch": "5.0"
+        },
+        "x7": {
+            "number": "17",
+            "name_en": "Horizons Calling",
+            "name_fr": "Horizons Calling",
+            "category": "CATEGORY.DUNGEON",
+            "source": [
+                "duty.dutyraid-finder.dungeons.arr.22",
+                "duty.dutyraid-finder.dungeons.hw.13"
+            ],
+            "patch": "3.3"
+        },
+        "x8": {
+            "number": "18",
+            "name_en": "Dark Vows",
+            "name_fr": "Dark Vows",
+            "category": "CATEGORY.CRAFTING",
+            "source": [
+                "duty.dutyraid-finder.dungeons.arr.1",
+                "duty.dutyraid-finder.dungeons.arr.24"
+            ],
+            "patch": "3.25"
+        },
+        "x9": {
+            "number": "19",
+            "name_en": "The Warrens",
+            "name_fr": "The Warrens",
+            "category": "CATEGORY.CRAFTING",
+            "source": "duty.dutyraid-finder.dungeons.arr.25",
+            "patch": "3.3"
+        },
+        "x10": {
+            "number": "20",
+            "name_en": "Riptide",
+            "name_fr": "Riptide",
+            "category": "CATEGORY.CRAFTING",
+            "source": [
+                "duty.dutyraid-finder.dungeons.arr.0",
+                "duty.dutyraid-finder.dungeons.arr.26"
+            ],
+            "patch": "3.25"
+        },
+        "x11": {
+            "number": "21",
+            "name_en": "Silver Tears",
+            "name_fr": "Silver Tears",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.28",
+            "patch": "3.4"
+        },
+        "x12": {
+            "number": "22",
+            "name_en": "Tricksome",
+            "name_fr": "Tricksome",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.29",
+            "patch": "4.4"
+        },
+        "x83": {
+            "number": "23",
+            "name_en": "Aftermath",
+            "name_fr": "Aftermath",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.30",
+            "patch": "6.1"
+        },
+        "x63": {
+            "number": "24",
+            "name_en": "A Fine Death",
+            "name_fr": "A Fine Death",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Gold Saucer Attendant - 50,000 MGP",
+            "source_fr": "Préposé Aux Lots - 50.000 PGS",
+            "location": "ZONE.THE_GOLD_SAUCER",
+            "patch": "5.4"
+        },
+        "x62": {
+            "number": "25",
+            "name_en": "Nemesis",
+            "name_fr": "Nemesis",
+            "category": "CATEGORY.VOYAGE",
+            "source": "VOYAGE.MOERGYNNS_FORGE",
+            "patch": "5.4"
+        },
+        "x29": {
+            "number": "26",
+            "name_en": "Blackbosom",
+            "name_fr": "Blackbosom",
+            "category": "CATEGORY.DEEP_DUNGEON",
+            "source": "duty.dutyraid-finder.deep-dungeon.0",
+            "patch": "3.45"
+        },
+        "x31": {
+            "number": "27",
+            "name_en": "Fog of Phantom",
+            "name_fr": "Fog of Phantom",
+            "category": [
+                "CATEGORY.ACHIEVEMENT",
+                "CATEGORY.PURCHASE"
+            ],
+            "source": "character.achievement.battle.dungeons.1656",
+            "source_en": "E-Una-Kotor - 5 Gelmorran Potsherd",
+            "source_fr": "E-Una-Kotor - 5 Tessons de poterie gelmorraine",
+            "patch": "3.45"
+        },
+        "x30": {
+            "number": "28",
+            "name_en": "Blasphemous Experiment",
+            "name_fr": "Blasphemous Experiment",
+            "category": [
+                "CATEGORY.ACHIEVEMENT",
+                "CATEGORY.PURCHASE"
+            ],
+            "source": "character.achievement.battle.dungeons.1655",
+            "source_en": "E-Una-Kotor - 1 Gelmorran Potsherd",
+            "source_fr": "E-Una-Kotor - 1 Tesson de poterie gelmorraine",
+            "patch": "3.45"
+        },
+        "x32": {
+            "number": "29",
+            "name_en": "Notice of Death",
+            "name_fr": "Notice of Death",
+            "category": [
+                "CATEGORY.ACHIEVEMENT",
+                "CATEGORY.PURCHASE"
+            ],
+            "source": "character.achievement.battle.dungeons.1657",
+            "source_en": "E-Una-Kotor - 10 Gelmorran Potsherd",
+            "source_fr": "E-Una-Kotor - 10 Tessons de poterie gelmorraine",
+            "patch": "3.45"
+        },
+        "x82": {
+            "number": "30",
+            "name_en": "Descent",
+            "name_fr": "Descent",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.0",
+            "patch": "6.1"
+        },
+        "x15": {
+            "number": "31",
+            "name_en": "Slumber Eternal",
+            "name_fr": "Slumber Eternal",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.1",
+            "patch": "3.4"
+        },
+        "x70": {
+            "number": "32",
+            "name_en": "Roar of the Wyrm",
+            "name_fr": "Roar of the Wyrm",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.2",
+            "patch": "6.0"
+        },
+        "x87": {
+            "number": "33",
+            "name_en": "Toll of the Bells",
+            "name_fr": "Toll of the Bells",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.3",
+            "patch": "6.2"
+        },
+        "x16": {
+            "number": "34",
+            "name_en": "Hallowed Halls",
+            "name_fr": "Hallowed Halls",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.3",
+            "patch": "3.5"
+        },
+        "x88": {
+            "number": "35",
+            "name_en": "Stigma",
+            "name_fr": "Stigma",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.3",
+            "patch": "6.2"
+        },
+        "x17": {
+            "number": "36",
+            "name_en": "Ink Long Dry",
+            "name_fr": "Ink Long Dry",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.4",
+            "patch": "3.3"
+        },
+        "x18": {
+            "number": "37",
+            "name_en": "Imagination",
+            "name_fr": "Imagination",
+            "category": "CATEGORY.CRAFTING",
+            "source": "duty.dutyraid-finder.dungeons.hw.5",
+            "patch": "3.25"
+        },
+        "x81": {
+            "number": "38",
+            "name_en": "Like a Summer Rain",
+            "name_fr": "Like a Summer Rain",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.6",
+            "patch": "6.1"
+        },
+        "x19": {
+            "number": "39",
+            "name_en": "Unbreakable",
+            "name_fr": "Unbreakable",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.7",
+            "patch": "3.3"
+        },
+        "x20": {
+            "number": "40",
+            "name_en": "Poison Ivy",
+            "name_fr": "Poison Ivy",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.8",
+            "patch": "4.0"
+        },
+        "x21": {
+            "number": "41",
+            "name_en": "Upon the Rocks",
+            "name_fr": "Upon the Rocks",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.9",
+            "patch": "4.4"
+        },
+        "x22": {
+            "number": "42",
+            "name_en": "Down the Up Staircase",
+            "name_fr": "Down the Up Staircase",
+            "category": "CATEGORY.CRAFTING",
+            "source": "duty.dutyraid-finder.dungeons.hw.10",
+            "patch": "3.25"
+        },
+        "x66": {
+            "number": "43",
+            "name_en": "Dancing Calcabrina",
+            "name_fr": "Dancing Calcabrina",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.10",
+            "patch": "5.4"
+        },
+        "x23": {
+            "number": "44",
+            "name_en": "The Ancient City",
+            "name_fr": "The Ancient City",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.11",
+            "patch": "4.3"
+        },
+        "x24": {
+            "number": "45",
+            "name_en": "Apologies",
+            "name_fr": "Apologies",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.12",
+            "patch": "3.3"
+        },
+        "x25": {
+            "number": "46",
+            "name_en": "Grounded",
+            "name_fr": "Grounded",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.post-dragonsong.67878",
+            "patch": "3.4"
+        },
+        "x26": {
+            "number": "47",
+            "name_en": "Bibliophobia",
+            "name_fr": "Bibliophobia",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.15",
+            "patch": "4.0"
+        },
+        "x27": {
+            "number": "48",
+            "name_en": "Another Brick",
+            "name_fr": "Another Brick",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.main-scenario.post-dragonsong.67890",
+            "patch": "3.5"
+        },
+        "x28": {
+            "number": "49",
+            "name_en": "Quicksand",
+            "name_fr": "Quicksand",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.sidequests.dravanian.idyllshire.67938",
+            "patch": "3.5"
+        },
+        "x13": {
+            "number": "50",
+            "name_en": "Ominous Prognisticks",
+            "name_fr": "Ominous Prognisticks",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Hismena - 750 Allagan Tomestones of Poetics",
+            "source_fr": "Hismena - 750 Mémoquartz allagois poétique",
+            "location": "ZONE.IDYLLSHIRE",
+            "patch": "3.3"
+        },
+        "x14": {
+            "number": "51",
+            "name_en": "Revenge Twofold",
+            "name_fr": "Revenge Twofold",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Gold Saucer Attendant - 50,000 MGP",
+            "source_fr": "Préposé Aux Lots - 50.000 PGS",
+            "location": "ZONE.THE_GOLD_SAUCER",
+            "patch": "4.2"
+        },
+        "x69": {
+            "number": "52",
+            "name_en": "Dawnbound",
+            "name_fr": "Dawnbound",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.0",
+            "patch": "6.0"
+        },
+        "x34": {
+            "number": "53",
+            "name_en": "The Open Box",
+            "name_fr": "The Open Box",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.1",
+            "patch": "4.1"
+        },
+        "x35": {
+            "number": "54",
+            "name_en": "Most Unworthy",
+            "name_fr": "Most Unworthy",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.2",
+            "patch": "4.1"
+        },
+        "x36": {
+            "number": "55",
+            "name_en": "Gates of the Moon",
+            "name_fr": "Gates of the Moon",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.3",
+            "patch": "4.3"
+        },
+        "x37": {
+            "number": "56",
+            "name_en": "Alienus",
+            "name_fr": "Alienus",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.4",
+            "patch": "5.0"
+        },
+        "x38": {
+            "number": "57",
+            "name_en": "Liberty or Death",
+            "name_fr": "Liberty or Death",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.5",
+            "patch": "4.2"
+        },
+        "x39": {
+            "number": "58",
+            "name_en": "Deception",
+            "name_fr": "Deception",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.6",
+            "patch": "4.1"
+        },
+        "x40": {
+            "number": "59",
+            "name_en": "Their Deadly Mission",
+            "name_fr": "Their Deadly Mission",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.7",
+            "patch": "4.2"
+        },
+        "x41": {
+            "number": "60",
+            "name_en": "Far From Home",
+            "name_fr": "Far From Home",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.8",
+            "patch": "4.1"
+        },
+        "x42": {
+            "number": "61",
+            "name_en": "Down Where Daemons Dwell",
+            "name_fr": "Down Where Daemons Dwell",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.9",
+            "patch": "4.2"
+        },
+        "x43": {
+            "number": "62",
+            "name_en": "Unbreakable (Duality)",
+            "name_fr": "Unbreakable (Duality)",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.10",
+            "patch": "4.2"
+        },
+        "x44": {
+            "number": "63",
+            "name_en": "Earth, Wind, and Water",
+            "name_fr": "Earth, Wind, and Water",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.11",
+            "patch": "4.3"
+        },
+        "x45": {
+            "number": "64",
+            "name_en": "A Land Long Dead",
+            "name_fr": "A Land Long Dead",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.12",
+            "patch": "4.4"
+        },
+        "x46": {
+            "number": "65",
+            "name_en": "From Mud",
+            "name_fr": "From Mud",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.13",
+            "patch": "4.4"
+        },
+        "x47": {
+            "number": "66",
+            "name_en": "A Pall Most Murderous",
+            "name_fr": "A Pall Most Murderous",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.sb.14",
+            "patch": "4.45"
+        },
+        "x33": {
+            "number": "67",
+            "name_en": "Triumph",
+            "name_fr": "Triumph",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Gold Saucer Attendant - 50,000 MGP",
+            "source_fr": "Préposé Aux Lots - 50.000 PGS",
+            "location": "ZONE.THE_GOLD_SAUCER",
+            "patch": "4.2"
+        },
+        "x94": {
+            "number": "68",
+            "name_en": "Echoes of Ages Past",
+            "name_fr": "Echoes of Ages Past",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.7",
+            "patch": "6.3"
+        },
+        "x95": {
+            "number": "69",
+            "name_en": "Cold Salvation",
+            "name_fr": "Cold Salvation",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.9",
+            "patch": "6.3"
+        },
+        "x96": {
+            "number": "70",
+            "name_en": "Miser's Folly",
+            "name_fr": "Miser's Folly",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.11",
+            "patch": "6.3"
+        },
+        "x97": {
+            "number": "71",
+            "name_en": "Cracks in the Wall",
+            "name_fr": "Cracks in the Wall",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.15",
+            "patch": "6.3"
+        },
+        "x98": {
+            "number": "72",
+            "name_en": "Forgotten by the Sun",
+            "name_fr": "Forgotten by the Sun",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.arr.27",
+            "patch": "6.3"
+        },
+        "x99": {
+            "number": "73",
+            "name_en": "Holy Consult",
+            "name_fr": "Holy Consult",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.hw.13",
+            "patch": "6.3"
+        },
+        "x100": {
+            "number": "74",
+            "name_en": "Dangertek",
+            "name_fr": "Dangertek",
+            "category": "CATEGORY.TREASURE_HUNT",
+            "source": [
+                "duty.treasure-hunt.duties.6",
+                "duty.treasure-hunt.duties.7"
+            ],
+            "patch": "6.3"
+        },
+        "x101": {
+            "number": "75",
+            "name_en": "The Promise of Plunder",
+            "name_fr": "The Promise of Plunder",
+            "category": "CATEGORY.DEEP_DUNGEON",
+            "source": "duty.dutyraid-finder.deep-dungeon.2",
+            "patch": "6.35"
+        },
+        "x102": {
+            "number": "76",
+            "name_en": "My Soul to Keep",
+            "name_fr": "My Soul to Keep",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Jonathas - 2 Achievement Certificate",
+            "source_fr": "Jonathas - 2 Jeton de hauts faits",
+            "location": "ZONE.OLD_GRIDANIA",
+            "patch": "6.4"
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "key": "zodiac-weapons",
+    "groupName_en": "Zodiac Weapons",
+    "groupName_fr": "Armes du zodiaque",
+    "tasks": {
+        "x1054": {
+            "name_en": "Lethal Weapon",
+            "name_fr": "Héritier du zodiaque",
+            "description_en": "Obtain a Zodiac Weapon.",
+            "description_fr": "Obtenir une des armes du zodiaque.",
+            "patch": "2.45",
+            "points": 10,
+            "cPrevAny": true,
+            "cPrev": [
+                "character.relic-gear.zodiac.6",
+                "character.relic-gear.zodiac.14",
+                "character.relic-gear.zodiac.22",
+                "character.relic-gear.zodiac.30",
+                "character.relic-gear.zodiac.38",
+                "character.relic-gear.zodiac.46",
+                "character.relic-gear.zodiac.54",
+                "character.relic-gear.zodiac.62",
+                "character.relic-gear.zodiac.70",
+                "character.relic-gear.zodiac.78"
+            ]
+        },
+        "x1081": {
+            "name_en": "The Letter Z",
+            "name_fr": "Arme de série Z",
+            "description_en": "Obtain a Zodiac Weapon Zeta.",
+            "description_fr": "Obtenir une des armes du zodiaque zêta.",
+            "reward": "character.character.title.193",
+            "patch": "2.51",
+            "points": 20,
+            "cPrevAny": true,
+            "cPrev": [
+                "character.relic-gear.zodiac.7",
+                "character.relic-gear.zodiac.15",
+                "character.relic-gear.zodiac.23",
+                "character.relic-gear.zodiac.31",
+                "character.relic-gear.zodiac.39",
+                "character.relic-gear.zodiac.47",
+                "character.relic-gear.zodiac.55",
+                "character.relic-gear.zodiac.63",
+                "character.relic-gear.zodiac.71",
+                "character.relic-gear.zodiac.79"
+            ],
+            "cSiblings": [
+                "character.character.title.193"
+            ]
+        }
+    }
+}

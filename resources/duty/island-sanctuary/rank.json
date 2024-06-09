@@ -1,0 +1,171 @@
+{
+    "key": "rank",
+    "groupName_en": "Rank",
+    "groupName_fr": "Rang",
+    "headers": {
+        "name": {
+            "header_en": "Rank",
+            "header_fr": "Rang"
+        },
+        "unlocks": {
+            "link": true,
+            "header_en": "Unlocks",
+            "header_fr": "Débloque"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Rank 1",
+            "name_fr": "Rang 1",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.0"
+            ],
+            "cNext": [
+                1
+            ]
+        },
+        "x1": {
+            "name_en": "Rank 2",
+            "name_fr": "Rang 2",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.restraints.0"
+            ],
+            "cPrev": [
+                0
+            ],
+            "cNext": [
+                2
+            ]
+        },
+        "x2": {
+            "name_en": "Rank 3",
+            "name_fr": "Rang 3",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.1",
+                "duty.island-sanctuary.crafting.feed.0",
+                "duty.island-sanctuary.crafting.feed.1",
+                "duty.island-sanctuary.crafting.feed.2"
+            ],
+            "cPrev": [
+                1
+            ],
+            "cNext": [
+                3
+            ]
+        },
+        "x3": {
+            "name_en": "Rank 4",
+            "name_fr": "Rang 4",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.8"
+            ],
+            "cPrev": [
+                2
+            ],
+            "cNext": [
+                4
+            ]
+        },
+        "x4": {
+            "name_en": "Rank 5",
+            "name_fr": "Rang 5",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.2",
+                "duty.island-sanctuary.crafting.tools.9"
+            ],
+            "cPrev": [
+                3
+            ],
+            "cNext": [
+                5
+            ]
+        },
+        "x5": {
+            "name_en": "Rank 6",
+            "name_fr": "Rang 6",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.3",
+                "duty.island-sanctuary.crafting.restraints.1"
+            ],
+            "cPrev": [
+                4
+            ],
+            "cNext": [
+                6
+            ]
+        },
+        "x6": {
+            "name_en": "Rank 7",
+            "name_fr": "Rang 7",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.4",
+                "duty.island-sanctuary.crafting.tools.10"
+            ],
+            "cPrev": [
+                5
+            ],
+            "cNext": [
+                7
+            ]
+        },
+        "x7": {
+            "name_en": "Rank 8",
+            "name_fr": "Rang 8",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.5",
+                "duty.island-sanctuary.crafting.tools.6",
+                "duty.island-sanctuary.crafting.tools.7",
+                "duty.island-sanctuary.crafting.restraints.2"
+            ],
+            "cPrev": [
+                6
+            ],
+            "cNext": [
+                8
+            ]
+        },
+        "x8": {
+            "name_en": "Rank 9",
+            "name_fr": "Rang 9",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.11"
+            ],
+            "cPrev": [
+                7
+            ],
+            "cNext": [
+                9
+            ]
+        },
+        "x9": {
+            "name_en": "Rank 10",
+            "name_fr": "Rang 10",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.12"
+            ],
+            "cPrev": [
+                8
+            ],
+            "cNext": [
+                10
+            ]
+        },
+        "x10": {
+            "name_en": "Rank 11",
+            "name_fr": "Rang 11",
+            "cPrev": [
+                9
+            ],
+            "cNext": [
+                11
+            ]
+        },
+        "x11": {
+            "name_en": "Rank 12",
+            "name_fr": "Rang 12",
+            "cPrev": [
+                10
+            ]
+        }
+    }
+}

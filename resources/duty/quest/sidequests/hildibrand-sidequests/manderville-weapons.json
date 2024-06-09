@@ -1,0 +1,113 @@
+{
+    "key": "manderville-weapons",
+    "groupName_en": "Manderville Weapons",
+    "groupName_fr": "Armes des Mandervilles",
+    "tasks": {
+        "x70188": {
+            "level": 90,
+            "name_en": "Make It a Manderville",
+            "name_fr": "Le secret ancestral des Manderville",
+            "npc_en": "House Manderville Manservant",
+            "npc_fr": "Domestique des Manderville",
+            "cPrev": [
+                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70178"
+            ],
+            "cNext": [
+                70189,
+                70261
+            ]
+        },
+        "x70189": {
+            "level": 90,
+            "name_en": "Make Another Manderville",
+            "name_fr": "Une nouvelle arme des Manderville",
+            "npc_en": "House Manderville Artisan",
+            "npc_fr": "Artisan des Manderville",
+            "cPrev": [
+                70188
+            ]
+        },
+        "x70261": {
+            "level": 90,
+            "name_en": "Well-oiled",
+            "name_fr": "L'instinct combatif",
+            "npc_en": "Gerolt",
+            "npc_fr": "Gerolt",
+            "cPrev": [
+                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70255",
+                70188
+            ],
+            "cNext": [
+                70262
+            ]
+        },
+        "x70262": {
+            "level": 90,
+            "name_en": "The Next Mander-level",
+            "name_fr": "Les armes éblouissantes des Manderville",
+            "npc_en": "House Manderville Artisan",
+            "npc_fr": "Artisan des Manderville",
+            "cPrev": [
+                70261,
+                70189
+            ]
+        },
+        "x70307": {
+            "level": 90,
+            "name_en": "A Spirited Reforging",
+            "name_fr": "Quand les forgerons boivent, les armes trinquent",
+            "patch": "6.4",
+            "npc_en": "Gerolt",
+            "npc_fr": "Gerolt",
+            "cPrev": [
+                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70291",
+                70261
+            ],
+            "cNext": [
+                70308
+            ]
+        },
+        "x70308": {
+            "level": 90,
+            "name_en": "In Need of Adjustment",
+            "name_fr": "Les armes majestueuses des Manderville",
+            "patch": "6.4",
+            "npc_en": "House Manderville artisan",
+            "npc_fr": "artisan des Manderville",
+            "cPrev": [
+                70262,
+                70307
+            ]
+        },
+        "x70342": {
+            "level": 90,
+            "name_en": "Resonating with Perfection",
+            "name_fr": "La dernière danse",
+            "patch": "6.55",
+            "npc_en": "Gerolt",
+            "npc_fr": "Gerolt",
+            "cPrev": [
+                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70336",
+                70307
+            ],
+            "cNext": [
+                70343
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.3374"
+            ]
+        },
+        "x70343": {
+            "level": 90,
+            "name_en": "Positively Mandervillous",
+            "name_fr": "Les armes manderveilleuses des Manderville",
+            "patch": "6.55",
+            "npc_en": "House Manderville artisan",
+            "npc_fr": "artisan des Manderville",
+            "cPrev": [
+                70342,
+                70308
+            ]
+        }
+    }
+}

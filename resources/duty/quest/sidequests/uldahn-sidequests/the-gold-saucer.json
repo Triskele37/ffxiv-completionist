@@ -1,0 +1,49 @@
+{
+    "key": "the-gold-saucer",
+    "groupName_en": "The Gold Saucer",
+    "groupName_fr": "Gold Saucer",
+    "tasks": {
+        "x65971": {
+            "level": 15,
+            "name_en": "World of Wonders",
+            "name_fr": "Bienvenue au Gold Saucer!",
+            "npc_en": "Airship Ticketer",
+            "npc_fr": "employé des Vols Hautvent",
+            "cPrev": [
+                "duty.quests.sidequests.uldahn.uldah.65970"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.90"
+            ]
+        },
+        "x68617": {
+            "level": 15,
+            "name_en": "Passion for Fashion",
+            "name_fr": "Le masque et le costume",
+            "npc_en": "Lewena",
+            "npc_fr": "Lewena",
+            "unlock_en": "The Fashion Report",
+            "cPrev": [
+                "duty.quests.sidequests.uldahn.uldah.65970"
+            ]
+        },
+        "x68737": {
+            "level": 15,
+            "name_en": "Every Little Thing She Does Is Mahjong",
+            "name_fr": "Les tuiles font le mur",
+            "npc_en": "Lewena",
+            "npc_fr": "Lewena",
+            "unlock_en": "Mahjong",
+            "cPrev": [
+                "duty.quests.sidequests.uldahn.uldah.65970"
+            ]
+        },
+        "x69617": {
+            "level": 1,
+            "name_en": "The Adventurer with All the Cards",
+            "name_fr": "Toutes les cartes en main",
+            "npc_en": "Gold Saucer Attendant",
+            "npc_fr": "réceptionniste"
+        }
+    }
+}

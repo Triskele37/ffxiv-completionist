@@ -1,0 +1,625 @@
+{
+    "key": "the-ruby-sea",
+    "groupName_en": "The Ruby Sea",
+    "groupName_fr": "Mer de Rubis",
+    "tasks": {
+        "x68458": {
+            "level": 61,
+            "name_en": "A New Fishing Ex-spear-ience",
+            "name_fr": "La pêche au harpon, c'est bon",
+            "npc_en": "Sumitsubo",
+            "npc_fr": "Sumitsubo",
+            "unlock_en": "Spearfishing",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68020",
+                "duty.quests.class--job.disciple-of-the-land.fisher.66643"
+            ]
+        },
+        "x68676": {
+            "level": 62,
+            "name_en": "Up Where They Trade All Day in the Sun",
+            "name_fr": "Vers l'extérieur, et au-delà",
+            "npc_en": "Kurenai",
+            "npc_fr": "Kurenai",
+            "cPrev": [
+                "duty.quests.sidequests.hingan.kugane.68675"
+            ]
+        },
+        "x68211": {
+            "level": 62,
+            "name_en": "The Devil's Cough",
+            "name_fr": "Une toux du diable",
+            "npc_en": "Hiun",
+            "npc_fr": "Hiun",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68014"
+            ]
+        },
+        "x68210": {
+            "level": 62,
+            "name_en": "The Organ of Sight",
+            "name_fr": "L'organe de la vue",
+            "npc_en": "Shihoji",
+            "npc_fr": "Shihoji",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68014"
+            ]
+        },
+        "x68209": {
+            "level": 62,
+            "name_en": "The Price of Betrayal",
+            "name_fr": "Curieux butin",
+            "unlock": "travel.aether-currents.sb.the-ruby-sea.13",
+            "npc_en": "Yusui",
+            "npc_fr": "Yusui",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68014"
+            ],
+            "cNext": [
+                68212,
+                68213
+            ],
+            "cSiblings": [
+                "travel.aether-currents.sb.the-ruby-sea.13"
+            ]
+        },
+        "x68212": {
+            "level": 62,
+            "name_en": "First Line of Defense",
+            "name_fr": "Optimisation des batteries",
+            "npc_en": "Kumoji",
+            "npc_fr": "Kumoji",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68014",
+                68209
+            ],
+            "cNext": [
+                68214
+            ]
+        },
+        "x68213": {
+            "level": 62,
+            "name_en": "Ethereal Lights",
+            "name_fr": "Manifestations lumineuses",
+            "npc_en": "Hayama",
+            "npc_fr": "Hayama",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68014",
+                68209
+            ],
+            "cNext": [
+                68214
+            ]
+        },
+        "x68214": {
+            "level": 62,
+            "name_en": "Protector of the Small",
+            "name_fr": "Quand le soldat fait sa B.A.",
+            "npc_en": "Hayama",
+            "npc_fr": "Hayama",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68014",
+                68212,
+                68213
+            ]
+        },
+        "x68216": {
+            "level": 62,
+            "name_en": "A Dance with Snakes",
+            "name_fr": "L'affaire est dans le sac",
+            "npc_en": "Kaizan",
+            "npc_fr": "Kaizan",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68017"
+            ]
+        },
+        "x68218": {
+            "level": 62,
+            "name_en": "Stranded",
+            "name_fr": "Seule sur le sable",
+            "npc_en": "Perplexed Confederate",
+            "npc_fr": "pirate paniqué",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68017"
+            ],
+            "cNext": [
+                68237
+            ]
+        },
+        "x68219": {
+            "level": 62,
+            "name_en": "In Cold Blood",
+            "name_fr": "Le tueur de pirates",
+            "npc_en": "Hayase",
+            "npc_fr": "Hayase",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68017"
+            ]
+        },
+        "x68220": {
+            "level": 62,
+            "name_en": "Pirate Stew",
+            "name_fr": "Le ragoût du pirate",
+            "npc_en": "Hirase",
+            "npc_fr": "Hirase",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68017"
+            ]
+        },
+        "x68221": {
+            "level": 62,
+            "name_en": "The Soul's Remembrance",
+            "name_fr": "Pirates pris de démence",
+            "npc_en": "Yana",
+            "npc_fr": "Yana",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68017"
+            ]
+        },
+        "x68222": {
+            "level": 62,
+            "name_en": "Fight or Flight",
+            "name_fr": "Mentir pour la bonne cause",
+            "npc_en": "Aranami",
+            "npc_fr": "Aranami",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68017"
+            ]
+        },
+        "x68223": {
+            "level": 62,
+            "name_en": "Pulling Double Booty",
+            "name_fr": "Sortir la tête de l'eau",
+            "unlock": "travel.aether-currents.sb.the-ruby-sea.12",
+            "npc_en": "Hansaku",
+            "npc_fr": "Hansaku",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68017"
+            ],
+            "cNext": [
+                68224
+            ],
+            "cSiblings": [
+                "travel.aether-currents.sb.the-ruby-sea.12"
+            ]
+        },
+        "x68224": {
+            "level": 62,
+            "name_en": "Unfinished Business",
+            "name_fr": "Partenariat alléchant",
+            "npc_en": "Tsukikage",
+            "npc_fr": "Tsukikage",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68017",
+                68223
+            ],
+            "cNext": [
+                68225
+            ]
+        },
+        "x68225": {
+            "level": 62,
+            "name_en": "The Girl with the Pearl Ring",
+            "name_fr": "Le début d'une relation fructueuse",
+            "npc_en": "Tsukikage",
+            "npc_fr": "Tsukikage",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68017",
+                68224
+            ],
+            "cNext": [
+                68226
+            ]
+        },
+        "x68226": {
+            "level": 62,
+            "name_en": "Family Affairs",
+            "name_fr": "Prisonnière de son passé",
+            "npc_en": "Tsukikage",
+            "npc_fr": "Tsukikage",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68017",
+                68225
+            ],
+            "cNext": [
+                68259
+            ]
+        },
+        "x68227": {
+            "level": 62,
+            "name_en": "Our Most Venerated Ancestor",
+            "name_fr": "Une vénérable carapace",
+            "npc_en": "Tsuzura",
+            "npc_fr": "Tsuzura",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68019"
+            ]
+        },
+        "x68228": {
+            "level": 62,
+            "name_en": "Not Just Any Banquet",
+            "name_fr": "Plus qu'un simple banquet",
+            "npc_en": "Kaioke",
+            "npc_fr": "Kaioke",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68019"
+            ]
+        },
+        "x68229": {
+            "level": 62,
+            "name_en": "The Sword in the Stone",
+            "name_fr": "Sauter sans avoir l'air sot",
+            "unlock": "travel.aether-currents.sb.the-ruby-sea.11",
+            "npc_en": "Slender Kojin",
+            "npc_fr": "Kojin maigrichon",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68019"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.sb.the-ruby-sea.11"
+            ]
+        },
+        "x68230": {
+            "level": 62,
+            "name_en": "Unmeasured Strength",
+            "name_fr": "La pierre de force",
+            "npc_en": "Toro",
+            "npc_fr": "Toro",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68019"
+            ]
+        },
+        "x68231": {
+            "level": 62,
+            "name_en": "Treasure Cove",
+            "name_fr": "Esprit es-tu là?",
+            "npc_en": "Kefusan",
+            "npc_fr": "Kefusan",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68019"
+            ]
+        },
+        "x68232": {
+            "level": 62,
+            "name_en": "The Mysterious Assailant",
+            "name_fr": "Agression mystérieuse",
+            "npc_en": "Urokuzu",
+            "npc_fr": "Urokuzu",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68019"
+            ]
+        },
+        "x68233": {
+            "level": 63,
+            "name_en": "An Unforgettable Taste",
+            "name_fr": "Disponible à la grande surface",
+            "npc_en": "Seizau",
+            "npc_fr": "Seizau",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68021"
+            ]
+        },
+        "x68234": {
+            "level": 63,
+            "name_en": "The Bond between Brothers",
+            "name_fr": "Le grand frère",
+            "npc_en": "Mahiwa",
+            "npc_fr": "Mahiwa",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68021"
+            ]
+        },
+        "x68235": {
+            "level": 63,
+            "name_en": "The Core of Life",
+            "name_fr": "L'eau de survie",
+            "npc_en": "Mine",
+            "npc_fr": "Mine",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68021"
+            ]
+        },
+        "x68236": {
+            "level": 63,
+            "name_en": "All Good Deeds",
+            "name_fr": "Pour nos chers voisins",
+            "npc_en": "Kagero",
+            "npc_fr": "Kagero",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68021"
+            ]
+        },
+        "x68237": {
+            "level": 63,
+            "name_en": "Fear Her Almighty Waves",
+            "name_fr": "Les perles de la Mer de Rubis",
+            "npc_en": "Sapphire-haired Girl",
+            "npc_fr": "Ao Ra aux cheveux bleus",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68021",
+                68218
+            ]
+        },
+        "x68238": {
+            "level": 63,
+            "name_en": "The Fight for Survival",
+            "name_fr": "Des créatures briseuses d'avenir",
+            "npc_en": "Mozu",
+            "npc_fr": "Mozu",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68021"
+            ]
+        },
+        "x68239": {
+            "level": 63,
+            "name_en": "A Daughter's Love",
+            "name_fr": "Un talisman de corail",
+            "npc_en": "Sayo",
+            "npc_fr": "Sayo",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68021"
+            ]
+        },
+        "x68168": {
+            "level": 63,
+            "name_en": "The Palace of Lost Souls",
+            "name_fr": "Le Palais aux Marées troublées",
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.sb.1",
+                "travel.aether-currents.sb.the-ruby-sea.10"
+            ],
+            "npc_en": "Kurenai",
+            "npc_fr": "Kurenai",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68021"
+            ],
+            "cNext": [
+                68240
+            ],
+            "cSiblings": [
+                "travel.aether-currents.sb.the-ruby-sea.10"
+            ]
+        },
+        "x68240": {
+            "level": 63,
+            "name_en": "Fathoms Below",
+            "name_fr": "Seule la vérité compte",
+            "npc_en": "Kurenai",
+            "npc_fr": "Kurenai",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68021",
+                68168
+            ],
+            "cNext": [
+                68241
+            ]
+        },
+        "x68241": {
+            "level": 63,
+            "name_en": "A Part of Your World",
+            "name_fr": "Rendez-vous en terre inconnue",
+            "npc_en": "Kurenai",
+            "npc_fr": "Kurenai",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68021",
+                68240
+            ],
+            "cNext": [
+                68242
+            ]
+        },
+        "x68242": {
+            "level": 63,
+            "name_en": "The Elixir of Life",
+            "name_fr": "Pour vivre centenaire, vivons caché",
+            "npc_en": "Kurenai",
+            "npc_fr": "Kurenai",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68021",
+                68241
+            ],
+            "cNext": [
+                68243
+            ]
+        },
+        "x68243": {
+            "level": 63,
+            "name_en": "The Two Princesses of Sui–no–Sato",
+            "name_fr": "Qui est qui?",
+            "npc_en": "Kurenai",
+            "npc_fr": "Kurenai",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68021",
+                68242
+            ],
+            "cNext": [
+                "duty.quests.sidequests.hingan.kugane.68675"
+            ]
+        },
+        "x68244": {
+            "level": 63,
+            "name_en": "In Search of Treasure",
+            "name_fr": "La chasse aux trésors kojin",
+            "npc_en": "Affable Kojin",
+            "npc_fr": "Kojin sociable",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68023"
+            ]
+        },
+        "x68247": {
+            "level": 63,
+            "name_en": "A True Kojin of the Blue",
+            "name_fr": "Le bateau naufragé",
+            "npc_en": "Saikoro",
+            "npc_fr": "Saikoro",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68023"
+            ]
+        },
+        "x68245": {
+            "level": 63,
+            "name_en": "A Stroll along the Seabed",
+            "name_fr": "Promenade au fond des mers",
+            "npc_en": "Takotsubo",
+            "npc_fr": "Takotsubo",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68023"
+            ],
+            "cNext": [
+                68246
+            ]
+        },
+        "x68246": {
+            "level": 63,
+            "name_en": "Forgotten Saviors of the Sea",
+            "name_fr": "Nettoyage maritime",
+            "npc_en": "Takotsubo",
+            "npc_fr": "Takotsubo",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68023",
+                68245
+            ],
+            "cNext": [
+                68248
+            ]
+        },
+        "x68248": {
+            "level": 63,
+            "name_en": "Serpent Troubles",
+            "name_fr": "Indésirables ovipares",
+            "npc_en": "Takotsubo",
+            "npc_fr": "Takotsubo",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68023",
+                68246
+            ]
+        },
+        "x68249": {
+            "level": 63,
+            "name_en": "At the Mercy of Monsters",
+            "name_fr": "Les terreurs des plages",
+            "npc_en": "Abiki",
+            "npc_fr": "Abiki",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68026"
+            ]
+        },
+        "x68250": {
+            "level": 63,
+            "name_en": "A Dream to Remember",
+            "name_fr": "La rencontre rêvée",
+            "npc_en": "Kansui",
+            "npc_fr": "Kansui",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68026"
+            ]
+        },
+        "x68251": {
+            "level": 63,
+            "name_en": "Blessings of the Sea",
+            "name_fr": "La bénédiction des eaux",
+            "npc_en": "Motogoe",
+            "npc_fr": "Motogoe",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68026"
+            ]
+        },
+        "x68252": {
+            "level": 63,
+            "name_en": "In Health and in Sickness",
+            "name_fr": "Un bouillon salvateur",
+            "npc_en": "Misago",
+            "npc_fr": "Misago",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68026"
+            ]
+        },
+        "x68253": {
+            "level": 63,
+            "name_en": "Plunder on High",
+            "name_fr": "J'aurais voulu être un oiseau",
+            "npc_en": "Zansetsu",
+            "npc_fr": "Zansetsu",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68026"
+            ]
+        },
+        "x68254": {
+            "level": 63,
+            "name_en": "Sink or Swim",
+            "name_fr": "Pêcheurs de père en fils",
+            "npc_en": "Anxious Boy",
+            "npc_fr": "jeune garçon d'Isari",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68026"
+            ]
+        },
+        "x68255": {
+            "level": 63,
+            "name_en": "Thrice Cursed",
+            "name_fr": "La haine du pêché, l'amour du pêcheur",
+            "npc_en": "Veteran Fisherman",
+            "npc_fr": "vieux pêcheur expérimenté",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68026"
+            ],
+            "cNext": [
+                68256
+            ]
+        },
+        "x68256": {
+            "level": 63,
+            "name_en": "A Glimmer of Hope",
+            "name_fr": "Rêve sur la grève",
+            "npc_en": "Nayoshi",
+            "npc_fr": "Nayoshi",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68026",
+                68255
+            ],
+            "cNext": [
+                68257
+            ]
+        },
+        "x68257": {
+            "level": 63,
+            "name_en": "Rock Bottom",
+            "name_fr": "Lorsque tout part en fumée",
+            "npc_en": "Nayoshi",
+            "npc_fr": "Nayoshi",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68026",
+                68256
+            ],
+            "cNext": [
+                68258
+            ]
+        },
+        "x68258": {
+            "level": 63,
+            "name_en": "Passing the Torch",
+            "name_fr": "L'espoir renaît",
+            "npc_en": "Nayoshi",
+            "npc_fr": "Nayoshi",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68026",
+                68257
+            ],
+            "cNext": [
+                68259
+            ]
+        },
+        "x68259": {
+            "level": 63,
+            "name_en": "Up in Flames",
+            "name_fr": "Transmission de flambeau",
+            "npc_en": "Asari",
+            "npc_fr": "Asari",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68026",
+                68226,
+                68258
+            ]
+        }
+    }
+}

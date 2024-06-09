@@ -1,7 +1,8 @@
 import { Subject } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 
-import { Completion } from '@constant';
+import { Completion, Lang } from '@constant';
+import { Globals } from '@constant/Global';
 import { getContentLink } from '@model/Link/getContentLink';
 
 import { DataGroup } from '../';
@@ -11,12 +12,13 @@ import { initializeTasks } from './initializeTasks';
 import { initializeUi } from './initializeUi';
 
 export function createDataGroup(json, parent: DataGroup): DataGroup {
+    const lang = Globals.config.lang || Lang.EN;
     const updated$ = new Subject<void>();
     const id = `${json.key ?? -1}`;
 
     const group: DataGroup = {
         xivDataType: 'Group',
-        name: json.groupName,
+        name: json[`groupName_${lang}`],
         _key: json.key,
         _parent: parent,
         contentLink: '',

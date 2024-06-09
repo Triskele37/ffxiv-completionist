@@ -1,0 +1,510 @@
+{
+    "key": "rogue",
+    "groupName_en": "Rogue",
+    "groupName_fr": "Surineur",
+    "cCombo": [
+        "character.achievement.battle.battle.1051"
+    ],
+    "tasks": {
+        "x0": {
+            "rank": "1",
+            "name_en": "Rogue 01",
+            "name_fr": "Surineur 01",
+            "zone_en": "Middle La Noscea",
+            "zone_fr": "Noscea centrale",
+            "location": "(22, 22)",
+            "mob_en": "Wharf Rat x3",
+            "mob_fr": "Rat x3"
+        },
+        "x1": {
+            "rank": "1",
+            "name_en": "Rogue 02",
+            "name_fr": "Surineur 02",
+            "zone_en": "Middle La Noscea",
+            "zone_fr": "Noscea centrale",
+            "location": "(29, 21)",
+            "mob_en": "Lost Lamb x3",
+            "mob_fr": "Agneau égaré x3"
+        },
+        "x2": {
+            "rank": "1",
+            "name_en": "Rogue 03",
+            "name_fr": "Surineur 03",
+            "zone_en": "Lower La Noscea",
+            "zone_fr": "Basse-Noscea",
+            "location": "(25, 24)",
+            "mob_en": "Aurelia x3",
+            "mob_fr": "Aurélie x3"
+        },
+        "x3": {
+            "rank": "1",
+            "name_en": "Rogue 04",
+            "name_fr": "Surineur 04",
+            "zone_en": "Lower La Noscea",
+            "zone_fr": "Basse-Noscea",
+            "location": "(28, 20)",
+            "mob_en": "Wild Dodo x3",
+            "mob_fr": "Dodo x3"
+        },
+        "x4": {
+            "rank": "1",
+            "name_en": "Rogue 05",
+            "name_fr": "Surineur 05",
+            "zone_en": "Middle La Noscea",
+            "zone_fr": "Noscea centrale",
+            "location": "(23, 22), (23, 21)",
+            "mob_en": "Pugil x2, Goblin Fisher x1",
+            "mob_fr": "Pugil x2, Pêcheur gobelin x1"
+        },
+        "x5": {
+            "rank": "1",
+            "name_en": "Rogue 06",
+            "name_fr": "Surineur 06",
+            "zone_en": "Middle La Noscea",
+            "zone_fr": "Noscea centrale",
+            "location": "(22, 17)",
+            "mob_en": "Tiny Mandragora x3",
+            "mob_fr": "Mini-mandragore x3"
+        },
+        "x6": {
+            "rank": "1",
+            "name_en": "Rogue 07",
+            "name_fr": "Surineur 07",
+            "zone_en": "Lower La Noscea",
+            "zone_fr": "Basse-Noscea",
+            "location": "(26, 15)",
+            "mob_en": "Cave Bat x3",
+            "mob_fr": "Chauve-souris cavernicole x3"
+        },
+        "x7": {
+            "rank": "1",
+            "name_en": "Rogue 08",
+            "name_fr": "Surineur 08",
+            "zone_en": "Lower La Noscea",
+            "zone_fr": "Basse-Noscea",
+            "location": "(30, 14)",
+            "mob_en": "Galago x3",
+            "mob_fr": "Galago x3"
+        },
+        "x8": {
+            "rank": "1",
+            "name_en": "Rogue 09",
+            "name_fr": "Surineur 09",
+            "zone_en": "Middle La Noscea",
+            "zone_fr": "Noscea centrale",
+            "location": "(19, 17)",
+            "mob_en": "Grounded Pirate x1, Grounded Raider x1",
+            "mob_fr": "Pirate échoué x1, Maraudeur échoué x1"
+        },
+        "x9": {
+            "rank": "1",
+            "name_en": "Rogue 10",
+            "name_fr": "Surineur 10",
+            "zone_en": "Middle La Noscea",
+            "zone_fr": "Noscea centrale",
+            "location": "(16, 14)",
+            "mob_en": "Megalocrab x3",
+            "mob_fr": "Mégalocrabe x3"
+        },
+        "x10": {
+            "rank": "2",
+            "name_en": "Rogue 11",
+            "name_fr": "Surineur 11",
+            "zone_en": "Lower La Noscea",
+            "zone_fr": "Basse-Noscea",
+            "location": "(21, 35)",
+            "mob_en": "Wild Jackal x3",
+            "mob_fr": "Chacal sauvage x3"
+        },
+        "x11": {
+            "rank": "2",
+            "name_en": "Rogue 12",
+            "name_fr": "Surineur 12",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidentale",
+            "location": "(35, 30), (33, 28)",
+            "mob_en": "Roseling x1, Sewer Mole x2",
+            "mob_fr": "Callisia x1, Taupe d'égout x2"
+        },
+        "x12": {
+            "rank": "2",
+            "name_en": "Rogue 13",
+            "name_fr": "Surineur 13",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidentale",
+            "location": "(32, 28)",
+            "mob_en": "Fat Dodo x3",
+            "mob_fr": "Dodo dodu x3"
+        },
+        "x13": {
+            "rank": "2",
+            "name_en": "Rogue 14",
+            "name_fr": "Surineur 14",
+            "zone_en": "Lower La Noscea",
+            "zone_fr": "Basse-Noscea",
+            "location": "(21, 34)",
+            "mob_en": "Moraby Mole x3",
+            "mob_fr": "Taupe de Moraby x3"
+        },
+        "x14": {
+            "rank": "2",
+            "name_en": "Rogue 15",
+            "name_fr": "Surineur 15",
+            "zone_en": "Lower La Noscea",
+            "zone_fr": "Basse-Noscea",
+            "location": "(18, 35)",
+            "mob_en": "Qiqirn Eggdigger x3",
+            "mob_fr": "Qiqirn déterre-œuf x3"
+        },
+        "x15": {
+            "rank": "2",
+            "name_en": "Rogue 16",
+            "name_fr": "Surineur 16",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidentale",
+            "location": "(27, 24)",
+            "mob_en": "Puk Hatchling x3",
+            "mob_fr": "Puk x3"
+        },
+        "x16": {
+            "rank": "2",
+            "name_en": "Rogue 17",
+            "name_fr": "Surineur 17",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidentale",
+            "location": "(24, 22)",
+            "mob_en": "Rothlyt Pelican x3",
+            "mob_fr": "Pélican de Rothlyt x3"
+        },
+        "x17": {
+            "rank": "2",
+            "name_en": "Rogue 18",
+            "name_fr": "Surineur 18",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidentale",
+            "location": "(23, 21), (25, 23)",
+            "mob_en": "Killer Mantis x2, Hedgemole x1",
+            "mob_fr": "Mante tueuse x2, Héritaupe x1"
+        },
+        "x18": {
+            "rank": "2",
+            "name_en": "Rogue 19",
+            "name_fr": "Surineur 19",
+            "zone_en": "Upper La Noscea",
+            "zone_fr": "Haute-Noscea",
+            "location": "(13, 25)",
+            "mob_en": "Wild Wolf x3",
+            "mob_fr": "Loup sauvage x3"
+        },
+        "x19": {
+            "rank": "2",
+            "name_en": "Rogue 20",
+            "name_fr": "Surineur 20",
+            "zone_en": "Upper La Noscea",
+            "zone_fr": "Haute-Noscea",
+            "location": "(13, 25)",
+            "mob_en": "Bumble Beetle x3",
+            "mob_fr": "Scarabourdon x3"
+        },
+        "x20": {
+            "rank": "3",
+            "name_en": "Rogue 21",
+            "name_fr": "Surineur 21",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(16, 21)",
+            "mob_en": "Black Bat x3",
+            "mob_fr": "Chauve-souris noire x3"
+        },
+        "x21": {
+            "rank": "3",
+            "name_en": "Rogue 22",
+            "name_fr": "Surineur 22",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(23, 30)",
+            "mob_en": "Gall Gnat x3",
+            "mob_fr": "Taon galeux x3"
+        },
+        "x22": {
+            "rank": "3",
+            "name_en": "Rogue 23",
+            "name_fr": "Surineur 23",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(23, 29)",
+            "mob_en": "Overgrown Ivy x3",
+            "mob_fr": "Lierre envahissant x3"
+        },
+        "x23": {
+            "rank": "3",
+            "name_en": "Rogue 24",
+            "name_fr": "Surineur 24",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(19, 22)",
+            "mob_en": "Bark Eft x3",
+            "mob_fr": "Triton noir x3"
+        },
+        "x24": {
+            "rank": "3",
+            "name_en": "Rogue 25",
+            "name_fr": "Surineur 25",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(16, 22), (15, 22)",
+            "mob_en": "Redbelly Larcener x2, Redbelly Lookout x1",
+            "mob_fr": "Vide-gousset Ventrerouge x2, Guetteur Ventrerouge x2"
+        },
+        "x25": {
+            "rank": "3",
+            "name_en": "Rogue 26",
+            "name_fr": "Surineur 26",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(23, 20)",
+            "mob_en": "Antelope Stag x3",
+            "mob_fr": "Antilope cerf x3"
+        },
+        "x26": {
+            "rank": "3",
+            "name_en": "Rogue 27",
+            "name_fr": "Surineur 27",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(24, 21)",
+            "mob_en": "River Yarzon x3",
+            "mob_fr": "Yarzon des rivières x3"
+        },
+        "x27": {
+            "rank": "3",
+            "name_en": "Rogue 28",
+            "name_fr": "Surineur 28",
+            "zone_en": "Southern Thanalan",
+            "zone_fr": "Thanalan méridional",
+            "location": "(22, 8), (22, 11)",
+            "mob_en": "Corpse Brigade Knuckledancer x2, Corpse Brigade Firedancer x2",
+            "mob_fr": "Lutteur de la brigade des Cadavres x2, Sorcier de la brigade des Cadavres x2"
+        },
+        "x28": {
+            "rank": "3",
+            "name_en": "Rogue 29",
+            "name_fr": "Surineur 29",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(28, 21)",
+            "mob_en": "Coeurlclaw Cutter x2, Coeurlclaw Hunter x2",
+            "mob_fr": "Trancheuse Griffecoeurl x2, Chasseresse Griffecoeurl x2"
+        },
+        "x29": {
+            "rank": "3",
+            "name_en": "Rogue 30",
+            "name_fr": "Surineur 30",
+            "zone_en": "Southern Thanalan",
+            "zone_fr": "Thanalan méridional",
+            "location": "(22, 12)",
+            "mob_en": "Sandstone Golem x2",
+            "mob_fr": "Golem de grès x3"
+        },
+        "x30": {
+            "rank": "4",
+            "name_en": "Rogue 31",
+            "name_fr": "Surineur 31",
+            "zone_en": "Eastern La Noscea",
+            "zone_fr": "Noscea orientale",
+            "location": "(28, 32)",
+            "mob_en": "Large Buffalo x3",
+            "mob_fr": "Bufle x3"
+        },
+        "x31": {
+            "rank": "4",
+            "name_en": "Rogue 32",
+            "name_fr": "Surineur 32",
+            "zone_en": "Eastern La Noscea",
+            "zone_fr": "Noscea orientale",
+            "location": "(16, 26)",
+            "mob_en": "Grass Raptor x3",
+            "mob_fr": "Raptor des plaines x3"
+        },
+        "x32": {
+            "rank": "4",
+            "name_en": "Rogue 33",
+            "name_fr": "Surineur 33",
+            "zone_en": "Eastern La Noscea",
+            "zone_fr": "Noscea orientale",
+            "location": "(26, 32), (29, 24)",
+            "mob_en": "Qiqirn Gullroaster x2, Colibri x2",
+            "mob_fr": "Qiqirn grille-mouette x2, Colibri x2"
+        },
+        "x33": {
+            "rank": "4",
+            "name_en": "Rogue 34",
+            "name_fr": "Surineur 34",
+            "zone_en": "Outer La Noscea",
+            "zone_fr": "Noscea extérieure",
+            "location": "(14, 14), (17, 16)",
+            "mob_en": "Coeurl x1, Highland Condor x2",
+            "mob_fr": "Coeurl x1, Condor des hautes terres x2"
+        },
+        "x34": {
+            "rank": "4",
+            "name_en": "Rogue 35",
+            "name_fr": "Surineur 35",
+            "zone_en": "Outer La Noscea",
+            "zone_fr": "Noscea extérieure",
+            "location": "(15, 16)",
+            "mob_en": "Basalt Golem x3",
+            "mob_fr": "Golem de basalte x3"
+        },
+        "x35": {
+            "rank": "4",
+            "name_en": "Rogue 36",
+            "name_fr": "Surineur 36",
+            "zone_en": "Outer La Noscea",
+            "zone_fr": "Noscea extérieure",
+            "location": "(20, 15)",
+            "mob_en": "Velociraptor x4",
+            "mob_fr": "Velociraptor x4"
+        },
+        "x36": {
+            "rank": "4",
+            "name_en": "Rogue 37",
+            "name_fr": "Surineur 37",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas central",
+            "location": "(24, 20), (26, 24)",
+            "mob_en": "Highland Goobbue x2, Feral Croc x2",
+            "mob_fr": "Goobue des hautes terres x2, Crocodile sauvage x2"
+        },
+        "x37": {
+            "rank": "4",
+            "name_en": "Rogue 38",
+            "name_fr": "Surineur 38",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas central",
+            "location": "(29, 11)",
+            "mob_en": "Redhorn Ogre x3",
+            "mob_fr": "Ogre corne-rouge x3"
+        },
+        "x38": {
+            "rank": "4",
+            "name_en": "Rogue 39",
+            "name_fr": "Surineur 39",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas central",
+            "location": "(32, 12)",
+            "mob_en": "Taurus x3",
+            "mob_fr": "Taurus x3"
+        },
+        "x39": {
+            "rank": "4",
+            "name_en": "Rogue 40",
+            "name_fr": "Surineur 40",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas central",
+            "location": "(18, 16)",
+            "mob_en": "Chinchilla x2, Bateleur x2",
+            "mob_fr": "Chinchilla x2, Bateleur des dunes x2"
+        },
+        "x40": {
+            "rank": "5",
+            "name_en": "Rogue 41",
+            "name_fr": "Surineur 41",
+            "zone_en": "Eastern Thanalan",
+            "zone_fr": "Thanalan oriental",
+            "location": "(25, 24)",
+            "mob_en": "Golden Fleece x4",
+            "mob_fr": "Toison d'or x4"
+        },
+        "x41": {
+            "rank": "5",
+            "name_en": "Rogue 42",
+            "name_fr": "Surineur 42",
+            "zone_en": "Eastern Thanalan",
+            "zone_fr": "Thanalan oriental",
+            "location": "(29, 26)",
+            "mob_en": "Quartz Doblyn x4",
+            "mob_fr": "Doblyn de quartz x4"
+        },
+        "x42": {
+            "rank": "5",
+            "name_en": "Rogue 43",
+            "name_fr": "Surineur 43",
+            "zone_en": "Mor Dhona",
+            "zone_fr": "Mor Dhona",
+            "location": "(18, 8)",
+            "mob_en": "Nix x4",
+            "mob_fr": "Nix x4"
+        },
+        "x43": {
+            "rank": "5",
+            "name_en": "Rogue 44",
+            "name_fr": "Surineur 44",
+            "zone_en": "Mor Dhona",
+            "zone_fr": "Mor Dhona",
+            "location": "(13, 10)",
+            "mob_en": "Mudpuppy x4",
+            "mob_fr": "Protée x4"
+        },
+        "x44": {
+            "rank": "5",
+            "name_en": "Rogue 45",
+            "name_fr": "Surineur 45",
+            "zone_en": "Mor Dhona",
+            "zone_fr": "Mor Dhona",
+            "location": "(16, 15)",
+            "mob_en": "Daring Harrier x2, Raging Harrier x2",
+            "mob_fr": "Harceleur casse-cou x2, Harceleur enragé x2"
+        },
+        "x45": {
+            "rank": "5",
+            "name_en": "Rogue 46",
+            "name_fr": "Surineur 46",
+            "zone_en": "Mor Dhona",
+            "zone_fr": "Mor Dhona",
+            "location": "(28, 12), (28, 13)",
+            "mob_en": "Gigas Shramana x2, Gigas Sozu x2",
+            "mob_fr": "Gigas Shramana x2, Gigas sôzu x2"
+        },
+        "x46": {
+            "rank": "5",
+            "name_en": "Rogue 47",
+            "name_fr": "Surineur 47",
+            "zone_en": "Mor Dhona",
+            "zone_fr": "Mor Dhona",
+            "location": "(32, 8)",
+            "mob_en": "Hippogryph x4",
+            "mob_fr": "Hippogriffe x4"
+        },
+        "x47": {
+            "rank": "5",
+            "name_en": "Rogue 48",
+            "name_fr": "Surineur 48",
+            "zone_en": "Mor Dhona",
+            "zone_fr": "Mor Dhona",
+            "location": "(30, 5)",
+            "mob_en": "Hapalit x4",
+            "mob_fr": "Hapalit x4"
+        },
+        "x48": {
+            "rank": "5",
+            "name_en": "Rogue 49",
+            "name_fr": "Surineur 49",
+            "zone_en": "Eastern La Noscea",
+            "zone_fr": "Noscea orientale",
+            "location": "(28, 20), (25, 21)",
+            "mob_en": "2nd Cohort Eques x5, 2nd Cohort Signifer x2",
+            "mob_fr": "Eques de la 2e cohorte x5, Signifer de la 2e cohorte x2"
+        },
+        "x49": {
+            "rank": "5",
+            "name_en": "Rogue 50",
+            "name_fr": "Surineur 50",
+            "zone_en": "Eastern La Noscea",
+            "zone_fr": "Noscea orientale",
+            "location": "(30, 19), (30, 20)",
+            "mob_en": "2nd Cohort Secutor x2, 2nd Cohort Vanguard x4",
+            "mob_fr": "Secutor de la 2e cohorte x2, Avant-garde de la 2e cohorte x4"
+        }
+    }
+}

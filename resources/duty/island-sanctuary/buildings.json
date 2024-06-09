@@ -1,0 +1,193 @@
+{
+    "key": "buildings",
+    "groupName_en": "Buildings",
+    "groupName_fr": "Installations",
+    "headers": {
+        "name": {
+            "header_en": "Item",
+            "header_fr": "Objet"
+        },
+        "requires": {
+            "link": true,
+            "header_en": "Requires",
+            "header_fr": "Nécessite"
+        },
+        "unlocks": {
+            "link": true,
+            "header_en": "Unlocks",
+            "header_fr": "Débloque"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Cozy Cabin I",
+            "name_fr": "Hutte placide I",
+            "unlocks": [
+                "duty.island-sanctuary.buildings.3",
+                "duty.island-sanctuary.buildings.7"
+            ],
+            "requires": "duty.island-sanctuary.rank.0"
+        },
+        "x1": {
+            "name_en": "Cozy Cabin II",
+            "name_fr": "Hutte placide II",
+            "unlocks": [
+                "duty.island-sanctuary.buildings.4",
+                "duty.island-sanctuary.buildings.8"
+            ],
+            "requires": "duty.island-sanctuary.rank.3"
+        },
+        "x2": {
+            "name_en": "Cozy Cabin III",
+            "name_fr": "Hutte placide III",
+            "unlocks": [
+                "duty.island-sanctuary.buildings.5",
+                "duty.island-sanctuary.buildings.9"
+            ],
+            "requires": "duty.island-sanctuary.rank.6"
+        },
+        "x3": {
+            "name_en": "Cropland I",
+            "name_fr": "Terre arable I",
+            "unlocks_en": "+5 Plots",
+            "unlocks_fr": "+5 Parcelles",
+            "requires": "duty.island-sanctuary.rank.1"
+        },
+        "x4": {
+            "name_en": "Cropland II",
+            "name_fr": "Terre arable II",
+            "unlocks_en": "+5 Plots",
+            "unlocks_fr": "+5 Parcelles",
+            "requires": "duty.island-sanctuary.rank.3"
+        },
+        "x5": {
+            "name_en": "Cropland III",
+            "name_fr": "Terre arable III",
+            "unlocks_en": "+10 Plots",
+            "unlocks_fr": "+10 Parcelles",
+            "requires": "duty.island-sanctuary.rank.6"
+        },
+        "x6": {
+            "name_en": "Cropland Automation",
+            "name_fr": "Automatisation des champs",
+            "requires": "duty.island-sanctuary.buildings.5"
+        },
+        "x7": {
+            "name_en": "Pasture I",
+            "name_fr": "Pâturage I",
+            "unlocks_en": "+5 Animal Slots",
+            "unlocks_fr": "+5 Animaux",
+            "requires": "duty.island-sanctuary.rank.1"
+        },
+        "x8": {
+            "name_en": "Pasture II",
+            "name_fr": "Pâturage II",
+            "unlocks_en": "+5 Animal Slots",
+            "unlocks_fr": "+5 Animaux",
+            "requires": "duty.island-sanctuary.rank.3"
+        },
+        "x9": {
+            "name_en": "Pasture III",
+            "name_fr": "Pâturage III",
+            "unlocks_en": "+10 Animal Slots",
+            "unlocks_fr": "+10 Animaux",
+            "requires": "duty.island-sanctuary.rank.6"
+        },
+        "x10": {
+            "name_en": "Pasture Automation",
+            "name_fr": "Automatisation du pâturage",
+            "requires": "duty.island-sanctuary.buildings.9"
+        },
+        "x11": {
+            "name_en": "Granary I",
+            "name_fr": "Grange I",
+            "unlocks_en": "+2 rare items per expedition",
+            "unlocks_fr": "+2 Objets rares par expédition",
+            "requires": "duty.island-sanctuary.rank.4",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 2
+        },
+        "x12": {
+            "name_en": "Granary II",
+            "name_fr": "Grange II",
+            "unlocks_en": "+1 rare items per expedition",
+            "unlocks_fr": "+1 Objets rares par expédition",
+            "requires": "duty.island-sanctuary.rank.5",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 2
+        },
+        "x13": {
+            "name_en": "Granary III",
+            "name_fr": "Grange III",
+            "unlocks_en": "+1 rare items per expedition",
+            "unlocks_fr": "+1 Objets rares par expédition",
+            "requires": "duty.island-sanctuary.rank.7",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 2
+        },
+        "x14": {
+            "name_en": "Workshop I",
+            "name_fr": "Fabrique I",
+            "requires": "duty.island-sanctuary.rank.2",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 3
+        },
+        "x15": {
+            "name_en": "Workshop II",
+            "name_fr": "Fabrique II",
+            "unlocks_en": "10% Craft Profit",
+            "unlocks_fr": "10% Profit des ventes",
+            "requires": "duty.island-sanctuary.rank.5",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 3
+        },
+        "x16": {
+            "name_en": "Workshop III",
+            "name_fr": "Fabrique III",
+            "unlocks_en": "20% Craft Profit",
+            "unlocks_fr": "20% Profit des ventes",
+            "requires": "duty.island-sanctuary.rank.7",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 3
+        },
+        "x17": {
+            "name_en": "Quixotic Windmill",
+            "name_fr": "Moulin",
+            "unlocks_en": "+5 Max Groove",
+            "unlocks_fr": "+5 Enthousiasme max",
+            "requires": "duty.island-sanctuary.rank.2"
+        },
+        "x18": {
+            "name_en": "Towering Tree Fort",
+            "name_fr": "Cabane forestière",
+            "unlocks_en": "+5 Max Groove",
+            "unlocks_fr": "+5 Enthousiasme max",
+            "requires": "duty.island-sanctuary.rank.2"
+        },
+        "x19": {
+            "name_en": "Boiling Bathhouse",
+            "name_fr": "Sources thermales",
+            "unlocks_en": "+5 Max Groove",
+            "unlocks_fr": "+5 Enthousiasme max",
+            "requires": "duty.island-sanctuary.rank.4"
+        },
+        "x20": {
+            "name_en": "Lominsan Lighthouse",
+            "name_fr": "Phare",
+            "unlocks_en": "+10 Max Groove",
+            "unlocks_fr": "+10 Enthousiasme max",
+            "requires": "duty.island-sanctuary.rank.8"
+        },
+        "x21": {
+            "name_en": "Water Otter Fountain",
+            "name_fr": "Fontaine ressourçante",
+            "requires": "duty.island-sanctuary.rank.8"
+        }
+    }
+}

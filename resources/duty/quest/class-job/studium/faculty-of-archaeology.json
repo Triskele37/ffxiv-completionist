@@ -1,0 +1,101 @@
+{
+    "key": "faculty-of-archaeology",
+    "groupName_en": "Faculty of Archaeology",
+    "groupName_fr": "Quêtes du département d'archéologie",
+    "tasks": {
+        "x69668": {
+            "level": 80,
+            "name_en": "Professor Rurusha's New Friend",
+            "name_fr": "La petite relique du professeur Rurusha",
+            "npc_en": "Boric",
+            "npc_fr": "Boric",
+            "cPrev": [
+                "duty.quests.class--job.studium.70009"
+            ],
+            "cNext": [
+                69669
+            ]
+        },
+        "x69669": {
+            "level": 80,
+            "name_en": "The Dormant Dhyata",
+            "name_fr": "La relique au bois dormant",
+            "npc_en": "Rurusha",
+            "npc_fr": "Rurusha",
+            "cPrev": [
+                69668
+            ],
+            "cNext": [
+                69670
+            ]
+        },
+        "x69670": {
+            "level": 83,
+            "name_en": "Gears of Gold",
+            "name_fr": "Rouages et engrenages",
+            "npc_en": "Rurusha",
+            "npc_fr": "Rurusha",
+            "cPrev": [
+                69669
+            ],
+            "cNext": [
+                69671
+            ]
+        },
+        "x69671": {
+            "level": 85,
+            "name_en": "Rubbished Research",
+            "name_fr": "Le fond des fonds",
+            "npc_en": "Rurusha",
+            "npc_fr": "Rurusha",
+            "cPrev": [
+                69670
+            ],
+            "cNext": [
+                69672
+            ]
+        },
+        "x69672": {
+            "level": 85,
+            "name_en": "Boric's Choice",
+            "name_fr": "Un assistant inquiet",
+            "npc_en": "Rurusha",
+            "npc_fr": "Rurusha",
+            "cPrev": [
+                69671
+            ],
+            "cNext": [
+                69673
+            ]
+        },
+        "x69673": {
+            "level": 88,
+            "name_en": "A Friend in Need",
+            "name_fr": "La convocation de Rurusha",
+            "npc_en": "Rurusha",
+            "npc_fr": "Rurusha",
+            "cPrev": [
+                69672
+            ],
+            "cNext": [
+                69674
+            ]
+        },
+        "x69674": {
+            "level": 90,
+            "name_en": "Wayback Machine",
+            "name_fr": "Discussion ancestrale",
+            "npc_en": "Rurusha",
+            "npc_fr": "Rurusha",
+            "cPrev": [
+                69673
+            ],
+            "cNext": [
+                "duty.quests.class--job.studium.70010"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.2966"
+            ]
+        }
+    }
+}

@@ -1,4 +1,4 @@
-import { ipcMain } from 'electron';
+import { ipcMain, IpcMainEvent } from 'electron';
 import * as fs from 'fs';
 
 import { ConfigStore } from '../store/ConfigStore';
@@ -23,19 +23,32 @@ export function initActions() {
     ipcMain.on('backup-save', PlayerStore.backup);
     ipcMain.on('load-backup-save', PlayerStore.loadBackup);
 
-    ipcMain.on('load-json', (event, path) => {
-        try {
-            event.returnValue = JSON.parse(fs.readFileSync(path, 'utf8'));
-        }
-        catch(e) {
-            console.error(e);
-            event.returnValue = null;
-        }
-    });
+    ipcMain.on('load-json', loadJson);
 
     ipcMain.on('search-console-games', Remote.searchConsoleGamer);
     ipcMain.on('search-gamer-escape', Remote.searchGamerEscape);
     ipcMain.on('search-garland-tools', Remote.searchGarlandTools);
     ipcMain.on('open-in-garland-tools', Remote.openInGarlandTools);
     ipcMain.on('open-in-teamcraft', Remote.openInTeamcraft);
+}
+
+function loadJson(event: IpcMainEvent, groupPath: string): void {
+    try {
+        if(fs.existsSync(groupPath)) {
+            // Directory exists matching 'path', must be _index
+            const path = groupPath + '\\_index.json';
+            const file = fs.readFileSync(path, 'utf8');
+            event.returnValue = JSON.parse(file);
+        }
+        else {
+            // Directory does not exist matching path, group named json
+            const path = groupPath + '.json';
+            const file = fs.readFileSync(path, 'utf8');
+            event.returnValue = JSON.parse(file);
+        }
+    }
+    catch(e) {
+        console.error('load-json failed:', e);
+        event.returnValue = null;
+    }
 }

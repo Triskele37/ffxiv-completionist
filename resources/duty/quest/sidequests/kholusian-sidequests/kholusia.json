@@ -1,0 +1,497 @@
+{
+    "key": "kholusia",
+    "groupName_en": "Kholusia",
+    "groupName_fr": "Kholusia",
+    "tasks": {
+        "x68885": {
+            "level": 70,
+            "name_en": "Before the Tide Comes",
+            "name_fr": "Souvenirs échoués",
+            "npc_en": "Forlorn Fisherman",
+            "npc_fr": "pêcheur à l'air chagrin",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68819"
+            ]
+        },
+        "x68886": {
+            "level": 70,
+            "name_en": "Retaking Territory",
+            "name_fr": "Luttes territoriales",
+            "npc_en": "Catty",
+            "npc_fr": "Catty",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68819"
+            ]
+        },
+        "x68887": {
+            "level": 70,
+            "name_en": "A Clam to Die For",
+            "name_fr": "Pour l'amour des fruits de mer",
+            "npc_en": "Strong-willed Wife",
+            "npc_fr": "femme à forte personnalité",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68819"
+            ]
+        },
+        "x68888": {
+            "level": 70,
+            "name_en": "A Meating Long Overdue",
+            "name_fr": "La viande, il n'y a que ça de vrai",
+            "npc_en": "Unfulfilled Forager",
+            "npc_fr": "homme un peu crasseux",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68820"
+            ]
+        },
+        "x68889": {
+            "level": 70,
+            "name_en": "Redolent Refuse",
+            "name_fr": "Un parfum qui change la vie",
+            "npc_en": "Tio-Reeq",
+            "npc_fr": "Tio-Reeq",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68820"
+            ]
+        },
+        "x68890": {
+            "level": 70,
+            "name_en": "A Feeling in the Belly",
+            "name_fr": "Des soins pour tous",
+            "npc_en": "Worried Waif",
+            "npc_fr": "jeune fille indigente",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68820"
+            ]
+        },
+        "x68891": {
+            "level": 70,
+            "name_en": "Songstress of the Sea",
+            "name_fr": "La diva des mers",
+            "npc_en": "Aspiring Songstress",
+            "npc_fr": "graine de prima donna",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68820"
+            ]
+        },
+        "x68892": {
+            "level": 70,
+            "name_en": "Witch of the Sea",
+            "name_fr": "La sorcière des mers",
+            "npc_en": "Forthright Farmer",
+            "npc_fr": "fermier consciencieux",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68821"
+            ]
+        },
+        "x68893": {
+            "level": 70,
+            "name_en": "Following the Grain",
+            "name_fr": "Mauvaise graine",
+            "npc_en": "Hastelot",
+            "npc_fr": "Hastelot",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68821"
+            ]
+        },
+        "x68894": {
+            "level": 70,
+            "name_en": "Bridge to the Other Side",
+            "name_fr": "Les amants du vieux pont",
+            "npc_en": "Moa-Mosch",
+            "npc_fr": "Moa-Mosch",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68821"
+            ]
+        },
+        "x68895": {
+            "level": 70,
+            "name_en": "A Drop of Sunshine",
+            "name_fr": "L'ale ou l'orge, il faut choisir",
+            "npc_en": "Bonded Servant",
+            "npc_fr": "majordome maniéré",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68821"
+            ]
+        },
+        "x68907": {
+            "level": 70,
+            "name_en": "Village of Woe",
+            "name_fr": "Un village meurtri",
+            "unlock": "travel.aether-currents.shb.kholusia.12",
+            "npc_en": "Eueliss",
+            "npc_fr": "Eueliss",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68821"
+            ],
+            "cNext": [
+                68908
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.kholusia.12"
+            ]
+        },
+        "x68908": {
+            "level": 70,
+            "name_en": "Talos, Interrupted",
+            "name_fr": "Le talos égaré",
+            "npc_en": "Eueliss",
+            "npc_fr": "Eueliss",
+            "cPrev": [
+                68907
+            ],
+            "cNext": [
+                68909
+            ]
+        },
+        "x68909": {
+            "level": 70,
+            "name_en": "The Cape in Bloom",
+            "name_fr": "Les fleurs du cap",
+            "npc_en": "Eueliss",
+            "npc_fr": "Eueliss",
+            "cPrev": [
+                68908
+            ],
+            "cNext": [
+                68910
+            ]
+        },
+        "x68910": {
+            "level": 70,
+            "name_en": "Wright for the Job",
+            "name_fr": "Les champs de l'espoir",
+            "npc_en": "Eueliss",
+            "npc_fr": "Eueliss",
+            "cPrev": [
+                68909
+            ],
+            "cNext": [
+                69096
+            ]
+        },
+        "x68896": {
+            "level": 70,
+            "name_en": "A Plankless Task",
+            "name_fr": "Parfois construire, parfois détruire",
+            "unlock": "travel.aether-currents.shb.kholusia.10",
+            "npc_en": "Thenoise",
+            "npc_fr": "Thenoise",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68821"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.kholusia.10"
+            ]
+        },
+        "x69080": {
+            "level": 70,
+            "name_en": "Good, Honest Dirt",
+            "name_fr": "Planter pour rêver",
+            "npc_en": "Sylgran",
+            "npc_fr": "Sylgran",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69170"
+            ]
+        },
+        "x69081": {
+            "level": 70,
+            "name_en": "Sisterly Concern",
+            "name_fr": "Le souci d'une amie, la peur d'une sœur",
+            "npc_en": "Restless Hunter",
+            "npc_fr": "femme aux allures de chasseuse",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69170"
+            ]
+        },
+        "x69079": {
+            "level": 70,
+            "name_en": "Supplying Estimates",
+            "name_fr": "Veiller aux grains",
+            "npc_en": "Grawley",
+            "npc_fr": "Grawley",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69170"
+            ],
+            "cNext": [
+                69074
+            ]
+        },
+        "x69074": {
+            "level": 70,
+            "name_en": "Hobgob Smacker",
+            "name_fr": "Sus aux hobgobelins",
+            "npc_en": "Grawley",
+            "npc_fr": "Grawley",
+            "cPrev": [
+                69079,
+                "duty.quests.main-scenario.shadowbringers.69176"
+            ]
+        },
+        "x69076": {
+            "level": 70,
+            "name_en": "Timber for the Taking",
+            "name_fr": "Du bois pour Amistie",
+            "npc_en": "Jaimbert",
+            "npc_fr": "Jaimbert",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69176"
+            ]
+        },
+        "x69078": {
+            "level": 70,
+            "name_en": "Fresh Off the Wing",
+            "name_fr": "Les ailes protectrices",
+            "npc_en": "Bie-Zumm",
+            "npc_fr": "Bie-Zumm",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69176"
+            ]
+        },
+        "x69073": {
+            "level": 70,
+            "name_en": "Fugitive of Fear",
+            "name_fr": "Les évadées",
+            "unlock": "travel.aether-currents.shb.kholusia.11",
+            "npc_en": "Zumie-Shai",
+            "npc_fr": "Zumie-Shai",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69176"
+            ],
+            "cNext": [
+                69077
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.kholusia.11"
+            ]
+        },
+        "x69077": {
+            "level": 70,
+            "name_en": "Rising to Her Apology",
+            "name_fr": "Quand le voile se lève",
+            "npc_en": "Well-dressed Noblewoman",
+            "npc_fr": "Eulmorienne élégante",
+            "cPrev": [
+                69073
+            ]
+        },
+        "x69075": {
+            "level": 70,
+            "name_en": "Small Nuisances",
+            "name_fr": "Gêné par les Gogg",
+            "npc_en": "Walmet",
+            "npc_fr": "Walmet",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69176"
+            ]
+        },
+        "x69082": {
+            "level": 70,
+            "name_en": "A Rocky Relationship",
+            "name_fr": "Une amitié dure comme pierre",
+            "npc_en": "Wild-looking Waif",
+            "npc_fr": "garçon audacieux",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69176"
+            ]
+        },
+        "x69083": {
+            "level": 70,
+            "name_en": "Too Sweet to Eat",
+            "name_fr": "Un filet trop mignon",
+            "npc_en": "Tholl Gourmand",
+            "npc_fr": "Nain gourmet",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69173"
+            ]
+        },
+        "x69084": {
+            "level": 70,
+            "name_en": "Killer on the Loose",
+            "name_fr": "Le soulèvement de la machine",
+            "npc_en": "Rakitt",
+            "npc_fr": "Rakitt",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69173"
+            ]
+        },
+        "x69085": {
+            "level": 70,
+            "name_en": "All for the Boom",
+            "name_fr": "Les explosifs, ça pète!",
+            "npc_en": "Giritt",
+            "npc_fr": "Giritt",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69173"
+            ]
+        },
+        "x69086": {
+            "level": 70,
+            "name_en": "Distract and Rescue",
+            "name_fr": "Opération sauvetage d'automate",
+            "npc_en": "Tholl Tinkerer",
+            "npc_fr": "Nain féru d'automates",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69173"
+            ]
+        },
+        "x69087": {
+            "level": 70,
+            "name_en": "Beneath the Beard",
+            "name_fr": "Le baume de Bomott",
+            "npc_en": "Bomott",
+            "npc_fr": "Bomott",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69173"
+            ]
+        },
+        "x69088": {
+            "level": 70,
+            "name_en": "Short on Courage",
+            "name_fr": "Un Nain qui a le béguin",
+            "npc_en": "Lovelorn Townsdwarf",
+            "npc_fr": "Nain embarrassé",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69173"
+            ]
+        },
+        "x69089": {
+            "level": 70,
+            "name_en": "Knocking the Knockers",
+            "name_fr": "Freiner les frappeurs faucheurs",
+            "npc_en": "Gratt",
+            "npc_fr": "Gratt",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69173"
+            ]
+        },
+        "x69090": {
+            "level": 70,
+            "name_en": "Goggeo and Tholliet",
+            "name_fr": "Goggméo et Tholliette",
+            "npc_en": "Concerned Townsdwarf",
+            "npc_fr": "Nain soucieux",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69173"
+            ]
+        },
+        "x69091": {
+            "level": 70,
+            "name_en": "With Ale Due Respect",
+            "name_fr": "En l'honneur de Zigutt",
+            "npc_en": "Riott",
+            "npc_fr": "Riott",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69173"
+            ]
+        },
+        "x69097": {
+            "level": 70,
+            "name_en": "Brew as the Tholl Do",
+            "name_fr": "La tradition du brassage",
+            "npc_en": "Xorutt",
+            "npc_fr": "Xorutt",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69173"
+            ],
+            "cNext": [
+                69098
+            ]
+        },
+        "x69098": {
+            "level": 70,
+            "name_en": "Bringing the Nibbles",
+            "name_fr": "L'accompagnement idéal de l'ale",
+            "npc_en": "Xorutt",
+            "npc_fr": "Xorutt",
+            "cPrev": [
+                69097
+            ],
+            "cNext": [
+                69099
+            ]
+        },
+        "x69099": {
+            "level": 70,
+            "name_en": "You Know the Words",
+            "name_fr": "Trinquer tous en cœur",
+            "npc_en": "Xorutt",
+            "npc_fr": "Xorutt",
+            "cPrev": [
+                69098
+            ]
+        },
+        "x69092": {
+            "level": 70,
+            "name_en": "A Disagreeable Dwarf",
+            "name_fr": "Parle à mon Nain",
+            "unlock": "travel.aether-currents.shb.kholusia.13",
+            "npc_en": "Beott",
+            "npc_fr": "Beott",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69173"
+            ],
+            "cNext": [
+                69093
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.kholusia.13"
+            ]
+        },
+        "x69093": {
+            "level": 70,
+            "name_en": "Almost a Friend",
+            "name_fr": "Échec et automates",
+            "npc_en": "Ronitt",
+            "npc_fr": "Ronitt",
+            "cPrev": [
+                69092
+            ],
+            "cNext": [
+                69094
+            ]
+        },
+        "x69094": {
+            "level": 70,
+            "name_en": "A Practiced Greeting",
+            "name_fr": "L'entraînement au lali-ho",
+            "npc_en": "Ronitt",
+            "npc_fr": "Ronitt",
+            "cPrev": [
+                69093
+            ],
+            "cNext": [
+                69095
+            ]
+        },
+        "x69095": {
+            "level": 70,
+            "name_en": "Learning to Lali-ho",
+            "name_fr": "Le nouveau Ronitt",
+            "npc_en": "Ronitt",
+            "npc_fr": "Ronitt",
+            "cPrev": [
+                69094
+            ],
+            "cNext": [
+                69096
+            ],
+            "cSiblings": [
+                "social.emotes.general.199"
+            ]
+        },
+        "x69096": {
+            "level": 70,
+            "name_en": "Ronitt to the Rescue",
+            "name_fr": "Un Nain à Cherpant",
+            "npc_en": "Ronitt",
+            "npc_fr": "Ronitt",
+            "cPrev": [
+                68910,
+                69095
+            ],
+            "cNext": [
+                "duty.quests.tribal-quests.dwarf.69432"
+            ]
+        }
+    }
+}

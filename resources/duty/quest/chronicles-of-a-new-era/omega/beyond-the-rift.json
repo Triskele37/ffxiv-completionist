@@ -1,0 +1,33 @@
+{
+    "key": "beyond-the-rift",
+    "groupName_en": "Beyond the Rift",
+    "groupName_fr": "Oméga - En quête de réponses",
+    "tasks": {
+        "x70122": {
+            "level": 90,
+            "name_en": "A Heartless Hypothesis",
+            "name_fr": "Voyage à cœur ouvert",
+            "patch": "6.15",
+            "npc_en": "Bespectacled Technician",
+            "npc_fr": "Bespectacled Technician",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.70000",
+                "duty.quests.chronicles-of-a-new-era.omega.68693"
+            ],
+            "cNext": [
+                70123
+            ]
+        },
+        "x70123": {
+            "level": 90,
+            "name_en": "Goodbye, ε̆│̆│Δ",
+            "name_fr": "∀∪ я∈vФiя, FIN?",
+            "patch": "6.15",
+            "npc_en": "Omega",
+            "npc_fr": "Omega",
+            "cPrev": [
+                70122
+            ]
+        }
+    }
+}

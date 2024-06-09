@@ -1,0 +1,205 @@
+{
+    "key": "ew",
+    "groupName_en": "EW",
+    "groupName_fr": "Endwalker",
+    "tasks": {
+        "x0": {
+            "name_en": "Labyrinthos 1",
+            "name_fr": "Le Labyrinthos 1",
+            "requirements_en": "Complete any FATE in Labyrinthos",
+            "requirements_fr": "Complétion de 1 ALÉA dans Le Labyrinthos",
+            "cNext": [
+                1
+            ]
+        },
+        "x1": {
+            "name_en": "Labyrinthos 2",
+            "name_fr": "Le Labyrinthos 2",
+            "requirements_en": "Complete 6 FATE in Labyrinthos",
+            "requirements_fr": "Complétion de 6 ALÉA dans Le Labyrinthos",
+            "cPrev": [
+                0
+            ],
+            "cNext": [
+                2
+            ]
+        },
+        "x2": {
+            "name_en": "Labyrinthos 3",
+            "name_fr": "Le Labyrinthos 3",
+            "requirements_en": "Complete 60 additional FATE in Labyrinthos",
+            "requirements_fr": "Complétion de 60 ALÉA dans Le Labyrinthos",
+            "cPrev": [
+                1
+            ],
+            "cSiblings": [
+                "character.achievement.battle.battle.3022"
+            ]
+        },
+        "x3": {
+            "name_en": "Thavnair 1",
+            "name_fr": "Thavnair 1",
+            "requirements_en": "Complete any FATE in Thavnair",
+            "requirements_fr": "Complétion de 1 ALÉA dans Thavnair",
+            "cNext": [
+                4
+            ]
+        },
+        "x4": {
+            "name_en": "Thavnair 2",
+            "name_fr": "Thavnair 2",
+            "requirements_en": "Complete 6 FATE in Thavnair",
+            "requirements_fr": "Complétion de 6 ALÉA dans Thavnair",
+            "cPrev": [
+                3
+            ],
+            "cNext": [
+                5
+            ]
+        },
+        "x5": {
+            "name_en": "Thavnair 3",
+            "name_fr": "Thavnair 3",
+            "requirements_en": "Complete 60 additional FATE in Thavnair",
+            "requirements_fr": "Complétion de 60 ALÉA dans Thavnair",
+            "cPrev": [
+                4
+            ],
+            "cSiblings": [
+                "character.achievement.battle.battle.3023"
+            ]
+        },
+        "x6": {
+            "name_en": "Garlemald 1",
+            "name_fr": "Garlemald 1",
+            "requirements_en": "Complete any FATE in Garlemald",
+            "requirements_fr": "Complétion de 1 ALÉA dans Garlemald",
+            "cNext": [
+                7
+            ]
+        },
+        "x7": {
+            "name_en": "Garlemald 2",
+            "name_fr": "Garlemald 2",
+            "requirements_en": "Complete 6 FATE in Garlemald",
+            "requirements_fr": "Complétion de 6 ALÉA dans Garlemald",
+            "cPrev": [
+                6
+            ],
+            "cNext": [
+                8
+            ]
+        },
+        "x8": {
+            "name_en": "Garlemald 3",
+            "name_fr": "Garlemald 3",
+            "requirements_en": "Complete 60 additional FATE in Garlemald",
+            "requirements_fr": "Complétion de 60 ALÉA dans Garlemald",
+            "cPrev": [
+                7
+            ],
+            "cSiblings": [
+                "character.achievement.battle.battle.3024"
+            ]
+        },
+        "x9": {
+            "name_en": "Mare Lamentorum 1",
+            "name_fr": "Mare Lamentorum 1",
+            "requirements_en": "Complete any FATE in Mare Lamentorum",
+            "requirements_fr": "Complétion de 1 ALÉA dans Mare Lamentorum",
+            "cNext": [
+                10
+            ]
+        },
+        "x10": {
+            "name_en": "Mare Lamentorum 2",
+            "name_fr": "Mare Lamentorum 2",
+            "requirements_en": "Complete 6 FATE in Mare Lamentorum",
+            "requirements_fr": "Complétion de 6 ALÉA dans Mare Lamentorum",
+            "cPrev": [
+                9
+            ],
+            "cNext": [
+                11
+            ]
+        },
+        "x11": {
+            "name_en": "Mare Lamentorum 3",
+            "name_fr": "Mare Lamentorum 3",
+            "requirements_en": "Complete 60 additional FATE in Mare Lamentorum",
+            "requirements_fr": "Complétion de 60 ALÉA dans Mare Lamentorum",
+            "cPrev": [
+                10
+            ],
+            "cSiblings": [
+                "character.achievement.battle.battle.3025"
+            ]
+        },
+        "x12": {
+            "name_en": "Elpis 1",
+            "name_fr": "Elpis 1",
+            "requirements_en": "Complete any FATE in Elpis",
+            "requirements_fr": "Complétion de 1 ALÉA dans Elpis",
+            "cNext": [
+                13
+            ]
+        },
+        "x13": {
+            "name_en": "Elpis 2",
+            "name_fr": "Elpis 2",
+            "requirements_en": "Complete 6 FATE in Elpis",
+            "requirements_fr": "Complétion de 6 ALÉA dans Elpis",
+            "cPrev": [
+                12
+            ],
+            "cNext": [
+                14
+            ]
+        },
+        "x14": {
+            "name_en": "Elpis 3",
+            "name_fr": "Elpis 3",
+            "requirements_en": "Complete 60 additional FATE in Elpis",
+            "requirements_fr": "Complétion de 60 ALÉA dans Elpis",
+            "cPrev": [
+                13
+            ],
+            "cSiblings": [
+                "character.achievement.battle.battle.3026"
+            ]
+        },
+        "x15": {
+            "name_en": "Ultima Thule 1",
+            "name_fr": "Ultima Thulé 1",
+            "requirements_en": "Complete any FATE in Ultima Thule",
+            "requirements_fr": "Complétion de 1 ALÉA dans Ultima Thulé",
+            "cNext": [
+                16
+            ]
+        },
+        "x16": {
+            "name_en": "Ultima Thule 2",
+            "name_fr": "Ultima Thulé 2",
+            "requirements_en": "Complete 6 FATE in Ultima Thule",
+            "requirements_fr": "Complétion de 6 ALÉA dans Ultima Thulé",
+            "cPrev": [
+                15
+            ],
+            "cNext": [
+                17
+            ]
+        },
+        "x17": {
+            "name_en": "Ultima Thule 3",
+            "name_fr": "Ultima Thulé 3",
+            "requirements_en": "Complete 60 additional FATE in Ultima Thule",
+            "requirements_fr": "Complétion de 60 ALÉA dans Ultima Thulé",
+            "cPrev": [
+                16
+            ],
+            "cSiblings": [
+                "character.achievement.battle.battle.3027"
+            ]
+        }
+    }
+}

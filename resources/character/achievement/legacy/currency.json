@@ -1,0 +1,78 @@
+{
+    "key": "currency",
+    "groupName_en": "Currency",
+    "groupName_fr": "Devises",
+    "tasks": {
+        "x120": {
+            "name_en": "You Can't Take It with You I",
+            "name_fr": "Argent trop cher I",
+            "description_en": "Earn a cumulative total of 1,000 gil from defeating enemies.",
+            "description_fr": "Gagner un total de 1 000 gils en vainquant des ennemis.",
+            "patch": "2.0",
+            "Order": 0,
+            "points": 5,
+            "Order_en": 0,
+            "Order_fr": 0
+        },
+        "x121": {
+            "name_en": "You Can't Take It with You II",
+            "name_fr": "Argent trop cher II",
+            "description_en": "Earn a cumulative total of 10,000 gil from defeating enemies.",
+            "description_fr": "Gagner un total de 10 000 gils en vainquant des ennemis.",
+            "patch": "2.0",
+            "Order": 0,
+            "points": 5,
+            "Order_en": 0,
+            "Order_fr": 0
+        },
+        "x122": {
+            "name_en": "You Can't Take It with You III",
+            "name_fr": "Argent trop cher III",
+            "description_en": "Earn a cumulative total of 100,000 gil from defeating enemies.",
+            "description_fr": "Gagner un total de 100 000 gils en vainquant des ennemis.",
+            "patch": "2.0",
+            "Order": 0,
+            "points": 5,
+            "Order_en": 0,
+            "Order_fr": 0
+        },
+        "x123": {
+            "name_en": "You Can't Take It with You IV",
+            "name_fr": "Argent trop cher IV",
+            "description_en": "Earn a cumulative total of 1,000,000 gil from defeating enemies.",
+            "description_fr": "Gagner un total de 1 000 000 gils en vainquant des ennemis.",
+            "patch": "2.0",
+            "Order": 0,
+            "points": 5,
+            "Order_en": 0,
+            "Order_fr": 0
+        },
+        "x124": {
+            "name_en": "You Can't Take It with You V",
+            "name_fr": "Argent trop cher V",
+            "description_en": "Earn a cumulative total of 10,000,000 gil from defeating enemies.",
+            "description_fr": "Gagner un total de 10 000 000 gils en vainquant des ennemis.",
+            "patch": "2.0",
+            "Order": 0,
+            "points": 5,
+            "Order_en": 0,
+            "Order_fr": 0
+        },
+        "x125": {
+            "name_en": "Never Met a Corpse I Couldn't Rifle",
+            "name_fr": "Le bonheur est dans le blé",
+            "description_en": "Earn a cumulative total of 100,000,000 gil from defeating enemies.",
+            "description_fr": "Gagner un total de 100 000 000 gils en vainquant des ennemis.",
+            "reward_en": "Ruthless Gillionaire",
+            "reward_fr": "Le Détrousseur / La Détrousseuse",
+            "patch": "2.0",
+            "Order": 0,
+            "points": 10,
+            "Order_en": 0,
+            "Order_fr": 0,
+            "cSiblings": [
+                "character.character.title.12"
+            ]
+        }
+    }
+}

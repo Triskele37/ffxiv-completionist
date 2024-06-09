@@ -1,0 +1,523 @@
+{
+    "key": "the-raktika-greatwood",
+    "groupName_en": "The Rak'Tika Greatwood",
+    "groupName_fr": "Rak'Tika",
+    "tasks": {
+        "x68976": {
+            "level": 70,
+            "name_en": "Barking Up the Right Tree",
+            "name_fr": "Teinture tutélaire",
+            "npc_en": "Harvene",
+            "npc_fr": "Harvene",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68861"
+            ]
+        },
+        "x68977": {
+            "level": 70,
+            "name_en": "Plans Gone Awry",
+            "name_fr": "Chacun sa vocation",
+            "npc_en": "Maril",
+            "npc_fr": "Maril",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68861"
+            ]
+        },
+        "x68978": {
+            "level": 70,
+            "name_en": "Like Pulling Teeth",
+            "name_fr": "Des défenses mais sans violence",
+            "npc_en": "Caring Carpenter",
+            "npc_fr": "armurière chaleureuse",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68861"
+            ]
+        },
+        "x68979": {
+            "level": 70,
+            "name_en": "Tea Time",
+            "name_fr": "Après les spores, le réconfort",
+            "npc_en": "Vondia",
+            "npc_fr": "Vondia",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68861"
+            ]
+        },
+        "x68980": {
+            "level": 70,
+            "name_en": "What We Do for Family",
+            "name_fr": "Un peu de poison",
+            "unlock": "travel.aether-currents.shb.the-raktika-greatwood.13",
+            "npc_en": "Varthon",
+            "npc_fr": "Varthon",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68861"
+            ],
+            "cNext": [
+                68981
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.the-raktika-greatwood.13"
+            ]
+        },
+        "x68981": {
+            "level": 70,
+            "name_en": "In His Memory",
+            "name_fr": "Un peu de nostalgie",
+            "npc_en": "Karnes",
+            "npc_fr": "Karnes",
+            "cPrev": [
+                68980
+            ],
+            "cNext": [
+                68982
+            ]
+        },
+        "x68982": {
+            "level": 70,
+            "name_en": "Pick Their Poison",
+            "name_fr": "Un peu de rétorsion",
+            "npc_en": "Karnes",
+            "npc_fr": "Karnes",
+            "cPrev": [
+                68981
+            ]
+        },
+        "x68983": {
+            "level": 70,
+            "name_en": "Worth a Candle",
+            "name_fr": "Autant d'étoiles dans la nuit",
+            "npc_en": "Alsa",
+            "npc_fr": "Alsa",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68864"
+            ]
+        },
+        "x68985": {
+            "level": 70,
+            "name_en": "You're a Gem",
+            "name_fr": "Des gemmes pour toute une vie",
+            "npc_en": "Davith",
+            "npc_fr": "Davith",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68864"
+            ]
+        },
+        "x68986": {
+            "level": 70,
+            "name_en": "Oh, Snap",
+            "name_fr": "Le fromage de Serpentige",
+            "npc_en": "Ersabel",
+            "npc_fr": "Ersabel",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68864"
+            ]
+        },
+        "x68987": {
+            "level": 70,
+            "name_en": "Disturbing the Peace",
+            "name_fr": "Un murmure lointain",
+            "npc_en": "Ovelin",
+            "npc_fr": "Ovelin",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68864"
+            ]
+        },
+        "x68984": {
+            "level": 70,
+            "name_en": "Paved with Good Intentions",
+            "name_fr": "Petit poison deviendra grand",
+            "npc_en": "Lonesome Lancer",
+            "npc_fr": "soldat du peuple de la Nuit",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68864"
+            ],
+            "cNext": [
+                68988
+            ]
+        },
+        "x68988": {
+            "level": 70,
+            "name_en": "Out of Place",
+            "name_fr": "Noyer le poison",
+            "npc_en": "Well-meaning Mentor",
+            "npc_fr": "jeune prêtre",
+            "cPrev": [
+                68984
+            ]
+        },
+        "x68989": {
+            "level": 70,
+            "name_en": "From the Heart",
+            "name_fr": "Où dire les mots d'amour?",
+            "npc_en": "Bashful Bowman",
+            "npc_fr": "chasseur embarrassé",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68864"
+            ]
+        },
+        "x68990": {
+            "level": 70,
+            "name_en": "Special Delivery",
+            "name_fr": "Un trésor d'honnêteté",
+            "npc_en": "Asgeir",
+            "npc_fr": "Asgeir",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68864"
+            ]
+        },
+        "x68991": {
+            "level": 70,
+            "name_en": "An Express Delivery",
+            "name_fr": "Heureux qui a fait un beau voyage",
+            "npc_en": "Hargra",
+            "npc_fr": "Hargra",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68864"
+            ]
+        },
+        "x69192": {
+            "level": 70,
+            "name_en": "The Great Deceiver",
+            "name_fr": "Le Gardien de la forêt obscure",
+            "unlock": "travel.aether-currents.shb.the-raktika-greatwood.12",
+            "npc_en": "Valan",
+            "npc_fr": "Valan",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68867"
+            ],
+            "cNext": [
+                69193
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.the-raktika-greatwood.12"
+            ]
+        },
+        "x69193": {
+            "level": 70,
+            "name_en": "Slither Along",
+            "name_fr": "Une incarnation charnelle en modèle réduit",
+            "npc_en": "Quinfort",
+            "npc_fr": "Quinfort",
+            "cPrev": [
+                69192
+            ],
+            "cNext": [
+                69194
+            ]
+        },
+        "x69194": {
+            "level": 70,
+            "name_en": "Snake the Lead",
+            "name_fr": "Révélations d'apocalypse",
+            "npc_en": "Valan",
+            "npc_fr": "Valan",
+            "cPrev": [
+                69193
+            ],
+            "cNext": [
+                69195
+            ]
+        },
+        "x69195": {
+            "level": 70,
+            "name_en": "Snakes in the Grass",
+            "name_fr": "Retour dans le sommeil éternel",
+            "npc_en": "Quinfort",
+            "npc_fr": "Quinfort",
+            "cPrev": [
+                69194
+            ],
+            "cNext": [
+                69018
+            ]
+        },
+        "x68996": {
+            "level": 70,
+            "name_en": "Paying Respects",
+            "name_fr": "Loin des yeux, près des fleurs",
+            "npc_en": "Tilmet",
+            "npc_fr": "Tilmet",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68870"
+            ]
+        },
+        "x68997": {
+            "level": 70,
+            "name_en": "A Recipe for Trouble",
+            "name_fr": "Tout pour un bon petit plat",
+            "npc_en": "Ciuille",
+            "npc_fr": "Ciuille",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68870"
+            ]
+        },
+        "x68998": {
+            "level": 70,
+            "name_en": "Blessings of the Wood",
+            "name_fr": "Les dons de la Déesse",
+            "npc_en": "Lanille",
+            "npc_fr": "Lanille",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68870"
+            ]
+        },
+        "x68999": {
+            "level": 70,
+            "name_en": "Talk of the Town",
+            "name_fr": "À la rencontre des locales",
+            "npc_en": "Taina",
+            "npc_fr": "Taina",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68870"
+            ]
+        },
+        "x69000": {
+            "level": 70,
+            "name_en": "A Sight Unseen",
+            "name_fr": "Une présence furtive",
+            "npc_en": "Lionhearted Hunter",
+            "npc_fr": "Viis joyeuse",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68870"
+            ]
+        },
+        "x69001": {
+            "level": 70,
+            "name_en": "Back Where It Belongs",
+            "name_fr": "Rendez-le avec des fleurs",
+            "npc_en": "Nymet",
+            "npc_fr": "Nymet",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68870"
+            ]
+        },
+        "x69002": {
+            "level": 70,
+            "name_en": "Not Unfamiliar",
+            "name_fr": "Souvenirs doux-amers",
+            "npc_en": "Unassuming Townsviis",
+            "npc_fr": "Viis au ton aimable",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68870"
+            ]
+        },
+        "x69003": {
+            "level": 70,
+            "name_en": "Suit Up",
+            "name_fr": "Les nouveaux habits de la Halte",
+            "unlock": "travel.aether-currents.shb.the-raktika-greatwood.11",
+            "npc_en": "Haimet",
+            "npc_fr": "Haimet",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68870"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.the-raktika-greatwood.11"
+            ]
+        },
+        "x69004": {
+            "level": 70,
+            "name_en": "Delivery Time",
+            "name_fr": "Nouvelle tête",
+            "npc_en": "Flustered Sentinel",
+            "npc_fr": "Viis gentille",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68870"
+            ]
+        },
+        "x69005": {
+            "level": 70,
+            "name_en": "Out on One's Own",
+            "name_fr": "La chasseuse en herbe",
+            "npc_en": "Stern Sentinel",
+            "npc_fr": "Viis fière",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68870"
+            ]
+        },
+        "x69006": {
+            "level": 70,
+            "name_en": "One Last Bite",
+            "name_fr": "Une voix qui s'éteint",
+            "npc_en": "Subdued Sentinel",
+            "npc_fr": "Viis tranquille",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68870"
+            ]
+        },
+        "x69007": {
+            "level": 70,
+            "name_en": "Proving Your Worth",
+            "name_fr": "Qui part à la chasse...",
+            "npc_en": "Light-hearted Hunter",
+            "npc_fr": "Viis joviale",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68875"
+            ]
+        },
+        "x69008": {
+            "level": 70,
+            "name_en": "Reach for the Stars",
+            "name_fr": "Un temple, c'est sacré",
+            "npc_en": "Loymet",
+            "npc_fr": "Loymet",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68875"
+            ]
+        },
+        "x69009": {
+            "level": 70,
+            "name_en": "Down Feathers",
+            "name_fr": "Le cri du griffon",
+            "npc_en": "Watchful Hunter",
+            "npc_fr": "chasseuse viis",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68875"
+            ]
+        },
+        "x69010": {
+            "level": 70,
+            "name_en": "Out on Patrol",
+            "name_fr": "L'état des chouettes",
+            "npc_en": "Olmet",
+            "npc_fr": "Olmet",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68875"
+            ]
+        },
+        "x69011": {
+            "level": 70,
+            "name_en": "Thoughts and Prayers",
+            "name_fr": "Un souhait vers le passé",
+            "npc_en": "Humble Shaman",
+            "npc_fr": "shamane de Fanow",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68875"
+            ]
+        },
+        "x69012": {
+            "level": 70,
+            "name_en": "Rock Solid",
+            "name_fr": "Quand une civilisation décline",
+            "npc_en": "Hasty Hunter",
+            "npc_fr": "chasseuse de Fanow",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68875"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69013"
+            ]
+        },
+        "x69013": {
+            "level": 70,
+            "name_en": "Hand-me-downs",
+            "name_fr": "Quand les statues sauvent les statues",
+            "npc_en": "Hasty Hunter",
+            "npc_fr": "chasseuse de Fanow",
+            "cPrev": [
+                69012
+            ]
+        },
+        "x69019": {
+            "level": 70,
+            "name_en": "In Pursuit of Knowledge",
+            "name_fr": "Irrésistible soif de connaissance",
+            "npc_en": "Korille",
+            "npc_fr": "Korille",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68875"
+            ]
+        },
+        "x69020": {
+            "level": 70,
+            "name_en": "A Test of Strength",
+            "name_fr": "Le défi du hameau",
+            "npc_en": "Taina",
+            "npc_fr": "Taina",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68875"
+            ]
+        },
+        "x69021": {
+            "level": 70,
+            "name_en": "Just the Two of Us",
+            "name_fr": "Un havre de paix",
+            "npc_en": "Timid Townsviis",
+            "npc_fr": "Viis aux oreilles tombantes",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68875"
+            ]
+        },
+        "x69014": {
+            "level": 70,
+            "name_en": "Stand on Ceremony",
+            "name_fr": "Esprits opposés",
+            "unlock": "travel.aether-currents.shb.the-raktika-greatwood.10",
+            "npc_en": "Lanille",
+            "npc_fr": "Lanille",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68875"
+            ],
+            "cNext": [
+                69015
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.the-raktika-greatwood.10"
+            ]
+        },
+        "x69015": {
+            "level": 70,
+            "name_en": "Seeing Eye to Eye",
+            "name_fr": "Papotages à Fanow",
+            "npc_en": "Lanille",
+            "npc_fr": "Lanille",
+            "cPrev": [
+                69014
+            ],
+            "cNext": [
+                69016
+            ]
+        },
+        "x69016": {
+            "level": 70,
+            "name_en": "Mending Fences",
+            "name_fr": "L'union des contraires",
+            "npc_en": "Lanille",
+            "npc_fr": "Lanille",
+            "cPrev": [
+                69015
+            ],
+            "cNext": [
+                69017
+            ]
+        },
+        "x69017": {
+            "level": 70,
+            "name_en": "Hearts as One",
+            "name_fr": "Prières jumelles",
+            "npc_en": "Ciuna",
+            "npc_fr": "Ciuna",
+            "cPrev": [
+                69016
+            ],
+            "cNext": [
+                69018
+            ]
+        },
+        "x69018": {
+            "level": 70,
+            "name_en": "Protectors of the Wood",
+            "name_fr": "Tous unis pour Ronka",
+            "npc_en": "Phyna",
+            "npc_fr": "Phyna",
+            "cPrev": [
+                69195,
+                69017
+            ],
+            "cNext": [
+                "duty.quests.tribal-quests.qitari.69330"
+            ]
+        }
+    }
+}
