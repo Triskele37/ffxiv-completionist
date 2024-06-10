@@ -22,6 +22,7 @@
         "ng:serve": "ng serve -c web -o",
         "postinstall": "electron-builder install-app-deps",
         "script:merge": "node ./scripts/mergeResources/_script.js",
+        "script:rando": "node ./scripts/rando/_script.js",
         "start": "npm-run-all -p electron:serve ng:serve"
     },
     "browserslist": [

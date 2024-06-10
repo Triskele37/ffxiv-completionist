@@ -57,14 +57,6 @@
             "source_fr": "20.000 Sceaux de compagnie uldien",
             "patch": "2.0"
         },
-        "x27": {
-            "name_en": "Black Chocobo Chick",
-            "name_fr": "Bébé chocobo noir",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
-            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de haut fait",
-            "patch": "2.0"
-        },
         "x51": {
             "name_en": "Chocobo Chick Courier",
             "name_fr": "Bébé chocobo noir volant",
@@ -73,6 +65,14 @@
             "source_fr": "Précommande de FFXIV: Heavensward",
             "patch": "3.0",
             "defaultCompletion": "X"
+        },
+        "x27": {
+            "name_en": "Black Chocobo Chick",
+            "name_fr": "Bébé chocobo noir",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
+            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de haut fait",
+            "patch": "2.0"
         },
         "x194": {
             "name_en": "Princely Hatchling",
@@ -97,6 +97,14 @@
             "source_en": "Gathered by Fisher",
             "source_fr": "Récolté par le Pêcheur",
             "patch": "4.0"
+        },
+        "x461": {
+            "name_en": "Ryunosuke",
+            "name_fr": "Poussin Dragon",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Heavensturn (2024)",
+            "source_fr": "Fête de la transition (2024)",
+            "patch": "6.5"
         },
         "x329": {
             "name_en": "Wind-up Moogle",
@@ -151,6 +159,14 @@
             "source_fr": "Marchande de mascottes - Gold Saucer - 2.400 gils",
             "patch": "2.0"
         },
+        "x24": {
+            "name_en": "Behemoth Heir",
+            "name_fr": "Prince bébéhémoth",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "400 Centurio Seals",
+            "source_fr": "400 Insignes Centurio",
+            "patch": "3.0"
+        },
         "x16": {
             "name_en": "Baby Behemoth",
             "name_fr": "Bébéhémoth",
@@ -159,14 +175,6 @@
             "source_fr": "Boutique en ligne Final Fantasy XIV",
             "patch": "2.0",
             "defaultCompletion": "X"
-        },
-        "x24": {
-            "name_en": "Behemoth Heir",
-            "name_fr": "Prince bébéhémoth",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "400 Centurio Seals",
-            "source_fr": "400 Insignes Centurio",
-            "patch": "3.0"
         },
         "x162": {
             "name_en": "Morbol Seedling",
@@ -341,6 +349,15 @@
             "source": "duty.fate.la-noscea.eastern-la-noscea.335",
             "patch": "2.0"
         },
+        "x60": {
+            "name_en": "Continental Eye",
+            "name_fr": "Œil du Cirque",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "3.4",
+            "defaultCompletion": "X"
+        },
         "x387": {
             "name_en": "Wolf Pup",
             "name_fr": "Bébé chacal",
@@ -356,13 +373,13 @@
             "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de haut fait",
             "patch": "2.0"
         },
-        "x60": {
-            "name_en": "Continental Eye",
-            "name_fr": "Œil du Cirque",
+        "x198": {
+            "name_en": "Pumpkin Butler",
+            "name_fr": "Majordome citrouille",
             "category": "CATEGORY.PREMIUM",
             "source_en": "Final Fantasy XIV Online Store",
             "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.4",
+            "patch": "3.07",
             "defaultCompletion": "X"
         },
         "x90": {
@@ -372,6 +389,13 @@
             "source_en": "Auriana - Mor Dhona - 3 Allagan Tomestones of Poetics",
             "source_fr": "Auriana - Mor Dhona - 3 Mémoquartz allagois poétiques",
             "patch": "2.0"
+        },
+        "x39480": {
+            "name_en": "Private Pachypodium",
+            "name_fr": "Soldate pachypodium",
+            "category": "CATEGORY.DEEP_DUNGEON",
+            "source": "duty.dutyraid-finder.deep-dungeon.2",
+            "patch": "6.35"
         },
         "x119": {
             "name_en": "Kidragora",
@@ -420,22 +444,6 @@
             "source_en": "Gardening",
             "source_fr": "Jardinage",
             "patch": "2.3"
-        },
-        "x198": {
-            "name_en": "Pumpkin Butler",
-            "name_fr": "Majordome citrouille",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.07",
-            "defaultCompletion": "X"
-        },
-        "x39480": {
-            "name_en": "Private Pachypodium",
-            "name_fr": "Soldate pachypodium",
-            "category": "CATEGORY.DEEP_DUNGEON",
-            "source": "duty.dutyraid-finder.deep-dungeon.2",
-            "patch": "6.35"
         },
         "x56": {
             "name_en": "Coblyn Larva",
@@ -1157,14 +1165,6 @@
             "source": "duty.dutyraid-finder.dungeons.ew.1",
             "patch": "6.0"
         },
-        "x457": {
-            "name_en": "Lumini",
-            "name_fr": "Lumignon",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "N-0598 - Ultima Thule - 8 Omicron Omnitoken",
-            "source_fr": "N-0598 - Ultima Thulé - 8 Omicoin",
-            "patch": "6.25"
-        },
         "x433": {
             "name_en": "Hatching Bunny",
             "name_fr": "Laprœuf joyeux",
@@ -1172,19 +1172,13 @@
             "source": "duty.quests.other.seasonal.egg-hunts.70126",
             "patch": "6.1"
         },
-        "x460": {
-            "name_en": "Wind-up Scarmiglione",
-            "name_fr": "Scarmiglione miniature",
-            "category": "CATEGORY.DUNGEON",
-            "source": "duty.dutyraid-finder.dungeons.ew.9",
-            "patch": "6.2"
-        },
-        "x39478": {
-            "name_en": "Wind-up Cagnazzo",
-            "name_fr": "Cagnazzo miniature",
-            "category": "CATEGORY.DUNGEON",
-            "source": "duty.dutyraid-finder.dungeons.ew.10",
-            "patch": "6.3"
+        "x457": {
+            "name_en": "Lumini",
+            "name_fr": "Lumignon",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "N-0598 - Ultima Thule - 8 Omicron Omnitoken",
+            "source_fr": "N-0598 - Ultima Thulé - 8 Omicoin",
+            "patch": "6.25"
         },
         "x463": {
             "name_en": "Sponge Silkie",
@@ -1200,6 +1194,29 @@
             "source_en": "4,000 Seafarer's Cowries",
             "source_fr": "4.000 Assignat insulaire azur",
             "patch": "6.3"
+        },
+        "x484": {
+            "name_en": "Exciting Dynamite",
+            "name_fr": "Dynamite Exaltante",
+            "category": "CATEGORY.TREASURE_HUNT",
+            "source_en": "The Excitatron 6000",
+            "source_fr": "Le Ludodrome",
+            "patch": "6.4"
+        },
+        "x485": {
+            "name_en": "Mikra Lyssa",
+            "name_fr": "Mikra Lyssa",
+            "category": "CATEGORY.TREASURE_HUNT",
+            "source_en": "The Shifting Gymnasion Agonon",
+            "source_fr": "Elpis Gymnasion",
+            "patch": "6.4"
+        },
+        "x480": {
+            "name_en": "Okuri Chochin",
+            "name_fr": "Chôchin Okuri",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.v-and-c-dungeon.mount-rokkon.0",
+            "patch": "6.45"
         },
         "x55": {
             "name_en": "Clockwork Twintania",
@@ -1380,6 +1397,13 @@
             "source": "duty.dutyraid-finder.raids.ew.18",
             "patch": "6.3"
         },
+        "x494": {
+            "name_en": "Wind-up Oschon",
+            "name_fr": "Oschon Miniature",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.28",
+            "patch": "6.5"
+        },
         "x235": {
             "name_en": "Tiny Tapir",
             "name_fr": "Petit tapir",
@@ -1404,6 +1428,15 @@
             "source_fr": "Recette du Couturier",
             "patch": "2.4"
         },
+        "x421": {
+            "name_en": "Squirrel Emperor",
+            "name_fr": "Rissai chimérique",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Starlight Celebration (2021)",
+            "source_fr": "La fête des étoiles (2021)",
+            "patch": "6.0",
+            "defaultCompletion": "X"
+        },
         "x173": {
             "name_en": "Nutkin",
             "name_fr": "Écureuil grignoteur",
@@ -1418,15 +1451,6 @@
                 "Aquapole"
             ],
             "patch": "2.3"
-        },
-        "x421": {
-            "name_en": "Squirrel Emperor",
-            "name_fr": "Rissai chimérique",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Starlight Celebration (2021)",
-            "source_fr": "La fête des étoiles (2021)",
-            "patch": "6.0",
-            "defaultCompletion": "X"
         },
         "x183": {
             "name_en": "Panda Cub",
@@ -1631,6 +1655,13 @@
             "source": "duty.dutyraid-finder.dungeons.shb.2",
             "patch": "5.0"
         },
+        "x506": {
+            "name_en": "Repulu",
+            "name_fr": "Repulu",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.v-and-c-dungeon.aloalo-island.0",
+            "patch": "6.51"
+        },
         "x227": {
             "name_en": "The Great Serpent of Ronka",
             "name_fr": "Serpent marin de Ronka ?",
@@ -1724,6 +1755,14 @@
             "source": "duty.dutyraid-finder.dungeons.ew.3",
             "patch": "6.0"
         },
+        "x434": {
+            "name_en": "Wind-up Kangaroo",
+            "name_fr": "Kangourou Miniature",
+            "category": "CATEGORY.VENTURE",
+            "source_en": "Highland Exploration XXVIII",
+            "source_fr": "Exploration en montagne XXVIII",
+            "patch": "6.1"
+        },
         "x462": {
             "name_en": "Pterosquirrel",
             "name_fr": "Momonga",
@@ -1731,6 +1770,14 @@
             "source_en": "400 Faux Leaves",
             "source_fr": "400 Folioles irréelles",
             "patch": "6.2"
+        },
+        "x435": {
+            "name_en": "Chewy",
+            "name_fr": "Chihuaouaf",
+            "category": "CATEGORY.VENTURE",
+            "source_en": "Woodland Exploration XXVIII",
+            "source_fr": "Exploration en forêt XXVIII",
+            "patch": "6.1"
         },
         "x464": {
             "name_en": "Sewer Skink",
@@ -1747,21 +1794,27 @@
             "source_fr": "400 Folioles irréelles",
             "patch": "6.3"
         },
-        "x434": {
-            "name_en": "Wind-up Kangaroo",
-            "name_fr": "Kangourou Miniature",
-            "category": "CATEGORY.VENTURE",
-            "source_en": "Highland Exploration XXVIII",
-            "source_fr": "Exploration en montagne XXVIII",
-            "patch": "6.1"
+        "x483": {
+            "name_en": "Chimpanzee",
+            "name_fr": "Chimpanzé",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "400 Faux Leaves",
+            "source_fr": "400 Folioles irréelles",
+            "patch": "6.4"
         },
-        "x435": {
-            "name_en": "Chewy",
-            "name_fr": "Chihuaouaf",
-            "category": "CATEGORY.VENTURE",
-            "source_en": "Woodland Exploration XXVIII",
-            "source_fr": "Exploration en forêt XXVIII",
-            "patch": "6.1"
+        "x486": {
+            "name_en": "Shiromaru",
+            "name_fr": "Shiromaru",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.v-and-c-dungeon.mount-rokkon.0",
+            "patch": "6.45"
+        },
+        "x490": {
+            "name_en": "Kuromaru",
+            "name_fr": "Kuromaru",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.v-and-c-dungeon.mount-rokkon.0",
+            "patch": "6.45"
         },
         "x10": {
             "name_en": "Assassin Fry",
@@ -1797,6 +1850,14 @@
             "source_en": "Subaquatic Voyages",
             "source_fr": "Expédition sous-marine",
             "patch": "4.45"
+        },
+        "x481": {
+            "name_en": "Posher Otter",
+            "name_fr": "Loutre Choute Fringante",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "4,000 Seafarer's Cowries",
+            "source_fr": "4.000 Assignat insulaire azur",
+            "patch": "6.4"
         },
         "x97": {
             "name_en": "Ghido",
@@ -1900,6 +1961,13 @@
                 "Expédition du sous-marine - The Lilac Sea 2"
             ],
             "patch": "6.3"
+        },
+        "x479": {
+            "name_en": "Mossasaurus",
+            "name_fr": "Mossasaure",
+            "category": "CATEGORY.ACHIEVEMENT",
+            "source": "character.achievement.crafting--gathering.fisher.3265",
+            "patch": "6.4"
         },
         "x31": {
             "name_en": "Bluebird",
@@ -2013,13 +2081,19 @@
             "source_fr": "Exploration en rivage XXVIII",
             "patch": "6.1"
         },
-        "x345": {
-            "name_en": "Wind-up Qiqirn",
-            "name_fr": "Qiqirn mécanique",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "2.0"
+        "x478": {
+            "name_en": "Puffin",
+            "name_fr": "Macareux",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.ew.11",
+            "patch": "6.4"
+        },
+        "x491": {
+            "name_en": "Uolosapa",
+            "name_fr": "Uolosapa",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.v-and-c-dungeon.aloalo-island.0",
+            "patch": "6.51"
         },
         "x325": {
             "name_en": "Wind-up Meateater",
@@ -2028,6 +2102,14 @@
             "source_en": "800 Centurio Seals",
             "source_fr": "800 Insignes Centurio",
             "patch": "4.0"
+        },
+        "x345": {
+            "name_en": "Wind-up Qiqirn",
+            "name_fr": "Qiqirn mécanique",
+            "category": "CATEGORY.CRAFTING_GATHERING",
+            "source_en": "Crafted by Weaver",
+            "source_fr": "Recette du Couturier",
+            "patch": "2.0"
         },
         "x332": {
             "name_en": "Wind-up Namazu",
@@ -2093,14 +2175,6 @@
             "source_fr": "Coiningway - Mare Lamentorum - 8 Carotus",
             "patch": "6.35"
         },
-        "x298": {
-            "name_en": "Wind-up Goblin",
-            "name_fr": "Gobelin articulé",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
-            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
-            "patch": "2.3"
-        },
         "x307": {
             "name_en": "Wind-up Illuminatus",
             "name_fr": "Gobelin de la Mimine bleue",
@@ -2123,13 +2197,13 @@
             ],
             "patch": "5.1"
         },
-        "x366": {
-            "name_en": "Wind-up Sylph",
-            "name_fr": "Sylphe nain",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Sylphic Vendor - Little Solace - 25,000 Gil",
-            "source_fr": "Vendeur sylphe - Le Refuge - 25.000 gils",
-            "patch": "2.1"
+        "x298": {
+            "name_en": "Wind-up Goblin",
+            "name_fr": "Gobelin articulé",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
+            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
+            "patch": "2.3"
         },
         "x377": {
             "name_en": "Wind-up Violet",
@@ -2139,12 +2213,12 @@
             "source_fr": "Vendeur sylphe - Le Refuge - 25.000 gils",
             "patch": "2.35"
         },
-        "x260": {
-            "name_en": "Wind-up Amalj'aa",
-            "name_fr": "Amalj'aa mécanique",
+        "x366": {
+            "name_en": "Wind-up Sylph",
+            "name_fr": "Sylphe nain",
             "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Amalj'aa Vendor - Ring of Ash - 25,000 Gil",
-            "source_fr": "Vendeur amalj'aa - Camp de la Ligue des cendres - 25.000 gils",
+            "source_en": "Sylphic Vendor - Little Solace - 25,000 Gil",
+            "source_fr": "Vendeur sylphe - Le Refuge - 25.000 gils",
             "patch": "2.1"
         },
         "x289": {
@@ -2154,6 +2228,14 @@
             "source_en": "Amalj'aa Vendor - Ring of Ash - 25,000 Gil",
             "source_fr": "Vendeur amalj'aa - Camp de la Ligue des cendres - 25.000 gils",
             "patch": "2.35"
+        },
+        "x260": {
+            "name_en": "Wind-up Amalj'aa",
+            "name_fr": "Amalj'aa mécanique",
+            "category": "CATEGORY.BEAST_TRIBE",
+            "source_en": "Amalj'aa Vendor - Ring of Ash - 25,000 Gil",
+            "source_fr": "Vendeur amalj'aa - Camp de la Ligue des cendres - 25.000 gils",
+            "patch": "2.1"
         },
         "x277": {
             "name_en": "Wind-up Dezul Qualan",
@@ -2171,14 +2253,6 @@
             "source_fr": "Vendeur ixal - Ehcatl - 25.000 gils",
             "patch": "2.35"
         },
-        "x313": {
-            "name_en": "Wind-up Kobold",
-            "name_fr": "Poupée kobolde",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Kobold Vendor - 789th Order Dig - 25,000 Gil",
-            "source_fr": "Vendeur kobold - Carrière du 789e ordre - 25.000 gils",
-            "patch": "2.2"
-        },
         "x314": {
             "name_en": "Wind-up Kobolder",
             "name_fr": "Poupée kobolde n°2",
@@ -2187,12 +2261,12 @@
             "source_fr": "Vendeur kobold - Carrière du 789e ordre - 25.000 gils",
             "patch": "2.35"
         },
-        "x355": {
-            "name_en": "Wind-up Sahagin",
-            "name_fr": "Pantin sahuagin",
+        "x313": {
+            "name_en": "Wind-up Kobold",
+            "name_fr": "Poupée kobolde",
             "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Sahagin Vendor - Novv's Nursery - 25,000 Gil",
-            "source_fr": "Vendeur sahuagin - Couvée de Novv - 25.000 gils",
+            "source_en": "Kobold Vendor - 789th Order Dig - 25,000 Gil",
+            "source_fr": "Vendeur kobold - Carrière du 789e ordre - 25.000 gils",
             "patch": "2.2"
         },
         "x358": {
@@ -2202,6 +2276,14 @@
             "source_en": "Sahagin Vendor - Novv's Nursery - 25,000 Gil",
             "source_fr": "Vendeur sahuagin - Couvée de Novv - 25.000 gils",
             "patch": "2.35"
+        },
+        "x355": {
+            "name_en": "Wind-up Sahagin",
+            "name_fr": "Pantin sahuagin",
+            "category": "CATEGORY.BEAST_TRIBE",
+            "source_en": "Sahagin Vendor - Novv's Nursery - 25,000 Gil",
+            "source_fr": "Vendeur sahuagin - Couvée de Novv - 25.000 gils",
+            "patch": "2.2"
         },
         "x376": {
             "name_en": "Wind-up Vath",
@@ -2455,14 +2537,50 @@
             "source_fr": "Recette du Couturier",
             "patch": "4.45"
         },
-        "x380": {
-            "name_en": "Wind-up Y'shtola",
-            "name_fr": "Y'shtola miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "2.38",
-            "defaultCompletion": "X"
+        "x482": {
+            "name_en": "Rubellite Weapon",
+            "name_fr": "Arme Rubellite",
+            "category": "CATEGORY.PVP",
+            "source_en": "Series Reward",
+            "source_fr": "Récompense de série",
+            "patch": "6.4"
+        },
+        "x493": {
+            "name_en": "Tourmaline Weapon",
+            "name_fr": "Arme Tourmaline",
+            "category": "CATEGORY.PVP",
+            "source_en": "Series Reward",
+            "source_fr": "Récompense de série",
+            "patch": "6.5"
+        },
+        "x460": {
+            "name_en": "Wind-up Scarmiglione",
+            "name_fr": "Scarmiglione miniature",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.ew.9",
+            "patch": "6.2"
+        },
+        "x39478": {
+            "name_en": "Wind-up Cagnazzo",
+            "name_fr": "Cagnazzo miniature",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.ew.10",
+            "patch": "6.3"
+        },
+        "x488": {
+            "name_en": "Wind-up Barbariccia",
+            "name_fr": "Barbariccia Miniature",
+            "category": "CATEGORY.CRAFTING_GATHERING",
+            "source_en": "Crafted by Weaver",
+            "source_fr": "Recette du Couturier",
+            "patch": "6.4"
+        },
+        "x497": {
+            "name_en": "Wind-up Golbez",
+            "name_fr": "Golbez Miniature",
+            "category": "CATEGORY.DUNGEON",
+            "source": "duty.dutyraid-finder.dungeons.ew.12",
+            "patch": "6.5"
         },
         "x75": {
             "name_en": "Dress-up Y'shtola",
@@ -2482,18 +2600,18 @@
             "patch": "5.05",
             "defaultCompletion": "X"
         },
-        "x326": {
-            "name_en": "Wind-up Minfilia",
-            "name_fr": "Minfillia miniature",
+        "x380": {
+            "name_en": "Wind-up Y'shtola",
+            "name_fr": "Y'shtola miniature",
             "category": "CATEGORY.PREMIUM",
             "source_en": "Final Fantasy XIV Online Store",
             "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "2.3",
+            "patch": "2.38",
             "defaultCompletion": "X"
         },
-        "x369": {
-            "name_en": "Wind-up Thancred",
-            "name_fr": "Thancred miniature",
+        "x326": {
+            "name_en": "Wind-up Minfilia",
+            "name_fr": "Minfillia miniature",
             "category": "CATEGORY.PREMIUM",
             "source_en": "Final Fantasy XIV Online Store",
             "source_fr": "Boutique en ligne Final Fantasy XIV",
@@ -2507,6 +2625,15 @@
             "source_en": "1 Khloe's Bronze Certificate of Commendation",
             "source_fr": "1 Certificat de mérite de bronze de Khloe",
             "patch": "3.4"
+        },
+        "x369": {
+            "name_en": "Wind-up Thancred",
+            "name_fr": "Thancred miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "2.3",
+            "defaultCompletion": "X"
         },
         "x381": {
             "name_en": "Wind-up Yda",
@@ -2558,6 +2685,14 @@
             "category": "CATEGORY.ACHIEVEMENT",
             "source": "character.achievement.battle.raids.1040",
             "patch": "2.4"
+        },
+        "x503": {
+            "name_en": "Wind-up Fourchenault",
+            "name_fr": "Fourchenault Miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "6.5"
         },
         "x259": {
             "name_en": "Wind-up Alphinaud",
@@ -2944,6 +3079,32 @@
             ],
             "patch": "6.2"
         },
+        "x487": {
+            "name_en": "Wind-up Athena",
+            "name_fr": "Athéna Miniature",
+            "category": "CATEGORY.RAID",
+            "source": [
+                "duty.dutyraid-finder.raids.ew.23",
+                "duty.dutyraid-finder.raids.ew.27"
+            ],
+            "patch": "6.4"
+        },
+        "x501": {
+            "name_en": "Hydaelyn Idol",
+            "name_fr": "Idole Hydaelyn",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "6.5"
+        },
+        "x502": {
+            "name_en": "Zodiark Idol",
+            "name_fr": "Idole Zordiarche",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "6.5"
+        },
         "x296": {
             "name_en": "Wind-up Gilgamesh",
             "name_fr": "Pantin Gilgamesh",
@@ -3206,22 +3367,6 @@
             "source_fr": "30.000 PGS",
             "patch": "5.2"
         },
-        "x458": {
-            "name_en": "Clockwork Crimson Chaser",
-            "name_fr": "Croiseur mécanique carmin",
-            "category": "CATEGORY.PVP",
-            "source_en": "Series Reward",
-            "source_fr": "Récompense de série",
-            "patch": "6.2"
-        },
-        "x459": {
-            "name_en": "Clockwork Cerulean Chaser",
-            "name_fr": "Croiseur mécanique céruléen",
-            "category": "CATEGORY.PVP",
-            "source_en": "Series Reward",
-            "source_fr": "Récompense de série",
-            "patch": "6.2"
-        },
         "x456": {
             "name_en": "Felicitous Fuzzball",
             "name_fr": "Madmiaouselle",
@@ -3229,6 +3374,14 @@
             "source_en": "4,000 Seafarer's Cowries",
             "source_fr": "4.000 Assignat insulaire azur",
             "patch": "6.2"
+        },
+        "x496": {
+            "name_en": "Vicarious Vacationer",
+            "name_fr": "Barnabaigneur",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "4,000 Seafarer's Cowries",
+            "source_fr": "4.000 Assignat insulaire azur",
+            "patch": "6.5"
         },
         "x255": {
             "name_en": "Wind-up Airship",
@@ -3378,6 +3531,22 @@
             "source_fr": "1.000 Cristaux-trophées",
             "patch": "6.1"
         },
+        "x458": {
+            "name_en": "Clockwork Crimson Chaser",
+            "name_fr": "Croiseur mécanique carmin",
+            "category": "CATEGORY.PVP",
+            "source_en": "Series Reward",
+            "source_fr": "Récompense de série",
+            "patch": "6.2"
+        },
+        "x459": {
+            "name_en": "Clockwork Cerulean Chaser",
+            "name_fr": "Croiseur mécanique céruléen",
+            "category": "CATEGORY.PVP",
+            "source_en": "Series Reward",
+            "source_fr": "Récompense de série",
+            "patch": "6.2"
+        },
         "x437": {
             "name_en": "Teacup Kapikulu",
             "name_fr": "Kapipikulu",
@@ -3418,14 +3587,6 @@
             "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
             "patch": "2.0"
         },
-        "x363": {
-            "name_en": "Wind-up Sun",
-            "name_fr": "Soleil mécanique",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Magic Pot - The Isles of Umbra - 1 Elixir",
-            "source_fr": "Pot magique - Les Îles d'Ombra - 1 Élixir",
-            "patch": "2.2"
-        },
         "x330": {
             "name_en": "Wind-up Moon",
             "name_fr": "Lune mécanique",
@@ -3434,12 +3595,12 @@
             "source_fr": "Pot magique - Les Îles d'Ombra - 1 Super élixir",
             "patch": "3.5"
         },
-        "x189": {
-            "name_en": "Plush Cushion",
-            "name_fr": "Coussin moelleux",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
+        "x363": {
+            "name_en": "Wind-up Sun",
+            "name_fr": "Soleil mécanique",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Magic Pot - The Isles of Umbra - 1 Elixir",
+            "source_fr": "Pot magique - Les Îles d'Ombra - 1 Élixir",
             "patch": "2.2"
         },
         "x390": {
@@ -3450,6 +3611,14 @@
             "source_fr": "Shikitahe - Tamamizu - 5 Sangos Kojin",
             "patch": "4.5"
         },
+        "x189": {
+            "name_en": "Plush Cushion",
+            "name_fr": "Coussin moelleux",
+            "category": "CATEGORY.CRAFTING_GATHERING",
+            "source_en": "Crafted by Weaver",
+            "source_fr": "Recette du Couturier",
+            "patch": "2.2"
+        },
         "x136": {
             "name_en": "Magic Broom",
             "name_fr": "Balai enchanté",
@@ -3457,6 +3626,13 @@
             "source_en": "Crafted by Carpenter",
             "source_fr": "Recette du Menuisier",
             "patch": "2.2"
+        },
+        "x102": {
+            "name_en": "Gold Rush Minecart",
+            "name_fr": "Chariot de mine mécanique",
+            "category": "CATEGORY.FATE",
+            "source": "duty.fate.abalathias-spine.the-sea-of-clouds.855",
+            "patch": "3.0"
         },
         "x152": {
             "name_en": "Miniature Minecart",
@@ -3466,13 +3642,6 @@
             "source_en": "Highland Exploration XIV",
             "source_fr": "Exploration en montagne XIV",
             "patch": "2.3"
-        },
-        "x102": {
-            "name_en": "Gold Rush Minecart",
-            "name_fr": "Chariot de mine mécanique",
-            "category": "CATEGORY.FATE",
-            "source": "duty.fate.abalathias-spine.the-sea-of-clouds.855",
-            "patch": "3.0"
         },
         "x53": {
             "name_en": "Clockwork Barrow",
@@ -3564,13 +3733,27 @@
             "source_fr": "Recette du Couturier",
             "patch": "6.0"
         },
-        "x154": {
-            "name_en": "Minion of Light",
-            "name_fr": "Héros de la Lumière",
+        "x489": {
+            "name_en": "Goggle-eyed Dogu",
+            "name_fr": "Dogû Globuleux",
+            "category": "CATEGORY.VOYAGE",
+            "source_en": [
+                "Subaquatic Voyages - The Lilac Sea 2",
+                "Subaquatic Voyages - Wingsreach"
+            ],
+            "source_fr": [
+                "Expédition sous-marine - The Lilac Sea 2",
+                "Expédition sous-marine - Wingsreach"
+            ],
+            "patch": "6.4"
+        },
+        "x495": {
+            "name_en": "Kydonia Strolls",
+            "name_fr": "Rocher de Cydonia",
             "category": "CATEGORY.PURCHASE",
-            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
-            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
-            "patch": "2.1"
+            "source_en": "400 Faux Leaves",
+            "source_fr": "400 Folioles irréelles",
+            "patch": "6.5"
         },
         "x349": {
             "name_en": "Wind-up Red Mage",
@@ -3580,6 +3763,14 @@
             "source_fr": "Précommande de Stormblood",
             "patch": "4.0",
             "defaultCompletion": "X"
+        },
+        "x154": {
+            "name_en": "Minion of Light",
+            "name_fr": "Héros de la Lumière",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
+            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
+            "patch": "2.1"
         },
         "x378": {
             "name_en": "Wind-up Warrior of Light",
@@ -3721,6 +3912,21 @@
             "patch": "4.4",
             "defaultCompletion": "X"
         },
+        "x454": {
+            "name_en": "Wind-up PuPu",
+            "name_fr": "Koyo K Miniature",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70291",
+            "patch": "6.45"
+        },
+        "x504": {
+            "name_en": "Wind-up Zidane",
+            "name_fr": "Djidane Miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Dawntrail Pre-order",
+            "source_fr": "Précommande de Dawntrail",
+            "patch": "6.58"
+        },
         "x384": {
             "name_en": "Wind-up Yuna",
             "name_fr": "Yuna miniature",
@@ -3756,6 +3962,14 @@
             "source_fr": "Boutique en ligne Final Fantasy XIV",
             "patch": "2.1",
             "defaultCompletion": "X"
+        },
+        "x498": {
+            "name_en": "Torgal Pup",
+            "name_fr": "Talgor Louveteau",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Final Fantasy XVI Collaboration",
+            "source_fr": "Final Fantasy XVI Collaboration",
+            "patch": "6.58"
         },
         "x347": {
             "name_en": "Wind-up Ramza",
@@ -4013,6 +4227,22 @@
             "source_en": "30,000 MGP",
             "source_fr": "30,000 PGS",
             "patch": "6.3"
+        },
+        "x499": {
+            "name_en": "Pink Bean",
+            "name_fr": "Haricot Rose",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "350 MGF",
+            "source_fr": "350 Point de Célébrité du Gold Saucer",
+            "patch": "6.51"
+        },
+        "x500": {
+            "name_en": "Pegwin",
+            "name_fr": "Pegwin",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "350 MGF",
+            "source_fr": "350 Point de Célébrité du Gold Saucer",
+            "patch": "6.51"
         }
     }
 }
