@@ -46,6 +46,16 @@
             ],
             "requires": "duty.island-sanctuary.rank.6"
         },
+        "x22": {
+            "name_en": "Cozy Cabin IV",
+            "name_fr": "Hutte placide IV",
+            "requires": "duty.island-sanctuary.rank.12"
+        },
+        "x23": {
+            "name_en": "Cozy Cabin V",
+            "name_fr": "Hutte placide V",
+            "requires": "duty.island-sanctuary.rank.16"
+        },
         "x3": {
             "name_en": "Cropland I",
             "name_fr": "Terre arable I",
@@ -101,8 +111,8 @@
         "x11": {
             "name_en": "Granary I",
             "name_fr": "Grange I",
-            "unlocks_en": "+2 rare items per expedition",
-            "unlocks_fr": "+2 Objets rares par expédition",
+            "unlocks_en": "2 rare items per expedition",
+            "unlocks_fr": "2 Objets rares par expédition",
             "requires": "duty.island-sanctuary.rank.4",
             "isNumericCompletion": true,
             "minValue": 0,
@@ -111,8 +121,8 @@
         "x12": {
             "name_en": "Granary II",
             "name_fr": "Grange II",
-            "unlocks_en": "+1 rare items per expedition",
-            "unlocks_fr": "+1 Objets rares par expédition",
+            "unlocks_en": "3 rare items per expedition",
+            "unlocks_fr": "3 Objets rares par expédition",
             "requires": "duty.island-sanctuary.rank.5",
             "isNumericCompletion": true,
             "minValue": 0,
@@ -121,9 +131,29 @@
         "x13": {
             "name_en": "Granary III",
             "name_fr": "Grange III",
-            "unlocks_en": "+1 rare items per expedition",
-            "unlocks_fr": "+1 Objets rares par expédition",
+            "unlocks_en": "4 rare items per expedition",
+            "unlocks_fr": "4 Objets rares par expédition",
             "requires": "duty.island-sanctuary.rank.7",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 2
+        },
+        "x26": {
+            "name_en": "Granary IV",
+            "name_fr": "Grange IV",
+            "unlocks_en": "5 rare items per expedition",
+            "unlocks_fr": "5 Objets rares par expédition",
+            "requires": "duty.island-sanctuary.rank.13",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 2
+        },
+        "x27": {
+            "name_en": "Granary V",
+            "name_fr": "Grange V",
+            "unlocks_en": "6 rare items per expedition",
+            "unlocks_fr": "6 Objets rares par expédition",
+            "requires": "duty.island-sanctuary.rank.17",
             "isNumericCompletion": true,
             "minValue": 0,
             "maxValue": 2
@@ -134,7 +164,7 @@
             "requires": "duty.island-sanctuary.rank.2",
             "isNumericCompletion": true,
             "minValue": 0,
-            "maxValue": 3
+            "maxValue": 4
         },
         "x15": {
             "name_en": "Workshop II",
@@ -144,7 +174,7 @@
             "requires": "duty.island-sanctuary.rank.5",
             "isNumericCompletion": true,
             "minValue": 0,
-            "maxValue": 3
+            "maxValue": 4
         },
         "x16": {
             "name_en": "Workshop III",
@@ -154,7 +184,27 @@
             "requires": "duty.island-sanctuary.rank.7",
             "isNumericCompletion": true,
             "minValue": 0,
-            "maxValue": 3
+            "maxValue": 4
+        },
+        "x24": {
+            "name_en": "Workshop IV",
+            "name_fr": "Fabrique IV",
+            "unlocks_en": "30% Craft Profit",
+            "unlocks_fr": "30% Profit des ventes",
+            "requires": "duty.island-sanctuary.rank.13",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 4
+        },
+        "x25": {
+            "name_en": "Workshop V",
+            "name_fr": "Fabrique V",
+            "unlocks_en": "40% Craft Profit",
+            "unlocks_fr": "40% Profit des ventes",
+            "requires": "duty.island-sanctuary.rank.18",
+            "isNumericCompletion": true,
+            "minValue": 0,
+            "maxValue": 4
         },
         "x17": {
             "name_en": "Quixotic Windmill",
@@ -188,6 +238,31 @@
             "name_en": "Water Otter Fountain",
             "name_fr": "Fontaine ressourçante",
             "requires": "duty.island-sanctuary.rank.8"
+        },
+        "x28": {
+            "name_en": "Gamboling Garden",
+            "name_fr": "Gamboling Garden",
+            "requires": "duty.island-sanctuary.rank.11"
+        },
+        "x29": {
+            "name_en": "Quaint Clock Tower",
+            "name_fr": "Quaint Clock Tower",
+            "requires": "duty.island-sanctuary.rank.14"
+        },
+        "x30": {
+            "name_en": "Uncharted Course",
+            "name_fr": "Uncharted Course",
+            "requires": "duty.island-sanctuary.rank.14"
+        },
+        "x31": {
+            "name_en": "Sanctuary Sanctuary",
+            "name_fr": "Sanctuary Sanctuary",
+            "requires": "duty.island-sanctuary.rank.18"
+        },
+        "x32": {
+            "name_en": "Aetherial Arbor",
+            "name_fr": "Aetherial Arbor",
+            "requires": "duty.island-sanctuary.rank.18"
         }
     }
 }
