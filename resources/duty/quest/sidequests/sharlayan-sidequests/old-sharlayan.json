@@ -3,10 +3,150 @@
     "groupName_en": "Old Sharlayan",
     "groupName_fr": "Vieille Sharlayan",
     "tasks": {
+        "x69716": {
+            "name_en": "A Waiting Love",
+            "name_fr": "Récif, boulot, dodo",
+            "level": 80,
+            "npc_en": "Waiting Woman",
+            "npc_fr": "petite amie impatiente",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69894"
+            ]
+        },
+        "x69717": {
+            "name_en": "Scholarly Perspective",
+            "name_fr": "Cours d'histoire particulier",
+            "level": 80,
+            "npc_en": "Bhaldswys",
+            "npc_fr": "Bhaldswys",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69894"
+            ]
+        },
+        "x69718": {
+            "name_en": "A Literary Delivery",
+            "name_fr": "Une livre de livres à livrer",
+            "level": 80,
+            "npc_en": "Toffwyb",
+            "npc_fr": "Toffwyb",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69894"
+            ]
+        },
+        "x69719": {
+            "name_en": "Doll Dash",
+            "name_fr": "Histoire de jouet",
+            "level": 80,
+            "npc_en": "Mischievous Miqo'te",
+            "npc_fr": "petite Miqo'te",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69894"
+            ]
+        },
+        "x69746": {
+            "name_en": "A Volatile Education",
+            "name_fr": "Aucun danger, voyons!",
+            "level": 80,
+            "npc_en": "Passemerrant",
+            "npc_fr": "Passemerrant",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69916"
+            ]
+        },
+        "x69747": {
+            "name_en": "The Light of Progress",
+            "name_fr": "Turbulent prodige",
+            "level": 80,
+            "npc_en": "Bookish Miqo'te",
+            "npc_fr": "Étudiant Miqo'te",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69916"
+            ]
+        },
+        "x69748": {
+            "name_en": "My Fair Mammet",
+            "name_fr": "Chère amie",
+            "level": 80,
+            "npc_en": "Fraisoinne",
+            "npc_fr": "Fraisoinne",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69916"
+            ]
+        },
+        "x69749": {
+            "name_en": "The Creature from the Wooden Crate",
+            "name_fr": "Rencontre d'un autre type",
+            "level": 80,
+            "npc_en": "Timid Student",
+            "npc_fr": "étudiant timoré",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69916"
+            ]
+        },
+        "x69750": {
+            "name_en": "Fast Fashion",
+            "name_fr": "Design et des cristaux",
+            "level": 80,
+            "npc_en": "Lalafellin Student",
+            "npc_fr": "étudiante lalafelle",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69916"
+            ]
+        },
+        "x69751": {
+            "name_en": "Booking Books",
+            "name_fr": "Attention, livres méchants",
+            "level": 80,
+            "npc_en": "Isilswys",
+            "npc_fr": "Isilswys",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69916"
+            ]
+        },
+        "x69852": {
+            "name_en": "For the Love of Pudding",
+            "name_fr": "Opération: Finale Flantaisie",
+            "level": 80,
+            "npc_en": "Last Stand Employee",
+            "npc_fr": "employé du Dernier Rempart",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69976"
+            ]
+        },
+        "x69853": {
+            "name_en": "Secret in the Box",
+            "name_fr": "Le coffre aux mystères",
+            "level": 80,
+            "npc_en": "Mysterious Maiden",
+            "npc_fr": "femme mystérieuse",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69976"
+            ]
+        },
+        "x69854": {
+            "name_en": "Leveilleur Philanthropy",
+            "name_fr": "Un lys vaut mieux que mille discours",
+            "level": 80,
+            "npc_en": "House Leveilleur Servant",
+            "npc_fr": "domestique des Leveilleur",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69984"
+            ]
+        },
+        "x69855": {
+            "name_en": "Sandwiches and Pretzels",
+            "name_fr": "La gloire de mon fils",
+            "level": 80,
+            "npc_en": "Dickon",
+            "npc_fr": "Dickon",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69984"
+            ]
+        },
         "x69703": {
-            "level": 90,
             "name_en": "Cutting the Cheese",
             "name_fr": "La face cachée de la lune",
+            "level": 90,
             "unlock": "duty.dutyraid-finder.dungeons.ew.6",
             "npc_en": "Panic-stricken Loporrit",
             "npc_fr": "Loporrite tout affolé",
@@ -15,9 +155,9 @@
             ]
         },
         "x69704": {
-            "level": 90,
             "name_en": "Where No Loporrit Has Gone Before",
             "name_fr": "Les Omicrons rêvent-ils de moutons électriques?",
+            "level": 90,
             "unlock": "duty.dutyraid-finder.dungeons.ew.7",
             "npc_en": "Jammingway",
             "npc_fr": "Jammingway",
@@ -28,200 +168,10 @@
                 "duty.quests.tribal-quests.omicron.70137"
             ]
         },
-        "x69712": {
-            "level": 80,
-            "name_en": "The Hunt for Specimens",
-            "name_fr": "Chasse académique",
-            "npc_en": "Diminutive Gleaner",
-            "npc_fr": "Lalafell menu",
-            "cPrev": [
-                "duty.quests.sidequests.ishgardian.ishgard.67658",
-                "duty.quests.main-scenario.endwalker.69894"
-            ],
-            "cNext": [
-                69713
-            ]
-        },
-        "x69713": {
-            "level": 83,
-            "name_en": "That Specimen Came from the Moon",
-            "name_fr": "La lune des chasseurs",
-            "npc_en": "Northota",
-            "npc_fr": "Northota",
-            "cPrev": [
-                69712
-            ],
-            "cNext": [
-                69714
-            ]
-        },
-        "x69714": {
-            "level": 89,
-            "name_en": "A Hunt for the Ages",
-            "name_fr": "Chasse au dino",
-            "npc_en": "Northota",
-            "npc_fr": "Northota",
-            "cPrev": [
-                69713
-            ],
-            "cNext": [
-                69715
-            ]
-        },
-        "x69715": {
-            "level": 90,
-            "name_en": "Perfect Specimens",
-            "name_fr": "La saison de l'élite",
-            "npc_en": "Northota",
-            "npc_fr": "Northota",
-            "cPrev": [
-                69714
-            ]
-        },
-        "x69716": {
-            "level": 80,
-            "name_en": "A Waiting Love",
-            "name_fr": "Récif, boulot, dodo",
-            "npc_en": "Waiting Woman",
-            "npc_fr": "petite amie impatiente",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69894"
-            ]
-        },
-        "x69717": {
-            "level": 80,
-            "name_en": "Scholarly Perspective",
-            "name_fr": "Cours d'histoire particulier",
-            "npc_en": "Bhaldswys",
-            "npc_fr": "Bhaldswys",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69894"
-            ]
-        },
-        "x69718": {
-            "level": 80,
-            "name_en": "A Literary Delivery",
-            "name_fr": "Une livre de livres à livrer",
-            "npc_en": "Toffwyb",
-            "npc_fr": "Toffwyb",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69894"
-            ]
-        },
-        "x69719": {
-            "level": 80,
-            "name_en": "Doll Dash",
-            "name_fr": "Histoire de jouet",
-            "npc_en": "Mischievous Miqo'te",
-            "npc_fr": "petite Miqo'te",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69894"
-            ]
-        },
-        "x69746": {
-            "level": 80,
-            "name_en": "A Volatile Education",
-            "name_fr": "Aucun danger, voyons!",
-            "npc_en": "Passemerrant",
-            "npc_fr": "Passemerrant",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69916"
-            ]
-        },
-        "x69747": {
-            "level": 80,
-            "name_en": "The Light of Progress",
-            "name_fr": "Turbulent prodige",
-            "npc_en": "Bookish Miqo'te",
-            "npc_fr": "Étudiant Miqo'te",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69916"
-            ]
-        },
-        "x69748": {
-            "level": 80,
-            "name_en": "My Fair Mammet",
-            "name_fr": "Chère amie",
-            "npc_en": "Fraisoinne",
-            "npc_fr": "Fraisoinne",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69916"
-            ]
-        },
-        "x69749": {
-            "level": 80,
-            "name_en": "The Creature from the Wooden Crate",
-            "name_fr": "Rencontre d'un autre type",
-            "npc_en": "Timid Student",
-            "npc_fr": "étudiant timoré",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69916"
-            ]
-        },
-        "x69750": {
-            "level": 80,
-            "name_en": "Fast Fashion",
-            "name_fr": "Design et des cristaux",
-            "npc_en": "Lalafellin Student",
-            "npc_fr": "étudiante lalafelle",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69916"
-            ]
-        },
-        "x69751": {
-            "level": 80,
-            "name_en": "Booking Books",
-            "name_fr": "Attention, livres méchants",
-            "npc_en": "Isilswys",
-            "npc_fr": "Isilswys",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69916"
-            ]
-        },
-        "x69852": {
-            "level": 80,
-            "name_en": "For the Love of Pudding",
-            "name_fr": "Opération: Finale Flantaisie",
-            "npc_en": "Last Stand Employee",
-            "npc_fr": "employé du Dernier Rempart",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69976"
-            ]
-        },
-        "x69853": {
-            "level": 80,
-            "name_en": "Secret in the Box",
-            "name_fr": "Le coffre aux mystères",
-            "npc_en": "Mysterious Maiden",
-            "npc_fr": "femme mystérieuse",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69976"
-            ]
-        },
-        "x69854": {
-            "level": 80,
-            "name_en": "Leveilleur Philanthropy",
-            "name_fr": "Un lys vaut mieux que mille discours",
-            "npc_en": "House Leveilleur Servant",
-            "npc_fr": "domestique des Leveilleur",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69984"
-            ]
-        },
-        "x69855": {
-            "level": 80,
-            "name_en": "Sandwiches and Pretzels",
-            "name_fr": "La gloire de mon fils",
-            "npc_en": "Dickon",
-            "npc_fr": "Dickon",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69984"
-            ]
-        },
         "x70059": {
-            "level": 80,
             "name_en": "Of Mothers and Merchants",
             "name_fr": "Ameliance et ses commandes spéciales",
+            "level": 80,
             "patch": "6.15",
             "npc_en": "Well-dressed Attendant",
             "npc_fr": "Domestique",
@@ -237,9 +187,9 @@
             ]
         },
         "x70060": {
-            "level": 80,
             "name_en": "A Mother's Love",
             "name_fr": "Une poupée magique très autonome",
+            "level": 80,
             "patch": "6.15",
             "npc_en": "Ameliance",
             "npc_fr": "Ameliance",
@@ -251,9 +201,9 @@
             ]
         },
         "x70061": {
-            "level": 80,
             "name_en": "A Gift from House Leveilleur",
             "name_fr": "Un cadeau des Leveilleur",
+            "level": 80,
             "patch": "6.15",
             "npc_en": "Meryld",
             "npc_fr": "Meryld",
@@ -261,10 +211,61 @@
                 70060
             ]
         },
-        "x70331": {
+        "x69712": {
+            "name_en": "The Hunt for Specimens",
+            "name_fr": "Chasse académique",
             "level": 80,
+            "npc_en": "Diminutive Gleaner",
+            "npc_fr": "Lalafell menu",
+            "cPrev": [
+                "duty.quests.sidequests.ishgardian.ishgard.67658",
+                "duty.quests.main-scenario.endwalker.69894"
+            ],
+            "cNext": [
+                69713
+            ]
+        },
+        "x69713": {
+            "name_en": "That Specimen Came from the Moon",
+            "name_fr": "La lune des chasseurs",
+            "level": 83,
+            "npc_en": "Northota",
+            "npc_fr": "Northota",
+            "cPrev": [
+                69712
+            ],
+            "cNext": [
+                69714
+            ]
+        },
+        "x69714": {
+            "name_en": "A Hunt for the Ages",
+            "name_fr": "Chasse au dino",
+            "level": 89,
+            "npc_en": "Northota",
+            "npc_fr": "Northota",
+            "cPrev": [
+                69713
+            ],
+            "cNext": [
+                69715
+            ]
+        },
+        "x69715": {
+            "name_en": "Perfect Specimens",
+            "name_fr": "La saison de l'élite",
+            "level": 90,
+            "npc_en": "Northota",
+            "npc_fr": "Northota",
+            "cPrev": [
+                69714
+            ]
+        },
+
+        "x70331": {
             "name_en": "Wings of Hope",
             "name_fr": "À ailes éternelles, nul vol n'est impossible",
+            "level": 80,
             "patch": "6.5",
             "npc_en": "Singingway",
             "npc_fr": "Singingway",
@@ -273,9 +274,9 @@
             ]
         },
         "x70351": {
-            "level": 80,
             "name_en": "A Request of One's Own",
             "name_fr": "La complainte de la chercheuse",
+            "level": 80,
             "patch": "6.5",
             "npc_en": "Theopauldin",
             "npc_fr": "Theopauldin",

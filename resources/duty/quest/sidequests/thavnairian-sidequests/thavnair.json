@@ -33,6 +33,62 @@
                 "duty.quests.main-scenario.endwalker.69906"
             ]
         },
+        "x70025": {
+            "level": 80,
+            "name_en": "Steppe Child",
+            "name_fr": "L'aventurière de la Steppe d'Azim",
+            "unlock": "travel.aether-currents.ew.thavnair.12",
+            "npc_en": "Ogul",
+            "npc_fr": "Ogul",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69906"
+            ],
+            "cNext": [
+                70026
+            ],
+            "cSiblings": [
+                "travel.aether-currents.ew.thavnair.12"
+            ]
+        },
+        "x70026": {
+            "level": 80,
+            "name_en": "The Matanga along the Way",
+            "name_fr": "Des Matangas partout",
+            "npc_en": "Kancana",
+            "npc_fr": "Kancana",
+            "cPrev": [
+                70025
+            ],
+            "cNext": [
+                70027
+            ]
+        },
+        "x70027": {
+            "level": 80,
+            "name_en": "Ogul Repays Her Favors",
+            "name_fr": "De l'importance de retourner une faveur",
+            "npc_en": "Ogul",
+            "npc_fr": "Ogul",
+            "cPrev": [
+                70026
+            ],
+            "cNext": [
+                70028
+            ]
+        },
+        "x70028": {
+            "level": 80,
+            "name_en": "The Yedlihmad Hunt",
+            "name_fr": "Chasse à l'homme à Yedlihmad",
+            "npc_en": "Ogul",
+            "npc_fr": "Ogul",
+            "cPrev": [
+                70027
+            ],
+            "cNext": [
+                70033
+            ]
+        },
         "x69735": {
             "level": 80,
             "name_en": "The Great Heist",
@@ -175,16 +231,6 @@
                 "travel.aether-currents.ew.thavnair.14"
             ]
         },
-        "x69794": {
-            "level": 80,
-            "name_en": "Quick Heels",
-            "name_fr": "Livraison médicale",
-            "npc_en": "Utpala",
-            "npc_fr": "Utpala",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69953"
-            ]
-        },
         "x69795": {
             "level": 80,
             "name_en": "Radiant Patrol",
@@ -197,40 +243,6 @@
             ],
             "cSiblings": [
                 "travel.aether-currents.ew.thavnair.13"
-            ]
-        },
-        "x69796": {
-            "level": 80,
-            "name_en": "Treasure Hunters",
-            "name_fr": "L'énigme de la jungle des Sangha",
-            "npc_en": "Auri Dancer",
-            "npc_fr": "danseur aoran",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69953",
-                69800,
-                69793
-            ]
-        },
-        "x69797": {
-            "level": 80,
-            "name_en": "Curry for the Watch",
-            "name_fr": "Livraison volante",
-            "npc_en": "Jubkhal",
-            "npc_fr": "Jubkhal",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69953",
-                69800,
-                69793
-            ]
-        },
-        "x69798": {
-            "level": 80,
-            "name_en": "My Friend the Yeti",
-            "name_fr": "L'Arkasodara qui murmurait à l'oreille du yéti",
-            "npc_en": "Arkasodara Youth",
-            "npc_fr": "jeune Arkasodara",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69953"
             ]
         },
         "x69799": {
@@ -255,6 +267,36 @@
             "cNext": [
                 69796,
                 69797
+            ]
+        },
+        "x69804": {
+            "level": 80,
+            "name_en": "An Unexpected Guide",
+            "name_fr": "Un guide plutôt étrange",
+            "npc_en": "Strange Hanuman Langur",
+            "npc_fr": "hanuman langur étrange",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69952"
+            ]
+        },
+        "x69794": {
+            "level": 80,
+            "name_en": "Quick Heels",
+            "name_fr": "Livraison médicale",
+            "npc_en": "Utpala",
+            "npc_fr": "Utpala",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69953"
+            ]
+        },
+        "x69798": {
+            "level": 80,
+            "name_en": "My Friend the Yeti",
+            "name_fr": "L'Arkasodara qui murmurait à l'oreille du yéti",
+            "npc_en": "Arkasodara Youth",
+            "npc_fr": "jeune Arkasodara",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69953"
             ]
         },
         "x69801": {
@@ -287,70 +329,28 @@
                 "duty.quests.main-scenario.endwalker.69953"
             ]
         },
-        "x69804": {
+        "x69796": {
             "level": 80,
-            "name_en": "An Unexpected Guide",
-            "name_fr": "Un guide plutôt étrange",
-            "npc_en": "Strange Hanuman Langur",
-            "npc_fr": "hanuman langur étrange",
+            "name_en": "Treasure Hunters",
+            "name_fr": "L'énigme de la jungle des Sangha",
+            "npc_en": "Auri Dancer",
+            "npc_fr": "danseur aoran",
             "cPrev": [
-                "duty.quests.main-scenario.endwalker.69952"
+                "duty.quests.main-scenario.endwalker.69953",
+                69800,
+                69793
             ]
         },
-        "x70025": {
+        "x69797": {
             "level": 80,
-            "name_en": "Steppe Child",
-            "name_fr": "L'aventurière de la Steppe d'Azim",
-            "unlock": "travel.aether-currents.ew.thavnair.12",
-            "npc_en": "Ogul",
-            "npc_fr": "Ogul",
+            "name_en": "Curry for the Watch",
+            "name_fr": "Livraison volante",
+            "npc_en": "Jubkhal",
+            "npc_fr": "Jubkhal",
             "cPrev": [
-                "duty.quests.main-scenario.endwalker.69906"
-            ],
-            "cNext": [
-                70026
-            ],
-            "cSiblings": [
-                "travel.aether-currents.ew.thavnair.12"
-            ]
-        },
-        "x70026": {
-            "level": 80,
-            "name_en": "The Matanga along the Way",
-            "name_fr": "Des Matangas partout",
-            "npc_en": "Kancana",
-            "npc_fr": "Kancana",
-            "cPrev": [
-                70025
-            ],
-            "cNext": [
-                70027
-            ]
-        },
-        "x70027": {
-            "level": 80,
-            "name_en": "Ogul Repays Her Favors",
-            "name_fr": "De l'importance de retourner une faveur",
-            "npc_en": "Ogul",
-            "npc_fr": "Ogul",
-            "cPrev": [
-                70026
-            ],
-            "cNext": [
-                70028
-            ]
-        },
-        "x70028": {
-            "level": 80,
-            "name_en": "The Yedlihmad Hunt",
-            "name_fr": "Chasse à l'homme à Yedlihmad",
-            "npc_en": "Ogul",
-            "npc_fr": "Ogul",
-            "cPrev": [
-                70027
-            ],
-            "cNext": [
-                70033
+                "duty.quests.main-scenario.endwalker.69953",
+                69800,
+                69793
             ]
         },
         "x70029": {

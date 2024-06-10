@@ -3,11 +3,6 @@
     "groupName_en": "Adventure Plate",
     "groupName_fr": "Carte de personnage",
     "headers": {
-        "source": {
-            "link": true,
-            "header_en": "Source",
-            "header_fr": "Source"
-        },
         "name": {
             "header_en": "Name",
             "header_fr": "Nom"
@@ -15,6 +10,11 @@
         "category": {
             "header_en": "Category",
             "header_fr": "Catégorie"
+        },
+        "source": {
+            "link": true,
+            "header_en": "Source",
+            "header_fr": "Source"
         },
         "patch": {
             "header_en": "Patch",

@@ -3,17 +3,6 @@
     "groupName_en": "Radz-at-Han",
     "groupName_fr": "Radz-at-Han",
     "tasks": {
-        "x69709": {
-            "level": 90,
-            "name_en": "A Place to Train",
-            "name_fr": "Rayonner toujours plus fort",
-            "npc_en": "Hardy-looking Radiant",
-            "npc_fr": "soldat costaud de l'Ost rayonnant",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.70000",
-                "duty.quests.sidequests.dravanian.idyllshire.67654"
-            ]
-        },
         "x69805": {
             "level": 80,
             "name_en": "A Bond Eternal",
@@ -82,6 +71,17 @@
             "npc_fr": "gardienne de l'Ost rayonnant",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69954"
+            ]
+        },
+        "x69709": {
+            "level": 90,
+            "name_en": "A Place to Train",
+            "name_fr": "Rayonner toujours plus fort",
+            "npc_en": "Hardy-looking Radiant",
+            "npc_fr": "soldat costaud de l'Ost rayonnant",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.70000",
+                "duty.quests.sidequests.dravanian.idyllshire.67654"
             ]
         }
     }

@@ -29,15 +29,19 @@ function initActions() {
     electron_1.ipcMain.on('open-in-teamcraft', Remote.openInTeamcraft);
 }
 exports.initActions = initActions;
-function loadJson(event, path) {
+function loadJson(event, groupPath) {
     try {
-        if (fs.existsSync(path)) {
-            var finalPath = path + '\\_index.json';
-            event.returnValue = JSON.parse(fs.readFileSync(finalPath, 'utf8'));
+        if (fs.existsSync(groupPath)) {
+            // Directory exists matching 'path', must be _index
+            var path = groupPath + '\\_index.json';
+            var file = fs.readFileSync(path, 'utf8');
+            event.returnValue = JSON.parse(file);
         }
         else {
-            var finalPath = path + '.json';
-            event.returnValue = JSON.parse(fs.readFileSync(finalPath, 'utf8'));
+            // Directory does not exist matching path, group named json
+            var path = groupPath + '.json';
+            var file = fs.readFileSync(path, 'utf8');
+            event.returnValue = JSON.parse(file);
         }
     }
     catch (e) {

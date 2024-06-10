@@ -130,23 +130,23 @@
             "type_en": "Notorious Monster",
             "type_fr": "Défi"
         },
-        "x1752": {
-            "level": 85,
-            "name_en": "Incident Files: Ice of the Tiger",
-            "name_fr": "Rapport de dégâts: cryomutation",
-            "location": "(18.1, 38.4)",
-            "patch": "6.0",
-            "previousFate": "duty.fate.northern-empty.labyrinthos.1744",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
-        },
         "x1751": {
             "level": 85,
             "name_en": "Incident Files: Elemental Attraction",
             "name_fr": "Rapport de dégâts: cristal recherche élément désespérément",
             "location": "(23.6, 31.8)",
             "patch": "6.0",
-            "previousFate": "duty.fate.northern-empty.labyrinthos.1752",
+            "previousFate": "duty.fate.northern-empty.labyrinthos.1744",
+            "type_en": "Slay Enemies",
+            "type_fr": "Ennemis à abattre"
+        },
+        "x1752": {
+            "level": 85,
+            "name_en": "Incident Files: Ice of the Tiger",
+            "name_fr": "Rapport de dégâts: cryomutation",
+            "location": "(18.1, 38.4)",
+            "patch": "6.0",
+            "previousFate": "duty.fate.northern-empty.labyrinthos.1751",
             "type_en": "Slay Enemies",
             "type_fr": "Ennemis à abattre"
         }
