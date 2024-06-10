@@ -2,6 +2,7 @@
     "key": "spellbook",
     "groupName_en": "Spellbook",
     "groupName_fr": "Codex bleu",
+    "common": ["location"],
     "headers": {
         "number": {
             "width": 100,
@@ -12,13 +13,14 @@
             "header_en": "Spell",
             "header_fr": "Sort"
         },
+        "location": {
+            "link": true,
+            "header_en": "Location",
+            "header_fr": "Lieu"
+        },
         "enemy": {
             "header_en": "Enemy",
             "header_fr": "Ennemi"
-        },
-        "location": {
-            "header_en": "Location",
-            "header_fr": "Lieu"
         }
     },
     "tasks": {
@@ -957,6 +959,168 @@
             "location_fr": "Castrum Fluminis",
             "enemy_en": "Tsukuyomi",
             "enemy_fr": "Tsukuyomi"
+        },
+        "x104": {
+            "number": "105",
+            "name_en": "Goblin Punch",
+            "name_fr": "Coup de poing gobelin",
+            "location": "ZONE.KHOLUSIA (37, 28)",
+            "enemy_en": "Hobgoblin",
+            "enemy_fr": "Hobgoblin"
+        },
+        "x105": {
+            "number": "106",
+            "name_en": "Right Round",
+            "name_fr": "Grande culbute",
+            "location": "duty.dutyraid-finder.dungeons.shb.3",
+            "enemy_en": "Greater Armadillo",
+            "enemy_fr": "Greater Armadillo"
+        },
+        "x106": {
+            "number": "107",
+            "name_en": "Schiltron",
+            "name_fr": "Sheltron",
+            "location": "ZONE.AMH_ARAENG (17, 30)",
+            "enemy_en": "Long-tailed Armadillo",
+            "enemy_fr": "Long-tailed Armadillo"
+        },
+        "x107": {
+            "number": "108",
+            "name_en": "Rehydration",
+            "name_fr": "Réhydratation",
+            "location": "ZONE.AMH_ARAENG (33.9, 11.9)",
+            "enemy_en": "Slippery Armadillo",
+            "enemy_fr": "Slippery Armadillo"
+        },
+        "x108": {
+            "number": "109",
+            "name_en": "Breath of Magic",
+            "name_fr": "Souffle magique",
+            "location_en": "Learned via Whalaqee Totem - Level 80",
+            "location_fr": "Atteindre le niveau 80",
+            "enemy_en": "",
+            "enemy_fr": ""
+        },
+        "x109": {
+            "number": "110",
+            "name_en": "Wild Rage",
+            "name_fr": "Colère bestiale",
+            "location": "duty.dutyraid-finder.dungeons.shb.10",
+            "enemy_en": "Spectral Berserker",
+            "enemy_fr": "Spectral Berserker"
+        },
+        "x110": {
+            "number": "111",
+            "name_en": "Peat Pelt",
+            "name_fr": "Lancer de boue",
+            "location": "duty.dutyraid-finder.dungeons.shb.11",
+            "enemy_en": "Mudman",
+            "enemy_fr": "Mudman"
+        },
+        "x111": {
+            "number": "112",
+            "name_en": "Deep Clean",
+            "name_fr": "Grand nettoyage",
+            "location": "duty.dutyraid-finder.dungeons.shb.8",
+            "enemy_en": "Seeker of Solitude",
+            "enemy_fr": "Seeker of Solitude"
+        },
+        "x112": {
+            "number": "113",
+            "name_en": "Ruby Dynamics",
+            "name_fr": "Générateur rubis",
+            "location": "duty.dutyraid-finder.trials.shb.3",
+            "enemy_en": "Ruby Weapon",
+            "enemy_fr": "Arme Rubis"
+        },
+        "x113": {
+            "number": "114",
+            "name_en": "Divination Rune",
+            "name_fr": "Rune de malice",
+            "location": "duty.dutyraid-finder.trials.shb.0",
+            "enemy_en": "Titania",
+            "enemy_fr": "Titania"
+        },
+        "x114": {
+            "number": "115",
+            "name_en": "Dimensional Shift",
+            "name_fr": "Translation dimensionnelle",
+            "location": "duty.dutyraid-finder.raids.shb.0",
+            "enemy_en": "Eden Prime",
+            "enemy_fr": "Eden Prime"
+        },
+        "x115": {
+            "number": "116",
+            "name_en": "Conviction Marcato",
+            "name_fr": "Conviction - marcato",
+            "location": "duty.dutyraid-finder.dungeons.shb.4",
+            "enemy_en": "Forgiven Obscenity",
+            "enemy_fr": "Forgiven Obscenity"
+        },
+        "x116": {
+            "number": "117",
+            "name_en": "Force Field",
+            "name_fr": "Champ de force",
+            "location_en": "Learned via Whalaqee Totem - Learn 120 spells.",
+            "location_fr": "Apprendre 120 sorts",
+            "enemy_en": "",
+            "enemy_fr": ""
+        },
+        "x117": {
+            "number": "118",
+            "name_en": "Winged Reprobation",
+            "name_fr": "Réprobation ailée",
+            "location": "duty.dutyraid-finder.trials.shb.1",
+            "enemy_en": "Innocence",
+            "enemy_fr": "Innocence"
+        },
+        "x118": {
+            "number": "119",
+            "name_en": "Laser Eye",
+            "name_fr": "Faisceau maser",
+            "location": "duty.dutyraid-finder.raids.shb.22",
+            "enemy_en": "Eden's Promise",
+            "enemy_fr": "Eden's Promise"
+        },
+        "x119": {
+            "number": "120",
+            "name_en": "Candy Cane",
+            "name_fr": "Canne en sucre d'orge",
+            "location": "duty.dutyraid-finder.dungeons.shb.1",
+            "enemy_en": "Aenc Thon",
+            "enemy_fr": "Aenc Thon"
+        },
+        "x120": {
+            "number": "121",
+            "name_en": "Mortal Flame",
+            "name_fr": "Flamme mortelle",
+            "location": "duty.dutyraid-finder.dungeons.shb.8",
+            "enemy_en": "Lugus",
+            "enemy_fr": "Lugus"
+        },
+        "x121": {
+            "number": "122",
+            "name_en": "Sea Shanty",
+            "name_fr": "Explosion tournicoton",
+            "location": "duty.dutyraid-finder.dungeons.shb.11",
+            "enemy_en": "Nixie",
+            "enemy_fr": "Nixie"
+        },
+        "x122": {
+            "number": "123",
+            "name_en": "Apokalypsis",
+            "name_fr": "Apokalypsis",
+            "location": "duty.dutyraid-finder.dungeons.shb.5",
+            "enemy_en": "Therion",
+            "enemy_fr": "Therion"
+        },
+        "x123": {
+            "number": "124",
+            "name_en": "Being Mortal",
+            "name_fr": "Deuil des vivants",
+            "location": "duty.dutyraid-finder.trials.shb.0",
+            "enemy_en": "Titania",
+            "enemy_fr": "Titania"
         }
     }
 }
