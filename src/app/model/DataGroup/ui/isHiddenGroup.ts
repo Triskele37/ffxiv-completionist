@@ -7,7 +7,9 @@ export function isHiddenGroup(
     group: DataGroup,
     svcConfig: ConfigStoreService
 ): boolean {
-    if(group.isUiGroup) return false;
+    const { isBookmarkGroup, isCustomGroup, isUiGroup } = group;
+    if(isBookmarkGroup || isCustomGroup || isUiGroup) return false;
+
 
     const showCompletedGroups = svcConfig.get('show-completed-groups');
     if(isComplete(group) && !showCompletedGroups) return true;
