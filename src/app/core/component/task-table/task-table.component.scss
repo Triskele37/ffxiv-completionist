@@ -11,7 +11,7 @@
 
         .task-table-scroll-container {
             display: inline-block;
-            overflow-y: auto;
+            //overflow-y: auto;
 
             height: 100%;
             width: 100%;
@@ -23,6 +23,9 @@
 
         .p-datatable-table {
             width: 100%;
+
+            // Fixes virtual scroller jumping
+            overflow-anchor: none;
 
             .p-datatable-tbody {
                 :nth-child(odd) .selected td:not(.noSelect) {

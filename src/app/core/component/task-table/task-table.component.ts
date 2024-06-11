@@ -224,7 +224,7 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
 
     observeVirtualWrapper(): void {
         //TODO - fixed something with virtual scroll, `virtualScrollBody` might be `scroller`?
-        // if(!this._taskTable?.virtualScrollBody) return;
+        // if(!this._taskTable?.scroller) return;
         //
         // const callback: MutationCallback = (mutations) => {
         //     const styleChanged = mutations.some(
@@ -239,15 +239,15 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
         //
         // // Observe the virtual wrapper for style changes
         // const config = { attributes: true, childList: false, subtree: false };
-        // const { nativeElement } = this._taskTable.virtualScrollBody._contentWrapper;
+        // const { nativeElement } = this._taskTable.scroller.contentViewChild;
         // this.observer.observe(nativeElement, config);
     }
 
     adjustVirtualHeader(): void {
-        // if(!this._taskTable?.virtualScrollBody) return;
+        // if(!this._taskTable?.scroller) return;
         //
         // // Grab the translation from the virtual scroll container
-        // const { transform } = this._taskTable.virtualScrollBody._contentWrapper.nativeElement.style;
+        // const { transform } = this._taskTable.scroller.contentViewChild.nativeElement.style;
         // if(!transform) return;
         //
         // const transformInt: number = parseInt(transform.match(/[0-9]+/)[0], 10);
