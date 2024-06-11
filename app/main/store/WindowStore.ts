@@ -98,19 +98,17 @@ export class WindowStore {
         }
         else {
             // Path when running electron executable
-            let pathIndex = './index.html';
+            let indexPath = '../../index.html';
 
-            if(fs.existsSync(path.join(__dirname, '../../../dist/index.html'))) {
-                // Path when running electron in local folder
-                pathIndex = '../../../dist/index.html';
-            }
+            // Path when running electron in local folder
+            const dist = '../../../dist/index.html';
+            if(fs.existsSync(path.join(__dirname, dist))) indexPath = dist;
 
-            if(fs.existsSync(path.join(__dirname, '../../../app/index.html'))) {
-                // Path when running release
-                pathIndex = '../../../app/index.html';
-            }
+            // Path when running release
+            const app = '../../../app/index.html';
+            if(fs.existsSync(path.join(__dirname, app))) indexPath = app;
 
-            const url = new URL(path.join('file:', __dirname, pathIndex));
+            const url = new URL(path.join('file:', __dirname, indexPath));
             void WindowStore.main.loadURL(url.href);
         }
     }

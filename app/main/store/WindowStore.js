@@ -68,7 +68,7 @@ var WindowStore = /** @class */ (function () {
     //#region------------------------------------------------------- Main Window
     WindowStore.loadMainWindow = function (isServe) {
         var oldState = WindowStore.loadWindowState();
-        WindowStore.main = new electron_1.BrowserWindow(__assign(__assign({}, oldState), { autoHideMenuBar: true, backgroundColor: '#1e1e1e', show: false, webPreferences: {
+        WindowStore.main = new electron_1.BrowserWindow(__assign(__assign({}, oldState), { autoHideMenuBar: true, backgroundColor: '#1e1e1e', show: true, webPreferences: {
                 nodeIntegration: true,
                 // Necessary for ElectronService to function
                 contextIsolation: false,
@@ -87,16 +87,16 @@ var WindowStore = /** @class */ (function () {
         }
         else {
             // Path when running electron executable
-            var pathIndex = './index.html';
-            if (fs.existsSync(path.join(__dirname, '../../../dist/index.html'))) {
-                // Path when running electron in local folder
-                pathIndex = '../../../dist/index.html';
-            }
-            if (fs.existsSync(path.join(__dirname, '../../../app/index.html'))) {
-                // Path when running release
-                pathIndex = '../../../app/index.html';
-            }
-            var url = new URL(path.join('file:', __dirname, pathIndex));
+            var indexPath = '../../index.html';
+            // Path when running electron in local folder
+            var dist = '../../../dist/index.html';
+            if (fs.existsSync(path.join(__dirname, dist)))
+                indexPath = dist;
+            // Path when running release
+            var app = '../../../app/index.html';
+            if (fs.existsSync(path.join(__dirname, app)))
+                indexPath = app;
+            var url = new URL(path.join('file:', __dirname, indexPath));
             void WindowStore.main.loadURL(url.href);
         }
     };
