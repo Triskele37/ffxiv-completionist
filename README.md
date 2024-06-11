@@ -43,7 +43,8 @@ Tag `master` each release for historical reference
 `npm run start` - Main development command
 * Combines other commands to serve the electron app in dev mode
 
-`npm run electron:build` - Windows build  
+`npm run electron:build` - Windows build
+* Must be run as admin on win 11
 
 `npm run electron:build-linux` - Linux build  
 
