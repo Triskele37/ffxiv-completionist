@@ -18,7 +18,7 @@ export function createDataGroup(json, parent: DataGroup): DataGroup {
 
     const group: DataGroup = {
         xivDataType: 'Group',
-        name: json[`groupName_${lang}`],
+        name: json[`groupName_${lang}`] ?? json.groupName,
         _key: json.key,
         _parent: parent,
         contentLink: '',
