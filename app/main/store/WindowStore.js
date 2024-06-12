@@ -68,7 +68,7 @@ var WindowStore = /** @class */ (function () {
     //#region------------------------------------------------------- Main Window
     WindowStore.loadMainWindow = function (isServe) {
         var oldState = WindowStore.loadWindowState();
-        WindowStore.main = new electron_1.BrowserWindow(__assign(__assign({}, oldState), { autoHideMenuBar: true, backgroundColor: '#1e1e1e', show: true, webPreferences: {
+        WindowStore.main = new electron_1.BrowserWindow(__assign(__assign({}, oldState), { autoHideMenuBar: true, backgroundColor: '#1e1e1e', show: false, webPreferences: {
                 nodeIntegration: true,
                 // Necessary for ElectronService to function
                 contextIsolation: false,

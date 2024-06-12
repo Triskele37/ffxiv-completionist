@@ -400,7 +400,7 @@ export const QUEST_DEFINITION = {
                         'valentiones-day',
                         'valentiones-little-ladies-day',
                         'little-ladies-day',
-                        'little-ladies-and-hatchingtide',
+                        'little-ladies-and-hatching-tide',
                         'egg-hunts',
                         'gold-saucer-festivities',
                         'moonfire-faire',

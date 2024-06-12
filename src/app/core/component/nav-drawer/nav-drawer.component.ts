@@ -45,8 +45,13 @@ export class NavDrawerComponent implements OnInit {
                 // Remove the "overall" data container
                 if(!group.isUiGroup) path = path.slice(1);
 
-                this.items = this.mapUpdatedCollapsed(this.items, path);
+                this.items = this.updateItemCollapse(this.items, path);
             }
+        });
+
+        // Update visible state for "show completed/empty" settings
+        this.svcData.data.onUpdated$.subscribe(() => {
+            this.items = this.updateItemVisible(this.items);
         });
 
         this.svcBookmark.onGroupUpdated$.subscribe(this.updateBookmarkGroup.bind(this));
@@ -56,14 +61,13 @@ export class NavDrawerComponent implements OnInit {
         this.items = [this.addSubGroup(this.svcMainMenu.data)];
 
         this.svcData.data.subGroups.forEach((subGroup) => {
-            if(!this.shouldAddGroup(subGroup)) return;
             this.items.push(this.addSubGroup(subGroup));
         });
     }
 
     updateBookmarkGroup() {
         const bookmarksIndex = this.items.findIndex(
-            (item) => item.state.name === this.svcBookmark.group.name
+            (item) => item.state.group.name === this.svcBookmark.group.name
         );
 
         this.items[bookmarksIndex] = this.addSubGroup(this.svcBookmark.group);
@@ -77,10 +81,9 @@ export class NavDrawerComponent implements OnInit {
         const item: MenuItem = {
             label: this.getSubGroupLabel(group),
             escape: false,
-            visible: group.visible, // Allow UI groups to hide themselves,
-            state: {
-                name: group.name
-            }
+            // Allow UI groups to hide themselves
+            visible: group.visible && !isHiddenGroup(group, this.svcConfig),
+            state: { group }
         };
 
         group.onUpdated$.subscribe(() => {
@@ -94,7 +97,6 @@ export class NavDrawerComponent implements OnInit {
         if(group.subGroups?.size) {
             item.items = [];
             group.subGroups.forEach((subGroup) => {
-                if(!this.shouldAddGroup(subGroup)) return;
                 item.items.push(this.addSubGroup(subGroup, depth + 1));
             });
         }
@@ -112,10 +114,6 @@ export class NavDrawerComponent implements OnInit {
         return item;
     }
 
-    shouldAddGroup(group: DataGroup): boolean {
-        return !isHiddenGroup(group, this.svcConfig);
-    }
-
     getSubGroupLabel(group: DataGroup): string {
         let label = `<span class="group-label">${group.name}</span>`;
 
@@ -129,7 +127,7 @@ export class NavDrawerComponent implements OnInit {
     }
 
     // Recursive: Updates the collapsed state of all MenuItems to match "path"
-    mapUpdatedCollapsed(
+    updateItemCollapse(
         items: MenuItem[] | undefined,
         [...path]: string[],
     ): MenuItem[] | undefined {
@@ -137,8 +135,17 @@ export class NavDrawerComponent implements OnInit {
 
         return items?.map((menuItem) => ({
             ...menuItem,
-            expanded: menuItem.state.name === name,
-            items: this.mapUpdatedCollapsed(menuItem.items, path)
+            expanded: menuItem.state.group.name === name,
+            items: this.updateItemCollapse(menuItem.items, path)
+        }));
+    }
+
+    // Recursive: Updates the visible state of all MenuItems
+    updateItemVisible(items: MenuItem[] | undefined): MenuItem[] | undefined {
+        return items?.map((menuItem) => ({
+            ...menuItem,
+            visible: menuItem.state.group.visible && !isHiddenGroup(menuItem.state.group, this.svcConfig),
+            items: this.updateItemVisible(menuItem.items)
         }));
     }
 }

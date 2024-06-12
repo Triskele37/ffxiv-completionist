@@ -57,7 +57,9 @@ export function getRemaining(group: DataGroup): number {
     return countGroup(group, (task) => {
         if(task.isNumericCompletion) {
             if(task.completionFlag === Completion.X) return 0;
-            return task.maxValue - parseFloat(task.completionFlag);
+            const num = parseFloat(task.completionFlag);
+            const tot = task.maxValue - task.minValue;
+            return num > task.minValue ? tot - num : tot;
         }
 
         return task.completionFlag === Completion.N ? 1 : 0;

@@ -39,7 +39,7 @@ export class HeaderRowComponent implements OnChanges {
         else { // should be in show all mode
             let anySubGroupIsNumericCompletion = false;
 
-            group.subGroups.forEach((subGroup) => {
+            group.subGroups?.forEach((subGroup) => {
                 anySubGroupIsNumericCompletion ||= this.getHasNumericColumns(subGroup);
             });
 
