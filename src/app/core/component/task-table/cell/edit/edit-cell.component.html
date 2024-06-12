@@ -10,6 +10,8 @@
             class="noSelect"
             rows="1"
             [value]="task[key]"
+            (click)="onTextAreaClick()"
+            (focusout)="onTextAreaFocusOut()"
             (change)="onTextAreaChange($event)"
             (keyup)="onTextAreaKeyup($event)"
         ></textarea>
@@ -17,7 +19,7 @@
 </ng-template>
 
 <ng-template #staticValue>
-    <div (click)="onCellClick()">
+    <div class="static-cell" (click)="onCellClick()">
         {{task[key]}}
     </div>
 </ng-template>
