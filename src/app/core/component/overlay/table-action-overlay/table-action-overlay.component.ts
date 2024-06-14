@@ -2,6 +2,7 @@ import { Component, Input, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@
 import { Subscription } from 'rxjs';
 
 import { DataGroup } from '@model/DataGroup';
+import { Task } from '@model/Task';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
@@ -17,10 +18,12 @@ import { Overlay } from '../Overlay';
 })
 export class TableActionOverlayComponent extends Overlay implements OnInit, OnChanges, OnDestroy {
     @Input() group: DataGroup;
+    @Input() tasks: Task[];
 
     private storeSub: Subscription;
     showAddTask: boolean;
-    isAddTaskVisible = false;
+    isAddTaskVisible: boolean = false;
+    public isAdmin: boolean = false;
 
     isBookmarked: boolean;
 
@@ -34,6 +37,7 @@ export class TableActionOverlayComponent extends Overlay implements OnInit, OnCh
     ngOnInit() {
         this.storeSub = this.svcConfigStore.updated$.subscribe((data) => {
             this.showAddTask = data.isAdmin;
+            this.isAdmin = data.isAdmin;
         });
     }
 
@@ -50,6 +54,28 @@ export class TableActionOverlayComponent extends Overlay implements OnInit, OnCh
 
     bookmarkGroup(): void {
         this.isBookmarked = this.svcBookmark.toggleBookmark(this.group);
+    }
+
+    // DEV FUNCTION
+    copyData(): void {
+        const tasksOutput = [];
+
+        this.tasks.forEach((task) => {
+            const taskOutput = [
+                task.contentLink?.replace(' > undefined', ''),
+                task.level,
+                task.name,
+                task.zone,
+                task.coordinates,
+                task.closestAetheryte,
+                task.nodeTimer,
+                task.patch
+            ].join('\t');
+
+            tasksOutput.push(taskOutput);
+        });
+
+        console.log(tasksOutput.join('\n'));
     }
 
     onAddTaskClick(): void {

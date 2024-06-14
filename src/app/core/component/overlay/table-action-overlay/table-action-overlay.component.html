@@ -24,6 +24,13 @@
             ></p-button>
 
             <p-button
+                *ngIf="isAdmin"
+                [label]="'OVERLAY.TABLE.COPY_DATA' | translate"
+                icon="material-icons mi-file-copy"
+                (onClick)="copyData()"
+            ></p-button>
+
+            <p-button
                 *ngIf="showAddTask"
                 label="Add Task"
                 icon="mi mi-add"
