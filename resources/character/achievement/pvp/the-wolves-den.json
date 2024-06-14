@@ -3,74 +3,6 @@
     "groupName_en": "The Wolves' Den",
     "groupName_fr": "L'Antre des loups",
     "tasks": {
-        "x3041": {
-            "name_en": "Crystal Lining I",
-            "name_fr": "Soif de victoire I",
-            "description_en": "Triumph for the first time in Crystalline Conflict.",
-            "description_fr": "Triompher pour la première fois à Crystalline Conflict.",
-            "patch": "6.1",
-            "points": 5,
-            "cNext": [
-                3042
-            ]
-        },
-        "x3042": {
-            "name_en": "Crystal Lining II",
-            "name_fr": "Soif de victoire II",
-            "description_en": "Triumph in 50 matches in Crystalline Conflict.",
-            "description_fr": "Triompher 50 fois à Crystalline Conflict.",
-            "patch": "6.1",
-            "points": 5,
-            "cPrev": [
-                3041
-            ],
-            "cNext": [
-                3043
-            ]
-        },
-        "x3043": {
-            "name_en": "Crystal Lining III",
-            "name_fr": "Soif de victoire III",
-            "description_en": "Triumph in 100 matches in Crystalline Conflict.",
-            "description_fr": "Triompher 100 fois à Crystalline Conflict.",
-            "patch": "6.1",
-            "points": 10,
-            "cPrev": [
-                3042
-            ],
-            "cNext": [
-                3044
-            ]
-        },
-        "x3044": {
-            "name_en": "Crystal Lining IV",
-            "name_fr": "Soif de victoire IV",
-            "description_en": "Triumph in 500 matches in Crystalline Conflict.",
-            "description_fr": "Triompher 500 fois à Crystalline Conflict.",
-            "patch": "6.1",
-            "points": 10,
-            "cPrev": [
-                3043
-            ],
-            "cNext": [
-                3045
-            ]
-        },
-        "x3045": {
-            "name_en": "Crystal Lining V",
-            "name_fr": "Soif de victoire V",
-            "description_en": "Triumph in 1,000 matches in Crystalline Conflict.",
-            "description_fr": "Triompher 1 000 fois à Crystalline Conflict.",
-            "reward": "character.character.title.623",
-            "patch": "6.1",
-            "points": 20,
-            "cPrev": [
-                3044
-            ],
-            "cSiblings": [
-                "character.character.title.623"
-            ]
-        },
         "x2110": {
             "name_en": "Rhyme & Region 2018",
             "name_fr": "Festoyeur régional 2018",
@@ -1110,6 +1042,74 @@
             ],
             "cSiblings": [
                 "character.character.title.172"
+            ]
+        },
+        "x3041": {
+            "name_en": "Crystal Lining I",
+            "name_fr": "Soif de victoire I",
+            "description_en": "Triumph for the first time in Crystalline Conflict.",
+            "description_fr": "Triompher pour la première fois à Crystalline Conflict.",
+            "patch": "6.1",
+            "points": 5,
+            "cNext": [
+                3042
+            ]
+        },
+        "x3042": {
+            "name_en": "Crystal Lining II",
+            "name_fr": "Soif de victoire II",
+            "description_en": "Triumph in 50 matches in Crystalline Conflict.",
+            "description_fr": "Triompher 50 fois à Crystalline Conflict.",
+            "patch": "6.1",
+            "points": 5,
+            "cPrev": [
+                3041
+            ],
+            "cNext": [
+                3043
+            ]
+        },
+        "x3043": {
+            "name_en": "Crystal Lining III",
+            "name_fr": "Soif de victoire III",
+            "description_en": "Triumph in 100 matches in Crystalline Conflict.",
+            "description_fr": "Triompher 100 fois à Crystalline Conflict.",
+            "patch": "6.1",
+            "points": 10,
+            "cPrev": [
+                3042
+            ],
+            "cNext": [
+                3044
+            ]
+        },
+        "x3044": {
+            "name_en": "Crystal Lining IV",
+            "name_fr": "Soif de victoire IV",
+            "description_en": "Triumph in 500 matches in Crystalline Conflict.",
+            "description_fr": "Triompher 500 fois à Crystalline Conflict.",
+            "patch": "6.1",
+            "points": 10,
+            "cPrev": [
+                3043
+            ],
+            "cNext": [
+                3045
+            ]
+        },
+        "x3045": {
+            "name_en": "Crystal Lining V",
+            "name_fr": "Soif de victoire V",
+            "description_en": "Triumph in 1,000 matches in Crystalline Conflict.",
+            "description_fr": "Triompher 1 000 fois à Crystalline Conflict.",
+            "reward": "character.character.title.623",
+            "patch": "6.1",
+            "points": 20,
+            "cPrev": [
+                3044
+            ],
+            "cSiblings": [
+                "character.character.title.623"
             ]
         }
     }
