@@ -16,7 +16,8 @@
             ],
             "cNext": [
                 70181
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70181": {
             "level": 1,
@@ -29,7 +30,8 @@
             ],
             "cNext": [
                 70265
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70265": {
             "level": 1,
@@ -42,13 +44,13 @@
             ],
             "cNext": [
                 70299
-            ]
+            ],
+            "patch": "6.3"
         },
         "x70299": {
             "level": 1,
             "name_en": "An Ideal Marriage",
             "name_fr": "Petite balade entre amis",
-            "patch": "6.4",
             "npc_en": "Curious Courier",
             "npc_fr": "Mélissagère",
             "cPrev": [
@@ -56,30 +58,31 @@
             ],
             "cNext": [
                 70329
-            ]
+            ],
+            "patch": "6.4"
         },
         "x70329": {
             "level": 1,
             "name_en": "The Sweetest Thing",
             "name_fr": "Un final flan-tastique!",
-            "patch": "6.5",
             "npc_en": "Curious Courier",
             "npc_fr": "Mélissagère",
             "cPrev": [
                 70299
-            ]
+            ],
+            "patch": "6.5"
         },
         "x70330": {
             "level": 1,
             "name_en": "Where Worries Melt Away",
             "name_fr": "Repos, soldats",
-            "patch": "6.55",
             "npc_en": "Curious Courier",
             "npc_fr": "Mélissagère",
             "cPrev": [
                 "duty.quests.main-scenario.post-endwalker.70286",
                 70329
-            ]
+            ],
+            "patch": "6.55"
         }
     }
 }

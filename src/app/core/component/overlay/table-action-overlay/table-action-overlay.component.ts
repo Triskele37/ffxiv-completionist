@@ -1,7 +1,9 @@
 import { Component, Input, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
 import { Subscription } from 'rxjs';
 
+import { DataService } from '@data';
 import { DataGroup } from '@model/DataGroup';
+import { getChild } from '@model/DataGroup/children/getChild';
 import { Task } from '@model/Task';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
@@ -30,8 +32,11 @@ export class TableActionOverlayComponent extends Overlay implements OnInit, OnCh
     constructor(
         private svcBookmark: BookmarkService,
         public svcConfigStore: ConfigStoreService,
+        private svcData: DataService,
     ) {
         super();
+        this.showAddTask = this.svcConfigStore.data.isAdmin;
+        this.isAdmin = this.svcConfigStore.data.isAdmin;
     }
 
     ngOnInit() {
@@ -59,16 +64,17 @@ export class TableActionOverlayComponent extends Overlay implements OnInit, OnCh
     // DEV FUNCTION
     copyData(): void {
         const tasksOutput = [];
+        console.log('tasks', this.tasks);
 
         this.tasks.forEach((task) => {
+            const unlock = getChild(this.svcData.data, task.unlock);
+
             const taskOutput = [
                 task.contentLink?.replace(' > undefined', ''),
                 task.level,
                 task.name,
-                task.zone,
-                task.coordinates,
-                task.closestAetheryte,
-                task.nodeTimer,
+                task.npc,
+                unlock?.name ?? '',
                 task.patch
             ].join('\t');
 

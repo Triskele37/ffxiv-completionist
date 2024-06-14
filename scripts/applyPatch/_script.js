@@ -1,38 +1,56 @@
 const fs = require('fs');
 const path = require('path');
 
-const itemPatchData = require('../../../ffxiv-datamining-patches/patchdata/Item.json');
-const { patchMap } = require('./createPatchMap');
-const { getIdNameMap } = require('./getIdNameMap');
+const { getMaps } = require('./getMaps');
 
 const RESOURCES = path.join(process.cwd(), 'resources');
-const TARGET = path.join(RESOURCES, 'logs', 'gathering', 'gathering-log');
+const TARGET = path.join(RESOURCES, 'duty', 'quest');
+const TARGET_CONTENT = 'Quest';
 
-applyPatch();
+applyPatchById();
+// applyPatchByName();
 
-function applyPatch() {
-    const { idToNameMap, nameToIdMap } = getIdNameMap('Item');
-    dive(TARGET);
-
-    function dive(divePath) {
-        fs.readdirSync(divePath).forEach((entity) => {
-            const entityPath = path.join(divePath, entity);
-
-            if(fs.lstatSync(entityPath).isDirectory()) dive(entityPath);
-            else applyPatchesToGroup(entityPath)
-        });
-    }
+function applyPatchByName() {
+    const { patchMap, contentPatchMap, nameToIdMap } = getMaps(TARGET_CONTENT);
+    dive(TARGET, applyPatchesToGroup);
 
     function applyPatchesToGroup(groupPath) {
         const group = JSON.parse(fs.readFileSync(groupPath, 'utf8'));
         if(!group.tasks) return;
 
         Object.keys(group.tasks).forEach((xId) => {
-            const itemId = nameToIdMap[group.tasks[xId].name_en];
-            const itemPatch = itemPatchData[itemId];
-            group.tasks[xId].patch = patchMap[itemPatch];
+            const contentId = nameToIdMap[group.tasks[xId].name_en];
+            const contentPatch = contentPatchMap[contentId];
+            group.tasks[xId].patch = patchMap[contentPatch];
         });
 
         fs.writeFileSync(groupPath, JSON.stringify(group, null, 4));
     }
+}
+
+function applyPatchById() {
+    const { patchMap, contentPatchMap, idToNameMap } = getMaps(TARGET_CONTENT);
+    dive(TARGET, applyPatchesToGroup);
+
+    function applyPatchesToGroup(groupPath) {
+        const group = JSON.parse(fs.readFileSync(groupPath, 'utf8'));
+        if(!group.tasks) return;
+
+        Object.keys(group.tasks).forEach((xId) => {
+            const contentId = xId.replace('x', '');
+            const contentPatch = contentPatchMap[contentId];
+            group.tasks[xId].patch = patchMap[contentPatch];
+        });
+
+        fs.writeFileSync(groupPath, JSON.stringify(group, null, 4));
+    }
+}
+
+function dive(divePath, fileOp) {
+    fs.readdirSync(divePath).forEach((entity) => {
+        const entityPath = path.join(divePath, entity);
+
+        if(fs.lstatSync(entityPath).isDirectory()) dive(entityPath, fileOp);
+        else fileOp(entityPath)
+    });
 }

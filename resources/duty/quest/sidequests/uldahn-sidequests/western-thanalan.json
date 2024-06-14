@@ -14,7 +14,8 @@
             ],
             "cSiblings": [
                 "character.achievement.quests.quests.1005"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65758": {
             "level": 4,
@@ -24,28 +25,32 @@
             "npc_fr": "Oswell",
             "cNext": [
                 65760
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66749": {
             "level": 5,
             "name_en": "Where the Heart Is (The Goblet)",
             "name_fr": "La maison de mes rêves à La Coupe",
             "npc_en": "Imme",
-            "npc_fr": "Imme"
+            "npc_fr": "Imme",
+            "patch": "4.31"
         },
         "x65759": {
             "level": 5,
             "name_en": "A Dab'll Do Ya",
             "name_fr": "Une lotion qui a du piquant",
             "npc_en": "Guntram",
-            "npc_fr": "Guntram"
+            "npc_fr": "Guntram",
+            "patch": "4.31"
         },
         "x65767": {
             "level": 5,
             "name_en": "Ticked Off",
             "name_fr": "Plume à gratter",
             "npc_en": "Imme",
-            "npc_fr": "Imme"
+            "npc_fr": "Imme",
+            "patch": "4.31"
         },
         "x65760": {
             "level": 6,
@@ -58,7 +63,8 @@
             ],
             "cNext": [
                 65762
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65762": {
             "level": 6,
@@ -71,7 +77,8 @@
             ],
             "cNext": [
                 65766
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65763": {
             "level": 7,
@@ -81,7 +88,8 @@
             "npc_fr": "Fafafono",
             "cNext": [
                 65761
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65764": {
             "level": 7,
@@ -92,7 +100,8 @@
             "cNext": [
                 65765,
                 65766
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65761": {
             "level": 8,
@@ -102,7 +111,8 @@
             "npc_fr": "Fafafono",
             "cPrev": [
                 65763
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65765": {
             "level": 8,
@@ -115,7 +125,8 @@
             ],
             "cNext": [
                 65766
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65766": {
             "level": 9,
@@ -127,21 +138,24 @@
                 65764,
                 65765,
                 65762
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65875": {
             "level": 10,
             "name_en": "For Their Eyes Only",
             "name_fr": "Dans le rouge des yeux",
             "npc_en": "Zuzutyro",
-            "npc_fr": "Zuzutyro"
+            "npc_fr": "Zuzutyro",
+            "patch": "4.31"
         },
         "x65873": {
             "level": 10,
             "name_en": "By the Toe",
             "name_fr": "Le piégeur piégé",
             "npc_en": "Fufulupa",
-            "npc_fr": "Fufulupa"
+            "npc_fr": "Fufulupa",
+            "patch": "4.31"
         },
         "x65594": {
             "level": 10,
@@ -152,7 +166,8 @@
             "unlock_en": "Guildhests",
             "cPrev": [
                 "duty.quests.sidequests.uldahn.uldah.66223"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65877": {
             "level": 11,
@@ -162,7 +177,8 @@
             "npc_fr": "Chechezan",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.uldah.65865"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66040": {
             "level": 11,
@@ -172,7 +188,8 @@
             "npc_fr": "Torrid Whisper",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.uldah.65864"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66042": {
             "level": 12,
@@ -182,7 +199,8 @@
             "npc_fr": "Edalene",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.uldah.65868"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65878": {
             "level": 13,
@@ -192,7 +210,8 @@
             "npc_fr": "Osment",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.uldah.65868"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66041": {
             "level": 13,
@@ -202,7 +221,8 @@
             "npc_fr": "Totoruna",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.uldah.65868"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66235": {
             "level": 15,
@@ -213,7 +233,8 @@
             "unlock_en": "Dyeing",
             "cNext": [
                 "duty.quests.sidequests.mor-dhonan.mor-dhona.67094"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x68553": {
             "level": 15,
@@ -227,7 +248,8 @@
             ],
             "cExclude": [
                 "duty.quests.sidequests.mor-dhonan.mor-dhona.66957"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x68554": {
             "level": 15,
@@ -240,14 +262,16 @@
             ],
             "cExclude": [
                 "duty.quests.sidequests.mor-dhonan.mor-dhona.66958"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66960": {
             "level": 17,
             "name_en": "Seeds of Change",
             "name_fr": "Du grain aux graines",
             "npc_en": "Tatafu",
-            "npc_fr": "Tatafu"
+            "npc_fr": "Tatafu",
+            "patch": "4.31"
         },
         "x66233": {
             "level": 20,
@@ -258,7 +282,8 @@
             "npc_fr": "Nedrick Ironheart",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.66110"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66300": {
             "level": 35,
@@ -266,7 +291,8 @@
             "name_fr": "Départ pour Qarn",
             "unlock": "duty.dutyraid-finder.dungeons.arr.7",
             "npc_en": "Nedrick Ironheart",
-            "npc_fr": "Nedrick Ironheart"
+            "npc_fr": "Nedrick Ironheart",
+            "patch": "4.31"
         },
         "x66550": {
             "level": 47,
@@ -274,7 +300,8 @@
             "name_fr": "Bienvenue au Val",
             "unlock": "duty.dutyraid-finder.dungeons.arr.11",
             "npc_en": "Nedrick Ironheart",
-            "npc_fr": "Nedrick Ironheart"
+            "npc_fr": "Nedrick Ironheart",
+            "patch": "4.31"
         },
         "x66671": {
             "level": 50,
@@ -285,7 +312,8 @@
             "npc_fr": "Nedrick Ironheart",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66406": {
             "level": 50,
@@ -293,7 +321,8 @@
             "name_fr": "Le palais d'Allene",
             "unlock": "duty.dutyraid-finder.dungeons.arr.14",
             "npc_en": "Allene",
-            "npc_fr": "Allene"
+            "npc_fr": "Allene",
+            "patch": "4.31"
         },
         "x66241": {
             "level": 50,
@@ -315,7 +344,8 @@
                 "duty.quests.class--job.disciple-of-magic-job.scholar.66663",
                 "duty.quests.class--job.disciple-of-magic-job.summoner.66662",
                 "duty.quests.class--job.disciple-of-war-job.ninja.67115"
-            ]
+            ],
+            "patch": "4.31"
         }
     }
 }

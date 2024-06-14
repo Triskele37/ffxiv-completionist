@@ -80,6 +80,7 @@ var ConfigStore = /** @class */ (function () {
         if (successful)
             this.saveBackup();
         // Attach admin flag
+        console.log(ConfigStore.isServe);
         ConfigStore.store.isAdmin = ConfigStore.isServe;
         return {
             data: ConfigStore.store,

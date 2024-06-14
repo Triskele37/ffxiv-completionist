@@ -11,14 +11,16 @@
             "npc_fr": "Wymond",
             "cNext": [
                 "duty.quests.main-scenario.seventh-umbral-era.uldah.66106"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65932": {
             "level": 1,
             "name_en": "No Lady Is an Island",
             "name_fr": "Par ici la monnaie",
             "npc_en": "Genevieve",
-            "npc_fr": "Genevieve"
+            "npc_fr": "Genevieve",
+            "patch": "4.31"
         },
         "x65687": {
             "level": 1,
@@ -31,14 +33,16 @@
             ],
             "cNext": [
                 65689
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65685": {
             "level": 1,
             "name_en": "Due Diligence",
             "name_fr": "L'enveloppe de l'informateur",
             "npc_en": "Wymond",
-            "npc_fr": "Wymond"
+            "npc_fr": "Wymond",
+            "patch": "4.31"
         },
         "x65689": {
             "level": 1,
@@ -48,7 +52,8 @@
             "npc_fr": "Hihito",
             "cPrev": [
                 65687
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65686": {
             "level": 1,
@@ -58,28 +63,32 @@
             "npc_fr": "Gelther",
             "cNext": [
                 65687
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65701": {
             "level": 1,
             "name_en": "The Great Gladiator",
             "name_fr": "Débuts remarqués",
             "npc_en": "Zazarikku",
-            "npc_fr": "Zazarikku"
+            "npc_fr": "Zazarikku",
+            "patch": "4.31"
         },
         "x65703": {
             "level": 1,
             "name_en": "With Open Arms",
             "name_fr": "Bienvenue dans le monde de la mode",
             "npc_en": "Juliana",
-            "npc_fr": "Juliana"
+            "npc_fr": "Juliana",
+            "patch": "4.31"
         },
         "x65929": {
             "level": 2,
             "name_en": "Vox Populi",
             "name_fr": "Les goûts et les couleurs",
             "npc_en": "Aethelwine",
-            "npc_fr": "Aethelwine"
+            "npc_fr": "Aethelwine",
+            "patch": "4.31"
         },
         "x65930": {
             "level": 2,
@@ -89,7 +98,8 @@
             "npc_fr": "Alewyn",
             "cNext": [
                 65931
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65931": {
             "level": 2,
@@ -99,35 +109,40 @@
             "npc_fr": "Landebert",
             "cPrev": [
                 65930
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65928": {
             "level": 2,
             "name_en": "Decisions, Decisions",
             "name_fr": "La perfection au féminin",
             "npc_en": "Bitter Snow",
-            "npc_fr": "Bitter Snow"
+            "npc_fr": "Bitter Snow",
+            "patch": "4.31"
         },
         "x66107": {
             "level": 3,
             "name_en": "Beet Red Beetles Beat Red",
             "name_fr": "Coccinelles envahissantes",
             "npc_en": "Wolkan",
-            "npc_fr": "Wolkan"
+            "npc_fr": "Wolkan",
+            "patch": "4.31"
         },
         "x65699": {
             "level": 3,
             "name_en": "Tougher than Leather",
             "name_fr": "Cuir pour durs à cuire",
             "npc_en": "Jajakuta",
-            "npc_fr": "Jajakuta"
+            "npc_fr": "Jajakuta",
+            "patch": "4.31"
         },
         "x66108": {
             "level": 3,
             "name_en": "In the Name of Science",
             "name_fr": "Au nom de la science",
             "npc_en": "Erasmus",
-            "npc_fr": "Erasmus"
+            "npc_fr": "Erasmus",
+            "patch": "4.31"
         },
         "x65925": {
             "level": 4,
@@ -137,7 +152,8 @@
             "npc_fr": "Kekezani",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.uldah.66106"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65926": {
             "level": 4,
@@ -147,7 +163,8 @@
             "npc_fr": "Botulf",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.uldah.66106"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66223": {
             "level": 10,
@@ -174,7 +191,8 @@
                 "duty.quests.sidequests.lominsan.eastern-la-noscea.66232",
                 "duty.quests.sidequests.lominsan.lower-la-noscea.66231",
                 "duty.quests.sidequests.mor-dhonan.mor-dhona.65554"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66963": {
             "level": 14,
@@ -191,7 +209,8 @@
             ],
             "cSiblings": [
                 "social.emotes.special.103"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65970": {
             "level": 15,
@@ -214,7 +233,8 @@
                 "duty.quests.other.quasi-quests.66025",
                 "duty.quests.sidequests.uldahn.the-gold-saucer.68617",
                 "duty.quests.sidequests.uldahn.the-gold-saucer.68737"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66970": {
             "level": 17,
@@ -226,7 +246,8 @@
             "cExclude": [
                 "duty.quests.sidequests.gridanian.gridania.66968",
                 "duty.quests.sidequests.lominsan.limsa-lominsa.66969"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66238": {
             "level": 20,
@@ -241,7 +262,8 @@
             "cExclude": [
                 "duty.quests.sidequests.gridanian.gridania.66236",
                 "duty.quests.sidequests.lominsan.limsa-lominsa.66237"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65688": {
             "level": 30,
@@ -252,7 +274,8 @@
             "unlock_en": "Desynthesis",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.65808"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66459": {
             "level": 38,
@@ -262,7 +285,8 @@
             "npc_fr": "Syntgoht",
             "cPrev": [
                 "duty.quests.sidequests.uldahn.northern-thanalan.66458"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66457": {
             "level": 38,
@@ -270,7 +294,8 @@
             "name_fr": "Une vie de déshonneur",
             "unlock": "duty.dutyraid-finder.dungeons.arr.8",
             "npc_en": "Sibold",
-            "npc_fr": "Sibold"
+            "npc_fr": "Sibold",
+            "patch": "4.31"
         },
         "x66455": {
             "level": 38,
@@ -283,7 +308,8 @@
             ],
             "cNext": [
                 "duty.quests.sidequests.uldahn.northern-thanalan.66456"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x67060": {
             "level": 50,
@@ -297,7 +323,8 @@
             ],
             "cNext": [
                 "duty.quests.sidequests.records-of-unusual-endeavors.palace-of-the-dead.67093"
-            ]
+            ],
+            "patch": "4.31"
         }
     }
 }

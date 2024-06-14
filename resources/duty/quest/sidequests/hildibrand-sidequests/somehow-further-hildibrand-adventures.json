@@ -7,7 +7,6 @@
             "level": 90,
             "name_en": "The Sleeping Gentleman",
             "name_fr": "Il dit “pardonné”?",
-            "patch": "6.15",
             "npc_en": "Excitable Youth",
             "npc_fr": "Jeune Lalafell",
             "cPrev": [
@@ -16,13 +15,13 @@
             ],
             "cNext": [
                 70079
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70079": {
             "level": 90,
             "name_en": "A Soulful Reunion",
             "name_fr": "Un corps à prendre?",
-            "patch": "6.15",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
             "cPrev": [
@@ -30,13 +29,13 @@
             ],
             "cNext": [
                 70177
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70177": {
             "level": 90,
             "name_en": "Lunar Conspiracy",
             "name_fr": "Emmène-moi jusqu'à la lune",
-            "patch": "6.25",
             "npc_en": "Nashu Mhakaracca",
             "npc_fr": "Nashu Mhakaracca",
             "cPrev": [
@@ -44,13 +43,13 @@
             ],
             "cNext": [
                 70178
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70178": {
             "level": 90,
             "name_en": "The Imperfect Gentleman",
             "name_fr": "Une armée de gentilshommes",
-            "patch": "6.25",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
             "cPrev": [
@@ -59,13 +58,13 @@
             "cNext": [
                 "duty.quests.sidequests.hildibrand-sidequests.manderville-weapons.70188",
                 70254
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70254": {
             "level": 90,
             "name_en": "The Spectacle of Inspection",
             "name_fr": "Les dérives du clonage",
-            "patch": "6.3",
             "npc_en": "Delion",
             "npc_fr": "Delion",
             "cPrev": [
@@ -73,13 +72,13 @@
             ],
             "cNext": [
                 70255
-            ]
+            ],
+            "patch": "6.35"
         },
         "x70255": {
             "level": 90,
             "name_en": "Generational Bonding",
             "name_fr": "Tel gentilhomme, tel gentilhomme",
-            "patch": "6.3",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
             "cPrev": [
@@ -88,13 +87,13 @@
             "cNext": [
                 "duty.quests.sidequests.hildibrand-sidequests.manderville-weapons.70261",
                 70290
-            ]
+            ],
+            "patch": "6.35"
         },
         "x70290": {
             "level": 90,
             "name_en": "By Agents Unknown",
             "name_fr": "Un coupable microscopique",
-            "patch": "6.4",
             "npc_en": "Delion",
             "npc_fr": "Delion",
             "cPrev": [
@@ -102,13 +101,13 @@
             ],
             "cNext": [
                 70291
-            ]
+            ],
+            "patch": "6.45"
         },
         "x70291": {
             "level": 90,
             "name_en": "Not from Around Here",
             "name_fr": "Un visiteur, venu d'ailleurs",
-            "patch": "6.4",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
             "cPrev": [
@@ -117,13 +116,13 @@
             "cNext": [
                 "duty.quests.sidequests.hildibrand-sidequests.manderville-weapons.70307",
                 70335
-            ]
+            ],
+            "patch": "6.45"
         },
         "x70335": {
             "level": 90,
             "name_en": "Of Duplicity and Duplication",
             "name_fr": "Une poêle dans la tête",
-            "patch": "6.55",
             "npc_en": "Delion",
             "npc_fr": "Delion",
             "cPrev": [
@@ -131,13 +130,13 @@
             ],
             "cNext": [
                 70336
-            ]
+            ],
+            "patch": "6.55"
         },
         "x70336": {
             "level": 90,
             "name_en": "Gentlemen at Heart",
             "name_fr": "Le cadeau des Dieux",
-            "patch": "6.55",
             "unlock": "duty.dutyraid-finder.trials.ew.19",
             "npc_en": "Godbert",
             "npc_fr": "Godbert",
@@ -146,7 +145,8 @@
             ],
             "cNext": [
                 "duty.quests.sidequests.hildibrand-sidequests.manderville-weapons.70342"
-            ]
+            ],
+            "patch": "6.55"
         }
     }
 }

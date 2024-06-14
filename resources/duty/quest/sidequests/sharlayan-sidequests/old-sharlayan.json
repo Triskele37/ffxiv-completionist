@@ -11,7 +11,8 @@
             "npc_fr": "petite amie impatiente",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69894"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69717": {
             "name_en": "Scholarly Perspective",
@@ -21,7 +22,8 @@
             "npc_fr": "Bhaldswys",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69894"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69718": {
             "name_en": "A Literary Delivery",
@@ -31,7 +33,8 @@
             "npc_fr": "Toffwyb",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69894"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69719": {
             "name_en": "Doll Dash",
@@ -41,7 +44,8 @@
             "npc_fr": "petite Miqo'te",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69894"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69746": {
             "name_en": "A Volatile Education",
@@ -51,7 +55,8 @@
             "npc_fr": "Passemerrant",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69916"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69747": {
             "name_en": "The Light of Progress",
@@ -61,7 +66,8 @@
             "npc_fr": "Étudiant Miqo'te",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69916"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69748": {
             "name_en": "My Fair Mammet",
@@ -71,7 +77,8 @@
             "npc_fr": "Fraisoinne",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69916"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69749": {
             "name_en": "The Creature from the Wooden Crate",
@@ -81,7 +88,8 @@
             "npc_fr": "étudiant timoré",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69916"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69750": {
             "name_en": "Fast Fashion",
@@ -91,7 +99,8 @@
             "npc_fr": "étudiante lalafelle",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69916"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69751": {
             "name_en": "Booking Books",
@@ -101,7 +110,8 @@
             "npc_fr": "Isilswys",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69916"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69852": {
             "name_en": "For the Love of Pudding",
@@ -111,7 +121,8 @@
             "npc_fr": "employé du Dernier Rempart",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69976"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69853": {
             "name_en": "Secret in the Box",
@@ -121,7 +132,8 @@
             "npc_fr": "femme mystérieuse",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69976"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69854": {
             "name_en": "Leveilleur Philanthropy",
@@ -131,7 +143,8 @@
             "npc_fr": "domestique des Leveilleur",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69984"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69855": {
             "name_en": "Sandwiches and Pretzels",
@@ -141,7 +154,8 @@
             "npc_fr": "Dickon",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.69984"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69703": {
             "name_en": "Cutting the Cheese",
@@ -152,7 +166,8 @@
             "npc_fr": "Loporrite tout affolé",
             "cPrev": [
                 "duty.quests.main-scenario.endwalker.70000"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69704": {
             "name_en": "Where No Loporrit Has Gone Before",
@@ -166,13 +181,13 @@
             ],
             "cNext": [
                 "duty.quests.tribal-quests.omicron.70137"
-            ]
+            ],
+            "patch": "6.0"
         },
         "x70059": {
             "name_en": "Of Mothers and Merchants",
             "name_fr": "Ameliance et ses commandes spéciales",
             "level": 80,
-            "patch": "6.15",
             "npc_en": "Well-dressed Attendant",
             "npc_fr": "Domestique",
             "cPrev": [
@@ -184,13 +199,13 @@
             ],
             "cSiblings": [
                 "character.achievement.character.general.3059"
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70060": {
             "name_en": "A Mother's Love",
             "name_fr": "Une poupée magique très autonome",
             "level": 80,
-            "patch": "6.15",
             "npc_en": "Ameliance",
             "npc_fr": "Ameliance",
             "cPrev": [
@@ -198,18 +213,19 @@
             ],
             "cNext": [
                 70061
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70061": {
             "name_en": "A Gift from House Leveilleur",
             "name_fr": "Un cadeau des Leveilleur",
             "level": 80,
-            "patch": "6.15",
             "npc_en": "Meryld",
             "npc_fr": "Meryld",
             "cPrev": [
                 70060
-            ]
+            ],
+            "patch": "6.28"
         },
         "x69712": {
             "name_en": "The Hunt for Specimens",
@@ -223,7 +239,8 @@
             ],
             "cNext": [
                 69713
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69713": {
             "name_en": "That Specimen Came from the Moon",
@@ -236,7 +253,8 @@
             ],
             "cNext": [
                 69714
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69714": {
             "name_en": "A Hunt for the Ages",
@@ -249,7 +267,8 @@
             ],
             "cNext": [
                 69715
-            ]
+            ],
+            "patch": "6.0"
         },
         "x69715": {
             "name_en": "Perfect Specimens",
@@ -259,25 +278,24 @@
             "npc_fr": "Northota",
             "cPrev": [
                 69714
-            ]
+            ],
+            "patch": "6.0"
         },
-
         "x70331": {
             "name_en": "Wings of Hope",
             "name_fr": "À ailes éternelles, nul vol n'est impossible",
             "level": 80,
-            "patch": "6.5",
             "npc_en": "Singingway",
             "npc_fr": "Singingway",
             "cPrev": [
                 "duty.quests.main-scenario.post-endwalker.70284"
-            ]
+            ],
+            "patch": "6.5"
         },
         "x70351": {
             "name_en": "A Request of One's Own",
             "name_fr": "La complainte de la chercheuse",
             "level": 80,
-            "patch": "6.5",
             "npc_en": "Theopauldin",
             "npc_fr": "Theopauldin",
             "cPrev": [
@@ -286,7 +304,8 @@
             ],
             "cNext": [
                 "duty.quests.sidequests.sharlayan.labyrinthos.70352"
-            ]
+            ],
+            "patch": "6.5"
         }
     }
 }

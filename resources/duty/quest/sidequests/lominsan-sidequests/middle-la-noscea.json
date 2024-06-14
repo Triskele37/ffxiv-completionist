@@ -8,7 +8,8 @@
             "name_en": "Rocks in a Hard Place",
             "name_fr": "Aménagement agricole",
             "npc_en": "Grynewyda",
-            "npc_fr": "Grynewyda"
+            "npc_fr": "Grynewyda",
+            "patch": "4.31"
         },
         "x66008": {
             "level": 6,
@@ -21,14 +22,16 @@
             ],
             "cNext": [
                 66009
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66006": {
             "level": 7,
             "name_en": "Yarzon, Yarzoff",
             "name_fr": "Une rivière source de danger",
             "npc_en": "Ostfyr",
-            "npc_fr": "Ostfyr"
+            "npc_fr": "Ostfyr",
+            "patch": "4.31"
         },
         "x66009": {
             "level": 7,
@@ -38,7 +41,8 @@
             "npc_fr": "Bhirdraeg",
             "cPrev": [
                 66008
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66010": {
             "level": 8,
@@ -48,14 +52,16 @@
             "npc_fr": "Khanmhar",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66002"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65935": {
             "level": 10,
             "name_en": "Out to Dry",
             "name_fr": "Sans se serrer la pince",
             "npc_en": "W'dhovaka",
-            "npc_fr": "W'dhovaka"
+            "npc_fr": "W'dhovaka",
+            "patch": "4.31"
         },
         "x65936": {
             "level": 10,
@@ -68,7 +74,8 @@
             ],
             "cNext": [
                 65937
-            ]
+            ],
+            "patch": "4.31"
         },
         "x65937": {
             "level": 10,
@@ -78,7 +85,8 @@
             "npc_fr": "Kazai Buoyzai",
             "cPrev": [
                 65936
-            ]
+            ],
+            "patch": "4.31"
         }
     }
 }

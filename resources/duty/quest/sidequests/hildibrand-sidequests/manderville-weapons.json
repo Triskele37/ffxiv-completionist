@@ -15,7 +15,8 @@
             "cNext": [
                 70189,
                 70261
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70189": {
             "level": 90,
@@ -25,7 +26,8 @@
             "npc_fr": "Artisan des Manderville",
             "cPrev": [
                 70188
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70261": {
             "level": 90,
@@ -39,7 +41,8 @@
             ],
             "cNext": [
                 70262
-            ]
+            ],
+            "patch": "6.35"
         },
         "x70262": {
             "level": 90,
@@ -50,13 +53,13 @@
             "cPrev": [
                 70261,
                 70189
-            ]
+            ],
+            "patch": "6.35"
         },
         "x70307": {
             "level": 90,
             "name_en": "A Spirited Reforging",
             "name_fr": "Quand les forgerons boivent, les armes trinquent",
-            "patch": "6.4",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
             "cPrev": [
@@ -65,25 +68,25 @@
             ],
             "cNext": [
                 70308
-            ]
+            ],
+            "patch": "6.45"
         },
         "x70308": {
             "level": 90,
             "name_en": "In Need of Adjustment",
             "name_fr": "Les armes majestueuses des Manderville",
-            "patch": "6.4",
             "npc_en": "House Manderville artisan",
             "npc_fr": "artisan des Manderville",
             "cPrev": [
                 70262,
                 70307
-            ]
+            ],
+            "patch": "6.45"
         },
         "x70342": {
             "level": 90,
             "name_en": "Resonating with Perfection",
             "name_fr": "La dernière danse",
-            "patch": "6.55",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
             "cPrev": [
@@ -95,19 +98,20 @@
             ],
             "cSiblings": [
                 "character.achievement.quests.quests.3374"
-            ]
+            ],
+            "patch": "6.55"
         },
         "x70343": {
             "level": 90,
             "name_en": "Positively Mandervillous",
             "name_fr": "Les armes manderveilleuses des Manderville",
-            "patch": "6.55",
             "npc_en": "House Manderville artisan",
             "npc_fr": "artisan des Manderville",
             "cPrev": [
                 70342,
                 70308
-            ]
+            ],
+            "patch": "6.55"
         }
     }
 }

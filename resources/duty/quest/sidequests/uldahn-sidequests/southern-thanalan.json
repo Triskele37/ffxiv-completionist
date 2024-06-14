@@ -14,7 +14,8 @@
                 "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
                 "duty.quests.sidequests.gridanian.gridania.65756",
                 "duty.quests.sidequests.uldahn.uldah.66223"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66295": {
             "level": 25,
@@ -24,14 +25,16 @@
             "npc_fr": "Hihira",
             "cPrev": [
                 66294
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66296": {
             "level": 25,
             "name_en": "Blast from the Past",
             "name_fr": "Histoire de fantômes belahdiens",
             "npc_en": "Annabel",
-            "npc_fr": "Annabel"
+            "npc_fr": "Annabel",
+            "patch": "4.31"
         },
         "x66294": {
             "level": 25,
@@ -44,7 +47,8 @@
             ],
             "cNext": [
                 66295
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66315": {
             "level": 27,
@@ -54,7 +58,8 @@
             "npc_fr": "Hremfing",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.66314"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66316": {
             "level": 27,
@@ -64,7 +69,8 @@
             "npc_fr": "Amelot",
             "cNext": [
                 66317
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66317": {
             "level": 27,
@@ -74,7 +80,8 @@
             "npc_fr": "Amelot",
             "cPrev": [
                 66316
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66359": {
             "level": 31,
@@ -84,7 +91,8 @@
             "npc_fr": "U'tykha Tia",
             "cNext": [
                 66365
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66360": {
             "level": 31,
@@ -94,7 +102,8 @@
             "npc_fr": "U'khuba Tia",
             "cNext": [
                 66361
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66361": {
             "level": 31,
@@ -107,21 +116,24 @@
             ],
             "cNext": [
                 66364
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66362": {
             "level": 31,
             "name_en": "Minority Rapport",
             "name_fr": "Ségrégation sociale",
             "npc_en": "Riridesu",
-            "npc_fr": "Riridesu"
+            "npc_fr": "Riridesu",
+            "patch": "4.31"
         },
         "x66363": {
             "level": 31,
             "name_en": "Heat of the Moment",
             "name_fr": "Il fait trop chaud pour travailler",
             "npc_en": "Mumugoi",
-            "npc_fr": "Mumugoi"
+            "npc_fr": "Mumugoi",
+            "patch": "4.31"
         },
         "x66364": {
             "level": 31,
@@ -131,7 +143,8 @@
             "npc_fr": "U'rahtalo",
             "cPrev": [
                 66361
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66365": {
             "level": 31,
@@ -144,7 +157,8 @@
             ],
             "cNext": [
                 66366
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66366": {
             "level": 31,
@@ -154,7 +168,8 @@
             "npc_fr": "U'khuba Tia",
             "cPrev": [
                 66365
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66557": {
             "level": 47,
@@ -167,7 +182,8 @@
             ],
             "cNext": [
                 66559
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66558": {
             "level": 47,
@@ -178,7 +194,8 @@
             "npc_fr": "Hab",
             "cPrev": [
                 "duty.quests.sidequests.uldahn.the-waking-sands.67089"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66559": {
             "level": 47,
@@ -191,7 +208,8 @@
             ],
             "cNext": [
                 66560
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66560": {
             "level": 47,
@@ -201,7 +219,8 @@
             "npc_fr": "U'odh Nunh",
             "cPrev": [
                 66559
-            ]
+            ],
+            "patch": "4.31"
         },
         "x68422": {
             "level": 70,
@@ -215,7 +234,8 @@
             ],
             "cNext": [
                 68423
-            ]
+            ],
+            "patch": "4.31"
         },
         "x68423": {
             "level": 70,
@@ -229,7 +249,8 @@
             ],
             "cNext": [
                 "duty.quests.sidequests.gyr-abanian.the-peaks.68424"
-            ]
+            ],
+            "patch": "4.31"
         }
     }
 }
