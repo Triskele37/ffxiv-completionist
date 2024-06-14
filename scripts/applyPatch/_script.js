@@ -1,15 +1,18 @@
 const fs = require('fs');
 const path = require('path');
 
-import itemPatchData from '../../../ffxiv-datamining-patches/patchdata/Item.json';
+const itemPatchData = require('../../../ffxiv-datamining-patches/patchdata/Item.json');
 const { patchMap } = require('./createPatchMap');
 const { getIdNameMap } = require('./getIdNameMap');
+
+const RESOURCES = path.join(process.cwd(), 'resources');
+const TARGET = path.join(RESOURCES, 'logs', 'gathering', 'gathering-log');
 
 applyPatch();
 
 function applyPatch() {
     const { idToNameMap, nameToIdMap } = getIdNameMap('Item');
-    dive('../../resources/logs/gathering/gathering-log');
+    dive(TARGET);
 
     function dive(divePath) {
         fs.readdirSync(divePath).forEach((entity) => {
@@ -24,12 +27,12 @@ function applyPatch() {
         const group = JSON.parse(fs.readFileSync(groupPath, 'utf8'));
         if(!group.tasks) return;
 
-        group.tasks.forEach((task) => {
-            const itemId = nameToIdMap[task.name_en];
+        Object.keys(group.tasks).forEach((xId) => {
+            const itemId = nameToIdMap[group.tasks[xId].name_en];
             const itemPatch = itemPatchData[itemId];
-            task.patch = patchMap[itemPatch];
+            group.tasks[xId].patch = patchMap[itemPatch];
         });
 
-        fs.writeFileSync(groupPath, JSON.stringify(task, null, 4));
+        fs.writeFileSync(groupPath, JSON.stringify(group, null, 4));
     }
 }
