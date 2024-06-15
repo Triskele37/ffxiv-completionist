@@ -19,12 +19,13 @@ export function createTask(json: any, parent: DataGroup): Task {
     task.storageKey = `${task.id ?? -1}`;
     task.fullStorageKey = `${parent.fullStorageKey}.${task.storageKey}`;
 
-    //
+    // Convert lang keys to app keys (combine if app key exists)
     const langEnd = `_${lang}`;
     Object.keys(task).forEach((key) => {
         if(key.endsWith(langEnd)) {
             const flatKey = key.replace(langEnd, '');
-            task[flatKey] = task[key];
+            if(task[flatKey]) task[flatKey] = [task[flatKey], task[key]];
+            else task[flatKey] = task[key];
         }
     });
 

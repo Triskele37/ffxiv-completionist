@@ -67,14 +67,14 @@ export class TableActionOverlayComponent extends Overlay implements OnInit, OnCh
         console.log('tasks', this.tasks);
 
         this.tasks.forEach((task) => {
-            const unlock = getChild(this.svcData.data, task.unlock);
+            // const contentLink = task.contentLink?.replace(' > undefined', '') ?? '';
+            // const unlock = getChild(this.svcData.data, task.unlock);
 
             const taskOutput = [
-                task.contentLink?.replace(' > undefined', ''),
-                task.level,
+                // contentLink,
                 task.name,
-                task.npc,
-                unlock?.name ?? '',
+                task.category,
+                getChild(this.svcData.data, task.source)?.name ?? task.source,
                 task.patch
             ].join('\t');
 
