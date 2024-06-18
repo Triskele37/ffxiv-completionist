@@ -30,6 +30,9 @@ function initActions() {
     electron_1.ipcMain.on('open-in-teamcraft', Remote.openInTeamcraft);
 }
 exports.initActions = initActions;
+/**
+ * NOTE - remember to keep this OS agnostic
+ */
 function loadJson(event, groupPath) {
     try {
         if (fs.existsSync(groupPath)) {
