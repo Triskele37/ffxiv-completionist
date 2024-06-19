@@ -1,6 +1,5 @@
 import { ipcMain, IpcMainEvent } from 'electron';
 import * as fs from 'fs';
-import * as path from 'path';
 
 import { ConfigStore } from '../store/ConfigStore';
 import { PlayerStore } from '../store/PlayerStore';
@@ -40,8 +39,8 @@ function loadJson(event: IpcMainEvent, groupPath: string): void {
     try {
         if(fs.existsSync(groupPath)) {
             // Directory exists matching 'path', must be _index
-            const indexPath = path.join(groupPath, '_index.json');
-            const file = fs.readFileSync(indexPath, 'utf8');
+            const path = groupPath + '\\_index.json';
+            const file = fs.readFileSync(path, 'utf8');
             event.returnValue = JSON.parse(file);
         }
         else {
