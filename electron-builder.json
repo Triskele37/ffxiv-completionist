@@ -28,15 +28,19 @@
     ],
     "win": {
         "icon": "src/assets/icons/favicon.png",
-        "target": [
-            "nsis"
-        ]
+        "target": "nsis"
     },
     "mac": {
         "icon": "src/assets/icons/favicon.png",
         "target": [
-            "dmg"
-        ]
+            {
+                "target": "default",
+                "arch": [
+                    "x64",
+                    "arm64"
+                ]
+            }
+        ],
     },
     "dmg": {
         "window": {
@@ -47,7 +51,13 @@
     "linux": {
         "icon": "src/assets/icons/favicon.png",
         "target": [
-            "AppImage"
-        ]
+            {
+                "target": "AppImage",
+                "arch": [
+                    "x64",
+                    "arm64"
+                ]
+            }
+        ],
     }
 }
