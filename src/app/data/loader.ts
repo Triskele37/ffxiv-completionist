@@ -10,10 +10,12 @@ export const refs: {
     translate: null,
 };
 
+export type JSON = any;
+
 export function loadJson(path: string) {
     const prefix = getPrefix();
 
-    let finalJson: any;
+    let finalJson: JSON;
     try {
         const fullPath = [prefix, path].filter((s) => s).join('/');
         const json = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, fullPath);

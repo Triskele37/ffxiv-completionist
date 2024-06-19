@@ -12,7 +12,8 @@
             "npc_fr": "Ollier",
             "cNext": [
                 67671
-            ]
+            ],
+            "patch": "4.31"
         },
         "x67671": {
             "level": 15,
@@ -26,7 +27,8 @@
             ],
             "cSiblings": [
                 "character.achievement.quests.seasonal-events.1491"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x67960": {
             "level": 15,
@@ -43,7 +45,8 @@
             ],
             "cSiblings": [
                 "character.achievement.quests.seasonal-events.1684"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x68669": {
             "level": 15,
@@ -60,7 +63,8 @@
             ],
             "cNext": [
                 68670
-            ]
+            ],
+            "patch": "4.31"
         },
         "x68670": {
             "level": 15,
@@ -74,7 +78,8 @@
             ],
             "cSiblings": [
                 "character.achievement.quests.seasonal-events.2103"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x68743": {
             "level": 15,
@@ -91,7 +96,8 @@
             ],
             "cSiblings": [
                 "character.achievement.quests.seasonal-events.2240"
-            ]
+            ],
+            "patch": "4.5"
         },
         "x69499": {
             "level": 15,
@@ -111,7 +117,8 @@
             ],
             "cSiblings": [
                 "character.achievement.quests.seasonal-events.2645"
-            ]
+            ],
+            "patch": "5.3"
         },
         "x69500": {
             "level": 15,
@@ -122,7 +129,8 @@
             "npc_fr": "guide du Gold Saucer",
             "cPrev": [
                 69499
-            ]
+            ],
+            "patch": "5.3"
         },
         "x69590": {
             "level": 15,
@@ -140,7 +148,8 @@
             "cNext": [
                 69592,
                 69591
-            ]
+            ],
+            "patch": "5.5"
         },
         "x69591": {
             "level": 15,
@@ -154,7 +163,8 @@
             ],
             "cSiblings": [
                 "character.achievement.quests.seasonal-events.2855"
-            ]
+            ],
+            "patch": "5.5"
         },
         "x69592": {
             "level": 15,
@@ -165,7 +175,8 @@
             "npc_fr": "Ollier",
             "cPrev": [
                 69590
-            ]
+            ],
+            "patch": "5.5"
         },
         "x70120": {
             "level": 15,
@@ -182,7 +193,8 @@
             ],
             "cSiblings": [
                 "character.achievement.quests.seasonal-events.3079"
-            ]
+            ],
+            "patch": "6.1"
         },
         "x70263": {
             "level": 15,
@@ -199,7 +211,8 @@
             ],
             "cNext": [
                 70264
-            ]
+            ],
+            "patch": "6.3"
         },
         "x70264": {
             "level": 15,
@@ -213,13 +226,13 @@
             ],
             "cSiblings": [
                 "character.achievement.quests.seasonal-events.3206"
-            ]
+            ],
+            "patch": "6.3"
         },
         "x70350": {
             "level": 15,
             "name_en": "Of Impish Importance",
             "name_fr": "Les petits hommes verts du Gold Saucer",
-            "patch": "6.5",
             "year": "2024",
             "cPrevAny": true,
             "npc_en": "Quevain",
@@ -231,7 +244,8 @@
             ],
             "cSiblings": [
                 "character.achievement.quests.seasonal-events.3418"
-            ]
+            ],
+            "patch": "6.5"
         }
     }
 }

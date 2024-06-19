@@ -14,7 +14,8 @@
                 "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
                 "duty.quests.sidequests.gridanian.gridania.65756",
                 "duty.quests.sidequests.uldahn.uldah.66223"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66248": {
             "level": 20,
@@ -24,7 +25,8 @@
             "npc_fr": "Ysabel",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.66245"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66249": {
             "level": 20,
@@ -34,7 +36,8 @@
             "npc_fr": "Piralnaut",
             "cPrev": [
                 66250
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66250": {
             "level": 20,
@@ -44,14 +47,16 @@
             "npc_fr": "Piralnaut",
             "cNext": [
                 66249
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66247": {
             "level": 20,
             "name_en": "The Replacement Culler",
             "name_fr": "Pour l'honneur d'un homme blessé",
             "npc_en": "Florimond",
-            "npc_fr": "Florimond"
+            "npc_fr": "Florimond",
+            "patch": "4.31"
         },
         "x66252": {
             "level": 21,
@@ -61,7 +66,8 @@
             "npc_fr": "Blaisette",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.66246"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66256": {
             "level": 21,
@@ -74,7 +80,8 @@
             ],
             "cNext": [
                 66257
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66257": {
             "level": 21,
@@ -84,7 +91,8 @@
             "npc_fr": "Laxio",
             "cPrev": [
                 66256
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66258": {
             "level": 21,
@@ -97,7 +105,8 @@
             ],
             "cNext": [
                 66259
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66259": {
             "level": 21,
@@ -107,7 +116,8 @@
             "npc_fr": "Ameexia",
             "cPrev": [
                 66258
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66281": {
             "level": 24,
@@ -117,7 +127,8 @@
             "npc_fr": "Knolexia",
             "cPrev": [
                 "duty.quests.main-scenario.seventh-umbral-era.66050"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66506": {
             "level": 43,
@@ -130,7 +141,8 @@
             ],
             "cNext": [
                 66508
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66508": {
             "level": 43,
@@ -140,14 +152,16 @@
             "npc_fr": "Kain",
             "cPrev": [
                 66506
-            ]
+            ],
+            "patch": "4.31"
         },
         "x66509": {
             "level": 43,
             "name_en": "Windy Wedding",
             "name_fr": "Tempête florale",
             "npc_en": "Elfleda",
-            "npc_fr": "Elfleda"
+            "npc_fr": "Elfleda",
+            "patch": "4.31"
         }
     }
 }

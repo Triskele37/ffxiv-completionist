@@ -14,7 +14,8 @@
             ],
             "cNext": [
                 70012
-            ]
+            ],
+            "patch": "6.05"
         },
         "x70012": {
             "level": 90,
@@ -28,7 +29,8 @@
             ],
             "cNext": [
                 70013
-            ]
+            ],
+            "patch": "6.05"
         },
         "x70013": {
             "level": 90,
@@ -42,7 +44,8 @@
             ],
             "cNext": [
                 70014
-            ]
+            ],
+            "patch": "6.05"
         },
         "x70014": {
             "level": 90,
@@ -56,7 +59,8 @@
             ],
             "cNext": [
                 70015
-            ]
+            ],
+            "patch": "6.05"
         },
         "x70015": {
             "level": 90,
@@ -70,13 +74,13 @@
             ],
             "cNext": [
                 70171
-            ]
+            ],
+            "patch": "6.05"
         },
         "x70171": {
             "level": 90,
             "name_en": "An Unwelcome Visitor",
             "name_fr": "Retour à la case prison",
-            "patch": "6.2",
             "npc_en": "Claudien",
             "npc_fr": "Claudien",
             "cPrev": [
@@ -84,13 +88,13 @@
             ],
             "cNext": [
                 70172
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70172": {
             "level": 90,
             "name_en": "Masks of the Father",
             "name_fr": "Duplicité paternelle",
-            "patch": "6.2",
             "unlock": "duty.dutyraid-finder.raids.ew.10",
             "npc_en": "Erichthonios",
             "npc_fr": "Erichthonios",
@@ -99,13 +103,13 @@
             ],
             "cNext": [
                 70173
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70173": {
             "level": 90,
             "name_en": "A Keyward's Gaol",
             "name_fr": "Médiation père-fils",
-            "patch": "6.2",
             "unlock": "duty.dutyraid-finder.raids.ew.11",
             "npc_en": "Erichthonios",
             "npc_fr": "Erichthonios",
@@ -114,13 +118,13 @@
             ],
             "cNext": [
                 70174
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70174": {
             "level": 90,
             "name_en": "Servant of Violence",
             "name_fr": "Descente à l'Enfer",
-            "patch": "6.2",
             "unlock": "duty.dutyraid-finder.raids.ew.12",
             "npc_en": "Erichthonios",
             "npc_fr": "Erichthonios",
@@ -129,13 +133,13 @@
             ],
             "cNext": [
                 70175
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70175": {
             "level": 90,
             "name_en": "One Final Wish",
             "name_fr": "Un ennemi nommé désir",
-            "patch": "6.2",
             "unlock": "duty.dutyraid-finder.raids.ew.13",
             "npc_en": "Lahabrea",
             "npc_fr": "Lahabrea",
@@ -144,13 +148,13 @@
             ],
             "cNext": [
                 70176
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70176": {
             "level": 90,
             "name_en": "Truth Imperfect",
             "name_fr": "D'Héphaïstos à Lahabrea",
-            "patch": "6.2",
             "npc_en": "Lahabrea",
             "npc_fr": "Lahabrea",
             "cPrev": [
@@ -158,13 +162,13 @@
             ],
             "cNext": [
                 70292
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70292": {
             "level": 90,
             "name_en": "Eater of Souls",
             "name_fr": "Le dévoreur d'âmes",
-            "patch": "6.4",
             "unlock": "duty.dutyraid-finder.raids.ew.20",
             "npc_en": "Ruissenaud",
             "npc_fr": "Ruissenaud",
@@ -173,13 +177,13 @@
             ],
             "cNext": [
                 70293
-            ]
+            ],
+            "patch": "6.4"
         },
         "x70293": {
             "level": 90,
             "name_en": "Pandæmonium Awakens",
             "name_fr": "Un monstre appelé Pandæmonium",
-            "patch": "6.4",
             "unlock": "duty.dutyraid-finder.raids.ew.21",
             "npc_en": "Lahabrea",
             "npc_fr": "Lahabrea",
@@ -188,13 +192,13 @@
             ],
             "cNext": [
                 70294
-            ]
+            ],
+            "patch": "6.4"
         },
         "x70294": {
             "level": 90,
             "name_en": "The Emissary's Judgment",
             "name_fr": "Ennemi malgré lui",
-            "patch": "6.4",
             "unlock": "duty.dutyraid-finder.raids.ew.22",
             "npc_en": "Lahabrea",
             "npc_fr": "Lahabrea",
@@ -203,13 +207,13 @@
             ],
             "cNext": [
                 70295
-            ]
+            ],
+            "patch": "6.4"
         },
         "x70295": {
             "level": 90,
             "name_en": "A Mother's Touch",
             "name_fr": "Mère et fils",
-            "patch": "6.4",
             "unlock": "duty.dutyraid-finder.raids.ew.23",
             "npc_en": "Lahabrea",
             "npc_fr": "Lahabrea",
@@ -218,13 +222,13 @@
             ],
             "cNext": [
                 70296
-            ]
+            ],
+            "patch": "6.4"
         },
         "x70296": {
             "level": 90,
             "name_en": "Guided by the Past",
             "name_fr": "Rétrospections",
-            "patch": "6.4",
             "npc_en": "Lahabrea",
             "npc_fr": "Lahabrea",
             "cPrev": [
@@ -232,7 +236,8 @@
             ],
             "cSiblings": [
                 "character.achievement.quests.quests.3247"
-            ]
+            ],
+            "patch": "6.4"
         }
     }
 }

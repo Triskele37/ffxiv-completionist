@@ -35,8 +35,11 @@
     }
 }
 
-// Weird offset for using margins with chevron icon
 ::ng-deep .breadcrumb-overlay-panel {
+    // Weird offset for using margins with chevron icon
     --overlayArrowLeft: 0px !important;
     transform: translateX(-13px) !important;
+
+    // Weird white artifact if color is set
+    color: transparent;
 }

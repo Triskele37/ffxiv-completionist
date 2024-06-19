@@ -33,6 +33,9 @@ export function initActions() {
     ipcMain.on('open-in-teamcraft', Remote.openInTeamcraft);
 }
 
+/**
+ * NOTE - remember to keep this OS agnostic
+ */
 function loadJson(event: IpcMainEvent, groupPath: string): void {
     try {
         if(fs.existsSync(groupPath)) {

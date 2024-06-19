@@ -15,7 +15,8 @@
             ],
             "cNext": [
                 70185
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70185": {
             "level": 90,
@@ -25,13 +26,13 @@
             "npc_fr": "Kokoshu",
             "cPrev": [
                 70182
-            ]
+            ],
+            "patch": "6.28"
         },
         "x70269": {
             "level": 90,
             "name_en": "Mononoke Aware",
             "name_fr": "Randonnée spirituelle",
-            "patch": "6.45",
             "unlock": "duty.dutyraid-finder.v-and-c-dungeon.mount-rokkon.0",
             "npc_en": "Shallow Moor",
             "npc_fr": "Shallow Moor",
@@ -40,24 +41,24 @@
             ],
             "cNext": [
                 70270
-            ]
+            ],
+            "patch": "6.45"
         },
         "x70270": {
             "level": 90,
             "name_en": "Of Price and Ruin",
             "name_fr": "Orphelins d'Orient",
-            "patch": "6.45",
             "npc_en": "Tsubaki",
             "npc_fr": "Tsubaki",
             "cPrev": [
                 70269
-            ]
+            ],
+            "patch": "6.45"
         },
         "x70325": {
             "level": 90,
             "name_en": "Stranger from Paradise",
             "name_fr": "L'île du peuple oublié",
-            "patch": "6.51",
             "unlock": "duty.dutyraid-finder.v-and-c-dungeon.aloalo-island.0",
             "npc_en": "Shallow Moor",
             "npc_fr": "Shallow Moor",
@@ -67,18 +68,19 @@
             ],
             "cNext": [
                 70326
-            ]
+            ],
+            "patch": "6.51"
         },
         "x70326": {
             "level": 90,
             "name_en": "A Fish a Day",
             "name_fr": "Le cadeau de Matsya",
-            "patch": "6.51",
             "npc_en": "Kalika",
             "npc_fr": "Kalika",
             "cPrev": [
                 70325
-            ]
+            ],
+            "patch": "6.51"
         }
     }
 }

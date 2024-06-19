@@ -37,6 +37,7 @@ export const CRAFTING_LOG_DEFINITION: GroupDefinition = {
                         'charlemend',
                         'ameliance',
                         'anden',
+                        'margrat',
                     ]
                 },
                 {

@@ -14,7 +14,8 @@
             ],
             "cSiblings": [
                 "character.adventure-plate.90"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x68617": {
             "level": 15,
@@ -25,7 +26,8 @@
             "unlock_en": "The Fashion Report",
             "cPrev": [
                 "duty.quests.sidequests.uldahn.uldah.65970"
-            ]
+            ],
+            "patch": "4.31"
         },
         "x68737": {
             "level": 15,
@@ -36,14 +38,16 @@
             "unlock_en": "Mahjong",
             "cPrev": [
                 "duty.quests.sidequests.uldahn.uldah.65970"
-            ]
+            ],
+            "patch": "4.5"
         },
         "x69617": {
             "level": 1,
             "name_en": "The Adventurer with All the Cards",
             "name_fr": "Toutes les cartes en main",
             "npc_en": "Gold Saucer Attendant",
-            "npc_fr": "réceptionniste"
+            "npc_fr": "réceptionniste",
+            "patch": "5.55"
         }
     }
 }

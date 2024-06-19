@@ -1,6 +1,7 @@
 ------------------------------------------------------------------ Data
 **Add**
 * "Legacy Quest" section
+* Chocobo Training & Racing Courses?
 
 **Missing**
 * Delivery Moogle quests after "Thwack-a-Mole" have no chain information (anywhere)
@@ -41,6 +42,8 @@
 * unsellable/tradable collectables to source? (one-way)
   * mounts/minions/cards/fate achievements
   * i.e. an achievement doesn't chain the mount, but the mount chains the achievement
+* V&C Achievements to duties
+* Relic weapon to quests?
 
 ------------------------------------------------------------------ Localization
 * Currencies to i18n, move values from local to cmn
@@ -61,13 +64,3 @@
   * Strictly match against lowercase and dashes when loading
     * ensures no shenanigans with fs loading a path partial within a file outside the app
     * change any keys that do not match this pattern
-
-------------------------------------------------------------------  1.0.4
-450 extra remaining?
-complete: 0, total: 39445, remaining: 39895, excluded: 0 <-
-complete: 39445, total: 39445, remaining: 0, excluded: 0
-complete: 0, total: 0, remaining: 0, excluded: 39445
-
-something janky with guildhests persisting
-
-table still jumps bottom of some groups

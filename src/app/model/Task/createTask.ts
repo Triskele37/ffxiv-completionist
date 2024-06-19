@@ -6,8 +6,6 @@ import { getContentLink } from '@model/Link/getContentLink';
 import { Task } from './';
 
 export function createTask(json: any, parent: DataGroup): Task {
-    const lang = Globals.config.lang;
-
     // Map all properties from json to this class
     const task = {
         ...json,
@@ -19,14 +17,8 @@ export function createTask(json: any, parent: DataGroup): Task {
     task.storageKey = `${task.id ?? -1}`;
     task.fullStorageKey = `${parent.fullStorageKey}.${task.storageKey}`;
 
-    //
-    const langEnd = `_${lang}`;
-    Object.keys(task).forEach((key) => {
-        if(key.endsWith(langEnd)) {
-            const flatKey = key.replace(langEnd, '');
-            task[flatKey] = task[key];
-        }
-    });
+    // Convert lang keys to app keys (combine if app key exists)
+    flattenLangKeys(task);
 
     // Inherit properties from parent group if not explicitly defined on task json
     inheritFromParent(task, 'defaultCompletion');
@@ -104,4 +96,28 @@ function deepConcatWithParent(task: Task, key: keyof Task): void {
             }
         });
     }
+}
+
+function flattenLangKeys(task: Task) {
+    const lang = Globals.config.lang;
+    const langEnd = `_${lang}`;
+
+    Object.keys(task).forEach((key) => {
+        if(key.endsWith(langEnd)) {
+            const flatKey = key.replace(langEnd, '');
+
+            if(task[flatKey]) {
+                const curIsArr = Array.isArray(task[flatKey]);
+                const langIsArr = Array.isArray(task[key]);
+
+                if(curIsArr && langIsArr) task[flatKey] = [...task[flatKey], ...task[key]];
+                else if(curIsArr && !langIsArr) task[flatKey].push(task[key]);
+                else if(!curIsArr && langIsArr) task[flatKey] = [task[flatKey], ...task[key]];
+                else task[flatKey] = [task[flatKey], task[key]];
+            }
+            else {
+                task[flatKey] = task[key];
+            }
+        }
+    });
 }

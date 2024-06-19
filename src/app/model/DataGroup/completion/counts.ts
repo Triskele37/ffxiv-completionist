@@ -59,7 +59,7 @@ export function getRemaining(group: DataGroup): number {
             if(task.completionFlag === Completion.X) return 0;
             const num = parseFloat(task.completionFlag);
             const tot = task.maxValue - task.minValue;
-            return num > task.minValue ? tot - num : tot;
+            return num > task.minValue ? tot - (num - task.minValue) : tot;
         }
 
         return task.completionFlag === Completion.N ? 1 : 0;
