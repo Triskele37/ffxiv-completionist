@@ -37,14 +37,14 @@ function loadJson(event, groupPath) {
     try {
         if (fs.existsSync(groupPath)) {
             // Directory exists matching 'path', must be _index
-            var indexPath = path.join(groupPath, '_index.json');
-            var file = fs.readFileSync(indexPath, 'utf8');
+            var filePath = path.join(groupPath, '_index.json');
+            var file = fs.readFileSync(filePath, 'utf8');
             event.returnValue = JSON.parse(file);
         }
         else {
             // Directory does not exist matching path, group named json
-            var path_1 = groupPath + '.json';
-            var file = fs.readFileSync(path_1, 'utf8');
+            var filePath = groupPath + '.json';
+            var file = fs.readFileSync(filePath, 'utf8');
             event.returnValue = JSON.parse(file);
         }
     }
