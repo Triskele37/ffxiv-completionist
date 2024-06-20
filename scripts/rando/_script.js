@@ -1,34 +1,32 @@
 const fs = require('fs');
 const path = require('path');
 
-const PATCH = path.join('C:', 'workspace', 'ffxiv-datamining-patches');
-const PATCH_DATA = path.join(PATCH, 'patchdata');
-const PATCH_LIST = path.join(PATCH, 'patchlist.json');
+const { getContentPatchVersionMap } = require('../getContentPatchVersionMap');
 
-const MINED = path.join('C:', 'workspace', 'ffxiv-resource', 'mined');
-
-const CONTENT = 'CharaCardDecoration';
+const APP = path.join('C:', 'workspace', 'ffxiv-completionist', 'resources');
 
 doRando();
 
 function doRando() {
-    const output = {};
+    const patchMap = getContentPatchVersionMap('Item');
 
-    const contentPatchPath = path.join(PATCH_DATA, `${CONTENT}.json`);
-    const contentPatch = JSON.parse(fs.readFileSync(contentPatchPath, 'utf8'));
-    const patchList = JSON.parse(fs.readFileSync(PATCH_LIST, 'utf8'));
+    const recipeRoot = path.join(APP, 'logs', 'crafting');
+    diveApp(recipeRoot);
 
-    fs.readdirSync(path.join(MINED, CONTENT)).forEach((entity) => {
-        const taskPath = path.join(MINED, CONTENT, entity, 'en.json');
-        const json = JSON.parse(fs.readFileSync(taskPath, 'utf8'));
-        const patchId = contentPatch[entity];
-        const patch = patchList.find((p) => p.ID === patchId)?.Version;
+    function diveApp(appPath) {
+        fs.readdirSync(appPath).forEach((entity) => {
+            if(entity === 'master-crafting-books.json') return;
 
-        output[entity] = {
-            name: json.Name,
-            patch: patch,
-        };
-    });
-
-    fs.writeFileSync('test.json', JSON.stringify(output, null, 4));
+            const entityPath = path.join(appPath, entity);
+            if(fs.lstatSync(entityPath).isDirectory()) diveApp(entityPath);
+            else {
+                const json = JSON.parse(fs.readFileSync(entityPath, 'utf8'));
+                Object.keys(json.tasks ?? {}).forEach((xId) => {
+                    const id = xId.replace('x', '');
+                    json.tasks[xId].patch = patchMap[id];
+                });
+                fs.writeFileSync(entityPath, JSON.stringify(json, null, 4));
+            }
+        });
+    }
 }
