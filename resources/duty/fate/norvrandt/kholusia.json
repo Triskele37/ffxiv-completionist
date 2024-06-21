@@ -1,0 +1,158 @@
+{
+    "key": "kholusia",
+    "groupName_en": "Kholusia",
+    "groupName_fr": "Kholusia",
+    "tasks": {
+        "x1465": {
+            "level": 70,
+            "name_en": "Shadow over Stilltide",
+            "name_fr": "Défendre Douceonde",
+            "location": "(8.2, 31.1)",
+            "patch": "5.0",
+            "type_en": "Slay Enemies",
+            "type_fr": "Ennemis à abattre"
+        },
+        "x1467": {
+            "level": 70,
+            "name_en": "The Wright Stuff",
+            "name_fr": "Des chenapans à Cherpant",
+            "location": "(12.6, 27.3)",
+            "patch": "5.0",
+            "type_en": "Slay Enemies",
+            "type_fr": "Ennemis à abattre"
+        },
+        "x1469": {
+            "level": 70,
+            "name_en": "Bitter Barley",
+            "name_fr": "Orgie d'orge organisée",
+            "location": "(18.1, 30.8)",
+            "patch": "5.0",
+            "type_en": "Defense",
+            "type_fr": "Défense"
+        },
+        "x1470": {
+            "level": 70,
+            "name_en": "JELL-NO",
+            "name_fr": "La menace née-des-vents",
+            "location": "(31.3, 33.3)",
+            "patch": "5.0",
+            "type_en": "Slay Enemies",
+            "type_fr": "Ennemis à abattre"
+        },
+        "x1471": {
+            "level": 70,
+            "name_en": "Roadside Dinner",
+            "name_fr": "Les vilains petits tragopans",
+            "location": "(25.0, 27.1)",
+            "patch": "5.0",
+            "type_en": "Slay Enemies",
+            "type_fr": "Ennemis à abattre"
+        },
+        "x1472": {
+            "level": 70,
+            "name_en": "One-punch Mantis",
+            "name_fr": "Crever les crevettes",
+            "location": "(8.6, 30.3)",
+            "patch": "5.0",
+            "type_en": "Slay Enemies",
+            "type_fr": "Ennemis à abattre"
+        },
+        "x1473": {
+            "level": 78,
+            "name_en": "Knockout",
+            "name_fr": "Frapper les frappeurs",
+            "location": "(23.3, 9.0)",
+            "patch": "5.0",
+            "type_en": "Slay Enemies",
+            "type_fr": "Ennemis à abattre"
+        },
+        "x1474": {
+            "level": 78,
+            "name_en": "Season of Our Discord",
+            "name_fr": "Les cris de la discorde",
+            "location": "(15.5, 10.0)",
+            "patch": "5.0",
+            "type_en": "Slay Enemies",
+            "type_fr": "Ennemis à abattre"
+        },
+        "x1475": {
+            "level": 78,
+            "name_en": "The Amity Village Horror",
+            "name_fr": "Par amitié pour Amistie",
+            "location": "(18.6, 19.1)",
+            "patch": "5.0",
+            "type_en": "Defense",
+            "type_fr": "Défense"
+        },
+        "x1476": {
+            "level": 78,
+            "name_en": "Not Today",
+            "name_fr": "Défi: Mort à Mort rampante!",
+            "location": "(11.5, 15.1)",
+            "patch": "5.0",
+            "type_en": "Notorious Monster",
+            "type_fr": "Défi"
+        },
+        "x1478": {
+            "level": 78,
+            "name_en": "Ironbeard Builders - Resist",
+            "name_fr": "Bataille d'ingénieurs: dernière mise au point",
+            "location": "(18.0, 14.8)",
+            "patch": "5.0",
+            "type_en": "Slay Enemies",
+            "type_fr": "Ennemis à abattre"
+        },
+        "x1479": {
+            "level": 78,
+            "name_en": "Ironbeard Builders - Revolt",
+            "name_fr": "Bataille d'ingénieurs: la lutte finale",
+            "location": "(16.2, 21.4)",
+            "patch": "5.0",
+            "previousFate": "duty.fate.norvrandt.kholusia.1478",
+            "type_en": "Defense",
+            "type_fr": "Défense"
+        },
+        "x1477": {
+            "level": 78,
+            "name_en": "Ironbeard Builders - Rebuilt",
+            "name_fr": "Bataille d'ingénieurs: automate en construction",
+            "location": "(25.6, 17.0)",
+            "patch": "5.0",
+            "previousFate": "duty.fate.norvrandt.kholusia.1479",
+            "type_en": "Gather Items",
+            "type_fr": "Ramassage d'objets"
+        },
+        "x1462": {
+            "level": 78,
+            "name_en": "Foes Most Formidable",
+            "name_fr": "Formidable: la menace",
+            "location": "(22.6, 13.5)",
+            "patch": "5.0",
+            "type_en": "Defense",
+            "type_fr": "Défense"
+        },
+        "x1463": {
+            "level": 78,
+            "name_en": "A Family Most Formidable",
+            "name_fr": "Formidable: la filature",
+            "location": "(25.7, 20.8)",
+            "patch": "5.0",
+            "previousFate": "duty.fate.norvrandt.kholusia.1462",
+            "type_en": "Defense",
+            "type_fr": "Défense"
+        },
+        "x1464": {
+            "level": 80,
+            "name_en": "A Finale Most Formidable",
+            "name_fr": "Formidable: l'arme secrète",
+            "location": "(33, 26)",
+            "patch": "5.0",
+            "previousFate": [
+                "duty.fate.norvrandt.kholusia.1477",
+                "duty.fate.norvrandt.kholusia.1463"
+            ],
+            "type_en": "Notorious Monster",
+            "type_fr": "Défi"
+        }
+    }
+}

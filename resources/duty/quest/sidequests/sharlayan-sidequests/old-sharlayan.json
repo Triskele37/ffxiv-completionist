@@ -1,0 +1,311 @@
+{
+    "key": "old-sharlayan",
+    "groupName_en": "Old Sharlayan",
+    "groupName_fr": "Vieille Sharlayan",
+    "tasks": {
+        "x69716": {
+            "name_en": "A Waiting Love",
+            "name_fr": "Récif, boulot, dodo",
+            "level": 80,
+            "npc_en": "Waiting Woman",
+            "npc_fr": "petite amie impatiente",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69894"
+            ],
+            "patch": "6.0"
+        },
+        "x69717": {
+            "name_en": "Scholarly Perspective",
+            "name_fr": "Cours d'histoire particulier",
+            "level": 80,
+            "npc_en": "Bhaldswys",
+            "npc_fr": "Bhaldswys",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69894"
+            ],
+            "patch": "6.0"
+        },
+        "x69718": {
+            "name_en": "A Literary Delivery",
+            "name_fr": "Une livre de livres à livrer",
+            "level": 80,
+            "npc_en": "Toffwyb",
+            "npc_fr": "Toffwyb",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69894"
+            ],
+            "patch": "6.0"
+        },
+        "x69719": {
+            "name_en": "Doll Dash",
+            "name_fr": "Histoire de jouet",
+            "level": 80,
+            "npc_en": "Mischievous Miqo'te",
+            "npc_fr": "petite Miqo'te",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69894"
+            ],
+            "patch": "6.0"
+        },
+        "x69746": {
+            "name_en": "A Volatile Education",
+            "name_fr": "Aucun danger, voyons!",
+            "level": 80,
+            "npc_en": "Passemerrant",
+            "npc_fr": "Passemerrant",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69916"
+            ],
+            "patch": "6.0"
+        },
+        "x69747": {
+            "name_en": "The Light of Progress",
+            "name_fr": "Turbulent prodige",
+            "level": 80,
+            "npc_en": "Bookish Miqo'te",
+            "npc_fr": "Étudiant Miqo'te",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69916"
+            ],
+            "patch": "6.0"
+        },
+        "x69748": {
+            "name_en": "My Fair Mammet",
+            "name_fr": "Chère amie",
+            "level": 80,
+            "npc_en": "Fraisoinne",
+            "npc_fr": "Fraisoinne",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69916"
+            ],
+            "patch": "6.0"
+        },
+        "x69749": {
+            "name_en": "The Creature from the Wooden Crate",
+            "name_fr": "Rencontre d'un autre type",
+            "level": 80,
+            "npc_en": "Timid Student",
+            "npc_fr": "étudiant timoré",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69916"
+            ],
+            "patch": "6.0"
+        },
+        "x69750": {
+            "name_en": "Fast Fashion",
+            "name_fr": "Design et des cristaux",
+            "level": 80,
+            "npc_en": "Lalafellin Student",
+            "npc_fr": "étudiante lalafelle",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69916"
+            ],
+            "patch": "6.0"
+        },
+        "x69751": {
+            "name_en": "Booking Books",
+            "name_fr": "Attention, livres méchants",
+            "level": 80,
+            "npc_en": "Isilswys",
+            "npc_fr": "Isilswys",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69916"
+            ],
+            "patch": "6.0"
+        },
+        "x69852": {
+            "name_en": "For the Love of Pudding",
+            "name_fr": "Opération: Finale Flantaisie",
+            "level": 80,
+            "npc_en": "Last Stand Employee",
+            "npc_fr": "employé du Dernier Rempart",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69976"
+            ],
+            "patch": "6.0"
+        },
+        "x69853": {
+            "name_en": "Secret in the Box",
+            "name_fr": "Le coffre aux mystères",
+            "level": 80,
+            "npc_en": "Mysterious Maiden",
+            "npc_fr": "femme mystérieuse",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69976"
+            ],
+            "patch": "6.0"
+        },
+        "x69854": {
+            "name_en": "Leveilleur Philanthropy",
+            "name_fr": "Un lys vaut mieux que mille discours",
+            "level": 80,
+            "npc_en": "House Leveilleur Servant",
+            "npc_fr": "domestique des Leveilleur",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69984"
+            ],
+            "patch": "6.0"
+        },
+        "x69855": {
+            "name_en": "Sandwiches and Pretzels",
+            "name_fr": "La gloire de mon fils",
+            "level": 80,
+            "npc_en": "Dickon",
+            "npc_fr": "Dickon",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69984"
+            ],
+            "patch": "6.0"
+        },
+        "x69703": {
+            "name_en": "Cutting the Cheese",
+            "name_fr": "La face cachée de la lune",
+            "level": 90,
+            "unlock": "duty.dutyraid-finder.dungeons.ew.6",
+            "npc_en": "Panic-stricken Loporrit",
+            "npc_fr": "Loporrite tout affolé",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.70000"
+            ],
+            "patch": "6.0"
+        },
+        "x69704": {
+            "name_en": "Where No Loporrit Has Gone Before",
+            "name_fr": "Les Omicrons rêvent-ils de moutons électriques?",
+            "level": 90,
+            "unlock": "duty.dutyraid-finder.dungeons.ew.7",
+            "npc_en": "Jammingway",
+            "npc_fr": "Jammingway",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.70000"
+            ],
+            "cNext": [
+                "duty.quests.tribal-quests.omicron.70137"
+            ],
+            "patch": "6.0"
+        },
+        "x70059": {
+            "name_en": "Of Mothers and Merchants",
+            "name_fr": "Ameliance et ses commandes spéciales",
+            "level": 80,
+            "npc_en": "Well-dressed Attendant",
+            "npc_fr": "Domestique",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.70000",
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67634"
+            ],
+            "cNext": [
+                70060
+            ],
+            "cSiblings": [
+                "character.achievement.character.general.3059"
+            ],
+            "patch": "6.28"
+        },
+        "x70060": {
+            "name_en": "A Mother's Love",
+            "name_fr": "Une poupée magique très autonome",
+            "level": 80,
+            "npc_en": "Ameliance",
+            "npc_fr": "Ameliance",
+            "cPrev": [
+                70059
+            ],
+            "cNext": [
+                70061
+            ],
+            "patch": "6.28"
+        },
+        "x70061": {
+            "name_en": "A Gift from House Leveilleur",
+            "name_fr": "Un cadeau des Leveilleur",
+            "level": 80,
+            "npc_en": "Meryld",
+            "npc_fr": "Meryld",
+            "cPrev": [
+                70060
+            ],
+            "patch": "6.28"
+        },
+        "x69712": {
+            "name_en": "The Hunt for Specimens",
+            "name_fr": "Chasse académique",
+            "level": 80,
+            "npc_en": "Diminutive Gleaner",
+            "npc_fr": "Lalafell menu",
+            "cPrev": [
+                "duty.quests.sidequests.ishgardian.ishgard.67658",
+                "duty.quests.main-scenario.endwalker.69894"
+            ],
+            "cNext": [
+                69713
+            ],
+            "patch": "6.0"
+        },
+        "x69713": {
+            "name_en": "That Specimen Came from the Moon",
+            "name_fr": "La lune des chasseurs",
+            "level": 83,
+            "npc_en": "Northota",
+            "npc_fr": "Northota",
+            "cPrev": [
+                69712
+            ],
+            "cNext": [
+                69714
+            ],
+            "patch": "6.0"
+        },
+        "x69714": {
+            "name_en": "A Hunt for the Ages",
+            "name_fr": "Chasse au dino",
+            "level": 89,
+            "npc_en": "Northota",
+            "npc_fr": "Northota",
+            "cPrev": [
+                69713
+            ],
+            "cNext": [
+                69715
+            ],
+            "patch": "6.0"
+        },
+        "x69715": {
+            "name_en": "Perfect Specimens",
+            "name_fr": "La saison de l'élite",
+            "level": 90,
+            "npc_en": "Northota",
+            "npc_fr": "Northota",
+            "cPrev": [
+                69714
+            ],
+            "patch": "6.0"
+        },
+        "x70331": {
+            "name_en": "Wings of Hope",
+            "name_fr": "À ailes éternelles, nul vol n'est impossible",
+            "level": 80,
+            "npc_en": "Singingway",
+            "npc_fr": "Singingway",
+            "cPrev": [
+                "duty.quests.main-scenario.post-endwalker.70284"
+            ],
+            "patch": "6.5"
+        },
+        "x70351": {
+            "name_en": "A Request of One's Own",
+            "name_fr": "La complainte de la chercheuse",
+            "level": 80,
+            "npc_en": "Theopauldin",
+            "npc_fr": "Theopauldin",
+            "cPrev": [
+                "duty.quests.main-scenario.post-endwalker.70272",
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67634"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.sharlayan.labyrinthos.70352"
+            ],
+            "patch": "6.5"
+        }
+    }
+}

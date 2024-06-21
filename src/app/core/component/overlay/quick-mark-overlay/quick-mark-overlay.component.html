@@ -114,7 +114,7 @@
             </p-button>
 
             <p-button
-                *ngIf="history.length"
+                [disabled]="!history.length"
                 [label]="'OVERLAY.QUICK_MARK.UNDO' | translate"
                 (onClick)="onUndoLastChange()"
             ></p-button>

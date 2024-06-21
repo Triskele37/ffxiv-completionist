@@ -1,0 +1,11 @@
+.p-toolbar {
+    background: $panelHeaderBg;
+    border: $panelHeaderBorder;
+    padding: $panelHeaderPadding;
+    border-radius: var(--border-radius);
+    gap: var(--inline-spacing);
+
+    .p-toolbar-separator {
+        margin: 0 var(--inline-spacing);
+    }
+}

@@ -1,5 +1,4 @@
 @import './ellipsis-overflow';
-@import './colors';
 
 :host {
     display: contents;
@@ -8,10 +7,10 @@
         display: flex;
         flex-direction: column;
         height: 100%;
+        gap: var(--inline-spacing);
 
         .task-table-scroll-container {
             display: inline-block;
-            overflow-y: auto;
 
             height: 100%;
             width: 100%;
@@ -19,10 +18,11 @@
     }
 
     ::ng-deep .p-datatable {
-        height: 100%;
-
         .p-datatable-table {
-            width: 100%;
+            table-layout: fixed;
+
+            // Fixes virtual scroller jumping
+            overflow-anchor: none;
 
             .p-datatable-tbody {
                 :nth-child(odd) .selected td:not(.noSelect) {
@@ -36,15 +36,6 @@
         }
 
         tr {
-            th {
-                // Prevent headers from scrolling with the table
-                position: sticky;
-                top: 0;
-
-                // Prevent weird highlighting
-                user-select: none;
-            }
-
             td {
                 cursor: pointer;
 
@@ -60,17 +51,6 @@
                         text-align: left;
                     }
                 }
-            }
-        }
-
-        // Fix rendering artifact on dynamically removed rows
-        //TODO: this is a bandaid for now, assuming the artifact still happens
-        //TODO: but is the same color as whats below the table
-        // stems from "contain: content"
-        .p-datatable-wrapper {
-            .cdk-virtual-scroll-content-wrapper {
-                //contain: unset;
-                background: var(--surface-a);
             }
         }
     }

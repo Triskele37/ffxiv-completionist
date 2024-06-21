@@ -1,0 +1,105 @@
+:root {
+    color-scheme: dark;
+
+    // Settings
+    --primary-color: #0f4c75;
+    --primary-color-text: #121212;
+    --text-color-rgb: 255, 255, 255;
+    --font-family: Arial, Helvetica, sans-serif;
+    --font-size: 16px;
+    --font-weight: normal;
+    --bg-h: 0;
+    --bg-s: 0%;
+    --bg-l: 12%;
+    --incomplete-rgb: 117, 25, 15;
+    --partial-complete-rgb: 204, 204, 0;
+    --test: #cccc00;
+    --completed-rgb: 15, 117, 56;
+    --excluded-rgb: 170, 170, 170;
+
+    // Derived from settings
+    --primary-color-light: color-mix(in srgb, var(--primary-color), white 15%);
+    --primary-color-dark: color-mix(in srgb, var(--primary-color), black 15%);
+    --primary-color-darker: color-mix(in srgb, var(--primary-color), black 30%);
+    --primary-color-rgb: 15, 76, 117;
+
+    --text-color: rgba(var(--text-color-rgb), 0.87);
+    --text-color-secondary: rgba(var(--text-color-rgb), 0.6);
+
+    --incomplete: rgb(var(--incomplete-rgb));
+    --partial-complete: rgb(var(--partial-complete-rgb));
+    --completed: rgb(var(--completed-rgb));
+    --excluded: rgb(var(--excluded-rgb));
+    --selected: rgba(var(--primary-color-rgb), 0.5);
+    --selected-2: rgba(var(--primary-color-rgb), 0.3);
+
+    // Surfaces
+    --surface-50: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 10%));
+    --surface-100: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 8%));
+    --surface-200: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 6%));
+    --surface-300: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 4%));
+    --surface-400: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) - 2%));
+    --surface-500: hsl(var(--bg-h), var(--bg-s), var(--bg-l));
+    --surface-600: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 2%));
+    --surface-700: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 4%));
+    --surface-800: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 6%));
+    --surface-900: hsl(var(--bg-h), var(--bg-s), calc(var(--bg-l) + 8%));
+
+    // Gray
+    --gray-50: #e7e7e7;
+    --gray-100: #d0d0d0;
+    --gray-200: #b8b8b8;
+    --gray-300: #a0a0a0;
+    --gray-400: #898989;
+    --gray-500: #717171;
+    --gray-600: #595959;
+    --gray-700: #414141;
+    --gray-800: #2a2a2a;
+    --gray-900: #121212;
+
+    // Spacing
+    --content-padding: calc(var(--font-size) * 0.5); // $panelContentPadding
+    --inline-spacing: 0.5rem;
+    --border-radius: 4px;
+    --icon-size: 16px;
+
+    // Other
+    --maskbg: rgba(0, 0, 0, 0.32);
+    //--focus-shadow: none;
+    --focus-shadow: 0 0 0 1px #{$focusOutlineColor};
+    --highlight-bg: #{$highlightBg};
+    --highlight-text-color: #{$highlightTextColor};
+}
+
+// Color ranges
+:root {
+    $colors: (
+        "blue": #2196f3,
+        "green": #4caf50,
+        "yellow": #fbc02d,
+        "cyan": #00bcd4,
+        "pink": #e91e63,
+        "indigo": #3f51b5,
+        "teal": #009688,
+        "orange": #f57c00,
+        "bluegray": #607d8b,
+        "purple": #9c27b0,
+        "red": #ff4032,
+        //"primary": var(--primary-color),
+    );
+
+    @each $name, $color in $colors {
+        @for $i from 0 through 5 {
+            @if ($i == 0) {
+                --#{$name}-50:#{tint($color, (5 - $i) * 19%)};
+            }
+            @else {
+                --#{$name}-#{$i * 100}:#{tint($color, (5 - $i) * 19%)};
+            }
+        }
+
+        @for $i from 1 through 4 {
+            --#{$name}-#{($i + 5) * 100}:#{shade($color, $i * 15%)};
+        }
+    }
+}

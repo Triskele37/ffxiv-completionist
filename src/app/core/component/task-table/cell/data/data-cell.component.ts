@@ -1,15 +1,16 @@
-import {
-    ChangeDetectorRef,
-    Component,
-    ElementRef,
-    Input,
-    OnChanges,
-    OnDestroy,
-    SimpleChanges,
-    ViewChild
-} from '@angular/core';
+import { ChangeDetectorRef, Component, ElementRef, Input, OnChanges, OnDestroy, SimpleChanges, ViewChild } from '@angular/core';
+import { OverlayPanel } from 'primeng/overlaypanel';
 
-import { Task } from '@domain/Task';
+import { Column } from '@model/Column';
+import { DataGroup } from '@model/DataGroup';
+import { getChild } from '@model/DataGroup/children/getChild';
+import { Task } from '@model/Task';
+import { DataService } from '@data';
+
+type LinkData = {
+    value: DataGroup | Task | string;
+    type: 'Group' | 'Task' | 'Value';
+};
 
 @Component({
     selector: 'xiv-data-cell',
@@ -17,18 +18,31 @@ import { Task } from '@domain/Task';
     styleUrls: ['./data-cell.component.scss']
 })
 export class DataCellComponent implements OnChanges, OnDestroy {
+    @Input() column: Column;
     @Input() task: Task;
-    @Input() key: string = '';
     @Input() value: string;
 
     tooltip: string;
 
-    constructor(private cdr: ChangeDetectorRef) {
+    // Compiled links for the task at column
+    links: LinkData[] = [];
+
+    isOverlayLocked: boolean = false;
+    @ViewChild('linkOverlay') linkOverlay: OverlayPanel;
+
+    constructor(
+        private cdr: ChangeDetectorRef,
+        private svcData: DataService
+    ) {
         this.createObserver();
     }
 
     ngOnChanges(changes: SimpleChanges): void {
-        if(changes.task || changes.key) {
+        if(changes.task?.currentValue) {
+            this.compileLinks();
+        }
+
+        if(changes.column || changes.task) {
             this.shouldDetectOverflow = true;
             this.detectOverflow();
         }
@@ -37,6 +51,45 @@ export class DataCellComponent implements OnChanges, OnDestroy {
     ngOnDestroy(): void {
         this.observer?.disconnect();
     }
+
+    //#region------------------------------------------------------- Events
+    onMultiLinkLeave(): void {
+        if(this.isOverlayLocked) return;
+        this.linkOverlay.hide();
+    }
+
+    onOverlayLeave(): void {
+        this.isOverlayLocked = false;
+        this.linkOverlay.hide();
+    }
+
+    onLockOverlayClick(): void {
+        this.isOverlayLocked = !this.isOverlayLocked;
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------------- Update
+    compileLinks(): void {
+        const values = [].concat(this.task?.[this.column.key] ?? this.value);
+        this.links = values.map((v) => this.getLinkFromPath(v));
+        this.links = this.links.filter((l) => l.value);
+    }
+
+    getLinkFromPath(pathOrValue: string): LinkData {
+        if(this.column.link && pathOrValue?.includes('.')) {
+            const content = getChild(this.svcData.data, pathOrValue);
+            if(content?.xivDataType === 'Group') return { value: content, type: 'Group' };
+            if(content?.xivDataType === 'Task') return { value: content, type: 'Task' };
+            return { value: pathOrValue, type: 'Value' };
+        }
+        else {
+            // parameter is a raw value
+            return { value: pathOrValue, type: 'Value' };
+        }
+    }
+
+    //#endregion
 
     //#region------------------------------------------------------- Ref
     ref: ElementRef;
@@ -81,7 +134,7 @@ export class DataCellComponent implements OnChanges, OnDestroy {
             const { clientWidth, scrollWidth } = this.ref.nativeElement;
 
             if(clientWidth !== scrollWidth) {
-                this.tooltip = this.task ? this.task[this.key] : this.value;
+                this.tooltip = this.task?.[this.column.key] ?? this.value;
             }
             else {
                 this.tooltip = '';

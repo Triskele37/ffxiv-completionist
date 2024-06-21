@@ -1,0 +1,199 @@
+{
+    "key": "red-mage",
+    "groupName_en": "Red Mage",
+    "groupName_fr": "Quêtes de mage rouge",
+    "tasks": {
+        "x68112": {
+            "level": 50,
+            "name_en": "Taking the Red",
+            "name_fr": "Le vagabond rouge",
+            "npc_en": "Distraught Lass",
+            "npc_fr": "fillette aux yeux humides",
+            "cNext": [
+                68113
+            ],
+            "cSiblings": [
+                "character.adventure-plate.64"
+            ],
+            "patch": "4.31"
+        },
+        "x68113": {
+            "level": 50,
+            "name_en": "The Crimson Duelist",
+            "name_fr": "Théorie et pratique",
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "cPrev": [
+                68112
+            ],
+            "cNext": [
+                68114
+            ],
+            "patch": "4.31"
+        },
+        "x68114": {
+            "level": 52,
+            "name_en": "A Rewarding Struggle",
+            "name_fr": "Piéger le piège",
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "cPrev": [
+                68113
+            ],
+            "cNext": [
+                68115
+            ],
+            "patch": "4.31"
+        },
+        "x68115": {
+            "level": 54,
+            "name_en": "Tracking the Cabal",
+            "name_fr": "Cargaison mystère",
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "cPrev": [
+                68114
+            ],
+            "cNext": [
+                68116
+            ],
+            "patch": "4.31"
+        },
+        "x68116": {
+            "level": 56,
+            "name_en": "A Vermilion Vendetta",
+            "name_fr": "Opération remémoration",
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "cPrev": [
+                68115
+            ],
+            "cNext": [
+                68117
+            ],
+            "patch": "4.31"
+        },
+        "x68117": {
+            "level": 58,
+            "name_en": "On Lambard's Trail",
+            "name_fr": "Diversion musclée",
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "cPrev": [
+                68116
+            ],
+            "cNext": [
+                68118
+            ],
+            "patch": "4.31"
+        },
+        "x68118": {
+            "level": 60,
+            "name_en": "Stained in Scarlet",
+            "name_fr": "Un vieux compte à régler",
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "cPrev": [
+                68117
+            ],
+            "cNext": [
+                68119
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1810"
+            ],
+            "patch": "4.31"
+        },
+        "x68119": {
+            "level": 60,
+            "name_en": "The Color of Her Hair",
+            "name_fr": "Symptômes inquiétants",
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "cPrev": [
+                68118,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                68120
+            ],
+            "patch": "4.31"
+        },
+        "x68120": {
+            "level": 63,
+            "name_en": "Traced in Blood",
+            "name_fr": "Le fil rouge de l'histoire",
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "cPrev": [
+                68119
+            ],
+            "cNext": [
+                68121
+            ],
+            "patch": "4.31"
+        },
+        "x68121": {
+            "level": 65,
+            "name_en": "Nightkin",
+            "name_fr": "L'ironie du sang",
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "cPrev": [
+                68120
+            ],
+            "cNext": [
+                68122
+            ],
+            "patch": "4.31"
+        },
+        "x68122": {
+            "level": 68,
+            "name_en": "Child of Lilith",
+            "name_fr": "La piste du cauchemar",
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "cPrev": [
+                68121
+            ],
+            "cNext": [
+                68123
+            ],
+            "patch": "4.31"
+        },
+        "x68123": {
+            "level": 70,
+            "name_en": "With Heart and Steel",
+            "name_fr": "Transmigration démoniaque",
+            "npc_en": "X'rhun Tia",
+            "npc_fr": "X'rhun Tia",
+            "cPrev": [
+                68122
+            ],
+            "cNext": [
+                68760
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1811"
+            ],
+            "patch": "4.31"
+        },
+        "x68760": {
+            "level": 80,
+            "name_en": "Succession of Steel",
+            "name_fr": "La relève de l'Ouragan pourpre",
+            "npc_en": "Arya",
+            "npc_fr": "Arya",
+            "cPrev": [
+                68123,
+                "duty.quests.class--job.role.shb.69164",
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.63",
+                "character.achievement.quests.job-role-quests.2319"
+            ],
+            "patch": "5.0"
+        }
+    }
+}

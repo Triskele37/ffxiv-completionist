@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.initActions = void 0;
 var electron_1 = require("electron");
 var fs = require("fs");
+var path = require("path");
 var ConfigStore_1 = require("../store/ConfigStore");
 var PlayerStore_1 = require("../store/PlayerStore");
 var WindowStore_1 = require("../store/WindowStore");
@@ -21,15 +22,7 @@ function initActions() {
     electron_1.ipcMain.on('open-save', PlayerStore_1.PlayerStore.open);
     electron_1.ipcMain.on('backup-save', PlayerStore_1.PlayerStore.backup);
     electron_1.ipcMain.on('load-backup-save', PlayerStore_1.PlayerStore.loadBackup);
-    electron_1.ipcMain.on('load-json', function (event, path) {
-        try {
-            event.returnValue = JSON.parse(fs.readFileSync(path, 'utf8'));
-        }
-        catch (e) {
-            console.error(e);
-            event.returnValue = null;
-        }
-    });
+    electron_1.ipcMain.on('load-json', loadJson);
     electron_1.ipcMain.on('search-console-games', Remote.searchConsoleGamer);
     electron_1.ipcMain.on('search-gamer-escape', Remote.searchGamerEscape);
     electron_1.ipcMain.on('search-garland-tools', Remote.searchGarlandTools);
@@ -37,4 +30,27 @@ function initActions() {
     electron_1.ipcMain.on('open-in-teamcraft', Remote.openInTeamcraft);
 }
 exports.initActions = initActions;
+/**
+ * NOTE - remember to keep this OS agnostic
+ */
+function loadJson(event, groupPath) {
+    try {
+        if (fs.existsSync(groupPath)) {
+            // Directory exists matching 'path', must be _index
+            var filePath = path.join(groupPath, '_index.json');
+            var file = fs.readFileSync(filePath, 'utf8');
+            event.returnValue = JSON.parse(file);
+        }
+        else {
+            // Directory does not exist matching path, group named json
+            var filePath = groupPath + '.json';
+            var file = fs.readFileSync(filePath, 'utf8');
+            event.returnValue = JSON.parse(file);
+        }
+    }
+    catch (e) {
+        console.error('load-json failed:', e);
+        event.returnValue = null;
+    }
+}
 //# sourceMappingURL=index.js.map

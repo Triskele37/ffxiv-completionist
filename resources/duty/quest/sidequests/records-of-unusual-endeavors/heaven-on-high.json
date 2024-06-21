@@ -1,0 +1,34 @@
+{
+    "key": "heaven-on-high",
+    "groupName_en": "Heaven-on-High",
+    "groupName_fr": "Pilier des Cieux",
+    "tasks": {
+        "x68667": {
+            "level": 61,
+            "name_en": "Knocking on Heaven's Door",
+            "name_fr": "Le Pilier des Cieux",
+            "npc_en": "Hamakaze",
+            "npc_fr": "Hamakaze",
+            "unlock_en": "Heaven-on-High",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68026"
+            ],
+            "cNext": [
+                68668
+            ],
+            "patch": "4.35"
+        },
+        "x68668": {
+            "level": 61,
+            "name_en": "On the Shoulders of Giants",
+            "name_fr": "Aller plus haut",
+            "npc_en": "Kyusei",
+            "npc_fr": "Kyusei",
+            "unlock_en": "Heaven-on-High: Floors 30+",
+            "cPrev": [
+                68667
+            ],
+            "patch": "4.35"
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "key": "palace-of-the-dead",
+    "groupName_en": "Palace of the Dead",
+    "groupName_fr": "Palais des morts",
+    "tasks": {
+        "x67092": {
+            "level": 17,
+            "name_en": "The House That Death Built",
+            "name_fr": "Mystères souterrains dans la forêt",
+            "unlock": "duty.dutyraid-finder.deep-dungeon.0",
+            "npc_en": "Nojiro Marujiro",
+            "npc_fr": "Nojiro Marujiro",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66196"
+            ],
+            "cNext": [
+                "duty.quests.other.quasi-quests.67923"
+            ],
+            "patch": "4.31"
+        },
+        "x67093": {
+            "level": 50,
+            "name_en": "The Nightmare's End",
+            "name_fr": "La réunion de deux bagues",
+            "npc_en": "Balan",
+            "npc_fr": "Balan",
+            "cPrev": [
+                "duty.quests.sidequests.uldahn.uldah.67060"
+            ],
+            "cNext": [
+                67924
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1575"
+            ],
+            "patch": "4.31"
+        },
+        "x67924": {
+            "level": 60,
+            "name_en": "Dead but Not Gone",
+            "name_fr": "Repos éternel",
+            "npc_en": "Wood Wailer Expeditionary",
+            "npc_fr": "enquêteur des vigiles sombres",
+            "cPrev": [
+                67093
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1680"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

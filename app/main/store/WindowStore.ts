@@ -1,7 +1,6 @@
-import { BrowserWindow, IpcMainEvent, screen } from 'electron';
+import { BrowserWindow, IpcMainEvent, Rectangle, screen } from 'electron';
 import * as path from 'path';
 import * as fs from 'fs';
-import * as url from 'url';
 
 import { ConfigStore } from './ConfigStore';
 
@@ -89,31 +88,28 @@ export class WindowStore {
 
     static loadWindowUrl(isServe: boolean): void {
         if(isServe) {
-            WindowStore.main.webContents.openDevTools();
+            const debug = require('electron-debug');
+            debug();
+
             require('electron-reload')(__dirname, {
                 electron: require(path.join(__dirname, '../../../node_modules/electron'))
             });
-            WindowStore.main.loadURL('http://localhost:4200');
+            WindowStore.main.loadURL('http://localhost:4200/');
         }
         else {
             // Path when running electron executable
-            let pathIndex = './index.html';
+            let indexPath = '../../index.html';
 
-            if(fs.existsSync(path.join(__dirname, '../../../dist/index.html'))) {
-                // Path when running electron in local folder
-                pathIndex = '../../../dist/index.html';
-            }
+            // Path when running electron in local folder
+            const dist = '../../../dist/index.html';
+            if(fs.existsSync(path.join(__dirname, dist))) indexPath = dist;
 
-            if(fs.existsSync(path.join(__dirname, '../../../app/index.html'))) {
-                // Path when running release
-                pathIndex = '../../../app/index.html';
-            }
+            // Path when running release
+            const app = '../../../app/index.html';
+            if(fs.existsSync(path.join(__dirname, app))) indexPath = app;
 
-            WindowStore.main.loadURL(url.format({
-                pathname: path.join(__dirname, pathIndex),
-                protocol: 'file:',
-                slashes: true
-            }));
+            const url = new URL(path.join('file:', __dirname, indexPath));
+            void WindowStore.main.loadURL(url.href);
         }
     }
 
@@ -130,28 +126,44 @@ export class WindowStore {
     static loadWindowState() {
         if(!ConfigStore.store) ConfigStore.load();
 
-        if(!ConfigStore.store.window) {
+        if(WindowStore.isStoredPositionValid(ConfigStore.store.window)) {
+            return ConfigStore.store.window;
+        }
+        else {
             const primaryDisplay = screen.getPrimaryDisplay();
 
             return {
-                x: primaryDisplay.bounds.x,
-                y: primaryDisplay.bounds.y,
-                height: primaryDisplay.workAreaSize.height,
-                width: primaryDisplay.workAreaSize.width
+                x: primaryDisplay.workArea.x,
+                y: primaryDisplay.workArea.y,
+                height: primaryDisplay.workArea.height,
+                width: primaryDisplay.workArea.width
             };
-        }
-        else {
-            return ConfigStore.store.window;
         }
     }
 
     static saveWindowState(): void {
         ConfigStore.store.window = {
-            ...WindowStore.main.getBounds(),
+            ...WindowStore.main.getNormalBounds(),
             max: WindowStore.main.isMaximized()
         };
 
         ConfigStore.save();
+    }
+
+    static isStoredPositionValid(rect?: Rectangle): boolean {
+        if(!rect) return false;
+
+        // Unreasonably small
+        if(rect.height < 100 || rect.width < 100) return false;
+
+        // Get the window closest to the stored rect
+        const closestWindow = screen.getDisplayMatching(rect);
+
+        // Coordinates are not in a window
+        if(rect.x < closestWindow.bounds.x) return false;
+        if(rect.y < closestWindow.bounds.y) return false;
+
+        return true;
     }
 
     //#endregion

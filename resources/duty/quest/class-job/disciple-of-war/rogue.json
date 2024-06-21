@@ -1,0 +1,153 @@
+{
+    "key": "rogue",
+    "groupName_en": "Rogue",
+    "groupName_fr": "Quêtes de surineur",
+    "tasks": {
+        "x65638": {
+            "level": 1,
+            "name_en": "My First Daggers",
+            "name_fr": "Les guerriers de l'ombre",
+            "npc_en": "Lonwoerd",
+            "npc_fr": "Lonwoerd",
+            "cPrev": [
+                "duty.quests.other.quasi-quests.65637"
+            ],
+            "cNext": [
+                65640
+            ],
+            "patch": "4.31"
+        },
+        "x65640": {
+            "level": 1,
+            "name_en": "Stabbers in Yer Fambles",
+            "name_fr": "Jamais sans mes lames",
+            "npc_en": "Jacke",
+            "npc_fr": "Jacke",
+            "cPrev": [
+                65638
+            ],
+            "cNext": [
+                65646
+            ],
+            "patch": "4.31"
+        },
+        "x65646": {
+            "level": 5,
+            "name_en": "A Dainty Dilemma",
+            "name_fr": "Bric-à-brac en vrac",
+            "npc_en": "Jacke",
+            "npc_fr": "Jacke",
+            "cPrev": [
+                65640
+            ],
+            "cNext": [
+                65662
+            ],
+            "patch": "4.31"
+        },
+        "x65662": {
+            "level": 10,
+            "name_en": "Stray into the Shadows",
+            "name_fr": "Une faim de loup",
+            "npc_en": "Jacke",
+            "npc_fr": "Jacke",
+            "cPrev": [
+                65646
+            ],
+            "cNext": [
+                65680
+            ],
+            "patch": "4.31"
+        },
+        "x65680": {
+            "level": 15,
+            "name_en": "Stifled Screams",
+            "name_fr": "Un cri dans la nuit",
+            "npc_en": "Jacke",
+            "npc_fr": "Jacke",
+            "cPrev": [
+                65662
+            ],
+            "cNext": [
+                65681
+            ],
+            "patch": "4.31"
+        },
+        "x65681": {
+            "level": 15,
+            "name_en": "Slave to the Code",
+            "name_fr": "Tout s'achète, tout se vend",
+            "npc_en": "Jacke",
+            "npc_fr": "Jacke",
+            "cPrev": [
+                65680
+            ],
+            "cNext": [
+                65682
+            ],
+            "patch": "4.31"
+        },
+        "x65682": {
+            "level": 20,
+            "name_en": "Grinners in the Mist",
+            "name_fr": "Lueur dans la brume",
+            "npc_en": "Jacke",
+            "npc_fr": "Jacke",
+            "cPrev": [
+                65681
+            ],
+            "cNext": [
+                65684
+            ],
+            "patch": "4.31"
+        },
+        "x65684": {
+            "level": 25,
+            "name_en": "Sweet Sorrows",
+            "name_fr": "Ténèbres en pleurs",
+            "npc_en": "Jacke",
+            "npc_fr": "Jacke",
+            "cPrev": [
+                65682
+            ],
+            "cNext": [
+                65690
+            ],
+            "patch": "4.31"
+        },
+        "x65690": {
+            "level": 30,
+            "name_en": "Market for Death",
+            "name_fr": "Thalaos et Thanatos",
+            "npc_en": "Jacke",
+            "npc_fr": "Jacke",
+            "cPrev": [
+                65684
+            ],
+            "cNext": [
+                65691
+            ],
+            "patch": "4.31"
+        },
+        "x65691": {
+            "level": 30,
+            "name_en": "Cloying Victory",
+            "name_fr": "La victoire au bout du surin",
+            "npc_en": "Jacke",
+            "npc_fr": "Jacke",
+            "cPrev": [
+                65690
+            ],
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war-job.ninja.65748"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.36"
+            ],
+            "cCombo": [
+                "character.achievement.quests.job-role-quests.313"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

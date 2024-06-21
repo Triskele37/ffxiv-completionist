@@ -1,0 +1,37 @@
+{
+    "key": "gathering-log",
+    "groupName_en": "Gathering Log",
+    "groupName_fr": "Carnet de récolte",
+    "headers": {
+        "level": {
+            "width": 120,
+            "header_en": "Level",
+            "header_fr": "Niveau"
+        },
+        "name": {
+            "header_en": "Name",
+            "header_fr": "Objet"
+        },
+        "zone": {
+            "header_en": "Zone",
+            "header_fr": "Zone"
+        },
+        "coordinates": {
+            "header_en": "Coordinates",
+            "header_fr": "Coordonnées"
+        },
+        "closestAetheryte": {
+            "header_en": "Closest Aetheryte",
+            "header_fr": "Éthérite la plus proche"
+        },
+        "nodeTimer": {
+            "filterable": true,
+            "header_en": "Node Timer",
+            "header_fr": "Horaire"
+        },
+        "patch": {
+            "header_en": "Patch",
+            "header_fr": "Patch"
+        }
+    }
+}

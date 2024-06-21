@@ -2,10 +2,16 @@ import { Injectable } from '@angular/core';
 
 import { ConfigStoreService } from '@service/store/config-store.service';
 
+export type HSB = {
+    h: number;
+    s: number;
+    b: number;
+};
+
 export type HSL = {
     h: number;
     s: number;
-    b: number; // primeNg is weird
+    l: number;
 };
 
 export type RGB = {
@@ -25,11 +31,14 @@ export class ThemeService {
     backgroundColor: HSL;
     textColor: RGB;
     fontFamily: string;
+    fontSize: number;
 
     completeColor: RGB;
     incompleteColor: RGB;
     excludedColor: RGB;
     partialCompleteColor: RGB;
+
+    backgroundColorHsb: HSB;
 
     constructor(private svcConfig: ConfigStoreService) {
         this.root = document.querySelector(':root');
@@ -39,6 +48,7 @@ export class ThemeService {
         this.loadBackgroundColor();
         this.loadTextColor();
         this.loadFontFamily();
+        this.loadFontSize();
 
         this.loadIncompleteColor();
         this.loadPartialCompleteColor();
@@ -107,7 +117,6 @@ export class ThemeService {
         this.primaryColor = hex;
 
         this.setStyle('--primary-color', hex);
-        this.setStyle('--primary-color-light', ThemeService.shadeColor(hex, 21));
         this.setStyle('--primary-color-rgb', ThemeService.hexToRgb(hex));
 
         this.svcConfig.set('theme.primary-color', hex);
@@ -132,22 +141,60 @@ export class ThemeService {
     //#region------------------------------------------------------- Background
     loadBackgroundColor(): void {
         const hslStr = this.svcConfig.get('theme.background').split(', ');
-        this.setBackgroundColor({
+        this.setBackgroundColorFromHsl({
             h: parseInt(hslStr[0], 10),
             s: parseInt(hslStr[1], 10),
-            b: parseInt(hslStr[2], 10)
+            l: parseInt(hslStr[2], 10)
         });
     }
 
-    setBackgroundColor(background: HSL): void {
-        this.backgroundColor = background;
-
-        const { h, s, b } = background;
+    private updateBackgroundColor(): void {
+        const { h, s, l } = this.backgroundColor;
         this.setStyle('--bg-h', `${h}`);
         this.setStyle('--bg-s', `${s}%`);
-        this.setStyle('--bg-l', `${b}%`);
+        this.setStyle('--bg-l', `${l}%`);
 
-        this.svcConfig.set('theme.background', `${h}, ${s}, ${b}`);
+        this.svcConfig.set('theme.background', `${h}, ${s}, ${l}`);
+    }
+
+    setBackgroundColorFromHsl(background: HSL): void {
+        this.backgroundColor = background;
+        this.backgroundColorHsb = this.hslToHsb(background);
+        this.updateBackgroundColor();
+    }
+
+    setBackgroundColorFromHsb(background: HSB): void {
+        this.backgroundColor = this.hsbToHsl(background);
+        this.backgroundColorHsb = background;
+        this.updateBackgroundColor();
+    }
+
+    hsbToHsl(hsb: HSB): HSL {
+        const inS = hsb.s / 100;
+        const inB = hsb.b / 100;
+
+        const outL = inB * (1 - (inS / 2));
+        const outS = outL === 0 || outL === 1 ? 0 : (inB - outL) / Math.min(outL, 1 - outL);
+
+        return {
+            h: hsb.h,
+            s: Math.round(outS * 100),
+            l: Math.round(outL * 100)
+        };
+    }
+
+    hslToHsb(hsl: HSL): HSB {
+        const inS = hsl.s / 100;
+        const inL = hsl.l / 100;
+
+        const outB = inL + inS * Math.min(inL, 1 - inL);
+        const outS = outB === 0 ? 0 : 2 * (1 - (inL / outB));
+
+        return {
+            h: hsl.h,
+            s: Math.round(outS * 100),
+            b: Math.round(outB * 100)
+        };
     }
 
     //#endregion
@@ -180,6 +227,17 @@ export class ThemeService {
 
         this.setStyle('--font-family', fontFamily);
         this.svcConfig.set('theme.font-family', fontFamily);
+    }
+
+    loadFontSize(): void {
+        this.setFontSize(this.svcConfig.get('theme.font-size'));
+    }
+
+    setFontSize(fontSize: number): void {
+        this.fontSize = fontSize;
+
+        this.setStyle('--font-size', `${fontSize}px`);
+        this.svcConfig.set('theme.font-size', fontSize);
     }
 
     //#endregion

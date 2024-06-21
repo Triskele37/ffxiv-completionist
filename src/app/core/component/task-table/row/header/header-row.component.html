@@ -67,6 +67,7 @@
         [editable]="true"
         [options]="uniqueValues[column.key]"
         [showClear]="true"
+        [autoDisplayFirst]="false"
         appendTo="body"
         (keyup)="onFilterKeyup($event, column)"
         (onChange)="onFilterDropdownChange($event, column)"

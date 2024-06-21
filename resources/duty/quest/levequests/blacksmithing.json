@@ -1,0 +1,1177 @@
+{
+    "key": "blacksmithing",
+    "groupName_en": "Blacksmithing",
+    "groupName_fr": "Mandats de forgeron",
+    "tasks": {
+        "x141": {
+            "level": 1,
+            "name_en": "Proly Hatchet",
+            "name_fr": "Fabrication: hachette-moi ça",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x142": {
+            "level": 1,
+            "name_en": "Hells Bells",
+            "name_fr": "Fabrication: maladie du bronze",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x143": {
+            "level": 1,
+            "name_en": "Mending Fences",
+            "name_fr": "Livraison: la barrière bat de l'aile",
+            "issueLocation_en": "Red Rooster Stead",
+            "issueLocation_fr": "Métairie du Coq rouge",
+            "leveZone_en": "Lower La Noscea",
+            "leveZone_fr": "Basse-Noscea"
+        },
+        "x146": {
+            "level": 1,
+            "name_en": "Thank You for Your Business",
+            "name_fr": "Livraison: des épées pour les brutes",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x144": {
+            "level": 1,
+            "name_en": "Axe Me Anything",
+            "name_fr": "Fabrication: d'humeur tranchante",
+            "issueLocation_en": "Red Rooster Stead",
+            "issueLocation_fr": "Métairie du Coq rouge",
+            "leveZone_en": "Lower La Noscea",
+            "leveZone_fr": "Basse-Noscea"
+        },
+        "x145": {
+            "level": 1,
+            "name_en": "The Unkindest Cut",
+            "name_fr": "Fabrication: mauvaise coupe",
+            "issueLocation_en": "Red Rooster Stead",
+            "issueLocation_fr": "Métairie du Coq rouge",
+            "leveZone_en": "Lower La Noscea",
+            "leveZone_fr": "Basse-Noscea"
+        },
+        "x148": {
+            "level": 5,
+            "name_en": "I, Gladius",
+            "name_fr": "Fabrication: épées vikings conformes",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x147": {
+            "level": 5,
+            "name_en": "Stainless Chef",
+            "name_fr": "Fabrication: chef inoxydable",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x149": {
+            "level": 5,
+            "name_en": "Bring Me the Head Knife of Al'bedo Derssia",
+            "name_fr": "Livraison: un couteau à pied dans la tombe",
+            "issueLocation_en": "Red Rooster Stead",
+            "issueLocation_fr": "Métairie du Coq rouge",
+            "leveZone_en": "Lower La Noscea",
+            "leveZone_fr": "Basse-Noscea"
+        },
+        "x152": {
+            "level": 5,
+            "name_en": "As Above, Below",
+            "name_fr": "Livraison: bonne pioche!",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x150": {
+            "level": 5,
+            "name_en": "Down on the Pharm",
+            "name_fr": "Fabrication: pharma coupée",
+            "issueLocation_en": "Red Rooster Stead",
+            "issueLocation_fr": "Métairie du Coq rouge",
+            "leveZone_en": "Lower La Noscea",
+            "leveZone_fr": "Basse-Noscea"
+        },
+        "x151": {
+            "level": 5,
+            "name_en": "A Hit Job",
+            "name_fr": "Fabrication: opération coup de marteau",
+            "issueLocation_en": "Red Rooster Stead",
+            "issueLocation_fr": "Métairie du Coq rouge",
+            "leveZone_en": "Lower La Noscea",
+            "leveZone_fr": "Basse-Noscea"
+        },
+        "x153": {
+            "level": 10,
+            "name_en": "Farriers of Fortune",
+            "name_fr": "Fabrication: maréchal-débutant",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x154": {
+            "level": 10,
+            "name_en": "Anutha Spatha",
+            "name_fr": "Fabrication: spathes en stock",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x155": {
+            "level": 10,
+            "name_en": "Port of Call: Ul'dah",
+            "name_fr": "Livraison: escale à Ul'dah",
+            "issueLocation_en": "Swiftperch",
+            "issueLocation_fr": "Le Martinet",
+            "leveZone_en": "Western La Noscea",
+            "leveZone_fr": "Noscea occidentale"
+        },
+        "x158": {
+            "level": 10,
+            "name_en": "Twice as Slice",
+            "name_fr": "Livraison: ça va trancher",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x157": {
+            "level": 10,
+            "name_en": "I'm into Leather",
+            "name_fr": "Fabrication: finition maison",
+            "issueLocation_en": "Swiftperch",
+            "issueLocation_fr": "Le Martinet",
+            "leveZone_en": "Western La Noscea",
+            "leveZone_fr": "Noscea occidentale"
+        },
+        "x156": {
+            "level": 10,
+            "name_en": "Peddle to the Metal",
+            "name_fr": "Fabrication: argent sale",
+            "issueLocation_en": "Swiftperch",
+            "issueLocation_fr": "Le Martinet",
+            "leveZone_en": "Western La Noscea",
+            "leveZone_fr": "Noscea occidentale"
+        },
+        "x160": {
+            "level": 15,
+            "name_en": "Awl or Nothing",
+            "name_fr": "Fabrication: alêne fraîche",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x159": {
+            "level": 15,
+            "name_en": "Smelt and Dealt",
+            "name_fr": "Fabrication: sitôt forgé, sitôt embarqué",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x161": {
+            "level": 15,
+            "name_en": "Riveting Run",
+            "name_fr": "Livraison: arrivée de rivets",
+            "issueLocation_en": "Aleport",
+            "issueLocation_fr": "Port-aux-Ales",
+            "leveZone_en": "Western La Noscea",
+            "leveZone_fr": "Noscea occidentale"
+        },
+        "x164": {
+            "level": 15,
+            "name_en": "Tools of the Trade",
+            "name_fr": "Livraison: ils sont marteaux",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x162": {
+            "level": 15,
+            "name_en": "Get a Little Bit Closer",
+            "name_fr": "Fabrication: combat rapproché",
+            "issueLocation_en": "Aleport",
+            "issueLocation_fr": "Port-aux-Ales",
+            "leveZone_en": "Western La Noscea",
+            "leveZone_fr": "Noscea occidentale"
+        },
+        "x163": {
+            "level": 15,
+            "name_en": "Honest Ballast",
+            "name_fr": "Fabrication: manque de lest",
+            "issueLocation_en": "Aleport",
+            "issueLocation_fr": "Port-aux-Ales",
+            "leveZone_en": "Western La Noscea",
+            "leveZone_fr": "Noscea occidentale"
+        },
+        "x165": {
+            "level": 20,
+            "name_en": "Unseamly Conditions",
+            "name_fr": "Fabrication: filon en douce",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x166": {
+            "level": 20,
+            "name_en": "Claw Daddy",
+            "name_fr": "Grosse commande: le clou du spectacle",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x167": {
+            "level": 20,
+            "name_en": "Hearth Maul",
+            "name_fr": "Livraison: masse critique",
+            "issueLocation_en": "Quarrymill",
+            "issueLocation_fr": "Moulin de la Carrière",
+            "leveZone_en": "South Shroud",
+            "leveZone_fr": "Forêt du sud"
+        },
+        "x170": {
+            "level": 20,
+            "name_en": "When Rhalgr Met Nophica",
+            "name_fr": "Fabrication: armons la milice",
+            "issueLocation_en": "Quarrymill",
+            "issueLocation_fr": "Moulin de la Carrière",
+            "leveZone_en": "South Shroud",
+            "leveZone_fr": "Forêt du sud"
+        },
+        "x168": {
+            "level": 20,
+            "name_en": "Powderpost Derby",
+            "name_fr": "Fabrication: halte aux xylophages",
+            "issueLocation_en": "Quarrymill",
+            "issueLocation_fr": "Moulin de la Carrière",
+            "leveZone_en": "South Shroud",
+            "leveZone_fr": "Forêt du sud"
+        },
+        "x169": {
+            "level": 20,
+            "name_en": "The Devil's Workshop",
+            "name_fr": "Grosse commande: l'atelier du démon",
+            "issueLocation_en": "Quarrymill",
+            "issueLocation_fr": "Moulin de la Carrière",
+            "leveZone_en": "South Shroud",
+            "leveZone_fr": "Forêt du sud"
+        },
+        "x171": {
+            "level": 25,
+            "name_en": "Time to Upgrade",
+            "name_fr": "Fabrication: mise à jour des outils",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x173": {
+            "level": 25,
+            "name_en": "Cleaving the Glim",
+            "name_fr": "Grosse commande: donner le temps au tan",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x172": {
+            "level": 25,
+            "name_en": "Mors Dagger",
+            "name_fr": "Livraison: dames à lames",
+            "issueLocation_en": "Quarrymill",
+            "issueLocation_fr": "Moulin de la Carrière",
+            "leveZone_en": "South Shroud",
+            "leveZone_fr": "Forêt du sud"
+        },
+        "x174": {
+            "level": 25,
+            "name_en": "Lancers' Creed",
+            "name_fr": "Fabrication: le credo du lancier",
+            "issueLocation_en": "Quarrymill",
+            "issueLocation_fr": "Moulin de la Carrière",
+            "leveZone_en": "South Shroud",
+            "leveZone_fr": "Forêt du sud"
+        },
+        "x175": {
+            "level": 25,
+            "name_en": "I Saw What You Did There",
+            "name_fr": "Fabrication: scie et seulement scie",
+            "issueLocation_en": "Quarrymill",
+            "issueLocation_fr": "Moulin de la Carrière",
+            "leveZone_en": "South Shroud",
+            "leveZone_fr": "Forêt du sud"
+        },
+        "x176": {
+            "level": 25,
+            "name_en": "That's Some Fine Grinding",
+            "name_fr": "Grosse commande: touche pas à mon mortier",
+            "issueLocation_en": "Quarrymill",
+            "issueLocation_fr": "Moulin de la Carrière",
+            "leveZone_en": "South Shroud",
+            "leveZone_fr": "Forêt du sud"
+        },
+        "x178": {
+            "level": 30,
+            "name_en": "Out on a Limb",
+            "name_fr": "Fabrication: amputation personnelle",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x179": {
+            "level": 30,
+            "name_en": "Can You Spare a Dolabra",
+            "name_fr": "Grosse commande: adorables dolabres",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x177": {
+            "level": 30,
+            "name_en": "The Naked Blade",
+            "name_fr": "Livraison: la lame nue",
+            "issueLocation_en": "Costa del Sol",
+            "issueLocation_fr": "Costa del Sol",
+            "leveZone_en": "Eastern La Noscea",
+            "leveZone_fr": "Noscea orientale"
+        },
+        "x181": {
+            "level": 30,
+            "name_en": "Hard Knock Life",
+            "name_fr": "Fabrication: coup de massue",
+            "issueLocation_en": "Costa del Sol",
+            "issueLocation_fr": "Costa del Sol",
+            "leveZone_en": "Eastern La Noscea",
+            "leveZone_fr": "Noscea orientale"
+        },
+        "x180": {
+            "level": 30,
+            "name_en": "A Spy in the House of Love",
+            "name_fr": "Fabrication: alêne en acier",
+            "issueLocation_en": "Costa del Sol",
+            "issueLocation_fr": "Costa del Sol",
+            "leveZone_en": "Eastern La Noscea",
+            "leveZone_fr": "Noscea orientale"
+        },
+        "x182": {
+            "level": 30,
+            "name_en": "Don't Fear the Reaper",
+            "name_fr": "Grosse commande: la faux s'il le faut",
+            "issueLocation_en": "Costa del Sol",
+            "issueLocation_fr": "Costa del Sol",
+            "leveZone_en": "Eastern La Noscea",
+            "leveZone_fr": "Noscea orientale"
+        },
+        "x184": {
+            "level": 35,
+            "name_en": "Awl about Who You Know",
+            "name_fr": "Fabrication: alênes en urgence",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x185": {
+            "level": 35,
+            "name_en": "Spice Cadet",
+            "name_fr": "Grosse commande: herboriste cherche mortiers",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x183": {
+            "level": 35,
+            "name_en": "You Spin Me Round",
+            "name_fr": "Livraison: savoir couper le cordon",
+            "issueLocation_en": "First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+            "issueLocation_fr": "Observatoire",
+            "leveZone_en": "Coerthas Central Highlands",
+            "leveZone_fr": "Hautes terres du Coerthas central"
+        },
+        "x186": {
+            "level": 35,
+            "name_en": "Lending a Hand",
+            "name_fr": "Fabrication: une question de contrôle",
+            "issueLocation_en": "First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+            "issueLocation_fr": "Observatoire",
+            "leveZone_en": "Coerthas Central Highlands",
+            "leveZone_fr": "Hautes terres du Coerthas central"
+        },
+        "x187": {
+            "level": 35,
+            "name_en": "Colder than Steel",
+            "name_fr": "Fabrication: coups de couteau dans la nuit froide",
+            "issueLocation_en": "First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+            "issueLocation_fr": "Observatoire",
+            "leveZone_en": "Coerthas Central Highlands",
+            "leveZone_fr": "Hautes terres du Coerthas central"
+        },
+        "x188": {
+            "level": 35,
+            "name_en": "Seemed Like the Thing to Get",
+            "name_fr": "Grosse commande: pas de cuisine sans couteaux",
+            "issueLocation_en": "First Dicasterial Observatorium of Aetherial and Astrological Phenomena",
+            "issueLocation_fr": "Observatoire",
+            "leveZone_en": "Coerthas Central Highlands",
+            "leveZone_fr": "Hautes terres du Coerthas central"
+        },
+        "x190": {
+            "level": 40,
+            "name_en": "A Mixed Message",
+            "name_fr": "Fabrication: outil simple en métal noble",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x191": {
+            "level": 40,
+            "name_en": "File That under Whatever",
+            "name_fr": "Grosse commande: laissons limer les condamnés",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x189": {
+            "level": 40,
+            "name_en": "A Weighty Question",
+            "name_fr": "Livraison: de la légèreté de la masse",
+            "issueLocation_en": "Whitebrim Front",
+            "issueLocation_fr": "Poste de L'Arête blanche",
+            "leveZone_en": "Coerthas Central Highlands",
+            "leveZone_fr": "Hautes terres du Coerthas central"
+        },
+        "x193": {
+            "level": 40,
+            "name_en": "Get Me to the War on Time",
+            "name_fr": "Fabrication: la forge perpétuelle",
+            "issueLocation_en": "Whitebrim Front",
+            "issueLocation_fr": "Poste de L'Arête blanche",
+            "leveZone_en": "Coerthas Central Highlands",
+            "leveZone_fr": "Hautes terres du Coerthas central"
+        },
+        "x192": {
+            "level": 40,
+            "name_en": "Kitchen Casualties",
+            "name_fr": "Fabrication: couteaux de cuisine",
+            "issueLocation_en": "Whitebrim Front",
+            "issueLocation_fr": "Poste de L'Arête blanche",
+            "leveZone_en": "Coerthas Central Highlands",
+            "leveZone_fr": "Hautes terres du Coerthas central"
+        },
+        "x194": {
+            "level": 40,
+            "name_en": "Streamlining Operations",
+            "name_fr": "Grosse commande: compter les coups sur les clous",
+            "issueLocation_en": "Whitebrim Front",
+            "issueLocation_fr": "Poste de L'Arête blanche",
+            "leveZone_en": "Coerthas Central Highlands",
+            "leveZone_fr": "Hautes terres du Coerthas central"
+        },
+        "x196": {
+            "level": 45,
+            "name_en": "No Refunds, Only Exchanges",
+            "name_fr": "Fabrication: limes défectueuses",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x197": {
+            "level": 45,
+            "name_en": "You Stay on That Side",
+            "name_fr": "Grosse commande: pâturages en tenailles",
+            "issueLocation_en": "Limsa Lominsa",
+            "issueLocation_fr": "Limsa Lominsa",
+            "leveZone_en": "Limsa Lominsa",
+            "leveZone_fr": "Limsa Lominsa"
+        },
+        "x195": {
+            "level": 45,
+            "name_en": "I'd Rather Be Digging",
+            "name_fr": "Livraison: tanner pour mieux creuser",
+            "issueLocation_en": "Saint Coinach's Find",
+            "issueLocation_fr": "Trouvaille de Saint-Coinach",
+            "leveZone_en": "Mor Dhona",
+            "leveZone_fr": "Mor Dhona"
+        },
+        "x199": {
+            "level": 45,
+            "name_en": "Talon Terrors",
+            "name_fr": "Fabrication: terreur griffue",
+            "issueLocation_en": "Saint Coinach's Find",
+            "issueLocation_fr": "Trouvaille de Saint-Coinach",
+            "leveZone_en": "Mor Dhona",
+            "leveZone_fr": "Mor Dhona"
+        },
+        "x198": {
+            "level": 45,
+            "name_en": "Pop That Top",
+            "name_fr": "Fabrication: boîtes à reliques",
+            "issueLocation_en": "Saint Coinach's Find",
+            "issueLocation_fr": "Trouvaille de Saint-Coinach",
+            "leveZone_en": "Mor Dhona",
+            "leveZone_fr": "Mor Dhona"
+        },
+        "x200": {
+            "level": 45,
+            "name_en": "I Maul Right",
+            "name_fr": "Grosse commande: maillets à tout faire",
+            "issueLocation_en": "Saint Coinach's Find",
+            "issueLocation_fr": "Trouvaille de Saint-Coinach",
+            "leveZone_en": "Mor Dhona",
+            "leveZone_fr": "Mor Dhona"
+        },
+        "x969": {
+            "level": 50,
+            "name_en": "Punching Your Way to Success",
+            "name_fr": "Fabrication: des patas d'entraînement",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x968": {
+            "level": 50,
+            "name_en": "Barring the Gates to Foundation",
+            "name_fr": "Fabrication: des katzbalgers pour les défenses",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x970": {
+            "level": 50,
+            "name_en": "With Bearings Straight",
+            "name_fr": "Grosse commande: des pépites pour balistes",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x975": {
+            "level": 52,
+            "name_en": "Freight and Barrel",
+            "name_fr": "Fabrication: des stylets pour les pilotes",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x974": {
+            "level": 52,
+            "name_en": "It's All about Execution",
+            "name_fr": "Fabrication: des espadons de bourreau",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x976": {
+            "level": 52,
+            "name_en": "Cautionary Cutlery",
+            "name_fr": "Grosse commande: des couteaux pour les cuistots",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x981": {
+            "level": 54,
+            "name_en": "I Saw the Pine",
+            "name_fr": "Fabrication: des scies pour sapeur",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x980": {
+            "level": 54,
+            "name_en": "I Could Feel That from Here",
+            "name_fr": "Fabrication: des couteaux de tanneur",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x982": {
+            "level": 54,
+            "name_en": "Keep Up with the Mechanics",
+            "name_fr": "Grosse commande: arquebuses d'essai",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x986": {
+            "level": 56,
+            "name_en": "Unbreaker",
+            "name_fr": "Fabrication: du titane aux carreaux",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x987": {
+            "level": 56,
+            "name_en": "Diamond Sawdust",
+            "name_fr": "Fabrication: déblayage à la hache",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x988": {
+            "level": 56,
+            "name_en": "Spirituality Inspector",
+            "name_fr": "Grosse commande: coup de massette",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x993": {
+            "level": 58,
+            "name_en": "Winter Weather Conditions",
+            "name_fr": "Fabrication: que de dolabres",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x992": {
+            "level": 58,
+            "name_en": "Through Thick and Thin",
+            "name_fr": "Fabrication: de l'adamantium à la pointe",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x994": {
+            "level": 58,
+            "name_en": "Swords for Plowshares",
+            "name_fr": "Grosse commande: charcuterie à l'espadon",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x972": {
+            "level": 50,
+            "name_en": "Foreign Exchange (L)",
+            "name_fr": "Grand mandat: des patas d'entraînement",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x971": {
+            "level": 50,
+            "name_en": "Starting Young (L)",
+            "name_fr": "Grand mandat: des katzbalgers pour les défenses",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x973": {
+            "level": 50,
+            "name_en": "Bearing the Brunt (L)",
+            "name_fr": "Grand mandat: des pépites pour balistes",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x978": {
+            "level": 52,
+            "name_en": "Stepping on My Heart with Stilettos (L)",
+            "name_fr": "Grand mandat: des stylets pour les pilotes",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x977": {
+            "level": 52,
+            "name_en": "Too Big to Miss (L)",
+            "name_fr": "Grand mandat: des espadons de bourreau",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x979": {
+            "level": 52,
+            "name_en": "Saw, Shank, and Redemption (L)",
+            "name_fr": "Grand mandat: des couteaux pour les cuistots",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x984": {
+            "level": 54,
+            "name_en": "I Came, I Sawed, I Conquered (L)",
+            "name_fr": "Grand mandat: des scies pour sapeur",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x983": {
+            "level": 54,
+            "name_en": "Tensions in Creasing (L)",
+            "name_fr": "Grand mandat: des couteaux de tanneur",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x985": {
+            "level": 54,
+            "name_en": "Unconventional Weaponry (L)",
+            "name_fr": "Grand mandat: arquebuses d'essai",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x989": {
+            "level": 56,
+            "name_en": "Attack on Titanium (L)",
+            "name_fr": "Grand mandat: du titane aux carreaux",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x990": {
+            "level": 56,
+            "name_en": "I'm a Lumberjack and I'm Okay (L)",
+            "name_fr": "Grand mandat: déblayage à la hache",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x991": {
+            "level": 56,
+            "name_en": "The Clamor for Hammers (L)",
+            "name_fr": "Grand mandat: coup de massette",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x996": {
+            "level": 58,
+            "name_en": "The Nightsoil Is Dark and Full of Terrors (L)",
+            "name_fr": "Grand mandat: que de dolabres",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x995": {
+            "level": 58,
+            "name_en": "Piercing Eyes Deserve Piercing Shafts (L)",
+            "name_fr": "Grand mandat: de l'adamantium à la pointe",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x997": {
+            "level": 58,
+            "name_en": "Negative, They Are Meat Popsicles (L)",
+            "name_fr": "Grand mandat: charcuterie à l'espadon",
+            "issueLocation_en": "Foundation",
+            "issueLocation_fr": "Ishgard - L'Assise",
+            "leveZone_en": "Ishgard",
+            "leveZone_fr": "Ishgard"
+        },
+        "x1270": {
+            "level": 60,
+            "name_en": "High Steal",
+            "name_fr": "Grosse commande: des pépites d'acier, par pitié!",
+            "issueLocation_en": "Kugane",
+            "issueLocation_fr": "Kugane",
+            "leveZone_en": "Kugane",
+            "leveZone_fr": "Kugane"
+        },
+        "x1269": {
+            "level": 60,
+            "name_en": "A Knack for Nicking",
+            "name_fr": "Fabrication: un couteau à louer",
+            "issueLocation_en": "Kugane",
+            "issueLocation_fr": "Kugane",
+            "leveZone_en": "Kugane",
+            "leveZone_fr": "Kugane"
+        },
+        "x1268": {
+            "level": 60,
+            "name_en": "Have Blade, Will Travel",
+            "name_fr": "Fabrication: une épée pour se défendre",
+            "issueLocation_en": "Kugane",
+            "issueLocation_fr": "Kugane",
+            "leveZone_en": "Kugane",
+            "leveZone_fr": "Kugane"
+        },
+        "x1271": {
+            "level": 62,
+            "name_en": "Crisscrossing",
+            "name_fr": "Fabrication: une arme dissimulable",
+            "issueLocation_en": "Kugane",
+            "issueLocation_fr": "Kugane",
+            "leveZone_en": "Kugane",
+            "leveZone_fr": "Kugane"
+        },
+        "x1272": {
+            "level": 62,
+            "name_en": "Hammer Time",
+            "name_fr": "Fabrication: le maillet du maçon",
+            "issueLocation_en": "Kugane",
+            "issueLocation_fr": "Kugane",
+            "leveZone_en": "Kugane",
+            "leveZone_fr": "Kugane"
+        },
+        "x1273": {
+            "level": 62,
+            "name_en": "File under Dull",
+            "name_fr": "Grosse commande: de nouvelles limes à louer",
+            "issueLocation_en": "Kugane",
+            "issueLocation_fr": "Kugane",
+            "leveZone_en": "Kugane",
+            "leveZone_fr": "Kugane"
+        },
+        "x1276": {
+            "level": 64,
+            "name_en": "And My Axe",
+            "name_fr": "Grosse commande: déterrer les haches de guerre",
+            "issueLocation_en": "Kugane",
+            "issueLocation_fr": "Kugane",
+            "leveZone_en": "Kugane",
+            "leveZone_fr": "Kugane"
+        },
+        "x1274": {
+            "level": 64,
+            "name_en": "Killer Cutlery",
+            "name_fr": "Fabrication: avec sa manique et son couteau",
+            "issueLocation_en": "Kugane",
+            "issueLocation_fr": "Kugane",
+            "leveZone_en": "Kugane",
+            "leveZone_fr": "Kugane"
+        },
+        "x1275": {
+            "level": 64,
+            "name_en": "Meddle in Metal",
+            "name_fr": "Fabrication: de beaux lingots",
+            "issueLocation_en": "Kugane",
+            "issueLocation_fr": "Kugane",
+            "leveZone_en": "Kugane",
+            "leveZone_fr": "Kugane"
+        },
+        "x1279": {
+            "level": 66,
+            "name_en": "The Bigger the Blade",
+            "name_fr": "Grosse commande: plein de beaux tachi",
+            "issueLocation_en": "Kugane",
+            "issueLocation_fr": "Kugane",
+            "leveZone_en": "Kugane",
+            "leveZone_fr": "Kugane"
+        },
+        "x1277": {
+            "level": 66,
+            "name_en": "Sea-saw",
+            "name_fr": "Fabrication: une production en dents de scie",
+            "issueLocation_en": "Kugane",
+            "issueLocation_fr": "Kugane",
+            "leveZone_en": "Kugane",
+            "leveZone_fr": "Kugane"
+        },
+        "x1278": {
+            "level": 66,
+            "name_en": "Renting Mortality",
+            "name_fr": "Fabrication: un mortier à louer",
+            "issueLocation_en": "Kugane",
+            "issueLocation_fr": "Kugane",
+            "leveZone_en": "Kugane",
+            "leveZone_fr": "Kugane"
+        },
+        "x1282": {
+            "level": 68,
+            "name_en": "Fire for Hire",
+            "name_fr": "Grosse commande: problèmes carabinés au Sekiseigumi",
+            "issueLocation_en": "Kugane",
+            "issueLocation_fr": "Kugane",
+            "leveZone_en": "Kugane",
+            "leveZone_fr": "Kugane"
+        },
+        "x1281": {
+            "level": 68,
+            "name_en": "Ingot to Wing It",
+            "name_fr": "Fabrication: pur comme un lingot",
+            "issueLocation_en": "Kugane",
+            "issueLocation_fr": "Kugane",
+            "leveZone_en": "Kugane",
+            "leveZone_fr": "Kugane"
+        },
+        "x1280": {
+            "level": 68,
+            "name_en": "Hammer and Sails",
+            "name_fr": "Fabrication: un beau marteau",
+            "issueLocation_en": "Kugane",
+            "issueLocation_fr": "Kugane",
+            "leveZone_en": "Kugane",
+            "leveZone_fr": "Kugane"
+        },
+        "x1434": {
+            "level": 70,
+            "name_en": "Fire Sale",
+            "name_fr": "Fabrication: nouvel article en vente",
+            "issueLocation_en": "The Crystarium",
+            "issueLocation_fr": "Cristarium",
+            "leveZone_en": "The Crystarium",
+            "leveZone_fr": "Cristarium"
+        },
+        "x1435": {
+            "level": 70,
+            "name_en": "Here Comes the Hammer",
+            "name_fr": "Grosse commande: des maillets en masse",
+            "issueLocation_en": "The Crystarium",
+            "issueLocation_fr": "Cristarium",
+            "leveZone_en": "The Crystarium",
+            "leveZone_fr": "Cristarium"
+        },
+        "x1433": {
+            "level": 70,
+            "name_en": "The Gold Experience",
+            "name_fr": "Fabrication: des réserves d'or incarnat",
+            "issueLocation_en": "The Crystarium",
+            "issueLocation_fr": "Cristarium",
+            "leveZone_en": "The Crystarium",
+            "leveZone_fr": "Cristarium"
+        },
+        "x1438": {
+            "level": 72,
+            "name_en": "Enlistment Highs",
+            "name_fr": "Grosse commande: les épées des recrues",
+            "issueLocation_en": "The Crystarium",
+            "issueLocation_fr": "Cristarium",
+            "leveZone_en": "The Crystarium",
+            "leveZone_fr": "Cristarium"
+        },
+        "x1437": {
+            "level": 72,
+            "name_en": "Heavy Hitter",
+            "name_fr": "Fabrication: des poings dans la face des brigands",
+            "issueLocation_en": "The Crystarium",
+            "issueLocation_fr": "Cristarium",
+            "leveZone_en": "The Crystarium",
+            "leveZone_fr": "Cristarium"
+        },
+        "x1436": {
+            "level": 72,
+            "name_en": "Selective Logging",
+            "name_fr": "Fabrication: une bonne grosse hache",
+            "issueLocation_en": "The Crystarium",
+            "issueLocation_fr": "Cristarium",
+            "leveZone_en": "The Crystarium",
+            "leveZone_fr": "Cristarium"
+        },
+        "x1440": {
+            "level": 74,
+            "name_en": "Halfhearted Effort",
+            "name_fr": "Fabrication: le génie de la scie ronde",
+            "issueLocation_en": "The Crystarium",
+            "issueLocation_fr": "Cristarium",
+            "leveZone_en": "The Crystarium",
+            "leveZone_fr": "Cristarium"
+        },
+        "x1439": {
+            "level": 74,
+            "name_en": "Instruments of Distraction",
+            "name_fr": "Fabrication: réparation à l'azuresprit",
+            "issueLocation_en": "The Crystarium",
+            "issueLocation_fr": "Cristarium",
+            "leveZone_en": "The Crystarium",
+            "leveZone_fr": "Cristarium"
+        },
+        "x1441": {
+            "level": 74,
+            "name_en": "Nip It in the Bud",
+            "name_fr": "Grosse commande: outils pour jardiniers",
+            "issueLocation_en": "The Crystarium",
+            "issueLocation_fr": "Cristarium",
+            "leveZone_en": "The Crystarium",
+            "leveZone_fr": "Cristarium"
+        },
+        "x1444": {
+            "level": 76,
+            "name_en": "Cooking for the Future",
+            "name_fr": "Grosse commande: couteaux de cuisine pour enfants",
+            "issueLocation_en": "The Crystarium",
+            "issueLocation_fr": "Cristarium",
+            "leveZone_en": "The Crystarium",
+            "leveZone_fr": "Cristarium"
+        },
+        "x1442": {
+            "level": 76,
+            "name_en": "Dodge Once, Cut Twice",
+            "name_fr": "Fabrication: des dagues contre la mauvaise haleine",
+            "issueLocation_en": "The Crystarium",
+            "issueLocation_fr": "Cristarium",
+            "leveZone_en": "The Crystarium",
+            "leveZone_fr": "Cristarium"
+        },
+        "x1443": {
+            "level": 76,
+            "name_en": "Idol Hands",
+            "name_fr": "Fabrication: des chakrams pour les admirateurs",
+            "issueLocation_en": "The Crystarium",
+            "issueLocation_fr": "Cristarium",
+            "leveZone_en": "The Crystarium",
+            "leveZone_fr": "Cristarium"
+        },
+        "x1445": {
+            "level": 78,
+            "name_en": "Bae Blade",
+            "name_fr": "Fabrication: esthétisme et efficacité tranchants",
+            "issueLocation_en": "The Crystarium",
+            "issueLocation_fr": "Cristarium",
+            "leveZone_en": "The Crystarium",
+            "leveZone_fr": "Cristarium"
+        },
+        "x1447": {
+            "level": 78,
+            "name_en": "Keeping Loyalty",
+            "name_fr": "Grosse commande: cadeau pour nos artisans",
+            "issueLocation_en": "The Crystarium",
+            "issueLocation_fr": "Cristarium",
+            "leveZone_en": "The Crystarium",
+            "leveZone_fr": "Cristarium"
+        },
+        "x1446": {
+            "level": 78,
+            "name_en": "Under the Fool Moon",
+            "name_fr": "Fabrication: des armes à feu expérimentales",
+            "issueLocation_en": "The Crystarium",
+            "issueLocation_fr": "Cristarium",
+            "leveZone_en": "The Crystarium",
+            "leveZone_fr": "Cristarium"
+        },
+        "x1578": {
+            "level": 80,
+            "name_en": "To Delight a Dancer",
+            "name_fr": "Fabrication: tathlums commémoratifs",
+            "issueLocation_en": "Old Sharlayan",
+            "issueLocation_fr": "Vieille Sharlayan",
+            "leveZone_en": "Old Sharlayan",
+            "leveZone_fr": "Vieille Sharlayan"
+        },
+        "x1579": {
+            "level": 80,
+            "name_en": "Archon Denied",
+            "name_fr": "Fabrication: scie à barricades",
+            "issueLocation_en": "Old Sharlayan",
+            "issueLocation_fr": "Vieille Sharlayan",
+            "leveZone_en": "Old Sharlayan",
+            "leveZone_fr": "Vieille Sharlayan"
+        },
+        "x1580": {
+            "level": 82,
+            "name_en": "History of the Hrothgar",
+            "name_fr": "Fabrication: histoire de Bozja I",
+            "issueLocation_en": "Old Sharlayan",
+            "issueLocation_fr": "Vieille Sharlayan",
+            "leveZone_en": "Old Sharlayan",
+            "leveZone_fr": "Vieille Sharlayan"
+        },
+        "x1581": {
+            "level": 82,
+            "name_en": "Archon of His Eye",
+            "name_fr": "Fabrication: lames de la détermination",
+            "issueLocation_en": "Old Sharlayan",
+            "issueLocation_fr": "Vieille Sharlayan",
+            "leveZone_en": "Old Sharlayan",
+            "leveZone_fr": "Vieille Sharlayan"
+        },
+        "x1582": {
+            "level": 84,
+            "name_en": "Records of the Republic",
+            "name_fr": "Fabrication: histoire de la république de Garlemald I",
+            "issueLocation_en": "Old Sharlayan",
+            "issueLocation_fr": "Vieille Sharlayan",
+            "leveZone_en": "Old Sharlayan",
+            "leveZone_fr": "Vieille Sharlayan"
+        },
+        "x1583": {
+            "level": 84,
+            "name_en": "In Pursuit of Panaloaf",
+            "name_fr": "Fabrication: mortier expérimental",
+            "issueLocation_en": "Old Sharlayan",
+            "issueLocation_fr": "Vieille Sharlayan",
+            "leveZone_en": "Old Sharlayan",
+            "leveZone_fr": "Vieille Sharlayan"
+        },
+        "x1584": {
+            "level": 86,
+            "name_en": "Mangalomania",
+            "name_fr": "Fabrication: lingots de manganèse pur",
+            "issueLocation_en": "Old Sharlayan",
+            "issueLocation_fr": "Vieille Sharlayan",
+            "leveZone_en": "Old Sharlayan",
+            "leveZone_fr": "Vieille Sharlayan"
+        },
+        "x1585": {
+            "level": 86,
+            "name_en": "Pruned to Perfection",
+            "name_fr": "Fabrication: outil de jardinage",
+            "issueLocation_en": "Old Sharlayan",
+            "issueLocation_fr": "Vieille Sharlayan",
+            "leveZone_en": "Old Sharlayan",
+            "leveZone_fr": "Vieille Sharlayan"
+        },
+        "x1586": {
+            "level": 88,
+            "name_en": "Annals of the Empire I",
+            "name_fr": "Fabrication: histoire de Garlemald I",
+            "issueLocation_en": "Old Sharlayan",
+            "issueLocation_fr": "Vieille Sharlayan",
+            "leveZone_en": "Old Sharlayan",
+            "leveZone_fr": "Vieille Sharlayan"
+        },
+        "x1587": {
+            "level": 88,
+            "name_en": "Plying with Precision",
+            "name_fr": "Fabrication: tenailles pour dispositif de contrôle",
+            "issueLocation_en": "Old Sharlayan",
+            "issueLocation_fr": "Vieille Sharlayan",
+            "leveZone_en": "Old Sharlayan",
+            "leveZone_fr": "Vieille Sharlayan"
+        }
+    }
+}

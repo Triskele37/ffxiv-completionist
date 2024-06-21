@@ -1,0 +1,1399 @@
+{
+    "key": "levequests",
+    "groupName_en": "Levequests",
+    "groupName_fr": "Mandats",
+    "tasks": {
+        "x323": {
+            "name_en": "All the More Region to Leve I",
+            "name_fr": "Mandataire modèle I",
+            "description_en": "Complete 10 regional battlecraft levequests.",
+            "description_fr": "Accomplir un total de 10 mandats de mercenariat.",
+            "patch": "2.0",
+            "points": 5,
+            "cNext": [
+                324
+            ]
+        },
+        "x324": {
+            "name_en": "All the More Region to Leve II",
+            "name_fr": "Mandataire modèle II",
+            "description_en": "Complete 20 regional battlecraft levequests.",
+            "description_fr": "Accomplir un total de 20 mandats de mercenariat.",
+            "patch": "2.0",
+            "points": 5,
+            "cPrev": [
+                323
+            ],
+            "cNext": [
+                325
+            ]
+        },
+        "x325": {
+            "name_en": "All the More Region to Leve III",
+            "name_fr": "Mandataire modèle III",
+            "description_en": "Complete 50 regional battlecraft levequests.",
+            "description_fr": "Accomplir un total de 50 mandats de mercenariat.",
+            "patch": "2.0",
+            "points": 5,
+            "cPrev": [
+                324
+            ],
+            "cNext": [
+                326
+            ]
+        },
+        "x326": {
+            "name_en": "All the More Region to Leve IV",
+            "name_fr": "Mandataire modèle IV",
+            "description_en": "Complete 100 regional battlecraft levequests.",
+            "description_fr": "Accomplir un total de 100 mandats de mercenariat.",
+            "patch": "2.0",
+            "points": 5,
+            "cPrev": [
+                325
+            ],
+            "cNext": [
+                327
+            ]
+        },
+        "x327": {
+            "name_en": "All the More Region to Leve V",
+            "name_fr": "Mandataire modèle V",
+            "description_en": "Complete 200 regional battlecraft levequests.",
+            "description_fr": "Accomplir un total de 200 mandats de mercenariat.",
+            "patch": "2.0",
+            "points": 5,
+            "cPrev": [
+                326
+            ],
+            "cNext": [
+                328
+            ]
+        },
+        "x328": {
+            "name_en": "All the More Region to Leve VI",
+            "name_fr": "Mandataire modèle VI",
+            "description_en": "Complete 500 regional battlecraft levequests.",
+            "description_fr": "Accomplir un total de 500 mandats de mercenariat.",
+            "reward": "character.character.title.50",
+            "patch": "2.0",
+            "points": 10,
+            "cPrev": [
+                327
+            ],
+            "cNext": [
+                329
+            ],
+            "cSiblings": [
+                "character.character.title.50"
+            ]
+        },
+        "x329": {
+            "name_en": "Region d'Etre",
+            "name_fr": "Région d'honneur",
+            "description_en": "Complete 1,000 regional battlecraft levequests.",
+            "description_fr": "Accomplir un total de 1 000 mandats de mercenariat.",
+            "patch": "2.0",
+            "points": 20,
+            "cPrev": [
+                328
+            ],
+            "cNext": [
+                1338
+            ]
+        },
+        "x1338": {
+            "name_en": "All the More Region to Leve VII",
+            "name_fr": "Mandataire modèle VII",
+            "description_en": "Complete 5,000 regional battlecraft levequests.",
+            "description_fr": "Accomplir un total de 5 000 mandats de mercenariat.",
+            "patch": "3.0",
+            "points": 20,
+            "cPrev": [
+                329
+            ]
+        },
+        "x330": {
+            "name_en": "Think Global, Quest Local I",
+            "name_fr": "Ouvrier local I",
+            "description_en": "Complete 10 local tradecraft levequests.",
+            "description_fr": "Accomplir un total de 10 mandats d'artisanat.",
+            "patch": "2.0",
+            "points": 5,
+            "cNext": [
+                331
+            ]
+        },
+        "x331": {
+            "name_en": "Think Global, Quest Local II",
+            "name_fr": "Ouvrier local II",
+            "description_en": "Complete 20 local tradecraft levequests.",
+            "description_fr": "Accomplir un total de 20 mandats d'artisanat.",
+            "patch": "2.0",
+            "points": 5,
+            "cPrev": [
+                330
+            ],
+            "cNext": [
+                332
+            ]
+        },
+        "x332": {
+            "name_en": "Think Global, Quest Local III",
+            "name_fr": "Ouvrier local III",
+            "description_en": "Complete 50 local tradecraft levequests.",
+            "description_fr": "Accomplir un total de 50 mandats d'artisanat.",
+            "patch": "2.0",
+            "points": 5,
+            "cPrev": [
+                331
+            ],
+            "cNext": [
+                333
+            ]
+        },
+        "x333": {
+            "name_en": "Think Global, Quest Local IV",
+            "name_fr": "Ouvrier local IV",
+            "description_en": "Complete 100 local tradecraft levequests.",
+            "description_fr": "Accomplir un total de 100 mandats d'artisanat.",
+            "patch": "2.0",
+            "points": 5,
+            "cPrev": [
+                332
+            ],
+            "cNext": [
+                334
+            ]
+        },
+        "x334": {
+            "name_en": "Think Global, Quest Local V",
+            "name_fr": "Ouvrier local V",
+            "description_en": "Complete 200 local tradecraft levequests.",
+            "description_fr": "Accomplir un total de 200 mandats d'artisanat.",
+            "patch": "2.0",
+            "points": 5,
+            "cPrev": [
+                333
+            ],
+            "cNext": [
+                335
+            ]
+        },
+        "x335": {
+            "name_en": "Think Global, Quest Local VI",
+            "name_fr": "Ouvrier local VI",
+            "description_en": "Complete 500 local tradecraft levequests.",
+            "description_fr": "Accomplir un total de 500 mandats d'artisanat.",
+            "reward": "character.character.title.51",
+            "patch": "2.0",
+            "points": 10,
+            "cPrev": [
+                334
+            ],
+            "cNext": [
+                336
+            ],
+            "cSiblings": [
+                "character.character.title.51"
+            ]
+        },
+        "x336": {
+            "name_en": "Lost in Localization",
+            "name_fr": "Entrepreneur local",
+            "description_en": "Complete 1,000 local tradecraft levequests.",
+            "description_fr": "Accomplir un total de 1 000 mandats d'artisanat.",
+            "patch": "2.0",
+            "points": 20,
+            "cPrev": [
+                335
+            ],
+            "cNext": [
+                1339
+            ]
+        },
+        "x1339": {
+            "name_en": "Think Global, Quest Local VII",
+            "name_fr": "Ouvrier local VII",
+            "description_en": "Complete 5,000 local tradecraft levequests.",
+            "description_fr": "Accomplir un total de 5 000 mandats d'artisanat.",
+            "patch": "3.0",
+            "points": 20,
+            "cPrev": [
+                336
+            ]
+        },
+        "x601": {
+            "name_en": "In the Outfield I",
+            "name_fr": "Engranger la récolte I",
+            "description_en": "Complete 10 fieldcraft levequests.",
+            "description_fr": "Accomplir un total de 10 mandats de récolte.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                602
+            ]
+        },
+        "x602": {
+            "name_en": "In the Outfield II",
+            "name_fr": "Engranger la récolte II",
+            "description_en": "Complete 20 fieldcraft levequests.",
+            "description_fr": "Accomplir un total de 20 mandats de récolte.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                601
+            ],
+            "cNext": [
+                603
+            ]
+        },
+        "x603": {
+            "name_en": "In the Outfield III",
+            "name_fr": "Engranger la récolte III",
+            "description_en": "Complete 50 fieldcraft levequests.",
+            "description_fr": "Accomplir un total de 50 mandats de récolte.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                602
+            ],
+            "cNext": [
+                604
+            ]
+        },
+        "x604": {
+            "name_en": "In the Outfield IV",
+            "name_fr": "Engranger la récolte IV",
+            "description_en": "Complete 100 fieldcraft levequests.",
+            "description_fr": "Accomplir un total de 100 mandats de récolte.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                603
+            ],
+            "cNext": [
+                605
+            ]
+        },
+        "x605": {
+            "name_en": "In the Outfield V",
+            "name_fr": "Engranger la récolte V",
+            "description_en": "Complete 200 fieldcraft levequests.",
+            "description_fr": "Accomplir un total de 200 mandats de récolte.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                604
+            ],
+            "cNext": [
+                606
+            ]
+        },
+        "x606": {
+            "name_en": "In the Outfield VI",
+            "name_fr": "Engranger la récolte VI",
+            "description_en": "Complete 500 fieldcraft levequests.",
+            "description_fr": "Accomplir un total de 500 mandats de récolte.",
+            "reward": "character.character.title.108",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                605
+            ],
+            "cNext": [
+                607
+            ],
+            "cSiblings": [
+                "character.character.title.108"
+            ]
+        },
+        "x607": {
+            "name_en": "Field of Dreams",
+            "name_fr": "Moisson de gloire",
+            "description_en": "Complete 1,000 fieldcraft levequests.",
+            "description_fr": "Accomplir un total de 1 000 mandats de récolte.",
+            "patch": "2.1",
+            "points": 20,
+            "cPrev": [
+                606
+            ],
+            "cNext": [
+                1340
+            ]
+        },
+        "x1340": {
+            "name_en": "In the Outfield VII",
+            "name_fr": "Engranger la récolte VII",
+            "description_en": "Complete 5,000 fieldcraft levequests.",
+            "description_fr": "Accomplir un total de 5 000 mandats de récolte.",
+            "patch": "3.0",
+            "points": 20,
+            "cPrev": [
+                607
+            ]
+        },
+        "x608": {
+            "name_en": "Uphill Battle I",
+            "name_fr": "Bras à louer I",
+            "description_en": "Complete 10 unique battlecraft levequests.",
+            "description_fr": "Accomplir 10 mandats de mercenariat différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                609
+            ]
+        },
+        "x609": {
+            "name_en": "Uphill Battle II",
+            "name_fr": "Bras à louer II",
+            "description_en": "Complete 50 unique battlecraft levequests.",
+            "description_fr": "Accomplir 50 mandats de mercenariat différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                608
+            ],
+            "cNext": [
+                610
+            ]
+        },
+        "x610": {
+            "name_en": "Uphill Battle III",
+            "name_fr": "Bras à louer III",
+            "description_en": "Complete 100 unique battlecraft levequests.",
+            "description_fr": "Accomplir 100 mandats de mercenariat différents.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                609
+            ],
+            "cNext": [
+                1341
+            ]
+        },
+        "x1341": {
+            "name_en": "Uphill Battle IV",
+            "name_fr": "Bras à louer IV",
+            "description_en": "Complete 150 unique battlecraft levequests.",
+            "description_fr": "Accomplir 150 mandats de mercenariat différents.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                610
+            ]
+        },
+        "x611": {
+            "name_en": "With Saw in Hand I",
+            "name_fr": "Féru de la scie I",
+            "description_en": "Complete 5 unique carpenter levequests.",
+            "description_fr": "Accomplir 5 mandats de menuisier différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                612
+            ]
+        },
+        "x612": {
+            "name_en": "With Saw in Hand II",
+            "name_fr": "Féru de la scie II",
+            "description_en": "Complete 20 unique carpenter levequests.",
+            "description_fr": "Accomplir 20 mandats de menuisier différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                611
+            ],
+            "cNext": [
+                613
+            ]
+        },
+        "x613": {
+            "name_en": "With Saw in Hand III",
+            "name_fr": "Féru de la scie III",
+            "description_en": "Complete 40 unique carpenter levequests.",
+            "description_fr": "Accomplir 40 mandats de menuisier différents.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                612
+            ],
+            "cNext": [
+                1342
+            ]
+        },
+        "x1342": {
+            "name_en": "With Saw in Hand IV",
+            "name_fr": "Féru de la scie IV",
+            "description_en": "Complete 80 unique carpenter levequests.",
+            "description_fr": "Accomplir 80 mandats de menuisier différents.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                613
+            ],
+            "cNext": [
+                1859
+            ]
+        },
+        "x1859": {
+            "name_en": "With Saw in Hand V",
+            "name_fr": "Féru de la scie V",
+            "description_en": "Complete 100 unique carpenter levequests.",
+            "description_fr": "Accomplir 100 mandats de menuisier différents.",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1342
+            ],
+            "cNext": [
+                2357
+            ]
+        },
+        "x2357": {
+            "name_en": "With Saw in Hand VI",
+            "name_fr": "Féru de la scie VI",
+            "description_en": "Complete 110 unique carpenter levequests.",
+            "description_fr": "Accomplir 110 mandats de menuisier différents.",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                1859
+            ],
+            "cNext": [
+                2941
+            ]
+        },
+        "x2941": {
+            "name_en": "With Saw in Hand VII",
+            "name_fr": "Féru de la scie VII",
+            "description_en": "Complete 120 unique carpenter levequests.",
+            "description_fr": "Accomplir 120 mandats de menuisier différents.",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2357
+            ]
+        },
+        "x614": {
+            "name_en": "With Hammer in Hand I",
+            "name_fr": "Féru de l'enclume I",
+            "description_en": "Complete 5 unique blacksmith levequests.",
+            "description_fr": "Accomplir 5 mandats de forgeron différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                615
+            ]
+        },
+        "x615": {
+            "name_en": "With Hammer in Hand II",
+            "name_fr": "Féru de l'enclume II",
+            "description_en": "Complete 20 unique blacksmith levequests.",
+            "description_fr": "Accomplir 20 mandats de forgeron différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                614
+            ],
+            "cNext": [
+                616
+            ]
+        },
+        "x616": {
+            "name_en": "With Hammer in Hand III",
+            "name_fr": "Féru de l'enclume III",
+            "description_en": "Complete 40 unique blacksmith levequests.",
+            "description_fr": "Accomplir 40 mandats de forgeron différents.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                615
+            ],
+            "cNext": [
+                1343
+            ]
+        },
+        "x1343": {
+            "name_en": "With Hammer in Hand IV",
+            "name_fr": "Féru de l'enclume IV",
+            "description_en": "Complete 80 unique blacksmith levequests.",
+            "description_fr": "Accomplir 80 mandats de forgeron différents.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                616
+            ],
+            "cNext": [
+                1860
+            ]
+        },
+        "x1860": {
+            "name_en": "With Hammer in Hand V",
+            "name_fr": "Féru de l'enclume V",
+            "description_en": "Complete 100 unique blacksmith levequests.",
+            "description_fr": "Accomplir 100 mandats de forgeron différents.",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1343
+            ],
+            "cNext": [
+                2358
+            ]
+        },
+        "x2358": {
+            "name_en": "With Hammer in Hand VI",
+            "name_fr": "Féru de l'enclume VI",
+            "description_en": "Complete 110 unique blacksmith levequests.",
+            "description_fr": "Accomplir 110 mandats de forgeron différents.",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                1860
+            ],
+            "cNext": [
+                2942
+            ]
+        },
+        "x2942": {
+            "name_en": "With Hammer in Hand VII",
+            "name_fr": "Féru de l'enclume VII",
+            "description_en": "Complete 120 unique blacksmith levequests.",
+            "description_fr": "Accomplir 120 mandats de forgeron différents.",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2358
+            ]
+        },
+        "x617": {
+            "name_en": "With Steel in Hand I",
+            "name_fr": "Féru du marteau I",
+            "description_en": "Complete 5 unique armorer levequests.",
+            "description_fr": "Accomplir 5 mandats d'armurier différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                618
+            ]
+        },
+        "x618": {
+            "name_en": "With Steel in Hand II",
+            "name_fr": "Féru du marteau II",
+            "description_en": "Complete 20 unique armorer levequests.",
+            "description_fr": "Accomplir 20 mandats d'armurier différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                617
+            ],
+            "cNext": [
+                619
+            ]
+        },
+        "x619": {
+            "name_en": "With Steel in Hand III",
+            "name_fr": "Féru du marteau III",
+            "description_en": "Complete 40 unique armorer levequests.",
+            "description_fr": "Accomplir 40 mandats d'armurier différents.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                618
+            ],
+            "cNext": [
+                1344
+            ]
+        },
+        "x1344": {
+            "name_en": "With Steel in Hand IV",
+            "name_fr": "Féru du marteau IV",
+            "description_en": "Complete 80 unique armorer levequests.",
+            "description_fr": "Accomplir 80 mandats d'armurier différents.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                619
+            ],
+            "cNext": [
+                1861
+            ]
+        },
+        "x1861": {
+            "name_en": "With Steel in Hand V",
+            "name_fr": "Féru du marteau V",
+            "description_en": "Complete 100 unique armorer levequests.",
+            "description_fr": "Accomplir 100 mandats d'armurier différents.",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1344
+            ],
+            "cNext": [
+                2359
+            ]
+        },
+        "x2359": {
+            "name_en": "With Steel in Hand VI",
+            "name_fr": "Féru du marteau VI",
+            "description_en": "Complete 110 unique armorer levequests.",
+            "description_fr": "Accomplir 110 mandats d'armurier différents.",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                1861
+            ],
+            "cNext": [
+                2943
+            ]
+        },
+        "x2943": {
+            "name_en": "With Steel in Hand VII",
+            "name_fr": "Féru du marteau VII",
+            "description_en": "Complete 120 unique armorer levequests.",
+            "description_fr": "Accomplir 120 mandats d'armurier différents.",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2359
+            ]
+        },
+        "x620": {
+            "name_en": "With Gem in Hand I",
+            "name_fr": "Féru du joyau I",
+            "description_en": "Complete 5 unique goldsmith levequests.",
+            "description_fr": "Accomplir 5 mandats d'orfèvre différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                621
+            ]
+        },
+        "x621": {
+            "name_en": "With Gem in Hand II",
+            "name_fr": "Féru du joyau II",
+            "description_en": "Complete 20 unique goldsmith levequests.",
+            "description_fr": "Accomplir 20 mandats d'orfèvre différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                620
+            ],
+            "cNext": [
+                622
+            ]
+        },
+        "x622": {
+            "name_en": "With Gem in Hand III",
+            "name_fr": "Féru du joyau III",
+            "description_en": "Complete 40 unique goldsmith levequests.",
+            "description_fr": "Accomplir 40 mandats d'orfèvre différents.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                621
+            ],
+            "cNext": [
+                1345
+            ]
+        },
+        "x1345": {
+            "name_en": "With Gem in Hand IV",
+            "name_fr": "Féru du joyau IV",
+            "description_en": "Complete 80 unique goldsmith levequests.",
+            "description_fr": "Accomplir 80 mandats d'orfèvre différents.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                622
+            ],
+            "cNext": [
+                1862
+            ]
+        },
+        "x1862": {
+            "name_en": "With Gem in Hand V",
+            "name_fr": "Féru du joyau V",
+            "description_en": "Complete 100 unique goldsmith levequests.",
+            "description_fr": "Accomplir 100 mandats d'orfèvre différents.",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1345
+            ],
+            "cNext": [
+                2360
+            ]
+        },
+        "x2360": {
+            "name_en": "With Gem in Hand VI",
+            "name_fr": "Féru du joyau VI",
+            "description_en": "Complete 110 unique goldsmith levequests.",
+            "description_fr": "Accomplir 110 mandats d'orfèvre différents.",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                1862
+            ],
+            "cNext": [
+                2944
+            ]
+        },
+        "x2944": {
+            "name_en": "With Gem in Hand VII",
+            "name_fr": "Féru du joyau VII",
+            "description_en": "Complete 120 unique goldsmith levequests.",
+            "description_fr": "Accomplir 120 mandats d'orfèvre différents.",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2360
+            ]
+        },
+        "x623": {
+            "name_en": "With Skin in Hand I",
+            "name_fr": "Féru du couteau I",
+            "description_en": "Complete 5 unique leatherworker levequests.",
+            "description_fr": "Accomplir 5 mandats de tanneur différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                624
+            ]
+        },
+        "x624": {
+            "name_en": "With Skin in Hand II",
+            "name_fr": "Féru du couteau II",
+            "description_en": "Complete 20 unique leatherworker levequests.",
+            "description_fr": "Accomplir 20 mandats de tanneur différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                623
+            ],
+            "cNext": [
+                625
+            ]
+        },
+        "x625": {
+            "name_en": "With Skin in Hand III",
+            "name_fr": "Féru du couteau III",
+            "description_en": "Complete 40 unique leatherworker levequests.",
+            "description_fr": "Accomplir 40 mandats de tanneur différents.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                624
+            ],
+            "cNext": [
+                1346
+            ]
+        },
+        "x1346": {
+            "name_en": "With Skin in Hand IV",
+            "name_fr": "Féru du couteau IV",
+            "description_en": "Complete 80 unique leatherworker levequests.",
+            "description_fr": "Accomplir 80 mandats de tanneur différents.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                625
+            ],
+            "cNext": [
+                1863
+            ]
+        },
+        "x1863": {
+            "name_en": "With Skin in Hand V",
+            "name_fr": "Féru du couteau V",
+            "description_en": "Complete 100 unique leatherworker levequests.",
+            "description_fr": "Accomplir 100 mandats de tanneur différents.",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1346
+            ],
+            "cNext": [
+                2361
+            ]
+        },
+        "x2361": {
+            "name_en": "With Skin in Hand VI",
+            "name_fr": "Féru du couteau VI",
+            "description_en": "Complete 110 unique leatherworker levequests.",
+            "description_fr": "Accomplir 110 mandats de tanneur différents.",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                1863
+            ],
+            "cNext": [
+                2945
+            ]
+        },
+        "x2945": {
+            "name_en": "With Skin in Hand VII",
+            "name_fr": "Féru du couteau VII",
+            "description_en": "Complete 120 unique leatherworker levequests.",
+            "description_fr": "Accomplir 120 mandats de tanneur différents.",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2361
+            ]
+        },
+        "x626": {
+            "name_en": "With Needle in Hand I",
+            "name_fr": "Féru de l'aiguille I",
+            "description_en": "Complete 5 unique weaver levequests.",
+            "description_fr": "Accomplir 5 mandats de couturier différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                627
+            ]
+        },
+        "x627": {
+            "name_en": "With Needle in Hand II",
+            "name_fr": "Féru de l'aiguille II",
+            "description_en": "Complete 20 unique weaver levequests.",
+            "description_fr": "Accomplir 20 mandats de couturier différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                626
+            ],
+            "cNext": [
+                628
+            ]
+        },
+        "x628": {
+            "name_en": "With Needle in Hand III",
+            "name_fr": "Féru de l'aiguille III",
+            "description_en": "Complete 40 unique weaver levequests.",
+            "description_fr": "Accomplir 40 mandats de couturier différents.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                627
+            ],
+            "cNext": [
+                1347
+            ]
+        },
+        "x1347": {
+            "name_en": "With Needle in Hand IV",
+            "name_fr": "Féru de l'aiguille IV",
+            "description_en": "Complete 80 unique weaver levequests.",
+            "description_fr": "Accomplir 80 mandats de couturier différents.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                628
+            ],
+            "cNext": [
+                1864
+            ]
+        },
+        "x1864": {
+            "name_en": "With Needle in Hand V",
+            "name_fr": "Féru de l'aiguille V",
+            "description_en": "Complete 100 unique weaver levequests.",
+            "description_fr": "Accomplir 100 mandats de couturier différents.",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1347
+            ],
+            "cNext": [
+                2362
+            ]
+        },
+        "x2362": {
+            "name_en": "With Needle in Hand VI",
+            "name_fr": "Féru de l'aiguille VI",
+            "description_en": "Complete 110 unique weaver levequests.",
+            "description_fr": "Accomplir 110 mandats de couturier différents.",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                1864
+            ],
+            "cNext": [
+                2946
+            ]
+        },
+        "x2946": {
+            "name_en": "With Needle in Hand VII",
+            "name_fr": "Féru de l'aiguille VII",
+            "description_en": "Complete 120 unique weaver levequests.",
+            "description_fr": "Accomplir 120 mandats de couturier différents.",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2362
+            ]
+        },
+        "x629": {
+            "name_en": "With Pestle in Hand I",
+            "name_fr": "Féru de l'alambic I",
+            "description_en": "Complete 5 unique alchemist levequests.",
+            "description_fr": "Accomplir 5 mandats d'alchimiste différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                630
+            ]
+        },
+        "x630": {
+            "name_en": "With Pestle in Hand II",
+            "name_fr": "Féru de l'alambic II",
+            "description_en": "Complete 20 unique alchemist levequests.",
+            "description_fr": "Accomplir 20 mandats d'alchimiste différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                629
+            ],
+            "cNext": [
+                631
+            ]
+        },
+        "x631": {
+            "name_en": "With Pestle in Hand III",
+            "name_fr": "Féru de l'alambic III",
+            "description_en": "Complete 40 unique alchemist levequests.",
+            "description_fr": "Accomplir 40 mandats d'alchimiste différents.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                630
+            ],
+            "cNext": [
+                1348
+            ]
+        },
+        "x1348": {
+            "name_en": "With Pestle in Hand IV",
+            "name_fr": "Féru de l'alambic IV",
+            "description_en": "Complete 80 unique alchemist levequests.",
+            "description_fr": "Accomplir 80 mandats d'alchimiste différents.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                631
+            ],
+            "cNext": [
+                1865
+            ]
+        },
+        "x1865": {
+            "name_en": "With Pestle in Hand V",
+            "name_fr": "Féru de l'alambic V",
+            "description_en": "Complete 100 unique alchemist levequests.",
+            "description_fr": "Accomplir 100 mandats d'alchimiste différents.",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1348
+            ],
+            "cNext": [
+                2363
+            ]
+        },
+        "x2363": {
+            "name_en": "With Pestle in Hand VI",
+            "name_fr": "Féru de l'alambic VI",
+            "description_en": "Complete 110 unique alchemist levequests.",
+            "description_fr": "Accomplir 110 mandats d'alchimiste différents.",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                1865
+            ],
+            "cNext": [
+                2947
+            ]
+        },
+        "x2947": {
+            "name_en": "With Pestle in Hand VII",
+            "name_fr": "Féru de l'alambic VII",
+            "description_en": "Complete 120 unique alchemist levequests.",
+            "description_fr": "Accomplir 120 mandats d'alchimiste différents.",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2363
+            ]
+        },
+        "x632": {
+            "name_en": "With Pan in Hand I",
+            "name_fr": "Féru de la poêle I",
+            "description_en": "Complete 5 unique culinarian levequests.",
+            "description_fr": "Accomplir 5 mandats de cuisinier différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                633
+            ]
+        },
+        "x633": {
+            "name_en": "With Pan in Hand II",
+            "name_fr": "Féru de la poêle II",
+            "description_en": "Complete 20 unique culinarian levequests.",
+            "description_fr": "Accomplir 20 mandats de cuisinier différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                632
+            ],
+            "cNext": [
+                634
+            ]
+        },
+        "x634": {
+            "name_en": "With Pan in Hand III",
+            "name_fr": "Féru de la poêle III",
+            "description_en": "Complete 40 unique culinarian levequests.",
+            "description_fr": "Accomplir 40 mandats de cuisinier différents.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                633
+            ],
+            "cNext": [
+                1349
+            ]
+        },
+        "x1349": {
+            "name_en": "With Pan in Hand IV",
+            "name_fr": "Féru de la poêle IV",
+            "description_en": "Complete 80 unique culinarian levequests.",
+            "description_fr": "Accomplir 80 mandats de cuisinier différents.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                634
+            ],
+            "cNext": [
+                1866
+            ]
+        },
+        "x1866": {
+            "name_en": "With Pan in Hand V",
+            "name_fr": "Féru de la poêle V",
+            "description_en": "Complete 100 unique culinarian levequests.",
+            "description_fr": "Accomplir 100 mandats de cuisinier différents.",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1349
+            ],
+            "cNext": [
+                2364
+            ]
+        },
+        "x2364": {
+            "name_en": "With Pan in Hand VI",
+            "name_fr": "Féru de la poêle VI",
+            "description_en": "Complete 110 unique culinarian levequests.",
+            "description_fr": "Accomplir 110 mandats de cuisinier différents.",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                1866
+            ],
+            "cNext": [
+                2948
+            ]
+        },
+        "x2948": {
+            "name_en": "With Pan in Hand VII",
+            "name_fr": "Féru de la poêle VII",
+            "description_en": "Complete 120 unique culinarian levequests.",
+            "description_fr": "Accomplir 120 mandats de cuisinier différents.",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2364
+            ]
+        },
+        "x635": {
+            "name_en": "With Pick in Hand I",
+            "name_fr": "Féru de la pioche I",
+            "description_en": "Complete 5 unique miner levequests.",
+            "description_fr": "Accomplir 5 mandats de mineur différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                636
+            ]
+        },
+        "x636": {
+            "name_en": "With Pick in Hand II",
+            "name_fr": "Féru de la pioche II",
+            "description_en": "Complete 20 unique miner levequests.",
+            "description_fr": "Accomplir 20 mandats de mineur différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                635
+            ],
+            "cNext": [
+                637
+            ]
+        },
+        "x637": {
+            "name_en": "With Pick in Hand III",
+            "name_fr": "Féru de la pioche III",
+            "description_en": "Complete 40 unique miner levequests.",
+            "description_fr": "Accomplir 40 mandats de mineur différents.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                636
+            ],
+            "cNext": [
+                1350
+            ]
+        },
+        "x1350": {
+            "name_en": "With Pick in Hand IV",
+            "name_fr": "Féru de la pioche IV",
+            "description_en": "Complete 70 unique miner levequests.",
+            "description_fr": "Accomplir 70 mandats de mineur différents.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                637
+            ],
+            "cNext": [
+                1868
+            ]
+        },
+        "x1868": {
+            "name_en": "With Pick in Hand V",
+            "name_fr": "Féru de la pioche V",
+            "description_en": "Complete 80 unique miner levequests.",
+            "description_fr": "Accomplir 80 mandats de mineur différents.",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1350
+            ],
+            "cNext": [
+                2366
+            ]
+        },
+        "x2366": {
+            "name_en": "With Pick in Hand VI",
+            "name_fr": "Féru de la pioche VI",
+            "description_en": "Complete 90 unique miner levequests.",
+            "description_fr": "Accomplir 90 mandats de mineur différents.",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                1868
+            ],
+            "cNext": [
+                2950
+            ]
+        },
+        "x2950": {
+            "name_en": "With Pick in Hand VII",
+            "name_fr": "Féru de la pioche VII",
+            "description_en": "Complete 100 unique miner levequests.",
+            "description_fr": "Accomplir 100 mandats de mineur différents.",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2366
+            ]
+        },
+        "x638": {
+            "name_en": "With Axe in Hand I",
+            "name_fr": "Féru de la hache I",
+            "description_en": "Complete 5 unique botanist levequests.",
+            "description_fr": "Accomplir 5 mandats de botaniste différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                639
+            ]
+        },
+        "x639": {
+            "name_en": "With Axe in Hand II",
+            "name_fr": "Féru de la hache II",
+            "description_en": "Complete 20 unique botanist levequests.",
+            "description_fr": "Accomplir 20 mandats de botaniste différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                638
+            ],
+            "cNext": [
+                640
+            ]
+        },
+        "x640": {
+            "name_en": "With Axe in Hand III",
+            "name_fr": "Féru de la hache III",
+            "description_en": "Complete 40 unique botanist levequests.",
+            "description_fr": "Accomplir 40 mandats de botaniste différents.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                639
+            ],
+            "cNext": [
+                1351
+            ]
+        },
+        "x1351": {
+            "name_en": "With Axe in Hand IV",
+            "name_fr": "Féru de la hache IV",
+            "description_en": "Complete 70 unique botanist levequests.",
+            "description_fr": "Accomplir 70 mandats de botaniste différents.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                640
+            ],
+            "cNext": [
+                1867
+            ]
+        },
+        "x1867": {
+            "name_en": "With Axe in Hand V",
+            "name_fr": "Féru de la hache V",
+            "description_en": "Complete 80 unique botanist levequests.",
+            "description_fr": "Accomplir 80 mandats de botaniste différents.",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1351
+            ],
+            "cNext": [
+                2365
+            ]
+        },
+        "x2365": {
+            "name_en": "With Axe in Hand VI",
+            "name_fr": "Féru de la hache VI",
+            "description_en": "Complete 90 unique botanist levequests.",
+            "description_fr": "Accomplir 90 mandats de botaniste différents.",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                1867
+            ],
+            "cNext": [
+                2949
+            ]
+        },
+        "x2949": {
+            "name_en": "With Axe in Hand VII",
+            "name_fr": "Féru de la hache VII",
+            "description_en": "Complete 100 unique botanist levequests.",
+            "description_fr": "Accomplir 100 mandats de botaniste différents.",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2365
+            ]
+        },
+        "x641": {
+            "name_en": "With Bait in Hand I",
+            "name_fr": "Féru de l'hameçon I",
+            "description_en": "Complete 5 unique fisher levequests.",
+            "description_fr": "Accomplir 5 mandats de pêcheur différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                642
+            ]
+        },
+        "x642": {
+            "name_en": "With Bait in Hand II",
+            "name_fr": "Féru de l'hameçon II",
+            "description_en": "Complete 20 unique fisher levequests.",
+            "description_fr": "Accomplir 20 mandats de pêcheur différents.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                641
+            ],
+            "cNext": [
+                643
+            ]
+        },
+        "x643": {
+            "name_en": "With Bait in Hand III",
+            "name_fr": "Féru de l'hameçon III",
+            "description_en": "Complete 40 unique fisher levequests.",
+            "description_fr": "Accomplir 40 mandats de pêcheur différents.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                642
+            ],
+            "cNext": [
+                1352
+            ]
+        },
+        "x1352": {
+            "name_en": "With Bait in Hand IV",
+            "name_fr": "Féru de l'hameçon IV",
+            "description_en": "Complete 70 unique fisher levequests.",
+            "description_fr": "Accomplir 70 mandats de pêcheur différents.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                643
+            ],
+            "cNext": [
+                1869
+            ]
+        },
+        "x1869": {
+            "name_en": "With Bait in Hand V",
+            "name_fr": "Féru de l'hameçon V",
+            "description_en": "Complete 80 unique fisher levequests.",
+            "description_fr": "Accomplir 80 mandats de pêcheur différents.",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1352
+            ],
+            "cNext": [
+                2367
+            ]
+        },
+        "x2367": {
+            "name_en": "With Bait in Hand VI",
+            "name_fr": "Féru de l'hameçon VI",
+            "description_en": "Complete 90 unique fisher levequests.",
+            "description_fr": "Accomplir 90 mandats de pêcheur différents.",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                1869
+            ],
+            "cNext": [
+                2951
+            ]
+        },
+        "x2951": {
+            "name_en": "With Bait in Hand VII",
+            "name_fr": "Féru de l'hameçon VII",
+            "description_en": "Complete 100 unique fisher levequests.",
+            "description_fr": "Accomplir 100 mandats de pêcheur différents.",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2367
+            ]
+        }
+    }
+}

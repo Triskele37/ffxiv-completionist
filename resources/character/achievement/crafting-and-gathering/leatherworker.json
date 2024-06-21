@@ -1,0 +1,360 @@
+{
+    "key": "leatherworker",
+    "groupName_en": "Leatherworker",
+    "groupName_fr": "Tanneur",
+    "tasks": {
+        "x161": {
+            "name_en": "Hiding in Plain Sight: Amateur",
+            "name_fr": "Tourner autour des peaux : Amateur",
+            "description_en": "Successfully synthesize 50 times for level 1-10 leatherworking recipes.",
+            "description_fr": "Réaliser 50 synthèses de tannerie de niveau 1 à 10.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                166
+            ]
+        },
+        "x162": {
+            "name_en": "Hiding in Plain Sight: Initiate",
+            "name_fr": "Tourner autour des peaux : Recrue",
+            "description_en": "Successfully synthesize 300 times for level 11-20 leatherworking recipes.",
+            "description_fr": "Réaliser 300 synthèses de tannerie de niveau 11 à 20.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                166
+            ]
+        },
+        "x163": {
+            "name_en": "Hiding in Plain Sight: Apprentice",
+            "name_fr": "Tourner autour des peaux : Initié",
+            "description_en": "Successfully synthesize 750 times for level 21-30 leatherworking recipes.",
+            "description_fr": "Réaliser 750 synthèses de tannerie de niveau 21 à 30.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                166
+            ]
+        },
+        "x164": {
+            "name_en": "Hiding in Plain Sight: Journeyman",
+            "name_fr": "Tourner autour des peaux : Novice",
+            "description_en": "Successfully synthesize 1,500 times for level 31-40 leatherworking recipes.",
+            "description_fr": "Réaliser 1 500 synthèses de tannerie de niveau 31 à 40.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                166
+            ]
+        },
+        "x165": {
+            "name_en": "Hiding in Plain Sight: Artisan",
+            "name_fr": "Tourner autour des peaux : Qualifié",
+            "description_en": "Successfully synthesize 3,000 times for level 41-50 leatherworking recipes.",
+            "description_fr": "Réaliser 3 000 synthèses de tannerie de niveau 41 à 50.",
+            "reward": "character.character.title.21",
+            "patch": "2.0",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.21"
+            ],
+            "cCombo": [
+                166
+            ]
+        },
+        "x166": {
+            "name_en": "A Leatherworker's Life for Me",
+            "name_fr": "J'ai le cuir dans la peau",
+            "description_en": "Obtain the first five “Hiding in Plain Sight” achievements.",
+            "description_fr": "Accomplir les cinq hauts faits de la série “Tourner autour des peaux”.",
+            "reward_en": "Knife of the Luminary",
+            "reward_fr": "Couteau de virtuose",
+            "patch": "2.0",
+            "points": 30,
+            "cPrev": [
+                161,
+                162,
+                163,
+                164,
+                165
+            ]
+        },
+        "x1305": {
+            "name_en": "Hiding in Plain Sight: Adept",
+            "name_fr": "Tourner autour des peaux : Expert",
+            "description_en": "Successfully synthesize 1,000 times for level 51-60 leatherworking recipes.",
+            "description_fr": "Réaliser 1 000 synthèses de tannerie de niveau 51 à 60.",
+            "patch": "3.0",
+            "points": 10
+        },
+        "x1852": {
+            "name_en": "Hiding in Plain Sight: Veteran",
+            "name_fr": "Tourner autour des peaux : Maître",
+            "description_en": "Successfully synthesize 1,000 times for level 61-70 leatherworking recipes.",
+            "description_fr": "Réaliser 1 000 synthèses de tannerie de niveau 61 à 70.",
+            "patch": "4.0",
+            "points": 10
+        },
+        "x2284": {
+            "name_en": "Hiding in Plain Sight: Master",
+            "name_fr": "Tourner autour des peaux : Génie",
+            "description_en": "Successfully synthesize 1,000 times for level 71-80 leatherworking recipes.",
+            "description_fr": "Réaliser 1 000 synthèses de tannerie de niveau 71 à 80.",
+            "patch": "5.0",
+            "points": 10
+        },
+        "x2932": {
+            "name_en": "Hiding in Plain Sight: Genius",
+            "name_fr": "Tourner autour des peaux : Prodige",
+            "description_en": "Successfully synthesize 1,000 times for level 81-90 leatherworking recipes.",
+            "description_fr": "Réaliser 1 000 synthèses de tannerie de niveau 81 à 90.",
+            "patch": "6.0",
+            "points": 10
+        },
+        "x707": {
+            "name_en": "I Made That: Leatherworker I",
+            "name_fr": "Carnet de notes : tanneur I",
+            "description_en": "Craft and record completion of 40 unique leatherworker recipes.",
+            "description_fr": "Faire 40 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                708
+            ]
+        },
+        "x708": {
+            "name_en": "I Made That: Leatherworker II",
+            "name_fr": "Carnet de notes : tanneur II",
+            "description_en": "Craft and record completion of 90 unique leatherworker recipes.",
+            "description_fr": "Faire 90 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                707
+            ],
+            "cNext": [
+                709
+            ]
+        },
+        "x709": {
+            "name_en": "I Made That: Leatherworker III",
+            "name_fr": "Carnet de notes : tanneur III",
+            "description_en": "Craft and record completion of 180 unique leatherworker recipes.",
+            "description_fr": "Faire 180 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
+            "reward_en": "Master Leatherworker's Ring",
+            "reward_fr": "Anneau de maître tanneur",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                708
+            ],
+            "cNext": [
+                1282
+            ]
+        },
+        "x1282": {
+            "name_en": "I Made That: Leatherworker IV",
+            "name_fr": "Carnet de notes : tanneur IV",
+            "description_en": "Craft and record completion of 260 unique leatherworker recipes.",
+            "description_fr": "Faire 260 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                709
+            ],
+            "cNext": [
+                1725
+            ]
+        },
+        "x1725": {
+            "name_en": "I Made That: Leatherworker V",
+            "name_fr": "Carnet de notes : tanneur V",
+            "description_en": "Craft and record completion of 360 unique leatherworker recipes.",
+            "description_fr": "Faire 360 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
+            "reward_en": "Blessed Hidekeep's Knife",
+            "reward_fr": "Couteau de mégissier béni",
+            "patch": "3.5",
+            "points": 10,
+            "cPrev": [
+                1282
+            ],
+            "cNext": [
+                2170
+            ]
+        },
+        "x2170": {
+            "name_en": "I Made That: Leatherworker VI",
+            "name_fr": "Carnet de notes : tanneur VI",
+            "description_en": "Craft and record completion of 460 unique leatherworker recipes.",
+            "description_fr": "Faire 460 synthèses de tanneur différentes et les avoir notées dans le carnet d'artisanat.",
+            "reward_en": "Blessed Hideking's Knife",
+            "reward_fr": "Couteau du roi de la peausserie béni",
+            "patch": "4.5",
+            "points": 10,
+            "cPrev": [
+                1725
+            ]
+        },
+        "x762": {
+            "name_en": "An Eye for Detail: Leatherworker I",
+            "name_fr": "De main de maître : tanneur I",
+            "description_en": "Craft 100 high-quality items as a leatherworker.",
+            "description_fr": "Fabriquer un total de 100 objets de haute qualité en tant que tanneur.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                763
+            ]
+        },
+        "x763": {
+            "name_en": "An Eye for Detail: Leatherworker II",
+            "name_fr": "De main de maître : tanneur II",
+            "description_en": "Craft 500 high-quality items as a leatherworker.",
+            "description_fr": "Fabriquer un total de 500 objets de haute qualité en tant que tanneur.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                762
+            ],
+            "cNext": [
+                764
+            ]
+        },
+        "x764": {
+            "name_en": "An Eye for Detail: Leatherworker III",
+            "name_fr": "De main de maître : tanneur III",
+            "description_en": "Craft 3,000 high-quality items as a leatherworker.",
+            "description_fr": "Fabriquer un total de 3 000 objets de haute qualité en tant que tanneur.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                763
+            ],
+            "cNext": [
+                1317
+            ]
+        },
+        "x1317": {
+            "name_en": "An Eye for Detail: Leatherworker IV",
+            "name_fr": "De main de maître : tanneur IV",
+            "description_en": "Craft 5,000 high-quality items as a leatherworker.",
+            "description_fr": "Fabriquer un total de 5 000 objets de haute qualité en tant que tanneur.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                764
+            ],
+            "cNext": [
+                1325
+            ]
+        },
+        "x1325": {
+            "name_en": "An Eye for Detail: Leatherworker V",
+            "name_fr": "De main de maître : tanneur V",
+            "description_en": "Craft 10,000 high-quality items as a leatherworker.",
+            "description_fr": "Fabriquer un total de 10 000  objets de haute qualité en tant que tanneur.",
+            "reward": "character.character.title.257",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                1317
+            ],
+            "cSiblings": [
+                "character.character.title.257"
+            ]
+        },
+        "x2501": {
+            "name_en": "Skyward Knife I",
+            "name_fr": "Couteau d'Azurée I",
+            "description_en": "Earn 50,000 points toward your skyward score as a leatherworker.",
+            "description_fr": "Gagner un total de 50 000 points d'azur en tant que tanneur.",
+            "patch": "5.21",
+            "points": 5,
+            "cNext": [
+                2502
+            ],
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2522"
+            ]
+        },
+        "x2502": {
+            "name_en": "Skyward Knife II",
+            "name_fr": "Couteau d'Azurée II",
+            "description_en": "Earn 150,000 points toward your skyward score as a leatherworker.",
+            "description_fr": "Gagner un total de 150 000 points d'azur en tant que tanneur.",
+            "patch": "5.21",
+            "points": 5,
+            "cPrev": [
+                2501
+            ],
+            "cNext": [
+                2503
+            ]
+        },
+        "x2503": {
+            "name_en": "Skyward Knife III",
+            "name_fr": "Couteau d'Azurée III",
+            "description_en": "Earn 500,000 points toward your skyward score as a leatherworker.",
+            "description_fr": "Gagner un total de 500 000 points d'azur en tant que tanneur.",
+            "reward": "character.character.title.494",
+            "patch": "5.21",
+            "points": 10,
+            "cPrev": [
+                2502
+            ],
+            "cSiblings": [
+                "character.character.title.494"
+            ],
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2524"
+            ]
+        },
+        "x2531": {
+            "name_en": "The Height of Leathercraft",
+            "name_fr": "Tanneur du Nichoir",
+            "description_en": "As a leatherworker, craft and submit 100 expert recipe items for the second phase of the Ishgardian restoration.",
+            "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de tanneur de la deuxième phase de reconstruction d'Azurée.",
+            "reward": "character.character.title.507",
+            "patch": "5.21",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.507"
+            ]
+        },
+        "x2652": {
+            "name_en": "Leatherworkers of a Feather",
+            "name_fr": "Tanneur de Tombeplume",
+            "description_en": "As a leatherworker, craft and submit 100 expert recipe items for the third phase of the Ishgardian restoration.",
+            "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de tanneur de la troisième phase de reconstruction d'Azurée.",
+            "reward": "character.character.title.532",
+            "patch": "5.31",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.532"
+            ]
+        },
+        "x2811": {
+            "name_en": "An Ode to Leathercraft",
+            "name_fr": "Tanneur du Nouveau Refrain",
+            "description_en": "As a leatherworker, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
+            "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de tanneur de la quatrième phase de reconstruction d'Azurée.",
+            "reward": "character.character.title.569",
+            "patch": "5.41",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.569"
+            ]
+        },
+        "x2826": {
+            "name_en": "Retooled: Resplendent Hidefiend's Knife",
+            "name_fr": "Tannerie resplendissante",
+            "description_en": "Obtain a resplendent hidefiend's knife.",
+            "description_fr": "Obtenir un couteau du fiélon de la peausserie resplendissant.",
+            "patch": "5.5",
+            "points": 10,
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2829"
+            ]
+        }
+    }
+}

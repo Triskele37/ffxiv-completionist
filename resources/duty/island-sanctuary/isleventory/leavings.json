@@ -1,0 +1,153 @@
+{
+    "key": "leavings",
+    "groupName_en": "Leavings",
+    "groupName_fr": "Ressources animalières",
+    "headers": {
+        "name": {
+            "header_en": "Leaving",
+            "header_fr": "Ressource animalière"
+        },
+        "animalsCommon": {
+            "link": true,
+            "header_en": "Common From",
+            "header_fr": "Commun de"
+        },
+        "animalsChance": {
+            "link": true,
+            "header_en": "Chance From",
+            "header_fr": "Rare de"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Sanctuary Fleece",
+            "name_fr": "Toison d'animal d'élevage",
+            "animalsCommon": [
+                "duty.island-sanctuary.animals.0",
+                "duty.island-sanctuary.animals.4",
+                "duty.island-sanctuary.animals.11"
+            ],
+            "animalsChance": [
+                "duty.island-sanctuary.animals.1",
+                "duty.island-sanctuary.animals.5",
+                "duty.island-sanctuary.animals.20",
+                "duty.island-sanctuary.animals.24"
+            ]
+        },
+        "x1": {
+            "name_en": "Sanctuary Claw",
+            "name_fr": "Griffe d'animal d'élevage",
+            "animalsCommon": [
+                "duty.island-sanctuary.animals.2",
+                "duty.island-sanctuary.animals.6",
+                "duty.island-sanctuary.animals.19",
+                "duty.island-sanctuary.animals.20",
+                "duty.island-sanctuary.animals.27"
+            ],
+            "animalsChance": [
+                "duty.island-sanctuary.animals.3",
+                "duty.island-sanctuary.animals.7",
+                "duty.island-sanctuary.animals.10",
+                "duty.island-sanctuary.animals.18",
+                "duty.island-sanctuary.animals.28"
+            ]
+        },
+        "x2": {
+            "name_en": "Sanctuary Fur",
+            "name_fr": "Laine d'animal d'élevage",
+            "animalsCommon": [
+                "duty.island-sanctuary.animals.3",
+                "duty.island-sanctuary.animals.7",
+                "duty.island-sanctuary.animals.14",
+                "duty.island-sanctuary.animals.15",
+                "duty.island-sanctuary.animals.16"
+            ],
+            "animalsChance": [
+                "duty.island-sanctuary.animals.2",
+                "duty.island-sanctuary.animals.6",
+                "duty.island-sanctuary.animals.11",
+                "duty.island-sanctuary.animals.17"
+            ]
+        },
+        "x3": {
+            "name_en": "Sanctuary Feather",
+            "name_fr": "Plume d'animal d'élevage",
+            "animalsCommon": [
+                "duty.island-sanctuary.animals.13",
+                "duty.island-sanctuary.animals.17",
+                "duty.island-sanctuary.animals.26"
+            ],
+            "animalsChance": [
+                "duty.island-sanctuary.animals.12",
+                "duty.island-sanctuary.animals.16",
+                "duty.island-sanctuary.animals.25"
+            ]
+        },
+        "x4": {
+            "name_en": "Sanctuary Egg",
+            "name_fr": "Œuf d'animal d'élevage",
+            "animalsCommon": [
+                "duty.island-sanctuary.animals.5",
+                "duty.island-sanctuary.animals.12",
+                "duty.island-sanctuary.animals.25"
+            ],
+            "animalsChance": [
+                "duty.island-sanctuary.animals.4",
+                "duty.island-sanctuary.animals.13",
+                "duty.island-sanctuary.animals.26"
+            ]
+        },
+        "x5": {
+            "name_en": "Sanctuary Carapace",
+            "name_fr": "Exuvie d'animal d'élevage",
+            "animalsCommon": [
+                "duty.island-sanctuary.animals.9",
+                "duty.island-sanctuary.animals.10",
+                "duty.island-sanctuary.animals.18"
+            ],
+            "animalsChance": [
+                "duty.island-sanctuary.animals.8",
+                "duty.island-sanctuary.animals.19"
+            ]
+        },
+        "x6": {
+            "name_en": "Sanctuary Fang",
+            "name_fr": "Croc d'animal d'élevage",
+            "animalsCommon": [
+                "duty.island-sanctuary.animals.8",
+                "duty.island-sanctuary.animals.28"
+            ],
+            "animalsChance": [
+                "duty.island-sanctuary.animals.9",
+                "duty.island-sanctuary.animals.27"
+            ]
+        },
+        "x7": {
+            "name_en": "Sanctuary Horn",
+            "name_fr": "Corne d'animal d'élevage",
+            "animalsCommon": [
+                "duty.island-sanctuary.animals.22",
+                "duty.island-sanctuary.animals.24"
+            ],
+            "animalsChance": [
+                "duty.island-sanctuary.animals.15",
+                "duty.island-sanctuary.animals.21",
+                "duty.island-sanctuary.animals.23"
+            ]
+        },
+        "x8": {
+            "name_en": "Sanctuary Milk",
+            "name_fr": "Lait d'animal d'élevage",
+            "animalsCommon": [
+                "duty.island-sanctuary.animals.1",
+                "duty.island-sanctuary.animals.21",
+                "duty.island-sanctuary.animals.23"
+            ],
+            "animalsChance": [
+                "duty.island-sanctuary.animals.0",
+                "duty.island-sanctuary.animals.14",
+                "duty.island-sanctuary.animals.22"
+            ]
+        }
+    }
+}

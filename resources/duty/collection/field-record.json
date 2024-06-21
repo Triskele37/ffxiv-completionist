@@ -1,0 +1,566 @@
+{
+    "key": "field-record",
+    "groupName_en": "Field Record",
+    "groupName_fr": "Rapport du front bozjien",
+    "headers": {
+        "number": {
+            "header_en": "Number",
+            "header_fr": "Numéro"
+        },
+        "name": {
+            "header_en": "Name",
+            "header_fr": "Nom"
+        },
+        "source": {
+            "link": true,
+            "header_en": "Source",
+            "header_fr": "Source"
+        },
+        "patch": {
+            "header_en": "Patch",
+            "header_fr": "Patch"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "number": "1",
+            "name_en": "Bajsaljen Ulgasch",
+            "name_fr": "Bajsaljen Ulgasch",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1601",
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x1": {
+            "number": "2",
+            "name_en": "Marsak Apella",
+            "name_fr": "Marsak Apella",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1604",
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x2": {
+            "number": "3",
+            "name_en": "Xeven Svanasch",
+            "name_fr": "Xeven Svanasch",
+            "source": [
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1599",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1628"
+            ],
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x3": {
+            "number": "4",
+            "name_en": "Isolde Covey",
+            "name_fr": "Isolde Covey",
+            "source": [
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1605",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1627"
+            ],
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x4": {
+            "number": "5",
+            "name_en": "Stanik Alubov",
+            "name_fr": "Stanik Alubov",
+            "source": [
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1602",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1623"
+            ],
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x5": {
+            "number": "6",
+            "name_en": "Blaz Azetina",
+            "name_fr": "Blaz Azetina",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1614",
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x6": {
+            "number": "7",
+            "name_en": "Velibor Azetina",
+            "name_fr": "Velibor Azetina",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1616",
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x7": {
+            "number": "8",
+            "name_en": "Aggie Glover",
+            "name_fr": "Aggie Glover",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1598",
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x8": {
+            "number": "9",
+            "name_en": "Llofii pyr Potitus",
+            "name_fr": "Llofii pyr Potitus",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.38",
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x9": {
+            "number": "10",
+            "name_en": "Hernais pyr Longus",
+            "name_fr": "Hernais pyr Longus",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1607",
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x10": {
+            "number": "11",
+            "name_en": "Dabog aan Inivisch",
+            "name_fr": "Dabog aan Inivisch",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1621",
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x11": {
+            "number": "12",
+            "name_en": "Dyunbu pyr Potitus",
+            "name_fr": "Dyunbu pyr Potitus",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1625",
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x12": {
+            "number": "13",
+            "name_en": "Clarricie quo Priscus",
+            "name_fr": "Clarricie quo Priscus",
+            "source": [
+                "duty.exploratory-missions.the-bozjan-southern-front.events.33",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1617"
+            ],
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x13": {
+            "number": "14",
+            "name_en": "Sartauvoir quo Soranus",
+            "name_fr": "Sartauvoir quo Soranus",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1626",
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x14": {
+            "number": "15",
+            "name_en": "Sicinius mal Vellutus",
+            "name_fr": "Sicinius mal Vellutus",
+            "source": [
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1612",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.36"
+            ],
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x15": {
+            "number": "16",
+            "name_en": "Sadr rem Albeleo",
+            "name_fr": "Sadr rem Albeleo",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.duties.0",
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x16": {
+            "number": "17",
+            "name_en": "Lyon rem Helsos",
+            "name_fr": "Lyon rem Helsos",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.47",
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x17": {
+            "number": "18",
+            "name_en": "Menenius sas Lanatus",
+            "name_fr": "Menenius sas Lanatus",
+            "source": "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69487",
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x18": {
+            "number": "19",
+            "name_en": "Misija Votyasch",
+            "name_fr": "Misija Votyasch",
+            "source": "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69487",
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x19": {
+            "number": "20",
+            "name_en": "Gunnhildr",
+            "name_fr": "Gunnhildr",
+            "source": "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69487",
+            "patch": "5.35",
+            "cCombo": [
+                "character.achievement.exploration.duty.2671"
+            ]
+        },
+        "x20": {
+            "number": "21",
+            "name_en": "Lilja Sjasaris",
+            "name_fr": "Lilja Sjasaris",
+            "source": "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69561",
+            "patch": "5.45",
+            "cCombo": [
+                "character.achievement.exploration.duty.2761"
+            ]
+        },
+        "x21": {
+            "number": "22",
+            "name_en": "Bwagi Ennze Panca",
+            "name_fr": "Bwagi Ennze Panca",
+            "source": "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69561",
+            "patch": "5.45",
+            "cCombo": [
+                "character.achievement.exploration.duty.2761"
+            ]
+        },
+        "x22": {
+            "number": "23",
+            "name_en": "Rostik Liubasch",
+            "name_fr": "Rostik Liubasch",
+            "source": "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69562",
+            "patch": "5.45",
+            "cCombo": [
+                "character.achievement.exploration.duty.2761"
+            ]
+        },
+        "x23": {
+            "number": "24",
+            "name_en": "Mikoto Jinba",
+            "name_fr": "Mikoto Jinba",
+            "source": "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69562",
+            "patch": "5.45",
+            "cCombo": [
+                "character.achievement.exploration.duty.2761"
+            ]
+        },
+        "x24": {
+            "number": "25",
+            "name_en": "Misija Votyasch, Part II",
+            "name_fr": "Misija Votyasch, Part II",
+            "source": "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69562",
+            "patch": "5.45",
+            "cCombo": [
+                "character.achievement.exploration.duty.2761"
+            ]
+        },
+        "x25": {
+            "number": "26",
+            "name_en": "Gunnhildr, Part II",
+            "name_fr": "Gunnhildr, Part II",
+            "source": "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69562",
+            "patch": "5.45",
+            "cCombo": [
+                "character.achievement.exploration.duty.2761"
+            ]
+        },
+        "x26": {
+            "number": "27",
+            "name_en": "Trinity Seeker",
+            "name_fr": "Trinité soudée",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.duties.1",
+            "patch": "5.45",
+            "cCombo": [
+                "character.achievement.exploration.duty.2761"
+            ]
+        },
+        "x27": {
+            "number": "28",
+            "name_en": "Queen's Guard",
+            "name_fr": "La garde de la reine",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.duties.1",
+            "patch": "5.45",
+            "cCombo": [
+                "character.achievement.exploration.duty.2761"
+            ]
+        },
+        "x28": {
+            "number": "29",
+            "name_en": "Trinity Avowed",
+            "name_fr": "Trinité féale",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.duties.1",
+            "patch": "5.45",
+            "cCombo": [
+                "character.achievement.exploration.duty.2761"
+            ]
+        },
+        "x29": {
+            "number": "30",
+            "name_en": "Save the Queen",
+            "name_fr": "Garde-la-Reine",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.duties.1",
+            "patch": "5.45",
+            "cCombo": [
+                "character.achievement.exploration.duty.2761"
+            ]
+        },
+        "x30": {
+            "number": "31",
+            "name_en": "Atori Moribe",
+            "name_fr": "Atori Moribe",
+            "source": [
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1717",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1733"
+            ],
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x31": {
+            "number": "32",
+            "name_en": "Kosyu",
+            "name_fr": "Kosyu",
+            "source": [
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1732",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1737"
+            ],
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x32": {
+            "number": "33",
+            "name_en": "Oboro Torioi",
+            "name_fr": "Oboro Torioi",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1718",
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x33": {
+            "number": "34",
+            "name_en": "Tsubame Oshidari",
+            "name_fr": "Tsubame Oshidari",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1728",
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x34": {
+            "number": "35",
+            "name_en": "Meryall Miller",
+            "name_fr": "Meryall Miller",
+            "source": [
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1740",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.61"
+            ],
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x35": {
+            "number": "36",
+            "name_en": "Lovro Aan Slanasch",
+            "name_fr": "Lovro aan Slanasch",
+            "source": [
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1731",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1741"
+            ],
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x36": {
+            "number": "37",
+            "name_en": "Llofii pyr Potitus, Part II",
+            "name_fr": "Llofii pyr Potitus, Part II",
+            "source": [
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1719",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.62"
+            ],
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x37": {
+            "number": "38",
+            "name_en": "Fabineau quo Soranus",
+            "name_fr": "Fabineau quo Soranus",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1727",
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x38": {
+            "number": "39",
+            "name_en": "Yamatsumi pyr Urabe",
+            "name_fr": "Yamatsumi pyr Urabe",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1736",
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x39": {
+            "number": "40",
+            "name_en": "Pagaga quo Vochstein",
+            "name_fr": "Pagaga quo Vochstein",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1725",
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x40": {
+            "number": "41",
+            "name_en": "Daguza oen Sus",
+            "name_fr": "Daguza oen Sus",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1735",
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x41": {
+            "number": "42",
+            "name_en": "Gilbrisbert quo Buteo",
+            "name_fr": "Gilbrisbert quo Buteo",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.events.1724",
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x42": {
+            "number": "43",
+            "name_en": "Dabog aan Inivisch",
+            "name_fr": "Dabog aan Inivisch",
+            "source": [
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1730",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.1739",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.82"
+            ],
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x43": {
+            "number": "44",
+            "name_en": "Lyon quo Helsos",
+            "name_fr": "Lyon quo Helsos",
+            "source": [
+                "duty.exploratory-missions.the-bozjan-southern-front.duties.3",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.78"
+            ],
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x44": {
+            "number": "45",
+            "name_en": "Menenius sas Lanatus",
+            "name_fr": "Menenius sas Lanatus",
+            "source": [
+                "duty.exploratory-missions.the-bozjan-southern-front.duties.3",
+                "duty.exploratory-missions.the-bozjan-southern-front.events.63"
+            ],
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x45": {
+            "number": "46",
+            "name_en": "The Diablo Armament",
+            "name_fr": "La batterie d'artillerie Diablo",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.duties.3",
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x46": {
+            "number": "47",
+            "name_en": "Cid Garlond",
+            "name_fr": "Cid Garlond",
+            "source": "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69624",
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x47": {
+            "number": "48",
+            "name_en": "Fran Eruyt",
+            "name_fr": "Fran Eruyt",
+            "source": "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69624",
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x48": {
+            "number": "49",
+            "name_en": "Hien Rijin",
+            "name_fr": "Hien Rijin",
+            "source": "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69624",
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        },
+        "x49": {
+            "number": "50",
+            "name_en": "Noah van Gabranth",
+            "name_fr": "Noah van Gabranth",
+            "source": "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69624",
+            "patch": "5.55",
+            "cCombo": [
+                "character.achievement.exploration.duty.2885"
+            ]
+        }
+    }
+}

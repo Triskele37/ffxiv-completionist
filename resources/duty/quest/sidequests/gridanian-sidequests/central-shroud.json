@@ -1,0 +1,242 @@
+{
+    "key": "central-shroud",
+    "groupName_en": "Central Shroud",
+    "groupName_fr": "Forêt centrale",
+    "tasks": {
+        "x65746": {
+            "level": 5,
+            "name_en": "Idle Initiatives",
+            "name_fr": "Les yeux sur les bleus",
+            "npc_en": "Tsubh Khamazom",
+            "npc_fr": "Tsubh Khamazom",
+            "patch": "4.31"
+        },
+        "x65708": {
+            "level": 7,
+            "name_en": "More than a Flesh Wound",
+            "name_fr": "Blessé dans sa chair... et son ego",
+            "npc_en": "Arold",
+            "npc_fr": "Arold",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.69390"
+            ],
+            "patch": "4.31"
+        },
+        "x65733": {
+            "level": 7,
+            "name_en": "Splitting Shells",
+            "name_fr": "Frapper le point faible",
+            "npc_en": "Maurelin",
+            "npc_fr": "Maurelin",
+            "patch": "4.31"
+        },
+        "x65666": {
+            "level": 8,
+            "name_en": "Soil Despoilers",
+            "name_fr": "Morfal Kombat",
+            "npc_en": "Gabineaux",
+            "npc_fr": "Gabineaux",
+            "cPrev": [
+                65663
+            ],
+            "patch": "4.31"
+        },
+        "x65663": {
+            "level": 8,
+            "name_en": "Parasite Cleave",
+            "name_fr": "Un sommeil parasité",
+            "npc_en": "Gabineaux",
+            "npc_fr": "Gabineaux",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65711"
+            ],
+            "cNext": [
+                65666
+            ],
+            "patch": "4.31"
+        },
+        "x65914": {
+            "level": 10,
+            "name_en": "Look, but Won't Touch",
+            "name_fr": "Oolophobie",
+            "npc_en": "Roseline",
+            "npc_fr": "Roseline",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65912"
+            ],
+            "patch": "4.31"
+        },
+        "x66748": {
+            "level": 10,
+            "name_en": "Where the Heart Is (The Lavender Beds)",
+            "name_fr": "La maison de mes rêves à Lavandière",
+            "npc_en": "Margeria",
+            "npc_fr": "Margeria",
+            "patch": "4.31"
+        },
+        "x65596": {
+            "level": 10,
+            "name_en": "Simply the Hest",
+            "name_fr": "Opérations de guilde (Gridania)",
+            "npc_en": "Tierney",
+            "npc_fr": "Tierney",
+            "unlock_en": "Guildhests",
+            "cPrev": [
+                "duty.quests.sidequests.gridanian.gridania.65756"
+            ],
+            "patch": "4.31"
+        },
+        "x65911": {
+            "level": 10,
+            "name_en": "Not a Material Girl",
+            "name_fr": "Tentative de soudoiement",
+            "npc_en": "Kukuvachi",
+            "npc_fr": "Kukuvachi",
+            "cNext": [
+                65693
+            ],
+            "patch": "4.31"
+        },
+        "x65922": {
+            "level": 11,
+            "name_en": "Walking the Planks",
+            "name_fr": "Le transporteur",
+            "npc_en": "Waltheof",
+            "npc_fr": "Waltheof",
+            "cNext": [
+                65694
+            ],
+            "patch": "4.31"
+        },
+        "x65693": {
+            "level": 11,
+            "name_en": "Extending Fences",
+            "name_fr": "L'homme qui murmurait à l'oreille des chocobos",
+            "npc_en": "Luquelot",
+            "npc_fr": "Luquelot",
+            "cPrev": [
+                65911
+            ],
+            "patch": "4.31"
+        },
+        "x65919": {
+            "level": 12,
+            "name_en": "If Ye Break Faith",
+            "name_fr": "Reposez en paix",
+            "npc_en": "Finnea",
+            "npc_fr": "Finnea",
+            "cNext": [
+                65696
+            ],
+            "patch": "4.31"
+        },
+        "x65921": {
+            "level": 12,
+            "name_en": "Favor for the Fisherwoman",
+            "name_fr": "Un pêcheur sachant pêcher...",
+            "npc_en": "Berthe",
+            "npc_fr": "Berthe",
+            "patch": "4.31"
+        },
+        "x65694": {
+            "level": 12,
+            "name_en": "Sting in a Bottle",
+            "name_fr": "Éliminer l'essaim",
+            "npc_en": "Waltheof",
+            "npc_fr": "Waltheof",
+            "cPrev": [
+                65922
+            ],
+            "patch": "4.31"
+        },
+        "x65696": {
+            "level": 13,
+            "name_en": "Slimy Hollows",
+            "name_fr": "Il faut laisser les morts dormir",
+            "npc_en": "Finnea",
+            "npc_fr": "Finnea",
+            "cPrev": [
+                65919
+            ],
+            "patch": "4.31"
+        },
+        "x66101": {
+            "level": 15,
+            "name_en": "So You Think You Can Ride This Chocobo",
+            "name_fr": "Le b.a.-ba des courses",
+            "npc_en": "Katering",
+            "npc_fr": "Katering",
+            "unlock_en": "Chocobo Racing",
+            "cPrev": [
+                "duty.quests.sidequests.uldahn.chocobo-square.65972"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.uldahn.chocobo-square.66112"
+            ],
+            "patch": "4.31"
+        },
+        "x66341": {
+            "level": 29,
+            "name_en": "Shocking Discoveries",
+            "name_fr": "Découvertes choquantes",
+            "npc_en": "Marcette",
+            "npc_fr": "Marcette",
+            "cPrev": [
+                66340
+            ],
+            "cNext": [
+                66342,
+                66343
+            ],
+            "patch": "4.31"
+        },
+        "x66342": {
+            "level": 29,
+            "name_en": "In Too Deep",
+            "name_fr": "Les malheurs d'Hobriaut",
+            "npc_en": "Hobriaut",
+            "npc_fr": "Hobriaut",
+            "cPrev": [
+                66341
+            ],
+            "patch": "4.31"
+        },
+        "x66343": {
+            "level": 29,
+            "name_en": "Doing the Dirty Work",
+            "name_fr": "Faire le sale travail",
+            "npc_en": "Marcette",
+            "npc_fr": "Marcette",
+            "cPrev": [
+                66341
+            ],
+            "cNext": [
+                "duty.quests.sidequests.side-story.delivery-moogle.67021"
+            ],
+            "patch": "4.31"
+        },
+        "x66340": {
+            "level": 29,
+            "name_en": "Fungal Frolic",
+            "name_fr": "Champignons champêtres",
+            "npc_en": "Marcette",
+            "npc_fr": "Marcette",
+            "cNext": [
+                66341
+            ],
+            "patch": "4.31"
+        },
+        "x67096": {
+            "level": 30,
+            "name_en": "Bird in Hand",
+            "name_fr": "Entraîneur de champions",
+            "npc_en": "Luquelot",
+            "npc_fr": "Luquelot",
+            "unlock_en": "Chocobo Raising",
+            "cPrev": [
+                "duty.quests.sidequests.gridanian.south-shroud.66698"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

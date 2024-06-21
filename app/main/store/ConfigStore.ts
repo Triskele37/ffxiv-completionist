@@ -29,6 +29,8 @@ export class ConfigStore {
                 incomplete: true,
                 excluded: true
             },
+            'show-completed-groups': true,
+            'show-empty-groups': true,
             'window': {
                 x: 100,
                 y: 100,
@@ -42,6 +44,7 @@ export class ConfigStore {
                 'background': '0, 0, 12',
                 'text-color-rgb': '255, 255, 255',
                 'font-family': 'sans-serif',
+                'font-size': 16,
                 'incomplete-rgb': '111, 0, 0',
                 'partial-complete-rgb': '111, 111, 0',
                 'completed-rgb': '0, 111, 0',
@@ -80,6 +83,9 @@ export class ConfigStore {
 
         // Make a "last valid config" backup
         if(successful) this.saveBackup();
+
+        // Attach admin flag
+        ConfigStore.store.isAdmin = ConfigStore.isServe;
 
         return {
             data: ConfigStore.store,
@@ -130,6 +136,9 @@ export class ConfigStore {
     }
 
     static saveBackup(): void {
+        // Ensure admin flag is not stored
+        delete ConfigStore.store.isAdmin;
+
         fs.writeFileSync(
             ConfigStore.backupPath,
             JSON.stringify(ConfigStore.store, null, 4)

@@ -1,0 +1,259 @@
+{
+    "key": "materia",
+    "groupName_en": "Materia",
+    "groupName_fr": "Matérias",
+    "tasks": {
+        "x296": {
+            "name_en": "Getting Too Attached I",
+            "name_fr": "L'art et la matéria I",
+            "description_en": "Successfully affix 10 materia.",
+            "description_fr": "Sertir avec succès 10 matérias.",
+            "patch": "2.0",
+            "points": 5,
+            "cNext": [
+                297
+            ]
+        },
+        "x297": {
+            "name_en": "Getting Too Attached II",
+            "name_fr": "L'art et la matéria II",
+            "description_en": "Successfully affix 50 materia.",
+            "description_fr": "Sertir avec succès 50 matérias.",
+            "patch": "2.0",
+            "points": 5,
+            "cPrev": [
+                296
+            ],
+            "cNext": [
+                298
+            ]
+        },
+        "x298": {
+            "name_en": "Getting Too Attached III",
+            "name_fr": "L'art et la matéria III",
+            "description_en": "Successfully affix 100 materia.",
+            "description_fr": "Sertir avec succès 100 matérias.",
+            "patch": "2.0",
+            "points": 5,
+            "cPrev": [
+                297
+            ],
+            "cNext": [
+                299
+            ]
+        },
+        "x299": {
+            "name_en": "Getting Too Attached IV",
+            "name_fr": "L'art et la matéria IV",
+            "description_en": "Successfully affix 500 materia.",
+            "description_fr": "Sertir avec succès 500 matérias.",
+            "patch": "2.0",
+            "points": 5,
+            "cPrev": [
+                298
+            ],
+            "cNext": [
+                300
+            ]
+        },
+        "x300": {
+            "name_en": "Materia Hysteria",
+            "name_fr": "Disciple de Mutamix",
+            "description_en": "Successfully affix 1,000 materia.",
+            "description_fr": "Sertir avec succès 1 000 matérias.",
+            "reward": "character.character.title.43",
+            "patch": "2.0",
+            "points": 10,
+            "cPrev": [
+                299
+            ],
+            "cNext": [
+                1333
+            ],
+            "cSiblings": [
+                "character.character.title.43"
+            ]
+        },
+        "x1333": {
+            "name_en": "Getting Too Attached V",
+            "name_fr": "L'art et la matéria V",
+            "description_en": "Successfully affix 2,500 materia.",
+            "description_fr": "Sertir avec succès 2 500 matérias.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                300
+            ],
+            "cNext": [
+                1334
+            ]
+        },
+        "x1334": {
+            "name_en": "Getting Too Attached VI",
+            "name_fr": "L'art et la matéria VI",
+            "description_en": "Successfully affix 5,000 materia.",
+            "description_fr": "Sertir avec succès 5 000 matérias.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                1333
+            ],
+            "cNext": [
+                1905
+            ]
+        },
+        "x1905": {
+            "name_en": "Getting Too Attached VII",
+            "name_fr": "L'art et la matéria VII",
+            "description_en": "Successfully affix 10,000 materia.",
+            "description_fr": "Sertir avec succès 10 000 matérias.",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1334
+            ]
+        },
+        "x301": {
+            "name_en": "Beginner's Luck",
+            "name_fr": "La chance du débutant",
+            "description_en": "Successfully affix two materia to the same piece of gear.",
+            "description_fr": "Sertir deux matérias sur une même pièce d'équipement.",
+            "patch": "2.0",
+            "points": 10,
+            "cNext": [
+                302
+            ]
+        },
+        "x302": {
+            "name_en": "I Make My Own Luck",
+            "name_fr": "Heureux au jeu",
+            "description_en": "Successfully affix three materia to the same piece of gear.",
+            "description_fr": "Sertir trois matérias sur une même pièce d'équipement.",
+            "patch": "2.0",
+            "points": 20,
+            "cPrev": [
+                301
+            ],
+            "cNext": [
+                303
+            ]
+        },
+        "x303": {
+            "name_en": "Luck's Got Nothing to Do with It",
+            "name_fr": "Une chance insolente",
+            "description_en": "Successfully affix four materia to the same piece of gear.",
+            "description_fr": "Sertir quatre matérias sur une même pièce d'équipement.",
+            "patch": "2.0",
+            "points": 30,
+            "cPrev": [
+                302
+            ],
+            "cNext": [
+                304
+            ]
+        },
+        "x304": {
+            "name_en": "I Got This!",
+            "name_fr": "C'est pas de la chance, c'est du savoir-faire",
+            "description_en": "Successfully affix five materia to the same piece of gear.",
+            "description_fr": "Sertir cinq matérias sur une même pièce d'équipement.",
+            "reward_en": "Gambler's Crown",
+            "reward_fr": "Couronne de chanceux",
+            "patch": "2.0",
+            "points": 40,
+            "cPrev": [
+                303
+            ]
+        },
+        "x305": {
+            "name_en": "An Extract Science I",
+            "name_fr": "Ça peut toujours sertir I",
+            "description_en": "Successfully extract materia from 10 spiritbound items.",
+            "description_fr": "Matérialiser 10 objets.",
+            "patch": "2.0",
+            "points": 5,
+            "cNext": [
+                306
+            ]
+        },
+        "x306": {
+            "name_en": "An Extract Science II",
+            "name_fr": "Ça peut toujours sertir II",
+            "description_en": "Successfully extract materia from 50 spiritbound items.",
+            "description_fr": "Matérialiser 50 objets.",
+            "patch": "2.0",
+            "points": 5,
+            "cPrev": [
+                305
+            ],
+            "cNext": [
+                307
+            ]
+        },
+        "x307": {
+            "name_en": "An Extract Science III",
+            "name_fr": "Ça peut toujours sertir III",
+            "description_en": "Successfully extract materia from 100 spiritbound items.",
+            "description_fr": "Matérialiser 100 objets.",
+            "patch": "2.0",
+            "points": 5,
+            "cPrev": [
+                306
+            ],
+            "cNext": [
+                308
+            ]
+        },
+        "x308": {
+            "name_en": "An Extract Science IV",
+            "name_fr": "Ça peut toujours sertir IV",
+            "description_en": "Successfully extract materia from 500 spiritbound items.",
+            "description_fr": "Matérialiser 500 objets.",
+            "patch": "2.0",
+            "points": 5,
+            "cPrev": [
+                307
+            ],
+            "cNext": [
+                309
+            ]
+        },
+        "x309": {
+            "name_en": "Living in a Materia World",
+            "name_fr": "Expert en la matéria",
+            "description_en": "Successfully extract materia from 1,000 spiritbound items.",
+            "description_fr": "Matérialiser 1 000 objets.",
+            "reward": "character.character.title.44",
+            "patch": "2.0",
+            "points": 10,
+            "cPrev": [
+                308
+            ],
+            "cNext": [
+                1335
+            ],
+            "cSiblings": [
+                "character.character.title.44"
+            ]
+        },
+        "x1335": {
+            "name_en": "An Extract Science V",
+            "name_fr": "Ça peut toujours sertir V",
+            "description_en": "Successfully extract materia from 5,000 spiritbound items.",
+            "description_fr": "Matérialiser 5 000 objets.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                309
+            ]
+        },
+        "x927": {
+            "name_en": "I Got a Good Materia",
+            "name_fr": "Joli coup de chance",
+            "description_en": "Obtain materia of a higher grade through transmutation.",
+            "description_fr": "Obtenir un excellent résultat via la transmatérialisation de matérias.",
+            "patch": "2.25",
+            "points": 10
+        }
+    }
+}

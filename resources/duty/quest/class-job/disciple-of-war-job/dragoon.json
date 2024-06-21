@@ -1,0 +1,304 @@
+{
+    "key": "dragoon",
+    "groupName_en": "Dragoon",
+    "groupName_fr": "Quêtes de chevalier dragon",
+    "tasks": {
+        "x66603": {
+            "level": 30,
+            "name_en": "Eye of the Dragon",
+            "name_fr": "L'Œil du dragon",
+            "npc_en": "Ywain",
+            "npc_fr": "Ywain",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-war.lancer.65975",
+                "duty.quests.main-scenario.seventh-umbral-era.66049"
+            ],
+            "cNext": [
+                66604
+            ],
+            "cSiblings": [
+                "character.adventure-plate.34"
+            ],
+            "patch": "4.31"
+        },
+        "x66604": {
+            "level": 35,
+            "name_en": "Lance of Fury",
+            "name_fr": "La lance du destin",
+            "npc_en": "Alberic",
+            "npc_fr": "Alberic",
+            "cPrev": [
+                66603
+            ],
+            "cNext": [
+                66605
+            ],
+            "patch": "4.31"
+        },
+        "x66605": {
+            "level": 40,
+            "name_en": "Unfading Skies",
+            "name_fr": "Les griffes dans la nuit",
+            "npc_en": "Alberic",
+            "npc_fr": "Alberic",
+            "cPrev": [
+                66604
+            ],
+            "cNext": [
+                66606
+            ],
+            "patch": "4.31"
+        },
+        "x66606": {
+            "level": 45,
+            "name_en": "Double Dragoon",
+            "name_fr": "La rencontre des deux dragons",
+            "npc_en": "Alberic",
+            "npc_fr": "Alberic",
+            "cPrev": [
+                66605
+            ],
+            "cNext": [
+                66607
+            ],
+            "patch": "4.31"
+        },
+        "x66607": {
+            "level": 45,
+            "name_en": "Fatal Seduction",
+            "name_fr": "Un pouvoir subjuguant",
+            "npc_en": "Alberic",
+            "npc_fr": "Alberic",
+            "cPrev": [
+                66606
+            ],
+            "cNext": [
+                66608
+            ],
+            "patch": "4.31"
+        },
+        "x66608": {
+            "level": 50,
+            "name_en": "Into the Dragon's Maw",
+            "name_fr": "La fureur d'un dragon",
+            "npc_en": "Alberic",
+            "npc_fr": "Alberic",
+            "cPrev": [
+                66607
+            ],
+            "cNext": [
+                66658,
+                67225
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.410"
+            ],
+            "patch": "4.31"
+        },
+        "x66658": {
+            "level": 50,
+            "name_en": "A Relic Reborn (Gae Bolg)",
+            "name_fr": "Restauration du Gae bolg",
+            "npc_en": "Gerolt",
+            "npc_fr": "Gerolt",
+            "cPrev": [
+                66608,
+                "duty.quests.sidequests.uldahn.western-thanalan.66241"
+            ],
+            "patch": "4.31"
+        },
+        "x67225": {
+            "level": 50,
+            "name_en": "Sky's the Limit",
+            "name_fr": "Enseigner, c'est apprendre deux fois",
+            "npc_en": "Alberic",
+            "npc_fr": "Alberic",
+            "cPrev": [
+                66608,
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                67226
+            ],
+            "patch": "4.31"
+        },
+        "x67226": {
+            "level": 52,
+            "name_en": "Days of Azure",
+            "name_fr": "La première leçon",
+            "npc_en": "Alberic",
+            "npc_fr": "Alberic",
+            "cPrev": [
+                67225
+            ],
+            "cNext": [
+                67227
+            ],
+            "patch": "4.31"
+        },
+        "x67227": {
+            "level": 52,
+            "name_en": "Heart of Justice",
+            "name_fr": "Destins croisés",
+            "npc_en": "Heustienne",
+            "npc_fr": "Heustienne",
+            "cPrev": [
+                67226
+            ],
+            "cNext": [
+                67228
+            ],
+            "patch": "4.31"
+        },
+        "x67228": {
+            "level": 54,
+            "name_en": "Sworn Upon a Lance",
+            "name_fr": "Pérégrine et Graoully",
+            "npc_en": "Alberic",
+            "npc_fr": "Alberic",
+            "cPrev": [
+                67227
+            ],
+            "cNext": [
+                67229
+            ],
+            "patch": "4.31"
+        },
+        "x67229": {
+            "level": 56,
+            "name_en": "Dragoon's Errand",
+            "name_fr": "Dans les griffes de l'ennemi",
+            "npc_en": "Alberic",
+            "npc_fr": "Alberic",
+            "cPrev": [
+                67228
+            ],
+            "cNext": [
+                67230
+            ],
+            "patch": "4.31"
+        },
+        "x67230": {
+            "level": 58,
+            "name_en": "Sanguine Dragoon",
+            "name_fr": "L'amère vérité",
+            "npc_en": "Alberic",
+            "npc_fr": "Alberic",
+            "cPrev": [
+                67229
+            ],
+            "cNext": [
+                67231
+            ],
+            "patch": "4.31"
+        },
+        "x67231": {
+            "level": 60,
+            "name_en": "Dragoon's Fate",
+            "name_fr": "Le sang du dragon",
+            "npc_en": "Alberic",
+            "npc_fr": "Alberic",
+            "cPrev": [
+                67230
+            ],
+            "cNext": [
+                68446
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1144"
+            ],
+            "patch": "4.31"
+        },
+        "x68446": {
+            "level": 60,
+            "name_en": "Friends through Eternity",
+            "name_fr": "Les temps changent",
+            "npc_en": "Alberic",
+            "npc_fr": "Alberic",
+            "cPrev": [
+                67231,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                68447
+            ],
+            "patch": "4.31"
+        },
+        "x68447": {
+            "level": 63,
+            "name_en": "Drowsy Dragons",
+            "name_fr": "Le Dragon dormant",
+            "npc_en": "Alberic",
+            "npc_fr": "Alberic",
+            "cPrev": [
+                68446
+            ],
+            "cNext": [
+                68448
+            ],
+            "patch": "4.31"
+        },
+        "x68448": {
+            "level": 65,
+            "name_en": "Serpent and the Sea of Rubies",
+            "name_fr": "Le Serpent de la Mer de Rubis",
+            "npc_en": "Alberic",
+            "npc_fr": "Alberic",
+            "cPrev": [
+                68447
+            ],
+            "cNext": [
+                68449
+            ],
+            "patch": "4.31"
+        },
+        "x68449": {
+            "level": 68,
+            "name_en": "Dark as the Night Sky",
+            "name_fr": "Aussi sombre que la nuit",
+            "npc_en": "Orn Khai",
+            "npc_fr": "Orn Khai",
+            "cPrev": [
+                68448
+            ],
+            "cNext": [
+                68450
+            ],
+            "patch": "4.31"
+        },
+        "x68450": {
+            "level": 70,
+            "name_en": "Dragon Sound",
+            "name_fr": "Le Dragon écarlate",
+            "npc_en": "Orn Khai",
+            "npc_fr": "Orn Khai",
+            "cPrev": [
+                68449
+            ],
+            "cNext": [
+                68749
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1800"
+            ],
+            "patch": "4.31"
+        },
+        "x68749": {
+            "level": 80,
+            "name_en": "Gone but Not Forgiven",
+            "name_fr": "À la mémoire d'un vieil ennemi",
+            "npc_en": "Alberic",
+            "npc_fr": "Alberic",
+            "cPrev": [
+                68450,
+                "duty.quests.class--job.role.shb.68814",
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.33",
+                "character.achievement.quests.job-role-quests.2309"
+            ],
+            "patch": "5.0"
+        }
+    }
+}

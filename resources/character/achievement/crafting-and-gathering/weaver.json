@@ -1,0 +1,360 @@
+{
+    "key": "weaver",
+    "groupName_en": "Weaver",
+    "groupName_fr": "Couturier",
+    "tasks": {
+        "x167": {
+            "name_en": "Threading the Needle: Amateur",
+            "name_fr": "De fil en aiguille : Amateur",
+            "description_en": "Successfully synthesize 50 times for level 1-10 clothcraft recipes.",
+            "description_fr": "Réaliser 50 synthèses de couture de niveau 1 à 10.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                172
+            ]
+        },
+        "x168": {
+            "name_en": "Threading the Needle: Initiate",
+            "name_fr": "De fil en aiguille : Recrue",
+            "description_en": "Successfully synthesize 300 times for level 11-20 clothcraft recipes.",
+            "description_fr": "Réaliser 300 synthèses de couture de niveau 11 à 20.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                172
+            ]
+        },
+        "x169": {
+            "name_en": "Threading the Needle: Apprentice",
+            "name_fr": "De fil en aiguille : Initié",
+            "description_en": "Successfully synthesize 750 times for level 21-30 clothcraft recipes.",
+            "description_fr": "Réaliser 750 synthèses de couture de niveau 21 à 30.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                172
+            ]
+        },
+        "x170": {
+            "name_en": "Threading the Needle: Journeyman",
+            "name_fr": "De fil en aiguille : Novice",
+            "description_en": "Successfully synthesize 1,500 times for level 31-40 clothcraft recipes.",
+            "description_fr": "Réaliser 1 500 synthèses de couture de niveau 31 à 40.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                172
+            ]
+        },
+        "x171": {
+            "name_en": "Threading the Needle: Artisan",
+            "name_fr": "De fil en aiguille : Qualifié",
+            "description_en": "Successfully synthesize 3,000 times for level 41-50 clothcraft recipes.",
+            "description_fr": "Réaliser 3 000 synthèses de couture de niveau 41 à 50.",
+            "reward": "character.character.title.22",
+            "patch": "2.0",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.22"
+            ],
+            "cCombo": [
+                172
+            ]
+        },
+        "x172": {
+            "name_en": "A Weaver's Life for Me",
+            "name_fr": "Sous toutes les coutures",
+            "description_en": "Obtain the first five “Threading the Needle” achievements.",
+            "description_fr": "Accomplir les cinq hauts faits de la série “De fil en aiguille”.",
+            "reward_en": "Needle of the Luminary",
+            "reward_fr": "Aiguille de virtuose",
+            "patch": "2.0",
+            "points": 30,
+            "cPrev": [
+                167,
+                168,
+                169,
+                170,
+                171
+            ]
+        },
+        "x1306": {
+            "name_en": "Threading the Needle: Adept",
+            "name_fr": "De fil en aiguille : Expert",
+            "description_en": "Successfully synthesize 1,000 times for level 51-60 clothcraft recipes.",
+            "description_fr": "Réaliser 1 000 synthèses de couture de niveau 51 à 60.",
+            "patch": "3.0",
+            "points": 10
+        },
+        "x1853": {
+            "name_en": "Threading the Needle: Veteran",
+            "name_fr": "De fil en aiguille : Maître",
+            "description_en": "Successfully synthesize 1,000 times for level 61-70 clothcraft recipes.",
+            "description_fr": "Réaliser 1 000 synthèses de couture de niveau 61 à 70.",
+            "patch": "4.0",
+            "points": 10
+        },
+        "x2285": {
+            "name_en": "Threading the Needle: Master",
+            "name_fr": "De fil en aiguille : Génie",
+            "description_en": "Successfully synthesize 1,000 times for level 71-80 clothcraft recipes.",
+            "description_fr": "Réaliser 1 000 synthèses de couture de niveau 71 à 80.",
+            "patch": "5.0",
+            "points": 10
+        },
+        "x2933": {
+            "name_en": "Threading the Needle: Genius",
+            "name_fr": "De fil en aiguille : Prodige",
+            "description_en": "Successfully synthesize 1,000 times for level 81-90 clothcraft recipes.",
+            "description_fr": "Réaliser 1 000 synthèses de couture de niveau 81 à 90.",
+            "patch": "6.0",
+            "points": 10
+        },
+        "x710": {
+            "name_en": "I Made That: Weaver I",
+            "name_fr": "Carnet de notes : couturier I",
+            "description_en": "Craft and record completion of 50 unique weaver recipes.",
+            "description_fr": "Faire 50 synthèses de couturier différentes et les avoir notées dans le carnet d'artisanat.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                711
+            ]
+        },
+        "x711": {
+            "name_en": "I Made That: Weaver II",
+            "name_fr": "Carnet de notes : couturier II",
+            "description_en": "Craft and record completion of 110 unique weaver recipes.",
+            "description_fr": "Faire 110 synthèses de couturier différentes et les avoir notées dans le carnet d'artisanat.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                710
+            ],
+            "cNext": [
+                712
+            ]
+        },
+        "x712": {
+            "name_en": "I Made That: Weaver III",
+            "name_fr": "Carnet de notes : couturier III",
+            "description_en": "Craft and record completion of 230 unique weaver recipes.",
+            "description_fr": "Faire 230 synthèses de couturier différentes et les avoir notées dans le carnet d'artisanat.",
+            "reward_en": "Master Weaver's Ring",
+            "reward_fr": "Anneau de maître couturier",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                711
+            ],
+            "cNext": [
+                1283
+            ]
+        },
+        "x1283": {
+            "name_en": "I Made That: Weaver IV",
+            "name_fr": "Carnet de notes : couturier IV",
+            "description_en": "Craft and record completion of 320 unique weaver recipes.",
+            "description_fr": "Faire 320 synthèses de couturier différentes et les avoir notées dans le carnet d'artisanat.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                712
+            ],
+            "cNext": [
+                1726
+            ]
+        },
+        "x1726": {
+            "name_en": "I Made That: Weaver V",
+            "name_fr": "Carnet de notes : couturier V",
+            "description_en": "Craft and record completion of 440 unique weaver recipes.",
+            "description_fr": "Faire 440 synthèses de couturier différentes et les avoir notées dans le carnet d'artisanat.",
+            "reward_en": "Blessed Boltkeep's Needle",
+            "reward_fr": "Aiguille de tailleur bénie",
+            "patch": "3.5",
+            "points": 10,
+            "cPrev": [
+                1283
+            ],
+            "cNext": [
+                2171
+            ]
+        },
+        "x2171": {
+            "name_en": "I Made That: Weaver VI",
+            "name_fr": "Carnet de notes : couturier VI",
+            "description_en": "Craft and record completion of 550 unique weaver recipes.",
+            "description_fr": "Faire 550 synthèses de couturier différentes et les avoir notées dans le carnet d'artisanat.",
+            "reward_en": "Blessed Boltking's Needle",
+            "reward_fr": "Aiguille du roi des étoffes bénie",
+            "patch": "4.5",
+            "points": 10,
+            "cPrev": [
+                1726
+            ]
+        },
+        "x765": {
+            "name_en": "An Eye for Detail: Weaver I",
+            "name_fr": "De main de maître : couturier I",
+            "description_en": "Craft 100 high-quality items as a weaver.",
+            "description_fr": "Fabriquer un total de 100 objets de haute qualité en tant que couturier.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                766
+            ]
+        },
+        "x766": {
+            "name_en": "An Eye for Detail: Weaver II",
+            "name_fr": "De main de maître : couturier II",
+            "description_en": "Craft 500 high-quality items as a weaver.",
+            "description_fr": "Fabriquer un total de 500 objets de haute qualité en tant que couturier.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                765
+            ],
+            "cNext": [
+                767
+            ]
+        },
+        "x767": {
+            "name_en": "An Eye for Detail: Weaver III",
+            "name_fr": "De main de maître : couturier III",
+            "description_en": "Craft 3,000 high-quality items as a weaver.",
+            "description_fr": "Fabriquer un total de 3 000 objets de haute qualité en tant que couturier.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                766
+            ],
+            "cNext": [
+                1318
+            ]
+        },
+        "x1318": {
+            "name_en": "An Eye for Detail: Weaver IV",
+            "name_fr": "De main de maître : couturier IV",
+            "description_en": "Craft 5,000 high-quality items as a weaver.",
+            "description_fr": "Fabriquer un total de 5 000 objets de haute qualité en tant que couturier.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                767
+            ],
+            "cNext": [
+                1326
+            ]
+        },
+        "x1326": {
+            "name_en": "An Eye for Detail: Weaver V",
+            "name_fr": "De main de maître : couturier V",
+            "description_en": "Craft 10,000 high-quality items as a weaver.",
+            "description_fr": "Fabriquer un total de 10 000  objets de haute qualité en tant que couturier.",
+            "reward": "character.character.title.258",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                1318
+            ],
+            "cSiblings": [
+                "character.character.title.258"
+            ]
+        },
+        "x2504": {
+            "name_en": "Skyward Needle I",
+            "name_fr": "Aiguille d'Azurée I",
+            "description_en": "Earn 50,000 points toward your skyward score as a weaver.",
+            "description_fr": "Gagner un total de 50 000 points d'azur en tant que couturier.",
+            "patch": "5.21",
+            "points": 5,
+            "cNext": [
+                2505
+            ],
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2522"
+            ]
+        },
+        "x2505": {
+            "name_en": "Skyward Needle II",
+            "name_fr": "Aiguille d'Azurée II",
+            "description_en": "Earn 150,000 points toward your skyward score as a weaver.",
+            "description_fr": "Gagner un total de 150 000 points d'azur en tant que couturier.",
+            "patch": "5.21",
+            "points": 5,
+            "cPrev": [
+                2504
+            ],
+            "cNext": [
+                2506
+            ]
+        },
+        "x2506": {
+            "name_en": "Skyward Needle III",
+            "name_fr": "Aiguille d'Azurée III",
+            "description_en": "Earn 500,000 points toward your skyward score as a weaver.",
+            "description_fr": "Gagner un total de 500 000 points d'azur en tant que couturier.",
+            "reward": "character.character.title.495",
+            "patch": "5.21",
+            "points": 10,
+            "cPrev": [
+                2505
+            ],
+            "cSiblings": [
+                "character.character.title.495"
+            ],
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2524"
+            ]
+        },
+        "x2532": {
+            "name_en": "The Height of Clothcraft",
+            "name_fr": "Couturier du Nichoir",
+            "description_en": "As a weaver, craft and submit 100 expert recipe items for the second phase of the Ishgardian restoration.",
+            "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de couturier de la deuxième phase de reconstruction d'Azurée.",
+            "reward": "character.character.title.508",
+            "patch": "5.21",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.508"
+            ]
+        },
+        "x2653": {
+            "name_en": "Weavers of a Feather",
+            "name_fr": "Couturier de Tombeplume",
+            "description_en": "As a weaver, craft and submit 100 expert recipe items for the third phase of the Ishgardian restoration.",
+            "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de couturier de la troisième phase de reconstruction d'Azurée.",
+            "reward": "character.character.title.533",
+            "patch": "5.31",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.533"
+            ]
+        },
+        "x2812": {
+            "name_en": "An Ode to Clothcraft",
+            "name_fr": "Couturier du Nouveau Refrain",
+            "description_en": "As a weaver, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
+            "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de couturier de la quatrième phase de reconstruction d'Azurée.",
+            "reward": "character.character.title.570",
+            "patch": "5.41",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.570"
+            ]
+        },
+        "x2825": {
+            "name_en": "Retooled: Resplendent Boltfiend's Needle",
+            "name_fr": "Couture resplendissante",
+            "description_en": "Obtain a resplendent boltfiend's needle.",
+            "description_fr": "Obtenir une aiguille du fiélon des étoffes resplendissante.",
+            "patch": "5.5",
+            "points": 10,
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2829"
+            ]
+        }
+    }
+}

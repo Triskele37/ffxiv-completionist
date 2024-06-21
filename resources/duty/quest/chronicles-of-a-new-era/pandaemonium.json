@@ -1,0 +1,243 @@
+{
+    "key": "pandaemonium",
+    "groupName_en": "Pandæmonium",
+    "groupName_fr": "Pandæmonium",
+    "tasks": {
+        "x70011": {
+            "level": 90,
+            "name_en": "The Crystal from Beyond",
+            "name_fr": "“Tous les démons”",
+            "npc_en": "Nemjiji",
+            "npc_fr": "Nemjiji",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.70000"
+            ],
+            "cNext": [
+                70012
+            ],
+            "patch": "6.05"
+        },
+        "x70012": {
+            "level": 90,
+            "name_en": "Where Familiars Dare",
+            "name_fr": "Aux portes du pénitencier",
+            "unlock": "duty.dutyraid-finder.raids.ew.0",
+            "npc_en": "Themis",
+            "npc_fr": "Thémis",
+            "cPrev": [
+                70011
+            ],
+            "cNext": [
+                70013
+            ],
+            "patch": "6.05"
+        },
+        "x70013": {
+            "level": 90,
+            "name_en": "Under the Surface",
+            "name_fr": "En eaux troubles",
+            "unlock": "duty.dutyraid-finder.raids.ew.1",
+            "npc_en": "Erichthonios",
+            "npc_fr": "Érichthonios",
+            "cPrev": [
+                70012
+            ],
+            "cNext": [
+                70014
+            ],
+            "patch": "6.05"
+        },
+        "x70014": {
+            "level": 90,
+            "name_en": "The Fires of Creation",
+            "name_fr": "Changement de décor",
+            "unlock": "duty.dutyraid-finder.raids.ew.2",
+            "npc_en": "Themis",
+            "npc_fr": "Thémis",
+            "cPrev": [
+                70013
+            ],
+            "cNext": [
+                70015
+            ],
+            "patch": "6.05"
+        },
+        "x70015": {
+            "level": 90,
+            "name_en": "Who Wards the Warders?",
+            "name_fr": "L'ombre du grand geôlier",
+            "unlock": "duty.dutyraid-finder.raids.ew.3",
+            "npc_en": "Themis",
+            "npc_fr": "Thémis",
+            "cPrev": [
+                70014
+            ],
+            "cNext": [
+                70171
+            ],
+            "patch": "6.05"
+        },
+        "x70171": {
+            "level": 90,
+            "name_en": "An Unwelcome Visitor",
+            "name_fr": "Retour à la case prison",
+            "npc_en": "Claudien",
+            "npc_fr": "Claudien",
+            "cPrev": [
+                70015
+            ],
+            "cNext": [
+                70172
+            ],
+            "patch": "6.28"
+        },
+        "x70172": {
+            "level": 90,
+            "name_en": "Masks of the Father",
+            "name_fr": "Duplicité paternelle",
+            "unlock": "duty.dutyraid-finder.raids.ew.10",
+            "npc_en": "Erichthonios",
+            "npc_fr": "Erichthonios",
+            "cPrev": [
+                70171
+            ],
+            "cNext": [
+                70173
+            ],
+            "patch": "6.28"
+        },
+        "x70173": {
+            "level": 90,
+            "name_en": "A Keyward's Gaol",
+            "name_fr": "Médiation père-fils",
+            "unlock": "duty.dutyraid-finder.raids.ew.11",
+            "npc_en": "Erichthonios",
+            "npc_fr": "Erichthonios",
+            "cPrev": [
+                70172
+            ],
+            "cNext": [
+                70174
+            ],
+            "patch": "6.28"
+        },
+        "x70174": {
+            "level": 90,
+            "name_en": "Servant of Violence",
+            "name_fr": "Descente à l'Enfer",
+            "unlock": "duty.dutyraid-finder.raids.ew.12",
+            "npc_en": "Erichthonios",
+            "npc_fr": "Erichthonios",
+            "cPrev": [
+                70173
+            ],
+            "cNext": [
+                70175
+            ],
+            "patch": "6.28"
+        },
+        "x70175": {
+            "level": 90,
+            "name_en": "One Final Wish",
+            "name_fr": "Un ennemi nommé désir",
+            "unlock": "duty.dutyraid-finder.raids.ew.13",
+            "npc_en": "Lahabrea",
+            "npc_fr": "Lahabrea",
+            "cPrev": [
+                70174
+            ],
+            "cNext": [
+                70176
+            ],
+            "patch": "6.28"
+        },
+        "x70176": {
+            "level": 90,
+            "name_en": "Truth Imperfect",
+            "name_fr": "D'Héphaïstos à Lahabrea",
+            "npc_en": "Lahabrea",
+            "npc_fr": "Lahabrea",
+            "cPrev": [
+                70175
+            ],
+            "cNext": [
+                70292
+            ],
+            "patch": "6.28"
+        },
+        "x70292": {
+            "level": 90,
+            "name_en": "Eater of Souls",
+            "name_fr": "Le dévoreur d'âmes",
+            "unlock": "duty.dutyraid-finder.raids.ew.20",
+            "npc_en": "Ruissenaud",
+            "npc_fr": "Ruissenaud",
+            "cPrev": [
+                70176
+            ],
+            "cNext": [
+                70293
+            ],
+            "patch": "6.4"
+        },
+        "x70293": {
+            "level": 90,
+            "name_en": "Pandæmonium Awakens",
+            "name_fr": "Un monstre appelé Pandæmonium",
+            "unlock": "duty.dutyraid-finder.raids.ew.21",
+            "npc_en": "Lahabrea",
+            "npc_fr": "Lahabrea",
+            "cPrev": [
+                70292
+            ],
+            "cNext": [
+                70294
+            ],
+            "patch": "6.4"
+        },
+        "x70294": {
+            "level": 90,
+            "name_en": "The Emissary's Judgment",
+            "name_fr": "Ennemi malgré lui",
+            "unlock": "duty.dutyraid-finder.raids.ew.22",
+            "npc_en": "Lahabrea",
+            "npc_fr": "Lahabrea",
+            "cPrev": [
+                70293
+            ],
+            "cNext": [
+                70295
+            ],
+            "patch": "6.4"
+        },
+        "x70295": {
+            "level": 90,
+            "name_en": "A Mother's Touch",
+            "name_fr": "Mère et fils",
+            "unlock": "duty.dutyraid-finder.raids.ew.23",
+            "npc_en": "Lahabrea",
+            "npc_fr": "Lahabrea",
+            "cPrev": [
+                70294
+            ],
+            "cNext": [
+                70296
+            ],
+            "patch": "6.4"
+        },
+        "x70296": {
+            "level": 90,
+            "name_en": "Guided by the Past",
+            "name_fr": "Rétrospections",
+            "npc_en": "Lahabrea",
+            "npc_fr": "Lahabrea",
+            "cPrev": [
+                70295
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.3247"
+            ],
+            "patch": "6.4"
+        }
+    }
+}

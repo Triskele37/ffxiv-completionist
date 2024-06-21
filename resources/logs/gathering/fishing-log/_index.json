@@ -1,0 +1,32 @@
+{
+    "key": "fishing-log",
+    "groupName_en": "Fishing Log",
+    "groupName_fr": "Carnet de pêche",
+    "headers": {
+        "level": {
+            "header_en": "Level",
+            "header_fr": "Niveau"
+        },
+        "name": {
+            "header_en": "Log",
+            "header_fr": "Entrée"
+        },
+        "zone": {
+            "header_en": "Zone",
+            "header_fr": "Zone"
+        },
+        "location": {
+            "header_en": "Location",
+            "header_fr": "Lieu"
+        },
+        "type": {
+            "filterable": true,
+            "header_en": "Type",
+            "header_fr": "Type"
+        },
+        "req": {
+            "header_en": "Req.",
+            "header_fr": "Condition"
+        }
+    }
+}

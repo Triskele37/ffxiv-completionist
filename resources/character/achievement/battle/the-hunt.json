@@ -1,0 +1,927 @@
+{
+    "key": "the-hunt",
+    "groupName_en": "The Hunt",
+    "groupName_fr": "Contrats de chasse",
+    "tasks": {
+        "x964": {
+            "name_en": "Mark of the Holt: B",
+            "name_fr": "Chasseur des bois : rang B",
+            "description_en": "Slay 4 unique rank B elite marks in the Black Shroud.",
+            "description_fr": "Abattre 4 cibles d'élite de rang B différentes à Sombrelinceul.",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.arr.7",
+                "duty.dutyraid-finder.the-hunt.arr.11",
+                "duty.dutyraid-finder.the-hunt.arr.14",
+                "duty.dutyraid-finder.the-hunt.arr.16"
+            ],
+            "cCombo": [
+                968
+            ]
+        },
+        "x965": {
+            "name_en": "Mark of the Desert: B",
+            "name_fr": "Chasseur des sables : rang B",
+            "description_en": "Slay 5 unique rank B elite marks in Thanalan.",
+            "description_fr": "Abattre 5 cibles d'élite de rang B différentes dans le Thanalan.",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.arr.0",
+                "duty.dutyraid-finder.the-hunt.arr.4",
+                "duty.dutyraid-finder.the-hunt.arr.5",
+                "duty.dutyraid-finder.the-hunt.arr.10",
+                "duty.dutyraid-finder.the-hunt.arr.12"
+            ],
+            "cCombo": [
+                968
+            ]
+        },
+        "x966": {
+            "name_en": "Mark of the Sea: B",
+            "name_fr": "Chasseur des mers : rang B",
+            "description_en": "Slay 6 unique rank B elite marks in La Noscea.",
+            "description_fr": "Abattre 6 cibles d'élite de rang B différentes dans la Noscea.",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.arr.1",
+                "duty.dutyraid-finder.the-hunt.arr.2",
+                "duty.dutyraid-finder.the-hunt.arr.3",
+                "duty.dutyraid-finder.the-hunt.arr.8",
+                "duty.dutyraid-finder.the-hunt.arr.13",
+                "duty.dutyraid-finder.the-hunt.arr.15"
+            ],
+            "cCombo": [
+                968
+            ]
+        },
+        "x967": {
+            "name_en": "Mark of the Lake: B",
+            "name_fr": "Chasseur des lacs : rang B",
+            "description_en": "Slay 2 unique rank B elite marks in Mor Dhona or the Coerthas central highlands.",
+            "description_fr": "Abattre 2 cibles d'élite de rang B différentes dans les Hautes terres du Coerthas central ou dans le Mor Dhona.",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.arr.6",
+                "duty.dutyraid-finder.the-hunt.arr.9"
+            ],
+            "cCombo": [
+                968
+            ]
+        },
+        "x968": {
+            "name_en": "On Your Mark: B",
+            "name_fr": "Servir son rang B",
+            "description_en": "Earn the following four achievements: Mark of the Holt: B, Mark of the Desert: B, Mark of the Sea: B, and Mark of the Lake: B.",
+            "description_fr": "Accomplir les quatre hauts faits “Chasseur des bois: rang B”, “Chasseur des sables: rang B”, “Chasseur des mers: rang B” et “Chasseur des lacs: rang B”.",
+            "reward": "character.character.title.161",
+            "patch": "2.3",
+            "points": 10,
+            "cPrev": [
+                964,
+                965,
+                966,
+                967
+            ],
+            "cSiblings": [
+                "character.character.title.161"
+            ]
+        },
+        "x969": {
+            "name_en": "Mark of the Holt: A",
+            "name_fr": "Chasseur des bois : rang A",
+            "description_en": "Slay 4 unique rank A elite marks in the Black Shroud.",
+            "description_fr": "Abattre 4 cibles d'élite de rang A différentes à Sombrelinceul.",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.arr.20",
+                "duty.dutyraid-finder.the-hunt.arr.21",
+                "duty.dutyraid-finder.the-hunt.arr.22",
+                "duty.dutyraid-finder.the-hunt.arr.28"
+            ],
+            "cCombo": [
+                973
+            ]
+        },
+        "x970": {
+            "name_en": "Mark of the Desert: A",
+            "name_fr": "Chasseur des sables : rang A",
+            "description_en": "Slay 5 unique rank A elite marks in Thanalan.",
+            "description_fr": "Abattre 5 cibles d'élite de rang A différentes dans le Thanalan.",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.arr.17",
+                "duty.dutyraid-finder.the-hunt.arr.19",
+                "duty.dutyraid-finder.the-hunt.arr.25",
+                "duty.dutyraid-finder.the-hunt.arr.30",
+                "duty.dutyraid-finder.the-hunt.arr.33"
+            ],
+            "cCombo": [
+                973
+            ]
+        },
+        "x971": {
+            "name_en": "Mark of the Sea: A",
+            "name_fr": "Chasseur des mers : rang A",
+            "description_en": "Slay 6 unique rank A elite marks in La Noscea.",
+            "description_fr": "Abattre 6 cibles d'élite de rang A différentes dans la Noscea.",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.arr.18",
+                "duty.dutyraid-finder.the-hunt.arr.23",
+                "duty.dutyraid-finder.the-hunt.arr.26",
+                "duty.dutyraid-finder.the-hunt.arr.29",
+                "duty.dutyraid-finder.the-hunt.arr.31",
+                "duty.dutyraid-finder.the-hunt.arr.32"
+            ],
+            "cCombo": [
+                973
+            ]
+        },
+        "x972": {
+            "name_en": "Mark of the Lake: A",
+            "name_fr": "Chasseur des lacs : rang A",
+            "description_en": "Slay 2 unique rank A elite marks in Mor Dhona or the Coerthas central highlands.",
+            "description_fr": "Abattre 2 cibles d'élite de rang A différentes dans les Hautes terres du Coerthas central ou dans le Mor Dhona.",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.arr.24",
+                "duty.dutyraid-finder.the-hunt.arr.27"
+            ],
+            "cCombo": [
+                973
+            ]
+        },
+        "x973": {
+            "name_en": "On Your Mark: A",
+            "name_fr": "Servir son rang A",
+            "description_en": "Earn the following four achievements: Mark of the Holt: A, Mark of the Desert: A, Mark of the Sea: A, and Mark of the Lake: A.",
+            "description_fr": "Accomplir les quatre hauts faits “Chasseur des bois: rang A”, “Chasseur des sables: rang A”, “Chasseur des mers: rang A” et “Chasseur des lacs: rang A”.",
+            "reward": "character.character.title.162",
+            "patch": "2.3",
+            "points": 10,
+            "cPrev": [
+                969,
+                970,
+                971,
+                972
+            ],
+            "cSiblings": [
+                "character.character.title.162"
+            ]
+        },
+        "x974": {
+            "name_en": "Mark of the Holt: S",
+            "name_fr": "Chasseur des bois : rang S",
+            "description_en": "Slay 4 unique rank S elite marks in the Black Shroud.",
+            "description_fr": "Abattre 4 cibles d'élite de rang S différentes à Sombrelinceul.",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.arr.40",
+                "duty.dutyraid-finder.the-hunt.arr.42",
+                "duty.dutyraid-finder.the-hunt.arr.48",
+                "duty.dutyraid-finder.the-hunt.arr.49"
+            ],
+            "cCombo": [
+                978
+            ]
+        },
+        "x975": {
+            "name_en": "Mark of the Desert: S",
+            "name_fr": "Chasseur des sables : rang S",
+            "description_en": "Slay 5 unique rank S elite marks in Thanalan.",
+            "description_fr": "Abattre 5 cibles d'élite de rang S différentes dans le Thanalan.",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.arr.36",
+                "duty.dutyraid-finder.the-hunt.arr.41",
+                "duty.dutyraid-finder.the-hunt.arr.43",
+                "duty.dutyraid-finder.the-hunt.arr.45",
+                "duty.dutyraid-finder.the-hunt.arr.50"
+            ],
+            "cCombo": [
+                978
+            ]
+        },
+        "x976": {
+            "name_en": "Mark of the Sea: S",
+            "name_fr": "Chasseur des mers : rang S",
+            "description_en": "Slay 6 unique rank S elite marks in La Noscea.",
+            "description_fr": "Abattre 6 cibles d'élite de rang S différentes dans la Noscea.",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.arr.35",
+                "duty.dutyraid-finder.the-hunt.arr.37",
+                "duty.dutyraid-finder.the-hunt.arr.38",
+                "duty.dutyraid-finder.the-hunt.arr.39",
+                "duty.dutyraid-finder.the-hunt.arr.44",
+                "duty.dutyraid-finder.the-hunt.arr.47"
+            ],
+            "cCombo": [
+                978
+            ]
+        },
+        "x977": {
+            "name_en": "Mark of the Lake: S",
+            "name_fr": "Chasseur des lacs : rang S",
+            "description_en": "Slay 2 unique rank S elite marks in Mor Dhona or the Coerthas central highlands.",
+            "description_fr": "Abattre 2 cibles d'élite de rang S différentes dans les Hautes terres du Coerthas central ou dans le Mor Dhona.",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.arr.34",
+                "duty.dutyraid-finder.the-hunt.arr.46"
+            ],
+            "cCombo": [
+                978
+            ]
+        },
+        "x978": {
+            "name_en": "On Your Mark: S",
+            "name_fr": "Servir son rang S",
+            "description_en": "Earn the following four achievements: Mark of the Holt: S, Mark of the Desert: S, Mark of the Sea: S, and Mark of the Lake: S.",
+            "description_fr": "Accomplir les quatre hauts faits “Chasseur des bois: rang S”, “Chasseur des sables: rang S”, “Chasseur des mers: rang S” et “Chasseur des lacs: rang S”.",
+            "reward": "character.character.title.163",
+            "patch": "2.3",
+            "points": 10,
+            "cPrev": [
+                974,
+                975,
+                976,
+                977
+            ],
+            "cSiblings": [
+                "character.character.title.163"
+            ]
+        },
+        "x1259": {
+            "name_en": "Mark of the Dragon: B",
+            "name_fr": "Chasseur du ponant : rang B",
+            "description_en": "Slay 6 unique rank B elite marks in the Dravanian hinterlands, the Dravanian forelands, or the Churning Mists.",
+            "description_fr": "Abattre 6 cibles d'élite de rang B différentes dans Dravania.",
+            "patch": "3.0",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.hw.1",
+                "duty.dutyraid-finder.the-hunt.hw.2",
+                "duty.dutyraid-finder.the-hunt.hw.6",
+                "duty.dutyraid-finder.the-hunt.hw.8",
+                "duty.dutyraid-finder.the-hunt.hw.10",
+                "duty.dutyraid-finder.the-hunt.hw.11"
+            ]
+        },
+        "x1260": {
+            "name_en": "Mark of Cloud and Ice: B",
+            "name_fr": "Chasseur des cieux et des glaces : rang B",
+            "description_en": "Slay 6 unique rank B elite marks in the Coerthas western highlands, the Sea of Clouds, or Azys Lla.",
+            "description_fr": "Abattre 6 cibles d'élite de rang B différentes dans les Hautes terres du Coerthas occidental ou Abalathia.",
+            "patch": "3.0",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.hw.0",
+                "duty.dutyraid-finder.the-hunt.hw.3",
+                "duty.dutyraid-finder.the-hunt.hw.4",
+                "duty.dutyraid-finder.the-hunt.hw.5",
+                "duty.dutyraid-finder.the-hunt.hw.7",
+                "duty.dutyraid-finder.the-hunt.hw.9"
+            ]
+        },
+        "x1261": {
+            "name_en": "Mark of the Dragon: A",
+            "name_fr": "Chasseur du ponant : rang A",
+            "description_en": "Slay 6 unique rank A elite marks in the Dravanian hinterlands, the Dravanian forelands, or the Churning Mists.",
+            "description_fr": "Abattre 6 cibles d'élite de rang A différentes dans Dravania.",
+            "patch": "3.0",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.hw.12",
+                "duty.dutyraid-finder.the-hunt.hw.13",
+                "duty.dutyraid-finder.the-hunt.hw.16",
+                "duty.dutyraid-finder.the-hunt.hw.19",
+                "duty.dutyraid-finder.the-hunt.hw.21",
+                "duty.dutyraid-finder.the-hunt.hw.23"
+            ]
+        },
+        "x1262": {
+            "name_en": "Mark of Cloud and Ice: A",
+            "name_fr": "Chasseur des cieux et des glaces : rang A",
+            "description_en": "Slay 6 unique rank A elite marks in the Coerthas western highlands, the Sea of Clouds, or Azys Lla.",
+            "description_fr": "Abattre 6 cibles d'élite de rang A différentes dans les Hautes terres du Coerthas occidental ou Abalathia.",
+            "patch": "3.0",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.hw.14",
+                "duty.dutyraid-finder.the-hunt.hw.15",
+                "duty.dutyraid-finder.the-hunt.hw.17",
+                "duty.dutyraid-finder.the-hunt.hw.18",
+                "duty.dutyraid-finder.the-hunt.hw.20",
+                "duty.dutyraid-finder.the-hunt.hw.22"
+            ]
+        },
+        "x1263": {
+            "name_en": "Mark of the Dragon: S",
+            "name_fr": "Chasseur du ponant : rang S",
+            "description_en": "Slay 3 unique rank S elite marks in the Dravanian hinterlands, the Dravanian forelands, or the Churning Mists.",
+            "description_fr": "Abattre 3 cibles d'élite de rang S différentes dans Dravania.",
+            "patch": "3.0",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.hw.25",
+                "duty.dutyraid-finder.the-hunt.hw.28",
+                "duty.dutyraid-finder.the-hunt.hw.29"
+            ]
+        },
+        "x1264": {
+            "name_en": "Mark of Cloud and Ice: S",
+            "name_fr": "Chasseur des cieux et des glaces : rang S",
+            "description_en": "Slay 3 unique rank S elite marks in the Coerthas western highlands, the Sea of Clouds, or Azys Lla.",
+            "description_fr": "Abattre 3 cibles d'élite de rang S différentes dans les Hautes terres du Coerthas occidental ou Abalathia.",
+            "patch": "3.0",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.hw.24",
+                "duty.dutyraid-finder.the-hunt.hw.26",
+                "duty.dutyraid-finder.the-hunt.hw.27"
+            ]
+        },
+        "x1910": {
+            "name_en": "Mark of the Wastes: B",
+            "name_fr": "Chasseur des terres dévastées : rang B",
+            "description_en": "Slay 6 unique rank B elite marks in Gyr Abania.",
+            "description_fr": "Abattre 6 cibles d'élite de rang B différentes en Gyr Abania.",
+            "patch": "4.0",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.sb.1",
+                "duty.dutyraid-finder.the-hunt.sb.5",
+                "duty.dutyraid-finder.the-hunt.sb.7",
+                "duty.dutyraid-finder.the-hunt.sb.9",
+                "duty.dutyraid-finder.the-hunt.sb.10",
+                "duty.dutyraid-finder.the-hunt.sb.11"
+            ]
+        },
+        "x1913": {
+            "name_en": "Mark of the East: B",
+            "name_fr": "Chasseur de l'est : rang B",
+            "description_en": "Slay 6 unique rank B elite marks in Othard.",
+            "description_fr": "Abattre 6 cibles d'élite de rang B différentes en Othard.",
+            "patch": "4.0",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.sb.0",
+                "duty.dutyraid-finder.the-hunt.sb.2",
+                "duty.dutyraid-finder.the-hunt.sb.3",
+                "duty.dutyraid-finder.the-hunt.sb.4",
+                "duty.dutyraid-finder.the-hunt.sb.6",
+                "duty.dutyraid-finder.the-hunt.sb.8"
+            ]
+        },
+        "x1911": {
+            "name_en": "Mark of the Wastes: A",
+            "name_fr": "Chasseur des terres dévastées : rang A",
+            "description_en": "Slay 6 unique rank A elite marks in Gyr Abania.",
+            "description_fr": "Abattre 6 cibles d'élite de rang A différentes en Gyr Abania.",
+            "patch": "4.0",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.sb.13",
+                "duty.dutyraid-finder.the-hunt.sb.14",
+                "duty.dutyraid-finder.the-hunt.sb.18",
+                "duty.dutyraid-finder.the-hunt.sb.19",
+                "duty.dutyraid-finder.the-hunt.sb.21",
+                "duty.dutyraid-finder.the-hunt.sb.23"
+            ]
+        },
+        "x1914": {
+            "name_en": "Mark of the East: A",
+            "name_fr": "Chasseur de l'est : rang A",
+            "description_en": "Slay 6 unique rank A elite marks in Othard.",
+            "description_fr": "Abattre 6 cibles d'élite de rang A différentes en Othard.",
+            "patch": "4.0",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.sb.12",
+                "duty.dutyraid-finder.the-hunt.sb.15",
+                "duty.dutyraid-finder.the-hunt.sb.16",
+                "duty.dutyraid-finder.the-hunt.sb.17",
+                "duty.dutyraid-finder.the-hunt.sb.20",
+                "duty.dutyraid-finder.the-hunt.sb.22"
+            ]
+        },
+        "x1912": {
+            "name_en": "Mark of the Wastes: S",
+            "name_fr": "Chasseur des terres dévastées : rang S",
+            "description_en": "Slay 3 unique rank S elite marks in Gyr Abania.",
+            "description_fr": "Abattre 3 cibles d'élite de rang S différentes en Gyr Abania.",
+            "patch": "4.0",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.sb.24",
+                "duty.dutyraid-finder.the-hunt.sb.28",
+                "duty.dutyraid-finder.the-hunt.sb.29"
+            ]
+        },
+        "x1915": {
+            "name_en": "Mark of the East: S",
+            "name_fr": "Chasseur de l'est : rang S",
+            "description_en": "Slay 3 unique rank S elite marks in Othard.",
+            "description_fr": "Abattre 3 cibles d'élite de rang S différentes en Othard.",
+            "patch": "4.0",
+            "points": 5,
+            "cPrev": [
+                "duty.dutyraid-finder.the-hunt.sb.25",
+                "duty.dutyraid-finder.the-hunt.sb.26",
+                "duty.dutyraid-finder.the-hunt.sb.27"
+            ]
+        },
+        "x979": {
+            "name_en": "Bring Your B Game I",
+            "name_fr": "B comme boucher d'élite I",
+            "description_en": "Slay 10 rank B elite marks.",
+            "description_fr": "Abattre 10 cibles d'élite de rang B.",
+            "patch": "2.3",
+            "points": 5,
+            "cNext": [
+                980
+            ]
+        },
+        "x980": {
+            "name_en": "Bring Your B Game II",
+            "name_fr": "B comme boucher d'élite II",
+            "description_en": "Slay 50 rank B elite marks.",
+            "description_fr": "Abattre 50 cibles d'élite de rang B.",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                979
+            ],
+            "cNext": [
+                981
+            ]
+        },
+        "x981": {
+            "name_en": "Bring Your B Game III",
+            "name_fr": "B comme boucher d'élite III",
+            "description_en": "Slay 300 rank B elite marks.",
+            "description_fr": "Abattre 300 cibles d'élite de rang B.",
+            "reward": "character.character.title.164",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                980
+            ],
+            "cNext": [
+                982
+            ],
+            "cSiblings": [
+                "character.character.title.164"
+            ]
+        },
+        "x982": {
+            "name_en": "Straight Bs",
+            "name_fr": "La crème de la crème B",
+            "description_en": "Slay 1,000 rank B elite marks.",
+            "description_fr": "Abattre 1 000 cibles d'élite de rang B.",
+            "patch": "2.3",
+            "points": 10,
+            "cPrev": [
+                981
+            ]
+        },
+        "x983": {
+            "name_en": "Bring Your A Game I",
+            "name_fr": "A comme assassin d'élite I",
+            "description_en": "Slay 5 rank A elite marks.",
+            "description_fr": "Abattre 5 cibles d'élite de rang A.",
+            "patch": "2.3",
+            "points": 5,
+            "cNext": [
+                984
+            ]
+        },
+        "x984": {
+            "name_en": "Bring Your A Game II",
+            "name_fr": "A comme assassin d'élite II",
+            "description_en": "Slay 30 rank A elite marks.",
+            "description_fr": "Abattre 30 cibles d'élite de rang A.",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                983
+            ],
+            "cNext": [
+                985
+            ]
+        },
+        "x985": {
+            "name_en": "Bring Your A Game III",
+            "name_fr": "A comme assassin d'élite III",
+            "description_en": "Slay 200 rank A elite marks.",
+            "description_fr": "Abattre 200 cibles d'élite de rang A.",
+            "reward": "character.character.title.165",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                984
+            ],
+            "cNext": [
+                986
+            ],
+            "cSiblings": [
+                "character.character.title.165"
+            ]
+        },
+        "x986": {
+            "name_en": "Straight As",
+            "name_fr": "La crème de la crème A",
+            "description_en": "Slay 500 rank A elite marks.",
+            "description_fr": "Abattre 500 cibles d'élite de rang A.",
+            "patch": "2.3",
+            "points": 10,
+            "cPrev": [
+                985
+            ],
+            "cNext": [
+                1916
+            ]
+        },
+        "x1916": {
+            "name_en": "Bring Your A Game IV",
+            "name_fr": "A comme assassin d'élite IV",
+            "description_en": "Slay 1,500 rank A elite marks.",
+            "description_fr": "Abattre 1 500 cibles d'élite de rang A.",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                986
+            ],
+            "cNext": [
+                1917
+            ]
+        },
+        "x1917": {
+            "name_en": "Bring Your A Game V",
+            "name_fr": "A comme assassin d'élite V",
+            "description_en": "Slay 3,000 rank A elite marks.",
+            "description_fr": "Abattre 3 000 cibles d'élite de rang A.",
+            "reward": "character.character.title.379",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1916
+            ],
+            "cNext": [
+                1918
+            ],
+            "cSiblings": [
+                "character.character.title.379"
+            ],
+            "cCombo": [
+                1922
+            ]
+        },
+        "x1918": {
+            "name_en": "Bring Your A Game VI",
+            "name_fr": "A comme assassin d'élite VI",
+            "description_en": "Slay 10,000 rank A elite marks.",
+            "description_fr": "Abattre 10 000 cibles d'élite de rang A.",
+            "reward": "character.character.title.380",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1917
+            ],
+            "cSiblings": [
+                "character.character.title.380"
+            ]
+        },
+        "x2350": {
+            "name_en": "Shadowbring Your A Game I",
+            "name_fr": "Chasseur des ombres I",
+            "description_en": "Slay 100 rank A elite marks in Norvrandt.",
+            "description_fr": "Abattre 100 cibles d'élite de rang A en Norvrandt.",
+            "patch": "5.0",
+            "points": 10,
+            "cNext": [
+                2351
+            ]
+        },
+        "x2351": {
+            "name_en": "Shadowbring Your A Game II",
+            "name_fr": "Chasseur des ombres II",
+            "description_en": "Slay 500 rank A elite marks in Norvrandt.",
+            "description_fr": "Abattre 500 cibles d'élite de rang A en Norvrandt.",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                2350
+            ],
+            "cNext": [
+                2352
+            ]
+        },
+        "x2352": {
+            "name_en": "Shadowbring Your A Game III",
+            "name_fr": "Chasseur des ombres III",
+            "description_en": "Slay 2,000 rank A elite marks in Norvrandt.",
+            "description_fr": "Abattre 2 000 cibles d'élite de rang A en Norvrandt.",
+            "reward": "character.character.title.460",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                2351
+            ],
+            "cSiblings": [
+                "character.character.title.460"
+            ],
+            "cCombo": [
+                2356
+            ]
+        },
+        "x2994": {
+            "name_en": "Take Your A Game Further I",
+            "name_fr": "La fin du menu fretin I",
+            "description_en": "Slay 100 rank A elite marks in Endwalker regions.",
+            "description_fr": "Abattre 100 cibles d'élite de rang A dans les zones d'Endwalker.",
+            "patch": "6.0",
+            "points": 10,
+            "cNext": [
+                2995
+            ]
+        },
+        "x2995": {
+            "name_en": "Take Your A Game Further II",
+            "name_fr": "La fin du menu fretin II",
+            "description_en": "Slay 500 rank A elite marks in Endwalker regions.",
+            "description_fr": "Abattre 500 cibles d'élite de rang A dans les zones d'Endwalker.",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2994
+            ],
+            "cNext": [
+                2996
+            ]
+        },
+        "x2996": {
+            "name_en": "Take Your A Game Further III",
+            "name_fr": "La fin du menu fretin III",
+            "description_en": "Slay 2,000 rank A elite marks in Endwalker regions.",
+            "description_fr": "Abattre 2 000 cibles d'élite de rang A dans les zones d'Endwalker.",
+            "reward": "character.character.title.617",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2995
+            ],
+            "cSiblings": [
+                "character.character.title.617"
+            ],
+            "cCombo": [
+                3000
+            ]
+        },
+        "x987": {
+            "name_en": "Bring Your S Game I",
+            "name_fr": "S comme super élite I",
+            "description_en": "Slay 3 rank S elite marks.",
+            "description_fr": "Abattre 3 cibles d'élite de rang S.",
+            "patch": "2.3",
+            "points": 5,
+            "cNext": [
+                988
+            ]
+        },
+        "x988": {
+            "name_en": "Bring Your S Game II",
+            "name_fr": "S comme super élite II",
+            "description_en": "Slay 20 rank S elite marks.",
+            "description_fr": "Abattre 20 cibles d'élite de rang S.",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                987
+            ],
+            "cNext": [
+                989
+            ]
+        },
+        "x989": {
+            "name_en": "Bring Your S Game III",
+            "name_fr": "S comme super élite III",
+            "description_en": "Slay 200 rank S elite marks.",
+            "description_fr": "Abattre 200 cibles d'élite de rang S.",
+            "reward": "character.character.title.166",
+            "patch": "2.3",
+            "points": 5,
+            "cPrev": [
+                988
+            ],
+            "cNext": [
+                990
+            ],
+            "cSiblings": [
+                "character.character.title.166"
+            ]
+        },
+        "x990": {
+            "name_en": "Straight Ss",
+            "name_fr": "La crème de la crème S",
+            "description_en": "Slay 500 rank S elite marks.",
+            "description_fr": "Abattre 500 cibles d'élite de rang S.",
+            "patch": "2.3",
+            "points": 10,
+            "cPrev": [
+                989
+            ],
+            "cNext": [
+                1919
+            ]
+        },
+        "x1919": {
+            "name_en": "Bring Your S Game IV",
+            "name_fr": "S comme super élite IV",
+            "description_en": "Slay 1,000 rank S elite marks.",
+            "description_fr": "Abattre 1 000 cibles d'élite de rang S.",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                990
+            ],
+            "cNext": [
+                1920
+            ]
+        },
+        "x1920": {
+            "name_en": "Bring Your S Game V",
+            "name_fr": "S comme super élite V",
+            "description_en": "Slay 2,000 rank S elite marks.",
+            "description_fr": "Abattre 2 000 cibles d'élite de rang S.",
+            "reward": "character.character.title.381",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1919
+            ],
+            "cNext": [
+                1921
+            ],
+            "cSiblings": [
+                "character.character.title.381"
+            ],
+            "cCombo": [
+                1922
+            ]
+        },
+        "x1921": {
+            "name_en": "Bring Your S Game VI",
+            "name_fr": "S comme super élite VI",
+            "description_en": "Slay 5,000 rank S elite marks.",
+            "description_fr": "Abattre 5 000 cibles d'élite de rang S.",
+            "reward": "character.character.title.382",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1920
+            ],
+            "cSiblings": [
+                "character.character.title.382"
+            ]
+        },
+        "x1922": {
+            "name_en": "You Got Game",
+            "name_fr": "Chasseur légendaire",
+            "description_en": "Obtain the achievements “Bring Your A Game V” and “Bring Your S Game V.”",
+            "description_fr": "Accomplir les hauts faits “A comme assassin d'élite V” et “S comme super élite V”.",
+            "reward": "character.mount-guide.30",
+            "patch": "4.0",
+            "points": 10,
+            "cPrev": [
+                1917,
+                1920
+            ]
+        },
+        "x2353": {
+            "name_en": "Shadowbring Your S Game I",
+            "name_fr": "Chasseur des Ténèbres I",
+            "description_en": "Slay 30 elite marks of rank S or higher in Norvrandt.",
+            "description_fr": "Abattre 30 cibles d'élite de rang S ou plus en Norvrandt.",
+            "patch": "5.0",
+            "points": 10,
+            "cNext": [
+                2354
+            ]
+        },
+        "x2354": {
+            "name_en": "Shadowbring Your S Game II",
+            "name_fr": "Chasseur des Ténèbres II",
+            "description_en": "Slay 300 elite marks of rank S or higher in Norvrandt.",
+            "description_fr": "Abattre 300 cibles d'élite de rang S ou plus en Norvrandt.",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                2353
+            ],
+            "cNext": [
+                2355
+            ]
+        },
+        "x2355": {
+            "name_en": "Shadowbring Your S Game III",
+            "name_fr": "Chasseur des Ténèbres III",
+            "description_en": "Slay 1,000 elite marks of rank S or higher in Norvrandt.",
+            "description_fr": "Abattre 1 000 cibles d'élite de rang S ou plus en Norvrandt.",
+            "reward": "character.character.title.461",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                2354
+            ],
+            "cSiblings": [
+                "character.character.title.461"
+            ],
+            "cCombo": [
+                2356
+            ]
+        },
+        "x2356": {
+            "name_en": "Nuts for Nutsy",
+            "name_fr": "Chasseur complètement kupo",
+            "description_en": "Obtain the achievements “Shadowbring Your A Game III” and “Shadowbring Your S Game III.”",
+            "description_fr": "Accomplir les hauts faits “Chasseur des ombres III” et “Chasseur des Ténèbres III”.",
+            "reward": "character.mount-guide.168",
+            "patch": "5.0",
+            "points": 10,
+            "cPrev": [
+                2352,
+                2355
+            ]
+        },
+        "x2997": {
+            "name_en": "Take Your S Game Further I",
+            "name_fr": "La fin du gros gibier I",
+            "description_en": "Slay 30 rank S elite marks in Endwalker regions.",
+            "description_fr": "Abattre 30 cibles d'élite de rang S ou plus dans les zones d'Endwalker.",
+            "patch": "6.0",
+            "points": 10,
+            "cNext": [
+                2998
+            ]
+        },
+        "x2998": {
+            "name_en": "Take Your S Game Further II",
+            "name_fr": "La fin du gros gibier II",
+            "description_en": "Slay 300 rank S elite marks in Endwalker regions.",
+            "description_fr": "Abattre 300 cibles d'élite de rang S ou plus dans les zones d'Endwalker.",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2997
+            ],
+            "cNext": [
+                2999
+            ]
+        },
+        "x2999": {
+            "name_en": "Take Your S Game Further III",
+            "name_fr": "La fin du gros gibier III",
+            "description_en": "Slay 1,000 rank S elite marks in Endwalker regions.",
+            "description_fr": "Abattre 1 000 cibles d'élite de rang S ou plus dans les zones d'Endwalker.",
+            "reward": "character.character.title.618",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2998
+            ],
+            "cSiblings": [
+                "character.character.title.618"
+            ],
+            "cCombo": [
+                3000
+            ]
+        },
+        "x3000": {
+            "name_en": "Endgame Hunter",
+            "name_fr": "Chasseur de l'infini",
+            "description_en": "Obtain the “Take Your A Game Further III” and “Take Your S Game Further III” achievements.",
+            "description_fr": "Accomplir les hauts faits “La fin du menu fretin III” et “La fin du gros gibier III”.",
+            "reward": "character.mount-guide.211",
+            "patch": "6.0",
+            "points": 10,
+            "cPrev": [
+                2996,
+                2999
+            ]
+        }
+    }
+}

@@ -1,6 +1,6 @@
 import { Component, ElementRef, Input, ViewChild } from '@angular/core';
 
-import { Task } from '@domain/Task';
+import { Task } from '@model/Task';
 import { SaveStoreService } from '@service/store/save-store.service';
 
 @Component({
@@ -13,6 +13,7 @@ export class EditCellComponent {
     @Input() key: string = '';
 
     shouldFocus: boolean = false;
+    isFocused: boolean = false;
 
     @ViewChild('editInput') set editInputRef(ref: ElementRef) {
         if(ref) {
@@ -31,6 +32,15 @@ export class EditCellComponent {
 
     onCellClick(): void {
         this.shouldFocus = true;
+    }
+
+    onTextAreaClick(): void {
+        if(this.isFocused) this.task.selected = false;
+        this.isFocused = true;
+    }
+
+    onTextAreaFocusOut(): void {
+        this.isFocused = false;
     }
 
     onTextAreaKeyup($event: KeyboardEvent): void {

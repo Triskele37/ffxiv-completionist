@@ -1,0 +1,55 @@
+{
+    "key": "expressions",
+    "groupName_en": "Expressions",
+    "groupName_fr": "Expressions",
+    "tasks": {
+        "x81": {
+            "name_en": "Big Grin",
+            "name_fr": "Visage rieur",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "20,000 MGP",
+            "source_fr": "Vendu par le Préposé aux lots au Gold Saucer pour 20.000 PGS",
+            "patch": "4.2",
+            "command_en": "/biggrin",
+            "command_fr": "/rieur, /biggrin"
+        },
+        "x82": {
+            "name_en": "Reflect",
+            "name_fr": "Visage méditatif",
+            "category_en": "Purchase",
+            "category_fr": "Achat",
+            "source_en": "10,000 Company Seals",
+            "source_fr": "10.000 Sceaux de compagnie",
+            "patch": "4.2",
+            "command_en": "/reflect",
+            "command_fr": "/méditatif, /reflect"
+        },
+        "x183": {
+            "name_en": "Ponder",
+            "name_fr": "Visage songeur",
+            "category_en": "Quest",
+            "category_fr": "Quête",
+            "source": "duty.quests.main-scenario.post-stormblood.68612",
+            "patch": "4.3",
+            "command_en": "/makeyougohmmm, /ponder",
+            "command_fr": "/songeur, /ponder",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-stormblood.68612"
+            ]
+        },
+        "x190": {
+            "name_en": "Endure",
+            "name_fr": "Visage crispé",
+            "category_en": "Quest",
+            "category_fr": "Quête",
+            "source": "duty.quests.main-scenario.post-stormblood.68684",
+            "patch": "4.4",
+            "command_en": "/endure",
+            "command_fr": "/crispé, /endure",
+            "cSiblings": [
+                "duty.quests.main-scenario.post-stormblood.68684"
+            ]
+        }
+    }
+}

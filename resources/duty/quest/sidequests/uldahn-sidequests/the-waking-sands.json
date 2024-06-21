@@ -1,0 +1,65 @@
+{
+    "key": "the-waking-sands",
+    "groupName_en": "The Waking Sands",
+    "groupName_fr": "Refuge des sables",
+    "tasks": {
+        "x66543": {
+            "level": 46,
+            "name_en": "Primal Fear",
+            "name_fr": "Sombre présence dans les bois",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66058"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gridanian.gridania.66544"
+            ],
+            "patch": "4.31"
+        },
+        "x66551": {
+            "level": 47,
+            "name_en": "A Kobold Initiative",
+            "name_fr": "Pirate futée cherche alliés",
+            "npc_en": "Slafswys",
+            "npc_fr": "Slafswys",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66058"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.lominsan.outer-la-noscea.66554",
+                "duty.quests.sidequests.lominsan.outer-la-noscea.66553"
+            ],
+            "patch": "4.31"
+        },
+        "x67089": {
+            "level": 47,
+            "name_en": "Can't Do It without U",
+            "name_fr": "Des us et coutumes des U",
+            "npc_en": "Wigstan",
+            "npc_fr": "Wigstan",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66058"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.uldahn.southern-thanalan.66558",
+                "duty.quests.sidequests.uldahn.southern-thanalan.66557"
+            ],
+            "patch": "4.31"
+        },
+        "x66561": {
+            "level": 48,
+            "name_en": "Into the Valley of the Skull",
+            "name_fr": "Des Sahuagins sous les fenêtres",
+            "npc_en": "Radolf",
+            "npc_fr": "Radolf",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66058"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.lominsan.western-la-noscea.66562"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

@@ -5,6 +5,7 @@ import { DataService } from '@data';
 import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { CustomTaskService } from '@service/custom-task/custom-task.service';
+import { SaveStoreService } from '@service/store/save-store.service';
 
 import { ChainService } from '@service/chain/chain.service';
 import { ThemeService } from '@service/theme/theme.service';
@@ -17,6 +18,7 @@ import { ThemeService } from '@service/theme/theme.service';
 export class AppComponent implements OnInit, AfterViewInit {
     loading: boolean = true;
     modalText: string = 'Loading...';
+    version: string = '';
 
     constructor(
         private translate: TranslateService,
@@ -24,6 +26,7 @@ export class AppComponent implements OnInit, AfterViewInit {
         private svcData: DataService,
         private svcBookmark: BookmarkService,
         private svcCustomTask: CustomTaskService,
+        private svcSaveStore: SaveStoreService,
         private svcTheme: ThemeService, // inits theme
         private svcChain: ChainService // inits chain
     ) {
@@ -39,6 +42,8 @@ export class AppComponent implements OnInit, AfterViewInit {
             // Must occur after data for migration change
             this.svcBookmark.initializeBookmarks();
 
+            this.version = this.svcSaveStore.data.version;
+
             this.loading = false;
         }
         catch(e) {
@@ -46,9 +51,9 @@ export class AppComponent implements OnInit, AfterViewInit {
             console.error(e);
         }
 
-        // Keep title lang synced
+        // Keep window title synced
         this.translate.get('MAIN.TITLE').subscribe((title) => {
-            document.title = title;
+            document.title = `${title} - ${this.svcSaveStore.data.version}`;
         });
     }
 

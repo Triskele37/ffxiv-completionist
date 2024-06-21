@@ -1,3 +1,21 @@
+.font-size-controls {
+    ::ng-deep {
+        .p-inputnumber-button-up {
+            border-top-right-radius: 0;
+        }
+
+        .p-inputnumber-button-down {
+            border-bottom-right-radius: 0;
+        }
+
+        .reset-font-size.p-button {
+            border-left: 1px solid var(--primary-color-text);
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }
+}
+
 .setting-line, .completion-line {
     label:first-child, .title {
         text-align: right;

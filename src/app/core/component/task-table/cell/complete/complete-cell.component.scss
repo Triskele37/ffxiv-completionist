@@ -1,5 +1,3 @@
-@import 'src/styles/colors';
-
 :host {
     display: contents;
 
@@ -12,7 +10,7 @@
         width: 30px;
 
         &:hover {
-            box-shadow: inset 0 0 5px 1px var(--surface-d);
+            box-shadow: inset 0 0 5px 1px var(--surface-800);
         }
 
         &.Y {

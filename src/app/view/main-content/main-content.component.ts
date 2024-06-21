@@ -7,7 +7,8 @@ import {
 } from '@angular/core';
 
 import { AnchorDirective } from '@directive/anchor.directive';
-import { DataGroup } from '@domain/DataGroup';
+import { DataGroup } from '@model/DataGroup';
+import { AsIsOrderPipe } from '@pipe/asIsOrder.pipe';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 @Component({
@@ -40,10 +41,7 @@ export class MainContentComponent implements OnInit {
         });
     }
 
-    // Force "keyvalue" pipe to respect Map order
-    asIsOrder(a, b): number {
-        return 1;
-    }
+    asIsOrder = AsIsOrderPipe.prototype.transform;
 
     //#region------------------------------------------------------- Dynamic Component
     _anchor: AnchorDirective;

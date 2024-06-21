@@ -4,14 +4,14 @@
         "allowSyntheticDefaultImports": true,
         "baseUrl": ".",
         "outDir": "./dist/out-tsc",
-        "module": "es2020",
+        "module": "es2022",
         "sourceMap": true,
         "declaration": false,
         "moduleResolution": "node",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "allowJs": true,
-        "target": "es5",
+        "target": "ES2022",
         "types": [
             "node"
         ],
@@ -19,18 +19,21 @@
             "node_modules/@types"
         ],
         "lib": [
+            "es2018",
             "es2017",
             "es2016",
             "es2015",
             "dom"
         ],
         "paths": {
+            "@admin/*": ["src/app/admin/*"],
             "@constant": ["src/app/constant"],
+            "@constant/*": ["src/app/constant/*"],
             "@component/*": ["src/app/core/component/*"],
             "@data": ["src/app/data"],
             "@data/*": ["src/app/data/*"],
             "@directive/*": ["src/app/core/directive/*"],
-            "@domain/*": ["src/app/domain/*"],
+            "@model/*": ["src/app/model/*"],
             "@pipe/*": ["src/app/core/pipe/*"],
             "@service/*": ["src/app/core/service/*"],
             "@util/*": ["src/app/core/util/*"]

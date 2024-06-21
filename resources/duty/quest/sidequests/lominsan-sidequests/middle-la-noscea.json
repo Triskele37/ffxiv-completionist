@@ -1,0 +1,92 @@
+{
+    "key": "middle-la-noscea",
+    "groupName_en": "Middle La Noscea",
+    "groupName_fr": "Noscea centrale",
+    "tasks": {
+        "x66007": {
+            "level": 5,
+            "name_en": "Rocks in a Hard Place",
+            "name_fr": "Aménagement agricole",
+            "npc_en": "Grynewyda",
+            "npc_fr": "Grynewyda",
+            "patch": "4.31"
+        },
+        "x66008": {
+            "level": 6,
+            "name_en": "The Time Is Ripe",
+            "name_fr": "Les fruits du soleil",
+            "npc_en": "Bhirdraeg",
+            "npc_fr": "Bhirdraeg",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65998"
+            ],
+            "cNext": [
+                66009
+            ],
+            "patch": "4.31"
+        },
+        "x66006": {
+            "level": 7,
+            "name_en": "Yarzon, Yarzoff",
+            "name_fr": "Une rivière source de danger",
+            "npc_en": "Ostfyr",
+            "npc_fr": "Ostfyr",
+            "patch": "4.31"
+        },
+        "x66009": {
+            "level": 7,
+            "name_en": "Orange Crush",
+            "name_fr": "Touche pas à mes petites bêtes",
+            "npc_en": "Bhirdraeg",
+            "npc_fr": "Bhirdraeg",
+            "cPrev": [
+                66008
+            ],
+            "patch": "4.31"
+        },
+        "x66010": {
+            "level": 8,
+            "name_en": "A Pound of Cure",
+            "name_fr": "Remède contre les bagarres",
+            "npc_en": "Khanmhar",
+            "npc_fr": "Khanmhar",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66002"
+            ],
+            "patch": "4.31"
+        },
+        "x65935": {
+            "level": 10,
+            "name_en": "Out to Dry",
+            "name_fr": "Sans se serrer la pince",
+            "npc_en": "W'dhovaka",
+            "npc_fr": "W'dhovaka",
+            "patch": "4.31"
+        },
+        "x65936": {
+            "level": 10,
+            "name_en": "Keeping It Fresh",
+            "name_fr": "Il est frais, mon poisson",
+            "npc_en": "Kazai Buoyzai",
+            "npc_fr": "Kazai Buoyzai",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65933"
+            ],
+            "cNext": [
+                65937
+            ],
+            "patch": "4.31"
+        },
+        "x65937": {
+            "level": 10,
+            "name_en": "Baiting Buzzards",
+            "name_fr": "Busard, vous avez dit busard",
+            "npc_en": "Kazai Buoyzai",
+            "npc_fr": "Kazai Buoyzai",
+            "cPrev": [
+                65936
+            ],
+            "patch": "4.31"
+        }
+    }
+}

@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
-import { Task } from '@domain/Task';
+import { getGroupPath } from '@model/DataGroup/children/getGroupPath';
+import { Task } from '@model/Task';
+import { setCompletion } from '@model/Task/completion/setCompletion';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
 import { ChainedGroup, ChainStart, ChainedTask, ChainHistory } from './types';
@@ -26,7 +28,7 @@ export class ChainService {
 
     //#region------------------------------------------------------- Active Chain
     startChain({ task, fromFlag, toFlag }: ChainedTask): void {
-        const path = task._parent.groupPath;
+        const path = getGroupPath(task._parent);
         path.shift();
 
         this.addHistory();
@@ -45,7 +47,9 @@ export class ChainService {
 
     taskAlreadyChained(task: Task, toFlag: string): boolean {
         // Matches start task
-        if(this.chainStart$.value?.task?.fullStorageKey === task.fullStorageKey) return true;
+        if(this.chainStart$.value?.task?.fullStorageKey === task.fullStorageKey) {
+            return true;
+        }
 
         // Matches embedded chained tasks
         return this.chainedGroups$.value.some((chainedGroup) => {
@@ -65,7 +69,7 @@ export class ChainService {
     }
 
     pushChained(chained: ChainedTask): void {
-        const path = chained.task._parent.groupPath.join(' > ');
+        const path = getGroupPath(chained.task._parent).join(' > ');
         const chainedGroups = [...this.chainedGroups$.value];
         let chainedGroup = chainedGroups.find((g) => g.path === path);
 
@@ -123,10 +127,10 @@ export class ChainService {
         const chainStart = this.chainStart$.value;
         const chainedGroups = this.chainedGroups$.value;
 
-        chainStart.task.setCompletion(chainStart.fromFlag);
+        setCompletion(chainStart.task, chainStart.fromFlag);
         chainedGroups.forEach((chainedGroup) => {
             chainedGroup.tasks.forEach((chainedTask) => {
-                chainedTask.task.setCompletion(chainedTask.fromFlag);
+                setCompletion(chainedTask.task, chainedTask.fromFlag);
             });
         });
 

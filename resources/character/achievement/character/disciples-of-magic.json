@@ -1,0 +1,1033 @@
+{
+    "key": "disciple-of-magic",
+    "groupName_en": "Disciple of Magic",
+    "groupName_fr": "Disciples de la magie",
+    "tasks": {
+        "x45": {
+            "name_en": "I Got the Magic Stick I",
+            "name_fr": "Apprenti élémentaliste",
+            "description_en": "Achieve conjurer level 10.",
+            "description_fr": "Atteindre le niveau 10 avec la classe élémentaliste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "10": [
+                    "character.character.classes--jobs.4"
+                ]
+            },
+            "cNext": [
+                46
+            ]
+        },
+        "x46": {
+            "name_en": "I Got the Magic Stick II",
+            "name_fr": "Elémentaliste novice",
+            "description_en": "Achieve conjurer level 20.",
+            "description_fr": "Atteindre le niveau 20 avec la classe élémentaliste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "20": [
+                    "character.character.classes--jobs.4"
+                ]
+            },
+            "cPrev": [
+                45
+            ],
+            "cNext": [
+                47
+            ]
+        },
+        "x47": {
+            "name_en": "I Got the Magic Stick III",
+            "name_fr": "Elémentaliste intermédiaire",
+            "description_en": "Achieve conjurer level 30.",
+            "description_fr": "Atteindre le niveau 30 avec la classe élémentaliste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.4"
+                ]
+            },
+            "cPrev": [
+                46
+            ],
+            "cNext": [
+                48
+            ]
+        },
+        "x48": {
+            "name_en": "I Got the Magic Stick IV",
+            "name_fr": "Elémentaliste confirmé",
+            "description_en": "Achieve conjurer level 40.",
+            "description_fr": "Atteindre le niveau 40 avec la classe élémentaliste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.4"
+                ]
+            },
+            "cPrev": [
+                47
+            ],
+            "cNext": [
+                49
+            ]
+        },
+        "x49": {
+            "name_en": "I Got the Magic Stick V",
+            "name_fr": "Elémentaliste vétéran",
+            "description_en": "Achieve conjurer level 50.",
+            "description_fr": "Atteindre le niveau 50 avec la classe élémentaliste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.4"
+                ]
+            },
+            "cPrev": [
+                48
+            ],
+            "cNext": [
+                1172
+            ]
+        },
+        "x1172": {
+            "name_en": "I Got the Magic Stick VI",
+            "name_fr": "Elémentaliste émérite",
+            "description_en": "Achieve conjurer level 60.",
+            "description_fr": "Atteindre le niveau 60 avec la classe élémentaliste.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.4"
+                ]
+            },
+            "cPrev": [
+                49
+            ],
+            "cNext": [
+                1819
+            ]
+        },
+        "x1819": {
+            "name_en": "I Got the Magic Stick VII",
+            "name_fr": "Élémentaliste expert",
+            "description_en": "Achieve conjurer level 70.",
+            "description_fr": "Atteindre le niveau 70 avec la classe élémentaliste.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.4"
+                ]
+            },
+            "cPrev": [
+                1172
+            ],
+            "cNext": [
+                2251
+            ]
+        },
+        "x2251": {
+            "name_en": "I Got the Magic Stick VIII",
+            "name_fr": "Élémentaliste emblématique",
+            "description_en": "Achieve conjurer level 80.",
+            "description_fr": "Atteindre le niveau 80 avec la classe élémentaliste.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.4"
+                ]
+            },
+            "cPrev": [
+                1819
+            ],
+            "cNext": [
+                2897
+            ]
+        },
+        "x2897": {
+            "name_en": "I Got the Magic Stick IX",
+            "name_fr": "Élémentaliste légendaire",
+            "description_en": "Achieve conjurer level 90.",
+            "description_fr": "Atteindre le niveau 90 avec la classe élémentaliste.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.4"
+                ]
+            },
+            "cPrev": [
+                2251
+            ]
+        },
+        "x50": {
+            "name_en": "Bring Out Your Dead I",
+            "name_fr": "Apprenti occultiste",
+            "description_en": "Achieve thaumaturge level 10.",
+            "description_fr": "Atteindre le niveau 10 avec la classe occultiste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "10": [
+                    "character.character.classes--jobs.14"
+                ]
+            },
+            "cNext": [
+                51
+            ]
+        },
+        "x51": {
+            "name_en": "Bring Out Your Dead II",
+            "name_fr": "Occultiste novice",
+            "description_en": "Achieve thaumaturge level 20.",
+            "description_fr": "Atteindre le niveau 20 avec la classe occultiste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "20": [
+                    "character.character.classes--jobs.14"
+                ]
+            },
+            "cPrev": [
+                50
+            ],
+            "cNext": [
+                52
+            ]
+        },
+        "x52": {
+            "name_en": "Bring Out Your Dead III",
+            "name_fr": "Occultiste intermédiaire",
+            "description_en": "Achieve thaumaturge level 30.",
+            "description_fr": "Atteindre le niveau 30 avec la classe occultiste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.14"
+                ]
+            },
+            "cPrev": [
+                51
+            ],
+            "cNext": [
+                53
+            ]
+        },
+        "x53": {
+            "name_en": "Bring Out Your Dead IV",
+            "name_fr": "Occultiste confirmé",
+            "description_en": "Achieve thaumaturge level 40.",
+            "description_fr": "Atteindre le niveau 40 avec la classe occultiste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.14"
+                ]
+            },
+            "cPrev": [
+                52
+            ],
+            "cNext": [
+                54
+            ]
+        },
+        "x54": {
+            "name_en": "Bring Out Your Dead V",
+            "name_fr": "Occultiste vétéran",
+            "description_en": "Achieve thaumaturge level 50.",
+            "description_fr": "Atteindre le niveau 50 avec la classe occultiste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.14"
+                ]
+            },
+            "cPrev": [
+                53
+            ],
+            "cNext": [
+                1173
+            ]
+        },
+        "x1173": {
+            "name_en": "Bring Out Your Dead VI",
+            "name_fr": "Occultiste émérite",
+            "description_en": "Achieve thaumaturge level 60.",
+            "description_fr": "Atteindre le niveau 60 avec la classe occultiste.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.14"
+                ]
+            },
+            "cPrev": [
+                54
+            ],
+            "cNext": [
+                1820
+            ]
+        },
+        "x1820": {
+            "name_en": "Bring Out Your Dead VII",
+            "name_fr": "Occultiste expert",
+            "description_en": "Achieve thaumaturge level 70.",
+            "description_fr": "Atteindre le niveau 70 avec la classe occultiste.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.14"
+                ]
+            },
+            "cPrev": [
+                1173
+            ],
+            "cNext": [
+                2252
+            ]
+        },
+        "x2252": {
+            "name_en": "Bring Out Your Dead VIII",
+            "name_fr": "Occultiste emblématique",
+            "description_en": "Achieve thaumaturge level 80.",
+            "description_fr": "Atteindre le niveau 80 avec la classe occultiste.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.14"
+                ]
+            },
+            "cPrev": [
+                1820
+            ],
+            "cNext": [
+                2898
+            ]
+        },
+        "x2898": {
+            "name_en": "Bring Out Your Dead IX",
+            "name_fr": "Occultiste légendaire",
+            "description_en": "Achieve thaumaturge level 90.",
+            "description_fr": "Atteindre le niveau 90 avec la classe occultiste.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.14"
+                ]
+            },
+            "cPrev": [
+                2252
+            ]
+        },
+        "x592": {
+            "name_en": "Through the Gate I",
+            "name_fr": "Apprenti arcaniste",
+            "description_en": "Achieve arcanist level 10.",
+            "description_fr": "Atteindre le niveau 10 avec la classe arcaniste.",
+            "patch": "2.1",
+            "points": 5,
+            "cSiblingsAt": {
+                "10": [
+                    "character.character.classes--jobs.5",
+                    "character.character.classes--jobs.15"
+                ]
+            },
+            "cNext": [
+                593
+            ]
+        },
+        "x593": {
+            "name_en": "Through the Gate II",
+            "name_fr": "Arcaniste novice",
+            "description_en": "Achieve arcanist level 20.",
+            "description_fr": "Atteindre le niveau 20 avec la classe arcaniste.",
+            "patch": "2.1",
+            "points": 5,
+            "cSiblingsAt": {
+                "20": [
+                    "character.character.classes--jobs.5",
+                    "character.character.classes--jobs.15"
+                ]
+            },
+            "cPrev": [
+                592
+            ],
+            "cNext": [
+                594
+            ]
+        },
+        "x594": {
+            "name_en": "Through the Gate III",
+            "name_fr": "Arcaniste intermédiaire",
+            "description_en": "Achieve arcanist level 30.",
+            "description_fr": "Atteindre le niveau 30 avec la classe arcaniste.",
+            "patch": "2.1",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.5",
+                    "character.character.classes--jobs.15"
+                ]
+            },
+            "cPrev": [
+                593
+            ],
+            "cNext": [
+                595
+            ]
+        },
+        "x595": {
+            "name_en": "Through the Gate IV",
+            "name_fr": "Arcaniste confirmé",
+            "description_en": "Achieve arcanist level 40.",
+            "description_fr": "Atteindre le niveau 40 avec la classe arcaniste.",
+            "patch": "2.1",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.5",
+                    "character.character.classes--jobs.15"
+                ]
+            },
+            "cPrev": [
+                594
+            ],
+            "cNext": [
+                596
+            ]
+        },
+        "x596": {
+            "name_en": "Through the Gate V",
+            "name_fr": "Arcaniste vétéran",
+            "description_en": "Achieve arcanist level 50.",
+            "description_fr": "Atteindre le niveau 50 avec la classe arcaniste.",
+            "patch": "2.1",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.5",
+                    "character.character.classes--jobs.15"
+                ]
+            },
+            "cPrev": [
+                595
+            ],
+            "cNext": [
+                1174
+            ]
+        },
+        "x1174": {
+            "name_en": "Through the Gate VI",
+            "name_fr": "Arcaniste émérite",
+            "description_en": "Achieve arcanist level 60.",
+            "description_fr": "Atteindre le niveau 60 avec la classe arcaniste.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.5",
+                    "character.character.classes--jobs.15"
+                ]
+            },
+            "cPrev": [
+                596
+            ],
+            "cNext": [
+                1821
+            ]
+        },
+        "x1821": {
+            "name_en": "Through the Gate VII",
+            "name_fr": "Arcaniste expert",
+            "description_en": "Achieve arcanist level 70.",
+            "description_fr": "Atteindre le niveau 70 avec la classe arcaniste.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.5",
+                    "character.character.classes--jobs.15"
+                ]
+            },
+            "cPrev": [
+                1174
+            ],
+            "cNext": [
+                2253
+            ]
+        },
+        "x2253": {
+            "name_en": "Through the Gate VIII",
+            "name_fr": "Arcaniste emblématique",
+            "description_en": "Achieve arcanist level 80.",
+            "description_fr": "Atteindre le niveau 80 avec la classe arcaniste.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.5",
+                    "character.character.classes--jobs.15"
+                ]
+            },
+            "cPrev": [
+                1821
+            ],
+            "cNext": [
+                2899
+            ]
+        },
+        "x2899": {
+            "name_en": "Through the Gate IX",
+            "name_fr": "Arcaniste légendaire",
+            "description_en": "Achieve arcanist level 90.",
+            "description_fr": "Atteindre le niveau 90 avec la classe arcaniste.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.5",
+                    "character.character.classes--jobs.15"
+                ]
+            },
+            "cPrev": [
+                2253
+            ]
+        },
+        "x1184": {
+            "name_en": "Starstruck I",
+            "name_fr": "Astromancien intermédiaire",
+            "description_en": "Achieve astrologian level 30.",
+            "description_fr": "Atteindre le niveau 30 avec le job astromancien.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.6"
+                ]
+            },
+            "cNext": [
+                1185
+            ]
+        },
+        "x1185": {
+            "name_en": "Starstruck II",
+            "name_fr": "Astromancien confirmé",
+            "description_en": "Achieve astrologian level 40.",
+            "description_fr": "Atteindre le niveau 40 avec le job astromancien.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.6"
+                ]
+            },
+            "cPrev": [
+                1184
+            ],
+            "cNext": [
+                1186
+            ]
+        },
+        "x1186": {
+            "name_en": "Starstruck III",
+            "name_fr": "Astromancien vétéran",
+            "description_en": "Achieve astrologian level 50.",
+            "description_fr": "Atteindre le niveau 50 avec le job astromancien.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.6"
+                ]
+            },
+            "cPrev": [
+                1185
+            ],
+            "cNext": [
+                1187
+            ]
+        },
+        "x1187": {
+            "name_en": "Starstruck IV",
+            "name_fr": "Astromancien émérite",
+            "description_en": "Achieve astrologian level 60.",
+            "description_fr": "Atteindre le niveau 60 avec le job astromancien.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.6"
+                ]
+            },
+            "cPrev": [
+                1186
+            ],
+            "cNext": [
+                1825
+            ]
+        },
+        "x1825": {
+            "name_en": "Starstruck V",
+            "name_fr": "Astromancien expert",
+            "description_en": "Achieve astrologian level 70.",
+            "description_fr": "Atteindre le niveau 70 avec le job astromancien.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.6"
+                ]
+            },
+            "cPrev": [
+                1187
+            ],
+            "cNext": [
+                2257
+            ]
+        },
+        "x2257": {
+            "name_en": "Starstruck VI",
+            "name_fr": "Astromancien emblématique",
+            "description_en": "Achieve astrologian level 80.",
+            "description_fr": "Atteindre le niveau 80 avec le job astromancien.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.6"
+                ]
+            },
+            "cPrev": [
+                1825
+            ],
+            "cNext": [
+                2903
+            ]
+        },
+        "x2903": {
+            "name_en": "Starstruck VII",
+            "name_fr": "Astromancien légendaire",
+            "description_en": "Achieve astrologian level 90.",
+            "description_fr": "Atteindre le niveau 90 avec le job astromancien.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.6"
+                ]
+            },
+            "cPrev": [
+                2257
+            ]
+        },
+        "x1826": {
+            "name_en": "How Deep the Rabbit Hole Goes I",
+            "name_fr": "Mage rouge vétéran",
+            "description_en": "Achieve red mage level 50.",
+            "description_fr": "Atteindre le niveau 50 avec le job mage rouge.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.16"
+                ]
+            },
+            "cNext": [
+                1827
+            ]
+        },
+        "x1827": {
+            "name_en": "How Deep the Rabbit Hole Goes II",
+            "name_fr": "Mage rouge émérite",
+            "description_en": "Achieve red mage level 60.",
+            "description_fr": "Atteindre le niveau 60 avec le job mage rouge.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.16"
+                ]
+            },
+            "cPrev": [
+                1826
+            ],
+            "cNext": [
+                1828
+            ]
+        },
+        "x1828": {
+            "name_en": "How Deep the Rabbit Hole Goes III",
+            "name_fr": "Mage rouge expert",
+            "description_en": "Achieve red mage level 70.",
+            "description_fr": "Atteindre le niveau 70 avec le job mage rouge.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.16"
+                ]
+            },
+            "cPrev": [
+                1827
+            ],
+            "cNext": [
+                2258
+            ]
+        },
+        "x2258": {
+            "name_en": "How Deep the Rabbit Hole Goes IV",
+            "name_fr": "Mage rouge emblématique",
+            "description_en": "Achieve red mage level 80.",
+            "description_fr": "Atteindre le niveau 80 avec le job mage rouge.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.16"
+                ]
+            },
+            "cPrev": [
+                1828
+            ],
+            "cNext": [
+                2904
+            ]
+        },
+        "x2904": {
+            "name_en": "How Deep the Rabbit Hole Goes V",
+            "name_fr": "Mage rouge légendaire",
+            "description_en": "Achieve red mage level 90.",
+            "description_fr": "Atteindre le niveau 90 avec le job mage rouge.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.16"
+                ]
+            },
+            "cPrev": [
+                2258
+            ]
+        },
+        "x2910": {
+            "name_en": "Do No Harm I",
+            "name_fr": "Sage emblématique",
+            "description_en": "Achieve sage level 80.",
+            "description_fr": "Atteindre le niveau 80 avec le job sage.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.29"
+                ]
+            },
+            "cNext": [
+                2911
+            ]
+        },
+        "x2911": {
+            "name_en": "Do No Harm II",
+            "name_fr": "Sage légendaire",
+            "description_en": "Achieve sage level 90.",
+            "description_fr": "Atteindre le niveau 90 avec le job sage.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.29"
+                ]
+            },
+            "cPrev": [
+                2910
+            ]
+        },
+        "x2194": {
+            "name_en": "Da Ba Dee I",
+            "name_fr": "Apprenti mage bleu",
+            "description_en": "Achieve blue mage level 10.",
+            "description_fr": "Atteindre le niveau 10 avec le job mage bleu.",
+            "patch": "4.5",
+            "points": 5,
+            "cSiblingsAt": {
+                "10": [
+                    "character.character.classes--jobs.17"
+                ]
+            },
+            "cNext": [
+                2195
+            ]
+        },
+        "x2195": {
+            "name_en": "Da Ba Dee II",
+            "name_fr": "Mage bleu novice",
+            "description_en": "Achieve blue mage level 20.",
+            "description_fr": "Atteindre le niveau 20 avec le job mage bleu.",
+            "patch": "4.5",
+            "points": 5,
+            "cSiblingsAt": {
+                "20": [
+                    "character.character.classes--jobs.17"
+                ]
+            },
+            "cPrev": [
+                2194
+            ],
+            "cNext": [
+                2196
+            ]
+        },
+        "x2196": {
+            "name_en": "Da Ba Dee III",
+            "name_fr": "Mage bleu intermédiaire",
+            "description_en": "Achieve blue mage level 30.",
+            "description_fr": "Atteindre le niveau 30 avec le job mage bleu.",
+            "patch": "4.5",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.17"
+                ]
+            },
+            "cPrev": [
+                2195
+            ],
+            "cNext": [
+                2197
+            ]
+        },
+        "x2197": {
+            "name_en": "Da Ba Dee IV",
+            "name_fr": "Mage bleu confirmé",
+            "description_en": "Achieve blue mage level 40.",
+            "description_fr": "Atteindre le niveau 40 avec le job mage bleu.",
+            "patch": "4.5",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.17"
+                ]
+            },
+            "cPrev": [
+                2196
+            ],
+            "cNext": [
+                2198
+            ]
+        },
+        "x2198": {
+            "name_en": "Da Ba Dee V",
+            "name_fr": "Mage bleu vétéran",
+            "description_en": "Achieve blue mage level 50.",
+            "description_fr": "Atteindre le niveau 50 avec le job mage bleu.",
+            "patch": "4.5",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.17"
+                ]
+            },
+            "cPrev": [
+                2197
+            ],
+            "cNext": [
+                2446
+            ]
+        },
+        "x2446": {
+            "name_en": "Da Ba Dee VI",
+            "name_fr": "Mage bleu émérite",
+            "description_en": "Achieve blue mage level 60.",
+            "description_fr": "Atteindre le niveau 60 avec le job mage bleu.",
+            "patch": "5.18",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.17"
+                ]
+            },
+            "cPrev": [
+                2198
+            ],
+            "cNext": [
+                2725
+            ]
+        },
+        "x2725": {
+            "name_en": "Da Ba Dee VII",
+            "name_fr": "Mage bleu expert",
+            "description_en": "Achieve blue mage level 70.",
+            "description_fr": "Atteindre le niveau 70 avec le job mage bleu.",
+            "patch": "5.45",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.17"
+                ]
+            },
+            "cPrev": [
+                2446
+            ],
+            "cNext": [
+                3316
+            ]
+        },
+        "x3316": {
+            "name_en": "Da Ba Dee VIII",
+            "name_fr": "Mage bleu emblématique",
+            "description_en": "Achieve blue mage level 80.",
+            "description_fr": "Atteindre le niveau 80 avec le job mage bleu.",
+            "patch": "6.4",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.17"
+                ]
+            },
+            "cPrev": [
+                2725
+            ]
+        },
+        "x2199": {
+            "name_en": "The More You Know I",
+            "name_fr": "Incollable I",
+            "description_en": "Learn 5 blue mage spells.",
+            "description_fr": "Apprendre 5 actions de magie bleue.",
+            "patch": "4.5",
+            "points": 5,
+            "cNext": [
+                2244
+            ]
+        },
+        "x2244": {
+            "name_en": "The More You Know II",
+            "name_fr": "Incollable II",
+            "description_en": "Learn 10 blue mage spells.",
+            "description_fr": "Apprendre 10 actions de magie bleue.",
+            "patch": "4.5",
+            "points": 5,
+            "cPrev": [
+                2199
+            ],
+            "cNext": [
+                2200
+            ]
+        },
+        "x2200": {
+            "name_en": "The More You Know III",
+            "name_fr": "Incollable III",
+            "description_en": "Learn 20 blue mage spells.",
+            "description_fr": "Apprendre 20 actions de magie bleue.",
+            "patch": "4.5",
+            "points": 5,
+            "cPrev": [
+                2244
+            ],
+            "cNext": [
+                2201
+            ]
+        },
+        "x2201": {
+            "name_en": "The More You Know IV",
+            "name_fr": "Incollable IV",
+            "description_en": "Learn 30 blue mage spells.",
+            "description_fr": "Apprendre 30 actions de magie bleue.",
+            "reward": "character.character.title.413",
+            "patch": "4.5",
+            "points": 5,
+            "cPrev": [
+                2200
+            ],
+            "cNext": [
+                2202
+            ],
+            "cSiblings": [
+                "character.character.title.413"
+            ]
+        },
+        "x2202": {
+            "name_en": "The More You Know V",
+            "name_fr": "Incollable V",
+            "description_en": "Learn 40 blue mage spells.",
+            "description_fr": "Apprendre 40 actions de magie bleue.",
+            "patch": "4.5",
+            "points": 5,
+            "cPrev": [
+                2201
+            ],
+            "cNext": [
+                2447
+            ]
+        },
+        "x2447": {
+            "name_en": "The More You Know VI",
+            "name_fr": "Incollable VI",
+            "description_en": "Learn 50 blue mage spells.",
+            "description_fr": "Apprendre 50 actions de magie bleue.",
+            "patch": "5.18",
+            "points": 5,
+            "cPrev": [
+                2202
+            ],
+            "cNext": [
+                2448
+            ]
+        },
+        "x2448": {
+            "name_en": "The More You Know VII",
+            "name_fr": "Incollable VII",
+            "description_en": "Learn 80 blue mage spells.",
+            "description_fr": "Apprendre 80 actions de magie bleue.",
+            "reward": "character.character.title.481",
+            "patch": "5.18",
+            "points": 5,
+            "cPrev": [
+                2447
+            ],
+            "cNext": [
+                2726
+            ],
+            "cSiblings": [
+                "character.character.title.481"
+            ]
+        },
+        "x2726": {
+            "name_en": "The More You Know VIII",
+            "name_fr": "Incollable VIII",
+            "description_en": "Learn 100 blue mage spells.",
+            "description_fr": "Apprendre 100 actions de magie bleue.",
+            "patch": "5.45",
+            "points": 5,
+            "cPrev": [
+                2448
+            ],
+            "cNext": [
+                3317
+            ]
+        },
+        "x3317": {
+            "name_en": "The More You Know IX",
+            "name_fr": "Incollable IX",
+            "description_en": "Learn 120 blue mage spells.",
+            "description_fr": "Apprendre 120 actions de magie bleue.",
+            "patch": "6.4",
+            "points": 5,
+            "cPrev": [
+                2448
+            ]
+        }
+    }
+}

@@ -1,0 +1,265 @@
+{
+    "key": "kugane",
+    "groupName_en": "Kugane",
+    "groupName_fr": "Kugane",
+    "tasks": {
+        "x68736": {
+            "level": 1,
+            "name_en": "A Lone Wolf No More",
+            "name_fr": "Le huitième en a neuf",
+            "unlock": "character.mount-guide.94",
+            "npc_en": "News Hawker",
+            "npc_fr": "crieur de journaux",
+            "cPrev": [
+                "character.mount-guide.13",
+                "character.mount-guide.23",
+                "character.mount-guide.58",
+                "character.mount-guide.85",
+                "character.mount-guide.101",
+                "character.mount-guide.105",
+                "character.mount-guide.146"
+            ],
+            "cSiblings": [
+                "character.achievement.items.items.2161"
+            ],
+            "patch": "4.5"
+        },
+        "x68675": {
+            "level": 62,
+            "name_en": "The Seaweed Is Always Greener",
+            "name_fr": "Kurenai et ses commandes spéciales",
+            "npc_en": "Kojin Hireling",
+            "npc_fr": "émissaire kojin",
+            "unlock_en": "Custom Deliveries: Kurenai",
+            "unlock_fr": "Custom Deliveries: Kurenai",
+            "cPrev": [
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68541",
+                "duty.quests.sidequests.othardian.the-ruby-sea.68243"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.othardian.the-ruby-sea.68676"
+            ],
+            "cSiblings": [
+                "character.achievement.character.general.2067"
+            ],
+            "patch": "4.31"
+        },
+        "x68167": {
+            "level": 61,
+            "name_en": "I Dream of Shirogane",
+            "name_fr": "Le cadre idyllique de Shirogane",
+            "npc_en": "Tsurubami",
+            "npc_fr": "Tsurubami",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68008"
+            ],
+            "patch": "4.31"
+        },
+        "x68201": {
+            "level": 61,
+            "name_en": "Dedication to the Craft",
+            "name_fr": "Fabriqué à Kugane",
+            "npc_en": "Near Eastern Merchant",
+            "npc_fr": "marchande proche-orientale",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68008"
+            ],
+            "patch": "4.31"
+        },
+        "x68202": {
+            "level": 61,
+            "name_en": "A Drink in the Tub",
+            "name_fr": "Les bains arrosés",
+            "npc_en": "Amaji",
+            "npc_fr": "Amaji",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68008"
+            ],
+            "patch": "4.31"
+        },
+        "x68203": {
+            "level": 61,
+            "name_en": "I'll Show You Angry",
+            "name_fr": "Équilibre de marché",
+            "npc_en": "Modest Maiden",
+            "npc_fr": "fille craintive",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68008"
+            ],
+            "patch": "4.31"
+        },
+        "x68204": {
+            "level": 61,
+            "name_en": "A Picture Is Worth a Thousand Moms",
+            "name_fr": "Nouvel angle, nouvelle facette",
+            "npc_en": "Foreignly Lass",
+            "npc_fr": "jeune fille étrangère",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68008"
+            ],
+            "patch": "4.31"
+        },
+        "x68205": {
+            "level": 61,
+            "name_en": "Zero Tolerance Teahouse",
+            "name_fr": "Histoire enivrante",
+            "npc_en": "Teahouse Serving Girl",
+            "npc_fr": "serveuse à l'Umineko",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68008"
+            ],
+            "patch": "4.31"
+        },
+        "x68206": {
+            "level": 61,
+            "name_en": "Where the Wild Pandas Are",
+            "name_fr": "Choupinets fuyards",
+            "npc_en": "Graceful Geiko",
+            "npc_fr": "ravissante geiko",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68011"
+            ],
+            "patch": "4.31"
+        },
+        "x68207": {
+            "level": 61,
+            "name_en": "A Bleak Diagnosis",
+            "name_fr": "Un mal incurable",
+            "npc_en": "Yamabiko",
+            "npc_fr": "Yamabiko",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68011"
+            ],
+            "patch": "4.31"
+        },
+        "x68208": {
+            "level": 61,
+            "name_en": "To Bathe a Garlean",
+            "name_fr": "L'eau des sources thermales de Bokaisen",
+            "npc_en": "Peddler of Peculiars",
+            "npc_fr": "homme à tout faire",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68011"
+            ],
+            "patch": "4.31"
+        },
+        "x68348": {
+            "level": 67,
+            "name_en": "The Perfect Woman",
+            "name_fr": "L'envers du décor",
+            "npc_en": "Ijin Merchant",
+            "npc_fr": "marchand étranger",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68061"
+            ],
+            "patch": "4.31"
+        },
+        "x68349": {
+            "level": 67,
+            "name_en": "Child Labor",
+            "name_fr": "Chaque nation a ses mœurs",
+            "npc_en": "Keisetsu",
+            "npc_fr": "Keisetsu",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68061"
+            ],
+            "patch": "4.31"
+        },
+        "x68350": {
+            "level": 67,
+            "name_en": "In the Line of Duty",
+            "name_fr": "À l'article de la mort",
+            "npc_en": "Injured Sekiseigumi Blade",
+            "npc_fr": "samouraï du Sekiseigumi blessé",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68061"
+            ],
+            "patch": "4.31"
+        },
+        "x68351": {
+            "level": 67,
+            "name_en": "The Weight of a Dream",
+            "name_fr": "Excès de zèle",
+            "npc_en": "Puissant Porter",
+            "npc_fr": "porteur hyurois",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68061"
+            ],
+            "patch": "4.31"
+        },
+        "x68472": {
+            "level": 61,
+            "name_en": "One-star Veteran Clan Hunt",
+            "name_fr": "De la chasse...",
+            "npc_en": "Estrild",
+            "npc_fr": "Estrild",
+            "unlock_en": "One-star Veteran Clan Hunt",
+            "unlock_fr": "One-star Veteran Clan Hunt",
+            "cPrev": [
+                "duty.quests.sidequests.ishgardian.ishgard.67658",
+                "duty.quests.main-scenario.stormblood.68008"
+            ],
+            "cNext": [
+                68473
+            ],
+            "patch": "4.31"
+        },
+        "x68473": {
+            "level": 63,
+            "name_en": "Two-star Veteran Clan Hunt",
+            "name_fr": "Encore de la chasse...",
+            "npc_en": "Estrild",
+            "npc_fr": "Estrild",
+            "unlock_en": "Two-star Veteran Clan Hunt",
+            "unlock_fr": "Two-star Veteran Clan Hunt",
+            "cPrev": [
+                68472
+            ],
+            "cNext": [
+                68474
+            ],
+            "patch": "4.31"
+        },
+        "x68474": {
+            "level": 66,
+            "name_en": "Three-star Veteran Clan Hunt",
+            "name_fr": "Toujours de la chasse",
+            "npc_en": "Estrild",
+            "npc_fr": "Estrild",
+            "unlock_en": "Three-star Veteran Clan Hunt",
+            "unlock_fr": "Three-star Veteran Clan Hunt",
+            "cPrev": [
+                68473
+            ],
+            "cNext": [
+                68475
+            ],
+            "patch": "4.31"
+        },
+        "x68475": {
+            "level": 70,
+            "name_en": "Elite Veteran Clan Hunt",
+            "name_fr": "La crème des chasseurs",
+            "npc_en": "Estrild",
+            "npc_fr": "Estrild",
+            "unlock_en": "Elite Veteran Clan Hunt",
+            "unlock_fr": "Elite Veteran Clan Hunt",
+            "cPrev": [
+                68474
+            ],
+            "patch": "4.31"
+        },
+        "x68170": {
+            "level": 70,
+            "name_en": "King of the Castle",
+            "name_fr": "Enlèvement au château",
+            "unlock": "duty.dutyraid-finder.dungeons.sb.6",
+            "npc_en": "East Aldenard Trading Company Associate",
+            "npc_fr": "associé de la F.C.A.O.",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68089"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

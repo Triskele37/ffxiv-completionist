@@ -1,0 +1,400 @@
+{
+    "key": "western-la-noscea",
+    "groupName_en": "Western La Noscea",
+    "groupName_fr": "Noscea occidentale",
+    "tasks": {
+        "x65595": {
+            "level": 10,
+            "name_en": "Simply the Hest",
+            "name_fr": "Opérations de guilde (Limsa Lominsa)",
+            "npc_en": "Swygskyf",
+            "npc_fr": "Swygskyf",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229"
+            ],
+            "patch": "4.31"
+        },
+        "x65941": {
+            "level": 12,
+            "name_en": "Need to Breed",
+            "name_fr": "Optimisme ovoïde",
+            "npc_en": "Lyulf",
+            "npc_fr": "Lyulf",
+            "patch": "4.31"
+        },
+        "x66230": {
+            "level": 15,
+            "name_en": "Leves of Aleport",
+            "name_fr": "Mandataire de Port-aux-Ales",
+            "cPrevAny": true,
+            "npc_en": "Orwen",
+            "npc_fr": "Orwen",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
+            ],
+            "patch": "4.31"
+        },
+        "x66826": {
+            "level": 15,
+            "name_en": "Man's Best Fiend",
+            "name_fr": "Le chacal amical",
+            "unlock": "character.minion-guide.387",
+            "npc_en": "Skribyld",
+            "npc_fr": "Skribyld",
+            "cPrev": [
+                66825
+            ],
+            "patch": "4.31"
+        },
+        "x66825": {
+            "level": 15,
+            "name_en": "Like Cats and Dogs",
+            "name_fr": "Contrebande contre nature",
+            "npc_en": "Skribyld",
+            "npc_fr": "Skribyld",
+            "cNext": [
+                66826,
+                66827
+            ],
+            "patch": "4.31"
+        },
+        "x66682": {
+            "level": 15,
+            "name_en": "Mummy Dearest",
+            "name_fr": "Chère Maman",
+            "npc_en": "Ahldfoet",
+            "npc_fr": "Ahldfoet",
+            "cPrev": [
+                66681
+            ],
+            "cNext": [
+                66684
+            ],
+            "patch": "4.31"
+        },
+        "x66681": {
+            "level": 15,
+            "name_en": "On a Wing and a Prayer",
+            "name_fr": "Le port aux ailes",
+            "cPrevAny": true,
+            "npc_en": "Ahldfoet",
+            "npc_fr": "Ahldfoet",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.66209",
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210"
+            ],
+            "cNext": [
+                66682
+            ],
+            "patch": "4.31"
+        },
+        "x66680": {
+            "level": 15,
+            "name_en": "Walk of Shame",
+            "name_fr": "S'nairoh au rapport",
+            "npc_en": "S'nairoh",
+            "npc_fr": "S'nairoh",
+            "cPrev": [
+                66679
+            ],
+            "cNext": [
+                66683
+            ],
+            "patch": "4.31"
+        },
+        "x66679": {
+            "level": 15,
+            "name_en": "Mountains out of Molehills",
+            "name_fr": "Héritaupes encombrants",
+            "npc_en": "S'nairoh",
+            "npc_fr": "S'nairoh",
+            "cPrev": [
+                66678
+            ],
+            "cNext": [
+                66680
+            ],
+            "patch": "4.31"
+        },
+        "x66827": {
+            "level": 15,
+            "name_en": "Curiosity Killed the Coeurl",
+            "name_fr": "Le félin orphelin",
+            "unlock": "character.minion-guide.57",
+            "npc_en": "Skribyld",
+            "npc_fr": "Skribyld",
+            "cPrev": [
+                66825
+            ],
+            "patch": "4.31"
+        },
+        "x66678": {
+            "level": 15,
+            "name_en": "Keep Your Day Job",
+            "name_fr": "Les joies du canon",
+            "cPrevAny": true,
+            "npc_en": "S'nairoh",
+            "npc_fr": "S'nairoh",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.66209",
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210"
+            ],
+            "cNext": [
+                66679
+            ],
+            "patch": "4.31"
+        },
+        "x66683": {
+            "level": 16,
+            "name_en": "Nest We Forget",
+            "name_fr": "Trop de nids tuent les nids",
+            "npc_en": "Falkbryda",
+            "npc_fr": "Falkbryda",
+            "cPrev": [
+                66680
+            ],
+            "patch": "4.31"
+        },
+        "x66688": {
+            "level": 16,
+            "name_en": "I Hereby Relieve You",
+            "name_fr": "Intrigues à Port-aux-Ales",
+            "npc_en": "Falkbryda",
+            "npc_fr": "Falkbryda",
+            "cPrev": [
+                66687
+            ],
+            "patch": "4.31"
+        },
+        "x66687": {
+            "level": 16,
+            "name_en": "Scythe Extra Large",
+            "name_fr": "Mantes tueuses",
+            "npc_en": "Roehanth",
+            "npc_fr": "Roehanth",
+            "cPrev": [
+                66686
+            ],
+            "cNext": [
+                66688
+            ],
+            "patch": "4.31"
+        },
+        "x66686": {
+            "level": 16,
+            "name_en": "Flowers for Aerghaemr",
+            "name_fr": "Des fleurs pour Aerghaemr",
+            "npc_en": "Alyrloef",
+            "npc_fr": "Alyrloef",
+            "cPrev": [
+                66684
+            ],
+            "cNext": [
+                66687
+            ],
+            "patch": "4.31"
+        },
+        "x66685": {
+            "level": 16,
+            "name_en": "My Brother's Not a Keeper",
+            "name_fr": "Frères de garde",
+            "npc_en": "Wiltswys",
+            "npc_fr": "Wiltswys",
+            "cPrev": [
+                66684
+            ],
+            "patch": "4.31"
+        },
+        "x66684": {
+            "level": 16,
+            "name_en": "Toxic Avenger",
+            "name_fr": "Poison secrété",
+            "npc_en": "Wiltswys",
+            "npc_fr": "Wiltswys",
+            "cPrev": [
+                66682
+            ],
+            "cNext": [
+                66685,
+                66686
+            ],
+            "patch": "4.31"
+        },
+        "x66502": {
+            "level": 42,
+            "name_en": "Too Many Cooks",
+            "name_fr": "Une épice de trop",
+            "npc_en": "Erapi Taropi",
+            "npc_fr": "Erapi Taropi",
+            "patch": "4.31"
+        },
+        "x66500": {
+            "level": 42,
+            "name_en": "Grave Happenings",
+            "name_fr": "Des blafards près du phare",
+            "npc_en": "Otan Yaratan",
+            "npc_fr": "Otan Yaratan",
+            "patch": "4.31"
+        },
+        "x66501": {
+            "level": 42,
+            "name_en": "Pickled and Brined",
+            "name_fr": "Pilleur buveur",
+            "npc_en": "Ahlduwil",
+            "npc_fr": "Ahlduwil",
+            "patch": "4.31"
+        },
+        "x66570": {
+            "level": 48,
+            "name_en": "No Sea Wasp for You",
+            "name_fr": "Lui enlever les guêpes de la bouche",
+            "npc_en": "Sthalrhet",
+            "npc_fr": "Sthalrhet",
+            "patch": "4.31"
+        },
+        "x66567": {
+            "level": 48,
+            "name_en": "Sibling Rivalry",
+            "name_fr": "Les frères ennemis",
+            "npc_en": "Eilis",
+            "npc_fr": "Eilis",
+            "cPrev": [
+                66565
+            ],
+            "cNext": [
+                66568
+            ],
+            "patch": "4.31"
+        },
+        "x66565": {
+            "level": 48,
+            "name_en": "Serpent's Tongue-lashing",
+            "name_fr": "Faire la nique aux fanatiques",
+            "npc_en": "Ahtzatrach",
+            "npc_fr": "Ahtzatrach",
+            "cPrev": [
+                66563
+            ],
+            "cNext": [
+                66567
+            ],
+            "patch": "4.31"
+        },
+        "x66571": {
+            "level": 48,
+            "name_en": "The Way the Crystals Crumble",
+            "name_fr": "Tant pis pour les cristaux",
+            "npc_en": "Falkbryda",
+            "npc_fr": "Falkbryda",
+            "cPrev": [
+                66563
+            ],
+            "patch": "4.31"
+        },
+        "x66563": {
+            "level": 48,
+            "name_en": "Long Walk off a Short Pier",
+            "name_fr": "Mensonges de serpents",
+            "npc_en": "Ururu Kogururu",
+            "npc_fr": "Ururu Kogururu",
+            "cPrev": [
+                66562
+            ],
+            "cNext": [
+                66571,
+                66564,
+                66565,
+                66566
+            ],
+            "patch": "4.31"
+        },
+        "x66569": {
+            "level": 48,
+            "name_en": "Sea Wasp Run",
+            "name_fr": "Des guêpes au menu",
+            "npc_en": "Nortmoen",
+            "npc_fr": "Nortmoen",
+            "patch": "4.31"
+        },
+        "x66568": {
+            "level": 48,
+            "name_en": "Wag the Sea Dogs",
+            "name_fr": "Comment appâter le poisson",
+            "npc_en": "Eilis",
+            "npc_fr": "Eilis",
+            "cPrev": [
+                66567
+            ],
+            "patch": "4.31"
+        },
+        "x66562": {
+            "level": 48,
+            "name_en": "Pier Review",
+            "name_fr": "Du boulot pour les dockers",
+            "npc_en": "Falkbryda",
+            "npc_fr": "Falkbryda",
+            "cPrev": [
+                "duty.quests.sidequests.uldahn.the-waking-sands.66561"
+            ],
+            "cNext": [
+                66563
+            ],
+            "patch": "4.31"
+        },
+        "x66564": {
+            "level": 48,
+            "name_en": "To Catch a Cutthroat",
+            "name_fr": "Un serpent face à la justice",
+            "npc_en": "U'jughal",
+            "npc_fr": "U'jughal",
+            "cPrev": [
+                66563
+            ],
+            "patch": "4.31"
+        },
+        "x66566": {
+            "level": 48,
+            "name_en": "Culling the Horde",
+            "name_fr": "Tenir le poisson à distance",
+            "npc_en": "Eilis",
+            "npc_fr": "Eilis",
+            "cPrev": [
+                66563
+            ],
+            "patch": "4.31"
+        },
+        "x66745": {
+            "level": 50,
+            "name_en": "Why So Sirius",
+            "name_fr": "Une lumière pour le phare",
+            "npc_en": "Diamanda",
+            "npc_fr": "Diamanda",
+            "cPrev": [
+                66744
+            ],
+            "cNext": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.67737"
+            ],
+            "patch": "4.31"
+        },
+        "x66744": {
+            "level": 50,
+            "name_en": "Sirius Business",
+            "name_fr": "Le chant des naufrages",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.16",
+            "npc_en": "Diamanda",
+            "npc_fr": "Diamanda",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ],
+            "cNext": [
+                66745
+            ],
+            "patch": "4.31"
+        }
+    }
+}

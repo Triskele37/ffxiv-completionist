@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
 
 import { ButtonModule } from 'primeng/button';
+import { ButtonGroupModule } from 'primeng/buttongroup';
 import { CheckboxModule } from 'primeng/checkbox';
 import { ColorPickerModule } from 'primeng/colorpicker';
 import { DropdownModule } from 'primeng/dropdown';
@@ -16,7 +17,7 @@ import { ChainOverlayModule } from '@component/overlay/chain-overlay/chain-overl
 
 import { CharacterSettingsComponent } from './character/character-settings.component';
 import { ThemeSettingsComponent } from './theme/theme-settings.component';
-import { TableSettingsComponent } from './table/table-settings.component';
+import { CompletionSettingsComponent } from './completion/completion-settings.component';
 import { ChainSettingsComponent } from './chain/chain-settings.component';
 import { SettingsComponent } from './settings.component';
 
@@ -24,7 +25,7 @@ import { SettingsComponent } from './settings.component';
     declarations: [
         CharacterSettingsComponent,
         ThemeSettingsComponent,
-        TableSettingsComponent,
+        CompletionSettingsComponent,
         ChainSettingsComponent,
         SettingsComponent
     ],
@@ -34,6 +35,7 @@ import { SettingsComponent } from './settings.component';
         TranslateModule,
 
         ButtonModule,
+        ButtonGroupModule,
         CheckboxModule,
         ColorPickerModule,
         DropdownModule,

@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
+import { Subject } from 'rxjs';
 
-import { DataGroup } from '@domain/DataGroup';
-import { Task } from '@domain/Task';
+import { Globals } from '@constant/Global';
 import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 
 import { ConfigStore } from './Store.d';
@@ -18,6 +18,8 @@ export class ConfigStoreService extends Store<ConfigStore> {
     failedSummaryKey = 'TOAST.CONFIG_FAILED_SUMMARY';
     failedDetailKey = 'TOAST.CONFIG_FAILED_DETAIL';
 
+    navSettingUpdated$ = new Subject<void>();
+
     constructor(
         translate: TranslateService,
         primeMessage: MessageService,
@@ -26,14 +28,23 @@ export class ConfigStoreService extends Store<ConfigStore> {
         super(translate, primeMessage, svcElectron);
         this.load();
 
-        DataGroup.lang = this.get('lang');
-        Task.chainingEnabled = this.get('chaining-enabled');
+        Globals.config = this.data;
     }
 
     set(key: string, value: any): void {
         super.set(key, value);
 
-        if(key === 'lang') DataGroup.lang = value;
-        if(key === 'chaining-enabled') Task.chainingEnabled = value;
+        Globals.config = this.data; // necessary?
+
+        this.emitNavSettingUpdated(key);
+    }
+
+    private emitNavSettingUpdated(key: string) {
+        const shouldEmit = [
+            'show-completed-groups',
+            'show-empty-groups',
+        ].includes(key);
+
+        if(shouldEmit) this.navSettingUpdated$.next();
     }
 }

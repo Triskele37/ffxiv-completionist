@@ -1,0 +1,219 @@
+{
+    "key": "eastern-la-noscea",
+    "groupName_en": "Eastern La Noscea",
+    "groupName_fr": "Noscea orientale",
+    "tasks": {
+        "x66232": {
+            "level": 30,
+            "name_en": "Leves of Costa del Sol",
+            "name_fr": "Mandataire de Costa del Sol",
+            "cPrevAny": true,
+            "npc_en": "Nahctahr",
+            "npc_fr": "Nahctahr",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
+            ],
+            "patch": "4.31"
+        },
+        "x66349": {
+            "level": 30,
+            "name_en": "Costa Beach Party",
+            "name_fr": "Mais où sont passées les donzelles?",
+            "npc_en": "Gegeruju",
+            "npc_fr": "Gegeruju",
+            "cNext": [
+                66387
+            ],
+            "patch": "4.31"
+        },
+        "x66369": {
+            "level": 32,
+            "name_en": "Who Moved My Headcheese",
+            "name_fr": "Kobolds chapardeurs",
+            "npc_en": "Kuzai Tazai",
+            "npc_fr": "Kuzai Tazai",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66368"
+            ],
+            "cNext": [
+                66370
+            ],
+            "patch": "4.31"
+        },
+        "x66370": {
+            "level": 32,
+            "name_en": "Get a Grip",
+            "name_fr": "L'exode des crustacés",
+            "npc_en": "Kuzai Tazai",
+            "npc_fr": "Kuzai Tazai",
+            "cPrev": [
+                66369
+            ],
+            "patch": "4.31"
+        },
+        "x66371": {
+            "level": 32,
+            "name_en": "Unrefined Methods",
+            "name_fr": "Attaque préventive",
+            "npc_en": "Fyrilsunn",
+            "npc_fr": "Fyrilsunn",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66368"
+            ],
+            "cNext": [
+                66374
+            ],
+            "patch": "4.31"
+        },
+        "x66372": {
+            "level": 32,
+            "name_en": "Buffaloed All the Way",
+            "name_fr": "Sueur et tremblements",
+            "npc_en": "P'ebaloh",
+            "npc_fr": "P'ebaloh",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66368"
+            ],
+            "cNext": [
+                66373
+            ],
+            "patch": "4.31"
+        },
+        "x66373": {
+            "level": 32,
+            "name_en": "Pests in the Pillars",
+            "name_fr": "Infestation de mollusques",
+            "npc_en": "P'ebaloh",
+            "npc_fr": "P'ebaloh",
+            "cPrev": [
+                66372
+            ],
+            "cNext": [
+                66389
+            ],
+            "patch": "4.31"
+        },
+        "x66374": {
+            "level": 32,
+            "name_en": "To You from Failing Hands We Throw",
+            "name_fr": "Mes précieuses médailles",
+            "npc_en": "Fyrilsunn",
+            "npc_fr": "Fyrilsunn",
+            "cPrev": [
+                66371
+            ],
+            "patch": "4.31"
+        },
+        "x66377": {
+            "level": 32,
+            "name_en": "Raptor 'round Your Little Finger",
+            "name_fr": "Raptors bâfreurs",
+            "npc_en": "Etgar",
+            "npc_fr": "Etgar",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66368"
+            ],
+            "cNext": [
+                66380
+            ],
+            "patch": "4.31"
+        },
+        "x66378": {
+            "level": 32,
+            "name_en": "Put a Cork in It",
+            "name_fr": "Problème de bouchon",
+            "npc_en": "Byrglaent",
+            "npc_fr": "Byrglaent",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66368"
+            ],
+            "patch": "4.31"
+        },
+        "x66380": {
+            "level": 33,
+            "name_en": "Mona Lisa Smile",
+            "name_fr": "Une question d'étiquette",
+            "npc_en": "Etgar",
+            "npc_fr": "Etgar",
+            "cPrev": [
+                66377
+            ],
+            "cNext": [
+                66385
+            ],
+            "patch": "4.31"
+        },
+        "x66385": {
+            "level": 33,
+            "name_en": "Anise, Chocolate, and a Hint of Toad",
+            "name_fr": "Un festin de crapauds",
+            "npc_en": "Etgar",
+            "npc_fr": "Etgar",
+            "cPrev": [
+                66380
+            ],
+            "patch": "4.31"
+        },
+        "x66387": {
+            "level": 33,
+            "name_en": "The Wind, It Passes",
+            "name_fr": "Tempête rafraîchissante",
+            "npc_en": "Gegeruju",
+            "npc_fr": "Gegeruju",
+            "cPrev": [
+                66349
+            ],
+            "cNext": [
+                66388
+            ],
+            "patch": "4.31"
+        },
+        "x66388": {
+            "level": 33,
+            "name_en": "Bird's-eye View",
+            "name_fr": "Les oiseaux de la discorde",
+            "npc_en": "Gegeruju",
+            "npc_fr": "Gegeruju",
+            "cPrev": [
+                66387
+            ],
+            "patch": "4.31"
+        },
+        "x66389": {
+            "level": 33,
+            "name_en": "The Stench of Danger",
+            "name_fr": "Des poissons indésirables",
+            "npc_en": "P'ebaloh",
+            "npc_fr": "P'ebaloh",
+            "cPrev": [
+                66373
+            ],
+            "patch": "4.31"
+        },
+        "x65550": {
+            "level": 35,
+            "name_en": "Leves of Wineport",
+            "name_fr": "Mandataire de Port-aux-Vins",
+            "cPrevAny": true,
+            "npc_en": "Aileen",
+            "npc_fr": "Aileen",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
+                "duty.quests.sidequests.gridanian.gridania.65756",
+                "duty.quests.sidequests.uldahn.uldah.66223"
+            ],
+            "patch": "4.31"
+        },
+        "x66747": {
+            "level": 36,
+            "name_en": "Treasures and Tribulations",
+            "name_fr": "La joie de la chasse aux trésors",
+            "npc_en": "H'loonh",
+            "npc_fr": "H'loonh",
+            "unlock_en": "Action: Decipher, Action: Dig",
+            "patch": "4.31"
+        }
+    }
+}

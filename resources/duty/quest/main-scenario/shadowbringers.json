@@ -1,0 +1,1786 @@
+{
+    "key": "shadowbringers",
+    "groupName_en": "Shadowbringers",
+    "groupName_fr": "Chroniques des Ténèbres",
+    "tasks": {
+        "x68815": {
+            "level": 70,
+            "name_en": "The Syrcus Trench",
+            "name_fr": "La traversée",
+            "npc_en": "Tataru",
+            "npc_fr": "Tataru",
+            "cPrev": [
+                "duty.quests.main-scenario.post-stormblood.68721"
+            ],
+            "cNext": [
+                68816
+            ],
+            "patch": "5.0"
+        },
+        "x68816": {
+            "level": 70,
+            "name_en": "City of the First",
+            "name_fr": "À la découverte de Cristarium",
+            "npc_en": "Crystal Exarch",
+            "npc_fr": "exarque du Cristal",
+            "cPrev": [
+                68815
+            ],
+            "cNext": [
+                68817
+            ],
+            "patch": "5.0"
+        },
+        "x68817": {
+            "level": 70,
+            "name_en": "Travelers of Norvrandt",
+            "name_fr": "Les Héritiers du premier reflet",
+            "npc_en": "Crystal Exarch",
+            "npc_fr": "exarque du Cristal",
+            "cPrev": [
+                68816
+            ],
+            "cNext": [
+                68827,
+                "duty.quests.sidequests.lakeland.the-crystarium.68881",
+                "duty.quests.sidequests.lakeland.the-crystarium.68882",
+                "duty.quests.sidequests.lakeland.the-crystarium.68879",
+                "duty.quests.sidequests.lakeland.the-crystarium.68880",
+                68818,
+                "duty.quests.other.quasi-quests.69138",
+                "duty.quests.sidequests.lakeland.the-crystarium.68883",
+                "duty.quests.sidequests.lakeland.the-crystarium.68884",
+                "duty.quests.other.quasi-quests.69140",
+                "duty.quests.sidequests.lakeland.the-crystarium.69133"
+            ],
+            "patch": "5.0"
+        },
+        "x68818": {
+            "level": 70,
+            "name_en": "In Search of Alphinaud",
+            "name_fr": "Sur les traces d'Alphinaud",
+            "npc_en": "Crystal Exarch",
+            "npc_fr": "exarque du Cristal",
+            "cPrev": [
+                68817
+            ],
+            "cNext": [
+                68819
+            ],
+            "patch": "5.0"
+        },
+        "x68819": {
+            "level": 70,
+            "name_en": "A Still Tide",
+            "name_fr": "Pour une poignée de brins de thym",
+            "npc_en": "Szem Djenmai",
+            "npc_fr": "Szem Djenmai",
+            "cPrev": [
+                68818
+            ],
+            "cNext": [
+                "duty.quests.sidequests.kholusia.kholusia.68885",
+                "duty.quests.sidequests.kholusia.kholusia.68887",
+                68820,
+                "duty.quests.sidequests.kholusia.kholusia.68886"
+            ],
+            "patch": "5.0"
+        },
+        "x68820": {
+            "level": 70,
+            "name_en": "Open Arms, Closed Gate",
+            "name_fr": "Le Vestibule",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68819
+            ],
+            "cNext": [
+                "duty.quests.sidequests.kholusia.kholusia.68888",
+                "duty.quests.sidequests.kholusia.kholusia.68889",
+                "duty.quests.sidequests.kholusia.kholusia.68890",
+                68821,
+                "duty.quests.sidequests.kholusia.kholusia.68891"
+            ],
+            "patch": "5.0"
+        },
+        "x68821": {
+            "level": 70,
+            "name_en": "A Fickle Existence",
+            "name_fr": "L'envers d'Eulmore",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68820
+            ],
+            "cNext": [
+                "duty.quests.sidequests.kholusia.kholusia.68896",
+                "duty.quests.sidequests.kholusia.kholusia.68907",
+                68822,
+                "duty.quests.sidequests.kholusia.kholusia.68895",
+                "duty.quests.sidequests.kholusia.kholusia.68892",
+                "duty.quests.sidequests.kholusia.kholusia.68893",
+                "duty.quests.sidequests.kholusia.kholusia.68894"
+            ],
+            "patch": "5.0"
+        },
+        "x68822": {
+            "level": 70,
+            "name_en": "City of Final Pleasures",
+            "name_fr": "La ville des derniers plaisirs",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68821
+            ],
+            "cNext": [
+                68823,
+                "duty.quests.other.quasi-quests.69139"
+            ],
+            "patch": "5.0"
+        },
+        "x68823": {
+            "level": 70,
+            "name_en": "Free to Sightsee",
+            "name_fr": "À la découverte d'Eulmore",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68822
+            ],
+            "cNext": [
+                68824
+            ],
+            "patch": "5.0"
+        },
+        "x68824": {
+            "level": 70,
+            "name_en": "A Taste of Honey",
+            "name_fr": "Plus de plaisir, moins de souci",
+            "npc_en": "Amiable Maiden",
+            "npc_fr": "Libérée délicate",
+            "cPrev": [
+                68823
+            ],
+            "cNext": [
+                68825
+            ],
+            "patch": "5.0"
+        },
+        "x68825": {
+            "level": 70,
+            "name_en": "A Blessed Instrument",
+            "name_fr": "Les bienheureux",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68824
+            ],
+            "cNext": [
+                68826
+            ],
+            "patch": "5.0"
+        },
+        "x68826": {
+            "level": 70,
+            "name_en": "Emergent Splendor",
+            "name_fr": "La cime baignée de lumière",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                68825
+            ],
+            "cNext": [
+                68836
+            ],
+            "patch": "5.0"
+        },
+        "x68827": {
+            "level": 70,
+            "name_en": "In Search of Alisaie",
+            "name_fr": "Sur les traces d'Alisaie",
+            "npc_en": "Crystal Exarch",
+            "npc_fr": "exarque du Cristal",
+            "cPrev": [
+                68817
+            ],
+            "cNext": [
+                68828
+            ],
+            "patch": "5.0"
+        },
+        "x68828": {
+            "level": 70,
+            "name_en": "City of the Mord",
+            "name_fr": "Le marché des Mords",
+            "npc_en": "Cassard",
+            "npc_fr": "Cassard",
+            "cPrev": [
+                68827
+            ],
+            "cNext": [
+                68829,
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68897",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68898",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68899",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68902",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68901"
+            ],
+            "patch": "5.0"
+        },
+        "x68829": {
+            "level": 70,
+            "name_en": "Working Off the Meal",
+            "name_fr": "La tournée des étals",
+            "npc_en": "Cassard",
+            "npc_fr": "Cassard",
+            "cPrev": [
+                68828
+            ],
+            "cNext": [
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68911",
+                68830
+            ],
+            "patch": "5.0"
+        },
+        "x68830": {
+            "level": 70,
+            "name_en": "A Desert Crossing",
+            "name_fr": "À travers les dunes d'ambre",
+            "npc_en": "Tesleen",
+            "npc_fr": "Tesleen",
+            "cPrev": [
+                68829
+            ],
+            "cNext": [
+                68831
+            ],
+            "patch": "5.0"
+        },
+        "x68831": {
+            "level": 70,
+            "name_en": "Following in Her Footprints",
+            "name_fr": "Retrouvailles de haut vol",
+            "npc_en": "Tesleen",
+            "npc_fr": "Tesleen",
+            "cPrev": [
+                68830
+            ],
+            "cNext": [
+                68832
+            ],
+            "patch": "5.0"
+        },
+        "x68832": {
+            "level": 70,
+            "name_en": "Culling Their Ranks",
+            "name_fr": "Chasse aux purgateurs",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68831
+            ],
+            "cNext": [
+                68833,
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68903",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68904",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68905",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.68906"
+            ],
+            "patch": "5.0"
+        },
+        "x68833": {
+            "level": 70,
+            "name_en": "A Purchase of Fruit",
+            "name_fr": "Le dernier fruit",
+            "npc_en": "Tesleen",
+            "npc_fr": "Tesleen",
+            "cPrev": [
+                68832
+            ],
+            "cNext": [
+                68834
+            ],
+            "patch": "5.0"
+        },
+        "x68834": {
+            "level": 70,
+            "name_en": "The Time Left to Us",
+            "name_fr": "Le départ de trop",
+            "npc_en": "Tesleen",
+            "npc_fr": "Tesleen",
+            "cPrev": [
+                68833
+            ],
+            "cNext": [
+                68835
+            ],
+            "patch": "5.0"
+        },
+        "x68835": {
+            "level": 70,
+            "name_en": "Tears on the Sand",
+            "name_fr": "La mission d'Alisaie",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                68834
+            ],
+            "cNext": [
+                68836
+            ],
+            "patch": "5.0"
+        },
+        "x68836": {
+            "level": 71,
+            "name_en": "The Lightwardens",
+            "name_fr": "Un grand purgateur à Grand-Lac",
+            "unlock": "duty.dutyraid-finder.dungeons.shb.0",
+            "npc_en": "Crystal Exarch",
+            "npc_fr": "exarque du Cristal",
+            "cPrev": [
+                68826,
+                68835
+            ],
+            "cNext": [
+                68837
+            ],
+            "patch": "5.0"
+        },
+        "x68837": {
+            "level": 71,
+            "name_en": "Warrior of Darkness",
+            "name_fr": "Le guerrier de la légende",
+            "npc_en": "Crystal Exarch",
+            "npc_fr": "exarque du Cristal",
+            "cPrev": [
+                68836
+            ],
+            "cNext": [
+                "duty.quests.sidequests.lakeland.the-crystarium.68916",
+                68838,
+                "duty.quests.class--job.role.shb.68809",
+                "duty.quests.sidequests.lakeland.the-crystarium.68915",
+                "duty.quests.class--job.role.shb.68779",
+                "duty.quests.class--job.role.shb.68803",
+                "duty.quests.class--job.role.shb.69159"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.2293"
+            ],
+            "patch": "5.0"
+        },
+        "x68838": {
+            "level": 72,
+            "name_en": "An Unwelcome Guest",
+            "name_fr": "Visite impromptue",
+            "npc_en": "Manager of Suites",
+            "npc_fr": "intendant des Pendants",
+            "cPrev": [
+                68837
+            ],
+            "cNext": [
+                68839
+            ],
+            "patch": "5.0"
+        },
+        "x68839": {
+            "level": 72,
+            "name_en": "The Crystarium's Resolve",
+            "name_fr": "La résolution de Cristarium",
+            "npc_en": "Crystal Exarch",
+            "npc_fr": "exarque du Cristal",
+            "cPrev": [
+                68838
+            ],
+            "cNext": [
+                68840,
+                "duty.quests.class--job.crystalline-mean.69191"
+            ],
+            "patch": "5.0"
+        },
+        "x68840": {
+            "level": 72,
+            "name_en": "Logistics of War",
+            "name_fr": "Logistique amaro",
+            "unlock": "travel.aether-currents.shb.lakeland.14",
+            "npc_en": "Szem Djenmai",
+            "npc_fr": "Szem Djenmai",
+            "cPrev": [
+                68839
+            ],
+            "cNext": [
+                "duty.quests.sidequests.lakeland.lakeland.68920",
+                "duty.quests.sidequests.lakeland.lakeland.68921",
+                "duty.quests.sidequests.lakeland.lakeland.68922",
+                68841,
+                "duty.quests.sidequests.lakeland.lakeland.68924",
+                "duty.quests.sidequests.lakeland.lakeland.68925",
+                "duty.quests.sidequests.lakeland.lakeland.68926",
+                "duty.quests.sidequests.lakeland.lakeland.68927"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.lakeland.14"
+            ],
+            "patch": "5.0"
+        },
+        "x68841": {
+            "level": 72,
+            "name_en": "The Oracle of Light",
+            "name_fr": "À l'assaut du fort",
+            "npc_en": "Lyna",
+            "npc_fr": "Lyna",
+            "cPrev": [
+                68840
+            ],
+            "cNext": [
+                68842
+            ],
+            "patch": "5.0"
+        },
+        "x68842": {
+            "level": 72,
+            "name_en": "Il Mheg, the Faerie Kingdom",
+            "name_fr": "Le royaume féérique",
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "cPrev": [
+                68841
+            ],
+            "cNext": [
+                "duty.quests.sidequests.il-mheg.il-mheg.68931",
+                68843,
+                68844,
+                68845,
+                "duty.quests.sidequests.il-mheg.il-mheg.68929",
+                "duty.quests.sidequests.il-mheg.il-mheg.68928",
+                "duty.quests.sidequests.il-mheg.il-mheg.68930"
+            ],
+            "patch": "5.0"
+        },
+        "x68843": {
+            "level": 72,
+            "name_en": "Sul Uin's Request",
+            "name_fr": "Lydha Lran, village fleuri",
+            "npc_en": "Sul Uin",
+            "npc_fr": "Sul Uin",
+            "cPrev": [
+                68842
+            ],
+            "cNext": [
+                68846
+            ],
+            "patch": "5.0"
+        },
+        "x68844": {
+            "level": 72,
+            "name_en": "Ys Iala's Errand",
+            "name_fr": "Un appétit pour la farce",
+            "npc_en": "Ys Iala",
+            "npc_fr": "Ys Iala",
+            "cPrev": [
+                68842
+            ],
+            "cNext": [
+                68846
+            ],
+            "patch": "5.0"
+        },
+        "x68845": {
+            "level": 72,
+            "name_en": "Oul Sigun's Plea",
+            "name_fr": "Les enfeuillés",
+            "npc_en": "Oul Sigun",
+            "npc_fr": "Oul Sigun",
+            "cPrev": [
+                68842
+            ],
+            "cNext": [
+                68846
+            ],
+            "patch": "5.0"
+        },
+        "x68846": {
+            "level": 72,
+            "name_en": "Unto the Truth",
+            "name_fr": "Feo Ul à la rescousse",
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "cPrev": [
+                68843,
+                68844,
+                68845
+            ],
+            "cNext": [
+                "duty.quests.sidequests.il-mheg.il-mheg.68934",
+                68847,
+                "duty.quests.sidequests.il-mheg.il-mheg.68936"
+            ],
+            "patch": "5.0"
+        },
+        "x68847": {
+            "level": 72,
+            "name_en": "Courting Cooperation",
+            "name_fr": "Les cours du lettré",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                68846
+            ],
+            "cNext": [
+                "duty.quests.sidequests.il-mheg.il-mheg.68940",
+                "duty.quests.sidequests.il-mheg.il-mheg.68937",
+                "duty.quests.sidequests.il-mheg.il-mheg.68938",
+                68848,
+                "duty.quests.sidequests.il-mheg.il-mheg.68939"
+            ],
+            "patch": "5.0"
+        },
+        "x68848": {
+            "level": 73,
+            "name_en": "The Key to the Castle",
+            "name_fr": "Ne pas toucher",
+            "unlock": "duty.dutyraid-finder.dungeons.shb.1",
+            "npc_en": "Sul Uin",
+            "npc_fr": "Sul Uin",
+            "cPrev": [
+                68847
+            ],
+            "cNext": [
+                68849
+            ],
+            "patch": "5.0"
+        },
+        "x68849": {
+            "level": 73,
+            "name_en": "A Visit to the Nu Mou",
+            "name_fr": "Visite chez les Nu Mou",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                68848
+            ],
+            "cNext": [
+                68850
+            ],
+            "patch": "5.0"
+        },
+        "x68850": {
+            "level": 73,
+            "name_en": "A Fitting Payment",
+            "name_fr": "Transaction équitable",
+            "npc_en": "Wyd Aenc",
+            "npc_fr": "Wyd Aenc",
+            "cPrev": [
+                68849
+            ],
+            "cNext": [
+                68851
+            ],
+            "patch": "5.0"
+        },
+        "x68851": {
+            "level": 73,
+            "name_en": "Spore Sweeper",
+            "name_fr": "Coup de balai",
+            "npc_en": "Ys Gyuf",
+            "npc_fr": "Ys Gyuf",
+            "cPrev": [
+                68850
+            ],
+            "cNext": [
+                68852
+            ],
+            "patch": "5.0"
+        },
+        "x68852": {
+            "level": 73,
+            "name_en": "The Lawless Ones",
+            "name_fr": "Ceux qui musardent",
+            "npc_en": "Wyd Lad",
+            "npc_fr": "Wyd Lad",
+            "cPrev": [
+                68851
+            ],
+            "cNext": [
+                "duty.quests.sidequests.il-mheg.il-mheg.68944",
+                "duty.quests.sidequests.il-mheg.il-mheg.68945",
+                "duty.quests.sidequests.il-mheg.il-mheg.68949",
+                "duty.quests.sidequests.il-mheg.il-mheg.68950",
+                "duty.quests.sidequests.il-mheg.il-mheg.68951",
+                "duty.quests.sidequests.il-mheg.il-mheg.68946",
+                "duty.quests.sidequests.il-mheg.il-mheg.68947",
+                "duty.quests.sidequests.il-mheg.il-mheg.68952",
+                "duty.quests.sidequests.il-mheg.il-mheg.68953",
+                "duty.quests.sidequests.il-mheg.il-mheg.68954",
+                68853,
+                "duty.quests.sidequests.il-mheg.il-mheg.68948"
+            ],
+            "patch": "5.0"
+        },
+        "x68853": {
+            "level": 73,
+            "name_en": "The Elder's Answer",
+            "name_fr": "La puissance du Monarque",
+            "npc_en": "Wyd Lad",
+            "npc_fr": "Wyd Lad",
+            "cPrev": [
+                68852
+            ],
+            "cNext": [
+                68854
+            ],
+            "patch": "5.0"
+        },
+        "x68854": {
+            "level": 73,
+            "name_en": "A Resounding Roar",
+            "name_fr": "Combattre la gentillesse",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                68853
+            ],
+            "cNext": [
+                "duty.quests.sidequests.il-mheg.il-mheg.68963",
+                68855,
+                "duty.quests.sidequests.il-mheg.il-mheg.68955",
+                "duty.quests.sidequests.il-mheg.il-mheg.68956",
+                "duty.quests.sidequests.il-mheg.il-mheg.68958",
+                "duty.quests.sidequests.il-mheg.il-mheg.68959",
+                "duty.quests.sidequests.il-mheg.il-mheg.68960",
+                "duty.quests.sidequests.il-mheg.il-mheg.68970",
+                "duty.quests.sidequests.il-mheg.il-mheg.68968",
+                "duty.quests.sidequests.il-mheg.il-mheg.68957",
+                "duty.quests.sidequests.il-mheg.il-mheg.68969"
+            ],
+            "patch": "5.0"
+        },
+        "x68855": {
+            "level": 73,
+            "name_en": "Memento of a Friend",
+            "name_fr": "Le souvenir d'un ami",
+            "npc_en": "Seto",
+            "npc_fr": "Seto",
+            "cPrev": [
+                68854
+            ],
+            "cNext": [
+                68856
+            ],
+            "patch": "5.0"
+        },
+        "x68856": {
+            "level": 73,
+            "name_en": "Acht-la Ormh Inn",
+            "name_fr": "Passation de pouvoir",
+            "unlock": [
+                "duty.dutyraid-finder.trials.shb.0",
+                "travel.aether-currents.shb.il-mheg.14"
+            ],
+            "npc_en": "Seto",
+            "npc_fr": "Seto",
+            "cPrev": [
+                68855
+            ],
+            "cNext": [
+                "duty.quests.sidequests.il-mheg.il-mheg.68961",
+                68857,
+                "duty.quests.sidequests.il-mheg.il-mheg.68962"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.il-mheg.14"
+            ],
+            "patch": "5.0"
+        },
+        "x68857": {
+            "level": 73,
+            "name_en": "The Wheel Turns",
+            "name_fr": "Entre entente et méfiance",
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "cPrev": [
+                68856
+            ],
+            "cNext": [
+                68858,
+                "duty.quests.tribal-quests.pixie.69219"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.2294"
+            ],
+            "patch": "5.0"
+        },
+        "x68858": {
+            "level": 74,
+            "name_en": "A Party Soon Divided",
+            "name_fr": "Une visite de courtoisie",
+            "npc_en": "Manager of Suites",
+            "npc_fr": "intendant des Pendants",
+            "cPrev": [
+                68857
+            ],
+            "cNext": [
+                "duty.quests.sidequests.lakeland.lakeland.68972",
+                68859,
+                "duty.quests.sidequests.lakeland.lakeland.68971",
+                "duty.quests.sidequests.lakeland.lakeland.68973",
+                "duty.quests.sidequests.lakeland.lakeland.68992"
+            ],
+            "patch": "5.0"
+        },
+        "x68859": {
+            "level": 74,
+            "name_en": "A Little Faith",
+            "name_fr": "L'église de l'Aurore",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                68858
+            ],
+            "cNext": [
+                68860
+            ],
+            "patch": "5.0"
+        },
+        "x68860": {
+            "level": 74,
+            "name_en": "Into the Dark",
+            "name_fr": "Le peuple de la Nuit",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                68859
+            ],
+            "cNext": [
+                68861
+            ],
+            "patch": "5.0"
+        },
+        "x68861": {
+            "level": 74,
+            "name_en": "A Day in the Neighborhood",
+            "name_fr": "Us et coutumes",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": [
+                68860
+            ],
+            "cNext": [
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68980",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68976",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68979",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68978",
+                68862,
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68977"
+            ],
+            "patch": "5.0"
+        },
+        "x68862": {
+            "level": 74,
+            "name_en": "A Helping Hand",
+            "name_fr": "Jardinage enténébré",
+            "npc_en": "Runar",
+            "npc_fr": "Runar",
+            "cPrev": [
+                68861
+            ],
+            "cNext": [
+                68863
+            ],
+            "patch": "5.0"
+        },
+        "x68863": {
+            "level": 74,
+            "name_en": "Lost but Not Forgotten",
+            "name_fr": "La pierre baptismale",
+            "npc_en": "Runar",
+            "npc_fr": "Runar",
+            "cPrev": [
+                68862
+            ],
+            "cNext": [
+                68864
+            ],
+            "patch": "5.0"
+        },
+        "x68864": {
+            "level": 74,
+            "name_en": "Saying Good-bye",
+            "name_fr": "Repos éternel dans le ciel étoilé",
+            "npc_en": "Runar",
+            "npc_fr": "Runar",
+            "cPrev": [
+                68863
+            ],
+            "cNext": [
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68985",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68986",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68983",
+                68865,
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68990",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68991",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68984",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68987",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68989"
+            ],
+            "patch": "5.0"
+        },
+        "x68865": {
+            "level": 74,
+            "name_en": "Stirring up Trouble",
+            "name_fr": "La guerre des bestioles",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": [
+                68864
+            ],
+            "cNext": [
+                68866
+            ],
+            "patch": "5.0"
+        },
+        "x68866": {
+            "level": 74,
+            "name_en": "A Beeautiful Plan",
+            "name_fr": "Légendes sur les murs",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": [
+                68865
+            ],
+            "cNext": [
+                68867
+            ],
+            "patch": "5.0"
+        },
+        "x68867": {
+            "level": 74,
+            "name_en": "An Unwanted Proposal",
+            "name_fr": "Alliances vénéneuses",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": [
+                68866
+            ],
+            "cNext": [
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69192",
+                68868
+            ],
+            "patch": "5.0"
+        },
+        "x68868": {
+            "level": 74,
+            "name_en": "Put to the Proof",
+            "name_fr": "Le sceau de Ronka",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                68867
+            ],
+            "cNext": [
+                68869
+            ],
+            "patch": "5.0"
+        },
+        "x68869": {
+            "level": 75,
+            "name_en": "Into the Wood",
+            "name_fr": "Les gardiennes des vestiges",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": [
+                68868
+            ],
+            "cNext": [
+                68870
+            ],
+            "patch": "5.0"
+        },
+        "x68870": {
+            "level": 75,
+            "name_en": "Top of the Tree",
+            "name_fr": "Passage vers les chutes",
+            "npc_en": "Cymet",
+            "npc_fr": "Cymet",
+            "cPrev": [
+                68869
+            ],
+            "cNext": [
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69003",
+                68871,
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68996",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68997",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68999",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69004",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69001",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69006",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.68998",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69000",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69002",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69005"
+            ],
+            "patch": "5.0"
+        },
+        "x68871": {
+            "level": 75,
+            "name_en": "Look to the Stars",
+            "name_fr": "Statues et totems",
+            "npc_en": "Almet",
+            "npc_fr": "Almet",
+            "cPrev": [
+                68870
+            ],
+            "cNext": [
+                68872
+            ],
+            "patch": "5.0"
+        },
+        "x68872": {
+            "level": 75,
+            "name_en": "Mi Casa, Toupasa",
+            "name_fr": "La grande pyramide d'Ux'ner",
+            "npc_en": "Almet",
+            "npc_fr": "Almet",
+            "cPrev": [
+                68871
+            ],
+            "cNext": [
+                68873
+            ],
+            "patch": "5.0"
+        },
+        "x68873": {
+            "level": 75,
+            "name_en": "Legend of the Not-so-hidden Temple",
+            "name_fr": "Le Confessionnal de Toupasa l'ancien",
+            "npc_en": "Almet",
+            "npc_fr": "Almet",
+            "cPrev": [
+                68872
+            ],
+            "cNext": [
+                68874
+            ],
+            "patch": "5.0"
+        },
+        "x68874": {
+            "level": 75,
+            "name_en": "The Aftermath",
+            "name_fr": "Antidotes pour tous",
+            "npc_en": "Almet",
+            "npc_fr": "Almet",
+            "cPrev": [
+                68873
+            ],
+            "cNext": [
+                68875
+            ],
+            "patch": "5.0"
+        },
+        "x68875": {
+            "level": 75,
+            "name_en": "In Good Faith",
+            "name_fr": "Divin Ascien",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                68874
+            ],
+            "cNext": [
+                68876,
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69014",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69008",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69009",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69007",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69020",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69011",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69010",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69012",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69019",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69021"
+            ],
+            "patch": "5.0"
+        },
+        "x68876": {
+            "level": 75,
+            "name_en": "The Burden of Knowledge",
+            "name_fr": "L'Enchevêtrement des Qitari",
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.shb.2",
+                "travel.aether-currents.shb.the-raktika-greatwood.14"
+            ],
+            "npc_en": "Almet",
+            "npc_fr": "Almet",
+            "cPrev": [
+                68875
+            ],
+            "cNext": [
+                68877
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.the-raktika-greatwood.14"
+            ],
+            "patch": "5.0"
+        },
+        "x68877": {
+            "level": 75,
+            "name_en": "Bearing with It",
+            "name_fr": "Au revoir, sombre forêt",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": [
+                68876
+            ],
+            "cNext": [
+                68878,
+                "duty.quests.tribal-quests.qitari.69330"
+            ],
+            "patch": "5.0"
+        },
+        "x68878": {
+            "level": 76,
+            "name_en": "Out of the Wood",
+            "name_fr": "Espoirs et inquiétudes",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": [
+                68877
+            ],
+            "cNext": [
+                69142
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.2295"
+            ],
+            "patch": "5.0"
+        },
+        "x69142": {
+            "level": 76,
+            "name_en": "When It Rains",
+            "name_fr": "La purgation de Grand-Lac",
+            "npc_en": "Manager of Suites",
+            "npc_fr": "intendant des Pendants",
+            "cPrev": [
+                68878
+            ],
+            "cNext": [
+                69143
+            ],
+            "patch": "5.0"
+        },
+        "x69143": {
+            "level": 76,
+            "name_en": "Word from On High",
+            "name_fr": "Un lac de souffrances",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                69142
+            ],
+            "cNext": [
+                69144
+            ],
+            "patch": "5.0"
+        },
+        "x69144": {
+            "level": 76,
+            "name_en": "Small Favors",
+            "name_fr": "Le doute de soi",
+            "npc_en": "Lyna",
+            "npc_fr": "Lyna",
+            "cPrev": [
+                69143
+            ],
+            "cNext": [
+                69145
+            ],
+            "patch": "5.0"
+        },
+        "x69145": {
+            "level": 76,
+            "name_en": "The Best Way Out",
+            "name_fr": "La résolution d'une jeune fille",
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "cPrev": [
+                69144
+            ],
+            "cNext": [
+                69146
+            ],
+            "patch": "5.0"
+        },
+        "x69146": {
+            "level": 76,
+            "name_en": "Free Trade",
+            "name_fr": "Des Mords sans le souq",
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "cPrev": [
+                69145
+            ],
+            "cNext": [
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69022",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69024",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69025",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69026",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69027",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69023",
+                69147
+            ],
+            "patch": "5.0"
+        },
+        "x69147": {
+            "level": 76,
+            "name_en": "The Trolley Problem",
+            "name_fr": "Les chariots de Biran",
+            "npc_en": "Zhun Zun",
+            "npc_fr": "Zhun Zun",
+            "cPrev": [
+                69146
+            ],
+            "cNext": [
+                69148
+            ],
+            "patch": "5.0"
+        },
+        "x69148": {
+            "level": 76,
+            "name_en": "Rust and Ruin",
+            "name_fr": "Un fâcheux chagrin",
+            "npc_en": "Thaffe",
+            "npc_fr": "Thaffe",
+            "cPrev": [
+                69147
+            ],
+            "cNext": [
+                69149
+            ],
+            "patch": "5.0"
+        },
+        "x69149": {
+            "level": 76,
+            "name_en": "On Track",
+            "name_fr": "Réparateurs sur rails",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                69148
+            ],
+            "cNext": [
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69039",
+                69150,
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69032",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69033",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69045",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69046",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69030",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69034",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69038",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69037",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69028",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69029",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69031",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69042",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69044"
+            ],
+            "patch": "5.0"
+        },
+        "x69150": {
+            "level": 76,
+            "name_en": "Down for Maintenance",
+            "name_fr": "Le talos de la dernière chance",
+            "npc_en": "Jeryk",
+            "npc_fr": "Jeryk",
+            "cPrev": [
+                69149
+            ],
+            "cNext": [
+                69151
+            ],
+            "patch": "5.0"
+        },
+        "x69151": {
+            "level": 76,
+            "name_en": "The Truth Hurts",
+            "name_fr": "Noyaux dans les mines",
+            "npc_en": "Jeryk",
+            "npc_fr": "Jeryk",
+            "cPrev": [
+                69150
+            ],
+            "cNext": [
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69047",
+                69152,
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69035"
+            ],
+            "patch": "5.0"
+        },
+        "x69152": {
+            "level": 77,
+            "name_en": "A Convenient Distraction",
+            "name_fr": "Une pièce qui vaut son pesant d'or",
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "cPrev": [
+                69151
+            ],
+            "cNext": [
+                69153
+            ],
+            "patch": "5.0"
+        },
+        "x69153": {
+            "level": 77,
+            "name_en": "A Dirty Job",
+            "name_fr": "L'œil de lion",
+            "npc_en": "Guthjon",
+            "npc_fr": "Guthjon",
+            "cPrev": [
+                69152
+            ],
+            "cNext": [
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69061",
+                69154
+            ],
+            "patch": "5.0"
+        },
+        "x69154": {
+            "level": 77,
+            "name_en": "Have a Heart",
+            "name_fr": "Un testament précieux",
+            "npc_en": "Guthjon",
+            "npc_fr": "Guthjon",
+            "cPrev": [
+                69153
+            ],
+            "cNext": [
+                69155
+            ],
+            "patch": "5.0"
+        },
+        "x69155": {
+            "level": 77,
+            "name_en": "Full Steam Ahead",
+            "name_fr": "Sur les rails de Nabaath Areng",
+            "npc_en": "Magnus",
+            "npc_fr": "Magnus",
+            "cPrev": [
+                69154
+            ],
+            "cNext": [
+                69156
+            ],
+            "patch": "5.0"
+        },
+        "x69156": {
+            "level": 77,
+            "name_en": "Crossroads",
+            "name_fr": "La prêtresse de la Lumière",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": [
+                69155
+            ],
+            "cNext": [
+                69157
+            ],
+            "patch": "5.0"
+        },
+        "x69157": {
+            "level": 77,
+            "name_en": "A Fresh Start",
+            "name_fr": "Le Puits de Malikah",
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.shb.3",
+                "travel.aether-currents.shb.amh-araeng.14"
+            ],
+            "npc_en": "Ryne",
+            "npc_fr": "Ryne",
+            "cPrev": [
+                69156
+            ],
+            "cNext": [
+                69158,
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69066",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69067",
+                "duty.quests.sidequests.amh-araeng.amh-araeng.69068"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.amh-araeng.14"
+            ],
+            "patch": "5.0"
+        },
+        "x69158": {
+            "level": 77,
+            "name_en": "More than a Hunch",
+            "name_fr": "Douleurs de Lumière",
+            "npc_en": "Ryne",
+            "npc_fr": "Ryne",
+            "cPrev": [
+                69157
+            ],
+            "cNext": [
+                "duty.quests.sidequests.lakeland.the-crystarium.69069",
+                69166
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.2296"
+            ],
+            "patch": "5.0"
+        },
+        "x69166": {
+            "level": 77,
+            "name_en": "Return to Eulmore",
+            "name_fr": "Retour à Kholusia",
+            "npc_en": "Manager of Suites",
+            "npc_fr": "intendant des Pendants",
+            "cPrev": [
+                69158
+            ],
+            "cNext": [
+                69167
+            ],
+            "patch": "5.0"
+        },
+        "x69167": {
+            "level": 77,
+            "name_en": "A Feast of Lies",
+            "name_fr": "Une ignoble vérité",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                69166
+            ],
+            "cNext": [
+                69168
+            ],
+            "patch": "5.0"
+        },
+        "x69168": {
+            "level": 77,
+            "name_en": "Paradise Fallen",
+            "name_fr": "Dur réveil pour Eulmore",
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "cPrev": [
+                69167
+            ],
+            "cNext": [
+                69169,
+                "duty.quests.sidequests.kholusia.eulmore.69055",
+                "duty.quests.sidequests.kholusia.eulmore.69056",
+                "duty.quests.sidequests.kholusia.eulmore.69059",
+                "duty.quests.sidequests.kholusia.eulmore.69060",
+                "duty.quests.sidequests.kholusia.eulmore.69052",
+                "duty.quests.sidequests.kholusia.eulmore.69054",
+                "duty.quests.sidequests.kholusia.eulmore.69057",
+                "duty.quests.sidequests.kholusia.eulmore.69058"
+            ],
+            "patch": "5.0"
+        },
+        "x69169": {
+            "level": 78,
+            "name_en": "The Ladder",
+            "name_fr": "Le compte est bon",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                69168
+            ],
+            "cNext": [
+                69170
+            ],
+            "patch": "5.0"
+        },
+        "x69170": {
+            "level": 78,
+            "name_en": "The View from Above",
+            "name_fr": "La grande ascension",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                69169
+            ],
+            "cNext": [
+                "duty.quests.sidequests.kholusia.kholusia.69079",
+                "duty.quests.sidequests.kholusia.kholusia.69080",
+                "duty.quests.sidequests.kholusia.kholusia.69081",
+                69171
+            ],
+            "patch": "5.0"
+        },
+        "x69171": {
+            "level": 78,
+            "name_en": "In Mt. Gulg's Shadow",
+            "name_fr": "Objectif Gulg",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                69170
+            ],
+            "cNext": [
+                69172
+            ],
+            "patch": "5.0"
+        },
+        "x69172": {
+            "level": 78,
+            "name_en": "A Gigantic Undertaking",
+            "name_fr": "Une idée géante",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                69171
+            ],
+            "cNext": [
+                69173
+            ],
+            "patch": "5.0"
+        },
+        "x69173": {
+            "level": 78,
+            "name_en": "Meet the Tholls",
+            "name_fr": "Pan dans ta barbe!",
+            "npc_en": "Tristol",
+            "npc_fr": "Tristol",
+            "cPrev": [
+                69172
+            ],
+            "cNext": [
+                "duty.quests.sidequests.kholusia.kholusia.69092",
+                "duty.quests.sidequests.kholusia.kholusia.69083",
+                "duty.quests.sidequests.kholusia.kholusia.69084",
+                "duty.quests.sidequests.kholusia.kholusia.69085",
+                "duty.quests.sidequests.kholusia.kholusia.69087",
+                "duty.quests.sidequests.kholusia.kholusia.69089",
+                "duty.quests.sidequests.kholusia.kholusia.69097",
+                "duty.quests.sidequests.kholusia.kholusia.69091",
+                "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69207",
+                "duty.quests.sidequests.kholusia.kholusia.69086",
+                "duty.quests.sidequests.kholusia.kholusia.69088",
+                "duty.quests.sidequests.kholusia.kholusia.69090",
+                69174
+            ],
+            "patch": "5.0"
+        },
+        "x69174": {
+            "level": 78,
+            "name_en": "A-Digging We Will Go",
+            "name_fr": "Un Nain sous bonne escorte",
+            "npc_en": "Xamott",
+            "npc_fr": "Xamott",
+            "cPrev": [
+                69173
+            ],
+            "cNext": [
+                69175
+            ],
+            "patch": "5.0"
+        },
+        "x69175": {
+            "level": 78,
+            "name_en": "The Duergar's Tewel",
+            "name_fr": "La guerre des barbes",
+            "npc_en": "Korutt",
+            "npc_fr": "Korutt",
+            "cPrev": [
+                69174
+            ],
+            "cNext": [
+                69176
+            ],
+            "patch": "5.0"
+        },
+        "x69176": {
+            "level": 78,
+            "name_en": "Rich Veins of Hope",
+            "name_fr": "Bonnes pioches",
+            "npc_en": "Crystal Exarch",
+            "npc_fr": "exarque du Cristal",
+            "cPrev": [
+                69175
+            ],
+            "cNext": [
+                "duty.quests.sidequests.kholusia.kholusia.69073",
+                "duty.quests.sidequests.kholusia.kholusia.69075",
+                "duty.quests.sidequests.kholusia.kholusia.69076",
+                "duty.quests.sidequests.kholusia.kholusia.69078",
+                "duty.quests.sidequests.kholusia.kholusia.69082",
+                69177,
+                "duty.quests.sidequests.kholusia.kholusia.69074"
+            ],
+            "patch": "5.0"
+        },
+        "x69177": {
+            "level": 78,
+            "name_en": "That None Shall Ever Again",
+            "name_fr": "La contribution du peuple de la Nuit",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                69176
+            ],
+            "cNext": [
+                69178
+            ],
+            "patch": "5.0"
+        },
+        "x69178": {
+            "level": 78,
+            "name_en": "A Breath of Respite",
+            "name_fr": "Un dernier instant de répit",
+            "npc_en": "Chai-Nuzz",
+            "npc_fr": "Chai-Nuzz",
+            "cPrev": [
+                69177
+            ],
+            "cNext": [
+                69179
+            ],
+            "patch": "5.0"
+        },
+        "x69179": {
+            "level": 79,
+            "name_en": "Extinguishing the Last Light",
+            "name_fr": "Le dernier grand purgateur",
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.shb.4",
+                "duty.dutyraid-finder.trials.shb.1",
+                "travel.aether-currents.shb.kholusia.14"
+            ],
+            "npc_en": "Chai-Nuzz",
+            "npc_fr": "Chai-Nuzz",
+            "cPrev": [
+                69178
+            ],
+            "cNext": [
+                69180
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.2297",
+                "travel.aether-currents.shb.kholusia.14"
+            ],
+            "patch": "5.0"
+        },
+        "x69180": {
+            "level": 79,
+            "name_en": "Reassuring the Masses",
+            "name_fr": "Lendemain de défaite",
+            "npc_en": "Manager of Suites",
+            "npc_fr": "intendant des Pendants",
+            "cPrev": [
+                69179
+            ],
+            "cNext": [
+                69181
+            ],
+            "patch": "5.0"
+        },
+        "x69181": {
+            "level": 79,
+            "name_en": "In His Garden",
+            "name_fr": "Sur les traces de l'exarque",
+            "npc_en": "Katliss",
+            "npc_fr": "Katliss",
+            "cPrev": [
+                69180
+            ],
+            "cNext": [
+                69182
+            ],
+            "patch": "5.0"
+        },
+        "x69182": {
+            "level": 79,
+            "name_en": "The Unbroken Thread",
+            "name_fr": "Le messager de l'espoir",
+            "npc_en": "Lyna",
+            "npc_fr": "Lyna",
+            "cPrev": [
+                69181
+            ],
+            "cNext": [
+                "duty.quests.sidequests.lakeland.the-crystarium.69100",
+                "duty.quests.sidequests.lakeland.the-crystarium.69101",
+                "duty.quests.sidequests.lakeland.the-crystarium.69103",
+                "duty.quests.sidequests.lakeland.the-crystarium.69102",
+                "duty.quests.sidequests.lakeland.the-crystarium.69104",
+                69183
+            ],
+            "patch": "5.0"
+        },
+        "x69183": {
+            "level": 79,
+            "name_en": "To Storm-tossed Seas",
+            "name_fr": "Le grand plongeon",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": [
+                69182
+            ],
+            "cNext": [
+                "duty.quests.sidequests.lakeland.lakeland.69105",
+                "duty.quests.sidequests.lakeland.lakeland.69106",
+                "duty.quests.sidequests.lakeland.lakeland.69107",
+                "duty.quests.sidequests.lakeland.lakeland.69110",
+                "duty.quests.sidequests.lakeland.lakeland.69108",
+                "duty.quests.sidequests.lakeland.lakeland.69111",
+                "duty.quests.sidequests.lakeland.lakeland.69109",
+                69184
+            ],
+            "patch": "5.0"
+        },
+        "x69184": {
+            "level": 79,
+            "name_en": "Waiting in the Depths",
+            "name_fr": "Randonnée sous-marine",
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "cPrev": [
+                69183
+            ],
+            "cNext": [
+                "duty.quests.sidequests.tempest.the-tempest.69124",
+                "duty.quests.sidequests.tempest.the-tempest.69115",
+                "duty.quests.sidequests.tempest.the-tempest.69117",
+                "duty.quests.sidequests.tempest.the-tempest.69113",
+                69185,
+                "duty.quests.sidequests.tempest.the-tempest.69121",
+                "duty.quests.sidequests.tempest.the-tempest.69114",
+                "duty.quests.sidequests.tempest.the-tempest.69118",
+                "duty.quests.sidequests.tempest.the-tempest.69120",
+                "duty.quests.sidequests.tempest.the-tempest.69112",
+                "duty.quests.sidequests.tempest.the-tempest.69116",
+                "duty.quests.sidequests.tempest.the-tempest.69119",
+                "duty.quests.sidequests.tempest.the-tempest.69123"
+            ],
+            "patch": "5.0"
+        },
+        "x69185": {
+            "level": 79,
+            "name_en": "City of the Ancients",
+            "name_fr": "Les vestiges des anciens",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": [
+                69184
+            ],
+            "cNext": [
+                69186
+            ],
+            "patch": "5.0"
+        },
+        "x69186": {
+            "level": 79,
+            "name_en": "The Light of Inspiration",
+            "name_fr": "Un visage connu?",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": [
+                69185
+            ],
+            "cNext": [
+                69187
+            ],
+            "patch": "5.0"
+        },
+        "x69187": {
+            "level": 80,
+            "name_en": "The Illuminated Land",
+            "name_fr": "L'étendue nitescente",
+            "npc_en": "Grenoldt",
+            "npc_fr": "Grenoldt",
+            "cPrev": [
+                69186
+            ],
+            "cNext": [
+                69188
+            ],
+            "patch": "5.0"
+        },
+        "x69188": {
+            "level": 80,
+            "name_en": "The End of a World",
+            "name_fr": "La cité des ombres",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                69187
+            ],
+            "cNext": [
+                69189,
+                "duty.quests.sidequests.tempest.the-tempest.69128",
+                "duty.quests.sidequests.tempest.the-tempest.69129",
+                "duty.quests.sidequests.tempest.the-tempest.69130"
+            ],
+            "patch": "5.0"
+        },
+        "x69189": {
+            "level": 80,
+            "name_en": "A Greater Purpose",
+            "name_fr": "Le fardeau d'Emet-Selch",
+            "unlock": "travel.aether-currents.shb.the-tempest.14",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                69188
+            ],
+            "cNext": [
+                69190
+            ],
+            "cSiblings": [
+                "travel.aether-currents.shb.the-tempest.14"
+            ],
+            "patch": "5.0"
+        },
+        "x69190": {
+            "level": 80,
+            "name_en": "Shadowbringers",
+            "name_fr": "Porteurs d'ombre",
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.shb.5",
+                "duty.dutyraid-finder.trials.shb.2"
+            ],
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                69189
+            ],
+            "cNext": [
+                "duty.quests.sidequests.kholusia.eulmore.69137",
+                "duty.quests.chronicles-of-a-new-era.eden.68791",
+                "duty.quests.sidequests.lakeland.the-crystarium.69131",
+                "duty.quests.sidequests.kholusia.eulmore.69132",
+                "duty.quests.other.quasi-quests.69141",
+                "duty.quests.other.quasi-quests.69198",
+                "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69253",
+                "duty.quests.main-scenario.post-shadowbringers.69209",
+                "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69370",
+                "duty.quests.sidequests.dravanian.idyllshire.69501",
+                "duty.quests.class--job.disciple-of-magic-job.scholar.68754",
+                "duty.quests.class--job.disciple-of-war-job.dragoon.68749",
+                "duty.quests.class--job.disciple-of-war-job.dark-knight.68757",
+                "duty.quests.class--job.disciple-of-war-job.warrior.68748",
+                "duty.quests.class--job.disciple-of-war-job.ninja.68755",
+                "duty.quests.class--job.disciple-of-war-job.paladin.68746",
+                "duty.quests.class--job.disciple-of-war-job.monk.68747",
+                "duty.quests.class--job.disciple-of-war-job.bard.68750",
+                "duty.quests.class--job.disciple-of-magic-job.white-mage.68751",
+                "duty.quests.class--job.disciple-of-magic-job.black-mage.68752",
+                "duty.quests.class--job.disciple-of-war-job.machinist.68756",
+                "duty.quests.class--job.disciple-of-magic-job.astrologian.68758",
+                "duty.quests.class--job.disciple-of-war-job.samurai.68759",
+                "duty.quests.class--job.disciple-of-magic-job.red-mage.68760",
+                "duty.quests.class--job.disciple-of-war-job.gunbreaker.68761",
+                "duty.quests.class--job.disciple-of-war-job.dancer.68762",
+                "duty.quests.class--job.disciple-of-magic-job.summoner.69569"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.2298"
+            ],
+            "patch": "5.0"
+        }
+    }
+}

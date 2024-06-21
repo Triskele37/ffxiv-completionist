@@ -1,0 +1,49 @@
+{
+    "key": "facet-of-crafting",
+    "groupName_en": "Facet of Crafting",
+    "groupName_fr": "Quêtes des façonniers",
+    "tasks": {
+        "x68766": {
+            "level": 70,
+            "name_en": "Cherished Memories",
+            "name_fr": "Sauvegarde 001 [Du nouveau chez les façonniers]",
+            "npc_en": "Recording Node",
+            "npc_fr": "module d'enregistrement",
+            "cPrev": [
+                "duty.quests.class--job.crystalline-mean.69191"
+            ],
+            "cNext": [
+                68767
+            ],
+            "patch": "5.0"
+        },
+        "x68767": {
+            "level": 75,
+            "name_en": "For Sentimental Reasons",
+            "name_fr": "Sauvegarde 002 [Des souvenirs si précieux]",
+            "npc_en": "Thiuna",
+            "npc_fr": "Thiuna",
+            "cPrev": [
+                68766
+            ],
+            "cNext": [
+                68768
+            ],
+            "patch": "5.0"
+        },
+        "x68768": {
+            "level": 80,
+            "name_en": "The Notes of Bond Restoring",
+            "name_fr": "Sauvegarde 003 [Les liens qui nous unissent]",
+            "npc_en": "Thiuna",
+            "npc_fr": "Thiuna",
+            "cPrev": [
+                68767
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.2324"
+            ],
+            "patch": "5.0"
+        }
+    }
+}

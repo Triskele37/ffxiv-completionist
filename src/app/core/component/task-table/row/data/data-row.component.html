@@ -14,11 +14,10 @@
         <td class="data-cell">
             <ng-container
                 *ngTemplateOutlet="
-                    column.key === 'fullStorageKey' ? keyCell :
                     column.editable ? editCell :
                     column.key === 'contentLink' ? showAllLinkCell :
-                    column.link ? linksCell : staticCell;
-                    context: { $implicit: column.key }"
+                    superCell;
+                    context: { $implicit: column }"
             ></ng-container>
         </td>
     </ng-container>
@@ -49,16 +48,10 @@
     ></xiv-numeric-complete-cell>
 </ng-template>
 
-<ng-template #keyCell let-key>
-    <span [pTooltip]="task[key].substr(8)">
-        {{task[key].substr(8)}}
-    </span>
-</ng-template>
-
-<ng-template #editCell let-key>
+<ng-template #editCell let-column>
     <xiv-edit-cell
         [task]="task"
-        [key]="key"
+        [key]="column.key"
     ></xiv-edit-cell>
 </ng-template>
 
@@ -69,15 +62,9 @@
     ></xiv-content-link>
 </ng-template>
 
-<ng-template #linksCell let-key>
-    <xiv-links-cell
-        [linkPaths]="task[key]"
-    ></xiv-links-cell>
-</ng-template>
-
-<ng-template #staticCell let-key>
+<ng-template #superCell let-column>
     <xiv-data-cell
+        [column]="column"
         [task]="task"
-        [key]="key"
     ></xiv-data-cell>
 </ng-template>

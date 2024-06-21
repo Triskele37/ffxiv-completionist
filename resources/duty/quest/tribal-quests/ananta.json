@@ -1,0 +1,436 @@
+{
+    "key": "ananta",
+    "groupName_en": "Ananta",
+    "groupName_fr": "Anantas",
+    "common": [
+        "type"
+    ],
+    "tasks": {
+        "x68572": {
+            "level": 60,
+            "name_en": "Brooding Broodmother",
+            "name_fr": "Les garde-frontières de la Velodyna",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "M'rahz Nunh",
+            "npc_fr": "M'rahz Nunh",
+            "cPrev": [
+                "duty.quests.sidequests.gyr-abanian.the-fringes.68364"
+            ],
+            "cNext": [
+                68573
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.60"
+            ],
+            "patch": "4.31"
+        },
+        "x68573": {
+            "level": 60,
+            "name_en": "Griffins Rampant",
+            "name_fr": "Deux griffons pour le prix d'un",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Alpa",
+            "npc_fr": "Alpa",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                68572
+            ],
+            "cNext": [
+                68574
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.61"
+            ],
+            "patch": "4.31"
+        },
+        "x68574": {
+            "level": 60,
+            "name_en": "Chance of Gales",
+            "name_fr": "Un conseiller pas comme les autres",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Alpa",
+            "npc_fr": "Alpa",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                68573
+            ],
+            "cNext": [
+                68575
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.62"
+            ],
+            "patch": "4.31"
+        },
+        "x68575": {
+            "level": 60,
+            "name_en": "It Can Be Cruel Sometimes",
+            "name_fr": "Le retour du futur Nunh",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Alpa",
+            "npc_fr": "Alpa",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                68574
+            ],
+            "cNext": [
+                68576
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.63"
+            ],
+            "patch": "4.31"
+        },
+        "x68576": {
+            "level": 60,
+            "name_en": "Schism between Sisters",
+            "name_fr": "Retrouvailles entre sœurs",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Alpa",
+            "npc_fr": "Alpa",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                68575
+            ],
+            "cNext": [
+                68577
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.64"
+            ],
+            "patch": "4.31"
+        },
+        "x68577": {
+            "level": 60,
+            "name_en": "Celebratory Smorgasbord",
+            "name_fr": "Festin sur la Velodyna",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Alpa",
+            "npc_fr": "Alpa",
+            "reputation_en": "Sworn",
+            "reputation_fr": "Assermenté",
+            "cPrev": [
+                68576
+            ],
+            "cNext": [
+                "duty.quests.tribal-quests.tribal-alliance-quests.stormblood-tribal-quests.68697"
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.65"
+            ],
+            "patch": "4.31"
+        },
+        "x68579": {
+            "level": 60,
+            "name_en": "A Real Fixer-upper",
+            "name_fr": "Fatigué mais debout",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x68580": {
+            "level": 60,
+            "name_en": "A Sluggish Endeavor",
+            "name_fr": "Moi, moche et visqueux",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x68581": {
+            "level": 60,
+            "name_en": "Deep-rooted Problems",
+            "name_fr": "Initiative écologique",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x68582": {
+            "level": 60,
+            "name_en": "Beating the Heat",
+            "name_fr": "Une Ananta sur un pont brûlant",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x68583": {
+            "level": 60,
+            "name_en": "Out for Delivery",
+            "name_fr": "Faut livrer pour vivre",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x68584": {
+            "level": 60,
+            "name_en": "A Bit of Home Cooking",
+            "name_fr": "Repas de fête",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x68585": {
+            "level": 60,
+            "name_en": "Snack between Meals",
+            "name_fr": "Demain, jarrets",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x68586": {
+            "level": 60,
+            "name_en": "A Signal for the Senses",
+            "name_fr": "Assurer la relève",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "patch": "4.31"
+        },
+        "x68587": {
+            "level": 60,
+            "name_en": "Criminal Crossings",
+            "name_fr": "Cache-cache frontalier",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "patch": "4.31"
+        },
+        "x68588": {
+            "level": 60,
+            "name_en": "When Feathers Fly",
+            "name_fr": "Prise de bec fraternelle",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "patch": "4.31"
+        },
+        "x68589": {
+            "level": 60,
+            "name_en": "Sparring Lesson",
+            "name_fr": "Apprendre dans la douleur",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "patch": "4.31"
+        },
+        "x68590": {
+            "level": 60,
+            "name_en": "Funnel and Games",
+            "name_fr": "L'appât est le chasseur",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "patch": "4.31"
+        },
+        "x68591": {
+            "level": 60,
+            "name_en": "A Swarm Welcome",
+            "name_fr": "Ne me pique pas",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "patch": "4.31"
+        },
+        "x68592": {
+            "level": 60,
+            "name_en": "Keeping an Eye off Things",
+            "name_fr": "Fopar rêvait",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "patch": "4.31"
+        },
+        "x68578": {
+            "level": 60,
+            "name_en": "Have I Got News for You",
+            "name_fr": "Une prédiction, et ça repart",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "patch": "4.31"
+        },
+        "x68594": {
+            "level": 60,
+            "name_en": "The Very Hungry Marid",
+            "name_fr": "Quand l'appétit va tout va",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "patch": "4.31"
+        },
+        "x68595": {
+            "level": 60,
+            "name_en": "The Antlion's Share",
+            "name_fr": "La part du fourmilion",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "patch": "4.31"
+        },
+        "x68596": {
+            "level": 60,
+            "name_en": "Hearts of Precious Stone",
+            "name_fr": "En plein cœur de pierre",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "patch": "4.31"
+        },
+        "x68597": {
+            "level": 60,
+            "name_en": "Ants in the Pants",
+            "name_fr": "C'est comme ça qu'on attire les fourmis",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "patch": "4.31"
+        },
+        "x68598": {
+            "level": 60,
+            "name_en": "Up Sheet Creek",
+            "name_fr": "Plus blanc que blanc",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "patch": "4.31"
+        },
+        "x68599": {
+            "level": 60,
+            "name_en": "Let There Be Lard",
+            "name_fr": "Humour ananta",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "patch": "4.31"
+        },
+        "x68593": {
+            "level": 60,
+            "name_en": "Bhoot Camps",
+            "name_fr": "Les anges de l'insalubrité",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "patch": "4.31"
+        },
+        "x68600": {
+            "level": 60,
+            "name_en": "Thin-skinned",
+            "name_fr": "Rocailles et écailles",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "patch": "4.31"
+        },
+        "x68601": {
+            "level": 60,
+            "name_en": "A Delicate Operation",
+            "name_fr": "Infusions fleuries",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "patch": "4.31"
+        },
+        "x68602": {
+            "level": 60,
+            "name_en": "A Business Proposal",
+            "name_fr": "Échanges entre tribus",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "patch": "4.31"
+        },
+        "x68603": {
+            "level": 60,
+            "name_en": "For Fast, Temporary Relief",
+            "name_fr": "Pommade premiers soins",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "patch": "4.31"
+        },
+        "x68604": {
+            "level": 60,
+            "name_en": "Soothing the Sting",
+            "name_fr": "Les mains dans la boue",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "patch": "4.31"
+        },
+        "x68605": {
+            "level": 60,
+            "name_en": "Catching and Fletching",
+            "name_fr": "Empennages gaganiens",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Eshana",
+            "npc_fr": "Eshana",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "patch": "4.31"
+        }
+    }
+}

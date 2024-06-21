@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
 import { DataService } from '@data';
-import { DataGroup } from '@domain/DataGroup';
-import { Task } from '@domain/Task';
+import { DataGroup } from '@model/DataGroup';
+import { Task } from '@model/Task';
 import { MainMenuService } from '@service/main-menu/main-menu.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
@@ -33,6 +33,10 @@ export class NavigationService {
         }
     }
 
+    goToHistory(group: DataGroup): void {
+        this.setBreadcrumbs(group.fullStorageKey.split('.'));
+    }
+
     //#region------------------------------------------------ Selected Group
     getGroupFromBreadcrumbs(breadcrumbs: string[]): DataGroup {
         if(!breadcrumbs) return null;
@@ -51,7 +55,7 @@ export class NavigationService {
             superGroup
         );
 
-        if(group instanceof DataGroup) return group;
+        if(group.xivDataType === 'Group') return group;
         else return this.svcMainMenu.data;
     }
 
@@ -93,6 +97,13 @@ export class NavigationService {
     //#endregion
 
     //#region------------------------------------------------ Breadcrumbs
+    popCrumbsOnce(): void {
+        const breadcrumbs = this.breadcrumbs$.value;
+        breadcrumbs.pop();
+
+        this.setBreadcrumbs(breadcrumbs);
+    }
+
     popCrumbsUntil(index: number): void {
         // Step backward through breadcrumbs, pop until index is hit
         const breadcrumbs = this.breadcrumbs$.value;

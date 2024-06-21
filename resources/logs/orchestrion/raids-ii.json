@@ -1,0 +1,472 @@
+{
+    "key": "raids-ii",
+    "groupName_en": "Raids II",
+    "groupName_fr": "Raids II",
+    "common": [
+        "category",
+        "location",
+        "source"
+    ],
+    "tasks": {
+        "x0": {
+            "number": "1",
+            "name_en": "Significance (Nothing)",
+            "name_fr": "Significance (Nothing)",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69254",
+            "patch": "5.1"
+        },
+        "x1": {
+            "number": "2",
+            "name_en": "City Ruins (Rays of Light)",
+            "name_fr": "City Ruins (Rays of Light)",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.9",
+            "patch": "5.1"
+        },
+        "x2": {
+            "number": "3",
+            "name_en": "Voice of no Return (Guitar)",
+            "name_fr": "Voice of no Return (Guitar)",
+            "category": "CATEGORY.QUEST",
+            "source": [
+                "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69257",
+                "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69256"
+            ],
+            "patch": "5.1"
+        },
+        "x3": {
+            "number": "4",
+            "name_en": "Alien Manifestation",
+            "name_fr": "Alien Manifestation",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.9",
+            "patch": "5.1"
+        },
+        "x4": {
+            "number": "5",
+            "name_en": "Song of the Ancients (Atonement)",
+            "name_fr": "Song of the Ancients (Atonement)",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.9",
+            "patch": "5.1"
+        },
+        "x5": {
+            "number": "6",
+            "name_en": "Bipolar Nightmare",
+            "name_fr": "Bipolar Nightmare",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.9",
+            "patch": "5.1"
+        },
+        "x6": {
+            "number": "7",
+            "name_en": "Weight of the World (Prelude Version)",
+            "name_fr": "Weight of the World (Prelude Version)",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.9",
+            "patch": "5.1"
+        },
+        "x7": {
+            "number": "8",
+            "name_en": "Crumbling Lies (Front)",
+            "name_fr": "Crumbling Lies (Front)",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69321",
+            "patch": "5.2"
+        },
+        "x8": {
+            "number": "9",
+            "name_en": "Blue Fields (Shadowbringers)",
+            "name_fr": "Blue Fields (Shadowbringers)",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.eden.69329",
+            "patch": "5.2"
+        },
+        "x9": {
+            "number": "10",
+            "name_en": "Force Your Way (Shadowbringers)",
+            "name_fr": "Force Your Way (Shadowbringers)",
+            "category": "CATEGORY.RAID",
+            "source": [
+                "duty.dutyraid-finder.raids.shb.0",
+                "duty.dutyraid-finder.raids.shb.1"
+            ],
+            "patch": "5.01"
+        },
+        "x10": {
+            "number": "11",
+            "name_en": "Blinding Indigo",
+            "name_fr": "Blinding Indigo",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.2",
+            "patch": "5.01"
+        },
+        "x11": {
+            "number": "12",
+            "name_en": "Landslide",
+            "name_fr": "Landslide",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.3",
+            "patch": "5.01"
+        },
+        "x12": {
+            "number": "13",
+            "name_en": "Twice Stricken",
+            "name_fr": "Twice Stricken",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.10",
+            "patch": "5.2"
+        },
+        "x13": {
+            "number": "14",
+            "name_en": "Primal Angel",
+            "name_fr": "Primal Angel",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.11",
+            "patch": "5.2"
+        },
+        "x14": {
+            "number": "15",
+            "name_en": "Return to Oblivion",
+            "name_fr": "Return to Oblivion",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.13",
+            "patch": "5.2"
+        },
+        "x15": {
+            "number": "16",
+            "name_en": "Broken Heart",
+            "name_fr": "Broken Heart",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69490",
+            "patch": "5.3"
+        },
+        "x16": {
+            "number": "17",
+            "name_en": "Amusement Park",
+            "name_fr": "Amusement Park",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69488",
+            "patch": "5.3"
+        },
+        "x17": {
+            "number": "18",
+            "name_en": "Fortress of Lies",
+            "name_fr": "Fortress of Lies",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.18",
+            "patch": "5.3"
+        },
+        "x18": {
+            "number": "19",
+            "name_en": "Grandma (Destruction)",
+            "name_fr": "Grandma (Destruction)",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.18",
+            "patch": "5.3"
+        },
+        "x19": {
+            "number": "20",
+            "name_en": "End of the Unknown",
+            "name_fr": "End of the Unknown",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.18",
+            "patch": "5.3"
+        },
+        "x20": {
+            "number": "21",
+            "name_en": "Torn from the Heavens/The Dark Colossus Destroys All (Medley Version)",
+            "name_fr": "Torn from the Heavens/The Dark Colossus Destroys All (Medley Version)",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.18",
+            "patch": "5.3"
+        },
+        "x21": {
+            "number": "22",
+            "name_en": "Don't Be Afraid (Shadowbringers)",
+            "name_fr": "Don't Be Afraid (Shadowbringers)",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.20",
+            "patch": "5.4"
+        },
+        "x22": {
+            "number": "23",
+            "name_en": "The Legendary Beast (Shadowbringers)",
+            "name_fr": "The Legendary Beast (Shadowbringers)",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.21",
+            "patch": "5.4"
+        },
+        "x23": {
+            "number": "24",
+            "name_en": "Promises to Keep",
+            "name_fr": "Promises to Keep",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.22",
+            "patch": "5.4"
+        },
+        "x24": {
+            "number": "25",
+            "name_en": "The Extreme (Shadowbringers)",
+            "name_fr": "The Extreme (Shadowbringers)",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.26",
+            "patch": "5.4"
+        },
+        "x25": {
+            "number": "26",
+            "name_en": "Mourning",
+            "name_fr": "Mourning",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.27",
+            "patch": "5.5"
+        },
+        "x26": {
+            "number": "27",
+            "name_en": "Emil (Despair)",
+            "name_fr": "Emil (Despair)",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.27",
+            "patch": "5.5"
+        },
+        "x27": {
+            "number": "28",
+            "name_en": "The Sound of the End",
+            "name_fr": "The Sound of the End",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.27",
+            "patch": "5.5"
+        },
+        "x28": {
+            "number": "29",
+            "name_en": "The Sound of the End: 8bit",
+            "name_fr": "The Sound of the End: 8bit",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.27",
+            "patch": "5.5"
+        },
+        "x29": {
+            "number": "30",
+            "name_en": "Kainé (Final Fantasy Main Theme Version)",
+            "name_fr": "Kainé (Final Fantasy Main Theme Version)",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.shb.27",
+            "patch": "5.5"
+        },
+        "x30": {
+            "number": "31",
+            "name_en": "Voice of no Return (Normal)",
+            "name_fr": "Voice of no Return (Normal)",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69570",
+            "patch": "5.5"
+        },
+        "x31": {
+            "number": "32",
+            "name_en": "The Color of Depression",
+            "name_fr": "The Color of Depression",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69570",
+            "patch": "5.5"
+        },
+        "x32": {
+            "number": "33",
+            "name_en": "Widespread Illness",
+            "name_fr": "Widespread Illness",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69571",
+            "patch": "5.5"
+        },
+        "x33": {
+            "number": "34",
+            "name_en": "Possessed by Disease",
+            "name_fr": "Possessed by Disease",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69571",
+            "patch": "5.5"
+        },
+        "x34": {
+            "number": "35",
+            "name_en": "Faltering Prayer (Dawn Breeze)",
+            "name_fr": "Faltering Prayer (Dawn Breeze)",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69571",
+            "patch": "5.5"
+        },
+        "x35": {
+            "number": "36",
+            "name_en": "Weight of the World (Instrumental)",
+            "name_fr": "Weight of the World (Instrumental)",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69589",
+            "patch": "5.55"
+        },
+        "x36": {
+            "number": "37",
+            "name_en": "Ancient Shackles",
+            "name_fr": "Ancient Shackles",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.2",
+            "patch": "6.01"
+        },
+        "x37": {
+            "number": "38",
+            "name_en": "Hic Svnt Leones",
+            "name_fr": "Hic Svnt Leones",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.3",
+            "patch": "6.01"
+        },
+        "x38": {
+            "number": "39",
+            "name_en": "Pilgrimage",
+            "name_fr": "Pilgrimage",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.8",
+            "patch": "6.1"
+        },
+        "x39": {
+            "number": "40",
+            "name_en": "Radiance",
+            "name_fr": "Radiance",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.8",
+            "patch": "6.1"
+        },
+        "x40": {
+            "number": "41",
+            "name_en": "In the Balance",
+            "name_fr": "In the Balance",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.8",
+            "patch": "6.1"
+        },
+        "x41": {
+            "number": "42",
+            "name_en": "Silent Scream",
+            "name_fr": "Silent Scream",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.10",
+            "patch": "6.2"
+        },
+        "x42": {
+            "number": "43",
+            "name_en": "Scream",
+            "name_fr": "Scream",
+            "category": "CATEGORY.RAID",
+            "source": [
+                "duty.dutyraid-finder.raids.ew.11",
+                "duty.dutyraid-finder.raids.ew.12"
+            ],
+            "patch": "6.2"
+        },
+        "x43": {
+            "number": "44",
+            "name_en": "Embers",
+            "name_fr": "Embers",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.13",
+            "patch": "6.2"
+        },
+        "x44": {
+            "number": "45",
+            "name_en": "White Stone Black",
+            "name_fr": "White Stone Black",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.17",
+            "patch": "6.2"
+        },
+        "x45": {
+            "number": "46",
+            "name_en": "Favor",
+            "name_fr": "Favor",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.18",
+            "patch": "6.3"
+        },
+        "x46": {
+            "number": "47",
+            "name_en": "Rhythm of the Realm",
+            "name_fr": "Rhythm of the Realm",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.18",
+            "patch": "6.3"
+        },
+        "x47": {
+            "number": "48",
+            "name_en": "Dedicated to Moonlight",
+            "name_fr": "Dedicated to Moonlight",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.18",
+            "patch": "6.3"
+        },
+        "x48": {
+            "number": "49",
+            "name_en": "One Amongst the Weary",
+            "name_fr": "One Amongst the Weary",
+            "category": "CATEGORY.RAID",
+            "source": [
+                "duty.dutyraid-finder.raids.ew.20",
+                "duty.dutyraid-finder.raids.ew.21"
+            ],
+            "patch": "6.4"
+        },
+        "x49": {
+            "number": "50",
+            "name_en": "Fleeting Moment",
+            "name_fr": "Fleeting Moment",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.22",
+            "patch": "6.4"
+        },
+        "x50": {
+            "number": "51",
+            "name_en": "Athena, the Tireless One",
+            "name_fr": "Athena, the Tireless One",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.23",
+            "patch": "6.4"
+        },
+        "x51": {
+            "number": "52",
+            "name_en": "Ultima's Perfection (Endwalker)",
+            "name_fr": "Ultima's Perfection (Endwalker)",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.27",
+            "patch": "6.4"
+        },
+        "x510": {
+            "number": "53",
+            "name_en": "One among Wonders",
+            "name_fr": "One among Wonders",
+            "category": "CATEGORY.QUEST",
+            "source": "duty.quests.chronicles-of-a-new-era.myths-of-the-realm.70328",
+            "patch": "6.5"
+        },
+        "x645": {
+            "number": "54",
+            "name_en": "Fair Winds to Guide",
+            "name_fr": "Fair Winds to Guide",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.28",
+            "patch": "6.5"
+        },
+        "x646": {
+            "number": "55",
+            "name_en": "Course Uncharted",
+            "name_fr": "Course Uncharted",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.28",
+            "patch": "6.5"
+        },
+        "x647": {
+            "number": "56",
+            "name_en": "Myths of the Realm",
+            "name_fr": "Myths of the Realm",
+            "category": "CATEGORY.RAID",
+            "source": "duty.dutyraid-finder.raids.ew.28",
+            "patch": "6.5"
+        }
+    }
+}

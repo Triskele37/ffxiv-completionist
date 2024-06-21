@@ -1,0 +1,822 @@
+{
+    "key": "manderville",
+    "groupName_en": "Manderville",
+    "groupName_fr": "Manderville",
+    "common": [
+        "job"
+    ],
+    "tasks": {
+        "x0": {
+            "name_en": "Manderville Sword & Shield",
+            "name_fr": "Épée & Écu mandorle des Manderville",
+            "job": "CLASS_JOB.PLD",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [19],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3128"]
+        },
+        "x19": {
+            "name_en": "Amazing Manderville Sword & Shield",
+            "name_fr": "Épée & Écu mandorle éblouissante des Manderville",
+            "job": "CLASS_JOB.PLD",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [0],
+            "cNext": [38],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3224"]
+        },
+        "x38": {
+            "name_en": "Majestic Manderville Sword & Shield",
+            "name_fr": "Épée majestueuse et bouclier majestueux",
+            "job": "CLASS_JOB.PLD",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [19],
+            "cNext": [57],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3285"]
+        },
+        "x57": {
+            "name_en": "Mandervillous Falchion & Kite Shield",
+            "name_fr": "Fauchon & Écu mandorle manderveilleux des Manderville",
+            "job": "CLASS_JOB.PLD",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [38],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3380"]
+        },
+        "x1": {
+            "name_en": "Manderville Axe",
+            "name_fr": "Hache des Manderville",
+            "job": "CLASS_JOB.WAR",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [20],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3129"]
+        },
+        "x20": {
+            "name_en": "Amazing Manderville Axe",
+            "name_fr": "Hache éblouissante des Manderville",
+            "job": "CLASS_JOB.WAR",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [1],
+            "cNext": [39],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3226"]
+        },
+        "x39": {
+            "name_en": "Majestic Manderville Bardiche",
+            "name_fr": "Armes des Manderville : bardiche majestueuse",
+            "job": "CLASS_JOB.WAR",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [20],
+            "cNext": [58],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3286"]
+        },
+        "x58": {
+            "name_en": "Mandervillous Battleaxe",
+            "name_fr": "Hache de combat manderveilleuse des Manderville",
+            "job": "CLASS_JOB.WAR",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [39],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3381"]
+        },
+        "x2": {
+            "name_en": "Manderville Zweihander",
+            "name_fr": "Espadon des Manderville",
+            "job": "CLASS_JOB.DRK",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [21],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3130"]
+        },
+        "x21": {
+            "name_en": "Amazing Manderville Zweihander",
+            "name_fr": "Espadon éblouissante des Manderville",
+            "job": "CLASS_JOB.DRK",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [2],
+            "cNext": [40],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3234"]
+        },
+        "x40": {
+            "name_en": "Majestic Manderville Greatsword",
+            "name_fr": "Grande épée majestueuse",
+            "job": "CLASS_JOB.DRK",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [21],
+            "cNext": [59],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3287"]
+        },
+        "x59": {
+            "name_en": "Mandervillous Greatsword",
+            "name_fr": "Grande épée manderveilleuse des Manderville",
+            "job": "CLASS_JOB.DRK",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [40],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3382"]
+        },
+        "x3": {
+            "name_en": "Manderville Gunblade",
+            "name_fr": "Pistolame des Manderville",
+            "job": "CLASS_JOB.GNB",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [22],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3131"]
+        },
+        "x22": {
+            "name_en": "Amazing Manderville Gunblade",
+            "name_fr": "Pistolame éblouissante des Manderville",
+            "job": "CLASS_JOB.GNB",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [3],
+            "cNext": [41],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3239"]
+        },
+        "x41": {
+            "name_en": "Majestic Manderville Bayonet",
+            "name_fr": "Baïonnette majestueuse",
+            "job": "CLASS_JOB.GNB",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [22],
+            "cNext": [60],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3288"]
+        },
+        "x60": {
+            "name_en": "Mandervillous Gunblade",
+            "name_fr": "Pistolame manderveilleuse des Manderville",
+            "job": "CLASS_JOB.GNB",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [41],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3383"]
+        },
+        "x4": {
+            "name_en": "Manderville Spear",
+            "name_fr": "Hast des Manderville",
+            "job": "CLASS_JOB.DRG",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [23],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3132"]
+        },
+        "x23": {
+            "name_en": "Amazing Manderville Spear",
+            "name_fr": "Hast éblouissante des Manderville",
+            "job": "CLASS_JOB.DRG",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [4],
+            "cNext": [42],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3227"]
+        },
+        "x42": {
+            "name_en": "Majestic Manderville Spear",
+            "name_fr": "Hast majestueux",
+            "job": "CLASS_JOB.DRG",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [23],
+            "cNext": [61],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3289"]
+        },
+        "x61": {
+            "name_en": "Mandervillous Trident",
+            "name_fr": "Trident manderveilleux des Manderville",
+            "job": "CLASS_JOB.DRG",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [42],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3384"]
+        },
+
+        "x5": {
+            "name_en": "Manderville Knuckles",
+            "name_fr": "Poings des Manderville",
+            "job": "CLASS_JOB.MNK",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [24],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3133"]
+        },
+        "x24": {
+            "name_en": "Amazing Manderville Knuckles",
+            "name_fr": "Poings éblouissante des Manderville",
+            "job": "CLASS_JOB.MNK",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [5],
+            "cNext": [43],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3225"]
+        },
+        "x43": {
+            "name_en": "Majestic Manderville Fists",
+            "name_fr": "Poings majestueux",
+            "job": "CLASS_JOB.MNK",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [24],
+            "cNext": [62],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3290"]
+        },
+        "x62": {
+            "name_en": "Mandervillous Fists",
+            "name_fr": "Poings manderveilleux des Manderville",
+            "job": "CLASS_JOB.MNK",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [43],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3385"]
+        },
+
+        "x6": {
+            "name_en": "Manderville Knives",
+            "name_fr": "Couteaux des Manderville",
+            "job": "CLASS_JOB.NIN",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [25],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3134"]
+        },
+        "x25": {
+            "name_en": "Amazing Manderville Knives",
+            "name_fr": "Couteaux éblouissante des Manderville",
+            "job": "CLASS_JOB.NIN",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [6],
+            "cNext": [44],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3229"]
+        },
+        "x44": {
+            "name_en": "Majestic Manderville Knives",
+            "name_fr": "Couteaux majestueux",
+            "job": "CLASS_JOB.NIN",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [25],
+            "cNext": [63],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3291"]
+        },
+        "x63": {
+            "name_en": "Mandervillous Knives",
+            "name_fr": "Couteaux manderveilleux des Manderville",
+            "job": "CLASS_JOB.NIN",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [44],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3386"]
+        },
+
+        "x7": {
+            "name_en": "Manderville Samurai Blade",
+            "name_fr": "Lame de samouraï des Manderville",
+            "job": "CLASS_JOB.SAM",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [26],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3135"]
+        },
+        "x26": {
+            "name_en": "Amazing Manderville Samurai Blade",
+            "name_fr": "Lame de samouraï éblouissante des Manderville",
+            "job": "CLASS_JOB.SAM",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [7],
+            "cNext": [45],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3237"]
+        },
+        "x45": {
+            "name_en": "Majestic Manderville Samurai Blade",
+            "name_fr": "Lame de samouraï majestueuse",
+            "job": "CLASS_JOB.SAM",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [26],
+            "cNext": [64],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3292"]
+        },
+        "x64": {
+            "name_en": "Mandervillous Samurai Blade",
+            "name_fr": "Lame de samouraï manderveilleuse des Manderville",
+            "job": "CLASS_JOB.SAM",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [45],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3387"]
+        },
+
+        "x8": {
+            "name_en": "Manderville Scythe",
+            "name_fr": "Faux des Manderville",
+            "job": "CLASS_JOB.RPR",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [27],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3136"]
+        },
+        "x27": {
+            "name_en": "Amazing Manderville Scythe",
+            "name_fr": "Faux éblouissante des Manderville",
+            "job": "CLASS_JOB.RPR",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [8],
+            "cNext": [46],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3241"]
+        },
+        "x46": {
+            "name_en": "Majestic Manderville War Scythe",
+            "name_fr": "Faux de guerre majestueuse",
+            "job": "CLASS_JOB.RPR",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [27],
+            "cNext": [65],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3293"]
+        },
+        "x65": {
+            "name_en": "Mandervillous Zaghnal",
+            "name_fr": "Zaghnal manderveilleux des Manderville",
+            "job": "CLASS_JOB.RPR",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [46],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3388"]
+        },
+
+        "x9": {
+            "name_en": "Manderville Harp Bow",
+            "name_fr": "Arc-harpe des Manderville",
+            "job": "CLASS_JOB.BRD",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [28],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3137"]
+        },
+        "x28": {
+            "name_en": "Amazing Manderville Harp Bow",
+            "name_fr": "Arc-harpe éblouissante des Manderville",
+            "job": "CLASS_JOB.BRD",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [9],
+            "cNext": [47],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3228"]
+        },
+        "x47": {
+            "name_en": "Majestic Manderville Harp Bow",
+            "name_fr": "Arc-harpe majestueux",
+            "job": "CLASS_JOB.BRD",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [28],
+            "cNext": [66],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3294"]
+        },
+        "x66": {
+            "name_en": "Mandervillous Compound Bow",
+            "name_fr": "Arc à poulies manderveilleux des Manderville",
+            "job": "CLASS_JOB.BRD",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [47],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3389"]
+        },
+
+        "x10": {
+            "name_en": "Manderville Revolver",
+            "name_fr": "Revolver des Manderville",
+            "job": "CLASS_JOB.MCH",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [29],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3138"]
+        },
+        "x29": {
+            "name_en": "Amazing Manderville Revolver",
+            "name_fr": "Revolver éblouissante des Manderville",
+            "job": "CLASS_JOB.MCH",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [10],
+            "cNext": [48],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3235"]
+        },
+        "x48": {
+            "name_en": "Majestic Manderville Pistol",
+            "name_fr": "Pistolet majestueux",
+            "job": "CLASS_JOB.MCH",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [29],
+            "cNext": [67],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3295"]
+        },
+        "x67": {
+            "name_en": "Mandervillous Revolver",
+            "name_fr": "Revolver manderveilleux des Manderville",
+            "job": "CLASS_JOB.MCH",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [48],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3390"]
+        },
+
+        "x11": {
+            "name_en": "Manderville Chakrams",
+            "name_fr": "Chakrams des Manderville",
+            "job": "CLASS_JOB.DNC",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [30],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3139"]
+        },
+        "x30": {
+            "name_en": "Amazing Manderville Chakrams",
+            "name_fr": "Chakrams éblouissante des Manderville",
+            "job": "CLASS_JOB.DNC",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [11],
+            "cNext": [49],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3240"]
+        },
+        "x49": {
+            "name_en": "Majestic Manderville Chakrams",
+            "name_fr": "Chakrams majestueux",
+            "job": "CLASS_JOB.DNC",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [30],
+            "cNext": [68],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3296"]
+        },
+        "x68": {
+            "name_en": "Mandervillous Chakrams",
+            "name_fr": "Chakrams manderveilleux des Manderville",
+            "job": "CLASS_JOB.DNC",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [49],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3391"]
+        },
+
+        "x12": {
+            "name_en": "Manderville Rod",
+            "name_fr": "Sceptre des Manderville",
+            "job": "CLASS_JOB.BLM",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [31],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3140"]
+        },
+        "x31": {
+            "name_en": "Amazing Manderville Rod",
+            "name_fr": "Sceptre éblouissante des Manderville",
+            "job": "CLASS_JOB.BLM",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [12],
+            "cNext": [50],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3231"]
+        },
+        "x50": {
+            "name_en": "Majestic Manderville Staff",
+            "name_fr": "Bâton majestueux",
+            "job": "CLASS_JOB.BLM",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [31],
+            "cNext": [69],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3297"]
+        },
+        "x69": {
+            "name_en": "Mandervillous Rod",
+            "name_fr": "Sceptre manderveilleux des Manderville",
+            "job": "CLASS_JOB.BLM",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [50],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3392"]
+        },
+
+        "x13": {
+            "name_en": "Manderville Index",
+            "name_fr": "Index des Manderville",
+            "job": "CLASS_JOB.SMN",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [32],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3141"]
+        },
+        "x32": {
+            "name_en": "Amazing Manderville Index",
+            "name_fr": "Index éblouissante des Manderville",
+            "job": "CLASS_JOB.SMN",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [13],
+            "cNext": [51],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3232"]
+        },
+        "x51": {
+            "name_en": "Majestic Manderville Index",
+            "name_fr": "Index majestueux",
+            "job": "CLASS_JOB.SMN",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [32],
+            "cNext": [70],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3298"]
+        },
+        "x70": {
+            "name_en": "Mandervillous Index",
+            "name_fr": "Index manderveilleux des Manderville",
+            "job": "CLASS_JOB.SMN",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [51],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3393"]
+        },
+
+        "x14": {
+            "name_en": "Manderville Rapier",
+            "name_fr": "Rapière des Manderville",
+            "job": "CLASS_JOB.RDM",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [33],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3142"]
+        },
+        "x33": {
+            "name_en": "Amazing Manderville Rapier",
+            "name_fr": "Rapière éblouissante des Manderville",
+            "job": "CLASS_JOB.RDM",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [14],
+            "cNext": [52],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3238"]
+        },
+        "x52": {
+            "name_en": "Majestic Manderville Degen",
+            "name_fr": "Alfange majestueuse",
+            "job": "CLASS_JOB.RDM",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [33],
+            "cNext": [71],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3299"]
+        },
+        "x71": {
+            "name_en": "Mandervillous Rapier",
+            "name_fr": "Rapière manderveilleuse des Manderville",
+            "job": "CLASS_JOB.RDM",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [52],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3394"]
+        },
+
+        "x15": {
+            "name_en": "Manderville Cane",
+            "name_fr": "Canne des Manderville",
+            "job": "CLASS_JOB.WHM",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [34],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3143"]
+        },
+        "x34": {
+            "name_en": "Amazing Manderville Cane",
+            "name_fr": "Canne éblouissante des Manderville",
+            "job": "CLASS_JOB.WHM",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [15],
+            "cNext": [53],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3230"]
+        },
+        "x53": {
+            "name_en": "Majestic Manderville Wand",
+            "name_fr": "Baguette majestueuse",
+            "job": "CLASS_JOB.WHM",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [34],
+            "cNext": [72],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3300"]
+        },
+        "x72": {
+            "name_en": "Mandervillous Cane",
+            "name_fr": "Canne manderveilleuse des Manderville",
+            "job": "CLASS_JOB.WHM",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [53],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3395"]
+        },
+
+        "x16": {
+            "name_en": "Manderville Codex",
+            "name_fr": "Codex des Manderville",
+            "job": "CLASS_JOB.SCH",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [35],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3144"]
+        },
+        "x35": {
+            "name_en": "Amazing Manderville Codex",
+            "name_fr": "Codex éblouissante des Manderville",
+            "job": "CLASS_JOB.SCH",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [16],
+            "cNext": [54],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3233"]
+        },
+        "x54": {
+            "name_en": "Majestic Manderville Codex",
+            "name_fr": "Codex majestueux",
+            "job": "CLASS_JOB.SCH",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [35],
+            "cNext": [73],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3301"]
+        },
+        "x73": {
+            "name_en": "Mandervillous Codex",
+            "name_fr": "Codex manderveilleux des Manderville",
+            "job": "CLASS_JOB.SCH",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [54],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3396"]
+        },
+
+        "x17": {
+            "name_en": "Manderville Torquetum",
+            "name_fr": "Torquetum des Manderville",
+            "job": "CLASS_JOB.AST",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [36],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3145"]
+        },
+        "x36": {
+            "name_en": "Amazing Manderville Torquetum",
+            "name_fr": "Torquetum éblouissante des Manderville",
+            "job": "CLASS_JOB.AST",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [17],
+            "cNext": [55],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3236"]
+        },
+        "x55": {
+            "name_en": "Majestic Manderville Orrery",
+            "name_fr": "Planétaire majestueux",
+            "job": "CLASS_JOB.AST",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [36],
+            "cNext": [74],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3302"]
+        },
+        "x74": {
+            "name_en": "Mandervillous Torquetum",
+            "name_fr": "Torquetum manderveilleux des Manderville",
+            "job": "CLASS_JOB.AST",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [55],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3397"]
+        },
+
+        "x18": {
+            "name_en": "Manderville Milpreves",
+            "name_fr": "Mein gwrac'h des Manderville",
+            "job": "CLASS_JOB.SGE",
+            "iLevel": "615",
+            "requirements_en": "3 Manderium Meteorite",
+            "requirements_fr": "3 Météorite rarissime",
+            "cNext": [37],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3146"]
+        },
+        "x37": {
+            "name_en": "Amazing Manderville Milpreves",
+            "name_fr": "Mein gwrac'h éblouissante des Manderville",
+            "job": "CLASS_JOB.SGE",
+            "iLevel": "630",
+            "requirements_en": "3 Complementary Chondrite",
+            "requirements_fr": "3 Chondrite rarissime",
+            "cPrev": [18],
+            "cNext": [56],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3242"]
+        },
+        "x56": {
+            "name_en": "Majestic Manderville Wings",
+            "name_fr": "Ailes majestueuses",
+            "job": "CLASS_JOB.SGE",
+            "iLevel": "645",
+            "requirements_en": "3 Amplifying Achondrite",
+            "requirements_fr": "3 Achondrite rarissime",
+            "cPrev": [37],
+            "cNext": [75],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3303"]
+        },
+        "x75": {
+            "name_en": "Mandervillous Wings",
+            "name_fr": "Ailes manderveilleuses des Manderville",
+            "job": "CLASS_JOB.SGE",
+            "iLevel": "665",
+            "requirements_en": "3 Cosmic Crystallite",
+            "requirements_fr": "3 Cristallite Cosmique",
+            "cPrev": [56],
+            "cSiblings": ["character.achievement.items.manderville-weapons.3398"]
+        }
+    }
+}

@@ -1,0 +1,510 @@
+{
+    "key": "arcanist",
+    "groupName_en": "Arcanist",
+    "groupName_fr": "Arcaniste",
+    "cCombo": [
+        "character.achievement.battle.battle.735"
+    ],
+    "tasks": {
+        "x0": {
+            "rank": "1",
+            "name_en": "Arcanist 01",
+            "name_fr": "Arcaniste 01",
+            "zone_en": "Middle La Noscea",
+            "zone_fr": "Noscea centrale",
+            "location": "(22, 24)",
+            "mob_en": "Little Ladybug x3",
+            "mob_fr": "Coccinelle x3"
+        },
+        "x1": {
+            "rank": "1",
+            "name_en": "Arcanist 02",
+            "name_fr": "Arcaniste 02",
+            "zone_en": "Middle La Noscea",
+            "zone_fr": "Noscea centrale",
+            "location": "(22, 22)",
+            "mob_en": "Wharf Rat x3",
+            "mob_fr": "Rat x3"
+        },
+        "x2": {
+            "rank": "1",
+            "name_en": "Arcanist 03",
+            "name_fr": "Arcaniste 03",
+            "zone_en": "Middle La Noscea",
+            "zone_fr": "Noscea centrale",
+            "location": "(22, 25)",
+            "mob_en": "Lost Lamb x3",
+            "mob_fr": "Agneau égaré x3"
+        },
+        "x3": {
+            "rank": "1",
+            "name_en": "Arcanist 04",
+            "name_fr": "Arcaniste 04",
+            "zone_en": "Lower La Noscea",
+            "zone_fr": "Basse-Noscea",
+            "location": "(29, 21)",
+            "mob_en": "Wind Sprite x3",
+            "mob_fr": "Élémentaire de vent x3"
+        },
+        "x4": {
+            "rank": "1",
+            "name_en": "Arcanist 05",
+            "name_fr": "Arcaniste 05",
+            "zone_en": "Middle La Noscea",
+            "zone_fr": "Noscea centrale",
+            "location": "(21, 19)",
+            "mob_en": "Puk Hatchling x3",
+            "mob_fr": "Jeune puk x3"
+        },
+        "x5": {
+            "rank": "1",
+            "name_en": "Arcanist 06",
+            "name_fr": "Arcaniste 06",
+            "zone_en": "Lower La Noscea",
+            "zone_fr": "Basse-Noscea",
+            "location": "(31, 16)",
+            "mob_en": "Nesting Buzzard x3",
+            "mob_fr": "Jeune busard x3"
+        },
+        "x6": {
+            "rank": "1",
+            "name_en": "Arcanist 07",
+            "name_fr": "Arcaniste 07",
+            "zone_en": "Middle La Noscea",
+            "zone_fr": "Noscea centrale",
+            "location": "(20, 18)",
+            "mob_en": "Bogy x3",
+            "mob_fr": "Épouvantôme x3"
+        },
+        "x7": {
+            "rank": "1",
+            "name_en": "Arcanist 08",
+            "name_fr": "Arcaniste 08",
+            "zone_en": "Lower La Noscea",
+            "zone_fr": "Basse-Noscea",
+            "location": "(26, 15), (30, 14)",
+            "mob_en": "Cave Bat x3, Galago x3",
+            "mob_fr": "Chauve-souris cavernicole x3, Galago x3"
+        },
+        "x8": {
+            "rank": "1",
+            "name_en": "Arcanist 09",
+            "name_fr": "Arcaniste 09",
+            "zone_en": "Middle La Noscea",
+            "zone_fr": "Noscea centrale",
+            "location": "(19, 17)",
+            "mob_en": "Grounded Pirate x3",
+            "mob_fr": "Pirate échoué x3"
+        },
+        "x9": {
+            "rank": "1",
+            "name_en": "Arcanist 10",
+            "name_fr": "Arcaniste 10",
+            "zone_en": "Lower La Noscea",
+            "zone_fr": "Basse-Noscea",
+            "location": "(19, 34)",
+            "mob_en": "Lightning Sprite x3",
+            "mob_fr": "Élémentaire de foudre x3"
+        },
+        "x10": {
+            "rank": "2",
+            "name_en": "Arcanist 11",
+            "name_fr": "Arcaniste 11",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidentale",
+            "location": "(33, 28)",
+            "mob_en": "Sewer Mole x3",
+            "mob_fr": "Taupe d'égout x3"
+        },
+        "x11": {
+            "rank": "2",
+            "name_en": "Arcanist 12",
+            "name_fr": "Arcaniste 12",
+            "zone_en": "Lower La Noscea",
+            "zone_fr": "Basse-Noscea",
+            "location": "(25, 26)",
+            "mob_en": "Mossless Goobbue x3",
+            "mob_fr": "Goobbue dépouillé x3"
+        },
+        "x12": {
+            "rank": "2",
+            "name_en": "Arcanist 13",
+            "name_fr": "Arcaniste 13",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidentale",
+            "location": "(32, 28)",
+            "mob_en": "Fat Dodo x3",
+            "mob_fr": "Dodo dodu x3"
+        },
+        "x13": {
+            "rank": "2",
+            "name_en": "Arcanist 14",
+            "name_fr": "Arcaniste 14",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidentale",
+            "location": "(30, 30)",
+            "mob_en": "Arbor Buzzard x3",
+            "mob_fr": "Busard x3"
+        },
+        "x14": {
+            "rank": "2",
+            "name_en": "Arcanist 15",
+            "name_fr": "Arcaniste 15",
+            "zone_en": "Lower La Noscea",
+            "zone_fr": "Basse-Noscea",
+            "location": "(18, 35)",
+            "mob_en": "Qiqirn Eggdigger x3",
+            "mob_fr": "Qiqirn déterre-œuf x3"
+        },
+        "x15": {
+            "rank": "2",
+            "name_en": "Arcanist 16",
+            "name_fr": "Arcaniste 16",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidentale",
+            "location": "(24, 22)",
+            "mob_en": "Dusk Bat x3",
+            "mob_fr": "Chauve-souris crépusculaire x3"
+        },
+        "x16": {
+            "rank": "2",
+            "name_en": "Arcanist 17",
+            "name_fr": "Arcaniste 17",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidentale",
+            "location": "(27, 24)",
+            "mob_en": "Puk Hatchling x3",
+            "mob_fr": "Puk x3"
+        },
+        "x17": {
+            "rank": "2",
+            "name_en": "Arcanist 18",
+            "name_fr": "Arcaniste 18",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidentale",
+            "location": "(25, 23), (24, 22)",
+            "mob_en": "Hedgemole x3, Rothlyt Pelican x3",
+            "mob_fr": "Héritaupe x3, Pélican de Rothlyt x3"
+        },
+        "x18": {
+            "rank": "2",
+            "name_en": "Arcanist 19",
+            "name_fr": "Arcaniste 19",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidentale",
+            "location": "(23, 21)",
+            "mob_en": "Killer Mantis x3",
+            "mob_fr": "Mante tueuse x3"
+        },
+        "x19": {
+            "rank": "2",
+            "name_en": "Arcanist 20",
+            "name_fr": "Arcaniste 20",
+            "zone_en": "Upper La Noscea",
+            "zone_fr": "Haute-Noscea",
+            "location": "(13, 25)",
+            "mob_en": "Bumble Beetle x3",
+            "mob_fr": "Scarabourdon x3"
+        },
+        "x20": {
+            "rank": "3",
+            "name_en": "Arcanist 21",
+            "name_fr": "Arcaniste 21",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(23, 29)",
+            "mob_en": "Overgrown Ivy x4",
+            "mob_fr": "Lierre envahissant x4"
+        },
+        "x21": {
+            "rank": "3",
+            "name_en": "Arcanist 22",
+            "name_fr": "Arcaniste 22",
+            "zone_en": "Western Thanalan",
+            "zone_fr": "Thanalan occidental",
+            "location": "(13, 11)",
+            "mob_en": "Lead Coblyn x4",
+            "mob_fr": "Coblyn de plomb x4"
+        },
+        "x22": {
+            "rank": "3",
+            "name_en": "Arcanist 23",
+            "name_fr": "Arcaniste 23",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(21, 22)",
+            "mob_en": "Kedtrap x4",
+            "mob_fr": "Piège-pou x4"
+        },
+        "x23": {
+            "rank": "3",
+            "name_en": "Arcanist 24",
+            "name_fr": "Arcaniste 24",
+            "zone_en": "Upper La Noscea",
+            "zone_fr": "Haute-Noscea",
+            "location": "(9, 20)",
+            "mob_en": "Coeurl Pup x4",
+            "mob_fr": "Jeune coeurl x4"
+        },
+        "x24": {
+            "rank": "3",
+            "name_en": "Arcanist 25",
+            "name_fr": "Arcaniste 25",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(23, 20)",
+            "mob_en": "Antelope Stag x4",
+            "mob_fr": "Antilope cerf x4"
+        },
+        "x25": {
+            "rank": "3",
+            "name_en": "Arcanist 26",
+            "name_fr": "Arcaniste 26",
+            "zone_en": "North Shroud, Eastern Thanalan",
+            "zone_fr": "Forêt du nord, Thanalan oriental",
+            "location": "(17, 27), (22, 19)",
+            "mob_en": "Balloon x4, Chasm Buzzard x2",
+            "mob_fr": "Ballon x4, Busard des gouffres x2"
+        },
+        "x26": {
+            "rank": "3",
+            "name_en": "Arcanist 27",
+            "name_fr": "Arcaniste 27",
+            "zone_en": "Eastern Thanalan",
+            "zone_fr": "Thanalan oriental",
+            "location": "(26, 17)",
+            "mob_en": "Axe Beak x4",
+            "mob_fr": "Bec-pic x4"
+        },
+        "x27": {
+            "rank": "3",
+            "name_en": "Arcanist 28",
+            "name_fr": "Arcaniste 28",
+            "zone_en": "North Shroud, Southern Thanalan",
+            "zone_fr": "Forêt du nord, Thanalan méridional",
+            "location": "(17, 28), (22, 12)",
+            "mob_en": "Clay Golem x4, Sandstone Golem x2",
+            "mob_fr": "Golem d'argile x4, Golem de grès x2"
+        },
+        "x28": {
+            "rank": "3",
+            "name_en": "Arcanist 29",
+            "name_fr": "Arcaniste 29",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(17, 19)",
+            "mob_en": "Brood Ziz x4",
+            "mob_fr": "Ziz poussin x4"
+        },
+        "x29": {
+            "rank": "3",
+            "name_en": "Arcanist 30",
+            "name_fr": "Arcaniste 30",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(13, 20)",
+            "mob_en": "Lindwurm x4",
+            "mob_fr": "Lindwurm x4"
+        },
+        "x30": {
+            "rank": "4",
+            "name_en": "Arcanist 31",
+            "name_fr": "Arcaniste 31",
+            "zone_en": "Eastern La Noscea",
+            "zone_fr": "Noscea orientale",
+            "location": "(26, 32)",
+            "mob_en": "Qiqirn Gullroaster x4",
+            "mob_fr": "Qiqirn grille-mouette x4"
+        },
+        "x31": {
+            "rank": "4",
+            "name_en": "Arcanist 32",
+            "name_fr": "Arcaniste 32",
+            "zone_en": "Eastern La Noscea",
+            "zone_fr": "Noscea orientale",
+            "location": "(16, 26)",
+            "mob_en": "Grass Raptor x4",
+            "mob_fr": "Raptor des plaines x4"
+        },
+        "x32": {
+            "rank": "4",
+            "name_en": "Arcanist 33",
+            "name_fr": "Arcaniste 33",
+            "zone_en": "Eastern La Noscea",
+            "zone_fr": "Noscea orientale",
+            "location": "(17, 26)",
+            "mob_en": "Gigantoad x4",
+            "mob_fr": "Crapaud géant x4"
+        },
+        "x33": {
+            "rank": "4",
+            "name_en": "Arcanist 34",
+            "name_fr": "Arcaniste 34",
+            "zone_en": "Southern Thanalan",
+            "zone_fr": "Thanalan méridional",
+            "location": "(25, 38)",
+            "mob_en": "Sundrake x4",
+            "mob_fr": "Draconide du soleil x4"
+        },
+        "x34": {
+            "rank": "4",
+            "name_en": "Arcanist 35",
+            "name_fr": "Arcaniste 35",
+            "zone_en": "Eastern La Noscea",
+            "zone_fr": "Noscea orientale",
+            "location": "(29, 24)",
+            "mob_en": "Colibri x4",
+            "mob_fr": "Colibri x4"
+        },
+        "x35": {
+            "rank": "4",
+            "name_en": "Arcanist 36",
+            "name_fr": "Arcaniste 36",
+            "zone_en": "Outer La Noscea, Eastern La Noscea",
+            "zone_fr": "Noscea extérieure, Noscea orientale",
+            "location": "(14, 14), (17, 32)",
+            "mob_en": "Coeurl x4, Mildewed Goobbue x1",
+            "mob_fr": "Coeurl x4, Goobue mildiousé x1"
+        },
+        "x36": {
+            "rank": "4",
+            "name_en": "Arcanist 37",
+            "name_fr": "Arcaniste 37",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas central",
+            "location": "(31, 14)",
+            "mob_en": "Snow Wolf Pup x4",
+            "mob_fr": "Louveteau des neiges x4"
+        },
+        "x37": {
+            "rank": "4",
+            "name_en": "Arcanist 38",
+            "name_fr": "Arcaniste 38",
+            "zone_en": "Coerthas Central Highlands, North Shroud",
+            "zone_fr": "Hautes terres du Coerthas central, Forêt du nord",
+            "location": "(26, 24), (23, 25)",
+            "mob_en": "Feral Croc x4, Dryad x2",
+            "mob_fr": "Crocodile sauvage x4, Dryade x2"
+        },
+        "x38": {
+            "rank": "4",
+            "name_en": "Arcanist 39",
+            "name_fr": "Arcaniste 39",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas central",
+            "location": "(32, 12)",
+            "mob_en": "Taurus x4",
+            "mob_fr": "Taurus x4"
+        },
+        "x39": {
+            "rank": "4",
+            "name_en": "Arcanist 40",
+            "name_fr": "Arcaniste 40",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(26, 24)",
+            "mob_en": "Molted Ziz x4",
+            "mob_fr": "Ziz déplumé x4"
+        },
+        "x40": {
+            "rank": "5",
+            "name_en": "Arcanist 41",
+            "name_fr": "Arcaniste 41",
+            "zone_en": "Eastern Thanalan",
+            "zone_fr": "Thanalan oriental",
+            "location": "(29, 26)",
+            "mob_en": "Quartz Doblyn x4",
+            "mob_fr": "Doblyn de quartz x4"
+        },
+        "x41": {
+            "rank": "5",
+            "name_en": "Arcanist 42",
+            "name_fr": "Arcaniste 42",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidentale",
+            "location": "(12, 35)",
+            "mob_en": "Lammergeyer x4",
+            "mob_fr": "Gypaète x4"
+        },
+        "x42": {
+            "rank": "5",
+            "name_en": "Arcanist 43",
+            "name_fr": "Arcaniste 43",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(28, 21)",
+            "mob_en": "3rd Cohort Laquearius x2",
+            "mob_fr": "Laquearius de la 3e cohorte x2"
+        },
+        "x43": {
+            "rank": "5",
+            "name_en": "Arcanist 44",
+            "name_fr": "Arcaniste 44",
+            "zone_en": "Mor Dhona",
+            "zone_fr": "Mor Dhona",
+            "location": "(18, 8), (13, 10)",
+            "mob_en": "Nix x4, Mudpuppy x2",
+            "mob_fr": "Nix x4, Protée x2"
+        },
+        "x44": {
+            "rank": "5",
+            "name_en": "Arcanist 45",
+            "name_fr": "Arcaniste 45",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(29, 23)",
+            "mob_en": "Wild Hog x4",
+            "mob_fr": "Verrat sauvage x4"
+        },
+        "x45": {
+            "rank": "5",
+            "name_en": "Arcanist 46",
+            "name_fr": "Arcaniste 46",
+            "zone_en": "North Shroud, Mor Dhona",
+            "zone_fr": "Forêt du nord, Mor Dhona",
+            "location": "(21, 20), (12, 12)",
+            "mob_en": "Watchwolf x4, 5th Cohort Laquearius x2",
+            "mob_fr": "Loup de garde x4, Laquearius de la 5e cohorte x2"
+        },
+        "x46": {
+            "rank": "5",
+            "name_en": "Arcanist 47",
+            "name_fr": "Arcaniste 47",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas central",
+            "location": "(15, 30)",
+            "mob_en": "Snow Wolf x4",
+            "mob_fr": "Loup de neiges x4"
+        },
+        "x47": {
+            "rank": "5",
+            "name_en": "Arcanist 48",
+            "name_fr": "Arcaniste 48",
+            "zone_en": "Coerthas Central Highlands, Western La Noscea",
+            "zone_fr": "Hautes terres du Coerthas central, Noscea occidentale",
+            "location": "(31, 18), (17, 15)",
+            "mob_en": "Natalan Watchwolf x4, Axolotl x2",
+            "mob_fr": "Loup de Natalan x4,  Axolotl x2"
+        },
+        "x48": {
+            "rank": "5",
+            "name_en": "Arcanist 49",
+            "name_fr": "Arcaniste 49",
+            "zone_en": "Southern Thanalan",
+            "zone_fr": "Thanalan méridional",
+            "location": "(30, 19)",
+            "mob_en": "Zahar'ak Battle Drake x4",
+            "mob_fr": "Draconide de Zahar'ak x4"
+        },
+        "x49": {
+            "rank": "5",
+            "name_en": "Arcanist 50",
+            "name_fr": "Arcaniste 50",
+            "zone_en": "Western Thanalan",
+            "zone_fr": "Thanalan occidental",
+            "location": "(12, 7)",
+            "mob_en": "4th Cohort Vanguard x4",
+            "mob_fr": "Avant-garde de la 4e cohorte x4"
+        }
+    }
+}

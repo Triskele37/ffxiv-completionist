@@ -1,0 +1,1734 @@
+{
+    "key": "heavensward",
+    "groupName_en": "Heavensward",
+    "groupName_fr": "Chroniques Ishgardaises",
+    "tasks": {
+        "x67116": {
+            "level": 50,
+            "name_en": "Coming to Ishgard",
+            "name_fr": "Vers la sainte Cité",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67274",
+                67117
+            ],
+            "patch": "4.31"
+        },
+        "x67117": {
+            "level": 50,
+            "name_en": "Taking in the Sights",
+            "name_fr": "Visite touristique",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67116
+            ],
+            "cNext": [
+                67118
+            ],
+            "patch": "4.31"
+        },
+        "x67118": {
+            "level": 50,
+            "name_en": "The Better Half",
+            "name_fr": "Les bas-fonds",
+            "npc_en": "House Fortemps Manservant",
+            "npc_fr": "serviteur des Fortemps",
+            "cPrev": [
+                67117
+            ],
+            "cNext": [
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67632",
+                "duty.quests.sidequests.ishgardian.ishgard.67631",
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67633",
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67634",
+                "duty.quests.sidequests.ishgardian.ishgard.67264",
+                "duty.quests.sidequests.ishgardian.ishgard.67265",
+                "duty.quests.sidequests.ishgardian.ishgard.67266",
+                "duty.quests.sidequests.ishgardian.ishgard.67267",
+                "duty.quests.sidequests.ishgardian.ishgard.67263",
+                "duty.quests.other.quasi-quests.67642",
+                67119,
+                67126,
+                "duty.quests.sidequests.ishgardian.ishgard.67262"
+            ],
+            "patch": "4.31"
+        },
+        "x67119": {
+            "level": 50,
+            "name_en": "Over the Wall",
+            "name_fr": "Le Nid du faucon",
+            "npc_en": "Artoirel",
+            "npc_fr": "Artoirel",
+            "cPrev": [
+                67118
+            ],
+            "cNext": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67268",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67269",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67270",
+                67120
+            ],
+            "patch": "4.31"
+        },
+        "x67120": {
+            "level": 50,
+            "name_en": "Work in Progress",
+            "name_fr": "Murs en travaux",
+            "npc_en": "Redwald",
+            "npc_fr": "Redwald",
+            "cPrev": [
+                67119
+            ],
+            "cNext": [
+                67121
+            ],
+            "patch": "4.31"
+        },
+        "x67121": {
+            "level": 50,
+            "name_en": "The First and Foremost",
+            "name_fr": "Rénover La Pique",
+            "npc_en": "Rothe",
+            "npc_fr": "Rothe",
+            "cPrev": [
+                67120
+            ],
+            "cNext": [
+                67122
+            ],
+            "patch": "4.31"
+        },
+        "x67122": {
+            "level": 50,
+            "name_en": "From on High",
+            "name_fr": "Amour interdit",
+            "npc_en": "Thierremont",
+            "npc_fr": "Thierremont",
+            "cPrev": [
+                67121
+            ],
+            "cNext": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67272",
+                67123,
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67271"
+            ],
+            "patch": "4.31"
+        },
+        "x67123": {
+            "level": 50,
+            "name_en": "Reconnaissance Lost",
+            "name_fr": "Patrouille aux Deux-Rivières",
+            "npc_en": "Redwald",
+            "npc_fr": "Redwald",
+            "cPrev": [
+                67122
+            ],
+            "cNext": [
+                67124
+            ],
+            "patch": "4.31"
+        },
+        "x67124": {
+            "level": 50,
+            "name_en": "At the End of Our Hope",
+            "name_fr": "Retrouvailles à Gorgagne",
+            "npc_en": "Artoirel",
+            "npc_fr": "Artoirel",
+            "cPrev": [
+                67123
+            ],
+            "cNext": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67273",
+                67125
+            ],
+            "patch": "4.31"
+        },
+        "x67125": {
+            "level": 50,
+            "name_en": "Knights Be Not Proud",
+            "name_fr": "Les remords d'Artoirel",
+            "npc_en": "Artoirel",
+            "npc_fr": "Artoirel",
+            "cPrev": [
+                67124
+            ],
+            "cNext": [
+                67133
+            ],
+            "patch": "4.31"
+        },
+        "x67126": {
+            "level": 50,
+            "name_en": "Onwards and Upwards",
+            "name_fr": "Premier vol pour Cime-des-nuages",
+            "npc_en": "Emmanellain",
+            "npc_fr": "Emmanellain",
+            "cPrev": [
+                67118
+            ],
+            "cNext": [
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67276",
+                67127,
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67277"
+            ],
+            "patch": "4.31"
+        },
+        "x67127": {
+            "level": 50,
+            "name_en": "An Indispensable Ally",
+            "name_fr": "Se débarrasser du gêneur",
+            "npc_en": "Laniaitte",
+            "npc_fr": "Laniaitte",
+            "cPrev": [
+                67126
+            ],
+            "cNext": [
+                67128
+            ],
+            "patch": "4.31"
+        },
+        "x67128": {
+            "level": 50,
+            "name_en": "Meeting the Neighbors",
+            "name_fr": "Premier contact avec les Vanu Vanu",
+            "npc_en": "Laniaitte",
+            "npc_fr": "Laniaitte",
+            "cPrev": [
+                67127
+            ],
+            "cNext": [
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67275",
+                67129
+            ],
+            "patch": "4.31"
+        },
+        "x67129": {
+            "level": 50,
+            "name_en": "Sense of Urgency",
+            "name_fr": "Le spleen du Rosier",
+            "npc_en": "Marielle",
+            "npc_fr": "Marielle",
+            "cPrev": [
+                67128
+            ],
+            "cNext": [
+                67130
+            ],
+            "patch": "4.31"
+        },
+        "x67130": {
+            "level": 50,
+            "name_en": "Hope Springs Eternal",
+            "name_fr": "Les cristaux, ça coule de source",
+            "npc_en": "Marielle",
+            "npc_fr": "Marielle",
+            "cPrev": [
+                67129
+            ],
+            "cNext": [
+                67131
+            ],
+            "patch": "4.31"
+        },
+        "x67131": {
+            "level": 50,
+            "name_en": "A Series of Unfortunate Events",
+            "name_fr": "Dans les serres des Vanu Vanu",
+            "npc_en": "Honoroit",
+            "npc_fr": "Honoroit",
+            "cPrev": [
+                67130
+            ],
+            "cNext": [
+                67132
+            ],
+            "patch": "4.31"
+        },
+        "x67132": {
+            "level": 50,
+            "name_en": "A Reward Long in Coming",
+            "name_fr": "Un retour douloureux",
+            "npc_en": "Emmanellain",
+            "npc_fr": "Emmanellain",
+            "cPrev": [
+                67131
+            ],
+            "cNext": [
+                67133
+            ],
+            "patch": "4.31"
+        },
+        "x67133": {
+            "level": 50,
+            "name_en": "Divine Intervention",
+            "name_fr": "Les chevaliers de l'Azur",
+            "unlock": "duty.collection.0",
+            "npc_en": "House Fortemps Steward",
+            "npc_fr": "majordome des Fortemps",
+            "cPrev": [
+                67125,
+                67132
+            ],
+            "cNext": [
+                67134
+            ],
+            "cSiblings": [
+                "duty.collection.0"
+            ],
+            "patch": "4.31"
+        },
+        "x67134": {
+            "level": 50,
+            "name_en": "Disclosure",
+            "name_fr": "L'audience",
+            "npc_en": "Haurchefant",
+            "npc_fr": "Haurchefant",
+            "cPrev": [
+                67133
+            ],
+            "cNext": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67280",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67284",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67281",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67282",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67283",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67285",
+                "duty.quests.sidequests.ishgardian.ishgard.67278",
+                "duty.quests.sidequests.ishgardian.ishgard.67279",
+                67135
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1133"
+            ],
+            "patch": "4.31"
+        },
+        "x67135": {
+            "level": 51,
+            "name_en": "Flame General Affairs",
+            "name_fr": "Ul'dah après la tempête",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67134
+            ],
+            "cNext": [
+                67136
+            ],
+            "patch": "4.31"
+        },
+        "x67136": {
+            "level": 51,
+            "name_en": "In Search of Raubahn",
+            "name_fr": "Un général aux fers",
+            "npc_en": "Higiri",
+            "npc_fr": "Higiri",
+            "cPrev": [
+                67135
+            ],
+            "cNext": [
+                67137
+            ],
+            "patch": "4.31"
+        },
+        "x67137": {
+            "level": 51,
+            "name_en": "Keeping the Flame Alive",
+            "name_fr": "Le sauvetage de Raubahn",
+            "npc_en": "Hozan",
+            "npc_fr": "Hozan",
+            "cPrev": [
+                67136
+            ],
+            "cNext": [
+                67138
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1134"
+            ],
+            "patch": "4.31"
+        },
+        "x67138": {
+            "level": 51,
+            "name_en": "To Siege or Not to Siege",
+            "name_fr": "La résolution des aventuriers",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67137
+            ],
+            "cNext": [
+                67139
+            ],
+            "patch": "4.31"
+        },
+        "x67139": {
+            "level": 51,
+            "name_en": "Alphinaud's Way",
+            "name_fr": "Le plan d'Alphinaud",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67138
+            ],
+            "cNext": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67288",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67294",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67292",
+                67140,
+                "duty.quests.sidequests.ishgardian.ishgard.67286",
+                "duty.quests.sidequests.ishgardian.ishgard.67287",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67291",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67293"
+            ],
+            "patch": "4.31"
+        },
+        "x67140": {
+            "level": 51,
+            "name_en": "In Search of Iceheart",
+            "name_fr": "À la recherche de Cœur-de-glace",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67139
+            ],
+            "cNext": [
+                67141
+            ],
+            "patch": "4.31"
+        },
+        "x67141": {
+            "level": 51,
+            "name_en": "From One Heretic to Another",
+            "name_fr": "Hérétiques et épistoliers",
+            "npc_en": "Expedition Leader",
+            "npc_fr": "capitaine de la brigade de recherche",
+            "cPrev": [
+                67140
+            ],
+            "cNext": [
+                67142
+            ],
+            "patch": "4.31"
+        },
+        "x67142": {
+            "level": 51,
+            "name_en": "Sounding Out the Amphitheatre",
+            "name_fr": "Du sang sur les planches",
+            "unlock": "travel.mount-speed.ishgard--coerthas.2",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67141
+            ],
+            "cNext": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67296",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67647",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67305",
+                67143,
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67289",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67297",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67298",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67300",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67301",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67302"
+            ],
+            "cSiblings": [
+                "travel.mount-speed.ishgard--coerthas.2"
+            ],
+            "patch": "4.31"
+        },
+        "x67143": {
+            "level": 51,
+            "name_en": "Camp of the Convictors",
+            "name_fr": "Le Convictoire",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67142
+            ],
+            "cNext": [
+                67144,
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67295",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67299",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67303",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67304"
+            ],
+            "patch": "4.31"
+        },
+        "x67144": {
+            "level": 51,
+            "name_en": "Purple Flame, Purple Flame",
+            "name_fr": "Une trahison millénaire",
+            "unlock": "travel.aether-currents.hw.coerthas-western-highlands.14",
+            "npc_en": "Estinien",
+            "npc_fr": "Estinien",
+            "cPrev": [
+                67143
+            ],
+            "cNext": [
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67290",
+                67145
+            ],
+            "cSiblings": [
+                "travel.aether-currents.hw.coerthas-western-highlands.14"
+            ],
+            "patch": "4.31"
+        },
+        "x67145": {
+            "level": 52,
+            "name_en": "Where the Chocobos Roam",
+            "name_fr": "En route vers la confrontation",
+            "npc_en": "Ysayle",
+            "npc_fr": "Ysayle",
+            "cPrev": [
+                67144
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67307",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67311",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67312",
+                67146,
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67306",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67308",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67309",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67310",
+                "duty.quests.other.quasi-quests.67643"
+            ],
+            "patch": "4.31"
+        },
+        "x67146": {
+            "level": 52,
+            "name_en": "Worse than Dragons",
+            "name_fr": "Attention aux Gnathes",
+            "npc_en": "Marcechamp",
+            "npc_fr": "Marcechamp",
+            "cPrev": [
+                67145
+            ],
+            "cNext": [
+                67147
+            ],
+            "patch": "4.31"
+        },
+        "x67147": {
+            "level": 52,
+            "name_en": "The Trine Towers",
+            "name_fr": "La tour des dragons",
+            "npc_en": "Ysayle",
+            "npc_fr": "Ysayle",
+            "cPrev": [
+                67146
+            ],
+            "cNext": [
+                67148,
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67318",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67313",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67317",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67319"
+            ],
+            "patch": "4.31"
+        },
+        "x67148": {
+            "level": 52,
+            "name_en": "Gifts for the Outcasts",
+            "name_fr": "Un cadeau de circonstance",
+            "npc_en": "Ysayle",
+            "npc_fr": "Ysayle",
+            "cPrev": [
+                67147
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67314",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67315",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67320",
+                67149,
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67316",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67321"
+            ],
+            "patch": "4.31"
+        },
+        "x67149": {
+            "level": 52,
+            "name_en": "The Nonmind",
+            "name_fr": "Les Égarés",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67148
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67328",
+                67150,
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67322",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67323",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67324",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67326",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67327",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67325"
+            ],
+            "patch": "4.31"
+        },
+        "x67150": {
+            "level": 53,
+            "name_en": "A Gnathic Deity",
+            "name_fr": "Le dieu des Gnathes",
+            "npc_en": "Ysayle",
+            "npc_fr": "Ysayle",
+            "cPrev": [
+                67149
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67334",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67338",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67329",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67330",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67331",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67335",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67336",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67337",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67348",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67351",
+                67151,
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67332",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67333",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67339",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67350"
+            ],
+            "patch": "4.31"
+        },
+        "x67151": {
+            "level": 53,
+            "name_en": "Breaking into Hives",
+            "name_fr": "Un pari dangereux",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67150
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67341",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67344",
+                67152,
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67340",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67342",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67343"
+            ],
+            "patch": "4.31"
+        },
+        "x67152": {
+            "level": 53,
+            "name_en": "Lord of the Hive",
+            "name_fr": "Le Maître des lames",
+            "unlock": [
+                "duty.dutyraid-finder.trials.hw.0",
+                "travel.mount-speed.ishgard--coerthas.9"
+            ],
+            "npc_en": "Ysayle",
+            "npc_fr": "Ysayle",
+            "cPrev": [
+                67151
+            ],
+            "cNext": [
+                67153,
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67346",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67352",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67353",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67354",
+                "duty.quests.tribal-quests.vath.67791",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67345",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67347",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67349"
+            ],
+            "cSiblings": [
+                "travel.mount-speed.ishgard--coerthas.9"
+            ],
+            "patch": "4.31"
+        },
+        "x67153": {
+            "level": 53,
+            "name_en": "Mourn in Passing",
+            "name_fr": "Les cimes de Sohm Al",
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.hw.1",
+                "travel.aether-currents.hw.the-dravanian-forelands.14"
+            ],
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67152
+            ],
+            "cNext": [
+                67154
+            ],
+            "cSiblings": [
+                "travel.aether-currents.hw.the-dravanian-forelands.14"
+            ],
+            "patch": "4.31"
+        },
+        "x67154": {
+            "level": 53,
+            "name_en": "Beyond the Clouds",
+            "name_fr": "Des silhouettes inattendues",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67153
+            ],
+            "cNext": [
+                67155
+            ],
+            "patch": "4.31"
+        },
+        "x67155": {
+            "level": 54,
+            "name_en": "Mountaintop Diplomacy",
+            "name_fr": "Les Mogs célestes",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67154
+            ],
+            "cNext": [
+                67156,
+                67158,
+                67157
+            ],
+            "patch": "4.31"
+        },
+        "x67156": {
+            "level": 54,
+            "name_en": "Moghan's Trial",
+            "name_fr": "L'épreuve de Moghan",
+            "npc_en": "Moghan",
+            "npc_fr": "Moghan",
+            "cPrev": [
+                67155
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-churning-mists.67355",
+                67159
+            ],
+            "patch": "4.31"
+        },
+        "x67157": {
+            "level": 54,
+            "name_en": "Mogmug's Trial",
+            "name_fr": "L'épreuve de Mogmug",
+            "npc_en": "Mogmug",
+            "npc_fr": "Mogmug",
+            "cPrev": [
+                67155
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-churning-mists.67356",
+                67159
+            ],
+            "patch": "4.31"
+        },
+        "x67158": {
+            "level": 54,
+            "name_en": "Mogwin's Trial",
+            "name_fr": "L'épreuve de Mogwin",
+            "npc_en": "Mogwin",
+            "npc_fr": "Mogwin",
+            "cPrev": [
+                67155
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-churning-mists.67358",
+                67159
+            ],
+            "patch": "4.31"
+        },
+        "x67159": {
+            "level": 54,
+            "name_en": "Moglin's Judgment",
+            "name_fr": "Tout est kupo qui finit kuppo",
+            "npc_en": "Moglin",
+            "npc_fr": "Moglin",
+            "cPrev": [
+                67156,
+                67157,
+                67158
+            ],
+            "cNext": [
+                67160,
+                "duty.quests.sidequests.dravanian.the-churning-mists.67357",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67360"
+            ],
+            "patch": "4.31"
+        },
+        "x67160": {
+            "level": 54,
+            "name_en": "Leaving Moghome",
+            "name_fr": "L'avertissement de l'Oracle",
+            "npc_en": "Moghan",
+            "npc_fr": "Moghan",
+            "cPrev": [
+                67159
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-churning-mists.67359",
+                67161
+            ],
+            "patch": "4.31"
+        },
+        "x67161": {
+            "level": 54,
+            "name_en": "The Road to Zenith",
+            "name_fr": "Un pont au-dessus des nuages",
+            "npc_en": "Moghan",
+            "npc_fr": "Moghan",
+            "cPrev": [
+                67160
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-churning-mists.67361",
+                67162,
+                "duty.quests.sidequests.dravanian.the-churning-mists.67362",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67363"
+            ],
+            "patch": "4.31"
+        },
+        "x67162": {
+            "level": 54,
+            "name_en": "Waiting for the Wind to Change",
+            "name_fr": "Le feu de la sincérité",
+            "unlock": "travel.mount-speed.ishgard--coerthas.13",
+            "npc_en": "Moghan",
+            "npc_fr": "Moghan",
+            "cPrev": [
+                67161
+            ],
+            "cNext": [
+                67163
+            ],
+            "cSiblings": [
+                "travel.mount-speed.ishgard--coerthas.13"
+            ],
+            "patch": "4.31"
+        },
+        "x67163": {
+            "level": 54,
+            "name_en": "Heart of Ice",
+            "name_fr": "L'illusion brisée",
+            "npc_en": "Moghan",
+            "npc_fr": "Moghan",
+            "cPrev": [
+                67162
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-churning-mists.67371",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67368",
+                67164,
+                "duty.quests.sidequests.dravanian.the-churning-mists.67367"
+            ],
+            "patch": "4.31"
+        },
+        "x67164": {
+            "level": 54,
+            "name_en": "The Wyrm's Lair",
+            "name_fr": "Le Nid du dragon",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67163
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-churning-mists.67365",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67366",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67369",
+                67165,
+                "duty.quests.sidequests.dravanian.the-churning-mists.67364",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67370"
+            ],
+            "patch": "4.31"
+        },
+        "x67165": {
+            "level": 54,
+            "name_en": "New Winds, Old Friends",
+            "name_fr": "La technologie au service de l'aventure",
+            "npc_en": "Estinien",
+            "npc_fr": "Estinien",
+            "cPrev": [
+                67164
+            ],
+            "cNext": [
+                67166
+            ],
+            "patch": "4.31"
+        },
+        "x67166": {
+            "level": 54,
+            "name_en": "A General Summons",
+            "name_fr": "Un message du désert",
+            "npc_en": "Tataru",
+            "npc_fr": "Tataru",
+            "cPrev": [
+                67165
+            ],
+            "cNext": [
+                67167
+            ],
+            "patch": "4.31"
+        },
+        "x67167": {
+            "level": 54,
+            "name_en": "Awakening in Ul'dah",
+            "name_fr": "Ul'dah martyrisée, mais Ul'dah libérée",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67166
+            ],
+            "cNext": [
+                67168
+            ],
+            "patch": "4.31"
+        },
+        "x67168": {
+            "level": 54,
+            "name_en": "A Brave Resolution",
+            "name_fr": "Une dévotion à toute épreuve",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67167
+            ],
+            "cNext": [
+                "duty.quests.sidequests.records-of-unusual-endeavors.doman-adventurers-guild.65581",
+                "duty.quests.sidequests.records-of-unusual-endeavors.doman-adventurers-guild.65636",
+                "duty.quests.sidequests.records-of-unusual-endeavors.doman-adventurers-guild.65586",
+                67169
+            ],
+            "patch": "4.31"
+        },
+        "x67169": {
+            "level": 55,
+            "name_en": "Ready to Fly",
+            "name_fr": "Dans l'œil du cyclone",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67168
+            ],
+            "cNext": [
+                67170
+            ],
+            "patch": "4.31"
+        },
+        "x67170": {
+            "level": 55,
+            "name_en": "Into the Aery",
+            "name_fr": "La colère du dragon",
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.hw.2",
+                "travel.aether-currents.hw.the-churning-mists.14"
+            ],
+            "npc_en": "Estinien",
+            "npc_fr": "Estinien",
+            "cPrev": [
+                67169
+            ],
+            "cNext": [
+                67171,
+                "duty.quests.tribal-quests.moogle.67856"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.hw.the-churning-mists.14"
+            ],
+            "patch": "4.31"
+        },
+        "x67171": {
+            "level": 55,
+            "name_en": "The Song Begins",
+            "name_fr": "Et la guerre commença",
+            "npc_en": "Estinien",
+            "npc_fr": "Estinien",
+            "cPrev": [
+                67170
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-churning-mists.67372",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67373",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67374",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67376",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67380",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67383",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67387",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67388",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67389",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67395",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67396",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67397",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67398",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67384",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67385",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67377",
+                67172,
+                "duty.quests.sidequests.dravanian.the-churning-mists.67375",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67378",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67379",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67381",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67382",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67386",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67391",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67392",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67393",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67394",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67399",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67400",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67401",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67402",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67403",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67404"
+            ],
+            "patch": "4.31"
+        },
+        "x67172": {
+            "level": 56,
+            "name_en": "Unrest in Ishgard",
+            "name_fr": "Émeute à Ishgard",
+            "npc_en": "Estinien",
+            "npc_fr": "Estinien",
+            "cPrev": [
+                67171
+            ],
+            "cNext": [
+                67173
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1135"
+            ],
+            "patch": "4.31"
+        },
+        "x67173": {
+            "level": 56,
+            "name_en": "He Who Would Not Be Denied",
+            "name_fr": "Le mensonge de l'Église",
+            "npc_en": "Haurchefant",
+            "npc_fr": "Haurchefant",
+            "cPrev": [
+                67172
+            ],
+            "cNext": [
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67437",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67433",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67436",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67438",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67439",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67418",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67419",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67420",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67407",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67413",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67416",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67430",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67425",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67426",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67427",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67434",
+                "duty.quests.sidequests.ishgardian.ishgard.67410",
+                "duty.quests.sidequests.ishgardian.ishgard.67406",
+                67174,
+                "duty.quests.sidequests.side-story.scholasticate.67405",
+                "duty.quests.sidequests.ishgardian.ishgard.67408",
+                "duty.quests.sidequests.ishgardian.ishgard.67409",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67411",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67412",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67414",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67415",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67417",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67421",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67422",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67423",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67424",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67428",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67429",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67431",
+                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67432",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67435",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67440"
+            ],
+            "patch": "4.31"
+        },
+        "x67174": {
+            "level": 56,
+            "name_en": "Ill-weather Friends",
+            "name_fr": "Soutien révolutionnaire",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67173
+            ],
+            "cNext": [
+                67529
+            ],
+            "patch": "4.31"
+        },
+        "x67529": {
+            "level": 56,
+            "name_en": "The Spice of Life",
+            "name_fr": "La sagesse du tavernier",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67174
+            ],
+            "cNext": [
+                67530
+            ],
+            "patch": "4.31"
+        },
+        "x67530": {
+            "level": 56,
+            "name_en": "Noble Indiscretions",
+            "name_fr": "Le vin de la mémoire I",
+            "npc_en": "Gibrillont",
+            "npc_fr": "Gibrillont",
+            "cPrev": [
+                67529
+            ],
+            "cNext": [
+                67531
+            ],
+            "patch": "4.31"
+        },
+        "x67531": {
+            "level": 56,
+            "name_en": "A Child Apart",
+            "name_fr": "Le vin de la mémoire II",
+            "npc_en": "Gibrillont",
+            "npc_fr": "Gibrillont",
+            "cPrev": [
+                67530
+            ],
+            "cNext": [
+                67532
+            ],
+            "patch": "4.31"
+        },
+        "x67532": {
+            "level": 56,
+            "name_en": "Bloodlines",
+            "name_fr": "La différence de la Bâtarde",
+            "npc_en": "Gibrillont",
+            "npc_fr": "Gibrillont",
+            "cPrev": [
+                67531
+            ],
+            "cNext": [
+                67175
+            ],
+            "patch": "4.31"
+        },
+        "x67175": {
+            "level": 57,
+            "name_en": "Fire and Blood",
+            "name_fr": "Face-à-face inattendus",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67532
+            ],
+            "cNext": [
+                67176
+            ],
+            "patch": "4.31"
+        },
+        "x67176": {
+            "level": 57,
+            "name_en": "A Knight's Calling",
+            "name_fr": "Le devoir du chevalier",
+            "unlock": "duty.dutyraid-finder.dungeons.hw.3",
+            "npc_en": "Hilda",
+            "npc_fr": "Hilda",
+            "cPrev": [
+                67175
+            ],
+            "cNext": [
+                67177
+            ],
+            "patch": "4.31"
+        },
+        "x67177": {
+            "level": 57,
+            "name_en": "The Sins of Antiquity",
+            "name_fr": "La conviction de l'Archevêque",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67176
+            ],
+            "cNext": [
+                "duty.quests.sidequests.ishgardian.ishgard.67441",
+                "duty.quests.sidequests.ishgardian.ishgard.67442",
+                67178
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1136"
+            ],
+            "patch": "4.31"
+        },
+        "x67178": {
+            "level": 57,
+            "name_en": "In Search of the Soleil",
+            "name_fr": "À la poursuite de l'Archevêque",
+            "npc_en": "Lucia",
+            "npc_fr": "Lucia",
+            "cPrev": [
+                67177
+            ],
+            "cNext": [
+                67179
+            ],
+            "patch": "4.31"
+        },
+        "x67179": {
+            "level": 57,
+            "name_en": "Into the Blue",
+            "name_fr": "Vers L'Écume des cieux d'Abalathia",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67178
+            ],
+            "cNext": [
+                67180
+            ],
+            "patch": "4.31"
+        },
+        "x67180": {
+            "level": 57,
+            "name_en": "Familiar Faces",
+            "name_fr": "Bubuler à l'aide",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67179
+            ],
+            "cNext": [
+                67181
+            ],
+            "patch": "4.31"
+        },
+        "x67181": {
+            "level": 57,
+            "name_en": "Devourer of Worlds",
+            "name_fr": "Un nid d'hommes-hiboux",
+            "npc_en": "Lonu Vanu",
+            "npc_fr": "Lonu Vanu",
+            "cPrev": [
+                67180
+            ],
+            "cNext": [
+                67182
+            ],
+            "patch": "4.31"
+        },
+        "x67182": {
+            "level": 57,
+            "name_en": "Black and the White",
+            "name_fr": "La légende du Migrateur des brumes",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67181
+            ],
+            "cNext": [
+                67183,
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67445",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67446",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67443",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67444",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67447",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67451",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67450",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67452"
+            ],
+            "patch": "4.31"
+        },
+        "x67183": {
+            "level": 57,
+            "name_en": "Bolt, Chain, and Island",
+            "name_fr": "La pêche à la baleine",
+            "unlock": [
+                "duty.dutyraid-finder.trials.hw.1",
+                "travel.aether-currents.hw.the-sea-of-clouds.11",
+                "travel.mount-speed.ishgard--coerthas.4"
+            ],
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67182
+            ],
+            "cNext": [
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67448",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67455",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67457",
+                67184,
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67449",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67453",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67454",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67456"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.hw.the-sea-of-clouds.11",
+                "travel.mount-speed.ishgard--coerthas.4"
+            ],
+            "patch": "4.31"
+        },
+        "x67184": {
+            "level": 57,
+            "name_en": "A Difference of Opinion",
+            "name_fr": "Une impérieuse présence",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67183
+            ],
+            "cNext": [
+                67185,
+                "duty.quests.tribal-quests.vanu.67700"
+            ],
+            "patch": "4.31"
+        },
+        "x67185": {
+            "level": 57,
+            "name_en": "One Good Turn",
+            "name_fr": "Un obstacle de plus",
+            "npc_en": "Cid",
+            "npc_fr": "Cid",
+            "cPrev": [
+                67184
+            ],
+            "cNext": [
+                67186
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1137"
+            ],
+            "patch": "4.31"
+        },
+        "x67186": {
+            "level": 57,
+            "name_en": "An Engineering Enterprise",
+            "name_fr": "Un espoir de retrouvaille",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67185
+            ],
+            "cNext": [
+                67187
+            ],
+            "patch": "4.31"
+        },
+        "x67187": {
+            "level": 57,
+            "name_en": "Aetherial Trail",
+            "name_fr": "Le sort interdit",
+            "npc_en": "Tataru",
+            "npc_fr": "Tataru",
+            "cPrev": [
+                67186
+            ],
+            "cNext": [
+                67188
+            ],
+            "patch": "4.31"
+        },
+        "x67188": {
+            "level": 57,
+            "name_en": "Lost in the Lifestream",
+            "name_fr": "Sauvetage en éther",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67187
+            ],
+            "cNext": [
+                67189
+            ],
+            "patch": "4.31"
+        },
+        "x67189": {
+            "level": 57,
+            "name_en": "Tataru's Surprise",
+            "name_fr": "Un cadeau de convalescence",
+            "npc_en": "Tataru",
+            "npc_fr": "Tataru",
+            "cPrev": [
+                67188
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67464",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67465",
+                67190,
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67458",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67459",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67460",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67461",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67463",
+                "duty.quests.sidequests.dravanian.the-dravanian-forelands.67466"
+            ],
+            "patch": "4.31"
+        },
+        "x67190": {
+            "level": 57,
+            "name_en": "Onward to Sharlayan",
+            "name_fr": "Départ vers l'arrière-pays",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": [
+                67189
+            ],
+            "cNext": [
+                67191
+            ],
+            "patch": "4.31"
+        },
+        "x67191": {
+            "level": 58,
+            "name_en": "A Great New Nation",
+            "name_fr": "Une cité pas si abandonnée",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": [
+                67190
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67472",
+                "duty.quests.sidequests.dravanian.idyllshire.67468",
+                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67469",
+                67192,
+                "duty.quests.sidequests.dravanian.idyllshire.67467"
+            ],
+            "patch": "4.31"
+        },
+        "x67192": {
+            "level": 58,
+            "name_en": "Golems Begone",
+            "name_fr": "Des mots pulvérisateurs",
+            "npc_en": "Slowfix",
+            "npc_fr": "Slowfix",
+            "cPrev": [
+                67191
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.idyllshire.67475",
+                "duty.quests.sidequests.dravanian.idyllshire.67477",
+                "duty.quests.sidequests.dravanian.idyllshire.67479",
+                "duty.quests.sidequests.dravanian.idyllshire.67476",
+                67193,
+                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67470",
+                "duty.quests.sidequests.dravanian.idyllshire.67474"
+            ],
+            "patch": "4.31"
+        },
+        "x67193": {
+            "level": 58,
+            "name_en": "An Illuminati Incident",
+            "name_fr": "De quoi en faire un fromage?",
+            "npc_en": "Slowfix",
+            "npc_fr": "Slowfix",
+            "cPrev": [
+                67192
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.idyllshire.67481",
+                67194,
+                "duty.quests.sidequests.dravanian.idyllshire.67471",
+                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67480",
+                "duty.quests.sidequests.dravanian.idyllshire.67484",
+                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67473",
+                "duty.quests.sidequests.dravanian.idyllshire.67478",
+                "duty.quests.sidequests.dravanian.idyllshire.67482",
+                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67483",
+                "duty.quests.sidequests.dravanian.idyllshire.67485"
+            ],
+            "patch": "4.31"
+        },
+        "x67194": {
+            "level": 58,
+            "name_en": "Leaving Idyllshire",
+            "name_fr": "L'espérée traversée",
+            "npc_en": "Slowfix",
+            "npc_fr": "Slowfix",
+            "cPrev": [
+                67193
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.idyllshire.67499",
+                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67495",
+                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67496",
+                "duty.quests.sidequests.dravanian.idyllshire.67489",
+                "duty.quests.sidequests.dravanian.idyllshire.67492",
+                "duty.quests.sidequests.dravanian.idyllshire.67486",
+                67195,
+                "duty.quests.sidequests.dravanian.idyllshire.67487",
+                "duty.quests.sidequests.dravanian.idyllshire.67488",
+                "duty.quests.sidequests.dravanian.idyllshire.67490",
+                "duty.quests.sidequests.dravanian.idyllshire.67491",
+                "duty.quests.sidequests.dravanian.idyllshire.67493",
+                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67494",
+                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67497",
+                "duty.quests.sidequests.dravanian.idyllshire.67498",
+                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67500",
+                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67501"
+            ],
+            "patch": "4.31"
+        },
+        "x67195": {
+            "level": 59,
+            "name_en": "Matoya's Cave",
+            "name_fr": "La caverne de Matoya",
+            "unlock": "travel.mount-speed.ishgard--coerthas.11",
+            "npc_en": "Y'shtola",
+            "npc_fr": "Y'shtola",
+            "cPrev": [
+                67194
+            ],
+            "cNext": [
+                67196,
+                "duty.quests.sidequests.dravanian.matoyas-cave.67502",
+                "duty.quests.sidequests.dravanian.matoyas-cave.67503",
+                "duty.quests.sidequests.dravanian.matoyas-cave.67504",
+                "duty.quests.sidequests.dravanian.matoyas-cave.67505",
+                "duty.quests.sidequests.dravanian.matoyas-cave.67507"
+            ],
+            "cSiblings": [
+                "travel.mount-speed.ishgard--coerthas.11"
+            ],
+            "patch": "4.31"
+        },
+        "x67196": {
+            "level": 59,
+            "name_en": "Forbidden Knowledge",
+            "name_fr": "Dépoussiérage de livres",
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.hw.4",
+                "travel.aether-currents.hw.the-dravanian-hinterlands.13"
+            ],
+            "npc_en": "Matoya",
+            "npc_fr": "Matoya",
+            "cPrev": [
+                67195
+            ],
+            "cNext": [
+                67197
+            ],
+            "cSiblings": [
+                "travel.aether-currents.hw.the-dravanian-hinterlands.13"
+            ],
+            "patch": "4.31"
+        },
+        "x67197": {
+            "level": 59,
+            "name_en": "An Eye for Aether",
+            "name_fr": "L'Œil du bélier",
+            "npc_en": "Matoya",
+            "npc_fr": "Matoya",
+            "cPrev": [
+                67196
+            ],
+            "cNext": [
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67511",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67512",
+                67198,
+                "duty.quests.sidequests.ishgardian.ishgard.67508",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67509",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67510",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67513",
+                "duty.quests.sidequests.dravanian.the-churning-mists.67514"
+            ],
+            "patch": "4.31"
+        },
+        "x67198": {
+            "level": 59,
+            "name_en": "Hour of Departure",
+            "name_fr": "L'heure du départ",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67197
+            ],
+            "cNext": [
+                67199
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1138"
+            ],
+            "patch": "4.31"
+        },
+        "x67199": {
+            "level": 59,
+            "name_en": "The First Flight of the Excelsior",
+            "name_fr": "L'Entreprise Excelsior",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67198
+            ],
+            "cNext": [
+                67200
+            ],
+            "patch": "4.31"
+        },
+        "x67200": {
+            "level": 59,
+            "name_en": "Systematic Exploration",
+            "name_fr": "Allag, l'autre empire",
+            "unlock": "travel.aether-currents.hw.azys-lla.0",
+            "npc_en": "Cid",
+            "npc_fr": "Cid",
+            "cPrev": [
+                67199
+            ],
+            "cNext": [
+                67201,
+                "duty.quests.sidequests.azys-lla.azys-lla.67515",
+                "duty.quests.sidequests.azys-lla.azys-lla.67516",
+                "duty.quests.sidequests.azys-lla.azys-lla.67517",
+                "duty.quests.sidequests.azys-lla.azys-lla.67518"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.hw.azys-lla.0"
+            ],
+            "patch": "4.31"
+        },
+        "x67201": {
+            "level": 59,
+            "name_en": "In Node We Trust",
+            "name_fr": "Suivez le guide",
+            "unlock": "travel.aether-currents.hw.azys-lla.1",
+            "npc_en": "Guidance Node",
+            "npc_fr": "sphère de guidage",
+            "cPrev": [
+                67200
+            ],
+            "cNext": [
+                67202,
+                "duty.quests.sidequests.azys-lla.azys-lla.67519",
+                "duty.quests.sidequests.azys-lla.azys-lla.67520",
+                "duty.quests.sidequests.azys-lla.azys-lla.67521"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.hw.azys-lla.1"
+            ],
+            "patch": "4.31"
+        },
+        "x67202": {
+            "level": 59,
+            "name_en": "Chimerical Maintenance",
+            "name_fr": "L'île des chimères",
+            "unlock": "travel.aether-currents.hw.azys-lla.2",
+            "npc_en": "Guidance Node",
+            "npc_fr": "sphère de guidage",
+            "cPrev": [
+                67201
+            ],
+            "cNext": [
+                67203,
+                "duty.quests.sidequests.azys-lla.azys-lla.67524",
+                "duty.quests.sidequests.azys-lla.azys-lla.67522",
+                "duty.quests.sidequests.azys-lla.azys-lla.67523",
+                "duty.quests.sidequests.azys-lla.azys-lla.67525"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.hw.azys-lla.2"
+            ],
+            "patch": "4.31"
+        },
+        "x67203": {
+            "level": 59,
+            "name_en": "Close Encounters of the VIth Kind",
+            "name_fr": "Revanche impériale",
+            "unlock": [
+                "travel.aether-currents.hw.azys-lla.3",
+                "travel.mount-speed.ishgard--coerthas.6"
+            ],
+            "npc_en": "Guidance Node",
+            "npc_fr": "sphère de guidage",
+            "cPrev": [
+                67202
+            ],
+            "cNext": [
+                67204,
+                "duty.quests.sidequests.azys-lla.azys-lla.67526",
+                "duty.quests.sidequests.azys-lla.azys-lla.67527",
+                "duty.quests.sidequests.azys-lla.azys-lla.67528"
+            ],
+            "cSiblings": [
+                "travel.aether-currents.hw.azys-lla.3",
+                "travel.mount-speed.ishgard--coerthas.6"
+            ],
+            "patch": "4.31"
+        },
+        "x67204": {
+            "level": 59,
+            "name_en": "Fetters of Lament",
+            "name_fr": "Un dragon aux fers",
+            "unlock": "travel.aether-currents.hw.azys-lla.4",
+            "npc_en": "Guidance Node",
+            "npc_fr": "sphère de guidage",
+            "cPrev": [
+                67203
+            ],
+            "cNext": [
+                67205
+            ],
+            "cSiblings": [
+                "travel.aether-currents.hw.azys-lla.4"
+            ],
+            "patch": "4.31"
+        },
+        "x67205": {
+            "level": 60,
+            "name_en": "Heavensward",
+            "name_fr": "Les yeux rivés au ciel",
+            "unlock": [
+                "duty.dutyraid-finder.dungeons.hw.5",
+                "duty.dutyraid-finder.trials.hw.2",
+                "travel.mount-speed.ishgard--coerthas.8"
+            ],
+            "npc_en": "Guidance Node",
+            "npc_fr": "sphère de guidage",
+            "cPrev": [
+                67204
+            ],
+            "cNext": [
+                "duty.quests.sidequests.dravanian.idyllshire.67654",
+                "duty.quests.chronicles-of-a-new-era.alexander.67626",
+                "duty.quests.chronicles-of-a-new-era.the-warring-triad.67651",
+                "duty.quests.chronicles-of-a-new-era.the-warring-triad.67652",
+                "duty.quests.sidequests.ishgardian.ishgard.67649",
+                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67648",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.67737",
+                "duty.quests.sidequests.dravanian.idyllshire.67922",
+                "duty.quests.chronicles-of-a-new-era.the-warring-triad.67650",
+                "duty.quests.main-scenario.dragonsong.67692",
+                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67738",
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67739",
+                "duty.quests.chronicles-of-a-new-era.the-shadow-of-mhach.67740",
+                "duty.quests.sidequests.weapon-enhancement-sidequests.anima-weapons.67747",
+                "duty.quests.sidequests.lominsan.limsa-lominsa.67784",
+                "duty.quests.sidequests.dravanian.idyllshire.67938",
+                "duty.quests.other.quasi-quests.69295",
+                "duty.quests.sidequests.side-story.scholasticate.67688",
+                "duty.quests.sidequests.hildibrand-sidequests.further-hildibrand-adventures.67762",
+                "duty.quests.sidequests.gridanian.gridania.67818"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1139",
+                "travel.mount-speed.ishgard--coerthas.8"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

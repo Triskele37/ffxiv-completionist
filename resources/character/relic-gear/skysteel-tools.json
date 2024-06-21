@@ -1,0 +1,934 @@
+{
+    "key": "skysteel-tools",
+    "groupName_en": "Skysteel Tools",
+    "groupName_fr": "Outils de Cielacier",
+    "common": [
+        "job"
+    ],
+    "tasks": {
+        "x0": {
+            "name_en": "Skysteel Saw",
+            "name_fr": "Scie de Cielacier",
+            "job": "CLASS_JOB.CRP",
+            "iLevel": "440",
+            "requirements_en": "80,000 gil",
+            "requirements_fr": "80.000 gils",
+            "cNext": [
+                1
+            ]
+        },
+        "x1": {
+            "name_en": "Skysteel Saw +1",
+            "name_fr": "Scie de Cielacier +1",
+            "job": "CLASS_JOB.CRP",
+            "iLevel": "455",
+            "requirements_en": "Oddly Specific Petrified Orb x20",
+            "requirements_fr": "Bille de bois pétrifié d'affinage x20",
+            "cPrev": [
+                0
+            ],
+            "cNext": [
+                2
+            ]
+        },
+        "x2": {
+            "name_en": "Dragonsung Saw",
+            "name_fr": "Scie du chant des dragons",
+            "job": "CLASS_JOB.CRP",
+            "iLevel": "475",
+            "requirements_en": "Oddly Specific Shaft x30",
+            "requirements_fr": "Hampe d'affinage x30",
+            "cPrev": [
+                1
+            ],
+            "cNext": [
+                3
+            ]
+        },
+        "x3": {
+            "name_en": "Augmented Dragonsung Saw",
+            "name_fr": "Scie du chant des dragons améliorée",
+            "job": "CLASS_JOB.CRP",
+            "iLevel": "485",
+            "requirements_en": "Carpenter's Gobbiegoo x90",
+            "requirements_fr": "Composants pour affinage d'outil de Cielacier de menuisier x90",
+            "cPrev": [
+                2
+            ],
+            "cNext": [
+                4
+            ]
+        },
+        "x4": {
+            "name_en": "Skysung Saw",
+            "name_fr": "Scie du chant céleste",
+            "job": "CLASS_JOB.CRP",
+            "iLevel": "500",
+            "requirements_en": "Highly Viscous Carpenter's Gobbiegoo x105",
+            "requirements_fr": "Composants annexes pour affinage d'outil de Cielacier de menuisier x105",
+            "cPrev": [
+                3
+            ],
+            "cNext": [
+                5
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2659"
+            ]
+        },
+        "x5": {
+            "name_en": "Skybuilders' Saw",
+            "name_fr": "Scie de la forge céleste",
+            "job": "CLASS_JOB.CRP",
+            "iLevel": "510",
+            "requirements_en": "Oddly Delicate Saw Part x60",
+            "requirements_fr": "Composants pour affinage final d'outil de Cielacier de menuisier x60",
+            "cPrev": [
+                4
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2787"
+            ]
+        },
+        "x6": {
+            "name_en": "Skysteel Cross-pein Hammer",
+            "name_fr": "Marteau à panne croisée de Cielacier",
+            "job": "CLASS_JOB.BSM",
+            "iLevel": "440",
+            "requirements_en": "80,000 gil",
+            "requirements_fr": "80.000 gils",
+            "cNext": [
+                7
+            ]
+        },
+        "x7": {
+            "name_en": "Skysteel Cross-pein Hammer +1",
+            "name_fr": "Marteau à panne croisée de Cielacier +1",
+            "job": "CLASS_JOB.BSM",
+            "iLevel": "455",
+            "requirements_en": "Oddly Specific Rivets x20",
+            "requirements_fr": "Fil de fer d'affinage x20",
+            "cPrev": [
+                6
+            ],
+            "cNext": [
+                8
+            ]
+        },
+        "x8": {
+            "name_en": "Dragonsung Cross-pein Hammer",
+            "name_fr": "Marteau à panne croisée du chant des dragons",
+            "job": "CLASS_JOB.BSM",
+            "iLevel": "475",
+            "requirements_en": "Oddly Specific Fitting x30",
+            "requirements_fr": "Cadène d'affiange x30",
+            "cPrev": [
+                7
+            ],
+            "cNext": [
+                9
+            ]
+        },
+        "x9": {
+            "name_en": "Augmented Dragonsung Cross-pein Hammer",
+            "name_fr": "Marteau à panne croisée du chant des dragons amélioré",
+            "job": "CLASS_JOB.BSM",
+            "iLevel": "485",
+            "requirements_en": "Blacksmith's Gobbiegoo x90",
+            "requirements_fr": "Composants pour affinage d'outil de Cielacier de forgeron x90",
+            "cPrev": [
+                8
+            ],
+            "cNext": [
+                10
+            ]
+        },
+        "x10": {
+            "name_en": "Skysung Cross-pein Hammer",
+            "name_fr": "Marteau à panne croisée du chant céleste",
+            "job": "CLASS_JOB.BSM",
+            "iLevel": "500",
+            "requirements_en": "Highly Viscous Blacksmith's Gobbiegoo x105",
+            "requirements_fr": "Composants annexes pour affinage d'outil de Cielacier de forgeron x105",
+            "cPrev": [
+                9
+            ],
+            "cNext": [
+                11
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2660"
+            ]
+        },
+        "x11": {
+            "name_en": "Skybuilders' Cross-pein Hammer",
+            "name_fr": "Marteau à panne croisée de la forge céleste",
+            "job": "CLASS_JOB.BSM",
+            "iLevel": "510",
+            "requirements_en": "Oddly Delicate Cross-pein Hammer Part x60",
+            "requirements_fr": "Composants pour affinage final d'outil de Cielacier de forgeron x60",
+            "cPrev": [
+                10
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2788"
+            ]
+        },
+        "x12": {
+            "name_en": "Skysteel Raising Hammer",
+            "name_fr": "Marteau de batteur de Cielacier",
+            "job": "CLASS_JOB.ARM",
+            "iLevel": "440",
+            "requirements_en": "80,000 gil",
+            "requirements_fr": "80.000 gils",
+            "cNext": [
+                13
+            ]
+        },
+        "x13": {
+            "name_en": "Skysteel Raising Hammer +1",
+            "name_fr": "Marteau de batteur de Cielacier +1",
+            "job": "CLASS_JOB.ARM",
+            "iLevel": "455",
+            "requirements_en": "Oddly Specific Wire x20",
+            "requirements_fr": "Fil de fer d'affinage x20",
+            "cPrev": [
+                12
+            ],
+            "cNext": [
+                14
+            ]
+        },
+        "x14": {
+            "name_en": "Dragonsung Raising Hammer",
+            "name_fr": "Marteau de batteur du chant des dragons",
+            "job": "CLASS_JOB.ARM",
+            "iLevel": "475",
+            "requirements_en": "Oddly Specific Chainmail Sheet x30",
+            "requirements_fr": "Cadène d'affinage x30",
+            "cPrev": [
+                13
+            ],
+            "cNext": [
+                15
+            ]
+        },
+        "x15": {
+            "name_en": "Augmented Dragonsung Raising Hammer",
+            "name_fr": "Marteau de batteur du chant des dragons amélioré",
+            "job": "CLASS_JOB.ARM",
+            "iLevel": "485",
+            "requirements_en": "Armorer's Gobbiegoo x90",
+            "requirements_fr": "Composants pour affinage d'outil de Cielacier d'armurier x90",
+            "cPrev": [
+                14
+            ],
+            "cNext": [
+                16
+            ]
+        },
+        "x16": {
+            "name_en": "Skysung Raising Hammer",
+            "name_fr": "Marteau de batteur du chant céleste",
+            "job": "CLASS_JOB.ARM",
+            "iLevel": "500",
+            "requirements_en": "Highly Viscous Armorer's Gobbiegoo x105",
+            "requirements_fr": "Composants annexes pour affinage d'outil de Cielacier d'armurier x105",
+            "cPrev": [
+                15
+            ],
+            "cNext": [
+                17
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2661"
+            ]
+        },
+        "x17": {
+            "name_en": "Skybuilders' Raising Hammer",
+            "name_fr": "Marteau de batteur de la forge céleste",
+            "job": "CLASS_JOB.ARM",
+            "iLevel": "510",
+            "requirements_en": "Oddly Delicate Raising Hammer Part x60",
+            "requirements_fr": "Composants pour affinage final d'outil de Cielacier d'armurier x60",
+            "cPrev": [
+                16
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2789"
+            ]
+        },
+        "x18": {
+            "name_en": "Skysteel Lapidary Hammer",
+            "name_fr": "Marteau de lapidaire de Cielacier",
+            "job": "CLASS_JOB.GSM",
+            "iLevel": "440",
+            "requirements_en": "80,000 gil",
+            "requirements_fr": "80.000 gils",
+            "cNext": [
+                19
+            ]
+        },
+        "x19": {
+            "name_en": "Skysteel Lapidary Hammer +1",
+            "name_fr": "Marteau de lapidaire de Cielacier +1",
+            "job": "CLASS_JOB.GSM",
+            "iLevel": "455",
+            "requirements_en": "Oddly Specific Whetstone x20",
+            "requirements_fr": "Pierre à aiguiser d'affinage x20",
+            "cPrev": [
+                18
+            ],
+            "cNext": [
+                20
+            ]
+        },
+        "x20": {
+            "name_en": "Dragonsung Lapidary Hammer",
+            "name_fr": "Marteau de lapidaire du chant des dragons",
+            "job": "CLASS_JOB.GSM",
+            "iLevel": "475",
+            "requirements_en": "Oddly Specific Gemstone x30",
+            "requirements_fr": "Perle d'affinage x30",
+            "cPrev": [
+                19
+            ],
+            "cNext": [
+                21
+            ]
+        },
+        "x21": {
+            "name_en": "Augmented Dragonsung Lapidary Hammer",
+            "name_fr": "Marteau de lapidaire du chant des dragons amélioré",
+            "job": "CLASS_JOB.GSM",
+            "iLevel": "485",
+            "requirements_en": "Goldsmith's Gobbiegoo x90",
+            "requirements_fr": "Composants pour affinage d'outil de Cielacier d'orfèvre x90",
+            "cPrev": [
+                20
+            ],
+            "cNext": [
+                22
+            ]
+        },
+        "x22": {
+            "name_en": "Skysung Lapidary Hammer",
+            "name_fr": "Marteau de lapidaire du chant céleste",
+            "job": "CLASS_JOB.GSM",
+            "iLevel": "500",
+            "requirements_en": "Highly Viscous Goldsmith's Gobbiegoo x105",
+            "requirements_fr": "Composants annexes pour affinage d'outil de Cielacier d'orfèvre x105",
+            "cPrev": [
+                21
+            ],
+            "cNext": [
+                23
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2662"
+            ]
+        },
+        "x23": {
+            "name_en": "Skybuilders' Lapidary Hammer",
+            "name_fr": "Marteau de lapidaire de la forge céleste",
+            "job": "CLASS_JOB.GSM",
+            "iLevel": "510",
+            "requirements_en": "Oddly Delicate Lapidary Hammer Part x60",
+            "requirements_fr": "Composants pour affinage final d'outil de Cielacier d'orfèvre x60",
+            "cPrev": [
+                22
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2790"
+            ]
+        },
+        "x24": {
+            "name_en": "Skysteel Round Knife",
+            "name_fr": "Couteau arrondi de Cielacier",
+            "job": "CLASS_JOB.LTW",
+            "iLevel": "440",
+            "requirements_en": "80,000 gil",
+            "requirements_fr": "80.000 gils",
+            "cNext": [
+                25
+            ]
+        },
+        "x25": {
+            "name_en": "Skysteel Round Knife +1",
+            "name_fr": "Couteau arrondi de Cielacier +1",
+            "job": "CLASS_JOB.LTW",
+            "iLevel": "455",
+            "requirements_en": "Oddly Specific Leather x20",
+            "requirements_fr": "Cuir d'affinage x20",
+            "cPrev": [
+                24
+            ],
+            "cNext": [
+                26
+            ]
+        },
+        "x26": {
+            "name_en": "Dragonsung Round Knife",
+            "name_fr": "Couteau arrondi du chant des dragons",
+            "job": "CLASS_JOB.LTW",
+            "iLevel": "475",
+            "requirements_en": "Oddly Specific Vellum x30",
+            "requirements_fr": "Parchemin d'affinage x30",
+            "cPrev": [
+                25
+            ],
+            "cNext": [
+                27
+            ]
+        },
+        "x27": {
+            "name_en": "Augmented Dragonsung Round Knife",
+            "name_fr": "Couteau arrondi du chant des dragons amélioré",
+            "job": "CLASS_JOB.LTW",
+            "iLevel": "485",
+            "requirements_en": "Leatherworker's Gobbiegoo x90",
+            "requirements_fr": "Composants pour affinage d'outil de Cielacier de tanneur x90",
+            "cPrev": [
+                26
+            ],
+            "cNext": [
+                28
+            ]
+        },
+        "x28": {
+            "name_en": "Skysung Round Knife",
+            "name_fr": "Couteau arrondi du chant céleste",
+            "job": "CLASS_JOB.LTW",
+            "iLevel": "500",
+            "requirements_en": "Highly Viscous Leatherworker's Gobbiegoo x105",
+            "requirements_fr": "Composants annexes pour affinage d'outil de Cielacier de tanneur x105",
+            "cPrev": [
+                27
+            ],
+            "cNext": [
+                29
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2663"
+            ]
+        },
+        "x29": {
+            "name_en": "Skybuilders' Round Knife",
+            "name_fr": "Couteau arrondi de la forge céleste",
+            "job": "CLASS_JOB.LTW",
+            "iLevel": "510",
+            "requirements_en": "Oddly Delicate Round Knife Part x60",
+            "requirements_fr": "Composants pour affinage final d'outil de Cielacier de tanneur x60",
+            "cPrev": [
+                28
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2791"
+            ]
+        },
+        "x30": {
+            "name_en": "Skysteel Needle",
+            "name_fr": "Aiguille de Cielacier",
+            "job": "CLASS_JOB.WVR",
+            "iLevel": "440",
+            "requirements_en": "80,000 gil",
+            "requirements_fr": "80.000 gils",
+            "cNext": [
+                31
+            ]
+        },
+        "x31": {
+            "name_en": "Skysteel Needle +1",
+            "name_fr": "Aiguille de Cielacier +1",
+            "job": "CLASS_JOB.WVR",
+            "iLevel": "455",
+            "requirements_en": "Oddly Specific Moonbeam Silk x20",
+            "requirements_fr": "Fil de soie du clair de lune d'affinage x20",
+            "cPrev": [
+                30
+            ],
+            "cNext": [
+                32
+            ]
+        },
+        "x32": {
+            "name_en": "Dragonsung Needle",
+            "name_fr": "Aiguille du chant des dragons",
+            "job": "CLASS_JOB.WVR",
+            "iLevel": "475",
+            "requirements_en": "Oddly Specific Velvet x30",
+            "requirements_fr": "Velour d'affinage x30",
+            "cPrev": [
+                31
+            ],
+            "cNext": [
+                33
+            ]
+        },
+        "x33": {
+            "name_en": "Augmented Dragonsung Needle",
+            "name_fr": "Aiguille du chant des dragons améliorée",
+            "job": "CLASS_JOB.WVR",
+            "iLevel": "485",
+            "requirements_en": "Weaver's Gobbiegoo x90",
+            "requirements_fr": "Composants pour affinage d'outil de Cielacier de couturier x90",
+            "cPrev": [
+                32
+            ],
+            "cNext": [
+                34
+            ]
+        },
+        "x34": {
+            "name_en": "Skysung Needle",
+            "name_fr": "Aiguille du chant céleste",
+            "job": "CLASS_JOB.WVR",
+            "iLevel": "500",
+            "requirements_en": "Highly Viscous Weaver's Gobbiegoo x105",
+            "requirements_fr": "Composants annexes pour affinage d'outil de Cielacier de couturier x105",
+            "cPrev": [
+                33
+            ],
+            "cNext": [
+                35
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2664"
+            ]
+        },
+        "x35": {
+            "name_en": "Skybuilders' Needle",
+            "name_fr": "Aiguille de la forge céleste",
+            "job": "CLASS_JOB.WVR",
+            "iLevel": "510",
+            "requirements_en": "Oddly Delicate Needle Part x60",
+            "requirements_fr": "Composants pour affinage final d'outil de Cielacier de couturier x60",
+            "cPrev": [
+                34
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2792"
+            ]
+        },
+        "x36": {
+            "name_en": "Skysteel Alembic",
+            "name_fr": "Alambic de Cielacier",
+            "job": "CLASS_JOB.ALC",
+            "iLevel": "440",
+            "requirements_en": "80,000 gil",
+            "requirements_fr": "80.000 gils",
+            "cNext": [
+                37
+            ]
+        },
+        "x37": {
+            "name_en": "Skysteel Alembic +1",
+            "name_fr": "Alambic de Cielacier +1",
+            "job": "CLASS_JOB.ALC",
+            "iLevel": "455",
+            "requirements_en": "Oddly Specific Synthetic Resin HQ x20",
+            "requirements_fr": "Résine synthétique d'affinage x20",
+            "cPrev": [
+                36
+            ],
+            "cNext": [
+                38
+            ]
+        },
+        "x38": {
+            "name_en": "Dragonsung Alembic",
+            "name_fr": "Alambic du chant des dragons",
+            "job": "CLASS_JOB.ALC",
+            "iLevel": "475",
+            "requirements_en": "Oddly Specific Glass HQ x30",
+            "requirements_fr": "Plaque de verre d'affinage x30",
+            "cPrev": [
+                37
+            ],
+            "cNext": [
+                39
+            ]
+        },
+        "x39": {
+            "name_en": "Augmented Dragonsung Alembic",
+            "name_fr": "Alambic du chant des dragons amélioré",
+            "job": "CLASS_JOB.ALC",
+            "iLevel": "485",
+            "requirements_en": "Alchemist's Gobbiegoo x90",
+            "requirements_fr": "Composants pour affinage d'outil de Cielacier d'alchimiste x90",
+            "cPrev": [
+                38
+            ],
+            "cNext": [
+                40
+            ]
+        },
+        "x40": {
+            "name_en": "Skysung Alembic",
+            "name_fr": "Alambic du chant céleste",
+            "job": "CLASS_JOB.ALC",
+            "iLevel": "500",
+            "requirements_en": "Highly Viscous Alchemist's Gobbiegoo x105",
+            "requirements_fr": "Composants annexes pour affinage d'outil de Cielacier d'alchimiste x105",
+            "cPrev": [
+                39
+            ],
+            "cNext": [
+                41
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2665"
+            ]
+        },
+        "x41": {
+            "name_en": "Skybuilders' Alembic",
+            "name_fr": "Alambic de la forge céleste",
+            "job": "CLASS_JOB.ALC",
+            "iLevel": "510",
+            "requirements_en": "Oddly Delicate Alembic Part x60",
+            "requirements_fr": "Composants pour affinage final d'outil de Cielacier d'alchimiste x60",
+            "cPrev": [
+                40
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2793"
+            ]
+        },
+        "x42": {
+            "name_en": "Skysteel Frypan",
+            "name_fr": "Poêle à frire de Cielacier",
+            "job": "CLASS_JOB.CUL",
+            "iLevel": "440",
+            "requirements_en": "80,000 gil",
+            "requirements_fr": "80.000 gils",
+            "cNext": [
+                43
+            ]
+        },
+        "x43": {
+            "name_en": "Skysteel Frypan +1",
+            "name_fr": "Poêle à frire de Cielacier +1",
+            "job": "CLASS_JOB.CUL",
+            "iLevel": "455",
+            "requirements_en": "Oddly Specific Seed Extract HQ x20",
+            "requirements_fr": "Huile de graines d'affinage x20",
+            "cPrev": [
+                42
+            ],
+            "cNext": [
+                44
+            ]
+        },
+        "x44": {
+            "name_en": "Dragonsung Frypan",
+            "name_fr": "Poêle à frire du chant des dragons",
+            "job": "CLASS_JOB.CUL",
+            "iLevel": "475",
+            "requirements_en": "Oddly Specific Seed Flour HQ x30",
+            "requirements_fr": "Poudre de graines d'affinage x30",
+            "cPrev": [
+                43
+            ],
+            "cNext": [
+                45
+            ]
+        },
+        "x45": {
+            "name_en": "Augmented Dragonsung Frypan",
+            "name_fr": "Poêle à frire du chant des dragons améliorée",
+            "job": "CLASS_JOB.CUL",
+            "iLevel": "485",
+            "requirements_en": "Culinarian's Gobbiegoo x90",
+            "requirements_fr": "Composants pour affinage d'outil de Cielacier de cuisinier x90",
+            "cPrev": [
+                44
+            ],
+            "cNext": [
+                46
+            ]
+        },
+        "x46": {
+            "name_en": "Skysung Frypan",
+            "name_fr": "Poêle à frire du chant céleste",
+            "job": "CLASS_JOB.CUL",
+            "iLevel": "500",
+            "requirements_en": "Highly Viscous Culinarian's Gobbiegoo x105",
+            "requirements_fr": "Composants annexes pour affinage d'outil de Cielacier de cuisinier x105",
+            "cPrev": [
+                45
+            ],
+            "cNext": [
+                47
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2666"
+            ]
+        },
+        "x47": {
+            "name_en": "Skybuilders' Frypan",
+            "name_fr": "Poêle à frire de la forge céleste",
+            "job": "CLASS_JOB.CUL",
+            "iLevel": "510",
+            "requirements_en": "Oddly Delicate Frypan Part x60",
+            "requirements_fr": "60 Composant pour affinage final d'outil de Cielacier de cuisinier x60",
+            "cPrev": [
+                46
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2794"
+            ]
+        },
+        "x48": {
+            "name_en": "Skysteel Pickaxe",
+            "name_fr": "Pioche de Cielacier",
+            "job": "CLASS_JOB.MIN",
+            "iLevel": "440",
+            "requirements_en": "80,000 gil",
+            "requirements_fr": "80.000 gils",
+            "cNext": [
+                49
+            ]
+        },
+        "x49": {
+            "name_en": "Skysteel Pickaxe +1",
+            "name_fr": "Pioche de Cielacier +1",
+            "job": "CLASS_JOB.MIN",
+            "iLevel": "455",
+            "requirements_en": "Oddly Specific Obsidian x340, Oddly Specific Mineral Sand x120",
+            "requirements_fr": "Éclat d'obsidienne d'affinage x340, Poudre minérale d'affinage x120",
+            "cPrev": [
+                48
+            ],
+            "cNext": [
+                50
+            ]
+        },
+        "x50": {
+            "name_en": "Dragonsung Pickaxe",
+            "name_fr": "Pioche du chant des dragons",
+            "job": "CLASS_JOB.MIN",
+            "iLevel": "475",
+            "requirements_en": "Oddly Specific Dark Matter x510, Oddly Specific Striking Stone x180",
+            "requirements_fr": "Matière sombre d'affinage x510, Braise d'affinage x180",
+            "cPrev": [
+                49
+            ],
+            "cNext": [
+                51
+            ]
+        },
+        "x51": {
+            "name_en": "Augmented Dragonsung Pickaxe",
+            "name_fr": "Pioche du chant des dragons améliorée",
+            "job": "CLASS_JOB.MIN",
+            "iLevel": "485",
+            "requirements_en": "Miner's Gobbiegoo x50, Oddly Specific Landborne Aethersand x180",
+            "requirements_fr": "Composants pour affinage d'outil de Cielacier de mineur x50, Sable éthéréen tellurique d'affinage x180",
+            "cPrev": [
+                50
+            ],
+            "cNext": [
+                52
+            ]
+        },
+        "x52": {
+            "name_en": "Skysung Pickaxe",
+            "name_fr": "Pioche du chant céleste",
+            "job": "CLASS_JOB.MIN",
+            "iLevel": "500",
+            "requirements_en": "Highly Viscous Miner's Gobbiegoo x60, Oddly Specific Primordial Asphaltum x200",
+            "requirements_fr": "Composants annexes pour affinage d'outil de Cielacier de mineur x60, Bitume ancien d'affinage x200",
+            "cPrev": [
+                51
+            ],
+            "cNext": [
+                53
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2667"
+            ]
+        },
+        "x53": {
+            "name_en": "Skybuilders' Pickaxe",
+            "name_fr": "Pioche de la forge céleste",
+            "job": "CLASS_JOB.MIN",
+            "iLevel": "510",
+            "requirements_en": "Oddly Delicate Pickaxe Part x250, Inconceivably Delicate Pickaxe Part x25",
+            "requirements_fr": "Composants pour affinage final d'outil de Cielacier de mineur x250, Composants auxiliaires pour affinage final d'outil de Cielacier de mineur x25",
+            "cPrev": [
+                52
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2795"
+            ]
+        },
+        "x54": {
+            "name_en": "Skysteel Hatchet",
+            "name_fr": "Hachette de Cielacier",
+            "job": "CLASS_JOB.BTN",
+            "iLevel": "440",
+            "requirements_en": "80,000 gil",
+            "requirements_fr": "80.000 gils",
+            "cNext": [
+                55
+            ]
+        },
+        "x55": {
+            "name_en": "Skysteel Hatchet +1",
+            "name_fr": "Hachette de Cielacier +1",
+            "job": "CLASS_JOB.BTN",
+            "iLevel": "455",
+            "requirements_en": "Oddly Specific Latex x340, Oddly Specific Fossil Dust x120",
+            "requirements_fr": "Latex d'affinage x640, Sable fossilisé d'affinage x120",
+            "cPrev": [
+                54
+            ],
+            "cNext": [
+                56
+            ]
+        },
+        "x56": {
+            "name_en": "Dragonsung Hatchet",
+            "name_fr": "Hachette du chant des dragons",
+            "job": "CLASS_JOB.BTN",
+            "iLevel": "475",
+            "requirements_en": "Oddly Specific Amber x510, Oddly Specific Bauble x180",
+            "requirements_fr": "Ambre d'affinage x510, Joyau rare d'affinage x180",
+            "cPrev": [
+                55
+            ],
+            "cNext": [
+                57
+            ]
+        },
+        "x57": {
+            "name_en": "Augmented Dragonsung Hatchet",
+            "name_fr": "Hachette du chant des dragons améliorée",
+            "job": "CLASS_JOB.BTN",
+            "iLevel": "485",
+            "requirements_en": "Botanist's Gobbiegoo x50, Oddly Specific Leafborne Aethersand x180",
+            "requirements_fr": "Composants pour affinage d'outil de Cielacier de botaniste x50, Sable éthéréen végétal d'affinage x180",
+            "cPrev": [
+                56
+            ],
+            "cNext": [
+                58
+            ]
+        },
+        "x58": {
+            "name_en": "Skysung Hatchet",
+            "name_fr": "Hachette du chant céleste",
+            "job": "CLASS_JOB.BTN",
+            "iLevel": "500",
+            "requirements_en": "Highly Viscous Botanist's Gobbiegoo x60, Oddly Specific Primordial Resin x200",
+            "requirements_fr": "Composants annexes pour affinage d'outil de Cielacier de botaniste x60, Résine ancienne d'affinage x200",
+            "cPrev": [
+                57
+            ],
+            "cNext": [
+                59
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2668"
+            ]
+        },
+        "x59": {
+            "name_en": "Skybuilders' Hatchet",
+            "name_fr": "Hachette de la forge céleste",
+            "job": "CLASS_JOB.BTN",
+            "iLevel": "510",
+            "requirements_en": "Oddly Delicate Hatchet Part x250, Inconceivably Delicate Hatchet Part x25",
+            "requirements_fr": "Composants pour affinage final d'outil de Cielacier de botaniste x250, Composants auxiliaires pour affinage final d'outil de Cielacier de botaniste x25",
+            "cPrev": [
+                58
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2796"
+            ]
+        },
+        "x60": {
+            "name_en": "Skysteel Fishing Rod",
+            "name_fr": "Canne à pêche de Cielacier",
+            "job": "CLASS_JOB.FSH",
+            "iLevel": "440",
+            "requirements_en": "80,000 gil",
+            "requirements_fr": "80.000 gils",
+            "cNext": [
+                61
+            ]
+        },
+        "x61": {
+            "name_en": "Skysteel Fishing Rod +1",
+            "name_fr": "Canne à pêche de Cielacier +1",
+            "job": "CLASS_JOB.FSH",
+            "iLevel": "455",
+            "requirements_en": "Thinker's Coral x40",
+            "requirements_fr": "Corail sapient x40",
+            "cPrev": [
+                60
+            ],
+            "cNext": [
+                62
+            ]
+        },
+        "x62": {
+            "name_en": "Dragonsung Fishing Rod",
+            "name_fr": "Canne à pêche du chant des dragons",
+            "job": "CLASS_JOB.FSH",
+            "iLevel": "475",
+            "requirements_en": "Dragonspine x60",
+            "requirements_fr": "Coquillage draconique x30",
+            "cPrev": [
+                61
+            ],
+            "cNext": [
+                63
+            ]
+        },
+        "x63": {
+            "name_en": "Augmented Dragonsung Fishing Rod",
+            "name_fr": "Canne à pêche du chant des dragons améliorée",
+            "job": "CLASS_JOB.FSH",
+            "iLevel": "485",
+            "requirements_en": "Fisher's Gobbiegoo x6",
+            "requirements_fr": "Composants pour affinage d'outil de Cielacier de pêcheur x6",
+            "cPrev": [
+                62
+            ],
+            "cNext": [
+                64
+            ]
+        },
+        "x64": {
+            "name_en": "Skysung Fishing Rod",
+            "name_fr": "Canne à pêche du chant céleste",
+            "job": "CLASS_JOB.FSH",
+            "iLevel": "500",
+            "requirements_en": "Highly Viscous Fisher's Gobbiegoo x7",
+            "requirements_fr": "Composants annexes pour affinage d'outil de Cielacier de pêcheur x7",
+            "cPrev": [
+                63
+            ],
+            "cNext": [
+                65
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2669"
+            ]
+        },
+        "x65": {
+            "name_en": "Skybuilders' Fishing Rod",
+            "name_fr": "Canne à pêche de la forge céleste",
+            "job": "CLASS_JOB.FSH",
+            "iLevel": "510",
+            "requirements_en": "Oddly Delicate Fishing Rod Part x200, Oddly Delicate Fishing Reel Part x200",
+            "requirements_fr": "Composants pour affinage final de hampe d'outil de Cielacier de pêcheur x200, Composants pour affinage final de moulinet d'outil de Cielacier de pêcheur x200",
+            "cPrev": [
+                64
+            ],
+            "cSiblings": [
+                "character.achievement.items.skysteel-tools.2797"
+            ]
+        }
+    }
+}

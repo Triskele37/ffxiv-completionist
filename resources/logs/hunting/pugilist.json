@@ -1,0 +1,510 @@
+{
+    "key": "pugilist",
+    "groupName_en": "Pugilist",
+    "groupName_fr": "Pugiliste",
+    "cCombo": [
+        "character.achievement.battle.battle.729"
+    ],
+    "tasks": {
+        "x0": {
+            "rank": "1",
+            "name_en": "Pugilist 01",
+            "name_fr": "Pugiliste 01",
+            "zone_en": "Central Thanalan",
+            "zone_fr": "Thanalan central",
+            "location": "(20, 25)",
+            "mob_en": "Huge Hornet x4",
+            "mob_fr": "Frelon géant x4"
+        },
+        "x1": {
+            "rank": "1",
+            "name_en": "Pugilist 02",
+            "name_fr": "Pugiliste 02",
+            "zone_en": "Central Thanalan",
+            "zone_fr": "Thanalan central",
+            "location": "(20, 25)",
+            "mob_en": "Star Marmot x4",
+            "mob_fr": "Marmotte x4"
+        },
+        "x2": {
+            "rank": "1",
+            "name_en": "Pugilist 03",
+            "name_fr": "Pugiliste 03",
+            "zone_en": "Western Thanalan",
+            "zone_fr": "Thanalan occidental",
+            "location": "(26, 25)",
+            "mob_en": "Cactuar x4",
+            "mob_fr": "Cactuar x4"
+        },
+        "x3": {
+            "rank": "1",
+            "name_en": "Pugilist 04",
+            "name_fr": "Pugiliste 04",
+            "zone_en": "Central Thanalan",
+            "zone_fr": "Thanalan central",
+            "location": "(22, 26)",
+            "mob_en": "Snapping Shrew x4",
+            "mob_fr": "Musaraigne agressive x4"
+        },
+        "x4": {
+            "rank": "1",
+            "name_en": "Pugilist 05",
+            "name_fr": "Pugiliste 05",
+            "zone_en": "Central Thanalan",
+            "zone_fr": "Thanalan central",
+            "location": "(20, 24)",
+            "mob_en": "Orobon x4",
+            "mob_fr": "Orobon x4"
+        },
+        "x5": {
+            "rank": "1",
+            "name_en": "Pugilist 06",
+            "name_fr": "Pugiliste 06",
+            "zone_en": "Western Thanalan",
+            "zone_fr": "Thanalan occidental",
+            "location": "(21, 25)",
+            "mob_en": "Nesting Buzzard x3",
+            "mob_fr": "Jeune busard x4"
+        },
+        "x6": {
+            "rank": "1",
+            "name_en": "Pugilist 07",
+            "name_fr": "Pugiliste 07",
+            "zone_en": "Central Thanalan",
+            "zone_fr": "Thanalan central",
+            "location": "(17, 23)",
+            "mob_en": "Spriggan Graverobber x4",
+            "mob_fr": "Spriggan pilleur de tombe x4"
+        },
+        "x7": {
+            "rank": "1",
+            "name_en": "Pugilist 08",
+            "name_fr": "Pugiliste 08",
+            "zone_en": "Western Thanalan",
+            "zone_fr": "Thanalan occidental",
+            "location": "(18, 25)",
+            "mob_en": "Goblin Mugger x4",
+            "mob_fr": "Détrousseur gobelin x4"
+        },
+        "x8": {
+            "rank": "1",
+            "name_en": "Pugilist 09",
+            "name_fr": "Pugiliste 09",
+            "zone_en": "Western Thanalan",
+            "zone_fr": "Thanalan occidental",
+            "location": "(22, 23)",
+            "mob_en": "Sandtoad x4",
+            "mob_fr": "Crapaud des sables x4"
+        },
+        "x9": {
+            "rank": "1",
+            "name_en": "Pugilist 10",
+            "name_fr": "Pugiliste 10",
+            "zone_en": "Western Thanalan, Central Thanalan",
+            "zone_fr": "Thanalan occidental, Thanlan central",
+            "location": "(25, 19), (27, 17), (22, 20)",
+            "mob_en": "Desert Peiste x2, Sun Midge Swarm x2, Eft x2",
+            "mob_fr": "Peiste du désert x2, Nuée de moucherons soleil x2, Jeune triton x2"
+        },
+        "x10": {
+            "rank": "2",
+            "name_en": "Pugilist 11",
+            "name_fr": "Pugiliste 11",
+            "zone_en": "Western Thanalan",
+            "zone_fr": "Thanalan occidental",
+            "location": "(26, 18)",
+            "mob_en": "Bomb x4",
+            "mob_fr": "Bombo x4"
+        },
+        "x11": {
+            "rank": "2",
+            "name_en": "Pugilist 12",
+            "name_fr": "Pugiliste 12",
+            "zone_en": "Central Thanalan",
+            "zone_fr": "Thanalan central",
+            "location": "(25, 21)",
+            "mob_en": "Cochineal Cactuar x4",
+            "mob_fr": "Cactuar nopal x4"
+        },
+        "x12": {
+            "rank": "2",
+            "name_en": "Pugilist 13",
+            "name_fr": "Pugiliste 13",
+            "zone_en": "Central Thanalan",
+            "zone_fr": "Thanalan central",
+            "location": "(16, 15)",
+            "mob_en": "Antling Sentry x4",
+            "mob_fr": "Fourmi sentinelle x4"
+        },
+        "x13": {
+            "rank": "2",
+            "name_en": "Pugilist 14",
+            "name_fr": "Pugiliste 14",
+            "zone_en": "Western Thanalan",
+            "zone_fr": "Thanalan occidental",
+            "location": "(23, 26)",
+            "mob_en": "Giant Tortoise x4",
+            "mob_fr": "Tortue géante x4"
+        },
+        "x14": {
+            "rank": "2",
+            "name_en": "Pugilist 15",
+            "name_fr": "Pugiliste 15",
+            "zone_en": "Western Thanalan",
+            "zone_fr": "Thanalan occidental",
+            "location": "(17, 16), (15, 15), (17, 14)",
+            "mob_en": "Arbor Buzzard x2, Thickshell x2, Scaphite x2",
+            "mob_fr": "Busard x2, Coquépaisse x2, Scaphite x2"
+        },
+        "x15": {
+            "rank": "2",
+            "name_en": "Pugilist 16",
+            "name_fr": "Pugiliste 16",
+            "zone_en": "Eastern Thanalan",
+            "zone_fr": "Thanalan oriental",
+            "location": "(12, 16)",
+            "mob_en": "Tuco-tuco x4",
+            "mob_fr": "Tuco-tuco x4"
+        },
+        "x16": {
+            "rank": "2",
+            "name_en": "Pugilist 17",
+            "name_fr": "Pugiliste 17",
+            "zone_en": "Eastern Thanalan",
+            "zone_fr": "Thanalan oriental",
+            "location": "(15, 22)",
+            "mob_en": "Myotragus Nanny x4",
+            "mob_fr": "Étagne myotragus x4"
+        },
+        "x17": {
+            "rank": "2",
+            "name_en": "Pugilist 18",
+            "name_fr": "Pugiliste 18",
+            "zone_en": "Eastern Thanalan",
+            "zone_fr": "Thanalan oriental",
+            "location": "(12, 23)",
+            "mob_en": "Blowfly Swarm x4",
+            "mob_fr": "Nuée de mouches bleues x4"
+        },
+        "x18": {
+            "rank": "2",
+            "name_en": "Pugilist 19",
+            "name_fr": "Pugiliste 19",
+            "zone_en": "Eastern Thanalan",
+            "zone_fr": "Thanalan oriental",
+            "location": "(14, 18)",
+            "mob_en": "Vandalous Imp x4",
+            "mob_fr": "Imp vandale x4"
+        },
+        "x19": {
+            "rank": "2",
+            "name_en": "Pugilist 20",
+            "name_fr": "Pugiliste 20",
+            "zone_en": "Eastern Thanalan, Western Thanalan",
+            "zone_fr": "Thanalan oriental, Thanalan occidental",
+            "location": "(14, 16), (13, 11)",
+            "mob_en": "Rotting Corpse x2, Rotting Noble x2, Bloated Bogy x2",
+            "mob_fr": "Cadavre putrescent x2, Noble putrescent x2, Épouvantôme boursouflé x2"
+        },
+        "x20": {
+            "rank": "3",
+            "name_en": "Pugilist 21",
+            "name_fr": "Pugiliste 21",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(23, 29)",
+            "mob_en": "Overgrown Ivy x5",
+            "mob_fr": "Lierre envahissant x5"
+        },
+        "x21": {
+            "rank": "3",
+            "name_en": "Pugilist 22",
+            "name_fr": "Pugiliste 22",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(17, 18)",
+            "mob_en": "Smallmouth Orobon x5",
+            "mob_fr": "Orobon petite gueule x5"
+        },
+        "x22": {
+            "rank": "3",
+            "name_en": "Pugilist 23",
+            "name_fr": "Pugiliste 23",
+            "zone_en": "Upper La Noscea",
+            "zone_fr": "Haute-Noscea",
+            "location": "(10, 21)",
+            "mob_en": "Forest Yarzon x5",
+            "mob_fr": "Yarzon des forêts x5"
+        },
+        "x23": {
+            "rank": "3",
+            "name_en": "Pugilist 24",
+            "name_fr": "Pugiliste 24",
+            "zone_en": "Upper La Noscea",
+            "zone_fr": "Haute-Noscea",
+            "location": "(9, 20)",
+            "mob_en": "Coeurl Pup x5",
+            "mob_fr": "Jeune coeurl x5"
+        },
+        "x24": {
+            "rank": "3",
+            "name_en": "Pugilist 25",
+            "name_fr": "Pugiliste 25",
+            "zone_en": "South Shroud, North Shroud, Southern Thanalan",
+            "zone_fr": "Forêt du sud, Forêt du nord, Thanalan méridional",
+            "location": "(19, 22), (17, 27), (19, 17)",
+            "mob_en": "Bark Eft x3, Shroud Hare x3, Fallen Mage x3",
+            "mob_fr": "Triton noir x3, Arion de Sombrelinceul x3, Mage déchu x3"
+        },
+        "x25": {
+            "rank": "3",
+            "name_en": "Pugilist 26",
+            "name_fr": "Pugiliste 26",
+            "zone_en": "North Shroud",
+            "zone_fr": "Forêt du nord",
+            "location": "(17, 27)",
+            "mob_en": "Ziz x5",
+            "mob_fr": "Ziz x5"
+        },
+        "x26": {
+            "rank": "3",
+            "name_en": "Pugilist 27",
+            "name_fr": "Pugiliste 27",
+            "zone_en": "Southern Thanalan",
+            "zone_fr": "Thanalan méridional",
+            "location": "(22, 8)",
+            "mob_en": "Corpse Brigade Knuckledancer x5",
+            "mob_fr": "Lutteur de la brigade des Cadavres x5"
+        },
+        "x27": {
+            "rank": "3",
+            "name_en": "Pugilist 28",
+            "name_fr": "Pugiliste 28",
+            "zone_en": "North Shroud",
+            "zone_fr": "Forêt du nord",
+            "location": "(17, 28)",
+            "mob_en": "Clay Golem x5",
+            "mob_fr": "Golem d'argile x5"
+        },
+        "x28": {
+            "rank": "3",
+            "name_en": "Pugilist 29",
+            "name_fr": "Pugiliste 29",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(28, 21)",
+            "mob_en": "Coeurlclaw Hunter x5",
+            "mob_fr": "Chasseresse Griffecoeurl x5"
+        },
+        "x29": {
+            "rank": "3",
+            "name_en": "Pugilist 30",
+            "name_fr": "Pugiliste 30",
+            "zone_en": "Eastern La Noscea, Central Shroud, South Shroud",
+            "zone_fr": "Noscea orientale, Forêt centrale, Forêt du sud",
+            "location": "(28, 35), (13, 20), (17, 31)",
+            "mob_en": "Apkallu x3, Lindwurm x3, Bigmouth Orobon x3",
+            "mob_fr": "Apkallu x3, Lindwurm x3, Orobon grande gueule x3"
+        },
+        "x30": {
+            "rank": "4",
+            "name_en": "Pugilist 31",
+            "name_fr": "Pugiliste 31",
+            "zone_en": "Upper La Noscea",
+            "zone_fr": "Haute-Noscea",
+            "location": "(27, 23)",
+            "mob_en": "Mamool Ja Breeder x5",
+            "mob_fr": "Éleveur mamool ja x5"
+        },
+        "x31": {
+            "rank": "4",
+            "name_en": "Pugilist 32",
+            "name_fr": "Pugiliste 32",
+            "zone_en": "Southern Thanalan",
+            "zone_fr": "Thanalan méridional",
+            "location": "(14, 31)",
+            "mob_en": "Russet Yarzon x5",
+            "mob_fr": "Yarzon brun x5"
+        },
+        "x32": {
+            "rank": "4",
+            "name_en": "Pugilist 33",
+            "name_fr": "Pugiliste 33",
+            "zone_en": "Southern Thanalan",
+            "zone_fr": "Thanalan méridional",
+            "location": "(18, 36)",
+            "mob_en": "Smoke Bomb x5",
+            "mob_fr": "Bombo fumigène x5"
+        },
+        "x33": {
+            "rank": "4",
+            "name_en": "Pugilist 34",
+            "name_fr": "Pugiliste 34",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(15, 21)",
+            "mob_en": "Death Gaze x5",
+            "mob_fr": "Mortalis x5"
+        },
+        "x34": {
+            "rank": "4",
+            "name_en": "Pugilist 35",
+            "name_fr": "Pugiliste 35",
+            "zone_en": "Eastern La Noscea, Outer La Noscea",
+            "zone_fr": "Noscea orientale, Noscea extérieure",
+            "location": "(20, 29), (17, 28), (15, 16)",
+            "mob_en": "Goobbue x3, Jungle Coeurl x3, Basalt Golem x3",
+            "mob_fr": "Goobue x3, Coeurl des jungles x3, Golem de basalte x3"
+        },
+        "x35": {
+            "rank": "4",
+            "name_en": "Pugilist 36",
+            "name_fr": "Pugiliste 36",
+            "zone_en": "Outer La Noscea",
+            "zone_fr": "Noscea extérieure",
+            "location": "(20, 15)",
+            "mob_en": "Velociraptor x5",
+            "mob_fr": "Velociraptor x5"
+        },
+        "x36": {
+            "rank": "4",
+            "name_en": "Pugilist 37",
+            "name_fr": "Pugiliste 37",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas central",
+            "location": "(24, 20)",
+            "mob_en": "Highland Goobbue x5",
+            "mob_fr": "Goobue des hautes terres x5"
+        },
+        "x37": {
+            "rank": "4",
+            "name_en": "Pugilist 38",
+            "name_fr": "Pugiliste 38",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas central",
+            "location": "(26, 24)",
+            "mob_en": "Feral Croc x5",
+            "mob_fr": "Crocodile sauvage x5"
+        },
+        "x38": {
+            "rank": "4",
+            "name_en": "Pugilist 39",
+            "name_fr": "Pugiliste 39",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas central",
+            "location": "(29, 11)",
+            "mob_en": "Redhorn Ogre x5",
+            "mob_fr": "Ogre corne-rouge x5"
+        },
+        "x39": {
+            "rank": "4",
+            "name_en": "Pugilist 40",
+            "name_fr": "Pugiliste 40",
+            "zone_en": "Coerthas Central Highlands, East Shroud",
+            "zone_fr": "Hautes terres du Coerthas central, Forêt de l'est",
+            "location": "(20, 17), (26, 25), (26, 24)",
+            "mob_en": "Snowstorm Goobbue x3, Ochu x3, Molted Ziz x3",
+            "mob_fr": "Goobue des neiges x3, Otyugh x3, Ziz déplumé x3"
+        },
+        "x40": {
+            "rank": "5",
+            "name_en": "Pugilist 41",
+            "name_fr": "Pugiliste 41",
+            "zone_en": "Eastern Thanalan",
+            "zone_fr": "Thanalan oriental",
+            "location": "(29, 26)",
+            "mob_en": "Quartz Doblyn x6",
+            "mob_fr": "Doblyn de quartz x6"
+        },
+        "x41": {
+            "rank": "5",
+            "name_en": "Pugilist 42",
+            "name_fr": "Pugiliste 42",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidentale",
+            "location": "(14, 35)",
+            "mob_en": "Dead Man's Moan x6",
+            "mob_fr": "Mort gémissant x6"
+        },
+        "x42": {
+            "rank": "5",
+            "name_en": "Pugilist 43",
+            "name_fr": "Pugiliste 43",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(32, 20)",
+            "mob_en": "3rd Cohort Signifer x2",
+            "mob_fr": "SIgnifer de la 3e cohorte x2"
+        },
+        "x43": {
+            "rank": "5",
+            "name_en": "Pugilist 44",
+            "name_fr": "Pugiliste 44",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(29, 23)",
+            "mob_en": "Wild Hog x6",
+            "mob_fr": "Verrat sauvage x6"
+        },
+        "x44": {
+            "rank": "5",
+            "name_en": "Pugilist 45",
+            "name_fr": "Pugiliste 45",
+            "zone_en": "Mor Dhona, Coerthas Central Highlands",
+            "zone_fr": "Mor Dhona, Hautes terres du Coerthas central",
+            "location": "(16, 15), (11, 29), (28, 12)",
+            "mob_en": "Raging Harrier x3, Biast x3, Gigas Shramana x3",
+            "mob_fr": "Harceleur enragé x3, Biast x3, Gigas shramana x3"
+        },
+        "x45": {
+            "rank": "5",
+            "name_en": "Pugilist 46",
+            "name_fr": "Pugiliste 46",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas central",
+            "location": "(15, 30)",
+            "mob_en": "Snow Wolf x6",
+            "mob_fr": "Loup des neiges x6"
+        },
+        "x46": {
+            "rank": "5",
+            "name_en": "Pugilist 47",
+            "name_fr": "Pugiliste 47",
+            "zone_en": "Mor Dhona",
+            "zone_fr": "Mor Dhona",
+            "location": "(12, 12)",
+            "mob_en": "5th Cohort Hoplomachus x6",
+            "mob_fr": "Hoplomacus de la 5e cohorte x6"
+        },
+        "x47": {
+            "rank": "5",
+            "name_en": "Pugilist 48",
+            "name_fr": "Pugiliste 48",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(28, 17)",
+            "mob_en": "Dreamtoad x6",
+            "mob_fr": "Crapaud rêveur x6"
+        },
+        "x48": {
+            "rank": "5",
+            "name_en": "Pugilist 49",
+            "name_fr": "Pugiliste 49",
+            "zone_en": "Mor Dhona",
+            "zone_fr": "Mor Dhona",
+            "location": "(30, 5)",
+            "mob_en": "Hapalit x6",
+            "mob_fr": "Hapalit x6"
+        },
+        "x49": {
+            "rank": "5",
+            "name_en": "Pugilist 50",
+            "name_fr": "Pugiliste 50",
+            "zone_en": "Southern Thanalan, Northern Thanalan, Western La Noscea",
+            "zone_fr": "Thanalan méridional, Thanalan septentrional, Noscea occidental",
+            "location": "(30, 19), (22, 24), (13, 17)",
+            "mob_en": "Zahar'ak Battle Drake x3, Basilisk x3, Shelfclaw Reaver x4",
+            "mob_fr": "Draconide de Zahar'ak x3, Basilic x3, Aiguillon des pillards du serpent x4"
+        }
+    }
+}

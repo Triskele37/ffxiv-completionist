@@ -1,0 +1,290 @@
+{
+    "key": "monk",
+    "groupName_en": "Monk",
+    "groupName_fr": "Quêtes de moine",
+    "tasks": {
+        "x66597": {
+            "level": 30,
+            "name_en": "Brother from Another Mother",
+            "name_fr": "Le moine errant",
+            "npc_en": "Gagaruna",
+            "npc_fr": "Gagaruna",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-war.pugilist.66103",
+                "duty.quests.main-scenario.seventh-umbral-era.66049"
+            ],
+            "cNext": [
+                66598
+            ],
+            "cSiblings": [
+                "character.adventure-plate.30"
+            ],
+            "patch": "4.31"
+        },
+        "x66598": {
+            "level": 35,
+            "name_en": "Insulted Intelligence",
+            "name_fr": "Les contes des combats passés",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": [
+                66597
+            ],
+            "cNext": [
+                66599
+            ],
+            "patch": "4.31"
+        },
+        "x66599": {
+            "level": 40,
+            "name_en": "A Slave to the Aether",
+            "name_fr": "La quête de pouvoir",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": [
+                66598
+            ],
+            "cNext": [
+                66600
+            ],
+            "patch": "4.31"
+        },
+        "x66600": {
+            "level": 45,
+            "name_en": "The Pursuit of Power",
+            "name_fr": "Le septième chakra",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": [
+                66599
+            ],
+            "cNext": [
+                66601
+            ],
+            "patch": "4.31"
+        },
+        "x66601": {
+            "level": 45,
+            "name_en": "Good Vibrations",
+            "name_fr": "Prendre l'habit",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": [
+                66600
+            ],
+            "cNext": [
+                66602
+            ],
+            "patch": "4.31"
+        },
+        "x66602": {
+            "level": 50,
+            "name_en": "Five Easy Pieces",
+            "name_fr": "Le véritable courage",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": [
+                66601
+            ],
+            "cNext": [
+                66657,
+                67562
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.408"
+            ],
+            "patch": "4.31"
+        },
+        "x66657": {
+            "level": 50,
+            "name_en": "A Relic Reborn (Sphairai)",
+            "name_fr": "Restauration des Sphairai",
+            "npc_en": "Gerolt",
+            "npc_fr": "Gerolt",
+            "cPrev": [
+                66602,
+                "duty.quests.sidequests.uldahn.western-thanalan.66241"
+            ],
+            "patch": "4.31"
+        },
+        "x67562": {
+            "level": 50,
+            "name_en": "The Legend Continues",
+            "name_fr": "Tout recommencer",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": [
+                66602,
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                67563
+            ],
+            "patch": "4.31"
+        },
+        "x67563": {
+            "level": 52,
+            "name_en": "Let's Talk about Sects",
+            "name_fr": "Les moines ennemis",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": [
+                67562
+            ],
+            "cNext": [
+                67564
+            ],
+            "patch": "4.31"
+        },
+        "x67564": {
+            "level": 54,
+            "name_en": "Against the Shadow",
+            "name_fr": "Splendeur et obscurité",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": [
+                67563
+            ],
+            "cNext": [
+                67565
+            ],
+            "patch": "4.31"
+        },
+        "x67565": {
+            "level": 56,
+            "name_en": "Fight the Battle to Win",
+            "name_fr": "Une nouvelle alliée",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": [
+                67564
+            ],
+            "cNext": [
+                67566
+            ],
+            "patch": "4.31"
+        },
+        "x67566": {
+            "level": 58,
+            "name_en": "Stop the Senseless Killing",
+            "name_fr": "Progresser sans s'entre-tuer",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": [
+                67565
+            ],
+            "cNext": [
+                67567
+            ],
+            "patch": "4.31"
+        },
+        "x67567": {
+            "level": 60,
+            "name_en": "Appetite for Destruction",
+            "name_fr": "Plus rien ne sera comme avant",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": [
+                67566
+            ],
+            "cNext": [
+                67962
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1142"
+            ],
+            "patch": "4.31"
+        },
+        "x67962": {
+            "level": 60,
+            "name_en": "A Fistful of Resolve",
+            "name_fr": "L'embarras du choix",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": [
+                67567,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                67963
+            ],
+            "patch": "4.31"
+        },
+        "x67963": {
+            "level": 63,
+            "name_en": "Return of the Monk",
+            "name_fr": "Coup sur coup",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": [
+                67962
+            ],
+            "cNext": [
+                67964
+            ],
+            "patch": "4.31"
+        },
+        "x67964": {
+            "level": 65,
+            "name_en": "Cross-fist Training",
+            "name_fr": "Rencontre inamicale",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": [
+                67963
+            ],
+            "cNext": [
+                67965
+            ],
+            "patch": "4.31"
+        },
+        "x67965": {
+            "level": 68,
+            "name_en": "Choices and Paths",
+            "name_fr": "Se sublimer pour triompher",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": [
+                67964
+            ],
+            "cNext": [
+                67966
+            ],
+            "patch": "4.31"
+        },
+        "x67966": {
+            "level": 70,
+            "name_en": "The Power to Protect",
+            "name_fr": "Une nouvelle force protectrice",
+            "npc_en": "Widargelt",
+            "npc_fr": "Widargelt",
+            "cPrev": [
+                67965
+            ],
+            "cNext": [
+                68747
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1798"
+            ],
+            "patch": "4.31"
+        },
+        "x68747": {
+            "level": 80,
+            "name_en": "A Monk's Legacy",
+            "name_fr": "Le dernier disciple du Poing de Rhalgr",
+            "npc_en": "Erik",
+            "npc_fr": "Erik",
+            "cPrev": [
+                67966,
+                "duty.quests.class--job.role.shb.68814",
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.29",
+                "character.achievement.quests.job-role-quests.2307"
+            ],
+            "patch": "5.0"
+        }
+    }
+}

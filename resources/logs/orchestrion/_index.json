@@ -1,0 +1,34 @@
+{
+    "key": "orchestrion-list",
+    "groupName_en": "Orchestrion List",
+    "groupName_fr": "Morceaux de l'orchestrion",
+    "headers": {
+        "number": {
+            "width": 100,
+            "header_en": "Number",
+            "header_fr": "Numéro"
+        },
+        "name": {
+            "header_en": "Orchestrion Roll",
+            "header_fr": "Rouleau d'orchestrion"
+        },
+        "category": {
+            "header_en": "Category",
+            "header_fr": "Catégorie"
+        },
+        "source": {
+            "link": true,
+            "header_en": "Source",
+            "header_fr": "Source"
+        },
+        "location": {
+            "filterable": true,
+            "header_en": "Location",
+            "header_fr": "Location"
+        },
+        "patch": {
+            "header_en": "Patch",
+            "header_fr": "Patch"
+        }
+    }
+}

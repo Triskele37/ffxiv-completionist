@@ -1,0 +1,311 @@
+{
+    "key": "post-dragonsong",
+    "groupName_en": "Post-Dragonsong",
+    "groupName_fr": "Post-Dragonsong",
+    "tasks": {
+        "x67877": {
+            "level": 60,
+            "name_en": "Promises Kept",
+            "name_fr": "Un repas bien mérité",
+            "npc_en": "House Fortemps Knight",
+            "npc_fr": "chevalier des Fortemps",
+            "cPrev": [
+                "duty.quests.main-scenario.dragonsong.67783"
+            ],
+            "cNext": [
+                67878
+            ],
+            "patch": "4.31"
+        },
+        "x67878": {
+            "level": 60,
+            "name_en": "Shadows of the First",
+            "name_fr": "Par monts et vallées",
+            "unlock": "duty.dutyraid-finder.dungeons.hw.14",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67877
+            ],
+            "cNext": [
+                67879
+            ],
+            "patch": "4.31"
+        },
+        "x67879": {
+            "level": 60,
+            "name_en": "Two Sides of a Coin",
+            "name_fr": "Les jumeaux réunis",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67878
+            ],
+            "cNext": [
+                67880
+            ],
+            "patch": "4.31"
+        },
+        "x67880": {
+            "level": 60,
+            "name_en": "Unlikely Allies",
+            "name_fr": "Kobold contre Kobolds",
+            "npc_en": "Bloeidin",
+            "npc_fr": "Bloeidin",
+            "cPrev": [
+                67879
+            ],
+            "cNext": [
+                67881
+            ],
+            "patch": "4.31"
+        },
+        "x67881": {
+            "level": 60,
+            "name_en": "The Beast That Mourned at the Heart of the Mountain",
+            "name_fr": "Un cri au fond du volcan",
+            "npc_en": "Ga Bu",
+            "npc_fr": "Ga Bu",
+            "cPrev": [
+                67880
+            ],
+            "cNext": [
+                67882
+            ],
+            "patch": "4.31"
+        },
+        "x67882": {
+            "level": 60,
+            "name_en": "Beneath a Star-filled Sky",
+            "name_fr": "Tête-à-tête sous les étoiles",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67881
+            ],
+            "cNext": [
+                67883
+            ],
+            "patch": "4.31"
+        },
+        "x67883": {
+            "level": 60,
+            "name_en": "When We Were Free",
+            "name_fr": "Le spectre de la révolution",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67882
+            ],
+            "cNext": [
+                67884
+            ],
+            "patch": "4.31"
+        },
+        "x67884": {
+            "level": 60,
+            "name_en": "Honorable Heroes",
+            "name_fr": "Incognito",
+            "npc_en": "Papalymo",
+            "npc_fr": "Papalymo",
+            "cPrev": [
+                67883
+            ],
+            "cNext": [
+                67885
+            ],
+            "patch": "4.31"
+        },
+        "x67885": {
+            "level": 60,
+            "name_en": "One Life for One World",
+            "name_fr": "Destins entrecroisés",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67884
+            ],
+            "cNext": [
+                67886
+            ],
+            "patch": "4.31"
+        },
+        "x67886": {
+            "level": 60,
+            "name_en": "An Ending to Mark a New Beginning",
+            "name_fr": "Les gardiens des âmes",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67885
+            ],
+            "cNext": [
+                67887
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1630"
+            ],
+            "patch": "4.31"
+        },
+        "x67887": {
+            "level": 60,
+            "name_en": "Tidings from Gyr Abania",
+            "name_fr": "Tumulte en Gyr Abania",
+            "npc_en": "Tataru",
+            "npc_fr": "Tataru",
+            "cPrev": [
+                67886
+            ],
+            "cNext": [
+                67888
+            ],
+            "patch": "4.31"
+        },
+        "x67888": {
+            "level": 60,
+            "name_en": "An Envoy for Ishgard",
+            "name_fr": "L'émissaire ishgardais",
+            "npc_en": "Lucia",
+            "npc_fr": "Lucia",
+            "cPrev": [
+                67887
+            ],
+            "cNext": [
+                67889
+            ],
+            "patch": "4.31"
+        },
+        "x67889": {
+            "level": 60,
+            "name_en": "An Allied Decision",
+            "name_fr": "La réunion d'urgence",
+            "npc_en": "Aymeric",
+            "npc_fr": "Aymeric",
+            "cPrev": [
+                67888
+            ],
+            "cNext": [
+                67890
+            ],
+            "patch": "4.31"
+        },
+        "x67890": {
+            "level": 60,
+            "name_en": "Griffin, Griffin on the Wall",
+            "name_fr": "Le masque de la rancune",
+            "unlock": "duty.dutyraid-finder.dungeons.hw.16",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                67889
+            ],
+            "cNext": [
+                67891
+            ],
+            "patch": "4.31"
+        },
+        "x67891": {
+            "level": 60,
+            "name_en": "Louisoix's Finest Student",
+            "name_fr": "Maître et disciple",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67890
+            ],
+            "cNext": [
+                67892
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1690"
+            ],
+            "patch": "4.31"
+        },
+        "x67892": {
+            "level": 60,
+            "name_en": "The Obvious Solution",
+            "name_fr": "Un allié inattendu",
+            "npc_en": "Alisaie",
+            "npc_fr": "Alisaie",
+            "cPrev": [
+                67891
+            ],
+            "cNext": [
+                67893
+            ],
+            "patch": "4.31"
+        },
+        "x67893": {
+            "level": 60,
+            "name_en": "The Greater Obeisance",
+            "name_fr": "Loyauté domienne",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67892
+            ],
+            "cNext": [
+                67894
+            ],
+            "patch": "4.31"
+        },
+        "x67894": {
+            "level": 60,
+            "name_en": "Fly Free, My Pretty",
+            "name_fr": "La résurrection d'Oméga",
+            "npc_en": "Yda",
+            "npc_fr": "Yda",
+            "cPrev": [
+                67893
+            ],
+            "cNext": [
+                67895
+            ],
+            "patch": "4.31"
+        },
+        "x67895": {
+            "level": 60,
+            "name_en": "The Far Edge of Fate",
+            "name_fr": "Aux confins du destin",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67894
+            ],
+            "cNext": [
+                "duty.quests.other.quasi-quests.68457",
+                "duty.quests.main-scenario.stormblood.67982",
+                "duty.quests.class--job.disciple-of-the-land.miner.68090",
+                "duty.quests.class--job.disciple-of-the-hand.blacksmith.68129",
+                "duty.quests.class--job.disciple-of-war-job.paladin.68107",
+                "duty.quests.class--job.disciple-of-magic-job.summoner.68161",
+                "duty.quests.class--job.disciple-of-magic-job.astrologian.67945",
+                "duty.quests.class--job.disciple-of-magic-job.white-mage.67950",
+                "duty.quests.class--job.disciple-of-war-job.monk.67962",
+                "duty.quests.class--job.disciple-of-the-hand.weaver.67967",
+                "duty.quests.class--job.disciple-of-the-hand.alchemist.67972",
+                "duty.quests.class--job.disciple-of-the-hand.carpenter.67977",
+                "duty.quests.class--job.disciple-of-war-job.samurai.68102",
+                "duty.quests.class--job.disciple-of-magic-job.red-mage.68119",
+                "duty.quests.class--job.disciple-of-magic-job.black-mage.68124",
+                "duty.quests.class--job.disciple-of-the-hand.armorer.68130",
+                "duty.quests.class--job.disciple-of-the-hand.goldsmith.68135",
+                "duty.quests.class--job.disciple-of-the-hand.culinarian.68140",
+                "duty.quests.class--job.disciple-of-the-hand.leatherworker.68145",
+                "duty.quests.class--job.disciple-of-the-land.botanist.68156",
+                "duty.quests.class--job.disciple-of-war-job.bard.68426",
+                "duty.quests.class--job.disciple-of-the-land.fisher.68431",
+                "duty.quests.class--job.disciple-of-war-job.warrior.68436",
+                "duty.quests.class--job.disciple-of-war-job.machinist.68441",
+                "duty.quests.class--job.disciple-of-war-job.dragoon.68446",
+                "duty.quests.class--job.disciple-of-war-job.dark-knight.68451",
+                "duty.quests.class--job.disciple-of-magic-job.scholar.68459",
+                "duty.quests.class--job.disciple-of-war-job.ninja.68484"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1691"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

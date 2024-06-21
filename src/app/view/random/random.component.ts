@@ -2,8 +2,9 @@ import { Component } from '@angular/core';
 
 import { Completion } from '@constant';
 import { DataService } from '@data';
-import { DataGroup } from '@domain/DataGroup';
-import { Task } from '@domain/Task';
+import { DataGroup } from '@model/DataGroup';
+import { getGroupPath } from '@model/DataGroup/children/getGroupPath';
+import { Task } from '@model/Task';
 
 // Cache the last roll for if returning to page
 let lastRandom: Task[] = [];
@@ -123,8 +124,8 @@ export class RandomComponent {
     }
 
     randomTaskSort(a: Task, b: Task): number {
-        const aPath = a._parent.groupPath.join('') + a.name;
-        const bPath = b._parent.groupPath.join('') + b.name;
+        const aPath = getGroupPath(a._parent).join('') + a.name;
+        const bPath = getGroupPath(b._parent).join('') + b.name;
 
         return aPath.localeCompare(bPath);
     }

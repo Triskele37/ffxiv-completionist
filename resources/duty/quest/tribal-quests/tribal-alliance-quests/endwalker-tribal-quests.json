@@ -1,0 +1,33 @@
+{
+    "key": "endwalker-tribal-quests",
+    "groupName_en": "Endwalker Tribal Quests",
+    "groupName_fr": "Quêtes des tribus alliées (Endwalker)",
+    "tasks": {
+        "x70323": {
+            "level": 90,
+            "name_en": "Dinner and a Show",
+            "name_fr": "Des rêves plein l'hippochar",
+            "npc_en": "Jammingway",
+            "npc_fr": "Jammingway",
+            "cPrev": [
+                "duty.quests.tribal-quests.arkasodara.70086",
+                "duty.quests.tribal-quests.omicron.70142"
+            ],
+            "cNext": [
+                70324
+            ],
+            "patch": "6.55"
+        },
+        "x70324": {
+            "level": 90,
+            "name_en": "A Dream Worth Chasing",
+            "name_fr": "La grande course aux confins de l'univers",
+            "npc_en": "Jammingway",
+            "npc_fr": "Jammingway",
+            "cPrev": [
+                70323
+            ],
+            "patch": "6.55"
+        }
+    }
+}

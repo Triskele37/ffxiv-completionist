@@ -1,0 +1,1019 @@
+{
+    "key": "quasi-quests",
+    "groupName_en": "Quasi-Quests",
+    "groupName_fr": "Quasi-Quêtes",
+    "headers": {
+        "unlock": {
+            "link": true,
+            "header_en": "Unlock",
+            "header_fr": "Débloque"
+        },
+        "level": {
+            "header_en": "Level",
+            "header_fr": "Niveau"
+        },
+        "name": {
+            "header_en": "Quest",
+            "header_fr": "Nom"
+        }
+    },
+    "tasks": {
+        "x65713": {
+            "name_en": "So You Want to Be a Gladiator",
+            "name_fr": "Premiers pas à la guilde des gladiateurs",
+            "level": 1,
+            "unlock_en": "Gladiator Intro",
+            "unlock_fr": "Gladiator Intro",
+            "npc_en": "Lulutsu",
+            "npc_fr": "Lulutsu",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war.gladiator.65821"
+            ],
+            "patch": "4.31"
+        },
+        "x65714": {
+            "name_en": "So You Want to Be a Pugilist",
+            "name_fr": "Premiers pas à la guilde des pugilistes",
+            "level": 1,
+            "unlock_en": "Pugilist Intro",
+            "unlock_fr": "Pugilist Intro",
+            "npc_en": "Gagaruna",
+            "npc_fr": "Gagaruna",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war.pugilist.66068"
+            ],
+            "patch": "4.31"
+        },
+        "x65715": {
+            "name_en": "So You Want to Be a Marauder",
+            "name_fr": "Premiers pas à la guilde des maraudeurs",
+            "level": 1,
+            "unlock_en": "Marauder Intro",
+            "unlock_fr": "Marauder Intro",
+            "npc_en": "Blauthota",
+            "npc_fr": "Blauthota",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war.marauder.65846"
+            ],
+            "patch": "4.31"
+        },
+        "x65716": {
+            "name_en": "So You Want to Be a Lancer",
+            "name_fr": "Premiers pas à la guilde des maîtres d'hast",
+            "level": 1,
+            "unlock_en": "Lancer Intro",
+            "unlock_fr": "Lancer Intro",
+            "npc_en": "Jillian",
+            "npc_fr": "Jillian",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war.lancer.65668"
+            ],
+            "patch": "4.31"
+        },
+        "x65637": {
+            "name_en": "So You Want to Be a Rogue",
+            "name_fr": "Premiers pas à la guilde des surineurs",
+            "level": 1,
+            "unlock_en": "Rogue Intro",
+            "unlock_fr": "Rogue Intro",
+            "npc_en": "Lonwoerd",
+            "npc_fr": "Lonwoerd",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war.rogue.65638"
+            ],
+            "patch": "4.31"
+        },
+        "x65717": {
+            "name_en": "So You Want to Be an Archer",
+            "name_fr": "Premiers pas à la guilde des archers",
+            "level": 1,
+            "unlock_en": "Archer Intro",
+            "unlock_fr": "Archer Intro",
+            "npc_en": "Athelyna",
+            "npc_fr": "Athelyna",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war.archer.65667"
+            ],
+            "patch": "4.31"
+        },
+        "x65718": {
+            "name_en": "So You Want to Be a Conjurer",
+            "name_fr": "Premiers pas à la guilde des élémentalistes",
+            "level": 1,
+            "unlock_en": "Conjurer Intro",
+            "unlock_fr": "Conjurer Intro",
+            "npc_en": "Madelle",
+            "npc_fr": "Madelle",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-magic.conjurer.65669"
+            ],
+            "patch": "4.31"
+        },
+        "x65719": {
+            "name_en": "So You Want to Be a Thaumaturge",
+            "name_fr": "Premiers pas à la guilde des occultistes",
+            "level": 1,
+            "unlock_en": "Thaumaturge Intro",
+            "unlock_fr": "Thaumaturge Intro",
+            "npc_en": "Yayake",
+            "npc_fr": "Yayake",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-magic.thaumaturge.65880"
+            ],
+            "patch": "4.31"
+        },
+        "x65720": {
+            "name_en": "So You Want to Be a Carpenter",
+            "name_fr": "Premiers pas à la guilde des menuisiers",
+            "level": 1,
+            "unlock_en": "Carpenter Intro",
+            "unlock_fr": "Carpenter Intro",
+            "npc_en": "Corgg",
+            "npc_fr": "Corgg",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-the-hand.carpenter.65674"
+            ],
+            "patch": "4.31"
+        },
+        "x65721": {
+            "name_en": "So You Want to Be a Blacksmith",
+            "name_fr": "Premiers pas à la guilde des forgerons",
+            "level": 1,
+            "unlock_en": "Blacksmith Intro",
+            "unlock_fr": "Blacksmith Intro",
+            "npc_en": "Randwulf",
+            "npc_fr": "Randwulf",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-the-hand.blacksmith.65827"
+            ],
+            "patch": "4.31"
+        },
+        "x65722": {
+            "name_en": "So You Want to Be an Armorer",
+            "name_fr": "Premiers pas à la guilde des armuriers",
+            "level": 1,
+            "unlock_en": "Armorer Intro",
+            "unlock_fr": "Armorer Intro",
+            "npc_en": "G'wahnako",
+            "npc_fr": "G'wahnako",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-the-hand.armorer.65809"
+            ],
+            "patch": "4.31"
+        },
+        "x65723": {
+            "name_en": "So You Want to Be a Goldsmith",
+            "name_fr": "Premiers pas à la guilde des orfèvres",
+            "level": 1,
+            "unlock_en": "Goldsmith Intro",
+            "unlock_fr": "Goldsmith Intro",
+            "npc_en": "Jemime",
+            "npc_fr": "Jemime",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-the-hand.goldsmith.66144"
+            ],
+            "patch": "4.31"
+        },
+        "x65724": {
+            "name_en": "So You Want to Be a Leatherworker",
+            "name_fr": "Premiers pas à la guilde des tanneurs",
+            "level": 1,
+            "unlock_en": "Leatherworker Intro",
+            "unlock_fr": "Leatherworker Intro",
+            "npc_en": "Randall",
+            "npc_fr": "Randall",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-the-hand.leatherworker.65641"
+            ],
+            "patch": "4.31"
+        },
+        "x65725": {
+            "name_en": "So You Want to Be a Weaver",
+            "name_fr": "Premiers pas à la guilde des couturiers",
+            "level": 1,
+            "unlock_en": "Weaver Intro",
+            "unlock_fr": "Weaver Intro",
+            "npc_en": "Maronne",
+            "npc_fr": "Maronne",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-the-hand.weaver.66070"
+            ],
+            "patch": "4.31"
+        },
+        "x65726": {
+            "name_en": "So You Want to Be an Alchemist",
+            "name_fr": "Premiers pas à la guilde des alchimistes",
+            "level": 1,
+            "unlock_en": "Alchemist Intro",
+            "unlock_fr": "Alchemist Intro",
+            "npc_en": "Deitrich",
+            "npc_fr": "Deitrich",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-the-hand.alchemist.66111"
+            ],
+            "patch": "4.31"
+        },
+        "x65727": {
+            "name_en": "So You Want to Be a Culinarian",
+            "name_fr": "Premiers pas à la guilde des cuisiniers",
+            "level": 1,
+            "unlock_en": "Culinarian Intro",
+            "unlock_fr": "Culinarian Intro",
+            "npc_en": "Charlys",
+            "npc_fr": "Charlys",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-the-hand.culinarian.65807"
+            ],
+            "patch": "4.31"
+        },
+        "x65728": {
+            "name_en": "So You Want to Be a Miner",
+            "name_fr": "Premiers pas à la guilde des mineurs",
+            "level": 1,
+            "unlock_en": "Miner Intro",
+            "unlock_fr": "Miner Intro",
+            "npc_en": "Linette",
+            "npc_fr": "Linette",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-the-land.miner.66133"
+            ],
+            "patch": "4.31"
+        },
+        "x65729": {
+            "name_en": "So You Want to Be a Botanist",
+            "name_fr": "Premiers pas à la guilde des botanistes",
+            "level": 1,
+            "unlock_en": "Botanist Intro",
+            "unlock_fr": "Botanist Intro",
+            "npc_en": "Leonceault",
+            "npc_fr": "Leonceault",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-the-land.botanist.65539"
+            ],
+            "patch": "4.31"
+        },
+        "x65973": {
+            "name_en": "Triple Triad Trial",
+            "name_fr": "Triple Triade en trois mots",
+            "level": 15,
+            "unlock_en": "Triple Triad",
+            "unlock_fr": "Triple Triad",
+            "npc_en": "Triple Triad Master",
+            "npc_fr": "croupière",
+            "cPrev": [
+                "duty.quests.sidequests.uldahn.uldah.65970"
+            ],
+            "patch": "4.31"
+        },
+        "x65987": {
+            "name_en": "So You Want to Be an Arcanist",
+            "name_fr": "Premiers pas à la guilde des arcanistes",
+            "level": 1,
+            "unlock_en": "Arcanist Intro",
+            "unlock_fr": "Arcanist Intro",
+            "npc_en": "Murie",
+            "npc_fr": "Murie",
+            "patch": "4.31"
+        },
+        "x66024": {
+            "name_en": "Scratch It Rich",
+            "name_fr": "À la découverte du Mini Cactpot",
+            "level": 15,
+            "unlock_en": "Mini-Cactpot",
+            "unlock_fr": "Mini-Cactpot",
+            "npc_en": "Mini Cactpot Broker",
+            "npc_fr": "courtier",
+            "cPrev": [
+                "duty.quests.sidequests.uldahn.uldah.65970"
+            ],
+            "patch": "4.31"
+        },
+        "x66025": {
+            "name_en": "Hitting the Cactpot",
+            "name_fr": "À la découverte du Méga Cactpot",
+            "level": 15,
+            "unlock_en": "Jumbo Cactpot",
+            "unlock_fr": "Jumbo Cactpot",
+            "npc_en": "Jumbo Cactpot Broker",
+            "npc_fr": "courtière",
+            "cPrev": [
+                "duty.quests.sidequests.uldahn.uldah.65970"
+            ],
+            "patch": "4.31"
+        },
+        "x66670": {
+            "name_en": "So You Want to Be a Fisher",
+            "name_fr": "Premiers pas à la guilde des pêcheurs",
+            "level": 1,
+            "unlock_en": "Fisher Intro",
+            "unlock_fr": "Fisher Intro",
+            "npc_en": "N'nmulika",
+            "npc_fr": "N'nmulika",
+            "cNext": [
+                "duty.quests.class--job.disciple-of-the-land.fisher.66643"
+            ],
+            "patch": "4.31"
+        },
+        "x67635": {
+            "name_en": "The Favors of the House",
+            "name_fr": "Des talismans à récolter",
+            "level": 60,
+            "unlock_en": "Idyllshire Splendors",
+            "unlock_fr": "Idyllshire Splendors",
+            "npc_en": "",
+            "npc_fr": "",
+            "cPrev": [
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67634"
+            ],
+            "patch": "4.31"
+        },
+        "x67642": {
+            "name_en": "Leves of Ishgard",
+            "name_fr": "Au service des templiers",
+            "level": 50,
+            "unlock_en": "Ishgard Leves",
+            "unlock_fr": "Ishgard Leves",
+            "npc_en": "Eloin",
+            "npc_fr": "Eloin",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67118"
+            ],
+            "patch": "4.31"
+        },
+        "x67643": {
+            "name_en": "Sights of the North",
+            "name_fr": "Un carnet les cieux",
+            "level": 52,
+            "unlock_en": "HW Sightseeing Log",
+            "unlock_fr": "HW Sightseeing Log",
+            "npc_en": "Kester Ironheart",
+            "npc_fr": "Kester Ironheart",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67145",
+                "duty.quests.sidequests.gridanian.gridania.65698"
+            ],
+            "patch": "4.31"
+        },
+        "x67645": {
+            "name_en": "So You Want to Be a Machinist",
+            "name_fr": "Premiers pas à la guilde des machinistes",
+            "level": 50,
+            "unlock_en": "Machinist Intro",
+            "unlock_fr": "Machinist Intro",
+            "npc_en": "Stephanivien",
+            "npc_fr": "Stephanivien",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war-job.machinist.67232"
+            ],
+            "patch": "4.31"
+        },
+        "x67646": {
+            "name_en": "A Dark Spectacle",
+            "name_fr": "Sombre spectacle",
+            "level": 50,
+            "unlock_en": "Dark Knight Intro",
+            "unlock_fr": "Dark Knight Intro",
+            "npc_en": "Ishgardian Citizen",
+            "npc_fr": "citoyen ishgardais",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                "duty.quests.class--job.disciple-of-war-job.dark-knight.67589"
+            ],
+            "patch": "4.31"
+        },
+        "x67659": {
+            "name_en": "What's Your Sign",
+            "name_fr": "Premiers pas à la guilde des astromanciens",
+            "level": 50,
+            "unlock_en": "Astrologian Intro",
+            "unlock_fr": "Astrologian Intro",
+            "npc_en": "Jannequinard",
+            "npc_fr": "Jannequinard",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                "duty.quests.class--job.disciple-of-magic-job.astrologian.67548"
+            ],
+            "patch": "4.31"
+        },
+        "x67870": {
+            "name_en": "Recondition the Anima",
+            "name_fr": "Un nouvel épanouissement",
+            "level": 60,
+            "unlock_en": "Reconditions Anima Weapon",
+            "unlock_fr": "Reconditions Anima Weapon",
+            "npc_en": "Ulan",
+            "npc_fr": "Ulan",
+            "cPrev": [
+                "duty.quests.sidequests.weapon-enhancement-sidequests.anima-weapons.67864"
+            ],
+            "patch": "4.31"
+        },
+        "x67923": {
+            "name_en": "What Lies Beneath",
+            "name_fr": "Les profondeurs du labyrinthe souterrain",
+            "level": 17,
+            "unlock_en": "Palace of the Dead 51+",
+            "unlock_fr": "Palace of the Dead 51+",
+            "npc_en": "Wood Wailer Expeditionary Captain",
+            "npc_fr": "chef enquêteur des vigiles sombres",
+            "cPrev": [
+                "duty.quests.sidequests.records-of-unusual-endeavors.palace-of-the-dead.67092"
+            ],
+            "patch": "4.31"
+        },
+        "x67925": {
+            "name_en": "Squadron and Commander (Twin Adder)",
+            "name_fr": "Chef, oui chef! (Deux Vipères)",
+            "level": 47,
+            "unlock_en": "Squadrons - Twin Adder",
+            "unlock_fr": "Squadrons - Twin Adder",
+            "npc_en": "Serpent Personnel Officer",
+            "npc_fr": "officier du personnel",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66967"
+            ],
+            "cExclude": [
+                67926,
+                67927
+            ],
+            "patch": "4.31"
+        },
+        "x67926": {
+            "name_en": "Squadron and Commander (Maelstrom)",
+            "name_fr": "Chef, oui chef! (Maelstrom)",
+            "level": 47,
+            "unlock_en": "Squadrons - Maelstrom",
+            "unlock_fr": "Squadrons - Maelstrom",
+            "npc_en": "Storm Personnel Officer",
+            "npc_fr": "officier du personnel",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66967"
+            ],
+            "cExclude": [
+                67925,
+                67927
+            ],
+            "patch": "4.31"
+        },
+        "x67927": {
+            "name_en": "Squadron and Commander (Immortal Flames)",
+            "name_fr": "Chef, oui chef! (Immortels)",
+            "level": 47,
+            "unlock_en": "Squadrons - Immortal Flames",
+            "unlock_fr": "Squadrons - Immortal Flames",
+            "npc_en": "Flame Personnel Officer",
+            "npc_fr": "officier du personnel",
+            "cPrev": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66967"
+            ],
+            "cExclude": [
+                67926,
+                67925
+            ],
+            "patch": "4.31"
+        },
+        "x68148": {
+            "name_en": "And We Shall Call It Pyros",
+            "name_fr": "Pyros, la terre de glace et de feu",
+            "level": 70,
+            "unlock_en": "Eureka Pyros",
+            "unlock_fr": "Eureka Pyros",
+            "npc_en": "Rodney",
+            "npc_fr": "Rodney",
+            "patch": "4.45"
+        },
+        "x68149": {
+            "name_en": "And We Shall Call It Hydatos",
+            "name_fr": "Hydatos, la fin du voyage",
+            "level": 70,
+            "unlock_en": "Eureka Hydatos",
+            "unlock_fr": "Eureka Hydatos",
+            "npc_en": "Rodney",
+            "npc_fr": "Rodney",
+            "patch": "4.55"
+        },
+        "x68456": {
+            "name_en": "Sights of Crimson and Dawn",
+            "name_fr": "Vers la tanière du soleil levant",
+            "level": 60,
+            "unlock_en": "SB Sightseeing Log",
+            "unlock_fr": "SB Sightseeing Log",
+            "npc_en": "Ulger Ironheart",
+            "npc_fr": "Ulger Ironheart",
+            "cPrev": [
+                "duty.quests.sidequests.gridanian.gridania.65698",
+                "duty.quests.main-scenario.stormblood.67985"
+            ],
+            "cNext": [
+                69140
+            ],
+            "patch": "4.31"
+        },
+        "x68457": {
+            "name_en": "Leves of Kugane",
+            "name_fr": "Mandataire de Kugane",
+            "level": 60,
+            "unlock_en": "Kugane Leves",
+            "unlock_fr": "Kugane Leves",
+            "npc_en": "Keltraeng",
+            "npc_fr": "Keltraeng",
+            "cPrev": [
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "patch": "4.31"
+        },
+        "x68477": {
+            "name_en": "Reach Long and Prosper",
+            "name_fr": "Le sang des affaires",
+            "level": 60,
+            "unlock_en": "Rhalgr's Reach Splendors",
+            "unlock_fr": "Rhalgr's Reach Splendors",
+            "npc_en": "Galiena",
+            "npc_fr": "Galiena",
+            "cPrev": [
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67634"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68541"
+            ],
+            "patch": "4.31"
+        },
+        "x68478": {
+            "name_en": "And We Shall Call It Pagos",
+            "name_fr": "Pagos, la terre de glace",
+            "level": 70,
+            "unlock_en": "Eureka Pagos",
+            "unlock_fr": "Eureka Pagos",
+            "npc_en": "Rodney",
+            "npc_fr": "Rodney",
+            "patch": "4.4"
+        },
+        "x68479": {
+            "name_en": "Songs in the Key of Kugane",
+            "name_fr": "Vers d'Orient",
+            "level": 70,
+            "unlock": [
+                "duty.dutyraid-finder.trials.sb.6",
+                "duty.dutyraid-finder.trials.sb.7",
+                "duty.dutyraid-finder.trials.sb.8",
+                "duty.dutyraid-finder.trials.sb.9",
+                "duty.dutyraid-finder.trials.sb.10",
+                "duty.dutyraid-finder.trials.sb.15",
+                "duty.dutyraid-finder.trials.sb.16"
+            ],
+            "unlock_en": "Kugane Wandering Minstrel",
+            "unlock_fr": "Kugane Wandering Minstrel",
+            "npc_en": "Wandering Minstrel",
+            "npc_fr": "ménestrel errant",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68089"
+            ],
+            "patch": "4.31"
+        },
+        "x68555": {
+            "name_en": "Plucking the Heartstrings",
+            "name_fr": "La musique du cœur",
+            "level": 30,
+            "unlock_en": "Perform",
+            "unlock_fr": "Perform",
+            "npc_en": "Simpkin",
+            "npc_fr": "Simpkin",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-war-job.bard.66621"
+            ],
+            "patch": "4.31"
+        },
+        "x68624": {
+            "name_en": "Recall of Duty",
+            "name_fr": "La ballade des réminiscences",
+            "level": 70,
+            "unlock_en": "Duty Recorder",
+            "unlock_fr": "Duty Recorder",
+            "npc_en": "Wandering Minstrel",
+            "npc_fr": "ménestrel errant",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ],
+            "patch": "4.31"
+        },
+        "x69138": {
+            "name_en": "Leves of the Crystarium",
+            "name_fr": "Mandataire de Cristarium",
+            "level": 70,
+            "unlock_en": "Crystarium Leves",
+            "unlock_fr": "Crystarium Leves",
+            "npc_en": "Eirikur",
+            "npc_fr": "Eirikur",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68817"
+            ],
+            "patch": "5.0"
+        },
+        "x69139": {
+            "name_en": "The Boutique Always Wins",
+            "name_fr": "Retour aux affaires courantes",
+            "level": 70,
+            "unlock_en": "Eulmore Splendors",
+            "unlock_fr": "Eulmore Splendors",
+            "npc_en": "Mowen",
+            "npc_fr": "Mowen",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68822",
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67634"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.kholusia.eulmore.69265"
+            ],
+            "patch": "5.0"
+        },
+        "x69140": {
+            "name_en": "Sights of the First",
+            "name_fr": "Les nerfs d'acier pour l'exploration",
+            "level": 70,
+            "unlock_en": "ShB Sightseeing Log",
+            "unlock_fr": "ShB Sightseeing Log",
+            "npc_en": "Eirlalth",
+            "npc_fr": "Eirlalth",
+            "cPrev": [
+                "duty.quests.sidequests.gridanian.gridania.65698",
+                "duty.quests.main-scenario.shadowbringers.68817"
+            ],
+            "patch": "5.0"
+        },
+        "x69141": {
+            "name_en": "The Aspiring Skywatcher",
+            "name_fr": "Des rêves météorologiques",
+            "level": 80,
+            "unlock_en": "Enhanced Skywatchers",
+            "unlock_fr": "Enhanced Skywatchers",
+            "npc_en": "Lor Feo",
+            "npc_fr": "Lor Feo",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ],
+            "patch": "5.0"
+        },
+        "x69198": {
+            "name_en": "Minstrel from Another Mother",
+            "name_fr": "Un ménestrel du premier monde",
+            "level": 80,
+            "unlock": [
+                "duty.dutyraid-finder.trials.shb.6",
+                "duty.dutyraid-finder.trials.shb.7",
+                "duty.dutyraid-finder.trials.shb.8",
+                "duty.dutyraid-finder.trials.shb.11"
+            ],
+            "unlock_en": "Crystarium Wandering Minstrel",
+            "unlock_fr": "Crystarium Wandering Minstrel",
+            "npc_en": "Minstreling Wanderer",
+            "npc_fr": "ménestrel itinérant",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ],
+            "patch": "5.0"
+        },
+        "x69295": {
+            "name_en": "Memories Rekindled",
+            "name_fr": "Souvenirs souvenirs...",
+            "level": 1,
+            "unlock_en": "New Game+",
+            "unlock_fr": "New Game+",
+            "npc_en": "Wistful Whitebeard",
+            "npc_fr": "vieil homme pensif",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ],
+            "patch": "5.1"
+        },
+        "x69296": {
+            "name_en": "The Mendicant's Court",
+            "name_fr": "L'Esplanade des démunis",
+            "level": 1,
+            "unlock_en": "Firmament Phase 1",
+            "unlock_fr": "Firmament Phase 1",
+            "npc_en": "Francel",
+            "npc_fr": "Francel",
+            "cPrev": [
+                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69208"
+            ],
+            "patch": "5.11"
+        },
+        "x69377": {
+            "name_en": "The New Nest",
+            "name_fr": "Le Nichoir",
+            "level": 1,
+            "unlock_en": "Firmament Phase 2",
+            "unlock_fr": "Firmament Phase 2",
+            "npc_en": "Augebert",
+            "npc_fr": "Augebert",
+            "cPrev": [
+                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69208"
+            ],
+            "patch": "5.21"
+        },
+        "x69378": {
+            "name_en": "Weapon of Choice",
+            "name_fr": "Un chef-d'œuvre de technologie",
+            "level": 80,
+            "unlock": [
+                "duty.dutyraid-finder.trials.shb.9",
+                "duty.dutyraid-finder.trials.shb.12",
+                "duty.dutyraid-finder.trials.shb.16"
+            ],
+            "unlock_en": "Werlyt Extreme Fights",
+            "unlock_fr": "Werlyt Extreme Fights",
+            "npc_en": "Warmachina Fanatic",
+            "npc_fr": "maquettiste des Forges",
+            "cPrev": [
+                "duty.quests.chronicles-of-a-new-era.the-sorrow-of-werlyt.69319"
+            ],
+            "patch": "5.2"
+        },
+        "x69478": {
+            "name_en": "Memoirs from the Front",
+            "name_fr": "Renseignement militaire",
+            "level": 1,
+            "unlock_en": "Field Record Collection",
+            "unlock_fr": "Field Record Collection",
+            "npc_en": "Resistance Historian",
+            "npc_fr": "officier de renseignement",
+            "cPrev": [
+                "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69477"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69479"
+            ],
+            "patch": "5.35"
+        },
+        "x69508": {
+            "name_en": "Featherfall",
+            "name_fr": "Tombeplume",
+            "level": 1,
+            "unlock_en": "Firmament Phase 3",
+            "unlock_fr": "Firmament Phase 3",
+            "npc_en": "Augebert",
+            "npc_fr": "Augebert",
+            "cPrev": [
+                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69208"
+            ],
+            "patch": "5.31"
+        },
+        "x69563": {
+            "name_en": "A Seaside Story",
+            "name_fr": "Les bons contes font les bons amis",
+            "level": 1,
+            "unlock_en": "Delubrum Reginae (Savage)",
+            "unlock_fr": "Delubrum Reginae (Savage)",
+            "npc_en": "Troubled Gentleman",
+            "npc_fr": "dauphin du Mujikoza",
+            "cPrev": [
+                "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69562"
+            ],
+            "patch": "5.45"
+        },
+        "x69566": {
+            "name_en": "Open and Inviting",
+            "name_fr": "Entre officialité et liberté",
+            "level": 1,
+            "unlock_en": "Triple Triad Open & Invitational Tournaments",
+            "unlock_fr": "Triple Triad Open & Invitational Tournaments",
+            "npc_en": "Open Tournament Official",
+            "npc_fr": "guichetier des tournois officiels",
+            "patch": "5.4"
+        },
+        "x69578": {
+            "name_en": "The Risensong Quarter",
+            "name_fr": "Le Nouveau Refrain",
+            "level": 1,
+            "unlock_en": "Firmament Phase 4",
+            "unlock_fr": "Firmament Phase 4",
+            "npc_en": "Augebert",
+            "npc_fr": "Augebert",
+            "cPrev": [
+                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69208"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69535"
+            ],
+            "patch": "5.41"
+        },
+        "x69630": {
+            "name_en": "An Honor to Serve",
+            "name_fr": "Tu veux une médaille?",
+            "level": 1,
+            "unlock_en": "Resistance Honors",
+            "unlock_fr": "Resistance Honors",
+            "npc_en": "Resistance Councilor",
+            "npc_fr": "responsable des décorations",
+            "cPrev": [
+                "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69624"
+            ],
+            "patch": "5.55"
+        },
+        "x69580": {
+            "name_en": "A Message from Konogg",
+            "name_fr": "Courrier électronique",
+            "level": 1,
+            "unlock_en": "Message from Konogg 1",
+            "unlock_fr": "Message from Konogg 1",
+            "npc_en": "Dig Site Chief",
+            "npc_fr": "porion nain",
+            "cPrev": [
+                "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69579"
+            ],
+            "cNext": [
+                69581
+            ],
+            "cSiblings": [
+                "duty.collection.portable-archive.konoggs-messages.0"
+            ],
+            "patch": "5.5"
+        },
+        "x69581": {
+            "name_en": "Dwarves of a Beard",
+            "name_fr": "Un Nain volontaire",
+            "level": 1,
+            "unlock_en": "Message from Konogg 2",
+            "unlock_fr": "Message from Konogg 2",
+            "npc_en": "Dig Site Chief",
+            "npc_fr": "porion nain",
+            "cPrev": [
+                69580
+            ],
+            "cNext": [
+                "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69587",
+                69582
+            ],
+            "cSiblings": [
+                "duty.collection.portable-archive.konoggs-messages.1"
+            ],
+            "patch": "5.5"
+        },
+        "x69582": {
+            "name_en": "Strange Glagg",
+            "name_fr": "Le doyen dérape",
+            "level": 1,
+            "unlock_en": "Message from Konogg 3",
+            "unlock_fr": "Message from Konogg 3",
+            "npc_en": "Dig Site Chief",
+            "npc_fr": "porion nain",
+            "cPrev": [
+                69581
+            ],
+            "cNext": [
+                69583
+            ],
+            "cSiblings": [
+                "duty.collection.portable-archive.konoggs-messages.2"
+            ],
+            "patch": "5.5"
+        },
+        "x69583": {
+            "name_en": "Dwarves of a Beard Freshened",
+            "name_fr": "Un Nain volontaire (bis)",
+            "level": 1,
+            "unlock_en": "Message from Konogg 4",
+            "unlock_fr": "Message from Konogg 4",
+            "npc_en": "Dig Site Chief",
+            "npc_fr": "porion nain",
+            "cPrev": [
+                69582
+            ],
+            "cNext": [
+                "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69588",
+                69584
+            ],
+            "cSiblings": [
+                "duty.collection.portable-archive.konoggs-messages.3"
+            ],
+            "patch": "5.5"
+        },
+        "x69584": {
+            "name_en": "Stranger Glagg",
+            "name_fr": "Le doyen déraille",
+            "level": 1,
+            "unlock_en": "Message from Konogg 5",
+            "unlock_fr": "Message from Konogg 5",
+            "npc_en": "Dig Site Chief",
+            "npc_fr": "porion nain",
+            "cPrev": [
+                69583
+            ],
+            "cNext": [
+                69585
+            ],
+            "cSiblings": [
+                "duty.collection.portable-archive.konoggs-messages.4"
+            ],
+            "patch": "5.5"
+        },
+        "x69585": {
+            "name_en": "All's Well That Ends with Ale",
+            "name_fr": "Komra retrouvé!",
+            "level": 1,
+            "unlock_en": "Message from Konogg 6",
+            "unlock_fr": "Message from Konogg 6",
+            "npc_en": "Dig Site Chief",
+            "npc_fr": "porion nain",
+            "cPrev": [
+                69584
+            ],
+            "cNext": [
+                "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69589"
+            ],
+            "cSiblings": [
+                "duty.collection.portable-archive.konoggs-messages.5"
+            ],
+            "patch": "5.5"
+        },
+        "x69706": {
+            "name_en": "Leves of Old Sharlayan",
+            "name_fr": "Mandataire de Vieille Sharlayan",
+            "level": 80,
+            "unlock_en": "Old Sharlayan Leves",
+            "unlock_fr": "Old Sharlayan Leves",
+            "npc_en": "Grigge",
+            "npc_fr": "Grigge",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69894"
+            ],
+            "patch": "6.0"
+        },
+        "x69707": {
+            "name_en": "I Wandered Sharlayan as a Minstrel",
+            "name_fr": "Vers sharlayanais",
+            "level": 90,
+            "unlock_en": "Old Sharlayan Wandering Minstrel",
+            "unlock_fr": "Old Sharlayan Wandering Minstrel",
+            "npc_en": "Wandering Minstrel",
+            "npc_fr": "ménestrel errant",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.70000"
+            ],
+            "patch": "6.0"
+        },
+        "x69710": {
+            "name_en": "Sights of the End",
+            "name_fr": "L'exploratrice du bout du monde",
+            "level": 80,
+            "unlock_en": "EW Sightseeing Log",
+            "unlock_fr": "EW Sightseeing Log",
+            "npc_en": "Babeth Ironheart",
+            "npc_fr": "Babeth Ironheart",
+            "cPrev": [
+                "duty.quests.sidequests.gridanian.gridania.65698",
+                "duty.quests.main-scenario.endwalker.69894"
+            ],
+            "patch": "6.0"
+        },
+        "x69711": {
+            "name_en": "Expanding House of Splendors",
+            "name_fr": "Le marché insulaire",
+            "level": 80,
+            "unlock_en": "Radz-at-Han Splendors",
+            "unlock_fr": "Radz-at-Han Splendors",
+            "npc_en": "Ofpilona",
+            "npc_fr": "Ofpilona",
+            "cPrev": [
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67634"
+            ],
+            "patch": "6.0"
+        },
+        "x70180": {
+            "name_en": "Seeing the Cieldalaes",
+            "name_fr": "En quête des îles Cieldalaes",
+            "level": 1,
+            "unlock_en": "Island Sanctuary Visit",
+            "unlock_fr": "Island Sanctuary Visit",
+            "npc_en": "Baldin",
+            "npc_fr": "Baldin",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ],
+            "patch": "6.28"
+        },
+        "x70187": {
+            "name_en": "An Odd Job",
+            "name_fr": "Requêtes extraordinaires",
+            "level": 90,
+            "unlock_en": "V&C Dungeons",
+            "unlock_fr": "Donjons spéciaux",
+            "npc_en": "Osmon",
+            "npc_fr": "Osmon",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.70000"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.records-of-unusual-endeavors.variant-dungeons.70182"
+            ],
+            "patch": "6.28"
+        }
+    }
+}

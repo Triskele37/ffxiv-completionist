@@ -1,16 +1,19 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
-import { Settings } from '../settings';
-import { SettingsComponent } from '../settings.component';
+import { SettingsService } from '../settings.service';
 
 @Component({
     selector: 'xiv-chain-settings',
     templateUrl: './chain-settings.component.html'
 })
 export class ChainSettingsComponent {
-    @Input() settings: Settings;
-
-    constructor(public parent: SettingsComponent) {
+    constructor(public svcSettings: SettingsService) {
     }
 
+    onChainingEnabledChange(): void {
+        this.svcSettings.onChangeBoolSetting(this.svcSettings.settings.chainingEnabled);
+        if(this.svcSettings.settings.chainingEnabled.value) {
+            this.svcSettings.onChainingEnabled$.next();
+        }
+    }
 }

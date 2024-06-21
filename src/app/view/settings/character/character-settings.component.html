@@ -6,7 +6,7 @@
         optionValue="short"
         optionLabel="long"
         [options]="languages"
-        [(ngModel)]="settings.lang.value"
+        [(ngModel)]="svcSettings.settings.lang.value"
         (onChange)="onChangeLanguage()"
     ></p-dropdown>
 </div>
@@ -24,7 +24,7 @@
             [placeholder]="'MAIN.SETTING.CLASSES.PLACEHOLDER' | translate"
             [options]="startingClasses"
             [showClear]="true"
-            [(ngModel)]="settings.startingClass.value"
+            [(ngModel)]="svcSettings.settings.startingClass.value"
             (onChange)="onChangeStartingClass()"
         ></p-dropdown>
     </span>
@@ -34,17 +34,17 @@
 
 <div class="setting">
     <label>{{'MAIN.SETTING.SAVE.LOCATION' | translate}}</label>
-    <label>{{settings.storeLocation.value}}</label>
+    <label>{{svcSettings.settings.storeLocation.value}}</label>
 </div>
 
 <div class="setting">
     <label>{{'MAIN.SETTING.SAVE.NAME' | translate}}</label>
-    <label>{{settings.storeName.value}}.json</label>
+    <label>{{svcSettings.settings.storeName.value}}.json</label>
 </div>
 
 <div class="setting">
     <label>{{'MAIN.SETTING.SAVE.CHANGE' | translate}}</label>
-    <span class="p-buttonset">
+    <p-buttonGroup>
         <p-button
             [label]="'MAIN.SETTING.SAVE.NEW' | translate"
             (onClick)="onNewSaveClick()"
@@ -53,12 +53,12 @@
             [label]="'MAIN.SETTING.SAVE.LOAD' | translate"
             (onClick)="onLoadSaveClick()"
         ></p-button>
-    </span>
+    </p-buttonGroup>
 </div>
 
 <div class="setting">
     <label>{{'MAIN.SETTING.SAVE.OPEN' | translate}}</label>
-    <span class="p-buttonset">
+    <p-buttonGroup>
         <p-button
             [label]="'MAIN.SETTING.SAVE.CONFIG' | translate"
             (onClick)="onOpenConfigClick()"
@@ -71,12 +71,12 @@
             [label]="'MAIN.SETTING.SAVE.BOTH' | translate"
             (onClick)="onOpenBothClick()"
         ></p-button>
-    </span>
+    </p-buttonGroup>
 </div>
 
 <div class="setting">
     <label>{{'MAIN.SETTING.SAVE.BACKUP' | translate}}</label>
-    <span class="p-buttonset">
+    <p-buttonGroup>
         <p-button
             [label]="'MAIN.SETTING.SAVE.CONFIG' | translate"
             (onClick)="onBackupConfigClick()"
@@ -89,12 +89,12 @@
             [label]="'MAIN.SETTING.SAVE.BOTH' | translate"
             (onClick)="onBackupBothClick()"
         ></p-button>
-    </span>
+    </p-buttonGroup>
 </div>
 
 <div class="setting">
     <label>{{'MAIN.SETTING.SAVE.LOAD_BACKUP' | translate}}</label>
-    <span class="p-buttonset">
+    <p-buttonGroup>
         <p-button
             [label]="'MAIN.SETTING.SAVE.CONFIG' | translate"
             (onClick)="onLoadBackupConfigClick()"
@@ -103,5 +103,5 @@
             [label]="'MAIN.SETTING.SAVE.SAVE' | translate"
             (onClick)="onLoadBackupSaveClick()"
         ></p-button>
-    </span>
+    </p-buttonGroup>
 </div>

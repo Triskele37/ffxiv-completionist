@@ -1,0 +1,1390 @@
+{
+    "key": "triple-triad-opponents",
+    "groupName_en": "Triple Triad Opponents",
+    "groupName_fr": "Adversaires de Triple Triade",
+    "headers": {
+        "name": {
+            "header_en": "Opponent",
+            "header_fr": "Adversaire"
+        },
+        "drops": {
+            "link": true,
+            "header_en": "Drops"
+        },
+        "zone": {
+            "header_en": "Zone",
+            "header_fr": "Zone"
+        },
+        "location": {
+            "header_en": "Location",
+            "header_fr": "Lieu"
+        },
+        "quest": {
+            "link": true,
+            "header_en": "Quest"
+        },
+        "patch": {
+            "header_en": "Patch",
+            "header_fr": "Patch"
+        }
+    },
+    "common": [
+        "zone"
+    ],
+    "tasks": {
+        "x115": {
+            "name_en": "Maillart",
+            "name_fr": "Maillart",
+            "zone": "ZONE.OLD_SHARLAYAN",
+            "location": "(8.5, 15.2)",
+            "patch": "6.5",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-13.18",
+                "character.gold-saucer.triple-triad-card-list.page-13.19"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.myths-of-the-realm.70328"
+        },
+        "x114": {
+            "name_en": "Ylaire",
+            "name_fr": "Ylaire",
+            "zone": "ZONE.OLD_GRIDANIA",
+            "location": "(7.8, 10.9)",
+            "patch": "6.5",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-13.14",
+                "character.gold-saucer.triple-triad-card-list.page-13.15",
+                "character.gold-saucer.triple-triad-card-list.page-13.16"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.myths-of-the-realm.70205"
+        },
+        "x113": {
+            "name_en": "Tokimori",
+            "name_fr": "Tokimori",
+            "zone": "ZONE.KUGANE",
+            "location": "(8.9, 8.8)",
+            "patch": "6.45",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-13.8"
+            ],
+            "quest": "duty.quests.sidequests.records-of-unusual-endeavors.variant-dungeons.70269"
+        },
+        "x112": {
+            "name_en": "Ruissenaud",
+            "name_fr": "Ruissenaud",
+            "zone": "ZONE.LABYRINTHOS",
+            "location": "(8.9, 27.3)",
+            "patch": "6.4",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-13.4",
+                "character.gold-saucer.triple-triad-card-list.page-13.5"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.pandaemonium.70296"
+        },
+        "x111": {
+            "name_en": "Gamingway",
+            "name_fr": "Gamingway",
+            "zone": "ZONE.MARE_LAMENTORUM",
+            "location": "(18.1, 16.1)",
+            "patch": "6.35",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-12.29"
+            ],
+            "quest": "duty.quests.tribal-quests.loporrit.70222"
+        },
+        "x110": {
+            "name_en": "Kilfufu",
+            "name_fr": "Kilfufu",
+            "zone": "ZONE.UL_DAH_STEPS_OF_NALD",
+            "location": "(13, 8)",
+            "patch": "6.25",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-12.19"
+            ],
+            "quest": "duty.quests.sidequests.records-of-unusual-endeavors.variant-dungeons.70182"
+        },
+        "x109": {
+            "name_en": "Ghasa",
+            "name_fr": "Ghasa",
+            "zone": "ZONE.THAVNAIR",
+            "location": "(20, 28)",
+            "patch": "6.15",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-12.10"
+            ],
+            "quest": "duty.quests.tribal-quests.arkasodara.70085"
+        },
+        "x108": {
+            "name_en": "Prudence",
+            "name_fr": "Prudence",
+            "zone": "ZONE.MOR_DHONA",
+            "location": "(30.6, 12.3)",
+            "patch": "6.1",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-12.3",
+                "character.gold-saucer.triple-triad-card-list.page-12.4"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.myths-of-the-realm.70075"
+        },
+        "x106": {
+            "name_en": "Celia",
+            "name_fr": "Celia",
+            "zone": "ZONE.OLD_SHARLAYAN",
+            "location": "(15.8, 7.0)",
+            "patch": "6.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-11.22",
+                "character.gold-saucer.triple-triad-card-list.page-11.25"
+            ],
+            "quest": "duty.quests.main-scenario.endwalker.70000"
+        },
+        "x102": {
+            "name_en": "Qetanur",
+            "name_fr": "Qetanur",
+            "zone": "ZONE.THAVNAIR",
+            "location": "(19.7, 9.2)",
+            "patch": "6.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-11.13",
+            "quest": "duty.quests.main-scenario.endwalker.69910"
+        },
+        "x104": {
+            "name_en": "Cheatingway",
+            "name_fr": "Cheatingway",
+            "zone": "ZONE.OLD_SHARLAYAN",
+            "location": "(11.1, 8.9)",
+            "patch": "6.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-11.16",
+                "character.gold-saucer.triple-triad-card-list.page-11.17"
+            ],
+            "quest": "duty.quests.main-scenario.endwalker.69985"
+        },
+        "x101": {
+            "name_en": "Sladkey",
+            "name_fr": "Sladkey",
+            "zone": "ZONE.GANGOS",
+            "location": "(5, 6)",
+            "patch": "5.55",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-11.9",
+                "character.gold-saucer.triple-triad-card-list.page-11.10"
+            ],
+            "quest": "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69624"
+        },
+        "x55": {
+            "name_en": "Arsieu",
+            "name_fr": "Arsieu",
+            "zone": "ZONE.GANGOS",
+            "location": "(5.9, 6.6)",
+            "patch": "5.35",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-10.19",
+                "character.gold-saucer.triple-triad-card-list.page-10.18"
+            ],
+            "quest": "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69487"
+        },
+        "x28": {
+            "name_en": "Cobleva",
+            "name_fr": "Cobleva",
+            "zone": "ZONE.LAKELAND",
+            "location": "(14.3, 7.8)",
+            "patch": "5.3",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-10.9",
+                "character.gold-saucer.triple-triad-card-list.page-10.10"
+            ],
+            "quest": "duty.quests.tribal-quests.dwarf.69437"
+        },
+        "x64": {
+            "name_en": "Hanagasa",
+            "name_fr": "Hanagasa",
+            "zone": "ZONE.KUGANE",
+            "location": "(10.4, 11.9)",
+            "patch": "5.2",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.15",
+                "character.gold-saucer.triple-triad-card-list.page-7.14",
+                "character.gold-saucer.triple-triad-card-list.page-8.22",
+                "character.gold-saucer.triple-triad-card-list.page-7.29"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68725"
+        },
+        "x51": {
+            "name_en": "Ushiogi",
+            "name_fr": "Ushiogi",
+            "zone": "ZONE.THE_RUBY_SEA",
+            "location": "(21.7, 7.9)",
+            "patch": "4.35",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-8.2",
+                "character.gold-saucer.triple-triad-card-list.page-8.3",
+                "character.gold-saucer.triple-triad-card-list.page-8.1"
+            ],
+            "quest": "duty.quests.sidequests.records-of-unusual-endeavors.heaven-on-high.68668"
+        },
+        "x77": {
+            "name_en": "Masatsuchi",
+            "name_fr": "Masatsuchi",
+            "zone": "ZONE.YANXIA",
+            "location": "(29.5, 20.2)",
+            "patch": "4.2",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.17",
+                "character.gold-saucer.triple-triad-card-list.page-7.24"
+            ],
+            "quest": "duty.quests.sidequests.othardian.yanxia.68268"
+        },
+        "x3": {
+            "name_en": "Ercanbald",
+            "name_fr": "Ercanbald",
+            "zone": "ZONE.RHALGRS_REACH",
+            "location": "(9.8, 9.8)",
+            "patch": "4.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.12",
+                "character.gold-saucer.triple-triad-card-list.page-6.22"
+            ],
+            "quest": "duty.quests.main-scenario.stormblood.67985"
+        },
+        "x8": {
+            "name_en": "Gyoei",
+            "name_fr": "Gyoei",
+            "zone": "ZONE.YANXIA",
+            "location": "(15.7, 31.9)",
+            "patch": "4.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-6.19",
+                "character.gold-saucer.triple-triad-card-list.page-8.21"
+            ],
+            "quest": "duty.quests.sidequests.othardian.yanxia.68281"
+        },
+        "x78": {
+            "name_en": "Master Mogzin",
+            "name_fr": "Mogzin",
+            "zone": "ZONE.THE_CHURNING_MISTS",
+            "location": "(15, 28)",
+            "patch": "3.3",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.12",
+                "character.gold-saucer.triple-triad-card-list.page-5.12",
+                "character.gold-saucer.triple-triad-card-list.page-5.19",
+                "character.gold-saucer.triple-triad-card-list.page-4.20"
+            ],
+            "quest": "duty.quests.tribal-quests.moogle.67863"
+        },
+        "x0": {
+            "name_en": "Triple Triad Master",
+            "name_fr": "Croupière",
+            "zone": "ZONE.THE_GOLD_SAUCER",
+            "location": "(4, 7)",
+            "patch": "2.51",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-1.3",
+            "quest": ""
+        },
+        "x13": {
+            "name_en": "Maisenta",
+            "name_fr": "Maisenta",
+            "zone": "ZONE.NEW_GRIDANIA",
+            "location": "(11, 11)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.7",
+                "character.gold-saucer.triple-triad-card-list.page-1.15"
+            ],
+            "quest": ""
+        },
+        "x20": {
+            "name_en": "Roger",
+            "name_fr": "Roger",
+            "zone": "ZONE.CENTRAL_THANALAN",
+            "location": "(19, 20)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.8",
+                "character.gold-saucer.triple-triad-card-list.page-1.4"
+            ],
+            "quest": ""
+        },
+        "x11": {
+            "name_en": "Jonas of the Three Spades",
+            "name_fr": "Jonas le Valet de pique",
+            "zone": "ZONE.THE_GOLD_SAUCER",
+            "location": "(4, 7)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.14",
+                "character.gold-saucer.triple-triad-card-list.page-1.19"
+            ],
+            "quest": ""
+        },
+        "x15": {
+            "name_en": "Memeroon",
+            "name_fr": "Memeroon",
+            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "location": "(14, 24)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.13",
+                "character.gold-saucer.triple-triad-card-list.page-4.24",
+                "character.gold-saucer.triple-triad-card-list.page-2.6",
+                "character.gold-saucer.triple-triad-card-list.page-1.1"
+            ],
+            "quest": ""
+        },
+        "x49": {
+            "name_en": "Swift",
+            "name_fr": "Swift",
+            "zone": "ZONE.UL_DAH_STEPS_OF_NALD",
+            "location": "(8.4, 8.9)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.28",
+                "character.gold-saucer.triple-triad-card-list.page-2.9",
+                "character.gold-saucer.triple-triad-card-list.page-4.9",
+                "character.gold-saucer.triple-triad-card-list.page-3.6"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66221"
+        },
+        "x103": {
+            "name_en": "Aiglephine",
+            "name_fr": "Aiglephine",
+            "zone": "ZONE.LABYRINTHOS",
+            "location": "(29.3, 13.2)",
+            "patch": "6.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-11.12",
+            "quest": "duty.quests.main-scenario.endwalker.69898"
+        },
+        "x30": {
+            "name_en": "Droyn",
+            "name_fr": "Droyn",
+            "zone": "ZONE.UL_DAH_STEPS_OF_THAL",
+            "location": "(11.8, 13.0)",
+            "patch": "5.45",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-10.29",
+                "character.blue-mage.the-masked-carnivale.29"
+            ],
+            "quest": "duty.quests.class--job.disciple-of-magic-job.blue-mage.69273"
+        },
+        "x74": {
+            "name_en": "Lewto-Sue",
+            "name_fr": "Lewto-Sue",
+            "zone": "ZONE.AMH_ARAENG",
+            "location": "(26, 16)",
+            "patch": "5.4",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-10.23",
+                "character.gold-saucer.triple-triad-card-list.page-10.22"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.eden.69515"
+        },
+        "x31": {
+            "name_en": "Eo Sigun",
+            "name_fr": "Eo Sigun",
+            "zone": "ZONE.IL_MHEG",
+            "location": "(22.2, 3.6)",
+            "patch": "5.1",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-9.21",
+                "character.gold-saucer.triple-triad-card-list.page-9.19"
+            ],
+            "quest": "duty.quests.tribal-quests.pixie.69219"
+        },
+        "x92": {
+            "name_en": "Umber Torrent",
+            "name_fr": "Umber Torrent",
+            "zone": "ZONE.THE_LOCHS",
+            "location": "(16.4, 24.7)",
+            "patch": "4.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.23",
+                "character.gold-saucer.triple-triad-card-list.page-6.25"
+            ],
+            "quest": "duty.quests.main-scenario.post-stormblood.68508"
+        },
+        "x32": {
+            "name_en": "Garima",
+            "name_fr": "Garima",
+            "zone": "ZONE.THE_FRINGES",
+            "location": "(28.2, 19.9)",
+            "patch": "4.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-6.21",
+                "character.gold-saucer.triple-triad-card-list.page-7.11"
+            ],
+            "quest": "duty.quests.sidequests.gyr-abanian.the-fringes.68353"
+        },
+        "x38": {
+            "name_en": "House Fortemps Manservant",
+            "name_fr": "Serviteur des Fortemps",
+            "zone": "ZONE.FORTEMPS_MANOR",
+            "location": "(11, 11)",
+            "patch": "3.2",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-4.29",
+                "character.gold-saucer.triple-triad-card-list.page-5.0",
+                "character.gold-saucer.triple-triad-card-list.page-4.17"
+            ],
+            "quest": "duty.quests.main-scenario.heavensward.67205"
+        },
+        "x18": {
+            "name_en": "Mother Miounne",
+            "name_fr": "Mother Miounne",
+            "zone": "ZONE.NEW_GRIDANIA",
+            "location": "(11, 13)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.11",
+                "character.gold-saucer.triple-triad-card-list.page-1.29"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66046"
+        },
+        "x24": {
+            "name_en": "Wymond",
+            "name_fr": "Wymond",
+            "zone": "ZONE.UL_DAH_STEPS_OF_NALD",
+            "location": "(9.8, 8.7)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.7",
+                "character.gold-saucer.triple-triad-card-list.page-5.7"
+            ],
+            "quest": ""
+        },
+        "x35": {
+            "name_en": "Helmhart",
+            "name_fr": "Helmhart",
+            "zone": "ZONE.EASTERN_THANALAN",
+            "location": "(20, 21)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.3",
+                "character.gold-saucer.triple-triad-card-list.page-1.21"
+            ],
+            "quest": ""
+        },
+        "x89": {
+            "name_en": "Ruhtwyda of the Three Hearts",
+            "name_fr": "Ruthwyda la Dame de cœur",
+            "zone": "ZONE.THE_GOLD_SAUCER",
+            "location": "(3, 7)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.14",
+                "character.gold-saucer.triple-triad-card-list.page-2.19"
+            ],
+            "quest": ""
+        },
+        "x105": {
+            "name_en": "Mehryde",
+            "name_fr": "Mehryde",
+            "zone": "ZONE.RADZ_AT_HAN",
+            "location": "(10.8, 7.6)",
+            "patch": "6.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-11.15",
+            "quest": "duty.quests.sidequests.thavnairian.radz-at-han.69805"
+        },
+        "x48": {
+            "name_en": "Redard",
+            "name_fr": "Redard",
+            "zone": "ZONE.RAK_TIKA",
+            "location": "(20.4, 27.2)",
+            "patch": "5.2",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-10.1",
+                "character.gold-saucer.triple-triad-card-list.page-9.29"
+            ],
+            "quest": "duty.quests.tribal-quests.qitari.69330"
+        },
+        "x9": {
+            "name_en": "Ibenart",
+            "name_fr": "Ibenart",
+            "zone": "ZONE.KHOLUSIA",
+            "location": "(19.1, 17.4)",
+            "patch": "5.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-9.0",
+            "quest": "duty.quests.main-scenario.shadowbringers.69177"
+        },
+        "x21": {
+            "name_en": "Saushs Koal",
+            "name_fr": "Saushs Koal",
+            "zone": "ZONE.THE_TEMPEST",
+            "location": "(31.4, 17.3)",
+            "patch": "5.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-9.4",
+            "quest": "duty.quests.sidequests.tempest.the-tempest.69113"
+        },
+        "x33": {
+            "name_en": "Gyuf Uin",
+            "name_fr": "Gyuf Uin",
+            "zone": "ZONE.IL_MHEG",
+            "location": "(16.1, 30.7)",
+            "patch": "5.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-9.2",
+            "quest": "duty.quests.main-scenario.shadowbringers.68856"
+        },
+        "x2": {
+            "name_en": "Drery",
+            "name_fr": "Drery",
+            "zone": "ZONE.AMH_ARAENG",
+            "location": "(11.9, 16.9)",
+            "patch": "5.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-8.29",
+                "character.gold-saucer.triple-triad-card-list.page-9.1"
+            ],
+            "quest": "duty.quests.sidequests.amh-araeng.amh-araeng.69046"
+        },
+        "x36": {
+            "name_en": "Hetsukaze",
+            "name_fr": "Hetsukaze",
+            "zone": "ZONE.KUGANE",
+            "location": "(8.0, 13.6)",
+            "patch": "4.45",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-8.25",
+                "character.gold-saucer.triple-triad-card-list.page-8.15",
+                "character.gold-saucer.triple-triad-card-list.page-8.24",
+                "character.gold-saucer.triple-triad-card-list.page-8.26"
+            ],
+            "quest": "duty.quests.other.quasi-quests.68149"
+        },
+        "x87": {
+            "name_en": "Redbill Storeboy",
+            "name_fr": "Intendant des Becs-rouges",
+            "zone": "ZONE.IDYLLSHIRE",
+            "location": "(3.8, 4.5)",
+            "patch": "3.1",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-5.18",
+                "character.gold-saucer.triple-triad-card-list.page-6.13",
+                "character.gold-saucer.triple-triad-card-list.page-4.8",
+                "character.gold-saucer.triple-triad-card-list.page-4.25"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.the-shadow-of-mhach.67910"
+        },
+        "x54": {
+            "name_en": "Yusui",
+            "name_fr": "Yusui",
+            "zone": "ZONE.THE_RUBY_SEA",
+            "location": "(31.6, 37.1)",
+            "patch": "4.2",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-7.20",
+            "quest": "duty.quests.main-scenario.stormblood.68014"
+        },
+        "x12": {
+            "name_en": "Kotokaze",
+            "name_fr": "Kotokaze",
+            "zone": "ZONE.KUGANE",
+            "location": "(10.2, 10.2)",
+            "patch": "4.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-6.23",
+            "quest": "duty.quests.main-scenario.stormblood.68008"
+        },
+        "x40": {
+            "name_en": "Kaizan",
+            "name_fr": "Kaizan",
+            "zone": "ZONE.THE_RUBY_SEA",
+            "location": "(22.3, 8.6)",
+            "patch": "4.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-6.29",
+            "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68216"
+        },
+        "x50": {
+            "name_en": "Tsuzura",
+            "name_fr": "Tsuzura",
+            "zone": "ZONE.THE_RUBY_SEA",
+            "location": "(28.5, 16.4)",
+            "patch": "4.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-6.20",
+            "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68227"
+        },
+        "x25": {
+            "name_en": "Wyra \"Greenhands\" Lyehga",
+            "name_fr": "Wyra Lyehga La Main Verte",
+            "zone": "ZONE.BATTLE_HALL",
+            "location": "(3.3, 3.3)",
+            "patch": "3.4",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-5.20",
+            "quest": ""
+        },
+        "x91": {
+            "name_en": "Tapklix",
+            "name_fr": "Tapklix",
+            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "location": "(21, 18)",
+            "patch": "3.1",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-5.29",
+                "character.gold-saucer.triple-triad-card-list.page-5.2",
+                "character.gold-saucer.triple-triad-card-list.page-4.13"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.alexander.67789"
+        },
+        "x42": {
+            "name_en": "Linu Vali",
+            "name_fr": "Linu Vali",
+            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "location": "(6, 14)",
+            "patch": "3.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.24",
+                "character.gold-saucer.triple-triad-card-list.page-4.19",
+                "character.gold-saucer.triple-triad-card-list.page-5.13"
+            ],
+            "quest": "duty.quests.tribal-quests.vanu.67761"
+        },
+        "x29": {
+            "name_en": "Dominiac",
+            "name_fr": "Dominiac",
+            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "location": "(16, 22)",
+            "patch": "3.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.27",
+                "character.gold-saucer.triple-triad-card-list.page-3.12"
+            ],
+            "quest": "duty.quests.sidequests.coerthan.coerthas-western-highlands.67434"
+        },
+        "x7": {
+            "name_en": "Guhtwint of the Three Diamonds",
+            "name_fr": "Guthwint l'As de carreau",
+            "zone": "ZONE.THE_GOLD_SAUCER",
+            "location": "(4, 7)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.12",
+                "character.gold-saucer.triple-triad-card-list.page-1.26"
+            ],
+            "quest": ""
+        },
+        "x17": {
+            "name_en": "Momodi",
+            "name_fr": "Momodi",
+            "zone": "ZONE.UL_DAH_STEPS_OF_NALD",
+            "location": "(11.9, 9.6)",
+            "patch": "2.51",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-1.27",
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66046"
+        },
+        "x4": {
+            "name_en": "F'hobhas",
+            "name_fr": "F'hobhas",
+            "zone": "ZONE.CENTRAL_THANALAN",
+            "location": "(23, 13)",
+            "patch": "2.51",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-2.5",
+            "quest": ""
+        },
+        "x23": {
+            "name_en": "Trachtoum",
+            "name_fr": "Trachtoum",
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "location": "(35, 15)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.19",
+                "character.gold-saucer.triple-triad-card-list.page-2.10"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66053"
+        },
+        "x10": {
+            "name_en": "Joellaut",
+            "name_fr": "Joellaut",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(13, 15)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.28",
+                "character.gold-saucer.triple-triad-card-list.page-1.14"
+            ],
+            "quest": ""
+        },
+        "x5": {
+            "name_en": "Fufulupa",
+            "name_fr": "Fufulupa",
+            "zone": "ZONE.WESTERN_THANALAN",
+            "location": "(22, 17)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.24",
+                "character.gold-saucer.triple-triad-card-list.page-2.15"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66046"
+        },
+        "x1": {
+            "name_en": "Baderon",
+            "name_fr": "Baderon",
+            "zone": "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+            "location": "(11, 11)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.28",
+                "character.gold-saucer.triple-triad-card-list.page-1.17"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66046"
+        },
+        "x16": {
+            "name_en": "Mimidoa",
+            "name_fr": "Mimidoa",
+            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "location": "(25, 35)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.2",
+                "character.gold-saucer.triple-triad-card-list.page-1.20"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66503"
+        },
+        "x26": {
+            "name_en": "Aurifort of the Three Clubs",
+            "name_fr": "Aurifort l'As de trèfle",
+            "zone": "ZONE.THE_GOLD_SAUCER",
+            "location": "(4, 7)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.11",
+                "character.gold-saucer.triple-triad-card-list.page-1.26"
+            ],
+            "quest": ""
+        },
+        "x47": {
+            "name_en": "Piralnaut",
+            "name_fr": "Piralnaut",
+            "zone": "ZONE.EAST_SHROUD",
+            "location": "(17, 26)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.4",
+                "character.gold-saucer.triple-triad-card-list.page-1.23"
+            ],
+            "quest": ""
+        },
+        "x90": {
+            "name_en": "Sezul Totoloc",
+            "name_fr": "Sezul Totoloc",
+            "zone": "ZONE.NORTH_SHROUD",
+            "location": "(24, 23)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.7",
+                "character.gold-saucer.triple-triad-card-list.page-2.2",
+                "character.gold-saucer.triple-triad-card-list.page-2.27",
+                "character.gold-saucer.triple-triad-card-list.page-5.28"
+            ],
+            "quest": "duty.quests.tribal-quests.ixal.67029"
+        },
+        "x56": {
+            "name_en": "Buscarron",
+            "name_fr": "Buscarron",
+            "zone": "ZONE.SOUTH_SHROUD",
+            "location": "(18.1, 19.8)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-1.22",
+                "character.gold-saucer.triple-triad-card-list.page-2.17",
+                "character.gold-saucer.triple-triad-card-list.page-2.13"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66050"
+        },
+        "x85": {
+            "name_en": "Ourdilic",
+            "name_fr": "Ourdilic",
+            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "location": "(6, 22)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.7",
+                "character.gold-saucer.triple-triad-card-list.page-1.25",
+                "character.gold-saucer.triple-triad-card-list.page-1.10"
+            ],
+            "quest": ""
+        },
+        "x75": {
+            "name_en": "Marcette",
+            "name_fr": "Marcette",
+            "zone": "ZONE.CENTRAL_SHROUD",
+            "location": "(16, 18)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.4",
+                "character.gold-saucer.triple-triad-card-list.page-2.11"
+            ],
+            "quest": ""
+        },
+        "x107": {
+            "name_en": "Worldly Imperial",
+            "name_fr": "Garlemaldais avec de l'entregent",
+            "zone": "ZONE.GARLEMALD",
+            "location": "(31.8, 17.0)",
+            "patch": "6.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-11.24",
+            "quest": "duty.quests.main-scenario.endwalker.69929"
+        },
+        "x58": {
+            "name_en": "Furtive Former Imperial",
+            "name_fr": "Soldat Impérial plein d'entrain",
+            "zone": "ZONE.TERNCLIFF",
+            "location": "(5.0, 6.3)",
+            "patch": "5.3",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-10.14",
+            "quest": "duty.quests.chronicles-of-a-new-era.the-sorrow-of-werlyt.69431"
+        },
+        "x6": {
+            "name_en": "Glynard",
+            "name_fr": "Glynard",
+            "zone": "ZONE.THE_CRYSTARIUM",
+            "location": "(10.8, 15.2)",
+            "patch": "5.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-8.28",
+            "quest": "duty.quests.main-scenario.shadowbringers.68837"
+        },
+        "x34": {
+            "name_en": "Hargra",
+            "name_fr": "Hargra",
+            "zone": "ZONE.RAK_TIKA",
+            "location": "(18.5, 26.0)",
+            "patch": "5.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-9.3",
+                "character.gold-saucer.triple-triad-card-list.page-9.13"
+            ],
+            "quest": "duty.quests.sidequests.raktika.the-raktika-greatwood.68991"
+        },
+        "x61": {
+            "name_en": "Grewenn",
+            "name_fr": "Grewenn",
+            "zone": "ZONE.EULMORE",
+            "location": "(12.5, 9.9)",
+            "patch": "5.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-9.11",
+                "character.gold-saucer.triple-triad-card-list.page-9.15"
+            ],
+            "quest": "duty.quests.main-scenario.shadowbringers.69190"
+        },
+        "x79": {
+            "name_en": "Mero Roggo",
+            "name_fr": "Mero Roggo",
+            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "location": "(12.7, 36.8)",
+            "patch": "3.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.20",
+                "character.gold-saucer.triple-triad-card-list.page-4.26",
+                "character.gold-saucer.triple-triad-card-list.page-5.27",
+                "character.gold-saucer.triple-triad-card-list.page-8.23"
+            ],
+            "quest": "duty.quests.main-scenario.post-stormblood.68685"
+        },
+        "x67": {
+            "name_en": "Ironworks Hand",
+            "name_fr": "Employé des Forges",
+            "zone": "ZONE.RHALGRS_REACH",
+            "location": "(13.7, 11.3)",
+            "patch": "4.5",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-8.20",
+                "character.gold-saucer.triple-triad-card-list.page-8.12",
+                "character.gold-saucer.triple-triad-card-list.page-7.3"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.omega.68693"
+        },
+        "x27": {
+            "name_en": "Botan",
+            "name_fr": "Botan",
+            "zone": "ZONE.KUGANE",
+            "location": "(7.8, 14,.7)",
+            "patch": "4.36",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-8.5",
+                "character.gold-saucer.triple-triad-card-list.page-8.6",
+                "character.gold-saucer.triple-triad-card-list.page-8.14",
+                "character.gold-saucer.triple-triad-card-list.page-8.4"
+            ],
+            "quest": "duty.quests.other.quasi-quests.68148"
+        },
+        "x44": {
+            "name_en": "Nell Half-Full",
+            "name_fr": "Nell la Boit-sans-soif",
+            "zone": "ZONE.BATTLE_HALL",
+            "location": "(3.3, 3.7)",
+            "patch": "3.4",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-6.0",
+            "quest": ""
+        },
+        "x19": {
+            "name_en": "Prideful Stag",
+            "name_fr": "Prideful Stag le Parvenu",
+            "zone": "ZONE.BATTLE_HALL",
+            "location": "(3.7, 3.3)",
+            "patch": "3.4",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-5.24",
+            "quest": ""
+        },
+        "x57": {
+            "name_en": "Flichoirel the Lordling",
+            "name_fr": "Flichoirel le Seigneurial",
+            "zone": "ZONE.BATTLE_HALL",
+            "location": "(3.7, 3.7)",
+            "patch": "3.4",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-5.21",
+                "character.gold-saucer.triple-triad-card-list.page-6.3"
+            ],
+            "quest": ""
+        },
+        "x22": {
+            "name_en": "Seika",
+            "name_fr": "Seika",
+            "zone": "ZONE.IDYLLSHIRE",
+            "location": "(6.7, 7.4)",
+            "patch": "3.1",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-4.2",
+                "character.gold-saucer.triple-triad-card-list.page-4.3",
+                "character.gold-saucer.triple-triad-card-list.page-4.13"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.alexander.67630"
+        },
+        "x45": {
+            "name_en": "Noes",
+            "name_fr": "Noes",
+            "zone": "ZONE.OLD_GRIDANIA",
+            "location": "(10, 5)",
+            "patch": "3.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.7",
+                "character.gold-saucer.triple-triad-card-list.page-4.27"
+            ],
+            "quest": ""
+        },
+        "x53": {
+            "name_en": "Yellow Moon",
+            "name_fr": "Yellow Moon",
+            "zone": "ZONE.UL_DAH_STEPS_OF_THAL",
+            "location": "(14, 13)",
+            "patch": "3.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-3.10",
+            "quest": ""
+        },
+        "x95": {
+            "name_en": "Yayake",
+            "name_fr": "Yayake",
+            "zone": "ZONE.UL_DAH_STEPS_OF_NALD",
+            "location": "(7.3, 12.4)",
+            "patch": "3.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.22",
+                "character.gold-saucer.triple-triad-card-list.page-4.23"
+            ],
+            "quest": ""
+        },
+        "x72": {
+            "name_en": "Landenel",
+            "name_fr": "Landenel",
+            "zone": "ZONE.SOUTH_SHROUD",
+            "location": "(16, 28)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.21",
+                "character.gold-saucer.triple-triad-card-list.page-2.10"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66053"
+        },
+        "x41": {
+            "name_en": "Lamlyn",
+            "name_fr": "Lamlyn",
+            "zone": "ZONE.LAKELAND",
+            "location": "(35.4, 20.2)",
+            "patch": "5.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-9.10",
+            "quest": "duty.quests.main-scenario.shadowbringers.69180"
+        },
+        "x37": {
+            "name_en": "Hokushin",
+            "name_fr": "Hokushin",
+            "zone": "ZONE.KUGANE",
+            "location": "(14.4, 11.2)",
+            "patch": "4.45",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-8.13",
+                "character.gold-saucer.triple-triad-card-list.page-8.16"
+            ],
+            "quest": "duty.quests.sidequests.hildibrand-sidequests.even-further-hildibrand-adventures.68687"
+        },
+        "x68": {
+            "name_en": "Kikimo",
+            "name_fr": "Kikimo",
+            "zone": "ZONE.KUGANE",
+            "location": "(8.6, 14.0)",
+            "patch": "4.2",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-7.25",
+            "quest": "duty.quests.main-scenario.stormblood.68008"
+        },
+        "x46": {
+            "name_en": "O'kalkaya",
+            "name_fr": "O'kalkaya",
+            "zone": "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+            "location": "(12, 13)",
+            "patch": "4.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-5.10",
+                "character.gold-saucer.triple-triad-card-list.page-3.4",
+                "character.gold-saucer.triple-triad-card-list.page-5.15"
+            ],
+            "quest": "duty.quests.sidequests.lominsan.limsa-lominsa.67784"
+        },
+        "x43": {
+            "name_en": "Mordyn",
+            "name_fr": "Mordyn",
+            "zone": "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+            "location": "(11, 7)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-5.11",
+                "character.gold-saucer.triple-triad-card-list.page-3.4",
+                "character.gold-saucer.triple-triad-card-list.page-4.22"
+            ],
+            "quest": "duty.quests.sidequests.lominsan.limsa-lominsa.67784"
+        },
+        "x52": {
+            "name_en": "Vath Deftarm",
+            "name_fr": "Futé",
+            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "location": "(23, 19)",
+            "patch": "3.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.23",
+                "character.gold-saucer.triple-triad-card-list.page-4.5",
+                "character.gold-saucer.triple-triad-card-list.page-3.11"
+            ],
+            "quest": "duty.quests.tribal-quests.vath.67796"
+        },
+        "x71": {
+            "name_en": "Klynthota",
+            "name_fr": "Klynthota",
+            "zone": "ZONE.MOR_DHONA",
+            "location": "(30, 13)",
+            "patch": "3.2",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-5.6",
+                "character.gold-saucer.triple-triad-card-list.page-4.28",
+                "character.gold-saucer.triple-triad-card-list.page-5.1",
+                "character.gold-saucer.triple-triad-card-list.page-5.16"
+            ],
+            "quest": "duty.quests.chronicles-of-a-new-era.the-crystal-tower.66031"
+        },
+        "x94": {
+            "name_en": "Wawalago",
+            "name_fr": "Wawalago",
+            "zone": "ZONE.LIMSA_LOMINSA_LOWER_DECKS",
+            "location": "(8, 15)",
+            "patch": "3.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-3.15",
+            "quest": ""
+        },
+        "x60": {
+            "name_en": "Gibrillont",
+            "name_fr": "Gibrillont",
+            "zone": "ZONE.FOUNDATION",
+            "location": "(13, 12)",
+            "patch": "3.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-3.14",
+            "quest": "duty.quests.main-scenario.heavensward.67118"
+        },
+        "x59": {
+            "name_en": "Gegeruju",
+            "name_fr": "Gegeruju",
+            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "location": "(35, 30)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.25",
+                "character.gold-saucer.triple-triad-card-list.page-2.18"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66053"
+        },
+        "x93": {
+            "name_en": "Voracious Vath",
+            "name_fr": "Vathe Vorace",
+            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "location": "(23, 19)",
+            "patch": "3.1",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-4.1",
+                "character.gold-saucer.triple-triad-card-list.page-4.5"
+            ],
+            "quest": "duty.quests.sidequests.dravanian.the-dravanian-forelands.67329"
+        },
+        "x62": {
+            "name_en": "Hab",
+            "name_fr": "Hab",
+            "zone": "ZONE.SOUTHERN_THANALAN",
+            "location": "(24, 40)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.14",
+                "character.gold-saucer.triple-triad-card-list.page-3.1",
+                "character.gold-saucer.triple-triad-card-list.page-2.15"
+            ],
+            "quest": "duty.quests.sidequests.uldahn.southern-thanalan.66558"
+        },
+        "x100": {
+            "name_en": "Vorsaile Heuloix",
+            "name_fr": "Vorsaile Heuloix",
+            "zone": "ZONE.NEW_GRIDANIA",
+            "location": "(9.7, 11.0)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.5",
+                "character.gold-saucer.triple-triad-card-list.page-2.17",
+                "character.gold-saucer.triple-triad-card-list.page-2.22",
+                "character.gold-saucer.triple-triad-card-list.page-2.12"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66221"
+        },
+        "x63": {
+            "name_en": "Hachinan",
+            "name_fr": "Hachinan",
+            "zone": "ZONE.YANXIA",
+            "location": "(26.4, 12.9)",
+            "patch": "4.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-8.11",
+                "character.gold-saucer.triple-triad-card-list.page-7.7"
+            ],
+            "quest": "duty.quests.main-scenario.post-stormblood.68610"
+        },
+        "x98": {
+            "name_en": "Isobe",
+            "name_fr": "Isobe",
+            "zone": "ZONE.THE_RUBY_SEA",
+            "location": "(20.2, 19.5)",
+            "patch": "4.2",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.18",
+                "character.gold-saucer.triple-triad-card-list.page-7.26"
+            ],
+            "quest": "duty.quests.sidequests.othardian.the-ruby-sea.68243"
+        },
+        "x65": {
+            "name_en": "Imperial Deserter",
+            "name_fr": "Soldat impérial",
+            "zone": "ZONE.THE_LOCHS",
+            "location": "(32.8, 30.1)",
+            "patch": "4.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.13",
+                "character.gold-saucer.triple-triad-card-list.page-6.28",
+                "character.gold-saucer.triple-triad-card-list.page-7.4"
+            ],
+            "quest": "duty.quests.main-scenario.stormblood.68089"
+        },
+        "x73": {
+            "name_en": "Laniaitte",
+            "name_fr": "Laniaitte",
+            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "location": "(16, 37)",
+            "patch": "3.1",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-4.0",
+                "character.gold-saucer.triple-triad-card-list.page-3.29"
+            ],
+            "quest": "duty.quests.sidequests.ishgardian.ishgard.67410"
+        },
+        "x96": {
+            "name_en": "Elaisse",
+            "name_fr": "Elaisse",
+            "zone": "ZONE.THE_PILLARS",
+            "location": "(7, 10)",
+            "patch": "3.1",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.28",
+                "character.gold-saucer.triple-triad-card-list.page-5.8"
+            ],
+            "quest": "duty.quests.sidequests.ishgardian.ishgard.67406"
+        },
+        "x76": {
+            "name_en": "Marielle",
+            "name_fr": "Marielle",
+            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "location": "(15, 37)",
+            "patch": "3.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.19",
+                "character.gold-saucer.triple-triad-card-list.page-5.9"
+            ],
+            "quest": "duty.quests.main-scenario.heavensward.67132"
+        },
+        "x39": {
+            "name_en": "Idle Imperial",
+            "name_fr": "Impérial désœuvré",
+            "zone": "ZONE.AZYS_LLA",
+            "location": "(28, 31)",
+            "patch": "3.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-5.14",
+                "character.gold-saucer.triple-triad-card-list.page-3.17",
+                "character.gold-saucer.triple-triad-card-list.page-4.15",
+                "character.gold-saucer.triple-triad-card-list.page-5.17"
+            ],
+            "quest": "duty.quests.main-scenario.heavensward.67199"
+        },
+        "x86": {
+            "name_en": "R'ashaht Rhiki",
+            "name_fr": "R'ashaht Rhiki",
+            "zone": "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+            "location": "(13, 12)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.23",
+                "character.gold-saucer.triple-triad-card-list.page-3.4",
+                "character.gold-saucer.triple-triad-card-list.page-2.18"
+            ],
+            "quest": "duty.quests.main-scenario.seventh-umbral-era.66221"
+        },
+        "x69": {
+            "name_en": "King Elmer III",
+            "name_fr": "Elmer le Roi",
+            "zone": "ZONE.THE_GOLD_SAUCER",
+            "location": "(3, 7)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.0",
+                "character.gold-saucer.triple-triad-card-list.page-2.14"
+            ],
+            "quest": ""
+        },
+        "x66": {
+            "name_en": "Indolent Imperial",
+            "name_fr": "Impérial paresseux",
+            "zone": "ZONE.MOR_DHONA",
+            "location": "(11, 17)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.3",
+                "character.gold-saucer.triple-triad-card-list.page-2.0",
+                "character.gold-saucer.triple-triad-card-list.page-2.16",
+                "character.gold-saucer.triple-triad-card-list.page-2.1"
+            ],
+            "quest": ""
+        },
+        "x83": {
+            "name_en": "Nigen",
+            "name_fr": "Nigen",
+            "zone": "ZONE.THE_AZIM_STEPPE",
+            "location": "(31.9, 11.5)",
+            "patch": "4.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.0",
+                "character.gold-saucer.triple-triad-card-list.page-6.24"
+            ],
+            "quest": "duty.quests.sidequests.othardian.the-azim-steppe.68308"
+        },
+        "x84": {
+            "name_en": "Ogodei",
+            "name_fr": "Ogodei",
+            "zone": "ZONE.THE_AZIM_STEPPE",
+            "location": "(22, 20.7)",
+            "patch": "4.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.1",
+                "character.gold-saucer.triple-triad-card-list.page-6.24"
+            ],
+            "quest": "duty.quests.sidequests.othardian.the-azim-steppe.68311"
+        },
+        "x82": {
+            "name_en": "Munglig",
+            "name_fr": "Munglig",
+            "zone": "ZONE.THE_AZIM_STEPPE",
+            "location": "(12.2, 33.7)",
+            "patch": "4.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-7.2",
+                "character.gold-saucer.triple-triad-card-list.page-6.24"
+            ],
+            "quest": "duty.quests.main-scenario.stormblood.68048"
+        },
+        "x97": {
+            "name_en": "Hall Overseer",
+            "name_fr": "Croupier de l'arène",
+            "zone": "ZONE.BATTLE_HALL",
+            "location": "(3.5, 3.5)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.last-page.5",
+                "character.gold-saucer.triple-triad-card-list.page-5.26"
+            ],
+            "quest": ""
+        },
+        "x14": {
+            "name_en": "Marcechamp",
+            "name_fr": "Marcechamp",
+            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "location": "(31, 23)",
+            "patch": "3.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-3.16",
+            "quest": "duty.quests.main-scenario.heavensward.67148"
+        },
+        "x81": {
+            "name_en": "Mogmill",
+            "name_fr": "Mogmill",
+            "zone": "ZONE.THE_CHURNING_MISTS",
+            "location": "(28, 35)",
+            "patch": "3.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.9",
+                "character.gold-saucer.triple-triad-card-list.page-4.11",
+                "character.gold-saucer.triple-triad-card-list.page-3.8",
+                "character.gold-saucer.triple-triad-card-list.page-4.4"
+            ],
+            "quest": "duty.quests.sidequests.dravanian.the-churning-mists.67376"
+        },
+        "x80": {
+            "name_en": "Midnight Dew",
+            "name_fr": "Midnight Dew",
+            "zone": "ZONE.IDYLLSHIRE",
+            "location": "(5.5, 6.6)",
+            "patch": "3.0",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-3.18",
+                "character.gold-saucer.triple-triad-card-list.page-4.7"
+            ],
+            "quest": "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67501"
+        },
+        "x88": {
+            "name_en": "Rowena",
+            "name_fr": "Rowena",
+            "zone": "ZONE.MOR_DHONA",
+            "location": "(21.9, 5.1)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.page-2.3",
+                "character.gold-saucer.triple-triad-card-list.page-2.29"
+            ],
+            "quest": "duty.quests.sidequests.uldahn.western-thanalan.66241"
+        },
+        "x70": {
+            "name_en": "Kiuka",
+            "name_fr": "Kiuka",
+            "zone": "ZONE.THE_DOMAN_ENCLAVE",
+            "location": "(6.9, 5.9)",
+            "patch": "4.0",
+            "drops": "character.gold-saucer.triple-triad-card-list.page-7.8",
+            "quest": ""
+        },
+        "x99": {
+            "name_en": "Lewena",
+            "name_fr": "Lewena",
+            "zone": "ZONE.THE_GOLD_SAUCER",
+            "location": "(4, 6)",
+            "patch": "2.51",
+            "drops": [
+                "character.gold-saucer.triple-triad-card-list.last-page.4",
+                "character.gold-saucer.triple-triad-card-list.last-page.2",
+                "character.gold-saucer.triple-triad-card-list.last-page.5"
+            ],
+            "quest": ""
+        }
+    }
+}

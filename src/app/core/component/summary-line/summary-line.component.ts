@@ -3,7 +3,10 @@ import { TranslateService } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
 
 import { DataService } from '@data';
-import { DataGroup } from '@domain/DataGroup';
+import { DataGroup } from '@model/DataGroup';
+import { getGroupPath } from '@model/DataGroup/children/getGroupPath';
+import { getPercentComplete } from '@model/DataGroup/completion/metrics';
+import { getEffectiveTotal, getCompleted, getRemaining, getExcluded } from '@model/DataGroup/completion/counts';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 @Component({
@@ -36,7 +39,7 @@ export class SummaryLineComponent implements OnChanges {
     }
 
     update(): void {
-        this.percentComplete = this.group.percentComplete;
+        this.percentComplete = getPercentComplete(this.group);
         this.updateTooltip();
     }
 
@@ -44,7 +47,7 @@ export class SummaryLineComponent implements OnChanges {
         this.tooltip = '';
 
         if(this.showGroup) {
-            const groupPath = this.group.groupPath;
+            const groupPath = getGroupPath(this.group);
             groupPath.shift(); // remove overall
             groupPath.pop(); // remove group name
 
@@ -53,17 +56,20 @@ export class SummaryLineComponent implements OnChanges {
 
         this.tooltip += this.group.name + '\n\n';
 
-        const { total, totalCompleted, totalExcluded, displayTotal } = this.group;
-        const remaining = Math.ceil((total - totalExcluded) - totalCompleted);
-        const weight = (displayTotal / this.svcData.data.displayTotal) * 100;
+        const overallTotal = getEffectiveTotal(this.svcData.data);
+        const effectiveTotal = getEffectiveTotal(this.group);
+        const completed = Math.floor(getCompleted(this.group));
+        const remaining = Math.ceil(getRemaining(this.group));
+        const excluded = Math.floor(getExcluded(this.group));
+        const weight = (effectiveTotal / overallTotal) * 100;
 
         // Build tooltip line by line
-        this.tooltip += Math.floor(totalCompleted).toLocaleString();
-        this.tooltip += ` / ${displayTotal.toLocaleString()}\n`;
+        this.tooltip += completed.toLocaleString();
+        this.tooltip += ` / ${effectiveTotal.toLocaleString()}\n`;
         this.tooltip += this.translate.instant('GENERAL.REMAINING');
         this.tooltip += `: ${remaining.toLocaleString()}\n`;
         this.tooltip += this.translate.instant('GENERAL.EXCLUDED');
-        this.tooltip += `: ${totalExcluded.toLocaleString()}`;
+        this.tooltip += `: ${excluded.toLocaleString()}`;
 
         // Don't add weight for overall
         if(weight !== 100) {

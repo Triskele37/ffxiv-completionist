@@ -1,0 +1,304 @@
+{
+    "key": "warrior",
+    "groupName_en": "Warrior",
+    "groupName_fr": "Quêtes de guerrier",
+    "tasks": {
+        "x66585": {
+            "level": 30,
+            "name_en": "Pride and Duty (Will Take You from the Mountain)",
+            "name_fr": "L'art de la guerre",
+            "npc_en": "Wyrnzoen",
+            "npc_fr": "Wyrnzoen",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-war.marauder.65855",
+                "duty.quests.main-scenario.seventh-umbral-era.66049"
+            ],
+            "cNext": [
+                66586
+            ],
+            "cSiblings": [
+                "character.adventure-plate.6"
+            ],
+            "patch": "4.31"
+        },
+        "x66586": {
+            "level": 35,
+            "name_en": "Embracing the Beast",
+            "name_fr": "Le ver de trop",
+            "npc_en": "Curious Gorge",
+            "npc_fr": "Curious Gorge",
+            "cPrev": [
+                66585
+            ],
+            "cNext": [
+                66587
+            ],
+            "patch": "4.31"
+        },
+        "x66587": {
+            "level": 40,
+            "name_en": "Curious Gorge Goes to Wineport",
+            "name_fr": "À la guerre comme à la guerre",
+            "npc_en": "Curious Gorge",
+            "npc_fr": "Curious Gorge",
+            "cPrev": [
+                66586
+            ],
+            "cNext": [
+                66588
+            ],
+            "patch": "4.31"
+        },
+        "x66588": {
+            "level": 45,
+            "name_en": "Looking the Part",
+            "name_fr": "Un guerrier bien équipé en vaut deux",
+            "npc_en": "Curious Gorge",
+            "npc_fr": "Curious Gorge",
+            "cPrev": [
+                66587
+            ],
+            "cNext": [
+                66589
+            ],
+            "patch": "4.31"
+        },
+        "x66589": {
+            "level": 45,
+            "name_en": "Proof Is the Pudding",
+            "name_fr": "Le bras de fer",
+            "npc_en": "Curious Gorge",
+            "npc_fr": "Curious Gorge",
+            "cPrev": [
+                66588
+            ],
+            "cNext": [
+                66590
+            ],
+            "patch": "4.31"
+        },
+        "x66590": {
+            "level": 50,
+            "name_en": "How to Quit You",
+            "name_fr": "Le Maître de guerre",
+            "npc_en": "Curious Gorge",
+            "npc_fr": "Curious Gorge",
+            "cPrev": [
+                66589
+            ],
+            "cNext": [
+                66655,
+                66121
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.409"
+            ],
+            "patch": "4.31"
+        },
+        "x66655": {
+            "level": 50,
+            "name_en": "A Relic Reborn (Bravura)",
+            "name_fr": "Restauration de Bravura",
+            "npc_en": "Gerolt",
+            "npc_fr": "Gerolt",
+            "cPrev": [
+                66590,
+                "duty.quests.sidequests.uldahn.western-thanalan.66241"
+            ],
+            "patch": "4.31"
+        },
+        "x66121": {
+            "level": 50,
+            "name_en": "Better Axe Around",
+            "name_fr": "Un guerrier légendaire",
+            "npc_en": "Curious Gorge",
+            "npc_fr": "Curious Gorge",
+            "cPrev": [
+                66590,
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                66122
+            ],
+            "patch": "4.31"
+        },
+        "x66122": {
+            "level": 52,
+            "name_en": "Duty and the Beast",
+            "name_fr": "Mise à l'épreuve",
+            "npc_en": "Broken Mountain",
+            "npc_fr": "Broken Mountain",
+            "cPrev": [
+                66121
+            ],
+            "cNext": [
+                66124
+            ],
+            "patch": "4.31"
+        },
+        "x66124": {
+            "level": 54,
+            "name_en": "The Bear Necessity",
+            "name_fr": "Comme un ours en cage",
+            "npc_en": "Broken Mountain",
+            "npc_fr": "Broken Mountain",
+            "cPrev": [
+                66122
+            ],
+            "cNext": [
+                66132
+            ],
+            "patch": "4.31"
+        },
+        "x66132": {
+            "level": 56,
+            "name_en": "Pirates of Shallow Water",
+            "name_fr": "Chasse aux pillards",
+            "npc_en": "Broken Mountain",
+            "npc_fr": "Broken Mountain",
+            "cPrev": [
+                66124
+            ],
+            "cNext": [
+                67213
+            ],
+            "patch": "4.31"
+        },
+        "x67213": {
+            "level": 56,
+            "name_en": "How to Train Your Warrior",
+            "name_fr": "Dompter sa bête intérieure",
+            "npc_en": "Storm Captain",
+            "npc_fr": "capitaine des tempêtes",
+            "cPrev": [
+                66132
+            ],
+            "cNext": [
+                66134
+            ],
+            "patch": "4.31"
+        },
+        "x66134": {
+            "level": 58,
+            "name_en": "Slap an' Chop",
+            "name_fr": "Le sentier de la guerre",
+            "npc_en": "Broken Mountain",
+            "npc_fr": "Broken Mountain",
+            "cPrev": [
+                67213
+            ],
+            "cNext": [
+                66137
+            ],
+            "patch": "4.31"
+        },
+        "x66137": {
+            "level": 60,
+            "name_en": "And My Axe",
+            "name_fr": "Jusqu'au bout de ses rêves",
+            "npc_en": "Broken Mountain",
+            "npc_fr": "Broken Mountain",
+            "cPrev": [
+                66134
+            ],
+            "cNext": [
+                68436
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1143"
+            ],
+            "patch": "4.31"
+        },
+        "x68436": {
+            "level": 60,
+            "name_en": "Curious Gorge Meets His Match",
+            "name_fr": "L'épreuve de force",
+            "npc_en": "Curious Gorge",
+            "npc_fr": "Curious Gorge",
+            "cPrev": [
+                66137,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                68437
+            ],
+            "patch": "4.31"
+        },
+        "x68437": {
+            "level": 63,
+            "name_en": "Field Training",
+            "name_fr": "Faiblesse et force",
+            "npc_en": "Broken Mountain",
+            "npc_fr": "Broken Mountain",
+            "cPrev": [
+                68436
+            ],
+            "cNext": [
+                68438
+            ],
+            "patch": "4.31"
+        },
+        "x68438": {
+            "level": 65,
+            "name_en": "When Push Comes to Shove",
+            "name_fr": "La maladie d'amour",
+            "npc_en": "Broken Mountain",
+            "npc_fr": "Broken Mountain",
+            "cPrev": [
+                68437
+            ],
+            "cNext": [
+                68439
+            ],
+            "patch": "4.31"
+        },
+        "x68439": {
+            "level": 68,
+            "name_en": "Going the Distance",
+            "name_fr": "Qu'est-ce qui m'arrive?",
+            "npc_en": "Broken Mountain",
+            "npc_fr": "Broken Mountain",
+            "cPrev": [
+                68438
+            ],
+            "cNext": [
+                68440
+            ],
+            "patch": "4.31"
+        },
+        "x68440": {
+            "level": 70,
+            "name_en": "The Heart of the Problem",
+            "name_fr": "Passion guerrière",
+            "npc_en": "Curious Gorge",
+            "npc_fr": "Curious Gorge",
+            "cPrev": [
+                68439
+            ],
+            "cNext": [
+                68748
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.1799"
+            ],
+            "patch": "4.31"
+        },
+        "x68748": {
+            "level": 80,
+            "name_en": "Once, Twice, Three Times a Warrior",
+            "name_fr": "Le retour du guerrier",
+            "npc_en": "Curious Gorge",
+            "npc_fr": "Curious Gorge",
+            "cPrev": [
+                68440,
+                "duty.quests.class--job.role.shb.68784",
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.5",
+                "character.achievement.quests.job-role-quests.2308"
+            ],
+            "patch": "5.0"
+        }
+    }
+}

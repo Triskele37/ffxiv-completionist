@@ -1,4 +1,4 @@
-import { GroupDefinition } from '@domain/Definition';
+import { GroupDefinition } from '@model/Definition';
 import { CRAFTING_LOG_DEFINITION } from './crafting';
 import { GATHERING_LOG_DEFINITION } from './gathering';
 

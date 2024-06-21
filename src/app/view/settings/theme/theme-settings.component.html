@@ -1,6 +1,6 @@
 <div class="setting">
     <label>{{'MAIN.SETTING.THEME.PRESETS.TITLE' | translate}}</label>
-    <div class="p-buttonset">
+    <p-buttonGroup>
         <p-button
             [label]="'MAIN.SETTING.THEME.PRESETS.DEFAULT' | translate"
             (onClick)="useDefaultTheme()"
@@ -20,7 +20,7 @@
             [label]="'MAIN.SETTING.THEME.PRESETS.CLASSIC' | translate"
             (onClick)="useClassicTheme()"
         ></p-button>
-    </div>
+    </p-buttonGroup>
 </div>
 
 <div class="setting">
@@ -30,6 +30,30 @@
         [(ngModel)]="svcTheme.fontFamily"
         (change)="svcTheme.setFontFamily(svcTheme.fontFamily)"
     />
+</div>
+
+<div class="setting">
+    <label>{{'MAIN.SETTING.THEME.FONT_SIZE.LABEL' | translate}}</label>
+
+    <div
+        class="font-size-controls"
+        [pTooltip]="'MAIN.SETTING.THEME.FONT_SIZE.TOOLTIP' | translate"
+        tooltipPosition="right"
+    >
+        <p-inputNumber
+            [(ngModel)]="svcTheme.fontSize"
+            [showButtons]="true"
+            [min]="8"
+            [max]="24"
+            (onBlur)="svcTheme.setFontSize(svcTheme.fontSize)"
+        ></p-inputNumber>
+
+        <p-button
+            styleClass="reset-font-size"
+            icon="mi mi-restart-alt"
+            (onClick)="resetFontSize()"
+        ></p-button>
+    </div>
 </div>
 
 <div class="setting-line">
@@ -53,8 +77,8 @@
 
     <p-colorPicker
         format="hsb"
-        [(ngModel)]="svcTheme.backgroundColor"
-        (onChange)="svcTheme.setBackgroundColor(svcTheme.backgroundColor)"
+        [(ngModel)]="svcTheme.backgroundColorHsb"
+        (onChange)="svcTheme.setBackgroundColorFromHsb(svcTheme.backgroundColorHsb)"
     ></p-colorPicker>
 
     <p-colorPicker

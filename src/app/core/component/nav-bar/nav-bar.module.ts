@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
-
-import { BreadcrumbModule } from 'primeng/breadcrumb';
 import { ButtonModule } from 'primeng/button';
-import { OverlayPanelModule } from 'primeng/overlaypanel';
+import { ButtonGroupModule } from 'primeng/buttongroup';
 
-import { ContentLinkPipeModule } from '@pipe/content-link.pipe';
+import { BreadcrumbsModule } from './breadcrumbs/breadcrumbs.module';
+import { HistoryOverlayModule } from './history-overlay/history-overlay.module';
+import { ShowAllModule } from './show-all/show-all.module';
 import { NavBarComponent } from './nav-bar.component';
 
 @NgModule({
@@ -16,12 +16,12 @@ import { NavBarComponent } from './nav-bar.component';
     imports: [
         CommonModule,
         TranslateModule,
-
-        BreadcrumbModule,
         ButtonModule,
-        OverlayPanelModule,
+        ButtonGroupModule,
 
-        ContentLinkPipeModule,
+        BreadcrumbsModule,
+        HistoryOverlayModule,
+        ShowAllModule,
     ],
     exports: [
         NavBarComponent

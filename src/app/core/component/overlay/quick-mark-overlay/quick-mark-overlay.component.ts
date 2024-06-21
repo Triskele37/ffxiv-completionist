@@ -2,7 +2,8 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 import { Completion } from '@constant';
 import { DataService } from '@data';
-import { Task } from '@domain/Task';
+import { Task } from '@model/Task';
+import { changeCompletion } from '@model/Task/completion/changeCompletion';
 
 import { Overlay } from '../Overlay';
 
@@ -41,7 +42,7 @@ export class QuickMarkOverlayComponent extends Overlay {
     }
 
     /** Change all tasks in filteredTasks with 'from' flag to 'to' flag
-     * passing null to 'from' matches selected tasks
+     * passing 'selected' to 'from' matches selected tasks
      * */
     onChangeTaskCompletion(from: Completion, to: Completion): void {
         const history: History = { from: from || 'selected', to, tasks: [] };
@@ -57,7 +58,7 @@ export class QuickMarkOverlayComponent extends Overlay {
                         flag: task.completionFlag as Completion
                     });
 
-                    first = !task.changeCompletion(realTo, first) && first;
+                    first = !changeCompletion(task, realTo, first) && first;
                 }
             });
 
@@ -99,7 +100,7 @@ export class QuickMarkOverlayComponent extends Overlay {
         let first = true;
         history.tasks.forEach((changed) => {
             if(changed.task.completionFlag !== changed.flag) {
-                first = !changed.task.changeCompletion(changed.flag, first) && first;
+                first = !changeCompletion(changed.task, changed.flag, first) && first;
             }
         });
 

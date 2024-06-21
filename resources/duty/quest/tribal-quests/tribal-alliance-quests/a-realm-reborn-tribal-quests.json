@@ -1,0 +1,144 @@
+{
+    "key": "a-realm-reborn-tribal-quests",
+    "groupName_en": "Allied Tribal Quests",
+    "groupName_fr": "Quêtes des tribus alliées",
+    "tasks": {
+        "x67001": {
+            "level": 50,
+            "name_en": "Call of the Wild (Twin Adder)",
+            "name_fr": "Rappelle-toi, Barbare (Deux Vipères)",
+            "npc_en": "Scarlet",
+            "npc_fr": "Scarlet",
+            "cNext": [
+                67004
+            ],
+            "cExclude": [
+                67002,
+                67003
+            ],
+            "patch": "4.31"
+        },
+        "x67002": {
+            "level": 50,
+            "name_en": "Call of the Wild (Maelstrom)",
+            "name_fr": "Rappelle-toi, Barbare (Maelstrom)",
+            "npc_en": "Trachraet",
+            "npc_fr": "Trachraet",
+            "cNext": [
+                67004
+            ],
+            "cExclude": [
+                67001,
+                67003
+            ],
+            "patch": "4.31"
+        },
+        "x67003": {
+            "level": 50,
+            "name_en": "Call of the Wild (Immortal Flames)",
+            "name_fr": "Rappelle-toi, Barbare (Immortels)",
+            "npc_en": "Mimio Mio",
+            "npc_fr": "Mimio Mio",
+            "cNext": [
+                67004
+            ],
+            "cExclude": [
+                67002,
+                67001
+            ],
+            "patch": "4.31"
+        },
+        "x67004": {
+            "level": 50,
+            "name_en": "Little Sylphs Lost",
+            "name_fr": "Réflexions au Refuge",
+            "cPrevAny": true,
+            "npc_en": "Gavin",
+            "npc_fr": "Gavin",
+            "cPrev": [
+                67001,
+                67002,
+                67003
+            ],
+            "cNext": [
+                67005
+            ],
+            "patch": "4.31"
+        },
+        "x67005": {
+            "level": 50,
+            "name_en": "Clutching at Straws",
+            "name_fr": "Coup dur à la Couvée",
+            "npc_en": "Voyce",
+            "npc_fr": "Voyce",
+            "cPrev": [
+                67004
+            ],
+            "cNext": [
+                67006
+            ],
+            "patch": "4.31"
+        },
+        "x67006": {
+            "level": 50,
+            "name_en": "Digging for Answers",
+            "name_fr": "Désordre au 789e ordre",
+            "npc_en": "Novv",
+            "npc_fr": "Novv",
+            "cPrev": [
+                67005
+            ],
+            "cNext": [
+                67007
+            ],
+            "patch": "4.31"
+        },
+        "x67007": {
+            "level": 50,
+            "name_en": "Rattled in Ehcatl",
+            "name_fr": "Hécatombe sur Ehcatl",
+            "npc_en": "Skaetswys",
+            "npc_fr": "Skaetswys",
+            "cPrev": [
+                67006
+            ],
+            "cNext": [
+                67008
+            ],
+            "patch": "4.31"
+        },
+        "x67008": {
+            "level": 50,
+            "name_en": "Ash Not What Your Brotherhood Can Do for You",
+            "name_fr": "Intrigue à la Ligue",
+            "npc_en": "Tataramu",
+            "npc_fr": "Tataramu",
+            "cPrev": [
+                67007
+            ],
+            "cNext": [
+                67009
+            ],
+            "patch": "4.31"
+        },
+        "x67009": {
+            "level": 50,
+            "name_en": "Friends Forever",
+            "name_fr": "L'union des liens sacrés",
+            "npc_en": "Hamujj Gah",
+            "npc_fr": "Hamujj Gah",
+            "cPrev": [
+                67008
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.4",
+                "character.character.tribal-relations.9",
+                "character.character.tribal-relations.14",
+                "character.character.tribal-relations.19",
+                "character.character.tribal-relations.27",
+                "character.achievement.quests.tribal-quests.1026"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

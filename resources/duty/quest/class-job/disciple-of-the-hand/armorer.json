@@ -1,0 +1,323 @@
+{
+    "key": "armorer",
+    "groupName_en": "Armorer",
+    "groupName_fr": "Quêtes d'armurier",
+    "tasks": {
+        "x65809": {
+            "level": 1,
+            "name_en": "Way of the Armorer",
+            "name_fr": "La voie des plaques de métal",
+            "npc_en": "G'wahnako",
+            "npc_fr": "G'wahnako",
+            "cPrev": [
+                "duty.quests.other.quasi-quests.65722"
+            ],
+            "cNext": [
+                65810
+            ],
+            "cSiblings": [
+                "character.adventure-plate.73"
+            ],
+            "patch": "4.31"
+        },
+        "x65810": {
+            "level": 1,
+            "name_en": "My First Doming Hammer",
+            "name_fr": "Se forger un caractère de bronze",
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza",
+            "cPrev": [
+                65809
+            ],
+            "cNext": [
+                65811
+            ],
+            "patch": "4.31"
+        },
+        "x65811": {
+            "level": 5,
+            "name_en": "From Thigh to Neck",
+            "name_fr": "La phalange des armuriers",
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza",
+            "cPrev": [
+                65810
+            ],
+            "cNext": [
+                65812
+            ],
+            "patch": "4.31"
+        },
+        "x65812": {
+            "level": 10,
+            "name_en": "The Base Fundamentals",
+            "name_fr": "La base de la base",
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza",
+            "cPrev": [
+                65811
+            ],
+            "cNext": [
+                65813
+            ],
+            "patch": "4.31"
+        },
+        "x65813": {
+            "level": 15,
+            "name_en": "One's Own Worst Critic",
+            "name_fr": "Un élément subversif",
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza",
+            "cPrev": [
+                65812
+            ],
+            "cNext": [
+                65814
+            ],
+            "patch": "4.31"
+        },
+        "x65814": {
+            "level": 20,
+            "name_en": "An Armorer's Pride",
+            "name_fr": "L'orgueil de l'armurier",
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza",
+            "cPrev": [
+                65813
+            ],
+            "cNext": [
+                65815
+            ],
+            "patch": "4.31"
+        },
+        "x65815": {
+            "level": 25,
+            "name_en": "Showing Your Steel",
+            "name_fr": "Le devoir de l'excellence",
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza",
+            "cPrev": [
+                65814
+            ],
+            "cNext": [
+                65816
+            ],
+            "patch": "4.31"
+        },
+        "x65816": {
+            "level": 30,
+            "name_en": "May the Best Armorer Win",
+            "name_fr": "Un duel d'armuriers",
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza",
+            "cPrev": [
+                65815
+            ],
+            "cNext": [
+                65817
+            ],
+            "cCombo": [
+                "character.achievement.quests.job-role-quests.316"
+            ],
+            "patch": "4.31"
+        },
+        "x65817": {
+            "level": 35,
+            "name_en": "Pans of Steel",
+            "name_fr": "Tenir la queue de la poêle",
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza",
+            "cPrev": [
+                65816
+            ],
+            "cNext": [
+                65818
+            ],
+            "patch": "4.31"
+        },
+        "x65818": {
+            "level": 40,
+            "name_en": "Best of Three",
+            "name_fr": "La revanche de l'armurier I",
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza",
+            "cPrev": [
+                65817
+            ],
+            "cNext": [
+                65819
+            ],
+            "patch": "4.31"
+        },
+        "x65819": {
+            "level": 45,
+            "name_en": "For the Good of the Guild",
+            "name_fr": "La revanche de l'armurier II",
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza",
+            "cPrev": [
+                65818
+            ],
+            "cNext": [
+                65820
+            ],
+            "patch": "4.31"
+        },
+        "x65820": {
+            "level": 50,
+            "name_en": "Rivalry and Respect",
+            "name_fr": "La revanche de l'armurier III",
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza",
+            "cPrev": [
+                65819
+            ],
+            "cNext": [
+                67574
+            ],
+            "patch": "4.31"
+        },
+        "x67574": {
+            "level": 50,
+            "name_en": "The Breaking of Blanstyr",
+            "name_fr": "Un homme brisé",
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza",
+            "cPrev": [
+                65820,
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                67575
+            ],
+            "patch": "4.31"
+        },
+        "x67575": {
+            "level": 53,
+            "name_en": "Light-headed",
+            "name_fr": "Une commande insensée",
+            "npc_en": "Blanstyr",
+            "npc_fr": "Blanstyr",
+            "cPrev": [
+                67574
+            ],
+            "cNext": [
+                67576
+            ],
+            "patch": "4.31"
+        },
+        "x67576": {
+            "level": 55,
+            "name_en": "Fancy Lancer",
+            "name_fr": "Une armure élégante",
+            "npc_en": "Blanstyr",
+            "npc_fr": "Blanstyr",
+            "cPrev": [
+                67575
+            ],
+            "cNext": [
+                67577
+            ],
+            "patch": "4.31"
+        },
+        "x67577": {
+            "level": 58,
+            "name_en": "The Reforging of Blanstyr",
+            "name_fr": "Un nouveau Blanstyr",
+            "npc_en": "Blanstyr",
+            "npc_fr": "Blanstyr",
+            "cPrev": [
+                67576
+            ],
+            "cNext": [
+                67578
+            ],
+            "patch": "4.31"
+        },
+        "x67578": {
+            "level": 60,
+            "name_en": "The Pride of Vymelli",
+            "name_fr": "L'honneur des armuriers",
+            "npc_en": "Blanstyr",
+            "npc_fr": "Blanstyr",
+            "cPrev": [
+                67577
+            ],
+            "cNext": [
+                68130
+            ],
+            "patch": "4.31"
+        },
+        "x68130": {
+            "level": 60,
+            "name_en": "Original Blanstyr",
+            "name_fr": "Le départ de Blanstyr",
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza",
+            "cPrev": [
+                67578,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                68131
+            ],
+            "patch": "4.31"
+        },
+        "x68131": {
+            "level": 63,
+            "name_en": "Eastern Apprentice",
+            "name_fr": "Retour à la case apprenti",
+            "npc_en": "H'naanza",
+            "npc_fr": "H'naanza",
+            "cPrev": [
+                68130
+            ],
+            "cNext": [
+                68132
+            ],
+            "patch": "4.31"
+        },
+        "x68132": {
+            "level": 65,
+            "name_en": "Forging with Scales",
+            "name_fr": "Apprendre à manier les kozane",
+            "npc_en": "Blanstyr",
+            "npc_fr": "Blanstyr",
+            "cPrev": [
+                68131
+            ],
+            "cNext": [
+                68133
+            ],
+            "patch": "4.31"
+        },
+        "x68133": {
+            "level": 68,
+            "name_en": "Head-to-head Contest",
+            "name_fr": "Bas les casques",
+            "npc_en": "Fugetsu",
+            "npc_fr": "Fugetsu",
+            "cPrev": [
+                68132
+            ],
+            "cNext": [
+                68134
+            ],
+            "patch": "4.31"
+        },
+        "x68134": {
+            "level": 70,
+            "name_en": "A Confluence of Style",
+            "name_fr": "Mélange de styles",
+            "npc_en": "Blanstyr",
+            "npc_fr": "Blanstyr",
+            "cPrev": [
+                68133
+            ],
+            "cSiblings": [
+                "character.adventure-plate.72"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

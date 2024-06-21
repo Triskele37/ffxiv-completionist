@@ -1,3 +1,7 @@
+.static-cell {
+    padding-left: var(--content-padding);
+}
+
 .edit-cell ::ng-deep {
     .p-inputtextarea {
         overflow: hidden;
@@ -7,6 +11,6 @@
         // Override styles applied by pInputTextArea
         height: 25px !important;
         margin-bottom: -4px;
-        padding: 2px var(--content-padding);
+        padding: 4px var(--content-padding);
     }
 }

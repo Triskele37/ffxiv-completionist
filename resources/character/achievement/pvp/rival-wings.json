@@ -1,0 +1,153 @@
+{
+    "key": "rival-wings",
+    "groupName_en": "Rival Wings",
+    "groupName_fr": "Ailes rivales",
+    "tasks": {
+        "x1932": {
+            "name_en": "Roll the Dice I",
+            "name_fr": "Les Ailes du courage I",
+            "description_en": "Participate in a Rival Wings campaign.",
+            "description_fr": "Participer pour la première fois aux Ailes rivales (machinerie).",
+            "patch": "4.15",
+            "points": 5,
+            "cNext": [
+                1933
+            ]
+        },
+        "x1933": {
+            "name_en": "Roll the Dice II",
+            "name_fr": "Les Ailes du courage II",
+            "description_en": "Participate in a Rival Wings campaign 50 times.",
+            "description_fr": "Participer à 50 batailles des Ailes rivales (machinerie).",
+            "patch": "4.15",
+            "points": 5,
+            "cPrev": [
+                1932
+            ],
+            "cNext": [
+                1934
+            ]
+        },
+        "x1934": {
+            "name_en": "Roll the Dice III",
+            "name_fr": "Les Ailes du courage III",
+            "description_en": "Participate in a Rival Wings campaign 100 times.",
+            "description_fr": "Participer à 100 batailles des Ailes rivales (machinerie).",
+            "patch": "4.15",
+            "points": 5,
+            "cPrev": [
+                1933
+            ],
+            "cNext": [
+                1935
+            ]
+        },
+        "x1935": {
+            "name_en": "Roll the Dice IV",
+            "name_fr": "Les Ailes du courage IV",
+            "description_en": "Participate in a Rival Wings campaign 500 times.",
+            "description_fr": "Participer à 500 batailles des Ailes rivales (machinerie).",
+            "patch": "4.15",
+            "points": 10,
+            "cPrev": [
+                1934
+            ],
+            "cNext": [
+                1936
+            ]
+        },
+        "x1936": {
+            "name_en": "Roll the Dice V",
+            "name_fr": "Les Ailes du courage V",
+            "description_en": "Participate in a Rival Wings campaign 1,000 times.",
+            "description_fr": "Participer à 1 000 batailles des Ailes rivales (machinerie).",
+            "reward": "character.character.title.120",
+            "patch": "4.15",
+            "points": 20,
+            "cPrev": [
+                1935
+            ],
+            "cSiblings": [
+                "character.character.title.120"
+            ]
+        },
+        "x1937": {
+            "name_en": "Die Another Day I",
+            "name_fr": "Les Ailes du triomphe I",
+            "description_en": "Emerge victorious in a Rival Wings campaign.",
+            "description_fr": "Triompher pour la première fois aux Ailes rivales (machinerie).",
+            "patch": "4.15",
+            "points": 5,
+            "cNext": [
+                1938
+            ]
+        },
+        "x1938": {
+            "name_en": "Die Another Day II",
+            "name_fr": "Les Ailes du triomphe II",
+            "description_en": "Emerge victorious in a Rival Wings campaign 50 times.",
+            "description_fr": "Triompher 50 fois aux Ailes rivales (machinerie).",
+            "patch": "4.15",
+            "points": 5,
+            "cPrev": [
+                1937
+            ],
+            "cNext": [
+                1939
+            ]
+        },
+        "x1939": {
+            "name_en": "Die Another Day III",
+            "name_fr": "Les Ailes du triomphe III",
+            "description_en": "Emerge victorious in a Rival Wings campaign 100 times.",
+            "description_fr": "Triompher 100 fois aux Ailes rivales (machinerie).",
+            "reward": "character.mount-guide.109",
+            "patch": "4.15",
+            "points": 5,
+            "cPrev": [
+                1938
+            ],
+            "cNext": [
+                1940
+            ]
+        },
+        "x1940": {
+            "name_en": "Die Another Day IV",
+            "name_fr": "Les Ailes du triomphe IV",
+            "description_en": "Emerge victorious in a Rival Wings campaign 500 times.",
+            "description_fr": "Triompher 500 fois aux Ailes rivales (machinerie).",
+            "patch": "4.15",
+            "points": 10,
+            "cPrev": [
+                1939
+            ],
+            "cNext": [
+                1941
+            ]
+        },
+        "x1941": {
+            "name_en": "Die Another Day V",
+            "name_fr": "Les Ailes du triomphe V",
+            "description_en": "Emerge victorious in a Rival Wings campaign 1,000 times.",
+            "description_fr": "Triompher 1 000 fois aux Ailes rivales (machinerie).",
+            "reward": "character.character.title.121",
+            "patch": "4.15",
+            "points": 20,
+            "cPrev": [
+                1940
+            ],
+            "cSiblings": [
+                "character.character.title.121"
+            ]
+        },
+        "x2232": {
+            "name_en": "Out of Hiding",
+            "name_fr": "Les Ailes dérobées",
+            "description_en": "Emerge victorious in a Hidden Gorge campaign 100 times.",
+            "description_fr": "Triompher 100 fois à Gorge dérobée (machinerie).",
+            "reward": "character.mount-guide.110",
+            "patch": "4.55",
+            "points": 5
+        }
+    }
+}

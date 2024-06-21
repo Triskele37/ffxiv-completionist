@@ -7,7 +7,7 @@
         .p-button {
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
-            border-bottom: 1px solid var(--surface-a);
+            border-bottom: 1px solid var(--surface-500);
             width: 100%;
         }
     }
@@ -16,6 +16,10 @@
         .p-inputtext {
             border-top-left-radius: 0;
             border-bottom-left-radius: 0;
+        }
+
+        .p-inputnumber {
+            flex-grow: 1;
         }
 
         .p-inputnumber-button-up {
@@ -31,10 +35,14 @@
         .p-button {
             border-top-left-radius: 0;
             border-top-right-radius: 0;
-            border-top: 1px solid var(--surface-a);
+            border-top: 1px solid var(--surface-500);
 
             min-width: 200px;
             width: 100%;
         }
+    }
+
+    .random-result ::ng-deep .p-button {
+        width: 100%;
     }
 }

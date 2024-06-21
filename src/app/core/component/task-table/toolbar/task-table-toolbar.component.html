@@ -1,5 +1,5 @@
 <div class="task-table-toolbar">
-    <span class="p-buttonset">
+    <p-buttonGroup>
         <ng-container *ngIf="totalTasks">
             <xiv-quick-mark-overlay
                 [tasks]="tasks"
@@ -17,6 +17,7 @@
 
             <xiv-table-action-overlay
                 [group]="group"
+                [tasks]="tasks"
             ></xiv-table-action-overlay>
         </ng-container>
 
@@ -24,7 +25,7 @@
             *ngIf="group.isCustomGroup"
             [tasks]="tasks"
         ></xiv-custom-task-overlay>
-    </span>
+    </p-buttonGroup>
 
     <span
         *ngIf="totalTasks"

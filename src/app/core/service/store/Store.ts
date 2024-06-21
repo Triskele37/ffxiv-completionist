@@ -1,5 +1,6 @@
-import { MessageService } from 'primeng/api';
 import { TranslateService } from '@ngx-translate/core';
+import { MessageService } from 'primeng/api';
+import { Subject } from 'rxjs';
 
 import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
 
@@ -15,6 +16,7 @@ export abstract class Store<StoreType> {
     abstract failedDetailKey: string;
 
     data: StoreType;
+    updated$ = new Subject<StoreType>();
 
     protected constructor(
         translate: TranslateService,
@@ -86,6 +88,7 @@ export abstract class Store<StoreType> {
     }
 
     save(): void {
+        this.updated$.next(this.data);
         this.svcElectron.sendSync(this.ipcSaveEvent, this.data);
     }
 

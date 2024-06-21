@@ -1,0 +1,360 @@
+{
+    "key": "carpenter",
+    "groupName_en": "Carpenter",
+    "groupName_fr": "Menuisier",
+    "tasks": {
+        "x137": {
+            "name_en": "Going with the Grain: Amateur",
+            "name_fr": "Toucher du bois : Amateur",
+            "description_en": "Successfully synthesize 50 times for level 1-10 woodworking recipes.",
+            "description_fr": "Réaliser 50 synthèses de menuiserie de niveau 1 à 10.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                142
+            ]
+        },
+        "x138": {
+            "name_en": "Going with the Grain: Initiate",
+            "name_fr": "Toucher du bois : Recrue",
+            "description_en": "Successfully synthesize 300 times for level 11-20 woodworking recipes.",
+            "description_fr": "Réaliser 300 synthèses de menuiserie de niveau 11 à 20.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                142
+            ]
+        },
+        "x139": {
+            "name_en": "Going with the Grain: Apprentice",
+            "name_fr": "Toucher du bois : Initié",
+            "description_en": "Successfully synthesize 750 times for level 21-30 woodworking recipes.",
+            "description_fr": "Réaliser 750 synthèses de menuiserie de niveau 21 à 30.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                142
+            ]
+        },
+        "x140": {
+            "name_en": "Going with the Grain: Journeyman",
+            "name_fr": "Toucher du bois : Novice",
+            "description_en": "Successfully synthesize 1,500 times for level 31-40 woodworking recipes.",
+            "description_fr": "Réaliser 1 500 synthèses de menuiserie de niveau 31 à 40.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                142
+            ]
+        },
+        "x141": {
+            "name_en": "Going with the Grain: Artisan",
+            "name_fr": "Toucher du bois : Qualifié",
+            "description_en": "Successfully synthesize 3,000 times for level 41-50 woodworking recipes.",
+            "description_fr": "Réaliser 3 000 synthèses de menuiserie de niveau 41 à 50.",
+            "reward": "character.character.title.17",
+            "patch": "2.0",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.17"
+            ],
+            "cCombo": [
+                142
+            ]
+        },
+        "x142": {
+            "name_en": "A Carpenter's Life for Me",
+            "name_fr": "Menuisier chevronné",
+            "description_en": "Obtain the first five “Going with the Grain” achievements.",
+            "description_fr": "Accomplir les cinq hauts faits de la série “Toucher du bois”.",
+            "reward_en": "Saw of the Luminary",
+            "reward_fr": "Scie de virtuose",
+            "patch": "2.0",
+            "points": 30,
+            "cPrev": [
+                137,
+                138,
+                139,
+                140,
+                141
+            ]
+        },
+        "x1301": {
+            "name_en": "Going with the Grain: Adept",
+            "name_fr": "Toucher du bois : Expert",
+            "description_en": "Successfully synthesize 1,000 times for level 51-60 woodworking recipes.",
+            "description_fr": "Réaliser 1 000 synthèses de menuiserie de niveau 51 à 60.",
+            "patch": "3.0",
+            "points": 10
+        },
+        "x1848": {
+            "name_en": "Going with the Grain: Veteran",
+            "name_fr": "Toucher du bois : Maître",
+            "description_en": "Successfully synthesize 1,000 times for level 61-70 woodworking recipes.",
+            "description_fr": "Réaliser 1 000 synthèses de menuiserie de niveau 61 à 70.",
+            "patch": "4.0",
+            "points": 10
+        },
+        "x2280": {
+            "name_en": "Going with the Grain: Master",
+            "name_fr": "Toucher du bois : Génie",
+            "description_en": "Successfully synthesize 1,000 times for level 71-80 woodworking recipes.",
+            "description_fr": "Réaliser 1 000 synthèses de menuiserie de niveau 71 à 80.",
+            "patch": "5.0",
+            "points": 10
+        },
+        "x2928": {
+            "name_en": "Going with the Grain: Genius",
+            "name_fr": "Toucher du bois : Prodige",
+            "description_en": "Successfully synthesize 1,000 times for level 81-90 woodworking recipes.",
+            "description_fr": "Réaliser 1 000 synthèses de menuiserie de niveau 81 à 90.",
+            "patch": "6.0",
+            "points": 10
+        },
+        "x695": {
+            "name_en": "I Made That: Carpenter I",
+            "name_fr": "Carnet de notes : menuisier I",
+            "description_en": "Craft and record completion of 30 unique carpenter recipes.",
+            "description_fr": "Faire 30 synthèses de menuisier différentes et les avoir notées dans le carnet d'artisanat.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                696
+            ]
+        },
+        "x696": {
+            "name_en": "I Made That: Carpenter II",
+            "name_fr": "Carnet de notes : menuisier II",
+            "description_en": "Craft and record completion of 50 unique carpenter recipes.",
+            "description_fr": "Faire 50 synthèses de menuisier différentes et les avoir notées dans le carnet d'artisanat.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                695
+            ],
+            "cNext": [
+                697
+            ]
+        },
+        "x697": {
+            "name_en": "I Made That: Carpenter III",
+            "name_fr": "Carnet de notes : menuisier III",
+            "description_en": "Craft and record completion of 100 unique carpenter recipes.",
+            "description_fr": "Faire 100 synthèses de menuisier différentes et les avoir notées dans le carnet d'artisanat.",
+            "reward_en": "Master Carpenter's Ring",
+            "reward_fr": "Anneau de maître menuisier",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                696
+            ],
+            "cNext": [
+                1278
+            ]
+        },
+        "x1278": {
+            "name_en": "I Made That: Carpenter IV",
+            "name_fr": "Carnet de notes : menuisier IV",
+            "description_en": "Craft and record completion of 200 unique carpenter recipes.",
+            "description_fr": "Faire 200 synthèses de menuisier différentes et les avoir notées dans le carnet d'artisanat.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                697
+            ],
+            "cNext": [
+                1721
+            ]
+        },
+        "x1721": {
+            "name_en": "I Made That: Carpenter V",
+            "name_fr": "Carnet de notes : menuisier V",
+            "description_en": "Craft and record completion of 320 unique carpenter recipes.",
+            "description_fr": "Faire 320 synthèses de menuisier différentes et les avoir notées dans le carnet d'artisanat.",
+            "reward_en": "Blessed Millkeep's Saw",
+            "reward_fr": "Scie de charpentier bénie",
+            "patch": "3.5",
+            "points": 10,
+            "cPrev": [
+                1278
+            ],
+            "cNext": [
+                2166
+            ]
+        },
+        "x2166": {
+            "name_en": "I Made That: Carpenter VI",
+            "name_fr": "Carnet de notes : menuisier VI",
+            "description_en": "Craft and record completion of 410 unique carpenter recipes.",
+            "description_fr": "Faire 410 synthèses de menuisier différentes et les avoir notées dans le carnet d'artisanat.",
+            "reward_en": "Blessed Millking's Saw",
+            "reward_fr": "Scie du roi de l'établi bénie",
+            "patch": "4.5",
+            "points": 10,
+            "cPrev": [
+                1721
+            ]
+        },
+        "x750": {
+            "name_en": "An Eye for Detail: Carpenter I",
+            "name_fr": "De main de maître : menuisier I",
+            "description_en": "Craft 100 high-quality items as a carpenter.",
+            "description_fr": "Fabriquer un total de 100 objets de haute qualité en tant que menuisier.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                751
+            ]
+        },
+        "x751": {
+            "name_en": "An Eye for Detail: Carpenter II",
+            "name_fr": "De main de maître : menuisier II",
+            "description_en": "Craft 500 high-quality items as a carpenter.",
+            "description_fr": "Fabriquer un total de 500 objets de haute qualité en tant que menuisier.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                750
+            ],
+            "cNext": [
+                752
+            ]
+        },
+        "x752": {
+            "name_en": "An Eye for Detail: Carpenter III",
+            "name_fr": "De main de maître : menuisier III",
+            "description_en": "Craft 3,000 high-quality items as a carpenter.",
+            "description_fr": "Fabriquer un total de 3 000 objets de haute qualité en tant que menuisier.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                751
+            ],
+            "cNext": [
+                1313
+            ]
+        },
+        "x1313": {
+            "name_en": "An Eye for Detail: Carpenter IV",
+            "name_fr": "De main de maître : menuisier IV",
+            "description_en": "Craft 5,000 high-quality items as a carpenter.",
+            "description_fr": "Fabriquer un total de 5 000 objets de haute qualité en tant que menuisier.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                752
+            ],
+            "cNext": [
+                1321
+            ]
+        },
+        "x1321": {
+            "name_en": "An Eye for Detail: Carpenter V",
+            "name_fr": "De main de maître : menuisier V",
+            "description_en": "Craft 10,000 high-quality items as a carpenter.",
+            "description_fr": "Fabriquer un total de 10 000 objets de haute qualité en tant que menuisier.",
+            "reward": "character.character.title.253",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                1313
+            ],
+            "cSiblings": [
+                "character.character.title.253"
+            ]
+        },
+        "x2489": {
+            "name_en": "Skyward Saw I",
+            "name_fr": "Scie d'Azurée I",
+            "description_en": "Earn 50,000 points toward your skyward score as a carpenter.",
+            "description_fr": "Gagner un total de 50 000 points d'azur en tant que menuisier.",
+            "patch": "5.21",
+            "points": 5,
+            "cNext": [
+                2490
+            ],
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2522"
+            ]
+        },
+        "x2490": {
+            "name_en": "Skyward Saw II",
+            "name_fr": "Scie d'Azurée II",
+            "description_en": "Earn 150,000 points toward your skyward score as a carpenter.",
+            "description_fr": "Gagner un total de 150 000 points d'azur en tant que menuisier.",
+            "patch": "5.21",
+            "points": 5,
+            "cPrev": [
+                2489
+            ],
+            "cNext": [
+                2491
+            ]
+        },
+        "x2491": {
+            "name_en": "Skyward Saw III",
+            "name_fr": "Scie d'Azurée III",
+            "description_en": "Earn 500,000 points toward your skyward score as a carpenter.",
+            "description_fr": "Gagner un total de 500 000 points d'azur en tant que menuisier.",
+            "reward": "character.character.title.490",
+            "patch": "5.21",
+            "points": 10,
+            "cPrev": [
+                2490
+            ],
+            "cSiblings": [
+                "character.character.title.490"
+            ],
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2524"
+            ]
+        },
+        "x2527": {
+            "name_en": "The Height of Carpentry",
+            "name_fr": "Menuisier du Nichoir",
+            "description_en": "As a carpenter, craft and submit 100 expert recipe items for the second phase of the Ishgardian restoration.",
+            "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de menuisier de la deuxième phase de reconstruction d'Azurée.",
+            "reward": "character.character.title.503",
+            "patch": "5.21",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.503"
+            ]
+        },
+        "x2648": {
+            "name_en": "Carpenters of a Feather",
+            "name_fr": "Menuisier de Tombeplume",
+            "description_en": "As a carpenter, craft and submit 100 expert recipe items for the third phase of the Ishgardian restoration.",
+            "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de menuisier de la troisième phase de reconstruction d'Azurée.",
+            "reward": "character.character.title.528",
+            "patch": "5.31",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.528"
+            ]
+        },
+        "x2807": {
+            "name_en": "An Ode to Carpentry",
+            "name_fr": "Menuisier du Nouveau Refrain",
+            "description_en": "As a carpenter, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
+            "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de menuisier de la quatrième phase de reconstruction d'Azurée.",
+            "reward": "character.character.title.565",
+            "patch": "5.41",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.565"
+            ]
+        },
+        "x2821": {
+            "name_en": "Retooled: Resplendent Millfiend's Saw",
+            "name_fr": "Menuiserie resplendissante",
+            "description_en": "Obtain a resplendent millfiend's saw.",
+            "description_fr": "Obtenir une scie du fiélon de l'établi resplendissante.",
+            "patch": "5.5",
+            "points": 10,
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2829"
+            ]
+        }
+    }
+}

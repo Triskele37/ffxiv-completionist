@@ -1,0 +1,411 @@
+{
+    "key": "all-saints-wake",
+    "groupName_en": "All Saints' Wake",
+    "groupName_fr": "Veillée des saints",
+    "tasks": {
+        "x66699": {
+            "level": 1,
+            "name_en": "Not-so-evil Dead",
+            "name_fr": "La nuit des revenants",
+            "year": "2013",
+            "npc_en": "Shifty Thespian",
+            "npc_fr": "saltimbanque suspect",
+            "cNext": [
+                66700
+            ],
+            "patch": "4.31"
+        },
+        "x66700": {
+            "level": 15,
+            "name_en": "Show Me the Candy",
+            "name_fr": "Farces et attrapes",
+            "year": "2013",
+            "npc_en": "Impresario",
+            "npc_fr": "impresario",
+            "cPrev": [
+                66699
+            ],
+            "cNext": [
+                66701
+            ],
+            "patch": "4.31"
+        },
+        "x66701": {
+            "level": 15,
+            "name_en": "I Burn for You",
+            "name_fr": "Éclairer les lanternes",
+            "year": "2013",
+            "npc_en": "Impresario",
+            "npc_fr": "impresario",
+            "cPrev": [
+                66700
+            ],
+            "cNext": [
+                66702
+            ],
+            "patch": "4.31"
+        },
+        "x66702": {
+            "level": 15,
+            "name_en": "Monstrous Mummery",
+            "name_fr": "Momerie monstrueuse",
+            "year": "2013",
+            "npc_en": "Impresario",
+            "npc_fr": "impresario",
+            "cPrev": [
+                66701
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.812"
+            ],
+            "patch": "4.31"
+        },
+        "x65772": {
+            "level": 15,
+            "name_en": "Affright and Delight",
+            "name_fr": "La frousse aux trousses",
+            "year": "2014",
+            "npc_en": "Godriquelain",
+            "npc_fr": "Godriquelain",
+            "cNext": [
+                65773
+            ],
+            "patch": "4.31"
+        },
+        "x65773": {
+            "level": 15,
+            "name_en": "A Plague of Pumpkins",
+            "name_fr": "Les citrouilles de la trouille",
+            "year": "2014",
+            "npc_en": "Godriquelain",
+            "npc_fr": "Godriquelain",
+            "cPrev": [
+                65772
+            ],
+            "cNext": [
+                65774
+            ],
+            "patch": "4.31"
+        },
+        "x65774": {
+            "level": 15,
+            "name_en": "Yes We Cant",
+            "name_fr": "La parade en débandade",
+            "year": "2014",
+            "npc_en": "Godriquelain",
+            "npc_fr": "Godriquelain",
+            "cPrev": [
+                65773
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1027"
+            ],
+            "patch": "4.31"
+        },
+        "x67685": {
+            "level": 20,
+            "name_en": "Investigating the Inimical",
+            "name_fr": "La compagnie des monstres",
+            "year": "2015",
+            "npc_en": "Adventurers' Guild Investigator",
+            "npc_fr": "enquêteur",
+            "cNext": [
+                67686
+            ],
+            "patch": "4.31"
+        },
+        "x67686": {
+            "level": 20,
+            "name_en": "Joining the Circus",
+            "name_fr": "Des biscuits porte-bonheur",
+            "year": "2015",
+            "npc_en": "Adventurers' Guild Investigator",
+            "npc_fr": "enquêteur",
+            "cPrev": [
+                67685
+            ],
+            "cNext": [
+                67687
+            ],
+            "patch": "4.31"
+        },
+        "x67687": {
+            "level": 20,
+            "name_en": "Sweeping the Meadows",
+            "name_fr": "Aux diables les coups de balai!",
+            "year": "2015",
+            "npc_en": "Adventurers' Guild Investigator",
+            "npc_fr": "enquêteur",
+            "cPrev": [
+                67686
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1376"
+            ],
+            "patch": "4.31"
+        },
+        "x67084": {
+            "level": 15,
+            "name_en": "In a Manor of Spooking",
+            "name_fr": "Surprise party",
+            "year": "2016",
+            "npc_en": "Adventurers' Guild Investigator",
+            "npc_fr": "enquêteur",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.65781"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1624"
+            ],
+            "patch": "4.31"
+        },
+        "x68547": {
+            "level": 15,
+            "name_en": "An Othardian Wolfman in Gridania",
+            "name_fr": "Le loup dans la bergerie",
+            "year": "2017",
+            "npc_en": "Adventurers' Guild Investigator",
+            "npc_fr": "enquêteur",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.65781"
+            ],
+            "cNext": [
+                68548
+            ],
+            "patch": "4.31"
+        },
+        "x68548": {
+            "level": 15,
+            "name_en": "The Adventurer Who Cried Wolfman",
+            "name_fr": "La veillée de la meute",
+            "year": "2017",
+            "npc_en": "Impresario",
+            "npc_fr": "impresario",
+            "cPrev": [
+                68547
+            ],
+            "cNext": [
+                68549
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1994"
+            ],
+            "patch": "4.31"
+        },
+        "x68549": {
+            "level": 15,
+            "name_en": "Mind Their Manor",
+            "name_fr": "Frayeurs et frissonnements",
+            "year": "2017",
+            "npc_en": "Adventurers' Guild Investigator",
+            "npc_fr": "enquêteur",
+            "cPrev": [
+                68548
+            ],
+            "patch": "4.31"
+        },
+        "x68705": {
+            "level": 15,
+            "name_en": "The Sinister Soirée",
+            "name_fr": "Le bal costumé",
+            "year": "2018",
+            "npc_en": "Adventurers' Guild Investigator",
+            "npc_fr": "enquêteur",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.65781"
+            ],
+            "cNext": [
+                68706
+            ],
+            "patch": "4.4"
+        },
+        "x68706": {
+            "level": 15,
+            "name_en": "The Parlous Ploy",
+            "name_fr": "Déguisements sur mesure",
+            "year": "2018",
+            "npc_en": "Little Yin",
+            "npc_fr": "fantôme triste",
+            "cPrev": [
+                68705
+            ],
+            "cNext": [
+                68707
+            ],
+            "patch": "4.4"
+        },
+        "x68707": {
+            "level": 15,
+            "name_en": "The Sordid Cipher",
+            "name_fr": "Un numéro très secret",
+            "year": "2018",
+            "npc_en": "Little Yang",
+            "npc_fr": "fantôme joyeux",
+            "cPrev": [
+                68706
+            ],
+            "cNext": [
+                68708
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2140"
+            ],
+            "patch": "4.4"
+        },
+        "x68708": {
+            "level": 15,
+            "name_en": "The Macabre Manor",
+            "name_fr": "Le manoir de toutes les rumeurs",
+            "year": "2018",
+            "npc_en": "Adventurers' Guild Investigator",
+            "npc_fr": "enquêteur",
+            "cPrev": [
+                68707
+            ],
+            "patch": "4.4"
+        },
+        "x69204": {
+            "level": 15,
+            "name_en": "Fear and Delight",
+            "name_fr": "Un regard moyennement effrayant",
+            "year": "2019",
+            "npc_en": "Adventurers' Guild Investigator",
+            "npc_fr": "enquêteur",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.65781"
+            ],
+            "cNext": [
+                69206,
+                69205
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2400"
+            ],
+            "patch": "5.0"
+        },
+        "x69205": {
+            "level": 15,
+            "name_en": "A Glamourous Guise",
+            "name_fr": "Un bal costumé cabalistique",
+            "year": "2019",
+            "npc_en": "Impresario",
+            "npc_fr": "impresario",
+            "cPrev": [
+                69204
+            ],
+            "patch": "5.0"
+        },
+        "x69206": {
+            "level": 15,
+            "name_en": "Haunting Grounds",
+            "name_fr": "L'étrange manoir abandonné",
+            "year": "2019",
+            "npc_en": "Adventurers' Guild Investigator",
+            "npc_fr": "enquêteur",
+            "cPrev": [
+                69204
+            ],
+            "patch": "5.0"
+        },
+        "x69531": {
+            "level": 15,
+            "name_en": "All Clowns' Wake",
+            "name_fr": "Clowneries démoniaques",
+            "year": "2021",
+            "npc_en": "Adventurers' Guild Investigator",
+            "npc_fr": "enquêteur",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.65781"
+            ],
+            "cNext": [
+                70056
+            ],
+            "patch": "6.0"
+        },
+        "x70056": {
+            "level": 15,
+            "name_en": "A Feast to Remember",
+            "name_fr": "Un étrange banquet",
+            "year": "2021",
+            "npc_en": "Adventurers' Guild Investigator",
+            "npc_fr": "enquêteur",
+            "cPrev": [
+                69531
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3031"
+            ],
+            "patch": "6.0"
+        },
+        "x70191": {
+            "level": 15,
+            "name_en": "A Mad Masquerade",
+            "name_fr": "La parade de tous les dangers",
+            "year": "2022",
+            "npc_en": "Adventurers' Guild Investigator",
+            "npc_fr": "Enquêteur",
+            "cNext": [
+                70192,
+                70193
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3120"
+            ],
+            "patch": "6.28"
+        },
+        "x70192": {
+            "level": 15,
+            "name_en": "Be Our Guest",
+            "name_fr": "Une invitation spéciale",
+            "year": "2022",
+            "npc_en": "Wake Doctor",
+            "npc_fr": "Savante Itinérante",
+            "cPrev": [
+                70191
+            ],
+            "patch": "6.28"
+        },
+        "x70193": {
+            "level": 15,
+            "name_en": "A Spooky Celebration",
+            "name_fr": "Une parade animée",
+            "year": "2022",
+            "npc_en": "Harlequin Guide",
+            "npc_fr": "Arlequin Guide",
+            "cPrev": [
+                70191
+            ],
+            "patch": "6.28"
+        },
+        "x70321": {
+            "level": 15,
+            "name_en": "The Fright Stuff",
+            "name_fr": "Peur, mais pas trop",
+            "year": "2023",
+            "npc_en": "Adventurers' Guild investigator",
+            "npc_fr": "enquêteur",
+            "cNext": [
+                70322
+            ],
+            "cSiblings": [
+                "social.emotes.general.267"
+            ],
+            "patch": "6.4"
+        },
+        "x70322": {
+            "level": 15,
+            "name_en": "A Charmed Life",
+            "name_fr": "Le goût de la gratitude",
+            "year": "2023",
+            "npc_en": "Papa Gruff",
+            "npc_fr": "Paparlequin",
+            "cPrev": [
+                70321
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3283"
+            ],
+            "patch": "6.4"
+        }
+    }
+}

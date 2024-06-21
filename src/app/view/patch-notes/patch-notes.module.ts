@@ -6,6 +6,7 @@ import { PatchNotes100Component } from './1-0-0/patch-notes-1-0-0.component';
 import { PatchNotes101Component } from './1-0-1/patch-notes-1-0-1.component';
 import { PatchNotes102Component } from './1-0-2/patch-notes-1-0-2.component';
 import { PatchNotes103Component } from './1-0-3/patch-notes-1-0-3.component';
+import { PatchNotes104Component } from './1-0-4/patch-notes-1-0-4.component';
 
 import { PatchNotesComponent } from './patch-notes.component';
 
@@ -15,6 +16,7 @@ import { PatchNotesComponent } from './patch-notes.component';
         PatchNotes101Component,
         PatchNotes102Component,
         PatchNotes103Component,
+        PatchNotes104Component,
 
         PatchNotesComponent
     ],

@@ -1,4 +1,4 @@
-import { GroupDefinition } from '@domain/Definition';
+import { GroupDefinition } from '@model/Definition';
 import { TranslateService } from '@ngx-translate/core';
 
 import { QUEST_DEFINITION } from './quest';
@@ -62,7 +62,14 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                     subGroups: Duty_Guildhests(translate)
                 },
                 'deep-dungeon',
-                'v-and-c-dungeon',
+                {
+                    path: 'v-and-c-dungeon',
+                    subGroups: [
+                        { path: 'sildihn-subterrane', subGroups: ['record'] },
+                        { path: 'mount-rokkon', subGroups: ['record'] },
+                        { path: 'aloalo-island', subGroups: ['record'] },
+                    ]
+                },
                 {
                     path: 'the-hunt',
                     subGroups: [
@@ -206,6 +213,13 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                         'balanced',
                     ]
                 }
+            ]
+        },
+        {
+            path: 'treasure-hunt',
+            subGroups: [
+                'maps',
+                'duties'
             ]
         },
         {

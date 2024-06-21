@@ -27,6 +27,8 @@ var ConfigStore = /** @class */ (function () {
                     incomplete: true,
                     excluded: true
                 },
+                'show-completed-groups': true,
+                'show-empty-groups': true,
                 'window': {
                     x: 100,
                     y: 100,
@@ -40,6 +42,7 @@ var ConfigStore = /** @class */ (function () {
                     'background': '0, 0, 12',
                     'text-color-rgb': '255, 255, 255',
                     'font-family': 'sans-serif',
+                    'font-size': 16,
                     'incomplete-rgb': '111, 0, 0',
                     'partial-complete-rgb': '111, 111, 0',
                     'completed-rgb': '0, 111, 0',
@@ -76,6 +79,8 @@ var ConfigStore = /** @class */ (function () {
         // Make a "last valid config" backup
         if (successful)
             this.saveBackup();
+        // Attach admin flag
+        ConfigStore.store.isAdmin = ConfigStore.isServe;
         return {
             data: ConfigStore.store,
             successful: successful
@@ -115,6 +120,8 @@ var ConfigStore = /** @class */ (function () {
         }
     };
     ConfigStore.saveBackup = function () {
+        // Ensure admin flag is not stored
+        delete ConfigStore.store.isAdmin;
         fs.writeFileSync(ConfigStore.backupPath, JSON.stringify(ConfigStore.store, null, 4));
     };
     //#endregion
@@ -165,7 +172,7 @@ var ConfigStore = /** @class */ (function () {
         event.returnValue = null;
     };
     ConfigStore.backup = function (event) {
-        var fileName = "config-" + PlayerStore_1.PlayerStore.store.version + "-backup.json";
+        var fileName = "config-".concat(PlayerStore_1.PlayerStore.store.version, "-backup.json");
         var result = electron_1.dialog.showSaveDialogSync({
             defaultPath: path.join(electron_1.app.getPath('userData'), fileName),
             filters: [{ name: 'JSON', extensions: ['json'] }]

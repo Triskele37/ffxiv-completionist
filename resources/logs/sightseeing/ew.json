@@ -1,0 +1,470 @@
+{
+    "key": "ew",
+    "groupName_en": "EW",
+    "groupName_fr": "Endwalker",
+    "cCombo": [
+        "character.achievement.exploration.sightseeing-log.2973"
+    ],
+    "tasks": {
+        "x0": {
+            "name_en": "The Leveilleur Estate",
+            "name_fr": "Résidence des Leveilleur",
+            "zone_en": "Old Sharlayan",
+            "zone_fr": "Vieille Sharlayan",
+            "location": "(15.6, 8.0)",
+            "vista": "001",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x1": {
+            "name_en": "Scholar's Harbor",
+            "name_fr": "Port de l'Érudit",
+            "zone_en": "Old Sharlayan",
+            "zone_fr": "Vieille Sharlayan",
+            "location": "(11.8, 15.8)",
+            "vista": "002",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x2": {
+            "name_en": "The Forum",
+            "name_fr": "Les Rostres",
+            "zone_en": "Old Sharlayan",
+            "zone_fr": "Vieille Sharlayan",
+            "location": "(10.8, 6.8)",
+            "vista": "003",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x3": {
+            "name_en": "Noumenon",
+            "name_fr": "Noumène",
+            "zone_en": "Old Sharlayan",
+            "zone_fr": "Vieille Sharlayan",
+            "location": "(4.5, 11.3)",
+            "vista": "004",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x4": {
+            "name_en": "The Rostra",
+            "name_fr": "Conseil de Sharlayan",
+            "zone_en": "Old Sharlayan",
+            "zone_fr": "Vieille Sharlayan",
+            "location": "(11.2, 10.0)",
+            "vista": "005",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x5": {
+            "name_en": "Journey's End",
+            "name_fr": "Colline des Naufragés",
+            "zone_en": "Old Sharlayan",
+            "zone_fr": "Vieille Sharlayan",
+            "location": "(15.1, 9.6)",
+            "vista": "006",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x6": {
+            "name_en": "Learners' Meet",
+            "name_fr": "Aula",
+            "zone_en": "Old Sharlayan",
+            "zone_fr": "Vieille Sharlayan",
+            "location": "(3.2, 9.0)",
+            "vista": "007",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x7": {
+            "name_en": "Ruveydah Fibers",
+            "name_fr": "Soierie de Ruveydah",
+            "zone_en": "Radz-at-Han",
+            "zone_fr": "Radz-at-Han",
+            "location": "(7.9, 13.3)",
+            "vista": "008",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x8": {
+            "name_en": "Balshahn Bazaar",
+            "name_fr": "Bazar de Balshahn",
+            "zone_en": "Radz-at-Han",
+            "zone_fr": "Radz-at-Han",
+            "location": "(10.6, 9.4)",
+            "vista": "009",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x9": {
+            "name_en": "Nilopala Nourishments",
+            "name_fr": "Ferme de Nilopala",
+            "zone_en": "Radz-at-Han",
+            "zone_fr": "Radz-at-Han",
+            "location": "(7.7, 14.1)",
+            "vista": "010",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x10": {
+            "name_en": "Mehryde's Meyhane",
+            "name_fr": "Meyhane de Mehryde",
+            "zone_en": "Radz-at-Han",
+            "zone_fr": "Radz-at-Han",
+            "location": "(11.2, 7.2)",
+            "vista": "011",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x11": {
+            "name_en": "Meghaduta",
+            "name_fr": "Palais de Meghaduta",
+            "zone_en": "Radz-at-Han",
+            "zone_fr": "Radz-at-Han",
+            "location": "(5.1, 13.2)",
+            "vista": "012",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x12": {
+            "name_en": "Alzadaal's Peace",
+            "name_fr": "Repos d'Alzadaal",
+            "zone_en": "Radz-at-Han",
+            "zone_fr": "Radz-at-Han",
+            "location": "(10.9, 12.1)",
+            "vista": "013",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x13": {
+            "name_en": "Ruveydah Fibers Rooftop Garden",
+            "name_fr": "Jardin suspendu de la soierie de Ruveydah",
+            "zone_en": "Radz-at-Han",
+            "zone_fr": "Radz-at-Han",
+            "location": "(8.6, 13.1)",
+            "vista": "014",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x14": {
+            "name_en": "The Path of Artifice",
+            "name_fr": "Passage de l'Ingéniosité",
+            "zone_en": "Labyrinthos",
+            "zone_fr": "Le Labyrinthos",
+            "location": "(20.4, 7.6, 3.9)",
+            "vista": "015",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x15": {
+            "name_en": "Thaumazein",
+            "name_fr": "Thaumazein",
+            "zone_en": "Labyrinthos",
+            "zone_fr": "Le Labyrinthos",
+            "location": "(15.0, 25.3, 0)",
+            "vista": "016",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x16": {
+            "name_en": "Meryall Agronomics",
+            "name_fr": "Laboratoire agronomique de Meryall",
+            "zone_en": "Labyrinthos",
+            "zone_fr": "Le Labyrinthos",
+            "location": "(30.8, 18.7, 3.0)",
+            "vista": "017",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x17": {
+            "name_en": "Troglophile's Deep",
+            "name_fr": "Repaire des Cavernicoles",
+            "zone_en": "Labyrinthos",
+            "zone_fr": "Le Labyrinthos",
+            "location": "(38.4, 13.7)",
+            "vista": "018",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x18": {
+            "name_en": "Sharlayan Hamlet",
+            "name_fr": "Petite Sharlayan",
+            "zone_en": "Labyrinthos",
+            "zone_fr": "Le Labyrinthos",
+            "location": "(22.4, 17.5, 2.7)",
+            "vista": "019",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x19": {
+            "name_en": "Yedlihmad",
+            "name_fr": "Yedlihmad",
+            "zone_en": "Thavnair",
+            "zone_fr": "Thavnair",
+            "location": "(26.2, 33.6)",
+            "vista": "020",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x20": {
+            "name_en": "Kadjaya's Footsteps",
+            "name_fr": "Pas de Kadjaya",
+            "zone_en": "Thavnair",
+            "zone_fr": "Thavnair",
+            "location": "(22.5, 19.6)",
+            "vista": "021",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x21": {
+            "name_en": "Giantsgall Grounds",
+            "name_fr": "Mines de fiel-de-géant",
+            "zone_en": "Thavnair",
+            "zone_fr": "Thavnair",
+            "location": "(19.9, 6.9)",
+            "vista": "022",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x22": {
+            "name_en": "The Shroud of the Samgha",
+            "name_fr": "Jungle des Sangha",
+            "zone_en": "Thavnair",
+            "zone_fr": "Thavnair",
+            "location": "(29.2, 24.9)",
+            "vista": "023",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x23": {
+            "name_en": "The Font of Maya",
+            "name_fr": "Source de la Maya",
+            "zone_en": "Thavnair",
+            "zone_fr": "Thavnair",
+            "location": "(26.5, 24.1)",
+            "vista": "024",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x24": {
+            "name_en": "The Great Work",
+            "name_fr": "Le Grand Œuvre",
+            "zone_en": "Thavnair",
+            "zone_fr": "Thavnair",
+            "location": "(9.8, 23.2)",
+            "vista": "025",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x25": {
+            "name_en": "Tertium",
+            "name_fr": "Gare de Tertium",
+            "zone_en": "Garlemald",
+            "zone_fr": "Garlemald",
+            "location": "(32.3, 18.5, -0.2)",
+            "vista": "026",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x26": {
+            "name_en": "Juturna Platform G",
+            "name_fr": "Plateforme Juturna G",
+            "zone_en": "Garlemald",
+            "zone_fr": "Garlemald",
+            "location": "(29.7, 34.1)",
+            "vista": "027",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x27": {
+            "name_en": "The Runaway Train",
+            "name_fr": "Train fuyard",
+            "zone_en": "Garlemald",
+            "zone_fr": "Garlemald",
+            "location": "(29.5, 23.3)",
+            "vista": "028",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x28": {
+            "name_en": "Senaculum Imperialis",
+            "name_fr": "Senaculum Imperialis",
+            "zone_en": "Garlemald",
+            "zone_fr": "Garlemald",
+            "location": "(17.0, 9.2, 0.6)",
+            "vista": "029",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x29": {
+            "name_en": "Regio Urbanissima",
+            "name_fr": "Regio Urbanissima",
+            "zone_en": "Garlemald",
+            "zone_fr": "Garlemald",
+            "location": "(19.3, 16.8, 0.6)",
+            "vista": "030",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x30": {
+            "name_en": "Forum Solius",
+            "name_fr": "Forum Solius",
+            "zone_en": "Garlemald",
+            "zone_fr": "Garlemald",
+            "location": "(29.1, 8.6)",
+            "vista": "031",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x31": {
+            "name_en": "The Cthonic Horns",
+            "name_fr": "Jardin chthonien",
+            "zone_en": "Elpis",
+            "zone_fr": "Elpis",
+            "location": "(33.0, 29.3)",
+            "vista": "032",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x32": {
+            "name_en": "Metabaseos Thalassai",
+            "name_fr": "La Métabase",
+            "zone_en": "Elpis",
+            "zone_fr": "Elpis",
+            "location": "(10.1, 13.5, 5.2)",
+            "vista": "033",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x33": {
+            "name_en": "Lethe",
+            "name_fr": "Le Léthé",
+            "zone_en": "Elpis",
+            "zone_fr": "Elpis",
+            "location": "(31.7, 15.7, 3.3)",
+            "vista": "034",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x34": {
+            "name_en": "Ktisis Hyperboreia",
+            "name_fr": "L'Hyperborée",
+            "zone_en": "Elpis",
+            "zone_fr": "Elpis",
+            "location": "(14.9, 7.2)",
+            "vista": "035",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x35": {
+            "name_en": "Anagnorisis",
+            "name_fr": "L'Anagnorisis",
+            "zone_en": "Elpis",
+            "zone_fr": "Elpis",
+            "location": "(24.5, 22.8, 1.9)",
+            "vista": "036",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x36": {
+            "name_en": "Kydonia Knolls",
+            "name_fr": "Buitte de Cydonia",
+            "zone_en": "Mare Lamentorum",
+            "zone_fr": "Mare Lamentorum",
+            "location": "(11.3, 22.0)",
+            "vista": "037",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x37": {
+            "name_en": "The Carrotorium",
+            "name_fr": "Carrotorium",
+            "zone_en": "Mare Lamentorum",
+            "zone_fr": "Mare Lamentorum",
+            "location": "(7.3, 6.1, -1.1)",
+            "vista": "038",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x38": {
+            "name_en": "Greatest Endsvale",
+            "name_fr": "La Garenne sempervirente",
+            "zone_en": "Mare Lamentorum",
+            "zone_fr": "Mare Lamentorum",
+            "location": "(35.9, 9.3)",
+            "vista": "039",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x39": {
+            "name_en": "Heimdall's Last Sight",
+            "name_fr": "Épave du Heimdall",
+            "zone_en": "Mare Lamentorum",
+            "zone_fr": "Mare Lamentorum",
+            "location": "(34.3, 29.4, 1.5)",
+            "vista": "040",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x40": {
+            "name_en": "The Watcher's Palace",
+            "name_fr": "Palais du Veilleur",
+            "zone_en": "Mare Lamentorum",
+            "zone_fr": "Mare Lamentorum",
+            "location": "(13.5, 32.6, 2.1)",
+            "vista": "041",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x41": {
+            "name_en": "Stigma-1",
+            "name_fr": "Stigma-1",
+            "zone_en": "Ultima Thule",
+            "zone_fr": "Ultima Thulé",
+            "location": "(32.6, 29.9, 3.9)",
+            "vista": "042",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x42": {
+            "name_en": "Ostrakon Deka-hexi",
+            "name_fr": "Ostrakon Dékahexi",
+            "zone_en": "Ultima Thule",
+            "zone_fr": "Ultima Thulé",
+            "location": "(33.6, 26.8, 4.2)",
+            "vista": "043",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x43": {
+            "name_en": "Ostrakon Tria",
+            "name_fr": "Ostrakon Tria",
+            "zone_en": "Ultima Thule",
+            "zone_fr": "Ultima Thulé",
+            "location": "(18.7, 13.7)",
+            "vista": "044",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x44": {
+            "name_en": "Ostrakon Deka-okto",
+            "name_fr": "Ostrakon Dékaokto",
+            "zone_en": "Ultima Thule",
+            "zone_fr": "Ultima Thulé",
+            "location": "(8.9, 18.1, 0.4)",
+            "vista": "045",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        },
+        "x45": {
+            "name_en": "Ostrakon Hena",
+            "name_fr": "Ostrakon Éna",
+            "zone_en": "Ultima Thule",
+            "zone_fr": "Ultima Thulé",
+            "location": "(23.0, 27.2, 5.7)",
+            "vista": "046",
+            "emote_en": "Lookout",
+            "emote_fr": "Scruter"
+        }
+    }
+}

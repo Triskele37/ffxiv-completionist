@@ -1,0 +1,86 @@
+{
+    "key": "variant-dungeons",
+    "groupName_en": "Variant Dungeons",
+    "groupName_fr": "Donjons spéciaux",
+    "tasks": {
+        "x70182": {
+            "level": 90,
+            "name_en": "A Key to the Past",
+            "name_fr": "Sultane en sous-sol",
+            "unlock": "duty.dutyraid-finder.v-and-c-dungeon.sildihn-subterrane.0",
+            "npc_en": "Shallow Moor",
+            "npc_fr": "Shallow Moor",
+            "cPrev": [
+                "duty.quests.other.quasi-quests.70187"
+            ],
+            "cNext": [
+                70185
+            ],
+            "patch": "6.28"
+        },
+        "x70185": {
+            "level": 90,
+            "name_en": "For Coin, Country, and Comrades",
+            "name_fr": "Un secret en héritage",
+            "npc_en": "Kokoshu",
+            "npc_fr": "Kokoshu",
+            "cPrev": [
+                70182
+            ],
+            "patch": "6.28"
+        },
+        "x70269": {
+            "level": 90,
+            "name_en": "Mononoke Aware",
+            "name_fr": "Randonnée spirituelle",
+            "unlock": "duty.dutyraid-finder.v-and-c-dungeon.mount-rokkon.0",
+            "npc_en": "Shallow Moor",
+            "npc_fr": "Shallow Moor",
+            "cPrev": [
+                "duty.quests.other.quasi-quests.70187"
+            ],
+            "cNext": [
+                70270
+            ],
+            "patch": "6.45"
+        },
+        "x70270": {
+            "level": 90,
+            "name_en": "Of Price and Ruin",
+            "name_fr": "Orphelins d'Orient",
+            "npc_en": "Tsubaki",
+            "npc_fr": "Tsubaki",
+            "cPrev": [
+                70269
+            ],
+            "patch": "6.45"
+        },
+        "x70325": {
+            "level": 90,
+            "name_en": "Stranger from Paradise",
+            "name_fr": "L'île du peuple oublié",
+            "unlock": "duty.dutyraid-finder.v-and-c-dungeon.aloalo-island.0",
+            "npc_en": "Shallow Moor",
+            "npc_fr": "Shallow Moor",
+            "cPrev": [
+                "duty.quests.other.quasi-quests.70187",
+                "duty.quests.main-scenario.post-endwalker.70071"
+            ],
+            "cNext": [
+                70326
+            ],
+            "patch": "6.51"
+        },
+        "x70326": {
+            "level": 90,
+            "name_en": "A Fish a Day",
+            "name_fr": "Le cadeau de Matsya",
+            "npc_en": "Kalika",
+            "npc_fr": "Kalika",
+            "cPrev": [
+                70325
+            ],
+            "patch": "6.51"
+        }
+    }
+}

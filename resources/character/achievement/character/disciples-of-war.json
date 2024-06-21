@@ -1,0 +1,1474 @@
+{
+    "key": "disciple-of-war",
+    "groupName_en": "Disciple of War",
+    "groupName_fr": "Disciples de la guerre",
+    "tasks": {
+        "x19": {
+            "name_en": "Stick Them with the Pointy End I",
+            "name_fr": "Apprenti gladiateur",
+            "description_en": "Achieve gladiator level 10.",
+            "description_fr": "Atteindre le niveau 10 avec la classe gladiateur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "10": [
+                    "character.character.classes--jobs.0"
+                ]
+            },
+            "cNext": [
+                20
+            ]
+        },
+        "x20": {
+            "name_en": "Stick Them with the Pointy End II",
+            "name_fr": "Gladiateur novice",
+            "description_en": "Achieve gladiator level 20.",
+            "description_fr": "Atteindre le niveau 20 avec la classe gladiateur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "20": [
+                    "character.character.classes--jobs.0"
+                ]
+            },
+            "cPrev": [
+                19
+            ],
+            "cNext": [
+                21
+            ]
+        },
+        "x21": {
+            "name_en": "Stick Them with the Pointy End III",
+            "name_fr": "Gladiateur intermédiaire",
+            "description_en": "Achieve gladiator level 30.",
+            "description_fr": "Atteindre le niveau 30 avec la classe gladiateur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.0"
+                ]
+            },
+            "cPrev": [
+                20
+            ],
+            "cNext": [
+                22
+            ]
+        },
+        "x22": {
+            "name_en": "Stick Them with the Pointy End IV",
+            "name_fr": "Gladiateur confirmé",
+            "description_en": "Achieve gladiator level 40.",
+            "description_fr": "Atteindre le niveau 40 avec la classe gladiateur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.0"
+                ]
+            },
+            "cPrev": [
+                21
+            ],
+            "cNext": [
+                23
+            ]
+        },
+        "x23": {
+            "name_en": "Stick Them with the Pointy End V",
+            "name_fr": "Gladiateur vétéran",
+            "description_en": "Achieve gladiator level 50.",
+            "description_fr": "Atteindre le niveau 50 avec la classe gladiateur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.0"
+                ]
+            },
+            "cPrev": [
+                22
+            ],
+            "cNext": [
+                1167
+            ]
+        },
+        "x1167": {
+            "name_en": "Stick Them with the Pointy End VI",
+            "name_fr": "Gladiateur émérite",
+            "description_en": "Achieve gladiator level 60.",
+            "description_fr": "Atteindre le niveau 60 avec la classe gladiateur.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.0"
+                ]
+            },
+            "cPrev": [
+                23
+            ],
+            "cNext": [
+                1814
+            ]
+        },
+        "x1814": {
+            "name_en": "Stick Them with the Pointy End VII",
+            "name_fr": "Gladiateur expert",
+            "description_en": "Achieve gladiator level 70.",
+            "description_fr": "Atteindre le niveau 70 avec la classe gladiateur.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.0"
+                ]
+            },
+            "cPrev": [
+                1167
+            ],
+            "cNext": [
+                2246
+            ]
+        },
+        "x2246": {
+            "name_en": "Stick Them with the Pointy End VIII",
+            "name_fr": "Gladiateur emblématique",
+            "description_en": "Achieve gladiator level 80.",
+            "description_fr": "Atteindre le niveau 80 avec la classe gladiateur.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.0"
+                ]
+            },
+            "cPrev": [
+                1814
+            ],
+            "cNext": [
+                2892
+            ]
+        },
+        "x2892": {
+            "name_en": "Stick Them with the Pointy End IX",
+            "name_fr": "Gladiateur légendaire",
+            "description_en": "Achieve gladiator level 90.",
+            "description_fr": "Atteindre le niveau 90 avec la classe gladiateur.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.0"
+                ]
+            },
+            "cPrev": [
+                2246
+            ]
+        },
+        "x24": {
+            "name_en": "The Sweet Science I",
+            "name_fr": "Apprenti pugiliste",
+            "description_en": "Achieve pugilist level 10.",
+            "description_fr": "Atteindre le niveau 10 avec la classe pugiliste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "10": [
+                    "character.character.classes--jobs.7"
+                ]
+            },
+            "cNext": [
+                25
+            ]
+        },
+        "x25": {
+            "name_en": "The Sweet Science II",
+            "name_fr": "Pugiliste novice",
+            "description_en": "Achieve pugilist level 20.",
+            "description_fr": "Atteindre le niveau 20 avec la classe pugiliste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "20": [
+                    "character.character.classes--jobs.7"
+                ]
+            },
+            "cPrev": [
+                24
+            ],
+            "cNext": [
+                26
+            ]
+        },
+        "x26": {
+            "name_en": "The Sweet Science III",
+            "name_fr": "Pugiliste intermédiaire",
+            "description_en": "Achieve pugilist level 30.",
+            "description_fr": "Atteindre le niveau 30 avec la classe pugiliste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.7"
+                ]
+            },
+            "cPrev": [
+                25
+            ],
+            "cNext": [
+                27
+            ]
+        },
+        "x27": {
+            "name_en": "The Sweet Science IV",
+            "name_fr": "Pugiliste confirmé",
+            "description_en": "Achieve pugilist level 40.",
+            "description_fr": "Atteindre le niveau 40 avec la classe pugiliste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.7"
+                ]
+            },
+            "cPrev": [
+                26
+            ],
+            "cNext": [
+                28
+            ]
+        },
+        "x28": {
+            "name_en": "The Sweet Science V",
+            "name_fr": "Pugiliste vétéran",
+            "description_en": "Achieve pugilist level 50.",
+            "description_fr": "Atteindre le niveau 50 avec la classe pugiliste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.7"
+                ]
+            },
+            "cPrev": [
+                27
+            ],
+            "cNext": [
+                1168
+            ]
+        },
+        "x1168": {
+            "name_en": "The Sweet Science VI",
+            "name_fr": "Pugiliste émérite",
+            "description_en": "Achieve pugilist level 60.",
+            "description_fr": "Atteindre le niveau 60 avec la classe pugiliste.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.7"
+                ]
+            },
+            "cPrev": [
+                28
+            ],
+            "cNext": [
+                1815
+            ]
+        },
+        "x1815": {
+            "name_en": "The Sweet Science VII",
+            "name_fr": "Pugiliste expert",
+            "description_en": "Achieve pugilist level 70.",
+            "description_fr": "Atteindre le niveau 70 avec la classe pugiliste.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.7"
+                ]
+            },
+            "cPrev": [
+                1168
+            ],
+            "cNext": [
+                2247
+            ]
+        },
+        "x2247": {
+            "name_en": "The Sweet Science VIII",
+            "name_fr": "Pugiliste emblématique",
+            "description_en": "Achieve pugilist level 80.",
+            "description_fr": "Atteindre le niveau 80 avec la classe pugiliste.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.7"
+                ]
+            },
+            "cPrev": [
+                1815
+            ],
+            "cNext": [
+                2893
+            ]
+        },
+        "x2893": {
+            "name_en": "The Sweet Science IX",
+            "name_fr": "Pugiliste légendaire",
+            "description_en": "Achieve pugilist level 90.",
+            "description_fr": "Atteindre le niveau 90 avec la classe pugiliste.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.7"
+                ]
+            },
+            "cPrev": [
+                2247
+            ]
+        },
+        "x29": {
+            "name_en": "An Axe to Grind I",
+            "name_fr": "Apprenti maraudeur",
+            "description_en": "Achieve marauder level 10.",
+            "description_fr": "Atteindre le niveau 10 avec la classe maraudeur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "10": [
+                    "character.character.classes--jobs.1"
+                ]
+            },
+            "cNext": [
+                30
+            ]
+        },
+        "x30": {
+            "name_en": "An Axe to Grind II",
+            "name_fr": "Maraudeur novice",
+            "description_en": "Achieve marauder level 20.",
+            "description_fr": "Atteindre le niveau 20 avec la classe maraudeur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "20": [
+                    "character.character.classes--jobs.1"
+                ]
+            },
+            "cPrev": [
+                29
+            ],
+            "cNext": [
+                31
+            ]
+        },
+        "x31": {
+            "name_en": "An Axe to Grind III",
+            "name_fr": "Maraudeur intermédiaire",
+            "description_en": "Achieve marauder level 30.",
+            "description_fr": "Atteindre le niveau 30 avec la classe maraudeur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.1"
+                ]
+            },
+            "cPrev": [
+                30
+            ],
+            "cNext": [
+                32
+            ]
+        },
+        "x32": {
+            "name_en": "An Axe to Grind IV",
+            "name_fr": "Maraudeur confirmé",
+            "description_en": "Achieve marauder level 40.",
+            "description_fr": "Atteindre le niveau 40 avec la classe maraudeur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.1"
+                ]
+            },
+            "cPrev": [
+                31
+            ],
+            "cNext": [
+                33
+            ]
+        },
+        "x33": {
+            "name_en": "An Axe to Grind V",
+            "name_fr": "Maraudeur vétéran",
+            "description_en": "Achieve marauder level 50.",
+            "description_fr": "Atteindre le niveau 50 avec la classe maraudeur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.1"
+                ]
+            },
+            "cPrev": [
+                32
+            ],
+            "cNext": [
+                1169
+            ]
+        },
+        "x1169": {
+            "name_en": "An Axe to Grind VI",
+            "name_fr": "Maraudeur émérite",
+            "description_en": "Achieve marauder level 60.",
+            "description_fr": "Atteindre le niveau 60 avec la classe maraudeur.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.1"
+                ]
+            },
+            "cPrev": [
+                33
+            ],
+            "cNext": [
+                1816
+            ]
+        },
+        "x1816": {
+            "name_en": "An Axe to Grind VII",
+            "name_fr": "Maraudeur expert",
+            "description_en": "Achieve marauder level 70.",
+            "description_fr": "Atteindre le niveau 70 avec la classe maraudeur.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.1"
+                ]
+            },
+            "cPrev": [
+                1169
+            ],
+            "cNext": [
+                2248
+            ]
+        },
+        "x2248": {
+            "name_en": "An Axe to Grind VIII",
+            "name_fr": "Maraudeur emblématique",
+            "description_en": "Achieve marauder level 80.",
+            "description_fr": "Atteindre le niveau 80 avec la classe maraudeur.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.1"
+                ]
+            },
+            "cPrev": [
+                1816
+            ],
+            "cNext": [
+                2894
+            ]
+        },
+        "x2894": {
+            "name_en": "An Axe to Grind IX",
+            "name_fr": "Maraudeur légendaire",
+            "description_en": "Achieve marauder level 90.",
+            "description_fr": "Atteindre le niveau 90 avec la classe maraudeur.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.1"
+                ]
+            },
+            "cPrev": [
+                2248
+            ]
+        },
+        "x34": {
+            "name_en": "Strong Lance Arm I",
+            "name_fr": "Apprenti maître d'hast",
+            "description_en": "Achieve lancer level 10.",
+            "description_fr": "Atteindre le niveau 10 avec la classe maître d'hast.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "10": [
+                    "character.character.classes--jobs.8"
+                ]
+            },
+            "cNext": [
+                35
+            ]
+        },
+        "x35": {
+            "name_en": "Strong Lance Arm II",
+            "name_fr": "Maître d'hast novice",
+            "description_en": "Achieve lancer level 20.",
+            "description_fr": "Atteindre le niveau 20 avec la classe maître d'hast.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "20": [
+                    "character.character.classes--jobs.8"
+                ]
+            },
+            "cPrev": [
+                34
+            ],
+            "cNext": [
+                36
+            ]
+        },
+        "x36": {
+            "name_en": "Strong Lance Arm III",
+            "name_fr": "Maître d'hast intermédiaire",
+            "description_en": "Achieve lancer level 30.",
+            "description_fr": "Atteindre le niveau 30 avec la classe maître d'hast.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.8"
+                ]
+            },
+            "cPrev": [
+                35
+            ],
+            "cNext": [
+                37
+            ]
+        },
+        "x37": {
+            "name_en": "Strong Lance Arm IV",
+            "name_fr": "Maître d'hast confirmé",
+            "description_en": "Achieve lancer level 40.",
+            "description_fr": "Atteindre le niveau 40 avec la classe maître d'hast.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.8"
+                ]
+            },
+            "cPrev": [
+                36
+            ],
+            "cNext": [
+                38
+            ]
+        },
+        "x38": {
+            "name_en": "Strong Lance Arm V",
+            "name_fr": "Maître d'hast vétéran",
+            "description_en": "Achieve lancer level 50.",
+            "description_fr": "Atteindre le niveau 50 avec la classe maître d'hast.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.8"
+                ]
+            },
+            "cPrev": [
+                37
+            ],
+            "cNext": [
+                1170
+            ]
+        },
+        "x1170": {
+            "name_en": "Strong Lance Arm VI",
+            "name_fr": "Maître d'hast émérite",
+            "description_en": "Achieve lancer level 60.",
+            "description_fr": "Atteindre le niveau 60 avec la classe maître d'hast.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.8"
+                ]
+            },
+            "cPrev": [
+                38
+            ],
+            "cNext": [
+                1817
+            ]
+        },
+        "x1817": {
+            "name_en": "Strong Lance Arm VII",
+            "name_fr": "Maître d'hast expert",
+            "description_en": "Achieve lancer level 70.",
+            "description_fr": "Atteindre le niveau 70 avec la classe maître d'hast.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.8"
+                ]
+            },
+            "cPrev": [
+                1170
+            ],
+            "cNext": [
+                2249
+            ]
+        },
+        "x2249": {
+            "name_en": "Strong Lance Arm VIII",
+            "name_fr": "Maître d'hast emblématique",
+            "description_en": "Achieve lancer level 80.",
+            "description_fr": "Atteindre le niveau 80 avec la classe maître d'hast.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.8"
+                ]
+            },
+            "cPrev": [
+                1817
+            ],
+            "cNext": [
+                2895
+            ]
+        },
+        "x2895": {
+            "name_en": "Strong Lance Arm IX",
+            "name_fr": "Maître d'hast légendaire",
+            "description_en": "Achieve lancer level 90.",
+            "description_fr": "Atteindre le niveau 90 avec la classe maître d'hast.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.8"
+                ]
+            },
+            "cPrev": [
+                2249
+            ]
+        },
+        "x39": {
+            "name_en": "Just Talkin' 'bout Shafts I",
+            "name_fr": "Apprenti archer",
+            "description_en": "Achieve archer level 10.",
+            "description_fr": "Atteindre le niveau 10 avec la classe archer.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "10": [
+                    "character.character.classes--jobs.11"
+                ]
+            },
+            "cNext": [
+                40
+            ]
+        },
+        "x40": {
+            "name_en": "Just Talkin' 'bout Shafts II",
+            "name_fr": "Archer novice",
+            "description_en": "Achieve archer level 20.",
+            "description_fr": "Atteindre le niveau 20 avec la classe archer.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "20": [
+                    "character.character.classes--jobs.11"
+                ]
+            },
+            "cPrev": [
+                39
+            ],
+            "cNext": [
+                41
+            ]
+        },
+        "x41": {
+            "name_en": "Just Talkin' 'bout Shafts III",
+            "name_fr": "Archer intermédiaire",
+            "description_en": "Achieve archer level 30.",
+            "description_fr": "Atteindre le niveau 30 avec la classe archer.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.11"
+                ]
+            },
+            "cPrev": [
+                40
+            ],
+            "cNext": [
+                42
+            ]
+        },
+        "x42": {
+            "name_en": "Just Talkin' 'bout Shafts IV",
+            "name_fr": "Archer confirmé",
+            "description_en": "Achieve archer level 40.",
+            "description_fr": "Atteindre le niveau 40 avec la classe archer.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.11"
+                ]
+            },
+            "cPrev": [
+                41
+            ],
+            "cNext": [
+                43
+            ]
+        },
+        "x43": {
+            "name_en": "Just Talkin' 'bout Shafts V",
+            "name_fr": "Archer vétéran",
+            "description_en": "Achieve archer level 50.",
+            "description_fr": "Atteindre le niveau 50 avec la classe archer.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.11"
+                ]
+            },
+            "cPrev": [
+                42
+            ],
+            "cNext": [
+                1171
+            ]
+        },
+        "x1171": {
+            "name_en": "Just Talkin' 'bout Shafts VI",
+            "name_fr": "Archer émérite",
+            "description_en": "Achieve archer level 60.",
+            "description_fr": "Atteindre le niveau 60 avec la classe archer.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.11"
+                ]
+            },
+            "cPrev": [
+                43
+            ],
+            "cNext": [
+                1818
+            ]
+        },
+        "x1818": {
+            "name_en": "Just Talkin' 'bout Shafts VII",
+            "name_fr": "Archer expert",
+            "description_en": "Achieve archer level 70.",
+            "description_fr": "Atteindre le niveau 70 avec la classe archer.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.11"
+                ]
+            },
+            "cPrev": [
+                1171
+            ],
+            "cNext": [
+                2250
+            ]
+        },
+        "x2250": {
+            "name_en": "Just Talkin' 'bout Shafts VIII",
+            "name_fr": "Archer emblématique",
+            "description_en": "Achieve archer level 80.",
+            "description_fr": "Atteindre le niveau 80 avec la classe archer.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.11"
+                ]
+            },
+            "cPrev": [
+                1818
+            ],
+            "cNext": [
+                2896
+            ]
+        },
+        "x2896": {
+            "name_en": "Just Talkin' 'bout Shafts IX",
+            "name_fr": "Archer légendaire",
+            "description_en": "Achieve archer level 90.",
+            "description_fr": "Atteindre le niveau 90 avec la classe archer.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.11"
+                ]
+            },
+            "cPrev": [
+                2250
+            ]
+        },
+        "x1046": {
+            "name_en": "Come on, Rogue I",
+            "name_fr": "Apprenti surineur",
+            "description_en": "Achieve rogue level 10.",
+            "description_fr": "Atteindre le niveau 10 avec la classe surineur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "10": [
+                    "character.character.classes--jobs.9"
+                ]
+            },
+            "cNext": [
+                1047
+            ]
+        },
+        "x1047": {
+            "name_en": "Come on, Rogue II",
+            "name_fr": "Surineur novice",
+            "description_en": "Achieve rogue level 20.",
+            "description_fr": "Atteindre le niveau 20 avec la classe surineur.",
+            "patch": "2.4",
+            "points": 5,
+            "cSiblingsAt": {
+                "20": [
+                    "character.character.classes--jobs.9"
+                ]
+            },
+            "cPrev": [
+                1046
+            ],
+            "cNext": [
+                1048
+            ]
+        },
+        "x1048": {
+            "name_en": "Come on, Rogue III",
+            "name_fr": "Surineur intermédiaire",
+            "description_en": "Achieve rogue level 30.",
+            "description_fr": "Atteindre le niveau 30 avec la classe surineur.",
+            "patch": "2.4",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.9"
+                ]
+            },
+            "cPrev": [
+                1047
+            ],
+            "cNext": [
+                1049
+            ]
+        },
+        "x1049": {
+            "name_en": "Come on, Rogue IV",
+            "name_fr": "Surineur confirmé",
+            "description_en": "Achieve rogue level 40.",
+            "description_fr": "Atteindre le niveau 40 avec la classe surineur.",
+            "patch": "2.4",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.9"
+                ]
+            },
+            "cPrev": [
+                1048
+            ],
+            "cNext": [
+                1050
+            ]
+        },
+        "x1050": {
+            "name_en": "Come on, Rogue V",
+            "name_fr": "Surineur vétéran",
+            "description_en": "Achieve rogue level 50.",
+            "description_fr": "Atteindre le niveau 50 avec la classe surineur.",
+            "patch": "2.4",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.9"
+                ]
+            },
+            "cPrev": [
+                1049
+            ],
+            "cNext": [
+                1175
+            ]
+        },
+        "x1175": {
+            "name_en": "Come on, Rogue VI",
+            "name_fr": "Surineur émérite",
+            "description_en": "Achieve rogue level 60.",
+            "description_fr": "Atteindre le niveau 60 avec la classe surineur.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.9"
+                ]
+            },
+            "cPrev": [
+                1050
+            ],
+            "cNext": [
+                1822
+            ]
+        },
+        "x1822": {
+            "name_en": "Come on, Rogue VII",
+            "name_fr": "Surineur expert",
+            "description_en": "Achieve rogue level 70.",
+            "description_fr": "Atteindre le niveau 70 avec la classe surineur.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.9"
+                ]
+            },
+            "cPrev": [
+                1175
+            ],
+            "cNext": [
+                2254
+            ]
+        },
+        "x2254": {
+            "name_en": "Come on, Rogue VIII",
+            "name_fr": "Surineur emblématique",
+            "description_en": "Achieve rogue level 80.",
+            "description_fr": "Atteindre le niveau 80 avec la classe surineur.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.9"
+                ]
+            },
+            "cPrev": [
+                1822
+            ],
+            "cNext": [
+                2900
+            ]
+        },
+        "x2900": {
+            "name_en": "Come on, Rogue IX",
+            "name_fr": "Surineur légendaire",
+            "description_en": "Achieve rogue level 90.",
+            "description_fr": "Atteindre le niveau 90 avec la classe surineur.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.9"
+                ]
+            },
+            "cPrev": [
+                2254
+            ]
+        },
+        "x1176": {
+            "name_en": "Are You Afraid of the Dark? I",
+            "name_fr": "Chevalier noir intermédiaire",
+            "description_en": "Achieve dark knight level 30.",
+            "description_fr": "Atteindre le niveau 30 avec le job chevalier noir.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.2"
+                ]
+            },
+            "cNext": [
+                1177
+            ]
+        },
+        "x1177": {
+            "name_en": "Are You Afraid of the Dark? II",
+            "name_fr": "Chevalier noir confirmé",
+            "description_en": "Achieve dark knight level 40.",
+            "description_fr": "Atteindre le niveau 40 avec le job chevalier noir.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.2"
+                ]
+            },
+            "cPrev": [
+                1176
+            ],
+            "cNext": [
+                1178
+            ]
+        },
+        "x1178": {
+            "name_en": "Are You Afraid of the Dark? III",
+            "name_fr": "Chevalier noir vétéran",
+            "description_en": "Achieve dark knight level 50.",
+            "description_fr": "Atteindre le niveau 50 avec le job chevalier noir.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.2"
+                ]
+            },
+            "cPrev": [
+                1177
+            ],
+            "cNext": [
+                1179
+            ]
+        },
+        "x1179": {
+            "name_en": "Are You Afraid of the Dark? IV",
+            "name_fr": "Chevalier noir émérite",
+            "description_en": "Achieve dark knight level 60.",
+            "description_fr": "Atteindre le niveau 60 avec le job chevalier noir.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.2"
+                ]
+            },
+            "cPrev": [
+                1178
+            ],
+            "cNext": [
+                1823
+            ]
+        },
+        "x1823": {
+            "name_en": "Are You Afraid of the Dark? V",
+            "name_fr": "Chevalier noir expert",
+            "description_en": "Achieve dark knight level 70.",
+            "description_fr": "Atteindre le niveau 70 avec le job chevalier noir.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.2"
+                ]
+            },
+            "cPrev": [
+                1179
+            ],
+            "cNext": [
+                2255
+            ]
+        },
+        "x2255": {
+            "name_en": "Are You Afraid of the Dark? VI",
+            "name_fr": "Chevalier noir emblématique",
+            "description_en": "Achieve dark knight level 80.",
+            "description_fr": "Atteindre le niveau 80 avec le job chevalier noir.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.2"
+                ]
+            },
+            "cPrev": [
+                1823
+            ],
+            "cNext": [
+                2901
+            ]
+        },
+        "x2901": {
+            "name_en": "Are You Afraid of the Dark? VII",
+            "name_fr": "Chevalier noir légendaire",
+            "description_en": "Achieve dark knight level 90.",
+            "description_fr": "Atteindre le niveau 90 avec le job chevalier noir.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.2"
+                ]
+            },
+            "cPrev": [
+                2255
+            ]
+        },
+        "x1180": {
+            "name_en": "Mean Machine I",
+            "name_fr": "Machiniste intermédiaire",
+            "description_en": "Achieve machinist level 30.",
+            "description_fr": "Atteindre le niveau 30 avec le job machiniste.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.12"
+                ]
+            },
+            "cNext": [
+                1181
+            ]
+        },
+        "x1181": {
+            "name_en": "Mean Machine II",
+            "name_fr": "Machiniste confirmé",
+            "description_en": "Achieve machinist level 40.",
+            "description_fr": "Atteindre le niveau 40 avec le job machiniste.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.12"
+                ]
+            },
+            "cPrev": [
+                1180
+            ],
+            "cNext": [
+                1182
+            ]
+        },
+        "x1182": {
+            "name_en": "Mean Machine III",
+            "name_fr": "Machiniste vétéran",
+            "description_en": "Achieve machinist level 50.",
+            "description_fr": "Atteindre le niveau 50 avec le job machiniste.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.12"
+                ]
+            },
+            "cPrev": [
+                1181
+            ],
+            "cNext": [
+                1183
+            ]
+        },
+        "x1183": {
+            "name_en": "Mean Machine IV",
+            "name_fr": "Machiniste émérite",
+            "description_en": "Achieve machinist level 60.",
+            "description_fr": "Atteindre le niveau 60 avec le job machiniste.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.12"
+                ]
+            },
+            "cPrev": [
+                1182
+            ],
+            "cNext": [
+                1824
+            ]
+        },
+        "x1824": {
+            "name_en": "Mean Machine V",
+            "name_fr": "Machiniste expert",
+            "description_en": "Achieve machinist level 70.",
+            "description_fr": "Atteindre le niveau 70 avec le job machiniste.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.12"
+                ]
+            },
+            "cPrev": [
+                1183
+            ],
+            "cNext": [
+                2256
+            ]
+        },
+        "x2256": {
+            "name_en": "Mean Machine VI",
+            "name_fr": "Machiniste emblématique",
+            "description_en": "Achieve machinist level 80.",
+            "description_fr": "Atteindre le niveau 80 avec le job machiniste.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.12"
+                ]
+            },
+            "cPrev": [
+                1824
+            ],
+            "cNext": [
+                2902
+            ]
+        },
+        "x2902": {
+            "name_en": "Mean Machine VII",
+            "name_fr": "Machiniste légendaire",
+            "description_en": "Achieve machinist level 90.",
+            "description_fr": "Atteindre le niveau 90 avec le job machiniste.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.12"
+                ]
+            },
+            "cPrev": [
+                2256
+            ]
+        },
+        "x1829": {
+            "name_en": "Bushido Blade I",
+            "name_fr": "Samouraï vétéran",
+            "description_en": "Achieve samurai level 50.",
+            "description_fr": "Atteindre le niveau 50 avec le job samouraï.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.10"
+                ]
+            },
+            "cNext": [
+                1830
+            ]
+        },
+        "x1830": {
+            "name_en": "Bushido Blade II",
+            "name_fr": "Samouraï émérite",
+            "description_en": "Achieve samurai level 60.",
+            "description_fr": "Atteindre le niveau 60 avec le job samouraï.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.10"
+                ]
+            },
+            "cPrev": [
+                1829
+            ],
+            "cNext": [
+                1831
+            ]
+        },
+        "x1831": {
+            "name_en": "Bushido Blade III",
+            "name_fr": "Samouraï expert",
+            "description_en": "Achieve samurai level 70.",
+            "description_fr": "Atteindre le niveau 70 avec le job samouraï.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.10"
+                ]
+            },
+            "cPrev": [
+                1830
+            ],
+            "cNext": [
+                2259
+            ]
+        },
+        "x2259": {
+            "name_en": "Bushido Blade IV",
+            "name_fr": "Samouraï emblématique",
+            "description_en": "Achieve samurai level 80.",
+            "description_fr": "Atteindre le niveau 80 avec le job samouraï.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.10"
+                ]
+            },
+            "cPrev": [
+                1831
+            ],
+            "cNext": [
+                2905
+            ]
+        },
+        "x2905": {
+            "name_en": "Bushido Blade V",
+            "name_fr": "Samouraï légendaire",
+            "description_en": "Achieve samurai level 90.",
+            "description_fr": "Atteindre le niveau 90 avec le job samouraï.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.10"
+                ]
+            },
+            "cPrev": [
+                2259
+            ]
+        },
+        "x2260": {
+            "name_en": "More Complex than You Think I",
+            "name_fr": "Pistosabreur expert",
+            "description_en": "Achieve gunbreaker level 70.",
+            "description_fr": "Atteindre le niveau 70 avec le job pistosabreur.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.3"
+                ]
+            },
+            "cNext": [
+                2261
+            ]
+        },
+        "x2261": {
+            "name_en": "More Complex than You Think II",
+            "name_fr": "Pistosabreur emblématique",
+            "description_en": "Achieve gunbreaker level 80.",
+            "description_fr": "Atteindre le niveau 80 avec le job pistosabreur.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.3"
+                ]
+            },
+            "cPrev": [
+                2260
+            ],
+            "cNext": [
+                2906
+            ]
+        },
+        "x2906": {
+            "name_en": "More Complex than You Think III",
+            "name_fr": "Pistosabreur légendaire",
+            "description_en": "Achieve gunbreaker level 90.",
+            "description_fr": "Atteindre le niveau 90 avec le job pistosabreur.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.3"
+                ]
+            },
+            "cPrev": [
+                2261
+            ]
+        },
+        "x2262": {
+            "name_en": "We Got the Beat I",
+            "name_fr": "Danseur expert",
+            "description_en": "Achieve dancer level 70.",
+            "description_fr": "Atteindre le niveau 70 avec le job danseur.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.13"
+                ]
+            },
+            "cNext": [
+                2263
+            ]
+        },
+        "x2263": {
+            "name_en": "We Got the Beat II",
+            "name_fr": "Danseur emblématique",
+            "description_en": "Achieve dancer level 80.",
+            "description_fr": "Atteindre le niveau 80 avec le job danseur.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.13"
+                ]
+            },
+            "cPrev": [
+                2262
+            ],
+            "cNext": [
+                2907
+            ]
+        },
+        "x2907": {
+            "name_en": "We Got the Beat III",
+            "name_fr": "Danseur légendaire",
+            "description_en": "Achieve dancer level 90.",
+            "description_fr": "Atteindre le niveau 90 avec le job danseur.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.13"
+                ]
+            },
+            "cPrev": [
+                2263
+            ]
+        },
+        "x2908": {
+            "name_en": "Perchance to Dream I",
+            "name_fr": "Faucheur emblématique",
+            "description_en": "Achieve reaper level 80.",
+            "description_fr": "Atteindre le niveau 80 avec le job faucheur.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.30"
+                ]
+            },
+            "cNext": [
+                2909
+            ]
+        },
+        "x2909": {
+            "name_en": "Perchance to Dream II",
+            "name_fr": "Faucheur légendaire",
+            "description_en": "Achieve reaper level 90.",
+            "description_fr": "Atteindre le niveau 90 avec le job faucheur.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.30"
+                ]
+            },
+            "cPrev": [
+                2908
+            ]
+        }
+    }
+}

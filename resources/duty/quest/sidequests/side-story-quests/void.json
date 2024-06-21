@@ -1,0 +1,46 @@
+{
+    "key": "void-quests",
+    "groupName_en": "Void Quests",
+    "groupName_fr": "L'appel du néant",
+    "tasks": {
+        "x69522": {
+            "level": 80,
+            "name_en": "The Hero's Journey",
+            "name_fr": "Retour vers les reflets",
+            "npc_en": "Cyella",
+            "npc_fr": "Cyella",
+            "cNext": [
+                69523
+            ],
+            "patch": "5.4"
+        },
+        "x69523": {
+            "level": 80,
+            "name_en": "One Step Closer",
+            "name_fr": "Un déjà-vu troublant",
+            "npc_en": "Unukalhai",
+            "npc_fr": "Unukalhai",
+            "cPrev": [
+                69522
+            ],
+            "cNext": [
+                69524
+            ],
+            "patch": "5.4"
+        },
+        "x69524": {
+            "level": 80,
+            "name_en": "A Bounty of Hunters",
+            "name_fr": "Le héros en formation",
+            "npc_en": "Unukalhai",
+            "npc_fr": "Unukalhai",
+            "cPrev": [
+                69523
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.2715"
+            ],
+            "patch": "5.4"
+        }
+    }
+}

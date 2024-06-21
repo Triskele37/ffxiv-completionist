@@ -1,0 +1,323 @@
+{
+    "key": "culinarian",
+    "groupName_en": "Culinarian",
+    "groupName_fr": "Quêtes de cuisinier",
+    "tasks": {
+        "x65807": {
+            "level": 1,
+            "name_en": "Way of the Culinarian",
+            "name_fr": "La voie de la cuisine",
+            "npc_en": "Charlys",
+            "npc_fr": "Charlys",
+            "cPrev": [
+                "duty.quests.other.quasi-quests.65727"
+            ],
+            "cNext": [
+                65790
+            ],
+            "cSiblings": [
+                "character.adventure-plate.83"
+            ],
+            "patch": "4.31"
+        },
+        "x65790": {
+            "level": 1,
+            "name_en": "My First Skillet",
+            "name_fr": "Une recette au poil",
+            "npc_en": "Lyngsath",
+            "npc_fr": "Lyngsath",
+            "cPrev": [
+                65807
+            ],
+            "cNext": [
+                65791
+            ],
+            "patch": "4.31"
+        },
+        "x65791": {
+            "level": 5,
+            "name_en": "A Treat of Trout",
+            "name_fr": "C'est bon pour le moral",
+            "npc_en": "Lyngsath",
+            "npc_fr": "Lyngsath",
+            "cPrev": [
+                65790
+            ],
+            "cNext": [
+                65793
+            ],
+            "patch": "4.31"
+        },
+        "x65793": {
+            "level": 10,
+            "name_en": "Dodo It Yourself",
+            "name_fr": "Dînons deux dodos dodus",
+            "npc_en": "Lyngsath",
+            "npc_fr": "Lyngsath",
+            "cPrev": [
+                65791
+            ],
+            "cNext": [
+                65794
+            ],
+            "patch": "4.31"
+        },
+        "x65794": {
+            "level": 15,
+            "name_en": "On a Skewer Tip",
+            "name_fr": "La brochette qui tombe à pic",
+            "npc_en": "Lyngsath",
+            "npc_fr": "Lyngsath",
+            "cPrev": [
+                65793
+            ],
+            "cNext": [
+                65795
+            ],
+            "patch": "4.31"
+        },
+        "x65795": {
+            "level": 20,
+            "name_en": "Releasing a Burden",
+            "name_fr": "Une recette qui ne compte pas pour des prunes",
+            "npc_en": "Lyngsath",
+            "npc_fr": "Lyngsath",
+            "cPrev": [
+                65794
+            ],
+            "cNext": [
+                65796
+            ],
+            "patch": "4.31"
+        },
+        "x65796": {
+            "level": 25,
+            "name_en": "Winning Friends with Aldgoat",
+            "name_fr": "Bonne bidoche",
+            "npc_en": "Lyngsath",
+            "npc_fr": "Lyngsath",
+            "cPrev": [
+                65795
+            ],
+            "cNext": [
+                65802
+            ],
+            "patch": "4.31"
+        },
+        "x65802": {
+            "level": 30,
+            "name_en": "The Chefsbane Cometh",
+            "name_fr": "Un palais exigeant",
+            "npc_en": "Lyngsath",
+            "npc_fr": "Lyngsath",
+            "cPrev": [
+                65796
+            ],
+            "cNext": [
+                65803
+            ],
+            "cCombo": [
+                "character.achievement.quests.job-role-quests.316"
+            ],
+            "patch": "4.31"
+        },
+        "x65803": {
+            "level": 35,
+            "name_en": "Of Cooks and Books",
+            "name_fr": "Une employée débordée",
+            "npc_en": "Lyngsath",
+            "npc_fr": "Lyngsath",
+            "cPrev": [
+                65802
+            ],
+            "cNext": [
+                65804
+            ],
+            "patch": "4.31"
+        },
+        "x65804": {
+            "level": 40,
+            "name_en": "Diplomacy of the Skillet",
+            "name_fr": "Pâtisseries pour apéritif dînatoire",
+            "npc_en": "Lyngsath",
+            "npc_fr": "Lyngsath",
+            "cPrev": [
+                65803
+            ],
+            "cNext": [
+                65805
+            ],
+            "patch": "4.31"
+        },
+        "x65805": {
+            "level": 45,
+            "name_en": "A Taste of Home",
+            "name_fr": "Hommage à l'ambassadeur",
+            "npc_en": "Lyngsath",
+            "npc_fr": "Lyngsath",
+            "cPrev": [
+                65804
+            ],
+            "cNext": [
+                65806
+            ],
+            "patch": "4.31"
+        },
+        "x65806": {
+            "level": 50,
+            "name_en": "Revenge of the Chefsbane",
+            "name_fr": "La vengeance est un plat qui se mange froid",
+            "npc_en": "Lyngsath",
+            "npc_fr": "Lyngsath",
+            "cPrev": [
+                65805
+            ],
+            "cNext": [
+                67579
+            ],
+            "patch": "4.31"
+        },
+        "x67579": {
+            "level": 50,
+            "name_en": "Wait on Me",
+            "name_fr": "Mettre du piquant dans sa vie",
+            "npc_en": "Lyngsath",
+            "npc_fr": "Lyngsath",
+            "cPrev": [
+                65806,
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                67580
+            ],
+            "patch": "4.31"
+        },
+        "x67580": {
+            "level": 53,
+            "name_en": "A Spoonful Less Sugar",
+            "name_fr": "Tout en douceur",
+            "npc_en": "Melkoko",
+            "npc_fr": "Melkoko",
+            "cPrev": [
+                67579
+            ],
+            "cNext": [
+                67581
+            ],
+            "patch": "4.31"
+        },
+        "x67581": {
+            "level": 55,
+            "name_en": "Looking for Some Hot Stuff",
+            "name_fr": "À la soupe!",
+            "npc_en": "Melkoko",
+            "npc_fr": "Melkoko",
+            "cPrev": [
+                67580
+            ],
+            "cNext": [
+                67582
+            ],
+            "patch": "4.31"
+        },
+        "x67582": {
+            "level": 58,
+            "name_en": "Love Meat Tender",
+            "name_fr": "Le pari",
+            "npc_en": "Melkoko",
+            "npc_fr": "Melkoko",
+            "cPrev": [
+                67581
+            ],
+            "cNext": [
+                67583
+            ],
+            "patch": "4.31"
+        },
+        "x67583": {
+            "level": 60,
+            "name_en": "The Spirit of Hospitality",
+            "name_fr": "Cuisiner avec compassion",
+            "npc_en": "Melkoko",
+            "npc_fr": "Melkoko",
+            "cPrev": [
+                67582
+            ],
+            "cNext": [
+                68140
+            ],
+            "patch": "4.31"
+        },
+        "x68140": {
+            "level": 60,
+            "name_en": "Flavors of the Far East",
+            "name_fr": "À la découverte des saveurs orientales",
+            "npc_en": "Lyngsath",
+            "npc_fr": "Lyngsath",
+            "cPrev": [
+                67583,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                68141
+            ],
+            "patch": "4.31"
+        },
+        "x68141": {
+            "level": 63,
+            "name_en": "Rice to the Occasion",
+            "name_fr": "Le pain des Domiens",
+            "npc_en": "Raulf",
+            "npc_fr": "Raulf",
+            "cPrev": [
+                68140
+            ],
+            "cNext": [
+                68142
+            ],
+            "patch": "4.31"
+        },
+        "x68142": {
+            "level": 65,
+            "name_en": "A Broth from the Brine",
+            "name_fr": "Une faim en queue de poisson",
+            "npc_en": "Raulf",
+            "npc_fr": "Raulf",
+            "cPrev": [
+                68141
+            ],
+            "cNext": [
+                68143
+            ],
+            "patch": "4.31"
+        },
+        "x68143": {
+            "level": 68,
+            "name_en": "Teach a Man to Make Fish",
+            "name_fr": "L'art du sushi",
+            "npc_en": "Raulf",
+            "npc_fr": "Raulf",
+            "cPrev": [
+                68142
+            ],
+            "cNext": [
+                68144
+            ],
+            "patch": "4.31"
+        },
+        "x68144": {
+            "level": 70,
+            "name_en": "The Way to a Father's Heart",
+            "name_fr": "Identité culturo-culinaire",
+            "npc_en": "Raulf",
+            "npc_fr": "Raulf",
+            "cPrev": [
+                68143
+            ],
+            "cSiblings": [
+                "character.adventure-plate.82"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

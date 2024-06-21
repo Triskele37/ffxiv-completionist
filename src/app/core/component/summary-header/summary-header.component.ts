@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 
 import { DataService } from '@data';
-import { DataGroup } from '@domain/DataGroup';
+import { DataGroup } from '@model/DataGroup';
 import { NavigationService } from '@service/navigation/navigation.service';
 
 enum Lines {
@@ -44,9 +44,9 @@ export class SummaryHeaderComponent implements OnInit {
     ngOnInit(): void {
         this.allData = this.svcData.data;
         this.svcNavigation.selectedGroup$.subscribe((group) => {
-            this.group = (group instanceof DataGroup) ? group : null;
+            this.group = group?.xivDataType === 'Group' ? group : null;
 
-            if(!this.group?._parent) {
+            if(!this.group._parent) {
                 // Overall can't be hidden if there is no sub group
                 this.hideOverall = false;
             }

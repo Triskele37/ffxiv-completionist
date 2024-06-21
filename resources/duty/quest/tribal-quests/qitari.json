@@ -1,0 +1,563 @@
+{
+    "key": "qitari",
+    "groupName_en": "Qitari",
+    "groupName_fr": "Qitari",
+    "common": [
+        "type"
+    ],
+    "tasks": {
+        "x69330": {
+            "level": 70,
+            "name_en": "The Stewards of Note",
+            "name_fr": "Qui qui qui sont les Qitari?",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Concerned Mother",
+            "npc_fr": "mère inquiète",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68877",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69018"
+            ],
+            "cNext": [
+                69331
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.80"
+            ],
+            "patch": "5.2"
+        },
+        "x69331": {
+            "level": 70,
+            "name_en": "Wisdom of the Night",
+            "name_fr": "Le savoir du peuple de la Nuit",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Chaqurl Qhotl",
+            "npc_fr": "Chaqurl Qhotl",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                69330
+            ],
+            "cNext": [
+                69336,
+                69337
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.81"
+            ],
+            "patch": "5.2"
+        },
+        "x69336": {
+            "level": 70,
+            "name_en": "The First Stela: Of Ronkan Might",
+            "name_fr": "Première stèle: Ronka conquérant",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Qitarl Natl",
+            "npc_fr": "Qitarl Natl",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                69331
+            ],
+            "cNext": [
+                69332
+            ],
+            "cExclude": [
+                69337
+            ],
+            "patch": "5.2"
+        },
+        "x69337": {
+            "level": 70,
+            "name_en": "The First Stela: Of Ronkan Benevolence",
+            "name_fr": "Première stèle: Ronka bienveillant",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Chaqurl Qhotl",
+            "npc_fr": "Chaqurl Qhotl",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                69331
+            ],
+            "cNext": [
+                69332
+            ],
+            "cExclude": [
+                69336
+            ],
+            "patch": "5.2"
+        },
+        "x69332": {
+            "level": 70,
+            "name_en": "Delving Deeper",
+            "name_fr": "Le rituel oublié",
+            "type": "CATEGORY.MAIN",
+            "cPrevAny": true,
+            "npc_en": "Qitari Serpent",
+            "npc_fr": "Grand Serpent des Qitari?",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                69336,
+                69337
+            ],
+            "cNext": [
+                69338,
+                69339
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.82"
+            ],
+            "patch": "5.2"
+        },
+        "x69338": {
+            "level": 70,
+            "name_en": "The Second Stela: The Hunters and the Hunted",
+            "name_fr": "Deuxième stèle: Viis chasseuses",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Qitarl Natl",
+            "npc_fr": "Qitarl Natl",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                69332
+            ],
+            "cNext": [
+                69333
+            ],
+            "cExclude": [
+                69339
+            ],
+            "patch": "5.2"
+        },
+        "x69339": {
+            "level": 70,
+            "name_en": "The Second Stela: Fast Friends",
+            "name_fr": "Deuxième stèle: Viis harmonieuses",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Chaqurl Qhotl",
+            "npc_fr": "Chaqurl Qhotl",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                69332
+            ],
+            "cNext": [
+                69333
+            ],
+            "cExclude": [
+                69338
+            ],
+            "patch": "5.2"
+        },
+        "x69333": {
+            "level": 70,
+            "name_en": "A Chilling Fate",
+            "name_fr": "Qitari mouillée, Qitari enrhumée",
+            "type": "CATEGORY.MAIN",
+            "cPrevAny": true,
+            "npc_en": "Qitari Serpent",
+            "npc_fr": "Grand Serpent des Qitari?",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                69338,
+                69339
+            ],
+            "cNext": [
+                69340,
+                69341
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.83"
+            ],
+            "patch": "5.2"
+        },
+        "x69340": {
+            "level": 70,
+            "name_en": "The Third Stela: A Famine for Fishmen",
+            "name_fr": "Troisième stèle: extinction des poissons-chats",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Qitarl Natl",
+            "npc_fr": "Qitarl Natl",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                69333
+            ],
+            "cNext": [
+                69334
+            ],
+            "cExclude": [
+                69341
+            ],
+            "patch": "5.2"
+        },
+        "x69341": {
+            "level": 70,
+            "name_en": "The Third Stela: A Feast for Fishmen",
+            "name_fr": "Troisième stèle: protection des poissons-chats",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Chaqurl Qhotl",
+            "npc_fr": "Chaqurl Qhotl",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                69333
+            ],
+            "cNext": [
+                69334
+            ],
+            "cExclude": [
+                69340
+            ],
+            "patch": "5.2"
+        },
+        "x69334": {
+            "level": 70,
+            "name_en": "What Ails the Forest",
+            "name_fr": "Un mal invisible",
+            "type": "CATEGORY.MAIN",
+            "cPrevAny": true,
+            "npc_en": "Qitari Serpent",
+            "npc_fr": "Grand Serpent des Qitari?",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                69340,
+                69341
+            ],
+            "cNext": [
+                69335
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.84"
+            ],
+            "patch": "5.2"
+        },
+        "x69335": {
+            "level": 70,
+            "name_en": "Glory Be to the Scree",
+            "name_fr": "Une nouvelle fraternité forestière",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Chaqurl Qhotl",
+            "npc_fr": "Chaqurl Qhotl",
+            "reputation_en": "Sworn",
+            "reputation_fr": "Assermenté",
+            "cPrev": [
+                69334
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.85"
+            ],
+            "patch": "5.2"
+        },
+        "x69342": {
+            "level": 70,
+            "name_en": "A Tool's Errand",
+            "name_fr": "Indispensables outils",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "5.2"
+        },
+        "x69343": {
+            "level": 70,
+            "name_en": "Where the Sun Don't Shine",
+            "name_fr": "Cavernes sans lumière",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "5.2"
+        },
+        "x69344": {
+            "level": 70,
+            "name_en": "A Touch of Home",
+            "name_fr": "Comme à la maison",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "5.2"
+        },
+        "x69345": {
+            "level": 70,
+            "name_en": "Mother's Recipe",
+            "name_fr": "La cuisine de maman",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "5.2"
+        },
+        "x69346": {
+            "level": 70,
+            "name_en": "Power to the Vegetables",
+            "name_fr": "Le pouvoir aux légumes",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "5.2"
+        },
+        "x69347": {
+            "level": 70,
+            "name_en": "Rational Thinking",
+            "name_fr": "La Qitari la plus dévouée",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "5.2"
+        },
+        "x69348": {
+            "level": 70,
+            "name_en": "Making Scents",
+            "name_fr": "Ça puire!",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "5.2"
+        },
+        "x69349": {
+            "level": 70,
+            "name_en": "Marks of Friendship",
+            "name_fr": "Une amitié de jade",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "patch": "5.2"
+        },
+        "x69350": {
+            "level": 70,
+            "name_en": "Prayers and Poison",
+            "name_fr": "Prières et poison",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "patch": "5.2"
+        },
+        "x69351": {
+            "level": 70,
+            "name_en": "Salve Our Souls",
+            "name_fr": "Les médicaments des Viis",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "patch": "5.2"
+        },
+        "x69352": {
+            "level": 70,
+            "name_en": "Rings of Pattern",
+            "name_fr": "Couture qitari",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "patch": "5.2"
+        },
+        "x69353": {
+            "level": 70,
+            "name_en": "You Dirty Rats",
+            "name_fr": "Lessive immédiate",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "patch": "5.2"
+        },
+        "x69354": {
+            "level": 70,
+            "name_en": "If It's Broke, Fix It",
+            "name_fr": "Reliquats ronka",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "patch": "5.2"
+        },
+        "x69355": {
+            "level": 70,
+            "name_en": "La-hee",
+            "name_fr": "La-hii!",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "patch": "5.2"
+        },
+        "x69356": {
+            "level": 70,
+            "name_en": "The Qitari Book of Records",
+            "name_fr": "Inventaire en règle",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "patch": "5.2"
+        },
+        "x69357": {
+            "level": 70,
+            "name_en": "Meat and Greet",
+            "name_fr": "Arômes de chair tendre",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "patch": "5.2"
+        },
+        "x69358": {
+            "level": 70,
+            "name_en": "I Have Never Exploded",
+            "name_fr": "Terrain à miner",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "patch": "5.2"
+        },
+        "x69359": {
+            "level": 70,
+            "name_en": "By the Power Invested in Scree",
+            "name_fr": "Une lumière salvatrice",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "patch": "5.2"
+        },
+        "x69360": {
+            "level": 70,
+            "name_en": "Rock 'n Ronka",
+            "name_fr": "Musique classique",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "patch": "5.2"
+        },
+        "x69361": {
+            "level": 70,
+            "name_en": "There's No Clean Like Qhoterl Clean",
+            "name_fr": "La stèle des ancêtres",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "patch": "5.2"
+        },
+        "x69362": {
+            "level": 70,
+            "name_en": "Legends of the Ronkan Temple",
+            "name_fr": "Un trésor enfoui",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "patch": "5.2"
+        },
+        "x69363": {
+            "level": 70,
+            "name_en": "Her Splendid Materials",
+            "name_fr": "Les gardiens des profondeurs",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "patch": "5.2"
+        },
+        "x69364": {
+            "level": 70,
+            "name_en": "Splendid Eats",
+            "name_fr": "La nutrition, c'est la santé",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "patch": "5.2"
+        },
+        "x69365": {
+            "level": 70,
+            "name_en": "Eggspotting",
+            "name_fr": "Mon royaume pour un œuf",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "patch": "5.2"
+        },
+        "x69366": {
+            "level": 70,
+            "name_en": "Safety Is No Accident",
+            "name_fr": "Un outil entretenu en vaut deux",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "patch": "5.2"
+        },
+        "x69367": {
+            "level": 70,
+            "name_en": "One Fish, Two Fish, Bread Fish, Stew Fish",
+            "name_fr": "Pêche lacustre",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "patch": "5.2"
+        },
+        "x69368": {
+            "level": 70,
+            "name_en": "Serpent's Will Be Done",
+            "name_fr": "La promenade du Serpent marin",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "patch": "5.2"
+        },
+        "x69369": {
+            "level": 70,
+            "name_en": "Qhoterl's Chronicles",
+            "name_fr": "Pour les générations futures",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Qhoterl Pasol",
+            "npc_fr": "Qhoterl Pasol",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "patch": "5.2"
+        }
+    }
+}

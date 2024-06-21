@@ -83,7 +83,7 @@ var PlayerStore = /** @class */ (function () {
         event.returnValue = null;
     };
     PlayerStore.backup = function (event) {
-        var fileName = ConfigStore_1.ConfigStore.store['store-name'] + "-" + PlayerStore.store.version + "-backup.json";
+        var fileName = "".concat(ConfigStore_1.ConfigStore.store['store-name'], "-").concat(PlayerStore.store.version, "-backup.json");
         var result = electron_1.dialog.showSaveDialogSync({
             defaultPath: path.join(ConfigStore_1.ConfigStore.store['store-loc'], fileName),
             filters: [{ name: 'JSON', extensions: ['json'] }]

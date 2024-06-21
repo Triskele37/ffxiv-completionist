@@ -1,0 +1,502 @@
+{
+    "key": "disciple-of-the-land",
+    "groupName_en": "Disciple of the Land",
+    "groupName_fr": "Disciples de la terre",
+    "tasks": {
+        "x98": {
+            "name_en": "Breaking Rocks in the Hot Sun I",
+            "name_fr": "Apprenti mineur",
+            "description_en": "Achieve miner level 10.",
+            "description_fr": "Atteindre le niveau 10 avec la classe mineur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "10": [
+                    "character.character.classes--jobs.26"
+                ]
+            },
+            "cNext": [
+                99
+            ]
+        },
+        "x99": {
+            "name_en": "Breaking Rocks in the Hot Sun II",
+            "name_fr": "Mineur novice",
+            "description_en": "Achieve miner level 20.",
+            "description_fr": "Atteindre le niveau 20 avec la classe mineur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "20": [
+                    "character.character.classes--jobs.26"
+                ]
+            },
+            "cPrev": [
+                98
+            ],
+            "cNext": [
+                100
+            ]
+        },
+        "x100": {
+            "name_en": "Breaking Rocks in the Hot Sun III",
+            "name_fr": "Mineur intermédiaire",
+            "description_en": "Achieve miner level 30.",
+            "description_fr": "Atteindre le niveau 30 avec la classe mineur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.26"
+                ]
+            },
+            "cPrev": [
+                99
+            ],
+            "cNext": [
+                101
+            ]
+        },
+        "x101": {
+            "name_en": "Breaking Rocks in the Hot Sun IV",
+            "name_fr": "Mineur confirmé",
+            "description_en": "Achieve miner level 40.",
+            "description_fr": "Atteindre le niveau 40 avec la classe mineur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.26"
+                ]
+            },
+            "cPrev": [
+                100
+            ],
+            "cNext": [
+                102
+            ]
+        },
+        "x102": {
+            "name_en": "Breaking Rocks in the Hot Sun V",
+            "name_fr": "Mineur vétéran",
+            "description_en": "Achieve miner level 50.",
+            "description_fr": "Atteindre le niveau 50 avec la classe mineur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.26"
+                ]
+            },
+            "cPrev": [
+                101
+            ],
+            "cNext": [
+                1273
+            ]
+        },
+        "x1273": {
+            "name_en": "Breaking Rocks in the Hot Sun VI",
+            "name_fr": "Mineur émérite",
+            "description_en": "Achieve miner level 60.",
+            "description_fr": "Atteindre le niveau 60 avec la classe mineur.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.26"
+                ]
+            },
+            "cPrev": [
+                102
+            ],
+            "cNext": [
+                1844
+            ]
+        },
+        "x1844": {
+            "name_en": "Breaking Rocks in the Hot Sun VII",
+            "name_fr": "Mineur expert",
+            "description_en": "Achieve miner level 70.",
+            "description_fr": "Atteindre le niveau 70 avec la classe mineur.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.26"
+                ]
+            },
+            "cPrev": [
+                1273
+            ],
+            "cNext": [
+                2273
+            ]
+        },
+        "x2273": {
+            "name_en": "Breaking Rocks in the Hot Sun VIII",
+            "name_fr": "Mineur emblématique",
+            "description_en": "Achieve miner level 80.",
+            "description_fr": "Atteindre le niveau 80 avec la classe mineur.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.26"
+                ]
+            },
+            "cPrev": [
+                1844
+            ],
+            "cNext": [
+                2921
+            ]
+        },
+        "x2921": {
+            "name_en": "Breaking Rocks in the Hot Sun IX",
+            "name_fr": "Mineur légendaire",
+            "description_en": "Achieve miner level 90.",
+            "description_fr": "Atteindre le niveau 90 avec la classe mineur.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.26"
+                ]
+            },
+            "cPrev": [
+                2273
+            ]
+        },
+        "x103": {
+            "name_en": "Fear the Reaper I",
+            "name_fr": "Apprenti botaniste",
+            "description_en": "Achieve botanist level 10.",
+            "description_fr": "Atteindre le niveau 10 avec la classe botaniste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "10": [
+                    "character.character.classes--jobs.27"
+                ]
+            },
+            "cNext": [
+                104
+            ]
+        },
+        "x104": {
+            "name_en": "Fear the Reaper II",
+            "name_fr": "Botaniste novice",
+            "description_en": "Achieve botanist level 20.",
+            "description_fr": "Atteindre le niveau 20 avec la classe botaniste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "20": [
+                    "character.character.classes--jobs.27"
+                ]
+            },
+            "cPrev": [
+                103
+            ],
+            "cNext": [
+                105
+            ]
+        },
+        "x105": {
+            "name_en": "Fear the Reaper III",
+            "name_fr": "Botaniste intermédiaire",
+            "description_en": "Achieve botanist level 30.",
+            "description_fr": "Atteindre le niveau 30 avec la classe botaniste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.27"
+                ]
+            },
+            "cPrev": [
+                104
+            ],
+            "cNext": [
+                106
+            ]
+        },
+        "x106": {
+            "name_en": "Fear the Reaper IV",
+            "name_fr": "Botaniste confirmé",
+            "description_en": "Achieve botanist level 40.",
+            "description_fr": "Atteindre le niveau 40 avec la classe botaniste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.27"
+                ]
+            },
+            "cPrev": [
+                105
+            ],
+            "cNext": [
+                107
+            ]
+        },
+        "x107": {
+            "name_en": "Fear the Reaper V",
+            "name_fr": "Botaniste vétéran",
+            "description_en": "Achieve botanist level 50.",
+            "description_fr": "Atteindre le niveau 50 avec la classe botaniste.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.27"
+                ]
+            },
+            "cPrev": [
+                106
+            ],
+            "cNext": [
+                1274
+            ]
+        },
+        "x1274": {
+            "name_en": "Fear the Reaper VI",
+            "name_fr": "Botaniste émérite",
+            "description_en": "Achieve botanist level 60.",
+            "description_fr": "Atteindre le niveau 60 avec la classe botaniste.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.27"
+                ]
+            },
+            "cPrev": [
+                107
+            ],
+            "cNext": [
+                1843
+            ]
+        },
+        "x1843": {
+            "name_en": "Fear the Reaper VII",
+            "name_fr": "Botaniste expert",
+            "description_en": "Achieve botanist level 70.",
+            "description_fr": "Atteindre le niveau 70 avec la classe botaniste.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.27"
+                ]
+            },
+            "cPrev": [
+                1274
+            ],
+            "cNext": [
+                2272
+            ]
+        },
+        "x2272": {
+            "name_en": "Fear the Reaper VIII",
+            "name_fr": "Botaniste emblématique",
+            "description_en": "Achieve botanist level 80.",
+            "description_fr": "Atteindre le niveau 80 avec la classe botaniste.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.27"
+                ]
+            },
+            "cPrev": [
+                1843
+            ],
+            "cNext": [
+                2920
+            ]
+        },
+        "x2920": {
+            "name_en": "Fear the Reaper IX",
+            "name_fr": "Botaniste légendaire",
+            "description_en": "Achieve botanist level 90.",
+            "description_fr": "Atteindre le niveau 90 avec la classe botaniste.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.27"
+                ]
+            },
+            "cPrev": [
+                2272
+            ]
+        },
+        "x108": {
+            "name_en": "Gone Fishin' I",
+            "name_fr": "Apprenti pêcheur",
+            "description_en": "Achieve fisher level 10.",
+            "description_fr": "Atteindre le niveau 10 avec la classe pêcheur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "10": [
+                    "character.character.classes--jobs.28"
+                ]
+            },
+            "cNext": [
+                109
+            ]
+        },
+        "x109": {
+            "name_en": "Gone Fishin' II",
+            "name_fr": "Pêcheur novice",
+            "description_en": "Achieve fisher level 20.",
+            "description_fr": "Atteindre le niveau 20 avec la classe pêcheur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "20": [
+                    "character.character.classes--jobs.28"
+                ]
+            },
+            "cPrev": [
+                108
+            ],
+            "cNext": [
+                110
+            ]
+        },
+        "x110": {
+            "name_en": "Gone Fishin' III",
+            "name_fr": "Pêcheur intermédiaire",
+            "description_en": "Achieve fisher level 30.",
+            "description_fr": "Atteindre le niveau 30 avec la classe pêcheur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "30": [
+                    "character.character.classes--jobs.28"
+                ]
+            },
+            "cPrev": [
+                109
+            ],
+            "cNext": [
+                111
+            ]
+        },
+        "x111": {
+            "name_en": "Gone Fishin' IV",
+            "name_fr": "Pêcheur confirmé",
+            "description_en": "Achieve fisher level 40.",
+            "description_fr": "Atteindre le niveau 40 avec la classe pêcheur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "40": [
+                    "character.character.classes--jobs.28"
+                ]
+            },
+            "cPrev": [
+                110
+            ],
+            "cNext": [
+                112
+            ]
+        },
+        "x112": {
+            "name_en": "Gone Fishin' V",
+            "name_fr": "Pêcheur vétéran",
+            "description_en": "Achieve fisher level 50.",
+            "description_fr": "Atteindre le niveau 50 avec la classe pêcheur.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "50": [
+                    "character.character.classes--jobs.28"
+                ]
+            },
+            "cPrev": [
+                111
+            ],
+            "cNext": [
+                1275
+            ]
+        },
+        "x1275": {
+            "name_en": "Gone Fishin' VI",
+            "name_fr": "Pêcheur émérite",
+            "description_en": "Achieve fisher level 60.",
+            "description_fr": "Atteindre le niveau 60 avec la classe pêcheur.",
+            "patch": "3.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "60": [
+                    "character.character.classes--jobs.28"
+                ]
+            },
+            "cPrev": [
+                112
+            ],
+            "cNext": [
+                1845
+            ]
+        },
+        "x1845": {
+            "name_en": "Gone Fishin' VII",
+            "name_fr": "Pêcheur expert",
+            "description_en": "Achieve fisher level 70.",
+            "description_fr": "Atteindre le niveau 70 avec la classe pêcheur.",
+            "patch": "4.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "70": [
+                    "character.character.classes--jobs.28"
+                ]
+            },
+            "cPrev": [
+                1275
+            ],
+            "cNext": [
+                2274
+            ]
+        },
+        "x2274": {
+            "name_en": "Gone Fishin' VIII",
+            "name_fr": "Pêcheur emblématique",
+            "description_en": "Achieve fisher level 80.",
+            "description_fr": "Atteindre le niveau 80 avec la classe pêcheur.",
+            "patch": "5.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "80": [
+                    "character.character.classes--jobs.28"
+                ]
+            },
+            "cPrev": [
+                1845
+            ],
+            "cNext": [
+                2922
+            ]
+        },
+        "x2922": {
+            "name_en": "Gone Fishin' IX",
+            "name_fr": "Pêcheur légendaire",
+            "description_en": "Achieve fisher level 90.",
+            "description_fr": "Atteindre le niveau 90 avec la classe pêcheur.",
+            "patch": "6.0",
+            "points": 5,
+            "cSiblingsAt": {
+                "90": [
+                    "character.character.classes--jobs.28"
+                ]
+            },
+            "cPrev": [
+                2274
+            ]
+        }
+    }
+}

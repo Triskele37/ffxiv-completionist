@@ -1,0 +1,100 @@
+{
+    "key": "ew",
+    "groupName_en": "EW",
+    "groupName_fr": "Endwalker",
+    "defaultCompletion": 81,
+    "isNumericCompletion": true,
+    "tasks": {
+        "x0": {
+            "name_en": "Alphinaud",
+            "name_fr": "Alphinaud",
+            "minValue": 81,
+            "maxValue": 90,
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "cComboAt": {
+                "90": [
+                    "character.achievement.character.general.2972"
+                ]
+            }
+        },
+        "x1": {
+            "name_en": "Alisaie",
+            "name_fr": "Alisaie",
+            "minValue": 81,
+            "maxValue": 90,
+            "role_en": "Ranged Magical DPS",
+            "role_fr": "DPS magique à distance",
+            "cComboAt": {
+                "90": [
+                    "character.achievement.character.general.2972"
+                ]
+            }
+        },
+        "x2": {
+            "name_en": "Thancred",
+            "name_fr": "Thancred",
+            "minValue": 81,
+            "maxValue": 90,
+            "role_en": "Tank",
+            "role_fr": "Tank",
+            "cComboAt": {
+                "90": [
+                    "character.achievement.character.general.2972"
+                ]
+            }
+        },
+        "x3": {
+            "name_en": "Urianger",
+            "name_fr": "Urianger",
+            "minValue": 81,
+            "maxValue": 90,
+            "role_en": "Healer",
+            "role_fr": "Soigneur",
+            "cComboAt": {
+                "90": [
+                    "character.achievement.character.general.2972"
+                ]
+            }
+        },
+        "x4": {
+            "name_en": "Y'shtola",
+            "name_fr": "Y'shtola",
+            "minValue": 81,
+            "maxValue": 90,
+            "role_en": "Ranged Magical DPS",
+            "role_fr": "DPS magique à distance",
+            "cComboAt": {
+                "90": [
+                    "character.achievement.character.general.2972"
+                ]
+            }
+        },
+        "x6": {
+            "name_en": "Estinien",
+            "name_fr": "Estinien",
+            "minValue": 81,
+            "maxValue": 90,
+            "role_en": "Melee Physical DPS",
+            "role_fr": "Dps de mêlée",
+            "cComboAt": {
+                "90": [
+                    "character.achievement.character.general.2972"
+                ]
+            }
+        },
+        "x5": {
+            "name_en": "G'raha Tia",
+            "name_fr": "G'raha Tia",
+            "minValue": 81,
+            "maxValue": 90,
+            "role_en": "Any",
+            "role_fr": "Tous",
+            "cComboAt": {
+                "90": [
+                    "character.achievement.character.general.2972"
+                ]
+            }
+        }
+    }
+}

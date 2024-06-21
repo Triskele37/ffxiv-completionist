@@ -1,0 +1,201 @@
+{
+    "key": "gardening-starters",
+    "groupName_en": "Gardening Starters",
+    "groupName_fr": "Graines",
+    "headers": {
+        "name": {
+            "header_en": "Starter",
+            "header_fr": "Graine"
+        },
+        "produce": {
+            "link": true,
+            "header_en": "Produce",
+            "header_fr": "Cultures"
+        },
+        "requirement": {
+            "link": true,
+            "header_en": "Requirement",
+            "header_fr": "Nécessite"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Island Popoto Set",
+            "name_fr": "Tubercules de popoto exotique",
+            "requirement": [
+                "duty.island-sanctuary.crafting.tools.2"
+            ],
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.0"
+            ]
+        },
+        "x1": {
+            "name_en": "Island Cabbage Seeds",
+            "name_fr": "Graines de chou exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.1"
+            ]
+        },
+        "x2": {
+            "name_en": "Isleberry Seeds",
+            "name_fr": "Graines de fraise exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.2"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        },
+        "x3": {
+            "name_en": "Island Pumpkin Seeds",
+            "name_fr": "Graines de citrouille exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.3"
+            ]
+        },
+        "x4": {
+            "name_en": "Island Onion Set",
+            "name_fr": "Graines d'oignon exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.4"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        },
+        "x5": {
+            "name_en": "Island Tomato Seeds",
+            "name_fr": "Graines de tomate exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.5"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        },
+        "x6": {
+            "name_en": "Island Wheat Seeds",
+            "name_fr": "Graines de blé exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.6"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        },
+        "x7": {
+            "name_en": "Island Corn Seeds",
+            "name_fr": "Graines de maïs exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.7"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        },
+        "x8": {
+            "name_en": "Island Parsnip Seeds",
+            "name_fr": "Graines de panais exotique",
+            "requirement": [
+                "duty.island-sanctuary.crafting.tools.2"
+            ],
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.8"
+            ]
+        },
+        "x9": {
+            "name_en": "Island Radish Seeds",
+            "name_fr": "Graines de radis exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.9"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        },
+        "x10": {
+            "name_en": "Island Paprika Seeds",
+            "name_fr": "Graines de poivron exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.10"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        },
+        "x11": {
+            "name_en": "Island Leek Set",
+            "name_fr": "Graines de poireau exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.11"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        },
+        "x12": {
+            "name_en": "Island Runner Bean Seeds",
+            "name_fr": "Graine de haricot-fleur exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.12"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        },
+        "x13": {
+            "name_en": "Island Beet Seeds",
+            "name_fr": "Graine de betterave exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.13"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        },
+        "x14": {
+            "name_en": "Island Eggplant Seeds",
+            "name_fr": "Graine d'aubergine exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.14"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        },
+        "x15": {
+            "name_en": "Island Zucchini Seeds",
+            "name_fr": "Graine de courgette exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.15"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        },
+        "x16": {
+            "name_en": "Island Watermelon Seeds",
+            "name_fr": "Graines de pastèque exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.16"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        },
+        "x17": {
+            "name_en": "Island Sweet Popoto Set",
+            "name_fr": "Tubercules de popoto douce exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.17"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        },
+        "x18": {
+            "name_en": "Island Broccoli Seeds",
+            "name_fr": "Graines de brocoli exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.18"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        },
+        "x19": {
+            "name_en": "Island Buffalo Bean Seeds",
+            "name_fr": "Graines de haricot buffle exotique",
+            "produce": [
+                "duty.island-sanctuary.isleventory.produce.19"
+            ],
+            "requirement_en": "2 Seafarer's Cowrie",
+            "requirement_fr": "2 Assignats insulaire azur"
+        }
+    }
+}

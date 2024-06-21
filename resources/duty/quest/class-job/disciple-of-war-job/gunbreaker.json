@@ -1,0 +1,111 @@
+{
+    "key": "gunbreaker",
+    "groupName_en": "Gunbreaker",
+    "groupName_fr": "Quêtes de pistosabreur",
+    "tasks": {
+        "x68797": {
+            "level": 60,
+            "name_en": "The Makings of a Gunbreaker",
+            "name_fr": "Le dernier des pistosabreurs",
+            "npc_en": "Gods' Quiver Bow",
+            "npc_fr": "soldat hardi des flèches divines",
+            "cNext": [
+                68798
+            ],
+            "cSiblings": [
+                "character.adventure-plate.12"
+            ],
+            "patch": "5.0"
+        },
+        "x68798": {
+            "level": 60,
+            "name_en": "Hired Gunblades",
+            "name_fr": "Une claveciniste menacée",
+            "npc_en": "Radovan",
+            "npc_fr": "Radovan",
+            "cPrev": [
+                68797
+            ],
+            "cNext": [
+                68799
+            ],
+            "patch": "5.0"
+        },
+        "x68799": {
+            "level": 63,
+            "name_en": "For Better or Worse",
+            "name_fr": "Une triste histoire de famille",
+            "npc_en": "Radovan",
+            "npc_fr": "Radovan",
+            "cPrev": [
+                68798
+            ],
+            "cNext": [
+                68800
+            ],
+            "patch": "5.0"
+        },
+        "x68800": {
+            "level": 65,
+            "name_en": "Confessions of a Flaming Mongrel",
+            "name_fr": "L'escorte d'un pirate repenti",
+            "npc_en": "Radovan",
+            "npc_fr": "Radovan",
+            "cPrev": [
+                68799
+            ],
+            "cNext": [
+                68801
+            ],
+            "patch": "5.0"
+        },
+        "x68801": {
+            "level": 68,
+            "name_en": "Of Defectors and Defenders",
+            "name_fr": "Le transfert d'un transfuge",
+            "npc_en": "Radovan",
+            "npc_fr": "Radovan",
+            "cPrev": [
+                68800
+            ],
+            "cNext": [
+                68802
+            ],
+            "patch": "5.0"
+        },
+        "x68802": {
+            "level": 70,
+            "name_en": "Steel against Steel",
+            "name_fr": "L'esprit des vrais pistosabreurs",
+            "npc_en": "Sophie",
+            "npc_fr": "Sophie",
+            "cPrev": [
+                68801
+            ],
+            "cNext": [
+                68761
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.2299"
+            ],
+            "patch": "5.0"
+        },
+        "x68761": {
+            "level": 80,
+            "name_en": "Gunblades of the Patriots",
+            "name_fr": "À la poursuite d'un autre pistosabreur",
+            "npc_en": "Radovan",
+            "npc_fr": "Radovan",
+            "cPrev": [
+                68802,
+                "duty.quests.class--job.role.shb.68784",
+                "duty.quests.main-scenario.shadowbringers.69190"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.11",
+                "character.achievement.quests.job-role-quests.2321"
+            ],
+            "patch": "5.0"
+        }
+    }
+}

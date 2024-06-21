@@ -1,0 +1,323 @@
+{
+    "key": "botanist",
+    "groupName_en": "Botanist",
+    "groupName_fr": "Quêtes de botaniste",
+    "tasks": {
+        "x65539": {
+            "level": 1,
+            "name_en": "Way of the Botanist",
+            "name_fr": "La voie de la botanique",
+            "npc_en": "Leonceault",
+            "npc_fr": "Leonceault",
+            "cPrev": [
+                "duty.quests.other.quasi-quests.65729"
+            ],
+            "cNext": [
+                65744
+            ],
+            "cSiblings": [
+                "character.adventure-plate.87"
+            ],
+            "patch": "4.31"
+        },
+        "x65744": {
+            "level": 1,
+            "name_en": "My First Hatchet",
+            "name_fr": "Les bienfaits du latex",
+            "npc_en": "Fufucha",
+            "npc_fr": "Fufucha",
+            "cPrev": [
+                65539
+            ],
+            "cNext": [
+                65540
+            ],
+            "patch": "4.31"
+        },
+        "x65540": {
+            "level": 5,
+            "name_en": "Sap for Smiles",
+            "name_fr": "Dites-le avec des gâteaux",
+            "npc_en": "Fufucha",
+            "npc_fr": "Fufucha",
+            "cPrev": [
+                65744
+            ],
+            "cNext": [
+                65541
+            ],
+            "patch": "4.31"
+        },
+        "x65541": {
+            "level": 10,
+            "name_en": "Weapons of a Feather",
+            "name_fr": "Des plumes plus fortes que les épées",
+            "npc_en": "Fufucha",
+            "npc_fr": "Fufucha",
+            "cPrev": [
+                65540
+            ],
+            "cNext": [
+                65542
+            ],
+            "patch": "4.31"
+        },
+        "x65542": {
+            "level": 15,
+            "name_en": "Haste Makes Waste",
+            "name_fr": "Bien mal acquis ne profite jamais",
+            "npc_en": "Fufucha",
+            "npc_fr": "Fufucha",
+            "cPrev": [
+                65541
+            ],
+            "cNext": [
+                65543
+            ],
+            "patch": "4.31"
+        },
+        "x65543": {
+            "level": 20,
+            "name_en": "Dressed to Harvest",
+            "name_fr": "Qui veut voyager loin ménage sa parure",
+            "npc_en": "Fufucha",
+            "npc_fr": "Fufucha",
+            "cPrev": [
+                65542
+            ],
+            "cNext": [
+                65544
+            ],
+            "patch": "4.31"
+        },
+        "x65544": {
+            "level": 25,
+            "name_en": "Aromatic Aspirations",
+            "name_fr": "Infusion universelle",
+            "npc_en": "Fufucha",
+            "npc_fr": "Fufucha",
+            "cPrev": [
+                65543
+            ],
+            "cNext": [
+                65545
+            ],
+            "patch": "4.31"
+        },
+        "x65545": {
+            "level": 30,
+            "name_en": "What Nature Giveth",
+            "name_fr": "Bonnes poires",
+            "npc_en": "Fufucha",
+            "npc_fr": "Fufucha",
+            "cPrev": [
+                65544
+            ],
+            "cNext": [
+                65546
+            ],
+            "cCombo": [
+                "character.achievement.quests.job-role-quests.317"
+            ],
+            "patch": "4.31"
+        },
+        "x65546": {
+            "level": 35,
+            "name_en": "A Feast to Say the Least",
+            "name_fr": "Les lauriers de la gloire",
+            "npc_en": "Fufucha",
+            "npc_fr": "Fufucha",
+            "cPrev": [
+                65545
+            ],
+            "cNext": [
+                65547
+            ],
+            "patch": "4.31"
+        },
+        "x65547": {
+            "level": 40,
+            "name_en": "Crisis of Faith",
+            "name_fr": "Ratatouille maternelle",
+            "npc_en": "Fufucha",
+            "npc_fr": "Fufucha",
+            "cPrev": [
+                65546
+            ],
+            "cNext": [
+                65548
+            ],
+            "patch": "4.31"
+        },
+        "x65548": {
+            "level": 45,
+            "name_en": "Botanist in a Bind",
+            "name_fr": "Le gui de la discorde",
+            "npc_en": "Fufucha",
+            "npc_fr": "Fufucha",
+            "cPrev": [
+                65547
+            ],
+            "cNext": [
+                65549
+            ],
+            "patch": "4.31"
+        },
+        "x65549": {
+            "level": 50,
+            "name_en": "Seeds of Hope",
+            "name_fr": "Les fruits du labeur",
+            "npc_en": "Fufucha",
+            "npc_fr": "Fufucha",
+            "cPrev": [
+                65548
+            ],
+            "cNext": [
+                67584
+            ],
+            "patch": "4.31"
+        },
+        "x67584": {
+            "level": 50,
+            "name_en": "Call from the Clouds",
+            "name_fr": "L'appel du ciel",
+            "npc_en": "Fufucha",
+            "npc_fr": "Fufucha",
+            "cPrev": [
+                65549,
+                "duty.quests.main-scenario.seventh-astral-era.65964"
+            ],
+            "cNext": [
+                67585
+            ],
+            "patch": "4.31"
+        },
+        "x67585": {
+            "level": 53,
+            "name_en": "Onions of Life Bestowing",
+            "name_fr": "Le village dans les nuages",
+            "npc_en": "Mujih Mewrilah",
+            "npc_fr": "Mujih Mewrilah",
+            "cPrev": [
+                67584
+            ],
+            "cNext": [
+                67586
+            ],
+            "patch": "4.31"
+        },
+        "x67586": {
+            "level": 55,
+            "name_en": "Two Nations, One Seed",
+            "name_fr": "Ménagement des sols",
+            "npc_en": "Mujih Mewrilah",
+            "npc_fr": "Mujih Mewrilah",
+            "cPrev": [
+                67585
+            ],
+            "cNext": [
+                67587
+            ],
+            "patch": "4.31"
+        },
+        "x67587": {
+            "level": 58,
+            "name_en": "Love for Harmony",
+            "name_fr": "Parasites sur terre",
+            "npc_en": "Mujih Mewrilah",
+            "npc_fr": "Mujih Mewrilah",
+            "cPrev": [
+                67586
+            ],
+            "cNext": [
+                67588
+            ],
+            "patch": "4.31"
+        },
+        "x67588": {
+            "level": 60,
+            "name_en": "Seeds Know No Borders",
+            "name_fr": "Aucune frontière n'arrête la nature",
+            "npc_en": "Mujih Mewrilah",
+            "npc_fr": "Mujih Mewrilah",
+            "cPrev": [
+                67587
+            ],
+            "cNext": [
+                68156
+            ],
+            "patch": "4.31"
+        },
+        "x68156": {
+            "level": 60,
+            "name_en": "Never Meet Your Heroes",
+            "name_fr": "Une spécialité pour Idyllée",
+            "npc_en": "Fufucha",
+            "npc_fr": "Fufucha",
+            "cPrev": [
+                67588,
+                "duty.quests.main-scenario.post-dragonsong.67895"
+            ],
+            "cNext": [
+                68157
+            ],
+            "patch": "4.31"
+        },
+        "x68157": {
+            "level": 63,
+            "name_en": "You Say Popoto, I Say...",
+            "name_fr": "Le bonheur est dans la forêt",
+            "npc_en": "Edgyth",
+            "npc_fr": "Edgyth",
+            "cPrev": [
+                68156
+            ],
+            "cNext": [
+                68158
+            ],
+            "patch": "4.31"
+        },
+        "x68158": {
+            "level": 65,
+            "name_en": "Walking for Walker's",
+            "name_fr": "La Belle et les botanistes",
+            "npc_en": "Edgyth",
+            "npc_fr": "Edgyth",
+            "cPrev": [
+                68157
+            ],
+            "cNext": [
+                68159
+            ],
+            "patch": "4.31"
+        },
+        "x68159": {
+            "level": 68,
+            "name_en": "The White Death",
+            "name_fr": "La fin des popotos",
+            "npc_en": "Edgyth",
+            "npc_fr": "Edgyth",
+            "cPrev": [
+                68158
+            ],
+            "cNext": [
+                68160
+            ],
+            "patch": "4.31"
+        },
+        "x68160": {
+            "level": 70,
+            "name_en": "Edgyth's Winning Streak",
+            "name_fr": "Mettre des bâtons dans le potager",
+            "npc_en": "Edgyth",
+            "npc_fr": "Edgyth",
+            "cPrev": [
+                68159
+            ],
+            "cSiblings": [
+                "character.adventure-plate.86"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

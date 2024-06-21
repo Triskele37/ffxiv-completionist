@@ -1,0 +1,851 @@
+{
+    "key": "main-scenario",
+    "groupName_en": "Main Scenario",
+    "groupName_fr": "Épopée",
+    "tasks": {
+        "x310": {
+            "name_en": "Leaving Limsa Lominsa",
+            "name_fr": "Le périple limséen",
+            "description_en": "Complete the main scenario quest “The Lominsan Envoy.”",
+            "description_fr": "Accomplir la quête de l'épopée “L'émissaire de Limsa Lominsa”.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66082"
+            ],
+            "cExclude": [
+                311,
+                312
+            ]
+        },
+        "x311": {
+            "name_en": "Gone from Gridania",
+            "name_fr": "Le périple gridanien",
+            "description_en": "Complete the main scenario quest “The Gridanian Envoy.”",
+            "description_fr": "Accomplir la quête de l'épopée “L'émissaire de Gridania”.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.66043"
+            ],
+            "cExclude": [
+                310,
+                312
+            ]
+        },
+        "x312": {
+            "name_en": "Out of Ul'dah",
+            "name_fr": "Le périple uldien",
+            "description_en": "Complete the main scenario quest “The Ul'dahn Envoy.”",
+            "description_fr": "Accomplir la quête de l'épopée “L'émissaire d'Ul'dah”.",
+            "patch": "2.0",
+            "points": 5,
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.uldah.66064"
+            ],
+            "cExclude": [
+                310,
+                311
+            ]
+        },
+        "x783": {
+            "name_en": "Back from the Wood",
+            "name_fr": "L'écho du passé",
+            "description_en": "Complete the main scenario quest “Back from the Wood.”",
+            "description_fr": "Accomplir la quête de l'épopée “Retour en forêt”.",
+            "patch": "2.1",
+            "points": 5,
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.66282"
+            ]
+        },
+        "x784": {
+            "name_en": "Skeletons",
+            "name_fr": "À la poursuite des ténèbres",
+            "description_en": "Complete the main scenario quest “Skeletons in Her Closet.”",
+            "description_fr": "Accomplir la quête de l'épopée “Beauté volée”.",
+            "patch": "2.1",
+            "points": 5,
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.66337"
+            ]
+        },
+        "x785": {
+            "name_en": "Those Who Wait",
+            "name_fr": "Un conte héroïque",
+            "description_en": "Complete the main scenario quest “All Good Things.”",
+            "description_fr": "Accomplir la quête de l'épopée “La lumière vacille”.",
+            "patch": "2.1",
+            "points": 5,
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.66053"
+            ]
+        },
+        "x786": {
+            "name_en": "History Repeating",
+            "name_fr": "Les ailes de la liberté",
+            "description_en": "Complete the main scenario quest “In Pursuit of the Past.”",
+            "description_fr": "Accomplir la quête de l'épopée “Le dragon du Vigile de Pierre”.",
+            "patch": "2.1",
+            "points": 5,
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.66488"
+            ]
+        },
+        "x787": {
+            "name_en": "Free Wing Night",
+            "name_fr": "L'espoir d'Éorzéa",
+            "description_en": "Complete the main scenario quest “Lady of the Vortex.”",
+            "description_fr": "Accomplir la quête de l'épopée “L'épreuve des bourrasques”.",
+            "patch": "2.1",
+            "points": 10,
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.66055"
+            ]
+        },
+        "x788": {
+            "name_en": "Warrior of Light",
+            "name_fr": "Guerriers de la Lumière",
+            "description_en": "Complete all the main scenario quests.",
+            "description_fr": "Accomplir la quête de l'épopée “L'ultime passe d'armes”.",
+            "patch": "2.1",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ]
+        },
+        "x898": {
+            "name_en": "A Realm Awoken",
+            "name_fr": "L'éveil des agents du chaos",
+            "description_en": "Complete the main scenario quest “Build on the Stone.”",
+            "description_fr": "Accomplir la quête “Une volonté forgée dans la pierre”.",
+            "patch": "2.2",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-astral-era.69414"
+            ]
+        },
+        "x899": {
+            "name_en": "Through the Maelstrom",
+            "name_fr": "Au cœur du maelstrom",
+            "description_en": "Complete the main scenario quest “Through the Maelstrom.”",
+            "description_fr": "Accomplir la quête “La spirale du chaos”.",
+            "patch": "2.2",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-astral-era.66899"
+            ]
+        },
+        "x1001": {
+            "name_en": "Eorzea Defended",
+            "name_fr": "Pour Éorzéa !!",
+            "description_en": "Complete the main scenario quest “Brave New Companions.”",
+            "description_fr": "Accomplir la quête “Les protecteurs d'Éorzéa”.",
+            "reward": "character.character.title.174",
+            "patch": "2.3",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-astral-era.66996",
+                "character.character.title.174"
+            ]
+        },
+        "x1029": {
+            "name_en": "Dreams of Ice",
+            "name_fr": "Illusions glacées",
+            "description_en": "Complete the main scenario quest “Let Us Cling Together.”",
+            "description_fr": "Accomplir la quête “Climat d'incertitudes”.",
+            "reward": "character.character.title.183",
+            "patch": "2.4",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-astral-era.65625",
+                "character.character.title.183"
+            ]
+        },
+        "x1129": {
+            "name_en": "My Left Arm",
+            "name_fr": "À bras raccourci",
+            "description_en": "Complete the main scenario quest “Before the Dawn.”",
+            "description_fr": "Accomplir la quête “Le flambeau de l'espoir”.",
+            "reward": "character.character.title.211",
+            "patch": "2.55",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.seventh-astral-era.65964",
+                "character.character.title.211"
+            ]
+        },
+        "x1133": {
+            "name_en": "Lucky Number 7",
+            "name_fr": "Les desseins de l'Archevêque",
+            "description_en": "Complete the main scenario quest “Disclosure.”",
+            "description_fr": "Accomplir la quête “L'audience”.",
+            "reward": "character.character.title.214",
+            "patch": "3.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67134",
+                "character.character.title.214"
+            ]
+        },
+        "x1134": {
+            "name_en": "Gaol Break",
+            "name_fr": "Il faut sauver le soldat Raubahn",
+            "description_en": "Complete the main scenario quest “Keeping the Flame Alive.”",
+            "description_fr": "Accomplir la quête “Le sauvetage de Raubahn”.",
+            "reward": "character.character.title.215",
+            "patch": "3.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67137",
+                "character.character.title.215"
+            ]
+        },
+        "x1135": {
+            "name_en": "Orthodox Mayhem",
+            "name_fr": "Sous les pavés, la neige",
+            "description_en": "Complete the main scenario quest “Unrest in Ishgard.”",
+            "description_fr": "Accomplir la quête “Émeute à Ishgard”.",
+            "reward": "character.character.title.216",
+            "patch": "3.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67172",
+                "character.character.title.216"
+            ]
+        },
+        "x1136": {
+            "name_en": "You Say You Want a Revolution",
+            "name_fr": "Les rênes de l'Histoire",
+            "description_en": "Complete the main scenario quest “The Sins of Antiquity.”",
+            "description_fr": "Accomplir la quête “La conviction de l'Archevêque”.",
+            "reward": "character.character.title.217",
+            "patch": "3.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67177",
+                "character.character.title.217"
+            ]
+        },
+        "x1137": {
+            "name_en": "The Faith That Drives Us",
+            "name_fr": "Cap vers Azys Lla",
+            "description_en": "Complete the main scenario quest “One Good Turn.”",
+            "description_fr": "Accomplir la quête “Un obstacle de plus”.",
+            "reward": "character.character.title.218",
+            "patch": "3.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67185",
+                "character.character.title.218"
+            ]
+        },
+        "x1138": {
+            "name_en": "Hope Enkindled",
+            "name_fr": "Une lumière dans la tempête",
+            "description_en": "Complete the main scenario quest “Hour of Departure.”",
+            "description_fr": "Accomplir la quête “L'heure du départ”.",
+            "reward": "character.character.title.219",
+            "patch": "3.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67198",
+                "character.character.title.219"
+            ]
+        },
+        "x1139": {
+            "name_en": "Looking Up",
+            "name_fr": "Le ciel bleu d'Ishgard",
+            "description_en": "Complete the main scenario quest “Heavensward.”",
+            "description_fr": "Accomplir la quête “Les yeux rivés au ciel”.",
+            "reward": "character.character.title.220",
+            "patch": "3.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.heavensward.67205",
+                "character.character.title.220"
+            ]
+        },
+        "x1387": {
+            "name_en": "So It Goes",
+            "name_fr": "Aux confins de la Lumière et des Ténèbres",
+            "description_en": "Complete the main scenario quest “As Goes Light, So Goes Darkness.”",
+            "description_fr": "Accomplir la quête “Entre Lumière et Ténèbres”.",
+            "reward": "character.character.title.271",
+            "patch": "3.1",
+            "points": 10,
+            "cSiblings": [
+                "duty.quests.main-scenario.dragonsong.67699",
+                "character.character.title.271"
+            ]
+        },
+        "x1493": {
+            "name_en": "First Gear",
+            "name_fr": "À tout le monde, à tous mes amis",
+            "description_en": "Complete the main scenario quest “Causes and Costs.”",
+            "description_fr": "Accomplir la quête “Le destin en marche”.",
+            "reward": "character.character.title.289",
+            "patch": "3.15",
+            "points": 10,
+            "cSiblings": [
+                "duty.quests.main-scenario.dragonsong.67777",
+                "character.character.title.289"
+            ]
+        },
+        "x1594": {
+            "name_en": "Floor the Horde",
+            "name_fr": "Un chant pour l'avenir",
+            "description_en": "Complete the main scenario quest “Litany of Peace.”",
+            "description_fr": "Accomplir la quête “Un chant pour l'avenir”.",
+            "reward": "character.character.title.292",
+            "patch": "3.3",
+            "points": 10,
+            "cSiblings": [
+                "duty.quests.main-scenario.dragonsong.67783",
+                "character.character.title.292"
+            ]
+        },
+        "x1630": {
+            "name_en": "No Retreat, No Surrender",
+            "name_fr": "Que leur sacrifice soit honoré à jamais",
+            "description_en": "Complete the main scenario quest “An Ending to Mark a New Beginning.”",
+            "description_fr": "Accomplir la quête “Les gardiens des âmes”.",
+            "reward": "character.character.title.316",
+            "patch": "3.4",
+            "points": 10,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-dragonsong.67886",
+                "character.character.title.316"
+            ]
+        },
+        "x1690": {
+            "name_en": "School's Out Forever",
+            "name_fr": "Tel maître, tel disciple",
+            "description_en": "Complete the main scenario quest “Louisoix's Finest Student.”",
+            "description_fr": "Accomplir la quête “Maître et disciple”.",
+            "reward": "character.character.title.340",
+            "patch": "3.5",
+            "points": 10,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-dragonsong.67891",
+                "character.character.title.340"
+            ]
+        },
+        "x1691": {
+            "name_en": "Five Minutes of Fate",
+            "name_fr": "Le fil du destin",
+            "description_en": "Complete the main scenario quest “The Far Edge of Fate.”",
+            "description_fr": "Accomplir la quête “Aux confins du destin”.",
+            "reward": "character.character.title.341",
+            "patch": "3.56",
+            "points": 10,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-dragonsong.67895",
+                "character.character.title.341"
+            ]
+        },
+        "x1787": {
+            "name_en": "Incidentally Speaking",
+            "name_fr": "Par-delà l'océan",
+            "description_en": "Complete the main scenario quest “Not without Incident.”",
+            "description_fr": "Accomplir la quête “Une grande traversée”.",
+            "reward": "character.character.title.351",
+            "patch": "4.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68005",
+                "character.character.title.351"
+            ]
+        },
+        "x1788": {
+            "name_en": "Destination Unknown",
+            "name_fr": "Voyage vers l'inconnu",
+            "description_en": "Complete the main scenario quest “Once More, to the Ruby Sea.”",
+            "description_fr": "Accomplir la quête “En route pour Othard”.",
+            "reward": "character.character.title.352",
+            "patch": "4.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68012",
+                "character.character.title.352"
+            ]
+        },
+        "x1789": {
+            "name_en": "Unexplained",
+            "name_fr": "Enfin libre",
+            "description_en": "Complete the main scenario quest “Tide Goes in, Imperials Go Out.”",
+            "description_fr": "Accomplir la quête “Isari, village libéré”.",
+            "reward": "character.character.title.353",
+            "patch": "4.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68026",
+                "character.character.title.353"
+            ]
+        },
+        "x1790": {
+            "name_en": "Put Your Wings Up",
+            "name_fr": "En marche !",
+            "description_en": "Complete the main scenario quest “All the Little Angels.”",
+            "description_fr": "Accomplir la quête “Le premier pas en avant”.",
+            "reward": "character.character.title.354",
+            "patch": "4.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68035",
+                "character.character.title.354"
+            ]
+        },
+        "x1791": {
+            "name_en": "Crimson Footprints",
+            "name_fr": "Force rouge",
+            "description_en": "Complete the main scenario quest “In Crimson They Walked.”",
+            "description_fr": "Accomplir la quête “Tour d'adieu”.",
+            "reward": "character.character.title.355",
+            "patch": "4.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68053",
+                "character.character.title.355"
+            ]
+        },
+        "x1792": {
+            "name_en": "Catch Me if You Can",
+            "name_fr": "Retour victorieux",
+            "description_en": "Complete the main scenario quest “A Swift and Secret Departure.”",
+            "description_fr": "Accomplir la quête “Un départ discret”.",
+            "reward": "character.character.title.356",
+            "patch": "4.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68062",
+                "character.character.title.356"
+            ]
+        },
+        "x1793": {
+            "name_en": "Cheek to Cheek",
+            "name_fr": "À couper le souffle",
+            "description_en": "Complete the main scenario quest “The Lady in Red.”",
+            "description_fr": "Accomplir la quête “Dans le creux de la main”.",
+            "reward": "character.character.title.357",
+            "patch": "4.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68083",
+                "character.character.title.357"
+            ]
+        },
+        "x1794": {
+            "name_en": "The Measure of His Reach",
+            "name_fr": "Comète de la libération",
+            "description_en": "Complete the main scenario quest “Stormblood.”",
+            "description_fr": "Accomplir la quête “Tempête de sang”.",
+            "reward": "character.character.title.358",
+            "patch": "4.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.stormblood.68089",
+                "character.character.title.358"
+            ]
+        },
+        "x1990": {
+            "name_en": "More Heroes",
+            "name_fr": "Conseiller de légendes locales",
+            "description_en": "Complete the main scenario quest “Return of the Bull.”",
+            "description_fr": "Accomplir la quête “Retour au bercail”.",
+            "reward": "character.character.title.139",
+            "patch": "4.1",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-stormblood.68508",
+                "character.character.title.139"
+            ]
+        },
+        "x2013": {
+            "name_en": "Solar Cycle",
+            "name_fr": "La pénombre du crépuscule",
+            "description_en": "Complete the main scenario quest “Rise of a New Sun.”",
+            "description_fr": "Accomplir la quête “La pointe de l'aube”.",
+            "reward": "character.character.title.181",
+            "patch": "4.2",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-stormblood.68565",
+                "character.character.title.181"
+            ]
+        },
+        "x2098": {
+            "name_en": "Lunar Cycle",
+            "name_fr": "Cycle lunaire",
+            "description_en": "Complete the main scenario quest “Under the Moonlight.”",
+            "description_fr": "Accomplir la quête “Sous le clair de lune”.",
+            "reward": "character.character.title.392",
+            "patch": "4.3",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-stormblood.68611",
+                "character.character.title.392"
+            ]
+        },
+        "x2124": {
+            "name_en": "A History of Violet",
+            "name_fr": "Les récits pourpres",
+            "description_en": "Complete the main scenario quest “Prelude in Violet.”",
+            "description_fr": "Accomplir la quête “Prélude pourpré”.",
+            "reward": "character.character.title.402",
+            "patch": "4.4",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-stormblood.68685",
+                "character.character.title.402"
+            ]
+        },
+        "x2160": {
+            "name_en": "What Is It Good For",
+            "name_fr": "L'enfer de la guerre",
+            "description_en": "Complete the main scenario quest “The Face of War.”",
+            "description_fr": "Accomplir la quête “Guerre ouverte”.",
+            "patch": "4.5",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-stormblood.68719"
+            ]
+        },
+        "x2233": {
+            "name_en": "Swan Song",
+            "name_fr": "Chant d'adieu",
+            "description_en": "Complete the main scenario quest “A Requiem for Heroes.”",
+            "description_fr": "Accomplir la quête “Un requiem pour les héros”.",
+            "reward": "character.character.title.417",
+            "patch": "4.56",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-stormblood.68721",
+                "character.character.title.417"
+            ]
+        },
+        "x2293": {
+            "name_en": "Between Two Worlds",
+            "name_fr": "Entre deux mondes",
+            "description_en": "Complete the main scenario quest “Warrior of Darkness.”",
+            "description_fr": "Accomplir la quête “Le guerrier de la légende”.",
+            "reward": "character.character.title.426",
+            "patch": "5.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.68837",
+                "character.character.title.426"
+            ]
+        },
+        "x2294": {
+            "name_en": "Realpolitik",
+            "name_fr": "Politique pragmatique",
+            "description_en": "Complete the main scenario quest “The Wheel Turns.”",
+            "description_fr": "Accomplir la quête “Entre entente et méfiance”.",
+            "reward": "character.character.title.427",
+            "patch": "5.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.68857",
+                "character.character.title.427"
+            ]
+        },
+        "x2295": {
+            "name_en": "Journey to the Past",
+            "name_fr": "Une forêt sous les étoiles",
+            "description_en": "Complete the main scenario quest “Out of the Wood.”",
+            "description_fr": "Accomplir la quête “Espoirs et inquiétudes”.",
+            "reward": "character.character.title.428",
+            "patch": "5.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.68878",
+                "character.character.title.428"
+            ]
+        },
+        "x2296": {
+            "name_en": "Shrouded in Darkness",
+            "name_fr": "Désert de Ténèbres",
+            "description_en": "Complete the main scenario quest “More than a Hunch.”",
+            "description_fr": "Accomplir la quête “Douleurs de Lumière”.",
+            "reward": "character.character.title.429",
+            "patch": "5.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.69158",
+                "character.character.title.429"
+            ]
+        },
+        "x2297": {
+            "name_en": "Warden of Light",
+            "name_fr": "Gardien de la Lumière",
+            "description_en": "Complete the main scenario quest “Extinguishing the Last Light.”",
+            "description_fr": "Accomplir la quête “Le dernier grand purgateur”.",
+            "reward": "character.character.title.430",
+            "patch": "5.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.69179",
+                "character.character.title.430"
+            ]
+        },
+        "x2298": {
+            "name_en": "Shadowbringers",
+            "name_fr": "Porteur d'ombre",
+            "description_en": "Complete the main scenario quest “Shadowbringers.”",
+            "description_fr": "Accomplir la quête “Porteurs d'ombre”.",
+            "reward": "character.character.title.431",
+            "patch": "5.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.shadowbringers.69190",
+                "character.character.title.431"
+            ]
+        },
+        "x2424": {
+            "name_en": "Black and White",
+            "name_fr": "Corps et âmes",
+            "description_en": "Complete the main scenario quest “Vows of Virtue, Deeds of Cruelty.”",
+            "description_fr": "Accomplir la quête “Vœux de vertu, actes de cruauté”.",
+            "reward": "character.character.title.476",
+            "patch": "5.1",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-shadowbringers.69218",
+                "character.character.title.476"
+            ]
+        },
+        "x2587": {
+            "name_en": "Way More Heroes",
+            "name_fr": "Échos d'une étoile déchue",
+            "description_en": "Complete the main scenario quest “Echoes of a Fallen Star.”",
+            "description_fr": "Accomplir la quête “Échos d'une étoile déchue”.",
+            "reward": "character.character.title.520",
+            "patch": "5.2",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-shadowbringers.69306",
+                "character.character.title.520"
+            ]
+        },
+        "x2642": {
+            "name_en": "Hope's Legacy",
+            "name_fr": "Rémanences de cristal",
+            "description_en": "Complete the main scenario quest “Reflections in Crystal.”",
+            "description_fr": "Accomplir la quête “Rémanences de cristal”.",
+            "reward": "character.character.title.527",
+            "patch": "5.3",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-shadowbringers.69318",
+                "character.character.title.527"
+            ]
+        },
+        "x2714": {
+            "name_en": "Pen and Sword",
+            "name_fr": "Avenirs réécrits",
+            "description_en": "Complete the main scenario quest “Futures Rewritten.”",
+            "description_fr": "Accomplir la quête “Avenirs réécrits”.",
+            "reward": "character.character.title.549",
+            "patch": "5.4",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-shadowbringers-ii.69552",
+                "character.character.title.549"
+            ]
+        },
+        "x2850": {
+            "name_en": "Not for Naught",
+            "name_fr": "Le coût de la guerre",
+            "description_en": "Complete the main scenario quest “When the Dust Settles.”",
+            "description_fr": "Accomplir la quête “Le coût de la guerre”.",
+            "patch": "5.5",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-shadowbringers-ii.69599"
+            ]
+        },
+        "x2851": {
+            "name_en": "Under the Darkened Moon",
+            "name_fr": "Aube meurtrière",
+            "description_en": "Complete the main scenario quest “Death Unto Dawn.”",
+            "description_fr": "Accomplir la quête “Aube meurtrière”.",
+            "reward": "character.character.title.583",
+            "patch": "5.55",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-shadowbringers-ii.69602",
+                "character.character.title.583"
+            ]
+        },
+        "x2952": {
+            "name_en": "On Wings of Hope",
+            "name_fr": "♪ De tes ailes d'espoir",
+            "description_en": "Complete the main scenario quest “The Color of Joy.”",
+            "description_fr": "Accomplir la quête de l'épopée “La couleur du bonheur”.",
+            "reward": "character.character.title.597",
+            "patch": "6.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69915",
+                "character.character.title.597"
+            ]
+        },
+        "x2953": {
+            "name_en": "Rise Up Through the Night",
+            "name_fr": "♪ Élève-toi dans la nuit",
+            "description_en": "Complete the main scenario quest “The Martyr.”",
+            "description_fr": "Accomplir la quête de l'épopée “La fin d'un long sommeil”.",
+            "reward": "character.character.title.598",
+            "patch": "6.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69934",
+                "character.character.title.598"
+            ]
+        },
+        "x2954": {
+            "name_en": "Higher",
+            "name_fr": "♪ Plus haut",
+            "description_en": "Complete the main scenario quest “Returning Home.”",
+            "description_fr": "Accomplir la quête de l'épopée “L'heure du retour sur terre”.",
+            "reward": "character.character.title.599",
+            "patch": "6.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69944",
+                "character.character.title.599"
+            ]
+        },
+        "x2955": {
+            "name_en": "Oh, Higher",
+            "name_fr": "♪ Toujours plus haut",
+            "description_en": "Complete the main scenario quest “At World's End.”",
+            "description_fr": "Accomplir la quête de l'épopée “Apocalypse mondiale”.",
+            "reward": "character.character.title.600",
+            "patch": "6.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69954",
+                "character.character.title.600"
+            ]
+        },
+        "x2956": {
+            "name_en": "Carrying Our Song",
+            "name_fr": "♪ Porte notre chanson",
+            "description_en": "Complete the main scenario quest “Thou Must Live, Die, and Know.”",
+            "description_fr": "Accomplir la quête de l'épopée “Destins en marche”.",
+            "reward": "character.character.title.601",
+            "patch": "6.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69974",
+                "character.character.title.601"
+            ]
+        },
+        "x2957": {
+            "name_en": "Fast Within Your Arms",
+            "name_fr": "♪ Serre-la dans tes bras",
+            "description_en": "Complete the main scenario quest “Her Children, One and All.”",
+            "description_fr": "Accomplir la quête de l'épopée “À tous mes enfants”.",
+            "reward": "character.character.title.602",
+            "patch": "6.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.69985",
+                "character.character.title.602"
+            ]
+        },
+        "x2958": {
+            "name_en": "That Its Chorus Might Ring for All",
+            "name_fr": "♪ Que son refrain résonne pour tous",
+            "description_en": "Complete the main scenario quest “Endwalker.”",
+            "description_fr": "Accomplir la quête de l'épopée “Arpenteur des finitudes”.",
+            "reward": "character.character.title.603",
+            "patch": "6.0",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.endwalker.70000",
+                "character.character.title.603"
+            ]
+        },
+        "x3075": {
+            "name_en": "Newfound Adventure",
+            "name_fr": "Vers de nouvelles aventures",
+            "description_en": "Complete the main scenario quest “A Satrap's Duty.”",
+            "description_fr": "Accomplir la quête de l'épopée “La résolution de Vrtra”.",
+            "reward": "character.character.title.637",
+            "patch": "6.1",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-endwalker.70071",
+                "character.character.title.637"
+            ]
+        },
+        "x3105": {
+            "name_en": "Into the Light",
+            "name_fr": "Mémoire enfouie",
+            "description_en": "Complete the main scenario quest “Buried Memory.”",
+            "description_fr": "Accomplir la quête de l'épopée “Mémoire enfouie”.",
+            "reward": "character.character.title.648",
+            "patch": "6.2",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-endwalker.70136",
+                "character.character.title.648"
+            ]
+        },
+        "x3157": {
+            "name_en": "Hallowed and Harrowed",
+            "name_fr": "Les Dieux festoient, la terre tremble",
+            "description_en": "Complete the main scenario quest “Gods Revel, Lands Tremble.”",
+            "description_fr": "Accomplir la quête de l'épopée “Les Dieux festoient, la terre tremble”.",
+            "reward": "character.character.title.658",
+            "patch": "6.3",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-endwalker.70214",
+                "character.character.title.658"
+            ]
+        },
+        "x3244": {
+            "name_en": "You Win or You Dais",
+            "name_fr": "Le trône obscur",
+            "description_en": "Complete the main scenario quest \"The Dark Throne.\"",
+            "description_fr": "Accomplir la quête \"Le trône obscur\".",
+            "reward": "character.character.title.677",
+            "patch": "6.4",
+            "points": 20,
+            "cSiblings": [
+                "duty.quests.main-scenario.post-endwalker.70279",
+                "character.character.title.677"
+            ]
+        },
+        "x3413": {
+            "name_en": "For Others to Follow",
+            "name_fr": "Nitescence nouvelle",
+            "description_en": "Complete the main scenario quest “Growing Light.”",
+            "description_fr": "Accomplir la quête de l'épopée “Nitescence nouvelle”.",
+            "reward": "character.character.title.712",
+            "patch": "6.5",
+            "points": 20,
+            "cSiblings": [
+                "character.character.title.712",
+                "duty.quests.main-scenario.post-endwalker.70286"
+            ]
+        },
+        "x3414": {
+            "name_en": "Tomorrows Unknown",
+            "name_fr": "L'appel de l'aventure",
+            "description_en": "Complete the quest “The Coming Dawn.”",
+            "description_fr": "Accomplir la quête de l'épopée “L'appel de l'aventure”.",
+            "reward": "character.character.title.713",
+            "patch": "6.55",
+            "points": 20,
+            "cSiblings": [
+                "character.character.title.713",
+                "duty.quests.main-scenario.post-endwalker.70289"
+            ]
+        }
+    }
+}

@@ -1,4 +1,4 @@
-import { GroupDefinition } from '@domain/Definition';
+import { GroupDefinition } from '@model/Definition';
 
 export const CHARACTER_DEFINITION: GroupDefinition = {
     path: 'character',
@@ -58,6 +58,13 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
         {
             path: 'gold-saucer',
             subGroups: [
+                {
+                    path: 'chocobo',
+                    subGroups: [
+                        'challenges',
+                        'pedigree'
+                    ]
+                },
                 {
                     path: 'triple-triad-card-list',
                     subGroups: [

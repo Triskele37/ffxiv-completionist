@@ -7,6 +7,7 @@
     },
     "MAIN": {
         "TITLE": "FFXIV Completionist",
+        "VERSION": "Version",
         "GUIDE": {
             "TITLE": "Guide",
             "NAVIGATION": {
@@ -371,6 +372,29 @@
                 "FIX": {
                     "L1": "Various data/chain corrections"
                 }
+            },
+            "1_0_4": {
+                "ADD": {
+                    "L1": "Resources up to FFXIV 6.58",
+                    "L2": "\"Go to parent\" button in navigation bar",
+                    "L3": "Treasure Hunt group",
+                    "L4": "Gold Saucer Chocobo group",
+                    "L5": "App version display in title bar and lower left",
+                    "L6": "Option to hide completed and empty groups from navigation",
+                    "L7": "\"Groups\" tab in app Search",
+                    "L8": "Subgroup selection from breadcrumb arrows",
+                    "L9": "\"Font Size\" setting in Theme",
+                    "L10": "Patch data for Gathering logs, Crafting logs, and Journal"
+                },
+                "CHANGE": {
+                    "L1": "Star now displays for completed groups in navigation drawer with no unexcluded tasks",
+                    "L2": "Reworked Orchestrion data"
+                },
+                "FIX": {
+                    "L1": "Various data/chain corrections",
+                    "L2": "Stored window position allowing the app to start off-screen",
+                    "L3": "Show All column sizing for numeric groups"
+                }
             }
         },
         "RANDOM": {
@@ -411,6 +435,10 @@
                 "PRIMARY_TEXT": "Primary Color Text",
                 "TEXT_COLOR": "Text Color",
                 "FONT": "Font",
+                "FONT_SIZE": {
+                    "LABEL": "Font Size",
+                    "TOOLTIP": "Changing drastically may create poor UI"
+                },
                 "BACKGROUND": "Background",
                 "COMPLETION": "Completion",
                 "PRESETS": {
@@ -421,18 +449,26 @@
                     "CLASSIC": "Classic"
                 }
             },
-            "TABLE": {
-                "TITLE": "Table",
-                "COMPLETED": {
-                    "LABEL": "Show Completed",
+            "COMPLETION": {
+                "TITLE": "Completion",
+                "COMPLETE_GROUP": {
+                    "LABEL": "Show Completed Groups",
+                    "TOOLTIP": "Whether completed groups are shown"
+                },
+                "EMPTY_GROUP": {
+                    "LABEL": "Show Empty Groups",
+                    "TOOLTIP": "Whether empty groups are shown"
+                },
+                "COMPLETE_TASK": {
+                    "LABEL": "Show Completed Items",
                     "TOOLTIP": "Whether completed items are shown in tables"
                 },
-                "INCOMPLETE": {
-                    "LABEL": "Show Incomplete",
+                "INCOMPLETE_TASK": {
+                    "LABEL": "Show Incomplete Items",
                     "TOOLTIP": "Whether non-completed items are shown in tables"
                 },
-                "EXCLUDED": {
-                    "LABEL": "Show Excluded",
+                "EXCLUDED_TASK": {
+                    "LABEL": "Show Excluded Items",
                     "TOOLTIP": "Whether excluded items are shown in tables"
                 }
             },
@@ -457,16 +493,17 @@
             "PLACEHOLDER": "Search",
             "NO_SEARCH": "Please enter a search term",
             "TOO_SHORT": "Please enter at least 2 characters",
-            "NO_RESULTS": "No tasks found",
+            "NO_RESULTS": "No results found",
             "EXPAND": "Expand All",
             "COLLAPSE": "Collapse All",
             "SEARCH_NAME": "Search Name Columns",
             "SEARCH_COLUMN": "Search All Columns",
-            "MATCHES": "Match/es",
             "COMPLETE": "Complete",
             "COLUMN": "Column",
             "VALUE": "Value",
-            "LINK": "Link"
+            "LINK": "Link",
+            "GROUP_TAB": "Groups",
+            "TASK_TAB": "Tasks"
         }
     },
     "TABLE": {
@@ -523,7 +560,8 @@
         "TABLE": {
             "TITLE": "Table Actions",
             "ADD_BOOKMARK": "Bookmark Group",
-            "REM_BOOKMARK": "Unbookmark Group"
+            "REM_BOOKMARK": "Unbookmark Group",
+            "COPY_DATA": "Copy Rows"
         },
         "CUSTOM": {
             "NAME_PLACEHOLDER": "Enter Custom Task Name Here",
@@ -625,20 +663,24 @@
             "EASTERN_THANALAN": "Eastern Thanalan",
             "SOUTHERN_THANALAN": "Southern Thanalan",
             "NORTHERN_THANALAN": "Northern Thanalan",
+            "THE_WAKING_SANDS": "The Waking Sands",
             "THE_GOLD_SAUCER": "The Gold Saucer",
             "CHOCOBO_SQUARE": "Chocobo Square",
             "BATTLE_HALL": "The Triple Triad Battlehall",
-            "COERTHAS_CENTRAL": "Coerthas Central Highlands",
-            "MOR_DHONA": "Mor Dhona",
+            "COERTHAS_CENTRAL_HIGHLANDS": "Coerthas Central Highlands",
+            "COERTHAS_WESTERN_HIGHLANDS": "Coerthas Western Highlands",
             "FOUNDATION": "Foundation",
             "THE_PILLARS": "The Pillars",
+            "THE_FIRMAMENT": "The Firmament",
+            "EMPYREUM": "Empyreum",
             "FORTEMPS_MANOR": "Fortemps Manor",
-            "COERTHAS_WESTERN": "Coerthas Western Highlands",
+            "MOR_DHONA": "Mor Dhona",
             "THE_SEA_OF_CLOUDS": "The Sea of Clouds",
             "AZYS_LLA": "Azys Lla",
             "THE_DRAVANIAN_FORELANDS": "The Dravanian Forelands",
             "THE_CHURNING_MISTS": "The Churning Mists",
             "THE_DRAVANIAN_HINTERLANDS": "The Dravanian Hinterlands",
+            "MATOYAS_CAVE": "Matoya's Cave",
             "IDYLLSHIRE": "Idyllshire",
             "RHALGRS_REACH": "Rhalgr's Reach",
             "THE_FRINGES": "The Fringes",
@@ -650,6 +692,10 @@
             "YANXIA": "Yanxia",
             "THE_AZIM_STEPPE": "The Azim Steppe",
             "THE_DOMAN_ENCLAVE": "The Doman Enclave",
+            "EUREKA_ANEMOS": "Eureka Anemos",
+            "EUREKA_PAGOS": "Eureka Pagos",
+            "EUREKA_PYROS": "Eureka Pyros",
+            "EUREKA_HYDATOS": "Eureka Hydatos",
             "THE_CRYSTARIUM": "The Crystarium",
             "EULMORE": "Eulmore",
             "LAKELAND": "Lakeland",
@@ -659,6 +705,8 @@
             "RAK_TIKA": "The Rak'tika Greatwood",
             "THE_TEMPEST": "The Tempest",
             "GANGOS": "Gangos",
+            "THE_BOZJAN_SOUTHERN_FRONT": "The Bozjan Southern Front",
+            "ZADNOR": "Zadnor",
             "TERNCLIFF": "Terncliff",
             "OLD_SHARLAYAN": "Old Sharlayan",
             "LABYRINTHOS": "Labyrinthos",
@@ -668,13 +716,20 @@
             "MARE_LAMENTORUM": "Mare Lamentorum",
             "ELPIS": "Elpis",
             "ULTIMA_THULE": "Ultima Thule",
-            "GALADION_BAY": "Galadion Bay",
-            "RHOTANO_SEA": "Rhotano Sea",
-            "THE_CIELDALAES": "The Cieldalaes",
-            "THE_BLOODBRINE_SEA": "The Bloodbrine Sea",
-            "THE_ROTHLYT_SOUND": "The Rothlyt Sound",
-            "THE_SOUTHERN_STRAIT_OF_MERLTHOR": "The Southern Strait of Merlthor",
-            "THE_NORTHERN_STRAIT_OF_MERLTHOR": "The Northern Strait of Merlthor"
+            "ISLAND_SANCTUARY": "Island Sanctuary",
+            "THE_HIGH_SEAS": {
+                "GALADION_BAY": "Galadion Bay",
+                "RHOTANO_SEA": "Rhotano Sea",
+                "THE_CIELDALAES": "The Cieldalaes",
+                "THE_BLOODBRINE_SEA": "The Bloodbrine Sea",
+                "THE_ROTHLYT_SOUND": "The Rothlyt Sound",
+                "THE_SOUTHERN_STRAIT_OF_MERLTHOR": "The Southern Strait of Merlthor",
+                "THE_NORTHERN_STRAIT_OF_MERLTHOR": "The Northern Strait of Merlthor",
+                "THE_SIRENSONG_SEA": "The Sirensong Sea",
+                "KUGANE": "Kugane",
+                "THE_RUBY_SEA": "The Ruby Sea",
+                "THE_ONE_RIVER": "The One River"
+            }
         },
         "REGION": {
             "ABALATHIA": "Abalathia's Spine",
@@ -810,6 +865,7 @@
             "BATTLE": "Battle",
             "BEAST_TRIBE": "Beast Tribe",
             "CHARACTER": "Character",
+            "CRAFTING": "Crafting",
             "CRAFTING_GATHERING": "Crafting & Gathering",
             "DAILY": "Daily",
             "DEEP_DUNGEON": "Deep Dungeon",
@@ -819,8 +875,10 @@
             "EXPLORATION": "Exploration",
             "EXPLORATORY_MISSION": "Exploratory Mission",
             "FATE": "FATE",
+            "GATHERING": "Gathering",
             "GRAND_COMPANY": "Grand Company",
             "ITEMS": "Items",
+            "KUPO_OF_FORTUNE": "Kupo of Fortune",
             "LEGACY": "Legacy",
             "MAIN": "Main",
             "OTHER": "Other",
@@ -847,30 +905,14 @@
             "SHB": "Shadowbringers",
             "EW": "Endwalker"
         },
-        "PLATE": {
-            "BASE": "Base Plate",
-            "PATTERN": "Plate Pattern Overlay",
-            "BACKING": "Plate Backing",
-            "TOP_BORDER": "Plate Top Border",
-            "BOTTOM_BORDER": "Plate Bottom Border",
-            "PORTRAIT_FRAME": "Plate Portrait Frame",
-            "FRAME": "Plate Frame",
-            "ACCENT": "Plate Accent"
-        },
-        "PORTRAIT": {
-            "BACKGROUND": "Portrait Background",
-            "FRAME": "Portrait Frame",
-            "ACCENT": "Portrait Accent",
-            "POSE": "Portrait Pose",
-            "EXPRESSION": "Portrait Expression"
-        },
         "ISLAND": {
             "EXPEDITION": {
                 "MEADOWS": "Meandering Meadows",
                 "FALLS": "Fatal Falls",
                 "WOODS": "Wild Woods",
                 "BEACHES": "Bending Beaches",
-                "MOUNTAINS": "Mossy Mountains"
+                "MOUNTAINS": "Mossy Mountains",
+                "CAVERNS": "Crumbling Caverns"
             },
             "ANIMAL_SIZE": {
                 "SMALL": "Small",
@@ -885,6 +927,37 @@
             "FOG": "Fog",
             "RAIN": "Rain",
             "SHOWERS": "Showers"
+        },
+        "FATE": {
+            "CATEGORY": {
+                "SKIRMISH": "Skirmish",
+                "CRITICAL_ENGAGEMENT": "Critical Engagement"
+            },
+            "TYPE": {
+                "SLAY_ENEMIES": "Slay Enemies",
+                "NOTORIOUS_MONSTER": "Notorious Monster",
+                "DEFENSE": "Defense",
+                "GATHER_ITEMS": "Gather Items",
+                "WAVES": "Waves",
+                "DUEL": "Duel"
+            }
+        },
+        "VOYAGE": {
+            "MOERGYNNS_FORGE": "Moergynn's Forge",
+            "THE_MYSTIC_BASIN": "The Mystic Basin",
+            "DEEPSEA_SITE_5": "Deep-sea Site 5",
+            "THE_RIMILALA_SHELF": "The Rimilala Shelf",
+            "FLICKERING_DIP": "Flickering Dip",
+            "BLOODBREAK": "Bloodbreak",
+            "SEA_OF_JADE_5": "Sea of Jade 5",
+            "SIRENSONG_SEA_3":  "Sirensong Sea 3",
+            "SEA_OF_CLOUDS_SECTOR_18": "Sea of Clouds - Sector 18",
+            "SEA_OF_CLOUDS_23": "Sea of Clouds 23",
+            "FORTUNES_FORD":  "Fortune's Ford",
+            "THE_CRYSTAL_FONT": "The Crystal Font",
+            "TANGAROAS_PROW": "Tangaroa's Prow",
+            "WINGSREACH": "Wingsreach",
+            "THE_FLORAL_REEF": "The Floral Reef"
         }
     }
 }

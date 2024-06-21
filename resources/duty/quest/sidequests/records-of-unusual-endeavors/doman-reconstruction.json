@@ -1,0 +1,58 @@
+{
+    "key": "doman-reconstruction",
+    "groupName_en": "Doman Reconstruction",
+    "groupName_fr": "Reconstruction du quartier enclavé",
+    "tasks": {
+        "x68622": {
+            "level": 70,
+            "name_en": "Precious Reclamation",
+            "name_fr": "Le grand rapatriement",
+            "npc_en": "Kozakura",
+            "npc_fr": "Kozakura",
+            "cPrev": [
+                "duty.quests.main-scenario.post-stormblood.68561"
+            ],
+            "cNext": [
+                68623
+            ],
+            "patch": "4.31"
+        },
+        "x68623": {
+            "level": 70,
+            "name_en": "A Thousand and One Farewells",
+            "name_fr": "Derniers au revoir",
+            "npc_en": "Hozan",
+            "npc_fr": "Hozan",
+            "cPrev": [
+                68622
+            ],
+            "cNext": [
+                68677
+            ],
+            "patch": "4.31"
+        },
+        "x68677": {
+            "level": 70,
+            "name_en": "It Takes an Enclave",
+            "name_fr": "Un quartier à rebâtir",
+            "npc_en": "Kozakura",
+            "npc_fr": "Kozakura",
+            "unlock_en": "Doman Enclave Reconstruction",
+            "cPrev": [
+                68623
+            ],
+            "patch": "4.31"
+        },
+        "x68689": {
+            "level": 70,
+            "name_en": "Lighting the Way",
+            "name_fr": "Les lumières de l'enclave",
+            "npc_en": "Kozakura",
+            "npc_fr": "Kozakura",
+            "cSiblings": [
+                "character.achievement.character.general.2131"
+            ],
+            "patch": "4.4"
+        }
+    }
+}

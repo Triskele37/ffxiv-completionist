@@ -2,8 +2,8 @@ import { Component, Input, OnChanges, OnDestroy, SimpleChanges } from '@angular/
 
 import {TranslateService} from '@ngx-translate/core';
 
-import { DataGroup } from '@domain/DataGroup';
-import { Task } from '@domain/Task';
+import { DataGroup } from '@model/DataGroup';
+import { Task } from '@model/Task';
 
 @Component({
     selector: 'xiv-show-all-section',

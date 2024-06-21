@@ -1,0 +1,165 @@
+{
+    "key": "splendorous-tools",
+    "groupName_en": "Splendorous Tools",
+    "groupName_fr": "Splendorous Tools",
+    "tasks": {
+        "x70266": {
+            "level": 90,
+            "name_en": "An Original Improvement",
+            "name_fr": "L'inspiration venue du for intérieur",
+            "npc_en": "Chora-Zoi",
+            "npc_fr": "Chora-Zoi",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.70000",
+                "duty.quests.other.quasi-quests.69139"
+            ],
+            "cNext": [
+                70267
+            ],
+            "patch": "6.35"
+        },
+        "x70267": {
+            "level": 90,
+            "name_en": "A Dedicated Tool",
+            "name_fr": "L'intégrité comme outil de persuasion",
+            "npc_en": "Chora-Zoi",
+            "npc_fr": "Chora-Zoi",
+            "cPrev": [
+                70266
+            ],
+            "cNext": [
+                70268
+            ],
+            "patch": "6.35"
+        },
+        "x70268": {
+            "level": 90,
+            "name_en": "An Adaptive Tool",
+            "name_fr": "Dites-le avec des outils",
+            "npc_en": "Chora-Zoi",
+            "npc_fr": "Chora-Zoi",
+            "cPrev": [
+                70267
+            ],
+            "cNext": [
+                70303
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.3192"
+            ],
+            "patch": "6.35"
+        },
+        "x70303": {
+            "level": 90,
+            "name_en": "The Joy of Zoi",
+            "name_fr": "Un défi pour Chora-Zoi",
+            "npc_en": "Grenoldt",
+            "npc_fr": "Grenoldt",
+            "cPrev": [
+                70268
+            ],
+            "cNext": [
+                70304
+            ],
+            "patch": "6.45"
+        },
+        "x70304": {
+            "level": 90,
+            "name_en": "A Tool of Her Own",
+            "name_fr": "Améliorés et bariolés",
+            "npc_en": "Chora-Zoi",
+            "npc_fr": "Chora-Zoi",
+            "cPrev": [
+                70303
+            ],
+            "cNext": [
+                70305
+            ],
+            "patch": "6.45"
+        },
+        "x70305": {
+            "level": 90,
+            "name_en": "A Tool without Compare",
+            "name_fr": "Splendide, tel est son nom",
+            "npc_en": "Chora-Zoi",
+            "npc_fr": "Chora-Zoi",
+            "cPrev": [
+                70304
+            ],
+            "cNext": [
+                70306
+            ],
+            "patch": "6.45"
+        },
+        "x70306": {
+            "level": 90,
+            "name_en": "La Vie Mowen",
+            "name_fr": "Une soirée bien arrosée",
+            "npc_en": "Grenoldt",
+            "npc_fr": "Grenoldt",
+            "cPrev": [
+                70305
+            ],
+            "cNext": [
+                70338
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.3304"
+            ],
+            "patch": "6.45"
+        },
+        "x70338": {
+            "level": 90,
+            "name_en": "Dance Like Mowen Is Watching",
+            "name_fr": "La grande décision",
+            "npc_en": "Grenoldt",
+            "npc_fr": "Grenoldt",
+            "cPrev": [
+                70306
+            ],
+            "cNext": [
+                70339
+            ],
+            "patch": "6.51"
+        },
+        "x70339": {
+            "level": 90,
+            "name_en": "A Tool for the Ages",
+            "name_fr": "Plus qu'un outil, un symbole",
+            "npc_en": "Chora-Zoi",
+            "npc_fr": "Chora-Zoi",
+            "cPrev": [
+                70338
+            ],
+            "cNext": [
+                70340
+            ],
+            "patch": "6.51"
+        },
+        "x70340": {
+            "level": 90,
+            "name_en": "Stand Tool, My Friend",
+            "name_fr": "Finition scintillante",
+            "npc_en": "Chora-Zoi",
+            "npc_fr": "Chora-Zoi",
+            "cPrev": [
+                70339
+            ],
+            "cNext": [
+                70341
+            ],
+            "patch": "6.51"
+        },
+        "x70341": {
+            "level": 90,
+            "name_en": "Dearly Bekettled",
+            "name_fr": "Une bouilloire pour deux",
+            "npc_en": "Grenoldt",
+            "npc_fr": "Grenoldt",
+            "cPrev": [
+                70340
+            ],
+            "patch": "6.51"
+        }
+    }
+}

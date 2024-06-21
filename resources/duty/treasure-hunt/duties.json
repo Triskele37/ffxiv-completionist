@@ -1,0 +1,70 @@
+{
+    "key": "duties",
+    "groupName_en": "Duties",
+    "groupName_fr": "Missions",
+    "headers": {
+        "name": {
+            "header_en": "Duty",
+            "header_fr": "Mission"
+        },
+        "source": {
+            "link": true,
+            "header_en": "Source",
+            "header_fr": "Source"
+        },
+        "patch": {
+            "header_en": "Patch",
+            "header_fr": "Patch"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "The Aquapolis",
+            "name_fr": "L'Aquapole",
+            "source": "duty.treasure-hunt.maps.8",
+            "patch": "3.3"
+        },
+        "x1": {
+            "name_en": "The Lost Canals of Uznair",
+            "name_fr": "Les Canaux perdus d'Uznair",
+            "source": "duty.treasure-hunt.maps.10",
+            "patch": "4.05"
+        },
+        "x2": {
+            "name_en": "The Hidden Canals of Uznair",
+            "name_fr": "Les Canaux cachés d'Uznair",
+            "source": "duty.treasure-hunt.maps.11",
+            "patch": "4.1"
+        },
+        "x3": {
+            "name_en": "The Shifting Altars of Uznair",
+            "name_fr": "Le Temple sacré d'Uznair",
+            "source": "duty.treasure-hunt.maps.10",
+            "patch": "4.4"
+        },
+        "x4": {
+            "name_en": "The Dungeons of Lyhe Ghiah",
+            "name_fr": "Le Donjon hypogéen du Lyhe Ghiah",
+            "source": "duty.treasure-hunt.maps.13",
+            "patch": "5.05"
+        },
+        "x5": {
+            "name_en": "The Shifting Oubliettes of Lyhe Ghiah",
+            "name_fr": "Le Jardin secret du Lyhe Ghiah",
+            "source": "duty.treasure-hunt.maps.13",
+            "patch": "5.4"
+        },
+        "x6": {
+            "name_en": "The Excitatron 6000",
+            "name_fr": "Le Ludodrome",
+            "source": "duty.treasure-hunt.maps.15",
+            "patch": "6.05"
+        },
+        "x7": {
+            "name_en": "The Shifting Gymnasion Agonon",
+            "name_fr": "Elpis Gymnasion",
+            "source": "duty.treasure-hunt.maps.16",
+            "patch": "6.3"
+        }
+    }
+}

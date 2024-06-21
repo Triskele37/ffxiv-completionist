@@ -1,0 +1,22 @@
+<p-button
+    icon="material-icons mi-history"
+    (onClick)="op.toggle($event)"
+></p-button>
+
+<p-overlayPanel #op>
+    <span>{{'OVERLAY.HISTORY.TITLE' | translate}}</span>
+    <div class="history-links">
+        <p-button
+            *ngFor="let group of svcNavigation.groupHistory$ | async"
+            styleClass="p-button-link"
+            [life]="2000"
+            [pTooltip]="'GENERAL.GROUP_NAVIGATE' | translate"
+            [label]="group | contentLink"
+            (onClick)="svcNavigation.goToHistory(group); op.hide()"
+        ></p-button>
+
+        <div *ngIf="!(svcNavigation.groupHistory$ | async).length">
+            {{'OVERLAY.HISTORY.NO_CONTENT' | translate}}
+        </div>
+    </div>
+</p-overlayPanel>

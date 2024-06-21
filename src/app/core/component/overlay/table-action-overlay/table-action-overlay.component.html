@@ -22,6 +22,26 @@
                 [icon]="'material-icons ' + (isBookmarked ? 'mi-bookmark-remove' : 'mi-bookmark-add')"
                 (onClick)="bookmarkGroup()"
             ></p-button>
+
+            <p-button
+                *ngIf="isAdmin"
+                [label]="'OVERLAY.TABLE.COPY_DATA' | translate"
+                icon="material-icons mi-file-copy"
+                (onClick)="copyData()"
+            ></p-button>
+
+            <p-button
+                *ngIf="showAddTask"
+                label="Add Task"
+                icon="mi mi-add"
+                (onClick)="onAddTaskClick()"
+            ></p-button>
         </span>
     </div>
 </span>
+
+<xiv-add-task-dialog
+    *ngIf="showAddTask"
+    [(visible)]="isAddTaskVisible"
+    [group]="group"
+></xiv-add-task-dialog>

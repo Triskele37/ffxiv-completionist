@@ -1,0 +1,347 @@
+{
+    "key": "gridania",
+    "groupName_en": "Gridania",
+    "groupName_fr": "Gridania",
+    "tasks": {
+        "x65575": {
+            "level": 1,
+            "name_en": "Coming to Gridania",
+            "name_fr": "Bienvenue à Gridania",
+            "npc_en": "Bertennant",
+            "npc_fr": "Bertennant",
+            "cNext": [
+                65537,
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65660"
+            ],
+            "patch": "4.31"
+        },
+        "x65585": {
+            "level": 1,
+            "name_en": "I Am Millicent, Hear Me Roar",
+            "name_fr": "En attendant la relève",
+            "npc_en": "Duimessand",
+            "npc_fr": "Duimessand",
+            "patch": "4.31"
+        },
+        "x65560": {
+            "level": 1,
+            "name_en": "Coarse Correspondence",
+            "name_fr": "Une lettre mystérieuse",
+            "npc_en": "F'mibhas",
+            "npc_fr": "F'mibhas",
+            "patch": "4.31"
+        },
+        "x65556": {
+            "level": 1,
+            "name_en": "Incense and Sensibility",
+            "name_fr": "Le souhait de Mellaine",
+            "npc_en": "Mellaine",
+            "npc_fr": "Mellaine",
+            "patch": "4.31"
+        },
+        "x65537": {
+            "level": 1,
+            "name_en": "A Good Adventurer Is Hard to Find",
+            "name_fr": "Savoir tendre la main",
+            "npc_en": "Bernadette",
+            "npc_fr": "Bernadette",
+            "cPrev": [
+                65575
+            ],
+            "cNext": [
+                65573
+            ],
+            "patch": "4.31"
+        },
+        "x65563": {
+            "level": 1,
+            "name_en": "Preserving the Past",
+            "name_fr": "Préserver le passé",
+            "npc_en": "Idele",
+            "npc_fr": "Idele",
+            "patch": "4.31"
+        },
+        "x65576": {
+            "level": 2,
+            "name_en": "For Friendship",
+            "name_fr": "Un geste pour un sourire",
+            "npc_en": "Nicoliaux",
+            "npc_fr": "Nicoliaux",
+            "patch": "4.31"
+        },
+        "x65574": {
+            "level": 2,
+            "name_en": "Parsemontrenomics",
+            "name_fr": "Faire d'une pierre deux coups",
+            "npc_en": "Parsemontret",
+            "npc_fr": "Parsemontret",
+            "patch": "4.31"
+        },
+        "x65578": {
+            "level": 2,
+            "name_en": "Sylphic Gratitude",
+            "name_fr": "Citrouilles en vadrouille",
+            "npc_en": "Estaine",
+            "npc_fr": "Estaine",
+            "patch": "4.31"
+        },
+        "x65577": {
+            "level": 2,
+            "name_en": "Covered in Roses",
+            "name_fr": "Un tapis de roses",
+            "npc_en": "Samiane",
+            "npc_fr": "Samiane",
+            "patch": "4.31"
+        },
+        "x65562": {
+            "level": 3,
+            "name_en": "Once Bitten, Twice Shy",
+            "name_fr": "Chat échaudé craint l'eau froide",
+            "npc_en": "Ethelred",
+            "npc_fr": "Ethelred",
+            "patch": "4.31"
+        },
+        "x65561": {
+            "level": 3,
+            "name_en": "Quarrels with Squirrels",
+            "name_fr": "Les rongeurs de minuit",
+            "npc_en": "Boiselont",
+            "npc_fr": "Boiselont",
+            "patch": "4.31"
+        },
+        "x65567": {
+            "level": 3,
+            "name_en": "Essential Oil",
+            "name_fr": "Huile essentielle",
+            "npc_en": "Braya",
+            "npc_fr": "Braya",
+            "patch": "4.31"
+        },
+        "x65570": {
+            "level": 4,
+            "name_en": "Derision of Labor",
+            "name_fr": "Livraison de nourriture",
+            "npc_en": "Celestine",
+            "npc_fr": "Celestine",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65660"
+            ],
+            "patch": "4.31"
+        },
+        "x65573": {
+            "level": 4,
+            "name_en": "Population Control",
+            "name_fr": "Il va y avoir des spores!",
+            "npc_en": "Chansteloup",
+            "npc_fr": "Chansteloup",
+            "cPrev": [
+                65537
+            ],
+            "patch": "4.31"
+        },
+        "x65568": {
+            "level": 4,
+            "name_en": "A Hard Nut to Crack",
+            "name_fr": "Visite à l'écurie",
+            "npc_en": "Tatasosa",
+            "npc_fr": "Tatasosa",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65660"
+            ],
+            "patch": "4.31"
+        },
+        "x65756": {
+            "level": 10,
+            "name_en": "Leves of Bentbranch",
+            "name_fr": "Mandataire de Brancharquée",
+            "npc_en": "Gontrant",
+            "npc_fr": "Gontrant",
+            "unlock_en": "Leves",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65665"
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gridanian.central-shroud.65596",
+                "duty.quests.sidequests.gridanian.east-shroud.65757",
+                "duty.quests.sidequests.gridanian.south-shroud.65979",
+                "duty.quests.sidequests.uldahn.eastern-thanalan.66224",
+                "duty.quests.sidequests.lominsan.western-la-noscea.66230",
+                "duty.quests.sidequests.uldahn.southern-thanalan.66228",
+                "duty.quests.sidequests.lominsan.eastern-la-noscea.65550",
+                "duty.quests.sidequests.coerthan.coerthas-central-highlands.65552",
+                "duty.quests.sidequests.coerthan.coerthas-central-highlands.65553",
+                "duty.quests.sidequests.gridanian.south-shroud.65980",
+                "duty.quests.sidequests.uldahn.northern-thanalan.65551",
+                "duty.quests.sidequests.lominsan.eastern-la-noscea.66232",
+                "duty.quests.sidequests.lominsan.lower-la-noscea.66231",
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.65554"
+            ],
+            "patch": "4.31"
+        },
+        "x66961": {
+            "level": 14,
+            "name_en": "Saw That One Coming",
+            "name_fr": "Mais si on danse?",
+            "unlock": "social.emotes.special.102",
+            "cPrevAny": true,
+            "npc_en": "Eral",
+            "npc_fr": "Eral",
+            "cPrev": [
+                66088,
+                66081,
+                "duty.quests.main-scenario.seventh-umbral-era.gridania.65985"
+            ],
+            "cSiblings": [
+                "social.emotes.special.102"
+            ],
+            "patch": "4.31"
+        },
+        "x66968": {
+            "level": 17,
+            "name_en": "An Ill-conceived Venture",
+            "name_fr": "Chevalier servant (Gridania)",
+            "npc_en": "Troubled Adventurer",
+            "npc_fr": "aventurier dans l'embarras",
+            "unlock_en": "Retainer Ventures",
+            "cExclude": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66969",
+                "duty.quests.sidequests.uldahn.uldah.66970"
+            ],
+            "patch": "4.31"
+        },
+        "x66236": {
+            "level": 20,
+            "name_en": "My Little Chocobo (Twin Adder)",
+            "name_fr": "À chacun sa monture (Gridania)",
+            "unlock": "character.mount-guide.39",
+            "npc_en": "Vorsaile Heuloix",
+            "npc_fr": "Vorsaile Heuloix",
+            "cNext": [
+                "duty.quests.sidequests.gridanian.south-shroud.66698"
+            ],
+            "cExclude": [
+                "duty.quests.sidequests.lominsan.limsa-lominsa.66237",
+                "duty.quests.sidequests.uldahn.uldah.66238"
+            ],
+            "patch": "4.31"
+        },
+        "x65698": {
+            "level": 20,
+            "name_en": "A Sight to Behold",
+            "name_fr": "Un carnet vers l'exploration",
+            "npc_en": "Naoh Gamduhla",
+            "npc_fr": "Naoh Gamduhla",
+            "unlock_en": "Sightseeing Log",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66049"
+            ],
+            "cNext": [
+                "duty.quests.other.quasi-quests.68456",
+                "duty.quests.other.quasi-quests.69140",
+                "duty.quests.other.quasi-quests.69710",
+                "duty.quests.other.quasi-quests.67643"
+            ],
+            "patch": "4.31"
+        },
+        "x66338": {
+            "level": 29,
+            "name_en": "Broadening Horizons",
+            "name_fr": "Élargir son horizon",
+            "npc_en": "Tyoh Moui",
+            "npc_fr": "Tyoh Moui",
+            "cNext": [
+                66339
+            ],
+            "patch": "4.31"
+        },
+        "x66339": {
+            "level": 29,
+            "name_en": "Beneath the Planks",
+            "name_fr": "Sous les planches",
+            "npc_en": "Roustebant",
+            "npc_fr": "Roustebant",
+            "cPrev": [
+                66338
+            ],
+            "patch": "4.31"
+        },
+        "x65730": {
+            "level": 30,
+            "name_en": "Unicorn Power",
+            "name_fr": "Ma petite licorne",
+            "npc_en": "Braya",
+            "npc_fr": "Braya",
+            "cPrev": [
+                "duty.quests.class--job.disciple-of-magic.conjurer.65977"
+            ],
+            "patch": "4.31"
+        },
+        "x66505": {
+            "level": 43,
+            "name_en": "Adventurer for Hire",
+            "name_fr": "Au nom de la rose",
+            "npc_en": "Selaine",
+            "npc_fr": "Selaine",
+            "cNext": [
+                "duty.quests.sidequests.gridanian.east-shroud.66506"
+            ],
+            "patch": "4.31"
+        },
+        "x66544": {
+            "level": 46,
+            "name_en": "Who Was That Man in Black",
+            "name_fr": "Témoins du mal",
+            "npc_en": "Lewin",
+            "npc_fr": "Lewin",
+            "cPrev": [
+                "duty.quests.sidequests.uldahn.the-waking-sands.66543"
+            ],
+            "cNext": [
+                66545
+            ],
+            "patch": "4.31"
+        },
+        "x66545": {
+            "level": 46,
+            "name_en": "The Dark Divinity",
+            "name_fr": "Briseur de sceau",
+            "npc_en": "Lewin",
+            "npc_fr": "Lewin",
+            "cPrev": [
+                66544
+            ],
+            "cNext": [
+                "duty.quests.sidequests.gridanian.south-shroud.66548"
+            ],
+            "patch": "4.31"
+        },
+        "x66925": {
+            "level": 50,
+            "name_en": "One Night in Amdapor",
+            "name_fr": "La Cité des enfers perdus",
+            "unlock": "duty.dutyraid-finder.dungeons.arr.19",
+            "npc_en": "E-Sumi-Yan",
+            "npc_fr": "E-Sumi-Yan",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66060"
+            ],
+            "cNext": [
+                67818
+            ],
+            "patch": "4.31"
+        },
+        "x67818": {
+            "level": 60,
+            "name_en": "One More Night in Amdapor",
+            "name_fr": "Les profondeurs d'Amdapor",
+            "unlock": "duty.dutyraid-finder.dungeons.hw.11",
+            "npc_en": "E-Sumi-Yan",
+            "npc_fr": "E-Sumi-Yan",
+            "cPrev": [
+                66925,
+                "duty.quests.main-scenario.heavensward.67205"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

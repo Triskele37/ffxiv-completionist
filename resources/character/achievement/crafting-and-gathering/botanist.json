@@ -1,0 +1,574 @@
+{
+    "key": "botanist",
+    "groupName_en": "Botanist",
+    "groupName_fr": "Botaniste",
+    "tasks": {
+        "x222": {
+            "name_en": "Logging the Hours: La Noscea I",
+            "name_fr": "Deux bois, deux mesures : la Noscea I",
+            "description_en": "Log 20 times from level 1-10 mature trees in La Noscea.",
+            "description_fr": "Couper ou faucher 20 fois sur des arbres matures ou des carrés de végétation de niveaux 1 à 10 dans la Noscea.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                227
+            ]
+        },
+        "x223": {
+            "name_en": "Logging the Hours: La Noscea II",
+            "name_fr": "Deux bois, deux mesures : la Noscea II",
+            "description_en": "Log 300 times from level 11-20 mature trees in La Noscea.",
+            "description_fr": "Couper ou faucher 300 fois sur des arbres matures ou des carrés de végétation de niveaux 11 à 20 dans la Noscea.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                227
+            ]
+        },
+        "x224": {
+            "name_en": "Logging the Hours: La Noscea III",
+            "name_fr": "Deux bois, deux mesures : la Noscea III",
+            "description_en": "Log 1,000 times from level 21-30 mature trees in La Noscea.",
+            "description_fr": "Couper ou faucher 1 000 fois sur des arbres matures ou des carrés de végétation de niveaux 21 à 30 dans la Noscea.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                227
+            ]
+        },
+        "x225": {
+            "name_en": "Logging the Hours: La Noscea IV",
+            "name_fr": "Deux bois, deux mesures : la Noscea IV",
+            "description_en": "Log 2,000 times from level 31-40 mature trees in La Noscea.",
+            "description_fr": "Couper ou faucher 2 000 fois sur des arbres matures ou des carrés de végétation de niveaux 31 à 40 dans la Noscea.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                227
+            ]
+        },
+        "x226": {
+            "name_en": "Logging the Hours: La Noscea V",
+            "name_fr": "Deux bois, deux mesures : la Noscea V",
+            "description_en": "Log 4,000 times from level 41-50 mature trees in La Noscea.",
+            "description_fr": "Couper ou faucher 4 000 fois sur des arbres matures ou des carrés de végétation de niveaux 41 à 50 dans la Noscea.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                227
+            ]
+        },
+        "x227": {
+            "name_en": "A Botanist's Life for Me: La Noscea",
+            "name_fr": "Si six scies scient : la Noscea",
+            "description_en": "Obtain all five “Logging the Hours: La Noscea” achievements.",
+            "description_fr": "Accomplir les cinq hauts faits de la série “Deux bois, deux mesures: la Noscea”.",
+            "reward": "character.character.title.31",
+            "patch": "2.0",
+            "points": 10,
+            "cPrev": [
+                222,
+                223,
+                224,
+                225,
+                226
+            ],
+            "cSiblings": [
+                "character.character.title.31"
+            ],
+            "cCombo": [
+                240
+            ]
+        },
+        "x228": {
+            "name_en": "Logging the Hours: Black Shroud I",
+            "name_fr": "Deux bois, deux mesures : Sombrelinceul I",
+            "description_en": "Log 20 times from level 1-10 mature trees in the Black Shroud.",
+            "description_fr": "Couper ou faucher 20 fois sur des arbres matures ou des carrés de végétation de niveaux 1 à 10 dans la forêt de Sombrelinceul.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                233
+            ]
+        },
+        "x229": {
+            "name_en": "Logging the Hours: Black Shroud II",
+            "name_fr": "Deux bois, deux mesures : Sombrelinceul II",
+            "description_en": "Log 300 times from level 11-20 mature trees in the Black Shroud.",
+            "description_fr": "Couper ou faucher 300 fois sur des arbres matures ou des carrés de végétation de niveaux 11 à 20 dans la forêt de Sombrelinceul.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                233
+            ]
+        },
+        "x230": {
+            "name_en": "Logging the Hours: Black Shroud III",
+            "name_fr": "Deux bois, deux mesures : Sombrelinceul III",
+            "description_en": "Log 1,000 times from level 21-30 mature trees in the Black Shroud.",
+            "description_fr": "Couper ou faucher 1 000 fois sur des arbres matures ou des carrés de végétation de niveaux 21 à 30 dans la forêt de Sombrelinceul.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                233
+            ]
+        },
+        "x231": {
+            "name_en": "Logging the Hours: Black Shroud IV",
+            "name_fr": "Deux bois, deux mesures : Sombrelinceul IV",
+            "description_en": "Log 2,000 times from level 31-40 mature trees in the Black Shroud.",
+            "description_fr": "Couper ou faucher 2 000 fois sur des arbres matures ou des carrés de végétation de niveaux 31 à 40 dans la forêt de Sombrelinceul.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                233
+            ]
+        },
+        "x232": {
+            "name_en": "Logging the Hours: Black Shroud V",
+            "name_fr": "Deux bois, deux mesures : Sombrelinceul V",
+            "description_en": "Log 4,000 times from level 41-50 mature trees in the Black Shroud.",
+            "description_fr": "Couper ou faucher 4 000 fois sur des arbres matures ou des carrés de végétation de niveaux 41 à 50 dans la forêt de Sombrelinceul.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                233
+            ]
+        },
+        "x233": {
+            "name_en": "A Botanist's Life for Me: Black Shroud",
+            "name_fr": "Si six scies scient : Sombrelinceul",
+            "description_en": "Obtain all five “Logging the Hours: Black Shroud” achievements.",
+            "description_fr": "Accomplir les cinq hauts faits de la série “Deux bois, deux mesures: Sombrelinceul”.",
+            "reward": "character.character.title.32",
+            "patch": "2.0",
+            "points": 10,
+            "cPrev": [
+                228,
+                229,
+                230,
+                231,
+                232
+            ],
+            "cSiblings": [
+                "character.character.title.32"
+            ],
+            "cCombo": [
+                240
+            ]
+        },
+        "x234": {
+            "name_en": "Logging the Hours: Thanalan I",
+            "name_fr": "Deux bois, deux mesures : Thanalan I",
+            "description_en": "Log 20 times from level 1-10 mature trees in Thanalan.",
+            "description_fr": "Couper ou faucher 20 fois sur des arbres matures ou des carrés de végétation de niveaux 1 à 10 dans le Thanalan.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                239
+            ]
+        },
+        "x235": {
+            "name_en": "Logging the Hours: Thanalan II",
+            "name_fr": "Deux bois, deux mesures : Thanalan II",
+            "description_en": "Log 300 times from level 11-20 mature trees in Thanalan.",
+            "description_fr": "Couper ou faucher 300 fois sur des arbres matures ou des carrés de végétation de niveaux 11 à 20 dans le Thanalan.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                239
+            ]
+        },
+        "x236": {
+            "name_en": "Logging the Hours: Thanalan III",
+            "name_fr": "Deux bois, deux mesures : Thanalan III",
+            "description_en": "Log 1,000 times from level 21-30 mature trees in Thanalan.",
+            "description_fr": "Couper ou faucher 1 000 fois sur des arbres matures ou des carrés de végétation de niveaux 21 à 30 dans le Thanalan.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                239
+            ]
+        },
+        "x237": {
+            "name_en": "Logging the Hours: Thanalan IV",
+            "name_fr": "Deux bois, deux mesures : Thanalan IV",
+            "description_en": "Log 2,000 times from level 31-40 mature trees in Thanalan.",
+            "description_fr": "Couper ou faucher 2 000 fois sur des arbres matures ou des carrés de végétation de niveaux 31 à 40 dans le Thanalan.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                239
+            ]
+        },
+        "x238": {
+            "name_en": "Logging the Hours: Thanalan V",
+            "name_fr": "Deux bois, deux mesures : Thanalan V",
+            "description_en": "Log 4,000 times from level 41-50 mature trees in Thanalan.",
+            "description_fr": "Couper ou faucher 4 000 fois sur des arbres matures ou des carrés de végétation de niveaux 41 à 50 dans le Thanalan.",
+            "patch": "2.0",
+            "points": 5,
+            "cCombo": [
+                239
+            ]
+        },
+        "x239": {
+            "name_en": "A Botanist's Life for Me: Thanalan",
+            "name_fr": "Si six scies scient : Thanalan",
+            "description_en": "Obtain all five “Logging the Hours: Thanalan” achievements.",
+            "description_fr": "Accomplir les cinq hauts faits de la série “Deux bois, deux mesures: Thanalan”.",
+            "reward": "character.character.title.33",
+            "patch": "2.0",
+            "points": 10,
+            "cPrev": [
+                234,
+                235,
+                236,
+                237,
+                238
+            ],
+            "cSiblings": [
+                "character.character.title.33"
+            ],
+            "cCombo": [
+                240
+            ]
+        },
+        "x240": {
+            "name_en": "A Botanist's Life for Me: Greater Eorzea",
+            "name_fr": "Bûcheron bûcheur",
+            "description_en": "Obtain the “A Botanist's Life for Me” achievements for La Noscea, the Black Shroud, and Thanalan.",
+            "description_fr": "Accomplir les trois hauts faits de la série “Si six scies scient...”.",
+            "reward_en": "Axe of the Luminary",
+            "reward_fr": "Hache de virtuose",
+            "patch": "2.0",
+            "points": 30,
+            "cPrev": [
+                227,
+                233,
+                239
+            ]
+        },
+        "x1310": {
+            "name_en": "Reaping Heavensward",
+            "name_fr": "Deux bois, deux mesures : terres du nord",
+            "description_en": "Gather 5,000 times from level 51-60 mature trees or lush vegetation.",
+            "description_fr": "Couper ou faucher 5 000 fois sur des arbres matures ou des carrés de végétation de niveaux 51 à 60.",
+            "patch": "3.0",
+            "points": 10
+        },
+        "x1856": {
+            "name_en": "Reaping Stormblood",
+            "name_fr": "Deux bois, deux mesures : terres de l'est",
+            "description_en": "Gather 5,000 times from level 61-70 mature trees or lush vegetation.",
+            "description_fr": "Couper ou faucher 5 000 fois sur des arbres matures ou des carrés de végétation de niveau 61 à 70.",
+            "patch": "4.0",
+            "points": 10
+        },
+        "x2288": {
+            "name_en": "Reaping Shadowbringers",
+            "name_fr": "Deux bois, deux mesures : terres de Ténèbres",
+            "description_en": "Gather 5,000 times from level 71-80 mature trees or lush vegetation.",
+            "description_fr": "Couper ou faucher 5 000 fois sur des arbres matures ou des carrés de végétation de niveau 71 à 80.",
+            "patch": "5.0",
+            "points": 10
+        },
+        "x2936": {
+            "name_en": "Reaping the End",
+            "name_fr": "Deux bois, deux mesures : terres des finitudes",
+            "description_en": "Gather 5,000 times from level 81-90 mature trees or lush vegetation.",
+            "description_fr": "Couper ou faucher 5 000 fois sur des arbres matures ou des carrés de végétation de niveau 81 à 90.",
+            "patch": "6.0",
+            "points": 10
+        },
+        "x722": {
+            "name_en": "I Found That: Botanist I",
+            "name_fr": "Carnet de notes : botaniste I",
+            "description_en": "Harvest and record discovery of 25 unique items that can only be gathered as a botanist.",
+            "description_fr": "Récolter 25 objets différents en tant que botaniste et les avoir notés dans le carnet de récolte.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                723
+            ]
+        },
+        "x723": {
+            "name_en": "I Found That: Botanist II",
+            "name_fr": "Carnet de notes : botaniste II",
+            "description_en": "Harvest and record discovery of 50 unique items that can only be gathered as a botanist.",
+            "description_fr": "Récolter 50 objets différents en tant que botaniste et les avoir notés dans le carnet de récolte.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                722
+            ],
+            "cNext": [
+                724
+            ]
+        },
+        "x724": {
+            "name_en": "I Found That: Botanist III",
+            "name_fr": "Carnet de notes : botaniste III",
+            "description_en": "Harvest and record discovery of 100 unique items that can only be gathered as a botanist.",
+            "description_fr": "Récolter 100 objets différents en tant que botaniste et les avoir notés dans le carnet de récolte.",
+            "reward_en": "Master Botanist's Ring",
+            "reward_fr": "Anneau de maître botaniste",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                723
+            ],
+            "cNext": [
+                1287
+            ]
+        },
+        "x1287": {
+            "name_en": "I Found That: Botanist IV",
+            "name_fr": "Carnet de notes : botaniste IV",
+            "description_en": "Harvest and record discovery of 150 unique items that can only be gathered as a botanist.",
+            "description_fr": "Récolter 150 objets différents en tant que botaniste et les avoir notés dans le carnet de récolte.",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                724
+            ],
+            "cNext": [
+                1730
+            ]
+        },
+        "x1730": {
+            "name_en": "I Found That: Botanist V",
+            "name_fr": "Carnet de notes : botaniste V",
+            "description_en": "Harvest and record discovery of 230 unique items that can only be gathered as a botanist.",
+            "description_fr": "Récolter 230 objets différents en tant que botaniste et les avoir notés dans le carnet de récolte.",
+            "reward_en": "Blessed Fieldkeep's Hatchet",
+            "reward_fr": "Hachette de verdier bénie",
+            "patch": "3.5",
+            "points": 10,
+            "cPrev": [
+                1287
+            ],
+            "cNext": [
+                2175
+            ]
+        },
+        "x2175": {
+            "name_en": "I Found That: Botanist VI",
+            "name_fr": "Carnet de notes : botaniste VI",
+            "description_en": "Harvest and record discovery of 280 unique items that can only be gathered as a botanist.",
+            "description_fr": "Récolter 280 objets différents en tant que botaniste et les avoir notés dans le carnet de récolte.",
+            "reward_en": "Blessed Fieldking's Hatchet",
+            "reward_fr": "Hachette du roi de l'agronomie bénie",
+            "patch": "4.5",
+            "points": 10,
+            "cPrev": [
+                1730
+            ],
+            "cNext": [
+                2831
+            ]
+        },
+        "x2831": {
+            "name_en": "I Found That: Botanist VII",
+            "name_fr": "Carnet de notes : botaniste VII",
+            "description_en": "Harvest and record discovery of 340 unique items that can only be gathered as a botanist.",
+            "description_fr": "Récolter 340 objets différents en tant que botaniste et les avoir notés dans le carnet de récolte.",
+            "reward": "character.relic-gear.resplendent.9",
+            "patch": "5.5",
+            "points": 10,
+            "cPrev": [
+                2175
+            ],
+            "cNext": [
+                3376
+            ]
+        },
+        "x3376": {
+            "name_en": "I Found That: Botanist VIII",
+            "name_fr": "Carnet de notes : botaniste VIII",
+            "description_en": "Harvest and record discovery of 380 unique items that can only be gathered as a botanist.",
+            "description_fr": "Récolter 380 objets différents en tant que botaniste et les avoir notés dans le carnet de récolte.",
+            "reward": "character.character.title.703",
+            "patch": "6.5",
+            "points": 10,
+            "cPrev": [
+                2831
+            ],
+            "cSiblings": [
+                "character.character.title.703"
+            ]
+        },
+        "x777": {
+            "name_en": "An Eye for Quantity: Botanist I",
+            "name_fr": "Bonne trouvaille : botaniste I",
+            "description_en": "Gather 300 items with the Gatherer's Boon effect as a botanist.",
+            "description_fr": "Récolter un total de 300 objets grâce aux chances de récolte supplémentaire en tant que botaniste.",
+            "patch": "2.1",
+            "points": 5,
+            "cNext": [
+                778
+            ]
+        },
+        "x778": {
+            "name_en": "An Eye for Quantity: Botanist II",
+            "name_fr": "Bonne trouvaille : botaniste II",
+            "description_en": "Gather 1,500 items with the Gatherer's Boon effect as a botanist.",
+            "description_fr": "Récolter un total de 1 500 objets grâce aux chances de récolte supplémentaire en tant que botaniste.",
+            "patch": "2.1",
+            "points": 5,
+            "cPrev": [
+                777
+            ],
+            "cNext": [
+                779
+            ]
+        },
+        "x779": {
+            "name_en": "An Eye for Quantity: Botanist III",
+            "name_fr": "Bonne trouvaille : botaniste III",
+            "description_en": "Gather 10,000 items with the Gatherer's Boon effect as a botanist.",
+            "description_fr": "Récolter un total de 10 000 objets grâce aux chances de récolte supplémentaire en tant que botaniste.",
+            "patch": "2.1",
+            "points": 10,
+            "cPrev": [
+                778
+            ],
+            "cNext": [
+                1330
+            ]
+        },
+        "x1330": {
+            "name_en": "An Eye for Quantity: Botanist IV",
+            "name_fr": "Bonne trouvaille : botaniste IV",
+            "description_en": "Gather 20,000 items with the Gatherer's Boon effect as a botanist.",
+            "description_fr": "Récolter un total de 20 000 objets grâce aux chances de récolte supplémentaire en tant que botaniste.",
+            "reward": "character.character.title.262",
+            "patch": "3.0",
+            "points": 10,
+            "cPrev": [
+                779
+            ],
+            "cSiblings": [
+                "character.character.title.262"
+            ]
+        },
+        "x2516": {
+            "name_en": "Skyward Scythe I",
+            "name_fr": "Faucille d'Azurée I",
+            "description_en": "Earn 50,000 points toward your skyward score as a botanist.",
+            "description_fr": "Gagner un total de 50 000 points d'azur en tant que botaniste.",
+            "patch": "5.21",
+            "points": 5,
+            "cNext": [
+                2517
+            ],
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2523"
+            ]
+        },
+        "x2517": {
+            "name_en": "Skyward Scythe II",
+            "name_fr": "Faucille d'Azurée II",
+            "description_en": "Earn 150,000 points toward your skyward score as a botanist.",
+            "description_fr": "Gagner un total de 150 000 points d'azur en tant que botaniste.",
+            "patch": "5.21",
+            "points": 5,
+            "cPrev": [
+                2516
+            ],
+            "cNext": [
+                2518
+            ]
+        },
+        "x2518": {
+            "name_en": "Skyward Scythe III",
+            "name_fr": "Faucille d'Azurée III",
+            "description_en": "Earn 500,000 points toward your skyward score as a botanist.",
+            "description_fr": "Gagner un total de 500 000 points d'azur en tant que botaniste.",
+            "reward": "character.character.title.499",
+            "patch": "5.21",
+            "points": 10,
+            "cPrev": [
+                2517
+            ],
+            "cSiblings": [
+                "character.character.title.499"
+            ],
+            "cCombo": [
+                "character.achievement.crafting--gathering.all-disciplines.2525"
+            ]
+        },
+        "x2544": {
+            "name_en": "With Scythes Unclouded I",
+            "name_fr": "Botaniste des illusions I",
+            "description_en": "Mine 50 clouded mature trees or lush vegetation.",
+            "description_fr": "Couper ou faucher 50 fois sur des arbres matures ou des carrés de végétation brumeux du Diadème.",
+            "patch": "5.21",
+            "points": 5,
+            "cNext": [
+                2545
+            ]
+        },
+        "x2545": {
+            "name_en": "With Scythes Unclouded II",
+            "name_fr": "Botaniste des illusions II",
+            "description_en": "Mine 500 clouded mature trees or lush vegetation.",
+            "description_fr": "Couper ou faucher 500 fois sur des arbres matures ou des carrés de végétation brumeux du Diadème.",
+            "patch": "5.21",
+            "points": 5,
+            "cPrev": [
+                2544
+            ],
+            "cNext": [
+                2546
+            ]
+        },
+        "x2546": {
+            "name_en": "With Scythes Unclouded III",
+            "name_fr": "Botaniste des illusions III",
+            "description_en": "Mine 1,000 clouded mature trees or lush vegetation.",
+            "description_fr": "Couper ou faucher 1 000 fois sur des arbres matures ou des carrés de végétation brumeux du Diadème.",
+            "patch": "5.21",
+            "points": 10,
+            "cPrev": [
+                2545
+            ]
+        },
+        "x2536": {
+            "name_en": "The Height of Botany",
+            "name_fr": "Botaniste du Nichoir",
+            "description_en": "As a botanist, submit 50,000 expert recipe materials for the second phase of the Ishgardian restoration.",
+            "description_fr": "Faire expertiser un total de 50 000 objets pour recettes avancées de la deuxième phase de reconstruction d'Azurée récoltés en tant que botaniste.",
+            "reward": "character.character.title.512",
+            "patch": "5.21",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.512"
+            ]
+        },
+        "x2657": {
+            "name_en": "Botanists of a Feather",
+            "name_fr": "Botaniste de Tombeplume",
+            "description_en": "As a botanist, submit 50,000 expert recipe materials for the third phase of the Ishgardian restoration.",
+            "description_fr": "Faire expertiser un total de 50 000 objets pour recettes avancées de la troisième phase de reconstruction d'Azurée récoltés en tant que botaniste.",
+            "reward": "character.character.title.537",
+            "patch": "5.31",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.537"
+            ]
+        },
+        "x2816": {
+            "name_en": "An Ode to Botany",
+            "name_fr": "Botaniste du Nouveau Refrain",
+            "description_en": "As a botanist, submit 50,000 expert recipe materials for the fourth phase of the Ishgardian restoration.",
+            "description_fr": "Faire expertiser un total de 50 000 objets pour recettes avancées de la quatrième phase de reconstruction d'Azurée récoltés en tant que botaniste.",
+            "reward": "character.character.title.574",
+            "patch": "5.41",
+            "points": 10,
+            "cSiblings": [
+                "character.character.title.574"
+            ]
+        }
+    }
+}

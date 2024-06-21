@@ -1,0 +1,420 @@
+{
+    "key": "aesthetician",
+    "groupName_en": "Aesthetician",
+    "groupName_fr": "Esthéticien",
+    "headers": {
+        "name": {
+            "header_en": "Name",
+            "header_fr": "Nom"
+        },
+        "category": {
+            "header_en": "Category",
+            "header_fr": "Catégorie"
+        },
+        "source": {
+            "link": true,
+            "header_en": "Source",
+            "header_fr": "Source"
+        },
+        "gender": {
+            "filterable": true,
+            "header_en": "Gender",
+            "header_fr": "Genre"
+        },
+        "patch": {
+            "header_en": "Patch",
+            "header_fr": "Patch"
+        }
+    },
+    "common": [
+        "category"
+    ],
+    "tasks": {
+        "x0": {
+            "name_en": "Adventure",
+            "name_fr": "Aventurier",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "14 MGP",
+            "source_fr": "14 PGS",
+            "patch": "3.1",
+            "gender_en": "Unisex (Differing Styles)",
+            "gender_fr": "Unisexe (styles différents)"
+        },
+        "x1": {
+            "name_en": "Controlled Chaos",
+            "name_fr": "Coupe asymétrique",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "1,800 Skybuilders' Scrips",
+            "source_fr": "1.800 Assignats d'Azurée",
+            "patch": "5.21",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x2": {
+            "name_en": "Curls",
+            "name_fr": "Boucles",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "9,600 MGP",
+            "source_fr": "9.600 PGS",
+            "patch": "3.1",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x3": {
+            "name_en": "Early to Rise",
+            "name_fr": "Lêve-tôt",
+            "category": "CATEGORY.DUTY",
+            "source_en": "Delubrum Reginae",
+            "source_fr": "Delubrum Reginae",
+            "patch": "5.45",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x4": {
+            "name_en": "Eternal Bonding",
+            "name_fr": "Lien éternel",
+            "category": "CATEGORY.QUEST",
+            "source_en": "The Ties That Bind (Level 1 Special Quest)",
+            "source_fr": "Quête nv.1: \"Jusqu'à ce que le destin vous sépare\"",
+            "patch": "2.4",
+            "gender_en": "Unisex (Differing Styles)",
+            "gender_fr": "Unisexe (styles différents)"
+        },
+        "x5": {
+            "name_en": "Fashionably Feathered",
+            "name_fr": "Brushing souple",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "18,000 Wolf Marks",
+            "source_fr": "18.000 Marques de loup",
+            "patch": "4.3",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x6": {
+            "name_en": "Form and Function",
+            "name_fr": "Tresse bandeau",
+            "category": "CATEGORY.DUTY",
+            "source_en": "Happy Bunny Lockbox - Eureka Pyros",
+            "source_fr": "Eurêka Pyros",
+            "patch": "4.45",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x7": {
+            "name_en": "Great Lengths",
+            "name_fr": "Cheveux longs classiques",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "30,000 MGP",
+            "source_fr": "30.000 PGS",
+            "patch": "5.0",
+            "gender_en": "Unisex (Differing Styles)",
+            "gender_fr": "Unisexe (styles différents)"
+        },
+        "x8": {
+            "name_en": "Gyr Abanian Plait",
+            "name_fr": "Tresse gyrabanienne",
+            "category": "CATEGORY.DUTY",
+            "source": "duty.dutyraid-finder.deep-dungeon.1",
+            "patch": "4.35",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x9": {
+            "name_en": "Lexen-tails",
+            "name_fr": "Ramza & Alma",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "50,000 MGP",
+            "source_fr": "50.000 PGS",
+            "patch": "4.45",
+            "gender_en": "Unisex (Differing Styles)",
+            "gender_fr": "Unisexe (styles différents)"
+        },
+        "x10": {
+            "name_en": "Lucian Locks",
+            "name_fr": "Noctis",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Final Fantasy XV Collaboration",
+            "source_fr": "Quête en collaboration avec Final Fantasy XV",
+            "patch": "4.5",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe",
+            "defaultCompletion": "X"
+        },
+        "x11": {
+            "name_en": "Master & Commander",
+            "name_fr": "Capitaine général",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store (Aymeric's Attire)",
+            "source_fr": "Compris dans la tenue \"Tenue d'Aymeric\" (Station mog)",
+            "patch": "3.55a",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe",
+            "defaultCompletion": "X"
+        },
+        "x12": {
+            "name_en": "Modern Legend",
+            "name_fr": "Mèches légendaires",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "1,800 Skybuilders' Scrips",
+            "source_fr": "1.800 Assignats d'Azurée",
+            "patch": "5.11",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x13": {
+            "name_en": "Ponytails",
+            "name_fr": "Queue de cheval",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "8,000 MGP",
+            "source_fr": "8.000 PGS",
+            "patch": "2.51",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x14": {
+            "name_en": "Pulse - Lightning Hairstyle",
+            "name_fr": "Lightning",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store (Snow/Lightning's Attire)",
+            "source_fr": "Compris dans les tenues \"Tenue de Lightning\" ou \"Tenue de Snow\" (Station mog)",
+            "patch": "3.2",
+            "gender_en": "Female Only",
+            "gender_fr": "Femme seulement",
+            "defaultCompletion": "X"
+        },
+        "x15": {
+            "name_en": "Pulse - Snow's Hairstyle",
+            "name_fr": "Snow",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store (Snow/Lightning's Attire)",
+            "source_fr": "Compris dans les tenues \"Tenue de Lightning\" ou \"Tenue de Snow\" (Station mog)",
+            "patch": "3.2",
+            "gender_en": "Male Only",
+            "gender_fr": "Homme seulement",
+            "defaultCompletion": "X"
+        },
+        "x16": {
+            "name_en": "Rainmaker",
+            "name_fr": "Flambeur",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "5,000 MGP",
+            "source_fr": "5.000 PGS",
+            "patch": "3.55a",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x17": {
+            "name_en": "Saintly Style",
+            "name_fr": "Ailes de saint",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "1,800 Skybuilders' Scrips",
+            "source_fr": "1.800 Assignats d'Azurée",
+            "patch": "5.31",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x18": {
+            "name_en": "Samsonian Locks",
+            "name_fr": "Cheveux longs",
+            "category": "CATEGORY.DUTY",
+            "source": "duty.dutyraid-finder.deep-dungeon.0",
+            "patch": "3.4",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x19": {
+            "name_en": "Scion Special Issue",
+            "name_fr": "Meneuse des Héritiers",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store (Minfilia's Attire)",
+            "source_fr": "Compris dans la tenue \"Tenue de Minfillia\" (Station mog)",
+            "patch": "3.1",
+            "gender_en": "Female Only",
+            "gender_fr": "Femme seulement",
+            "defaultCompletion": "X"
+        },
+        "x20": {
+            "name_en": "Scion Special Issue II",
+            "name_fr": "Surineur des Héritiers",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store (Thancred's Modish Attire)",
+            "source_fr": "Compris dans la tenue \"Nouvelle tenue de Thancred\" (Station mog)",
+            "patch": "3.35",
+            "gender_en": "Male Only",
+            "gender_fr": "Homme seulement",
+            "defaultCompletion": "X"
+        },
+        "x21": {
+            "name_en": "Scion Special Issue III",
+            "name_fr": "Élémentaliste des Héritiers",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store (Y'shtola's Modish Attire)",
+            "source_fr": "Compris dans la tenue \"Nouvelle tenue de Y'shtola\" (Station mog)",
+            "patch": "3.35",
+            "gender_en": "Female Only",
+            "gender_fr": "Femme seulement",
+            "defaultCompletion": "X"
+        },
+        "x22": {
+            "name_en": "Sharlayan Studies",
+            "name_fr": "Prodige sharlayanais",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store (Brand New Alphinaud's Attire)",
+            "source_fr": "Compris dans la tenue \"Nouveau costume d'Alphinaud\" (Station mog)",
+            "patch": "5.4",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe",
+            "defaultCompletion": "X"
+        },
+        "x23": {
+            "name_en": "Strife",
+            "name_fr": "Strife",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Community Events Reward",
+            "source_fr": "Concours d'art & costume du Fan Festival 2018",
+            "patch": "4.4",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe",
+            "defaultCompletion": "X"
+        },
+        "x24": {
+            "name_en": "Styled for Hire",
+            "name_fr": "Mercenaire",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "18,000 Wolf Marks",
+            "source_fr": "18.000 Marques de loup",
+            "patch": "4.4",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x25": {
+            "name_en": "Wind Caller",
+            "name_fr": "Vartan",
+            "category": "CATEGORY.DUTY",
+            "source_en": "150 Bozjan Clusters",
+            "source_fr": "150 Cristaux bozjien",
+            "patch": "5.35",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x26": {
+            "name_en": "A Wicked Wake",
+            "name_fr": "Veillée des saints",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "2.38",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe",
+            "defaultCompletion": "X"
+        },
+        "x28": {
+            "name_en": "Scanning For Style",
+            "name_fr": "9S",
+            "category": "CATEGORY.DUTY",
+            "source_en": "The Tower at Paradigm's Breach",
+            "source_fr": "La tour de la Contingence",
+            "patch": "5.5",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x29": {
+            "name_en": "Battle-ready Bobs",
+            "name_fr": "2B",
+            "category": "CATEGORY.DUTY",
+            "source_en": "The Tower at Paradigm's Breach",
+            "source_fr": "La tour de la Contingence",
+            "patch": "5.5",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x30": {
+            "name_en": "Both Ways",
+            "name_fr": "Queue-de-cheval sur le côté",
+            "category": "CATEGORY.DUTY",
+            "source_en": "Zadnor Lockbox",
+            "source_fr": "Coffre verrouillé des Hauts plateaux de Zadnor",
+            "patch": "5.55",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x31": {
+            "name_en": "Clowning Around",
+            "name_fr": "Clown",
+            "category": "CATEGORY.EVENT",
+            "source_en": "All Saint's Wake (2022)",
+            "source_fr": "Veillée des saints (2022)",
+            "patch": "6.0",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe",
+            "defaultCompletion": "X"
+        },
+        "x32": {
+            "name_en": "Tall Tails",
+            "name_fr": "Queue De Cheval Haute",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "6,000 Seafarer's Cowries",
+            "source_fr": "6.000 Assignat insulaire azur",
+            "patch": "6.2",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x33": {
+            "name_en": "Practical Ponytails",
+            "name_fr": "Queue De Cheval Sommaire",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "6,000 Seafarer's Cowries",
+            "source_fr": "6.000 Assignat insulaire azur",
+            "patch": "6.2",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x34": {
+            "name_en": "Liberating Locks",
+            "name_fr": "libératrice des Héritiers",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Station mog",
+            "patch": "6.1",
+            "gender_en": "Female Only",
+            "gender_fr": "Femme seulement",
+            "defaultCompletion": "X"
+        },
+        "x35": {
+            "name_en": "Sharlayan Rebellion",
+            "name_fr": "Dissidente de Sharlayan",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Station mog",
+            "patch": "6.3",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe",
+            "defaultCompletion": "X"
+        },
+        "x36": {
+            "name_en": "A Close Shave",
+            "name_fr": "Coupe à ras",
+            "category": "CATEGORY.DUTY",
+            "source": "duty.dutyraid-finder.deep-dungeon.2",
+            "patch": "6.35",
+            "gender_en": "Unisex",
+            "gender_fr": "Unisexe"
+        },
+        "x37": {
+            "name_en": "Ambitious Ends",
+            "name_fr": "Coupe mi-longue négligée",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "6 Rokkon Potsherd",
+            "source_fr": "6 Relique du mont Rokkon",
+            "patch": "6.4"
+        },
+        "x38": {
+            "name_en": "The Bold and the Braid",
+            "name_fr": "Tresses collées sur le côté",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "6 Aloalo Potsherd",
+            "source_fr": "6 Relique de l'île d'Aloalo",
+            "patch": "6.51"
+        }
+    }
+}

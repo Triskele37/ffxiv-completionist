@@ -1,4 +1,4 @@
-import { GroupDefinition } from '@domain/Definition';
+import { GroupDefinition } from '@model/Definition';
 
 export const CRAFTING_LOG_DEFINITION: GroupDefinition = {
     path: 'crafting',
@@ -37,6 +37,7 @@ export const CRAFTING_LOG_DEFINITION: GroupDefinition = {
                         'charlemend',
                         'ameliance',
                         'anden',
+                        'margrat',
                     ]
                 },
                 {

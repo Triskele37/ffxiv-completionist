@@ -1,0 +1,510 @@
+{
+    "key": "lancer",
+    "groupName_en": "Lancer",
+    "groupName_fr": "Maître d'hast",
+    "cCombo": [
+        "character.achievement.battle.battle.731"
+    ],
+    "tasks": {
+        "x0": {
+            "rank": "1",
+            "name_en": "Lancer 01",
+            "name_fr": "Maître d'hast 01",
+            "zone_en": "Middle La Noscea",
+            "zone_fr": "Noscea centrale",
+            "location": "(25, 19)",
+            "mob_en": "Little Ladybug x3",
+            "mob_fr": "Coccinelle x3"
+        },
+        "x1": {
+            "rank": "1",
+            "name_en": "Lancer 02",
+            "name_fr": "Maître d'hast 02",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(23, 16)",
+            "mob_en": "Ground Squirrel x3",
+            "mob_fr": "Écureuil x3"
+        },
+        "x2": {
+            "rank": "1",
+            "name_en": "Lancer 03",
+            "name_fr": "Maître d'hast 03",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(25, 19)",
+            "mob_en": "Forest Funguar x3",
+            "mob_fr": "Fungus des forêts x3"
+        },
+        "x3": {
+            "rank": "1",
+            "name_en": "Lancer 04",
+            "name_fr": "Maître d'hast 04",
+            "zone_en": "North Shroud",
+            "zone_fr": "Forêt du nord",
+            "location": "(24, 27)",
+            "mob_en": "Miteling x3",
+            "mob_fr": "Petit acarus x3"
+        },
+        "x4": {
+            "rank": "1",
+            "name_en": "Lancer 05",
+            "name_fr": "Maître d'hast 05",
+            "zone_en": "North Shroud",
+            "zone_fr": "Forêt du nord",
+            "location": "(27, 21)",
+            "mob_en": "Opo-opo x3",
+            "mob_fr": "Opo-opo x3"
+        },
+        "x5": {
+            "rank": "1",
+            "name_en": "Lancer 06",
+            "name_fr": "Maître d'hast 06",
+            "zone_en": "North Shroud",
+            "zone_fr": "Forêt du nord",
+            "location": "(26, 20)",
+            "mob_en": "Microchu x3",
+            "mob_fr": "Microtyugh x3"
+        },
+        "x6": {
+            "rank": "1",
+            "name_en": "Lancer 07",
+            "name_fr": "Maître d'hast 07",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(25, 21), (21, 19)",
+            "mob_en": "Black Eft x3, Bog Yarzon x3",
+            "mob_fr": "Jeune triton noir x3, Yarzon des marais x3"
+        },
+        "x7": {
+            "rank": "1",
+            "name_en": "Lancer 08",
+            "name_fr": "Maître d'hast 08",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(29, 23)",
+            "mob_en": "Hoglet x3",
+            "mob_fr": "Goret x3"
+        },
+        "x8": {
+            "rank": "1",
+            "name_en": "Lancer 09",
+            "name_fr": "Maître d'hast 09",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(30, 19), (19, 18)",
+            "mob_en": "Anole x3, Diremite x3",
+            "mob_fr": "Anolis x3, Acarus x3"
+        },
+        "x9": {
+            "rank": "1",
+            "name_en": "Lancer 10",
+            "name_fr": "Maître d'hast 10",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(13, 26)",
+            "mob_en": "Tree Slug x3",
+            "mob_fr": "Limace arboricole x3"
+        },
+        "x10": {
+            "rank": "2",
+            "name_en": "Lancer 11",
+            "name_fr": "Maître d'hast 11",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(26, 29)",
+            "mob_en": "Arbor Buzzard x3",
+            "mob_fr": "Busard x3"
+        },
+        "x11": {
+            "rank": "2",
+            "name_en": "Lancer 12",
+            "name_fr": "Maître d'hast 12",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(24, 17)",
+            "mob_en": "Treant Sapling x3",
+            "mob_fr": "Pousse de tréant x3"
+        },
+        "x12": {
+            "rank": "2",
+            "name_en": "Lancer 13",
+            "name_fr": "Maître d'hast 13",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(13, 25)",
+            "mob_en": "Mandragora x3",
+            "mob_fr": "Mandragore x3"
+        },
+        "x13": {
+            "rank": "2",
+            "name_en": "Lancer 14",
+            "name_fr": "Maître d'hast 14",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(12, 24)",
+            "mob_en": "Wild Hoglet x3",
+            "mob_fr": "Goret sauvage x3"
+        },
+        "x14": {
+            "rank": "2",
+            "name_en": "Lancer 15",
+            "name_fr": "Maître d'hast 15",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(15, 27), (15, 28)",
+            "mob_en": "Lemur x3, Boring Weevil x3",
+            "mob_fr": "Lémur x3, Hanneton x3"
+        },
+        "x15": {
+            "rank": "2",
+            "name_en": "Lancer 16",
+            "name_fr": "Maître d'hast 16",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(18, 28)",
+            "mob_en": "Faerie Funguar x3",
+            "mob_fr": "Fungus fée x3"
+        },
+        "x16": {
+            "rank": "2",
+            "name_en": "Lancer 17",
+            "name_fr": "Maître d'hast 17",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(18, 27), (19, 30)",
+            "mob_en": "Giant Gnat x3, Boar Poacher x3",
+            "mob_fr": "Taon géant x3, Braconnière de sangliers x3"
+        },
+        "x17": {
+            "rank": "2",
+            "name_en": "Lancer 18",
+            "name_fr": "Maître d'hast 18",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(20, 26)",
+            "mob_en": "Ziz Gorlin x3",
+            "mob_fr": "Petit ziz x3"
+        },
+        "x18": {
+            "rank": "2",
+            "name_en": "Lancer 19",
+            "name_fr": "Maître d'hast 19",
+            "zone_en": "South Shroud, East Shroud",
+            "zone_fr": "Forêt du sud, Forêt de l'est",
+            "location": "(15, 17), (16, 21)",
+            "mob_en": "Qiqirn Beater x3, Black Bat x3",
+            "mob_fr": "Qiqirn rabatteur x3, Chauve-souris noire x3"
+        },
+        "x19": {
+            "rank": "2",
+            "name_en": "Lancer 20",
+            "name_fr": "Maître d'hast 20",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(15, 18)",
+            "mob_en": "Antelope Doe x3",
+            "mob_fr": "Antilope biche x3"
+        },
+        "x20": {
+            "rank": "3",
+            "name_en": "Lancer 21",
+            "name_fr": "Maître d'hast 21",
+            "zone_en": "Upper La Noscea",
+            "zone_fr": "Haute-Noscea",
+            "location": "(13, 24)",
+            "mob_en": "Stoneshell x4",
+            "mob_fr": "Coquepierre x4"
+        },
+        "x21": {
+            "rank": "3",
+            "name_en": "Lancer 22",
+            "name_fr": "Maître d'hast 22",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(17, 18)",
+            "mob_en": "Smallmouth Orobon x4",
+            "mob_fr": "Orobon petite gueule x4"
+        },
+        "x22": {
+            "rank": "3",
+            "name_en": "Lancer 23",
+            "name_fr": "Maître d'hast 23",
+            "zone_en": "Western Thanalan",
+            "zone_fr": "Thanalan occidental",
+            "location": "(15, 7)",
+            "mob_en": "Yarzon Scavenger x4",
+            "mob_fr": "Yarzon charognard x4"
+        },
+        "x23": {
+            "rank": "3",
+            "name_en": "Lancer 24",
+            "name_fr": "Maître d'hast 24",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(15, 22)",
+            "mob_en": "Redbelly Lookout x4",
+            "mob_fr": "Guetteur Ventrerouge x4"
+        },
+        "x24": {
+            "rank": "3",
+            "name_en": "Lancer 25",
+            "name_fr": "Maître d'hast 25",
+            "zone_en": "Western Thanalan, South Shroud",
+            "zone_fr": "Thanalan occidental, Forêt du sud",
+            "location": "(17, 6), (23, 20)",
+            "mob_en": "Moondrip Piledriver x3, Antelope Stag x4",
+            "mob_fr": "Artificier de Gouttelune x3, Antilope cerf x4"
+        },
+        "x25": {
+            "rank": "3",
+            "name_en": "Lancer 26",
+            "name_fr": "Maître d'hast 26",
+            "zone_en": "Southern Thanalan",
+            "zone_fr": "Thanalan méridional",
+            "location": "(17, 15)",
+            "mob_en": "Sabotender x4",
+            "mob_fr": "pampa x4"
+        },
+        "x26": {
+            "rank": "3",
+            "name_en": "Lancer 27",
+            "name_fr": "Maître d'hast 27",
+            "zone_en": "Southern Thanalan, South Shroud",
+            "zone_fr": "Thanalan méridional, Forêt du sud",
+            "location": "(15, 13), (27, 21)",
+            "mob_en": "Sandskin Peiste x4, Goblin Thug x3",
+            "mob_fr": "Peiste sablon x4, Malfrat gobelin x3"
+        },
+        "x27": {
+            "rank": "3",
+            "name_en": "Lancer 28",
+            "name_fr": "Maître d'hast 28",
+            "zone_en": "Southern Thanalan",
+            "zone_fr": "Thanalan méridional",
+            "location": "(22, 11)",
+            "mob_en": "Corpse Brigade Firedancer x4",
+            "mob_fr": "Sorcier de la brigade des Cadavres x4"
+        },
+        "x28": {
+            "rank": "3",
+            "name_en": "Lancer 29",
+            "name_fr": "Maître d'hast 29",
+            "zone_en": "South Shroud, Eastern La Noscea",
+            "zone_fr": "Forêt du sud, Noscea orientale",
+            "location": "(28, 20), (28, 35)",
+            "mob_en": "Coeurlclaw Poacher x4, Apkallu x3",
+            "mob_fr": "Braconnière Griffrecoeurl x4, Apkallu x3"
+        },
+        "x29": {
+            "rank": "3",
+            "name_en": "Lancer 30",
+            "name_fr": "Maître d'hast 30",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(16, 34)",
+            "mob_en": "Midland Condor x4",
+            "mob_fr": "Condor des plaines x4"
+        },
+        "x30": {
+            "rank": "4",
+            "name_en": "Lancer 31",
+            "name_fr": "Maître d'hast 31",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(11, 22)",
+            "mob_en": "Floating Eye x5",
+            "mob_fr": "Œil flottant x4"
+        },
+        "x31": {
+            "rank": "4",
+            "name_en": "Lancer 32",
+            "name_fr": "Maître d'hast 32",
+            "zone_en": "Eastern La Noscea",
+            "zone_fr": "Noscea orientale",
+            "location": "(28, 32)",
+            "mob_en": "Large Buffalo x4",
+            "mob_fr": "Buffle x4"
+        },
+        "x32": {
+            "rank": "4",
+            "name_en": "Lancer 33",
+            "name_fr": "Maître d'hast 33",
+            "zone_en": "Southern Thanalan",
+            "zone_fr": "Thanalan méridional",
+            "location": "(25, 38), (18, 36)",
+            "mob_en": "Sundrake x4, Smoke Bomb x3",
+            "mob_fr": "Draconide du soleil x4, Bombo fumigène x3"
+        },
+        "x33": {
+            "rank": "4",
+            "name_en": "Lancer 34",
+            "name_fr": "Maître d'hast 34",
+            "zone_en": "Central Shroud",
+            "zone_fr": "Forêt centrale",
+            "location": "(12, 16)",
+            "mob_en": "Spriggan x4",
+            "mob_fr": "Spriggan x4"
+        },
+        "x34": {
+            "rank": "4",
+            "name_en": "Lancer 35",
+            "name_fr": "Maître d'hast 35",
+            "zone_en": "Outer La Noscea",
+            "zone_fr": "Noscea extérieure",
+            "location": "(15, 12), (15, 16)",
+            "mob_en": "Ringtail x4, Basalt Golem x3",
+            "mob_fr": "Galago à queue annelée x4, Golem de basalte x3"
+        },
+        "x35": {
+            "rank": "4",
+            "name_en": "Lancer 36",
+            "name_fr": "Maître d'hast 36",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas centrale",
+            "location": "(26, 20)",
+            "mob_en": "Ornery Karakul x4",
+            "mob_fr": "Karakul rageur x4"
+        },
+        "x36": {
+            "rank": "4",
+            "name_en": "Lancer 37",
+            "name_fr": "Maître d'hast 37",
+            "zone_en": "Coerthas Central Highlands, South Shroud",
+            "zone_fr": "Hautes terres du Coerthas centrale, Forêt du sud",
+            "location": "(31, 14), (25, 22)",
+            "mob_en": "Snow Wolf Pup x4, Lesser Kalong x3",
+            "mob_fr": "Louveteau des neiges x4, Kalong inférieur x3"
+        },
+        "x37": {
+            "rank": "4",
+            "name_en": "Lancer 38",
+            "name_fr": "Maître d'hast 38",
+            "zone_en": "North Shroud",
+            "zone_fr": "Forêt du nord",
+            "location": "(23, 25)",
+            "mob_en": "Dryad x4",
+            "mob_fr": "Dryade x4"
+        },
+        "x38": {
+            "rank": "4",
+            "name_en": "Lancer 39",
+            "name_fr": "Maître d'hast 39",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas centrale",
+            "location": "(25, 10), (16, 20)",
+            "mob_en": "Downy Aevis x4, Bateleur x3",
+            "mob_fr": "Eibis duveteux x4, Bateleur des dunes x3"
+        },
+        "x39": {
+            "rank": "4",
+            "name_en": "Lancer 40",
+            "name_fr": "Maître d'hast 40",
+            "zone_en": "Eastern Thanalan",
+            "zone_fr": "Thanalan orientale",
+            "location": "(27, 24)",
+            "mob_en": "Mirrorknight x4",
+            "mob_fr": "Chevalier miroir x4"
+        },
+        "x40": {
+            "rank": "5",
+            "name_en": "Lancer 41",
+            "name_fr": "Maître d'hast 41",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas centrale",
+            "location": "(9, 14), (3, 21)",
+            "mob_en": "Dragonfly x5, Baritine Croc x4",
+            "mob_fr": "Draguêpe x5, Croco baryton x4"
+        },
+        "x41": {
+            "rank": "5",
+            "name_en": "Lancer 42",
+            "name_fr": "Maître d'hast 42",
+            "zone_en": "Western La Noscea",
+            "zone_fr": "Noscea occidentale",
+            "location": "(14, 35)",
+            "mob_en": "Dead Man's Moan x5",
+            "mob_fr": "Mort gémissant x5"
+        },
+        "x42": {
+            "rank": "5",
+            "name_en": "Lancer 43",
+            "name_fr": "Maître d'hast 43",
+            "zone_en": "East Shroud",
+            "zone_fr": "Forêt de l'est",
+            "location": "(32, 20), (23, 21)",
+            "mob_en": "3rd Cohort Signifer x2, Morbol x5",
+            "mob_fr": "Signifer de la 3e cohorte x2, Morbol x5"
+        },
+        "x43": {
+            "rank": "5",
+            "name_en": "Lancer 44",
+            "name_fr": "Maître d'hast 44",
+            "zone_en": "South Shroud",
+            "zone_fr": "Forêt du sud",
+            "location": "(29, 23)",
+            "mob_en": "Wild Hog x5",
+            "mob_fr": "Verrat sauvage x5"
+        },
+        "x44": {
+            "rank": "5",
+            "name_en": "Lancer 45",
+            "name_fr": "Maître d'hast 45",
+            "zone_en": "Mor Dhona",
+            "zone_fr": "Mor Dhona",
+            "location": "(16, 15), (24, 12)",
+            "mob_en": "Daring Harrier x4, Lake Cobra x5",
+            "mob_fr": "Harceleur casse-cou x4, Cobra des lacs x5"
+        },
+        "x45": {
+            "rank": "5",
+            "name_en": "Lancer 46",
+            "name_fr": "Maître d'hast 46",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas centrale",
+            "location": "(15, 30)",
+            "mob_en": "Snow Wolf x5",
+            "mob_fr": "Loup des neiges x5"
+        },
+        "x46": {
+            "rank": "5",
+            "name_en": "Lancer 47",
+            "name_fr": "Maître d'hast 47",
+            "zone_en": "Western La Noscea, Mor Dhona",
+            "zone_fr": "Noscea occidentale, Mor Dhona",
+            "location": "(14, 17), (11, 17)",
+            "mob_en": "Sea Wasp x5, 5th Cohort Vanguard x4",
+            "mob_fr": "Guêpe des mers x5, Avant-garde de la 5e cohorte x4"
+        },
+        "x47": {
+            "rank": "5",
+            "name_en": "Lancer 48",
+            "name_fr": "Maître d'hast 48",
+            "zone_en": "Coerthas Central Highlands",
+            "zone_fr": "Hautes terres du Coerthas centrale",
+            "location": "(31, 18)",
+            "mob_en": "Natalan Watchwolf x5",
+            "mob_fr": "Loup de Natalan x5"
+        },
+        "x48": {
+            "rank": "5",
+            "name_en": "Lancer 49",
+            "name_fr": "Maître d'hast 49",
+            "zone_en": "East Shroud, Northern Thanalan",
+            "zone_fr": "Forêt de l'est, Thanalan septentrional",
+            "location": "(24, 11), (22, 24)",
+            "mob_en": "Sylphlands Sentinel x5, Basilisk x4",
+            "mob_fr": "Sentinelle des Terres sylphes x5, Basilic x4"
+        },
+        "x49": {
+            "rank": "5",
+            "name_en": "Lancer 50",
+            "name_fr": "Maître d'hast 50",
+            "zone_en": "Eastern La Noscea",
+            "zone_fr": "Noscea orientale",
+            "location": "(28, 20)",
+            "mob_en": "2nd Cohort Eques x5",
+            "mob_fr": "Eques de la 2e cohorte x5"
+        }
+    }
+}

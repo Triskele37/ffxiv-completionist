@@ -79,7 +79,7 @@
                 {{mergeTask.notes}}
             </div>
 
-            <span class="p-buttonset">
+            <p-buttonGroup>
                 <p-button
                     [label]="'OVERLAY.CUSTOM.SKIP' | translate"
                     (onClick)="goToNextMerge()"
@@ -88,7 +88,7 @@
                     [label]="'OVERLAY.CUSTOM.EXIT' | translate"
                     (onClick)="exitMerge()"
                 ></p-button>
-            </span>
+            </p-buttonGroup>
 
             <ng-container *ngIf="mergeMatches.length > 0">
                 <p-divider align="center">

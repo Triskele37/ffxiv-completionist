@@ -1,0 +1,430 @@
+{
+    "key": "amaljaa",
+    "groupName_en": "Amalj'aa",
+    "groupName_fr": "Amalj'aa",
+    "common": [
+        "type"
+    ],
+    "tasks": {
+        "x66753": {
+            "level": 43,
+            "name_en": "Peace for Thanalan",
+            "name_fr": "La révolte des cendres",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Swift",
+            "npc_fr": "Swift Ryder",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66488"
+            ],
+            "cNext": [
+                66754
+            ],
+            "patch": "4.31"
+        },
+        "x66754": {
+            "level": 43,
+            "name_en": "Brotherhood of Ash",
+            "name_fr": "Naître de ses cendres",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Hamujj Gah",
+            "npc_fr": "Hamujj Gah",
+            "cPrev": [
+                66753
+            ],
+            "cNext": [
+                66755
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.0"
+            ],
+            "patch": "4.31"
+        },
+        "x66755": {
+            "level": 46,
+            "name_en": "Ranger Rescue",
+            "name_fr": "Une inextinguible soif de vengeance",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Hamujj Gah",
+            "npc_fr": "Hamujj Gah",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "cPrev": [
+                66754
+            ],
+            "cNext": [
+                66756
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.1"
+            ],
+            "patch": "4.31"
+        },
+        "x66756": {
+            "level": 48,
+            "name_en": "An Eye on the Inside",
+            "name_fr": "Retour de flamme",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Hamujj Gah",
+            "npc_fr": "Hamujj Gah",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "cPrev": [
+                66755
+            ],
+            "cNext": [
+                66757
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.2"
+            ],
+            "patch": "4.31"
+        },
+        "x66757": {
+            "level": 48,
+            "name_en": "Martial Perfection",
+            "name_fr": "La voie de la puissance",
+            "type": "CATEGORY.MAIN",
+            "npc_en": "Yadovv Gah",
+            "npc_fr": "Yadovv Gah",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                66756
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.3"
+            ],
+            "patch": "4.31"
+        },
+        "x66773": {
+            "level": 46,
+            "name_en": "The Gland That Feeds You",
+            "name_fr": "Éleveur de champions",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Narujj Boh",
+            "npc_fr": "Narujj Boh",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "patch": "4.31"
+        },
+        "x66758": {
+            "level": 43,
+            "name_en": "A Shell to Scry On",
+            "name_fr": "Scapulomancie préventive",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Fibubb Gah",
+            "npc_fr": "Fibubb Gah",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "patch": "4.31"
+        },
+        "x66760": {
+            "level": 43,
+            "name_en": "A Sappy Ending",
+            "name_fr": "Savoir panser ses plaies",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Fibubb Gah",
+            "npc_fr": "Fibubb Gah",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "patch": "4.31"
+        },
+        "x66761": {
+            "level": 43,
+            "name_en": "Luring Lacovie",
+            "name_fr": "Tortues tortionnaires",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Fibubb Gah",
+            "npc_fr": "Fibubb Gah",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "patch": "4.31"
+        },
+        "x66762": {
+            "level": 43,
+            "name_en": "Fighting Firesand with Fire",
+            "name_fr": "Mettre le feu aux poudres",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Fibubb Gah",
+            "npc_fr": "Fibubb Gah",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "patch": "4.31"
+        },
+        "x66763": {
+            "level": 43,
+            "name_en": "Smothering Instinct",
+            "name_fr": "Étouffer la flamme",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Fibubb Gah",
+            "npc_fr": "Fibubb Gah",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "patch": "4.31"
+        },
+        "x66764": {
+            "level": 43,
+            "name_en": "Losing One's Tempered",
+            "name_fr": "Remède miracle",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Fibubb Gah",
+            "npc_fr": "Fibubb Gah",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "patch": "4.31"
+        },
+        "x66765": {
+            "level": 43,
+            "name_en": "Ravage the Ravagers",
+            "name_fr": "Les chasseresses chassées",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Fibubb Gah",
+            "npc_fr": "Fibubb Gah",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "patch": "4.31"
+        },
+        "x66766": {
+            "level": 43,
+            "name_en": "Arms of the U",
+            "name_fr": "Traditions bafouées",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Fibubb Gah",
+            "npc_fr": "Fibubb Gah",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "patch": "4.31"
+        },
+        "x66767": {
+            "level": 43,
+            "name_en": "Blitzing the Beacons",
+            "name_fr": "La retraite des flambeaux",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Fibubb Gah",
+            "npc_fr": "Fibubb Gah",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "patch": "4.31"
+        },
+        "x66759": {
+            "level": 43,
+            "name_en": "Borderline Slaughter",
+            "name_fr": "Le châtiment des éclaireurs",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Fibubb Gah",
+            "npc_fr": "Fibubb Gah",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "patch": "4.31"
+        },
+        "x66768": {
+            "level": 46,
+            "name_en": "Rite Where It Hurts",
+            "name_fr": "Objets d'un culte",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Narujj Boh",
+            "npc_fr": "Narujj Boh",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "patch": "4.31"
+        },
+        "x66769": {
+            "level": 46,
+            "name_en": "Thinning the Ranks",
+            "name_fr": "Les hommes de main des Crocs",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Narujj Boh",
+            "npc_fr": "Narujj Boh",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "patch": "4.31"
+        },
+        "x66770": {
+            "level": 46,
+            "name_en": "Forged in Flame",
+            "name_fr": "Rites nocturnes",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Narujj Boh",
+            "npc_fr": "Narujj Boh",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "patch": "4.31"
+        },
+        "x66771": {
+            "level": 46,
+            "name_en": "Beacon Keepers",
+            "name_fr": "Décharger sa flamme",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Narujj Boh",
+            "npc_fr": "Narujj Boh",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "patch": "4.31"
+        },
+        "x66772": {
+            "level": 46,
+            "name_en": "Singed Fur Their Own Good",
+            "name_fr": "Chat échaudé craint l'Amalj'aa",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Narujj Boh",
+            "npc_fr": "Narujj Boh",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "patch": "4.31"
+        },
+        "x66774": {
+            "level": 46,
+            "name_en": "Douse Them While They're Down",
+            "name_fr": "Le supplice de l'eau",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Narujj Boh",
+            "npc_fr": "Narujj Boh",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "patch": "4.31"
+        },
+        "x66775": {
+            "level": 46,
+            "name_en": "Before They Are Tempered",
+            "name_fr": "La traite des hommes",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Narujj Boh",
+            "npc_fr": "Narujj Boh",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "patch": "4.31"
+        },
+        "x66776": {
+            "level": 46,
+            "name_en": "Hard to Port",
+            "name_fr": "Piège des cristaux",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Narujj Boh",
+            "npc_fr": "Narujj Boh",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "patch": "4.31"
+        },
+        "x66777": {
+            "level": 46,
+            "name_en": "This Infernal Heat",
+            "name_fr": "Entretenir la flamme",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Narujj Boh",
+            "npc_fr": "Narujj Boh",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "patch": "4.31"
+        },
+        "x66778": {
+            "level": 48,
+            "name_en": "Elite Beating",
+            "name_fr": "Garde rapprochée",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Yadovv Gah",
+            "npc_fr": "Yadovv Gah",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x66779": {
+            "level": 48,
+            "name_en": "Unholier than Thou",
+            "name_fr": "Coup de prêtre",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Yadovv Gah",
+            "npc_fr": "Yadovv Gah",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x66780": {
+            "level": 48,
+            "name_en": "Raiding the Cache",
+            "name_fr": "Déposer les armes",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Yadovv Gah",
+            "npc_fr": "Yadovv Gah",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x66781": {
+            "level": 48,
+            "name_en": "Pulling Fangs",
+            "name_fr": "Frapper l'élite",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Yadovv Gah",
+            "npc_fr": "Yadovv Gah",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x66782": {
+            "level": 48,
+            "name_en": "Demolition Drake",
+            "name_fr": "Terre brûlée",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Yadovv Gah",
+            "npc_fr": "Yadovv Gah",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x66783": {
+            "level": 48,
+            "name_en": "Fire-spitting Image",
+            "name_fr": "D'une pierre deux flammes",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Yadovv Gah",
+            "npc_fr": "Yadovv Gah",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x66784": {
+            "level": 48,
+            "name_en": "Nothing Sacred",
+            "name_fr": "L'opprobre et le mépris",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Yadovv Gah",
+            "npc_fr": "Yadovv Gah",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x66785": {
+            "level": 48,
+            "name_en": "Fodder for the Flamefangs",
+            "name_fr": "Les clefs de la liberté",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Yadovv Gah",
+            "npc_fr": "Yadovv Gah",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x66786": {
+            "level": 48,
+            "name_en": "Hatchling Humiliation",
+            "name_fr": "Le vase où meurt cette vermine",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Yadovv Gah",
+            "npc_fr": "Yadovv Gah",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        },
+        "x66787": {
+            "level": 48,
+            "name_en": "The Beacon That Burns You",
+            "name_fr": "Pour la gloire d'Ifrit",
+            "type": "CATEGORY.DAILY",
+            "npc_en": "Yadovv Gah",
+            "npc_fr": "Yadovv Gah",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "patch": "4.31"
+        }
+    }
+}

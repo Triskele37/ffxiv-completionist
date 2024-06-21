@@ -1,0 +1,1039 @@
+{
+    "key": "treasure-hunt",
+    "groupName_en": "Treasure Hunt",
+    "groupName_fr": "Chasse aux trésors",
+    "tasks": {
+        "x878": {
+            "name_en": "I Can Dig It I",
+            "name_fr": "Creuser son trou I",
+            "description_en": "Decipher 3 timeworn leather maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 3 vieilles cartes en cuir et ouvrir les coffres auxquels elles conduisent.",
+            "patch": "2.1",
+            "points": 5
+        },
+        "x879": {
+            "name_en": "I Can Dig It II",
+            "name_fr": "Creuser son trou II",
+            "description_en": "Decipher 5 timeworn goatskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 5 vieilles cartes en peau de bouquetin et ouvrir les coffres auxquels elles conduisent.",
+            "patch": "2.1",
+            "points": 5
+        },
+        "x880": {
+            "name_en": "I Can Dig It III",
+            "name_fr": "Creuser son trou III",
+            "description_en": "Decipher 10 timeworn toadskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 10 vieilles cartes en peau de crapaud et ouvrir les coffres auxquels elles conduisent.",
+            "patch": "2.1",
+            "points": 5
+        },
+        "x881": {
+            "name_en": "I Can Dig It IV",
+            "name_fr": "Creuser son trou IV",
+            "description_en": "Decipher 20 timeworn boarskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 20 vieilles cartes en peau de sanglier et ouvrir les coffres auxquels elles conduisent.",
+            "patch": "2.1",
+            "points": 10
+        },
+        "x882": {
+            "name_en": "No Stone Unturned",
+            "name_fr": "Trésor humain vivant",
+            "description_en": "Decipher 20 timeworn peisteskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 20 vieilles cartes en peau de peiste et ouvrir les coffres auxquels elles conduisent.",
+            "reward": "character.character.title.147",
+            "patch": "2.1",
+            "points": 20,
+            "cSiblings": [
+                "character.character.title.147"
+            ]
+        },
+        "x1298": {
+            "name_en": "I Can Dig It V",
+            "name_fr": "Creuser son trou V",
+            "description_en": "Decipher 20 timeworn archaeoskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 20 vieilles cartes en peau d'archéornis et ouvrir les coffres auxquels elles conduisent.",
+            "patch": "3.0",
+            "points": 20
+        },
+        "x1299": {
+            "name_en": "I Can Dig It VI",
+            "name_fr": "Creuser son trou VI",
+            "description_en": "Decipher 20 timeworn wyvernskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 20 vieilles cartes en peau de wyverne et ouvrir les coffres auxquels elles conduisent.",
+            "patch": "3.0",
+            "points": 20
+        },
+        "x1300": {
+            "name_en": "I Can Dig It VII",
+            "name_fr": "Creuser son trou VII",
+            "description_en": "Decipher 20 timeworn dragonskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 20 vieilles cartes en peau de dragon et ouvrir les coffres auxquels elles conduisent.",
+            "patch": "3.0",
+            "points": 20
+        },
+        "x1019": {
+            "name_en": "Unhide and Seek",
+            "name_fr": "Dénicheur de trésors",
+            "description_en": "Decipher unhidden leather maps to locate and loot 20 treasure coffers.",
+            "description_fr": "Déchiffrer 20 cartes secrètes en cuir et ouvrir les coffres auxquels elles conduisent.",
+            "reward": "character.character.title.173",
+            "patch": "2.3",
+            "points": 20,
+            "cSiblings": [
+                "character.character.title.173"
+            ]
+        },
+        "x1942": {
+            "name_en": "I Can Dig It VIII",
+            "name_fr": "Creuser son trou VIII",
+            "description_en": "Decipher 20 timeworn gaganaskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 20 vieilles cartes en peau de gagana et ouvrir les coffres auxquels elles conduisent.",
+            "patch": "4.0",
+            "points": 20
+        },
+        "x1943": {
+            "name_en": "I Can Dig It IX",
+            "name_fr": "Creuser son trou IX",
+            "description_en": "Decipher 20 timeworn gazelleskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 20 vieilles cartes en peau de gazelle et ouvrir les coffres auxquels elles conduisent.",
+            "patch": "4.0",
+            "points": 20
+        },
+        "x2396": {
+            "name_en": "I Can Dig It X",
+            "name_fr": "Creuser son trou X",
+            "description_en": "Decipher 20 timeworn gliderskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 20 vieilles cartes en peau de smilodon et ouvrir les coffres auxquels elles conduisent.",
+            "patch": "5.0",
+            "points": 20
+        },
+        "x2397": {
+            "name_en": "I Can Dig It XI",
+            "name_fr": "Creuser son trou XI",
+            "description_en": "Decipher 20 timeworn zonureskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 20 vieilles cartes en peau de glaucus et ouvrir les coffres auxquels elles conduisent.",
+            "patch": "5.0",
+            "points": 20
+        },
+        "x3010": {
+            "name_en": "I Can Dig It XII",
+            "name_fr": "Creuser son trou XII",
+            "description_en": "Decipher 20 timeworn saigaskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 20 vieilles cartes en peau de gaja et ouvrir les coffres auxquels elles conduisent.",
+            "patch": "6.0",
+            "points": 20
+        },
+        "x3011": {
+            "name_en": "I Can Dig It XIII",
+            "name_fr": "Creuser son trou XIII",
+            "description_en": "Decipher 20 timeworn kumbhiraskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 20 vieilles cartes en peau de kumbhira et ouvrir les coffres auxquels elles conduisent.",
+            "patch": "6.0",
+            "points": 20
+        },
+        "x3243": {
+            "name_en": "I Can Dig It XIV",
+            "name_fr": "Creuser son trou XIV",
+            "description_en": "Decipher 20 timeworn ophiotauroskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 20 vieilles cartes en peau d'ophiotauros et ouvrir les coffres auxquels elles conduisent.",
+            "patch": "6.3",
+            "points": 20
+        },
+        "x1548": {
+            "name_en": "Life Aquatic I",
+            "name_fr": "Visiteur de l'Aquapole I",
+            "description_en": "Raid the Aquapolis.",
+            "description_fr": "Pénétrer 1 fois dans l'Aquapole.",
+            "reward": "character.character.title.293",
+            "patch": "3.3",
+            "points": 5,
+            "cNext": [
+                1549
+            ],
+            "cSiblings": [
+                "character.character.title.293"
+            ]
+        },
+        "x1549": {
+            "name_en": "Life Aquatic II",
+            "name_fr": "Visiteur de l'Aquapole II",
+            "description_en": "Raid the Aquapolis 5 times.",
+            "description_fr": "Pénétrer 5 fois dans l'Aquapole.",
+            "patch": "3.3",
+            "points": 10,
+            "cPrev": [
+                1548
+            ],
+            "cNext": [
+                1550
+            ]
+        },
+        "x1550": {
+            "name_en": "Life Aquatic III",
+            "name_fr": "Visiteur de l'Aquapole III",
+            "description_en": "Raid the Aquapolis 10 times.",
+            "description_fr": "Pénétrer 10 fois dans l'Aquapole.",
+            "patch": "3.3",
+            "points": 10,
+            "cPrev": [
+                1549
+            ],
+            "cNext": [
+                1551
+            ]
+        },
+        "x1551": {
+            "name_en": "Life Aquatic IV",
+            "name_fr": "Visiteur de l'Aquapole IV",
+            "description_en": "Raid the Aquapolis 20 times.",
+            "description_fr": "Pénétrer 20 fois dans l'Aquapole.",
+            "reward": "character.character.title.294",
+            "patch": "3.3",
+            "points": 20,
+            "cPrev": [
+                1550
+            ],
+            "cSiblings": [
+                "character.character.title.294"
+            ]
+        },
+        "x1552": {
+            "name_en": "The Slow Regard of Stolen Things I",
+            "name_fr": "Pilleur de l'Aquapole I",
+            "description_en": "Raid the deepest room in the Aquapolis.",
+            "description_fr": "Conquérir 1 fois l'Aquapole.",
+            "patch": "3.3",
+            "points": 5,
+            "cNext": [
+                1553
+            ]
+        },
+        "x1553": {
+            "name_en": "The Slow Regard of Stolen Things II",
+            "name_fr": "Pilleur de l'Aquapole II",
+            "description_en": "Raid the deepest room in the Aquapolis 5 times.",
+            "description_fr": "Conquérir 5 fois l'Aquapole.",
+            "patch": "3.3",
+            "points": 10,
+            "cPrev": [
+                1552
+            ],
+            "cNext": [
+                1554
+            ]
+        },
+        "x1554": {
+            "name_en": "The Slow Regard of Stolen Things III",
+            "name_fr": "Pilleur de l'Aquapole III",
+            "description_en": "Raid the deepest room in the Aquapolis 10 times.",
+            "description_fr": "Conquérir 10 fois l'Aquapole.",
+            "patch": "3.3",
+            "points": 10,
+            "cPrev": [
+                1553
+            ],
+            "cNext": [
+                1555
+            ]
+        },
+        "x1555": {
+            "name_en": "The Slow Regard of Stolen Things IV",
+            "name_fr": "Pilleur de l'Aquapole IV",
+            "description_en": "Raid the deepest room in the Aquapolis 20 times.",
+            "description_fr": "Conquérir 20 fois l'Aquapole.",
+            "reward": "character.character.title.295",
+            "patch": "3.3",
+            "points": 20,
+            "cPrev": [
+                1554
+            ],
+            "cSiblings": [
+                "character.character.title.295"
+            ]
+        },
+        "x1944": {
+            "name_en": "Raider of the Lost Canals I",
+            "name_fr": "Égoutier perdu d'Uznair I",
+            "description_en": "Raid the Lost Canals of Uznair.",
+            "description_fr": "Pénétrer 1 fois dans les Canaux perdus d'Uznair.",
+            "reward": "character.character.title.383",
+            "patch": "4.01",
+            "points": 5,
+            "cNext": [
+                1945
+            ],
+            "cSiblings": [
+                "character.character.title.383"
+            ]
+        },
+        "x1945": {
+            "name_en": "Raider of the Lost Canals II",
+            "name_fr": "Égoutier perdu d'Uznair II",
+            "description_en": "Raid the Lost Canals of Uznair 5 times.",
+            "description_fr": "Pénétrer 5 fois dans les Canaux perdus d'Uznair.",
+            "patch": "4.01",
+            "points": 10,
+            "cPrev": [
+                1944
+            ],
+            "cNext": [
+                1946
+            ]
+        },
+        "x1946": {
+            "name_en": "Raider of the Lost Canals III",
+            "name_fr": "Égoutier perdu d'Uznair III",
+            "description_en": "Raid the Lost Canals of Uznair 10 times.",
+            "description_fr": "Pénétrer 10 fois dans les Canaux perdus d'Uznair.",
+            "patch": "4.01",
+            "points": 10,
+            "cPrev": [
+                1945
+            ],
+            "cNext": [
+                1947
+            ]
+        },
+        "x1947": {
+            "name_en": "Raider of the Lost Canals IV",
+            "name_fr": "Égoutier perdu d'Uznair IV",
+            "description_en": "Raid the Lost Canals of Uznair 20 times.",
+            "description_fr": "Pénétrer 20 fois dans les Canaux perdus d'Uznair.",
+            "reward": "character.character.title.244",
+            "patch": "4.01",
+            "points": 20,
+            "cPrev": [
+                1946
+            ],
+            "cSiblings": [
+                "character.character.title.244"
+            ]
+        },
+        "x1948": {
+            "name_en": "The Deep End I",
+            "name_fr": "Vidangeur de canaux I",
+            "description_en": "Raid the deepest sluice in the Lost Canals of Uznair.",
+            "description_fr": "Conquérir 1 fois les Canaux perdus d'Uznair.",
+            "patch": "4.01",
+            "points": 5,
+            "cNext": [
+                1949
+            ]
+        },
+        "x1949": {
+            "name_en": "The Deep End II",
+            "name_fr": "Vidangeur de canaux II",
+            "description_en": "Raid the deepest sluice in the Lost Canals of Uznair 5 times.",
+            "description_fr": "Conquérir 5 fois les Canaux perdus d'Uznair.",
+            "patch": "4.01",
+            "points": 10,
+            "cPrev": [
+                1948
+            ],
+            "cNext": [
+                1950
+            ]
+        },
+        "x1950": {
+            "name_en": "The Deep End III",
+            "name_fr": "Vidangeur de canaux III",
+            "description_en": "Raid the deepest sluice in the Lost Canals of Uznair 10 times.",
+            "description_fr": "Conquérir 10 fois les Canaux perdus d'Uznair.",
+            "patch": "4.01",
+            "points": 10,
+            "cPrev": [
+                1949
+            ],
+            "cNext": [
+                1951
+            ]
+        },
+        "x1951": {
+            "name_en": "The Deep End IV",
+            "name_fr": "Vidangeur de canaux IV",
+            "description_en": "Raid the deepest sluice in the Lost Canals of Uznair 20 times.",
+            "description_fr": "Conquérir 20 fois les Canaux perdus d'Uznair.",
+            "reward": "character.character.title.245",
+            "patch": "4.01",
+            "points": 20,
+            "cPrev": [
+                1950
+            ],
+            "cSiblings": [
+                "character.character.title.245"
+            ]
+        },
+        "x1980": {
+            "name_en": "Raider of the Hidden Canals I",
+            "name_fr": "Rat d'égout d'Uznair I",
+            "description_en": "Raid the Hidden Canals of Uznair.",
+            "description_fr": "Pénétrer 1 fois dans les Canaux cachés d'Uznair.",
+            "reward": "character.character.title.128",
+            "patch": "4.1",
+            "points": 5,
+            "cNext": [
+                1981
+            ],
+            "cSiblings": [
+                "character.character.title.128"
+            ]
+        },
+        "x1981": {
+            "name_en": "Raider of the Hidden Canals II",
+            "name_fr": "Rat d'égout d'Uznair II",
+            "description_en": "Raid the Hidden Canals of Uznair 5 times.",
+            "description_fr": "Pénétrer 5 fois dans les Canaux cachés d'Uznair.",
+            "patch": "4.1",
+            "points": 10,
+            "cPrev": [
+                1980
+            ],
+            "cNext": [
+                1982
+            ]
+        },
+        "x1982": {
+            "name_en": "Raider of the Hidden Canals III",
+            "name_fr": "Rat d'égout d'Uznair III",
+            "description_en": "Raid the Hidden Canals of Uznair 10 times.",
+            "description_fr": "Pénétrer 10 fois dans les Canaux cachés d'Uznair.",
+            "patch": "4.1",
+            "points": 10,
+            "cPrev": [
+                1981
+            ],
+            "cNext": [
+                1983
+            ]
+        },
+        "x1983": {
+            "name_en": "Raider of the Hidden Canals IV",
+            "name_fr": "Rat d'égout d'Uznair IV",
+            "description_en": "Raid the Hidden Canals of Uznair 20 times.",
+            "description_fr": "Pénétrer 20 fois dans les Canaux cachés d'Uznair.",
+            "reward": "character.character.title.129",
+            "patch": "4.1",
+            "points": 20,
+            "cPrev": [
+                1982
+            ],
+            "cSiblings": [
+                "character.character.title.129"
+            ]
+        },
+        "x1984": {
+            "name_en": "The Deeper End I",
+            "name_fr": "Purgateur de canaux I",
+            "description_en": "Raid the deepest sluice in the Hidden Canals of Uznair.",
+            "description_fr": "Conquérir 1 fois les Canaux cachés d'Uznair.",
+            "patch": "4.1",
+            "points": 5,
+            "cNext": [
+                1985
+            ]
+        },
+        "x1985": {
+            "name_en": "The Deeper End II",
+            "name_fr": "Purgateur de canaux II",
+            "description_en": "Raid the deepest sluice in the Hidden Canals of Uznair 5 times.",
+            "description_fr": "Conquérir 5 fois les Canaux cachés d'Uznair.",
+            "patch": "4.1",
+            "points": 10,
+            "cPrev": [
+                1984
+            ],
+            "cNext": [
+                1986
+            ]
+        },
+        "x1986": {
+            "name_en": "The Deeper End III",
+            "name_fr": "Purgateur de canaux III",
+            "description_en": "Raid the deepest sluice in the Hidden Canals of Uznair 10 times.",
+            "description_fr": "Conquérir 10 fois les Canaux cachés d'Uznair.",
+            "patch": "4.1",
+            "points": 10,
+            "cPrev": [
+                1985
+            ],
+            "cNext": [
+                1987
+            ]
+        },
+        "x1987": {
+            "name_en": "The Deeper End IV",
+            "name_fr": "Purgateur de canaux IV",
+            "description_en": "Raid the deepest sluice in the Hidden Canals of Uznair 20 times.",
+            "description_fr": "Conquérir 20 fois les Canaux cachés d'Uznair.",
+            "reward": "character.character.title.130",
+            "patch": "4.1",
+            "points": 20,
+            "cPrev": [
+                1986
+            ],
+            "cSiblings": [
+                "character.character.title.130"
+            ]
+        },
+        "x2132": {
+            "name_en": "Raider of the Shifting Altars I",
+            "name_fr": "Visiteur du Temple sacré d'Uznair I",
+            "description_en": "Raid the Shifting Altars of Uznair.",
+            "description_fr": "Pénétrer 1 fois dans le Temple sacré d'Uznair.",
+            "reward": "character.character.title.404",
+            "patch": "4.4",
+            "points": 5,
+            "cNext": [
+                2133
+            ],
+            "cSiblings": [
+                "character.character.title.404"
+            ]
+        },
+        "x2133": {
+            "name_en": "Raider of the Shifting Altars II",
+            "name_fr": "Visiteur du Temple sacré d'Uznair II",
+            "description_en": "Raid the Shifting Altars of Uznair 5 times.",
+            "description_fr": "Pénétrer 5 fois dans le Temple sacré d'Uznair.",
+            "patch": "4.4",
+            "points": 10,
+            "cPrev": [
+                2132
+            ],
+            "cNext": [
+                2134
+            ]
+        },
+        "x2134": {
+            "name_en": "Raider of the Shifting Altars III",
+            "name_fr": "Visiteur du Temple sacré d'Uznair III",
+            "description_en": "Raid the Shifting Altars of Uznair 10 times.",
+            "description_fr": "Pénétrer 10 fois dans le Temple sacré d'Uznair.",
+            "patch": "4.4",
+            "points": 10,
+            "cPrev": [
+                2133
+            ],
+            "cNext": [
+                2135
+            ]
+        },
+        "x2135": {
+            "name_en": "Raider of the Shifting Altars IV",
+            "name_fr": "Visiteur du Temple sacré d'Uznair IV",
+            "description_en": "Raid the Shifting Altars of Uznair 20 times.",
+            "description_fr": "Pénétrer 20 fois dans le Temple sacré d'Uznair.",
+            "reward": "character.character.title.405",
+            "patch": "4.4",
+            "points": 20,
+            "cPrev": [
+                2134
+            ],
+            "cSiblings": [
+                "character.character.title.405"
+            ]
+        },
+        "x2136": {
+            "name_en": "The Deepest End I",
+            "name_fr": "La roue de la fortune I",
+            "description_en": "Complete the final invocation in the Shifting Altars of Uznair.",
+            "description_fr": "Réussir 1 série de cinq invocations dans le Temple sacré d'Uznair.",
+            "patch": "4.4",
+            "points": 5,
+            "cNext": [
+                2137
+            ]
+        },
+        "x2137": {
+            "name_en": "The Deepest End II",
+            "name_fr": "La roue de la fortune II",
+            "description_en": "Complete the final invocation in the Shifting Altars of Uznair 5 times.",
+            "description_fr": "Réussir 5 séries de cinq invocations dans le Temple sacré d'Uznair.",
+            "patch": "4.4",
+            "points": 10,
+            "cPrev": [
+                2136
+            ],
+            "cNext": [
+                2138
+            ]
+        },
+        "x2138": {
+            "name_en": "The Deepest End III",
+            "name_fr": "La roue de la fortune III",
+            "description_en": "Complete the final invocation in the Shifting Altars of Uznair 10 times.",
+            "description_fr": "Réussir 10 séries de cinq invocations dans le Temple sacré d'Uznair.",
+            "patch": "4.4",
+            "points": 10,
+            "cPrev": [
+                2137
+            ],
+            "cNext": [
+                2139
+            ]
+        },
+        "x2139": {
+            "name_en": "The Deepest End IV",
+            "name_fr": "La roue de la fortune IV",
+            "description_en": "Complete the final invocation in the Shifting Altars of Uznair 20 times.",
+            "description_fr": "Réussir 20 séries de cinq invocations dans le Temple sacré d'Uznair.",
+            "reward": "character.character.title.406",
+            "patch": "4.4",
+            "points": 20,
+            "cPrev": [
+                2138
+            ],
+            "cSiblings": [
+                "character.character.title.406"
+            ]
+        },
+        "x2401": {
+            "name_en": "Beauty and Its Beasts I",
+            "name_fr": "Visiteur du Donjon hypogéen du Lyhe Ghiah I",
+            "description_en": "Raid the Dungeons of Lyhe Ghiah.",
+            "description_fr": "Pénétrer 1 fois dans le Donjon hypogéen du Lyhe Ghiah.",
+            "reward": "character.character.title.466",
+            "patch": "5.05",
+            "points": 5,
+            "cNext": [
+                2402
+            ],
+            "cSiblings": [
+                "character.character.title.466"
+            ]
+        },
+        "x2402": {
+            "name_en": "Beauty and Its Beasts II",
+            "name_fr": "Visiteur du Donjon hypogéen du Lyhe Ghiah II",
+            "description_en": "Raid the Dungeons of Lyhe Ghiah 5 times.",
+            "description_fr": "Pénétrer 5 fois dans le Donjon hypogéen du Lyhe Ghiah.",
+            "patch": "5.05",
+            "points": 10,
+            "cPrev": [
+                2401
+            ],
+            "cNext": [
+                2403
+            ]
+        },
+        "x2403": {
+            "name_en": "Beauty and Its Beasts III",
+            "name_fr": "Visiteur du Donjon hypogéen du Lyhe Ghiah III",
+            "description_en": "Raid the Dungeons of Lyhe Ghiah 10 times.",
+            "description_fr": "Pénétrer 10 fois dans le Donjon hypogéen du Lyhe Ghiah.",
+            "patch": "5.05",
+            "points": 10,
+            "cPrev": [
+                2402
+            ],
+            "cNext": [
+                2404
+            ]
+        },
+        "x2404": {
+            "name_en": "Beauty and Its Beasts IV",
+            "name_fr": "Visiteur du Donjon hypogéen du Lyhe Ghiah IV",
+            "description_en": "Raid the Dungeons of Lyhe Ghiah 20 times.",
+            "description_fr": "Pénétrer 20 fois dans le Donjon hypogéen du Lyhe Ghiah.",
+            "reward": "character.character.title.467",
+            "patch": "5.05",
+            "points": 20,
+            "cPrev": [
+                2403
+            ],
+            "cSiblings": [
+                "character.character.title.467"
+            ]
+        },
+        "x2405": {
+            "name_en": "Happily Treasure After I",
+            "name_fr": "Maître du Donjon hypogéen du Lyhe Ghiah I",
+            "description_en": "Raid the final chamber in the Dungeons of Lyhe Ghiah.",
+            "description_fr": "Conquérir 1 fois le Donjon hypogéen du Lyhe Ghiah.",
+            "patch": "5.05",
+            "points": 5,
+            "cNext": [
+                2406
+            ]
+        },
+        "x2406": {
+            "name_en": "Happily Treasure After II",
+            "name_fr": "Maître du Donjon hypogéen du Lyhe Ghiah II",
+            "description_en": "Raid the final chamber in the Dungeons of Lyhe Ghiah 5 times.",
+            "description_fr": "Conquérir 5 fois le Donjon hypogéen du Lyhe Ghiah.",
+            "patch": "5.05",
+            "points": 10,
+            "cPrev": [
+                2405
+            ],
+            "cNext": [
+                2407
+            ]
+        },
+        "x2407": {
+            "name_en": "Happily Treasure After III",
+            "name_fr": "Maître du Donjon hypogéen du Lyhe Ghiah III",
+            "description_en": "Raid the final chamber in the Dungeons of Lyhe Ghiah 10 times.",
+            "description_fr": "Conquérir 10 fois le Donjon hypogéen du Lyhe Ghiah.",
+            "patch": "5.05",
+            "points": 10,
+            "cPrev": [
+                2406
+            ],
+            "cNext": [
+                2408
+            ]
+        },
+        "x2408": {
+            "name_en": "Happily Treasure After IV",
+            "name_fr": "Maître du Donjon hypogéen du Lyhe Ghiah IV",
+            "description_en": "Raid the final chamber in the Dungeons of Lyhe Ghiah 20 times.",
+            "description_fr": "Conquérir 20 fois le Donjon hypogéen du Lyhe Ghiah.",
+            "reward": "character.character.title.468",
+            "patch": "5.05",
+            "points": 20,
+            "cPrev": [
+                2407
+            ],
+            "cSiblings": [
+                "character.character.title.468"
+            ]
+        },
+        "x2740": {
+            "name_en": "The Dancing Prisoners I",
+            "name_fr": "Visiteur du Jardin secret du Lyhe Ghiah I",
+            "description_en": "Raid the Shifting Oubliettes of Lyhe Ghiah.",
+            "description_fr": "Pénétrer 1 fois dans le Jardin secret du Lyhe Ghiah.",
+            "reward": "character.character.title.560",
+            "patch": "5.4",
+            "points": 5,
+            "cNext": [
+                2741
+            ],
+            "cSiblings": [
+                "character.character.title.560"
+            ]
+        },
+        "x2741": {
+            "name_en": "The Dancing Prisoners II",
+            "name_fr": "Visiteur du Jardin secret du Lyhe Ghiah II",
+            "description_en": "Raid the Shifting Oubliettes of Lyhe Ghiah 5 times.",
+            "description_fr": "Pénétrer 5 fois dans le Jardin secret du Lyhe Ghiah.",
+            "patch": "5.4",
+            "points": 10,
+            "cPrev": [
+                2740
+            ],
+            "cNext": [
+                2742
+            ]
+        },
+        "x2742": {
+            "name_en": "The Dancing Prisoners III",
+            "name_fr": "Visiteur du Jardin secret du Lyhe Ghiah III",
+            "description_en": "Raid the Shifting Oubliettes of Lyhe Ghiah 10 times.",
+            "description_fr": "Pénétrer 10 fois dans le Jardin secret du Lyhe Ghiah.",
+            "patch": "5.4",
+            "points": 10,
+            "cPrev": [
+                2741
+            ],
+            "cNext": [
+                2743
+            ]
+        },
+        "x2743": {
+            "name_en": "The Dancing Prisoners IV",
+            "name_fr": "Visiteur du Jardin secret du Lyhe Ghiah IV",
+            "description_en": "Raid the Shifting Oubliettes of Lyhe Ghiah 20 times.",
+            "description_fr": "Pénétrer 20 fois dans le Jardin secret du Lyhe Ghiah.",
+            "reward": "character.character.title.561",
+            "patch": "5.4",
+            "points": 20,
+            "cPrev": [
+                2742
+            ],
+            "cSiblings": [
+                "character.character.title.561"
+            ]
+        },
+        "x2744": {
+            "name_en": "Away with the Fae I",
+            "name_fr": "Secret éventé I",
+            "description_en": "Open the final portal in the Shifting Oubliettes of Lyhe Ghiah.",
+            "description_fr": "Réussir 1 série de cinq invocations dans le Jardin secret du Lyhe Ghiah.",
+            "patch": "5.4",
+            "points": 5,
+            "cNext": [
+                2745
+            ]
+        },
+        "x2745": {
+            "name_en": "Away with the Fae II",
+            "name_fr": "Secret éventé II",
+            "description_en": "Open the final portal in the Shifting Oubliettes of Lyhe Ghiah 5 times.",
+            "description_fr": "Réussir 5 séries de cinq invocations dans le Jardin secret du Lyhe Ghiah.",
+            "patch": "5.4",
+            "points": 10,
+            "cPrev": [
+                2744
+            ],
+            "cNext": [
+                2746
+            ]
+        },
+        "x2746": {
+            "name_en": "Away with the Fae III",
+            "name_fr": "Secret éventé III",
+            "description_en": "Open the final portal in the Shifting Oubliettes of Lyhe Ghiah 10 times.",
+            "description_fr": "Réussir 10 séries de cinq invocations dans le Jardin secret du Lyhe Ghiah.",
+            "patch": "5.4",
+            "points": 10,
+            "cPrev": [
+                2745
+            ],
+            "cNext": [
+                2747
+            ]
+        },
+        "x2747": {
+            "name_en": "Away with the Fae IV",
+            "name_fr": "Secret éventé IV",
+            "description_en": "Open the final portal in the Shifting Oubliettes of Lyhe Ghiah 20 times.",
+            "description_fr": "Réussir 20 séries de cinq invocations dans le Jardin secret du Lyhe Ghiah.",
+            "reward": "character.character.title.562",
+            "patch": "5.4",
+            "points": 20,
+            "cPrev": [
+                2746
+            ],
+            "cSiblings": [
+                "character.character.title.562"
+            ]
+        },
+        "x3012": {
+            "name_en": "My Way or the Hyperway I",
+            "name_fr": "Espace ludique I",
+            "description_en": "Raid the Excitatron 6000.",
+            "description_fr": "Pénétrer 1 fois dans le Ludodrome.",
+            "reward": "character.character.title.619",
+            "patch": "6.05",
+            "points": 5,
+            "cNext": [
+                3013
+            ],
+            "cSiblings": [
+                "character.character.title.619"
+            ]
+        },
+        "x3013": {
+            "name_en": "My Way or the Hyperway II",
+            "name_fr": "Espace ludique II",
+            "description_en": "Raid the Excitatron 6000 5 times.",
+            "description_fr": "Pénétrer 5 fois dans le Ludodrome.",
+            "patch": "6.05",
+            "points": 10,
+            "cPrev": [
+                3012
+            ],
+            "cNext": [
+                3014
+            ]
+        },
+        "x3014": {
+            "name_en": "My Way or the Hyperway III",
+            "name_fr": "Espace ludique III",
+            "description_en": "Raid the Excitatron 6000 10 times.",
+            "description_fr": "Pénétrer 10 fois dans le Ludodrome.",
+            "patch": "6.05",
+            "points": 10,
+            "cPrev": [
+                3013
+            ],
+            "cNext": [
+                3015
+            ]
+        },
+        "x3015": {
+            "name_en": "My Way or the Hyperway IV",
+            "name_fr": "Espace ludique IV",
+            "description_en": "Raid the Excitatron 6000 20 times.",
+            "description_fr": "Pénétrer 20 fois dans le Ludodrome.",
+            "reward": "character.character.title.620",
+            "patch": "6.05",
+            "points": 20,
+            "cPrev": [
+                3014
+            ],
+            "cSiblings": [
+                "character.character.title.620"
+            ]
+        },
+        "x3016": {
+            "name_en": "Milk Those Ways I",
+            "name_fr": "Ludomane I",
+            "description_en": "Raid the final stage in the Excitatron 6000.",
+            "description_fr": "Conquérir 1 fois le Ludodrome.",
+            "patch": "6.05",
+            "points": 5,
+            "cNext": [
+                3017
+            ]
+        },
+        "x3017": {
+            "name_en": "Milk Those Ways II",
+            "name_fr": "Ludomane II",
+            "description_en": "Raid the final stage in the Excitatron 6000 5 times.",
+            "description_fr": "Conquérir 5 fois le Ludodrome.",
+            "patch": "6.05",
+            "points": 10,
+            "cPrev": [
+                3016
+            ],
+            "cNext": [
+                3018
+            ]
+        },
+        "x3018": {
+            "name_en": "Milk Those Ways III",
+            "name_fr": "Ludomane III",
+            "description_en": "Raid the final stage in the Excitatron 6000 10 times.",
+            "description_fr": "Conquérir 10 fois le Ludodrome.",
+            "patch": "6.05",
+            "points": 10,
+            "cPrev": [
+                3017
+            ],
+            "cNext": [
+                3019
+            ]
+        },
+        "x3019": {
+            "name_en": "Milk Those Ways IV",
+            "name_fr": "Ludomane IV",
+            "description_en": "Raid the final stage in the Excitatron 6000 20 times.",
+            "description_fr": "Conquérir 20 fois le Ludodrome.",
+            "reward": "character.character.title.621",
+            "patch": "6.05",
+            "points": 20,
+            "cPrev": [
+                3018
+            ],
+            "cSiblings": [
+                "character.character.title.621"
+            ]
+        },
+        "x3210": {
+            "name_en": "On the Proteion I",
+            "name_fr": "Visiteur du gymnase I",
+            "description_en": "Raid the Shifting Gymnasion Agonon.",
+            "description_fr": "Pénétrer 1 fois dans Elpis Gymnasion.",
+            "reward": "character.character.title.668",
+            "patch": "6.3",
+            "points": 5,
+            "cNext": [
+                3211
+            ],
+            "cSiblings": [
+                "character.character.title.668"
+            ]
+        },
+        "x3211": {
+            "name_en": "On the Proteion II",
+            "name_fr": "Visiteur du gymnase II",
+            "description_en": "Raid the Shifting Gymnasion Agonon 5 times.",
+            "description_fr": "Pénétrer 5 fois dans Elpis Gymnasion.",
+            "patch": "6.3",
+            "points": 10,
+            "cPrev": [
+                3210
+            ],
+            "cNext": [
+                3212
+            ]
+        },
+        "x3212": {
+            "name_en": "On the Proteion III",
+            "name_fr": "Visiteur du gymnase III",
+            "description_en": "Raid the Shifting Gymnasion Agonon 10 times.",
+            "description_fr": "Pénétrer 10 fois dans Elpis Gymnasion.",
+            "patch": "6.3",
+            "points": 10,
+            "cPrev": [
+                3211
+            ],
+            "cNext": [
+                3213
+            ]
+        },
+        "x3213": {
+            "name_en": "On the Proteion IV",
+            "name_fr": "Visiteur du gymnase IV",
+            "description_en": "Raid the Shifting Gymnasion Agonon 20 times.",
+            "description_fr": "Pénétrer 20 fois dans Elpis Gymnasion.",
+            "reward": "character.character.title.669",
+            "patch": "6.3",
+            "points": 20,
+            "cPrev": [
+                3212
+            ],
+            "cSiblings": [
+                "character.character.title.669"
+            ]
+        },
+        "x3214": {
+            "name_en": "Let None but Gymnasts Enter Here I",
+            "name_fr": "Maître du gymnase I",
+            "description_en": "Conquer the final trial in the Shifting Gymnasion Agonon.",
+            "description_fr": "Conquérir 1 fois Elpis Gymnasion.",
+            "patch": "6.3",
+            "points": 5,
+            "cNext": [
+                3215
+            ]
+        },
+        "x3215": {
+            "name_en": "Let None but Gymnasts Enter Here II",
+            "name_fr": "Maître du gymnase II",
+            "description_en": "Conquer the final trial in the Shifting Gymnasion Agonon 5 times.",
+            "description_fr": "Conquérir 5 fois Elpis Gymnasion.",
+            "patch": "6.3",
+            "points": 10,
+            "cPrev": [
+                3214
+            ],
+            "cNext": [
+                3216
+            ]
+        },
+        "x3216": {
+            "name_en": "Let None but Gymnasts Enter Here III",
+            "name_fr": "Maître du gymnase III",
+            "description_en": "Conquer the final trial in the Shifting Gymnasion Agonon 10 times.",
+            "description_fr": "Conquérir 10 fois Elpis Gymnasion.",
+            "patch": "6.3",
+            "points": 10,
+            "cPrev": [
+                3215
+            ],
+            "cNext": [
+                3217
+            ]
+        },
+        "x3217": {
+            "name_en": "Let None but Gymnasts Enter Here IV",
+            "name_fr": "Maître du gymnase IV",
+            "description_en": "Conquer the final trial in the Shifting Gymnasion Agonon 20 times.",
+            "description_fr": "Conquérir 20 fois Elpis Gymnasion.",
+            "reward": "character.character.title.670",
+            "patch": "6.3",
+            "points": 20,
+            "cPrev": [
+                3216
+            ],
+            "cSiblings": [
+                "character.character.title.670"
+            ]
+        }
+    }
+}

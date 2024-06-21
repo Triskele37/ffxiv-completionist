@@ -1,0 +1,269 @@
+{
+    "key": "materials",
+    "groupName_en": "Materials",
+    "groupName_fr": "Matériaux",
+    "headers": {
+        "name": {
+            "header_en": "Material",
+            "header_fr": "Matériaux"
+        },
+        "requirement": {
+            "link": true,
+            "header_en": "Requirement",
+            "header_fr": "Nécessite"
+        }
+    },
+    "common": [
+        "requirement"
+    ],
+    "tasks": {
+        "x0": {
+            "name_en": "Island Palm Leaf",
+            "name_fr": "Palme insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.0"
+        },
+        "x2": {
+            "name_en": "Island Branch",
+            "name_fr": "Branche insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.0"
+        },
+        "x3": {
+            "name_en": "Island Stone",
+            "name_fr": "Pierre insulaire",
+            "requirement": ""
+        },
+        "x4": {
+            "name_en": "Island Clam",
+            "name_fr": "Coque insulaire",
+            "requirement": ""
+        },
+        "x5": {
+            "name_en": "Island Laver",
+            "name_fr": "Sargasse tamamo insulaire",
+            "requirement": ""
+        },
+        "x6": {
+            "name_en": "Island Coral",
+            "name_fr": "Corail insulaire",
+            "requirement": ""
+        },
+        "x7": {
+            "name_en": "Islewort",
+            "name_fr": "Feuille d'arbuste insulaire",
+            "requirement": ""
+        },
+        "x8": {
+            "name_en": "Island Sand",
+            "name_fr": "Sable insulaire",
+            "requirement": ""
+        },
+        "x11": {
+            "name_en": "Island Vine",
+            "name_fr": "Sarment insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.0"
+        },
+        "x12": {
+            "name_en": "Island Sap",
+            "name_fr": "Sève insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.0"
+        },
+        "x1": {
+            "name_en": "Island Apple",
+            "name_fr": "Pomme insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.0"
+        },
+        "x9": {
+            "name_en": "Island Log",
+            "name_fr": "Rondin insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.0"
+        },
+        "x10": {
+            "name_en": "Island Palm Log",
+            "name_fr": "Rondin de palmier insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.0"
+        },
+        "x13": {
+            "name_en": "Island Copper Ore",
+            "name_fr": "Minerai de cuivre insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.1"
+        },
+        "x14": {
+            "name_en": "Island Limestone",
+            "name_fr": "Pïerre calcaire insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.1"
+        },
+        "x15": {
+            "name_en": "Island Rock Salt",
+            "name_fr": "Sel gemme insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.1"
+        },
+        "x19": {
+            "name_en": "Island Clay",
+            "name_fr": "Argile insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.2"
+        },
+        "x20": {
+            "name_en": "Island Tinsand",
+            "name_fr": "Cassitérite insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.2"
+        },
+        "x16": {
+            "name_en": "Island Sugarcane",
+            "name_fr": "Canne à sucre insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.3"
+        },
+        "x17": {
+            "name_en": "Island Cotton Boll",
+            "name_fr": "Fleur de coton insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.3"
+        },
+        "x18": {
+            "name_en": "Island Hemp",
+            "name_fr": "Chanvre insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.3"
+        },
+        "x21": {
+            "name_en": "Island Iron Ore",
+            "name_fr": "Minerai de fer insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.5"
+        },
+        "x22": {
+            "name_en": "Island Quartz",
+            "name_fr": "Quartz insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.5"
+        },
+        "x23": {
+            "name_en": "Island Leucogranite",
+            "name_fr": "Granite insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.5"
+        },
+        "x24": {
+            "name_en": "Islefish",
+            "name_fr": "Poisson de mer insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.4"
+        },
+        "x25": {
+            "name_en": "Island Squid",
+            "name_fr": "Calmar insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.4"
+        },
+        "x26": {
+            "name_en": "Island Jellyfish",
+            "name_fr": "Méduse insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.4"
+        },
+        "x32": {
+            "name_en": "Multicolored Isleblooms",
+            "name_fr": "Fleur multicolore insulaire",
+            "requirement": ""
+        },
+        "x33": {
+            "name_en": "Island Resin",
+            "name_fr": "Résine insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.12"
+        },
+        "x34": {
+            "name_en": "Island Coconut",
+            "name_fr": "Noix de coco insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.12"
+        },
+        "x35": {
+            "name_en": "Island Beehive Chip",
+            "name_fr": "Ruche d'abeilles insulaires",
+            "requirement": "duty.island-sanctuary.crafting.tools.12"
+        },
+        "x36": {
+            "name_en": "Island Wood Opal",
+            "name_fr": "Bois opalisé insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.12"
+        },
+        "x37": {
+            "name_en": "Island Coal",
+            "name_fr": "Charbon insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.1"
+        },
+        "x38": {
+            "name_en": "Island Glimshroom",
+            "name_fr": "Agaric luisant insulaire"
+        },
+        "x39": {
+            "name_en": "Island Effervescent Water",
+            "name_fr": "Eau pétillante insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.13"
+        },
+        "x40": {
+            "name_en": "Island Shale",
+            "name_fr": "Schiste insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.1"
+        },
+        "x41": {
+            "name_en": "Island Marble",
+            "name_fr": "Marbre insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.13"
+        },
+        "x42": {
+            "name_en": "Island Mythril Ore",
+            "name_fr": "Minerai de mithril insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.13"
+        },
+        "x43": {
+            "name_en": "Island Spectrine",
+            "name_fr": "Spectrite insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.13"
+        },
+        "x44": {
+            "name_en": "Island Durium Sand",
+            "name_fr": "Sable de durium insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.14"
+        },
+        "x45": {
+            "name_en": "Island Yellow Copper Ore",
+            "name_fr": "Minerai de cuivre jaune insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.5"
+        },
+        "x46": {
+            "name_en": "Island Gold Ore",
+            "name_fr": "Minerai d'or insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.14"
+        },
+        "x47": {
+            "name_en": "Island Hawk's Eye Sand",
+            "name_fr": "Sable d'œil-de-faucon insulaire"
+        },
+        "x48": {
+            "name_en": "Island Crystal Formation",
+            "name_fr": "Cristal insulaire",
+            "requirement": "duty.island-sanctuary.crafting.tools.15"
+        },
+        "x27": {
+            "name_en": "Island Alyssum",
+            "name_fr": "Alysson insulaire",
+            "requirement": "ISLAND.EXPEDITION.MEADOWS"
+        },
+        "x28": {
+            "name_en": "Island Raw Garnet",
+            "name_fr": "Grenat brut insulaire",
+            "requirement": "ISLAND.EXPEDITION.FALLS"
+        },
+        "x29": {
+            "name_en": "Island Spruce Log",
+            "name_fr": "Rondin d'épicéa insulaire",
+            "requirement": "ISLAND.EXPEDITION.WOODS"
+        },
+        "x30": {
+            "name_en": "Island Hammerhead",
+            "name_fr": "Requin-marteau insulaire",
+            "requirement": "ISLAND.EXPEDITION.BEACHES"
+        },
+        "x31": {
+            "name_en": "Island Silver Ore",
+            "name_fr": "Minerai d'argent insulaire",
+            "requirement": "ISLAND.EXPEDITION.MOUNTAINS"
+        },
+        "x49": {
+            "name_en": "Island Cave Shrimp",
+            "name_fr": "Crevette insulaire à grandes pinces",
+            "requirement": "ISLAND.EXPEDITION.CAVERNS"
+        }
+    }
+}

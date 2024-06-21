@@ -1,4 +1,5 @@
 export type ConfigStore = {
+    isAdmin: boolean;
     'store-name': string;
     'store-loc': string;
     'lang': string;
@@ -12,6 +13,8 @@ export type ConfigStore = {
         incomplete: boolean;
         excluded: boolean;
     };
+    'show-completed-groups': boolean;
+    'show-empty-groups': boolean;
     'window': {
         x: number;
         y: number;
@@ -25,6 +28,7 @@ export type ConfigStore = {
         'background': string;
         'text-color-rgb': string;
         'font-family': string;
+        'font-size': number;
         'incomplete-rgb': string;
         'partial-complete-rgb': string;
         'completed-rgb': string;

@@ -1,0 +1,218 @@
+{
+    "key": "rank",
+    "groupName_en": "Rank",
+    "groupName_fr": "Rang",
+    "headers": {
+        "name": {
+            "header_en": "Rank",
+            "header_fr": "Rang"
+        },
+        "unlocks": {
+            "link": true,
+            "header_en": "Unlocks",
+            "header_fr": "Débloque"
+        }
+    },
+    "tasks": {
+        "x0": {
+            "name_en": "Rank 1",
+            "name_fr": "Rang 1",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.0",
+                "duty.island-sanctuary.buildings.0"
+            ],
+            "cNext": [1]
+        },
+        "x1": {
+            "name_en": "Rank 2",
+            "name_fr": "Rang 2",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.restraints.0",
+                "duty.island-sanctuary.buildings.3",
+                "duty.island-sanctuary.buildings.7"
+            ],
+            "cPrev": [0],
+            "cNext": [2]
+        },
+        "x2": {
+            "name_en": "Rank 3",
+            "name_fr": "Rang 3",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.1",
+                "duty.island-sanctuary.crafting.feed.0",
+                "duty.island-sanctuary.crafting.feed.1",
+                "duty.island-sanctuary.crafting.feed.2",
+                "duty.island-sanctuary.buildings.14"
+            ],
+            "cPrev": [1],
+            "cNext": [3]
+        },
+        "x3": {
+            "name_en": "Rank 4",
+            "name_fr": "Rang 4",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.8",
+                "duty.island-sanctuary.buildings.1",
+                "duty.island-sanctuary.buildings.4",
+                "duty.island-sanctuary.buildings.8"
+            ],
+            "cPrev": [2],
+            "cNext": [4]
+        },
+        "x4": {
+            "name_en": "Rank 5",
+            "name_fr": "Rang 5",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.2",
+                "duty.island-sanctuary.crafting.tools.9",
+                "duty.island-sanctuary.buildings.11"
+            ],
+            "cPrev": [3],
+            "cNext": [5]
+        },
+        "x5": {
+            "name_en": "Rank 6",
+            "name_fr": "Rang 6",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.3",
+                "duty.island-sanctuary.crafting.restraints.1",
+                "duty.island-sanctuary.buildings.12",
+                "duty.island-sanctuary.buildings.15"
+            ],
+            "cPrev": [4],
+            "cNext": [6]
+        },
+        "x6": {
+            "name_en": "Rank 7",
+            "name_fr": "Rang 7",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.4",
+                "duty.island-sanctuary.crafting.tools.10",
+                "duty.island-sanctuary.buildings.2",
+                "duty.island-sanctuary.buildings.5",
+                "duty.island-sanctuary.buildings.9"
+            ],
+            "cPrev": [5],
+            "cNext": [7]
+        },
+        "x7": {
+            "name_en": "Rank 8",
+            "name_fr": "Rang 8",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.5",
+                "duty.island-sanctuary.crafting.tools.6",
+                "duty.island-sanctuary.crafting.tools.7",
+                "duty.island-sanctuary.crafting.restraints.2",
+                "duty.island-sanctuary.buildings.13",
+                "duty.island-sanctuary.buildings.16"
+            ],
+            "cPrev": [6],
+            "cNext": [8]
+        },
+        "x8": {
+            "name_en": "Rank 9",
+            "name_fr": "Rang 9",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.11"
+            ],
+            "cPrev": [7],
+            "cNext": [9]
+        },
+        "x9": {
+            "name_en": "Rank 10",
+            "name_fr": "Rang 10",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.12"
+            ],
+            "cPrev": [8],
+            "cNext": [10]
+        },
+        "x10": {
+            "name_en": "Rank 11",
+            "name_fr": "Rang 11",
+            "cPrev": [9],
+            "cNext": [11]
+        },
+        "x11": {
+            "name_en": "Rank 12",
+            "name_fr": "Rang 12",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.16"
+            ],
+            "cPrev": [10],
+            "cNext": [12]
+        },
+        "x12": {
+            "name_en": "Rank 13",
+            "name_fr": "Rang 13",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.13",
+                "duty.island-sanctuary.buildings.22",
+                "duty.island-sanctuary.buildings.26"
+            ],
+            "cPrev": [11],
+            "cNext": [13]
+        },
+        "x13": {
+            "name_en": "Rank 14",
+            "name_fr": "Rang 14",
+            "unlocks": [
+                "duty.island-sanctuary.buildings.24"
+            ],
+            "cPrev": [12],
+            "cNext": [14]
+        },
+        "x14": {
+            "name_en": "Rank 15",
+            "name_fr": "Rang 15",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.17"
+            ],
+            "cPrev": [13],
+            "cNext": [15]
+        },
+        "x15": {
+            "name_en": "Rank 16",
+            "name_fr": "Rang 16",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.18"
+            ],
+            "cPrev": [14],
+            "cNext": [16]
+        },
+        "x16": {
+            "name_en": "Rank 17",
+            "name_fr": "Rang 17",
+            "unlocks": [
+                "duty.island-sanctuary.crafting.tools.14",
+                "duty.island-sanctuary.crafting.tools.15",
+                "duty.island-sanctuary.buildings.23"
+            ],
+            "cPrev": [15],
+            "cNext": [17]
+        },
+        "x17": {
+            "name_en": "Rank 18",
+            "name_fr": "Rang 18",
+            "unlocks": [
+                "duty.island-sanctuary.buildings.27"
+            ],
+            "cPrev": [16],
+            "cNext": [18]
+        },
+        "x18": {
+            "name_en": "Rank 19",
+            "name_fr": "Rang 19",
+            "unlocks": [
+                "duty.island-sanctuary.buildings.25"
+            ],
+            "cPrev": [17],
+            "cNext": [19]
+        },
+        "x19": {
+            "name_en": "Rank 20",
+            "name_fr": "Rang 20",
+            "cPrev": [18]
+        }
+    }
+}
