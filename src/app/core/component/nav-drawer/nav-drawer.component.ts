@@ -51,7 +51,7 @@ export class NavDrawerComponent implements OnInit {
 
         // Update visible state for "show completed/empty" settings
         this.svcData.data.onUpdated$.subscribe(() => {
-            this.items = this.updateItemVisible(this.items);
+            this.items = this.updateItemFromDataChange(this.items);
         });
 
         this.svcBookmark.onGroupUpdated$.subscribe(this.updateBookmarkGroup.bind(this));
@@ -85,13 +85,6 @@ export class NavDrawerComponent implements OnInit {
             visible: group.visible && !isHiddenGroup(group, this.svcConfig),
             state: { group }
         };
-
-        group.onUpdated$.subscribe(() => {
-            item.label = this.getSubGroupLabel(group);
-
-            // Mutate "items" so changes are detected
-            this.items = [...this.items];
-        });
 
         // Add "sub" MenuItems if this group has subGroups
         if(group.subGroups?.size) {
@@ -141,11 +134,12 @@ export class NavDrawerComponent implements OnInit {
     }
 
     // Recursive: Updates the visible state of all MenuItems
-    updateItemVisible(items: MenuItem[] | undefined): MenuItem[] | undefined {
+    updateItemFromDataChange(items: MenuItem[] | undefined): MenuItem[] | undefined {
         return items?.map((menuItem) => ({
             ...menuItem,
+            label: this.getSubGroupLabel(menuItem.state.group),
             visible: menuItem.state.group.visible && !isHiddenGroup(menuItem.state.group, this.svcConfig),
-            items: this.updateItemVisible(menuItem.items)
+            items: this.updateItemFromDataChange(menuItem.items)
         }));
     }
 }
