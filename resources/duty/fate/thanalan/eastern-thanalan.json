@@ -162,7 +162,7 @@
             "name_fr": "Assaut sur Le Viaduc: acte I",
             "location": "(22, 21)",
             "patch": "2.0",
-            "previousFate": "duty.fate.thanalan.eastern-thanalan.191",
+            "previousFate": "f.191",
             "type_en": "Slay Enemies",
             "type_fr": "Ennemis à abattre"
         },
@@ -172,7 +172,7 @@
             "name_fr": "Assaut sur Le Viaduc: acte II",
             "location": "(22, 21)",
             "patch": "2.0",
-            "previousFate": "duty.fate.thanalan.eastern-thanalan.192",
+            "previousFate": "f.192",
             "type_en": "Notorious Monster",
             "type_fr": "Défi"
         },
@@ -182,7 +182,7 @@
             "name_fr": "Assaut sur Le Viaduc: acte III",
             "location": "(23, 23)",
             "patch": "2.0",
-            "previousFate": "duty.fate.thanalan.eastern-thanalan.193",
+            "previousFate": "f.193",
             "type_en": "Notorious Monster",
             "type_fr": "Défi"
         },
@@ -192,12 +192,7 @@
             "name_fr": "Assaut sur Le Viaduc: dénouement",
             "location": "(23, 22)",
             "patch": "2.0",
-            "previousFate": [
-                "duty.fate.thanalan.eastern-thanalan.191",
-                "duty.fate.thanalan.eastern-thanalan.192",
-                "duty.fate.thanalan.eastern-thanalan.193",
-                "duty.fate.thanalan.eastern-thanalan.194"
-            ],
+            "previousFate": ["f.191", "f.192", "f.193", "f.194"],
             "type_en": "Notorious Monster",
             "type_fr": "Défi"
         }
