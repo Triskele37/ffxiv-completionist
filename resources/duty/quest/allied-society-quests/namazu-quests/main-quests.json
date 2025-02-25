@@ -9,8 +9,8 @@
             "name_fr": "Comme un Namazu dans la steppe",
             "npc_en": "Floundering Namazu",
             "npc_fr": "Namazu Affaibli",
-            "cPrev": ["duty.quests.main-scenario.stormblood.68053", "duty.quests.sidequests.othardian.yanxia.68276"],
-            "cNext": [68633],
+            "cPrev": ["q.68053", "q.68276"],
+            "cNext": ["q.68633"],
             "patch": "4.31"
         },
         "x68633": {
@@ -19,8 +19,8 @@
             "name_fr": "Tenue de fête exigée",
             "npc_en": "Seigetsu The Enlightened",
             "npc_fr": "Seigetsu",
-            "cPrev": [68632],
-            "cNext": [68634],
+            "cPrev": ["q.68632"],
+            "cNext": ["q.68634"],
             "cSiblings": ["character.character.tribal-relations.67"],
             "patch": "4.31"
         },
@@ -32,8 +32,8 @@
             "npc_fr": "Gyoshin",
             "reputation_en": "Friendly",
             "reputation_fr": "Ami",
-            "cPrev": [68633],
-            "cNext": [68635],
+            "cPrev": ["q.68633"],
+            "cNext": ["q.68635"],
             "cSiblings": ["character.character.tribal-relations.68"],
             "patch": "4.31"
         },
@@ -45,8 +45,8 @@
             "npc_fr": "Gyoshin",
             "reputation_en": "Trusted",
             "reputation_fr": "Estimé",
-            "cPrev": [68634],
-            "cNext": [68636],
+            "cPrev": ["q.68634"],
+            "cNext": ["q.68636"],
             "cSiblings": ["character.character.tribal-relations.69"],
             "patch": "4.31"
         },
@@ -58,8 +58,8 @@
             "npc_fr": "Gyoshin",
             "reputation_en": "Respected",
             "reputation_fr": "Respecté",
-            "cPrev": [68635],
-            "cNext": [68637],
+            "cPrev": ["q.68635"],
+            "cNext": ["q.68637"],
             "cSiblings": ["character.character.tribal-relations.70"],
             "patch": "4.31"
         },
@@ -71,8 +71,8 @@
             "npc_fr": "Gyoshin",
             "reputation_en": "Honored",
             "reputation_fr": "Émérite",
-            "cPrev": [68636],
-            "cNext": [68638],
+            "cPrev": ["q.68636"],
+            "cNext": ["q.68638"],
             "cSiblings": ["character.character.tribal-relations.71"],
             "patch": "4.31"
         },
@@ -84,8 +84,8 @@
             "npc_fr": "Gyoshin",
             "reputation_en": "Sworn",
             "reputation_fr": "Assermenté",
-            "cPrev": [68637],
-            "cNext": ["duty.quests.tribal-quests.tribal-alliance-quests.stormblood-tribal-quests.68697"],
+            "cPrev": ["q.68637"],
+            "cNext": ["q.68697"],
             "cSiblings": ["character.character.tribal-relations.72"],
             "patch": "4.31"
         }

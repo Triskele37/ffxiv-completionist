@@ -9,11 +9,8 @@
             "name_fr": "Rêves partis!",
             "npc_en": "Dreamingway",
             "npc_fr": "Dreamingway",
-            "cPrev": [
-                "duty.quests.sidequests.mare-lamentorum.mare-lamentorum.70055",
-                "duty.quests.main-scenario.endwalker.70000"
-            ],
-            "cNext": [70218],
+            "cPrev": ["q.70055", "q.70000"],
+            "cNext": ["q.70218"],
             "cSiblings": ["character.character.tribal-relations.104"],
             "patch": "6.35"
         },
@@ -24,8 +21,8 @@
             "reputation": "REPUTATION.3",
             "npc_en": "Dreamingway",
             "npc_fr": "Dreamingway",
-            "cPrev": [70217],
-            "cNext": [70219],
+            "cPrev": ["q.70217"],
+            "cNext": ["q.70219"],
             "cSiblings": ["character.character.tribal-relations.105"],
             "patch": "6.35"
         },
@@ -36,8 +33,8 @@
             "reputation": "REPUTATION.4",
             "npc_en": "Dreamingway",
             "npc_fr": "Dreamingway",
-            "cPrev": [70218],
-            "cNext": [70220],
+            "cPrev": ["q.70218"],
+            "cNext": ["q.70220"],
             "cSiblings": ["character.character.tribal-relations.106"],
             "patch": "6.35"
         },
@@ -48,8 +45,8 @@
             "reputation": "REPUTATION.5",
             "npc_en": "Dreamingway",
             "npc_fr": "Dreamingway",
-            "cPrev": [70219],
-            "cNext": [70221],
+            "cPrev": ["q.70219"],
+            "cNext": ["q.70221"],
             "cSiblings": ["character.character.tribal-relations.107"],
             "patch": "6.35"
         },
@@ -60,8 +57,8 @@
             "reputation": "REPUTATION.6",
             "npc_en": "Dreamingway",
             "npc_fr": "Dreamingway",
-            "cPrev": [70220],
-            "cNext": [70222],
+            "cPrev": ["q.70220"],
+            "cNext": ["q.70222"],
             "cSiblings": ["character.character.tribal-relations.108"],
             "patch": "6.35"
         },
@@ -72,7 +69,7 @@
             "reputation": "REPUTATION.7",
             "npc_en": "Dreamingway",
             "npc_fr": "Dreamingway",
-            "cPrev": [70221],
+            "cPrev": ["q.70221"],
             "cSiblings": ["character.character.tribal-relations.109", "social.emotes.general.252"],
             "patch": "6.35"
         }

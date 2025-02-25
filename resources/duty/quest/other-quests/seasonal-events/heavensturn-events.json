@@ -10,7 +10,7 @@
             "year": "2014",
             "npc_en": "Damaris",
             "npc_fr": "Damaris",
-            "cNext": [66829, 66830, 66831, 66832],
+            "cNext": ["q.66829", "q.66830", "q.66831", "q.66832"],
             "patch": "4.31"
         },
         "x66829": {
@@ -20,7 +20,7 @@
             "year": "2014",
             "npc_en": "Golden Uma Yoriki",
             "npc_fr": "Général Doré Des Chevaux",
-            "cPrev": [66828],
+            "cPrev": ["q.66828"],
             "patch": "4.31"
         },
         "x66830": {
@@ -30,7 +30,7 @@
             "year": "2014",
             "npc_en": "Black Uma Yoriki",
             "npc_fr": "Général Noir Des Chevaux",
-            "cPrev": [66828],
+            "cPrev": ["q.66828"],
             "patch": "4.31"
         },
         "x66831": {
@@ -40,7 +40,7 @@
             "year": "2014",
             "npc_en": "Red Uma Yoriki",
             "npc_fr": "Général Rouge Des Chevaux",
-            "cPrev": [66828],
+            "cPrev": ["q.66828"],
             "patch": "4.31"
         },
         "x66832": {
@@ -50,7 +50,7 @@
             "year": "2014",
             "npc_en": "Uma Bugyo",
             "npc_fr": "Maréchale Des Chevaux",
-            "cPrev": [66828],
+            "cPrev": ["q.66828"],
             "cSiblings": ["character.achievement.quests.seasonal-events.875"],
             "patch": "4.31"
         },
@@ -61,7 +61,7 @@
             "year": "2015",
             "npc_en": "Merry Maid",
             "npc_fr": "Jeune Fille Enjouée",
-            "cNext": [65845, 65825, 65823, 65826],
+            "cNext": ["q.65845", "q.65825", "q.65823", "q.65826"],
             "patch": "4.31"
         },
         "x65825": {
@@ -71,7 +71,7 @@
             "year": "2015",
             "npc_en": "Hitsuji Bugyo",
             "npc_fr": "Maréchal Des Moutons",
-            "cPrev": [65788],
+            "cPrev": ["q.65788"],
             "patch": "4.31"
         },
         "x65826": {
@@ -81,7 +81,7 @@
             "year": "2015",
             "npc_en": "Hitsuji Bugyo",
             "npc_fr": "Maréchal Des Moutons",
-            "cPrev": [65788],
+            "cPrev": ["q.65788"],
             "patch": "4.31"
         },
         "x65845": {
@@ -91,7 +91,7 @@
             "year": "2015",
             "npc_en": "Hitsuji Bugyo",
             "npc_fr": "Maréchal Des Moutons",
-            "cPrev": [65788],
+            "cPrev": ["q.65788"],
             "patch": "4.31"
         },
         "x65823": {
@@ -101,7 +101,7 @@
             "year": "2015",
             "npc_en": "Hitsuji Bugyo",
             "npc_fr": "Maréchal Des Moutons",
-            "cPrev": [65788],
+            "cPrev": ["q.65788"],
             "cSiblings": ["character.achievement.quests.seasonal-events.1057"],
             "patch": "4.31"
         },
@@ -162,7 +162,7 @@
             "year": "2021",
             "npc_en": "Ushi Bugyo",
             "npc_fr": "Maréchal Des Bœufs",
-            "cNext": [69287],
+            "cNext": ["q.69287"],
             "cSiblings": ["character.achievement.quests.seasonal-events.2485"],
             "patch": "5.4"
         },
@@ -173,7 +173,7 @@
             "year": "2021",
             "npc_en": "Ushi Bugyo",
             "npc_fr": "Maréchal Des Bœufs",
-            "cPrev": [69274],
+            "cPrev": ["q.69274"],
             "patch": "5.4"
         },
         "x69559": {
@@ -183,7 +183,7 @@
             "year": "2022",
             "npc_en": "Tora Bugyo",
             "npc_fr": "Maréchal Des Tigres",
-            "cNext": [69560],
+            "cNext": ["q.69560"],
             "cSiblings": ["character.achievement.quests.seasonal-events.2805"],
             "patch": "6.05"
         },
@@ -194,7 +194,7 @@
             "year": "2022",
             "npc_en": "Tora Bugyo",
             "npc_fr": "Maréchal Des Tigres",
-            "cPrev": [69559],
+            "cPrev": ["q.69559"],
             "patch": "6.05"
         },
         "x70124": {
@@ -213,7 +213,7 @@
             "year": "2023",
             "npc_en": "Far Eastern Omikujishi",
             "npc_fr": "Divinateur Oriental",
-            "cPrev": [70124],
+            "cPrev": ["q.70124"],
             "cSiblings": ["character.achievement.quests.seasonal-events.3082"],
             "patch": "6.28"
         },
@@ -224,7 +224,7 @@
             "year": "2024",
             "npc_en": "Ryu Metsuke",
             "npc_fr": "Inspecteur Des Dragons",
-            "cNext": [70216],
+            "cNext": ["q.70216"],
             "patch": "6.5"
         },
         "x70216": {
@@ -234,7 +234,7 @@
             "year": "2024",
             "npc_en": "Ryu Bugyo",
             "npc_fr": "Maréchale Des Dragons",
-            "cPrev": [70215],
+            "cPrev": ["q.70215"],
             "cSiblings": ["character.achievement.quests.seasonal-events.3208"],
             "patch": "6.5"
         }

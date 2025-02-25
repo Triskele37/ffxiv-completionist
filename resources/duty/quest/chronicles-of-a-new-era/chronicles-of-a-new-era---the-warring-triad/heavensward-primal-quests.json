@@ -9,8 +9,8 @@
             "name_fr": "Les Dieux d'autrefois",
             "npc_en": "Torsefers",
             "npc_fr": "Torsefers",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67205"],
-            "cNext": [67766, 67651, 67652],
+            "cPrev": ["q.67205"],
+            "cNext": ["q.67766", "q.67651", "q.67652"],
             "patch": "4.31"
         },
         "x67766": {
@@ -20,8 +20,8 @@
             "unlock": "duty.dutyraid-finder.trials.hw.4",
             "npc_en": "Unukalhai",
             "npc_fr": "Unukalhai",
-            "cPrev": [67650, "duty.quests.main-scenario.dragonsong.67699"],
-            "cNext": [67817, 67824],
+            "cPrev": ["q.67650", "q.67699"],
+            "cNext": ["q.67817", "q.67824"],
             "patch": "4.31"
         },
         "x67824": {
@@ -30,8 +30,8 @@
             "name_fr": "Un coup de poker dangereux",
             "npc_en": "Unukalhai",
             "npc_fr": "Unukalhai",
-            "cPrev": [67766],
-            "cNext": [67868],
+            "cPrev": ["q.67766"],
+            "cNext": ["q.67868"],
             "patch": "4.31"
         },
         "x67868": {
@@ -41,8 +41,8 @@
             "unlock": "duty.dutyraid-finder.trials.hw.5",
             "npc_en": "Unukalhai",
             "npc_fr": "Unukalhai",
-            "cPrev": [67824],
-            "cNext": [67869, 67930],
+            "cPrev": ["q.67824"],
+            "cNext": ["q.67869", "q.67930"],
             "patch": "4.31"
         },
         "x67930": {
@@ -52,8 +52,8 @@
             "unlock": "duty.dutyraid-finder.trials.hw.6",
             "npc_en": "Unukalhai",
             "npc_fr": "Unukalhai",
-            "cPrev": [67868],
-            "cNext": [67931],
+            "cPrev": ["q.67868"],
+            "cNext": ["q.67931"],
             "patch": "4.31"
         },
         "x67651": {
@@ -63,7 +63,7 @@
             "unlock": "duty.dutyraid-finder.trials.hw.7",
             "npc_en": "Unukalhai",
             "npc_fr": "Unukalhai",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67205", 67650],
+            "cPrev": ["q.67205", "q.67650"],
             "cCombo": ["character.achievement.quests.quests.1165"],
             "patch": "4.31"
         },
@@ -74,7 +74,7 @@
             "unlock": "duty.dutyraid-finder.trials.hw.8",
             "npc_en": "Unukalhai",
             "npc_fr": "Unukalhai",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67205", 67650],
+            "cPrev": ["q.67205", "q.67650"],
             "cCombo": ["character.achievement.quests.quests.1165"],
             "patch": "4.31"
         },
@@ -85,7 +85,7 @@
             "unlock": "duty.dutyraid-finder.trials.hw.11",
             "npc_en": "Unukalhai",
             "npc_fr": "Unukalhai",
-            "cPrev": [67766],
+            "cPrev": ["q.67766"],
             "patch": "4.31"
         },
         "x67869": {
@@ -95,7 +95,7 @@
             "unlock": "duty.dutyraid-finder.trials.hw.12",
             "npc_en": "Unukalhai",
             "npc_fr": "Unukalhai",
-            "cPrev": [67868],
+            "cPrev": ["q.67868"],
             "patch": "4.31"
         },
         "x67931": {
@@ -105,7 +105,7 @@
             "unlock": "duty.dutyraid-finder.trials.hw.13",
             "npc_en": "Unukalhai",
             "npc_fr": "Unukalhai",
-            "cPrev": [67930],
+            "cPrev": ["q.67930"],
             "patch": "4.31"
         }
     }

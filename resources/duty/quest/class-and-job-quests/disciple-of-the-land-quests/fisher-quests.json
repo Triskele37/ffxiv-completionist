@@ -9,8 +9,8 @@
             "name_fr": "La voie de la pêche",
             "npc_en": "N'nmulika",
             "npc_fr": "N'nmulika",
-            "cPrev": ["duty.quests.other.quasi-quests.66670"],
-            "cNext": [66644, "duty.quests.sidequests.othardian.the-ruby-sea.68458"],
+            "cPrev": ["q.66670"],
+            "cNext": ["q.66644", "q.68458"],
             "cSiblings": ["character.adventure-plate.89"],
             "patch": "4.31"
         },
@@ -20,8 +20,8 @@
             "name_fr": "L'embarras de l'anchois",
             "npc_en": "Sisipu",
             "npc_fr": "Sisipu",
-            "cPrev": [66643],
-            "cNext": [66645, "duty.quests.sidequests.lominsan.limsa-lominsa.69379"],
+            "cPrev": ["q.66643"],
+            "cNext": ["q.66645", "q.69379"],
             "patch": "4.31"
         },
         "x66645": {
@@ -30,8 +30,8 @@
             "name_fr": "Ça sent le hareng",
             "npc_en": "Sisipu",
             "npc_fr": "Sisipu",
-            "cPrev": [66644],
-            "cNext": [66646],
+            "cPrev": ["q.66644"],
+            "cNext": ["q.66646"],
             "patch": "4.31"
         },
         "x66646": {
@@ -40,8 +40,8 @@
             "name_fr": "La princesse des requins",
             "npc_en": "Sisipu",
             "npc_fr": "Sisipu",
-            "cPrev": [66645],
-            "cNext": [66647],
+            "cPrev": ["q.66645"],
+            "cNext": ["q.66647"],
             "patch": "4.31"
         },
         "x66647": {
@@ -50,8 +50,8 @@
             "name_fr": "Flap flap plouf plouf",
             "npc_en": "Sisipu",
             "npc_fr": "Sisipu",
-            "cPrev": [66646],
-            "cNext": [66648],
+            "cPrev": ["q.66646"],
+            "cNext": ["q.66648"],
             "patch": "4.31"
         },
         "x66648": {
@@ -60,8 +60,8 @@
             "name_fr": "Faut pas prendre la mouche",
             "npc_en": "Sisipu",
             "npc_fr": "Sisipu",
-            "cPrev": [66647],
-            "cNext": [66649],
+            "cPrev": ["q.66647"],
+            "cNext": ["q.66649"],
             "patch": "4.31"
         },
         "x66649": {
@@ -70,8 +70,8 @@
             "name_fr": "Un poisson-chat dans la gorge",
             "npc_en": "Sisipu",
             "npc_fr": "Sisipu",
-            "cPrev": [66648],
-            "cNext": [66650],
+            "cPrev": ["q.66648"],
+            "cNext": ["q.66650"],
             "patch": "4.31"
         },
         "x66650": {
@@ -80,8 +80,8 @@
             "name_fr": "Pêcher au clair de lune",
             "npc_en": "Sisipu",
             "npc_fr": "Sisipu",
-            "cPrev": [66649],
-            "cNext": [66651],
+            "cPrev": ["q.66649"],
+            "cNext": ["q.66651"],
             "cCombo": ["character.achievement.quests.job-role-quests.317"],
             "patch": "4.31"
         },
@@ -91,8 +91,8 @@
             "name_fr": "Pêche en haute mer des sables",
             "npc_en": "Sisipu",
             "npc_fr": "Sisipu",
-            "cPrev": [66650],
-            "cNext": [66652],
+            "cPrev": ["q.66650"],
+            "cNext": ["q.66652"],
             "patch": "4.31"
         },
         "x66652": {
@@ -101,8 +101,8 @@
             "name_fr": "Des poissons pluvieux",
             "npc_en": "Sisipu",
             "npc_fr": "Sisipu",
-            "cPrev": [66651],
-            "cNext": [66653],
+            "cPrev": ["q.66651"],
+            "cNext": ["q.66653"],
             "patch": "4.31"
         },
         "x66653": {
@@ -111,8 +111,8 @@
             "name_fr": "La canne à pêche dans les nuages",
             "npc_en": "Sisipu",
             "npc_fr": "Sisipu",
-            "cPrev": [66652],
-            "cNext": [66654],
+            "cPrev": ["q.66652"],
+            "cNext": ["q.66654"],
             "patch": "4.31"
         },
         "x66654": {
@@ -121,8 +121,8 @@
             "name_fr": "Un gros gros gros poisson",
             "npc_en": "Sisipu",
             "npc_fr": "Sisipu",
-            "cPrev": [66653],
-            "cNext": [67621, "duty.quests.sidequests.lominsan.limsa-lominsa.66966"],
+            "cPrev": ["q.66653"],
+            "cNext": ["q.67621", "q.66966"],
             "patch": "4.31"
         },
         "x67621": {
@@ -131,8 +131,8 @@
             "name_fr": "Vers de nouveaux points de pêche",
             "npc_en": "Sisipu",
             "npc_fr": "Sisipu",
-            "cPrev": [66654, "duty.quests.main-scenario.seventh-astral-era.65964"],
-            "cNext": [67622],
+            "cPrev": ["q.66654", "q.65964"],
+            "cNext": ["q.67622"],
             "patch": "4.31"
         },
         "x67622": {
@@ -141,8 +141,8 @@
             "name_fr": "Jamais deux sans trois",
             "npc_en": "Ansaulme",
             "npc_fr": "Ansaulme",
-            "cPrev": [67621],
-            "cNext": [67623],
+            "cPrev": ["q.67621"],
+            "cNext": ["q.67623"],
             "patch": "4.31"
         },
         "x67623": {
@@ -151,8 +151,8 @@
             "name_fr": "Un prédateur des forêts",
             "npc_en": "Ansaulme",
             "npc_fr": "Ansaulme",
-            "cPrev": [67622],
-            "cNext": [67624],
+            "cPrev": ["q.67622"],
+            "cNext": ["q.67624"],
             "patch": "4.31"
         },
         "x67624": {
@@ -161,8 +161,8 @@
             "name_fr": "Un défi empoisonné",
             "npc_en": "Ansaulme",
             "npc_fr": "Ansaulme",
-            "cPrev": [67623],
-            "cNext": [67625],
+            "cPrev": ["q.67623"],
+            "cNext": ["q.67625"],
             "patch": "4.31"
         },
         "x67625": {
@@ -171,8 +171,8 @@
             "name_fr": "L'anneau du poisson rouge",
             "npc_en": "Ansaulme",
             "npc_fr": "Ansaulme",
-            "cPrev": [67624],
-            "cNext": [68431],
+            "cPrev": ["q.67624"],
+            "cNext": ["q.68431"],
             "patch": "4.31"
         },
         "x68431": {
@@ -181,8 +181,8 @@
             "name_fr": "Des étoiles filantes de mer",
             "npc_en": "Sisipu",
             "npc_fr": "Sisipu",
-            "cPrev": [67625, "duty.quests.main-scenario.post-dragonsong.67895"],
-            "cNext": [68432],
+            "cPrev": ["q.67625", "q.67895"],
+            "cNext": ["q.68432"],
             "patch": "4.31"
         },
         "x68432": {
@@ -191,8 +191,8 @@
             "name_fr": "Retrouvailles en eaux étrangères",
             "npc_en": "Wawalago",
             "npc_fr": "Wawalago",
-            "cPrev": [68431],
-            "cNext": [68433],
+            "cPrev": ["q.68431"],
+            "cNext": ["q.68433"],
             "patch": "4.31"
         },
         "x68433": {
@@ -201,8 +201,8 @@
             "name_fr": "Vers les lieux de ponte",
             "npc_en": "Wawalago",
             "npc_fr": "Wawalago",
-            "cPrev": [68432],
-            "cNext": [68434],
+            "cPrev": ["q.68432"],
+            "cNext": ["q.68434"],
             "patch": "4.31"
         },
         "x68434": {
@@ -211,8 +211,8 @@
             "name_fr": "Préparatifs de fête",
             "npc_en": "Wawalago",
             "npc_fr": "Wawalago",
-            "cPrev": [68433],
-            "cNext": [68435],
+            "cPrev": ["q.68433"],
+            "cNext": ["q.68435"],
             "patch": "4.31"
         },
         "x68435": {
@@ -221,7 +221,7 @@
             "name_fr": "La fête de Wadatsumi",
             "npc_en": "Wawalago",
             "npc_fr": "Wawalago",
-            "cPrev": [68434],
+            "cPrev": ["q.68434"],
             "cSiblings": ["character.adventure-plate.88"],
             "patch": "4.31"
         }

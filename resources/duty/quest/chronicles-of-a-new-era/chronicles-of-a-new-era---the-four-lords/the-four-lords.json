@@ -10,8 +10,8 @@
             "unlock": ["duty.dutyraid-finder.dungeons.sb.9", "duty.dutyraid-finder.trials.sb.3"],
             "npc_en": "Soroban",
             "npc_fr": "Soroban",
-            "cPrev": ["duty.quests.main-scenario.post-stormblood.68560"],
-            "cNext": [68552],
+            "cPrev": ["q.68560"],
+            "cNext": ["q.68552"],
             "patch": "4.31"
         },
         "x68552": {
@@ -21,8 +21,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.sb.11",
             "npc_en": "Bunchin",
             "npc_fr": "Bunchin",
-            "cPrev": [68551],
-            "cNext": [68688],
+            "cPrev": ["q.68551"],
+            "cNext": ["q.68688"],
             "patch": "4.31"
         },
         "x68688": {
@@ -32,8 +32,8 @@
             "unlock": "duty.dutyraid-finder.trials.sb.12",
             "npc_en": "Bunchin",
             "npc_fr": "Bunchin",
-            "cPrev": [68552],
-            "cNext": [68701],
+            "cPrev": ["q.68552"],
+            "cNext": ["q.68701"],
             "cSiblings": ["social.emotes.special.187"],
             "patch": "4.4"
         },
@@ -44,8 +44,8 @@
             "unlock": "duty.dutyraid-finder.trials.sb.13",
             "npc_en": "Bunchin",
             "npc_fr": "Bunchin",
-            "cPrev": [68688],
-            "cNext": [68702],
+            "cPrev": ["q.68688"],
+            "cNext": ["q.68702"],
             "patch": "4.5"
         },
         "x68702": {
@@ -54,7 +54,7 @@
             "name_fr": "Tout juste pareil au songe d'une nuit de printemps",
             "npc_en": "Seiryu",
             "npc_fr": "Seiryû",
-            "cPrev": [68701],
+            "cPrev": ["q.68701"],
             "patch": "4.5"
         }
     }

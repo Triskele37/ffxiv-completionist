@@ -11,8 +11,8 @@
             "npc_fr": "Nouvel Employé De La Tarufacture",
             "unlock_en": "Island Sanctuary",
             "unlock_fr": "Island Sanctuary",
-            "cPrev": ["duty.quests.main-scenario.endwalker.70000"],
-            "cNext": [70181],
+            "cPrev": ["q.70000"],
+            "cNext": ["q.70181"],
             "patch": "6.28"
         },
         "x70181": {
@@ -21,8 +21,8 @@
             "name_fr": "Bien profiter de ses congés",
             "npc_en": "Curious Courier",
             "npc_fr": "Mélissagère",
-            "cPrev": [70179],
-            "cNext": [70265],
+            "cPrev": ["q.70179"],
+            "cNext": ["q.70265"],
             "patch": "6.28"
         },
         "x70265": {
@@ -31,8 +31,8 @@
             "name_fr": "Des invitées venues de loin",
             "npc_en": "Curious Courier",
             "npc_fr": "Mélissagère",
-            "cPrev": [70181],
-            "cNext": [70299],
+            "cPrev": ["q.70181"],
+            "cNext": ["q.70299"],
             "patch": "6.3"
         },
         "x70299": {
@@ -41,8 +41,8 @@
             "name_fr": "Petite balade entre amis",
             "npc_en": "Curious Courier",
             "npc_fr": "Mélissagère",
-            "cPrev": [70265],
-            "cNext": [70329],
+            "cPrev": ["q.70265"],
+            "cNext": ["q.70329"],
             "patch": "6.4"
         },
         "x70329": {
@@ -51,7 +51,7 @@
             "name_fr": "Un final flan-tastique!",
             "npc_en": "Curious Courier",
             "npc_fr": "Mélissagère",
-            "cPrev": [70299],
+            "cPrev": ["q.70299"],
             "patch": "6.5"
         },
         "x70330": {
@@ -60,7 +60,7 @@
             "name_fr": "Repos, soldats",
             "npc_en": "Curious Courier",
             "npc_fr": "Mélissagère",
-            "cPrev": ["duty.quests.main-scenario.post-endwalker.70286", 70329],
+            "cPrev": ["q.70286", "q.70329"],
             "patch": "6.55"
         }
     }

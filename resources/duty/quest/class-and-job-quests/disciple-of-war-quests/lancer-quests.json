@@ -9,8 +9,8 @@
             "name_fr": "La voie de l'hast",
             "npc_en": "Jillian",
             "npc_fr": "Jillian",
-            "cPrev": ["duty.quests.other.quasi-quests.65716"],
-            "cNext": [65754, 65679],
+            "cPrev": ["q.65716"],
+            "cNext": ["q.65754", "q.65679"],
             "patch": "4.31"
         },
         "x65754": {
@@ -19,8 +19,8 @@
             "name_fr": "Ma première lance",
             "npc_en": "Ywain",
             "npc_fr": "Ywain",
-            "cPrev": [65668],
-            "cNext": [65583],
+            "cPrev": ["q.65668"],
+            "cNext": ["q.65583"],
             "patch": "4.31"
         },
         "x65583": {
@@ -29,8 +29,8 @@
             "name_fr": "L'hast du courage",
             "npc_en": "Ywain",
             "npc_fr": "Ywain",
-            "cPrev": [65754],
-            "cNext": [65679],
+            "cPrev": ["q.65754"],
+            "cNext": ["q.65679"],
             "patch": "4.31"
         },
         "x65679": {
@@ -39,8 +39,8 @@
             "name_fr": "La pierre du courage",
             "npc_en": "Ywain",
             "npc_fr": "Ywain",
-            "cPrev": [65583, 65668],
-            "cNext": [65591],
+            "cPrev": ["q.65583", "q.65668"],
+            "cNext": ["q.65591"],
             "patch": "4.31"
         },
         "x65591": {
@@ -49,8 +49,8 @@
             "name_fr": "L'hast de la témérité",
             "npc_en": "Ywain",
             "npc_fr": "Ywain",
-            "cPrev": [65679],
-            "cNext": [65592],
+            "cPrev": ["q.65679"],
+            "cNext": ["q.65592"],
             "patch": "4.31"
         },
         "x65592": {
@@ -59,8 +59,8 @@
             "name_fr": "Deux lances, deux destins",
             "npc_en": "Ywain",
             "npc_fr": "Ywain",
-            "cPrev": [65591],
-            "cNext": [65974],
+            "cPrev": ["q.65591"],
+            "cNext": ["q.65974"],
             "patch": "4.31"
         },
         "x65974": {
@@ -69,8 +69,8 @@
             "name_fr": "Les trois maîtres",
             "npc_en": "Ywain",
             "npc_fr": "Ywain",
-            "cPrev": [65592],
-            "cNext": [65975],
+            "cPrev": ["q.65592"],
+            "cNext": ["q.65975"],
             "patch": "4.31"
         },
         "x65975": {
@@ -79,8 +79,8 @@
             "name_fr": "Courage contre témérité",
             "npc_en": "Ywain",
             "npc_fr": "Ywain",
-            "cPrev": [65974],
-            "cNext": ["duty.quests.class--job.disciple-of-war-job.dragoon.66603"],
+            "cPrev": ["q.65974"],
+            "cNext": ["q.66603"],
             "cSiblings": ["character.adventure-plate.32"],
             "cCombo": [
                 "character.achievement.quests.job-role-quests.313",

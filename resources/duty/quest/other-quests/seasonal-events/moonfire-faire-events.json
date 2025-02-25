@@ -10,8 +10,8 @@
             "year": "2014",
             "npc_en": "Moonfire Faire Chaperone",
             "npc_fr": "Organisatrice Des Feux De La Mort",
-            "cNext": [67073, 67074, 67075],
-            "cExclude": [67071, 67072],
+            "cNext": ["q.67073", "q.67074", "q.67075"],
+            "cExclude": ["q.67071", "q.67072"],
             "patch": "4.31"
         },
         "x67071": {
@@ -21,8 +21,8 @@
             "year": "2014",
             "npc_en": "Moonfire Faire Chaperone",
             "npc_fr": "Organisatrice Des Feux De La Mort",
-            "cNext": [67073, 67074, 67075],
-            "cExclude": [67070, 67072],
+            "cNext": ["q.67073", "q.67074", "q.67075"],
+            "cExclude": ["q.67070", "q.67072"],
             "patch": "4.31"
         },
         "x67072": {
@@ -32,8 +32,8 @@
             "year": "2014",
             "npc_en": "Moonfire Faire Chaperone",
             "npc_fr": "Organisatrice Des Feux De La Mort",
-            "cNext": [67073, 67074, 67075],
-            "cExclude": [67070, 67071],
+            "cNext": ["q.67073", "q.67074", "q.67075"],
+            "cExclude": ["q.67070", "q.67071"],
             "patch": "4.31"
         },
         "x67073": {
@@ -44,8 +44,8 @@
             "cPrevAny": true,
             "npc_en": "Haermaga",
             "npc_fr": "Haermaga",
-            "cPrev": [67070, 67071, 67072],
-            "cNext": [67076],
+            "cPrev": ["q.67070", "q.67071", "q.67072"],
+            "cNext": ["q.67076"],
             "patch": "4.31"
         },
         "x67074": {
@@ -56,8 +56,8 @@
             "cPrevAny": true,
             "npc_en": "Haermaga",
             "npc_fr": "Haermaga",
-            "cPrev": [67070, 67071, 67072],
-            "cNext": [67077],
+            "cPrev": ["q.67070", "q.67071", "q.67072"],
+            "cNext": ["q.67077"],
             "patch": "4.31"
         },
         "x67075": {
@@ -68,8 +68,8 @@
             "cPrevAny": true,
             "npc_en": "Haermaga",
             "npc_fr": "Haermaga",
-            "cPrev": [67070, 67071, 67072],
-            "cNext": [67078],
+            "cPrev": ["q.67070", "q.67071", "q.67072"],
+            "cNext": ["q.67078"],
             "patch": "4.31"
         },
         "x67076": {
@@ -79,8 +79,8 @@
             "year": "2014",
             "npc_en": "Ethelia",
             "npc_fr": "Ethelia",
-            "cPrev": [67073],
-            "cNext": [67079],
+            "cPrev": ["q.67073"],
+            "cNext": ["q.67079"],
             "patch": "4.31"
         },
         "x67077": {
@@ -90,8 +90,8 @@
             "year": "2014",
             "npc_en": "Mayaru Moyaru",
             "npc_fr": "Mayaru Moyaru",
-            "cPrev": [67074],
-            "cNext": [67079],
+            "cPrev": ["q.67074"],
+            "cNext": ["q.67079"],
             "patch": "4.31"
         },
         "x67078": {
@@ -101,8 +101,8 @@
             "year": "2014",
             "npc_en": "J'nangho",
             "npc_fr": "J'nangho",
-            "cPrev": [67075],
-            "cNext": [67079],
+            "cPrev": ["q.67075"],
+            "cNext": ["q.67079"],
             "patch": "4.31"
         },
         "x67079": {
@@ -112,7 +112,7 @@
             "year": "2014",
             "npc_en": "Haermaga",
             "npc_fr": "Haermaga",
-            "cPrev": [67076, 67077, 67078],
+            "cPrev": ["q.67076", "q.67077", "q.67078"],
             "cSiblings": ["character.achievement.quests.seasonal-events.1002"],
             "patch": "4.31"
         },
@@ -123,7 +123,7 @@
             "year": "2015",
             "npc_en": "Haermaga",
             "npc_fr": "Haermaga",
-            "cNext": [67662, 67661, 67663],
+            "cNext": ["q.67662", "q.67661", "q.67663"],
             "patch": "4.31"
         },
         "x67661": {
@@ -133,7 +133,7 @@
             "year": "2015",
             "npc_en": "C'zibho Tia",
             "npc_fr": "C'zibho Tia",
-            "cPrev": [67660],
+            "cPrev": ["q.67660"],
             "patch": "4.31"
         },
         "x67662": {
@@ -143,7 +143,7 @@
             "year": "2015",
             "npc_en": "Espan",
             "npc_fr": "Espan",
-            "cPrev": [67660],
+            "cPrev": ["q.67660"],
             "patch": "4.31"
         },
         "x67663": {
@@ -153,7 +153,7 @@
             "year": "2015",
             "npc_en": "P'obyano",
             "npc_fr": "P'obyano",
-            "cPrev": [67660],
+            "cPrev": ["q.67660"],
             "cSiblings": ["character.achievement.quests.seasonal-events.1191"],
             "patch": "4.31"
         },
@@ -164,7 +164,7 @@
             "year": "2016",
             "npc_en": "Mayaru Moyaru",
             "npc_fr": "Mayaru Moyaru",
-            "cNext": [67673],
+            "cNext": ["q.67673"],
             "patch": "4.31"
         },
         "x67673": {
@@ -174,8 +174,8 @@
             "year": "2016",
             "npc_en": "J'nangho",
             "npc_fr": "J'nangho",
-            "cPrev": [67672],
-            "cNext": [67674],
+            "cPrev": ["q.67672"],
+            "cNext": ["q.67674"],
             "patch": "4.31"
         },
         "x67674": {
@@ -185,8 +185,8 @@
             "year": "2016",
             "npc_en": "J'nangho",
             "npc_fr": "J'nangho",
-            "cPrev": [67673],
-            "cNext": [67675],
+            "cPrev": ["q.67673"],
+            "cNext": ["q.67675"],
             "patch": "4.31"
         },
         "x67675": {
@@ -196,8 +196,8 @@
             "year": "2016",
             "npc_en": "J'nangho",
             "npc_fr": "J'nangho",
-            "cPrev": [67674],
-            "cNext": [67676],
+            "cPrev": ["q.67674"],
+            "cNext": ["q.67676"],
             "patch": "4.31"
         },
         "x67676": {
@@ -207,7 +207,7 @@
             "year": "2016",
             "npc_en": "Haermaga",
             "npc_fr": "Haermaga",
-            "cPrev": [67675],
+            "cPrev": ["q.67675"],
             "cSiblings": ["character.achievement.quests.seasonal-events.1596"],
             "patch": "4.31"
         },
@@ -218,7 +218,7 @@
             "year": "2017",
             "npc_en": "Mayaru Moyaru",
             "npc_fr": "Mayaru Moyaru",
-            "cNext": [68495, 68493, 68496, 68494],
+            "cNext": ["q.68495", "q.68493", "q.68496", "q.68494"],
             "patch": "4.31"
         },
         "x68493": {
@@ -228,7 +228,7 @@
             "year": "2017",
             "npc_en": "P'obyano",
             "npc_fr": "P'obyano",
-            "cPrev": [68492],
+            "cPrev": ["q.68492"],
             "patch": "4.31"
         },
         "x68494": {
@@ -238,7 +238,7 @@
             "year": "2017",
             "npc_en": "Hildelana",
             "npc_fr": "Hildelana",
-            "cPrev": [68492],
+            "cPrev": ["q.68492"],
             "patch": "4.31"
         },
         "x68495": {
@@ -248,7 +248,7 @@
             "year": "2017",
             "npc_en": "Beaudefoin",
             "npc_fr": "Beaudefoin",
-            "cPrev": [68492],
+            "cPrev": ["q.68492"],
             "patch": "4.31"
         },
         "x68496": {
@@ -258,7 +258,7 @@
             "year": "2017",
             "npc_en": "Haermaga",
             "npc_fr": "Haermaga",
-            "cPrev": [68492],
+            "cPrev": ["q.68492"],
             "cSiblings": ["character.achievement.quests.seasonal-events.1785"],
             "patch": "4.31"
         },
@@ -269,7 +269,7 @@
             "year": "2018",
             "npc_en": "Mayaru Moyaru",
             "npc_fr": "Mayaru Moyaru",
-            "cNext": [68672],
+            "cNext": ["q.68672"],
             "patch": "4.31"
         },
         "x68672": {
@@ -279,8 +279,8 @@
             "year": "2018",
             "npc_en": "Beaudefoin",
             "npc_fr": "Beaudefoin",
-            "cPrev": [68671],
-            "cNext": [68673],
+            "cPrev": ["q.68671"],
+            "cNext": ["q.68673"],
             "patch": "4.31"
         },
         "x68673": {
@@ -290,7 +290,7 @@
             "year": "2018",
             "npc_en": "Haermaga",
             "npc_fr": "Haermaga",
-            "cPrev": [68672],
+            "cPrev": ["q.68672"],
             "cSiblings": ["character.achievement.quests.seasonal-events.2104"],
             "patch": "4.31"
         },
@@ -301,7 +301,7 @@
             "year": "2019",
             "npc_en": "Mayaru Moyaru",
             "npc_fr": "Mayaru Moyaru",
-            "cNext": [69203, 69200, 69201, 69202],
+            "cNext": ["q.69203", "q.69200", "q.69201", "q.69202"],
             "patch": "5.0"
         },
         "x69200": {
@@ -311,7 +311,7 @@
             "year": "2019",
             "npc_en": "Haermaga",
             "npc_fr": "Haermaga",
-            "cPrev": [69199],
+            "cPrev": ["q.69199"],
             "cSiblings": ["character.achievement.quests.seasonal-events.2398"],
             "patch": "5.0"
         },
@@ -322,7 +322,7 @@
             "year": "2019",
             "npc_en": "Course Registrar",
             "npc_fr": "Responsable Des Inscriptions",
-            "cPrev": [69199],
+            "cPrev": ["q.69199"],
             "patch": "5.0"
         },
         "x69202": {
@@ -332,7 +332,7 @@
             "year": "2019",
             "npc_en": "Hildelana",
             "npc_fr": "Hildelana",
-            "cPrev": [69199],
+            "cPrev": ["q.69199"],
             "patch": "5.0"
         },
         "x69203": {
@@ -342,7 +342,7 @@
             "year": "2019",
             "npc_en": "J'nangho",
             "npc_fr": "J'nangho",
-            "cPrev": [69199],
+            "cPrev": ["q.69199"],
             "patch": "5.0"
         },
         "x69502": {
@@ -352,7 +352,7 @@
             "year": "2020",
             "npc_en": "Mayaru Moyaru",
             "npc_fr": "Mayaru Moyaru",
-            "cNext": [69503],
+            "cNext": ["q.69503"],
             "patch": "5.3"
         },
         "x69503": {
@@ -362,7 +362,7 @@
             "year": "2020",
             "npc_en": "Haermaga",
             "npc_fr": "Haermaga",
-            "cPrev": [69502],
+            "cPrev": ["q.69502"],
             "cSiblings": ["character.achievement.quests.seasonal-events.2646"],
             "patch": "5.3"
         },
@@ -373,7 +373,7 @@
             "year": "2021",
             "npc_en": "Mayaru Moyaru",
             "npc_fr": "Mayaru Moyaru",
-            "cNext": [69619],
+            "cNext": ["q.69619"],
             "patch": "5.5"
         },
         "x69619": {
@@ -383,7 +383,7 @@
             "year": "2021",
             "npc_en": "Nekeke",
             "npc_fr": "Nekeke",
-            "cPrev": [69618],
+            "cPrev": ["q.69618"],
             "cSiblings": ["character.achievement.quests.seasonal-events.2853"],
             "patch": "5.5"
         },
@@ -394,7 +394,7 @@
             "year": "2022",
             "npc_en": "Mayaru Moyaru",
             "npc_fr": "Mayaru Moyaru",
-            "cNext": [70077],
+            "cNext": ["q.70077"],
             "patch": "6.1"
         },
         "x70077": {
@@ -404,7 +404,7 @@
             "year": "2022",
             "npc_en": "R'fhul Tia",
             "npc_fr": "R'fhul Tia",
-            "cPrev": [70076],
+            "cPrev": ["q.70076"],
             "cSiblings": ["character.achievement.quests.seasonal-events.3080"],
             "patch": "6.1"
         },
@@ -415,7 +415,7 @@
             "year": "2023",
             "npc_en": "Mayaru Moyaru",
             "npc_fr": "Mayaru Moyaru",
-            "cNext": [70260],
+            "cNext": ["q.70260"],
             "patch": "6.3"
         },
         "x70260": {
@@ -425,7 +425,7 @@
             "year": "2023",
             "npc_en": "Haermaga",
             "npc_fr": "Haermaga",
-            "cPrev": [70259],
+            "cPrev": ["q.70259"],
             "cSiblings": ["character.achievement.quests.seasonal-events.3207"],
             "patch": "6.3"
         }

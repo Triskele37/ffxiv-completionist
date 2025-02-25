@@ -9,8 +9,8 @@
             "name_fr": "À la recherche de l'étoile d'azur",
             "npc_en": "Jude",
             "npc_fr": "Jude",
-            "cPrev": ["duty.quests.class--job.studium.70009"],
-            "cNext": [69676],
+            "cPrev": ["q.70009"],
+            "cNext": ["q.69676"],
             "patch": "6.0"
         },
         "x69676": {
@@ -19,8 +19,8 @@
             "name_fr": "Si t'as pas d'amis...",
             "npc_en": "Jude",
             "npc_fr": "Jude",
-            "cPrev": [69675],
-            "cNext": [69677],
+            "cPrev": ["q.69675"],
+            "cNext": ["q.69677"],
             "patch": "6.0"
         },
         "x69677": {
@@ -29,8 +29,8 @@
             "name_fr": "Compose de la poésie",
             "npc_en": "Jude",
             "npc_fr": "Jude",
-            "cPrev": [69676],
-            "cNext": [69678],
+            "cPrev": ["q.69676"],
+            "cNext": ["q.69678"],
             "patch": "6.0"
         },
         "x69678": {
@@ -39,8 +39,8 @@
             "name_fr": "Un petit pas pour l'astronomie...",
             "npc_en": "Jude",
             "npc_fr": "Jude",
-            "cPrev": [69677],
-            "cNext": [69679],
+            "cPrev": ["q.69677"],
+            "cNext": ["q.69679"],
             "patch": "6.0"
         },
         "x69679": {
@@ -49,8 +49,8 @@
             "name_fr": "Une vieille promesse",
             "npc_en": "Jude",
             "npc_fr": "Jude",
-            "cPrev": [69678],
-            "cNext": [69680],
+            "cPrev": ["q.69678"],
+            "cNext": ["q.69680"],
             "patch": "6.0"
         },
         "x69680": {
@@ -59,8 +59,8 @@
             "name_fr": "Un grand pas pour Jude",
             "npc_en": "Jude",
             "npc_fr": "Jude",
-            "cPrev": [69679],
-            "cNext": [69681],
+            "cPrev": ["q.69679"],
+            "cNext": ["q.69681"],
             "patch": "6.0"
         },
         "x69681": {
@@ -69,8 +69,8 @@
             "name_fr": "L'amitié brille sous les étoiles",
             "npc_en": "Jude",
             "npc_fr": "Jude",
-            "cPrev": [69680],
-            "cNext": ["duty.quests.class--job.studium.70010"],
+            "cPrev": ["q.69680"],
+            "cNext": ["q.70010"],
             "cSiblings": ["character.achievement.quests.job-role-quests.2967"],
             "patch": "6.0"
         }

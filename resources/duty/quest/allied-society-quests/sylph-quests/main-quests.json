@@ -9,8 +9,8 @@
             "name_fr": "Un tour au Refuge",
             "npc_en": "Vorsaile Heuloix",
             "npc_fr": "Vorsaile Heuloix",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66488"],
-            "cNext": [66789],
+            "cPrev": ["q.66488"],
+            "cNext": ["q.66789"],
             "patch": "4.31"
         },
         "x66789": {
@@ -19,8 +19,8 @@
             "name_fr": "La recherche du scientifique",
             "npc_en": "Olmxio",
             "npc_fr": "Olmxio",
-            "cPrev": [66788],
-            "cNext": [66790],
+            "cPrev": ["q.66788"],
+            "cNext": ["q.66790"],
             "cSiblings": ["character.character.tribal-relations.5"],
             "patch": "4.31"
         },
@@ -32,8 +32,8 @@
             "npc_fr": "Voyce",
             "reputation_en": "Neutral",
             "reputation_fr": "Neutre",
-            "cPrev": [66789],
-            "cNext": [66791],
+            "cPrev": ["q.66789"],
+            "cNext": ["q.66791"],
             "cSiblings": ["character.character.tribal-relations.6"],
             "patch": "4.31"
         },
@@ -45,8 +45,8 @@
             "npc_fr": "Olmxio",
             "reputation_en": "Recognized",
             "reputation_fr": "Reconnu",
-            "cPrev": [66790],
-            "cNext": [66792],
+            "cPrev": ["q.66790"],
+            "cNext": ["q.66792"],
             "cSiblings": ["character.character.tribal-relations.7"],
             "patch": "4.31"
         },
@@ -58,7 +58,7 @@
             "npc_fr": "Olmxio",
             "reputation_en": "Friendly",
             "reputation_fr": "Ami",
-            "cPrev": [66791],
+            "cPrev": ["q.66791"],
             "cSiblings": ["character.character.tribal-relations.8"],
             "patch": "4.31"
         }

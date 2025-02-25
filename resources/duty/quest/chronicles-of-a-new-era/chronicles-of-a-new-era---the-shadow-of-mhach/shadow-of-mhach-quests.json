@@ -9,8 +9,8 @@
             "name_fr": "Les pirates des cieux",
             "npc_en": "Unquiet Trader",
             "npc_fr": "Marchand Inquiet",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67205"],
-            "cNext": [67741],
+            "cPrev": ["q.67205"],
+            "cNext": ["q.67741"],
             "patch": "4.31"
         },
         "x67741": {
@@ -20,8 +20,8 @@
             "unlock": "duty.dutyraid-finder.raids.hw.24",
             "npc_en": "Utata",
             "npc_fr": "Utata",
-            "cPrev": [67740],
-            "cNext": [67821],
+            "cPrev": ["q.67740"],
+            "cNext": ["q.67821"],
             "cSiblings": ["character.achievement.quests.quests.1388"],
             "patch": "4.31"
         },
@@ -32,8 +32,8 @@
             "unlock": "duty.dutyraid-finder.raids.hw.25",
             "npc_en": "Stacia",
             "npc_fr": "Stacia",
-            "cPrev": [67741],
-            "cNext": [67822],
+            "cPrev": ["q.67741"],
+            "cNext": ["q.67822"],
             "patch": "4.31"
         },
         "x67822": {
@@ -42,8 +42,8 @@
             "name_fr": "Le combat pour la liberté",
             "npc_en": "Leofard",
             "npc_fr": "Leofard",
-            "cPrev": [67821],
-            "cNext": [67016, 67909],
+            "cPrev": ["q.67821"],
+            "cNext": ["q.67016", "q.67909"],
             "patch": "4.31"
         },
         "x67909": {
@@ -53,8 +53,8 @@
             "unlock": "duty.dutyraid-finder.raids.hw.26",
             "npc_en": "Stacia",
             "npc_fr": "Stacia",
-            "cPrev": [67822],
-            "cNext": [67910],
+            "cPrev": ["q.67822"],
+            "cNext": ["q.67910"],
             "patch": "4.31"
         },
         "x67910": {
@@ -63,7 +63,7 @@
             "name_fr": "Le foulard lui va si bien",
             "npc_en": "Leofard",
             "npc_fr": "Leofard",
-            "cPrev": [67909],
+            "cPrev": ["q.67909"],
             "patch": "4.31"
         },
         "x67016": {
@@ -72,7 +72,7 @@
             "name_fr": "Objet volant non identifié",
             "npc_en": "Slipslix",
             "npc_fr": "Slipslix",
-            "cPrev": [67822],
+            "cPrev": ["q.67822"],
             "patch": "4.31"
         }
     }

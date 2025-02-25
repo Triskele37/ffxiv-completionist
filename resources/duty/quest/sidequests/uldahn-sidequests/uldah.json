@@ -9,7 +9,7 @@
             "name_fr": "Bienvenue à Ul'dah",
             "npc_en": "Wymond",
             "npc_fr": "Wymond",
-            "cNext": ["duty.quests.main-scenario.seventh-umbral-era.uldah.66106"],
+            "cNext": ["q.66106"],
             "patch": "4.31"
         },
         "x65932": {
@@ -26,8 +26,8 @@
             "name_fr": "Promesse en toc",
             "npc_en": "Didilata",
             "npc_fr": "Didilata",
-            "cPrev": [65686],
-            "cNext": [65689],
+            "cPrev": ["q.65686"],
+            "cNext": ["q.65689"],
             "patch": "4.31"
         },
         "x65685": {
@@ -44,7 +44,7 @@
             "name_fr": "La vie en haut de l'affiche",
             "npc_en": "Hihito",
             "npc_fr": "Hihito",
-            "cPrev": [65687],
+            "cPrev": ["q.65687"],
             "patch": "4.31"
         },
         "x65686": {
@@ -53,7 +53,7 @@
             "name_fr": "Éléments de persuasion",
             "npc_en": "Gelther",
             "npc_fr": "Gelther",
-            "cNext": [65687],
+            "cNext": ["q.65687"],
             "patch": "4.31"
         },
         "x65701": {
@@ -86,7 +86,7 @@
             "name_fr": "Charité intéressée",
             "npc_en": "Alewyn",
             "npc_fr": "Alewyn",
-            "cNext": [65931],
+            "cNext": ["q.65931"],
             "patch": "4.31"
         },
         "x65931": {
@@ -95,7 +95,7 @@
             "name_fr": "Pas les mêmes valeurs",
             "npc_en": "Landebert",
             "npc_fr": "Landebert",
-            "cPrev": [65930],
+            "cPrev": ["q.65930"],
             "patch": "4.31"
         },
         "x65928": {
@@ -136,7 +136,7 @@
             "name_fr": "Les horaires en retard",
             "npc_en": "Kekezani",
             "npc_fr": "Kekezani",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.uldah.66106"],
+            "cPrev": ["q.66106"],
             "patch": "4.31"
         },
         "x65926": {
@@ -145,7 +145,7 @@
             "name_fr": "À bout de souffle",
             "npc_en": "Botulf",
             "npc_fr": "Botulf",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.uldah.66106"],
+            "cPrev": ["q.66106"],
             "patch": "4.31"
         },
         "x66223": {
@@ -155,22 +155,22 @@
             "npc_en": "Eustace",
             "npc_fr": "Eustace",
             "unlock_en": "Leves",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.uldah.65856"],
+            "cPrev": ["q.65856"],
             "cNext": [
-                "duty.quests.sidequests.uldahn.western-thanalan.65594",
-                "duty.quests.sidequests.gridanian.east-shroud.65757",
-                "duty.quests.sidequests.gridanian.south-shroud.65979",
-                "duty.quests.sidequests.uldahn.eastern-thanalan.66224",
-                "duty.quests.sidequests.lominsan.western-la-noscea.66230",
-                "duty.quests.sidequests.uldahn.southern-thanalan.66228",
-                "duty.quests.sidequests.lominsan.eastern-la-noscea.65550",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.65552",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.65553",
-                "duty.quests.sidequests.gridanian.south-shroud.65980",
-                "duty.quests.sidequests.uldahn.northern-thanalan.65551",
-                "duty.quests.sidequests.lominsan.eastern-la-noscea.66232",
-                "duty.quests.sidequests.lominsan.lower-la-noscea.66231",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.65554"
+                "q.65594",
+                "q.65757",
+                "q.65979",
+                "q.66224",
+                "q.66230",
+                "q.66228",
+                "q.65550",
+                "q.65552",
+                "q.65553",
+                "q.65980",
+                "q.65551",
+                "q.66232",
+                "q.66231",
+                "q.65554"
             ],
             "patch": "4.31"
         },
@@ -182,7 +182,7 @@
             "cPrevAny": true,
             "npc_en": "P'molminn",
             "npc_fr": "P'molminn",
-            "cPrev": [66088, 66081, "duty.quests.main-scenario.seventh-umbral-era.gridania.65985"],
+            "cPrev": ["q.66088", "q.66081", "q.65985"],
             "cSiblings": ["social.emotes.special.103"],
             "patch": "4.31"
         },
@@ -194,16 +194,8 @@
             "npc_en": "Well-heeled Youth",
             "npc_fr": "Jeune Homme Chanceux",
             "unlock_en": "Gold Saucer",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.66043", 66064, 66082],
-            "cNext": [
-                "duty.quests.sidequests.uldahn.the-gold-saucer.65971",
-                "duty.quests.sidequests.uldahn.chocobo-square.65972",
-                "duty.quests.other.quasi-quests.65973",
-                "duty.quests.other.quasi-quests.66024",
-                "duty.quests.other.quasi-quests.66025",
-                "duty.quests.sidequests.uldahn.the-gold-saucer.68617",
-                "duty.quests.sidequests.uldahn.the-gold-saucer.68737"
-            ],
+            "cPrev": ["q.66043", "q.66064", "q.66082"],
+            "cNext": ["q.65971", "q.65972", "q.65973", "q.66024", "q.66025", "q.68617", "q.68737"],
             "patch": "4.31"
         },
         "x66970": {
@@ -213,10 +205,7 @@
             "npc_en": "Troubled Adventurer",
             "npc_fr": "Aventurier Dans L'embarras",
             "unlock_en": "Retainer Ventures",
-            "cExclude": [
-                "duty.quests.sidequests.gridanian.gridania.66968",
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66969"
-            ],
+            "cExclude": ["q.66968", "q.66969"],
             "patch": "4.31"
         },
         "x66238": {
@@ -226,11 +215,8 @@
             "unlock": "character.mount-guide.39",
             "npc_en": "Swift",
             "npc_fr": "Swift Ryder",
-            "cNext": ["duty.quests.sidequests.gridanian.south-shroud.66698"],
-            "cExclude": [
-                "duty.quests.sidequests.gridanian.gridania.66236",
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66237"
-            ],
+            "cNext": ["q.66698"],
+            "cExclude": ["q.66236", "q.66237"],
             "patch": "4.31"
         },
         "x65688": {
@@ -240,7 +226,7 @@
             "npc_en": "Syntgoht",
             "npc_fr": "Syntgoht",
             "unlock_en": "Desynthesis",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.65808"],
+            "cPrev": ["q.65808"],
             "patch": "4.31"
         },
         "x66459": {
@@ -249,7 +235,7 @@
             "name_fr": "Graissage de patte",
             "npc_en": "Syntgoht",
             "npc_fr": "Syntgoht",
-            "cPrev": ["duty.quests.sidequests.uldahn.northern-thanalan.66458"],
+            "cPrev": ["q.66458"],
             "patch": "4.31"
         },
         "x66457": {
@@ -267,8 +253,8 @@
             "name_fr": "Le cœur du problème",
             "npc_en": "Syntgoht",
             "npc_fr": "Syntgoht",
-            "cPrev": ["duty.quests.sidequests.coerthan.coerthas-central-highlands.66454"],
-            "cNext": ["duty.quests.sidequests.uldahn.northern-thanalan.66456"],
+            "cPrev": ["q.66454"],
+            "cNext": ["q.66456"],
             "patch": "4.31"
         },
         "x67060": {
@@ -278,8 +264,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.24",
             "npc_en": "Paiyo Reiyo",
             "npc_fr": "Paiyo Reiyo",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
-            "cNext": ["duty.quests.sidequests.records-of-unusual-endeavors.palace-of-the-dead.67093"],
+            "cPrev": ["q.66060"],
+            "cNext": ["q.67093"],
             "patch": "4.31"
         }
     }

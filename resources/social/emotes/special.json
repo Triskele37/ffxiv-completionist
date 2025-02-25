@@ -8,44 +8,44 @@
             "name_fr": "Claquettes",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.sidequests.lominsan.limsa-lominsa.66962",
+            "source": "q.66962",
             "patch": "2.2",
             "command_en": "/stepdance, /sdance",
             "command_fr": "/claquettes, /stepdance, /sdance",
-            "cSiblings": ["duty.quests.sidequests.lominsan.limsa-lominsa.66962"]
+            "cSiblings": ["q.66962"]
         },
         "x102": {
             "name_en": "Harvest Dance",
             "name_fr": "Danse des moissons",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.sidequests.gridanian.gridania.66961",
+            "source": "q.66961",
             "patch": "2.2",
             "command_en": "/harvestdance, /hdance",
             "command_fr": "/dansemoissons, /dmoissons, /harvestdance, /hdance",
-            "cSiblings": ["duty.quests.sidequests.gridanian.gridania.66961"]
+            "cSiblings": ["q.66961"]
         },
         "x103": {
             "name_en": "Ball Dance",
             "name_fr": "Danse de la cour",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.sidequests.uldahn.uldah.66963",
+            "source": "q.66963",
             "patch": "2.2",
             "command_en": "/balldance, /bdance",
             "command_fr": "/dansecour, /dcour, /balldance, /bdance",
-            "cSiblings": ["duty.quests.sidequests.uldahn.uldah.66963"]
+            "cSiblings": ["q.66963"]
         },
         "x104": {
             "name_en": "Manderville Dance",
             "name_fr": "Danse du gentilhomme",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.sidequests.hildibrand-sidequests.hildibrand.66852",
+            "source": "q.66852",
             "patch": "2.2",
             "command_en": "/mandervilledance, /mdance",
             "command_fr": "/dansegentilhomme, /dghomme, /mandervilledance, /mdance",
-            "cSiblings": ["duty.quests.sidequests.hildibrand-sidequests.hildibrand.66852"]
+            "cSiblings": ["q.66852"]
         },
         "x109": {
             "name_en": "Bomb Dance",
@@ -64,11 +64,11 @@
             "name_fr": "Pose du détective",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.sidequests.hildibrand-sidequests.hildibrand.66038",
+            "source": "q.66038",
             "patch": "2.5",
             "command_en": "/hildibrand, /hildy",
             "command_fr": "/hildibrand, /hildy",
-            "cSiblings": ["duty.quests.sidequests.hildibrand-sidequests.hildibrand.66038"]
+            "cSiblings": ["q.66038"]
         },
         "x118": {
             "name_en": "Thavnairian Dance",
@@ -97,33 +97,33 @@
             "name_fr": "Danse du soleil",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.tribal-quests.vanu.67705",
+            "source": "q.67705",
             "patch": "3.1",
             "command_en": "/sundropdance, /sundance",
             "command_fr": "/dansedusoleil, /dsoleil, /sundance",
-            "cSiblings": ["duty.quests.tribal-quests.vanu.67705"]
+            "cSiblings": ["q.67705"]
         },
         "x145": {
             "name_en": "Moonlift Dance",
             "name_fr": "Danse du soleil et de la lune",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.tribal-quests.tribal-alliance-quests.heavensward-tribal-quests.67921",
+            "source": "q.67921",
             "patch": "3.5",
             "command_en": "/moonlift",
             "command_fr": "/dansesoleiletlune, /dsoleillune, /moonlift",
-            "cSiblings": ["duty.quests.tribal-quests.tribal-alliance-quests.heavensward-tribal-quests.67921"]
+            "cSiblings": ["q.67921"]
         },
         "x126": {
             "name_en": "Moogle Dance",
             "name_fr": "Danse mog",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.tribal-quests.moogle.67862",
+            "source": "q.67862",
             "patch": "3.3",
             "command_en": "/mogdance",
             "command_fr": "/dansemog, /dmog, /mogdance",
-            "cSiblings": ["duty.quests.tribal-quests.moogle.67862"]
+            "cSiblings": ["q.67862"]
         },
         "x130": {
             "name_en": "Red Ranger Pose A",
@@ -406,18 +406,18 @@
             "name_fr": "Fredonner",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.chronicles-of-a-new-era.the-four-lords.68688",
+            "source": "q.68688",
             "patch": "4.4",
             "command_en": "/hum",
             "command_fr": "/fredonner, /hum",
-            "cSiblings": ["duty.quests.chronicles-of-a-new-era.the-four-lords.68688"]
+            "cSiblings": ["q.68688"]
         },
         "x198": {
             "name_en": "Manderville Mambo",
             "name_fr": "Mambo du gentilhomme",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.sidequests.hildibrand-sidequests.even-further-hildibrand-adventures.68704",
+            "source": "q.68704",
             "patch": "4.5",
             "command_en": "/mandervillemambo, /mmambo",
             "command_fr": "/mambogentilhomme, /mandervillemambo, /mmambo"
@@ -473,7 +473,7 @@
             "name_fr": "Danse des Loporrites",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.tribal-quests.tribal-alliance-quests.stormblood-tribal-quests.70324",
+            "source": "q.70324",
             "patch": "6.55",
             "command_en": "/lophop",
             "command_fr": "/dansedesloporrites, /danslopo, /lophop"
@@ -556,11 +556,11 @@
             "name_fr": "Boxe",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.main-scenario.post-stormblood.68498",
+            "source": "q.68498",
             "patch": "4.1",
             "command_en": "/box",
             "command_fr": "/boxe, /box",
-            "cSiblings": ["duty.quests.main-scenario.post-stormblood.68498"]
+            "cSiblings": ["q.68498"]
         },
         "x180": {
             "name_en": "Sweat",

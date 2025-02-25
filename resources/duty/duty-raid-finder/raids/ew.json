@@ -7,14 +7,14 @@
             "name_en": "Asphodelos: The First Circle",
             "name_fr": "Les Limbes du Pandæmonium - Parvis",
             "level": "90",
-            "unlock": "duty.quests.chronicles-of-a-new-era.pandaemonium.70012",
+            "unlock": "q.70012",
             "cNext": [1]
         },
         "x1": {
             "name_en": "Asphodelos: The Second Circle",
             "name_fr": "Les Limbes du Pandæmonium - Cloaque",
             "level": "90",
-            "unlock": "duty.quests.chronicles-of-a-new-era.pandaemonium.70013",
+            "unlock": "q.70013",
             "cPrev": [0],
             "cNext": [2]
         },
@@ -22,7 +22,7 @@
             "name_en": "Asphodelos: The Third Circle",
             "name_fr": "Les Limbes du Pandæmonium - Fournaise",
             "level": "90",
-            "unlock": "duty.quests.chronicles-of-a-new-era.pandaemonium.70014",
+            "unlock": "q.70014",
             "cPrev": [1],
             "cNext": [3]
         },
@@ -30,7 +30,7 @@
             "name_en": "Asphodelos: The Fourth Circle",
             "name_fr": "Les Limbes du Pandæmonium - Abîme",
             "level": "90",
-            "unlock": "duty.quests.chronicles-of-a-new-era.pandaemonium.70015",
+            "unlock": "q.70015",
             "cSiblings": ["character.achievement.battle.raids.3035"],
             "cPrev": [2],
             "cNext": [10]
@@ -39,7 +39,7 @@
             "name_en": "Abyssos: The Fifth Circle",
             "name_fr": "Le Purgatoire du Pandæmonium - Cages",
             "level": "90",
-            "unlock": "duty.quests.chronicles-of-a-new-era.pandaemonium.70172",
+            "unlock": "q.70172",
             "cPrev": [3],
             "cNext": [11]
         },
@@ -47,7 +47,7 @@
             "name_en": "Abyssos: The Sixth Circle",
             "name_fr": "Le Purgatoire du Pandæmonium - Croisements",
             "level": "90",
-            "unlock": "duty.quests.chronicles-of-a-new-era.pandaemonium.70173",
+            "unlock": "q.70173",
             "cPrev": [10],
             "cNext": [12]
         },
@@ -55,7 +55,7 @@
             "name_en": "Abyssos: The Seventh Circle",
             "name_fr": "Le Purgatoire du Pandæmonium - Racines",
             "level": "90",
-            "unlock": "duty.quests.chronicles-of-a-new-era.pandaemonium.70174",
+            "unlock": "q.70174",
             "cPrev": [11],
             "cNext": [13]
         },
@@ -63,7 +63,7 @@
             "name_en": "Abyssos: The Eighth Circle",
             "name_fr": "Le Purgatoire du Pandæmonium - Hérédité",
             "level": "90",
-            "unlock": "duty.quests.chronicles-of-a-new-era.pandaemonium.70175",
+            "unlock": "q.70175",
             "cPrev": [12],
             "cNext": [20],
             "cSiblings": ["character.achievement.battle.raids.3108"]
@@ -72,7 +72,7 @@
             "name_en": "Anabaseios: The Ninth Circle",
             "name_fr": "Le Paradis du Pandæmonium - Métempsycose",
             "level": "90",
-            "unlock": "duty.quests.chronicles-of-a-new-era.pandaemonium.70292",
+            "unlock": "q.70292",
             "cPrev": [13],
             "cNext": [21]
         },
@@ -80,7 +80,7 @@
             "name_en": "Anabaseios: The Tenth Circle",
             "name_fr": "Le Paradis du Pandæmonium - Monochrome",
             "level": "90",
-            "unlock": "duty.quests.chronicles-of-a-new-era.pandaemonium.70293",
+            "unlock": "q.70293",
             "cPrev": [20],
             "cNext": [22]
         },
@@ -88,7 +88,7 @@
             "name_en": "Anabaseios: The Eleventh Circle",
             "name_fr": "Le Paradis du Pandæmonium - Tribunal",
             "level": "90",
-            "unlock": "duty.quests.chronicles-of-a-new-era.pandaemonium.70294",
+            "unlock": "q.70294",
             "cPrev": [21],
             "cNext": [23]
         },
@@ -96,7 +96,7 @@
             "name_en": "Anabaseios: The Twelfth Circle",
             "name_fr": "Le Paradis du Pandæmonium - Apothéose",
             "level": "90",
-            "unlock": "duty.quests.chronicles-of-a-new-era.pandaemonium.70295",
+            "unlock": "q.70295",
             "cPrev": [22],
             "cSiblings": ["character.achievement.battle.raids.3248"]
         },
@@ -179,7 +179,7 @@
             "name_en": "Aglaia",
             "name_fr": "Domaine divin - Aglaé",
             "level": "90",
-            "unlock": "duty.quests.chronicles-of-a-new-era.myths-of-the-realm.70073",
+            "unlock": "q.70073",
             "cNext": [18],
             "cSiblings": ["character.achievement.battle.raids.3073"]
         },
@@ -187,7 +187,7 @@
             "name_en": "Euphrosyne",
             "name_fr": "Domaine divin - Euphrosyne",
             "level": "90",
-            "unlock": "duty.quests.chronicles-of-a-new-era.myths-of-the-realm.70202",
+            "unlock": "q.70202",
             "cPrev": [8],
             "cNext": [28],
             "cSiblings": ["character.achievement.battle.raids.3161"]
@@ -196,7 +196,7 @@
             "name_en": "Thaleia",
             "name_fr": "Domaine divin - Thalie",
             "level": "90",
-            "unlock": "duty.quests.chronicles-of-a-new-era.myths-of-the-realm.70327",
+            "unlock": "q.70327",
             "cPrev": [18],
             "cSiblings": ["character.achievement.battle.raids.3403"]
         },

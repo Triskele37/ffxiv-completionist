@@ -9,8 +9,8 @@
             "name_fr": "La bête venue du froid",
             "npc_en": "Shirabaht",
             "npc_fr": "Shirabaht",
-            "cPrev": [69643, 69649, 69655],
-            "cNext": [70116],
+            "cPrev": ["q.69643", "q.69649", "q.69655"],
+            "cNext": ["q.70116"],
             "patch": "6.1"
         },
         "x70116": {
@@ -19,8 +19,8 @@
             "name_fr": "Rapatriés à la dérive",
             "npc_en": "Artoirel",
             "npc_fr": "Artoirel",
-            "cPrev": [70115],
-            "cNext": [70117],
+            "cPrev": ["q.70115"],
+            "cNext": ["q.70117"],
             "patch": "6.1"
         },
         "x70117": {
@@ -29,8 +29,8 @@
             "name_fr": "Être garlemaldais",
             "npc_en": "Fourchenault",
             "npc_fr": "Fourchenault",
-            "cPrev": [70116],
-            "cNext": [70118],
+            "cPrev": ["q.70116"],
+            "cNext": ["q.70118"],
             "patch": "6.1"
         },
         "x70118": {
@@ -39,7 +39,7 @@
             "name_fr": "Nerva, le patriote",
             "npc_en": "Fourchenault",
             "npc_fr": "Fourchenault",
-            "cPrev": [70117],
+            "cPrev": ["q.70117"],
             "cSiblings": ["character.achievement.quests.job-role-quests.3076"],
             "patch": "6.1"
         }

@@ -9,8 +9,8 @@
             "name_fr": "Le jour d'après",
             "npc_en": "Guard Quartermaster",
             "npc_fr": "Officier De La Logistique",
-            "cPrev": ["duty.quests.sidequests.lakeland.the-crystarium.68916"],
-            "cNext": [68919],
+            "cPrev": ["q.68916"],
+            "cNext": ["q.68919"],
             "patch": "5.0"
         },
         "x68918": {
@@ -19,8 +19,8 @@
             "name_fr": "À la recherche de l'amaro perdu",
             "npc_en": "Riqi-Mao",
             "npc_fr": "Riqi-Mao",
-            "cPrev": ["duty.quests.sidequests.lakeland.the-crystarium.68916"],
-            "cNext": [68919],
+            "cPrev": ["q.68916"],
+            "cNext": ["q.68919"],
             "patch": "5.0"
         },
         "x68919": {
@@ -29,7 +29,7 @@
             "name_fr": "Montrer l'exemple",
             "npc_en": "Bjorn",
             "npc_fr": "Bjorn",
-            "cPrev": [68917, 68918],
+            "cPrev": ["q.68917", "q.68918"],
             "patch": "5.0"
         },
         "x68920": {
@@ -39,7 +39,7 @@
             "unlock": "travel.aether-currents.shb.lakeland.12",
             "npc_en": "Seanard",
             "npc_fr": "Seanard",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.68840"],
+            "cPrev": ["q.68840"],
             "cSiblings": ["travel.aether-currents.shb.lakeland.12"],
             "patch": "5.0"
         },
@@ -50,7 +50,7 @@
             "unlock": "travel.aether-currents.shb.lakeland.11",
             "npc_en": "Sentry Captain",
             "npc_fr": "Capitaine De La Garnison",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.68840"],
+            "cPrev": ["q.68840"],
             "cSiblings": ["travel.aether-currents.shb.lakeland.11"],
             "patch": "5.0"
         },
@@ -61,8 +61,8 @@
             "unlock": "travel.aether-currents.shb.lakeland.10",
             "npc_en": "Teanna",
             "npc_fr": "Teanna",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.68840"],
-            "cNext": [68923],
+            "cPrev": ["q.68840"],
+            "cNext": ["q.68923"],
             "cSiblings": ["travel.aether-currents.shb.lakeland.10"],
             "patch": "5.0"
         },
@@ -72,7 +72,7 @@
             "name_fr": "Opération livraison",
             "npc_en": "Mynes",
             "npc_fr": "Mynes",
-            "cPrev": [68922],
+            "cPrev": ["q.68922"],
             "patch": "5.0"
         },
         "x68924": {
@@ -81,7 +81,7 @@
             "name_fr": "La tête dans les étoiles",
             "npc_en": "Aiscar",
             "npc_fr": "Aiscar",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.68840"],
+            "cPrev": ["q.68840"],
             "patch": "5.0"
         },
         "x68925": {
@@ -90,7 +90,7 @@
             "name_fr": "Enquête nocturne",
             "npc_en": "Sai-Qesh",
             "npc_fr": "Sai-Qesh",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.68840"],
+            "cPrev": ["q.68840"],
             "patch": "5.0"
         },
         "x68926": {
@@ -99,7 +99,7 @@
             "name_fr": "L'affaire de l'épée volée",
             "npc_en": "Lethenmaer",
             "npc_fr": "Lethenmaer",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.68840"],
+            "cPrev": ["q.68840"],
             "patch": "5.0"
         },
         "x68927": {
@@ -108,7 +108,7 @@
             "name_fr": "Un repos bien mérité?",
             "npc_en": "Sue-Lewq",
             "npc_fr": "Sue-Lewq",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.68840"],
+            "cPrev": ["q.68840"],
             "patch": "5.0"
         },
         "x68971": {
@@ -117,7 +117,7 @@
             "name_fr": "Des pierres témoins de l'Histoire",
             "npc_en": "High-strung Historian",
             "npc_fr": "Historien Consciencieux",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.68858"],
+            "cPrev": ["q.68858"],
             "patch": "5.0"
         },
         "x68972": {
@@ -126,7 +126,7 @@
             "name_fr": "Pas digéré, pas perdu!",
             "npc_en": "Ungainly Guardsman",
             "npc_fr": "Soldat Benêt",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.68858"],
+            "cPrev": ["q.68858"],
             "patch": "5.0"
         },
         "x68973": {
@@ -135,7 +135,7 @@
             "name_fr": "Les vilains saccageurs de tombes",
             "npc_en": "Joanric",
             "npc_fr": "Joanric",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.68858"],
+            "cPrev": ["q.68858"],
             "patch": "5.0"
         },
         "x68992": {
@@ -144,8 +144,8 @@
             "name_fr": "Comment vivre sans son père",
             "npc_en": "Callea",
             "npc_fr": "Callea",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.68858"],
-            "cNext": [68993],
+            "cPrev": ["q.68858"],
+            "cNext": ["q.68993"],
             "patch": "5.0"
         },
         "x68993": {
@@ -154,8 +154,8 @@
             "name_fr": "Prendre un nouveau départ à Cristarium?",
             "npc_en": "Nielden",
             "npc_fr": "Nielden",
-            "cPrev": [68992],
-            "cNext": [68994],
+            "cPrev": ["q.68992"],
+            "cNext": ["q.68994"],
             "patch": "5.0"
         },
         "x68994": {
@@ -164,8 +164,8 @@
             "name_fr": "Les vieilles recettes du père",
             "npc_en": "Callea",
             "npc_fr": "Callea",
-            "cPrev": [68993],
-            "cNext": [68995],
+            "cPrev": ["q.68993"],
+            "cNext": ["q.68995"],
             "patch": "5.0"
         },
         "x68995": {
@@ -174,8 +174,8 @@
             "name_fr": "Tel père, telle fille",
             "npc_en": "Callea",
             "npc_fr": "Callea",
-            "cPrev": [68994],
-            "cNext": [69051],
+            "cPrev": ["q.68994"],
+            "cNext": ["q.69051"],
             "patch": "5.0"
         },
         "x69070": {
@@ -184,8 +184,8 @@
             "name_fr": "Une culpabilité paralysante",
             "npc_en": "Mauwyl",
             "npc_fr": "Mauwyl",
-            "cPrev": ["duty.quests.sidequests.lakeland.the-crystarium.69069"],
-            "cNext": [69071],
+            "cPrev": ["q.69069"],
+            "cNext": ["q.69071"],
             "patch": "5.0"
         },
         "x69071": {
@@ -194,8 +194,8 @@
             "name_fr": "La chaleur de l'amitié",
             "npc_en": "Mauwyl",
             "npc_fr": "Mauwyl",
-            "cPrev": [69070],
-            "cNext": [69072],
+            "cPrev": ["q.69070"],
+            "cNext": ["q.69072"],
             "patch": "5.0"
         },
         "x69072": {
@@ -204,8 +204,8 @@
             "name_fr": "Combattre pour ses amis",
             "npc_en": "Tolas",
             "npc_fr": "Tolas",
-            "cPrev": [69071],
-            "cNext": [69051],
+            "cPrev": ["q.69071"],
+            "cNext": ["q.69051"],
             "patch": "5.0"
         },
         "x69051": {
@@ -214,7 +214,7 @@
             "name_fr": "Tisser des liens",
             "npc_en": "Tolas",
             "npc_fr": "Tolas",
-            "cPrev": [68995, 69072],
+            "cPrev": ["q.68995", "q.69072"],
             "patch": "5.0"
         },
         "x69105": {
@@ -223,7 +223,7 @@
             "name_fr": "Des pêcheurs maussades",
             "npc_en": "Dadfort",
             "npc_fr": "Dadfort",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69183"],
+            "cPrev": ["q.69183"],
             "patch": "5.0"
         },
         "x69106": {
@@ -232,7 +232,7 @@
             "name_fr": "Rite de passage dans les ruines",
             "npc_en": "Thafe",
             "npc_fr": "Thafe",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69183"],
+            "cPrev": ["q.69183"],
             "patch": "5.0"
         },
         "x69107": {
@@ -241,7 +241,7 @@
             "name_fr": "Et alors, il vient, mon poisson séché?",
             "npc_en": "Casswren",
             "npc_fr": "Casswren",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69183"],
+            "cPrev": ["q.69183"],
             "patch": "5.0"
         },
         "x69108": {
@@ -250,7 +250,7 @@
             "name_fr": "Chasseurs de trésors en herbe",
             "npc_en": "Yalric",
             "npc_fr": "Yalric",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69183"],
+            "cPrev": ["q.69183"],
             "patch": "5.0"
         },
         "x69109": {
@@ -259,7 +259,7 @@
             "name_fr": "Une colère qui motive",
             "npc_en": "Chora-Kai",
             "npc_fr": "Chora-Kai",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69183"],
+            "cPrev": ["q.69183"],
             "patch": "5.0"
         },
         "x69110": {
@@ -268,7 +268,7 @@
             "name_fr": "Pourvu que ça grouille",
             "npc_en": "Ambarth",
             "npc_fr": "Ambarth",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69183"],
+            "cPrev": ["q.69183"],
             "patch": "5.0"
         },
         "x69111": {
@@ -277,7 +277,7 @@
             "name_fr": "La pêche “au” harpon",
             "npc_en": "Ortwil",
             "npc_fr": "Ortwil",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69183"],
+            "cPrev": ["q.69183"],
             "patch": "5.0"
         }
     }

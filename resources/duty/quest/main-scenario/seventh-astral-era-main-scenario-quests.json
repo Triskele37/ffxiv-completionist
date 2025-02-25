@@ -9,8 +9,8 @@
             "name_fr": "La rançon de la gloire",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
-            "cNext": [69410],
+            "cPrev": ["q.66060"],
+            "cNext": ["q.69410"],
             "patch": "4.31"
         },
         "x69410": {
@@ -19,8 +19,8 @@
             "name_fr": "Le Joyau d'Ul'dah",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66711],
-            "cNext": [69411],
+            "cPrev": ["q.66711"],
+            "cNext": ["q.69411"],
             "patch": "5.3"
         },
         "x69411": {
@@ -29,8 +29,8 @@
             "name_fr": "Les retrouvailles",
             "npc_en": "F'lhaminn",
             "npc_fr": "F'lhaminn",
-            "cPrev": [69410],
-            "cNext": [69412],
+            "cPrev": ["q.69410"],
+            "cNext": ["q.69412"],
             "patch": "5.3"
         },
         "x69412": {
@@ -39,8 +39,8 @@
             "name_fr": "Début des travaux",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [69411],
-            "cNext": [69413],
+            "cPrev": ["q.69411"],
+            "cNext": ["q.69413"],
             "patch": "5.3"
         },
         "x69413": {
@@ -49,8 +49,8 @@
             "name_fr": "Un nouveau Primordial?",
             "npc_en": "Slafborn",
             "npc_fr": "Slafborn",
-            "cPrev": [69412],
-            "cNext": [66725],
+            "cPrev": ["q.69412"],
+            "cNext": ["q.66725"],
             "patch": "5.3"
         },
         "x66725": {
@@ -59,8 +59,8 @@
             "name_fr": "Le retour du bon roi",
             "npc_en": "Vorsaile Heuloix",
             "npc_fr": "Vorsaile Heuloix",
-            "cPrev": [69413],
-            "cNext": [66726],
+            "cPrev": ["q.69413"],
+            "cNext": ["q.66726"],
             "patch": "4.31"
         },
         "x66726": {
@@ -70,8 +70,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.14",
             "npc_en": "E-Sumi-Yan",
             "npc_fr": "E-Sumi-Yan",
-            "cPrev": [66725],
-            "cNext": [66727],
+            "cPrev": ["q.66725"],
+            "cNext": ["q.66727"],
             "patch": "4.31"
         },
         "x66727": {
@@ -80,8 +80,8 @@
             "name_fr": "Un mauvais pressentiment",
             "npc_en": "Raya-O-Senna",
             "npc_fr": "Raya-O-Senna",
-            "cPrev": [66726],
-            "cNext": [66728, "duty.quests.chronicles-of-a-new-era.primals.66948"],
+            "cPrev": ["q.66726"],
+            "cNext": ["q.66728", "q.66948"],
             "patch": "4.31"
         },
         "x66728": {
@@ -90,8 +90,8 @@
             "name_fr": "Le messager de la paix",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66727],
-            "cNext": [69414],
+            "cPrev": ["q.66727"],
+            "cNext": ["q.69414"],
             "patch": "4.31"
         },
         "x69414": {
@@ -100,8 +100,8 @@
             "name_fr": "Une volonté forgée dans la pierre",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66728],
-            "cNext": [69415],
+            "cPrev": ["q.66728"],
+            "cNext": ["q.69415"],
             "cSiblings": ["character.achievement.quests.main-scenario.898"],
             "patch": "5.3"
         },
@@ -111,8 +111,8 @@
             "name_fr": "Une nouvelle aube",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [69414],
-            "cNext": [66882],
+            "cPrev": ["q.69414"],
+            "cNext": ["q.66882"],
             "patch": "5.3"
         },
         "x66882": {
@@ -121,8 +121,8 @@
             "name_fr": "Bas les masques!",
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
-            "cPrev": [69415],
-            "cNext": [66883],
+            "cPrev": ["q.69415"],
+            "cNext": ["q.66883"],
             "patch": "4.31"
         },
         "x66883": {
@@ -131,8 +131,8 @@
             "name_fr": "Une terre d'asile peu accueillante",
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
-            "cPrev": [66882],
-            "cNext": [69416],
+            "cPrev": ["q.66882"],
+            "cNext": ["q.69416"],
             "patch": "4.31"
         },
         "x69416": {
@@ -141,8 +141,8 @@
             "name_fr": "Un cocher désespéré",
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn Aldynn",
-            "cPrev": [66883],
-            "cNext": [69417],
+            "cPrev": ["q.66883"],
+            "cNext": ["q.69417"],
             "patch": "5.3"
         },
         "x69417": {
@@ -151,8 +151,8 @@
             "name_fr": "Les petites canailles",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [69416],
-            "cNext": [66888],
+            "cPrev": ["q.69416"],
+            "cNext": ["q.66888"],
             "patch": "5.3"
         },
         "x66888": {
@@ -161,8 +161,8 @@
             "name_fr": "L'idole des jeunes",
             "npc_en": "Hozan",
             "npc_fr": "Hozan",
-            "cPrev": [69417],
-            "cNext": [69418],
+            "cPrev": ["q.69417"],
+            "cNext": ["q.69418"],
             "patch": "4.31"
         },
         "x69418": {
@@ -171,8 +171,8 @@
             "name_fr": "Bienvenue chez vous",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [66888],
-            "cNext": [66892],
+            "cPrev": ["q.66888"],
+            "cNext": ["q.66892"],
             "patch": "5.3"
         },
         "x66892": {
@@ -181,8 +181,8 @@
             "name_fr": "Avis de tempête",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [69418],
-            "cNext": [66894],
+            "cPrev": ["q.69418"],
+            "cNext": ["q.66894"],
             "patch": "4.31"
         },
         "x66894": {
@@ -191,8 +191,8 @@
             "name_fr": "Éclaireurs en détresse",
             "npc_en": "Falkbryda",
             "npc_fr": "Falkbryda",
-            "cPrev": [66892],
-            "cNext": [66895],
+            "cPrev": ["q.66892"],
+            "cNext": ["q.66895"],
             "patch": "4.31"
         },
         "x66895": {
@@ -201,8 +201,8 @@
             "name_fr": "Le secret de l'éternité",
             "npc_en": "Falkbryda",
             "npc_fr": "Falkbryda",
-            "cPrev": [66894],
-            "cNext": [66896],
+            "cPrev": ["q.66894"],
+            "cNext": ["q.66896"],
             "patch": "4.31"
         },
         "x66896": {
@@ -211,8 +211,8 @@
             "name_fr": "Une idée folle",
             "npc_en": "Merlwyb",
             "npc_fr": "Merlwyb",
-            "cPrev": [66895],
-            "cNext": [66897],
+            "cPrev": ["q.66895"],
+            "cNext": ["q.66897"],
             "patch": "4.31"
         },
         "x66897": {
@@ -222,8 +222,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.15",
             "npc_en": "Eynzahr Slafyrsyn",
             "npc_fr": "Eynzahr Slafyrsyn",
-            "cPrev": [66896],
-            "cNext": [66898],
+            "cPrev": ["q.66896"],
+            "cNext": ["q.66898"],
             "patch": "4.31"
         },
         "x66898": {
@@ -232,8 +232,8 @@
             "name_fr": "La communauté de l'ombre",
             "npc_en": "Zanthael",
             "npc_fr": "Zanthael",
-            "cPrev": [66897],
-            "cNext": [66899],
+            "cPrev": ["q.66897"],
+            "cNext": ["q.66899"],
             "patch": "4.31"
         },
         "x66899": {
@@ -242,8 +242,8 @@
             "name_fr": "La spirale du chaos",
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
-            "cPrev": [66898],
-            "cNext": ["duty.quests.chronicles-of-a-new-era.primals.66949", 66978],
+            "cPrev": ["q.66898"],
+            "cNext": ["q.66949", "q.66978"],
             "cSiblings": ["character.achievement.quests.main-scenario.899"],
             "patch": "4.31"
         },
@@ -253,8 +253,8 @@
             "name_fr": "Un vent de révolte",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66899],
-            "cNext": [66979],
+            "cPrev": ["q.66899"],
+            "cNext": ["q.66979"],
             "patch": "4.31"
         },
         "x66979": {
@@ -263,8 +263,8 @@
             "name_fr": "Le Thanalan s'embrase",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [66978],
-            "cNext": [69419],
+            "cPrev": ["q.66978"],
+            "cNext": ["q.69419"],
             "patch": "4.31"
         },
         "x69419": {
@@ -273,8 +273,8 @@
             "name_fr": "Les révoltés du Nid",
             "npc_en": "Terrified Refugee",
             "npc_fr": "Homme Apeuré",
-            "cPrev": [66979],
-            "cNext": [69420],
+            "cPrev": ["q.66979"],
+            "cNext": ["q.69420"],
             "patch": "5.3"
         },
         "x69420": {
@@ -283,8 +283,8 @@
             "name_fr": "Réduit au silence",
             "npc_en": "Terrified Refugee",
             "npc_fr": "Homme Apeuré",
-            "cPrev": [69419],
-            "cNext": [66982],
+            "cPrev": ["q.69419"],
+            "cNext": ["q.66982"],
             "patch": "5.3"
         },
         "x66982": {
@@ -293,8 +293,8 @@
             "name_fr": "Le Projet Frontière",
             "npc_en": "Swift",
             "npc_fr": "Swift Ryder",
-            "cPrev": [69420],
-            "cNext": [66983],
+            "cPrev": ["q.69420"],
+            "cNext": ["q.66983"],
             "patch": "4.31"
         },
         "x66983": {
@@ -303,8 +303,8 @@
             "name_fr": "La menace gronde à Sombrelinceul",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [66982],
-            "cNext": [66984],
+            "cPrev": ["q.66982"],
+            "cNext": ["q.66984"],
             "patch": "4.31"
         },
         "x66984": {
@@ -313,8 +313,8 @@
             "name_fr": "Le Patriarche fulgurant",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66983],
-            "cNext": [69421],
+            "cPrev": ["q.66983"],
+            "cNext": ["q.69421"],
             "patch": "4.31"
         },
         "x69421": {
@@ -324,8 +324,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.16",
             "npc_en": "Serpent Lieutenant",
             "npc_fr": "Envoyé Des Deux Vipères",
-            "cPrev": [66984],
-            "cNext": [66989],
+            "cPrev": ["q.66984"],
+            "cNext": ["q.66989"],
             "patch": "5.3"
         },
         "x66989": {
@@ -334,8 +334,8 @@
             "name_fr": "Le cycle divin",
             "npc_en": "Serpent Lieutenant",
             "npc_fr": "Envoyé Des Deux Vipères",
-            "cPrev": [69421],
-            "cNext": [66992],
+            "cPrev": ["q.69421"],
+            "cNext": ["q.66992"],
             "patch": "4.31"
         },
         "x66992": {
@@ -344,8 +344,8 @@
             "name_fr": "Démonstration de force",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66989],
-            "cNext": [66993],
+            "cPrev": ["q.66989"],
+            "cNext": ["q.66993"],
             "patch": "4.31"
         },
         "x66993": {
@@ -354,8 +354,8 @@
             "name_fr": "Campagne de recrutement",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [66992],
-            "cNext": [66994],
+            "cPrev": ["q.66992"],
+            "cNext": ["q.66994"],
             "patch": "4.31"
         },
         "x66994": {
@@ -364,8 +364,8 @@
             "name_fr": "Une nouvelle qui jette un froid",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66993],
-            "cNext": [66995],
+            "cPrev": ["q.66993"],
+            "cNext": ["q.66995"],
             "patch": "4.31"
         },
         "x66995": {
@@ -374,8 +374,8 @@
             "name_fr": "Rencontre en terrain glissant",
             "npc_en": "Haurchefant",
             "npc_fr": "Haurchefant",
-            "cPrev": [66994],
-            "cNext": [66996],
+            "cPrev": ["q.66994"],
+            "cNext": ["q.66996"],
             "patch": "4.31"
         },
         "x66996": {
@@ -384,8 +384,8 @@
             "name_fr": "Les protecteurs d'Éorzéa",
             "npc_en": "Slafborn",
             "npc_fr": "Slafborn",
-            "cPrev": [66995],
-            "cNext": [65588, "duty.quests.chronicles-of-a-new-era.primals.67066"],
+            "cPrev": ["q.66995"],
+            "cNext": ["q.65588", "q.67066"],
             "cSiblings": ["character.achievement.quests.main-scenario.1001"],
             "patch": "4.31"
         },
@@ -395,8 +395,8 @@
             "name_fr": "Alerte au virus",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66996],
-            "cNext": [65589],
+            "cPrev": ["q.66996"],
+            "cNext": ["q.65589"],
             "patch": "4.31"
         },
         "x65589": {
@@ -405,8 +405,8 @@
             "name_fr": "Braves en danger",
             "npc_en": "Ilberd",
             "npc_fr": "Ilberd",
-            "cPrev": [65588],
-            "cNext": [65590],
+            "cPrev": ["q.65588"],
+            "cNext": ["q.65590"],
             "patch": "4.31"
         },
         "x65590": {
@@ -415,8 +415,8 @@
             "name_fr": "L'ambassadeur d'Ishgard",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [65589],
-            "cNext": [65593],
+            "cPrev": ["q.65589"],
+            "cNext": ["q.65593"],
             "patch": "4.31"
         },
         "x65593": {
@@ -425,8 +425,8 @@
             "name_fr": "Vol à main glacée",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [65590],
-            "cNext": [65598],
+            "cPrev": ["q.65590"],
+            "cNext": ["q.65598"],
             "patch": "4.31"
         },
         "x65598": {
@@ -435,8 +435,8 @@
             "name_fr": "La force dans l'unité",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [65593],
-            "cNext": [65605],
+            "cPrev": ["q.65593"],
+            "cNext": ["q.65605"],
             "patch": "4.31"
         },
         "x65605": {
@@ -445,8 +445,8 @@
             "name_fr": "Sombres agissements",
             "npc_en": "Drillemont",
             "npc_fr": "Drillemont",
-            "cPrev": [65598],
-            "cNext": [65610],
+            "cPrev": ["q.65598"],
+            "cNext": ["q.65610"],
             "patch": "4.31"
         },
         "x65610": {
@@ -455,8 +455,8 @@
             "name_fr": "Embuscade hérétique",
             "npc_en": "Drillemont",
             "npc_fr": "Drillemont",
-            "cPrev": [65605],
-            "cNext": [65611],
+            "cPrev": ["q.65605"],
+            "cNext": ["q.65611"],
             "patch": "4.31"
         },
         "x65611": {
@@ -466,8 +466,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.25",
             "npc_en": "Drillemont",
             "npc_fr": "Drillemont",
-            "cPrev": [65610],
-            "cNext": [65613],
+            "cPrev": ["q.65610"],
+            "cNext": ["q.65613"],
             "patch": "4.31"
         },
         "x65613": {
@@ -476,8 +476,8 @@
             "name_fr": "Poursuite dans la neige",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [65611],
-            "cNext": [65614],
+            "cPrev": ["q.65611"],
+            "cNext": ["q.65614"],
             "patch": "4.31"
         },
         "x65614": {
@@ -486,8 +486,8 @@
             "name_fr": "L'étau se resserre",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [65613],
-            "cNext": [69422],
+            "cPrev": ["q.65613"],
+            "cNext": ["q.69422"],
             "patch": "4.31"
         },
         "x69422": {
@@ -496,8 +496,8 @@
             "name_fr": "Sur la piste de Virus",
             "npc_en": "Ilberd",
             "npc_fr": "Ilberd",
-            "cPrev": [65614],
-            "cNext": [69423],
+            "cPrev": ["q.65614"],
+            "cNext": ["q.69423"],
             "patch": "5.3"
         },
         "x69423": {
@@ -506,8 +506,8 @@
             "name_fr": "Flagrant délit",
             "npc_en": "Ilberd",
             "npc_fr": "Ilberd",
-            "cPrev": [69422],
-            "cNext": [65618],
+            "cPrev": ["q.69422"],
+            "cNext": ["q.65618"],
             "patch": "5.3"
         },
         "x65618": {
@@ -516,8 +516,8 @@
             "name_fr": "Leçon d'éthéritologie",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [69423],
-            "cNext": [65620],
+            "cPrev": ["q.69423"],
+            "cNext": ["q.65620"],
             "patch": "4.31"
         },
         "x65620": {
@@ -527,8 +527,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.17",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [65618],
-            "cNext": [65622],
+            "cPrev": ["q.65618"],
+            "cNext": ["q.65622"],
             "patch": "4.31"
         },
         "x65622": {
@@ -537,8 +537,8 @@
             "name_fr": "Une relation mutuellement bénéfique",
             "npc_en": "Moenbryda",
             "npc_fr": "Moenbryda",
-            "cPrev": [65620],
-            "cNext": [65623],
+            "cPrev": ["q.65620"],
+            "cNext": ["q.65623"],
             "patch": "4.31"
         },
         "x65623": {
@@ -547,8 +547,8 @@
             "name_fr": "La nature de l'invocation",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [65622],
-            "cNext": [65624],
+            "cPrev": ["q.65622"],
+            "cNext": ["q.65624"],
             "patch": "4.31"
         },
         "x65624": {
@@ -557,8 +557,8 @@
             "name_fr": "Née sous une mauvaise étoile",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [65623],
-            "cNext": [65625],
+            "cPrev": ["q.65623"],
+            "cNext": ["q.65625"],
             "patch": "4.31"
         },
         "x65625": {
@@ -567,8 +567,8 @@
             "name_fr": "Climat d'incertitudes",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [65624],
-            "cNext": ["duty.quests.chronicles-of-a-new-era.primals.65626", 65899],
+            "cPrev": ["q.65624"],
+            "cNext": ["q.65626", "q.65899"],
             "cSiblings": ["character.achievement.quests.main-scenario.1029"],
             "patch": "4.31"
         },
@@ -578,8 +578,8 @@
             "name_fr": "Jeune et fragile",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [65625],
-            "cNext": [65900],
+            "cPrev": ["q.65625"],
+            "cNext": ["q.65900"],
             "patch": "4.31"
         },
         "x65900": {
@@ -588,8 +588,8 @@
             "name_fr": "Dérapage incontrôlé",
             "npc_en": "Ilberd",
             "npc_fr": "Ilberd",
-            "cPrev": [65899],
-            "cNext": [65901],
+            "cPrev": ["q.65899"],
+            "cNext": ["q.65901"],
             "patch": "4.31"
         },
         "x65901": {
@@ -598,8 +598,8 @@
             "name_fr": "Une saisie au rabais",
             "npc_en": "Ilberd",
             "npc_fr": "Ilberd",
-            "cPrev": [65900],
-            "cNext": [65902],
+            "cPrev": ["q.65900"],
+            "cNext": ["q.65902"],
             "patch": "4.31"
         },
         "x65902": {
@@ -609,8 +609,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.28",
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
-            "cPrev": [65901],
-            "cNext": [69424],
+            "cPrev": ["q.65901"],
+            "cNext": ["q.69424"],
             "patch": "4.31"
         },
         "x69424": {
@@ -619,8 +619,8 @@
             "name_fr": "La théorie de Moenbryda",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [65902],
-            "cNext": [65904],
+            "cPrev": ["q.65902"],
+            "cNext": ["q.65904"],
             "patch": "5.3"
         },
         "x65904": {
@@ -629,8 +629,8 @@
             "name_fr": "Contre-offensive",
             "npc_en": "Edelstein",
             "npc_fr": "Edelstein",
-            "cPrev": [69424],
-            "cNext": [65905],
+            "cPrev": ["q.69424"],
+            "cNext": ["q.65905"],
             "patch": "4.31"
         },
         "x65905": {
@@ -640,8 +640,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.4",
             "npc_en": "Edelstein",
             "npc_fr": "Edelstein",
-            "cPrev": [65904],
-            "cNext": [65965],
+            "cPrev": ["q.65904"],
+            "cNext": ["q.65965"],
             "patch": "4.31"
         },
         "x65965": {
@@ -650,8 +650,8 @@
             "name_fr": "En mémoire de Moenbryda",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [65905],
-            "cNext": [65906],
+            "cPrev": ["q.65905"],
+            "cNext": ["q.65906"],
             "patch": "4.31"
         },
         "x65906": {
@@ -660,8 +660,8 @@
             "name_fr": "Aller de l'avant",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [65965],
-            "cNext": [65907],
+            "cPrev": ["q.65965"],
+            "cNext": ["q.65907"],
             "patch": "4.31"
         },
         "x65907": {
@@ -670,8 +670,8 @@
             "name_fr": "Ishgard en danger",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [65906],
-            "cNext": [65908],
+            "cPrev": ["q.65906"],
+            "cNext": ["q.65908"],
             "patch": "4.31"
         },
         "x65908": {
@@ -680,8 +680,8 @@
             "name_fr": "Dos au mur",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [65907],
-            "cNext": [65909],
+            "cPrev": ["q.65907"],
+            "cNext": ["q.65909"],
             "patch": "4.31"
         },
         "x65909": {
@@ -690,8 +690,8 @@
             "name_fr": "Une voie périlleuse",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [65908],
-            "cNext": [65927],
+            "cPrev": ["q.65908"],
+            "cNext": ["q.65927"],
             "patch": "4.31"
         },
         "x65927": {
@@ -700,8 +700,8 @@
             "name_fr": "Engagez-vous!",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [65909],
-            "cNext": [65954],
+            "cPrev": ["q.65909"],
+            "cNext": ["q.65954"],
             "patch": "4.31"
         },
         "x65954": {
@@ -710,8 +710,8 @@
             "name_fr": "Chacun voit midi à sa porte",
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
-            "cPrev": [65927],
-            "cNext": [65955],
+            "cPrev": ["q.65927"],
+            "cNext": ["q.65955"],
             "patch": "4.31"
         },
         "x70127": {
@@ -730,8 +730,8 @@
             "name_fr": "La résolution d'une Lalafelle",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [65955],
-            "cNext": [65957, 65959],
+            "cPrev": ["q.65955"],
+            "cNext": ["q.65957", "q.65959"],
             "patch": "4.31"
         },
         "x65957": {
@@ -740,8 +740,8 @@
             "name_fr": "La passion d'une Lalafelle",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [65956],
-            "cNext": [65958],
+            "cPrev": ["q.65956"],
+            "cNext": ["q.65958"],
             "patch": "4.31"
         },
         "x65958": {
@@ -750,8 +750,8 @@
             "name_fr": "L'abnégation d'une Lalafelle",
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
-            "cPrev": [65957],
-            "cNext": [65961],
+            "cPrev": ["q.65957"],
+            "cNext": ["q.65961"],
             "patch": "4.31"
         },
         "x65959": {
@@ -760,8 +760,8 @@
             "name_fr": "Une mission d'escorte",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [65956],
-            "cNext": [65960],
+            "cPrev": ["q.65956"],
+            "cNext": ["q.65960"],
             "patch": "4.31"
         },
         "x65960": {
@@ -770,8 +770,8 @@
             "name_fr": "Perturbations dans l'éther",
             "npc_en": "Unsettled Scholar",
             "npc_fr": "Érudit Nerveux",
-            "cPrev": [65959],
-            "cNext": [65961],
+            "cPrev": ["q.65959"],
+            "cNext": ["q.65961"],
             "patch": "4.31"
         },
         "x65961": {
@@ -780,8 +780,8 @@
             "name_fr": "Boire et déboires",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [65958, 65960],
-            "cNext": [65962],
+            "cPrev": ["q.65958", "q.65960"],
+            "cNext": ["q.65962"],
             "patch": "4.31"
         },
         "x65962": {
@@ -790,8 +790,8 @@
             "name_fr": "Une bouteille sale à la mer",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [65961],
-            "cNext": [65963],
+            "cPrev": ["q.65961"],
+            "cNext": ["q.65963"],
             "patch": "4.31"
         },
         "x65963": {
@@ -800,8 +800,8 @@
             "name_fr": "Le grand banquet",
             "npc_en": "Momodi",
             "npc_fr": "Momodi",
-            "cPrev": [65962],
-            "cNext": [65964],
+            "cPrev": ["q.65962"],
+            "cNext": ["q.65964"],
             "patch": "4.31"
         },
         "x65964": {
@@ -810,33 +810,33 @@
             "name_fr": "Le flambeau de l'espoir",
             "npc_en": "Haurchefant",
             "npc_fr": "Haurchefant",
-            "cPrev": [65963],
+            "cPrev": ["q.65963"],
             "cNext": [
-                "duty.quests.main-scenario.heavensward.67116",
-                "duty.quests.other.quasi-quests.67645",
-                "duty.quests.other.quasi-quests.67646",
-                "duty.quests.other.quasi-quests.67659",
-                "duty.quests.class--job.disciple-of-magic-job.scholar.67207",
-                "duty.quests.class--job.disciple-of-war-job.warrior.66121",
-                "duty.quests.class--job.disciple-of-the-land.botanist.67584",
-                "duty.quests.class--job.disciple-of-the-hand.carpenter.67533",
-                "duty.quests.class--job.disciple-of-magic-job.white-mage.67255",
-                "duty.quests.class--job.disciple-of-the-hand.alchemist.67601",
-                "duty.quests.class--job.disciple-of-the-hand.leatherworker.67611",
-                "duty.quests.class--job.disciple-of-the-land.fisher.67621",
-                "duty.quests.class--job.disciple-of-the-land.miner.67616",
-                "duty.quests.class--job.disciple-of-war-job.ninja.65771",
-                "duty.quests.class--job.disciple-of-magic-job.black-mage.67214",
-                "duty.quests.class--job.disciple-of-war-job.dragoon.67225",
-                "duty.quests.class--job.disciple-of-war-job.bard.67249",
-                "duty.quests.class--job.disciple-of-the-hand.weaver.67538",
-                "duty.quests.class--job.disciple-of-the-hand.blacksmith.67543",
-                "duty.quests.class--job.disciple-of-war-job.monk.67562",
-                "duty.quests.class--job.disciple-of-war-job.paladin.67568",
-                "duty.quests.class--job.disciple-of-the-hand.armorer.67574",
-                "duty.quests.class--job.disciple-of-the-hand.culinarian.67579",
-                "duty.quests.class--job.disciple-of-the-hand.goldsmith.67606",
-                "duty.quests.class--job.disciple-of-magic-job.summoner.67636"
+                "q.67116",
+                "q.67645",
+                "q.67646",
+                "q.67659",
+                "q.67207",
+                "q.66121",
+                "q.67584",
+                "q.67533",
+                "q.67255",
+                "q.67601",
+                "q.67611",
+                "q.67621",
+                "q.67616",
+                "q.65771",
+                "q.67214",
+                "q.67225",
+                "q.67249",
+                "q.67538",
+                "q.67543",
+                "q.67562",
+                "q.67568",
+                "q.67574",
+                "q.67579",
+                "q.67606",
+                "q.67636"
             ],
             "cSiblings": ["character.achievement.quests.main-scenario.1129"],
             "patch": "4.31"

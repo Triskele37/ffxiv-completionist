@@ -11,22 +11,8 @@
             "cPrevAny": true,
             "npc_en": "Baderon",
             "npc_fr": "Baderon",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.66209",
-                "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210"
-            ],
-            "cNext": [
-                "duty.quests.other.seasonal.valentiones-day.68741",
-                "duty.quests.other.seasonal.all-saints-wake.67084",
-                "duty.quests.other.seasonal.all-saints-wake.68547",
-                "duty.quests.other.seasonal.valentiones-day.68618",
-                "duty.quests.other.seasonal.all-saints-wake.68705",
-                "duty.quests.other.seasonal.all-saints-wake.69204",
-                "duty.quests.other.seasonal.valentiones-day.69288",
-                66212,
-                66212
-            ],
+            "cPrev": ["q.66209", "q.66210", "q.66210"],
+            "cNext": ["q.68741", "q.67084", "q.68547", "q.68618", "q.68705", "q.69204", "q.69288", "q.66212", "q.66212"],
             "patch": "4.31"
         },
         "x66212": {
@@ -35,8 +21,8 @@
             "name_fr": "L'appel de la forêt",
             "npc_en": "Baderon",
             "npc_fr": "Baderon",
-            "cPrev": [65781],
-            "cNext": [66213],
+            "cPrev": ["q.65781"],
+            "cNext": ["q.66213"],
             "patch": "4.31"
         },
         "x66213": {
@@ -46,8 +32,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.1",
             "npc_en": "Mother Miounne",
             "npc_fr": "Miounne",
-            "cPrev": [66212],
-            "cNext": [66214],
+            "cPrev": ["q.66212"],
+            "cNext": ["q.66214"],
             "patch": "4.31"
         },
         "x66214": {
@@ -56,8 +42,8 @@
             "name_fr": "L'appel du désert",
             "npc_en": "Mother Miounne",
             "npc_fr": "Miounne",
-            "cPrev": [66213],
-            "cNext": [66196],
+            "cPrev": ["q.66213"],
+            "cNext": ["q.66196"],
             "patch": "4.31"
         },
         "x66196": {
@@ -67,8 +53,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.2",
             "npc_en": "Momodi",
             "npc_fr": "Momodi",
-            "cPrev": [66214],
-            "cNext": ["duty.quests.sidequests.records-of-unusual-endeavors.palace-of-the-dead.67092", 66045],
+            "cPrev": ["q.66214"],
+            "cNext": ["q.67092", "q.66045"],
             "cSiblings": ["character.adventure-plate.91"],
             "patch": "4.31"
         },
@@ -79,8 +65,8 @@
             "npc_en": "Momodi",
             "npc_fr": "Momodi",
             "unlock_en": "Retainers",
-            "cPrev": [66196],
-            "cNext": ["duty.quests.other.special.67114", 66046],
+            "cPrev": ["q.66196"],
+            "cNext": ["q.67114", "q.66046"],
             "patch": "4.31"
         },
         "x66046": {
@@ -89,8 +75,8 @@
             "name_fr": "L'alliance pour la Septième Aube",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66045],
-            "cNext": [66154],
+            "cPrev": ["q.66045"],
+            "cNext": ["q.66154"],
             "patch": "4.31"
         },
         "x66154": {
@@ -99,8 +85,8 @@
             "name_fr": "Ne pas faire de vieux os",
             "npc_en": "Isembard",
             "npc_fr": "Isembard",
-            "cPrev": [66046],
-            "cNext": [66155],
+            "cPrev": ["q.66046"],
+            "cNext": ["q.66155"],
             "patch": "4.31"
         },
         "x66155": {
@@ -109,8 +95,8 @@
             "name_fr": "Le silence des hameaux",
             "npc_en": "Isembard",
             "npc_fr": "Isembard",
-            "cPrev": [66154],
-            "cNext": [66156],
+            "cPrev": ["q.66154"],
+            "cNext": ["q.66156"],
             "patch": "4.31"
         },
         "x66156": {
@@ -119,8 +105,8 @@
             "name_fr": "Visite au cimetière",
             "npc_en": "Isembard",
             "npc_fr": "Isembard",
-            "cPrev": [66155],
-            "cNext": ["duty.quests.sidequests.uldahn.eastern-thanalan.66167", 66157],
+            "cPrev": ["q.66155"],
+            "cNext": ["q.66167", "q.66157"],
             "patch": "4.31"
         },
         "x66157": {
@@ -129,8 +115,8 @@
             "name_fr": "Je vous salue ma sœur",
             "npc_en": "Isembard",
             "npc_fr": "Isembard",
-            "cPrev": [66156],
-            "cNext": [66158],
+            "cPrev": ["q.66156"],
+            "cNext": ["q.66158"],
             "patch": "4.31"
         },
         "x66158": {
@@ -139,8 +125,8 @@
             "name_fr": "Publicité mensongère",
             "npc_en": "Isembard",
             "npc_fr": "Isembard",
-            "cPrev": [66157],
-            "cNext": [66110],
+            "cPrev": ["q.66157"],
+            "cNext": ["q.66110"],
             "patch": "4.31"
         },
         "x66110": {
@@ -149,8 +135,8 @@
             "name_fr": "L'habit ne fait pas le prêtre",
             "npc_en": "Isembard",
             "npc_fr": "Isembard",
-            "cPrev": [66158],
-            "cNext": [65808, "duty.quests.sidequests.uldahn.western-thanalan.66233"],
+            "cPrev": ["q.66158"],
+            "cNext": ["q.65808", "q.66233"],
             "patch": "4.31"
         },
         "x65808": {
@@ -159,12 +145,8 @@
             "name_fr": "Le maître des matérias",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66110],
-            "cNext": [
-                "duty.quests.sidequests.uldahn.uldah.65688",
-                65879,
-                "duty.quests.sidequests.uldahn.central-thanalan.66999"
-            ],
+            "cPrev": ["q.66110"],
+            "cNext": ["q.65688", "q.65879", "q.66999"],
             "patch": "4.31"
         },
         "x65879": {
@@ -174,8 +156,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.0",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [65808],
-            "cNext": [66047],
+            "cPrev": ["q.65808"],
+            "cNext": ["q.66047"],
             "patch": "4.31"
         },
         "x66047": {
@@ -185,8 +167,8 @@
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
             "cSiblings": ["character.adventure-plate.107"],
-            "cPrev": [65879],
-            "cNext": [66216, 66217, 66218],
+            "cPrev": ["q.65879"],
+            "cNext": ["q.66216", "q.66217", "q.66218"],
             "patch": "4.31"
         },
         "x66216": {
@@ -195,9 +177,9 @@
             "name_fr": "En bonne compagnie (Deux Vipères)",
             "npc_en": "Serpent Officer",
             "npc_fr": "officier des Deux Vipères",
-            "cPrev": [66047],
-            "cNext": [66219],
-            "cExclude": [66217, 66218],
+            "cPrev": ["q.66047"],
+            "cNext": ["q.66219"],
+            "cExclude": ["q.66217", "q.66218"],
             "patch": "4.31"
         },
         "x66217": {
@@ -206,9 +188,9 @@
             "name_fr": "En bonne compagnie (Maelstrom)",
             "npc_en": "Storm Officer",
             "npc_fr": "officier du Maelstrom",
-            "cPrev": [66047],
-            "cNext": [66220],
-            "cExclude": [66216, 66218],
+            "cPrev": ["q.66047"],
+            "cNext": ["q.66220"],
+            "cExclude": ["q.66216", "q.66218"],
             "patch": "4.31"
         },
         "x66218": {
@@ -217,9 +199,9 @@
             "name_fr": "En bonne compagnie (Immortels)",
             "npc_en": "Flame Officer",
             "npc_fr": "officier des Immortels",
-            "cPrev": [66047],
-            "cNext": [66221],
-            "cExclude": [66217, 66216],
+            "cPrev": ["q.66047"],
+            "cNext": ["q.66221"],
+            "cExclude": ["q.66217", "q.66216"],
             "patch": "4.31"
         },
         "x66219": {
@@ -229,9 +211,9 @@
             "npc_en": "Serpent Personnel Officer",
             "npc_fr": "officier du personnel",
             "unlock_en": "The Order of the Twin Adder",
-            "cPrev": [66216],
-            "cNext": [66049],
-            "cExclude": [66220, 66221],
+            "cPrev": ["q.66216"],
+            "cNext": ["q.66049"],
+            "cExclude": ["q.66220", "q.66221"],
             "patch": "4.31"
         },
         "x66220": {
@@ -241,9 +223,9 @@
             "npc_en": "Storm Personnel Officer",
             "npc_fr": "officier du personnel",
             "unlock_en": "The Maelstrom",
-            "cPrev": [66217],
-            "cNext": [66049],
-            "cExclude": [66219, 66221],
+            "cPrev": ["q.66217"],
+            "cNext": ["q.66049"],
+            "cExclude": ["q.66219", "q.66221"],
             "patch": "4.31"
         },
         "x66221": {
@@ -253,9 +235,9 @@
             "npc_en": "Flame Personnel Officer",
             "npc_fr": "officier du personnel",
             "unlock_en": "The Immortal Flames",
-            "cPrev": [66218],
-            "cNext": [66049],
-            "cExclude": [66219, 66220],
+            "cPrev": ["q.66218"],
+            "cNext": ["q.66049"],
+            "cExclude": ["q.66219", "q.66220"],
             "patch": "4.31"
         },
         "x66049": {
@@ -266,20 +248,20 @@
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
             "unlock_en": "Job Quests",
-            "cPrev": [66219, 66220, 66221],
+            "cPrev": ["q.66219", "q.66220", "q.66221"],
             "cNext": [
-                "duty.quests.sidequests.gridanian.gridania.65698",
-                69392,
-                "duty.quests.class--job.disciple-of-war-job.paladin.66591",
-                "duty.quests.class--job.disciple-of-war-job.warrior.66585",
-                "duty.quests.class--job.disciple-of-war-job.monk.66597",
-                "duty.quests.class--job.disciple-of-war-job.dragoon.66603",
-                "duty.quests.class--job.disciple-of-war-job.bard.66621",
-                "duty.quests.class--job.disciple-of-magic-job.white-mage.66615",
-                "duty.quests.class--job.disciple-of-magic-job.black-mage.66609",
-                "duty.quests.class--job.disciple-of-magic-job.scholar.66633",
-                "duty.quests.class--job.disciple-of-magic-job.summoner.66627",
-                "duty.quests.class--job.disciple-of-war-job.ninja.65748"
+                "q.65698",
+                "q.69392",
+                "q.66591",
+                "q.66585",
+                "q.66597",
+                "q.66603",
+                "q.66621",
+                "q.66615",
+                "q.66609",
+                "q.66633",
+                "q.66627",
+                "q.65748"
             ],
             "patch": "4.31"
         },
@@ -289,8 +271,8 @@
             "name_fr": "Les chevaliers du miel",
             "npc_en": "Vorsaile Heuloix",
             "npc_fr": "Vorsaile Heuloix",
-            "cPrev": [66049],
-            "cNext": [66245],
+            "cPrev": ["q.66049"],
+            "cNext": ["q.66245"],
             "patch": "5.3"
         },
         "x66245": {
@@ -299,8 +281,8 @@
             "name_fr": "Danse avec les Sylphes",
             "npc_en": "Rolfe Hawthorne",
             "npc_fr": "Rolfe Hawthorne",
-            "cPrev": [69392],
-            "cNext": [66246, "duty.quests.sidequests.gridanian.east-shroud.66248"],
+            "cPrev": ["q.69392"],
+            "cNext": ["q.66246", "q.66248"],
             "patch": "4.31"
         },
         "x66246": {
@@ -309,8 +291,8 @@
             "name_fr": "Le cadeau idéal",
             "npc_en": "Rolfe Hawthorne",
             "npc_fr": "Rolfe Hawthorne",
-            "cPrev": [66245],
-            "cNext": [66251, "duty.quests.sidequests.gridanian.east-shroud.66252"],
+            "cPrev": ["q.66245"],
+            "cNext": ["q.66251", "q.66252"],
             "patch": "4.31"
         },
         "x66251": {
@@ -319,8 +301,8 @@
             "name_fr": "Un lien avec les Sylphes",
             "npc_en": "Rolfe Hawthorne",
             "npc_fr": "Rolfe Hawthorne",
-            "cPrev": [66246],
-            "cNext": [69393],
+            "cPrev": ["q.66246"],
+            "cNext": ["q.69393"],
             "patch": "4.31"
         },
         "x69393": {
@@ -329,12 +311,8 @@
             "name_fr": "Vous savez danser?",
             "npc_en": "Yda",
             "npc_fr": "Yda",
-            "cPrev": [66251],
-            "cNext": [
-                69394,
-                "duty.quests.sidequests.gridanian.east-shroud.66256",
-                "duty.quests.sidequests.gridanian.east-shroud.66258"
-            ],
+            "cPrev": ["q.66251"],
+            "cNext": ["q.69394", "q.66256", "q.66258"],
             "patch": "5.3"
         },
         "x69394": {
@@ -343,8 +321,8 @@
             "name_fr": "Une seule chose vous manque",
             "npc_en": "Papalymo",
             "npc_fr": "Papalymo",
-            "cPrev": [69393],
-            "cNext": [66255],
+            "cPrev": ["q.69393"],
+            "cNext": ["q.66255"],
             "patch": "5.3"
         },
         "x66255": {
@@ -353,8 +331,8 @@
             "name_fr": "Mystérieux hommes en armure",
             "npc_en": "Komuxio",
             "npc_fr": "Komuxio",
-            "cPrev": [69394],
-            "cNext": [66260],
+            "cPrev": ["q.69394"],
+            "cNext": ["q.66260"],
             "patch": "4.31"
         },
         "x66260": {
@@ -363,8 +341,8 @@
             "name_fr": "La fugue de Claxio",
             "npc_en": "Komuxio",
             "npc_fr": "Komuxio",
-            "cPrev": [66255],
-            "cNext": [66261],
+            "cPrev": ["q.66255"],
+            "cNext": ["q.66261"],
             "cSiblings": [
                 "travel.mount-speed.la-noscea.1",
                 "travel.mount-speed.la-noscea.3",
@@ -381,8 +359,8 @@
             "name_fr": "Inquiétante disparition",
             "npc_en": "Komuxio",
             "npc_fr": "Komuxio",
-            "cPrev": [66260],
-            "cNext": [69395],
+            "cPrev": ["q.66260"],
+            "cNext": ["q.69395"],
             "patch": "4.31"
         },
         "x69395": {
@@ -391,8 +369,8 @@
             "name_fr": "La règle d'or du Choix",
             "npc_en": "Buscarron",
             "npc_fr": "Buscarron",
-            "cPrev": [66261],
-            "cNext": [69396],
+            "cPrev": ["q.66261"],
+            "cNext": ["q.69396"],
             "patch": "5.3"
         },
         "x69396": {
@@ -401,8 +379,8 @@
             "name_fr": "Aide à la réinsertion",
             "npc_en": "Buscarron",
             "npc_fr": "Buscarron",
-            "cPrev": [69395],
-            "cNext": [69397],
+            "cPrev": ["q.69395"],
+            "cNext": ["q.69397"],
             "patch": "5.3"
         },
         "x69397": {
@@ -411,8 +389,8 @@
             "name_fr": "Une liqueur cent fois bonne",
             "npc_en": "Teteroon",
             "npc_fr": "Teteroon",
-            "cPrev": [69396],
-            "cNext": [66273],
+            "cPrev": ["q.69396"],
+            "cNext": ["q.66273"],
             "patch": "5.3"
         },
         "x66273": {
@@ -421,8 +399,8 @@
             "name_fr": "Grand cru d'amitié",
             "npc_en": "Teteroon",
             "npc_fr": "Teteroon",
-            "cPrev": [69397],
-            "cNext": [66274],
+            "cPrev": ["q.69397"],
+            "cNext": ["q.66274"],
             "patch": "4.31"
         },
         "x66274": {
@@ -431,8 +409,8 @@
             "name_fr": "Silhouette sylphe",
             "npc_en": "Buscarron",
             "npc_fr": "Buscarron",
-            "cPrev": [66273],
-            "cNext": ["duty.quests.sidequests.gridanian.south-shroud.66275", 69398],
+            "cPrev": ["q.66273"],
+            "cNext": ["q.66275", "q.69398"],
             "patch": "4.31"
         },
         "x69398": {
@@ -441,8 +419,8 @@
             "name_fr": "Le nouveau riche",
             "npc_en": "Buscarron",
             "npc_fr": "Buscarron",
-            "cPrev": [66274],
-            "cNext": [66050],
+            "cPrev": ["q.66274"],
+            "cNext": ["q.66050"],
             "patch": "5.3"
         },
         "x66050": {
@@ -452,12 +430,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.4",
             "npc_en": "Buscarron",
             "npc_fr": "Buscarron",
-            "cPrev": [69398],
-            "cNext": [
-                66279,
-                "duty.quests.sidequests.gridanian.east-shroud.66281",
-                "duty.quests.sidequests.gridanian.south-shroud.66278"
-            ],
+            "cPrev": ["q.69398"],
+            "cNext": ["q.66279", "q.66281", "q.66278"],
             "patch": "4.31"
         },
         "x66279": {
@@ -466,8 +440,8 @@
             "name_fr": "Diplomatie gridanienne",
             "npc_en": "Buscarron",
             "npc_fr": "Buscarron",
-            "cPrev": [66050],
-            "cNext": [66280],
+            "cPrev": ["q.66050"],
+            "cNext": ["q.66280"],
             "patch": "4.31"
         },
         "x66280": {
@@ -476,8 +450,8 @@
             "name_fr": "Ramuh et les Sylphes",
             "npc_en": "Komuxio",
             "npc_fr": "Komuxio",
-            "cPrev": [66279],
-            "cNext": [66282],
+            "cPrev": ["q.66279"],
+            "cNext": ["q.66282"],
             "patch": "4.31"
         },
         "x66282": {
@@ -486,8 +460,8 @@
             "name_fr": "Retour en forêt",
             "npc_en": "Vorsaile Heuloix",
             "npc_fr": "Vorsaile Heuloix",
-            "cPrev": [66280],
-            "cNext": [66283],
+            "cPrev": ["q.66280"],
+            "cNext": ["q.66283"],
             "cSiblings": ["character.achievement.quests.main-scenario.783"],
             "patch": "4.31"
         },
@@ -497,8 +471,8 @@
             "name_fr": "Une présence inquiétante",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66282],
-            "cNext": [66284],
+            "cPrev": ["q.66282"],
+            "cNext": ["q.66284"],
             "patch": "4.31"
         },
         "x66284": {
@@ -507,8 +481,8 @@
             "name_fr": "Le témoin du Viaduc",
             "npc_en": "Hihibaru",
             "npc_fr": "Hihibaru",
-            "cPrev": [66283],
-            "cNext": [66292],
+            "cPrev": ["q.66283"],
+            "cNext": ["q.66292"],
             "patch": "4.31"
         },
         "x66292": {
@@ -517,8 +491,8 @@
             "name_fr": "Il n'y a pas de fumée sans feu",
             "npc_en": "Hihibaru",
             "npc_fr": "Hihibaru",
-            "cPrev": [66284],
-            "cNext": [66293],
+            "cPrev": ["q.66284"],
+            "cNext": ["q.66293"],
             "patch": "4.31"
         },
         "x66293": {
@@ -527,8 +501,8 @@
             "name_fr": "Société close",
             "npc_en": "Hihibaru",
             "npc_fr": "Hihibaru",
-            "cPrev": [66292],
-            "cNext": [66297, "duty.quests.sidequests.uldahn.southern-thanalan.66294"],
+            "cPrev": ["q.66292"],
+            "cNext": ["q.66297", "q.66294"],
             "patch": "4.31"
         },
         "x66297": {
@@ -537,8 +511,8 @@
             "name_fr": "Du thé pour langue délier",
             "npc_en": "Gisilbehrt",
             "npc_fr": "Gisilbehrt",
-            "cPrev": [66293],
-            "cNext": [66298],
+            "cPrev": ["q.66293"],
+            "cNext": ["q.66298"],
             "patch": "4.31"
         },
         "x66298": {
@@ -547,8 +521,8 @@
             "name_fr": "Montrer patte blanche",
             "npc_en": "Gisilbehrt",
             "npc_fr": "Gisilbehrt",
-            "cPrev": [66297],
-            "cNext": [66299],
+            "cPrev": ["q.66297"],
+            "cNext": ["q.66299"],
             "patch": "4.31"
         },
         "x66299": {
@@ -557,8 +531,8 @@
             "name_fr": "Je connais quelqu'un qui connaît quelqu'un...",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66298],
-            "cNext": [66301],
+            "cPrev": ["q.66298"],
+            "cNext": ["q.66301"],
             "patch": "4.31"
         },
         "x66301": {
@@ -567,8 +541,8 @@
             "name_fr": "La volonté des esprits",
             "npc_en": "Meffrid",
             "npc_fr": "Meffrid",
-            "cPrev": [66299],
-            "cNext": [66310],
+            "cPrev": ["q.66299"],
+            "cNext": ["q.66310"],
             "patch": "4.31"
         },
         "x66310": {
@@ -577,8 +551,8 @@
             "name_fr": "Défier le sort",
             "npc_en": "Meffrid",
             "npc_fr": "Meffrid",
-            "cPrev": [66301],
-            "cNext": [66311],
+            "cPrev": ["q.66301"],
+            "cNext": ["q.66311"],
             "patch": "4.31"
         },
         "x66311": {
@@ -587,8 +561,8 @@
             "name_fr": "Le fardeau",
             "npc_en": "Meffrid",
             "npc_fr": "Meffrid",
-            "cPrev": [66310],
-            "cNext": [66312],
+            "cPrev": ["q.66310"],
+            "cNext": ["q.66312"],
             "patch": "4.31"
         },
         "x66312": {
@@ -597,8 +571,8 @@
             "name_fr": "Briser la glace",
             "npc_en": "Meffrid",
             "npc_fr": "Meffrid",
-            "cPrev": [66311],
-            "cNext": [66313],
+            "cPrev": ["q.66311"],
+            "cNext": ["q.66313"],
             "cSiblings": ["travel.mount-speed.the-black-shroud.5"],
             "patch": "4.31"
         },
@@ -608,8 +582,8 @@
             "name_fr": "Une lueur dans les yeux",
             "npc_en": "Gundobald",
             "npc_fr": "Gundobald",
-            "cPrev": [66312],
-            "cNext": [66314],
+            "cPrev": ["q.66312"],
+            "cNext": ["q.66314"],
             "patch": "4.31"
         },
         "x66314": {
@@ -618,8 +592,8 @@
             "name_fr": "Rencontre en privé",
             "npc_en": "Hremfing",
             "npc_fr": "Hremfing",
-            "cPrev": [66313],
-            "cNext": [66318, "duty.quests.sidequests.uldahn.southern-thanalan.66315"],
+            "cPrev": ["q.66313"],
+            "cNext": ["q.66318", "q.66315"],
             "patch": "4.31"
         },
         "x66318": {
@@ -628,8 +602,8 @@
             "name_fr": "Espoirs déçus",
             "npc_en": "Gundobald",
             "npc_fr": "Gundobald",
-            "cPrev": [66314],
-            "cNext": [66319],
+            "cPrev": ["q.66314"],
+            "cNext": ["q.66319"],
             "patch": "4.31"
         },
         "x66319": {
@@ -638,8 +612,8 @@
             "name_fr": "Retour à la case départ",
             "npc_en": "Gundobald",
             "npc_fr": "Gundobald",
-            "cPrev": [66318],
-            "cNext": [69399],
+            "cPrev": ["q.66318"],
+            "cNext": ["q.69399"],
             "patch": "4.31"
         },
         "x69399": {
@@ -648,8 +622,8 @@
             "name_fr": "Le pleurnichard du Radeau de la Calebasse",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66319],
-            "cNext": [69400],
+            "cPrev": ["q.66319"],
+            "cNext": ["q.69400"],
             "patch": "5.3"
         },
         "x69400": {
@@ -658,8 +632,8 @@
             "name_fr": "Suspects de convenance",
             "npc_en": "Aideen",
             "npc_fr": "Aideen",
-            "cPrev": [69399],
-            "cNext": [66323, 66322],
+            "cPrev": ["q.69399"],
+            "cNext": ["q.66323", "q.66322"],
             "patch": "5.3"
         },
         "x66323": {
@@ -668,8 +642,8 @@
             "name_fr": "Le Rocher de la rancœur",
             "npc_en": "Aideen",
             "npc_fr": "Aideen",
-            "cPrev": [69400],
-            "cNext": [66335],
+            "cPrev": ["q.69400"],
+            "cNext": ["q.66335"],
             "patch": "4.31"
         },
         "x66322": {
@@ -678,8 +652,8 @@
             "name_fr": "Œil pour œil, dard pour dard",
             "npc_en": "Ivaurault",
             "npc_fr": "Ivaurault",
-            "cPrev": [69400],
-            "cNext": [66335],
+            "cPrev": ["q.69400"],
+            "cNext": ["q.66335"],
             "patch": "4.31"
         },
         "x66335": {
@@ -688,8 +662,8 @@
             "name_fr": "L'esprit de déduction",
             "npc_en": "Medrod",
             "npc_fr": "Medrod",
-            "cPrev": [66322, 66323],
-            "cNext": [66336],
+            "cPrev": ["q.66322", "q.66323"],
+            "cNext": ["q.66336"],
             "cSiblings": ["travel.mount-speed.the-black-shroud.7"],
             "patch": "4.31"
         },
@@ -699,8 +673,8 @@
             "name_fr": "Le secret du lys blanc",
             "npc_en": "Aethelmaer",
             "npc_fr": "Aethelmaer",
-            "cPrev": [66335],
-            "cNext": [66337],
+            "cPrev": ["q.66335"],
+            "cNext": ["q.66337"],
             "patch": "4.31"
         },
         "x66337": {
@@ -710,8 +684,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.5",
             "npc_en": "Ursandel",
             "npc_fr": "Ursandel",
-            "cPrev": [66336],
-            "cNext": [66052],
+            "cPrev": ["q.66336"],
+            "cNext": ["q.66052"],
             "cSiblings": ["character.achievement.quests.main-scenario.784"],
             "patch": "4.31"
         },
@@ -721,8 +695,8 @@
             "name_fr": "La colère du titan",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66337],
-            "cNext": [66345],
+            "cPrev": ["q.66337"],
+            "cNext": ["q.66345"],
             "patch": "4.31"
         },
         "x66345": {
@@ -731,8 +705,8 @@
             "name_fr": "Le grand Trachtoum",
             "npc_en": "Trachtoum",
             "npc_fr": "Trachtoum",
-            "cPrev": [66052],
-            "cNext": [66346],
+            "cPrev": ["q.66052"],
+            "cNext": ["q.66346"],
             "patch": "4.31"
         },
         "x66346": {
@@ -741,8 +715,8 @@
             "name_fr": "Un gros goobbue gourmand",
             "npc_en": "Trachtoum",
             "npc_fr": "Trachtoum",
-            "cPrev": [66345],
-            "cNext": [66347],
+            "cPrev": ["q.66345"],
+            "cNext": ["q.66347"],
             "patch": "4.31"
         },
         "x66347": {
@@ -751,8 +725,8 @@
             "name_fr": "Prisonnier de son propre mensonge",
             "npc_en": "Trachtoum",
             "npc_fr": "Trachtoum",
-            "cPrev": [66346],
-            "cNext": [66348],
+            "cPrev": ["q.66346"],
+            "cNext": ["q.66348"],
             "patch": "4.31"
         },
         "x66348": {
@@ -761,8 +735,8 @@
             "name_fr": "Le crapaud crapuleux",
             "npc_en": "Wheiskaet",
             "npc_fr": "Wheiskaet",
-            "cPrev": [66347],
-            "cNext": [66350],
+            "cPrev": ["q.66347"],
+            "cNext": ["q.66350"],
             "patch": "4.31"
         },
         "x66350": {
@@ -771,12 +745,8 @@
             "name_fr": "Les trois Merveilles d'Éorzéa",
             "npc_en": "Wheiskaet",
             "npc_fr": "Wheiskaet",
-            "cPrev": [66348],
-            "cNext": [
-                "duty.quests.sidequests.gridanian.south-shroud.66353",
-                "duty.quests.sidequests.gridanian.south-shroud.66354",
-                69401
-            ],
+            "cPrev": ["q.66348"],
+            "cNext": ["q.66353", "q.66354", "q.69401"],
             "patch": "4.31"
         },
         "x69401": {
@@ -785,8 +755,8 @@
             "name_fr": "La première Merveille",
             "npc_en": "Landenel",
             "npc_fr": "Landenel",
-            "cPrev": [66350],
-            "cNext": [66357],
+            "cPrev": ["q.66350"],
+            "cNext": ["q.66357"],
             "patch": "5.3"
         },
         "x66357": {
@@ -795,8 +765,8 @@
             "name_fr": "L'infâme Tanadd Gah",
             "npc_en": "U'odh Nunh",
             "npc_fr": "U'odh Nunh",
-            "cPrev": [69401],
-            "cNext": [66358],
+            "cPrev": ["q.69401"],
+            "cNext": ["q.66358"],
             "patch": "4.31"
         },
         "x66358": {
@@ -805,8 +775,8 @@
             "name_fr": "La deuxième Merveille",
             "npc_en": "U'odh Nunh",
             "npc_fr": "U'odh Nunh",
-            "cPrev": [66357],
-            "cNext": [66367],
+            "cPrev": ["q.66357"],
+            "cNext": ["q.66367"],
             "cSiblings": ["travel.mount-speed.thanalan.7"],
             "patch": "4.31"
         },
@@ -816,8 +786,8 @@
             "name_fr": "Puisque tu t'en vas...",
             "npc_en": "U'odh Nunh",
             "npc_fr": "U'odh Nunh",
-            "cPrev": [66358],
-            "cNext": [66368],
+            "cPrev": ["q.66358"],
+            "cNext": ["q.66368"],
             "patch": "4.31"
         },
         "x66368": {
@@ -827,15 +797,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.6",
             "npc_en": "Wheiskaet",
             "npc_fr": "Wheiskaet",
-            "cPrev": [66367],
-            "cNext": [
-                "duty.quests.sidequests.lominsan.eastern-la-noscea.66369",
-                "duty.quests.sidequests.lominsan.eastern-la-noscea.66371",
-                "duty.quests.sidequests.lominsan.eastern-la-noscea.66378",
-                "duty.quests.sidequests.lominsan.eastern-la-noscea.66372",
-                "duty.quests.sidequests.lominsan.eastern-la-noscea.66377",
-                69402
-            ],
+            "cPrev": ["q.66367"],
+            "cNext": ["q.66369", "q.66371", "q.66378", "q.66372", "q.66377", "q.69402"],
             "patch": "4.31"
         },
         "x69402": {
@@ -844,8 +807,8 @@
             "name_fr": "Un chef tête en l'air",
             "npc_en": "Wheiskaet",
             "npc_fr": "Wheiskaet",
-            "cPrev": [66368],
-            "cNext": [66376],
+            "cPrev": ["q.66368"],
+            "cNext": ["q.66376"],
             "patch": "5.3"
         },
         "x66376": {
@@ -854,8 +817,8 @@
             "name_fr": "Le Roi du vin",
             "npc_en": "Shamani Lohmani",
             "npc_fr": "Shamani Lohmani",
-            "cPrev": [69402],
-            "cNext": [66379],
+            "cPrev": ["q.69402"],
+            "cNext": ["q.66379"],
             "patch": "4.31"
         },
         "x66379": {
@@ -864,8 +827,8 @@
             "name_fr": "Le vin de Bacchus",
             "npc_en": "Shamani Lohmani",
             "npc_fr": "Shamani Lohmani",
-            "cPrev": [66376],
-            "cNext": [66381],
+            "cPrev": ["q.66376"],
+            "cNext": ["q.66381"],
             "patch": "4.31"
         },
         "x66381": {
@@ -874,8 +837,8 @@
             "name_fr": "Le vin de la gratitude",
             "npc_en": "Shamani Lohmani",
             "npc_fr": "Shamani Lohmani",
-            "cPrev": [66379],
-            "cNext": [66382],
+            "cPrev": ["q.66379"],
+            "cNext": ["q.66382"],
             "patch": "4.31"
         },
         "x66382": {
@@ -884,8 +847,8 @@
             "name_fr": "Un bourdonnement insupportable",
             "npc_en": "Drest",
             "npc_fr": "Drest",
-            "cPrev": [66381],
-            "cNext": [66384],
+            "cPrev": ["q.66381"],
+            "cNext": ["q.66384"],
             "patch": "4.31"
         },
         "x66384": {
@@ -894,8 +857,8 @@
             "name_fr": "La force de vivre",
             "npc_en": "Drest",
             "npc_fr": "Drest",
-            "cPrev": [66382],
-            "cNext": [66386],
+            "cPrev": ["q.66382"],
+            "cNext": ["q.66386"],
             "patch": "4.31"
         },
         "x66386": {
@@ -904,8 +867,8 @@
             "name_fr": "Un pied de vigne ambulant",
             "npc_en": "Shamani Lohmani",
             "npc_fr": "Shamani Lohmani",
-            "cPrev": [66384],
-            "cNext": [66391],
+            "cPrev": ["q.66384"],
+            "cNext": ["q.66391"],
             "patch": "4.31"
         },
         "x66391": {
@@ -914,8 +877,8 @@
             "name_fr": "Le jugement des Cinq",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [66386],
-            "cNext": [66392],
+            "cPrev": ["q.66386"],
+            "cNext": ["q.66392"],
             "cSiblings": ["travel.mount-speed.la-noscea.5"],
             "patch": "4.31"
         },
@@ -925,8 +888,8 @@
             "name_fr": "Au lac sifflera trois fois",
             "npc_en": "Wheiskaet",
             "npc_fr": "Wheiskaet",
-            "cPrev": [66391],
-            "cNext": [66393],
+            "cPrev": ["q.66391"],
+            "cNext": ["q.66393"],
             "patch": "4.31"
         },
         "x66393": {
@@ -936,15 +899,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.1",
             "npc_en": "Riol",
             "npc_fr": "Riol",
-            "cPrev": [66392],
-            "cNext": [
-                "duty.quests.sidequests.lominsan.upper-la-noscea.66394",
-                "duty.quests.sidequests.lominsan.outer-la-noscea.66398",
-                "duty.quests.sidequests.lominsan.upper-la-noscea.66402",
-                "duty.quests.sidequests.lominsan.upper-la-noscea.66403",
-                66053,
-                "duty.quests.sidequests.lominsan.outer-la-noscea.66396"
-            ],
+            "cPrev": ["q.66392"],
+            "cNext": ["q.66394", "q.66398", "q.66402", "q.66403", "q.66053", "q.66396"],
             "cSiblings": ["travel.mount-speed.la-noscea.9", "travel.mount-speed.la-noscea.11"],
             "patch": "4.31"
         },
@@ -954,14 +910,8 @@
             "name_fr": "La lumière vacille",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [66393],
-            "cNext": [
-                "duty.quests.sidequests.uldahn.eastern-thanalan.66409",
-                "duty.quests.sidequests.uldahn.eastern-thanalan.66416",
-                "duty.quests.sidequests.uldahn.eastern-thanalan.66410",
-                "duty.quests.sidequests.uldahn.eastern-thanalan.66415",
-                69403
-            ],
+            "cPrev": ["q.66393"],
+            "cNext": ["q.66409", "q.66416", "q.66410", "q.66415", "q.69403"],
             "cSiblings": ["character.achievement.quests.main-scenario.785"],
             "patch": "4.31"
         },
@@ -971,8 +921,8 @@
             "name_fr": "L'heure du fossoyeur",
             "npc_en": "Marques",
             "npc_fr": "Marquez",
-            "cPrev": [66053],
-            "cNext": [66412],
+            "cPrev": ["q.66053"],
+            "cNext": ["q.66412"],
             "patch": "5.3"
         },
         "x66412": {
@@ -981,8 +931,8 @@
             "name_fr": "Les oubliés de la baie des Vêpres",
             "npc_en": "Eluned",
             "npc_fr": "Eluned",
-            "cPrev": [69403],
-            "cNext": [66414],
+            "cPrev": ["q.69403"],
+            "cNext": ["q.66414"],
             "patch": "4.31"
         },
         "x66414": {
@@ -991,8 +941,8 @@
             "name_fr": "Son ultime refuge",
             "npc_en": "Eluned",
             "npc_fr": "Eluned",
-            "cPrev": [66412],
-            "cNext": [66054],
+            "cPrev": ["q.66412"],
+            "cNext": ["q.66054"],
             "patch": "4.31"
         },
         "x66054": {
@@ -1001,8 +951,8 @@
             "name_fr": "Mémoire vive",
             "npc_en": "Marques",
             "npc_fr": "Marquez",
-            "cPrev": [66414],
-            "cNext": [66419],
+            "cPrev": ["q.66414"],
+            "cNext": ["q.66419"],
             "cSiblings": ["travel.mount-speed.thanalan.5"],
             "patch": "4.31"
         },
@@ -1012,8 +962,8 @@
             "name_fr": "À la recherche de l'Entreprise",
             "npc_en": "Iliud",
             "npc_fr": "Iliud",
-            "cPrev": [66054],
-            "cNext": [66420],
+            "cPrev": ["q.66054"],
+            "cNext": ["q.66420"],
             "patch": "4.31"
         },
         "x66420": {
@@ -1022,8 +972,8 @@
             "name_fr": "En route pour le Coerthas",
             "npc_en": "Vortefaurt",
             "npc_fr": "Vortefaurt",
-            "cPrev": [66419],
-            "cNext": [66422],
+            "cPrev": ["q.66419"],
+            "cNext": ["q.66422"],
             "patch": "4.31"
         },
         "x66422": {
@@ -1032,8 +982,8 @@
             "name_fr": "Accueil à l'ishgardaise",
             "npc_en": "Ludovoix",
             "npc_fr": "Ludovoix",
-            "cPrev": [66420],
-            "cNext": [66423],
+            "cPrev": ["q.66420"],
+            "cNext": ["q.66423"],
             "patch": "4.31"
         },
         "x66423": {
@@ -1042,8 +992,8 @@
             "name_fr": "Confiance à gagner",
             "npc_en": "Jocea",
             "npc_fr": "Jocea",
-            "cPrev": [66422],
-            "cNext": [66425],
+            "cPrev": ["q.66422"],
+            "cNext": ["q.66425"],
             "patch": "4.31"
         },
         "x66425": {
@@ -1052,8 +1002,8 @@
             "name_fr": "Les maux d'Ishgard",
             "npc_en": "Portelaine",
             "npc_fr": "Portelaine",
-            "cPrev": [66423],
-            "cNext": [66426],
+            "cPrev": ["q.66423"],
+            "cNext": ["q.66426"],
             "patch": "4.31"
         },
         "x66426": {
@@ -1062,15 +1012,8 @@
             "name_fr": "Le nom du rosaire",
             "npc_en": "Carrilaut",
             "npc_fr": "Carrilaut",
-            "cPrev": [66425],
-            "cNext": [
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66434",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66435",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66437",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66438",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66439",
-                66433
-            ],
+            "cPrev": ["q.66425"],
+            "cNext": ["q.66434", "q.66435", "q.66437", "q.66438", "q.66439", "q.66433"],
             "patch": "4.31"
         },
         "x66433": {
@@ -1079,8 +1022,8 @@
             "name_fr": "En quête de collaboration",
             "npc_en": "Haurchefant",
             "npc_fr": "Haurchefant",
-            "cPrev": [66426],
-            "cNext": [66446],
+            "cPrev": ["q.66426"],
+            "cNext": ["q.66446"],
             "patch": "4.31"
         },
         "x66446": {
@@ -1089,8 +1032,8 @@
             "name_fr": "L'honneur des Haillenarte",
             "npc_en": "Haurchefant",
             "npc_fr": "Haurchefant",
-            "cPrev": [66433],
-            "cNext": [66447],
+            "cPrev": ["q.66433"],
+            "cNext": ["q.66447"],
             "patch": "4.31"
         },
         "x66447": {
@@ -1099,8 +1042,8 @@
             "name_fr": "Fouille nécessaire",
             "npc_en": "Haurchefant",
             "npc_fr": "Haurchefant",
-            "cPrev": [66446],
-            "cNext": [66448],
+            "cPrev": ["q.66446"],
+            "cNext": ["q.66448"],
             "patch": "4.31"
         },
         "x66448": {
@@ -1109,8 +1052,8 @@
             "name_fr": "Au bord du gouffre",
             "npc_en": "Haurchefant",
             "npc_fr": "Haurchefant",
-            "cPrev": [66447],
-            "cNext": ["duty.quests.sidequests.coerthan.coerthas-central-highlands.66449", 69404],
+            "cPrev": ["q.66447"],
+            "cNext": ["q.66449", "q.69404"],
             "patch": "4.31"
         },
         "x69404": {
@@ -1119,8 +1062,8 @@
             "name_fr": "L'homme qui a vu l'Entreprise",
             "npc_en": "Haurchefant",
             "npc_fr": "Haurchefant",
-            "cPrev": [66448],
-            "cNext": [66460],
+            "cPrev": ["q.66448"],
+            "cNext": ["q.66460"],
             "patch": "5.3"
         },
         "x66460": {
@@ -1129,16 +1072,8 @@
             "name_fr": "Un accueil des plus chaleureux",
             "npc_en": "Brunadier",
             "npc_fr": "Brunadier",
-            "cPrev": [69404],
-            "cNext": [
-                66463,
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66464",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66469",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66470",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66471",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66465",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66472"
-            ],
+            "cPrev": ["q.69404"],
+            "cNext": ["q.66463", "q.66464", "q.66469", "q.66470", "q.66471", "q.66465", "q.66472"],
             "patch": "4.31"
         },
         "x66463": {
@@ -1147,8 +1082,8 @@
             "name_fr": "Les chevaliers affamés",
             "npc_en": "Haustefort",
             "npc_fr": "Haustefort",
-            "cPrev": [66460],
-            "cNext": [69405],
+            "cPrev": ["q.66460"],
+            "cNext": ["q.69405"],
             "patch": "4.31"
         },
         "x69405": {
@@ -1157,8 +1092,8 @@
             "name_fr": "L'alambic malvenu",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [66463],
-            "cNext": [66474],
+            "cPrev": ["q.66463"],
+            "cNext": ["q.66474"],
             "patch": "5.3"
         },
         "x66474": {
@@ -1167,8 +1102,8 @@
             "name_fr": "Connaître Guillaime",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [69405],
-            "cNext": [66475],
+            "cPrev": ["q.69405"],
+            "cNext": ["q.66475"],
             "patch": "4.31"
         },
         "x66475": {
@@ -1177,8 +1112,8 @@
             "name_fr": "Vérité ensevelie",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [66474],
-            "cNext": [66476],
+            "cPrev": ["q.66474"],
+            "cNext": ["q.66476"],
             "patch": "4.31"
         },
         "x66476": {
@@ -1187,8 +1122,8 @@
             "name_fr": "L'inquisiteur démasqué",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [66475],
-            "cNext": [66477],
+            "cPrev": ["q.66475"],
+            "cNext": ["q.66477"],
             "patch": "4.31"
         },
         "x66477": {
@@ -1197,18 +1132,8 @@
             "name_fr": "Que justice soit faite",
             "npc_en": "Drillemont",
             "npc_fr": "Drillemont",
-            "cPrev": [66476],
-            "cNext": [
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66478",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66479",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66480",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66484",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66486",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66487",
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66481",
-                66488,
-                "duty.quests.sidequests.coerthan.coerthas-central-highlands.66482"
-            ],
+            "cPrev": ["q.66476"],
+            "cNext": ["q.66478", "q.66479", "q.66480", "q.66484", "q.66486", "q.66487", "q.66481", "q.66488", "q.66482"],
             "patch": "4.31"
         },
         "x66488": {
@@ -1218,15 +1143,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.9",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [66477],
-            "cNext": [
-                "duty.quests.tribal-quests.kobold.66856",
-                "duty.quests.tribal-quests.sahagin.66910",
-                "duty.quests.tribal-quests.ixal.67022",
-                66489,
-                "duty.quests.tribal-quests.amaljaa.66753",
-                "duty.quests.tribal-quests.sylph.66788"
-            ],
+            "cPrev": ["q.66477"],
+            "cNext": ["q.66856", "q.66910", "q.67022", "q.66489", "q.66753", "q.66788"],
             "cSiblings": ["character.achievement.quests.main-scenario.786", "travel.mount-speed.ishgard--coerthas.0"],
             "patch": "4.31"
         },
@@ -1236,8 +1154,8 @@
             "name_fr": "Traverser la tempête",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [66488],
-            "cNext": [66491],
+            "cPrev": ["q.66488"],
+            "cNext": ["q.66491"],
             "patch": "4.31"
         },
         "x66491": {
@@ -1246,8 +1164,8 @@
             "name_fr": "Le disciple du Viaduc",
             "npc_en": "Lamberteint",
             "npc_fr": "Lamberteint",
-            "cPrev": [66489],
-            "cNext": [66492],
+            "cPrev": ["q.66489"],
+            "cNext": ["q.66492"],
             "patch": "4.31"
         },
         "x66492": {
@@ -1256,8 +1174,8 @@
             "name_fr": "Les chutes du Mur",
             "npc_en": "Hahasako",
             "npc_fr": "Hahasako",
-            "cPrev": [66491],
-            "cNext": [66495],
+            "cPrev": ["q.66491"],
+            "cNext": ["q.66495"],
             "patch": "4.31"
         },
         "x66495": {
@@ -1266,8 +1184,8 @@
             "name_fr": "Nouvelle piste",
             "npc_en": "Lamberteint",
             "npc_fr": "Lamberteint",
-            "cPrev": [66492],
-            "cNext": [66496],
+            "cPrev": ["q.66492"],
+            "cNext": ["q.66496"],
             "patch": "4.31"
         },
         "x66496": {
@@ -1276,8 +1194,8 @@
             "name_fr": "Les îles interdites",
             "npc_en": "Ceana",
             "npc_fr": "Ceana",
-            "cPrev": [66495],
-            "cNext": [66497],
+            "cPrev": ["q.66495"],
+            "cNext": ["q.66497"],
             "patch": "4.31"
         },
         "x66497": {
@@ -1286,8 +1204,8 @@
             "name_fr": "Celui qui est revenu",
             "npc_en": "Ceana",
             "npc_fr": "Ceana",
-            "cPrev": [66496],
-            "cNext": [66498],
+            "cPrev": ["q.66496"],
+            "cNext": ["q.66498"],
             "patch": "4.31"
         },
         "x66498": {
@@ -1297,8 +1215,8 @@
             "npc_en": "Ceana",
             "npc_fr": "Ceana",
             "unlock_en": "Isles of Umbra",
-            "cPrev": [66497],
-            "cNext": [66499],
+            "cPrev": ["q.66497"],
+            "cNext": ["q.66499"],
             "patch": "4.31"
         },
         "x66499": {
@@ -1307,8 +1225,8 @@
             "name_fr": "Le chant des vagues",
             "npc_en": "Davyd",
             "npc_fr": "Davyd",
-            "cPrev": [66498],
-            "cNext": [66503],
+            "cPrev": ["q.66498"],
+            "cNext": ["q.66503"],
             "patch": "4.31"
         },
         "x66503": {
@@ -1317,8 +1235,8 @@
             "name_fr": "Récital pour un amour dément",
             "npc_en": "Davyd",
             "npc_fr": "Davyd",
-            "cPrev": [66499],
-            "cNext": [69406],
+            "cPrev": ["q.66499"],
+            "cNext": ["q.69406"],
             "cSiblings": ["travel.mount-speed.la-noscea.7"],
             "patch": "4.31"
         },
@@ -1328,8 +1246,8 @@
             "name_fr": "Le cristal corrompu ambulant",
             "npc_en": "Ceana",
             "npc_fr": "Ceana",
-            "cPrev": [66503],
-            "cNext": [66511],
+            "cPrev": ["q.66503"],
+            "cNext": ["q.66511"],
             "patch": "5.3"
         },
         "x66511": {
@@ -1338,8 +1256,8 @@
             "name_fr": "Le nouvel Entreprise",
             "npc_en": "Hedyn",
             "npc_fr": "Hedyn",
-            "cPrev": [69406],
-            "cNext": [66055],
+            "cPrev": ["q.69406"],
+            "cNext": ["q.66055"],
             "patch": "4.31"
         },
         "x66055": {
@@ -1349,8 +1267,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.2",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [66511],
-            "cNext": [66056],
+            "cPrev": ["q.66511"],
+            "cNext": ["q.66056"],
             "cSiblings": ["character.achievement.quests.main-scenario.787"],
             "patch": "4.31"
         },
@@ -1360,8 +1278,8 @@
             "name_fr": "Une faible lueur",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [66055],
-            "cNext": [66514],
+            "cPrev": ["q.66055"],
+            "cNext": ["q.66514"],
             "patch": "4.31"
         },
         "x66514": {
@@ -1370,8 +1288,8 @@
             "name_fr": "De précieux renseignements",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [66056],
-            "cNext": [66516],
+            "cPrev": ["q.66056"],
+            "cNext": ["q.66516"],
             "patch": "4.31"
         },
         "x66516": {
@@ -1380,8 +1298,8 @@
             "name_fr": "Des yeux rivés sur l'Empire",
             "npc_en": "Portelaine",
             "npc_fr": "Portelaine",
-            "cPrev": [66514],
-            "cNext": [66517],
+            "cPrev": ["q.66514"],
+            "cNext": ["q.66517"],
             "patch": "4.31"
         },
         "x66517": {
@@ -1390,8 +1308,8 @@
             "name_fr": "Les deux fugitifs",
             "npc_en": "Pierremons",
             "npc_fr": "Pierremons",
-            "cPrev": [66516],
-            "cNext": [66518],
+            "cPrev": ["q.66516"],
+            "cNext": ["q.66518"],
             "patch": "4.31"
         },
         "x66518": {
@@ -1400,8 +1318,8 @@
             "name_fr": "À la recherche de Biggs",
             "npc_en": "Wedge",
             "npc_fr": "Wedge",
-            "cPrev": [66517],
-            "cNext": [66519],
+            "cPrev": ["q.66517"],
+            "cNext": ["q.66519"],
             "patch": "4.31"
         },
         "x66519": {
@@ -1410,8 +1328,8 @@
             "name_fr": "Des traqueurs traqués",
             "npc_en": "Wedge",
             "npc_fr": "Wedge",
-            "cPrev": [66518],
-            "cNext": [66520, "duty.quests.sidequests.coerthan.coerthas-central-highlands.66521"],
+            "cPrev": ["q.66518"],
+            "cNext": ["q.66520", "q.66521"],
             "patch": "4.31"
         },
         "x66520": {
@@ -1420,8 +1338,8 @@
             "name_fr": "En route pour le Mor Dhona",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [66519],
-            "cNext": [66522],
+            "cPrev": ["q.66519"],
+            "cNext": ["q.66522"],
             "patch": "4.31"
         },
         "x66522": {
@@ -1430,8 +1348,8 @@
             "name_fr": "Les tuyaux ont des oreilles",
             "npc_en": "Glaumunt",
             "npc_fr": "Glaumunt",
-            "cPrev": [66520],
-            "cNext": [66537, 66538],
+            "cPrev": ["q.66520"],
+            "cNext": ["q.66537", "q.66538"],
             "patch": "4.31"
         },
         "x66537": {
@@ -1440,8 +1358,8 @@
             "name_fr": "Brouille-leur l'écoute",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [66522],
-            "cNext": [66540],
+            "cPrev": ["q.66522"],
+            "cNext": ["q.66540"],
             "patch": "4.31"
         },
         "x66538": {
@@ -1451,8 +1369,8 @@
             "unlock": "social.emotes.general.59",
             "npc_en": "Glaumunt",
             "npc_fr": "Glaumunt",
-            "cPrev": [66522],
-            "cNext": [69407],
+            "cPrev": ["q.66522"],
+            "cNext": ["q.69407"],
             "cSiblings": ["social.emotes.general.59"],
             "patch": "4.31"
         },
@@ -1462,8 +1380,8 @@
             "name_fr": "La panoplie du parfait petit soldat",
             "npc_en": "Sark Malark",
             "npc_fr": "Sark Malark",
-            "cPrev": [66538],
-            "cNext": [66540],
+            "cPrev": ["q.66538"],
+            "cNext": ["q.66540"],
             "patch": "5.3"
         },
         "x66540": {
@@ -1472,8 +1390,8 @@
             "name_fr": "Grand vol d'armure",
             "npc_en": "Glaumunt",
             "npc_fr": "Glaumunt",
-            "cPrev": [66537, 69407],
-            "cNext": [66541],
+            "cPrev": ["q.66537", "q.69407"],
+            "cNext": ["q.66541"],
             "patch": "4.31"
         },
         "x66541": {
@@ -1482,8 +1400,8 @@
             "name_fr": "Un cœur sensible dans un corps d'acier",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [66540],
-            "cNext": [66057],
+            "cPrev": ["q.66540"],
+            "cNext": ["q.66057"],
             "cSiblings": ["travel.mount-speed.others.0"],
             "patch": "4.31"
         },
@@ -1493,8 +1411,8 @@
             "name_fr": "L'évasion de Castrum Centri",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [66541],
-            "cNext": [66058],
+            "cPrev": ["q.66541"],
+            "cNext": ["q.66058"],
             "patch": "4.31"
         },
         "x66058": {
@@ -1503,14 +1421,8 @@
             "name_fr": "La lumière de l'Aube",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66057],
-            "cNext": [
-                "duty.quests.sidequests.uldahn.the-waking-sands.66543",
-                "duty.quests.sidequests.uldahn.the-waking-sands.66551",
-                "duty.quests.sidequests.uldahn.the-waking-sands.66561",
-                66572,
-                "duty.quests.sidequests.uldahn.the-waking-sands.67089"
-            ],
+            "cPrev": ["q.66057"],
+            "cNext": ["q.66543", "q.66551", "q.66561", "q.66572", "q.67089"],
             "patch": "4.31"
         },
         "x66572": {
@@ -1519,8 +1431,8 @@
             "name_fr": "La marche des Preux",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [66058],
-            "cNext": [66573, "duty.quests.sidequests.uldahn.northern-thanalan.66574"],
+            "cPrev": ["q.66058"],
+            "cNext": ["q.66573", "q.66574"],
             "patch": "4.31"
         },
         "x66573": {
@@ -1529,8 +1441,8 @@
             "name_fr": "Un petit détour dans la brume",
             "npc_en": "Allied Communications Officer",
             "npc_fr": "officier de liaison éorzéen",
-            "cPrev": [66572],
-            "cNext": [69408],
+            "cPrev": ["q.66572"],
+            "cNext": ["q.69408"],
             "patch": "4.31"
         },
         "x69408": {
@@ -1539,8 +1451,8 @@
             "name_fr": "Le moral des troupes",
             "npc_en": "Cracked Fist",
             "npc_fr": "Cracked Fist",
-            "cPrev": [66573],
-            "cNext": [69409],
+            "cPrev": ["q.66573"],
+            "cNext": ["q.69409"],
             "patch": "5.3"
         },
         "x69409": {
@@ -1550,8 +1462,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.12",
             "npc_en": "Edelstein",
             "npc_fr": "Edelstein",
-            "cPrev": [69408],
-            "cNext": [66060],
+            "cPrev": ["q.69408"],
+            "cNext": ["q.66060"],
             "patch": "5.3"
         },
         "x66060": {
@@ -1561,36 +1473,36 @@
             "unlock": ["duty.dutyraid-finder.dungeons.arr.13", "duty.dutyraid-finder.trials.arr.3"],
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn Aldynn",
-            "cPrev": [69409],
+            "cPrev": ["q.69409"],
             "cNext": [
-                "duty.quests.class--job.disciple-of-magic-job.blue-mage.68728",
-                "duty.quests.sidequests.side-story.delivery-moogle.67017",
-                "duty.quests.sidequests.uldahn.western-thanalan.66241",
-                "duty.quests.sidequests.hildibrand-sidequests.hildibrand.66740",
-                "duty.quests.sidequests.uldahn.western-thanalan.66973",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.65700",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.67062",
-                "duty.quests.chronicles-of-a-new-era.the-crystal-tower.67245",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.65630",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.65632",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.65966",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.65967",
-                "duty.quests.chronicles-of-a-new-era.primals.65969",
-                "duty.quests.chronicles-of-a-new-era.primals.66583",
-                "duty.quests.sidequests.uldahn.western-thanalan.66671",
-                "duty.quests.main-scenario.seventh-astral-era.66711",
-                "duty.quests.sidequests.lominsan.western-la-noscea.66744",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.66751",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.66752",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.66844",
-                "duty.quests.sidequests.gridanian.gridania.66925",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.66946",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.66947",
-                "duty.quests.sidequests.uldahn.uldah.67060",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.67061",
-                "duty.quests.other.quasi-quests.68624",
-                "duty.quests.other.special.collaboration.68694",
-                "duty.quests.other.quasi-quests.69295"
+                "q.68728",
+                "q.67017",
+                "q.66241",
+                "q.66740",
+                "q.66973",
+                "q.65700",
+                "q.67062",
+                "q.67245",
+                "q.65630",
+                "q.65632",
+                "q.65966",
+                "q.65967",
+                "q.65969",
+                "q.66583",
+                "q.66671",
+                "q.66711",
+                "q.66744",
+                "q.66751",
+                "q.66752",
+                "q.66844",
+                "q.66925",
+                "q.66946",
+                "q.66947",
+                "q.67060",
+                "q.67061",
+                "q.68624",
+                "q.68694",
+                "q.69295"
             ],
             "cSiblings": [
                 "character.achievement.quests.main-scenario.788",

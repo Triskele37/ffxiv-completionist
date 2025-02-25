@@ -9,8 +9,8 @@
             "name_fr": "Paix à deux vitesses",
             "npc_en": "Ala Mhigan Delegate",
             "npc_fr": "Attaché Militaire D'Ala Mhigo",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69954"],
-            "cNext": [69645],
+            "cPrev": ["q.69954"],
+            "cNext": ["q.69645"],
             "patch": "6.0"
         },
         "x69645": {
@@ -19,8 +19,8 @@
             "name_fr": "Le spectre de l'Exécutrice",
             "npc_en": "Blasphemy Hunter",
             "npc_fr": "Soldate De La B.A.H.",
-            "cPrev": [69644],
-            "cNext": [69646],
+            "cPrev": ["q.69644"],
+            "cNext": ["q.69646"],
             "patch": "6.0"
         },
         "x69646": {
@@ -29,8 +29,8 @@
             "name_fr": "Le héros sans arme",
             "npc_en": "Blasphemy Hunter",
             "npc_fr": "Soldate De La B.A.H.",
-            "cPrev": [69645],
-            "cNext": [69647],
+            "cPrev": ["q.69645"],
+            "cNext": ["q.69647"],
             "patch": "6.0"
         },
         "x69647": {
@@ -39,8 +39,8 @@
             "name_fr": "Ressouder les cœurs",
             "npc_en": "Blasphemy Hunter",
             "npc_fr": "Soldate De La B.A.H.",
-            "cPrev": [69646],
-            "cNext": [69648],
+            "cPrev": ["q.69646"],
+            "cNext": ["q.69648"],
             "patch": "6.0"
         },
         "x69648": {
@@ -49,8 +49,8 @@
             "name_fr": "Une piste mortuaire",
             "npc_en": "Blasphemy Hunter",
             "npc_fr": "Soldate De La B.A.H.",
-            "cPrev": [69647],
-            "cNext": [69649],
+            "cPrev": ["q.69647"],
+            "cNext": ["q.69649"],
             "patch": "6.0"
         },
         "x69649": {
@@ -59,7 +59,7 @@
             "name_fr": "Acceptation",
             "npc_en": "Blasphemy Hunter",
             "npc_fr": "Soldate De La B.A.H.",
-            "cPrev": [69648],
+            "cPrev": ["q.69648"],
             "cSiblings": ["character.achievement.quests.job-role-quests.2962"],
             "patch": "6.0"
         }

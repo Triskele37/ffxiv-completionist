@@ -9,8 +9,8 @@
             "name_fr": "Vol en bande organisée",
             "npc_en": "Papawazu",
             "npc_fr": "Papawazu",
-            "cPrev": ["duty.quests.sidequests.uldahn.uldah.66455"],
-            "cNext": [66458],
+            "cPrev": ["q.66455"],
+            "cNext": ["q.66458"],
             "patch": "4.31"
         },
         "x66458": {
@@ -19,8 +19,8 @@
             "name_fr": "Retour à la normale",
             "npc_en": "Papawazu",
             "npc_fr": "Papawazu",
-            "cPrev": [66456],
-            "cNext": ["duty.quests.sidequests.uldahn.uldah.66459"],
+            "cPrev": ["q.66456"],
+            "cNext": ["q.66459"],
             "patch": "4.31"
         },
         "x65551": {
@@ -30,11 +30,7 @@
             "cPrevAny": true,
             "npc_en": "Rurubana",
             "npc_fr": "Rurubana",
-            "cPrev": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
-                "duty.quests.sidequests.gridanian.gridania.65756",
-                "duty.quests.sidequests.uldahn.uldah.66223"
-            ],
+            "cPrev": ["q.66229", "q.65756", "q.66223"],
             "patch": "4.31"
         },
         "x66574": {
@@ -43,8 +39,8 @@
             "name_fr": "Sous les drapeaux",
             "npc_en": "Rafold",
             "npc_fr": "Rafold",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66572"],
-            "cNext": [66577],
+            "cPrev": ["q.66572"],
+            "cNext": ["q.66577"],
             "patch": "4.31"
         },
         "x66576": {
@@ -61,8 +57,8 @@
             "name_fr": "La griffe de la peur",
             "npc_en": "Rafold",
             "npc_fr": "Rafold",
-            "cPrev": [66574],
-            "cNext": [66580],
+            "cPrev": ["q.66574"],
+            "cNext": ["q.66580"],
             "patch": "4.31"
         },
         "x66580": {
@@ -71,8 +67,8 @@
             "name_fr": "Médecin du front",
             "npc_en": "Memezofu",
             "npc_fr": "Memezofu",
-            "cPrev": [66577],
-            "cNext": [66581],
+            "cPrev": ["q.66577"],
+            "cNext": ["q.66581"],
             "patch": "4.31"
         },
         "x66581": {
@@ -81,7 +77,7 @@
             "name_fr": "Les remèdes se font rares",
             "npc_en": "Memezofu",
             "npc_fr": "Memezofu",
-            "cPrev": [66580],
+            "cPrev": ["q.66580"],
             "patch": "4.31"
         }
     }

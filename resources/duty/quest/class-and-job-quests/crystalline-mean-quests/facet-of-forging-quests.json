@@ -9,8 +9,8 @@
             "name_fr": "La motivation d'une métallurgiste",
             "npc_en": "Iola",
             "npc_fr": "Iola",
-            "cPrev": ["duty.quests.class--job.crystalline-mean.69191"],
-            "cNext": [68764],
+            "cPrev": ["q.69191"],
+            "cNext": ["q.68764"],
             "patch": "5.0"
         },
         "x68764": {
@@ -19,8 +19,8 @@
             "name_fr": "Voyage d'affaires chez les Nu Mou",
             "npc_en": "Iola",
             "npc_fr": "Iola",
-            "cPrev": [68763],
-            "cNext": [68765],
+            "cPrev": ["q.68763"],
+            "cNext": ["q.68765"],
             "patch": "5.0"
         },
         "x68765": {
@@ -29,7 +29,7 @@
             "name_fr": "Pour la grande gloire de la soufflerie",
             "npc_en": "Iola",
             "npc_fr": "Iola",
-            "cPrev": [68764],
+            "cPrev": ["q.68764"],
             "cSiblings": ["character.achievement.quests.job-role-quests.2323"],
             "patch": "5.0"
         }

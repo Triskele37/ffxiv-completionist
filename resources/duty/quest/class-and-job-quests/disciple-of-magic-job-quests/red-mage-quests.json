@@ -9,7 +9,7 @@
             "name_fr": "Le vagabond rouge",
             "npc_en": "Distraught Lass",
             "npc_fr": "Fillette Aux Yeux Humides",
-            "cNext": [68113],
+            "cNext": ["q.68113"],
             "cSiblings": ["character.adventure-plate.64"],
             "patch": "4.31"
         },
@@ -19,8 +19,8 @@
             "name_fr": "Théorie et pratique",
             "npc_en": "X'rhun Tia",
             "npc_fr": "X'rhun Tia",
-            "cPrev": [68112],
-            "cNext": [68114],
+            "cPrev": ["q.68112"],
+            "cNext": ["q.68114"],
             "patch": "4.31"
         },
         "x68114": {
@@ -29,8 +29,8 @@
             "name_fr": "Piéger le piège",
             "npc_en": "X'rhun Tia",
             "npc_fr": "X'rhun Tia",
-            "cPrev": [68113],
-            "cNext": [68115],
+            "cPrev": ["q.68113"],
+            "cNext": ["q.68115"],
             "patch": "4.31"
         },
         "x68115": {
@@ -39,8 +39,8 @@
             "name_fr": "Cargaison mystère",
             "npc_en": "X'rhun Tia",
             "npc_fr": "X'rhun Tia",
-            "cPrev": [68114],
-            "cNext": [68116],
+            "cPrev": ["q.68114"],
+            "cNext": ["q.68116"],
             "patch": "4.31"
         },
         "x68116": {
@@ -49,8 +49,8 @@
             "name_fr": "Opération remémoration",
             "npc_en": "X'rhun Tia",
             "npc_fr": "X'rhun Tia",
-            "cPrev": [68115],
-            "cNext": [68117],
+            "cPrev": ["q.68115"],
+            "cNext": ["q.68117"],
             "patch": "4.31"
         },
         "x68117": {
@@ -59,8 +59,8 @@
             "name_fr": "Diversion musclée",
             "npc_en": "X'rhun Tia",
             "npc_fr": "X'rhun Tia",
-            "cPrev": [68116],
-            "cNext": [68118],
+            "cPrev": ["q.68116"],
+            "cNext": ["q.68118"],
             "patch": "4.31"
         },
         "x68118": {
@@ -69,8 +69,8 @@
             "name_fr": "Un vieux compte à régler",
             "npc_en": "X'rhun Tia",
             "npc_fr": "X'rhun Tia",
-            "cPrev": [68117],
-            "cNext": [68119],
+            "cPrev": ["q.68117"],
+            "cNext": ["q.68119"],
             "cSiblings": ["character.achievement.quests.job-role-quests.1810"],
             "patch": "4.31"
         },
@@ -80,8 +80,8 @@
             "name_fr": "Symptômes inquiétants",
             "npc_en": "X'rhun Tia",
             "npc_fr": "X'rhun Tia",
-            "cPrev": [68118, "duty.quests.main-scenario.post-dragonsong.67895"],
-            "cNext": [68120],
+            "cPrev": ["q.68118", "q.67895"],
+            "cNext": ["q.68120"],
             "patch": "4.31"
         },
         "x68120": {
@@ -90,8 +90,8 @@
             "name_fr": "Le fil rouge de l'histoire",
             "npc_en": "X'rhun Tia",
             "npc_fr": "X'rhun Tia",
-            "cPrev": [68119],
-            "cNext": [68121],
+            "cPrev": ["q.68119"],
+            "cNext": ["q.68121"],
             "patch": "4.31"
         },
         "x68121": {
@@ -100,8 +100,8 @@
             "name_fr": "L'ironie du sang",
             "npc_en": "X'rhun Tia",
             "npc_fr": "X'rhun Tia",
-            "cPrev": [68120],
-            "cNext": [68122],
+            "cPrev": ["q.68120"],
+            "cNext": ["q.68122"],
             "patch": "4.31"
         },
         "x68122": {
@@ -110,8 +110,8 @@
             "name_fr": "La piste du cauchemar",
             "npc_en": "X'rhun Tia",
             "npc_fr": "X'rhun Tia",
-            "cPrev": [68121],
-            "cNext": [68123],
+            "cPrev": ["q.68121"],
+            "cNext": ["q.68123"],
             "patch": "4.31"
         },
         "x68123": {
@@ -120,8 +120,8 @@
             "name_fr": "Transmigration démoniaque",
             "npc_en": "X'rhun Tia",
             "npc_fr": "X'rhun Tia",
-            "cPrev": [68122],
-            "cNext": [68760],
+            "cPrev": ["q.68122"],
+            "cNext": ["q.68760"],
             "cSiblings": ["character.achievement.quests.job-role-quests.1811"],
             "patch": "4.31"
         },
@@ -131,7 +131,7 @@
             "name_fr": "La relève de l'Ouragan pourpre",
             "npc_en": "Arya",
             "npc_fr": "Arya",
-            "cPrev": [68123, "duty.quests.class--job.role.shb.69164", "duty.quests.main-scenario.shadowbringers.69190"],
+            "cPrev": ["q.68123", "q.69164", "q.69190"],
             "cSiblings": ["character.adventure-plate.63", "character.achievement.quests.job-role-quests.2319"],
             "patch": "5.0"
         }

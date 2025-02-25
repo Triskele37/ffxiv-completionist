@@ -9,7 +9,7 @@
             "name_fr": "Pas de gâchis",
             "npc_en": "Qefiraz",
             "npc_fr": "Qefiraz",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69906"],
+            "cPrev": ["q.69906"],
             "patch": "6.0"
         },
         "x69733": {
@@ -18,7 +18,7 @@
             "name_fr": "La zone de l'amitié",
             "npc_en": "Mehrunnah",
             "npc_fr": "Mehrunnah",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69906"],
+            "cPrev": ["q.69906"],
             "patch": "6.0"
         },
         "x69734": {
@@ -27,7 +27,7 @@
             "name_fr": "Tikka de fête",
             "npc_en": "Auri Girl",
             "npc_fr": "Petite Fille Aoranne",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69906"],
+            "cPrev": ["q.69906"],
             "patch": "6.0"
         },
         "x69735": {
@@ -36,7 +36,7 @@
             "name_fr": "Petit larcin au Grand Œuvre",
             "npc_en": "Varpasa",
             "npc_fr": "Varpasa",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69909"],
+            "cPrev": ["q.69909"],
             "patch": "6.0"
         },
         "x69736": {
@@ -45,7 +45,7 @@
             "name_fr": "Le pouvoir des gemmes",
             "npc_en": "Yedjina",
             "npc_fr": "Yedjina",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69909"],
+            "cPrev": ["q.69909"],
             "patch": "6.0"
         },
         "x69737": {
@@ -54,7 +54,7 @@
             "name_fr": "Doléances inavouables",
             "npc_en": "Nashrifhal",
             "npc_fr": "Nashrifhal",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69909"],
+            "cPrev": ["q.69909"],
             "patch": "6.0"
         },
         "x69738": {
@@ -63,7 +63,7 @@
             "name_fr": "Un homme de culture",
             "npc_en": "Muscular Alchemist",
             "npc_fr": "Alchimiste Musclé",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69909"],
+            "cPrev": ["q.69909"],
             "patch": "6.0"
         },
         "x69739": {
@@ -73,7 +73,7 @@
             "unlock": "travel.aether-currents.ew.thavnair.11",
             "npc_en": "Jalamuc",
             "npc_fr": "Jalamuc",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69909"],
+            "cPrev": ["q.69909"],
             "cSiblings": ["travel.aether-currents.ew.thavnair.11"],
             "patch": "6.0"
         },
@@ -83,7 +83,7 @@
             "name_fr": "Les Arkasodaras ont de la trompe",
             "npc_en": "Timid Arkasodara",
             "npc_fr": "Arkasodara Timoré",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69909"],
+            "cPrev": ["q.69909"],
             "patch": "6.0"
         },
         "x69741": {
@@ -92,7 +92,7 @@
             "name_fr": "Ça passe ou ça tasse",
             "npc_en": "Honest Alchemist",
             "npc_fr": "Alchimiste Sincère",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69909"],
+            "cPrev": ["q.69909"],
             "patch": "6.0"
         },
         "x69742": {
@@ -101,7 +101,7 @@
             "name_fr": "Hamsou, où es-tou?",
             "npc_en": "Reensarudh",
             "npc_fr": "Reensarudh",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69910"],
+            "cPrev": ["q.69910"],
             "patch": "6.0"
         },
         "x69743": {
@@ -110,7 +110,7 @@
             "name_fr": "Couver le couvoir",
             "npc_en": "Arkasodara Youth",
             "npc_fr": "Jeune Arkasodara",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69910"],
+            "cPrev": ["q.69910"],
             "patch": "6.0"
         },
         "x69744": {
@@ -119,7 +119,7 @@
             "name_fr": "Un agent taillé pour la taille",
             "npc_en": "Apasa",
             "npc_fr": "Apasa",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69910"],
+            "cPrev": ["q.69910"],
             "patch": "6.0"
         },
         "x69745": {
@@ -128,7 +128,7 @@
             "name_fr": "Au bouleau",
             "npc_en": "Kusuma",
             "npc_fr": "Kusuma",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69910"],
+            "cPrev": ["q.69910"],
             "patch": "6.0"
         },
         "x70025": {
@@ -138,8 +138,8 @@
             "unlock": "travel.aether-currents.ew.thavnair.12",
             "npc_en": "Ogul",
             "npc_fr": "Ogul",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69906"],
-            "cNext": [70026],
+            "cPrev": ["q.69906"],
+            "cNext": ["q.70026"],
             "cSiblings": ["travel.aether-currents.ew.thavnair.12"],
             "patch": "6.0"
         },
@@ -149,8 +149,8 @@
             "name_fr": "Des Matangas partout",
             "npc_en": "Kancana",
             "npc_fr": "Kancana",
-            "cPrev": [70025],
-            "cNext": [70027],
+            "cPrev": ["q.70025"],
+            "cNext": ["q.70027"],
             "patch": "6.0"
         },
         "x70027": {
@@ -159,8 +159,8 @@
             "name_fr": "De l'importance de retourner une faveur",
             "npc_en": "Ogul",
             "npc_fr": "Ogul",
-            "cPrev": [70026],
-            "cNext": [70028],
+            "cPrev": ["q.70026"],
+            "cNext": ["q.70028"],
             "patch": "6.0"
         },
         "x70028": {
@@ -169,8 +169,8 @@
             "name_fr": "Chasse à l'homme à Yedlihmad",
             "npc_en": "Ogul",
             "npc_fr": "Ogul",
-            "cPrev": [70027],
-            "cNext": [70033],
+            "cPrev": ["q.70027"],
+            "cNext": ["q.70033"],
             "patch": "6.0"
         },
         "x69792": {
@@ -179,7 +179,7 @@
             "name_fr": "L'amulette de la gardienne",
             "npc_en": "Viraban",
             "npc_fr": "Viraban",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69952"],
+            "cPrev": ["q.69952"],
             "patch": "6.0"
         },
         "x69793": {
@@ -189,8 +189,8 @@
             "unlock": "travel.aether-currents.ew.thavnair.14",
             "npc_en": "Weary Radiant",
             "npc_fr": "Soldate De L'Ost Rayonnant Fatiguée",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69952"],
-            "cNext": [69796, 69797],
+            "cPrev": ["q.69952"],
+            "cNext": ["q.69796", "q.69797"],
             "cSiblings": ["travel.aether-currents.ew.thavnair.14"],
             "patch": "6.0"
         },
@@ -201,7 +201,7 @@
             "unlock": "travel.aether-currents.ew.thavnair.13",
             "npc_en": "Radiant Host Captain",
             "npc_fr": "Caporale De L'Ost Rayonnant",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69952"],
+            "cPrev": ["q.69952"],
             "cSiblings": ["travel.aether-currents.ew.thavnair.13"],
             "patch": "6.0"
         },
@@ -211,7 +211,7 @@
             "name_fr": "La fillette aux fleurs",
             "npc_en": "Troubled Father",
             "npc_fr": "Père Affolé",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69952"],
+            "cPrev": ["q.69952"],
             "patch": "6.0"
         },
         "x69800": {
@@ -220,8 +220,8 @@
             "name_fr": "Des poissons pour le village",
             "npc_en": "Fretful Arkasodara",
             "npc_fr": "Jeune Fille Arkasodara",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69952"],
-            "cNext": [69796, 69797],
+            "cPrev": ["q.69952"],
+            "cNext": ["q.69796", "q.69797"],
             "patch": "6.0"
         },
         "x69804": {
@@ -230,7 +230,7 @@
             "name_fr": "Un guide plutôt étrange",
             "npc_en": "Strange Hanuman Langur",
             "npc_fr": "Hanuman Langur Étrange",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69952"],
+            "cPrev": ["q.69952"],
             "patch": "6.0"
         },
         "x69794": {
@@ -239,7 +239,7 @@
             "name_fr": "Livraison médicale",
             "npc_en": "Utpala",
             "npc_fr": "Utpala",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69953"],
+            "cPrev": ["q.69953"],
             "patch": "6.0"
         },
         "x69798": {
@@ -248,7 +248,7 @@
             "name_fr": "L'Arkasodara qui murmurait à l'oreille du yéti",
             "npc_en": "Arkasodara Youth",
             "npc_fr": "Jeune Arkasodara",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69953"],
+            "cPrev": ["q.69953"],
             "patch": "6.0"
         },
         "x69801": {
@@ -257,7 +257,7 @@
             "name_fr": "L'écaille du pishacha",
             "npc_en": "Qeryde",
             "npc_fr": "Qeryde",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69953"],
+            "cPrev": ["q.69953"],
             "patch": "6.0"
         },
         "x69802": {
@@ -266,7 +266,7 @@
             "name_fr": "Le thé divinatoire",
             "npc_en": "Mihsaja",
             "npc_fr": "Mihsaja",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69953"],
+            "cPrev": ["q.69953"],
             "patch": "6.0"
         },
         "x69803": {
@@ -275,7 +275,7 @@
             "name_fr": "Le chasseur de serpent",
             "npc_en": "Seasoned Hunter",
             "npc_fr": "Chasseur Expérimenté",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69953"],
+            "cPrev": ["q.69953"],
             "patch": "6.0"
         },
         "x69796": {
@@ -284,7 +284,7 @@
             "name_fr": "L'énigme de la jungle des Sangha",
             "npc_en": "Auri Dancer",
             "npc_fr": "Danseur Aoran",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69953", 69800, 69793],
+            "cPrev": ["q.69953", "q.69800", "q.69793"],
             "patch": "6.0"
         },
         "x69797": {
@@ -293,7 +293,7 @@
             "name_fr": "Livraison volante",
             "npc_en": "Jubkhal",
             "npc_fr": "Jubkhal",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69953", 69800, 69793],
+            "cPrev": ["q.69953", "q.69800", "q.69793"],
             "patch": "6.0"
         },
         "x70029": {
@@ -302,8 +302,8 @@
             "name_fr": "Le bébé de l'alchimiste",
             "npc_en": "Yezahn",
             "npc_fr": "Yezahn",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69953"],
-            "cNext": [70030],
+            "cPrev": ["q.69953"],
+            "cNext": ["q.70030"],
             "patch": "6.0"
         },
         "x70030": {
@@ -312,8 +312,8 @@
             "name_fr": "Qui a cueilli le soma?",
             "npc_en": "Yezahn",
             "npc_fr": "Yezahn",
-            "cPrev": [70029],
-            "cNext": [70031],
+            "cPrev": ["q.70029"],
+            "cNext": ["q.70031"],
             "patch": "6.0"
         },
         "x70031": {
@@ -322,8 +322,8 @@
             "name_fr": "Compétences et péchés",
             "npc_en": "Sula",
             "npc_fr": "Sula",
-            "cPrev": [70030],
-            "cNext": [70032],
+            "cPrev": ["q.70030"],
+            "cNext": ["q.70032"],
             "patch": "6.0"
         },
         "x70032": {
@@ -332,8 +332,8 @@
             "name_fr": "Conseils d'un alchimiste",
             "npc_en": "Yezahn",
             "npc_fr": "Yezahn",
-            "cPrev": [70031],
-            "cNext": [70033],
+            "cPrev": ["q.70031"],
+            "cNext": ["q.70033"],
             "patch": "6.0"
         },
         "x70033": {
@@ -342,7 +342,7 @@
             "name_fr": "Vent de prairie en forêt",
             "npc_en": "Yezahn",
             "npc_fr": "Yezahn",
-            "cPrev": [70032, 70028],
+            "cPrev": ["q.70032", "q.70028"],
             "patch": "6.0"
         }
     }

@@ -9,8 +9,8 @@
             "name_fr": "Le grand rapatriement",
             "npc_en": "Kozakura",
             "npc_fr": "Kozakura",
-            "cPrev": ["duty.quests.main-scenario.post-stormblood.68561"],
-            "cNext": [68623],
+            "cPrev": ["q.68561"],
+            "cNext": ["q.68623"],
             "patch": "4.31"
         },
         "x68623": {
@@ -19,8 +19,8 @@
             "name_fr": "Derniers au revoir",
             "npc_en": "Hozan",
             "npc_fr": "Hozan",
-            "cPrev": [68622],
-            "cNext": [68677],
+            "cPrev": ["q.68622"],
+            "cNext": ["q.68677"],
             "patch": "4.31"
         },
         "x68677": {
@@ -30,7 +30,7 @@
             "npc_en": "Kozakura",
             "npc_fr": "Kozakura",
             "unlock_en": "Doman Enclave Reconstruction",
-            "cPrev": [68623],
+            "cPrev": ["q.68623"],
             "patch": "4.31"
         },
         "x68689": {

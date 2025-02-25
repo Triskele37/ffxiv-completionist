@@ -9,8 +9,8 @@
             "name_fr": "Le Vathe sans nom",
             "npc_en": "Vath Storyteller",
             "npc_fr": "Conteur Des Vathes",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67152"],
-            "cNext": [67792],
+            "cPrev": ["q.67152"],
+            "cNext": ["q.67792"],
             "cSiblings": ["character.character.tribal-relations.37"],
             "patch": "4.31"
         },
@@ -22,11 +22,8 @@
             "npc_fr": "Futé",
             "reputation_en": "Friendly",
             "reputation_fr": "Ami",
-            "cPrev": [67791],
-            "cNext": [
-                67793,
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69374"
-            ],
+            "cPrev": ["q.67791"],
+            "cNext": ["q.67793", "q.69374"],
             "cSiblings": ["character.character.tribal-relations.38"],
             "patch": "4.31"
         },
@@ -38,8 +35,8 @@
             "npc_fr": "Futé",
             "reputation_en": "Trusted",
             "reputation_fr": "Estimé",
-            "cPrev": [67792],
-            "cNext": [67794],
+            "cPrev": ["q.67792"],
+            "cNext": ["q.67794"],
             "cSiblings": ["character.character.tribal-relations.39"],
             "patch": "4.31"
         },
@@ -51,8 +48,8 @@
             "npc_fr": "Futé",
             "reputation_en": "Respected",
             "reputation_fr": "Respecté",
-            "cPrev": [67793],
-            "cNext": [67795],
+            "cPrev": ["q.67793"],
+            "cNext": ["q.67795"],
             "cSiblings": ["character.character.tribal-relations.40"],
             "patch": "4.31"
         },
@@ -64,8 +61,8 @@
             "npc_fr": "Futé",
             "reputation_en": "Honored",
             "reputation_fr": "Émérite",
-            "cPrev": [67794],
-            "cNext": [67796],
+            "cPrev": ["q.67794"],
+            "cNext": ["q.67796"],
             "cSiblings": ["character.character.tribal-relations.41"],
             "patch": "4.31"
         },
@@ -77,7 +74,7 @@
             "npc_fr": "Futé",
             "reputation_en": "Sworn",
             "reputation_fr": "Assermenté",
-            "cPrev": [67795],
+            "cPrev": ["q.67795"],
             "cSiblings": ["character.character.tribal-relations.42"],
             "patch": "4.31"
         }

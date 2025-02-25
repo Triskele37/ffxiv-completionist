@@ -9,11 +9,8 @@
             "name_fr": "La Miqo'te sur une affaire brûlante",
             "npc_en": "Conspicuously Inconspicuous Man",
             "npc_fr": "Jeune Lalafell",
-            "cPrev": [
-                "duty.quests.sidequests.hildibrand-sidequests.further-hildibrand-adventures.67908",
-                "duty.quests.main-scenario.stormblood.68089"
-            ],
-            "cNext": [68556],
+            "cPrev": ["q.67908", "q.68089"],
+            "cNext": ["q.68556"],
             "patch": "4.31"
         },
         "x68556": {
@@ -22,8 +19,8 @@
             "name_fr": "Un détective aux enchères",
             "npc_en": "Nashu Mhakaracca",
             "npc_fr": "Nashu Mhakaracca",
-            "cPrev": [68544],
-            "cNext": [68557],
+            "cPrev": ["q.68544"],
+            "cNext": ["q.68557"],
             "patch": "4.31"
         },
         "x68557": {
@@ -32,8 +29,8 @@
             "name_fr": "Chasse au gentilhomme",
             "npc_en": "Shigure",
             "npc_fr": "Shigure",
-            "cPrev": [68556],
-            "cNext": [68630],
+            "cPrev": ["q.68556"],
+            "cNext": ["q.68630"],
             "patch": "4.31"
         },
         "x68630": {
@@ -42,8 +39,8 @@
             "name_fr": "Le garde du corps",
             "npc_en": "Shigure",
             "npc_fr": "Shigure",
-            "cPrev": [68557],
-            "cNext": [68631],
+            "cPrev": ["q.68557"],
+            "cNext": ["q.68631"],
             "patch": "4.35"
         },
         "x68631": {
@@ -52,8 +49,8 @@
             "name_fr": "Flairer l'entourloupe",
             "npc_en": "Shigure",
             "npc_fr": "Shigure",
-            "cPrev": [68630],
-            "cNext": [68686],
+            "cPrev": ["q.68630"],
+            "cNext": ["q.68686"],
             "patch": "4.35"
         },
         "x68686": {
@@ -62,8 +59,8 @@
             "name_fr": "Les dessous de Kugane",
             "npc_en": "Shigure",
             "npc_fr": "Shigure",
-            "cPrev": [68631],
-            "cNext": [68687],
+            "cPrev": ["q.68631"],
+            "cNext": ["q.68687"],
             "patch": "4.45"
         },
         "x68687": {
@@ -72,8 +69,8 @@
             "name_fr": "Voleur contre voleur",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [68686],
-            "cNext": [68703],
+            "cPrev": ["q.68686"],
+            "cNext": ["q.68703"],
             "patch": "4.45"
         },
         "x68703": {
@@ -83,8 +80,8 @@
             "unlock": "duty.dutyraid-finder.trials.sb.14",
             "npc_en": "Nashu Mhakaracca",
             "npc_fr": "Nashu Mhakaracca",
-            "cPrev": [68687],
-            "cNext": [68704],
+            "cPrev": ["q.68687"],
+            "cNext": ["q.68704"],
             "patch": "4.56"
         },
         "x68704": {
@@ -93,7 +90,7 @@
             "name_fr": "Lever le voile céleste",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [68703],
+            "cPrev": ["q.68703"],
             "cSiblings": ["character.achievement.quests.quests.2234", "social.emotes.special.198"],
             "patch": "4.56"
         }

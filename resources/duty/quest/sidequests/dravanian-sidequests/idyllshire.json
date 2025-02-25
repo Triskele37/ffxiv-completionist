@@ -29,8 +29,8 @@
             "npc_en": "Geimlona",
             "npc_fr": "Geimlona",
             "unlock_en": "Custom Deliveries: Zhloe Aliapoh",
-            "cPrev": ["duty.quests.sidequests.mor-dhonan.mor-dhona.67634"],
-            "cNext": [68713],
+            "cPrev": ["q.67634"],
+            "cNext": ["q.68713"],
             "cSiblings": ["character.achievement.character.general.1774"],
             "patch": "4.31"
         },
@@ -41,12 +41,8 @@
             "npc_en": "Geimlona",
             "npc_fr": "Geimlona",
             "unlock_en": "Custom Deliveries: Adkiragh",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68089",
-                67087,
-                "duty.quests.sidequests.othardian.the-azim-steppe.68294"
-            ],
-            "cNext": [68714],
+            "cPrev": ["q.68089", "q.67087", "q.68294"],
+            "cNext": ["q.68714"],
             "cSiblings": ["character.achievement.character.general.2183"],
             "patch": "4.5"
         },
@@ -56,7 +52,7 @@
             "name_fr": "Au bord du gouffre et le dos au mur",
             "npc_en": "Melodie",
             "npc_fr": "Melodie",
-            "cPrev": [68713],
+            "cPrev": ["q.68713"],
             "patch": "4.5"
         },
         "x67467": {
@@ -65,7 +61,7 @@
             "name_fr": "Les insectes ne sont pas nos amis",
             "npc_en": "Woolnix",
             "npc_fr": "Woolnix",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67191"],
+            "cPrev": ["q.67191"],
             "patch": "4.31"
         },
         "x67468": {
@@ -74,7 +70,7 @@
             "name_fr": "Panier percé",
             "npc_en": "Midnight Dew",
             "npc_fr": "Midnight Dew",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67191"],
+            "cPrev": ["q.67191"],
             "patch": "4.31"
         },
         "x67474": {
@@ -83,7 +79,7 @@
             "name_fr": "D'un revers de Main indigo",
             "npc_en": "Holepix",
             "npc_fr": "Holepix",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67192"],
+            "cPrev": ["q.67192"],
             "patch": "4.31"
         },
         "x67475": {
@@ -92,7 +88,7 @@
             "name_fr": "Jamais sans mon bric-à-brac",
             "npc_en": "Drydox",
             "npc_fr": "Drydox",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67192"],
+            "cPrev": ["q.67192"],
             "patch": "4.31"
         },
         "x67476": {
@@ -101,7 +97,7 @@
             "name_fr": "Si tu m'embêtes, je t'embêterai aussi",
             "npc_en": "Halfsix",
             "npc_fr": "Halfsix",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67192"],
+            "cPrev": ["q.67192"],
             "patch": "4.31"
         },
         "x67477": {
@@ -110,7 +106,7 @@
             "name_fr": "Le bouquet garni",
             "npc_en": "Loudjox",
             "npc_fr": "Loudjox",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67192"],
+            "cPrev": ["q.67192"],
             "patch": "4.31"
         },
         "x67479": {
@@ -119,11 +115,8 @@
             "name_fr": "Sortir de la crise avec un nouvel hameçon",
             "npc_en": "Midnight Dew",
             "npc_fr": "Midnight Dew",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67192",
-                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67470"
-            ],
-            "cNext": ["duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67496"],
+            "cPrev": ["q.67192", "q.67470"],
+            "cNext": ["q.67496"],
             "patch": "4.31"
         },
         "x67481": {
@@ -133,7 +126,7 @@
             "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.11",
             "npc_en": "Halfsix",
             "npc_fr": "Halfsix",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67193"],
+            "cPrev": ["q.67193"],
             "cSiblings": ["travel.aether-currents.hw.the-dravanian-hinterlands.11"],
             "patch": "4.31"
         },
@@ -143,7 +136,7 @@
             "name_fr": "Mort aux machines!",
             "npc_en": "Holepix",
             "npc_fr": "Holepix",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67193"],
+            "cPrev": ["q.67193"],
             "patch": "4.31"
         },
         "x67493": {
@@ -152,8 +145,8 @@
             "name_fr": "Gobeline en détresse",
             "npc_en": "Drydox",
             "npc_fr": "Drydox",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67194"],
-            "cNext": ["duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67494"],
+            "cPrev": ["q.67194"],
+            "cNext": ["q.67494"],
             "patch": "4.31"
         },
         "x67499": {
@@ -163,8 +156,8 @@
             "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.12",
             "npc_en": "Midnight Dew",
             "npc_fr": "Midnight Dew",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67194"],
-            "cNext": ["duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67500"],
+            "cPrev": ["q.67194"],
+            "cNext": ["q.67500"],
             "cSiblings": ["travel.aether-currents.hw.the-dravanian-hinterlands.12"],
             "patch": "4.31"
         },
@@ -174,7 +167,7 @@
             "name_fr": "La valse des pantins",
             "npc_en": "Woolnix",
             "npc_fr": "Woolnix",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67194"],
+            "cPrev": ["q.67194"],
             "patch": "4.31"
         },
         "x67471": {
@@ -183,8 +176,8 @@
             "name_fr": "Mauvais client, bonne pioche",
             "npc_en": "Slowfix",
             "npc_fr": "Slowfix",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67193"],
-            "cNext": ["duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67473", 67478],
+            "cPrev": ["q.67193"],
+            "cNext": ["q.67473", "q.67478"],
             "patch": "4.31"
         },
         "x67478": {
@@ -193,12 +186,8 @@
             "name_fr": "Le Gobelin et la Main",
             "npc_en": "Slowfix",
             "npc_fr": "Slowfix",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67193",
-                67471,
-                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67473"
-            ],
-            "cNext": ["duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67480"],
+            "cPrev": ["q.67193", "q.67471", "q.67473"],
+            "cNext": ["q.67480"],
             "patch": "4.31"
         },
         "x67484": {
@@ -207,11 +196,8 @@
             "name_fr": "Dans les règles de l'art",
             "npc_en": "Dripwix",
             "npc_fr": "Dripwix",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67193",
-                "duty.quests.sidequests.dravanian.the-dravanian-hinterlands.67480"
-            ],
-            "cNext": [67485],
+            "cPrev": ["q.67193", "q.67480"],
+            "cNext": ["q.67485"],
             "patch": "4.31"
         },
         "x67485": {
@@ -220,8 +206,8 @@
             "name_fr": "Quasi-retour aux sources",
             "npc_en": "Slowfix",
             "npc_fr": "Slowfix",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67193", 67484],
-            "cNext": [67486],
+            "cPrev": ["q.67193", "q.67484"],
+            "cNext": ["q.67486"],
             "patch": "4.31"
         },
         "x67486": {
@@ -230,8 +216,8 @@
             "name_fr": "Les deux nouveaux",
             "npc_en": "Midnight Dew",
             "npc_fr": "Midnight Dew",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67194", 67485],
-            "cNext": [67487, 67488],
+            "cPrev": ["q.67194", "q.67485"],
+            "cNext": ["q.67487", "q.67488"],
             "patch": "4.31"
         },
         "x67487": {
@@ -240,8 +226,8 @@
             "name_fr": "La suspicion de Notched Bone",
             "npc_en": "Notched Bone",
             "npc_fr": "Notched Bone",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67194", 67486],
-            "cNext": [67489],
+            "cPrev": ["q.67194", "q.67486"],
+            "cNext": ["q.67489"],
             "patch": "4.31"
         },
         "x67488": {
@@ -250,8 +236,8 @@
             "name_fr": "Les soupçons de Dedean",
             "npc_en": "Dedean",
             "npc_fr": "Dedean",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67194", 67486],
-            "cNext": [67489],
+            "cPrev": ["q.67194", "q.67486"],
+            "cNext": ["q.67489"],
             "patch": "4.31"
         },
         "x67489": {
@@ -260,8 +246,8 @@
             "name_fr": "La faim justifie les moyens",
             "npc_en": "Notched Bone",
             "npc_fr": "Notched Bone",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67194", 67487, 67488],
-            "cNext": [67490],
+            "cPrev": ["q.67194", "q.67487", "q.67488"],
+            "cNext": ["q.67490"],
             "patch": "4.31"
         },
         "x67490": {
@@ -270,8 +256,8 @@
             "name_fr": "Un Gobelin très louche",
             "npc_en": "Notched Bone",
             "npc_fr": "Notched Bone",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67194", 67489],
-            "cNext": [67491],
+            "cPrev": ["q.67194", "q.67489"],
+            "cNext": ["q.67491"],
             "patch": "4.31"
         },
         "x67491": {
@@ -280,8 +266,8 @@
             "name_fr": "Des techniques incroyables",
             "npc_en": "Notched Bone",
             "npc_fr": "Notched Bone",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67194", 67490],
-            "cNext": [67492],
+            "cPrev": ["q.67194", "q.67490"],
+            "cNext": ["q.67492"],
             "patch": "4.31"
         },
         "x67492": {
@@ -290,7 +276,7 @@
             "name_fr": "Des Gobelins et des humains",
             "npc_en": "Notched Bone",
             "npc_fr": "Notched Bone",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67194", 67491],
+            "cPrev": ["q.67194", "q.67491"],
             "patch": "4.31"
         },
         "x67657": {
@@ -299,8 +285,8 @@
             "name_fr": "Ishgard, terre de chasseurs",
             "npc_en": "Yloise",
             "npc_fr": "Yloise",
-            "cPrev": ["duty.quests.sidequests.ishgardian.ishgard.67656"],
-            "cNext": ["duty.quests.sidequests.ishgardian.ishgard.67658"],
+            "cPrev": ["q.67656"],
+            "cNext": ["q.67658"],
             "patch": "4.31"
         },
         "x67654": {
@@ -310,12 +296,8 @@
             "npc_en": "Boisterous Bruiser",
             "npc_fr": "Aventurier Musclé",
             "unlock_en": "Sea, Stone, Sky",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67205"],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68476",
-                "duty.quests.sidequests.kholusia.eulmore.69137",
-                "duty.quests.sidequests.thavnairian.radz-at-han.69709"
-            ],
+            "cPrev": ["q.67205"],
+            "cNext": ["q.68476", "q.69137", "q.69709"],
             "patch": "4.31"
         },
         "x67922": {
@@ -325,7 +307,7 @@
             "unlock": "duty.dutyraid-finder.dungeons.hw.15",
             "npc_en": "Midnight Dew",
             "npc_fr": "Midnight Dew",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67205"],
+            "cPrev": ["q.67205"],
             "patch": "4.31"
         },
         "x67928": {
@@ -335,7 +317,7 @@
             "npc_en": "Unctuous Adventurer",
             "npc_fr": "Aventurier Jovial",
             "unlock_en": "Wondrous Tails",
-            "cNext": [69501],
+            "cNext": ["q.69501"],
             "patch": "4.31"
         },
         "x67938": {
@@ -345,7 +327,7 @@
             "unlock": ["duty.dutyraid-finder.dungeons.hw.17", "logs.orchestrion-list.dungeons-i.28"],
             "npc_en": "Gossamer Moogle",
             "npc_fr": "Mog Duveteux",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67205"],
+            "cPrev": ["q.67205"],
             "patch": "4.31"
         },
         "x69501": {
@@ -355,7 +337,7 @@
             "npc_en": "Painfully Ishgardian Man",
             "npc_fr": "Voyageur Ishgardais",
             "unlock_en": "Faux Hollows",
-            "cPrev": [67928, "duty.quests.main-scenario.shadowbringers.69190"],
+            "cPrev": ["q.67928", "q.69190"],
             "patch": "5.3"
         }
     }

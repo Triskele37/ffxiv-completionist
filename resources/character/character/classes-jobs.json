@@ -29,10 +29,7 @@
             "name_en": "Paladin / Gladiator",
             "name_fr": "Paladin / Gladiateur",
             "patch": "2.0",
-            "startingQuest": [
-                "duty.quests.class--job.disciple-of-war.gladiator.65821",
-                "duty.quests.class--job.disciple-of-war-job.paladin.66591"
-            ],
+            "startingQuest": ["q.65821", "q.66591"],
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -60,10 +57,7 @@
             "name_en": "Warrior / Marauder",
             "name_fr": "Guerrier / Maraudeur",
             "patch": "2.0",
-            "startingQuest": [
-                "duty.quests.class--job.disciple-of-war.marauder.65846",
-                "duty.quests.class--job.disciple-of-war-job.warrior.66585"
-            ],
+            "startingQuest": ["q.65846", "q.66585"],
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -91,7 +85,7 @@
             "name_en": "Dark Knight",
             "name_fr": "Chevalier noir",
             "patch": "3.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-war-job.dark-knight.67589",
+            "startingQuest": "q.67589",
             "minValue": 30,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -116,7 +110,7 @@
             "name_en": "Gunbreaker",
             "name_fr": "Pistosabreur",
             "patch": "5.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-war-job.gunbreaker.68797",
+            "startingQuest": "q.68797",
             "minValue": 60,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -135,10 +129,7 @@
             "name_en": "White Mage / Conjurer",
             "name_fr": "Mage blanc / Élémentaliste",
             "patch": "2.0",
-            "startingQuest": [
-                "duty.quests.class--job.disciple-of-magic.conjurer.65669",
-                "duty.quests.class--job.disciple-of-magic-job.white-mage.66615"
-            ],
+            "startingQuest": ["q.65669", "q.66615"],
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -166,10 +157,7 @@
             "name_en": "Scholar / Arcanist",
             "name_fr": "Érudit / Arcaniste",
             "patch": "2.0",
-            "startingQuest": [
-                "duty.quests.class--job.disciple-of-magic.arcanist.65988",
-                "duty.quests.class--job.disciple-of-magic-job.scholar.66633"
-            ],
+            "startingQuest": ["q.65988", "q.66633"],
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -198,7 +186,7 @@
             "name_en": "Astrologian",
             "name_fr": "Astromancien",
             "patch": "3.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-magic-job.astrologian.67548",
+            "startingQuest": "q.67548",
             "minValue": 30,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -223,7 +211,7 @@
             "name_en": "Sage",
             "name_fr": "Sage",
             "patch": "6.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-magic-job.sage.69603",
+            "startingQuest": "q.69603",
             "minValue": 70,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -240,10 +228,7 @@
             "name_en": "Monk / Pugilist",
             "name_fr": "Moine / Pugiliste",
             "patch": "2.0",
-            "startingQuest": [
-                "duty.quests.class--job.disciple-of-war.pugilist.66068",
-                "duty.quests.class--job.disciple-of-war-job.monk.66597"
-            ],
+            "startingQuest": ["q.66068", "q.66597"],
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -271,10 +256,7 @@
             "name_en": "Dragoon / Lancer",
             "name_fr": "Chevalier dragon / Maître d'hast",
             "patch": "2.0",
-            "startingQuest": [
-                "duty.quests.class--job.disciple-of-war.lancer.65668",
-                "duty.quests.class--job.disciple-of-war-job.dragoon.66603"
-            ],
+            "startingQuest": ["q.65668", "q.66603"],
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -302,10 +284,7 @@
             "name_en": "Ninja / Rogue",
             "name_fr": "Ninja / Surineur",
             "patch": "2.4",
-            "startingQuest": [
-                "duty.quests.class--job.disciple-of-war.rogue.65638",
-                "duty.quests.class--job.disciple-of-war-job.ninja.65748"
-            ],
+            "startingQuest": ["q.65638", "q.65748"],
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -332,7 +311,7 @@
             "name_en": "Samurai",
             "name_fr": "Samouraï",
             "patch": "4.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-war-job.samurai.68095",
+            "startingQuest": "q.68095",
             "minValue": 50,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -354,7 +333,7 @@
             "name_en": "Reaper",
             "name_fr": "Faucheur",
             "patch": "6.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-war-job.reaper.69609",
+            "startingQuest": "q.69609",
             "minValue": 70,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -371,10 +350,7 @@
             "name_en": "Bard / Archer",
             "name_fr": "Barde / Archer",
             "patch": "2.0",
-            "startingQuest": [
-                "duty.quests.class--job.disciple-of-war.archer.65667",
-                "duty.quests.class--job.disciple-of-war-job.bard.66621"
-            ],
+            "startingQuest": ["q.65667", "q.66621"],
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -402,7 +378,7 @@
             "name_en": "Machinist",
             "name_fr": "Machiniste",
             "patch": "3.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-war-job.machinist.67232",
+            "startingQuest": "q.67232",
             "minValue": 30,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -427,7 +403,7 @@
             "name_en": "Dancer",
             "name_fr": "Danseur",
             "patch": "5.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-war-job.dancer.68785",
+            "startingQuest": "q.68785",
             "minValue": 60,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -446,10 +422,7 @@
             "name_en": "Black Mage / Thaumaturge",
             "name_fr": "Mage noir / Occultiste",
             "patch": "2.0",
-            "startingQuest": [
-                "duty.quests.class--job.disciple-of-magic.thaumaturge.65880",
-                "duty.quests.class--job.disciple-of-magic-job.black-mage.66609"
-            ],
+            "startingQuest": ["q.65880", "q.66609"],
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -477,10 +450,7 @@
             "name_en": "Summoner / Arcanist",
             "name_fr": "Invocateur / Arcaniste",
             "patch": "2.0",
-            "startingQuest": [
-                "duty.quests.class--job.disciple-of-magic.arcanist.65988",
-                "duty.quests.class--job.disciple-of-magic-job.summoner.66627"
-            ],
+            "startingQuest": ["q.65988", "q.66627"],
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -509,7 +479,7 @@
             "name_en": "Red Mage",
             "name_fr": "Mage rouge",
             "patch": "4.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-magic-job.red-mage.68112",
+            "startingQuest": "q.68112",
             "minValue": 50,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -531,7 +501,7 @@
             "name_en": "Blue Mage",
             "name_fr": "Mage bleu",
             "patch": "4.5",
-            "startingQuest": "duty.quests.class--job.disciple-of-magic-job.blue-mage.68728",
+            "startingQuest": "q.68728",
             "minValue": 0,
             "maxValue": 80,
             "cSiblingsAt": {
@@ -551,7 +521,7 @@
             "name_en": "Carpenter",
             "name_fr": "Menuisier",
             "patch": "2.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.carpenter.65674",
+            "startingQuest": "q.65674",
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -579,7 +549,7 @@
             "name_en": "Blacksmith",
             "name_fr": "Forgeron",
             "patch": "2.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.blacksmith.65827",
+            "startingQuest": "q.65827",
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -607,7 +577,7 @@
             "name_en": "Armorer",
             "name_fr": "Armurier",
             "patch": "2.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.armorer.65809",
+            "startingQuest": "q.65809",
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -635,7 +605,7 @@
             "name_en": "Goldsmith",
             "name_fr": "Orfèvre",
             "patch": "2.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.goldsmith.66144",
+            "startingQuest": "q.66144",
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -663,7 +633,7 @@
             "name_en": "Leatherworker",
             "name_fr": "Tanneur",
             "patch": "2.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.leatherworker.65641",
+            "startingQuest": "q.65641",
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -691,7 +661,7 @@
             "name_en": "Weaver",
             "name_fr": "Couturier",
             "patch": "2.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.weaver.66070",
+            "startingQuest": "q.66070",
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -719,7 +689,7 @@
             "name_en": "Alchemist",
             "name_fr": "Alchimiste",
             "patch": "2.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.alchemist.66111",
+            "startingQuest": "q.66111",
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -747,7 +717,7 @@
             "name_en": "Culinarian",
             "name_fr": "Cuisinier",
             "patch": "2.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-the-hand.culinarian.65807",
+            "startingQuest": "q.65807",
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -775,7 +745,7 @@
             "name_en": "Miner",
             "name_fr": "Mineur",
             "patch": "2.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-the-land.miner.66133",
+            "startingQuest": "q.66133",
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -803,7 +773,7 @@
             "name_en": "Botanist",
             "name_fr": "Botaniste",
             "patch": "2.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-the-land.botanist.65539",
+            "startingQuest": "q.65539",
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {
@@ -831,7 +801,7 @@
             "name_en": "Fisher",
             "name_fr": "Pêcheur",
             "patch": "2.0",
-            "startingQuest": "duty.quests.class--job.disciple-of-the-land.fisher.66643",
+            "startingQuest": "q.66643",
             "minValue": 0,
             "maxValue": 90,
             "cSiblingsAt": {

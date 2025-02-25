@@ -10,7 +10,7 @@
             "year": "2014",
             "npc_en": "Xavalien",
             "npc_fr": "Xavalien",
-            "cNext": [65787],
+            "cNext": ["q.65787"],
             "patch": "4.31"
         },
         "x65787": {
@@ -20,8 +20,8 @@
             "year": "2014",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [65786],
-            "cNext": [65861, 65874, 65876],
+            "cPrev": ["q.65786"],
+            "cNext": ["q.65861", "q.65874", "q.65876"],
             "patch": "4.31"
         },
         "x65861": {
@@ -31,8 +31,8 @@
             "year": "2014",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [65787],
-            "cNext": [65783],
+            "cPrev": ["q.65787"],
+            "cNext": ["q.65783"],
             "patch": "4.31"
         },
         "x65874": {
@@ -42,8 +42,8 @@
             "year": "2014",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [65787],
-            "cNext": [65784],
+            "cPrev": ["q.65787"],
+            "cNext": ["q.65784"],
             "patch": "4.31"
         },
         "x65876": {
@@ -53,8 +53,8 @@
             "year": "2014",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [65787],
-            "cNext": [65785],
+            "cPrev": ["q.65787"],
+            "cNext": ["q.65785"],
             "patch": "4.31"
         },
         "x65783": {
@@ -64,8 +64,8 @@
             "year": "2014",
             "npc_en": "Saint's Little Helper",
             "npc_fr": "Disciple Du Saint",
-            "cPrev": [65861],
-            "cNext": [65890],
+            "cPrev": ["q.65861"],
+            "cNext": ["q.65890"],
             "patch": "4.31"
         },
         "x65784": {
@@ -75,8 +75,8 @@
             "year": "2014",
             "npc_en": "Saint's Little Helper",
             "npc_fr": "Disciple Du Saint",
-            "cPrev": [65874],
-            "cNext": [65890],
+            "cPrev": ["q.65874"],
+            "cNext": ["q.65890"],
             "patch": "4.31"
         },
         "x65785": {
@@ -86,8 +86,8 @@
             "year": "2014",
             "npc_en": "Saint's Little Helper",
             "npc_fr": "Disciple Du Saint",
-            "cPrev": [65876],
-            "cNext": [65890],
+            "cPrev": ["q.65876"],
+            "cNext": ["q.65890"],
             "patch": "4.31"
         },
         "x65890": {
@@ -97,7 +97,7 @@
             "year": "2014",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [65783, 65784, 65785],
+            "cPrev": ["q.65783", "q.65784", "q.65785"],
             "cSiblings": ["character.achievement.quests.seasonal-events.1056"],
             "patch": "4.31"
         },
@@ -118,7 +118,7 @@
             "year": "2016",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cNext": [67912],
+            "cNext": ["q.67912"],
             "patch": "4.31"
         },
         "x67912": {
@@ -128,8 +128,8 @@
             "year": "2016",
             "npc_en": "Raven-haired Registrar",
             "npc_fr": "Docteur Aux Cheveux Ébène",
-            "cPrev": [67911],
-            "cNext": [67913],
+            "cPrev": ["q.67911"],
+            "cNext": ["q.67913"],
             "patch": "4.31"
         },
         "x67913": {
@@ -139,8 +139,8 @@
             "year": "2016",
             "npc_en": "Raven-haired Registrar",
             "npc_fr": "Docteur Aux Cheveux Ébène",
-            "cPrev": [67912],
-            "cNext": [67914],
+            "cPrev": ["q.67912"],
+            "cNext": ["q.67914"],
             "cSiblings": ["character.achievement.quests.seasonal-events.1625"],
             "patch": "4.31"
         },
@@ -151,7 +151,7 @@
             "year": "2016",
             "npc_en": "Damielliot",
             "npc_fr": "Damielliot",
-            "cPrev": [67913],
+            "cPrev": ["q.67913"],
             "patch": "4.31"
         },
         "x68545": {
@@ -161,7 +161,7 @@
             "year": "2017",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cNext": [68546],
+            "cNext": ["q.68546"],
             "patch": "4.31"
         },
         "x68546": {
@@ -171,7 +171,7 @@
             "year": "2017",
             "npc_en": "Taff",
             "npc_fr": "Taff",
-            "cPrev": [68545],
+            "cPrev": ["q.68545"],
             "cSiblings": ["character.achievement.quests.seasonal-events.1995"],
             "patch": "4.31"
         },
@@ -182,7 +182,7 @@
             "year": "2018",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cNext": [68710],
+            "cNext": ["q.68710"],
             "patch": "4.4"
         },
         "x68710": {
@@ -192,8 +192,8 @@
             "year": "2018",
             "npc_en": "Baenfaeld",
             "npc_fr": "Baenfaeld",
-            "cPrev": [68709],
-            "cNext": [68711],
+            "cPrev": ["q.68709"],
+            "cNext": ["q.68711"],
             "patch": "4.4"
         },
         "x68711": {
@@ -203,7 +203,7 @@
             "year": "2018",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [68710],
+            "cPrev": ["q.68710"],
             "cSiblings": ["character.achievement.quests.seasonal-events.2141"],
             "patch": "4.4"
         },
@@ -214,7 +214,7 @@
             "year": "2019",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cNext": [69259],
+            "cNext": ["q.69259"],
             "patch": "5.1"
         },
         "x69259": {
@@ -224,8 +224,8 @@
             "year": "2019",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [69258],
-            "cNext": [69260],
+            "cPrev": ["q.69258"],
+            "cNext": ["q.69260"],
             "cSiblings": ["character.achievement.quests.seasonal-events.2483"],
             "patch": "5.1"
         },
@@ -236,7 +236,7 @@
             "year": "2019",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [69259],
+            "cPrev": ["q.69259"],
             "patch": "5.1"
         },
         "x69553": {
@@ -246,7 +246,7 @@
             "year": "2020",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cNext": [69554],
+            "cNext": ["q.69554"],
             "patch": "5.4"
         },
         "x69554": {
@@ -256,8 +256,8 @@
             "year": "2020",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [69553],
-            "cNext": [69555],
+            "cPrev": ["q.69553"],
+            "cNext": ["q.69555"],
             "patch": "5.4"
         },
         "x69555": {
@@ -267,8 +267,8 @@
             "year": "2020",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [69554],
-            "cNext": [69556],
+            "cPrev": ["q.69554"],
+            "cNext": ["q.69556"],
             "patch": "5.4"
         },
         "x69556": {
@@ -278,8 +278,8 @@
             "year": "2020",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [69555],
-            "cNext": [69557],
+            "cPrev": ["q.69555"],
+            "cNext": ["q.69557"],
             "patch": "5.4"
         },
         "x69557": {
@@ -289,8 +289,8 @@
             "year": "2020",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [69556],
-            "cNext": [69558],
+            "cPrev": ["q.69556"],
+            "cNext": ["q.69558"],
             "patch": "5.4"
         },
         "x69558": {
@@ -300,7 +300,7 @@
             "year": "2020",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [69557],
+            "cPrev": ["q.69557"],
             "cSiblings": ["character.achievement.quests.seasonal-events.2804"],
             "patch": "5.4"
         },
@@ -311,7 +311,7 @@
             "year": "2021",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cNext": [70005],
+            "cNext": ["q.70005"],
             "patch": "6.0"
         },
         "x70005": {
@@ -321,8 +321,8 @@
             "year": "2021",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [70004],
-            "cNext": [70006],
+            "cPrev": ["q.70004"],
+            "cNext": ["q.70006"],
             "cSiblings": ["character.achievement.quests.seasonal-events.3032"],
             "patch": "6.0"
         },
@@ -333,7 +333,7 @@
             "year": "2021",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [70005],
+            "cPrev": ["q.70005"],
             "patch": "6.0"
         },
         "x70194": {
@@ -343,7 +343,7 @@
             "year": "2022",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cNext": [70195],
+            "cNext": ["q.70195"],
             "patch": "6.28"
         },
         "x70195": {
@@ -353,7 +353,7 @@
             "year": "2022",
             "npc_en": "Laurenssen",
             "npc_fr": "Laurenssen",
-            "cPrev": [70194],
+            "cPrev": ["q.70194"],
             "cSiblings": ["character.achievement.quests.seasonal-events.3121"],
             "patch": "6.28"
         },
@@ -364,7 +364,7 @@
             "year": "2023",
             "npc_en": "Bearded Lady",
             "npc_fr": "Disciple À La Barbe Touffue",
-            "cNext": [70318],
+            "cNext": ["q.70318"],
             "patch": "6.4"
         },
         "x70318": {
@@ -374,8 +374,8 @@
             "year": "2023",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [70317],
-            "cNext": [70319],
+            "cPrev": ["q.70317"],
+            "cNext": ["q.70319"],
             "cSiblings": ["character.achievement.quests.seasonal-events.3284"],
             "patch": "6.4"
         },
@@ -386,7 +386,7 @@
             "year": "2023",
             "npc_en": "Amh Garanjy",
             "npc_fr": "Amh Garanjy",
-            "cPrev": [70318],
+            "cPrev": ["q.70318"],
             "patch": "6.4"
         }
     }

@@ -10,7 +10,7 @@
             "year": "2016",
             "npc_en": "Ollier",
             "npc_fr": "Ollier",
-            "cNext": [67671],
+            "cNext": ["q.67671"],
             "patch": "4.31"
         },
         "x67671": {
@@ -20,7 +20,7 @@
             "year": "2016",
             "npc_en": "Attentive Attendant",
             "npc_fr": "Employé Modèle",
-            "cPrev": [67669],
+            "cPrev": ["q.67669"],
             "cSiblings": ["character.achievement.quests.seasonal-events.1491"],
             "patch": "4.31"
         },
@@ -32,7 +32,7 @@
             "cPrevAny": true,
             "npc_en": "Beggarly Bloke",
             "npc_fr": "Homme Désargenté",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.66043", 66064, 66082],
+            "cPrev": ["q.66043", "q.66064", "q.66082"],
             "cSiblings": ["character.achievement.quests.seasonal-events.1684"],
             "patch": "4.31"
         },
@@ -44,8 +44,8 @@
             "cPrevAny": true,
             "npc_en": "Dismayed Maiden",
             "npc_fr": "Femme Effrayée",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.66043", 66064, 66082],
-            "cNext": [68670],
+            "cPrev": ["q.66043", "q.66064", "q.66082"],
+            "cNext": ["q.68670"],
             "patch": "4.31"
         },
         "x68670": {
@@ -55,7 +55,7 @@
             "year": "2018",
             "npc_en": "Moogle Suitor",
             "npc_fr": "Jeune Mog Amoureux",
-            "cPrev": [68669],
+            "cPrev": ["q.68669"],
             "cSiblings": ["character.achievement.quests.seasonal-events.2103"],
             "patch": "4.31"
         },
@@ -67,7 +67,7 @@
             "cPrevAny": true,
             "npc_en": "Lamenting Lalafell",
             "npc_fr": "Garçon Déprimé",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.66043", 66064, 66082],
+            "cPrev": ["q.66043", "q.66064", "q.66082"],
             "cSiblings": ["character.achievement.quests.seasonal-events.2240"],
             "patch": "4.5"
         },
@@ -79,8 +79,8 @@
             "cPrevAny": true,
             "npc_en": "Nanaphon",
             "npc_fr": "Nanaphon",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.66043", 66064, 66082],
-            "cNext": [69500],
+            "cPrev": ["q.66043", "q.66064", "q.66082"],
+            "cNext": ["q.69500"],
             "cSiblings": ["character.achievement.quests.seasonal-events.2645"],
             "patch": "5.3"
         },
@@ -91,7 +91,7 @@
             "year": "2020",
             "npc_en": "Chief Attendant",
             "npc_fr": "Guide Du Gold Saucer",
-            "cPrev": [69499],
+            "cPrev": ["q.69499"],
             "patch": "5.3"
         },
         "x69590": {
@@ -102,8 +102,8 @@
             "cPrevAny": true,
             "npc_en": "Ollier",
             "npc_fr": "Ollier",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.66043", 66064, 66082],
-            "cNext": [69592, 69591],
+            "cPrev": ["q.66043", "q.66064", "q.66082"],
+            "cNext": ["q.69592", "q.69591"],
             "patch": "5.5"
         },
         "x69591": {
@@ -113,7 +113,7 @@
             "year": "2021",
             "npc_en": "Stern Saucer Attendant",
             "npc_fr": "Employé Dévoué",
-            "cPrev": [69590],
+            "cPrev": ["q.69590"],
             "cSiblings": ["character.achievement.quests.seasonal-events.2855"],
             "patch": "5.5"
         },
@@ -124,7 +124,7 @@
             "year": "2021",
             "npc_en": "Ollier",
             "npc_fr": "Ollier",
-            "cPrev": [69590],
+            "cPrev": ["q.69590"],
             "patch": "5.5"
         },
         "x70120": {
@@ -135,7 +135,7 @@
             "cPrevAny": true,
             "npc_en": "Ollier",
             "npc_fr": "Ollier",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.66043", 66064, 66082],
+            "cPrev": ["q.66043", "q.66064", "q.66082"],
             "cSiblings": ["character.achievement.quests.seasonal-events.3079"],
             "patch": "6.1"
         },
@@ -147,8 +147,8 @@
             "cPrevAny": true,
             "npc_en": "Kipih Jakkya",
             "npc_fr": "Kipih Jakkya",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.66043", 66064, 66082],
-            "cNext": [70264],
+            "cPrev": ["q.66043", "q.66064", "q.66082"],
+            "cNext": ["q.70264"],
             "patch": "6.3"
         },
         "x70264": {
@@ -158,7 +158,7 @@
             "year": "2023",
             "npc_en": "Ollier",
             "npc_fr": "Ollier",
-            "cPrev": [70263],
+            "cPrev": ["q.70263"],
             "cSiblings": ["character.achievement.quests.seasonal-events.3206"],
             "patch": "6.3"
         },
@@ -170,7 +170,7 @@
             "cPrevAny": true,
             "npc_en": "Quevain",
             "npc_fr": "Quevain",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.66043", 66064, 66082],
+            "cPrev": ["q.66043", "q.66064", "q.66082"],
             "cSiblings": ["character.achievement.quests.seasonal-events.3418"],
             "patch": "6.5"
         }

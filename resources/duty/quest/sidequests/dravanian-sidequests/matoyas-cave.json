@@ -10,8 +10,8 @@
             "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.14",
             "npc_en": "Saro Roggo",
             "npc_fr": "Saro Roggo",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67195"],
-            "cNext": [67503, 67504, 67505],
+            "cPrev": ["q.67195"],
+            "cNext": ["q.67503", "q.67504", "q.67505"],
             "cSiblings": ["travel.aether-currents.hw.the-dravanian-hinterlands.14"],
             "patch": "4.31"
         },
@@ -21,8 +21,8 @@
             "name_fr": "Le rêve d'un balai",
             "npc_en": "Straightforward Broom",
             "npc_fr": "Balai Agité",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67195", 67502],
-            "cNext": [67506],
+            "cPrev": ["q.67195", "q.67502"],
+            "cNext": ["q.67506"],
             "patch": "4.31"
         },
         "x67504": {
@@ -31,8 +31,8 @@
             "name_fr": "Le désir d'un balai",
             "npc_en": "Statuesque Broom",
             "npc_fr": "Balai Brillant",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67195", 67502],
-            "cNext": [67506],
+            "cPrev": ["q.67195", "q.67502"],
+            "cNext": ["q.67506"],
             "patch": "4.31"
         },
         "x67505": {
@@ -41,8 +41,8 @@
             "name_fr": "La curiosité d'un balai",
             "npc_en": "Self-possessed Broom",
             "npc_fr": "Balai Capricieux",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67195", 67502],
-            "cNext": [67506],
+            "cPrev": ["q.67195", "q.67502"],
+            "cNext": ["q.67506"],
             "patch": "4.31"
         },
         "x67506": {
@@ -51,8 +51,8 @@
             "name_fr": "L'incantation révélatrice",
             "npc_en": "Saro Roggo",
             "npc_fr": "Saro Roggo",
-            "cPrev": [67503, 67504, 67505],
-            "cNext": [67507],
+            "cPrev": ["q.67503", "q.67504", "q.67505"],
+            "cNext": ["q.67507"],
             "patch": "4.31"
         },
         "x67507": {
@@ -61,7 +61,7 @@
             "name_fr": "En désespoâr de cause",
             "npc_en": "Saro Roggo",
             "npc_fr": "Saro Roggo",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67195", 67506],
+            "cPrev": ["q.67195", "q.67506"],
             "patch": "4.31"
         }
     }

@@ -8,33 +8,33 @@
             "name_fr": "Révérence orientale",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.main-scenario.stormblood.68016",
+            "source": "q.68016",
             "patch": "4.0",
             "command_en": "/easternbow, /ebow",
             "command_fr": "/révérenceorientale, /révorientale, /easternbow, /ebow",
-            "cSiblings": ["duty.quests.main-scenario.stormblood.68016"]
+            "cSiblings": ["q.68016"]
         },
         "x172": {
             "name_en": "Greeting",
             "name_fr": "Salut décontracté",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.main-scenario.post-stormblood.68558",
+            "source": "q.68558",
             "patch": "4.2",
             "command_en": "/greet",
             "command_fr": "/salutdécontracté, /greet",
-            "cSiblings": ["duty.quests.main-scenario.post-stormblood.68558"]
+            "cSiblings": ["q.68558"]
         },
         "x59": {
             "name_en": "Imperial Salute",
             "name_fr": "Salut impérial",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.main-scenario.seventh-umbral-era.66538",
+            "source": "q.66538",
             "patch": "2.0",
             "command_en": "/imperialsalute",
             "command_fr": "/salutimp, /imperialsalute",
-            "cSiblings": ["duty.quests.main-scenario.seventh-umbral-era.66538"]
+            "cSiblings": ["q.66538"]
         },
         "x124": {
             "name_en": "Eastern Greeting",
@@ -53,11 +53,11 @@
             "name_fr": "Lali-ho",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.sidequests.kholusia.kholusia.69095",
+            "source": "q.69095",
             "patch": "5.0",
             "command_en": "/laliho",
             "command_fr": "/laliho",
-            "cSiblings": ["duty.quests.sidequests.kholusia.kholusia.69095"]
+            "cSiblings": ["q.69095"]
         },
         "x146": {
             "name_en": "Dote",
@@ -110,12 +110,12 @@
             "name_fr": "Étreinte",
             "category_en": "Premium",
             "category_fr": "Premium",
-            "source": "duty.quests.other.special.67114",
+            "source": "q.67114",
             "patch": "2.45",
             "command_en": "/embrace",
             "command_fr": "/étreinte, /embrace",
             "defaultCompletion": "X",
-            "cSiblings": ["duty.quests.other.special.67114"]
+            "cSiblings": ["q.67114"]
         },
         "x115": {
             "name_en": "Fist Bump",
@@ -134,22 +134,22 @@
             "name_fr": "Se préparer au combat",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.main-scenario.dragonsong.67777",
+            "source": "q.67777",
             "patch": "3.2",
             "command_en": "/battlestance, /bstance",
             "command_fr": "/seprépareraucombat, /prépcomb, /battlestance, /bstance",
-            "cSiblings": ["duty.quests.main-scenario.dragonsong.67777"]
+            "cSiblings": ["q.67777"]
         },
         "x122": {
             "name_en": "Victory",
             "name_fr": "Se réjouir de la victoire",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.main-scenario.dragonsong.67775",
+            "source": "q.67775",
             "patch": "3.2",
             "command_en": "/victorypose, /vpose",
             "command_fr": "/seréjouirdelavictoire, /réjvict, /victorypose, /vpose",
-            "cSiblings": ["duty.quests.main-scenario.dragonsong.67775"]
+            "cSiblings": ["q.67775"]
         },
         "x125": {
             "name_en": "Eureka",
@@ -168,11 +168,11 @@
             "name_fr": "Geste d'Haurchefant",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.sidequests.chronicles-of-light.tales-of-the-dragonsong-war.67015",
+            "source": "q.67015",
             "patch": "3.3",
             "command_en": "/haurchefant, /hknight",
             "command_fr": "/haurchefant, /hknight",
-            "cSiblings": ["duty.quests.sidequests.chronicles-of-light.tales-of-the-dragonsong-war.67015"]
+            "cSiblings": ["q.67015"]
         },
         "x246": {
             "name_en": "Wow",
@@ -190,11 +190,11 @@
             "name_fr": "Charité chafouine",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.tribal-quests.tribal-alliance-quests.stormblood-tribal-quests.68700",
+            "source": "q.68700",
             "patch": "4.5",
             "command_en": "/makeithail, /gratuity",
             "command_fr": "/charitéchafouine, /gratuity",
-            "cSiblings": ["duty.quests.tribal-quests.tribal-alliance-quests.stormblood-tribal-quests.68700"]
+            "cSiblings": ["q.68700"]
         },
         "x195": {
             "name_en": "Fist Pump",
@@ -308,11 +308,11 @@
             "name_fr": "Longues oreilles soyeuses",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.tribal-quests.loporrit.70222",
+            "source": "q.70222",
             "patch": "6.35",
             "command_en": "/earwiggle",
             "command_fr": "/earwiggle, /longuesoreillessoyeuses",
-            "cSiblings": ["duty.quests.tribal-quests.loporrit.70222"]
+            "cSiblings": ["q.70222"]
         },
         "x249": {
             "name_en": "Magic Trick",
@@ -480,11 +480,11 @@
             "name_fr": "Lancer",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.sidequests.coerthan.coerthas-central-highlands.66846",
+            "source": "q.66846",
             "patch": "2.1",
             "command_en": "/throw",
             "command_fr": "/lancer, /throw",
-            "cSiblings": ["duty.quests.sidequests.coerthan.coerthas-central-highlands.66846"]
+            "cSiblings": ["q.66846"]
         },
         "x178": {
             "name_en": "Splash",
@@ -539,22 +539,22 @@
             "name_fr": "Ajuster ses lunettes",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.sidequests.side-story.scholasticate.67899",
+            "source": "q.67899",
             "patch": "3.5",
             "command_en": "/spectacles",
             "command_fr": "/ajusterseslunettes, /ajlunettes, /spectacles",
-            "cSiblings": ["duty.quests.sidequests.side-story.scholasticate.67899"]
+            "cSiblings": ["q.67899"]
         },
         "x151": {
             "name_en": "Water Flip",
             "name_fr": "Salto arrière aquatique",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.main-scenario.stormblood.68020",
+            "source": "q.68020",
             "patch": "4.0",
             "command_en": "/waterflip",
             "command_fr": "/saltodansleau, /salteau, /waterflip",
-            "cSiblings": ["duty.quests.main-scenario.stormblood.68020"]
+            "cSiblings": ["q.68020"]
         },
         "x153": {
             "name_en": "Power Up",
@@ -584,11 +584,11 @@
             "name_fr": "Chut",
             "category_en": "Quest",
             "category_fr": "Quête",
-            "source": "duty.quests.main-scenario.post-shadowbringers-ii.69602",
+            "source": "q.69602",
             "patch": "5.55",
             "command_en": "/shush, /shh",
             "command_fr": "/chut, /shush, /shh",
-            "cSiblings": ["duty.quests.main-scenario.post-shadowbringers-ii.69602"]
+            "cSiblings": ["q.69602"]
         },
         "x63": {
             "name_en": "Crimson Lotus",

@@ -9,14 +9,8 @@
             "name_fr": "Les requêtes de l'académie de magie",
             "npc_en": "Qih Aliapoh",
             "npc_fr": "Qih Aliapoh",
-            "cPrev": ["duty.quests.main-scenario.endwalker.69916"],
-            "cNext": [
-                "duty.quests.class--job.studium.faculty-of-anthropology.69689",
-                "duty.quests.class--job.studium.faculty-of-astronomy.69675",
-                "duty.quests.class--job.studium.faculty-of-archaeology.69668",
-                "duty.quests.class--job.studium.faculty-of-medicine.69682",
-                "duty.quests.class--job.studium.faculty-of-aetherology.69696"
-            ],
+            "cPrev": ["q.69916"],
+            "cNext": ["q.69689", "q.69675", "q.69668", "q.69682", "q.69696"],
             "patch": "6.0"
         },
         "x70010": {
@@ -25,11 +19,7 @@
             "name_fr": "Vers l'infini, et au-delà",
             "npc_en": "Qih Aliapoh",
             "npc_fr": "Qih Aliapoh",
-            "cPrev": [
-                "duty.quests.class--job.studium.faculty-of-archaeology.69674",
-                "duty.quests.class--job.studium.faculty-of-astronomy.69681",
-                "duty.quests.class--job.studium.faculty-of-medicine.69688"
-            ],
+            "cPrev": ["q.69674", "q.69681", "q.69688"],
             "cSiblings": ["character.achievement.quests.job-role-quests.2971"],
             "patch": "6.0"
         }

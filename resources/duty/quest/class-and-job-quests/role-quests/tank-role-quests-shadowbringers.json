@@ -9,8 +9,8 @@
             "name_fr": "Le guerrier à la balafre",
             "npc_en": "Granson",
             "npc_fr": "Granson",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.68837"],
-            "cNext": [68780],
+            "cPrev": ["q.68837"],
+            "cNext": ["q.68780"],
             "patch": "5.0"
         },
         "x68780": {
@@ -19,8 +19,8 @@
             "name_fr": "Le jour où tout a basculé",
             "npc_en": "Granson",
             "npc_fr": "Granson",
-            "cPrev": [68779],
-            "cNext": [68781],
+            "cPrev": ["q.68779"],
+            "cNext": ["q.68781"],
             "patch": "5.0"
         },
         "x68781": {
@@ -29,8 +29,8 @@
             "name_fr": "La piste du collier",
             "npc_en": "Granson",
             "npc_fr": "Granson",
-            "cPrev": [68780],
-            "cNext": [68782],
+            "cPrev": ["q.68780"],
+            "cNext": ["q.68782"],
             "patch": "5.0"
         },
         "x68782": {
@@ -39,8 +39,8 @@
             "name_fr": "Le guerrier et la princesse",
             "npc_en": "Granson",
             "npc_fr": "Granson",
-            "cPrev": [68781],
-            "cNext": [68783],
+            "cPrev": ["q.68781"],
+            "cNext": ["q.68783"],
             "patch": "5.0"
         },
         "x68783": {
@@ -49,8 +49,8 @@
             "name_fr": "Naissance d'un bourreau",
             "npc_en": "Sul Oul",
             "npc_fr": "Sul Oul",
-            "cPrev": [68782],
-            "cNext": [68784],
+            "cPrev": ["q.68782"],
+            "cNext": ["q.68784"],
             "patch": "5.0"
         },
         "x68784": {
@@ -59,13 +59,8 @@
             "name_fr": "Pardon et repentir",
             "npc_en": "Sul Oul",
             "npc_fr": "Sul Oul",
-            "cPrev": [68783],
-            "cNext": [
-                "duty.quests.class--job.disciple-of-war-job.dark-knight.68757",
-                "duty.quests.class--job.disciple-of-war-job.warrior.68748",
-                "duty.quests.class--job.disciple-of-war-job.paladin.68746",
-                "duty.quests.class--job.disciple-of-war-job.gunbreaker.68761"
-            ],
+            "cPrev": ["q.68783"],
+            "cNext": ["q.68757", "q.68748", "q.68746", "q.68761"],
             "cSiblings": ["character.achievement.quests.job-role-quests.2301"],
             "patch": "5.0"
         }

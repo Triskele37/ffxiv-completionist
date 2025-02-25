@@ -52,7 +52,7 @@
             "name_en": "Peatie",
             "name_fr": "Peatie",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.other.seasonal.little-ladies-and-hatching-tide.70347",
+            "source": "q.70347",
             "patch": "6.5"
         },
         "x335": {
@@ -106,14 +106,14 @@
             "name_en": "Apocryphal Bahamut",
             "name_fr": "Bahamut Apocryphe",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.sidequests.sharlayan.old-sharlayan.70331",
+            "source": "q.70331",
             "patch": "6.5"
         },
         "x326": {
             "name_en": "Torgal",
             "name_fr": "Talgor",
             "category": "CATEGORY.EVENT",
-            "source": "duty.quests.other.special.collaboration.70334",
+            "source": "q.70334",
             "patch": "6.58"
         },
         "x325": {
@@ -160,7 +160,7 @@
             "name_en": "Rising Phoenix",
             "name_fr": "Phénix de la Renaissance",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.other.seasonal.rising.70302",
+            "source": "q.70302",
             "patch": "6.48"
         },
         "x319": {
@@ -222,7 +222,7 @@
             "name_en": "UFO",
             "name_fr": "O.V.N.I.",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70336",
+            "source": "q.70336",
             "patch": "6.55"
         },
         "x282": {
@@ -416,7 +416,7 @@
             "name_en": "Anden III",
             "name_fr": "Anden III",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.sidequests.il-mheg.il-mheg.70253",
+            "source": "q.70253",
             "patch": "6.3"
         },
         "x223": {
@@ -596,14 +596,14 @@
             "name_en": "Argos",
             "name_fr": "Argos",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.main-scenario.endwalker.70000",
+            "source": "q.70000",
             "patch": "6.0"
         },
         "x200": {
             "name_en": "Magicked Card",
             "name_fr": "Carte magique",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.sidequests.uldahn.the-gold-saucer.69617",
+            "source": "q.69617",
             "patch": "5.55"
         },
         "x199": {
@@ -682,9 +682,9 @@
             "name_en": "Landerwaffe",
             "name_fr": "Landerwaffe",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.sidequests.gyr-abanian.the-lochs.69593",
+            "source": "q.69593",
             "patch": "5.5",
-            "cPrev": ["duty.quests.sidequests.gyr-abanian.the-lochs.69593"]
+            "cPrev": ["q.69593"]
         },
         "x189": {
             "name_en": "Lunar Whale",
@@ -707,7 +707,7 @@
             "name_en": "Yol",
             "name_fr": "Yol",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.main-scenario.stormblood.68043",
+            "source": "q.68043",
             "patch": "4.0"
         },
         "x186": {
@@ -807,7 +807,7 @@
             "name_en": "Unicorn",
             "name_fr": "Licorne",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.sidequests.gridanian.gridania.65730",
+            "source": "q.65730",
             "patch": "2.0"
         },
         "x173": {
@@ -1212,7 +1212,7 @@
             "name_en": "Midgardsormr",
             "name_fr": "Midgardsormr",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.main-scenario.heavensward.67204",
+            "source": "q.67204",
             "patch": "3.0"
         },
         "x123": {
@@ -1269,7 +1269,7 @@
             "name_en": "Manacutter",
             "name_fr": "Manacutter",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.main-scenario.heavensward.67170",
+            "source": "q.67170",
             "patch": "3.0"
         },
         "x116": {
@@ -1340,7 +1340,7 @@
             "name_en": "Magitek Armor",
             "name_fr": "Armure magitek",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.main-scenario.seventh-umbral-era.66060",
+            "source": "q.66060",
             "patch": "2.0"
         },
         "x107": {
@@ -1436,9 +1436,9 @@
             "name_en": "Kirin",
             "name_fr": "Kirin",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.sidequests.mor-dhonan.mor-dhona.65968",
+            "source": "q.65968",
             "patch": "2.5",
-            "cPrev": ["duty.quests.sidequests.mor-dhonan.mor-dhona.65968"]
+            "cPrev": ["q.65968"]
         },
         "x95": {
             "name_en": "Kingly Peacock",
@@ -1453,9 +1453,9 @@
             "name_en": "Kamuy of the Nine Tails",
             "name_fr": "Kamuy à neuf queues",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.sidequests.hingan.kugane.68736",
+            "source": "q.68736",
             "patch": "4.45",
-            "cPrev": ["duty.quests.sidequests.hingan.kugane.68736"]
+            "cPrev": ["q.68736"]
         },
         "x93": {
             "name_en": "Juedi",
@@ -1666,9 +1666,9 @@
             "name_en": "Firebird",
             "name_fr": "Hôô",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.sidequests.dravanian.idyllshire.67086",
+            "source": "q.67086",
             "patch": "3.5",
-            "cPrev": ["duty.quests.sidequests.dravanian.idyllshire.67086"]
+            "cPrev": ["q.67086"]
         },
         "x66": {
             "name_en": "Fenrir",
@@ -1780,7 +1780,7 @@
             "name_en": "Ehll Tou",
             "name_fr": "Ehll Tou",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69427",
+            "source": "q.69427",
             "patch": "5.3"
         },
         "x52": {
@@ -1887,11 +1887,7 @@
             "name_en": "Company Chocobo",
             "name_fr": "Chocobo destrier",
             "category": "CATEGORY.QUEST",
-            "source": [
-                "duty.quests.sidequests.gridanian.gridania.66236",
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66237",
-                "duty.quests.sidequests.uldahn.uldah.66238"
-            ],
+            "source": ["q.66236", "q.66237", "q.66238"],
             "patch": "2.0"
         },
         "x38": {
@@ -1951,7 +1947,7 @@
             "name_en": "Ceremony Chocobo",
             "name_fr": "Chocobo de cérémonie",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.other.special.67114",
+            "source": "q.67114",
             "patch": "2.45"
         },
         "x31": {
@@ -2035,7 +2031,7 @@
             "name_en": "Black Chocobo",
             "name_fr": "Chocobo noir",
             "category": "CATEGORY.QUEST",
-            "source": "duty.quests.main-scenario.heavensward.67133",
+            "source": "q.67133",
             "patch": "3.0"
         },
         "x20": {

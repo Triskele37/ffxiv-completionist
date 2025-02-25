@@ -9,8 +9,8 @@
             "name_fr": "Cuisine de vétérinaire",
             "npc_en": "Bethric",
             "npc_fr": "Bethric",
-            "cPrev": ["duty.quests.class--job.crystalline-mean.69191"],
-            "cNext": [68770],
+            "cPrev": ["q.69191"],
+            "cNext": ["q.68770"],
             "patch": "5.0"
         },
         "x68770": {
@@ -19,8 +19,8 @@
             "name_fr": "Parmi les siens, c'est moins bien",
             "npc_en": "Bethric",
             "npc_fr": "Bethric",
-            "cPrev": [68769],
-            "cNext": [68771],
+            "cPrev": ["q.68769"],
+            "cNext": ["q.68771"],
             "patch": "5.0"
         },
         "x68771": {
@@ -29,7 +29,7 @@
             "name_fr": "Un nouvel envol",
             "npc_en": "Bethric",
             "npc_fr": "Bethric",
-            "cPrev": [68770],
+            "cPrev": ["q.68770"],
             "cSiblings": ["character.achievement.quests.job-role-quests.2325"],
             "patch": "5.0"
         }

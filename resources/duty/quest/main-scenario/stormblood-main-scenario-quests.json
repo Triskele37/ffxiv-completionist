@@ -9,8 +9,8 @@
             "name_fr": "Au-delà de la muraille",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": ["duty.quests.main-scenario.post-dragonsong.67895"],
-            "cNext": [67983],
+            "cPrev": ["q.67895"],
+            "cNext": ["q.67983"],
             "patch": "4.31"
         },
         "x67983": {
@@ -19,8 +19,8 @@
             "name_fr": "Suivez la guide!",
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
-            "cPrev": [67982],
-            "cNext": [67984],
+            "cPrev": ["q.67982"],
+            "cNext": ["q.67984"],
             "patch": "4.31"
         },
         "x67984": {
@@ -29,8 +29,8 @@
             "name_fr": "La proposition de l'Alliance",
             "npc_en": "Conrad",
             "npc_fr": "Conrad",
-            "cPrev": [67983],
-            "cNext": [67985],
+            "cPrev": ["q.67983"],
+            "cNext": ["q.67985"],
             "patch": "4.31"
         },
         "x67985": {
@@ -39,8 +39,8 @@
             "name_fr": "L'Étendue du Destructeur",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [67984],
-            "cNext": [67986, "duty.quests.other.quasi-quests.68456"],
+            "cPrev": ["q.67984"],
+            "cNext": ["q.67986", "q.68456"],
             "patch": "4.31"
         },
         "x67986": {
@@ -49,8 +49,8 @@
             "name_fr": "La décision de Conrad",
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [67985],
-            "cNext": [67991, 67987],
+            "cPrev": ["q.67985"],
+            "cNext": ["q.67991", "q.67987"],
             "patch": "4.31"
         },
         "x67987": {
@@ -59,8 +59,8 @@
             "name_fr": "La mission de M'naago",
             "npc_en": "M'naago",
             "npc_fr": "M'naago",
-            "cPrev": [67986],
-            "cNext": [67988],
+            "cPrev": ["q.67986"],
+            "cNext": ["q.67988"],
             "patch": "4.31"
         },
         "x67988": {
@@ -69,16 +69,8 @@
             "name_fr": "La missive de Conrad",
             "npc_en": "M'naago",
             "npc_fr": "M'naago",
-            "cPrev": [67987],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68175",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68179",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68180",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68178",
-                67989,
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68176",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68177"
-            ],
+            "cPrev": ["q.67987"],
+            "cNext": ["q.68175", "q.68179", "q.68180", "q.68178", "q.67989", "q.68176", "q.68177"],
             "patch": "4.31"
         },
         "x67989": {
@@ -87,8 +79,8 @@
             "name_fr": "Le prototype magitek",
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn",
-            "cPrev": [67988],
-            "cNext": [67990],
+            "cPrev": ["q.67988"],
+            "cNext": ["q.67990"],
             "patch": "4.31"
         },
         "x67990": {
@@ -97,8 +89,8 @@
             "name_fr": "La conviction d'une messagère",
             "npc_en": "M'naago",
             "npc_fr": "M'naago",
-            "cPrev": [67989],
-            "cNext": [67997],
+            "cPrev": ["q.67989"],
+            "cNext": ["q.67997"],
             "patch": "4.31"
         },
         "x67991": {
@@ -107,8 +99,8 @@
             "name_fr": "La mission de Meffrid",
             "npc_en": "Meffrid",
             "npc_fr": "Meffrid",
-            "cPrev": [67986],
-            "cNext": [67992],
+            "cPrev": ["q.67986"],
+            "cNext": ["q.67992"],
             "patch": "4.31"
         },
         "x67992": {
@@ -117,8 +109,8 @@
             "name_fr": "Retour au village natal",
             "npc_en": "Meffrid",
             "npc_fr": "Meffrid",
-            "cPrev": [67991],
-            "cNext": [68490, 68491],
+            "cPrev": ["q.67991"],
+            "cNext": ["q.68490", "q.68491"],
             "patch": "4.31"
         },
         "x68490": {
@@ -127,8 +119,8 @@
             "name_fr": "Remède pour jambes douloureuses",
             "npc_en": "Griseldis",
             "npc_fr": "Griseldis",
-            "cPrev": [67992],
-            "cNext": [67993],
+            "cPrev": ["q.67992"],
+            "cNext": ["q.67993"],
             "patch": "4.31"
         },
         "x68491": {
@@ -137,8 +129,8 @@
             "name_fr": "Livraison d'“objet oublié”",
             "npc_en": "Angry Coeurl",
             "npc_fr": "Angry Coeurl",
-            "cPrev": [67992],
-            "cNext": [67993],
+            "cPrev": ["q.67992"],
+            "cNext": ["q.67993"],
             "patch": "4.31"
         },
         "x67993": {
@@ -147,8 +139,8 @@
             "name_fr": "Les gens d'Ala Gannha",
             "npc_en": "Meffrid",
             "npc_fr": "Meffrid",
-            "cPrev": [68490, 68491],
-            "cNext": [67994],
+            "cPrev": ["q.68490", "q.68491"],
+            "cNext": ["q.67994"],
             "patch": "4.31"
         },
         "x67994": {
@@ -157,8 +149,8 @@
             "name_fr": "La Ziggourat",
             "npc_en": "Meffrid",
             "npc_fr": "Meffrid",
-            "cPrev": [67993],
-            "cNext": [67995],
+            "cPrev": ["q.67993"],
+            "cNext": ["q.67995"],
             "patch": "4.31"
         },
         "x67995": {
@@ -167,16 +159,8 @@
             "name_fr": "Cruelle jeunesse",
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
-            "cPrev": [67994],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68182",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68183",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68186",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68181",
-                67996,
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68184",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68185"
-            ],
+            "cPrev": ["q.67994"],
+            "cNext": ["q.68182", "q.68183", "q.68186", "q.68181", "q.67996", "q.68184", "q.68185"],
             "patch": "4.31"
         },
         "x67996": {
@@ -185,8 +169,8 @@
             "name_fr": "Malgré les différends",
             "npc_en": "Meffrid",
             "npc_fr": "Meffrid",
-            "cPrev": [67995],
-            "cNext": [67997],
+            "cPrev": ["q.67995"],
+            "cNext": ["q.67997"],
             "patch": "4.31"
         },
         "x67997": {
@@ -195,8 +179,8 @@
             "name_fr": "La tactique, c'est l'attaque",
             "npc_en": "Conrad",
             "npc_fr": "Conrad",
-            "cPrev": [67990, 67996],
-            "cNext": [68171, 68172, 68173],
+            "cPrev": ["q.67990", "q.67996"],
+            "cNext": ["q.68171", "q.68172", "q.68173"],
             "patch": "4.31"
         },
         "x68171": {
@@ -205,8 +189,8 @@
             "name_fr": "Faire la guerre par amour",
             "npc_en": "Beves",
             "npc_fr": "Beves",
-            "cPrev": [67997],
-            "cNext": [68174],
+            "cPrev": ["q.67997"],
+            "cNext": ["q.68174"],
             "patch": "4.31"
         },
         "x68172": {
@@ -215,8 +199,8 @@
             "name_fr": "La soupe aux cailloux et au chiendent",
             "npc_en": "Ahelissa",
             "npc_fr": "Ahelissa",
-            "cPrev": [67997],
-            "cNext": [68174],
+            "cPrev": ["q.67997"],
+            "cNext": ["q.68174"],
             "patch": "4.31"
         },
         "x68173": {
@@ -225,8 +209,8 @@
             "name_fr": "Plus l'attente est longue...",
             "npc_en": "Ananta Battlemaid",
             "npc_fr": "Guerrière Ananta",
-            "cPrev": [67997],
-            "cNext": [68174],
+            "cPrev": ["q.67997"],
+            "cNext": ["q.68174"],
             "patch": "4.31"
         },
         "x68174": {
@@ -235,8 +219,8 @@
             "name_fr": "Avoir la foi bien accrochée",
             "npc_en": "Swarthy Resistance Fighter",
             "npc_fr": "Guerrier Roegadyn",
-            "cPrev": [68171, 68172, 68173],
-            "cNext": [67998],
+            "cPrev": ["q.68171", "q.68172", "q.68173"],
+            "cNext": ["q.67998"],
             "patch": "4.31"
         },
         "x67998": {
@@ -245,8 +229,8 @@
             "name_fr": "Le choix de Raubahn",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68174],
-            "cNext": [67999],
+            "cPrev": ["q.68174"],
+            "cNext": ["q.67999"],
             "patch": "4.31"
         },
         "x67999": {
@@ -255,8 +239,8 @@
             "name_fr": "Dans le feu ardent",
             "npc_en": "Pipin",
             "npc_fr": "Pipin",
-            "cPrev": [67998],
-            "cNext": [68000],
+            "cPrev": ["q.67998"],
+            "cNext": ["q.68000"],
             "patch": "4.31"
         },
         "x68000": {
@@ -265,18 +249,8 @@
             "name_fr": "Certains succombent, d'autres subsistent",
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn",
-            "cPrev": [67999],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68191",
-                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68188",
-                68001,
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68190",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68189",
-                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68187",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68192",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68193",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68194"
-            ],
+            "cPrev": ["q.67999"],
+            "cNext": ["q.68191", "q.68188", "q.68001", "q.68190", "q.68189", "q.68187", "q.68192", "q.68193", "q.68194"],
             "patch": "4.31"
         },
         "x68001": {
@@ -285,8 +259,8 @@
             "name_fr": "Le convoi de blessés",
             "npc_en": "Pipin",
             "npc_fr": "Pipin",
-            "cPrev": [68000],
-            "cNext": [68002],
+            "cPrev": ["q.68000"],
+            "cNext": ["q.68002"],
             "patch": "4.31"
         },
         "x68002": {
@@ -295,16 +269,8 @@
             "name_fr": "Une intervention revigorante",
             "npc_en": "Conrad",
             "npc_fr": "Conrad",
-            "cPrev": [68001],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68197",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68196",
-                68003,
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68195",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68198",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68199",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68200"
-            ],
+            "cPrev": ["q.68001"],
+            "cNext": ["q.68197", "q.68196", "q.68003", "q.68195", "q.68198", "q.68199", "q.68200"],
             "patch": "4.31"
         },
         "x68003": {
@@ -313,8 +279,8 @@
             "name_fr": "En quête d'un navire",
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [68002],
-            "cNext": [68004],
+            "cPrev": ["q.68002"],
+            "cNext": ["q.68004"],
             "patch": "4.31"
         },
         "x68004": {
@@ -323,8 +289,8 @@
             "name_fr": "Renseignements sur Doma",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68003],
-            "cNext": [68005],
+            "cPrev": ["q.68003"],
+            "cNext": ["q.68005"],
             "patch": "4.31"
         },
         "x68005": {
@@ -334,8 +300,8 @@
             "unlock": ["duty.dutyraid-finder.dungeons.sb.0"],
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
-            "cPrev": [68004],
-            "cNext": [68006],
+            "cPrev": ["q.68004"],
+            "cNext": ["q.68006"],
             "cSiblings": ["character.achievement.quests.main-scenario.1787"],
             "patch": "4.31"
         },
@@ -345,8 +311,8 @@
             "name_fr": "Bienvenue à Kugane!",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68005],
-            "cNext": [68007],
+            "cPrev": ["q.68005"],
+            "cNext": ["q.68007"],
             "patch": "4.31"
         },
         "x68007": {
@@ -355,8 +321,8 @@
             "name_fr": "Le port aux quais d'or",
             "npc_en": "Hancock",
             "npc_fr": "Hancock",
-            "cPrev": [68006],
-            "cNext": [68008],
+            "cPrev": ["q.68006"],
+            "cNext": ["q.68008"],
             "patch": "4.31"
         },
         "x68008": {
@@ -365,17 +331,8 @@
             "name_fr": "Le Bazar de Rubis",
             "npc_en": "Hancock",
             "npc_fr": "Hancock",
-            "cPrev": [68007],
-            "cNext": [
-                68009,
-                "duty.quests.sidequests.hingan.kugane.68202",
-                "duty.quests.sidequests.hingan.kugane.68204",
-                "duty.quests.sidequests.hingan.kugane.68201",
-                "duty.quests.sidequests.hingan.kugane.68205",
-                "duty.quests.sidequests.hingan.kugane.68167",
-                "duty.quests.sidequests.hingan.kugane.68203",
-                "duty.quests.sidequests.hingan.kugane.68472"
-            ],
+            "cPrev": ["q.68007"],
+            "cNext": ["q.68009", "q.68202", "q.68204", "q.68201", "q.68205", "q.68167", "q.68203", "q.68472"],
             "patch": "4.31"
         },
         "x68009": {
@@ -384,8 +341,8 @@
             "name_fr": "Sur les traces des Domiens",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68008],
-            "cNext": [68010],
+            "cPrev": ["q.68008"],
+            "cNext": ["q.68010"],
             "patch": "4.31"
         },
         "x68010": {
@@ -394,8 +351,8 @@
             "name_fr": "Un capitaine pas comme les autres",
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
-            "cPrev": [68009],
-            "cNext": [68011],
+            "cPrev": ["q.68009"],
+            "cNext": ["q.68011"],
             "patch": "4.31"
         },
         "x68011": {
@@ -404,13 +361,8 @@
             "name_fr": "Les aveux de Gyodo",
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
-            "cPrev": [68010],
-            "cNext": [
-                68012,
-                "duty.quests.sidequests.hingan.kugane.68206",
-                "duty.quests.sidequests.hingan.kugane.68207",
-                "duty.quests.sidequests.hingan.kugane.68208"
-            ],
+            "cPrev": ["q.68010"],
+            "cNext": ["q.68012", "q.68206", "q.68207", "q.68208"],
             "patch": "4.31"
         },
         "x68012": {
@@ -419,8 +371,8 @@
             "name_fr": "En route pour Othard",
             "npc_en": "Gosetsu",
             "npc_fr": "Gosetsu",
-            "cPrev": [68011],
-            "cNext": [68013],
+            "cPrev": ["q.68011"],
+            "cNext": ["q.68013"],
             "cSiblings": ["character.achievement.quests.main-scenario.1788"],
             "patch": "4.31"
         },
@@ -430,8 +382,8 @@
             "name_fr": "Baignade avec Lyse",
             "npc_en": "Soroban",
             "npc_fr": "Soroban",
-            "cPrev": [68012],
-            "cNext": [68014],
+            "cPrev": ["q.68012"],
+            "cNext": ["q.68014"],
             "patch": "4.31"
         },
         "x68014": {
@@ -440,16 +392,8 @@
             "name_fr": "Les pirates de la Confédération",
             "npc_en": "Tansui",
             "npc_fr": "Tansui",
-            "cPrev": [68013],
-            "cNext": [
-                "duty.quests.sidequests.othardian.the-ruby-sea.68209",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68212",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68211",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68210",
-                68015,
-                "duty.quests.sidequests.othardian.the-ruby-sea.68213",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68214"
-            ],
+            "cPrev": ["q.68013"],
+            "cNext": ["q.68209", "q.68212", "q.68211", "q.68210", "q.68015", "q.68213", "q.68214"],
             "patch": "4.31"
         },
         "x68015": {
@@ -458,8 +402,8 @@
             "name_fr": "Un continent hostile",
             "npc_en": "Soroban",
             "npc_fr": "Soroban",
-            "cPrev": [68014],
-            "cNext": [68016],
+            "cPrev": ["q.68014"],
+            "cNext": ["q.68016"],
             "patch": "4.31"
         },
         "x68016": {
@@ -468,8 +412,8 @@
             "name_fr": "Le hameau des parias",
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [68015],
-            "cNext": [68217, 68489, 68215],
+            "cPrev": ["q.68015"],
+            "cNext": ["q.68217", "q.68489", "q.68215"],
             "cSiblings": ["social.emotes.general.154"],
             "patch": "4.31"
         },
@@ -479,8 +423,8 @@
             "name_fr": "Soigner le mal de mer",
             "npc_en": "Afumi",
             "npc_fr": "Afumi",
-            "cPrev": [68016],
-            "cNext": [68017],
+            "cPrev": ["q.68016"],
+            "cNext": ["q.68017"],
             "patch": "4.31"
         },
         "x68489": {
@@ -489,8 +433,8 @@
             "name_fr": "C'est comme ça qu'on décarcasse",
             "npc_en": "Kajika",
             "npc_fr": "Kajika",
-            "cPrev": [68016],
-            "cNext": [68017],
+            "cPrev": ["q.68016"],
+            "cNext": ["q.68017"],
             "patch": "4.31"
         },
         "x68215": {
@@ -499,8 +443,8 @@
             "name_fr": "Partir un jour sans retour",
             "npc_en": "Aranami",
             "npc_fr": "Aranami",
-            "cPrev": [68016],
-            "cNext": [68017],
+            "cPrev": ["q.68016"],
+            "cNext": ["q.68017"],
             "patch": "4.31"
         },
         "x68017": {
@@ -509,19 +453,19 @@
             "name_fr": "Des pirates dans le besoin",
             "npc_en": "Hirase",
             "npc_fr": "Hirase",
-            "cPrev": [68215, 68217, 68489],
+            "cPrev": ["q.68215", "q.68217", "q.68489"],
             "cNext": [
-                "duty.quests.sidequests.othardian.the-ruby-sea.68223",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68220",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68224",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68216",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68221",
-                68018,
-                "duty.quests.sidequests.othardian.the-ruby-sea.68218",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68219",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68222",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68225",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68226"
+                "q.68223",
+                "q.68220",
+                "q.68224",
+                "q.68216",
+                "q.68221",
+                "q.68018",
+                "q.68218",
+                "q.68219",
+                "q.68222",
+                "q.68225",
+                "q.68226"
             ],
             "patch": "4.31"
         },
@@ -531,8 +475,8 @@
             "name_fr": "Tamamizu la Verte",
             "npc_en": "Rasho",
             "npc_fr": "Rasho",
-            "cPrev": [68017],
-            "cNext": [68019],
+            "cPrev": ["q.68017"],
+            "cNext": ["q.68019"],
             "patch": "4.31"
         },
         "x68019": {
@@ -541,16 +485,8 @@
             "name_fr": "Une myriade de kami",
             "npc_en": "Soroban",
             "npc_fr": "Soroban",
-            "cPrev": [68018],
-            "cNext": [
-                "duty.quests.sidequests.othardian.the-ruby-sea.68229",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68230",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68228",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68227",
-                68020,
-                "duty.quests.sidequests.othardian.the-ruby-sea.68231",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68232"
-            ],
+            "cPrev": ["q.68018"],
+            "cNext": ["q.68229", "q.68230", "q.68228", "q.68227", "q.68020", "q.68231", "q.68232"],
             "patch": "4.31"
         },
         "x68020": {
@@ -560,8 +496,8 @@
             "npc_en": "Soroban",
             "npc_fr": "Soroban",
             "unlock_en": "Diving",
-            "cPrev": [68019],
-            "cNext": [68021, "duty.quests.sidequests.othardian.the-ruby-sea.68458"],
+            "cPrev": ["q.68019"],
+            "cNext": ["q.68021", "q.68458"],
             "cSiblings": ["social.emotes.general.151"],
             "patch": "4.31"
         },
@@ -571,21 +507,21 @@
             "name_fr": "Ao Ra en autarcie",
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
-            "cPrev": [68020],
+            "cPrev": ["q.68020"],
             "cNext": [
-                "duty.quests.sidequests.othardian.the-ruby-sea.68168",
-                68022,
-                "duty.quests.sidequests.othardian.the-ruby-sea.68239",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68235",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68233",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68242",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68237",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68234",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68236",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68238",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68240",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68241",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68243"
+                "q.68168",
+                "q.68022",
+                "q.68239",
+                "q.68235",
+                "q.68233",
+                "q.68242",
+                "q.68237",
+                "q.68234",
+                "q.68236",
+                "q.68238",
+                "q.68240",
+                "q.68241",
+                "q.68243"
             ],
             "patch": "4.31"
         },
@@ -595,8 +531,8 @@
             "name_fr": "Expédition sous-marine",
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [68021],
-            "cNext": [68023],
+            "cPrev": ["q.68021"],
+            "cNext": ["q.68023"],
             "patch": "4.31"
         },
         "x68023": {
@@ -605,15 +541,8 @@
             "name_fr": "Le retour du joyau sacré",
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [68022],
-            "cNext": [
-                "duty.quests.sidequests.othardian.the-ruby-sea.68247",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68244",
-                68024,
-                "duty.quests.sidequests.othardian.the-ruby-sea.68245",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68246",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68248"
-            ],
+            "cPrev": ["q.68022"],
+            "cNext": ["q.68247", "q.68244", "q.68024", "q.68245", "q.68246", "q.68248"],
             "patch": "4.31"
         },
         "x68024": {
@@ -622,8 +551,8 @@
             "name_fr": "L'île au trésor",
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [68023],
-            "cNext": [68025],
+            "cPrev": ["q.68023"],
+            "cNext": ["q.68025"],
             "patch": "4.31"
         },
         "x68025": {
@@ -633,8 +562,8 @@
             "unlock": ["duty.dutyraid-finder.trials.sb.0", "travel.mount-speed.the-far-east.1"],
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [68024],
-            "cNext": [68026],
+            "cPrev": ["q.68024"],
+            "cNext": ["q.68026"],
             "cSiblings": ["travel.mount-speed.the-far-east.1"],
             "patch": "4.31"
         },
@@ -645,22 +574,22 @@
             "unlock": "travel.aether-currents.sb.the-ruby-sea.14",
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
-            "cPrev": [68025],
+            "cPrev": ["q.68025"],
             "cNext": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.heaven-on-high.68667",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68251",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68252",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68253",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68254",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68256",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68257",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68258",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68259",
-                68027,
-                "duty.quests.sidequests.othardian.the-ruby-sea.68249",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68250",
-                "duty.quests.sidequests.othardian.the-ruby-sea.68255",
-                "duty.quests.tribal-quests.kojin.68509"
+                "q.68667",
+                "q.68251",
+                "q.68252",
+                "q.68253",
+                "q.68254",
+                "q.68256",
+                "q.68257",
+                "q.68258",
+                "q.68259",
+                "q.68027",
+                "q.68249",
+                "q.68250",
+                "q.68255",
+                "q.68509"
             ],
             "cSiblings": ["character.achievement.quests.main-scenario.1789", "travel.aether-currents.sb.the-ruby-sea.14"],
             "patch": "4.31"
@@ -671,8 +600,8 @@
             "name_fr": "La quiétude de Yanxia",
             "npc_en": "Gosetsu",
             "npc_fr": "Gosetsu",
-            "cPrev": [68026],
-            "cNext": [68028],
+            "cPrev": ["q.68026"],
+            "cNext": ["q.68028"],
             "patch": "4.31"
         },
         "x68028": {
@@ -681,8 +610,8 @@
             "name_fr": "Le prix de la rébellion",
             "npc_en": "Gosetsu",
             "npc_fr": "Gosetsu",
-            "cPrev": [68027],
-            "cNext": [68470],
+            "cPrev": ["q.68027"],
+            "cNext": ["q.68470"],
             "patch": "4.31"
         },
         "x68470": {
@@ -691,8 +620,8 @@
             "name_fr": "Un reste d'intrépidité",
             "npc_en": "Liberation Front Guard",
             "npc_fr": "Combattant De La Rébellion Domienne",
-            "cPrev": [68028],
-            "cNext": [68029],
+            "cPrev": ["q.68028"],
+            "cNext": ["q.68029"],
             "patch": "4.31"
         },
         "x68029": {
@@ -701,14 +630,8 @@
             "name_fr": "La triste réalité domienne",
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
-            "cPrev": [68470],
-            "cNext": [
-                "duty.quests.sidequests.othardian.yanxia.68260",
-                "duty.quests.sidequests.othardian.yanxia.68264",
-                68030,
-                "duty.quests.sidequests.othardian.yanxia.68261",
-                "duty.quests.sidequests.othardian.yanxia.68265"
-            ],
+            "cPrev": ["q.68470"],
+            "cNext": ["q.68260", "q.68264", "q.68030", "q.68261", "q.68265"],
             "patch": "4.31"
         },
         "x68030": {
@@ -717,16 +640,8 @@
             "name_fr": "La douleur de ceux qui restent",
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
-            "cPrev": [68029],
-            "cNext": [
-                "duty.quests.sidequests.othardian.yanxia.68266",
-                "duty.quests.sidequests.othardian.yanxia.68269",
-                68031,
-                "duty.quests.sidequests.othardian.yanxia.68268",
-                "duty.quests.sidequests.othardian.yanxia.68262",
-                "duty.quests.sidequests.othardian.yanxia.68263",
-                "duty.quests.sidequests.othardian.yanxia.68267"
-            ],
+            "cPrev": ["q.68029"],
+            "cNext": ["q.68266", "q.68269", "q.68031", "q.68268", "q.68262", "q.68263", "q.68267"],
             "patch": "4.31"
         },
         "x68031": {
@@ -735,8 +650,8 @@
             "name_fr": "Persécutions sans fin",
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
-            "cPrev": [68030],
-            "cNext": [68032],
+            "cPrev": ["q.68030"],
+            "cNext": ["q.68032"],
             "patch": "4.31"
         },
         "x68032": {
@@ -746,8 +661,8 @@
             "unlock": "travel.mount-speed.the-far-east.3",
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
-            "cPrev": [68031],
-            "cNext": [68033],
+            "cPrev": ["q.68031"],
+            "cNext": ["q.68033"],
             "cSiblings": ["travel.mount-speed.the-far-east.3"],
             "patch": "4.31"
         },
@@ -757,8 +672,8 @@
             "name_fr": "Enfant des profondeurs",
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
-            "cPrev": [68032],
-            "cNext": [68471],
+            "cPrev": ["q.68032"],
+            "cNext": ["q.68471"],
             "patch": "4.31"
         },
         "x68471": {
@@ -767,8 +682,8 @@
             "name_fr": "Une détermination de shinobi",
             "npc_en": "Gosetsu",
             "npc_fr": "Gosetsu",
-            "cPrev": [68033],
-            "cNext": [68034],
+            "cPrev": ["q.68033"],
+            "cNext": ["q.68034"],
             "patch": "4.31"
         },
         "x68034": {
@@ -777,8 +692,8 @@
             "name_fr": "Sus à Zenos!",
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
-            "cPrev": [68471],
-            "cNext": [68035],
+            "cPrev": ["q.68471"],
+            "cNext": ["q.68035"],
             "patch": "4.31"
         },
         "x68035": {
@@ -788,27 +703,27 @@
             "unlock": "travel.aether-currents.sb.yanxia.14",
             "npc_en": "Isse",
             "npc_fr": "Isse",
-            "cPrev": [68034],
+            "cPrev": ["q.68034"],
             "cNext": [
-                "duty.quests.sidequests.othardian.yanxia.68278",
-                "duty.quests.sidequests.othardian.yanxia.68271",
-                "duty.quests.sidequests.othardian.yanxia.68279",
-                "duty.quests.sidequests.othardian.yanxia.68270",
-                "duty.quests.sidequests.othardian.yanxia.68277",
-                "duty.quests.sidequests.othardian.yanxia.68281",
-                "duty.quests.sidequests.othardian.yanxia.68282",
-                "duty.quests.sidequests.othardian.yanxia.68274",
-                "duty.quests.sidequests.othardian.yanxia.68284",
-                "duty.quests.sidequests.othardian.yanxia.68286",
-                "duty.quests.sidequests.othardian.yanxia.68280",
-                68166,
-                "duty.quests.sidequests.othardian.yanxia.68272",
-                "duty.quests.sidequests.othardian.yanxia.68273",
-                "duty.quests.sidequests.othardian.yanxia.68275",
-                "duty.quests.sidequests.othardian.yanxia.68276",
-                "duty.quests.sidequests.othardian.yanxia.68283",
-                "duty.quests.sidequests.othardian.yanxia.68285",
-                "duty.quests.sidequests.othardian.yanxia.68287"
+                "q.68278",
+                "q.68271",
+                "q.68279",
+                "q.68270",
+                "q.68277",
+                "q.68281",
+                "q.68282",
+                "q.68274",
+                "q.68284",
+                "q.68286",
+                "q.68280",
+                "q.68166",
+                "q.68272",
+                "q.68273",
+                "q.68275",
+                "q.68276",
+                "q.68283",
+                "q.68285",
+                "q.68287"
             ],
             "cSiblings": ["character.achievement.quests.main-scenario.1790", "travel.aether-currents.sb.yanxia.14"],
             "patch": "4.31"
@@ -819,8 +734,8 @@
             "name_fr": "En route vers la steppe",
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
-            "cPrev": [68035],
-            "cNext": [68036],
+            "cPrev": ["q.68035"],
+            "cNext": ["q.68036"],
             "patch": "4.31"
         },
         "x68036": {
@@ -829,16 +744,8 @@
             "name_fr": "Le Ralliement",
             "npc_en": "Yugiri",
             "npc_fr": "Yugiri",
-            "cPrev": [68166],
-            "cNext": [
-                "duty.quests.sidequests.othardian.the-azim-steppe.68292",
-                68037,
-                "duty.quests.sidequests.othardian.the-azim-steppe.68288",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68289",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68290",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68291",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68293"
-            ],
+            "cPrev": ["q.68166"],
+            "cNext": ["q.68292", "q.68037", "q.68288", "q.68289", "q.68290", "q.68291", "q.68293"],
             "patch": "4.31"
         },
         "x68037": {
@@ -847,16 +754,8 @@
             "name_fr": "Le Tsagaan Sar",
             "npc_en": "Cirina",
             "npc_fr": "Cirina",
-            "cPrev": [68036],
-            "cNext": [
-                "duty.quests.sidequests.othardian.the-azim-steppe.68296",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68298",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68299",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68294",
-                68038,
-                "duty.quests.sidequests.othardian.the-azim-steppe.68295",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68297"
-            ],
+            "cPrev": ["q.68036"],
+            "cNext": ["q.68296", "q.68298", "q.68299", "q.68294", "q.68038", "q.68295", "q.68297"],
             "patch": "4.31"
         },
         "x68038": {
@@ -865,8 +764,8 @@
             "name_fr": "L'écho d'un peuple",
             "npc_en": "Cirina",
             "npc_fr": "Cirina",
-            "cPrev": [68037],
-            "cNext": [68039],
+            "cPrev": ["q.68037"],
+            "cNext": ["q.68039"],
             "patch": "4.31"
         },
         "x68039": {
@@ -875,14 +774,8 @@
             "name_fr": "Oracle prophétique",
             "npc_en": "Hien",
             "npc_fr": "Hien",
-            "cPrev": [68038],
-            "cNext": [
-                68040,
-                "duty.quests.sidequests.othardian.the-azim-steppe.68303",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68301",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68300",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68302"
-            ],
+            "cPrev": ["q.68038"],
+            "cNext": ["q.68040", "q.68303", "q.68301", "q.68300", "q.68302"],
             "patch": "4.31"
         },
         "x68040": {
@@ -891,13 +784,8 @@
             "name_fr": "La tâche capitale",
             "npc_en": "Cirina",
             "npc_fr": "Cirina",
-            "cPrev": [68039],
-            "cNext": [
-                68041,
-                "duty.quests.sidequests.othardian.the-azim-steppe.68305",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68304",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68306"
-            ],
+            "cPrev": ["q.68039"],
+            "cNext": ["q.68041", "q.68305", "q.68304", "q.68306"],
             "patch": "4.31"
         },
         "x68041": {
@@ -906,13 +794,8 @@
             "name_fr": "Bienvenue chez les Mol",
             "npc_en": "Cirina",
             "npc_fr": "Cirina",
-            "cPrev": [68040],
-            "cNext": [
-                "duty.quests.sidequests.othardian.the-azim-steppe.68307",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68309",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68308",
-                68042
-            ],
+            "cPrev": ["q.68040"],
+            "cNext": ["q.68307", "q.68309", "q.68308", "q.68042"],
             "patch": "4.31"
         },
         "x68042": {
@@ -921,8 +804,8 @@
             "name_fr": "Les aléas de la steppe",
             "npc_en": "Hien",
             "npc_fr": "Hien",
-            "cPrev": [68041],
-            "cNext": [68043],
+            "cPrev": ["q.68041"],
+            "cNext": ["q.68043"],
             "patch": "4.31"
         },
         "x68043": {
@@ -932,8 +815,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.sb.2",
             "npc_en": "Hien",
             "npc_fr": "Hien",
-            "cPrev": [68042],
-            "cNext": [68044],
+            "cPrev": ["q.68042"],
+            "cNext": ["q.68044"],
             "patch": "4.31"
         },
         "x68044": {
@@ -942,15 +825,8 @@
             "name_fr": "L'hospitalité oronir",
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
-            "cPrev": [68043],
-            "cNext": [
-                "duty.quests.sidequests.othardian.the-azim-steppe.68314",
-                68045,
-                "duty.quests.sidequests.othardian.the-azim-steppe.68311",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68312",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68310",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68313"
-            ],
+            "cPrev": ["q.68043"],
+            "cNext": ["q.68314", "q.68045", "q.68311", "q.68312", "q.68310", "q.68313"],
             "patch": "4.31"
         },
         "x68045": {
@@ -959,13 +835,8 @@
             "name_fr": "À chacun sa corvée",
             "npc_en": "Baatu",
             "npc_fr": "Baatu",
-            "cPrev": [68044],
-            "cNext": [
-                "duty.quests.sidequests.othardian.the-azim-steppe.68315",
-                68046,
-                "duty.quests.sidequests.othardian.the-azim-steppe.68316",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68317"
-            ],
+            "cPrev": ["q.68044"],
+            "cNext": ["q.68315", "q.68046", "q.68316", "q.68317"],
             "patch": "4.31"
         },
         "x68046": {
@@ -974,14 +845,8 @@
             "name_fr": "Un seigneur, des agneaux",
             "npc_en": "Hien",
             "npc_fr": "Hien",
-            "cPrev": [68045],
-            "cNext": [
-                "duty.quests.sidequests.othardian.the-azim-steppe.68318",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68319",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68320",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68321",
-                68047
-            ],
+            "cPrev": ["q.68045"],
+            "cNext": ["q.68318", "q.68319", "q.68320", "q.68321", "q.68047"],
             "patch": "4.31"
         },
         "x68047": {
@@ -990,8 +855,8 @@
             "name_fr": "D'une tribu à l'autre",
             "npc_en": "Magnai",
             "npc_fr": "Magnai",
-            "cPrev": [68046],
-            "cNext": [68048],
+            "cPrev": ["q.68046"],
+            "cNext": ["q.68048"],
             "patch": "4.31"
         },
         "x68048": {
@@ -1000,22 +865,22 @@
             "name_fr": "À la découverte des Dotharl",
             "npc_en": "Gosetsu",
             "npc_fr": "Gosetsu",
-            "cPrev": [68047],
+            "cPrev": ["q.68047"],
             "cNext": [
-                "duty.quests.sidequests.othardian.the-azim-steppe.68327",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68326",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68333",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68334",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68322",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68324",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68331",
-                68049,
-                "duty.quests.sidequests.othardian.the-azim-steppe.68323",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68325",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68328",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68329",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68330",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68332"
+                "q.68327",
+                "q.68326",
+                "q.68333",
+                "q.68334",
+                "q.68322",
+                "q.68324",
+                "q.68331",
+                "q.68049",
+                "q.68323",
+                "q.68325",
+                "q.68328",
+                "q.68329",
+                "q.68330",
+                "q.68332"
             ],
             "patch": "4.31"
         },
@@ -1025,8 +890,8 @@
             "name_fr": "Les trompe-la-mort",
             "npc_en": "Gosetsu",
             "npc_fr": "Gosetsu",
-            "cPrev": [68048],
-            "cNext": [68050],
+            "cPrev": ["q.68048"],
+            "cNext": ["q.68050"],
             "patch": "4.31"
         },
         "x68050": {
@@ -1035,8 +900,8 @@
             "name_fr": "Liberté retrouvée",
             "npc_en": "Gosetsu",
             "npc_fr": "Gosetsu",
-            "cPrev": [68049],
-            "cNext": [68051],
+            "cPrev": ["q.68049"],
+            "cNext": ["q.68051"],
             "patch": "4.31"
         },
         "x68051": {
@@ -1046,8 +911,8 @@
             "unlock": "travel.mount-speed.the-far-east.5",
             "npc_en": "Cirina",
             "npc_fr": "Cirina",
-            "cPrev": [68050],
-            "cNext": [68052],
+            "cPrev": ["q.68050"],
+            "cNext": ["q.68052"],
             "cSiblings": ["travel.mount-speed.the-far-east.5"],
             "patch": "4.31"
         },
@@ -1058,14 +923,8 @@
             "unlock": "travel.aether-currents.sb.the-azim-steppe.14",
             "npc_en": "Hien",
             "npc_fr": "Hien",
-            "cPrev": [68051],
-            "cNext": [
-                "duty.quests.sidequests.othardian.the-azim-steppe.68337",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68338",
-                68053,
-                "duty.quests.sidequests.othardian.the-azim-steppe.68336",
-                "duty.quests.sidequests.othardian.the-azim-steppe.68339"
-            ],
+            "cPrev": ["q.68051"],
+            "cNext": ["q.68337", "q.68338", "q.68053", "q.68336", "q.68339"],
             "cSiblings": ["travel.aether-currents.sb.the-azim-steppe.14"],
             "patch": "4.31"
         },
@@ -1075,8 +934,8 @@
             "name_fr": "Tour d'adieu",
             "npc_en": "Hien",
             "npc_fr": "Hien",
-            "cPrev": [68052],
-            "cNext": ["duty.quests.tribal-quests.namazu.68632", 68054],
+            "cPrev": ["q.68052"],
+            "cNext": ["q.68632", "q.68054"],
             "cSiblings": ["character.achievement.quests.main-scenario.1791"],
             "patch": "4.31"
         },
@@ -1086,8 +945,8 @@
             "name_fr": "Retour aux affaires",
             "npc_en": "Hien",
             "npc_fr": "Hien",
-            "cPrev": [68053],
-            "cNext": [68055],
+            "cPrev": ["q.68053"],
+            "cNext": ["q.68055"],
             "patch": "4.31"
         },
         "x68055": {
@@ -1096,8 +955,8 @@
             "name_fr": "La soif d'indépendance",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68054],
-            "cNext": [68482],
+            "cPrev": ["q.68054"],
+            "cNext": ["q.68482"],
             "patch": "4.31"
         },
         "x68482": {
@@ -1106,18 +965,8 @@
             "name_fr": "Tataru l'entremetteuse",
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
-            "cPrev": [68055],
-            "cNext": [
-                "duty.quests.sidequests.othardian.yanxia.68342",
-                "duty.quests.sidequests.othardian.yanxia.68341",
-                "duty.quests.sidequests.othardian.yanxia.68343",
-                "duty.quests.sidequests.othardian.yanxia.68344",
-                "duty.quests.sidequests.othardian.yanxia.68346",
-                "duty.quests.sidequests.othardian.yanxia.68340",
-                68056,
-                "duty.quests.sidequests.othardian.yanxia.68345",
-                "duty.quests.sidequests.othardian.yanxia.68347"
-            ],
+            "cPrev": ["q.68055"],
+            "cNext": ["q.68342", "q.68341", "q.68343", "q.68344", "q.68346", "q.68340", "q.68056", "q.68345", "q.68347"],
             "patch": "4.31"
         },
         "x68056": {
@@ -1126,8 +975,8 @@
             "name_fr": "Les germes du désespoir",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68482],
-            "cNext": [68057],
+            "cPrev": ["q.68482"],
+            "cNext": ["q.68057"],
             "patch": "4.31"
         },
         "x68057": {
@@ -1136,8 +985,8 @@
             "name_fr": "L'union des Domiens",
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [68056],
-            "cNext": [68483],
+            "cPrev": ["q.68056"],
+            "cNext": ["q.68483"],
             "patch": "4.31"
         },
         "x68483": {
@@ -1146,8 +995,8 @@
             "name_fr": "Du métal pour survivre",
             "npc_en": "Tsuranuki",
             "npc_fr": "Tsuranuki",
-            "cPrev": [68057],
-            "cNext": [68058],
+            "cPrev": ["q.68057"],
+            "cNext": ["q.68058"],
             "patch": "4.31"
         },
         "x68058": {
@@ -1156,8 +1005,8 @@
             "name_fr": "Un seigneur et son château",
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
-            "cPrev": [68483],
-            "cNext": [68059],
+            "cPrev": ["q.68483"],
+            "cNext": ["q.68059"],
             "patch": "4.31"
         },
         "x68059": {
@@ -1166,8 +1015,8 @@
             "name_fr": "Un dernier verre",
             "npc_en": "Hien",
             "npc_fr": "Hien",
-            "cPrev": [68058],
-            "cNext": [68060],
+            "cPrev": ["q.68058"],
+            "cNext": ["q.68060"],
             "patch": "4.31"
         },
         "x68060": {
@@ -1177,8 +1026,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.sb.3",
             "npc_en": "Hien",
             "npc_fr": "Hien",
-            "cPrev": [68059],
-            "cNext": [68061],
+            "cPrev": ["q.68059"],
+            "cNext": ["q.68061"],
             "patch": "4.31"
         },
         "x68061": {
@@ -1187,14 +1036,8 @@
             "name_fr": "Doma retrouvée",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68060],
-            "cNext": [
-                "duty.quests.sidequests.hingan.kugane.68349",
-                "duty.quests.sidequests.hingan.kugane.68350",
-                "duty.quests.sidequests.hingan.kugane.68351",
-                68062,
-                "duty.quests.sidequests.hingan.kugane.68348"
-            ],
+            "cPrev": ["q.68060"],
+            "cNext": ["q.68349", "q.68350", "q.68351", "q.68062", "q.68348"],
             "patch": "4.31"
         },
         "x68062": {
@@ -1203,8 +1046,8 @@
             "name_fr": "Un départ discret",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68061],
-            "cNext": [68063],
+            "cPrev": ["q.68061"],
+            "cNext": ["q.68063"],
             "cSiblings": ["character.achievement.quests.main-scenario.1792"],
             "patch": "4.31"
         },
@@ -1214,8 +1057,8 @@
             "name_fr": "Accueil inattendu au port",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68062],
-            "cNext": [68064],
+            "cPrev": ["q.68062"],
+            "cNext": ["q.68064"],
             "patch": "4.31"
         },
         "x68064": {
@@ -1224,8 +1067,8 @@
             "name_fr": "La Comète de Rhalgr",
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn",
-            "cPrev": [68063],
-            "cNext": [68065],
+            "cPrev": ["q.68063"],
+            "cNext": ["q.68065"],
             "patch": "4.31"
         },
         "x68065": {
@@ -1234,8 +1077,8 @@
             "name_fr": "La chasse aux ennemis",
             "npc_en": "Conrad",
             "npc_fr": "Conrad",
-            "cPrev": [68064],
-            "cNext": [68066],
+            "cPrev": ["q.68064"],
+            "cNext": ["q.68066"],
             "patch": "4.31"
         },
         "x68066": {
@@ -1244,12 +1087,8 @@
             "name_fr": "Bienvenue chez les M",
             "npc_en": "Conrad",
             "npc_fr": "Conrad",
-            "cPrev": [68065],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68357",
-                68067,
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68356"
-            ],
+            "cPrev": ["q.68065"],
+            "cNext": ["q.68357", "q.68067", "q.68356"],
             "patch": "4.31"
         },
         "x68067": {
@@ -1258,14 +1097,8 @@
             "name_fr": "Deux tribus, une déesse",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68066],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68352",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68354",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68355",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68353",
-                68068
-            ],
+            "cPrev": ["q.68066"],
+            "cNext": ["q.68352", "q.68354", "q.68355", "q.68353", "q.68068"],
             "patch": "4.31"
         },
         "x68068": {
@@ -1275,8 +1108,8 @@
             "unlock": ["duty.dutyraid-finder.trials.sb.1", "travel.mount-speed.gyr-abania.1"],
             "npc_en": "Vajra",
             "npc_fr": "Vajra",
-            "cPrev": [68067],
-            "cNext": [68069],
+            "cPrev": ["q.68067"],
+            "cNext": ["q.68069"],
             "cSiblings": ["travel.mount-speed.gyr-abania.1"],
             "patch": "4.31"
         },
@@ -1287,17 +1120,8 @@
             "unlock": "travel.aether-currents.sb.the-fringes.14",
             "npc_en": "Vajra",
             "npc_fr": "Vajra",
-            "cPrev": [68068],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68358",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68362",
-                68070,
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68359",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68360",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68361",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68363",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68364"
-            ],
+            "cPrev": ["q.68068"],
+            "cNext": ["q.68358", "q.68362", "q.68070", "q.68359", "q.68360", "q.68361", "q.68363", "q.68364"],
             "cSiblings": ["travel.aether-currents.sb.the-fringes.14"],
             "patch": "4.31"
         },
@@ -1307,8 +1131,8 @@
             "name_fr": "En route vers Les Pics",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68069],
-            "cNext": [68071],
+            "cPrev": ["q.68069"],
+            "cNext": ["q.68071"],
             "patch": "4.31"
         },
         "x68071": {
@@ -1317,15 +1141,8 @@
             "name_fr": "Conseil militaire à Ala Ghiri",
             "npc_en": "M'naago",
             "npc_fr": "M'naago",
-            "cPrev": [68070],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68366",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68365",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68368",
-                68072,
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68367",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68369"
-            ],
+            "cPrev": ["q.68070"],
+            "cNext": ["q.68366", "q.68365", "q.68368", "q.68072", "q.68367", "q.68369"],
             "patch": "4.31"
         },
         "x68072": {
@@ -1334,8 +1151,8 @@
             "name_fr": "Une mission de soutien",
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [68071],
-            "cNext": [68073],
+            "cPrev": ["q.68071"],
+            "cNext": ["q.68073"],
             "patch": "4.31"
         },
         "x68073": {
@@ -1344,8 +1161,8 @@
             "name_fr": "Chaos à Specula Imperatoris",
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [68072],
-            "cNext": [68074],
+            "cPrev": ["q.68072"],
+            "cNext": ["q.68074"],
             "patch": "4.31"
         },
         "x68074": {
@@ -1354,8 +1171,8 @@
             "name_fr": "Un triste repli",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68073],
-            "cNext": [68075],
+            "cPrev": ["q.68073"],
+            "cNext": ["q.68075"],
             "patch": "4.31"
         },
         "x68075": {
@@ -1364,18 +1181,8 @@
             "name_fr": "La peine au fond du cœur",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68074],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68370",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68371",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68373",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68383",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68384",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68382",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68372",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68374",
-                68076
-            ],
+            "cPrev": ["q.68074"],
+            "cNext": ["q.68370", "q.68371", "q.68373", "q.68383", "q.68384", "q.68382", "q.68372", "q.68374", "q.68076"],
             "patch": "4.31"
         },
         "x68076": {
@@ -1384,8 +1191,8 @@
             "name_fr": "Avec vue sur la forteresse",
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
-            "cPrev": [68075],
-            "cNext": [68077],
+            "cPrev": ["q.68075"],
+            "cNext": ["q.68077"],
             "patch": "4.31"
         },
         "x68077": {
@@ -1394,17 +1201,8 @@
             "name_fr": "L'atout de Pipin",
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
-            "cPrev": [68076],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68378",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68380",
-                68078,
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68375",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68376",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68377",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68379",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68381"
-            ],
+            "cPrev": ["q.68076"],
+            "cNext": ["q.68378", "q.68380", "q.68078", "q.68375", "q.68376", "q.68377", "q.68379", "q.68381"],
             "patch": "4.31"
         },
         "x68078": {
@@ -1413,8 +1211,8 @@
             "name_fr": "À la solde de l'ennemi",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68077],
-            "cNext": [68079],
+            "cPrev": ["q.68077"],
+            "cNext": ["q.68079"],
             "patch": "4.31"
         },
         "x68079": {
@@ -1423,18 +1221,8 @@
             "name_fr": "Du courage au cœur",
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
-            "cPrev": [68078],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68387",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68391",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68389",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68385",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68386",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68388",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68390",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68392",
-                68080
-            ],
+            "cPrev": ["q.68078"],
+            "cNext": ["q.68387", "q.68391", "q.68389", "q.68385", "q.68386", "q.68388", "q.68390", "q.68392", "q.68080"],
             "patch": "4.31"
         },
         "x68080": {
@@ -1444,8 +1232,8 @@
             "unlock": ["duty.dutyraid-finder.dungeons.sb.4", "travel.mount-speed.gyr-abania.3"],
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68079],
-            "cNext": [68081],
+            "cPrev": ["q.68079"],
+            "cNext": ["q.68081"],
             "cSiblings": ["travel.mount-speed.gyr-abania.3"],
             "patch": "4.31"
         },
@@ -1455,18 +1243,18 @@
             "name_fr": "Le calcul de Raubahn",
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn",
-            "cPrev": [68080],
+            "cPrev": ["q.68080"],
             "cNext": [
-                68082,
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68396",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68399",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68400",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68394",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68393",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68395",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68397",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68398",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68401"
+                "q.68082",
+                "q.68396",
+                "q.68399",
+                "q.68400",
+                "q.68394",
+                "q.68393",
+                "q.68395",
+                "q.68397",
+                "q.68398",
+                "q.68401"
             ],
             "patch": "4.31"
         },
@@ -1477,12 +1265,8 @@
             "unlock": "travel.aether-currents.sb.the-peaks.14",
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn",
-            "cPrev": [68081],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68402",
-                68083,
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68403"
-            ],
+            "cPrev": ["q.68081"],
+            "cNext": ["q.68402", "q.68083", "q.68403"],
             "cSiblings": ["travel.aether-currents.sb.the-peaks.14"],
             "patch": "4.31"
         },
@@ -1492,18 +1276,18 @@
             "name_fr": "Dans le creux de la main",
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
-            "cPrev": [68082],
+            "cPrev": ["q.68082"],
             "cNext": [
-                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68404",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68412",
-                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68406",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68407",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68411",
-                68084,
-                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68405",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68408",
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68409",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68410"
+                "q.68404",
+                "q.68412",
+                "q.68406",
+                "q.68407",
+                "q.68411",
+                "q.68084",
+                "q.68405",
+                "q.68408",
+                "q.68409",
+                "q.68410"
             ],
             "cSiblings": ["character.achievement.quests.main-scenario.1793"],
             "patch": "4.31"
@@ -1514,14 +1298,8 @@
             "name_fr": "Rassemblements aux Lacs",
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
-            "cPrev": [68083],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-lochs.68413",
-                "duty.quests.sidequests.gyr-abanian.the-lochs.68416",
-                "duty.quests.sidequests.gyr-abanian.the-lochs.68415",
-                68085,
-                "duty.quests.sidequests.gyr-abanian.the-lochs.68414"
-            ],
+            "cPrev": ["q.68083"],
+            "cNext": ["q.68413", "q.68416", "q.68415", "q.68085", "q.68414"],
             "patch": "4.31"
         },
         "x68085": {
@@ -1530,8 +1308,8 @@
             "name_fr": "La clef des canaux",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68084],
-            "cNext": [68086],
+            "cPrev": ["q.68084"],
+            "cNext": ["q.68086"],
             "patch": "4.31"
         },
         "x68086": {
@@ -1541,8 +1319,8 @@
             "unlock": "travel.mount-speed.gyr-abania.5",
             "npc_en": "Lyse",
             "npc_fr": "Lyse",
-            "cPrev": [68085],
-            "cNext": [68087],
+            "cPrev": ["q.68085"],
+            "cNext": ["q.68087"],
             "cSiblings": ["travel.mount-speed.gyr-abania.5"],
             "patch": "4.31"
         },
@@ -1552,14 +1330,8 @@
             "name_fr": "La marche pour la liberté",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [68086],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-lochs.68417",
-                "duty.quests.sidequests.gyr-abanian.the-lochs.68419",
-                68088,
-                "duty.quests.sidequests.gyr-abanian.the-lochs.68418",
-                "duty.quests.sidequests.gyr-abanian.the-lochs.68420"
-            ],
+            "cPrev": ["q.68086"],
+            "cNext": ["q.68417", "q.68419", "q.68088", "q.68418", "q.68420"],
             "patch": "4.31"
         },
         "x68088": {
@@ -1568,8 +1340,8 @@
             "name_fr": "La grande porte d'Ala Mhigo",
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn",
-            "cPrev": [68087],
-            "cNext": [68089],
+            "cPrev": ["q.68087"],
+            "cNext": ["q.68089"],
             "patch": "4.31"
         },
         "x68089": {
@@ -1585,26 +1357,26 @@
             ],
             "npc_en": "Pipin",
             "npc_fr": "Pipin",
-            "cPrev": [68088],
+            "cPrev": ["q.68088"],
             "cNext": [
-                "duty.quests.sidequests.weapon-enhancement-sidequests.the-forbidden-land-eureka.68614",
-                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68476",
-                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68421",
-                "duty.quests.sidequests.uldahn.southern-thanalan.68422",
-                "duty.quests.other.special.collaboration.67090",
-                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68169",
-                "duty.quests.sidequests.hingan.kugane.68170",
-                "duty.quests.sidequests.uldahn.southern-thanalan.68423",
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68424",
-                "duty.quests.sidequests.gyr-abanian.the-lochs.68425",
-                "duty.quests.chronicles-of-a-new-era.omega.68464",
-                "duty.quests.other.quasi-quests.68479",
-                "duty.quests.main-scenario.post-stormblood.68498",
-                "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68539",
-                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68613",
-                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68678",
-                "duty.quests.sidequests.dravanian.idyllshire.68713",
-                "duty.quests.sidequests.hildibrand-sidequests.even-further-hildibrand-adventures.68544"
+                "q.68614",
+                "q.68476",
+                "q.68421",
+                "q.68422",
+                "q.67090",
+                "q.68169",
+                "q.68170",
+                "q.68423",
+                "q.68424",
+                "q.68425",
+                "q.68464",
+                "q.68479",
+                "q.68498",
+                "q.68539",
+                "q.68613",
+                "q.68678",
+                "q.68713",
+                "q.68544"
             ],
             "cSiblings": [
                 "character.achievement.quests.main-scenario.1794",

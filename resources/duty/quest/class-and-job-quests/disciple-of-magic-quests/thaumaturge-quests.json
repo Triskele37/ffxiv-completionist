@@ -9,8 +9,8 @@
             "name_fr": "La voie de l'occultisme",
             "npc_en": "Yayake",
             "npc_fr": "Yayake",
-            "cPrev": ["duty.quests.other.quasi-quests.65719"],
-            "cNext": [65882],
+            "cPrev": ["q.65719"],
+            "cNext": ["q.65882"],
             "patch": "4.31"
         },
         "x65882": {
@@ -19,8 +19,8 @@
             "name_fr": "Le sceptre de l'initiation",
             "npc_en": "Cocobuki",
             "npc_fr": "Cocobuki",
-            "cPrev": [65880],
-            "cNext": [65885, 65883],
+            "cPrev": ["q.65880"],
+            "cNext": ["q.65885", "q.65883"],
             "patch": "4.31"
         },
         "x65883": {
@@ -30,8 +30,8 @@
             "cPrevAny": true,
             "npc_en": "Cocobuki",
             "npc_fr": "Cocobuki",
-            "cPrev": [65880, 65882],
-            "cNext": [65885],
+            "cPrev": ["q.65880", "q.65882"],
+            "cNext": ["q.65885"],
             "patch": "4.31"
         },
         "x65885": {
@@ -40,8 +40,8 @@
             "name_fr": "Le tarissement fatal",
             "npc_en": "Cocobuki",
             "npc_fr": "Cocobuki",
-            "cPrev": [65882, 65883],
-            "cNext": [65886],
+            "cPrev": ["q.65882", "q.65883"],
+            "cNext": ["q.65886"],
             "patch": "4.31"
         },
         "x65886": {
@@ -50,8 +50,8 @@
             "name_fr": "La supériorité ennemie",
             "npc_en": "Cocobuki",
             "npc_fr": "Cocobuki",
-            "cPrev": [65885],
-            "cNext": [65887],
+            "cPrev": ["q.65885"],
+            "cNext": ["q.65887"],
             "patch": "4.31"
         },
         "x65887": {
@@ -60,8 +60,8 @@
             "name_fr": "L'encerclement nuisible",
             "npc_en": "Cocobuki",
             "npc_fr": "Cocobuki",
-            "cPrev": [65886],
-            "cNext": [65888],
+            "cPrev": ["q.65886"],
+            "cNext": ["q.65888"],
             "patch": "4.31"
         },
         "x65888": {
@@ -70,8 +70,8 @@
             "name_fr": "Une lueur au fond de l'abîme",
             "npc_en": "Cocobygo",
             "npc_fr": "Cocobygo",
-            "cPrev": [65887],
-            "cNext": [65889],
+            "cPrev": ["q.65887"],
+            "cNext": ["q.65889"],
             "patch": "4.31"
         },
         "x65889": {
@@ -80,8 +80,8 @@
             "name_fr": "L'occulte courage",
             "npc_en": "Cocobuki",
             "npc_fr": "Cocobuki",
-            "cPrev": [65888],
-            "cNext": ["duty.quests.class--job.disciple-of-magic-job.black-mage.66609"],
+            "cPrev": ["q.65888"],
+            "cNext": ["q.66609"],
             "cSiblings": ["character.adventure-plate.56"],
             "cCombo": [
                 "character.achievement.quests.job-role-quests.313",

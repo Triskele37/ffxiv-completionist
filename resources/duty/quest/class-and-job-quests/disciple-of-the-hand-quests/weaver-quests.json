@@ -9,8 +9,8 @@
             "name_fr": "La voie de la couture",
             "npc_en": "Maronne",
             "npc_fr": "Maronne",
-            "cPrev": ["duty.quests.other.quasi-quests.65725"],
-            "cNext": [66071],
+            "cPrev": ["q.65725"],
+            "cNext": ["q.66071"],
             "cSiblings": ["character.adventure-plate.79"],
             "patch": "4.31"
         },
@@ -20,8 +20,8 @@
             "name_fr": "De fil en aiguille",
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
-            "cPrev": [66070],
-            "cNext": [66123],
+            "cPrev": ["q.66070"],
+            "cNext": ["q.66123"],
             "patch": "4.31"
         },
         "x66123": {
@@ -30,8 +30,8 @@
             "name_fr": "À braies raccourcies",
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
-            "cPrev": [66071],
-            "cNext": [66125],
+            "cPrev": ["q.66071"],
+            "cNext": ["q.66125"],
             "patch": "4.31"
         },
         "x66125": {
@@ -40,8 +40,8 @@
             "name_fr": "Des étoffes pour les héros",
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
-            "cPrev": [66123],
-            "cNext": [66126],
+            "cPrev": ["q.66123"],
+            "cNext": ["q.66126"],
             "patch": "4.31"
         },
         "x66126": {
@@ -50,8 +50,8 @@
             "name_fr": "Mettre des gants",
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
-            "cPrev": [66125],
-            "cNext": [66127],
+            "cPrev": ["q.66125"],
+            "cNext": ["q.66127"],
             "patch": "4.31"
         },
         "x66127": {
@@ -60,8 +60,8 @@
             "name_fr": "Les torchons et les serviettes",
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
-            "cPrev": [66126],
-            "cNext": [66128],
+            "cPrev": ["q.66126"],
+            "cNext": ["q.66128"],
             "patch": "4.31"
         },
         "x66128": {
@@ -70,8 +70,8 @@
             "name_fr": "Il y a aiguille sous roche",
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
-            "cPrev": [66127],
-            "cNext": [66129],
+            "cPrev": ["q.66127"],
+            "cNext": ["q.66129"],
             "patch": "4.31"
         },
         "x66129": {
@@ -80,8 +80,8 @@
             "name_fr": "Ne perdons pas le fil",
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
-            "cPrev": [66128],
-            "cNext": [66187],
+            "cPrev": ["q.66128"],
+            "cNext": ["q.66187"],
             "cCombo": ["character.achievement.quests.job-role-quests.316"],
             "patch": "4.31"
         },
@@ -91,8 +91,8 @@
             "name_fr": "Mauvaise coordination",
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
-            "cPrev": [66129],
-            "cNext": [66188],
+            "cPrev": ["q.66129"],
+            "cNext": ["q.66188"],
             "patch": "4.31"
         },
         "x66188": {
@@ -101,8 +101,8 @@
             "name_fr": "Froid, moi? Jamais",
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
-            "cPrev": [66187],
-            "cNext": [66189],
+            "cPrev": ["q.66187"],
+            "cNext": ["q.66189"],
             "patch": "4.31"
         },
         "x66189": {
@@ -111,8 +111,8 @@
             "name_fr": "Le nouvel habit du mineur",
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
-            "cPrev": [66188],
-            "cNext": [66190],
+            "cPrev": ["q.66188"],
+            "cNext": ["q.66190"],
             "patch": "4.31"
         },
         "x66190": {
@@ -121,8 +121,8 @@
             "name_fr": "Coudre pour en découdre",
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
-            "cPrev": [66189],
-            "cNext": [67538],
+            "cPrev": ["q.66189"],
+            "cNext": ["q.67538"],
             "patch": "4.31"
         },
         "x67538": {
@@ -131,8 +131,8 @@
             "name_fr": "Tendances ishgardaises",
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
-            "cPrev": [66190, "duty.quests.main-scenario.seventh-astral-era.65964"],
-            "cNext": [67539],
+            "cPrev": ["q.66190", "q.65964"],
+            "cNext": ["q.67539"],
             "patch": "4.31"
         },
         "x67539": {
@@ -141,8 +141,8 @@
             "name_fr": "La plus belle pour aller goûter",
             "npc_en": "Averil",
             "npc_fr": "Averil",
-            "cPrev": [67538],
-            "cNext": [67540],
+            "cPrev": ["q.67538"],
+            "cNext": ["q.67540"],
             "patch": "4.31"
         },
         "x67540": {
@@ -151,8 +151,8 @@
             "name_fr": "Une fille entêtée",
             "npc_en": "Averil",
             "npc_fr": "Averil",
-            "cPrev": [67539],
-            "cNext": [67541],
+            "cPrev": ["q.67539"],
+            "cNext": ["q.67541"],
             "patch": "4.31"
         },
         "x67541": {
@@ -161,8 +161,8 @@
             "name_fr": "Une mère inquiète",
             "npc_en": "Averil",
             "npc_fr": "Averil",
-            "cPrev": [67540],
-            "cNext": [67542],
+            "cPrev": ["q.67540"],
+            "cNext": ["q.67542"],
             "patch": "4.31"
         },
         "x67542": {
@@ -171,8 +171,8 @@
             "name_fr": "L'histoire se répète",
             "npc_en": "Averil",
             "npc_fr": "Averil",
-            "cPrev": [67541],
-            "cNext": [67967],
+            "cPrev": ["q.67541"],
+            "cNext": ["q.67967"],
             "patch": "4.31"
         },
         "x67967": {
@@ -181,8 +181,8 @@
             "name_fr": "Invités de la marque",
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
-            "cPrev": [67542, "duty.quests.main-scenario.post-dragonsong.67895"],
-            "cNext": [67968],
+            "cPrev": ["q.67542", "q.67895"],
+            "cNext": ["q.67968"],
             "patch": "4.31"
         },
         "x67968": {
@@ -191,8 +191,8 @@
             "name_fr": "L'effet Kotocho",
             "npc_en": "Redolent Rose",
             "npc_fr": "Redolent Rose",
-            "cPrev": [67967],
-            "cNext": [67969],
+            "cPrev": ["q.67967"],
+            "cNext": ["q.67969"],
             "patch": "4.31"
         },
         "x67969": {
@@ -201,8 +201,8 @@
             "name_fr": "Kotocho de lumière",
             "npc_en": "Keimei",
             "npc_fr": "Keimei",
-            "cPrev": [67968],
-            "cNext": [67970],
+            "cPrev": ["q.67968"],
+            "cNext": ["q.67970"],
             "patch": "4.31"
         },
         "x67970": {
@@ -211,8 +211,8 @@
             "name_fr": "Tradition contre modernité",
             "npc_en": "Keimei",
             "npc_fr": "Keimei",
-            "cPrev": [67969],
-            "cNext": [67971],
+            "cPrev": ["q.67969"],
+            "cNext": ["q.67971"],
             "patch": "4.31"
         },
         "x67971": {
@@ -221,7 +221,7 @@
             "name_fr": "Elle veut juste une dernière danse",
             "npc_en": "Keimei",
             "npc_fr": "Keimei",
-            "cPrev": [67970],
+            "cPrev": ["q.67970"],
             "cSiblings": ["character.adventure-plate.78"],
             "patch": "4.31"
         }

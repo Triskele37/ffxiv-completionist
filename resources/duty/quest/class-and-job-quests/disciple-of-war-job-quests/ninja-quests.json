@@ -9,11 +9,8 @@
             "name_fr": "Les visiteurs de l'ombre",
             "npc_en": "Jacke",
             "npc_fr": "Jacke",
-            "cPrev": [
-                "duty.quests.class--job.disciple-of-war.rogue.65691",
-                "duty.quests.main-scenario.seventh-umbral-era.66049"
-            ],
-            "cNext": [65749],
+            "cPrev": ["q.65691", "q.66049"],
+            "cNext": ["q.65749"],
             "cSiblings": ["character.adventure-plate.38"],
             "patch": "4.31"
         },
@@ -23,8 +20,8 @@
             "name_fr": "Le cœur et les lames",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [65748],
-            "cNext": [65750],
+            "cPrev": ["q.65748"],
+            "cNext": ["q.65750"],
             "patch": "4.31"
         },
         "x65750": {
@@ -33,8 +30,8 @@
             "name_fr": "Il ne suffira pas d'un signe",
             "npc_en": "Tsubame",
             "npc_fr": "Tsubame",
-            "cPrev": [65749],
-            "cNext": [65751],
+            "cPrev": ["q.65749"],
+            "cNext": ["q.65751"],
             "patch": "4.31"
         },
         "x65751": {
@@ -43,8 +40,8 @@
             "name_fr": "L'épreuve de la cascade",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [65750],
-            "cNext": [65752],
+            "cPrev": ["q.65750"],
+            "cNext": ["q.65752"],
             "patch": "4.31"
         },
         "x65752": {
@@ -53,8 +50,8 @@
             "name_fr": "La chasse est ouverte",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [65751],
-            "cNext": [65753],
+            "cPrev": ["q.65751"],
+            "cNext": ["q.65753"],
             "patch": "4.31"
         },
         "x65753": {
@@ -63,8 +60,8 @@
             "name_fr": "Sur les traces de Karasu",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [65752],
-            "cNext": [65768],
+            "cPrev": ["q.65752"],
+            "cNext": ["q.65768"],
             "patch": "4.31"
         },
         "x65768": {
@@ -73,8 +70,8 @@
             "name_fr": "Tenue de ninja exigée",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [65753],
-            "cNext": [65769],
+            "cPrev": ["q.65753"],
+            "cNext": ["q.65769"],
             "patch": "4.31"
         },
         "x65769": {
@@ -83,8 +80,8 @@
             "name_fr": "À cœur ouvert",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [65768],
-            "cNext": [65770],
+            "cPrev": ["q.65768"],
+            "cNext": ["q.65770"],
             "patch": "4.31"
         },
         "x65770": {
@@ -93,8 +90,8 @@
             "name_fr": "Écouter son cœur",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [65769],
-            "cNext": [67115, 65771],
+            "cPrev": ["q.65769"],
+            "cNext": ["q.67115", "q.65771"],
             "cSiblings": ["character.achievement.quests.job-role-quests.1052"],
             "patch": "4.31"
         },
@@ -104,7 +101,7 @@
             "name_fr": "Restauration des Yoshimitsu",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [65770, "duty.quests.sidequests.uldahn.western-thanalan.66241"],
+            "cPrev": ["q.65770", "q.66241"],
             "patch": "4.31"
         },
         "x65771": {
@@ -113,8 +110,8 @@
             "name_fr": "De nouveaux visiteurs d'Orient",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [65770, "duty.quests.main-scenario.seventh-astral-era.65964"],
-            "cNext": [67220],
+            "cPrev": ["q.65770", "q.65964"],
+            "cNext": ["q.67220"],
             "patch": "4.31"
         },
         "x67220": {
@@ -123,8 +120,8 @@
             "name_fr": "Une princesse forte tête",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [65771],
-            "cNext": [67221],
+            "cPrev": ["q.65771"],
+            "cNext": ["q.67221"],
             "patch": "4.31"
         },
         "x67221": {
@@ -133,8 +130,8 @@
             "name_fr": "La dernière ombre",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [67220],
-            "cNext": [67222],
+            "cPrev": ["q.67220"],
+            "cNext": ["q.67222"],
             "patch": "4.31"
         },
         "x67222": {
@@ -143,8 +140,8 @@
             "name_fr": "Une promesse, une mission",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [67221],
-            "cNext": [67223],
+            "cPrev": ["q.67221"],
+            "cNext": ["q.67223"],
             "patch": "4.31"
         },
         "x67223": {
@@ -153,8 +150,8 @@
             "name_fr": "Sieste en forêt",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [67222],
-            "cNext": [67224],
+            "cPrev": ["q.67222"],
+            "cNext": ["q.67224"],
             "patch": "4.31"
         },
         "x67224": {
@@ -163,8 +160,8 @@
             "name_fr": "Unis pour Inokuni",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [67223],
-            "cNext": [68484],
+            "cPrev": ["q.67223"],
+            "cNext": ["q.68484"],
             "cSiblings": ["character.achievement.quests.job-role-quests.1150"],
             "patch": "4.31"
         },
@@ -174,8 +171,8 @@
             "name_fr": "À la poursuite du parchemin perdu",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [67224, "duty.quests.main-scenario.post-dragonsong.67895"],
-            "cNext": [68485],
+            "cPrev": ["q.67224", "q.67895"],
+            "cNext": ["q.68485"],
             "patch": "4.31"
         },
         "x68485": {
@@ -184,8 +181,8 @@
             "name_fr": "Un, deux, trois, nous irons aux bains",
             "npc_en": "Yomei",
             "npc_fr": "Yomei",
-            "cPrev": [68484],
-            "cNext": [68486],
+            "cPrev": ["q.68484"],
+            "cNext": ["q.68486"],
             "patch": "4.31"
         },
         "x68486": {
@@ -194,8 +191,8 @@
             "name_fr": "La renarde et les oisillons",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [68485],
-            "cNext": [68487],
+            "cPrev": ["q.68485"],
+            "cNext": ["q.68487"],
             "patch": "4.31"
         },
         "x68487": {
@@ -204,8 +201,8 @@
             "name_fr": "L'histoire secrète de Sasuke",
             "npc_en": "Jacke",
             "npc_fr": "Jacke",
-            "cPrev": [68486],
-            "cNext": [68488],
+            "cPrev": ["q.68486"],
+            "cNext": ["q.68488"],
             "patch": "4.31"
         },
         "x68488": {
@@ -214,8 +211,8 @@
             "name_fr": "La bataille des clans",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [68487],
-            "cNext": [68755],
+            "cPrev": ["q.68487"],
+            "cNext": ["q.68755"],
             "cSiblings": ["character.achievement.quests.job-role-quests.1806"],
             "patch": "4.31"
         },
@@ -225,7 +222,7 @@
             "name_fr": "Et pour quelques coupes de plus",
             "npc_en": "Oboro",
             "npc_fr": "Oboro",
-            "cPrev": [68488, "duty.quests.class--job.role.shb.68814", "duty.quests.main-scenario.shadowbringers.69190"],
+            "cPrev": ["q.68488", "q.68814", "q.69190"],
             "cSiblings": ["character.adventure-plate.37", "character.achievement.quests.job-role-quests.2315"],
             "patch": "5.0"
         }

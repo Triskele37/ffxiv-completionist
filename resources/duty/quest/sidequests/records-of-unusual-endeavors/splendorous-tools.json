@@ -9,8 +9,8 @@
             "name_fr": "L'inspiration venue du for intérieur",
             "npc_en": "Chora-Zoi",
             "npc_fr": "Chora-Zoi",
-            "cPrev": ["duty.quests.main-scenario.endwalker.70000", "duty.quests.other.quasi-quests.69139"],
-            "cNext": [70267],
+            "cPrev": ["q.70000", "q.69139"],
+            "cNext": ["q.70267"],
             "patch": "6.35"
         },
         "x70267": {
@@ -19,8 +19,8 @@
             "name_fr": "L'intégrité comme outil de persuasion",
             "npc_en": "Chora-Zoi",
             "npc_fr": "Chora-Zoi",
-            "cPrev": [70266],
-            "cNext": [70268],
+            "cPrev": ["q.70266"],
+            "cNext": ["q.70268"],
             "patch": "6.35"
         },
         "x70268": {
@@ -29,8 +29,8 @@
             "name_fr": "Dites-le avec des outils",
             "npc_en": "Chora-Zoi",
             "npc_fr": "Chora-Zoi",
-            "cPrev": [70267],
-            "cNext": [70303],
+            "cPrev": ["q.70267"],
+            "cNext": ["q.70303"],
             "cSiblings": ["character.achievement.quests.quests.3192"],
             "patch": "6.35"
         },
@@ -40,8 +40,8 @@
             "name_fr": "Un défi pour Chora-Zoi",
             "npc_en": "Grenoldt",
             "npc_fr": "Grenoldt",
-            "cPrev": [70268],
-            "cNext": [70304],
+            "cPrev": ["q.70268"],
+            "cNext": ["q.70304"],
             "patch": "6.45"
         },
         "x70304": {
@@ -50,8 +50,8 @@
             "name_fr": "Améliorés et bariolés",
             "npc_en": "Chora-Zoi",
             "npc_fr": "Chora-Zoi",
-            "cPrev": [70303],
-            "cNext": [70305],
+            "cPrev": ["q.70303"],
+            "cNext": ["q.70305"],
             "patch": "6.45"
         },
         "x70305": {
@@ -60,8 +60,8 @@
             "name_fr": "Splendide, tel est son nom",
             "npc_en": "Chora-Zoi",
             "npc_fr": "Chora-Zoi",
-            "cPrev": [70304],
-            "cNext": [70306],
+            "cPrev": ["q.70304"],
+            "cNext": ["q.70306"],
             "patch": "6.45"
         },
         "x70306": {
@@ -70,8 +70,8 @@
             "name_fr": "Une soirée bien arrosée",
             "npc_en": "Grenoldt",
             "npc_fr": "Grenoldt",
-            "cPrev": [70305],
-            "cNext": [70338],
+            "cPrev": ["q.70305"],
+            "cNext": ["q.70338"],
             "cSiblings": ["character.achievement.quests.quests.3304"],
             "patch": "6.45"
         },
@@ -81,8 +81,8 @@
             "name_fr": "La grande décision",
             "npc_en": "Grenoldt",
             "npc_fr": "Grenoldt",
-            "cPrev": [70306],
-            "cNext": [70339],
+            "cPrev": ["q.70306"],
+            "cNext": ["q.70339"],
             "patch": "6.51"
         },
         "x70339": {
@@ -91,8 +91,8 @@
             "name_fr": "Plus qu'un outil, un symbole",
             "npc_en": "Chora-Zoi",
             "npc_fr": "Chora-Zoi",
-            "cPrev": [70338],
-            "cNext": [70340],
+            "cPrev": ["q.70338"],
+            "cNext": ["q.70340"],
             "patch": "6.51"
         },
         "x70340": {
@@ -101,8 +101,8 @@
             "name_fr": "Finition scintillante",
             "npc_en": "Chora-Zoi",
             "npc_fr": "Chora-Zoi",
-            "cPrev": [70339],
-            "cNext": [70341],
+            "cPrev": ["q.70339"],
+            "cNext": ["q.70341"],
             "patch": "6.51"
         },
         "x70341": {
@@ -111,7 +111,7 @@
             "name_fr": "Une bouilloire pour deux",
             "npc_en": "Grenoldt",
             "npc_fr": "Grenoldt",
-            "cPrev": [70340],
+            "cPrev": ["q.70340"],
             "patch": "6.51"
         }
     }

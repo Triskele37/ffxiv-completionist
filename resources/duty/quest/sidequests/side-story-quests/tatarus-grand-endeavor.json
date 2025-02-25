@@ -9,8 +9,8 @@
             "name_fr": "Opération promotionnelle",
             "npc_en": "Mehdjina",
             "npc_fr": "Mehdjina",
-            "cPrev": ["duty.quests.main-scenario.post-endwalker.70062"],
-            "cNext": [70186, 70198],
+            "cPrev": ["q.70062"],
+            "cNext": ["q.70186", "q.70198"],
             "patch": "6.28"
         },
         "x70186": {
@@ -19,7 +19,7 @@
             "name_fr": "Échantillons et tribulations",
             "npc_en": "Mehdjina",
             "npc_fr": "Mehdjina",
-            "cPrev": [70119],
+            "cPrev": ["q.70119"],
             "patch": "6.28"
         },
         "x70198": {
@@ -28,7 +28,7 @@
             "name_fr": "Arnaque, couture et boutique",
             "npc_en": "Mehdjina",
             "npc_fr": "Mehdjina",
-            "cPrev": [70119],
+            "cPrev": ["q.70119"],
             "patch": "6.3"
         },
         "x70297": {
@@ -37,8 +37,8 @@
             "name_fr": "Voyageur, représentant et... pilote",
             "npc_en": "Mehdjina",
             "npc_fr": "Mehdjina",
-            "cPrev": [70119],
-            "cNext": [70298],
+            "cPrev": ["q.70119"],
+            "cNext": ["q.70298"],
             "patch": "6.4"
         },
         "x70298": {
@@ -47,7 +47,7 @@
             "name_fr": "Son rêve, le temps d'une toile",
             "npc_en": "Gaius",
             "npc_fr": "Gaius",
-            "cPrev": [70297],
+            "cPrev": ["q.70297"],
             "patch": "6.4"
         },
         "x70348": {
@@ -56,8 +56,8 @@
             "name_fr": "L'appel des racines",
             "npc_en": "Mehdjina",
             "npc_fr": "Mehdjina",
-            "cPrev": [70186, 70198],
-            "cNext": [70349],
+            "cPrev": ["q.70186", "q.70198"],
+            "cNext": ["q.70349"],
             "patch": "6.55"
         },
         "x70349": {
@@ -66,7 +66,7 @@
             "name_fr": "Longue vie à la Tarufacture!",
             "npc_en": "Hasdahd",
             "npc_fr": "Hasdahd",
-            "cPrev": [70348],
+            "cPrev": ["q.70348"],
             "cSiblings": ["character.achievement.quests.quests.3410"],
             "patch": "6.55"
         }

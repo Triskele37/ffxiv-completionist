@@ -9,11 +9,8 @@
             "name_fr": "Qui qui qui sont les Qitari?",
             "npc_en": "Concerned Mother",
             "npc_fr": "Mère Inquiète",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68877",
-                "duty.quests.sidequests.raktika.the-raktika-greatwood.69018"
-            ],
-            "cNext": [69331],
+            "cPrev": ["q.68877", "q.69018"],
+            "cNext": ["q.69331"],
             "cSiblings": ["character.character.tribal-relations.80"],
             "patch": "5.2"
         },
@@ -25,8 +22,8 @@
             "npc_fr": "Chaqurl Qhotl",
             "reputation_en": "Friendly",
             "reputation_fr": "Ami",
-            "cPrev": [69330],
-            "cNext": [69336, 69337],
+            "cPrev": ["q.69330"],
+            "cNext": ["q.69336", "q.69337"],
             "cSiblings": ["character.character.tribal-relations.81"],
             "patch": "5.2"
         },
@@ -38,9 +35,9 @@
             "npc_fr": "Qitarl Natl",
             "reputation_en": "Trusted",
             "reputation_fr": "Estimé",
-            "cPrev": [69331],
-            "cNext": [69332],
-            "cExclude": [69337],
+            "cPrev": ["q.69331"],
+            "cNext": ["q.69332"],
+            "cExclude": ["q.69337"],
             "patch": "5.2"
         },
         "x69337": {
@@ -51,9 +48,9 @@
             "npc_fr": "Chaqurl Qhotl",
             "reputation_en": "Trusted",
             "reputation_fr": "Estimé",
-            "cPrev": [69331],
-            "cNext": [69332],
-            "cExclude": [69336],
+            "cPrev": ["q.69331"],
+            "cNext": ["q.69332"],
+            "cExclude": ["q.69336"],
             "patch": "5.2"
         },
         "x69332": {
@@ -65,8 +62,8 @@
             "npc_fr": "Grand Serpent Des Qitari?",
             "reputation_en": "Trusted",
             "reputation_fr": "Estimé",
-            "cPrev": [69336, 69337],
-            "cNext": [69338, 69339],
+            "cPrev": ["q.69336", "q.69337"],
+            "cNext": ["q.69338", "q.69339"],
             "cSiblings": ["character.character.tribal-relations.82"],
             "patch": "5.2"
         },
@@ -78,9 +75,9 @@
             "npc_fr": "Qitarl Natl",
             "reputation_en": "Respected",
             "reputation_fr": "Respecté",
-            "cPrev": [69332],
-            "cNext": [69333],
-            "cExclude": [69339],
+            "cPrev": ["q.69332"],
+            "cNext": ["q.69333"],
+            "cExclude": ["q.69339"],
             "patch": "5.2"
         },
         "x69339": {
@@ -91,9 +88,9 @@
             "npc_fr": "Chaqurl Qhotl",
             "reputation_en": "Respected",
             "reputation_fr": "Respecté",
-            "cPrev": [69332],
-            "cNext": [69333],
-            "cExclude": [69338],
+            "cPrev": ["q.69332"],
+            "cNext": ["q.69333"],
+            "cExclude": ["q.69338"],
             "patch": "5.2"
         },
         "x69333": {
@@ -105,8 +102,8 @@
             "npc_fr": "Grand Serpent Des Qitari?",
             "reputation_en": "Respected",
             "reputation_fr": "Respecté",
-            "cPrev": [69338, 69339],
-            "cNext": [69340, 69341],
+            "cPrev": ["q.69338", "q.69339"],
+            "cNext": ["q.69340", "q.69341"],
             "cSiblings": ["character.character.tribal-relations.83"],
             "patch": "5.2"
         },
@@ -118,9 +115,9 @@
             "npc_fr": "Qitarl Natl",
             "reputation_en": "Honored",
             "reputation_fr": "Émérite",
-            "cPrev": [69333],
-            "cNext": [69334],
-            "cExclude": [69341],
+            "cPrev": ["q.69333"],
+            "cNext": ["q.69334"],
+            "cExclude": ["q.69341"],
             "patch": "5.2"
         },
         "x69341": {
@@ -131,9 +128,9 @@
             "npc_fr": "Chaqurl Qhotl",
             "reputation_en": "Honored",
             "reputation_fr": "Émérite",
-            "cPrev": [69333],
-            "cNext": [69334],
-            "cExclude": [69340],
+            "cPrev": ["q.69333"],
+            "cNext": ["q.69334"],
+            "cExclude": ["q.69340"],
             "patch": "5.2"
         },
         "x69334": {
@@ -145,8 +142,8 @@
             "npc_fr": "Grand Serpent Des Qitari?",
             "reputation_en": "Honored",
             "reputation_fr": "Émérite",
-            "cPrev": [69340, 69341],
-            "cNext": [69335],
+            "cPrev": ["q.69340", "q.69341"],
+            "cNext": ["q.69335"],
             "cSiblings": ["character.character.tribal-relations.84"],
             "patch": "5.2"
         },
@@ -158,7 +155,7 @@
             "npc_fr": "Chaqurl Qhotl",
             "reputation_en": "Sworn",
             "reputation_fr": "Assermenté",
-            "cPrev": [69334],
+            "cPrev": ["q.69334"],
             "cSiblings": ["character.character.tribal-relations.85"],
             "patch": "5.2"
         }

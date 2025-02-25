@@ -9,8 +9,8 @@
             "name_fr": "La voie de la tannerie",
             "npc_en": "Randall",
             "npc_fr": "Randall",
-            "cPrev": ["duty.quests.other.quasi-quests.65724"],
-            "cNext": [65745],
+            "cPrev": ["q.65724"],
+            "cNext": ["q.65745"],
             "cSiblings": ["character.adventure-plate.77"],
             "patch": "4.31"
         },
@@ -20,8 +20,8 @@
             "name_fr": "Jouer du couteau",
             "npc_en": "Geva",
             "npc_fr": "Geva",
-            "cPrev": [65641],
-            "cNext": [65642],
+            "cPrev": ["q.65641"],
+            "cNext": ["q.65642"],
             "patch": "4.31"
         },
         "x65642": {
@@ -30,8 +30,8 @@
             "name_fr": "Un test de technique",
             "npc_en": "Geva",
             "npc_fr": "Geva",
-            "cPrev": [65745],
-            "cNext": [65671],
+            "cPrev": ["q.65745"],
+            "cNext": ["q.65671"],
             "patch": "4.31"
         },
         "x65671": {
@@ -40,8 +40,8 @@
             "name_fr": "Un premier travail pour Fen-Yll",
             "npc_en": "Geva",
             "npc_fr": "Geva",
-            "cPrev": [65642],
-            "cNext": [65672],
+            "cPrev": ["q.65642"],
+            "cNext": ["q.65672"],
             "patch": "4.31"
         },
         "x65672": {
@@ -50,8 +50,8 @@
             "name_fr": "Avoir la peau dure",
             "npc_en": "Geva",
             "npc_fr": "Geva",
-            "cPrev": [65671],
-            "cNext": [65673],
+            "cPrev": ["q.65671"],
+            "cNext": ["q.65673"],
             "patch": "4.31"
         },
         "x65673": {
@@ -60,8 +60,8 @@
             "name_fr": "Tant qu'il y a de la vie, il y a du cuir",
             "npc_en": "Geva",
             "npc_fr": "Geva",
-            "cPrev": [65672],
-            "cNext": [65587],
+            "cPrev": ["q.65672"],
+            "cNext": ["q.65587"],
             "patch": "4.31"
         },
         "x65587": {
@@ -70,8 +70,8 @@
             "name_fr": "Contrefaçon",
             "npc_en": "Geva",
             "npc_fr": "Geva",
-            "cPrev": [65673],
-            "cNext": [65597],
+            "cPrev": ["q.65673"],
+            "cNext": ["q.65597"],
             "patch": "4.31"
         },
         "x65597": {
@@ -80,8 +80,8 @@
             "name_fr": "Les défauts de la cuirasse",
             "npc_en": "Geva",
             "npc_fr": "Geva",
-            "cPrev": [65587],
-            "cNext": [65599],
+            "cPrev": ["q.65587"],
+            "cNext": ["q.65599"],
             "cCombo": ["character.achievement.quests.job-role-quests.316"],
             "patch": "4.31"
         },
@@ -91,8 +91,8 @@
             "name_fr": "Donner l'exemple",
             "npc_en": "Geva",
             "npc_fr": "Geva",
-            "cPrev": [65597],
-            "cNext": [65600],
+            "cPrev": ["q.65597"],
+            "cNext": ["q.65600"],
             "patch": "4.31"
         },
         "x65600": {
@@ -101,8 +101,8 @@
             "name_fr": "La marque de qualité",
             "npc_en": "Geva",
             "npc_fr": "Geva",
-            "cPrev": [65599],
-            "cNext": [65601],
+            "cPrev": ["q.65599"],
+            "cNext": ["q.65601"],
             "patch": "4.31"
         },
         "x65601": {
@@ -111,8 +111,8 @@
             "name_fr": "Dissension dans les rangs",
             "npc_en": "Geva",
             "npc_fr": "Geva",
-            "cPrev": [65600],
-            "cNext": [65602],
+            "cPrev": ["q.65600"],
+            "cNext": ["q.65602"],
             "patch": "4.31"
         },
         "x65602": {
@@ -121,8 +121,8 @@
             "name_fr": "Le concours",
             "npc_en": "Geva",
             "npc_fr": "Geva",
-            "cPrev": [65601],
-            "cNext": [67611],
+            "cPrev": ["q.65601"],
+            "cNext": ["q.67611"],
             "patch": "4.31"
         },
         "x67611": {
@@ -131,8 +131,8 @@
             "name_fr": "Lutter contre l'injustice",
             "npc_en": "Geva",
             "npc_fr": "Geva",
-            "cPrev": [65602, "duty.quests.main-scenario.seventh-astral-era.65964"],
-            "cNext": [67612],
+            "cPrev": ["q.65602", "q.65964"],
+            "cNext": ["q.67612"],
             "patch": "4.31"
         },
         "x67612": {
@@ -141,8 +141,8 @@
             "name_fr": "Valoir son pesant de cuir",
             "npc_en": "Elde",
             "npc_fr": "Elde",
-            "cPrev": [67611],
-            "cNext": [67613],
+            "cPrev": ["q.67611"],
+            "cNext": ["q.67613"],
             "patch": "4.31"
         },
         "x67613": {
@@ -151,8 +151,8 @@
             "name_fr": "La mode à petits prix",
             "npc_en": "Elde",
             "npc_fr": "Elde",
-            "cPrev": [67612],
-            "cNext": [67614],
+            "cPrev": ["q.67612"],
+            "cNext": ["q.67614"],
             "patch": "4.31"
         },
         "x67614": {
@@ -161,8 +161,8 @@
             "name_fr": "Montée en gamme",
             "npc_en": "Elde",
             "npc_fr": "Elde",
-            "cPrev": [67613],
-            "cNext": [67615],
+            "cPrev": ["q.67613"],
+            "cNext": ["q.67615"],
             "patch": "4.31"
         },
         "x67615": {
@@ -171,8 +171,8 @@
             "name_fr": "Souple comme le cuir, solide comme l'acier",
             "npc_en": "Elde",
             "npc_fr": "Elde",
-            "cPrev": [67614],
-            "cNext": [68145],
+            "cPrev": ["q.67614"],
+            "cNext": ["q.68145"],
             "patch": "4.31"
         },
         "x68145": {
@@ -181,8 +181,8 @@
             "name_fr": "La naturaliste et le taxidermiste",
             "npc_en": "Geva",
             "npc_fr": "Geva",
-            "cPrev": [67615, "duty.quests.main-scenario.post-dragonsong.67895"],
-            "cNext": [68146],
+            "cPrev": ["q.67615", "q.67895"],
+            "cNext": ["q.68146"],
             "patch": "4.31"
         },
         "x68146": {
@@ -191,8 +191,8 @@
             "name_fr": "Commençons par un dhalmel",
             "npc_en": "Atelloune",
             "npc_fr": "Atelloune",
-            "cPrev": [68145],
-            "cNext": [68147],
+            "cPrev": ["q.68145"],
+            "cNext": ["q.68147"],
             "patch": "4.31"
         },
         "x68147": {
@@ -201,8 +201,8 @@
             "name_fr": "Pour ne jamais oublier",
             "npc_en": "Atelloune",
             "npc_fr": "Atelloune",
-            "cPrev": [68146],
-            "cNext": [68150],
+            "cPrev": ["q.68146"],
+            "cNext": ["q.68150"],
             "patch": "4.31"
         },
         "x68150": {
@@ -211,8 +211,8 @@
             "name_fr": "Œuvre blasphématoire",
             "npc_en": "Atelloune",
             "npc_fr": "Atelloune",
-            "cPrev": [68147],
-            "cNext": [68151],
+            "cPrev": ["q.68147"],
+            "cNext": ["q.68151"],
             "patch": "4.31"
         },
         "x68151": {
@@ -221,7 +221,7 @@
             "name_fr": "La valeur de la Vie",
             "npc_en": "Atelloune",
             "npc_fr": "Atelloune",
-            "cPrev": [68150],
+            "cPrev": ["q.68150"],
             "cSiblings": ["character.adventure-plate.76"],
             "patch": "4.31"
         }

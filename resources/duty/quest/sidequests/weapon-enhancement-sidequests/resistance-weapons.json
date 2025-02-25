@@ -9,11 +9,8 @@
             "name_fr": "La relique perdue",
             "npc_en": "Keiten",
             "npc_fr": "Keiten",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69190",
-                "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68725"
-            ],
-            "cNext": [69371],
+            "cPrev": ["q.69190", "q.68725"],
+            "cNext": ["q.69371"],
             "patch": "5.25"
         },
         "x69371": {
@@ -22,8 +19,8 @@
             "name_fr": "Les lames de Gunnhildr et les fileurs de songes",
             "npc_en": "Marsak",
             "npc_fr": "Marsak",
-            "cPrev": [69370],
-            "cNext": [69372],
+            "cPrev": ["q.69370"],
+            "cNext": ["q.69372"],
             "patch": "5.25"
         },
         "x69372": {
@@ -32,8 +29,8 @@
             "name_fr": "Prélude à la catastrophe",
             "npc_en": "Ironworks Engineer",
             "npc_fr": "Employée Des Forges",
-            "cPrev": [69371],
-            "cNext": [69380, 69477],
+            "cPrev": ["q.69371"],
+            "cNext": ["q.69380", "q.69477"],
             "cSiblings": ["character.achievement.quests.quests.2607"],
             "patch": "5.25"
         },
@@ -43,8 +40,8 @@
             "name_fr": "Une nouvelle lame pour Gunnhildr",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [69372],
-            "cNext": [69381, 69477],
+            "cPrev": ["q.69372"],
+            "cNext": ["q.69381", "q.69477"],
             "patch": "5.25"
         },
         "x69381": {
@@ -53,7 +50,7 @@
             "name_fr": "L'arsenal des résistants",
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
-            "cPrev": [69380],
+            "cPrev": ["q.69380"],
             "patch": "5.25"
         },
         "x69477": {
@@ -62,8 +59,8 @@
             "name_fr": "Opération Aire des aigles",
             "npc_en": "Marsak",
             "npc_fr": "Marsak",
-            "cPrev": [69372, 69380, "duty.quests.main-scenario.post-shadowbringers.69218"],
-            "cNext": ["duty.quests.other.quasi-quests.69478", 69505],
+            "cPrev": ["q.69372", "q.69380", "q.69218"],
+            "cNext": ["q.69478", "q.69505"],
             "patch": "5.35"
         },
         "x69479": {
@@ -72,8 +69,8 @@
             "name_fr": "Des affrontements cruciaux",
             "npc_en": "Dmitar",
             "npc_fr": "Dmitar",
-            "cPrev": ["duty.quests.other.quasi-quests.69478"],
-            "cNext": [69480],
+            "cPrev": ["q.69478"],
+            "cNext": ["q.69480"],
             "patch": "5.35"
         },
         "x69480": {
@@ -82,8 +79,8 @@
             "name_fr": "Résurrection du savoir d'antan",
             "npc_en": "Dmitar",
             "npc_fr": "Dmitar",
-            "cPrev": [69479],
-            "cNext": [69481],
+            "cPrev": ["q.69479"],
+            "cNext": ["q.69481"],
             "patch": "5.35"
         },
         "x69481": {
@@ -92,8 +89,8 @@
             "name_fr": "L'envol des aigles",
             "npc_en": "Dmitar",
             "npc_fr": "Dmitar",
-            "cPrev": [69480],
-            "cNext": [69482],
+            "cPrev": ["q.69480"],
+            "cNext": ["q.69482"],
             "patch": "5.35"
         },
         "x69482": {
@@ -102,8 +99,8 @@
             "name_fr": "Le b.a.-ba de l'éthérotriangulation",
             "npc_en": "Mikoto",
             "npc_fr": "Mikoto",
-            "cPrev": [69481],
-            "cNext": [69483],
+            "cPrev": ["q.69481"],
+            "cNext": ["q.69483"],
             "patch": "5.35"
         },
         "x69483": {
@@ -112,8 +109,8 @@
             "name_fr": "Le troisième courant éthéré",
             "npc_en": "Mikoto",
             "npc_fr": "Mikoto",
-            "cPrev": [69482],
-            "cNext": [69484],
+            "cPrev": ["q.69482"],
+            "cNext": ["q.69484"],
             "patch": "5.35"
         },
         "x69484": {
@@ -122,8 +119,8 @@
             "name_fr": "La percée des aigles",
             "npc_en": "Dmitar",
             "npc_fr": "Dmitar",
-            "cPrev": [69483],
-            "cNext": [69485],
+            "cPrev": ["q.69483"],
+            "cNext": ["q.69485"],
             "patch": "5.35"
         },
         "x69485": {
@@ -132,8 +129,8 @@
             "name_fr": "Faire le plein d'éther",
             "npc_en": "Mikoto",
             "npc_fr": "Mikoto",
-            "cPrev": [69484],
-            "cNext": [69486],
+            "cPrev": ["q.69484"],
+            "cNext": ["q.69486"],
             "patch": "5.35"
         },
         "x69486": {
@@ -142,8 +139,8 @@
             "name_fr": "Lilja à la rescousse!",
             "npc_en": "Lilja",
             "npc_fr": "Lilja",
-            "cPrev": [69485],
-            "cNext": [69487],
+            "cPrev": ["q.69485"],
+            "cNext": ["q.69487"],
             "patch": "5.35"
         },
         "x69487": {
@@ -152,8 +149,8 @@
             "name_fr": "L'épée sacrée Garde-la-Reine",
             "npc_en": "Bajsaljen",
             "npc_fr": "Bajsaljen",
-            "cPrev": [69486],
-            "cNext": [69561],
+            "cPrev": ["q.69486"],
+            "cNext": ["q.69561"],
             "cSiblings": ["character.achievement.quests.quests.2670"],
             "patch": "5.35"
         },
@@ -163,8 +160,8 @@
             "name_fr": "La forge avant la boisson",
             "npc_en": "Stressed Soldier",
             "npc_fr": "Résistant Inquiet",
-            "cPrev": [69477],
-            "cNext": [69506],
+            "cPrev": ["q.69477"],
+            "cNext": ["q.69506"],
             "patch": "5.35"
         },
         "x69506": {
@@ -173,8 +170,8 @@
             "name_fr": "Une arme à mémoire d'éléphant",
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
-            "cPrev": [69505],
-            "cNext": [69507],
+            "cPrev": ["q.69505"],
+            "cNext": ["q.69507"],
             "patch": "5.35"
         },
         "x69507": {
@@ -183,8 +180,8 @@
             "name_fr": "Et un soupçon de sauvagerie",
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
-            "cPrev": [69506],
-            "cNext": [69573],
+            "cPrev": ["q.69506"],
+            "cNext": ["q.69573"],
             "patch": "5.35"
         },
         "x69561": {
@@ -193,8 +190,8 @@
             "name_fr": "Une vision d'avance",
             "npc_en": "Marsak",
             "npc_fr": "Marsak",
-            "cPrev": [69487],
-            "cNext": [69562],
+            "cPrev": ["q.69487"],
+            "cNext": ["q.69562"],
             "patch": "5.45"
         },
         "x69562": {
@@ -203,8 +200,8 @@
             "name_fr": "Que les Dieux gardent la Reine",
             "npc_en": "Bajsaljen",
             "npc_fr": "Bajsaljen",
-            "cPrev": [69561],
-            "cNext": [69564, "duty.quests.other.quasi-quests.69563", 69565, 69620, 69573],
+            "cPrev": ["q.69561"],
+            "cNext": ["q.69564", "q.69563", "q.69565", "q.69620", "q.69573"],
             "cSiblings": ["character.achievement.quests.quests.2760"],
             "patch": "5.45"
         },
@@ -214,7 +211,7 @@
             "name_fr": "Vieilleries et trésors",
             "npc_en": "Annes",
             "npc_fr": "Annes",
-            "cPrev": [69562],
+            "cPrev": ["q.69562"],
             "patch": "5.45"
         },
         "x69565": {
@@ -223,7 +220,7 @@
             "name_fr": "Un mémento d'éléphant",
             "npc_en": "Kriv",
             "npc_fr": "Kriv",
-            "cPrev": [69562],
+            "cPrev": ["q.69562"],
             "patch": "5.45"
         },
         "x69573": {
@@ -232,8 +229,8 @@
             "name_fr": "À la lueur de l'épée sacrée",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [69507, 69562],
-            "cNext": [69574],
+            "cPrev": ["q.69507", "q.69562"],
+            "cNext": ["q.69574"],
             "patch": "5.45"
         },
         "x69574": {
@@ -242,8 +239,8 @@
             "name_fr": "Les amas de la métamorphose",
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
-            "cPrev": [69573],
-            "cNext": [69575],
+            "cPrev": ["q.69573"],
+            "cNext": ["q.69575"],
             "patch": "5.45"
         },
         "x69575": {
@@ -252,8 +249,8 @@
             "name_fr": "Une grosse bouboule bien utile",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [69574],
-            "cNext": [69576],
+            "cPrev": ["q.69574"],
+            "cNext": ["q.69576"],
             "patch": "5.45"
         },
         "x69576": {
@@ -262,8 +259,8 @@
             "name_fr": "Armes à la carte",
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
-            "cPrev": [69575],
-            "cNext": ["duty.quests.other.quasi-quests.69577", 69632],
+            "cPrev": ["q.69575"],
+            "cNext": ["q.69577", "q.69632"],
             "patch": "5.45"
         },
         "x69620": {
@@ -272,8 +269,8 @@
             "name_fr": "Les plateaux naufragés",
             "npc_en": "Marsak",
             "npc_fr": "Marsak",
-            "cPrev": [69562, "duty.quests.main-scenario.post-shadowbringers-ii.69552"],
-            "cNext": [69621, 69632],
+            "cPrev": ["q.69562", "q.69552"],
+            "cNext": ["q.69621", "q.69632"],
             "patch": "5.55"
         },
         "x69621": {
@@ -282,8 +279,8 @@
             "name_fr": "Prête à tout",
             "npc_en": "Mikoto",
             "npc_fr": "Mikoto",
-            "cPrev": [69620],
-            "cNext": [69628],
+            "cPrev": ["q.69620"],
+            "cNext": ["q.69628"],
             "patch": "5.55"
         },
         "x69622": {
@@ -292,8 +289,8 @@
             "name_fr": "Le nouvel antre du démon",
             "npc_en": "Mikoto",
             "npc_fr": "Mikoto",
-            "cPrev": [69628],
-            "cNext": [69629],
+            "cPrev": ["q.69628"],
+            "cNext": ["q.69629"],
             "patch": "5.55"
         },
         "x69623": {
@@ -302,8 +299,8 @@
             "name_fr": "Cid, trouveur de solutions",
             "npc_en": "Bajsaljen",
             "npc_fr": "Bajsaljen",
-            "cPrev": [69629],
-            "cNext": [69624],
+            "cPrev": ["q.69629"],
+            "cNext": ["q.69624"],
             "patch": "5.55"
         },
         "x69624": {
@@ -312,8 +309,8 @@
             "name_fr": "La marche de la reine sanglante",
             "npc_en": "Bajsaljen",
             "npc_fr": "Bajsaljen",
-            "cPrev": [69623],
-            "cNext": [69631, "duty.quests.other.quasi-quests.69630"],
+            "cPrev": ["q.69623"],
+            "cNext": ["q.69631", "q.69630"],
             "cSiblings": ["character.achievement.quests.quests.2884"],
             "patch": "5.55"
         },
@@ -323,8 +320,8 @@
             "name_fr": "La poussée des aigles",
             "npc_en": "Dmitar",
             "npc_fr": "Dmitar",
-            "cPrev": [69621],
-            "cNext": [69622],
+            "cPrev": ["q.69621"],
+            "cNext": ["q.69622"],
             "patch": "5.55"
         },
         "x69629": {
@@ -333,8 +330,8 @@
             "name_fr": "Le piqué des aigles",
             "npc_en": "Dmitar",
             "npc_fr": "Dmitar",
-            "cPrev": [69622],
-            "cNext": [69623],
+            "cPrev": ["q.69622"],
+            "cNext": ["q.69623"],
             "patch": "5.55"
         },
         "x69631": {
@@ -343,7 +340,7 @@
             "name_fr": "Chamarres de platine",
             "npc_en": "Merlzirn",
             "npc_fr": "Merlzirn",
-            "cPrev": [69624],
+            "cPrev": ["q.69624"],
             "patch": "5.55"
         },
         "x69632": {
@@ -352,8 +349,8 @@
             "name_fr": "Un vieux rêve de Bozjien",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [69620, 69576],
-            "cNext": [69633, 69634, 69635],
+            "cPrev": ["q.69620", "q.69576"],
+            "cNext": ["q.69633", "q.69634", "q.69635"],
             "patch": "5.55"
         },
         "x69633": {
@@ -362,8 +359,8 @@
             "name_fr": "Les concentrés de la résistance",
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
-            "cPrev": [69632],
-            "cNext": [69636],
+            "cPrev": ["q.69632"],
+            "cNext": ["q.69636"],
             "patch": "5.55"
         },
         "x69634": {
@@ -372,8 +369,8 @@
             "name_fr": "Les alliages de la résistance",
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
-            "cPrev": [69632],
-            "cNext": [69636],
+            "cPrev": ["q.69632"],
+            "cNext": ["q.69636"],
             "patch": "5.55"
         },
         "x69635": {
@@ -382,8 +379,8 @@
             "name_fr": "Les parchemins de la résistance",
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
-            "cPrev": [69632],
-            "cNext": [69636],
+            "cPrev": ["q.69632"],
+            "cNext": ["q.69636"],
             "patch": "5.55"
         },
         "x69636": {
@@ -392,8 +389,8 @@
             "name_fr": "Entourloupe à la loupe",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [69633, 69634, 69635],
-            "cNext": [69637],
+            "cPrev": ["q.69633", "q.69634", "q.69635"],
+            "cNext": ["q.69637"],
             "patch": "5.55"
         },
         "x69637": {
@@ -402,7 +399,7 @@
             "name_fr": "Résiste, prouve que tu existes",
             "npc_en": "Zlatan",
             "npc_fr": "Zlatan",
-            "cPrev": [69636],
+            "cPrev": ["q.69636"],
             "patch": "5.55"
         }
     }

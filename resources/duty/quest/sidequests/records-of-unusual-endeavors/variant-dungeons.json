@@ -10,8 +10,8 @@
             "unlock": "duty.dutyraid-finder.v-and-c-dungeon.sildihn-subterrane.0",
             "npc_en": "Shallow Moor",
             "npc_fr": "Shallow Moor",
-            "cPrev": ["duty.quests.other.quasi-quests.70187"],
-            "cNext": [70185],
+            "cPrev": ["q.70187"],
+            "cNext": ["q.70185"],
             "patch": "6.28"
         },
         "x70185": {
@@ -20,7 +20,7 @@
             "name_fr": "Un secret en héritage",
             "npc_en": "Kokoshu",
             "npc_fr": "Kokoshu",
-            "cPrev": [70182],
+            "cPrev": ["q.70182"],
             "patch": "6.28"
         },
         "x70269": {
@@ -30,8 +30,8 @@
             "unlock": "duty.dutyraid-finder.v-and-c-dungeon.mount-rokkon.0",
             "npc_en": "Shallow Moor",
             "npc_fr": "Shallow Moor",
-            "cPrev": ["duty.quests.other.quasi-quests.70187"],
-            "cNext": [70270],
+            "cPrev": ["q.70187"],
+            "cNext": ["q.70270"],
             "patch": "6.45"
         },
         "x70270": {
@@ -40,7 +40,7 @@
             "name_fr": "Orphelins d'Orient",
             "npc_en": "Tsubaki",
             "npc_fr": "Tsubaki",
-            "cPrev": [70269],
+            "cPrev": ["q.70269"],
             "patch": "6.45"
         },
         "x70325": {
@@ -50,8 +50,8 @@
             "unlock": "duty.dutyraid-finder.v-and-c-dungeon.aloalo-island.0",
             "npc_en": "Shallow Moor",
             "npc_fr": "Shallow Moor",
-            "cPrev": ["duty.quests.other.quasi-quests.70187", "duty.quests.main-scenario.post-endwalker.70071"],
-            "cNext": [70326],
+            "cPrev": ["q.70187", "q.70071"],
+            "cNext": ["q.70326"],
             "patch": "6.51"
         },
         "x70326": {
@@ -60,7 +60,7 @@
             "name_fr": "Le cadeau de Matsya",
             "npc_en": "Kalika",
             "npc_fr": "Kalika",
-            "cPrev": [70325],
+            "cPrev": ["q.70325"],
             "patch": "6.51"
         }
     }

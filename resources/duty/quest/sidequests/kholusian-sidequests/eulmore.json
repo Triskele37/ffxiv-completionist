@@ -9,8 +9,8 @@
             "name_fr": "D'amour et d'eau de mer",
             "npc_en": "Queen Bee",
             "npc_fr": "Gérant De La Ruche",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69168"],
-            "cNext": [69053],
+            "cPrev": ["q.69168"],
+            "cNext": ["q.69053"],
             "patch": "5.0"
         },
         "x69053": {
@@ -19,7 +19,7 @@
             "name_fr": "Un gérant au grand cœur",
             "npc_en": "Solina",
             "npc_fr": "Solina",
-            "cPrev": [69052],
+            "cPrev": ["q.69052"],
             "patch": "5.0"
         },
         "x69054": {
@@ -28,7 +28,7 @@
             "name_fr": "L'approvisionnement de La Fange",
             "npc_en": "Zoi-Chorr",
             "npc_fr": "Zoi-Chorr",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69168"],
+            "cPrev": ["q.69168"],
             "patch": "5.0"
         },
         "x69055": {
@@ -37,7 +37,7 @@
             "name_fr": "Lettres éparpillées",
             "npc_en": "Aarner",
             "npc_fr": "Aarner",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69168"],
+            "cPrev": ["q.69168"],
             "patch": "5.0"
         },
         "x69056": {
@@ -46,7 +46,7 @@
             "name_fr": "Qu'est-ce qu'on mange?",
             "npc_en": "Eulmoran Soldier",
             "npc_fr": "Soldat Eulmorien",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69168"],
+            "cPrev": ["q.69168"],
             "patch": "5.0"
         },
         "x69057": {
@@ -55,7 +55,7 @@
             "name_fr": "Qui aime bien châtie bien",
             "npc_en": "Forlorn Free Citizen",
             "npc_fr": "Libéré D'Eulmore",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69168"],
+            "cPrev": ["q.69168"],
             "patch": "5.0"
         },
         "x69058": {
@@ -64,7 +64,7 @@
             "name_fr": "Les enfants de La Fange",
             "npc_en": "Sristialla",
             "npc_fr": "Sristialla",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69168"],
+            "cPrev": ["q.69168"],
             "patch": "5.0"
         },
         "x69059": {
@@ -73,7 +73,7 @@
             "name_fr": "Un jour, je serai capitaine!",
             "npc_en": "Tui-Shirr",
             "npc_fr": "Tui-Shirr",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69168"],
+            "cPrev": ["q.69168"],
             "patch": "5.0"
         },
         "x69060": {
@@ -82,7 +82,7 @@
             "name_fr": "Tendre la main aux moins fortunés",
             "npc_en": "Debonair Dame",
             "npc_fr": "Eulmorienne Élégante",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69168"],
+            "cPrev": ["q.69168"],
             "patch": "5.0"
         },
         "x69265": {
@@ -93,8 +93,8 @@
             "npc_fr": "Kai-Shirr",
             "unlock_en": "Custom Deliveries: Kai-Shirr",
             "unlock_fr": "Custom Deliveries: Kai-Shirr",
-            "cPrev": ["duty.quests.main-scenario.post-shadowbringers.69217", "duty.quests.other.quasi-quests.69139"],
-            "cNext": [69266],
+            "cPrev": ["q.69217", "q.69139"],
+            "cNext": ["q.69266"],
             "cSiblings": ["character.achievement.character.general.2425"],
             "patch": "5.1"
         },
@@ -104,8 +104,8 @@
             "name_fr": "Tactique touristique",
             "npc_en": "Bosta-Zia",
             "npc_fr": "Bosta-Zia",
-            "cPrev": [69265],
-            "cNext": [69267],
+            "cPrev": ["q.69265"],
+            "cNext": ["q.69267"],
             "patch": "5.1"
         },
         "x69267": {
@@ -114,7 +114,7 @@
             "name_fr": "Embarquement immédiat",
             "npc_en": "Anfrigg",
             "npc_fr": "Anfrigg",
-            "cPrev": [69266],
+            "cPrev": ["q.69266"],
             "patch": "5.1"
         },
         "x69137": {
@@ -123,10 +123,7 @@
             "name_fr": "Un lieu pour jauger sa force",
             "npc_en": "Weary Dockworker",
             "npc_fr": "Travailleur Modeste",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.69190",
-                "duty.quests.sidequests.dravanian.idyllshire.67654"
-            ],
+            "cPrev": ["q.69190", "q.67654"],
             "patch": "5.0"
         },
         "x69132": {
@@ -136,7 +133,7 @@
             "unlock": "duty.dutyraid-finder.dungeons.shb.7",
             "npc_en": "Overwrought Ondo",
             "npc_fr": "Ondo Affolé",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69190"],
+            "cPrev": ["q.69190"],
             "patch": "5.0"
         }
     }

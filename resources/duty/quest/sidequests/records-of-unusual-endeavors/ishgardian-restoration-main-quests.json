@@ -8,15 +8,8 @@
             "name_en": "Towards the Firmament",
             "name_fr": "Un avenir couleur azur",
             "unlock_en": "The Firmament",
-            "cPrev": ["duty.quests.main-scenario.dragonsong.67783"],
-            "cNext": [
-                "duty.quests.other.quasi-quests.69296",
-                69261,
-                "duty.quests.other.quasi-quests.69377",
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69384",
-                "duty.quests.other.quasi-quests.69508",
-                "duty.quests.other.quasi-quests.69578"
-            ],
+            "cPrev": ["q.67783"],
+            "cNext": ["q.69296", "q.69261", "q.69377", "q.69384", "q.69508", "q.69578"],
             "patch": "5.11"
         },
         "x69261": {
@@ -25,8 +18,8 @@
             "name_fr": "Azurée, quartier d'accueil",
             "npc_en": "Foncrineau",
             "npc_fr": "Foncrineau",
-            "cPrev": [69208],
-            "cNext": [69262],
+            "cPrev": ["q.69208"],
+            "cNext": ["q.69262"],
             "patch": "5.21"
         },
         "x69262": {
@@ -35,8 +28,8 @@
             "name_fr": "Superviseur suppléant",
             "npc_en": "Francel",
             "npc_fr": "Francel",
-            "cPrev": [69261],
-            "cNext": [69263],
+            "cPrev": ["q.69261"],
+            "cNext": ["q.69263"],
             "patch": "5.21"
         },
         "x69263": {
@@ -45,8 +38,8 @@
             "name_fr": "Hérésie draconique",
             "npc_en": "Noalle",
             "npc_fr": "Noalle",
-            "cPrev": [69262],
-            "cNext": [69264],
+            "cPrev": ["q.69262"],
+            "cNext": ["q.69264"],
             "patch": "5.21"
         },
         "x69264": {
@@ -55,13 +48,8 @@
             "name_fr": "Une nouvelle chance",
             "npc_en": "Francel",
             "npc_fr": "Francel",
-            "cPrev": [69263],
-            "cNext": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69373",
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69374",
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69375",
-                69491
-            ],
+            "cPrev": ["q.69263"],
+            "cNext": ["q.69373", "q.69374", "q.69375", "q.69491"],
             "cSiblings": ["character.achievement.quests.quests.2567"],
             "patch": "5.21"
         },
@@ -71,8 +59,8 @@
             "name_fr": "Voyage d'affaires à Gridania",
             "npc_en": "Francel",
             "npc_fr": "Francel",
-            "cPrev": [69264],
-            "cNext": [69492],
+            "cPrev": ["q.69264"],
+            "cNext": ["q.69492"],
             "patch": "5.31"
         },
         "x69492": {
@@ -81,8 +69,8 @@
             "name_fr": "Voyage d'affaires à Ul'dah",
             "npc_en": "Francel",
             "npc_fr": "Francel",
-            "cPrev": [69491],
-            "cNext": [69493],
+            "cPrev": ["q.69491"],
+            "cNext": ["q.69493"],
             "patch": "5.31"
         },
         "x69493": {
@@ -91,8 +79,8 @@
             "name_fr": "Voyage d'affaires à Limsa Lominsa",
             "npc_en": "Francel",
             "npc_fr": "Francel",
-            "cPrev": [69492],
-            "cNext": [69494],
+            "cPrev": ["q.69492"],
+            "cNext": ["q.69494"],
             "patch": "5.31"
         },
         "x69494": {
@@ -101,14 +89,8 @@
             "name_fr": "Un nouveau cœur pour Azurée",
             "npc_en": "Francel",
             "npc_fr": "Francel",
-            "cPrev": [69493],
-            "cNext": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69496",
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69497",
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69495",
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69498",
-                69535
-            ],
+            "cPrev": ["q.69493"],
+            "cNext": ["q.69496", "q.69497", "q.69495", "q.69498", "q.69535"],
             "cSiblings": ["character.achievement.quests.quests.2711"],
             "patch": "5.31"
         },
@@ -118,8 +100,8 @@
             "name_fr": "Visite guidée du Nouveau Refrain",
             "npc_en": "Francel",
             "npc_fr": "Francel",
-            "cPrev": [69494],
-            "cNext": [69536],
+            "cPrev": ["q.69494"],
+            "cNext": ["q.69536"],
             "patch": "5.41"
         },
         "x69536": {
@@ -128,8 +110,8 @@
             "name_fr": "Surprise musicale",
             "npc_en": "Conon",
             "npc_fr": "Conon",
-            "cPrev": [69535],
-            "cNext": [69537],
+            "cPrev": ["q.69535"],
+            "cNext": ["q.69537"],
             "patch": "5.41"
         },
         "x69537": {
@@ -138,8 +120,8 @@
             "name_fr": "Le concert commémoratif de la reconstruction d'Azurée",
             "npc_en": "Mariorie",
             "npc_fr": "Mariorie",
-            "cPrev": [69536],
-            "cNext": [69538],
+            "cPrev": ["q.69536"],
+            "cNext": ["q.69538"],
             "patch": "5.41"
         },
         "x69538": {
@@ -148,14 +130,8 @@
             "name_fr": "Entre ciel et terre, un océan de sourires",
             "npc_en": "Francel",
             "npc_fr": "Francel",
-            "cPrev": [69537],
-            "cNext": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69539",
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69541",
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69542",
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69540",
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69615"
-            ],
+            "cPrev": ["q.69537"],
+            "cNext": ["q.69539", "q.69541", "q.69542", "q.69540", "q.69615"],
             "cSiblings": ["character.achievement.quests.quests.2818"],
             "patch": "5.41"
         }

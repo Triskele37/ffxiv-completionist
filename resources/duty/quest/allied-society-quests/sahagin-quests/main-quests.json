@@ -9,8 +9,8 @@
             "name_fr": "La menace des profondeurs",
             "npc_en": "R'ashaht Rhiki",
             "npc_fr": "R'ashaht Rhiki",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66488"],
-            "cNext": [66911],
+            "cPrev": ["q.66488"],
+            "cNext": ["q.66911"],
             "patch": "4.31"
         },
         "x66911": {
@@ -19,8 +19,8 @@
             "name_fr": "Frai et frères",
             "npc_en": "Novv",
             "npc_fr": "Novv",
-            "cPrev": [66910],
-            "cNext": [66912],
+            "cPrev": ["q.66910"],
+            "cNext": ["q.66912"],
             "cSiblings": ["character.character.tribal-relations.15"],
             "patch": "4.31"
         },
@@ -32,8 +32,8 @@
             "npc_fr": "Novv",
             "reputation_en": "Neutral",
             "reputation_fr": "Neutre",
-            "cPrev": [66911],
-            "cNext": [66913],
+            "cPrev": ["q.66911"],
+            "cNext": ["q.66913"],
             "cSiblings": ["character.character.tribal-relations.16"],
             "patch": "4.31"
         },
@@ -45,8 +45,8 @@
             "npc_fr": "Novv",
             "reputation_en": "Recognized",
             "reputation_fr": "Reconnu",
-            "cPrev": [66912],
-            "cNext": [66914],
+            "cPrev": ["q.66912"],
+            "cNext": ["q.66914"],
             "cSiblings": ["character.character.tribal-relations.17"],
             "patch": "4.31"
         },
@@ -58,7 +58,7 @@
             "npc_fr": "Novv",
             "reputation_en": "Friendly",
             "reputation_fr": "Ami",
-            "cPrev": [66913],
+            "cPrev": ["q.66913"],
             "cSiblings": ["character.character.tribal-relations.18"],
             "patch": "4.31"
         }

@@ -9,11 +9,8 @@
             "name_fr": "La voix des Marchands",
             "npc_en": "Yayake",
             "npc_fr": "Yayake",
-            "cPrev": [
-                "duty.quests.class--job.disciple-of-magic.thaumaturge.65889",
-                "duty.quests.main-scenario.seventh-umbral-era.66049"
-            ],
-            "cNext": [66610],
+            "cPrev": ["q.65889", "q.66049"],
+            "cNext": ["q.66610"],
             "cSiblings": ["character.adventure-plate.58"],
             "patch": "4.31"
         },
@@ -23,8 +20,8 @@
             "name_fr": "L'appel du sang",
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
-            "cPrev": [66609],
-            "cNext": [66611],
+            "cPrev": ["q.66609"],
+            "cNext": ["q.66611"],
             "patch": "4.31"
         },
         "x66611": {
@@ -33,8 +30,8 @@
             "name_fr": "Des amis étrangers",
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
-            "cPrev": [66610],
-            "cNext": [66612],
+            "cPrev": ["q.66610"],
+            "cNext": ["q.66612"],
             "patch": "4.31"
         },
         "x66612": {
@@ -43,8 +40,8 @@
             "name_fr": "La corruption du néant",
             "npc_en": "Kazagg Chah",
             "npc_fr": "Kazagg Chah",
-            "cPrev": [66611],
-            "cNext": [66613],
+            "cPrev": ["q.66611"],
+            "cNext": ["q.66613"],
             "patch": "4.31"
         },
         "x66613": {
@@ -53,8 +50,8 @@
             "name_fr": "Les habits du pouvoir",
             "npc_en": "Kazagg Chah",
             "npc_fr": "Kazagg Chah",
-            "cPrev": [66612],
-            "cNext": [66614],
+            "cPrev": ["q.66612"],
+            "cNext": ["q.66614"],
             "patch": "4.31"
         },
         "x66614": {
@@ -63,8 +60,8 @@
             "name_fr": "La voie de la magie noire",
             "npc_en": "Kazagg Chah",
             "npc_fr": "Kazagg Chah",
-            "cPrev": [66613],
-            "cNext": [66659, 67214],
+            "cPrev": ["q.66613"],
+            "cNext": ["q.66659", "q.67214"],
             "cSiblings": ["character.achievement.quests.job-role-quests.413"],
             "patch": "4.31"
         },
@@ -74,7 +71,7 @@
             "name_fr": "Restauration du Sceptre étoilé",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [66614, "duty.quests.sidequests.uldahn.western-thanalan.66241"],
+            "cPrev": ["q.66614", "q.66241"],
             "patch": "4.31"
         },
         "x67214": {
@@ -83,8 +80,8 @@
             "name_fr": "L'héritage de Ququruka",
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
-            "cPrev": [66614, "duty.quests.main-scenario.seventh-astral-era.65964"],
-            "cNext": [67215],
+            "cPrev": ["q.66614", "q.65964"],
+            "cNext": ["q.67215"],
             "patch": "4.31"
         },
         "x67215": {
@@ -93,8 +90,8 @@
             "name_fr": "Qui veut du mal à l'Amalj'aa?",
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
-            "cPrev": [67214],
-            "cNext": [67216],
+            "cPrev": ["q.67214"],
+            "cNext": ["q.67216"],
             "patch": "4.31"
         },
         "x67216": {
@@ -103,8 +100,8 @@
             "name_fr": "Le Kobold a eu moins de bol",
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
-            "cPrev": [67215],
-            "cNext": [67217],
+            "cPrev": ["q.67215"],
+            "cNext": ["q.67217"],
             "patch": "4.31"
         },
         "x67217": {
@@ -113,8 +110,8 @@
             "name_fr": "L'Ixal exilé pris en chasse",
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
-            "cPrev": [67216],
-            "cNext": [67218],
+            "cPrev": ["q.67216"],
+            "cNext": ["q.67218"],
             "patch": "4.31"
         },
         "x67218": {
@@ -123,8 +120,8 @@
             "name_fr": "Un allié un peu trop zélé",
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
-            "cPrev": [67217],
-            "cNext": [67219],
+            "cPrev": ["q.67217"],
+            "cNext": ["q.67219"],
             "patch": "4.31"
         },
         "x67219": {
@@ -133,8 +130,8 @@
             "name_fr": "Un mariage explosif",
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
-            "cPrev": [67218],
-            "cNext": [68124],
+            "cPrev": ["q.67218"],
+            "cNext": ["q.68124"],
             "cSiblings": ["character.achievement.quests.job-role-quests.1147"],
             "patch": "4.31"
         },
@@ -144,8 +141,8 @@
             "name_fr": "Souvenirs d'outre-tombe",
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
-            "cPrev": [67219, "duty.quests.main-scenario.post-dragonsong.67895"],
-            "cNext": [68125],
+            "cPrev": ["q.67219", "q.67895"],
+            "cNext": ["q.68125"],
             "patch": "4.31"
         },
         "x68125": {
@@ -154,8 +151,8 @@
             "name_fr": "Cavale minérale",
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
-            "cPrev": [68124],
-            "cNext": [68126],
+            "cPrev": ["q.68124"],
+            "cNext": ["q.68126"],
             "patch": "4.31"
         },
         "x68126": {
@@ -164,8 +161,8 @@
             "name_fr": "Roc indépendant",
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
-            "cPrev": [68125],
-            "cNext": [68127],
+            "cPrev": ["q.68125"],
+            "cNext": ["q.68127"],
             "patch": "4.31"
         },
         "x68127": {
@@ -174,8 +171,8 @@
             "name_fr": "Des golems et des gemmes",
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
-            "cPrev": [68126],
-            "cNext": [68128],
+            "cPrev": ["q.68126"],
+            "cNext": ["q.68128"],
             "patch": "4.31"
         },
         "x68128": {
@@ -184,8 +181,8 @@
             "name_fr": "Il n'en restera qu'un",
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
-            "cPrev": [68127],
-            "cNext": [68752],
+            "cPrev": ["q.68127"],
+            "cNext": ["q.68752"],
             "cSiblings": ["character.achievement.quests.job-role-quests.1803"],
             "patch": "4.31"
         },
@@ -195,7 +192,7 @@
             "name_fr": "Lalai, censurée!",
             "npc_en": "Lalai",
             "npc_fr": "Lalai",
-            "cPrev": [68128, "duty.quests.class--job.role.shb.69164", "duty.quests.main-scenario.shadowbringers.69190"],
+            "cPrev": ["q.68128", "q.69164", "q.69190"],
             "cSiblings": ["character.adventure-plate.57", "character.achievement.quests.job-role-quests.2312"],
             "patch": "5.0"
         }

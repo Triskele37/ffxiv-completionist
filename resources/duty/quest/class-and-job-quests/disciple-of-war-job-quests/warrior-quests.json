@@ -9,11 +9,8 @@
             "name_fr": "L'art de la guerre",
             "npc_en": "Wyrnzoen",
             "npc_fr": "Wyrnzoen",
-            "cPrev": [
-                "duty.quests.class--job.disciple-of-war.marauder.65855",
-                "duty.quests.main-scenario.seventh-umbral-era.66049"
-            ],
-            "cNext": [66586],
+            "cPrev": ["q.65855", "q.66049"],
+            "cNext": ["q.66586"],
             "cSiblings": ["character.adventure-plate.6"],
             "patch": "4.31"
         },
@@ -23,8 +20,8 @@
             "name_fr": "Le ver de trop",
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
-            "cPrev": [66585],
-            "cNext": [66587],
+            "cPrev": ["q.66585"],
+            "cNext": ["q.66587"],
             "patch": "4.31"
         },
         "x66587": {
@@ -33,8 +30,8 @@
             "name_fr": "À la guerre comme à la guerre",
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
-            "cPrev": [66586],
-            "cNext": [66588],
+            "cPrev": ["q.66586"],
+            "cNext": ["q.66588"],
             "patch": "4.31"
         },
         "x66588": {
@@ -43,8 +40,8 @@
             "name_fr": "Un guerrier bien équipé en vaut deux",
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
-            "cPrev": [66587],
-            "cNext": [66589],
+            "cPrev": ["q.66587"],
+            "cNext": ["q.66589"],
             "patch": "4.31"
         },
         "x66589": {
@@ -53,8 +50,8 @@
             "name_fr": "Le bras de fer",
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
-            "cPrev": [66588],
-            "cNext": [66590],
+            "cPrev": ["q.66588"],
+            "cNext": ["q.66590"],
             "patch": "4.31"
         },
         "x66590": {
@@ -63,8 +60,8 @@
             "name_fr": "Le Maître de guerre",
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
-            "cPrev": [66589],
-            "cNext": [66655, 66121],
+            "cPrev": ["q.66589"],
+            "cNext": ["q.66655", "q.66121"],
             "cSiblings": ["character.achievement.quests.job-role-quests.409"],
             "patch": "4.31"
         },
@@ -74,7 +71,7 @@
             "name_fr": "Restauration de Bravura",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [66590, "duty.quests.sidequests.uldahn.western-thanalan.66241"],
+            "cPrev": ["q.66590", "q.66241"],
             "patch": "4.31"
         },
         "x66121": {
@@ -83,8 +80,8 @@
             "name_fr": "Un guerrier légendaire",
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
-            "cPrev": [66590, "duty.quests.main-scenario.seventh-astral-era.65964"],
-            "cNext": [66122],
+            "cPrev": ["q.66590", "q.65964"],
+            "cNext": ["q.66122"],
             "patch": "4.31"
         },
         "x66122": {
@@ -93,8 +90,8 @@
             "name_fr": "Mise à l'épreuve",
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
-            "cPrev": [66121],
-            "cNext": [66124],
+            "cPrev": ["q.66121"],
+            "cNext": ["q.66124"],
             "patch": "4.31"
         },
         "x66124": {
@@ -103,8 +100,8 @@
             "name_fr": "Comme un ours en cage",
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
-            "cPrev": [66122],
-            "cNext": [66132],
+            "cPrev": ["q.66122"],
+            "cNext": ["q.66132"],
             "patch": "4.31"
         },
         "x66132": {
@@ -113,8 +110,8 @@
             "name_fr": "Chasse aux pillards",
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
-            "cPrev": [66124],
-            "cNext": [67213],
+            "cPrev": ["q.66124"],
+            "cNext": ["q.67213"],
             "patch": "4.31"
         },
         "x67213": {
@@ -123,8 +120,8 @@
             "name_fr": "Dompter sa bête intérieure",
             "npc_en": "Storm Captain",
             "npc_fr": "Capitaine Des Tempêtes",
-            "cPrev": [66132],
-            "cNext": [66134],
+            "cPrev": ["q.66132"],
+            "cNext": ["q.66134"],
             "patch": "4.31"
         },
         "x66134": {
@@ -133,8 +130,8 @@
             "name_fr": "Le sentier de la guerre",
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
-            "cPrev": [67213],
-            "cNext": [66137],
+            "cPrev": ["q.67213"],
+            "cNext": ["q.66137"],
             "patch": "4.31"
         },
         "x66137": {
@@ -143,8 +140,8 @@
             "name_fr": "Jusqu'au bout de ses rêves",
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
-            "cPrev": [66134],
-            "cNext": [68436],
+            "cPrev": ["q.66134"],
+            "cNext": ["q.68436"],
             "cSiblings": ["character.achievement.quests.job-role-quests.1143"],
             "patch": "4.31"
         },
@@ -154,8 +151,8 @@
             "name_fr": "L'épreuve de force",
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
-            "cPrev": [66137, "duty.quests.main-scenario.post-dragonsong.67895"],
-            "cNext": [68437],
+            "cPrev": ["q.66137", "q.67895"],
+            "cNext": ["q.68437"],
             "patch": "4.31"
         },
         "x68437": {
@@ -164,8 +161,8 @@
             "name_fr": "Faiblesse et force",
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
-            "cPrev": [68436],
-            "cNext": [68438],
+            "cPrev": ["q.68436"],
+            "cNext": ["q.68438"],
             "patch": "4.31"
         },
         "x68438": {
@@ -174,8 +171,8 @@
             "name_fr": "La maladie d'amour",
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
-            "cPrev": [68437],
-            "cNext": [68439],
+            "cPrev": ["q.68437"],
+            "cNext": ["q.68439"],
             "patch": "4.31"
         },
         "x68439": {
@@ -184,8 +181,8 @@
             "name_fr": "Qu'est-ce qui m'arrive?",
             "npc_en": "Broken Mountain",
             "npc_fr": "Broken Mountain",
-            "cPrev": [68438],
-            "cNext": [68440],
+            "cPrev": ["q.68438"],
+            "cNext": ["q.68440"],
             "patch": "4.31"
         },
         "x68440": {
@@ -194,8 +191,8 @@
             "name_fr": "Passion guerrière",
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
-            "cPrev": [68439],
-            "cNext": [68748],
+            "cPrev": ["q.68439"],
+            "cNext": ["q.68748"],
             "cSiblings": ["character.achievement.quests.job-role-quests.1799"],
             "patch": "4.31"
         },
@@ -205,7 +202,7 @@
             "name_fr": "Le retour du guerrier",
             "npc_en": "Curious Gorge",
             "npc_fr": "Curious Gorge",
-            "cPrev": [68440, "duty.quests.class--job.role.shb.68784", "duty.quests.main-scenario.shadowbringers.69190"],
+            "cPrev": ["q.68440", "q.68784", "q.69190"],
             "cSiblings": ["character.adventure-plate.5", "character.achievement.quests.job-role-quests.2308"],
             "patch": "5.0"
         }

@@ -9,8 +9,8 @@
             "name_fr": "Escroc, mais pas trop",
             "npc_en": "Zealous Yellowjacket",
             "npc_fr": "Sentinelle Incorruptible",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
-            "cNext": [68729],
+            "cPrev": ["q.66060"],
+            "cNext": ["q.68729"],
             "cSiblings": ["character.adventure-plate.67"],
             "patch": "4.5"
         },
@@ -20,8 +20,8 @@
             "name_fr": "M comme Martyn",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [68728],
-            "cNext": [68730],
+            "cPrev": ["q.68728"],
+            "cNext": ["q.68730"],
             "patch": "4.5"
         },
         "x68730": {
@@ -30,8 +30,8 @@
             "name_fr": "Quand l'entraînement paye",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [68729],
-            "cNext": [68731],
+            "cPrev": ["q.68729"],
+            "cNext": ["q.68731"],
             "patch": "4.5"
         },
         "x68731": {
@@ -40,8 +40,8 @@
             "name_fr": "Martyn a des ennuis",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [68730],
-            "cNext": [68732],
+            "cPrev": ["q.68730"],
+            "cNext": ["q.68732"],
             "patch": "4.5"
         },
         "x68732": {
@@ -50,8 +50,8 @@
             "name_fr": "Martyn a encore des ennuis",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [68731],
-            "cNext": [68733],
+            "cPrev": ["q.68731"],
+            "cNext": ["q.68733"],
             "patch": "4.5"
         },
         "x68733": {
@@ -60,8 +60,8 @@
             "name_fr": "L'autre mage bleu",
             "npc_en": "Maudlin Latool Ja",
             "npc_fr": "Latool Ja",
-            "cPrev": [68732],
-            "cNext": [68734],
+            "cPrev": ["q.68732"],
+            "cNext": ["q.68734"],
             "patch": "4.5"
         },
         "x68734": {
@@ -70,8 +70,8 @@
             "name_fr": "Combat d'idées et combat de coqs",
             "npc_en": "Maudlin Latool Ja",
             "npc_fr": "Latool Ja",
-            "cPrev": [68733],
-            "cNext": [68735],
+            "cPrev": ["q.68733"],
+            "cNext": ["q.68735"],
             "patch": "4.5"
         },
         "x68735": {
@@ -80,8 +80,8 @@
             "name_fr": "Tout est bien qui finit bleu",
             "npc_en": "Maudlin Latool Ja",
             "npc_fr": "Latool Ja",
-            "cPrev": [68734],
-            "cNext": [69268],
+            "cPrev": ["q.68734"],
+            "cNext": ["q.69268"],
             "patch": "4.5"
         },
         "x69268": {
@@ -90,8 +90,8 @@
             "name_fr": "Vers d'autres cieux",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [68735, "duty.quests.main-scenario.dragonsong.67783"],
-            "cNext": [69269],
+            "cPrev": ["q.68735", "q.67783"],
+            "cNext": ["q.69269"],
             "patch": "5.18"
         },
         "x69269": {
@@ -100,8 +100,8 @@
             "name_fr": "Un entraînement payant",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [69268],
-            "cNext": [69270],
+            "cPrev": ["q.69268"],
+            "cNext": ["q.69270"],
             "patch": "5.18"
         },
         "x69270": {
@@ -110,8 +110,8 @@
             "name_fr": "Un nouveau concurrent apparaît!",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [69269],
-            "cNext": [69271],
+            "cPrev": ["q.69269"],
+            "cNext": ["q.69271"],
             "patch": "5.18"
         },
         "x69271": {
@@ -120,8 +120,8 @@
             "name_fr": "C'est qui le patron?",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [69270],
-            "cNext": [69272],
+            "cPrev": ["q.69270"],
+            "cNext": ["q.69272"],
             "patch": "5.18"
         },
         "x69272": {
@@ -130,8 +130,8 @@
             "name_fr": "L'heure du duel",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [69271],
-            "cNext": [69273],
+            "cPrev": ["q.69271"],
+            "cNext": ["q.69273"],
             "patch": "5.18"
         },
         "x69273": {
@@ -140,8 +140,8 @@
             "name_fr": "Un Bleuet chasse l'autre",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [69272],
-            "cNext": [69525],
+            "cPrev": ["q.69272"],
+            "cNext": ["q.69525"],
             "patch": "5.18"
         },
         "x69525": {
@@ -150,8 +150,8 @@
             "name_fr": "La journée du tentacule",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [69273, "duty.quests.main-scenario.post-stormblood.68612"],
-            "cNext": [69526],
+            "cPrev": ["q.69273", "q.68612"],
+            "cNext": ["q.69526"],
             "patch": "5.45"
         },
         "x69526": {
@@ -160,8 +160,8 @@
             "name_fr": "À l'Est, rien de nouveau?",
             "npc_en": "P'yandih",
             "npc_fr": "P'yandih",
-            "cPrev": [69525],
-            "cNext": [69527],
+            "cPrev": ["q.69525"],
+            "cNext": ["q.69527"],
             "patch": "5.45"
         },
         "x69527": {
@@ -170,8 +170,8 @@
             "name_fr": "Masque contre Cagoule",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [69526],
-            "cNext": [69528],
+            "cPrev": ["q.69526"],
+            "cNext": ["q.69528"],
             "patch": "5.45"
         },
         "x69528": {
@@ -180,8 +180,8 @@
             "name_fr": "Le mystère de la cagoule jaune",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [69527],
-            "cNext": [69529],
+            "cPrev": ["q.69527"],
+            "cNext": ["q.69529"],
             "patch": "5.45"
         },
         "x69529": {
@@ -190,8 +190,8 @@
             "name_fr": "Le mime martial",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [69528],
-            "cNext": [69530],
+            "cPrev": ["q.69528"],
+            "cNext": ["q.69530"],
             "patch": "5.45"
         },
         "x69530": {
@@ -200,8 +200,8 @@
             "name_fr": "Le bon et le mauvais copieur",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [69529],
-            "cNext": [70309],
+            "cPrev": ["q.69529"],
+            "cNext": ["q.70309"],
             "cSiblings": ["character.adventure-plate.66"],
             "patch": "5.45"
         },
@@ -211,8 +211,8 @@
             "name_fr": "Martyn fait le tour du monde",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": ["duty.quests.main-scenario.post-shadowbringers.69318", 69530],
-            "cNext": [70310],
+            "cPrev": ["q.69318", "q.69530"],
+            "cNext": ["q.70310"],
             "patch": "6.45"
         },
         "x70310": {
@@ -221,8 +221,8 @@
             "name_fr": "Martyn chez les pirates",
             "npc_en": "P'yandih",
             "npc_fr": "P'yandih",
-            "cPrev": [70309],
-            "cNext": [70311],
+            "cPrev": ["q.70309"],
+            "cNext": ["q.70311"],
             "patch": "6.45"
         },
         "x70311": {
@@ -231,8 +231,8 @@
             "name_fr": "Martyn dans les bois",
             "npc_en": "P'yandih",
             "npc_fr": "P'yandih",
-            "cPrev": [70310],
-            "cNext": [70312],
+            "cPrev": ["q.70310"],
+            "cNext": ["q.70312"],
             "patch": "6.45"
         },
         "x70312": {
@@ -241,8 +241,8 @@
             "name_fr": "Martyn sous la neige",
             "npc_en": "P'yandih",
             "npc_fr": "P'yandih",
-            "cPrev": [70311],
-            "cNext": [70313],
+            "cPrev": ["q.70311"],
+            "cNext": ["q.70313"],
             "patch": "6.45"
         },
         "x70313": {
@@ -251,8 +251,8 @@
             "name_fr": "Martyn défend son honneur",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [70312],
-            "cNext": [70314],
+            "cPrev": ["q.70312"],
+            "cNext": ["q.70314"],
             "patch": "6.45"
         },
         "x70314": {
@@ -261,7 +261,7 @@
             "name_fr": "Courage, Martyn",
             "npc_en": "Martyn",
             "npc_fr": "Martyn",
-            "cPrev": [70313],
+            "cPrev": ["q.70313"],
             "patch": "6.45"
         }
     }

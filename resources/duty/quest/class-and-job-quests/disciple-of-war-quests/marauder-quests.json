@@ -9,8 +9,8 @@
             "name_fr": "La voie de la hache",
             "npc_en": "Blauthota",
             "npc_fr": "Blauthota",
-            "cPrev": ["duty.quests.other.quasi-quests.65715"],
-            "cNext": [65848],
+            "cPrev": ["q.65715"],
+            "cNext": ["q.65848"],
             "patch": "4.31"
         },
         "x65848": {
@@ -19,8 +19,8 @@
             "name_fr": "Partie de chasse",
             "npc_en": "Wyrnzoen",
             "npc_fr": "Wyrnzoen",
-            "cPrev": [65846],
-            "cNext": [65851, 65849],
+            "cPrev": ["q.65846"],
+            "cNext": ["q.65851", "q.65849"],
             "patch": "4.31"
         },
         "x65849": {
@@ -30,8 +30,8 @@
             "cPrevAny": true,
             "npc_en": "Wyrnzoen",
             "npc_fr": "Wyrnzoen",
-            "cPrev": [65846, 65848],
-            "cNext": [65851],
+            "cPrev": ["q.65846", "q.65848"],
+            "cNext": ["q.65851"],
             "patch": "4.31"
         },
         "x65851": {
@@ -40,8 +40,8 @@
             "name_fr": "Entre primates et charognards",
             "npc_en": "Wyrnzoen",
             "npc_fr": "Wyrnzoen",
-            "cPrev": [65848, 65849],
-            "cNext": [65852],
+            "cPrev": ["q.65848", "q.65849"],
+            "cNext": ["q.65852"],
             "patch": "4.31"
         },
         "x65852": {
@@ -50,8 +50,8 @@
             "name_fr": "Le grand fracas",
             "npc_en": "Wyrnzoen",
             "npc_fr": "Wyrnzoen",
-            "cPrev": [65851],
-            "cNext": [65853],
+            "cPrev": ["q.65851"],
+            "cNext": ["q.65853"],
             "patch": "4.31"
         },
         "x65853": {
@@ -60,8 +60,8 @@
             "name_fr": "Le fugueur",
             "npc_en": "Wyrnzoen",
             "npc_fr": "Wyrnzoen",
-            "cPrev": [65852],
-            "cNext": [65854],
+            "cPrev": ["q.65852"],
+            "cNext": ["q.65854"],
             "patch": "4.31"
         },
         "x65854": {
@@ -70,8 +70,8 @@
             "name_fr": "Zoenwyrn l'intrépide",
             "npc_en": "Wyrnzoen",
             "npc_fr": "Wyrnzoen",
-            "cPrev": [65853],
-            "cNext": [65855],
+            "cPrev": ["q.65853"],
+            "cNext": ["q.65855"],
             "patch": "4.31"
         },
         "x65855": {
@@ -80,8 +80,8 @@
             "name_fr": "À l'assaut de la Montagne vivante",
             "npc_en": "Wyrnzoen",
             "npc_fr": "Wyrnzoen",
-            "cPrev": [65854],
-            "cNext": ["duty.quests.class--job.disciple-of-war-job.warrior.66585"],
+            "cPrev": ["q.65854"],
+            "cNext": ["q.66585"],
             "cSiblings": ["character.adventure-plate.4"],
             "cCombo": [
                 "character.achievement.quests.job-role-quests.313",

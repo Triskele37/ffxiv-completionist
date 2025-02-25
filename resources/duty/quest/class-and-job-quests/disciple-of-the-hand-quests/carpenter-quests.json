@@ -9,8 +9,8 @@
             "name_fr": "La voie de la menuiserie",
             "npc_en": "Corgg",
             "npc_fr": "Corgg",
-            "cPrev": ["duty.quests.other.quasi-quests.65720"],
-            "cNext": [65741],
+            "cPrev": ["q.65720"],
+            "cNext": ["q.65741"],
             "cSiblings": ["character.adventure-plate.69"],
             "patch": "4.31"
         },
@@ -20,8 +20,8 @@
             "name_fr": "Connaître le bois",
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
-            "cPrev": [65674],
-            "cNext": [65675],
+            "cPrev": ["q.65674"],
+            "cNext": ["q.65675"],
             "patch": "4.31"
         },
         "x65675": {
@@ -30,8 +30,8 @@
             "name_fr": "Une grande responsabilité",
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
-            "cPrev": [65741],
-            "cNext": [65676],
+            "cPrev": ["q.65741"],
+            "cNext": ["q.65676"],
             "patch": "4.31"
         },
         "x65676": {
@@ -40,8 +40,8 @@
             "name_fr": "Faire feu de tout bois",
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
-            "cPrev": [65675],
-            "cNext": [65677],
+            "cPrev": ["q.65675"],
+            "cNext": ["q.65677"],
             "patch": "4.31"
         },
         "x65677": {
@@ -50,8 +50,8 @@
             "name_fr": "L'amour du bois",
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
-            "cPrev": [65676],
-            "cNext": [65678],
+            "cPrev": ["q.65676"],
+            "cNext": ["q.65678"],
             "patch": "4.31"
         },
         "x65678": {
@@ -60,8 +60,8 @@
             "name_fr": "Droit comme une lance",
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
-            "cPrev": [65677],
-            "cNext": [65704],
+            "cPrev": ["q.65677"],
+            "cNext": ["q.65704"],
             "patch": "4.31"
         },
         "x65704": {
@@ -70,8 +70,8 @@
             "name_fr": "En panne d'inspiration",
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
-            "cPrev": [65678],
-            "cNext": [65705],
+            "cPrev": ["q.65678"],
+            "cNext": ["q.65705"],
             "patch": "4.31"
         },
         "x65705": {
@@ -80,8 +80,8 @@
             "name_fr": "Une leçon de vie",
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
-            "cPrev": [65704],
-            "cNext": [66072],
+            "cPrev": ["q.65704"],
+            "cNext": ["q.66072"],
             "cCombo": ["character.achievement.quests.job-role-quests.316"],
             "patch": "4.31"
         },
@@ -91,8 +91,8 @@
             "name_fr": "Préparatifs de guerre",
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
-            "cPrev": [65705],
-            "cNext": [66073],
+            "cPrev": ["q.65705"],
+            "cNext": ["q.66073"],
             "patch": "4.31"
         },
         "x66073": {
@@ -101,8 +101,8 @@
             "name_fr": "Memento Mori",
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
-            "cPrev": [66072],
-            "cNext": [66074],
+            "cPrev": ["q.66072"],
+            "cNext": ["q.66074"],
             "patch": "4.31"
         },
         "x66074": {
@@ -111,8 +111,8 @@
             "name_fr": "L'arc de la discorde",
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
-            "cPrev": [66073],
-            "cNext": [66075],
+            "cPrev": ["q.66073"],
+            "cNext": ["q.66075"],
             "patch": "4.31"
         },
         "x66075": {
@@ -121,8 +121,8 @@
             "name_fr": "Le temps des adieux",
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
-            "cPrev": [66074],
-            "cNext": [67533],
+            "cPrev": ["q.66074"],
+            "cNext": ["q.67533"],
             "patch": "4.31"
         },
         "x67533": {
@@ -131,8 +131,8 @@
             "name_fr": "Rien ne se perd",
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
-            "cPrev": [66075, "duty.quests.main-scenario.seventh-astral-era.65964"],
-            "cNext": [67534],
+            "cPrev": ["q.66075", "q.65964"],
+            "cNext": ["q.67534"],
             "patch": "4.31"
         },
         "x67534": {
@@ -141,8 +141,8 @@
             "name_fr": "Un arc à bander",
             "npc_en": "Barthovieu",
             "npc_fr": "Barthovieu",
-            "cPrev": [67533],
-            "cNext": [67535],
+            "cPrev": ["q.67533"],
+            "cNext": ["q.67535"],
             "patch": "4.31"
         },
         "x67535": {
@@ -151,8 +151,8 @@
             "name_fr": "Doublement gâté",
             "npc_en": "Barthovieu",
             "npc_fr": "Barthovieu",
-            "cPrev": [67534],
-            "cNext": [67536],
+            "cPrev": ["q.67534"],
+            "cNext": ["q.67536"],
             "patch": "4.31"
         },
         "x67536": {
@@ -161,8 +161,8 @@
             "name_fr": "Piège au bois de bouleau",
             "npc_en": "Barthovieu",
             "npc_fr": "Barthovieu",
-            "cPrev": [67535],
-            "cNext": [67537],
+            "cPrev": ["q.67535"],
+            "cNext": ["q.67537"],
             "patch": "4.31"
         },
         "x67537": {
@@ -171,8 +171,8 @@
             "name_fr": "Ultime partie de chasse",
             "npc_en": "Barthovieu",
             "npc_fr": "Barthovieu",
-            "cPrev": [67536],
-            "cNext": [67977],
+            "cPrev": ["q.67536"],
+            "cNext": ["q.67977"],
             "patch": "4.31"
         },
         "x67977": {
@@ -181,8 +181,8 @@
             "name_fr": "Ça sent le sapin pour Beatin",
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
-            "cPrev": [67537, "duty.quests.main-scenario.post-dragonsong.67895"],
-            "cNext": [67978],
+            "cPrev": ["q.67537", "q.67895"],
+            "cNext": ["q.67978"],
             "patch": "4.31"
         },
         "x67978": {
@@ -191,8 +191,8 @@
             "name_fr": "Confiance en bois",
             "npc_en": "Beatin",
             "npc_fr": "Beatin",
-            "cPrev": [67977],
-            "cNext": [67979],
+            "cPrev": ["q.67977"],
+            "cNext": ["q.67979"],
             "patch": "4.31"
         },
         "x67979": {
@@ -201,8 +201,8 @@
             "name_fr": "La tasse de thé de Cemi",
             "npc_en": "Cemi Jinjahl",
             "npc_fr": "Cemi Jinjahl",
-            "cPrev": [67978],
-            "cNext": [67980],
+            "cPrev": ["q.67978"],
+            "cNext": ["q.67980"],
             "patch": "4.31"
         },
         "x67980": {
@@ -211,8 +211,8 @@
             "name_fr": "De l'importance de l'étiquette",
             "npc_en": "Kotokaze",
             "npc_fr": "Kotokaze",
-            "cPrev": [67979],
-            "cNext": [67981],
+            "cPrev": ["q.67979"],
+            "cNext": ["q.67981"],
             "patch": "4.31"
         },
         "x67981": {
@@ -221,7 +221,7 @@
             "name_fr": "Le doigt entre l'arbre et l'écorce",
             "npc_en": "Cemi Jinjahl",
             "npc_fr": "Cemi Jinjahl",
-            "cPrev": [67980],
+            "cPrev": ["q.67980"],
             "cSiblings": ["character.adventure-plate.68"],
             "patch": "4.31"
         }

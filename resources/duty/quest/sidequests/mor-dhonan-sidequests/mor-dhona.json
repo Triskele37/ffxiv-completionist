@@ -28,7 +28,7 @@
             "npc_en": "Alys",
             "npc_fr": "Alys",
             "unlock_en": "Augmented Artifact Armor",
-            "cPrev": ["duty.quests.sidequests.uldahn.western-thanalan.66235"],
+            "cPrev": ["q.66235"],
             "patch": "4.31"
         },
         "x66958": {
@@ -37,8 +37,8 @@
             "name_fr": "Juste une illusion",
             "npc_en": "Wiscard",
             "npc_fr": "Wiscard",
-            "cPrev": [66957],
-            "cExclude": ["duty.quests.sidequests.uldahn.western-thanalan.68554"],
+            "cPrev": ["q.66957"],
+            "cExclude": ["q.68554"],
             "patch": "4.31"
         },
         "x66957": {
@@ -48,8 +48,8 @@
             "npc_en": "Wiscard",
             "npc_fr": "Wiscard",
             "unlock_en": "Glamours",
-            "cNext": [66958],
-            "cExclude": ["duty.quests.sidequests.uldahn.western-thanalan.68553"],
+            "cNext": ["q.66958"],
+            "cExclude": ["q.68553"],
             "patch": "4.31"
         },
         "x66524": {
@@ -66,7 +66,7 @@
             "name_fr": "Un animal de compagnie insolite",
             "npc_en": "Aganbold",
             "npc_fr": "Aganbold",
-            "cNext": [66535],
+            "cNext": ["q.66535"],
             "patch": "4.31"
         },
         "x65554": {
@@ -76,11 +76,7 @@
             "cPrevAny": true,
             "npc_en": "K'leytai",
             "npc_fr": "K'leytai",
-            "cPrev": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66229",
-                "duty.quests.sidequests.gridanian.gridania.65756",
-                "duty.quests.sidequests.uldahn.uldah.66223"
-            ],
+            "cPrev": ["q.66229", "q.65756", "q.66223"],
             "patch": "4.31"
         },
         "x66523": {
@@ -89,7 +85,7 @@
             "name_fr": "Quelle catalyse",
             "npc_en": "Aganbold",
             "npc_fr": "Aganbold",
-            "cPrev": [66535],
+            "cPrev": ["q.66535"],
             "patch": "4.31"
         },
         "x66525": {
@@ -98,7 +94,7 @@
             "name_fr": "Les âmes des revenants",
             "npc_en": "Guolgeim",
             "npc_fr": "Guolgeim",
-            "cNext": [66534],
+            "cNext": ["q.66534"],
             "patch": "4.31"
         },
         "x66526": {
@@ -115,7 +111,7 @@
             "name_fr": "Des nouvelles de la maison",
             "npc_en": "Nazyl Duzyl",
             "npc_fr": "Nazyl Duzyl",
-            "cNext": [66532],
+            "cNext": ["q.66532"],
             "patch": "4.31"
         },
         "x66528": {
@@ -132,7 +128,7 @@
             "name_fr": "Des monstres qui n'aiment pas les fouilles",
             "npc_en": "Wandering Breeze",
             "npc_fr": "Wandering Breeze",
-            "cNext": [66531],
+            "cNext": ["q.66531"],
             "patch": "4.31"
         },
         "x66530": {
@@ -149,7 +145,7 @@
             "name_fr": "Un lieu saint géant",
             "npc_en": "Wandering Breeze",
             "npc_fr": "Wandering Breeze",
-            "cPrev": [66529],
+            "cPrev": ["q.66529"],
             "patch": "4.31"
         },
         "x66532": {
@@ -158,7 +154,7 @@
             "name_fr": "Une histoire qui commence par la chute",
             "npc_en": "Nazyl Duzyl",
             "npc_fr": "Nazyl Duzyl",
-            "cPrev": [66527],
+            "cPrev": ["q.66527"],
             "patch": "4.31"
         },
         "x66534": {
@@ -167,8 +163,8 @@
             "name_fr": "L'appât du gain",
             "npc_en": "Guolgeim",
             "npc_fr": "Guolgeim",
-            "cPrev": [66525],
-            "cNext": [66536],
+            "cPrev": ["q.66525"],
+            "cNext": ["q.66536"],
             "patch": "4.31"
         },
         "x66535": {
@@ -177,8 +173,8 @@
             "name_fr": "Flemmite aiguë",
             "npc_en": "Aganbold",
             "npc_fr": "Aganbold",
-            "cPrev": [66533],
-            "cNext": [66523],
+            "cPrev": ["q.66533"],
+            "cNext": ["q.66523"],
             "patch": "4.31"
         },
         "x66536": {
@@ -187,7 +183,7 @@
             "name_fr": "S'en mettre plein les fouilles",
             "npc_en": "Guolgeim",
             "npc_fr": "Guolgeim",
-            "cPrev": [66534],
+            "cPrev": ["q.66534"],
             "patch": "4.31"
         },
         "x65700": {
@@ -196,7 +192,7 @@
             "name_fr": "Il est beau mon canon",
             "npc_en": "Slafborn",
             "npc_fr": "Slafborn",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x66677": {
@@ -206,7 +202,7 @@
             "npc_en": "Brangwine",
             "npc_fr": "Brangwine",
             "unlock_en": "Mystery Map",
-            "cPrev": ["duty.quests.sidequests.gridanian.north-shroud.66676"],
+            "cPrev": ["q.66676"],
             "patch": "4.31"
         },
         "x66751": {
@@ -216,7 +212,7 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.18",
             "npc_en": "Lauriane",
             "npc_fr": "Lauriane",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x66752": {
@@ -226,7 +222,7 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.17",
             "npc_en": "Hugubert",
             "npc_fr": "Hugubert",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x66946": {
@@ -236,7 +232,7 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.20",
             "npc_en": "Hugubert",
             "npc_fr": "Hugubert",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x66947": {
@@ -246,7 +242,7 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.21",
             "npc_en": "Bloezoeng",
             "npc_fr": "Bloezoeng",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x66959": {
@@ -264,7 +260,7 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.23",
             "npc_en": "Faillicie",
             "npc_fr": "Faillicie",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x67062": {
@@ -274,8 +270,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.22",
             "npc_en": "Bloezoeng",
             "npc_fr": "Bloezoeng",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
-            "cNext": ["duty.quests.sidequests.lominsan.limsa-lominsa.67784"],
+            "cPrev": ["q.66060"],
+            "cNext": ["q.67784"],
             "patch": "4.31"
         },
         "x66844": {
@@ -285,8 +281,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.19",
             "npc_en": "Alys",
             "npc_fr": "Alys",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
-            "cNext": [67095],
+            "cPrev": ["q.66060"],
+            "cNext": ["q.67095"],
             "patch": "4.31"
         },
         "x67095": {
@@ -301,7 +297,7 @@
             ],
             "npc_en": "Alys",
             "npc_fr": "Alys",
-            "cPrev": [66844],
+            "cPrev": ["q.66844"],
             "patch": "4.31"
         },
         "x65630": {
@@ -311,7 +307,7 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.26",
             "npc_en": "Bloezoeng",
             "npc_fr": "Bloezoeng",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x65632": {
@@ -321,7 +317,7 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.27",
             "npc_en": "Hugubert",
             "npc_fr": "Hugubert",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x65966": {
@@ -331,7 +327,7 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.30",
             "npc_en": "Lauriane",
             "npc_fr": "Lauriane",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x65967": {
@@ -341,7 +337,7 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.29",
             "npc_en": "Bloezoeng",
             "npc_fr": "Bloezoeng",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         },
         "x67632": {
@@ -350,7 +346,7 @@
             "name_fr": "De nouveaux sommets",
             "npc_en": "Lydirlona",
             "npc_fr": "Lydirlona",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67118"],
+            "cPrev": ["q.67118"],
             "patch": "4.31"
         },
         "x67633": {
@@ -359,7 +355,7 @@
             "name_fr": "Le maître de l'éthérolyse",
             "npc_en": "Lydirlona",
             "npc_fr": "Lydirlona",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67118"],
+            "cPrev": ["q.67118"],
             "patch": "4.31"
         },
         "x67634": {
@@ -369,16 +365,8 @@
             "npc_en": "Lydirlona",
             "npc_fr": "Lydirlona",
             "unlock_en": "Aetherial Reduction",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67118", "duty.quests.sidequests.ishgardian.ishgard.67631"],
-            "cNext": [
-                "duty.quests.sidequests.dravanian.idyllshire.67087",
-                "duty.quests.other.quasi-quests.67635",
-                "duty.quests.other.quasi-quests.68477",
-                "duty.quests.other.quasi-quests.69711",
-                "duty.quests.other.quasi-quests.69139",
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69425",
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69615"
-            ],
+            "cPrev": ["q.67118", "q.67631"],
+            "cNext": ["q.67087", "q.67635", "q.68477", "q.69711", "q.69139", "q.69425", "q.69615"],
             "patch": "4.31"
         },
         "x67739": {
@@ -388,7 +376,7 @@
             "unlock": "duty.dutyraid-finder.trials.hw.9",
             "npc_en": "Alys",
             "npc_fr": "Alys",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67205"],
+            "cPrev": ["q.67205"],
             "patch": "4.31"
         },
         "x67825": {
@@ -398,7 +386,7 @@
             "unlock": "duty.dutyraid-finder.trials.hw.10",
             "npc_en": "Alys",
             "npc_fr": "Alys",
-            "cPrev": ["duty.quests.main-scenario.dragonsong.67783"],
+            "cPrev": ["q.67783"],
             "patch": "4.31"
         },
         "x67644": {
@@ -413,7 +401,7 @@
             ],
             "npc_en": "Wandering Minstrel",
             "npc_fr": "Ménestrel Errant",
-            "cPrev": ["duty.quests.chronicles-of-a-new-era.alexander.67630"],
+            "cPrev": ["q.67630"],
             "patch": "4.31"
         },
         "x67790": {
@@ -428,7 +416,7 @@
             ],
             "npc_en": "Wandering Minstrel",
             "npc_fr": "Ménestrel Errant",
-            "cPrev": ["duty.quests.chronicles-of-a-new-era.alexander.67789"],
+            "cPrev": ["q.67789"],
             "patch": "4.31"
         },
         "x67876": {
@@ -443,7 +431,7 @@
             ],
             "npc_en": "Wandering Minstrel",
             "npc_fr": "Ménestrel Errant",
-            "cPrev": ["duty.quests.chronicles-of-a-new-era.alexander.67875"],
+            "cPrev": ["q.67875"],
             "patch": "4.31"
         },
         "x68722": {
@@ -452,7 +440,7 @@
             "name_fr": "La Salaisonnerie a fait des petits",
             "npc_en": "Bloezoeng",
             "npc_fr": "Bloezoeng",
-            "cPrev": ["duty.quests.main-scenario.post-stormblood.68717"],
+            "cPrev": ["q.68717"],
             "patch": "4.5"
         }
     }

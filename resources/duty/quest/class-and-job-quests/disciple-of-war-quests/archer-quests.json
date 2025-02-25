@@ -9,8 +9,8 @@
             "name_fr": "La voie de l'archerie",
             "npc_en": "Athelyna",
             "npc_fr": "Athelyna",
-            "cPrev": ["duty.quests.other.quasi-quests.65717"],
-            "cNext": [65755, 65670],
+            "cPrev": ["q.65717"],
+            "cNext": ["q.65755", "q.65670"],
             "patch": "4.31"
         },
         "x65755": {
@@ -19,8 +19,8 @@
             "name_fr": "L'enfance de l'arc",
             "npc_en": "Luciane",
             "npc_fr": "Luciane",
-            "cPrev": [65667],
-            "cNext": [65582],
+            "cPrev": ["q.65667"],
+            "cNext": ["q.65582"],
             "patch": "4.31"
         },
         "x65582": {
@@ -29,8 +29,8 @@
             "name_fr": "L'arc et le regard",
             "npc_en": "Luciane",
             "npc_fr": "Luciane",
-            "cPrev": [65755],
-            "cNext": [65670],
+            "cPrev": ["q.65755"],
+            "cNext": ["q.65670"],
             "patch": "4.31"
         },
         "x65670": {
@@ -39,8 +39,8 @@
             "name_fr": "Connaître ses ennemis",
             "npc_en": "Luciane",
             "npc_fr": "Luciane",
-            "cPrev": [65582, 65667],
-            "cNext": [65604],
+            "cPrev": ["q.65582", "q.65667"],
+            "cNext": ["q.65604"],
             "patch": "4.31"
         },
         "x65604": {
@@ -49,8 +49,8 @@
             "name_fr": "L'arc et la manière",
             "npc_en": "Luciane",
             "npc_fr": "Luciane",
-            "cPrev": [65670],
-            "cNext": [65606],
+            "cPrev": ["q.65670"],
+            "cNext": ["q.65606"],
             "patch": "4.31"
         },
         "x65606": {
@@ -59,8 +59,8 @@
             "name_fr": "La proie pour l'ombre",
             "npc_en": "Luciane",
             "npc_fr": "Luciane",
-            "cPrev": [65604],
-            "cNext": [65607],
+            "cPrev": ["q.65604"],
+            "cNext": ["q.65607"],
             "patch": "4.31"
         },
         "x65607": {
@@ -69,8 +69,8 @@
             "name_fr": "Fuite en avant",
             "npc_en": "Luciane",
             "npc_fr": "Luciane",
-            "cPrev": [65606],
-            "cNext": [65612],
+            "cPrev": ["q.65606"],
+            "cNext": ["q.65612"],
             "patch": "4.31"
         },
         "x65612": {
@@ -79,8 +79,8 @@
             "name_fr": "Droit comme une flèche",
             "npc_en": "Luciane",
             "npc_fr": "Luciane",
-            "cPrev": [65607],
-            "cNext": ["duty.quests.class--job.disciple-of-war-job.bard.66621"],
+            "cPrev": ["q.65607"],
+            "cNext": ["q.66621"],
             "cSiblings": ["character.adventure-plate.46"],
             "cCombo": [
                 "character.achievement.quests.job-role-quests.313",

@@ -9,8 +9,8 @@
             "name_fr": "Rencontre en noir et blanc",
             "npc_en": "Gossipy Dwarf",
             "npc_fr": "Nain Colporteur De Rumeurs",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69173"],
-            "cNext": [69253],
+            "cPrev": ["q.69173"],
+            "cNext": ["q.69253"],
             "patch": "5.0"
         },
         "x69253": {
@@ -19,8 +19,8 @@
             "name_fr": "C'est tombé du chariot!",
             "npc_en": "Gossipy Dwarf",
             "npc_fr": "Nain Colporteur De Rumeurs",
-            "cPrev": ["duty.quests.main-scenario.shadowbringers.69190", 69207],
-            "cNext": [69254],
+            "cPrev": ["q.69190", "q.69207"],
+            "cNext": ["q.69254"],
             "patch": "5.1"
         },
         "x69254": {
@@ -30,8 +30,8 @@
             "unlock": "duty.dutyraid-finder.raids.shb.9",
             "npc_en": "Dig Site Chief",
             "npc_fr": "Porion Nain",
-            "cPrev": [69253],
-            "cNext": [69255],
+            "cPrev": ["q.69253"],
+            "cNext": ["q.69255"],
             "patch": "5.1"
         },
         "x69255": {
@@ -40,8 +40,8 @@
             "name_fr": "On y retourne!",
             "npc_en": "Anogg",
             "npc_fr": "Anogg",
-            "cPrev": [69254],
-            "cNext": [69257, 69256],
+            "cPrev": ["q.69254"],
+            "cNext": ["q.69257", "q.69256"],
             "patch": "5.1"
         },
         "x69256": {
@@ -50,9 +50,9 @@
             "name_fr": "Visite d'usine (cheminement d'Anogg)",
             "npc_en": "Anogg",
             "npc_fr": "Anogg",
-            "cPrev": [69255],
-            "cNext": [69320],
-            "cExclude": [69257],
+            "cPrev": ["q.69255"],
+            "cNext": ["q.69320"],
+            "cExclude": ["q.69257"],
             "patch": "5.1"
         },
         "x69257": {
@@ -61,9 +61,9 @@
             "name_fr": "Visite d'usine (cheminement de Konogg)",
             "npc_en": "Konogg",
             "npc_fr": "Konogg",
-            "cPrev": [69255],
-            "cNext": [69320],
-            "cExclude": [69256],
+            "cPrev": ["q.69255"],
+            "cNext": ["q.69320"],
+            "cExclude": ["q.69256"],
             "patch": "5.1"
         },
         "x69320": {
@@ -73,8 +73,8 @@
             "cPrevAny": true,
             "npc_en": "Dig Site Chief",
             "npc_fr": "Porion Nain",
-            "cPrev": [69256, 69257],
-            "cNext": [69321],
+            "cPrev": ["q.69256", "q.69257"],
+            "cNext": ["q.69321"],
             "patch": "5.2"
         },
         "x69321": {
@@ -83,8 +83,8 @@
             "name_fr": "Le plan d'Anogg",
             "npc_en": "Anogg",
             "npc_fr": "Anogg",
-            "cPrev": [69320],
-            "cNext": [69488],
+            "cPrev": ["q.69320"],
+            "cNext": ["q.69488"],
             "patch": "5.2"
         },
         "x69488": {
@@ -93,8 +93,8 @@
             "name_fr": "Les Gogg en goguette",
             "npc_en": "Dig Site Chief",
             "npc_fr": "Porion Nain",
-            "cPrev": [69321],
-            "cNext": [69489],
+            "cPrev": ["q.69321"],
+            "cNext": ["q.69489"],
             "patch": "5.3"
         },
         "x69489": {
@@ -104,8 +104,8 @@
             "unlock": "duty.dutyraid-finder.raids.shb.18",
             "npc_en": "Anogg",
             "npc_fr": "Anogg",
-            "cPrev": [69488],
-            "cNext": [69490],
+            "cPrev": ["q.69488"],
+            "cNext": ["q.69490"],
             "patch": "5.3"
         },
         "x69490": {
@@ -114,8 +114,8 @@
             "name_fr": "L'avocat des diables",
             "npc_en": "Konogg",
             "npc_fr": "Konogg",
-            "cPrev": [69489],
-            "cNext": [69534],
+            "cPrev": ["q.69489"],
+            "cNext": ["q.69534"],
             "patch": "5.3"
         },
         "x69534": {
@@ -124,8 +124,8 @@
             "name_fr": "Konogg, le mal aimé",
             "npc_en": "Konogg",
             "npc_fr": "Konogg",
-            "cPrev": [69490],
-            "cNext": [69570],
+            "cPrev": ["q.69490"],
+            "cNext": ["q.69570"],
             "patch": "5.4"
         },
         "x69570": {
@@ -134,8 +134,8 @@
             "name_fr": "Au chevet de Konogg",
             "npc_en": "Dig Site Chief",
             "npc_fr": "Porion Nain",
-            "cPrev": [69534],
-            "cNext": [69571],
+            "cPrev": ["q.69534"],
+            "cNext": ["q.69571"],
             "patch": "5.5"
         },
         "x69571": {
@@ -145,8 +145,8 @@
             "unlock": "duty.dutyraid-finder.raids.shb.27",
             "npc_en": "Dig Site Chief",
             "npc_fr": "Porion Nain",
-            "cPrev": [69570],
-            "cNext": [69572],
+            "cPrev": ["q.69570"],
+            "cNext": ["q.69572"],
             "patch": "5.5"
         },
         "x69572": {
@@ -155,8 +155,8 @@
             "name_fr": "Tous coupables?",
             "npc_en": "Dig Site Chief",
             "npc_fr": "Porion Nain",
-            "cPrev": [69571],
-            "cNext": [69579],
+            "cPrev": ["q.69571"],
+            "cNext": ["q.69579"],
             "patch": "5.5"
         },
         "x69579": {
@@ -165,8 +165,8 @@
             "name_fr": "Projet d'avenir",
             "npc_en": "Dig Site Chief",
             "npc_fr": "Porion Nain",
-            "cPrev": [69572],
-            "cNext": [69586, "duty.quests.other.quasi-quests.69580"],
+            "cPrev": ["q.69572"],
+            "cNext": ["q.69586", "q.69580"],
             "patch": "5.5"
         },
         "x69586": {
@@ -175,7 +175,7 @@
             "name_fr": "Formes de vie recyclables",
             "npc_en": "Doomsaying Dwarf",
             "npc_fr": "Villageois Désespéré",
-            "cPrev": [69579],
+            "cPrev": ["q.69579"],
             "patch": "5.5"
         },
         "x69587": {
@@ -184,7 +184,7 @@
             "name_fr": "Bon débarras",
             "npc_en": "Dour Dwarf",
             "npc_fr": "Villageois Présomptueux",
-            "cPrev": ["duty.quests.other.quasi-quests.69581"],
+            "cPrev": ["q.69581"],
             "patch": "5.5"
         },
         "x69588": {
@@ -193,7 +193,7 @@
             "name_fr": "Chasse à la grenouille",
             "npc_en": "Decisive Dwarf",
             "npc_fr": "Villageois Fougueux",
-            "cPrev": ["duty.quests.other.quasi-quests.69583"],
+            "cPrev": ["q.69583"],
             "patch": "5.5"
         },
         "x69589": {
@@ -202,7 +202,7 @@
             "name_fr": "Comme les deux doigts de la main",
             "npc_en": "Dig Site Chief",
             "npc_fr": "Porion Nain",
-            "cPrev": ["duty.quests.other.quasi-quests.69585"],
+            "cPrev": ["q.69585"],
             "cSiblings": ["character.achievement.quests.quests.2852"],
             "patch": "5.55"
         }

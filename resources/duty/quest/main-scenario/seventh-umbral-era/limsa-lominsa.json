@@ -10,61 +10,54 @@
             "npc_en": "Baderon",
             "npc_fr": "Baderon",
             "unlock_en": "Return",
-            "cPrev": ["duty.quests.sidequests.lominsan.limsa-lominsa.65643"],
-            "cNext": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.65658",
-                65998,
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66199"
-            ],
-            "cExclude": [
-                "duty.quests.main-scenario.seventh-umbral-era.gridania.65660",
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.66106"
-            ],
+            "cPrev": ["q.65643"],
+            "cNext": ["q.65658", "q.65998", "q.66199"],
+            "cExclude": ["q.65660", "q.66106"],
             "cExclusive": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.65643",
-                "duty.quests.levequests.battlecraft.556",
-                65998,
-                65999,
-                66079,
-                66001,
-                66002,
-                66003,
-                66004,
-                66005,
-                65933,
-                65938,
-                65939,
-                65942,
-                65948,
-                65951,
-                65949,
-                65950,
-                66225,
-                66080,
-                66226,
-                66081,
-                66082,
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210",
+                "q.65643",
+                "q.556",
+                "q.65998",
+                "q.65999",
+                "q.66079",
+                "q.66001",
+                "q.66002",
+                "q.66003",
+                "q.66004",
+                "q.66005",
+                "q.65933",
+                "q.65938",
+                "q.65939",
+                "q.65942",
+                "q.65948",
+                "q.65951",
+                "q.65949",
+                "q.65950",
+                "q.66225",
+                "q.66080",
+                "q.66226",
+                "q.66081",
+                "q.66082",
+                "q.66210",
                 "character.achievement.quests.main-scenario.310",
-                "duty.quests.sidequests.lominsan.western-la-noscea.65595",
-                "duty.quests.sidequests.lominsan.limsa-lominsa.65647",
-                "duty.quests.sidequests.lominsan.limsa-lominsa.65648",
-                "duty.quests.sidequests.lominsan.limsa-lominsa.65658",
-                "duty.quests.sidequests.lominsan.middle-la-noscea.65936",
-                "duty.quests.sidequests.lominsan.middle-la-noscea.65937",
-                "duty.quests.sidequests.lominsan.western-la-noscea.65941",
-                "duty.quests.sidequests.lominsan.middle-la-noscea.66006",
-                "duty.quests.sidequests.lominsan.middle-la-noscea.66008",
-                "duty.quests.sidequests.lominsan.middle-la-noscea.66009",
-                "duty.quests.sidequests.lominsan.middle-la-noscea.66010",
-                "duty.quests.sidequests.lominsan.lower-la-noscea.66011",
-                "duty.quests.sidequests.lominsan.lower-la-noscea.66012",
-                "duty.quests.sidequests.lominsan.lower-la-noscea.66013",
-                "duty.quests.sidequests.lominsan.lower-la-noscea.66014",
-                "duty.quests.sidequests.lominsan.lower-la-noscea.66015",
-                "duty.quests.sidequests.lominsan.lower-la-noscea.66022",
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66199",
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66229"
+                "q.65595",
+                "q.65647",
+                "q.65648",
+                "q.65658",
+                "q.65936",
+                "q.65937",
+                "q.65941",
+                "q.66006",
+                "q.66008",
+                "q.66009",
+                "q.66010",
+                "q.66011",
+                "q.66012",
+                "q.66013",
+                "q.66014",
+                "q.66015",
+                "q.66022",
+                "q.66199",
+                "q.66229"
             ],
             "patch": "4.31"
         },
@@ -74,8 +67,8 @@
             "name_fr": "Aux vergers d'Estival",
             "npc_en": "Baderon",
             "npc_fr": "Baderon",
-            "cPrev": [65645],
-            "cNext": ["duty.quests.sidequests.lominsan.middle-la-noscea.66008", 65999],
+            "cPrev": ["q.65645"],
+            "cNext": ["q.66008", "q.65999"],
             "patch": "4.31"
         },
         "x65999": {
@@ -84,8 +77,8 @@
             "name_fr": "Une tenue pour travail musclé",
             "npc_en": "Staelwyrn",
             "npc_fr": "Staelwyrn",
-            "cPrev": [65998],
-            "cNext": [66079],
+            "cPrev": ["q.65998"],
+            "cNext": ["q.66079"],
             "patch": "4.31"
         },
         "x66079": {
@@ -94,8 +87,8 @@
             "name_fr": "Coup de poignard dans le dos",
             "npc_en": "Staelwyrn",
             "npc_fr": "Staelwyrn",
-            "cPrev": [65999],
-            "cNext": [66001],
+            "cPrev": ["q.65999"],
+            "cNext": ["q.66001"],
             "patch": "4.31"
         },
         "x66001": {
@@ -104,8 +97,8 @@
             "name_fr": "Les pirates des vergers",
             "npc_en": "Staelwyrn",
             "npc_fr": "Staelwyrn",
-            "cPrev": [66079],
-            "cNext": [66002],
+            "cPrev": ["q.66079"],
+            "cNext": ["q.66002"],
             "patch": "4.31"
         },
         "x66002": {
@@ -114,8 +107,8 @@
             "name_fr": "Qui a volé, a volé le sac d'oranges",
             "npc_en": "Staelwyrn",
             "npc_fr": "Staelwyrn",
-            "cPrev": [66001],
-            "cNext": ["duty.quests.sidequests.lominsan.middle-la-noscea.66010", 66003, 66003],
+            "cPrev": ["q.66001"],
+            "cNext": ["q.66010", "q.66003", "q.66003"],
             "patch": "4.31"
         },
         "x66003": {
@@ -124,8 +117,8 @@
             "name_fr": "Les mains dedans",
             "npc_en": "Gurcant",
             "npc_fr": "Gurcant",
-            "cPrev": [66002],
-            "cNext": [66004],
+            "cPrev": ["q.66002"],
+            "cNext": ["q.66004"],
             "patch": "4.31"
         },
         "x66004": {
@@ -134,8 +127,8 @@
             "name_fr": "Des pirates provocateurs",
             "npc_en": "Pfrewahl",
             "npc_fr": "Pfrewahl",
-            "cPrev": [66003],
-            "cNext": [66005],
+            "cPrev": ["q.66003"],
+            "cNext": ["q.66005"],
             "patch": "4.31"
         },
         "x66005": {
@@ -145,8 +138,8 @@
             "npc_en": "Staelwyrn",
             "npc_fr": "Staelwyrn",
             "unlock_en": "Inn Rooms",
-            "cPrev": [66004],
-            "cNext": ["duty.quests.sidequests.lominsan.limsa-lominsa.66229", 65933],
+            "cPrev": ["q.66004"],
+            "cNext": ["q.66229", "q.65933"],
             "patch": "4.31"
         },
         "x65933": {
@@ -155,8 +148,8 @@
             "name_fr": "Le jour de l'Ascenciel",
             "npc_en": "Baderon",
             "npc_fr": "Baderon",
-            "cPrev": [66005],
-            "cNext": ["duty.quests.sidequests.lominsan.middle-la-noscea.65936", 65938],
+            "cPrev": ["q.66005"],
+            "cNext": ["q.65936", "q.65938"],
             "patch": "4.31"
         },
         "x65938": {
@@ -165,8 +158,8 @@
             "name_fr": "Les plants de l'espoir",
             "npc_en": "Wyrkrhit",
             "npc_fr": "Wyrkrhit",
-            "cPrev": [65933],
-            "cNext": [65939],
+            "cPrev": ["q.65933"],
+            "cNext": ["q.65939"],
             "patch": "4.31"
         },
         "x65939": {
@@ -175,8 +168,8 @@
             "name_fr": "Bombo échappé",
             "npc_en": "Fraeloef",
             "npc_fr": "Fraeloef",
-            "cPrev": [65938],
-            "cNext": [65942],
+            "cPrev": ["q.65938"],
+            "cNext": ["q.65942"],
             "patch": "4.31"
         },
         "x65942": {
@@ -185,8 +178,8 @@
             "name_fr": "Sur le chantier de la gloire",
             "npc_en": "H'naanza",
             "npc_fr": "H'naanza",
-            "cPrev": [65939],
-            "cNext": [65948],
+            "cPrev": ["q.65939"],
+            "cNext": ["q.65948"],
             "patch": "4.31"
         },
         "x65948": {
@@ -195,8 +188,8 @@
             "name_fr": "L'ouvrier en retard",
             "npc_en": "Ahtbyrm",
             "npc_fr": "Ahtbyrm",
-            "cPrev": [65942],
-            "cNext": [65951],
+            "cPrev": ["q.65942"],
+            "cNext": ["q.65951"],
             "patch": "4.31"
         },
         "x65951": {
@@ -205,8 +198,8 @@
             "name_fr": "L'ouvrier naval naufragé",
             "npc_en": "Haldbroda",
             "npc_fr": "Haldbroda",
-            "cPrev": [65948],
-            "cNext": [65949],
+            "cPrev": ["q.65948"],
+            "cNext": ["q.65949"],
             "patch": "4.31"
         },
         "x65949": {
@@ -215,8 +208,8 @@
             "name_fr": "Chantier en eaux troubles",
             "npc_en": "Ahtbyrm",
             "npc_fr": "Ahtbyrm",
-            "cPrev": [65951],
-            "cNext": [65950],
+            "cPrev": ["q.65951"],
+            "cNext": ["q.65950"],
             "patch": "4.31"
         },
         "x65950": {
@@ -225,8 +218,8 @@
             "name_fr": "Le flambeau du Victoire",
             "npc_en": "Ghimthota",
             "npc_fr": "Ghimthota",
-            "cPrev": [65949],
-            "cNext": [66225],
+            "cPrev": ["q.65949"],
+            "cNext": ["q.66225"],
             "patch": "4.31"
         },
         "x66225": {
@@ -235,8 +228,8 @@
             "name_fr": "Message codé",
             "npc_en": "Ghimthota",
             "npc_fr": "Ghimthota",
-            "cPrev": [65950],
-            "cNext": [66080],
+            "cPrev": ["q.65950"],
+            "cNext": ["q.66080"],
             "patch": "4.31"
         },
         "x66080": {
@@ -245,8 +238,8 @@
             "name_fr": "La théorie du complot",
             "npc_en": "Baderon",
             "npc_fr": "Baderon",
-            "cPrev": [66225],
-            "cNext": [66226],
+            "cPrev": ["q.66225"],
+            "cNext": ["q.66226"],
             "patch": "4.31"
         },
         "x66226": {
@@ -255,8 +248,8 @@
             "name_fr": "Tenue correcte exigée",
             "npc_en": "Reyner",
             "npc_fr": "Reyner Hansred",
-            "cPrev": [66080],
-            "cNext": [66081],
+            "cPrev": ["q.66080"],
+            "cNext": ["q.66081"],
             "patch": "4.31"
         },
         "x66081": {
@@ -265,13 +258,8 @@
             "name_fr": "Lueur d'espoir",
             "npc_en": "Baderon",
             "npc_fr": "Baderon",
-            "cPrev": [66226],
-            "cNext": [
-                66082,
-                "duty.quests.sidequests.gridanian.gridania.66961",
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66962",
-                "duty.quests.sidequests.uldahn.uldah.66963"
-            ],
+            "cPrev": ["q.66226"],
+            "cNext": ["q.66082", "q.66961", "q.66962", "q.66963"],
             "patch": "4.31"
         },
         "x66082": {
@@ -281,18 +269,8 @@
             "npc_en": "Merlwyb",
             "npc_fr": "Merlwyb",
             "unlock_en": "Airships",
-            "cPrev": [66081],
-            "cNext": [
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210",
-                "duty.quests.sidequests.uldahn.uldah.65970",
-                "duty.quests.other.special.collaboration.67677",
-                "duty.quests.other.seasonal.gold-saucer-festivities.67960",
-                "duty.quests.other.seasonal.gold-saucer-festivities.68669",
-                "duty.quests.other.seasonal.gold-saucer-festivities.68743",
-                "duty.quests.other.seasonal.gold-saucer-festivities.69499",
-                "duty.quests.other.seasonal.valentiones-little-ladies-day.69532",
-                "duty.quests.other.seasonal.gold-saucer-festivities.69590"
-            ],
+            "cPrev": ["q.66081"],
+            "cNext": ["q.66210", "q.65970", "q.67677", "q.67960", "q.68669", "q.68743", "q.69499", "q.69532", "q.69590"],
             "cSiblings": ["character.achievement.quests.main-scenario.310"],
             "patch": "4.31"
         },
@@ -302,13 +280,8 @@
             "name_fr": "L'appel de la mer",
             "npc_en": "Bartholomew",
             "npc_fr": "Bartholomew",
-            "cPrev": [66082],
-            "cNext": [
-                "duty.quests.sidequests.lominsan.western-la-noscea.66678",
-                "duty.quests.sidequests.lominsan.western-la-noscea.66681",
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66746",
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66967"
-            ],
+            "cPrev": ["q.66082"],
+            "cNext": ["q.66678", "q.66681", "q.66746", "q.66967"],
             "patch": "4.31"
         }
     }

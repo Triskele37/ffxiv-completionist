@@ -10,8 +10,8 @@
             "unlock": "duty.dutyraid-finder.trials.shb.3",
             "npc_en": "Resistance Officer",
             "npc_fr": "Officier Mhigois",
-            "cPrev": ["duty.quests.main-scenario.post-shadowbringers.69297"],
-            "cNext": ["duty.quests.other.quasi-quests.69378", 69431],
+            "cPrev": ["q.69297"],
+            "cNext": ["q.69378", "q.69431"],
             "patch": "5.2"
         },
         "x69431": {
@@ -20,8 +20,8 @@
             "name_fr": "Sur la mer de saphir",
             "npc_en": "Resistance Officer",
             "npc_fr": "Officier Mhigois",
-            "cPrev": [69319],
-            "cNext": [69516],
+            "cPrev": ["q.69319"],
+            "cNext": ["q.69516"],
             "patch": "5.3"
         },
         "x69516": {
@@ -31,8 +31,8 @@
             "unlock": "duty.dutyraid-finder.trials.shb.5",
             "npc_en": "Resistance Officer",
             "npc_fr": "Officier Mhigois",
-            "cPrev": [69431],
-            "cNext": [69517],
+            "cPrev": ["q.69431"],
+            "cNext": ["q.69517"],
             "patch": "5.4"
         },
         "x69517": {
@@ -41,8 +41,8 @@
             "name_fr": "Memento Mori",
             "npc_en": "Resistance Officer",
             "npc_fr": "Officier Mhigois",
-            "cPrev": [69516],
-            "cNext": [69567],
+            "cPrev": ["q.69516"],
+            "cNext": ["q.69567"],
             "patch": "5.4"
         },
         "x69567": {
@@ -52,8 +52,8 @@
             "unlock": "duty.dutyraid-finder.trials.shb.17",
             "npc_en": "Resistance Officer",
             "npc_fr": "Officier Mhigois",
-            "cPrev": [69517],
-            "cNext": [69568],
+            "cPrev": ["q.69517"],
+            "cNext": ["q.69568"],
             "patch": "5.5"
         },
         "x69568": {
@@ -62,7 +62,7 @@
             "name_fr": "Toujours près de toi",
             "npc_en": "Severa",
             "npc_fr": "Severa",
-            "cPrev": [69567],
+            "cPrev": ["q.69567"],
             "cSiblings": ["character.achievement.quests.quests.2887"],
             "patch": "5.5"
         }

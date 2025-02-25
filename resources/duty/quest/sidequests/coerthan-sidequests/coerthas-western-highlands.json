@@ -9,7 +9,7 @@
             "name_fr": "Faire des réserves",
             "npc_en": "Noirterel",
             "npc_fr": "Noirterel",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67119"],
+            "cPrev": ["q.67119"],
             "patch": "4.31"
         },
         "x67271": {
@@ -18,7 +18,7 @@
             "name_fr": "Dans la gueule du loup",
             "npc_en": "Ysaudore",
             "npc_fr": "Ysaudore",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67122"],
+            "cPrev": ["q.67122"],
             "patch": "4.31"
         },
         "x67272": {
@@ -27,7 +27,7 @@
             "name_fr": "À la recherche des souvenirs oubliés",
             "npc_en": "Ingaret",
             "npc_fr": "Ingaret",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67122"],
+            "cPrev": ["q.67122"],
             "patch": "4.31"
         },
         "x67273": {
@@ -36,7 +36,7 @@
             "name_fr": "Mon précieux",
             "npc_en": "Hot-tempered Knight",
             "npc_fr": "Chevalier Agité",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67124"],
+            "cPrev": ["q.67124"],
             "patch": "4.31"
         },
         "x67280": {
@@ -46,7 +46,7 @@
             "unlock": "travel.aether-currents.hw.coerthas-western-highlands.10",
             "npc_en": "Ingaret",
             "npc_fr": "Ingaret",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67134"],
+            "cPrev": ["q.67134"],
             "cSiblings": ["travel.aether-currents.hw.coerthas-western-highlands.10"],
             "patch": "4.31"
         },
@@ -56,8 +56,8 @@
             "name_fr": "Quand le malheur s'acharne",
             "npc_en": "Auriaune",
             "npc_fr": "Auriaune",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67119"],
-            "cNext": [67270],
+            "cPrev": ["q.67119"],
+            "cNext": ["q.67270"],
             "patch": "4.31"
         },
         "x67270": {
@@ -66,8 +66,8 @@
             "name_fr": "Tant de souvenirs enfouis",
             "npc_en": "Sigan",
             "npc_fr": "Sigan",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67119", 67269],
-            "cNext": [67281],
+            "cPrev": ["q.67119", "q.67269"],
+            "cNext": ["q.67281"],
             "patch": "4.31"
         },
         "x67281": {
@@ -76,8 +76,8 @@
             "name_fr": "Un mal mystérieux",
             "npc_en": "Redwald",
             "npc_fr": "Redwald",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67134", 67270],
-            "cNext": [67282],
+            "cPrev": ["q.67134", "q.67270"],
+            "cNext": ["q.67282"],
             "patch": "4.31"
         },
         "x67282": {
@@ -86,8 +86,8 @@
             "name_fr": "L'origine du vin empoisonné",
             "npc_en": "Redwald",
             "npc_fr": "Redwald",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67134", 67281],
-            "cNext": [67283],
+            "cPrev": ["q.67134", "q.67281"],
+            "cNext": ["q.67283"],
             "patch": "4.31"
         },
         "x67283": {
@@ -96,7 +96,7 @@
             "name_fr": "Le savoir des anciens",
             "npc_en": "Redwald",
             "npc_fr": "Redwald",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67134", 67282],
+            "cPrev": ["q.67134", "q.67282"],
             "patch": "4.31"
         },
         "x67288": {
@@ -105,7 +105,7 @@
             "name_fr": "Séquence nostalgie",
             "npc_en": "Well-mannered Widow",
             "npc_fr": "Vieille Femme Raffinée",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67139"],
+            "cPrev": ["q.67139"],
             "patch": "4.31"
         },
         "x67289": {
@@ -114,7 +114,7 @@
             "name_fr": "La nostalgie du crépuscule",
             "npc_en": "Spiteful Knight",
             "npc_fr": "Vétéran Renfrogné",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67142"],
+            "cPrev": ["q.67142"],
             "patch": "4.31"
         },
         "x67295": {
@@ -124,8 +124,8 @@
             "unlock": "travel.aether-currents.hw.coerthas-western-highlands.13",
             "npc_en": "Luciae",
             "npc_fr": "Luciae",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67143"],
-            "cNext": [67299],
+            "cPrev": ["q.67143"],
+            "cNext": ["q.67299"],
             "cSiblings": ["travel.aether-currents.hw.coerthas-western-highlands.13"],
             "patch": "4.31"
         },
@@ -136,8 +136,8 @@
             "unlock": "travel.aether-currents.hw.coerthas-western-highlands.12",
             "npc_en": "Jantellot",
             "npc_fr": "Jantellot",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67142"],
-            "cNext": [67297],
+            "cPrev": ["q.67142"],
+            "cNext": ["q.67297"],
             "cSiblings": ["travel.aether-currents.hw.coerthas-western-highlands.12"],
             "patch": "4.31"
         },
@@ -147,8 +147,8 @@
             "name_fr": "L'hiver arrive",
             "npc_en": "Luciae",
             "npc_fr": "Luciae",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67143", 67295],
-            "cNext": [67304],
+            "cPrev": ["q.67143", "q.67295"],
+            "cNext": ["q.67304"],
             "patch": "4.31"
         },
         "x67297": {
@@ -157,8 +157,8 @@
             "name_fr": "L'amer des dragons",
             "npc_en": "Jantellot",
             "npc_fr": "Jantellot",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67142", 67296],
-            "cNext": [67303],
+            "cPrev": ["q.67142", "q.67296"],
+            "cNext": ["q.67303"],
             "patch": "4.31"
         },
         "x67304": {
@@ -167,7 +167,7 @@
             "name_fr": "Le plus fidèle ami de l'homme",
             "npc_en": "Luciae",
             "npc_fr": "Luciae",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67143", 67299],
+            "cPrev": ["q.67143", "q.67299"],
             "patch": "4.31"
         },
         "x67303": {
@@ -176,7 +176,7 @@
             "name_fr": "Une source d'intérêt public",
             "npc_en": "Jantellot",
             "npc_fr": "Jantellot",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67143", 67297],
+            "cPrev": ["q.67143", "q.67297"],
             "patch": "4.31"
         },
         "x67290": {
@@ -185,7 +185,7 @@
             "name_fr": "Un petit minou tout doux",
             "npc_en": "Nonplussed Noblewoman",
             "npc_fr": "Aristocrate Embarrassée",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67144"],
+            "cPrev": ["q.67144"],
             "patch": "4.31"
         },
         "x67298": {
@@ -194,8 +194,8 @@
             "name_fr": "Rêve de dragon",
             "npc_en": "Dominiac",
             "npc_fr": "Dominiac",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67142"],
-            "cNext": [67300],
+            "cPrev": ["q.67142"],
+            "cNext": ["q.67300"],
             "patch": "4.31"
         },
         "x67300": {
@@ -204,8 +204,8 @@
             "name_fr": "Appât de dragon",
             "npc_en": "Dominiac",
             "npc_fr": "Dominiac",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67142", 67298],
-            "cNext": [67301],
+            "cPrev": ["q.67142", "q.67298"],
+            "cNext": ["q.67301"],
             "patch": "4.31"
         },
         "x67301": {
@@ -214,8 +214,8 @@
             "name_fr": "Chagrin de dragon",
             "npc_en": "Dominiac",
             "npc_fr": "Dominiac",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67142", 67300],
-            "cNext": [67302],
+            "cPrev": ["q.67142", "q.67300"],
+            "cNext": ["q.67302"],
             "patch": "4.31"
         },
         "x67302": {
@@ -224,8 +224,8 @@
             "name_fr": "Souhait de dragon",
             "npc_en": "Dominiac",
             "npc_fr": "Dominiac",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67142", 67301],
-            "cNext": [67305],
+            "cPrev": ["q.67142", "q.67301"],
+            "cNext": ["q.67305"],
             "patch": "4.31"
         },
         "x67305": {
@@ -234,8 +234,8 @@
             "name_fr": "Douleur de dragon",
             "npc_en": "Dominiac",
             "npc_fr": "Dominiac",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67142", 67302],
-            "cNext": [67425],
+            "cPrev": ["q.67142", "q.67302"],
+            "cNext": ["q.67425"],
             "patch": "4.31"
         },
         "x67421": {
@@ -244,7 +244,7 @@
             "name_fr": "Le triste sort des sorbets",
             "npc_en": "Ingaret",
             "npc_fr": "Ingaret",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67173", "duty.quests.sidequests.ishgardian.ishgard.67409"],
+            "cPrev": ["q.67173", "q.67409"],
             "patch": "4.31"
         },
         "x67422": {
@@ -253,7 +253,7 @@
             "name_fr": "Le repère des hérétiques",
             "npc_en": "Redwald",
             "npc_fr": "Redwald",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67173", "duty.quests.sidequests.ishgardian.ishgard.67409"],
+            "cPrev": ["q.67173", "q.67409"],
             "patch": "4.31"
         },
         "x67423": {
@@ -262,7 +262,7 @@
             "name_fr": "L'homme des villes et l'homme des champs",
             "npc_en": "Troubled Elezen",
             "npc_fr": "Homme Angoissé",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67173", "duty.quests.sidequests.ishgardian.ishgard.67409"],
+            "cPrev": ["q.67173", "q.67409"],
             "patch": "4.31"
         },
         "x67424": {
@@ -271,7 +271,7 @@
             "name_fr": "Vivement la fonte",
             "npc_en": "Emont",
             "npc_fr": "Emont",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67173", "duty.quests.sidequests.ishgardian.ishgard.67409"],
+            "cPrev": ["q.67173", "q.67409"],
             "patch": "4.31"
         },
         "x67431": {
@@ -280,8 +280,8 @@
             "name_fr": "Le plan de Jantellot",
             "npc_en": "Jantellot",
             "npc_fr": "Jantellot",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67173", "duty.quests.sidequests.ishgardian.ishgard.67409"],
-            "cNext": [67430],
+            "cPrev": ["q.67173", "q.67409"],
+            "cNext": ["q.67430"],
             "patch": "4.31"
         },
         "x67430": {
@@ -290,11 +290,7 @@
             "name_fr": "Braves jusqu'au bout",
             "npc_en": "Bonifoix",
             "npc_fr": "Bonifoix",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67173",
-                "duty.quests.sidequests.ishgardian.ishgard.67409",
-                67431
-            ],
+            "cPrev": ["q.67173", "q.67409", "q.67431"],
             "patch": "4.31"
         },
         "x67432": {
@@ -303,7 +299,7 @@
             "name_fr": "La cour des grands archéornis",
             "npc_en": "Luciae",
             "npc_fr": "Luciae",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67173", "duty.quests.sidequests.ishgardian.ishgard.67409"],
+            "cPrev": ["q.67173", "q.67409"],
             "patch": "4.31"
         },
         "x67433": {
@@ -312,7 +308,7 @@
             "name_fr": "Carapaces destructrices",
             "npc_en": "Pierriquet",
             "npc_fr": "Pierriquet",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67173", "duty.quests.sidequests.ishgardian.ishgard.67409"],
+            "cPrev": ["q.67173", "q.67409"],
             "patch": "4.31"
         },
         "x67425": {
@@ -321,12 +317,8 @@
             "name_fr": "Tombés au champ d'honneur",
             "npc_en": "Margyt",
             "npc_fr": "Margyt",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67173",
-                "duty.quests.sidequests.ishgardian.ishgard.67409",
-                67305
-            ],
-            "cNext": [67426],
+            "cPrev": ["q.67173", "q.67409", "q.67305"],
+            "cNext": ["q.67426"],
             "patch": "4.31"
         },
         "x67426": {
@@ -335,12 +327,8 @@
             "name_fr": "Des yétis charognards",
             "npc_en": "Margyt",
             "npc_fr": "Margyt",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67173",
-                "duty.quests.sidequests.ishgardian.ishgard.67409",
-                67425
-            ],
-            "cNext": [67427],
+            "cPrev": ["q.67173", "q.67409", "q.67425"],
+            "cNext": ["q.67427"],
             "patch": "4.31"
         },
         "x67427": {
@@ -349,12 +337,8 @@
             "name_fr": "Ayleth l'ambitieuse",
             "npc_en": "Margyt",
             "npc_fr": "Margyt",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67173",
-                "duty.quests.sidequests.ishgardian.ishgard.67409",
-                67426
-            ],
-            "cNext": [67428],
+            "cPrev": ["q.67173", "q.67409", "q.67426"],
+            "cNext": ["q.67428"],
             "patch": "4.31"
         },
         "x67428": {
@@ -363,12 +347,8 @@
             "name_fr": "Portée disparue",
             "npc_en": "Margyt",
             "npc_fr": "Margyt",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67173",
-                "duty.quests.sidequests.ishgardian.ishgard.67409",
-                67427
-            ],
-            "cNext": [67429],
+            "cPrev": ["q.67173", "q.67409", "q.67427"],
+            "cNext": ["q.67429"],
             "patch": "4.31"
         },
         "x67429": {
@@ -377,12 +357,8 @@
             "name_fr": "De l'importance des arrières",
             "npc_en": "Margyt",
             "npc_fr": "Margyt",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67173",
-                "duty.quests.sidequests.ishgardian.ishgard.67409",
-                67428
-            ],
-            "cNext": [67434],
+            "cPrev": ["q.67173", "q.67409", "q.67428"],
+            "cNext": ["q.67434"],
             "patch": "4.31"
         },
         "x67434": {
@@ -391,11 +367,7 @@
             "name_fr": "Au-delà de nos différences",
             "npc_en": "Dominiac",
             "npc_fr": "Dominiac",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67173",
-                "duty.quests.sidequests.ishgardian.ishgard.67409",
-                67429
-            ],
+            "cPrev": ["q.67173", "q.67409", "q.67429"],
             "patch": "4.31"
         },
         "x67647": {
@@ -405,7 +377,7 @@
             "unlock": ["duty.dutyraid-finder.dungeons.hw.0", "travel.aether-currents.hw.coerthas-western-highlands.11"],
             "npc_en": "Wealdtheow",
             "npc_fr": "Wealdtheow",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67142"],
+            "cPrev": ["q.67142"],
             "cSiblings": ["travel.aether-currents.hw.coerthas-western-highlands.11"],
             "patch": "4.31"
         }

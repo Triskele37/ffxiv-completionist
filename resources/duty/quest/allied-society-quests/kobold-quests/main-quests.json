@@ -9,8 +9,8 @@
             "name_fr": "Un mystérieux vol de salpêtre",
             "npc_en": "Trachraet",
             "npc_fr": "Trachraet",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66488"],
-            "cNext": [66857],
+            "cPrev": ["q.66488"],
+            "cNext": ["q.66857"],
             "patch": "4.31"
         },
         "x66857": {
@@ -19,8 +19,8 @@
             "name_fr": "Dur dur d'être un Kobold",
             "npc_en": "789th Order Pickman Gi Gu",
             "npc_fr": "Gi Gu",
-            "cPrev": [66856],
-            "cNext": [66858],
+            "cPrev": ["q.66856"],
+            "cNext": ["q.66858"],
             "cSiblings": ["character.character.tribal-relations.10"],
             "patch": "4.31"
         },
@@ -32,8 +32,8 @@
             "npc_fr": "Gi Gu",
             "reputation_en": "Neutral",
             "reputation_fr": "Neutre",
-            "cPrev": [66857],
-            "cNext": [66859],
+            "cPrev": ["q.66857"],
+            "cNext": ["q.66859"],
             "cSiblings": ["character.character.tribal-relations.11"],
             "patch": "4.31"
         },
@@ -45,8 +45,8 @@
             "npc_fr": "Skaetswys",
             "reputation_en": "Recognized",
             "reputation_fr": "Reconnu",
-            "cPrev": [66858],
-            "cNext": [66860],
+            "cPrev": ["q.66858"],
+            "cNext": ["q.66860"],
             "cSiblings": ["character.character.tribal-relations.12"],
             "patch": "4.31"
         },
@@ -58,7 +58,7 @@
             "npc_fr": "Gi Gu",
             "reputation_en": "Friendly",
             "reputation_fr": "Ami",
-            "cPrev": [66859],
+            "cPrev": ["q.66859"],
             "cSiblings": ["character.character.tribal-relations.13"],
             "patch": "4.31"
         }

@@ -9,8 +9,8 @@
             "name_fr": "La voie de l'orfèvrerie",
             "npc_en": "Jemime",
             "npc_fr": "Jemime",
-            "cPrev": ["duty.quests.other.quasi-quests.65723"],
-            "cNext": [66146],
+            "cPrev": ["q.65723"],
+            "cNext": ["q.66146"],
             "cSiblings": ["character.adventure-plate.75"],
             "patch": "4.31"
         },
@@ -20,8 +20,8 @@
             "name_fr": "Battre le cuivre tant qu'il est encore chaud",
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [66144],
-            "cNext": [66147],
+            "cPrev": ["q.66144"],
+            "cNext": ["q.66147"],
             "patch": "4.31"
         },
         "x66147": {
@@ -30,8 +30,8 @@
             "name_fr": "Gorgerins profonds",
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [66146],
-            "cNext": [66149],
+            "cPrev": ["q.66146"],
+            "cNext": ["q.66149"],
             "patch": "4.31"
         },
         "x66149": {
@@ -40,8 +40,8 @@
             "name_fr": "Des boucles pour Robert",
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [66147],
-            "cNext": [66150],
+            "cPrev": ["q.66147"],
+            "cNext": ["q.66150"],
             "patch": "4.31"
         },
         "x66150": {
@@ -50,8 +50,8 @@
             "name_fr": "Faire briller le quotidien",
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [66149],
-            "cNext": [66151],
+            "cPrev": ["q.66149"],
+            "cNext": ["q.66151"],
             "patch": "4.31"
         },
         "x66151": {
@@ -60,8 +60,8 @@
             "name_fr": "Tendre le bâton",
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [66150],
-            "cNext": [66152],
+            "cPrev": ["q.66150"],
+            "cNext": ["q.66152"],
             "patch": "4.31"
         },
         "x66152": {
@@ -70,8 +70,8 @@
             "name_fr": "L'argent fait parfois le bonheur",
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [66151],
-            "cNext": [66153],
+            "cPrev": ["q.66151"],
+            "cNext": ["q.66153"],
             "patch": "4.31"
         },
         "x66153": {
@@ -80,8 +80,8 @@
             "name_fr": "Comme un diamant brut",
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [66152],
-            "cNext": [66191],
+            "cPrev": ["q.66152"],
+            "cNext": ["q.66191"],
             "cCombo": ["character.achievement.quests.job-role-quests.316"],
             "patch": "4.31"
         },
@@ -91,8 +91,8 @@
             "name_fr": "La ramille ardente",
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [66153],
-            "cNext": [66192],
+            "cPrev": ["q.66153"],
+            "cNext": ["q.66192"],
             "patch": "4.31"
         },
         "x66192": {
@@ -101,8 +101,8 @@
             "name_fr": "L'ombre du renard",
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [66191],
-            "cNext": [66193],
+            "cPrev": ["q.66191"],
+            "cNext": ["q.66193"],
             "patch": "4.31"
         },
         "x66193": {
@@ -111,8 +111,8 @@
             "name_fr": "Diadèmes pour la couronne",
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [66192],
-            "cNext": [66194],
+            "cPrev": ["q.66192"],
+            "cNext": ["q.66194"],
             "patch": "4.31"
         },
         "x66194": {
@@ -121,8 +121,8 @@
             "name_fr": "Le cœur de l'ouvrage",
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [66193],
-            "cNext": [67606],
+            "cPrev": ["q.66193"],
+            "cNext": ["q.67606"],
             "patch": "4.31"
         },
         "x67606": {
@@ -131,8 +131,8 @@
             "name_fr": "Trouver une forme",
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [66194, "duty.quests.main-scenario.seventh-astral-era.65964"],
-            "cNext": [67607],
+            "cPrev": ["q.66194", "q.65964"],
+            "cNext": ["q.67607"],
             "patch": "4.31"
         },
         "x67607": {
@@ -141,8 +141,8 @@
             "name_fr": "Le rouge et le bleu",
             "npc_en": "Marcel",
             "npc_fr": "Marcel",
-            "cPrev": [67606],
-            "cNext": [67608],
+            "cPrev": ["q.67606"],
+            "cNext": ["q.67608"],
             "patch": "4.31"
         },
         "x67608": {
@@ -151,8 +151,8 @@
             "name_fr": "Les grands esprits se rencontrent",
             "npc_en": "Marcel",
             "npc_fr": "Marcel",
-            "cPrev": [67607],
-            "cNext": [67609],
+            "cPrev": ["q.67607"],
+            "cNext": ["q.67609"],
             "patch": "4.31"
         },
         "x67609": {
@@ -161,8 +161,8 @@
             "name_fr": "Deux mélodies à l'unisson",
             "npc_en": "Marcel",
             "npc_fr": "Marcel",
-            "cPrev": [67608],
-            "cNext": [67610],
+            "cPrev": ["q.67608"],
+            "cNext": ["q.67610"],
             "patch": "4.31"
         },
         "x67610": {
@@ -171,8 +171,8 @@
             "name_fr": "La mélodie du bonheur",
             "npc_en": "Marcel",
             "npc_fr": "Marcel",
-            "cPrev": [67609],
-            "cNext": [68135],
+            "cPrev": ["q.67609"],
+            "cNext": ["q.68135"],
             "patch": "4.31"
         },
         "x68135": {
@@ -181,8 +181,8 @@
             "name_fr": "Message personnel",
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [67610, "duty.quests.main-scenario.post-dragonsong.67895"],
-            "cNext": [68136],
+            "cPrev": ["q.67610", "q.67895"],
+            "cNext": ["q.68136"],
             "patch": "4.31"
         },
         "x68136": {
@@ -191,8 +191,8 @@
             "name_fr": "L'atelier s'attelle à la tâche",
             "npc_en": "Jemime",
             "npc_fr": "Jemime",
-            "cPrev": [68135],
-            "cNext": [68137],
+            "cPrev": ["q.68135"],
+            "cNext": ["q.68137"],
             "patch": "4.31"
         },
         "x68137": {
@@ -201,8 +201,8 @@
             "name_fr": "La taupe",
             "npc_en": "Emeloth",
             "npc_fr": "Emeloth",
-            "cPrev": [68136],
-            "cNext": [68138],
+            "cPrev": ["q.68136"],
+            "cNext": ["q.68138"],
             "patch": "4.31"
         },
         "x68138": {
@@ -211,8 +211,8 @@
             "name_fr": "Premiers pas professionnels",
             "npc_en": "Emeloth",
             "npc_fr": "Emeloth",
-            "cPrev": [68137],
-            "cNext": [68139],
+            "cPrev": ["q.68137"],
+            "cNext": ["q.68139"],
             "patch": "4.31"
         },
         "x68139": {
@@ -221,7 +221,7 @@
             "name_fr": "Le rêve de la Sultane",
             "npc_en": "Emeloth",
             "npc_fr": "Emeloth",
-            "cPrev": [68138],
+            "cPrev": ["q.68138"],
             "cSiblings": ["character.adventure-plate.74"],
             "patch": "4.31"
         }

@@ -10,8 +10,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.11",
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
-            "cPrev": [66583],
-            "cNext": [66693],
+            "cPrev": ["q.66583"],
+            "cNext": ["q.66693"],
             "patch": "4.31"
         },
         "x66583": {
@@ -20,8 +20,8 @@
             "name_fr": "La résurgence des Primordiaux",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
-            "cNext": [66584],
+            "cPrev": ["q.66060"],
+            "cNext": ["q.66584"],
             "patch": "4.31"
         },
         "x66693": {
@@ -31,8 +31,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.12",
             "npc_en": "Papalymo",
             "npc_fr": "Papalymo",
-            "cPrev": [66584],
-            "cNext": [66694],
+            "cPrev": ["q.66584"],
+            "cNext": ["q.66694"],
             "patch": "4.31"
         },
         "x66694": {
@@ -42,8 +42,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.13",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [66693],
-            "cNext": ["duty.quests.chronicles-of-a-new-era.bahamut.66695", 66730],
+            "cPrev": ["q.66693"],
+            "cNext": ["q.66695", "q.66730"],
             "patch": "4.31"
         },
         "x66731": {
@@ -53,8 +53,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.20",
             "npc_en": "Vorsaile Heuloix",
             "npc_fr": "Vorsaile Heuloix",
-            "cPrev": [66730],
-            "cNext": [66732],
+            "cPrev": ["q.66730"],
+            "cNext": ["q.66732"],
             "patch": "4.31"
         },
         "x66730": {
@@ -63,8 +63,8 @@
             "name_fr": "Une nouvelle tempête primordiale",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [66694],
-            "cNext": [66731],
+            "cPrev": ["q.66694"],
+            "cNext": ["q.66731"],
             "patch": "4.31"
         },
         "x66732": {
@@ -74,8 +74,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.21",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [66731],
-            "cNext": [66733],
+            "cPrev": ["q.66731"],
+            "cNext": ["q.66733"],
             "patch": "4.31"
         },
         "x66733": {
@@ -85,8 +85,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.22",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [66732],
-            "cNext": [66734],
+            "cPrev": ["q.66732"],
+            "cNext": ["q.66734"],
             "patch": "4.31"
         },
         "x66734": {
@@ -95,8 +95,8 @@
             "name_fr": "Les artifices de la puissance",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [66733],
-            "cNext": [66845],
+            "cPrev": ["q.66733"],
+            "cNext": ["q.66845"],
             "patch": "4.31"
         },
         "x66845": {
@@ -105,7 +105,7 @@
             "name_fr": "Des totems primordiaux",
             "npc_en": "Laraina",
             "npc_fr": "Laraina",
-            "cPrev": [66734],
+            "cPrev": ["q.66734"],
             "patch": "4.31"
         },
         "x66948": {
@@ -115,7 +115,7 @@
             "unlock": "duty.dutyraid-finder.trials.arr.23",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": ["duty.quests.main-scenario.seventh-astral-era.66727"],
+            "cPrev": ["q.66727"],
             "patch": "4.31"
         },
         "x66949": {
@@ -125,7 +125,7 @@
             "unlock": "duty.dutyraid-finder.trials.arr.24",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": ["duty.quests.main-scenario.seventh-astral-era.66899"],
+            "cPrev": ["q.66899"],
             "patch": "4.31"
         },
         "x67066": {
@@ -135,7 +135,7 @@
             "unlock": "duty.dutyraid-finder.trials.arr.25",
             "npc_en": "Scarlet",
             "npc_fr": "Scarlet",
-            "cPrev": ["duty.quests.main-scenario.seventh-astral-era.66996"],
+            "cPrev": ["q.66996"],
             "patch": "4.31"
         },
         "x65626": {
@@ -145,7 +145,7 @@
             "unlock": "duty.dutyraid-finder.trials.arr.26",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": ["duty.quests.main-scenario.seventh-astral-era.65625"],
+            "cPrev": ["q.65625"],
             "patch": "4.31"
         },
         "x65969": {
@@ -155,10 +155,7 @@
             "unlock": "duty.dutyraid-finder.trials.arr.18",
             "npc_en": "Scarlet",
             "npc_fr": "Scarlet",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060",
-                "duty.quests.sidequests.gridanian.south-shroud.66548"
-            ],
+            "cPrev": ["q.66060", "q.66548"],
             "patch": "4.31"
         }
     }

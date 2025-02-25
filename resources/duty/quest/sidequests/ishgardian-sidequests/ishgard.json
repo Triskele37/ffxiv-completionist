@@ -9,7 +9,7 @@
             "name_fr": "Des saints incroyables",
             "npc_en": "Fury-fearing Elezen",
             "npc_fr": "Vieillard Très Croyant",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67118"],
+            "cPrev": ["q.67118"],
             "patch": "4.31"
         },
         "x67263": {
@@ -18,7 +18,7 @@
             "name_fr": "Cargaisons et dragons",
             "npc_en": "Cliaux",
             "npc_fr": "Cliaux",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67118"],
+            "cPrev": ["q.67118"],
             "patch": "4.31"
         },
         "x67264": {
@@ -27,7 +27,7 @@
             "name_fr": "Une dernière pour la route",
             "npc_en": "Gibrillont",
             "npc_fr": "Gibrillont",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67118"],
+            "cPrev": ["q.67118"],
             "patch": "4.31"
         },
         "x67265": {
@@ -36,7 +36,7 @@
             "name_fr": "Un régime de champion",
             "npc_en": "Mathye",
             "npc_fr": "Mathye",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67118"],
+            "cPrev": ["q.67118"],
             "patch": "4.31"
         },
         "x67266": {
@@ -45,8 +45,8 @@
             "name_fr": "À la manière d'un feu de joie",
             "npc_en": "Brictt",
             "npc_fr": "Brictt",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67118"],
-            "cNext": [67406],
+            "cPrev": ["q.67118"],
+            "cNext": ["q.67406"],
             "patch": "4.31"
         },
         "x67267": {
@@ -55,7 +55,7 @@
             "name_fr": "Le dîner de compagnons",
             "npc_en": "Torsefers",
             "npc_fr": "Torsefers",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67118"],
+            "cPrev": ["q.67118"],
             "patch": "4.31"
         },
         "x67278": {
@@ -64,7 +64,7 @@
             "name_fr": "Cinquante nuances de Halone",
             "npc_en": "House Durendaire Knight",
             "npc_fr": "Chevalier Gêné",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67134"],
+            "cPrev": ["q.67134"],
             "patch": "4.31"
         },
         "x67279": {
@@ -73,7 +73,7 @@
             "name_fr": "Jeu d'enfant",
             "npc_en": "Torsefers",
             "npc_fr": "Torsefers",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67134"],
+            "cPrev": ["q.67134"],
             "patch": "4.31"
         },
         "x67286": {
@@ -82,7 +82,7 @@
             "name_fr": "Le Nid du fauconnier",
             "npc_en": "Bohemondas",
             "npc_fr": "Bohemondas",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67139"],
+            "cPrev": ["q.67139"],
             "patch": "4.31"
         },
         "x67287": {
@@ -91,7 +91,7 @@
             "name_fr": "Les joies du célibat",
             "npc_en": "Hyur On Hard Times",
             "npc_fr": "Homme Embarrassé",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67139"],
+            "cPrev": ["q.67139"],
             "patch": "4.31"
         },
         "x67409": {
@@ -100,22 +100,22 @@
             "name_fr": "Sans même un au revoir",
             "npc_en": "Languid Noblewoman",
             "npc_fr": "Fille Languide",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67173"],
+            "cPrev": ["q.67173"],
             "cNext": [
-                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67433",
-                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67430",
-                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67425",
-                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67426",
-                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67427",
-                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67434",
-                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67421",
-                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67422",
-                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67423",
-                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67424",
-                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67428",
-                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67429",
-                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67431",
-                "duty.quests.sidequests.coerthan.coerthas-western-highlands.67432"
+                "q.67433",
+                "q.67430",
+                "q.67425",
+                "q.67426",
+                "q.67427",
+                "q.67434",
+                "q.67421",
+                "q.67422",
+                "q.67423",
+                "q.67424",
+                "q.67428",
+                "q.67429",
+                "q.67431",
+                "q.67432"
             ],
             "patch": "4.31"
         },
@@ -125,15 +125,8 @@
             "name_fr": "Le début de la fin",
             "npc_en": "House Haillenarte Knight",
             "npc_fr": "Chevalier Des Haillenarte",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67173"],
-            "cNext": [
-                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67437",
-                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67436",
-                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67438",
-                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67439",
-                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67435",
-                "duty.quests.sidequests.abalathian.the-sea-of-clouds.67440"
-            ],
+            "cPrev": ["q.67173"],
+            "cNext": ["q.67437", "q.67436", "q.67438", "q.67439", "q.67435", "q.67440"],
             "cSiblings": ["travel.aether-currents.hw.the-sea-of-clouds.12"],
             "patch": "4.31"
         },
@@ -143,8 +136,8 @@
             "name_fr": "Pièces piégées",
             "npc_en": "Elaisse",
             "npc_fr": "Elaisse",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67173", 67266],
-            "cNext": [67442],
+            "cPrev": ["q.67173", "q.67266"],
+            "cNext": ["q.67442"],
             "patch": "4.31"
         },
         "x67408": {
@@ -153,14 +146,8 @@
             "name_fr": "Départ pour Dravania",
             "npc_en": "Unflinching Temple Knight",
             "npc_fr": "Templier Déterminé",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67173",
-                "duty.quests.sidequests.dravanian.the-churning-mists.67404"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.dravanian.the-churning-mists.67414",
-                "duty.quests.sidequests.dravanian.the-churning-mists.67411"
-            ],
+            "cPrev": ["q.67173", "q.67404"],
+            "cNext": ["q.67414", "q.67411"],
             "patch": "4.31"
         },
         "x67441": {
@@ -169,7 +156,7 @@
             "name_fr": "Le bonheur est dans la soupe",
             "npc_en": "Ermiance",
             "npc_fr": "Ermiance",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67177"],
+            "cPrev": ["q.67177"],
             "patch": "4.31"
         },
         "x67442": {
@@ -178,7 +165,7 @@
             "name_fr": "Le dernier vol d'Osaulie",
             "npc_en": "Brictt",
             "npc_fr": "Brictt",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67177", 67406],
+            "cPrev": ["q.67177", "q.67406"],
             "patch": "4.31"
         },
         "x67508": {
@@ -187,11 +174,8 @@
             "name_fr": "Une invitation inattendue",
             "npc_en": "House Fortemps Knight",
             "npc_fr": "Chevalier Des Fortemps",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67197",
-                "duty.quests.sidequests.dravanian.the-churning-mists.67368"
-            ],
-            "cNext": ["duty.quests.sidequests.dravanian.the-churning-mists.67509"],
+            "cPrev": ["q.67197", "q.67368"],
+            "cNext": ["q.67509"],
             "patch": "4.31"
         },
         "x67631": {
@@ -201,8 +185,8 @@
             "npc_en": "Morgayne",
             "npc_fr": "Morgayne",
             "unlock_en": "Collectable Action",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67118"],
-            "cNext": ["duty.quests.sidequests.mor-dhonan.mor-dhona.67634"],
+            "cPrev": ["q.67118"],
+            "cNext": ["q.67634"],
             "patch": "4.31"
         },
         "x67655": {
@@ -212,12 +196,8 @@
             "cPrevAny": true,
             "npc_en": "Aytienne",
             "npc_fr": "Aytienne",
-            "cPrev": [
-                "duty.quests.other.grand-company.maelstrom.67100",
-                "duty.quests.other.grand-company.order-of-the-twin-adder.67099",
-                "duty.quests.other.grand-company.immortal-flames.67101"
-            ],
-            "cNext": [67656],
+            "cPrev": ["q.67100", "q.67099", "q.67101"],
+            "cNext": ["q.67656"],
             "patch": "4.31"
         },
         "x67656": {
@@ -226,8 +206,8 @@
             "name_fr": "Chasse dans la glace",
             "npc_en": "Eustacia",
             "npc_fr": "Eustacia",
-            "cPrev": [67655],
-            "cNext": ["duty.quests.sidequests.dravanian.idyllshire.67657"],
+            "cPrev": ["q.67655"],
+            "cNext": ["q.67657"],
             "patch": "4.31"
         },
         "x67658": {
@@ -236,12 +216,8 @@
             "name_fr": "Cibles d'élite du Grand Nord",
             "npc_en": "Ardolain",
             "npc_fr": "Ardolain",
-            "cPrev": ["duty.quests.sidequests.dravanian.idyllshire.67657"],
-            "cNext": [
-                "duty.quests.sidequests.hingan.kugane.68472",
-                "duty.quests.sidequests.lakeland.the-crystarium.69133",
-                "duty.quests.sidequests.sharlayan.old-sharlayan.69712"
-            ],
+            "cPrev": ["q.67657"],
+            "cNext": ["q.68472", "q.69133", "q.69712"],
             "patch": "4.31"
         },
         "x67649": {
@@ -251,7 +227,7 @@
             "unlock": ["duty.dutyraid-finder.dungeons.hw.7", "character.minion-guide.3"],
             "npc_en": "Notrelchamps",
             "npc_fr": "Notrelchamps",
-            "cPrev": ["duty.quests.main-scenario.heavensward.67205"],
+            "cPrev": ["q.67205"],
             "patch": "4.31"
         },
         "x69708": {
@@ -260,7 +236,7 @@
             "name_fr": "Empyrée, à ciel ouvert",
             "npc_en": "Gondelimbaud",
             "npc_fr": "Gondelimbaud",
-            "cPrev": ["duty.quests.main-scenario.dragonsong.67783"],
+            "cPrev": ["q.67783"],
             "cSiblings": ["travel.mount-speed.ishgard--coerthas.15"],
             "patch": "6.0"
         }

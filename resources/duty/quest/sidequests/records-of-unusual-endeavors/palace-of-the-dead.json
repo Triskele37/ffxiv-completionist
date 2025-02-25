@@ -10,8 +10,8 @@
             "unlock": "duty.dutyraid-finder.deep-dungeon.0",
             "npc_en": "Nojiro Marujiro",
             "npc_fr": "Nojiro Marujiro",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66196"],
-            "cNext": ["duty.quests.other.quasi-quests.67923"],
+            "cPrev": ["q.66196"],
+            "cNext": ["q.67923"],
             "patch": "4.31"
         },
         "x67093": {
@@ -20,8 +20,8 @@
             "name_fr": "La réunion de deux bagues",
             "npc_en": "Balan",
             "npc_fr": "Balan",
-            "cPrev": ["duty.quests.sidequests.uldahn.uldah.67060"],
-            "cNext": [67924],
+            "cPrev": ["q.67060"],
+            "cNext": ["q.67924"],
             "cSiblings": ["character.achievement.quests.quests.1575"],
             "patch": "4.31"
         },
@@ -31,7 +31,7 @@
             "name_fr": "Repos éternel",
             "npc_en": "Wood Wailer Expeditionary",
             "npc_fr": "Enquêteur Des Vigiles Sombres",
-            "cPrev": [67093],
+            "cPrev": ["q.67093"],
             "cSiblings": ["character.achievement.quests.quests.1680"],
             "patch": "4.31"
         }

@@ -17,7 +17,7 @@
             "name_fr": "Blessé dans sa chair... et son ego",
             "npc_en": "Arold",
             "npc_fr": "Arold",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.69390"],
+            "cPrev": ["q.69390"],
             "patch": "4.31"
         },
         "x65733": {
@@ -34,7 +34,7 @@
             "name_fr": "Morfal Kombat",
             "npc_en": "Gabineaux",
             "npc_fr": "Gabineaux",
-            "cPrev": [65663],
+            "cPrev": ["q.65663"],
             "patch": "4.31"
         },
         "x65663": {
@@ -43,8 +43,8 @@
             "name_fr": "Un sommeil parasité",
             "npc_en": "Gabineaux",
             "npc_fr": "Gabineaux",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.65711"],
-            "cNext": [65666],
+            "cPrev": ["q.65711"],
+            "cNext": ["q.65666"],
             "patch": "4.31"
         },
         "x65914": {
@@ -53,7 +53,7 @@
             "name_fr": "Oolophobie",
             "npc_en": "Roseline",
             "npc_fr": "Roseline",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.65912"],
+            "cPrev": ["q.65912"],
             "patch": "4.31"
         },
         "x66748": {
@@ -71,7 +71,7 @@
             "npc_en": "Tierney",
             "npc_fr": "Tierney",
             "unlock_en": "Guildhests",
-            "cPrev": ["duty.quests.sidequests.gridanian.gridania.65756"],
+            "cPrev": ["q.65756"],
             "patch": "4.31"
         },
         "x65911": {
@@ -80,7 +80,7 @@
             "name_fr": "Tentative de soudoiement",
             "npc_en": "Kukuvachi",
             "npc_fr": "Kukuvachi",
-            "cNext": [65693],
+            "cNext": ["q.65693"],
             "patch": "4.31"
         },
         "x65922": {
@@ -89,7 +89,7 @@
             "name_fr": "Le transporteur",
             "npc_en": "Waltheof",
             "npc_fr": "Waltheof",
-            "cNext": [65694],
+            "cNext": ["q.65694"],
             "patch": "4.31"
         },
         "x65693": {
@@ -98,7 +98,7 @@
             "name_fr": "L'homme qui murmurait à l'oreille des chocobos",
             "npc_en": "Luquelot",
             "npc_fr": "Luquelot",
-            "cPrev": [65911],
+            "cPrev": ["q.65911"],
             "patch": "4.31"
         },
         "x65919": {
@@ -107,7 +107,7 @@
             "name_fr": "Reposez en paix",
             "npc_en": "Finnea",
             "npc_fr": "Finnea",
-            "cNext": [65696],
+            "cNext": ["q.65696"],
             "patch": "4.31"
         },
         "x65921": {
@@ -124,7 +124,7 @@
             "name_fr": "Éliminer l'essaim",
             "npc_en": "Waltheof",
             "npc_fr": "Waltheof",
-            "cPrev": [65922],
+            "cPrev": ["q.65922"],
             "patch": "4.31"
         },
         "x65696": {
@@ -133,7 +133,7 @@
             "name_fr": "Il faut laisser les morts dormir",
             "npc_en": "Finnea",
             "npc_fr": "Finnea",
-            "cPrev": [65919],
+            "cPrev": ["q.65919"],
             "patch": "4.31"
         },
         "x66101": {
@@ -143,8 +143,8 @@
             "npc_en": "Katering",
             "npc_fr": "Katering",
             "unlock_en": "Chocobo Racing",
-            "cPrev": ["duty.quests.sidequests.uldahn.chocobo-square.65972"],
-            "cNext": ["duty.quests.sidequests.uldahn.chocobo-square.66112"],
+            "cPrev": ["q.65972"],
+            "cNext": ["q.66112"],
             "patch": "4.31"
         },
         "x66341": {
@@ -153,8 +153,8 @@
             "name_fr": "Découvertes choquantes",
             "npc_en": "Marcette",
             "npc_fr": "Marcette",
-            "cPrev": [66340],
-            "cNext": [66342, 66343],
+            "cPrev": ["q.66340"],
+            "cNext": ["q.66342", "q.66343"],
             "patch": "4.31"
         },
         "x66342": {
@@ -163,7 +163,7 @@
             "name_fr": "Les malheurs d'Hobriaut",
             "npc_en": "Hobriaut",
             "npc_fr": "Hobriaut",
-            "cPrev": [66341],
+            "cPrev": ["q.66341"],
             "patch": "4.31"
         },
         "x66343": {
@@ -172,8 +172,8 @@
             "name_fr": "Faire le sale travail",
             "npc_en": "Marcette",
             "npc_fr": "Marcette",
-            "cPrev": [66341],
-            "cNext": ["duty.quests.sidequests.side-story.delivery-moogle.67021"],
+            "cPrev": ["q.66341"],
+            "cNext": ["q.67021"],
             "patch": "4.31"
         },
         "x66340": {
@@ -182,7 +182,7 @@
             "name_fr": "Champignons champêtres",
             "npc_en": "Marcette",
             "npc_fr": "Marcette",
-            "cNext": [66341],
+            "cNext": ["q.66341"],
             "patch": "4.31"
         },
         "x67096": {
@@ -192,7 +192,7 @@
             "npc_en": "Luquelot",
             "npc_fr": "Luquelot",
             "unlock_en": "Chocobo Raising",
-            "cPrev": ["duty.quests.sidequests.gridanian.south-shroud.66698"],
+            "cPrev": ["q.66698"],
             "patch": "4.31"
         }
     }

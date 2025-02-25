@@ -9,8 +9,8 @@
             "name_fr": "La résurgence d'Oméga",
             "npc_en": "Wedge",
             "npc_fr": "Wedge",
-            "cPrev": ["duty.quests.main-scenario.stormblood.68089"],
-            "cNext": [68465],
+            "cPrev": ["q.68089"],
+            "cNext": ["q.68465"],
             "patch": "4.31"
         },
         "x68465": {
@@ -20,8 +20,8 @@
             "unlock": "duty.dutyraid-finder.raids.sb.0",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [68464],
-            "cNext": [68466],
+            "cPrev": ["q.68464"],
+            "cNext": ["q.68466"],
             "patch": "4.31"
         },
         "x68466": {
@@ -31,8 +31,8 @@
             "unlock": "duty.dutyraid-finder.raids.sb.1",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [68465],
-            "cNext": [68467],
+            "cPrev": ["q.68465"],
+            "cNext": ["q.68467"],
             "patch": "4.31"
         },
         "x68467": {
@@ -42,8 +42,8 @@
             "unlock": "duty.dutyraid-finder.raids.sb.2",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [68466],
-            "cNext": [68468],
+            "cPrev": ["q.68466"],
+            "cNext": ["q.68468"],
             "patch": "4.31"
         },
         "x68468": {
@@ -53,8 +53,8 @@
             "unlock": "duty.dutyraid-finder.raids.sb.3",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [68467],
-            "cNext": [68469],
+            "cPrev": ["q.68467"],
+            "cNext": ["q.68469"],
             "patch": "4.31"
         },
         "x68469": {
@@ -63,8 +63,8 @@
             "name_fr": "L'anomalie",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [68468],
-            "cNext": [68567],
+            "cPrev": ["q.68468"],
+            "cNext": ["q.68567"],
             "cSiblings": ["character.achievement.quests.quests.1796"],
             "patch": "4.31"
         },
@@ -74,8 +74,8 @@
             "name_fr": "Retour dans la fissure interdimensionnelle",
             "npc_en": "Jessie",
             "npc_fr": "Jessie",
-            "cPrev": [68469],
-            "cNext": [68568],
+            "cPrev": ["q.68469"],
+            "cNext": ["q.68568"],
             "patch": "4.31"
         },
         "x68568": {
@@ -85,8 +85,8 @@
             "unlock": "duty.dutyraid-finder.raids.sb.9",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [68567],
-            "cNext": [68569],
+            "cPrev": ["q.68567"],
+            "cNext": ["q.68569"],
             "patch": "4.31"
         },
         "x68569": {
@@ -96,8 +96,8 @@
             "unlock": "duty.dutyraid-finder.raids.sb.10",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [68568],
-            "cNext": [68570],
+            "cPrev": ["q.68568"],
+            "cNext": ["q.68570"],
             "patch": "4.31"
         },
         "x68570": {
@@ -107,8 +107,8 @@
             "unlock": "duty.dutyraid-finder.raids.sb.11",
             "npc_en": "Wedge",
             "npc_fr": "Wedge",
-            "cPrev": [68569],
-            "cNext": [68571],
+            "cPrev": ["q.68569"],
+            "cNext": ["q.68571"],
             "patch": "4.31"
         },
         "x68571": {
@@ -118,8 +118,8 @@
             "unlock": "duty.dutyraid-finder.raids.sb.12",
             "npc_en": "Nero",
             "npc_fr": "Nero",
-            "cPrev": [68570],
-            "cNext": [68690],
+            "cPrev": ["q.68570"],
+            "cNext": ["q.68690"],
             "patch": "4.31"
         },
         "x68690": {
@@ -129,8 +129,8 @@
             "unlock": "duty.dutyraid-finder.raids.sb.18",
             "npc_en": "Jessie",
             "npc_fr": "Jessie",
-            "cPrev": [68571],
-            "cNext": [68691],
+            "cPrev": ["q.68571"],
+            "cNext": ["q.68691"],
             "patch": "4.4"
         },
         "x68691": {
@@ -140,8 +140,8 @@
             "unlock": "duty.dutyraid-finder.raids.sb.19",
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [68690],
-            "cNext": [68692],
+            "cPrev": ["q.68690"],
+            "cNext": ["q.68692"],
             "patch": "4.4"
         },
         "x68692": {
@@ -151,8 +151,8 @@
             "unlock": ["duty.dutyraid-finder.raids.sb.20", "duty.dutyraid-finder.raids.sb.21"],
             "npc_en": "Cid",
             "npc_fr": "Cid",
-            "cPrev": [68691],
-            "cNext": [68693],
+            "cPrev": ["q.68691"],
+            "cNext": ["q.68693"],
             "patch": "4.4"
         },
         "x68693": {
@@ -161,7 +161,7 @@
             "name_fr": "Le grand envol",
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
-            "cPrev": [68692],
+            "cPrev": ["q.68692"],
             "patch": "4.4"
         }
     }

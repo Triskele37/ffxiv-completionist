@@ -9,11 +9,8 @@
             "name_fr": "Il dit “pardonné”?",
             "npc_en": "Excitable Youth",
             "npc_fr": "Jeune Lalafell",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.70000",
-                "duty.quests.sidequests.hildibrand-sidequests.even-further-hildibrand-adventures.68704"
-            ],
-            "cNext": [70079],
+            "cPrev": ["q.70000", "q.68704"],
+            "cNext": ["q.70079"],
             "patch": "6.28"
         },
         "x70079": {
@@ -22,8 +19,8 @@
             "name_fr": "Un corps à prendre?",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [70078],
-            "cNext": [70177],
+            "cPrev": ["q.70078"],
+            "cNext": ["q.70177"],
             "patch": "6.28"
         },
         "x70177": {
@@ -32,8 +29,8 @@
             "name_fr": "Emmène-moi jusqu'à la lune",
             "npc_en": "Nashu Mhakaracca",
             "npc_fr": "Nashu Mhakaracca",
-            "cPrev": [70079],
-            "cNext": [70178],
+            "cPrev": ["q.70079"],
+            "cNext": ["q.70178"],
             "patch": "6.28"
         },
         "x70178": {
@@ -42,8 +39,8 @@
             "name_fr": "Une armée de gentilshommes",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [70177],
-            "cNext": ["duty.quests.sidequests.hildibrand-sidequests.manderville-weapons.70188", 70254],
+            "cPrev": ["q.70177"],
+            "cNext": ["q.70188", "q.70254"],
             "patch": "6.28"
         },
         "x70254": {
@@ -52,8 +49,8 @@
             "name_fr": "Les dérives du clonage",
             "npc_en": "Delion",
             "npc_fr": "Delion",
-            "cPrev": [70178],
-            "cNext": [70255],
+            "cPrev": ["q.70178"],
+            "cNext": ["q.70255"],
             "patch": "6.35"
         },
         "x70255": {
@@ -62,8 +59,8 @@
             "name_fr": "Tel gentilhomme, tel gentilhomme",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [70254],
-            "cNext": ["duty.quests.sidequests.hildibrand-sidequests.manderville-weapons.70261", 70290],
+            "cPrev": ["q.70254"],
+            "cNext": ["q.70261", "q.70290"],
             "patch": "6.35"
         },
         "x70290": {
@@ -72,8 +69,8 @@
             "name_fr": "Un coupable microscopique",
             "npc_en": "Delion",
             "npc_fr": "Delion",
-            "cPrev": [70255],
-            "cNext": [70291],
+            "cPrev": ["q.70255"],
+            "cNext": ["q.70291"],
             "patch": "6.45"
         },
         "x70291": {
@@ -82,8 +79,8 @@
             "name_fr": "Un visiteur, venu d'ailleurs",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [70290],
-            "cNext": ["duty.quests.sidequests.hildibrand-sidequests.manderville-weapons.70307", 70335],
+            "cPrev": ["q.70290"],
+            "cNext": ["q.70307", "q.70335"],
             "patch": "6.45"
         },
         "x70335": {
@@ -92,8 +89,8 @@
             "name_fr": "Une poêle dans la tête",
             "npc_en": "Delion",
             "npc_fr": "Delion",
-            "cPrev": [70291],
-            "cNext": [70336],
+            "cPrev": ["q.70291"],
+            "cNext": ["q.70336"],
             "patch": "6.55"
         },
         "x70336": {
@@ -103,8 +100,8 @@
             "unlock": "duty.dutyraid-finder.trials.ew.19",
             "npc_en": "Godbert",
             "npc_fr": "Godbert",
-            "cPrev": [70335],
-            "cNext": ["duty.quests.sidequests.hildibrand-sidequests.manderville-weapons.70342"],
+            "cPrev": ["q.70335"],
+            "cNext": ["q.70342"],
             "patch": "6.55"
         }
     }

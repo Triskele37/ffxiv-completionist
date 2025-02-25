@@ -9,7 +9,7 @@
             "name_fr": "La voie du samouraï",
             "npc_en": "Ul'dahn Citizen",
             "npc_fr": "Uldien Surexcité",
-            "cNext": [68096],
+            "cNext": ["q.68096"],
             "cSiblings": ["character.adventure-plate.41"],
             "patch": "4.31"
         },
@@ -19,8 +19,8 @@
             "name_fr": "Maître Musosai",
             "npc_en": "Musosai",
             "npc_fr": "Musosai",
-            "cPrev": [68095],
-            "cNext": [68097],
+            "cPrev": ["q.68095"],
+            "cNext": ["q.68097"],
             "patch": "4.31"
         },
         "x68097": {
@@ -29,8 +29,8 @@
             "name_fr": "La légende de Musosai: la crapule d'Ul'dah",
             "npc_en": "Musosai",
             "npc_fr": "Musosai",
-            "cPrev": [68096],
-            "cNext": [68098],
+            "cPrev": ["q.68096"],
+            "cNext": ["q.68098"],
             "patch": "4.31"
         },
         "x68098": {
@@ -39,8 +39,8 @@
             "name_fr": "La légende de Musosai: l'assassin de Limsa Lominsa",
             "npc_en": "Musosai",
             "npc_fr": "Musosai",
-            "cPrev": [68097],
-            "cNext": [68099],
+            "cPrev": ["q.68097"],
+            "cNext": ["q.68099"],
             "patch": "4.31"
         },
         "x68099": {
@@ -49,8 +49,8 @@
             "name_fr": "La légende de Musosai: l'escroc de Gridania",
             "npc_en": "Musosai",
             "npc_fr": "Musosai",
-            "cPrev": [68098],
-            "cNext": [68100],
+            "cPrev": ["q.68098"],
+            "cNext": ["q.68100"],
             "patch": "4.31"
         },
         "x68100": {
@@ -59,8 +59,8 @@
             "name_fr": "La légende de Musosai: le bourreau d'Ishgard",
             "npc_en": "Musosai",
             "npc_fr": "Musosai",
-            "cPrev": [68099],
-            "cNext": [68101],
+            "cPrev": ["q.68099"],
+            "cNext": ["q.68101"],
             "patch": "4.31"
         },
         "x68101": {
@@ -69,8 +69,8 @@
             "name_fr": "L'abominable Kogarashi",
             "npc_en": "Momozigo",
             "npc_fr": "Momozigo",
-            "cPrev": [68100],
-            "cNext": [68102],
+            "cPrev": ["q.68100"],
+            "cNext": ["q.68102"],
             "cSiblings": ["character.achievement.quests.job-role-quests.1812"],
             "patch": "4.31"
         },
@@ -80,8 +80,8 @@
             "name_fr": "La visite de la femme samouraï",
             "npc_en": "Momozigo",
             "npc_fr": "Momozigo",
-            "cPrev": [68101, "duty.quests.main-scenario.post-dragonsong.67895"],
-            "cNext": [68103],
+            "cPrev": ["q.68101", "q.67895"],
+            "cNext": ["q.68103"],
             "patch": "4.31"
         },
         "x68103": {
@@ -90,8 +90,8 @@
             "name_fr": "L'appel à l'aide du Sekiseigumi",
             "npc_en": "Momozigo",
             "npc_fr": "Momozigo",
-            "cPrev": [68102],
-            "cNext": [68104],
+            "cPrev": ["q.68102"],
+            "cNext": ["q.68104"],
             "patch": "4.31"
         },
         "x68104": {
@@ -100,8 +100,8 @@
             "name_fr": "Règlement de compte au square Matsuba",
             "npc_en": "Makoto",
             "npc_fr": "Makoto",
-            "cPrev": [68103],
-            "cNext": [68105],
+            "cPrev": ["q.68103"],
+            "cNext": ["q.68105"],
             "patch": "4.31"
         },
         "x68105": {
@@ -110,8 +110,8 @@
             "name_fr": "La traque d'Ugetsu",
             "npc_en": "Makoto",
             "npc_fr": "Makoto",
-            "cPrev": [68104],
-            "cNext": [68106],
+            "cPrev": ["q.68104"],
+            "cNext": ["q.68106"],
             "patch": "4.31"
         },
         "x68106": {
@@ -120,8 +120,8 @@
             "name_fr": "L'affrontement de deux justices",
             "npc_en": "Makoto",
             "npc_fr": "Makoto",
-            "cPrev": [68105],
-            "cNext": [68759],
+            "cPrev": ["q.68105"],
+            "cNext": ["q.68759"],
             "cSiblings": ["character.achievement.quests.job-role-quests.1813"],
             "patch": "4.31"
         },
@@ -131,7 +131,7 @@
             "name_fr": "L'héritage de Musosai",
             "npc_en": "Makoto",
             "npc_fr": "Makoto",
-            "cPrev": [68106, "duty.quests.class--job.role.shb.68814", "duty.quests.main-scenario.shadowbringers.69190"],
+            "cPrev": ["q.68106", "q.68814", "q.69190"],
             "cSiblings": ["character.adventure-plate.40", "character.achievement.quests.job-role-quests.2320"],
             "patch": "5.0"
         }

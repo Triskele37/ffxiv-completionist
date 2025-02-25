@@ -11,8 +11,8 @@
             "cPrevAny": true,
             "npc_en": "Lisette De Valentione",
             "npc_fr": "Lisette De Valention",
-            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.66043", 66064, 66082],
-            "cNext": [69533],
+            "cPrev": ["q.66043", "q.66064", "q.66082"],
+            "cNext": ["q.69533"],
             "patch": "5.4"
         },
         "x69533": {
@@ -22,7 +22,7 @@
             "year": "2021",
             "npc_en": "Elyne",
             "npc_fr": "Elyne",
-            "cPrev": [69532],
+            "cPrev": ["q.69532"],
             "cSiblings": ["character.achievement.quests.seasonal-events.2806"],
             "patch": "5.4"
         }
