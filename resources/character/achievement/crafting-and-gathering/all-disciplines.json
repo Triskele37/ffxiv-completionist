@@ -12,16 +12,7 @@
             "patch": "5.21",
             "points": 5,
             "cPrevAny": true,
-            "cPrev": [
-                "character.achievement.crafting--gathering.carpenter.2489",
-                "character.achievement.crafting--gathering.blacksmith.2492",
-                "character.achievement.crafting--gathering.armorer.2495",
-                "character.achievement.crafting--gathering.goldsmith.2498",
-                "character.achievement.crafting--gathering.leatherworker.2501",
-                "character.achievement.crafting--gathering.weaver.2504",
-                "character.achievement.crafting--gathering.alchemist.2507",
-                "character.achievement.crafting--gathering.culinarian.2510"
-            ]
+            "cPrev": ["a.2489", "a.2492", "a.2495", "a.2498", "a.2501", "a.2504", "a.2507", "a.2510"]
         },
         "x2524": {
             "name_en": "Handking of the World",
@@ -31,18 +22,9 @@
             "reward": "character.character.title.501",
             "patch": "5.21",
             "points": 10,
-            "cPrev": [
-                "character.achievement.crafting--gathering.carpenter.2491",
-                "character.achievement.crafting--gathering.blacksmith.2494",
-                "character.achievement.crafting--gathering.armorer.2497",
-                "character.achievement.crafting--gathering.goldsmith.2500",
-                "character.achievement.crafting--gathering.leatherworker.2503",
-                "character.achievement.crafting--gathering.weaver.2506",
-                "character.achievement.crafting--gathering.alchemist.2509",
-                "character.achievement.crafting--gathering.culinarian.2512"
-            ],
+            "cPrev": ["a.2491", "a.2494", "a.2497", "a.2500", "a.2503", "a.2506", "a.2509", "a.2512"],
             "cSiblings": ["character.character.title.501"],
-            "cCombo": [2526]
+            "cCombo": ["a.2526"]
         },
         "x2523": {
             "name_en": "Gathering in the Air",
@@ -53,11 +35,7 @@
             "patch": "5.21",
             "points": 5,
             "cPrevAny": true,
-            "cPrev": [
-                "character.achievement.crafting--gathering.miner.2513",
-                "character.achievement.crafting--gathering.botanist.2516",
-                "character.achievement.crafting--gathering.fisher.2519"
-            ]
+            "cPrev": ["a.2513", "a.2516", "a.2519"]
         },
         "x2525": {
             "name_en": "Landking of the World",
@@ -67,13 +45,9 @@
             "reward": "character.character.title.502",
             "patch": "5.21",
             "points": 10,
-            "cPrev": [
-                "character.achievement.crafting--gathering.miner.2515",
-                "character.achievement.crafting--gathering.botanist.2518",
-                "character.achievement.crafting--gathering.fisher.2521"
-            ],
+            "cPrev": ["a.2515", "a.2518", "a.2521"],
             "cSiblings": ["character.character.title.502"],
-            "cCombo": [2526]
+            "cCombo": ["a.2526"]
         },
         "x2526": {
             "name_en": "Castle in the Sky",
@@ -83,7 +57,7 @@
             "reward": "character.mount-guide.139",
             "patch": "5.21",
             "points": 20,
-            "cPrev": [2524, 2525]
+            "cPrev": ["a.2524", "a.2525"]
         },
         "x2550": {
             "name_en": "Force of Nature I",
@@ -92,7 +66,7 @@
             "description_fr": "Utiliser 50 fois le perforateur éthéréen.",
             "patch": "5.21",
             "points": 5,
-            "cNext": [2551]
+            "cNext": ["a.2551"]
         },
         "x2551": {
             "name_en": "Force of Nature II",
@@ -101,8 +75,8 @@
             "description_fr": "Utiliser 500 fois le perforateur éthéréen.",
             "patch": "5.21",
             "points": 5,
-            "cPrev": [2550],
-            "cNext": [2552]
+            "cPrev": ["a.2550"],
+            "cNext": ["a.2552"]
         },
         "x2552": {
             "name_en": "Force of Nature III",
@@ -111,7 +85,7 @@
             "description_fr": "Utiliser 1 000 fois le perforateur éthéréen.",
             "patch": "5.21",
             "points": 10,
-            "cPrev": [2551]
+            "cPrev": ["a.2551"]
         },
         "x2538": {
             "name_en": "Let Luck Be a Moogle I",
@@ -122,7 +96,7 @@
             "reward_fr": "Couronne Kupo kupo",
             "patch": "5.21",
             "points": 5,
-            "cNext": [2539]
+            "cNext": ["a.2539"]
         },
         "x2539": {
             "name_en": "Let Luck Be a Moogle II",
@@ -131,8 +105,8 @@
             "description_fr": "Gagner le premier prix 10 fois au Kupo de la fortune.",
             "patch": "5.21",
             "points": 5,
-            "cPrev": [2538],
-            "cNext": [2540]
+            "cPrev": ["a.2538"],
+            "cNext": ["a.2540"]
         },
         "x2540": {
             "name_en": "Let Luck Be a Moogle III",
@@ -142,7 +116,7 @@
             "reward": "character.character.title.514",
             "patch": "5.21",
             "points": 10,
-            "cPrev": [2539],
+            "cPrev": ["a.2539"],
             "cSiblings": ["character.character.title.514"]
         },
         "x2890": {
@@ -227,16 +201,7 @@
             "reward": "character.character.title.578",
             "patch": "5.5",
             "points": 20,
-            "cPrev": [
-                "character.achievement.crafting--gathering.carpenter.2821",
-                "character.achievement.crafting--gathering.blacksmith.2822",
-                "character.achievement.crafting--gathering.armorer.2823",
-                "character.achievement.crafting--gathering.goldsmith.2824",
-                "character.achievement.crafting--gathering.leatherworker.2826",
-                "character.achievement.crafting--gathering.weaver.2825",
-                "character.achievement.crafting--gathering.alchemist.2827",
-                "character.achievement.crafting--gathering.culinarian.2828"
-            ],
+            "cPrev": ["a.2821", "a.2822", "a.2823", "a.2824", "a.2826", "a.2825", "a.2827", "a.2828"],
             "cSiblings": ["character.character.title.578"]
         }
     }

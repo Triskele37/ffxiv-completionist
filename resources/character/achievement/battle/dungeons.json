@@ -10,7 +10,7 @@
             "description_fr": "Finir 5 donjons ou défis différents.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [740]
+            "cNext": ["a.740"]
         },
         "x740": {
             "name_en": "To the Dungeons II",
@@ -19,8 +19,8 @@
             "description_fr": "Finir 10 donjons ou défis différents.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [739],
-            "cNext": [741]
+            "cPrev": ["a.739"],
+            "cNext": ["a.741"]
         },
         "x741": {
             "name_en": "To the Dungeons III",
@@ -29,8 +29,8 @@
             "description_fr": "Finir 20 donjons ou défis différents.",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [740],
-            "cNext": [1222]
+            "cPrev": ["a.740"],
+            "cNext": ["a.1222"]
         },
         "x1222": {
             "name_en": "To the Dungeons IV",
@@ -39,8 +39,8 @@
             "description_fr": "Finir 30 donjons ou défis différents.",
             "patch": "3.0",
             "points": 20,
-            "cPrev": [741],
-            "cNext": [1223]
+            "cPrev": ["a.741"],
+            "cNext": ["a.1223"]
         },
         "x1223": {
             "name_en": "To the Dungeons V",
@@ -49,8 +49,8 @@
             "description_fr": "Finir 40 donjons ou défis différents.",
             "patch": "3.0",
             "points": 20,
-            "cPrev": [1222],
-            "cNext": [1224]
+            "cPrev": ["a.1222"],
+            "cNext": ["a.1224"]
         },
         "x1224": {
             "name_en": "To the Dungeons VI",
@@ -59,7 +59,7 @@
             "description_fr": "Finir 50 donjons ou défis différents.",
             "patch": "3.0",
             "points": 20,
-            "cPrev": [1223]
+            "cPrev": ["a.1223"]
         },
         "x742": {
             "name_en": "Dungeon Siege I",
@@ -68,7 +68,7 @@
             "description_fr": "Finir 10 donjons ou défis.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [743]
+            "cNext": ["a.743"]
         },
         "x743": {
             "name_en": "Dungeon Siege II",
@@ -77,8 +77,8 @@
             "description_fr": "Finir 30 donjons ou défis.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [742],
-            "cNext": [744]
+            "cPrev": ["a.742"],
+            "cNext": ["a.744"]
         },
         "x744": {
             "name_en": "Dungeon Siege III",
@@ -87,8 +87,8 @@
             "description_fr": "Finir 100 donjons ou défis.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [743],
-            "cNext": [745]
+            "cPrev": ["a.743"],
+            "cNext": ["a.745"]
         },
         "x745": {
             "name_en": "Dungeon Siege IV",
@@ -98,8 +98,8 @@
             "reward": "character.character.title.109",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [744],
-            "cNext": [746],
+            "cPrev": ["a.744"],
+            "cNext": ["a.746"],
             "cSiblings": ["character.character.title.109"]
         },
         "x746": {
@@ -109,8 +109,8 @@
             "description_fr": "Finir 1 000 donjons ou défis.",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [745],
-            "cNext": [1225]
+            "cPrev": ["a.745"],
+            "cNext": ["a.1225"]
         },
         "x1225": {
             "name_en": "Lifer I",
@@ -119,8 +119,8 @@
             "description_fr": "Finir 2 000 donjons ou défis.",
             "patch": "3.0",
             "points": 20,
-            "cPrev": [746],
-            "cNext": [1226]
+            "cPrev": ["a.746"],
+            "cNext": ["a.1226"]
         },
         "x1226": {
             "name_en": "Lifer II",
@@ -129,8 +129,8 @@
             "description_fr": "Finir 5 000 donjons ou défis.",
             "patch": "3.0",
             "points": 20,
-            "cPrev": [1225],
-            "cNext": [1227]
+            "cPrev": ["a.1225"],
+            "cNext": ["a.1227"]
         },
         "x1227": {
             "name_en": "Lifer III",
@@ -139,7 +139,7 @@
             "description_fr": "Finir 10 000 donjons ou défis.",
             "patch": "3.0",
             "points": 20,
-            "cPrev": [1226]
+            "cPrev": ["a.1226"]
         },
         "x1576": {
             "name_en": "In Too Deep I",
@@ -151,7 +151,7 @@
             "cSiblingsAt": {
                 "10": ["duty.dutyraid-finder.deep-dungeon.0"]
             },
-            "cNext": [1577]
+            "cNext": ["a.1577"]
         },
         "x1577": {
             "name_en": "In Too Deep II",
@@ -163,8 +163,8 @@
             "cSiblingsAt": {
                 "20": ["duty.dutyraid-finder.deep-dungeon.0"]
             },
-            "cPrev": [1576],
-            "cNext": [1578]
+            "cPrev": ["a.1576"],
+            "cNext": ["a.1578"]
         },
         "x1578": {
             "name_en": "In Too Deep III",
@@ -176,8 +176,8 @@
             "cSiblingsAt": {
                 "30": ["duty.dutyraid-finder.deep-dungeon.0"]
             },
-            "cPrev": [1577],
-            "cNext": [1579]
+            "cPrev": ["a.1577"],
+            "cNext": ["a.1579"]
         },
         "x1579": {
             "name_en": "In Too Deep IV",
@@ -189,8 +189,8 @@
             "cSiblingsAt": {
                 "40": ["duty.dutyraid-finder.deep-dungeon.0"]
             },
-            "cPrev": [1578],
-            "cNext": [1580]
+            "cPrev": ["a.1578"],
+            "cNext": ["a.1580"]
         },
         "x1580": {
             "name_en": "In Too Deep V",
@@ -202,8 +202,8 @@
             "cSiblingsAt": {
                 "50": ["duty.dutyraid-finder.deep-dungeon.0"]
             },
-            "cPrev": [1579],
-            "cNext": [1655]
+            "cPrev": ["a.1579"],
+            "cNext": ["a.1655"]
         },
         "x1655": {
             "name_en": "In Too Deep VI",
@@ -216,8 +216,8 @@
             "cSiblingsAt": {
                 "100": ["duty.dutyraid-finder.deep-dungeon.0"]
             },
-            "cPrev": [1580],
-            "cNext": [1656],
+            "cPrev": ["a.1580"],
+            "cNext": ["a.1656"],
             "cSiblings": ["character.character.title.319"]
         },
         "x1656": {
@@ -230,8 +230,8 @@
             "cSiblingsAt": {
                 "150": ["duty.dutyraid-finder.deep-dungeon.0"]
             },
-            "cPrev": [1655],
-            "cNext": [1657]
+            "cPrev": ["a.1655"],
+            "cNext": ["a.1657"]
         },
         "x1657": {
             "name_en": "In Too Deep VIII",
@@ -243,7 +243,7 @@
             "cSiblingsAt": {
                 "200": ["duty.dutyraid-finder.deep-dungeon.0"]
             },
-            "cPrev": [1656]
+            "cPrev": ["a.1656"]
         },
         "x1659": {
             "name_en": "Pal-less Palace I",
@@ -252,7 +252,7 @@
             "description_fr": "Obtenir un score en solo dans le Palais des morts en commençant par le sous-sol 1 et en s'aventurant au-delà du sous-sol 50.",
             "patch": "3.45",
             "points": 10,
-            "cNext": [1660]
+            "cNext": ["a.1660"]
         },
         "x1660": {
             "name_en": "Pal-less Palace II",
@@ -262,8 +262,8 @@
             "reward": "character.character.title.321",
             "patch": "3.45",
             "points": 10,
-            "cPrev": [1659],
-            "cNext": [1952],
+            "cPrev": ["a.1659"],
+            "cNext": ["a.1952"],
             "cSiblings": ["character.character.title.321"]
         },
         "x1952": {
@@ -274,7 +274,7 @@
             "reward": "character.character.title.246",
             "patch": "4.0",
             "points": 20,
-            "cPrev": [1660],
+            "cPrev": ["a.1660"],
             "cSiblings": ["character.character.title.246"]
         },
         "x1661": {
@@ -284,7 +284,7 @@
             "description_fr": "Découvrir un trésor caché dans le Palais des morts.",
             "patch": "3.4",
             "points": 5,
-            "cNext": [1662]
+            "cNext": ["a.1662"]
         },
         "x1662": {
             "name_en": "For the Hoard II",
@@ -293,8 +293,8 @@
             "description_fr": "Découvrir 100 trésors cachés dans le Palais des morts.",
             "patch": "3.4",
             "points": 5,
-            "cPrev": [1661],
-            "cNext": [1663]
+            "cPrev": ["a.1661"],
+            "cNext": ["a.1663"]
         },
         "x1663": {
             "name_en": "For the Hoard III",
@@ -304,8 +304,8 @@
             "reward": "character.character.title.322",
             "patch": "3.4",
             "points": 10,
-            "cPrev": [1662],
-            "cNext": [1664],
+            "cPrev": ["a.1662"],
+            "cNext": ["a.1664"],
             "cSiblings": ["character.character.title.322"]
         },
         "x1664": {
@@ -315,8 +315,8 @@
             "description_fr": "Découvrir 5 000 trésors cachés dans le Palais des morts.",
             "patch": "3.4",
             "points": 20,
-            "cPrev": [1663],
-            "cNext": [2056]
+            "cPrev": ["a.1663"],
+            "cNext": ["a.2056"]
         },
         "x2056": {
             "name_en": "For the Hoard V",
@@ -326,8 +326,8 @@
             "reward": "character.character.title.388",
             "patch": "4.35",
             "points": 20,
-            "cPrev": [1664],
-            "cNext": [3184],
+            "cPrev": ["a.1664"],
+            "cNext": ["a.3184"],
             "cSiblings": ["character.character.title.388"]
         },
         "x3184": {
@@ -338,7 +338,7 @@
             "reward": "character.character.title.664",
             "patch": "6.35",
             "points": 20,
-            "cPrev": [2056],
+            "cPrev": ["a.2056"],
             "cSiblings": ["character.character.title.664"]
         },
         "x1665": {
@@ -348,7 +348,7 @@
             "description_fr": "Découvrir un trésor caché dans le Palais des morts sans utiliser de poterie magique d'intuition.",
             "patch": "3.4",
             "points": 10,
-            "cNext": [1666]
+            "cNext": ["a.1666"]
         },
         "x1666": {
             "name_en": "The Trouble with Buried II",
@@ -358,7 +358,7 @@
             "reward": "character.character.title.323",
             "patch": "3.4",
             "points": 20,
-            "cPrev": [1665],
+            "cPrev": ["a.1665"],
             "cSiblings": ["character.character.title.323"]
         },
         "x2047": {
@@ -371,7 +371,7 @@
             "cSiblingsAt": {
                 "10": ["duty.dutyraid-finder.deep-dungeon.1"]
             },
-            "cNext": [2048]
+            "cNext": ["a.2048"]
         },
         "x2048": {
             "name_en": "She's So High II",
@@ -383,8 +383,8 @@
             "cSiblingsAt": {
                 "20": ["duty.dutyraid-finder.deep-dungeon.1"]
             },
-            "cPrev": [2047],
-            "cNext": [2049]
+            "cPrev": ["a.2047"],
+            "cNext": ["a.2049"]
         },
         "x2049": {
             "name_en": "She's So High III",
@@ -397,8 +397,8 @@
             "cSiblingsAt": {
                 "30": ["duty.dutyraid-finder.deep-dungeon.1"]
             },
-            "cPrev": [2048],
-            "cNext": [2050],
+            "cPrev": ["a.2048"],
+            "cNext": ["a.2050"],
             "cSiblings": ["character.character.title.384"]
         },
         "x2050": {
@@ -411,8 +411,8 @@
             "cSiblingsAt": {
                 "50": ["duty.dutyraid-finder.deep-dungeon.1"]
             },
-            "cPrev": [2049],
-            "cNext": [2051]
+            "cPrev": ["a.2049"],
+            "cNext": ["a.2051"]
         },
         "x2051": {
             "name_en": "She's So High V",
@@ -425,7 +425,7 @@
             "cSiblingsAt": {
                 "100": ["duty.dutyraid-finder.deep-dungeon.1"]
             },
-            "cPrev": [2050],
+            "cPrev": ["a.2050"],
             "cSiblings": ["character.character.title.385"]
         },
         "x2054": {
@@ -435,7 +435,7 @@
             "description_fr": "Obtenir un score en solo dans le Pilier des Cieux en commençant par le 1er étage et en s'aventurant au-delà du 50e.",
             "patch": "4.35",
             "points": 10,
-            "cNext": [2055]
+            "cNext": ["a.2055"]
         },
         "x2055": {
             "name_en": "Heaven Is a Lonely Place II",
@@ -445,7 +445,7 @@
             "reward": "character.character.title.387",
             "patch": "4.35",
             "points": 10,
-            "cPrev": [2054],
+            "cPrev": ["a.2054"],
             "cSiblings": ["character.character.title.387"]
         },
         "x3174": {
@@ -455,7 +455,7 @@
             "description_fr": "Conquérir le 10e sous-sol d'Eurêka Orthos.",
             "patch": "6.35",
             "points": 5,
-            "cNext": [3175]
+            "cNext": ["a.3175"]
         },
         "x3175": {
             "name_en": "Le Morte d'Allagan Monstrosities II",
@@ -464,8 +464,8 @@
             "description_fr": "Conquérir le 20e sous-sol d'Eurêka Orthos.",
             "patch": "6.35",
             "points": 5,
-            "cPrev": [3174],
-            "cNext": [3176]
+            "cPrev": ["a.3174"],
+            "cNext": ["a.3176"]
         },
         "x3176": {
             "name_en": "Le Morte d'Allagan Monstrosities III",
@@ -475,8 +475,8 @@
             "reward": "character.character.title.661",
             "patch": "6.35",
             "points": 5,
-            "cPrev": [3175],
-            "cNext": [3177],
+            "cPrev": ["a.3175"],
+            "cNext": ["a.3177"],
             "cSiblings": ["character.character.title.661"]
         },
         "x3177": {
@@ -486,8 +486,8 @@
             "description_fr": "Conquérir le 50e sous-sol d'Eurêka Orthos.",
             "patch": "6.35",
             "points": 10,
-            "cPrev": [3176],
-            "cNext": [3178]
+            "cPrev": ["a.3176"],
+            "cNext": ["a.3178"]
         },
         "x3178": {
             "name_en": "Le Morte d'Allagan Monstrosities V",
@@ -497,7 +497,7 @@
             "reward": "character.character.title.662",
             "patch": "6.35",
             "points": 10,
-            "cPrev": [3177],
+            "cPrev": ["a.3177"],
             "cSiblings": ["character.character.title.662"]
         },
         "x3182": {
@@ -507,7 +507,7 @@
             "description_fr": "Obtenir un score en solo dans Eurêka Orthos en commençant par le 1er sous-sol et en s'aventurant au-delà du 50e.",
             "patch": "6.35",
             "points": 10,
-            "cNext": [3183]
+            "cNext": ["a.3183"]
         },
         "x3183": {
             "name_en": "All by Eurekaself II",
@@ -517,7 +517,7 @@
             "reward": "character.character.title.663",
             "patch": "6.35",
             "points": 10,
-            "cPrev": [3182],
+            "cPrev": ["a.3182"],
             "cSiblings": ["character.character.title.663"]
         },
         "x2203": {
@@ -527,7 +527,7 @@
             "description_fr": "Terminer un niveau de la Grande Mascarade.",
             "patch": "4.5",
             "points": 5,
-            "cNext": [2204]
+            "cNext": ["a.2204"]
         },
         "x2204": {
             "name_en": "Smokin' II",
@@ -536,8 +536,8 @@
             "description_fr": "Terminer 5 niveaux de la Grande Mascarade.",
             "patch": "4.5",
             "points": 5,
-            "cPrev": [2203],
-            "cNext": [2205]
+            "cPrev": ["a.2203"],
+            "cNext": ["a.2205"]
         },
         "x2205": {
             "name_en": "Smokin' III",
@@ -546,8 +546,8 @@
             "description_fr": "Terminer 10 niveaux de la Grande Mascarade.",
             "patch": "4.5",
             "points": 5,
-            "cPrev": [2204],
-            "cNext": [2206]
+            "cPrev": ["a.2204"],
+            "cNext": ["a.2206"]
         },
         "x2206": {
             "name_en": "Smokin' IV",
@@ -556,8 +556,8 @@
             "description_fr": "Terminer 15 niveaux de la Grande Mascarade.",
             "patch": "4.5",
             "points": 5,
-            "cPrev": [2205],
-            "cNext": [2207]
+            "cPrev": ["a.2205"],
+            "cNext": ["a.2207"]
         },
         "x2207": {
             "name_en": "Smokin' V",
@@ -566,8 +566,8 @@
             "description_fr": "Terminer 20 niveaux de la Grande Mascarade.",
             "patch": "4.5",
             "points": 5,
-            "cPrev": [2206],
-            "cNext": [2208]
+            "cPrev": ["a.2206"],
+            "cNext": ["a.2208"]
         },
         "x2208": {
             "name_en": "Smokin' VI",
@@ -577,8 +577,8 @@
             "reward": "character.character.title.414",
             "patch": "4.5",
             "points": 5,
-            "cPrev": [2207],
-            "cNext": [2449],
+            "cPrev": ["a.2207"],
+            "cNext": ["a.2449"],
             "cSiblings": ["character.character.title.414"]
         },
         "x2449": {
@@ -588,7 +588,7 @@
             "description_fr": "Terminer 30 niveaux de la Grande Mascarade.",
             "patch": "5.18",
             "points": 5,
-            "cPrev": [2208]
+            "cPrev": ["a.2208"]
         },
         "x2209": {
             "name_en": "The Harder They Fall",

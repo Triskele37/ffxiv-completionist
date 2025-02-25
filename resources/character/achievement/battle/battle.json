@@ -10,7 +10,7 @@
             "description_fr": "Vaincre 100 ennemis.",
             "patch": "2.0",
             "points": 5,
-            "cNext": [2]
+            "cNext": ["a.2"]
         },
         "x2": {
             "name_en": "To Crush Your Enemies II",
@@ -19,8 +19,8 @@
             "description_fr": "Vaincre 500 ennemis.",
             "patch": "2.0",
             "points": 5,
-            "cPrev": [1],
-            "cNext": [3]
+            "cPrev": ["a.1"],
+            "cNext": ["a.3"]
         },
         "x3": {
             "name_en": "To Crush Your Enemies III",
@@ -29,8 +29,8 @@
             "description_fr": "Vaincre 1 000 ennemis.",
             "patch": "2.0",
             "points": 10,
-            "cPrev": [2],
-            "cNext": [4]
+            "cPrev": ["a.2"],
+            "cNext": ["a.4"]
         },
         "x4": {
             "name_en": "To Crush Your Enemies IV",
@@ -39,8 +39,8 @@
             "description_fr": "Vaincre 5 000 ennemis.",
             "patch": "2.0",
             "points": 10,
-            "cPrev": [3],
-            "cNext": [5]
+            "cPrev": ["a.3"],
+            "cNext": ["a.5"]
         },
         "x5": {
             "name_en": "To Crush Your Enemies V",
@@ -49,8 +49,8 @@
             "description_fr": "Vaincre 10 000 ennemis.",
             "patch": "2.0",
             "points": 10,
-            "cPrev": [4],
-            "cNext": [6]
+            "cPrev": ["a.4"],
+            "cNext": ["a.6"]
         },
         "x6": {
             "name_en": "To Crush Your Enemies VI",
@@ -60,8 +60,8 @@
             "reward": "character.character.title.9",
             "patch": "2.0",
             "points": 10,
-            "cPrev": [5],
-            "cNext": [7],
+            "cPrev": ["a.5"],
+            "cNext": ["a.7"],
             "cSiblings": ["character.character.title.9"]
         },
         "x7": {
@@ -73,8 +73,8 @@
             "reward_fr": "Couronne de massacreur",
             "patch": "2.0",
             "points": 30,
-            "cPrev": [6],
-            "cNext": [1336]
+            "cPrev": ["a.6"],
+            "cNext": ["a.1336"]
         },
         "x1336": {
             "name_en": "To Crush Your Enemies VII",
@@ -83,7 +83,7 @@
             "description_fr": "Vaincre 200 000 ennemis.",
             "patch": "3.0",
             "points": 30,
-            "cPrev": [7]
+            "cPrev": ["a.7"]
         },
         "x728": {
             "name_en": "Bump on a Log: Gladiator",
@@ -505,7 +505,7 @@
             "patch": "5.0",
             "points": 10,
             "cSiblings": ["travel.shared-fate.shb.2"],
-            "cCombo": [2349]
+            "cCombo": ["a.2349"]
         },
         "x2344": {
             "name_en": "Free Market Friend: Kholusia",
@@ -515,7 +515,7 @@
             "patch": "5.0",
             "points": 10,
             "cSiblings": ["travel.shared-fate.shb.5"],
-            "cCombo": [2349]
+            "cCombo": ["a.2349"]
         },
         "x2345": {
             "name_en": "Free Market Friend: Amh Araeng",
@@ -525,7 +525,7 @@
             "patch": "5.0",
             "points": 10,
             "cSiblings": ["travel.shared-fate.shb.8"],
-            "cCombo": [2349]
+            "cCombo": ["a.2349"]
         },
         "x2346": {
             "name_en": "Free Market Friend: Il Mheg",
@@ -535,7 +535,7 @@
             "patch": "5.0",
             "points": 10,
             "cSiblings": ["travel.shared-fate.shb.11"],
-            "cCombo": [2349]
+            "cCombo": ["a.2349"]
         },
         "x2347": {
             "name_en": "Free Market Friend: The Rak'tika Greatwood",
@@ -545,7 +545,7 @@
             "patch": "5.0",
             "points": 10,
             "cSiblings": ["travel.shared-fate.shb.14"],
-            "cCombo": [2349]
+            "cCombo": ["a.2349"]
         },
         "x2348": {
             "name_en": "Free Market Friend: The Tempest",
@@ -555,7 +555,7 @@
             "patch": "5.0",
             "points": 10,
             "cSiblings": ["travel.shared-fate.shb.17"],
-            "cCombo": [2349]
+            "cCombo": ["a.2349"]
         },
         "x2349": {
             "name_en": "Merchant's Best Friend",
@@ -565,7 +565,7 @@
             "reward": "character.character.title.459",
             "patch": "5.0",
             "points": 20,
-            "cPrev": [2343, 2344, 2345, 2346, 2347, 2348],
+            "cPrev": ["a.2343", "a.2344", "a.2345", "a.2346", "a.2347", "a.2348"],
             "cSiblings": ["character.character.title.459"]
         },
         "x3022": {
@@ -576,7 +576,7 @@
             "patch": "6.0",
             "points": 10,
             "cSiblings": ["travel.shared-fate.ew.2"],
-            "cCombo": [3028]
+            "cCombo": ["a.3028"]
         },
         "x3023": {
             "name_en": "Free Market Friend: Thavnair",
@@ -586,7 +586,7 @@
             "patch": "6.0",
             "points": 10,
             "cSiblings": ["travel.shared-fate.ew.5"],
-            "cCombo": [3028]
+            "cCombo": ["a.3028"]
         },
         "x3024": {
             "name_en": "Free Market Friend: Garlemald",
@@ -596,7 +596,7 @@
             "patch": "6.0",
             "points": 10,
             "cSiblings": ["travel.shared-fate.ew.8"],
-            "cCombo": [3028]
+            "cCombo": ["a.3028"]
         },
         "x3025": {
             "name_en": "Free Market Friend: Mare Lamentorum",
@@ -606,7 +606,7 @@
             "patch": "6.0",
             "points": 10,
             "cSiblings": ["travel.shared-fate.ew.11"],
-            "cCombo": [3028]
+            "cCombo": ["a.3028"]
         },
         "x3026": {
             "name_en": "Free Market Friend: Elpis",
@@ -616,7 +616,7 @@
             "patch": "6.0",
             "points": 10,
             "cSiblings": ["travel.shared-fate.ew.14"],
-            "cCombo": [3028]
+            "cCombo": ["a.3028"]
         },
         "x3027": {
             "name_en": "Free Market Friend: Ultima Thule",
@@ -626,7 +626,7 @@
             "patch": "6.0",
             "points": 10,
             "cSiblings": ["travel.shared-fate.ew.17"],
-            "cCombo": [3028]
+            "cCombo": ["a.3028"]
         },
         "x3028": {
             "name_en": "Far Trade",
@@ -636,7 +636,7 @@
             "reward": "character.character.title.622",
             "patch": "6.0",
             "points": 20,
-            "cPrev": [3022, 3023, 3024, 3025, 3026, 3027],
+            "cPrev": ["a.3022", "a.3023", "a.3024", "a.3025", "a.3026", "a.3027"],
             "cSiblings": ["character.character.title.622"]
         },
         "x803": {
@@ -646,7 +646,7 @@
             "description_fr": "Accomplir un total de 10 ALÉA.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [804]
+            "cNext": ["a.804"]
         },
         "x804": {
             "name_en": "Date with Destiny II",
@@ -655,8 +655,8 @@
             "description_fr": "Accomplir un total de 100 ALÉA.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [803],
-            "cNext": [805]
+            "cPrev": ["a.803"],
+            "cNext": ["a.805"]
         },
         "x805": {
             "name_en": "Date with Destiny III",
@@ -665,8 +665,8 @@
             "description_fr": "Accomplir un total de 300 ALÉA.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [804],
-            "cNext": [806]
+            "cPrev": ["a.804"],
+            "cNext": ["a.806"]
         },
         "x806": {
             "name_en": "Date with Destiny IV",
@@ -676,8 +676,8 @@
             "reward": "character.character.title.110",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [805],
-            "cNext": [807],
+            "cPrev": ["a.805"],
+            "cNext": ["a.807"],
             "cSiblings": ["character.character.title.110"]
         },
         "x807": {
@@ -689,8 +689,8 @@
             "reward_fr": "Manteau d'expert",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [806],
-            "cNext": [1353]
+            "cPrev": ["a.806"],
+            "cNext": ["a.1353"]
         },
         "x1353": {
             "name_en": "Date with Destiny V",
@@ -699,8 +699,8 @@
             "description_fr": "Accomplir un total de 5 000 ALÉA.",
             "patch": "3.0",
             "points": 20,
-            "cPrev": [807],
-            "cNext": [1354]
+            "cPrev": ["a.807"],
+            "cNext": ["a.1354"]
         },
         "x1354": {
             "name_en": "Date with Destiny VI",
@@ -710,7 +710,7 @@
             "reward": "character.character.title.264",
             "patch": "3.0",
             "points": 20,
-            "cPrev": [1353],
+            "cPrev": ["a.1353"],
             "cSiblings": ["character.character.title.264"]
         },
         "x808": {
@@ -720,7 +720,7 @@
             "description_fr": "Élever le compagnon chocobo au niveau 1.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [809],
+            "cNext": ["a.809"],
             "cSiblings": ["character.companion.companion-rank.0"]
         },
         "x809": {
@@ -730,8 +730,8 @@
             "description_fr": "Élever le compagnon chocobo au niveau 5.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [808],
-            "cNext": [810],
+            "cPrev": ["a.808"],
+            "cNext": ["a.810"],
             "cSiblings": ["character.companion.companion-rank.4"]
         },
         "x810": {
@@ -743,7 +743,7 @@
             "reward_fr": "Costume de chocobo",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [809],
+            "cPrev": ["a.809"],
             "cSiblings": ["character.companion.companion-rank.9"]
         },
         "x885": {
@@ -753,7 +753,7 @@
             "description_fr": "Ressusciter un joueur qui n'est pas dans l'équipe 1 fois.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [886]
+            "cNext": ["a.886"]
         },
         "x886": {
             "name_en": "The Kindness of Strangers II",
@@ -762,8 +762,8 @@
             "description_fr": "Ressusciter un joueur qui n'est pas dans l'équipe 20 fois.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [885],
-            "cNext": [1355]
+            "cPrev": ["a.885"],
+            "cNext": ["a.1355"]
         },
         "x1355": {
             "name_en": "The Kindness of Strangers III",
@@ -772,8 +772,8 @@
             "description_fr": "Ressusciter un joueur qui n'est pas dans l'équipe 50 fois.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [886],
-            "cNext": [1356]
+            "cPrev": ["a.886"],
+            "cNext": ["a.1356"]
         },
         "x1356": {
             "name_en": "The Kindness of Strangers IV",
@@ -782,8 +782,8 @@
             "description_fr": "Ressusciter un joueur qui n'est pas dans l'équipe 100 fois.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [1355],
-            "cNext": [1357]
+            "cPrev": ["a.1355"],
+            "cNext": ["a.1357"]
         },
         "x1357": {
             "name_en": "The Kindness of Strangers V",
@@ -793,7 +793,7 @@
             "reward": "character.character.title.265",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [1356],
+            "cPrev": ["a.1356"],
             "cSiblings": ["character.character.title.265"]
         },
         "x919": {
@@ -804,7 +804,7 @@
             "reward": "character.character.title.151",
             "patch": "2.2",
             "points": 5,
-            "cNext": [920],
+            "cNext": ["a.920"],
             "cSiblings": ["character.character.title.151"]
         },
         "x920": {
@@ -815,8 +815,8 @@
             "reward": "character.character.title.153",
             "patch": "2.2",
             "points": 10,
-            "cPrev": [919],
-            "cNext": [921],
+            "cPrev": ["a.919"],
+            "cNext": ["a.921"],
             "cSiblings": ["character.character.title.153"]
         },
         "x921": {
@@ -827,7 +827,7 @@
             "reward": "character.mount-guide.178",
             "patch": "2.2",
             "points": 20,
-            "cPrev": [920]
+            "cPrev": ["a.920"]
         },
         "x922": {
             "name_en": "A Tankless Job I (Warrior)",
@@ -837,7 +837,7 @@
             "reward": "character.character.title.152",
             "patch": "2.2",
             "points": 5,
-            "cNext": [923],
+            "cNext": ["a.923"],
             "cSiblings": ["character.character.title.152"]
         },
         "x923": {
@@ -848,8 +848,8 @@
             "reward": "character.character.title.154",
             "patch": "2.2",
             "points": 10,
-            "cPrev": [922],
-            "cNext": [924],
+            "cPrev": ["a.922"],
+            "cNext": ["a.924"],
             "cSiblings": ["character.character.title.154"]
         },
         "x924": {
@@ -860,7 +860,7 @@
             "reward": "character.mount-guide.177",
             "patch": "2.2",
             "points": 20,
-            "cPrev": [923]
+            "cPrev": ["a.923"]
         },
         "x1193": {
             "name_en": "A Tankless Job I (Dark Knight)",
@@ -870,7 +870,7 @@
             "reward": "character.character.title.241",
             "patch": "3.0",
             "points": 5,
-            "cNext": [1194],
+            "cNext": ["a.1194"],
             "cSiblings": ["character.character.title.241"]
         },
         "x1194": {
@@ -881,8 +881,8 @@
             "reward": "character.character.title.242",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [1193],
-            "cNext": [1195],
+            "cPrev": ["a.1193"],
+            "cNext": ["a.1195"],
             "cSiblings": ["character.character.title.242"]
         },
         "x1195": {
@@ -893,7 +893,7 @@
             "reward": "character.mount-guide.16",
             "patch": "3.0",
             "points": 20,
-            "cPrev": [1194]
+            "cPrev": ["a.1194"]
         },
         "x1953": {
             "name_en": "Tank You, Paladin I",
@@ -902,7 +902,7 @@
             "description_fr": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "patch": "4.0",
             "points": 5,
-            "cNext": [1954]
+            "cNext": ["a.1954"]
         },
         "x1954": {
             "name_en": "Tank You, Paladin II",
@@ -911,8 +911,8 @@
             "description_fr": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [1953],
-            "cNext": [1955]
+            "cPrev": ["a.1953"],
+            "cNext": ["a.1955"]
         },
         "x1955": {
             "name_en": "Tank You, Paladin III",
@@ -922,8 +922,8 @@
             "reward": "character.mount-guide.15",
             "patch": "4.0",
             "points": 20,
-            "cPrev": [1954],
-            "cNext": [2387]
+            "cPrev": ["a.1954"],
+            "cNext": ["a.2387"]
         },
         "x2387": {
             "name_en": "Tank You, Paladin IV",
@@ -933,8 +933,8 @@
             "reward": "character.character.title.462",
             "patch": "5.0",
             "points": 20,
-            "cPrev": [1955],
-            "cNext": [2990],
+            "cPrev": ["a.1955"],
+            "cNext": ["a.2990"],
             "cSiblings": ["character.character.title.462"]
         },
         "x2990": {
@@ -945,7 +945,7 @@
             "reward": "character.character.title.613",
             "patch": "6.0",
             "points": 20,
-            "cPrev": [2387],
+            "cPrev": ["a.2387"],
             "cSiblings": ["character.character.title.613"]
         },
         "x1956": {
@@ -955,7 +955,7 @@
             "description_fr": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "patch": "4.0",
             "points": 5,
-            "cNext": [1957]
+            "cNext": ["a.1957"]
         },
         "x1957": {
             "name_en": "Tank You, Warrior II",
@@ -964,8 +964,8 @@
             "description_fr": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [1956],
-            "cNext": [1958]
+            "cPrev": ["a.1956"],
+            "cNext": ["a.1958"]
         },
         "x1958": {
             "name_en": "Tank You, Warrior III",
@@ -975,8 +975,8 @@
             "reward": "character.mount-guide.14",
             "patch": "4.0",
             "points": 20,
-            "cPrev": [1957],
-            "cNext": [2388]
+            "cPrev": ["a.1957"],
+            "cNext": ["a.2388"]
         },
         "x2388": {
             "name_en": "Tank You, Warrior IV",
@@ -986,8 +986,8 @@
             "reward": "character.character.title.463",
             "patch": "5.0",
             "points": 20,
-            "cPrev": [1958],
-            "cNext": [2991],
+            "cPrev": ["a.1958"],
+            "cNext": ["a.2991"],
             "cSiblings": ["character.character.title.463"]
         },
         "x2991": {
@@ -998,7 +998,7 @@
             "reward": "character.character.title.614",
             "patch": "6.0",
             "points": 20,
-            "cPrev": [2388],
+            "cPrev": ["a.2388"],
             "cSiblings": ["character.character.title.614"]
         },
         "x1959": {
@@ -1008,7 +1008,7 @@
             "description_fr": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "patch": "4.0",
             "points": 5,
-            "cNext": [1960]
+            "cNext": ["a.1960"]
         },
         "x1960": {
             "name_en": "Tank You, Dark Knight II",
@@ -1017,8 +1017,8 @@
             "description_fr": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [1959],
-            "cNext": [1961]
+            "cPrev": ["a.1959"],
+            "cNext": ["a.1961"]
         },
         "x1961": {
             "name_en": "Tank You, Dark Knight III",
@@ -1028,8 +1028,8 @@
             "reward": "character.mount-guide.16",
             "patch": "4.0",
             "points": 20,
-            "cPrev": [1960],
-            "cNext": [2389]
+            "cPrev": ["a.1960"],
+            "cNext": ["a.2389"]
         },
         "x2389": {
             "name_en": "Tank You, Dark Knight IV",
@@ -1039,8 +1039,8 @@
             "reward": "character.character.title.464",
             "patch": "5.0",
             "points": 20,
-            "cPrev": [1961],
-            "cNext": [2992],
+            "cPrev": ["a.1961"],
+            "cNext": ["a.2992"],
             "cSiblings": ["character.character.title.464"]
         },
         "x2992": {
@@ -1051,7 +1051,7 @@
             "reward": "character.character.title.615",
             "patch": "6.0",
             "points": 20,
-            "cPrev": [2389],
+            "cPrev": ["a.2389"],
             "cSiblings": ["character.character.title.615"]
         },
         "x2390": {
@@ -1061,7 +1061,7 @@
             "description_fr": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "patch": "5.0",
             "points": 5,
-            "cNext": [2391]
+            "cNext": ["a.2391"]
         },
         "x2391": {
             "name_en": "Tank You, Gunbreaker II",
@@ -1071,8 +1071,8 @@
             "reward": "character.mount-guide.176",
             "patch": "5.0",
             "points": 10,
-            "cPrev": [2390],
-            "cNext": [2392]
+            "cPrev": ["a.2390"],
+            "cNext": ["a.2392"]
         },
         "x2392": {
             "name_en": "Tank You, Gunbreaker III",
@@ -1082,8 +1082,8 @@
             "reward": "character.mount-guide.17",
             "patch": "5.0",
             "points": 20,
-            "cPrev": [2391],
-            "cNext": [2393]
+            "cPrev": ["a.2391"],
+            "cNext": ["a.2393"]
         },
         "x2393": {
             "name_en": "Tank You, Gunbreaker IV",
@@ -1093,8 +1093,8 @@
             "reward": "character.character.title.465",
             "patch": "5.0",
             "points": 20,
-            "cPrev": [2392],
-            "cNext": [2993],
+            "cPrev": ["a.2392"],
+            "cNext": ["a.2993"],
             "cSiblings": ["character.character.title.465"]
         },
         "x2993": {
@@ -1105,7 +1105,7 @@
             "reward": "character.character.title.616",
             "patch": "6.0",
             "points": 20,
-            "cPrev": [2393],
+            "cPrev": ["a.2393"],
             "cSiblings": ["character.character.title.616"]
         },
         "x2451": {
@@ -1115,7 +1115,7 @@
             "description_fr": "Accomplir 5 missions différentes dans le palmarès bleu.",
             "patch": "5.18",
             "points": 5,
-            "cNext": [2452]
+            "cNext": ["a.2452"]
         },
         "x2452": {
             "name_en": "Jack of All Trades II",
@@ -1124,8 +1124,8 @@
             "description_fr": "Accomplir 20 missions différentes dans le palmarès bleu.",
             "patch": "5.18",
             "points": 5,
-            "cPrev": [2451],
-            "cNext": [2453]
+            "cPrev": ["a.2451"],
+            "cNext": ["a.2453"]
         },
         "x2453": {
             "name_en": "Jack of All Trades III",
@@ -1135,8 +1135,8 @@
             "reward": "character.character.title.482",
             "patch": "5.18",
             "points": 5,
-            "cPrev": [2452],
-            "cNext": [2728],
+            "cPrev": ["a.2452"],
+            "cNext": ["a.2728"],
             "cSiblings": ["character.character.title.482"]
         },
         "x2728": {
@@ -1147,8 +1147,8 @@
             "reward": "character.character.title.551",
             "patch": "5.45",
             "points": 5,
-            "cPrev": [2453],
-            "cNext": [3319],
+            "cPrev": ["a.2453"],
+            "cNext": ["a.3319"],
             "cSiblings": ["character.character.title.551"]
         },
         "x3319": {
@@ -1159,7 +1159,7 @@
             "reward": "character.character.title.693",
             "patch": "6.4",
             "points": 5,
-            "cPrev": [2728],
+            "cPrev": ["a.2728"],
             "cSiblings": ["character.character.title.693"]
         },
         "x2454": {
@@ -1225,7 +1225,7 @@
             "description_fr": "Finir “Le Labyrinthe de Bahamut V” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.18",
             "points": 5,
-            "cCombo": [2474]
+            "cCombo": ["a.2474"]
         },
         "x2462": {
             "name_en": "Mightier than the Raven",
@@ -1234,7 +1234,7 @@
             "description_fr": "Finir “Les Méandres de Bahamut IV” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.18",
             "points": 5,
-            "cCombo": [2474]
+            "cCombo": ["a.2474"]
         },
         "x2463": {
             "name_en": "Mightier than the Dreadwyrm",
@@ -1243,7 +1243,7 @@
             "description_fr": "Finir “L'Abîme de Bahamut IV” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.18",
             "points": 5,
-            "cCombo": [2474]
+            "cCombo": ["a.2474"]
         },
         "x2464": {
             "name_en": "Mightier than the Hive",
@@ -1310,7 +1310,7 @@
             "description_fr": "Finir “Le Fardeau du Père (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.18",
             "points": 5,
-            "cCombo": [2475]
+            "cCombo": ["a.2475"]
         },
         "x2472": {
             "name_en": "Mightier than Justice",
@@ -1319,7 +1319,7 @@
             "description_fr": "Finir “Le Fardeau du Fils (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.18",
             "points": 5,
-            "cCombo": [2475]
+            "cCombo": ["a.2475"]
         },
         "x2473": {
             "name_en": "Mightier than the Prime",
@@ -1328,7 +1328,7 @@
             "description_fr": "Finir “L'Âme du Créateur (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.18",
             "points": 5,
-            "cCombo": [2475]
+            "cCombo": ["a.2475"]
         },
         "x2474": {
             "name_en": "Blue Unchained",
@@ -1338,9 +1338,9 @@
             "reward": "character.character.title.484",
             "patch": "5.18",
             "points": 10,
-            "cPrev": [2461, 2462, 2463],
+            "cPrev": ["a.2461", "a.2462", "a.2463"],
             "cSiblings": ["character.character.title.484"],
-            "cCombo": [2476]
+            "cCombo": ["a.2476"]
         },
         "x2475": {
             "name_en": "Masked Conqueror",
@@ -1350,9 +1350,9 @@
             "reward": "character.character.title.485",
             "patch": "5.18",
             "points": 10,
-            "cPrev": [2471, 2472, 2473],
+            "cPrev": ["a.2471", "a.2472", "a.2473"],
             "cSiblings": ["character.character.title.485"],
-            "cCombo": [2476]
+            "cCombo": ["a.2476"]
         },
         "x2476": {
             "name_en": "True Blue",
@@ -1362,7 +1362,7 @@
             "reward": "character.mount-guide.127",
             "patch": "5.18",
             "points": 10,
-            "cPrev": [2474, 2475]
+            "cPrev": ["a.2474", "a.2475"]
         },
         "x2729": {
             "name_en": "Mightier than the Revel",
@@ -1427,7 +1427,7 @@
             "description_fr": "Finir “Deltastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.45",
             "points": 5,
-            "cCombo": [2739]
+            "cCombo": ["a.2739"]
         },
         "x2737": {
             "name_en": "Mightier than the Sigma",
@@ -1436,7 +1436,7 @@
             "description_fr": "Finir “Sigmastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.45",
             "points": 5,
-            "cCombo": [2739]
+            "cCombo": ["a.2739"]
         },
         "x2738": {
             "name_en": "Mightier than the Alpha",
@@ -1445,7 +1445,7 @@
             "description_fr": "Finir “Alphastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.45",
             "points": 5,
-            "cCombo": [2739]
+            "cCombo": ["a.2739"]
         },
         "x2739": {
             "name_en": "Omega Blue",
@@ -1455,7 +1455,7 @@
             "reward": "character.character.title.552",
             "patch": "5.45",
             "points": 10,
-            "cPrev": [2736, 2737, 2738],
+            "cPrev": ["a.2736", "a.2737", "a.2738"],
             "cSiblings": ["character.character.title.552"]
         },
         "x3320": {
@@ -1513,7 +1513,7 @@
             "description_fr": "Finir “L'Éveil d'Éden (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "6.4",
             "points": 5,
-            "cCombo": [3330]
+            "cCombo": ["a.3330"]
         },
         "x3328": {
             "name_en": "Mightier than the Verse",
@@ -1522,7 +1522,7 @@
             "description_fr": "Finir “Les Accords d'Éden (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "6.4",
             "points": 5,
-            "cCombo": [3330]
+            "cCombo": ["a.3330"]
         },
         "x3329": {
             "name_en": "Mightier than the Promise",
@@ -1531,7 +1531,7 @@
             "description_fr": "Finir “La Promesse d'Éden (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "6.4",
             "points": 5,
-            "cCombo": [3330]
+            "cCombo": ["a.3330"]
         },
         "x3330": {
             "name_en": "Bluetopia",
@@ -1540,7 +1540,7 @@
             "description_fr": "Accomplir les trois hauts faits de la série “Des bleus pour Éden”.",
             "patch": "6.4",
             "points": 5,
-            "cPrev": [3327, 3328, 3329],
+            "cPrev": ["a.3327", "a.3328", "a.3329"],
             "cSiblings": ["character.character.title.694"]
         }
     }

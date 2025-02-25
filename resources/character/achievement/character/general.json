@@ -21,7 +21,7 @@
                 ]
             },
             "cSiblings": ["character.character.title.13"],
-            "cCombo": [56]
+            "cCombo": ["a.56"]
         },
         "x55": {
             "name_en": "Mastering Magic I",
@@ -40,7 +40,7 @@
                 ]
             },
             "cSiblings": ["character.character.title.14"],
-            "cCombo": [56]
+            "cCombo": ["a.56"]
         },
         "x56": {
             "name_en": "A Life of Adventure I",
@@ -51,8 +51,8 @@
             "reward_fr": "Couronne d'expert",
             "patch": "2.0",
             "points": 30,
-            "cPrev": [44, 55],
-            "cCombo": [1190]
+            "cPrev": ["a.44", "a.55"],
+            "cCombo": ["a.1190"]
         },
         "x1188": {
             "name_en": "Mastering War II",
@@ -75,7 +75,7 @@
                 ]
             },
             "cSiblings": ["character.character.title.239"],
-            "cCombo": [1190]
+            "cCombo": ["a.1190"]
         },
         "x1189": {
             "name_en": "Mastering Magic II",
@@ -95,7 +95,7 @@
                 ]
             },
             "cSiblings": ["character.character.title.240"],
-            "cCombo": [1190]
+            "cCombo": ["a.1190"]
         },
         "x1190": {
             "name_en": "A Life of Adventure II",
@@ -106,8 +106,8 @@
             "reward_fr": "Couronne de seigneur de guerre",
             "patch": "3.0",
             "points": 30,
-            "cPrev": [56, 1188, 1189],
-            "cCombo": [1834]
+            "cPrev": ["a.56", "a.1188", "a.1189"],
+            "cCombo": ["a.1834"]
         },
         "x1832": {
             "name_en": "Mastering War III",
@@ -131,7 +131,7 @@
                 ]
             },
             "cSiblings": ["character.character.title.375"],
-            "cCombo": [1834]
+            "cCombo": ["a.1834"]
         },
         "x1833": {
             "name_en": "Mastering Magic III",
@@ -152,7 +152,7 @@
                 ]
             },
             "cSiblings": ["character.character.title.376"],
-            "cCombo": [1834]
+            "cCombo": ["a.1834"]
         },
         "x1834": {
             "name_en": "A Life of Adventure III",
@@ -163,8 +163,8 @@
             "reward_fr": "Couronne de dynastie",
             "patch": "4.0",
             "points": 30,
-            "cPrev": [1190, 1832, 1833],
-            "cCombo": [2277]
+            "cPrev": ["a.1190", "a.1832", "a.1833"],
+            "cCombo": ["a.2277"]
         },
         "x2275": {
             "name_en": "Mastering War IV",
@@ -190,7 +190,7 @@
                 ]
             },
             "cSiblings": ["character.character.title.422"],
-            "cCombo": [2277]
+            "cCombo": ["a.2277"]
         },
         "x2276": {
             "name_en": "Mastering Magic IV",
@@ -211,7 +211,7 @@
                 ]
             },
             "cSiblings": ["character.character.title.423"],
-            "cCombo": [2277]
+            "cCombo": ["a.2277"]
         },
         "x2277": {
             "name_en": "A Life of Adventure IV",
@@ -221,8 +221,8 @@
             "reward": "character.mount-guide.7",
             "patch": "5.0",
             "points": 30,
-            "cPrev": [1834, 2275, 2276],
-            "cCombo": [2925]
+            "cPrev": ["a.1834", "a.2275", "a.2276"],
+            "cCombo": ["a.2925"]
         },
         "x2923": {
             "name_en": "Mastering War V",
@@ -249,7 +249,7 @@
                 ]
             },
             "cSiblings": ["character.character.title.593"],
-            "cCombo": [2925]
+            "cCombo": ["a.2925"]
         },
         "x2924": {
             "name_en": "Mastering Magic V",
@@ -271,7 +271,7 @@
                 ]
             },
             "cSiblings": ["character.character.title.594"],
-            "cCombo": [2925]
+            "cCombo": ["a.2925"]
         },
         "x2925": {
             "name_en": "A Life of Adventure V",
@@ -282,7 +282,7 @@
             "reward_fr": "Plumage des migrateurs",
             "patch": "6.0",
             "points": 30,
-            "cPrev": [2277, 2923, 2924]
+            "cPrev": ["a.2277", "a.2923", "a.2924"]
         },
         "x97": {
             "name_en": "Mastering the Hand I",
@@ -486,7 +486,7 @@
             "description_fr": "Envoyer son servant accomplir une tâche à 5 reprises.",
             "patch": "2.2",
             "points": 5,
-            "cNext": [913]
+            "cNext": ["a.913"]
         },
         "x913": {
             "name_en": "Can't Someone Else Do It II",
@@ -495,8 +495,8 @@
             "description_fr": "Envoyer son servant accomplir une tâche à 50 reprises.",
             "patch": "2.2",
             "points": 5,
-            "cPrev": [912],
-            "cNext": [914]
+            "cPrev": ["a.912"],
+            "cNext": ["a.914"]
         },
         "x914": {
             "name_en": "Can't Someone Else Do It III",
@@ -505,8 +505,8 @@
             "description_fr": "Envoyer son servant accomplir une tâche à 100 reprises.",
             "patch": "2.2",
             "points": 10,
-            "cPrev": [913],
-            "cNext": [915]
+            "cPrev": ["a.913"],
+            "cNext": ["a.915"]
         },
         "x915": {
             "name_en": "Nothing Ventured, Nothing Gained",
@@ -515,7 +515,7 @@
             "description_fr": "Envoyer son servant accomplir une tâche à 500 reprises.",
             "patch": "2.2",
             "points": 20,
-            "cPrev": [914]
+            "cPrev": ["a.914"]
         },
         "x1020": {
             "name_en": "Breaking Bo",
@@ -534,7 +534,7 @@
             "patch": "3.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.hw.coerthas-western-highlands.all"],
-            "cCombo": [1163]
+            "cCombo": ["a.1163"]
         },
         "x1158": {
             "name_en": "Freebird: Dravanian Forelands",
@@ -544,7 +544,7 @@
             "patch": "3.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.hw.the-dravanian-forelands.all"],
-            "cCombo": [1163]
+            "cCombo": ["a.1163"]
         },
         "x1159": {
             "name_en": "Freebird: Dravanian Hinterlands",
@@ -554,7 +554,7 @@
             "patch": "3.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.hw.the-dravanian-hinterlands.all"],
-            "cCombo": [1163]
+            "cCombo": ["a.1163"]
         },
         "x1160": {
             "name_en": "Freebird: Churning Mists",
@@ -564,7 +564,7 @@
             "patch": "3.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.hw.the-churning-mists.all"],
-            "cCombo": [1163]
+            "cCombo": ["a.1163"]
         },
         "x1161": {
             "name_en": "Freebird: Sea of Clouds",
@@ -574,7 +574,7 @@
             "patch": "3.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.hw.the-sea-of-clouds.all"],
-            "cCombo": [1163]
+            "cCombo": ["a.1163"]
         },
         "x1162": {
             "name_en": "Freebird: Azys Lla",
@@ -584,7 +584,7 @@
             "patch": "3.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.hw.azys-lla.all"],
-            "cCombo": [1163]
+            "cCombo": ["a.1163"]
         },
         "x1163": {
             "name_en": "Frequent Flyer I",
@@ -593,7 +593,7 @@
             "description_fr": "S'harmoniser avec tous les vents éthérés des Hautes terres du Coerthas occidental, de l'Avant-pays dravanien, de l'Arrière-pays dravanien, de L'Écume des cieux de Dravania, de L'Écume des cieux d'Abalathia et d'Azys Lla.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [1157, 1158, 1159, 1160, 1161, 1162]
+            "cPrev": ["a.1157", "a.1158", "a.1159", "a.1160", "a.1161", "a.1162"]
         },
         "x1870": {
             "name_en": "Freebird: The Fringes",
@@ -603,7 +603,7 @@
             "patch": "4.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.sb.the-fringes.all"],
-            "cCombo": [1876]
+            "cCombo": ["a.1876"]
         },
         "x1871": {
             "name_en": "Freebird: The Peaks",
@@ -613,7 +613,7 @@
             "patch": "4.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.sb.the-peaks.all"],
-            "cCombo": [1876]
+            "cCombo": ["a.1876"]
         },
         "x1872": {
             "name_en": "Freebird: The Lochs",
@@ -623,7 +623,7 @@
             "patch": "4.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.sb.the-lochs.all"],
-            "cCombo": [1876]
+            "cCombo": ["a.1876"]
         },
         "x1873": {
             "name_en": "Freebird: The Ruby Sea",
@@ -633,7 +633,7 @@
             "patch": "4.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.sb.the-ruby-sea.all"],
-            "cCombo": [1876]
+            "cCombo": ["a.1876"]
         },
         "x1874": {
             "name_en": "Freebird: Yanxia",
@@ -643,7 +643,7 @@
             "patch": "4.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.sb.yanxia.all"],
-            "cCombo": [1876]
+            "cCombo": ["a.1876"]
         },
         "x1875": {
             "name_en": "Freebird: The Azim Steppe",
@@ -653,7 +653,7 @@
             "patch": "4.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.sb.the-azim-steppe.all"],
-            "cCombo": [1876]
+            "cCombo": ["a.1876"]
         },
         "x1876": {
             "name_en": "Frequent Flyer II",
@@ -662,7 +662,7 @@
             "description_fr": "S'harmoniser avec tous les vents éthérés des Marges, des Pics, des Lacs, de la Mer de Rubis, de Yanxia et de la Steppe d'Azim.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [1870, 1871, 1872, 1873, 1874, 1875]
+            "cPrev": ["a.1870", "a.1871", "a.1872", "a.1873", "a.1874", "a.1875"]
         },
         "x2329": {
             "name_en": "Freebird: Lakeland",
@@ -672,7 +672,7 @@
             "patch": "5.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.shb.lakeland.all"],
-            "cCombo": [2335]
+            "cCombo": ["a.2335"]
         },
         "x2330": {
             "name_en": "Freebird: Kholusia",
@@ -682,7 +682,7 @@
             "patch": "5.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.shb.kholusia.all"],
-            "cCombo": [2335]
+            "cCombo": ["a.2335"]
         },
         "x2331": {
             "name_en": "Freebird: Amh Araeng",
@@ -692,7 +692,7 @@
             "patch": "5.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.shb.amh-araeng.all"],
-            "cCombo": [2335]
+            "cCombo": ["a.2335"]
         },
         "x2332": {
             "name_en": "Freebird: Il Mheg",
@@ -702,7 +702,7 @@
             "patch": "5.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.shb.il-mheg.all"],
-            "cCombo": [2335]
+            "cCombo": ["a.2335"]
         },
         "x2333": {
             "name_en": "Freebird: The Rak'tika Greatwood",
@@ -712,7 +712,7 @@
             "patch": "5.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.shb.the-raktika-greatwood.all"],
-            "cCombo": [2335]
+            "cCombo": ["a.2335"]
         },
         "x2334": {
             "name_en": "Freebird: The Tempest",
@@ -722,7 +722,7 @@
             "patch": "5.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.shb.the-tempest.all"],
-            "cCombo": [2335]
+            "cCombo": ["a.2335"]
         },
         "x2335": {
             "name_en": "Frequent Flyer III",
@@ -731,7 +731,7 @@
             "description_fr": "S'harmoniser avec tous les vents éthérés de Grand-Lac, de Kholusia, de l'Amh Araeng, de l'Il Mheg, de Rak'tika et de La Tempête.",
             "patch": "5.0",
             "points": 10,
-            "cPrev": [2329, 2330, 2331, 2332, 2333, 2334]
+            "cPrev": ["a.2329", "a.2330", "a.2331", "a.2332", "a.2333", "a.2334"]
         },
         "x3003": {
             "name_en": "Freebird: Labyrinthos",
@@ -741,7 +741,7 @@
             "patch": "6.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.ew.labyrinthos.all"],
-            "cCombo": [3009]
+            "cCombo": ["a.3009"]
         },
         "x3004": {
             "name_en": "Freebird: Thavnair",
@@ -751,7 +751,7 @@
             "patch": "6.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.ew.thavnair.all"],
-            "cCombo": [3009]
+            "cCombo": ["a.3009"]
         },
         "x3005": {
             "name_en": "Freebird: Garlemald",
@@ -761,7 +761,7 @@
             "patch": "6.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.ew.garlemald.all"],
-            "cCombo": [3009]
+            "cCombo": ["a.3009"]
         },
         "x3006": {
             "name_en": "Freebird: Mare Lamentorum",
@@ -771,7 +771,7 @@
             "patch": "6.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.ew.mare-lamentorum.all"],
-            "cCombo": [3009]
+            "cCombo": ["a.3009"]
         },
         "x3007": {
             "name_en": "Freebird: Elpis",
@@ -781,7 +781,7 @@
             "patch": "6.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.ew.elpis.all"],
-            "cCombo": [3009]
+            "cCombo": ["a.3009"]
         },
         "x3008": {
             "name_en": "Freebird: Ultima Thule",
@@ -791,7 +791,7 @@
             "patch": "6.0",
             "points": 5,
             "cPrev": ["travel.aether-currents.ew.ultima-thule.all"],
-            "cCombo": [3009]
+            "cCombo": ["a.3009"]
         },
         "x3009": {
             "name_en": "Frequent Flyer IV",
@@ -800,7 +800,7 @@
             "description_fr": "S'harmoniser avec tous les vents éthérés du Labyrinthos, de Thavnair, de Garlemald, de Mare Lamentorum, d'Elpis et d'Ultima Thulé.",
             "patch": "6.0",
             "points": 10,
-            "cPrev": [3003, 3004, 3005, 3006, 3007, 3008]
+            "cPrev": ["a.3003", "a.3004", "a.3005", "a.3006", "a.3007", "a.3008"]
         },
         "x1472": {
             "name_en": "I Hope Mentor Will Notice Me I",
@@ -809,7 +809,7 @@
             "description_fr": "Réussir 10 missions avec la “mission aléatoire: mentor”.",
             "patch": "3.15",
             "points": 5,
-            "cNext": [1473]
+            "cNext": ["a.1473"]
         },
         "x1473": {
             "name_en": "I Hope Mentor Will Notice Me II",
@@ -819,8 +819,8 @@
             "reward": "character.character.title.286",
             "patch": "3.15",
             "points": 5,
-            "cPrev": [1472],
-            "cNext": [1474],
+            "cPrev": ["a.1472"],
+            "cNext": ["a.1474"],
             "cSiblings": ["character.character.title.286"]
         },
         "x1474": {
@@ -832,8 +832,8 @@
             "reward_fr": "Casquette à lunettes d'expédition",
             "patch": "3.15",
             "points": 5,
-            "cPrev": [1473],
-            "cNext": [1475]
+            "cPrev": ["a.1473"],
+            "cNext": ["a.1475"]
         },
         "x1475": {
             "name_en": "I Hope Mentor Will Notice Me IV",
@@ -843,8 +843,8 @@
             "reward": "character.character.title.287",
             "patch": "3.15",
             "points": 5,
-            "cPrev": [1474],
-            "cNext": [1603],
+            "cPrev": ["a.1474"],
+            "cNext": ["a.1603"],
             "cSiblings": ["character.character.title.287"]
         },
         "x1603": {
@@ -856,8 +856,8 @@
             "reward_fr": "Monocle dragon",
             "patch": "3.3",
             "points": 10,
-            "cPrev": [1475],
-            "cNext": [1604]
+            "cPrev": ["a.1475"],
+            "cNext": ["a.1604"]
         },
         "x1604": {
             "name_en": "I Hope Mentor Will Notice Me VI",
@@ -867,7 +867,7 @@
             "reward": "character.mount-guide.12",
             "patch": "3.3",
             "points": 20,
-            "cPrev": [1603]
+            "cPrev": ["a.1603"]
         },
         "x1648": {
             "name_en": "And Khloe Was Her Name-o I",
@@ -876,7 +876,7 @@
             "description_fr": "Obtenir 1 récompense des Aventures imaginaires de Khloe.",
             "patch": "3.4",
             "points": 5,
-            "cNext": [1649]
+            "cNext": ["a.1649"]
         },
         "x1649": {
             "name_en": "And Khloe Was Her Name-o II",
@@ -886,8 +886,8 @@
             "reward": "character.character.title.317",
             "patch": "3.4",
             "points": 5,
-            "cPrev": [1648],
-            "cNext": [1650],
+            "cPrev": ["a.1648"],
+            "cNext": ["a.1650"],
             "cSiblings": ["character.character.title.317"]
         },
         "x1650": {
@@ -897,8 +897,8 @@
             "description_fr": "Obtenir 10 récompenses des Aventures imaginaires de Khloe.",
             "patch": "3.4",
             "points": 5,
-            "cPrev": [1649],
-            "cNext": [1651]
+            "cPrev": ["a.1649"],
+            "cNext": ["a.1651"]
         },
         "x1651": {
             "name_en": "And Khloe Was Her Name-o IV",
@@ -907,8 +907,8 @@
             "description_fr": "Obtenir 20 récompenses des Aventures imaginaires de Khloe.",
             "patch": "3.4",
             "points": 5,
-            "cPrev": [1650],
-            "cNext": [1652]
+            "cPrev": ["a.1650"],
+            "cNext": ["a.1652"]
         },
         "x1652": {
             "name_en": "And Khloe Was Her Name-o V",
@@ -917,8 +917,8 @@
             "description_fr": "Obtenir 30 récompenses des Aventures imaginaires de Khloe.",
             "patch": "3.4",
             "points": 5,
-            "cPrev": [1651],
-            "cNext": [1653]
+            "cPrev": ["a.1651"],
+            "cNext": ["a.1653"]
         },
         "x1653": {
             "name_en": "And Khloe Was Her Name-o VI",
@@ -927,8 +927,8 @@
             "description_fr": "Obtenir 40 récompenses des Aventures imaginaires de Khloe.",
             "patch": "3.4",
             "points": 5,
-            "cPrev": [1652],
-            "cNext": [1654]
+            "cPrev": ["a.1652"],
+            "cNext": ["a.1654"]
         },
         "x1654": {
             "name_en": "And Khloe Was Her Name-o VII",
@@ -938,7 +938,7 @@
             "reward": "character.character.title.318",
             "patch": "3.4",
             "points": 10,
-            "cPrev": [1653],
+            "cPrev": ["a.1653"],
             "cSiblings": ["character.character.title.318"]
         },
         "x2634": {
@@ -948,7 +948,7 @@
             "description_fr": "Jouer pour la première fois à Touché-tourné.",
             "patch": "5.3",
             "points": 5,
-            "cNext": [2635]
+            "cNext": ["a.2635"]
         },
         "x2635": {
             "name_en": "Friend or Faux II",
@@ -958,8 +958,8 @@
             "reward": "character.character.title.524",
             "patch": "5.3",
             "points": 5,
-            "cPrev": [2634],
-            "cNext": [2636],
+            "cPrev": ["a.2634"],
+            "cNext": ["a.2636"],
             "cSiblings": ["character.character.title.524"]
         },
         "x2636": {
@@ -969,8 +969,8 @@
             "description_fr": "Jouer 20 fois à Touché-tourné.",
             "patch": "5.3",
             "points": 5,
-            "cPrev": [2635],
-            "cNext": [2637]
+            "cPrev": ["a.2635"],
+            "cNext": ["a.2637"]
         },
         "x2637": {
             "name_en": "Friend or Faux IV",
@@ -980,7 +980,7 @@
             "reward": "character.character.title.525",
             "patch": "5.3",
             "points": 10,
-            "cPrev": [2636],
+            "cPrev": ["a.2636"],
             "cSiblings": ["character.character.title.525"]
         },
         "x1774": {
@@ -990,7 +990,7 @@
             "description_fr": "Atteindre le rang 1 de satisfaction auprès de Zhloe Aliapoh.",
             "patch": "3.55b",
             "points": 5,
-            "cNext": [1775]
+            "cNext": ["a.1775"]
         },
         "x1775": {
             "name_en": "Satisfaction Guaranteed: Zhloe Aliapoh II",
@@ -999,8 +999,8 @@
             "description_fr": "Atteindre le rang 2 de satisfaction auprès de Zhloe Aliapoh.",
             "patch": "3.55b",
             "points": 5,
-            "cPrev": [1774],
-            "cNext": [1776]
+            "cPrev": ["a.1774"],
+            "cNext": ["a.1776"]
         },
         "x1776": {
             "name_en": "Satisfaction Guaranteed: Zhloe Aliapoh III",
@@ -1009,8 +1009,8 @@
             "description_fr": "Atteindre le rang 3 de satisfaction auprès de Zhloe Aliapoh.",
             "patch": "3.55b",
             "points": 5,
-            "cPrev": [1775],
-            "cNext": [1777]
+            "cPrev": ["a.1775"],
+            "cNext": ["a.1777"]
         },
         "x1777": {
             "name_en": "Satisfaction Guaranteed: Zhloe Aliapoh IV",
@@ -1019,8 +1019,8 @@
             "description_fr": "Atteindre le rang 4 de satisfaction auprès de Zhloe Aliapoh.",
             "patch": "3.55b",
             "points": 5,
-            "cPrev": [1776],
-            "cNext": [1778]
+            "cPrev": ["a.1776"],
+            "cNext": ["a.1778"]
         },
         "x1778": {
             "name_en": "Satisfaction Guaranteed: Zhloe Aliapoh V",
@@ -1030,7 +1030,7 @@
             "reward": "character.character.title.349",
             "patch": "3.55b",
             "points": 10,
-            "cPrev": [1777],
+            "cPrev": ["a.1777"],
             "cSiblings": ["character.character.title.349"]
         },
         "x1969": {
@@ -1040,7 +1040,7 @@
             "description_fr": "Atteindre le rang 1 de satisfaction auprès de M'naago.",
             "patch": "4.1",
             "points": 5,
-            "cNext": [1970]
+            "cNext": ["a.1970"]
         },
         "x1970": {
             "name_en": "Satisfaction Guaranteed: M'naago II",
@@ -1049,8 +1049,8 @@
             "description_fr": "Atteindre le rang 2 de satisfaction auprès de M'naago.",
             "patch": "4.1",
             "points": 5,
-            "cPrev": [1969],
-            "cNext": [1971]
+            "cPrev": ["a.1969"],
+            "cNext": ["a.1971"]
         },
         "x1971": {
             "name_en": "Satisfaction Guaranteed: M'naago III",
@@ -1059,8 +1059,8 @@
             "description_fr": "Atteindre le rang 3 de satisfaction auprès de M'naago.",
             "patch": "4.1",
             "points": 5,
-            "cPrev": [1970],
-            "cNext": [1972]
+            "cPrev": ["a.1970"],
+            "cNext": ["a.1972"]
         },
         "x1972": {
             "name_en": "Satisfaction Guaranteed: M'naago IV",
@@ -1069,8 +1069,8 @@
             "description_fr": "Atteindre le rang 4 de satisfaction auprès de M'naago.",
             "patch": "4.1",
             "points": 5,
-            "cPrev": [1971],
-            "cNext": [1973]
+            "cPrev": ["a.1971"],
+            "cNext": ["a.1973"]
         },
         "x1973": {
             "name_en": "Satisfaction Guaranteed: M'naago V",
@@ -1080,7 +1080,7 @@
             "reward": "character.character.title.118",
             "patch": "4.1",
             "points": 10,
-            "cPrev": [1972],
+            "cPrev": ["a.1972"],
             "cSiblings": ["character.character.title.118"]
         },
         "x2067": {
@@ -1090,7 +1090,7 @@
             "description_fr": "Atteindre le rang 1 de satisfaction auprès de Kurenai.",
             "patch": "4.3",
             "points": 5,
-            "cNext": [2068]
+            "cNext": ["a.2068"]
         },
         "x2068": {
             "name_en": "Satisfaction Guaranteed: Kurenai II",
@@ -1099,8 +1099,8 @@
             "description_fr": "Atteindre le rang 2 de satisfaction auprès de Kurenai.",
             "patch": "4.3",
             "points": 5,
-            "cPrev": [2067],
-            "cNext": [2069]
+            "cPrev": ["a.2067"],
+            "cNext": ["a.2069"]
         },
         "x2069": {
             "name_en": "Satisfaction Guaranteed: Kurenai III",
@@ -1109,8 +1109,8 @@
             "description_fr": "Atteindre le rang 3 de satisfaction auprès de Kurenai.",
             "patch": "4.3",
             "points": 5,
-            "cPrev": [2068],
-            "cNext": [2070]
+            "cPrev": ["a.2068"],
+            "cNext": ["a.2070"]
         },
         "x2070": {
             "name_en": "Satisfaction Guaranteed: Kurenai IV",
@@ -1119,8 +1119,8 @@
             "description_fr": "Atteindre le rang 4 de satisfaction auprès de Kurenai.",
             "patch": "4.3",
             "points": 5,
-            "cPrev": [2069],
-            "cNext": [2071]
+            "cPrev": ["a.2069"],
+            "cNext": ["a.2071"]
         },
         "x2071": {
             "name_en": "Satisfaction Guaranteed: Kurenai V",
@@ -1130,7 +1130,7 @@
             "reward": "character.character.title.390",
             "patch": "4.3",
             "points": 10,
-            "cPrev": [2070],
+            "cPrev": ["a.2070"],
             "cSiblings": ["character.character.title.390"]
         },
         "x2183": {
@@ -1140,7 +1140,7 @@
             "description_fr": "Atteindre le rang 1 de satisfaction auprès d'Adkiragh.",
             "patch": "4.5",
             "points": 5,
-            "cNext": [2184]
+            "cNext": ["a.2184"]
         },
         "x2184": {
             "name_en": "Satisfaction Guaranteed: Adkiragh II",
@@ -1149,8 +1149,8 @@
             "description_fr": "Atteindre le rang 2 de satisfaction auprès d'Adkiragh.",
             "patch": "4.5",
             "points": 5,
-            "cPrev": [2183],
-            "cNext": [2185]
+            "cPrev": ["a.2183"],
+            "cNext": ["a.2185"]
         },
         "x2185": {
             "name_en": "Satisfaction Guaranteed: Adkiragh III",
@@ -1159,8 +1159,8 @@
             "description_fr": "Atteindre le rang 3 de satisfaction auprès d'Adkiragh.",
             "patch": "4.5",
             "points": 5,
-            "cPrev": [2184],
-            "cNext": [2186]
+            "cPrev": ["a.2184"],
+            "cNext": ["a.2186"]
         },
         "x2186": {
             "name_en": "Satisfaction Guaranteed: Adkiragh IV",
@@ -1169,8 +1169,8 @@
             "description_fr": "Atteindre le rang 4 de satisfaction auprès d'Adkiragh.",
             "patch": "4.5",
             "points": 5,
-            "cPrev": [2185],
-            "cNext": [2187]
+            "cPrev": ["a.2185"],
+            "cNext": ["a.2187"]
         },
         "x2187": {
             "name_en": "Satisfaction Guaranteed: Adkiragh V",
@@ -1180,7 +1180,7 @@
             "reward": "character.character.title.411",
             "patch": "4.5",
             "points": 10,
-            "cPrev": [2186],
+            "cPrev": ["a.2186"],
             "cSiblings": ["character.character.title.411"]
         },
         "x2425": {
@@ -1190,7 +1190,7 @@
             "description_fr": "Atteindre le rang 1 de satisfaction auprès de Kai-Shirr.",
             "patch": "5.1",
             "points": 5,
-            "cNext": [2426]
+            "cNext": ["a.2426"]
         },
         "x2426": {
             "name_en": "Satisfaction Guaranteed: Kai-Shirr II",
@@ -1199,8 +1199,8 @@
             "description_fr": "Atteindre le rang 2 de satisfaction auprès de Kai-Shirr.",
             "patch": "5.1",
             "points": 5,
-            "cPrev": [2425],
-            "cNext": [2427]
+            "cPrev": ["a.2425"],
+            "cNext": ["a.2427"]
         },
         "x2427": {
             "name_en": "Satisfaction Guaranteed: Kai-Shirr III",
@@ -1209,8 +1209,8 @@
             "description_fr": "Atteindre le rang 3 de satisfaction auprès de Kai-Shirr.",
             "patch": "5.1",
             "points": 5,
-            "cPrev": [2426],
-            "cNext": [2428]
+            "cPrev": ["a.2426"],
+            "cNext": ["a.2428"]
         },
         "x2428": {
             "name_en": "Satisfaction Guaranteed: Kai-Shirr IV",
@@ -1219,8 +1219,8 @@
             "description_fr": "Atteindre le rang 4 de satisfaction auprès de Kai-Shirr.",
             "patch": "5.1",
             "points": 5,
-            "cPrev": [2427],
-            "cNext": [2429]
+            "cPrev": ["a.2427"],
+            "cNext": ["a.2429"]
         },
         "x2429": {
             "name_en": "Satisfaction Guaranteed: Kai-Shirr V",
@@ -1230,7 +1230,7 @@
             "reward": "character.character.title.477",
             "patch": "5.1",
             "points": 10,
-            "cPrev": [2428],
+            "cPrev": ["a.2428"],
             "cSiblings": ["character.character.title.477"]
         },
         "x2623": {
@@ -1240,7 +1240,7 @@
             "description_fr": "Atteindre le rang 1 de satisfaction auprès d'Ehll Tou.",
             "patch": "5.3",
             "points": 5,
-            "cNext": [2624]
+            "cNext": ["a.2624"]
         },
         "x2624": {
             "name_en": "Satisfaction Guaranteed: Ehll Tou II",
@@ -1249,8 +1249,8 @@
             "description_fr": "Atteindre le rang 2 de satisfaction auprès d'Ehll Tou.",
             "patch": "5.3",
             "points": 5,
-            "cPrev": [2623],
-            "cNext": [2625]
+            "cPrev": ["a.2623"],
+            "cNext": ["a.2625"]
         },
         "x2625": {
             "name_en": "Satisfaction Guaranteed: Ehll Tou III",
@@ -1259,8 +1259,8 @@
             "description_fr": "Atteindre le rang 3 de satisfaction auprès d'Ehll Tou.",
             "patch": "5.3",
             "points": 5,
-            "cPrev": [2624],
-            "cNext": [2626]
+            "cPrev": ["a.2624"],
+            "cNext": ["a.2626"]
         },
         "x2626": {
             "name_en": "Satisfaction Guaranteed: Ehll Tou IV",
@@ -1269,8 +1269,8 @@
             "description_fr": "Atteindre le rang 4 de satisfaction auprès d'Ehll Tou.",
             "patch": "5.3",
             "points": 5,
-            "cPrev": [2625],
-            "cNext": [2627]
+            "cPrev": ["a.2625"],
+            "cNext": ["a.2627"]
         },
         "x2627": {
             "name_en": "Satisfaction Guaranteed: Ehll Tou V",
@@ -1280,7 +1280,7 @@
             "reward": "character.character.title.522",
             "patch": "5.3",
             "points": 10,
-            "cPrev": [2626],
+            "cPrev": ["a.2626"],
             "cSiblings": ["character.character.title.522"]
         },
         "x2835": {
@@ -1290,7 +1290,7 @@
             "description_fr": "Atteindre le rang 1 de satisfaction auprès du comte de Durendaire.",
             "patch": "5.5",
             "points": 5,
-            "cNext": [2836]
+            "cNext": ["a.2836"]
         },
         "x2836": {
             "name_en": "Satisfaction Guaranteed: Charlemend II",
@@ -1299,8 +1299,8 @@
             "description_fr": "Atteindre le rang 2 de satisfaction auprès du comte de Durendaire.",
             "patch": "5.5",
             "points": 5,
-            "cPrev": [2835],
-            "cNext": [2837]
+            "cPrev": ["a.2835"],
+            "cNext": ["a.2837"]
         },
         "x2837": {
             "name_en": "Satisfaction Guaranteed: Charlemend III",
@@ -1309,8 +1309,8 @@
             "description_fr": "Atteindre le rang 3 de satisfaction auprès du comte de Durendaire.",
             "patch": "5.5",
             "points": 5,
-            "cPrev": [2836],
-            "cNext": [2838]
+            "cPrev": ["a.2836"],
+            "cNext": ["a.2838"]
         },
         "x2838": {
             "name_en": "Satisfaction Guaranteed: Charlemend IV",
@@ -1319,8 +1319,8 @@
             "description_fr": "Atteindre le rang 4 de satisfaction auprès du comte de Durendaire.",
             "patch": "5.5",
             "points": 5,
-            "cPrev": [2837],
-            "cNext": [2839]
+            "cPrev": ["a.2837"],
+            "cNext": ["a.2839"]
         },
         "x2839": {
             "name_en": "Satisfaction Guaranteed: Charlemend V",
@@ -1330,7 +1330,7 @@
             "reward": "character.character.title.581",
             "patch": "5.5",
             "points": 10,
-            "cPrev": [2838],
+            "cPrev": ["a.2838"],
             "cSiblings": ["character.character.title.581"]
         },
         "x3059": {
@@ -1340,7 +1340,7 @@
             "description_fr": "Atteindre le rang 1 de satisfaction auprès d'Ameliance.",
             "patch": "6.15",
             "points": 5,
-            "cNext": [3060]
+            "cNext": ["a.3060"]
         },
         "x3060": {
             "name_en": "Satisfaction Guaranteed: Ameliance II",
@@ -1349,8 +1349,8 @@
             "description_fr": "Atteindre le rang 2 de satisfaction auprès d'Ameliance.",
             "patch": "6.15",
             "points": 5,
-            "cPrev": [3059],
-            "cNext": [3061]
+            "cPrev": ["a.3059"],
+            "cNext": ["a.3061"]
         },
         "x3061": {
             "name_en": "Satisfaction Guaranteed: Ameliance III",
@@ -1359,8 +1359,8 @@
             "description_fr": "Atteindre le rang 3 de satisfaction auprès d'Ameliance.",
             "patch": "6.15",
             "points": 5,
-            "cPrev": [3060],
-            "cNext": [3062]
+            "cPrev": ["a.3060"],
+            "cNext": ["a.3062"]
         },
         "x3062": {
             "name_en": "Satisfaction Guaranteed: Ameliance IV",
@@ -1369,8 +1369,8 @@
             "description_fr": "Atteindre le rang 4 de satisfaction auprès d'Ameliance.",
             "patch": "6.15",
             "points": 5,
-            "cPrev": [3061],
-            "cNext": [3063]
+            "cPrev": ["a.3061"],
+            "cNext": ["a.3063"]
         },
         "x3063": {
             "name_en": "Satisfaction Guaranteed: Ameliance V",
@@ -1380,7 +1380,7 @@
             "reward": "character.character.title.634",
             "patch": "6.15",
             "points": 10,
-            "cPrev": [3062],
+            "cPrev": ["a.3062"],
             "cSiblings": ["character.character.title.634"]
         },
         "x3163": {
@@ -1390,7 +1390,7 @@
             "description_fr": "Atteindre le rang 1 de satisfaction auprès d'Anden.",
             "patch": "6.3",
             "points": 5,
-            "cNext": [3164]
+            "cNext": ["a.3164"]
         },
         "x3164": {
             "name_en": "Satisfaction Guaranteed: Anden II",
@@ -1399,8 +1399,8 @@
             "description_fr": "Atteindre le rang 2 de satisfaction auprès d'Anden.",
             "patch": "6.3",
             "points": 5,
-            "cPrev": [3163],
-            "cNext": [3165]
+            "cPrev": ["a.3163"],
+            "cNext": ["a.3165"]
         },
         "x3165": {
             "name_en": "Satisfaction Guaranteed: Anden III",
@@ -1409,8 +1409,8 @@
             "description_fr": "Atteindre le rang 3 de satisfaction auprès d'Anden.",
             "patch": "6.3",
             "points": 5,
-            "cPrev": [3164],
-            "cNext": [3166]
+            "cPrev": ["a.3164"],
+            "cNext": ["a.3166"]
         },
         "x3166": {
             "name_en": "Satisfaction Guaranteed: Anden IV",
@@ -1419,8 +1419,8 @@
             "description_fr": "Atteindre le rang 4 de satisfaction auprès d'Anden.",
             "patch": "6.3",
             "points": 5,
-            "cPrev": [3165],
-            "cNext": [3167]
+            "cPrev": ["a.3165"],
+            "cNext": ["a.3167"]
         },
         "x3167": {
             "name_en": "Satisfaction Guaranteed: Anden V",
@@ -1430,7 +1430,7 @@
             "reward": "character.character.title.659",
             "patch": "6.3",
             "points": 10,
-            "cPrev": [3166],
+            "cPrev": ["a.3166"],
             "cSiblings": ["character.character.title.659"]
         },
         "x3351": {
@@ -1440,7 +1440,7 @@
             "description_fr": "Atteindre le rang 1 de satisfaction auprès de Margrat.",
             "patch": "6.5",
             "points": 5,
-            "cNext": [3352]
+            "cNext": ["a.3352"]
         },
         "x3352": {
             "name_en": "Satisfaction Guaranteed: Margrat II",
@@ -1449,8 +1449,8 @@
             "description_fr": "Atteindre le rang 2 de satisfaction auprès de Margrat.",
             "patch": "6.5",
             "points": 5,
-            "cPrev": [3351],
-            "cNext": [3353]
+            "cPrev": ["a.3351"],
+            "cNext": ["a.3353"]
         },
         "x3353": {
             "name_en": "Satisfaction Guaranteed: Margrat III",
@@ -1459,8 +1459,8 @@
             "description_fr": "Atteindre le rang 3 de satisfaction auprès de Margrat.",
             "patch": "6.5",
             "points": 5,
-            "cPrev": [3352],
-            "cNext": [3354]
+            "cPrev": ["a.3352"],
+            "cNext": ["a.3354"]
         },
         "x3354": {
             "name_en": "Satisfaction Guaranteed: Margrat IV",
@@ -1469,8 +1469,8 @@
             "description_fr": "Atteindre le rang 4 de satisfaction auprès de Margrat.",
             "patch": "6.5",
             "points": 5,
-            "cPrev": [3353],
-            "cNext": [3355]
+            "cPrev": ["a.3353"],
+            "cNext": ["a.3355"]
         },
         "x3355": {
             "name_en": "Satisfaction Guaranteed: Margrat V",
@@ -1480,7 +1480,7 @@
             "reward": "character.character.title.699",
             "patch": "6.5",
             "points": 10,
-            "cPrev": [3354]
+            "cPrev": ["a.3354"]
         },
         "x2001": {
             "name_en": "You Look Marvelous I",
@@ -1489,7 +1489,7 @@
             "description_fr": "Obtenir une note supérieure à 80 à la Revue de mode.",
             "patch": "4.2",
             "points": 5,
-            "cNext": [2002]
+            "cNext": ["a.2002"]
         },
         "x2002": {
             "name_en": "You Look Marvelous II",
@@ -1498,8 +1498,8 @@
             "description_fr": "Obtenir une note supérieure à 90 à la Revue de mode.",
             "patch": "4.2",
             "points": 5,
-            "cPrev": [2001],
-            "cNext": [2003]
+            "cPrev": ["a.2001"],
+            "cNext": ["a.2003"]
         },
         "x2003": {
             "name_en": "You Look Marvelous III",
@@ -1509,7 +1509,7 @@
             "reward": "character.character.title.141",
             "patch": "4.2",
             "points": 10,
-            "cPrev": [2002],
+            "cPrev": ["a.2002"],
             "cSiblings": ["character.character.title.141"]
         },
         "x2080": {
@@ -1519,7 +1519,7 @@
             "description_fr": "Aider à reconstruire la première partie du quartier enclavé de Doma.",
             "patch": "4.3",
             "points": 5,
-            "cNext": [2081]
+            "cNext": ["a.2081"]
         },
         "x2081": {
             "name_en": "Bio-Doma II",
@@ -1528,8 +1528,8 @@
             "description_fr": "Aider à reconstruire la deuxième partie du quartier enclavé de Doma.",
             "patch": "4.3",
             "points": 10,
-            "cPrev": [2080],
-            "cNext": [2129]
+            "cPrev": ["a.2080"],
+            "cNext": ["a.2129"]
         },
         "x2129": {
             "name_en": "Bio-Doma III",
@@ -1538,8 +1538,8 @@
             "description_fr": "Aider à reconstruire la troisième partie du quartier enclavé de Doma.",
             "patch": "4.4",
             "points": 10,
-            "cPrev": [2081],
-            "cNext": [2130]
+            "cPrev": ["a.2081"],
+            "cNext": ["a.2130"]
         },
         "x2130": {
             "name_en": "Bio-Doma IV",
@@ -1548,8 +1548,8 @@
             "description_fr": "Aider à reconstruire la quatrième partie du quartier enclavé de Doma.",
             "patch": "4.4",
             "points": 10,
-            "cPrev": [2129],
-            "cNext": [2131]
+            "cPrev": ["a.2129"],
+            "cNext": ["a.2131"]
         },
         "x2131": {
             "name_en": "Bio-Doma V",
@@ -1559,7 +1559,7 @@
             "reward": "character.character.title.403",
             "patch": "4.4",
             "points": 20,
-            "cPrev": [2130],
+            "cPrev": ["a.2130"],
             "cSiblings": ["q.68689", "character.character.title.403"]
         },
         "x2336": {
@@ -1611,7 +1611,7 @@
             "reward": "character.character.title.645",
             "patch": "6.2",
             "points": 10,
-            "cNext": [3186],
+            "cNext": ["a.3186"],
             "cSiblings": ["character.character.title.645"]
         },
         "x3186": {
@@ -1621,8 +1621,8 @@
             "description_fr": "Atteindre le rang 12 sur la Félicité insulaire.",
             "patch": "6.3",
             "points": 10,
-            "cPrev": [3089],
-            "cNext": [3186]
+            "cPrev": ["a.3089"],
+            "cNext": ["a.3186"]
         },
         "x3254": {
             "name_en": "No Gods or Kings, Only Mammets",
@@ -1631,8 +1631,8 @@
             "description_fr": "Atteindre le rang 16 sur la Félicité insulaire.",
             "patch": "6.4",
             "points": 10,
-            "cPrev": [3186],
-            "cNext": [3399]
+            "cPrev": ["a.3186"],
+            "cNext": ["a.3399"]
         },
         "x3399": {
             "name_en": "Mammet Is the Measure of Most Things",
@@ -1642,7 +1642,7 @@
             "reward": "character.character.title.707",
             "patch": "6.5",
             "points": 10,
-            "cPrev": [3254],
+            "cPrev": ["a.3254"],
             "cSiblings": ["character.character.title.707"]
         },
         "x3090": {
@@ -1652,7 +1652,7 @@
             "description_fr": "Effectuer 1 000 collectes sur les landes de la Félicité insulaire.",
             "patch": "6.2",
             "points": 5,
-            "cNext": [3091]
+            "cNext": ["a.3091"]
         },
         "x3091": {
             "name_en": "Sustainable Sourcing II",
@@ -1661,8 +1661,8 @@
             "description_fr": "Effectuer 3 000 collectes sur les landes de la Félicité insulaire.",
             "patch": "6.2",
             "points": 10,
-            "cPrev": [3090],
-            "cNext": [3092]
+            "cPrev": ["a.3090"],
+            "cNext": ["a.3092"]
         },
         "x3092": {
             "name_en": "Sustainable Sourcing III",
@@ -1671,7 +1671,7 @@
             "description_fr": "Effectuer 30 000 collectes sur les landes de la Félicité insulaire.",
             "patch": "6.2",
             "points": 20,
-            "cPrev": [3091]
+            "cPrev": ["a.3091"]
         },
         "x3093": {
             "name_en": "Mine Now I",
@@ -1680,7 +1680,7 @@
             "description_fr": "Récupérer 100 fois des matériaux sur les animaux d'élevage de la Félicité insulaire.",
             "patch": "6.2",
             "points": 5,
-            "cNext": [3094]
+            "cNext": ["a.3094"]
         },
         "x3094": {
             "name_en": "Mine Now II",
@@ -1689,8 +1689,8 @@
             "description_fr": "Récupérer 500 fois des matériaux sur les animaux d'élevage de la Félicité insulaire.",
             "patch": "6.2",
             "points": 10,
-            "cPrev": [3093],
-            "cNext": [3095]
+            "cPrev": ["a.3093"],
+            "cNext": ["a.3095"]
         },
         "x3095": {
             "name_en": "Mine Now III",
@@ -1699,7 +1699,7 @@
             "description_fr": "Récupérer 5 000 fois des matériaux sur les animaux d'élevage de la Félicité insulaire.",
             "patch": "6.2",
             "points": 20,
-            "cPrev": [3094]
+            "cPrev": ["a.3094"]
         },
         "x3096": {
             "name_en": "Agri-cultured I",
@@ -1708,7 +1708,7 @@
             "description_fr": "Récolter 50 cultures sur la Félicité insulaire.",
             "patch": "6.2",
             "points": 5,
-            "cNext": [3097]
+            "cNext": ["a.3097"]
         },
         "x3097": {
             "name_en": "Agri-cultured II",
@@ -1717,8 +1717,8 @@
             "description_fr": "Récolter 250 cultures sur la Félicité insulaire.",
             "patch": "6.2",
             "points": 10,
-            "cPrev": [3096],
-            "cNext": [3098]
+            "cPrev": ["a.3096"],
+            "cNext": ["a.3098"]
         },
         "x3098": {
             "name_en": "Agri-cultured III",
@@ -1727,7 +1727,7 @@
             "description_fr": "Récolter 2 500 cultures sur la Félicité insulaire.",
             "patch": "6.2",
             "points": 20,
-            "cPrev": [3097]
+            "cPrev": ["a.3097"]
         },
         "x3099": {
             "name_en": "But at What Cost I",
@@ -1736,7 +1736,7 @@
             "description_fr": "Récupérer 50 raretés à la grange de la Félicité insulaire.",
             "patch": "6.2",
             "points": 5,
-            "cNext": [3100]
+            "cNext": ["a.3100"]
         },
         "x3100": {
             "name_en": "But at What Cost II",
@@ -1745,8 +1745,8 @@
             "description_fr": "Récupérer 200 raretés à la grange de la Félicité insulaire.",
             "patch": "6.2",
             "points": 10,
-            "cPrev": [3099],
-            "cNext": [3101]
+            "cPrev": ["a.3099"],
+            "cNext": ["a.3101"]
         },
         "x3101": {
             "name_en": "But at What Cost III",
@@ -1755,7 +1755,7 @@
             "description_fr": "Récupérer 2 000 raretés à la grange de la Félicité insulaire.",
             "patch": "6.2",
             "points": 20,
-            "cPrev": [3100]
+            "cPrev": ["a.3100"]
         },
         "x3102": {
             "name_en": "No Rest (Cycle) for the Wicked I",
@@ -1764,7 +1764,7 @@
             "description_fr": "Obtenir 10 000 assignats grâce au commerce insulaire sur une période de 7 cycles.",
             "patch": "6.2",
             "points": 10,
-            "cNext": [3103]
+            "cNext": ["a.3103"]
         },
         "x3103": {
             "name_en": "No Rest (Cycle) for the Wicked II",
@@ -1774,7 +1774,7 @@
             "reward": "character.character.title.646",
             "patch": "6.2",
             "points": 20,
-            "cPrev": [3102],
+            "cPrev": ["a.3102"],
             "cSiblings": ["character.character.title.646"]
         },
         "x3255": {
@@ -1785,7 +1785,7 @@
             "reward": "character.character.title.678",
             "patch": "6.4",
             "points": 20,
-            "cPrev": [3103],
+            "cPrev": ["a.3103"],
             "cSiblings": ["character.character.title.678"]
         },
         "x3104": {

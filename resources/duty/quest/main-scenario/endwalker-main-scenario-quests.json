@@ -228,12 +228,12 @@
             "level": 81,
             "name_en": "The Color of Joy",
             "name_fr": "La couleur du bonheur",
-            "unlock": ["character.achievement.quests.main-scenario.2952"],
+            "unlock": ["a.2952"],
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
             "cPrev": ["q.69914"],
             "cNext": ["q.69916"],
-            "cSiblings": ["character.achievement.quests.main-scenario.2952"],
+            "cSiblings": ["a.2952"],
             "patch": "6.0"
         },
         "x69916": {
@@ -446,12 +446,12 @@
             "level": 83,
             "name_en": "The Martyr",
             "name_fr": "La fin d'un long sommeil",
-            "unlock": ["duty.dutyraid-finder.trials.ew.0", "character.achievement.quests.main-scenario.2953"],
+            "unlock": ["duty.dutyraid-finder.trials.ew.0", "a.2953"],
             "npc_en": "Lustrous Dog",
             "npc_fr": "Chien Nimbé De Lumière",
             "cPrev": ["q.69933"],
             "cNext": ["q.69935"],
-            "cSiblings": ["character.achievement.quests.main-scenario.2953"],
+            "cSiblings": ["a.2953"],
             "patch": "6.0"
         },
         "x69935": {
@@ -562,12 +562,12 @@
             "level": 84,
             "name_en": "Returning Home",
             "name_fr": "L'heure du retour sur terre",
-            "unlock": ["character.achievement.quests.main-scenario.2954"],
+            "unlock": ["a.2954"],
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
             "cPrev": ["q.69943"],
             "cNext": ["q.69945"],
-            "cSiblings": ["character.achievement.quests.main-scenario.2954"],
+            "cSiblings": ["a.2954"],
             "patch": "6.0"
         },
         "x69945": {
@@ -667,7 +667,7 @@
             "level": 85,
             "name_en": "At World's End",
             "name_fr": "Apocalypse mondiale",
-            "unlock": ["character.achievement.quests.main-scenario.2955"],
+            "unlock": ["a.2955"],
             "npc_en": "Radiant Host Soldier",
             "npc_fr": "Soldat De L'Ost Rayonnant",
             "unlock_en": "Role Quests",
@@ -688,7 +688,7 @@
                 "q.69809",
                 "q.69811"
             ],
-            "cSiblings": ["character.achievement.quests.main-scenario.2955"],
+            "cSiblings": ["a.2955"],
             "patch": "6.0"
         },
         "x69955": {
@@ -899,12 +899,12 @@
             "level": 87,
             "name_en": "Thou Must Live, Die, and Know",
             "name_fr": "Destins en marche",
-            "unlock": ["character.achievement.quests.main-scenario.2956"],
+            "unlock": ["a.2956"],
             "npc_en": "Venat",
             "npc_fr": "Venat",
             "cPrev": ["q.69973"],
             "cNext": ["q.69975"],
-            "cSiblings": ["character.achievement.quests.main-scenario.2956"],
+            "cSiblings": ["a.2956"],
             "patch": "6.0"
         },
         "x69975": {
@@ -1025,16 +1025,12 @@
             "level": 89,
             "name_en": "Her Children, One and All",
             "name_fr": "À tous mes enfants",
-            "unlock": [
-                "duty.dutyraid-finder.dungeons.ew.4",
-                "duty.dutyraid-finder.trials.ew.1",
-                "character.achievement.quests.main-scenario.2957"
-            ],
+            "unlock": ["duty.dutyraid-finder.dungeons.ew.4", "duty.dutyraid-finder.trials.ew.1", "a.2957"],
             "npc_en": "Fourchenault",
             "npc_fr": "Fourchenault",
             "cPrev": ["q.69984"],
             "cNext": ["q.69986", "q.69872", "q.69870", "q.69871"],
-            "cSiblings": ["character.achievement.quests.main-scenario.2957"],
+            "cSiblings": ["a.2957"],
             "patch": "6.0"
         },
         "x69986": {
@@ -1186,7 +1182,7 @@
             "unlock": [
                 "duty.dutyraid-finder.dungeons.ew.5",
                 "duty.dutyraid-finder.trials.ew.2",
-                "character.achievement.quests.main-scenario.2958",
+                "a.2958",
                 "character.mount-guide.201",
                 "character.minion-guide.428",
                 "logs.orchestrion-list.others.82",
@@ -1216,7 +1212,7 @@
                 "q.70011",
                 "q.70062"
             ],
-            "cSiblings": ["character.achievement.quests.main-scenario.2958"],
+            "cSiblings": ["a.2958"],
             "patch": "6.0"
         }
     }

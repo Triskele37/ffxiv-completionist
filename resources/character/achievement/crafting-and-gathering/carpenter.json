@@ -10,7 +10,7 @@
             "description_fr": "Réaliser 50 synthèses de menuiserie de niveau 1 à 10.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [142]
+            "cCombo": ["a.142"]
         },
         "x138": {
             "name_en": "Going with the Grain: Initiate",
@@ -19,7 +19,7 @@
             "description_fr": "Réaliser 300 synthèses de menuiserie de niveau 11 à 20.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [142]
+            "cCombo": ["a.142"]
         },
         "x139": {
             "name_en": "Going with the Grain: Apprentice",
@@ -28,7 +28,7 @@
             "description_fr": "Réaliser 750 synthèses de menuiserie de niveau 21 à 30.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [142]
+            "cCombo": ["a.142"]
         },
         "x140": {
             "name_en": "Going with the Grain: Journeyman",
@@ -37,7 +37,7 @@
             "description_fr": "Réaliser 1 500 synthèses de menuiserie de niveau 31 à 40.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [142]
+            "cCombo": ["a.142"]
         },
         "x141": {
             "name_en": "Going with the Grain: Artisan",
@@ -48,7 +48,7 @@
             "patch": "2.0",
             "points": 10,
             "cSiblings": ["character.character.title.17"],
-            "cCombo": [142]
+            "cCombo": ["a.142"]
         },
         "x142": {
             "name_en": "A Carpenter's Life for Me",
@@ -59,7 +59,7 @@
             "reward_fr": "Scie de virtuose",
             "patch": "2.0",
             "points": 30,
-            "cPrev": [137, 138, 139, 140, 141]
+            "cPrev": ["a.137", "a.138", "a.139", "a.140", "a.141"]
         },
         "x1301": {
             "name_en": "Going with the Grain: Adept",
@@ -100,7 +100,7 @@
             "description_fr": "Faire 30 synthèses de menuisier différentes et les avoir notées dans le carnet d'artisanat.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [696]
+            "cNext": ["a.696"]
         },
         "x696": {
             "name_en": "I Made That: Carpenter II",
@@ -109,8 +109,8 @@
             "description_fr": "Faire 50 synthèses de menuisier différentes et les avoir notées dans le carnet d'artisanat.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [695],
-            "cNext": [697]
+            "cPrev": ["a.695"],
+            "cNext": ["a.697"]
         },
         "x697": {
             "name_en": "I Made That: Carpenter III",
@@ -121,8 +121,8 @@
             "reward_fr": "Anneau de maître menuisier",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [696],
-            "cNext": [1278]
+            "cPrev": ["a.696"],
+            "cNext": ["a.1278"]
         },
         "x1278": {
             "name_en": "I Made That: Carpenter IV",
@@ -131,8 +131,8 @@
             "description_fr": "Faire 200 synthèses de menuisier différentes et les avoir notées dans le carnet d'artisanat.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [697],
-            "cNext": [1721]
+            "cPrev": ["a.697"],
+            "cNext": ["a.1721"]
         },
         "x1721": {
             "name_en": "I Made That: Carpenter V",
@@ -143,8 +143,8 @@
             "reward_fr": "Scie de charpentier bénie",
             "patch": "3.5",
             "points": 10,
-            "cPrev": [1278],
-            "cNext": [2166]
+            "cPrev": ["a.1278"],
+            "cNext": ["a.2166"]
         },
         "x2166": {
             "name_en": "I Made That: Carpenter VI",
@@ -155,7 +155,7 @@
             "reward_fr": "Scie du roi de l'établi bénie",
             "patch": "4.5",
             "points": 10,
-            "cPrev": [1721]
+            "cPrev": ["a.1721"]
         },
         "x750": {
             "name_en": "An Eye for Detail: Carpenter I",
@@ -164,7 +164,7 @@
             "description_fr": "Fabriquer un total de 100 objets de haute qualité en tant que menuisier.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [751]
+            "cNext": ["a.751"]
         },
         "x751": {
             "name_en": "An Eye for Detail: Carpenter II",
@@ -173,8 +173,8 @@
             "description_fr": "Fabriquer un total de 500 objets de haute qualité en tant que menuisier.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [750],
-            "cNext": [752]
+            "cPrev": ["a.750"],
+            "cNext": ["a.752"]
         },
         "x752": {
             "name_en": "An Eye for Detail: Carpenter III",
@@ -183,8 +183,8 @@
             "description_fr": "Fabriquer un total de 3 000 objets de haute qualité en tant que menuisier.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [751],
-            "cNext": [1313]
+            "cPrev": ["a.751"],
+            "cNext": ["a.1313"]
         },
         "x1313": {
             "name_en": "An Eye for Detail: Carpenter IV",
@@ -193,8 +193,8 @@
             "description_fr": "Fabriquer un total de 5 000 objets de haute qualité en tant que menuisier.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [752],
-            "cNext": [1321]
+            "cPrev": ["a.752"],
+            "cNext": ["a.1321"]
         },
         "x1321": {
             "name_en": "An Eye for Detail: Carpenter V",
@@ -204,7 +204,7 @@
             "reward": "character.character.title.253",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [1313],
+            "cPrev": ["a.1313"],
             "cSiblings": ["character.character.title.253"]
         },
         "x2489": {
@@ -214,8 +214,8 @@
             "description_fr": "Gagner un total de 50 000 points d'azur en tant que menuisier.",
             "patch": "5.21",
             "points": 5,
-            "cNext": [2490],
-            "cCombo": ["character.achievement.crafting--gathering.all-disciplines.2522"]
+            "cNext": ["a.2490"],
+            "cCombo": ["a.2522"]
         },
         "x2490": {
             "name_en": "Skyward Saw II",
@@ -224,8 +224,8 @@
             "description_fr": "Gagner un total de 150 000 points d'azur en tant que menuisier.",
             "patch": "5.21",
             "points": 5,
-            "cPrev": [2489],
-            "cNext": [2491]
+            "cPrev": ["a.2489"],
+            "cNext": ["a.2491"]
         },
         "x2491": {
             "name_en": "Skyward Saw III",
@@ -235,9 +235,9 @@
             "reward": "character.character.title.490",
             "patch": "5.21",
             "points": 10,
-            "cPrev": [2490],
+            "cPrev": ["a.2490"],
             "cSiblings": ["character.character.title.490"],
-            "cCombo": ["character.achievement.crafting--gathering.all-disciplines.2524"]
+            "cCombo": ["a.2524"]
         },
         "x2527": {
             "name_en": "The Height of Carpentry",
@@ -276,7 +276,7 @@
             "description_fr": "Obtenir une scie du fiélon de l'établi resplendissante.",
             "patch": "5.5",
             "points": 10,
-            "cCombo": ["character.achievement.crafting--gathering.all-disciplines.2829"]
+            "cCombo": ["a.2829"]
         }
     }
 }

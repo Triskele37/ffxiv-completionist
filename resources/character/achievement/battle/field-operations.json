@@ -11,7 +11,7 @@
             "reward": "character.mount-guide.44",
             "patch": "4.55",
             "points": 5,
-            "cNext": [2228],
+            "cNext": ["a.2228"],
             "cSiblings": ["duty.exploratory-missions.the-forbidden-land-eureka.duties.0"]
         },
         "x2228": {
@@ -21,8 +21,8 @@
             "description_fr": "Finir l'Arsenal de Baldesion 5 fois.",
             "patch": "4.55",
             "points": 5,
-            "cPrev": [2227],
-            "cNext": [2229]
+            "cPrev": ["a.2227"],
+            "cNext": ["a.2229"]
         },
         "x2229": {
             "name_en": "We're on Your Side III",
@@ -31,7 +31,7 @@
             "description_fr": "Finir l'Arsenal de Baldesion 10 fois.",
             "patch": "4.55",
             "points": 5,
-            "cPrev": [2228]
+            "cPrev": ["a.2228"]
         },
         "x2676": {
             "name_en": "No Man's Land I",
@@ -40,7 +40,7 @@
             "description_fr": "Remporter 10 escarmouches sur le front bozjien.",
             "patch": "5.35",
             "points": 5,
-            "cNext": [2677]
+            "cNext": ["a.2677"]
         },
         "x2677": {
             "name_en": "No Man's Land II",
@@ -49,8 +49,8 @@
             "description_fr": "Remporter 50 escarmouches sur le front bozjien.",
             "patch": "5.35",
             "points": 5,
-            "cPrev": [2676],
-            "cNext": [2678]
+            "cPrev": ["a.2676"],
+            "cNext": ["a.2678"]
         },
         "x2678": {
             "name_en": "No Man's Land III",
@@ -59,8 +59,8 @@
             "description_fr": "Remporter 100 escarmouches sur le front bozjien.",
             "patch": "5.35",
             "points": 5,
-            "cPrev": [2677],
-            "cNext": [2679]
+            "cPrev": ["a.2677"],
+            "cNext": ["a.2679"]
         },
         "x2679": {
             "name_en": "No Man's Land IV",
@@ -70,7 +70,7 @@
             "reward": "character.character.title.540",
             "patch": "5.35",
             "points": 10,
-            "cPrev": [2678],
+            "cPrev": ["a.2678"],
             "cSiblings": ["character.character.title.540"]
         },
         "x2672": {
@@ -80,7 +80,7 @@
             "description_fr": "Remporter 10 affrontements cruciaux sur le front bozjien.",
             "patch": "5.35",
             "points": 10,
-            "cNext": [2673]
+            "cNext": ["a.2673"]
         },
         "x2673": {
             "name_en": "Critical Role II",
@@ -89,8 +89,8 @@
             "description_fr": "Remporter 50 affrontements cruciaux sur le front bozjien.",
             "patch": "5.35",
             "points": 10,
-            "cPrev": [2672],
-            "cNext": [2674]
+            "cPrev": ["a.2672"],
+            "cNext": ["a.2674"]
         },
         "x2674": {
             "name_en": "Critical Role III",
@@ -99,8 +99,8 @@
             "description_fr": "Remporter 100 affrontements cruciaux sur le front bozjien.",
             "patch": "5.35",
             "points": 10,
-            "cPrev": [2673],
-            "cNext": [2675]
+            "cPrev": ["a.2673"],
+            "cNext": ["a.2675"]
         },
         "x2675": {
             "name_en": "Critical Role IV",
@@ -110,7 +110,7 @@
             "reward": "character.character.title.539",
             "patch": "5.35",
             "points": 20,
-            "cPrev": [2674],
+            "cPrev": ["a.2674"],
             "cSiblings": ["character.character.title.539"]
         },
         "x2683": {
@@ -122,7 +122,7 @@
             "patch": "5.35",
             "points": 10,
             "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.events.45", "character.character.title.542"],
-            "cCombo": [2686]
+            "cCombo": ["a.2686"]
         },
         "x2684": {
             "name_en": "Lyon's Share",
@@ -133,7 +133,7 @@
             "patch": "5.35",
             "points": 10,
             "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.events.47", "character.character.title.543"],
-            "cCombo": [2686]
+            "cCombo": ["a.2686"]
         },
         "x2685": {
             "name_en": "Burn Baby Burn",
@@ -144,7 +144,7 @@
             "patch": "5.35",
             "points": 10,
             "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.events.46", "character.character.title.544"],
-            "cCombo": [2686]
+            "cCombo": ["a.2686"]
         },
         "x2686": {
             "name_en": "Close Encounters",
@@ -154,9 +154,9 @@
             "reward": "character.character.title.545",
             "patch": "5.35",
             "points": 20,
-            "cPrev": [2683, 2684, 2685],
+            "cPrev": ["a.2683", "a.2684", "a.2685"],
             "cSiblings": ["character.character.title.545"],
-            "cCombo": [2881]
+            "cCombo": ["a.2881"]
         },
         "x2680": {
             "name_en": "Operation: Eagle's Nest I",
@@ -165,7 +165,7 @@
             "description_fr": "Prendre Castrum Lacus Litore sur le Front sud de Bozja.",
             "patch": "5.35",
             "points": 10,
-            "cNext": [2681],
+            "cNext": ["a.2681"],
             "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.0"]
         },
         "x2681": {
@@ -175,8 +175,8 @@
             "description_fr": "Prendre 10 fois Castrum Lacus Litore sur le Front sud de Bozja.",
             "patch": "5.35",
             "points": 10,
-            "cPrev": [2680],
-            "cNext": [2682]
+            "cPrev": ["a.2680"],
+            "cNext": ["a.2682"]
         },
         "x2682": {
             "name_en": "Operation: Eagle's Nest III",
@@ -186,7 +186,7 @@
             "reward": "character.character.title.541",
             "patch": "5.35",
             "points": 20,
-            "cPrev": [2681],
+            "cPrev": ["a.2681"],
             "cSiblings": ["character.character.title.541"]
         },
         "x2687": {
@@ -196,7 +196,7 @@
             "description_fr": "Faire expertiser 10 éclats oubliés.",
             "patch": "5.35",
             "points": 5,
-            "cNext": [2688]
+            "cNext": ["a.2688"]
         },
         "x2688": {
             "name_en": "Lost and Found II",
@@ -205,8 +205,8 @@
             "description_fr": "Faire expertiser 100 éclats oubliés.",
             "patch": "5.35",
             "points": 5,
-            "cPrev": [2687],
-            "cNext": [2689]
+            "cPrev": ["a.2687"],
+            "cNext": ["a.2689"]
         },
         "x2689": {
             "name_en": "Lost and Found III",
@@ -215,8 +215,8 @@
             "description_fr": "Faire expertiser 500 éclats oubliés.",
             "patch": "5.35",
             "points": 5,
-            "cPrev": [2688],
-            "cNext": [2690]
+            "cPrev": ["a.2688"],
+            "cNext": ["a.2690"]
         },
         "x2690": {
             "name_en": "Lost and Found IV",
@@ -227,7 +227,7 @@
             "reward_fr": "Boucle d'oreille bozjienne",
             "patch": "5.35",
             "points": 10,
-            "cPrev": [2689]
+            "cPrev": ["a.2689"]
         },
         "x2691": {
             "name_en": "No Need for Triage I",
@@ -236,7 +236,7 @@
             "description_fr": "Ressusciter 10 fois un autre joueur en Bozja.",
             "patch": "5.35",
             "points": 5,
-            "cNext": [2692]
+            "cNext": ["a.2692"]
         },
         "x2692": {
             "name_en": "No Need for Triage II",
@@ -245,8 +245,8 @@
             "description_fr": "Ressusciter 100 fois un autre joueur en Bozja.",
             "patch": "5.35",
             "points": 5,
-            "cPrev": [2691],
-            "cNext": [2693]
+            "cPrev": ["a.2691"],
+            "cNext": ["a.2693"]
         },
         "x2693": {
             "name_en": "No Need for Triage III",
@@ -256,7 +256,7 @@
             "reward": "character.character.title.546",
             "patch": "5.35",
             "points": 10,
-            "cPrev": [2692],
+            "cPrev": ["a.2692"],
             "cSiblings": ["character.character.title.546"]
         },
         "x2762": {
@@ -266,7 +266,7 @@
             "description_fr": "Finir Delubrum Reginae.",
             "patch": "5.45",
             "points": 5,
-            "cNext": [2763],
+            "cNext": ["a.2763"],
             "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.1"]
         },
         "x2763": {
@@ -276,8 +276,8 @@
             "description_fr": "Finir Delubrum Reginae 10 fois.",
             "patch": "5.45",
             "points": 10,
-            "cPrev": [2762],
-            "cNext": [2764]
+            "cPrev": ["a.2762"],
+            "cNext": ["a.2764"]
         },
         "x2764": {
             "name_en": "Queen of Swords III",
@@ -286,7 +286,7 @@
             "description_fr": "Finir Delubrum Reginae 50 fois.",
             "patch": "5.45",
             "points": 20,
-            "cPrev": [2763]
+            "cPrev": ["a.2763"]
         },
         "x2765": {
             "name_en": "Savage Queen of Swords I",
@@ -296,7 +296,7 @@
             "reward": "character.mount-guide.31",
             "patch": "5.45",
             "points": 5,
-            "cNext": [2766],
+            "cNext": ["a.2766"],
             "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.2"]
         },
         "x2766": {
@@ -307,8 +307,8 @@
             "reward": "character.character.title.564",
             "patch": "5.45",
             "points": 10,
-            "cPrev": [2765],
-            "cNext": [2767],
+            "cPrev": ["a.2765"],
+            "cNext": ["a.2767"],
             "cSiblings": ["character.character.title.564"]
         },
         "x2767": {
@@ -318,7 +318,7 @@
             "description_fr": "Finir Delubrum Reginae (sadique) 10 fois.",
             "patch": "5.45",
             "points": 20,
-            "cPrev": [2766]
+            "cPrev": ["a.2766"]
         },
         "x2877": {
             "name_en": "Test Complete",
@@ -329,7 +329,7 @@
             "patch": "5.55",
             "points": 10,
             "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.events.82", "character.character.title.586"],
-            "cCombo": [2880]
+            "cCombo": ["a.2880"]
         },
         "x2878": {
             "name_en": "Might Makes Right",
@@ -340,7 +340,7 @@
             "patch": "5.55",
             "points": 10,
             "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.events.63", "character.character.title.587"],
-            "cCombo": [2880]
+            "cCombo": ["a.2880"]
         },
         "x2879": {
             "name_en": "Untamed",
@@ -351,7 +351,7 @@
             "patch": "5.55",
             "points": 10,
             "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.events.78", "character.character.title.588"],
-            "cCombo": [2880]
+            "cCombo": ["a.2880"]
         },
         "x2880": {
             "name_en": "Close Encounters of the Zadnoran Kind",
@@ -361,9 +361,9 @@
             "reward": "character.character.title.589",
             "patch": "5.55",
             "points": 20,
-            "cPrev": [2877, 2878, 2879],
+            "cPrev": ["a.2877", "a.2878", "a.2879"],
             "cSiblings": ["character.character.title.589"],
-            "cCombo": [2881]
+            "cCombo": ["a.2881"]
         },
         "x2881": {
             "name_en": "Sharper than Blades",
@@ -373,7 +373,7 @@
             "reward": "character.character.title.590",
             "patch": "5.55",
             "points": 20,
-            "cPrev": [2686, 2880],
+            "cPrev": ["a.2686", "a.2880"],
             "cSiblings": ["character.character.title.590"]
         },
         "x2874": {
@@ -383,7 +383,7 @@
             "description_fr": "Prendre le Dalriada sur les Hauts plateaux de Zadnor.",
             "patch": "5.55",
             "points": 10,
-            "cNext": [2875],
+            "cNext": ["a.2875"],
             "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.3"]
         },
         "x2875": {
@@ -393,8 +393,8 @@
             "description_fr": "Prendre 10 fois le Dalriada sur les Hauts plateaux de Zadnor.",
             "patch": "5.55",
             "points": 10,
-            "cPrev": [2874],
-            "cNext": [2876]
+            "cPrev": ["a.2874"],
+            "cNext": ["a.2876"]
         },
         "x2876": {
             "name_en": "Hell to Pay III",
@@ -404,7 +404,7 @@
             "reward": "character.character.title.585",
             "patch": "5.55",
             "points": 20,
-            "cPrev": [2875],
+            "cPrev": ["a.2875"],
             "cSiblings": ["character.character.title.585"]
         },
         "x2882": {

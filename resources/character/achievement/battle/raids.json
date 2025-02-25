@@ -10,7 +10,7 @@
             "description_fr": "Finir le Labyrinthe de Bahamut 1 fois.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [748],
+            "cNext": ["a.748"],
             "cSiblings": ["duty.dutyraid-finder.raids.arr.4"]
         },
         "x748": {
@@ -20,8 +20,8 @@
             "description_fr": "Finir le Labyrinthe de Bahamut 5 fois.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [747],
-            "cNext": [749]
+            "cPrev": ["a.747"],
+            "cNext": ["a.749"]
         },
         "x749": {
             "name_en": "The Binds That Tie III",
@@ -30,7 +30,7 @@
             "description_fr": "Finir le Labyrinthe de Bahamut 10 fois.",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [748]
+            "cPrev": ["a.748"]
         },
         "x883": {
             "name_en": "You Call That a Labyrinth",
@@ -48,7 +48,7 @@
             "description_fr": "Finir les Méandres de Bahamut 1 fois.",
             "patch": "2.2",
             "points": 5,
-            "cNext": [888],
+            "cNext": ["a.888"],
             "cSiblings": ["duty.dutyraid-finder.raids.arr.8"]
         },
         "x888": {
@@ -58,8 +58,8 @@
             "description_fr": "Finir les Méandres de Bahamut 5 fois.",
             "patch": "2.2",
             "points": 10,
-            "cPrev": [887],
-            "cNext": [889]
+            "cPrev": ["a.887"],
+            "cNext": ["a.889"]
         },
         "x889": {
             "name_en": "In Another Bind III",
@@ -68,7 +68,7 @@
             "description_fr": "Finir les Méandres de Bahamut 10 fois.",
             "patch": "2.2",
             "points": 20,
-            "cPrev": [888]
+            "cPrev": ["a.888"]
         },
         "x995": {
             "name_en": "Life Is a Syrcus",
@@ -127,7 +127,7 @@
             "reward": "character.minion-guide.320",
             "patch": "2.4",
             "points": 5,
-            "cNext": [1041],
+            "cNext": ["a.1041"],
             "cSiblings": ["duty.dutyraid-finder.raids.arr.12"]
         },
         "x1041": {
@@ -137,8 +137,8 @@
             "description_fr": "Finir l'Abîme de Bahamut 5 fois.",
             "patch": "2.4",
             "points": 10,
-            "cPrev": [1040],
-            "cNext": [1042]
+            "cPrev": ["a.1040"],
+            "cNext": ["a.1042"]
         },
         "x1042": {
             "name_en": "Out of a Bind III",
@@ -147,7 +147,7 @@
             "description_fr": "Finir l'Abîme de Bahamut 10 fois.",
             "patch": "2.4",
             "points": 20,
-            "cPrev": [1041]
+            "cPrev": ["a.1041"]
         },
         "x1068": {
             "name_en": "Let the Sun Shine In",
@@ -165,7 +165,7 @@
             "description_fr": "Finir Gordias: le Père 1 fois.",
             "patch": "3.0",
             "points": 5,
-            "cNext": [1229],
+            "cNext": ["a.1229"],
             "cSiblings": ["duty.dutyraid-finder.raids.hw.3"]
         },
         "x1229": {
@@ -175,8 +175,8 @@
             "description_fr": "Finir Gordias: le Père 5 fois.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [1228],
-            "cNext": [1230]
+            "cPrev": ["a.1228"],
+            "cNext": ["a.1230"]
         },
         "x1230": {
             "name_en": "Sins of the Father III",
@@ -185,7 +185,7 @@
             "description_fr": "Finir Gordias: le Père 10 fois.",
             "patch": "3.0",
             "points": 20,
-            "cPrev": [1229]
+            "cPrev": ["a.1229"]
         },
         "x1231": {
             "name_en": "Sins of the Savage Father I",
@@ -194,7 +194,7 @@
             "description_fr": "Finir Gordias: le Père (sadique) 1 fois.",
             "patch": "3.05",
             "points": 5,
-            "cNext": [1232],
+            "cNext": ["a.1232"],
             "cSiblings": ["duty.dutyraid-finder.raids.hw.7"]
         },
         "x1232": {
@@ -204,8 +204,8 @@
             "description_fr": "Finir Gordias: le Père (sadique) 5 fois.",
             "patch": "3.05",
             "points": 10,
-            "cPrev": [1231],
-            "cNext": [1233]
+            "cPrev": ["a.1231"],
+            "cNext": ["a.1233"]
         },
         "x1233": {
             "name_en": "Sins of the Savage Father III",
@@ -214,7 +214,7 @@
             "description_fr": "Finir Gordias: le Père (sadique) 10 fois.",
             "patch": "3.05",
             "points": 20,
-            "cPrev": [1232]
+            "cPrev": ["a.1232"]
         },
         "x1399": {
             "name_en": "Touching the Void",
@@ -232,7 +232,7 @@
             "description_fr": "Finir Midas: le Fils 1 fois.",
             "patch": "3.15",
             "points": 5,
-            "cNext": [1477],
+            "cNext": ["a.1477"],
             "cSiblings": ["duty.dutyraid-finder.raids.hw.11"]
         },
         "x1477": {
@@ -242,8 +242,8 @@
             "description_fr": "Finir Midas: le Fils 5 fois.",
             "patch": "3.15",
             "points": 10,
-            "cPrev": [1476],
-            "cNext": [1478]
+            "cPrev": ["a.1476"],
+            "cNext": ["a.1478"]
         },
         "x1478": {
             "name_en": "Sins of the Son III",
@@ -252,7 +252,7 @@
             "description_fr": "Finir Midas: le Fils 10 fois.",
             "patch": "3.15",
             "points": 20,
-            "cPrev": [1477]
+            "cPrev": ["a.1477"]
         },
         "x1479": {
             "name_en": "Sins of the Savage Son I",
@@ -261,7 +261,7 @@
             "description_fr": "Finir Midas: le Fils (sadique) 1 fois.",
             "patch": "3.15",
             "points": 5,
-            "cNext": [1480],
+            "cNext": ["a.1480"],
             "cSiblings": ["duty.dutyraid-finder.raids.hw.15"]
         },
         "x1480": {
@@ -271,8 +271,8 @@
             "description_fr": "Finir Midas: le Fils (sadique) 5 fois.",
             "patch": "3.15",
             "points": 10,
-            "cPrev": [1479],
-            "cNext": [1481]
+            "cPrev": ["a.1479"],
+            "cNext": ["a.1481"]
         },
         "x1481": {
             "name_en": "Sins of the Savage Son III",
@@ -281,7 +281,7 @@
             "description_fr": "Finir Midas: le Fils (sadique) 10 fois.",
             "patch": "3.15",
             "points": 20,
-            "cPrev": [1480]
+            "cPrev": ["a.1480"]
         },
         "x1574": {
             "name_en": "Ex Mhachina",
@@ -299,7 +299,7 @@
             "description_fr": "Finir Alexander: le Créateur 1 fois.",
             "patch": "3.4",
             "points": 5,
-            "cNext": [1640],
+            "cNext": ["a.1640"],
             "cSiblings": ["duty.dutyraid-finder.raids.hw.19"]
         },
         "x1640": {
@@ -309,8 +309,8 @@
             "description_fr": "Finir Alexander: le Créateur 5 fois.",
             "patch": "3.4",
             "points": 10,
-            "cPrev": [1639],
-            "cNext": [1641]
+            "cPrev": ["a.1639"],
+            "cNext": ["a.1641"]
         },
         "x1641": {
             "name_en": "Sins of the Creator III",
@@ -319,7 +319,7 @@
             "description_fr": "Finir Alexander: le Créateur 10 fois.",
             "patch": "3.4",
             "points": 20,
-            "cPrev": [1640]
+            "cPrev": ["a.1640"]
         },
         "x1642": {
             "name_en": "Sins of the Savage Creator I",
@@ -328,7 +328,7 @@
             "description_fr": "Finir Alexander: le Créateur (sadique) 1 fois.",
             "patch": "3.4",
             "points": 5,
-            "cNext": [1643],
+            "cNext": ["a.1643"],
             "cSiblings": ["duty.dutyraid-finder.raids.hw.23"]
         },
         "x1643": {
@@ -338,8 +338,8 @@
             "description_fr": "Finir Alexander: le Créateur (sadique) 5 fois.",
             "patch": "3.4",
             "points": 10,
-            "cPrev": [1642],
-            "cNext": [1644]
+            "cPrev": ["a.1642"],
+            "cNext": ["a.1644"]
         },
         "x1644": {
             "name_en": "Sins of the Savage Creator III",
@@ -348,7 +348,7 @@
             "description_fr": "Finir Alexander: le Créateur (sadique) 10 fois.",
             "patch": "3.4",
             "points": 20,
-            "cPrev": [1643]
+            "cPrev": ["a.1643"]
         },
         "x1689": {
             "name_en": "What's Dun Is Done",
@@ -366,7 +366,7 @@
             "description_fr": "Finir Oméga: Deltastice 1 fois.",
             "patch": "4.01",
             "points": 5,
-            "cNext": [1896],
+            "cNext": ["a.1896"],
             "cSiblings": ["duty.dutyraid-finder.raids.sb.3"]
         },
         "x1896": {
@@ -376,8 +376,8 @@
             "description_fr": "Finir Oméga: Deltastice 5 fois.",
             "patch": "4.01",
             "points": 10,
-            "cPrev": [1895],
-            "cNext": [1897]
+            "cPrev": ["a.1895"],
+            "cNext": ["a.1897"]
         },
         "x1897": {
             "name_en": "I Am the Delta, I Am the Omega III",
@@ -386,7 +386,7 @@
             "description_fr": "Finir Oméga: Deltastice 10 fois.",
             "patch": "4.01",
             "points": 20,
-            "cPrev": [1896]
+            "cPrev": ["a.1896"]
         },
         "x1898": {
             "name_en": "I Am the Savage Delta, I Am the Savage Omega I",
@@ -395,7 +395,7 @@
             "description_fr": "Finir Oméga: Deltastice (sadique) 1 fois.",
             "patch": "4.01",
             "points": 5,
-            "cNext": [1899],
+            "cNext": ["a.1899"],
             "cSiblings": ["duty.dutyraid-finder.raids.sb.7"]
         },
         "x1899": {
@@ -405,8 +405,8 @@
             "description_fr": "Finir Oméga: Deltastice (sadique) 5 fois.",
             "patch": "4.01",
             "points": 10,
-            "cPrev": [1898],
-            "cNext": [1900]
+            "cPrev": ["a.1898"],
+            "cNext": ["a.1900"]
         },
         "x1900": {
             "name_en": "I Am the Savage Delta, I Am the Savage Omega III",
@@ -415,7 +415,7 @@
             "description_fr": "Finir Oméga: Deltastice (sadique) 10 fois.",
             "patch": "4.01",
             "points": 20,
-            "cPrev": [1899]
+            "cPrev": ["a.1899"]
         },
         "x1992": {
             "name_en": "Zodiac Thriller",
@@ -443,7 +443,7 @@
             "description_fr": "Finir Oméga: Sigmastice 1 fois.",
             "patch": "4.2",
             "points": 5,
-            "cNext": [2025],
+            "cNext": ["a.2025"],
             "cSiblings": ["duty.dutyraid-finder.raids.sb.12"]
         },
         "x2025": {
@@ -453,8 +453,8 @@
             "description_fr": "Finir Oméga: Sigmastice 5 fois.",
             "patch": "4.2",
             "points": 10,
-            "cPrev": [2024],
-            "cNext": [2026]
+            "cPrev": ["a.2024"],
+            "cNext": ["a.2026"]
         },
         "x2026": {
             "name_en": "I Am the Sigma, I Am the Omega III",
@@ -463,7 +463,7 @@
             "description_fr": "Finir Oméga: Sigmastice 10 fois.",
             "patch": "4.2",
             "points": 20,
-            "cPrev": [2025]
+            "cPrev": ["a.2025"]
         },
         "x2027": {
             "name_en": "I Am the Savage Sigma, I Am the Savage Omega I",
@@ -472,7 +472,7 @@
             "description_fr": "Finir Oméga: Sigmastice (sadique) 1 fois.",
             "patch": "4.2",
             "points": 5,
-            "cNext": [2028],
+            "cNext": ["a.2028"],
             "cSiblings": ["duty.dutyraid-finder.raids.sb.16"]
         },
         "x2028": {
@@ -482,8 +482,8 @@
             "description_fr": "Finir Oméga: Sigmastice (sadique) 5 fois.",
             "patch": "4.2",
             "points": 10,
-            "cPrev": [2027],
-            "cNext": [2029]
+            "cPrev": ["a.2027"],
+            "cNext": ["a.2029"]
         },
         "x2029": {
             "name_en": "I Am the Savage Sigma, I Am the Savage Omega III",
@@ -492,7 +492,7 @@
             "description_fr": "Finir Oméga: Sigmastice (sadique) 10 fois.",
             "patch": "4.2",
             "points": 20,
-            "cPrev": [2028]
+            "cPrev": ["a.2028"]
         },
         "x2106": {
             "name_en": "Didn't Stop, Made It Pop",
@@ -520,7 +520,7 @@
             "description_fr": "Finir Oméga: Alphastice 1 fois.",
             "patch": "4.4",
             "points": 5,
-            "cNext": [2119],
+            "cNext": ["a.2119"],
             "cSiblings": ["duty.dutyraid-finder.raids.sb.21"]
         },
         "x2119": {
@@ -530,8 +530,8 @@
             "description_fr": "Finir Oméga: Alphastice 5 fois.",
             "patch": "4.4",
             "points": 10,
-            "cPrev": [2118],
-            "cNext": [2120]
+            "cPrev": ["a.2118"],
+            "cNext": ["a.2120"]
         },
         "x2120": {
             "name_en": "I Am the Alpha, I Am the Omega III",
@@ -540,7 +540,7 @@
             "description_fr": "Finir Oméga: Alphastice 10 fois.",
             "patch": "4.4",
             "points": 20,
-            "cPrev": [2119]
+            "cPrev": ["a.2119"]
         },
         "x2121": {
             "name_en": "I Am the Savage Alpha, I Am the Savage Omega I",
@@ -549,7 +549,7 @@
             "description_fr": "Finir Oméga: Alphastice (sadique) 1 fois.",
             "patch": "4.4",
             "points": 5,
-            "cNext": [2122],
+            "cNext": ["a.2122"],
             "cSiblings": ["duty.dutyraid-finder.raids.sb.25"]
         },
         "x2122": {
@@ -559,8 +559,8 @@
             "description_fr": "Finir Oméga: Alphastice (sadique) 5 fois.",
             "patch": "4.4",
             "points": 10,
-            "cPrev": [2121],
-            "cNext": [2123]
+            "cPrev": ["a.2121"],
+            "cNext": ["a.2123"]
         },
         "x2123": {
             "name_en": "I Am the Savage Alpha, I Am the Savage Omega III",
@@ -569,7 +569,7 @@
             "description_fr": "Finir Oméga: Alphastice (sadique) 10 fois.",
             "patch": "4.4",
             "points": 20,
-            "cPrev": [2122]
+            "cPrev": ["a.2122"]
         },
         "x2164": {
             "name_en": "Orbonne to Pick",
@@ -587,7 +587,7 @@
             "description_fr": "Finir L'Éveil d'Éden 1 fois.",
             "patch": "5.01",
             "points": 5,
-            "cNext": [2410],
+            "cNext": ["a.2410"],
             "cSiblings": ["duty.dutyraid-finder.raids.shb.3"]
         },
         "x2410": {
@@ -597,8 +597,8 @@
             "description_fr": "Finir L'Éveil d'Éden 5 fois.",
             "patch": "5.01",
             "points": 10,
-            "cPrev": [2409],
-            "cNext": [2411]
+            "cPrev": ["a.2409"],
+            "cNext": ["a.2411"]
         },
         "x2411": {
             "name_en": "Paradise Found III",
@@ -607,7 +607,7 @@
             "description_fr": "Finir L'Éveil d'Éden 10 fois.",
             "patch": "5.01",
             "points": 20,
-            "cPrev": [2410]
+            "cPrev": ["a.2410"]
         },
         "x2412": {
             "name_en": "Savage Paradise Found I",
@@ -616,7 +616,7 @@
             "description_fr": "Finir L'Éveil d'Éden (sadique) 1 fois.",
             "patch": "5.05",
             "points": 5,
-            "cNext": [2413],
+            "cNext": ["a.2413"],
             "cSiblings": ["duty.dutyraid-finder.raids.shb.7"]
         },
         "x2413": {
@@ -626,8 +626,8 @@
             "description_fr": "Finir L'Éveil d'Éden (sadique) 5 fois.",
             "patch": "5.05",
             "points": 10,
-            "cPrev": [2412],
-            "cNext": [2414]
+            "cPrev": ["a.2412"],
+            "cNext": ["a.2414"]
         },
         "x2414": {
             "name_en": "Savage Paradise Found III",
@@ -636,7 +636,7 @@
             "description_fr": "Finir L'Éveil d'Éden (sadique) 10 fois.",
             "patch": "5.05",
             "points": 20,
-            "cPrev": [2413]
+            "cPrev": ["a.2413"]
         },
         "x2443": {
             "name_en": "The First Law",
@@ -664,7 +664,7 @@
             "description_fr": "Finir Les Accords d'Éden 1 fois.",
             "patch": "5.2",
             "points": 5,
-            "cNext": [2592],
+            "cNext": ["a.2592"],
             "cSiblings": ["duty.dutyraid-finder.raids.shb.13"]
         },
         "x2592": {
@@ -674,8 +674,8 @@
             "description_fr": "Finir Les Accords d'Éden 5 fois.",
             "patch": "5.2",
             "points": 10,
-            "cPrev": [2591],
-            "cNext": [2593]
+            "cPrev": ["a.2591"],
+            "cNext": ["a.2593"]
         },
         "x2593": {
             "name_en": "Trouble in Paradise III",
@@ -684,7 +684,7 @@
             "description_fr": "Finir Les Accords d'Éden 10 fois.",
             "patch": "5.2",
             "points": 20,
-            "cPrev": [2592]
+            "cPrev": ["a.2592"]
         },
         "x2594": {
             "name_en": "Savage Trouble in Paradise I",
@@ -693,7 +693,7 @@
             "description_fr": "Finir Les Accords d'Éden (sadique) 1 fois.",
             "patch": "5.2",
             "points": 5,
-            "cNext": [2595],
+            "cNext": ["a.2595"],
             "cSiblings": ["duty.dutyraid-finder.raids.shb.17"]
         },
         "x2595": {
@@ -703,8 +703,8 @@
             "description_fr": "Finir Les Accords d'Éden (sadique) 5 fois.",
             "patch": "5.2",
             "points": 10,
-            "cPrev": [2594],
-            "cNext": [2596]
+            "cPrev": ["a.2594"],
+            "cNext": ["a.2596"]
         },
         "x2596": {
             "name_en": "Savage Trouble in Paradise III",
@@ -713,7 +713,7 @@
             "description_fr": "Finir Les Accords d'Éden (sadique) 10 fois.",
             "patch": "5.2",
             "points": 20,
-            "cPrev": [2595]
+            "cPrev": ["a.2595"]
         },
         "x2622": {
             "name_en": "Uncanny Valley",
@@ -731,7 +731,7 @@
             "description_fr": "Finir La Promesse d'Éden 1 fois.",
             "patch": "5.4",
             "points": 5,
-            "cNext": [2720],
+            "cNext": ["a.2720"],
             "cSiblings": ["duty.dutyraid-finder.raids.shb.22"]
         },
         "x2720": {
@@ -741,8 +741,8 @@
             "description_fr": "Finir La Promesse d'Éden 5 fois.",
             "patch": "5.4",
             "points": 10,
-            "cPrev": [2719],
-            "cNext": [2721]
+            "cPrev": ["a.2719"],
+            "cNext": ["a.2721"]
         },
         "x2721": {
             "name_en": "Paradise Within Thee III",
@@ -751,7 +751,7 @@
             "description_fr": "Finir La Promesse d'Éden 10 fois.",
             "patch": "5.4",
             "points": 20,
-            "cPrev": [2720]
+            "cPrev": ["a.2720"]
         },
         "x2722": {
             "name_en": "Savage Paradise Within Thee I",
@@ -760,7 +760,7 @@
             "description_fr": "Finir La Promesse d'Éden (sadique) 1 fois.",
             "patch": "5.4",
             "points": 5,
-            "cNext": [2723],
+            "cNext": ["a.2723"],
             "cSiblings": ["duty.dutyraid-finder.raids.shb.26"]
         },
         "x2723": {
@@ -770,8 +770,8 @@
             "description_fr": "Finir La Promesse d'Éden (sadique) 5 fois.",
             "patch": "5.4",
             "points": 10,
-            "cPrev": [2722],
-            "cNext": [2724]
+            "cPrev": ["a.2722"],
+            "cNext": ["a.2724"]
         },
         "x2724": {
             "name_en": "Savage Paradise Within Thee III",
@@ -780,7 +780,7 @@
             "description_fr": "Finir La Promesse d'Éden (sadique) 10 fois.",
             "patch": "5.4",
             "points": 20,
-            "cPrev": [2723]
+            "cPrev": ["a.2723"]
         },
         "x2847": {
             "name_en": "Deus et Machina",
@@ -798,7 +798,7 @@
             "description_fr": "Finir les Limbes du Pandæmonium 1 fois.",
             "patch": "6.05",
             "points": 5,
-            "cNext": [3036],
+            "cNext": ["a.3036"],
             "cSiblings": ["duty.dutyraid-finder.raids.ew.3"]
         },
         "x3036": {
@@ -808,8 +808,8 @@
             "description_fr": "Finir les Limbes du Pandæmonium 5 fois.",
             "patch": "6.05",
             "points": 10,
-            "cPrev": [3035],
-            "cNext": [3037]
+            "cPrev": ["a.3035"],
+            "cNext": ["a.3037"]
         },
         "x3037": {
             "name_en": "Could Be Worse III",
@@ -818,7 +818,7 @@
             "description_fr": "Finir les Limbes du Pandæmonium 10 fois.",
             "patch": "6.05",
             "points": 20,
-            "cPrev": [3036]
+            "cPrev": ["a.3036"]
         },
         "x3038": {
             "name_en": "Could Be Savage I",
@@ -827,7 +827,7 @@
             "description_fr": "Finir les Limbes du Pandæmonium (sadique) 1 fois.",
             "patch": "6.05",
             "points": 5,
-            "cNext": [3039],
+            "cNext": ["a.3039"],
             "cSiblings": ["duty.dutyraid-finder.raids.ew.7"]
         },
         "x3039": {
@@ -837,8 +837,8 @@
             "description_fr": "Finir les Limbes du Pandæmonium (sadique) 5 fois.",
             "patch": "6.05",
             "points": 10,
-            "cPrev": [3038],
-            "cNext": [3040]
+            "cPrev": ["a.3038"],
+            "cNext": ["a.3040"]
         },
         "x3040": {
             "name_en": "Could Be Savage III",
@@ -847,7 +847,7 @@
             "description_fr": "Finir les Limbes du Pandæmonium (sadique) 10 fois.",
             "patch": "6.05",
             "points": 20,
-            "cPrev": [3039]
+            "cPrev": ["a.3039"]
         },
         "x3073": {
             "name_en": "Divine Intervention",
@@ -875,7 +875,7 @@
             "description_fr": "Finir le Purgatoire du Pandæmonium 1 fois.",
             "patch": "6.2",
             "points": 5,
-            "cNext": [3109],
+            "cNext": ["a.3109"],
             "cSiblings": ["duty.dutyraid-finder.raids.ew.13"]
         },
         "x3109": {
@@ -885,8 +885,8 @@
             "description_fr": "Finir le Purgatoire du Pandæmonium 5 fois.",
             "patch": "6.2",
             "points": 10,
-            "cPrev": [3108],
-            "cNext": [3110]
+            "cPrev": ["a.3108"],
+            "cNext": ["a.3110"]
         },
         "x3110": {
             "name_en": "Gaze of the Abyss III",
@@ -895,7 +895,7 @@
             "description_fr": "Finir le Purgatoire du Pandæmonium 10 fois.",
             "patch": "6.2",
             "points": 20,
-            "cPrev": [3109]
+            "cPrev": ["a.3109"]
         },
         "x3111": {
             "name_en": "Savage Gaze of the Abyss I",
@@ -904,7 +904,7 @@
             "description_fr": "Finir le Purgatoire du Pandæmonium (sadique) 1 fois.",
             "patch": "6.2",
             "points": 5,
-            "cNext": [3112],
+            "cNext": ["a.3112"],
             "cSiblings": ["duty.dutyraid-finder.raids.ew.17"]
         },
         "x3112": {
@@ -914,8 +914,8 @@
             "description_fr": "Finir le Purgatoire du Pandæmonium (sadique) 5 fois.",
             "patch": "6.2",
             "points": 10,
-            "cPrev": [3111],
-            "cNext": [3113]
+            "cPrev": ["a.3111"],
+            "cNext": ["a.3113"]
         },
         "x3113": {
             "name_en": "Savage Gaze of the Abyss III",
@@ -924,7 +924,7 @@
             "description_fr": "Finir le Purgatoire du Pandæmonium (sadique) 10 fois.",
             "patch": "6.2",
             "points": 20,
-            "cPrev": [3112]
+            "cPrev": ["a.3112"]
         },
         "x3161": {
             "name_en": "Divine Revelry",
@@ -952,7 +952,7 @@
             "description_fr": "Finir le Paradis du Pandæmonium 1 fois.",
             "patch": "6.4",
             "points": 5,
-            "cNext": [3249],
+            "cNext": ["a.3249"],
             "cSiblings": ["duty.dutyraid-finder.raids.ew.23"]
         },
         "x3249": {
@@ -962,8 +962,8 @@
             "description_fr": "Finir le Paradis du Pandæmonium 5 fois.",
             "patch": "6.4",
             "points": 10,
-            "cPrev": [3248],
-            "cNext": [3250]
+            "cPrev": ["a.3248"],
+            "cNext": ["a.3250"]
         },
         "x3250": {
             "name_en": "Apotheosis III",
@@ -972,7 +972,7 @@
             "description_fr": "Finir le Paradis du Pandæmonium 10 fois.",
             "patch": "6.4",
             "points": 20,
-            "cPrev": [3249]
+            "cPrev": ["a.3249"]
         },
         "x3251": {
             "name_en": "Apotheosis Agria I",
@@ -981,7 +981,7 @@
             "description_fr": "Finir le Paradis du Pandæmonium (sadique) 1 fois.",
             "patch": "6.4",
             "points": 5,
-            "cNext": [3252],
+            "cNext": ["a.3252"],
             "cSiblings": ["duty.dutyraid-finder.raids.ew.27"]
         },
         "x3252": {
@@ -991,8 +991,8 @@
             "description_fr": "Finir le Paradis du Pandæmonium (sadique) 5 fois.",
             "patch": "6.4",
             "points": 10,
-            "cPrev": [3251],
-            "cNext": [3253]
+            "cPrev": ["a.3251"],
+            "cNext": ["a.3253"]
         },
         "x3253": {
             "name_en": "Apotheosis Agria III",
@@ -1001,7 +1001,7 @@
             "description_fr": "Finir le Paradis du Pandæmonium (sadique) 10 fois.",
             "patch": "6.4",
             "points": 20,
-            "cPrev": [3252]
+            "cPrev": ["a.3252"]
         },
         "x3403": {
             "name_en": "Divine Satisfaction",
