@@ -1,3 +1,4 @@
+import { getIndexedTask } from '@data/taskIndexes';
 import { DataGroup } from '@model/DataGroup';
 import { getChildTask } from '@model/DataGroup/children/getChild';
 import { Task } from '@model/Task';
@@ -16,10 +17,19 @@ export function getTaskFromLink(chainer: Chainer, link: Link): Task {
     // String path link
     else {
         const linkedPath = link.split('.');
-        const linkedID = linkedPath.pop();
-        const linkedGroup: DataGroup = getLinkGroup(chainer, linkedPath, linkedID);
 
-        chainTask = linkedGroup ? getChildTask(linkedGroup, linkedID) : undefined;
+        // Indexed link
+        if(linkedPath.length === 2) {
+            const [indexKey, taskId] = linkedPath;
+            chainTask = getIndexedTask(indexKey, taskId);
+        }
+        // Standard full link
+        else {
+            const linkedID = linkedPath.pop();
+            const linkedGroup: DataGroup = getLinkGroup(chainer, linkedPath, linkedID);
+
+            chainTask = linkedGroup ? getChildTask(linkedGroup, linkedID) : undefined;
+        }
     }
 
     if(!chainTask) {
