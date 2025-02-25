@@ -1,4 +1,4 @@
-import * as Indexes from '@data/taskIndexes';
+import { addTaskToIndex } from '@data/taskIndexes';
 import { DataGroup } from '@model/DataGroup';
 import { Task } from '@model/Task';
 import { createTask } from '@model/Task/createTask';
@@ -17,12 +17,6 @@ export function initializeTasks(group: DataGroup, tasks: JsonTasks): DataGroup {
     });
 
     return group;
-}
-
-function addTaskToIndex(task: Task) {
-    if(task.fullStorageKey.includes('duty.quest')) {
-        Indexes.QuestIndex.set(task.id, task);
-    }
 }
 
 function setDefaultCompletion(group: DataGroup, task: Task) {
