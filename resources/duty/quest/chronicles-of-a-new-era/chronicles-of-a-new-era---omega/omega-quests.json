@@ -1,0 +1,231 @@
+{
+    "key": "omega-quests",
+    "groupName_en": "Omega Quests",
+    "groupName_fr": "Oméga",
+    "tasks": {
+        "x68464": {
+            "level": 70,
+            "name_en": "The Hunt for Omega",
+            "name_fr": "La résurgence d'Oméga",
+            "npc_en": "Wedge",
+            "npc_fr": "Wedge",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68089"
+            ],
+            "cNext": [
+                68465
+            ],
+            "patch": "4.31"
+        },
+        "x68465": {
+            "level": 70,
+            "name_en": "Into the Deltascape",
+            "name_fr": "Que le test commence",
+            "unlock": "duty.dutyraid-finder.raids.sb.0",
+            "npc_en": "Cid",
+            "npc_fr": "Cid",
+            "cPrev": [
+                68464
+            ],
+            "cNext": [
+                68466
+            ],
+            "patch": "4.31"
+        },
+        "x68466": {
+            "level": 70,
+            "name_en": "A Catastrophe Waiting",
+            "name_fr": "Catastrophe avec gravité",
+            "unlock": "duty.dutyraid-finder.raids.sb.1",
+            "npc_en": "Cid",
+            "npc_fr": "Cid",
+            "cPrev": [
+                68465
+            ],
+            "cNext": [
+                68467
+            ],
+            "patch": "4.31"
+        },
+        "x68467": {
+            "level": 70,
+            "name_en": "The Croak Queen",
+            "name_fr": "La reine des illusions",
+            "unlock": "duty.dutyraid-finder.raids.sb.2",
+            "npc_en": "Cid",
+            "npc_fr": "Cid",
+            "cPrev": [
+                68466
+            ],
+            "cNext": [
+                68468
+            ],
+            "patch": "4.31"
+        },
+        "x68468": {
+            "level": 70,
+            "name_en": "A Void at All Costs",
+            "name_fr": "L'arbre qui cache le néant",
+            "unlock": "duty.dutyraid-finder.raids.sb.3",
+            "npc_en": "Cid",
+            "npc_fr": "Cid",
+            "cPrev": [
+                68467
+            ],
+            "cNext": [
+                68469
+            ],
+            "patch": "4.31"
+        },
+        "x68469": {
+            "level": 70,
+            "name_en": "The Anomaly",
+            "name_fr": "L'anomalie",
+            "npc_en": "Cid",
+            "npc_fr": "Cid",
+            "cPrev": [
+                68468
+            ],
+            "cNext": [
+                68567
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1796"
+            ],
+            "patch": "4.31"
+        },
+        "x68567": {
+            "level": 70,
+            "name_en": "Return to the Rift",
+            "name_fr": "Retour dans la fissure interdimensionnelle",
+            "npc_en": "Jessie",
+            "npc_fr": "Jessie",
+            "cPrev": [
+                68469
+            ],
+            "cNext": [
+                68568
+            ],
+            "patch": "4.31"
+        },
+        "x68568": {
+            "level": 70,
+            "name_en": "No Slowing Down",
+            "name_fr": "Attention au déraillement",
+            "unlock": "duty.dutyraid-finder.raids.sb.9",
+            "npc_en": "Cid",
+            "npc_fr": "Cid",
+            "cPrev": [
+                68567
+            ],
+            "cNext": [
+                68569
+            ],
+            "patch": "4.31"
+        },
+        "x68569": {
+            "level": 70,
+            "name_en": "An Unfinished Masterpiece",
+            "name_fr": "L'œuvre inachevée",
+            "unlock": "duty.dutyraid-finder.raids.sb.10",
+            "npc_en": "Cid",
+            "npc_fr": "Cid",
+            "cPrev": [
+                68568
+            ],
+            "cNext": [
+                68570
+            ],
+            "patch": "4.31"
+        },
+        "x68570": {
+            "level": 70,
+            "name_en": "Won't Let You Pass",
+            "name_fr": "Le dernier rempart",
+            "unlock": "duty.dutyraid-finder.raids.sb.11",
+            "npc_en": "Wedge",
+            "npc_fr": "Wedge",
+            "cPrev": [
+                68569
+            ],
+            "cNext": [
+                68571
+            ],
+            "patch": "4.31"
+        },
+        "x68571": {
+            "level": 70,
+            "name_en": "Test World of Ruin",
+            "name_fr": "Danse avec le Fou",
+            "unlock": "duty.dutyraid-finder.raids.sb.12",
+            "npc_en": "Nero",
+            "npc_fr": "Nero",
+            "cPrev": [
+                68570
+            ],
+            "cNext": [
+                68690
+            ],
+            "patch": "4.31"
+        },
+        "x68690": {
+            "level": 70,
+            "name_en": "In the Beginning, There Was Chaos",
+            "name_fr": "Dernier appel",
+            "unlock": "duty.dutyraid-finder.raids.sb.18",
+            "npc_en": "Jessie",
+            "npc_fr": "Jessie",
+            "cPrev": [
+                68571
+            ],
+            "cNext": [
+                68691
+            ],
+            "patch": "4.4"
+        },
+        "x68691": {
+            "level": 70,
+            "name_en": "And Like Fire Was His Mane",
+            "name_fr": "Le père de tous les dragons",
+            "unlock": "duty.dutyraid-finder.raids.sb.19",
+            "npc_en": "Cid",
+            "npc_fr": "Cid",
+            "cPrev": [
+                68690
+            ],
+            "cNext": [
+                68692
+            ],
+            "patch": "4.4"
+        },
+        "x68692": {
+            "level": 70,
+            "name_en": "In the End, There Is Omega",
+            "name_fr": "Le combat du cœur",
+            "unlock": [
+                "duty.dutyraid-finder.raids.sb.20",
+                "duty.dutyraid-finder.raids.sb.21"
+            ],
+            "npc_en": "Cid",
+            "npc_fr": "Cid",
+            "cPrev": [
+                68691
+            ],
+            "cNext": [
+                68693
+            ],
+            "patch": "4.4"
+        },
+        "x68693": {
+            "level": 70,
+            "name_en": "To Kweh under Distant Skies",
+            "name_fr": "Le grand envol",
+            "npc_en": "Biggs",
+            "npc_fr": "Biggs",
+            "cPrev": [
+                68692
+            ],
+            "patch": "4.4"
+        }
+    }
+}

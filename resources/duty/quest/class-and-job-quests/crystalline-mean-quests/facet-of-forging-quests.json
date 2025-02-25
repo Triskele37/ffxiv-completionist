@@ -1,0 +1,49 @@
+{
+    "key": "facet-of-forging-quests",
+    "groupName_en": "Facet of Forging Quests",
+    "groupName_fr": "Quêtes des métallurgistes",
+    "tasks": {
+        "x68763": {
+            "level": 70,
+            "name_en": "Iola, Forgemaster",
+            "name_fr": "La motivation d'une métallurgiste",
+            "npc_en": "Iola",
+            "npc_fr": "Iola",
+            "cPrev": [
+                "duty.quests.class--job.crystalline-mean.69191"
+            ],
+            "cNext": [
+                68764
+            ],
+            "patch": "5.0"
+        },
+        "x68764": {
+            "level": 75,
+            "name_en": "To Struggle Nu Mou",
+            "name_fr": "Voyage d'affaires chez les Nu Mou",
+            "npc_en": "Iola",
+            "npc_fr": "Iola",
+            "cPrev": [
+                68763
+            ],
+            "cNext": [
+                68765
+            ],
+            "patch": "5.0"
+        },
+        "x68765": {
+            "level": 80,
+            "name_en": "The Iron Bellows",
+            "name_fr": "Pour la grande gloire de la soufflerie",
+            "npc_en": "Iola",
+            "npc_fr": "Iola",
+            "cPrev": [
+                68764
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.2323"
+            ],
+            "patch": "5.0"
+        }
+    }
+}

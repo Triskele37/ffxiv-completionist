@@ -1,0 +1,130 @@
+{
+    "key": "thaumaturge-quests",
+    "groupName_en": "Thaumaturge Quests",
+    "groupName_fr": "Quêtes d'occultiste",
+    "tasks": {
+        "x65880": {
+            "level": 1,
+            "name_en": "Way of the Thaumaturge",
+            "name_fr": "La voie de l'occultisme",
+            "npc_en": "Yayake",
+            "npc_fr": "Yayake",
+            "cPrev": [
+                "duty.quests.other.quasi-quests.65719"
+            ],
+            "cNext": [
+                65882
+            ],
+            "patch": "4.31"
+        },
+        "x65882": {
+            "level": 1,
+            "name_en": "My First Scepter",
+            "name_fr": "Le sceptre de l'initiation",
+            "npc_en": "Cocobuki",
+            "npc_fr": "Cocobuki",
+            "cPrev": [
+                65880
+            ],
+            "cNext": [
+                65885,
+                65883
+            ],
+            "patch": "4.31"
+        },
+        "x65883": {
+            "level": 5,
+            "name_en": "The Threat of Intimacy",
+            "name_fr": "La menace imminente",
+            "cPrevAny": true,
+            "npc_en": "Cocobuki",
+            "npc_fr": "Cocobuki",
+            "cPrev": [
+                65880,
+                65882
+            ],
+            "cNext": [
+                65885
+            ],
+            "patch": "4.31"
+        },
+        "x65885": {
+            "level": 10,
+            "name_en": "The Threat of Paucity",
+            "name_fr": "Le tarissement fatal",
+            "npc_en": "Cocobuki",
+            "npc_fr": "Cocobuki",
+            "cPrev": [
+                65882,
+                65883
+            ],
+            "cNext": [
+                65886
+            ],
+            "patch": "4.31"
+        },
+        "x65886": {
+            "level": 15,
+            "name_en": "The Threat of Superiority",
+            "name_fr": "La supériorité ennemie",
+            "npc_en": "Cocobuki",
+            "npc_fr": "Cocobuki",
+            "cPrev": [
+                65885
+            ],
+            "cNext": [
+                65887
+            ],
+            "patch": "4.31"
+        },
+        "x65887": {
+            "level": 20,
+            "name_en": "The Threat of Perplexity",
+            "name_fr": "L'encerclement nuisible",
+            "npc_en": "Cocobuki",
+            "npc_fr": "Cocobuki",
+            "cPrev": [
+                65886
+            ],
+            "cNext": [
+                65888
+            ],
+            "patch": "4.31"
+        },
+        "x65888": {
+            "level": 25,
+            "name_en": "The Hidden Chapter",
+            "name_fr": "Une lueur au fond de l'abîme",
+            "npc_en": "Cocobygo",
+            "npc_fr": "Cocobygo",
+            "cPrev": [
+                65887
+            ],
+            "cNext": [
+                65889
+            ],
+            "patch": "4.31"
+        },
+        "x65889": {
+            "level": 30,
+            "name_en": "Facing Your Demons",
+            "name_fr": "L'occulte courage",
+            "npc_en": "Cocobuki",
+            "npc_fr": "Cocobuki",
+            "cPrev": [
+                65888
+            ],
+            "cNext": [
+                "duty.quests.class--job.disciple-of-magic-job.black-mage.66609"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.56"
+            ],
+            "cCombo": [
+                "character.achievement.quests.job-role-quests.313",
+                "character.achievement.quests.job-role-quests.315"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

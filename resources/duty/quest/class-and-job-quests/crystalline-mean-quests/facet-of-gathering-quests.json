@@ -1,0 +1,49 @@
+{
+    "key": "facet-of-gathering-quests",
+    "groupName_en": "Facet of Gathering Quests",
+    "groupName_fr": "Quêtes des naturalistes",
+    "tasks": {
+        "x68772": {
+            "level": 70,
+            "name_en": "On the Trail of a Myth",
+            "name_fr": "Une responsable irresponsable",
+            "npc_en": "Qeshi-Rae",
+            "npc_fr": "Qeshi-Rae",
+            "cPrev": [
+                "duty.quests.class--job.crystalline-mean.69191"
+            ],
+            "cNext": [
+                68773
+            ],
+            "patch": "5.0"
+        },
+        "x68773": {
+            "level": 75,
+            "name_en": "Shedding Light on the Myth",
+            "name_fr": "Simoun fraude",
+            "npc_en": "Qeshi-Rae",
+            "npc_fr": "Qeshi-Rae",
+            "cPrev": [
+                68772
+            ],
+            "cNext": [
+                68774
+            ],
+            "patch": "5.0"
+        },
+        "x68774": {
+            "level": 80,
+            "name_en": "The Myth Takes Form",
+            "name_fr": "Simoun m'était conté",
+            "npc_en": "Qeshi-Rae",
+            "npc_fr": "Qeshi-Rae",
+            "cPrev": [
+                68773
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.2326"
+            ],
+            "patch": "5.0"
+        }
+    }
+}

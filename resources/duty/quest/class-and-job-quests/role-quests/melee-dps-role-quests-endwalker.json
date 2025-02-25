@@ -1,0 +1,91 @@
+{
+    "key": "melee-dps-role-quests-endwalker",
+    "groupName_en": "Melee DPS Role Quests (Endwalker)",
+    "groupName_fr": "Quêtes de DPS physique de mêlée (Endwalker)",
+    "tasks": {
+		"x69650": {
+            "level": 85,
+            "name_en": "Storm Clouds Brewing",
+            "name_fr": "L'appel de la Noscea",
+            "npc_en": "Lominsan Delegate",
+            "npc_fr": "Attaché Militaire De Limsa Lominsa",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69954"
+            ],
+            "cNext": [
+                69651
+            ],
+            "patch": "6.0"
+        },
+        "x69651": {
+            "level": 86,
+            "name_en": "The Crushing Tide",
+            "name_fr": "Scission sahuagine",
+            "npc_en": "Maelstrom Secretariat",
+            "npc_fr": "Secrétaire Du Maelstrom",
+            "cPrev": [
+                69650
+            ],
+            "cNext": [
+                69652
+            ],
+            "patch": "6.0"
+        },
+        "x69652": {
+            "level": 87,
+            "name_en": "Old Heroes Never Die",
+            "name_fr": "Retrouvailles fraternelles",
+            "npc_en": "Maelstrom Secretariat",
+            "npc_fr": "Secrétaire Du Maelstrom",
+            "cPrev": [
+                69651
+            ],
+            "cNext": [
+                69653
+            ],
+            "patch": "6.0"
+        },
+        "x69653": {
+            "level": 88,
+            "name_en": "A Mother's Suffering",
+            "name_fr": "La souffrance d'une mère",
+            "npc_en": "Maelstrom Secretariat",
+            "npc_fr": "Secrétaire Du Maelstrom",
+            "cPrev": [
+                69652
+            ],
+            "cNext": [
+                69654
+            ],
+            "patch": "6.0"
+        },
+        "x69654": {
+            "level": 89,
+            "name_en": "Out of the Shadows",
+            "name_fr": "Le dernier gabier",
+            "npc_en": "Maelstrom Secretariat",
+            "npc_fr": "Secrétaire Du Maelstrom",
+            "cPrev": [
+                69653
+            ],
+            "cNext": [
+                69655
+            ],
+            "patch": "6.0"
+        },
+        "x69655": {
+            "level": 90,
+            "name_en": "To Calmer Seas",
+            "name_fr": "Cap sur la paix",
+            "npc_en": "Maelstrom Secretariat",
+            "npc_fr": "Secrétaire Du Maelstrom",
+            "cPrev": [
+                69654
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.2963"
+            ],
+            "patch": "6.0"
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "key": "stormblood-allied-society-quests",
+    "groupName_en": "Stormblood Allied Society Quests",
+    "groupName_fr": "Quêtes des peuples alliés (Stormblood)",
+    "tasks": {
+        "x68697": {
+            "level": 70,
+            "name_en": "The Ananta Maid's Tail",
+            "name_fr": "Une sirène à Kugane",
+            "npc_en": "East Aldenard Trading Company Assistant",
+            "npc_fr": "Apprenti De La F.C.A.O.",
+            "cPrev": [
+                "duty.quests.tribal-quests.kojin.68514",
+                "duty.quests.tribal-quests.ananta.68577",
+                "duty.quests.tribal-quests.namazu.68638"
+            ],
+            "cNext": [
+                68698
+            ],
+            "patch": "4.56"
+        },
+        "x68698": {
+            "level": 70,
+            "name_en": "Ruby Seas under Ruby Skies",
+            "name_fr": "La légende des trois trésors",
+            "npc_en": "J'olhmyn",
+            "npc_fr": "J'olhmyn",
+            "cPrev": [
+                68697
+            ],
+            "cNext": [
+                68699
+            ],
+            "patch": "4.56"
+        },
+        "x68699": {
+            "level": 70,
+            "name_en": "Fish in a Barrel",
+            "name_fr": "La pêche au sage",
+            "npc_en": "J'olhmyn",
+            "npc_fr": "J'olhmyn",
+            "cPrev": [
+                68698
+            ],
+            "cNext": [
+                68700
+            ],
+            "patch": "4.56"
+        },
+        "x68700": {
+            "level": 70,
+            "name_en": "What a Wonder-full World",
+            "name_fr": "Exaltation sur le pont",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "cPrev": [
+                68699
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.59",
+                "character.character.tribal-relations.66",
+                "character.character.tribal-relations.73",
+                "character.achievement.quests.tribal-quests.2235",
+                "social.emotes.general.194"
+            ],
+            "patch": "4.56"
+        }
+    }
+}

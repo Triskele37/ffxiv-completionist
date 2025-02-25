@@ -37,7 +37,7 @@
             "name_en": "The Bozja Incident",
             "name_fr": "Prélude à la catastrophe",
             "npc_en": "Ironworks Engineer",
-            "npc_fr": "employée des Forges",
+            "npc_fr": "Employée Des Forges",
             "cPrev": [
                 69371
             ],
@@ -227,7 +227,7 @@
             "name_en": "A Sober Proposal",
             "name_fr": "La forge avant la boisson",
             "npc_en": "Stressed Soldier",
-            "npc_fr": "résistant inquiet",
+            "npc_fr": "Résistant Inquiet",
             "cPrev": [
                 69477
             ],
@@ -374,19 +374,8 @@
                 69575
             ],
             "cNext": [
-                69577,
+                "duty.quests.other.quasi-quests.69577",
                 69632
-            ],
-            "patch": "5.45"
-        },
-        "x69577": {
-            "level": 80,
-            "name_en": "Forged Anew",
-            "name_fr": "Le juste ajustement",
-            "npc_en": "Allagan Node",
-            "npc_fr": "système de mémorisation",
-            "cPrev": [
-                69576
             ],
             "patch": "5.45"
         },

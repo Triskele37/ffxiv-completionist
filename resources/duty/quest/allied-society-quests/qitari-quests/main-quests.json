@@ -1,0 +1,240 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+		"x69330": {
+            "level": 70,
+            "name_en": "The Stewards of Note",
+            "name_fr": "Qui qui qui sont les Qitari?",
+            "npc_en": "Concerned Mother",
+            "npc_fr": "Mère Inquiète",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68877",
+                "duty.quests.sidequests.raktika.the-raktika-greatwood.69018"
+            ],
+            "cNext": [
+                69331
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.80"
+            ],
+            "patch": "5.2"
+        },
+        "x69331": {
+            "level": 70,
+            "name_en": "Wisdom of the Night",
+            "name_fr": "Le savoir du peuple de la Nuit",
+            "npc_en": "Chaqurl Qhotl",
+            "npc_fr": "Chaqurl Qhotl",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                69330
+            ],
+            "cNext": [
+                69336,
+                69337
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.81"
+            ],
+            "patch": "5.2"
+        },
+        "x69336": {
+            "level": 70,
+            "name_en": "The First Stela: Of Ronkan Might",
+            "name_fr": "Première stèle: Ronka conquérant",
+            "npc_en": "Qitarl Natl",
+            "npc_fr": "Qitarl Natl",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                69331
+            ],
+            "cNext": [
+                69332
+            ],
+            "cExclude": [
+                69337
+            ],
+            "patch": "5.2"
+        },
+        "x69337": {
+            "level": 70,
+            "name_en": "The First Stela: Of Ronkan Benevolence",
+            "name_fr": "Première stèle: Ronka bienveillant",
+            "npc_en": "Chaqurl Qhotl",
+            "npc_fr": "Chaqurl Qhotl",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                69331
+            ],
+            "cNext": [
+                69332
+            ],
+            "cExclude": [
+                69336
+            ],
+            "patch": "5.2"
+        },
+        "x69332": {
+            "level": 70,
+            "name_en": "Delving Deeper",
+            "name_fr": "Le rituel oublié",
+            "cPrevAny": true,
+            "npc_en": "Qitari Serpent",
+            "npc_fr": "Grand Serpent Des Qitari?",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                69336,
+                69337
+            ],
+            "cNext": [
+                69338,
+                69339
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.82"
+            ],
+            "patch": "5.2"
+        },
+        "x69338": {
+            "level": 70,
+            "name_en": "The Second Stela: The Hunters and the Hunted",
+            "name_fr": "Deuxième stèle: Viis chasseuses",
+            "npc_en": "Qitarl Natl",
+            "npc_fr": "Qitarl Natl",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                69332
+            ],
+            "cNext": [
+                69333
+            ],
+            "cExclude": [
+                69339
+            ],
+            "patch": "5.2"
+        },
+        "x69339": {
+            "level": 70,
+            "name_en": "The Second Stela: Fast Friends",
+            "name_fr": "Deuxième stèle: Viis harmonieuses",
+            "npc_en": "Chaqurl Qhotl",
+            "npc_fr": "Chaqurl Qhotl",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                69332
+            ],
+            "cNext": [
+                69333
+            ],
+            "cExclude": [
+                69338
+            ],
+            "patch": "5.2"
+        },
+        "x69333": {
+            "level": 70,
+            "name_en": "A Chilling Fate",
+            "name_fr": "Qitari mouillée, Qitari enrhumée",
+            "cPrevAny": true,
+            "npc_en": "Qitari Serpent",
+            "npc_fr": "Grand Serpent Des Qitari?",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                69338,
+                69339
+            ],
+            "cNext": [
+                69340,
+                69341
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.83"
+            ],
+            "patch": "5.2"
+        },
+        "x69340": {
+            "level": 70,
+            "name_en": "The Third Stela: A Famine for Fishmen",
+            "name_fr": "Troisième stèle: extinction des poissons-chats",
+            "npc_en": "Qitarl Natl",
+            "npc_fr": "Qitarl Natl",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                69333
+            ],
+            "cNext": [
+                69334
+            ],
+            "cExclude": [
+                69341
+            ],
+            "patch": "5.2"
+        },
+        "x69341": {
+            "level": 70,
+            "name_en": "The Third Stela: A Feast for Fishmen",
+            "name_fr": "Troisième stèle: protection des poissons-chats",
+            "npc_en": "Chaqurl Qhotl",
+            "npc_fr": "Chaqurl Qhotl",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                69333
+            ],
+            "cNext": [
+                69334
+            ],
+            "cExclude": [
+                69340
+            ],
+            "patch": "5.2"
+        },
+		"x69334": {
+            "level": 70,
+            "name_en": "What Ails the Forest",
+            "name_fr": "Un mal invisible",
+            "cPrevAny": true,
+            "npc_en": "Qitari Serpent",
+            "npc_fr": "Grand Serpent Des Qitari?",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                69340,
+                69341
+            ],
+            "cNext": [
+                69335
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.84"
+            ],
+            "patch": "5.2"
+        },
+        "x69335": {
+            "level": 70,
+            "name_en": "Glory Be to the Scree",
+            "name_fr": "Une nouvelle fraternité forestière",
+            "npc_en": "Chaqurl Qhotl",
+            "npc_fr": "Chaqurl Qhotl",
+            "reputation_en": "Sworn",
+            "reputation_fr": "Assermenté",
+            "cPrev": [
+                69334
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.85"
+            ],
+            "patch": "5.2"
+        }
+    }
+}

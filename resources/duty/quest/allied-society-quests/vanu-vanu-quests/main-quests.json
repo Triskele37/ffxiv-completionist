@@ -1,0 +1,155 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+		"x67700": {
+            "level": 50,
+            "name_en": "Three Beaks to the Wind",
+            "name_fr": "À plumes et à fleurs",
+            "npc_en": "Sonu Vanu",
+            "npc_fr": "Sonu Vanu",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67184"
+            ],
+            "cNext": [
+                67701
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.28"
+            ],
+            "patch": "4.31"
+        },
+        "x67701": {
+            "level": 50,
+            "name_en": "A Tribal Reunion",
+            "name_fr": "De précieux fugitifs",
+            "npc_en": "Linu Vali",
+            "npc_fr": "Linu Vali",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "cPrev": [
+                67700
+            ],
+            "cNext": [
+                67702
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.29"
+            ],
+            "patch": "4.31"
+        },
+        "x67702": {
+            "level": 50,
+            "name_en": "Linu's Lovely Bones",
+            "name_fr": "Le signe de l'amitié",
+            "npc_en": "Linu Vali",
+            "npc_fr": "Linu Vali",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "cPrev": [
+                67701
+            ],
+            "cNext": [
+                67703
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.30"
+            ],
+            "patch": "4.31"
+        },
+        "x67703": {
+            "level": 50,
+            "name_en": "In the Skycage over the Sea",
+            "name_fr": "La danse fraternelle",
+            "npc_en": "Linu Vali",
+            "npc_fr": "Linu Vali",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                67702
+            ],
+            "cNext": [
+                67704
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.31"
+            ],
+            "patch": "4.31"
+        },
+        "x67704": {
+            "level": 50,
+            "name_en": "Fishing for Friendship",
+            "name_fr": "Le festin de l'amitié",
+            "npc_en": "Linu Vali",
+            "npc_fr": "Linu Vali",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                67703
+            ],
+            "cNext": [
+                67705
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.32"
+            ],
+            "patch": "4.31"
+        },
+        "x67705": {
+            "level": 50,
+            "name_en": "Sundrop the Beat",
+            "name_fr": "L'admirable courage",
+            "npc_en": "Linu Vali",
+            "npc_fr": "Linu Vali",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                67704
+            ],
+            "cNext": [
+                67706
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.33",
+                "social.emotes.special.120"
+            ],
+            "patch": "4.31"
+        },
+        "x67706": {
+            "level": 50,
+            "name_en": "Nest Side Story",
+            "name_fr": "La danse des braves",
+            "npc_en": "Linu Vali",
+            "npc_fr": "Linu Vali",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                67705
+            ],
+            "cNext": [
+                67761
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.34"
+            ],
+            "patch": "4.31"
+        },
+        "x67761": {
+            "level": 50,
+            "name_en": "The Nest of Honor",
+            "name_fr": "Les mots de la gratitude",
+            "npc_en": "Linu Vali",
+            "npc_fr": "Linu Vali",
+            "reputation_en": "Sworn",
+            "reputation_fr": "Assermenté",
+            "cPrev": [
+                67706
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.35"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

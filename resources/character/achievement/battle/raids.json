@@ -1257,6 +1257,7 @@
             "description_fr": "Finir le Paradis du Pandæmonium 1 fois.",
             "patch": "6.4",
             "points": 5,
+            "cNext": [3249],
             "cSiblings": [
                 "duty.dutyraid-finder.raids.ew.23"
             ]
@@ -1267,7 +1268,9 @@
             "description_en": "Complete Pandæmonium: Anabaseios 5 times.",
             "description_fr": "Finir le Paradis du Pandæmonium 5 fois.",
             "patch": "6.4",
-            "points": 10
+            "points": 10,
+            "cPrev": [3248],
+            "cNext": [3250]
         },
         "x3250": {
             "name_en": "Apotheosis III",
@@ -1275,7 +1278,8 @@
             "description_en": "Complete Pandæmonium: Anabaseios 10 times.",
             "description_fr": "Finir le Paradis du Pandæmonium 10 fois.",
             "patch": "6.4",
-            "points": 20
+            "points": 20,
+            "cPrev": [3249]
         },
         "x3251": {
             "name_en": "Apotheosis Agria I",
@@ -1284,6 +1288,7 @@
             "description_fr": "Finir le Paradis du Pandæmonium (sadique) 1 fois.",
             "patch": "6.4",
             "points": 5,
+            "cNext": [3252],
             "cSiblings": [
                 "duty.dutyraid-finder.raids.ew.27"
             ]
@@ -1294,7 +1299,9 @@
             "description_en": "Complete Pandæmonium: Anabaseios (Savage) 5 times.",
             "description_fr": "Finir le Paradis du Pandæmonium (sadique) 5 fois.",
             "patch": "6.4",
-            "points": 10
+            "points": 10,
+            "cPrev": [3251],
+            "cNext": [3253]
         },
         "x3253": {
             "name_en": "Apotheosis Agria III",
@@ -1302,7 +1309,8 @@
             "description_en": "Complete Pandæmonium: Anabaseios (Savage) 10 times.",
             "description_fr": "Finir le Paradis du Pandæmonium (sadique) 10 fois.",
             "patch": "6.4",
-            "points": 20
+            "points": 20,
+            "cPrev": [3252]
         },
         "x3403": {
             "name_en": "Divine Satisfaction",

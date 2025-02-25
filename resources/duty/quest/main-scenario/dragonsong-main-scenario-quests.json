@@ -1,0 +1,381 @@
+{
+    "key": "dragonsong-main-scenario-quests",
+    "groupName_en": "Dragonsong Main Scenario Quests",
+    "groupName_fr": "Guerre du chant des dragons - Épilogue",
+    "tasks": {
+        "x67692": {
+            "level": 60,
+            "name_en": "An Uncertain Future",
+            "name_fr": "Un avenir incertain",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67205"
+            ],
+            "cNext": [
+                67693
+            ],
+            "patch": "4.31"
+        },
+        "x67693": {
+            "level": 60,
+            "name_en": "Breaking the Cycle",
+            "name_fr": "Prise de contact",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67692
+            ],
+            "cNext": [
+                67694
+            ],
+            "patch": "4.31"
+        },
+        "x67694": {
+            "level": 60,
+            "name_en": "Another Time, Another Place",
+            "name_fr": "Retrouvailles inattendues",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67693
+            ],
+            "cNext": [
+                67695
+            ],
+            "patch": "4.31"
+        },
+        "x67695": {
+            "level": 60,
+            "name_en": "In the Eye of the Beholder",
+            "name_fr": "L'œil de cristal",
+            "npc_en": "Krile",
+            "npc_fr": "Krile",
+            "cPrev": [
+                67694
+            ],
+            "cNext": [
+                67696
+            ],
+            "patch": "4.31"
+        },
+        "x67696": {
+            "level": 60,
+            "name_en": "A Little Slow, a Little Late",
+            "name_fr": "Une ténébreuse rencontre",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67695
+            ],
+            "cNext": [
+                67697
+            ],
+            "patch": "4.31"
+        },
+        "x67697": {
+            "level": 60,
+            "name_en": "Dreams of the Lost",
+            "name_fr": "Peur sur la sainte Cité",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67696
+            ],
+            "cNext": [
+                67698
+            ],
+            "patch": "4.31"
+        },
+        "x67698": {
+            "level": 60,
+            "name_en": "Against the Dying of the Light",
+            "name_fr": "Pulsions pyromanes",
+            "npc_en": "Lucia",
+            "npc_fr": "Lucia",
+            "cPrev": [
+                67697
+            ],
+            "cNext": [
+                67699
+            ],
+            "patch": "4.31"
+        },
+        "x67699": {
+            "level": 60,
+            "name_en": "As Goes Light, So Goes Darkness",
+            "name_fr": "Entre Lumière et Ténèbres",
+            "npc_en": "Lucia",
+            "npc_fr": "Lucia",
+            "cPrev": [
+                67698
+            ],
+            "cNext": [
+                67767,
+                "duty.quests.chronicles-of-a-new-era.the-warring-triad.67766"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1387"
+            ],
+            "patch": "4.31"
+        },
+        "x67767": {
+            "level": 60,
+            "name_en": "As It Once Was",
+            "name_fr": "Heureuses retrouvailles",
+            "npc_en": "Tataru",
+            "npc_fr": "Tataru",
+            "cPrev": [
+                67699
+            ],
+            "cNext": [
+                67768
+            ],
+            "patch": "4.31"
+        },
+        "x67768": {
+            "level": 60,
+            "name_en": "The Word of the Mother",
+            "name_fr": "La voix de la planète",
+            "unlock": "duty.dutyraid-finder.dungeons.hw.10",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67767
+            ],
+            "cNext": [
+                67769
+            ],
+            "patch": "4.31"
+        },
+        "x67769": {
+            "level": 60,
+            "name_en": "This War of Ours",
+            "name_fr": "Guerre et paix",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67768
+            ],
+            "cNext": [
+                67770
+            ],
+            "patch": "4.31"
+        },
+        "x67770": {
+            "level": 60,
+            "name_en": "Staunch Conviction",
+            "name_fr": "La foi en l'avenir",
+            "npc_en": "Lucia",
+            "npc_fr": "Lucia",
+            "cPrev": [
+                67769
+            ],
+            "cNext": [
+                67771
+            ],
+            "patch": "4.31"
+        },
+        "x67771": {
+            "level": 60,
+            "name_en": "Once More, a Favor",
+            "name_fr": "Loup, y es-tu?",
+            "npc_en": "Emmanellain",
+            "npc_fr": "Emmanellain",
+            "cPrev": [
+                67770
+            ],
+            "cNext": [
+                67772
+            ],
+            "patch": "4.31"
+        },
+        "x67772": {
+            "level": 60,
+            "name_en": "For Those We Have Lost",
+            "name_fr": "Le retour du réel",
+            "npc_en": "Emmanellain",
+            "npc_fr": "Emmanellain",
+            "cPrev": [
+                67771
+            ],
+            "cNext": [
+                67773
+            ],
+            "patch": "4.31"
+        },
+        "x67773": {
+            "level": 60,
+            "name_en": "Consequences",
+            "name_fr": "À la force du poing",
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "cPrev": [
+                67772
+            ],
+            "cNext": [
+                67774
+            ],
+            "patch": "4.31"
+        },
+        "x67774": {
+            "level": 60,
+            "name_en": "Choices",
+            "name_fr": "L'union sacrée",
+            "npc_en": "Thancred",
+            "npc_fr": "Thancred",
+            "cPrev": [
+                67773
+            ],
+            "cNext": [
+                67775
+            ],
+            "patch": "4.31"
+        },
+        "x67775": {
+            "level": 60,
+            "name_en": "A Spectacle for the Ages",
+            "name_fr": "La grande manœuvre éorzéenne",
+            "unlock": "social.emotes.general.122",
+            "npc_en": "Lucia",
+            "npc_fr": "Lucia",
+            "cPrev": [
+                67774
+            ],
+            "cNext": [
+                67776
+            ],
+            "cSiblings": [
+                "social.emotes.general.122"
+            ],
+            "patch": "4.31"
+        },
+        "x67776": {
+            "level": 60,
+            "name_en": "For Those We Can Yet Save",
+            "name_fr": "Vers de meilleurs lendemains",
+            "npc_en": "Aymeric",
+            "npc_fr": "Aymeric",
+            "cPrev": [
+                67775
+            ],
+            "cNext": [
+                67777
+            ],
+            "patch": "4.31"
+        },
+        "x67777": {
+            "level": 60,
+            "name_en": "Causes and Costs",
+            "name_fr": "Le destin en marche",
+            "unlock": "social.emotes.general.121",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67776
+            ],
+            "cNext": [
+                67778
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1493",
+                "social.emotes.general.121"
+            ],
+            "patch": "4.31"
+        },
+        "x67778": {
+            "level": 60,
+            "name_en": "The Man Within",
+            "name_fr": "Âmes en peine",
+            "npc_en": "House Fortemps Knight",
+            "npc_fr": "Chevalier Des Fortemps",
+            "cPrev": [
+                67777
+            ],
+            "cNext": [
+                67779
+            ],
+            "patch": "4.31"
+        },
+        "x67779": {
+            "level": 60,
+            "name_en": "An Ally for Ishgard",
+            "name_fr": "Prélude au cataclysme",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67778
+            ],
+            "cNext": [
+                67780
+            ],
+            "patch": "4.31"
+        },
+        "x67780": {
+            "level": 60,
+            "name_en": "Winning Over the Wyrm",
+            "name_fr": "L'épreuve du dragon sacré",
+            "unlock": "duty.dutyraid-finder.dungeons.hw.12",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67779
+            ],
+            "cNext": [
+                67781
+            ],
+            "patch": "4.31"
+        },
+        "x67781": {
+            "level": 60,
+            "name_en": "An End to the Song",
+            "name_fr": "Unis face au mal",
+            "unlock": "duty.dutyraid-finder.trials.hw.3",
+            "npc_en": "Aymeric",
+            "npc_fr": "Aymeric",
+            "cPrev": [
+                67780
+            ],
+            "cNext": [
+                67782
+            ],
+            "patch": "4.31"
+        },
+        "x67782": {
+            "level": 60,
+            "name_en": "Heroes of the Hour",
+            "name_fr": "Visite au manoir",
+            "npc_en": "Alphinaud",
+            "npc_fr": "Alphinaud",
+            "cPrev": [
+                67781
+            ],
+            "cNext": [
+                67783
+            ],
+            "patch": "4.31"
+        },
+        "x67783": {
+            "level": 60,
+            "name_en": "Litany of Peace",
+            "name_fr": "Un chant pour l'avenir",
+            "npc_en": "Aymeric",
+            "npc_fr": "Aymeric",
+            "cPrev": [
+                67782
+            ],
+            "cNext": [
+                "duty.quests.sidequests.chronicles-of-light.tales-of-the-dragonsong-war.67011",
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67825",
+                "duty.quests.main-scenario.post-dragonsong.67877",
+                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69208",
+                "duty.quests.sidequests.ishgardian.ishgard.69708",
+                "duty.quests.class--job.disciple-of-magic-job.blue-mage.69268"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.main-scenario.1594"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

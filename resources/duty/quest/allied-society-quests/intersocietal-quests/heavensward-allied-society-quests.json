@@ -1,0 +1,64 @@
+{
+    "key": "heavensward-allied-society-quests",
+    "groupName_en": "Heavensward Allied Society Quests",
+    "groupName_fr": "Quêtes des peuples alliés (Heavensward)",
+    "tasks": {
+        "x67918": {
+            "level": 60,
+            "name_en": "When Good Dragons Go Bad",
+            "name_fr": "Vathe à tout faire",
+            "npc_en": "Drydox",
+            "npc_fr": "Drydox",
+            "cNext": [
+                67919
+            ],
+            "patch": "4.31"
+        },
+        "x67919": {
+            "level": 60,
+            "name_en": "Who Was That Masked Man",
+            "name_fr": "À futé, futé et demi",
+            "npc_en": "Master Mogzin",
+            "npc_fr": "Mogzin",
+            "cPrev": [
+                67918
+            ],
+            "cNext": [
+                67920
+            ],
+            "patch": "4.31"
+        },
+        "x67920": {
+            "level": 60,
+            "name_en": "Lift Me to the Moon",
+            "name_fr": "Une danse, mais pas un cha-cha",
+            "npc_en": "Vath Deftarm",
+            "npc_fr": "Futé",
+            "cPrev": [
+                67919
+            ],
+            "cNext": [
+                67921
+            ],
+            "patch": "4.31"
+        },
+        "x67921": {
+            "level": 60,
+            "name_en": "Eternity, Loyalty, Honesty",
+            "name_fr": "Une amitié germée du chaos semé",
+            "npc_en": "Vath Deftarm",
+            "npc_fr": "Futé",
+            "cPrev": [
+                67920
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.36",
+                "character.character.tribal-relations.43",
+                "character.character.tribal-relations.52",
+                "character.achievement.quests.tribal-quests.1627",
+                "social.emotes.special.145"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

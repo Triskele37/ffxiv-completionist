@@ -1,0 +1,113 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+		"x70217": {
+            "level": 80,
+            "name_en": "Must Be Dreaming(way)",
+            "name_fr": "Rêves partis!",
+            "npc_en": "Dreamingway",
+            "npc_fr": "Dreamingway",
+            "cPrev": [
+                "duty.quests.sidequests.mare-lamentorum.mare-lamentorum.70055",
+                "duty.quests.main-scenario.endwalker.70000"
+            ],
+            "cNext": [
+                70218
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.104"
+            ],
+            "patch": "6.35"
+        },
+        "x70218": {
+            "level": 80,
+            "name_en": "The Incredible Machines",
+            "name_fr": "Rêves de machines!",
+            "reputation": "REPUTATION.3",
+            "npc_en": "Dreamingway",
+            "npc_fr": "Dreamingway",
+            "cPrev": [
+                70217
+            ],
+            "cNext": [
+                70219
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.105"
+            ],
+            "patch": "6.35"
+        },
+        "x70219": {
+            "level": 80,
+            "name_en": "Too Few Cooks",
+            "name_fr": "Rêves de cuisine!",
+            "reputation": "REPUTATION.4",
+            "npc_en": "Dreamingway",
+            "npc_fr": "Dreamingway",
+            "cPrev": [
+                70218
+            ],
+            "cNext": [
+                70220
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.106"
+            ],
+            "patch": "6.35"
+        },
+        "x70220": {
+            "level": 80,
+            "name_en": "Teamwork Makes the Dream Work",
+            "name_fr": "Rêves artistiques!",
+            "reputation": "REPUTATION.5",
+            "npc_en": "Dreamingway",
+            "npc_fr": "Dreamingway",
+            "cPrev": [
+                70219
+            ],
+            "cNext": [
+                70221
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.107"
+            ],
+            "patch": "6.35"
+        },
+        "x70221": {
+            "level": 80,
+            "name_en": "A Million Malms Away",
+            "name_fr": "Rêves radiophoniques!",
+            "reputation": "REPUTATION.6",
+            "npc_en": "Dreamingway",
+            "npc_fr": "Dreamingway",
+            "cPrev": [
+                70220
+            ],
+            "cNext": [
+                70222
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.108"
+            ],
+            "patch": "6.35"
+        },
+        "x70222": {
+            "level": 80,
+            "name_en": "Dreams Come True",
+            "name_fr": "Rêves sans fin!",
+            "reputation": "REPUTATION.7",
+            "npc_en": "Dreamingway",
+            "npc_fr": "Dreamingway",
+            "cPrev": [
+                70221
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.109",
+                "social.emotes.general.252"
+            ],
+            "patch": "6.35"
+        }
+    }
+}

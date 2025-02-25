@@ -1,0 +1,119 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+		"x68509": {
+            "level": 60,
+            "name_en": "Heaven-sent",
+            "name_fr": "Kami miniature",
+            "npc_en": "Vexed Villager",
+            "npc_fr": "Pêcheur Inquiet",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68026"
+            ],
+            "cNext": [
+                68510
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.53"
+            ],
+            "patch": "4.31"
+        },
+        "x68510": {
+            "level": 60,
+            "name_en": "Under Wraps",
+            "name_fr": "Un silure en filature",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                68509
+            ],
+            "cNext": [
+                68511
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.54"
+            ],
+            "patch": "4.31"
+        },
+        "x68511": {
+            "level": 60,
+            "name_en": "The Value of Silence",
+            "name_fr": "Les rois du silence",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                68510
+            ],
+            "cNext": [
+                68512
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.55"
+            ],
+            "patch": "4.31"
+        },
+        "x68512": {
+            "level": 60,
+            "name_en": "Misdelivered",
+            "name_fr": "Les Rouges contre-attaquent",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                68511
+            ],
+            "cNext": [
+                68513
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.56"
+            ],
+            "patch": "4.31"
+        },
+        "x68513": {
+            "level": 60,
+            "name_en": "A Test of Courage",
+            "name_fr": "Allez les Verts!",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                68512
+            ],
+            "cNext": [
+                68514
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.57"
+            ],
+            "patch": "4.31"
+        },
+        "x68514": {
+            "level": 60,
+            "name_en": "True-blue",
+            "name_fr": "Il s'appelait Tsukumo",
+            "npc_en": "Kabuto",
+            "npc_fr": "Kabuto",
+            "reputation_en": "Sworn",
+            "reputation_fr": "Assermenté",
+            "cPrev": [
+                68513
+            ],
+            "cNext": [
+                "duty.quests.tribal-quests.tribal-alliance-quests.stormblood-tribal-quests.68697"
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.58"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "key": "conjurer-quests",
+    "groupName_en": "Conjurer Quests",
+    "groupName_fr": "Quêtes d'élémentaliste",
+    "tasks": {
+        "x65669": {
+            "level": 1,
+            "name_en": "Way of the Conjurer",
+            "name_fr": "La voie de l'élémentalisme",
+            "npc_en": "Madelle",
+            "npc_fr": "Madelle",
+            "cPrev": [
+                "duty.quests.other.quasi-quests.65718"
+            ],
+            "cNext": [
+                65747,
+                65683
+            ],
+            "patch": "4.31"
+        },
+        "x65747": {
+            "level": 1,
+            "name_en": "My First Cane",
+            "name_fr": "Protéger la forêt",
+            "npc_en": "E-Sumi-Yan",
+            "npc_fr": "E-Sumi-Yan",
+            "cPrev": [
+                65669
+            ],
+            "cNext": [
+                65584
+            ],
+            "patch": "4.31"
+        },
+        "x65584": {
+            "level": 5,
+            "name_en": "Trial by Earth",
+            "name_fr": "L'élément terre",
+            "npc_en": "E-Sumi-Yan",
+            "npc_fr": "E-Sumi-Yan",
+            "cPrev": [
+                65747
+            ],
+            "cNext": [
+                65683
+            ],
+            "patch": "4.31"
+        },
+        "x65683": {
+            "level": 10,
+            "name_en": "Trial by Wind",
+            "name_fr": "L'élément vent",
+            "npc_en": "E-Sumi-Yan",
+            "npc_fr": "E-Sumi-Yan",
+            "cPrev": [
+                65584,
+                65669
+            ],
+            "cNext": [
+                65628
+            ],
+            "patch": "4.31"
+        },
+        "x65628": {
+            "level": 15,
+            "name_en": "Trial by Water",
+            "name_fr": "L'élément eau",
+            "npc_en": "E-Sumi-Yan",
+            "npc_fr": "E-Sumi-Yan",
+            "cPrev": [
+                65683
+            ],
+            "cNext": [
+                65629
+            ],
+            "patch": "4.31"
+        },
+        "x65629": {
+            "level": 20,
+            "name_en": "Sylphie's Trials",
+            "name_fr": "À la découverte des éléments",
+            "npc_en": "E-Sumi-Yan",
+            "npc_fr": "E-Sumi-Yan",
+            "cPrev": [
+                65628
+            ],
+            "cNext": [
+                65976
+            ],
+            "patch": "4.31"
+        },
+        "x65976": {
+            "level": 25,
+            "name_en": "Like Mother, Like Daughter",
+            "name_fr": "Telle mère, telle fille",
+            "npc_en": "E-Sumi-Yan",
+            "npc_fr": "E-Sumi-Yan",
+            "cPrev": [
+                65629
+            ],
+            "cNext": [
+                65977
+            ],
+            "patch": "4.31"
+        },
+        "x65977": {
+            "level": 30,
+            "name_en": "In Nature's Embrace",
+            "name_fr": "L'éveil",
+            "npc_en": "E-Sumi-Yan",
+            "npc_fr": "E-Sumi-Yan",
+            "cPrev": [
+                65976
+            ],
+            "cNext": [
+                "duty.quests.class--job.disciple-of-magic-job.white-mage.66615",
+                "duty.quests.sidequests.gridanian.gridania.65730"
+            ],
+            "cSiblings": [
+                "character.adventure-plate.14"
+            ],
+            "cCombo": [
+                "character.achievement.quests.job-role-quests.313",
+                "character.achievement.quests.job-role-quests.315"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

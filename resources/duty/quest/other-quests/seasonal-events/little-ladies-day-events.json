@@ -1,0 +1,411 @@
+{
+    "key": "little-ladies-day-events",
+    "groupName_en": "Little Ladies' Day Events",
+    "groupName_fr": "Fête des demoiselles",
+    "tasks": {
+        "x66838": {
+            "level": 15,
+            "name_en": "All the Little Ladies (Gridania)",
+            "name_fr": "Pour le plaisir des dames (Gridania)",
+            "year": "2014",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cNext": [
+                66841
+            ],
+            "cExclude": [
+                66839,
+                66840
+            ],
+            "patch": "4.31"
+        },
+        "x66839": {
+            "level": 15,
+            "name_en": "All the Little Ladies (Limsa Lominsa)",
+            "name_fr": "Pour le plaisir des dames (Limsa Lominsa)",
+            "year": "2014",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cNext": [
+                66841
+            ],
+            "cExclude": [
+                66838,
+                66840
+            ],
+            "patch": "4.31"
+        },
+        "x66840": {
+            "level": 15,
+            "name_en": "All the Little Ladies (Ul'dah)",
+            "name_fr": "Pour le plaisir des dames (Ul'dah)",
+            "year": "2014",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cNext": [
+                66841
+            ],
+            "cExclude": [
+                66838,
+                66839
+            ],
+            "patch": "4.31"
+        },
+        "x66841": {
+            "level": 15,
+            "name_en": "A Peach by Any Other Name",
+            "name_fr": "Une fleur peut adoucir les mœurs",
+            "year": "2014",
+            "cPrevAny": true,
+            "npc_en": "Serendipity",
+            "npc_fr": "Serendipity",
+            "cPrev": [
+                66838,
+                66839,
+                66840
+            ],
+            "cNext": [
+                66842
+            ],
+            "patch": "4.31"
+        },
+        "x66842": {
+            "level": 15,
+            "name_en": "Say It with Peaches",
+            "name_fr": "Faire bonne impression",
+            "year": "2014",
+            "npc_en": "Serendipity",
+            "npc_fr": "Serendipity",
+            "cPrev": [
+                66841
+            ],
+            "cNext": [
+                66843
+            ],
+            "patch": "4.31"
+        },
+        "x66843": {
+            "level": 15,
+            "name_en": "A Real Peach",
+            "name_fr": "Une issue inattendue",
+            "year": "2014",
+            "npc_en": "Serendipity",
+            "npc_fr": "Serendipity",
+            "cPrev": [
+                66842
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.877"
+            ],
+            "patch": "4.31"
+        },
+        "x66035": {
+            "level": 15,
+            "name_en": "A Thorne-y Relationship",
+            "name_fr": "Un caprice de demoiselle",
+            "year": "2015",
+            "npc_en": "Sophisticated Servitor",
+            "npc_fr": "Serviteur Distingué",
+            "cNext": [
+                66036
+            ],
+            "patch": "4.31"
+        },
+        "x66036": {
+            "level": 15,
+            "name_en": "Digging for Dolls",
+            "name_fr": "Chasse aux poupées",
+            "year": "2015",
+            "npc_en": "Disciplined Domestic",
+            "npc_fr": "Camériste Diligente",
+            "cPrev": [
+                66035
+            ],
+            "cNext": [
+                66037
+            ],
+            "patch": "4.31"
+        },
+        "x66037": {
+            "level": 15,
+            "name_en": "A Father's Folly",
+            "name_fr": "Poupées de sires, poupées de Thorne",
+            "year": "2015",
+            "npc_en": "Nanapasi",
+            "npc_fr": "Nanapasi",
+            "cPrev": [
+                66036
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1082"
+            ],
+            "patch": "4.31"
+        },
+        "x67757": {
+            "level": 15,
+            "name_en": "Aligning the Stars",
+            "name_fr": "Les Églantines d'Ul'dah",
+            "year": "2016",
+            "npc_en": "Mythril Eye Reporter",
+            "npc_fr": "Journaliste De L'Œil De Mithril",
+            "cNext": [
+                67758
+            ],
+            "patch": "4.31"
+        },
+        "x67758": {
+            "level": 15,
+            "name_en": "Sugar, Spice, and Everything Rice",
+            "name_fr": "Distribution de gâteaux",
+            "year": "2016",
+            "npc_en": "Royal Servant",
+            "npc_fr": "Serviteur Du Sénéchal Royal",
+            "cPrev": [
+                67757
+            ],
+            "cNext": [
+                67759
+            ],
+            "patch": "4.31"
+        },
+        "x67759": {
+            "level": 15,
+            "name_en": "The Lead Starling",
+            "name_fr": "Le vote décisif",
+            "year": "2016",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cPrev": [
+                67758
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1393"
+            ],
+            "patch": "4.31"
+        },
+        "x67935": {
+            "level": 15,
+            "name_en": "Birdwatching Gone Wrong",
+            "name_fr": "Un Lalafell sous pression",
+            "year": "2017",
+            "npc_en": "Mythril Eye Reporter",
+            "npc_fr": "Journaliste De L'Œil De Mithril",
+            "cNext": [
+                67936
+            ],
+            "patch": "4.31"
+        },
+        "x67936": {
+            "level": 15,
+            "name_en": "The Disappearing Act",
+            "name_fr": "Atelier couture",
+            "year": "2017",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cPrev": [
+                67935
+            ],
+            "cNext": [
+                67937,
+                67942,
+                67943
+            ],
+            "patch": "4.31"
+        },
+        "x67937": {
+            "level": 15,
+            "name_en": "Ulala's Grand Performance",
+            "name_fr": "La percée d'Ulala",
+            "year": "2017",
+            "npc_en": "Ulala",
+            "npc_fr": "Ulala",
+            "cPrev": [
+                67936
+            ],
+            "cNext": [
+                67944
+            ],
+            "cExclude": [
+                67942,
+                67943
+            ],
+            "patch": "4.31"
+        },
+        "x67942": {
+            "level": 15,
+            "name_en": "Masha's Grand Performance",
+            "name_fr": "La percée de Masha",
+            "year": "2017",
+            "npc_en": "Masha Mhakaracca",
+            "npc_fr": "Masha Mhakaracca",
+            "cPrev": [
+                67936
+            ],
+            "cNext": [
+                67944
+            ],
+            "cExclude": [
+                67943,
+                67937
+            ],
+            "patch": "4.31"
+        },
+        "x67943": {
+            "level": 15,
+            "name_en": "Narumi's Grand Performance",
+            "name_fr": "La percée de Narumi",
+            "year": "2017",
+            "npc_en": "Narumi",
+            "npc_fr": "Narumi",
+            "cPrev": [
+                67936
+            ],
+            "cNext": [
+                67944
+            ],
+            "cExclude": [
+                67937,
+                67942
+            ],
+            "patch": "4.31"
+        },
+        "x67944": {
+            "level": 15,
+            "name_en": "Idols Give Back",
+            "name_fr": "Le concert événement des Églantines",
+            "year": "2017",
+            "cPrevAny": true,
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cPrev": [
+                67943,
+                67942,
+                67937
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.1682"
+            ],
+            "patch": "4.31"
+        },
+        "x68620": {
+            "level": 15,
+            "name_en": "A Colorful Affair",
+            "name_fr": "Concert participatif",
+            "year": "2018",
+            "npc_en": "Mythril Eye Reporter",
+            "npc_fr": "Journaliste De L'Œil De Mithril",
+            "cNext": [
+                68621
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2019"
+            ],
+            "patch": "4.31"
+        },
+        "x68621": {
+            "level": 15,
+            "name_en": "Untended Dreams",
+            "name_fr": "La demoiselle mystérieuse",
+            "year": "2018",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cPrev": [
+                68620
+            ],
+            "patch": "4.31"
+        },
+        "x68744": {
+            "level": 15,
+            "name_en": "Princess of Flowers",
+            "name_fr": "À l'ombre des jeunes filles en fleurs",
+            "year": "2019",
+            "npc_en": "Unsettled Seneschal",
+            "npc_fr": "Serviteur Paniqué",
+            "cNext": [
+                68745
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2238"
+            ],
+            "patch": "4.5"
+        },
+        "x68745": {
+            "level": 15,
+            "name_en": "One Short Day on Emerald Avenue",
+            "name_fr": "Les couronnes de l'amour",
+            "year": "2019",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cPrev": [
+                68744
+            ],
+            "patch": "4.5"
+        },
+        "x69386": {
+            "level": 15,
+            "name_en": "Pretty in Peaches",
+            "name_fr": "Pleure pas, Princesse",
+            "year": "2020",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cNext": [
+                69387
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.2601"
+            ],
+            "patch": "5.2"
+        },
+        "x69387": {
+            "level": 15,
+            "name_en": "A Guest to Impress",
+            "name_fr": "Les idoles des princesses",
+            "year": "2020",
+            "npc_en": "Damielliot",
+            "npc_fr": "Damielliot",
+            "cPrev": [
+                69386
+            ],
+            "patch": "5.2"
+        },
+        "x70007": {
+            "level": 15,
+            "name_en": "Fashion Face-off",
+            "name_fr": "Le défilé des demoiselles",
+            "year": "2022",
+            "npc_en": "Marabel",
+            "npc_fr": "Marabel",
+            "cNext": [
+                70008
+            ],
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3034"
+            ],
+            "patch": "6.0"
+        },
+        "x70008": {
+            "level": 15,
+            "name_en": "A Stylish Transformation",
+            "name_fr": "Nouveau look pour une nouvelle fête",
+            "year": "2022",
+            "npc_en": "Marabel",
+            "npc_fr": "Marabel",
+            "cPrev": [
+                70007
+            ],
+            "patch": "6.0"
+        },
+        "x70256": {
+            "level": 15,
+            "name_en": "Inheritance",
+            "name_fr": "La grâce de l'éventail",
+            "year": "2023",
+            "npc_en": "Royal Seneschal",
+            "npc_fr": "Sénéchal Royal",
+            "cSiblings": [
+                "character.achievement.quests.seasonal-events.3204"
+            ],
+            "patch": "6.3"
+        }
+    }
+}

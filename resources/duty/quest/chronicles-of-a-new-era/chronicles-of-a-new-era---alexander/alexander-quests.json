@@ -1,0 +1,240 @@
+{
+    "key": "alexander-quests",
+    "groupName_en": "Alexander Quests",
+    "groupName_fr": "Alexander",
+    "tasks": {
+        "x67626": {
+            "level": 60,
+            "name_en": "Disarmed",
+            "name_fr": "Un danger mécanique",
+            "unlock": "duty.dutyraid-finder.raids.hw.0",
+            "npc_en": "Slowfix",
+            "npc_fr": "Slowfix",
+            "cPrev": [
+                "duty.quests.main-scenario.heavensward.67205"
+            ],
+            "cNext": [
+                67627
+            ],
+            "patch": "4.31"
+        },
+        "x67627": {
+            "level": 60,
+            "name_en": "Steel and Steam",
+            "name_fr": "Une forteresse mobile",
+            "unlock": "duty.dutyraid-finder.raids.hw.1",
+            "npc_en": "Biggs",
+            "npc_fr": "Biggs",
+            "cPrev": [
+                67626
+            ],
+            "cNext": [
+                67628
+            ],
+            "patch": "4.31"
+        },
+        "x67628": {
+            "level": 60,
+            "name_en": "Tinker, Seeker, Soldier, Spy",
+            "name_fr": "Le dernier élément",
+            "unlock": "duty.dutyraid-finder.raids.hw.2",
+            "npc_en": "Biggs",
+            "npc_fr": "Biggs",
+            "cPrev": [
+                67627
+            ],
+            "cNext": [
+                67629
+            ],
+            "patch": "4.31"
+        },
+        "x67629": {
+            "level": 60,
+            "name_en": "The Pulsing Heart",
+            "name_fr": "Le cœur du géant",
+            "unlock": "duty.dutyraid-finder.raids.hw.3",
+            "npc_en": "Mide",
+            "npc_fr": "Mide",
+            "cPrev": [
+                67628
+            ],
+            "cNext": [
+                67630
+            ],
+            "patch": "4.31"
+        },
+        "x67630": {
+            "level": 60,
+            "name_en": "Enigma",
+            "name_fr": "Le trésor de Roundrox",
+            "npc_en": "Redbrix",
+            "npc_fr": "Redbrix",
+            "cPrev": [
+                67629
+            ],
+            "cNext": [
+                67785,
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67644"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1164"
+            ],
+            "patch": "4.31"
+        },
+        "x67785": {
+            "level": 60,
+            "name_en": "Rearmed",
+            "name_fr": "Le petit monde de Roundrox",
+            "unlock": "duty.dutyraid-finder.raids.hw.8",
+            "npc_en": "Roundrox",
+            "npc_fr": "Roundrox",
+            "cPrev": [
+                67630
+            ],
+            "cNext": [
+                67786
+            ],
+            "patch": "4.31"
+        },
+        "x67786": {
+            "level": 60,
+            "name_en": "The Folly of Youth",
+            "name_fr": "Doutes et regrets",
+            "unlock": "duty.dutyraid-finder.raids.hw.9",
+            "npc_en": "Biggs",
+            "npc_fr": "Biggs",
+            "cPrev": [
+                67785
+            ],
+            "cNext": [
+                67787
+            ],
+            "patch": "4.31"
+        },
+        "x67787": {
+            "level": 60,
+            "name_en": "Toppling the Tyrant",
+            "name_fr": "Intervention cérébrale",
+            "unlock": "duty.dutyraid-finder.raids.hw.10",
+            "npc_en": "Mide",
+            "npc_fr": "Mide",
+            "cPrev": [
+                67786
+            ],
+            "cNext": [
+                67788
+            ],
+            "patch": "4.31"
+        },
+        "x67788": {
+            "level": 60,
+            "name_en": "One Step Behind",
+            "name_fr": "Étranges prédictions",
+            "unlock": "duty.dutyraid-finder.raids.hw.11",
+            "npc_en": "Backrix",
+            "npc_fr": "Backrix",
+            "cPrev": [
+                67787
+            ],
+            "cNext": [
+                67789
+            ],
+            "patch": "4.31"
+        },
+        "x67789": {
+            "level": 60,
+            "name_en": "A Gob in the Machine",
+            "name_fr": "Une question de temps",
+            "npc_en": "Backrix",
+            "npc_fr": "Backrix",
+            "cPrev": [
+                67788
+            ],
+            "cNext": [
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67790",
+                67871
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1494"
+            ],
+            "patch": "4.31"
+        },
+        "x67871": {
+            "level": 60,
+            "name_en": "The Coeurl and the Colossus",
+            "name_fr": "Un danger en accélération",
+            "unlock": "duty.dutyraid-finder.raids.hw.16",
+            "npc_en": "Mide",
+            "npc_fr": "Mide",
+            "cPrev": [
+                67789
+            ],
+            "cNext": [
+                67872
+            ],
+            "patch": "4.31"
+        },
+        "x67872": {
+            "level": 60,
+            "name_en": "Biggs and Wedge's Excellent Adventure",
+            "name_fr": "Au-delà des couloirs du temps",
+            "unlock": "duty.dutyraid-finder.raids.hw.17",
+            "npc_en": "Biggs",
+            "npc_fr": "Biggs",
+            "cPrev": [
+                67871
+            ],
+            "cNext": [
+                67873
+            ],
+            "patch": "4.31"
+        },
+        "x67873": {
+            "level": 60,
+            "name_en": "Thus Spake Quickthinx",
+            "name_fr": "Le futur annoncé",
+            "unlock": "duty.dutyraid-finder.raids.hw.18",
+            "npc_en": "Biggs",
+            "npc_fr": "Biggs",
+            "cPrev": [
+                67872
+            ],
+            "cNext": [
+                67874
+            ],
+            "patch": "4.31"
+        },
+        "x67874": {
+            "level": 60,
+            "name_en": "Judgment Day",
+            "name_fr": "Le temps du jugement",
+            "unlock": "duty.dutyraid-finder.raids.hw.19",
+            "npc_en": "Biggs",
+            "npc_fr": "Biggs",
+            "cPrev": [
+                67873
+            ],
+            "cNext": [
+                67875
+            ],
+            "patch": "4.31"
+        },
+        "x67875": {
+            "level": 60,
+            "name_en": "Of Endings and Beginnings",
+            "name_fr": "Droit vers le futur",
+            "npc_en": "Biggs",
+            "npc_fr": "Biggs",
+            "cPrev": [
+                67874
+            ],
+            "cNext": [
+                "duty.quests.sidequests.mor-dhonan.mor-dhona.67876"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.1629"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

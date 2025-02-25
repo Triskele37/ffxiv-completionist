@@ -1,0 +1,96 @@
+{
+    "key": "healer-role-quests-shadowbringers",
+    "groupName_en": "Healer Role Quests (Shadowbringers)",
+    "groupName_fr": "Quêtes de soigneur (Shadowbringers)",
+    "tasks": {
+		"x68803": {
+            "level": 70,
+            "name_en": "Traditions and Travails",
+            "name_fr": "Giott l'invincible",
+            "npc_en": "Giott",
+            "npc_fr": "Giott",
+            "cPrev": [
+                "duty.quests.main-scenario.shadowbringers.68837"
+            ],
+            "cNext": [
+                68804
+            ],
+            "patch": "5.0"
+        },
+        "x68804": {
+            "level": 72,
+            "name_en": "Affronts and Allies",
+            "name_fr": "Le pouvoir de Sophrosyne",
+            "npc_en": "Giott",
+            "npc_fr": "Giott",
+            "cPrev": [
+                68803
+            ],
+            "cNext": [
+                68805
+            ],
+            "patch": "5.0"
+        },
+        "x68805": {
+            "level": 74,
+            "name_en": "The Scientific Method",
+            "name_fr": "Expérimentations thérapeutiques",
+            "npc_en": "Giott",
+            "npc_fr": "Giott",
+            "cPrev": [
+                68804
+            ],
+            "cNext": [
+                68806
+            ],
+            "patch": "5.0"
+        },
+        "x68806": {
+            "level": 76,
+            "name_en": "The Lost and the Found",
+            "name_fr": "Magie ancestrale",
+            "npc_en": "Giott",
+            "npc_fr": "Giott",
+            "cPrev": [
+                68805
+            ],
+            "cNext": [
+                68807
+            ],
+            "patch": "5.0"
+        },
+        "x68807": {
+            "level": 78,
+            "name_en": "Never to Return",
+            "name_fr": "Le secret des galeries naines",
+            "npc_en": "Giott",
+            "npc_fr": "Giott",
+            "cPrev": [
+                68806
+            ],
+            "cNext": [
+                68808
+            ],
+            "patch": "5.0"
+        },
+        "x68808": {
+            "level": 80,
+            "name_en": "The Soul of Temperance",
+            "name_fr": "Fière exilée",
+            "npc_en": "Giott",
+            "npc_fr": "Giott",
+            "cPrev": [
+                68807
+            ],
+            "cNext": [
+                "duty.quests.class--job.disciple-of-magic-job.scholar.68754",
+                "duty.quests.class--job.disciple-of-magic-job.white-mage.68751",
+                "duty.quests.class--job.disciple-of-magic-job.astrologian.68758"
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.2302"
+            ],
+            "patch": "5.0"
+        }
+    }
+}

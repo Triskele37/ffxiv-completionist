@@ -1,0 +1,172 @@
+{
+    "key": "return-to-ivalice",
+    "groupName_en": "Return to Ivalice",
+    "groupName_fr": "Retour à Ivalice",
+    "tasks": {
+        "x68539": {
+            "level": 70,
+            "name_en": "Dramatis Personae",
+            "name_fr": "Les artistes maudits",
+            "npc_en": "Keiten",
+            "npc_fr": "Keiten",
+            "cPrev": [
+                "duty.quests.main-scenario.stormblood.68089"
+            ],
+            "cNext": [
+                68540
+            ],
+            "patch": "4.31"
+        },
+        "x68540": {
+            "level": 70,
+            "name_en": "A City Fallen",
+            "name_fr": "La Cité royale de Rabanastre",
+            "unlock": "duty.dutyraid-finder.raids.sb.26",
+            "npc_en": "Ramza Bas Lexentale",
+            "npc_fr": "Ramza Bas Lexentale",
+            "cPrev": [
+                68539
+            ],
+            "cNext": [
+                68625
+            ],
+            "patch": "4.31"
+        },
+        "x68625": {
+            "level": 70,
+            "name_en": "Uninvited",
+            "name_fr": "Reptiles et boules de poils",
+            "npc_en": "Lina Mewrilah",
+            "npc_fr": "Lina Mewrilah",
+            "cPrev": [
+                68540
+            ],
+            "cNext": [
+                68627
+            ],
+            "patch": "4.31"
+        },
+        "x68627": {
+            "level": 70,
+            "name_en": "Desire",
+            "name_fr": "Le phare de tous les mystères",
+            "npc_en": "Jenomis Cen Lexentale",
+            "npc_fr": "Jenomis Cen Lexentale",
+            "cPrev": [
+                68625
+            ],
+            "cNext": [
+                68628
+            ],
+            "patch": "4.31"
+        },
+        "x68628": {
+            "level": 70,
+            "name_en": "Annihilation",
+            "name_fr": "La lumière au bout du monde",
+            "unlock": "duty.dutyraid-finder.raids.sb.27",
+            "npc_en": "Jenomis Cen Lexentale",
+            "npc_fr": "Jenomis Cen Lexentale",
+            "cPrev": [
+                68627
+            ],
+            "cNext": [
+                68723
+            ],
+            "patch": "4.31"
+        },
+        "x68723": {
+            "level": 70,
+            "name_en": "The Path of Most Resistance",
+            "name_fr": "La résistance dalmasquienne",
+            "npc_en": "Lina Mewrilah",
+            "npc_fr": "Lina Mewrilah",
+            "cPrev": [
+                68628
+            ],
+            "cNext": [
+                68724
+            ],
+            "patch": "4.5"
+        },
+        "x68724": {
+            "level": 70,
+            "name_en": "Welcome to Their Jungle",
+            "name_fr": "Vestiges dans la jungle",
+            "npc_en": "Montblanc",
+            "npc_fr": "Montblanc",
+            "cPrev": [
+                68723
+            ],
+            "cNext": [
+                68725
+            ],
+            "patch": "4.5"
+        },
+        "x68725": {
+            "level": 70,
+            "name_en": "The City of Lost Angels",
+            "name_fr": "L'ange du monastère",
+            "unlock": "duty.dutyraid-finder.raids.sb.28",
+            "npc_en": "Jenomis Cen Lexentale",
+            "npc_fr": "Jenomis Cen Lexentale",
+            "cPrev": [
+                68724
+            ],
+            "cNext": [
+                68626,
+                "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69370"
+            ],
+            "patch": "4.5"
+        },
+        "x68626": {
+            "level": 70,
+            "name_en": "My Power, My Pleasure, My Pain",
+            "name_fr": "La rose des vins",
+            "npc_en": "Wandering Dramaturge",
+            "npc_fr": "Auteur Étranger",
+            "cPrev": [
+                68725
+            ],
+            "cNext": [
+                68726
+            ],
+            "patch": "4.31"
+        },
+        "x68726": {
+            "level": 70,
+            "name_en": "In Bad Taste",
+            "name_fr": "À escroc, escroc et demi",
+            "npc_en": "Wandering Dramaturge",
+            "npc_fr": "Auteur Étranger",
+            "cPrev": [
+                68626
+            ],
+            "cSiblings": [
+                "character.achievement.quests.quests.2243"
+            ],
+            "patch": "4.5"
+        },
+        "x68629": {
+            "level": 1,
+            "defaultCompletion": "X",
+            "name_en": "Makin' Bacon (Bread)",
+            "name_fr": "L'accompagnement idéal du vin",
+            "npc_en": "Wandering Dramaturge",
+            "npc_fr": "Auteur Étranger",
+            "cPrev": [68628],
+            "cNext": [68727],
+            "patch": "4.31"
+        },
+        "x68727": {
+            "level": 1,
+            "defaultCompletion": "X",
+            "name_en": "Wok on By",
+            "name_fr": "L'accompagnement idéal du saké",
+            "npc_en": "Wandering Dramaturge",
+            "npc_fr": "Auteur Étranger",
+            "cPrev": [68629, 68726],
+            "patch": "4.5"
+        }
+    }
+}

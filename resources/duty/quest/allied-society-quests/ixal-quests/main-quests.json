@@ -1,0 +1,156 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+		"x67022": {
+            "level": 1,
+            "name_en": "A Bad Bladder",
+            "name_fr": "Qui sème le vent récolte des plumes",
+            "npc_en": "Scarlet",
+            "npc_fr": "Scarlet",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66488"
+            ],
+            "cNext": [
+                67023
+            ],
+            "patch": "4.31"
+        },
+        "x67023": {
+            "level": 1,
+            "name_en": "Reaching for Cloud Nine",
+            "name_fr": "Les planeurs sans ailes",
+            "npc_en": "Sezul Totoloc",
+            "npc_fr": "Sezul Totoloc",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.ixal.8129",
+                67022
+            ],
+            "cNext": [
+                67024,
+                67105
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.20"
+            ],
+            "patch": "4.31"
+        },
+        "x67024": {
+            "level": 3,
+            "name_en": "A Designer Job",
+            "name_fr": "Recherche ingénieur désespérément",
+            "npc_en": "Sezul Totoloc",
+            "npc_fr": "Sezul Totoloc",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.ixal.8130",
+                67023
+            ],
+            "cNext": [
+                67025
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.21"
+            ],
+            "patch": "4.31"
+        },
+        "x67025": {
+            "level": 6,
+            "name_en": "The Boy from Gridania",
+            "name_fr": "L'héritier malgré lui",
+            "npc_en": "Tataramu",
+            "npc_fr": "Tataramu",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.ixal.8131",
+                67024
+            ],
+            "cNext": [
+                67026
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.22"
+            ],
+            "patch": "4.31"
+        },
+        "x67026": {
+            "level": 10,
+            "name_en": "Lathe to the Party",
+            "name_fr": "Une amitié de longue date",
+            "npc_en": "Sezul Totoloc",
+            "npc_fr": "Sezul Totoloc",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                67025
+            ],
+            "cNext": [
+                67027
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.23"
+            ],
+            "patch": "4.31"
+        },
+        "x67027": {
+            "level": 15,
+            "name_en": "Standing at the Helm",
+            "name_fr": "Le meurtre du père",
+            "npc_en": "Tataramu",
+            "npc_fr": "Tataramu",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.ixal.8132",
+                67026
+            ],
+            "cNext": [
+                67028
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.24"
+            ],
+            "patch": "4.31"
+        },
+        "x67028": {
+            "level": 16,
+            "name_en": "Never Be Royal",
+            "name_fr": "Rêves et réalités",
+            "npc_en": "Sezul Totoloc",
+            "npc_fr": "Sezul Totoloc",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                67027
+            ],
+            "cNext": [
+                67029
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.25"
+            ],
+            "patch": "4.31"
+        },
+        "x67029": {
+            "level": 18,
+            "name_en": "Spread Your Wings and Soar",
+            "name_fr": "Plus près des étoiles",
+            "npc_en": "Sezul Totoloc",
+            "npc_fr": "Sezul Totoloc",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.ixal.8133",
+                "logs.crafting-log.shared.tribal-quests.ixal.8134",
+                67028
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.26"
+            ],
+            "patch": "4.31"
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "key": "tank-role-quests-endwalker",
+    "groupName_en": "Tank Role Quests (Endwalker)",
+    "groupName_fr": "Quêtes de tank (Endwalker)",
+    "tasks": {
+		"x69638": {
+            "level": 85,
+            "name_en": "Shrouded in Peril",
+            "name_fr": "Les chaînes de la mort",
+            "npc_en": "Gridanian Delegate",
+            "npc_fr": "Attaché Militaire De Gridania",
+            "cPrev": [
+                "duty.quests.main-scenario.endwalker.69954"
+            ],
+            "cNext": [
+                69639
+            ],
+            "patch": "6.0"
+        },
+        "x69639": {
+            "level": 86,
+            "name_en": "To Give Voice",
+            "name_fr": "Angoisses galopantes",
+            "npc_en": "Keeper Of The Entwined Serpents",
+            "npc_fr": "Gardien Des Vipères Enlacées",
+            "cPrev": [
+                69638
+            ],
+            "cNext": [
+                69640
+            ],
+            "patch": "6.0"
+        },
+        "x69640": {
+            "level": 87,
+            "name_en": "A Gift Undone",
+            "name_fr": "Les cornes de l'infortune",
+            "npc_en": "Keeper Of The Entwined Serpents",
+            "npc_fr": "Gardien Des Vipères Enlacées",
+            "cPrev": [
+                69639
+            ],
+            "cNext": [
+                69641
+            ],
+            "patch": "6.0"
+        },
+        "x69641": {
+            "level": 88,
+            "name_en": "A Pact Proven",
+            "name_fr": "Opération anticorruptions",
+            "npc_en": "Keeper Of The Entwined Serpents",
+            "npc_fr": "Gardien Des Vipères Enlacées",
+            "cPrev": [
+                69640
+            ],
+            "cNext": [
+                69642
+            ],
+            "patch": "6.0"
+        },
+        "x69642": {
+            "level": 89,
+            "name_en": "Hearts True",
+            "name_fr": "De la dévotion à la haine",
+            "npc_en": "Keeper Of The Entwined Serpents",
+            "npc_fr": "Gardien Des Vipères Enlacées",
+            "cPrev": [
+                69641
+            ],
+            "cNext": [
+                69643
+            ],
+            "patch": "6.0"
+        },
+        "x69643": {
+            "level": 90,
+            "name_en": "A Path Unveiled",
+            "name_fr": "Des esprits et des hommes",
+            "npc_en": "Keeper Of The Entwined Serpents",
+            "npc_fr": "Gardien Des Vipères Enlacées",
+            "cPrev": [
+                69642
+            ],
+            "cSiblings": [
+                "character.achievement.quests.job-role-quests.2961"
+            ],
+            "patch": "6.0"
+        }
+    }
+}

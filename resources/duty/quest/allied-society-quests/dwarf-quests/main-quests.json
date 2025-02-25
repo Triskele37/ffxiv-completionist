@@ -1,0 +1,121 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+		"x69432": {
+            "level": 70,
+            "name_en": "It's Dwarfin' Time",
+            "name_fr": "Révolution motorisée",
+            "npc_en": "Affable Townsdwarf",
+            "npc_fr": "Nain Insouciant",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.dwarf.31137",
+                "duty.quests.sidequests.kholusia.kholusia.69096"
+            ],
+            "cNext": [
+                69433
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.74"
+            ],
+            "patch": "5.3"
+        },
+        "x69433": {
+            "level": 70,
+            "name_en": "A Piss-up in a Brewery",
+            "name_fr": "La Naine d'à côté",
+            "npc_en": "Ronitt",
+            "npc_fr": "Ronitt",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.dwarf.31139",
+                69432
+            ],
+            "cNext": [
+                69434
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.75"
+            ],
+            "patch": "5.3"
+        },
+        "x69434": {
+            "level": 70,
+            "name_en": "I Heard You Like Tanks",
+            "name_fr": "Du thé dans les rouages",
+            "npc_en": "Ronitt",
+            "npc_fr": "Ronitt",
+            "reputation_en": "Trusted",
+            "reputation_fr": "Estimé",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.dwarf.31141",
+                69433
+            ],
+            "cNext": [
+                69435
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.76"
+            ],
+            "patch": "5.3"
+        },
+        "x69435": {
+            "level": 70,
+            "name_en": "Tanking Is Hard",
+            "name_fr": "Les vieilles barbes s'en mêlent",
+            "npc_en": "Ronitt",
+            "npc_fr": "Ronitt",
+            "reputation_en": "Respected",
+            "reputation_fr": "Respecté",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.dwarf.31143",
+                69434
+            ],
+            "cNext": [
+                69436
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.77"
+            ],
+            "patch": "5.3"
+        },
+        "x69436": {
+            "level": 70,
+            "name_en": "Chief Concerns",
+            "name_fr": "Roulez jeunesse",
+            "npc_en": "Ronitt",
+            "npc_fr": "Ronitt",
+            "reputation_en": "Honored",
+            "reputation_fr": "Émérite",
+            "cPrev": [
+                "logs.crafting-log.shared.tribal-quests.dwarf.31145",
+                69435
+            ],
+            "cNext": [
+                69437
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.78"
+            ],
+            "patch": "5.3"
+        },
+        "x69437": {
+            "level": 70,
+            "name_en": "Tanks for the Memory",
+            "name_fr": "Santé!",
+            "npc_en": "Ronitt",
+            "npc_fr": "Ronitt",
+            "reputation_en": "Sworn",
+            "reputation_fr": "Assermenté",
+            "cPrev": [
+                69436
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.79"
+            ],
+            "patch": "5.3"
+        }
+    }
+}

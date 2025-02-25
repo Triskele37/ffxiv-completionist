@@ -1,0 +1,92 @@
+{
+    "key": "main-quests",
+    "groupName_en": "Main Quests",
+    "groupName_fr": "Histoire principale",
+    "tasks": {
+		"x66753": {
+            "level": 43,
+            "name_en": "Peace for Thanalan",
+            "name_fr": "La révolte des cendres",
+            "npc_en": "Swift",
+            "npc_fr": "Swift Ryder",
+            "cPrev": [
+                "duty.quests.main-scenario.seventh-umbral-era.66488"
+            ],
+            "cNext": [
+                66754
+            ],
+            "patch": "4.31"
+        },
+        "x66754": {
+            "level": 43,
+            "name_en": "Brotherhood of Ash",
+            "name_fr": "Naître de ses cendres",
+            "npc_en": "Hamujj Gah",
+            "npc_fr": "Hamujj Gah",
+            "cPrev": [
+                66753
+            ],
+            "cNext": [
+                66755
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.0"
+            ],
+            "patch": "4.31"
+        },
+        "x66755": {
+            "level": 46,
+            "name_en": "Ranger Rescue",
+            "name_fr": "Une inextinguible soif de vengeance",
+            "npc_en": "Hamujj Gah",
+            "npc_fr": "Hamujj Gah",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "cPrev": [
+                66754
+            ],
+            "cNext": [
+                66756
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.1"
+            ],
+            "patch": "4.31"
+        },
+        "x66756": {
+            "level": 48,
+            "name_en": "An Eye on the Inside",
+            "name_fr": "Retour de flamme",
+            "npc_en": "Hamujj Gah",
+            "npc_fr": "Hamujj Gah",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "cPrev": [
+                66755
+            ],
+            "cNext": [
+                66757
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.2"
+            ],
+            "patch": "4.31"
+        },
+        "x66757": {
+            "level": 48,
+            "name_en": "Martial Perfection",
+            "name_fr": "La voie de la puissance",
+            "npc_en": "Yadovv Gah",
+            "npc_fr": "Yadovv Gah",
+            "reputation_en": "Friendly",
+            "reputation_fr": "Ami",
+            "cPrev": [
+                66756
+            ],
+            "cSiblings": [
+                "character.character.tribal-relations.3"
+            ],
+            "patch": "4.31"
+        }
+    }
+}
