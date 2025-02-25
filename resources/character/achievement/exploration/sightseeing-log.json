@@ -10,9 +10,7 @@
             "description_fr": "Découvrir les lieux notoires 001 à 020 du carnet d'exploration.",
             "patch": "2.28",
             "points": 5,
-            "cPrev": [
-                "logs.sightseeing-log.arr.0-19"
-            ]
+            "cPrev": ["logs.sightseeing-log.arr.0-19"]
         },
         "x929": {
             "name_en": "Out of Sight Out of Mind",
@@ -22,9 +20,7 @@
             "reward": "character.minion-guide.89",
             "patch": "2.28",
             "points": 10,
-            "cPrev": [
-                "logs.sightseeing-log.arr.0-79"
-            ]
+            "cPrev": ["logs.sightseeing-log.arr.0-79"]
         },
         "x1312": {
             "name_en": "Out of Sight Out of Bounds I",
@@ -33,9 +29,7 @@
             "description_fr": "Découvrir les lieux notoires 001 à 042 du carnet d'exploration de Heavensward.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                "logs.sightseeing-log.hw.0-41"
-            ]
+            "cPrev": ["logs.sightseeing-log.hw.0-41"]
         },
         "x1386": {
             "name_en": "Out of Sight Out of Bounds II",
@@ -45,12 +39,8 @@
             "reward": "character.character.title.276",
             "patch": "3.1",
             "points": 10,
-            "cPrev": [
-                "logs.sightseeing-log.hw.42-61"
-            ],
-            "cSiblings": [
-                "character.character.title.276"
-            ]
+            "cPrev": ["logs.sightseeing-log.hw.42-61"],
+            "cSiblings": ["character.character.title.276"]
         },
         "x1903": {
             "name_en": "Oh, the Sights We'll See I",
@@ -59,9 +49,7 @@
             "description_fr": "Découvrir les lieux notoires 001 à 045 du carnet d'exploration de Stormblood.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [
-                "logs.sightseeing-log.sb.0-44"
-            ]
+            "cPrev": ["logs.sightseeing-log.sb.0-44"]
         },
         "x1965": {
             "name_en": "Oh, the Sights We'll See II",
@@ -71,12 +59,8 @@
             "reward": "character.character.title.131",
             "patch": "4.1",
             "points": 10,
-            "cPrev": [
-                "logs.sightseeing-log.sb.45-61"
-            ],
-            "cSiblings": [
-                "character.character.title.131"
-            ]
+            "cPrev": ["logs.sightseeing-log.sb.45-61"],
+            "cSiblings": ["character.character.title.131"]
         },
         "x2370": {
             "name_en": "Darksighters I",
@@ -85,9 +69,7 @@
             "description_fr": "Découvrir les lieux notoires 001 à 045 du carnet d'exploration de Shadowbringers.",
             "patch": "5.0",
             "points": 10,
-            "cPrev": [
-                "logs.sightseeing-log.shb.0-44"
-            ]
+            "cPrev": ["logs.sightseeing-log.shb.0-44"]
         },
         "x2973": {
             "name_en": "End in Sight",
@@ -96,9 +78,7 @@
             "description_fr": "Découvrir les lieux notoires 001 à 046 du carnet d'exploration d'Endwalker.",
             "patch": "6.0",
             "points": 10,
-            "cPrev": [
-                "logs.sightseeing-log.ew.0-45"
-            ]
+            "cPrev": ["logs.sightseeing-log.ew.0-45"]
         }
     }
 }

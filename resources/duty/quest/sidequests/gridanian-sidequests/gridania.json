@@ -9,10 +9,7 @@
             "name_fr": "Bienvenue à Gridania",
             "npc_en": "Bertennant",
             "npc_fr": "Bertennant",
-            "cNext": [
-                65537,
-                "duty.quests.main-scenario.seventh-umbral-era.gridania.65660"
-            ],
+            "cNext": [65537, "duty.quests.main-scenario.seventh-umbral-era.gridania.65660"],
             "patch": "4.31"
         },
         "x65585": {
@@ -45,12 +42,8 @@
             "name_fr": "Savoir tendre la main",
             "npc_en": "Bernadette",
             "npc_fr": "Bernadette",
-            "cPrev": [
-                65575
-            ],
-            "cNext": [
-                65573
-            ],
+            "cPrev": [65575],
+            "cNext": [65573],
             "patch": "4.31"
         },
         "x65563": {
@@ -123,9 +116,7 @@
             "name_fr": "Livraison de nourriture",
             "npc_en": "Celestine",
             "npc_fr": "Celestine",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.gridania.65660"
-            ],
+            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.65660"],
             "patch": "4.31"
         },
         "x65573": {
@@ -134,9 +125,7 @@
             "name_fr": "Il va y avoir des spores!",
             "npc_en": "Chansteloup",
             "npc_fr": "Chansteloup",
-            "cPrev": [
-                65537
-            ],
+            "cPrev": [65537],
             "patch": "4.31"
         },
         "x65568": {
@@ -145,9 +134,7 @@
             "name_fr": "Visite à l'écurie",
             "npc_en": "Tatasosa",
             "npc_fr": "Tatasosa",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.gridania.65660"
-            ],
+            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.65660"],
             "patch": "4.31"
         },
         "x65756": {
@@ -157,9 +144,7 @@
             "npc_en": "Gontrant",
             "npc_fr": "Gontrant",
             "unlock_en": "Leves",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.gridania.65665"
-            ],
+            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.gridania.65665"],
             "cNext": [
                 "duty.quests.sidequests.gridanian.central-shroud.65596",
                 "duty.quests.sidequests.gridanian.east-shroud.65757",
@@ -186,14 +171,8 @@
             "cPrevAny": true,
             "npc_en": "Eral",
             "npc_fr": "Eral",
-            "cPrev": [
-                66088,
-                66081,
-                "duty.quests.main-scenario.seventh-umbral-era.gridania.65985"
-            ],
-            "cSiblings": [
-                "social.emotes.special.102"
-            ],
+            "cPrev": [66088, 66081, "duty.quests.main-scenario.seventh-umbral-era.gridania.65985"],
+            "cSiblings": ["social.emotes.special.102"],
             "patch": "4.31"
         },
         "x66968": {
@@ -203,10 +182,7 @@
             "npc_en": "Troubled Adventurer",
             "npc_fr": "Aventurier Dans L'embarras",
             "unlock_en": "Retainer Ventures",
-            "cExclude": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66969",
-                "duty.quests.sidequests.uldahn.uldah.66970"
-            ],
+            "cExclude": ["duty.quests.sidequests.lominsan.limsa-lominsa.66969", "duty.quests.sidequests.uldahn.uldah.66970"],
             "patch": "4.31"
         },
         "x66236": {
@@ -216,13 +192,8 @@
             "unlock": "character.mount-guide.39",
             "npc_en": "Vorsaile Heuloix",
             "npc_fr": "Vorsaile Heuloix",
-            "cNext": [
-                "duty.quests.sidequests.gridanian.south-shroud.66698"
-            ],
-            "cExclude": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66237",
-                "duty.quests.sidequests.uldahn.uldah.66238"
-            ],
+            "cNext": ["duty.quests.sidequests.gridanian.south-shroud.66698"],
+            "cExclude": ["duty.quests.sidequests.lominsan.limsa-lominsa.66237", "duty.quests.sidequests.uldahn.uldah.66238"],
             "patch": "4.31"
         },
         "x65698": {
@@ -232,9 +203,7 @@
             "npc_en": "Naoh Gamduhla",
             "npc_fr": "Naoh Gamduhla",
             "unlock_en": "Sightseeing Log",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66049"
-            ],
+            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66049"],
             "cNext": [
                 "duty.quests.other.quasi-quests.68456",
                 "duty.quests.other.quasi-quests.69140",
@@ -249,9 +218,7 @@
             "name_fr": "Élargir son horizon",
             "npc_en": "Tyoh Moui",
             "npc_fr": "Tyoh Moui",
-            "cNext": [
-                66339
-            ],
+            "cNext": [66339],
             "patch": "4.31"
         },
         "x66339": {
@@ -260,9 +227,7 @@
             "name_fr": "Sous les planches",
             "npc_en": "Roustebant",
             "npc_fr": "Roustebant",
-            "cPrev": [
-                66338
-            ],
+            "cPrev": [66338],
             "patch": "4.31"
         },
         "x65730": {
@@ -271,9 +236,7 @@
             "name_fr": "Ma petite licorne",
             "npc_en": "Braya",
             "npc_fr": "Braya",
-            "cPrev": [
-                "duty.quests.class--job.disciple-of-magic.conjurer.65977"
-            ],
+            "cPrev": ["duty.quests.class--job.disciple-of-magic.conjurer.65977"],
             "patch": "4.31"
         },
         "x66505": {
@@ -282,9 +245,7 @@
             "name_fr": "Au nom de la rose",
             "npc_en": "Selaine",
             "npc_fr": "Selaine",
-            "cNext": [
-                "duty.quests.sidequests.gridanian.east-shroud.66506"
-            ],
+            "cNext": ["duty.quests.sidequests.gridanian.east-shroud.66506"],
             "patch": "4.31"
         },
         "x66544": {
@@ -293,12 +254,8 @@
             "name_fr": "Témoins du mal",
             "npc_en": "Lewin",
             "npc_fr": "Lewin",
-            "cPrev": [
-                "duty.quests.sidequests.uldahn.the-waking-sands.66543"
-            ],
-            "cNext": [
-                66545
-            ],
+            "cPrev": ["duty.quests.sidequests.uldahn.the-waking-sands.66543"],
+            "cNext": [66545],
             "patch": "4.31"
         },
         "x66545": {
@@ -307,12 +264,8 @@
             "name_fr": "Briseur de sceau",
             "npc_en": "Lewin",
             "npc_fr": "Lewin",
-            "cPrev": [
-                66544
-            ],
-            "cNext": [
-                "duty.quests.sidequests.gridanian.south-shroud.66548"
-            ],
+            "cPrev": [66544],
+            "cNext": ["duty.quests.sidequests.gridanian.south-shroud.66548"],
             "patch": "4.31"
         },
         "x66925": {
@@ -322,12 +275,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.arr.19",
             "npc_en": "E-Sumi-Yan",
             "npc_fr": "E-Sumi-Yan",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
-            "cNext": [
-                67818
-            ],
+            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
+            "cNext": [67818],
             "patch": "4.31"
         },
         "x67818": {
@@ -337,10 +286,7 @@
             "unlock": "duty.dutyraid-finder.dungeons.hw.11",
             "npc_en": "E-Sumi-Yan",
             "npc_fr": "E-Sumi-Yan",
-            "cPrev": [
-                66925,
-                "duty.quests.main-scenario.heavensward.67205"
-            ],
+            "cPrev": [66925, "duty.quests.main-scenario.heavensward.67205"],
             "patch": "4.31"
         }
     }

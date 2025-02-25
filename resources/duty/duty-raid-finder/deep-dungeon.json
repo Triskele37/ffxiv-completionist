@@ -25,9 +25,7 @@
             "header_fr": "Patch"
         }
     },
-    "common": [
-        "zone"
-    ],
+    "common": ["zone"],
     "defaultCompletion": 0,
     "isNumericCompletion": true,
     "tasks": {
@@ -41,38 +39,18 @@
             "maxValue": 200,
             "startingQuest": "duty.quests.sidequests.records-of-unusual-endeavors.palace-of-the-dead.67092",
             "cPrevAt": {
-                "51": [
-                    "duty.quests.other.quasi-quests.67923"
-                ]
+                "51": ["duty.quests.other.quasi-quests.67923"]
             },
             "cSiblingsAt": {
-                "0": [
-                    "duty.quests.sidequests.records-of-unusual-endeavors.palace-of-the-dead.67092"
-                ],
-                "10": [
-                    "character.achievement.battle.dungeons.1576"
-                ],
-                "20": [
-                    "character.achievement.battle.dungeons.1577"
-                ],
-                "30": [
-                    "character.achievement.battle.dungeons.1578"
-                ],
-                "40": [
-                    "character.achievement.battle.dungeons.1579"
-                ],
-                "50": [
-                    "character.achievement.battle.dungeons.1580"
-                ],
-                "100": [
-                    "character.achievement.battle.dungeons.1655"
-                ],
-                "150": [
-                    "character.achievement.battle.dungeons.1656"
-                ],
-                "200": [
-                    "character.achievement.battle.dungeons.1657"
-                ]
+                "0": ["duty.quests.sidequests.records-of-unusual-endeavors.palace-of-the-dead.67092"],
+                "10": ["character.achievement.battle.dungeons.1576"],
+                "20": ["character.achievement.battle.dungeons.1577"],
+                "30": ["character.achievement.battle.dungeons.1578"],
+                "40": ["character.achievement.battle.dungeons.1579"],
+                "50": ["character.achievement.battle.dungeons.1580"],
+                "100": ["character.achievement.battle.dungeons.1655"],
+                "150": ["character.achievement.battle.dungeons.1656"],
+                "200": ["character.achievement.battle.dungeons.1657"]
             }
         },
         "x1": {
@@ -88,24 +66,12 @@
                 "31": "duty.quests.sidequests.records-of-unusual-endeavors.heaven-on-high.68668"
             },
             "cSiblingsAt": {
-                "0": [
-                    "duty.quests.sidequests.records-of-unusual-endeavors.heaven-on-high.68667"
-                ],
-                "10": [
-                    "character.achievement.battle.dungeons.2047"
-                ],
-                "20": [
-                    "character.achievement.battle.dungeons.2048"
-                ],
-                "30": [
-                    "character.achievement.battle.dungeons.2049"
-                ],
-                "50": [
-                    "character.achievement.battle.dungeons.2050"
-                ],
-                "100": [
-                    "character.achievement.battle.dungeons.2051"
-                ]
+                "0": ["duty.quests.sidequests.records-of-unusual-endeavors.heaven-on-high.68667"],
+                "10": ["character.achievement.battle.dungeons.2047"],
+                "20": ["character.achievement.battle.dungeons.2048"],
+                "30": ["character.achievement.battle.dungeons.2049"],
+                "50": ["character.achievement.battle.dungeons.2050"],
+                "100": ["character.achievement.battle.dungeons.2051"]
             }
         },
         "x2": {
@@ -118,24 +84,12 @@
             "maxValue": 100,
             "startingQuest": "duty.quests.sidequests.records-of-unusual-endeavors.eureka-orthos.70199",
             "cSiblingsAt": {
-                "0": [
-                    "duty.quests.sidequests.records-of-unusual-endeavors.eureka-orthos.70199"
-                ],
-                "10": [
-                    "character.achievement.battle.dungeons.3174"
-                ],
-                "20": [
-                    "character.achievement.battle.dungeons.3175"
-                ],
-                "30": [
-                    "character.achievement.battle.dungeons.3176"
-                ],
-                "50": [
-                    "character.achievement.battle.dungeons.3177"
-                ],
-                "100": [
-                    "character.achievement.battle.dungeons.3178"
-                ]
+                "0": ["duty.quests.sidequests.records-of-unusual-endeavors.eureka-orthos.70199"],
+                "10": ["character.achievement.battle.dungeons.3174"],
+                "20": ["character.achievement.battle.dungeons.3175"],
+                "30": ["character.achievement.battle.dungeons.3176"],
+                "50": ["character.achievement.battle.dungeons.3177"],
+                "100": ["character.achievement.battle.dungeons.3178"]
             }
         }
     }

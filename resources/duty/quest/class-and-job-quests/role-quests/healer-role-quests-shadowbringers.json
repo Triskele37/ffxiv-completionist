@@ -3,18 +3,14 @@
     "groupName_en": "Healer Role Quests (Shadowbringers)",
     "groupName_fr": "Quêtes de soigneur (Shadowbringers)",
     "tasks": {
-		"x68803": {
+        "x68803": {
             "level": 70,
             "name_en": "Traditions and Travails",
             "name_fr": "Giott l'invincible",
             "npc_en": "Giott",
             "npc_fr": "Giott",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68837"
-            ],
-            "cNext": [
-                68804
-            ],
+            "cPrev": ["duty.quests.main-scenario.shadowbringers.68837"],
+            "cNext": [68804],
             "patch": "5.0"
         },
         "x68804": {
@@ -23,12 +19,8 @@
             "name_fr": "Le pouvoir de Sophrosyne",
             "npc_en": "Giott",
             "npc_fr": "Giott",
-            "cPrev": [
-                68803
-            ],
-            "cNext": [
-                68805
-            ],
+            "cPrev": [68803],
+            "cNext": [68805],
             "patch": "5.0"
         },
         "x68805": {
@@ -37,12 +29,8 @@
             "name_fr": "Expérimentations thérapeutiques",
             "npc_en": "Giott",
             "npc_fr": "Giott",
-            "cPrev": [
-                68804
-            ],
-            "cNext": [
-                68806
-            ],
+            "cPrev": [68804],
+            "cNext": [68806],
             "patch": "5.0"
         },
         "x68806": {
@@ -51,12 +39,8 @@
             "name_fr": "Magie ancestrale",
             "npc_en": "Giott",
             "npc_fr": "Giott",
-            "cPrev": [
-                68805
-            ],
-            "cNext": [
-                68807
-            ],
+            "cPrev": [68805],
+            "cNext": [68807],
             "patch": "5.0"
         },
         "x68807": {
@@ -65,12 +49,8 @@
             "name_fr": "Le secret des galeries naines",
             "npc_en": "Giott",
             "npc_fr": "Giott",
-            "cPrev": [
-                68806
-            ],
-            "cNext": [
-                68808
-            ],
+            "cPrev": [68806],
+            "cNext": [68808],
             "patch": "5.0"
         },
         "x68808": {
@@ -79,17 +59,13 @@
             "name_fr": "Fière exilée",
             "npc_en": "Giott",
             "npc_fr": "Giott",
-            "cPrev": [
-                68807
-            ],
+            "cPrev": [68807],
             "cNext": [
                 "duty.quests.class--job.disciple-of-magic-job.scholar.68754",
                 "duty.quests.class--job.disciple-of-magic-job.white-mage.68751",
                 "duty.quests.class--job.disciple-of-magic-job.astrologian.68758"
             ],
-            "cSiblings": [
-                "character.achievement.quests.job-role-quests.2302"
-            ],
+            "cSiblings": ["character.achievement.quests.job-role-quests.2302"],
             "patch": "5.0"
         }
     }

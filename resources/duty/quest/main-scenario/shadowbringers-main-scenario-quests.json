@@ -9,12 +9,8 @@
             "name_fr": "La traversée",
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
-            "cPrev": [
-                "duty.quests.main-scenario.post-stormblood.68721"
-            ],
-            "cNext": [
-                68816
-            ],
+            "cPrev": ["duty.quests.main-scenario.post-stormblood.68721"],
+            "cNext": [68816],
             "patch": "5.0"
         },
         "x68816": {
@@ -23,12 +19,8 @@
             "name_fr": "À la découverte de Cristarium",
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
-            "cPrev": [
-                68815
-            ],
-            "cNext": [
-                68817
-            ],
+            "cPrev": [68815],
+            "cNext": [68817],
             "patch": "5.0"
         },
         "x68817": {
@@ -37,9 +29,7 @@
             "name_fr": "Les Héritiers du premier reflet",
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
-            "cPrev": [
-                68816
-            ],
+            "cPrev": [68816],
             "cNext": [
                 68827,
                 "duty.quests.sidequests.lakeland.the-crystarium.68881",
@@ -61,12 +51,8 @@
             "name_fr": "Sur les traces d'Alphinaud",
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
-            "cPrev": [
-                68817
-            ],
-            "cNext": [
-                68819
-            ],
+            "cPrev": [68817],
+            "cNext": [68819],
             "patch": "5.0"
         },
         "x68819": {
@@ -75,9 +61,7 @@
             "name_fr": "Pour une poignée de brins de thym",
             "npc_en": "Szem Djenmai",
             "npc_fr": "Szem Djenmai",
-            "cPrev": [
-                68818
-            ],
+            "cPrev": [68818],
             "cNext": [
                 "duty.quests.sidequests.kholusia.kholusia.68885",
                 "duty.quests.sidequests.kholusia.kholusia.68887",
@@ -92,9 +76,7 @@
             "name_fr": "Le Vestibule",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [
-                68819
-            ],
+            "cPrev": [68819],
             "cNext": [
                 "duty.quests.sidequests.kholusia.kholusia.68888",
                 "duty.quests.sidequests.kholusia.kholusia.68889",
@@ -110,9 +92,7 @@
             "name_fr": "L'envers d'Eulmore",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [
-                68820
-            ],
+            "cPrev": [68820],
             "cNext": [
                 "duty.quests.sidequests.kholusia.kholusia.68896",
                 "duty.quests.sidequests.kholusia.kholusia.68907",
@@ -130,13 +110,8 @@
             "name_fr": "La ville des derniers plaisirs",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [
-                68821
-            ],
-            "cNext": [
-                68823,
-                "duty.quests.other.quasi-quests.69139"
-            ],
+            "cPrev": [68821],
+            "cNext": [68823, "duty.quests.other.quasi-quests.69139"],
             "patch": "5.0"
         },
         "x68823": {
@@ -145,12 +120,8 @@
             "name_fr": "À la découverte d'Eulmore",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [
-                68822
-            ],
-            "cNext": [
-                68824
-            ],
+            "cPrev": [68822],
+            "cNext": [68824],
             "patch": "5.0"
         },
         "x68824": {
@@ -159,12 +130,8 @@
             "name_fr": "Plus de plaisir, moins de souci",
             "npc_en": "Amiable Maiden",
             "npc_fr": "Libérée Délicate",
-            "cPrev": [
-                68823
-            ],
-            "cNext": [
-                68825
-            ],
+            "cPrev": [68823],
+            "cNext": [68825],
             "patch": "5.0"
         },
         "x68825": {
@@ -173,12 +140,8 @@
             "name_fr": "Les bienheureux",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [
-                68824
-            ],
-            "cNext": [
-                68826
-            ],
+            "cPrev": [68824],
+            "cNext": [68826],
             "patch": "5.0"
         },
         "x68826": {
@@ -187,12 +150,8 @@
             "name_fr": "La cime baignée de lumière",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [
-                68825
-            ],
-            "cNext": [
-                68836
-            ],
+            "cPrev": [68825],
+            "cNext": [68836],
             "patch": "5.0"
         },
         "x68827": {
@@ -201,12 +160,8 @@
             "name_fr": "Sur les traces d'Alisaie",
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
-            "cPrev": [
-                68817
-            ],
-            "cNext": [
-                68828
-            ],
+            "cPrev": [68817],
+            "cNext": [68828],
             "patch": "5.0"
         },
         "x68828": {
@@ -215,9 +170,7 @@
             "name_fr": "Le marché des Mords",
             "npc_en": "Cassard",
             "npc_fr": "Cassard",
-            "cPrev": [
-                68827
-            ],
+            "cPrev": [68827],
             "cNext": [
                 68829,
                 "duty.quests.sidequests.amh-araeng.amh-araeng.68897",
@@ -234,13 +187,8 @@
             "name_fr": "La tournée des étals",
             "npc_en": "Cassard",
             "npc_fr": "Cassard",
-            "cPrev": [
-                68828
-            ],
-            "cNext": [
-                "duty.quests.sidequests.amh-araeng.amh-araeng.68911",
-                68830
-            ],
+            "cPrev": [68828],
+            "cNext": ["duty.quests.sidequests.amh-araeng.amh-araeng.68911", 68830],
             "patch": "5.0"
         },
         "x68830": {
@@ -249,12 +197,8 @@
             "name_fr": "À travers les dunes d'ambre",
             "npc_en": "Tesleen",
             "npc_fr": "Tesleen",
-            "cPrev": [
-                68829
-            ],
-            "cNext": [
-                68831
-            ],
+            "cPrev": [68829],
+            "cNext": [68831],
             "patch": "5.0"
         },
         "x68831": {
@@ -263,12 +207,8 @@
             "name_fr": "Retrouvailles de haut vol",
             "npc_en": "Tesleen",
             "npc_fr": "Tesleen",
-            "cPrev": [
-                68830
-            ],
-            "cNext": [
-                68832
-            ],
+            "cPrev": [68830],
+            "cNext": [68832],
             "patch": "5.0"
         },
         "x68832": {
@@ -277,9 +217,7 @@
             "name_fr": "Chasse aux purgateurs",
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [
-                68831
-            ],
+            "cPrev": [68831],
             "cNext": [
                 68833,
                 "duty.quests.sidequests.amh-araeng.amh-araeng.68903",
@@ -295,12 +233,8 @@
             "name_fr": "Le dernier fruit",
             "npc_en": "Tesleen",
             "npc_fr": "Tesleen",
-            "cPrev": [
-                68832
-            ],
-            "cNext": [
-                68834
-            ],
+            "cPrev": [68832],
+            "cNext": [68834],
             "patch": "5.0"
         },
         "x68834": {
@@ -309,12 +243,8 @@
             "name_fr": "Le départ de trop",
             "npc_en": "Tesleen",
             "npc_fr": "Tesleen",
-            "cPrev": [
-                68833
-            ],
-            "cNext": [
-                68835
-            ],
+            "cPrev": [68833],
+            "cNext": [68835],
             "patch": "5.0"
         },
         "x68835": {
@@ -323,12 +253,8 @@
             "name_fr": "La mission d'Alisaie",
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [
-                68834
-            ],
-            "cNext": [
-                68836
-            ],
+            "cPrev": [68834],
+            "cNext": [68836],
             "patch": "5.0"
         },
         "x68836": {
@@ -338,13 +264,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.shb.0",
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
-            "cPrev": [
-                68826,
-                68835
-            ],
-            "cNext": [
-                68837
-            ],
+            "cPrev": [68826, 68835],
+            "cNext": [68837],
             "patch": "5.0"
         },
         "x68837": {
@@ -353,9 +274,7 @@
             "name_fr": "Le guerrier de la légende",
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
-            "cPrev": [
-                68836
-            ],
+            "cPrev": [68836],
             "cNext": [
                 "duty.quests.sidequests.lakeland.the-crystarium.68916",
                 68838,
@@ -365,9 +284,7 @@
                 "duty.quests.class--job.role.shb.68803",
                 "duty.quests.class--job.role.shb.69159"
             ],
-            "cSiblings": [
-                "character.achievement.quests.main-scenario.2293"
-            ],
+            "cSiblings": ["character.achievement.quests.main-scenario.2293"],
             "patch": "5.0"
         },
         "x68838": {
@@ -376,12 +293,8 @@
             "name_fr": "Visite impromptue",
             "npc_en": "Manager Of Suites",
             "npc_fr": "Intendant Des Pendants",
-            "cPrev": [
-                68837
-            ],
-            "cNext": [
-                68839
-            ],
+            "cPrev": [68837],
+            "cNext": [68839],
             "patch": "5.0"
         },
         "x68839": {
@@ -390,13 +303,8 @@
             "name_fr": "La résolution de Cristarium",
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
-            "cPrev": [
-                68838
-            ],
-            "cNext": [
-                68840,
-                "duty.quests.class--job.crystalline-mean.69191"
-            ],
+            "cPrev": [68838],
+            "cNext": [68840, "duty.quests.class--job.crystalline-mean.69191"],
             "patch": "5.0"
         },
         "x68840": {
@@ -406,9 +314,7 @@
             "unlock": "travel.aether-currents.shb.lakeland.14",
             "npc_en": "Szem Djenmai",
             "npc_fr": "Szem Djenmai",
-            "cPrev": [
-                68839
-            ],
+            "cPrev": [68839],
             "cNext": [
                 "duty.quests.sidequests.lakeland.lakeland.68920",
                 "duty.quests.sidequests.lakeland.lakeland.68921",
@@ -419,9 +325,7 @@
                 "duty.quests.sidequests.lakeland.lakeland.68926",
                 "duty.quests.sidequests.lakeland.lakeland.68927"
             ],
-            "cSiblings": [
-                "travel.aether-currents.shb.lakeland.14"
-            ],
+            "cSiblings": ["travel.aether-currents.shb.lakeland.14"],
             "patch": "5.0"
         },
         "x68841": {
@@ -430,12 +334,8 @@
             "name_fr": "À l'assaut du fort",
             "npc_en": "Lyna",
             "npc_fr": "Lyna",
-            "cPrev": [
-                68840
-            ],
-            "cNext": [
-                68842
-            ],
+            "cPrev": [68840],
+            "cNext": [68842],
             "patch": "5.0"
         },
         "x68842": {
@@ -444,9 +344,7 @@
             "name_fr": "Le royaume féérique",
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
-            "cPrev": [
-                68841
-            ],
+            "cPrev": [68841],
             "cNext": [
                 "duty.quests.sidequests.il-mheg.il-mheg.68931",
                 68843,
@@ -464,12 +362,8 @@
             "name_fr": "Lydha Lran, village fleuri",
             "npc_en": "Sul Uin",
             "npc_fr": "Sul Uin",
-            "cPrev": [
-                68842
-            ],
-            "cNext": [
-                68846
-            ],
+            "cPrev": [68842],
+            "cNext": [68846],
             "patch": "5.0"
         },
         "x68844": {
@@ -478,12 +372,8 @@
             "name_fr": "Un appétit pour la farce",
             "npc_en": "Ys Iala",
             "npc_fr": "Ys Iala",
-            "cPrev": [
-                68842
-            ],
-            "cNext": [
-                68846
-            ],
+            "cPrev": [68842],
+            "cNext": [68846],
             "patch": "5.0"
         },
         "x68845": {
@@ -492,12 +382,8 @@
             "name_fr": "Les enfeuillés",
             "npc_en": "Oul Sigun",
             "npc_fr": "Oul Sigun",
-            "cPrev": [
-                68842
-            ],
-            "cNext": [
-                68846
-            ],
+            "cPrev": [68842],
+            "cNext": [68846],
             "patch": "5.0"
         },
         "x68846": {
@@ -506,11 +392,7 @@
             "name_fr": "Feo Ul à la rescousse",
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
-            "cPrev": [
-                68843,
-                68844,
-                68845
-            ],
+            "cPrev": [68843, 68844, 68845],
             "cNext": [
                 "duty.quests.sidequests.il-mheg.il-mheg.68934",
                 68847,
@@ -524,9 +406,7 @@
             "name_fr": "Les cours du lettré",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [
-                68846
-            ],
+            "cPrev": [68846],
             "cNext": [
                 "duty.quests.sidequests.il-mheg.il-mheg.68940",
                 "duty.quests.sidequests.il-mheg.il-mheg.68937",
@@ -543,12 +423,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.shb.1",
             "npc_en": "Sul Uin",
             "npc_fr": "Sul Uin",
-            "cPrev": [
-                68847
-            ],
-            "cNext": [
-                68849
-            ],
+            "cPrev": [68847],
+            "cNext": [68849],
             "patch": "5.0"
         },
         "x68849": {
@@ -557,12 +433,8 @@
             "name_fr": "Visite chez les Nu Mou",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [
-                68848
-            ],
-            "cNext": [
-                68850
-            ],
+            "cPrev": [68848],
+            "cNext": [68850],
             "patch": "5.0"
         },
         "x68850": {
@@ -571,12 +443,8 @@
             "name_fr": "Transaction équitable",
             "npc_en": "Wyd Aenc",
             "npc_fr": "Wyd Aenc",
-            "cPrev": [
-                68849
-            ],
-            "cNext": [
-                68851
-            ],
+            "cPrev": [68849],
+            "cNext": [68851],
             "patch": "5.0"
         },
         "x68851": {
@@ -585,12 +453,8 @@
             "name_fr": "Coup de balai",
             "npc_en": "Ys Gyuf",
             "npc_fr": "Ys Gyuf",
-            "cPrev": [
-                68850
-            ],
-            "cNext": [
-                68852
-            ],
+            "cPrev": [68850],
+            "cNext": [68852],
             "patch": "5.0"
         },
         "x68852": {
@@ -599,9 +463,7 @@
             "name_fr": "Ceux qui musardent",
             "npc_en": "Wyd Lad",
             "npc_fr": "Wyd Lad",
-            "cPrev": [
-                68851
-            ],
+            "cPrev": [68851],
             "cNext": [
                 "duty.quests.sidequests.il-mheg.il-mheg.68944",
                 "duty.quests.sidequests.il-mheg.il-mheg.68945",
@@ -624,12 +486,8 @@
             "name_fr": "La puissance du Monarque",
             "npc_en": "Wyd Lad",
             "npc_fr": "Wyd Lad",
-            "cPrev": [
-                68852
-            ],
-            "cNext": [
-                68854
-            ],
+            "cPrev": [68852],
+            "cNext": [68854],
             "patch": "5.0"
         },
         "x68854": {
@@ -638,9 +496,7 @@
             "name_fr": "Combattre la gentillesse",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [
-                68853
-            ],
+            "cPrev": [68853],
             "cNext": [
                 "duty.quests.sidequests.il-mheg.il-mheg.68963",
                 68855,
@@ -662,35 +518,24 @@
             "name_fr": "Le souvenir d'un ami",
             "npc_en": "Seto",
             "npc_fr": "Seto",
-            "cPrev": [
-                68854
-            ],
-            "cNext": [
-                68856
-            ],
+            "cPrev": [68854],
+            "cNext": [68856],
             "patch": "5.0"
         },
         "x68856": {
             "level": 73,
             "name_en": "Acht-la Ormh Inn",
             "name_fr": "Passation de pouvoir",
-            "unlock": [
-                "duty.dutyraid-finder.trials.shb.0",
-                "travel.aether-currents.shb.il-mheg.14"
-            ],
+            "unlock": ["duty.dutyraid-finder.trials.shb.0", "travel.aether-currents.shb.il-mheg.14"],
             "npc_en": "Seto",
             "npc_fr": "Seto",
-            "cPrev": [
-                68855
-            ],
+            "cPrev": [68855],
             "cNext": [
                 "duty.quests.sidequests.il-mheg.il-mheg.68961",
                 68857,
                 "duty.quests.sidequests.il-mheg.il-mheg.68962"
             ],
-            "cSiblings": [
-                "travel.aether-currents.shb.il-mheg.14"
-            ],
+            "cSiblings": ["travel.aether-currents.shb.il-mheg.14"],
             "patch": "5.0"
         },
         "x68857": {
@@ -699,16 +544,9 @@
             "name_fr": "Entre entente et méfiance",
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
-            "cPrev": [
-                68856
-            ],
-            "cNext": [
-                68858,
-                "duty.quests.tribal-quests.pixie.69219"
-            ],
-            "cSiblings": [
-                "character.achievement.quests.main-scenario.2294"
-            ],
+            "cPrev": [68856],
+            "cNext": [68858, "duty.quests.tribal-quests.pixie.69219"],
+            "cSiblings": ["character.achievement.quests.main-scenario.2294"],
             "patch": "5.0"
         },
         "x68858": {
@@ -717,9 +555,7 @@
             "name_fr": "Une visite de courtoisie",
             "npc_en": "Manager Of Suites",
             "npc_fr": "Intendant Des Pendants",
-            "cPrev": [
-                68857
-            ],
+            "cPrev": [68857],
             "cNext": [
                 "duty.quests.sidequests.lakeland.lakeland.68972",
                 68859,
@@ -735,12 +571,8 @@
             "name_fr": "L'église de l'Aurore",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [
-                68858
-            ],
-            "cNext": [
-                68860
-            ],
+            "cPrev": [68858],
+            "cNext": [68860],
             "patch": "5.0"
         },
         "x68860": {
@@ -749,12 +581,8 @@
             "name_fr": "Le peuple de la Nuit",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [
-                68859
-            ],
-            "cNext": [
-                68861
-            ],
+            "cPrev": [68859],
+            "cNext": [68861],
             "patch": "5.0"
         },
         "x68861": {
@@ -763,9 +591,7 @@
             "name_fr": "Us et coutumes",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                68860
-            ],
+            "cPrev": [68860],
             "cNext": [
                 "duty.quests.sidequests.raktika.the-raktika-greatwood.68980",
                 "duty.quests.sidequests.raktika.the-raktika-greatwood.68976",
@@ -782,12 +608,8 @@
             "name_fr": "Jardinage enténébré",
             "npc_en": "Runar",
             "npc_fr": "Runar",
-            "cPrev": [
-                68861
-            ],
-            "cNext": [
-                68863
-            ],
+            "cPrev": [68861],
+            "cNext": [68863],
             "patch": "5.0"
         },
         "x68863": {
@@ -796,12 +618,8 @@
             "name_fr": "La pierre baptismale",
             "npc_en": "Runar",
             "npc_fr": "Runar",
-            "cPrev": [
-                68862
-            ],
-            "cNext": [
-                68864
-            ],
+            "cPrev": [68862],
+            "cNext": [68864],
             "patch": "5.0"
         },
         "x68864": {
@@ -810,9 +628,7 @@
             "name_fr": "Repos éternel dans le ciel étoilé",
             "npc_en": "Runar",
             "npc_fr": "Runar",
-            "cPrev": [
-                68863
-            ],
+            "cPrev": [68863],
             "cNext": [
                 "duty.quests.sidequests.raktika.the-raktika-greatwood.68985",
                 "duty.quests.sidequests.raktika.the-raktika-greatwood.68986",
@@ -832,12 +648,8 @@
             "name_fr": "La guerre des bestioles",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                68864
-            ],
-            "cNext": [
-                68866
-            ],
+            "cPrev": [68864],
+            "cNext": [68866],
             "patch": "5.0"
         },
         "x68866": {
@@ -846,12 +658,8 @@
             "name_fr": "Légendes sur les murs",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                68865
-            ],
-            "cNext": [
-                68867
-            ],
+            "cPrev": [68865],
+            "cNext": [68867],
             "patch": "5.0"
         },
         "x68867": {
@@ -860,13 +668,8 @@
             "name_fr": "Alliances vénéneuses",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                68866
-            ],
-            "cNext": [
-                "duty.quests.sidequests.raktika.the-raktika-greatwood.69192",
-                68868
-            ],
+            "cPrev": [68866],
+            "cNext": ["duty.quests.sidequests.raktika.the-raktika-greatwood.69192", 68868],
             "patch": "5.0"
         },
         "x68868": {
@@ -875,12 +678,8 @@
             "name_fr": "Le sceau de Ronka",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [
-                68867
-            ],
-            "cNext": [
-                68869
-            ],
+            "cPrev": [68867],
+            "cNext": [68869],
             "patch": "5.0"
         },
         "x68869": {
@@ -889,12 +688,8 @@
             "name_fr": "Les gardiennes des vestiges",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                68868
-            ],
-            "cNext": [
-                68870
-            ],
+            "cPrev": [68868],
+            "cNext": [68870],
             "patch": "5.0"
         },
         "x68870": {
@@ -903,9 +698,7 @@
             "name_fr": "Passage vers les chutes",
             "npc_en": "Cymet",
             "npc_fr": "Cymet",
-            "cPrev": [
-                68869
-            ],
+            "cPrev": [68869],
             "cNext": [
                 "duty.quests.sidequests.raktika.the-raktika-greatwood.69003",
                 68871,
@@ -928,12 +721,8 @@
             "name_fr": "Statues et totems",
             "npc_en": "Almet",
             "npc_fr": "Almet",
-            "cPrev": [
-                68870
-            ],
-            "cNext": [
-                68872
-            ],
+            "cPrev": [68870],
+            "cNext": [68872],
             "patch": "5.0"
         },
         "x68872": {
@@ -942,12 +731,8 @@
             "name_fr": "La grande pyramide d'Ux'ner",
             "npc_en": "Almet",
             "npc_fr": "Almet",
-            "cPrev": [
-                68871
-            ],
-            "cNext": [
-                68873
-            ],
+            "cPrev": [68871],
+            "cNext": [68873],
             "patch": "5.0"
         },
         "x68873": {
@@ -956,12 +741,8 @@
             "name_fr": "Le Confessionnal de Toupasa l'ancien",
             "npc_en": "Almet",
             "npc_fr": "Almet",
-            "cPrev": [
-                68872
-            ],
-            "cNext": [
-                68874
-            ],
+            "cPrev": [68872],
+            "cNext": [68874],
             "patch": "5.0"
         },
         "x68874": {
@@ -970,12 +751,8 @@
             "name_fr": "Antidotes pour tous",
             "npc_en": "Almet",
             "npc_fr": "Almet",
-            "cPrev": [
-                68873
-            ],
-            "cNext": [
-                68875
-            ],
+            "cPrev": [68873],
+            "cNext": [68875],
             "patch": "5.0"
         },
         "x68875": {
@@ -984,9 +761,7 @@
             "name_fr": "Divin Ascien",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [
-                68874
-            ],
+            "cPrev": [68874],
             "cNext": [
                 68876,
                 "duty.quests.sidequests.raktika.the-raktika-greatwood.69014",
@@ -1006,21 +781,12 @@
             "level": 75,
             "name_en": "The Burden of Knowledge",
             "name_fr": "L'Enchevêtrement des Qitari",
-            "unlock": [
-                "duty.dutyraid-finder.dungeons.shb.2",
-                "travel.aether-currents.shb.the-raktika-greatwood.14"
-            ],
+            "unlock": ["duty.dutyraid-finder.dungeons.shb.2", "travel.aether-currents.shb.the-raktika-greatwood.14"],
             "npc_en": "Almet",
             "npc_fr": "Almet",
-            "cPrev": [
-                68875
-            ],
-            "cNext": [
-                68877
-            ],
-            "cSiblings": [
-                "travel.aether-currents.shb.the-raktika-greatwood.14"
-            ],
+            "cPrev": [68875],
+            "cNext": [68877],
+            "cSiblings": ["travel.aether-currents.shb.the-raktika-greatwood.14"],
             "patch": "5.0"
         },
         "x68877": {
@@ -1029,13 +795,8 @@
             "name_fr": "Au revoir, sombre forêt",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                68876
-            ],
-            "cNext": [
-                68878,
-                "duty.quests.tribal-quests.qitari.69330"
-            ],
+            "cPrev": [68876],
+            "cNext": [68878, "duty.quests.tribal-quests.qitari.69330"],
             "patch": "5.0"
         },
         "x68878": {
@@ -1044,15 +805,9 @@
             "name_fr": "Espoirs et inquiétudes",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                68877
-            ],
-            "cNext": [
-                69142
-            ],
-            "cSiblings": [
-                "character.achievement.quests.main-scenario.2295"
-            ],
+            "cPrev": [68877],
+            "cNext": [69142],
+            "cSiblings": ["character.achievement.quests.main-scenario.2295"],
             "patch": "5.0"
         },
         "x69142": {
@@ -1061,12 +816,8 @@
             "name_fr": "La purgation de Grand-Lac",
             "npc_en": "Manager Of Suites",
             "npc_fr": "Intendant Des Pendants",
-            "cPrev": [
-                68878
-            ],
-            "cNext": [
-                69143
-            ],
+            "cPrev": [68878],
+            "cNext": [69143],
             "patch": "5.0"
         },
         "x69143": {
@@ -1075,12 +826,8 @@
             "name_fr": "Un lac de souffrances",
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [
-                69142
-            ],
-            "cNext": [
-                69144
-            ],
+            "cPrev": [69142],
+            "cNext": [69144],
             "patch": "5.0"
         },
         "x69144": {
@@ -1089,12 +836,8 @@
             "name_fr": "Le doute de soi",
             "npc_en": "Lyna",
             "npc_fr": "Lyna",
-            "cPrev": [
-                69143
-            ],
-            "cNext": [
-                69145
-            ],
+            "cPrev": [69143],
+            "cNext": [69145],
             "patch": "5.0"
         },
         "x69145": {
@@ -1103,12 +846,8 @@
             "name_fr": "La résolution d'une jeune fille",
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
-            "cPrev": [
-                69144
-            ],
-            "cNext": [
-                69146
-            ],
+            "cPrev": [69144],
+            "cNext": [69146],
             "patch": "5.0"
         },
         "x69146": {
@@ -1117,9 +856,7 @@
             "name_fr": "Des Mords sans le souq",
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
-            "cPrev": [
-                69145
-            ],
+            "cPrev": [69145],
             "cNext": [
                 "duty.quests.sidequests.amh-araeng.amh-araeng.69022",
                 "duty.quests.sidequests.amh-araeng.amh-araeng.69024",
@@ -1137,12 +874,8 @@
             "name_fr": "Les chariots de Biran",
             "npc_en": "Zhun Zun",
             "npc_fr": "Zhun Zun",
-            "cPrev": [
-                69146
-            ],
-            "cNext": [
-                69148
-            ],
+            "cPrev": [69146],
+            "cNext": [69148],
             "patch": "5.0"
         },
         "x69148": {
@@ -1151,12 +884,8 @@
             "name_fr": "Un fâcheux chagrin",
             "npc_en": "Thaffe",
             "npc_fr": "Thaffe",
-            "cPrev": [
-                69147
-            ],
-            "cNext": [
-                69149
-            ],
+            "cPrev": [69147],
+            "cNext": [69149],
             "patch": "5.0"
         },
         "x69149": {
@@ -1165,9 +894,7 @@
             "name_fr": "Réparateurs sur rails",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [
-                69148
-            ],
+            "cPrev": [69148],
             "cNext": [
                 "duty.quests.sidequests.amh-araeng.amh-araeng.69039",
                 69150,
@@ -1193,12 +920,8 @@
             "name_fr": "Le talos de la dernière chance",
             "npc_en": "Jeryk",
             "npc_fr": "Jeryk",
-            "cPrev": [
-                69149
-            ],
-            "cNext": [
-                69151
-            ],
+            "cPrev": [69149],
+            "cNext": [69151],
             "patch": "5.0"
         },
         "x69151": {
@@ -1207,9 +930,7 @@
             "name_fr": "Noyaux dans les mines",
             "npc_en": "Jeryk",
             "npc_fr": "Jeryk",
-            "cPrev": [
-                69150
-            ],
+            "cPrev": [69150],
             "cNext": [
                 "duty.quests.sidequests.amh-araeng.amh-araeng.69047",
                 69152,
@@ -1223,12 +944,8 @@
             "name_fr": "Une pièce qui vaut son pesant d'or",
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
-            "cPrev": [
-                69151
-            ],
-            "cNext": [
-                69153
-            ],
+            "cPrev": [69151],
+            "cNext": [69153],
             "patch": "5.0"
         },
         "x69153": {
@@ -1237,13 +954,8 @@
             "name_fr": "L'œil de lion",
             "npc_en": "Guthjon",
             "npc_fr": "Guthjon",
-            "cPrev": [
-                69152
-            ],
-            "cNext": [
-                "duty.quests.sidequests.amh-araeng.amh-araeng.69061",
-                69154
-            ],
+            "cPrev": [69152],
+            "cNext": ["duty.quests.sidequests.amh-araeng.amh-araeng.69061", 69154],
             "patch": "5.0"
         },
         "x69154": {
@@ -1252,12 +964,8 @@
             "name_fr": "Un testament précieux",
             "npc_en": "Guthjon",
             "npc_fr": "Guthjon",
-            "cPrev": [
-                69153
-            ],
-            "cNext": [
-                69155
-            ],
+            "cPrev": [69153],
+            "cNext": [69155],
             "patch": "5.0"
         },
         "x69155": {
@@ -1266,12 +974,8 @@
             "name_fr": "Sur les rails de Nabaath Areng",
             "npc_en": "Magnus",
             "npc_fr": "Magnus",
-            "cPrev": [
-                69154
-            ],
-            "cNext": [
-                69156
-            ],
+            "cPrev": [69154],
+            "cNext": [69156],
             "patch": "5.0"
         },
         "x69156": {
@@ -1280,36 +984,25 @@
             "name_fr": "La prêtresse de la Lumière",
             "npc_en": "Minfilia",
             "npc_fr": "Minfilia",
-            "cPrev": [
-                69155
-            ],
-            "cNext": [
-                69157
-            ],
+            "cPrev": [69155],
+            "cNext": [69157],
             "patch": "5.0"
         },
         "x69157": {
             "level": 77,
             "name_en": "A Fresh Start",
             "name_fr": "Le Puits de Malikah",
-            "unlock": [
-                "duty.dutyraid-finder.dungeons.shb.3",
-                "travel.aether-currents.shb.amh-araeng.14"
-            ],
+            "unlock": ["duty.dutyraid-finder.dungeons.shb.3", "travel.aether-currents.shb.amh-araeng.14"],
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
-            "cPrev": [
-                69156
-            ],
+            "cPrev": [69156],
             "cNext": [
                 69158,
                 "duty.quests.sidequests.amh-araeng.amh-araeng.69066",
                 "duty.quests.sidequests.amh-araeng.amh-araeng.69067",
                 "duty.quests.sidequests.amh-araeng.amh-araeng.69068"
             ],
-            "cSiblings": [
-                "travel.aether-currents.shb.amh-araeng.14"
-            ],
+            "cSiblings": ["travel.aether-currents.shb.amh-araeng.14"],
             "patch": "5.0"
         },
         "x69158": {
@@ -1318,16 +1011,9 @@
             "name_fr": "Douleurs de Lumière",
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
-            "cPrev": [
-                69157
-            ],
-            "cNext": [
-                "duty.quests.sidequests.lakeland.the-crystarium.69069",
-                69166
-            ],
-            "cSiblings": [
-                "character.achievement.quests.main-scenario.2296"
-            ],
+            "cPrev": [69157],
+            "cNext": ["duty.quests.sidequests.lakeland.the-crystarium.69069", 69166],
+            "cSiblings": ["character.achievement.quests.main-scenario.2296"],
             "patch": "5.0"
         },
         "x69166": {
@@ -1336,12 +1022,8 @@
             "name_fr": "Retour à Kholusia",
             "npc_en": "Manager Of Suites",
             "npc_fr": "Intendant Des Pendants",
-            "cPrev": [
-                69158
-            ],
-            "cNext": [
-                69167
-            ],
+            "cPrev": [69158],
+            "cNext": [69167],
             "patch": "5.0"
         },
         "x69167": {
@@ -1350,12 +1032,8 @@
             "name_fr": "Une ignoble vérité",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [
-                69166
-            ],
-            "cNext": [
-                69168
-            ],
+            "cPrev": [69166],
+            "cNext": [69168],
             "patch": "5.0"
         },
         "x69168": {
@@ -1364,9 +1042,7 @@
             "name_fr": "Dur réveil pour Eulmore",
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
-            "cPrev": [
-                69167
-            ],
+            "cPrev": [69167],
             "cNext": [
                 69169,
                 "duty.quests.sidequests.kholusia.eulmore.69055",
@@ -1386,12 +1062,8 @@
             "name_fr": "Le compte est bon",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [
-                69168
-            ],
-            "cNext": [
-                69170
-            ],
+            "cPrev": [69168],
+            "cNext": [69170],
             "patch": "5.0"
         },
         "x69170": {
@@ -1400,9 +1072,7 @@
             "name_fr": "La grande ascension",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [
-                69169
-            ],
+            "cPrev": [69169],
             "cNext": [
                 "duty.quests.sidequests.kholusia.kholusia.69079",
                 "duty.quests.sidequests.kholusia.kholusia.69080",
@@ -1417,12 +1087,8 @@
             "name_fr": "Objectif Gulg",
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [
-                69170
-            ],
-            "cNext": [
-                69172
-            ],
+            "cPrev": [69170],
+            "cNext": [69172],
             "patch": "5.0"
         },
         "x69172": {
@@ -1431,12 +1097,8 @@
             "name_fr": "Une idée géante",
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [
-                69171
-            ],
-            "cNext": [
-                69173
-            ],
+            "cPrev": [69171],
+            "cNext": [69173],
             "patch": "5.0"
         },
         "x69173": {
@@ -1445,9 +1107,7 @@
             "name_fr": "Pan dans ta barbe!",
             "npc_en": "Tristol",
             "npc_fr": "Tristol",
-            "cPrev": [
-                69172
-            ],
+            "cPrev": [69172],
             "cNext": [
                 "duty.quests.sidequests.kholusia.kholusia.69092",
                 "duty.quests.sidequests.kholusia.kholusia.69083",
@@ -1471,12 +1131,8 @@
             "name_fr": "Un Nain sous bonne escorte",
             "npc_en": "Xamott",
             "npc_fr": "Xamott",
-            "cPrev": [
-                69173
-            ],
-            "cNext": [
-                69175
-            ],
+            "cPrev": [69173],
+            "cNext": [69175],
             "patch": "5.0"
         },
         "x69175": {
@@ -1485,12 +1141,8 @@
             "name_fr": "La guerre des barbes",
             "npc_en": "Korutt",
             "npc_fr": "Korutt",
-            "cPrev": [
-                69174
-            ],
-            "cNext": [
-                69176
-            ],
+            "cPrev": [69174],
+            "cNext": [69176],
             "patch": "5.0"
         },
         "x69176": {
@@ -1499,9 +1151,7 @@
             "name_fr": "Bonnes pioches",
             "npc_en": "Crystal Exarch",
             "npc_fr": "Exarque Du Cristal",
-            "cPrev": [
-                69175
-            ],
+            "cPrev": [69175],
             "cNext": [
                 "duty.quests.sidequests.kholusia.kholusia.69073",
                 "duty.quests.sidequests.kholusia.kholusia.69075",
@@ -1519,12 +1169,8 @@
             "name_fr": "La contribution du peuple de la Nuit",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [
-                69176
-            ],
-            "cNext": [
-                69178
-            ],
+            "cPrev": [69176],
+            "cNext": [69178],
             "patch": "5.0"
         },
         "x69178": {
@@ -1533,12 +1179,8 @@
             "name_fr": "Un dernier instant de répit",
             "npc_en": "Chai-Nuzz",
             "npc_fr": "Chai-Nuzz",
-            "cPrev": [
-                69177
-            ],
-            "cNext": [
-                69179
-            ],
+            "cPrev": [69177],
+            "cNext": [69179],
             "patch": "5.0"
         },
         "x69179": {
@@ -1552,16 +1194,9 @@
             ],
             "npc_en": "Chai-Nuzz",
             "npc_fr": "Chai-Nuzz",
-            "cPrev": [
-                69178
-            ],
-            "cNext": [
-                69180
-            ],
-            "cSiblings": [
-                "character.achievement.quests.main-scenario.2297",
-                "travel.aether-currents.shb.kholusia.14"
-            ],
+            "cPrev": [69178],
+            "cNext": [69180],
+            "cSiblings": ["character.achievement.quests.main-scenario.2297", "travel.aether-currents.shb.kholusia.14"],
             "patch": "5.0"
         },
         "x69180": {
@@ -1570,12 +1205,8 @@
             "name_fr": "Lendemain de défaite",
             "npc_en": "Manager Of Suites",
             "npc_fr": "Intendant Des Pendants",
-            "cPrev": [
-                69179
-            ],
-            "cNext": [
-                69181
-            ],
+            "cPrev": [69179],
+            "cNext": [69181],
             "patch": "5.0"
         },
         "x69181": {
@@ -1584,12 +1215,8 @@
             "name_fr": "Sur les traces de l'exarque",
             "npc_en": "Katliss",
             "npc_fr": "Katliss",
-            "cPrev": [
-                69180
-            ],
-            "cNext": [
-                69182
-            ],
+            "cPrev": [69180],
+            "cNext": [69182],
             "patch": "5.0"
         },
         "x69182": {
@@ -1598,9 +1225,7 @@
             "name_fr": "Le messager de l'espoir",
             "npc_en": "Lyna",
             "npc_fr": "Lyna",
-            "cPrev": [
-                69181
-            ],
+            "cPrev": [69181],
             "cNext": [
                 "duty.quests.sidequests.lakeland.the-crystarium.69100",
                 "duty.quests.sidequests.lakeland.the-crystarium.69101",
@@ -1617,9 +1242,7 @@
             "name_fr": "Le grand plongeon",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [
-                69182
-            ],
+            "cPrev": [69182],
             "cNext": [
                 "duty.quests.sidequests.lakeland.lakeland.69105",
                 "duty.quests.sidequests.lakeland.lakeland.69106",
@@ -1638,9 +1261,7 @@
             "name_fr": "Randonnée sous-marine",
             "npc_en": "Thancred",
             "npc_fr": "Thancred",
-            "cPrev": [
-                69183
-            ],
+            "cPrev": [69183],
             "cNext": [
                 "duty.quests.sidequests.tempest.the-tempest.69124",
                 "duty.quests.sidequests.tempest.the-tempest.69115",
@@ -1664,12 +1285,8 @@
             "name_fr": "Les vestiges des anciens",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                69184
-            ],
-            "cNext": [
-                69186
-            ],
+            "cPrev": [69184],
+            "cNext": [69186],
             "patch": "5.0"
         },
         "x69186": {
@@ -1678,12 +1295,8 @@
             "name_fr": "Un visage connu?",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                69185
-            ],
-            "cNext": [
-                69187
-            ],
+            "cPrev": [69185],
+            "cNext": [69187],
             "patch": "5.0"
         },
         "x69187": {
@@ -1692,12 +1305,8 @@
             "name_fr": "L'étendue nitescente",
             "npc_en": "Grenoldt",
             "npc_fr": "Grenoldt",
-            "cPrev": [
-                69186
-            ],
-            "cNext": [
-                69188
-            ],
+            "cPrev": [69186],
+            "cNext": [69188],
             "patch": "5.0"
         },
         "x69188": {
@@ -1706,9 +1315,7 @@
             "name_fr": "La cité des ombres",
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [
-                69187
-            ],
+            "cPrev": [69187],
             "cNext": [
                 69189,
                 "duty.quests.sidequests.tempest.the-tempest.69128",
@@ -1724,30 +1331,19 @@
             "unlock": "travel.aether-currents.shb.the-tempest.14",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [
-                69188
-            ],
-            "cNext": [
-                69190
-            ],
-            "cSiblings": [
-                "travel.aether-currents.shb.the-tempest.14"
-            ],
+            "cPrev": [69188],
+            "cNext": [69190],
+            "cSiblings": ["travel.aether-currents.shb.the-tempest.14"],
             "patch": "5.0"
         },
         "x69190": {
             "level": 80,
             "name_en": "Shadowbringers",
             "name_fr": "Porteurs d'ombre",
-            "unlock": [
-                "duty.dutyraid-finder.dungeons.shb.5",
-                "duty.dutyraid-finder.trials.shb.2"
-            ],
+            "unlock": ["duty.dutyraid-finder.dungeons.shb.5", "duty.dutyraid-finder.trials.shb.2"],
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
-            "cPrev": [
-                69189
-            ],
+            "cPrev": [69189],
             "cNext": [
                 "duty.quests.sidequests.kholusia.eulmore.69137",
                 "duty.quests.chronicles-of-a-new-era.eden.68791",
@@ -1777,9 +1373,7 @@
                 "duty.quests.class--job.disciple-of-war-job.dancer.68762",
                 "duty.quests.class--job.disciple-of-magic-job.summoner.69569"
             ],
-            "cSiblings": [
-                "character.achievement.quests.main-scenario.2298"
-            ],
+            "cSiblings": ["character.achievement.quests.main-scenario.2298"],
             "patch": "5.0"
         }
     }

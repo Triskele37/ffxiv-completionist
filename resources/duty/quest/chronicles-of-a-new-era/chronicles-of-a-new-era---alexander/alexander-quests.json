@@ -10,12 +10,8 @@
             "unlock": "duty.dutyraid-finder.raids.hw.0",
             "npc_en": "Slowfix",
             "npc_fr": "Slowfix",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67205"
-            ],
-            "cNext": [
-                67627
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67205"],
+            "cNext": [67627],
             "patch": "4.31"
         },
         "x67627": {
@@ -25,12 +21,8 @@
             "unlock": "duty.dutyraid-finder.raids.hw.1",
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
-            "cPrev": [
-                67626
-            ],
-            "cNext": [
-                67628
-            ],
+            "cPrev": [67626],
+            "cNext": [67628],
             "patch": "4.31"
         },
         "x67628": {
@@ -40,12 +32,8 @@
             "unlock": "duty.dutyraid-finder.raids.hw.2",
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
-            "cPrev": [
-                67627
-            ],
-            "cNext": [
-                67629
-            ],
+            "cPrev": [67627],
+            "cNext": [67629],
             "patch": "4.31"
         },
         "x67629": {
@@ -55,12 +43,8 @@
             "unlock": "duty.dutyraid-finder.raids.hw.3",
             "npc_en": "Mide",
             "npc_fr": "Mide",
-            "cPrev": [
-                67628
-            ],
-            "cNext": [
-                67630
-            ],
+            "cPrev": [67628],
+            "cNext": [67630],
             "patch": "4.31"
         },
         "x67630": {
@@ -69,16 +53,9 @@
             "name_fr": "Le trésor de Roundrox",
             "npc_en": "Redbrix",
             "npc_fr": "Redbrix",
-            "cPrev": [
-                67629
-            ],
-            "cNext": [
-                67785,
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.67644"
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1164"
-            ],
+            "cPrev": [67629],
+            "cNext": [67785, "duty.quests.sidequests.mor-dhonan.mor-dhona.67644"],
+            "cSiblings": ["character.achievement.quests.quests.1164"],
             "patch": "4.31"
         },
         "x67785": {
@@ -88,12 +65,8 @@
             "unlock": "duty.dutyraid-finder.raids.hw.8",
             "npc_en": "Roundrox",
             "npc_fr": "Roundrox",
-            "cPrev": [
-                67630
-            ],
-            "cNext": [
-                67786
-            ],
+            "cPrev": [67630],
+            "cNext": [67786],
             "patch": "4.31"
         },
         "x67786": {
@@ -103,12 +76,8 @@
             "unlock": "duty.dutyraid-finder.raids.hw.9",
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
-            "cPrev": [
-                67785
-            ],
-            "cNext": [
-                67787
-            ],
+            "cPrev": [67785],
+            "cNext": [67787],
             "patch": "4.31"
         },
         "x67787": {
@@ -118,12 +87,8 @@
             "unlock": "duty.dutyraid-finder.raids.hw.10",
             "npc_en": "Mide",
             "npc_fr": "Mide",
-            "cPrev": [
-                67786
-            ],
-            "cNext": [
-                67788
-            ],
+            "cPrev": [67786],
+            "cNext": [67788],
             "patch": "4.31"
         },
         "x67788": {
@@ -133,12 +98,8 @@
             "unlock": "duty.dutyraid-finder.raids.hw.11",
             "npc_en": "Backrix",
             "npc_fr": "Backrix",
-            "cPrev": [
-                67787
-            ],
-            "cNext": [
-                67789
-            ],
+            "cPrev": [67787],
+            "cNext": [67789],
             "patch": "4.31"
         },
         "x67789": {
@@ -147,16 +108,9 @@
             "name_fr": "Une question de temps",
             "npc_en": "Backrix",
             "npc_fr": "Backrix",
-            "cPrev": [
-                67788
-            ],
-            "cNext": [
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.67790",
-                67871
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1494"
-            ],
+            "cPrev": [67788],
+            "cNext": ["duty.quests.sidequests.mor-dhonan.mor-dhona.67790", 67871],
+            "cSiblings": ["character.achievement.quests.quests.1494"],
             "patch": "4.31"
         },
         "x67871": {
@@ -166,12 +120,8 @@
             "unlock": "duty.dutyraid-finder.raids.hw.16",
             "npc_en": "Mide",
             "npc_fr": "Mide",
-            "cPrev": [
-                67789
-            ],
-            "cNext": [
-                67872
-            ],
+            "cPrev": [67789],
+            "cNext": [67872],
             "patch": "4.31"
         },
         "x67872": {
@@ -181,12 +131,8 @@
             "unlock": "duty.dutyraid-finder.raids.hw.17",
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
-            "cPrev": [
-                67871
-            ],
-            "cNext": [
-                67873
-            ],
+            "cPrev": [67871],
+            "cNext": [67873],
             "patch": "4.31"
         },
         "x67873": {
@@ -196,12 +142,8 @@
             "unlock": "duty.dutyraid-finder.raids.hw.18",
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
-            "cPrev": [
-                67872
-            ],
-            "cNext": [
-                67874
-            ],
+            "cPrev": [67872],
+            "cNext": [67874],
             "patch": "4.31"
         },
         "x67874": {
@@ -211,12 +153,8 @@
             "unlock": "duty.dutyraid-finder.raids.hw.19",
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
-            "cPrev": [
-                67873
-            ],
-            "cNext": [
-                67875
-            ],
+            "cPrev": [67873],
+            "cNext": [67875],
             "patch": "4.31"
         },
         "x67875": {
@@ -225,15 +163,9 @@
             "name_fr": "Droit vers le futur",
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
-            "cPrev": [
-                67874
-            ],
-            "cNext": [
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.67876"
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1629"
-            ],
+            "cPrev": [67874],
+            "cNext": ["duty.quests.sidequests.mor-dhonan.mor-dhona.67876"],
+            "cSiblings": ["character.achievement.quests.quests.1629"],
             "patch": "4.31"
         }
     }

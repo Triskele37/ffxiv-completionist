@@ -23,9 +23,7 @@
             "name_fr": "Infusion pour guérison",
             "npc_en": "Hihira",
             "npc_fr": "Hihira",
-            "cPrev": [
-                66294
-            ],
+            "cPrev": [66294],
             "patch": "4.31"
         },
         "x66296": {
@@ -42,12 +40,8 @@
             "name_fr": "Les bonnes intentions d'Hihira",
             "npc_en": "Hihira",
             "npc_fr": "Hihira",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66293"
-            ],
-            "cNext": [
-                66295
-            ],
+            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66293"],
+            "cNext": [66295],
             "patch": "4.31"
         },
         "x66315": {
@@ -56,9 +50,7 @@
             "name_fr": "La bataille des Cadavres",
             "npc_en": "Hremfing",
             "npc_fr": "Hremfing",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66314"
-            ],
+            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66314"],
             "patch": "4.31"
         },
         "x66316": {
@@ -67,9 +59,7 @@
             "name_fr": "Poison contre poison",
             "npc_en": "Amelot",
             "npc_fr": "Amelot",
-            "cNext": [
-                66317
-            ],
+            "cNext": [66317],
             "patch": "4.31"
         },
         "x66317": {
@@ -78,9 +68,7 @@
             "name_fr": "Bourdonnement funeste",
             "npc_en": "Amelot",
             "npc_fr": "Amelot",
-            "cPrev": [
-                66316
-            ],
+            "cPrev": [66316],
             "patch": "4.31"
         },
         "x66359": {
@@ -89,9 +77,7 @@
             "name_fr": "Besoin d'un coup de patte",
             "npc_en": "U'tykha Tia",
             "npc_fr": "U'tykha Tia",
-            "cNext": [
-                66365
-            ],
+            "cNext": [66365],
             "patch": "4.31"
         },
         "x66360": {
@@ -100,9 +86,7 @@
             "name_fr": "Sondage d'opinion publique",
             "npc_en": "U'khuba Tia",
             "npc_fr": "U'khuba Tia",
-            "cNext": [
-                66361
-            ],
+            "cNext": [66361],
             "patch": "4.31"
         },
         "x66361": {
@@ -111,12 +95,8 @@
             "name_fr": "Un carquois vide",
             "npc_en": "U'khuba Tia",
             "npc_fr": "U'khuba Tia",
-            "cPrev": [
-                66360
-            ],
-            "cNext": [
-                66364
-            ],
+            "cPrev": [66360],
+            "cNext": [66364],
             "patch": "4.31"
         },
         "x66362": {
@@ -141,9 +121,7 @@
             "name_fr": "Des regards et des hommes",
             "npc_en": "U'rahtalo",
             "npc_fr": "U'rahtalo",
-            "cPrev": [
-                66361
-            ],
+            "cPrev": [66361],
             "patch": "4.31"
         },
         "x66365": {
@@ -152,12 +130,8 @@
             "name_fr": "Du nerf!",
             "npc_en": "U'tykha Tia",
             "npc_fr": "U'tykha Tia",
-            "cPrev": [
-                66359
-            ],
-            "cNext": [
-                66366
-            ],
+            "cPrev": [66359],
+            "cNext": [66366],
             "patch": "4.31"
         },
         "x66366": {
@@ -166,9 +140,7 @@
             "name_fr": "Deux caractères opposés",
             "npc_en": "U'khuba Tia",
             "npc_fr": "U'khuba Tia",
-            "cPrev": [
-                66365
-            ],
+            "cPrev": [66365],
             "patch": "4.31"
         },
         "x66557": {
@@ -177,12 +149,8 @@
             "name_fr": "Une question de confiance",
             "npc_en": "U'odh Nunh",
             "npc_fr": "U'odh Nunh",
-            "cPrev": [
-                "duty.quests.sidequests.uldahn.the-waking-sands.67089"
-            ],
-            "cNext": [
-                66559
-            ],
+            "cPrev": ["duty.quests.sidequests.uldahn.the-waking-sands.67089"],
+            "cNext": [66559],
             "patch": "4.31"
         },
         "x66558": {
@@ -192,9 +160,7 @@
             "unlock": "character.minion-guide.41",
             "npc_en": "Hab",
             "npc_fr": "Hab",
-            "cPrev": [
-                "duty.quests.sidequests.uldahn.the-waking-sands.67089"
-            ],
+            "cPrev": ["duty.quests.sidequests.uldahn.the-waking-sands.67089"],
             "patch": "4.31"
         },
         "x66559": {
@@ -203,12 +169,8 @@
             "name_fr": "Une deuxième chance",
             "npc_en": "U'odh Nunh",
             "npc_fr": "U'odh Nunh",
-            "cPrev": [
-                66557
-            ],
-            "cNext": [
-                66560
-            ],
+            "cPrev": [66557],
+            "cNext": [66560],
             "patch": "4.31"
         },
         "x66560": {
@@ -217,9 +179,7 @@
             "name_fr": "Un nouveau commencement",
             "npc_en": "U'odh Nunh",
             "npc_fr": "U'odh Nunh",
-            "cPrev": [
-                66559
-            ],
+            "cPrev": [66559],
             "patch": "4.31"
         },
         "x68422": {
@@ -232,9 +192,7 @@
                 "duty.quests.main-scenario.stormblood.68089",
                 "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68421"
             ],
-            "cNext": [
-                68423
-            ],
+            "cNext": [68423],
             "patch": "4.31"
         },
         "x68423": {
@@ -243,13 +201,8 @@
             "name_fr": "Revoir sa patrie",
             "npc_en": "Bertliana",
             "npc_fr": "Bertliana",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68089",
-                68422
-            ],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-peaks.68424"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68089", 68422],
+            "cNext": ["duty.quests.sidequests.gyr-abanian.the-peaks.68424"],
             "patch": "4.31"
         }
     }

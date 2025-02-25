@@ -9,12 +9,8 @@
             "name_fr": "La voie de l'épée",
             "npc_en": "Lulutsu",
             "npc_fr": "Lulutsu",
-            "cPrev": [
-                "duty.quests.other.quasi-quests.65713"
-            ],
-            "cNext": [
-                65822
-            ],
+            "cPrev": ["duty.quests.other.quasi-quests.65713"],
+            "cNext": [65822],
             "patch": "4.31"
         },
         "x65822": {
@@ -23,13 +19,8 @@
             "name_fr": "Le glaive du commencement",
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
-            "cPrev": [
-                65821
-            ],
-            "cNext": [
-                65824,
-                65792
-            ],
+            "cPrev": [65821],
+            "cNext": [65824, 65792],
             "patch": "4.31"
         },
         "x65792": {
@@ -38,12 +29,8 @@
             "name_fr": "La pointe sur l'inimitié",
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
-            "cPrev": [
-                65822
-            ],
-            "cNext": [
-                65824
-            ],
+            "cPrev": [65822],
+            "cNext": [65824],
             "patch": "4.31"
         },
         "x65824": {
@@ -52,13 +39,8 @@
             "name_fr": "Une mystérieuse série de meurtres",
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
-            "cPrev": [
-                65822,
-                65792
-            ],
-            "cNext": [
-                65798
-            ],
+            "cPrev": [65822, 65792],
+            "cNext": [65798],
             "patch": "4.31"
         },
         "x65798": {
@@ -67,12 +49,8 @@
             "name_fr": "Le feu qui brûle en soi",
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
-            "cPrev": [
-                65824
-            ],
-            "cNext": [
-                65799
-            ],
+            "cPrev": [65824],
+            "cNext": [65799],
             "patch": "4.31"
         },
         "x65799": {
@@ -81,12 +59,8 @@
             "name_fr": "Un autre nom surgi du passé",
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
-            "cPrev": [
-                65798
-            ],
-            "cNext": [
-                65800
-            ],
+            "cPrev": [65798],
+            "cNext": [65800],
             "patch": "4.31"
         },
         "x65800": {
@@ -95,12 +69,8 @@
             "name_fr": "Épée contre poings",
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
-            "cPrev": [
-                65799
-            ],
-            "cNext": [
-                65801
-            ],
+            "cPrev": [65799],
+            "cNext": [65801],
             "patch": "4.31"
         },
         "x65801": {
@@ -109,15 +79,9 @@
             "name_fr": "Les lames jumelles de Nald'thal",
             "npc_en": "Mylla",
             "npc_fr": "Mylla",
-            "cPrev": [
-                65800
-            ],
-            "cNext": [
-                "duty.quests.class--job.disciple-of-war-job.paladin.66591"
-            ],
-            "cSiblings": [
-                "character.adventure-plate.0"
-            ],
+            "cPrev": [65800],
+            "cNext": ["duty.quests.class--job.disciple-of-war-job.paladin.66591"],
+            "cSiblings": ["character.adventure-plate.0"],
             "cCombo": [
                 "character.achievement.quests.job-role-quests.313",
                 "character.achievement.quests.job-role-quests.314"

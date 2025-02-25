@@ -10,9 +10,7 @@
             "npc_en": "Mother Miounne",
             "npc_fr": "Miounne",
             "unlock_en": "Return",
-            "cPrev": [
-                "duty.quests.sidequests.gridanian.gridania.65575"
-            ],
+            "cPrev": ["duty.quests.sidequests.gridanian.gridania.65575"],
             "cNext": [
                 "duty.quests.sidequests.gridanian.gridania.65568",
                 "duty.quests.sidequests.gridanian.gridania.65570",
@@ -67,12 +65,8 @@
             "name_fr": "Visite au Bannock",
             "npc_en": "Mother Miounne",
             "npc_fr": "Miounne",
-            "cPrev": [
-                65660
-            ],
-            "cNext": [
-                65737
-            ],
+            "cPrev": [65660],
+            "cNext": [65737],
             "patch": "4.31"
         },
         "x65737": {
@@ -81,12 +75,8 @@
             "name_fr": "Galfrid le styliste",
             "npc_en": "Galfrid",
             "npc_fr": "Galfrid",
-            "cPrev": [
-                65564
-            ],
-            "cNext": [
-                65981
-            ],
+            "cPrev": [65564],
+            "cNext": [65981],
             "patch": "4.31"
         },
         "x65981": {
@@ -95,12 +85,8 @@
             "name_fr": "Chasse à l'ombre",
             "npc_en": "Galfrid",
             "npc_fr": "Galfrid",
-            "cPrev": [
-                65737
-            ],
-            "cNext": [
-                69390
-            ],
+            "cPrev": [65737],
+            "cNext": [69390],
             "patch": "4.31"
         },
         "x69390": {
@@ -109,13 +95,8 @@
             "name_fr": "Mieux vaut prévenir que guérir",
             "npc_en": "Galfrid",
             "npc_fr": "Galfrid",
-            "cPrev": [
-                65981
-            ],
-            "cNext": [
-                65711,
-                "duty.quests.sidequests.gridanian.central-shroud.65708"
-            ],
+            "cPrev": [65981],
+            "cNext": [65711, "duty.quests.sidequests.gridanian.central-shroud.65708"],
             "patch": "5.3"
         },
         "x65711": {
@@ -124,13 +105,8 @@
             "name_fr": "À la recherche du matériel perdu",
             "npc_en": "Monranguin",
             "npc_fr": "Monranguin",
-            "cPrev": [
-                69390
-            ],
-            "cNext": [
-                "duty.quests.sidequests.gridanian.central-shroud.65663",
-                69391
-            ],
+            "cPrev": [69390],
+            "cNext": ["duty.quests.sidequests.gridanian.central-shroud.65663", 69391],
             "patch": "4.31"
         },
         "x69391": {
@@ -139,12 +115,8 @@
             "name_fr": "Tuer dans l'œuf",
             "npc_en": "Pauline",
             "npc_fr": "Pauline",
-            "cPrev": [
-                65711
-            ],
-            "cNext": [
-                65665
-            ],
+            "cPrev": [65711],
+            "cNext": [65665],
             "patch": "5.3"
         },
         "x65665": {
@@ -154,13 +126,8 @@
             "npc_en": "Galfrid",
             "npc_fr": "Galfrid",
             "unlock_en": "Inn Rooms",
-            "cPrev": [
-                69391
-            ],
-            "cNext": [
-                "duty.quests.sidequests.gridanian.gridania.65756",
-                65712
-            ],
+            "cPrev": [69391],
+            "cNext": ["duty.quests.sidequests.gridanian.gridania.65756", 65712],
             "patch": "4.31"
         },
         "x65712": {
@@ -169,12 +136,8 @@
             "name_fr": "De si jolis chocobos",
             "npc_en": "Mother Miounne",
             "npc_fr": "Miounne",
-            "cPrev": [
-                65665
-            ],
-            "cNext": [
-                65912
-            ],
+            "cPrev": [65665],
+            "cNext": [65912],
             "patch": "4.31"
         },
         "x65912": {
@@ -183,13 +146,8 @@
             "name_fr": "Action, réaction!",
             "npc_en": "Keitha",
             "npc_fr": "Keitha",
-            "cPrev": [
-                65712
-            ],
-            "cNext": [
-                65913,
-                "duty.quests.sidequests.gridanian.central-shroud.65914"
-            ],
+            "cPrev": [65712],
+            "cNext": [65913, "duty.quests.sidequests.gridanian.central-shroud.65914"],
             "patch": "4.31"
         },
         "x65913": {
@@ -198,12 +156,8 @@
             "name_fr": "Menace fongique",
             "npc_en": "Osha Jaab",
             "npc_fr": "Osha Jaab",
-            "cPrev": [
-                65912
-            ],
-            "cNext": [
-                65915
-            ],
+            "cPrev": [65912],
+            "cNext": [65915],
             "patch": "4.31"
         },
         "x65915": {
@@ -212,12 +166,8 @@
             "name_fr": "L'ombre d'un doute",
             "npc_en": "Theodore",
             "npc_fr": "Theodore",
-            "cPrev": [
-                65913
-            ],
-            "cNext": [
-                65916
-            ],
+            "cPrev": [65913],
+            "cNext": [65916],
             "patch": "4.31"
         },
         "x65916": {
@@ -226,12 +176,8 @@
             "name_fr": "Appel à la vigilance",
             "npc_en": "Roseline",
             "npc_fr": "Roseline",
-            "cPrev": [
-                65915
-            ],
-            "cNext": [
-                65917
-            ],
+            "cPrev": [65915],
+            "cNext": [65917],
             "patch": "4.31"
         },
         "x65917": {
@@ -240,12 +186,8 @@
             "name_fr": "Une mystérieuse créature ailée",
             "npc_en": "Eylgar",
             "npc_fr": "Eylgar",
-            "cPrev": [
-                65916
-            ],
-            "cNext": [
-                65920
-            ],
+            "cPrev": [65916],
+            "cNext": [65920],
             "patch": "4.31"
         },
         "x65920": {
@@ -254,12 +196,8 @@
             "name_fr": "Entretien avec les esprits",
             "npc_en": "Lothaire",
             "npc_fr": "Lothaire",
-            "cPrev": [
-                65917
-            ],
-            "cNext": [
-                65923
-            ],
+            "cPrev": [65917],
+            "cNext": [65923],
             "patch": "4.31"
         },
         "x65923": {
@@ -268,12 +206,8 @@
             "name_fr": "Accident de la route",
             "npc_en": "Armelle",
             "npc_fr": "Armelle",
-            "cPrev": [
-                65920
-            ],
-            "cNext": [
-                65697
-            ],
+            "cPrev": [65920],
+            "cNext": [65697],
             "patch": "4.31"
         },
         "x65697": {
@@ -282,12 +216,8 @@
             "name_fr": "On achève bien les chocobos",
             "npc_en": "Luquelot",
             "npc_fr": "Luquelot",
-            "cPrev": [
-                65923
-            ],
-            "cNext": [
-                65982
-            ],
+            "cPrev": [65923],
+            "cNext": [65982],
             "patch": "4.31"
         },
         "x65982": {
@@ -296,12 +226,8 @@
             "name_fr": "Mauvais présage",
             "npc_en": "Luquelot",
             "npc_fr": "Luquelot",
-            "cPrev": [
-                65697
-            ],
-            "cNext": [
-                65983
-            ],
+            "cPrev": [65697],
+            "cNext": [65983],
             "patch": "4.31"
         },
         "x65983": {
@@ -310,12 +236,8 @@
             "name_fr": "L'arbre doyen",
             "npc_en": "Mother Miounne",
             "npc_fr": "Miounne",
-            "cPrev": [
-                65982
-            ],
-            "cNext": [
-                65984
-            ],
+            "cPrev": [65982],
+            "cNext": [65984],
             "patch": "4.31"
         },
         "x65984": {
@@ -324,9 +246,7 @@
             "name_fr": "Avant les réjouissances",
             "npc_en": "Lewin",
             "npc_fr": "Lewin",
-            "cPrev": [
-                65983
-            ],
+            "cPrev": [65983],
             "patch": "4.31"
         },
         "x65985": {
@@ -350,9 +270,7 @@
             "npc_en": "Kan-E-Senna",
             "npc_fr": "Kan-E-Senna",
             "unlock_en": "Airships",
-            "cPrev": [
-                65985
-            ],
+            "cPrev": [65985],
             "cNext": [
                 "duty.quests.sidequests.uldahn.uldah.65970",
                 "duty.quests.other.special.collaboration.67677",
@@ -364,9 +282,7 @@
                 "duty.quests.other.seasonal.valentiones-little-ladies-day.69532",
                 "duty.quests.other.seasonal.gold-saucer-festivities.69590"
             ],
-            "cSiblings": [
-                "character.achievement.quests.main-scenario.311"
-            ],
+            "cSiblings": ["character.achievement.quests.main-scenario.311"],
             "patch": "4.31"
         },
         "x66210": {
@@ -375,9 +291,7 @@
             "name_fr": "L'appel de la mer",
             "npc_en": "Bartholomew",
             "npc_fr": "Bartholomew",
-            "cPrev": [
-                66043
-            ],
+            "cPrev": [66043],
             "cNext": [
                 "duty.quests.sidequests.lominsan.limsa-lominsa.66746",
                 "duty.quests.sidequests.lominsan.limsa-lominsa.66967",

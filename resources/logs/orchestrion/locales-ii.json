@@ -2,11 +2,7 @@
     "key": "locales-ii",
     "groupName_en": "Locales II",
     "groupName_fr": "Lieux II",
-    "common": [
-        "category",
-        "location",
-        "source"
-    ],
+    "common": ["category", "location", "source"],
     "tasks": {
         "x0": {
             "number": "1",
@@ -181,18 +177,9 @@
             "name_en": "Rencounter",
             "name_fr": "Rencounter",
             "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "Xylle - 300 Sack of Nuts",
-                "Ilfroy - 300 Sack of Nuts"
-            ],
-            "source_fr": [
-                "Xylle - 300 Insignes de chasse",
-                "Ilfroy - 300 Insignes de chasse"
-            ],
-            "location": [
-                "ZONE.THE_CRYSTARIUM",
-                "ZONE.EULMORE"
-            ],
+            "source_en": ["Xylle - 300 Sack of Nuts", "Ilfroy - 300 Sack of Nuts"],
+            "source_fr": ["Xylle - 300 Insignes de chasse", "Ilfroy - 300 Insignes de chasse"],
+            "location": ["ZONE.THE_CRYSTARIUM", "ZONE.EULMORE"],
             "patch": "5.0"
         },
         "x18": {
@@ -338,18 +325,9 @@
             "name_en": "Unbowed",
             "name_fr": "Unbowed",
             "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "J'lakshai - 300 Sack of Nuts",
-                "Wilmetta - 300 Sack of Nuts"
-            ],
-            "source_fr": [
-                "J'lakshai - 300 Insignes de chasse",
-                "Wilmetta - 300 Insignes de chasse"
-            ],
-            "location": [
-                "ZONE.OLD_SHARLAYAN",
-                "ZONE.RADZ_AT_HAN"
-            ],
+            "source_en": ["J'lakshai - 300 Sack of Nuts", "Wilmetta - 300 Sack of Nuts"],
+            "source_fr": ["J'lakshai - 300 Insignes de chasse", "Wilmetta - 300 Insignes de chasse"],
+            "location": ["ZONE.OLD_SHARLAYAN", "ZONE.RADZ_AT_HAN"],
             "patch": "6.0"
         },
         "x33": {

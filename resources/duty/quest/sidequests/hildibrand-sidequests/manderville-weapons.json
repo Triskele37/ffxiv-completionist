@@ -9,13 +9,8 @@
             "name_fr": "Le secret ancestral des Manderville",
             "npc_en": "House Manderville Manservant",
             "npc_fr": "Domestique Des Manderville",
-            "cPrev": [
-                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70178"
-            ],
-            "cNext": [
-                70189,
-                70261
-            ],
+            "cPrev": ["duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70178"],
+            "cNext": [70189, 70261],
             "patch": "6.28"
         },
         "x70189": {
@@ -24,9 +19,7 @@
             "name_fr": "Une nouvelle arme des Manderville",
             "npc_en": "House Manderville Artisan",
             "npc_fr": "Artisan Des Manderville",
-            "cPrev": [
-                70188
-            ],
+            "cPrev": [70188],
             "patch": "6.28"
         },
         "x70261": {
@@ -35,13 +28,8 @@
             "name_fr": "L'instinct combatif",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [
-                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70255",
-                70188
-            ],
-            "cNext": [
-                70262
-            ],
+            "cPrev": ["duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70255", 70188],
+            "cNext": [70262],
             "patch": "6.35"
         },
         "x70262": {
@@ -50,10 +38,7 @@
             "name_fr": "Les armes éblouissantes des Manderville",
             "npc_en": "House Manderville Artisan",
             "npc_fr": "Artisan Des Manderville",
-            "cPrev": [
-                70261,
-                70189
-            ],
+            "cPrev": [70261, 70189],
             "patch": "6.35"
         },
         "x70307": {
@@ -62,13 +47,8 @@
             "name_fr": "Quand les forgerons boivent, les armes trinquent",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [
-                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70291",
-                70261
-            ],
-            "cNext": [
-                70308
-            ],
+            "cPrev": ["duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70291", 70261],
+            "cNext": [70308],
             "patch": "6.45"
         },
         "x70308": {
@@ -77,10 +57,7 @@
             "name_fr": "Les armes majestueuses des Manderville",
             "npc_en": "House Manderville Artisan",
             "npc_fr": "Artisan Des Manderville",
-            "cPrev": [
-                70262,
-                70307
-            ],
+            "cPrev": [70262, 70307],
             "patch": "6.45"
         },
         "x70342": {
@@ -89,16 +66,9 @@
             "name_fr": "La dernière danse",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [
-                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70336",
-                70307
-            ],
-            "cNext": [
-                70343
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.3374"
-            ],
+            "cPrev": ["duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70336", 70307],
+            "cNext": [70343],
+            "cSiblings": ["character.achievement.quests.quests.3374"],
             "patch": "6.55"
         },
         "x70343": {
@@ -107,10 +77,7 @@
             "name_fr": "Les armes manderveilleuses des Manderville",
             "npc_en": "House Manderville Artisan",
             "npc_fr": "Artisan Des Manderville",
-            "cPrev": [
-                70342,
-                70308
-            ],
+            "cPrev": [70342, 70308],
             "patch": "6.55"
         }
     }

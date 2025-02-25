@@ -3,21 +3,15 @@
     "groupName_en": "Main Quests",
     "groupName_fr": "Histoire principale",
     "tasks": {
-		"x70137": {
+        "x70137": {
             "level": 80,
             "name_en": "The Café at the End of the Universe",
             "name_fr": "яÉmιni§c∈ηcε 0001: t∈Rяe§ fεrTiL∑s",
             "npc_en": "Jammingway",
             "npc_fr": "Jammingway",
-            "cPrev": [
-                "duty.quests.sidequests.sharlayan.old-sharlayan.69704"
-            ],
-            "cNext": [
-                70138
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.98"
-            ],
+            "cPrev": ["duty.quests.sidequests.sharlayan.old-sharlayan.69704"],
+            "cNext": [70138],
+            "cSiblings": ["character.character.tribal-relations.98"],
             "patch": "6.28"
         },
         "x70138": {
@@ -27,15 +21,9 @@
             "reputation": "REPUTATION.3",
             "npc_en": "N-7000",
             "npc_fr": "N-7000",
-            "cPrev": [
-                70137
-            ],
-            "cNext": [
-                70139
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.99"
-            ],
+            "cPrev": [70137],
+            "cNext": [70139],
+            "cSiblings": ["character.character.tribal-relations.99"],
             "patch": "6.28"
         },
         "x70139": {
@@ -45,15 +33,9 @@
             "reputation": "REPUTATION.4",
             "npc_en": "N-7000",
             "npc_fr": "N-7000",
-            "cPrev": [
-                70138
-            ],
-            "cNext": [
-                70140
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.100"
-            ],
+            "cPrev": [70138],
+            "cNext": [70140],
+            "cSiblings": ["character.character.tribal-relations.100"],
             "patch": "6.28"
         },
         "x70140": {
@@ -63,15 +45,9 @@
             "reputation": "REPUTATION.5",
             "npc_en": "N-7000",
             "npc_fr": "N-7000",
-            "cPrev": [
-                70139
-            ],
-            "cNext": [
-                70141
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.101"
-            ],
+            "cPrev": [70139],
+            "cNext": [70141],
+            "cSiblings": ["character.character.tribal-relations.101"],
             "patch": "6.28"
         },
         "x70141": {
@@ -81,15 +57,9 @@
             "reputation": "REPUTATION.6",
             "npc_en": "N-7000",
             "npc_fr": "N-7000",
-            "cPrev": [
-                70140
-            ],
-            "cNext": [
-                70142
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.102"
-            ],
+            "cPrev": [70140],
+            "cNext": [70142],
+            "cSiblings": ["character.character.tribal-relations.102"],
             "patch": "6.28"
         },
         "x70142": {
@@ -99,12 +69,8 @@
             "reputation": "REPUTATION.7",
             "npc_en": "N-7000",
             "npc_fr": "N-7000",
-            "cPrev": [
-                70141
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.103"
-            ],
+            "cPrev": [70141],
+            "cSiblings": ["character.character.tribal-relations.103"],
             "patch": "6.28"
         }
     }

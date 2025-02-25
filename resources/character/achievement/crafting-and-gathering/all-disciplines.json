@@ -41,12 +41,8 @@
                 "character.achievement.crafting--gathering.alchemist.2509",
                 "character.achievement.crafting--gathering.culinarian.2512"
             ],
-            "cSiblings": [
-                "character.character.title.501"
-            ],
-            "cCombo": [
-                2526
-            ]
+            "cSiblings": ["character.character.title.501"],
+            "cCombo": [2526]
         },
         "x2523": {
             "name_en": "Gathering in the Air",
@@ -76,12 +72,8 @@
                 "character.achievement.crafting--gathering.botanist.2518",
                 "character.achievement.crafting--gathering.fisher.2521"
             ],
-            "cSiblings": [
-                "character.character.title.502"
-            ],
-            "cCombo": [
-                2526
-            ]
+            "cSiblings": ["character.character.title.502"],
+            "cCombo": [2526]
         },
         "x2526": {
             "name_en": "Castle in the Sky",
@@ -91,10 +83,7 @@
             "reward": "character.mount-guide.139",
             "patch": "5.21",
             "points": 20,
-            "cPrev": [
-                2524,
-                2525
-            ]
+            "cPrev": [2524, 2525]
         },
         "x2550": {
             "name_en": "Force of Nature I",
@@ -103,9 +92,7 @@
             "description_fr": "Utiliser 50 fois le perforateur éthéréen.",
             "patch": "5.21",
             "points": 5,
-            "cNext": [
-                2551
-            ]
+            "cNext": [2551]
         },
         "x2551": {
             "name_en": "Force of Nature II",
@@ -114,12 +101,8 @@
             "description_fr": "Utiliser 500 fois le perforateur éthéréen.",
             "patch": "5.21",
             "points": 5,
-            "cPrev": [
-                2550
-            ],
-            "cNext": [
-                2552
-            ]
+            "cPrev": [2550],
+            "cNext": [2552]
         },
         "x2552": {
             "name_en": "Force of Nature III",
@@ -128,9 +111,7 @@
             "description_fr": "Utiliser 1 000 fois le perforateur éthéréen.",
             "patch": "5.21",
             "points": 10,
-            "cPrev": [
-                2551
-            ]
+            "cPrev": [2551]
         },
         "x2538": {
             "name_en": "Let Luck Be a Moogle I",
@@ -141,9 +122,7 @@
             "reward_fr": "Couronne Kupo kupo",
             "patch": "5.21",
             "points": 5,
-            "cNext": [
-                2539
-            ]
+            "cNext": [2539]
         },
         "x2539": {
             "name_en": "Let Luck Be a Moogle II",
@@ -152,12 +131,8 @@
             "description_fr": "Gagner le premier prix 10 fois au Kupo de la fortune.",
             "patch": "5.21",
             "points": 5,
-            "cPrev": [
-                2538
-            ],
-            "cNext": [
-                2540
-            ]
+            "cPrev": [2538],
+            "cNext": [2540]
         },
         "x2540": {
             "name_en": "Let Luck Be a Moogle III",
@@ -167,12 +142,8 @@
             "reward": "character.character.title.514",
             "patch": "5.21",
             "points": 10,
-            "cPrev": [
-                2539
-            ],
-            "cSiblings": [
-                "character.character.title.514"
-            ]
+            "cPrev": [2539],
+            "cSiblings": ["character.character.title.514"]
         },
         "x2890": {
             "name_en": "Work Hard, Play Hard",
@@ -191,9 +162,7 @@
             "patch": "5.21",
             "points": 10,
             "defaultCompletion": "X",
-            "cSiblings": [
-                "character.character.title.488"
-            ]
+            "cSiblings": ["character.character.title.488"]
         },
         "x2488": {
             "name_en": "Phase II Minor Miracle",
@@ -204,9 +173,7 @@
             "patch": "5.21",
             "points": 10,
             "defaultCompletion": "X",
-            "cSiblings": [
-                "character.character.title.489"
-            ]
+            "cSiblings": ["character.character.title.489"]
         },
         "x2712": {
             "name_en": "Phase III Divine Ascension",
@@ -217,9 +184,7 @@
             "patch": "5.31",
             "points": 10,
             "defaultCompletion": "X",
-            "cSiblings": [
-                "character.character.title.547"
-            ]
+            "cSiblings": ["character.character.title.547"]
         },
         "x2713": {
             "name_en": "Phase III Minor Miracle",
@@ -230,9 +195,7 @@
             "patch": "5.31",
             "points": 10,
             "defaultCompletion": "X",
-            "cSiblings": [
-                "character.character.title.548"
-            ]
+            "cSiblings": ["character.character.title.548"]
         },
         "x2785": {
             "name_en": "Phase IV Divine Ascension",
@@ -243,9 +206,7 @@
             "patch": "5.41",
             "points": 10,
             "defaultCompletion": "X",
-            "cSiblings": [
-                "character.character.title.557"
-            ]
+            "cSiblings": ["character.character.title.557"]
         },
         "x2786": {
             "name_en": "Phase IV Minor Miracle",
@@ -256,9 +217,7 @@
             "patch": "5.41",
             "points": 10,
             "defaultCompletion": "X",
-            "cSiblings": [
-                "character.character.title.558"
-            ]
+            "cSiblings": ["character.character.title.558"]
         },
         "x2829": {
             "name_en": "Blameless Tools",
@@ -278,9 +237,7 @@
                 "character.achievement.crafting--gathering.alchemist.2827",
                 "character.achievement.crafting--gathering.culinarian.2828"
             ],
-            "cSiblings": [
-                "character.character.title.578"
-            ]
+            "cSiblings": ["character.character.title.578"]
         }
     }
 }

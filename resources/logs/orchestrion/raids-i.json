@@ -2,11 +2,7 @@
     "key": "raids-i",
     "groupName_en": "Raids I",
     "groupName_fr": "Raids I",
-    "common": [
-        "category",
-        "location",
-        "source"
-    ],
+    "common": ["category", "location", "source"],
     "tasks": {
         "x0": {
             "number": "1",
@@ -80,14 +76,8 @@
             "number": "9",
             "name_en": "Calamity Unbound",
             "name_fr": "Calamity Unbound",
-            "category": [
-                "CATEGORY.TREASURE_HUNT",
-                "CATEGORY.KUPO_OF_FORTUNE"
-            ],
-            "source": [
-                "duty.treasure-hunt.duties.0",
-                "CATEGORY.KUPO_OF_FORTUNE"
-            ],
+            "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "CATEGORY.KUPO_OF_FORTUNE"],
             "location": "ZONE.THE_FIRMAMENT",
             "patch": "3.4"
         },

@@ -10,9 +10,7 @@
             "description_fr": "Accomplir un total de 5 opérations de guilde.",
             "patch": "2.0",
             "points": 5,
-            "cNext": [
-                342
-            ]
+            "cNext": [342]
         },
         "x342": {
             "name_en": "Serving a Greater Cause II",
@@ -21,12 +19,8 @@
             "description_fr": "Accomplir un total de 10 opérations de guilde.",
             "patch": "2.0",
             "points": 5,
-            "cPrev": [
-                341
-            ],
-            "cNext": [
-                343
-            ]
+            "cPrev": [341],
+            "cNext": [343]
         },
         "x343": {
             "name_en": "Serving a Greater Cause III",
@@ -35,12 +29,8 @@
             "description_fr": "Accomplir un total de 20 opérations de guilde.",
             "patch": "2.0",
             "points": 5,
-            "cPrev": [
-                342
-            ],
-            "cNext": [
-                344
-            ]
+            "cPrev": [342],
+            "cNext": [344]
         },
         "x344": {
             "name_en": "Serving a Greater Cause IV",
@@ -49,12 +39,8 @@
             "description_fr": "Accomplir un total de 30 opérations de guilde.",
             "patch": "2.0",
             "points": 5,
-            "cPrev": [
-                343
-            ],
-            "cNext": [
-                345
-            ]
+            "cPrev": [343],
+            "cNext": [345]
         },
         "x345": {
             "name_en": "Serving a Greater Cause V",
@@ -63,12 +49,8 @@
             "description_fr": "Accomplir un total de 50 opérations de guilde.",
             "patch": "2.0",
             "points": 5,
-            "cPrev": [
-                344
-            ],
-            "cNext": [
-                346
-            ]
+            "cPrev": [344],
+            "cNext": [346]
         },
         "x346": {
             "name_en": "Serving a Greater Cause VI",
@@ -78,15 +60,9 @@
             "reward": "character.character.title.53",
             "patch": "2.0",
             "points": 10,
-            "cPrev": [
-                345
-            ],
-            "cNext": [
-                347
-            ],
-            "cSiblings": [
-                "character.character.title.53"
-            ]
+            "cPrev": [345],
+            "cNext": [347],
+            "cSiblings": ["character.character.title.53"]
         },
         "x347": {
             "name_en": "Enraptured Servitude",
@@ -95,9 +71,7 @@
             "description_fr": "Accomplir un total de 200 opérations de guilde.",
             "patch": "2.0",
             "points": 20,
-            "cPrev": [
-                346
-            ]
+            "cPrev": [346]
         },
         "x644": {
             "name_en": "Father Knows Hest I",
@@ -106,9 +80,7 @@
             "description_fr": "Accomplir 3 opérations de guilde différentes.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                645
-            ]
+            "cNext": [645]
         },
         "x645": {
             "name_en": "Father Knows Hest II",
@@ -117,12 +89,8 @@
             "description_fr": "Accomplir 7 opérations de guilde différentes.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [
-                644
-            ],
-            "cNext": [
-                646
-            ]
+            "cPrev": [644],
+            "cNext": [646]
         },
         "x646": {
             "name_en": "Father Knows Hest III",
@@ -131,9 +99,7 @@
             "description_fr": "Accomplir 14 opérations de guilde différentes.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                645
-            ]
+            "cPrev": [645]
         },
         "x1595": {
             "name_en": "On the Road Again",
@@ -142,9 +108,7 @@
             "description_fr": "Accomplir la quête “Le sourire de l'amitié”.",
             "patch": "3.3",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.chronicles-of-light.tales-of-the-dragonsong-war.67015"
-            ]
+            "cSiblings": ["duty.quests.sidequests.chronicles-of-light.tales-of-the-dragonsong-war.67015"]
         },
         "x902": {
             "name_en": "I Like Big Fish and I Cannot Lie",
@@ -154,10 +118,7 @@
             "reward": "character.character.title.150",
             "patch": "2.2",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66966",
-                "character.character.title.150"
-            ]
+            "cSiblings": ["duty.quests.sidequests.lominsan.limsa-lominsa.66966", "character.character.title.150"]
         },
         "x1575": {
             "name_en": "I'll Sleep When I'm Dead",
@@ -192,9 +153,7 @@
             "description_fr": "Accomplir la quête “Replongés dans l'abîme”.",
             "patch": "2.2",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.chronicles-of-a-new-era.bahamut.66696"
-            ]
+            "cSiblings": ["duty.quests.chronicles-of-a-new-era.bahamut.66696"]
         },
         "x901": {
             "name_en": "You Can Handle the Truth",
@@ -203,9 +162,7 @@
             "description_fr": "Accomplir la quête “Des vérités qui dérangent”.",
             "patch": "2.2",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.chronicles-of-a-new-era.bahamut.66850"
-            ]
+            "cSiblings": ["duty.quests.chronicles-of-a-new-era.bahamut.66850"]
         },
         "x1030": {
             "name_en": "Uncoiled",
@@ -215,10 +172,7 @@
             "reward": "character.character.title.178",
             "patch": "2.4",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.chronicles-of-a-new-era.bahamut.65580",
-                "character.character.title.178"
-            ]
+            "cSiblings": ["duty.quests.chronicles-of-a-new-era.bahamut.65580", "character.character.title.178"]
         },
         "x1164": {
             "name_en": "Awake the Metal",
@@ -228,10 +182,7 @@
             "reward": "character.character.title.235",
             "patch": "3.0",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.chronicles-of-a-new-era.alexander.67630",
-                "character.character.title.235"
-            ]
+            "cSiblings": ["duty.quests.chronicles-of-a-new-era.alexander.67630", "character.character.title.235"]
         },
         "x1494": {
             "name_en": "The Midas Touch",
@@ -241,10 +192,7 @@
             "reward": "character.character.title.290",
             "patch": "3.15",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.chronicles-of-a-new-era.alexander.67789",
-                "character.character.title.290"
-            ]
+            "cSiblings": ["duty.quests.chronicles-of-a-new-era.alexander.67789", "character.character.title.290"]
         },
         "x1629": {
             "name_en": "Back in Time",
@@ -254,10 +202,7 @@
             "reward": "character.character.title.315",
             "patch": "3.4",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.chronicles-of-a-new-era.alexander.67875",
-                "character.character.title.315"
-            ]
+            "cSiblings": ["duty.quests.chronicles-of-a-new-era.alexander.67875", "character.character.title.315"]
         },
         "x1796": {
             "name_en": "Delta Force",
@@ -267,10 +212,7 @@
             "reward": "character.character.title.359",
             "patch": "4.01",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.chronicles-of-a-new-era.omega.68469",
-                "character.character.title.359"
-            ]
+            "cSiblings": ["duty.quests.chronicles-of-a-new-era.omega.68469", "character.character.title.359"]
         },
         "x1388": {
             "name_en": "Paying the Bills",
@@ -280,10 +222,7 @@
             "reward": "character.character.title.272",
             "patch": "3.1",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.chronicles-of-a-new-era.the-shadow-of-mhach.67741",
-                "character.character.title.272"
-            ]
+            "cSiblings": ["duty.quests.chronicles-of-a-new-era.the-shadow-of-mhach.67741", "character.character.title.272"]
         },
         "x1031": {
             "name_en": "Imagine Dragon",
@@ -293,10 +232,7 @@
             "reward": "character.character.title.179",
             "patch": "2.4",
             "points": 30,
-            "cSiblings": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.65782",
-                "character.character.title.179"
-            ]
+            "cSiblings": ["duty.quests.sidequests.lominsan.limsa-lominsa.65782", "character.character.title.179"]
         },
         "x1004": {
             "name_en": "The Postmoogle Always Rings Twice",
@@ -306,10 +242,7 @@
             "reward": "character.character.title.175",
             "patch": "2.3",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.side-story.delivery-moogle.67017",
-                "character.character.title.175"
-            ]
+            "cSiblings": ["duty.quests.sidequests.side-story.delivery-moogle.67017", "character.character.title.175"]
         },
         "x1130": {
             "name_en": "Postal",
@@ -319,10 +252,7 @@
             "reward": "character.character.title.212",
             "patch": "2.55",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.side-story.delivery-moogle.65898",
-                "character.character.title.212"
-            ]
+            "cSiblings": ["duty.quests.sidequests.side-story.delivery-moogle.65898", "character.character.title.212"]
         },
         "x1005": {
             "name_en": "The Rest of the Story",
@@ -331,9 +261,7 @@
             "description_fr": "Accomplir la quête “Il était une fois un explorateur”.",
             "patch": "2.3",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.uldahn.western-thanalan.66973"
-            ]
+            "cSiblings": ["duty.quests.sidequests.uldahn.western-thanalan.66973"]
         },
         "x789": {
             "name_en": "Storyteller I",
@@ -342,9 +270,7 @@
             "description_fr": "Accomplir 10 quêtes différentes.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                790
-            ]
+            "cNext": [790]
         },
         "x790": {
             "name_en": "Storyteller II",
@@ -353,12 +279,8 @@
             "description_fr": "Accomplir 30 quêtes différentes.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                789
-            ],
-            "cNext": [
-                791
-            ]
+            "cPrev": [789],
+            "cNext": [791]
         },
         "x791": {
             "name_en": "Storyteller III",
@@ -367,9 +289,7 @@
             "description_fr": "Accomplir 100 quêtes différentes.",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [
-                790
-            ]
+            "cPrev": [790]
         },
         "x1058": {
             "name_en": "What's Nexus",
@@ -378,9 +298,7 @@
             "description_fr": "Accomplir la quête “Dernier fragment d'un long voyage”.",
             "patch": "2.45",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.weapon-enhancement-sidequests.zodiac-weapons.65897"
-            ]
+            "cSiblings": ["duty.quests.sidequests.weapon-enhancement-sidequests.zodiac-weapons.65897"]
         },
         "x1060": {
             "name_en": "Out of the Dark",
@@ -390,10 +308,7 @@
             "reward": "character.character.title.184",
             "patch": "2.5",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.chronicles-of-a-new-era.the-crystal-tower.66031",
-                "character.character.title.184"
-            ]
+            "cSiblings": ["duty.quests.chronicles-of-a-new-era.the-crystal-tower.66031", "character.character.title.184"]
         },
         "x1061": {
             "name_en": "I'll Be There for You",
@@ -403,10 +318,7 @@
             "reward": "character.character.title.185",
             "patch": "2.5",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.sidequests.hildibrand-sidequests.hildibrand.66038",
-                "character.character.title.185"
-            ]
+            "cSiblings": ["duty.quests.sidequests.hildibrand-sidequests.hildibrand.66038", "character.character.title.185"]
         },
         "x1080": {
             "name_en": "Home of the Brave",
@@ -415,9 +327,7 @@
             "description_fr": "Accomplir la quête “Un titre pour deux”.",
             "patch": "2.51",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.sidequests.weapon-enhancement-sidequests.zodiac-weapons.67823"
-            ]
+            "cSiblings": ["duty.quests.sidequests.weapon-enhancement-sidequests.zodiac-weapons.67823"]
         },
         "x1165": {
             "name_en": "The War Still Wageth On",
@@ -431,9 +341,7 @@
                 "duty.quests.chronicles-of-a-new-era.the-warring-triad.67652",
                 "duty.quests.chronicles-of-a-new-era.the-warring-triad.67651"
             ],
-            "cSiblings": [
-                "character.character.title.236"
-            ]
+            "cSiblings": ["character.character.title.236"]
         },
         "x1166": {
             "name_en": "Walking on Sunshine",
@@ -444,9 +352,7 @@
             "patch": "3.0",
             "points": 10,
             "defaultCompletion": "X",
-            "cSiblings": [
-                "character.character.title.237"
-            ]
+            "cSiblings": ["character.character.title.237"]
         },
         "x1405": {
             "name_en": "Back to School I",
@@ -456,10 +362,7 @@
             "reward": "character.character.title.277",
             "patch": "3.15",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.side-story.scholasticate.67691",
-                "character.character.title.277"
-            ]
+            "cSiblings": ["duty.quests.sidequests.side-story.scholasticate.67691", "character.character.title.277"]
         },
         "x1628": {
             "name_en": "Back to School II",
@@ -468,9 +371,7 @@
             "description_fr": "Accomplir la quête “Ulaa, es-tu là?”.",
             "patch": "3.4",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.side-story.scholasticate.67746"
-            ]
+            "cSiblings": ["duty.quests.sidequests.side-story.scholasticate.67746"]
         },
         "x1692": {
             "name_en": "Back to School III",
@@ -480,10 +381,7 @@
             "reward": "character.character.title.342",
             "patch": "3.5",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.side-story.scholasticate.67900",
-                "character.character.title.342"
-            ]
+            "cSiblings": ["duty.quests.sidequests.side-story.scholasticate.67900", "character.character.title.342"]
         },
         "x1693": {
             "name_en": "That Is What You Are",
@@ -519,10 +417,7 @@
             "reward": "character.character.title.288",
             "patch": "3.15",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.gridanian.north-shroud.67206",
-                "character.character.title.288"
-            ]
+            "cSiblings": ["duty.quests.sidequests.gridanian.north-shroud.67206", "character.character.title.288"]
         },
         "x2234": {
             "name_en": "Good Night, Sweet Hildy",
@@ -544,9 +439,7 @@
             "description_fr": "Accomplir la quête “Le secret ancestral des Manderville”.",
             "patch": "6.25",
             "points": 5,
-            "cSiblings": [
-                "duty.quests.sidequests.hildibrand-sidequests.manderville-weapons.70188"
-            ]
+            "cSiblings": ["duty.quests.sidequests.hildibrand-sidequests.manderville-weapons.70188"]
         },
         "x3374": {
             "name_en": "With Great Power Comes Great Mandervillity",
@@ -568,9 +461,7 @@
             "description_fr": "Accomplir la quête “Le cadeau des Dieux”.",
             "patch": "6.55",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70336"
-            ]
+            "cSiblings": ["duty.quests.sidequests.hildibrand-sidequests.somehow-further-hildibrand-adventures.70336"]
         },
         "x2567": {
             "name_en": "Second Chances",
@@ -579,9 +470,7 @@
             "description_fr": "Accomplir la quête “Une nouvelle chance”.",
             "patch": "5.21",
             "points": 5,
-            "cSiblings": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69264"
-            ]
+            "cSiblings": ["duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69264"]
         },
         "x2711": {
             "name_en": "Featherfall Rising",
@@ -590,9 +479,7 @@
             "description_fr": "Accomplir la quête “Un nouveau cœur pour Azurée”.",
             "patch": "5.31",
             "points": 5,
-            "cSiblings": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69494"
-            ]
+            "cSiblings": ["duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69494"]
         },
         "x2818": {
             "name_en": "Solid Ground",
@@ -601,9 +488,7 @@
             "description_fr": "Accomplir la quête “Entre ciel et terre, un océan de sourires”.",
             "patch": "5.41",
             "points": 5,
-            "cSiblings": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69538"
-            ]
+            "cSiblings": ["duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-main.69538"]
         },
         "x2568": {
             "name_en": "Modern Design",
@@ -612,9 +497,7 @@
             "description_fr": "Accomplir la quête “Les outils rivés au ciel”.",
             "patch": "5.25",
             "points": 5,
-            "cSiblings": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69385"
-            ]
+            "cSiblings": ["duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69385"]
         },
         "x2798": {
             "name_en": "Launch Party",
@@ -623,9 +506,7 @@
             "description_fr": "Accomplir la quête “Vers de nouveaux cieux d'acier”.",
             "patch": "5.45",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69520"
-            ]
+            "cSiblings": ["duty.quests.sidequests.records-of-unusual-endeavors.ishgardian-restoration-sidequests.69520"]
         },
         "x2607": {
             "name_en": "Cidception",
@@ -634,9 +515,7 @@
             "description_fr": "Accomplir la quête “Prélude à la catastrophe”.",
             "patch": "5.25",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69372"
-            ]
+            "cSiblings": ["duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69372"]
         },
         "x2670": {
             "name_en": "In the Trenches",
@@ -645,9 +524,7 @@
             "description_fr": "Accomplir la quête “L'épée sacrée Garde-la-Reine”.",
             "patch": "5.35",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69487"
-            ]
+            "cSiblings": ["duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69487"]
         },
         "x2760": {
             "name_en": "She's a Killer Queen",
@@ -656,9 +533,7 @@
             "description_fr": "Accomplir la quête “Que les Dieux gardent la Reine”.",
             "patch": "5.45",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69562"
-            ]
+            "cSiblings": ["duty.quests.sidequests.weapon-enhancement-sidequests.resistance-weapons.69562"]
         },
         "x2884": {
             "name_en": "Carry On, Carry On",
@@ -680,9 +555,7 @@
             "description_fr": "Accomplir la quête “Toujours près de toi”.",
             "patch": "5.5",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.chronicles-of-a-new-era.the-sorrow-of-werlyt.69568"
-            ]
+            "cSiblings": ["duty.quests.chronicles-of-a-new-era.the-sorrow-of-werlyt.69568"]
         },
         "x3152": {
             "name_en": "Sultana's Favor",
@@ -730,9 +603,7 @@
             "description_fr": "Accomplir la quête “Dites-le avec des outils”.",
             "patch": "6.35",
             "points": 5,
-            "cSiblings": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.splendorous-tools.70268"
-            ]
+            "cSiblings": ["duty.quests.sidequests.records-of-unusual-endeavors.splendorous-tools.70268"]
         },
         "x3304": {
             "name_en": "A Stroke of Brilliance",
@@ -741,9 +612,7 @@
             "description_fr": "Accomplir la quête “Une soirée bien arrosée”.",
             "patch": "6.4",
             "points": 5,
-            "cSiblings": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.splendorous-tools.70306"
-            ]
+            "cSiblings": ["duty.quests.sidequests.records-of-unusual-endeavors.splendorous-tools.70306"]
         },
         "x3373": {
             "name_en": "Many-splendored",
@@ -765,9 +634,7 @@
             "description_fr": "Accomplir la quête “Longue vie à la Tarufacture!”.",
             "patch": "6.55",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.sidequests.side-story.tatarus-grand-endeavor.70349"
-            ]
+            "cSiblings": ["duty.quests.sidequests.side-story.tatarus-grand-endeavor.70349"]
         },
         "x2243": {
             "name_en": "Live to Serve",
@@ -777,10 +644,7 @@
             "reward": "character.character.title.421",
             "patch": "4.5",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.chronicles-of-a-new-era.return-to-ivalice.68726",
-                "character.character.title.421"
-            ]
+            "cSiblings": ["duty.quests.chronicles-of-a-new-era.return-to-ivalice.68726", "character.character.title.421"]
         },
         "x2852": {
             "name_en": "Inner Truth",
@@ -790,10 +654,7 @@
             "reward": "character.character.title.584",
             "patch": "5.55",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69589",
-                "character.character.title.584"
-            ]
+            "cSiblings": ["duty.quests.chronicles-of-a-new-era.yorha-dark-apocalypse.69589", "character.character.title.584"]
         },
         "x3247": {
             "name_en": "Awesome Gaol, Great Job",
@@ -802,9 +663,7 @@
             "description_fr": "Accomplir la quête “Rétrospections”.",
             "patch": "6.4",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.chronicles-of-a-new-era.pandaemonium.70296"
-            ]
+            "cSiblings": ["duty.quests.chronicles-of-a-new-era.pandaemonium.70296"]
         },
         "x3408": {
             "name_en": "For Eorzea, For Etheirys",
@@ -814,10 +673,7 @@
             "reward": "character.character.title.709",
             "patch": "6.5",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.709",
-                "duty.quests.chronicles-of-a-new-era.myths-of-the-realm.70328"
-            ]
+            "cSiblings": ["character.character.title.709", "duty.quests.chronicles-of-a-new-era.myths-of-the-realm.70328"]
         },
         "x3282": {
             "name_en": "The Man, the Myth, the Legend",
@@ -826,9 +682,7 @@
             "description_fr": "Accomplir la quête “Transmettre l'espoir aux générations futures”.",
             "patch": "6.48",
             "points": 5,
-            "cSiblings": [
-                "duty.quests.sidequests.side-story.tales-from-the-calamity.70316"
-            ]
+            "cSiblings": ["duty.quests.sidequests.side-story.tales-from-the-calamity.70316"]
         },
         "x2108": {
             "name_en": "The New King on the Block",
@@ -838,10 +692,7 @@
             "reward": "character.character.title.398",
             "patch": "4.4",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.other.special.collaboration.67090",
-                "character.character.title.398"
-            ]
+            "cSiblings": ["duty.quests.other.special.collaboration.67090", "character.character.title.398"]
         }
     }
 }

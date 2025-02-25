@@ -9,10 +9,7 @@
             "name_fr": "Bienvenue à Limsa Lominsa",
             "npc_en": "Ryssfloh",
             "npc_fr": "Ryssfloh",
-            "cNext": [
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645",
-                65647
-            ],
+            "cNext": ["duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645", 65647],
             "patch": "4.31"
         },
         "x69379": {
@@ -22,9 +19,7 @@
             "npc_en": "Fhilsnoe",
             "npc_fr": "Fhilsnoe",
             "unlock_en": "Ocean Fishing",
-            "cPrev": [
-                "duty.quests.class--job.disciple-of-the-land.fisher.66644"
-            ],
+            "cPrev": ["duty.quests.class--job.disciple-of-the-land.fisher.66644"],
             "patch": "5.2"
         },
         "x65648": {
@@ -33,9 +28,7 @@
             "name_fr": "Un marin suspect",
             "npc_en": "Ahldskyf",
             "npc_fr": "Ahldskyf",
-            "cPrev": [
-                65647
-            ],
+            "cPrev": [65647],
             "patch": "4.31"
         },
         "x65649": {
@@ -68,12 +61,8 @@
             "name_fr": "C'est l'intention qui compte",
             "npc_en": "Niniya",
             "npc_fr": "Niniya",
-            "cPrev": [
-                65643
-            ],
-            "cNext": [
-                65648
-            ],
+            "cPrev": [65643],
+            "cNext": [65648],
             "patch": "4.31"
         },
         "x65859": {
@@ -98,9 +87,7 @@
             "name_fr": "La jumelle délégante",
             "npc_en": "N'tanmo",
             "npc_fr": "N'tanmo",
-            "cPrev": [
-                65655
-            ],
+            "cPrev": [65655],
             "patch": "4.31"
         },
         "x65655": {
@@ -109,9 +96,7 @@
             "name_fr": "La jumelle diligente",
             "npc_en": "Ginnade",
             "npc_fr": "Ginnade",
-            "cNext": [
-                65656
-            ],
+            "cNext": [65656],
             "patch": "4.31"
         },
         "x65653": {
@@ -152,9 +137,7 @@
             "name_fr": "Une saveur médusante",
             "npc_en": "S'dhodjbi",
             "npc_fr": "S'dhodjbi",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645"
-            ],
+            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645"],
             "patch": "4.31"
         },
         "x66198": {
@@ -171,12 +154,8 @@
             "name_fr": "C'est vraiment l'intention qui compte",
             "npc_en": "Niniya",
             "npc_fr": "Niniya",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.lominsan.lower-la-noscea.66011"
-            ],
+            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645"],
+            "cNext": ["duty.quests.sidequests.lominsan.lower-la-noscea.66011"],
             "patch": "4.31"
         },
         "x66229": {
@@ -186,9 +165,7 @@
             "npc_en": "T'mokkri",
             "npc_fr": "T'mokkri",
             "unlock_en": "Leves",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66005"
-            ],
+            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66005"],
             "cNext": [
                 "duty.quests.sidequests.gridanian.east-shroud.65757",
                 "duty.quests.sidequests.gridanian.south-shroud.65979",
@@ -215,14 +192,8 @@
             "cPrevAny": true,
             "npc_en": "Dodozan",
             "npc_fr": "Dodozan",
-            "cPrev": [
-                66088,
-                66081,
-                "duty.quests.main-scenario.seventh-umbral-era.gridania.65985"
-            ],
-            "cSiblings": [
-                "social.emotes.special.101"
-            ],
+            "cPrev": [66088, 66081, "duty.quests.main-scenario.seventh-umbral-era.gridania.65985"],
+            "cSiblings": ["social.emotes.special.101"],
             "patch": "4.31"
         },
         "x66746": {
@@ -237,9 +208,7 @@
                 "duty.quests.main-scenario.seventh-umbral-era.gridania.66210",
                 "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66210"
             ],
-            "cNext": [
-                "duty.quests.sidequests.side-story.delivery-moogle.67109"
-            ],
+            "cNext": ["duty.quests.sidequests.side-story.delivery-moogle.67109"],
             "patch": "4.31"
         },
         "x66967": {
@@ -267,9 +236,7 @@
             "name_fr": "Fée déguisée",
             "npc_en": "Thubyrgeim",
             "npc_fr": "Thubyrgeim",
-            "cPrev": [
-                "duty.quests.class--job.disciple-of-magic-job.scholar.66633"
-            ],
+            "cPrev": ["duty.quests.class--job.disciple-of-magic-job.scholar.66633"],
             "patch": "6.4"
         },
         "x66969": {
@@ -279,10 +246,7 @@
             "npc_en": "Troubled Adventurer",
             "npc_fr": "Aventurier Dans L'embarras",
             "unlock_en": "Retainer Ventures",
-            "cExclude": [
-                "duty.quests.sidequests.gridanian.gridania.66968",
-                "duty.quests.sidequests.uldahn.uldah.66970"
-            ],
+            "cExclude": ["duty.quests.sidequests.gridanian.gridania.66968", "duty.quests.sidequests.uldahn.uldah.66970"],
             "patch": "4.31"
         },
         "x66237": {
@@ -292,13 +256,8 @@
             "unlock": "character.mount-guide.39",
             "npc_en": "R'ashaht Rhiki",
             "npc_fr": "R'ashaht Rhiki",
-            "cNext": [
-                "duty.quests.sidequests.gridanian.south-shroud.66698"
-            ],
-            "cExclude": [
-                "duty.quests.sidequests.gridanian.gridania.66236",
-                "duty.quests.sidequests.uldahn.uldah.66238"
-            ],
+            "cNext": ["duty.quests.sidequests.gridanian.south-shroud.66698"],
+            "cExclude": ["duty.quests.sidequests.gridanian.gridania.66236", "duty.quests.sidequests.uldahn.uldah.66238"],
             "patch": "4.31"
         },
         "x66966": {
@@ -307,15 +266,9 @@
             "name_fr": "Des poissons de légende",
             "npc_en": "Sisipu",
             "npc_fr": "Sisipu",
-            "cPrev": [
-                "duty.quests.class--job.disciple-of-the-land.fisher.66654"
-            ],
-            "cNext": [
-                65782
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.902"
-            ],
+            "cPrev": ["duty.quests.class--job.disciple-of-the-land.fisher.66654"],
+            "cNext": [65782],
+            "cSiblings": ["character.achievement.quests.quests.902"],
             "patch": "4.31"
         },
         "x65782": {
@@ -324,12 +277,8 @@
             "name_fr": "Une légende de la pêche",
             "npc_en": "Wawalago",
             "npc_fr": "Wawalago",
-            "cPrev": [
-                66966
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1031"
-            ],
+            "cPrev": [66966],
+            "cSiblings": ["character.achievement.quests.quests.1031"],
             "patch": "4.31"
         },
         "x67896": {
@@ -338,9 +287,7 @@
             "name_fr": "Egi déguisé",
             "npc_en": "Thubyrgeim",
             "npc_fr": "Thubyrgeim",
-            "cPrev": [
-                "duty.quests.class--job.disciple-of-magic-job.summoner.66632"
-            ],
+            "cPrev": ["duty.quests.class--job.disciple-of-magic-job.summoner.66632"],
             "patch": "4.31"
         },
         "x67737": {
@@ -363,10 +310,7 @@
             "unlock": "duty.dutyraid-finder.dungeons.hw.13",
             "npc_en": "Denston",
             "npc_fr": "Denston",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67205",
-                "duty.quests.sidequests.mor-dhonan.mor-dhona.67062"
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67205", "duty.quests.sidequests.mor-dhonan.mor-dhona.67062"],
             "patch": "4.31"
         }
     }

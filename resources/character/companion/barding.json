@@ -21,10 +21,7 @@
             "header_fr": "Patch"
         }
     },
-    "common": [
-        "category",
-        "source"
-    ],
+    "common": ["category", "source"],
     "tasks": {
         "x1": {
             "name_en": "Lominsan Saddle",
@@ -475,50 +472,35 @@
             "name_en": "Tidal Barding",
             "name_fr": "Barde de Léviathan",
             "category": "CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": [
-                "duty.dutyraid-finder.deep-dungeon.1",
-                "CLASS_JOB.ARM"
-            ],
+            "source": ["duty.dutyraid-finder.deep-dungeon.1", "CLASS_JOB.ARM"],
             "patch": "2.2"
         },
         "x25": {
             "name_en": "Levin Barding",
             "name_fr": "Barde de Ramuh",
             "category": "CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": [
-                "duty.dutyraid-finder.deep-dungeon.1",
-                "CLASS_JOB.LTW"
-            ],
+            "source": ["duty.dutyraid-finder.deep-dungeon.1", "CLASS_JOB.LTW"],
             "patch": "2.3"
         },
         "x28": {
             "name_en": "Ice Barding",
             "name_fr": "Barde de Shiva",
             "category": "CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": [
-                "duty.dutyraid-finder.deep-dungeon.1",
-                "CLASS_JOB.LTW"
-            ],
+            "source": ["duty.dutyraid-finder.deep-dungeon.1", "CLASS_JOB.LTW"],
             "patch": "2.4"
         },
         "x34": {
             "name_en": "Expanse Barding",
             "name_fr": "Barde de Bismarck",
             "category": "CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": [
-                "duty.dutyraid-finder.deep-dungeon.1",
-                "CLASS_JOB.ARM"
-            ],
+            "source": ["duty.dutyraid-finder.deep-dungeon.1", "CLASS_JOB.ARM"],
             "patch": "3.0"
         },
         "x35": {
             "name_en": "Hive Barding",
             "name_fr": "Barde de Ravana",
             "category": "CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": [
-                "duty.dutyraid-finder.deep-dungeon.1",
-                "CLASS_JOB.ARM"
-            ],
+            "source": ["duty.dutyraid-finder.deep-dungeon.1", "CLASS_JOB.ARM"],
             "patch": "3.0"
         },
         "x40": {
@@ -533,60 +515,42 @@
             "name_en": "Sephirotic Barding",
             "name_fr": "Barde de Sephirot",
             "category": "CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": [
-                "duty.dutyraid-finder.deep-dungeon.1",
-                "CLASS_JOB.LTW"
-            ],
+            "source": ["duty.dutyraid-finder.deep-dungeon.1", "CLASS_JOB.LTW"],
             "patch": "3.2"
         },
         "x45": {
             "name_en": "Horde Barding",
             "name_fr": "Barde de Nidhogg",
             "category": "CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": [
-                "duty.dutyraid-finder.deep-dungeon.1",
-                "CLASS_JOB.LTW"
-            ],
+            "source": ["duty.dutyraid-finder.deep-dungeon.1", "CLASS_JOB.LTW"],
             "patch": "3.3"
         },
         "x47": {
             "name_en": "Sophic Barding",
             "name_fr": "Barde de Sophia",
             "category": "CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": [
-                "duty.dutyraid-finder.deep-dungeon.1",
-                "CLASS_JOB.GSM"
-            ],
+            "source": ["duty.dutyraid-finder.deep-dungeon.1", "CLASS_JOB.GSM"],
             "patch": "3.4"
         },
         "x52": {
             "name_en": "Zurvanite Barding",
             "name_fr": "Barde de Zurvan",
             "category": "CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": [
-                "duty.dutyraid-finder.deep-dungeon.1",
-                "CLASS_JOB.ARM"
-            ],
+            "source": ["duty.dutyraid-finder.deep-dungeon.1", "CLASS_JOB.ARM"],
             "patch": "3.5"
         },
         "x53": {
             "name_en": "Reveler's Barding",
             "name_fr": "Barde de Susano",
             "category": "CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": [
-                "duty.dutyraid-finder.deep-dungeon.1",
-                "CLASS_JOB.ARM"
-            ],
+            "source": ["duty.dutyraid-finder.deep-dungeon.1", "CLASS_JOB.ARM"],
             "patch": "4.0"
         },
         "x55": {
             "name_en": "Blissful Barding",
             "name_fr": "Barde de Lakshmi",
             "category": "CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": [
-                "duty.dutyraid-finder.deep-dungeon.1",
-                "CLASS_JOB.GSM"
-            ],
+            "source": ["duty.dutyraid-finder.deep-dungeon.1", "CLASS_JOB.GSM"],
             "patch": "4.0"
         },
         "x59": {

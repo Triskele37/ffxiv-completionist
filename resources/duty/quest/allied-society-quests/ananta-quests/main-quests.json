@@ -3,21 +3,15 @@
     "groupName_en": "Main Quests",
     "groupName_fr": "Histoire principale",
     "tasks": {
-		"x68572": {
+        "x68572": {
             "level": 60,
             "name_en": "Brooding Broodmother",
             "name_fr": "Les garde-frontières de la Velodyna",
             "npc_en": "M'rahz Nunh",
             "npc_fr": "M'rahz Nunh",
-            "cPrev": [
-                "duty.quests.sidequests.gyr-abanian.the-fringes.68364"
-            ],
-            "cNext": [
-                68573
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.60"
-            ],
+            "cPrev": ["duty.quests.sidequests.gyr-abanian.the-fringes.68364"],
+            "cNext": [68573],
+            "cSiblings": ["character.character.tribal-relations.60"],
             "patch": "4.31"
         },
         "x68573": {
@@ -28,15 +22,9 @@
             "npc_fr": "Alpa",
             "reputation_en": "Friendly",
             "reputation_fr": "Ami",
-            "cPrev": [
-                68572
-            ],
-            "cNext": [
-                68574
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.61"
-            ],
+            "cPrev": [68572],
+            "cNext": [68574],
+            "cSiblings": ["character.character.tribal-relations.61"],
             "patch": "4.31"
         },
         "x68574": {
@@ -47,15 +35,9 @@
             "npc_fr": "Alpa",
             "reputation_en": "Trusted",
             "reputation_fr": "Estimé",
-            "cPrev": [
-                68573
-            ],
-            "cNext": [
-                68575
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.62"
-            ],
+            "cPrev": [68573],
+            "cNext": [68575],
+            "cSiblings": ["character.character.tribal-relations.62"],
             "patch": "4.31"
         },
         "x68575": {
@@ -66,15 +48,9 @@
             "npc_fr": "Alpa",
             "reputation_en": "Respected",
             "reputation_fr": "Respecté",
-            "cPrev": [
-                68574
-            ],
-            "cNext": [
-                68576
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.63"
-            ],
+            "cPrev": [68574],
+            "cNext": [68576],
+            "cSiblings": ["character.character.tribal-relations.63"],
             "patch": "4.31"
         },
         "x68576": {
@@ -85,15 +61,9 @@
             "npc_fr": "Alpa",
             "reputation_en": "Honored",
             "reputation_fr": "Émérite",
-            "cPrev": [
-                68575
-            ],
-            "cNext": [
-                68577
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.64"
-            ],
+            "cPrev": [68575],
+            "cNext": [68577],
+            "cSiblings": ["character.character.tribal-relations.64"],
             "patch": "4.31"
         },
         "x68577": {
@@ -104,15 +74,9 @@
             "npc_fr": "Alpa",
             "reputation_en": "Sworn",
             "reputation_fr": "Assermenté",
-            "cPrev": [
-                68576
-            ],
-            "cNext": [
-                "duty.quests.tribal-quests.tribal-alliance-quests.stormblood-tribal-quests.68697"
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.65"
-            ],
+            "cPrev": [68576],
+            "cNext": ["duty.quests.tribal-quests.tribal-alliance-quests.stormblood-tribal-quests.68697"],
+            "cSiblings": ["character.character.tribal-relations.65"],
             "patch": "4.31"
         }
     }

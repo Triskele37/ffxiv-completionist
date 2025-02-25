@@ -9,9 +9,7 @@
             "name_fr": "Éviter les attaques à aire d'effet",
             "role_en": "Healer",
             "role_fr": "Soigneur",
-            "cNext": [
-                1
-            ]
+            "cNext": [1]
         },
         "x1": {
             "level": "15",
@@ -19,12 +17,8 @@
             "name_fr": "Soigner un allié",
             "role_en": "Healer",
             "role_fr": "Soigneur",
-            "cPrev": [
-                0
-            ],
-            "cNext": [
-                2
-            ]
+            "cPrev": [0],
+            "cNext": [2]
         },
         "x2": {
             "level": "15",
@@ -32,12 +26,8 @@
             "name_fr": "Soigner plusieurs alliés",
             "role_en": "Healer",
             "role_fr": "Soigneur",
-            "cPrev": [
-                1
-            ],
-            "cNext": [
-                3
-            ]
+            "cPrev": [1],
+            "cNext": [3]
         },
         "x3": {
             "level": "15",
@@ -45,12 +35,8 @@
             "name_fr": "Combattre en évitant les attaques ennemies",
             "role_en": "Healer",
             "role_fr": "Soigneur",
-            "cPrev": [
-                2
-            ],
-            "cNext": [
-                4
-            ]
+            "cPrev": [2],
+            "cNext": [4]
         },
         "x4": {
             "level": "15",
@@ -58,9 +44,7 @@
             "name_fr": "Exercice final",
             "role_en": "Healer",
             "role_fr": "Soigneur",
-            "cPrev": [
-                3
-            ]
+            "cPrev": [3]
         }
     }
 }

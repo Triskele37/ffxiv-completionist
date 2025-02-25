@@ -9,12 +9,8 @@
             "name_fr": "Vers de nouvelles aventures",
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.70000"
-            ],
-            "cNext": [
-                70063
-            ],
+            "cPrev": ["duty.quests.main-scenario.endwalker.70000"],
+            "cNext": [70063],
             "patch": "6.1"
         },
         "x70063": {
@@ -23,12 +19,8 @@
             "name_fr": "Le trésor sous la mer de l'Abondance",
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
-            "cPrev": [
-                70062
-            ],
-            "cNext": [
-                70064
-            ],
+            "cPrev": [70062],
+            "cNext": [70064],
             "patch": "6.1"
         },
         "x70064": {
@@ -37,12 +29,8 @@
             "name_fr": "Compagnons de voyage",
             "npc_en": "Estinien",
             "npc_fr": "Estinien",
-            "cPrev": [
-                70063
-            ],
-            "cNext": [
-                70065
-            ],
+            "cPrev": [70063],
+            "cNext": [70065],
             "patch": "6.1"
         },
         "x70065": {
@@ -52,12 +40,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.ew.8",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                70064
-            ],
-            "cNext": [
-                70066
-            ],
+            "cPrev": [70064],
+            "cNext": [70066],
             "patch": "6.1"
         },
         "x70066": {
@@ -66,13 +50,8 @@
             "name_fr": "Amour fraternel",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                70065
-            ],
-            "cNext": [
-                70067,
-                "duty.quests.chronicles-of-a-new-era.myths-of-the-realm.70072"
-            ],
+            "cPrev": [70065],
+            "cNext": [70067, "duty.quests.chronicles-of-a-new-era.myths-of-the-realm.70072"],
             "patch": "6.1"
         },
         "x70067": {
@@ -81,12 +60,8 @@
             "name_fr": "L'avenir de Thavnair",
             "npc_en": "Varshahn",
             "npc_fr": "Varshahn",
-            "cPrev": [
-                70066
-            ],
-            "cNext": [
-                70068
-            ],
+            "cPrev": [70066],
+            "cNext": [70068],
             "patch": "6.1"
         },
         "x70068": {
@@ -95,12 +70,8 @@
             "name_fr": "La théorie du voyage interdimensionnel",
             "npc_en": "Veteran Radiant",
             "npc_fr": "Garde De L'Ost Rayonnant",
-            "cPrev": [
-                70067
-            ],
-            "cNext": [
-                70069
-            ],
+            "cPrev": [70067],
+            "cNext": [70069],
             "patch": "6.1"
         },
         "x70069": {
@@ -109,12 +80,8 @@
             "name_fr": "Lecture interdite",
             "npc_en": "Montichaigne",
             "npc_fr": "Montichaigne",
-            "cPrev": [
-                70068
-            ],
-            "cNext": [
-                70070
-            ],
+            "cPrev": [70068],
+            "cNext": [70070],
             "patch": "6.1"
         },
         "x70070": {
@@ -123,12 +90,8 @@
             "name_fr": "Traversée expérimentale",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                70069
-            ],
-            "cNext": [
-                70071
-            ],
+            "cPrev": [70069],
+            "cNext": [70071],
             "patch": "6.1"
         },
         "x70071": {
@@ -137,15 +100,9 @@
             "name_fr": "La résolution de Vrtra",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                70070
-            ],
-            "cNext": [
-                70128
-            ],
-            "cSiblings": [
-                "character.achievement.quests.main-scenario.3075"
-            ],
+            "cPrev": [70070],
+            "cNext": [70128],
+            "cSiblings": ["character.achievement.quests.main-scenario.3075"],
             "patch": "6.1"
         },
         "x70128": {
@@ -155,12 +112,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.ew.9",
             "npc_en": "Varshahn",
             "npc_fr": "Varshahn",
-            "cPrev": [
-                70071
-            ],
-            "cNext": [
-                70129
-            ],
+            "cPrev": [70071],
+            "cNext": [70129],
             "patch": "6.28"
         },
         "x70129": {
@@ -169,12 +122,8 @@
             "name_fr": "Le château dans le néant",
             "npc_en": "Varshahn",
             "npc_fr": "Varshahn",
-            "cPrev": [
-                70128
-            ],
-            "cNext": [
-                70130
-            ],
+            "cPrev": [70128],
+            "cNext": [70130],
             "patch": "6.28"
         },
         "x70130": {
@@ -183,12 +132,8 @@
             "name_fr": "Au commencement était Zero",
             "npc_en": "Dark-robed Voidsent",
             "npc_fr": "Créature Du Néant Vêtue De Noir",
-            "cPrev": [
-                70129
-            ],
-            "cNext": [
-                70131
-            ],
+            "cPrev": [70129],
+            "cNext": [70131],
             "patch": "6.28"
         },
         "x70131": {
@@ -197,12 +142,8 @@
             "name_fr": "À tâtons dans les Ténèbres",
             "npc_en": "Estinien",
             "npc_fr": "Estinien",
-            "cPrev": [
-                70130
-            ],
-            "cNext": [
-                70132
-            ],
+            "cPrev": [70130],
+            "cNext": [70132],
             "patch": "6.28"
         },
         "x70132": {
@@ -211,12 +152,8 @@
             "name_fr": "Nulle part où fuir",
             "npc_en": "Zero",
             "npc_fr": "Zero",
-            "cPrev": [
-                70131
-            ],
-            "cNext": [
-                70133
-            ],
+            "cPrev": [70131],
+            "cNext": [70133],
             "patch": "6.28"
         },
         "x70133": {
@@ -226,12 +163,8 @@
             "unlock": "duty.dutyraid-finder.trials.ew.7",
             "npc_en": "Zero",
             "npc_fr": "Zero",
-            "cPrev": [
-                70132
-            ],
-            "cNext": [
-                70134
-            ],
+            "cPrev": [70132],
+            "cNext": [70134],
             "patch": "6.28"
         },
         "x70134": {
@@ -240,12 +173,8 @@
             "name_fr": "Besoin d'éther",
             "npc_en": "Varshahn",
             "npc_fr": "Varshahn",
-            "cPrev": [
-                70133
-            ],
-            "cNext": [
-                70135
-            ],
+            "cPrev": [70133],
+            "cNext": [70135],
             "patch": "6.28"
         },
         "x70135": {
@@ -254,12 +183,8 @@
             "name_fr": "Un monde plein de vie",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                70134
-            ],
-            "cNext": [
-                70136
-            ],
+            "cPrev": [70134],
+            "cNext": [70136],
             "patch": "6.28"
         },
         "x70136": {
@@ -268,16 +193,9 @@
             "name_fr": "Mémoire enfouie",
             "npc_en": "Varshahn",
             "npc_fr": "Varshahn",
-            "cPrev": [
-                70135
-            ],
-            "cNext": [
-                "duty.quests.sidequests.chronicles-of-light.tales-of-newfound-adventure.70196",
-                70206
-            ],
-            "cSiblings": [
-                "character.achievement.quests.main-scenario.3105"
-            ],
+            "cPrev": [70135],
+            "cNext": ["duty.quests.sidequests.chronicles-of-light.tales-of-newfound-adventure.70196", 70206],
+            "cSiblings": ["character.achievement.quests.main-scenario.3105"],
             "patch": "6.28"
         },
         "x70206": {
@@ -286,12 +204,8 @@
             "name_fr": "Le jour et la nuit",
             "npc_en": "Varshahn",
             "npc_fr": "Varshahn",
-            "cPrev": [
-                70136
-            ],
-            "cNext": [
-                70207
-            ],
+            "cPrev": [70136],
+            "cNext": [70207],
             "patch": "6.3"
         },
         "x70207": {
@@ -300,12 +214,8 @@
             "name_fr": "Rendez-vous gare du Nord",
             "npc_en": "Estinien",
             "npc_fr": "Estinien",
-            "cPrev": [
-                70206
-            ],
-            "cNext": [
-                70208
-            ],
+            "cPrev": [70206],
+            "cNext": [70208],
             "patch": "6.3"
         },
         "x70208": {
@@ -314,12 +224,8 @@
             "name_fr": "Aides de camp",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [
-                70207
-            ],
-            "cNext": [
-                70209
-            ],
+            "cPrev": [70207],
+            "cNext": [70209],
             "patch": "6.3"
         },
         "x70209": {
@@ -328,12 +234,8 @@
             "name_fr": "Pour une bouchée de pain",
             "npc_en": "1st Legion Soldier",
             "npc_fr": "Soldat De La 1re Légion",
-            "cPrev": [
-                70208
-            ],
-            "cNext": [
-                70210
-            ],
+            "cPrev": [70208],
+            "cNext": [70210],
             "patch": "6.3"
         },
         "x70210": {
@@ -342,12 +244,8 @@
             "name_fr": "Là-haut, dans la montagne",
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
-            "cPrev": [
-                70209
-            ],
-            "cNext": [
-                70211
-            ],
+            "cPrev": [70209],
+            "cNext": [70211],
             "patch": "6.3"
         },
         "x70211": {
@@ -356,12 +254,8 @@
             "name_fr": "La résilience du dragon ancien",
             "npc_en": "Varshahn",
             "npc_fr": "Varshahn",
-            "cPrev": [
-                70210
-            ],
-            "cNext": [
-                70212
-            ],
+            "cPrev": [70210],
+            "cNext": [70212],
             "patch": "6.3"
         },
         "x70212": {
@@ -370,12 +264,8 @@
             "name_fr": "Nouveau contretemps",
             "npc_en": "Zero",
             "npc_fr": "Zero",
-            "cPrev": [
-                70211
-            ],
-            "cNext": [
-                70213
-            ],
+            "cPrev": [70211],
+            "cNext": [70213],
             "patch": "6.3"
         },
         "x70213": {
@@ -384,12 +274,8 @@
             "name_fr": "Les menées du néant",
             "npc_en": "Nahbdeen",
             "npc_fr": "Nahbdeen",
-            "cPrev": [
-                70212
-            ],
-            "cNext": [
-                70214
-            ],
+            "cPrev": [70212],
+            "cNext": [70214],
             "patch": "6.3"
         },
         "x70214": {
@@ -398,16 +284,9 @@
             "name_fr": "Les Dieux festoient, la terre tremble",
             "npc_en": "Zero",
             "npc_fr": "Zero",
-            "cPrev": [
-                70213
-            ],
-            "cNext": [
-                "duty.quests.sidequests.chronicles-of-light.tales-of-newfound-adventure.70197",
-                70271
-            ],
-            "cSiblings": [
-                "character.achievement.quests.main-scenario.3157"
-            ],
+            "cPrev": [70213],
+            "cNext": ["duty.quests.sidequests.chronicles-of-light.tales-of-newfound-adventure.70197", 70271],
+            "cSiblings": ["character.achievement.quests.main-scenario.3157"],
             "patch": "6.3"
         },
         "x70271": {
@@ -416,12 +295,8 @@
             "name_fr": "Un ravitaillement relevé",
             "npc_en": "Varshahn",
             "npc_fr": "Varshahn",
-            "cPrev": [
-                70214
-            ],
-            "cNext": [
-                70272
-            ],
+            "cPrev": [70214],
+            "cNext": [70272],
             "patch": "6.4"
         },
         "x70272": {
@@ -431,13 +306,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.ew.11",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [
-                70271
-            ],
-            "cNext": [
-                "duty.quests.sidequests.sharlayan.old-sharlayan.70351",
-                70273
-            ],
+            "cPrev": [70271],
+            "cNext": ["duty.quests.sidequests.sharlayan.old-sharlayan.70351", 70273],
             "patch": "6.4"
         },
         "x70273": {
@@ -446,12 +316,8 @@
             "name_fr": "La tour de la discorde",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [
-                70272
-            ],
-            "cNext": [
-                70274
-            ],
+            "cPrev": [70272],
+            "cNext": [70274],
             "patch": "6.4"
         },
         "x70274": {
@@ -460,12 +326,8 @@
             "name_fr": "Le dilemme garlemaldais",
             "npc_en": "Jullus",
             "npc_fr": "Jullus",
-            "cPrev": [
-                70273
-            ],
-            "cNext": [
-                70275
-            ],
+            "cPrev": [70273],
+            "cNext": [70275],
             "patch": "6.4"
         },
         "x70275": {
@@ -474,12 +336,8 @@
             "name_fr": "Sur un pied d'égalité",
             "npc_en": "Jullus",
             "npc_fr": "Jullus",
-            "cPrev": [
-                70274
-            ],
-            "cNext": [
-                70276
-            ],
+            "cPrev": [70274],
+            "cNext": [70276],
             "patch": "6.4"
         },
         "x70276": {
@@ -488,12 +346,8 @@
             "name_fr": "Relever les glaives",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [
-                70275
-            ],
-            "cNext": [
-                70277
-            ],
+            "cPrev": [70275],
+            "cNext": [70277],
             "patch": "6.4"
         },
         "x70277": {
@@ -502,12 +356,8 @@
             "name_fr": "La lune rouge",
             "npc_en": "Urianger",
             "npc_fr": "Urianger",
-            "cPrev": [
-                70276
-            ],
-            "cNext": [
-                70278
-            ],
+            "cPrev": [70276],
+            "cNext": [70278],
             "patch": "6.4"
         },
         "x70278": {
@@ -517,12 +367,8 @@
             "unlock": "duty.dutyraid-finder.trials.ew.13",
             "npc_en": "Zero",
             "npc_fr": "Zero",
-            "cPrev": [
-                70277
-            ],
-            "cNext": [
-                70279
-            ],
+            "cPrev": [70277],
+            "cNext": [70279],
             "patch": "6.4"
         },
         "x70279": {
@@ -531,15 +377,9 @@
             "name_fr": "Le trône obscur",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                70278
-            ],
-            "cNext": [
-                70280
-            ],
-            "cSiblings": [
-                "character.achievement.quests.main-scenario.3244"
-            ],
+            "cPrev": [70278],
+            "cNext": [70280],
+            "cSiblings": ["character.achievement.quests.main-scenario.3244"],
             "patch": "6.4"
         },
         "x70280": {
@@ -548,12 +388,8 @@
             "name_fr": "Dissiper les Ténèbres",
             "npc_en": "Varshahn",
             "npc_fr": "Varshahn",
-            "cPrev": [
-                70279
-            ],
-            "cNext": [
-                70281
-            ],
+            "cPrev": [70279],
+            "cNext": [70281],
             "patch": "6.5"
         },
         "x70281": {
@@ -562,12 +398,8 @@
             "name_fr": "Pas de repos pour les braves",
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
-            "cPrev": [
-                70280
-            ],
-            "cNext": [
-                70282
-            ],
+            "cPrev": [70280],
+            "cNext": [70282],
             "patch": "6.5"
         },
         "x70282": {
@@ -576,12 +408,8 @@
             "name_fr": "Celle qui défie son destin",
             "npc_en": "Zero",
             "npc_fr": "Zero",
-            "cPrev": [
-                70281
-            ],
-            "cNext": [
-                70283
-            ],
+            "cPrev": [70281],
+            "cNext": [70283],
             "patch": "6.5"
         },
         "x70283": {
@@ -590,31 +418,19 @@
             "name_fr": "Sentiments par-delà les dimensions",
             "npc_en": "Ryne",
             "npc_fr": "Ryne",
-            "cPrev": [
-                70282
-            ],
-            "cNext": [
-                70284
-            ],
+            "cPrev": [70282],
+            "cNext": [70284],
             "patch": "6.5"
         },
         "x70284": {
             "level": 90,
             "name_en": "Down in the Dark",
             "name_fr": "Le héros du néant",
-            "unlock": [
-                "duty.dutyraid-finder.dungeons.ew.12",
-                "duty.dutyraid-finder.trials.ew.16"
-            ],
+            "unlock": ["duty.dutyraid-finder.dungeons.ew.12", "duty.dutyraid-finder.trials.ew.16"],
             "npc_en": "Varshahn",
             "npc_fr": "Varshahn",
-            "cPrev": [
-                70283
-            ],
-            "cNext": [
-                "duty.quests.sidequests.sharlayan.old-sharlayan.70331",
-                70285
-            ],
+            "cPrev": [70283],
+            "cNext": ["duty.quests.sidequests.sharlayan.old-sharlayan.70331", 70285],
             "patch": "6.5"
         },
         "x70285": {
@@ -623,12 +439,8 @@
             "name_fr": "Le retour des dragons anciens",
             "npc_en": "Vrtra",
             "npc_fr": "Vrtra",
-            "cPrev": [
-                70284
-            ],
-            "cNext": [
-                70286
-            ],
+            "cPrev": [70284],
+            "cNext": [70286],
             "patch": "6.5"
         },
         "x70286": {
@@ -637,16 +449,9 @@
             "name_fr": "Nitescence nouvelle",
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
-            "cPrev": [
-                70285
-            ],
-            "cNext": [
-                "duty.quests.sidequests.records-of-unusual-endeavors.island-sanctuary.70330",
-                70287
-            ],
-            "cSiblings": [
-                "character.achievement.quests.main-scenario.3413"
-            ],
+            "cPrev": [70285],
+            "cNext": ["duty.quests.sidequests.records-of-unusual-endeavors.island-sanctuary.70330", 70287],
+            "cSiblings": ["character.achievement.quests.main-scenario.3413"],
             "patch": "6.5"
         },
         "x70287": {
@@ -655,12 +460,8 @@
             "name_fr": "Rencontre sous le signe du destin",
             "npc_en": "Varshahn",
             "npc_fr": "Varshahn",
-            "cPrev": [
-                70286
-            ],
-            "cNext": [
-                70288
-            ],
+            "cPrev": [70286],
+            "cNext": [70288],
             "patch": "6.55"
         },
         "x70288": {
@@ -669,12 +470,8 @@
             "name_fr": "Par-delà l'horizon",
             "npc_en": "G'raha Tia",
             "npc_fr": "G'raha Tia",
-            "cPrev": [
-                70287
-            ],
-            "cNext": [
-                70289
-            ],
+            "cPrev": [70287],
+            "cNext": [70289],
             "patch": "6.55"
         },
         "x70289": {
@@ -683,12 +480,8 @@
             "name_fr": "L'appel de l'aventure",
             "npc_en": "G'raha Tia",
             "npc_fr": "G'raha Tia",
-            "cPrev": [
-                70288
-            ],
-            "cSiblings": [
-                "character.achievement.quests.main-scenario.3414"
-            ],
+            "cPrev": [70288],
+            "cSiblings": ["character.achievement.quests.main-scenario.3414"],
             "patch": "6.55"
         }
     }

@@ -9,12 +9,8 @@
             "name_fr": "Entre vous et nous, c'est une histoire de dégoût",
             "npc_en": "Debroye",
             "npc_fr": "Debroye",
-            "cPrev": [
-                "duty.quests.class--job.studium.70009"
-            ],
-            "cNext": [
-                69683
-            ],
+            "cPrev": ["duty.quests.class--job.studium.70009"],
+            "cNext": [69683],
             "patch": "6.0"
         },
         "x69683": {
@@ -23,12 +19,8 @@
             "name_fr": "Une pincée de sucre",
             "npc_en": "Debroye",
             "npc_fr": "Debroye",
-            "cPrev": [
-                69682
-            ],
-            "cNext": [
-                69684
-            ],
+            "cPrev": [69682],
+            "cNext": [69684],
             "patch": "6.0"
         },
         "x69684": {
@@ -37,12 +29,8 @@
             "name_fr": "Un brin de consistance",
             "npc_en": "Debroye",
             "npc_fr": "Debroye",
-            "cPrev": [
-                69683
-            ],
-            "cNext": [
-                69685
-            ],
+            "cPrev": [69683],
+            "cNext": [69685],
             "patch": "6.0"
         },
         "x69685": {
@@ -51,12 +39,8 @@
             "name_fr": "Une pointe d'arôme",
             "npc_en": "Debroye",
             "npc_fr": "Debroye",
-            "cPrev": [
-                69684
-            ],
-            "cNext": [
-                69686
-            ],
+            "cPrev": [69684],
+            "cNext": [69686],
             "patch": "6.0"
         },
         "x69686": {
@@ -65,12 +49,8 @@
             "name_fr": "Les tribulations d'une marmitonne en Orient",
             "npc_en": "Debroye",
             "npc_fr": "Debroye",
-            "cPrev": [
-                69685
-            ],
-            "cNext": [
-                69687
-            ],
+            "cPrev": [69685],
+            "cNext": [69687],
             "patch": "6.0"
         },
         "x69687": {
@@ -79,12 +59,8 @@
             "name_fr": "La perfection panaire",
             "npc_en": "Debroye",
             "npc_fr": "Debroye",
-            "cPrev": [
-                69686
-            ],
-            "cNext": [
-                69688
-            ],
+            "cPrev": [69686],
+            "cNext": [69688],
             "patch": "6.0"
         },
         "x69688": {
@@ -93,15 +69,9 @@
             "name_fr": "L'avenir des papilles sharlayanaises",
             "npc_en": "Debroye",
             "npc_fr": "Debroye",
-            "cPrev": [
-                69687
-            ],
-            "cNext": [
-                "duty.quests.class--job.studium.70010"
-            ],
-            "cSiblings": [
-                "character.achievement.quests.job-role-quests.2968"
-            ],
+            "cPrev": [69687],
+            "cNext": ["duty.quests.class--job.studium.70010"],
+            "cSiblings": ["character.achievement.quests.job-role-quests.2968"],
             "patch": "6.0"
         }
     }

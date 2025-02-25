@@ -9,9 +9,7 @@
             "name_fr": "L'âme des armes",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cNext": [
-                66972
-            ],
+            "cNext": [66972],
             "patch": "4.31"
         },
         "x66972": {
@@ -20,12 +18,8 @@
             "name_fr": "Les Chroniques du zodiaque",
             "npc_en": "Jalzahn",
             "npc_fr": "Jalzahn",
-            "cPrev": [
-                66971
-            ],
-            "cNext": [
-                66998
-            ],
+            "cPrev": [66971],
+            "cNext": [66998],
             "patch": "4.31"
         },
         "x66998": {
@@ -34,13 +28,8 @@
             "name_fr": "Radiance sphérique",
             "npc_en": "Jalzahn",
             "npc_fr": "Jalzahn",
-            "cPrev": [
-                66972
-            ],
-            "cNext": [
-                "duty.quests.sidequests.gridanian.north-shroud.66676",
-                67000
-            ],
+            "cPrev": [66972],
+            "cNext": ["duty.quests.sidequests.gridanian.north-shroud.66676", 67000],
             "patch": "4.31"
         },
         "x67000": {
@@ -49,12 +38,8 @@
             "name_fr": "Brillance stellaire",
             "npc_en": "Hubairtin",
             "npc_fr": "Hubairtin",
-            "cPrev": [
-                66998
-            ],
-            "cNext": [
-                65742
-            ],
+            "cPrev": [66998],
+            "cNext": [65742],
             "patch": "4.31"
         },
         "x65742": {
@@ -63,12 +48,8 @@
             "name_fr": "L'harmonisation des âmes",
             "npc_en": "Jalzahn",
             "npc_fr": "Jalzahn",
-            "cPrev": [
-                67000
-            ],
-            "cNext": [
-                65892
-            ],
+            "cPrev": [67000],
+            "cNext": [65892],
             "patch": "4.31"
         },
         "x65892": {
@@ -77,15 +58,8 @@
             "name_fr": "Une idée de génie",
             "npc_en": "Jalzahn",
             "npc_fr": "Jalzahn",
-            "cPrev": [
-                65742
-            ],
-            "cNext": [
-                65893,
-                65894,
-                65895,
-                65896
-            ],
+            "cPrev": [65742],
+            "cNext": [65893, 65894, 65895, 65896],
             "patch": "4.31"
         },
         "x65893": {
@@ -94,9 +68,7 @@
             "name_fr": "La liberté a un prix",
             "npc_en": "Papana",
             "npc_fr": "Papana",
-            "cPrev": [
-                65892
-            ],
+            "cPrev": [65892],
             "patch": "4.31"
         },
         "x65894": {
@@ -105,9 +77,7 @@
             "name_fr": "L'art et la matière",
             "npc_en": "Guiding Star",
             "npc_fr": "Guiding Star",
-            "cPrev": [
-                65892
-            ],
+            "cPrev": [65892],
             "patch": "4.31"
         },
         "x65895": {
@@ -116,9 +86,7 @@
             "name_fr": "Le futur bras droit de Mutamix",
             "npc_en": "Adkin",
             "npc_fr": "Adkin",
-            "cPrev": [
-                65892
-            ],
+            "cPrev": [65892],
             "patch": "4.31"
         },
         "x65896": {
@@ -127,10 +95,7 @@
             "name_fr": "Le cœur d'une mère est un trésor",
             "npc_en": "Brangwine",
             "npc_fr": "Brangwine",
-            "cPrev": [
-                65892,
-                "duty.quests.sidequests.gridanian.north-shroud.66676"
-            ],
+            "cPrev": [65892, "duty.quests.sidequests.gridanian.north-shroud.66676"],
             "patch": "4.31"
         },
         "x65897": {
@@ -139,12 +104,8 @@
             "name_fr": "Dernier fragment d'un long voyage",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cNext": [
-                66096
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1058"
-            ],
+            "cNext": [66096],
+            "cSiblings": ["character.achievement.quests.quests.1058"],
             "patch": "4.31"
         },
         "x66096": {
@@ -153,12 +114,8 @@
             "name_fr": "L'heure du réveil",
             "npc_en": "Jalzahn",
             "npc_fr": "Jalzahn",
-            "cPrev": [
-                65897
-            ],
-            "cNext": [
-                67823
-            ],
+            "cPrev": [65897],
+            "cNext": [67823],
             "patch": "4.31"
         },
         "x67823": {
@@ -167,15 +124,9 @@
             "name_fr": "Un titre pour deux",
             "npc_en": "Jalzahn",
             "npc_fr": "Jalzahn",
-            "cPrev": [
-                66096
-            ],
-            "cNext": [
-                "duty.quests.sidequests.gridanian.north-shroud.67206"
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1080"
-            ],
+            "cPrev": [66096],
+            "cNext": ["duty.quests.sidequests.gridanian.north-shroud.67206"],
+            "cSiblings": ["character.achievement.quests.quests.1080"],
             "patch": "4.31"
         }
     }

@@ -3,18 +3,14 @@
     "groupName_en": "Magical Ranged DPS Role Quests (Shadowbringers)",
     "groupName_fr": "Quêtes de DPS magique (Shadowbringers)",
     "tasks": {
-		"x69159": {
+        "x69159": {
             "level": 70,
             "name_en": "Hollow Pursuits",
             "name_fr": "Le trou noir du grand pécheur",
             "npc_en": "Cerigg",
             "npc_fr": "Cerigg",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68837"
-            ],
-            "cNext": [
-                69160
-            ],
+            "cPrev": ["duty.quests.main-scenario.shadowbringers.68837"],
+            "cNext": [69160],
             "patch": "5.0"
         },
         "x69160": {
@@ -23,12 +19,8 @@
             "name_fr": "Une voix venue du vide",
             "npc_en": "Cerigg",
             "npc_fr": "Cerigg",
-            "cPrev": [
-                69159
-            ],
-            "cNext": [
-                69161
-            ],
+            "cPrev": [69159],
+            "cNext": [69161],
             "patch": "5.0"
         },
         "x69161": {
@@ -37,12 +29,8 @@
             "name_fr": "L'éclosion des souvenirs",
             "npc_en": "Cerigg",
             "npc_fr": "Cerigg",
-            "cPrev": [
-                69160
-            ],
-            "cNext": [
-                69162
-            ],
+            "cPrev": [69160],
+            "cNext": [69162],
             "patch": "5.0"
         },
         "x69162": {
@@ -51,12 +39,8 @@
             "name_fr": "Une cupidité bien généreuse",
             "npc_en": "Cerigg",
             "npc_fr": "Cerigg",
-            "cPrev": [
-                69161
-            ],
-            "cNext": [
-                69163
-            ],
+            "cPrev": [69161],
+            "cNext": [69163],
             "patch": "5.0"
         },
         "x69163": {
@@ -65,12 +49,8 @@
             "name_fr": "La valeur n'attend pas le nombre de monstres lapidés",
             "npc_en": "Cerigg",
             "npc_fr": "Cerigg",
-            "cPrev": [
-                69162
-            ],
-            "cNext": [
-                69164
-            ],
+            "cPrev": [69162],
+            "cNext": [69164],
             "patch": "5.0"
         },
         "x69164": {
@@ -79,17 +59,13 @@
             "name_fr": "Un siècle de larmes",
             "npc_en": "Cerigg",
             "npc_fr": "Cerigg",
-            "cPrev": [
-                69163
-            ],
+            "cPrev": [69163],
             "cNext": [
                 "duty.quests.class--job.disciple-of-magic-job.black-mage.68752",
                 "duty.quests.class--job.disciple-of-magic-job.red-mage.68760",
                 "duty.quests.class--job.disciple-of-magic-job.summoner.69569"
             ],
-            "cSiblings": [
-                "character.achievement.quests.job-role-quests.2304"
-            ],
+            "cSiblings": ["character.achievement.quests.job-role-quests.2304"],
             "patch": "5.0"
         }
     }

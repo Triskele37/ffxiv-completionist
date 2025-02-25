@@ -10,9 +10,7 @@
             "description_fr": "Réaliser 50 synthèses d'armurerie de niveau 1 à 10.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                154
-            ]
+            "cCombo": [154]
         },
         "x150": {
             "name_en": "Pounding Out the Dents: Initiate",
@@ -21,9 +19,7 @@
             "description_fr": "Réaliser 300 synthèses d'armurerie de niveau 11 à 20.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                154
-            ]
+            "cCombo": [154]
         },
         "x151": {
             "name_en": "Pounding Out the Dents: Apprentice",
@@ -32,9 +28,7 @@
             "description_fr": "Réaliser 750 synthèses d'armurerie de niveau 21 à 30.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                154
-            ]
+            "cCombo": [154]
         },
         "x152": {
             "name_en": "Pounding Out the Dents: Journeyman",
@@ -43,9 +37,7 @@
             "description_fr": "Réaliser 1 500 synthèses d'armurerie de niveau 31 à 40.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                154
-            ]
+            "cCombo": [154]
         },
         "x153": {
             "name_en": "Pounding Out the Dents: Artisan",
@@ -55,12 +47,8 @@
             "reward": "character.character.title.19",
             "patch": "2.0",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.19"
-            ],
-            "cCombo": [
-                154
-            ]
+            "cSiblings": ["character.character.title.19"],
+            "cCombo": [154]
         },
         "x154": {
             "name_en": "An Armorer's Life for Me",
@@ -71,13 +59,7 @@
             "reward_fr": "Massette de virtuose",
             "patch": "2.0",
             "points": 30,
-            "cPrev": [
-                149,
-                150,
-                151,
-                152,
-                153
-            ]
+            "cPrev": [149, 150, 151, 152, 153]
         },
         "x1303": {
             "name_en": "Pounding Out the Dents: Adept",
@@ -118,9 +100,7 @@
             "description_fr": "Faire 30 synthèses d'armurier différentes et les avoir notées dans le carnet d'artisanat.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                702
-            ]
+            "cNext": [702]
         },
         "x702": {
             "name_en": "I Made That: Armorer II",
@@ -129,12 +109,8 @@
             "description_fr": "Faire 70 synthèses d'armurier différentes et les avoir notées dans le carnet d'artisanat.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [
-                701
-            ],
-            "cNext": [
-                703
-            ]
+            "cPrev": [701],
+            "cNext": [703]
         },
         "x703": {
             "name_en": "I Made That: Armorer III",
@@ -145,12 +121,8 @@
             "reward_fr": "Anneau de maître armurier",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                702
-            ],
-            "cNext": [
-                1280
-            ]
+            "cPrev": [702],
+            "cNext": [1280]
         },
         "x1280": {
             "name_en": "I Made That: Armorer IV",
@@ -159,12 +131,8 @@
             "description_fr": "Faire 210 synthèses d'armurier différentes et les avoir notées dans le carnet d'artisanat.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                703
-            ],
-            "cNext": [
-                1723
-            ]
+            "cPrev": [703],
+            "cNext": [1723]
         },
         "x1723": {
             "name_en": "I Made That: Armorer V",
@@ -175,12 +143,8 @@
             "reward_fr": "Marteau de haubergier béni",
             "patch": "3.5",
             "points": 10,
-            "cPrev": [
-                1280
-            ],
-            "cNext": [
-                2168
-            ]
+            "cPrev": [1280],
+            "cNext": [2168]
         },
         "x2168": {
             "name_en": "I Made That: Armorer VI",
@@ -191,9 +155,7 @@
             "reward_fr": "Marteau du roi de la fonderie béni",
             "patch": "4.5",
             "points": 10,
-            "cPrev": [
-                1723
-            ]
+            "cPrev": [1723]
         },
         "x756": {
             "name_en": "An Eye for Detail: Armorer I",
@@ -202,9 +164,7 @@
             "description_fr": "Fabriquer un total de 100 objets de haute qualité en tant qu'armurier.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                757
-            ]
+            "cNext": [757]
         },
         "x757": {
             "name_en": "An Eye for Detail: Armorer II",
@@ -213,12 +173,8 @@
             "description_fr": "Fabriquer un total de 500 objets de haute qualité en tant qu'armurier.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [
-                756
-            ],
-            "cNext": [
-                758
-            ]
+            "cPrev": [756],
+            "cNext": [758]
         },
         "x758": {
             "name_en": "An Eye for Detail: Armorer III",
@@ -227,12 +183,8 @@
             "description_fr": "Fabriquer un total de 3 000 objets de haute qualité en tant qu'armurier.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                757
-            ],
-            "cNext": [
-                1315
-            ]
+            "cPrev": [757],
+            "cNext": [1315]
         },
         "x1315": {
             "name_en": "An Eye for Detail: Armorer IV",
@@ -241,12 +193,8 @@
             "description_fr": "Fabriquer un total de 5 000 objets de haute qualité en tant qu'armurier.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                758
-            ],
-            "cNext": [
-                1323
-            ]
+            "cPrev": [758],
+            "cNext": [1323]
         },
         "x1323": {
             "name_en": "An Eye for Detail: Armorer V",
@@ -256,12 +204,8 @@
             "reward": "character.character.title.255",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                1315
-            ],
-            "cSiblings": [
-                "character.character.title.255"
-            ]
+            "cPrev": [1315],
+            "cSiblings": ["character.character.title.255"]
         },
         "x2495": {
             "name_en": "Skyward Hammer I",
@@ -270,12 +214,8 @@
             "description_fr": "Gagner un total de 50 000 points d'azur en tant qu'armurier.",
             "patch": "5.21",
             "points": 5,
-            "cNext": [
-                2496
-            ],
-            "cCombo": [
-                "character.achievement.crafting--gathering.all-disciplines.2522"
-            ]
+            "cNext": [2496],
+            "cCombo": ["character.achievement.crafting--gathering.all-disciplines.2522"]
         },
         "x2496": {
             "name_en": "Skyward Hammer II",
@@ -284,12 +224,8 @@
             "description_fr": "Gagner un total de 150 000 points d'azur en tant qu'armurier.",
             "patch": "5.21",
             "points": 5,
-            "cPrev": [
-                2495
-            ],
-            "cNext": [
-                2497
-            ]
+            "cPrev": [2495],
+            "cNext": [2497]
         },
         "x2497": {
             "name_en": "Skyward Hammer III",
@@ -299,15 +235,9 @@
             "reward": "character.character.title.492",
             "patch": "5.21",
             "points": 10,
-            "cPrev": [
-                2496
-            ],
-            "cSiblings": [
-                "character.character.title.492"
-            ],
-            "cCombo": [
-                "character.achievement.crafting--gathering.all-disciplines.2524"
-            ]
+            "cPrev": [2496],
+            "cSiblings": ["character.character.title.492"],
+            "cCombo": ["character.achievement.crafting--gathering.all-disciplines.2524"]
         },
         "x2529": {
             "name_en": "The Height of Armorcraft",
@@ -317,9 +247,7 @@
             "reward": "character.character.title.505",
             "patch": "5.21",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.505"
-            ]
+            "cSiblings": ["character.character.title.505"]
         },
         "x2650": {
             "name_en": "Armorers of a Feather",
@@ -329,9 +257,7 @@
             "reward": "character.character.title.530",
             "patch": "5.31",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.530"
-            ]
+            "cSiblings": ["character.character.title.530"]
         },
         "x2809": {
             "name_en": "An Ode to Armorcraft",
@@ -341,9 +267,7 @@
             "reward": "character.character.title.567",
             "patch": "5.41",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.567"
-            ]
+            "cSiblings": ["character.character.title.567"]
         },
         "x2823": {
             "name_en": "Retooled: Resplendent Hammerfiend's Beetle",
@@ -352,9 +276,7 @@
             "description_fr": "Obtenir un marteau du fiélon de la fonderie resplendissant.",
             "patch": "5.5",
             "points": 10,
-            "cCombo": [
-                "character.achievement.crafting--gathering.all-disciplines.2829"
-            ]
+            "cCombo": ["character.achievement.crafting--gathering.all-disciplines.2829"]
         }
     }
 }

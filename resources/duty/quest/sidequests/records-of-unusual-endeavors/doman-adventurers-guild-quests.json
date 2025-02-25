@@ -9,12 +9,8 @@
             "name_fr": "Les trésors du camp dévasté",
             "npc_en": "Rhesh Polaali",
             "npc_fr": "Rhesh Polaali",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67168"
-            ],
-            "cNext": [
-                65586
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67168"],
+            "cNext": [65586],
             "patch": "4.31"
         },
         "x65586": {
@@ -23,13 +19,8 @@
             "name_fr": "Des suspects trop parfaits",
             "npc_en": "Yozan",
             "npc_fr": "Yozan",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67168",
-                65581
-            ],
-            "cNext": [
-                65636
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67168", 65581],
+            "cNext": [65636],
             "patch": "4.31"
         },
         "x65636": {
@@ -38,10 +29,7 @@
             "name_fr": "À malin, malin et demi",
             "npc_en": "Yozan",
             "npc_fr": "Yozan",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67168",
-                65586
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67168", 65586],
             "patch": "4.31"
         }
     }

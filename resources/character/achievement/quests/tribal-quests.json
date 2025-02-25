@@ -10,12 +10,8 @@
             "description_fr": "Atteindre le rang 1 (Neutre) de réputation auprès des Amalj'aa de la Ligue des cendres.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                864
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.0"
-            ]
+            "cNext": [864],
+            "cSiblings": ["character.character.tribal-relations.0"]
         },
         "x864": {
             "name_en": "You Bet Your Ash II",
@@ -24,15 +20,9 @@
             "description_fr": "Atteindre le rang 2 (Reconnu) de réputation auprès des Amalj'aa de la Ligue des cendres.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [
-                863
-            ],
-            "cNext": [
-                865
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.1"
-            ]
+            "cPrev": [863],
+            "cNext": [865],
+            "cSiblings": ["character.character.tribal-relations.1"]
         },
         "x865": {
             "name_en": "You Bet Your Ash III",
@@ -41,15 +31,9 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Amalj'aa de la Ligue des cendres.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                864
-            ],
-            "cNext": [
-                866
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.2"
-            ]
+            "cPrev": [864],
+            "cNext": [866],
+            "cSiblings": ["character.character.tribal-relations.2"]
         },
         "x866": {
             "name_en": "A Real Bad Ash",
@@ -59,13 +43,8 @@
             "reward": "character.character.title.145",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [
-                865
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.3",
-                "character.character.title.145"
-            ]
+            "cPrev": [865],
+            "cSiblings": ["character.character.tribal-relations.3", "character.character.title.145"]
         },
         "x867": {
             "name_en": "Sylph-conscious I",
@@ -74,12 +53,8 @@
             "description_fr": "Atteindre le rang 1 (Neutre) de réputation auprès des Sylphes du Refuge.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                868
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.5"
-            ]
+            "cNext": [868],
+            "cSiblings": ["character.character.tribal-relations.5"]
         },
         "x868": {
             "name_en": "Sylph-conscious II",
@@ -88,15 +63,9 @@
             "description_fr": "Atteindre le rang 2 (Reconnu) de réputation auprès des Sylphes du Refuge.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [
-                867
-            ],
-            "cNext": [
-                869
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.6"
-            ]
+            "cPrev": [867],
+            "cNext": [869],
+            "cSiblings": ["character.character.tribal-relations.6"]
         },
         "x869": {
             "name_en": "Sylph-conscious III",
@@ -105,15 +74,9 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Sylphes du Refuge.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                868
-            ],
-            "cNext": [
-                870
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.7"
-            ]
+            "cPrev": [868],
+            "cNext": [870],
+            "cSiblings": ["character.character.tribal-relations.7"]
         },
         "x870": {
             "name_en": "Sylph-assured",
@@ -123,13 +86,8 @@
             "reward": "character.character.title.146",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [
-                869
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.8",
-                "character.character.title.146"
-            ]
+            "cPrev": [869],
+            "cSiblings": ["character.character.tribal-relations.8", "character.character.title.146"]
         },
         "x904": {
             "name_en": "Fortune Favors the Kobold I",
@@ -138,12 +96,8 @@
             "description_fr": "Atteindre le rang 1 (Neutre) de réputation auprès des Kobolds du 789e ordre.",
             "patch": "2.2",
             "points": 5,
-            "cNext": [
-                905
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.10"
-            ]
+            "cNext": [905],
+            "cSiblings": ["character.character.tribal-relations.10"]
         },
         "x905": {
             "name_en": "Fortune Favors the Kobold II",
@@ -152,15 +106,9 @@
             "description_fr": "Atteindre le rang 2 (Reconnu) de réputation auprès des Kobolds du 789e ordre.",
             "patch": "2.2",
             "points": 5,
-            "cPrev": [
-                904
-            ],
-            "cNext": [
-                906
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.11"
-            ]
+            "cPrev": [904],
+            "cNext": [906],
+            "cSiblings": ["character.character.tribal-relations.11"]
         },
         "x906": {
             "name_en": "Fortune Favors the Kobold III",
@@ -169,15 +117,9 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Kobolds du 789e ordre.",
             "patch": "2.2",
             "points": 10,
-            "cPrev": [
-                905
-            ],
-            "cNext": [
-                907
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.12"
-            ]
+            "cPrev": [905],
+            "cNext": [907],
+            "cSiblings": ["character.character.tribal-relations.12"]
         },
         "x907": {
             "name_en": "Kobold as Brass",
@@ -187,13 +129,8 @@
             "reward": "character.character.title.148",
             "patch": "2.2",
             "points": 20,
-            "cPrev": [
-                906
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.13",
-                "character.character.title.148"
-            ]
+            "cPrev": [906],
+            "cSiblings": ["character.character.tribal-relations.13", "character.character.title.148"]
         },
         "x908": {
             "name_en": "Gilling Me Softly I",
@@ -202,12 +139,8 @@
             "description_fr": "Atteindre le rang 1 (Neutre) de réputation auprès du Frai de Novv.",
             "patch": "2.2",
             "points": 5,
-            "cNext": [
-                909
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.15"
-            ]
+            "cNext": [909],
+            "cSiblings": ["character.character.tribal-relations.15"]
         },
         "x909": {
             "name_en": "Gilling Me Softly II",
@@ -216,15 +149,9 @@
             "description_fr": "Atteindre le rang 2 (Reconnu) de réputation auprès du Frai de Novv.",
             "patch": "2.2",
             "points": 5,
-            "cPrev": [
-                908
-            ],
-            "cNext": [
-                910
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.16"
-            ]
+            "cPrev": [908],
+            "cNext": [910],
+            "cSiblings": ["character.character.tribal-relations.16"]
         },
         "x910": {
             "name_en": "Gilling Me Softly III",
@@ -233,15 +160,9 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès du Frai de Novv.",
             "patch": "2.2",
             "points": 10,
-            "cPrev": [
-                909
-            ],
-            "cNext": [
-                911
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.17"
-            ]
+            "cPrev": [909],
+            "cNext": [911],
+            "cSiblings": ["character.character.tribal-relations.17"]
         },
         "x911": {
             "name_en": "Licensed to Gill",
@@ -251,13 +172,8 @@
             "reward": "character.character.title.149",
             "patch": "2.2",
             "points": 20,
-            "cPrev": [
-                910
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.18",
-                "character.character.title.149"
-            ]
+            "cPrev": [910],
+            "cSiblings": ["character.character.tribal-relations.18", "character.character.title.149"]
         },
         "x1022": {
             "name_en": "Bird Is the Word I",
@@ -266,12 +182,8 @@
             "description_fr": "Atteindre le rang 1 (Neutre) de réputation auprès des Ixali des Planeurs d'Ehcatl.",
             "patch": "2.35",
             "points": 5,
-            "cNext": [
-                1023
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.20"
-            ]
+            "cNext": [1023],
+            "cSiblings": ["character.character.tribal-relations.20"]
         },
         "x1023": {
             "name_en": "Bird Is the Word II",
@@ -280,15 +192,9 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Ixali des Planeurs d'Ehcatl.",
             "patch": "2.35",
             "points": 5,
-            "cPrev": [
-                1022
-            ],
-            "cNext": [
-                1024
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.22"
-            ]
+            "cPrev": [1022],
+            "cNext": [1024],
+            "cSiblings": ["character.character.tribal-relations.22"]
         },
         "x1024": {
             "name_en": "Bird Is the Word III",
@@ -297,15 +203,9 @@
             "description_fr": "Atteindre le rang 5 (Respecté) de réputation auprès des Ixali des Planeurs d'Ehcatl.",
             "patch": "2.35",
             "points": 10,
-            "cPrev": [
-                1023
-            ],
-            "cNext": [
-                1025
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.24"
-            ]
+            "cPrev": [1023],
+            "cNext": [1025],
+            "cSiblings": ["character.character.tribal-relations.24"]
         },
         "x1025": {
             "name_en": "That's Ixal, Folks",
@@ -315,13 +215,8 @@
             "reward": "character.character.title.176",
             "patch": "2.35",
             "points": 20,
-            "cPrev": [
-                1024
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.26",
-                "character.character.title.176"
-            ]
+            "cPrev": [1024],
+            "cSiblings": ["character.character.tribal-relations.26", "character.character.title.176"]
         },
         "x1026": {
             "name_en": "Sore Thumb",
@@ -343,12 +238,8 @@
             "description_fr": "Atteindre le rang 1 (Neutre) de réputation auprès des Vanu Vanu d'Ok' Gundu Nakki.",
             "patch": "3.1",
             "points": 5,
-            "cNext": [
-                1396
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.28"
-            ]
+            "cNext": [1396],
+            "cSiblings": ["character.character.tribal-relations.28"]
         },
         "x1396": {
             "name_en": "When the Getting's Gundu II",
@@ -357,15 +248,9 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Vanu Vanu d'Ok' Gundu Nakki.",
             "patch": "3.1",
             "points": 5,
-            "cPrev": [
-                1395
-            ],
-            "cNext": [
-                1397
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.30"
-            ]
+            "cPrev": [1395],
+            "cNext": [1397],
+            "cSiblings": ["character.character.tribal-relations.30"]
         },
         "x1397": {
             "name_en": "When the Getting's Gundu III",
@@ -374,15 +259,9 @@
             "description_fr": "Atteindre le rang 5 (Respecté) de réputation auprès des Vanu Vanu d'Ok' Gundu Nakki.",
             "patch": "3.1",
             "points": 10,
-            "cPrev": [
-                1396
-            ],
-            "cNext": [
-                1398
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.32"
-            ]
+            "cPrev": [1396],
+            "cNext": [1398],
+            "cSiblings": ["character.character.tribal-relations.32"]
         },
         "x1398": {
             "name_en": "Top Gundu",
@@ -392,13 +271,8 @@
             "reward": "character.character.title.274",
             "patch": "3.1",
             "points": 20,
-            "cPrev": [
-                1397
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.34",
-                "character.character.title.274"
-            ]
+            "cPrev": [1397],
+            "cSiblings": ["character.character.tribal-relations.34", "character.character.title.274"]
         },
         "x1495": {
             "name_en": "The Vath Less Troubled I",
@@ -407,12 +281,8 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Égarés de Loth ast Vath.",
             "patch": "3.15",
             "points": 5,
-            "cNext": [
-                1496
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.37"
-            ]
+            "cNext": [1496],
+            "cSiblings": ["character.character.tribal-relations.37"]
         },
         "x1496": {
             "name_en": "The Vath Less Troubled II",
@@ -421,15 +291,9 @@
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Égarés de Loth ast Vath.",
             "patch": "3.15",
             "points": 5,
-            "cPrev": [
-                1495
-            ],
-            "cNext": [
-                1497
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.38"
-            ]
+            "cPrev": [1495],
+            "cNext": [1497],
+            "cSiblings": ["character.character.tribal-relations.38"]
         },
         "x1497": {
             "name_en": "The Vath Less Troubled III",
@@ -438,15 +302,9 @@
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Égarés de Loth ast Vath.",
             "patch": "3.15",
             "points": 10,
-            "cPrev": [
-                1496
-            ],
-            "cNext": [
-                1498
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.40"
-            ]
+            "cPrev": [1496],
+            "cNext": [1498],
+            "cSiblings": ["character.character.tribal-relations.40"]
         },
         "x1498": {
             "name_en": "Vathcore",
@@ -456,13 +314,8 @@
             "reward": "character.character.title.291",
             "patch": "3.15",
             "points": 20,
-            "cPrev": [
-                1497
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.41",
-                "character.character.title.291"
-            ]
+            "cPrev": [1497],
+            "cSiblings": ["character.character.tribal-relations.41", "character.character.title.291"]
         },
         "x1618": {
             "name_en": "Mog Eat Mog I",
@@ -471,12 +324,8 @@
             "description_fr": "Atteindre le rang 1 (Neutre) de réputation auprès des Mogdernisateurs célestes.",
             "patch": "3.3",
             "points": 5,
-            "cNext": [
-                1619
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.44"
-            ]
+            "cNext": [1619],
+            "cSiblings": ["character.character.tribal-relations.44"]
         },
         "x1619": {
             "name_en": "Mog Eat Mog II",
@@ -485,15 +334,9 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Mogdernisateurs célestes.",
             "patch": "3.3",
             "points": 5,
-            "cPrev": [
-                1618
-            ],
-            "cNext": [
-                1620
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.46"
-            ]
+            "cPrev": [1618],
+            "cNext": [1620],
+            "cSiblings": ["character.character.tribal-relations.46"]
         },
         "x1620": {
             "name_en": "Mog Eat Mog III",
@@ -502,15 +345,9 @@
             "description_fr": "Atteindre le rang 5 (Respecté) de réputation auprès des Mogdernisateurs célestes.",
             "patch": "3.3",
             "points": 10,
-            "cPrev": [
-                1619
-            ],
-            "cNext": [
-                1621
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.48"
-            ]
+            "cPrev": [1619],
+            "cNext": [1621],
+            "cSiblings": ["character.character.tribal-relations.48"]
         },
         "x1621": {
             "name_en": "Top Mog",
@@ -520,13 +357,8 @@
             "reward": "character.character.title.296",
             "patch": "3.3",
             "points": 20,
-            "cPrev": [
-                1620
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.50",
-                "character.character.title.296"
-            ]
+            "cPrev": [1620],
+            "cSiblings": ["character.character.tribal-relations.50", "character.character.title.296"]
         },
         "x1627": {
             "name_en": "Hey Now, You're an All-star",
@@ -548,12 +380,8 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès de la tribu des Verts.",
             "patch": "4.1",
             "points": 5,
-            "cNext": [
-                1998
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.53"
-            ]
+            "cNext": [1998],
+            "cSiblings": ["character.character.tribal-relations.53"]
         },
         "x1998": {
             "name_en": "To Kojin Is Divine II",
@@ -562,15 +390,9 @@
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès de la tribu des Verts.",
             "patch": "4.1",
             "points": 5,
-            "cPrev": [
-                1997
-            ],
-            "cNext": [
-                1999
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.54"
-            ]
+            "cPrev": [1997],
+            "cNext": [1999],
+            "cSiblings": ["character.character.tribal-relations.54"]
         },
         "x1999": {
             "name_en": "To Kojin Is Divine III",
@@ -579,15 +401,9 @@
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès de la tribu des Verts.",
             "patch": "4.1",
             "points": 10,
-            "cPrev": [
-                1998
-            ],
-            "cNext": [
-                2000
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.56"
-            ]
+            "cPrev": [1998],
+            "cNext": [2000],
+            "cSiblings": ["character.character.tribal-relations.56"]
         },
         "x2000": {
             "name_en": "Divinity: Original Kojin",
@@ -597,13 +413,8 @@
             "reward": "character.character.title.140",
             "patch": "4.1",
             "points": 20,
-            "cPrev": [
-                1999
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.57",
-                "character.character.title.140"
-            ]
+            "cPrev": [1999],
+            "cSiblings": ["character.character.tribal-relations.57", "character.character.title.140"]
         },
         "x2014": {
             "name_en": "Call Me Snake I",
@@ -612,12 +423,8 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des garde-frontières de la Velodyna.",
             "patch": "4.2",
             "points": 5,
-            "cNext": [
-                2015
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.60"
-            ]
+            "cNext": [2015],
+            "cSiblings": ["character.character.tribal-relations.60"]
         },
         "x2015": {
             "name_en": "Call Me Snake II",
@@ -626,15 +433,9 @@
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des garde-frontières de la Velodyna.",
             "patch": "4.2",
             "points": 5,
-            "cPrev": [
-                2014
-            ],
-            "cNext": [
-                2016
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.61"
-            ]
+            "cPrev": [2014],
+            "cNext": [2016],
+            "cSiblings": ["character.character.tribal-relations.61"]
         },
         "x2016": {
             "name_en": "Call Me Snake III",
@@ -643,15 +444,9 @@
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des garde-frontières de la Velodyna.",
             "patch": "4.2",
             "points": 10,
-            "cPrev": [
-                2015
-            ],
-            "cNext": [
-                2017
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.63"
-            ]
+            "cPrev": [2015],
+            "cNext": [2017],
+            "cSiblings": ["character.character.tribal-relations.63"]
         },
         "x2017": {
             "name_en": "My Anantaconda",
@@ -661,13 +456,8 @@
             "reward": "character.character.title.221",
             "patch": "4.2",
             "points": 20,
-            "cPrev": [
-                2016
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.64",
-                "character.character.title.221"
-            ]
+            "cPrev": [2016],
+            "cSiblings": ["character.character.tribal-relations.64", "character.character.title.221"]
         },
         "x2099": {
             "name_en": "Fish to Fry I",
@@ -676,12 +466,8 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès du comité d'organisation de la grande frairie namazu.",
             "patch": "4.3",
             "points": 5,
-            "cNext": [
-                2100
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.67"
-            ]
+            "cNext": [2100],
+            "cSiblings": ["character.character.tribal-relations.67"]
         },
         "x2100": {
             "name_en": "Fish to Fry II",
@@ -690,15 +476,9 @@
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès du comité d'organisation de la grande frairie namazu.",
             "patch": "4.3",
             "points": 5,
-            "cPrev": [
-                2099
-            ],
-            "cNext": [
-                2101
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.68"
-            ]
+            "cPrev": [2099],
+            "cNext": [2101],
+            "cSiblings": ["character.character.tribal-relations.68"]
         },
         "x2101": {
             "name_en": "Fish to Fry III",
@@ -707,15 +487,9 @@
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès du comité d'organisation de la grande frairie namazu.",
             "patch": "4.3",
             "points": 10,
-            "cPrev": [
-                2100
-            ],
-            "cNext": [
-                2102
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.70"
-            ]
+            "cPrev": [2100],
+            "cNext": [2102],
+            "cSiblings": ["character.character.tribal-relations.70"]
         },
         "x2102": {
             "name_en": "In a Barrel",
@@ -725,13 +499,8 @@
             "reward": "character.character.title.393",
             "patch": "4.3",
             "points": 20,
-            "cPrev": [
-                2101
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.71",
-                "character.character.title.393"
-            ]
+            "cPrev": [2101],
+            "cSiblings": ["character.character.tribal-relations.71", "character.character.title.393"]
         },
         "x2235": {
             "name_en": "West Meets East",
@@ -753,12 +522,8 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Pixies du jardin aux rêves.",
             "patch": "5.1",
             "points": 5,
-            "cNext": [
-                2437
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.86"
-            ]
+            "cNext": [2437],
+            "cSiblings": ["character.character.tribal-relations.86"]
         },
         "x2437": {
             "name_en": "Bring Me a Dream II",
@@ -767,15 +532,9 @@
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Pixies du jardin aux rêves.",
             "patch": "5.1",
             "points": 5,
-            "cPrev": [
-                2436
-            ],
-            "cNext": [
-                2438
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.87"
-            ]
+            "cPrev": [2436],
+            "cNext": [2438],
+            "cSiblings": ["character.character.tribal-relations.87"]
         },
         "x2438": {
             "name_en": "Bring Me a Dream III",
@@ -784,15 +543,9 @@
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Pixies du jardin aux rêves.",
             "patch": "5.1",
             "points": 10,
-            "cPrev": [
-                2437
-            ],
-            "cNext": [
-                2439
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.89"
-            ]
+            "cPrev": [2437],
+            "cNext": [2439],
+            "cSiblings": ["character.character.tribal-relations.89"]
         },
         "x2439": {
             "name_en": "Forever Young",
@@ -802,13 +555,8 @@
             "reward": "character.character.title.479",
             "patch": "5.1",
             "points": 20,
-            "cPrev": [
-                2438
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.90",
-                "character.character.title.479"
-            ]
+            "cPrev": [2438],
+            "cSiblings": ["character.character.tribal-relations.90", "character.character.title.479"]
         },
         "x2597": {
             "name_en": "With My Compliments I",
@@ -817,12 +565,8 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Qitari du plateau de Hopl.",
             "patch": "5.2",
             "points": 5,
-            "cNext": [
-                2598
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.80"
-            ]
+            "cNext": [2598],
+            "cSiblings": ["character.character.tribal-relations.80"]
         },
         "x2598": {
             "name_en": "With My Compliments II",
@@ -831,15 +575,9 @@
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Qitari du plateau de Hopl.",
             "patch": "5.2",
             "points": 5,
-            "cPrev": [
-                2597
-            ],
-            "cNext": [
-                2599
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.81"
-            ]
+            "cPrev": [2597],
+            "cNext": [2599],
+            "cSiblings": ["character.character.tribal-relations.81"]
         },
         "x2599": {
             "name_en": "With My Compliments III",
@@ -848,15 +586,9 @@
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Qitari du plateau de Hopl.",
             "patch": "5.2",
             "points": 10,
-            "cPrev": [
-                2598
-            ],
-            "cNext": [
-                2600
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.83"
-            ]
+            "cPrev": [2598],
+            "cNext": [2600],
+            "cSiblings": ["character.character.tribal-relations.83"]
         },
         "x2600": {
             "name_en": "History's No Mystery",
@@ -866,13 +598,8 @@
             "reward": "character.character.title.521",
             "patch": "5.2",
             "points": 20,
-            "cPrev": [
-                2599
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.84",
-                "character.character.title.521"
-            ]
+            "cPrev": [2599],
+            "cSiblings": ["character.character.tribal-relations.84", "character.character.title.521"]
         },
         "x2638": {
             "name_en": "Dwarven Crafts I",
@@ -881,12 +608,8 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Nains du Garage Watts.",
             "patch": "5.3",
             "points": 5,
-            "cNext": [
-                2639
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.74"
-            ]
+            "cNext": [2639],
+            "cSiblings": ["character.character.tribal-relations.74"]
         },
         "x2639": {
             "name_en": "Dwarven Crafts II",
@@ -895,15 +618,9 @@
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Nains du Garage Watts.",
             "patch": "5.3",
             "points": 5,
-            "cPrev": [
-                2638
-            ],
-            "cNext": [
-                2640
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.75"
-            ]
+            "cPrev": [2638],
+            "cNext": [2640],
+            "cSiblings": ["character.character.tribal-relations.75"]
         },
         "x2640": {
             "name_en": "Dwarven Crafts III",
@@ -912,15 +629,9 @@
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Nains du Garage Watts.",
             "patch": "5.3",
             "points": 10,
-            "cPrev": [
-                2639
-            ],
-            "cNext": [
-                2641
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.77"
-            ]
+            "cPrev": [2639],
+            "cNext": [2641],
+            "cSiblings": ["character.character.tribal-relations.77"]
         },
         "x2641": {
             "name_en": "Beard Science",
@@ -930,13 +641,8 @@
             "reward": "character.character.title.526",
             "patch": "5.3",
             "points": 20,
-            "cPrev": [
-                2640
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.78",
-                "character.character.title.526"
-            ]
+            "cPrev": [2640],
+            "cSiblings": ["character.character.tribal-relations.78", "character.character.title.526"]
         },
         "x3055": {
             "name_en": "Hasty Hassty Hippos I",
@@ -945,12 +651,8 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Hippotracteurs.",
             "patch": "6.15",
             "points": 5,
-            "cNext": [
-                3056
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.92"
-            ]
+            "cNext": [3056],
+            "cSiblings": ["character.character.tribal-relations.92"]
         },
         "x3056": {
             "name_en": "Hasty Hassty Hippos II",
@@ -959,15 +661,9 @@
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Hippotracteurs.",
             "patch": "6.15",
             "points": 5,
-            "cPrev": [
-                3055
-            ],
-            "cNext": [
-                3057
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.93"
-            ]
+            "cPrev": [3055],
+            "cNext": [3057],
+            "cSiblings": ["character.character.tribal-relations.93"]
         },
         "x3057": {
             "name_en": "Hasty Hassty Hippos III",
@@ -976,15 +672,9 @@
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Hippotracteurs.",
             "patch": "6.15",
             "points": 10,
-            "cPrev": [
-                3056
-            ],
-            "cNext": [
-                3058
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.95"
-            ]
+            "cPrev": [3056],
+            "cNext": [3058],
+            "cSiblings": ["character.character.tribal-relations.95"]
         },
         "x3058": {
             "name_en": "Ride or Die",
@@ -994,13 +684,8 @@
             "reward": "character.character.title.633",
             "patch": "6.15",
             "points": 20,
-            "cPrev": [
-                3057
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.96",
-                "character.character.title.633"
-            ]
+            "cPrev": [3057],
+            "cSiblings": ["character.character.tribal-relations.96", "character.character.title.633"]
         },
         "x3123": {
             "name_en": "Voices of a Distant Server I",
@@ -1009,12 +694,8 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Omicrons des Dernières Réminiscences.",
             "patch": "6.25",
             "points": 5,
-            "cNext": [
-                3124
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.98"
-            ]
+            "cNext": [3124],
+            "cSiblings": ["character.character.tribal-relations.98"]
         },
         "x3124": {
             "name_en": "Voices of a Distant Server II",
@@ -1023,15 +704,9 @@
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Omicrons des Dernières Réminiscences.",
             "patch": "6.25",
             "points": 5,
-            "cPrev": [
-                3123
-            ],
-            "cNext": [
-                3125
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.99"
-            ]
+            "cPrev": [3123],
+            "cNext": [3125],
+            "cSiblings": ["character.character.tribal-relations.99"]
         },
         "x3125": {
             "name_en": "Voices of a Distant Server III",
@@ -1040,15 +715,9 @@
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Omicrons des Dernières Réminiscences.",
             "patch": "6.25",
             "points": 10,
-            "cPrev": [
-                3124
-            ],
-            "cNext": [
-                3126
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.101"
-            ]
+            "cPrev": [3124],
+            "cNext": [3126],
+            "cSiblings": ["character.character.tribal-relations.101"]
         },
         "x3126": {
             "name_en": "Fully Caffeinated",
@@ -1058,13 +727,8 @@
             "reward": "character.character.title.655",
             "patch": "6.25",
             "points": 20,
-            "cPrev": [
-                3125
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.102",
-                "character.character.title.655"
-            ]
+            "cPrev": [3125],
+            "cSiblings": ["character.character.tribal-relations.102", "character.character.title.655"]
         },
         "x3188": {
             "name_en": "Way to Go I",
@@ -1073,12 +737,8 @@
             "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Loporrites des Ateliers Dreaming.",
             "patch": "6.3",
             "points": 5,
-            "cNext": [
-                3189
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.104"
-            ]
+            "cNext": [3189],
+            "cSiblings": ["character.character.tribal-relations.104"]
         },
         "x3189": {
             "name_en": "Way to Go II",
@@ -1087,15 +747,9 @@
             "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Loporrites des Ateliers Dreaming.",
             "patch": "6.3",
             "points": 5,
-            "cPrev": [
-                3188
-            ],
-            "cNext": [
-                3190
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.105"
-            ]
+            "cPrev": [3188],
+            "cNext": [3190],
+            "cSiblings": ["character.character.tribal-relations.105"]
         },
         "x3190": {
             "name_en": "Way to Go III",
@@ -1104,15 +758,9 @@
             "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Loporrites des Ateliers Dreaming.",
             "patch": "6.3",
             "points": 10,
-            "cPrev": [
-                3189
-            ],
-            "cNext": [
-                3191
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.107"
-            ]
+            "cPrev": [3189],
+            "cNext": [3191],
+            "cSiblings": ["character.character.tribal-relations.107"]
         },
         "x3191": {
             "name_en": "Every Which Way",
@@ -1122,13 +770,8 @@
             "reward": "character.character.title.666",
             "patch": "6.3",
             "points": 20,
-            "cPrev": [
-                3190
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.108",
-                "character.character.title.666"
-            ]
+            "cPrev": [3190],
+            "cSiblings": ["character.character.tribal-relations.108", "character.character.title.666"]
         },
         "x3411": {
             "name_en": "Space Race",
@@ -1137,9 +780,7 @@
             "description_fr": "Accomplir la quête “La grande course aux confins de l'univers”.",
             "patch": "6.55",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.tribal-quests.tribal-alliance-quests.endwalker-tribal-quests.70324"
-            ]
+            "cSiblings": ["duty.quests.tribal-quests.tribal-alliance-quests.endwalker-tribal-quests.70324"]
         }
     }
 }

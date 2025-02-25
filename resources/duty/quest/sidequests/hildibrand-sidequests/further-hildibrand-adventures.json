@@ -13,9 +13,7 @@
                 "duty.quests.sidequests.hildibrand-sidequests.hildibrand.66038",
                 "duty.quests.main-scenario.heavensward.67205"
             ],
-            "cNext": [
-                67763
-            ],
+            "cNext": [67763],
             "patch": "4.31"
         },
         "x67763": {
@@ -24,12 +22,8 @@
             "name_fr": "Surprises sur pistes",
             "npc_en": "Cyr",
             "npc_fr": "Cyr",
-            "cPrev": [
-                67762
-            ],
-            "cNext": [
-                67764
-            ],
+            "cPrev": [67762],
+            "cNext": [67764],
             "patch": "4.31"
         },
         "x67764": {
@@ -38,12 +32,8 @@
             "name_fr": "Un vrai petit garçon?",
             "npc_en": "Cyr",
             "npc_fr": "Cyr",
-            "cPrev": [
-                67763
-            ],
-            "cNext": [
-                67765
-            ],
+            "cPrev": [67763],
+            "cNext": [67765],
             "patch": "4.31"
         },
         "x67765": {
@@ -52,12 +42,8 @@
             "name_fr": "On choisit sa famille",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [
-                67764
-            ],
-            "cNext": [
-                67905
-            ],
+            "cPrev": [67764],
+            "cNext": [67905],
             "patch": "4.31"
         },
         "x67905": {
@@ -66,12 +52,8 @@
             "name_fr": "Recherche appartements ou manoir",
             "npc_en": "Cyr",
             "npc_fr": "Cyr",
-            "cPrev": [
-                67765
-            ],
-            "cNext": [
-                67906
-            ],
+            "cPrev": [67765],
+            "cNext": [67906],
             "patch": "4.31"
         },
         "x67906": {
@@ -80,12 +62,8 @@
             "name_fr": "Sans bibi d'adieu",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [
-                67905
-            ],
-            "cNext": [
-                67907
-            ],
+            "cPrev": [67905],
+            "cNext": [67907],
             "patch": "4.31"
         },
         "x67907": {
@@ -94,12 +72,8 @@
             "name_fr": "Développements inéluctables",
             "npc_en": "Cyr",
             "npc_fr": "Cyr",
-            "cPrev": [
-                67906
-            ],
-            "cNext": [
-                67908
-            ],
+            "cPrev": [67906],
+            "cNext": [67908],
             "patch": "4.31"
         },
         "x67908": {
@@ -108,15 +82,9 @@
             "name_fr": "Chacun son meilleur jour",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [
-                67907
-            ],
-            "cNext": [
-                "duty.quests.sidequests.hildibrand-sidequests.even-further-hildibrand-adventures.68544"
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1693"
-            ],
+            "cPrev": [67907],
+            "cNext": ["duty.quests.sidequests.hildibrand-sidequests.even-further-hildibrand-adventures.68544"],
+            "cSiblings": ["character.achievement.quests.quests.1693"],
             "patch": "4.31"
         }
     }

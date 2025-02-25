@@ -10,13 +10,8 @@
             "year": "2014",
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cNext": [
-                66953
-            ],
-            "cExclude": [
-                66951,
-                66952
-            ],
+            "cNext": [66953],
+            "cExclude": [66951, 66952],
             "patch": "4.31"
         },
         "x66951": {
@@ -26,13 +21,8 @@
             "year": "2014",
             "npc_en": "Oscarlet",
             "npc_fr": "Oscarlet",
-            "cNext": [
-                66953
-            ],
-            "cExclude": [
-                66950,
-                66952
-            ],
+            "cNext": [66953],
+            "cExclude": [66950, 66952],
             "patch": "4.31"
         },
         "x66952": {
@@ -42,13 +32,8 @@
             "year": "2014",
             "npc_en": "Orselfaux",
             "npc_fr": "Orselfaux",
-            "cNext": [
-                66953
-            ],
-            "cExclude": [
-                66950,
-                66951
-            ],
+            "cNext": [66953],
+            "cExclude": [66950, 66951],
             "patch": "4.31"
         },
         "x66953": {
@@ -59,14 +44,8 @@
             "cPrevAny": true,
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cPrev": [
-                66950,
-                66951,
-                66952
-            ],
-            "cNext": [
-                66954
-            ],
+            "cPrev": [66950, 66951, 66952],
+            "cNext": [66954],
             "patch": "4.31"
         },
         "x66954": {
@@ -76,12 +55,8 @@
             "year": "2014",
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cPrev": [
-                66953
-            ],
-            "cNext": [
-                66955
-            ],
+            "cPrev": [66953],
+            "cNext": [66955],
             "patch": "4.31"
         },
         "x66955": {
@@ -91,12 +66,8 @@
             "year": "2014",
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cPrev": [
-                66954
-            ],
-            "cNext": [
-                66956
-            ],
+            "cPrev": [66954],
+            "cNext": [66956],
             "patch": "4.31"
         },
         "x66956": {
@@ -106,12 +77,8 @@
             "year": "2014",
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cPrev": [
-                66955
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.903"
-            ],
+            "cPrev": [66955],
+            "cSiblings": ["character.achievement.quests.seasonal-events.903"],
             "patch": "4.31"
         },
         "x66092": {
@@ -121,9 +88,7 @@
             "year": "2015",
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cNext": [
-                66093
-            ],
+            "cNext": [66093],
             "patch": "4.31"
         },
         "x66093": {
@@ -133,12 +98,8 @@
             "year": "2015",
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cPrev": [
-                66092
-            ],
-            "cNext": [
-                66095
-            ],
+            "cPrev": [66092],
+            "cNext": [66095],
             "patch": "4.31"
         },
         "x66095": {
@@ -148,12 +109,8 @@
             "year": "2015",
             "npc_en": "Nonotta",
             "npc_fr": "Nonotta",
-            "cPrev": [
-                66093
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.1131"
-            ],
+            "cPrev": [66093],
+            "cSiblings": ["character.achievement.quests.seasonal-events.1131"],
             "patch": "4.31"
         },
         "x67664": {
@@ -163,11 +120,7 @@
             "year": "2016",
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cNext": [
-                67666,
-                67665,
-                67667
-            ],
+            "cNext": [67666, 67665, 67667],
             "patch": "4.31"
         },
         "x67665": {
@@ -177,12 +130,8 @@
             "year": "2016",
             "npc_en": "Cock-a-hoop Collector",
             "npc_fr": "Animatrice Sérieuse",
-            "cPrev": [
-                67664
-            ],
-            "cNext": [
-                67668
-            ],
+            "cPrev": [67664],
+            "cNext": [67668],
             "patch": "4.31"
         },
         "x67666": {
@@ -192,12 +141,8 @@
             "year": "2016",
             "npc_en": "Cultured Collector",
             "npc_fr": "Animateur Chaleureux",
-            "cPrev": [
-                67664
-            ],
-            "cNext": [
-                67668
-            ],
+            "cPrev": [67664],
+            "cNext": [67668],
             "patch": "4.31"
         },
         "x67667": {
@@ -207,12 +152,8 @@
             "year": "2016",
             "npc_en": "Motte",
             "npc_fr": "Motte",
-            "cPrev": [
-                67664
-            ],
-            "cNext": [
-                67668
-            ],
+            "cPrev": [67664],
+            "cNext": [67668],
             "patch": "4.31"
         },
         "x67668": {
@@ -222,14 +163,8 @@
             "year": "2016",
             "npc_en": "Nonotta",
             "npc_fr": "Nonotta",
-            "cPrev": [
-                67665,
-                67666,
-                67667
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.1490"
-            ],
+            "cPrev": [67665, 67666, 67667],
+            "cSiblings": ["character.achievement.quests.seasonal-events.1490"],
             "patch": "4.31"
         },
         "x67957": {
@@ -239,9 +174,7 @@
             "year": "2017",
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cNext": [
-                67958
-            ],
+            "cNext": [67958],
             "patch": "4.31"
         },
         "x67958": {
@@ -251,12 +184,8 @@
             "year": "2017",
             "npc_en": "Nonotta",
             "npc_fr": "Nonotta",
-            "cPrev": [
-                67957
-            ],
-            "cNext": [
-                67959
-            ],
+            "cPrev": [67957],
+            "cNext": [67959],
             "patch": "4.31"
         },
         "x67959": {
@@ -266,12 +195,8 @@
             "year": "2017",
             "npc_en": "Nonotta",
             "npc_fr": "Nonotta",
-            "cPrev": [
-                67958
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.1683"
-            ],
+            "cPrev": [67958],
+            "cSiblings": ["character.achievement.quests.seasonal-events.1683"],
             "patch": "4.31"
         },
         "x68615": {
@@ -281,12 +206,8 @@
             "year": "2018",
             "npc_en": "Nonotta",
             "npc_fr": "Nonotta",
-            "cNext": [
-                68616
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.2020"
-            ],
+            "cNext": [68616],
+            "cSiblings": ["character.achievement.quests.seasonal-events.2020"],
             "patch": "4.31"
         },
         "x68616": {
@@ -296,9 +217,7 @@
             "year": "2018",
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cPrev": [
-                68615
-            ],
+            "cPrev": [68615],
             "patch": "4.31"
         },
         "x68738": {
@@ -308,9 +227,7 @@
             "year": "2019",
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cNext": [
-                68739
-            ],
+            "cNext": [68739],
             "patch": "4.5"
         },
         "x68739": {
@@ -320,12 +237,8 @@
             "year": "2019",
             "npc_en": "Nonotta",
             "npc_fr": "Nonotta",
-            "cPrev": [
-                68738
-            ],
-            "cNext": [
-                68740
-            ],
+            "cPrev": [68738],
+            "cNext": [68740],
             "patch": "4.5"
         },
         "x68740": {
@@ -335,12 +248,8 @@
             "year": "2019",
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cPrev": [
-                68739
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.2239"
-            ],
+            "cPrev": [68739],
+            "cSiblings": ["character.achievement.quests.seasonal-events.2239"],
             "patch": "4.5"
         },
         "x69382": {
@@ -350,9 +259,7 @@
             "year": "2020",
             "npc_en": "Revelrous Rabbit",
             "npc_fr": "Lapine Enjouée",
-            "cNext": [
-                69383
-            ],
+            "cNext": [69383],
             "patch": "5.2"
         },
         "x69383": {
@@ -362,12 +269,8 @@
             "year": "2020",
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cPrev": [
-                69382
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.2602"
-            ],
+            "cPrev": [69382],
+            "cSiblings": ["character.achievement.quests.seasonal-events.2602"],
             "patch": "5.2"
         },
         "x69625": {
@@ -377,9 +280,7 @@
             "year": "2021",
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cNext": [
-                69626
-            ],
+            "cNext": [69626],
             "patch": "5.5"
         },
         "x69626": {
@@ -389,12 +290,8 @@
             "year": "2021",
             "npc_en": "Nonotta",
             "npc_fr": "Nonotta",
-            "cPrev": [
-                69625
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.2854"
-            ],
+            "cPrev": [69625],
+            "cSiblings": ["character.achievement.quests.seasonal-events.2854"],
             "patch": "5.5"
         },
         "x70126": {
@@ -404,9 +301,7 @@
             "year": "2022",
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.3078"
-            ],
+            "cSiblings": ["character.achievement.quests.seasonal-events.3078"],
             "patch": "6.1"
         },
         "x70257": {
@@ -416,9 +311,7 @@
             "year": "2023",
             "npc_en": "Jihli Aliapoh",
             "npc_fr": "Jihli Aliapoh",
-            "cNext": [
-                70258
-            ],
+            "cNext": [70258],
             "patch": "6.3"
         },
         "x70258": {
@@ -428,12 +321,8 @@
             "year": "2023",
             "npc_en": "Hamlyn",
             "npc_fr": "Hamlyn",
-            "cPrev": [
-                70257
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.3205"
-            ],
+            "cPrev": [70257],
+            "cSiblings": ["character.achievement.quests.seasonal-events.3205"],
             "patch": "6.3"
         }
     }

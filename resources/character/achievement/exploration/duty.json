@@ -1121,9 +1121,7 @@
             "patch": "3.1",
             "points": 20,
             "defaultCompletion": "X",
-            "cSiblings": [
-                "character.character.title.278"
-            ]
+            "cSiblings": ["character.character.title.278"]
         },
         "x1734": {
             "name_en": "Have a Haillenarte I",
@@ -1261,9 +1259,7 @@
             "reward": "character.character.title.416",
             "patch": "4.55",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.416"
-            ]
+            "cSiblings": ["character.character.title.416"]
         },
         "x2242": {
             "name_en": "Really Making the Most of Hydatos",
@@ -1296,12 +1292,8 @@
             "description_fr": "Remplir toutes les entrées du rapport du front relative au Front sud de Bozja.",
             "patch": "5.35",
             "points": 10,
-            "cPrev": [
-                "duty.collection.field-record.0-19"
-            ],
-            "cCombo": [
-                2886
-            ]
+            "cPrev": ["duty.collection.field-record.0-19"],
+            "cCombo": [2886]
         },
         "x2761": {
             "name_en": "Annals of Archaeology",
@@ -1310,12 +1302,8 @@
             "description_fr": "Obtenir toutes les pages de notes du front bozjien dans Delubrum Reginae.",
             "patch": "5.45",
             "points": 10,
-            "cPrev": [
-                "duty.collection.field-record.20-29"
-            ],
-            "cCombo": [
-                2886
-            ]
+            "cPrev": ["duty.collection.field-record.20-29"],
+            "cCombo": [2886]
         },
         "x2885": {
             "name_en": "Annals of Liberation",
@@ -1324,12 +1312,8 @@
             "description_fr": "Remplir toutes les entrées du rapport du front bozjien obtenables sur les Hauts plateaux de Zadnor.",
             "patch": "5.55",
             "points": 10,
-            "cPrev": [
-                "duty.collection.field-record.30-49"
-            ],
-            "cCombo": [
-                2886
-            ]
+            "cPrev": ["duty.collection.field-record.30-49"],
+            "cCombo": [2886]
         },
         "x2886": {
             "name_en": "A Complete History",
@@ -1339,11 +1323,7 @@
             "reward": "character.mount-guide.199",
             "patch": "5.55",
             "points": 20,
-            "cPrev": [
-                2671,
-                2761,
-                2885
-            ]
+            "cPrev": [2671, 2761, 2885]
         },
         "x3147": {
             "name_en": "Mapping the Realm: The Sil'dihn Subterrane",

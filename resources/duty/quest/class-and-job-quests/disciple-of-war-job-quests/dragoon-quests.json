@@ -13,12 +13,8 @@
                 "duty.quests.class--job.disciple-of-war.lancer.65975",
                 "duty.quests.main-scenario.seventh-umbral-era.66049"
             ],
-            "cNext": [
-                66604
-            ],
-            "cSiblings": [
-                "character.adventure-plate.34"
-            ],
+            "cNext": [66604],
+            "cSiblings": ["character.adventure-plate.34"],
             "patch": "4.31"
         },
         "x66604": {
@@ -27,12 +23,8 @@
             "name_fr": "La lance du destin",
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": [
-                66603
-            ],
-            "cNext": [
-                66605
-            ],
+            "cPrev": [66603],
+            "cNext": [66605],
             "patch": "4.31"
         },
         "x66605": {
@@ -41,12 +33,8 @@
             "name_fr": "Les griffes dans la nuit",
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": [
-                66604
-            ],
-            "cNext": [
-                66606
-            ],
+            "cPrev": [66604],
+            "cNext": [66606],
             "patch": "4.31"
         },
         "x66606": {
@@ -55,12 +43,8 @@
             "name_fr": "La rencontre des deux dragons",
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": [
-                66605
-            ],
-            "cNext": [
-                66607
-            ],
+            "cPrev": [66605],
+            "cNext": [66607],
             "patch": "4.31"
         },
         "x66607": {
@@ -69,12 +53,8 @@
             "name_fr": "Un pouvoir subjuguant",
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": [
-                66606
-            ],
-            "cNext": [
-                66608
-            ],
+            "cPrev": [66606],
+            "cNext": [66608],
             "patch": "4.31"
         },
         "x66608": {
@@ -83,16 +63,9 @@
             "name_fr": "La fureur d'un dragon",
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": [
-                66607
-            ],
-            "cNext": [
-                66658,
-                67225
-            ],
-            "cSiblings": [
-                "character.achievement.quests.job-role-quests.410"
-            ],
+            "cPrev": [66607],
+            "cNext": [66658, 67225],
+            "cSiblings": ["character.achievement.quests.job-role-quests.410"],
             "patch": "4.31"
         },
         "x66658": {
@@ -101,10 +74,7 @@
             "name_fr": "Restauration du Gae bolg",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [
-                66608,
-                "duty.quests.sidequests.uldahn.western-thanalan.66241"
-            ],
+            "cPrev": [66608, "duty.quests.sidequests.uldahn.western-thanalan.66241"],
             "patch": "4.31"
         },
         "x67225": {
@@ -113,13 +83,8 @@
             "name_fr": "Enseigner, c'est apprendre deux fois",
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": [
-                66608,
-                "duty.quests.main-scenario.seventh-astral-era.65964"
-            ],
-            "cNext": [
-                67226
-            ],
+            "cPrev": [66608, "duty.quests.main-scenario.seventh-astral-era.65964"],
+            "cNext": [67226],
             "patch": "4.31"
         },
         "x67226": {
@@ -128,12 +93,8 @@
             "name_fr": "La première leçon",
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": [
-                67225
-            ],
-            "cNext": [
-                67227
-            ],
+            "cPrev": [67225],
+            "cNext": [67227],
             "patch": "4.31"
         },
         "x67227": {
@@ -142,12 +103,8 @@
             "name_fr": "Destins croisés",
             "npc_en": "Heustienne",
             "npc_fr": "Heustienne",
-            "cPrev": [
-                67226
-            ],
-            "cNext": [
-                67228
-            ],
+            "cPrev": [67226],
+            "cNext": [67228],
             "patch": "4.31"
         },
         "x67228": {
@@ -156,12 +113,8 @@
             "name_fr": "Pérégrine et Graoully",
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": [
-                67227
-            ],
-            "cNext": [
-                67229
-            ],
+            "cPrev": [67227],
+            "cNext": [67229],
             "patch": "4.31"
         },
         "x67229": {
@@ -170,12 +123,8 @@
             "name_fr": "Dans les griffes de l'ennemi",
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": [
-                67228
-            ],
-            "cNext": [
-                67230
-            ],
+            "cPrev": [67228],
+            "cNext": [67230],
             "patch": "4.31"
         },
         "x67230": {
@@ -184,12 +133,8 @@
             "name_fr": "L'amère vérité",
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": [
-                67229
-            ],
-            "cNext": [
-                67231
-            ],
+            "cPrev": [67229],
+            "cNext": [67231],
             "patch": "4.31"
         },
         "x67231": {
@@ -198,15 +143,9 @@
             "name_fr": "Le sang du dragon",
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": [
-                67230
-            ],
-            "cNext": [
-                68446
-            ],
-            "cSiblings": [
-                "character.achievement.quests.job-role-quests.1144"
-            ],
+            "cPrev": [67230],
+            "cNext": [68446],
+            "cSiblings": ["character.achievement.quests.job-role-quests.1144"],
             "patch": "4.31"
         },
         "x68446": {
@@ -215,13 +154,8 @@
             "name_fr": "Les temps changent",
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": [
-                67231,
-                "duty.quests.main-scenario.post-dragonsong.67895"
-            ],
-            "cNext": [
-                68447
-            ],
+            "cPrev": [67231, "duty.quests.main-scenario.post-dragonsong.67895"],
+            "cNext": [68447],
             "patch": "4.31"
         },
         "x68447": {
@@ -230,12 +164,8 @@
             "name_fr": "Le Dragon dormant",
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": [
-                68446
-            ],
-            "cNext": [
-                68448
-            ],
+            "cPrev": [68446],
+            "cNext": [68448],
             "patch": "4.31"
         },
         "x68448": {
@@ -244,12 +174,8 @@
             "name_fr": "Le Serpent de la Mer de Rubis",
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": [
-                68447
-            ],
-            "cNext": [
-                68449
-            ],
+            "cPrev": [68447],
+            "cNext": [68449],
             "patch": "4.31"
         },
         "x68449": {
@@ -258,12 +184,8 @@
             "name_fr": "Aussi sombre que la nuit",
             "npc_en": "Orn Khai",
             "npc_fr": "Orn Khai",
-            "cPrev": [
-                68448
-            ],
-            "cNext": [
-                68450
-            ],
+            "cPrev": [68448],
+            "cNext": [68450],
             "patch": "4.31"
         },
         "x68450": {
@@ -272,15 +194,9 @@
             "name_fr": "Le Dragon écarlate",
             "npc_en": "Orn Khai",
             "npc_fr": "Orn Khai",
-            "cPrev": [
-                68449
-            ],
-            "cNext": [
-                68749
-            ],
-            "cSiblings": [
-                "character.achievement.quests.job-role-quests.1800"
-            ],
+            "cPrev": [68449],
+            "cNext": [68749],
+            "cSiblings": ["character.achievement.quests.job-role-quests.1800"],
             "patch": "4.31"
         },
         "x68749": {
@@ -289,15 +205,8 @@
             "name_fr": "À la mémoire d'un vieil ennemi",
             "npc_en": "Alberic",
             "npc_fr": "Alberic",
-            "cPrev": [
-                68450,
-                "duty.quests.class--job.role.shb.68814",
-                "duty.quests.main-scenario.shadowbringers.69190"
-            ],
-            "cSiblings": [
-                "character.adventure-plate.33",
-                "character.achievement.quests.job-role-quests.2309"
-            ],
+            "cPrev": [68450, "duty.quests.class--job.role.shb.68814", "duty.quests.main-scenario.shadowbringers.69190"],
+            "cSiblings": ["character.adventure-plate.33", "character.achievement.quests.job-role-quests.2309"],
             "patch": "5.0"
         }
     }

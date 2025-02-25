@@ -2,11 +2,7 @@
     "key": "dungeons-i",
     "groupName_en": "Dungeons I",
     "groupName_fr": "Donjons I",
-    "common": [
-        "category",
-        "location",
-        "source"
-    ],
+    "common": ["category", "location", "source"],
     "tasks": {
         "x71": {
             "number": "1",
@@ -105,10 +101,7 @@
             "name_en": "A Light in the Storm",
             "name_fr": "A Light in the Storm",
             "category": "CATEGORY.CRAFTING",
-            "source": [
-                "duty.dutyraid-finder.dungeons.arr.16",
-                "duty.dutyraid-finder.dungeons.hw.9"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.arr.16", "duty.dutyraid-finder.dungeons.hw.9"],
             "patch": "3.25"
         },
         "x3": {
@@ -116,10 +109,7 @@
             "name_en": "The Dark's Embrace",
             "name_fr": "The Dark's Embrace",
             "category": "CATEGORY.CRAFTING",
-            "source": [
-                "duty.dutyraid-finder.dungeons.arr.2",
-                "duty.dutyraid-finder.dungeons.arr.17"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.arr.2", "duty.dutyraid-finder.dungeons.arr.17"],
             "patch": "3.25"
         },
         "x4": {
@@ -127,10 +117,7 @@
             "name_en": "The Scars of Battle",
             "name_fr": "The Scars of Battle",
             "category": "CATEGORY.CRAFTING",
-            "source": [
-                "duty.dutyraid-finder.dungeons.arr.19",
-                "duty.dutyraid-finder.dungeons.hw.11"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.arr.19", "duty.dutyraid-finder.dungeons.hw.11"],
             "patch": "3.25"
         },
         "x5": {
@@ -154,10 +141,7 @@
             "name_en": "Horizons Calling",
             "name_fr": "Horizons Calling",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "duty.dutyraid-finder.dungeons.arr.22",
-                "duty.dutyraid-finder.dungeons.hw.13"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.arr.22", "duty.dutyraid-finder.dungeons.hw.13"],
             "patch": "3.3"
         },
         "x8": {
@@ -165,10 +149,7 @@
             "name_en": "Dark Vows",
             "name_fr": "Dark Vows",
             "category": "CATEGORY.CRAFTING",
-            "source": [
-                "duty.dutyraid-finder.dungeons.arr.1",
-                "duty.dutyraid-finder.dungeons.arr.24"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.arr.1", "duty.dutyraid-finder.dungeons.arr.24"],
             "patch": "3.25"
         },
         "x9": {
@@ -184,10 +165,7 @@
             "name_en": "Riptide",
             "name_fr": "Riptide",
             "category": "CATEGORY.CRAFTING",
-            "source": [
-                "duty.dutyraid-finder.dungeons.arr.0",
-                "duty.dutyraid-finder.dungeons.arr.26"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.arr.0", "duty.dutyraid-finder.dungeons.arr.26"],
             "patch": "3.25"
         },
         "x11": {
@@ -244,10 +222,7 @@
             "number": "27",
             "name_en": "Fog of Phantom",
             "name_fr": "Fog of Phantom",
-            "category": [
-                "CATEGORY.ACHIEVEMENT",
-                "CATEGORY.PURCHASE"
-            ],
+            "category": ["CATEGORY.ACHIEVEMENT", "CATEGORY.PURCHASE"],
             "source": "character.achievement.battle.dungeons.1656",
             "source_en": "E-Una-Kotor - 5 Gelmorran Potsherd",
             "source_fr": "E-Una-Kotor - 5 Tessons de poterie gelmorraine",
@@ -257,10 +232,7 @@
             "number": "28",
             "name_en": "Blasphemous Experiment",
             "name_fr": "Blasphemous Experiment",
-            "category": [
-                "CATEGORY.ACHIEVEMENT",
-                "CATEGORY.PURCHASE"
-            ],
+            "category": ["CATEGORY.ACHIEVEMENT", "CATEGORY.PURCHASE"],
             "source": "character.achievement.battle.dungeons.1655",
             "source_en": "E-Una-Kotor - 1 Gelmorran Potsherd",
             "source_fr": "E-Una-Kotor - 1 Tesson de poterie gelmorraine",
@@ -270,10 +242,7 @@
             "number": "29",
             "name_en": "Notice of Death",
             "name_fr": "Notice of Death",
-            "category": [
-                "CATEGORY.ACHIEVEMENT",
-                "CATEGORY.PURCHASE"
-            ],
+            "category": ["CATEGORY.ACHIEVEMENT", "CATEGORY.PURCHASE"],
             "source": "character.achievement.battle.dungeons.1657",
             "source_en": "E-Una-Kotor - 10 Gelmorran Potsherd",
             "source_fr": "E-Una-Kotor - 10 Tessons de poterie gelmorraine",
@@ -642,10 +611,7 @@
             "name_en": "Dangertek",
             "name_fr": "Dangertek",
             "category": "CATEGORY.TREASURE_HUNT",
-            "source": [
-                "duty.treasure-hunt.duties.6",
-                "duty.treasure-hunt.duties.7"
-            ],
+            "source": ["duty.treasure-hunt.duties.6", "duty.treasure-hunt.duties.7"],
             "patch": "6.3"
         },
         "x101": {

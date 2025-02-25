@@ -2,9 +2,7 @@
     "key": "zodiac",
     "groupName_en": "Zodiac",
     "groupName_fr": "Zodiaque",
-    "common": [
-        "job"
-    ],
+    "common": ["job"],
     "tasks": {
         "x0": {
             "name_en": "Artemis Bow",
@@ -13,12 +11,8 @@
             "iLevel": "80",
             "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
             "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
-            "cNext": [
-                1
-            ],
-            "cSiblings": [
-                "character.achievement.items.relic-weapons.133"
-            ]
+            "cNext": [1],
+            "cSiblings": ["character.achievement.items.relic-weapons.133"]
         },
         "x1": {
             "name_en": "Artemis Bow Zenith",
@@ -27,12 +21,8 @@
             "iLevel": "90",
             "requirements_en": "Thavnairian Mists (60 Poetics) x3",
             "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
-            "cPrev": [
-                0
-            ],
-            "cNext": [
-                2
-            ]
+            "cPrev": [0],
+            "cNext": [2]
         },
         "x2": {
             "name_en": "Artemis Bow Atma",
@@ -41,12 +31,8 @@
             "iLevel": "100",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                1
-            ],
-            "cNext": [
-                3
-            ]
+            "cPrev": [1],
+            "cNext": [3]
         },
         "x3": {
             "name_en": "Artemis Bow Animus",
@@ -55,38 +41,23 @@
             "iLevel": "100",
             "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
             "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
-            "cPrev": [
-                2
-            ],
-            "cNext": [
-                4
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.925"
-            ]
+            "cPrev": [2],
+            "cNext": [4],
+            "cCombo": ["character.achievement.items.relic-weapons.925"]
         },
         "x4": {
             "name_en": "Artemis Bow Novus",
             "name_fr": "Arc d'Artémis novus",
             "job": "CLASS_JOB.BRD",
             "iLevel": "110",
-            "requirements_en": [
-                "Superior Enchanted Ink (25 Poetics) x3",
-                "Alexandrite (75 Poetics or 50 Allied Seals) x75"
-            ],
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
             "requirements_fr": [
                 "Encre enchantée de haute qualité (25 Poétiques) x3",
                 "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
             ],
-            "cPrev": [
-                3
-            ],
-            "cNext": [
-                5
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.926"
-            ]
+            "cPrev": [3],
+            "cNext": [5],
+            "cCombo": ["character.achievement.items.relic-weapons.926"]
         },
         "x5": {
             "name_en": "Artemis Bow Nexus",
@@ -95,15 +66,9 @@
             "iLevel": "115",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                4
-            ],
-            "cNext": [
-                6
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.1028"
-            ]
+            "cPrev": [4],
+            "cNext": [6],
+            "cCombo": ["character.achievement.items.relic-weapons.1028"]
         },
         "x6": {
             "name_en": "Yoichi Bow",
@@ -126,15 +91,9 @@
                 "Sable de halonite (100.000 gils)",
                 "Bouilloire en laiton (100.000 gils)"
             ],
-            "cPrev": [
-                5
-            ],
-            "cNext": [
-                7
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1054"
-            ]
+            "cPrev": [5],
+            "cNext": [7],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1054"]
         },
         "x7": {
             "name_en": "Yoichi Bow Zeta",
@@ -143,12 +102,8 @@
             "iLevel": "135",
             "requirements_en": "Mahatma (50 Poetics) x12",
             "requirements_fr": "Mahatma (50 Poétiques) x12",
-            "cPrev": [
-                6
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1081"
-            ]
+            "cPrev": [6],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1081"]
         },
         "x8": {
             "name_en": "Stardust Rod",
@@ -157,12 +112,8 @@
             "iLevel": "80",
             "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
             "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
-            "cNext": [
-                9
-            ],
-            "cSiblings": [
-                "character.achievement.items.relic-weapons.135"
-            ]
+            "cNext": [9],
+            "cSiblings": ["character.achievement.items.relic-weapons.135"]
         },
         "x9": {
             "name_en": "Stardust Rod Zenith",
@@ -171,12 +122,8 @@
             "iLevel": "90",
             "requirements_en": "Thavnairian Mists (60 Poetics) x3",
             "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
-            "cPrev": [
-                8
-            ],
-            "cNext": [
-                10
-            ]
+            "cPrev": [8],
+            "cNext": [10]
         },
         "x10": {
             "name_en": "Stardust Rod Atma",
@@ -185,12 +132,8 @@
             "iLevel": "100",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                9
-            ],
-            "cNext": [
-                11
-            ]
+            "cPrev": [9],
+            "cNext": [11]
         },
         "x11": {
             "name_en": "Stardust Rod Animus",
@@ -199,38 +142,23 @@
             "iLevel": "100",
             "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
             "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
-            "cPrev": [
-                10
-            ],
-            "cNext": [
-                12
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.925"
-            ]
+            "cPrev": [10],
+            "cNext": [12],
+            "cCombo": ["character.achievement.items.relic-weapons.925"]
         },
         "x12": {
             "name_en": "Stardust Rod Novus",
             "name_fr": "Sceptre étoilé novus",
             "job": "CLASS_JOB.BLM",
             "iLevel": "110",
-            "requirements_en": [
-                "Superior Enchanted Ink (25 Poetics) x3",
-                "Alexandrite (75 Poetics or 50 Allied Seals) x75"
-            ],
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
             "requirements_fr": [
                 "Encre enchantée de haute qualité (25 Poétiques) x3",
                 "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
             ],
-            "cPrev": [
-                11
-            ],
-            "cNext": [
-                13
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.926"
-            ]
+            "cPrev": [11],
+            "cNext": [13],
+            "cCombo": ["character.achievement.items.relic-weapons.926"]
         },
         "x13": {
             "name_en": "Stardust Rod Nexus",
@@ -239,15 +167,9 @@
             "iLevel": "115",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                12
-            ],
-            "cNext": [
-                14
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.1028"
-            ]
+            "cPrev": [12],
+            "cNext": [14],
+            "cCombo": ["character.achievement.items.relic-weapons.1028"]
         },
         "x14": {
             "name_en": "Lilith Rod",
@@ -270,15 +192,9 @@
                 "Sable de halonite (100.000 gils)",
                 "Bouilloire en laiton (100.000 gils)"
             ],
-            "cPrev": [
-                13
-            ],
-            "cNext": [
-                15
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1054"
-            ]
+            "cPrev": [13],
+            "cNext": [15],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1054"]
         },
         "x15": {
             "name_en": "Lilith Rod Zeta",
@@ -287,12 +203,8 @@
             "iLevel": "135",
             "requirements_en": "Mahatma (50 Poetics) x12",
             "requirements_fr": "Mahatma (50 Poétiques) x12",
-            "cPrev": [
-                14
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1081"
-            ]
+            "cPrev": [14],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1081"]
         },
         "x16": {
             "name_en": "Gae Bolg",
@@ -301,12 +213,8 @@
             "iLevel": "80",
             "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
             "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
-            "cNext": [
-                17
-            ],
-            "cSiblings": [
-                "character.achievement.items.relic-weapons.132"
-            ]
+            "cNext": [17],
+            "cSiblings": ["character.achievement.items.relic-weapons.132"]
         },
         "x17": {
             "name_en": "Gae Bolg Zenith",
@@ -315,12 +223,8 @@
             "iLevel": "90",
             "requirements_en": "Thavnairian Mists (60 Poetics) x3",
             "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
-            "cPrev": [
-                16
-            ],
-            "cNext": [
-                18
-            ]
+            "cPrev": [16],
+            "cNext": [18]
         },
         "x18": {
             "name_en": "Gae Bolg Atma",
@@ -329,12 +233,8 @@
             "iLevel": "100",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                17
-            ],
-            "cNext": [
-                19
-            ]
+            "cPrev": [17],
+            "cNext": [19]
         },
         "x19": {
             "name_en": "Gae Bolg Animus",
@@ -343,38 +243,23 @@
             "iLevel": "100",
             "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
             "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
-            "cPrev": [
-                18
-            ],
-            "cNext": [
-                20
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.925"
-            ]
+            "cPrev": [18],
+            "cNext": [20],
+            "cCombo": ["character.achievement.items.relic-weapons.925"]
         },
         "x20": {
             "name_en": "Gae Bolg Novus",
             "name_fr": "Gae Bolg novus",
             "job": "CLASS_JOB.DRG",
             "iLevel": "110",
-            "requirements_en": [
-                "Superior Enchanted Ink (25 Poetics) x3",
-                "Alexandrite (75 Poetics or 50 Allied Seals) x75"
-            ],
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
             "requirements_fr": [
                 "Encre enchantée de haute qualité (25 Poétiques) x3",
                 "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
             ],
-            "cPrev": [
-                19
-            ],
-            "cNext": [
-                21
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.926"
-            ]
+            "cPrev": [19],
+            "cNext": [21],
+            "cCombo": ["character.achievement.items.relic-weapons.926"]
         },
         "x21": {
             "name_en": "Gae Bolg Nexus",
@@ -383,15 +268,9 @@
             "iLevel": "115",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                20
-            ],
-            "cNext": [
-                22
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.1028"
-            ]
+            "cPrev": [20],
+            "cNext": [22],
+            "cCombo": ["character.achievement.items.relic-weapons.1028"]
         },
         "x22": {
             "name_en": "Longinus",
@@ -414,15 +293,9 @@
                 "Sable de halonite (100.000 gils)",
                 "Bouilloire en laiton (100.000 gils)"
             ],
-            "cPrev": [
-                21
-            ],
-            "cNext": [
-                23
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1054"
-            ]
+            "cPrev": [21],
+            "cNext": [23],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1054"]
         },
         "x23": {
             "name_en": "Longinus Zeta",
@@ -431,12 +304,8 @@
             "iLevel": "135",
             "requirements_en": "Mahatma (50 Poetics) x12",
             "requirements_fr": "Mahatma (50 Poétiques) x12",
-            "cPrev": [
-                22
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1081"
-            ]
+            "cPrev": [22],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1081"]
         },
         "x24": {
             "name_en": "Sphairai",
@@ -445,12 +314,8 @@
             "iLevel": "80",
             "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
             "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
-            "cNext": [
-                25
-            ],
-            "cSiblings": [
-                "character.achievement.items.relic-weapons.130"
-            ]
+            "cNext": [25],
+            "cSiblings": ["character.achievement.items.relic-weapons.130"]
         },
         "x25": {
             "name_en": "Sphairai Zenith",
@@ -459,12 +324,8 @@
             "iLevel": "90",
             "requirements_en": "Thavnairian Mists (60 Poetics) x3",
             "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
-            "cPrev": [
-                24
-            ],
-            "cNext": [
-                26
-            ]
+            "cPrev": [24],
+            "cNext": [26]
         },
         "x26": {
             "name_en": "Sphairai Atma",
@@ -473,12 +334,8 @@
             "iLevel": "100",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                25
-            ],
-            "cNext": [
-                27
-            ]
+            "cPrev": [25],
+            "cNext": [27]
         },
         "x27": {
             "name_en": "Sphairai Animus",
@@ -487,38 +344,23 @@
             "iLevel": "100",
             "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
             "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
-            "cPrev": [
-                26
-            ],
-            "cNext": [
-                28
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.925"
-            ]
+            "cPrev": [26],
+            "cNext": [28],
+            "cCombo": ["character.achievement.items.relic-weapons.925"]
         },
         "x28": {
             "name_en": "Sphairai Novus",
             "name_fr": "Sphairai novus",
             "job": "CLASS_JOB.MNK",
             "iLevel": "110",
-            "requirements_en": [
-                "Superior Enchanted Ink (25 Poetics) x3",
-                "Alexandrite (75 Poetics or 50 Allied Seals) x75"
-            ],
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
             "requirements_fr": [
                 "Encre enchantée de haute qualité (25 Poétiques) x3",
                 "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
             ],
-            "cPrev": [
-                27
-            ],
-            "cNext": [
-                29
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.926"
-            ]
+            "cPrev": [27],
+            "cNext": [29],
+            "cCombo": ["character.achievement.items.relic-weapons.926"]
         },
         "x29": {
             "name_en": "Sphairai Nexus",
@@ -527,15 +369,9 @@
             "iLevel": "115",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                28
-            ],
-            "cNext": [
-                30
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.1028"
-            ]
+            "cPrev": [28],
+            "cNext": [30],
+            "cCombo": ["character.achievement.items.relic-weapons.1028"]
         },
         "x30": {
             "name_en": "Kaiser Knuckles",
@@ -558,15 +394,9 @@
                 "Sable de halonite (100.000 gils)",
                 "Bouilloire en laiton (100.000 gils)"
             ],
-            "cPrev": [
-                29
-            ],
-            "cNext": [
-                31
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1054"
-            ]
+            "cPrev": [29],
+            "cNext": [31],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1054"]
         },
         "x31": {
             "name_en": "Kaiser Knuckles Zeta",
@@ -575,12 +405,8 @@
             "iLevel": "135",
             "requirements_en": "Mahatma (50 Poetics) x12",
             "requirements_fr": "Mahatma (50 Poétiques) x12",
-            "cPrev": [
-                30
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1081"
-            ]
+            "cPrev": [30],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1081"]
         },
         "x32": {
             "name_en": "Yoshimitsu",
@@ -589,12 +415,8 @@
             "iLevel": "80",
             "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
             "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
-            "cNext": [
-                33
-            ],
-            "cSiblings": [
-                "character.achievement.items.relic-weapons.1053"
-            ]
+            "cNext": [33],
+            "cSiblings": ["character.achievement.items.relic-weapons.1053"]
         },
         "x33": {
             "name_en": "Yoshimitsu Zenith",
@@ -603,12 +425,8 @@
             "iLevel": "90",
             "requirements_en": "Thavnairian Mists (60 Poetics) x3",
             "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
-            "cPrev": [
-                32
-            ],
-            "cNext": [
-                34
-            ]
+            "cPrev": [32],
+            "cNext": [34]
         },
         "x34": {
             "name_en": "Yoshimitsu Atma",
@@ -617,12 +435,8 @@
             "iLevel": "100",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                33
-            ],
-            "cNext": [
-                35
-            ]
+            "cPrev": [33],
+            "cNext": [35]
         },
         "x35": {
             "name_en": "Yoshimitsu Animus",
@@ -631,38 +445,23 @@
             "iLevel": "100",
             "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
             "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
-            "cPrev": [
-                34
-            ],
-            "cNext": [
-                36
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.925"
-            ]
+            "cPrev": [34],
+            "cNext": [36],
+            "cCombo": ["character.achievement.items.relic-weapons.925"]
         },
         "x36": {
             "name_en": "Yoshimitsu Novus",
             "name_fr": "Yoshimitsu novus",
             "job": "CLASS_JOB.NIN",
             "iLevel": "110",
-            "requirements_en": [
-                "Superior Enchanted Ink (25 Poetics) x3",
-                "Alexandrite (75 Poetics or 50 Allied Seals) x75"
-            ],
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
             "requirements_fr": [
                 "Encre enchantée de haute qualité (25 Poétiques) x3",
                 "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
             ],
-            "cPrev": [
-                35
-            ],
-            "cNext": [
-                37
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.926"
-            ]
+            "cPrev": [35],
+            "cNext": [37],
+            "cCombo": ["character.achievement.items.relic-weapons.926"]
         },
         "x37": {
             "name_en": "Yoshimitsu Nexus",
@@ -671,15 +470,9 @@
             "iLevel": "115",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                36
-            ],
-            "cNext": [
-                38
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.1028"
-            ]
+            "cPrev": [36],
+            "cNext": [38],
+            "cCombo": ["character.achievement.items.relic-weapons.1028"]
         },
         "x38": {
             "name_en": "Sasuke's Blades",
@@ -702,15 +495,9 @@
                 "Sable de halonite (100.000 gils)",
                 "Bouilloire en laiton (100.000 gils)"
             ],
-            "cPrev": [
-                37
-            ],
-            "cNext": [
-                39
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1054"
-            ]
+            "cPrev": [37],
+            "cNext": [39],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1054"]
         },
         "x39": {
             "name_en": "Sasuke's Blades Zeta",
@@ -719,12 +506,8 @@
             "iLevel": "135",
             "requirements_en": "Mahatma (50 Poetics) x12",
             "requirements_fr": "Mahatma (50 Poétiques) x12",
-            "cPrev": [
-                38
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1081"
-            ]
+            "cPrev": [38],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1081"]
         },
         "x40": {
             "name_en": "Curtana & Holy Shield",
@@ -733,12 +516,8 @@
             "iLevel": "80",
             "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
             "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
-            "cNext": [
-                41
-            ],
-            "cSiblings": [
-                "character.achievement.items.relic-weapons.129"
-            ]
+            "cNext": [41],
+            "cSiblings": ["character.achievement.items.relic-weapons.129"]
         },
         "x41": {
             "name_en": "Curtana Zenith & Holy Shield Zenith",
@@ -747,12 +526,8 @@
             "iLevel": "90",
             "requirements_en": "Thavnairian Mists (60 Poetics) x3",
             "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
-            "cPrev": [
-                40
-            ],
-            "cNext": [
-                42
-            ]
+            "cPrev": [40],
+            "cNext": [42]
         },
         "x42": {
             "name_en": "Curtana Atma & Holy Shield Atma",
@@ -761,12 +536,8 @@
             "iLevel": "100",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                41
-            ],
-            "cNext": [
-                43
-            ]
+            "cPrev": [41],
+            "cNext": [43]
         },
         "x43": {
             "name_en": "Curtana Animus & Holy Shield Animus",
@@ -775,38 +546,23 @@
             "iLevel": "100",
             "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
             "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
-            "cPrev": [
-                42
-            ],
-            "cNext": [
-                44
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.925"
-            ]
+            "cPrev": [42],
+            "cNext": [44],
+            "cCombo": ["character.achievement.items.relic-weapons.925"]
         },
         "x44": {
             "name_en": "Curtana Novus & Holy Shield Novus",
             "name_fr": "Curtana novus & Bouclier saint novus",
             "job": "CLASS_JOB.PLD",
             "iLevel": "110",
-            "requirements_en": [
-                "Superior Enchanted Ink (25 Poetics) x3",
-                "Alexandrite (75 Poetics or 50 Allied Seals) x75"
-            ],
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
             "requirements_fr": [
                 "Encre enchantée de haute qualité (25 Poétiques) x3",
                 "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
             ],
-            "cPrev": [
-                43
-            ],
-            "cNext": [
-                45
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.926"
-            ]
+            "cPrev": [43],
+            "cNext": [45],
+            "cCombo": ["character.achievement.items.relic-weapons.926"]
         },
         "x45": {
             "name_en": "Curtana Nexus & Holy Shield Nexus",
@@ -815,15 +571,9 @@
             "iLevel": "115",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                44
-            ],
-            "cNext": [
-                46
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.1028"
-            ]
+            "cPrev": [44],
+            "cNext": [46],
+            "cCombo": ["character.achievement.items.relic-weapons.1028"]
         },
         "x46": {
             "name_en": "Excalibur & Aegis Shield",
@@ -846,15 +596,9 @@
                 "Sable de halonite (100.000 gils)",
                 "Bouilloire en laiton (100.000 gils)"
             ],
-            "cPrev": [
-                45
-            ],
-            "cNext": [
-                47
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1054"
-            ]
+            "cPrev": [45],
+            "cNext": [47],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1054"]
         },
         "x47": {
             "name_en": "Excalibur Zeta & Aegis Shield Zeta",
@@ -863,12 +607,8 @@
             "iLevel": "135",
             "requirements_en": "Mahatma (50 Poetics) x12",
             "requirements_fr": "Mahatma (50 Poétiques) x12",
-            "cPrev": [
-                46
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1081"
-            ]
+            "cPrev": [46],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1081"]
         },
         "x48": {
             "name_en": "Omnilex",
@@ -877,12 +617,8 @@
             "iLevel": "80",
             "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
             "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
-            "cNext": [
-                49
-            ],
-            "cSiblings": [
-                "character.achievement.items.relic-weapons.598"
-            ]
+            "cNext": [49],
+            "cSiblings": ["character.achievement.items.relic-weapons.598"]
         },
         "x49": {
             "name_en": "Omnilex Zenith",
@@ -891,12 +627,8 @@
             "iLevel": "90",
             "requirements_en": "Thavnairian Mists (60 Poetics) x3",
             "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
-            "cPrev": [
-                48
-            ],
-            "cNext": [
-                50
-            ]
+            "cPrev": [48],
+            "cNext": [50]
         },
         "x50": {
             "name_en": "Omnilex Atma",
@@ -905,12 +637,8 @@
             "iLevel": "100",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                49
-            ],
-            "cNext": [
-                51
-            ]
+            "cPrev": [49],
+            "cNext": [51]
         },
         "x51": {
             "name_en": "Omnilex Animus",
@@ -919,38 +647,23 @@
             "iLevel": "100",
             "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
             "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
-            "cPrev": [
-                50
-            ],
-            "cNext": [
-                52
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.925"
-            ]
+            "cPrev": [50],
+            "cNext": [52],
+            "cCombo": ["character.achievement.items.relic-weapons.925"]
         },
         "x52": {
             "name_en": "Omnilex Novus",
             "name_fr": "Omnilex novus",
             "job": "CLASS_JOB.SCH",
             "iLevel": "110",
-            "requirements_en": [
-                "Superior Enchanted Ink (25 Poetics) x3",
-                "Alexandrite (75 Poetics or 50 Allied Seals) x75"
-            ],
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
             "requirements_fr": [
                 "Encre enchantée de haute qualité (25 Poétiques) x3",
                 "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
             ],
-            "cPrev": [
-                51
-            ],
-            "cNext": [
-                53
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.926"
-            ]
+            "cPrev": [51],
+            "cNext": [53],
+            "cCombo": ["character.achievement.items.relic-weapons.926"]
         },
         "x53": {
             "name_en": "Omnilex Nexus",
@@ -959,15 +672,9 @@
             "iLevel": "115",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                52
-            ],
-            "cNext": [
-                54
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.1028"
-            ]
+            "cPrev": [52],
+            "cNext": [54],
+            "cCombo": ["character.achievement.items.relic-weapons.1028"]
         },
         "x54": {
             "name_en": "Last Resort",
@@ -990,15 +697,9 @@
                 "Sable de halonite (100.000 gils)",
                 "Bouilloire en laiton (100.000 gils)"
             ],
-            "cPrev": [
-                53
-            ],
-            "cNext": [
-                55
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1054"
-            ]
+            "cPrev": [53],
+            "cNext": [55],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1054"]
         },
         "x55": {
             "name_en": "Last Resort Zeta",
@@ -1007,12 +708,8 @@
             "iLevel": "135",
             "requirements_en": "Mahatma (50 Poetics) x12",
             "requirements_fr": "Mahatma (50 Poétiques) x12",
-            "cPrev": [
-                54
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1081"
-            ]
+            "cPrev": [54],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1081"]
         },
         "x56": {
             "name_en": "The Veil of Wiyu",
@@ -1021,12 +718,8 @@
             "iLevel": "80",
             "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
             "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
-            "cNext": [
-                57
-            ],
-            "cSiblings": [
-                "character.achievement.items.relic-weapons.597"
-            ]
+            "cNext": [57],
+            "cSiblings": ["character.achievement.items.relic-weapons.597"]
         },
         "x57": {
             "name_en": "The Veil of Wiyu Zenith",
@@ -1035,12 +728,8 @@
             "iLevel": "90",
             "requirements_en": "Thavnairian Mists (60 Poetics) x3",
             "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
-            "cPrev": [
-                56
-            ],
-            "cNext": [
-                58
-            ]
+            "cPrev": [56],
+            "cNext": [58]
         },
         "x58": {
             "name_en": "The Veil of Wiyu Atma",
@@ -1049,12 +738,8 @@
             "iLevel": "100",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                57
-            ],
-            "cNext": [
-                59
-            ]
+            "cPrev": [57],
+            "cNext": [59]
         },
         "x59": {
             "name_en": "The Veil of Wiyu Animus",
@@ -1063,38 +748,23 @@
             "iLevel": "100",
             "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
             "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
-            "cPrev": [
-                58
-            ],
-            "cNext": [
-                60
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.925"
-            ]
+            "cPrev": [58],
+            "cNext": [60],
+            "cCombo": ["character.achievement.items.relic-weapons.925"]
         },
         "x60": {
             "name_en": "The Veil of Wiyu Novus",
             "name_fr": "Œilvert novus",
             "job": "CLASS_JOB.SMN",
             "iLevel": "110",
-            "requirements_en": [
-                "Superior Enchanted Ink (25 Poetics) x3",
-                "Alexandrite (75 Poetics or 50 Allied Seals) x75"
-            ],
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
             "requirements_fr": [
                 "Encre enchantée de haute qualité (25 Poétiques) x3",
                 "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
             ],
-            "cPrev": [
-                59
-            ],
-            "cNext": [
-                61
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.926"
-            ]
+            "cPrev": [59],
+            "cNext": [61],
+            "cCombo": ["character.achievement.items.relic-weapons.926"]
         },
         "x61": {
             "name_en": "The Veil of Wiyu Nexus",
@@ -1103,15 +773,9 @@
             "iLevel": "115",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                60
-            ],
-            "cNext": [
-                62
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.1028"
-            ]
+            "cPrev": [60],
+            "cNext": [62],
+            "cCombo": ["character.achievement.items.relic-weapons.1028"]
         },
         "x62": {
             "name_en": "Apocalypse",
@@ -1134,15 +798,9 @@
                 "Sable de halonite (100.000 gils)",
                 "Bouilloire en laiton (100.000 gils)"
             ],
-            "cPrev": [
-                61
-            ],
-            "cNext": [
-                63
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1054"
-            ]
+            "cPrev": [61],
+            "cNext": [63],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1054"]
         },
         "x63": {
             "name_en": "Apocalypse Zeta",
@@ -1151,12 +809,8 @@
             "iLevel": "135",
             "requirements_en": "Mahatma (50 Poetics) x12",
             "requirements_fr": "Mahatma (50 Poétiques) x12",
-            "cPrev": [
-                62
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1081"
-            ]
+            "cPrev": [62],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1081"]
         },
         "x64": {
             "name_en": "Bravura",
@@ -1165,12 +819,8 @@
             "iLevel": "80",
             "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
             "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
-            "cNext": [
-                65
-            ],
-            "cSiblings": [
-                "character.achievement.items.relic-weapons.131"
-            ]
+            "cNext": [65],
+            "cSiblings": ["character.achievement.items.relic-weapons.131"]
         },
         "x65": {
             "name_en": "Bravura Zenith",
@@ -1179,12 +829,8 @@
             "iLevel": "90",
             "requirements_en": "Thavnairian Mists (60 Poetics) x3",
             "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
-            "cPrev": [
-                64
-            ],
-            "cNext": [
-                66
-            ]
+            "cPrev": [64],
+            "cNext": [66]
         },
         "x66": {
             "name_en": "Bravura Atma",
@@ -1193,12 +839,8 @@
             "iLevel": "100",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                65
-            ],
-            "cNext": [
-                67
-            ]
+            "cPrev": [65],
+            "cNext": [67]
         },
         "x67": {
             "name_en": "Bravura Animus",
@@ -1207,38 +849,23 @@
             "iLevel": "100",
             "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
             "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
-            "cPrev": [
-                66
-            ],
-            "cNext": [
-                68
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.925"
-            ]
+            "cPrev": [66],
+            "cNext": [68],
+            "cCombo": ["character.achievement.items.relic-weapons.925"]
         },
         "x68": {
             "name_en": "Bravura Novus",
             "name_fr": "Bravura novus",
             "job": "CLASS_JOB.WAR",
             "iLevel": "110",
-            "requirements_en": [
-                "Superior Enchanted Ink (25 Poetics) x3",
-                "Alexandrite (75 Poetics or 50 Allied Seals) x75"
-            ],
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
             "requirements_fr": [
                 "Encre enchantée de haute qualité (25 Poétiques) x3",
                 "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
             ],
-            "cPrev": [
-                67
-            ],
-            "cNext": [
-                69
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.926"
-            ]
+            "cPrev": [67],
+            "cNext": [69],
+            "cCombo": ["character.achievement.items.relic-weapons.926"]
         },
         "x69": {
             "name_en": "Bravura Nexus",
@@ -1247,15 +874,9 @@
             "iLevel": "115",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                68
-            ],
-            "cNext": [
-                70
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.1028"
-            ]
+            "cPrev": [68],
+            "cNext": [70],
+            "cCombo": ["character.achievement.items.relic-weapons.1028"]
         },
         "x70": {
             "name_en": "Ragnarok",
@@ -1278,15 +899,9 @@
                 "Sable de halonite (100.000 gils)",
                 "Bouilloire en laiton (100.000 gils)"
             ],
-            "cPrev": [
-                69
-            ],
-            "cNext": [
-                71
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1054"
-            ]
+            "cPrev": [69],
+            "cNext": [71],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1054"]
         },
         "x71": {
             "name_en": "Ragnarok Zeta",
@@ -1295,12 +910,8 @@
             "iLevel": "135",
             "requirements_en": "Mahatma (50 Poetics) x12",
             "requirements_fr": "Mahatma (50 Poétiques) x12",
-            "cPrev": [
-                70
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1081"
-            ]
+            "cPrev": [70],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1081"]
         },
         "x72": {
             "name_en": "Thyrus",
@@ -1309,12 +920,8 @@
             "iLevel": "80",
             "requirements_en": "Radz-at-Han Quenching Oil (15 Poetics)",
             "requirements_fr": "Huile de trempe de Radz-at-Han (15 Poétiques)",
-            "cNext": [
-                73
-            ],
-            "cSiblings": [
-                "character.achievement.items.relic-weapons.134"
-            ]
+            "cNext": [73],
+            "cSiblings": ["character.achievement.items.relic-weapons.134"]
         },
         "x73": {
             "name_en": "Thyrus Zenith",
@@ -1323,12 +930,8 @@
             "iLevel": "90",
             "requirements_en": "Thavnairian Mists (60 Poetics) x3",
             "requirements_fr": "Lymphe de Thavnair (60 Poétiques) x3",
-            "cPrev": [
-                72
-            ],
-            "cNext": [
-                74
-            ]
+            "cPrev": [72],
+            "cNext": [74]
         },
         "x74": {
             "name_en": "Thyrus Atma",
@@ -1337,12 +940,8 @@
             "iLevel": "100",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                73
-            ],
-            "cNext": [
-                75
-            ]
+            "cPrev": [73],
+            "cNext": [75]
         },
         "x75": {
             "name_en": "Thyrus Animus",
@@ -1351,38 +950,23 @@
             "iLevel": "100",
             "requirements_en": "Trials of the Braves Book (100 Poetics) x9",
             "requirements_fr": "Livre des Chroniques du zodiaque (100 Poétiques) x9",
-            "cPrev": [
-                74
-            ],
-            "cNext": [
-                76
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.925"
-            ]
+            "cPrev": [74],
+            "cNext": [76],
+            "cCombo": ["character.achievement.items.relic-weapons.925"]
         },
         "x76": {
             "name_en": "Thyrus Novus",
             "name_fr": "Thyrse novus",
             "job": "CLASS_JOB.WHM",
             "iLevel": "110",
-            "requirements_en": [
-                "Superior Enchanted Ink (25 Poetics) x3",
-                "Alexandrite (75 Poetics or 50 Allied Seals) x75"
-            ],
+            "requirements_en": ["Superior Enchanted Ink (25 Poetics) x3", "Alexandrite (75 Poetics or 50 Allied Seals) x75"],
             "requirements_fr": [
                 "Encre enchantée de haute qualité (25 Poétiques) x3",
                 "Alexandrite (75 Poétiques ou 50 Insignes alliés) x75"
             ],
-            "cPrev": [
-                75
-            ],
-            "cNext": [
-                77
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.926"
-            ]
+            "cPrev": [75],
+            "cNext": [77],
+            "cCombo": ["character.achievement.items.relic-weapons.926"]
         },
         "x77": {
             "name_en": "Thyrus Nexus",
@@ -1391,15 +975,9 @@
             "iLevel": "115",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                76
-            ],
-            "cNext": [
-                78
-            ],
-            "cCombo": [
-                "character.achievement.items.relic-weapons.1028"
-            ]
+            "cPrev": [76],
+            "cNext": [78],
+            "cCombo": ["character.achievement.items.relic-weapons.1028"]
         },
         "x78": {
             "name_en": "Nirvana",
@@ -1422,15 +1000,9 @@
                 "Sable de halonite (100.000 gils)",
                 "Bouilloire en laiton (100.000 gils)"
             ],
-            "cPrev": [
-                77
-            ],
-            "cNext": [
-                79
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1054"
-            ]
+            "cPrev": [77],
+            "cNext": [79],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1054"]
         },
         "x79": {
             "name_en": "Nirvana Zeta",
@@ -1439,12 +1011,8 @@
             "iLevel": "135",
             "requirements_en": "Mahatma (50 Poetics) x12",
             "requirements_fr": "Mahatma (50 Poétiques) x12",
-            "cPrev": [
-                78
-            ],
-            "cCombo": [
-                "character.achievement.items.zodiac-weapons.1081"
-            ]
+            "cPrev": [78],
+            "cCombo": ["character.achievement.items.zodiac-weapons.1081"]
         }
     }
 }

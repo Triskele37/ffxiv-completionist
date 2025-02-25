@@ -2,9 +2,7 @@
     "key": "eureka",
     "groupName_en": "Eureka",
     "groupName_fr": "Eurêka",
-    "common": [
-        "job"
-    ],
+    "common": ["job"],
     "tasks": {
         "x0": {
             "name_en": "Antiquated Pleiades",
@@ -13,9 +11,7 @@
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                1
-            ]
+            "cNext": [1]
         },
         "x1": {
             "name_en": "Pleiades",
@@ -24,12 +20,8 @@
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
-            "cPrev": [
-                0
-            ],
-            "cNext": [
-                2
-            ]
+            "cPrev": [0],
+            "cNext": [2]
         },
         "x2": {
             "name_en": "Pleiades +1",
@@ -38,12 +30,8 @@
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
-            "cPrev": [
-                1
-            ],
-            "cNext": [
-                3
-            ]
+            "cPrev": [1],
+            "cNext": [3]
         },
         "x3": {
             "name_en": "Pleiades +2",
@@ -52,12 +40,8 @@
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
-            "cPrev": [
-                2
-            ],
-            "cNext": [
-                4
-            ]
+            "cPrev": [2],
+            "cNext": [4]
         },
         "x4": {
             "name_en": "Pleiades Anemos",
@@ -66,15 +50,9 @@
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
-            "cPrev": [
-                3
-            ],
-            "cNext": [
-                5
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2044"
-            ]
+            "cPrev": [3],
+            "cNext": [5],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2044"]
         },
         "x5": {
             "name_en": "Pleiades Pagos",
@@ -83,55 +61,29 @@
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
-            "cPrev": [
-                4
-            ],
-            "cNext": [
-                6
-            ]
+            "cPrev": [4],
+            "cNext": [6]
         },
         "x6": {
             "name_en": "Pleiades Pagos +1",
             "name_fr": "Pléiade Pagos +1",
             "job": "CLASS_JOB.AST",
             "iLevel": "365",
-            "requirements_en": [
-                "Frosted Protean Crystal x10",
-                "Pagos Crystal x500"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x10",
-                "Cristal Pagos x500"
-            ],
-            "cPrev": [
-                5
-            ],
-            "cNext": [
-                7
-            ]
+            "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
+            "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
+            "cPrev": [5],
+            "cNext": [7]
         },
         "x7": {
             "name_en": "Elemental Astrometer",
             "name_fr": "Planisphère élémentaire",
             "job": "CLASS_JOB.AST",
             "iLevel": "370",
-            "requirements_en": [
-                "Frosted Protean Crystal x16",
-                "Louhi Ice x5"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x16",
-                "Glace de Louhi x5"
-            ],
-            "cPrev": [
-                6
-            ],
-            "cNext": [
-                8
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2096"
-            ]
+            "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
+            "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
+            "cPrev": [6],
+            "cNext": [8],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2096"]
         },
         "x8": {
             "name_en": "Elemental Astrometer +1",
@@ -140,12 +92,8 @@
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
-            "cPrev": [
-                7
-            ],
-            "cNext": [
-                9
-            ]
+            "cPrev": [7],
+            "cNext": [9]
         },
         "x9": {
             "name_en": "Elemental Astrometer +2",
@@ -154,35 +102,19 @@
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
-            "cPrev": [
-                8
-            ],
-            "cNext": [
-                10
-            ]
+            "cPrev": [8],
+            "cNext": [10]
         },
         "x10": {
             "name_en": "Pyros Astrometer",
             "name_fr": "Planisphère Pyros",
             "job": "CLASS_JOB.AST",
             "iLevel": "385",
-            "requirements_en": [
-                "Pyros Crystal x300",
-                "Penthesilea's Flame x5"
-            ],
-            "requirements_fr": [
-                "Cristal Pyros x300",
-                "Braises de Penthésilée x5"
-            ],
-            "cPrev": [
-                9
-            ],
-            "cNext": [
-                11
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2157"
-            ]
+            "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
+            "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
+            "cPrev": [9],
+            "cNext": [11],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2157"]
         },
         "x11": {
             "name_en": "Hydatos Astrometer",
@@ -191,12 +123,8 @@
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
-            "cPrev": [
-                10
-            ],
-            "cNext": [
-                12
-            ]
+            "cPrev": [10],
+            "cNext": [12]
         },
         "x12": {
             "name_en": "Hydatos Astrometer +1",
@@ -205,12 +133,8 @@
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                11
-            ],
-            "cNext": [
-                13
-            ]
+            "cPrev": [11],
+            "cNext": [13]
         },
         "x13": {
             "name_en": "Albireo",
@@ -219,32 +143,18 @@
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                12
-            ],
-            "cNext": [
-                14
-            ]
+            "cPrev": [12],
+            "cNext": [14]
         },
         "x14": {
             "name_en": "Albireo Eureka",
             "name_fr": "Albiréo Eurêka",
             "job": "CLASS_JOB.AST",
             "iLevel": "405",
-            "requirements_en": [
-                "Hydatos Crystal x100",
-                "Crystalline Scale x5"
-            ],
-            "requirements_fr": [
-                "Cristal Hydatos x100",
-                "Écaille de dragon de cristal x5"
-            ],
-            "cPrev": [
-                13
-            ],
-            "cNext": [
-                15
-            ]
+            "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
+            "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
+            "cPrev": [13],
+            "cNext": [15]
         },
         "x15": {
             "name_en": "Albireo Physeos",
@@ -253,12 +163,8 @@
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
-            "cPrev": [
-                14
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2226"
-            ]
+            "cPrev": [14],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2226"]
         },
         "x16": {
             "name_en": "Antiquated Failnaught",
@@ -267,9 +173,7 @@
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                17
-            ]
+            "cNext": [17]
         },
         "x17": {
             "name_en": "Failnaught",
@@ -278,12 +182,8 @@
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
-            "cPrev": [
-                16
-            ],
-            "cNext": [
-                18
-            ]
+            "cPrev": [16],
+            "cNext": [18]
         },
         "x18": {
             "name_en": "Failnaught +1",
@@ -292,12 +192,8 @@
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
-            "cPrev": [
-                17
-            ],
-            "cNext": [
-                19
-            ]
+            "cPrev": [17],
+            "cNext": [19]
         },
         "x19": {
             "name_en": "Failnaught +2",
@@ -306,12 +202,8 @@
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
-            "cPrev": [
-                18
-            ],
-            "cNext": [
-                20
-            ]
+            "cPrev": [18],
+            "cNext": [20]
         },
         "x20": {
             "name_en": "Failnaught Anemos",
@@ -320,15 +212,9 @@
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
-            "cPrev": [
-                19
-            ],
-            "cNext": [
-                21
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2037"
-            ]
+            "cPrev": [19],
+            "cNext": [21],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2037"]
         },
         "x21": {
             "name_en": "Failnaught Pagos",
@@ -337,55 +223,29 @@
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
-            "cPrev": [
-                20
-            ],
-            "cNext": [
-                22
-            ]
+            "cPrev": [20],
+            "cNext": [22]
         },
         "x22": {
             "name_en": "Failnaught Pagos +1",
             "name_fr": "Arc Qui-ne-faut Pagos +1",
             "job": "CLASS_JOB.BRD",
             "iLevel": "365",
-            "requirements_en": [
-                "Frosted Protean Crystal x10",
-                "Pagos Crystal x500"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x10",
-                "Cristal Pagos x500"
-            ],
-            "cPrev": [
-                21
-            ],
-            "cNext": [
-                23
-            ]
+            "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
+            "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
+            "cPrev": [21],
+            "cNext": [23]
         },
         "x23": {
             "name_en": "Elemental Harp Bow",
             "name_fr": "Arc-harpe élémentaire",
             "job": "CLASS_JOB.BRD",
             "iLevel": "370",
-            "requirements_en": [
-                "Frosted Protean Crystal x16",
-                "Louhi Ice x5"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x16",
-                "Glace de Louhi x5"
-            ],
-            "cPrev": [
-                22
-            ],
-            "cNext": [
-                24
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2089"
-            ]
+            "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
+            "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
+            "cPrev": [22],
+            "cNext": [24],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2089"]
         },
         "x24": {
             "name_en": "Elemental Harp Bow +1",
@@ -394,12 +254,8 @@
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
-            "cPrev": [
-                23
-            ],
-            "cNext": [
-                25
-            ]
+            "cPrev": [23],
+            "cNext": [25]
         },
         "x25": {
             "name_en": "Elemental Harp Bow +2",
@@ -408,35 +264,19 @@
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
-            "cPrev": [
-                24
-            ],
-            "cNext": [
-                26
-            ]
+            "cPrev": [24],
+            "cNext": [26]
         },
         "x26": {
             "name_en": "Pyros Harp Bow",
             "name_fr": "Arc-harpe Pyros",
             "job": "CLASS_JOB.BRD",
             "iLevel": "385",
-            "requirements_en": [
-                "Pyros Crystal x300",
-                "Penthesilea's Flame x5"
-            ],
-            "requirements_fr": [
-                "Cristal Pyros x300",
-                "Braises de Penthésilée x5"
-            ],
-            "cPrev": [
-                25
-            ],
-            "cNext": [
-                27
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2150"
-            ]
+            "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
+            "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
+            "cPrev": [25],
+            "cNext": [27],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2150"]
         },
         "x27": {
             "name_en": "Hydatos Harp Bow",
@@ -445,12 +285,8 @@
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
-            "cPrev": [
-                26
-            ],
-            "cNext": [
-                28
-            ]
+            "cPrev": [26],
+            "cNext": [28]
         },
         "x28": {
             "name_en": "Hydatos Harp Bow +1",
@@ -459,12 +295,8 @@
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                27
-            ],
-            "cNext": [
-                29
-            ]
+            "cPrev": [27],
+            "cNext": [29]
         },
         "x29": {
             "name_en": "Circinae",
@@ -473,32 +305,18 @@
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                28
-            ],
-            "cNext": [
-                30
-            ]
+            "cPrev": [28],
+            "cNext": [30]
         },
         "x30": {
             "name_en": "Circinae Eureka",
             "name_fr": "Circinae Eurêka",
             "job": "CLASS_JOB.BRD",
             "iLevel": "405",
-            "requirements_en": [
-                "Hydatos Crystal x100",
-                "Crystalline Scale x5"
-            ],
-            "requirements_fr": [
-                "Cristal Hydatos x100",
-                "Écaille de dragon de cristal x5"
-            ],
-            "cPrev": [
-                29
-            ],
-            "cNext": [
-                31
-            ]
+            "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
+            "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
+            "cPrev": [29],
+            "cNext": [31]
         },
         "x31": {
             "name_en": "Circinae Physeos",
@@ -507,12 +325,8 @@
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
-            "cPrev": [
-                30
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2219"
-            ]
+            "cPrev": [30],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2219"]
         },
         "x32": {
             "name_en": "Antiquated Vanargand",
@@ -521,9 +335,7 @@
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                33
-            ]
+            "cNext": [33]
         },
         "x33": {
             "name_en": "Vanargand",
@@ -532,12 +344,8 @@
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
-            "cPrev": [
-                32
-            ],
-            "cNext": [
-                34
-            ]
+            "cPrev": [32],
+            "cNext": [34]
         },
         "x34": {
             "name_en": "Vanargand +1",
@@ -546,12 +354,8 @@
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
-            "cPrev": [
-                33
-            ],
-            "cNext": [
-                35
-            ]
+            "cPrev": [33],
+            "cNext": [35]
         },
         "x35": {
             "name_en": "Vanargand +2",
@@ -560,12 +364,8 @@
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
-            "cPrev": [
-                34
-            ],
-            "cNext": [
-                36
-            ]
+            "cPrev": [34],
+            "cNext": [36]
         },
         "x36": {
             "name_en": "Vanargand Anemos",
@@ -574,15 +374,9 @@
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
-            "cPrev": [
-                35
-            ],
-            "cNext": [
-                37
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2039"
-            ]
+            "cPrev": [35],
+            "cNext": [37],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2039"]
         },
         "x37": {
             "name_en": "Vanargand Pagos",
@@ -591,55 +385,29 @@
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
-            "cPrev": [
-                36
-            ],
-            "cNext": [
-                38
-            ]
+            "cPrev": [36],
+            "cNext": [38]
         },
         "x38": {
             "name_en": "Vanargand Pagos +1",
             "name_fr": "Vanargand Pagos +1",
             "job": "CLASS_JOB.BLM",
             "iLevel": "365",
-            "requirements_en": [
-                "Frosted Protean Crystal x10",
-                "Pagos Crystal x500"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x10",
-                "Cristal Pagos x500"
-            ],
-            "cPrev": [
-                37
-            ],
-            "cNext": [
-                39
-            ]
+            "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
+            "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
+            "cPrev": [37],
+            "cNext": [39]
         },
         "x39": {
             "name_en": "Elemental Rod",
             "name_fr": "Sceptre élémentaire",
             "job": "CLASS_JOB.BLM",
             "iLevel": "370",
-            "requirements_en": [
-                "Frosted Protean Crystal x16",
-                "Louhi Ice x5"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x16",
-                "Glace de Louhi x5"
-            ],
-            "cPrev": [
-                38
-            ],
-            "cNext": [
-                40
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2091"
-            ]
+            "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
+            "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
+            "cPrev": [38],
+            "cNext": [40],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2091"]
         },
         "x40": {
             "name_en": "Elemental Rod +1",
@@ -648,12 +416,8 @@
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
-            "cPrev": [
-                39
-            ],
-            "cNext": [
-                41
-            ]
+            "cPrev": [39],
+            "cNext": [41]
         },
         "x41": {
             "name_en": "Elemental Rod +2",
@@ -662,35 +426,19 @@
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
-            "cPrev": [
-                40
-            ],
-            "cNext": [
-                42
-            ]
+            "cPrev": [40],
+            "cNext": [42]
         },
         "x42": {
             "name_en": "Pyros Rod",
             "name_fr": "Sceptre Pyros",
             "job": "CLASS_JOB.BLM",
             "iLevel": "385",
-            "requirements_en": [
-                "Pyros Crystal x300",
-                "Penthesilea's Flame x5"
-            ],
-            "requirements_fr": [
-                "Cristal Pyros x300",
-                "Braises de Penthésilée x5"
-            ],
-            "cPrev": [
-                41
-            ],
-            "cNext": [
-                43
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2152"
-            ]
+            "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
+            "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
+            "cPrev": [41],
+            "cNext": [43],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2152"]
         },
         "x43": {
             "name_en": "Hydatos Rod",
@@ -699,12 +447,8 @@
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
-            "cPrev": [
-                42
-            ],
-            "cNext": [
-                44
-            ]
+            "cPrev": [42],
+            "cNext": [44]
         },
         "x44": {
             "name_en": "Hydatos Rod +1",
@@ -713,12 +457,8 @@
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                43
-            ],
-            "cNext": [
-                45
-            ]
+            "cPrev": [43],
+            "cNext": [45]
         },
         "x45": {
             "name_en": "Paikea",
@@ -727,32 +467,18 @@
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                44
-            ],
-            "cNext": [
-                46
-            ]
+            "cPrev": [44],
+            "cNext": [46]
         },
         "x46": {
             "name_en": "Paikea Eureka",
             "name_fr": "Paikea Eurêka",
             "job": "CLASS_JOB.BLM",
             "iLevel": "405",
-            "requirements_en": [
-                "Hydatos Crystal x100",
-                "Crystalline Scale x5"
-            ],
-            "requirements_fr": [
-                "Cristal Hydatos x100",
-                "Écaille de dragon de cristal x5"
-            ],
-            "cPrev": [
-                45
-            ],
-            "cNext": [
-                47
-            ]
+            "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
+            "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
+            "cPrev": [45],
+            "cNext": [47]
         },
         "x47": {
             "name_en": "Paikea Physeos",
@@ -761,12 +487,8 @@
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
-            "cPrev": [
-                46
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2221"
-            ]
+            "cPrev": [46],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2221"]
         },
         "x48": {
             "name_en": "Antiquated Caladbolg",
@@ -775,9 +497,7 @@
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                49
-            ]
+            "cNext": [49]
         },
         "x49": {
             "name_en": "Caladbolg",
@@ -786,12 +506,8 @@
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
-            "cPrev": [
-                48
-            ],
-            "cNext": [
-                50
-            ]
+            "cPrev": [48],
+            "cNext": [50]
         },
         "x50": {
             "name_en": "Caladbolg +1",
@@ -800,12 +516,8 @@
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
-            "cPrev": [
-                49
-            ],
-            "cNext": [
-                51
-            ]
+            "cPrev": [49],
+            "cNext": [51]
         },
         "x51": {
             "name_en": "Caladbolg +2",
@@ -814,12 +526,8 @@
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
-            "cPrev": [
-                50
-            ],
-            "cNext": [
-                52
-            ]
+            "cPrev": [50],
+            "cNext": [52]
         },
         "x52": {
             "name_en": "Caladbolg Anemos",
@@ -828,15 +536,9 @@
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
-            "cPrev": [
-                51
-            ],
-            "cNext": [
-                53
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2032"
-            ]
+            "cPrev": [51],
+            "cNext": [53],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2032"]
         },
         "x53": {
             "name_en": "Caladbolg Pagos",
@@ -845,55 +547,29 @@
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
-            "cPrev": [
-                52
-            ],
-            "cNext": [
-                54
-            ]
+            "cPrev": [52],
+            "cNext": [54]
         },
         "x54": {
             "name_en": "Caladbolg Pagos +1",
             "name_fr": "Caladbolg Pagos +1",
             "job": "CLASS_JOB.DRK",
             "iLevel": "365",
-            "requirements_en": [
-                "Frosted Protean Crystal x10",
-                "Pagos Crystal x500"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x10",
-                "Cristal Pagos x500"
-            ],
-            "cPrev": [
-                53
-            ],
-            "cNext": [
-                55
-            ]
+            "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
+            "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
+            "cPrev": [53],
+            "cNext": [55]
         },
         "x55": {
             "name_en": "Elemental Guillotine",
             "name_fr": "Fendoir élémentaire",
             "job": "CLASS_JOB.DRK",
             "iLevel": "370",
-            "requirements_en": [
-                "Frosted Protean Crystal x16",
-                "Louhi Ice x5"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x16",
-                "Glace de Louhi x5"
-            ],
-            "cPrev": [
-                54
-            ],
-            "cNext": [
-                56
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2084"
-            ]
+            "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
+            "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
+            "cPrev": [54],
+            "cNext": [56],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2084"]
         },
         "x56": {
             "name_en": "Elemental Guillotine +1",
@@ -902,12 +578,8 @@
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
-            "cPrev": [
-                55
-            ],
-            "cNext": [
-                57
-            ]
+            "cPrev": [55],
+            "cNext": [57]
         },
         "x57": {
             "name_en": "Elemental Guillotine +2",
@@ -916,35 +588,19 @@
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
-            "cPrev": [
-                56
-            ],
-            "cNext": [
-                58
-            ]
+            "cPrev": [56],
+            "cNext": [58]
         },
         "x58": {
             "name_en": "Pyros Guillotine",
             "name_fr": "Fendoir Pyros",
             "job": "CLASS_JOB.DRK",
             "iLevel": "385",
-            "requirements_en": [
-                "Pyros Crystal x300",
-                "Penthesilea's Flame x5"
-            ],
-            "requirements_fr": [
-                "Cristal Pyros x300",
-                "Braises de Penthésilée x5"
-            ],
-            "cPrev": [
-                57
-            ],
-            "cNext": [
-                59
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2145"
-            ]
+            "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
+            "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
+            "cPrev": [57],
+            "cNext": [59],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2145"]
         },
         "x59": {
             "name_en": "Hydatos Guillotine",
@@ -953,12 +609,8 @@
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
-            "cPrev": [
-                58
-            ],
-            "cNext": [
-                60
-            ]
+            "cPrev": [58],
+            "cNext": [60]
         },
         "x60": {
             "name_en": "Hydatos Guillotine +1",
@@ -967,12 +619,8 @@
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                59
-            ],
-            "cNext": [
-                61
-            ]
+            "cPrev": [59],
+            "cNext": [61]
         },
         "x61": {
             "name_en": "Xiphias",
@@ -981,32 +629,18 @@
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                60
-            ],
-            "cNext": [
-                62
-            ]
+            "cPrev": [60],
+            "cNext": [62]
         },
         "x62": {
             "name_en": "Xiphias Eureka",
             "name_fr": "Xiphias Eurêka",
             "job": "CLASS_JOB.DRK",
             "iLevel": "405",
-            "requirements_en": [
-                "Hydatos Crystal x100",
-                "Crystalline Scale x5"
-            ],
-            "requirements_fr": [
-                "Cristal Hydatos x100",
-                "Écaille de dragon de cristal x5"
-            ],
-            "cPrev": [
-                61
-            ],
-            "cNext": [
-                63
-            ]
+            "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
+            "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
+            "cPrev": [61],
+            "cNext": [63]
         },
         "x63": {
             "name_en": "Xiphias Physeos",
@@ -1015,12 +649,8 @@
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
-            "cPrev": [
-                62
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2214"
-            ]
+            "cPrev": [62],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2214"]
         },
         "x64": {
             "name_en": "Antiquated Ryunohige",
@@ -1029,9 +659,7 @@
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                65
-            ]
+            "cNext": [65]
         },
         "x65": {
             "name_en": "Ryunohige",
@@ -1040,12 +668,8 @@
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
-            "cPrev": [
-                64
-            ],
-            "cNext": [
-                66
-            ]
+            "cPrev": [64],
+            "cNext": [66]
         },
         "x66": {
             "name_en": "Ryunohige +1",
@@ -1054,12 +678,8 @@
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
-            "cPrev": [
-                65
-            ],
-            "cNext": [
-                67
-            ]
+            "cPrev": [65],
+            "cNext": [67]
         },
         "x67": {
             "name_en": "Ryunohige +2",
@@ -1068,12 +688,8 @@
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
-            "cPrev": [
-                66
-            ],
-            "cNext": [
-                68
-            ]
+            "cPrev": [66],
+            "cNext": [68]
         },
         "x68": {
             "name_en": "Ryunohige Anemos",
@@ -1082,15 +698,9 @@
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
-            "cPrev": [
-                67
-            ],
-            "cNext": [
-                69
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2033"
-            ]
+            "cPrev": [67],
+            "cNext": [69],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2033"]
         },
         "x69": {
             "name_en": "Ryunohige Pagos",
@@ -1099,55 +709,29 @@
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
-            "cPrev": [
-                68
-            ],
-            "cNext": [
-                70
-            ]
+            "cPrev": [68],
+            "cNext": [70]
         },
         "x70": {
             "name_en": "Ryunohige Pagos +1",
             "name_fr": "Ryûnohige Pagos +1",
             "job": "CLASS_JOB.DRG",
             "iLevel": "365",
-            "requirements_en": [
-                "Frosted Protean Crystal x10",
-                "Pagos Crystal x500"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x10",
-                "Cristal Pagos x500"
-            ],
-            "cPrev": [
-                69
-            ],
-            "cNext": [
-                71
-            ]
+            "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
+            "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
+            "cPrev": [69],
+            "cNext": [71]
         },
         "x71": {
             "name_en": "Elemental Lance",
             "name_fr": "Lance élémentaire",
             "job": "CLASS_JOB.DRG",
             "iLevel": "370",
-            "requirements_en": [
-                "Frosted Protean Crystal x16",
-                "Louhi Ice x5"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x16",
-                "Glace de Louhi x5"
-            ],
-            "cPrev": [
-                70
-            ],
-            "cNext": [
-                72
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2085"
-            ]
+            "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
+            "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
+            "cPrev": [70],
+            "cNext": [72],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2085"]
         },
         "x72": {
             "name_en": "Elemental Lance +1",
@@ -1156,12 +740,8 @@
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
-            "cPrev": [
-                71
-            ],
-            "cNext": [
-                73
-            ]
+            "cPrev": [71],
+            "cNext": [73]
         },
         "x73": {
             "name_en": "Elemental Lance +2",
@@ -1170,35 +750,19 @@
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
-            "cPrev": [
-                72
-            ],
-            "cNext": [
-                74
-            ]
+            "cPrev": [72],
+            "cNext": [74]
         },
         "x74": {
             "name_en": "Pyros Lance",
             "name_fr": "Lance Pyros",
             "job": "CLASS_JOB.DRG",
             "iLevel": "385",
-            "requirements_en": [
-                "Pyros Crystal x300",
-                "Penthesilea's Flame x5"
-            ],
-            "requirements_fr": [
-                "Cristal Pyros x300",
-                "Braises de Penthésilée x5"
-            ],
-            "cPrev": [
-                73
-            ],
-            "cNext": [
-                75
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2146"
-            ]
+            "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
+            "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
+            "cPrev": [73],
+            "cNext": [75],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2146"]
         },
         "x75": {
             "name_en": "Hydatos Lance",
@@ -1207,12 +771,8 @@
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
-            "cPrev": [
-                74
-            ],
-            "cNext": [
-                76
-            ]
+            "cPrev": [74],
+            "cNext": [76]
         },
         "x76": {
             "name_en": "Hydatos Lance +1",
@@ -1221,12 +781,8 @@
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                75
-            ],
-            "cNext": [
-                77
-            ]
+            "cPrev": [75],
+            "cNext": [77]
         },
         "x77": {
             "name_en": "Daboya",
@@ -1235,32 +791,18 @@
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                76
-            ],
-            "cNext": [
-                78
-            ]
+            "cPrev": [76],
+            "cNext": [78]
         },
         "x78": {
             "name_en": "Daboya Eureka",
             "name_fr": "Daboya Eurêka",
             "job": "CLASS_JOB.DRG",
             "iLevel": "405",
-            "requirements_en": [
-                "Hydatos Crystal x100",
-                "Crystalline Scale x5"
-            ],
-            "requirements_fr": [
-                "Cristal Hydatos x100",
-                "Écaille de dragon de cristal x5"
-            ],
-            "cPrev": [
-                77
-            ],
-            "cNext": [
-                79
-            ]
+            "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
+            "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
+            "cPrev": [77],
+            "cNext": [79]
         },
         "x79": {
             "name_en": "Daboya Physeos",
@@ -1269,12 +811,8 @@
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
-            "cPrev": [
-                78
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2215"
-            ]
+            "cPrev": [78],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2215"]
         },
         "x80": {
             "name_en": "Antiquated Outsider",
@@ -1283,9 +821,7 @@
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                81
-            ]
+            "cNext": [81]
         },
         "x81": {
             "name_en": "Outsider",
@@ -1294,12 +830,8 @@
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
-            "cPrev": [
-                80
-            ],
-            "cNext": [
-                82
-            ]
+            "cPrev": [80],
+            "cNext": [82]
         },
         "x82": {
             "name_en": "Outsider +1",
@@ -1308,12 +840,8 @@
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
-            "cPrev": [
-                81
-            ],
-            "cNext": [
-                83
-            ]
+            "cPrev": [81],
+            "cNext": [83]
         },
         "x83": {
             "name_en": "Outsider +2",
@@ -1322,12 +850,8 @@
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
-            "cPrev": [
-                82
-            ],
-            "cNext": [
-                84
-            ]
+            "cPrev": [82],
+            "cNext": [84]
         },
         "x84": {
             "name_en": "Outsider Anemos",
@@ -1336,15 +860,9 @@
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
-            "cPrev": [
-                83
-            ],
-            "cNext": [
-                85
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2038"
-            ]
+            "cPrev": [83],
+            "cNext": [85],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2038"]
         },
         "x85": {
             "name_en": "Outsider Pagos",
@@ -1353,55 +871,29 @@
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
-            "cPrev": [
-                84
-            ],
-            "cNext": [
-                86
-            ]
+            "cPrev": [84],
+            "cNext": [86]
         },
         "x86": {
             "name_en": "Outsider Pagos +1",
             "name_fr": "Outsider Pagos +1",
             "job": "CLASS_JOB.MCH",
             "iLevel": "365",
-            "requirements_en": [
-                "Frosted Protean Crystal x10",
-                "Pagos Crystal x500"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x10",
-                "Cristal Pagos x500"
-            ],
-            "cPrev": [
-                85
-            ],
-            "cNext": [
-                87
-            ]
+            "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
+            "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
+            "cPrev": [85],
+            "cNext": [87]
         },
         "x87": {
             "name_en": "Elemental Handgonne",
             "name_fr": "Haquebute élémentaire",
             "job": "CLASS_JOB.MCH",
             "iLevel": "370",
-            "requirements_en": [
-                "Frosted Protean Crystal x16",
-                "Louhi Ice x5"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x16",
-                "Glace de Louhi x5"
-            ],
-            "cPrev": [
-                86
-            ],
-            "cNext": [
-                88
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2090"
-            ]
+            "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
+            "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
+            "cPrev": [86],
+            "cNext": [88],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2090"]
         },
         "x88": {
             "name_en": "Elemental Handgonne +1",
@@ -1410,12 +902,8 @@
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
-            "cPrev": [
-                87
-            ],
-            "cNext": [
-                89
-            ]
+            "cPrev": [87],
+            "cNext": [89]
         },
         "x89": {
             "name_en": "Elemental Handgonne +2",
@@ -1424,35 +912,19 @@
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
-            "cPrev": [
-                88
-            ],
-            "cNext": [
-                90
-            ]
+            "cPrev": [88],
+            "cNext": [90]
         },
         "x90": {
             "name_en": "Pyros Handgonne",
             "name_fr": "Haquebute Pyros",
             "job": "CLASS_JOB.MCH",
             "iLevel": "385",
-            "requirements_en": [
-                "Pyros Crystal x300",
-                "Penthesilea's Flame x5"
-            ],
-            "requirements_fr": [
-                "Cristal Pyros x300",
-                "Braises de Penthésilée x5"
-            ],
-            "cPrev": [
-                89
-            ],
-            "cNext": [
-                91
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2151"
-            ]
+            "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
+            "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
+            "cPrev": [89],
+            "cNext": [91],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2151"]
         },
         "x91": {
             "name_en": "Hydatos Handgonne",
@@ -1461,12 +933,8 @@
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
-            "cPrev": [
-                90
-            ],
-            "cNext": [
-                92
-            ]
+            "cPrev": [90],
+            "cNext": [92]
         },
         "x92": {
             "name_en": "Hydatos Handgonne +1",
@@ -1475,12 +943,8 @@
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                91
-            ],
-            "cNext": [
-                93
-            ]
+            "cPrev": [91],
+            "cNext": [93]
         },
         "x93": {
             "name_en": "Mollfrith",
@@ -1489,32 +953,18 @@
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                92
-            ],
-            "cNext": [
-                94
-            ]
+            "cPrev": [92],
+            "cNext": [94]
         },
         "x94": {
             "name_en": "Mollfrith Eureka",
             "name_fr": "Mollfrith Eurêka",
             "job": "CLASS_JOB.MCH",
             "iLevel": "405",
-            "requirements_en": [
-                "Hydatos Crystal x100",
-                "Crystalline Scale x5"
-            ],
-            "requirements_fr": [
-                "Cristal Hydatos x100",
-                "Écaille de dragon de cristal x5"
-            ],
-            "cPrev": [
-                93
-            ],
-            "cNext": [
-                95
-            ]
+            "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
+            "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
+            "cPrev": [93],
+            "cNext": [95]
         },
         "x95": {
             "name_en": "Mollfrith Physeos",
@@ -1523,12 +973,8 @@
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
-            "cPrev": [
-                94
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2220"
-            ]
+            "cPrev": [94],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2220"]
         },
         "x96": {
             "name_en": "Antiquated Sudarshana Chakra",
@@ -1537,9 +983,7 @@
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                97
-            ]
+            "cNext": [97]
         },
         "x97": {
             "name_en": "Sudarshana Chakra",
@@ -1548,12 +992,8 @@
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
-            "cPrev": [
-                96
-            ],
-            "cNext": [
-                98
-            ]
+            "cPrev": [96],
+            "cNext": [98]
         },
         "x98": {
             "name_en": "Sudarshana Chakra +1",
@@ -1562,12 +1002,8 @@
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
-            "cPrev": [
-                97
-            ],
-            "cNext": [
-                99
-            ]
+            "cPrev": [97],
+            "cNext": [99]
         },
         "x99": {
             "name_en": "Sudarshana Chakra +2",
@@ -1576,12 +1012,8 @@
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
-            "cPrev": [
-                98
-            ],
-            "cNext": [
-                100
-            ]
+            "cPrev": [98],
+            "cNext": [100]
         },
         "x100": {
             "name_en": "Sudarshana Chakra Anemos",
@@ -1590,15 +1022,9 @@
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
-            "cPrev": [
-                99
-            ],
-            "cNext": [
-                101
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2034"
-            ]
+            "cPrev": [99],
+            "cNext": [101],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2034"]
         },
         "x101": {
             "name_en": "Sudarshana Chakra Pagos",
@@ -1607,55 +1033,29 @@
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
-            "cPrev": [
-                100
-            ],
-            "cNext": [
-                102
-            ]
+            "cPrev": [100],
+            "cNext": [102]
         },
         "x102": {
             "name_en": "Sudarshana Chakra Pagos +1",
             "name_fr": "Chakras Sudarshana Pagos +1",
             "job": "CLASS_JOB.MNK",
             "iLevel": "365",
-            "requirements_en": [
-                "Frosted Protean Crystal x10",
-                "Pagos Crystal x500"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x10",
-                "Cristal Pagos x500"
-            ],
-            "cPrev": [
-                101
-            ],
-            "cNext": [
-                103
-            ]
+            "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
+            "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
+            "cPrev": [101],
+            "cNext": [103]
         },
         "x103": {
             "name_en": "Elemental Knuckles",
             "name_fr": "Poings élémentaires",
             "job": "CLASS_JOB.MNK",
             "iLevel": "370",
-            "requirements_en": [
-                "Frosted Protean Crystal x16",
-                "Louhi Ice x5"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x16",
-                "Glace de Louhi x5"
-            ],
-            "cPrev": [
-                102
-            ],
-            "cNext": [
-                104
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2086"
-            ]
+            "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
+            "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
+            "cPrev": [102],
+            "cNext": [104],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2086"]
         },
         "x104": {
             "name_en": "Elemental Knuckles +1",
@@ -1664,12 +1064,8 @@
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
-            "cPrev": [
-                103
-            ],
-            "cNext": [
-                105
-            ]
+            "cPrev": [103],
+            "cNext": [105]
         },
         "x105": {
             "name_en": "Elemental Knuckles +2",
@@ -1678,35 +1074,19 @@
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
-            "cPrev": [
-                104
-            ],
-            "cNext": [
-                106
-            ]
+            "cPrev": [104],
+            "cNext": [106]
         },
         "x106": {
             "name_en": "Pyros Knuckles",
             "name_fr": "Poings Pyros",
             "job": "CLASS_JOB.MNK",
             "iLevel": "385",
-            "requirements_en": [
-                "Pyros Crystal x300",
-                "Penthesilea's Flame x5"
-            ],
-            "requirements_fr": [
-                "Cristal Pyros x300",
-                "Braises de Penthésilée x5"
-            ],
-            "cPrev": [
-                105
-            ],
-            "cNext": [
-                107
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2147"
-            ]
+            "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
+            "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
+            "cPrev": [105],
+            "cNext": [107],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2147"]
         },
         "x107": {
             "name_en": "Hydatos Knuckles",
@@ -1715,12 +1095,8 @@
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
-            "cPrev": [
-                106
-            ],
-            "cNext": [
-                108
-            ]
+            "cPrev": [106],
+            "cNext": [108]
         },
         "x108": {
             "name_en": "Hydatos Knuckles +1",
@@ -1729,12 +1105,8 @@
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                107
-            ],
-            "cNext": [
-                109
-            ]
+            "cPrev": [107],
+            "cNext": [109]
         },
         "x109": {
             "name_en": "Dumuzis",
@@ -1743,32 +1115,18 @@
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                108
-            ],
-            "cNext": [
-                110
-            ]
+            "cPrev": [108],
+            "cNext": [110]
         },
         "x110": {
             "name_en": "Dumuzis Eureka",
             "name_fr": "Dumuzi Eurêka",
             "job": "CLASS_JOB.MNK",
             "iLevel": "405",
-            "requirements_en": [
-                "Hydatos Crystal x100",
-                "Crystalline Scale x5"
-            ],
-            "requirements_fr": [
-                "Cristal Hydatos x100",
-                "Écaille de dragon de cristal x5"
-            ],
-            "cPrev": [
-                109
-            ],
-            "cNext": [
-                111
-            ]
+            "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
+            "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
+            "cPrev": [109],
+            "cNext": [111]
         },
         "x111": {
             "name_en": "Dumuzis Physeos",
@@ -1777,12 +1135,8 @@
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
-            "cPrev": [
-                110
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2216"
-            ]
+            "cPrev": [110],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2216"]
         },
         "x112": {
             "name_en": "Antiquated Nagi",
@@ -1791,9 +1145,7 @@
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                113
-            ]
+            "cNext": [113]
         },
         "x113": {
             "name_en": "Nagi",
@@ -1802,12 +1154,8 @@
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
-            "cPrev": [
-                112
-            ],
-            "cNext": [
-                114
-            ]
+            "cPrev": [112],
+            "cNext": [114]
         },
         "x114": {
             "name_en": "Nagi +1",
@@ -1816,12 +1164,8 @@
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
-            "cPrev": [
-                113
-            ],
-            "cNext": [
-                115
-            ]
+            "cPrev": [113],
+            "cNext": [115]
         },
         "x115": {
             "name_en": "Nagi +2",
@@ -1830,12 +1174,8 @@
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
-            "cPrev": [
-                114
-            ],
-            "cNext": [
-                116
-            ]
+            "cPrev": [114],
+            "cNext": [116]
         },
         "x116": {
             "name_en": "Nagi Anemos",
@@ -1844,15 +1184,9 @@
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
-            "cPrev": [
-                115
-            ],
-            "cNext": [
-                117
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2035"
-            ]
+            "cPrev": [115],
+            "cNext": [117],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2035"]
         },
         "x117": {
             "name_en": "Nagi Pagos",
@@ -1861,55 +1195,29 @@
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
-            "cPrev": [
-                116
-            ],
-            "cNext": [
-                118
-            ]
+            "cPrev": [116],
+            "cNext": [118]
         },
         "x118": {
             "name_en": "Nagi Pagos +1",
             "name_fr": "Nagi Pagos +1",
             "job": "CLASS_JOB.NIN",
             "iLevel": "365",
-            "requirements_en": [
-                "Frosted Protean Crystal x10",
-                "Pagos Crystal x500"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x10",
-                "Cristal Pagos x500"
-            ],
-            "cPrev": [
-                117
-            ],
-            "cNext": [
-                119
-            ]
+            "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
+            "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
+            "cPrev": [117],
+            "cNext": [119]
         },
         "x119": {
             "name_en": "Elemental Knives",
             "name_fr": "Couteaux élémentaires",
             "job": "CLASS_JOB.NIN",
             "iLevel": "370",
-            "requirements_en": [
-                "Frosted Protean Crystal x16",
-                "Louhi Ice x5"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x16",
-                "Glace de Louhi x5"
-            ],
-            "cPrev": [
-                118
-            ],
-            "cNext": [
-                120
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2087"
-            ]
+            "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
+            "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
+            "cPrev": [118],
+            "cNext": [120],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2087"]
         },
         "x120": {
             "name_en": "Elemental Knives +1",
@@ -1918,12 +1226,8 @@
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
-            "cPrev": [
-                119
-            ],
-            "cNext": [
-                121
-            ]
+            "cPrev": [119],
+            "cNext": [121]
         },
         "x121": {
             "name_en": "Elemental Knives +2",
@@ -1932,35 +1236,19 @@
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
-            "cPrev": [
-                120
-            ],
-            "cNext": [
-                122
-            ]
+            "cPrev": [120],
+            "cNext": [122]
         },
         "x122": {
             "name_en": "Pyros Knives",
             "name_fr": "Couteaux Pyros",
             "job": "CLASS_JOB.NIN",
             "iLevel": "385",
-            "requirements_en": [
-                "Pyros Crystal x300",
-                "Penthesilea's Flame x5"
-            ],
-            "requirements_fr": [
-                "Cristal Pyros x300",
-                "Braises de Penthésilée x5"
-            ],
-            "cPrev": [
-                121
-            ],
-            "cNext": [
-                123
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2148"
-            ]
+            "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
+            "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
+            "cPrev": [121],
+            "cNext": [123],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2148"]
         },
         "x123": {
             "name_en": "Hydatos Knives",
@@ -1969,12 +1257,8 @@
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
-            "cPrev": [
-                122
-            ],
-            "cNext": [
-                124
-            ]
+            "cPrev": [122],
+            "cNext": [124]
         },
         "x124": {
             "name_en": "Hydatos Knives +1",
@@ -1983,12 +1267,8 @@
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                123
-            ],
-            "cNext": [
-                125
-            ]
+            "cPrev": [123],
+            "cNext": [125]
         },
         "x125": {
             "name_en": "Kasasagi",
@@ -1997,32 +1277,18 @@
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                124
-            ],
-            "cNext": [
-                126
-            ]
+            "cPrev": [124],
+            "cNext": [126]
         },
         "x126": {
             "name_en": "Kasasagi Eureka",
             "name_fr": "Kasasagi Eurêka",
             "job": "CLASS_JOB.NIN",
             "iLevel": "405",
-            "requirements_en": [
-                "Hydatos Crystal x100",
-                "Crystalline Scale x5"
-            ],
-            "requirements_fr": [
-                "Cristal Hydatos x100",
-                "Écaille de dragon de cristal x5"
-            ],
-            "cPrev": [
-                125
-            ],
-            "cNext": [
-                127
-            ]
+            "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
+            "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
+            "cPrev": [125],
+            "cNext": [127]
         },
         "x127": {
             "name_en": "Kasasagi Physeos",
@@ -2031,12 +1297,8 @@
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
-            "cPrev": [
-                126
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2217"
-            ]
+            "cPrev": [126],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2217"]
         },
         "x128": {
             "name_en": "Antiquated Galatyn & Antiquated Evalach",
@@ -2045,9 +1307,7 @@
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                129
-            ]
+            "cNext": [129]
         },
         "x129": {
             "name_en": "Galatyn & Evalach",
@@ -2056,12 +1316,8 @@
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
-            "cPrev": [
-                128
-            ],
-            "cNext": [
-                130
-            ]
+            "cPrev": [128],
+            "cNext": [130]
         },
         "x130": {
             "name_en": "Galatyn +1 & Evalach +1",
@@ -2070,12 +1326,8 @@
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
-            "cPrev": [
-                129
-            ],
-            "cNext": [
-                131
-            ]
+            "cPrev": [129],
+            "cNext": [131]
         },
         "x131": {
             "name_en": "Galatyn +2 & Evalach +2",
@@ -2084,12 +1336,8 @@
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
-            "cPrev": [
-                130
-            ],
-            "cNext": [
-                132
-            ]
+            "cPrev": [130],
+            "cNext": [132]
         },
         "x132": {
             "name_en": "Galatyn Anemos & Evalach Anemos",
@@ -2098,15 +1346,9 @@
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
-            "cPrev": [
-                131
-            ],
-            "cNext": [
-                133
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2030"
-            ]
+            "cPrev": [131],
+            "cNext": [133],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2030"]
         },
         "x133": {
             "name_en": "Galatyn Pagos & Evalach Pagos",
@@ -2115,55 +1357,29 @@
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
-            "cPrev": [
-                132
-            ],
-            "cNext": [
-                134
-            ]
+            "cPrev": [132],
+            "cNext": [134]
         },
         "x134": {
             "name_en": "Galatyn Pagos +1 & Evalach Pagos +1",
             "name_fr": "Galatyn Pagos +1 & Evalach Pagos +1",
             "job": "CLASS_JOB.PLD",
             "iLevel": "365",
-            "requirements_en": [
-                "Frosted Protean Crystal x10",
-                "Pagos Crystal x500"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x10",
-                "Cristal Pagos x500"
-            ],
-            "cPrev": [
-                133
-            ],
-            "cNext": [
-                135
-            ]
+            "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
+            "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
+            "cPrev": [133],
+            "cNext": [135]
         },
         "x135": {
             "name_en": "Elemental Sword & Elemental Shield",
             "name_fr": "Épée élémentaire & Bouclier élémentaire",
             "job": "CLASS_JOB.PLD",
             "iLevel": "370",
-            "requirements_en": [
-                "Frosted Protean Crystal x16",
-                "Louhi Ice x5"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x16",
-                "Glace de Louhi x5"
-            ],
-            "cPrev": [
-                134
-            ],
-            "cNext": [
-                136
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2082"
-            ]
+            "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
+            "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
+            "cPrev": [134],
+            "cNext": [136],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2082"]
         },
         "x136": {
             "name_en": "Elemental Sword +1 & Elemental Shield +1",
@@ -2172,12 +1388,8 @@
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
-            "cPrev": [
-                135
-            ],
-            "cNext": [
-                137
-            ]
+            "cPrev": [135],
+            "cNext": [137]
         },
         "x137": {
             "name_en": "Elemental Sword +2 & Elemental Shield +2",
@@ -2186,35 +1398,19 @@
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
-            "cPrev": [
-                136
-            ],
-            "cNext": [
-                138
-            ]
+            "cPrev": [136],
+            "cNext": [138]
         },
         "x138": {
             "name_en": "Pyros Sword & Pyros Shield",
             "name_fr": "Épée Pyros & Bouclier Pyros",
             "job": "CLASS_JOB.PLD",
             "iLevel": "385",
-            "requirements_en": [
-                "Pyros Crystal x300",
-                "Penthesilea's Flame x5"
-            ],
-            "requirements_fr": [
-                "Cristal Pyros x300",
-                "Braises de Penthésilée x5"
-            ],
-            "cPrev": [
-                137
-            ],
-            "cNext": [
-                139
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2143"
-            ]
+            "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
+            "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
+            "cPrev": [137],
+            "cNext": [139],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2143"]
         },
         "x139": {
             "name_en": "Hydatos Sword & Hydatos Shield",
@@ -2223,12 +1419,8 @@
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
-            "cPrev": [
-                138
-            ],
-            "cNext": [
-                140
-            ]
+            "cPrev": [138],
+            "cNext": [140]
         },
         "x140": {
             "name_en": "Hydatos Sword +1 & Hydatos Shield +1",
@@ -2237,12 +1429,8 @@
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                139
-            ],
-            "cNext": [
-                141
-            ]
+            "cPrev": [139],
+            "cNext": [141]
         },
         "x141": {
             "name_en": "Antea & Bellerophon",
@@ -2251,32 +1439,18 @@
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                140
-            ],
-            "cNext": [
-                142
-            ]
+            "cPrev": [140],
+            "cNext": [142]
         },
         "x142": {
             "name_en": "Antea Eureka & Bellerophon Eureka",
             "name_fr": "Antea Eurêka & Béllérophon Eurêka",
             "job": "CLASS_JOB.PLD",
             "iLevel": "405",
-            "requirements_en": [
-                "Hydatos Crystal x100",
-                "Crystalline Scale x5"
-            ],
-            "requirements_fr": [
-                "Cristal Hydatos x100",
-                "Écaille de dragon de cristal x5"
-            ],
-            "cPrev": [
-                141
-            ],
-            "cNext": [
-                143
-            ]
+            "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
+            "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
+            "cPrev": [141],
+            "cNext": [143]
         },
         "x143": {
             "name_en": "Antea Physeos & Bellerophon Physeos",
@@ -2285,12 +1459,8 @@
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
-            "cPrev": [
-                142
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2212"
-            ]
+            "cPrev": [142],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2212"]
         },
         "x144": {
             "name_en": "Antiquated Murgleis",
@@ -2299,9 +1469,7 @@
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                145
-            ]
+            "cNext": [145]
         },
         "x145": {
             "name_en": "Murgleis",
@@ -2310,12 +1478,8 @@
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
-            "cPrev": [
-                144
-            ],
-            "cNext": [
-                146
-            ]
+            "cPrev": [144],
+            "cNext": [146]
         },
         "x146": {
             "name_en": "Murgleis +1",
@@ -2324,12 +1488,8 @@
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
-            "cPrev": [
-                145
-            ],
-            "cNext": [
-                147
-            ]
+            "cPrev": [145],
+            "cNext": [147]
         },
         "x147": {
             "name_en": "Murgleis +2",
@@ -2338,12 +1498,8 @@
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
-            "cPrev": [
-                146
-            ],
-            "cNext": [
-                148
-            ]
+            "cPrev": [146],
+            "cNext": [148]
         },
         "x148": {
             "name_en": "Murgleis Anemos",
@@ -2352,15 +1508,9 @@
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
-            "cPrev": [
-                147
-            ],
-            "cNext": [
-                149
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2041"
-            ]
+            "cPrev": [147],
+            "cNext": [149],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2041"]
         },
         "x149": {
             "name_en": "Murgleis Pagos",
@@ -2369,55 +1519,29 @@
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
-            "cPrev": [
-                148
-            ],
-            "cNext": [
-                150
-            ]
+            "cPrev": [148],
+            "cNext": [150]
         },
         "x150": {
             "name_en": "Murgleis Pagos +1",
             "name_fr": "Murgleis Pagos +1",
             "job": "CLASS_JOB.RDM",
             "iLevel": "365",
-            "requirements_en": [
-                "Frosted Protean Crystal x10",
-                "Pagos Crystal x500"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x10",
-                "Cristal Pagos x500"
-            ],
-            "cPrev": [
-                149
-            ],
-            "cNext": [
-                151
-            ]
+            "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
+            "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
+            "cPrev": [149],
+            "cNext": [151]
         },
         "x151": {
             "name_en": "Elemental Tuck",
             "name_fr": "Estoc élémentaire",
             "job": "CLASS_JOB.RDM",
             "iLevel": "370",
-            "requirements_en": [
-                "Frosted Protean Crystal x16",
-                "Louhi Ice x5"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x16",
-                "Glace de Louhi x5"
-            ],
-            "cPrev": [
-                150
-            ],
-            "cNext": [
-                152
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2093"
-            ]
+            "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
+            "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
+            "cPrev": [150],
+            "cNext": [152],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2093"]
         },
         "x152": {
             "name_en": "Elemental Tuck +1",
@@ -2426,12 +1550,8 @@
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
-            "cPrev": [
-                151
-            ],
-            "cNext": [
-                153
-            ]
+            "cPrev": [151],
+            "cNext": [153]
         },
         "x153": {
             "name_en": "Elemental Tuck +2",
@@ -2440,35 +1560,19 @@
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
-            "cPrev": [
-                152
-            ],
-            "cNext": [
-                154
-            ]
+            "cPrev": [152],
+            "cNext": [154]
         },
         "x154": {
             "name_en": "Pyros Tuck",
             "name_fr": "Estoc Pyros",
             "job": "CLASS_JOB.RDM",
             "iLevel": "385",
-            "requirements_en": [
-                "Pyros Crystal x300",
-                "Penthesilea's Flame x5"
-            ],
-            "requirements_fr": [
-                "Cristal Pyros x300",
-                "Braises de Penthésilée x5"
-            ],
-            "cPrev": [
-                153
-            ],
-            "cNext": [
-                155
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2154"
-            ]
+            "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
+            "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
+            "cPrev": [153],
+            "cNext": [155],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2154"]
         },
         "x155": {
             "name_en": "Hydatos Tuck",
@@ -2477,12 +1581,8 @@
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
-            "cPrev": [
-                154
-            ],
-            "cNext": [
-                156
-            ]
+            "cPrev": [154],
+            "cNext": [156]
         },
         "x156": {
             "name_en": "Hydatos Tuck +1",
@@ -2491,12 +1591,8 @@
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                155
-            ],
-            "cNext": [
-                157
-            ]
+            "cPrev": [155],
+            "cNext": [157]
         },
         "x157": {
             "name_en": "Brunello",
@@ -2505,32 +1601,18 @@
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                156
-            ],
-            "cNext": [
-                158
-            ]
+            "cPrev": [156],
+            "cNext": [158]
         },
         "x158": {
             "name_en": "Brunello Eureka",
             "name_fr": "Brunello Eurêka",
             "job": "CLASS_JOB.RDM",
             "iLevel": "405",
-            "requirements_en": [
-                "Hydatos Crystal x100",
-                "Crystalline Scale x5"
-            ],
-            "requirements_fr": [
-                "Cristal Hydatos x100",
-                "Écaille de dragon de cristal x5"
-            ],
-            "cPrev": [
-                157
-            ],
-            "cNext": [
-                159
-            ]
+            "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
+            "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
+            "cPrev": [157],
+            "cNext": [159]
         },
         "x159": {
             "name_en": "Brunello Physeos",
@@ -2539,12 +1621,8 @@
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
-            "cPrev": [
-                158
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2223"
-            ]
+            "cPrev": [158],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2223"]
         },
         "x160": {
             "name_en": "Antiquated Kiku-ichimonji",
@@ -2553,9 +1631,7 @@
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                161
-            ]
+            "cNext": [161]
         },
         "x161": {
             "name_en": "Kiku-ichimonji",
@@ -2564,12 +1640,8 @@
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
-            "cPrev": [
-                160
-            ],
-            "cNext": [
-                162
-            ]
+            "cPrev": [160],
+            "cNext": [162]
         },
         "x162": {
             "name_en": "Kiku-ichimonji +1",
@@ -2578,12 +1650,8 @@
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
-            "cPrev": [
-                161
-            ],
-            "cNext": [
-                163
-            ]
+            "cPrev": [161],
+            "cNext": [163]
         },
         "x163": {
             "name_en": "Kiku-ichimonji +2",
@@ -2592,12 +1660,8 @@
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
-            "cPrev": [
-                162
-            ],
-            "cNext": [
-                164
-            ]
+            "cPrev": [162],
+            "cNext": [164]
         },
         "x164": {
             "name_en": "Kiku-ichimonji Anemos",
@@ -2606,15 +1670,9 @@
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
-            "cPrev": [
-                163
-            ],
-            "cNext": [
-                165
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2036"
-            ]
+            "cPrev": [163],
+            "cNext": [165],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2036"]
         },
         "x165": {
             "name_en": "Kiku-ichimonji Pagos",
@@ -2623,55 +1681,29 @@
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
-            "cPrev": [
-                164
-            ],
-            "cNext": [
-                166
-            ]
+            "cPrev": [164],
+            "cNext": [166]
         },
         "x166": {
             "name_en": "Kiku-ichimonji Pagos +1",
             "name_fr": "Kiku-Ichimonji Pagos +1",
             "job": "CLASS_JOB.SAM",
             "iLevel": "365",
-            "requirements_en": [
-                "Frosted Protean Crystal x10",
-                "Pagos Crystal x500"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x10",
-                "Cristal Pagos x500"
-            ],
-            "cPrev": [
-                165
-            ],
-            "cNext": [
-                167
-            ]
+            "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
+            "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
+            "cPrev": [165],
+            "cNext": [167]
         },
         "x167": {
             "name_en": "Elemental Blade",
             "name_fr": "Lame élémentaire",
             "job": "CLASS_JOB.SAM",
             "iLevel": "370",
-            "requirements_en": [
-                "Frosted Protean Crystal x16",
-                "Louhi Ice x5"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x16",
-                "Glace de Louhi x5"
-            ],
-            "cPrev": [
-                166
-            ],
-            "cNext": [
-                168
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2088"
-            ]
+            "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
+            "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
+            "cPrev": [166],
+            "cNext": [168],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2088"]
         },
         "x168": {
             "name_en": "Elemental Blade +1",
@@ -2680,12 +1712,8 @@
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
-            "cPrev": [
-                167
-            ],
-            "cNext": [
-                169
-            ]
+            "cPrev": [167],
+            "cNext": [169]
         },
         "x169": {
             "name_en": "Elemental Blade +2",
@@ -2694,35 +1722,19 @@
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
-            "cPrev": [
-                168
-            ],
-            "cNext": [
-                170
-            ]
+            "cPrev": [168],
+            "cNext": [170]
         },
         "x170": {
             "name_en": "Pyros Blade",
             "name_fr": "Lame Pyros",
             "job": "CLASS_JOB.SAM",
             "iLevel": "385",
-            "requirements_en": [
-                "Pyros Crystal x300",
-                "Penthesilea's Flame x5"
-            ],
-            "requirements_fr": [
-                "Cristal Pyros x300",
-                "Braises de Penthésilée x5"
-            ],
-            "cPrev": [
-                169
-            ],
-            "cNext": [
-                171
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2149"
-            ]
+            "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
+            "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
+            "cPrev": [169],
+            "cNext": [171],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2149"]
         },
         "x171": {
             "name_en": "Hydatos Blade",
@@ -2731,12 +1743,8 @@
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
-            "cPrev": [
-                170
-            ],
-            "cNext": [
-                172
-            ]
+            "cPrev": [170],
+            "cNext": [172]
         },
         "x172": {
             "name_en": "Hydatos Blade +1",
@@ -2745,12 +1753,8 @@
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                171
-            ],
-            "cNext": [
-                173
-            ]
+            "cPrev": [171],
+            "cNext": [173]
         },
         "x173": {
             "name_en": "Torigashira",
@@ -2759,32 +1763,18 @@
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                172
-            ],
-            "cNext": [
-                174
-            ]
+            "cPrev": [172],
+            "cNext": [174]
         },
         "x174": {
             "name_en": "Torigashira Eureka",
             "name_fr": "Torigashira-no-tachi Eurêka",
             "job": "CLASS_JOB.SAM",
             "iLevel": "405",
-            "requirements_en": [
-                "Hydatos Crystal x100",
-                "Crystalline Scale x5"
-            ],
-            "requirements_fr": [
-                "Cristal Hydatos x100",
-                "Écaille de dragon de cristal x5"
-            ],
-            "cPrev": [
-                173
-            ],
-            "cNext": [
-                175
-            ]
+            "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
+            "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
+            "cPrev": [173],
+            "cNext": [175]
         },
         "x175": {
             "name_en": "Torigashira Physeos",
@@ -2793,12 +1783,8 @@
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
-            "cPrev": [
-                174
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2218"
-            ]
+            "cPrev": [174],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2218"]
         },
         "x176": {
             "name_en": "Antiquated Organum",
@@ -2807,9 +1793,7 @@
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                177
-            ]
+            "cNext": [177]
         },
         "x177": {
             "name_en": "Organum",
@@ -2818,12 +1802,8 @@
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
-            "cPrev": [
-                176
-            ],
-            "cNext": [
-                178
-            ]
+            "cPrev": [176],
+            "cNext": [178]
         },
         "x178": {
             "name_en": "Organum +1",
@@ -2832,12 +1812,8 @@
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
-            "cPrev": [
-                177
-            ],
-            "cNext": [
-                179
-            ]
+            "cPrev": [177],
+            "cNext": [179]
         },
         "x179": {
             "name_en": "Organum +2",
@@ -2846,12 +1822,8 @@
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
-            "cPrev": [
-                178
-            ],
-            "cNext": [
-                180
-            ]
+            "cPrev": [178],
+            "cNext": [180]
         },
         "x180": {
             "name_en": "Organum Anemos",
@@ -2860,15 +1832,9 @@
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
-            "cPrev": [
-                179
-            ],
-            "cNext": [
-                181
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2043"
-            ]
+            "cPrev": [179],
+            "cNext": [181],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2043"]
         },
         "x181": {
             "name_en": "Organum Pagos",
@@ -2877,55 +1843,29 @@
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
-            "cPrev": [
-                180
-            ],
-            "cNext": [
-                182
-            ]
+            "cPrev": [180],
+            "cNext": [182]
         },
         "x182": {
             "name_en": "Organum Pagos +1",
             "name_fr": "Organum Pagos +1",
             "job": "CLASS_JOB.SCH",
             "iLevel": "365",
-            "requirements_en": [
-                "Frosted Protean Crystal x10",
-                "Pagos Crystal x500"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x10",
-                "Cristal Pagos x500"
-            ],
-            "cPrev": [
-                181
-            ],
-            "cNext": [
-                183
-            ]
+            "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
+            "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
+            "cPrev": [181],
+            "cNext": [183]
         },
         "x183": {
             "name_en": "Elemental Codex",
             "name_fr": "Codex élémentaire",
             "job": "CLASS_JOB.SCH",
             "iLevel": "370",
-            "requirements_en": [
-                "Frosted Protean Crystal x16",
-                "Louhi Ice x5"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x16",
-                "Glace de Louhi x5"
-            ],
-            "cPrev": [
-                182
-            ],
-            "cNext": [
-                184
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2095"
-            ]
+            "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
+            "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
+            "cPrev": [182],
+            "cNext": [184],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2095"]
         },
         "x184": {
             "name_en": "Elemental Codex +1",
@@ -2934,12 +1874,8 @@
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
-            "cPrev": [
-                183
-            ],
-            "cNext": [
-                185
-            ]
+            "cPrev": [183],
+            "cNext": [185]
         },
         "x185": {
             "name_en": "Elemental Codex +2",
@@ -2948,35 +1884,19 @@
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
-            "cPrev": [
-                184
-            ],
-            "cNext": [
-                186
-            ]
+            "cPrev": [184],
+            "cNext": [186]
         },
         "x186": {
             "name_en": "Pyros Codex",
             "name_fr": "Codex Pyros",
             "job": "CLASS_JOB.SCH",
             "iLevel": "385",
-            "requirements_en": [
-                "Pyros Crystal x300",
-                "Penthesilea's Flame x5"
-            ],
-            "requirements_fr": [
-                "Cristal Pyros x300",
-                "Braises de Penthésilée x5"
-            ],
-            "cPrev": [
-                185
-            ],
-            "cNext": [
-                187
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2156"
-            ]
+            "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
+            "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
+            "cPrev": [185],
+            "cNext": [187],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2156"]
         },
         "x187": {
             "name_en": "Hydatos Codex",
@@ -2985,12 +1905,8 @@
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
-            "cPrev": [
-                186
-            ],
-            "cNext": [
-                188
-            ]
+            "cPrev": [186],
+            "cNext": [188]
         },
         "x188": {
             "name_en": "Hydatos Codex +1",
@@ -2999,12 +1915,8 @@
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                187
-            ],
-            "cNext": [
-                189
-            ]
+            "cPrev": [187],
+            "cNext": [189]
         },
         "x189": {
             "name_en": "Jebat",
@@ -3013,32 +1925,18 @@
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                188
-            ],
-            "cNext": [
-                190
-            ]
+            "cPrev": [188],
+            "cNext": [190]
         },
         "x190": {
             "name_en": "Jebat Eureka",
             "name_fr": "Jebat Eurêka",
             "job": "CLASS_JOB.SCH",
             "iLevel": "405",
-            "requirements_en": [
-                "Hydatos Crystal x100",
-                "Crystalline Scale x5"
-            ],
-            "requirements_fr": [
-                "Cristal Hydatos x100",
-                "Écaille de dragon de cristal x5"
-            ],
-            "cPrev": [
-                189
-            ],
-            "cNext": [
-                191
-            ]
+            "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
+            "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
+            "cPrev": [189],
+            "cNext": [191]
         },
         "x191": {
             "name_en": "Jebat Physeos",
@@ -3047,12 +1945,8 @@
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
-            "cPrev": [
-                190
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2225"
-            ]
+            "cPrev": [190],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2225"]
         },
         "x192": {
             "name_en": "Antiquated Lemegeton",
@@ -3061,9 +1955,7 @@
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                193
-            ]
+            "cNext": [193]
         },
         "x193": {
             "name_en": "Lemegeton",
@@ -3072,12 +1964,8 @@
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
-            "cPrev": [
-                192
-            ],
-            "cNext": [
-                194
-            ]
+            "cPrev": [192],
+            "cNext": [194]
         },
         "x194": {
             "name_en": "Lemegeton +1",
@@ -3086,12 +1974,8 @@
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
-            "cPrev": [
-                193
-            ],
-            "cNext": [
-                195
-            ]
+            "cPrev": [193],
+            "cNext": [195]
         },
         "x195": {
             "name_en": "Lemegeton +2",
@@ -3100,12 +1984,8 @@
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
-            "cPrev": [
-                194
-            ],
-            "cNext": [
-                196
-            ]
+            "cPrev": [194],
+            "cNext": [196]
         },
         "x196": {
             "name_en": "Lemegeton Anemos",
@@ -3114,15 +1994,9 @@
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
-            "cPrev": [
-                195
-            ],
-            "cNext": [
-                197
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2040"
-            ]
+            "cPrev": [195],
+            "cNext": [197],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2040"]
         },
         "x197": {
             "name_en": "Lemegeton Pagos",
@@ -3131,55 +2005,29 @@
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
-            "cPrev": [
-                196
-            ],
-            "cNext": [
-                198
-            ]
+            "cPrev": [196],
+            "cNext": [198]
         },
         "x198": {
             "name_en": "Lemegeton Pagos +1",
             "name_fr": "Lemegeton Pagos +1",
             "job": "CLASS_JOB.SMN",
             "iLevel": "365",
-            "requirements_en": [
-                "Frosted Protean Crystal x10",
-                "Pagos Crystal x500"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x10",
-                "Cristal Pagos x500"
-            ],
-            "cPrev": [
-                197
-            ],
-            "cNext": [
-                199
-            ]
+            "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
+            "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
+            "cPrev": [197],
+            "cNext": [199]
         },
         "x199": {
             "name_en": "Elemental Grimoire",
             "name_fr": "Grimoire élémentaire",
             "job": "CLASS_JOB.SMN",
             "iLevel": "370",
-            "requirements_en": [
-                "Frosted Protean Crystal x16",
-                "Louhi Ice x5"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x16",
-                "Glace de Louhi x5"
-            ],
-            "cPrev": [
-                198
-            ],
-            "cNext": [
-                200
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2092"
-            ]
+            "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
+            "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
+            "cPrev": [198],
+            "cNext": [200],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2092"]
         },
         "x200": {
             "name_en": "Elemental Grimoire +1",
@@ -3188,12 +2036,8 @@
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
-            "cPrev": [
-                199
-            ],
-            "cNext": [
-                201
-            ]
+            "cPrev": [199],
+            "cNext": [201]
         },
         "x201": {
             "name_en": "Elemental Grimoire +2",
@@ -3202,35 +2046,19 @@
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
-            "cPrev": [
-                200
-            ],
-            "cNext": [
-                202
-            ]
+            "cPrev": [200],
+            "cNext": [202]
         },
         "x202": {
             "name_en": "Pyros Grimoire",
             "name_fr": "Grimoire Pyros",
             "job": "CLASS_JOB.SMN",
             "iLevel": "385",
-            "requirements_en": [
-                "Pyros Crystal x300",
-                "Penthesilea's Flame x5"
-            ],
-            "requirements_fr": [
-                "Cristal Pyros x300",
-                "Braises de Penthésilée x5"
-            ],
-            "cPrev": [
-                201
-            ],
-            "cNext": [
-                203
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2153"
-            ]
+            "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
+            "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
+            "cPrev": [201],
+            "cNext": [203],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2153"]
         },
         "x203": {
             "name_en": "Hydatos Grimoire",
@@ -3239,12 +2067,8 @@
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
-            "cPrev": [
-                202
-            ],
-            "cNext": [
-                204
-            ]
+            "cPrev": [202],
+            "cNext": [204]
         },
         "x204": {
             "name_en": "Hydatos Grimoire +1",
@@ -3253,12 +2077,8 @@
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                203
-            ],
-            "cNext": [
-                205
-            ]
+            "cPrev": [203],
+            "cNext": [205]
         },
         "x205": {
             "name_en": "Tuah",
@@ -3267,32 +2087,18 @@
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                204
-            ],
-            "cNext": [
-                206
-            ]
+            "cPrev": [204],
+            "cNext": [206]
         },
         "x206": {
             "name_en": "Tuah Eureka",
             "name_fr": "Tuah Eurêka",
             "job": "CLASS_JOB.SMN",
             "iLevel": "405",
-            "requirements_en": [
-                "Hydatos Crystal x100",
-                "Crystalline Scale x5"
-            ],
-            "requirements_fr": [
-                "Cristal Hydatos x100",
-                "Écaille de dragon de cristal x5"
-            ],
-            "cPrev": [
-                205
-            ],
-            "cNext": [
-                207
-            ]
+            "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
+            "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
+            "cPrev": [205],
+            "cNext": [207]
         },
         "x207": {
             "name_en": "Tuah Physeos",
@@ -3301,12 +2107,8 @@
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
-            "cPrev": [
-                206
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2222"
-            ]
+            "cPrev": [206],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2222"]
         },
         "x208": {
             "name_en": "Antiquated Farsha",
@@ -3315,9 +2117,7 @@
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                209
-            ]
+            "cNext": [209]
         },
         "x209": {
             "name_en": "Farsha",
@@ -3326,12 +2126,8 @@
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
-            "cPrev": [
-                208
-            ],
-            "cNext": [
-                210
-            ]
+            "cPrev": [208],
+            "cNext": [210]
         },
         "x210": {
             "name_en": "Farsha +1",
@@ -3340,12 +2136,8 @@
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
-            "cPrev": [
-                209
-            ],
-            "cNext": [
-                211
-            ]
+            "cPrev": [209],
+            "cNext": [211]
         },
         "x211": {
             "name_en": "Farsha +2",
@@ -3354,12 +2146,8 @@
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
-            "cPrev": [
-                210
-            ],
-            "cNext": [
-                212
-            ]
+            "cPrev": [210],
+            "cNext": [212]
         },
         "x212": {
             "name_en": "Farsha Anemos",
@@ -3368,15 +2156,9 @@
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
-            "cPrev": [
-                211
-            ],
-            "cNext": [
-                213
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2031"
-            ]
+            "cPrev": [211],
+            "cNext": [213],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2031"]
         },
         "x213": {
             "name_en": "Farsha Pagos",
@@ -3385,55 +2167,29 @@
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
-            "cPrev": [
-                212
-            ],
-            "cNext": [
-                214
-            ]
+            "cPrev": [212],
+            "cNext": [214]
         },
         "x214": {
             "name_en": "Farsha Pagos +1",
             "name_fr": "Farsha Pagos +1",
             "job": "CLASS_JOB.WAR",
             "iLevel": "365",
-            "requirements_en": [
-                "Frosted Protean Crystal x10",
-                "Pagos Crystal x500"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x10",
-                "Cristal Pagos x500"
-            ],
-            "cPrev": [
-                213
-            ],
-            "cNext": [
-                215
-            ]
+            "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
+            "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
+            "cPrev": [213],
+            "cNext": [215]
         },
         "x215": {
             "name_en": "Elemental Battleaxe",
             "name_fr": "Hache de combat élémentaire",
             "job": "CLASS_JOB.WAR",
             "iLevel": "370",
-            "requirements_en": [
-                "Frosted Protean Crystal x16",
-                "Louhi Ice x5"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x16",
-                "Glace de Louhi x5"
-            ],
-            "cPrev": [
-                214
-            ],
-            "cNext": [
-                216
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2083"
-            ]
+            "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
+            "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
+            "cPrev": [214],
+            "cNext": [216],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2083"]
         },
         "x216": {
             "name_en": "Elemental Battleaxe +1",
@@ -3442,12 +2198,8 @@
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
-            "cPrev": [
-                215
-            ],
-            "cNext": [
-                217
-            ]
+            "cPrev": [215],
+            "cNext": [217]
         },
         "x217": {
             "name_en": "Elemental Battleaxe +2",
@@ -3456,35 +2208,19 @@
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
-            "cPrev": [
-                216
-            ],
-            "cNext": [
-                218
-            ]
+            "cPrev": [216],
+            "cNext": [218]
         },
         "x218": {
             "name_en": "Pyros Battleaxe",
             "name_fr": "Hache de combat Pyros",
             "job": "CLASS_JOB.WAR",
             "iLevel": "385",
-            "requirements_en": [
-                "Pyros Crystal x300",
-                "Penthesilea's Flame x5"
-            ],
-            "requirements_fr": [
-                "Cristal Pyros x300",
-                "Braises de Penthésilée x5"
-            ],
-            "cPrev": [
-                217
-            ],
-            "cNext": [
-                219
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2144"
-            ]
+            "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
+            "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
+            "cPrev": [217],
+            "cNext": [219],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2144"]
         },
         "x219": {
             "name_en": "Hydatos Battleaxe",
@@ -3493,12 +2229,8 @@
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
-            "cPrev": [
-                218
-            ],
-            "cNext": [
-                220
-            ]
+            "cPrev": [218],
+            "cNext": [220]
         },
         "x220": {
             "name_en": "Hydatos Battleaxe +1",
@@ -3507,12 +2239,8 @@
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                219
-            ],
-            "cNext": [
-                221
-            ]
+            "cPrev": [219],
+            "cNext": [221]
         },
         "x221": {
             "name_en": "Shamash",
@@ -3521,32 +2249,18 @@
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                220
-            ],
-            "cNext": [
-                222
-            ]
+            "cPrev": [220],
+            "cNext": [222]
         },
         "x222": {
             "name_en": "Shamash Eureka",
             "name_fr": "Shamash Eurêka",
             "job": "CLASS_JOB.WAR",
             "iLevel": "405",
-            "requirements_en": [
-                "Hydatos Crystal x100",
-                "Crystalline Scale x5"
-            ],
-            "requirements_fr": [
-                "Cristal Hydatos x100",
-                "Écaille de dragon de cristal x5"
-            ],
-            "cPrev": [
-                221
-            ],
-            "cNext": [
-                223
-            ]
+            "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
+            "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
+            "cPrev": [221],
+            "cNext": [223]
         },
         "x223": {
             "name_en": "Shamash Physeos",
@@ -3555,12 +2269,8 @@
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
-            "cPrev": [
-                222
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2213"
-            ]
+            "cPrev": [222],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2213"]
         },
         "x224": {
             "name_en": "Antiquated Aymur",
@@ -3569,9 +2279,7 @@
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                225
-            ]
+            "cNext": [225]
         },
         "x225": {
             "name_en": "Aymur",
@@ -3580,12 +2288,8 @@
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
-            "cPrev": [
-                224
-            ],
-            "cNext": [
-                226
-            ]
+            "cPrev": [224],
+            "cNext": [226]
         },
         "x226": {
             "name_en": "Aymur +1",
@@ -3594,12 +2298,8 @@
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
-            "cPrev": [
-                225
-            ],
-            "cNext": [
-                227
-            ]
+            "cPrev": [225],
+            "cNext": [227]
         },
         "x227": {
             "name_en": "Aymur +2",
@@ -3608,12 +2308,8 @@
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
-            "cPrev": [
-                226
-            ],
-            "cNext": [
-                228
-            ]
+            "cPrev": [226],
+            "cNext": [228]
         },
         "x228": {
             "name_en": "Aymur Anemos",
@@ -3622,15 +2318,9 @@
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
-            "cPrev": [
-                227
-            ],
-            "cNext": [
-                229
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2042"
-            ]
+            "cPrev": [227],
+            "cNext": [229],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2042"]
         },
         "x229": {
             "name_en": "Aymur Pagos",
@@ -3639,55 +2329,29 @@
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
-            "cPrev": [
-                228
-            ],
-            "cNext": [
-                230
-            ]
+            "cPrev": [228],
+            "cNext": [230]
         },
         "x230": {
             "name_en": "Aymur Pagos +1",
             "name_fr": "Aymur Pagos +1",
             "job": "CLASS_JOB.WHM",
             "iLevel": "365",
-            "requirements_en": [
-                "Frosted Protean Crystal x10",
-                "Pagos Crystal x500"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x10",
-                "Cristal Pagos x500"
-            ],
-            "cPrev": [
-                229
-            ],
-            "cNext": [
-                231
-            ]
+            "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
+            "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
+            "cPrev": [229],
+            "cNext": [231]
         },
         "x231": {
             "name_en": "Elemental Cane",
             "name_fr": "Canne élémentaire",
             "job": "CLASS_JOB.WHM",
             "iLevel": "370",
-            "requirements_en": [
-                "Frosted Protean Crystal x16",
-                "Louhi Ice x5"
-            ],
-            "requirements_fr": [
-                "Cristal instable de glace x16",
-                "Glace de Louhi x5"
-            ],
-            "cPrev": [
-                230
-            ],
-            "cNext": [
-                232
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2094"
-            ]
+            "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
+            "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
+            "cPrev": [230],
+            "cNext": [232],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2094"]
         },
         "x232": {
             "name_en": "Elemental Cane +1",
@@ -3696,12 +2360,8 @@
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
-            "cPrev": [
-                231
-            ],
-            "cNext": [
-                233
-            ]
+            "cPrev": [231],
+            "cNext": [233]
         },
         "x233": {
             "name_en": "Elemental Cane +2",
@@ -3710,35 +2370,19 @@
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
-            "cPrev": [
-                232
-            ],
-            "cNext": [
-                234
-            ]
+            "cPrev": [232],
+            "cNext": [234]
         },
         "x234": {
             "name_en": "Pyros Cane",
             "name_fr": "Canne Pyros",
             "job": "CLASS_JOB.WHM",
             "iLevel": "385",
-            "requirements_en": [
-                "Pyros Crystal x300",
-                "Penthesilea's Flame x5"
-            ],
-            "requirements_fr": [
-                "Cristal Pyros x300",
-                "Braises de Penthésilée x5"
-            ],
-            "cPrev": [
-                233
-            ],
-            "cNext": [
-                235
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2155"
-            ]
+            "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
+            "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
+            "cPrev": [233],
+            "cNext": [235],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2155"]
         },
         "x235": {
             "name_en": "Hydatos Cane",
@@ -3747,12 +2391,8 @@
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
-            "cPrev": [
-                234
-            ],
-            "cNext": [
-                236
-            ]
+            "cPrev": [234],
+            "cNext": [236]
         },
         "x236": {
             "name_en": "Hydatos Cane +1",
@@ -3761,12 +2401,8 @@
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                235
-            ],
-            "cNext": [
-                237
-            ]
+            "cPrev": [235],
+            "cNext": [237]
         },
         "x237": {
             "name_en": "Rose Couverte",
@@ -3775,32 +2411,18 @@
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
-            "cPrev": [
-                236
-            ],
-            "cNext": [
-                238
-            ]
+            "cPrev": [236],
+            "cNext": [238]
         },
         "x238": {
             "name_en": "Rose Couverte Eureka",
             "name_fr": "Rose Couverte Eurêka",
             "job": "CLASS_JOB.WHM",
             "iLevel": "405",
-            "requirements_en": [
-                "Hydatos Crystal x100",
-                "Crystalline Scale x5"
-            ],
-            "requirements_fr": [
-                "Cristal Hydatos x100",
-                "Écaille de dragon de cristal x5"
-            ],
-            "cPrev": [
-                237
-            ],
-            "cNext": [
-                239
-            ]
+            "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
+            "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
+            "cPrev": [237],
+            "cNext": [239]
         },
         "x239": {
             "name_en": "Rose Couverte Physeos",
@@ -3809,12 +2431,8 @@
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
-            "cPrev": [
-                238
-            ],
-            "cSiblings": [
-                "character.achievement.items.eureka-weapons.2224"
-            ]
+            "cPrev": [238],
+            "cSiblings": ["character.achievement.items.eureka-weapons.2224"]
         }
     }
 }

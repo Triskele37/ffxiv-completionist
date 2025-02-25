@@ -2,11 +2,7 @@
     "key": "locales-i",
     "groupName_en": "Locales I",
     "groupName_fr": "Lieux I",
-    "common": [
-        "category",
-        "location",
-        "source"
-    ],
+    "common": ["category", "location", "source"],
     "tasks": {
         "x0": {
             "number": "1",
@@ -103,10 +99,7 @@
             "name_en": "Navigator's Glory - The Theme of Limsa Lominsa",
             "name_fr": "Navigator's Glory - The Theme of Limsa Lominsa",
             "category": "CATEGORY.TREASURE_HUNT",
-            "source": [
-                "duty.treasure-hunt.duties.1",
-                "duty.treasure-hunt.duties.2"
-            ],
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2"],
             "patch": "4.05"
         },
         "x10": {
@@ -114,10 +107,7 @@
             "name_en": "Born of the Boughs - The Theme of Gridania",
             "name_fr": "Born of the Boughs - The Theme of Gridania",
             "category": "CATEGORY.TREASURE_HUNT",
-            "source": [
-                "duty.treasure-hunt.duties.1",
-                "duty.treasure-hunt.duties.2"
-            ],
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2"],
             "patch": "4.05"
         },
         "x11": {
@@ -125,66 +115,39 @@
             "name_en": "The Twin Faces of Fate - The Theme of Ul'dah",
             "name_fr": "The Twin Faces of Fate - The Theme of Ul'dah",
             "category": "CATEGORY.TREASURE_HUNT",
-            "source": [
-                "duty.treasure-hunt.duties.1",
-                "duty.treasure-hunt.duties.2"
-            ],
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2"],
             "patch": "4.05"
         },
         "x12": {
             "number": "13",
             "name_en": "On Windy Meadows",
             "name_fr": "On Windy Meadows",
-            "category": [
-                "CATEGORY.TREASURE_HUNT",
-                "CATEGORY.KUPO_OF_FORTUNE"
-            ],
-            "source": [
-                "duty.treasure-hunt.duties.0",
-                "CATEGORY.KUPO_OF_FORTUNE"
-            ],
+            "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "CATEGORY.KUPO_OF_FORTUNE"],
             "patch": "3.3"
         },
         "x13": {
             "number": "14",
             "name_en": "Whisper of the Land",
             "name_fr": "Whisper of the Land",
-            "category": [
-                "CATEGORY.TREASURE_HUNT",
-                "CATEGORY.KUPO_OF_FORTUNE"
-            ],
-            "source": [
-                "duty.treasure-hunt.duties.0",
-                "CATEGORY.KUPO_OF_FORTUNE"
-            ],
+            "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "CATEGORY.KUPO_OF_FORTUNE"],
             "patch": "3.3"
         },
         "x14": {
             "number": "15",
             "name_en": "Twilight over Thanalan",
             "name_fr": "Twilight over Thanalan",
-            "category": [
-                "CATEGORY.TREASURE_HUNT",
-                "CATEGORY.KUPO_OF_FORTUNE"
-            ],
-            "source": [
-                "duty.treasure-hunt.duties.0",
-                "CATEGORY.KUPO_OF_FORTUNE"
-            ],
+            "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "CATEGORY.KUPO_OF_FORTUNE"],
             "patch": "3.3"
         },
         "x15": {
             "number": "16",
             "name_en": "Unspoken",
             "name_fr": "Unspoken",
-            "category": [
-                "CATEGORY.TREASURE_HUNT",
-                "CATEGORY.KUPO_OF_FORTUNE"
-            ],
-            "source": [
-                "duty.treasure-hunt.duties.0",
-                "CATEGORY.KUPO_OF_FORTUNE"
-            ],
+            "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "CATEGORY.KUPO_OF_FORTUNE"],
             "patch": "3.4"
         },
         "x16": {
@@ -242,21 +205,9 @@
             "name_en": "Behind Closed Doors",
             "name_fr": "Behind Closed Doors",
             "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "Maisenta - 5,000 gil",
-                "Bango Zango - 5,000 gil",
-                "Roarich - 5,000 gil"
-            ],
-            "source_fr": [
-                "Maisenta - 5.000 gils",
-                "Bango Zango - 5.000 gils",
-                "Roarich - 5.000 gils"
-            ],
-            "location": [
-                "ZONE.NEW_GRIDANIA",
-                "ZONE.LIMSA_LOMINSA_LOWER_DECKS",
-                "ZONE.UL_DAH_STEPS_OF_NALD"
-            ],
+            "source_en": ["Maisenta - 5,000 gil", "Bango Zango - 5,000 gil", "Roarich - 5,000 gil"],
+            "source_fr": ["Maisenta - 5.000 gils", "Bango Zango - 5.000 gils", "Roarich - 5.000 gils"],
+            "location": ["ZONE.NEW_GRIDANIA", "ZONE.LIMSA_LOMINSA_LOWER_DECKS", "ZONE.UL_DAH_STEPS_OF_NALD"],
             "patch": "3.4"
         },
         "x22": {
@@ -266,13 +217,7 @@
             "category": "CATEGORY.PURCHASE",
             "source_en": "Housing Merchant - 5,000 gil",
             "source_fr": "Quincaillière - 5.000 gils",
-            "location": [
-                "ZONE.MIST",
-                "ZONE.THE_LAVENDER_BEDS",
-                "ZONE.THE_GOBLET",
-                "ZONE.SHIROGANE",
-                "ZONE.EMPYREUM"
-            ],
+            "location": ["ZONE.MIST", "ZONE.THE_LAVENDER_BEDS", "ZONE.THE_GOBLET", "ZONE.SHIROGANE", "ZONE.EMPYREUM"],
             "patch": "3.4"
         },
         "x23": {
@@ -299,10 +244,7 @@
             "number": "26",
             "name_en": "Fleeting Rays",
             "name_fr": "Fleeting Rays",
-            "category": [
-                "CATEGORY.FATE",
-                "CATEGORY.PURCHASE"
-            ],
+            "category": ["CATEGORY.FATE", "CATEGORY.PURCHASE"],
             "source": "duty.fate.thanalan.eastern-thanalan.193",
             "source_en": "Chachamun - 5,000 gil",
             "source_fr": "Chachamun - 5.000 gils",
@@ -618,10 +560,7 @@
             "name_en": "Crimson Sunrise",
             "name_fr": "Crimson Sunrise",
             "category": "CATEGORY.TREASURE_HUNT",
-            "source": [
-                "duty.treasure-hunt.duties.1",
-                "duty.treasure-hunt.duties.2"
-            ],
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2"],
             "patch": "4.1"
         },
         "x53": {
@@ -638,10 +577,7 @@
             "name_en": "A Father's Pride",
             "name_fr": "A Father's Pride",
             "category": "CATEGORY.TREASURE_HUNT",
-            "source": [
-                "duty.treasure-hunt.duties.1",
-                "duty.treasure-hunt.duties.2"
-            ],
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2"],
             "patch": "4.1"
         },
         "x55": {
@@ -649,18 +585,9 @@
             "name_en": "Drowning in the Horizon",
             "name_fr": "Drowning in the Horizon",
             "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "Leuekin - 300 Centurio Seals",
-                "Estrild - 300 Centurio Seals"
-            ],
-            "source_fr": [
-                "Leuekin - 300 Insignes Centurio",
-                "Estrild - 300 Insignes Centurio"
-            ],
-            "location": [
-                "ZONE.RHALGRS_REACH",
-                "ZONE.KUGANE"
-            ],
+            "source_en": ["Leuekin - 300 Centurio Seals", "Estrild - 300 Centurio Seals"],
+            "source_fr": ["Leuekin - 300 Insignes Centurio", "Estrild - 300 Insignes Centurio"],
+            "location": ["ZONE.RHALGRS_REACH", "ZONE.KUGANE"],
             "patch": "4.0"
         },
         "x56": {

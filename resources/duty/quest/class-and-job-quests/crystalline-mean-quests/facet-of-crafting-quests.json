@@ -9,12 +9,8 @@
             "name_fr": "Sauvegarde 001 [Du nouveau chez les façonniers]",
             "npc_en": "Recording Node",
             "npc_fr": "Module D'enregistrement",
-            "cPrev": [
-                "duty.quests.class--job.crystalline-mean.69191"
-            ],
-            "cNext": [
-                68767
-            ],
+            "cPrev": ["duty.quests.class--job.crystalline-mean.69191"],
+            "cNext": [68767],
             "patch": "5.0"
         },
         "x68767": {
@@ -23,12 +19,8 @@
             "name_fr": "Sauvegarde 002 [Des souvenirs si précieux]",
             "npc_en": "Thiuna",
             "npc_fr": "Thiuna",
-            "cPrev": [
-                68766
-            ],
-            "cNext": [
-                68768
-            ],
+            "cPrev": [68766],
+            "cNext": [68768],
             "patch": "5.0"
         },
         "x68768": {
@@ -37,12 +29,8 @@
             "name_fr": "Sauvegarde 003 [Les liens qui nous unissent]",
             "npc_en": "Thiuna",
             "npc_fr": "Thiuna",
-            "cPrev": [
-                68767
-            ],
-            "cSiblings": [
-                "character.achievement.quests.job-role-quests.2324"
-            ],
+            "cPrev": [68767],
+            "cSiblings": ["character.achievement.quests.job-role-quests.2324"],
             "patch": "5.0"
         }
     }

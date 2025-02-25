@@ -2,22 +2,13 @@
     "key": "page-1",
     "groupName_en": "Page 1",
     "groupName_fr": "Page 1",
-    "common": [
-        "zone",
-        "bait"
-    ],
+    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
             "name_en": "Malm Kelp",
             "name_fr": "Varech malm",
-            "zone": [
-                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
-                "ZONE.LIMSA_LOMINSA_LOWER_DECKS"
-            ],
-            "fishingHoles": [
-                "logs.gathering.fishing-log.fishing.la-noscea.0",
-                "logs.gathering.fishing-log.fishing.la-noscea.1"
-            ],
+            "zone": ["ZONE.LIMSA_LOMINSA_UPPER_DECKS", "ZONE.LIMSA_LOMINSA_LOWER_DECKS"],
+            "fishingHoles": ["logs.gathering.fishing-log.fishing.la-noscea.0", "logs.gathering.fishing-log.fishing.la-noscea.1"],
             "bait": "FISH.BAIT.LUGWORM"
         },
         "x1": {
@@ -426,10 +417,7 @@
             "name_en": "Acorn Snail",
             "name_fr": "Escargot-gland",
             "zone": "ZONE.EASTERN_THANALAN",
-            "fishingHoles": [
-                "logs.gathering.fishing-log.fishing.thanalan.12",
-                "logs.gathering.fishing-log.fishing.thanalan.13"
-            ],
+            "fishingHoles": ["logs.gathering.fishing-log.fishing.thanalan.12", "logs.gathering.fishing-log.fishing.thanalan.13"],
             "bait": "FISH.BAIT.MIDGE_BASKET"
         },
         "x34": {
@@ -515,10 +503,7 @@
             "name_en": "Mudcrab",
             "name_fr": "Crabe de vase",
             "zone": "ZONE.EASTERN_THANALAN",
-            "fishingHoles": [
-                "logs.gathering.fishing-log.fishing.thanalan.12",
-                "logs.gathering.fishing-log.fishing.thanalan.13"
-            ],
+            "fishingHoles": ["logs.gathering.fishing-log.fishing.thanalan.12", "logs.gathering.fishing-log.fishing.thanalan.13"],
             "bait": "FISH.BAIT.BUTTERWORM"
         },
         "x44": {
@@ -785,10 +770,7 @@
             "name_en": "Bone Cleaner",
             "name_fr": "Escargot croque-mort",
             "zone": "ZONE.EASTERN_THANALAN",
-            "fishingHoles": [
-                "logs.gathering.fishing-log.fishing.thanalan.12",
-                "logs.gathering.fishing-log.fishing.thanalan.13"
-            ],
+            "fishingHoles": ["logs.gathering.fishing-log.fishing.thanalan.12", "logs.gathering.fishing-log.fishing.thanalan.13"],
             "bait": "FISH.BAIT.SYRPHID_BASKET"
         },
         "x79": {

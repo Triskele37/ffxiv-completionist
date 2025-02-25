@@ -10,12 +10,8 @@
             "unlock": "travel.aether-currents.hw.the-dravanian-hinterlands.10",
             "npc_en": "Tapklix",
             "npc_fr": "Tapklix",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67191"
-            ],
-            "cSiblings": [
-                "travel.aether-currents.hw.the-dravanian-hinterlands.10"
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67191"],
+            "cSiblings": ["travel.aether-currents.hw.the-dravanian-hinterlands.10"],
             "patch": "4.31"
         },
         "x67483": {
@@ -24,9 +20,7 @@
             "name_fr": "Surtout pas les fesses!",
             "npc_en": "Tapklix",
             "npc_fr": "Tapklix",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67193"
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67193"],
             "patch": "4.31"
         },
         "x67469": {
@@ -35,12 +29,8 @@
             "name_fr": "Sortir de la crise avec des yeux",
             "npc_en": "Feltsmox",
             "npc_fr": "Feltsmox",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67191"
-            ],
-            "cNext": [
-                67470
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67191"],
+            "cNext": [67470],
             "patch": "4.31"
         },
         "x67470": {
@@ -49,13 +39,8 @@
             "name_fr": "Sortir de la crise en tuant des nuisibles",
             "npc_en": "Feltsmox",
             "npc_fr": "Feltsmox",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67192",
-                67469
-            ],
-            "cNext": [
-                "duty.quests.sidequests.dravanian.idyllshire.67479"
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67192", 67469],
+            "cNext": ["duty.quests.sidequests.dravanian.idyllshire.67479"],
             "patch": "4.31"
         },
         "x67496": {
@@ -64,13 +49,8 @@
             "name_fr": "Sortir de la crise avec de la viande",
             "npc_en": "Feltsmox",
             "npc_fr": "Feltsmox",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67194",
-                "duty.quests.sidequests.dravanian.idyllshire.67479"
-            ],
-            "cNext": [
-                67497
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67194", "duty.quests.sidequests.dravanian.idyllshire.67479"],
+            "cNext": [67497],
             "patch": "4.31"
         },
         "x67497": {
@@ -79,10 +59,7 @@
             "name_fr": "Sortir de la crise en se reconvertissant",
             "npc_en": "Salvaging Goblin",
             "npc_fr": "Récupérateur Gobelin",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67194",
-                67496
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67194", 67496],
             "patch": "4.31"
         },
         "x67494": {
@@ -91,13 +68,8 @@
             "name_fr": "Prolifération gênante",
             "npc_en": "Boomshox",
             "npc_fr": "Boomshox",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67194",
-                "duty.quests.sidequests.dravanian.idyllshire.67493"
-            ],
-            "cNext": [
-                67495
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67194", "duty.quests.sidequests.dravanian.idyllshire.67493"],
+            "cNext": [67495],
             "patch": "4.31"
         },
         "x67495": {
@@ -106,10 +78,7 @@
             "name_fr": "La der des ders",
             "npc_en": "Boomshox",
             "npc_fr": "Boomshox",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67194",
-                67494
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67194", 67494],
             "patch": "4.31"
         },
         "x67500": {
@@ -118,13 +87,8 @@
             "name_fr": "Cinq sur huit",
             "npc_en": "Midnight Dew",
             "npc_fr": "Midnight Dew",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67194",
-                "duty.quests.sidequests.dravanian.idyllshire.67499"
-            ],
-            "cNext": [
-                67501
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67194", "duty.quests.sidequests.dravanian.idyllshire.67499"],
+            "cNext": [67501],
             "patch": "4.31"
         },
         "x67501": {
@@ -133,10 +97,7 @@
             "name_fr": "Resserrer les liens",
             "npc_en": "Midnight Dew",
             "npc_fr": "Midnight Dew",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67194",
-                67500
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67194", 67500],
             "patch": "4.31"
         },
         "x67473": {
@@ -145,13 +106,8 @@
             "name_fr": "Coordination difficile",
             "npc_en": "Tapklix",
             "npc_fr": "Tapklix",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67193",
-                "duty.quests.sidequests.dravanian.idyllshire.67471"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.dravanian.idyllshire.67478"
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67193", "duty.quests.sidequests.dravanian.idyllshire.67471"],
+            "cNext": ["duty.quests.sidequests.dravanian.idyllshire.67478"],
             "patch": "4.31"
         },
         "x67480": {
@@ -160,13 +116,8 @@
             "name_fr": "Cher journal...",
             "npc_en": "Dripwix",
             "npc_fr": "Dripwix",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67193",
-                "duty.quests.sidequests.dravanian.idyllshire.67478"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.dravanian.idyllshire.67484"
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67193", "duty.quests.sidequests.dravanian.idyllshire.67478"],
+            "cNext": ["duty.quests.sidequests.dravanian.idyllshire.67484"],
             "patch": "4.31"
         },
         "x67738": {
@@ -176,12 +127,8 @@
             "unlock": "duty.dutyraid-finder.dungeons.hw.8",
             "npc_en": "Tetchy Treasure Hunter",
             "npc_fr": "Chasseuse De Trésors",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67205"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68678"
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67205"],
+            "cNext": ["duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68678"],
             "patch": "4.31"
         }
     }

@@ -2,9 +2,7 @@
     "key": "anima",
     "groupName_en": "Anima",
     "groupName_fr": "Anima",
-    "common": [
-        "job"
-    ],
+    "common": ["job"],
     "tasks": {
         "x0": {
             "name_en": "Animated Atlas",
@@ -13,9 +11,7 @@
             "iLevel": "170",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                1
-            ]
+            "cNext": [1]
         },
         "x1": {
             "name_en": "Atlas Awoken",
@@ -24,12 +20,8 @@
             "iLevel": "200",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                0
-            ],
-            "cNext": [
-                2
-            ]
+            "cPrev": [0],
+            "cNext": [2]
         },
         "x2": {
             "name_en": "Deneb",
@@ -48,15 +40,9 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
-            "cPrev": [
-                1
-            ],
-            "cNext": [
-                3
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1418"
-            ]
+            "cPrev": [1],
+            "cNext": [3],
+            "cSiblings": ["character.achievement.items.anima-weapons.1418"]
         },
         "x3": {
             "name_en": "Hyperconductive Deneb",
@@ -65,15 +51,9 @@
             "iLevel": "230",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
-            "cPrev": [
-                2
-            ],
-            "cNext": [
-                4
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1511"
-            ]
+            "cPrev": [2],
+            "cNext": [4],
+            "cSiblings": ["character.achievement.items.anima-weapons.1511"]
         },
         "x4": {
             "name_en": "Sphere of the Last Heir",
@@ -82,15 +62,9 @@
             "iLevel": "240",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
-            "cPrev": [
-                3
-            ],
-            "cNext": [
-                5
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1617"
-            ]
+            "cPrev": [3],
+            "cNext": [5],
+            "cSiblings": ["character.achievement.items.anima-weapons.1617"]
         },
         "x5": {
             "name_en": "Sharpened Sphere of the Last Heir",
@@ -99,15 +73,9 @@
             "iLevel": "260",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
-            "cPrev": [
-                4
-            ],
-            "cNext": [
-                6
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1679"
-            ]
+            "cPrev": [4],
+            "cNext": [6],
+            "cSiblings": ["character.achievement.items.anima-weapons.1679"]
         },
         "x6": {
             "name_en": "Canopus",
@@ -116,15 +84,9 @@
             "iLevel": "270",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
-            "cPrev": [
-                5
-            ],
-            "cNext": [
-                7
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1707"
-            ]
+            "cPrev": [5],
+            "cNext": [7],
+            "cSiblings": ["character.achievement.items.anima-weapons.1707"]
         },
         "x7": {
             "name_en": "Canopus Lux",
@@ -133,12 +95,8 @@
             "iLevel": "275",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
-            "cPrev": [
-                6
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1720"
-            ]
+            "cPrev": [6],
+            "cSiblings": ["character.achievement.items.anima-weapons.1720"]
         },
         "x8": {
             "name_en": "Animated Berimbau",
@@ -147,9 +105,7 @@
             "iLevel": "170",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                9
-            ]
+            "cNext": [9]
         },
         "x9": {
             "name_en": "Berimbau Awoken",
@@ -158,12 +114,8 @@
             "iLevel": "200",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                8
-            ],
-            "cNext": [
-                10
-            ]
+            "cPrev": [8],
+            "cNext": [10]
         },
         "x10": {
             "name_en": "Gandiva",
@@ -182,15 +134,9 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
-            "cPrev": [
-                9
-            ],
-            "cNext": [
-                11
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1410"
-            ]
+            "cPrev": [9],
+            "cNext": [11],
+            "cSiblings": ["character.achievement.items.anima-weapons.1410"]
         },
         "x11": {
             "name_en": "Hyperconductive Gandiva",
@@ -199,15 +145,9 @@
             "iLevel": "230",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
-            "cPrev": [
-                10
-            ],
-            "cNext": [
-                12
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1503"
-            ]
+            "cPrev": [10],
+            "cNext": [12],
+            "cSiblings": ["character.achievement.items.anima-weapons.1503"]
         },
         "x12": {
             "name_en": "Bow of the Autarch",
@@ -216,15 +156,9 @@
             "iLevel": "240",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
-            "cPrev": [
-                11
-            ],
-            "cNext": [
-                13
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1609"
-            ]
+            "cPrev": [11],
+            "cNext": [13],
+            "cSiblings": ["character.achievement.items.anima-weapons.1609"]
         },
         "x13": {
             "name_en": "Sharpened Bow of the Autarch",
@@ -233,15 +167,9 @@
             "iLevel": "260",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
-            "cPrev": [
-                12
-            ],
-            "cNext": [
-                14
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1671"
-            ]
+            "cPrev": [12],
+            "cNext": [14],
+            "cSiblings": ["character.achievement.items.anima-weapons.1671"]
         },
         "x14": {
             "name_en": "Terpander",
@@ -250,15 +178,9 @@
             "iLevel": "270",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
-            "cPrev": [
-                13
-            ],
-            "cNext": [
-                15
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1699"
-            ]
+            "cPrev": [13],
+            "cNext": [15],
+            "cSiblings": ["character.achievement.items.anima-weapons.1699"]
         },
         "x15": {
             "name_en": "Terpander Lux",
@@ -267,12 +189,8 @@
             "iLevel": "275",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
-            "cPrev": [
-                14
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1712"
-            ]
+            "cPrev": [14],
+            "cSiblings": ["character.achievement.items.anima-weapons.1712"]
         },
         "x16": {
             "name_en": "Animated Lunaris Rod",
@@ -281,9 +199,7 @@
             "iLevel": "170",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                17
-            ]
+            "cNext": [17]
         },
         "x17": {
             "name_en": "Lunaris Rod Awoken",
@@ -292,12 +208,8 @@
             "iLevel": "200",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                16
-            ],
-            "cNext": [
-                18
-            ]
+            "cPrev": [16],
+            "cNext": [18]
         },
         "x18": {
             "name_en": "Hvergelmir",
@@ -316,15 +228,9 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
-            "cPrev": [
-                17
-            ],
-            "cNext": [
-                19
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1412"
-            ]
+            "cPrev": [17],
+            "cNext": [19],
+            "cSiblings": ["character.achievement.items.anima-weapons.1412"]
         },
         "x19": {
             "name_en": "Hyperconductive Hvergelmir",
@@ -333,15 +239,9 @@
             "iLevel": "230",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
-            "cPrev": [
-                18
-            ],
-            "cNext": [
-                20
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1505"
-            ]
+            "cPrev": [18],
+            "cNext": [20],
+            "cSiblings": ["character.achievement.items.anima-weapons.1505"]
         },
         "x20": {
             "name_en": "Rod of the Black Khan",
@@ -350,15 +250,9 @@
             "iLevel": "240",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
-            "cPrev": [
-                19
-            ],
-            "cNext": [
-                21
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1611"
-            ]
+            "cPrev": [19],
+            "cNext": [21],
+            "cSiblings": ["character.achievement.items.anima-weapons.1611"]
         },
         "x21": {
             "name_en": "Sharpened Rod of the Black Khan",
@@ -367,15 +261,9 @@
             "iLevel": "260",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
-            "cPrev": [
-                20
-            ],
-            "cNext": [
-                22
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1673"
-            ]
+            "cPrev": [20],
+            "cNext": [22],
+            "cSiblings": ["character.achievement.items.anima-weapons.1673"]
         },
         "x22": {
             "name_en": "Kaladanda",
@@ -384,15 +272,9 @@
             "iLevel": "270",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
-            "cPrev": [
-                21
-            ],
-            "cNext": [
-                23
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1701"
-            ]
+            "cPrev": [21],
+            "cNext": [23],
+            "cSiblings": ["character.achievement.items.anima-weapons.1701"]
         },
         "x23": {
             "name_en": "Kaladanda Lux",
@@ -401,12 +283,8 @@
             "iLevel": "275",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
-            "cPrev": [
-                22
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1714"
-            ]
+            "cPrev": [22],
+            "cSiblings": ["character.achievement.items.anima-weapons.1714"]
         },
         "x24": {
             "name_en": "Animated Deathbringer",
@@ -415,9 +293,7 @@
             "iLevel": "170",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                25
-            ]
+            "cNext": [25]
         },
         "x25": {
             "name_en": "Deathbringer Awoken",
@@ -426,12 +302,8 @@
             "iLevel": "200",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                24
-            ],
-            "cNext": [
-                26
-            ]
+            "cPrev": [24],
+            "cNext": [26]
         },
         "x26": {
             "name_en": "Nothung",
@@ -450,15 +322,9 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
-            "cPrev": [
-                25
-            ],
-            "cNext": [
-                27
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1417"
-            ]
+            "cPrev": [25],
+            "cNext": [27],
+            "cSiblings": ["character.achievement.items.anima-weapons.1417"]
         },
         "x27": {
             "name_en": "Hyperconductive Nothung",
@@ -467,15 +333,9 @@
             "iLevel": "230",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
-            "cPrev": [
-                26
-            ],
-            "cNext": [
-                28
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1510"
-            ]
+            "cPrev": [26],
+            "cNext": [28],
+            "cSiblings": ["character.achievement.items.anima-weapons.1510"]
         },
         "x28": {
             "name_en": "Guillotine of the Tyrant",
@@ -484,15 +344,9 @@
             "iLevel": "240",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
-            "cPrev": [
-                27
-            ],
-            "cNext": [
-                29
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1616"
-            ]
+            "cPrev": [27],
+            "cNext": [29],
+            "cSiblings": ["character.achievement.items.anima-weapons.1616"]
         },
         "x29": {
             "name_en": "Sharpened Guillotine of the Tyrant",
@@ -501,15 +355,9 @@
             "iLevel": "260",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
-            "cPrev": [
-                28
-            ],
-            "cNext": [
-                30
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1678"
-            ]
+            "cPrev": [28],
+            "cNext": [30],
+            "cSiblings": ["character.achievement.items.anima-weapons.1678"]
         },
         "x30": {
             "name_en": "Cronus",
@@ -518,15 +366,9 @@
             "iLevel": "270",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
-            "cPrev": [
-                29
-            ],
-            "cNext": [
-                31
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1706"
-            ]
+            "cPrev": [29],
+            "cNext": [31],
+            "cSiblings": ["character.achievement.items.anima-weapons.1706"]
         },
         "x31": {
             "name_en": "Cronus Lux",
@@ -535,12 +377,8 @@
             "iLevel": "275",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
-            "cPrev": [
-                30
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1719"
-            ]
+            "cPrev": [30],
+            "cSiblings": ["character.achievement.items.anima-weapons.1719"]
         },
         "x32": {
             "name_en": "Animated Brionac",
@@ -549,9 +387,7 @@
             "iLevel": "170",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                33
-            ]
+            "cNext": [33]
         },
         "x33": {
             "name_en": "Brionac Awoken",
@@ -560,12 +396,8 @@
             "iLevel": "200",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                32
-            ],
-            "cNext": [
-                34
-            ]
+            "cPrev": [32],
+            "cNext": [34]
         },
         "x34": {
             "name_en": "Rhongomiant",
@@ -584,15 +416,9 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
-            "cPrev": [
-                33
-            ],
-            "cNext": [
-                35
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1409"
-            ]
+            "cPrev": [33],
+            "cNext": [35],
+            "cSiblings": ["character.achievement.items.anima-weapons.1409"]
         },
         "x35": {
             "name_en": "Hyperconductive Rhongomiant",
@@ -601,15 +427,9 @@
             "iLevel": "230",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
-            "cPrev": [
-                34
-            ],
-            "cNext": [
-                36
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1502"
-            ]
+            "cPrev": [34],
+            "cNext": [36],
+            "cSiblings": ["character.achievement.items.anima-weapons.1502"]
         },
         "x36": {
             "name_en": "Trident of the Overlord",
@@ -618,15 +438,9 @@
             "iLevel": "240",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
-            "cPrev": [
-                35
-            ],
-            "cNext": [
-                37
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1608"
-            ]
+            "cPrev": [35],
+            "cNext": [37],
+            "cSiblings": ["character.achievement.items.anima-weapons.1608"]
         },
         "x37": {
             "name_en": "Sharpened Trident of the Overlord",
@@ -635,15 +449,9 @@
             "iLevel": "260",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
-            "cPrev": [
-                36
-            ],
-            "cNext": [
-                38
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1670"
-            ]
+            "cPrev": [36],
+            "cNext": [38],
+            "cSiblings": ["character.achievement.items.anima-weapons.1670"]
         },
         "x38": {
             "name_en": "Areadbhar",
@@ -652,15 +460,9 @@
             "iLevel": "270",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
-            "cPrev": [
-                37
-            ],
-            "cNext": [
-                39
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1698"
-            ]
+            "cPrev": [37],
+            "cNext": [39],
+            "cSiblings": ["character.achievement.items.anima-weapons.1698"]
         },
         "x39": {
             "name_en": "Areadbhar Lux",
@@ -669,12 +471,8 @@
             "iLevel": "275",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
-            "cPrev": [
-                38
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1711"
-            ]
+            "cPrev": [38],
+            "cSiblings": ["character.achievement.items.anima-weapons.1711"]
         },
         "x40": {
             "name_en": "Animated Ferdinand",
@@ -683,9 +481,7 @@
             "iLevel": "170",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                41
-            ]
+            "cNext": [41]
         },
         "x41": {
             "name_en": "Ferdinand Awoken",
@@ -694,12 +490,8 @@
             "iLevel": "200",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                40
-            ],
-            "cNext": [
-                42
-            ]
+            "cPrev": [40],
+            "cNext": [42]
         },
         "x42": {
             "name_en": "Armageddon",
@@ -718,15 +510,9 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
-            "cPrev": [
-                41
-            ],
-            "cNext": [
-                43
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1416"
-            ]
+            "cPrev": [41],
+            "cNext": [43],
+            "cSiblings": ["character.achievement.items.anima-weapons.1416"]
         },
         "x43": {
             "name_en": "Hyperconductive Armageddon",
@@ -735,15 +521,9 @@
             "iLevel": "230",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
-            "cPrev": [
-                42
-            ],
-            "cNext": [
-                44
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1509"
-            ]
+            "cPrev": [42],
+            "cNext": [44],
+            "cSiblings": ["character.achievement.items.anima-weapons.1509"]
         },
         "x44": {
             "name_en": "Flame of the Dynast",
@@ -752,15 +532,9 @@
             "iLevel": "240",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
-            "cPrev": [
-                43
-            ],
-            "cNext": [
-                45
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1615"
-            ]
+            "cPrev": [43],
+            "cNext": [45],
+            "cSiblings": ["character.achievement.items.anima-weapons.1615"]
         },
         "x45": {
             "name_en": "Sharpened Flame of the Dynast",
@@ -769,15 +543,9 @@
             "iLevel": "260",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
-            "cPrev": [
-                44
-            ],
-            "cNext": [
-                46
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1677"
-            ]
+            "cPrev": [44],
+            "cNext": [46],
+            "cSiblings": ["character.achievement.items.anima-weapons.1677"]
         },
         "x46": {
             "name_en": "Deathlocke",
@@ -786,15 +554,9 @@
             "iLevel": "270",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
-            "cPrev": [
-                45
-            ],
-            "cNext": [
-                47
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1705"
-            ]
+            "cPrev": [45],
+            "cNext": [47],
+            "cSiblings": ["character.achievement.items.anima-weapons.1705"]
         },
         "x47": {
             "name_en": "Deathlocke Lux",
@@ -803,12 +565,8 @@
             "iLevel": "275",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
-            "cPrev": [
-                46
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1718"
-            ]
+            "cPrev": [46],
+            "cSiblings": ["character.achievement.items.anima-weapons.1718"]
         },
         "x48": {
             "name_en": "Animated Rising Suns",
@@ -817,9 +575,7 @@
             "iLevel": "170",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                49
-            ]
+            "cNext": [49]
         },
         "x49": {
             "name_en": "Rising Suns Awoken",
@@ -828,12 +584,8 @@
             "iLevel": "200",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                48
-            ],
-            "cNext": [
-                50
-            ]
+            "cPrev": [48],
+            "cNext": [50]
         },
         "x50": {
             "name_en": "Verethragna",
@@ -852,15 +604,9 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
-            "cPrev": [
-                49
-            ],
-            "cNext": [
-                51
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1407"
-            ]
+            "cPrev": [49],
+            "cNext": [51],
+            "cSiblings": ["character.achievement.items.anima-weapons.1407"]
         },
         "x51": {
             "name_en": "Hyperconductive Verethragna",
@@ -869,15 +615,9 @@
             "iLevel": "230",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
-            "cPrev": [
-                50
-            ],
-            "cNext": [
-                52
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1500"
-            ]
+            "cPrev": [50],
+            "cNext": [52],
+            "cSiblings": ["character.achievement.items.anima-weapons.1500"]
         },
         "x52": {
             "name_en": "Sultan's Fists",
@@ -886,15 +626,9 @@
             "iLevel": "240",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
-            "cPrev": [
-                51
-            ],
-            "cNext": [
-                53
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1606"
-            ]
+            "cPrev": [51],
+            "cNext": [53],
+            "cSiblings": ["character.achievement.items.anima-weapons.1606"]
         },
         "x53": {
             "name_en": "Sharpened Sultan's Fists",
@@ -903,15 +637,9 @@
             "iLevel": "260",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
-            "cPrev": [
-                52
-            ],
-            "cNext": [
-                54
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1668"
-            ]
+            "cPrev": [52],
+            "cNext": [54],
+            "cSiblings": ["character.achievement.items.anima-weapons.1668"]
         },
         "x54": {
             "name_en": "Nyepel",
@@ -920,15 +648,9 @@
             "iLevel": "270",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
-            "cPrev": [
-                53
-            ],
-            "cNext": [
-                55
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1696"
-            ]
+            "cPrev": [53],
+            "cNext": [55],
+            "cSiblings": ["character.achievement.items.anima-weapons.1696"]
         },
         "x55": {
             "name_en": "Nyepel Lux",
@@ -937,12 +659,8 @@
             "iLevel": "275",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
-            "cPrev": [
-                54
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1709"
-            ]
+            "cPrev": [54],
+            "cSiblings": ["character.achievement.items.anima-weapons.1709"]
         },
         "x56": {
             "name_en": "Animated Yukimitsu",
@@ -951,9 +669,7 @@
             "iLevel": "170",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                57
-            ]
+            "cNext": [57]
         },
         "x57": {
             "name_en": "Yukimitsu Awoken",
@@ -962,12 +678,8 @@
             "iLevel": "200",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                56
-            ],
-            "cNext": [
-                58
-            ]
+            "cPrev": [56],
+            "cNext": [58]
         },
         "x58": {
             "name_en": "Kannagi",
@@ -986,15 +698,9 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
-            "cPrev": [
-                57
-            ],
-            "cNext": [
-                59
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1415"
-            ]
+            "cPrev": [57],
+            "cNext": [59],
+            "cSiblings": ["character.achievement.items.anima-weapons.1415"]
         },
         "x59": {
             "name_en": "Hyperconductive Kannagi",
@@ -1003,15 +709,9 @@
             "iLevel": "230",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
-            "cPrev": [
-                58
-            ],
-            "cNext": [
-                60
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1508"
-            ]
+            "cPrev": [58],
+            "cNext": [60],
+            "cSiblings": ["character.achievement.items.anima-weapons.1508"]
         },
         "x60": {
             "name_en": "Spurs of the Thorn Prince",
@@ -1020,15 +720,9 @@
             "iLevel": "240",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
-            "cPrev": [
-                59
-            ],
-            "cNext": [
-                61
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1614"
-            ]
+            "cPrev": [59],
+            "cNext": [61],
+            "cSiblings": ["character.achievement.items.anima-weapons.1614"]
         },
         "x61": {
             "name_en": "Sharpened Spurs of the Thorn Prince",
@@ -1037,15 +731,9 @@
             "iLevel": "260",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
-            "cPrev": [
-                60
-            ],
-            "cNext": [
-                62
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1676"
-            ]
+            "cPrev": [60],
+            "cNext": [62],
+            "cSiblings": ["character.achievement.items.anima-weapons.1676"]
         },
         "x62": {
             "name_en": "Sandung",
@@ -1054,15 +742,9 @@
             "iLevel": "270",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
-            "cPrev": [
-                61
-            ],
-            "cNext": [
-                63
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1704"
-            ]
+            "cPrev": [61],
+            "cNext": [63],
+            "cSiblings": ["character.achievement.items.anima-weapons.1704"]
         },
         "x63": {
             "name_en": "Sandung Lux",
@@ -1071,12 +753,8 @@
             "iLevel": "275",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
-            "cPrev": [
-                62
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1717"
-            ]
+            "cPrev": [62],
+            "cSiblings": ["character.achievement.items.anima-weapons.1717"]
         },
         "x64": {
             "name_en": "Animated Hauteclaire & Animated Prytwen",
@@ -1085,9 +763,7 @@
             "iLevel": "170",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                65
-            ]
+            "cNext": [65]
         },
         "x65": {
             "name_en": "Hauteclaire Awoken & Prytwen Awoken",
@@ -1096,12 +772,8 @@
             "iLevel": "200",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                64
-            ],
-            "cNext": [
-                66
-            ]
+            "cPrev": [64],
+            "cNext": [66]
         },
         "x66": {
             "name_en": "Almace & Ancile",
@@ -1120,15 +792,9 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
-            "cPrev": [
-                65
-            ],
-            "cNext": [
-                67
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1406"
-            ]
+            "cPrev": [65],
+            "cNext": [67],
+            "cSiblings": ["character.achievement.items.anima-weapons.1406"]
         },
         "x67": {
             "name_en": "Hyperconductive Almace & Hyperconductive Ancile",
@@ -1137,15 +803,9 @@
             "iLevel": "230",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
-            "cPrev": [
-                66
-            ],
-            "cNext": [
-                68
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1499"
-            ]
+            "cPrev": [66],
+            "cNext": [68],
+            "cSiblings": ["character.achievement.items.anima-weapons.1499"]
         },
         "x68": {
             "name_en": "Sword of the Twin Thegns & Shield of the Twin Thegns",
@@ -1154,15 +814,9 @@
             "iLevel": "240",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
-            "cPrev": [
-                67
-            ],
-            "cNext": [
-                69
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1605"
-            ]
+            "cPrev": [67],
+            "cNext": [69],
+            "cSiblings": ["character.achievement.items.anima-weapons.1605"]
         },
         "x69": {
             "name_en": "Sharpened Sword of the Twin Thegns & Sharpened Shield of the Twin Thegns",
@@ -1171,15 +825,9 @@
             "iLevel": "260",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
-            "cPrev": [
-                68
-            ],
-            "cNext": [
-                70
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1667"
-            ]
+            "cPrev": [68],
+            "cNext": [70],
+            "cSiblings": ["character.achievement.items.anima-weapons.1667"]
         },
         "x70": {
             "name_en": "Aettir & Priwen",
@@ -1188,15 +836,9 @@
             "iLevel": "270",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
-            "cPrev": [
-                69
-            ],
-            "cNext": [
-                71
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1695"
-            ]
+            "cPrev": [69],
+            "cNext": [71],
+            "cSiblings": ["character.achievement.items.anima-weapons.1695"]
         },
         "x71": {
             "name_en": "Aettir Lux & Priwen Lux",
@@ -1205,12 +847,8 @@
             "iLevel": "275",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
-            "cPrev": [
-                70
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1708"
-            ]
+            "cPrev": [70],
+            "cSiblings": ["character.achievement.items.anima-weapons.1708"]
         },
         "x72": {
             "name_en": "Animated Elements",
@@ -1219,9 +857,7 @@
             "iLevel": "170",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                73
-            ]
+            "cNext": [73]
         },
         "x73": {
             "name_en": "Elements Awoken",
@@ -1230,12 +866,8 @@
             "iLevel": "200",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                72
-            ],
-            "cNext": [
-                74
-            ]
+            "cPrev": [72],
+            "cNext": [74]
         },
         "x74": {
             "name_en": "Tetrabiblos",
@@ -1254,15 +886,9 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
-            "cPrev": [
-                73
-            ],
-            "cNext": [
-                75
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1414"
-            ]
+            "cPrev": [73],
+            "cNext": [75],
+            "cSiblings": ["character.achievement.items.anima-weapons.1414"]
         },
         "x75": {
             "name_en": "Hyperconductive Tetrabiblos",
@@ -1271,15 +897,9 @@
             "iLevel": "230",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
-            "cPrev": [
-                74
-            ],
-            "cNext": [
-                76
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1507"
-            ]
+            "cPrev": [74],
+            "cNext": [76],
+            "cSiblings": ["character.achievement.items.anima-weapons.1507"]
         },
         "x76": {
             "name_en": "Word of the Magnate",
@@ -1288,15 +908,9 @@
             "iLevel": "240",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
-            "cPrev": [
-                75
-            ],
-            "cNext": [
-                77
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1613"
-            ]
+            "cPrev": [75],
+            "cNext": [77],
+            "cSiblings": ["character.achievement.items.anima-weapons.1613"]
         },
         "x77": {
             "name_en": "Sharpened Word of the Magnate",
@@ -1305,15 +919,9 @@
             "iLevel": "260",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
-            "cPrev": [
-                76
-            ],
-            "cNext": [
-                78
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1675"
-            ]
+            "cPrev": [76],
+            "cNext": [78],
+            "cSiblings": ["character.achievement.items.anima-weapons.1675"]
         },
         "x78": {
             "name_en": "Anabasis",
@@ -1322,15 +930,9 @@
             "iLevel": "270",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
-            "cPrev": [
-                77
-            ],
-            "cNext": [
-                79
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1703"
-            ]
+            "cPrev": [77],
+            "cNext": [79],
+            "cSiblings": ["character.achievement.items.anima-weapons.1703"]
         },
         "x79": {
             "name_en": "Anabasis Lux",
@@ -1339,12 +941,8 @@
             "iLevel": "275",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
-            "cPrev": [
-                78
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1716"
-            ]
+            "cPrev": [78],
+            "cSiblings": ["character.achievement.items.anima-weapons.1716"]
         },
         "x80": {
             "name_en": "Animated Almandal",
@@ -1353,9 +951,7 @@
             "iLevel": "170",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                81
-            ]
+            "cNext": [81]
         },
         "x81": {
             "name_en": "Almandal Awoken",
@@ -1364,12 +960,8 @@
             "iLevel": "200",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                80
-            ],
-            "cNext": [
-                82
-            ]
+            "cPrev": [80],
+            "cNext": [82]
         },
         "x82": {
             "name_en": "Draconomicon",
@@ -1388,15 +980,9 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
-            "cPrev": [
-                81
-            ],
-            "cNext": [
-                83
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1413"
-            ]
+            "cPrev": [81],
+            "cNext": [83],
+            "cSiblings": ["character.achievement.items.anima-weapons.1413"]
         },
         "x83": {
             "name_en": "Hyperconductive Draconomicon",
@@ -1405,15 +991,9 @@
             "iLevel": "230",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
-            "cPrev": [
-                82
-            ],
-            "cNext": [
-                84
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1506"
-            ]
+            "cPrev": [82],
+            "cNext": [84],
+            "cSiblings": ["character.achievement.items.anima-weapons.1506"]
         },
         "x84": {
             "name_en": "Book of the Mad Queen",
@@ -1422,15 +1002,9 @@
             "iLevel": "240",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
-            "cPrev": [
-                83
-            ],
-            "cNext": [
-                85
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1612"
-            ]
+            "cPrev": [83],
+            "cNext": [85],
+            "cSiblings": ["character.achievement.items.anima-weapons.1612"]
         },
         "x85": {
             "name_en": "Sharpened Book of the Mad Queen",
@@ -1439,15 +1013,9 @@
             "iLevel": "260",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
-            "cPrev": [
-                84
-            ],
-            "cNext": [
-                86
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1674"
-            ]
+            "cPrev": [84],
+            "cNext": [86],
+            "cSiblings": ["character.achievement.items.anima-weapons.1674"]
         },
         "x86": {
             "name_en": "Mimesis",
@@ -1456,15 +1024,9 @@
             "iLevel": "270",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
-            "cPrev": [
-                85
-            ],
-            "cNext": [
-                87
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1702"
-            ]
+            "cPrev": [85],
+            "cNext": [87],
+            "cSiblings": ["character.achievement.items.anima-weapons.1702"]
         },
         "x87": {
             "name_en": "Mimesis Lux",
@@ -1473,12 +1035,8 @@
             "iLevel": "275",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
-            "cPrev": [
-                86
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1715"
-            ]
+            "cPrev": [86],
+            "cSiblings": ["character.achievement.items.anima-weapons.1715"]
         },
         "x88": {
             "name_en": "Animated Parashu",
@@ -1487,9 +1045,7 @@
             "iLevel": "170",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                89
-            ]
+            "cNext": [89]
         },
         "x89": {
             "name_en": "Parashu Awoken",
@@ -1498,12 +1054,8 @@
             "iLevel": "200",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                88
-            ],
-            "cNext": [
-                90
-            ]
+            "cPrev": [88],
+            "cNext": [90]
         },
         "x90": {
             "name_en": "Ukonvasara",
@@ -1522,15 +1074,9 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
-            "cPrev": [
-                89
-            ],
-            "cNext": [
-                91
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1408"
-            ]
+            "cPrev": [89],
+            "cNext": [91],
+            "cSiblings": ["character.achievement.items.anima-weapons.1408"]
         },
         "x91": {
             "name_en": "Hyperconductive Ukonvasara",
@@ -1539,15 +1085,9 @@
             "iLevel": "230",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
-            "cPrev": [
-                90
-            ],
-            "cNext": [
-                92
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1501"
-            ]
+            "cPrev": [90],
+            "cNext": [92],
+            "cSiblings": ["character.achievement.items.anima-weapons.1501"]
         },
         "x92": {
             "name_en": "Axe of the Blood Emperor",
@@ -1556,15 +1096,9 @@
             "iLevel": "240",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
-            "cPrev": [
-                91
-            ],
-            "cNext": [
-                93
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1607"
-            ]
+            "cPrev": [91],
+            "cNext": [93],
+            "cSiblings": ["character.achievement.items.anima-weapons.1607"]
         },
         "x93": {
             "name_en": "Sharpened Axe of the Blood Emperor",
@@ -1573,15 +1107,9 @@
             "iLevel": "260",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
-            "cPrev": [
-                92
-            ],
-            "cNext": [
-                94
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1669"
-            ]
+            "cPrev": [92],
+            "cNext": [94],
+            "cSiblings": ["character.achievement.items.anima-weapons.1669"]
         },
         "x94": {
             "name_en": "Minos",
@@ -1590,15 +1118,9 @@
             "iLevel": "270",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
-            "cPrev": [
-                93
-            ],
-            "cNext": [
-                95
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1697"
-            ]
+            "cPrev": [93],
+            "cNext": [95],
+            "cSiblings": ["character.achievement.items.anima-weapons.1697"]
         },
         "x95": {
             "name_en": "Minos Lux",
@@ -1607,12 +1129,8 @@
             "iLevel": "275",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
-            "cPrev": [
-                94
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1710"
-            ]
+            "cPrev": [94],
+            "cSiblings": ["character.achievement.items.anima-weapons.1710"]
         },
         "x96": {
             "name_en": "Animated Seraph Cane",
@@ -1621,9 +1139,7 @@
             "iLevel": "170",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cNext": [
-                97
-            ]
+            "cNext": [97]
         },
         "x97": {
             "name_en": "Seraph Cane Awoken",
@@ -1632,12 +1148,8 @@
             "iLevel": "200",
             "requirements_en": "-",
             "requirements_fr": "-",
-            "cPrev": [
-                96
-            ],
-            "cNext": [
-                98
-            ]
+            "cPrev": [96],
+            "cNext": [98]
         },
         "x98": {
             "name_en": "Majestas",
@@ -1656,15 +1168,9 @@
                 "Gemme brute mystérieuse (150 Poétiques) x10",
                 "Graines mystérieuses (150 Poétiques ou 300 Insignes alliés) x10"
             ],
-            "cPrev": [
-                97
-            ],
-            "cNext": [
-                99
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1411"
-            ]
+            "cPrev": [97],
+            "cNext": [99],
+            "cSiblings": ["character.achievement.items.anima-weapons.1411"]
         },
         "x99": {
             "name_en": "Hyperconductive Majestas",
@@ -1673,15 +1179,9 @@
             "iLevel": "230",
             "requirements_en": "Aether Oil (350 Poetics) x5",
             "requirements_fr": "Huile isolante (350 Poétiques) x5",
-            "cPrev": [
-                98
-            ],
-            "cNext": [
-                100
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1504"
-            ]
+            "cPrev": [98],
+            "cNext": [100],
+            "cSiblings": ["character.achievement.items.anima-weapons.1504"]
         },
         "x100": {
             "name_en": "Cane of the White Tsar",
@@ -1690,15 +1190,9 @@
             "iLevel": "240",
             "requirements_en": "Umbrite (75 Poetics) x75",
             "requirements_fr": "Roche ombrale dure (75 Poétiques) x75",
-            "cPrev": [
-                99
-            ],
-            "cNext": [
-                101
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1610"
-            ]
+            "cPrev": [99],
+            "cNext": [101],
+            "cSiblings": ["character.achievement.items.anima-weapons.1610"]
         },
         "x101": {
             "name_en": "Sharpened Cane of the White Tsar",
@@ -1707,15 +1201,9 @@
             "iLevel": "260",
             "requirements_en": "Singing Clusters (40 Poetics) x50",
             "requirements_fr": "Agrégat résonnant (40 Poétiques) x50",
-            "cPrev": [
-                100
-            ],
-            "cNext": [
-                102
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1672"
-            ]
+            "cPrev": [100],
+            "cNext": [102],
+            "cSiblings": ["character.achievement.items.anima-weapons.1672"]
         },
         "x102": {
             "name_en": "Sindri",
@@ -1724,15 +1212,9 @@
             "iLevel": "270",
             "requirements_en": "Pneumite (100 Poetics) x15",
             "requirements_fr": "Agrégat obscur (100 Poétiques) x15",
-            "cPrev": [
-                101
-            ],
-            "cNext": [
-                103
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1700"
-            ]
+            "cPrev": [101],
+            "cNext": [103],
+            "cSiblings": ["character.achievement.items.anima-weapons.1700"]
         },
         "x103": {
             "name_en": "Sindri Lux",
@@ -1741,12 +1223,8 @@
             "iLevel": "275",
             "requirements_en": "Archaic Enchanted Ink (500 Poetics)",
             "requirements_fr": "Encre enchantée ancienne (500 Poétiques)",
-            "cPrev": [
-                102
-            ],
-            "cSiblings": [
-                "character.achievement.items.anima-weapons.1713"
-            ]
+            "cPrev": [102],
+            "cSiblings": ["character.achievement.items.anima-weapons.1713"]
         }
     }
 }

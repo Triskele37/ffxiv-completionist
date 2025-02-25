@@ -23,26 +23,16 @@
             "header_fr": "Débloque"
         }
     },
-    "common": [
-        "grandCompany"
-    ],
+    "common": ["grandCompany"],
     "tasks": {
         "x0": {
             "name_en": "Storm Private Third Class",
             "name_fr": "Soldat 3e classe",
             "grandCompany": "SOCIETY.MAELSTROM",
             "requirement": "duty.quests.main-scenario.seventh-umbral-era.66220",
-            "entitlements_en": [
-                "10,000 Seal Cap",
-                "Deliveries"
-            ],
-            "entitlements_fr": [
-                "10.000 Sceaux de compagnie limséen maximum",
-                "Ravitaillement"
-            ],
-            "cNext": [
-                1
-            ]
+            "entitlements_en": ["10,000 Seal Cap", "Deliveries"],
+            "entitlements_fr": ["10.000 Sceaux de compagnie limséen maximum", "Ravitaillement"],
+            "cNext": [1]
         },
         "x1": {
             "name_en": "Storm Private Second Class",
@@ -52,12 +42,8 @@
             "requirement_fr": "2.000 Sceaux de compagnie limséen",
             "entitlements_en": "15,000 Seal Cap",
             "entitlements_fr": "15.000 Sceaux de compagnie limséen maximum",
-            "cPrev": [
-                0
-            ],
-            "cNext": [
-                2
-            ]
+            "cPrev": [0],
+            "cNext": [2]
         },
         "x2": {
             "name_en": "Storm Private First Class",
@@ -67,12 +53,8 @@
             "requirement_fr": "3.000 Sceaux de compagnie limséen",
             "entitlements_en": "20,000 Seal Cap",
             "entitlements_fr": "20.000 Sceaux de compagnie limséen maximum",
-            "cPrev": [
-                1
-            ],
-            "cNext": [
-                3
-            ]
+            "cPrev": [1],
+            "cNext": [3]
         },
         "x3": {
             "name_en": "Storm Corporal",
@@ -82,42 +64,24 @@
             "requirement_fr": "4.000 Sceaux de compagnie limséen",
             "entitlements_en": "25,000 Seal Cap",
             "entitlements_fr": "25.000 Sceaux de compagnie limséen maximum",
-            "cPrev": [
-                2
-            ],
-            "cNext": [
-                4
-            ]
+            "cPrev": [2],
+            "cNext": [4]
         },
         "x4": {
             "name_en": "Storm Sergeant Third Class",
             "name_fr": "Adjudant(e)",
             "grandCompany": "SOCIETY.MAELSTROM",
             "requirement": "logs.hunting-log.maelstrom",
-            "requirement_en": [
-                "to Rank 1",
-                "5,000 Storm Seals"
-            ],
-            "requirement_fr": [
-                "pour le Rang 1",
-                "5.000 Sceaux de compagnie limséen"
-            ],
-            "entitlements_en": [
-                "30,000 Seal Cap",
-                "Level 30 GC Leves",
-                "Whitebrim GC Leves"
-            ],
+            "requirement_en": ["to Rank 1", "5,000 Storm Seals"],
+            "requirement_fr": ["pour le Rang 1", "5.000 Sceaux de compagnie limséen"],
+            "entitlements_en": ["30,000 Seal Cap", "Level 30 GC Leves", "Whitebrim GC Leves"],
             "entitlements_fr": [
                 "30.000 Sceaux de compagnie limséen maximum",
                 "Mandats de Grande Compagnie niveau 30",
                 "Mandats de Grande Compagnie au Poste de L'Arête blanche"
             ],
-            "cPrev": [
-                3
-            ],
-            "cNext": [
-                5
-            ]
+            "cPrev": [3],
+            "cNext": [5]
         },
         "x5": {
             "name_en": "Storm Sergeant Second Class",
@@ -125,20 +89,10 @@
             "grandCompany": "SOCIETY.MAELSTROM",
             "requirement_en": "6,000 Storm Seals",
             "requirement_fr": "6.000 Sceaux de compagnie limséen",
-            "entitlements_en": [
-                "35,000 Seal Cap",
-                "Expert Deliveries"
-            ],
-            "entitlements_fr": [
-                "35.000 Sceaux de compagnie limséen maximum ",
-                "Prises de guerre"
-            ],
-            "cPrev": [
-                4
-            ],
-            "cNext": [
-                6
-            ]
+            "entitlements_en": ["35,000 Seal Cap", "Expert Deliveries"],
+            "entitlements_fr": ["35.000 Sceaux de compagnie limséen maximum ", "Prises de guerre"],
+            "cPrev": [4],
+            "cNext": [6]
         },
         "x6": {
             "name_en": "Storm Sergeant First Class",
@@ -148,12 +102,8 @@
             "requirement_fr": "7.000 Sceaux de compagnie limséen",
             "entitlements_en": "40,000 Seal Cap",
             "entitlements_fr": "40.000 Sceaux de compagnie limséen maximum",
-            "cPrev": [
-                5
-            ],
-            "cNext": [
-                7
-            ]
+            "cPrev": [5],
+            "cNext": [7]
         },
         "x7": {
             "name_en": "Chief Storm Sergeant",
@@ -162,51 +112,22 @@
             "requirement": "duty.quests.other.grand-company.maelstrom.66664",
             "requirement_en": "8,000 Storm Seals",
             "requirement_fr": "8.000 Sceaux de compagnie limséen",
-            "entitlements_en": [
-                "45,000 Seal Cap",
-                "Mor Dhona GC Leves"
-            ],
-            "entitlements_fr": [
-                "45.000 Sceaux de compagnie limséen maximum",
-                "Mandats de Grande Compagnie au Mor Dhona"
-            ],
-            "cPrev": [
-                6
-            ],
-            "cNext": [
-                8
-            ]
+            "entitlements_en": ["45,000 Seal Cap", "Mor Dhona GC Leves"],
+            "entitlements_fr": ["45.000 Sceaux de compagnie limséen maximum", "Mandats de Grande Compagnie au Mor Dhona"],
+            "cPrev": [6],
+            "cNext": [8]
         },
         "x8": {
             "name_en": "Second Storm Lieutenant",
             "name_fr": "Sous-lieutenant(e)",
             "grandCompany": "SOCIETY.MAELSTROM",
-            "requirement": [
-                "duty.quests.other.grand-company.maelstrom.66667",
-                "logs.hunting-log.maelstrom"
-            ],
-            "requirement_en": [
-                "to Rank 2",
-                "9,000 Storm Seals"
-            ],
-            "requirement_fr": [
-                "pour le Rang 2",
-                "9.000 Sceaux de compagnie limséen"
-            ],
-            "entitlements_en": [
-                "50,000 Seal Cap",
-                "Adventurer Squadrons"
-            ],
-            "entitlements_fr": [
-                "50.000 Sceaux de compagnie limséen maximum",
-                "Escouade de Grande Compagnie"
-            ],
-            "cPrev": [
-                7
-            ],
-            "cNext": [
-                9
-            ]
+            "requirement": ["duty.quests.other.grand-company.maelstrom.66667", "logs.hunting-log.maelstrom"],
+            "requirement_en": ["to Rank 2", "9,000 Storm Seals"],
+            "requirement_fr": ["pour le Rang 2", "9.000 Sceaux de compagnie limséen"],
+            "entitlements_en": ["50,000 Seal Cap", "Adventurer Squadrons"],
+            "entitlements_fr": ["50.000 Sceaux de compagnie limséen maximum", "Escouade de Grande Compagnie"],
+            "cPrev": [7],
+            "cNext": [9]
         },
         "x9": {
             "name_en": "First Storm Lieutenant",
@@ -216,12 +137,8 @@
             "requirement_fr": "Accomplissement de la mission normale d'escouade: \"Subtilisation de cristaux\"",
             "entitlements_en": "80,000 Seal Cap",
             "entitlements_fr": "80.000 Sceaux de compagnie limséen maximum",
-            "cPrev": [
-                8
-            ],
-            "cNext": [
-                10
-            ]
+            "cPrev": [8],
+            "cNext": [10]
         },
         "x10": {
             "name_en": "Storm Captain",
@@ -237,26 +154,16 @@
             ],
             "entitlements_en": "90,000 Seal Cap",
             "entitlements_fr": "90.000 Sceaux de compagnie limséen maximum",
-            "cPrev": [
-                9
-            ]
+            "cPrev": [9]
         },
         "x11": {
             "name_en": "Serpent Private Third Class",
             "name_fr": "Soldat 3e classe",
             "grandCompany": "SOCIETY.ADDER",
             "requirement": "duty.quests.main-scenario.seventh-umbral-era.66220",
-            "entitlements_en": [
-                "10,000 Seal Cap",
-                "Deliveries"
-            ],
-            "entitlements_fr": [
-                "10.000 Sceaux de compagnie gridanien maximum",
-                "Ravitaillement"
-            ],
-            "cNext": [
-                12
-            ]
+            "entitlements_en": ["10,000 Seal Cap", "Deliveries"],
+            "entitlements_fr": ["10.000 Sceaux de compagnie gridanien maximum", "Ravitaillement"],
+            "cNext": [12]
         },
         "x12": {
             "name_en": "Serpent Private Second Class",
@@ -266,12 +173,8 @@
             "requirement_fr": "2.000 Sceaux de compagnie gridanien",
             "entitlements_en": "15,000 Seal Cap",
             "entitlements_fr": "15.000 Sceaux de compagnie gridanien maximum",
-            "cPrev": [
-                11
-            ],
-            "cNext": [
-                13
-            ]
+            "cPrev": [11],
+            "cNext": [13]
         },
         "x13": {
             "name_en": "Serpent Private First Class",
@@ -281,12 +184,8 @@
             "requirement_fr": "3.000 Sceaux de compagnie gridanien",
             "entitlements_en": "20,000 Seal Cap",
             "entitlements_fr": "20.000 Sceaux de compagnie gridanien maximum",
-            "cPrev": [
-                12
-            ],
-            "cNext": [
-                14
-            ]
+            "cPrev": [12],
+            "cNext": [14]
         },
         "x14": {
             "name_en": "Serpent Corporal",
@@ -296,42 +195,24 @@
             "requirement_fr": "4.000 Sceaux de compagnie gridanien",
             "entitlements_en": "25,000 Seal Cap",
             "entitlements_fr": "25.000 Sceaux de compagnie gridanien maximum",
-            "cPrev": [
-                13
-            ],
-            "cNext": [
-                15
-            ]
+            "cPrev": [13],
+            "cNext": [15]
         },
         "x15": {
             "name_en": "Serpent Sergeant Third Class",
             "name_fr": "Adjudant(e)",
             "grandCompany": "SOCIETY.ADDER",
             "requirement": "logs.hunting-log.order-of-the-twin-adder",
-            "requirement_en": [
-                "to Rank 1",
-                "5,000 Serpent Seals"
-            ],
-            "requirement_fr": [
-                "pour le Rang 1",
-                "5.000 Sceaux de compagnie gridanien"
-            ],
-            "entitlements_en": [
-                "30,000 Seal Cap",
-                "Level 30 GC Leves",
-                "Whitebrim GC Leves"
-            ],
+            "requirement_en": ["to Rank 1", "5,000 Serpent Seals"],
+            "requirement_fr": ["pour le Rang 1", "5.000 Sceaux de compagnie gridanien"],
+            "entitlements_en": ["30,000 Seal Cap", "Level 30 GC Leves", "Whitebrim GC Leves"],
             "entitlements_fr": [
                 "30.000 Sceaux de compagnie gridanien maximum",
                 "Mandats de Grande Compagnie niveau 30",
                 "Mandats de Grande Compagnie au Poste de L'Arête blanche"
             ],
-            "cPrev": [
-                14
-            ],
-            "cNext": [
-                16
-            ]
+            "cPrev": [14],
+            "cNext": [16]
         },
         "x16": {
             "name_en": "Serpent Sergeant Second Class",
@@ -339,20 +220,10 @@
             "grandCompany": "SOCIETY.ADDER",
             "requirement_en": "6,000 Serpent Seals",
             "requirement_fr": "6.000 Sceaux de compagnie gridanien",
-            "entitlements_en": [
-                "35,000 Seal Cap",
-                "Expert Deliveries"
-            ],
-            "entitlements_fr": [
-                "35.000 Sceaux de compagnie gridanien maximum",
-                "Prises de guerre"
-            ],
-            "cPrev": [
-                15
-            ],
-            "cNext": [
-                17
-            ]
+            "entitlements_en": ["35,000 Seal Cap", "Expert Deliveries"],
+            "entitlements_fr": ["35.000 Sceaux de compagnie gridanien maximum", "Prises de guerre"],
+            "cPrev": [15],
+            "cNext": [17]
         },
         "x17": {
             "name_en": "Serpent Sergeant First Class",
@@ -362,12 +233,8 @@
             "requirement_fr": "7.000 Sceaux de compagnie gridanien",
             "entitlements_en": "40,000 Seal Cap",
             "entitlements_fr": "40.000 Sceaux de compagnie gridanien maximum",
-            "cPrev": [
-                16
-            ],
-            "cNext": [
-                18
-            ]
+            "cPrev": [16],
+            "cNext": [18]
         },
         "x18": {
             "name_en": "Chief Serpent Sergeant",
@@ -376,20 +243,10 @@
             "requirement": "duty.quests.other.grand-company.order-of-the-twin-adder.66665",
             "requirement_en": "8,000 Serpent Seals",
             "requirement_fr": "8.000 Sceaux de compagnie gridanien",
-            "entitlements_en": [
-                "45,000 Seal Cap",
-                "Mor Dhona GC Leves"
-            ],
-            "entitlements_fr": [
-                "45.000 Sceaux de compagnie gridanien maximum",
-                "Mandats de Grande Compagnie au Mor Dhona"
-            ],
-            "cPrev": [
-                17
-            ],
-            "cNext": [
-                19
-            ]
+            "entitlements_en": ["45,000 Seal Cap", "Mor Dhona GC Leves"],
+            "entitlements_fr": ["45.000 Sceaux de compagnie gridanien maximum", "Mandats de Grande Compagnie au Mor Dhona"],
+            "cPrev": [17],
+            "cNext": [19]
         },
         "x19": {
             "name_en": "Second Serpent Lieutenant",
@@ -399,28 +256,12 @@
                 "duty.quests.other.grand-company.order-of-the-twin-adder.66668",
                 "logs.hunting-log.order-of-the-twin-adder"
             ],
-            "requirement_en": [
-                "to Rank 2",
-                "9,000 Serpent Seals"
-            ],
-            "requirement_fr": [
-                "pour le Rang 2",
-                "9.000 Sceaux de compagnie gridanien"
-            ],
-            "entitlements_en": [
-                "50,000 Seal Cap",
-                "Adventurer Squadrons"
-            ],
-            "entitlements_fr": [
-                "50.000 Sceaux de compagnie gridanien maximum",
-                "Escouade de Grande Compagnie"
-            ],
-            "cPrev": [
-                18
-            ],
-            "cNext": [
-                20
-            ]
+            "requirement_en": ["to Rank 2", "9,000 Serpent Seals"],
+            "requirement_fr": ["pour le Rang 2", "9.000 Sceaux de compagnie gridanien"],
+            "entitlements_en": ["50,000 Seal Cap", "Adventurer Squadrons"],
+            "entitlements_fr": ["50.000 Sceaux de compagnie gridanien maximum", "Escouade de Grande Compagnie"],
+            "cPrev": [18],
+            "cNext": [20]
         },
         "x20": {
             "name_en": "First Serpent Lieutenant",
@@ -430,12 +271,8 @@
             "requirement_fr": "Accomplissement de la mission normale d'escouade: \"Subtilisation de cristaux\"",
             "entitlements_en": "80,000 Seal Cap",
             "entitlements_fr": "80.000 Sceaux de compagnie gridanien maximum",
-            "cPrev": [
-                19
-            ],
-            "cNext": [
-                21
-            ]
+            "cPrev": [19],
+            "cNext": [21]
         },
         "x21": {
             "name_en": "Serpent Captain",
@@ -451,26 +288,16 @@
             ],
             "entitlements_en": "90,000 Seal Cap",
             "entitlements_fr": "90.000 Sceaux de compagnie gridanien maximum",
-            "cPrev": [
-                20
-            ]
+            "cPrev": [20]
         },
         "x22": {
             "name_en": "Flame Private Third Class",
             "name_fr": "Soldat 3e classe",
             "grandCompany": "SOCIETY.FLAMES",
             "requirement": "duty.quests.main-scenario.seventh-umbral-era.66220",
-            "entitlements_en": [
-                "10,000 Seal Cap",
-                "Deliveries"
-            ],
-            "entitlements_fr": [
-                "10.000 Sceaux de compagnie uldien maximum",
-                "Ravitaillement"
-            ],
-            "cNext": [
-                23
-            ]
+            "entitlements_en": ["10,000 Seal Cap", "Deliveries"],
+            "entitlements_fr": ["10.000 Sceaux de compagnie uldien maximum", "Ravitaillement"],
+            "cNext": [23]
         },
         "x23": {
             "name_en": "Flame Private Second Class",
@@ -480,12 +307,8 @@
             "requirement_fr": "2.000 Sceaux de compagnie uldien",
             "entitlements_en": "15,000 Seal Cap",
             "entitlements_fr": "15.000 Sceaux de compagnie uldien maximum",
-            "cPrev": [
-                22
-            ],
-            "cNext": [
-                24
-            ]
+            "cPrev": [22],
+            "cNext": [24]
         },
         "x24": {
             "name_en": "Flame Private First Class",
@@ -495,12 +318,8 @@
             "requirement_fr": "3.000 Sceaux de compagnie uldien",
             "entitlements_en": "20,000 Seal Cap",
             "entitlements_fr": "20.000 Sceaux de compagnie uldien maximum",
-            "cPrev": [
-                23
-            ],
-            "cNext": [
-                25
-            ]
+            "cPrev": [23],
+            "cNext": [25]
         },
         "x25": {
             "name_en": "Flame Corporal",
@@ -510,42 +329,24 @@
             "requirement_fr": "4.000 Sceaux de compagnie uldien",
             "entitlements_en": "25,000 Seal Cap",
             "entitlements_fr": "25.000 Sceaux de compagnie uldien maximum",
-            "cPrev": [
-                24
-            ],
-            "cNext": [
-                26
-            ]
+            "cPrev": [24],
+            "cNext": [26]
         },
         "x26": {
             "name_en": "Flame Sergeant Third Class",
             "name_fr": "Adjudant(e)",
             "grandCompany": "SOCIETY.FLAMES",
             "requirement": "logs.hunting-log.immortal-flames",
-            "requirement_en": [
-                "to Rank 1",
-                "5,000 Flame Seals"
-            ],
-            "requirement_fr": [
-                "pour le Rang 1",
-                "5.000 Sceaux de compagnie uldien"
-            ],
-            "entitlements_en": [
-                "30,000 Seal Cap",
-                "Level 30 GC Leves",
-                "Whitebrim GC Leves"
-            ],
+            "requirement_en": ["to Rank 1", "5,000 Flame Seals"],
+            "requirement_fr": ["pour le Rang 1", "5.000 Sceaux de compagnie uldien"],
+            "entitlements_en": ["30,000 Seal Cap", "Level 30 GC Leves", "Whitebrim GC Leves"],
             "entitlements_fr": [
                 "30.000 Sceaux de compagnie uldien maximum",
                 "Mandats de Grande Compagnie niveau 30",
                 "Mandats de Grande Compagnie au Poste de L'Arête blanche"
             ],
-            "cPrev": [
-                25
-            ],
-            "cNext": [
-                27
-            ]
+            "cPrev": [25],
+            "cNext": [27]
         },
         "x27": {
             "name_en": "Flame Sergeant Second Class",
@@ -553,20 +354,10 @@
             "grandCompany": "SOCIETY.FLAMES",
             "requirement_en": "6,000 Flame Seals",
             "requirement_fr": "6.000 Sceaux de compagnie uldien",
-            "entitlements_en": [
-                "35,000 Seal Cap",
-                "Expert Deliveries"
-            ],
-            "entitlements_fr": [
-                "35.000 Sceaux de compagnie uldien maximum",
-                "Prise de guerre"
-            ],
-            "cPrev": [
-                26
-            ],
-            "cNext": [
-                28
-            ]
+            "entitlements_en": ["35,000 Seal Cap", "Expert Deliveries"],
+            "entitlements_fr": ["35.000 Sceaux de compagnie uldien maximum", "Prise de guerre"],
+            "cPrev": [26],
+            "cNext": [28]
         },
         "x28": {
             "name_en": "Flame Sergeant First Class",
@@ -576,12 +367,8 @@
             "requirement_fr": "7.000 Sceaux de compagnie uldien",
             "entitlements_en": "40,000 Seal Cap",
             "entitlements_fr": "40.000 Sceaux de compagnie uldien maximum",
-            "cPrev": [
-                27
-            ],
-            "cNext": [
-                29
-            ]
+            "cPrev": [27],
+            "cNext": [29]
         },
         "x29": {
             "name_en": "Chief Flame Sergeant",
@@ -590,51 +377,22 @@
             "requirement": "duty.quests.other.grand-company.immortal-flames.66666",
             "requirement_en": "8,000 Flame Seals",
             "requirement_fr": "8,000 Sceaux de compagnie uldien",
-            "entitlements_en": [
-                "45,000 Seal Cap",
-                "Mor Dhona GC Leves"
-            ],
-            "entitlements_fr": [
-                "45,000 Sceaux de compagnie uldien maximum",
-                "Mandats de Grande Compagnie au Mor Dhona"
-            ],
-            "cPrev": [
-                28
-            ],
-            "cNext": [
-                30
-            ]
+            "entitlements_en": ["45,000 Seal Cap", "Mor Dhona GC Leves"],
+            "entitlements_fr": ["45,000 Sceaux de compagnie uldien maximum", "Mandats de Grande Compagnie au Mor Dhona"],
+            "cPrev": [28],
+            "cNext": [30]
         },
         "x30": {
             "name_en": "Second Flame Lieutenant",
             "name_fr": "Sous-lieutenant(e)",
             "grandCompany": "SOCIETY.FLAMES",
-            "requirement": [
-                "duty.quests.other.grand-company.immortal-flames.66669",
-                "logs.hunting-log.immortal-flames"
-            ],
-            "requirement_en": [
-                "to Rank 2",
-                "9,000 Flame Seals"
-            ],
-            "requirement_fr": [
-                "pour le Rang 2",
-                "9.000 Sceaux de compagnie uldien"
-            ],
-            "entitlements_en": [
-                "50,000 Seal Cap",
-                "Adventurer Squadrons"
-            ],
-            "entitlements_fr": [
-                "50.000 Sceaux de compagnie uldien maximum",
-                "Escouade de Grande Compagnie"
-            ],
-            "cPrev": [
-                29
-            ],
-            "cNext": [
-                31
-            ]
+            "requirement": ["duty.quests.other.grand-company.immortal-flames.66669", "logs.hunting-log.immortal-flames"],
+            "requirement_en": ["to Rank 2", "9,000 Flame Seals"],
+            "requirement_fr": ["pour le Rang 2", "9.000 Sceaux de compagnie uldien"],
+            "entitlements_en": ["50,000 Seal Cap", "Adventurer Squadrons"],
+            "entitlements_fr": ["50.000 Sceaux de compagnie uldien maximum", "Escouade de Grande Compagnie"],
+            "cPrev": [29],
+            "cNext": [31]
         },
         "x31": {
             "name_en": "First Flame Lieutenant",
@@ -644,12 +402,8 @@
             "requirement_fr": "Accomplissement de la mission normale d'escouade: \"Subtilisation de cristaux\"",
             "entitlements_en": "80,000 Seal Cap",
             "entitlements_fr": "80.000 Sceaux de compagnie uldien maximum",
-            "cPrev": [
-                30
-            ],
-            "cNext": [
-                32
-            ]
+            "cPrev": [30],
+            "cNext": [32]
         },
         "x32": {
             "name_en": "Flame Captain",
@@ -665,9 +419,7 @@
             ],
             "entitlements_en": "90,000 Seal Cap",
             "entitlements_fr": "90.000 Sceaux de compagnie uldien maximum",
-            "cPrev": [
-                31
-            ]
+            "cPrev": [31]
         }
     }
 }

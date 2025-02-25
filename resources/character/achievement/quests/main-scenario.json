@@ -10,13 +10,8 @@
             "description_fr": "Accomplir la quête de l'épopée “L'émissaire de Limsa Lominsa”.",
             "patch": "2.0",
             "points": 5,
-            "cSiblings": [
-                "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66082"
-            ],
-            "cExclude": [
-                311,
-                312
-            ]
+            "cSiblings": ["duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.66082"],
+            "cExclude": [311, 312]
         },
         "x311": {
             "name_en": "Gone from Gridania",
@@ -25,13 +20,8 @@
             "description_fr": "Accomplir la quête de l'épopée “L'émissaire de Gridania”.",
             "patch": "2.0",
             "points": 5,
-            "cSiblings": [
-                "duty.quests.main-scenario.seventh-umbral-era.gridania.66043"
-            ],
-            "cExclude": [
-                310,
-                312
-            ]
+            "cSiblings": ["duty.quests.main-scenario.seventh-umbral-era.gridania.66043"],
+            "cExclude": [310, 312]
         },
         "x312": {
             "name_en": "Out of Ul'dah",
@@ -40,13 +30,8 @@
             "description_fr": "Accomplir la quête de l'épopée “L'émissaire d'Ul'dah”.",
             "patch": "2.0",
             "points": 5,
-            "cSiblings": [
-                "duty.quests.main-scenario.seventh-umbral-era.uldah.66064"
-            ],
-            "cExclude": [
-                310,
-                311
-            ]
+            "cSiblings": ["duty.quests.main-scenario.seventh-umbral-era.uldah.66064"],
+            "cExclude": [310, 311]
         },
         "x783": {
             "name_en": "Back from the Wood",
@@ -55,9 +40,7 @@
             "description_fr": "Accomplir la quête de l'épopée “Retour en forêt”.",
             "patch": "2.1",
             "points": 5,
-            "cSiblings": [
-                "duty.quests.main-scenario.seventh-umbral-era.66282"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.seventh-umbral-era.66282"]
         },
         "x784": {
             "name_en": "Skeletons",
@@ -66,9 +49,7 @@
             "description_fr": "Accomplir la quête de l'épopée “Beauté volée”.",
             "patch": "2.1",
             "points": 5,
-            "cSiblings": [
-                "duty.quests.main-scenario.seventh-umbral-era.66337"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.seventh-umbral-era.66337"]
         },
         "x785": {
             "name_en": "Those Who Wait",
@@ -77,9 +58,7 @@
             "description_fr": "Accomplir la quête de l'épopée “La lumière vacille”.",
             "patch": "2.1",
             "points": 5,
-            "cSiblings": [
-                "duty.quests.main-scenario.seventh-umbral-era.66053"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.seventh-umbral-era.66053"]
         },
         "x786": {
             "name_en": "History Repeating",
@@ -88,9 +67,7 @@
             "description_fr": "Accomplir la quête de l'épopée “Le dragon du Vigile de Pierre”.",
             "patch": "2.1",
             "points": 5,
-            "cSiblings": [
-                "duty.quests.main-scenario.seventh-umbral-era.66488"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.seventh-umbral-era.66488"]
         },
         "x787": {
             "name_en": "Free Wing Night",
@@ -99,9 +76,7 @@
             "description_fr": "Accomplir la quête de l'épopée “L'épreuve des bourrasques”.",
             "patch": "2.1",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.main-scenario.seventh-umbral-era.66055"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.seventh-umbral-era.66055"]
         },
         "x788": {
             "name_en": "Warrior of Light",
@@ -110,9 +85,7 @@
             "description_fr": "Accomplir la quête de l'épopée “L'ultime passe d'armes”.",
             "patch": "2.1",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.seventh-umbral-era.66060"]
         },
         "x898": {
             "name_en": "A Realm Awoken",
@@ -121,9 +94,7 @@
             "description_fr": "Accomplir la quête “Une volonté forgée dans la pierre”.",
             "patch": "2.2",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.seventh-astral-era.69414"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.seventh-astral-era.69414"]
         },
         "x899": {
             "name_en": "Through the Maelstrom",
@@ -132,9 +103,7 @@
             "description_fr": "Accomplir la quête “La spirale du chaos”.",
             "patch": "2.2",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.seventh-astral-era.66899"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.seventh-astral-era.66899"]
         },
         "x1001": {
             "name_en": "Eorzea Defended",
@@ -144,10 +113,7 @@
             "reward": "character.character.title.174",
             "patch": "2.3",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.seventh-astral-era.66996",
-                "character.character.title.174"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.seventh-astral-era.66996", "character.character.title.174"]
         },
         "x1029": {
             "name_en": "Dreams of Ice",
@@ -157,10 +123,7 @@
             "reward": "character.character.title.183",
             "patch": "2.4",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.seventh-astral-era.65625",
-                "character.character.title.183"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.seventh-astral-era.65625", "character.character.title.183"]
         },
         "x1129": {
             "name_en": "My Left Arm",
@@ -170,10 +133,7 @@
             "reward": "character.character.title.211",
             "patch": "2.55",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.seventh-astral-era.65964",
-                "character.character.title.211"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.seventh-astral-era.65964", "character.character.title.211"]
         },
         "x1133": {
             "name_en": "Lucky Number 7",
@@ -183,10 +143,7 @@
             "reward": "character.character.title.214",
             "patch": "3.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.heavensward.67134",
-                "character.character.title.214"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.heavensward.67134", "character.character.title.214"]
         },
         "x1134": {
             "name_en": "Gaol Break",
@@ -196,10 +153,7 @@
             "reward": "character.character.title.215",
             "patch": "3.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.heavensward.67137",
-                "character.character.title.215"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.heavensward.67137", "character.character.title.215"]
         },
         "x1135": {
             "name_en": "Orthodox Mayhem",
@@ -209,10 +163,7 @@
             "reward": "character.character.title.216",
             "patch": "3.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.heavensward.67172",
-                "character.character.title.216"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.heavensward.67172", "character.character.title.216"]
         },
         "x1136": {
             "name_en": "You Say You Want a Revolution",
@@ -222,10 +173,7 @@
             "reward": "character.character.title.217",
             "patch": "3.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.heavensward.67177",
-                "character.character.title.217"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.heavensward.67177", "character.character.title.217"]
         },
         "x1137": {
             "name_en": "The Faith That Drives Us",
@@ -235,10 +183,7 @@
             "reward": "character.character.title.218",
             "patch": "3.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.heavensward.67185",
-                "character.character.title.218"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.heavensward.67185", "character.character.title.218"]
         },
         "x1138": {
             "name_en": "Hope Enkindled",
@@ -248,10 +193,7 @@
             "reward": "character.character.title.219",
             "patch": "3.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.heavensward.67198",
-                "character.character.title.219"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.heavensward.67198", "character.character.title.219"]
         },
         "x1139": {
             "name_en": "Looking Up",
@@ -261,10 +203,7 @@
             "reward": "character.character.title.220",
             "patch": "3.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.heavensward.67205",
-                "character.character.title.220"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.heavensward.67205", "character.character.title.220"]
         },
         "x1387": {
             "name_en": "So It Goes",
@@ -274,10 +213,7 @@
             "reward": "character.character.title.271",
             "patch": "3.1",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.main-scenario.dragonsong.67699",
-                "character.character.title.271"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.dragonsong.67699", "character.character.title.271"]
         },
         "x1493": {
             "name_en": "First Gear",
@@ -287,10 +223,7 @@
             "reward": "character.character.title.289",
             "patch": "3.15",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.main-scenario.dragonsong.67777",
-                "character.character.title.289"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.dragonsong.67777", "character.character.title.289"]
         },
         "x1594": {
             "name_en": "Floor the Horde",
@@ -300,10 +233,7 @@
             "reward": "character.character.title.292",
             "patch": "3.3",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.main-scenario.dragonsong.67783",
-                "character.character.title.292"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.dragonsong.67783", "character.character.title.292"]
         },
         "x1630": {
             "name_en": "No Retreat, No Surrender",
@@ -313,10 +243,7 @@
             "reward": "character.character.title.316",
             "patch": "3.4",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-dragonsong.67886",
-                "character.character.title.316"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-dragonsong.67886", "character.character.title.316"]
         },
         "x1690": {
             "name_en": "School's Out Forever",
@@ -326,10 +253,7 @@
             "reward": "character.character.title.340",
             "patch": "3.5",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-dragonsong.67891",
-                "character.character.title.340"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-dragonsong.67891", "character.character.title.340"]
         },
         "x1691": {
             "name_en": "Five Minutes of Fate",
@@ -339,10 +263,7 @@
             "reward": "character.character.title.341",
             "patch": "3.56",
             "points": 10,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-dragonsong.67895",
-                "character.character.title.341"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-dragonsong.67895", "character.character.title.341"]
         },
         "x1787": {
             "name_en": "Incidentally Speaking",
@@ -352,10 +273,7 @@
             "reward": "character.character.title.351",
             "patch": "4.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.stormblood.68005",
-                "character.character.title.351"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.stormblood.68005", "character.character.title.351"]
         },
         "x1788": {
             "name_en": "Destination Unknown",
@@ -365,10 +283,7 @@
             "reward": "character.character.title.352",
             "patch": "4.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.stormblood.68012",
-                "character.character.title.352"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.stormblood.68012", "character.character.title.352"]
         },
         "x1789": {
             "name_en": "Unexplained",
@@ -378,10 +293,7 @@
             "reward": "character.character.title.353",
             "patch": "4.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.stormblood.68026",
-                "character.character.title.353"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.stormblood.68026", "character.character.title.353"]
         },
         "x1790": {
             "name_en": "Put Your Wings Up",
@@ -391,10 +303,7 @@
             "reward": "character.character.title.354",
             "patch": "4.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.stormblood.68035",
-                "character.character.title.354"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.stormblood.68035", "character.character.title.354"]
         },
         "x1791": {
             "name_en": "Crimson Footprints",
@@ -404,10 +313,7 @@
             "reward": "character.character.title.355",
             "patch": "4.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.stormblood.68053",
-                "character.character.title.355"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.stormblood.68053", "character.character.title.355"]
         },
         "x1792": {
             "name_en": "Catch Me if You Can",
@@ -417,10 +323,7 @@
             "reward": "character.character.title.356",
             "patch": "4.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.stormblood.68062",
-                "character.character.title.356"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.stormblood.68062", "character.character.title.356"]
         },
         "x1793": {
             "name_en": "Cheek to Cheek",
@@ -430,10 +333,7 @@
             "reward": "character.character.title.357",
             "patch": "4.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.stormblood.68083",
-                "character.character.title.357"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.stormblood.68083", "character.character.title.357"]
         },
         "x1794": {
             "name_en": "The Measure of His Reach",
@@ -443,10 +343,7 @@
             "reward": "character.character.title.358",
             "patch": "4.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.stormblood.68089",
-                "character.character.title.358"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.stormblood.68089", "character.character.title.358"]
         },
         "x1990": {
             "name_en": "More Heroes",
@@ -456,10 +353,7 @@
             "reward": "character.character.title.139",
             "patch": "4.1",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-stormblood.68508",
-                "character.character.title.139"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-stormblood.68508", "character.character.title.139"]
         },
         "x2013": {
             "name_en": "Solar Cycle",
@@ -469,10 +363,7 @@
             "reward": "character.character.title.181",
             "patch": "4.2",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-stormblood.68565",
-                "character.character.title.181"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-stormblood.68565", "character.character.title.181"]
         },
         "x2098": {
             "name_en": "Lunar Cycle",
@@ -482,10 +373,7 @@
             "reward": "character.character.title.392",
             "patch": "4.3",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-stormblood.68611",
-                "character.character.title.392"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-stormblood.68611", "character.character.title.392"]
         },
         "x2124": {
             "name_en": "A History of Violet",
@@ -495,10 +383,7 @@
             "reward": "character.character.title.402",
             "patch": "4.4",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-stormblood.68685",
-                "character.character.title.402"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-stormblood.68685", "character.character.title.402"]
         },
         "x2160": {
             "name_en": "What Is It Good For",
@@ -507,9 +392,7 @@
             "description_fr": "Accomplir la quête “Guerre ouverte”.",
             "patch": "4.5",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-stormblood.68719"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-stormblood.68719"]
         },
         "x2233": {
             "name_en": "Swan Song",
@@ -519,10 +402,7 @@
             "reward": "character.character.title.417",
             "patch": "4.56",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-stormblood.68721",
-                "character.character.title.417"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-stormblood.68721", "character.character.title.417"]
         },
         "x2293": {
             "name_en": "Between Two Worlds",
@@ -532,10 +412,7 @@
             "reward": "character.character.title.426",
             "patch": "5.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.shadowbringers.68837",
-                "character.character.title.426"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.shadowbringers.68837", "character.character.title.426"]
         },
         "x2294": {
             "name_en": "Realpolitik",
@@ -545,10 +422,7 @@
             "reward": "character.character.title.427",
             "patch": "5.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.shadowbringers.68857",
-                "character.character.title.427"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.shadowbringers.68857", "character.character.title.427"]
         },
         "x2295": {
             "name_en": "Journey to the Past",
@@ -558,10 +432,7 @@
             "reward": "character.character.title.428",
             "patch": "5.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.shadowbringers.68878",
-                "character.character.title.428"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.shadowbringers.68878", "character.character.title.428"]
         },
         "x2296": {
             "name_en": "Shrouded in Darkness",
@@ -571,10 +442,7 @@
             "reward": "character.character.title.429",
             "patch": "5.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.shadowbringers.69158",
-                "character.character.title.429"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.shadowbringers.69158", "character.character.title.429"]
         },
         "x2297": {
             "name_en": "Warden of Light",
@@ -584,10 +452,7 @@
             "reward": "character.character.title.430",
             "patch": "5.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.shadowbringers.69179",
-                "character.character.title.430"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.shadowbringers.69179", "character.character.title.430"]
         },
         "x2298": {
             "name_en": "Shadowbringers",
@@ -597,10 +462,7 @@
             "reward": "character.character.title.431",
             "patch": "5.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.shadowbringers.69190",
-                "character.character.title.431"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.shadowbringers.69190", "character.character.title.431"]
         },
         "x2424": {
             "name_en": "Black and White",
@@ -610,10 +472,7 @@
             "reward": "character.character.title.476",
             "patch": "5.1",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-shadowbringers.69218",
-                "character.character.title.476"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-shadowbringers.69218", "character.character.title.476"]
         },
         "x2587": {
             "name_en": "Way More Heroes",
@@ -623,10 +482,7 @@
             "reward": "character.character.title.520",
             "patch": "5.2",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-shadowbringers.69306",
-                "character.character.title.520"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-shadowbringers.69306", "character.character.title.520"]
         },
         "x2642": {
             "name_en": "Hope's Legacy",
@@ -636,10 +492,7 @@
             "reward": "character.character.title.527",
             "patch": "5.3",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-shadowbringers.69318",
-                "character.character.title.527"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-shadowbringers.69318", "character.character.title.527"]
         },
         "x2714": {
             "name_en": "Pen and Sword",
@@ -649,10 +502,7 @@
             "reward": "character.character.title.549",
             "patch": "5.4",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-shadowbringers-ii.69552",
-                "character.character.title.549"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-shadowbringers-ii.69552", "character.character.title.549"]
         },
         "x2850": {
             "name_en": "Not for Naught",
@@ -661,9 +511,7 @@
             "description_fr": "Accomplir la quête “Le coût de la guerre”.",
             "patch": "5.5",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-shadowbringers-ii.69599"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-shadowbringers-ii.69599"]
         },
         "x2851": {
             "name_en": "Under the Darkened Moon",
@@ -673,10 +521,7 @@
             "reward": "character.character.title.583",
             "patch": "5.55",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-shadowbringers-ii.69602",
-                "character.character.title.583"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-shadowbringers-ii.69602", "character.character.title.583"]
         },
         "x2952": {
             "name_en": "On Wings of Hope",
@@ -686,10 +531,7 @@
             "reward": "character.character.title.597",
             "patch": "6.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.endwalker.69915",
-                "character.character.title.597"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.endwalker.69915", "character.character.title.597"]
         },
         "x2953": {
             "name_en": "Rise Up Through the Night",
@@ -699,10 +541,7 @@
             "reward": "character.character.title.598",
             "patch": "6.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.endwalker.69934",
-                "character.character.title.598"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.endwalker.69934", "character.character.title.598"]
         },
         "x2954": {
             "name_en": "Higher",
@@ -712,10 +551,7 @@
             "reward": "character.character.title.599",
             "patch": "6.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.endwalker.69944",
-                "character.character.title.599"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.endwalker.69944", "character.character.title.599"]
         },
         "x2955": {
             "name_en": "Oh, Higher",
@@ -725,10 +561,7 @@
             "reward": "character.character.title.600",
             "patch": "6.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.endwalker.69954",
-                "character.character.title.600"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.endwalker.69954", "character.character.title.600"]
         },
         "x2956": {
             "name_en": "Carrying Our Song",
@@ -738,10 +571,7 @@
             "reward": "character.character.title.601",
             "patch": "6.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.endwalker.69974",
-                "character.character.title.601"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.endwalker.69974", "character.character.title.601"]
         },
         "x2957": {
             "name_en": "Fast Within Your Arms",
@@ -751,10 +581,7 @@
             "reward": "character.character.title.602",
             "patch": "6.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.endwalker.69985",
-                "character.character.title.602"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.endwalker.69985", "character.character.title.602"]
         },
         "x2958": {
             "name_en": "That Its Chorus Might Ring for All",
@@ -764,10 +591,7 @@
             "reward": "character.character.title.603",
             "patch": "6.0",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.endwalker.70000",
-                "character.character.title.603"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.endwalker.70000", "character.character.title.603"]
         },
         "x3075": {
             "name_en": "Newfound Adventure",
@@ -777,10 +601,7 @@
             "reward": "character.character.title.637",
             "patch": "6.1",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-endwalker.70071",
-                "character.character.title.637"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-endwalker.70071", "character.character.title.637"]
         },
         "x3105": {
             "name_en": "Into the Light",
@@ -790,10 +611,7 @@
             "reward": "character.character.title.648",
             "patch": "6.2",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-endwalker.70136",
-                "character.character.title.648"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-endwalker.70136", "character.character.title.648"]
         },
         "x3157": {
             "name_en": "Hallowed and Harrowed",
@@ -803,10 +621,7 @@
             "reward": "character.character.title.658",
             "patch": "6.3",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-endwalker.70214",
-                "character.character.title.658"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-endwalker.70214", "character.character.title.658"]
         },
         "x3244": {
             "name_en": "You Win or You Dais",
@@ -816,10 +631,7 @@
             "reward": "character.character.title.677",
             "patch": "6.4",
             "points": 20,
-            "cSiblings": [
-                "duty.quests.main-scenario.post-endwalker.70279",
-                "character.character.title.677"
-            ]
+            "cSiblings": ["duty.quests.main-scenario.post-endwalker.70279", "character.character.title.677"]
         },
         "x3413": {
             "name_en": "For Others to Follow",
@@ -829,10 +641,7 @@
             "reward": "character.character.title.712",
             "patch": "6.5",
             "points": 20,
-            "cSiblings": [
-                "character.character.title.712",
-                "duty.quests.main-scenario.post-endwalker.70286"
-            ]
+            "cSiblings": ["character.character.title.712", "duty.quests.main-scenario.post-endwalker.70286"]
         },
         "x3414": {
             "name_en": "Tomorrows Unknown",
@@ -842,10 +651,7 @@
             "reward": "character.character.title.713",
             "patch": "6.55",
             "points": 20,
-            "cSiblings": [
-                "character.character.title.713",
-                "duty.quests.main-scenario.post-endwalker.70289"
-            ]
+            "cSiblings": ["character.character.title.713", "duty.quests.main-scenario.post-endwalker.70289"]
         }
     }
 }

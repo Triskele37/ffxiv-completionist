@@ -9,12 +9,8 @@
             "name_fr": "La voie du pugilat",
             "npc_en": "Gagaruna",
             "npc_fr": "Gagaruna",
-            "cPrev": [
-                "duty.quests.other.quasi-quests.65714"
-            ],
-            "cNext": [
-                66089
-            ],
+            "cPrev": ["duty.quests.other.quasi-quests.65714"],
+            "cNext": [66089],
             "patch": "4.31"
         },
         "x66089": {
@@ -23,13 +19,8 @@
             "name_fr": "Premiers pas à mains nues",
             "npc_en": "Hamon",
             "npc_fr": "Hamon",
-            "cPrev": [
-                66068
-            ],
-            "cNext": [
-                66090,
-                66234
-            ],
+            "cPrev": [66068],
+            "cNext": [66090, 66234],
             "patch": "4.31"
         },
         "x66090": {
@@ -39,13 +30,8 @@
             "cPrevAny": true,
             "npc_en": "Hamon",
             "npc_fr": "Hamon",
-            "cPrev": [
-                66089,
-                66068
-            ],
-            "cNext": [
-                66234
-            ],
+            "cPrev": [66089, 66068],
+            "cNext": [66234],
             "patch": "4.31"
         },
         "x66234": {
@@ -54,13 +40,8 @@
             "name_fr": "Plus rapide que l'éclair",
             "npc_en": "Hamon",
             "npc_fr": "Hamon",
-            "cPrev": [
-                66090,
-                66089
-            ],
-            "cNext": [
-                66094
-            ],
+            "cPrev": [66090, 66089],
+            "cNext": [66094],
             "patch": "4.31"
         },
         "x66094": {
@@ -69,12 +50,8 @@
             "name_fr": "La combativité du maître",
             "npc_en": "Hamon",
             "npc_fr": "Hamon",
-            "cPrev": [
-                66234
-            ],
-            "cNext": [
-                66098
-            ],
+            "cPrev": [66234],
+            "cNext": [66098],
             "patch": "4.31"
         },
         "x66098": {
@@ -83,12 +60,8 @@
             "name_fr": "Attiser l'ancien feu",
             "npc_en": "Hamon",
             "npc_fr": "Hamon",
-            "cPrev": [
-                66094
-            ],
-            "cNext": [
-                66102
-            ],
+            "cPrev": [66094],
+            "cNext": [66102],
             "patch": "4.31"
         },
         "x66102": {
@@ -97,12 +70,8 @@
             "name_fr": "Deux étoiles rivales",
             "npc_en": "Hamon",
             "npc_fr": "Hamon",
-            "cPrev": [
-                66098
-            ],
-            "cNext": [
-                66103
-            ],
+            "cPrev": [66098],
+            "cNext": [66103],
             "patch": "4.31"
         },
         "x66103": {
@@ -111,15 +80,9 @@
             "name_fr": "Le retour des Poings divins",
             "npc_en": "Hamon",
             "npc_fr": "Hamon",
-            "cPrev": [
-                66102
-            ],
-            "cNext": [
-                "duty.quests.class--job.disciple-of-war-job.monk.66597"
-            ],
-            "cSiblings": [
-                "character.adventure-plate.28"
-            ],
+            "cPrev": [66102],
+            "cNext": ["duty.quests.class--job.disciple-of-war-job.monk.66597"],
+            "cSiblings": ["character.adventure-plate.28"],
             "cCombo": [
                 "character.achievement.quests.job-role-quests.313",
                 "character.achievement.quests.job-role-quests.314"

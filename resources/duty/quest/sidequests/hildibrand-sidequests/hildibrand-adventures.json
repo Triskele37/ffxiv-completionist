@@ -9,13 +9,8 @@
             "name_fr": "Le gentilhomme détective",
             "npc_en": "Wymond",
             "npc_fr": "Wymond",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.side-story.delivery-moogle.65776",
-                66741
-            ],
+            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
+            "cNext": ["duty.quests.sidequests.side-story.delivery-moogle.65776", 66741],
             "patch": "4.31"
         },
         "x66741": {
@@ -24,12 +19,8 @@
             "name_fr": "Une nouvelle énigme",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [
-                66740
-            ],
-            "cNext": [
-                66742
-            ],
+            "cPrev": [66740],
+            "cNext": [66742],
             "patch": "4.31"
         },
         "x66742": {
@@ -38,12 +29,8 @@
             "name_fr": "L'amour fou",
             "npc_en": "Wymond",
             "npc_fr": "Wymond",
-            "cPrev": [
-                66741
-            ],
-            "cNext": [
-                66743
-            ],
+            "cPrev": [66741],
+            "cNext": [66743],
             "patch": "4.31"
         },
         "x66743": {
@@ -52,12 +39,8 @@
             "name_fr": "Le Gentilhomme de la Lumière",
             "npc_en": "Ellie",
             "npc_fr": "Ellie",
-            "cPrev": [
-                66742
-            ],
-            "cNext": [
-                66851
-            ],
+            "cPrev": [66742],
+            "cNext": [66851],
             "patch": "4.31"
         },
         "x66851": {
@@ -66,12 +49,8 @@
             "name_fr": "De nouvelles rencontres",
             "npc_en": "Ellie",
             "npc_fr": "Ellie",
-            "cPrev": [
-                66743
-            ],
-            "cNext": [
-                66852
-            ],
+            "cPrev": [66743],
+            "cNext": [66852],
             "patch": "4.31"
         },
         "x66852": {
@@ -80,15 +59,9 @@
             "name_fr": "Le démon à la toison blanche",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [
-                66851
-            ],
-            "cNext": [
-                66853
-            ],
-            "cSiblings": [
-                "social.emotes.special.104"
-            ],
+            "cPrev": [66851],
+            "cNext": [66853],
+            "cSiblings": ["social.emotes.special.104"],
             "patch": "4.31"
         },
         "x66853": {
@@ -97,12 +70,8 @@
             "name_fr": "L'orfèvre le plus balèze d'Éorzéa",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [
-                66852
-            ],
-            "cNext": [
-                66854
-            ],
+            "cPrev": [66852],
+            "cNext": [66854],
             "patch": "4.31"
         },
         "x66854": {
@@ -112,12 +81,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.8",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [
-                66853
-            ],
-            "cNext": [
-                66974
-            ],
+            "cPrev": [66853],
+            "cNext": [66974],
             "patch": "4.31"
         },
         "x66974": {
@@ -126,12 +91,8 @@
             "name_fr": "À la recherche du Masque blanc",
             "npc_en": "Ellie",
             "npc_fr": "Ellie",
-            "cPrev": [
-                66854
-            ],
-            "cNext": [
-                66975
-            ],
+            "cPrev": [66854],
+            "cNext": [66975],
             "patch": "4.31"
         },
         "x66975": {
@@ -140,12 +101,8 @@
             "name_fr": "Une découverte explosive",
             "npc_en": "Briardien",
             "npc_fr": "Briardien",
-            "cPrev": [
-                66974
-            ],
-            "cNext": [
-                66976
-            ],
+            "cPrev": [66974],
+            "cNext": [66976],
             "patch": "4.31"
         },
         "x66976": {
@@ -154,12 +111,8 @@
             "name_fr": "Déraciner et démasquer",
             "npc_en": "Tiny Trader",
             "npc_fr": "Marchand Chétif",
-            "cPrev": [
-                66975
-            ],
-            "cNext": [
-                66977
-            ],
+            "cPrev": [66975],
+            "cNext": [66977],
             "patch": "4.31"
         },
         "x66977": {
@@ -168,12 +121,8 @@
             "name_fr": "Un coup de collier",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [
-                66976
-            ],
-            "cNext": [
-                65702
-            ],
+            "cPrev": [66976],
+            "cNext": [65702],
             "patch": "4.31"
         },
         "x65702": {
@@ -182,12 +131,8 @@
             "name_fr": "Une affaire tentaculaire",
             "npc_en": "Ellie",
             "npc_fr": "Ellie",
-            "cPrev": [
-                66977
-            ],
-            "cNext": [
-                65738
-            ],
+            "cPrev": [66977],
+            "cNext": [65738],
             "patch": "4.31"
         },
         "x65738": {
@@ -196,12 +141,8 @@
             "name_fr": "Effet boomerang",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [
-                65702
-            ],
-            "cNext": [
-                65739
-            ],
+            "cPrev": [65702],
+            "cNext": [65739],
             "patch": "4.31"
         },
         "x65739": {
@@ -210,12 +151,8 @@
             "name_fr": "Un ouragan de mystères",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [
-                65738
-            ],
-            "cNext": [
-                65740
-            ],
+            "cPrev": [65738],
+            "cNext": [65740],
             "patch": "4.31"
         },
         "x65740": {
@@ -225,12 +162,8 @@
             "unlock": "duty.dutyraid-finder.trials.arr.9",
             "npc_en": "Briardien",
             "npc_fr": "Briardien",
-            "cPrev": [
-                65739
-            ],
-            "cNext": [
-                66026
-            ],
+            "cPrev": [65739],
+            "cNext": [66026],
             "patch": "4.31"
         },
         "x66026": {
@@ -239,12 +172,8 @@
             "name_fr": "Rancœur séculaire",
             "npc_en": "Ellie",
             "npc_fr": "Ellie",
-            "cPrev": [
-                65740
-            ],
-            "cNext": [
-                66027
-            ],
+            "cPrev": [65740],
+            "cNext": [66027],
             "patch": "4.31"
         },
         "x66027": {
@@ -253,12 +182,8 @@
             "name_fr": "Écrite par les vainqueurs",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [
-                66026
-            ],
-            "cNext": [
-                66028
-            ],
+            "cPrev": [66026],
+            "cNext": [66028],
             "patch": "4.31"
         },
         "x66028": {
@@ -267,12 +192,8 @@
             "name_fr": "Le glaive et la balance",
             "npc_en": "Hildibrand",
             "npc_fr": "Hildibrand",
-            "cPrev": [
-                66027
-            ],
-            "cNext": [
-                66029
-            ],
+            "cPrev": [66027],
+            "cNext": [66029],
             "patch": "4.31"
         },
         "x66029": {
@@ -281,12 +202,8 @@
             "name_fr": "Une affaire de famille",
             "npc_en": "Hyuran Woman",
             "npc_fr": "Jeune Fille Inconnue",
-            "cPrev": [
-                66028
-            ],
-            "cNext": [
-                66038
-            ],
+            "cPrev": [66028],
+            "cNext": [66038],
             "patch": "4.31"
         },
         "x66038": {
@@ -296,17 +213,12 @@
             "unlock": "duty.dutyraid-finder.trials.arr.10",
             "npc_en": "Julyan",
             "npc_fr": "Julyan",
-            "cPrev": [
-                66029
-            ],
+            "cPrev": [66029],
             "cNext": [
                 "duty.quests.sidequests.hildibrand-sidequests.further-hildibrand-adventures.67762",
                 "duty.quests.sidequests.side-story.scholasticate.67688"
             ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1061",
-                "social.emotes.special.114"
-            ],
+            "cSiblings": ["character.achievement.quests.quests.1061", "social.emotes.special.114"],
             "patch": "4.31"
         }
     }

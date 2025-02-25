@@ -10,9 +10,7 @@
             "description_fr": "Réaliser 50 synthèses de couture de niveau 1 à 10.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                172
-            ]
+            "cCombo": [172]
         },
         "x168": {
             "name_en": "Threading the Needle: Initiate",
@@ -21,9 +19,7 @@
             "description_fr": "Réaliser 300 synthèses de couture de niveau 11 à 20.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                172
-            ]
+            "cCombo": [172]
         },
         "x169": {
             "name_en": "Threading the Needle: Apprentice",
@@ -32,9 +28,7 @@
             "description_fr": "Réaliser 750 synthèses de couture de niveau 21 à 30.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                172
-            ]
+            "cCombo": [172]
         },
         "x170": {
             "name_en": "Threading the Needle: Journeyman",
@@ -43,9 +37,7 @@
             "description_fr": "Réaliser 1 500 synthèses de couture de niveau 31 à 40.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                172
-            ]
+            "cCombo": [172]
         },
         "x171": {
             "name_en": "Threading the Needle: Artisan",
@@ -55,12 +47,8 @@
             "reward": "character.character.title.22",
             "patch": "2.0",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.22"
-            ],
-            "cCombo": [
-                172
-            ]
+            "cSiblings": ["character.character.title.22"],
+            "cCombo": [172]
         },
         "x172": {
             "name_en": "A Weaver's Life for Me",
@@ -71,13 +59,7 @@
             "reward_fr": "Aiguille de virtuose",
             "patch": "2.0",
             "points": 30,
-            "cPrev": [
-                167,
-                168,
-                169,
-                170,
-                171
-            ]
+            "cPrev": [167, 168, 169, 170, 171]
         },
         "x1306": {
             "name_en": "Threading the Needle: Adept",
@@ -118,9 +100,7 @@
             "description_fr": "Faire 50 synthèses de couturier différentes et les avoir notées dans le carnet d'artisanat.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                711
-            ]
+            "cNext": [711]
         },
         "x711": {
             "name_en": "I Made That: Weaver II",
@@ -129,12 +109,8 @@
             "description_fr": "Faire 110 synthèses de couturier différentes et les avoir notées dans le carnet d'artisanat.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [
-                710
-            ],
-            "cNext": [
-                712
-            ]
+            "cPrev": [710],
+            "cNext": [712]
         },
         "x712": {
             "name_en": "I Made That: Weaver III",
@@ -145,12 +121,8 @@
             "reward_fr": "Anneau de maître couturier",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                711
-            ],
-            "cNext": [
-                1283
-            ]
+            "cPrev": [711],
+            "cNext": [1283]
         },
         "x1283": {
             "name_en": "I Made That: Weaver IV",
@@ -159,12 +131,8 @@
             "description_fr": "Faire 320 synthèses de couturier différentes et les avoir notées dans le carnet d'artisanat.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                712
-            ],
-            "cNext": [
-                1726
-            ]
+            "cPrev": [712],
+            "cNext": [1726]
         },
         "x1726": {
             "name_en": "I Made That: Weaver V",
@@ -175,12 +143,8 @@
             "reward_fr": "Aiguille de tailleur bénie",
             "patch": "3.5",
             "points": 10,
-            "cPrev": [
-                1283
-            ],
-            "cNext": [
-                2171
-            ]
+            "cPrev": [1283],
+            "cNext": [2171]
         },
         "x2171": {
             "name_en": "I Made That: Weaver VI",
@@ -191,9 +155,7 @@
             "reward_fr": "Aiguille du roi des étoffes bénie",
             "patch": "4.5",
             "points": 10,
-            "cPrev": [
-                1726
-            ]
+            "cPrev": [1726]
         },
         "x765": {
             "name_en": "An Eye for Detail: Weaver I",
@@ -202,9 +164,7 @@
             "description_fr": "Fabriquer un total de 100 objets de haute qualité en tant que couturier.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                766
-            ]
+            "cNext": [766]
         },
         "x766": {
             "name_en": "An Eye for Detail: Weaver II",
@@ -213,12 +173,8 @@
             "description_fr": "Fabriquer un total de 500 objets de haute qualité en tant que couturier.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [
-                765
-            ],
-            "cNext": [
-                767
-            ]
+            "cPrev": [765],
+            "cNext": [767]
         },
         "x767": {
             "name_en": "An Eye for Detail: Weaver III",
@@ -227,12 +183,8 @@
             "description_fr": "Fabriquer un total de 3 000 objets de haute qualité en tant que couturier.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                766
-            ],
-            "cNext": [
-                1318
-            ]
+            "cPrev": [766],
+            "cNext": [1318]
         },
         "x1318": {
             "name_en": "An Eye for Detail: Weaver IV",
@@ -241,12 +193,8 @@
             "description_fr": "Fabriquer un total de 5 000 objets de haute qualité en tant que couturier.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                767
-            ],
-            "cNext": [
-                1326
-            ]
+            "cPrev": [767],
+            "cNext": [1326]
         },
         "x1326": {
             "name_en": "An Eye for Detail: Weaver V",
@@ -256,12 +204,8 @@
             "reward": "character.character.title.258",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                1318
-            ],
-            "cSiblings": [
-                "character.character.title.258"
-            ]
+            "cPrev": [1318],
+            "cSiblings": ["character.character.title.258"]
         },
         "x2504": {
             "name_en": "Skyward Needle I",
@@ -270,12 +214,8 @@
             "description_fr": "Gagner un total de 50 000 points d'azur en tant que couturier.",
             "patch": "5.21",
             "points": 5,
-            "cNext": [
-                2505
-            ],
-            "cCombo": [
-                "character.achievement.crafting--gathering.all-disciplines.2522"
-            ]
+            "cNext": [2505],
+            "cCombo": ["character.achievement.crafting--gathering.all-disciplines.2522"]
         },
         "x2505": {
             "name_en": "Skyward Needle II",
@@ -284,12 +224,8 @@
             "description_fr": "Gagner un total de 150 000 points d'azur en tant que couturier.",
             "patch": "5.21",
             "points": 5,
-            "cPrev": [
-                2504
-            ],
-            "cNext": [
-                2506
-            ]
+            "cPrev": [2504],
+            "cNext": [2506]
         },
         "x2506": {
             "name_en": "Skyward Needle III",
@@ -299,15 +235,9 @@
             "reward": "character.character.title.495",
             "patch": "5.21",
             "points": 10,
-            "cPrev": [
-                2505
-            ],
-            "cSiblings": [
-                "character.character.title.495"
-            ],
-            "cCombo": [
-                "character.achievement.crafting--gathering.all-disciplines.2524"
-            ]
+            "cPrev": [2505],
+            "cSiblings": ["character.character.title.495"],
+            "cCombo": ["character.achievement.crafting--gathering.all-disciplines.2524"]
         },
         "x2532": {
             "name_en": "The Height of Clothcraft",
@@ -317,9 +247,7 @@
             "reward": "character.character.title.508",
             "patch": "5.21",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.508"
-            ]
+            "cSiblings": ["character.character.title.508"]
         },
         "x2653": {
             "name_en": "Weavers of a Feather",
@@ -329,9 +257,7 @@
             "reward": "character.character.title.533",
             "patch": "5.31",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.533"
-            ]
+            "cSiblings": ["character.character.title.533"]
         },
         "x2812": {
             "name_en": "An Ode to Clothcraft",
@@ -341,9 +267,7 @@
             "reward": "character.character.title.570",
             "patch": "5.41",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.570"
-            ]
+            "cSiblings": ["character.character.title.570"]
         },
         "x2825": {
             "name_en": "Retooled: Resplendent Boltfiend's Needle",
@@ -352,9 +276,7 @@
             "description_fr": "Obtenir une aiguille du fiélon des étoffes resplendissante.",
             "patch": "5.5",
             "points": 10,
-            "cCombo": [
-                "character.achievement.crafting--gathering.all-disciplines.2829"
-            ]
+            "cCombo": ["character.achievement.crafting--gathering.all-disciplines.2829"]
         }
     }
 }

@@ -10,9 +10,7 @@
             "description_fr": "Vaincre 100 ennemis.",
             "patch": "2.0",
             "points": 5,
-            "cNext": [
-                2
-            ]
+            "cNext": [2]
         },
         "x2": {
             "name_en": "To Crush Your Enemies II",
@@ -21,12 +19,8 @@
             "description_fr": "Vaincre 500 ennemis.",
             "patch": "2.0",
             "points": 5,
-            "cPrev": [
-                1
-            ],
-            "cNext": [
-                3
-            ]
+            "cPrev": [1],
+            "cNext": [3]
         },
         "x3": {
             "name_en": "To Crush Your Enemies III",
@@ -35,12 +29,8 @@
             "description_fr": "Vaincre 1 000 ennemis.",
             "patch": "2.0",
             "points": 10,
-            "cPrev": [
-                2
-            ],
-            "cNext": [
-                4
-            ]
+            "cPrev": [2],
+            "cNext": [4]
         },
         "x4": {
             "name_en": "To Crush Your Enemies IV",
@@ -49,12 +39,8 @@
             "description_fr": "Vaincre 5 000 ennemis.",
             "patch": "2.0",
             "points": 10,
-            "cPrev": [
-                3
-            ],
-            "cNext": [
-                5
-            ]
+            "cPrev": [3],
+            "cNext": [5]
         },
         "x5": {
             "name_en": "To Crush Your Enemies V",
@@ -63,12 +49,8 @@
             "description_fr": "Vaincre 10 000 ennemis.",
             "patch": "2.0",
             "points": 10,
-            "cPrev": [
-                4
-            ],
-            "cNext": [
-                6
-            ]
+            "cPrev": [4],
+            "cNext": [6]
         },
         "x6": {
             "name_en": "To Crush Your Enemies VI",
@@ -78,15 +60,9 @@
             "reward": "character.character.title.9",
             "patch": "2.0",
             "points": 10,
-            "cPrev": [
-                5
-            ],
-            "cNext": [
-                7
-            ],
-            "cSiblings": [
-                "character.character.title.9"
-            ]
+            "cPrev": [5],
+            "cNext": [7],
+            "cSiblings": ["character.character.title.9"]
         },
         "x7": {
             "name_en": "Let the Bodies Hit the Floor",
@@ -97,12 +73,8 @@
             "reward_fr": "Couronne de massacreur",
             "patch": "2.0",
             "points": 30,
-            "cPrev": [
-                6
-            ],
-            "cNext": [
-                1336
-            ]
+            "cPrev": [6],
+            "cNext": [1336]
         },
         "x1336": {
             "name_en": "To Crush Your Enemies VII",
@@ -111,9 +83,7 @@
             "description_fr": "Vaincre 200 000 ennemis.",
             "patch": "3.0",
             "points": 30,
-            "cPrev": [
-                7
-            ]
+            "cPrev": [7]
         },
         "x728": {
             "name_en": "Bump on a Log: Gladiator",
@@ -124,9 +94,7 @@
             "reward_fr": "Anneau de maître gladiateur",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [
-                "logs.hunting-log.gladiator.all"
-            ]
+            "cPrev": ["logs.hunting-log.gladiator.all"]
         },
         "x729": {
             "name_en": "Bump on a Log: Pugilist",
@@ -137,9 +105,7 @@
             "reward_fr": "Anneau de maître pugiliste",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [
-                "logs.hunting-log.pugilist.all"
-            ]
+            "cPrev": ["logs.hunting-log.pugilist.all"]
         },
         "x730": {
             "name_en": "Bump on a Log: Marauder",
@@ -150,9 +116,7 @@
             "reward_fr": "Anneau de maître maraudeur",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [
-                "logs.hunting-log.marauder.all"
-            ]
+            "cPrev": ["logs.hunting-log.marauder.all"]
         },
         "x731": {
             "name_en": "Bump on a Log: Lancer",
@@ -163,9 +127,7 @@
             "reward_fr": "Anneau de maître lancier",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [
-                "logs.hunting-log.lancer.all"
-            ]
+            "cPrev": ["logs.hunting-log.lancer.all"]
         },
         "x732": {
             "name_en": "Bump on a Log: Archer",
@@ -176,9 +138,7 @@
             "reward_fr": "Anneau de maître archer",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [
-                "logs.hunting-log.archer.all"
-            ]
+            "cPrev": ["logs.hunting-log.archer.all"]
         },
         "x1051": {
             "name_en": "Bump on a Log: Rogue",
@@ -189,9 +149,7 @@
             "reward_fr": "Anneau de maître surineur",
             "patch": "2.4",
             "points": 20,
-            "cPrev": [
-                "logs.hunting-log.rogue.all"
-            ]
+            "cPrev": ["logs.hunting-log.rogue.all"]
         },
         "x733": {
             "name_en": "Bump on a Log: Conjurer",
@@ -202,9 +160,7 @@
             "reward_fr": "Anneau de maître élémentaliste",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [
-                "logs.hunting-log.conjurer.all"
-            ]
+            "cPrev": ["logs.hunting-log.conjurer.all"]
         },
         "x734": {
             "name_en": "Bump on a Log: Thaumaturge",
@@ -215,9 +171,7 @@
             "reward_fr": "Anneau de maître occultiste",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [
-                "logs.hunting-log.thaumaturge.all"
-            ]
+            "cPrev": ["logs.hunting-log.thaumaturge.all"]
         },
         "x735": {
             "name_en": "Bump on a Log: Arcanist",
@@ -228,9 +182,7 @@
             "reward_fr": "Anneau de maître arcaniste",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [
-                "logs.hunting-log.arcanist.all"
-            ]
+            "cPrev": ["logs.hunting-log.arcanist.all"]
         },
         "x792": {
             "name_en": "Locking Horns",
@@ -239,9 +191,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: contre-traque” avec la meilleure évaluation possible.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                "duty.fate.coerthas.central-highlands.506"
-            ]
+            "cPrev": ["duty.fate.coerthas.central-highlands.506"]
         },
         "x793": {
             "name_en": "Uncut",
@@ -250,9 +200,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: le Chevalier des ombres” avec la meilleure évaluation possible.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                "duty.fate.black-shroud.196"
-            ]
+            "cPrev": ["duty.fate.black-shroud.196"]
         },
         "x794": {
             "name_en": "When the Going Gets Tough",
@@ -261,9 +209,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: gorgimère indigne” avec la meilleure évaluation possible.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                "duty.fate.thanalan.northern-thanalan.647"
-            ]
+            "cPrev": ["duty.fate.thanalan.northern-thanalan.647"]
         },
         "x795": {
             "name_en": "On the Ropes",
@@ -272,9 +218,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: l'œil de la tête” avec la meilleure évaluation possible.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                "duty.fate.coerthas.central-highlands.507"
-            ]
+            "cPrev": ["duty.fate.coerthas.central-highlands.507"]
         },
         "x796": {
             "name_en": "Full Remission",
@@ -283,9 +227,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: cancer, le casque de mort” avec la meilleure évaluation possible.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                "duty.fate.la-noscea.eastern-la-noscea.335"
-            ]
+            "cPrev": ["duty.fate.la-noscea.eastern-la-noscea.335"]
         },
         "x797": {
             "name_en": "Lazy Town",
@@ -294,9 +236,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: Laurence pas ravie” avec la meilleure évaluation possible.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                "duty.fate.black-shroud.east-shroud.218"
-            ]
+            "cPrev": ["duty.fate.black-shroud.east-shroud.218"]
         },
         "x798": {
             "name_en": "Blood, Sweat, and Blood",
@@ -305,9 +245,7 @@
             "description_fr": "Accomplir l'ALÉA “Culte maudit: l'affront” avec la meilleure évaluation possible.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                "duty.fate.thanalan.northern-thanalan.646"
-            ]
+            "cPrev": ["duty.fate.thanalan.northern-thanalan.646"]
         },
         "x799": {
             "name_en": "Ring of Fire",
@@ -332,9 +270,7 @@
             "description_fr": "Accomplir l'ALÉA “Assaut sur Le Viaduc: acte III” avec la meilleure évaluation possible.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                "duty.fate.thanalan.eastern-thanalan.194"
-            ]
+            "cPrev": ["duty.fate.thanalan.eastern-thanalan.194"]
         },
         "x802": {
             "name_en": "Old Maid",
@@ -343,9 +279,7 @@
             "description_fr": "Accomplir l'ALÉA “Pauvre hameau: des coeurls qui battent” avec la meilleure évaluation possible.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                "duty.fate.la-noscea.upper-la-noscea.453"
-            ]
+            "cPrev": ["duty.fate.la-noscea.upper-la-noscea.453"]
         },
         "x1359": {
             "name_en": "Short-lived, the Queen",
@@ -354,9 +288,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: coeurls brisés” avec la meilleure évaluation possible.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.dravania.the-dravanian-forelands.905"
-            ]
+            "cPrev": ["duty.fate.dravania.the-dravanian-forelands.905"]
         },
         "x1360": {
             "name_en": "A Worthy Adversary",
@@ -365,9 +297,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: duel amical contre Vedrfolnir” avec la meilleure évaluation possible.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.dravania.the-churning-mists.871"
-            ]
+            "cPrev": ["duty.fate.dravania.the-churning-mists.871"]
         },
         "x1361": {
             "name_en": "A Day at the Dzu",
@@ -376,9 +306,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: ne pas douter face à Dzu Teh” avec la meilleure évaluation possible.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.coerthas.western-highlands.793"
-            ]
+            "cPrev": ["duty.fate.coerthas.western-highlands.793"]
         },
         "x1362": {
             "name_en": "Falling Down",
@@ -387,9 +315,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: terrasser la Tarasque” avec la meilleure évaluation possible.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.dravania.the-dravanian-forelands.838"
-            ]
+            "cPrev": ["duty.fate.dravania.the-dravanian-forelands.838"]
         },
         "x1363": {
             "name_en": "Neverlasting Gobstopper",
@@ -398,9 +324,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: vengeurs de ferraille II” avec la meilleure évaluation possible.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.dravania.the-dravanian-hinterlands.758"
-            ]
+            "cPrev": ["duty.fate.dravania.the-dravanian-hinterlands.758"]
         },
         "x1364": {
             "name_en": "Tipping the Scales",
@@ -409,9 +333,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: quand sombre Sombrécaille” avec la meilleure évaluation possible.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.dravania.the-churning-mists.870"
-            ]
+            "cPrev": ["duty.fate.dravania.the-churning-mists.870"]
         },
         "x1365": {
             "name_en": "Fantasy Islet",
@@ -420,9 +342,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: mangeur de terre gardée” avec la meilleure évaluation possible.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.abalathias-spine.the-sea-of-clouds.855"
-            ]
+            "cPrev": ["duty.fate.abalathias-spine.the-sea-of-clouds.855"]
         },
         "x1923": {
             "name_en": "Superseed",
@@ -431,9 +351,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: mauvaise graine” avec la meilleure évaluation possible.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.gyr-abania.the-fringes.1129"
-            ]
+            "cPrev": ["duty.fate.gyr-abania.the-fringes.1129"]
         },
         "x1924": {
             "name_en": "What You're Looking For",
@@ -442,9 +360,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: l'affreux Humbaba” avec la meilleure évaluation possible.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.gyr-abania.the-peaks.1194"
-            ]
+            "cPrev": ["duty.fate.gyr-abania.the-peaks.1194"]
         },
         "x1925": {
             "name_en": "Slay Me a Mountain",
@@ -453,9 +369,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: ciel, mon sosie” avec la meilleure évaluation possible.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.gyr-abania.the-lochs.1277"
-            ]
+            "cPrev": ["duty.fate.gyr-abania.the-lochs.1277"]
         },
         "x1926": {
             "name_en": "Shucked, Not Stirred",
@@ -464,9 +378,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: amocher les daimyo” avec la meilleure évaluation possible.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.othard.the-ruby-sea.1172"
-            ]
+            "cPrev": ["duty.fate.othard.the-ruby-sea.1172"]
         },
         "x1927": {
             "name_en": "Maru Five",
@@ -475,9 +387,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: le géant de fer” avec la meilleure évaluation possible.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.othard.yanxia.1238"
-            ]
+            "cPrev": ["duty.fate.othard.yanxia.1238"]
         },
         "x1928": {
             "name_en": "Tusk",
@@ -486,9 +396,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: attention, passage de mammouths” avec la meilleure évaluation possible.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.othard.the-azim-steppe.1267"
-            ]
+            "cPrev": ["duty.fate.othard.the-azim-steppe.1267"]
         },
         "x1929": {
             "name_en": "Naughty Girls Need Love, as Well",
@@ -497,9 +405,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: la renarde fait surface” avec la meilleure évaluation possible.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.othard.yanxia.1106"
-            ]
+            "cPrev": ["duty.fate.othard.yanxia.1106"]
         },
         "x1930": {
             "name_en": "Ride On",
@@ -508,9 +414,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: l'étalon survolté” avec la meilleure évaluation possible.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.gyr-abania.the-lochs.1103"
-            ]
+            "cPrev": ["duty.fate.gyr-abania.the-lochs.1103"]
         },
         "x1931": {
             "name_en": "Dataq Is Cheap",
@@ -519,9 +423,7 @@
             "description_fr": "Accomplir l'ALÉA “Défi: le roi des matangas” avec la meilleure évaluation possible.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.othard.the-azim-steppe.1320"
-            ]
+            "cPrev": ["duty.fate.othard.the-azim-steppe.1320"]
         },
         "x2337": {
             "name_en": "Not Today",
@@ -530,9 +432,7 @@
             "description_fr": "Accomplir l'ALÉA “La menace des Fanes pourpres: les wargs s'en mêlent” avec la meilleure évaluation possible.",
             "patch": "5.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.norvrandt.lakeland.1504"
-            ]
+            "cPrev": ["duty.fate.norvrandt.lakeland.1504"]
         },
         "x2338": {
             "name_en": "Stay Thy Blade",
@@ -541,9 +441,7 @@
             "description_fr": "Accomplir l'ALÉA “Appel à l'aide: l'épée de l'ancien” avec la meilleure évaluation possible.",
             "patch": "5.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.norvrandt.amh-araeng.1518"
-            ]
+            "cPrev": ["duty.fate.norvrandt.amh-araeng.1518"]
         },
         "x2339": {
             "name_en": "Mischief Managed",
@@ -552,9 +450,7 @@
             "description_fr": "Accomplir l'ALÉA “Les frères Daen: la bataille finale” avec la meilleure évaluation possible.",
             "patch": "5.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.norvrandt.il-mheg.1487"
-            ]
+            "cPrev": ["duty.fate.norvrandt.il-mheg.1487"]
         },
         "x2340": {
             "name_en": "Unbowed, Unbent, Unbroken",
@@ -563,9 +459,7 @@
             "description_fr": "Accomplir l'ALÉA “Chasse de Myalna: l'élimination du Tojil” avec la meilleure évaluation possible.",
             "patch": "5.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.norvrandt.the-rak-tika-greatwood.1450"
-            ]
+            "cPrev": ["duty.fate.norvrandt.the-rak-tika-greatwood.1450"]
         },
         "x2341": {
             "name_en": "Be Still My (Automatic) Heart",
@@ -574,9 +468,7 @@
             "description_fr": "Accomplir l'ALÉA “Formidable: l'arme secrète” avec la meilleure évaluation possible.",
             "patch": "5.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.norvrandt.kholusia.1464"
-            ]
+            "cPrev": ["duty.fate.norvrandt.kholusia.1464"]
         },
         "x2342": {
             "name_en": "Another World, Another Turn",
@@ -585,9 +477,7 @@
             "description_fr": "Accomplir l'ALÉA “L'annonciatrice du chaos: bataille au sommet des fonds” avec la meilleure évaluation possible.",
             "patch": "5.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.norvrandt.the-tempest.1432"
-            ]
+            "cPrev": ["duty.fate.norvrandt.the-tempest.1432"]
         },
         "x3029": {
             "name_en": "Don't Go into the Light",
@@ -596,9 +486,7 @@
             "description_fr": "Accomplir l'ALÉA “Le culte des Mrga: le faux dieu” avec la meilleure évaluation possible.",
             "patch": "6.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.ilsabard.thavnair.1763"
-            ]
+            "cPrev": ["duty.fate.ilsabard.thavnair.1763"]
         },
         "x3030": {
             "name_en": "Prototypical",
@@ -607,9 +495,7 @@
             "description_fr": "Accomplir l'ALÉA “Mémoire vive: arrêter le processus” avec la meilleure évaluation possible.",
             "patch": "6.0",
             "points": 10,
-            "cPrev": [
-                "duty.fate.sea-of-stars.ultima-thule.1855"
-            ]
+            "cPrev": ["duty.fate.sea-of-stars.ultima-thule.1855"]
         },
         "x2343": {
             "name_en": "Free Market Friend: Lakeland",
@@ -618,12 +504,8 @@
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Grand-Lac.",
             "patch": "5.0",
             "points": 10,
-            "cSiblings": [
-                "travel.shared-fate.shb.2"
-            ],
-            "cCombo": [
-                2349
-            ]
+            "cSiblings": ["travel.shared-fate.shb.2"],
+            "cCombo": [2349]
         },
         "x2344": {
             "name_en": "Free Market Friend: Kholusia",
@@ -632,12 +514,8 @@
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Kholusia.",
             "patch": "5.0",
             "points": 10,
-            "cSiblings": [
-                "travel.shared-fate.shb.5"
-            ],
-            "cCombo": [
-                2349
-            ]
+            "cSiblings": ["travel.shared-fate.shb.5"],
+            "cCombo": [2349]
         },
         "x2345": {
             "name_en": "Free Market Friend: Amh Araeng",
@@ -646,12 +524,8 @@
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA en Amh Araeng.",
             "patch": "5.0",
             "points": 10,
-            "cSiblings": [
-                "travel.shared-fate.shb.8"
-            ],
-            "cCombo": [
-                2349
-            ]
+            "cSiblings": ["travel.shared-fate.shb.8"],
+            "cCombo": [2349]
         },
         "x2346": {
             "name_en": "Free Market Friend: Il Mheg",
@@ -660,12 +534,8 @@
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA en Il Mheg.",
             "patch": "5.0",
             "points": 10,
-            "cSiblings": [
-                "travel.shared-fate.shb.11"
-            ],
-            "cCombo": [
-                2349
-            ]
+            "cSiblings": ["travel.shared-fate.shb.11"],
+            "cCombo": [2349]
         },
         "x2347": {
             "name_en": "Free Market Friend: The Rak'tika Greatwood",
@@ -674,12 +544,8 @@
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Rak'tika.",
             "patch": "5.0",
             "points": 10,
-            "cSiblings": [
-                "travel.shared-fate.shb.14"
-            ],
-            "cCombo": [
-                2349
-            ]
+            "cSiblings": ["travel.shared-fate.shb.14"],
+            "cCombo": [2349]
         },
         "x2348": {
             "name_en": "Free Market Friend: The Tempest",
@@ -688,12 +554,8 @@
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à La Tempête.",
             "patch": "5.0",
             "points": 10,
-            "cSiblings": [
-                "travel.shared-fate.shb.17"
-            ],
-            "cCombo": [
-                2349
-            ]
+            "cSiblings": ["travel.shared-fate.shb.17"],
+            "cCombo": [2349]
         },
         "x2349": {
             "name_en": "Merchant's Best Friend",
@@ -703,17 +565,8 @@
             "reward": "character.character.title.459",
             "patch": "5.0",
             "points": 20,
-            "cPrev": [
-                2343,
-                2344,
-                2345,
-                2346,
-                2347,
-                2348
-            ],
-            "cSiblings": [
-                "character.character.title.459"
-            ]
+            "cPrev": [2343, 2344, 2345, 2346, 2347, 2348],
+            "cSiblings": ["character.character.title.459"]
         },
         "x3022": {
             "name_en": "Free Market Friend: Labyrinthos",
@@ -722,12 +575,8 @@
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA dans le Labyrinthos.",
             "patch": "6.0",
             "points": 10,
-            "cSiblings": [
-                "travel.shared-fate.ew.2"
-            ],
-            "cCombo": [
-                3028
-            ]
+            "cSiblings": ["travel.shared-fate.ew.2"],
+            "cCombo": [3028]
         },
         "x3023": {
             "name_en": "Free Market Friend: Thavnair",
@@ -736,12 +585,8 @@
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Thavnair.",
             "patch": "6.0",
             "points": 10,
-            "cSiblings": [
-                "travel.shared-fate.ew.5"
-            ],
-            "cCombo": [
-                3028
-            ]
+            "cSiblings": ["travel.shared-fate.ew.5"],
+            "cCombo": [3028]
         },
         "x3024": {
             "name_en": "Free Market Friend: Garlemald",
@@ -750,12 +595,8 @@
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Garlemald.",
             "patch": "6.0",
             "points": 10,
-            "cSiblings": [
-                "travel.shared-fate.ew.8"
-            ],
-            "cCombo": [
-                3028
-            ]
+            "cSiblings": ["travel.shared-fate.ew.8"],
+            "cCombo": [3028]
         },
         "x3025": {
             "name_en": "Free Market Friend: Mare Lamentorum",
@@ -764,12 +605,8 @@
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Mare Lamentorum.",
             "patch": "6.0",
             "points": 10,
-            "cSiblings": [
-                "travel.shared-fate.ew.11"
-            ],
-            "cCombo": [
-                3028
-            ]
+            "cSiblings": ["travel.shared-fate.ew.11"],
+            "cCombo": [3028]
         },
         "x3026": {
             "name_en": "Free Market Friend: Elpis",
@@ -778,12 +615,8 @@
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Elpis.",
             "patch": "6.0",
             "points": 10,
-            "cSiblings": [
-                "travel.shared-fate.ew.14"
-            ],
-            "cCombo": [
-                3028
-            ]
+            "cSiblings": ["travel.shared-fate.ew.14"],
+            "cCombo": [3028]
         },
         "x3027": {
             "name_en": "Free Market Friend: Ultima Thule",
@@ -792,12 +625,8 @@
             "description_fr": "Atteindre le rang 3 de réussite des ALÉA à Ultima Thulé.",
             "patch": "6.0",
             "points": 10,
-            "cSiblings": [
-                "travel.shared-fate.ew.17"
-            ],
-            "cCombo": [
-                3028
-            ]
+            "cSiblings": ["travel.shared-fate.ew.17"],
+            "cCombo": [3028]
         },
         "x3028": {
             "name_en": "Far Trade",
@@ -807,17 +636,8 @@
             "reward": "character.character.title.622",
             "patch": "6.0",
             "points": 20,
-            "cPrev": [
-                3022,
-                3023,
-                3024,
-                3025,
-                3026,
-                3027
-            ],
-            "cSiblings": [
-                "character.character.title.622"
-            ]
+            "cPrev": [3022, 3023, 3024, 3025, 3026, 3027],
+            "cSiblings": ["character.character.title.622"]
         },
         "x803": {
             "name_en": "Date with Destiny I",
@@ -826,9 +646,7 @@
             "description_fr": "Accomplir un total de 10 ALÉA.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                804
-            ]
+            "cNext": [804]
         },
         "x804": {
             "name_en": "Date with Destiny II",
@@ -837,12 +655,8 @@
             "description_fr": "Accomplir un total de 100 ALÉA.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [
-                803
-            ],
-            "cNext": [
-                805
-            ]
+            "cPrev": [803],
+            "cNext": [805]
         },
         "x805": {
             "name_en": "Date with Destiny III",
@@ -851,12 +665,8 @@
             "description_fr": "Accomplir un total de 300 ALÉA.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                804
-            ],
-            "cNext": [
-                806
-            ]
+            "cPrev": [804],
+            "cNext": [806]
         },
         "x806": {
             "name_en": "Date with Destiny IV",
@@ -866,15 +676,9 @@
             "reward": "character.character.title.110",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                805
-            ],
-            "cNext": [
-                807
-            ],
-            "cSiblings": [
-                "character.character.title.110"
-            ]
+            "cPrev": [805],
+            "cNext": [807],
+            "cSiblings": ["character.character.title.110"]
         },
         "x807": {
             "name_en": "Destiny's Child",
@@ -885,12 +689,8 @@
             "reward_fr": "Manteau d'expert",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [
-                806
-            ],
-            "cNext": [
-                1353
-            ]
+            "cPrev": [806],
+            "cNext": [1353]
         },
         "x1353": {
             "name_en": "Date with Destiny V",
@@ -899,12 +699,8 @@
             "description_fr": "Accomplir un total de 5 000 ALÉA.",
             "patch": "3.0",
             "points": 20,
-            "cPrev": [
-                807
-            ],
-            "cNext": [
-                1354
-            ]
+            "cPrev": [807],
+            "cNext": [1354]
         },
         "x1354": {
             "name_en": "Date with Destiny VI",
@@ -914,12 +710,8 @@
             "reward": "character.character.title.264",
             "patch": "3.0",
             "points": 20,
-            "cPrev": [
-                1353
-            ],
-            "cSiblings": [
-                "character.character.title.264"
-            ]
+            "cPrev": [1353],
+            "cSiblings": ["character.character.title.264"]
         },
         "x808": {
             "name_en": "Bosom Buddies I",
@@ -928,12 +720,8 @@
             "description_fr": "Élever le compagnon chocobo au niveau 1.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                809
-            ],
-            "cSiblings": [
-                "character.companion.companion-rank.0"
-            ]
+            "cNext": [809],
+            "cSiblings": ["character.companion.companion-rank.0"]
         },
         "x809": {
             "name_en": "Bosom Buddies II",
@@ -942,15 +730,9 @@
             "description_fr": "Élever le compagnon chocobo au niveau 5.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                808
-            ],
-            "cNext": [
-                810
-            ],
-            "cSiblings": [
-                "character.companion.companion-rank.4"
-            ]
+            "cPrev": [808],
+            "cNext": [810],
+            "cSiblings": ["character.companion.companion-rank.4"]
         },
         "x810": {
             "name_en": "Bosom Buddies III",
@@ -961,12 +743,8 @@
             "reward_fr": "Costume de chocobo",
             "patch": "2.1",
             "points": 20,
-            "cPrev": [
-                809
-            ],
-            "cSiblings": [
-                "character.companion.companion-rank.9"
-            ]
+            "cPrev": [809],
+            "cSiblings": ["character.companion.companion-rank.9"]
         },
         "x885": {
             "name_en": "The Kindness of Strangers I",
@@ -975,9 +753,7 @@
             "description_fr": "Ressusciter un joueur qui n'est pas dans l'équipe 1 fois.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                886
-            ]
+            "cNext": [886]
         },
         "x886": {
             "name_en": "The Kindness of Strangers II",
@@ -986,12 +762,8 @@
             "description_fr": "Ressusciter un joueur qui n'est pas dans l'équipe 20 fois.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                885
-            ],
-            "cNext": [
-                1355
-            ]
+            "cPrev": [885],
+            "cNext": [1355]
         },
         "x1355": {
             "name_en": "The Kindness of Strangers III",
@@ -1000,12 +772,8 @@
             "description_fr": "Ressusciter un joueur qui n'est pas dans l'équipe 50 fois.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                886
-            ],
-            "cNext": [
-                1356
-            ]
+            "cPrev": [886],
+            "cNext": [1356]
         },
         "x1356": {
             "name_en": "The Kindness of Strangers IV",
@@ -1014,12 +782,8 @@
             "description_fr": "Ressusciter un joueur qui n'est pas dans l'équipe 100 fois.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                1355
-            ],
-            "cNext": [
-                1357
-            ]
+            "cPrev": [1355],
+            "cNext": [1357]
         },
         "x1357": {
             "name_en": "The Kindness of Strangers V",
@@ -1029,12 +793,8 @@
             "reward": "character.character.title.265",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                1356
-            ],
-            "cSiblings": [
-                "character.character.title.265"
-            ]
+            "cPrev": [1356],
+            "cSiblings": ["character.character.title.265"]
         },
         "x919": {
             "name_en": "A Tankless Job I (Paladin)",
@@ -1044,12 +804,8 @@
             "reward": "character.character.title.151",
             "patch": "2.2",
             "points": 5,
-            "cNext": [
-                920
-            ],
-            "cSiblings": [
-                "character.character.title.151"
-            ]
+            "cNext": [920],
+            "cSiblings": ["character.character.title.151"]
         },
         "x920": {
             "name_en": "A Tankless Job II (Paladin)",
@@ -1059,15 +815,9 @@
             "reward": "character.character.title.153",
             "patch": "2.2",
             "points": 10,
-            "cPrev": [
-                919
-            ],
-            "cNext": [
-                921
-            ],
-            "cSiblings": [
-                "character.character.title.153"
-            ]
+            "cPrev": [919],
+            "cNext": [921],
+            "cSiblings": ["character.character.title.153"]
         },
         "x921": {
             "name_en": "But Somebody's Gotta Do It (Paladin)",
@@ -1077,9 +827,7 @@
             "reward": "character.mount-guide.178",
             "patch": "2.2",
             "points": 20,
-            "cPrev": [
-                920
-            ]
+            "cPrev": [920]
         },
         "x922": {
             "name_en": "A Tankless Job I (Warrior)",
@@ -1089,12 +837,8 @@
             "reward": "character.character.title.152",
             "patch": "2.2",
             "points": 5,
-            "cNext": [
-                923
-            ],
-            "cSiblings": [
-                "character.character.title.152"
-            ]
+            "cNext": [923],
+            "cSiblings": ["character.character.title.152"]
         },
         "x923": {
             "name_en": "A Tankless Job II (Warrior)",
@@ -1104,15 +848,9 @@
             "reward": "character.character.title.154",
             "patch": "2.2",
             "points": 10,
-            "cPrev": [
-                922
-            ],
-            "cNext": [
-                924
-            ],
-            "cSiblings": [
-                "character.character.title.154"
-            ]
+            "cPrev": [922],
+            "cNext": [924],
+            "cSiblings": ["character.character.title.154"]
         },
         "x924": {
             "name_en": "But Somebody's Gotta Do It (Warrior)",
@@ -1122,9 +860,7 @@
             "reward": "character.mount-guide.177",
             "patch": "2.2",
             "points": 20,
-            "cPrev": [
-                923
-            ]
+            "cPrev": [923]
         },
         "x1193": {
             "name_en": "A Tankless Job I (Dark Knight)",
@@ -1134,12 +870,8 @@
             "reward": "character.character.title.241",
             "patch": "3.0",
             "points": 5,
-            "cNext": [
-                1194
-            ],
-            "cSiblings": [
-                "character.character.title.241"
-            ]
+            "cNext": [1194],
+            "cSiblings": ["character.character.title.241"]
         },
         "x1194": {
             "name_en": "A Tankless Job II (Dark Knight)",
@@ -1149,15 +881,9 @@
             "reward": "character.character.title.242",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                1193
-            ],
-            "cNext": [
-                1195
-            ],
-            "cSiblings": [
-                "character.character.title.242"
-            ]
+            "cPrev": [1193],
+            "cNext": [1195],
+            "cSiblings": ["character.character.title.242"]
         },
         "x1195": {
             "name_en": "But Somebody's Gotta Do It (Dark Knight)",
@@ -1167,9 +893,7 @@
             "reward": "character.mount-guide.16",
             "patch": "3.0",
             "points": 20,
-            "cPrev": [
-                1194
-            ]
+            "cPrev": [1194]
         },
         "x1953": {
             "name_en": "Tank You, Paladin I",
@@ -1178,9 +902,7 @@
             "description_fr": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "patch": "4.0",
             "points": 5,
-            "cNext": [
-                1954
-            ]
+            "cNext": [1954]
         },
         "x1954": {
             "name_en": "Tank You, Paladin II",
@@ -1189,12 +911,8 @@
             "description_fr": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [
-                1953
-            ],
-            "cNext": [
-                1955
-            ]
+            "cPrev": [1953],
+            "cNext": [1955]
         },
         "x1955": {
             "name_en": "Tank You, Paladin III",
@@ -1204,12 +922,8 @@
             "reward": "character.mount-guide.15",
             "patch": "4.0",
             "points": 20,
-            "cPrev": [
-                1954
-            ],
-            "cNext": [
-                2387
-            ]
+            "cPrev": [1954],
+            "cNext": [2387]
         },
         "x2387": {
             "name_en": "Tank You, Paladin IV",
@@ -1219,15 +933,9 @@
             "reward": "character.character.title.462",
             "patch": "5.0",
             "points": 20,
-            "cPrev": [
-                1955
-            ],
-            "cNext": [
-                2990
-            ],
-            "cSiblings": [
-                "character.character.title.462"
-            ]
+            "cPrev": [1955],
+            "cNext": [2990],
+            "cSiblings": ["character.character.title.462"]
         },
         "x2990": {
             "name_en": "Tank You, Paladin V",
@@ -1237,12 +945,8 @@
             "reward": "character.character.title.613",
             "patch": "6.0",
             "points": 20,
-            "cPrev": [
-                2387
-            ],
-            "cSiblings": [
-                "character.character.title.613"
-            ]
+            "cPrev": [2387],
+            "cSiblings": ["character.character.title.613"]
         },
         "x1956": {
             "name_en": "Tank You, Warrior I",
@@ -1251,9 +955,7 @@
             "description_fr": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "patch": "4.0",
             "points": 5,
-            "cNext": [
-                1957
-            ]
+            "cNext": [1957]
         },
         "x1957": {
             "name_en": "Tank You, Warrior II",
@@ -1262,12 +964,8 @@
             "description_fr": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [
-                1956
-            ],
-            "cNext": [
-                1958
-            ]
+            "cPrev": [1956],
+            "cNext": [1958]
         },
         "x1958": {
             "name_en": "Tank You, Warrior III",
@@ -1277,12 +975,8 @@
             "reward": "character.mount-guide.14",
             "patch": "4.0",
             "points": 20,
-            "cPrev": [
-                1957
-            ],
-            "cNext": [
-                2388
-            ]
+            "cPrev": [1957],
+            "cNext": [2388]
         },
         "x2388": {
             "name_en": "Tank You, Warrior IV",
@@ -1292,15 +986,9 @@
             "reward": "character.character.title.463",
             "patch": "5.0",
             "points": 20,
-            "cPrev": [
-                1958
-            ],
-            "cNext": [
-                2991
-            ],
-            "cSiblings": [
-                "character.character.title.463"
-            ]
+            "cPrev": [1958],
+            "cNext": [2991],
+            "cSiblings": ["character.character.title.463"]
         },
         "x2991": {
             "name_en": "Tank You, Warrior V",
@@ -1310,12 +998,8 @@
             "reward": "character.character.title.614",
             "patch": "6.0",
             "points": 20,
-            "cPrev": [
-                2388
-            ],
-            "cSiblings": [
-                "character.character.title.614"
-            ]
+            "cPrev": [2388],
+            "cSiblings": ["character.character.title.614"]
         },
         "x1959": {
             "name_en": "Tank You, Dark Knight I",
@@ -1324,9 +1008,7 @@
             "description_fr": "Finir 50 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "patch": "4.0",
             "points": 5,
-            "cNext": [
-                1960
-            ]
+            "cNext": [1960]
         },
         "x1960": {
             "name_en": "Tank You, Dark Knight II",
@@ -1335,12 +1017,8 @@
             "description_fr": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "patch": "4.0",
             "points": 10,
-            "cPrev": [
-                1959
-            ],
-            "cNext": [
-                1961
-            ]
+            "cPrev": [1959],
+            "cNext": [1961]
         },
         "x1961": {
             "name_en": "Tank You, Dark Knight III",
@@ -1350,12 +1028,8 @@
             "reward": "character.mount-guide.16",
             "patch": "4.0",
             "points": 20,
-            "cPrev": [
-                1960
-            ],
-            "cNext": [
-                2389
-            ]
+            "cPrev": [1960],
+            "cNext": [2389]
         },
         "x2389": {
             "name_en": "Tank You, Dark Knight IV",
@@ -1365,15 +1039,9 @@
             "reward": "character.character.title.464",
             "patch": "5.0",
             "points": 20,
-            "cPrev": [
-                1961
-            ],
-            "cNext": [
-                2992
-            ],
-            "cSiblings": [
-                "character.character.title.464"
-            ]
+            "cPrev": [1961],
+            "cNext": [2992],
+            "cSiblings": ["character.character.title.464"]
         },
         "x2992": {
             "name_en": "Tank You, Dark Knight V",
@@ -1383,12 +1051,8 @@
             "reward": "character.character.title.615",
             "patch": "6.0",
             "points": 20,
-            "cPrev": [
-                2389
-            ],
-            "cSiblings": [
-                "character.character.title.615"
-            ]
+            "cPrev": [2389],
+            "cSiblings": ["character.character.title.615"]
         },
         "x2390": {
             "name_en": "Tank You, Gunbreaker I",
@@ -1397,9 +1061,7 @@
             "description_fr": "Finir 100 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
             "patch": "5.0",
             "points": 5,
-            "cNext": [
-                2391
-            ]
+            "cNext": [2391]
         },
         "x2391": {
             "name_en": "Tank You, Gunbreaker II",
@@ -1409,12 +1071,8 @@
             "reward": "character.mount-guide.176",
             "patch": "5.0",
             "points": 10,
-            "cPrev": [
-                2390
-            ],
-            "cNext": [
-                2392
-            ]
+            "cPrev": [2390],
+            "cNext": [2392]
         },
         "x2392": {
             "name_en": "Tank You, Gunbreaker III",
@@ -1424,12 +1082,8 @@
             "reward": "character.mount-guide.17",
             "patch": "5.0",
             "points": 20,
-            "cPrev": [
-                2391
-            ],
-            "cNext": [
-                2393
-            ]
+            "cPrev": [2391],
+            "cNext": [2393]
         },
         "x2393": {
             "name_en": "Tank You, Gunbreaker IV",
@@ -1439,15 +1093,9 @@
             "reward": "character.character.title.465",
             "patch": "5.0",
             "points": 20,
-            "cPrev": [
-                2392
-            ],
-            "cNext": [
-                2993
-            ],
-            "cSiblings": [
-                "character.character.title.465"
-            ]
+            "cPrev": [2392],
+            "cNext": [2993],
+            "cSiblings": ["character.character.title.465"]
         },
         "x2993": {
             "name_en": "Tank You, Gunbreaker V",
@@ -1457,12 +1105,8 @@
             "reward": "character.character.title.616",
             "patch": "6.0",
             "points": 20,
-            "cPrev": [
-                2393
-            ],
-            "cSiblings": [
-                "character.character.title.616"
-            ]
+            "cPrev": [2393],
+            "cSiblings": ["character.character.title.616"]
         },
         "x2451": {
             "name_en": "Jack of All Trades I",
@@ -1471,9 +1115,7 @@
             "description_fr": "Accomplir 5 missions différentes dans le palmarès bleu.",
             "patch": "5.18",
             "points": 5,
-            "cNext": [
-                2452
-            ]
+            "cNext": [2452]
         },
         "x2452": {
             "name_en": "Jack of All Trades II",
@@ -1482,12 +1124,8 @@
             "description_fr": "Accomplir 20 missions différentes dans le palmarès bleu.",
             "patch": "5.18",
             "points": 5,
-            "cPrev": [
-                2451
-            ],
-            "cNext": [
-                2453
-            ]
+            "cPrev": [2451],
+            "cNext": [2453]
         },
         "x2453": {
             "name_en": "Jack of All Trades III",
@@ -1497,15 +1135,9 @@
             "reward": "character.character.title.482",
             "patch": "5.18",
             "points": 5,
-            "cPrev": [
-                2452
-            ],
-            "cNext": [
-                2728
-            ],
-            "cSiblings": [
-                "character.character.title.482"
-            ]
+            "cPrev": [2452],
+            "cNext": [2728],
+            "cSiblings": ["character.character.title.482"]
         },
         "x2728": {
             "name_en": "Jack of All Trades IV",
@@ -1515,15 +1147,9 @@
             "reward": "character.character.title.551",
             "patch": "5.45",
             "points": 5,
-            "cPrev": [
-                2453
-            ],
-            "cNext": [
-                3319
-            ],
-            "cSiblings": [
-                "character.character.title.551"
-            ]
+            "cPrev": [2453],
+            "cNext": [3319],
+            "cSiblings": ["character.character.title.551"]
         },
         "x3319": {
             "name_en": "Jack of All Trades V",
@@ -1533,12 +1159,8 @@
             "reward": "character.character.title.693",
             "patch": "6.4",
             "points": 5,
-            "cPrev": [
-                2728
-            ],
-            "cSiblings": [
-                "character.character.title.693"
-            ]
+            "cPrev": [2728],
+            "cSiblings": ["character.character.title.693"]
         },
         "x2454": {
             "name_en": "Mightier than the Inferno",
@@ -1603,9 +1225,7 @@
             "description_fr": "Finir “Le Labyrinthe de Bahamut V” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.18",
             "points": 5,
-            "cCombo": [
-                2474
-            ]
+            "cCombo": [2474]
         },
         "x2462": {
             "name_en": "Mightier than the Raven",
@@ -1614,9 +1234,7 @@
             "description_fr": "Finir “Les Méandres de Bahamut IV” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.18",
             "points": 5,
-            "cCombo": [
-                2474
-            ]
+            "cCombo": [2474]
         },
         "x2463": {
             "name_en": "Mightier than the Dreadwyrm",
@@ -1625,9 +1243,7 @@
             "description_fr": "Finir “L'Abîme de Bahamut IV” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.18",
             "points": 5,
-            "cCombo": [
-                2474
-            ]
+            "cCombo": [2474]
         },
         "x2464": {
             "name_en": "Mightier than the Hive",
@@ -1653,9 +1269,7 @@
             "reward": "character.character.title.483",
             "patch": "5.18",
             "points": 5,
-            "cSiblings": [
-                "character.character.title.483"
-            ]
+            "cSiblings": ["character.character.title.483"]
         },
         "x2467": {
             "name_en": "Mightier than the Fiend",
@@ -1696,9 +1310,7 @@
             "description_fr": "Finir “Le Fardeau du Père (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.18",
             "points": 5,
-            "cCombo": [
-                2475
-            ]
+            "cCombo": [2475]
         },
         "x2472": {
             "name_en": "Mightier than Justice",
@@ -1707,9 +1319,7 @@
             "description_fr": "Finir “Le Fardeau du Fils (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.18",
             "points": 5,
-            "cCombo": [
-                2475
-            ]
+            "cCombo": [2475]
         },
         "x2473": {
             "name_en": "Mightier than the Prime",
@@ -1718,9 +1328,7 @@
             "description_fr": "Finir “L'Âme du Créateur (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.18",
             "points": 5,
-            "cCombo": [
-                2475
-            ]
+            "cCombo": [2475]
         },
         "x2474": {
             "name_en": "Blue Unchained",
@@ -1730,17 +1338,9 @@
             "reward": "character.character.title.484",
             "patch": "5.18",
             "points": 10,
-            "cPrev": [
-                2461,
-                2462,
-                2463
-            ],
-            "cSiblings": [
-                "character.character.title.484"
-            ],
-            "cCombo": [
-                2476
-            ]
+            "cPrev": [2461, 2462, 2463],
+            "cSiblings": ["character.character.title.484"],
+            "cCombo": [2476]
         },
         "x2475": {
             "name_en": "Masked Conqueror",
@@ -1750,17 +1350,9 @@
             "reward": "character.character.title.485",
             "patch": "5.18",
             "points": 10,
-            "cPrev": [
-                2471,
-                2472,
-                2473
-            ],
-            "cSiblings": [
-                "character.character.title.485"
-            ],
-            "cCombo": [
-                2476
-            ]
+            "cPrev": [2471, 2472, 2473],
+            "cSiblings": ["character.character.title.485"],
+            "cCombo": [2476]
         },
         "x2476": {
             "name_en": "True Blue",
@@ -1770,10 +1362,7 @@
             "reward": "character.mount-guide.127",
             "patch": "5.18",
             "points": 10,
-            "cPrev": [
-                2474,
-                2475
-            ]
+            "cPrev": [2474, 2475]
         },
         "x2729": {
             "name_en": "Mightier than the Revel",
@@ -1838,9 +1427,7 @@
             "description_fr": "Finir “Deltastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.45",
             "points": 5,
-            "cCombo": [
-                2739
-            ]
+            "cCombo": [2739]
         },
         "x2737": {
             "name_en": "Mightier than the Sigma",
@@ -1849,9 +1436,7 @@
             "description_fr": "Finir “Sigmastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.45",
             "points": 5,
-            "cCombo": [
-                2739
-            ]
+            "cCombo": [2739]
         },
         "x2738": {
             "name_en": "Mightier than the Alpha",
@@ -1860,9 +1445,7 @@
             "description_fr": "Finir “Alphastice v4.0 (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "5.45",
             "points": 5,
-            "cCombo": [
-                2739
-            ]
+            "cCombo": [2739]
         },
         "x2739": {
             "name_en": "Omega Blue",
@@ -1872,14 +1455,8 @@
             "reward": "character.character.title.552",
             "patch": "5.45",
             "points": 10,
-            "cPrev": [
-                2736,
-                2737,
-                2738
-            ],
-            "cSiblings": [
-                "character.character.title.552"
-            ]
+            "cPrev": [2736, 2737, 2738],
+            "cSiblings": ["character.character.title.552"]
         },
         "x3320": {
             "name_en": "Mightier than the Monarch",
@@ -1936,9 +1513,7 @@
             "description_fr": "Finir “L'Éveil d'Éden (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "6.4",
             "points": 5,
-            "cCombo": [
-                3330
-            ]
+            "cCombo": [3330]
         },
         "x3328": {
             "name_en": "Mightier than the Verse",
@@ -1947,9 +1522,7 @@
             "description_fr": "Finir “Les Accords d'Éden (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "6.4",
             "points": 5,
-            "cCombo": [
-                3330
-            ]
+            "cCombo": [3330]
         },
         "x3329": {
             "name_en": "Mightier than the Promise",
@@ -1958,9 +1531,7 @@
             "description_fr": "Finir “La Promesse d'Éden (sadique)” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
             "patch": "6.4",
             "points": 5,
-            "cCombo": [
-                3330
-            ]
+            "cCombo": [3330]
         },
         "x3330": {
             "name_en": "Bluetopia",
@@ -1969,14 +1540,8 @@
             "description_fr": "Accomplir les trois hauts faits de la série “Des bleus pour Éden”.",
             "patch": "6.4",
             "points": 5,
-            "cPrev": [
-                3327,
-                3328,
-                3329
-            ],
-            "cSiblings": [
-                "character.character.title.694"
-            ]
+            "cPrev": [3327, 3328, 3329],
+            "cSiblings": ["character.character.title.694"]
         }
     }
 }

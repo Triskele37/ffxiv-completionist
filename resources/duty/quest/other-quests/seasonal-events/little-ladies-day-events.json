@@ -10,13 +10,8 @@
             "year": "2014",
             "npc_en": "Royal Seneschal",
             "npc_fr": "Sénéchal Royal",
-            "cNext": [
-                66841
-            ],
-            "cExclude": [
-                66839,
-                66840
-            ],
+            "cNext": [66841],
+            "cExclude": [66839, 66840],
             "patch": "4.31"
         },
         "x66839": {
@@ -26,13 +21,8 @@
             "year": "2014",
             "npc_en": "Royal Seneschal",
             "npc_fr": "Sénéchal Royal",
-            "cNext": [
-                66841
-            ],
-            "cExclude": [
-                66838,
-                66840
-            ],
+            "cNext": [66841],
+            "cExclude": [66838, 66840],
             "patch": "4.31"
         },
         "x66840": {
@@ -42,13 +32,8 @@
             "year": "2014",
             "npc_en": "Royal Seneschal",
             "npc_fr": "Sénéchal Royal",
-            "cNext": [
-                66841
-            ],
-            "cExclude": [
-                66838,
-                66839
-            ],
+            "cNext": [66841],
+            "cExclude": [66838, 66839],
             "patch": "4.31"
         },
         "x66841": {
@@ -59,14 +44,8 @@
             "cPrevAny": true,
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [
-                66838,
-                66839,
-                66840
-            ],
-            "cNext": [
-                66842
-            ],
+            "cPrev": [66838, 66839, 66840],
+            "cNext": [66842],
             "patch": "4.31"
         },
         "x66842": {
@@ -76,12 +55,8 @@
             "year": "2014",
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [
-                66841
-            ],
-            "cNext": [
-                66843
-            ],
+            "cPrev": [66841],
+            "cNext": [66843],
             "patch": "4.31"
         },
         "x66843": {
@@ -91,12 +66,8 @@
             "year": "2014",
             "npc_en": "Serendipity",
             "npc_fr": "Serendipity",
-            "cPrev": [
-                66842
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.877"
-            ],
+            "cPrev": [66842],
+            "cSiblings": ["character.achievement.quests.seasonal-events.877"],
             "patch": "4.31"
         },
         "x66035": {
@@ -106,9 +77,7 @@
             "year": "2015",
             "npc_en": "Sophisticated Servitor",
             "npc_fr": "Serviteur Distingué",
-            "cNext": [
-                66036
-            ],
+            "cNext": [66036],
             "patch": "4.31"
         },
         "x66036": {
@@ -118,12 +87,8 @@
             "year": "2015",
             "npc_en": "Disciplined Domestic",
             "npc_fr": "Camériste Diligente",
-            "cPrev": [
-                66035
-            ],
-            "cNext": [
-                66037
-            ],
+            "cPrev": [66035],
+            "cNext": [66037],
             "patch": "4.31"
         },
         "x66037": {
@@ -133,12 +98,8 @@
             "year": "2015",
             "npc_en": "Nanapasi",
             "npc_fr": "Nanapasi",
-            "cPrev": [
-                66036
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.1082"
-            ],
+            "cPrev": [66036],
+            "cSiblings": ["character.achievement.quests.seasonal-events.1082"],
             "patch": "4.31"
         },
         "x67757": {
@@ -148,9 +109,7 @@
             "year": "2016",
             "npc_en": "Mythril Eye Reporter",
             "npc_fr": "Journaliste De L'Œil De Mithril",
-            "cNext": [
-                67758
-            ],
+            "cNext": [67758],
             "patch": "4.31"
         },
         "x67758": {
@@ -160,12 +119,8 @@
             "year": "2016",
             "npc_en": "Royal Servant",
             "npc_fr": "Serviteur Du Sénéchal Royal",
-            "cPrev": [
-                67757
-            ],
-            "cNext": [
-                67759
-            ],
+            "cPrev": [67757],
+            "cNext": [67759],
             "patch": "4.31"
         },
         "x67759": {
@@ -175,12 +130,8 @@
             "year": "2016",
             "npc_en": "Royal Seneschal",
             "npc_fr": "Sénéchal Royal",
-            "cPrev": [
-                67758
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.1393"
-            ],
+            "cPrev": [67758],
+            "cSiblings": ["character.achievement.quests.seasonal-events.1393"],
             "patch": "4.31"
         },
         "x67935": {
@@ -190,9 +141,7 @@
             "year": "2017",
             "npc_en": "Mythril Eye Reporter",
             "npc_fr": "Journaliste De L'Œil De Mithril",
-            "cNext": [
-                67936
-            ],
+            "cNext": [67936],
             "patch": "4.31"
         },
         "x67936": {
@@ -202,14 +151,8 @@
             "year": "2017",
             "npc_en": "Royal Seneschal",
             "npc_fr": "Sénéchal Royal",
-            "cPrev": [
-                67935
-            ],
-            "cNext": [
-                67937,
-                67942,
-                67943
-            ],
+            "cPrev": [67935],
+            "cNext": [67937, 67942, 67943],
             "patch": "4.31"
         },
         "x67937": {
@@ -219,16 +162,9 @@
             "year": "2017",
             "npc_en": "Ulala",
             "npc_fr": "Ulala",
-            "cPrev": [
-                67936
-            ],
-            "cNext": [
-                67944
-            ],
-            "cExclude": [
-                67942,
-                67943
-            ],
+            "cPrev": [67936],
+            "cNext": [67944],
+            "cExclude": [67942, 67943],
             "patch": "4.31"
         },
         "x67942": {
@@ -238,16 +174,9 @@
             "year": "2017",
             "npc_en": "Masha Mhakaracca",
             "npc_fr": "Masha Mhakaracca",
-            "cPrev": [
-                67936
-            ],
-            "cNext": [
-                67944
-            ],
-            "cExclude": [
-                67943,
-                67937
-            ],
+            "cPrev": [67936],
+            "cNext": [67944],
+            "cExclude": [67943, 67937],
             "patch": "4.31"
         },
         "x67943": {
@@ -257,16 +186,9 @@
             "year": "2017",
             "npc_en": "Narumi",
             "npc_fr": "Narumi",
-            "cPrev": [
-                67936
-            ],
-            "cNext": [
-                67944
-            ],
-            "cExclude": [
-                67937,
-                67942
-            ],
+            "cPrev": [67936],
+            "cNext": [67944],
+            "cExclude": [67937, 67942],
             "patch": "4.31"
         },
         "x67944": {
@@ -277,14 +199,8 @@
             "cPrevAny": true,
             "npc_en": "Royal Seneschal",
             "npc_fr": "Sénéchal Royal",
-            "cPrev": [
-                67943,
-                67942,
-                67937
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.1682"
-            ],
+            "cPrev": [67943, 67942, 67937],
+            "cSiblings": ["character.achievement.quests.seasonal-events.1682"],
             "patch": "4.31"
         },
         "x68620": {
@@ -294,12 +210,8 @@
             "year": "2018",
             "npc_en": "Mythril Eye Reporter",
             "npc_fr": "Journaliste De L'Œil De Mithril",
-            "cNext": [
-                68621
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.2019"
-            ],
+            "cNext": [68621],
+            "cSiblings": ["character.achievement.quests.seasonal-events.2019"],
             "patch": "4.31"
         },
         "x68621": {
@@ -309,9 +221,7 @@
             "year": "2018",
             "npc_en": "Royal Seneschal",
             "npc_fr": "Sénéchal Royal",
-            "cPrev": [
-                68620
-            ],
+            "cPrev": [68620],
             "patch": "4.31"
         },
         "x68744": {
@@ -321,12 +231,8 @@
             "year": "2019",
             "npc_en": "Unsettled Seneschal",
             "npc_fr": "Serviteur Paniqué",
-            "cNext": [
-                68745
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.2238"
-            ],
+            "cNext": [68745],
+            "cSiblings": ["character.achievement.quests.seasonal-events.2238"],
             "patch": "4.5"
         },
         "x68745": {
@@ -336,9 +242,7 @@
             "year": "2019",
             "npc_en": "Royal Seneschal",
             "npc_fr": "Sénéchal Royal",
-            "cPrev": [
-                68744
-            ],
+            "cPrev": [68744],
             "patch": "4.5"
         },
         "x69386": {
@@ -348,12 +252,8 @@
             "year": "2020",
             "npc_en": "Royal Seneschal",
             "npc_fr": "Sénéchal Royal",
-            "cNext": [
-                69387
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.2601"
-            ],
+            "cNext": [69387],
+            "cSiblings": ["character.achievement.quests.seasonal-events.2601"],
             "patch": "5.2"
         },
         "x69387": {
@@ -363,9 +263,7 @@
             "year": "2020",
             "npc_en": "Damielliot",
             "npc_fr": "Damielliot",
-            "cPrev": [
-                69386
-            ],
+            "cPrev": [69386],
             "patch": "5.2"
         },
         "x70007": {
@@ -375,12 +273,8 @@
             "year": "2022",
             "npc_en": "Marabel",
             "npc_fr": "Marabel",
-            "cNext": [
-                70008
-            ],
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.3034"
-            ],
+            "cNext": [70008],
+            "cSiblings": ["character.achievement.quests.seasonal-events.3034"],
             "patch": "6.0"
         },
         "x70008": {
@@ -390,9 +284,7 @@
             "year": "2022",
             "npc_en": "Marabel",
             "npc_fr": "Marabel",
-            "cPrev": [
-                70007
-            ],
+            "cPrev": [70007],
             "patch": "6.0"
         },
         "x70256": {
@@ -402,9 +294,7 @@
             "year": "2023",
             "npc_en": "Royal Seneschal",
             "npc_fr": "Sénéchal Royal",
-            "cSiblings": [
-                "character.achievement.quests.seasonal-events.3204"
-            ],
+            "cSiblings": ["character.achievement.quests.seasonal-events.3204"],
             "patch": "6.3"
         }
     }

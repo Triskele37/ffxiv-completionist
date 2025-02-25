@@ -27,9 +27,7 @@
             "reward": "character.character.title.104",
             "patch": "2.0",
             "points": 5,
-            "cSiblings": [
-                "character.character.title.104"
-            ]
+            "cSiblings": ["character.character.title.104"]
         },
         "x1556": {
             "name_en": "The Mob Squad I",
@@ -38,9 +36,7 @@
             "description_fr": "Voir votre escouade réussir 10 missions.",
             "patch": "3.4",
             "points": 5,
-            "cNext": [
-                1557
-            ]
+            "cNext": [1557]
         },
         "x1557": {
             "name_en": "The Mob Squad II",
@@ -49,12 +45,8 @@
             "description_fr": "Voir votre escouade réussir 30 missions.",
             "patch": "3.4",
             "points": 5,
-            "cPrev": [
-                1556
-            ],
-            "cNext": [
-                1558
-            ]
+            "cPrev": [1556],
+            "cNext": [1558]
         },
         "x1558": {
             "name_en": "The Mob Squad III",
@@ -63,9 +55,7 @@
             "description_fr": "Voir votre escouade réussir 100 missions.",
             "patch": "3.4",
             "points": 10,
-            "cPrev": [
-                1557
-            ]
+            "cPrev": [1557]
         },
         "x1966": {
             "name_en": "Dear Leader I",
@@ -74,9 +64,7 @@
             "description_fr": "Accomplir 10 missions d'incursion.",
             "patch": "4.1",
             "points": 5,
-            "cNext": [
-                1967
-            ]
+            "cNext": [1967]
         },
         "x1967": {
             "name_en": "Dear Leader II",
@@ -85,12 +73,8 @@
             "description_fr": "Accomplir 30 missions d'incursion.",
             "patch": "4.1",
             "points": 5,
-            "cPrev": [
-                1966
-            ],
-            "cNext": [
-                1968
-            ]
+            "cPrev": [1966],
+            "cNext": [1968]
         },
         "x1968": {
             "name_en": "Dear Leader III",
@@ -99,9 +83,7 @@
             "description_fr": "Accomplir 100 missions d'incursion.",
             "patch": "4.1",
             "points": 10,
-            "cPrev": [
-                1967
-            ]
+            "cPrev": [1967]
         }
     }
 }

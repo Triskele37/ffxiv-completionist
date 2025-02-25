@@ -9,13 +9,8 @@
             "name_fr": "Rappelle-toi, Barbare (Deux Vipères)",
             "npc_en": "Scarlet",
             "npc_fr": "Scarlet",
-            "cNext": [
-                67004
-            ],
-            "cExclude": [
-                67002,
-                67003
-            ],
+            "cNext": [67004],
+            "cExclude": [67002, 67003],
             "patch": "4.31"
         },
         "x67002": {
@@ -24,13 +19,8 @@
             "name_fr": "Rappelle-toi, Barbare (Maelstrom)",
             "npc_en": "Trachraet",
             "npc_fr": "Trachraet",
-            "cNext": [
-                67004
-            ],
-            "cExclude": [
-                67001,
-                67003
-            ],
+            "cNext": [67004],
+            "cExclude": [67001, 67003],
             "patch": "4.31"
         },
         "x67003": {
@@ -39,13 +29,8 @@
             "name_fr": "Rappelle-toi, Barbare (Immortels)",
             "npc_en": "Mimio Mio",
             "npc_fr": "Mimio Mio",
-            "cNext": [
-                67004
-            ],
-            "cExclude": [
-                67002,
-                67001
-            ],
+            "cNext": [67004],
+            "cExclude": [67002, 67001],
             "patch": "4.31"
         },
         "x67004": {
@@ -55,14 +40,8 @@
             "cPrevAny": true,
             "npc_en": "Gavin",
             "npc_fr": "Gavin",
-            "cPrev": [
-                67001,
-                67002,
-                67003
-            ],
-            "cNext": [
-                67005
-            ],
+            "cPrev": [67001, 67002, 67003],
+            "cNext": [67005],
             "patch": "4.31"
         },
         "x67005": {
@@ -71,12 +50,8 @@
             "name_fr": "Coup dur à la Couvée",
             "npc_en": "Voyce",
             "npc_fr": "Voyce",
-            "cPrev": [
-                67004
-            ],
-            "cNext": [
-                67006
-            ],
+            "cPrev": [67004],
+            "cNext": [67006],
             "patch": "4.31"
         },
         "x67006": {
@@ -85,12 +60,8 @@
             "name_fr": "Désordre au 789e ordre",
             "npc_en": "Novv",
             "npc_fr": "Novv",
-            "cPrev": [
-                67005
-            ],
-            "cNext": [
-                67007
-            ],
+            "cPrev": [67005],
+            "cNext": [67007],
             "patch": "4.31"
         },
         "x67007": {
@@ -99,12 +70,8 @@
             "name_fr": "Hécatombe sur Ehcatl",
             "npc_en": "Skaetswys",
             "npc_fr": "Skaetswys",
-            "cPrev": [
-                67006
-            ],
-            "cNext": [
-                67008
-            ],
+            "cPrev": [67006],
+            "cNext": [67008],
             "patch": "4.31"
         },
         "x67008": {
@@ -113,12 +80,8 @@
             "name_fr": "Intrigue à la Ligue",
             "npc_en": "Tataramu",
             "npc_fr": "Tataramu",
-            "cPrev": [
-                67007
-            ],
-            "cNext": [
-                67009
-            ],
+            "cPrev": [67007],
+            "cNext": [67009],
             "patch": "4.31"
         },
         "x67009": {
@@ -127,9 +90,7 @@
             "name_fr": "L'union des liens sacrés",
             "npc_en": "Hamujj Gah",
             "npc_fr": "Hamujj Gah",
-            "cPrev": [
-                67008
-            ],
+            "cPrev": [67008],
             "cSiblings": [
                 "character.character.tribal-relations.4",
                 "character.character.tribal-relations.9",

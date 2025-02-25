@@ -2,11 +2,7 @@
     "key": "others",
     "groupName_en": "Others",
     "groupName_fr": "Divers",
-    "common": [
-        "category",
-        "location",
-        "source"
-    ],
+    "common": ["category", "location", "source"],
     "tasks": {
         "x93": {
             "name_en": "Born to Ride",
@@ -15,13 +11,7 @@
             "category": "CATEGORY.PURCHASE",
             "source_en": "Housing Merchant - 5,000 gil",
             "source_fr": "Quincaillière - 5.000 gils",
-            "location": [
-                "ZONE.MIST",
-                "ZONE.THE_LAVENDER_BEDS",
-                "ZONE.THE_GOBLET",
-                "ZONE.SHIROGANE",
-                "ZONE.EMPYREUM"
-            ],
+            "location": ["ZONE.MIST", "ZONE.THE_LAVENDER_BEDS", "ZONE.THE_GOBLET", "ZONE.SHIROGANE", "ZONE.EMPYREUM"],
             "patch": "6.2"
         },
         "x7": {
@@ -56,10 +46,7 @@
             "name_en": "Blood for Blood",
             "name_fr": "Blood for Blood",
             "number": "5",
-            "category": [
-                "CATEGORY.PURCHASE",
-                "CATEGORY.CRAFTING"
-            ],
+            "category": ["CATEGORY.PURCHASE", "CATEGORY.CRAFTING"],
             "source_en": "Mark Quartermaster - 5,000 Wolf Mark",
             "source_fr": "Soldat Du Maelstrom - 5.000 Marque de loup",
             "location": "ZONE.WOLVES_DEN_PIER",
@@ -69,10 +56,7 @@
             "name_en": "Starved",
             "name_fr": "Starved",
             "number": "6",
-            "category": [
-                "CATEGORY.PURCHASE",
-                "CATEGORY.CRAFTING"
-            ],
+            "category": ["CATEGORY.PURCHASE", "CATEGORY.CRAFTING"],
             "source_en": "Mark Quartermaster - 10,000 Wolf Mark",
             "source_fr": "Soldat Du Maelstrom - 10.000 Marque de loup",
             "location": "ZONE.WOLVES_DEN_PIER",
@@ -472,10 +456,7 @@
             "name_fr": "A Victory Fanfare Reborn",
             "number": "48",
             "category": "CATEGORY.TREASURE_HUNT",
-            "source": [
-                "duty.treasure-hunt.duties.6",
-                "duty.treasure-hunt.duties.7"
-            ],
+            "source": ["duty.treasure-hunt.duties.6", "duty.treasure-hunt.duties.7"],
             "patch": "6.3"
         },
         "x101": {

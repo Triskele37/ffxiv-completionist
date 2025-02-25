@@ -2,10 +2,7 @@
     "key": "page-2",
     "groupName_en": "Page 2",
     "groupName_fr": "Page 2",
-    "common": [
-        "zone",
-        "bait"
-    ],
+    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
             "name_en": "Golden Loach",
@@ -122,10 +119,7 @@
         "x16": {
             "name_en": "Raincaller",
             "name_fr": "Poisson cherche-pluie",
-            "zone": [
-                "ZONE.NEW_GRIDANIA",
-                "ZONE.OLD_GRIDANIA"
-            ],
+            "zone": ["ZONE.NEW_GRIDANIA", "ZONE.OLD_GRIDANIA"],
             "fishingHoles": [
                 "logs.gathering.fishing-log.fishing.the-black-shroud.0",
                 "logs.gathering.fishing-log.fishing.the-black-shroud.2"

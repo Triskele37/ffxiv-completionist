@@ -3,21 +3,15 @@
     "groupName_en": "Main Quests",
     "groupName_fr": "Histoire principale",
     "tasks": {
-		"x69219": {
+        "x69219": {
             "level": 70,
             "name_en": "Manic Pixie Dream Realm",
             "name_fr": "Entre rêve et réalité",
             "npc_en": "Pink Pixie",
             "npc_fr": "Pixie Rose",
-            "cPrev": [
-                "duty.quests.main-scenario.shadowbringers.68857"
-            ],
-            "cNext": [
-                69220
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.86"
-            ],
+            "cPrev": ["duty.quests.main-scenario.shadowbringers.68857"],
+            "cNext": [69220],
+            "cSiblings": ["character.character.tribal-relations.86"],
             "patch": "5.1"
         },
         "x69220": {
@@ -28,15 +22,9 @@
             "npc_fr": "Tyr Beq",
             "reputation_en": "Friendly",
             "reputation_fr": "Ami",
-            "cPrev": [
-                69219
-            ],
-            "cNext": [
-                69221
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.87"
-            ],
+            "cPrev": [69219],
+            "cNext": [69221],
+            "cSiblings": ["character.character.tribal-relations.87"],
             "patch": "5.1"
         },
         "x69221": {
@@ -47,15 +35,9 @@
             "npc_fr": "Tyr Beq",
             "reputation_en": "Trusted",
             "reputation_fr": "Estimé",
-            "cPrev": [
-                69220
-            ],
-            "cNext": [
-                69222
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.88"
-            ],
+            "cPrev": [69220],
+            "cNext": [69222],
+            "cSiblings": ["character.character.tribal-relations.88"],
             "patch": "5.1"
         },
         "x69222": {
@@ -66,15 +48,9 @@
             "npc_fr": "Tyr Beq",
             "reputation_en": "Respected",
             "reputation_fr": "Respecté",
-            "cPrev": [
-                69221
-            ],
-            "cNext": [
-                69223
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.89"
-            ],
+            "cPrev": [69221],
+            "cNext": [69223],
+            "cSiblings": ["character.character.tribal-relations.89"],
             "patch": "5.1"
         },
         "x69223": {
@@ -85,15 +61,9 @@
             "npc_fr": "Tyr Beq",
             "reputation_en": "Honored",
             "reputation_fr": "Émérite",
-            "cPrev": [
-                69222
-            ],
-            "cNext": [
-                69224
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.90"
-            ],
+            "cPrev": [69222],
+            "cNext": [69224],
+            "cSiblings": ["character.character.tribal-relations.90"],
             "patch": "5.1"
         },
         "x69224": {
@@ -104,12 +74,8 @@
             "npc_fr": "Tyr Beq",
             "reputation_en": "Sworn",
             "reputation_fr": "Assermenté",
-            "cPrev": [
-                69223
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.91"
-            ],
+            "cPrev": [69223],
+            "cSiblings": ["character.character.tribal-relations.91"],
             "patch": "5.1"
         }
     }

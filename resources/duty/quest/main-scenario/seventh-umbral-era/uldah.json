@@ -10,14 +10,8 @@
             "npc_en": "Momodi",
             "npc_fr": "Momodi",
             "unlock_en": "Return",
-            "cPrev": [
-                "duty.quests.sidequests.uldahn.uldah.66130"
-            ],
-            "cNext": [
-                "duty.quests.sidequests.uldahn.uldah.65925",
-                "duty.quests.sidequests.uldahn.uldah.65926",
-                66131
-            ],
+            "cPrev": ["duty.quests.sidequests.uldahn.uldah.66130"],
+            "cNext": ["duty.quests.sidequests.uldahn.uldah.65925", "duty.quests.sidequests.uldahn.uldah.65926", 66131],
             "cExclude": [
                 "duty.quests.main-scenario.seventh-umbral-era.gridania.65660",
                 "duty.quests.main-scenario.seventh-umbral-era.limsa-lominsa.65645"
@@ -76,12 +70,8 @@
             "name_fr": "Destination gare de triage",
             "npc_en": "Momodi",
             "npc_fr": "Momodi",
-            "cPrev": [
-                66106
-            ],
-            "cNext": [
-                66207
-            ],
+            "cPrev": [66106],
+            "cNext": [66207],
             "patch": "4.31"
         },
         "x66207": {
@@ -90,12 +80,8 @@
             "name_fr": "Un bretzel pour le goûter",
             "npc_en": "Papashan",
             "npc_fr": "Papashan",
-            "cPrev": [
-                66131
-            ],
-            "cNext": [
-                66086
-            ],
+            "cPrev": [66131],
+            "cNext": [66086],
             "patch": "4.31"
         },
         "x66086": {
@@ -104,13 +90,8 @@
             "name_fr": "Sous l'Arbre du Sultan",
             "npc_en": "Papashan",
             "npc_fr": "Papashan",
-            "cPrev": [
-                66207
-            ],
-            "cNext": [
-                65839,
-                "duty.quests.sidequests.uldahn.central-thanalan.65857"
-            ],
+            "cPrev": [66207],
+            "cNext": [65839, "duty.quests.sidequests.uldahn.central-thanalan.65857"],
             "patch": "4.31"
         },
         "x65839": {
@@ -119,12 +100,8 @@
             "name_fr": "Dites-le avec une citrouille",
             "npc_en": "Cicidoa",
             "npc_fr": "Cicidoa",
-            "cPrev": [
-                66086
-            ],
-            "cNext": [
-                69388
-            ],
+            "cPrev": [66086],
+            "cNext": [69388],
             "patch": "4.31"
         },
         "x69388": {
@@ -133,13 +110,8 @@
             "name_fr": "Tenue adéquate exigée",
             "npc_en": "Roger",
             "npc_fr": "Roger",
-            "cPrev": [
-                65839
-            ],
-            "cNext": [
-                65843,
-                "duty.quests.sidequests.uldahn.central-thanalan.65924"
-            ],
+            "cPrev": [65839],
+            "cNext": [65843, "duty.quests.sidequests.uldahn.central-thanalan.65924"],
             "patch": "5.3"
         },
         "x65843": {
@@ -148,13 +120,8 @@
             "name_fr": "Amateurs de minerai dérangeants",
             "npc_en": "Warin",
             "npc_fr": "Warin",
-            "cPrev": [
-                69388
-            ],
-            "cNext": [
-                "duty.quests.sidequests.uldahn.central-thanalan.65862",
-                65856
-            ],
+            "cPrev": [69388],
+            "cNext": ["duty.quests.sidequests.uldahn.central-thanalan.65862", 65856],
             "patch": "4.31"
         },
         "x65856": {
@@ -164,13 +131,8 @@
             "npc_en": "Zuzumeda",
             "npc_fr": "Zuzumeda",
             "unlock_en": "Inn Rooms",
-            "cPrev": [
-                65843
-            ],
-            "cNext": [
-                "duty.quests.sidequests.uldahn.uldah.66223",
-                66159
-            ],
+            "cPrev": [65843],
+            "cNext": ["duty.quests.sidequests.uldahn.uldah.66223", 66159],
             "patch": "4.31"
         },
         "x66159": {
@@ -179,12 +141,8 @@
             "name_fr": "Du travail à l'Horizon",
             "npc_en": "Momodi",
             "npc_fr": "Momodi",
-            "cPrev": [
-                65856
-            ],
-            "cNext": [
-                65864
-            ],
+            "cPrev": [65856],
+            "cNext": [65864],
             "patch": "4.31"
         },
         "x65864": {
@@ -193,13 +151,8 @@
             "name_fr": "Circonstances atténuantes",
             "npc_en": "Dadanen",
             "npc_fr": "Dadanen",
-            "cPrev": [
-                66159
-            ],
-            "cNext": [
-                66039,
-                "duty.quests.sidequests.uldahn.western-thanalan.66040"
-            ],
+            "cPrev": [66159],
+            "cNext": [66039, "duty.quests.sidequests.uldahn.western-thanalan.66040"],
             "patch": "4.31"
         },
         "x66039": {
@@ -208,12 +161,8 @@
             "name_fr": "À la poursuite de la nashachite",
             "npc_en": "Drunken Stag",
             "npc_fr": "Drunken Stag",
-            "cPrev": [
-                65864
-            ],
-            "cNext": [
-                65865
-            ],
+            "cPrev": [65864],
+            "cNext": [65865],
             "patch": "4.31"
         },
         "x65865": {
@@ -222,13 +171,8 @@
             "name_fr": "Opération anti-moucherons",
             "npc_en": "Drunken Stag",
             "npc_fr": "Drunken Stag",
-            "cPrev": [
-                66039
-            ],
-            "cNext": [
-                "duty.quests.sidequests.uldahn.western-thanalan.65877",
-                65866
-            ],
+            "cPrev": [66039],
+            "cNext": ["duty.quests.sidequests.uldahn.western-thanalan.65877", 65866],
             "patch": "4.31"
         },
         "x65866": {
@@ -237,9 +181,7 @@
             "name_fr": "Courrier égaré",
             "npc_en": "Fufulupa",
             "npc_fr": "Fufulupa",
-            "cPrev": [
-                65865
-            ],
+            "cPrev": [65865],
             "cNext": [
                 "duty.quests.sidequests.uldahn.central-thanalan.66109",
                 "duty.quests.sidequests.uldahn.central-thanalan.66066",
@@ -254,12 +196,8 @@
             "name_fr": "Baron que de nom",
             "npc_en": "Leofric",
             "npc_fr": "Leofric",
-            "cPrev": [
-                65866
-            ],
-            "cNext": [
-                65868
-            ],
+            "cPrev": [65866],
+            "cNext": [65868],
             "patch": "5.3"
         },
         "x65868": {
@@ -268,9 +206,7 @@
             "name_fr": "Un don lourd de sens",
             "npc_en": "Leofric",
             "npc_fr": "Leofric",
-            "cPrev": [
-                69389
-            ],
+            "cPrev": [69389],
             "cNext": [
                 65869,
                 "duty.quests.sidequests.uldahn.western-thanalan.65878",
@@ -285,12 +221,8 @@
             "name_fr": "Visite aux vestiges",
             "npc_en": "Fufulupa",
             "npc_fr": "Fufulupa",
-            "cPrev": [
-                65868
-            ],
-            "cNext": [
-                65870
-            ],
+            "cPrev": [65868],
+            "cNext": [65870],
             "patch": "4.31"
         },
         "x65870": {
@@ -299,12 +231,8 @@
             "name_fr": "Le poisson du festin",
             "npc_en": "Nunuzofu",
             "npc_fr": "Nunuzofu",
-            "cPrev": [
-                65869
-            ],
-            "cNext": [
-                65872
-            ],
+            "cPrev": [65869],
+            "cNext": [65872],
             "patch": "4.31"
         },
         "x65872": {
@@ -313,12 +241,8 @@
             "name_fr": "L'honneur des lames de cuivre",
             "npc_en": "Merilda",
             "npc_fr": "Merilda",
-            "cPrev": [
-                65870
-            ],
-            "cNext": [
-                66164
-            ],
+            "cPrev": [65870],
+            "cNext": [66164],
             "patch": "4.31"
         },
         "x66164": {
@@ -327,12 +251,8 @@
             "name_fr": "Une correspondance suspecte",
             "npc_en": "Fufulupa",
             "npc_fr": "Fufulupa",
-            "cPrev": [
-                65872
-            ],
-            "cNext": [
-                66087
-            ],
+            "cPrev": [65872],
+            "cNext": [66087],
             "patch": "4.31"
         },
         "x66087": {
@@ -341,12 +261,8 @@
             "name_fr": "Les ténèbres qui menacent la couronne",
             "npc_en": "Momodi",
             "npc_fr": "Momodi",
-            "cPrev": [
-                66164
-            ],
-            "cNext": [
-                66177
-            ],
+            "cPrev": [66164],
+            "cNext": [66177],
             "patch": "4.31"
         },
         "x66177": {
@@ -355,9 +271,7 @@
             "name_fr": "Les préparatifs de la soirée",
             "npc_en": "Owyne",
             "npc_fr": "Owyne",
-            "cPrev": [
-                66087
-            ],
+            "cPrev": [66087],
             "patch": "4.31"
         },
         "x66088": {
@@ -381,9 +295,7 @@
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn",
             "unlock_en": "Airships",
-            "cPrev": [
-                66088
-            ],
+            "cPrev": [66088],
             "cNext": [
                 66209,
                 "duty.quests.sidequests.uldahn.uldah.65970",
@@ -395,9 +307,7 @@
                 "duty.quests.other.seasonal.valentiones-little-ladies-day.69532",
                 "duty.quests.other.seasonal.gold-saucer-festivities.69590"
             ],
-            "cSiblings": [
-                "character.achievement.quests.main-scenario.312"
-            ],
+            "cSiblings": ["character.achievement.quests.main-scenario.312"],
             "patch": "4.31"
         },
         "x66209": {
@@ -406,9 +316,7 @@
             "name_fr": "L'appel de la mer",
             "npc_en": "Bartholomew",
             "npc_fr": "Bartholomew",
-            "cPrev": [
-                66064
-            ],
+            "cPrev": [66064],
             "cNext": [
                 "duty.quests.sidequests.lominsan.western-la-noscea.66681",
                 "duty.quests.sidequests.lominsan.western-la-noscea.66678",

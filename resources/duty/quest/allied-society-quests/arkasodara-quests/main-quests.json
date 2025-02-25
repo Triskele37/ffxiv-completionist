@@ -3,22 +3,15 @@
     "groupName_en": "Main Quests",
     "groupName_fr": "Histoire principale",
     "tasks": {
-		"x70081": {
+        "x70081": {
             "level": 80,
             "name_en": "Hippos Born to Run",
             "name_fr": "Hippos dans la poussière",
             "npc_en": "Kancana",
             "npc_fr": "Kancana",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.70000",
-                "duty.quests.sidequests.thavnairian.thavnair.70033"
-            ],
-            "cNext": [
-                70082
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.92"
-            ],
+            "cPrev": ["duty.quests.main-scenario.endwalker.70000", "duty.quests.sidequests.thavnairian.thavnair.70033"],
+            "cNext": [70082],
+            "cSiblings": ["character.character.tribal-relations.92"],
             "patch": "6.28"
         },
         "x70082": {
@@ -28,15 +21,9 @@
             "reputation": "REPUTATION.3",
             "npc_en": "Trna",
             "npc_fr": "Trna",
-            "cPrev": [
-                70081
-            ],
-            "cNext": [
-                70083
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.93"
-            ],
+            "cPrev": [70081],
+            "cNext": [70083],
+            "cSiblings": ["character.character.tribal-relations.93"],
             "patch": "6.28"
         },
         "x70083": {
@@ -46,15 +33,9 @@
             "reputation": "REPUTATION.4",
             "npc_en": "Trna",
             "npc_fr": "Trna",
-            "cPrev": [
-                70082
-            ],
-            "cNext": [
-                70084
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.94"
-            ],
+            "cPrev": [70082],
+            "cNext": [70084],
+            "cSiblings": ["character.character.tribal-relations.94"],
             "patch": "6.28"
         },
         "x70084": {
@@ -64,15 +45,9 @@
             "reputation": "REPUTATION.5",
             "npc_en": "Trna",
             "npc_fr": "Trna",
-            "cPrev": [
-                70083
-            ],
-            "cNext": [
-                70085
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.95"
-            ],
+            "cPrev": [70083],
+            "cNext": [70085],
+            "cSiblings": ["character.character.tribal-relations.95"],
             "patch": "6.28"
         },
         "x70085": {
@@ -82,15 +57,9 @@
             "reputation": "REPUTATION.6",
             "npc_en": "Trna",
             "npc_fr": "Trna",
-            "cPrev": [
-                70084
-            ],
-            "cNext": [
-                70086
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.96"
-            ],
+            "cPrev": [70084],
+            "cNext": [70086],
+            "cSiblings": ["character.character.tribal-relations.96"],
             "patch": "6.28"
         },
         "x70086": {
@@ -100,12 +69,8 @@
             "reputation": "REPUTATION.7",
             "npc_en": "Trna",
             "npc_fr": "Trna",
-            "cPrev": [
-                70085
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.97"
-            ],
+            "cPrev": [70085],
+            "cSiblings": ["character.character.tribal-relations.97"],
             "patch": "6.28"
         }
     }

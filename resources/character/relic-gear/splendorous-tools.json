@@ -2,9 +2,7 @@
     "key": "splendorous-tools",
     "groupName_en": "Splendorous Tools",
     "groupName_fr": "Outils splendorous",
-    "common": [
-        "job"
-    ],
+    "common": ["job"],
     "tasks": {
         "x0": {
             "name_en": "Splendorous Saw",
@@ -13,9 +11,7 @@
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                11
-            ]
+            "cNext": [11]
         },
         "x11": {
             "name_en": "Augmented Splendorous Saw",
@@ -24,12 +20,8 @@
             "iLevel": "590",
             "requirements_en": "Splendorous Carpenter's Component x60",
             "requirements_fr": "Splendorous Carpenter's Component x60",
-            "cPrev": [
-                0
-            ],
-            "cNext": [
-                22
-            ]
+            "cPrev": [0],
+            "cNext": [22]
         },
         "x22": {
             "name_en": "Crystalline Saw",
@@ -38,15 +30,9 @@
             "iLevel": "620",
             "requirements_en": "Adaptive Carpenter's Component x90",
             "requirements_fr": "Adaptive Carpenter's Component x90",
-            "cPrev": [
-                11
-            ],
-            "cNext": [
-                33
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3193"
-            ]
+            "cPrev": [11],
+            "cNext": [33],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3193"]
         },
         "x33": {
             "name_en": "Chora-Zoi's Crystalline Saw",
@@ -55,12 +41,8 @@
             "iLevel": "625",
             "requirements_en": "Customized Carpenter's Component x90",
             "requirements_fr": "Customized Carpenter's Component x90",
-            "cPrev": [
-                22
-            ],
-            "cNext": [
-                44
-            ]
+            "cPrev": [22],
+            "cNext": [44]
         },
         "x44": {
             "name_en": "Brilliant Saw",
@@ -69,15 +51,9 @@
             "iLevel": "630",
             "requirements_en": "Brilliant Carpenter's Component x90",
             "requirements_fr": "Brilliant Carpenter's Component x90",
-            "cPrev": [
-                33
-            ],
-            "cNext": [
-                55
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3305"
-            ]
+            "cPrev": [33],
+            "cNext": [55],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3305"]
         },
         "x55": {
             "name_en": "Vrandtic Visionary's Saw",
@@ -86,12 +62,8 @@
             "iLevel": "635",
             "requirements_en": "Inspirational Carpenter's Component x60",
             "requirements_fr": "Inspirational Carpenter's Component x60",
-            "cPrev": [
-                44
-            ],
-            "cNext": [
-                66
-            ]
+            "cPrev": [44],
+            "cNext": [66]
         },
         "x66": {
             "name_en": "Lodestar Saw",
@@ -100,12 +72,8 @@
             "iLevel": "640",
             "requirements_en": "Nightforged Carpenter's Component x60",
             "requirements_fr": "Nightforged Carpenter's Component x60",
-            "cPrev": [
-                55
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3362"
-            ]
+            "cPrev": [55],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3362"]
         },
         "x1": {
             "name_en": "Splendorous Cross-pein Hammer",
@@ -114,9 +82,7 @@
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                12
-            ]
+            "cNext": [12]
         },
         "x12": {
             "name_en": "Augmented Splendorous Cross-pein Hammer",
@@ -125,12 +91,8 @@
             "iLevel": "590",
             "requirements_en": "Splendorous Blacksmith's Component x60",
             "requirements_fr": "Splendorous Blacksmith's Component x60",
-            "cPrev": [
-                1
-            ],
-            "cNext": [
-                23
-            ]
+            "cPrev": [1],
+            "cNext": [23]
         },
         "x23": {
             "name_en": "Crystalline Cross-pein Hammer",
@@ -139,15 +101,9 @@
             "iLevel": "620",
             "requirements_en": "Adaptive Blacksmith's Component x90",
             "requirements_fr": "Adaptive Blacksmith's Component x90",
-            "cPrev": [
-                12
-            ],
-            "cNext": [
-                34
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3194"
-            ]
+            "cPrev": [12],
+            "cNext": [34],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3194"]
         },
         "x34": {
             "name_en": "Chora-Zoi's Crystalline Cross-pein Hammer",
@@ -156,12 +112,8 @@
             "iLevel": "625",
             "requirements_en": "Customized Blacksmith's Component x90",
             "requirements_fr": "Customized Blacksmith's Component x90",
-            "cPrev": [
-                23
-            ],
-            "cNext": [
-                45
-            ]
+            "cPrev": [23],
+            "cNext": [45]
         },
         "x45": {
             "name_en": "Brilliant Cross-pein Hammer",
@@ -170,15 +122,9 @@
             "iLevel": "630",
             "requirements_en": "Brilliant Blacksmith's Component x90",
             "requirements_fr": "Brilliant Blacksmith's Component x90",
-            "cPrev": [
-                34
-            ],
-            "cNext": [
-                56
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3306"
-            ]
+            "cPrev": [34],
+            "cNext": [56],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3306"]
         },
         "x56": {
             "name_en": "Vrandtic Visionary's Cross-pein Hammer",
@@ -187,12 +133,8 @@
             "iLevel": "635",
             "requirements_en": "Inspirational Blacksmith's Component x60",
             "requirements_fr": "Inspirational Blacksmith's Component x60",
-            "cPrev": [
-                45
-            ],
-            "cNext": [
-                67
-            ]
+            "cPrev": [45],
+            "cNext": [67]
         },
         "x67": {
             "name_en": "Lodestar Cross-pein Hammer",
@@ -201,12 +143,8 @@
             "iLevel": "640",
             "requirements_en": "Nightforged Blacksmith's Component x60",
             "requirements_fr": "Nightforged Blacksmith's Component x60",
-            "cPrev": [
-                56
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3363"
-            ]
+            "cPrev": [56],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3363"]
         },
         "x2": {
             "name_en": "Splendorous Raising Hammer",
@@ -215,9 +153,7 @@
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                13
-            ]
+            "cNext": [13]
         },
         "x13": {
             "name_en": "Augmented Splendorous Raising Hammer",
@@ -226,12 +162,8 @@
             "iLevel": "590",
             "requirements_en": "Splendorous Armorer's Component x60",
             "requirements_fr": "Splendorous Armorer's Component x60",
-            "cPrev": [
-                2
-            ],
-            "cNext": [
-                24
-            ]
+            "cPrev": [2],
+            "cNext": [24]
         },
         "x24": {
             "name_en": "Crystalline Raising Hammer",
@@ -240,15 +172,9 @@
             "iLevel": "620",
             "requirements_en": "Adaptive Armorer's Component x90",
             "requirements_fr": "Adaptive Armorer's Component x90",
-            "cPrev": [
-                13
-            ],
-            "cNext": [
-                35
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3195"
-            ]
+            "cPrev": [13],
+            "cNext": [35],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3195"]
         },
         "x35": {
             "name_en": "Chora-Zoi's Crystalline Raising Hammer",
@@ -257,12 +183,8 @@
             "iLevel": "625",
             "requirements_en": "Customized Armorer's Component x90",
             "requirements_fr": "Customized Armorer's Component x90",
-            "cPrev": [
-                24
-            ],
-            "cNext": [
-                46
-            ]
+            "cPrev": [24],
+            "cNext": [46]
         },
         "x46": {
             "name_en": "Brilliant Raising Hammer",
@@ -271,15 +193,9 @@
             "iLevel": "630",
             "requirements_en": "Brilliant Armorer's Component x90",
             "requirements_fr": "Brilliant Armorer's Component x90",
-            "cPrev": [
-                35
-            ],
-            "cNext": [
-                57
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3307"
-            ]
+            "cPrev": [35],
+            "cNext": [57],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3307"]
         },
         "x57": {
             "name_en": "Vrandtic Visionary's Raising Hammer",
@@ -288,12 +204,8 @@
             "iLevel": "635",
             "requirements_en": "Inspirational Armorer's Component x60",
             "requirements_fr": "Inspirational Armorer's Component x60",
-            "cPrev": [
-                46
-            ],
-            "cNext": [
-                68
-            ]
+            "cPrev": [46],
+            "cNext": [68]
         },
         "x68": {
             "name_en": "Lodestar Raising Hammer",
@@ -302,12 +214,8 @@
             "iLevel": "640",
             "requirements_en": "Nightforged Armorer's Component x60",
             "requirements_fr": "Nightforged Armorer's Component x60",
-            "cPrev": [
-                57
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3364"
-            ]
+            "cPrev": [57],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3364"]
         },
         "x3": {
             "name_en": "Splendorous Mallet",
@@ -316,9 +224,7 @@
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                14
-            ]
+            "cNext": [14]
         },
         "x14": {
             "name_en": "Augmented Splendorous Mallet",
@@ -327,12 +233,8 @@
             "iLevel": "590",
             "requirements_en": "Splendorous Goldsmith's Component x60",
             "requirements_fr": "Splendorous Goldsmith's Component x60",
-            "cPrev": [
-                3
-            ],
-            "cNext": [
-                25
-            ]
+            "cPrev": [3],
+            "cNext": [25]
         },
         "x25": {
             "name_en": "Crystalline Mallet",
@@ -341,15 +243,9 @@
             "iLevel": "620",
             "requirements_en": "Adaptive Goldsmith's Component x90",
             "requirements_fr": "Adaptive Goldsmith's Component x90",
-            "cPrev": [
-                14
-            ],
-            "cNext": [
-                36
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3196"
-            ]
+            "cPrev": [14],
+            "cNext": [36],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3196"]
         },
         "x36": {
             "name_en": "Chora-Zoi's Crystalline Mallet",
@@ -358,12 +254,8 @@
             "iLevel": "625",
             "requirements_en": "Customized Goldsmith's Component x90",
             "requirements_fr": "Customized Goldsmith's Component x90",
-            "cPrev": [
-                25
-            ],
-            "cNext": [
-                47
-            ]
+            "cPrev": [25],
+            "cNext": [47]
         },
         "x47": {
             "name_en": "Brilliant Mallet",
@@ -372,15 +264,9 @@
             "iLevel": "630",
             "requirements_en": "Brilliant Goldsmith's Component x90",
             "requirements_fr": "Brilliant Goldsmith's Component x90",
-            "cPrev": [
-                36
-            ],
-            "cNext": [
-                58
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3308"
-            ]
+            "cPrev": [36],
+            "cNext": [58],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3308"]
         },
         "x58": {
             "name_en": "Vrandtic Visionary's Mallet",
@@ -389,12 +275,8 @@
             "iLevel": "635",
             "requirements_en": "Inspirational Goldsmith's Component x60",
             "requirements_fr": "Inspirational Goldsmith's Component x60",
-            "cPrev": [
-                47
-            ],
-            "cNext": [
-                69
-            ]
+            "cPrev": [47],
+            "cNext": [69]
         },
         "x69": {
             "name_en": "Lodestar Mallet",
@@ -403,12 +285,8 @@
             "iLevel": "640",
             "requirements_en": "Nightforged Goldsmith's Component x60",
             "requirements_fr": "Nightforged Goldsmith's Component x60",
-            "cPrev": [
-                58
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3365"
-            ]
+            "cPrev": [58],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3365"]
         },
         "x4": {
             "name_en": "Splendorous Knife",
@@ -417,9 +295,7 @@
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                15
-            ]
+            "cNext": [15]
         },
         "x15": {
             "name_en": "Augmented Splendorous Knife",
@@ -428,12 +304,8 @@
             "iLevel": "590",
             "requirements_en": "Splendorous Leatherworker's Component x60",
             "requirements_fr": "Splendorous Leatherworker's Component x60",
-            "cPrev": [
-                4
-            ],
-            "cNext": [
-                26
-            ]
+            "cPrev": [4],
+            "cNext": [26]
         },
         "x26": {
             "name_en": "Crystalline Round Knife",
@@ -442,15 +314,9 @@
             "iLevel": "620",
             "requirements_en": "Adaptive Leatherworker's Component x90",
             "requirements_fr": "Adaptive Leatherworker's Component x90",
-            "cPrev": [
-                15
-            ],
-            "cNext": [
-                37
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3197"
-            ]
+            "cPrev": [15],
+            "cNext": [37],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3197"]
         },
         "x37": {
             "name_en": "Chora-Zoi's Crystalline Round Knife",
@@ -459,12 +325,8 @@
             "iLevel": "625",
             "requirements_en": "Customized Leatherworker's Component x90",
             "requirements_fr": "Customized Leatherworker's Component x90",
-            "cPrev": [
-                26
-            ],
-            "cNext": [
-                48
-            ]
+            "cPrev": [26],
+            "cNext": [48]
         },
         "x48": {
             "name_en": "Brilliant Round Knife",
@@ -473,15 +335,9 @@
             "iLevel": "630",
             "requirements_en": "Brilliant Leatherworker's Component x90",
             "requirements_fr": "Brilliant Leatherworker's Component x90",
-            "cPrev": [
-                37
-            ],
-            "cNext": [
-                59
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3309"
-            ]
+            "cPrev": [37],
+            "cNext": [59],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3309"]
         },
         "x59": {
             "name_en": "Vrandtic Visionary's Round Knife",
@@ -490,12 +346,8 @@
             "iLevel": "635",
             "requirements_en": "Inspirational Leatherworker's Component x60",
             "requirements_fr": "Inspirational Leatherworker's Component x60",
-            "cPrev": [
-                48
-            ],
-            "cNext": [
-                70
-            ]
+            "cPrev": [48],
+            "cNext": [70]
         },
         "x70": {
             "name_en": "Lodestar Round Knife",
@@ -504,12 +356,8 @@
             "iLevel": "640",
             "requirements_en": "Nightforged Leatherworker's Component x60",
             "requirements_fr": "Nightforged Leatherworker's Component x60",
-            "cPrev": [
-                59
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3366"
-            ]
+            "cPrev": [59],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3366"]
         },
         "x5": {
             "name_en": "Splendorous Needle",
@@ -518,9 +366,7 @@
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                16
-            ]
+            "cNext": [16]
         },
         "x16": {
             "name_en": "Augmented Splendorous Needle",
@@ -529,12 +375,8 @@
             "iLevel": "590",
             "requirements_en": "Splendorous Weaver's Component x60",
             "requirements_fr": "Splendorous Weaver's Component x60",
-            "cPrev": [
-                5
-            ],
-            "cNext": [
-                27
-            ]
+            "cPrev": [5],
+            "cNext": [27]
         },
         "x27": {
             "name_en": "Crystalline Needle",
@@ -543,15 +385,9 @@
             "iLevel": "620",
             "requirements_en": "Adaptive Weaver's Component x90",
             "requirements_fr": "Adaptive Weaver's Component x90",
-            "cPrev": [
-                16
-            ],
-            "cNext": [
-                38
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3198"
-            ]
+            "cPrev": [16],
+            "cNext": [38],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3198"]
         },
         "x38": {
             "name_en": "Chora-Zoi's Crystalline Needle",
@@ -560,12 +396,8 @@
             "iLevel": "625",
             "requirements_en": "Customized Weaver's Component x90",
             "requirements_fr": "Customized Weaver's Component x90",
-            "cPrev": [
-                27
-            ],
-            "cNext": [
-                49
-            ]
+            "cPrev": [27],
+            "cNext": [49]
         },
         "x49": {
             "name_en": "Brilliant Needle",
@@ -574,15 +406,9 @@
             "iLevel": "630",
             "requirements_en": "Brilliant Weaver's Component x90",
             "requirements_fr": "Brilliant Weaver's Component x90",
-            "cPrev": [
-                38
-            ],
-            "cNext": [
-                60
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3310"
-            ]
+            "cPrev": [38],
+            "cNext": [60],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3310"]
         },
         "x60": {
             "name_en": "Vrandtic Visionary's Needle",
@@ -591,12 +417,8 @@
             "iLevel": "635",
             "requirements_en": "Inspirational Weaver's Component x60",
             "requirements_fr": "Inspirational Weaver's Component x60",
-            "cPrev": [
-                49
-            ],
-            "cNext": [
-                71
-            ]
+            "cPrev": [49],
+            "cNext": [71]
         },
         "x71": {
             "name_en": "Lodestar Needle",
@@ -605,12 +427,8 @@
             "iLevel": "640",
             "requirements_en": "Nightforged Weaver's Component x60",
             "requirements_fr": "Nightforged Weaver's Component x60",
-            "cPrev": [
-                60
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3367"
-            ]
+            "cPrev": [60],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3367"]
         },
         "x6": {
             "name_en": "Splendorous Alembic",
@@ -619,9 +437,7 @@
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                17
-            ]
+            "cNext": [17]
         },
         "x17": {
             "name_en": "Augmented Splendorous Alembic",
@@ -630,12 +446,8 @@
             "iLevel": "590",
             "requirements_en": "Splendorous Alchemist's Component x60",
             "requirements_fr": "Splendorous Alchemist's Component x60",
-            "cPrev": [
-                6
-            ],
-            "cNext": [
-                28
-            ]
+            "cPrev": [6],
+            "cNext": [28]
         },
         "x28": {
             "name_en": "Crystalline Alembic",
@@ -644,15 +456,9 @@
             "iLevel": "620",
             "requirements_en": "Adaptive Alchemist's Component x90",
             "requirements_fr": "Adaptive Alchemist's Component x90",
-            "cPrev": [
-                17
-            ],
-            "cNext": [
-                39
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3199"
-            ]
+            "cPrev": [17],
+            "cNext": [39],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3199"]
         },
         "x39": {
             "name_en": "Chora-Zoi's Crystalline Alembic",
@@ -661,12 +467,8 @@
             "iLevel": "625",
             "requirements_en": "Customized Alchemist's Component x90",
             "requirements_fr": "Customized Alchemist's Component x90",
-            "cPrev": [
-                28
-            ],
-            "cNext": [
-                50
-            ]
+            "cPrev": [28],
+            "cNext": [50]
         },
         "x50": {
             "name_en": "Brilliant Alembic",
@@ -675,15 +477,9 @@
             "iLevel": "630",
             "requirements_en": "Brilliant Alchemist's Component x90",
             "requirements_fr": "Brilliant Alchemist's Component x90",
-            "cPrev": [
-                39
-            ],
-            "cNext": [
-                61
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3311"
-            ]
+            "cPrev": [39],
+            "cNext": [61],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3311"]
         },
         "x61": {
             "name_en": "Vrandtic Visionary's Alembic",
@@ -692,12 +488,8 @@
             "iLevel": "635",
             "requirements_en": "Inspirational Alchemist's Component x60",
             "requirements_fr": "Inspirational Alchemist's Component x60",
-            "cPrev": [
-                50
-            ],
-            "cNext": [
-                72
-            ]
+            "cPrev": [50],
+            "cNext": [72]
         },
         "x72": {
             "name_en": "Lodestar Alembic",
@@ -706,12 +498,8 @@
             "iLevel": "640",
             "requirements_en": "Nightforged Alchemist's Component x60",
             "requirements_fr": "Nightforged Alchemist's Component x60",
-            "cPrev": [
-                61
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3368"
-            ]
+            "cPrev": [61],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3368"]
         },
         "x7": {
             "name_en": "Splendorous Frypan",
@@ -720,9 +508,7 @@
             "iLevel": "570",
             "requirements_en": "1,500 White Crafters' Scrips",
             "requirements_fr": "1,500 White Crafters' Scrips",
-            "cNext": [
-                18
-            ]
+            "cNext": [18]
         },
         "x18": {
             "name_en": "Augmented Splendorous Frypan",
@@ -731,12 +517,8 @@
             "iLevel": "590",
             "requirements_en": "Splendorous Culinarian's Component x60",
             "requirements_fr": "Splendorous Culinarian's Component x60",
-            "cPrev": [
-                7
-            ],
-            "cNext": [
-                29
-            ]
+            "cPrev": [7],
+            "cNext": [29]
         },
         "x29": {
             "name_en": "Crystalline Frypan",
@@ -745,15 +527,9 @@
             "iLevel": "620",
             "requirements_en": "Adaptive Culinarian's Component x90",
             "requirements_fr": "Adaptive Culinarian's Component x90",
-            "cPrev": [
-                18
-            ],
-            "cNext": [
-                40
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3200"
-            ]
+            "cPrev": [18],
+            "cNext": [40],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3200"]
         },
         "x40": {
             "name_en": "Chora-Zoi's Crystalline Frypan",
@@ -762,12 +538,8 @@
             "iLevel": "625",
             "requirements_en": "Customized Culinarian's Component x90",
             "requirements_fr": "Customized Culinarian's Component x90",
-            "cPrev": [
-                29
-            ],
-            "cNext": [
-                51
-            ]
+            "cPrev": [29],
+            "cNext": [51]
         },
         "x51": {
             "name_en": "Brilliant Frypan",
@@ -776,15 +548,9 @@
             "iLevel": "630",
             "requirements_en": "Brilliant Culinarian's Component x90",
             "requirements_fr": "Brilliant Culinarian's Component x90",
-            "cPrev": [
-                40
-            ],
-            "cNext": [
-                62
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3312"
-            ]
+            "cPrev": [40],
+            "cNext": [62],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3312"]
         },
         "x62": {
             "name_en": "Vrandtic Visionary's Frypan",
@@ -793,12 +559,8 @@
             "iLevel": "635",
             "requirements_en": "Inspirational Culinarian's Component x60",
             "requirements_fr": "Inspirational Culinarian's Component x60",
-            "cPrev": [
-                51
-            ],
-            "cNext": [
-                73
-            ]
+            "cPrev": [51],
+            "cNext": [73]
         },
         "x73": {
             "name_en": "Lodestar Frypan",
@@ -807,12 +569,8 @@
             "iLevel": "640",
             "requirements_en": "Nightforged Culinarian's Component x60",
             "requirements_fr": "Nightforged Culinarian's Component x60",
-            "cPrev": [
-                62
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3369"
-            ]
+            "cPrev": [62],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3369"]
         },
         "x8": {
             "name_en": "Splendorous Pickaxe",
@@ -821,9 +579,7 @@
             "iLevel": "570",
             "requirements_en": "1,500 White Gatherers' Scrips",
             "requirements_fr": "1,500 White Gatherers' Scrips",
-            "cNext": [
-                19
-            ]
+            "cNext": [19]
         },
         "x19": {
             "name_en": "Augmented Splendorous Pickaxe",
@@ -832,12 +588,8 @@
             "iLevel": "590",
             "requirements_en": "Splendorous Miner's Component x180",
             "requirements_fr": "Splendorous Miner's Component x180",
-            "cPrev": [
-                8
-            ],
-            "cNext": [
-                30
-            ]
+            "cPrev": [8],
+            "cNext": [30]
         },
         "x30": {
             "name_en": "Crystalline Pickaxe",
@@ -846,15 +598,9 @@
             "iLevel": "620",
             "requirements_en": "Adaptive Miner's Component x210",
             "requirements_fr": "Adaptive Miner's Component x210",
-            "cPrev": [
-                19
-            ],
-            "cNext": [
-                41
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3201"
-            ]
+            "cPrev": [19],
+            "cNext": [41],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3201"]
         },
         "x41": {
             "name_en": "Chora-Zoi's Crystalline Pickaxe",
@@ -863,12 +609,8 @@
             "iLevel": "625",
             "requirements_en": "Customized Miner's Component x210",
             "requirements_fr": "Customized Miner's Component x210",
-            "cPrev": [
-                30
-            ],
-            "cNext": [
-                52
-            ]
+            "cPrev": [30],
+            "cNext": [52]
         },
         "x52": {
             "name_en": "Brilliant Pickaxe",
@@ -877,15 +619,9 @@
             "iLevel": "630",
             "requirements_en": "Brilliant Miner's Component x210",
             "requirements_fr": "Brilliant Miner's Component x210",
-            "cPrev": [
-                41
-            ],
-            "cNext": [
-                63
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3313"
-            ]
+            "cPrev": [41],
+            "cNext": [63],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3313"]
         },
         "x63": {
             "name_en": "Vrandtic Visionary's Pickaxe",
@@ -894,12 +630,8 @@
             "iLevel": "635",
             "requirements_en": "Inspirational Miner's Component x220",
             "requirements_fr": "Inspirational Miner's Component x220",
-            "cPrev": [
-                52
-            ],
-            "cNext": [
-                74
-            ]
+            "cPrev": [52],
+            "cNext": [74]
         },
         "x74": {
             "name_en": "Lodestar Pickaxe",
@@ -908,12 +640,8 @@
             "iLevel": "640",
             "requirements_en": "Nightforged Miner's Component x220",
             "requirements_fr": "Nightforged Miner's Component x220",
-            "cPrev": [
-                63
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3370"
-            ]
+            "cPrev": [63],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3370"]
         },
         "x9": {
             "name_en": "Splendorous Hatchet",
@@ -922,9 +650,7 @@
             "iLevel": "570",
             "requirements_en": "1,500 White Gatherers' Scrips",
             "requirements_fr": "1,500 White Gatherers' Scrips",
-            "cNext": [
-                20
-            ]
+            "cNext": [20]
         },
         "x20": {
             "name_en": "Augmented Splendorous Hatchet",
@@ -933,12 +659,8 @@
             "iLevel": "590",
             "requirements_en": "Splendorous Botanist's Component x180",
             "requirements_fr": "Splendorous Botanist's Component x180",
-            "cPrev": [
-                9
-            ],
-            "cNext": [
-                31
-            ]
+            "cPrev": [9],
+            "cNext": [31]
         },
         "x31": {
             "name_en": "Crystalline Hatchet",
@@ -947,15 +669,9 @@
             "iLevel": "620",
             "requirements_en": "Adaptive Botanist's Component x210",
             "requirements_fr": "Adaptive Botanist's Component x210",
-            "cPrev": [
-                20
-            ],
-            "cNext": [
-                42
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3202"
-            ]
+            "cPrev": [20],
+            "cNext": [42],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3202"]
         },
         "x42": {
             "name_en": "Chora-Zoi's Crystalline Hatchet",
@@ -964,12 +680,8 @@
             "iLevel": "625",
             "requirements_en": "Customized Botanist's Component x210",
             "requirements_fr": "Customized Botanist's Component x210",
-            "cPrev": [
-                31
-            ],
-            "cNext": [
-                53
-            ]
+            "cPrev": [31],
+            "cNext": [53]
         },
         "x53": {
             "name_en": "Brilliant Hatchet",
@@ -978,15 +690,9 @@
             "iLevel": "630",
             "requirements_en": "Brilliant Botanist's Component x210",
             "requirements_fr": "Brilliant Botanist's Component x210",
-            "cPrev": [
-                42
-            ],
-            "cNext": [
-                64
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3314"
-            ]
+            "cPrev": [42],
+            "cNext": [64],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3314"]
         },
         "x64": {
             "name_en": "Vrandtic Visionary's Hatchet",
@@ -995,12 +701,8 @@
             "iLevel": "635",
             "requirements_en": "Inspirational Botanist's Component x220",
             "requirements_fr": "Inspirational Botanist's Component x220",
-            "cPrev": [
-                53
-            ],
-            "cNext": [
-                75
-            ]
+            "cPrev": [53],
+            "cNext": [75]
         },
         "x75": {
             "name_en": "Lodestar Hatchet",
@@ -1009,12 +711,8 @@
             "iLevel": "640",
             "requirements_en": "Nightforged Botanist's Component x220",
             "requirements_fr": "Nightforged Botanist's Component x220",
-            "cPrev": [
-                64
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3371"
-            ]
+            "cPrev": [64],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3371"]
         },
         "x10": {
             "name_en": "Splendorous Fishing Rod",
@@ -1023,95 +721,49 @@
             "iLevel": "570",
             "requirements_en": "1,500 White Gatherers' Scrips",
             "requirements_fr": "1,500 White Gatherers' Scrips",
-            "cNext": [
-                21
-            ]
+            "cNext": [21]
         },
         "x21": {
             "name_en": "Augmented Splendorous Fishing Rod",
             "name_fr": "Canne à pêche des merveilles améliorée",
             "job": "CLASS_JOB.FSH",
             "iLevel": "590",
-            "requirements_en": [
-                "Splendorous Fishing Rod Component x60",
-                "Splendorous Fishing Reel Component x60"
-            ],
-            "requirements_fr": [
-                "Splendorous Fishing Rod Component x60",
-                "Splendorous Fishing Reel Component x60"
-            ],
-            "cPrev": [
-                10
-            ],
-            "cNext": [
-                32
-            ]
+            "requirements_en": ["Splendorous Fishing Rod Component x60", "Splendorous Fishing Reel Component x60"],
+            "requirements_fr": ["Splendorous Fishing Rod Component x60", "Splendorous Fishing Reel Component x60"],
+            "cPrev": [10],
+            "cNext": [32]
         },
         "x32": {
             "name_en": "Crystalline Fishing Rod",
             "name_fr": "Canne à pêche cristalline",
             "job": "CLASS_JOB.FSH",
             "iLevel": "620",
-            "requirements_en": [
-                "Adaptive Fishing Rod Component x80",
-                "Adaptive Fishing Reel Component x80"
-            ],
-            "requirements_fr": [
-                "Adaptive Fishing Rod Component x80",
-                "Adaptive Fishing Reel Component x80"
-            ],
-            "cPrev": [
-                21
-            ],
-            "cNext": [
-                43
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3203"
-            ]
+            "requirements_en": ["Adaptive Fishing Rod Component x80", "Adaptive Fishing Reel Component x80"],
+            "requirements_fr": ["Adaptive Fishing Rod Component x80", "Adaptive Fishing Reel Component x80"],
+            "cPrev": [21],
+            "cNext": [43],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3203"]
         },
         "x43": {
             "name_en": "Chora-Zoi's Crystalline Fishing Rod",
             "name_fr": "Chora-Zoi's Crystalline Fishing Rod",
             "job": "CLASS_JOB.FSH",
             "iLevel": "625",
-            "requirements_en": [
-                "Customized Fishing Rod Component x80",
-                "Customized Fishing Reel Component x80"
-            ],
-            "requirements_fr": [
-                "Customized Fishing Rod Component x80",
-                "Customized Fishing Reel Component x80"
-            ],
-            "cPrev": [
-                32
-            ],
-            "cNext": [
-                54
-            ]
+            "requirements_en": ["Customized Fishing Rod Component x80", "Customized Fishing Reel Component x80"],
+            "requirements_fr": ["Customized Fishing Rod Component x80", "Customized Fishing Reel Component x80"],
+            "cPrev": [32],
+            "cNext": [54]
         },
         "x54": {
             "name_en": "Brilliant Fishing Rod",
             "name_fr": "Brilliant Fishing Rod",
             "job": "CLASS_JOB.FSH",
             "iLevel": "630",
-            "requirements_en": [
-                "Brilliant Fishing Rod Component x80",
-                "Brilliant Fishing Reel Component x80"
-            ],
-            "requirements_fr": [
-                "Brilliant Fishing Rod Component x80",
-                "Brilliant Fishing Reel Component x80"
-            ],
-            "cPrev": [
-                43
-            ],
-            "cNext": [
-                65
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3315"
-            ]
+            "requirements_en": ["Brilliant Fishing Rod Component x80", "Brilliant Fishing Reel Component x80"],
+            "requirements_fr": ["Brilliant Fishing Rod Component x80", "Brilliant Fishing Reel Component x80"],
+            "cPrev": [43],
+            "cNext": [65],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3315"]
         },
         "x65": {
             "name_en": "Vrandtic Visionary's Fishing Rod",
@@ -1120,12 +772,8 @@
             "iLevel": "635",
             "requirements_en": "Inspirational Fisher's Component x170",
             "requirements_fr": "Inspirational Fisher's Component x170",
-            "cPrev": [
-                54
-            ],
-            "cNext": [
-                76
-            ]
+            "cPrev": [54],
+            "cNext": [76]
         },
         "x76": {
             "name_en": "Lodestar Fishing Rod",
@@ -1134,12 +782,8 @@
             "iLevel": "640",
             "requirements_en": "Nightforged Fisher's Rod Component x170",
             "requirements_fr": "Nightforged Fisher's Rod Component x170",
-            "cPrev": [
-                65
-            ],
-            "cSiblings": [
-                "character.achievement.items.splendorous-tools.3372"
-            ]
+            "cPrev": [65],
+            "cSiblings": ["character.achievement.items.splendorous-tools.3372"]
         }
     }
 }

@@ -9,9 +9,7 @@
             "name_fr": "Éviter les attaques à aire d'effet",
             "role_en": "DPS",
             "role_fr": "DPS",
-            "cNext": [
-                1
-            ]
+            "cNext": [1]
         },
         "x1": {
             "level": "15",
@@ -19,12 +17,8 @@
             "name_fr": "Vaincre un ennemi en assistant des alliés",
             "role_en": "DPS",
             "role_fr": "DPS",
-            "cPrev": [
-                0
-            ],
-            "cNext": [
-                2
-            ]
+            "cPrev": [0],
+            "cNext": [2]
         },
         "x2": {
             "level": "15",
@@ -32,12 +26,8 @@
             "name_fr": "Vaincre un ennemi occupé par un allié",
             "role_en": "DPS",
             "role_fr": "DPS",
-            "cPrev": [
-                1
-            ],
-            "cNext": [
-                3
-            ]
+            "cPrev": [1],
+            "cNext": [3]
         },
         "x3": {
             "level": "15",
@@ -45,12 +35,8 @@
             "name_fr": "Combattre en évitant les attaques ennemies",
             "role_en": "DPS",
             "role_fr": "DPS",
-            "cPrev": [
-                2
-            ],
-            "cNext": [
-                4
-            ]
+            "cPrev": [2],
+            "cNext": [4]
         },
         "x4": {
             "level": "15",
@@ -58,12 +44,8 @@
             "name_fr": "Éliminer les renforts ennemis",
             "role_en": "DPS",
             "role_fr": "DPS",
-            "cPrev": [
-                3
-            ],
-            "cNext": [
-                5
-            ]
+            "cPrev": [3],
+            "cNext": [5]
         },
         "x5": {
             "level": "15",
@@ -71,12 +53,8 @@
             "name_fr": "Intéragir avec le décor en combat",
             "role_en": "DPS",
             "role_fr": "DPS",
-            "cPrev": [
-                4
-            ],
-            "cNext": [
-                6
-            ]
+            "cPrev": [4],
+            "cNext": [6]
         },
         "x6": {
             "level": "15",
@@ -84,9 +62,7 @@
             "name_fr": "Exercice final",
             "role_en": "DPS",
             "role_fr": "DPS",
-            "cPrev": [
-                5
-            ]
+            "cPrev": [5]
         }
     }
 }

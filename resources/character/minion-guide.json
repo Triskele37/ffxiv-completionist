@@ -21,9 +21,7 @@
             "header_fr": "Patch"
         }
     },
-    "common": [
-        "category"
-    ],
+    "common": ["category"],
     "tasks": {
         "x249": {
             "name_en": "Wayward Hatchling",
@@ -248,14 +246,8 @@
             "name_fr": "Tomberry mécanique",
             "category": "CATEGORY.DEEP_DUNGEON",
             "source": "duty.dutyraid-finder.deep-dungeon.0",
-            "source_en": [
-                "Timeworn Boarskin Map",
-                "The Aquapolis"
-            ],
-            "source_fr": [
-                "Vieille carte en peau de sanglier",
-                "Aquapole"
-            ],
+            "source_en": ["Timeworn Boarskin Map", "The Aquapolis"],
+            "source_fr": ["Vieille carte en peau de sanglier", "Aquapole"],
             "patch": "2.1"
         },
         "x237": {
@@ -287,14 +279,8 @@
             "name_fr": "Bulbe miniature",
             "category": "CATEGORY.DEEP_DUNGEON",
             "source": "duty.dutyraid-finder.deep-dungeon.0",
-            "source_en": [
-                "Timeworn Toadskin Map",
-                "The Aquapolis"
-            ],
-            "source_fr": [
-                "Vieille carte en peau de crapaud",
-                "Aquapole"
-            ],
+            "source_en": ["Timeworn Toadskin Map", "The Aquapolis"],
+            "source_fr": ["Vieille carte en peau de crapaud", "Aquapole"],
             "patch": "2.1"
         },
         "x78": {
@@ -517,12 +503,7 @@
             "name_fr": "Gentil flagelleur",
             "category": "CATEGORY.VENTURE",
             "source": "duty.dutyraid-finder.deep-dungeon.0",
-            "source_en": [
-                "Field Exploration XIII",
-                "Highland Exploration XIII",
-                "Waterside Exploration XIII",
-                "The Aquapolis"
-            ],
+            "source_en": ["Field Exploration XIII", "Highland Exploration XIII", "Waterside Exploration XIII", "The Aquapolis"],
             "source_fr": [
                 "Exploration en plaine XIII",
                 "Exploration en montagne XIII",
@@ -544,10 +525,7 @@
             "name_en": "Baby Opo-opo",
             "name_fr": "Bébé opo-opo",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "duty.dutyraid-finder.dungeons.arr.21",
-                "duty.dutyraid-finder.deep-dungeon.0"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.arr.21", "duty.dutyraid-finder.deep-dungeon.0"],
             "source_en": "The Aquapolis",
             "source_fr": "Aquapole",
             "patch": "2.2"
@@ -604,10 +582,7 @@
             "name_en": "Mummy's Little Mummy",
             "name_fr": "Mini-momie",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "duty.dutyraid-finder.dungeons.arr.27",
-                "duty.dutyraid-finder.deep-dungeon.0"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.arr.27", "duty.dutyraid-finder.deep-dungeon.0"],
             "source_en": "The Aquapolis",
             "source_fr": "Aquapole",
             "patch": "2.4"
@@ -616,32 +591,17 @@
             "name_en": "Atrophied Atomos",
             "name_fr": "Atomos atrophié",
             "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": [
-                "Crafted by Alchemist",
-                "Kupo of Fortune"
-            ],
-            "source_fr": [
-                "Recette d'Alchimiste",
-                "Kupo de la Fortune"
-            ],
+            "source_en": ["Crafted by Alchemist", "Kupo of Fortune"],
+            "source_fr": ["Recette d'Alchimiste", "Kupo de la Fortune"],
             "patch": "3.0"
         },
         "x94": {
             "name_en": "Gaelikitten",
             "name_fr": "Gaélichaton",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "duty.dutyraid-finder.dungeons.hw.1",
-                "duty.dutyraid-finder.deep-dungeon.0"
-            ],
-            "source_en": [
-                "Kupo of Fortune",
-                "The Aquapolis"
-            ],
-            "source_fr": [
-                "Kupo de la Fortune",
-                "Aquapole"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.hw.1", "duty.dutyraid-finder.deep-dungeon.0"],
+            "source_en": ["Kupo of Fortune", "The Aquapolis"],
+            "source_fr": ["Kupo de la Fortune", "Aquapole"],
             "patch": "3.0"
         },
         "x250": {
@@ -656,10 +616,7 @@
             "name_en": "Page 63",
             "name_fr": "Page 63",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "character.blue-mage.log.dungeons.21",
-                "duty.dutyraid-finder.deep-dungeon.0"
-            ],
+            "source": ["character.blue-mage.log.dungeons.21", "duty.dutyraid-finder.deep-dungeon.0"],
             "source_en": "The Aquapolis",
             "source_fr": "Aquapole",
             "patch": "3.0"
@@ -685,16 +642,8 @@
             "name_fr": "Petiot païssa",
             "category": "CATEGORY.PURCHASE",
             "source": "duty.dutyraid-finder.deep-dungeon.0",
-            "source_en": [
-                "800 Skybuilders' Scrips",
-                "Timeworn Dragonskin Map",
-                "The Aquapolis"
-            ],
-            "source_fr": [
-                "800 Assignats d'Azurée",
-                "Vieille carte en peau de dragon",
-                "Aquapole"
-            ],
+            "source_en": ["800 Skybuilders' Scrips", "Timeworn Dragonskin Map", "The Aquapolis"],
+            "source_fr": ["800 Assignats d'Azurée", "Vieille carte en peau de dragon", "Aquapole"],
             "patch": "3.1"
         },
         "x180": {
@@ -724,10 +673,7 @@
             "name_en": "Korpokkur Kid",
             "name_fr": "Pon-korpokkur",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "duty.dutyraid-finder.dungeons.hw.8",
-                "duty.dutyraid-finder.deep-dungeon.1"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.hw.8", "duty.dutyraid-finder.deep-dungeon.1"],
             "patch": "3.1"
         },
         "x44": {
@@ -751,10 +697,7 @@
             "name_en": "Morpho",
             "name_fr": "Morpho",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "duty.dutyraid-finder.dungeons.hw.11",
-                "duty.dutyraid-finder.deep-dungeon.1"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.hw.11", "duty.dutyraid-finder.deep-dungeon.1"],
             "source_en": "Kupo of Fortune",
             "source_fr": "Kupo de la Fortune",
             "patch": "3.2"
@@ -818,10 +761,7 @@
             "name_en": "Shaggy Shoat",
             "name_fr": "Marcassin",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "duty.dutyraid-finder.dungeons.hw.14",
-                "duty.dutyraid-finder.deep-dungeon.1"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.hw.14", "duty.dutyraid-finder.deep-dungeon.1"],
             "patch": "3.4"
         },
         "x38": {
@@ -860,10 +800,7 @@
             "name_en": "Bombfish",
             "name_fr": "Poisson-bombo",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "duty.dutyraid-finder.dungeons.sb.1",
-                "duty.dutyraid-finder.deep-dungeon.1"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.sb.1", "duty.dutyraid-finder.deep-dungeon.1"],
             "patch": "4.0"
         },
         "x117": {
@@ -919,14 +856,8 @@
             "name_en": "Dhalmel Calf",
             "name_fr": "Bébé dhalmel",
             "category": "CATEGORY.EXPLORATORY_MISSION",
-            "source_en": [
-                "Pyros Lockbox",
-                "Heat-warped Lockbox"
-            ],
-            "source_fr": [
-                "Coffre verrouillé de Pyros",
-                "Coffre roussi"
-            ],
+            "source_en": ["Pyros Lockbox", "Heat-warped Lockbox"],
+            "source_fr": ["Coffre verrouillé de Pyros", "Coffre roussi"],
             "patch": "4.45"
         },
         "x58": {
@@ -963,14 +894,8 @@
             "name_en": "Yukinko Snowflake",
             "name_fr": "Ko-yukinko",
             "category": "CATEGORY.EXPLORATORY_MISSION",
-            "source_en": [
-                "Hydatos Lockbox",
-                "Moisture-warped Lockbox"
-            ],
-            "source_fr": [
-                "Coffre verrouillé d'Hydatos",
-                "Coffre rouillé"
-            ],
+            "source_en": ["Hydatos Lockbox", "Moisture-warped Lockbox"],
+            "source_fr": ["Coffre verrouillé d'Hydatos", "Coffre rouillé"],
             "patch": "4.5"
         },
         "x9": {
@@ -1013,28 +938,16 @@
             "name_en": "Bacon Bits",
             "name_fr": "Bout-de-cochon",
             "category": "CATEGORY.VENTURE",
-            "source_en": [
-                "Woodland Exploration XXV",
-                "Quick Exploration"
-            ],
-            "source_fr": [
-                "Exploration en forêt XXV",
-                "Tâche improvisée"
-            ],
+            "source_en": ["Woodland Exploration XXV", "Quick Exploration"],
+            "source_fr": ["Exploration en forêt XXV", "Tâche improvisée"],
             "patch": "5.1"
         },
         "x168": {
             "name_en": "Mystic Weapon",
             "name_fr": "Arme mystique",
             "category": "CATEGORY.VENTURE",
-            "source_en": [
-                "Field Exploration XXV",
-                "Quick Exploration"
-            ],
-            "source_fr": [
-                "Exploration en plaine XXV",
-                "Tâche improvisée"
-            ],
+            "source_en": ["Field Exploration XXV", "Quick Exploration"],
+            "source_fr": ["Exploration en plaine XXV", "Tâche improvisée"],
             "patch": "5.1"
         },
         "x153": {
@@ -1261,40 +1174,28 @@
             "name_en": "Toy Alexander",
             "name_fr": "Alexander articulé",
             "category": "CATEGORY.RAID",
-            "source": [
-                "duty.dutyraid-finder.raids.hw.19",
-                "duty.dutyraid-finder.raids.hw.23"
-            ],
+            "source": ["duty.dutyraid-finder.raids.hw.19", "duty.dutyraid-finder.raids.hw.23"],
             "patch": "3.4"
         },
         "x286": {
             "name_en": "Wind-up Exdeath",
             "name_fr": "Exdeath miniature",
             "category": "CATEGORY.RAID",
-            "source": [
-                "duty.dutyraid-finder.raids.sb.3",
-                "duty.dutyraid-finder.raids.sb.7"
-            ],
+            "source": ["duty.dutyraid-finder.raids.sb.3", "duty.dutyraid-finder.raids.sb.7"],
             "patch": "4.01"
         },
         "x311": {
             "name_en": "Wind-up Kefka",
             "name_fr": "Kefka miniature",
             "category": "CATEGORY.RAID",
-            "source": [
-                "duty.dutyraid-finder.raids.sb.12",
-                "duty.dutyraid-finder.raids.sb.16"
-            ],
+            "source": ["duty.dutyraid-finder.raids.sb.12", "duty.dutyraid-finder.raids.sb.16"],
             "patch": "4.2"
         },
         "x175": {
             "name_en": "OMG",
             "name_fr": "Mini-Oméga",
             "category": "CATEGORY.RAID",
-            "source": [
-                "duty.dutyraid-finder.raids.sb.21",
-                "duty.dutyraid-finder.raids.sb.25"
-            ],
+            "source": ["duty.dutyraid-finder.raids.sb.21", "duty.dutyraid-finder.raids.sb.25"],
             "patch": "4.4"
         },
         "x340": {
@@ -1317,20 +1218,14 @@
             "name_en": "Eden Minor",
             "name_fr": "Mini-Éden",
             "category": "CATEGORY.RAID",
-            "source": [
-                "duty.dutyraid-finder.raids.shb.3",
-                "duty.dutyraid-finder.raids.shb.7"
-            ],
+            "source": ["duty.dutyraid-finder.raids.shb.3", "duty.dutyraid-finder.raids.shb.7"],
             "patch": "5.01"
         },
         "x417": {
             "name_en": "Nosferatu",
             "name_fr": "Nosferatu",
             "category": "CATEGORY.RAID",
-            "source": [
-                "duty.dutyraid-finder.raids.ew.3",
-                "duty.dutyraid-finder.raids.ew.7"
-            ],
+            "source": ["duty.dutyraid-finder.raids.ew.3", "duty.dutyraid-finder.raids.ew.7"],
             "patch": "6.01"
         },
         "x197": {
@@ -1408,16 +1303,8 @@
             "name_en": "Tiny Tapir",
             "name_fr": "Petit tapir",
             "category": "CATEGORY.VENTURE",
-            "source_en": [
-                "Field Exploration XIV",
-                "Field Exploration XV",
-                "Field Exploration XIX"
-            ],
-            "source_fr": [
-                "Exploration en plaine XIV",
-                "Exploration en plaine XV",
-                "Exploration en plaine XIX"
-            ],
+            "source_en": ["Field Exploration XIV", "Field Exploration XV", "Field Exploration XIX"],
+            "source_fr": ["Exploration en plaine XIV", "Exploration en plaine XV", "Exploration en plaine XIX"],
             "patch": "2.3"
         },
         "x170": {
@@ -1442,14 +1329,8 @@
             "name_fr": "Écureuil grignoteur",
             "category": "CATEGORY.DEEP_DUNGEON",
             "source": "duty.dutyraid-finder.deep-dungeon.0",
-            "source_en": [
-                "Unhidden Leather Map",
-                "The Aquapolis"
-            ],
-            "source_fr": [
-                "Carte secrète en cuir",
-                "Aquapole"
-            ],
+            "source_en": ["Unhidden Leather Map", "The Aquapolis"],
+            "source_fr": ["Carte secrète en cuir", "Aquapole"],
             "patch": "2.3"
         },
         "x183": {
@@ -1473,10 +1354,7 @@
             "name_en": "Unicolt",
             "name_fr": "Bébé licorne",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "duty.dutyraid-finder.dungeons.hw.3",
-                "duty.dutyraid-finder.deep-dungeon.0"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.hw.3", "duty.dutyraid-finder.deep-dungeon.0"],
             "source_en": "The Aquapolis",
             "source_fr": "Aquapole",
             "patch": "3.0"
@@ -1485,10 +1363,7 @@
             "name_en": "Lesser Panda",
             "name_fr": "Petit panda roux",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "duty.dutyraid-finder.dungeons.hw.2",
-                "duty.dutyraid-finder.deep-dungeon.0"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.hw.2", "duty.dutyraid-finder.deep-dungeon.0"],
             "source_en": "The Aquapolis",
             "source_fr": "Aquapole",
             "patch": "3.0"
@@ -1498,14 +1373,8 @@
             "name_fr": "Gestahl",
             "category": "CATEGORY.VENTURE",
             "source": "duty.dutyraid-finder.deep-dungeon.1",
-            "source_en": [
-                "Waterside Exploration XVIII",
-                "Waterside Exploration XIX"
-            ],
-            "source_fr": [
-                "Exploration en rivage XVIII",
-                "Exploration en rivage XIX"
-            ],
+            "source_en": ["Waterside Exploration XVIII", "Waterside Exploration XIX"],
+            "source_fr": ["Exploration en rivage XVIII", "Exploration en rivage XIX"],
             "patch": "3.0"
         },
         "x79": {
@@ -1513,14 +1382,8 @@
             "name_fr": "Lapin nain",
             "category": "CATEGORY.DEEP_DUNGEON",
             "source": "duty.dutyraid-finder.deep-dungeon.1",
-            "source_en": [
-                "Kupo of Fortune",
-                "The Aquapolis"
-            ],
-            "source_fr": [
-                "Kupo de la Fortune",
-                "Aquapole"
-            ],
+            "source_en": ["Kupo of Fortune", "The Aquapolis"],
+            "source_fr": ["Kupo de la Fortune", "Aquapole"],
             "patch": "3.3"
         },
         "x92": {
@@ -1544,30 +1407,16 @@
             "name_fr": "Bunbuku",
             "category": "CATEGORY.VENTURE",
             "source": "duty.dutyraid-finder.deep-dungeon.1",
-            "source_en": [
-                "Field Exploration XX",
-                "Field Exploration XXII",
-                "Quick Exploration"
-            ],
-            "source_fr": [
-                "Exploration en plaine XX",
-                "Exploration en plaine XXII",
-                "Tâche improvisée"
-            ],
+            "source_en": ["Field Exploration XX", "Field Exploration XXII", "Quick Exploration"],
+            "source_fr": ["Exploration en plaine XX", "Exploration en plaine XXII", "Tâche improvisée"],
             "patch": "4.0"
         },
         "x141": {
             "name_en": "Mameshiba",
             "name_fr": "Mame shiba",
             "category": "CATEGORY.VENTURE",
-            "source_en": [
-                "Highland Exploration XXII",
-                "Quick Exploration"
-            ],
-            "source_fr": [
-                "Exploration en montagne XXII",
-                "Tâche improvisée"
-            ],
+            "source_en": ["Highland Exploration XXII", "Quick Exploration"],
+            "source_fr": ["Exploration en montagne XXII", "Tâche improvisée"],
             "patch": "4.1"
         },
         "x29": {
@@ -1581,11 +1430,7 @@
             "name_en": "Koala Joey",
             "name_fr": "Bébé koala",
             "category": "CATEGORY.VENTURE",
-            "source_en": [
-                "Woodland Exploration XXII",
-                "Southern Front Lockbox",
-                "Zadnor Lockbox"
-            ],
+            "source_en": ["Woodland Exploration XXII", "Southern Front Lockbox", "Zadnor Lockbox"],
             "source_fr": [
                 "Exploration en forêt XXII",
                 "Coffre verrouillé du Front sud de Bozja",
@@ -1620,32 +1465,16 @@
             "name_en": "Capybara Pup",
             "name_fr": "Bébé cabiaï",
             "category": "CATEGORY.TREASURE_HUNT",
-            "source_en": [
-                "The Lost Canals of Uznair",
-                "The Hidden Canals of Uznair",
-                "The Shifting Canals of Uznair"
-            ],
-            "source_fr": [
-                "Les Canaux perdus d'Uznair",
-                "Les Canaux cachés d'Uznair",
-                "Le Temple sacré d'Uznair"
-            ],
+            "source_en": ["The Lost Canals of Uznair", "The Hidden Canals of Uznair", "The Shifting Canals of Uznair"],
+            "source_fr": ["Les Canaux perdus d'Uznair", "Les Canaux cachés d'Uznair", "Le Temple sacré d'Uznair"],
             "patch": "4.4"
         },
         "x108": {
             "name_en": "Hedgehoglet",
             "name_fr": "Hérisson mignon",
             "category": "CATEGORY.TREASURE_HUNT",
-            "source_en": [
-                "The Lost Canals of Uznair",
-                "The Hidden Canals of Uznair",
-                "The Shifting Canals of Uznair"
-            ],
-            "source_fr": [
-                "Temple sacré d'Uznair",
-                "Canaux perdus d'Uznair",
-                "Canaux cachés d'Uznair"
-            ],
+            "source_en": ["The Lost Canals of Uznair", "The Hidden Canals of Uznair", "The Shifting Canals of Uznair"],
+            "source_fr": ["Temple sacré d'Uznair", "Canaux perdus d'Uznair", "Canaux cachés d'Uznair"],
             "patch": "4.45"
         },
         "x48": {
@@ -1863,10 +1692,7 @@
             "name_en": "Ghido",
             "name_fr": "Ghido",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "duty.dutyraid-finder.dungeons.sb.0",
-                "duty.dutyraid-finder.deep-dungeon.1"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.sb.0", "duty.dutyraid-finder.deep-dungeon.1"],
             "patch": "4.0"
         },
         "x201": {
@@ -1880,14 +1706,8 @@
             "name_en": "Axolotl Eft",
             "name_fr": "Axolotl",
             "category": "CATEGORY.VENTURE",
-            "source_en": [
-                "Waterside Exploration XXII",
-                "Quick Exploration"
-            ],
-            "source_fr": [
-                "Exploration en rivage XXII",
-                "Tâche improvisée"
-            ],
+            "source_en": ["Waterside Exploration XXII", "Quick Exploration"],
+            "source_fr": ["Exploration en rivage XXII", "Tâche improvisée"],
             "patch": "4.1"
         },
         "x13": {
@@ -1910,14 +1730,8 @@
             "name_en": "Domakin",
             "name_fr": "Domakin",
             "category": "CATEGORY.VENTURE",
-            "source_en": [
-                "Waterside Exploration XXV",
-                "Quick Exploration"
-            ],
-            "source_fr": [
-                "Exploration en rivage XXV",
-                "Tâche improvisée"
-            ],
+            "source_en": ["Waterside Exploration XXV", "Quick Exploration"],
+            "source_fr": ["Exploration en rivage XXV", "Tâche improvisée"],
             "patch": "5.1"
         },
         "x228": {
@@ -1952,14 +1766,8 @@
             "name_en": "Suzusaurus",
             "name_fr": "Suzusaurus",
             "category": "CATEGORY.VOYAGE",
-            "source_en": [
-                "Subaquatic Voyages - Bloodbreak",
-                "Subaquatic Voyages - The Lilac Sea 2"
-            ],
-            "source_fr": [
-                "Expédition du sous-marine - Colline de sang pourpre",
-                "Expédition du sous-marine - Mer de lilas 2"
-            ],
+            "source_en": ["Subaquatic Voyages - Bloodbreak", "Subaquatic Voyages - The Lilac Sea 2"],
+            "source_fr": ["Expédition du sous-marine - Colline de sang pourpre", "Expédition du sous-marine - Mer de lilas 2"],
             "patch": "6.3"
         },
         "x479": {
@@ -1974,16 +1782,8 @@
             "name_fr": "Oiseau bleu",
             "category": "CATEGORY.DEEP_DUNGEON",
             "source": "duty.dutyraid-finder.deep-dungeon.0",
-            "source_en": [
-                "Timeworn Peisteskin Map",
-                "Timeworn Dragonskin Map",
-                "The Aquapolis"
-            ],
-            "source_fr": [
-                "Vieille carte en peau de peiste",
-                "Vieille carte en peau de dragon",
-                "Aquapole"
-            ],
+            "source_en": ["Timeworn Peisteskin Map", "Timeworn Dragonskin Map", "The Aquapolis"],
+            "source_fr": ["Vieille carte en peau de peiste", "Vieille carte en peau de dragon", "Aquapole"],
             "patch": "2.1"
         },
         "x69": {
@@ -1999,10 +1799,7 @@
             "name_en": "Owlet",
             "name_fr": "Bébé hibou",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "duty.dutyraid-finder.dungeons.hw.7",
-                "duty.dutyraid-finder.deep-dungeon.0"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.hw.7", "duty.dutyraid-finder.deep-dungeon.0"],
             "source_en": "The Aquapolis",
             "source_fr": "Aquapole",
             "patch": "3.0"
@@ -2011,18 +1808,9 @@
             "name_en": "Ugly Duckling",
             "name_fr": "Vilain petit canard",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "duty.dutyraid-finder.dungeons.hw.6",
-                "duty.dutyraid-finder.deep-dungeon.0"
-            ],
-            "source_en": [
-                "Kupo of Fortune",
-                "The Aquapolis"
-            ],
-            "source_fr": [
-                "Kupo de la Fortune",
-                "Aquapole"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.hw.6", "duty.dutyraid-finder.deep-dungeon.0"],
+            "source_en": ["Kupo of Fortune", "The Aquapolis"],
+            "source_fr": ["Kupo de la Fortune", "Aquapole"],
             "patch": "3.0"
         },
         "x113": {
@@ -2045,10 +1833,7 @@
             "name_en": "Road Sparrow",
             "name_fr": "Moineau voyageur",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "duty.dutyraid-finder.dungeons.sb.2",
-                "duty.dutyraid-finder.deep-dungeon.1"
-            ],
+            "source": ["duty.dutyraid-finder.dungeons.sb.2", "duty.dutyraid-finder.deep-dungeon.1"],
             "patch": "4.0"
         },
         "x211": {
@@ -2187,14 +1972,8 @@
             "name_en": "Wind-up Hobgoblin",
             "name_fr": "Hobgobelin miniature",
             "category": "CATEGORY.VENTURE",
-            "source_en": [
-                "Highland Exploration XXV",
-                "Quick Exploration"
-            ],
-            "source_fr": [
-                "Exploration en montagne XXV",
-                "Tâche improvisée"
-            ],
+            "source_en": ["Highland Exploration XXV", "Quick Exploration"],
+            "source_fr": ["Exploration en montagne XXV", "Tâche improvisée"],
             "patch": "5.1"
         },
         "x298": {
@@ -2962,10 +2741,7 @@
             "name_en": "Wind-up Ryne",
             "name_fr": "Ryne miniature",
             "category": "CATEGORY.RAID",
-            "source": [
-                "duty.dutyraid-finder.raids.shb.13",
-                "duty.dutyraid-finder.raids.shb.17"
-            ],
+            "source": ["duty.dutyraid-finder.raids.shb.13", "duty.dutyraid-finder.raids.shb.17"],
             "patch": "5.2"
         },
         "x279": {
@@ -2997,10 +2773,7 @@
             "name_en": "Wind-up Gaia",
             "name_fr": "Gaïa miniature",
             "category": "CATEGORY.RAID",
-            "source": [
-                "duty.dutyraid-finder.raids.shb.22",
-                "duty.dutyraid-finder.raids.shb.26"
-            ],
+            "source": ["duty.dutyraid-finder.raids.shb.22", "duty.dutyraid-finder.raids.shb.26"],
             "patch": "5.4"
         },
         "x398": {
@@ -3073,20 +2846,14 @@
             "name_en": "Wind-up Erichthonios",
             "name_fr": "Érichthonios miniature",
             "category": "CATEGORY.RAID",
-            "source": [
-                "duty.dutyraid-finder.raids.ew.13",
-                "duty.dutyraid-finder.raids.ew.17"
-            ],
+            "source": ["duty.dutyraid-finder.raids.ew.13", "duty.dutyraid-finder.raids.ew.17"],
             "patch": "6.2"
         },
         "x487": {
             "name_en": "Wind-up Athena",
             "name_fr": "Athéna Miniature",
             "category": "CATEGORY.RAID",
-            "source": [
-                "duty.dutyraid-finder.raids.ew.23",
-                "duty.dutyraid-finder.raids.ew.27"
-            ],
+            "source": ["duty.dutyraid-finder.raids.ew.23", "duty.dutyraid-finder.raids.ew.27"],
             "patch": "6.4"
         },
         "x501": {
@@ -3283,14 +3050,8 @@
             "name_en": "Tengu Doll",
             "name_fr": "Poupée Tengu",
             "category": "CATEGORY.VENTURE",
-            "source_en": [
-                "Field Exploration XXII",
-                "Quick Exploration"
-            ],
-            "source_fr": [
-                "Exploration en plaine XXII",
-                "Tâche improvisée"
-            ],
+            "source_en": ["Field Exploration XXII", "Quick Exploration"],
+            "source_fr": ["Exploration en plaine XXII", "Tâche improvisée"],
             "patch": "4.1"
         },
         "x164": {
@@ -3737,14 +3498,8 @@
             "name_en": "Goggle-eyed Dogu",
             "name_fr": "Dogû Globuleux",
             "category": "CATEGORY.VOYAGE",
-            "source_en": [
-                "Subaquatic Voyages - The Lilac Sea 2",
-                "Subaquatic Voyages - Wingsreach"
-            ],
-            "source_fr": [
-                "Expédition sous-marine - Mer de lilas 2",
-                "Expédition sous-marine - Île des tiges ailées"
-            ],
+            "source_en": ["Subaquatic Voyages - The Lilac Sea 2", "Subaquatic Voyages - Wingsreach"],
+            "source_fr": ["Expédition sous-marine - Mer de lilas 2", "Expédition sous-marine - Île des tiges ailées"],
             "patch": "6.4"
         },
         "x495": {

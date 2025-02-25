@@ -9,12 +9,8 @@
             "name_fr": "Commande en cours de traitement",
             "npc_en": "Mathye",
             "npc_fr": "Mathye",
-            "cPrev": [
-                "duty.quests.main-scenario.heavensward.67173"
-            ],
-            "cNext": [
-                67688
-            ],
+            "cPrev": ["duty.quests.main-scenario.heavensward.67173"],
+            "cNext": [67688],
             "patch": "4.31"
         },
         "x67688": {
@@ -28,9 +24,7 @@
                 "duty.quests.main-scenario.heavensward.67205",
                 "duty.quests.sidequests.hildibrand-sidequests.hildibrand.66038"
             ],
-            "cNext": [
-                67689
-            ],
+            "cNext": [67689],
             "patch": "4.31"
         },
         "x67689": {
@@ -39,12 +33,8 @@
             "name_fr": "Ishgard perd la tête",
             "npc_en": "Gaetelle",
             "npc_fr": "Gaetelle",
-            "cPrev": [
-                67688
-            ],
-            "cNext": [
-                67690
-            ],
+            "cPrev": [67688],
+            "cNext": [67690],
             "patch": "4.31"
         },
         "x67690": {
@@ -53,12 +43,8 @@
             "name_fr": "Le scolasticat fait le point",
             "npc_en": "Bruvagnon",
             "npc_fr": "Bruvagnon",
-            "cPrev": [
-                67689
-            ],
-            "cNext": [
-                67691
-            ],
+            "cPrev": [67689],
+            "cNext": [67691],
             "patch": "4.31"
         },
         "x67691": {
@@ -67,15 +53,9 @@
             "name_fr": "Révoltes populaires",
             "npc_en": "Briardien",
             "npc_fr": "Briardien",
-            "cPrev": [
-                67690
-            ],
-            "cNext": [
-                67743
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1405"
-            ],
+            "cPrev": [67690],
+            "cNext": [67743],
+            "cSiblings": ["character.achievement.quests.quests.1405"],
             "patch": "4.31"
         },
         "x67743": {
@@ -84,12 +64,8 @@
             "name_fr": "Un père pour guide",
             "npc_en": "Briardien",
             "npc_fr": "Briardien",
-            "cPrev": [
-                67691
-            ],
-            "cNext": [
-                67744
-            ],
+            "cPrev": [67691],
+            "cNext": [67744],
             "patch": "4.31"
         },
         "x67744": {
@@ -98,12 +74,8 @@
             "name_fr": "Trompeuses apparences",
             "npc_en": "Saturnois",
             "npc_fr": "Saturnois",
-            "cPrev": [
-                67743
-            ],
-            "cNext": [
-                67745
-            ],
+            "cPrev": [67743],
+            "cNext": [67745],
             "patch": "4.31"
         },
         "x67745": {
@@ -112,12 +84,8 @@
             "name_fr": "Un air de famille",
             "npc_en": "Briardien",
             "npc_fr": "Briardien",
-            "cPrev": [
-                67744
-            ],
-            "cNext": [
-                67746
-            ],
+            "cPrev": [67744],
+            "cNext": [67746],
             "patch": "4.31"
         },
         "x67746": {
@@ -126,15 +94,9 @@
             "name_fr": "Ulaa, es-tu là?",
             "npc_en": "Briardien",
             "npc_fr": "Briardien",
-            "cPrev": [
-                67745
-            ],
-            "cNext": [
-                67897
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1628"
-            ],
+            "cPrev": [67745],
+            "cNext": [67897],
+            "cSiblings": ["character.achievement.quests.quests.1628"],
             "patch": "4.31"
         },
         "x67897": {
@@ -143,12 +105,8 @@
             "name_fr": "La raison des plus faibles",
             "npc_en": "Briardien",
             "npc_fr": "Briardien",
-            "cPrev": [
-                67746
-            ],
-            "cNext": [
-                67898
-            ],
+            "cPrev": [67746],
+            "cNext": [67898],
             "patch": "4.31"
         },
         "x67898": {
@@ -157,12 +115,8 @@
             "name_fr": "Les idéaux de père Choisseau",
             "npc_en": "Theomocent",
             "npc_fr": "Theomocent",
-            "cPrev": [
-                67897
-            ],
-            "cNext": [
-                67899
-            ],
+            "cPrev": [67897],
+            "cNext": [67899],
             "patch": "4.31"
         },
         "x67899": {
@@ -171,15 +125,9 @@
             "name_fr": "Campagne de diffamation",
             "npc_en": "Theomocent",
             "npc_fr": "Theomocent",
-            "cPrev": [
-                67898
-            ],
-            "cNext": [
-                67900
-            ],
-            "cSiblings": [
-                "social.emotes.general.148"
-            ],
+            "cPrev": [67898],
+            "cNext": [67900],
+            "cSiblings": ["social.emotes.general.148"],
             "patch": "4.31"
         },
         "x67900": {
@@ -188,12 +136,8 @@
             "name_fr": "Justice pour tous",
             "npc_en": "Briardien",
             "npc_fr": "Briardien",
-            "cPrev": [
-                67899
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1692"
-            ],
+            "cPrev": [67899],
+            "cSiblings": ["character.achievement.quests.quests.1692"],
             "patch": "4.31"
         }
     }

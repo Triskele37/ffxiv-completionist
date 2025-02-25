@@ -2,11 +2,7 @@
     "key": "raids-ii",
     "groupName_en": "Raids II",
     "groupName_fr": "Raids II",
-    "common": [
-        "category",
-        "location",
-        "source"
-    ],
+    "common": ["category", "location", "source"],
     "tasks": {
         "x0": {
             "number": "1",
@@ -88,10 +84,7 @@
             "name_en": "Force Your Way (Shadowbringers)",
             "name_fr": "Force Your Way (Shadowbringers)",
             "category": "CATEGORY.RAID",
-            "source": [
-                "duty.dutyraid-finder.raids.shb.0",
-                "duty.dutyraid-finder.raids.shb.1"
-            ],
+            "source": ["duty.dutyraid-finder.raids.shb.0", "duty.dutyraid-finder.raids.shb.1"],
             "patch": "5.01"
         },
         "x10": {
@@ -355,10 +348,7 @@
             "name_en": "Scream",
             "name_fr": "Scream",
             "category": "CATEGORY.RAID",
-            "source": [
-                "duty.dutyraid-finder.raids.ew.11",
-                "duty.dutyraid-finder.raids.ew.12"
-            ],
+            "source": ["duty.dutyraid-finder.raids.ew.11", "duty.dutyraid-finder.raids.ew.12"],
             "patch": "6.2"
         },
         "x43": {
@@ -406,10 +396,7 @@
             "name_en": "One Amongst the Weary",
             "name_fr": "One Amongst the Weary",
             "category": "CATEGORY.RAID",
-            "source": [
-                "duty.dutyraid-finder.raids.ew.20",
-                "duty.dutyraid-finder.raids.ew.21"
-            ],
+            "source": ["duty.dutyraid-finder.raids.ew.20", "duty.dutyraid-finder.raids.ew.21"],
             "patch": "6.4"
         },
         "x49": {

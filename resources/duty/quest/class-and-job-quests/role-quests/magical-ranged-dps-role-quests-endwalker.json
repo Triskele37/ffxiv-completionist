@@ -3,18 +3,14 @@
     "groupName_en": "Magical Ranged DPS Role Quests (Endwalker)",
     "groupName_fr": "Quêtes de DPS magique (Endwalker)",
     "tasks": {
-		"x69662": {
+        "x69662": {
             "level": 85,
             "name_en": "Our Aching Souls",
             "name_fr": "Ishgard en proie aux tourments",
             "npc_en": "Ishgardian Delegate",
             "npc_fr": "Attaché Militaire D'Ishgard",
-            "cPrev": [
-                "duty.quests.main-scenario.endwalker.69954"
-            ],
-            "cNext": [
-                69663
-            ],
+            "cPrev": ["duty.quests.main-scenario.endwalker.69954"],
+            "cNext": [69663],
             "patch": "6.0"
         },
         "x69663": {
@@ -23,12 +19,8 @@
             "name_fr": "Ni pardon, ni salut",
             "npc_en": "Artoirel",
             "npc_fr": "Artoirel",
-            "cPrev": [
-                69662
-            ],
-            "cNext": [
-                69664
-            ],
+            "cPrev": [69662],
+            "cNext": [69664],
             "patch": "6.0"
         },
         "x69664": {
@@ -37,12 +29,8 @@
             "name_fr": "Vengeresse justice",
             "npc_en": "Artoirel",
             "npc_fr": "Artoirel",
-            "cPrev": [
-                69663
-            ],
-            "cNext": [
-                69665
-            ],
+            "cPrev": [69663],
+            "cNext": [69665],
             "patch": "6.0"
         },
         "x69665": {
@@ -51,12 +39,8 @@
             "name_fr": "Une pieuse résolution",
             "npc_en": "Artoirel",
             "npc_fr": "Artoirel",
-            "cPrev": [
-                69664
-            ],
-            "cNext": [
-                69666
-            ],
+            "cPrev": [69664],
+            "cNext": [69666],
             "patch": "6.0"
         },
         "x69666": {
@@ -65,12 +49,8 @@
             "name_fr": "Sous l'égide de Halone",
             "npc_en": "Artoirel",
             "npc_fr": "Artoirel",
-            "cPrev": [
-                69665
-            ],
-            "cNext": [
-                69667
-            ],
+            "cPrev": [69665],
+            "cNext": [69667],
             "patch": "6.0"
         },
         "x69667": {
@@ -79,12 +59,8 @@
             "name_fr": "La voie du renouveau",
             "npc_en": "Artoirel",
             "npc_fr": "Artoirel",
-            "cPrev": [
-                69666
-            ],
-            "cSiblings": [
-                "character.achievement.quests.job-role-quests.2965"
-            ],
+            "cPrev": [69666],
+            "cSiblings": ["character.achievement.quests.job-role-quests.2965"],
             "patch": "6.0"
         }
     }

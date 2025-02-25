@@ -9,12 +9,8 @@
             "name_fr": "Le monde chimérique",
             "npc_en": "Fresh-faced Student",
             "npc_fr": "Membre Des Élèves De Baldesion",
-            "cPrev": [
-                "duty.quests.main-scenario.post-endwalker.70066"
-            ],
-            "cNext": [
-                70073
-            ],
+            "cPrev": ["duty.quests.main-scenario.post-endwalker.70066"],
+            "cNext": [70073],
             "patch": "6.1"
         },
         "x70073": {
@@ -24,12 +20,8 @@
             "unlock": "duty.dutyraid-finder.raids.ew.8",
             "npc_en": "G'raha Tia",
             "npc_fr": "G'raha Tia",
-            "cPrev": [
-                70072
-            ],
-            "cNext": [
-                70074
-            ],
+            "cPrev": [70072],
+            "cNext": [70074],
             "patch": "6.1"
         },
         "x70074": {
@@ -38,12 +30,8 @@
             "name_fr": "Le paradoxe du panthéon",
             "npc_en": "Krile",
             "npc_fr": "Krile",
-            "cPrev": [
-                70073
-            ],
-            "cNext": [
-                70075
-            ],
+            "cPrev": [70073],
+            "cNext": [70075],
             "patch": "6.1"
         },
         "x70075": {
@@ -52,12 +40,8 @@
             "name_fr": "Explorateur Deryk",
             "npc_en": "Deryk",
             "npc_fr": "Deryk",
-            "cPrev": [
-                70074
-            ],
-            "cNext": [
-                70202
-            ],
+            "cPrev": [70074],
+            "cNext": [70202],
             "patch": "6.1"
         },
         "x70202": {
@@ -67,12 +51,8 @@
             "unlock": "duty.dutyraid-finder.raids.ew.18",
             "npc_en": "Deryk",
             "npc_fr": "Deryk",
-            "cPrev": [
-                70075
-            ],
-            "cNext": [
-                70203
-            ],
+            "cPrev": [70075],
+            "cNext": [70203],
             "patch": "6.3"
         },
         "x70203": {
@@ -81,12 +61,8 @@
             "name_fr": "Un voyage lapidaire",
             "npc_en": "Menphina",
             "npc_fr": "Menphina La Bien-aimante",
-            "cPrev": [
-                70202
-            ],
-            "cNext": [
-                70204
-            ],
+            "cPrev": [70202],
+            "cNext": [70204],
             "patch": "6.3"
         },
         "x70204": {
@@ -95,12 +71,8 @@
             "name_fr": "La quête de Krile",
             "npc_en": "Deryk",
             "npc_fr": "Deryk",
-            "cPrev": [
-                70203
-            ],
-            "cNext": [
-                70205
-            ],
+            "cPrev": [70203],
+            "cNext": [70205],
             "patch": "6.3"
         },
         "x70205": {
@@ -109,12 +81,8 @@
             "name_fr": "Le secret des Douze",
             "npc_en": "Deryk",
             "npc_fr": "Deryk",
-            "cPrev": [
-                70204
-            ],
-            "cNext": [
-                70327
-            ],
+            "cPrev": [70204],
+            "cNext": [70327],
             "patch": "6.3"
         },
         "x70327": {
@@ -124,15 +92,9 @@
             "unlock": "duty.dutyraid-finder.raids.ew.28",
             "npc_en": "Deryk",
             "npc_fr": "Deryk",
-            "cPrev": [
-                70205
-            ],
-            "cNext": [
-                70328
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.3408"
-            ],
+            "cPrev": [70205],
+            "cNext": [70328],
+            "cSiblings": ["character.achievement.quests.quests.3408"],
             "patch": "6.5"
         },
         "x70328": {
@@ -141,9 +103,7 @@
             "name_fr": "Éorzéa, terre bénie des Dieux",
             "npc_en": "Deryk",
             "npc_fr": "Deryk",
-            "cPrev": [
-                70327
-            ],
+            "cPrev": [70327],
             "patch": "6.5"
         }
     }

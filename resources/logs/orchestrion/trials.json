@@ -2,11 +2,7 @@
     "key": "trials",
     "groupName_en": "Trials",
     "groupName_fr": "Défis",
-    "common": [
-        "category",
-        "location",
-        "source"
-    ],
+    "common": ["category", "location", "source"],
     "tasks": {
         "x0": {
             "number": "1",
@@ -111,10 +107,7 @@
             "name_en": "Battle on the Big Bridge",
             "name_fr": "Battle on the Big Bridge",
             "category": "CATEGORY.CRAFTING",
-            "source": [
-                "duty.dutyraid-finder.trials.arr.8",
-                "duty.dutyraid-finder.trials.arr.10"
-            ],
+            "source": ["duty.dutyraid-finder.trials.arr.8", "duty.dutyraid-finder.trials.arr.10"],
             "patch": "3.3"
         },
         "x13": {

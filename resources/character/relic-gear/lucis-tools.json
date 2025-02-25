@@ -2,9 +2,7 @@
     "key": "lucis-tools",
     "groupName_en": "Lucis Tools",
     "groupName_fr": "Outils Lucis",
-    "common": [
-        "job"
-    ],
+    "common": ["job"],
     "tasks": {
         "x0": {
             "name_en": "Ullikummi",
@@ -12,12 +10,8 @@
             "job": "CLASS_JOB.CRP",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.carpenter.66075",
-            "cNext": [
-                1
-            ],
-            "cSiblings": [
-                "duty.quests.class--job.disciple-of-the-hand.carpenter.66075"
-            ]
+            "cNext": [1],
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.carpenter.66075"]
         },
         "x1": {
             "name_en": "Ullikummi Supra",
@@ -25,16 +19,9 @@
             "job": "CLASS_JOB.CRP",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
-            "requirements_fr": [
-                "Demi-matéria de la maîtrise divine",
-                "Épicéa contreplaqué double"
-            ],
-            "cPrev": [
-                0
-            ],
-            "cNext": [
-                2
-            ]
+            "requirements_fr": ["Demi-matéria de la maîtrise divine", "Épicéa contreplaqué double"],
+            "cPrev": [0],
+            "cNext": [2]
         },
         "x2": {
             "name_en": "Ullikummi Lucis",
@@ -42,16 +29,9 @@
             "job": "CLASS_JOB.CRP",
             "iLevel": "90",
             "requirements_en": "5x Petrified Orb",
-            "requirements_fr": [
-                "5 Bille de bois pétrifié",
-                "5 Pierre de lune"
-            ],
-            "cPrev": [
-                1
-            ],
-            "cCombo": [
-                "character.achievement.items.items.1078"
-            ]
+            "requirements_fr": ["5 Bille de bois pétrifié", "5 Pierre de lune"],
+            "cPrev": [1],
+            "cCombo": ["character.achievement.items.items.1078"]
         },
         "x3": {
             "name_en": "Vulcan",
@@ -59,12 +39,8 @@
             "job": "CLASS_JOB.BSM",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.blacksmith.65838",
-            "cNext": [
-                4
-            ],
-            "cSiblings": [
-                "duty.quests.class--job.disciple-of-the-hand.blacksmith.65838"
-            ]
+            "cNext": [4],
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.blacksmith.65838"]
         },
         "x4": {
             "name_en": "Vulcan Supra",
@@ -72,16 +48,9 @@
             "job": "CLASS_JOB.BSM",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
-            "requirements_fr": [
-                "Demi-matéria de la maîtrise divine",
-                "Crochet de sombracier équilibré"
-            ],
-            "cPrev": [
-                3
-            ],
-            "cNext": [
-                5
-            ]
+            "requirements_fr": ["Demi-matéria de la maîtrise divine", "Crochet de sombracier équilibré"],
+            "cPrev": [3],
+            "cNext": [5]
         },
         "x5": {
             "name_en": "Vulcan Lucis",
@@ -89,16 +58,9 @@
             "job": "CLASS_JOB.BSM",
             "iLevel": "90",
             "requirements_en": "5x Mummer's Daggers",
-            "requirements_fr": [
-                "5 Dagues d'acrobate",
-                "5 Pierre de lune"
-            ],
-            "cPrev": [
-                4
-            ],
-            "cCombo": [
-                "character.achievement.items.items.1078"
-            ]
+            "requirements_fr": ["5 Dagues d'acrobate", "5 Pierre de lune"],
+            "cPrev": [4],
+            "cCombo": ["character.achievement.items.items.1078"]
         },
         "x6": {
             "name_en": "Kurdalegon",
@@ -106,12 +68,8 @@
             "job": "CLASS_JOB.ARM",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.armorer.65820",
-            "cNext": [
-                7
-            ],
-            "cSiblings": [
-                "duty.quests.class--job.disciple-of-the-hand.armorer.65820"
-            ]
+            "cNext": [7],
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.armorer.65820"]
         },
         "x7": {
             "name_en": "Kurdalegon Supra",
@@ -119,16 +77,9 @@
             "job": "CLASS_JOB.ARM",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
-            "requirements_fr": [
-                "Demi-matéria de la maîtrise divine",
-                "Fil de sombracier renforcé"
-            ],
-            "cPrev": [
-                6
-            ],
-            "cNext": [
-                8
-            ]
+            "requirements_fr": ["Demi-matéria de la maîtrise divine", "Fil de sombracier renforcé"],
+            "cPrev": [6],
+            "cNext": [8]
         },
         "x8": {
             "name_en": "Kurdalegon Lucis",
@@ -136,16 +87,9 @@
             "job": "CLASS_JOB.ARM",
             "iLevel": "90",
             "requirements_en": "5x Lapdog Collar Bell",
-            "requirements_fr": [
-                "5 Cloche d'animal",
-                "5 Pierre de lune"
-            ],
-            "cPrev": [
-                7
-            ],
-            "cCombo": [
-                "character.achievement.items.items.1078"
-            ]
+            "requirements_fr": ["5 Cloche d'animal", "5 Pierre de lune"],
+            "cPrev": [7],
+            "cCombo": ["character.achievement.items.items.1078"]
         },
         "x9": {
             "name_en": "Urcaguary",
@@ -153,12 +97,8 @@
             "job": "CLASS_JOB.GSM",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.goldsmith.66194",
-            "cNext": [
-                10
-            ],
-            "cSiblings": [
-                "duty.quests.class--job.disciple-of-the-hand.goldsmith.66194"
-            ]
+            "cNext": [10],
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.goldsmith.66194"]
         },
         "x10": {
             "name_en": "Urcaguary Supra",
@@ -166,16 +106,9 @@
             "job": "CLASS_JOB.GSM",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
-            "requirements_fr": [
-                "Demi-matéria de la maîtrise divine",
-                "Engrenage en or rose calibré"
-            ],
-            "cPrev": [
-                9
-            ],
-            "cNext": [
-                11
-            ]
+            "requirements_fr": ["Demi-matéria de la maîtrise divine", "Engrenage en or rose calibré"],
+            "cPrev": [9],
+            "cNext": [11]
         },
         "x11": {
             "name_en": "Urcaguary Lucis",
@@ -183,16 +116,9 @@
             "job": "CLASS_JOB.GSM",
             "iLevel": "90",
             "requirements_en": "5x Fluorite Lens",
-            "requirements_fr": [
-                "5 Lentille en fluorine claire",
-                "5 Pierre de lune"
-            ],
-            "cPrev": [
-                10
-            ],
-            "cCombo": [
-                "character.achievement.items.items.1078"
-            ]
+            "requirements_fr": ["5 Lentille en fluorine claire", "5 Pierre de lune"],
+            "cPrev": [10],
+            "cCombo": ["character.achievement.items.items.1078"]
         },
         "x12": {
             "name_en": "Pinga",
@@ -200,12 +126,8 @@
             "job": "CLASS_JOB.LTW",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.leatherworker.65602",
-            "cNext": [
-                13
-            ],
-            "cSiblings": [
-                "duty.quests.class--job.disciple-of-the-hand.leatherworker.65602"
-            ]
+            "cNext": [13],
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.leatherworker.65602"]
         },
         "x13": {
             "name_en": "Pinga Supra",
@@ -213,16 +135,9 @@
             "job": "CLASS_JOB.LTW",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
-            "requirements_fr": [
-                "Demi-matéria de la maîtrise divine",
-                "Lanière en cuir d'hippogriffe bouilli"
-            ],
-            "cPrev": [
-                12
-            ],
-            "cNext": [
-                14
-            ]
+            "requirements_fr": ["Demi-matéria de la maîtrise divine", "Lanière en cuir d'hippogriffe bouilli"],
+            "cPrev": [12],
+            "cNext": [14]
         },
         "x14": {
             "name_en": "Pinga Lucis",
@@ -230,16 +145,9 @@
             "job": "CLASS_JOB.LTW",
             "iLevel": "90",
             "requirements_en": "5x Patent Leather",
-            "requirements_fr": [
-                "5 Cuir de saurien verni",
-                "5 Pierre de lune"
-            ],
-            "cPrev": [
-                13
-            ],
-            "cCombo": [
-                "character.achievement.items.items.1078"
-            ]
+            "requirements_fr": ["5 Cuir de saurien verni", "5 Pierre de lune"],
+            "cPrev": [13],
+            "cCombo": ["character.achievement.items.items.1078"]
         },
         "x15": {
             "name_en": "Clotho",
@@ -247,12 +155,8 @@
             "job": "CLASS_JOB.WVR",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.weaver.66190",
-            "cNext": [
-                16
-            ],
-            "cSiblings": [
-                "duty.quests.class--job.disciple-of-the-hand.weaver.66190"
-            ]
+            "cNext": [16],
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.weaver.66190"]
         },
         "x16": {
             "name_en": "Clotho Supra",
@@ -260,16 +164,9 @@
             "job": "CLASS_JOB.WVR",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
-            "requirements_fr": [
-                "Demi-matéria de la maîtrise divine",
-                "Brocart fin en argent"
-            ],
-            "cPrev": [
-                15
-            ],
-            "cNext": [
-                17
-            ]
+            "requirements_fr": ["Demi-matéria de la maîtrise divine", "Brocart fin en argent"],
+            "cPrev": [15],
+            "cNext": [17]
         },
         "x17": {
             "name_en": "Clotho Lucis",
@@ -277,16 +174,9 @@
             "job": "CLASS_JOB.WVR",
             "iLevel": "90",
             "requirements_en": "5x Camlet",
-            "requirements_fr": [
-                "5 Camelot",
-                "5 Pierre de lune"
-            ],
-            "cPrev": [
-                16
-            ],
-            "cCombo": [
-                "character.achievement.items.items.1078"
-            ]
+            "requirements_fr": ["5 Camelot", "5 Pierre de lune"],
+            "cPrev": [16],
+            "cCombo": ["character.achievement.items.items.1078"]
         },
         "x18": {
             "name_en": "Paracelsus",
@@ -294,12 +184,8 @@
             "job": "CLASS_JOB.ALC",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.alchemist.66186",
-            "cNext": [
-                19
-            ],
-            "cSiblings": [
-                "duty.quests.class--job.disciple-of-the-hand.alchemist.66186"
-            ]
+            "cNext": [19],
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.alchemist.66186"]
         },
         "x19": {
             "name_en": "Paracelsus Supra",
@@ -307,16 +193,9 @@
             "job": "CLASS_JOB.ALC",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
-            "requirements_fr": [
-                "Demi-matéria de la maîtrise divine",
-                "Esprit de sel concentré"
-            ],
-            "cPrev": [
-                18
-            ],
-            "cNext": [
-                20
-            ]
+            "requirements_fr": ["Demi-matéria de la maîtrise divine", "Esprit de sel concentré"],
+            "cPrev": [18],
+            "cNext": [20]
         },
         "x20": {
             "name_en": "Paracelsus Lucis",
@@ -324,16 +203,9 @@
             "job": "CLASS_JOB.ALC",
             "iLevel": "90",
             "requirements_en": "5x Enchanted Quicksilver",
-            "requirements_fr": [
-                "5 Mercure enchanté",
-                "5 Pierre de lune"
-            ],
-            "cPrev": [
-                19
-            ],
-            "cCombo": [
-                "character.achievement.items.items.1078"
-            ]
+            "requirements_fr": ["5 Mercure enchanté", "5 Pierre de lune"],
+            "cPrev": [19],
+            "cCombo": ["character.achievement.items.items.1078"]
         },
         "x21": {
             "name_en": "Chantico",
@@ -341,12 +213,8 @@
             "job": "CLASS_JOB.CUL",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-hand.culinarian.65806",
-            "cNext": [
-                22
-            ],
-            "cSiblings": [
-                "duty.quests.class--job.disciple-of-the-hand.culinarian.65806"
-            ]
+            "cNext": [22],
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-hand.culinarian.65806"]
         },
         "x22": {
             "name_en": "Chantico Supra",
@@ -354,16 +222,9 @@
             "job": "CLASS_JOB.CUL",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
-            "requirements_fr": [
-                "Demi-matéria de la maîtrise divine",
-                "Condiment piquant à la tomate"
-            ],
-            "cPrev": [
-                21
-            ],
-            "cNext": [
-                23
-            ]
+            "requirements_fr": ["Demi-matéria de la maîtrise divine", "Condiment piquant à la tomate"],
+            "cPrev": [21],
+            "cNext": [23]
         },
         "x23": {
             "name_en": "Chantico Lucis",
@@ -371,16 +232,9 @@
             "job": "CLASS_JOB.CUL",
             "iLevel": "90",
             "requirements_en": "5x Duck Broth",
-            "requirements_fr": [
-                "5 Fond de canard",
-                "5 Pierre de lune"
-            ],
-            "cPrev": [
-                22
-            ],
-            "cCombo": [
-                "character.achievement.items.items.1078"
-            ]
+            "requirements_fr": ["5 Fond de canard", "5 Pierre de lune"],
+            "cPrev": [22],
+            "cCombo": ["character.achievement.items.items.1078"]
         },
         "x24": {
             "name_en": "Mammon",
@@ -388,12 +242,8 @@
             "job": "CLASS_JOB.MIN",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-land.miner.66182",
-            "cNext": [
-                25
-            ],
-            "cSiblings": [
-                "duty.quests.class--job.disciple-of-the-land.miner.66182"
-            ]
+            "cNext": [25],
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-land.miner.66182"]
         },
         "x25": {
             "name_en": "Mammon Supra",
@@ -401,17 +251,9 @@
             "job": "CLASS_JOB.MIN",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
-            "requirements_fr": [
-                "Demi-matéria de la maîtrise divine",
-                "30 roche antéombrale",
-                "2 Demi-matéria de l'artifice III"
-            ],
-            "cPrev": [
-                24
-            ],
-            "cNext": [
-                26
-            ]
+            "requirements_fr": ["Demi-matéria de la maîtrise divine", "30 roche antéombrale", "2 Demi-matéria de l'artifice III"],
+            "cPrev": [24],
+            "cNext": [26]
         },
         "x26": {
             "name_en": "Mammon Lucis",
@@ -419,17 +261,9 @@
             "job": "CLASS_JOB.MIN",
             "iLevel": "90",
             "requirements_en": "30x Antumbral Rock, 15x Magicked Oilcloth",
-            "requirements_fr": [
-                "30 Roche antéombrale",
-                "15 Toile enduite éthéréenne",
-                "5 Pierre de lune"
-            ],
-            "cPrev": [
-                25
-            ],
-            "cCombo": [
-                "character.achievement.items.items.1079"
-            ]
+            "requirements_fr": ["30 Roche antéombrale", "15 Toile enduite éthéréenne", "5 Pierre de lune"],
+            "cPrev": [25],
+            "cCombo": ["character.achievement.items.items.1079"]
         },
         "x27": {
             "name_en": "Rauni",
@@ -437,12 +271,8 @@
             "job": "CLASS_JOB.BTN",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-land.botanist.65549",
-            "cNext": [
-                28
-            ],
-            "cSiblings": [
-                "duty.quests.class--job.disciple-of-the-land.botanist.65549"
-            ]
+            "cNext": [28],
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-land.botanist.65549"]
         },
         "x28": {
             "name_en": "Rauni Supra",
@@ -450,17 +280,9 @@
             "job": "CLASS_JOB.BTN",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
-            "requirements_fr": [
-                "Demi-matéria de la maîtrise divine",
-                "30 Rondin fragrant",
-                "2 Demi-matéria de l'artifice III"
-            ],
-            "cPrev": [
-                27
-            ],
-            "cNext": [
-                29
-            ]
+            "requirements_fr": ["Demi-matéria de la maîtrise divine", "30 Rondin fragrant", "2 Demi-matéria de l'artifice III"],
+            "cPrev": [27],
+            "cNext": [29]
         },
         "x29": {
             "name_en": "Rauni Lucis",
@@ -468,17 +290,9 @@
             "job": "CLASS_JOB.BTN",
             "iLevel": "90",
             "requirements_en": "30x Redolent Log, 15x Bamboo Paper",
-            "requirements_fr": [
-                "30 Rondin fragrant",
-                "15 Papier bambou",
-                "5 Pierre de lune"
-            ],
-            "cPrev": [
-                28
-            ],
-            "cCombo": [
-                "character.achievement.items.items.1079"
-            ]
+            "requirements_fr": ["30 Rondin fragrant", "15 Papier bambou", "5 Pierre de lune"],
+            "cPrev": [28],
+            "cCombo": ["character.achievement.items.items.1079"]
         },
         "x30": {
             "name_en": "Halcyon",
@@ -486,12 +300,8 @@
             "job": "CLASS_JOB.FSH",
             "iLevel": "55",
             "requirements": "duty.quests.class--job.disciple-of-the-land.fisher.66654",
-            "cNext": [
-                31
-            ],
-            "cSiblings": [
-                "duty.quests.class--job.disciple-of-the-land.fisher.66654"
-            ]
+            "cNext": [31],
+            "cSiblings": ["duty.quests.class--job.disciple-of-the-land.fisher.66654"]
         },
         "x31": {
             "name_en": "Halcyon Supra",
@@ -499,17 +309,9 @@
             "job": "CLASS_JOB.FSH",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
-            "requirements_fr": [
-                "Demi-matéria de la maîtrise divine",
-                "Olgoi-Khorkhoi",
-                "2 Demi-matéria de l'artifice III"
-            ],
-            "cPrev": [
-                30
-            ],
-            "cNext": [
-                32
-            ]
+            "requirements_fr": ["Demi-matéria de la maîtrise divine", "Olgoi-Khorkhoi", "2 Demi-matéria de l'artifice III"],
+            "cPrev": [30],
+            "cNext": [32]
         },
         "x32": {
             "name_en": "Halcyon Lucis",
@@ -517,17 +319,9 @@
             "job": "CLASS_JOB.FSH",
             "iLevel": "90",
             "requirements_en": "10x Gigant Clam, 15x Glacier Crystal",
-            "requirements_fr": [
-                "10 Cocoquillage géant",
-                "15 Cristal de givre",
-                "5 Pierre de lune"
-            ],
-            "cPrev": [
-                31
-            ],
-            "cCombo": [
-                "character.achievement.items.items.1079"
-            ]
+            "requirements_fr": ["10 Cocoquillage géant", "15 Cristal de givre", "5 Pierre de lune"],
+            "cPrev": [31],
+            "cCombo": ["character.achievement.items.items.1079"]
         }
     }
 }

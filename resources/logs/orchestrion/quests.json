@@ -2,11 +2,7 @@
     "key": "quests",
     "groupName_en": "Quests",
     "groupName_fr": "Quêtes",
-    "common": [
-        "category",
-        "location",
-        "source"
-    ],
+    "common": ["category", "location", "source"],
     "tasks": {
         "x0": {
             "number": "1",
@@ -39,11 +35,7 @@
             "name_en": "By Design",
             "name_fr": "By Design",
             "category": "CATEGORY.VOYAGE",
-            "source": [
-                "VOYAGE.BLOODBREAK",
-                "VOYAGE.SEA_OF_JADE_5",
-                "VOYAGE.SIRENSONG_SEA_3"
-            ],
+            "source": ["VOYAGE.BLOODBREAK", "VOYAGE.SEA_OF_JADE_5", "VOYAGE.SIRENSONG_SEA_3"],
             "patch": "5.5"
         },
         "x17": {
@@ -53,13 +45,7 @@
             "category": "CATEGORY.PURCHASE",
             "source_en": "Housing Merchant - 5,000 gil",
             "source_fr": "Quincaillière - 5.000 gils",
-            "location": [
-                "ZONE.MIST",
-                "ZONE.THE_LAVENDER_BEDS",
-                "ZONE.THE_GOBLET",
-                "ZONE.SHIROGANE",
-                "ZONE.EMPYREUM"
-            ],
+            "location": ["ZONE.MIST", "ZONE.THE_LAVENDER_BEDS", "ZONE.THE_GOBLET", "ZONE.SHIROGANE", "ZONE.EMPYREUM"],
             "patch": "3.5"
         },
         "x94": {
@@ -99,13 +85,7 @@
             "category": "CATEGORY.PURCHASE",
             "source_en": "Housing Merchant - 5,000 gil",
             "source_fr": "Quincaillière - 5.000 gils",
-            "location": [
-                "ZONE.MIST",
-                "ZONE.THE_LAVENDER_BEDS",
-                "ZONE.THE_GOBLET",
-                "ZONE.SHIROGANE",
-                "ZONE.EMPYREUM"
-            ],
+            "location": ["ZONE.MIST", "ZONE.THE_LAVENDER_BEDS", "ZONE.THE_GOBLET", "ZONE.SHIROGANE", "ZONE.EMPYREUM"],
             "patch": "6.1"
         },
         "x4": {
@@ -138,10 +118,7 @@
             "number": "13",
             "name_en": "The Only Path",
             "name_fr": "The Only Path",
-            "category": [
-                "CATEGORY.TREASURE_HUNT",
-                "CATEGORY.CRAFTING"
-            ],
+            "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.CRAFTING"],
             "source": [
                 "duty.treasure-hunt.maps.0",
                 "duty.treasure-hunt.maps.1",
@@ -155,10 +132,7 @@
             "number": "14",
             "name_en": "A World Apart",
             "name_fr": "A World Apart",
-            "category": [
-                "CATEGORY.VOYAGE",
-                "CATEGORY.CRAFTING"
-            ],
+            "category": ["CATEGORY.VOYAGE", "CATEGORY.CRAFTING"],
             "source": "VOYAGE.SEA_OF_CLOUDS_23",
             "patch": "3.25"
         },
@@ -174,14 +148,8 @@
             "number": "16",
             "name_en": "Breaking Boundaries",
             "name_fr": "Breaking Boundaries",
-            "category": [
-                "CATEGORY.TREASURE_HUNT",
-                "CATEGORY.KUPO_OF_FORTUNE"
-            ],
-            "source": [
-                "duty.treasure-hunt.duties.0",
-                "CATEGORY.KUPO_OF_FORTUNE"
-            ],
+            "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "CATEGORY.KUPO_OF_FORTUNE"],
             "patch": "3.5"
         },
         "x12": {
@@ -234,10 +202,7 @@
             "number": "22",
             "name_en": "Engage",
             "name_fr": "Engage",
-            "category": [
-                "CATEGORY.VOYAGE",
-                "CATEGORY.CRAFTING"
-            ],
+            "category": ["CATEGORY.VOYAGE", "CATEGORY.CRAFTING"],
             "source": "VOYAGE.SEA_OF_CLOUDS_SECTOR_18",
             "patch": "3.3"
         },
@@ -265,13 +230,7 @@
             "category": "CATEGORY.PURCHASE",
             "source_en": "Housing Merchant - 5,000 gil",
             "source_fr": "Quincaillière - 5.000 gils",
-            "location": [
-                "ZONE.MIST",
-                "ZONE.THE_LAVENDER_BEDS",
-                "ZONE.THE_GOBLET",
-                "ZONE.SHIROGANE",
-                "ZONE.EMPYREUM"
-            ],
+            "location": ["ZONE.MIST", "ZONE.THE_LAVENDER_BEDS", "ZONE.THE_GOBLET", "ZONE.SHIROGANE", "ZONE.EMPYREUM"],
             "patch": "4.2"
         },
         "x55": {
@@ -449,10 +408,7 @@
             "number": "46",
             "name_en": "Eternal Wind (Shadowbringers)",
             "name_fr": "Eternal Wind (Shadowbringers)",
-            "category": [
-                "CATEGORY.TRIAL",
-                "CATEGORY.CRAFTING"
-            ],
+            "category": ["CATEGORY.TRIAL", "CATEGORY.CRAFTING"],
             "source": "duty.dutyraid-finder.trials.shb.11",
             "patch": "5.3"
         },
@@ -505,13 +461,7 @@
             "category": "CATEGORY.PURCHASE",
             "source_en": "Housing Merchant - 5,000 gil",
             "source_fr": "Quincaillière - 5.000 gils",
-            "location": [
-                "ZONE.MIST",
-                "ZONE.THE_LAVENDER_BEDS",
-                "ZONE.THE_GOBLET",
-                "ZONE.SHIROGANE",
-                "ZONE.EMPYREUM"
-            ],
+            "location": ["ZONE.MIST", "ZONE.THE_LAVENDER_BEDS", "ZONE.THE_GOBLET", "ZONE.SHIROGANE", "ZONE.EMPYREUM"],
             "patch": "6.3"
         },
         "x101": {
@@ -521,13 +471,7 @@
             "category": "CATEGORY.PURCHASE",
             "source_en": "Housing Merchant - 5,000 gil",
             "source_fr": "Quincaillière - 5.000 gils",
-            "location": [
-                "ZONE.MIST",
-                "ZONE.THE_LAVENDER_BEDS",
-                "ZONE.THE_GOBLET",
-                "ZONE.SHIROGANE",
-                "ZONE.EMPYREUM"
-            ],
+            "location": ["ZONE.MIST", "ZONE.THE_LAVENDER_BEDS", "ZONE.THE_GOBLET", "ZONE.SHIROGANE", "ZONE.EMPYREUM"],
             "patch": "6.3"
         },
         "x102": {
@@ -535,10 +479,7 @@
             "name_en": "Dreams Aloft",
             "name_fr": "Dreams Aloft",
             "category": "CATEGORY.VOYAGE",
-            "source": [
-                "VOYAGE.FORTUNES_FORD",
-                "VOYAGE.THE_CRYSTAL_FONT"
-            ],
+            "source": ["VOYAGE.FORTUNES_FORD", "VOYAGE.THE_CRYSTAL_FONT"],
             "patch": "6.3"
         },
         "x103": {
@@ -554,21 +495,9 @@
             "name_en": "Fracture",
             "name_fr": "Fracture",
             "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "source_fr": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "location": [
-                "ZONE.NEW_GRIDANIA",
-                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
-                "ZONE.UL_DAH_STEPS_OF_NALD"
-            ],
+            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "location": ["ZONE.NEW_GRIDANIA", "ZONE.LIMSA_LOMINSA_UPPER_DECKS", "ZONE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x105": {
@@ -576,21 +505,9 @@
             "name_en": "Conundrum",
             "name_fr": "Conundrum",
             "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "source_fr": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "location": [
-                "ZONE.NEW_GRIDANIA",
-                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
-                "ZONE.UL_DAH_STEPS_OF_NALD"
-            ],
+            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "location": ["ZONE.NEW_GRIDANIA", "ZONE.LIMSA_LOMINSA_UPPER_DECKS", "ZONE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x106": {
@@ -598,21 +515,9 @@
             "name_en": "Return of the Hero",
             "name_fr": "Return of the Hero",
             "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "source_fr": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "location": [
-                "ZONE.NEW_GRIDANIA",
-                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
-                "ZONE.UL_DAH_STEPS_OF_NALD"
-            ],
+            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "location": ["ZONE.NEW_GRIDANIA", "ZONE.LIMSA_LOMINSA_UPPER_DECKS", "ZONE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x107": {
@@ -620,21 +525,9 @@
             "name_en": "Kiss of Chaos",
             "name_fr": "Kiss of Chaos",
             "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "source_fr": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "location": [
-                "ZONE.NEW_GRIDANIA",
-                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
-                "ZONE.UL_DAH_STEPS_OF_NALD"
-            ],
+            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "location": ["ZONE.NEW_GRIDANIA", "ZONE.LIMSA_LOMINSA_UPPER_DECKS", "ZONE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x108": {
@@ -642,21 +535,9 @@
             "name_en": "Machinations",
             "name_fr": "Machinations",
             "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "source_fr": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "location": [
-                "ZONE.NEW_GRIDANIA",
-                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
-                "ZONE.UL_DAH_STEPS_OF_NALD"
-            ],
+            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "location": ["ZONE.NEW_GRIDANIA", "ZONE.LIMSA_LOMINSA_UPPER_DECKS", "ZONE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x109": {
@@ -664,21 +545,9 @@
             "name_en": "Damnation",
             "name_fr": "Damnation",
             "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "source_fr": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "location": [
-                "ZONE.NEW_GRIDANIA",
-                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
-                "ZONE.UL_DAH_STEPS_OF_NALD"
-            ],
+            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "location": ["ZONE.NEW_GRIDANIA", "ZONE.LIMSA_LOMINSA_UPPER_DECKS", "ZONE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x110": {
@@ -686,21 +555,9 @@
             "name_en": "Skullduggery",
             "name_fr": "Skullduggery",
             "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "source_fr": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "location": [
-                "ZONE.NEW_GRIDANIA",
-                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
-                "ZONE.UL_DAH_STEPS_OF_NALD"
-            ],
+            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "location": ["ZONE.NEW_GRIDANIA", "ZONE.LIMSA_LOMINSA_UPPER_DECKS", "ZONE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x111": {
@@ -708,21 +565,9 @@
             "name_en": "Tranquility",
             "name_fr": "Tranquility",
             "category": "CATEGORY.PURCHASE",
-            "source_en": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "source_fr": [
-                "Leandryne - 1,000 gil",
-                "Syznthota - 1,000 gil",
-                "Fowke - 1,000 gil"
-            ],
-            "location": [
-                "ZONE.NEW_GRIDANIA",
-                "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
-                "ZONE.UL_DAH_STEPS_OF_NALD"
-            ],
+            "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
+            "location": ["ZONE.NEW_GRIDANIA", "ZONE.LIMSA_LOMINSA_UPPER_DECKS", "ZONE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x112": {
@@ -740,9 +585,7 @@
             "name_en": "Pennons Aloft",
             "name_fr": "Pennons Aloft",
             "category": "CATEGORY.VOYAGE",
-            "source": [
-                "VOYAGE.WINGSREACH"
-            ],
+            "source": ["VOYAGE.WINGSREACH"],
             "patch": "6.5"
         },
         "x651": {
@@ -750,9 +593,7 @@
             "name_en": "From Fear to Fortitude",
             "name_fr": "From Fear to Fortitude",
             "category": "CATEGORY.VOYAGE",
-            "source": [
-                "VOYAGE.THE_FLORAL_REEF"
-            ],
+            "source": ["VOYAGE.THE_FLORAL_REEF"],
             "patch": "6.5"
         },
         "x644": {

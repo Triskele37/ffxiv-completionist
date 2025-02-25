@@ -9,12 +9,8 @@
             "name_fr": "La petite relique du professeur Rurusha",
             "npc_en": "Boric",
             "npc_fr": "Boric",
-            "cPrev": [
-                "duty.quests.class--job.studium.70009"
-            ],
-            "cNext": [
-                69669
-            ],
+            "cPrev": ["duty.quests.class--job.studium.70009"],
+            "cNext": [69669],
             "patch": "6.0"
         },
         "x69669": {
@@ -23,12 +19,8 @@
             "name_fr": "La relique au bois dormant",
             "npc_en": "Rurusha",
             "npc_fr": "Rurusha",
-            "cPrev": [
-                69668
-            ],
-            "cNext": [
-                69670
-            ],
+            "cPrev": [69668],
+            "cNext": [69670],
             "patch": "6.0"
         },
         "x69670": {
@@ -37,12 +29,8 @@
             "name_fr": "Rouages et engrenages",
             "npc_en": "Rurusha",
             "npc_fr": "Rurusha",
-            "cPrev": [
-                69669
-            ],
-            "cNext": [
-                69671
-            ],
+            "cPrev": [69669],
+            "cNext": [69671],
             "patch": "6.0"
         },
         "x69671": {
@@ -51,12 +39,8 @@
             "name_fr": "Le fond des fonds",
             "npc_en": "Rurusha",
             "npc_fr": "Rurusha",
-            "cPrev": [
-                69670
-            ],
-            "cNext": [
-                69672
-            ],
+            "cPrev": [69670],
+            "cNext": [69672],
             "patch": "6.0"
         },
         "x69672": {
@@ -65,12 +49,8 @@
             "name_fr": "Un assistant inquiet",
             "npc_en": "Rurusha",
             "npc_fr": "Rurusha",
-            "cPrev": [
-                69671
-            ],
-            "cNext": [
-                69673
-            ],
+            "cPrev": [69671],
+            "cNext": [69673],
             "patch": "6.0"
         },
         "x69673": {
@@ -79,12 +59,8 @@
             "name_fr": "La convocation de Rurusha",
             "npc_en": "Rurusha",
             "npc_fr": "Rurusha",
-            "cPrev": [
-                69672
-            ],
-            "cNext": [
-                69674
-            ],
+            "cPrev": [69672],
+            "cNext": [69674],
             "patch": "6.0"
         },
         "x69674": {
@@ -93,15 +69,9 @@
             "name_fr": "Discussion ancestrale",
             "npc_en": "Rurusha",
             "npc_fr": "Rurusha",
-            "cPrev": [
-                69673
-            ],
-            "cNext": [
-                "duty.quests.class--job.studium.70010"
-            ],
-            "cSiblings": [
-                "character.achievement.quests.job-role-quests.2966"
-            ],
+            "cPrev": [69673],
+            "cNext": ["duty.quests.class--job.studium.70010"],
+            "cSiblings": ["character.achievement.quests.job-role-quests.2966"],
             "patch": "6.0"
         }
     }

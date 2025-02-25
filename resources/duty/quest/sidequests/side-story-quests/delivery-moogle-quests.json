@@ -9,15 +9,9 @@
             "name_fr": "Plus qu'un métier, une vocation",
             "npc_en": "Klynthota",
             "npc_fr": "Klynthota",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66060"
-            ],
-            "cNext": [
-                67019
-            ],
-            "cSiblings": [
-                "character.achievement.quests.quests.1004"
-            ],
+            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66060"],
+            "cNext": [67019],
+            "cSiblings": ["character.achievement.quests.quests.1004"],
             "patch": "4.31"
         },
         "x67019": {
@@ -26,13 +20,8 @@
             "name_fr": "Le prix de la pièce",
             "npc_en": "Deputy Postmoogle",
             "npc_fr": "Maître Mog Postier",
-            "cPrev": [
-                67017
-            ],
-            "cNext": [
-                67018,
-                67020
-            ],
+            "cPrev": [67017],
+            "cNext": [67018, 67020],
             "patch": "4.31"
         },
         "x67020": {
@@ -41,14 +30,8 @@
             "name_fr": "Un jour elle sera mienne",
             "npc_en": "Deputy Postmoogle",
             "npc_fr": "Maître Mog Postier",
-            "cPrev": [
-                67019
-            ],
-            "cNext": [
-                67067,
-                67068,
-                67069
-            ],
+            "cPrev": [67019],
+            "cNext": [67067, 67068, 67069],
             "patch": "4.31"
         },
         "x67018": {
@@ -57,14 +40,8 @@
             "name_fr": "La roue du destin",
             "npc_en": "Deputy Postmoogle",
             "npc_fr": "Maître Mog Postier",
-            "cPrev": [
-                67019
-            ],
-            "cNext": [
-                67067,
-                67068,
-                67069
-            ],
+            "cPrev": [67019],
+            "cNext": [67067, 67068, 67069],
             "patch": "4.31"
         },
         "x67067": {
@@ -73,13 +50,8 @@
             "name_fr": "L'amnistie de l'amnésique",
             "npc_en": "Deputy Postmoogle",
             "npc_fr": "Maître Mog Postier",
-            "cPrev": [
-                67018,
-                67020
-            ],
-            "cNext": [
-                67021
-            ],
+            "cPrev": [67018, 67020],
+            "cNext": [67021],
             "patch": "4.31"
         },
         "x67068": {
@@ -88,10 +60,7 @@
             "name_fr": "Une danse lascive",
             "npc_en": "Deputy Postmoogle",
             "npc_fr": "Maître Mog Postier",
-            "cPrev": [
-                67018,
-                67020
-            ],
+            "cPrev": [67018, 67020],
             "patch": "4.31"
         },
         "x67069": {
@@ -100,10 +69,7 @@
             "name_fr": "Ô Capitaine, mon Capitaine",
             "npc_en": "Deputy Postmoogle",
             "npc_fr": "Maître Mog Postier",
-            "cPrev": [
-                67018,
-                67020
-            ],
+            "cPrev": [67018, 67020],
             "patch": "4.31"
         },
         "x67021": {
@@ -112,10 +78,7 @@
             "name_fr": "Taupologie",
             "npc_en": "Deputy Postmoogle",
             "npc_fr": "Maître Mog Postier",
-            "cPrev": [
-                67067,
-                "duty.quests.sidequests.gridanian.central-shroud.66343"
-            ],
+            "cPrev": [67067, "duty.quests.sidequests.gridanian.central-shroud.66343"],
             "patch": "4.31"
         },
         "x67107": {
@@ -148,9 +111,7 @@
             "name_fr": "Renaissance par le style",
             "npc_en": "Deputy Postmoogle",
             "npc_fr": "Maître Mog Postier",
-            "cPrev": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66746"
-            ],
+            "cPrev": ["duty.quests.sidequests.lominsan.limsa-lominsa.66746"],
             "patch": "4.31"
         },
         "x67106": {
@@ -239,9 +200,7 @@
             "name_fr": "L'avenue du souvenir",
             "npc_en": "Deputy Postmoogle",
             "npc_fr": "Maître Mog Postier",
-            "cPrev": [
-                "duty.quests.sidequests.hildibrand-sidequests.hildibrand.66740"
-            ],
+            "cPrev": ["duty.quests.sidequests.hildibrand-sidequests.hildibrand.66740"],
             "patch": "4.31"
         },
         "x66032": {
@@ -258,9 +217,7 @@
             "name_fr": "La grande famille de la Poste mog",
             "npc_en": "Deputy Postmoogle",
             "npc_fr": "Maître Mog Postier",
-            "cSiblings": [
-                "character.achievement.quests.quests.1130"
-            ],
+            "cSiblings": ["character.achievement.quests.quests.1130"],
             "patch": "4.31"
         }
     }

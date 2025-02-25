@@ -22,9 +22,7 @@
             "name_fr": "Vers l'extérieur, et au-delà",
             "npc_en": "Kurenai",
             "npc_fr": "Kurenai",
-            "cPrev": [
-                "duty.quests.sidequests.hingan.kugane.68675"
-            ],
+            "cPrev": ["duty.quests.sidequests.hingan.kugane.68675"],
             "patch": "4.31"
         },
         "x68211": {
@@ -33,9 +31,7 @@
             "name_fr": "Une toux du diable",
             "npc_en": "Hiun",
             "npc_fr": "Hiun",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68014"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68014"],
             "patch": "4.31"
         },
         "x68210": {
@@ -44,9 +40,7 @@
             "name_fr": "L'organe de la vue",
             "npc_en": "Shihoji",
             "npc_fr": "Shihoji",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68014"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68014"],
             "patch": "4.31"
         },
         "x68209": {
@@ -56,16 +50,9 @@
             "unlock": "travel.aether-currents.sb.the-ruby-sea.13",
             "npc_en": "Yusui",
             "npc_fr": "Yusui",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68014"
-            ],
-            "cNext": [
-                68212,
-                68213
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-ruby-sea.13"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68014"],
+            "cNext": [68212, 68213],
+            "cSiblings": ["travel.aether-currents.sb.the-ruby-sea.13"],
             "patch": "4.31"
         },
         "x68212": {
@@ -74,13 +61,8 @@
             "name_fr": "Optimisation des batteries",
             "npc_en": "Kumoji",
             "npc_fr": "Kumoji",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68014",
-                68209
-            ],
-            "cNext": [
-                68214
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68014", 68209],
+            "cNext": [68214],
             "patch": "4.31"
         },
         "x68213": {
@@ -89,13 +71,8 @@
             "name_fr": "Manifestations lumineuses",
             "npc_en": "Hayama",
             "npc_fr": "Hayama",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68014",
-                68209
-            ],
-            "cNext": [
-                68214
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68014", 68209],
+            "cNext": [68214],
             "patch": "4.31"
         },
         "x68214": {
@@ -104,11 +81,7 @@
             "name_fr": "Quand le soldat fait sa B.A.",
             "npc_en": "Hayama",
             "npc_fr": "Hayama",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68014",
-                68212,
-                68213
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68014", 68212, 68213],
             "patch": "4.31"
         },
         "x68216": {
@@ -117,9 +90,7 @@
             "name_fr": "L'affaire est dans le sac",
             "npc_en": "Kaizan",
             "npc_fr": "Kaizan",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68017"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68017"],
             "patch": "4.31"
         },
         "x68218": {
@@ -128,12 +99,8 @@
             "name_fr": "Seule sur le sable",
             "npc_en": "Perplexed Confederate",
             "npc_fr": "Pirate Paniqué",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68017"
-            ],
-            "cNext": [
-                68237
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68017"],
+            "cNext": [68237],
             "patch": "4.31"
         },
         "x68219": {
@@ -142,9 +109,7 @@
             "name_fr": "Le tueur de pirates",
             "npc_en": "Hayase",
             "npc_fr": "Hayase",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68017"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68017"],
             "patch": "4.31"
         },
         "x68220": {
@@ -153,9 +118,7 @@
             "name_fr": "Le ragoût du pirate",
             "npc_en": "Hirase",
             "npc_fr": "Hirase",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68017"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68017"],
             "patch": "4.31"
         },
         "x68221": {
@@ -164,9 +127,7 @@
             "name_fr": "Pirates pris de démence",
             "npc_en": "Yana",
             "npc_fr": "Yana",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68017"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68017"],
             "patch": "4.31"
         },
         "x68222": {
@@ -175,9 +136,7 @@
             "name_fr": "Mentir pour la bonne cause",
             "npc_en": "Aranami",
             "npc_fr": "Aranami",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68017"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68017"],
             "patch": "4.31"
         },
         "x68223": {
@@ -187,15 +146,9 @@
             "unlock": "travel.aether-currents.sb.the-ruby-sea.12",
             "npc_en": "Hansaku",
             "npc_fr": "Hansaku",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68017"
-            ],
-            "cNext": [
-                68224
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-ruby-sea.12"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68017"],
+            "cNext": [68224],
+            "cSiblings": ["travel.aether-currents.sb.the-ruby-sea.12"],
             "patch": "4.31"
         },
         "x68224": {
@@ -204,13 +157,8 @@
             "name_fr": "Partenariat alléchant",
             "npc_en": "Tsukikage",
             "npc_fr": "Tsukikage",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68017",
-                68223
-            ],
-            "cNext": [
-                68225
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68017", 68223],
+            "cNext": [68225],
             "patch": "4.31"
         },
         "x68225": {
@@ -219,13 +167,8 @@
             "name_fr": "Le début d'une relation fructueuse",
             "npc_en": "Tsukikage",
             "npc_fr": "Tsukikage",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68017",
-                68224
-            ],
-            "cNext": [
-                68226
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68017", 68224],
+            "cNext": [68226],
             "patch": "4.31"
         },
         "x68226": {
@@ -234,13 +177,8 @@
             "name_fr": "Prisonnière de son passé",
             "npc_en": "Tsukikage",
             "npc_fr": "Tsukikage",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68017",
-                68225
-            ],
-            "cNext": [
-                68259
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68017", 68225],
+            "cNext": [68259],
             "patch": "4.31"
         },
         "x68227": {
@@ -249,9 +187,7 @@
             "name_fr": "Une vénérable carapace",
             "npc_en": "Tsuzura",
             "npc_fr": "Tsuzura",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68019"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68019"],
             "patch": "4.31"
         },
         "x68228": {
@@ -260,9 +196,7 @@
             "name_fr": "Plus qu'un simple banquet",
             "npc_en": "Kaioke",
             "npc_fr": "Kaioke",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68019"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68019"],
             "patch": "4.31"
         },
         "x68229": {
@@ -272,12 +206,8 @@
             "unlock": "travel.aether-currents.sb.the-ruby-sea.11",
             "npc_en": "Slender Kojin",
             "npc_fr": "Kojin Maigrichon",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68019"
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-ruby-sea.11"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68019"],
+            "cSiblings": ["travel.aether-currents.sb.the-ruby-sea.11"],
             "patch": "4.31"
         },
         "x68230": {
@@ -286,9 +216,7 @@
             "name_fr": "La pierre de force",
             "npc_en": "Toro",
             "npc_fr": "Toro",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68019"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68019"],
             "patch": "4.31"
         },
         "x68231": {
@@ -297,9 +225,7 @@
             "name_fr": "Esprit es-tu là?",
             "npc_en": "Kefusan",
             "npc_fr": "Kefusan",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68019"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68019"],
             "patch": "4.31"
         },
         "x68232": {
@@ -308,9 +234,7 @@
             "name_fr": "Agression mystérieuse",
             "npc_en": "Urokuzu",
             "npc_fr": "Urokuzu",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68019"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68019"],
             "patch": "4.31"
         },
         "x68233": {
@@ -319,9 +243,7 @@
             "name_fr": "Disponible à la grande surface",
             "npc_en": "Seizau",
             "npc_fr": "Seizau",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68021"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68021"],
             "patch": "4.31"
         },
         "x68234": {
@@ -330,9 +252,7 @@
             "name_fr": "Le grand frère",
             "npc_en": "Mahiwa",
             "npc_fr": "Mahiwa",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68021"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68021"],
             "patch": "4.31"
         },
         "x68235": {
@@ -341,9 +261,7 @@
             "name_fr": "L'eau de survie",
             "npc_en": "Mine",
             "npc_fr": "Mine",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68021"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68021"],
             "patch": "4.31"
         },
         "x68236": {
@@ -352,9 +270,7 @@
             "name_fr": "Pour nos chers voisins",
             "npc_en": "Kagero",
             "npc_fr": "Kagero",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68021"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68021"],
             "patch": "4.31"
         },
         "x68237": {
@@ -363,10 +279,7 @@
             "name_fr": "Les perles de la Mer de Rubis",
             "npc_en": "Sapphire-haired Girl",
             "npc_fr": "Ao Ra Aux Cheveux Bleus",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68021",
-                68218
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68021", 68218],
             "patch": "4.31"
         },
         "x68238": {
@@ -375,9 +288,7 @@
             "name_fr": "Des créatures briseuses d'avenir",
             "npc_en": "Mozu",
             "npc_fr": "Mozu",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68021"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68021"],
             "patch": "4.31"
         },
         "x68239": {
@@ -386,30 +297,19 @@
             "name_fr": "Un talisman de corail",
             "npc_en": "Sayo",
             "npc_fr": "Sayo",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68021"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68021"],
             "patch": "4.31"
         },
         "x68168": {
             "level": 63,
             "name_en": "The Palace of Lost Souls",
             "name_fr": "Le Palais aux Marées troublées",
-            "unlock": [
-                "duty.dutyraid-finder.dungeons.sb.1",
-                "travel.aether-currents.sb.the-ruby-sea.10"
-            ],
+            "unlock": ["duty.dutyraid-finder.dungeons.sb.1", "travel.aether-currents.sb.the-ruby-sea.10"],
             "npc_en": "Kurenai",
             "npc_fr": "Kurenai",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68021"
-            ],
-            "cNext": [
-                68240
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-ruby-sea.10"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68021"],
+            "cNext": [68240],
+            "cSiblings": ["travel.aether-currents.sb.the-ruby-sea.10"],
             "patch": "4.31"
         },
         "x68240": {
@@ -418,13 +318,8 @@
             "name_fr": "Seule la vérité compte",
             "npc_en": "Kurenai",
             "npc_fr": "Kurenai",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68021",
-                68168
-            ],
-            "cNext": [
-                68241
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68021", 68168],
+            "cNext": [68241],
             "patch": "4.31"
         },
         "x68241": {
@@ -433,13 +328,8 @@
             "name_fr": "Rendez-vous en terre inconnue",
             "npc_en": "Kurenai",
             "npc_fr": "Kurenai",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68021",
-                68240
-            ],
-            "cNext": [
-                68242
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68021", 68240],
+            "cNext": [68242],
             "patch": "4.31"
         },
         "x68242": {
@@ -448,13 +338,8 @@
             "name_fr": "Pour vivre centenaire, vivons caché",
             "npc_en": "Kurenai",
             "npc_fr": "Kurenai",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68021",
-                68241
-            ],
-            "cNext": [
-                68243
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68021", 68241],
+            "cNext": [68243],
             "patch": "4.31"
         },
         "x68243": {
@@ -463,13 +348,8 @@
             "name_fr": "Qui est qui?",
             "npc_en": "Kurenai",
             "npc_fr": "Kurenai",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68021",
-                68242
-            ],
-            "cNext": [
-                "duty.quests.sidequests.hingan.kugane.68675"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68021", 68242],
+            "cNext": ["duty.quests.sidequests.hingan.kugane.68675"],
             "patch": "4.31"
         },
         "x68244": {
@@ -478,9 +358,7 @@
             "name_fr": "La chasse aux trésors kojin",
             "npc_en": "Affable Kojin",
             "npc_fr": "Kojin Sociable",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68023"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68023"],
             "patch": "4.31"
         },
         "x68247": {
@@ -489,9 +367,7 @@
             "name_fr": "Le bateau naufragé",
             "npc_en": "Saikoro",
             "npc_fr": "Saikoro",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68023"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68023"],
             "patch": "4.31"
         },
         "x68245": {
@@ -500,12 +376,8 @@
             "name_fr": "Promenade au fond des mers",
             "npc_en": "Takotsubo",
             "npc_fr": "Takotsubo",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68023"
-            ],
-            "cNext": [
-                68246
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68023"],
+            "cNext": [68246],
             "patch": "4.31"
         },
         "x68246": {
@@ -514,13 +386,8 @@
             "name_fr": "Nettoyage maritime",
             "npc_en": "Takotsubo",
             "npc_fr": "Takotsubo",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68023",
-                68245
-            ],
-            "cNext": [
-                68248
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68023", 68245],
+            "cNext": [68248],
             "patch": "4.31"
         },
         "x68248": {
@@ -529,10 +396,7 @@
             "name_fr": "Indésirables ovipares",
             "npc_en": "Takotsubo",
             "npc_fr": "Takotsubo",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68023",
-                68246
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68023", 68246],
             "patch": "4.31"
         },
         "x68249": {
@@ -541,9 +405,7 @@
             "name_fr": "Les terreurs des plages",
             "npc_en": "Abiki",
             "npc_fr": "Abiki",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68026"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68026"],
             "patch": "4.31"
         },
         "x68250": {
@@ -552,9 +414,7 @@
             "name_fr": "La rencontre rêvée",
             "npc_en": "Kansui",
             "npc_fr": "Kansui",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68026"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68026"],
             "patch": "4.31"
         },
         "x68251": {
@@ -563,9 +423,7 @@
             "name_fr": "La bénédiction des eaux",
             "npc_en": "Motogoe",
             "npc_fr": "Motogoe",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68026"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68026"],
             "patch": "4.31"
         },
         "x68252": {
@@ -574,9 +432,7 @@
             "name_fr": "Un bouillon salvateur",
             "npc_en": "Misago",
             "npc_fr": "Misago",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68026"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68026"],
             "patch": "4.31"
         },
         "x68253": {
@@ -585,9 +441,7 @@
             "name_fr": "J'aurais voulu être un oiseau",
             "npc_en": "Zansetsu",
             "npc_fr": "Zansetsu",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68026"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68026"],
             "patch": "4.31"
         },
         "x68254": {
@@ -596,9 +450,7 @@
             "name_fr": "Pêcheurs de père en fils",
             "npc_en": "Anxious Boy",
             "npc_fr": "Jeune Garçon D'Isari",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68026"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68026"],
             "patch": "4.31"
         },
         "x68255": {
@@ -607,12 +459,8 @@
             "name_fr": "La haine du pêché, l'amour du pêcheur",
             "npc_en": "Veteran Fisherman",
             "npc_fr": "Vieux Pêcheur Expérimenté",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68026"
-            ],
-            "cNext": [
-                68256
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68026"],
+            "cNext": [68256],
             "patch": "4.31"
         },
         "x68256": {
@@ -621,13 +469,8 @@
             "name_fr": "Rêve sur la grève",
             "npc_en": "Nayoshi",
             "npc_fr": "Nayoshi",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68026",
-                68255
-            ],
-            "cNext": [
-                68257
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68026", 68255],
+            "cNext": [68257],
             "patch": "4.31"
         },
         "x68257": {
@@ -636,13 +479,8 @@
             "name_fr": "Lorsque tout part en fumée",
             "npc_en": "Nayoshi",
             "npc_fr": "Nayoshi",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68026",
-                68256
-            ],
-            "cNext": [
-                68258
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68026", 68256],
+            "cNext": [68258],
             "patch": "4.31"
         },
         "x68258": {
@@ -651,13 +489,8 @@
             "name_fr": "L'espoir renaît",
             "npc_en": "Nayoshi",
             "npc_fr": "Nayoshi",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68026",
-                68257
-            ],
-            "cNext": [
-                68259
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68026", 68257],
+            "cNext": [68259],
             "patch": "4.31"
         },
         "x68259": {
@@ -666,11 +499,7 @@
             "name_fr": "Transmission de flambeau",
             "npc_en": "Asari",
             "npc_fr": "Asari",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68026",
-                68226,
-                68258
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68026", 68226, 68258],
             "patch": "4.31"
         }
     }

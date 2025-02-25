@@ -17,9 +17,7 @@
             "name_fr": "Avoir la puce à l'ovin",
             "npc_en": "Moegramm",
             "npc_fr": "Moegramm",
-            "cNext": [
-                66016
-            ],
+            "cNext": [66016],
             "patch": "4.31"
         },
         "x66011": {
@@ -28,12 +26,8 @@
             "name_fr": "Avoir les foies",
             "npc_en": "Ancreta",
             "npc_fr": "Ancreta",
-            "cPrev": [
-                "duty.quests.sidequests.lominsan.limsa-lominsa.66199"
-            ],
-            "cNext": [
-                66012
-            ],
+            "cPrev": ["duty.quests.sidequests.lominsan.limsa-lominsa.66199"],
+            "cNext": [66012],
             "patch": "4.31"
         },
         "x66012": {
@@ -42,13 +36,8 @@
             "name_fr": "Pas de feutre sans laine",
             "npc_en": "Anaoc",
             "npc_fr": "Anaoc",
-            "cPrev": [
-                66011
-            ],
-            "cNext": [
-                66013,
-                66022
-            ],
+            "cPrev": [66011],
+            "cNext": [66013, 66022],
             "patch": "4.31"
         },
         "x66016": {
@@ -57,9 +46,7 @@
             "name_fr": "Le dodo est dans le sac",
             "npc_en": "Moegramm",
             "npc_fr": "Moegramm",
-            "cPrev": [
-                66017
-            ],
+            "cPrev": [66017],
             "patch": "4.31"
         },
         "x66020": {
@@ -68,9 +55,7 @@
             "name_fr": "Les matelots des moulins",
             "npc_en": "Loetrswys",
             "npc_fr": "Loetrswys",
-            "cNext": [
-                66022
-            ],
+            "cNext": [66022],
             "patch": "4.31"
         },
         "x66018": {
@@ -79,9 +64,7 @@
             "name_fr": "Un potager taupe-à-l'œil",
             "npc_en": "Arenlona",
             "npc_fr": "Arenlona",
-            "cNext": [
-                66019
-            ],
+            "cNext": [66019],
             "patch": "4.31"
         },
         "x66022": {
@@ -90,10 +73,7 @@
             "name_fr": "Attention aux Kobolds",
             "npc_en": "Loetrswys",
             "npc_fr": "Loetrswys",
-            "cPrev": [
-                66012,
-                66020
-            ],
+            "cPrev": [66012, 66020],
             "patch": "4.31"
         },
         "x66019": {
@@ -102,9 +82,7 @@
             "name_fr": "Du jus de bête à bon dieu",
             "npc_en": "Arenlona",
             "npc_fr": "Arenlona",
-            "cPrev": [
-                66018
-            ],
+            "cPrev": [66018],
             "patch": "4.31"
         },
         "x66013": {
@@ -113,12 +91,8 @@
             "name_fr": "Rouler les galagos dans la farine",
             "npc_en": "Weitzaren",
             "npc_fr": "Weitzaren",
-            "cPrev": [
-                66012
-            ],
-            "cNext": [
-                66014
-            ],
+            "cPrev": [66012],
+            "cNext": [66014],
             "patch": "4.31"
         },
         "x66021": {
@@ -135,9 +109,7 @@
             "name_fr": "Guet-apens dans les mines",
             "npc_en": "Anaoc",
             "npc_fr": "Anaoc",
-            "cPrev": [
-                66014
-            ],
+            "cPrev": [66014],
             "patch": "4.31"
         },
         "x66014": {
@@ -146,12 +118,8 @@
             "name_fr": "Des pillards de charrette",
             "npc_en": "Skarnmhar",
             "npc_fr": "Skarnmhar",
-            "cPrev": [
-                66013
-            ],
-            "cNext": [
-                66015
-            ],
+            "cPrev": [66013],
+            "cNext": [66015],
             "patch": "4.31"
         },
         "x65943": {
@@ -168,9 +136,7 @@
             "name_fr": "Le compte est baux",
             "npc_en": "Yulgi Honalgi",
             "npc_fr": "Yulgi Honalgi",
-            "cPrev": [
-                65945
-            ],
+            "cPrev": [65945],
             "patch": "4.31"
         },
         "x65945": {
@@ -179,10 +145,7 @@
             "name_fr": "Une chasse au casse-croûte",
             "npc_en": "Wafufu",
             "npc_fr": "Wafufu",
-            "cNext": [
-                65946,
-                65944
-            ],
+            "cNext": [65946, 65944],
             "patch": "4.31"
         },
         "x65953": {
@@ -215,9 +178,7 @@
             "name_fr": "Des rivets fulgurants",
             "npc_en": "Hezzkhezl",
             "npc_fr": "Hezzkhezl",
-            "cPrev": [
-                65945
-            ],
+            "cPrev": [65945],
             "patch": "4.31"
         },
         "x66231": {

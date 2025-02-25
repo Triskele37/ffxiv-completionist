@@ -10,9 +10,7 @@
             "description_fr": "Réaliser 50 synthèses d'alchimie de niveau 1 à 10.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                178
-            ]
+            "cCombo": [178]
         },
         "x174": {
             "name_en": "Mixing It Up: Initiate",
@@ -21,9 +19,7 @@
             "description_fr": "Réaliser 300 synthèses d'alchimie de niveau 11 à 20.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                178
-            ]
+            "cCombo": [178]
         },
         "x175": {
             "name_en": "Mixing It Up: Apprentice",
@@ -32,9 +28,7 @@
             "description_fr": "Réaliser 750 synthèses d'alchimie de niveau 21 à 30.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                178
-            ]
+            "cCombo": [178]
         },
         "x176": {
             "name_en": "Mixing It Up: Journeyman",
@@ -43,9 +37,7 @@
             "description_fr": "Réaliser 1 500 synthèses d'alchimie de niveau 31 à 40.",
             "patch": "2.0",
             "points": 5,
-            "cCombo": [
-                178
-            ]
+            "cCombo": [178]
         },
         "x177": {
             "name_en": "Mixing It Up: Artisan",
@@ -55,12 +47,8 @@
             "reward": "character.character.title.23",
             "patch": "2.0",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.23"
-            ],
-            "cCombo": [
-                178
-            ]
+            "cSiblings": ["character.character.title.23"],
+            "cCombo": [178]
         },
         "x178": {
             "name_en": "An Alchemist's Life for Me",
@@ -71,13 +59,7 @@
             "reward_fr": "Alambic de virtuose",
             "patch": "2.0",
             "points": 30,
-            "cPrev": [
-                173,
-                174,
-                175,
-                176,
-                177
-            ]
+            "cPrev": [173, 174, 175, 176, 177]
         },
         "x1307": {
             "name_en": "Mixing It Up: Adept",
@@ -118,9 +100,7 @@
             "description_fr": "Faire 30 synthèses d'alchimiste différentes et les avoir notées dans le carnet d'artisanat.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                714
-            ]
+            "cNext": [714]
         },
         "x714": {
             "name_en": "I Made That: Alchemist II",
@@ -129,12 +109,8 @@
             "description_fr": "Faire 60 synthèses d'alchimiste différentes et les avoir notées dans le carnet d'artisanat.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [
-                713
-            ],
-            "cNext": [
-                715
-            ]
+            "cPrev": [713],
+            "cNext": [715]
         },
         "x715": {
             "name_en": "I Made That: Alchemist III",
@@ -145,12 +121,8 @@
             "reward_fr": "Anneau de maître alchimiste",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                714
-            ],
-            "cNext": [
-                1284
-            ]
+            "cPrev": [714],
+            "cNext": [1284]
         },
         "x1284": {
             "name_en": "I Made That: Alchemist IV",
@@ -159,12 +131,8 @@
             "description_fr": "Faire 170 synthèses d'alchimiste différentes et les avoir notées dans le carnet d'artisanat.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                715
-            ],
-            "cNext": [
-                1727
-            ]
+            "cPrev": [715],
+            "cNext": [1727]
         },
         "x1727": {
             "name_en": "I Made That: Alchemist V",
@@ -175,12 +143,8 @@
             "reward_fr": "Alambic d'apothicaire béni",
             "patch": "3.5",
             "points": 10,
-            "cPrev": [
-                1284
-            ],
-            "cNext": [
-                2172
-            ]
+            "cPrev": [1284],
+            "cNext": [2172]
         },
         "x2172": {
             "name_en": "I Made That: Alchemist VI",
@@ -191,9 +155,7 @@
             "reward_fr": "Alambic du roi de l'apothicairerie béni",
             "patch": "4.5",
             "points": 10,
-            "cPrev": [
-                1727
-            ]
+            "cPrev": [1727]
         },
         "x768": {
             "name_en": "An Eye for Detail: Alchemist I",
@@ -202,9 +164,7 @@
             "description_fr": "Fabriquer un total de 100 objets de haute qualité en tant qu'alchimiste.",
             "patch": "2.1",
             "points": 5,
-            "cNext": [
-                769
-            ]
+            "cNext": [769]
         },
         "x769": {
             "name_en": "An Eye for Detail: Alchemist II",
@@ -213,12 +173,8 @@
             "description_fr": "Fabriquer un total de 500 objets de haute qualité en tant qu'alchimiste.",
             "patch": "2.1",
             "points": 5,
-            "cPrev": [
-                768
-            ],
-            "cNext": [
-                770
-            ]
+            "cPrev": [768],
+            "cNext": [770]
         },
         "x770": {
             "name_en": "An Eye for Detail: Alchemist III",
@@ -227,12 +183,8 @@
             "description_fr": "Fabriquer un total de 3 000 objets de haute qualité en tant qu'alchimiste.",
             "patch": "2.1",
             "points": 10,
-            "cPrev": [
-                769
-            ],
-            "cNext": [
-                1319
-            ]
+            "cPrev": [769],
+            "cNext": [1319]
         },
         "x1319": {
             "name_en": "An Eye for Detail: Alchemist IV",
@@ -241,12 +193,8 @@
             "description_fr": "Fabriquer un total de 5 000 objets de haute qualité en tant qu'alchimiste.",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                770
-            ],
-            "cNext": [
-                1327
-            ]
+            "cPrev": [770],
+            "cNext": [1327]
         },
         "x1327": {
             "name_en": "An Eye for Detail: Alchemist V",
@@ -256,12 +204,8 @@
             "reward": "character.character.title.259",
             "patch": "3.0",
             "points": 10,
-            "cPrev": [
-                1319
-            ],
-            "cSiblings": [
-                "character.character.title.259"
-            ]
+            "cPrev": [1319],
+            "cSiblings": ["character.character.title.259"]
         },
         "x2507": {
             "name_en": "Skyward Science I",
@@ -270,12 +214,8 @@
             "description_fr": "Gagner un total de 50 000 points d'azur en tant qu'alchimiste.",
             "patch": "5.21",
             "points": 5,
-            "cNext": [
-                2508
-            ],
-            "cCombo": [
-                "character.achievement.crafting--gathering.all-disciplines.2522"
-            ]
+            "cNext": [2508],
+            "cCombo": ["character.achievement.crafting--gathering.all-disciplines.2522"]
         },
         "x2508": {
             "name_en": "Skyward Science II",
@@ -284,12 +224,8 @@
             "description_fr": "Gagner un total de 150 000 points d'azur en tant qu'alchimiste.",
             "patch": "5.21",
             "points": 5,
-            "cPrev": [
-                2507
-            ],
-            "cNext": [
-                2509
-            ]
+            "cPrev": [2507],
+            "cNext": [2509]
         },
         "x2509": {
             "name_en": "Skyward Science III",
@@ -299,15 +235,9 @@
             "reward": "character.character.title.496",
             "patch": "5.21",
             "points": 10,
-            "cPrev": [
-                2508
-            ],
-            "cSiblings": [
-                "character.character.title.496"
-            ],
-            "cCombo": [
-                "character.achievement.crafting--gathering.all-disciplines.2524"
-            ]
+            "cPrev": [2508],
+            "cSiblings": ["character.character.title.496"],
+            "cCombo": ["character.achievement.crafting--gathering.all-disciplines.2524"]
         },
         "x2533": {
             "name_en": "The Height of Alchemy",
@@ -317,9 +247,7 @@
             "reward": "character.character.title.509",
             "patch": "5.21",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.509"
-            ]
+            "cSiblings": ["character.character.title.509"]
         },
         "x2654": {
             "name_en": "Alchemists of a Feather",
@@ -329,9 +257,7 @@
             "reward": "character.character.title.534",
             "patch": "5.31",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.534"
-            ]
+            "cSiblings": ["character.character.title.534"]
         },
         "x2813": {
             "name_en": "An Ode to Alchemy",
@@ -341,9 +267,7 @@
             "reward": "character.character.title.571",
             "patch": "5.41",
             "points": 10,
-            "cSiblings": [
-                "character.character.title.571"
-            ]
+            "cSiblings": ["character.character.title.571"]
         },
         "x2827": {
             "name_en": "Retooled: Resplendent Cauldronfiend's Alembic",
@@ -352,9 +276,7 @@
             "description_fr": "Obtenir un alambic du fiélon de l'apothicairerie resplendissant.",
             "patch": "5.5",
             "points": 10,
-            "cCombo": [
-                "character.achievement.crafting--gathering.all-disciplines.2829"
-            ]
+            "cCombo": ["character.achievement.crafting--gathering.all-disciplines.2829"]
         }
     }
 }

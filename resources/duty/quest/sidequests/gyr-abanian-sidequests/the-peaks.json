@@ -9,9 +9,7 @@
             "name_fr": "Poussière de taille",
             "npc_en": "Ansger",
             "npc_fr": "Ansger",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.67995"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.67995"],
             "patch": "4.31"
         },
         "x68183": {
@@ -20,9 +18,7 @@
             "name_fr": "Une lézarde au salon",
             "npc_en": "Gelen",
             "npc_fr": "Gelen",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.67995"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.67995"],
             "patch": "4.31"
         },
         "x68182": {
@@ -31,13 +27,8 @@
             "name_fr": "Coup de chaux",
             "npc_en": "Hidden Hearth",
             "npc_fr": "Hidden Hearth",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.67995"
-            ],
-            "cNext": [
-                68184,
-                68185
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.67995"],
+            "cNext": [68184, 68185],
             "patch": "4.31"
         },
         "x68184": {
@@ -46,13 +37,8 @@
             "name_fr": "La gueule du mauvais ours",
             "npc_en": "Panicked Man",
             "npc_fr": "Botaniste En Panique",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.67995",
-                68182
-            ],
-            "cNext": [
-                68186
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.67995", 68182],
+            "cNext": [68186],
             "patch": "4.31"
         },
         "x68185": {
@@ -61,13 +47,8 @@
             "name_fr": "La cuistance des viandards",
             "npc_en": "Leaning Ent",
             "npc_fr": "Leaning Ent",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.67995",
-                68182
-            ],
-            "cNext": [
-                68186
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.67995", 68182],
+            "cNext": [68186],
             "patch": "4.31"
         },
         "x68186": {
@@ -76,14 +57,8 @@
             "name_fr": "Un coup fumant",
             "npc_en": "Hungry Hyur",
             "npc_fr": "Gannhais Barbu",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.67995",
-                68184,
-                68185
-            ],
-            "cNext": [
-                68412
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.67995", 68184, 68185],
+            "cNext": [68412],
             "patch": "4.31"
         },
         "x68189": {
@@ -96,10 +71,7 @@
                 "duty.quests.main-scenario.stormblood.68000",
                 "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68188"
             ],
-            "cNext": [
-                68190,
-                68410
-            ],
+            "cNext": [68190, 68410],
             "patch": "4.31"
         },
         "x68191": {
@@ -109,15 +81,9 @@
             "unlock": "travel.aether-currents.sb.the-peaks.13",
             "npc_en": "Raganfrid",
             "npc_fr": "Raganfrid",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68000"
-            ],
-            "cNext": [
-                68192
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-peaks.13"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68000"],
+            "cNext": [68192],
+            "cSiblings": ["travel.aether-currents.sb.the-peaks.13"],
             "patch": "4.31"
         },
         "x68192": {
@@ -126,13 +92,8 @@
             "name_fr": "On connaît la chanson",
             "npc_en": "Sayer",
             "npc_fr": "Sayer",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68000",
-                68191
-            ],
-            "cNext": [
-                68193
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68000", 68191],
+            "cNext": [68193],
             "patch": "4.31"
         },
         "x68193": {
@@ -141,13 +102,8 @@
             "name_fr": "Un caillou pour sa dulcinée",
             "npc_en": "Sayer",
             "npc_fr": "Sayer",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68000",
-                68192
-            ],
-            "cNext": [
-                68194
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68000", 68192],
+            "cNext": [68194],
             "patch": "4.31"
         },
         "x68194": {
@@ -156,13 +112,8 @@
             "name_fr": "Les rocs oubliés",
             "npc_en": "Swetelove",
             "npc_fr": "Swetelove",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68000",
-                68193
-            ],
-            "cNext": [
-                68190
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68000", 68193],
+            "cNext": [68190],
             "patch": "4.31"
         },
         "x68190": {
@@ -171,11 +122,7 @@
             "name_fr": "Qiqirns enquiquineurs",
             "npc_en": "Luckless Merchant",
             "npc_fr": "Marchand Malchanceux",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68000",
-                68189,
-                68194
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68000", 68189, 68194],
             "patch": "4.31"
         },
         "x68365": {
@@ -184,9 +131,7 @@
             "name_fr": "Vers un retour à la vie d'avant",
             "npc_en": "Gerbod",
             "npc_fr": "Gerbod",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68071"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68071"],
             "patch": "4.31"
         },
         "x68367": {
@@ -195,9 +140,7 @@
             "name_fr": "À la recherche d'un héros",
             "npc_en": "Odo",
             "npc_fr": "Odo",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68071"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68071"],
             "patch": "4.31"
         },
         "x68368": {
@@ -206,9 +149,7 @@
             "name_fr": "Avant de faire ses adieux",
             "npc_en": "Lonesome Lass",
             "npc_fr": "Jeune Femme Triste",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68071"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68071"],
             "patch": "4.31"
         },
         "x68369": {
@@ -217,12 +158,8 @@
             "name_fr": "Ceux qui quittent le nid",
             "npc_en": "J'nairoh",
             "npc_fr": "J'nairoh",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68071"
-            ],
-            "cNext": [
-                68376
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68071"],
+            "cNext": [68376],
             "patch": "4.31"
         },
         "x68366": {
@@ -231,12 +168,8 @@
             "name_fr": "Le goût de la victoire",
             "npc_en": "Weidheri",
             "npc_fr": "Weidheri",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68071"
-            ],
-            "cNext": [
-                68374
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68071"],
+            "cNext": [68374],
             "patch": "4.31"
         },
         "x68374": {
@@ -245,10 +178,7 @@
             "name_fr": "Chapulis bannis",
             "npc_en": "Weidheri",
             "npc_fr": "Weidheri",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68075",
-                68366
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68075", 68366],
             "patch": "4.31"
         },
         "x68370": {
@@ -257,13 +187,8 @@
             "name_fr": "Du baume au cœur et au corps",
             "npc_en": "Resistance Fighter",
             "npc_fr": "Résistante Mhigoise",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68075"
-            ],
-            "cNext": [
-                68383,
-                68382
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68075"],
+            "cNext": [68383, 68382],
             "patch": "4.31"
         },
         "x68382": {
@@ -272,13 +197,8 @@
             "name_fr": "Le nez au vent",
             "npc_en": "Rahu",
             "npc_fr": "Rahu",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68075",
-                68370
-            ],
-            "cNext": [
-                68384
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68075", 68370],
+            "cNext": [68384],
             "patch": "4.31"
         },
         "x68383": {
@@ -287,13 +207,8 @@
             "name_fr": "Énergie monstre",
             "npc_en": "Guntmar",
             "npc_fr": "Guntmar",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68075",
-                68370
-            ],
-            "cNext": [
-                68384
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68075", 68370],
+            "cNext": [68384],
             "patch": "4.31"
         },
         "x68384": {
@@ -302,11 +217,7 @@
             "name_fr": "La rechute",
             "npc_en": "Guntmar",
             "npc_fr": "Guntmar",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68075",
-                68382,
-                68383
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68075", 68382, 68383],
             "patch": "4.31"
         },
         "x68371": {
@@ -315,9 +226,7 @@
             "name_fr": "Un cas loin d'être rare",
             "npc_en": "Hele",
             "npc_fr": "Hele",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68075"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68075"],
             "patch": "4.31"
         },
         "x68372": {
@@ -326,9 +235,7 @@
             "name_fr": "Les résistants font le bilan",
             "npc_en": "Resistance Fighter",
             "npc_fr": "Résistant Mhigois",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68075"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68075"],
             "patch": "4.31"
         },
         "x68373": {
@@ -337,9 +244,7 @@
             "name_fr": "Lâchez ces caisses!",
             "npc_en": "Zuzudesu",
             "npc_fr": "Zuzudesu",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68075"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68075"],
             "patch": "4.31"
         },
         "x68375": {
@@ -348,9 +253,7 @@
             "name_fr": "Friche et frichti",
             "npc_en": "Emory",
             "npc_fr": "Emory",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68077"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68077"],
             "patch": "4.31"
         },
         "x68376": {
@@ -359,10 +262,7 @@
             "name_fr": "Le sang du rapace infernal",
             "npc_en": "J'nairoh",
             "npc_fr": "J'nairoh",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68077",
-                68369
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68077", 68369],
             "patch": "4.31"
         },
         "x68377": {
@@ -371,9 +271,7 @@
             "name_fr": "La cité aux enfants perdus",
             "npc_en": "Well-meaning Mother",
             "npc_fr": "Femme Inquiète",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68077"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68077"],
             "patch": "4.31"
         },
         "x68378": {
@@ -383,15 +281,9 @@
             "unlock": "travel.aether-currents.sb.the-peaks.12",
             "npc_en": "Brazen Brook",
             "npc_fr": "Brazen Brook",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68077"
-            ],
-            "cNext": [
-                68379
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-peaks.12"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68077"],
+            "cNext": [68379],
+            "cSiblings": ["travel.aether-currents.sb.the-peaks.12"],
             "patch": "4.31"
         },
         "x68379": {
@@ -400,13 +292,8 @@
             "name_fr": "Une admiration sans bornes",
             "npc_en": "Baut",
             "npc_fr": "Baut",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68077",
-                68378
-            ],
-            "cNext": [
-                68380
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68077", 68378],
+            "cNext": [68380],
             "patch": "4.31"
         },
         "x68380": {
@@ -415,13 +302,8 @@
             "name_fr": "Quand on n'a plus rien à perdre...",
             "npc_en": "Baut",
             "npc_fr": "Baut",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68077",
-                68379
-            ],
-            "cNext": [
-                68381
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68077", 68379],
+            "cNext": [68381],
             "patch": "4.31"
         },
         "x68381": {
@@ -430,13 +312,8 @@
             "name_fr": "Une nouvelle raison de vivre",
             "npc_en": "J'dyalani",
             "npc_fr": "J'dyalani",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68077",
-                68380
-            ],
-            "cNext": [
-                68401
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68077", 68380],
+            "cNext": [68401],
             "patch": "4.31"
         },
         "x68385": {
@@ -445,9 +322,7 @@
             "name_fr": "Papillon de lumière",
             "npc_en": "Garrulous Gall",
             "npc_fr": "Garrulous Gall",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68079"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68079"],
             "patch": "4.31"
         },
         "x68386": {
@@ -456,12 +331,8 @@
             "name_fr": "La spécialité de Radiata",
             "npc_en": "Godafre",
             "npc_fr": "Godafre",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68079"
-            ],
-            "cNext": [
-                68390
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68079"],
+            "cNext": [68390],
             "patch": "4.31"
         },
         "x68390": {
@@ -470,10 +341,7 @@
             "name_fr": "D'un râtelier à l'autre",
             "npc_en": "Godafre",
             "npc_fr": "Godafre",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68079",
-                68386
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68079", 68386],
             "patch": "4.31"
         },
         "x68387": {
@@ -483,12 +351,8 @@
             "unlock": "travel.aether-currents.sb.the-peaks.11",
             "npc_en": "Ponderous Porter",
             "npc_fr": "Grand Livreur",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68079"
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-peaks.11"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68079"],
+            "cSiblings": ["travel.aether-currents.sb.the-peaks.11"],
             "patch": "4.31"
         },
         "x68388": {
@@ -497,9 +361,7 @@
             "name_fr": "Plus douce que le miel",
             "npc_en": "Mawt",
             "npc_fr": "Mawt",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68079"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68079"],
             "patch": "4.31"
         },
         "x68389": {
@@ -508,9 +370,7 @@
             "name_fr": "Renouer avec la vie et les profits",
             "npc_en": "Dob",
             "npc_fr": "Dob",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68079"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68079"],
             "patch": "4.31"
         },
         "x68391": {
@@ -519,9 +379,7 @@
             "name_fr": "Moussemousse moussue à la rescousse",
             "npc_en": "Oggery",
             "npc_fr": "Oggery",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68079"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68079"],
             "patch": "4.31"
         },
         "x68392": {
@@ -530,9 +388,7 @@
             "name_fr": "Argent presque facile",
             "npc_en": "Hruodiger",
             "npc_fr": "Hruodiger",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68079"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68079"],
             "patch": "4.31"
         },
         "x68393": {
@@ -541,9 +397,7 @@
             "name_fr": "Un hameau vieillissant",
             "npc_en": "Raganher",
             "npc_fr": "Raganher",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68081"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68081"],
             "patch": "4.31"
         },
         "x68394": {
@@ -552,9 +406,7 @@
             "name_fr": "Des protéines pour bien grandir",
             "npc_en": "Papin",
             "npc_fr": "Papin",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68081"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68081"],
             "patch": "4.31"
         },
         "x68395": {
@@ -563,9 +415,7 @@
             "name_fr": "Le raccourci des vaillants",
             "npc_en": "Rawkin",
             "npc_fr": "Rawkin",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68081"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68081"],
             "patch": "4.31"
         },
         "x68396": {
@@ -575,15 +425,9 @@
             "unlock": "travel.aether-currents.sb.the-peaks.10",
             "npc_en": "Sagar",
             "npc_fr": "Sagar",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68081"
-            ],
-            "cNext": [
-                68397
-            ],
-            "cSiblings": [
-                "travel.aether-currents.sb.the-peaks.10"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68081"],
+            "cNext": [68397],
+            "cSiblings": ["travel.aether-currents.sb.the-peaks.10"],
             "patch": "4.31"
         },
         "x68397": {
@@ -592,13 +436,8 @@
             "name_fr": "Le fils perdu",
             "npc_en": "Sagar",
             "npc_fr": "Sagar",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68081",
-                68396
-            ],
-            "cNext": [
-                68398
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68081", 68396],
+            "cNext": [68398],
             "patch": "4.31"
         },
         "x68398": {
@@ -607,13 +446,8 @@
             "name_fr": "L'homme d'Âtrefroid",
             "npc_en": "Berehta",
             "npc_fr": "Berehta",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68081",
-                68397
-            ],
-            "cNext": [
-                68399
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68081", 68397],
+            "cNext": [68399],
             "patch": "4.31"
         },
         "x68399": {
@@ -622,13 +456,8 @@
             "name_fr": "L'armée de libération: la destination finale",
             "npc_en": "Golden-locked Lieutenant",
             "npc_fr": "Sous-lieutenant Aux Cheveux Blonds",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68081",
-                68398
-            ],
-            "cNext": [
-                68400
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68081", 68398],
+            "cNext": [68400],
             "patch": "4.31"
         },
         "x68400": {
@@ -637,13 +466,8 @@
             "name_fr": "Le dernier cadeau",
             "npc_en": "Berehta",
             "npc_fr": "Berehta",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68081",
-                68399
-            ],
-            "cNext": [
-                68401
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68081", 68399],
+            "cNext": [68401],
             "patch": "4.31"
         },
         "x68401": {
@@ -652,11 +476,7 @@
             "name_fr": "Planter les graines de l'espoir",
             "npc_en": "Sagar",
             "npc_fr": "Sagar",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68081",
-                68381,
-                68400
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68081", 68381, 68400],
             "patch": "4.31"
         },
         "x68402": {
@@ -665,9 +485,7 @@
             "name_fr": "Les fleurs du souvenir",
             "npc_en": "Dainty Damsel",
             "npc_fr": "Demoiselle Délicate",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68082"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68082"],
             "patch": "4.31"
         },
         "x68403": {
@@ -676,9 +494,7 @@
             "name_fr": "Expiation",
             "npc_en": "Able Ant",
             "npc_fr": "Able Ant",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68082"
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68082"],
             "patch": "4.31"
         },
         "x68410": {
@@ -704,9 +520,7 @@
                 "duty.quests.main-scenario.stormblood.68083",
                 "duty.quests.sidequests.gyr-abanian.rhalgrs-reach.68406"
             ],
-            "cNext": [
-                68412
-            ],
+            "cNext": [68412],
             "patch": "4.31"
         },
         "x68412": {
@@ -715,11 +529,7 @@
             "name_fr": "Réconciliation fumante",
             "npc_en": "Hungry Hyur",
             "npc_fr": "Gannhais Barbu",
-            "cPrev": [
-                "duty.quests.main-scenario.stormblood.68083",
-                68411,
-                68186
-            ],
+            "cPrev": ["duty.quests.main-scenario.stormblood.68083", 68411, 68186],
             "patch": "4.31"
         },
         "x68424": {
@@ -732,9 +542,7 @@
                 "duty.quests.main-scenario.stormblood.68089",
                 "duty.quests.sidequests.uldahn.southern-thanalan.68423"
             ],
-            "cNext": [
-                "duty.quests.sidequests.gyr-abanian.the-lochs.68425"
-            ],
+            "cNext": ["duty.quests.sidequests.gyr-abanian.the-lochs.68425"],
             "patch": "4.31"
         }
     }

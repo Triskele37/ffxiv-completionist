@@ -13,12 +13,8 @@
                 "duty.quests.class--job.disciple-of-war.pugilist.66103",
                 "duty.quests.main-scenario.seventh-umbral-era.66049"
             ],
-            "cNext": [
-                66598
-            ],
-            "cSiblings": [
-                "character.adventure-plate.30"
-            ],
+            "cNext": [66598],
+            "cSiblings": ["character.adventure-plate.30"],
             "patch": "4.31"
         },
         "x66598": {
@@ -27,12 +23,8 @@
             "name_fr": "Les contes des combats passés",
             "npc_en": "Erik",
             "npc_fr": "Erik",
-            "cPrev": [
-                66597
-            ],
-            "cNext": [
-                66599
-            ],
+            "cPrev": [66597],
+            "cNext": [66599],
             "patch": "4.31"
         },
         "x66599": {
@@ -41,12 +33,8 @@
             "name_fr": "La quête de pouvoir",
             "npc_en": "Erik",
             "npc_fr": "Erik",
-            "cPrev": [
-                66598
-            ],
-            "cNext": [
-                66600
-            ],
+            "cPrev": [66598],
+            "cNext": [66600],
             "patch": "4.31"
         },
         "x66600": {
@@ -55,12 +43,8 @@
             "name_fr": "Le septième chakra",
             "npc_en": "Erik",
             "npc_fr": "Erik",
-            "cPrev": [
-                66599
-            ],
-            "cNext": [
-                66601
-            ],
+            "cPrev": [66599],
+            "cNext": [66601],
             "patch": "4.31"
         },
         "x66601": {
@@ -69,12 +53,8 @@
             "name_fr": "Prendre l'habit",
             "npc_en": "Erik",
             "npc_fr": "Erik",
-            "cPrev": [
-                66600
-            ],
-            "cNext": [
-                66602
-            ],
+            "cPrev": [66600],
+            "cNext": [66602],
             "patch": "4.31"
         },
         "x66602": {
@@ -83,16 +63,9 @@
             "name_fr": "Le véritable courage",
             "npc_en": "Erik",
             "npc_fr": "Erik",
-            "cPrev": [
-                66601
-            ],
-            "cNext": [
-                66657,
-                67562
-            ],
-            "cSiblings": [
-                "character.achievement.quests.job-role-quests.408"
-            ],
+            "cPrev": [66601],
+            "cNext": [66657, 67562],
+            "cSiblings": ["character.achievement.quests.job-role-quests.408"],
             "patch": "4.31"
         },
         "x66657": {
@@ -101,10 +74,7 @@
             "name_fr": "Restauration des Sphairai",
             "npc_en": "Gerolt",
             "npc_fr": "Gerolt",
-            "cPrev": [
-                66602,
-                "duty.quests.sidequests.uldahn.western-thanalan.66241"
-            ],
+            "cPrev": [66602, "duty.quests.sidequests.uldahn.western-thanalan.66241"],
             "patch": "4.31"
         },
         "x67562": {
@@ -113,13 +83,8 @@
             "name_fr": "Tout recommencer",
             "npc_en": "Erik",
             "npc_fr": "Erik",
-            "cPrev": [
-                66602,
-                "duty.quests.main-scenario.seventh-astral-era.65964"
-            ],
-            "cNext": [
-                67563
-            ],
+            "cPrev": [66602, "duty.quests.main-scenario.seventh-astral-era.65964"],
+            "cNext": [67563],
             "patch": "4.31"
         },
         "x67563": {
@@ -128,12 +93,8 @@
             "name_fr": "Les moines ennemis",
             "npc_en": "Widargelt",
             "npc_fr": "Widargelt",
-            "cPrev": [
-                67562
-            ],
-            "cNext": [
-                67564
-            ],
+            "cPrev": [67562],
+            "cNext": [67564],
             "patch": "4.31"
         },
         "x67564": {
@@ -142,12 +103,8 @@
             "name_fr": "Splendeur et obscurité",
             "npc_en": "Widargelt",
             "npc_fr": "Widargelt",
-            "cPrev": [
-                67563
-            ],
-            "cNext": [
-                67565
-            ],
+            "cPrev": [67563],
+            "cNext": [67565],
             "patch": "4.31"
         },
         "x67565": {
@@ -156,12 +113,8 @@
             "name_fr": "Une nouvelle alliée",
             "npc_en": "Widargelt",
             "npc_fr": "Widargelt",
-            "cPrev": [
-                67564
-            ],
-            "cNext": [
-                67566
-            ],
+            "cPrev": [67564],
+            "cNext": [67566],
             "patch": "4.31"
         },
         "x67566": {
@@ -170,12 +123,8 @@
             "name_fr": "Progresser sans s'entre-tuer",
             "npc_en": "Widargelt",
             "npc_fr": "Widargelt",
-            "cPrev": [
-                67565
-            ],
-            "cNext": [
-                67567
-            ],
+            "cPrev": [67565],
+            "cNext": [67567],
             "patch": "4.31"
         },
         "x67567": {
@@ -184,15 +133,9 @@
             "name_fr": "Plus rien ne sera comme avant",
             "npc_en": "Widargelt",
             "npc_fr": "Widargelt",
-            "cPrev": [
-                67566
-            ],
-            "cNext": [
-                67962
-            ],
-            "cSiblings": [
-                "character.achievement.quests.job-role-quests.1142"
-            ],
+            "cPrev": [67566],
+            "cNext": [67962],
+            "cSiblings": ["character.achievement.quests.job-role-quests.1142"],
             "patch": "4.31"
         },
         "x67962": {
@@ -201,13 +144,8 @@
             "name_fr": "L'embarras du choix",
             "npc_en": "Erik",
             "npc_fr": "Erik",
-            "cPrev": [
-                67567,
-                "duty.quests.main-scenario.post-dragonsong.67895"
-            ],
-            "cNext": [
-                67963
-            ],
+            "cPrev": [67567, "duty.quests.main-scenario.post-dragonsong.67895"],
+            "cNext": [67963],
             "patch": "4.31"
         },
         "x67963": {
@@ -216,12 +154,8 @@
             "name_fr": "Coup sur coup",
             "npc_en": "Widargelt",
             "npc_fr": "Widargelt",
-            "cPrev": [
-                67962
-            ],
-            "cNext": [
-                67964
-            ],
+            "cPrev": [67962],
+            "cNext": [67964],
             "patch": "4.31"
         },
         "x67964": {
@@ -230,12 +164,8 @@
             "name_fr": "Rencontre inamicale",
             "npc_en": "Widargelt",
             "npc_fr": "Widargelt",
-            "cPrev": [
-                67963
-            ],
-            "cNext": [
-                67965
-            ],
+            "cPrev": [67963],
+            "cNext": [67965],
             "patch": "4.31"
         },
         "x67965": {
@@ -244,12 +174,8 @@
             "name_fr": "Se sublimer pour triompher",
             "npc_en": "Widargelt",
             "npc_fr": "Widargelt",
-            "cPrev": [
-                67964
-            ],
-            "cNext": [
-                67966
-            ],
+            "cPrev": [67964],
+            "cNext": [67966],
             "patch": "4.31"
         },
         "x67966": {
@@ -258,15 +184,9 @@
             "name_fr": "Une nouvelle force protectrice",
             "npc_en": "Widargelt",
             "npc_fr": "Widargelt",
-            "cPrev": [
-                67965
-            ],
-            "cNext": [
-                68747
-            ],
-            "cSiblings": [
-                "character.achievement.quests.job-role-quests.1798"
-            ],
+            "cPrev": [67965],
+            "cNext": [68747],
+            "cSiblings": ["character.achievement.quests.job-role-quests.1798"],
             "patch": "4.31"
         },
         "x68747": {
@@ -275,15 +195,8 @@
             "name_fr": "Le dernier disciple du Poing de Rhalgr",
             "npc_en": "Erik",
             "npc_fr": "Erik",
-            "cPrev": [
-                67966,
-                "duty.quests.class--job.role.shb.68814",
-                "duty.quests.main-scenario.shadowbringers.69190"
-            ],
-            "cSiblings": [
-                "character.adventure-plate.29",
-                "character.achievement.quests.job-role-quests.2307"
-            ],
+            "cPrev": [67966, "duty.quests.class--job.role.shb.68814", "duty.quests.main-scenario.shadowbringers.69190"],
+            "cSiblings": ["character.adventure-plate.29", "character.achievement.quests.job-role-quests.2307"],
             "patch": "5.0"
         }
     }

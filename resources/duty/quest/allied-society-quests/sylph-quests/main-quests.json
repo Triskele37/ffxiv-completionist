@@ -3,18 +3,14 @@
     "groupName_en": "Main Quests",
     "groupName_fr": "Histoire principale",
     "tasks": {
-		"x66788": {
+        "x66788": {
             "level": 42,
             "name_en": "Seeking Solace",
             "name_fr": "Un tour au Refuge",
             "npc_en": "Vorsaile Heuloix",
             "npc_fr": "Vorsaile Heuloix",
-            "cPrev": [
-                "duty.quests.main-scenario.seventh-umbral-era.66488"
-            ],
-            "cNext": [
-                66789
-            ],
+            "cPrev": ["duty.quests.main-scenario.seventh-umbral-era.66488"],
+            "cNext": [66789],
             "patch": "4.31"
         },
         "x66789": {
@@ -23,15 +19,9 @@
             "name_fr": "La recherche du scientifique",
             "npc_en": "Olmxio",
             "npc_fr": "Olmxio",
-            "cPrev": [
-                66788
-            ],
-            "cNext": [
-                66790
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.5"
-            ],
+            "cPrev": [66788],
+            "cNext": [66790],
+            "cSiblings": ["character.character.tribal-relations.5"],
             "patch": "4.31"
         },
         "x66790": {
@@ -42,15 +32,9 @@
             "npc_fr": "Voyce",
             "reputation_en": "Neutral",
             "reputation_fr": "Neutre",
-            "cPrev": [
-                66789
-            ],
-            "cNext": [
-                66791
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.6"
-            ],
+            "cPrev": [66789],
+            "cNext": [66791],
+            "cSiblings": ["character.character.tribal-relations.6"],
             "patch": "4.31"
         },
         "x66791": {
@@ -61,15 +45,9 @@
             "npc_fr": "Olmxio",
             "reputation_en": "Recognized",
             "reputation_fr": "Reconnu",
-            "cPrev": [
-                66790
-            ],
-            "cNext": [
-                66792
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.7"
-            ],
+            "cPrev": [66790],
+            "cNext": [66792],
+            "cSiblings": ["character.character.tribal-relations.7"],
             "patch": "4.31"
         },
         "x66792": {
@@ -80,12 +58,8 @@
             "npc_fr": "Olmxio",
             "reputation_en": "Friendly",
             "reputation_fr": "Ami",
-            "cPrev": [
-                66791
-            ],
-            "cSiblings": [
-                "character.character.tribal-relations.8"
-            ],
+            "cPrev": [66791],
+            "cSiblings": ["character.character.tribal-relations.8"],
             "patch": "4.31"
         }
     }
