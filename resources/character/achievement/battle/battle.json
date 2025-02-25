@@ -57,12 +57,12 @@
             "name_fr": "C'est une véritable boucherie",
             "description_en": "Defeat 50,000 enemies.",
             "description_fr": "Vaincre 50 000 ennemis.",
-            "reward": "character.character.title.9",
+            "reward": "t.9",
             "patch": "2.0",
             "points": 10,
             "cPrev": ["a.5"],
             "cNext": ["a.7"],
-            "cSiblings": ["character.character.title.9"]
+            "cSiblings": ["t.9"]
         },
         "x7": {
             "name_en": "Let the Bodies Hit the Floor",
@@ -562,11 +562,11 @@
             "name_fr": "Héros de grand chemin : Norvrandt",
             "description_en": "Obtain “Free Market Friend” achievements for all six regions in Norvrandt.",
             "description_fr": "Accomplir les hauts faits “Héros de grand chemin” pour les régions de Grand-Lac, Kholusia, Amh Araeng, Il Mheg, Rak'tika et La Tempête.",
-            "reward": "character.character.title.459",
+            "reward": "t.459",
             "patch": "5.0",
             "points": 20,
             "cPrev": ["a.2343", "a.2344", "a.2345", "a.2346", "a.2347", "a.2348"],
-            "cSiblings": ["character.character.title.459"]
+            "cSiblings": ["t.459"]
         },
         "x3022": {
             "name_en": "Free Market Friend: Labyrinthos",
@@ -633,11 +633,11 @@
             "name_fr": "La fin d'un chemin",
             "description_en": "Obtain “Free Market Friend” achievements for Labyrinthos, Thavnair, Garlemald, Mare Lamentorum, Elpis, and Ultima Thule.",
             "description_fr": "Accomplir les hauts faits “Héros de grand chemin” pour les régions du Labyrinthos, de Thavnair, de Garlemald, de Mare Lamentorum, d'Elpis et d'Ultima Thulé.",
-            "reward": "character.character.title.622",
+            "reward": "t.622",
             "patch": "6.0",
             "points": 20,
             "cPrev": ["a.3022", "a.3023", "a.3024", "a.3025", "a.3026", "a.3027"],
-            "cSiblings": ["character.character.title.622"]
+            "cSiblings": ["t.622"]
         },
         "x803": {
             "name_en": "Date with Destiny I",
@@ -673,12 +673,12 @@
             "name_fr": "Faire face aux imprévus IV",
             "description_en": "Successfully complete 1,000 FATEs.",
             "description_fr": "Accomplir un total de 1 000 ALÉA.",
-            "reward": "character.character.title.110",
+            "reward": "t.110",
             "patch": "2.1",
             "points": 10,
             "cPrev": ["a.805"],
             "cNext": ["a.807"],
-            "cSiblings": ["character.character.title.110"]
+            "cSiblings": ["t.110"]
         },
         "x807": {
             "name_en": "Destiny's Child",
@@ -707,11 +707,11 @@
             "name_fr": "Faire face aux imprévus VI",
             "description_en": "Successfully complete 10,000 FATEs.",
             "description_fr": "Accomplir un total de 10 000 ALÉA.",
-            "reward": "character.character.title.264",
+            "reward": "t.264",
             "patch": "3.0",
             "points": 20,
             "cPrev": ["a.1353"],
-            "cSiblings": ["character.character.title.264"]
+            "cSiblings": ["t.264"]
         },
         "x808": {
             "name_en": "Bosom Buddies I",
@@ -790,34 +790,34 @@
             "name_fr": "Bon Samaritain V",
             "description_en": "Resurrect a player who is not in your party or alliance 200 times.",
             "description_fr": "Ressusciter un joueur qui n'est pas dans l'équipe 200 fois.",
-            "reward": "character.character.title.265",
+            "reward": "t.265",
             "patch": "3.0",
             "points": 10,
             "cPrev": ["a.1356"],
-            "cSiblings": ["character.character.title.265"]
+            "cSiblings": ["t.265"]
         },
         "x919": {
             "name_en": "A Tankless Job I (Paladin)",
             "name_fr": "On demande un paladin I",
             "description_en": "Complete 50 high-level duties as a paladin.",
             "description_fr": "Effectuer 50 missions de haut niveau en tant que paladin.",
-            "reward": "character.character.title.151",
+            "reward": "t.151",
             "patch": "2.2",
             "points": 5,
             "cNext": ["a.920"],
-            "cSiblings": ["character.character.title.151"]
+            "cSiblings": ["t.151"]
         },
         "x920": {
             "name_en": "A Tankless Job II (Paladin)",
             "name_fr": "On demande un paladin II",
             "description_en": "Complete 100 high-level duties as a paladin.",
             "description_fr": "Effectuer 100 missions de haut niveau en tant que paladin.",
-            "reward": "character.character.title.153",
+            "reward": "t.153",
             "patch": "2.2",
             "points": 10,
             "cPrev": ["a.919"],
             "cNext": ["a.921"],
-            "cSiblings": ["character.character.title.153"]
+            "cSiblings": ["t.153"]
         },
         "x921": {
             "name_en": "But Somebody's Gotta Do It (Paladin)",
@@ -834,23 +834,23 @@
             "name_fr": "On demande un guerrier I",
             "description_en": "Complete 50 high-level duties as a warrior.",
             "description_fr": "Effectuer 50 missions de haut niveau en tant que guerrier.",
-            "reward": "character.character.title.152",
+            "reward": "t.152",
             "patch": "2.2",
             "points": 5,
             "cNext": ["a.923"],
-            "cSiblings": ["character.character.title.152"]
+            "cSiblings": ["t.152"]
         },
         "x923": {
             "name_en": "A Tankless Job II (Warrior)",
             "name_fr": "On demande un guerrier II",
             "description_en": "Complete 100 high-level duties as a warrior.",
             "description_fr": "Effectuer 100 missions de haut niveau en tant que guerrier.",
-            "reward": "character.character.title.154",
+            "reward": "t.154",
             "patch": "2.2",
             "points": 10,
             "cPrev": ["a.922"],
             "cNext": ["a.924"],
-            "cSiblings": ["character.character.title.154"]
+            "cSiblings": ["t.154"]
         },
         "x924": {
             "name_en": "But Somebody's Gotta Do It (Warrior)",
@@ -867,23 +867,23 @@
             "name_fr": "On demande un chevalier noir I",
             "description_en": "Complete 50 high-level duties as a dark knight.",
             "description_fr": "Effectuer 50 missions de haut niveau en tant que chevalier noir.",
-            "reward": "character.character.title.241",
+            "reward": "t.241",
             "patch": "3.0",
             "points": 5,
             "cNext": ["a.1194"],
-            "cSiblings": ["character.character.title.241"]
+            "cSiblings": ["t.241"]
         },
         "x1194": {
             "name_en": "A Tankless Job II (Dark Knight)",
             "name_fr": "On demande un chevalier noir II",
             "description_en": "Complete 100 high-level duties as a dark knight.",
             "description_fr": "Effectuer 100 missions de haut niveau en tant que chevalier noir.",
-            "reward": "character.character.title.242",
+            "reward": "t.242",
             "patch": "3.0",
             "points": 10,
             "cPrev": ["a.1193"],
             "cNext": ["a.1195"],
-            "cSiblings": ["character.character.title.242"]
+            "cSiblings": ["t.242"]
         },
         "x1195": {
             "name_en": "But Somebody's Gotta Do It (Dark Knight)",
@@ -930,23 +930,23 @@
             "name_fr": "Paladin philanthrope IV",
             "description_en": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
-            "reward": "character.character.title.462",
+            "reward": "t.462",
             "patch": "5.0",
             "points": 20,
             "cPrev": ["a.1955"],
             "cNext": ["a.2990"],
-            "cSiblings": ["character.character.title.462"]
+            "cSiblings": ["t.462"]
         },
         "x2990": {
             "name_en": "Tank You, Paladin V",
             "name_fr": "Paladin philanthrope V",
             "description_en": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a paladin.\n\n※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 700 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que paladin.\n\n* Seule une mission aléatoire par jour est prise en compte.",
-            "reward": "character.character.title.613",
+            "reward": "t.613",
             "patch": "6.0",
             "points": 20,
             "cPrev": ["a.2387"],
-            "cSiblings": ["character.character.title.613"]
+            "cSiblings": ["t.613"]
         },
         "x1956": {
             "name_en": "Tank You, Warrior I",
@@ -983,23 +983,23 @@
             "name_fr": "Guerrier philanthrope IV",
             "description_en": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
-            "reward": "character.character.title.463",
+            "reward": "t.463",
             "patch": "5.0",
             "points": 20,
             "cPrev": ["a.1958"],
             "cNext": ["a.2991"],
-            "cSiblings": ["character.character.title.463"]
+            "cSiblings": ["t.463"]
         },
         "x2991": {
             "name_en": "Tank You, Warrior V",
             "name_fr": "Guerrier philanthrope V",
             "description_en": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a warrior.\n\n※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 700 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que guerrier.\n\n* Seule une mission aléatoire par jour est prise en compte.",
-            "reward": "character.character.title.614",
+            "reward": "t.614",
             "patch": "6.0",
             "points": 20,
             "cPrev": ["a.2388"],
-            "cSiblings": ["character.character.title.614"]
+            "cSiblings": ["t.614"]
         },
         "x1959": {
             "name_en": "Tank You, Dark Knight I",
@@ -1036,23 +1036,23 @@
             "name_fr": "Chevalier noir philanthrope IV",
             "description_en": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
-            "reward": "character.character.title.464",
+            "reward": "t.464",
             "patch": "5.0",
             "points": 20,
             "cPrev": ["a.1961"],
             "cNext": ["a.2992"],
-            "cSiblings": ["character.character.title.464"]
+            "cSiblings": ["t.464"]
         },
         "x2992": {
             "name_en": "Tank You, Dark Knight V",
             "name_fr": "Chevalier noir philanthrope V",
             "description_en": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a dark knight.\n\n※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 700 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que chevalier noir.\n\n* Seule une mission aléatoire par jour est prise en compte.",
-            "reward": "character.character.title.615",
+            "reward": "t.615",
             "patch": "6.0",
             "points": 20,
             "cPrev": ["a.2389"],
-            "cSiblings": ["character.character.title.615"]
+            "cSiblings": ["t.615"]
         },
         "x2390": {
             "name_en": "Tank You, Gunbreaker I",
@@ -1090,23 +1090,23 @@
             "name_fr": "Pistosabreur philanthrope IV",
             "description_en": "Complete 500 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 500 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
-            "reward": "character.character.title.465",
+            "reward": "t.465",
             "patch": "5.0",
             "points": 20,
             "cPrev": ["a.2392"],
             "cNext": ["a.2993"],
-            "cSiblings": ["character.character.title.465"]
+            "cSiblings": ["t.465"]
         },
         "x2993": {
             "name_en": "Tank You, Gunbreaker V",
             "name_fr": "Pistosabreur philanthrope V",
             "description_en": "Complete 700 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, level 50/60/70/80 duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.\n\n※Each roulette only counts with daily award bonus.",
             "description_fr": "Finir 700 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons nv 50/60/70/80” en tant que pistosabreur.\n\n* Seule une mission aléatoire par jour est prise en compte.",
-            "reward": "character.character.title.616",
+            "reward": "t.616",
             "patch": "6.0",
             "points": 20,
             "cPrev": ["a.2393"],
-            "cSiblings": ["character.character.title.616"]
+            "cSiblings": ["t.616"]
         },
         "x2451": {
             "name_en": "Jack of All Trades I",
@@ -1132,35 +1132,35 @@
             "name_fr": "Tout un palmarès III",
             "description_en": "Complete 50 types of routine mission in the Blue Mage Log.",
             "description_fr": "Accomplir 50 missions différentes dans le palmarès bleu.",
-            "reward": "character.character.title.482",
+            "reward": "t.482",
             "patch": "5.18",
             "points": 5,
             "cPrev": ["a.2452"],
             "cNext": ["a.2728"],
-            "cSiblings": ["character.character.title.482"]
+            "cSiblings": ["t.482"]
         },
         "x2728": {
             "name_en": "Jack of All Trades IV",
             "name_fr": "Tout un palmarès IV",
             "description_en": "Complete 90 types of routine mission in the Blue Mage Log.",
             "description_fr": "Accomplir 90 missions différentes dans le palmarès bleu.",
-            "reward": "character.character.title.551",
+            "reward": "t.551",
             "patch": "5.45",
             "points": 5,
             "cPrev": ["a.2453"],
             "cNext": ["a.3319"],
-            "cSiblings": ["character.character.title.551"]
+            "cSiblings": ["t.551"]
         },
         "x3319": {
             "name_en": "Jack of All Trades V",
             "name_fr": "Tout un palmarès V",
             "description_en": "Complete 110 types of routine mission in the Blue Mage Log.",
             "description_fr": "Accomplir 110 missions différentes dans le palmarès bleu.",
-            "reward": "character.character.title.693",
+            "reward": "t.693",
             "patch": "6.4",
             "points": 5,
             "cPrev": ["a.2728"],
-            "cSiblings": ["character.character.title.693"]
+            "cSiblings": ["t.693"]
         },
         "x2454": {
             "name_en": "Mightier than the Inferno",
@@ -1266,10 +1266,10 @@
             "name_fr": "Des bleus pour le Roi des rois",
             "description_en": "Complete the Minstrel's Ballad: Thordan's Reign with a party of only blue mages, Silence Echo turned on, and Unrestricted Party turned off.",
             "description_fr": "Vaincre le roi Thordan et les douze chevaliers de la Table ronde dans le défi “Le règne de Thordan” avec une équipe composée exclusivement de mages bleus, sans avoir activé l'option “Sans restriction” et en ayant désactivé le pouvoir de l'Écho.",
-            "reward": "character.character.title.483",
+            "reward": "t.483",
             "patch": "5.18",
             "points": 5,
-            "cSiblings": ["character.character.title.483"]
+            "cSiblings": ["t.483"]
         },
         "x2467": {
             "name_en": "Mightier than the Fiend",
@@ -1335,11 +1335,11 @@
             "name_fr": "Conte bleu de Bahamut",
             "description_en": "Obtain the achievements “Mightier than the Dragon,” “Mightier than the Raven,” and “Mightier than the Dreadwyrm.”",
             "description_fr": "Accomplir les trois hauts faits de la série “Des bleus pour Bahamut”.",
-            "reward": "character.character.title.484",
+            "reward": "t.484",
             "patch": "5.18",
             "points": 10,
             "cPrev": ["a.2461", "a.2462", "a.2463"],
-            "cSiblings": ["character.character.title.484"],
+            "cSiblings": ["t.484"],
             "cCombo": ["a.2476"]
         },
         "x2475": {
@@ -1347,11 +1347,11 @@
             "name_fr": "Conte bleu d'Alexander",
             "description_en": "Obtain the achievements “Mightier than the Manipulator,” “Mightier than Justice,” and “Mightier than the Prime.”",
             "description_fr": "Accomplir les trois hauts faits de la série “Des bleus pour Alexander”.",
-            "reward": "character.character.title.485",
+            "reward": "t.485",
             "patch": "5.18",
             "points": 10,
             "cPrev": ["a.2471", "a.2472", "a.2473"],
-            "cSiblings": ["character.character.title.485"],
+            "cSiblings": ["t.485"],
             "cCombo": ["a.2476"]
         },
         "x2476": {
@@ -1452,11 +1452,11 @@
             "name_fr": "Conte bleu d'Oméga",
             "description_en": "Obtain the achievements “Mightier than the Delta,” “Mightier than the Sigma,” and “Mightier than the Alpha.”",
             "description_fr": "Accomplir les trois hauts faits de la série “Des bleus pour Oméga”.",
-            "reward": "character.character.title.552",
+            "reward": "t.552",
             "patch": "5.45",
             "points": 10,
             "cPrev": ["a.2736", "a.2737", "a.2738"],
-            "cSiblings": ["character.character.title.552"]
+            "cSiblings": ["t.552"]
         },
         "x3320": {
             "name_en": "Mightier than the Monarch",
@@ -1541,7 +1541,7 @@
             "patch": "6.4",
             "points": 5,
             "cPrev": ["a.3327", "a.3328", "a.3329"],
-            "cSiblings": ["character.character.title.694"]
+            "cSiblings": ["t.694"]
         }
     }
 }

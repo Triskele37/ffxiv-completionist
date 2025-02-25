@@ -44,10 +44,10 @@
             "name_fr": "Alchimiste d'acier : Qualifié",
             "description_en": "Successfully synthesize 3,000 times for level 41-50 alchemy recipes.",
             "description_fr": "Réaliser 3 000 synthèses d'alchimie de niveau 41 à 50.",
-            "reward": "character.character.title.23",
+            "reward": "t.23",
             "patch": "2.0",
             "points": 10,
-            "cSiblings": ["character.character.title.23"],
+            "cSiblings": ["t.23"],
             "cCombo": ["a.178"]
         },
         "x178": {
@@ -201,11 +201,11 @@
             "name_fr": "De main de maître : alchimiste V",
             "description_en": "Craft 10,000 high-quality items as an alchemist.",
             "description_fr": "Fabriquer un total de 10 000 objets de haute qualité en tant qu'alchimiste.",
-            "reward": "character.character.title.259",
+            "reward": "t.259",
             "patch": "3.0",
             "points": 10,
             "cPrev": ["a.1319"],
-            "cSiblings": ["character.character.title.259"]
+            "cSiblings": ["t.259"]
         },
         "x2507": {
             "name_en": "Skyward Science I",
@@ -232,11 +232,11 @@
             "name_fr": "Alambic d'Azurée III",
             "description_en": "Earn 500,000 points toward your skyward score as an alchemist.",
             "description_fr": "Gagner un total de 500 000 points d'azur en tant qu'alchimiste.",
-            "reward": "character.character.title.496",
+            "reward": "t.496",
             "patch": "5.21",
             "points": 10,
             "cPrev": ["a.2508"],
-            "cSiblings": ["character.character.title.496"],
+            "cSiblings": ["t.496"],
             "cCombo": ["a.2524"]
         },
         "x2533": {
@@ -244,30 +244,30 @@
             "name_fr": "Alchimiste du Nichoir",
             "description_en": "As an alchemist, craft and submit 100 expert recipe items for the second phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées d'alchimiste de la deuxième phase de reconstruction d'Azurée.",
-            "reward": "character.character.title.509",
+            "reward": "t.509",
             "patch": "5.21",
             "points": 10,
-            "cSiblings": ["character.character.title.509"]
+            "cSiblings": ["t.509"]
         },
         "x2654": {
             "name_en": "Alchemists of a Feather",
             "name_fr": "Alchimiste de Tombeplume",
             "description_en": "As an alchemist, craft and submit 100 expert recipe items for the third phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées d'alchimiste de la troisième phase de reconstruction d'Azurée.",
-            "reward": "character.character.title.534",
+            "reward": "t.534",
             "patch": "5.31",
             "points": 10,
-            "cSiblings": ["character.character.title.534"]
+            "cSiblings": ["t.534"]
         },
         "x2813": {
             "name_en": "An Ode to Alchemy",
             "name_fr": "Alchimiste du Nouveau Refrain",
             "description_en": "As an alchemist, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées d'alchimiste de la quatrième phase de reconstruction d'Azurée.",
-            "reward": "character.character.title.571",
+            "reward": "t.571",
             "patch": "5.41",
             "points": 10,
-            "cSiblings": ["character.character.title.571"]
+            "cSiblings": ["t.571"]
         },
         "x2827": {
             "name_en": "Retooled: Resplendent Cauldronfiend's Alembic",

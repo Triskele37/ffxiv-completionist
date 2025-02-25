@@ -44,10 +44,10 @@
             "name_fr": "Toucher du bois : Qualifié",
             "description_en": "Successfully synthesize 3,000 times for level 41-50 woodworking recipes.",
             "description_fr": "Réaliser 3 000 synthèses de menuiserie de niveau 41 à 50.",
-            "reward": "character.character.title.17",
+            "reward": "t.17",
             "patch": "2.0",
             "points": 10,
-            "cSiblings": ["character.character.title.17"],
+            "cSiblings": ["t.17"],
             "cCombo": ["a.142"]
         },
         "x142": {
@@ -201,11 +201,11 @@
             "name_fr": "De main de maître : menuisier V",
             "description_en": "Craft 10,000 high-quality items as a carpenter.",
             "description_fr": "Fabriquer un total de 10 000 objets de haute qualité en tant que menuisier.",
-            "reward": "character.character.title.253",
+            "reward": "t.253",
             "patch": "3.0",
             "points": 10,
             "cPrev": ["a.1313"],
-            "cSiblings": ["character.character.title.253"]
+            "cSiblings": ["t.253"]
         },
         "x2489": {
             "name_en": "Skyward Saw I",
@@ -232,11 +232,11 @@
             "name_fr": "Scie d'Azurée III",
             "description_en": "Earn 500,000 points toward your skyward score as a carpenter.",
             "description_fr": "Gagner un total de 500 000 points d'azur en tant que menuisier.",
-            "reward": "character.character.title.490",
+            "reward": "t.490",
             "patch": "5.21",
             "points": 10,
             "cPrev": ["a.2490"],
-            "cSiblings": ["character.character.title.490"],
+            "cSiblings": ["t.490"],
             "cCombo": ["a.2524"]
         },
         "x2527": {
@@ -244,30 +244,30 @@
             "name_fr": "Menuisier du Nichoir",
             "description_en": "As a carpenter, craft and submit 100 expert recipe items for the second phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de menuisier de la deuxième phase de reconstruction d'Azurée.",
-            "reward": "character.character.title.503",
+            "reward": "t.503",
             "patch": "5.21",
             "points": 10,
-            "cSiblings": ["character.character.title.503"]
+            "cSiblings": ["t.503"]
         },
         "x2648": {
             "name_en": "Carpenters of a Feather",
             "name_fr": "Menuisier de Tombeplume",
             "description_en": "As a carpenter, craft and submit 100 expert recipe items for the third phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de menuisier de la troisième phase de reconstruction d'Azurée.",
-            "reward": "character.character.title.528",
+            "reward": "t.528",
             "patch": "5.31",
             "points": 10,
-            "cSiblings": ["character.character.title.528"]
+            "cSiblings": ["t.528"]
         },
         "x2807": {
             "name_en": "An Ode to Carpentry",
             "name_fr": "Menuisier du Nouveau Refrain",
             "description_en": "As a carpenter, craft and submit 100 expert recipe items for the fourth phase of the Ishgardian restoration.",
             "description_fr": "Donner un total de 100 objets fabriqués à partir de recettes avancées de menuisier de la quatrième phase de reconstruction d'Azurée.",
-            "reward": "character.character.title.565",
+            "reward": "t.565",
             "patch": "5.41",
             "points": 10,
-            "cSiblings": ["character.character.title.565"]
+            "cSiblings": ["t.565"]
         },
         "x2821": {
             "name_en": "Retooled: Resplendent Millfiend's Saw",

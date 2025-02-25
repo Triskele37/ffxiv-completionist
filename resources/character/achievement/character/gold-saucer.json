@@ -8,11 +8,11 @@
             "name_fr": "Rêve doré I",
             "description_en": "Earn 1,000 MGP at Gold Saucer attractions.",
             "description_fr": "Gagner un total de 1 000 PGS grâce aux animations du Gold Saucer (sauf points obtenus via des objets, en revendant des cartes, contre des gils ou en récompense du carnet d'objectifs).",
-            "reward": "character.character.title.195",
+            "reward": "t.195",
             "patch": "2.51",
             "points": 5,
             "cNext": ["a.1084"],
-            "cSiblings": ["character.character.title.195"]
+            "cSiblings": ["t.195"]
         },
         "x1084": {
             "name_en": "What Happens in the Saucer II",
@@ -58,21 +58,21 @@
             "name_fr": "Connaisseur en Saucer",
             "description_en": "Earn the following seven achievements: Winningest Jockey, Always Bet on Me, Bracket Breaker, Enemy at the GATE III, WTFungah III, Work Smarter, Not Harder, and Mountains out of Gil-hills.",
             "description_fr": "Accomplir les sept hauts faits: “Monstre de course”, “Comme sur des roulettes”, “Vétéran de la Triade”, “Jacques t'a dit III”, “Coupe-vent III”, “Plein pot”et “Pot d'âne”.",
-            "reward": "character.character.title.196",
+            "reward": "t.196",
             "patch": "2.51",
             "points": 20,
             "cPrev": ["a.1099", "a.1110", "a.1114", "a.1117", "a.1120", "a.1124", "a.1128"],
-            "cSiblings": ["character.character.title.196"]
+            "cSiblings": ["t.196"]
         },
         "x1089": {
             "name_en": "Go Forth and Multiply",
             "name_fr": "Croissez et multipliez-vous !",
             "description_en": "Obtain a new chocobo through covering.",
             "description_fr": "Obtenir un jeune chocobo grâce à l'accouplement.",
-            "reward": "character.character.title.197",
+            "reward": "t.197",
             "patch": "2.51",
             "points": 5,
-            "cSiblings": ["character.character.title.197"]
+            "cSiblings": ["t.197"]
         },
         "x1090": {
             "name_en": "Pedigree Champ",
@@ -90,21 +90,21 @@
             "name_fr": "Dresseur de chocobo",
             "description_en": "Train your chocobo to a rating of 285.",
             "description_fr": "Dresser un chocobo et lui faire atteindre une cote de 285 points ou plus.",
-            "reward": "character.character.title.198",
+            "reward": "t.198",
             "patch": "2.51",
             "points": 5,
-            "cSiblings": ["character.character.title.198"]
+            "cSiblings": ["t.198"]
         },
         "x1092": {
             "name_en": "Off to the Races I",
             "name_fr": "Les courses, c'est ma passion I",
             "description_en": "Participate in a sanctioned chocobo race.",
             "description_fr": "Participer à 1 course de chocobos.",
-            "reward": "character.character.title.199",
+            "reward": "t.199",
             "patch": "2.51",
             "points": 5,
             "cNext": ["a.1093"],
-            "cSiblings": ["character.character.title.199"]
+            "cSiblings": ["t.199"]
         },
         "x1093": {
             "name_en": "Off to the Races II",
@@ -121,23 +121,23 @@
             "name_fr": "Les courses, c'est ma passion III",
             "description_en": "Participate in 300 sanctioned chocobo races.",
             "description_fr": "Participer à 300 courses de chocobos.",
-            "reward": "character.character.title.200",
+            "reward": "t.200",
             "patch": "2.51",
             "points": 5,
             "cPrev": ["a.1093"],
             "cNext": ["a.1095"],
-            "cSiblings": ["character.character.title.200"]
+            "cSiblings": ["t.200"]
         },
         "x1095": {
             "name_en": "Off to the Races IV",
             "name_fr": "Les courses, c'est ma passion IV",
             "description_en": "Participate in 3,000 sanctioned chocobo races.",
             "description_fr": "Participer à 3 000 courses de chocobos.",
-            "reward": "character.character.title.201",
+            "reward": "t.201",
             "patch": "2.51",
             "points": 10,
             "cPrev": ["a.1094"],
-            "cSiblings": ["character.character.title.201"]
+            "cSiblings": ["t.201"]
         },
         "x1096": {
             "name_en": "Breaking the Maiden",
@@ -173,11 +173,11 @@
             "name_fr": "Monstre de course",
             "description_en": "Place first in 500 sanctioned chocobo races.",
             "description_fr": "Remporter 500 courses de chocobos.",
-            "reward": "character.character.title.202",
+            "reward": "t.202",
             "patch": "2.51",
             "points": 10,
             "cPrev": ["a.1098"],
-            "cSiblings": ["character.character.title.202"],
+            "cSiblings": ["t.202"],
             "cCombo": ["a.1088"]
         },
         "x1512": {
@@ -204,24 +204,24 @@
             "name_fr": "Porte-cartes II",
             "description_en": "Obtain 30 unique Triple Triad cards.",
             "description_fr": "Obtenir 30 cartes de Triple Triade différentes.",
-            "reward": "character.character.title.203",
+            "reward": "t.203",
             "patch": "2.51",
             "points": 5,
             "cPrev": ["a.1100"],
             "cNext": ["a.1102"],
-            "cSiblings": ["character.character.title.203"]
+            "cSiblings": ["t.203"]
         },
         "x1102": {
             "name_en": "Triple-decker III",
             "name_fr": "Porte-cartes III",
             "description_en": "Obtain 60 unique Triple Triad cards.",
             "description_fr": "Obtenir 60 cartes de Triple Triade différentes.",
-            "reward": "character.character.title.204",
+            "reward": "t.204",
             "patch": "2.51",
             "points": 10,
             "cPrev": ["a.1101"],
             "cNext": ["a.1372"],
-            "cSiblings": ["character.character.title.204"]
+            "cSiblings": ["t.204"]
         },
         "x1372": {
             "name_en": "Triple-decker IV",
@@ -326,11 +326,11 @@
             "name_fr": "Collectionnite aigüe",
             "description_en": "Collect all Triple Triad cards numbered 1 through 312.",
             "description_fr": "Obtenir les cartes Triple Triade 1 à 312.",
-            "reward": "character.character.title.576",
+            "reward": "t.576",
             "patch": "5.55",
             "points": 20,
             "cPrev": ["a.2643"],
-            "cSiblings": ["character.character.title.576"]
+            "cSiblings": ["t.576"]
         },
         "x1103": {
             "name_en": "Triple Team I",
@@ -471,11 +471,11 @@
             "name_fr": "Comme sur des roulettes",
             "description_en": "Win 1,000 Triple Triad roulette matches.",
             "description_fr": "Remporter 1 000 duels de Triple Triade ayant pour règle initiale “Roulette”.",
-            "reward": "character.character.title.205",
+            "reward": "t.205",
             "patch": "2.51",
             "points": 10,
             "cPrev": ["a.1109"],
-            "cSiblings": ["character.character.title.205"],
+            "cSiblings": ["t.205"],
             "cCombo": ["a.1088"]
         },
         "x1111": {
@@ -513,11 +513,11 @@
             "name_fr": "Vétéran de la Triade",
             "description_en": "Win 100 Triple Triad tournament matches.",
             "description_fr": "Remporter 100 duels dans les tournois de Triple Triade.",
-            "reward": "character.character.title.206",
+            "reward": "t.206",
             "patch": "2.51",
             "points": 10,
             "cPrev": ["a.1113"],
-            "cSiblings": ["character.character.title.206"],
+            "cSiblings": ["t.206"],
             "cCombo": ["a.1088"]
         },
         "x2799": {
@@ -535,11 +535,11 @@
             "name_fr": "Officiellement vainqueur II",
             "description_en": "Rank 1st in an Open tournament 50 times.",
             "description_fr": "Remporter 50 tournois officiels de Triple Triade.",
-            "reward": "character.character.title.559",
+            "reward": "t.559",
             "patch": "5.4",
             "points": 10,
             "cPrev": ["a.2799"],
-            "cSiblings": ["character.character.title.559"]
+            "cSiblings": ["t.559"]
         },
         "x2801": {
             "name_en": "Open to Victory I",
@@ -595,11 +595,11 @@
             "name_fr": "Jacques t'a dit III",
             "description_en": "Successfully complete 100 GATEs.",
             "description_fr": "Réussir 100 JACTA.",
-            "reward": "character.character.title.207",
+            "reward": "t.207",
             "patch": "2.51",
             "points": 10,
             "cPrev": ["a.1116"],
-            "cSiblings": ["character.character.title.207"],
+            "cSiblings": ["t.207"],
             "cCombo": ["a.1088"]
         },
         "x1118": {
@@ -626,11 +626,11 @@
             "name_fr": "Coupe-vent III",
             "description_en": "Successfully complete the GATE “Any Way the Wind Blows” 10 times.",
             "description_fr": "Réussir 10 fois le JACTA “Un sacré courant d'air”.",
-            "reward": "character.character.title.208",
+            "reward": "t.208",
             "patch": "2.51",
             "points": 10,
             "cPrev": ["a.1119"],
-            "cSiblings": ["character.character.title.208"],
+            "cSiblings": ["t.208"],
             "cCombo": ["a.1088"]
         },
         "x1121": {
@@ -667,11 +667,11 @@
             "name_fr": "Pot d'âne",
             "description_en": "Win a cumulative total of 1,000,000 MGP from the Jumbo Cactpot.",
             "description_fr": "Gagner 1 000 000 PGS au Méga Cactpot.",
-            "reward": "character.character.title.209",
+            "reward": "t.209",
             "patch": "2.51",
             "points": 10,
             "cPrev": ["a.1123"],
-            "cSiblings": ["character.character.title.209"],
+            "cSiblings": ["t.209"],
             "cCombo": ["a.1088"]
         },
         "x1125": {
@@ -708,11 +708,11 @@
             "name_fr": "Plein pot",
             "description_en": "Win a cumulative total of 1,000,000 MGP from the Mini Cactpot.",
             "description_fr": "Gagner 1 000 000 PGS au Mini Cactpot.",
-            "reward": "character.character.title.210",
+            "reward": "t.210",
             "patch": "2.51",
             "points": 10,
             "cPrev": ["a.1127"],
-            "cSiblings": ["character.character.title.210"],
+            "cSiblings": ["t.210"],
             "cCombo": ["a.1088"]
         },
         "x1380": {
@@ -749,23 +749,23 @@
             "name_fr": "Tactique des mascottes III",
             "description_en": "Win 100 Lord of Verminion player battle (RP) matches.",
             "description_fr": "Gagner 100 batailles de Choc des mascottes contre un joueur (avec PR).",
-            "reward": "character.character.title.269",
+            "reward": "t.269",
             "patch": "3.1",
             "points": 5,
             "cPrev": ["a.1382"],
             "cNext": ["a.1384"],
-            "cSiblings": ["character.character.title.269"]
+            "cSiblings": ["t.269"]
         },
         "x1384": {
             "name_en": "A Load of Verminion IV",
             "name_fr": "Tactique des mascottes IV",
             "description_en": "Win 300 Lord of Verminion player battle (RP) matches.",
             "description_fr": "Gagner 300 batailles de Choc des mascottes contre un joueur (avec PR).",
-            "reward": "character.character.title.270",
+            "reward": "t.270",
             "patch": "3.1",
             "points": 10,
             "cPrev": ["a.1383"],
-            "cSiblings": ["character.character.title.270"]
+            "cSiblings": ["t.270"]
         },
         "x1385": {
             "name_en": "The Road of Verminion I",
@@ -856,11 +856,11 @@
             "name_fr": "Fan de Yojimbo III",
             "description_en": "Successfully complete the GATE “The Slice Is Right” 10 times.",
             "description_fr": "Réussir 10 fois le JACTA “La coupe est pleine”.",
-            "reward": "character.character.title.469",
+            "reward": "t.469",
             "patch": "5.1",
             "points": 10,
             "cPrev": ["a.2416"],
-            "cSiblings": ["character.character.title.469"]
+            "cSiblings": ["t.469"]
         },
         "x2180": {
             "name_en": "Tile and Error I",
@@ -877,23 +877,23 @@
             "name_fr": "Tuiles essentielles II",
             "description_en": "Achieve a mahjong rating of more than 1,800.",
             "description_fr": "Atteindre une cote supérieure à 1 800 points au mahjong domien.",
-            "reward": "character.character.title.409",
+            "reward": "t.409",
             "patch": "4.5",
             "points": 5,
             "cPrev": ["a.2180"],
             "cNext": ["a.2182"],
-            "cSiblings": ["character.character.title.409"]
+            "cSiblings": ["t.409"]
         },
         "x2182": {
             "name_en": "Tile and Error III",
             "name_fr": "Tuiles essentielles III",
             "description_en": "Achieve a mahjong rating of more than 2,000.",
             "description_fr": "Atteindre une cote supérieure à 2 000 points au mahjong domien.",
-            "reward": "character.character.title.410",
+            "reward": "t.410",
             "patch": "4.5",
             "points": 10,
             "cPrev": ["a.2181"],
-            "cSiblings": ["character.character.title.410"]
+            "cSiblings": ["t.410"]
         },
         "x3404": {
             "name_en": "It's a Blunderful Life I",
@@ -929,11 +929,11 @@
             "name_fr": "À moi la couronne IV",
             "description_en": "Place first in Blunderville 100 times.",
             "description_fr": "Remporter le Blunderville 100 fois.",
-            "reward": "character.character.title.708",
+            "reward": "t.708",
             "patch": "6.51",
             "points": 10,
             "cPrev": ["a.3406"],
-            "cSiblings": ["character.character.title.708"]
+            "cSiblings": ["t.708"]
         }
     }
 }
