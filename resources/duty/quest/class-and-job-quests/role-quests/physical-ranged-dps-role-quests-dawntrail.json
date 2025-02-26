@@ -1,0 +1,66 @@
+{
+    "key": "physical-ranged-dps-role-quests-dawntrail",
+    "groupName_en": "Physical Ranged DPS Role Quests (Dawntrail)",
+    "groupName_fr": "Quêtes de DPS physique à distance (Dawntrail)",
+    "tasks": {
+        "x70372": {
+            "cNext": ["q.70373"],
+            "cPrev": ["q.70353"],
+            "level": 90,
+            "name_en": "To Steal a Steelhog",
+            "name_fr": "Quand la caravane trépasse",
+            "npc_en": "Raholl Ja",
+            "npc_fr": "Raholl Ja",
+            "patch": "7.0"
+        },
+        "x70373": {
+            "cNext": ["q.70374"],
+            "cPrev": ["q.70372"],
+            "level": 92,
+            "name_en": "Bandits Abound",
+            "name_fr": "Enquête à Porta Praetoria",
+            "npc_en": "Ceetol Ja",
+            "npc_fr": "Ceetol Ja",
+            "patch": "7.0"
+        },
+        "x70374": {
+            "cNext": ["q.70375"],
+            "cPrev": ["q.70373"],
+            "level": 94,
+            "name_en": "Take Me to Your Leader",
+            "name_fr": "Pâture en filature",
+            "npc_en": "Ceetol Ja",
+            "npc_fr": "Ceetol Ja",
+            "patch": "7.0"
+        },
+        "x70375": {
+            "cNext": ["q.70376"],
+            "cPrev": ["q.70374"],
+            "level": 96,
+            "name_en": "The Milk of Mamool Ja Kindness",
+            "name_fr": "Opération séduction",
+            "npc_en": "Ceetol Ja",
+            "npc_fr": "Ceetol Ja",
+            "patch": "7.0"
+        },
+        "x70376": {
+            "cNext": ["q.70377"],
+            "cPrev": ["q.70375"],
+            "level": 98,
+            "name_en": "Ally in the Alley",
+            "name_fr": "Rendez-vous à l'aveugle",
+            "npc_en": "Ceetol Ja",
+            "npc_fr": "Ceetol Ja",
+            "patch": "7.0"
+        },
+        "x70377": {
+            "cPrev": ["q.70376"],
+            "level": 100,
+            "name_en": "The Mightiest Shield",
+            "name_fr": "Mauvais cru pour Chalteaufite",
+            "npc_en": "Ceetol Ja",
+            "npc_fr": "Ceetol Ja",
+            "patch": "7.0"
+        }
+    }
+}

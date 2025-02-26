@@ -1,0 +1,67 @@
+{
+    "key": "tank-role-quests-dawntrail",
+    "groupName_en": "Tank Role Quests (Dawntrail)",
+    "groupName_fr": "Quêtes de tank (Dawntrail)",
+    "tasks": {
+        "x70354": {
+            "cNext": ["q.70355"],
+            "cPrev": ["q.70353"],
+            "level": 90,
+            "name_en": "The Narwhal Beckons",
+            "name_fr": "Narvals dans la neige",
+            "npc_en": "Loazenikwe",
+            "npc_fr": "Loazenikwe",
+            "patch": "7.0"
+        },
+        "x70355": {
+            "cNext": ["q.70356"],
+            "cPrev": ["q.70354"],
+            "level": 92,
+            "name_en": "Sleepless in Ishgard",
+            "name_fr": "Le guerrier qui ne dort jamais",
+            "npc_en": "Tentoawa",
+            "npc_fr": "Tentoawa",
+            "patch": "7.0"
+        },
+        "x70356": {
+            "cNext": ["q.70357"],
+            "cPrev": ["q.70355"],
+            "level": 94,
+            "name_en": "Between Sleep and Death",
+            "name_fr": "Entre le sommeil et la mort",
+            "npc_en": "Tentoawa",
+            "npc_fr": "Tentoawa",
+            "patch": "7.0"
+        },
+        "x70357": {
+            "cNext": ["q.70358"],
+            "cPrev": ["q.70356"],
+            "level": 96,
+            "name_en": "Beacon in the Darkness",
+            "name_fr": "Le philtre des nuits blanches",
+            "npc_en": "Firmalbert",
+            "npc_fr": "Firmalbert",
+            "patch": "7.0"
+        },
+        "x70358": {
+            "cNext": ["q.70359"],
+            "cPrev": ["q.70357"],
+            "level": 98,
+            "name_en": "Awakened, Not Stirred",
+            "name_fr": "Les limites humaines",
+            "npc_en": "Tentoawa",
+            "npc_fr": "Tentoawa",
+            "patch": "7.0"
+        },
+        "x70359": {
+            "cNext": ["q.70724"],
+            "cPrev": ["q.70358"],
+            "level": 100,
+            "name_en": "Dreams of a New Day",
+            "name_fr": "Rêves éveillés",
+            "npc_en": "Tentoawa",
+            "npc_fr": "Tentoawa",
+            "patch": "7.0"
+        }
+    }
+}

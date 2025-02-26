@@ -1,0 +1,76 @@
+{
+    "key": "shunyes-apothecary-quests",
+    "groupName_en": "Shunye's Apothecary Quests",
+    "groupName_fr": "Quêtes de la pharmacie de Shunye",
+    "tasks": {
+        "x70525": {
+            "cNext": ["q.70526"],
+            "cPrev": ["q.70502"],
+            "level": 90,
+            "name_en": "Hands for Hire",
+            "name_fr": "Un bouillon pharmaceutique de culture",
+            "npc_en": "Greying Gatherer",
+            "npc_fr": "Récolteur D'âge Mûr",
+            "patch": "7.0"
+        },
+        "x70526": {
+            "cNext": ["q.70527"],
+            "cPrev": ["q.70525"],
+            "level": 90,
+            "name_en": "Test of Talents",
+            "name_fr": "La preuve par la récolte",
+            "npc_en": "Shunye",
+            "npc_fr": "Shunye",
+            "patch": "7.0"
+        },
+        "x70527": {
+            "cNext": ["q.70528"],
+            "cPrev": ["q.70526"],
+            "level": 93,
+            "name_en": "A Discerning Eye",
+            "name_fr": "Un nuage qui a l'œil",
+            "npc_en": "Shunye",
+            "npc_fr": "Shunye",
+            "patch": "7.0"
+        },
+        "x70528": {
+            "cNext": ["q.70529"],
+            "cPrev": ["q.70527"],
+            "level": 95,
+            "name_en": "As Nature Intends",
+            "name_fr": "Unis à Mère Nature",
+            "npc_en": "Shunye",
+            "npc_fr": "Shunye",
+            "patch": "7.0"
+        },
+        "x70529": {
+            "cNext": ["q.70530"],
+            "cPrev": ["q.70528"],
+            "level": 95,
+            "name_en": "The Cycle of Life",
+            "name_fr": "Un rayon dans le ciel",
+            "npc_en": "Shunye",
+            "npc_fr": "Shunye",
+            "patch": "7.0"
+        },
+        "x70530": {
+            "cNext": ["q.70531"],
+            "cPrev": ["q.70529"],
+            "level": 98,
+            "name_en": "Digging Up the Truth",
+            "name_fr": "Dans le creux du cratère",
+            "npc_en": "Shunye",
+            "npc_fr": "Shunye",
+            "patch": "7.0"
+        },
+        "x70531": {
+            "cPrev": ["q.70530"],
+            "level": 100,
+            "name_en": "Wellspring of Tears",
+            "name_fr": "Des larmes tels des pétales",
+            "npc_en": "Shunye",
+            "npc_fr": "Shunye",
+            "patch": "7.0"
+        }
+    }
+}

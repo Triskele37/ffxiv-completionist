@@ -1,0 +1,77 @@
+{
+    "key": "xrral-soj-metalwares-quests",
+    "groupName_en": "XRral Soj Metalwares Quests",
+    "groupName_fr": "Quêtes de la quincaillerie de Rral Soj",
+    "tasks": {
+        "x70504": {
+            "cNext": ["q.70505"],
+            "cPrev": ["q.70502"],
+            "level": 90,
+            "name_en": "Your Friendly Neighborhood Metalworker",
+            "name_fr": "Forgeron à tout fer",
+            "npc_en": "Rral Soj",
+            "npc_fr": "Rral Soj",
+            "patch": "7.0"
+        },
+        "x70505": {
+            "cNext": ["q.70506"],
+            "cPrev": ["q.70504"],
+            "level": 90,
+            "name_en": "Hard to Reed",
+            "name_fr": "Baptême du cuivre",
+            "npc_en": "Rral Soj",
+            "npc_fr": "Rral Soj",
+            "patch": "7.0"
+        },
+        "x70506": {
+            "cNext": ["q.70507"],
+            "cPrev": ["q.70505"],
+            "level": 93,
+            "name_en": "Hey, Aunt Tii",
+            "name_fr": "Une volonté d'acier",
+            "npc_en": "Rral Soj",
+            "npc_fr": "Rral Soj",
+            "patch": "7.0"
+        },
+        "x70507": {
+            "cNext": ["q.70508"],
+            "cPrev": ["q.70506"],
+            "level": 95,
+            "name_en": "A Job Quickly Done",
+            "name_fr": "Aussi vif que l'argent",
+            "npc_en": "Rral Soj",
+            "npc_fr": "Rral Soj",
+            "patch": "7.0"
+        },
+        "x70508": {
+            "cNext": ["q.70509"],
+            "cPrev": ["q.70507"],
+            "level": 95,
+            "name_en": "Teamwork Makes the Craftwork",
+            "name_fr": "Le cœur lourd comme le bronze",
+            "npc_en": "Rral Soj",
+            "npc_fr": "Rral Soj",
+            "patch": "7.0"
+        },
+        "x70509": {
+            "cNext": ["q.70510"],
+            "cPrev": ["q.70508"],
+            "level": 98,
+            "name_en": "A New Kind of Metalware",
+            "name_fr": "Un travail de titane",
+            "npc_en": "Rral Soj",
+            "npc_fr": "Rral Soj",
+            "patch": "7.0"
+        },
+        "x70510": {
+            "cNext": ["q.70503"],
+            "cPrev": ["q.70509"],
+            "level": 100,
+            "name_en": "A Dream Come True",
+            "name_fr": "L'artisane aux mains d'or",
+            "npc_en": "Rral Soj",
+            "npc_fr": "Rral Soj",
+            "patch": "7.0"
+        }
+    }
+}

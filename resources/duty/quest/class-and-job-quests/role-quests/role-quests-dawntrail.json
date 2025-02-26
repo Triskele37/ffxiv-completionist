@@ -1,0 +1,54 @@
+{
+    "key": "role-quests-dawntrail",
+    "groupName_en": "Role Quests (Dawntrail)",
+    "groupName_fr": "Quêtes de rôle (Dawntrail)",
+    "tasks": {
+        "x70353": {
+            "cNext": ["q.70354", "q.70360", "q.70366", "q.70372", "q.70378"],
+            "cPrev": ["q.70418"],
+            "level": 90,
+            "name_en": "Uncouth Customers",
+            "name_fr": "Sous la tutelle des totems",
+            "npc_en": "Br'uk Evu",
+            "npc_fr": "Br'uk Evu",
+            "patch": "7.0"
+        },
+        "x70724": {
+            "cNext": ["q.70725"],
+            "cPrev": ["q.70359", "q.70365", "q.70371"],
+            "level": 100,
+            "name_en": "Picking Up the Torch",
+            "name_fr": "La deuxième vague d'Affranchis",
+            "npc_en": "Rral Majun",
+            "npc_fr": "Rral Majun"
+        },
+        "x70725": {
+            "cNext": ["q.70726"],
+            "cPrev": ["q.70724"],
+            "level": 100,
+            "name_en": "Imposing Views",
+            "name_fr": "Affranchie jusqu'au bout des talons",
+            "npc_en": "Unbound Agent",
+            "npc_fr": "Membre Des Affranchis",
+            "unlock_en": ["emote.282"],
+            "unlock_fr": ["emote.282"]
+        },
+        "x70726": {
+            "cNext": ["q.70727"],
+            "cPrev": ["q.70725"],
+            "level": 100,
+            "name_en": "Enforcing Freedom",
+            "name_fr": "L'affranchissement des uns, la liberté des autres",
+            "npc_en": "Apyaahi",
+            "npc_fr": "Apyaahi"
+        },
+        "x70727": {
+            "cPrev": ["q.70726"],
+            "level": 100,
+            "name_en": "Bar the Passage",
+            "name_fr": "Pour s'affranchir de la tyrannie, tout s'appelle vertu",
+            "npc_en": "Rral Majun",
+            "npc_fr": "Rral Majun"
+        }
+    }
+}

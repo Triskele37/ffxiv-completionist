@@ -1,0 +1,67 @@
+{
+    "key": "melee-dps-role-quests-dawntrail",
+    "groupName_en": "Melee DPS Role Quests (Dawntrail)",
+    "groupName_fr": "Quêtes de DPS physique de mêlée (Dawntrail)",
+    "tasks": {
+        "x70366": {
+            "cNext": ["q.70367"],
+            "cPrev": ["q.70353"],
+            "level": 90,
+            "name_en": "The Hunter and the Hunted",
+            "name_fr": "Une chasseuse exceptionnelle",
+            "npc_en": "Shashepya",
+            "npc_fr": "Shashepya",
+            "patch": "7.0"
+        },
+        "x70367": {
+            "cNext": ["q.70368"],
+            "cPrev": ["q.70366"],
+            "level": 92,
+            "name_en": "A Sea of Blood",
+            "name_fr": "Bataille navale",
+            "npc_en": "I'toca",
+            "npc_fr": "I'toca",
+            "patch": "7.0"
+        },
+        "x70368": {
+            "cNext": ["q.70369"],
+            "cPrev": ["q.70367"],
+            "level": 94,
+            "name_en": "Who's Who",
+            "name_fr": "Les deux imposteurs",
+            "npc_en": "I'toca",
+            "npc_fr": "I'toca",
+            "patch": "7.0"
+        },
+        "x70369": {
+            "cNext": ["q.70370"],
+            "cPrev": ["q.70368"],
+            "level": 96,
+            "name_en": "Cornered Prey",
+            "name_fr": "Les fourberies de Samidare",
+            "npc_en": "Kuiyki",
+            "npc_fr": "Kuiyki",
+            "patch": "7.0"
+        },
+        "x70370": {
+            "cNext": ["q.70371"],
+            "cPrev": ["q.70369"],
+            "level": 98,
+            "name_en": "Impostor Syndrome",
+            "name_fr": "Kuiyki évolue!",
+            "npc_en": "Kuiyki",
+            "npc_fr": "Kuiyki",
+            "patch": "7.0"
+        },
+        "x70371": {
+            "cNext": ["q.70724"],
+            "cPrev": ["q.70370"],
+            "level": 100,
+            "name_en": "A Hunter True",
+            "name_fr": "Chasseuse à lunettes... chasseuse honnête",
+            "npc_en": "Kuiyki",
+            "npc_fr": "Kuiyki",
+            "patch": "7.0"
+        }
+    }
+}

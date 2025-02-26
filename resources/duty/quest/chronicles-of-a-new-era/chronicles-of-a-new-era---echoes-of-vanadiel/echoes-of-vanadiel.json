@@ -1,0 +1,42 @@
+{
+    "key": "echoes-of-vanadiel",
+    "groupName_en": "Echoes of Vana'diel",
+    "groupName_fr": "Échos de Vana'diel",
+    "tasks": {
+        "x70769": {
+            "cNext": ["q.70770"],
+            "cPrev": ["q.70495"],
+            "level": 100,
+            "name_en": "An Otherworldly Encounter",
+            "name_fr": "À la croisée des mondes",
+            "npc_en": "Hoobigo Messenger",
+            "npc_fr": "Messager Hoobigo"
+        },
+        "x70770": {
+            "cNext": ["q.70771"],
+            "cPrev": ["q.70769"],
+            "level": 100,
+            "name_en": "It All Began with a Stone",
+            "name_fr": "Tout commença avec une pierre",
+            "npc_en": "Prishe",
+            "npc_fr": "Prishe"
+        },
+        "x70771": {
+            "cNext": ["q.70772"],
+            "cPrev": ["q.70770"],
+            "level": 100,
+            "name_en": "That World Was Called Vana'diel",
+            "name_fr": "Vana'diel, l'autre monde",
+            "npc_en": "Alxaal",
+            "npc_fr": "Alxaal"
+        },
+        "x70772": {
+            "cPrev": ["q.70771"],
+            "level": 100,
+            "name_en": "Jeuno",
+            "name_fr": "Jeuno",
+            "npc_en": "Bakool Ja Ja",
+            "npc_fr": "Bakool Ja Ja"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "key": "the-arcadion",
+    "groupName_en": "The Arcadion",
+    "groupName_fr": "L'Arcadion",
+    "tasks": {
+        "x70496": {
+            "cNext": ["q.70497"],
+            "cPrev": ["q.70495"],
+            "level": 100,
+            "name_en": "A New Challenger Appears",
+            "name_fr": "Le nouveau challenger de l'Arcadion",
+            "npc_en": "Stylish Stranger",
+            "npc_fr": "Homme Au Chapeau De Cow-boy",
+            "patch": "7.01"
+        },
+        "x70497": {
+            "cNext": ["q.70498"],
+            "cPrev": ["q.70496"],
+            "level": 100,
+            "name_en": "The Claw in the Dark",
+            "name_fr": "La combattante féline aux griffes acérées",
+            "npc_en": "Metem",
+            "npc_fr": "Metem",
+            "patch": "7.01"
+        },
+        "x70498": {
+            "cNext": ["q.70499"],
+            "cPrev": ["q.70497"],
+            "level": 100,
+            "name_en": "Sweet Poison",
+            "name_fr": "Un charme piquant et venimeux",
+            "npc_en": "Metem",
+            "npc_fr": "Metem",
+            "patch": "7.01"
+        },
+        "x70499": {
+            "cNext": ["q.70500"],
+            "cPrev": ["q.70498"],
+            "level": 100,
+            "name_en": "Yaana's Yarn",
+            "name_fr": "Les sœurs des Trois Queues",
+            "npc_en": "Yaana",
+            "npc_fr": "Yaana",
+            "patch": "7.01"
+        },
+        "x70500": {
+            "cNext": ["q.70501"],
+            "cPrev": ["q.70499"],
+            "level": 100,
+            "name_en": "Vile Heat",
+            "name_fr": "Une brute explosive et sans scrupules",
+            "npc_en": "Yaana",
+            "npc_fr": "Yaana",
+            "patch": "7.01"
+        },
+        "x70501": {
+            "cPrev": ["q.70500"],
+            "level": 100,
+            "name_en": "The Neoteric Witch",
+            "name_fr": "L'Enchanteresse électrique",
+            "npc_en": "Yaana",
+            "npc_fr": "Yaana",
+            "patch": "7.01"
+        }
+    }
+}

@@ -309,3 +309,62 @@ function migrateTribalAGAIN(store: ChangeStore): void {
     store.moveGroup(...rename('stormblood'));
     store.moveGroup(...rename('endwalker'));
 }
+
+function migrateLevequests(store: ChangeStore): void {
+    const LEVE = `${QUEST}.levequests`;
+
+    //#region ------------------------------------------------------- Alchemy
+    store.moveTasks(`${LEVE}.alchemy`, `${LEVE}.alchemy-leves.coerthas-central-highlands`, [
+
+    ]);
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Armoring
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Battlecraft
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Blacksmithing
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Botany
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Carpentry
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Clothcrafting
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Company
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Cooking
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Fishing
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Goldsmithing
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Leatherworking
+
+    //#endregion
+
+    //#region ------------------------------------------------------- Mining
+
+    //#endregion
+}
