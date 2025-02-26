@@ -28,37 +28,39 @@ function migrateDeepDungeons(store: ChangeStore): void {
 function migrateDungeons(store: ChangeStore): void {
     const DUNGEONS = `${DRF}.dungeons`;
 
-    store.changeKey(`${DUNGEONS}.arr`, 0, 4);
-    store.changeKey(`${DUNGEONS}.arr`, 1, 2);
-    store.changeKey(`${DUNGEONS}.arr`, 2, 3);
-    store.changeKey(`${DUNGEONS}.arr`, 3, 7);
-    store.changeKey(`${DUNGEONS}.arr`, 4, 1);
-    store.changeKey(`${DUNGEONS}.arr`, 5, 6);
-    store.changeKey(`${DUNGEONS}.arr`, 6, 8);
-    store.changeKey(`${DUNGEONS}.arr`, 7, 9);
-    store.changeKey(`${DUNGEONS}.arr`, 8, 12);
-    store.changeKey(`${DUNGEONS}.arr`, 9, 11);
-    store.changeKey(`${DUNGEONS}.arr`, 10, 13);
-    store.changeKey(`${DUNGEONS}.arr`, 11, 5);
-    store.changeKey(`${DUNGEONS}.arr`, 12, 15);
-    store.changeKey(`${DUNGEONS}.arr`, 13, 16);
-    store.changeKey(`${DUNGEONS}.arr`, 14, 10);
-    store.changeKey(`${DUNGEONS}.arr`, 15, 14);
-    store.changeKey(`${DUNGEONS}.arr`, 16, 17);
-    store.changeKey(`${DUNGEONS}.arr`, 17, 18);
-    store.changeKey(`${DUNGEONS}.arr`, 18, 19);
-    store.changeKey(`${DUNGEONS}.arr`, 19, 22);
-    store.changeKey(`${DUNGEONS}.arr`, 20, 21);
-    store.changeKey(`${DUNGEONS}.arr`, 21, 20);
-    store.changeKey(`${DUNGEONS}.arr`, 22, 23);
-    store.changeKey(`${DUNGEONS}.arr`, 23, 25);
-    store.changeKey(`${DUNGEONS}.arr`, 24, 24);
-    store.changeKey(`${DUNGEONS}.arr`, 25, 27);
-    store.changeKey(`${DUNGEONS}.arr`, 26, 28);
-    store.changeKey(`${DUNGEONS}.arr`, 27, 26);
-    store.changeKey(`${DUNGEONS}.arr`, 28, 32);
-    store.changeKey(`${DUNGEONS}.arr`, 29, 30);
-    store.changeKey(`${DUNGEONS}.arr`, 30, 29);
+    store.safeChangeKeys(`${DUNGEONS}.arr`, [
+        [0, 4],
+        [1, 2],
+        [2, 3],
+        [3, 7],
+        [4, 1],
+        [5, 6],
+        [6, 8],
+        [7, 9],
+        [8, 12],
+        [9, 11],
+        [10, 13],
+        [11, 5],
+        [12, 15],
+        [13, 16],
+        [14, 10],
+        [15, 14],
+        [16, 17],
+        [17, 18],
+        [18, 19],
+        [19, 22],
+        [20, 21],
+        [21, 20],
+        [22, 23],
+        [23, 25],
+        [24, 24],
+        [25, 27],
+        [26, 28],
+        [27, 26],
+        [28, 32],
+        [29, 30],
+        [30, 29],
+    ]);
 
     store.changeKey(`${DUNGEONS}.hw`, 0, 36);
     store.changeKey(`${DUNGEONS}.hw`, 1, 37);
@@ -424,57 +426,59 @@ function migrateHunts(store: ChangeStore): void {
     const HUNTS = `${DUTY}.the-hunt`;
     store.moveGroup(`${DRF}.the-hunt`, HUNTS);
 
-    store.changeKey(`${HUNTS}.arr`, 0, 2926);
-    store.changeKey(`${HUNTS}.arr`, 1, 2929);
-    store.changeKey(`${HUNTS}.arr`, 2, 2930);
-    store.changeKey(`${HUNTS}.arr`, 3, 2931);
-    store.changeKey(`${HUNTS}.arr`, 4, 2927);
-    store.changeKey(`${HUNTS}.arr`, 5, 2925);
-    store.changeKey(`${HUNTS}.arr`, 6, 2935);
-    store.changeKey(`${HUNTS}.arr`, 7, 2921);
-    store.changeKey(`${HUNTS}.arr`, 8, 2932);
-    store.changeKey(`${HUNTS}.arr`, 9, 2934);
-    store.changeKey(`${HUNTS}.arr`, 10, 2924);
-    store.changeKey(`${HUNTS}.arr`, 11, 2922);
-    store.changeKey(`${HUNTS}.arr`, 12, 2923);
-    store.changeKey(`${HUNTS}.arr`, 13, 2928);
-    store.changeKey(`${HUNTS}.arr`, 14, 2920);
-    store.changeKey(`${HUNTS}.arr`, 15, 2933);
-    store.changeKey(`${HUNTS}.arr`, 16, 2919);
-    store.changeKey(`${HUNTS}.arr`, 17, 2940);
-    store.changeKey(`${HUNTS}.arr`, 18, 2950);
-    store.changeKey(`${HUNTS}.arr`, 19, 2944);
-    store.changeKey(`${HUNTS}.arr`, 20, 2936);
-    store.changeKey(`${HUNTS}.arr`, 21, 2938);
-    store.changeKey(`${HUNTS}.arr`, 22, 2939);
-    store.changeKey(`${HUNTS}.arr`, 23, 2947);
-    store.changeKey(`${HUNTS}.arr`, 24, 2952);
-    store.changeKey(`${HUNTS}.arr`, 25, 2942);
-    store.changeKey(`${HUNTS}.arr`, 26, 2949);
-    store.changeKey(`${HUNTS}.arr`, 27, 2951);
-    store.changeKey(`${HUNTS}.arr`, 28, 2937);
-    store.changeKey(`${HUNTS}.arr`, 29, 2948);
-    store.changeKey(`${HUNTS}.arr`, 30, 2941);
-    store.changeKey(`${HUNTS}.arr`, 31, 2946);
-    store.changeKey(`${HUNTS}.arr`, 32, 2945);
-    store.changeKey(`${HUNTS}.arr`, 33, 2943);
-    store.changeKey(`${HUNTS}.arr`, 34, 2969);
-    store.changeKey(`${HUNTS}.arr`, 35, 2965);
-    store.changeKey(`${HUNTS}.arr`, 36, 2958);
-    store.changeKey(`${HUNTS}.arr`, 37, 2967);
-    store.changeKey(`${HUNTS}.arr`, 38, 2963);
-    store.changeKey(`${HUNTS}.arr`, 39, 2962);
-    store.changeKey(`${HUNTS}.arr`, 40, 2953);
-    store.changeKey(`${HUNTS}.arr`, 41, 2959);
-    store.changeKey(`${HUNTS}.arr`, 42, 31);
-    store.changeKey(`${HUNTS}.arr`, 43, 2961);
-    store.changeKey(`${HUNTS}.arr`, 44, 2966);
-    store.changeKey(`${HUNTS}.arr`, 45, 558);
-    store.changeKey(`${HUNTS}.arr`, 46, 2968);
-    store.changeKey(`${HUNTS}.arr`, 47, 2964);
-    store.changeKey(`${HUNTS}.arr`, 48, 2956);
-    store.changeKey(`${HUNTS}.arr`, 49, 2954);
-    store.changeKey(`${HUNTS}.arr`, 50, 2957);
+    store.safeChangeKeys(`${HUNTS}.arr`, [
+        [0, 2926],
+        [1, 2929],
+        [2, 2930],
+        [3, 2931],
+        [4, 2927],
+        [5, 2925],
+        [6, 2935],
+        [7, 2921],
+        [8, 2932],
+        [9, 2934],
+        [10, 2924],
+        [11, 2922],
+        [12, 2923],
+        [13, 2928],
+        [14, 2920],
+        [15, 2933],
+        [16, 2919],
+        [17, 2940],
+        [18, 2950],
+        [19, 2944],
+        [20, 2936],
+        [21, 2938],
+        [22, 2939],
+        [23, 2947],
+        [24, 2952],
+        [25, 2942],
+        [26, 2949],
+        [27, 2951],
+        [28, 2937],
+        [29, 2948],
+        [30, 2941],
+        [31, 2946],
+        [32, 2945],
+        [33, 2943],
+        [34, 2969],
+        [35, 2965],
+        [36, 2958],
+        [37, 2967],
+        [38, 2963],
+        [39, 2962],
+        [40, 2953],
+        [41, 2959],
+        [42, 31],
+        [43, 2961],
+        [44, 2966],
+        [45, 558],
+        [46, 2968],
+        [47, 2964],
+        [48, 2956],
+        [49, 2954],
+        [50, 2957],
+    ]);
 
     store.changeKey(`${HUNTS}.hw`, 0, 4350);
     store.changeKey(`${HUNTS}.hw`, 1, 4355);
