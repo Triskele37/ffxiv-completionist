@@ -149,7 +149,7 @@
             "patch": "3.35",
             "points": 5,
             "cSiblingsAt": {
-                "10": ["duty.duty-raid-finder.deep-dungeon.0"]
+                "10": ["d.174"]
             },
             "cNext": ["a.1577"]
         },
@@ -161,7 +161,7 @@
             "patch": "3.35",
             "points": 5,
             "cSiblingsAt": {
-                "20": ["duty.duty-raid-finder.deep-dungeon.0"]
+                "20": ["d.174"]
             },
             "cPrev": ["a.1576"],
             "cNext": ["a.1578"]
@@ -174,7 +174,7 @@
             "patch": "3.35",
             "points": 5,
             "cSiblingsAt": {
-                "30": ["duty.duty-raid-finder.deep-dungeon.0"]
+                "30": ["d.174"]
             },
             "cPrev": ["a.1577"],
             "cNext": ["a.1579"]
@@ -187,7 +187,7 @@
             "patch": "3.35",
             "points": 5,
             "cSiblingsAt": {
-                "40": ["duty.duty-raid-finder.deep-dungeon.0"]
+                "40": ["d.174"]
             },
             "cPrev": ["a.1578"],
             "cNext": ["a.1580"]
@@ -200,7 +200,7 @@
             "patch": "3.35",
             "points": 10,
             "cSiblingsAt": {
-                "50": ["duty.duty-raid-finder.deep-dungeon.0"]
+                "50": ["d.174"]
             },
             "cPrev": ["a.1579"],
             "cNext": ["a.1655"]
@@ -214,7 +214,7 @@
             "patch": "3.45",
             "points": 10,
             "cSiblingsAt": {
-                "100": ["duty.duty-raid-finder.deep-dungeon.0"]
+                "100": ["d.174"]
             },
             "cPrev": ["a.1580"],
             "cNext": ["a.1656"],
@@ -228,7 +228,7 @@
             "patch": "3.45",
             "points": 10,
             "cSiblingsAt": {
-                "150": ["duty.duty-raid-finder.deep-dungeon.0"]
+                "150": ["d.174"]
             },
             "cPrev": ["a.1655"],
             "cNext": ["a.1657"]
@@ -241,7 +241,7 @@
             "patch": "3.45",
             "points": 20,
             "cSiblingsAt": {
-                "200": ["duty.duty-raid-finder.deep-dungeon.0"]
+                "200": ["d.174"]
             },
             "cPrev": ["a.1656"]
         },
@@ -369,7 +369,7 @@
             "patch": "4.35",
             "points": 5,
             "cSiblingsAt": {
-                "10": ["duty.duty-raid-finder.deep-dungeon.1"]
+                "10": ["d.540"]
             },
             "cNext": ["a.2048"]
         },
@@ -381,7 +381,7 @@
             "patch": "4.35",
             "points": 5,
             "cSiblingsAt": {
-                "20": ["duty.duty-raid-finder.deep-dungeon.1"]
+                "20": ["d.540"]
             },
             "cPrev": ["a.2047"],
             "cNext": ["a.2049"]
@@ -395,7 +395,7 @@
             "patch": "4.35",
             "points": 5,
             "cSiblingsAt": {
-                "30": ["duty.duty-raid-finder.deep-dungeon.1"]
+                "30": ["d.540"]
             },
             "cPrev": ["a.2048"],
             "cNext": ["a.2050"],
@@ -409,7 +409,7 @@
             "patch": "4.35",
             "points": 10,
             "cSiblingsAt": {
-                "50": ["duty.duty-raid-finder.deep-dungeon.1"]
+                "50": ["d.540"]
             },
             "cPrev": ["a.2049"],
             "cNext": ["a.2051"]
@@ -423,7 +423,7 @@
             "patch": "4.35",
             "points": 10,
             "cSiblingsAt": {
-                "100": ["duty.duty-raid-finder.deep-dungeon.1"]
+                "100": ["d.540"]
             },
             "cPrev": ["a.2050"],
             "cSiblings": ["t.385"]
@@ -685,7 +685,7 @@
             "description_fr": "Finir Les canalisations sildiennes annexes - Donjon alternatif.",
             "patch": "6.25",
             "points": 10,
-            "cSiblings": ["duty.duty-raid-finder.v-and-c-dungeon.sildihn-subterrane.1"]
+            "cSiblings": ["d.878"]
         },
         "x3156": {
             "name_en": "The Savage Sands Below",
@@ -695,7 +695,7 @@
             "reward": "t.657",
             "patch": "6.25",
             "points": 20,
-            "cSiblings": ["duty.duty-raid-finder.v-and-c-dungeon.sildihn-subterrane.2", "t.657"]
+            "cSiblings": ["d.879", "t.657"]
         },
         "x3332": {
             "name_en": "Cut Above the Restless",

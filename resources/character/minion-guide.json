@@ -91,7 +91,7 @@
             "name_en": "Castaway Chocobo Chick",
             "name_fr": "Bébé chocobo des mers",
             "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": "Gathered by Fisher",
             "source_fr": "Récolté par le Pêcheur",
             "patch": "4.0"
@@ -178,7 +178,7 @@
             "name_en": "Morbol Seedling",
             "name_fr": "Bulbe de morbol",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.arr.11",
+            "source": "d.5",
             "patch": "2.0"
         },
         "x234": {
@@ -245,7 +245,7 @@
             "name_en": "Wind-up Tonberry",
             "name_fr": "Tomberry mécanique",
             "category": "CATEGORY.DEEP_DUNGEON",
-            "source": "duty.duty-raid-finder.deep-dungeon.0",
+            "source": "d.174",
             "source_en": ["Timeworn Boarskin Map", "The Aquapolis"],
             "source_fr": ["Vieille carte en peau de sanglier", "Aquapole"],
             "patch": "2.1"
@@ -278,7 +278,7 @@
             "name_en": "Tiny Bulb",
             "name_fr": "Bulbe miniature",
             "category": "CATEGORY.DEEP_DUNGEON",
-            "source": "duty.duty-raid-finder.deep-dungeon.0",
+            "source": "d.174",
             "source_en": ["Timeworn Toadskin Map", "The Aquapolis"],
             "source_fr": ["Vieille carte en peau de crapaud", "Aquapole"],
             "patch": "2.1"
@@ -380,7 +380,7 @@
             "name_en": "Private Pachypodium",
             "name_fr": "Soldate pachypodium",
             "category": "CATEGORY.DEEP_DUNGEON",
-            "source": "duty.duty-raid-finder.deep-dungeon.2",
+            "source": "d.897",
             "patch": "6.35"
         },
         "x119": {
@@ -465,14 +465,14 @@
             "name_en": "Bite-Sized Pudding",
             "name_fr": "Mini-pudding",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.arr.14",
+            "source": "d.10",
             "patch": "2.0"
         },
         "x66": {
             "name_en": "Demon Brick",
             "name_fr": "Bloc démonique",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.arr.15",
+            "source": "d.14",
             "patch": "2.0"
         },
         "x151": {
@@ -495,14 +495,14 @@
             "name_en": "Slime Puddle",
             "name_fr": "Mini-gluant",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.arr.17",
+            "source": "d.18",
             "patch": "2.1"
         },
         "x156": {
             "name_en": "Minute Mindflayer",
             "name_fr": "Gentil flagelleur",
             "category": "CATEGORY.VENTURE",
-            "source": "duty.duty-raid-finder.deep-dungeon.0",
+            "source": "d.174",
             "source_en": ["Field Exploration XIII", "Highland Exploration XIII", "Waterside Exploration XIII", "The Aquapolis"],
             "source_fr": [
                 "Exploration en plaine XIII",
@@ -516,7 +516,7 @@
             "name_en": "Tight-beaked Parrot",
             "name_fr": "Perroquet taciturne",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.arr.26",
+            "source": "d.28",
             "source_en": "The Aquapolis",
             "source_fr": "Aquapole",
             "patch": "2.4"
@@ -525,7 +525,7 @@
             "name_en": "Baby Opo-opo",
             "name_fr": "Bébé opo-opo",
             "category": "CATEGORY.DUNGEON",
-            "source": ["duty.duty-raid-finder.dungeons.arr.21", "duty.duty-raid-finder.deep-dungeon.0"],
+            "source": ["d.20", "d.174"],
             "source_en": "The Aquapolis",
             "source_fr": "Aquapole",
             "patch": "2.2"
@@ -558,7 +558,7 @@
             "name_en": "Naughty Nanka",
             "name_fr": "Nanka narquois",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.arr.22",
+            "source": "d.23",
             "patch": "2.3"
         },
         "x133": {
@@ -582,7 +582,7 @@
             "name_en": "Mummy's Little Mummy",
             "name_fr": "Mini-momie",
             "category": "CATEGORY.DUNGEON",
-            "source": ["duty.duty-raid-finder.dungeons.arr.27", "duty.duty-raid-finder.deep-dungeon.0"],
+            "source": ["d.26", "d.174"],
             "source_en": "The Aquapolis",
             "source_fr": "Aquapole",
             "patch": "2.4"
@@ -599,7 +599,7 @@
             "name_en": "Gaelikitten",
             "name_fr": "Gaélichaton",
             "category": "CATEGORY.DUNGEON",
-            "source": ["duty.duty-raid-finder.dungeons.hw.1", "duty.duty-raid-finder.deep-dungeon.0"],
+            "source": ["d.37", "d.174"],
             "source_en": ["Kupo of Fortune", "The Aquapolis"],
             "source_fr": ["Kupo de la Fortune", "Aquapole"],
             "patch": "3.0"
@@ -616,7 +616,7 @@
             "name_en": "Page 63",
             "name_fr": "Page 63",
             "category": "CATEGORY.DUNGEON",
-            "source": ["character.blue-mage.log.dungeons.21", "duty.duty-raid-finder.deep-dungeon.0"],
+            "source": ["character.blue-mage.log.dungeons.21", "d.174"],
             "source_en": "The Aquapolis",
             "source_fr": "Aquapole",
             "patch": "3.0"
@@ -641,7 +641,7 @@
             "name_en": "Paissa Brat",
             "name_fr": "Petiot païssa",
             "category": "CATEGORY.PURCHASE",
-            "source": "duty.duty-raid-finder.deep-dungeon.0",
+            "source": "d.174",
             "source_en": ["800 Skybuilders' Scrips", "Timeworn Dragonskin Map", "The Aquapolis"],
             "source_fr": ["800 Assignats d'Azurée", "Vieille carte en peau de dragon", "Aquapole"],
             "patch": "3.1"
@@ -673,31 +673,28 @@
             "name_en": "Korpokkur Kid",
             "name_fr": "Pon-korpokkur",
             "category": "CATEGORY.DUNGEON",
-            "source": ["duty.duty-raid-finder.dungeons.hw.8", "duty.duty-raid-finder.deep-dungeon.1"],
+            "source": ["d.41", "d.540"],
             "patch": "3.1"
         },
         "x44": {
             "name_en": "Calca",
             "name_fr": "Calca",
             "category": "CATEGORY.DUNGEON",
-            "source": [
-                "duty.duty-raid-finder.dungeons.hw.10",
-                "duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.pyros.1391"
-            ],
+            "source": ["d.141", "duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.pyros.1391"],
             "patch": "3.2"
         },
         "x36": {
             "name_en": "Brina",
             "name_fr": "Brina",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.hw.10",
+            "source": "d.141",
             "patch": "3.2"
         },
         "x163": {
             "name_en": "Morpho",
             "name_fr": "Morpho",
             "category": "CATEGORY.DUNGEON",
-            "source": ["duty.duty-raid-finder.dungeons.hw.11", "duty.duty-raid-finder.deep-dungeon.1"],
+            "source": ["d.140", "d.540"],
             "source_en": "Kupo of Fortune",
             "source_fr": "Kupo de la Fortune",
             "patch": "3.2"
@@ -721,14 +718,14 @@
             "name_en": "Calamari",
             "name_fr": "Tentacule minuscule",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.hw.13",
+            "source": "d.172",
             "patch": "3.3"
         },
         "x17": {
             "name_en": "Baby Brachiosaur",
             "name_fr": "Bébé brachiosaure",
             "category": "CATEGORY.PURCHASE",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": "800 Skybuilders' Scrips",
             "source_fr": "800 Assignats d'Azurée",
             "patch": "3.55b"
@@ -761,14 +758,14 @@
             "name_en": "Shaggy Shoat",
             "name_fr": "Marcassin",
             "category": "CATEGORY.DUNGEON",
-            "source": ["duty.duty-raid-finder.dungeons.hw.14", "duty.duty-raid-finder.deep-dungeon.1"],
+            "source": ["d.182", "d.540"],
             "patch": "3.4"
         },
         "x38": {
             "name_en": "Bullpup",
             "name_fr": "Chiot bulldog",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.hw.16",
+            "source": "d.219",
             "source_en": "Kupo of Fortune",
             "source_fr": "Kupo de la Fortune",
             "patch": "3.5"
@@ -791,7 +788,7 @@
             "name_en": "Tiny Tatsunoko",
             "name_fr": "Hippocampoupon",
             "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": "Gathered by Fisher",
             "source_fr": "Récolté par le Pêcheur",
             "patch": "4.0"
@@ -800,14 +797,14 @@
             "name_en": "Bombfish",
             "name_fr": "Poisson-bombo",
             "category": "CATEGORY.DUNGEON",
-            "source": ["duty.duty-raid-finder.dungeons.sb.1", "duty.duty-raid-finder.deep-dungeon.1"],
+            "source": ["d.235", "d.540"],
             "patch": "4.0"
         },
         "x117": {
             "name_en": "Ivon Coeurlfist Doll",
             "name_fr": "Poupée Ivon le Coeurl",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.sb.7",
+            "source": "d.236",
             "patch": "4.0"
         },
         "x324": {
@@ -871,14 +868,14 @@
             "name_en": "Monkey King",
             "name_fr": "Petit Qitian Dasheng",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.sb.11",
+            "source": "d.536",
             "patch": "4.3"
         },
         "x166": {
             "name_en": "Mudpie",
             "name_fr": "Pâté de boue",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.sb.13",
+            "source": "d.584",
             "patch": "4.4"
         },
         "x19": {
@@ -902,7 +899,7 @@
             "name_en": "Armadillo Bowler",
             "name_fr": "Tatou-boule",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.shb.3",
+            "source": "d.656",
             "patch": "5.0"
         },
         "x149": {
@@ -917,21 +914,21 @@
             "name_en": "Clionid Larva",
             "name_fr": "Jeune clionide",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.shb.7",
+            "source": "d.661",
             "patch": "5.0"
         },
         "x233": {
             "name_en": "Tiny Echevore",
             "name_fr": "Échevore nain",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.shb.1",
+            "source": "d.649",
             "patch": "5.0"
         },
         "x91": {
             "name_en": "Forgiven Hate",
             "name_fr": "Haine pardonnée",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.shb.4",
+            "source": "d.659",
             "patch": "5.0"
         },
         "x22": {
@@ -962,7 +959,7 @@
             "name_en": "Little Leannan",
             "name_fr": "Mini-Leannan Sith",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.shb.8",
+            "source": "d.692",
             "patch": "5.1"
         },
         "x219": {
@@ -984,7 +981,7 @@
             "name_en": "Ephemeral Necromancer",
             "name_fr": "Nécromancienne évanescente",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.shb.10",
+            "source": "d.737",
             "patch": "5.3"
         },
         "x187": {
@@ -999,7 +996,7 @@
             "name_en": "Drippy",
             "name_fr": "Drippy",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.shb.11",
+            "source": "d.746",
             "patch": "5.4"
         },
         "x242": {
@@ -1030,7 +1027,7 @@
             "name_en": "Prince Lunatender",
             "name_fr": "Prince pampa sélénien",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.ew.6",
+            "source": "d.794",
             "patch": "6.0"
         },
         "x420": {
@@ -1045,7 +1042,7 @@
             "name_en": "Tiny Troll",
             "name_fr": "Petit troll",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.ew.4",
+            "source": "d.786",
             "patch": "6.0"
         },
         "x414": {
@@ -1068,14 +1065,14 @@
             "name_en": "Wind-up Magus Sisters",
             "name_fr": "Sœurs Magus miniatures",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.ew.0",
+            "source": "d.783",
             "patch": "6.0"
         },
         "x425": {
             "name_en": "Wind-up Anima",
             "name_fr": "Anima miniature",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.ew.1",
+            "source": "d.785",
             "patch": "6.0"
         },
         "x433": {
@@ -1097,7 +1094,7 @@
             "name_en": "Sponge Silkie",
             "name_fr": "Silkie-éponge",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.v-and-c-dungeon.sildihn-subterrane.0",
+            "source": "d.868",
             "patch": "6.25"
         },
         "x39475": {
@@ -1128,7 +1125,7 @@
             "name_en": "Okuri Chochin",
             "name_fr": "Chôchin Okuri",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.v-and-c-dungeon.mount-rokkon.0",
+            "source": "d.945",
             "patch": "6.45"
         },
         "x55": {
@@ -1151,7 +1148,7 @@
             "name_en": "Faustlet",
             "name_fr": "Faust articulé",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.hw.15",
+            "source": "d.150",
             "patch": "3.2"
         },
         "x217": {
@@ -1174,28 +1171,28 @@
             "name_en": "Toy Alexander",
             "name_fr": "Alexander articulé",
             "category": "CATEGORY.RAID",
-            "source": ["duty.duty-raid-finder.raids.hw.19", "duty.duty-raid-finder.raids.hw.23"],
+            "source": ["d.189", "d.193"],
             "patch": "3.4"
         },
         "x286": {
             "name_en": "Wind-up Exdeath",
             "name_fr": "Exdeath miniature",
             "category": "CATEGORY.RAID",
-            "source": ["duty.duty-raid-finder.raids.sb.3", "duty.duty-raid-finder.raids.sb.7"],
+            "source": ["d.255", "d.259"],
             "patch": "4.01"
         },
         "x311": {
             "name_en": "Wind-up Kefka",
             "name_fr": "Kefka miniature",
             "category": "CATEGORY.RAID",
-            "source": ["duty.duty-raid-finder.raids.sb.12", "duty.duty-raid-finder.raids.sb.16"],
+            "source": ["d.289", "d.295"],
             "patch": "4.2"
         },
         "x175": {
             "name_en": "OMG",
             "name_fr": "Mini-Oméga",
             "category": "CATEGORY.RAID",
-            "source": ["duty.duty-raid-finder.raids.sb.21", "duty.duty-raid-finder.raids.sb.25"],
+            "source": ["d.590", "d.594"],
             "patch": "4.4"
         },
         "x340": {
@@ -1218,49 +1215,49 @@
             "name_en": "Eden Minor",
             "name_fr": "Mini-Éden",
             "category": "CATEGORY.RAID",
-            "source": ["duty.duty-raid-finder.raids.shb.3", "duty.duty-raid-finder.raids.shb.7"],
+            "source": ["d.689", "d.690"],
             "patch": "5.01"
         },
         "x417": {
             "name_en": "Nosferatu",
             "name_fr": "Nosferatu",
             "category": "CATEGORY.RAID",
-            "source": ["duty.duty-raid-finder.raids.ew.3", "duty.duty-raid-finder.raids.ew.7"],
+            "source": ["d.800", "d.801"],
             "patch": "6.01"
         },
         "x197": {
             "name_en": "Puff of Darkness",
             "name_fr": "Nuage noir miniature",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.arr.19",
+            "source": "d.111",
             "patch": "2.5"
         },
         "x281": {
             "name_en": "Wind-up Echidna",
             "name_fr": "Echidna miniature",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.hw.24",
+            "source": "d.120",
             "patch": "3.1"
         },
         "x268": {
             "name_en": "Wind-up Calofisteri",
             "name_fr": "Poupée Calofisteri",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.hw.25",
+            "source": "d.168",
             "patch": "3.3"
         },
         "x357": {
             "name_en": "Wind-up Scathach",
             "name_fr": "Scáthach miniature",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.hw.26",
+            "source": "d.220",
             "patch": "3.5"
         },
         "x59": {
             "name_en": "Construct 8",
             "name_fr": "Bâtisseur n°8",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.sb.27",
+            "source": "d.550",
             "patch": "4.3"
         },
         "x47": {
@@ -1282,21 +1279,21 @@
             "name_en": "Wind-up Azeyma",
             "name_fr": "Azeyma Miniature",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.ew.8",
+            "source": "d.866",
             "patch": "6.1"
         },
         "x39481": {
             "name_en": "Wind-up Halone",
             "name_fr": "Halone miniature",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.ew.18",
+            "source": "d.911",
             "patch": "6.3"
         },
         "x494": {
             "name_en": "Wind-up Oschon",
             "name_fr": "Oschon Miniature",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.ew.28",
+            "source": "d.962",
             "patch": "6.5"
         },
         "x235": {
@@ -1328,7 +1325,7 @@
             "name_en": "Nutkin",
             "name_fr": "Écureuil grignoteur",
             "category": "CATEGORY.DEEP_DUNGEON",
-            "source": "duty.duty-raid-finder.deep-dungeon.0",
+            "source": "d.174",
             "source_en": ["Unhidden Leather Map", "The Aquapolis"],
             "source_fr": ["Carte secrète en cuir", "Aquapole"],
             "patch": "2.3"
@@ -1354,7 +1351,7 @@
             "name_en": "Unicolt",
             "name_fr": "Bébé licorne",
             "category": "CATEGORY.DUNGEON",
-            "source": ["duty.duty-raid-finder.dungeons.hw.3", "duty.duty-raid-finder.deep-dungeon.0"],
+            "source": ["d.34", "d.174"],
             "source_en": "The Aquapolis",
             "source_fr": "Aquapole",
             "patch": "3.0"
@@ -1363,7 +1360,7 @@
             "name_en": "Lesser Panda",
             "name_fr": "Petit panda roux",
             "category": "CATEGORY.DUNGEON",
-            "source": ["duty.duty-raid-finder.dungeons.hw.2", "duty.duty-raid-finder.deep-dungeon.0"],
+            "source": ["d.39", "d.174"],
             "source_en": "The Aquapolis",
             "source_fr": "Aquapole",
             "patch": "3.0"
@@ -1372,7 +1369,7 @@
             "name_en": "Gestahl",
             "name_fr": "Gestahl",
             "category": "CATEGORY.VENTURE",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": ["Waterside Exploration XVIII", "Waterside Exploration XIX"],
             "source_fr": ["Exploration en rivage XVIII", "Exploration en rivage XIX"],
             "patch": "3.0"
@@ -1381,7 +1378,7 @@
             "name_en": "Dwarf Rabbit",
             "name_fr": "Lapin nain",
             "category": "CATEGORY.DEEP_DUNGEON",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": ["Kupo of Fortune", "The Aquapolis"],
             "source_fr": ["Kupo de la Fortune", "Aquapole"],
             "patch": "3.3"
@@ -1406,7 +1403,7 @@
             "name_en": "Bom Boko",
             "name_fr": "Bunbuku",
             "category": "CATEGORY.VENTURE",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": ["Field Exploration XX", "Field Exploration XXII", "Quick Exploration"],
             "source_fr": ["Exploration en plaine XX", "Exploration en plaine XXII", "Tâche improvisée"],
             "patch": "4.0"
@@ -1423,7 +1420,7 @@
             "name_en": "Black Hayate",
             "name_fr": "Kuro shiba",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.shb.0",
+            "source": "d.676",
             "patch": "5.0"
         },
         "x120": {
@@ -1442,7 +1439,7 @@
             "name_en": "White Whittret",
             "name_fr": "Fouine blanche",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.sb.9",
+            "source": "d.284",
             "patch": "4.2"
         },
         "x121": {
@@ -1481,14 +1478,14 @@
             "name_en": "Chameleon",
             "name_fr": "Caméléon",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.shb.2",
+            "source": "d.651",
             "patch": "5.0"
         },
         "x506": {
             "name_en": "Repulu",
             "name_fr": "Repulu",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.v-and-c-dungeon.aloalo-island.0",
+            "source": "d.961",
             "patch": "6.51"
         },
         "x227": {
@@ -1566,7 +1563,7 @@
             "name_en": "Hippo Calf",
             "name_fr": "Bébé hippo",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.ew.2",
+            "source": "d.789",
             "patch": "6.0"
         },
         "x411": {
@@ -1581,7 +1578,7 @@
             "name_en": "Caduceus",
             "name_fr": "Caducée",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.ew.3",
+            "source": "d.787",
             "patch": "6.0"
         },
         "x434": {
@@ -1612,7 +1609,7 @@
             "name_en": "Sewer Skink",
             "name_fr": "Laveur des canalisations",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.v-and-c-dungeon.sildihn-subterrane.0",
+            "source": "d.868",
             "patch": "6.25"
         },
         "x39474": {
@@ -1635,14 +1632,14 @@
             "name_en": "Shiromaru",
             "name_fr": "Shiromaru",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.v-and-c-dungeon.mount-rokkon.0",
+            "source": "d.945",
             "patch": "6.45"
         },
         "x490": {
             "name_en": "Kuromaru",
             "name_fr": "Kuromaru",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.v-and-c-dungeon.mount-rokkon.0",
+            "source": "d.945",
             "patch": "6.45"
         },
         "x10": {
@@ -1657,7 +1654,7 @@
             "name_en": "Odder Otter",
             "name_fr": "Loutre choute",
             "category": "CATEGORY.VENTURE",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": [
                 "Highland Exploration XIX - XXII",
                 "Woodland Exploration XIX - XXII",
@@ -1692,14 +1689,14 @@
             "name_en": "Ghido",
             "name_fr": "Ghido",
             "category": "CATEGORY.DUNGEON",
-            "source": ["duty.duty-raid-finder.dungeons.sb.0", "duty.duty-raid-finder.deep-dungeon.1"],
+            "source": ["d.238", "d.540"],
             "patch": "4.0"
         },
         "x201": {
             "name_en": "Salt & Pepper Seal",
             "name_fr": "Bébé phoque",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.sb.8",
+            "source": "d.279",
             "patch": "4.1"
         },
         "x14": {
@@ -1781,7 +1778,7 @@
             "name_en": "Bluebird",
             "name_fr": "Oiseau bleu",
             "category": "CATEGORY.DEEP_DUNGEON",
-            "source": "duty.duty-raid-finder.deep-dungeon.0",
+            "source": "d.174",
             "source_en": ["Timeworn Peisteskin Map", "Timeworn Dragonskin Map", "The Aquapolis"],
             "source_fr": ["Vieille carte en peau de peiste", "Vieille carte en peau de dragon", "Aquapole"],
             "patch": "2.1"
@@ -1799,7 +1796,7 @@
             "name_en": "Owlet",
             "name_fr": "Bébé hibou",
             "category": "CATEGORY.DUNGEON",
-            "source": ["duty.duty-raid-finder.dungeons.hw.7", "duty.duty-raid-finder.deep-dungeon.0"],
+            "source": ["d.35", "d.174"],
             "source_en": "The Aquapolis",
             "source_fr": "Aquapole",
             "patch": "3.0"
@@ -1808,7 +1805,7 @@
             "name_en": "Ugly Duckling",
             "name_fr": "Vilain petit canard",
             "category": "CATEGORY.DUNGEON",
-            "source": ["duty.duty-raid-finder.dungeons.hw.6", "duty.duty-raid-finder.deep-dungeon.0"],
+            "source": ["d.33", "d.174"],
             "source_en": ["Kupo of Fortune", "The Aquapolis"],
             "source_fr": ["Kupo de la Fortune", "Aquapole"],
             "patch": "3.0"
@@ -1817,7 +1814,7 @@
             "name_en": "Hunting Hawk",
             "name_fr": "Buse chasseuse",
             "category": "CATEGORY.PURCHASE",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": "800 Skybuilders' Scrips",
             "source_fr": "800 Assignats d'Azurée",
             "patch": "3.1"
@@ -1833,14 +1830,14 @@
             "name_en": "Road Sparrow",
             "name_fr": "Moineau voyageur",
             "category": "CATEGORY.DUNGEON",
-            "source": ["duty.duty-raid-finder.dungeons.sb.2", "duty.duty-raid-finder.deep-dungeon.1"],
+            "source": ["d.240", "d.540"],
             "patch": "4.0"
         },
         "x211": {
             "name_en": "Shoebill",
             "name_fr": "Bec-en-sabot",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.shb.5",
+            "source": "d.652",
             "patch": "5.0"
         },
         "x213": {
@@ -1870,14 +1867,14 @@
             "name_en": "Puffin",
             "name_fr": "Macareux",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.ew.11",
+            "source": "d.822",
             "patch": "6.4"
         },
         "x491": {
             "name_en": "Uolosapa",
             "name_fr": "Uolosapa",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.v-and-c-dungeon.aloalo-island.0",
+            "source": "d.961",
             "patch": "6.51"
         },
         "x345": {
@@ -2172,7 +2169,7 @@
             "name_en": "Wind-up Ifrit",
             "name_fr": "Petit Ifrit",
             "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": "Crafted by Weaver",
             "source_fr": "Recette du Couturier",
             "patch": "3.1"
@@ -2181,7 +2178,7 @@
             "name_en": "Wind-up Garuda",
             "name_fr": "Petite Garuda",
             "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": "Crafted by Weaver",
             "source_fr": "Recette du Couturier",
             "patch": "3.2"
@@ -2190,7 +2187,7 @@
             "name_en": "Wind-up Titan",
             "name_fr": "Petit Titan",
             "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": "Crafted by Weaver",
             "source_fr": "Recette du Couturier",
             "patch": "3.2"
@@ -2199,7 +2196,7 @@
             "name_en": "Wind-up Leviathan",
             "name_fr": "Petit Léviathan",
             "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": "Crafted by Weaver",
             "source_fr": "Recette du Couturier",
             "patch": "3.2"
@@ -2208,7 +2205,7 @@
             "name_en": "Wind-up Ramuh",
             "name_fr": "Petit Ramuh",
             "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": "Crafted by Weaver",
             "source_fr": "Recette du Couturier",
             "patch": "3.3"
@@ -2217,7 +2214,7 @@
             "name_en": "Wind-up Shiva",
             "name_fr": "Petite Shiva",
             "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": "Crafted by Weaver",
             "source_fr": "Recette du Couturier",
             "patch": "3.3"
@@ -2234,7 +2231,7 @@
             "name_en": "Wind-up Bismarck",
             "name_fr": "Petit Bismarck",
             "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": "Crafted by Weaver",
             "source_fr": "Recette du Couturier",
             "patch": "4.0"
@@ -2243,7 +2240,7 @@
             "name_en": "Wind-up Ravana",
             "name_fr": "Petit Ravana",
             "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": "Crafted by Weaver",
             "source_fr": "Recette du Couturier",
             "patch": "4.1"
@@ -2252,7 +2249,7 @@
             "name_en": "Wind-up Susano",
             "name_fr": "Petit Susano",
             "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": "Crafted by Weaver",
             "source_fr": "Recette du Couturier",
             "patch": "4.0"
@@ -2261,7 +2258,7 @@
             "name_en": "Wind-up Lakshmi",
             "name_fr": "Petite Lakshmi",
             "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": "Crafted by Weaver",
             "source_fr": "Recette du Couturier",
             "patch": "4.0"
@@ -2336,14 +2333,14 @@
             "name_en": "Wind-up Scarmiglione",
             "name_fr": "Scarmiglione miniature",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.ew.9",
+            "source": "d.869",
             "patch": "6.2"
         },
         "x39478": {
             "name_en": "Wind-up Cagnazzo",
             "name_fr": "Cagnazzo miniature",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.ew.10",
+            "source": "d.896",
             "patch": "6.3"
         },
         "x488": {
@@ -2358,7 +2355,7 @@
             "name_en": "Wind-up Golbez",
             "name_fr": "Golbez Miniature",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.ew.12",
+            "source": "d.823",
             "patch": "6.5"
         },
         "x75": {
@@ -2599,7 +2596,7 @@
             "name_en": "Dress-up Yugiri",
             "name_fr": "Yugiri miniature revisitée",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.sb.6",
+            "source": "d.262",
             "patch": "4.0"
         },
         "x301": {
@@ -2628,7 +2625,7 @@
             "name_en": "Wind-up Edda",
             "name_fr": "Edda miniature",
             "category": "CATEGORY.DEEP_DUNGEON",
-            "source": "duty.duty-raid-finder.deep-dungeon.0",
+            "source": "d.174",
             "patch": "3.4"
         },
         "x285": {
@@ -2718,7 +2715,7 @@
             "name_en": "Mock-up Grynewaht",
             "name_fr": "Grynewaht miniature",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.sb.3",
+            "source": "d.241",
             "patch": "4.0"
         },
         "x290": {
@@ -2741,7 +2738,7 @@
             "name_en": "Wind-up Ryne",
             "name_fr": "Ryne miniature",
             "category": "CATEGORY.RAID",
-            "source": ["duty.duty-raid-finder.raids.shb.13", "duty.duty-raid-finder.raids.shb.17"],
+            "source": ["d.728", "d.729"],
             "patch": "5.2"
         },
         "x279": {
@@ -2773,7 +2770,7 @@
             "name_en": "Wind-up Gaia",
             "name_fr": "Gaïa miniature",
             "category": "CATEGORY.RAID",
-            "source": ["duty.duty-raid-finder.raids.shb.22", "duty.duty-raid-finder.raids.shb.26"],
+            "source": ["d.758", "d.759"],
             "patch": "5.4"
         },
         "x398": {
@@ -2846,14 +2843,14 @@
             "name_en": "Wind-up Erichthonios",
             "name_fr": "Érichthonios miniature",
             "category": "CATEGORY.RAID",
-            "source": ["duty.duty-raid-finder.raids.ew.13", "duty.duty-raid-finder.raids.ew.17"],
+            "source": ["d.883", "d.884"],
             "patch": "6.2"
         },
         "x487": {
             "name_en": "Wind-up Athena",
             "name_fr": "Athéna Miniature",
             "category": "CATEGORY.RAID",
-            "source": ["duty.duty-raid-finder.raids.ew.23", "duty.duty-raid-finder.raids.ew.27"],
+            "source": ["d.942", "d.943"],
             "patch": "6.4"
         },
         "x501": {
@@ -2884,14 +2881,14 @@
             "name_en": "Enkidu",
             "name_fr": "Enkidu",
             "category": "CATEGORY.TRIAL",
-            "source": "duty.duty-raid-finder.trials.arr.10",
+            "source": "d.85",
             "patch": "2.5"
         },
         "x374": {
             "name_en": "Wind-up Ultros",
             "name_fr": "Orthros articulé",
             "category": "CATEGORY.TRIAL",
-            "source": "duty.duty-raid-finder.trials.arr.9",
+            "source": "d.81",
             "patch": "2.4"
         },
         "x150": {
@@ -2939,7 +2936,7 @@
             "name_en": "Starbird",
             "name_fr": "Oiseau stellaire",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.ew.5",
+            "source": "d.792",
             "patch": "6.0"
         },
         "x142": {
@@ -3117,7 +3114,7 @@
             "name_en": "Ancient One",
             "name_fr": "Poupée ascienne",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.shb.9",
+            "source": "d.714",
             "patch": "5.2"
         },
         "x245": {
@@ -3196,14 +3193,14 @@
             "name_en": "Magitek Avenger F1",
             "name_fr": "Vengeur magitek S1",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.sb.4",
+            "source": "d.242",
             "patch": "4.0"
         },
         "x379": {
             "name_en": "Wind-up Weapon",
             "name_fr": "Mascotte blindée",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.sb.14",
+            "source": "d.611",
             "patch": "4.45"
         },
         "x155": {
@@ -3263,14 +3260,14 @@
             "name_en": "Magitek Predator F1",
             "name_fr": "Prédateur magitek S1",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.shb.12",
+            "source": "d.777",
             "patch": "5.5"
         },
         "x418": {
             "name_en": "Optimus Omicron",
             "name_fr": "Omicron Optimus",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.ew.7",
+            "source": "d.784",
             "patch": "6.0"
         },
         "x413": {
@@ -3308,7 +3305,7 @@
             "name_en": "Teacup Kapikulu",
             "name_fr": "Kapipikulu",
             "category": "CATEGORY.DUNGEON",
-            "source": "duty.duty-raid-finder.dungeons.ew.8",
+            "source": "d.844",
             "patch": "6.1"
         },
         "x39482": {
@@ -3395,7 +3392,7 @@
             "name_en": "Miniature Minecart",
             "name_fr": "Wagonnet mécanique",
             "category": "CATEGORY.VENTURE",
-            "source": "duty.duty-raid-finder.deep-dungeon.1",
+            "source": "d.540",
             "source_en": "Highland Exploration XIV",
             "source_fr": "Exploration en montagne XIV",
             "patch": "2.3"
@@ -3543,7 +3540,7 @@
             "name_en": "Wind-up Onion Knight",
             "name_fr": "Poupée chevalier oignon",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.arr.18",
+            "source": "d.102",
             "patch": "2.3"
         },
         "x310": {
@@ -3726,7 +3723,7 @@
             "name_en": "Wind-up Ramza",
             "name_fr": "Ramza miniature",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.sb.28",
+            "source": "d.636",
             "patch": "4.45"
         },
         "x248": {
@@ -3926,49 +3923,49 @@
             "name_en": "Poogie",
             "name_fr": "Poogie",
             "category": "CATEGORY.TRIAL",
-            "source": "duty.duty-raid-finder.trials.sb.11",
+            "source": "d.475",
             "patch": "4.36"
         },
         "x190": {
             "name_en": "Pod 054",
             "name_fr": "Pod 054",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.shb.9",
+            "source": "d.700",
             "patch": "5.1"
         },
         "x191": {
             "name_en": "Pod 316",
             "name_fr": "Pod 316",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.shb.9",
+            "source": "d.700",
             "patch": "5.1"
         },
         "x0": {
             "name_en": "2B Automaton",
             "name_fr": "Automate 2B",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.shb.18",
+            "source": "d.736",
             "patch": "5.3"
         },
         "x1": {
             "name_en": "2P Automaton",
             "name_fr": "Automate 2P",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.shb.18",
+            "source": "d.736",
             "patch": "5.3"
         },
         "x399": {
             "name_en": "Smaller Stubby",
             "name_fr": "Forme de vie mécanique",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.shb.27",
+            "source": "d.779",
             "patch": "5.5"
         },
         "x392": {
             "name_en": "9S Automaton",
             "name_fr": "Automate 9S",
             "category": "CATEGORY.RAID",
-            "source": "duty.duty-raid-finder.raids.shb.27",
+            "source": "d.779",
             "patch": "5.5"
         },
         "x39477": {
