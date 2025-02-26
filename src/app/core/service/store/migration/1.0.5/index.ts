@@ -7,6 +7,7 @@ import { migrateQuests } from './quest';
 import { migrateLevequests } from './levequest';
 import { migrateMinions } from './minion';
 import { migrateMounts } from './mount';
+import { migrateOrchestrions } from './orchestrion';
 
 export function migrateTo_1_0_5(svcSaveStore: SaveStoreService): void {
     const store = new ChangeStore(svcSaveStore, '1.0.5');
@@ -17,6 +18,7 @@ export function migrateTo_1_0_5(svcSaveStore: SaveStoreService): void {
     migrateLevequests(store);
     migrateMinions(store);
     migrateMounts(store);
+    migrateOrchestrions(store);
 
     store.write();
 }
