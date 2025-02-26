@@ -248,7 +248,7 @@
         "x1659": {
             "name_en": "Pal-less Palace I",
             "name_fr": "Au fin fond de la solitude I",
-            "description_en": "Clear the 1st through the 50th floors of the Palace of the Dead solo and record a score on floor 51 or below.",
+            "description_en": "Clear the 1st through the 50th floors of the Palace of the Dead solo and reach floor 51.",
             "description_fr": "Obtenir un score en solo dans le Palais des morts en commençant par le sous-sol 1 et en s'aventurant au-delà du sous-sol 50.",
             "patch": "3.45",
             "points": 10,
@@ -257,7 +257,7 @@
         "x1660": {
             "name_en": "Pal-less Palace II",
             "name_fr": "Au fin fond de la solitude II",
-            "description_en": "Clear the 1st through the 100th floors of the Palace of the Dead solo and record a score on floor 101 or below.",
+            "description_en": "Clear the 1st through the 100th floors of the Palace of the Dead solo and reach floor 101.",
             "description_fr": "Obtenir un score en solo dans le Palais des morts en commençant par le sous-sol 1 et en s'aventurant au-delà du sous-sol 100.",
             "reward": "t.321",
             "patch": "3.45",
@@ -270,7 +270,7 @@
             "name_en": "Pal-less Palace III",
             "name_fr": "Au fin fond de la solitude III",
             "description_en": "Clear the 1st through the 200th floors of the Palace of the Dead solo.",
-            "description_fr": "Conquérir le 200e sous-sol du Palais des morts en solo, en commençant par le sous-sol 1.",
+            "description_fr": "Atteindre le 200e sous-sol du Palais des morts en solo en commençant par le 1er.",
             "reward": "t.246",
             "patch": "4.0",
             "points": 20,
@@ -281,7 +281,7 @@
             "name_en": "For the Hoard I",
             "name_fr": "Exhumation profonde I",
             "description_en": "Discover a piece of the Accursed Hoard.",
-            "description_fr": "Découvrir un trésor caché dans le Palais des morts.",
+            "description_fr": "Découvrir un trésor caché.",
             "patch": "3.4",
             "points": 5,
             "cNext": ["a.1662"]
@@ -290,7 +290,7 @@
             "name_en": "For the Hoard II",
             "name_fr": "Exhumation profonde II",
             "description_en": "Discover 100 pieces of the Accursed Hoard.",
-            "description_fr": "Découvrir 100 trésors cachés dans le Palais des morts.",
+            "description_fr": "Découvrir 100 trésors cachés.",
             "patch": "3.4",
             "points": 5,
             "cPrev": ["a.1661"],
@@ -300,7 +300,7 @@
             "name_en": "For the Hoard III",
             "name_fr": "Exhumation profonde III",
             "description_en": "Discover 1,000 pieces of the Accursed Hoard.",
-            "description_fr": "Découvrir 1 000 trésors cachés dans le Palais des morts.",
+            "description_fr": "Découvrir 1 000 trésors cachés.",
             "reward": "t.322",
             "patch": "3.4",
             "points": 10,
@@ -312,7 +312,7 @@
             "name_en": "For the Hoard IV",
             "name_fr": "Exhumation profonde IV",
             "description_en": "Discover 5,000 pieces of the Accursed Hoard.",
-            "description_fr": "Découvrir 5 000 trésors cachés dans le Palais des morts.",
+            "description_fr": "Découvrir 5 000 trésors cachés.",
             "patch": "3.4",
             "points": 20,
             "cPrev": ["a.1663"],
@@ -344,8 +344,8 @@
         "x1665": {
             "name_en": "The Trouble with Buried I",
             "name_fr": "Flair sans fond I",
-            "description_en": "Discover a piece of the Accursed Hoard without using a pomander of intuition.",
-            "description_fr": "Découvrir un trésor caché dans le Palais des morts sans utiliser de poterie magique d'intuition.",
+            "description_en": "Discover a piece of the Accursed Hoard without using a pomander or protomander of intuition.",
+            "description_fr": "Découvrir un trésor caché dans un donjon sans fond sans utiliser de poterie magique ou de magismobjet d'intuition.",
             "patch": "3.4",
             "points": 10,
             "cNext": ["a.1666"]
@@ -353,8 +353,8 @@
         "x1666": {
             "name_en": "The Trouble with Buried II",
             "name_fr": "Flair sans fond II",
-            "description_en": "Discover 100 pieces of the Accursed Hoard without using a pomander of intuition.",
-            "description_fr": "Découvrir 100 trésors cachés dans le Palais des morts sans utiliser de poterie magique d'intuition.",
+            "description_en": "Discover 100 pieces of the Accursed Hoard without using a pomander or protomander of intuition.",
+            "description_fr": "Découvrir 100 trésors cachés dans un donjon sans fond sans utiliser de poterie magique ou de magismobjet d'intuition.",
             "reward": "t.323",
             "patch": "3.4",
             "points": 20,
@@ -364,7 +364,7 @@
         "x2047": {
             "name_en": "She's So High I",
             "name_fr": "Gratter les Cieux I",
-            "description_en": "Clear the 10th floor of Heaven–on–High.",
+            "description_en": "Clear the 10th floor of Heaven-on-High.",
             "description_fr": "Conquérir le 10e étage du Pilier des Cieux.",
             "patch": "4.35",
             "points": 5,
@@ -376,7 +376,7 @@
         "x2048": {
             "name_en": "She's So High II",
             "name_fr": "Gratter les Cieux II",
-            "description_en": "Clear the 20th floor of Heaven–on–High.",
+            "description_en": "Clear the 20th floor of Heaven-on-High.",
             "description_fr": "Conquérir le 20e étage du Pilier des Cieux.",
             "patch": "4.35",
             "points": 5,
@@ -389,7 +389,7 @@
         "x2049": {
             "name_en": "She's So High III",
             "name_fr": "Gratter les Cieux III",
-            "description_en": "Clear the 30th floor of Heaven–on–High.",
+            "description_en": "Clear the 30th floor of Heaven-on-High.",
             "description_fr": "Conquérir le 30e étage du Pilier des Cieux.",
             "reward": "t.384",
             "patch": "4.35",
@@ -404,7 +404,7 @@
         "x2050": {
             "name_en": "She's So High IV",
             "name_fr": "Gratter les Cieux IV",
-            "description_en": "Clear the 50th floor of Heaven–on–High.",
+            "description_en": "Clear the 50th floor of Heaven-on-High.",
             "description_fr": "Conquérir le 50e étage du Pilier des Cieux.",
             "patch": "4.35",
             "points": 10,
@@ -417,7 +417,7 @@
         "x2051": {
             "name_en": "She's So High V",
             "name_fr": "Gratter les Cieux V",
-            "description_en": "Clear the 100th floor of Heaven–on–High.",
+            "description_en": "Clear the 100th floor of Heaven-on-High.",
             "description_fr": "Conquérir le 100e étage du Pilier des Cieux.",
             "reward": "t.385",
             "patch": "4.35",
@@ -431,7 +431,7 @@
         "x2054": {
             "name_en": "Heaven Is a Lonely Place I",
             "name_fr": "Des sommets de solitude I",
-            "description_en": "Clear the 1st through the 50th floors of Heaven–on–High solo and record a score on floor 51 or above.",
+            "description_en": "Clear the 1st through the 50th floors of Heaven-on-High solo and reach floor 51.",
             "description_fr": "Obtenir un score en solo dans le Pilier des Cieux en commençant par le 1er étage et en s'aventurant au-delà du 50e.",
             "patch": "4.35",
             "points": 10,
@@ -440,8 +440,8 @@
         "x2055": {
             "name_en": "Heaven Is a Lonely Place II",
             "name_fr": "Des sommets de solitude II",
-            "description_en": "Clear the 1st through the 100th floors of Heaven–on–High solo.",
-            "description_fr": "Obtenir un score en solo dans le Pilier des Cieux en commençant par le 1er étage et en s'aventurant jusqu'au 100e.",
+            "description_en": "Clear the 1st through the 100th floors of Heaven-on-High solo.",
+            "description_fr": "Atteindre le 100e étage du Pilier des Cieux en solo en commençant par le 1er.",
             "reward": "t.387",
             "patch": "4.35",
             "points": 10,
@@ -503,7 +503,7 @@
         "x3182": {
             "name_en": "All by Eurekaself I",
             "name_fr": "Solitude sublimée I",
-            "description_en": "Clear the 1st through the 50th floors of Eureka Orthos solo and record a score on floor 51 or below.",
+            "description_en": "Clear the 1st through the 50th floors of Eureka Orthos solo and reach floor 51.",
             "description_fr": "Obtenir un score en solo dans Eurêka Orthos en commençant par le 1er sous-sol et en s'aventurant au-delà du 50e.",
             "patch": "6.35",
             "points": 10,
@@ -642,7 +642,7 @@
             "description_en": "Achieve the “Going for Gold” feat at the Masked Carnivale.",
             "description_fr": "Accomplir la prouesse “Bleu doré” à la Grande Mascarade.",
             "reward": "t.692",
-            "patch": "6.4",
+            "patch": "6.45",
             "points": 10,
             "cSiblings": ["t.692"]
         },
@@ -651,7 +651,7 @@
             "name_fr": "Décrocher le pompon",
             "description_en": "Defeat the silkie in the Sil'dihn Subterrane variant dungeon.",
             "description_fr": "Vaincre Silkie dans “Les canalisations sildiennes - Donjon à embranchements”.",
-            "patch": "6.25",
+            "patch": "6.28",
             "points": 5
         },
         "x3149": {
@@ -659,7 +659,7 @@
             "name_fr": "Éteindre la flamme ombrée",
             "description_en": "Defeat Shadowcaster Zeless Gah in the Sil'dihn Subterrane variant dungeon.",
             "description_fr": "Vaincre Zeless Gah dans “Les canalisations sildiennes - Donjon à embranchements”.",
-            "patch": "6.25",
+            "patch": "6.28",
             "points": 5
         },
         "x3150": {
@@ -667,7 +667,7 @@
             "name_fr": "Démonter le gladiateur",
             "description_en": "Defeat the gladiator of Sil'dih in the Sil'dihn Subterrane variant dungeon.",
             "description_fr": "Vaincre le gladiateur sildien dans “Les canalisations sildiennes - Donjon à embranchements”.",
-            "patch": "6.25",
+            "patch": "6.28",
             "points": 5
         },
         "x3151": {
@@ -675,7 +675,7 @@
             "name_fr": "Casser les quatre bras",
             "description_en": "Defeat the Thorne Knight in the Sil'dihn Subterrane variant dungeon.",
             "description_fr": "Vaincre le chevalier-mage des Thorne dans “Les canalisations sildiennes - Donjon à embranchements”.",
-            "patch": "6.25",
+            "patch": "6.28",
             "points": 5
         },
         "x3155": {
@@ -683,7 +683,7 @@
             "name_fr": "Les bons tuyaux",
             "description_en": "Complete the criterion dungeon Another Sil'dihn Subterrane.",
             "description_fr": "Finir Les canalisations sildiennes annexes - Donjon alternatif.",
-            "patch": "6.25",
+            "patch": "6.28",
             "points": 10,
             "cSiblings": ["d.878"]
         },
@@ -693,7 +693,7 @@
             "description_en": "Complete the criterion dungeon Another Sil'dihn Subterrane (Savage).",
             "description_fr": "Finir Les canalisations sildiennes annexes - Donjon alternatif (sadique).",
             "reward": "t.657",
-            "patch": "6.25",
+            "patch": "6.28",
             "points": 20,
             "cSiblings": ["d.879", "t.657"]
         },
@@ -702,7 +702,7 @@
             "name_fr": "Trancher dans le manque de lard",
             "description_en": "Defeat Moko the Restless in the Mount Rokkon variant dungeon.",
             "description_fr": "Vaincre Môko le tourmenté dans “Le mont Rokkon - Donjon à embranchements”.",
-            "patch": "6.4",
+            "patch": "6.45",
             "points": 5
         },
         "x3333": {
@@ -710,7 +710,7 @@
             "name_fr": "Le rat dans sa cage aux trésors",
             "description_en": "Defeat Gorai the Uncaged in the Mount Rokkon variant dungeon.",
             "description_fr": "Vaincre Gôrai le fureteur dans “Le mont Rokkon - Donjon à embranchements”.",
-            "patch": "6.4",
+            "patch": "6.45",
             "points": 5
         },
         "x3334": {
@@ -718,7 +718,7 @@
             "name_fr": "Le roi des animaux disparus",
             "description_en": "Defeat Shishio in the Mount Rokkon variant dungeon.",
             "description_fr": "Vaincre Shishiô dans “Le mont Rokkon - Donjon à embranchements”.",
-            "patch": "6.4",
+            "patch": "6.45",
             "points": 5
         },
         "x3335": {
@@ -726,7 +726,7 @@
             "name_fr": "Partir en fumée",
             "description_en": "Defeat Enenra in the Mount Rokkon variant dungeon.",
             "description_fr": "Vaincre Enenra dans “Le mont Rokkon - Donjon à embranchements”.",
-            "patch": "6.4",
+            "patch": "6.45",
             "points": 5
         },
         "x3339": {
@@ -734,7 +734,7 @@
             "name_fr": "Déplacer des montagnes",
             "description_en": "Complete the criterion dungeon Another Mount Rokkon.",
             "description_fr": "Finir Le mont Rokkon annexe - Donjon alternatif.",
-            "patch": "6.4",
+            "patch": "6.45",
             "points": 10
         },
         "x3340": {
@@ -743,7 +743,7 @@
             "description_en": "Complete the criterion dungeon Another Mount Rokkon (Savage).",
             "description_fr": "Finir Le mont Rokkon annexe - Donjon alternatif (sadique).",
             "reward": "t.696",
-            "patch": "6.4",
+            "patch": "6.45",
             "points": 20,
             "cSiblings": ["t.696"]
         },
