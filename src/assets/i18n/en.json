@@ -594,37 +594,12 @@
     "DATA": {
         "CLASS_JOB": {
             "GLA": "Gladiator",
-            "PLD": "Paladin",
-            "MRD": "Marauder",
-            "WAR": "Warrior",
-            "DRK": "Dark Knight",
-            "GNB": "Gunbreaker",
-            "CNJ": "Conjurer",
-            "WHM": "White Mage",
-            "ACN": "Arcanist",
-            "SCH": "Scholar",
-            "AST": "Astrologian",
-            "SGE": "Sage",
             "PGL": "Pugilist",
-            "MNK": "Monk",
+            "MRD": "Marauder",
             "LNC": "Lancer",
-            "DRG": "Dragoon",
-            "ROG": "Rogue",
-            "NIN": "Ninja",
-            "SAM": "Samurai",
-            "RPR": "Reaper",
             "ARC": "Archer",
-            "BRD": "Archer",
-            "MCH": "Machinist",
-            "DNC": "Dancer",
+            "CNJ": "Conjurer",
             "THM": "Thaumaturge",
-            "BLM": "Black Mage",
-            "SMN": "Summoner",
-            "RDM": "Red Mage",
-            "BLU": "Blue Mage",
-            "MIN": "Miner",
-            "BTN": "Botanist",
-            "FSH": "Fisher",
             "CRP": "Carpenter",
             "BSM": "Blacksmith",
             "ARM": "Armorer",
@@ -632,7 +607,40 @@
             "LTW": "Leatherworker",
             "WVR": "Weaver",
             "ALC": "Alchemist",
-            "CUL": "Culinarian"
+            "CUL": "Culinarian",
+            "MIN": "Miner",
+            "BTN": "Botanist",
+            "FSH": "Fisher",
+            "PLD": "Paladin",
+            "MNK": "Monk",
+            "WAR": "Warrior",
+            "DRG": "Dragoon",
+            "BRD": "Bard",
+            "WHM": "White Mage",
+            "BLM": "Black Mage",
+            "ACN": "Arcanist",
+            "SMN": "Summoner",
+            "SCH": "Scholar",
+            "ROG": "Rogue",
+            "NIN": "Ninja",
+
+            "MCH": "Machinist",
+            "DRK": "Dark Knight",
+            "AST": "Astrologian",
+
+            "SAM": "Samurai",
+            "RDM": "Red Mage",
+            "BLU": "Blue Mage",
+
+            "GNB": "Gunbreaker",
+            "DNC": "Dancer",
+
+            "RPR": "Reaper",
+            "SGE": "Sage",
+
+            "VPR": "Viper",
+            "PCT": "Pictomancer"
+
         },
         "ZONE": {
             "LA_NOSCEA": "La Noscea",
@@ -668,7 +676,7 @@
             "THE_WAKING_SANDS": "The Waking Sands",
             "THE_GOLD_SAUCER": "The Gold Saucer",
             "CHOCOBO_SQUARE": "Chocobo Square",
-            "BATTLE_HALL": "The Triple Triad Battlehall",
+            "BATTLE_HALL": "The Battlehall",
 
             "COERTHAS_CENTRAL_HIGHLANDS": "Coerthas Central Highlands",
             "MOR_DHONA": "Mor Dhona",
@@ -712,7 +720,7 @@
             "RAK_TIKA": "The Rak'tika Greatwood",
             "THE_TEMPEST": "The Tempest",
             "GANGOS": "Gangos",
-            "THE_BOZJAN_SOUTHERN_FRONT": "The Bozjan Southern Front",
+            "BOZJAN_SOUTHERN_FRONT": "Bozjan Southern Front",
             "ZADNOR": "Zadnor",
             "TERNCLIFF": "Terncliff",
 
@@ -921,7 +929,8 @@
             "HW": "Heavensward",
             "SB": "Stormblood",
             "SHB": "Shadowbringers",
-            "EW": "Endwalker"
+            "EW": "Endwalker",
+            "DT": "Dawntrail"
         },
         "ISLAND": {
             "EXPEDITION": {
