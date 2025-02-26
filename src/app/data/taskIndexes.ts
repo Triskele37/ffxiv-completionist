@@ -22,6 +22,7 @@ const INDEX: Record<string, IndexContainer> = {
     Duty: createIndex('duty.duty-raid-finder', 'd'),
     Hunt: createIndex('duty.the-hunt', 'h'),
     Fate: createIndex('duty.fate', 'f'),
+    Orchestrion: createIndex('logs.orchestrion-list', 'o'),
     Quest: createIndex('duty.quest', 'q'),
     Title: createIndex('character.character.title', 't'),
 };
