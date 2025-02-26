@@ -25,6 +25,7 @@ const INDEX: Record<string, IndexContainer> = {
     Orchestrion: createIndex('logs.orchestrion-list', 'o'),
     Quest: createIndex('duty.quest', 'q'),
     Title: createIndex('character.character.title', 't'),
+    TripleTriadCard: createIndex('character.gold-saucer.triple-triad-card-list', 'tt'),
 };
 
 /**
