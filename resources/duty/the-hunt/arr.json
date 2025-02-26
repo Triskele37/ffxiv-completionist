@@ -2,13 +2,13 @@
     "key": "arr",
     "groupName_en": "ARR",
     "groupName_fr": "A Realm Reborn",
+    "common": ["location"],
     "tasks": {
         "x2926": {
             "rank": "B",
             "name_en": "Albin the Ashen",
             "name_fr": "Albin le blafard",
-            "location_en": "Southern Thanalan",
-            "location_fr": "Thanalan méridional",
+            "location": "ZONE.SOUTHERN_THANALAN",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.965"]
@@ -17,8 +17,7 @@
             "rank": "B",
             "name_en": "Barbastelle",
             "name_fr": "Barbastelle",
-            "location_en": "Lower La Noscea",
-            "location_fr": "Basse-Noscea",
+            "location": "ZONE.LOWER_LA_NOSCEA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.966"]
@@ -27,8 +26,7 @@
             "rank": "B",
             "name_en": "Bloody Mary",
             "name_fr": "Mary la sanglante",
-            "location_en": "Eastern La Noscea",
-            "location_fr": "Noscea orientale",
+            "location": "ZONE.EASTERN_LA_NOSCEA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.966"]
@@ -37,8 +35,7 @@
             "rank": "B",
             "name_en": "Dark Helmet",
             "name_fr": "Casque noir",
-            "location_en": "Western La Noscea",
-            "location_fr": "Noscea occidentale",
+            "location": "ZONE.WESTERN_LA_NOSCEA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.966"]
@@ -47,8 +44,7 @@
             "rank": "B",
             "name_en": "Flame Sergeant Dalvag",
             "name_fr": "Sergent-major Dalvag",
-            "location_en": "Northern Thanalan",
-            "location_fr": "Thanalan septentrional",
+            "location": "ZONE.NORTHERN_THANALAN",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.965"]
@@ -57,8 +53,7 @@
             "rank": "B",
             "name_en": "Gatling",
             "name_fr": "Acanthor",
-            "location_en": "Eastern Thanalan",
-            "location_fr": "Thanalan oriental",
+            "location": "ZONE.EASTERN_THANALAN",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.965"]
@@ -67,8 +62,7 @@
             "rank": "B",
             "name_en": "Leech King",
             "name_fr": "Roi des sangsues",
-            "location_en": "Mor Dhona",
-            "location_fr": "Mor Dhona",
+            "location": "ZONE.MOR_DHONA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.967"]
@@ -77,8 +71,7 @@
             "rank": "B",
             "name_en": "Monarch Ogrefly",
             "name_fr": "Agrion ogre monarque",
-            "location_en": "South Shroud",
-            "location_fr": "Forêt du sud",
+            "location": "ZONE.SOUTH_SHROUD",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.964"]
@@ -87,8 +80,7 @@
             "rank": "B",
             "name_en": "Myradrosh",
             "name_fr": "Myradrosh",
-            "location_en": "Upper La Noscea",
-            "location_fr": "Haute-Noscea",
+            "location": "ZONE.UPPER_LA_NOSCEA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.966"]
@@ -97,8 +89,7 @@
             "rank": "B",
             "name_en": "Naul",
             "name_fr": "Naul",
-            "location_en": "Coerthas Central Highlands",
-            "location_fr": "Hautes terres du Coerthas central",
+            "location": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.967"]
@@ -107,8 +98,7 @@
             "rank": "B",
             "name_en": "Ovjang",
             "name_fr": "Ovjang",
-            "location_en": "Central Thanalan",
-            "location_fr": "Thanalan central",
+            "location": "ZONE.CENTRAL_THANALAN",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.965"]
@@ -117,8 +107,7 @@
             "rank": "B",
             "name_en": "Phecda",
             "name_fr": "Phecda",
-            "location_en": "North Shroud",
-            "location_fr": "Forêt du nord",
+            "location": "ZONE.NORTH_SHROUD",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.964"]
@@ -127,8 +116,7 @@
             "rank": "B",
             "name_en": "Sewer Syrup",
             "name_fr": "Syrop d'égout",
-            "location_en": "Western Thanalan",
-            "location_fr": "Thanalan occidental",
+            "location": "ZONE.WESTERN_THANALAN",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.965"]
@@ -137,8 +125,7 @@
             "rank": "B",
             "name_en": "Skogs Fru",
             "name_fr": "Skogs Fru",
-            "location_en": "Middle La Noscea",
-            "location_fr": "Noscea centrale",
+            "location": "ZONE.MIDDLE_LA_NOSCEA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.966"]
@@ -147,8 +134,7 @@
             "rank": "B",
             "name_en": "Stinging Sophie",
             "name_fr": "Sophie la dardante",
-            "location_en": "East Shroud",
-            "location_fr": "Forêt de l'est",
+            "location": "ZONE.EAST_SHROUD",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.964"]
@@ -157,8 +143,7 @@
             "rank": "B",
             "name_en": "Vuokho",
             "name_fr": "Vuokho",
-            "location_en": "Outer La Noscea",
-            "location_fr": "Noscea extérieure",
+            "location": "ZONE.OUTER_LA_NOSCEA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.966"]
@@ -167,8 +152,7 @@
             "rank": "B",
             "name_en": "White Joker",
             "name_fr": "Joker blanc",
-            "location_en": "Central Shroud",
-            "location_fr": "Forêt centrale",
+            "location": "ZONE.CENTRAL_SHROUD",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.964"]
@@ -177,8 +161,7 @@
             "rank": "A",
             "name_en": "Alectryon",
             "name_fr": "Alectryon",
-            "location_en": "Western Thanalan",
-            "location_fr": "Thanalan occidental",
+            "location": "ZONE.WESTERN_THANALAN",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.970"]
@@ -187,8 +170,7 @@
             "rank": "A",
             "name_en": "Cornu",
             "name_fr": "Cornu",
-            "location_en": "Outer La Noscea",
-            "location_fr": "Noscea extérieure",
+            "location": "ZONE.OUTER_LA_NOSCEA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.971"]
@@ -197,8 +179,7 @@
             "rank": "A",
             "name_en": "Dalvag's Final Flame",
             "name_fr": "Dernière flamme de Dalvag",
-            "location_en": "Northern Thanalan",
-            "location_fr": "Thanalan septentrional",
+            "location": "ZONE.NORTHERN_THANALAN",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.970"]
@@ -207,8 +188,7 @@
             "rank": "A",
             "name_en": "Forneus",
             "name_fr": "Forneus",
-            "location_en": "Central Shroud",
-            "location_fr": "Forêt centrale",
+            "location": "ZONE.CENTRAL_SHROUD",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.969"]
@@ -217,8 +197,7 @@
             "rank": "A",
             "name_en": "Ghede Ti Malice",
             "name_fr": "Guédé Ti-Malice",
-            "location_en": "South Shroud",
-            "location_fr": "Forêt du sud",
+            "location": "ZONE.SOUTH_SHROUD",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.969"]
@@ -227,8 +206,7 @@
             "rank": "A",
             "name_en": "Girtab",
             "name_fr": "Girtab",
-            "location_en": "North Shroud",
-            "location_fr": "Forêt du nord",
+            "location": "ZONE.NORTH_SHROUD",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.969"]
@@ -237,8 +215,7 @@
             "rank": "A",
             "name_en": "Hellsclaw",
             "name_fr": "Griffe des enfers magitek",
-            "location_en": "Eastern La Noscea",
-            "location_fr": "Noscea orientale",
+            "location": "ZONE.EASTERN_LA_NOSCEA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.971"]
@@ -247,8 +224,7 @@
             "rank": "A",
             "name_en": "Kurrea",
             "name_fr": "Kurrea",
-            "location_en": "Mor Dhona",
-            "location_fr": "Mor Dhona",
+            "location": "ZONE.MOR_DHONA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.972"]
@@ -257,8 +233,7 @@
             "rank": "A",
             "name_en": "Maahes",
             "name_fr": "Maahes",
-            "location_en": "Eastern Thanalan",
-            "location_fr": "Thanalan oriental",
+            "location": "ZONE.EASTERN_THANALAN",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.970"]
@@ -267,8 +242,7 @@
             "rank": "A",
             "name_en": "Marberry",
             "name_fr": "Marberry",
-            "location_en": "Upper La Noscea",
-            "location_fr": "Haute-Noscea",
+            "location": "ZONE.UPPER_LA_NOSCEA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.971"]
@@ -277,8 +251,7 @@
             "rank": "A",
             "name_en": "Marraco",
             "name_fr": "Marraco",
-            "location_en": "Coerthas Central Highlands",
-            "location_fr": "Hautes terres du Coerthas central",
+            "location": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.972"]
@@ -287,8 +260,7 @@
             "rank": "A",
             "name_en": "Melt",
             "name_fr": "Fondu",
-            "location_en": "East Shroud",
-            "location_fr": "Forêt de l'est",
+            "location": "ZONE.EAST_SHROUD",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.969"]
@@ -297,8 +269,7 @@
             "rank": "A",
             "name_en": "Nahn",
             "name_fr": "Nahn",
-            "location_en": "Western La Noscea",
-            "location_fr": "Noscea occidentale",
+            "location": "ZONE.WESTERN_LA_NOSCEA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.971"]
@@ -307,8 +278,7 @@
             "rank": "A",
             "name_en": "Sabotender Bailarina",
             "name_fr": "Pampa ballerine",
-            "location_en": "Central Thanalan",
-            "location_fr": "Thanalan central",
+            "location": "ZONE.CENTRAL_THANALAN",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.970"]
@@ -317,8 +287,7 @@
             "rank": "A",
             "name_en": "Unktehi",
             "name_fr": "Unktehi",
-            "location_en": "Lower La Noscea",
-            "location_fr": "Basse-Noscea",
+            "location": "ZONE.LOWER_LA_NOSCEA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.971"]
@@ -327,8 +296,7 @@
             "rank": "A",
             "name_en": "Vogaal Ja",
             "name_fr": "Vogaal Ja",
-            "location_en": "Middle La Noscea",
-            "location_fr": "Noscea centrale",
+            "location": "ZONE.MIDDLE_LA_NOSCEA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.971"]
@@ -337,8 +305,7 @@
             "rank": "A",
             "name_en": "Zanig'oh",
             "name_fr": "Zanig'oh",
-            "location_en": "Southern Thanalan",
-            "location_fr": "Thanalan méridional",
+            "location": "ZONE.SOUTHERN_THANALAN",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.970"]
@@ -347,8 +314,7 @@
             "rank": "S",
             "name_en": "Agrippa the Mighty",
             "name_fr": "Agrippa",
-            "location_en": "Mor Dhona",
-            "location_fr": "Mor Dhona",
+            "location": "ZONE.MOR_DHONA",
             "condition_en": "Complete Treasure Hunt maps in the Mor Dhona region",
             "condition_fr": "Possible en ouvrant le coffre d'une carte au trésor dans la zone",
             "cCombo": ["a.977"]
@@ -357,8 +323,7 @@
             "rank": "S",
             "name_en": "Bonnacon",
             "name_fr": "Bonnacon",
-            "location_en": "Western La Noscea",
-            "location_fr": "Noscea occidentale",
+            "location": "ZONE.WESTERN_LA_NOSCEA",
             "condition_en": "Harvest a La Noscean Leek.",
             "condition_fr": "Possible après la récolte de Poireau noscéen",
             "cCombo": ["a.976"]
@@ -367,8 +332,7 @@
             "rank": "S",
             "name_en": "Brontes",
             "name_fr": "Brontes",
-            "location_en": "Central Thanalan",
-            "location_fr": "Thanalan central",
+            "location": "ZONE.CENTRAL_THANALAN",
             "condition_en": "Eat food within spawn locations",
             "condition_fr": "Possible lors de la consommation d'un plat ou d'une boisson aux coordonnées de spawn. (fonctionne en volant)",
             "cCombo": ["a.975"]
@@ -377,8 +341,7 @@
             "rank": "S",
             "name_en": "Chernobog",
             "name_fr": "Czernobog",
-            "location_en": "Outer La Noscea",
-            "location_fr": "Noscea extérieure",
+            "location": "ZONE.OUTER_LA_NOSCEA",
             "condition_en": "A player dies in Outer La Noscea",
             "condition_fr": "Possible lors de la mort d'un joueur en Noscéa extérieure",
             "cCombo": ["a.976"]
@@ -387,8 +350,7 @@
             "rank": "S",
             "name_en": "Croakadile",
             "name_fr": "Croabéros",
-            "location_en": "Lower La Noscea",
-            "location_fr": "Basse-Noscea",
+            "location": "ZONE.LOWER_LA_NOSCEA",
             "condition_en": "Appears during a Full Moon",
             "condition_fr": "Passez sur le point de spawn pendant les nuits de pleine lune",
             "cCombo": ["a.976"]
@@ -397,8 +359,7 @@
             "rank": "S",
             "name_en": "Croque-mitaine",
             "name_fr": "Croque-mitaine",
-            "location_en": "Middle La Noscea",
-            "location_fr": "Noscea centrale",
+            "location": "ZONE.MIDDLE_LA_NOSCEA",
             "condition_en": "Gather Grade 3 La Noscean Topsoil",
             "condition_fr": "Possible après l'extraction de Terreau noscéen III",
             "cCombo": ["a.976"]
@@ -407,8 +368,7 @@
             "rank": "S",
             "name_en": "Laideronnette",
             "name_fr": "Laideronnette",
-            "location_en": "Central Shroud",
-            "location_fr": "Forêt centrale",
+            "location": "ZONE.CENTRAL_SHROUD",
             "condition_en": "Spawns 6 minutes into a double rain.",
             "condition_fr": "Après 30 minutes (en temps réel) de pluie active dans la zone",
             "cCombo": ["a.974"]
@@ -417,8 +377,7 @@
             "rank": "S",
             "name_en": "Lampalagua",
             "name_fr": "Balaur",
-            "location_en": "Eastern Thanalan",
-            "location_fr": "Thanalan oriental",
+            "location": "ZONE.EASTERN_THANALAN",
             "condition_en": "Perform battlecraft leves at Camp Drybone while the spawn window is open.",
             "condition_fr": "Possible en commençant un mandat de Guilde ou de Grande Compagnie dans le Thanalan Oriental",
             "cCombo": ["a.975"]
@@ -427,8 +386,7 @@
             "rank": "S",
             "name_en": "Mindflayer",
             "name_fr": "Flagelleur mental",
-            "location_en": "South Shroud",
-            "location_fr": "Forêt du sud",
+            "location": "ZONE.SOUTH_SHROUD",
             "condition_en": "Chance to spawn at midnight of a New Moon.",
             "condition_fr": "Passez sur le point de spawn pendant les nuits de nouvelle lune",
             "cCombo": ["a.974"]
@@ -437,8 +395,7 @@
             "rank": "S",
             "name_en": "Minhocao",
             "name_fr": "Minhocao",
-            "location_en": "Northern Thanalan",
-            "location_fr": "Thanalan septentrional",
+            "location": "ZONE.NORTHERN_THANALAN",
             "condition_en": "Kill Earth Sprites",
             "condition_fr": "Tuez 100 Élémentaire de terre",
             "cCombo": ["a.975"]
@@ -447,8 +404,7 @@
             "rank": "S",
             "name_en": "Nandi",
             "name_fr": "Nandi",
-            "location_en": "Upper La Noscea",
-            "location_fr": "Haute-Noscea",
+            "location": "ZONE.UPPER_LA_NOSCEA",
             "condition_en": "Running over his spawn point with a minion out.",
             "condition_fr": "Possible en visitant les coordonnées de spawn avec une mascotte",
             "cCombo": ["a.976"]
@@ -457,8 +413,7 @@
             "rank": "S",
             "name_en": "Nunyunuwi",
             "name_fr": "Nunyunuwi",
-            "location_en": "Southern Thanalan",
-            "location_fr": "Thanalan méridional",
+            "location": "ZONE.SOUTHERN_THANALAN",
             "condition_en": "Ensure all FATEs are successful for an hour.",
             "condition_fr": "Terminez tous les ALÉAs en Thanalan Méridional pendant une heure (en temps réel) sans aucun échec",
             "cCombo": ["a.975"]
@@ -467,8 +422,7 @@
             "rank": "S",
             "name_en": "Safat",
             "name_fr": "Safat",
-            "location_en": "Coerthas Central Highlands",
-            "location_fr": "Hautes terres du Coerthas central",
+            "location": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
             "condition_en": "Leap from locations high enough to reduce your health to 1HP.",
             "condition_fr": "Tombez à 1 HP en subissant des dégâts de chute",
             "cCombo": ["a.977"]
@@ -477,8 +431,7 @@
             "rank": "S",
             "name_en": "The Garlok",
             "name_fr": "Garlok",
-            "location_en": "Eastern La Noscea",
-            "location_fr": "Noscea orientale",
+            "location": "ZONE.EASTERN_LA_NOSCEA",
             "condition_en": "After respawn window opens, if it rains it won't spawn for another 200 minutes.",
             "condition_fr": "Après 200 minutes (en temps réel) consécutives de météo sans pluie dans la zone",
             "cCombo": ["a.976"]
@@ -487,8 +440,7 @@
             "rank": "S",
             "name_en": "Thousand-cast Theda",
             "name_fr": "Theda la tripoteuse",
-            "location_en": "North Shroud",
-            "location_fr": "Forêt du nord",
+            "location": "ZONE.NORTH_SHROUD",
             "condition_en": "Fish a Judgeray",
             "condition_fr": "Possible après la pêche d'une Raie juge",
             "cCombo": ["a.974"]
@@ -497,8 +449,7 @@
             "rank": "S",
             "name_en": "Wulgaru",
             "name_fr": "Wulgaru",
-            "location_en": "East Shroud",
-            "location_fr": "Forêt de l'est",
+            "location": "ZONE.EAST_SHROUD",
             "condition_en": "Initiate or complete a Battlecraft Leve or Grand Company Leve.",
             "condition_fr": "Possible au commencement d'un mandat de Guilde ou de Grande Compagnie",
             "cCombo": ["a.974"]
@@ -507,8 +458,7 @@
             "rank": "S",
             "name_en": "Zona Seeker",
             "name_fr": "Zona Seeker",
-            "location_en": "Western Thanalan",
-            "location_fr": "Thanalan occidental",
+            "location": "ZONE.WESTERN_THANALAN",
             "condition_en": "Fish a Glimmerscale.",
             "condition_fr": "Possible après la pêche d'un Cyprin de platine",
             "cCombo": ["a.975"]

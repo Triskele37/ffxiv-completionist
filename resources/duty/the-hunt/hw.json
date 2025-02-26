@@ -2,13 +2,13 @@
     "key": "hw",
     "groupName_en": "HW",
     "groupName_fr": "Heavensward",
+    "common": ["location"],
     "tasks": {
         "x4350": {
             "rank": "B",
             "name_en": "Alteci",
             "name_fr": "Altek",
-            "location_en": "Coerthas Western Highlands",
-            "location_fr": "Hautes terres du Coerthas occidental",
+            "location": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1260"]
@@ -17,8 +17,7 @@
             "rank": "B",
             "name_en": "False Gigantopithecus",
             "name_fr": "Gigantopithèque",
-            "location_en": "The Dravanian Hinterlands",
-            "location_fr": "Arrière-pays dravanien",
+            "location": "ZONE.THE_DRAVANIAN_HINTERLANDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1259"]
@@ -27,8 +26,7 @@
             "rank": "B",
             "name_en": "Gnath Cometdrone",
             "name_fr": "Gnathe myrmicomète",
-            "location_en": "The Dravanian Forelands",
-            "location_fr": "Avant-pays dravanien",
+            "location": "ZONE.THE_DRAVANIAN_FORELANDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1259"]
@@ -37,8 +35,7 @@
             "rank": "B",
             "name_en": "Kreutzet",
             "name_fr": "Kreutzet",
-            "location_en": "Coerthas Western Highlands",
-            "location_fr": "Hautes terres du Coerthas occidental",
+            "location": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1260"]
@@ -47,8 +44,7 @@
             "rank": "B",
             "name_en": "Lycidas",
             "name_fr": "Lycidas",
-            "location_en": "Azys Lla",
-            "location_fr": "Azys Lla",
+            "location": "ZONE.AZYS_LLA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1260"]
@@ -57,8 +53,7 @@
             "rank": "B",
             "name_en": "Omni",
             "name_fr": "Omni",
-            "location_en": "Azys Lla",
-            "location_fr": "Azys Lla",
+            "location": "ZONE.AZYS_LLA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1260"]
@@ -67,8 +62,7 @@
             "rank": "B",
             "name_en": "Pterygotus",
             "name_fr": "Pterygotus",
-            "location_en": "The Dravanian Hinterlands",
-            "location_fr": "Arrière-pays dravanien",
+            "location": "ZONE.THE_DRAVANIAN_HINTERLANDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1259"]
@@ -77,8 +71,7 @@
             "rank": "B",
             "name_en": "Sanu Vali of Dancing Wings",
             "name_fr": "Sanu Vali",
-            "location_en": "The Sea of Clouds",
-            "location_fr": "L'Écume des cieux d'Abalathia",
+            "location": "ZONE.THE_SEA_OF_CLOUDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1260"]
@@ -87,8 +80,7 @@
             "rank": "B",
             "name_en": "Scitalis",
             "name_fr": "Scitalis",
-            "location_en": "The Churning Mists",
-            "location_fr": "L'Écume des cieux de Dravania",
+            "location": "ZONE.THE_CHURNING_MISTS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1259"]
@@ -97,8 +89,7 @@
             "rank": "B",
             "name_en": "Squonk",
             "name_fr": "Squonk",
-            "location_en": "The Sea of Clouds",
-            "location_fr": "L'Écume des cieux d'Abalathia",
+            "location": "ZONE.THE_SEA_OF_CLOUDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1260"]
@@ -107,8 +98,7 @@
             "rank": "B",
             "name_en": "The Scarecrow",
             "name_fr": "Dracosaure primus",
-            "location_en": "The Churning Mists",
-            "location_fr": "L'Écume des cieux de Dravania",
+            "location": "ZONE.THE_CHURNING_MISTS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1259"]
@@ -117,8 +107,7 @@
             "rank": "B",
             "name_en": "Thextera",
             "name_fr": "Texta",
-            "location_en": "The Dravanian Forelands",
-            "location_fr": "Avant-pays dravanien",
+            "location": "ZONE.THE_DRAVANIAN_FORELANDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1259"]
@@ -127,8 +116,7 @@
             "rank": "A",
             "name_en": "Agathos",
             "name_fr": "Agathos",
-            "location_en": "The Churning Mists",
-            "location_fr": "L'Écume des cieux de Dravania",
+            "location": "ZONE.THE_CHURNING_MISTS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1261"]
@@ -137,8 +125,7 @@
             "rank": "A",
             "name_en": "Bune",
             "name_fr": "Bune",
-            "location_en": "The Churning Mists",
-            "location_fr": "L'Écume des cieux de Dravania",
+            "location": "ZONE.THE_CHURNING_MISTS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1261"]
@@ -147,8 +134,7 @@
             "rank": "A",
             "name_en": "Campacti",
             "name_fr": "Campacti",
-            "location_en": "Azys Lla",
-            "location_fr": "Azys Lla",
+            "location": "ZONE.AZYS_LLA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1262"]
@@ -157,8 +143,7 @@
             "rank": "A",
             "name_en": "Enkelados",
             "name_fr": "Enkélados",
-            "location_en": "The Sea of Clouds",
-            "location_fr": "L'Écume des cieux d'Abalathia",
+            "location": "ZONE.THE_SEA_OF_CLOUDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1262"]
@@ -167,8 +152,7 @@
             "rank": "A",
             "name_en": "Lord of the Wyverns",
             "name_fr": "Seigneur des wyvernes",
-            "location_en": "The Dravanian Forelands",
-            "location_fr": "Avant-pays dravanien",
+            "location": "ZONE.THE_DRAVANIAN_FORELANDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1261"]
@@ -177,8 +161,7 @@
             "rank": "A",
             "name_en": "Lyuba",
             "name_fr": "Lyuba",
-            "location_en": "Coerthas Western Highlands",
-            "location_fr": "Hautes terres du Coerthas occidental",
+            "location": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1262"]
@@ -187,8 +170,7 @@
             "rank": "A",
             "name_en": "Mirka",
             "name_fr": "Mirka",
-            "location_en": "Coerthas Western Highlands",
-            "location_fr": "Hautes terres du Coerthas occidental",
+            "location": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1262"]
@@ -197,8 +179,7 @@
             "rank": "A",
             "name_en": "Pylraster",
             "name_fr": "Pirlasta",
-            "location_en": "The Dravanian Forelands",
-            "location_fr": "Avant-pays dravanien",
+            "location": "ZONE.THE_DRAVANIAN_FORELANDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1261"]
@@ -207,8 +188,7 @@
             "rank": "A",
             "name_en": "Sisiutl",
             "name_fr": "Sisiutl",
-            "location_en": "The Sea of Clouds",
-            "location_fr": "L'Écume des cieux d'Abalathia",
+            "location": "ZONE.THE_SEA_OF_CLOUDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1262"]
@@ -217,8 +197,7 @@
             "rank": "A",
             "name_en": "Slipkinx Steeljoints",
             "name_fr": "Slipkinx Joints-d'acier",
-            "location_en": "The Dravanian Hinterlands",
-            "location_fr": "Arrière-pays dravanien",
+            "location": "ZONE.THE_DRAVANIAN_HINTERLANDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1261"]
@@ -227,8 +206,7 @@
             "rank": "A",
             "name_en": "Stench Blossom",
             "name_fr": "Fleur Nauséabonde",
-            "location_en": "Azys Lla",
-            "location_fr": "Azys Lla",
+            "location": "ZONE.AZYS_LLA",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1262"]
@@ -237,8 +215,7 @@
             "rank": "A",
             "name_en": "Stolas",
             "name_fr": "Stolas",
-            "location_en": "The Dravanian Hinterlands",
-            "location_fr": "Arrière-pays dravanien",
+            "location": "ZONE.THE_DRAVANIAN_HINTERLANDS",
             "condition_en": "N/A",
             "condition_fr": "N/A",
             "cCombo": ["a.1261"]
@@ -247,8 +224,7 @@
             "rank": "S",
             "name_en": "Bird of Paradise",
             "name_fr": "Oiseau de Paradis",
-            "location_en": "The Sea of Clouds",
-            "location_fr": "L'Écume des cieux d'Abalathia",
+            "location": "ZONE.THE_SEA_OF_CLOUDS",
             "condition_en": "The B Rank Mark Squonk's chirp action has a chance of spawning Bird of Paradise.",
             "condition_fr": "Possible quand le rang B de la zone Squonk utilise \"Gazouillement\"",
             "cCombo": ["a.1264"]
@@ -257,8 +233,7 @@
             "rank": "S",
             "name_en": "Gandarewa",
             "name_fr": "Gandharva",
-            "location_en": "The Churning Mists",
-            "location_fr": "L'Écume des cieux de Dravania",
+            "location": "ZONE.THE_CHURNING_MISTS",
             "condition_en": "Mining Aurum Regis Ore or harvesting Seventh Heaven from Legendary Harvesting Nodes.",
             "condition_fr": "Extrayez du Minerai d'aurum regis et récoltez de la Fleur astrale 50 fois chacun",
             "cCombo": ["a.1263"]
@@ -267,8 +242,7 @@
             "rank": "S",
             "name_en": "Kaiser Behemoth",
             "name_fr": "Béhémoth Empereur",
-            "location_en": "Coerthas Western Highlands",
-            "location_fr": "Hautes terres du Coerthas occidental",
+            "location": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "condition_en": "Summon the Behemoth Heir minion and walk/fly over spawn points.",
             "condition_fr": "Possible en visitant les coordonnées de spawn avec la mascotte \"Prince bébéhémoth\"",
             "cCombo": ["a.1264"]
@@ -277,8 +251,7 @@
             "rank": "S",
             "name_en": "Leucrotta",
             "name_fr": "Leucrotta",
-            "location_en": "Azys Lla",
-            "location_fr": "Azys Lla",
+            "location": "ZONE.AZYS_LLA",
             "condition_en": "Kill 50 Allagan Chimera, 50 Meracydian Vouivre, and 50 Lesser Hydra",
             "condition_fr": "Tuez 50 chimères allagoises, 50 hydres mineures et 50 vouivres méracydiennes",
             "cCombo": ["a.1264"]
@@ -287,8 +260,7 @@
             "rank": "S",
             "name_en": "Senmurv",
             "name_fr": "Sênmurw",
-            "location_en": "The Dravanian Forelands",
-            "location_fr": "Avant-pays dravanien",
+            "location": "ZONE.THE_DRAVANIAN_FORELANDS",
             "condition_en": "Complete the Cerf's Up FATE 5 times in a row without letting it fail.",
             "condition_fr": "Finissez avec succès l'ALÉA \"Bas les hippogriffes\" 5 fois d'affilée",
             "cCombo": ["a.1263"]
@@ -297,8 +269,7 @@
             "rank": "S",
             "name_en": "The Pale Rider",
             "name_fr": "Cavalier Pâle",
-            "location_en": "The Dravanian Hinterlands",
-            "location_fr": "Arrière-pays dravanien",
+            "location": "ZONE.THE_DRAVANIAN_HINTERLANDS",
             "condition_en": "Treasure Coffer is opened from Level 60 Timeworn Wyvernskin Map.",
             "condition_fr": "Possible en ouvrant le coffre d'une carte au trésor dans la zone",
             "cCombo": ["a.1263"]

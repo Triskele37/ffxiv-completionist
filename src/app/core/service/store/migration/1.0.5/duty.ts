@@ -218,6 +218,16 @@ function migrateTrials(store: ChangeStore): void {
     store.changeKey(`${TRIALS}.ew`, 11, 924);
     store.changeKey(`${TRIALS}.ew`, 14, 950);
     store.changeKey(`${TRIALS}.ew`, 17, 965);
+
+    // Unreal
+    store.changeKey(`${TRIALS}.shb`, 13, 90999);
+    store.changeKey(`${TRIALS}.shb`, 14, 91000);
+    store.changeKey(`${TRIALS}.shb`, 15, 91001);
+    store.changeKey(`${TRIALS}.ew`, 6, 91002);
+    store.changeKey(`${TRIALS}.ew`, 9, 91003);
+    store.changeKey(`${TRIALS}.ew`, 12, 91004);
+    store.changeKey(`${TRIALS}.ew`, 15, 91005);
+    store.changeKey(`${TRIALS}.ew`, 18, 91006);
 }
 
 function migrateRaids(store: ChangeStore): void {
