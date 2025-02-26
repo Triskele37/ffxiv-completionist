@@ -5,6 +5,7 @@ import { migrateAchievements } from './achievement';
 import { migrateDuties } from './duty';
 import { migrateQuests } from './quest';
 import { migrateLevequests } from './levequest';
+import { migrateMinions } from './minion';
 import { migrateMounts } from './mount';
 
 export function migrateTo_1_0_5(svcSaveStore: SaveStoreService): void {
@@ -14,6 +15,7 @@ export function migrateTo_1_0_5(svcSaveStore: SaveStoreService): void {
     migrateDuties(store);
     migrateQuests(store);
     migrateLevequests(store);
+    migrateMinions(store);
     migrateMounts(store);
 
     store.write();

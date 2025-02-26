@@ -23,61 +23,63 @@
     },
     "common": ["category"],
     "tasks": {
-        "x249": {
-            "name_en": "Wayward Hatchling",
-            "name_fr": "Bébé chocobo",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Minion Trader - The Gold Saucer - 2,400 Gil",
-            "source_fr": "Marchande de mascottes - Gold Saucer - 2.400 gils",
-            "patch": "2.0"
+        "x149": {
+            "name_en": "Accompaniment Node",
+            "name_fr": "Sphère de guidage",
+            "category": "CATEGORY.QUEST",
+            "source": "q.67649",
+            "patch": "3.0"
         },
-        "x218": {
-            "name_en": "Storm Hatchling",
-            "name_fr": "Bébé chocobo du Maelstrom",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "20,000 Storm Seals",
-            "source_fr": "20.000 Sceaux de compagnies limséen",
-            "patch": "2.0"
-        },
-        "x206": {
-            "name_en": "Serpent Hatchling",
-            "name_fr": "Bébé chocobo des Deux Vipères",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "20,000 Serpent Seals",
-            "source_fr": "20.000 Sceaux de compagnie gridanien",
-            "patch": "2.0"
-        },
-        "x88": {
-            "name_en": "Flame Hatchling",
-            "name_fr": "Bébé chocobo des Immortels",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "20,000 Flame Seals",
-            "source_fr": "20.000 Sceaux de compagnie uldien",
-            "patch": "2.0"
-        },
-        "x51": {
-            "name_en": "Chocobo Chick Courier",
-            "name_fr": "Bébé chocobo noir volant",
+        "x98": {
+            "name_en": "Wind-up Minfilia",
+            "name_fr": "Minfillia miniature",
             "category": "CATEGORY.PREMIUM",
-            "source_en": "Heavensward Pre-order",
-            "source_fr": "Précommande de FFXIV: Heavensward",
-            "patch": "3.0",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "2.3",
             "defaultCompletion": "X"
         },
-        "x27": {
-            "name_en": "Black Chocobo Chick",
-            "name_fr": "Bébé chocobo noir",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
-            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de haut fait",
-            "patch": "2.0"
+        "x115": {
+            "name_en": "Assassin Fry",
+            "name_fr": "Fretin assassin",
+            "category": "CATEGORY.OTHER",
+            "source_en": "Desynthesize a Ninja Betta",
+            "source_fr": "Recyclage d'un betta assassin",
+            "patch": "2.4"
         },
-        "x194": {
-            "name_en": "Princely Hatchling",
-            "name_fr": "Prince bébé chocobo",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.859",
-            "patch": "2.1"
+        "x81": {
+            "name_en": "Magic Broom",
+            "name_fr": "Balai enchanté",
+            "category": "CATEGORY.CRAFTING_GATHERING",
+            "source_en": "Crafted by Carpenter",
+            "source_fr": "Recette du Menuisier",
+            "patch": "2.2"
+        },
+        "x62": {
+            "name_en": "Wind-up Brickman",
+            "name_fr": "Siman mécanique",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Breaking Brick Mountains (2014, 2017)",
+            "source_fr": "Golems hors du Commun (2014, 2017)",
+            "patch": "2.1",
+            "defaultCompletion": "X"
+        },
+        "x291": {
+            "name_en": "Clockwork Lantern",
+            "name_fr": "Lanterne mécanique",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "15,000 Wolf Marks",
+            "source_fr": "15.000 Marques de loup",
+            "patch": "4.3"
+        },
+        "x177": {
+            "name_en": "Dress-up Y'shtola",
+            "name_fr": "Nouvelle Y'shtola miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "3.35",
+            "defaultCompletion": "X"
         },
         "x106": {
             "name_en": "Heavy Hatchling",
@@ -87,14 +89,13 @@
             "source_fr": "20.000 PGS",
             "patch": "2.4"
         },
-        "x46": {
-            "name_en": "Castaway Chocobo Chick",
-            "name_fr": "Bébé chocobo des mers",
+        "x24": {
+            "name_en": "Tiny Tortoise",
+            "name_fr": "Tortue naine",
             "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "d.540",
             "source_en": "Gathered by Fisher",
             "source_fr": "Récolté par le Pêcheur",
-            "patch": "4.0"
+            "patch": "2.0"
         },
         "x461": {
             "name_en": "Ryunosuke",
@@ -104,177 +105,151 @@
             "source_fr": "Fête de la transition (2024)",
             "patch": "6.5"
         },
-        "x329": {
-            "name_en": "Wind-up Moogle",
-            "name_fr": "Poupée mog",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "A Realm Reborn Collector's Edition",
-            "source_fr": "A Realm Reborn Édition Collector",
-            "patch": "2.2",
-            "defaultCompletion": "X"
-        },
-        "x276": {
-            "name_en": "Wind-up Deliver Moogle",
-            "name_fr": "Poupée Mog postier",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code included with Delivery Moogle Plushie",
-            "source_fr": "Bonus d'achat de: \"La peluche Moogle postier\"",
-            "patch": "2.38",
-            "defaultCompletion": "X"
-        },
-        "x207": {
-            "name_en": "Set of Primogs",
-            "name_fr": "Fanfare des Primogs",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code included with Before the Fall Original Soundtrack",
-            "source_fr": "Bonus d'achat du CD :\"Before the Fall Original Soundtrack\"",
-            "patch": "3.0",
-            "defaultCompletion": "X"
-        },
-        "x221": {
-            "name_en": "Taoist Moogle",
-            "name_fr": "Mog dàoshi",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Itinerant Moogle",
-            "source_fr": "Mog itinérant",
-            "patch": "4.4",
-            "defaultCompletion": "X"
-        },
-        "x35": {
-            "name_en": "Bridesmoogle",
-            "name_fr": "Mog d'honneur",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Attend a Ceremony of Eternal Bonding (Gold/Platinum)",
-            "source_fr": "Participer à la Cérémonie du lien éternel (Or/Platine)",
-            "patch": "4.4",
-            "defaultCompletion": "X"
-        },
-        "x49": {
-            "name_en": "Cherry Bomb",
-            "name_fr": "Bombino",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Minion Trader - The Gold Saucer - 2,400 Gil",
-            "source_fr": "Marchande de mascottes - Gold Saucer - 2.400 gils",
-            "patch": "2.0"
-        },
-        "x24": {
-            "name_en": "Behemoth Heir",
-            "name_fr": "Prince bébéhémoth",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "400 Centurio Seals",
-            "source_fr": "400 Insignes Centurio",
-            "patch": "3.0"
-        },
-        "x16": {
-            "name_en": "Baby Behemoth",
-            "name_fr": "Bébéhémoth",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "A Realm Reborn Collector's Edition",
-            "source_fr": "Édition collector de A Realm Reborn",
-            "patch": "2.0",
-            "defaultCompletion": "X"
-        },
-        "x162": {
-            "name_en": "Morbol Seedling",
-            "name_fr": "Bulbe de morbol",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.5",
-            "patch": "2.0"
-        },
-        "x234": {
-            "name_en": "Tiny Rat",
-            "name_fr": "Écureuil nain",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Chachamun - Wellwick Wood - 2,400 Gil",
-            "source_fr": "Chachamun - Bois du Renouveau - 2.400 gils",
-            "patch": "2.0"
+        "x197": {
+            "name_en": "Dwarf Rabbit",
+            "name_fr": "Lapin nain",
+            "category": "CATEGORY.DEEP_DUNGEON",
+            "source": "d.540",
+            "source_en": ["Kupo of Fortune", "The Aquapolis"],
+            "source_fr": ["Kupo de la Fortune", "Aquapole"],
+            "patch": "3.3"
         },
         "x18": {
-            "name_en": "Baby Bun",
-            "name_fr": "Fungus miniature",
-            "category": "CATEGORY.FATE",
-            "source": "f.218",
-            "patch": "2.0"
-        },
-        "x50": {
-            "name_en": "Chigoe Larva",
-            "name_fr": "Chigoe apprivoisé",
-            "category": "CATEGORY.QUEST",
-            "source": "q.66266",
-            "patch": "2.0"
-        },
-        "x253": {
-            "name_en": "Wide-eyed Fawn",
-            "name_fr": "Faon aux yeux de biche",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Auriana - Mor Dhona - 3 Allagan Tomestones of Poetics",
-            "source_fr": "Auriana - Mor Dhona - 3 Mémoquartz allagois poétiques",
-            "patch": "2.0"
-        },
-        "x114": {
             "name_en": "Infant Imp",
             "name_fr": "Bébé imp",
             "category": "CATEGORY.FATE",
             "source": "f.647",
             "patch": "2.0"
         },
-        "x57": {
-            "name_en": "Coeurl Kitten",
-            "name_fr": "Joli coeurl",
-            "category": "CATEGORY.QUEST",
-            "source": "q.66827",
-            "patch": "2.1"
-        },
-        "x28": {
-            "name_en": "Black Coeurl",
-            "name_fr": "Coeurl noir",
+        "x324": {
+            "name_en": "Minitek Conveyor",
+            "name_fr": "Transporteur miniature",
             "category": "CATEGORY.PURCHASE",
-            "source_en": "20,000 MGP",
-            "source_fr": "20.000 PGS",
-            "patch": "2.51"
+            "source_en": "15,000 Wolf Marks",
+            "source_fr": "15.000 Marques de loup",
+            "patch": "4.45"
         },
-        "x104": {
-            "name_en": "Gravel Golem",
-            "name_fr": "Golem graveleux",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Goldsmith",
-            "source_fr": "Recette d'Orfèvrier",
-            "patch": "2.0"
+        "x208": {
+            "name_en": "Venoct",
+            "name_fr": "Octorgone",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
+            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
+            "patch": "3.35",
+            "defaultCompletion": "X"
         },
-        "x372": {
-            "name_en": "Wind-up Tonberry",
-            "name_fr": "Tomberry mécanique",
-            "category": "CATEGORY.DEEP_DUNGEON",
-            "source": "d.174",
-            "source_en": ["Timeworn Boarskin Map", "The Aquapolis"],
-            "source_fr": ["Vieille carte en peau de sanglier", "Aquapole"],
-            "patch": "2.1"
+        "x60": {
+            "name_en": "Wind-up Kobold",
+            "name_fr": "Poupée kobolde",
+            "category": "CATEGORY.BEAST_TRIBE",
+            "source_en": "Kobold Vendor - 789th Order Dig - 25,000 Gil",
+            "source_fr": "Vendeur kobold - Carrière du 789e ordre - 25.000 gils",
+            "patch": "2.2"
         },
-        "x237": {
-            "name_en": "Tiny Tortoise",
-            "name_fr": "Tortue naine",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Gathered by Fisher",
-            "source_fr": "Récolté par le Pêcheur",
-            "patch": "2.0"
+        "x395": {
+            "name_en": "2P Automaton",
+            "name_fr": "Automate 2P",
+            "category": "CATEGORY.RAID",
+            "source": "d.736",
+            "patch": "5.3"
         },
-        "x21": {
-            "name_en": "Baby Raptor",
-            "name_fr": "Bébé raptor",
+        "x356": {
+            "name_en": "Meerkat",
+            "name_fr": "Suricate",
+            "category": "CATEGORY.VOYAGE",
+            "source_en": "Subaquatic Voyages - Coldtoe Isle",
+            "source_fr": "Expédition sous-marine - Île de la chaussette trouée",
+            "patch": "5.1"
+        },
+        "x201": {
+            "name_en": "Komasan",
+            "name_fr": "Komasan",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
+            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
+            "patch": "3.35",
+            "defaultCompletion": "X"
+        },
+        "x264": {
+            "name_en": "Wind-up Hien",
+            "name_fr": "Hien miniature",
+            "category": "CATEGORY.WONDROUS_TAILS",
+            "source_en": "1 Khloe's Bronze Certificate of Commendation",
+            "source_fr": "1 Certificat de mérite de bronze de Khloe",
+            "patch": "4.1"
+        },
+        "x393": {
+            "name_en": "Damona",
+            "name_fr": "Damona",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Yo-kai Watch (2020)",
+            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
+            "patch": "5.3",
+            "defaultCompletion": "X"
+        },
+        "x309": {
+            "name_en": "Wind-up Cloud",
+            "name_fr": "Cloud miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "4.45",
+            "defaultCompletion": "X"
+        },
+        "x340": {
+            "name_en": "Bitty Duckbill",
+            "name_fr": "Ornithorynque nain",
             "category": "CATEGORY.PURCHASE",
-            "source_en": "Boughbury Trader - Redbelly Hive - 2,400 Gil",
-            "source_fr": "Marchand de Rambourg - Guêpier des Ventrerouge - 2.400 gils",
-            "patch": "2.0"
+            "source_en": "800 Sacks of Nuts",
+            "source_fr": "800 Insignes Kupo",
+            "patch": "5.0"
         },
-        "x15": {
-            "name_en": "Baby Bat",
-            "name_fr": "Bébé chauve-souris",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Junkmonger Nonoroon - Poor Maid's Mill - 2,400 Gil",
-            "source_fr": "Nonoroon Renigle-nid - Hameau des Malheureuses - 2.400 gils",
-            "patch": "2.0"
+        "x364": {
+            "name_en": "Pod 054",
+            "name_fr": "Pod 054",
+            "category": "CATEGORY.RAID",
+            "source": "d.700",
+            "patch": "5.1"
         },
-        "x232": {
+        "x382": {
+            "name_en": "Wind-up Ardbert",
+            "name_fr": "Ardbert miniature",
+            "category": "CATEGORY.EVENT",
+            "source_en": "The Rising (2020)",
+            "source_fr": "La fête de la Commémoration (2020)",
+            "patch": "5.3",
+            "defaultCompletion": "X"
+        },
+        "x92": {
+            "name_en": "Wind-up Onion Knight",
+            "name_fr": "Poupée chevalier oignon",
+            "category": "CATEGORY.RAID",
+            "source": "d.102",
+            "patch": "2.3"
+        },
+        "x332": {
+            "name_en": "Wind-up Ryne",
+            "name_fr": "Ryne miniature",
+            "category": "CATEGORY.RAID",
+            "source": ["d.728", "d.729"],
+            "patch": "5.2"
+        },
+        "x179": {
+            "name_en": "Brina",
+            "name_fr": "Brina",
+            "category": "CATEGORY.DUNGEON",
+            "source": "d.141",
+            "patch": "3.2"
+        },
+        "x386": {
+            "name_en": "Allagan Melon",
+            "name_fr": "Melon allagois",
+            "category": "CATEGORY.OTHER",
+            "source_en": "Gardening",
+            "source_fr": "Jardinage",
+            "patch": "5.3"
+        },
+        "x27": {
             "name_en": "Tiny Bulb",
             "name_fr": "Bulbe miniature",
             "category": "CATEGORY.DEEP_DUNGEON",
@@ -283,7 +258,7 @@
             "source_fr": ["Vieille carte en peau de crapaud", "Aquapole"],
             "patch": "2.1"
         },
-        "x78": {
+        "x28": {
             "name_en": "Dust Bunny",
             "name_fr": "Lapin mutin",
             "category": "CATEGORY.PURCHASE",
@@ -291,84 +266,82 @@
             "source_fr": "Auriana - Mor Dhona - 3 Mémoquartz allagois poétiques",
             "patch": "2.0"
         },
-        "x280": {
-            "name_en": "Wind-up Dullahan",
-            "name_fr": "Dullahan nain",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Armorer",
-            "source_fr": "Recette d'Armurier",
-            "patch": "2.0"
+        "x84": {
+            "name_en": "Wind-up Nanamo",
+            "name_fr": "Nanamo miniature",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
+            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
+            "patch": "2.45"
         },
-        "x99": {
-            "name_en": "Gigantpole",
-            "name_fr": "Têtard géant",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Gathered by Fisher",
-            "source_fr": "Récolté par le Pêcheur",
-            "patch": "2.0"
+        "x203": {
+            "name_en": "Blizzaria",
+            "name_fr": "Blizzaria",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
+            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
+            "patch": "3.35",
+            "defaultCompletion": "X"
         },
-        "x196": {
-            "name_en": "Pudgy Puk",
-            "name_fr": "Puk potelé",
-            "category": "CATEGORY.FATE",
-            "source": "f.507",
-            "patch": "2.0"
-        },
-        "x37": {
-            "name_en": "Buffalo Calf",
-            "name_fr": "Bufflon",
-            "category": "CATEGORY.QUEST",
-            "source": "q.69413",
+        "x16": {
+            "name_en": "Bluebird",
+            "name_fr": "Oiseau bleu",
+            "category": "CATEGORY.DEEP_DUNGEON",
+            "source": "d.174",
+            "source_en": ["Timeworn Peisteskin Map", "Timeworn Dragonskin Map", "The Aquapolis"],
+            "source_fr": ["Vieille carte en peau de peiste", "Vieille carte en peau de dragon", "Aquapole"],
             "patch": "2.1"
         },
-        "x41": {
-            "name_en": "Cactuar Cutting",
-            "name_fr": "Mini-pampa",
-            "category": "CATEGORY.QUEST",
-            "source": "q.66558",
-            "patch": "2.0"
+        "x212": {
+            "name_en": "USApyon",
+            "name_fr": "Usapyon",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
+            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
+            "patch": "3.35",
+            "defaultCompletion": "X"
         },
-        "x215": {
-            "name_en": "Smallshell",
-            "name_fr": "Coquépique",
-            "category": "CATEGORY.FATE",
-            "source": "f.335",
-            "patch": "2.0"
-        },
-        "x60": {
-            "name_en": "Continental Eye",
-            "name_fr": "Œil du Cirque",
+        "x222": {
+            "name_en": "Wind-up Lulu",
+            "name_fr": "Lulu miniature",
             "category": "CATEGORY.PREMIUM",
             "source_en": "Final Fantasy XIV Online Store",
             "source_fr": "Boutique en ligne Final Fantasy XIV",
             "patch": "3.4",
             "defaultCompletion": "X"
         },
-        "x387": {
+        "x381": {
+            "name_en": "Wind-up Mystel",
+            "name_fr": "Mystel miniature",
+            "category": "CATEGORY.QUEST",
+            "source": "q.69317",
+            "patch": "5.3"
+        },
+        "x99": {
+            "name_en": "Wind-up Thancred",
+            "name_fr": "Thancred miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "2.3",
+            "defaultCompletion": "X"
+        },
+        "x35": {
             "name_en": "Wolf Pup",
             "name_fr": "Bébé chacal",
             "category": "CATEGORY.QUEST",
             "source": "q.66826",
             "patch": "2.1"
         },
-        "x23": {
-            "name_en": "Beady Eye",
-            "name_fr": "Œil apprivoisé",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
-            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de haut fait",
-            "patch": "2.0"
+        "x100": {
+            "name_en": "Model Magitek Bit",
+            "name_fr": "Micro-drone magitek",
+            "category": "CATEGORY.CRAFTING_GATHERING",
+            "source_en": "Crafted by Blacksmith",
+            "source_fr": "Recette du Forgeron",
+            "patch": "2.5"
         },
-        "x198": {
-            "name_en": "Pumpkin Butler",
-            "name_fr": "Majordome citrouille",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.07",
-            "defaultCompletion": "X"
-        },
-        "x90": {
+        "x37": {
             "name_en": "Fledgling Dodo",
             "name_fr": "Dodu dodo",
             "category": "CATEGORY.PURCHASE",
@@ -376,38 +349,38 @@
             "source_fr": "Auriana - Mor Dhona - 3 Mémoquartz allagois poétiques",
             "patch": "2.0"
         },
-        "x39480": {
+        "x473": {
             "name_en": "Private Pachypodium",
             "name_fr": "Soldate pachypodium",
             "category": "CATEGORY.DEEP_DUNGEON",
             "source": "d.897",
             "patch": "6.35"
         },
-        "x119": {
-            "name_en": "Kidragora",
-            "name_fr": "Mini-mini-mandragore",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Gathered by Botanist",
-            "source_fr": "Récolté par le Botaniste",
-            "patch": "2.0"
+        "x174": {
+            "name_en": "Wind-up Nero tol Scaeva",
+            "name_fr": "Nero tol Scaeva miniature",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "30,000 MGP",
+            "source_fr": "30.000 PGS",
+            "patch": "3.2"
         },
         "x176": {
-            "name_en": "Onion Prince",
-            "name_fr": "Prince oignon",
-            "category": "CATEGORY.OTHER",
-            "source_en": "Gardening",
-            "source_fr": "Jardinage",
-            "patch": "2.3"
+            "name_en": "Faustlet",
+            "name_fr": "Faust articulé",
+            "category": "CATEGORY.RAID",
+            "source": "d.150",
+            "patch": "3.2"
         },
-        "x81": {
-            "name_en": "Eggplant Knight",
-            "name_fr": "Chevalier aubergine",
-            "category": "CATEGORY.OTHER",
-            "source_en": "Gardening",
-            "source_fr": "Jardinage",
-            "patch": "2.3"
+        "x103": {
+            "name_en": "Panda Cub",
+            "name_fr": "Petit panda pataud",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "3.25",
+            "defaultCompletion": "X"
         },
-        "x95": {
+        "x88": {
             "name_en": "Garlic Jester",
             "name_fr": "Baron ail",
             "category": "CATEGORY.OTHER",
@@ -415,15 +388,14 @@
             "source_fr": "Jardinage",
             "patch": "2.3"
         },
-        "x238": {
-            "name_en": "Tomato King",
-            "name_fr": "Roi tomate",
-            "category": "CATEGORY.OTHER",
-            "source_en": "Gardening",
-            "source_fr": "Jardinage",
-            "patch": "2.3"
+        "x314": {
+            "name_en": "Wind-up Elvaan",
+            "name_fr": "Poupée elvaan",
+            "category": "CATEGORY.EXPLORATORY_MISSION",
+            "source": "duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.pyros.1400",
+            "patch": "4.45"
         },
-        "x146": {
+        "x90": {
             "name_en": "Mandragora Queen",
             "name_fr": "Reine mandragore",
             "category": "CATEGORY.OTHER",
@@ -431,58 +403,44 @@
             "source_fr": "Jardinage",
             "patch": "2.3"
         },
-        "x56": {
-            "name_en": "Coblyn Larva",
-            "name_fr": "Larve de coblyn",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Gathered by Miner",
-            "source_fr": "Récolte du Mineur",
-            "patch": "2.0"
+        "x124": {
+            "name_en": "Wind-up Founder",
+            "name_fr": "Poupée de maître fondateur",
+            "category": "CATEGORY.BEAST_TRIBE",
+            "source_en": "Amalj'aa Vendor - Ring of Ash - 25,000 Gil",
+            "source_fr": "Vendeur amalj'aa - Camp de la Ligue des cendres - 25.000 gils",
+            "patch": "2.35"
         },
-        "x256": {
-            "name_en": "Wind-up Aldgoat",
-            "name_fr": "Mini-bouquetin",
+        "x282": {
+            "name_en": "Wind-up Magnai",
+            "name_fr": "Magnai miniature",
             "category": "CATEGORY.CRAFTING_GATHERING",
             "source_en": "Crafted by Weaver",
             "source_fr": "Recette du Couturier",
-            "patch": "2.0"
+            "patch": "4.3"
         },
-        "x89": {
-            "name_en": "Fledgling Apkallu",
-            "name_fr": "Apkallu nain",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.929",
-            "patch": "2.28"
-        },
-        "x103": {
+        "x41": {
             "name_en": "Goobbue Sproutling",
             "name_fr": "Goobbue goulu",
             "category": "CATEGORY.QUEST",
             "source": "q.66386",
             "patch": "2.0"
         },
-        "x25": {
-            "name_en": "Bite-Sized Pudding",
-            "name_fr": "Mini-pudding",
+        "x178": {
+            "name_en": "Calca",
+            "name_fr": "Calca",
             "category": "CATEGORY.DUNGEON",
-            "source": "d.10",
-            "patch": "2.0"
+            "source": ["d.141", "duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.pyros.1391"],
+            "patch": "3.2"
         },
-        "x66": {
-            "name_en": "Demon Brick",
-            "name_fr": "Bloc démonique",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.14",
-            "patch": "2.0"
+        "x301": {
+            "name_en": "Poogie",
+            "name_fr": "Poogie",
+            "category": "CATEGORY.TRIAL",
+            "source": "d.475",
+            "patch": "4.36"
         },
-        "x151": {
-            "name_en": "Mini Mole",
-            "name_fr": "Taupe trapue",
-            "category": "CATEGORY.QUEST",
-            "source": "q.67021",
-            "patch": "2.3"
-        },
-        "x222": {
+        "x46": {
             "name_en": "Tender Lamb",
             "name_fr": "Belin bêlant",
             "category": "CATEGORY.PREMIUM",
@@ -491,14 +449,16 @@
             "patch": "2.0",
             "defaultCompletion": "X"
         },
-        "x214": {
-            "name_en": "Slime Puddle",
-            "name_fr": "Mini-gluant",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.18",
-            "patch": "2.1"
+        "x116": {
+            "name_en": "Demon Box",
+            "name_fr": "Cadeau ambulant",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Attend a Ceremony of Eternal Bonding",
+            "source_fr": "Participer à une Cérémonie du lien Éternel",
+            "patch": "2.45",
+            "defaultCompletion": "X"
         },
-        "x156": {
+        "x56": {
             "name_en": "Minute Mindflayer",
             "name_fr": "Gentil flagelleur",
             "category": "CATEGORY.VENTURE",
@@ -512,7 +472,7 @@
             ],
             "patch": "2.2"
         },
-        "x230": {
+        "x57": {
             "name_en": "Tight-beaked Parrot",
             "name_fr": "Perroquet taciturne",
             "category": "CATEGORY.DUNGEON",
@@ -521,132 +481,114 @@
             "source_fr": "Aquapole",
             "patch": "2.4"
         },
-        "x20": {
-            "name_en": "Baby Opo-opo",
-            "name_fr": "Bébé opo-opo",
-            "category": "CATEGORY.DUNGEON",
-            "source": ["d.20", "d.174"],
-            "source_en": "The Aquapolis",
-            "source_fr": "Aquapole",
-            "patch": "2.2"
-        },
-        "x362": {
-            "name_en": "Wind-up Succubus",
-            "name_fr": "Poupée succube",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "500 Allied Seals",
-            "source_fr": "500 Insignes alliés",
-            "patch": "2.3"
-        },
-        "x391": {
-            "name_en": "Zu Hatchling",
-            "name_fr": "Poussin zu",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "10,000 MGP",
-            "source_fr": "10.000 PGS",
-            "patch": "2.3"
-        },
-        "x241": {
-            "name_en": "Treasure Box",
-            "name_fr": "Coffre au trésor mécanique",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "440 Allied Seals",
-            "source_fr": "440 Insignes alliés",
-            "patch": "2.3"
-        },
-        "x171": {
-            "name_en": "Naughty Nanka",
-            "name_fr": "Nanka narquois",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.23",
-            "patch": "2.3"
-        },
-        "x133": {
-            "name_en": "Littlefoot",
-            "name_fr": "Petit yéti",
-            "category": "CATEGORY.VENTURE",
-            "source_en": "Woodland Exploration XIV - XVIII",
-            "source_fr": "Exploration en forêt XIV - XVIII",
-            "patch": "2.4"
-        },
-        "x431": {
-            "name_en": "Wind-up Rudy",
-            "name_fr": "Rudy miniature",
+        "x205": {
+            "name_en": "Komajiro",
+            "name_fr": "Komajiro",
             "category": "CATEGORY.EVENT",
-            "source_en": "Starlight Celebration (2021)",
-            "source_fr": "La fête des étoiles (2021)",
-            "patch": "6.0",
+            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
+            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
+            "patch": "3.35",
             "defaultCompletion": "X"
         },
-        "x167": {
-            "name_en": "Mummy's Little Mummy",
-            "name_fr": "Mini-momie",
-            "category": "CATEGORY.DUNGEON",
-            "source": ["d.26", "d.174"],
-            "source_en": "The Aquapolis",
-            "source_fr": "Aquapole",
-            "patch": "2.4"
+        "x298": {
+            "name_en": "Wind-up Zhloe",
+            "name_fr": "Zhloe miniature",
+            "category": "CATEGORY.WONDROUS_TAILS",
+            "source_en": "1 Khloe's Bronze Certificate of Commendation",
+            "source_fr": "1 Certificat de mérite de bronze de Khloe",
+            "patch": "4.3"
         },
-        "x11": {
-            "name_en": "Atrophied Atomos",
-            "name_fr": "Atomos atrophié",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": ["Crafted by Alchemist", "Kupo of Fortune"],
-            "source_fr": ["Recette d'Alchimiste", "Kupo de la Fortune"],
-            "patch": "3.0"
+        "x412": {
+            "name_en": "Senorita Sabotender",
+            "name_fr": "Señorita Pampa",
+            "category": "CATEGORY.EVENT",
+            "source_en": "The Make It Rain Campaign (2021)",
+            "source_fr": "Le festival du Gold Saucer (2021)",
+            "patch": "5.5",
+            "defaultCompletion": "X"
         },
-        "x94": {
-            "name_en": "Gaelikitten",
-            "name_fr": "Gaélichaton",
-            "category": "CATEGORY.DUNGEON",
-            "source": ["d.37", "d.174"],
-            "source_en": ["Kupo of Fortune", "The Aquapolis"],
-            "source_fr": ["Kupo de la Fortune", "Aquapole"],
-            "patch": "3.0"
-        },
-        "x250": {
-            "name_en": "Weatherproof Gaelicat",
-            "name_fr": "Gaélichat emmitouflé",
+        "x67": {
+            "name_en": "Minion of Light",
+            "name_fr": "Héros de la Lumière",
             "category": "CATEGORY.PURCHASE",
-            "source_en": "Kupo of Fortune",
-            "source_fr": "Kupo de la Fortune",
-            "patch": "5.31"
-        },
-        "x178": {
-            "name_en": "Page 63",
-            "name_fr": "Page 63",
-            "category": "CATEGORY.DUNGEON",
-            "source": ["character.blue-mage.log.dungeons.21", "d.174"],
-            "source_en": "The Aquapolis",
-            "source_fr": "Aquapole",
-            "patch": "3.0"
-        },
-        "x115": {
-            "name_en": "Iron Dwarf",
-            "name_fr": "Nain d'acier",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Armorer",
-            "source_fr": "Recette d'Armurier",
-            "patch": "3.0"
+            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
+            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
+            "patch": "2.1"
         },
         "x105": {
-            "name_en": "Griffin Hatchling",
-            "name_fr": "Bébé griffon",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "400 Centurio Seals",
-            "source_fr": "400 Insignes Centurio",
-            "patch": "3.0"
+            "name_en": "Hoary the Snowman",
+            "name_fr": "Bébé bonhomme de neige",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "2.45",
+            "defaultCompletion": "X"
         },
-        "x179": {
-            "name_en": "Paissa Brat",
-            "name_fr": "Petiot païssa",
-            "category": "CATEGORY.PURCHASE",
-            "source": "d.174",
-            "source_en": ["800 Skybuilders' Scrips", "Timeworn Dragonskin Map", "The Aquapolis"],
-            "source_fr": ["800 Assignats d'Azurée", "Vieille carte en peau de dragon", "Aquapole"],
-            "patch": "3.1"
+        "x443": {
+            "name_en": "Royal Lunatender",
+            "name_fr": "Roi pampa sélénien",
+            "category": "CATEGORY.TREASURE_HUNT",
+            "source_en": "The Excitatron 6000",
+            "source_fr": "Le Ludodrome",
+            "patch": "6.05"
         },
-        "x180": {
+        "x210": {
+            "name_en": "Hovernyan",
+            "name_fr": "Hovernyan",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
+            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
+            "patch": "3.35",
+            "defaultCompletion": "X"
+        },
+        "x383": {
+            "name_en": "Magitek Helldiver F1",
+            "name_fr": "Plongeur infernal S1",
+            "category": "CATEGORY.EXPLORATORY_MISSION",
+            "source": "duty.exploratory-missions.the-bozjan-southern-front.duties.0",
+            "patch": "5.35"
+        },
+        "x220": {
+            "name_en": "Wind-up Yuna",
+            "name_fr": "Yuna miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "3.5",
+            "defaultCompletion": "X"
+        },
+        "x2": {
+            "name_en": "Mammet #001",
+            "name_fr": "Pantin P001",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Minion Trade - The Gold Saucer - 2,400 Gil",
+            "source_fr": "Marchande de mascottes - Gold Saucer - 2.400 gils",
+            "patch": "2.0"
+        },
+        "x227": {
+            "name_en": "Angel of Mercy",
+            "name_fr": "Ange de la résurrection",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "3.5",
+            "defaultCompletion": "X"
+        },
+        "x374": {
+            "name_en": "Ancient One",
+            "name_fr": "Poupée ascienne",
+            "category": "CATEGORY.DUNGEON",
+            "source": "d.714",
+            "patch": "5.2"
+        },
+        "x252": {
+            "name_en": "Mock-up Grynewaht",
+            "name_fr": "Grynewaht miniature",
+            "category": "CATEGORY.DUNGEON",
+            "source": "d.241",
+            "patch": "4.0"
+        },
+        "x372": {
             "name_en": "Paissa Patissier",
             "name_fr": "Païssa cuisinier",
             "category": "CATEGORY.PURCHASE",
@@ -654,43 +596,16 @@
             "source_fr": "Kupo de la Fortune",
             "patch": "5.21"
         },
-        "x181": {
-            "name_en": "Paissa Threadpuller",
-            "name_fr": "Païssa couturier",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Kupo of Fortune",
-            "source_fr": "Kupo de la Fortune",
-            "patch": "5.21"
+        "x297": {
+            "name_en": "Wind-up Tsukuyomi",
+            "name_fr": "Poupée Tsukuyomi",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Item code included with Stormblood Original Soundtrack",
+            "source_fr": "Bonus d'achat du CD: \"Stormblood Original Soundtrack\"",
+            "patch": "4.3",
+            "defaultCompletion": "X"
         },
-        "x209": {
-            "name_en": "Shalloweye",
-            "name_fr": "Poussin oculus",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.1382",
-            "patch": "3.1"
-        },
-        "x124": {
-            "name_en": "Korpokkur Kid",
-            "name_fr": "Pon-korpokkur",
-            "category": "CATEGORY.DUNGEON",
-            "source": ["d.41", "d.540"],
-            "patch": "3.1"
-        },
-        "x44": {
-            "name_en": "Calca",
-            "name_fr": "Calca",
-            "category": "CATEGORY.DUNGEON",
-            "source": ["d.141", "duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.pyros.1391"],
-            "patch": "3.2"
-        },
-        "x36": {
-            "name_en": "Brina",
-            "name_fr": "Brina",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.141",
-            "patch": "3.2"
-        },
-        "x163": {
+        "x180": {
             "name_en": "Morpho",
             "name_fr": "Morpho",
             "category": "CATEGORY.DUNGEON",
@@ -699,38 +614,30 @@
             "source_fr": "Kupo de la Fortune",
             "patch": "3.2"
         },
-        "x193": {
+        "x260": {
+            "name_en": "Wind-up Khloe",
+            "name_fr": "Khloe miniature",
+            "category": "CATEGORY.WONDROUS_TAILS",
+            "source_en": "1 Khloe's Bronze Certificate of Commendation",
+            "source_fr": "1 Certificat de mérite de bronze de Khloe",
+            "patch": "4.0"
+        },
+        "x181": {
             "name_en": "Poro Roggo",
             "name_fr": "Poro Roggo",
             "category": "CATEGORY.QUEST",
             "source": "q.67768",
             "patch": "3.2"
         },
-        "x87": {
-            "name_en": "Fenrir Pup",
-            "name_fr": "Bébé Fenrir",
-            "category": "CATEGORY.OTHER",
-            "source_en": "The Feast / Crystalline Conflict: Random Drop",
-            "source_fr": "Crystalline Conflict: obtention aléatoire",
-            "patch": "3.2"
+        "x66": {
+            "name_en": "Plush Cushion",
+            "name_fr": "Coussin moelleux",
+            "category": "CATEGORY.CRAFTING_GATHERING",
+            "source_en": "Crafted by Weaver",
+            "source_fr": "Recette du Couturier",
+            "patch": "2.2"
         },
-        "x43": {
-            "name_en": "Calamari",
-            "name_fr": "Tentacule minuscule",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.172",
-            "patch": "3.3"
-        },
-        "x17": {
-            "name_en": "Baby Brachiosaur",
-            "name_fr": "Bébé brachiosaure",
-            "category": "CATEGORY.PURCHASE",
-            "source": "d.540",
-            "source_en": "800 Skybuilders' Scrips",
-            "source_fr": "800 Assignats d'Azurée",
-            "patch": "3.55b"
-        },
-        "x184": {
+        "x194": {
             "name_en": "Pegasus Colt",
             "name_fr": "Poulain pégase",
             "category": "CATEGORY.PURCHASE",
@@ -738,7 +645,7 @@
             "source_fr": "800 Assignats d'Azurée",
             "patch": "3.55b"
         },
-        "x356": {
+        "x196": {
             "name_en": "Wind-up Sasquatch",
             "name_fr": "Mini-sasquatch",
             "category": "CATEGORY.DEEP_DUNGEON",
@@ -746,7 +653,7 @@
             "source_fr": "E-Una-Kotor - Moulin de la Carrière - 3 Tessons de poterie gelmorraine",
             "patch": "3.35"
         },
-        "x107": {
+        "x198": {
             "name_en": "Hecteye",
             "name_fr": "Hectoculus monoculaire",
             "category": "CATEGORY.DEEP_DUNGEON",
@@ -754,85 +661,69 @@
             "source_fr": "E-Una-Kotor - Moulin de la Carrière - 3 Tessons de poterie gelmorraine",
             "patch": "3.35"
         },
-        "x208": {
-            "name_en": "Shaggy Shoat",
-            "name_fr": "Marcassin",
-            "category": "CATEGORY.DUNGEON",
-            "source": ["d.182", "d.540"],
-            "patch": "3.4"
+        "x300": {
+            "name_en": "Palico",
+            "name_fr": "Felyne",
+            "category": "CATEGORY.QUEST",
+            "source": "q.67090",
+            "patch": "4.36"
         },
-        "x38": {
-            "name_en": "Bullpup",
-            "name_fr": "Chiot bulldog",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.219",
-            "source_en": "Kupo of Fortune",
-            "source_fr": "Kupo de la Fortune",
-            "patch": "3.5"
-        },
-        "x110": {
+        "x234": {
             "name_en": "Hellpup",
             "name_fr": "Chiot des enfers",
             "category": "CATEGORY.ACHIEVEMENT",
             "source": "a.1749",
             "patch": "3.55a"
         },
-        "x84": {
-            "name_en": "Faepup",
-            "name_fr": "Chiot fantasmagorique",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.1754",
-            "patch": "3.55a"
+        "x215": {
+            "name_en": "Toy Alexander",
+            "name_fr": "Alexander articulé",
+            "category": "CATEGORY.RAID",
+            "source": ["d.189", "d.193"],
+            "patch": "3.4"
         },
-        "x236": {
-            "name_en": "Tiny Tatsunoko",
-            "name_fr": "Hippocampoupon",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "d.540",
-            "source_en": "Gathered by Fisher",
-            "source_fr": "Récolté par le Pêcheur",
-            "patch": "4.0"
+        "x391": {
+            "name_en": "Lord Ananta",
+            "name_fr": "Lord Ananta",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Yo-kai Watch (2020)",
+            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
+            "patch": "5.3",
+            "defaultCompletion": "X"
         },
-        "x33": {
-            "name_en": "Bombfish",
-            "name_fr": "Poisson-bombo",
-            "category": "CATEGORY.DUNGEON",
-            "source": ["d.235", "d.540"],
-            "patch": "4.0"
+        "x310": {
+            "name_en": "Wind-up Aerith",
+            "name_fr": "Aerith miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "4.45",
+            "defaultCompletion": "X"
         },
-        "x117": {
-            "name_en": "Ivon Coeurlfist Doll",
-            "name_fr": "Poupée Ivon le Coeurl",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.236",
-            "patch": "4.0"
+        "x365": {
+            "name_en": "Pod 316",
+            "name_fr": "Pod 316",
+            "category": "CATEGORY.RAID",
+            "source": "d.700",
+            "patch": "5.1"
         },
-        "x324": {
-            "name_en": "Wind-up Matanga",
-            "name_fr": "Matanga mécanique",
-            "category": "CATEGORY.TREASURE_HUNT",
-            "source_en": "The Hidden Canals of Uznair",
-            "source_fr": "Canaux cachés d'Uznair",
-            "patch": "4.1"
+        "x51": {
+            "name_en": "Wind-up Cursor",
+            "name_fr": "Curseur flottant",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
+            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
+            "patch": "2.0"
         },
-        "x309": {
-            "name_en": "Wind-up Ixion",
-            "name_fr": "Petit Ixion",
-            "category": "CATEGORY.FATE",
-            "source_en": "Eschina - Rhalgr's Reach - 5 Ixion Horns (FATE \"A Horse Outside\")",
-            "source_fr": "Eschina - L'Étendue de Rhalgr - 5 Cornes d'Ixion",
-            "patch": "4.1"
+        "x228": {
+            "name_en": "Wind-up Estinien",
+            "name_fr": "Estinien miniature",
+            "category": "CATEGORY.WONDROUS_TAILS",
+            "source_en": "1 Khloe's Bronze Certificate of Commendation",
+            "source_fr": "1 Certificat de mérite de bronze de Khloe",
+            "patch": "3.5"
         },
         "x287": {
-            "name_en": "Wind-up Fafnir",
-            "name_fr": "Fafnir mécanique",
-            "category": "CATEGORY.EXPLORATORY_MISSION",
-            "source": "duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.anemos.1331",
-            "source_en": "Anemos Lockbox",
-            "source_fr": "Coffre verrouillé d'Anemos",
-            "patch": "4.25"
-        },
-        "x229": {
             "name_en": "The Prince of Anemos",
             "name_fr": "Prince d'Anemos",
             "category": "CATEGORY.EXPLORATORY_MISSION",
@@ -841,150 +732,119 @@
             "source_fr": "Coffre verrouillé d'Anemos",
             "patch": "4.25"
         },
-        "x61": {
-            "name_en": "Copycat Bulb",
-            "name_fr": "Pousse de Cassie",
-            "category": "CATEGORY.EXPLORATORY_MISSION",
-            "source_en": "Happy Bunny Lockbox - Eureka Pagos",
-            "source_fr": "Coffre verrouillé de Pagos - Eurêka: Pagos",
-            "patch": "4.36"
+        "x21": {
+            "name_en": "Wind-up Gentleman",
+            "name_fr": "Hildibrand miniature",
+            "category": "CATEGORY.QUEST",
+            "source": "q.66038",
+            "patch": "2.5"
         },
-        "x67": {
-            "name_en": "Dhalmel Calf",
-            "name_fr": "Bébé dhalmel",
-            "category": "CATEGORY.EXPLORATORY_MISSION",
-            "source_en": ["Pyros Lockbox", "Heat-warped Lockbox"],
-            "source_fr": ["Coffre verrouillé de Pyros", "Coffre roussi"],
-            "patch": "4.45"
+        "x193": {
+            "name_en": "Wind-up Aymeric",
+            "name_fr": "Aymeric miniature",
+            "category": "CATEGORY.QUEST",
+            "source": "q.67783",
+            "patch": "3.3"
         },
-        "x58": {
-            "name_en": "Conditional Virtue",
-            "name_fr": "Mini-vertu",
-            "category": "CATEGORY.EXPLORATORY_MISSION",
-            "source": "duty.exploratory-missions.the-forbidden-land-eureka.duties.0",
-            "patch": "4.5"
-        },
-        "x161": {
-            "name_en": "Monkey King",
-            "name_fr": "Petit Qitian Dasheng",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.536",
-            "patch": "4.3"
-        },
-        "x166": {
-            "name_en": "Mudpie",
-            "name_fr": "Pâté de boue",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.584",
-            "patch": "4.4"
-        },
-        "x19": {
-            "name_en": "Baby Gremlin",
-            "name_fr": "Bébé gremlin",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Shadowbringers Pre-order",
-            "source_fr": "Précommande de Shadowbringers",
-            "patch": "4.45",
-            "defaultCompletion": "X"
-        },
-        "x388": {
-            "name_en": "Yukinko Snowflake",
-            "name_fr": "Ko-yukinko",
-            "category": "CATEGORY.EXPLORATORY_MISSION",
-            "source_en": ["Hydatos Lockbox", "Moisture-warped Lockbox"],
-            "source_fr": ["Coffre verrouillé d'Hydatos", "Coffre rouillé"],
-            "patch": "4.5"
-        },
-        "x9": {
-            "name_en": "Armadillo Bowler",
-            "name_fr": "Tatou-boule",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.656",
-            "patch": "5.0"
-        },
-        "x149": {
-            "name_en": "Micro Gigantender",
-            "name_fr": "Mini-gigapampa",
-            "category": "CATEGORY.FATE",
-            "source_en": "400 Bicolor Gemstones (Amh Araeng)",
-            "source_fr": "400 gemmes bicolores (Amh Araeng)",
-            "patch": "5.0"
-        },
-        "x52": {
-            "name_en": "Clionid Larva",
-            "name_fr": "Jeune clionide",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.661",
-            "patch": "5.0"
-        },
-        "x233": {
-            "name_en": "Tiny Echevore",
-            "name_fr": "Échevore nain",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.649",
-            "patch": "5.0"
-        },
-        "x91": {
-            "name_en": "Forgiven Hate",
-            "name_fr": "Haine pardonnée",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.659",
-            "patch": "5.0"
-        },
-        "x22": {
-            "name_en": "Bacon Bits",
-            "name_fr": "Bout-de-cochon",
-            "category": "CATEGORY.VENTURE",
-            "source_en": ["Woodland Exploration XXV", "Quick Exploration"],
-            "source_fr": ["Exploration en forêt XXV", "Tâche improvisée"],
-            "patch": "5.1"
-        },
-        "x168": {
-            "name_en": "Mystic Weapon",
-            "name_fr": "Arme mystique",
-            "category": "CATEGORY.VENTURE",
-            "source_en": ["Field Exploration XXV", "Quick Exploration"],
-            "source_fr": ["Exploration en plaine XXV", "Tâche improvisée"],
-            "patch": "5.1"
-        },
-        "x153": {
-            "name_en": "Miniature White Knight",
-            "name_fr": "Mini-cavalier blanc",
+        "x360": {
+            "name_en": "Dress-up Estinien",
+            "name_fr": "Nouvel Estinien miniature",
             "category": "CATEGORY.PURCHASE",
             "source_en": "1,200 Skybuilders' Scrips",
             "source_fr": "1.200 Assignats d'Azurée",
             "patch": "5.11"
         },
-        "x130": {
-            "name_en": "Little Leannan",
-            "name_fr": "Mini-Leannan Sith",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.692",
-            "patch": "5.1"
+        "x325": {
+            "name_en": "Wind-up Fran",
+            "name_fr": "Fran miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Shadowbringers Collector's Edition",
+            "source_fr": "Shadowbringers Édition Collector",
+            "patch": "5.0",
+            "defaultCompletion": "X"
         },
-        "x219": {
-            "name_en": "Sungold Talos",
-            "name_fr": "Talos d'or",
-            "category": "CATEGORY.TREASURE_HUNT",
-            "source_en": "The Dungeons of Lyhe Ghiah",
-            "source_fr": "Donjon hypogéen du Lyhe Ghiah",
-            "patch": "5.2"
+        "x171": {
+            "name_en": "Wind-up Leviathan",
+            "name_fr": "Petit Léviathan",
+            "category": "CATEGORY.CRAFTING_GATHERING",
+            "source": "d.540",
+            "source_en": "Crafted by Weaver",
+            "source_fr": "Recette du Couturier",
+            "patch": "3.2"
+        },
+        "x235": {
+            "name_en": "Wind-up Ohl Deeh",
+            "name_fr": "Ohl Deeh miniature",
+            "category": "CATEGORY.BEAST_TRIBE",
+            "source_en": "Mogmul Mogbelly - Bahrr Lehs - 30,000 Gil",
+            "source_fr": "Mogmul - Bahrr Lehs - 30.000 gils",
+            "patch": "3.5"
         },
         "x140": {
-            "name_en": "Malone",
-            "name_fr": "Malone",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.2523",
-            "patch": "5.21"
+            "name_en": "Clockwork Barrow",
+            "name_fr": "Brouette mécanique",
+            "category": "CATEGORY.CRAFTING_GATHERING",
+            "source_en": "Crafted by Carpenter",
+            "source_fr": "Recette de Menuisier",
+            "patch": "3.0"
         },
-        "x83": {
-            "name_en": "Ephemeral Necromancer",
-            "name_fr": "Nécromancienne évanescente",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.737",
-            "patch": "5.3"
+        "x270": {
+            "name_en": "Wind-up Ramza",
+            "name_fr": "Ramza miniature",
+            "category": "CATEGORY.RAID",
+            "source": "d.636",
+            "patch": "4.45"
         },
-        "x187": {
+        "x221": {
+            "name_en": "Wind-up Rikku",
+            "name_fr": "Rikku miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "3.4",
+            "defaultCompletion": "X"
+        },
+        "x61": {
+            "name_en": "Wind-up Sahagin",
+            "name_fr": "Pantin sahuagin",
+            "category": "CATEGORY.BEAST_TRIBE",
+            "source_en": "Sahagin Vendor - Novv's Nursery - 25,000 Gil",
+            "source_fr": "Vendeur sahuagin - Couvée de Novv - 25.000 gils",
+            "patch": "2.2"
+        },
+        "x232": {
+            "name_en": "Wind-up Scathach",
+            "name_fr": "Scáthach miniature",
+            "category": "CATEGORY.RAID",
+            "source": "d.220",
+            "patch": "3.5"
+        },
+        "x151": {
+            "name_en": "Peridot Carbuncle",
+            "name_fr": "Carbuncle péridot",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Item code included with Emerald Carbuncle Plushie",
+            "source_fr": "Bonus d'achat de la peluche: \"Carbuncle émeraude\"",
+            "patch": "3.0",
+            "defaultCompletion": "X"
+        },
+        "x50": {
+            "name_en": "Wind-up Sylph",
+            "name_fr": "Sylphe nain",
+            "category": "CATEGORY.BEAST_TRIBE",
+            "source_en": "Sylphic Vendor - Little Solace - 25,000 Gil",
+            "source_fr": "Vendeur sylphe - Le Refuge - 25.000 gils",
+            "patch": "2.1"
+        },
+        "x296": {
+            "name_en": "Wind-up Tarutaru",
+            "name_fr": "Poupée Tarutaru",
+            "category": "CATEGORY.EXPLORATORY_MISSION",
+            "source_en": "Pagos Lockbox",
+            "source_fr": "Coffre verrouillé de Pagos",
+            "patch": "4.36"
+        },
+        "x388": {
             "name_en": "Petit Pteranodon",
             "name_fr": "Petit Pteranodon",
             "category": "CATEGORY.PURCHASE",
@@ -992,68 +852,48 @@
             "source_fr": "Kupo de la Fortune",
             "patch": "5.31"
         },
-        "x77": {
-            "name_en": "Drippy",
-            "name_fr": "Drippy",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.746",
-            "patch": "5.4"
+        "x417": {
+            "name_en": "Wind-up Runar",
+            "name_fr": "Runar miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Item code included with The Art of Reflection -Histories Unwritten- Artbook",
+            "source_fr": "Bonus d'achat de l'artbook: \"The Art of Reflection -Histories Unwritten- Artbook\"",
+            "patch": "5.5",
+            "defaultCompletion": "X"
         },
-        "x242": {
-            "name_en": "Trike",
-            "name_fr": "Trike",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Kupo of Fortune",
-            "source_fr": "Kupo de la Fortune",
-            "patch": "5.41"
+        "x402": {
+            "name_en": "Wind-up Rydia",
+            "name_fr": "Rydia miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Digital Fan Festival (2021)",
+            "source_fr": "Digital Fan Festival (2021)",
+            "patch": "5.5",
+            "defaultCompletion": "X"
         },
-        "x5": {
-            "name_en": "Amaro Hatchling",
-            "name_fr": "Bébé amaro",
-            "category": "CATEGORY.FATE",
-            "source_en": "400 Bicolor Gemstones (The Crystarium)",
-            "source_fr": "400 Gemme bicolore (Cristarium)",
-            "patch": "5.4"
-        },
-        "x424": {
-            "name_en": "Wee Ea",
-            "name_fr": "Mini-Éa",
-            "category": "CATEGORY.FATE",
-            "source_en": "500 Bicolor Gemstones (Ultima Thule)",
-            "source_fr": "500 Gemme bicolore (Ultima Thulé)",
-            "patch": "6.0"
-        },
-        "x419": {
-            "name_en": "Prince Lunatender",
-            "name_fr": "Prince pampa sélénien",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.794",
-            "patch": "6.0"
-        },
-        "x420": {
-            "name_en": "Royal Lunatender",
-            "name_fr": "Roi pampa sélénien",
-            "category": "CATEGORY.TREASURE_HUNT",
-            "source_en": "The Excitatron 6000",
-            "source_fr": "Le Ludodrome",
-            "patch": "6.05"
-        },
-        "x423": {
-            "name_en": "Tiny Troll",
-            "name_fr": "Petit troll",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.786",
-            "patch": "6.0"
-        },
-        "x414": {
-            "name_en": "Greener Gleaner",
-            "name_fr": "Glaneur vert",
+        "x445": {
+            "name_en": "Wind-up Kangaroo",
+            "name_fr": "Kangourou Miniature",
             "category": "CATEGORY.VENTURE",
-            "source_en": "Woodland Exploration XXVI - XXVII",
-            "source_fr": "Exploration en forêt XXVI - XXVII",
-            "patch": "6.0"
+            "source_en": "Highland Exploration XXVIII",
+            "source_fr": "Exploration en montagne XXVIII",
+            "patch": "6.1"
         },
-        "x426": {
+        "x450": {
+            "name_en": "Hatching Bunny",
+            "name_fr": "Laprœuf joyeux",
+            "category": "CATEGORY.QUEST",
+            "source": "q.70126",
+            "patch": "6.1"
+        },
+        "x449": {
+            "name_en": "Clockwork Novus D",
+            "name_fr": "Novus D. Mécanique",
+            "category": "CATEGORY.VENTURE",
+            "source_en": "Field Exploration XXVIII",
+            "source_fr": "Exploration en plaine XXVIII",
+            "patch": "6.1"
+        },
+        "x442": {
             "name_en": "Wind-up Daivadipa",
             "name_fr": "Daïvadipa miniature",
             "category": "CATEGORY.PURCHASE",
@@ -1061,26 +901,19 @@
             "source_fr": "5 Orbes sacrées de Daivadipa",
             "patch": "6.0"
         },
-        "x429": {
+        "x424": {
             "name_en": "Wind-up Magus Sisters",
             "name_fr": "Sœurs Magus miniatures",
             "category": "CATEGORY.DUNGEON",
             "source": "d.783",
             "patch": "6.0"
         },
-        "x425": {
+        "x426": {
             "name_en": "Wind-up Anima",
             "name_fr": "Anima miniature",
             "category": "CATEGORY.DUNGEON",
             "source": "d.785",
             "patch": "6.0"
-        },
-        "x433": {
-            "name_en": "Hatching Bunny",
-            "name_fr": "Laprœuf joyeux",
-            "category": "CATEGORY.QUEST",
-            "source": "q.70126",
-            "patch": "6.1"
         },
         "x457": {
             "name_en": "Lumini",
@@ -1097,7 +930,7 @@
             "source": "d.868",
             "patch": "6.25"
         },
-        "x39475": {
+        "x468": {
             "name_en": "Sky Blue Back",
             "name_fr": "Dronte échine-bleu ciel",
             "category": "CATEGORY.PURCHASE",
@@ -1128,14 +961,15 @@
             "source": "d.945",
             "patch": "6.45"
         },
-        "x55": {
-            "name_en": "Clockwork Twintania",
-            "name_fr": "Mini-Gémellia",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.1380",
-            "patch": "3.1"
+        "x436": {
+            "name_en": "Adventure Basket",
+            "name_fr": "Malle d'aventure",
+            "category": "CATEGORY.CRAFTING_GATHERING",
+            "source_en": "Crafted by Weaver",
+            "source_fr": "Recette du Couturier",
+            "patch": "6.0"
         },
-        "x264": {
+        "x78": {
             "name_en": "Wind-up Bahamut",
             "name_fr": "Bébé Bahamut",
             "category": "CATEGORY.PREMIUM",
@@ -1144,145 +978,95 @@
             "patch": "2.2",
             "defaultCompletion": "X"
         },
-        "x86": {
-            "name_en": "Faustlet",
-            "name_fr": "Faust articulé",
-            "category": "CATEGORY.RAID",
-            "source": "d.150",
-            "patch": "3.2"
+        "x206": {
+            "name_en": "Manjimutt",
+            "name_fr": "Corniot",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
+            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
+            "patch": "3.35",
+            "defaultCompletion": "X"
         },
-        "x217": {
-            "name_en": "Steam-powered Gobwalker G-VII",
-            "name_fr": "Gobblindé G-VII à vapeur",
+        "x380": {
+            "name_en": "Lalinator 5.H0",
+            "name_fr": "Nain lali-ho",
+            "category": "CATEGORY.BEAST_TRIBE",
+            "source_en": "8 Hammered Frogments",
+            "source_fr": "8 Médailles naines",
+            "patch": "5.3"
+        },
+        "x130": {
+            "name_en": "Wind-up Alphinaud",
+            "name_fr": "Alphinaud miniature",
+            "category": "CATEGORY.QUEST",
+            "source": "q.67140",
+            "patch": "3.0"
+        },
+        "x43": {
+            "name_en": "Model Vanguard",
+            "name_fr": "Maquette magitek",
             "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Armorer",
-            "source_fr": "Recette de l'Armurier",
-            "patch": "3.01"
+            "source_en": "Crafted by Goldsmith",
+            "source_fr": "Recette de l'Orfévrier",
+            "patch": "2.0"
         },
-        "x62": {
-            "name_en": "Cute Justice",
-            "name_fr": "Ultragokin Justice",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Maudlin Latool Ja - Ul'dah - 400 Allied Seals (60 BLU)",
-            "source_fr": "Maudlin Latool Ja - Ul'dah - 400 Insignes alliés",
-            "patch": "5.15"
-        },
-        "x240": {
-            "name_en": "Toy Alexander",
-            "name_fr": "Alexander articulé",
-            "category": "CATEGORY.RAID",
-            "source": ["d.189", "d.193"],
-            "patch": "3.4"
-        },
-        "x286": {
-            "name_en": "Wind-up Exdeath",
-            "name_fr": "Exdeath miniature",
-            "category": "CATEGORY.RAID",
-            "source": ["d.255", "d.259"],
-            "patch": "4.01"
-        },
-        "x311": {
-            "name_en": "Wind-up Kefka",
-            "name_fr": "Kefka miniature",
-            "category": "CATEGORY.RAID",
-            "source": ["d.289", "d.295"],
-            "patch": "4.2"
-        },
-        "x175": {
-            "name_en": "OMG",
-            "name_fr": "Mini-Oméga",
-            "category": "CATEGORY.RAID",
-            "source": ["d.590", "d.594"],
-            "patch": "4.4"
-        },
-        "x340": {
-            "name_en": "Wind-up Omega-M",
-            "name_fr": "Oméga-M miniature",
-            "category": "CATEGORY.WONDROUS_TAILS",
-            "source_en": "1 Khloe's Silver Certificate of Commendation",
-            "source_fr": "1 Certificat de mérite d'argent de Khloe",
+        "x346": {
+            "name_en": "Tinker's Bell",
+            "name_fr": "Clochette",
+            "category": "CATEGORY.FATE",
+            "source_en": "Fathard - Eulmore - 6 Archaeotania's Horn (FATE \"The Head, The Tail, the Whole Damned Thing\")",
+            "source_fr": "Fathard - Eulmore - 6 Cornes d'Archaeotania",
             "patch": "5.0"
         },
-        "x339": {
-            "name_en": "Wind-up Omega-F",
-            "name_fr": "Oméga-F miniature",
-            "category": "CATEGORY.WONDROUS_TAILS",
-            "source_en": "1 Khloe's Silver Certificate of Commendation",
-            "source_fr": "1 Certificat de mérite d'argent de Khloe",
-            "patch": "5.0"
-        },
-        "x80": {
-            "name_en": "Eden Minor",
-            "name_fr": "Mini-Éden",
-            "category": "CATEGORY.RAID",
-            "source": ["d.689", "d.690"],
-            "patch": "5.01"
-        },
-        "x417": {
-            "name_en": "Nosferatu",
-            "name_fr": "Nosferatu",
-            "category": "CATEGORY.RAID",
-            "source": ["d.800", "d.801"],
-            "patch": "6.01"
-        },
-        "x197": {
-            "name_en": "Puff of Darkness",
-            "name_fr": "Nuage noir miniature",
-            "category": "CATEGORY.RAID",
-            "source": "d.111",
-            "patch": "2.5"
-        },
-        "x281": {
-            "name_en": "Wind-up Echidna",
-            "name_fr": "Echidna miniature",
-            "category": "CATEGORY.RAID",
-            "source": "d.120",
-            "patch": "3.1"
-        },
-        "x268": {
-            "name_en": "Wind-up Calofisteri",
-            "name_fr": "Poupée Calofisteri",
-            "category": "CATEGORY.RAID",
-            "source": "d.168",
-            "patch": "3.3"
-        },
-        "x357": {
-            "name_en": "Wind-up Scathach",
-            "name_fr": "Scáthach miniature",
-            "category": "CATEGORY.RAID",
-            "source": "d.220",
-            "patch": "3.5"
-        },
-        "x59": {
-            "name_en": "Construct 8",
-            "name_fr": "Bâtisseur n°8",
-            "category": "CATEGORY.RAID",
-            "source": "d.550",
-            "patch": "4.3"
-        },
-        "x47": {
-            "name_en": "Cerberpup",
-            "name_fr": "Cerbère chiot",
+        "x117": {
+            "name_en": "Water Imp",
+            "name_fr": "Petit kappa",
             "category": "CATEGORY.PURCHASE",
-            "source_en": "1,200 Skybuilders' Scrips",
-            "source_fr": "1.200 Assignats d'Azurée",
-            "patch": "5.21"
+            "source_en": "10,000 MGP",
+            "source_fr": "10.000 PGS",
+            "patch": "2.51"
         },
-        "x203": {
-            "name_en": "Save the Princess",
-            "name_fr": "Garde-la-Princesse",
-            "category": "CATEGORY.RAID",
-            "source": "duty.exploratory-missions.the-bozjan-southern-front.duties.2",
-            "patch": "5.45"
-        },
-        "x440": {
+        "x451": {
             "name_en": "Wind-up Azeyma",
             "name_fr": "Azeyma Miniature",
             "category": "CATEGORY.RAID",
             "source": "d.866",
             "patch": "6.1"
         },
-        "x39481": {
+        "x425": {
+            "name_en": "Optimus Omicron",
+            "name_fr": "Omicron Optimus",
+            "category": "CATEGORY.DUNGEON",
+            "source": "d.784",
+            "patch": "6.0"
+        },
+        "x278": {
+            "name_en": "Private Moai",
+            "name_fr": "Mini moai",
+            "category": "CATEGORY.CRAFTING_GATHERING",
+            "source_en": "Crafted by Blacksmith",
+            "source_fr": "Recette du Forgeron",
+            "patch": "4.2"
+        },
+        "x250": {
+            "name_en": "Wind-up Gosetsu",
+            "name_fr": "Gosetsu miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "4.05",
+            "defaultCompletion": "X"
+        },
+        "x403": {
+            "name_en": "Wind-up Rosa",
+            "name_fr": "Rosa miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Digital Fan Festival (2021)",
+            "source_fr": "Digital Fan Festival (2021)",
+            "patch": "5.5",
+            "defaultCompletion": "X"
+        },
+        "x474": {
             "name_en": "Wind-up Halone",
             "name_fr": "Halone miniature",
             "category": "CATEGORY.RAID",
@@ -1296,7 +1080,7 @@
             "source": "d.962",
             "patch": "6.5"
         },
-        "x235": {
+        "x94": {
             "name_en": "Tiny Tapir",
             "name_fr": "Petit tapir",
             "category": "CATEGORY.VENTURE",
@@ -1304,7 +1088,7 @@
             "source_fr": ["Exploration en plaine XIV", "Exploration en plaine XV", "Exploration en plaine XIX"],
             "patch": "2.3"
         },
-        "x170": {
+        "x95": {
             "name_en": "Nana Bear",
             "name_fr": "Ourson de Nanakko",
             "category": "CATEGORY.CRAFTING_GATHERING",
@@ -1321,25 +1105,14 @@
             "patch": "6.0",
             "defaultCompletion": "X"
         },
-        "x173": {
-            "name_en": "Nutkin",
-            "name_fr": "Écureuil grignoteur",
-            "category": "CATEGORY.DEEP_DUNGEON",
-            "source": "d.174",
-            "source_en": ["Unhidden Leather Map", "The Aquapolis"],
-            "source_fr": ["Carte secrète en cuir", "Aquapole"],
-            "patch": "2.3"
+        "x304": {
+            "name_en": "Wind-up Alpha",
+            "name_fr": "Alpha mécanique",
+            "category": "CATEGORY.QUEST",
+            "source": "q.68693",
+            "patch": "4.4"
         },
-        "x183": {
-            "name_en": "Panda Cub",
-            "name_fr": "Petit panda pataud",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.25",
-            "defaultCompletion": "X"
-        },
-        "x85": {
+        "x110": {
             "name_en": "Fat Cat",
             "name_fr": "Gros minou",
             "category": "CATEGORY.VENTURE",
@@ -1347,25 +1120,7 @@
             "source_fr": "Exploration en rivage XIV - XXV",
             "patch": "2.4"
         },
-        "x244": {
-            "name_en": "Unicolt",
-            "name_fr": "Bébé licorne",
-            "category": "CATEGORY.DUNGEON",
-            "source": ["d.34", "d.174"],
-            "source_en": "The Aquapolis",
-            "source_fr": "Aquapole",
-            "patch": "3.0"
-        },
-        "x128": {
-            "name_en": "Lesser Panda",
-            "name_fr": "Petit panda roux",
-            "category": "CATEGORY.DUNGEON",
-            "source": ["d.39", "d.174"],
-            "source_en": "The Aquapolis",
-            "source_fr": "Aquapole",
-            "patch": "3.0"
-        },
-        "x96": {
+        "x146": {
             "name_en": "Gestahl",
             "name_fr": "Gestahl",
             "category": "CATEGORY.VENTURE",
@@ -1374,16 +1129,7 @@
             "source_fr": ["Exploration en rivage XVIII", "Exploration en rivage XIX"],
             "patch": "3.0"
         },
-        "x79": {
-            "name_en": "Dwarf Rabbit",
-            "name_fr": "Lapin nain",
-            "category": "CATEGORY.DEEP_DUNGEON",
-            "source": "d.540",
-            "source_en": ["Kupo of Fortune", "The Aquapolis"],
-            "source_fr": ["Kupo de la Fortune", "Aquapole"],
-            "patch": "3.3"
-        },
-        "x92": {
+        "x242": {
             "name_en": "Fox Kit",
             "name_fr": "Bébé renard",
             "category": "CATEGORY.FATE",
@@ -1391,95 +1137,44 @@
             "source_fr": "Eschina - L'Étendue de Rhalgr - 3 Fragments de la Roche meurtrière",
             "patch": "4.0"
         },
-        "x239": {
-            "name_en": "Tora-jiro",
-            "name_fr": "Tora-jiro",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "800 Centurio Seals",
-            "source_fr": "800 Insignes Centurio",
+        "x257": {
+            "name_en": "Magitek Avenger F1",
+            "name_fr": "Vengeur magitek S1",
+            "category": "CATEGORY.DUNGEON",
+            "source": "d.242",
             "patch": "4.0"
         },
-        "x32": {
-            "name_en": "Bom Boko",
-            "name_fr": "Bunbuku",
-            "category": "CATEGORY.VENTURE",
-            "source": "d.540",
-            "source_en": ["Field Exploration XX", "Field Exploration XXII", "Quick Exploration"],
-            "source_fr": ["Exploration en plaine XX", "Exploration en plaine XXII", "Tâche improvisée"],
-            "patch": "4.0"
+        "x133": {
+            "name_en": "Wind-up Cid",
+            "name_fr": "Cid miniature",
+            "category": "CATEGORY.QUEST",
+            "source": "q.67184",
+            "patch": "3.0"
         },
-        "x141": {
-            "name_en": "Mameshiba",
-            "name_fr": "Mame shiba",
-            "category": "CATEGORY.VENTURE",
-            "source_en": ["Highland Exploration XXII", "Quick Exploration"],
-            "source_fr": ["Exploration en montagne XXII", "Tâche improvisée"],
-            "patch": "4.1"
+        "x376": {
+            "name_en": "Wind-up Dulia-Chai",
+            "name_fr": "Dulia-Chai miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Item code included with The Art of Reflection -Histories Forsaken- Artbook",
+            "source_fr": "Bonus d'achat: \"FINAL FANTASY XIV: SHADOWBRINGERS - The Art of Reflection Art Book\"",
+            "patch": "5.2",
+            "defaultCompletion": "X"
         },
-        "x29": {
-            "name_en": "Black Hayate",
-            "name_fr": "Kuro shiba",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.676",
-            "patch": "5.0"
-        },
-        "x120": {
-            "name_en": "Koala Joey",
-            "name_fr": "Bébé koala",
-            "category": "CATEGORY.VENTURE",
-            "source_en": ["Woodland Exploration XXII", "Southern Front Lockbox", "Zadnor Lockbox"],
-            "source_fr": [
-                "Exploration en forêt XXII",
-                "Coffre verrouillé du Front sud de Bozja",
-                "Coffre verrouillé des Hauts plateaux de Zadnor"
-            ],
-            "patch": "4.1"
-        },
-        "x252": {
-            "name_en": "White Whittret",
-            "name_fr": "Fouine blanche",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.284",
-            "patch": "4.2"
-        },
-        "x121": {
-            "name_en": "Komainu",
-            "name_fr": "Komainu",
+        "x167": {
+            "name_en": "Wind-up Firion",
+            "name_fr": "Firion miniature",
             "category": "CATEGORY.PURCHASE",
             "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
-            "source_fr": "Jonathas - Vielle Gridania - 2 Jetons de hauts faits",
-            "patch": "4.2"
+            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
+            "patch": "3.07"
         },
-        "x93": {
-            "name_en": "Frilled Dragon",
-            "name_fr": "Lézard à collerette",
-            "category": "CATEGORY.DEEP_DUNGEON",
-            "source_en": "Confederate Custodian - Crick - 10 Empyrean Potsherds",
-            "source_fr": "Fournisseuse de la Confédération - L'Entorse - 10 Tessons de poterie empyréenne",
-            "patch": "4.35"
-        },
-        "x45": {
-            "name_en": "Capybara Pup",
-            "name_fr": "Bébé cabiaï",
-            "category": "CATEGORY.TREASURE_HUNT",
-            "source_en": ["The Lost Canals of Uznair", "The Hidden Canals of Uznair", "The Shifting Canals of Uznair"],
-            "source_fr": ["Les Canaux perdus d'Uznair", "Les Canaux cachés d'Uznair", "Le Temple sacré d'Uznair"],
-            "patch": "4.4"
-        },
-        "x108": {
-            "name_en": "Hedgehoglet",
-            "name_fr": "Hérisson mignon",
-            "category": "CATEGORY.TREASURE_HUNT",
-            "source_en": ["The Lost Canals of Uznair", "The Hidden Canals of Uznair", "The Shifting Canals of Uznair"],
-            "source_fr": ["Temple sacré d'Uznair", "Canaux perdus d'Uznair", "Canaux cachés d'Uznair"],
-            "patch": "4.45"
-        },
-        "x48": {
-            "name_en": "Chameleon",
-            "name_fr": "Caméléon",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.651",
-            "patch": "5.0"
+        "x236": {
+            "name_en": "Wind-up Moon",
+            "name_fr": "Lune mécanique",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Magic Pot - The Isles of Umbra - 1 Hi-Elixir",
+            "source_fr": "Pot magique - Les Îles d'Ombra - 1 Super élixir",
+            "patch": "3.5"
         },
         "x506": {
             "name_en": "Repulu",
@@ -1488,46 +1183,23 @@
             "source": "d.961",
             "patch": "6.51"
         },
-        "x227": {
-            "name_en": "The Great Serpent of Ronka",
-            "name_fr": "Serpent marin de Ronka ?",
-            "category": "CATEGORY.QUEST",
-            "source": "q.69018",
-            "patch": "5.0"
+        "x249": {
+            "name_en": "Dress-up Yugiri",
+            "name_fr": "Yugiri miniature revisitée",
+            "category": "CATEGORY.DUNGEON",
+            "source": "d.262",
+            "patch": "4.0"
         },
-        "x225": {
-            "name_en": "The Behelmeted Serpent of Ronka",
-            "name_fr": "Grand Serpent de Hopl ?",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Yuqurl Manl - The Rak'tika Greatwood - 8 Qitari Compliments",
-            "source_fr": "Yuqurl Manl - Rak'tika - 8 Pièces-châtaignes Qitari",
-            "patch": "5.2"
+        "x311": {
+            "name_en": "Wind-up Tifa",
+            "name_fr": "Tifa miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "4.4",
+            "defaultCompletion": "X"
         },
-        "x224": {
-            "name_en": "The Behatted Serpent of Ronka",
-            "name_fr": "Grand Serpent des Qitari ?",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Yuqurl Manl - The Rak'tika Greatwood - 8 Qitari Compliments",
-            "source_fr": "Yuqurl Manl - Rak'tika - 8 Pièces-châtaignes Qitari",
-            "patch": "5.2"
-        },
-        "x39": {
-            "name_en": "Butterfly Effect",
-            "name_fr": "Couple de papillons",
-            "category": "CATEGORY.FATE",
-            "source_en": "400 Bicolor Gemstones (The Rak'tika Greatwood)",
-            "source_fr": "400 Gemme bicolore (Rak'tika)",
-            "patch": "5.0"
-        },
-        "x148": {
-            "name_en": "Meerkat",
-            "name_fr": "Suricate",
-            "category": "CATEGORY.VOYAGE",
-            "source_en": "Subaquatic Voyages - Coldtoe Isle",
-            "source_fr": "Expédition sous-marine - Île de la chaussette trouée",
-            "patch": "5.1"
-        },
-        "x202": {
+        "x387": {
             "name_en": "Sand Fox",
             "name_fr": "Renard des sables",
             "category": "CATEGORY.PURCHASE",
@@ -1535,58 +1207,52 @@
             "source_fr": "400 Folioles irréelles",
             "patch": "5.3"
         },
-        "x393": {
-            "name_en": "Anteater",
-            "name_fr": "Tamandua",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "400 Faux Leaves",
-            "source_fr": "400 Folioles irréelles",
-            "patch": "5.5"
-        },
-        "x412": {
-            "name_en": "Flag",
-            "name_fr": "Drapo",
-            "category": "CATEGORY.VENTURE",
-            "source_en": "Field Exploration XXVI",
-            "source_fr": "Exploration en plaine XXVI",
+        "x429": {
+            "name_en": "Brave New Urianger",
+            "name_fr": "Nouvel Urianger miniature",
+            "category": "CATEGORY.WONDROUS_TAILS",
+            "source_en": "1 Khloe's Silver Certificate of Commendation",
+            "source_fr": "1 Certificat de mérite d'argent de Khloe",
             "patch": "6.0"
         },
-        "x416": {
-            "name_en": "Nagxian Cat",
-            "name_fr": "Chat nagxien",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "800 Sacks of Nuts",
-            "source_fr": "800 Insignes de chasse",
+        "x427": {
+            "name_en": "Starbird",
+            "name_fr": "Oiseau stellaire",
+            "category": "CATEGORY.DUNGEON",
+            "source": "d.792",
             "patch": "6.0"
         },
-        "x415": {
+        "x452": {
+            "name_en": "Wind-up Ragnarok",
+            "name_fr": "Ragnarok Miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Item code include with The Art of Resurrection – Among The Stars – Artbook",
+            "source_fr": "Bonus d'achat : \"The Art of Resurrection – Among The Stars [ARTBOOK]\"",
+            "patch": "6.1",
+            "defaultCompletion": "X"
+        },
+        "x431": {
             "name_en": "Hippo Calf",
             "name_fr": "Bébé hippo",
             "category": "CATEGORY.DUNGEON",
             "source": "d.789",
             "patch": "6.0"
         },
-        "x411": {
-            "name_en": "Crabe de la Crabe",
-            "name_fr": "Crabe du Crabe",
-            "category": "CATEGORY.VENTURE",
-            "source_en": "Waterside Exploration XXVI - XXVII",
-            "source_fr": "Exploration en rivage XXVI - XXVII",
-            "patch": "6.0"
+        "x400": {
+            "name_en": "Wind-up Porom",
+            "name_fr": "Porom miniature ",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Endwalker Collector's Edition",
+            "source_fr": "Endwalker Édition Collector",
+            "patch": "6.0",
+            "defaultCompletion": "X"
         },
-        "x410": {
-            "name_en": "Caduceus",
-            "name_fr": "Caducée",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.787",
-            "patch": "6.0"
-        },
-        "x434": {
-            "name_en": "Wind-up Kangaroo",
-            "name_fr": "Kangourou Miniature",
+        "x448": {
+            "name_en": "Chewy",
+            "name_fr": "Chihuaouaf",
             "category": "CATEGORY.VENTURE",
-            "source_en": "Highland Exploration XXVIII",
-            "source_fr": "Exploration en montagne XXVIII",
+            "source_en": "Woodland Exploration XXVIII",
+            "source_fr": "Exploration en forêt XXVIII",
             "patch": "6.1"
         },
         "x462": {
@@ -1597,14 +1263,6 @@
             "source_fr": "400 Folioles irréelles",
             "patch": "6.2"
         },
-        "x435": {
-            "name_en": "Chewy",
-            "name_fr": "Chihuaouaf",
-            "category": "CATEGORY.VENTURE",
-            "source_en": "Woodland Exploration XXVIII",
-            "source_fr": "Exploration en forêt XXVIII",
-            "patch": "6.1"
-        },
         "x464": {
             "name_en": "Sewer Skink",
             "name_fr": "Laveur des canalisations",
@@ -1612,7 +1270,7 @@
             "source": "d.868",
             "patch": "6.25"
         },
-        "x39474": {
+        "x467": {
             "name_en": "Corgi",
             "name_fr": "Corgi",
             "category": "CATEGORY.PURCHASE",
@@ -1642,15 +1300,7 @@
             "source": "d.945",
             "patch": "6.45"
         },
-        "x10": {
-            "name_en": "Assassin Fry",
-            "name_fr": "Fretin assassin",
-            "category": "CATEGORY.OTHER",
-            "source_en": "Desynthesize a Ninja Betta",
-            "source_fr": "Recyclage d'un betta assassin",
-            "patch": "2.4"
-        },
-        "x174": {
+        "x241": {
             "name_en": "Odder Otter",
             "name_fr": "Loutre choute",
             "category": "CATEGORY.VENTURE",
@@ -1669,7 +1319,7 @@
             ],
             "patch": "4.0"
         },
-        "x2": {
+        "x329": {
             "name_en": "Abroader Otter",
             "name_fr": "Loutre aloha",
             "category": "CATEGORY.VOYAGE",
@@ -1685,81 +1335,47 @@
             "source_fr": "4.000 Assignat insulaire azur",
             "patch": "6.4"
         },
-        "x97": {
-            "name_en": "Ghido",
-            "name_fr": "Ghido",
-            "category": "CATEGORY.DUNGEON",
-            "source": ["d.238", "d.540"],
-            "patch": "4.0"
-        },
-        "x201": {
-            "name_en": "Salt & Pepper Seal",
-            "name_fr": "Bébé phoque",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.279",
-            "patch": "4.1"
-        },
-        "x14": {
-            "name_en": "Axolotl Eft",
-            "name_fr": "Axolotl",
-            "category": "CATEGORY.VENTURE",
-            "source_en": ["Waterside Exploration XXII", "Quick Exploration"],
-            "source_fr": ["Exploration en rivage XXII", "Tâche improvisée"],
-            "patch": "4.1"
-        },
-        "x13": {
-            "name_en": "Aurelia Polyp",
-            "name_fr": "Aurélie polype",
-            "category": "CATEGORY.VOYAGE",
-            "source_en": "Subaquatic Voyages",
-            "source_fr": "Expédition sous-marine",
-            "patch": "4.2"
-        },
-        "x26": {
-            "name_en": "Bitty Duckbill",
-            "name_fr": "Ornithorynque nain",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "800 Sacks of Nuts",
-            "source_fr": "800 Insignes Kupo",
+        "x306": {
+            "name_en": "Wind-up G'raha Tia",
+            "name_fr": "G'raha Tia miniature",
+            "category": "CATEGORY.QUEST",
+            "source": "q.69190",
             "patch": "5.0"
         },
-        "x68": {
-            "name_en": "Domakin",
-            "name_fr": "Domakin",
+        "x63": {
+            "name_en": "Wind-up Shantotto",
+            "name_fr": "Poupée Shantotto",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "2.1",
+            "defaultCompletion": "X"
+        },
+        "x96": {
+            "name_en": "Miniature Minecart",
+            "name_fr": "Wagonnet mécanique",
             "category": "CATEGORY.VENTURE",
-            "source_en": ["Waterside Exploration XXV", "Quick Exploration"],
-            "source_fr": ["Exploration en rivage XXV", "Tâche improvisée"],
-            "patch": "5.1"
+            "source": "d.540",
+            "source_en": "Highland Exploration XIV",
+            "source_fr": "Exploration en montagne XIV",
+            "patch": "2.3"
         },
-        "x228": {
-            "name_en": "The Major-General",
-            "name_fr": "Requin commandeur",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.2560",
-            "patch": "5.2"
+        "x77": {
+            "name_en": "Wind-up Warrior of Light",
+            "name_fr": "Guerrier de la Lumière",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
+            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
+            "patch": "2.2"
         },
-        "x126": {
-            "name_en": "Laladile",
-            "name_fr": "Laladile",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.2522",
-            "patch": "5.21"
-        },
-        "x165": {
-            "name_en": "Much-coveted Mora",
-            "name_fr": "Momo Ramora",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.2757",
-            "patch": "5.4"
-        },
-        "x395": {
+        "x410": {
             "name_en": "Dolphin Calf",
             "name_fr": "Bébé dauphin",
             "category": "CATEGORY.ACHIEVEMENT",
             "source": "a.2889",
             "patch": "5.5"
         },
-        "x39476": {
+        "x469": {
             "name_en": "Suzusaurus",
             "name_fr": "Suzusaurus",
             "category": "CATEGORY.VOYAGE",
@@ -1774,16 +1390,7 @@
             "source": "a.3265",
             "patch": "6.4"
         },
-        "x31": {
-            "name_en": "Bluebird",
-            "name_fr": "Oiseau bleu",
-            "category": "CATEGORY.DEEP_DUNGEON",
-            "source": "d.174",
-            "source_en": ["Timeworn Peisteskin Map", "Timeworn Dragonskin Map", "The Aquapolis"],
-            "source_fr": ["Vieille carte en peau de peiste", "Vieille carte en peau de dragon", "Aquapole"],
-            "patch": "2.1"
-        },
-        "x69": {
+        "x121": {
             "name_en": "Doman Magpie",
             "name_fr": "Pie pimpante",
             "category": "CATEGORY.PREMIUM",
@@ -1792,25 +1399,15 @@
             "patch": "3.25",
             "defaultCompletion": "X"
         },
-        "x177": {
-            "name_en": "Owlet",
-            "name_fr": "Bébé hibou",
-            "category": "CATEGORY.DUNGEON",
-            "source": ["d.35", "d.174"],
-            "source_en": "The Aquapolis",
-            "source_fr": "Aquapole",
-            "patch": "3.0"
+        "x187": {
+            "name_en": "Piggy",
+            "name_fr": "Porcelet promeneur",
+            "category": "CATEGORY.PURCHASE",
+            "source_en": "30,000 MGP",
+            "source_fr": "30.000 PGS",
+            "patch": "3.3"
         },
-        "x243": {
-            "name_en": "Ugly Duckling",
-            "name_fr": "Vilain petit canard",
-            "category": "CATEGORY.DUNGEON",
-            "source": ["d.33", "d.174"],
-            "source_en": ["Kupo of Fortune", "The Aquapolis"],
-            "source_fr": ["Kupo de la Fortune", "Aquapole"],
-            "patch": "3.0"
-        },
-        "x113": {
+        "x162": {
             "name_en": "Hunting Hawk",
             "name_fr": "Buse chasseuse",
             "category": "CATEGORY.PURCHASE",
@@ -1819,43 +1416,34 @@
             "source_fr": "800 Assignats d'Azurée",
             "patch": "3.1"
         },
-        "x185": {
-            "name_en": "Penguin Prince",
-            "name_fr": "Manchot prince",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.1385",
-            "patch": "3.1"
+        "x280": {
+            "name_en": "Motley Egg",
+            "name_fr": "Œuf bouffon",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "4.2",
+            "defaultCompletion": "X"
         },
-        "x199": {
-            "name_en": "Road Sparrow",
-            "name_fr": "Moineau voyageur",
-            "category": "CATEGORY.DUNGEON",
-            "source": ["d.240", "d.540"],
-            "patch": "4.0"
+        "x239": {
+            "name_en": "Wind-up Red Mage",
+            "name_fr": "Mage rouge mécanique",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Stormblood Pre-order",
+            "source_fr": "Précommande de Stormblood",
+            "patch": "4.0",
+            "defaultCompletion": "X"
         },
-        "x211": {
-            "name_en": "Shoebill",
-            "name_fr": "Bec-en-sabot",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.652",
-            "patch": "5.0"
+        "x170": {
+            "name_en": "Wind-up Titan",
+            "name_fr": "Petit Titan",
+            "category": "CATEGORY.CRAFTING_GATHERING",
+            "source": "d.540",
+            "source_en": "Crafted by Weaver",
+            "source_fr": "Recette du Couturier",
+            "patch": "3.2"
         },
-        "x213": {
-            "name_en": "Silver Dasher",
-            "name_fr": "Mésange à longue queue",
-            "category": "CATEGORY.VOYAGE",
-            "source_en": "Subaquatic Voyages - The Open Robe",
-            "source_fr": "Expédition du sous-marine - The Open Robe",
-            "patch": "5.2"
-        },
-        "x396": {
-            "name_en": "Gull",
-            "name_fr": "Goé",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.2888",
-            "patch": "5.5"
-        },
-        "x436": {
+        "x453": {
             "name_en": "Blue-footed Booby",
             "name_fr": "Fou À Pattes Bleues",
             "category": "CATEGORY.VENTURE",
@@ -1877,15 +1465,7 @@
             "source": "d.961",
             "patch": "6.51"
         },
-        "x345": {
-            "name_en": "Wind-up Qiqirn",
-            "name_fr": "Qiqirn mécanique",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "2.0"
-        },
-        "x325": {
+        "x256": {
             "name_en": "Wind-up Meateater",
             "name_fr": "Croque-viande mécanique",
             "category": "CATEGORY.PURCHASE",
@@ -1893,7 +1473,7 @@
             "source_fr": "800 Insignes Centurio",
             "patch": "4.0"
         },
-        "x332": {
+        "x253": {
             "name_en": "Wind-up Namazu",
             "name_fr": "Namazu mécanique",
             "category": "CATEGORY.TREASURE_HUNT",
@@ -1901,55 +1481,33 @@
             "source_fr": "Vieille carte en peau de gazelle",
             "patch": "4.05"
         },
-        "x226": {
-            "name_en": "The Gold Whisker",
-            "name_fr": "Namazu nain doré",
-            "category": "CATEGORY.TREASURE_HUNT",
-            "source_en": "The Hidden Canals of Uznair",
-            "source_fr": "Les Canaux cachés d'Uznair",
-            "patch": "4.2"
+        "x233": {
+            "name_en": "Wind-up Nidhogg",
+            "name_fr": "Nidhogg miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Item code included with The Far Edge of Fate Original Soundtrack",
+            "source_fr": "Bonus d'achat du CD : \"The Far Edge of Fate Original Soundtrack\"",
+            "patch": "3.5",
+            "defaultCompletion": "X"
         },
-        "x12": {
-            "name_en": "Attendee #777",
-            "name_fr": "Namazu nain festif",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Gyosho - Dhoro Iloh - 7 Namazu Koban",
-            "source_fr": "Gyosho - Dhoro Iloh - 7 Kobans Namazu",
-            "patch": "4.3"
+        "x108": {
+            "name_en": "Wind-up Papalymo",
+            "name_fr": "Papalymo miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Final Fantasy XIV Online Store",
+            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "patch": "2.38",
+            "defaultCompletion": "X"
         },
-        "x291": {
-            "name_en": "Wind-up Fuath",
-            "name_fr": "Fuath miniature",
-            "category": "CATEGORY.TREASURE_HUNT",
-            "source_en": "The Dungeons of Lyhe Ghiah",
-            "source_fr": "Donjon hypogéen du Lyhe Ghiah",
-            "patch": "5.05"
+        "x446": {
+            "name_en": "Protonaught",
+            "name_fr": "Proto-Dreadnaught",
+            "category": "CATEGORY.OTHER",
+            "source_en": "1,000 Trophy Crystals",
+            "source_fr": "1.000 Cristaux-trophées",
+            "patch": "6.1"
         },
-        "x98": {
-            "name_en": "Giant Beaver",
-            "name_fr": "Castor géant",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Giant Beaver - Il Mheg - 1 Dancing Wing (Titania) (Required Quests: And Then There Were None, Acht-la Ormh Inn)",
-            "source_fr": "Castor géant - Il Mheg - 1 Ailes de Titania (Quêtes requises: Mais où sont les Pixies ?, Passation de pouvoir)",
-            "patch": "5.0"
-        },
-        "x101": {
-            "name_en": "Golden Beaver",
-            "name_fr": "Castor doré",
-            "category": "CATEGORY.TREASURE_HUNT",
-            "source_en": "The Shifting Oubliettes Of Lyhe Ghiah",
-            "source_fr": "Le Jardin secret du Lyhe Ghiah",
-            "patch": "5.4"
-        },
-        "x427": {
-            "name_en": "Wind-up Grebuloff",
-            "name_fr": "Grébuloff miniature",
-            "category": "CATEGORY.VENTURE",
-            "source_en": "Highland Exploration XXVI - XXVII",
-            "source_fr": "Exploration en montagne XXVI - XXVII",
-            "patch": "6.0"
-        },
-        "x39479": {
+        "x472": {
             "name_en": "Findingway",
             "name_fr": "Findingway",
             "category": "CATEGORY.BEAST_TRIBE",
@@ -1957,15 +1515,16 @@
             "source_fr": "Coiningway - Mare Lamentorum - 8 Carotus",
             "patch": "6.35"
         },
-        "x307": {
-            "name_en": "Wind-up Illuminatus",
-            "name_fr": "Gobelin de la Mimine bleue",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "3.1"
+        "x113": {
+            "name_en": "Model Enterprise",
+            "name_fr": "Maquette de l'Entreprise",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Item code included with The Art of Eorzea: Another Dawn",
+            "source_fr": "Bonus d'achat du livre: \"The art of Eorzea - Another Dawn [ARTBOOK]\"",
+            "patch": "2.38",
+            "defaultCompletion": "X"
         },
-        "x303": {
+        "x362": {
             "name_en": "Wind-up Hobgoblin",
             "name_fr": "Hobgobelin miniature",
             "category": "CATEGORY.VENTURE",
@@ -1973,7 +1532,7 @@
             "source_fr": ["Exploration en montagne XXV", "Tâche improvisée"],
             "patch": "5.1"
         },
-        "x298": {
+        "x49": {
             "name_en": "Wind-up Goblin",
             "name_fr": "Gobelin articulé",
             "category": "CATEGORY.PURCHASE",
@@ -1981,31 +1540,7 @@
             "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
             "patch": "2.3"
         },
-        "x377": {
-            "name_en": "Wind-up Violet",
-            "name_fr": "Poupée de méchant Sylphe",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Sylphic Vendor - Little Solace - 25,000 Gil",
-            "source_fr": "Vendeur sylphe - Le Refuge - 25.000 gils",
-            "patch": "2.35"
-        },
-        "x366": {
-            "name_en": "Wind-up Sylph",
-            "name_fr": "Sylphe nain",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Sylphic Vendor - Little Solace - 25,000 Gil",
-            "source_fr": "Vendeur sylphe - Le Refuge - 25.000 gils",
-            "patch": "2.1"
-        },
-        "x289": {
-            "name_en": "Wind-up Founder",
-            "name_fr": "Poupée de maître fondateur",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Amalj'aa Vendor - Ring of Ash - 25,000 Gil",
-            "source_fr": "Vendeur amalj'aa - Camp de la Ligue des cendres - 25.000 gils",
-            "patch": "2.35"
-        },
-        "x260": {
+        "x58": {
             "name_en": "Wind-up Amalj'aa",
             "name_fr": "Amalj'aa mécanique",
             "category": "CATEGORY.BEAST_TRIBE",
@@ -2013,15 +1548,16 @@
             "source_fr": "Vendeur amalj'aa - Camp de la Ligue des cendres - 25.000 gils",
             "patch": "2.1"
         },
-        "x277": {
-            "name_en": "Wind-up Dezul Qualan",
-            "name_fr": "Dezul miniature",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Ixali Vendor - Ehcatl - 25,000 Gil",
-            "source_fr": "Vendeur Ixali - Forêt du Nord - 25.000 gils",
-            "patch": "2.35"
+        "x204": {
+            "name_en": "Kyubi",
+            "name_fr": "Kyubi",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
+            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
+            "patch": "3.35",
+            "defaultCompletion": "X"
         },
-        "x308": {
+        "x59": {
             "name_en": "Wind-up Ixal",
             "name_fr": "Ixal mécanique",
             "category": "CATEGORY.BEAST_TRIBE",
@@ -2029,7 +1565,7 @@
             "source_fr": "Vendeur ixal - Ehcatl - 25.000 gils",
             "patch": "2.35"
         },
-        "x314": {
+        "x126": {
             "name_en": "Wind-up Kobolder",
             "name_fr": "Poupée kobolde n°2",
             "category": "CATEGORY.BEAST_TRIBE",
@@ -2037,31 +1573,7 @@
             "source_fr": "Vendeur kobold - Carrière du 789e ordre - 25.000 gils",
             "patch": "2.35"
         },
-        "x313": {
-            "name_en": "Wind-up Kobold",
-            "name_fr": "Poupée kobolde",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Kobold Vendor - 789th Order Dig - 25,000 Gil",
-            "source_fr": "Vendeur kobold - Carrière du 789e ordre - 25.000 gils",
-            "patch": "2.2"
-        },
-        "x358": {
-            "name_en": "Wind-up Sea Devil",
-            "name_fr": "Démon des mers mécanique",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Sahagin Vendor - Novv's Nursery - 25,000 Gil",
-            "source_fr": "Vendeur sahuagin - Couvée de Novv - 25.000 gils",
-            "patch": "2.35"
-        },
-        "x355": {
-            "name_en": "Wind-up Sahagin",
-            "name_fr": "Pantin sahuagin",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Sahagin Vendor - Novv's Nursery - 25,000 Gil",
-            "source_fr": "Vendeur sahuagin - Couvée de Novv - 25.000 gils",
-            "patch": "2.2"
-        },
-        "x376": {
+        "x175": {
             "name_en": "Wind-up Vath",
             "name_fr": "Poupée vathe",
             "category": "CATEGORY.BEAST_TRIBE",
@@ -2069,7 +1581,7 @@
             "source_fr": "Camelot - Loth ast Vath - 30.000 gils",
             "patch": "3.2"
         },
-        "x297": {
+        "x156": {
             "name_en": "Wind-up Gnath",
             "name_fr": "Poupée gnathe",
             "category": "CATEGORY.BEAST_TRIBE",
@@ -2077,23 +1589,25 @@
             "source_fr": "Camelot - Loth ast Vath - 30.000 gils",
             "patch": "3.2"
         },
-        "x300": {
-            "name_en": "Wind-up Gundu Warrior",
-            "name_fr": "Poupée gundu",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Luna Vanu - Ok' Gundu Nakki - 30,000 Gil",
-            "source_fr": "Luna Vanu - Ok' Gundu Nakki - 30.000 gils",
-            "patch": "3.1"
+        "x390": {
+            "name_en": "Lord Enma",
+            "name_fr": "Lord Enma",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Yo-kai Watch (2020)",
+            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
+            "patch": "5.3",
+            "defaultCompletion": "X"
         },
-        "x386": {
-            "name_en": "Wind-up Zundu Warrior",
-            "name_fr": "Poupée zundu",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Luna Vanu - Ok' Gundu Nakki - 30,000 Gil",
-            "source_fr": "Luna Vanu - Ok' Gundu Nakki - 30.000 gils",
-            "patch": "3.1"
+        "x207": {
+            "name_en": "Noko",
+            "name_fr": "Noko",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
+            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
+            "patch": "3.35",
+            "defaultCompletion": "X"
         },
-        "x278": {
+        "x184": {
             "name_en": "Wind-up Dragonet",
             "name_fr": "Mini-dragonnet",
             "category": "CATEGORY.BEAST_TRIBE",
@@ -2101,31 +1615,7 @@
             "source_fr": "Mogmul - Bahrr Lehs - 30.000 gils",
             "patch": "3.3"
         },
-        "x338": {
-            "name_en": "Wind-up Ohl Deeh",
-            "name_fr": "Ohl Deeh miniature",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Mogmul Mogbelly - Bahrr Lehs - 30,000 Gil",
-            "source_fr": "Mogmul - Bahrr Lehs - 30.000 gils",
-            "patch": "3.5"
-        },
-        "x315": {
-            "name_en": "Wind-up Kojin",
-            "name_fr": "Kojin miniature",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Shikitahe - Tamamizu - 5 Kojin Sango",
-            "source_fr": "Shikitahe - Tamamizu - 5 Sangos Kojin",
-            "patch": "4.1"
-        },
-        "x350": {
-            "name_en": "Wind-up Redback",
-            "name_fr": "Kojin rouge mécanique",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Shikitahe - Tamamizu - 5 Kojin Sango",
-            "source_fr": "Shikitahe - Tamamizu - 5 Sangos Kojin",
-            "patch": "4.5"
-        },
-        "x261": {
+        "x277": {
             "name_en": "Wind-up Ananta",
             "name_fr": "Poupée ananta",
             "category": "CATEGORY.BEAST_TRIBE",
@@ -2133,29 +1623,13 @@
             "source_fr": "Madhura - Castellum Velodyna - 7 Barettes béatifiques ananta",
             "patch": "4.2"
         },
-        "x344": {
-            "name_en": "Wind-up Qalyana",
-            "name_fr": "Poupée qalyana",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Madhura - Castellum Velodyna - 7 Ananta Dreamstaffs",
-            "source_fr": "Madhura - Castellum Velodyna - 7 Barrettes béatifiques ananta",
-            "patch": "4.5"
-        },
-        "x336": {
-            "name_en": "Wind-up Nu Mou",
-            "name_fr": "Nu Mou miniature",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "800 Sacks of Nuts",
-            "source_fr": "800 Insignes Kupo",
-            "patch": "5.0"
-        },
-        "x343": {
-            "name_en": "Wind-up Pixie",
-            "name_fr": "Pixie miniature",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "Jul Oul - Il Mheg - 8 Fae Fancy",
-            "source_fr": "Jul Oul - Il Mheg - 8 Cristaux illusoires pixie",
-            "patch": "5.1"
+        "x294": {
+            "name_en": "Wind-up Sadu",
+            "name_fr": "Sadu miniature",
+            "category": "CATEGORY.CRAFTING_GATHERING",
+            "source_en": "Crafted by Weaver",
+            "source_fr": "Recette du Couturier",
+            "patch": "4.3"
         },
         "x444": {
             "name_en": "Wind-up Arkasodara",
@@ -2165,7 +1639,7 @@
             "source_fr": "Ghanta - Thavnair - 8 Seikos arkasodara",
             "patch": "6.15"
         },
-        "x306": {
+        "x168": {
             "name_en": "Wind-up Ifrit",
             "name_fr": "Petit Ifrit",
             "category": "CATEGORY.CRAFTING_GATHERING",
@@ -2174,34 +1648,16 @@
             "source_fr": "Recette du Couturier",
             "patch": "3.1"
         },
-        "x294": {
-            "name_en": "Wind-up Garuda",
-            "name_fr": "Petite Garuda",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "d.540",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "3.2"
+        "x214": {
+            "name_en": "Namingway",
+            "name_fr": "Poupée Namingway",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Item code included with Encyclopaedia Eorzea",
+            "source_fr": "Bonus d'achat du livre: \"Encyclopaedia Eorzea - The World of Fianl Fantasy XIV - [BOOK]\"",
+            "patch": "3.4",
+            "defaultCompletion": "X"
         },
-        "x371": {
-            "name_en": "Wind-up Titan",
-            "name_fr": "Petit Titan",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "d.540",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "3.2"
-        },
-        "x319": {
-            "name_en": "Wind-up Leviathan",
-            "name_fr": "Petit Léviathan",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "d.540",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "3.2"
-        },
-        "x346": {
+        "x185": {
             "name_en": "Wind-up Ramuh",
             "name_fr": "Petit Ramuh",
             "category": "CATEGORY.CRAFTING_GATHERING",
@@ -2210,42 +1666,16 @@
             "source_fr": "Recette du Couturier",
             "patch": "3.3"
         },
-        "x361": {
-            "name_en": "Wind-up Shiva",
-            "name_fr": "Petite Shiva",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "d.540",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "3.3"
+        "x238": {
+            "name_en": "Wind-up Bartz",
+            "name_fr": "Bartz miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Stormblood Collector's Edition",
+            "source_fr": "Achat de l'Édition collector de Stormblood",
+            "patch": "4.0",
+            "defaultCompletion": "X"
         },
-        "x337": {
-            "name_en": "Wind-up Odin",
-            "name_fr": "Odin mécanique",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
-            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
-            "patch": "2.2"
-        },
-        "x266": {
-            "name_en": "Wind-up Bismarck",
-            "name_fr": "Petit Bismarck",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "d.540",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "4.0"
-        },
-        "x348": {
-            "name_en": "Wind-up Ravana",
-            "name_fr": "Petit Ravana",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "d.540",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "4.1"
-        },
-        "x364": {
+        "x261": {
             "name_en": "Wind-up Susano",
             "name_fr": "Petit Susano",
             "category": "CATEGORY.CRAFTING_GATHERING",
@@ -2254,41 +1684,16 @@
             "source_fr": "Recette du Couturier",
             "patch": "4.0"
         },
-        "x317": {
-            "name_en": "Wind-up Lakshmi",
-            "name_fr": "Petite Lakshmi",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source": "d.540",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "4.0"
-        },
-        "x360": {
-            "name_en": "Wind-up Shinryu",
-            "name_fr": "Mini-Shinryu",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "4.1"
-        },
-        "x373": {
-            "name_en": "Wind-up Tsukuyomi",
-            "name_fr": "Poupée Tsukuyomi",
+        "x55": {
+            "name_en": "Wind-up Dalamud",
+            "name_fr": "Dalamud mécanique",
             "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code included with Stormblood Original Soundtrack",
-            "source_fr": "Bonus d'achat du CD: \"Stormblood Original Soundtrack\"",
-            "patch": "4.3",
+            "source_en": "Item code included with Before Meteor Original Soundtrack",
+            "source_fr": "Bonus d'achat: \"Before Meteor Blu-Ray Soundtrack\"",
+            "patch": "2.0",
             "defaultCompletion": "X"
         },
-        "x40": {
-            "name_en": "Byakko Cub",
-            "name_fr": "Bébé Byakko",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette de Menuisier",
-            "patch": "4.2"
-        },
-        "x204": {
+        "x303": {
             "name_en": "Scarlet Peacock",
             "name_fr": "Paonne vermillon",
             "category": "CATEGORY.CRAFTING_GATHERING",
@@ -2296,7 +1701,7 @@
             "source_fr": "Recette du Couturier",
             "patch": "4.4"
         },
-        "x365": {
+        "x343": {
             "name_en": "Wind-up Suzaku",
             "name_fr": "Suzaku mécanique",
             "category": "CATEGORY.PREMIUM",
@@ -2305,13 +1710,14 @@
             "patch": "5.0",
             "defaultCompletion": "X"
         },
-        "x205": {
-            "name_en": "Seitei",
-            "name_fr": "Dragonnet azur",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "4.45"
+        "x286": {
+            "name_en": "Wind-up Mithra",
+            "name_fr": "Poupée Mithra",
+            "category": "CATEGORY.EXPLORATORY_MISSION",
+            "source": "duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.anemos.1339",
+            "source_en": "Anemos Lockbox",
+            "source_fr": "Coffre verrouillé d'Anemos",
+            "patch": "4.25"
         },
         "x482": {
             "name_en": "Rubellite Weapon",
@@ -2336,7 +1742,7 @@
             "source": "d.869",
             "patch": "6.2"
         },
-        "x39478": {
+        "x471": {
             "name_en": "Wind-up Cagnazzo",
             "name_fr": "Cagnazzo miniature",
             "category": "CATEGORY.DUNGEON",
@@ -2358,25 +1764,7 @@
             "source": "d.823",
             "patch": "6.5"
         },
-        "x75": {
-            "name_en": "Dress-up Y'shtola",
-            "name_fr": "Nouvelle Y'shtola miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.35",
-            "defaultCompletion": "X"
-        },
-        "x34": {
-            "name_en": "Brave New Y'shtola",
-            "name_fr": "Y'shtola miniature (premier reflet)",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "5.05",
-            "defaultCompletion": "X"
-        },
-        "x380": {
+        "x91": {
             "name_en": "Wind-up Y'shtola",
             "name_fr": "Y'shtola miniature",
             "category": "CATEGORY.PREMIUM",
@@ -2385,16 +1773,7 @@
             "patch": "2.38",
             "defaultCompletion": "X"
         },
-        "x326": {
-            "name_en": "Wind-up Minfilia",
-            "name_fr": "Minfillia miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "2.3",
-            "defaultCompletion": "X"
-        },
-        "x74": {
+        "x217": {
             "name_en": "Dress-up Thancred",
             "name_fr": "Nouveau Thancred miniature",
             "category": "CATEGORY.WONDROUS_TAILS",
@@ -2402,16 +1781,7 @@
             "source_fr": "1 Certificat de mérite de bronze de Khloe",
             "patch": "3.4"
         },
-        "x369": {
-            "name_en": "Wind-up Thancred",
-            "name_fr": "Thancred miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "2.3",
-            "defaultCompletion": "X"
-        },
-        "x381": {
+        "x107": {
             "name_en": "Wind-up Yda",
             "name_fr": "Yda miniature",
             "category": "CATEGORY.PREMIUM",
@@ -2420,47 +1790,14 @@
             "patch": "2.38",
             "defaultCompletion": "X"
         },
-        "x322": {
-            "name_en": "Wind-up Lyse",
-            "name_fr": "Lyse miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "4.05",
+        "x211": {
+            "name_en": "Robonyan F-type",
+            "name_fr": "Robonyan F-Type",
+            "category": "CATEGORY.EVENT",
+            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
+            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
+            "patch": "3.35",
             "defaultCompletion": "X"
-        },
-        "x342": {
-            "name_en": "Wind-up Papalymo",
-            "name_fr": "Papalymo miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "2.38",
-            "defaultCompletion": "X"
-        },
-        "x375": {
-            "name_en": "Wind-up Urianger",
-            "name_fr": "Urianger miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "2.45",
-            "defaultCompletion": "X"
-        },
-        "x409": {
-            "name_en": "Brave New Urianger",
-            "name_fr": "Nouvel Urianger miniature",
-            "category": "CATEGORY.WONDROUS_TAILS",
-            "source_en": "1 Khloe's Silver Certificate of Commendation",
-            "source_fr": "1 Certificat de mérite d'argent de Khloe",
-            "patch": "6.0"
-        },
-        "x320": {
-            "name_en": "Wind-Up Louisoix",
-            "name_fr": "Louisoix miniature",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.1040",
-            "patch": "2.4"
         },
         "x503": {
             "name_en": "Wind-up Fourchenault",
@@ -2470,23 +1807,16 @@
             "source_fr": "Boutique en ligne Final Fantasy XIV",
             "patch": "6.5"
         },
-        "x259": {
-            "name_en": "Wind-up Alphinaud",
-            "name_fr": "Alphinaud miniature",
-            "category": "CATEGORY.QUEST",
-            "source": "q.67140",
-            "patch": "3.0"
-        },
-        "x257": {
-            "name_en": "Wind-up Alisaie",
-            "name_fr": "Alisaie miniature",
+        "x308": {
+            "name_en": "Little Yang",
+            "name_fr": "Fantôme joyeux",
             "category": "CATEGORY.PREMIUM",
             "source_en": "Final Fantasy XIV Online Store",
             "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.01",
+            "patch": "4.4",
             "defaultCompletion": "X"
         },
-        "x70": {
+        "x218": {
             "name_en": "Dress-up Alisaie",
             "name_fr": "Nouvelle Alisaie miniature",
             "category": "CATEGORY.WONDROUS_TAILS",
@@ -2494,16 +1824,16 @@
             "source_fr": "1 Certificat de mérite de bronze de Khloe",
             "patch": "3.4"
         },
-        "x368": {
-            "name_en": "Wind-up Tataru",
-            "name_fr": "Tataru miniature",
+        "x307": {
+            "name_en": "Little Yin",
+            "name_fr": "Fantôme triste",
             "category": "CATEGORY.PREMIUM",
             "source_en": "Final Fantasy XIV Online Store",
             "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.01",
+            "patch": "4.4",
             "defaultCompletion": "X"
         },
-        "x73": {
+        "x320": {
             "name_en": "Dress-up Tataru",
             "name_fr": "Nouvelle Tataru miniature",
             "category": "CATEGORY.PREMIUM",
@@ -2512,37 +1842,14 @@
             "patch": "4.5",
             "defaultCompletion": "X"
         },
-        "x271": {
-            "name_en": "Wind-up Cid",
-            "name_fr": "Cid miniature",
-            "category": "CATEGORY.QUEST",
-            "source": "q.67184",
-            "patch": "3.0"
-        },
-        "x316": {
-            "name_en": "Wind-up Krile",
-            "name_fr": "Krile miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.35",
-            "defaultCompletion": "X"
-        },
-        "x328": {
+        "x224": {
             "name_en": "Wind-up Moenbryda",
             "name_fr": "Moenbryda miniature",
             "category": "CATEGORY.QUEST",
             "source": "q.67886",
             "patch": "3.4"
         },
-        "x295": {
-            "name_en": "Wind-up Gentleman",
-            "name_fr": "Hildibrand miniature",
-            "category": "CATEGORY.QUEST",
-            "source": "q.66038",
-            "patch": "2.5"
-        },
-        "x39483": {
+        "x476": {
             "name_en": "Wind-up Godbert",
             "name_fr": "Godbert miniature",
             "category": "CATEGORY.EVENT",
@@ -2551,238 +1858,44 @@
             "patch": "6.3",
             "defaultCompletion": "X"
         },
-        "x318": {
-            "name_en": "Wind-up Leader",
-            "name_fr": "Dirigeant miniature",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
-            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
-            "patch": "2.1"
-        },
-        "x72": {
+        "x276": {
             "name_en": "Dress-up Raubahn",
             "name_fr": "Nouveau Raubahn miniature",
             "category": "CATEGORY.QUEST",
             "source": "q.68508",
             "patch": "4.1"
         },
-        "x333": {
-            "name_en": "Wind-up Nanamo",
-            "name_fr": "Nanamo miniature",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
-            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
-            "patch": "2.45"
+        "x119": {
+            "name_en": "Midgardsormr",
+            "name_fr": "Midgardsormr",
+            "category": "CATEGORY.QUEST",
+            "source": "q.65902",
+            "patch": "2.5"
         },
-        "x305": {
-            "name_en": "Wind-up Iceheart",
-            "name_fr": "Ysayle miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.05",
-            "defaultCompletion": "X"
-        },
-        "x383": {
-            "name_en": "Wind-up Yugiri",
-            "name_fr": "Yugiri miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.07",
-            "defaultCompletion": "X"
-        },
-        "x76": {
-            "name_en": "Dress-up Yugiri",
-            "name_fr": "Yugiri miniature revisitée",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.262",
-            "patch": "4.0"
-        },
-        "x301": {
+        "x173": {
             "name_en": "Wind-up Haurchefant",
             "name_fr": "Haurchefant miniature",
             "category": "CATEGORY.QUEST",
             "source": "q.67699",
             "patch": "3.1"
         },
-        "x334": {
-            "name_en": "Wind-up Nero tol Scaeva",
-            "name_fr": "Nero tol Scaeva miniature",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "30,000 MGP",
-            "source_fr": "30.000 PGS",
-            "patch": "3.2"
-        },
-        "x263": {
-            "name_en": "Wind-up Aymeric",
-            "name_fr": "Aymeric miniature",
-            "category": "CATEGORY.QUEST",
-            "source": "q.67783",
-            "patch": "3.3"
-        },
-        "x282": {
+        "x219": {
             "name_en": "Wind-up Edda",
             "name_fr": "Edda miniature",
             "category": "CATEGORY.DEEP_DUNGEON",
             "source": "d.174",
             "patch": "3.4"
         },
-        "x285": {
-            "name_en": "Wind-up Estinien",
-            "name_fr": "Estinien miniature",
-            "category": "CATEGORY.WONDROUS_TAILS",
-            "source_en": "1 Khloe's Bronze Certificate of Commendation",
-            "source_fr": "1 Certificat de mérite de bronze de Khloe",
-            "patch": "3.5"
-        },
-        "x71": {
-            "name_en": "Dress-up Estinien",
-            "name_fr": "Nouvel Estinien miniature",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "1,200 Skybuilders' Scrips",
-            "source_fr": "1.200 Assignats d'Azurée",
-            "patch": "5.11"
-        },
-        "x299": {
-            "name_en": "Wind-up Gosetsu",
-            "name_fr": "Gosetsu miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "4.05",
-            "defaultCompletion": "X"
-        },
-        "x382": {
-            "name_en": "Wind-up Yotsuyu",
-            "name_fr": "Yotsuyu miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code included with Art of the Revolution: Western Memories",
-            "source_fr": "Bonus d'achat de l'artbook: \"Art of the Revolution: Western Memories\"",
-            "patch": "4.2",
-            "defaultCompletion": "X"
-        },
-        "x302": {
-            "name_en": "Wind-up Hien",
-            "name_fr": "Hien miniature",
-            "category": "CATEGORY.WONDROUS_TAILS",
-            "source_en": "1 Khloe's Bronze Certificate of Commendation",
-            "source_fr": "1 Certificat de mérite de bronze de Khloe",
-            "patch": "4.1"
-        },
-        "x385": {
-            "name_en": "Wind-up Zhloe",
-            "name_fr": "Zhloe miniature",
-            "category": "CATEGORY.WONDROUS_TAILS",
-            "source_en": "1 Khloe's Bronze Certificate of Commendation",
-            "source_fr": "1 Certificat de mérite de bronze de Khloe",
-            "patch": "4.3"
-        },
-        "x312": {
-            "name_en": "Wind-up Khloe",
-            "name_fr": "Khloe miniature",
-            "category": "CATEGORY.WONDROUS_TAILS",
-            "source_en": "1 Khloe's Bronze Certificate of Commendation",
-            "source_fr": "1 Certificat de mérite de bronze de Khloe",
-            "patch": "4.0"
-        },
-        "x272": {
-            "name_en": "Wind-up Cirina",
-            "name_fr": "Cirina miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "4.35",
-            "defaultCompletion": "X"
-        },
-        "x323": {
-            "name_en": "Wind-up Magnai",
-            "name_fr": "Magnai miniature",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "4.3"
-        },
-        "x354": {
-            "name_en": "Wind-up Sadu",
-            "name_fr": "Sadu miniature",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "4.3"
-        },
-        "x157": {
-            "name_en": "Mock-up Grynewaht",
-            "name_fr": "Grynewaht miniature",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.241",
-            "patch": "4.0"
-        },
-        "x290": {
-            "name_en": "Wind-up Fran",
-            "name_fr": "Fran miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Shadowbringers Collector's Edition",
-            "source_fr": "Shadowbringers Édition Collector",
-            "patch": "5.0",
-            "defaultCompletion": "X"
-        },
-        "x293": {
-            "name_en": "Wind-up G'raha Tia",
-            "name_fr": "G'raha Tia miniature",
-            "category": "CATEGORY.QUEST",
-            "source": "q.69190",
-            "patch": "5.0"
-        },
-        "x353": {
-            "name_en": "Wind-up Ryne",
-            "name_fr": "Ryne miniature",
-            "category": "CATEGORY.RAID",
-            "source": ["d.728", "d.729"],
-            "patch": "5.2"
-        },
-        "x279": {
-            "name_en": "Wind-up Dulia-Chai",
-            "name_fr": "Dulia-Chai miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code included with The Art of Reflection -Histories Forsaken- Artbook",
-            "source_fr": "Bonus d'achat: \"FINAL FANTASY XIV: SHADOWBRINGERS - The Art of Reflection Art Book\"",
-            "patch": "5.2",
-            "defaultCompletion": "X"
-        },
-        "x331": {
-            "name_en": "Wind-up Mystel",
-            "name_fr": "Mystel miniature",
-            "category": "CATEGORY.QUEST",
-            "source": "q.69317",
-            "patch": "5.3"
-        },
-        "x262": {
-            "name_en": "Wind-up Ardbert",
-            "name_fr": "Ardbert miniature",
+        "x202": {
+            "name_en": "Whisper",
+            "name_fr": "Whisper",
             "category": "CATEGORY.EVENT",
-            "source_en": "The Rising (2020)",
-            "source_fr": "La fête de la Commémoration (2020)",
-            "patch": "5.3",
+            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
+            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
+            "patch": "3.35",
             "defaultCompletion": "X"
         },
-        "x292": {
-            "name_en": "Wind-up Gaia",
-            "name_fr": "Gaïa miniature",
-            "category": "CATEGORY.RAID",
-            "source": ["d.758", "d.759"],
-            "patch": "5.4"
-        },
-        "x398": {
-            "name_en": "Senorita Sabotender",
-            "name_fr": "Señorita Pampa",
-            "category": "CATEGORY.EVENT",
-            "source_en": "The Make It Rain Campaign (2021)",
-            "source_fr": "Le festival du Gold Saucer (2021)",
-            "patch": "5.5",
-            "defaultCompletion": "X"
-        },
-        "x402": {
+        "x416": {
             "name_en": "Wind-up Lyna",
             "name_fr": "Lyna miniature",
             "category": "CATEGORY.PREMIUM",
@@ -2790,30 +1903,6 @@
             "source_fr": "Bonus d'achat du CD: \"Death Unto Dawn Original Soundtrack\"",
             "patch": "5.5",
             "defaultCompletion": "X"
-        },
-        "x405": {
-            "name_en": "Wind-up Runar",
-            "name_fr": "Runar miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code included with The Art of Reflection -Histories Unwritten- Artbook",
-            "source_fr": "Bonus d'achat de l'artbook: \"The Art of Reflection -Histories Unwritten- Artbook\"",
-            "patch": "5.5",
-            "defaultCompletion": "X"
-        },
-        "x407": {
-            "name_en": "Wind-up Gunnhildr",
-            "name_fr": "Gunnhildr miniature",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "100 Bozjan Clusters",
-            "source_fr": "100 Cristaux bozjiens",
-            "patch": "5.55"
-        },
-        "x428": {
-            "name_en": "Wind-up Herois",
-            "name_fr": "Héroïne miniature",
-            "category": "CATEGORY.QUEST",
-            "source": "q.70000",
-            "patch": "6.0"
         },
         "x455": {
             "name_en": "Clockwork Solus",
@@ -2823,7 +1912,7 @@
             "patch": "6.2",
             "defaultCompletion": "X"
         },
-        "x39484": {
+        "x477": {
             "name_en": "Wind-up Aidoneus",
             "name_fr": "Aidoneus miniature",
             "category": "CATEGORY.TREASURE_HUNT",
@@ -2831,7 +1920,7 @@
             "source_fr": "Elpis Gymnasion",
             "patch": "6.3"
         },
-        "x38453": {
+        "x465": {
             "name_en": "Wind-up Philos",
             "name_fr": "Ami miniature",
             "category": "CATEGORY.TREASURE_HUNT",
@@ -2869,7 +1958,7 @@
             "source_fr": "Boutique en ligne Final Fantasy XIV",
             "patch": "6.5"
         },
-        "x296": {
+        "x85": {
             "name_en": "Wind-up Gilgamesh",
             "name_fr": "Pantin Gilgamesh",
             "category": "CATEGORY.PURCHASE",
@@ -2877,28 +1966,14 @@
             "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
             "patch": "2.3"
         },
-        "x82": {
-            "name_en": "Enkidu",
-            "name_fr": "Enkidu",
-            "category": "CATEGORY.TRIAL",
-            "source": "d.85",
-            "patch": "2.5"
-        },
-        "x374": {
+        "x104": {
             "name_en": "Wind-up Ultros",
             "name_fr": "Orthros articulé",
             "category": "CATEGORY.TRIAL",
             "source": "d.81",
             "patch": "2.4"
         },
-        "x150": {
-            "name_en": "Midgardsormr",
-            "name_fr": "Midgardsormr",
-            "category": "CATEGORY.QUEST",
-            "source": "q.65902",
-            "patch": "2.5"
-        },
-        "x304": {
+        "x229": {
             "name_en": "Wind-up Hraesvelgr",
             "name_fr": "Hraesvelgr miniature",
             "category": "CATEGORY.PREMIUM",
@@ -2907,143 +1982,21 @@
             "patch": "3.55a",
             "defaultCompletion": "X"
         },
-        "x335": {
-            "name_en": "Wind-up Nidhogg",
-            "name_fr": "Nidhogg miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code included with The Far Edge of Fate Original Soundtrack",
-            "source_fr": "Bonus d'achat du CD : \"The Far Edge of Fate Original Soundtrack\"",
-            "patch": "3.5",
-            "defaultCompletion": "X"
-        },
-        "x432": {
-            "name_en": "Wind-up Vrtra",
-            "name_fr": "Vrtra miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code included with Endwalker Original Soundtrack",
-            "source_fr": "Bonus d'achat du CD: \"Endwalker Original Soundtrack\"",
-            "patch": "6.0",
-            "defaultCompletion": "X"
-        },
-        "x258": {
-            "name_en": "Wind-up Alpha",
-            "name_fr": "Alpha mécanique",
-            "category": "CATEGORY.QUEST",
-            "source": "q.68693",
-            "patch": "4.4"
-        },
-        "x422": {
-            "name_en": "Starbird",
-            "name_fr": "Oiseau stellaire",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.792",
-            "patch": "6.0"
-        },
-        "x142": {
-            "name_en": "Mammet #001",
-            "name_fr": "Pantin P001",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Minion Trade - The Gold Saucer - 2,400 Gil",
-            "source_fr": "Marchande de mascottes - Gold Saucer - 2.400 gils",
-            "patch": "2.0"
-        },
-        "x144": {
-            "name_en": "Mammet #003L",
-            "name_fr": "Pantin P003L",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.736",
-            "patch": "2.0"
-        },
-        "x143": {
-            "name_en": "Mammet #003G",
-            "name_fr": "Pantin P003G",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.737",
-            "patch": "2.0"
-        },
-        "x145": {
-            "name_en": "Mammet #003U",
-            "name_fr": "Pantin P003U",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.738",
-            "patch": "2.0"
-        },
-        "x100": {
+        "x230": {
             "name_en": "Gigi",
             "name_fr": "Gigi",
             "category": "CATEGORY.QUEST",
             "source": "q.67908",
             "patch": "3.5"
         },
-        "x42": {
-            "name_en": "Cait Sith Doll",
-            "name_fr": "Poupée Cait Sith",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "A Realm Reborn Pre-order",
-            "source_fr": "Précommande de FFXIV: ARR (édition complète ou standard)",
-            "patch": "2.0",
-            "defaultCompletion": "X"
-        },
-        "x283": {
-            "name_en": "Wind-up Edvya",
-            "name_fr": "Mini-princesse Edvya",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "2.1",
-            "defaultCompletion": "X"
-        },
-        "x186": {
-            "name_en": "Peridot Carbuncle",
-            "name_fr": "Carbuncle péridot",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code included with Emerald Carbuncle Plushie",
-            "source_fr": "Bonus d'achat de la peluche: \"Carbuncle émeraude\"",
-            "patch": "3.0",
-            "defaultCompletion": "X"
-        },
-        "x109": {
-            "name_en": "Heliodor Carbuncle",
-            "name_fr": "Carbuncle héliodore",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code Included with Topaz Carbuncle Plushie",
-            "source_fr": "Bonus d'achat de la peluche: \"Carbuncle Topaze\"",
-            "patch": "3.0",
-            "defaultCompletion": "X"
-        },
-        "x269": {
-            "name_en": "Wind-up Cheerleader",
-            "name_fr": "Marionnette majorette",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "15,000 Wolf Marks",
-            "source_fr": "15.000 Marques de loup",
-            "patch": "3.3"
-        },
-        "x7": {
-            "name_en": "Angel of Mercy",
-            "name_fr": "Ange de la résurrection",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.5",
-            "defaultCompletion": "X"
-        },
-        "x8": {
-            "name_en": "Anima",
-            "name_fr": "Esprit synthétique",
+        "x52": {
+            "name_en": "Wind-up Airship",
+            "name_fr": "Aéronef mécanique",
             "category": "CATEGORY.QUEST",
-            "source": "q.67934",
-            "patch": "3.5"
+            "source": ["q.66043", "q.66082", "q.66064"],
+            "patch": "2.0"
         },
-        "x270": {
-            "name_en": "Wind-up Chimera",
-            "name_fr": "Chimère mécanique",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "4.0"
-        },
-        "x223": {
+        "x268": {
             "name_en": "Tengu Doll",
             "name_fr": "Poupée Tengu",
             "category": "CATEGORY.VENTURE",
@@ -3051,78 +2004,12 @@
             "source_fr": ["Exploration en plaine XXII", "Tâche improvisée"],
             "patch": "4.1"
         },
-        "x164": {
-            "name_en": "Motley Egg",
-            "name_fr": "Œuf bouffon",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "4.2",
-            "defaultCompletion": "X"
-        },
-        "x327": {
-            "name_en": "Wind-up Mithra",
-            "name_fr": "Poupée Mithra",
-            "category": "CATEGORY.EXPLORATORY_MISSION",
-            "source": "duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.anemos.1339",
-            "source_en": "Anemos Lockbox",
-            "source_fr": "Coffre verrouillé d'Anemos",
-            "patch": "4.25"
-        },
-        "x367": {
-            "name_en": "Wind-up Tarutaru",
-            "name_fr": "Poupée Tarutaru",
-            "category": "CATEGORY.EXPLORATORY_MISSION",
-            "source_en": "Pagos Lockbox",
-            "source_fr": "Coffre verrouillé de Pagos",
-            "patch": "4.36"
-        },
-        "x284": {
-            "name_en": "Wind-up Elvaan",
-            "name_fr": "Poupée elvaan",
-            "category": "CATEGORY.EXPLORATORY_MISSION",
-            "source": "duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.pyros.1400",
-            "patch": "4.45"
-        },
-        "x132": {
-            "name_en": "Little Yin",
-            "name_fr": "Fantôme triste",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "4.4",
-            "defaultCompletion": "X"
-        },
-        "x131": {
-            "name_en": "Little Yang",
-            "name_fr": "Fantôme joyeux",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "4.4",
-            "defaultCompletion": "X"
-        },
-        "x129": {
+        "x368": {
             "name_en": "Little Leafman",
             "name_fr": "Enfeuillé miniature",
             "category": "CATEGORY.FATE",
             "source_en": "400 Bicolor Gemstones (Il Mheg)",
             "source_fr": "400 Gemme bicolore (Il Mheg)",
-            "patch": "5.2"
-        },
-        "x6": {
-            "name_en": "Ancient One",
-            "name_fr": "Poupée ascienne",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.714",
-            "patch": "5.2"
-        },
-        "x245": {
-            "name_en": "Unlucky Rabbit",
-            "name_fr": "Lapin malchanceux",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "30,000 MGP",
-            "source_fr": "30.000 PGS",
             "patch": "5.2"
         },
         "x456": {
@@ -3141,77 +2028,7 @@
             "source_fr": "4.000 Assignat insulaire azur",
             "patch": "6.5"
         },
-        "x255": {
-            "name_en": "Wind-up Airship",
-            "name_fr": "Aéronef mécanique",
-            "category": "CATEGORY.QUEST",
-            "source": ["q.66043", "q.66082", "q.66064"],
-            "patch": "2.0"
-        },
-        "x158": {
-            "name_en": "Model Enterprise",
-            "name_fr": "Maquette de l'Entreprise",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code included with The Art of Eorzea: Another Dawn",
-            "source_fr": "Bonus d'achat du livre: \"The art of Eorzea - Another Dawn [ARTBOOK]\"",
-            "patch": "2.38",
-            "defaultCompletion": "X"
-        },
-        "x160": {
-            "name_en": "Model Vanguard",
-            "name_fr": "Maquette magitek",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Goldsmith",
-            "source_fr": "Recette de l'Orfévrier",
-            "patch": "2.0"
-        },
-        "x275": {
-            "name_en": "Wind-up Dalamud",
-            "name_fr": "Dalamud mécanique",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code included with Before Meteor Original Soundtrack",
-            "source_fr": "Bonus d'achat: \"Before Meteor Blu-Ray Soundtrack\"",
-            "patch": "2.0",
-            "defaultCompletion": "X"
-        },
-        "x159": {
-            "name_en": "Model Magitek Bit",
-            "name_fr": "Micro-drone magitek",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Blacksmith",
-            "source_fr": "Recette du Forgeron",
-            "patch": "2.5"
-        },
-        "x3": {
-            "name_en": "Accompaniment Node",
-            "name_fr": "Sphère de guidage",
-            "category": "CATEGORY.QUEST",
-            "source": "q.67649",
-            "patch": "3.0"
-        },
-        "x138": {
-            "name_en": "Magitek Avenger F1",
-            "name_fr": "Vengeur magitek S1",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.242",
-            "patch": "4.0"
-        },
-        "x379": {
-            "name_en": "Wind-up Weapon",
-            "name_fr": "Mascotte blindée",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.611",
-            "patch": "4.45"
-        },
-        "x155": {
-            "name_en": "Minitek Conveyer",
-            "name_fr": "Transporteur miniature",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "15,000 Wolf Marks",
-            "source_fr": "15.000 Marques de loup",
-            "patch": "4.45"
-        },
-        "x210": {
+        "x348": {
             "name_en": "Sharksucker-class Insubmersible",
             "name_fr": "Sous-marin de classe Rémora",
             "category": "CATEGORY.VOYAGE",
@@ -3225,64 +2042,34 @@
             ],
             "patch": "5.05"
         },
-        "x220": {
-            "name_en": "Syldrion-class Insubmersible",
-            "name_fr": "Sous-marin aérien de classe Syldra",
-            "category": "CATEGORY.VOYAGE",
-            "source_en": "Subaquatic Voyages - Sea of Jade 4",
-            "source_fr": "Expédition du sous marin - Mer de Jade 4",
-            "patch": "5.4"
-        },
-        "x116": {
-            "name_en": "Ironfrog Ambler",
-            "name_fr": "Grenouilleur A",
-            "category": "CATEGORY.FATE",
-            "source_en": "Fathard - Eulmore - 6 Formidable Cog (FATE \"A Finale Most Formidable\")",
-            "source_fr": "Fazard - Eulmore - 6 Rouages du Formidable (ALÉA \"Formidable : l'arme secrète\")",
-            "patch": "5.0"
-        },
-        "x139": {
-            "name_en": "Magitek Helldiver F1",
-            "name_fr": "Plongeur infernal S1",
-            "category": "CATEGORY.EXPLORATORY_MISSION",
-            "source": "duty.exploratory-missions.the-bozjan-southern-front.duties.0",
-            "patch": "5.35"
-        },
-        "x63": {
-            "name_en": "Dáinsleif F1",
-            "name_fr": "Dáinsleif F1",
-            "category": "CATEGORY.EXPLORATORY_MISSION",
-            "source_en": "Southern Front Lockbox",
-            "source_fr": "Coffre verrouillé du Front sud de Bozja",
-            "patch": "5.35"
-        },
-        "x397": {
+        "x411": {
             "name_en": "Magitek Predator F1",
             "name_fr": "Prédateur magitek S1",
             "category": "CATEGORY.DUNGEON",
             "source": "d.777",
             "patch": "5.5"
         },
-        "x418": {
-            "name_en": "Optimus Omicron",
-            "name_fr": "Omicron Optimus",
+        "x161": {
+            "name_en": "Wind-up Relm",
+            "name_fr": "Relm miniature",
+            "category": "CATEGORY.PREMIUM",
+            "source_en": "Item code included with The Art of Ishgard: Stone and Steel",
+            "source_fr": "Bonus d'achat de l'artbook: \"The Art of Ishgard: Stone and Steel\"",
+            "patch": "3.1",
+            "defaultCompletion": "X"
+        },
+        "x419": {
+            "name_en": "9S Automaton",
+            "name_fr": "Automate 9S",
+            "category": "CATEGORY.RAID",
+            "source": "d.779",
+            "patch": "5.5"
+        },
+        "x447": {
+            "name_en": "Teacup Kapikulu",
+            "name_fr": "Kapipikulu",
             "category": "CATEGORY.DUNGEON",
-            "source": "d.784",
-            "patch": "6.0"
-        },
-        "x413": {
-            "name_en": "Golden Dhyata",
-            "name_fr": "Dhyata dorée",
-            "category": "CATEGORY.QUEST",
-            "source": "q.70010",
-            "patch": "6.0"
-        },
-        "x439": {
-            "name_en": "Protonaught",
-            "name_fr": "Proto-Dreadnaught",
-            "category": "CATEGORY.OTHER",
-            "source_en": "1,000 Trophy Crystals",
-            "source_fr": "1.000 Cristaux-trophées",
+            "source": "d.844",
             "patch": "6.1"
         },
         "x458": {
@@ -3301,14 +2088,7 @@
             "source_fr": "Récompense de série",
             "patch": "6.2"
         },
-        "x437": {
-            "name_en": "Teacup Kapikulu",
-            "name_fr": "Kapipikulu",
-            "category": "CATEGORY.DUNGEON",
-            "source": "d.844",
-            "patch": "6.1"
-        },
-        "x39482": {
+        "x475": {
             "name_en": "Bantam Train",
             "name_fr": "Train petit mais costaud",
             "category": "CATEGORY.CRAFTING_GATHERING",
@@ -3316,48 +2096,7 @@
             "source_fr": "Recette de l'Armurier",
             "patch": "6.3"
         },
-        "x438": {
-            "name_en": "Clockwork Novus D",
-            "name_fr": "Novus D. Mécanique",
-            "category": "CATEGORY.VENTURE",
-            "source_en": "Field Exploration XXVIII",
-            "source_fr": "Exploration en plaine XXVIII",
-            "patch": "6.1"
-        },
-        "x441": {
-            "name_en": "Wind-up Ragnarok",
-            "name_fr": "Ragnarok Miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code include with The Art of Resurrection – Among The Stars – Artbook",
-            "source_fr": "Bonus d'achat : \"The Art of Resurrection – Among The Stars [ARTBOOK]\"",
-            "patch": "6.1",
-            "defaultCompletion": "X"
-        },
-        "x274": {
-            "name_en": "Wind-up Cursor",
-            "name_fr": "Curseur flottant",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
-            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
-            "patch": "2.0"
-        },
-        "x330": {
-            "name_en": "Wind-up Moon",
-            "name_fr": "Lune mécanique",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Magic Pot - The Isles of Umbra - 1 Hi-Elixir",
-            "source_fr": "Pot magique - Les Îles d'Ombra - 1 Super élixir",
-            "patch": "3.5"
-        },
-        "x363": {
-            "name_en": "Wind-up Sun",
-            "name_fr": "Soleil mécanique",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Magic Pot - The Isles of Umbra - 1 Elixir",
-            "source_fr": "Pot magique - Les Îles d'Ombra - 1 Élixir",
-            "patch": "2.2"
-        },
-        "x390": {
+        "x328": {
             "name_en": "Zephyrous Zabuton",
             "name_fr": "Coussin zabuton moelleux",
             "category": "CATEGORY.BEAST_TRIBE",
@@ -3365,105 +2104,7 @@
             "source_fr": "Shikitahe - Tamamizu - 5 Sangos Kojin",
             "patch": "4.5"
         },
-        "x189": {
-            "name_en": "Plush Cushion",
-            "name_fr": "Coussin moelleux",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "2.2"
-        },
-        "x136": {
-            "name_en": "Magic Broom",
-            "name_fr": "Balai enchanté",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Carpenter",
-            "source_fr": "Recette du Menuisier",
-            "patch": "2.2"
-        },
-        "x102": {
-            "name_en": "Gold Rush Minecart",
-            "name_fr": "Chariot de mine mécanique",
-            "category": "CATEGORY.FATE",
-            "source": "f.855",
-            "patch": "3.0"
-        },
-        "x152": {
-            "name_en": "Miniature Minecart",
-            "name_fr": "Wagonnet mécanique",
-            "category": "CATEGORY.VENTURE",
-            "source": "d.540",
-            "source_en": "Highland Exploration XIV",
-            "source_fr": "Exploration en montagne XIV",
-            "patch": "2.3"
-        },
-        "x53": {
-            "name_en": "Clockwork Barrow",
-            "name_fr": "Brouette mécanique",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Carpenter",
-            "source_fr": "Recette de Menuisier",
-            "patch": "3.0"
-        },
-        "x111": {
-            "name_en": "Hoary the Snowman",
-            "name_fr": "Bébé bonhomme de neige",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "2.45",
-            "defaultCompletion": "X"
-        },
-        "x65": {
-            "name_en": "Demon Box",
-            "name_fr": "Cadeau ambulant",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Attend a Ceremony of Eternal Bonding",
-            "source_fr": "Participer à une Cérémonie du lien Éternel",
-            "patch": "2.45",
-            "defaultCompletion": "X"
-        },
-        "x137": {
-            "name_en": "Magic Bucket",
-            "name_fr": "Seau d'eau magique",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Gathered by Fisher",
-            "source_fr": "Récolté par le Pêcheur",
-            "patch": "3.3"
-        },
-        "x195": {
-            "name_en": "Private Moai",
-            "name_fr": "Mini moai",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Blacksmith",
-            "source_fr": "Recette du Forgeron",
-            "patch": "4.2"
-        },
-        "x54": {
-            "name_en": "Clockwork Lantern",
-            "name_fr": "Lanterne mécanique",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "15,000 Wolf Marks",
-            "source_fr": "15.000 Marques de loup",
-            "patch": "4.3"
-        },
-        "x231": {
-            "name_en": "Tinker's Bell",
-            "name_fr": "Clochette",
-            "category": "CATEGORY.FATE",
-            "source_en": "Fathard - Eulmore - 6 Archaeotania's Horn (FATE \"The Head, The Tail, the Whole Damned Thing\")",
-            "source_fr": "Fathard - Eulmore - 6 Cornes d'Archaeotania",
-            "patch": "5.0"
-        },
-        "x4": {
-            "name_en": "Allagan Melon",
-            "name_fr": "Melon allagois",
-            "category": "CATEGORY.OTHER",
-            "source_en": "Gardening",
-            "source_fr": "Jardinage",
-            "patch": "5.3"
-        },
-        "x394": {
+        "x413": {
             "name_en": "Benben Stone",
             "name_fr": "Benben",
             "category": "CATEGORY.VOYAGE",
@@ -3471,21 +2112,13 @@
             "source_fr": "Expédition sous-marine - Crypte du diable",
             "patch": "5.5"
         },
-        "x400": {
+        "x414": {
             "name_en": "Wanderer's Campfire",
             "name_fr": "Feu de camp de voyageur",
             "category": "CATEGORY.CRAFTING_GATHERING",
             "source_en": "Crafted by Alchemist",
             "source_fr": "Recette de l'Alchimiste",
             "patch": "5.5"
-        },
-        "x408": {
-            "name_en": "Adventure Basket",
-            "name_fr": "Malle d'aventure",
-            "category": "CATEGORY.CRAFTING_GATHERING",
-            "source_en": "Crafted by Weaver",
-            "source_fr": "Recette du Couturier",
-            "patch": "6.0"
         },
         "x489": {
             "name_en": "Goggle-eyed Dogu",
@@ -3503,47 +2136,7 @@
             "source_fr": "400 Folioles irréelles",
             "patch": "6.5"
         },
-        "x349": {
-            "name_en": "Wind-up Red Mage",
-            "name_fr": "Mage rouge mécanique",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Stormblood Pre-order",
-            "source_fr": "Précommande de Stormblood",
-            "patch": "4.0",
-            "defaultCompletion": "X"
-        },
-        "x154": {
-            "name_en": "Minion of Light",
-            "name_fr": "Héros de la Lumière",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
-            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
-            "patch": "2.1"
-        },
-        "x378": {
-            "name_en": "Wind-up Warrior of Light",
-            "name_fr": "Guerrier de la Lumière",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
-            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
-            "patch": "2.2"
-        },
-        "x288": {
-            "name_en": "Wind-up Firion",
-            "name_fr": "Firion miniature",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Jonathas - Old Gridania - 2 Achievement Certificates",
-            "source_fr": "Jonathas - Vieille Gridania - 2 Jetons de hauts faits",
-            "patch": "3.07"
-        },
-        "x341": {
-            "name_en": "Wind-up Onion Knight",
-            "name_fr": "Poupée chevalier oignon",
-            "category": "CATEGORY.RAID",
-            "source": "d.102",
-            "patch": "2.3"
-        },
-        "x310": {
+        "x129": {
             "name_en": "Wind-up Kain",
             "name_fr": "Kaïn miniature",
             "category": "CATEGORY.PREMIUM",
@@ -3552,41 +2145,12 @@
             "patch": "3.0",
             "defaultCompletion": "X"
         },
-        "x216": {
-            "name_en": "Spoony Bard",
-            "name_fr": "Edward miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code included with Heavensward Original Soundtrack",
-            "source_fr": "Bonus d'achat: \"Final Fantasy XIV: Heavensward Soundtrack\"",
-            "patch": "3.2",
-            "defaultCompletion": "X"
-        },
-        "x169": {
-            "name_en": "Namingway",
-            "name_fr": "Poupée Namingway",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code included with Encyclopaedia Eorzea",
-            "source_fr": "Bonus d'achat du livre: \"Encyclopaedia Eorzea - The World of Fianl Fantasy XIV - [BOOK]\"",
-            "patch": "3.4",
-            "defaultCompletion": "X"
-        },
-        "x403": {
-            "name_en": "Wind-up Palom",
-            "name_fr": "Palom miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Endwalker Pre-order",
-            "source_fr": "Précommande d'Endwalker",
-            "patch": "5.5",
-            "defaultCompletion": "X"
-        },
-        "x430": {
-            "name_en": "Wind-up Porom",
-            "name_fr": "Porom miniature ",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Endwalker Collector's Edition",
-            "source_fr": "Endwalker Édition Collector",
-            "patch": "6.0",
-            "defaultCompletion": "X"
+        "x415": {
+            "name_en": "Smaller Stubby",
+            "name_fr": "Forme de vie mécanique",
+            "category": "CATEGORY.RAID",
+            "source": "d.779",
+            "patch": "5.5"
         },
         "x401": {
             "name_en": "Wind-up Edge",
@@ -3595,69 +2159,6 @@
             "source_en": "Digital Fan Festival (2021)",
             "source_fr": "Digital Fan Festival (2021)",
             "patch": "5.5",
-            "defaultCompletion": "X"
-        },
-        "x406": {
-            "name_en": "Wind-up Rydia",
-            "name_fr": "Rydia miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Digital Fan Festival (2021)",
-            "source_fr": "Digital Fan Festival (2021)",
-            "patch": "5.5",
-            "defaultCompletion": "X"
-        },
-        "x404": {
-            "name_en": "Wind-up Rosa",
-            "name_fr": "Rosa miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Digital Fan Festival (2021)",
-            "source_fr": "Digital Fan Festival (2021)",
-            "patch": "5.5",
-            "defaultCompletion": "X"
-        },
-        "x265": {
-            "name_en": "Wind-up Bartz",
-            "name_fr": "Bartz miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Stormblood Collector's Edition",
-            "source_fr": "Achat de l'Édition collector de Stormblood",
-            "patch": "4.0",
-            "defaultCompletion": "X"
-        },
-        "x351": {
-            "name_en": "Wind-up Relm",
-            "name_fr": "Relm miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Item code included with The Art of Ishgard: Stone and Steel",
-            "source_fr": "Bonus d'achat de l'artbook: \"The Art of Ishgard: Stone and Steel\"",
-            "patch": "3.1",
-            "defaultCompletion": "X"
-        },
-        "x273": {
-            "name_en": "Wind-Up Cloud",
-            "name_fr": "Cloud miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "4.45",
-            "defaultCompletion": "X"
-        },
-        "x254": {
-            "name_en": "Wind-up Aerith",
-            "name_fr": "Aerith miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "4.45",
-            "defaultCompletion": "X"
-        },
-        "x370": {
-            "name_en": "Wind-up Tifa",
-            "name_fr": "Tifa miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "4.4",
             "defaultCompletion": "X"
         },
         "x454": {
@@ -3675,42 +2176,6 @@
             "source_fr": "Précommande de Dawntrail",
             "patch": "6.58"
         },
-        "x384": {
-            "name_en": "Wind-up Yuna",
-            "name_fr": "Yuna miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.5",
-            "defaultCompletion": "X"
-        },
-        "x352": {
-            "name_en": "Wind-up Rikku",
-            "name_fr": "Rikku miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.4",
-            "defaultCompletion": "X"
-        },
-        "x321": {
-            "name_en": "Wind-up Lulu",
-            "name_fr": "Lulu miniature",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "3.4",
-            "defaultCompletion": "X"
-        },
-        "x359": {
-            "name_en": "Wind-up Shantotto",
-            "name_fr": "Poupée Shantotto",
-            "category": "CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
-            "patch": "2.1",
-            "defaultCompletion": "X"
-        },
         "x498": {
             "name_en": "Torgal Pup",
             "name_fr": "Talgor Louveteau",
@@ -3719,128 +2184,7 @@
             "source_fr": "Collaboration: Final Fantasy XVI",
             "patch": "6.58"
         },
-        "x347": {
-            "name_en": "Wind-up Ramza",
-            "name_fr": "Ramza miniature",
-            "category": "CATEGORY.RAID",
-            "source": "d.636",
-            "patch": "4.45"
-        },
-        "x248": {
-            "name_en": "Water Imp",
-            "name_fr": "Petit kappa",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "10,000 MGP",
-            "source_fr": "10.000 PGS",
-            "patch": "2.51"
-        },
-        "x188": {
-            "name_en": "Piggy",
-            "name_fr": "Porcelet promeneur",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "30,000 MGP",
-            "source_fr": "30.000 PGS",
-            "patch": "3.3"
-        },
-        "x127": {
-            "name_en": "Lalinator 5.H0",
-            "name_fr": "Nain lali-ho",
-            "category": "CATEGORY.BEAST_TRIBE",
-            "source_en": "8 Hammered Frogments",
-            "source_fr": "8 Médailles naines",
-            "patch": "5.3"
-        },
-        "x267": {
-            "name_en": "Wind-up Brickman",
-            "name_fr": "Siman mécanique",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Breaking Brick Mountains (2014, 2017)",
-            "source_fr": "Golems hors du Commun (2014, 2017)",
-            "patch": "2.1",
-            "defaultCompletion": "X"
-        },
-        "x118": {
-            "name_en": "Jibanyan",
-            "name_fr": "Jibanyan",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "3.35",
-            "defaultCompletion": "X"
-        },
-        "x123": {
-            "name_en": "Komasan",
-            "name_fr": "Komasan",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "3.35",
-            "defaultCompletion": "X"
-        },
-        "x251": {
-            "name_en": "Whisper",
-            "name_fr": "Whisper",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "3.35",
-            "defaultCompletion": "X"
-        },
-        "x30": {
-            "name_en": "Blizzaria",
-            "name_fr": "Blizzaria",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "3.35",
-            "defaultCompletion": "X"
-        },
-        "x125": {
-            "name_en": "Kyubi",
-            "name_fr": "Kyubi",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "3.35",
-            "defaultCompletion": "X"
-        },
-        "x122": {
-            "name_en": "Komajiro",
-            "name_fr": "Komajiro",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "3.35",
-            "defaultCompletion": "X"
-        },
-        "x147": {
-            "name_en": "Manjimutt",
-            "name_fr": "Corniot",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "3.35",
-            "defaultCompletion": "X"
-        },
-        "x172": {
-            "name_en": "Noko",
-            "name_fr": "Noko",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "3.35",
-            "defaultCompletion": "X"
-        },
-        "x247": {
-            "name_en": "Venoct",
-            "name_fr": "Octorgone",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "3.35",
-            "defaultCompletion": "X"
-        },
-        "x212": {
+        "x209": {
             "name_en": "Shogunyan",
             "name_fr": "Shogunyan",
             "category": "CATEGORY.EVENT",
@@ -3849,126 +2193,14 @@
             "patch": "3.35",
             "defaultCompletion": "X"
         },
-        "x112": {
-            "name_en": "Hovernyan",
-            "name_fr": "Hovernyan",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "3.35",
-            "defaultCompletion": "X"
-        },
-        "x200": {
-            "name_en": "Robonyan F-type",
-            "name_fr": "Robonyan F-Type",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "3.35",
-            "defaultCompletion": "X"
-        },
-        "x246": {
-            "name_en": "USApyon",
-            "name_fr": "Usapyon",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2016, 2017, 2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "3.35",
-            "defaultCompletion": "X"
-        },
-        "x135": {
-            "name_en": "Lord Enma",
-            "name_fr": "Lord Enma",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "5.3",
-            "defaultCompletion": "X"
-        },
-        "x134": {
-            "name_en": "Lord Ananta",
-            "name_fr": "Lord Ananta",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "5.3",
-            "defaultCompletion": "X"
-        },
-        "x389": {
-            "name_en": "Zazel",
-            "name_fr": "Zazel",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "5.3",
-            "defaultCompletion": "X"
-        },
-        "x64": {
-            "name_en": "Damona",
-            "name_fr": "Damona",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Yo-kai Watch (2020)",
-            "source_fr": "Yo-Kai Watch: Adoptez-en un, adoptez les tous ! (2016, 2017, 2020)",
-            "patch": "5.3",
-            "defaultCompletion": "X"
-        },
-        "x182": {
-            "name_en": "Palico",
-            "name_fr": "Felyne",
-            "category": "CATEGORY.QUEST",
-            "source": "q.67090",
-            "patch": "4.36"
-        },
-        "x192": {
-            "name_en": "Poogie",
-            "name_fr": "Poogie",
-            "category": "CATEGORY.TRIAL",
-            "source": "d.475",
-            "patch": "4.36"
-        },
-        "x190": {
-            "name_en": "Pod 054",
-            "name_fr": "Pod 054",
-            "category": "CATEGORY.RAID",
-            "source": "d.700",
-            "patch": "5.1"
-        },
-        "x191": {
-            "name_en": "Pod 316",
-            "name_fr": "Pod 316",
-            "category": "CATEGORY.RAID",
-            "source": "d.700",
-            "patch": "5.1"
-        },
-        "x0": {
+        "x394": {
             "name_en": "2B Automaton",
             "name_fr": "Automate 2B",
             "category": "CATEGORY.RAID",
             "source": "d.736",
             "patch": "5.3"
         },
-        "x1": {
-            "name_en": "2P Automaton",
-            "name_fr": "Automate 2P",
-            "category": "CATEGORY.RAID",
-            "source": "d.736",
-            "patch": "5.3"
-        },
-        "x399": {
-            "name_en": "Smaller Stubby",
-            "name_fr": "Forme de vie mécanique",
-            "category": "CATEGORY.RAID",
-            "source": "d.779",
-            "patch": "5.5"
-        },
-        "x392": {
-            "name_en": "9S Automaton",
-            "name_fr": "Automate 9S",
-            "category": "CATEGORY.RAID",
-            "source": "d.779",
-            "patch": "5.5"
-        },
-        "x39477": {
+        "x470": {
             "name_en": "Mama Automaton",
             "name_fr": "Automate Maman",
             "category": "CATEGORY.PURCHASE",
