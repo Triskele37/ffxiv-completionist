@@ -9,8 +9,7 @@
             "name_fr": "Élégie à l'étoile du dragon",
             "location": "(10.1, 23.3)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1846": {
             "level": 89,
@@ -18,8 +17,7 @@
             "name_fr": "Ô vent, as-tu trouvé les dragons?",
             "location": "(16.9, 28.4)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1847": {
             "level": 89,
@@ -27,8 +25,7 @@
             "name_fr": "Défi: les ailes de la gloire",
             "location": "(12.0, 35.3)",
             "patch": "6.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         },
         "x1848": {
             "level": 89,
@@ -36,8 +33,7 @@
             "name_fr": "La fin de l'éternité",
             "location": "(8.7, 18.9)",
             "patch": "6.0",
-            "type_en": "Defense",
-            "type_fr": "Défense"
+            "type": "FATE_TYPE.DEFENSE"
         },
         "x1849": {
             "level": 89,
@@ -45,8 +41,7 @@
             "name_fr": "Défi: les ailes de la vengeance",
             "location": "(20.6, 35.5)",
             "patch": "6.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         },
         "x1850": {
             "level": 89,
@@ -54,8 +49,7 @@
             "name_fr": "Le remède à la mélancolie",
             "location": "(17.3, 11.1)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1851": {
             "level": 89,
@@ -63,8 +57,7 @@
             "name_fr": "Les vents du changement",
             "location": "(30.6, 7.6)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1852": {
             "level": 89,
@@ -72,8 +65,7 @@
             "name_fr": "L'éclat choit du ciel",
             "location": "(20.4, 7.9)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1853": {
             "level": 89,
@@ -81,8 +73,7 @@
             "name_fr": "Les yeux dans le ciel",
             "location": "(27.8, 15.0)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1854": {
             "level": 89,
@@ -90,8 +81,7 @@
             "name_fr": "Défi: l'étoile du soir",
             "location": "(32.3, 11.5)",
             "patch": "6.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         },
         "x1843": {
             "level": 89,
@@ -99,8 +89,7 @@
             "name_fr": "Mémoire vive: mise à niveau",
             "location": "(29.4, 25.8)",
             "patch": "6.0",
-            "type_en": "Gather Items",
-            "type_fr": "Ramassage d'objets"
+            "type": "FATE_TYPE.GATHER"
         },
         "x1844": {
             "level": 89,
@@ -109,8 +98,7 @@
             "location": "(33.3, 26.8)",
             "patch": "6.0",
             "previousFate": "f.1843",
-            "type_en": "Defense",
-            "type_fr": "Défense"
+            "type": "FATE_TYPE.DEFENSE"
         },
         "x1855": {
             "level": 90,
@@ -119,8 +107,7 @@
             "location": "(34.5, 21.5)",
             "patch": "6.0",
             "previousFate": "f.1844",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         }
     }
 }

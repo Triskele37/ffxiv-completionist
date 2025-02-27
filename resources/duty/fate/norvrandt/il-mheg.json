@@ -9,8 +9,7 @@
             "name_fr": "Défi: Samyaza",
             "location": "(10.7, 35.7)",
             "patch": "5.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         },
         "x1489": {
             "level": 72,
@@ -18,8 +17,7 @@
             "name_fr": "Ours sur un lit de rose",
             "location": "(17.2, 35.3)",
             "patch": "5.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1490": {
             "level": 72,
@@ -27,8 +25,7 @@
             "name_fr": "Floraison virulente",
             "location": "(8.3, 31.7)",
             "patch": "5.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1491": {
             "level": 72,
@@ -36,8 +33,7 @@
             "name_fr": "Défi: Nécropsychée",
             "location": "(11.0, 28.8)",
             "patch": "5.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         },
         "x1493": {
             "level": 72,
@@ -45,8 +41,7 @@
             "name_fr": "Amis pour la vie",
             "location": "(6.8, 27.0)",
             "patch": "5.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1480": {
             "level": 73,
@@ -54,8 +49,7 @@
             "name_fr": "Les frères Daen: Pixie en vue!",
             "location": "(23.7, 11.1)",
             "patch": "5.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1481": {
             "level": 73,
@@ -64,8 +58,7 @@
             "location": "(27.3, 10.0)",
             "patch": "5.0",
             "previousFate": "f.1480",
-            "type_en": "Defense",
-            "type_fr": "Défense"
+            "type": "FATE_TYPE.DEFENSE"
         },
         "x1482": {
             "level": 73,
@@ -74,8 +67,7 @@
             "location": "(30.2, 13.1)",
             "patch": "5.0",
             "previousFate": "f.1481",
-            "type_en": "Defense",
-            "type_fr": "Défense"
+            "type": "FATE_TYPE.DEFENSE"
         },
         "x1483": {
             "level": 73,
@@ -84,8 +76,7 @@
             "location": "(24.5, 17.7)",
             "patch": "5.0",
             "previousFate": "f.1482",
-            "type_en": "Defense",
-            "type_fr": "Défense"
+            "type": "FATE_TYPE.DEFENSE"
         },
         "x1484": {
             "level": 73,
@@ -94,8 +85,7 @@
             "location": "(25.1, 21.5)",
             "patch": "5.0",
             "previousFate": "f.1483",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         },
         "x1485": {
             "level": 73,
@@ -104,8 +94,7 @@
             "location": "(8.3, 14.3)",
             "patch": "5.0",
             "previousFate": "f.1484",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         },
         "x1486": {
             "level": 73,
@@ -114,8 +103,7 @@
             "location": "(20.7, 10.4)",
             "patch": "5.0",
             "previousFate": "f.1485",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         },
         "x1487": {
             "level": 73,
@@ -124,8 +112,7 @@
             "location": "(32.6, 5.6)",
             "patch": "5.0",
             "previousFate": "f.1486",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         },
         "x1495": {
             "level": 72,
@@ -133,8 +120,7 @@
             "name_fr": "La Pixie butineuse et l'or liquide",
             "location": "(10.3, 23.5)",
             "patch": "5.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1492": {
             "level": 72,
@@ -143,8 +129,7 @@
             "location": "(7.7, 19.5)",
             "patch": "5.0",
             "previousFate": "f.1495",
-            "type_en": "Gather Items",
-            "type_fr": "Ramassage d'objets"
+            "type": "FATE_TYPE.GATHER"
         },
         "x1494": {
             "level": 72,
@@ -153,8 +138,7 @@
             "location": "(13.1, 23.8)",
             "patch": "5.0",
             "previousFate": "f.1492",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         }
     }
 }

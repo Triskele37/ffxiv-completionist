@@ -9,8 +9,7 @@
             "name_fr": "Un guet-apens piquant",
             "location": "(33.5, 11.3)",
             "patch": "5.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1520": {
             "level": 70,
@@ -18,8 +17,7 @@
             "name_fr": "Gare aux sables mouvants!",
             "location": "(28.6, 13.6)",
             "patch": "5.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1521": {
             "level": 70,
@@ -27,8 +25,7 @@
             "name_fr": "Touchez pas à ma truffe!",
             "location": "(31.5, 16.8)",
             "patch": "5.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1522": {
             "level": 70,
@@ -36,8 +33,7 @@
             "name_fr": "Bayawak, la reine des lézards",
             "location": "(32.4, 14.2)",
             "patch": "5.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         },
         "x1523": {
             "level": 76,
@@ -45,8 +41,7 @@
             "name_fr": "Des iguanes assoiffés de sang!",
             "location": "(14.5, 13.8)",
             "patch": "5.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1524": {
             "level": 76,
@@ -54,8 +49,7 @@
             "name_fr": "Ça casse pas trois pattes à un phorusrhacos",
             "location": "(21.6, 13.1)",
             "patch": "5.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1525": {
             "level": 77,
@@ -63,8 +57,7 @@
             "name_fr": "Kurukadi et Mumba, duo de choc",
             "location": "(17.0, 32.6)",
             "patch": "5.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         },
         "x1526": {
             "level": 77,
@@ -72,8 +65,7 @@
             "name_fr": "Exploser la gueule des huldus explosifs",
             "location": "(9.6, 32.2)",
             "patch": "5.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1527": {
             "level": 76,
@@ -81,8 +73,7 @@
             "name_fr": "Un dernier tango armé",
             "location": "(15.5, 20.5)",
             "patch": "5.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1511": {
             "level": 70,
@@ -90,8 +81,7 @@
             "name_fr": "Course au trésor: mandibules sécatrices",
             "location": "(31.9, 19.5)",
             "patch": "5.0",
-            "type_en": "Defense",
-            "type_fr": "Défense"
+            "type": "FATE_TYPE.DEFENSE"
         },
         "x1512": {
             "level": 70,
@@ -100,8 +90,7 @@
             "location": "(33.2, 25.2)",
             "patch": "5.0",
             "previousFate": "f.1511",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1513": {
             "level": 70,
@@ -110,8 +99,7 @@
             "location": "(35.5, 24.7)",
             "patch": "5.0",
             "previousFate": "f.1512",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         },
         "x1514": {
             "level": 70,
@@ -120,8 +108,7 @@
             "location": "(34.4, 27.6)",
             "patch": "5.0",
             "previousFate": "f.1513",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         },
         "x1515": {
             "level": 76,
@@ -130,8 +117,7 @@
             "location": "(17.4, 16.0)",
             "patch": "5.0",
             "previousFate": "f.1514",
-            "type_en": "Defense",
-            "type_fr": "Défense"
+            "type": "FATE_TYPE.DEFENSE"
         },
         "x1516": {
             "level": 76,
@@ -140,8 +126,7 @@
             "location": "(14.3, 17.6)",
             "patch": "5.0",
             "previousFate": "f.1515",
-            "type_en": "Defense",
-            "type_fr": "Défense"
+            "type": "FATE_TYPE.DEFENSE"
         },
         "x1517": {
             "level": 76,
@@ -150,8 +135,7 @@
             "location": "(20.1, 20.8)",
             "patch": "5.0",
             "previousFate": "f.1516",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1518": {
             "level": 76,
@@ -160,8 +144,7 @@
             "location": "(22.4, 26.0)",
             "patch": "5.0",
             "previousFate": "f.1517",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         }
     }
 }

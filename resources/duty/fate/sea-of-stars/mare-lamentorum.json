@@ -9,8 +9,7 @@
             "name_fr": "La chose surgit des ténèbres",
             "location": "(18.1, 32.2)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1807": {
             "level": 83,
@@ -18,8 +17,7 @@
             "name_fr": "Pas de compassion pour les champignons",
             "location": "(24.6, 35.0)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1808": {
             "level": 83,
@@ -27,8 +25,7 @@
             "name_fr": "Il y a trop de pampas qui s'aiment",
             "location": "(6.8, 34.1)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1809": {
             "level": 83,
@@ -36,8 +33,7 @@
             "name_fr": "L'attaque des droïdes",
             "location": "(33.0, 27.6)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1810": {
             "level": 83,
@@ -45,8 +41,7 @@
             "name_fr": "Défi: le géant de la lune",
             "location": "(10.6, 31.5)",
             "patch": "6.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         },
         "x1811": {
             "level": 83,
@@ -54,8 +49,7 @@
             "name_fr": "La face cachée de la lune",
             "location": "(27.4, 31.4)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1812": {
             "level": 84,
@@ -63,8 +57,7 @@
             "name_fr": "Un accident chez les assistants",
             "location": "(10.5, 21.0)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1813": {
             "level": 84,
@@ -72,8 +65,7 @@
             "name_fr": "Sur les deux rives d'un océan",
             "location": "(23.3, 22.1)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1814": {
             "level": 84,
@@ -81,8 +73,7 @@
             "name_fr": "Produits plus sous garantie",
             "location": "(10.3, 13.5)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1815": {
             "level": 84,
@@ -90,8 +81,7 @@
             "name_fr": "Des infirmiers infernaux",
             "location": "(35.4, 8.6)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1816": {
             "level": 84,
@@ -99,8 +89,7 @@
             "name_fr": "Défi: le penseur parasite",
             "location": "(15.2, 25.2)",
             "patch": "6.0",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         },
         "x1817": {
             "level": 84,
@@ -108,8 +97,7 @@
             "name_fr": "Addiction aux frissons",
             "location": "(19.2, 22.6)",
             "patch": "6.0",
-            "type_en": "Gather Items",
-            "type_fr": "Ramassage d'objets"
+            "type": "FATE_TYPE.GATHER"
         },
         "x1803": {
             "level": 84,
@@ -117,8 +105,7 @@
             "name_fr": "Panique lapinesque: explosifs invasifs",
             "location": "(29.2, 13.0)",
             "patch": "6.0",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1804": {
             "level": 84,
@@ -127,8 +114,7 @@
             "location": "(13.9, 8.9)",
             "patch": "6.0",
             "previousFate": "f.1803",
-            "type_en": "Slay Enemies",
-            "type_fr": "Ennemis à abattre"
+            "type": "FATE_TYPE.SLAY"
         },
         "x1805": {
             "level": 84,
@@ -137,8 +123,7 @@
             "location": "(11.4, 6.8)",
             "patch": "6.0",
             "previousFate": "f.1804",
-            "type_en": "Notorious Monster",
-            "type_fr": "Défi"
+            "type": "FATE_TYPE.NM"
         }
     }
 }
