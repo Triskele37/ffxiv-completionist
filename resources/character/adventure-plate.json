@@ -21,12 +21,11 @@
             "header_fr": "Patch"
         }
     },
-    "common": ["category"],
     "tasks": {
         "x91": {
             "name_en": "Grand Company 1",
             "name_fr": "Grandes Compagnies 1",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66196",
             "patch": "6.1",
             "cSiblings": ["q.66196"]
@@ -34,7 +33,7 @@
         "x107": {
             "name_en": "Grand Company 2",
             "name_fr": "Grandes Compagnies 2",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66047",
             "patch": "6.2",
             "cSiblings": ["q.66047"]
@@ -42,7 +41,7 @@
         "x112": {
             "name_en": "Performer",
             "name_fr": "Musique",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68555",
             "patch": "6.2",
             "cSiblings": ["q.68555"]
@@ -50,7 +49,7 @@
         "x90": {
             "name_en": "Triple Triad",
             "name_fr": "Triple Triade",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65971",
             "patch": "6.1",
             "cSiblings": ["q.65971"]
@@ -58,7 +57,7 @@
         "x0": {
             "name_en": "Gladiator",
             "name_fr": "Gladiateur",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65801",
             "patch": "6.1",
             "cSiblings": ["q.65801"]
@@ -66,7 +65,7 @@
         "x4": {
             "name_en": "Marauder",
             "name_fr": "Maraudeur",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65855",
             "patch": "6.1",
             "cSiblings": ["q.65855"]
@@ -74,7 +73,7 @@
         "x14": {
             "name_en": "Conjurer",
             "name_fr": "Élémentaliste",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65977",
             "patch": "6.1",
             "cSiblings": ["q.65977"]
@@ -82,7 +81,7 @@
         "x18": {
             "name_en": "Arcanist",
             "name_fr": "Arcaniste",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65997",
             "patch": "6.1",
             "cSiblings": ["q.65997"]
@@ -90,7 +89,7 @@
         "x28": {
             "name_en": "Pugilist",
             "name_fr": "Pugiliste",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66103",
             "patch": "6.1",
             "cSiblings": ["q.66103"]
@@ -98,7 +97,7 @@
         "x32": {
             "name_en": "Lancer",
             "name_fr": "Maître d'hast",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65975",
             "patch": "6.1",
             "cSiblings": ["q.65975"]
@@ -106,7 +105,7 @@
         "x36": {
             "name_en": "Rogue",
             "name_fr": "Surineur",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65691",
             "patch": "6.1",
             "cSiblings": ["q.65691"]
@@ -114,7 +113,7 @@
         "x46": {
             "name_en": "Archer",
             "name_fr": "Archer",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65612",
             "patch": "6.1",
             "cSiblings": ["q.65612"]
@@ -122,7 +121,7 @@
         "x56": {
             "name_en": "Thaumaturge",
             "name_fr": "Occultiste",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65889",
             "patch": "6.1",
             "cSiblings": ["q.65889"]
@@ -130,7 +129,7 @@
         "x68": {
             "name_en": "Carpenter",
             "name_fr": "Menuisier",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.67981",
             "patch": "6.1",
             "cSiblings": ["q.67981"]
@@ -138,7 +137,7 @@
         "x70": {
             "name_en": "Blacksmith",
             "name_fr": "Forgeron",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68155",
             "patch": "6.1",
             "cSiblings": ["q.68155"]
@@ -146,7 +145,7 @@
         "x72": {
             "name_en": "Armorer",
             "name_fr": "Armurier",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68134",
             "patch": "6.1",
             "cSiblings": ["q.68134"]
@@ -154,7 +153,7 @@
         "x74": {
             "name_en": "Goldsmith",
             "name_fr": "Orfèvre",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68139",
             "patch": "6.1",
             "cSiblings": ["q.68139"]
@@ -162,7 +161,7 @@
         "x76": {
             "name_en": "Leatherworker",
             "name_fr": "Tanneur",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68151",
             "patch": "6.1",
             "cSiblings": ["q.68151"]
@@ -170,7 +169,7 @@
         "x78": {
             "name_en": "Weaver",
             "name_fr": "Couturier",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.67971",
             "patch": "6.1",
             "cSiblings": ["q.67971"]
@@ -178,7 +177,7 @@
         "x80": {
             "name_en": "Alchemist",
             "name_fr": "Alchimiste",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.67976",
             "patch": "6.1",
             "cSiblings": ["q.67976"]
@@ -186,7 +185,7 @@
         "x82": {
             "name_en": "Culinarian",
             "name_fr": "Cuisinier",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68144",
             "patch": "6.1",
             "cSiblings": ["q.68144"]
@@ -194,7 +193,7 @@
         "x84": {
             "name_en": "Miner",
             "name_fr": "Mineur",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68094",
             "patch": "6.1",
             "cSiblings": ["q.68094"]
@@ -202,7 +201,7 @@
         "x86": {
             "name_en": "Botanist",
             "name_fr": "Botaniste",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68160",
             "patch": "6.1",
             "cSiblings": ["q.68160"]
@@ -210,7 +209,7 @@
         "x88": {
             "name_en": "Fisher",
             "name_fr": "Pêcheur",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68435",
             "patch": "6.1",
             "cSiblings": ["q.68435"]
@@ -218,7 +217,7 @@
         "x1": {
             "name_en": "Paladin",
             "name_fr": "Paladin",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68746",
             "patch": "6.1",
             "cSiblings": ["q.68746"]
@@ -226,7 +225,7 @@
         "x5": {
             "name_en": "Warrior",
             "name_fr": "Guerrier",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68748",
             "patch": "6.1",
             "cSiblings": ["q.68748"]
@@ -234,7 +233,7 @@
         "x8": {
             "name_en": "Dark Knight",
             "name_fr": "Chevalier noir",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68757",
             "patch": "6.1",
             "cSiblings": ["q.68757"]
@@ -242,7 +241,7 @@
         "x11": {
             "name_en": "Gunbreaker",
             "name_fr": "Pistosabreur",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68761",
             "patch": "6.1",
             "cSiblings": ["q.68761"]
@@ -250,7 +249,7 @@
         "x15": {
             "name_en": "White Mage",
             "name_fr": "Mage blanc",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68751",
             "patch": "6.1",
             "cSiblings": ["q.68751"]
@@ -258,7 +257,7 @@
         "x19": {
             "name_en": "Scholar",
             "name_fr": "Érudit",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68754",
             "patch": "6.1",
             "cSiblings": ["q.68754"]
@@ -266,7 +265,7 @@
         "x22": {
             "name_en": "Astrologian",
             "name_fr": "Astromancien",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68758",
             "patch": "6.1",
             "cSiblings": ["q.68758"]
@@ -274,7 +273,7 @@
         "x25": {
             "name_en": "Sage",
             "name_fr": "Sage",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69608",
             "patch": "6.1",
             "cSiblings": ["q.69608"]
@@ -282,7 +281,7 @@
         "x29": {
             "name_en": "Monk",
             "name_fr": "Moine",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68747",
             "patch": "6.1",
             "cSiblings": ["q.68747"]
@@ -290,7 +289,7 @@
         "x33": {
             "name_en": "Dragoon",
             "name_fr": "Chevalier dragon",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68749",
             "patch": "6.1",
             "cSiblings": ["q.68749"]
@@ -298,7 +297,7 @@
         "x37": {
             "name_en": "Ninja",
             "name_fr": "Ninja",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68755",
             "patch": "6.1",
             "cSiblings": ["q.68755"]
@@ -306,7 +305,7 @@
         "x40": {
             "name_en": "Samurai",
             "name_fr": "Samouraï",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68759",
             "patch": "6.1",
             "cSiblings": ["q.68759"]
@@ -314,7 +313,7 @@
         "x43": {
             "name_en": "Reaper",
             "name_fr": "Faucheur",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69614",
             "patch": "6.1",
             "cSiblings": ["q.69614"]
@@ -322,7 +321,7 @@
         "x47": {
             "name_en": "Bard",
             "name_fr": "Barde",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68750",
             "patch": "6.1",
             "cSiblings": ["q.68750"]
@@ -330,7 +329,7 @@
         "x50": {
             "name_en": "Machinist",
             "name_fr": "Machiniste",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68756",
             "patch": "6.1",
             "cSiblings": ["q.68756"]
@@ -338,7 +337,7 @@
         "x53": {
             "name_en": "Dancer",
             "name_fr": "Danseur",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68762",
             "patch": "6.1",
             "cSiblings": ["q.68762"]
@@ -346,7 +345,7 @@
         "x57": {
             "name_en": "Black Mage",
             "name_fr": "Mage noir",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68752",
             "patch": "6.1",
             "cSiblings": ["q.68752"]
@@ -354,7 +353,7 @@
         "x60": {
             "name_en": "Summoner",
             "name_fr": "Invocateur",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69569",
             "patch": "6.1",
             "cSiblings": ["q.69569"]
@@ -362,7 +361,7 @@
         "x63": {
             "name_en": "Red Mage",
             "name_fr": "Mage rouge",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68760",
             "patch": "6.1",
             "cSiblings": ["q.68760"]
@@ -370,7 +369,7 @@
         "x66": {
             "name_en": "Blue Mage",
             "name_fr": "Mage bleu",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69530",
             "patch": "6.1",
             "cSiblings": ["q.69530"]
@@ -378,7 +377,7 @@
         "x2": {
             "name_en": "Paladin (Simple)",
             "name_fr": "Paladin (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66591",
             "patch": "6.1",
             "cSiblings": ["q.66591"]
@@ -386,7 +385,7 @@
         "x6": {
             "name_en": "Warrior (Simple)",
             "name_fr": "Guerrier (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66585",
             "patch": "6.1",
             "cSiblings": ["q.66585"]
@@ -394,7 +393,7 @@
         "x9": {
             "name_en": "Dark Knight (Simple)",
             "name_fr": "Chevalier noir (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.67589",
             "patch": "6.1",
             "cSiblings": ["q.67589"]
@@ -402,7 +401,7 @@
         "x12": {
             "name_en": "Gunbreaker (Simple)",
             "name_fr": "Pistosabreur (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68797",
             "patch": "6.1",
             "cSiblings": ["q.68797"]
@@ -410,7 +409,7 @@
         "x16": {
             "name_en": "White Mage (Simple)",
             "name_fr": "Mage blanc (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66615",
             "patch": "6.1",
             "cSiblings": ["q.66615"]
@@ -418,7 +417,7 @@
         "x20": {
             "name_en": "Scholar (Simple)",
             "name_fr": "Érudit (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66633",
             "patch": "6.1",
             "cSiblings": ["q.66633"]
@@ -426,7 +425,7 @@
         "x23": {
             "name_en": "Astrologian (Simple)",
             "name_fr": "Astromancien (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.67548",
             "patch": "6.1",
             "cSiblings": ["q.67548"]
@@ -434,7 +433,7 @@
         "x26": {
             "name_en": "Sage (Simple)",
             "name_fr": "Sage (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69603",
             "patch": "6.1",
             "cSiblings": ["q.69603"]
@@ -442,7 +441,7 @@
         "x30": {
             "name_en": "Monk (Simple)",
             "name_fr": "Moine (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66597",
             "patch": "6.1",
             "cSiblings": ["q.66597"]
@@ -450,7 +449,7 @@
         "x34": {
             "name_en": "Dragoon (Simple)",
             "name_fr": "Chevalier dragon (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66603",
             "patch": "6.1",
             "cSiblings": ["q.66603"]
@@ -458,7 +457,7 @@
         "x38": {
             "name_en": "Ninja (Simple)",
             "name_fr": "Ninja (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65748",
             "patch": "6.1",
             "cSiblings": ["q.65748"]
@@ -466,7 +465,7 @@
         "x41": {
             "name_en": "Samurai (Simple)",
             "name_fr": "Samouraï (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68095",
             "patch": "6.1",
             "cSiblings": ["q.68095"]
@@ -474,7 +473,7 @@
         "x44": {
             "name_en": "Reaper (Simple)",
             "name_fr": "Faucheur (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69609",
             "patch": "6.1",
             "cSiblings": ["q.69609"]
@@ -482,7 +481,7 @@
         "x48": {
             "name_en": "Bard (Simple)",
             "name_fr": "Barde (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66621",
             "patch": "6.1",
             "cSiblings": ["q.66621"]
@@ -490,7 +489,7 @@
         "x51": {
             "name_en": "Machinist (Simple)",
             "name_fr": "Machiniste (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.67232",
             "patch": "6.1",
             "cSiblings": ["q.67232"]
@@ -498,7 +497,7 @@
         "x54": {
             "name_en": "Dancer (Simple)",
             "name_fr": "Danseur (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68785",
             "patch": "6.1",
             "cSiblings": ["q.68785"]
@@ -506,7 +505,7 @@
         "x58": {
             "name_en": "Black Mage (Simple)",
             "name_fr": "Mage noir (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66609",
             "patch": "6.1",
             "cSiblings": ["q.66609"]
@@ -514,7 +513,7 @@
         "x61": {
             "name_en": "Summoner (Simple)",
             "name_fr": "Invocateur (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66627",
             "patch": "6.1",
             "cSiblings": ["q.66627"]
@@ -522,7 +521,7 @@
         "x64": {
             "name_en": "Red Mage (Simple)",
             "name_fr": "Mage rouge (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68112",
             "patch": "6.1",
             "cSiblings": ["q.68112"]
@@ -530,7 +529,7 @@
         "x67": {
             "name_en": "Blue Mage (Simple)",
             "name_fr": "Mage bleu (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68728",
             "patch": "6.1",
             "cSiblings": ["q.68728"]
@@ -538,7 +537,7 @@
         "x69": {
             "name_en": "Carpenter (Simple)",
             "name_fr": "Menuisier (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65674",
             "patch": "6.1",
             "cSiblings": ["q.65674"]
@@ -546,7 +545,7 @@
         "x71": {
             "name_en": "Blacksmith (Simple)",
             "name_fr": "Forgeron (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65827",
             "patch": "6.1",
             "cSiblings": ["q.65827"]
@@ -554,7 +553,7 @@
         "x73": {
             "name_en": "Armorer (Simple)",
             "name_fr": "Armurier (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65809",
             "patch": "6.1",
             "cSiblings": ["q.65809"]
@@ -562,7 +561,7 @@
         "x75": {
             "name_en": "Goldsmith (Simple)",
             "name_fr": "Orfèvre (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66144",
             "patch": "6.1",
             "cSiblings": ["q.66144"]
@@ -570,7 +569,7 @@
         "x77": {
             "name_en": "Leatherworker (Simple)",
             "name_fr": "Tanneur (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65641",
             "patch": "6.1",
             "cSiblings": ["q.65641"]
@@ -578,7 +577,7 @@
         "x79": {
             "name_en": "Weaver (Simple)",
             "name_fr": "Couturier (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66070",
             "patch": "6.1",
             "cSiblings": ["q.66070"]
@@ -586,7 +585,7 @@
         "x81": {
             "name_en": "Alchemist (Simple)",
             "name_fr": "Alchimiste (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66111",
             "patch": "6.1",
             "cSiblings": ["q.66111"]
@@ -594,7 +593,7 @@
         "x83": {
             "name_en": "Culinarian (Simple)",
             "name_fr": "Cuisinier (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65807",
             "patch": "6.1",
             "cSiblings": ["q.65807"]
@@ -602,7 +601,7 @@
         "x85": {
             "name_en": "Miner (Simple)",
             "name_fr": "Mineur (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66133",
             "patch": "6.1",
             "cSiblings": ["q.66133"]
@@ -610,7 +609,7 @@
         "x87": {
             "name_en": "Botanist (Simple)",
             "name_fr": "Botaniste (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.65539",
             "patch": "6.1",
             "cSiblings": ["q.65539"]
@@ -618,7 +617,7 @@
         "x89": {
             "name_en": "Fisher (Simple)",
             "name_fr": "Pêcheur (standard)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.66643",
             "patch": "6.1",
             "cSiblings": ["q.66643"]
@@ -626,7 +625,7 @@
         "x3": {
             "name_en": "Paladin (Ornate)",
             "name_fr": "Paladin (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -634,7 +633,7 @@
         "x7": {
             "name_en": "Warrior (Ornate)",
             "name_fr": "Guerrier (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -642,7 +641,7 @@
         "x10": {
             "name_en": "Dark Knight (Ornate)",
             "name_fr": "Chevalier noir (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -650,7 +649,7 @@
         "x13": {
             "name_en": "Gunbreaker (Ornate)",
             "name_fr": "Pistosabreur (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -658,7 +657,7 @@
         "x17": {
             "name_en": "White Mage (Ornate)",
             "name_fr": "Mage blanc (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -666,7 +665,7 @@
         "x21": {
             "name_en": "Scholar (Ornate)",
             "name_fr": "Érudit (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -674,7 +673,7 @@
         "x24": {
             "name_en": "Astrologian (Ornate)",
             "name_fr": "Astromancien (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -682,7 +681,7 @@
         "x27": {
             "name_en": "Sage (Ornate)",
             "name_fr": "Sage (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -690,7 +689,7 @@
         "x31": {
             "name_en": "Monk (Ornate)",
             "name_fr": "Moine (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -698,7 +697,7 @@
         "x35": {
             "name_en": "Dragoon (Ornate)",
             "name_fr": "Chevalier dragon (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -706,7 +705,7 @@
         "x39": {
             "name_en": "Ninja (Ornate)",
             "name_fr": "Ninja (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -714,7 +713,7 @@
         "x42": {
             "name_en": "Samurai (Ornate)",
             "name_fr": "Samouraï (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -722,7 +721,7 @@
         "x45": {
             "name_en": "Reaper (Ornate)",
             "name_fr": "Faucheur (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -730,7 +729,7 @@
         "x49": {
             "name_en": "Bard (Ornate)",
             "name_fr": "Barde (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -738,7 +737,7 @@
         "x52": {
             "name_en": "Machinist (Ornate)",
             "name_fr": "Machiniste (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -746,7 +745,7 @@
         "x55": {
             "name_en": "Dancer (Ornate)",
             "name_fr": "Danseur (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -754,7 +753,7 @@
         "x59": {
             "name_en": "Black Mage (Ornate)",
             "name_fr": "Mage noir (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -762,7 +761,7 @@
         "x62": {
             "name_en": "Summoner (Ornate)",
             "name_fr": "Invocateur (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -770,7 +769,7 @@
         "x65": {
             "name_en": "Red Mage (Ornate)",
             "name_fr": "Mage rouge (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "1,500 Trophy Crystals",
             "source_fr": "1.500 Cristaux-trophées",
             "patch": "6.1"
@@ -778,7 +777,7 @@
         "x152": {
             "name_en": "Blue Mage (Ornate)",
             "name_fr": "Mage bleu (dynamique)",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "500 Allied Seal",
             "source_fr": "500 Insigne allié",
             "patch": "6.4"
@@ -786,21 +785,21 @@
         "x153": {
             "name_en": "Tataru's Bespoke",
             "name_fr": "La Tarufacture de Tataru",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.70349",
             "patch": "6.55"
         },
         "x128": {
             "name_en": "End of an Era",
             "name_fr": "La fin d'une ère",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.70316",
             "patch": "6.48"
         },
         "x115": {
             "name_en": "Four Lords",
             "name_fr": "Conte des quatre animaux sacrés",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68702",
             "patch": "6.3",
             "cSiblings": ["q.68702"]
@@ -808,14 +807,14 @@
         "x129": {
             "name_en": "Twelvefold Blessings",
             "name_fr": "Le Mythe éorzéen",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.70328",
             "patch": "6.5"
         },
         "x130": {
             "name_en": "Gundu",
             "name_fr": " Quêtes Tribales des Vanu Vanu",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "6 Vanu Whitebone",
             "source_fr": "6 Pièce d'os blanc vanu vanu",
             "patch": "6.5"
@@ -823,7 +822,7 @@
         "x131": {
             "name_en": "Vath",
             "name_fr": " Quêtes Tribales des Gnathes",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "6 Black Copper Gil",
             "source_fr": "6 Gil de cuivre noir",
             "patch": "6.5"
@@ -831,7 +830,7 @@
         "x132": {
             "name_en": "Mogmenders",
             "name_fr": "Quêtes Tribales des Mogs",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "6 Carved Kupo Nut",
             "source_fr": "6 Noix de kupo gravée",
             "patch": "6.5"
@@ -839,7 +838,7 @@
         "x133": {
             "name_en": "Divine Circle",
             "name_fr": "Quêtes Tribales des Kojin",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "6 Kojin Sango",
             "source_fr": "6 Sango kojin",
             "patch": "6.4"
@@ -847,7 +846,7 @@
         "x134": {
             "name_en": "Velodyna Gatekeepers",
             "name_fr": "Quêtes Tribales des Anantas",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "6 Ananta Dreamstaff",
             "source_fr": "6 Barrette béatifique ananta",
             "patch": "6.4"
@@ -855,7 +854,7 @@
         "x135": {
             "name_en": "Seven Hundred Seventy-Seven",
             "name_fr": " Quêtes Tribales des Namazu",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "6 Namazu Koban",
             "source_fr": "6 Koban namazu",
             "patch": "6.4"
@@ -863,7 +862,7 @@
         "x116": {
             "name_en": "Dreamspinners",
             "name_fr": "Quêtes tribales des Pixies",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Jul Oul - Il Mheg - 6 Fey Fancy",
             "source_fr": "Jul Oul - Il Mheg - 6 Cristal illusoire pixie",
             "patch": "6.3"
@@ -871,7 +870,7 @@
         "x117": {
             "name_en": "Stewards",
             "name_fr": "Quêtes tribales des Qitari",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Yuqurl Manl - The Rak'tika Greatwood - 6 Qitari Compliment",
             "source_fr": "Yuqurl Manl - Rak'tika - 6 Pièce-châtaigne qitari",
             "patch": "6.3"
@@ -879,7 +878,7 @@
         "x118": {
             "name_en": "Watt's Anvil",
             "name_fr": "Quêtes tribales des Nains",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Mizutt - Lakeland - 6 Hammered Frogment",
             "source_fr": "Mizutt - Lakeland - 6 Médaille naine",
             "patch": "6.3"
@@ -887,7 +886,7 @@
         "x119": {
             "name_en": "Hippo Riders",
             "name_fr": "Quêtes tribales des Arkasodaras",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Ghanta - Thavnair - 6 Arkasodara Pana",
             "source_fr": "Ghanta - Thavnair - 6 Seiko arkasodara",
             "patch": "6.3"
@@ -895,7 +894,7 @@
         "x113": {
             "name_en": "Last Dregs",
             "name_fr": "Quêtes triables des Omicrons",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "N-0598 - Ultima Thule - 6 Omicron Omnitoken",
             "source_fr": "N-0598 - Ultima Thulé - 6 Omicoin",
             "patch": "6.25"
@@ -903,7 +902,7 @@
         "x120": {
             "name_en": "Dreaming Ways",
             "name_fr": "Quêtes tribales des Loporrites",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Coiningway - Mare Lamentorum - 6 Loporrit Carat",
             "source_fr": "Coiningway - Mare Lamentorum - 6 Carotus",
             "patch": "6.35"
@@ -911,7 +910,7 @@
         "x121": {
             "name_en": "Island Vacation",
             "name_fr": "Félicité insulaire 1",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Horrendous Hoarder - Island Sanctuary - 3,000 Seafarer's Cowry",
             "source_fr": "Marchandréa - Île sans nom - 3.000 Assignat insulaire azur",
             "patch": "6.3"
@@ -919,7 +918,7 @@
         "x122": {
             "name_en": "Island Memories",
             "name_fr": "Félicité insulaire 2",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Horrendous Hoarder - Island Sanctuary - 3,000 Seafarer's Cowry",
             "source_fr": "Marchandréa - Île sans nom - 3.000 Assignat insulaire azur",
             "patch": "6.3"
@@ -927,7 +926,7 @@
         "x136": {
             "name_en": "Adventurous Angling",
             "name_fr": "Grand Pêcheur",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source": "a.2758",
             "source_en": "2 Achievement Certificate",
             "source_fr": "2 Jeton de hauts faits",
@@ -936,7 +935,7 @@
         "x137": {
             "name_en": "Big Fish",
             "name_fr": "Pêcheur De Légendes",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source": "a.2245",
             "source_en": "2 Achievement Certificate",
             "source_fr": "2 Jeton de hauts faits",
@@ -945,7 +944,7 @@
         "x138": {
             "name_en": "Mahjong Mastery",
             "name_fr": "Tuiles Essentielles",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source": "a.2181",
             "source_en": "2 Achievement Certificate",
             "source_fr": "2 Jeton de hauts faits",
@@ -954,7 +953,7 @@
         "x123": {
             "name_en": "Eureka Orthos",
             "name_fr": "Eurêka Orthos",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Synthesis Node - Mor Dhona - 10 Orthos Aetherpool Fragment",
             "source_fr": "Système de synthèse - Mor Dhona - 10 Fragment de substrat magique Orthos",
             "patch": "6.35"
@@ -962,7 +961,7 @@
         "x124": {
             "name_en": "Enaretos",
             "name_fr": "Enaretos",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Synthesis Node - Mor Dhona - 1 Orthos Tomestone",
             "source_fr": "Système de synthèse - Mor Dhona - 1 Mémoquartz Orthos",
             "patch": "6.35"
@@ -970,7 +969,7 @@
         "x114": {
             "name_en": "Sil'dihn Subterrane (Variant)",
             "name_fr": "Donjon à Embranchements : Les Canalisations Sildiennes",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Trisassant - Old Sharlayan - 8 Sil'dihn Silver",
             "source_fr": "Trisassant - Vieille Sharlayan - 8 Pièce d'argent sildienne",
             "patch": "6.25"
@@ -978,7 +977,7 @@
         "x139": {
             "name_en": "Mount Rokkon (Variant)",
             "name_fr": "Donjon à Embranchements : Le Mont Rokkon",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "8 Shishu Coin",
             "source_fr": "8 Tsûhô de Shishû",
             "patch": "6.4"
@@ -986,7 +985,7 @@
         "x140": {
             "name_en": "Aloalo Island (Variant)",
             "name_fr": " Donjon à Embranchements : L'île D'Aloalo",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "8 Aloalo Coin",
             "source_fr": "8 Pièce d'or de l'île d'Aloalo",
             "patch": "6.51"
@@ -994,7 +993,7 @@
         "x108": {
             "name_en": "Unending Coil of Bahamut",
             "name_fr": "Abîme infini de Bahamut (fatal)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.280",
             "patch": "6.2",
             "cSiblings": ["d.280"]
@@ -1002,7 +1001,7 @@
         "x109": {
             "name_en": "Weapon's Refrain",
             "name_fr": "Fantasmagorie d'Ultima (fatal)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.539",
             "patch": "6.2",
             "cSiblings": ["d.539"]
@@ -1010,7 +1009,7 @@
         "x110": {
             "name_en": "Epic of Alexander",
             "name_fr": "Odyssée d'Alexander (fatal)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.694",
             "patch": "6.2",
             "cSiblings": ["d.694"]
@@ -1018,7 +1017,7 @@
         "x111": {
             "name_en": "Dragonsong's Reprise",
             "name_fr": "La Guerre du chant des dragons (fatal)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.788",
             "patch": "6.2",
             "cSiblings": ["d.788"]
@@ -1026,7 +1025,7 @@
         "x125": {
             "name_en": "Omega Protocol",
             "name_fr": "Protocole Oméga",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.908",
             "patch": "6.31",
             "cSiblings": ["d.908"]
@@ -1034,7 +1033,7 @@
         "x141": {
             "name_en": "Wondrous Whimsy",
             "name_fr": "Aventures Imaginaires de Khloe",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "2 Khloe's Silver Certificate of Commendation",
             "source_fr": "2 Certificat de mérite d'argent de Khloe",
             "patch": "6.5"
@@ -1042,7 +1041,7 @@
         "x142": {
             "name_en": "Fantastic Faux",
             "name_fr": "Touché-tourné",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "600 Faux Leaf",
             "source_fr": "600 Foliole irréelle",
             "patch": "6.5"
@@ -1050,7 +1049,7 @@
         "x143": {
             "name_en": "Blunderful",
             "name_fr": "Blunderville 1",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "200 MGF",
             "source_fr": "200 Point de Célébrité du Gold Saucer",
             "patch": "6.51"
@@ -1058,7 +1057,7 @@
         "x144": {
             "name_en": "Blunderous",
             "name_fr": " Blunderville 2",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "200 MGF",
             "source_fr": "200 Point de Célébrité du Gold Saucer",
             "patch": "6.51"
@@ -1066,7 +1065,7 @@
         "x145": {
             "name_en": "Blunder-villed",
             "name_fr": "Blunderville 3",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "200 MGF",
             "source_fr": "200 Point de Célébrité du Gold Saucer",
             "patch": "6.51"
@@ -1074,7 +1073,7 @@
         "x146": {
             "name_en": "Yo-kai Watch",
             "name_fr": "Yo-kai Watch",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "20,000 MGP",
             "source_fr": "20.000 PGS",
             "patch": "6.58"
@@ -1082,7 +1081,7 @@
         "x92": {
             "name_en": "Team Astra",
             "name_fr": "Équipe Astra",
-            "category": "CATEGORY.PVP",
+            "category": "@CATEGORY.PVP",
             "source_en": "Series Reward",
             "source_fr": "Récompense de série",
             "patch": "6.1"
@@ -1090,7 +1089,7 @@
         "x93": {
             "name_en": "Team Umbra",
             "name_fr": "Équipe Umbra",
-            "category": "CATEGORY.PVP",
+            "category": "@CATEGORY.PVP",
             "source_en": "Series Reward",
             "source_fr": "Récompense de série",
             "patch": "6.1"
@@ -1098,7 +1097,7 @@
         "x105": {
             "name_en": "Azure Conflict",
             "name_fr": "Conflit bleu",
-            "category": "CATEGORY.PVP",
+            "category": "@CATEGORY.PVP",
             "source_en": "Series Reward",
             "source_fr": "Récompense de série",
             "patch": "6.2"
@@ -1106,7 +1105,7 @@
         "x106": {
             "name_en": "Crimson Conflict",
             "name_fr": "Conflit rouge",
-            "category": "CATEGORY.PVP",
+            "category": "@CATEGORY.PVP",
             "source_en": "Series Reward",
             "source_fr": "Récompense de série",
             "patch": "6.2"
@@ -1114,7 +1113,7 @@
         "x126": {
             "name_en": "Falcons",
             "name_fr": "Faucons",
-            "category": "CATEGORY.PVP",
+            "category": "@CATEGORY.PVP",
             "source_en": "Series Reward",
             "source_fr": "Récompense de série",
             "patch": "6.3"
@@ -1122,7 +1121,7 @@
         "x127": {
             "name_en": "Ravens",
             "name_fr": "Corbeaux",
-            "category": "CATEGORY.PVP",
+            "category": "@CATEGORY.PVP",
             "source_en": "Series Reward",
             "source_fr": "Récompense de série",
             "patch": "6.3"
@@ -1130,7 +1129,7 @@
         "x147": {
             "name_en": "Aramitama",
             "name_fr": "Motif Oriental 1 : Vagues",
-            "category": "CATEGORY.PVP",
+            "category": "@CATEGORY.PVP",
             "source_en": "Series Reward",
             "source_fr": "Récompense de série",
             "patch": "6.4"
@@ -1138,7 +1137,7 @@
         "x148": {
             "name_en": "Nigimitama",
             "name_fr": "Motif Oriental 2 : Vagues",
-            "category": "CATEGORY.PVP",
+            "category": "@CATEGORY.PVP",
             "source_en": "Series Reward",
             "source_fr": "Récompense de série",
             "patch": "6.4"
@@ -1146,7 +1145,7 @@
         "x149": {
             "name_en": "Palaistra",
             "name_fr": " Le Palestre",
-            "category": "CATEGORY.PVP",
+            "category": "@CATEGORY.PVP",
             "source_en": "Series Reward",
             "source_fr": "Récompense de série",
             "patch": "6.5"
@@ -1154,7 +1153,7 @@
         "x150": {
             "name_en": "Cloud Nine",
             "name_fr": " Le Petit Nuage",
-            "category": "CATEGORY.PVP",
+            "category": "@CATEGORY.PVP",
             "source_en": "Series Reward",
             "source_fr": "Récompense de série",
             "patch": "6.5"
@@ -1162,7 +1161,7 @@
         "x94": {
             "name_en": "Final Conflict",
             "name_fr": "Roi du conflit",
-            "category": "CATEGORY.ACHIEVEMENT",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.3052",
             "patch": "6.1",
             "cPrev": ["a.3052"]
@@ -1170,7 +1169,7 @@
         "x95": {
             "name_en": "Endless Conflict",
             "name_fr": "Prince du conflit",
-            "category": "CATEGORY.ACHIEVEMENT",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.3053",
             "patch": "6.1",
             "cPrev": ["a.3053"]
@@ -1178,7 +1177,7 @@
         "x96": {
             "name_en": "Rising Conflict",
             "name_fr": "As du conflit",
-            "category": "CATEGORY.ACHIEVEMENT",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.3054",
             "patch": "6.1",
             "cPrev": ["a.3054"]
@@ -1186,7 +1185,7 @@
         "x102": {
             "name_en": "Crystal Conflict",
             "name_fr": "Crystalline Conflict : cristal",
-            "category": "CATEGORY.ACHIEVEMENT",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.3051",
             "patch": "6.1",
             "cPrev": ["a.3051"]
@@ -1194,7 +1193,7 @@
         "x101": {
             "name_en": "Diamond Conflict",
             "name_fr": "Crystalline Conflict : diamant",
-            "category": "CATEGORY.ACHIEVEMENT",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.3050",
             "patch": "6.1",
             "cPrev": ["a.3050"]
@@ -1202,7 +1201,7 @@
         "x100": {
             "name_en": "Platinum Conflict",
             "name_fr": "Crystalline Conflict : platine",
-            "category": "CATEGORY.ACHIEVEMENT",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.3049",
             "patch": "6.1",
             "cPrev": ["a.3049"]
@@ -1210,7 +1209,7 @@
         "x99": {
             "name_en": "Gold Conflict",
             "name_fr": "Crystalline Conflict : or",
-            "category": "CATEGORY.ACHIEVEMENT",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.3048",
             "patch": "6.1",
             "cPrev": ["a.3048"]
@@ -1218,7 +1217,7 @@
         "x98": {
             "name_en": "Silver Conflict",
             "name_fr": "Crystalline Conflict : argent",
-            "category": "CATEGORY.ACHIEVEMENT",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.3047",
             "patch": "6.1",
             "cPrev": ["a.3047"]
@@ -1226,7 +1225,7 @@
         "x97": {
             "name_en": "Bronze Conflict",
             "name_fr": "Crystalline Conflict : bronze",
-            "category": "CATEGORY.ACHIEVEMENT",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.3046",
             "patch": "6.1",
             "cPrev": ["a.3046"]
@@ -1234,7 +1233,7 @@
         "x151": {
             "name_en": "Ten Year Anniversary",
             "name_fr": " 10e Anniversaire",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "10 Irregular Tomestone of Tenfold Pageantry",
             "source_fr": "10 Mémoquartz allagois festif inhabituel 2023",
             "patch": "6.48"
@@ -1242,7 +1241,7 @@
         "x103": {
             "name_en": "Companion 1",
             "name_fr": "Companion 1",
-            "category": "CATEGORY.OTHER",
+            "category": "@CATEGORY.OTHER",
             "source_en": "Companion App - Linked",
             "source_fr": "Companion App - Lié",
             "patch": "6.1",
@@ -1251,7 +1250,7 @@
         "x104": {
             "name_en": "Companion 2",
             "name_fr": "Companion 2",
-            "category": "CATEGORY.OTHER",
+            "category": "@CATEGORY.OTHER",
             "source_en": "Companion App - Premium",
             "source_fr": "Companion App - Premium",
             "patch": "6.1",

@@ -10,15 +10,34 @@ export const refs: {
     translate: null,
 };
 
-export type JSON = any;
+export type JSON = Record<string, any>;
+export type JSON_GROUP = JSON & {
+    headers?: JSON;
+    tasks?: Record<string, JSON & {
+        hidden?: boolean;
+    }>;
+};
 
+const COMMON_KEY_PREFIX = '@';
+
+let logTimeout;
+let start, end;
+let offset = 0;
+
+/**
+ * Load the group json file at the given path, applying necessary
+ * pre-class transformations
+ */
 export function loadJson(path: string) {
-    const prefix = getPrefix();
+    const resourcesRoot = getResourcesRoot();
+    if(!start) start = Date.now();
 
-    let finalJson: JSON;
+    let finalJson: JSON_GROUP = {};
     try {
-        const fullPath = [prefix, path].filter((s) => s).join('/');
+        const fullPath = [resourcesRoot, path].filter((s) => s).join('/');
+        let ss = Date.now();
         const json = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, fullPath);
+        offset += Date.now() - ss;
 
         try {
             finalJson = {
@@ -28,18 +47,27 @@ export function loadJson(path: string) {
             };
         }
         catch(e) {
-            console.error(`Error in ${prefix}/${path}.json`, e);
+            console.error(`Error in ${resourcesRoot}/${path}.json`, e);
         }
     }
     catch(e) {
-        console.error(`Error in ${prefix}/${path}.json`, e);
+        console.error(`Error in ${resourcesRoot}/${path}.json`, e);
     }
+
+    end = Date.now();
+    if(logTimeout) clearTimeout(logTimeout);
+    logTimeout = setTimeout(() => {
+        console.log('Total millis to load:', end - start);
+        console.log('Excluding app layer access:', (end - start) - offset);
+    }, 5000);
 
     return finalJson;
 }
 
-// Get the path prefix based on environment
-function getPrefix() {
+/**
+ * Get the path prefix based on environment
+ */
+function getResourcesRoot() {
     if(process.env.NODE_ENV === 'production' && process.resourcesPath) {
         return `${process.resourcesPath}/resources`;
     }
@@ -48,17 +76,24 @@ function getPrefix() {
     }
 }
 
-function mapHeaders(json) {
+/**
+ * Transform the raw header json to the initial app json
+ */
+function mapHeaders(json: JSON_GROUP) {
     if(!json.headers) return null;
     return Object.keys(json.headers)
         .map((key) => ({
             key,
             ...json.headers[key],
-            ...staticHeaderProps(key, json.headers[key])
+            ...defaultHeaderProps(key, json.headers[key])
         }));
 }
 
-function staticHeaderProps(key, column) {
+/**
+ * Apply default header properties
+ * - e.g. 'patch' has a default width of 100px
+ */
+function defaultHeaderProps(key: string, column: JSON) {
     switch(key) {
         case 'category':
             return {
@@ -84,57 +119,76 @@ function staticHeaderProps(key, column) {
     }
 }
 
-function mapTasks(json) {
-    const tasks: any = {};
+/**
+ * Transform the raw task json to the initial app json (pre-class)
+ */
+function mapTasks(json: JSON_GROUP) {
+    const tasks: JSON = {};
+    if(!json.tasks) return tasks;
 
-    // Map task-level common props
-    for(const id in json.tasks) {
-        if(json.tasks.hasOwnProperty(id)) {
-            tasks[id] = {
-                id: parseInt(id.substr(1), 10),
-                ...json.tasks[id]
-            };
-        }
-    }
+    for(const [id, rawTask] of Object.entries(json.tasks)) {
+        // Don't add 'hidden' tasks so placeholders can be in resources
+        if(rawTask.hidden) continue;
 
-    // Map ids
-    for(const id in tasks) {
-        if(tasks.hasOwnProperty(id)) {
-            // Removes tasks with 'hidden' so placeholders can be in resources
-            if(tasks[id].hidden) {
-                delete tasks[id];
-            }
-            else {
-                // Remove the leading "x" and cast to int
-                tasks[id].id = parseInt(id.substr(1), 10);
+        tasks[id] = {
+            // Remove the leading "x" and cast to int
+            id: parseInt(id.substring(1), 10),
+            ...rawTask
+        };
 
-                json.common?.forEach((field) => {
-                    tasks[id][field] = replaceCommonStrings(tasks[id][field]);
-                });
-            }
-        }
+        // Replace common keys (ZONE.ULDAH) with translations
+        translateCommonKeys(tasks[id]);
     }
 
     return tasks;
 }
 
-function replaceCommonStrings(value: string | string[]): string | string[] {
-    if(!value) return value;
-
-    if(Array.isArray(value)) return value.map((v) => getCommonTranslation(v));
-    else return getCommonTranslation(value);
+function shouldTranslate(value: any) {
+    return typeof value === 'string' && value.startsWith(COMMON_KEY_PREFIX);
 }
 
+/**
+ * Iterate fields on an object, looking for ones that need i18n transformation
+ */
+function translateCommonKeys(obj: JSON) {
+    for(const field in obj) {
+        const value = obj[field];
+
+        if(Array.isArray(value)) {
+            const len = value.length;
+            for(let i = 0; i < len; i++) {
+                const item = value[i];
+
+                if(shouldTranslate(item)) {
+                    value[i] = getCommonTranslation(item);
+                }
+            }
+        }
+        else if(shouldTranslate(value)) {
+            obj[field] = getCommonTranslation(value);
+        }
+    }
+}
+
+/**
+ * Transform i18n keys at any place in a string
+ * @param value - should already have returned true when passed to `shouldTranslate`
+ */
 function getCommonTranslation(value: string): string {
     const keys = value.match(/[A-Z0-9_]+.[A-Z0-9_.]+/g);
     if(!keys) return value;
 
-    return keys.reduce((acc, key) => {
+    let updatedValue = value.substring(1);
+
+    for(const key of keys) {
         // Attempt to get a common translation
         const fullKey = `DATA.${key}`;
         const common = refs.translate.instant(fullKey);
 
-        if(common === fullKey) return acc; // Not found
-        else return acc.replace(key, common); // Found
-    }, value);
+        if(common !== fullKey) {
+            updatedValue = updatedValue.replace(key, common);
+        }
+    }
+
+    return updatedValue;
 }

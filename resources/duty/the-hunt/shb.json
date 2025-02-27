@@ -2,13 +2,12 @@
     "key": "shb",
     "groupName_en": "ShB",
     "groupName_fr": "Shadowbringers",
-    "common": ["location"],
     "tasks": {
         "x8908": {
             "rank": "B",
             "name_en": "La Velue",
             "name_fr": "Velue",
-            "location": "ZONE.LAKELAND",
+            "location": "@ZONE.LAKELAND",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -16,7 +15,7 @@
             "rank": "B",
             "name_en": "Itzpapalotl",
             "name_fr": "Itzpapalotl",
-            "location": "ZONE.LAKELAND",
+            "location": "@ZONE.LAKELAND",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -24,7 +23,7 @@
             "rank": "B",
             "name_en": "Domovoi",
             "name_fr": "Domovaï",
-            "location": "ZONE.IL_MHEG",
+            "location": "@ZONE.IL_MHEG",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -32,7 +31,7 @@
             "rank": "B",
             "name_en": "Vulpangue",
             "name_fr": "Vulpangue",
-            "location": "ZONE.IL_MHEG",
+            "location": "@ZONE.IL_MHEG",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -40,7 +39,7 @@
             "rank": "B",
             "name_en": "Coquecigrue",
             "name_fr": "Coquecigrue",
-            "location": "ZONE.KHOLUSIA",
+            "location": "@ZONE.KHOLUSIA",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -48,7 +47,7 @@
             "rank": "B",
             "name_en": "Indomitable",
             "name_fr": "Indomptable",
-            "location": "ZONE.KHOLUSIA",
+            "location": "@ZONE.KHOLUSIA",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -56,7 +55,7 @@
             "rank": "B",
             "name_en": "Worm of the Well",
             "name_fr": "Verpuy",
-            "location": "ZONE.AMH_ARAENG",
+            "location": "@ZONE.AMH_ARAENG",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -64,7 +63,7 @@
             "rank": "B",
             "name_en": "Juggler Hecatomb",
             "name_fr": "Jongleur hécatombe",
-            "location": "ZONE.AMH_ARAENG",
+            "location": "@ZONE.AMH_ARAENG",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -72,7 +71,7 @@
             "rank": "B",
             "name_en": "Mindmaker",
             "name_fr": "Maître-penseur",
-            "location": "ZONE.RAKTIKA",
+            "location": "@ZONE.RAKTIKA",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -80,7 +79,7 @@
             "rank": "B",
             "name_en": "Pachamama",
             "name_fr": "Pachamama",
-            "location": "ZONE.RAKTIKA",
+            "location": "@ZONE.RAKTIKA",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -88,7 +87,7 @@
             "rank": "B",
             "name_en": "Deacon",
             "name_fr": "Diacre",
-            "location": "ZONE.THE_TEMPEST",
+            "location": "@ZONE.THE_TEMPEST",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -96,7 +95,7 @@
             "rank": "B",
             "name_en": "Gilshs Aath Swiftclaw",
             "name_fr": "Gilshs Aath l'étrangleur",
-            "location": "ZONE.THE_TEMPEST",
+            "location": "@ZONE.THE_TEMPEST",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -104,7 +103,7 @@
             "rank": "A",
             "name_en": "Nariphon",
             "name_fr": "Nariphon",
-            "location": "ZONE.LAKELAND",
+            "location": "@ZONE.LAKELAND",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -112,7 +111,7 @@
             "rank": "A",
             "name_en": "Nuckelavee",
             "name_fr": "Nuckelavee",
-            "location": "ZONE.LAKELAND",
+            "location": "@ZONE.LAKELAND",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -120,7 +119,7 @@
             "rank": "A",
             "name_en": "O Poorest Pauldia",
             "name_fr": "Pauldia",
-            "location": "ZONE.IL_MHEG",
+            "location": "@ZONE.IL_MHEG",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -128,7 +127,7 @@
             "rank": "A",
             "name_en": "The Mudman",
             "name_fr": "Tas de boue",
-            "location": "ZONE.IL_MHEG",
+            "location": "@ZONE.IL_MHEG",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -136,7 +135,7 @@
             "rank": "A",
             "name_en": "Li'l Murderer",
             "name_fr": "Traître",
-            "location": "ZONE.KHOLUSIA",
+            "location": "@ZONE.KHOLUSIA",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -144,7 +143,7 @@
             "rank": "A",
             "name_en": "Huracan",
             "name_fr": "Huracan",
-            "location": "ZONE.KHOLUSIA",
+            "location": "@ZONE.KHOLUSIA",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -152,7 +151,7 @@
             "rank": "A",
             "name_en": "Maliktender",
             "name_fr": "Malikpampa",
-            "location": "ZONE.AMH_ARAENG",
+            "location": "@ZONE.AMH_ARAENG",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -160,7 +159,7 @@
             "rank": "A",
             "name_en": "Sugaar",
             "name_fr": "Sugaar",
-            "location": "ZONE.AMH_ARAENG",
+            "location": "@ZONE.AMH_ARAENG",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -168,7 +167,7 @@
             "rank": "A",
             "name_en": "Grassman",
             "name_fr": "Sasquatch arboricole",
-            "location": "ZONE.RAKTIKA",
+            "location": "@ZONE.RAKTIKA",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -176,7 +175,7 @@
             "rank": "A",
             "name_en": "Supay",
             "name_fr": "Supay",
-            "location": "ZONE.RAKTIKA",
+            "location": "@ZONE.RAKTIKA",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -184,7 +183,7 @@
             "rank": "A",
             "name_en": "Baal",
             "name_fr": "Baal",
-            "location": "ZONE.THE_TEMPEST",
+            "location": "@ZONE.THE_TEMPEST",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -192,7 +191,7 @@
             "rank": "A",
             "name_en": "Rusalka",
             "name_fr": "Roussalka",
-            "location": "ZONE.THE_TEMPEST",
+            "location": "@ZONE.THE_TEMPEST",
             "condition_en": "N/A",
             "condition_fr": "N/A"
         },
@@ -200,7 +199,7 @@
             "rank": "S",
             "name_en": "Tyger",
             "name_fr": "Tygre",
-            "location": "ZONE.LAKELAND",
+            "location": "@ZONE.LAKELAND",
             "condition_en": "Discard a Rail Tenderloin.",
             "condition_fr": "Jetez un Filet de râle de votre inventaire"
         },
@@ -208,7 +207,7 @@
             "rank": "S",
             "name_en": "Aglaope",
             "name_fr": "Aglaope",
-            "location": "ZONE.IL_MHEG",
+            "location": "@ZONE.IL_MHEG",
             "condition_en": "Travel over spawn points with the Scarlet Peacock minion out.",
             "condition_fr": "Possible en visitant les coordonnées de spawn avec la mascotte \"Paonne vermillon\""
         },
@@ -216,7 +215,7 @@
             "rank": "S",
             "name_en": "Forgiven Pedantry",
             "name_fr": "Pédanterie pardonnée",
-            "location": "ZONE.KHOLUSIA",
+            "location": "@ZONE.KHOLUSIA",
             "condition_en": "Gather Dwarven Cotton Bolls.",
             "condition_fr": "Récoltez 50 fois des Fleurs de coton nain"
         },
@@ -224,7 +223,7 @@
             "rank": "S",
             "name_en": "Tarchia",
             "name_fr": "Tarchia",
-            "location": "ZONE.AMH_ARAENG",
+            "location": "@ZONE.AMH_ARAENG",
             "condition_en": "Cast Self-Destruct on spawn points.",
             "condition_fr": "Possible quand les joueurs utilisent \"Auto-destruction\" aux coordonnées de spawn"
         },
@@ -232,7 +231,7 @@
             "rank": "S",
             "name_en": "Ixtab",
             "name_fr": "Ixtab",
-            "location": "ZONE.RAKTIKA",
+            "location": "@ZONE.RAKTIKA",
             "condition_en": "Kill 100 Cracked Ronkan Doll, 100 Cracked Ronkan Thorn, and 100 Cracked Ronkan Vessel.",
             "condition_fr": "Tuez 100 poupées ronka fissurées, 100 épines ronka fissurées et 100 réceptacles ronka fissurés"
         },
@@ -240,7 +239,7 @@
             "rank": "S",
             "name_en": "Gunitt",
             "name_fr": "Gunitt",
-            "location": "ZONE.THE_TEMPEST",
+            "location": "@ZONE.THE_TEMPEST",
             "condition_en": "Allow a Clionid to feed on a Deep-sea Leech 3 times.",
             "condition_fr": "Possible quand une Clionide atteinte de Gigantisme utilise Cônes buccaux sur le joueur"
         },
@@ -248,7 +247,7 @@
             "rank": "SS",
             "name_en": "Forgiven Rebellion",
             "name_fr": "Rébellion Pardonnée",
-            "location": "ZONE.NORVRANDT",
+            "location": "@ZONE.NORVRANDT",
             "condition_en": "When an S rank dies in Norvrandt, it has a chance to spawn Forgiven Gossips which spawn Forgiven Rebellion when killed.",
             "condition_fr": "Tués 4 Pédanterie pardonnée (10% de chance d'apparition après avoir tués un rang S dans une zone de Shadowbringers)"
         }

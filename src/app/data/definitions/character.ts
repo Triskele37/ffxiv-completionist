@@ -93,7 +93,7 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                 {
                     path: 'battle',
                     subGroups: [
-                        'battle',
+                        'general',
                         'dungeons',
                         'trials',
                         'raids',
@@ -127,7 +127,7 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                 {
                     path: 'items',
                     subGroups: [
-                        'items',
+                        'general',
                         'currency',
                         'desynthesis',
                         'collectables',
@@ -163,11 +163,11 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                 {
                     path: 'quests',
                     subGroups: [
-                        'quests',
+                        'general',
                         'main-scenario',
-                        'job-role-quests',
+                        'job-and-role-quests',
                         'levequests',
-                        'tribal-quests',
+                        'allied-society-quests',
                         'seasonal-events',
                     ]
                 },
@@ -194,7 +194,7 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                 {
                     path: 'grand-company',
                     subGroups: [
-                        'grand-company',
+                        'general',
                         'maelstrom',
                         'order-of-the-twin-adder',
                         'immortal-flames',

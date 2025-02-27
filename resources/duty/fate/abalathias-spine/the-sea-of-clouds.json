@@ -9,7 +9,7 @@
             "name_fr": "Des répulsifs attirants",
             "location": "(14, 37)",
             "patch": "3.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x842": {
             "level": 50,
@@ -17,7 +17,7 @@
             "name_fr": "Un rongeur, un volatile, une belle pagaille",
             "location": "(28, 32)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x843": {
             "level": 50,
@@ -25,7 +25,7 @@
             "name_fr": "Hirudothérapie géante",
             "location": "(25, 35)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x844": {
             "level": 50,
@@ -33,7 +33,7 @@
             "name_fr": "Et zou, plus d'anzus !",
             "location": "(29, 35)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x845": {
             "level": 50,
@@ -41,7 +41,7 @@
             "name_fr": "La guerre des Gundu",
             "location": "(30, 30)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x846": {
             "level": 50,
@@ -49,7 +49,7 @@
             "name_fr": "Défi: de haut en bas",
             "location": "(36, 33)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x847": {
             "level": 50,
@@ -57,7 +57,7 @@
             "name_fr": "Jeter la première pierre",
             "location": "(34, 30)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x851": {
             "level": 57,
@@ -65,7 +65,7 @@
             "name_fr": "Un abus de demainsels",
             "location": "(6, 20)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x852": {
             "level": 57,
@@ -73,7 +73,7 @@
             "name_fr": "Des noyaux désaltérants",
             "location": "(12, 12)",
             "patch": "3.0",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x855": {
             "level": 57,
@@ -81,7 +81,7 @@
             "name_fr": "Défi: mangeur de terre gardée",
             "location": "(21, 13)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x856": {
             "level": 57,
@@ -89,7 +89,7 @@
             "name_fr": "Des durs en cuir",
             "location": "(26, 10)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x857": {
             "level": 57,
@@ -97,7 +97,7 @@
             "name_fr": "Les ennemis de mes ennemis...",
             "location": "(29, 15)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x860": {
             "level": 57,
@@ -105,7 +105,7 @@
             "name_fr": "Défi: il y a un os à plume",
             "location": "(23, 19)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x864": {
             "level": 59,
@@ -113,7 +113,7 @@
             "name_fr": "Alerte aux bombardements aériens",
             "location": "(36.4, 36.4)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x865": {
             "level": 59,
@@ -121,7 +121,7 @@
             "name_fr": "Défi: Podarge au pot",
             "location": "(10, 25)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x866": {
             "level": 59,
@@ -129,7 +129,7 @@
             "name_fr": "Défi: dans les griffes d'Akhekhu",
             "location": "(36, 8)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x867": {
             "level": 59,
@@ -137,7 +137,7 @@
             "name_fr": "Oiseaux peu lyriques",
             "location": "(22, 6)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x875": {
             "level": 59,
@@ -145,7 +145,7 @@
             "name_fr": "Défi: clouer le bec à Yehl",
             "location": "(37, 14)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x840": {
             "level": 50,
@@ -153,7 +153,7 @@
             "name_fr": "Des oiseaux soporifiques",
             "location": "(20, 32)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x841": {
             "level": 50,
@@ -162,7 +162,7 @@
             "location": "(20, 32)",
             "patch": "3.0",
             "previousFate": "f.840",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x853": {
             "level": 57,
@@ -170,7 +170,7 @@
             "name_fr": "Le repose-pieds fugitif",
             "location": "(28, 10)",
             "patch": "3.0",
-            "type": "FATE_TYPE.ESCORT"
+            "type": "@FATE.TYPE.ESCORT"
         },
         "x854": {
             "level": 57,
@@ -179,7 +179,7 @@
             "location": "(17, 10)",
             "patch": "3.0",
             "previousFate": "f.853",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x861": {
             "level": 59,
@@ -187,7 +187,7 @@
             "name_fr": "Défi: l'incantateur des brumes",
             "location": "(20, 23)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x862": {
             "level": 59,
@@ -196,7 +196,7 @@
             "location": "(20, 23)",
             "patch": "3.0",
             "previousFate": "f.861",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x863": {
             "level": 59,
@@ -205,7 +205,7 @@
             "location": "(20, 23)",
             "patch": "3.0",
             "previousFate": "f.862",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }
 }

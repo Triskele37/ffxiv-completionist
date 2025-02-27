@@ -9,7 +9,7 @@
             "name_fr": "Épineux végétaux",
             "location": "(23, 25)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x343": {
             "level": 6,
@@ -17,7 +17,7 @@
             "name_fr": "Investir dans la pierre",
             "location": "(23, 26)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x344": {
             "level": 8,
@@ -25,7 +25,7 @@
             "name_fr": "V pour vandalisme",
             "location": "(20, 28)",
             "patch": "2.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x345": {
             "level": 8,
@@ -33,7 +33,7 @@
             "name_fr": "Bruyants volatiles",
             "location": "(18, 28)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x346": {
             "level": 8,
@@ -41,7 +41,7 @@
             "name_fr": "Le nerf de la terre",
             "location": "(17, 29)",
             "patch": "2.0",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x347": {
             "level": 9,
@@ -49,7 +49,7 @@
             "name_fr": "Défi: maudit crapaud maudit",
             "location": "(24, 21)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x348": {
             "level": 9,
@@ -57,7 +57,7 @@
             "name_fr": "Défi: le hors-la-loi",
             "location": "(22, 23)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x349": {
             "level": 10,
@@ -65,7 +65,7 @@
             "name_fr": "La peste soit des peistes",
             "location": "(24, 20)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x350": {
             "level": 10,
@@ -73,7 +73,7 @@
             "name_fr": "Attention, hourets méchants",
             "location": "(25, 19)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x352": {
             "level": 13,
@@ -81,7 +81,7 @@
             "name_fr": "Sauvetage de pêcheurs",
             "location": "(15, 16)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x353": {
             "level": 13,
@@ -89,7 +89,7 @@
             "name_fr": "Défi: douceur locale",
             "location": "(15, 16)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x354": {
             "level": 22,
@@ -97,7 +97,7 @@
             "name_fr": "Attention, sol glissant",
             "location": "(14, 9)",
             "patch": "2.0",
-            "type": "FATE_TYPE.ESCORT"
+            "type": "@FATE.TYPE.ESCORT"
         },
         "x355": {
             "level": 23,
@@ -105,7 +105,7 @@
             "name_fr": "Les décombres du juggernaut",
             "location": "(13, 7)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x356": {
             "level": 5,
@@ -113,7 +113,7 @@
             "name_fr": "Une question de minerai",
             "location": "(23, 25)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x357": {
             "level": 21,
@@ -121,7 +121,7 @@
             "name_fr": "Défi: un gênant géant",
             "location": "(13, 10)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x361": {
             "level": 10,
@@ -129,7 +129,7 @@
             "name_fr": "Coup sur coup",
             "location": "(23, 21)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x366": {
             "level": 22,
@@ -137,7 +137,7 @@
             "name_fr": "Défi: le monstre aux grandes pattes",
             "location": "(14, 6)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x367": {
             "level": 20,
@@ -145,7 +145,7 @@
             "name_fr": "Retour à la mort",
             "location": "(13, 11)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         }
     }
 }

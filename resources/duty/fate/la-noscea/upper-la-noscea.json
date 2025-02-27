@@ -9,7 +9,7 @@
             "name_fr": "Défi: Simurgh le redoutable",
             "location": "(8, 21)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x317": {
             "level": 34,
@@ -17,7 +17,7 @@
             "name_fr": "Escorte pour le Guet",
             "location": "(26, 18)",
             "patch": "2.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x320": {
             "level": 30,
@@ -25,7 +25,7 @@
             "name_fr": "Mamool repart chez maman",
             "location": "(32, 24)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x321": {
             "level": 31,
@@ -33,7 +33,7 @@
             "name_fr": "Frapper dans l'œuf",
             "location": "(33, 24)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x322": {
             "level": 30,
@@ -41,7 +41,7 @@
             "name_fr": "Défi: attention, ça mord",
             "location": "(34, 24)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x323": {
             "level": 21,
@@ -49,7 +49,7 @@
             "name_fr": "Défi: crabe qui ne pond pas...",
             "location": "(13, 24)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x329": {
             "level": 31,
@@ -57,7 +57,7 @@
             "name_fr": "Défi: prudence avec l'eau chaude...",
             "location": "(28, 24)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x331": {
             "level": 33,
@@ -65,7 +65,7 @@
             "name_fr": "Défi: un baigneur gênant",
             "location": "(28, 23)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x332": {
             "level": 33,
@@ -73,7 +73,7 @@
             "name_fr": "Trop d'œufs, bonjour les dégâts",
             "location": "(28, 22)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x451": {
             "level": 20,
@@ -81,7 +81,7 @@
             "name_fr": "Pauvre hameau: des rats qui grignotent",
             "location": "(12, 24)",
             "patch": "2.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x452": {
             "level": 20,
@@ -89,7 +89,7 @@
             "name_fr": "Pauvre hameau: des Kobolds qui saccagent",
             "location": "(12, 24)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x453": {
             "level": 20,
@@ -97,7 +97,7 @@
             "name_fr": "Pauvre hameau: des coeurls qui battent",
             "location": "(12, 24)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }
 }

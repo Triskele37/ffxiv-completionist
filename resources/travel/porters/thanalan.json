@@ -2,12 +2,11 @@
     "key": "thanalan",
     "groupName_en": "Thanalan",
     "groupName_fr": "Thanalan",
-    "common": ["zone"],
     "tasks": {
         "x17": {
             "name_en": "Ul'dah",
             "name_fr": "Ul'dah",
-            "zone": "ZONE.UL_DAH_STEPS_OF_NALD",
+            "zone": "@ZONE.UL_DAH_STEPS_OF_NALD",
             "type_en": "Chocobokeep",
             "type_fr": "Relais à chocobos"
         },

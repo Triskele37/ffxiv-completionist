@@ -9,7 +9,7 @@
             "name_fr": "Défi: le borgne ravisseur",
             "location": "(25, 20)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x447": {
             "level": 49,
@@ -17,7 +17,7 @@
             "name_fr": "Basilics illicites",
             "location": "(24, 21)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x449": {
             "level": 49,
@@ -25,7 +25,7 @@
             "name_fr": "Le feu aux poudres",
             "location": "(18, 18)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x450": {
             "level": 49,
@@ -33,7 +33,7 @@
             "name_fr": "Défi: le drone de fer",
             "location": "(18, 14)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x457": {
             "level": 49,
@@ -41,7 +41,7 @@
             "name_fr": "Ingénierie inversée",
             "location": "(18, 15)",
             "patch": "2.0",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x556": {
             "level": 49,
@@ -49,7 +49,7 @@
             "name_fr": "Ne jetez pas les noyaux !",
             "location": "(22, 22)",
             "patch": "2.1",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x637": {
             "level": 49,
@@ -57,7 +57,7 @@
             "name_fr": "Défi: le baron rouge",
             "location": "(24, 23)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x638": {
             "level": 49,
@@ -65,7 +65,7 @@
             "name_fr": "Précieux céruleum",
             "location": "(22, 23)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x639": {
             "level": 49,
@@ -73,7 +73,7 @@
             "name_fr": "Chacun sa tour",
             "location": "(22, 24)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x641": {
             "level": 49,
@@ -81,7 +81,7 @@
             "name_fr": "Piège de quartz",
             "location": "(20, 26)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x642": {
             "level": 49,
@@ -89,7 +89,7 @@
             "name_fr": "La route du céruleum",
             "location": "(21, 29)",
             "patch": "2.1",
-            "type": "FATE_TYPE.ESCORT"
+            "type": "@FATE.TYPE.ESCORT"
         },
         "x647": {
             "level": 49,
@@ -97,7 +97,7 @@
             "name_fr": "Défi: gorgimère indigne",
             "location": "(17, 14)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x643": {
             "level": 49,
@@ -105,7 +105,7 @@
             "name_fr": "Culte maudit: l'enlèvement",
             "location": "(26, 22)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x644": {
             "level": 49,
@@ -114,7 +114,7 @@
             "location": "(26, 22)",
             "patch": "2.1",
             "previousFate": "f.643",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x645": {
             "level": 49,
@@ -123,7 +123,7 @@
             "location": "(26, 22)",
             "patch": "2.1",
             "previousFate": "f.644",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x646": {
             "level": 49,
@@ -132,7 +132,7 @@
             "location": "(26, 22)",
             "patch": "2.1",
             "previousFate": "f.645",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }
 }

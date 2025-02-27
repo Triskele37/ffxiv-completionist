@@ -23,12 +23,11 @@
             "header_fr": "Débloque"
         }
     },
-    "common": ["grandCompany"],
     "tasks": {
         "x0": {
             "name_en": "Storm Private Third Class",
             "name_fr": "Soldat 3e classe",
-            "grandCompany": "SOCIETY.MAELSTROM",
+            "grandCompany": "@SOCIETY.MAELSTROM",
             "requirement": "q.66220",
             "entitlements_en": ["10,000 Seal Cap", "Deliveries"],
             "entitlements_fr": ["10.000 Sceaux de compagnie limséen maximum", "Ravitaillement"],
@@ -37,7 +36,7 @@
         "x1": {
             "name_en": "Storm Private Second Class",
             "name_fr": "Soldat 2e classe",
-            "grandCompany": "SOCIETY.MAELSTROM",
+            "grandCompany": "@SOCIETY.MAELSTROM",
             "requirement_en": "2,000 Storm Seals",
             "requirement_fr": "2.000 Sceaux de compagnie limséen",
             "entitlements_en": "15,000 Seal Cap",
@@ -48,7 +47,7 @@
         "x2": {
             "name_en": "Storm Private First Class",
             "name_fr": "Soldat 1re classe",
-            "grandCompany": "SOCIETY.MAELSTROM",
+            "grandCompany": "@SOCIETY.MAELSTROM",
             "requirement_en": "3,000 Storm Seals",
             "requirement_fr": "3.000 Sceaux de compagnie limséen",
             "entitlements_en": "20,000 Seal Cap",
@@ -59,7 +58,7 @@
         "x3": {
             "name_en": "Storm Corporal",
             "name_fr": "Caporal(e)",
-            "grandCompany": "SOCIETY.MAELSTROM",
+            "grandCompany": "@SOCIETY.MAELSTROM",
             "requirement_en": "4,000 Storm Seals",
             "requirement_fr": "4.000 Sceaux de compagnie limséen",
             "entitlements_en": "25,000 Seal Cap",
@@ -70,7 +69,7 @@
         "x4": {
             "name_en": "Storm Sergeant Third Class",
             "name_fr": "Adjudant(e)",
-            "grandCompany": "SOCIETY.MAELSTROM",
+            "grandCompany": "@SOCIETY.MAELSTROM",
             "requirement": "logs.hunting-log.maelstrom",
             "requirement_en": ["to Rank 1", "5,000 Storm Seals"],
             "requirement_fr": ["pour le Rang 1", "5.000 Sceaux de compagnie limséen"],
@@ -86,7 +85,7 @@
         "x5": {
             "name_en": "Storm Sergeant Second Class",
             "name_fr": "Sergent(e)",
-            "grandCompany": "SOCIETY.MAELSTROM",
+            "grandCompany": "@SOCIETY.MAELSTROM",
             "requirement_en": "6,000 Storm Seals",
             "requirement_fr": "6.000 Sceaux de compagnie limséen",
             "entitlements_en": ["35,000 Seal Cap", "Expert Deliveries"],
@@ -97,7 +96,7 @@
         "x6": {
             "name_en": "Storm Sergeant First Class",
             "name_fr": "Sergent-major",
-            "grandCompany": "SOCIETY.MAELSTROM",
+            "grandCompany": "@SOCIETY.MAELSTROM",
             "requirement_en": "7,000 Storm Seals",
             "requirement_fr": "7.000 Sceaux de compagnie limséen",
             "entitlements_en": "40,000 Seal Cap",
@@ -108,7 +107,7 @@
         "x7": {
             "name_en": "Chief Storm Sergeant",
             "name_fr": "Major",
-            "grandCompany": "SOCIETY.MAELSTROM",
+            "grandCompany": "@SOCIETY.MAELSTROM",
             "requirement": "q.66664",
             "requirement_en": "8,000 Storm Seals",
             "requirement_fr": "8.000 Sceaux de compagnie limséen",
@@ -120,7 +119,7 @@
         "x8": {
             "name_en": "Second Storm Lieutenant",
             "name_fr": "Sous-lieutenant(e)",
-            "grandCompany": "SOCIETY.MAELSTROM",
+            "grandCompany": "@SOCIETY.MAELSTROM",
             "requirement": ["q.66667", "logs.hunting-log.maelstrom"],
             "requirement_en": ["to Rank 2", "9,000 Storm Seals"],
             "requirement_fr": ["pour le Rang 2", "9.000 Sceaux de compagnie limséen"],
@@ -132,7 +131,7 @@
         "x9": {
             "name_en": "First Storm Lieutenant",
             "name_fr": "Lieutenant(e)",
-            "grandCompany": "SOCIETY.MAELSTROM",
+            "grandCompany": "@SOCIETY.MAELSTROM",
             "requirement_en": "Completion of \"Flagged Mission: Crystal Recovery\" via Adventurer Squadrons",
             "requirement_fr": "Accomplissement de la mission normale d'escouade: \"Subtilisation de cristaux\"",
             "entitlements_en": "80,000 Seal Cap",
@@ -143,7 +142,7 @@
         "x10": {
             "name_en": "Storm Captain",
             "name_fr": "Capitaine",
-            "grandCompany": "SOCIETY.MAELSTROM",
+            "grandCompany": "@SOCIETY.MAELSTROM",
             "requirement_en": [
                 "Completion of 5 Different Command Missions",
                 "Completion of \"Flagged Mission: Sapper Strike\" via Adventurer Squadrons"
@@ -159,7 +158,7 @@
         "x11": {
             "name_en": "Serpent Private Third Class",
             "name_fr": "Soldat 3e classe",
-            "grandCompany": "SOCIETY.ADDER",
+            "grandCompany": "@SOCIETY.ADDER",
             "requirement": "q.66220",
             "entitlements_en": ["10,000 Seal Cap", "Deliveries"],
             "entitlements_fr": ["10.000 Sceaux de compagnie gridanien maximum", "Ravitaillement"],
@@ -168,7 +167,7 @@
         "x12": {
             "name_en": "Serpent Private Second Class",
             "name_fr": "Soldat 2e classe",
-            "grandCompany": "SOCIETY.ADDER",
+            "grandCompany": "@SOCIETY.ADDER",
             "requirement_en": "2,000 Serpent Seals",
             "requirement_fr": "2.000 Sceaux de compagnie gridanien",
             "entitlements_en": "15,000 Seal Cap",
@@ -179,7 +178,7 @@
         "x13": {
             "name_en": "Serpent Private First Class",
             "name_fr": "Soldat 1re classe",
-            "grandCompany": "SOCIETY.ADDER",
+            "grandCompany": "@SOCIETY.ADDER",
             "requirement_en": "3,000 Serpent Seals",
             "requirement_fr": "3.000 Sceaux de compagnie gridanien",
             "entitlements_en": "20,000 Seal Cap",
@@ -190,7 +189,7 @@
         "x14": {
             "name_en": "Serpent Corporal",
             "name_fr": "Caporal(e)",
-            "grandCompany": "SOCIETY.ADDER",
+            "grandCompany": "@SOCIETY.ADDER",
             "requirement_en": "4,000 Serpent Seals",
             "requirement_fr": "4.000 Sceaux de compagnie gridanien",
             "entitlements_en": "25,000 Seal Cap",
@@ -201,7 +200,7 @@
         "x15": {
             "name_en": "Serpent Sergeant Third Class",
             "name_fr": "Adjudant(e)",
-            "grandCompany": "SOCIETY.ADDER",
+            "grandCompany": "@SOCIETY.ADDER",
             "requirement": "logs.hunting-log.order-of-the-twin-adder",
             "requirement_en": ["to Rank 1", "5,000 Serpent Seals"],
             "requirement_fr": ["pour le Rang 1", "5.000 Sceaux de compagnie gridanien"],
@@ -217,7 +216,7 @@
         "x16": {
             "name_en": "Serpent Sergeant Second Class",
             "name_fr": "Sergent(e)",
-            "grandCompany": "SOCIETY.ADDER",
+            "grandCompany": "@SOCIETY.ADDER",
             "requirement_en": "6,000 Serpent Seals",
             "requirement_fr": "6.000 Sceaux de compagnie gridanien",
             "entitlements_en": ["35,000 Seal Cap", "Expert Deliveries"],
@@ -228,7 +227,7 @@
         "x17": {
             "name_en": "Serpent Sergeant First Class",
             "name_fr": "Sergent-major",
-            "grandCompany": "SOCIETY.ADDER",
+            "grandCompany": "@SOCIETY.ADDER",
             "requirement_en": "7,000 Serpent Seals",
             "requirement_fr": "7.000 Sceaux de compagnie gridanien",
             "entitlements_en": "40,000 Seal Cap",
@@ -239,7 +238,7 @@
         "x18": {
             "name_en": "Chief Serpent Sergeant",
             "name_fr": "Major",
-            "grandCompany": "SOCIETY.ADDER",
+            "grandCompany": "@SOCIETY.ADDER",
             "requirement": "q.66665",
             "requirement_en": "8,000 Serpent Seals",
             "requirement_fr": "8.000 Sceaux de compagnie gridanien",
@@ -251,7 +250,7 @@
         "x19": {
             "name_en": "Second Serpent Lieutenant",
             "name_fr": "Sous-lieutenant(e)",
-            "grandCompany": "SOCIETY.ADDER",
+            "grandCompany": "@SOCIETY.ADDER",
             "requirement": ["q.66668", "logs.hunting-log.order-of-the-twin-adder"],
             "requirement_en": ["to Rank 2", "9,000 Serpent Seals"],
             "requirement_fr": ["pour le Rang 2", "9.000 Sceaux de compagnie gridanien"],
@@ -263,7 +262,7 @@
         "x20": {
             "name_en": "First Serpent Lieutenant",
             "name_fr": "Lieutenant(e)",
-            "grandCompany": "SOCIETY.ADDER",
+            "grandCompany": "@SOCIETY.ADDER",
             "requirement_en": "Completion of \"Flagged Mission: Crystal Recovery\" via Adventurer Squadrons",
             "requirement_fr": "Accomplissement de la mission normale d'escouade: \"Subtilisation de cristaux\"",
             "entitlements_en": "80,000 Seal Cap",
@@ -274,7 +273,7 @@
         "x21": {
             "name_en": "Serpent Captain",
             "name_fr": "Capitaine",
-            "grandCompany": "SOCIETY.ADDER",
+            "grandCompany": "@SOCIETY.ADDER",
             "requirement_en": [
                 "Completion of 5 Different Command Missions",
                 "Completion of \"Flagged Mission: Sapper Strike\" via Adventurer Squadrons"
@@ -290,7 +289,7 @@
         "x22": {
             "name_en": "Flame Private Third Class",
             "name_fr": "Soldat 3e classe",
-            "grandCompany": "SOCIETY.FLAMES",
+            "grandCompany": "@SOCIETY.FLAMES",
             "requirement": "q.66220",
             "entitlements_en": ["10,000 Seal Cap", "Deliveries"],
             "entitlements_fr": ["10.000 Sceaux de compagnie uldien maximum", "Ravitaillement"],
@@ -299,7 +298,7 @@
         "x23": {
             "name_en": "Flame Private Second Class",
             "name_fr": "Soldat 2e classe",
-            "grandCompany": "SOCIETY.FLAMES",
+            "grandCompany": "@SOCIETY.FLAMES",
             "requirement_en": "2,000 Flame Seals",
             "requirement_fr": "2.000 Sceaux de compagnie uldien",
             "entitlements_en": "15,000 Seal Cap",
@@ -310,7 +309,7 @@
         "x24": {
             "name_en": "Flame Private First Class",
             "name_fr": "Soldat 1re classe",
-            "grandCompany": "SOCIETY.FLAMES",
+            "grandCompany": "@SOCIETY.FLAMES",
             "requirement_en": "3,000 Flame Seals",
             "requirement_fr": "3.000 Sceaux de compagnie uldien",
             "entitlements_en": "20,000 Seal Cap",
@@ -321,7 +320,7 @@
         "x25": {
             "name_en": "Flame Corporal",
             "name_fr": "Caporal(e)",
-            "grandCompany": "SOCIETY.FLAMES",
+            "grandCompany": "@SOCIETY.FLAMES",
             "requirement_en": "4,000 Flame Seals",
             "requirement_fr": "4.000 Sceaux de compagnie uldien",
             "entitlements_en": "25,000 Seal Cap",
@@ -332,7 +331,7 @@
         "x26": {
             "name_en": "Flame Sergeant Third Class",
             "name_fr": "Adjudant(e)",
-            "grandCompany": "SOCIETY.FLAMES",
+            "grandCompany": "@SOCIETY.FLAMES",
             "requirement": "logs.hunting-log.immortal-flames",
             "requirement_en": ["to Rank 1", "5,000 Flame Seals"],
             "requirement_fr": ["pour le Rang 1", "5.000 Sceaux de compagnie uldien"],
@@ -348,7 +347,7 @@
         "x27": {
             "name_en": "Flame Sergeant Second Class",
             "name_fr": "Sergent(e)",
-            "grandCompany": "SOCIETY.FLAMES",
+            "grandCompany": "@SOCIETY.FLAMES",
             "requirement_en": "6,000 Flame Seals",
             "requirement_fr": "6.000 Sceaux de compagnie uldien",
             "entitlements_en": ["35,000 Seal Cap", "Expert Deliveries"],
@@ -359,7 +358,7 @@
         "x28": {
             "name_en": "Flame Sergeant First Class",
             "name_fr": "Sergent-major",
-            "grandCompany": "SOCIETY.FLAMES",
+            "grandCompany": "@SOCIETY.FLAMES",
             "requirement_en": "7,000 Flame Seals",
             "requirement_fr": "7.000 Sceaux de compagnie uldien",
             "entitlements_en": "40,000 Seal Cap",
@@ -370,7 +369,7 @@
         "x29": {
             "name_en": "Chief Flame Sergeant",
             "name_fr": "Major",
-            "grandCompany": "SOCIETY.FLAMES",
+            "grandCompany": "@SOCIETY.FLAMES",
             "requirement": "q.66666",
             "requirement_en": "8,000 Flame Seals",
             "requirement_fr": "8,000 Sceaux de compagnie uldien",
@@ -382,7 +381,7 @@
         "x30": {
             "name_en": "Second Flame Lieutenant",
             "name_fr": "Sous-lieutenant(e)",
-            "grandCompany": "SOCIETY.FLAMES",
+            "grandCompany": "@SOCIETY.FLAMES",
             "requirement": ["q.66669", "logs.hunting-log.immortal-flames"],
             "requirement_en": ["to Rank 2", "9,000 Flame Seals"],
             "requirement_fr": ["pour le Rang 2", "9.000 Sceaux de compagnie uldien"],
@@ -394,7 +393,7 @@
         "x31": {
             "name_en": "First Flame Lieutenant",
             "name_fr": "Lieutenant(e)",
-            "grandCompany": "SOCIETY.FLAMES",
+            "grandCompany": "@SOCIETY.FLAMES",
             "requirement_en": "Completion of \"Flagged Mission: Crystal Recovery\" via Adventurer Squadrons",
             "requirement_fr": "Accomplissement de la mission normale d'escouade: \"Subtilisation de cristaux\"",
             "entitlements_en": "80,000 Seal Cap",
@@ -405,7 +404,7 @@
         "x32": {
             "name_en": "Flame Captain",
             "name_fr": "Capitaine",
-            "grandCompany": "SOCIETY.FLAMES",
+            "grandCompany": "@SOCIETY.FLAMES",
             "requirement_en": [
                 "Completion of 5 Different Command Missions",
                 "Completion of \"Flagged Mission: Sapper Strike\" via Adventurer Squadrons"

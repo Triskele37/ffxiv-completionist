@@ -2,707 +2,706 @@
     "key": "page-6",
     "groupName_en": "Page 6",
     "groupName_fr": "Page 6",
-    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
             "name_en": "Adamantite Bichir",
             "name_fr": "Polyptère adamantium",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.10",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x1": {
             "name_en": "Bone Melter",
             "name_fr": "Fondeur d'os",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.5",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x2": {
             "name_en": "Fallen Leaf",
             "name_fr": "Poisson-feuille morte",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.4",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x3": {
             "name_en": "Velodyna Grass Carp",
             "name_fr": "Carpe de roseau de la Velodyna",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.6",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x4": {
             "name_en": "Highland Perch",
             "name_fr": "Perche des hautes terres",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.7",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x5": {
             "name_en": "Greenstream Loach",
             "name_fr": "Loche verte",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.6",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x6": {
             "name_en": "Mirage Chub",
             "name_fr": "Chevesne mirage",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.7",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x7": {
             "name_en": "Padjali Loach",
             "name_fr": "Loche padjale",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.4",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x8": {
             "name_en": "Gyr Abanian Trout",
             "name_fr": "Truite de Gyr Abania",
-            "zone": "ZONE.RHALGRS_REACH",
+            "zone": "@ZONE.RHALGRS_REACH",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.0",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x9": {
             "name_en": "Bloodsipper",
             "name_fr": "Goûte-sang",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.6",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x10": {
             "name_en": "Monk Betta",
             "name_fr": "Betta moine",
-            "zone": "ZONE.RHALGRS_REACH",
+            "zone": "@ZONE.RHALGRS_REACH",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.1",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x11": {
             "name_en": "Gilfish",
             "name_fr": "Poisson-gil",
-            "zone": "ZONE.RHALGRS_REACH",
+            "zone": "@ZONE.RHALGRS_REACH",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.2",
-            "bait": "FISH.BAIT.NIGHTCRAWLER"
+            "bait": "@FISH.BAIT.NIGHTCRAWLER"
         },
         "x12": {
             "name_en": "Falling Star",
             "name_fr": "Étoile filante",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.5",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x13": {
             "name_en": "Capsized Squeaker",
             "name_fr": "Silure chaviré",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.5",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x14": {
             "name_en": "Nirvana Crab",
             "name_fr": "Crabe du nirvana",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.5",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x15": {
             "name_en": "Gravel Gudgeon",
             "name_fr": "Goujon graveleux",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.7",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x16": {
             "name_en": "Grinning Anchovy",
             "name_fr": "Anchois rigolard",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.0",
-            "bait": "FISH.BAIT.LIVE_SHRIMP"
+            "bait": "@FISH.BAIT.LIVE_SHRIMP"
         },
         "x17": {
             "name_en": "Glass Herring",
             "name_fr": "Hareng de verre",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.0",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x18": {
             "name_en": "Hellyfish",
             "name_fr": "Poisson infernal",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.1",
-            "bait": "FISH.BAIT.LIVE_SHRIMP"
+            "bait": "@FISH.BAIT.LIVE_SHRIMP"
         },
         "x19": {
             "name_en": "Ruby Coral",
             "name_fr": "Corail de rubis",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.3",
-            "bait": "FISH.BAIT.LIVE_SHRIMP"
+            "bait": "@FISH.BAIT.LIVE_SHRIMP"
         },
         "x20": {
             "name_en": "Sapphire Coral",
             "name_fr": "Corail de saphir",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.3",
-            "bait": "FISH.BAIT.LIVE_SHRIMP"
+            "bait": "@FISH.BAIT.LIVE_SHRIMP"
         },
         "x21": {
             "name_en": "Bone Coral",
             "name_fr": "Corail osseux",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.3",
-            "bait": "FISH.BAIT.LIVE_SHRIMP"
+            "bait": "@FISH.BAIT.LIVE_SHRIMP"
         },
         "x22": {
             "name_en": "Ruby Shrimp",
             "name_fr": "Crevette de rubis",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.1",
-            "bait": "FISH.BAIT.LIVE_SHRIMP"
+            "bait": "@FISH.BAIT.LIVE_SHRIMP"
         },
         "x23": {
             "name_en": "Coeurl Snake Eel",
             "name_fr": "Anguille-serpent-coeurl",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.0",
-            "bait": "FISH.BAIT.LIVE_SHRIMP"
+            "bait": "@FISH.BAIT.LIVE_SHRIMP"
         },
         "x24": {
             "name_en": "Heather Charr",
             "name_fr": "Omble de Bruyères",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.9",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x25": {
             "name_en": "Electric Catfish",
             "name_fr": "Poisson-chat électrique",
-            "zone": "ZONE.RHALGRS_REACH",
+            "zone": "@ZONE.RHALGRS_REACH",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.1",
-            "bait": "FISH.BAIT.NIGHTCRAWLER"
+            "bait": "@FISH.BAIT.NIGHTCRAWLER"
         },
         "x26": {
             "name_en": "Death Loach",
             "name_fr": "Loche de la mort",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.8",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x27": {
             "name_en": "Grymm Crab",
             "name_fr": "Crabe de Grymm",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.8",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x28": {
             "name_en": "Invisible Crayfish",
             "name_fr": "Écrevisse invisible",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.9",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x29": {
             "name_en": "Abalathian Salamander",
             "name_fr": "Salamandre d'Abalathia",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.10",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x30": {
             "name_en": "Cave Killifish",
             "name_fr": "Killi des cavernes",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.4",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x31": {
             "name_en": "Rhalgr's Bolt",
             "name_fr": "Éclair de Rhalgr",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.7",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x32": {
             "name_en": "Butterfly Fish",
             "name_fr": "Poisson lépidoptère",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.3",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x33": {
             "name_en": "Dafu",
             "name_fr": "Dafu",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.2",
             "bait": "logs.gathering.fishing-guide.fishing.page-6.22"
         },
         "x34": {
             "name_en": "Leaf Tatsunoko",
             "name_fr": "Tatsunoko-feuille",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.4",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x35": {
             "name_en": "Glass Flounder",
             "name_fr": "Flet de verre",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.4",
-            "bait": "FISH.BAIT.BREAM_LURE"
+            "bait": "@FISH.BAIT.BREAM_LURE"
         },
         "x36": {
             "name_en": "Gliding Fish",
             "name_fr": "Poisson planeur",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.5",
-            "bait": "FISH.BAIT.LIVE_SHRIMP"
+            "bait": "@FISH.BAIT.LIVE_SHRIMP"
         },
         "x37": {
             "name_en": "Globefish",
             "name_fr": "Poisson orbe",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.5",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x38": {
             "name_en": "Fan Clam",
             "name_fr": "Palourde éventail",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.5",
-            "bait": "FISH.BAIT.LIVE_SHRIMP"
+            "bait": "@FISH.BAIT.LIVE_SHRIMP"
         },
         "x39": {
             "name_en": "Striped Fugu",
             "name_fr": "Fugu rayé",
-            "zone": "ZONE.SHIROGANE",
+            "zone": "@ZONE.SHIROGANE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.hingashi.1",
-            "bait": "FISH.BAIT.LIVE_SHRIMP"
+            "bait": "@FISH.BAIT.LIVE_SHRIMP"
         },
         "x40": {
             "name_en": "Ruby Meagre",
             "name_fr": "Maigre de rubis",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.5",
-            "bait": "FISH.BAIT.LIVE_SHRIMP"
+            "bait": "@FISH.BAIT.LIVE_SHRIMP"
         },
         "x41": {
             "name_en": "River Barramundi",
             "name_fr": "Barramundi de rivière",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.8",
-            "bait": "FISH.BAIT.NIGHTCRAWLER"
+            "bait": "@FISH.BAIT.NIGHTCRAWLER"
         },
         "x42": {
             "name_en": "Nogoi",
             "name_fr": "Nogoï",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.9",
-            "bait": "FISH.BAIT.NIGHTCRAWLER"
+            "bait": "@FISH.BAIT.NIGHTCRAWLER"
         },
         "x43": {
             "name_en": "Pagan Pirarucu",
             "name_fr": "Pirarucu païen",
-            "zone": "ZONE.RHALGRS_REACH",
+            "zone": "@ZONE.RHALGRS_REACH",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.1",
-            "bait": "FISH.BAIT.NIGHTCRAWLER"
+            "bait": "@FISH.BAIT.NIGHTCRAWLER"
         },
         "x44": {
             "name_en": "Enid Shrimp",
             "name_fr": "Crevette d'Enid",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.8",
-            "bait": "FISH.BAIT.NIGHTCRAWLER"
+            "bait": "@FISH.BAIT.NIGHTCRAWLER"
         },
         "x45": {
             "name_en": "Black Velodyna Carp",
             "name_fr": "Carpe noire de la Velodyna",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.6",
-            "bait": "FISH.BAIT.NIGHTCRAWLER"
+            "bait": "@FISH.BAIT.NIGHTCRAWLER"
         },
         "x46": {
             "name_en": "Yanxian Koi",
             "name_fr": "Koï de Yanxia",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.10",
-            "bait": "FISH.BAIT.NIGHTCRAWLER"
+            "bait": "@FISH.BAIT.NIGHTCRAWLER"
         },
         "x47": {
             "name_en": "Longhair Catfish",
             "name_fr": "Poisson-chat chevelu",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.10",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x48": {
             "name_en": "Doman Trout",
             "name_fr": "Truite de Doma",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.8",
-            "bait": "FISH.BAIT.NIGHTCRAWLER"
+            "bait": "@FISH.BAIT.NIGHTCRAWLER"
         },
         "x49": {
             "name_en": "Yanxian Barramundi",
             "name_fr": "Barramundi de Yanxia",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.10",
-            "bait": "FISH.BAIT.NIGHTCRAWLER"
+            "bait": "@FISH.BAIT.NIGHTCRAWLER"
         },
         "x50": {
             "name_en": "Tail Mountains Minnow",
             "name_fr": "Vairon de la Queue",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.19",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x51": {
             "name_en": "Killifish",
             "name_fr": "Killi",
-            "zone": "ZONE.SHIROGANE",
+            "zone": "@ZONE.SHIROGANE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.hingashi.2",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x52": {
             "name_en": "Doman Crayfish",
             "name_fr": "Écrevisse de Doma",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.7",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x53": {
             "name_en": "Othardian Trout",
             "name_fr": "Truite d'Othard",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.17",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x54": {
             "name_en": "Zagas Khaal",
             "name_fr": "Zagas Khaal",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.18",
-            "bait": "FISH.BAIT.NIGHTCRAWLER"
+            "bait": "@FISH.BAIT.NIGHTCRAWLER"
         },
         "x55": {
             "name_en": "Steppe Skipper",
             "name_fr": "Gobie des steppes",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.17",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x56": {
             "name_en": "Sun Bass",
             "name_fr": "Bar du soleil",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.20",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x57": {
             "name_en": "Dawn Crayfish",
             "name_fr": "Écrevisse de l'Aube",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.17",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x58": {
             "name_en": "Curtain Pleco",
             "name_fr": "Pléco drapé",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.18",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x59": {
             "name_en": "Yat Goby",
             "name_fr": "Gobie de Yat",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.22",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x60": {
             "name_en": "Nhaama's Boon",
             "name_fr": "Bénédiction de Nhaama",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.23",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x61": {
             "name_en": "Doman Eel",
             "name_fr": "Anguille de Doma",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.13",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x62": {
             "name_en": "Brassfish",
             "name_fr": "Cyprin de laiton",
-            "zone": "ZONE.SHIROGANE",
+            "zone": "@ZONE.SHIROGANE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.hingashi.2",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x63": {
             "name_en": "Dry Steppe Skipper",
             "name_fr": "Gobie des steppes arides",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.18",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x64": {
             "name_en": "Skytear",
             "name_fr": "Larme céleste",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.19",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x65": {
             "name_en": "Dusk Crayfish",
             "name_fr": "Écrevisse du Crépuscule",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.18",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x66": {
             "name_en": "Bowfish",
             "name_fr": "Poisson-arc",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.21",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x67": {
             "name_en": "Jade Sculpin",
             "name_fr": "Chabot de jade",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.22",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x68": {
             "name_en": "Hardscale",
             "name_fr": "Durécaille",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.20",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x69": {
             "name_en": "Doman Grass Carp",
             "name_fr": "Carpe de roseau de Doma",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.15",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x70": {
             "name_en": "Samurai Fish",
             "name_fr": "Poisson samouraï",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.16",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x71": {
             "name_en": "Tao Bitterling",
             "name_fr": "Bouvière de Tao",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.21",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x72": {
             "name_en": "Blank Oscar",
             "name_fr": "Oscar pâle",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.16",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x73": {
             "name_en": "Dragonfish",
             "name_fr": "Poisson-dragon",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.16",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x74": {
             "name_en": "Lordly Salmon",
             "name_fr": "Saumon seigneurial",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.10",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x75": {
             "name_en": "Yellow Prismfish",
             "name_fr": "Poisson-prisme jaune",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.14",
-            "bait": "FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
         },
         "x76": {
             "name_en": "Blue Prismfish",
             "name_fr": "Poisson-prisme bleu",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.14",
-            "bait": "FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
         },
         "x77": {
             "name_en": "Bull's Bite",
             "name_fr": "Bouchée du taureau",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.12",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x78": {
             "name_en": "Peeping Pisces",
             "name_fr": "Poisson voyeur",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.12",
-            "bait": "FISH.BAIT.MIDGE_LARVA"
+            "bait": "@FISH.BAIT.MIDGE_LARVA"
         },
         "x79": {
             "name_en": "Gigant Bass",
             "name_fr": "Gigantobar",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.13",
-            "bait": "FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
         },
         "x80": {
             "name_en": "Daio Squid",
             "name_fr": "Calmar daio",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.6",
-            "bait": "FISH.BAIT.BREAM_LURE"
+            "bait": "@FISH.BAIT.BREAM_LURE"
         },
         "x81": {
             "name_en": "Koromo Octopus",
             "name_fr": "Poulpe koromo",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.6",
-            "bait": "FISH.BAIT.BREAM_LURE"
+            "bait": "@FISH.BAIT.BREAM_LURE"
         },
         "x82": {
             "name_en": "Glass Tuna",
             "name_fr": "Thon de verre",
-            "zone": "ZONE.KUGANE",
+            "zone": "@ZONE.KUGANE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.hingashi.0",
-            "bait": "FISH.BAIT.BREAM_LURE"
+            "bait": "@FISH.BAIT.BREAM_LURE"
         },
         "x83": {
             "name_en": "Raitonfish",
             "name_fr": "Poisson Raiton",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.16",
-            "bait": "FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
         },
         "x84": {
             "name_en": "Eastern Pike",
             "name_fr": "Brochet oriental",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.13",
-            "bait": "FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
         },
         "x85": {
             "name_en": "Rock Saltfish",
             "name_fr": "Poisson salé des rochers",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.14",
-            "bait": "FISH.BAIT.SILKWORM"
+            "bait": "@FISH.BAIT.SILKWORM"
         },
         "x86": {
             "name_en": "Tawny Wench Shark",
             "name_fr": "Requin courtisane",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.2",
             "bait": "logs.gathering.fishing-guide.fishing.page-6.22"
         },
         "x87": {
             "name_en": "Zekki Grouper",
             "name_fr": "Garoupa de Zekki",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.6",
             "bait": "logs.gathering.fishing-guide.fishing.page-6.22"
         },
         "x88": {
             "name_en": "Saltshield Snapper",
             "name_fr": "Trionyx serre-joint",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.14",
-            "bait": "FISH.BAIT.SILKWORM"
+            "bait": "@FISH.BAIT.SILKWORM"
         },
         "x89": {
             "name_en": "Meditator",
             "name_fr": "Contemplateur",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.12",
-            "bait": "FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
         },
         "x90": {
             "name_en": "Stonytongue",
             "name_fr": "Arowana pierreux",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.11",
-            "bait": "FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
         },
         "x91": {
             "name_en": "Scimitarfish",
             "name_fr": "Poisson-cimeterre",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.13",
-            "bait": "FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
         },
         "x92": {
             "name_en": "Blockhead",
             "name_fr": "Tête-de-mule",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.1",
             "bait": "logs.gathering.fishing-guide.fishing.page-6.22"
         },
         "x93": {
             "name_en": "Kotsu Zetsu",
             "name_fr": "Kotsu zetsu",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.10",
-            "bait": "FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
         },
         "x94": {
             "name_en": "Pandamoth",
             "name_fr": "Pandamoth",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.12",
-            "bait": "FISH.BAIT.SUSPENDING_MINNOW"
+            "bait": "@FISH.BAIT.SUSPENDING_MINNOW"
         },
         "x95": {
             "name_en": "Liopleurodon",
             "name_fr": "Liopleurodon de mer",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.1",
             "bait": "logs.gathering.fishing-guide.fishing.page-6.22"
         },
         "x96": {
             "name_en": "Ala Mhigan Ribbon",
             "name_fr": "Poisson-ruban mhigois",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.13",
-            "bait": "FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA"
         },
         "x97": {
             "name_en": "Seraphim",
             "name_fr": "Séraphin",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.11",
-            "bait": "FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA"
         },
         "x98": {
             "name_en": "Blackfin Snake Eel",
             "name_fr": "Anguille-serpent noire",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.4",
-            "bait": "FISH.BAIT.BLUE_BOBBIT"
+            "bait": "@FISH.BAIT.BLUE_BOBBIT"
         },
         "x99": {
             "name_en": "Sweatfish",
             "name_fr": "Poisson-suée",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.fishing.othard.20",
-            "bait": "FISH.BAIT.STONEFLY_LARVA"
+            "bait": "@FISH.BAIT.STONEFLY_LARVA"
         }
     }
 }

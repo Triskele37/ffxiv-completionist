@@ -13,7 +13,6 @@
             "header_fr": "Nécessite"
         }
     },
-    "common": ["requirement"],
     "tasks": {
         "x0": {
             "name_en": "Island Palm Leaf",
@@ -236,32 +235,32 @@
         "x27": {
             "name_en": "Island Alyssum",
             "name_fr": "Alysson insulaire",
-            "requirement": "ISLAND.EXPEDITION.MEADOWS"
+            "requirement": "@ISLAND.EXPEDITION.MEADOWS"
         },
         "x28": {
             "name_en": "Island Raw Garnet",
             "name_fr": "Grenat brut insulaire",
-            "requirement": "ISLAND.EXPEDITION.FALLS"
+            "requirement": "@ISLAND.EXPEDITION.FALLS"
         },
         "x29": {
             "name_en": "Island Spruce Log",
             "name_fr": "Rondin d'épicéa insulaire",
-            "requirement": "ISLAND.EXPEDITION.WOODS"
+            "requirement": "@ISLAND.EXPEDITION.WOODS"
         },
         "x30": {
             "name_en": "Island Hammerhead",
             "name_fr": "Requin-marteau insulaire",
-            "requirement": "ISLAND.EXPEDITION.BEACHES"
+            "requirement": "@ISLAND.EXPEDITION.BEACHES"
         },
         "x31": {
             "name_en": "Island Silver Ore",
             "name_fr": "Minerai d'argent insulaire",
-            "requirement": "ISLAND.EXPEDITION.MOUNTAINS"
+            "requirement": "@ISLAND.EXPEDITION.MOUNTAINS"
         },
         "x49": {
             "name_en": "Island Cave Shrimp",
             "name_fr": "Crevette insulaire à grandes pinces",
-            "requirement": "ISLAND.EXPEDITION.CAVERNS"
+            "requirement": "@ISLAND.EXPEDITION.CAVERNS"
         }
     }
 }

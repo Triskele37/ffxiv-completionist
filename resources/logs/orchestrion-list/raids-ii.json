@@ -2,13 +2,12 @@
     "key": "raids-ii",
     "groupName_en": "Raids II",
     "groupName_fr": "Raids II",
-    "common": ["category", "location", "source"],
     "tasks": {
         "x350": {
             "number": "1",
             "name_en": "Significance (Nothing)",
             "name_fr": "Significance (Nothing)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69254",
             "patch": "5.1"
         },
@@ -16,7 +15,7 @@
             "number": "2",
             "name_en": "City Ruins (Rays of Light)",
             "name_fr": "City Ruins (Rays of Light)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.700",
             "patch": "5.1"
         },
@@ -24,7 +23,7 @@
             "number": "3",
             "name_en": "Voice of no Return (Guitar)",
             "name_fr": "Voice of no Return (Guitar)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": ["q.69257", "q.69256"],
             "patch": "5.1"
         },
@@ -32,7 +31,7 @@
             "number": "4",
             "name_en": "Alien Manifestation",
             "name_fr": "Alien Manifestation",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.700",
             "patch": "5.1"
         },
@@ -40,7 +39,7 @@
             "number": "5",
             "name_en": "Song of the Ancients (Atonement)",
             "name_fr": "Song of the Ancients (Atonement)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.700",
             "patch": "5.1"
         },
@@ -48,7 +47,7 @@
             "number": "6",
             "name_en": "Bipolar Nightmare",
             "name_fr": "Bipolar Nightmare",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.700",
             "patch": "5.1"
         },
@@ -56,7 +55,7 @@
             "number": "7",
             "name_en": "Weight of the World (Prelude Version)",
             "name_fr": "Weight of the World (Prelude Version)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.700",
             "patch": "5.1"
         },
@@ -64,7 +63,7 @@
             "number": "8",
             "name_en": "Crumbling Lies (Front)",
             "name_fr": "Crumbling Lies (Front)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69321",
             "patch": "5.2"
         },
@@ -72,7 +71,7 @@
             "number": "9",
             "name_en": "Blue Fields (Shadowbringers)",
             "name_fr": "Blue Fields (Shadowbringers)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69329",
             "patch": "5.2"
         },
@@ -80,7 +79,7 @@
             "number": "10",
             "name_en": "Force Your Way (Shadowbringers)",
             "name_fr": "Force Your Way (Shadowbringers)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": ["d.653", "d.684"],
             "patch": "5.01"
         },
@@ -88,7 +87,7 @@
             "number": "11",
             "name_en": "Blinding Indigo",
             "name_fr": "Blinding Indigo",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.682",
             "patch": "5.01"
         },
@@ -96,7 +95,7 @@
             "number": "12",
             "name_en": "Landslide",
             "name_fr": "Landslide",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.689",
             "patch": "5.01"
         },
@@ -104,7 +103,7 @@
             "number": "13",
             "name_en": "Twice Stricken",
             "name_fr": "Twice Stricken",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.715",
             "patch": "5.2"
         },
@@ -112,7 +111,7 @@
             "number": "14",
             "name_en": "Primal Angel",
             "name_fr": "Primal Angel",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.719",
             "patch": "5.2"
         },
@@ -120,7 +119,7 @@
             "number": "15",
             "name_en": "Return to Oblivion",
             "name_fr": "Return to Oblivion",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.728",
             "patch": "5.2"
         },
@@ -128,7 +127,7 @@
             "number": "16",
             "name_en": "Broken Heart",
             "name_fr": "Broken Heart",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69490",
             "patch": "5.3"
         },
@@ -136,7 +135,7 @@
             "number": "17",
             "name_en": "Amusement Park",
             "name_fr": "Amusement Park",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69488",
             "patch": "5.3"
         },
@@ -144,7 +143,7 @@
             "number": "18",
             "name_en": "Fortress of Lies",
             "name_fr": "Fortress of Lies",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.736",
             "patch": "5.3"
         },
@@ -152,7 +151,7 @@
             "number": "19",
             "name_en": "Grandma (Destruction)",
             "name_fr": "Grandma (Destruction)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.736",
             "patch": "5.3"
         },
@@ -160,7 +159,7 @@
             "number": "20",
             "name_en": "End of the Unknown",
             "name_fr": "End of the Unknown",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.736",
             "patch": "5.3"
         },
@@ -168,7 +167,7 @@
             "number": "21",
             "name_en": "Torn from the Heavens／The Dark Colossus Destroys All (Medley Version)",
             "name_fr": "Torn from the Heavens／The Dark Colossus Destroys All (Medley Version)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.736",
             "patch": "5.3"
         },
@@ -176,7 +175,7 @@
             "number": "22",
             "name_en": "Don't Be Afraid (Shadowbringers)",
             "name_fr": "Don't Be Afraid (Shadowbringers)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.747",
             "patch": "5.4"
         },
@@ -184,7 +183,7 @@
             "number": "23",
             "name_en": "The Legendary Beast (Shadowbringers)",
             "name_fr": "The Legendary Beast (Shadowbringers)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.751",
             "patch": "5.4"
         },
@@ -192,7 +191,7 @@
             "number": "24",
             "name_en": "Promises to Keep",
             "name_fr": "Promises to Keep",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.758",
             "patch": "5.4"
         },
@@ -200,7 +199,7 @@
             "number": "25",
             "name_en": "The Extreme (Shadowbringers)",
             "name_fr": "The Extreme (Shadowbringers)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.759",
             "patch": "5.4"
         },
@@ -208,7 +207,7 @@
             "number": "26",
             "name_en": "Mourning",
             "name_fr": "Mourning",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.779",
             "patch": "5.5"
         },
@@ -216,7 +215,7 @@
             "number": "27",
             "name_en": "Emil (Despair)",
             "name_fr": "Emil (Despair)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.779",
             "patch": "5.5"
         },
@@ -224,7 +223,7 @@
             "number": "28",
             "name_en": "The Sound of the End",
             "name_fr": "The Sound of the End",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.779",
             "patch": "5.5"
         },
@@ -232,7 +231,7 @@
             "number": "29",
             "name_en": "The Sound of the End: 8bit",
             "name_fr": "The Sound of the End: 8bit",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.779",
             "patch": "5.5"
         },
@@ -240,7 +239,7 @@
             "number": "30",
             "name_en": "Kainé (Final Fantasy Main Theme Version)",
             "name_fr": "Kainé (Final Fantasy Main Theme Version)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.779",
             "patch": "5.5"
         },
@@ -248,7 +247,7 @@
             "number": "31",
             "name_en": "Voice of no Return (Normal)",
             "name_fr": "Voice of no Return (Normal)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69570",
             "patch": "5.5"
         },
@@ -256,7 +255,7 @@
             "number": "32",
             "name_en": "The Color of Depression",
             "name_fr": "The Color of Depression",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69570",
             "patch": "5.5"
         },
@@ -264,7 +263,7 @@
             "number": "33",
             "name_en": "Widespread Illness",
             "name_fr": "Widespread Illness",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69571",
             "patch": "5.5"
         },
@@ -272,7 +271,7 @@
             "number": "34",
             "name_en": "Possessed by Disease",
             "name_fr": "Possessed by Disease",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69571",
             "patch": "5.5"
         },
@@ -280,7 +279,7 @@
             "number": "35",
             "name_en": "Faltering Prayer (Dawn Breeze)",
             "name_fr": "Faltering Prayer (Dawn Breeze)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69571",
             "patch": "5.5"
         },
@@ -288,7 +287,7 @@
             "number": "36",
             "name_en": "Weight of the World (Instrumental)",
             "name_fr": "Weight of the World (Instrumental)",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.69589",
             "patch": "5.55"
         },
@@ -296,7 +295,7 @@
             "number": "37",
             "name_en": "Ancient Shackles",
             "name_fr": "Ancient Shackles",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.806",
             "patch": "6.01"
         },
@@ -304,7 +303,7 @@
             "number": "38",
             "name_en": "Hic Svnt Leones",
             "name_fr": "Hic Svnt Leones",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.800",
             "patch": "6.01"
         },
@@ -312,7 +311,7 @@
             "number": "39",
             "name_en": "Pilgrimage",
             "name_fr": "Pilgrimage",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.866",
             "patch": "6.1"
         },
@@ -320,7 +319,7 @@
             "number": "40",
             "name_en": "Radiance",
             "name_fr": "Radiance",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.866",
             "patch": "6.1"
         },
@@ -328,7 +327,7 @@
             "number": "41",
             "name_en": "In the Balance",
             "name_fr": "In the Balance",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.866",
             "patch": "6.1"
         },
@@ -336,7 +335,7 @@
             "number": "42",
             "name_en": "Silent Scream",
             "name_fr": "Silent Scream",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.872",
             "patch": "6.2"
         },
@@ -344,7 +343,7 @@
             "number": "43",
             "name_en": "Scream",
             "name_fr": "Scream",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": ["d.880", "d.876"],
             "patch": "6.2"
         },
@@ -352,7 +351,7 @@
             "number": "44",
             "name_en": "Embers",
             "name_fr": "Embers",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.883",
             "patch": "6.2"
         },
@@ -360,7 +359,7 @@
             "number": "45",
             "name_en": "White Stone Black",
             "name_fr": "White Stone Black",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.884",
             "patch": "6.2"
         },
@@ -368,7 +367,7 @@
             "number": "46",
             "name_en": "Favor",
             "name_fr": "Favor",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.911",
             "patch": "6.3"
         },
@@ -376,7 +375,7 @@
             "number": "47",
             "name_en": "Rhythm of the Realm",
             "name_fr": "Rhythm of the Realm",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.911",
             "patch": "6.3"
         },
@@ -384,7 +383,7 @@
             "number": "48",
             "name_en": "Dedicated to Moonlight",
             "name_fr": "Dedicated to Moonlight",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.911",
             "patch": "6.3"
         },
@@ -392,7 +391,7 @@
             "number": "49",
             "name_en": "One Amongst the Weary",
             "name_fr": "One Amongst the Weary",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": ["d.936", "d.938"],
             "patch": "6.4"
         },
@@ -400,7 +399,7 @@
             "number": "50",
             "name_en": "Fleeting Moment",
             "name_fr": "Fleeting Moment",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.940",
             "patch": "6.4"
         },
@@ -408,7 +407,7 @@
             "number": "51",
             "name_en": "Athena, the Tireless One",
             "name_fr": "Athena, the Tireless One",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.942",
             "patch": "6.4"
         },
@@ -416,7 +415,7 @@
             "number": "52",
             "name_en": "Ultima's Perfection (Endwalker)",
             "name_fr": "Ultima's Perfection (Endwalker)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.943",
             "patch": "6.4"
         },
@@ -424,7 +423,7 @@
             "number": "53",
             "name_en": "One among Wonders",
             "name_fr": "One among Wonders",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.70328",
             "patch": "6.5"
         },
@@ -432,7 +431,7 @@
             "number": "54",
             "name_en": "Fair Winds to Guide",
             "name_fr": "Fair Winds to Guide",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.962",
             "patch": "6.5"
         },
@@ -440,7 +439,7 @@
             "number": "55",
             "name_en": "Course Uncharted",
             "name_fr": "Course Uncharted",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.962",
             "patch": "6.5"
         },
@@ -448,7 +447,7 @@
             "number": "56",
             "name_en": "Myths of the Realm",
             "name_fr": "Myths of the Realm",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.962",
             "patch": "6.5"
         }

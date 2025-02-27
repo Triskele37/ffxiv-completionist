@@ -9,7 +9,7 @@
             "name_fr": "Au revoir les poissons",
             "location": "(27, 32)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x726": {
             "level": 54,
@@ -17,7 +17,7 @@
             "name_fr": "Noix farceuses",
             "location": "(30, 27)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x727": {
             "level": 54,
@@ -25,7 +25,7 @@
             "name_fr": "Défi: c'est complètement Glycon",
             "location": "(32, 25)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x728": {
             "level": 55,
@@ -33,7 +33,7 @@
             "name_fr": "Pile ou face mog",
             "location": "(34, 21)",
             "patch": "3.0",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x731": {
             "level": 54,
@@ -41,7 +41,7 @@
             "name_fr": "Mangeurs de Mogs",
             "location": "(36, 32)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x732": {
             "level": 54,
@@ -49,7 +49,7 @@
             "name_fr": "Équilibre élémentaire",
             "location": "(33, 34)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x735": {
             "level": 54,
@@ -57,7 +57,7 @@
             "name_fr": "Défi: Mog en un seul morceau",
             "location": "(29, 23)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x738": {
             "level": 54,
@@ -65,7 +65,7 @@
             "name_fr": "Défi: Waugyl le belliqueux",
             "location": "(33, 16)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x742": {
             "level": 54,
@@ -73,7 +73,7 @@
             "name_fr": "Défi: Asah commence à bien faire",
             "location": "(21, 29)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x744": {
             "level": 55,
@@ -81,7 +81,7 @@
             "name_fr": "Défi: marre de Fjalar",
             "location": "(13, 21)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x746": {
             "level": 56,
@@ -89,7 +89,7 @@
             "name_fr": "Wyverne de représailles",
             "location": "(8, 17)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x747": {
             "level": 55,
@@ -97,7 +97,7 @@
             "name_fr": "Défi: la vengeance du Vigile",
             "location": "(20, 17)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x748": {
             "level": 55,
@@ -105,7 +105,7 @@
             "name_fr": "De quoi je me mélias?",
             "location": "(8, 14)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x751": {
             "level": 56,
@@ -113,7 +113,7 @@
             "name_fr": "Défi: Kucedre le maudit",
             "location": "(25, 8)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x752": {
             "level": 54,
@@ -121,7 +121,7 @@
             "name_fr": "Des Mogs au ménage",
             "location": "(14, 31)",
             "patch": "3.0",
-            "type": "FATE_TYPE.ESCORT"
+            "type": "@FATE.TYPE.ESCORT"
         },
         "x753": {
             "level": 54,
@@ -129,7 +129,7 @@
             "name_fr": "Défi: châtiment kupporel",
             "location": "(20, 23)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x754": {
             "level": 55,
@@ -137,7 +137,7 @@
             "name_fr": "Galar en galère",
             "location": "(12, 26)",
             "patch": "3.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x755": {
             "level": 54,
@@ -145,7 +145,7 @@
             "name_fr": "Défi: mogvais garçon",
             "location": "(17, 31)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x872": {
             "level": 54,
@@ -153,7 +153,7 @@
             "name_fr": "Garde de bébé dragon",
             "location": "(13, 24)",
             "patch": "3.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x873": {
             "level": 55,
@@ -161,7 +161,7 @@
             "name_fr": "Sus aux sous-fifres!",
             "location": "(14, 13)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x874": {
             "level": 54,
@@ -169,7 +169,7 @@
             "name_fr": "Défi: touche pas mes Mogs",
             "location": "(22, 21)",
             "patch": "3.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x736": {
             "level": 54,
@@ -177,7 +177,7 @@
             "name_fr": "Tulihänds à tuer",
             "location": "(27, 20)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x737": {
             "level": 54,
@@ -186,7 +186,7 @@
             "location": "(25, 19)",
             "patch": "3.0",
             "previousFate": "f.736",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x740": {
             "level": 54,
@@ -194,7 +194,7 @@
             "name_fr": "Danse avec les dragons",
             "location": "(17, 32)",
             "patch": "3.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x741": {
             "level": 54,
@@ -203,7 +203,7 @@
             "location": "(17, 32)",
             "patch": "3.0",
             "previousFate": "f.740",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x868": {
             "level": 55,
@@ -211,7 +211,7 @@
             "name_fr": "Défi: sus à Sombrécaille",
             "location": "(18, 12)",
             "patch": "3.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x869": {
             "level": 55,
@@ -220,7 +220,7 @@
             "location": "(18, 12)",
             "patch": "3.0",
             "previousFate": "f.868",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x870": {
             "level": 55,
@@ -229,7 +229,7 @@
             "location": "(18, 9)",
             "patch": "3.0",
             "previousFate": "f.869",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x871": {
             "level": 56,
@@ -238,7 +238,7 @@
             "location": "(11, 36)",
             "patch": "3.0",
             "previousFate": "f.870",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }
 }

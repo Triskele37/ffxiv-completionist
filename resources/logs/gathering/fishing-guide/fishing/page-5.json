@@ -2,707 +2,706 @@
     "key": "page-5",
     "groupName_en": "Page 5",
     "groupName_fr": "Page 5",
-    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
             "name_en": "Oil Eel",
             "name_fr": "Anguille huileuse",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.11",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.61"
         },
         "x1": {
             "name_en": "Jeweled Jellyfish",
             "name_fr": "Méduse joaillière",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.11",
-            "bait": "FISH.BAIT.FIEND_WORM"
+            "bait": "@FISH.BAIT.FIEND_WORM"
         },
         "x2": {
             "name_en": "Battle Galley",
             "name_fr": "Grondin-galère",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.15",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.1"
         },
         "x3": {
             "name_en": "Yalm Lobster",
             "name_fr": "Homard-yalm",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.10",
-            "bait": "FISH.BAIT.BLADED_STEEL_JIG"
+            "bait": "@FISH.BAIT.BLADED_STEEL_JIG"
         },
         "x4": {
             "name_en": "Hinterlands Perch",
             "name_fr": "Perche dravanienne",
-            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_HINTERLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.8",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x5": {
             "name_en": "Oven Catfish",
             "name_fr": "Silure volcanique",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.4",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.39"
         },
         "x6": {
             "name_en": "Pteranodon",
             "name_fr": "Ptéranodon",
-            "zone": "ZONE.THE_CHURNING_MISTS",
+            "zone": "@ZONE.THE_CHURNING_MISTS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.16",
-            "bait": "FISH.BAIT.GIANT_CRANE_FLY"
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY"
         },
         "x7": {
             "name_en": "Winged Gurnard",
             "name_fr": "Grondin volant",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.3",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.38"
         },
         "x8": {
             "name_en": "Spring Urchin",
             "name_fr": "Oursin thermal",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.13",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x9": {
             "name_en": "Cherry Trout",
             "name_fr": "Truite cerise",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.13",
-            "bait": "FISH.BAIT.BLADED_STEEL_JIG"
+            "bait": "@FISH.BAIT.BLADED_STEEL_JIG"
         },
         "x10": {
             "name_en": "Stupendemys",
             "name_fr": "Archelon aérien",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.10",
-            "bait": "FISH.BAIT.GIANT_CRANE_FLY"
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY"
         },
         "x11": {
             "name_en": "Black Magefish",
             "name_fr": "Poisson mage noir",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.5",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.39"
         },
         "x12": {
             "name_en": "Barreleye",
             "name_fr": "Poisson-jumelles",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.11",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.61"
         },
         "x13": {
             "name_en": "Thunderbolt Eel",
             "name_fr": "Anguille foudroyante",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.3",
-            "bait": "FISH.BAIT.BLADED_STEEL_JIG"
+            "bait": "@FISH.BAIT.BLADED_STEEL_JIG"
         },
         "x14": {
             "name_en": "Catkiller",
             "name_fr": "Mange-gaélichats",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.1",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.15"
         },
         "x15": {
             "name_en": "Loosetongue",
             "name_fr": "Arowana penseur",
-            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_HINTERLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.10",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x16": {
             "name_en": "Thaliak Caiman",
             "name_fr": "Caïman de Thaliak",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.11",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.15"
         },
         "x17": {
             "name_en": "Lavalord",
             "name_fr": "Seigneur du magma",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.7",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.39"
         },
         "x18": {
             "name_en": "Tupuxuara",
             "name_fr": "Tupuxuara",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.10",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.90"
         },
         "x19": {
             "name_en": "Vampiric Tapestry",
             "name_fr": "Voile-vampire",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.4",
-            "bait": "FISH.BAIT.GIANT_CRANE_FLY"
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY"
         },
         "x20": {
             "name_en": "Storm Chaser",
             "name_fr": "Grondin-orage",
-            "zone": "ZONE.THE_CHURNING_MISTS",
+            "zone": "@ZONE.THE_CHURNING_MISTS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.17",
-            "bait": "FISH.BAIT.GIANT_CRANE_FLY"
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY"
         },
         "x21": {
             "name_en": "Berserker Betta",
             "name_fr": "Betta berserk",
-            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_HINTERLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.11",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x22": {
             "name_en": "Capelin",
             "name_fr": "Capelan",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.12",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x23": {
             "name_en": "Functional Proto-Hropken",
             "name_fr": "Protohropken fonctionnel",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.11",
-            "bait": "FISH.BAIT.FIEND_WORM"
+            "bait": "@FISH.BAIT.FIEND_WORM"
         },
         "x24": {
             "name_en": "Coerthan Clione",
             "name_fr": "Clione du Coerthas",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.11",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.1"
         },
         "x25": {
             "name_en": "Dravanian Smelt",
             "name_fr": "Éperlan dravanien",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.0",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x26": {
             "name_en": "Heavens Coral",
             "name_fr": "Corail des cieux",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.4",
-            "bait": "FISH.BAIT.GIANT_CRANE_FLY"
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY"
         },
         "x27": {
             "name_en": "Sunsail",
             "name_fr": "Voilier du couchant",
-            "zone": "ZONE.THE_CHURNING_MISTS",
+            "zone": "@ZONE.THE_CHURNING_MISTS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.15",
-            "bait": "FISH.BAIT.GIANT_CRANE_FLY"
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY"
         },
         "x28": {
             "name_en": "Goblin Bass",
             "name_fr": "Bar gobelin",
-            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_HINTERLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.11",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.65"
         },
         "x29": {
             "name_en": "Lava Snail",
             "name_fr": "Escargot lavique",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.7",
-            "bait": "FISH.BAIT.MAGMA_WORM"
+            "bait": "@FISH.BAIT.MAGMA_WORM"
         },
         "x30": {
             "name_en": "Amber Salamander",
             "name_fr": "Salamandre ambrée",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.3",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x31": {
             "name_en": "Gnomefish",
             "name_fr": "Poisson gnome",
-            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_HINTERLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.9",
-            "bait": "FISH.BAIT.PURSE_WEB_SPIDER"
+            "bait": "@FISH.BAIT.PURSE_WEB_SPIDER"
         },
         "x32": {
             "name_en": "Fleece Stingray",
             "name_fr": "Raie des nuages",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.2",
-            "bait": "FISH.BAIT.GIANT_CRANE_FLY"
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY"
         },
         "x33": {
             "name_en": "Nyctosaur",
             "name_fr": "Nyctosaure",
-            "zone": "ZONE.THE_CHURNING_MISTS",
+            "zone": "@ZONE.THE_CHURNING_MISTS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.17",
-            "bait": "FISH.BAIT.GIANT_CRANE_FLY"
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY"
         },
         "x34": {
             "name_en": "Priestfish",
             "name_fr": "Poisson flambeau",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.12",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x35": {
             "name_en": "Coerthan Oyster",
             "name_fr": "Huître du Coerthas",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.16",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x36": {
             "name_en": "Oliphant's Trunk",
             "name_fr": "Trompe d'olifant",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.7",
-            "bait": "FISH.BAIT.FIEND_WORM"
+            "bait": "@FISH.BAIT.FIEND_WORM"
         },
         "x37": {
             "name_en": "Mountain Kraken",
             "name_fr": "Kraken des montagnes",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.14",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x38": {
             "name_en": "Armored Catfish",
             "name_fr": "Poisson-chat cuirassé",
-            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_HINTERLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.10",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x39": {
             "name_en": "Magic Bucket",
             "name_fr": "Seau d'eau magique",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.14",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x40": {
             "name_en": "Fat Purse",
             "name_fr": "Grosse-Bourse",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.9",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x41": {
             "name_en": "The Impaler",
             "name_fr": "Zigouille-yéti",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.13",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x42": {
             "name_en": "La Reale",
             "name_fr": "La Réale",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.15",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x43": {
             "name_en": "Scaleripper",
             "name_fr": "Arrachécaille",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.0",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x44": {
             "name_en": "The Dreamweaver",
             "name_fr": "Tisseur-des-rêves",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.2",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x45": {
             "name_en": "Meteortoise",
             "name_fr": "Tortue météore",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.4",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.39"
         },
         "x46": {
             "name_en": "The Ewer King",
             "name_fr": "Porte-Aiguière",
-            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_HINTERLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.8",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.65"
         },
         "x47": {
             "name_en": "Vidofnir",
             "name_fr": "Vidofnir",
-            "zone": "ZONE.THE_CHURNING_MISTS",
+            "zone": "@ZONE.THE_CHURNING_MISTS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.12",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x48": {
             "name_en": "The Soul of the Martyr",
             "name_fr": "Âme-de-Ratatosk",
-            "zone": "ZONE.THE_CHURNING_MISTS",
+            "zone": "@ZONE.THE_CHURNING_MISTS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.15",
-            "bait": "FISH.BAIT.GIANT_CRANE_FLY"
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY"
         },
         "x49": {
             "name_en": "Inkfish",
             "name_fr": "Poisson-encre",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.0",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x50": {
             "name_en": "The Second One",
             "name_fr": "Tornade Blanche",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.3",
-            "bait": "FISH.BAIT.GIANT_CRANE_FLY"
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY"
         },
         "x51": {
             "name_en": "Augmented High Allagan Helmet",
             "name_fr": "Limule haut-alageoise améliorée",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.5",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.61"
         },
         "x52": {
             "name_en": "Aphotic Pirarucu",
             "name_fr": "Piracucu aphotique",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.8",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.62"
         },
         "x53": {
             "name_en": "Hailfinder",
             "name_fr": "Gobe grêle",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.10",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.9"
         },
         "x54": {
             "name_en": "Flarefish",
             "name_fr": "Poisson ardent",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.11",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.1"
         },
         "x55": {
             "name_en": "Twin-Tongued Carp",
             "name_fr": "Carpe à langue fourchue",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.1",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x56": {
             "name_en": "Madam Butterfly",
             "name_fr": "Madame-papillon",
-            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_HINTERLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.9",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.42"
         },
         "x57": {
             "name_en": "Moggle Mogpom",
             "name_fr": "Marimogglog",
-            "zone": "ZONE.THE_CHURNING_MISTS",
+            "zone": "@ZONE.THE_CHURNING_MISTS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.13",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x58": {
             "name_en": "Cirrostratus",
             "name_fr": "Raie cirrostratus",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.2",
-            "bait": "FISH.BAIT.GIANT_CRANE_FLY"
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY"
         },
         "x59": {
             "name_en": "Hraesvelgr's Tear",
             "name_fr": "Larme de Hraesvelgr",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.5",
-            "bait": "FISH.BAIT.MAGMA_WORM"
+            "bait": "@FISH.BAIT.MAGMA_WORM"
         },
         "x60": {
             "name_en": "Aetherochemical Compound #666",
             "name_fr": "Produit expérimental n°666",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.6",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.61"
         },
         "x61": {
             "name_en": "Hundred-Eyed Axolotl",
             "name_fr": "Axolotl aux cent yeux",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.9",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.62"
         },
         "x62": {
             "name_en": "Bobgoblin Bass",
             "name_fr": "Bar gobelin tout-puissant",
-            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_HINTERLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.11",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.65"
         },
         "x63": {
             "name_en": "Merciless",
             "name_fr": "Prêtresse des neiges",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.16",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.1"
         },
         "x64": {
             "name_en": "Dimorphodon",
             "name_fr": "Dimorphodon",
-            "zone": "ZONE.THE_CHURNING_MISTS",
+            "zone": "@ZONE.THE_CHURNING_MISTS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.16",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.90"
         },
         "x65": {
             "name_en": "Basking Shark",
             "name_fr": "Requin-pèlerin",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.4",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.38"
         },
         "x66": {
             "name_en": "Allagan Bladeshark",
             "name_fr": "Requin-lame allagois",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.11",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.61"
         },
         "x67": {
             "name_en": "Bishopfish",
             "name_fr": "Poisson phare",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.12",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x68": {
             "name_en": "Captain Nemo",
             "name_fr": "Capitaine nemo",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.14",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x69": {
             "name_en": "Paikiller",
             "name_fr": "Mange-païssas",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.1",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.15"
         },
         "x70": {
             "name_en": "Ceti",
             "name_fr": "Séti",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.7",
-            "bait": "FISH.BAIT.FIEND_WORM"
+            "bait": "@FISH.BAIT.FIEND_WORM"
         },
         "x71": {
             "name_en": "Crystal Pigeon",
             "name_fr": "Pigeon de cristal",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.10",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.90"
         },
         "x72": {
             "name_en": "Thunderscale",
             "name_fr": "Foudrécaille",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.3",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.7"
         },
         "x73": {
             "name_en": "Riddle",
             "name_fr": "Énigme",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.6",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.39"
         },
         "x74": {
             "name_en": "The Lord of Lords",
             "name_fr": "Roi du magma",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.7",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.39"
         },
         "x75": {
             "name_en": "The Speaker",
             "name_fr": "Diplomate",
-            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_HINTERLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.10",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.42"
         },
         "x76": {
             "name_en": "Thousand Fin",
             "name_fr": "Ébouriffette",
-            "zone": "ZONE.THE_CHURNING_MISTS",
+            "zone": "@ZONE.THE_CHURNING_MISTS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.14",
-            "bait": "FISH.BAIT.BRUTE_LEECH"
+            "bait": "@FISH.BAIT.BRUTE_LEECH"
         },
         "x77": {
             "name_en": "Bloodchaser",
             "name_fr": "Sang-sillage",
-            "zone": "ZONE.THE_CHURNING_MISTS",
+            "zone": "@ZONE.THE_CHURNING_MISTS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.17",
-            "bait": "FISH.BAIT.GIANT_CRANE_FLY"
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY"
         },
         "x78": {
             "name_en": "Problematicus",
             "name_fr": "Problematicus",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.7",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.39"
         },
         "x79": {
             "name_en": "Opabinia",
             "name_fr": "Opabinia",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.11",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.61"
         },
         "x80": {
             "name_en": "Armor Fish",
             "name_fr": "Poisson cuirassé",
-            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_HINTERLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.10",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.42"
         },
         "x81": {
             "name_en": "Sea Butterfly",
             "name_fr": "Papillon de mer",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.4",
-            "bait": "FISH.BAIT.GIANT_CRANE_FLY"
+            "bait": "@FISH.BAIT.GIANT_CRANE_FLY"
         },
         "x82": {
             "name_en": "Charibenet",
             "name_fr": "Chariberta",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.12",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.1"
         },
         "x83": {
             "name_en": "Raimdellopterus",
             "name_fr": "Raimdellopterus",
-            "zone": "ZONE.THE_CHURNING_MISTS",
+            "zone": "@ZONE.THE_CHURNING_MISTS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.17",
             "bait": "logs.gathering.fishing-guide.fishing.page-4.90"
         },
         "x84": {
             "name_en": "Thavnairian Leaf",
             "name_fr": "Poisson-feuille thavnairois",
-            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_HINTERLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.10",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x85": {
             "name_en": "Ghost Faerie",
             "name_fr": "Fée fantôme",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.coerthas.12",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x86": {
             "name_en": "Red Sky Coral",
             "name_fr": "Corail rouge des cieux",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.abalathias-spine.1",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x87": {
             "name_en": "Lovers' Clam",
             "name_fr": "Palourde de l'amour",
-            "zone": "ZONE.THE_CHURNING_MISTS",
+            "zone": "@ZONE.THE_CHURNING_MISTS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.14",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x88": {
             "name_en": "River Shrimp",
             "name_fr": "Crevette de rivière",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.dravania.0",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x89": {
             "name_en": "Comet Minnow",
             "name_fr": "Vairon comète",
-            "zone": "ZONE.RHALGRS_REACH",
+            "zone": "@ZONE.RHALGRS_REACH",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.2",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x90": {
             "name_en": "Golden Cichlid",
             "name_fr": "Cichlidé doré",
-            "zone": "ZONE.RHALGRS_REACH",
+            "zone": "@ZONE.RHALGRS_REACH",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.1",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x91": {
             "name_en": "Abalathian Bitterling",
             "name_fr": "Bouvière d'Abalathia",
-            "zone": "ZONE.RHALGRS_REACH",
+            "zone": "@ZONE.RHALGRS_REACH",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.0",
-            "bait": "FISH.BAIT.NIGHTCRAWLER"
+            "bait": "@FISH.BAIT.NIGHTCRAWLER"
         },
         "x92": {
             "name_en": "Idle Goby",
             "name_fr": "Gobie fainéant",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.9",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x93": {
             "name_en": "Steelhead Trout",
             "name_fr": "Truite tête d'acier",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.3",
-            "bait": "FISH.BAIT.METAL_SPINNER"
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         },
         "x94": {
             "name_en": "Broken Crab",
             "name_fr": "Crabe brisé",
-            "zone": "ZONE.RHALGRS_REACH",
+            "zone": "@ZONE.RHALGRS_REACH",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.0",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x95": {
             "name_en": "Miounnefish",
             "name_fr": "Poisson-Miounne",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.3",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x96": {
             "name_en": "Temple Carp",
             "name_fr": "Carpe du temple",
-            "zone": "ZONE.RHALGRS_REACH",
+            "zone": "@ZONE.RHALGRS_REACH",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.1",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x97": {
             "name_en": "Balloon Frog",
             "name_fr": "Grenouille-ballon",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.3",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x98": {
             "name_en": "Lantern Marimo",
             "name_fr": "Marimo lanterne",
-            "zone": "ZONE.RHALGRS_REACH",
+            "zone": "@ZONE.RHALGRS_REACH",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.2",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         },
         "x99": {
             "name_en": "Rapids Jumper",
             "name_fr": "Carpe des rapides",
-            "zone": "ZONE.THE_PEAKS",
+            "zone": "@ZONE.THE_PEAKS",
             "fishingHoles": "logs.gathering.fishing-log.fishing.gyr-abania.9",
-            "bait": "FISH.BAIT.SALMON_ROE"
+            "bait": "@FISH.BAIT.SALMON_ROE"
         }
     }
 }

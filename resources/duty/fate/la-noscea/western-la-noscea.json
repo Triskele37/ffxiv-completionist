@@ -9,7 +9,7 @@
             "name_fr": "Livraison de missive",
             "location": "(26, 25)",
             "patch": "2.0",
-            "type": "FATE_TYPE.ESCORT"
+            "type": "@FATE.TYPE.ESCORT"
         },
         "x291": {
             "level": 10,
@@ -17,7 +17,7 @@
             "name_fr": "Sauvagerie animale",
             "location": "(34, 29)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x295": {
             "level": 13,
@@ -25,7 +25,7 @@
             "name_fr": "Défi: le crabe de légende",
             "location": "(30, 29)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x297": {
             "level": 18,
@@ -33,7 +33,7 @@
             "name_fr": "La fin de la contrebande",
             "location": "(28, 24)",
             "patch": "2.0",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x298": {
             "level": 17,
@@ -41,7 +41,7 @@
             "name_fr": "De redoutables aquatiques",
             "location": "(24, 23)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x303": {
             "level": 17,
@@ -49,7 +49,7 @@
             "name_fr": "Lettres du front",
             "location": "(24, 24)",
             "patch": "2.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x304": {
             "level": 12,
@@ -57,7 +57,7 @@
             "name_fr": "Destruction de nids",
             "location": "(33, 29)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x306": {
             "level": 10,
@@ -65,7 +65,7 @@
             "name_fr": "Défi: soupe de Barometz",
             "location": "(36, 28)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x308": {
             "level": 15,
@@ -73,7 +73,7 @@
             "name_fr": "Barrage de Gobelins",
             "location": "(27, 24)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x309": {
             "level": 18,
@@ -81,7 +81,7 @@
             "name_fr": "Défi: l'adieu au mercenaire",
             "location": "(26, 22)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x310": {
             "level": 15,
@@ -89,7 +89,7 @@
             "name_fr": "Expulsion d'aurochs",
             "location": "(29, 25)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x312": {
             "level": 16,
@@ -97,7 +97,7 @@
             "name_fr": "Sac mortel",
             "location": "(22, 23)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x572": {
             "level": 44,
@@ -105,7 +105,7 @@
             "name_fr": "Défi: qui veut la peau du requin ?",
             "location": "(17, 19)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x574": {
             "level": 46,
@@ -113,7 +113,7 @@
             "name_fr": "La tentation du serpent de mer",
             "location": "(17, 16)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x575": {
             "level": 48,
@@ -121,7 +121,7 @@
             "name_fr": "Marquée de votre lame",
             "location": "(14, 17)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x576": {
             "level": 40,
@@ -129,7 +129,7 @@
             "name_fr": "C'est pas l'homme qui prend la mer...",
             "location": "(16, 32)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x577": {
             "level": 40,
@@ -137,7 +137,7 @@
             "name_fr": "Défi: mante à l'eau",
             "location": "(14, 34)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x578": {
             "level": 49,
@@ -145,7 +145,7 @@
             "name_fr": "Défi: le messager des vagues",
             "location": "(11, 13)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x650": {
             "level": 12,
@@ -153,7 +153,7 @@
             "name_fr": "Défi: volatile carnivore",
             "location": "(32, 28)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x568": {
             "level": 44,
@@ -161,7 +161,7 @@
             "name_fr": "Reconnaissance au barrage du nord",
             "location": "(20, 19)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x569": {
             "level": 44,
@@ -170,7 +170,7 @@
             "location": "(21, 19)",
             "patch": "2.1",
             "previousFate": "f.568",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x570": {
             "level": 45,
@@ -178,7 +178,7 @@
             "name_fr": "Reconnaissance au barrage du sud",
             "location": "(18, 21)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x571": {
             "level": 45,
@@ -187,7 +187,7 @@
             "location": "(18, 22)",
             "patch": "2.1",
             "previousFate": "f.570",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }
 }

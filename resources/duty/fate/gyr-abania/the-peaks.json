@@ -9,7 +9,7 @@
             "name_fr": "Qu'il est long, le chemin du retour",
             "location": "(15.3, 7.7)",
             "patch": "4.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x1177": {
             "level": 60,
@@ -17,7 +17,7 @@
             "name_fr": "Repas à la ferme",
             "location": "(19.7, 13.6)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1178": {
             "level": 60,
@@ -25,7 +25,7 @@
             "name_fr": "Défi: le cauchemar des paysans",
             "location": "(7.3, 13.7)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1179": {
             "level": 60,
@@ -33,7 +33,7 @@
             "name_fr": "Pic de pollution",
             "location": "(21.4, 6.7)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1180": {
             "level": 60,
@@ -41,7 +41,7 @@
             "name_fr": "Tenir tête au fléau",
             "location": "(17.8, 11.4)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1181": {
             "level": 61,
@@ -49,7 +49,7 @@
             "name_fr": "Défi: le bûcheron silencieux",
             "location": "(27.2, 15.1)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1182": {
             "level": 60,
@@ -57,7 +57,7 @@
             "name_fr": "Défi: Etain, la reine des fluturinis",
             "location": "(13.8, 7.8)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1184": {
             "level": 60,
@@ -65,7 +65,7 @@
             "name_fr": "Rats dégriffés",
             "location": "(18.8, 15.4)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1185": {
             "level": 61,
@@ -73,7 +73,7 @@
             "name_fr": "Défi: le Barbier diabolique",
             "location": "(23.3, 9.2)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1186": {
             "level": 68,
@@ -81,7 +81,7 @@
             "name_fr": "Empennage de qualité",
             "location": "(25.7, 28.0)",
             "patch": "4.0",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x1187": {
             "level": 60,
@@ -89,7 +89,7 @@
             "name_fr": "Éclosion lépidoptère",
             "location": "(11.1, 6.7)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1188": {
             "level": 61,
@@ -97,7 +97,7 @@
             "name_fr": "Défi: quitte ou double",
             "location": "(34.7, 8.7)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1189": {
             "level": 61,
@@ -105,7 +105,7 @@
             "name_fr": "Un appétit d'ogre",
             "location": "(24.8, 13.6)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1190": {
             "level": 68,
@@ -113,7 +113,7 @@
             "name_fr": "La hantise des Hyurgoths",
             "location": "(16.6, 28.6)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1191": {
             "level": 68,
@@ -121,7 +121,7 @@
             "name_fr": "Défi: l'immonde chien féroce",
             "location": "(13.0, 30.1)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1193": {
             "level": 68,
@@ -129,7 +129,7 @@
             "name_fr": "L'appel de l'aventure",
             "location": "(13.6, 36.2)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1195": {
             "level": 68,
@@ -137,7 +137,7 @@
             "name_fr": "Prière exaucée",
             "location": "(24.4, 34.5)",
             "patch": "4.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x1196": {
             "level": 68,
@@ -145,7 +145,7 @@
             "name_fr": "Oiseau de proie",
             "location": "(14.8, 25.1)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1197": {
             "level": 60,
@@ -153,7 +153,7 @@
             "name_fr": "Défi: autant en emporte le Ventus",
             "location": "(21.5, 15.0)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1198": {
             "level": 68,
@@ -161,7 +161,7 @@
             "name_fr": "Défi: casse-cou s'abstenir",
             "location": "(26.6, 25.2)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1199": {
             "level": 60,
@@ -169,7 +169,7 @@
             "name_fr": "Tourbillon de poussière",
             "location": "(10.5, 14.6)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1200": {
             "level": 60,
@@ -177,7 +177,7 @@
             "name_fr": "Défi: le pyromane des Pics",
             "location": "(15.7, 10.8)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1201": {
             "level": 60,
@@ -185,7 +185,7 @@
             "name_fr": "Abnégation héroïque",
             "location": "(9.5, 9.8)",
             "patch": "4.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x1202": {
             "level": 68,
@@ -193,7 +193,7 @@
             "name_fr": "Défi: le veuf vengeur",
             "location": "(23.1, 28.7)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1203": {
             "level": 60,
@@ -201,7 +201,7 @@
             "name_fr": "Le don du repos éternel",
             "location": "(21.6, 9.1)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1204": {
             "level": 68,
@@ -209,7 +209,7 @@
             "name_fr": "Défi: métamorphose en suspens",
             "location": "(28.4, 31.2)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1207": {
             "level": 68,
@@ -217,7 +217,7 @@
             "name_fr": "Défi: alarme fatale",
             "location": "(14.3, 25.8)",
             "patch": "4.0",
-            "type": "FATE_TYPE.CHASE"
+            "type": "@FATE.TYPE.CHASE"
         },
         "x1173": {
             "level": 60,
@@ -225,7 +225,7 @@
             "name_fr": "Le Qiqirn végétarien",
             "location": "(11.9, 11.2)",
             "patch": "4.0",
-            "type": "FATE_TYPE.ESCORT"
+            "type": "@FATE.TYPE.ESCORT"
         },
         "x1174": {
             "level": 60,
@@ -234,7 +234,7 @@
             "location": "(13.0, 15.0)",
             "patch": "4.0",
             "previousFate": "f.1173",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1175": {
             "level": 60,
@@ -243,7 +243,7 @@
             "location": "(13.0, 15.0)",
             "patch": "4.0",
             "previousFate": "f.1174",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1205": {
             "level": 68,
@@ -251,7 +251,7 @@
             "name_fr": "Guerrière de la tribu des J",
             "location": "(18.4, 34.6)",
             "patch": "4.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x1194": {
             "level": 68,
@@ -260,7 +260,7 @@
             "location": "(15.5, 30.5)",
             "patch": "4.0",
             "previousFate": "f.1205",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }
 }

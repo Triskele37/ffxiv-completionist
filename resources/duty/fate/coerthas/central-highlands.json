@@ -9,7 +9,7 @@
             "name_fr": "Un loup pour l'homme",
             "location": "(23, 28)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x463": {
             "level": 36,
@@ -17,7 +17,7 @@
             "name_fr": "Défi: tondre le mouton noir",
             "location": "(27, 23)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x464": {
             "level": 35,
@@ -25,7 +25,7 @@
             "name_fr": "Défi: cric, crac, croc!",
             "location": "(24, 23)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x465": {
             "level": 36,
@@ -33,7 +33,7 @@
             "name_fr": "Conte d'hiver",
             "location": "(25, 19)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x466": {
             "level": 35,
@@ -41,7 +41,7 @@
             "name_fr": "Prier sa bonne étoile",
             "location": "(26, 27)",
             "patch": "2.1",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x467": {
             "level": 36,
@@ -49,7 +49,7 @@
             "name_fr": "Imbroglio avec crocos",
             "location": "(25, 21)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x469": {
             "level": 38,
@@ -57,7 +57,7 @@
             "name_fr": "Dans la gueule du piège",
             "location": "(27, 11)",
             "patch": "2.1",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x470": {
             "level": 38,
@@ -65,7 +65,7 @@
             "name_fr": "Pillards à corne rouge",
             "location": "(24, 13)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x472": {
             "level": 38,
@@ -73,7 +73,7 @@
             "name_fr": "La source des ennuis",
             "location": "(31, 7)",
             "patch": "2.1",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x473": {
             "level": 37,
@@ -81,7 +81,7 @@
             "name_fr": "Le comble de la crevasse",
             "location": "(31, 12)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x474": {
             "level": 37,
@@ -89,7 +89,7 @@
             "name_fr": "Ici sont les dragons",
             "location": "(26, 15)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x475": {
             "level": 39,
@@ -97,7 +97,7 @@
             "name_fr": "Défi: dans la gamelle de Gargamelle",
             "location": "(34, 14)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x479": {
             "level": 39,
@@ -105,7 +105,7 @@
             "name_fr": "Défi: glacial et mortel",
             "location": "(15, 20)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x480": {
             "level": 40,
@@ -113,7 +113,7 @@
             "name_fr": "Défi: le dernier jour de Seps",
             "location": "(8, 11)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x482": {
             "level": 40,
@@ -121,7 +121,7 @@
             "name_fr": "Savoir asséner la bonne réponse",
             "location": "(9, 19)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x483": {
             "level": 39,
@@ -129,7 +129,7 @@
             "name_fr": "Le dernier rempart du jugement",
             "location": "(18, 17)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x484": {
             "level": 45,
@@ -137,7 +137,7 @@
             "name_fr": "Défi: périlleuse pérégrination",
             "location": "(13, 23)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x486": {
             "level": 45,
@@ -145,7 +145,7 @@
             "name_fr": "Un giga problème",
             "location": "(10, 28)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x487": {
             "level": 47,
@@ -153,7 +153,7 @@
             "name_fr": "Durendaire dur à cuire",
             "location": "(19, 30)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x489": {
             "level": 47,
@@ -161,7 +161,7 @@
             "name_fr": "Ce qui vient du néant doit y repartir",
             "location": "(9, 27)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x490": {
             "level": 46,
@@ -169,7 +169,7 @@
             "name_fr": "Défi: que ferait un géant sans son chef?",
             "location": "(12, 25)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x491": {
             "level": 36,
@@ -177,7 +177,7 @@
             "name_fr": "Ce que disent les étoiles",
             "location": "(26, 28)",
             "patch": "2.1",
-            "type": "FATE_TYPE.ESCORT"
+            "type": "@FATE.TYPE.ESCORT"
         },
         "x493": {
             "level": 40,
@@ -185,7 +185,7 @@
             "name_fr": "Défi: se battre Sobek et ongles",
             "location": "(5, 22)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x494": {
             "level": 39,
@@ -193,7 +193,7 @@
             "name_fr": "Défi: volatile pêcheur",
             "location": "(21, 17)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x496": {
             "level": 40,
@@ -201,7 +201,7 @@
             "name_fr": "Qu'ils s'arrêtent à l'Arête",
             "location": "(10, 15)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x497": {
             "level": 40,
@@ -209,7 +209,7 @@
             "name_fr": "Élémentaires à congeler",
             "location": "(13, 18)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x498": {
             "level": 48,
@@ -217,7 +217,7 @@
             "name_fr": "Déforestation sauvage",
             "location": "(33, 21)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x499": {
             "level": 49,
@@ -225,7 +225,7 @@
             "name_fr": "Défi: les quatre sœurs du malheur",
             "location": "(34, 20)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x500": {
             "level": 49,
@@ -233,7 +233,7 @@
             "name_fr": "Défi: le tronçonneur",
             "location": "(33, 23)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x507": {
             "level": 39,
@@ -241,7 +241,7 @@
             "name_fr": "Défi: l'œil de la tête",
             "location": "(15, 19)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x508": {
             "level": 49,
@@ -249,7 +249,7 @@
             "name_fr": "Défi: le prophète du vent",
             "location": "(33, 19)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x501": {
             "level": 38,
@@ -257,7 +257,7 @@
             "name_fr": "Svara s'en est venu: dragon en vue",
             "location": "(26, 15)",
             "patch": "2.1",
-            "type": "FATE_TYPE.ESCORT"
+            "type": "@FATE.TYPE.ESCORT"
         },
         "x502": {
             "level": 38,
@@ -266,7 +266,7 @@
             "location": "(26, 8)",
             "patch": "2.1",
             "previousFate": "f.501",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x503": {
             "level": 38,
@@ -275,7 +275,7 @@
             "location": "(26, 7)",
             "patch": "2.1",
             "previousFate": "f.502",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x504": {
             "level": 38,
@@ -284,7 +284,7 @@
             "location": "(26, 15)",
             "patch": "2.1",
             "previousFate": "f.502",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x505": {
             "level": 50,
@@ -292,7 +292,7 @@
             "name_fr": "Défi: l'ire du béhémoth",
             "location": "(6, 21)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x506": {
             "level": 50,
@@ -301,7 +301,7 @@
             "location": "(4, 15)",
             "patch": "2.1",
             "previousFate": "f.505",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }
 }

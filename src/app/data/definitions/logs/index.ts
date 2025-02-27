@@ -29,13 +29,14 @@ export const LOGS_DEFINITION: GroupDefinition = {
                 'hw',
                 'sb',
                 'shb',
-                'ew'
+                'ew',
+                // 'dt'
             ]
         },
         CRAFTING_LOG_DEFINITION,
         GATHERING_LOG_DEFINITION,
         {
-            path: 'orchestrion',
+            path: 'orchestrion-list',
             subGroups: [
                 'locales-i',
                 'locales-ii',

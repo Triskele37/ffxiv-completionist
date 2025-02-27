@@ -2,7 +2,6 @@
     "key": "spellbook",
     "groupName_en": "Spellbook",
     "groupName_fr": "Codex bleu",
-    "common": ["location"],
     "headers": {
         "number": {
             "width": 100,
@@ -964,7 +963,7 @@
             "number": "105",
             "name_en": "Goblin Punch",
             "name_fr": "Coup de poing gobelin",
-            "location": "ZONE.KHOLUSIA (37, 28)",
+            "location": "@ZONE.KHOLUSIA (37, 28)",
             "enemy_en": "Hobgoblin",
             "enemy_fr": "Hobgoblin"
         },
@@ -980,7 +979,7 @@
             "number": "107",
             "name_en": "Schiltron",
             "name_fr": "Sheltron",
-            "location": "ZONE.AMH_ARAENG (17, 30)",
+            "location": "@ZONE.AMH_ARAENG (17, 30)",
             "enemy_en": "Long-tailed Armadillo",
             "enemy_fr": "Tatou longue-queue"
         },
@@ -988,7 +987,7 @@
             "number": "108",
             "name_en": "Rehydration",
             "name_fr": "Réhydratation",
-            "location": "ZONE.AMH_ARAENG (33.9, 11.9)",
+            "location": "@ZONE.AMH_ARAENG (33.9, 11.9)",
             "enemy_en": "Slippery Armadillo",
             "enemy_fr": "Tatou fuyard"
         },

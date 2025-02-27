@@ -2,13 +2,12 @@
     "key": "trials",
     "groupName_en": "Trials",
     "groupName_fr": "Défis",
-    "common": ["category", "location", "source"],
     "tasks": {
         "x185": {
             "number": "28",
             "name_en": "The Worm's Tail",
             "name_fr": "The Worm's Tail",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.278",
             "patch": "4.1"
         },
@@ -16,7 +15,7 @@
             "number": "29",
             "name_en": "Answer on High",
             "name_fr": "Answer on High",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.291",
             "patch": "4.2"
         },
@@ -24,7 +23,7 @@
             "number": "30",
             "name_en": "Amatsu Kaze",
             "name_fr": "Amatsu Kaze",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.291",
             "patch": "4.2"
         },
@@ -32,7 +31,7 @@
             "number": "31",
             "name_en": "Nightbloom",
             "name_fr": "Nightbloom",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.538",
             "patch": "4.3"
         },
@@ -40,7 +39,7 @@
             "number": "32",
             "name_en": "Wayward Daughter",
             "name_fr": "Wayward Daughter",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.538",
             "patch": "4.3"
         },
@@ -48,17 +47,17 @@
             "number": "33",
             "name_en": "Savage of the Ancient Forest",
             "name_fr": "Savage of the Ancient Forest",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Smithy - 10 Rathalos Scales",
             "source_fr": "Forgeron itinérant - 10 Écailles Rathalos",
-            "location": "ZONE.KUGANE",
+            "location": "@ZONE.KUGANE",
             "patch": "4.36"
         },
         "x239": {
             "number": "34",
             "name_en": "Proof of a Hero - Monster Hunter: World Version",
             "name_fr": "Proof of a Hero - Monster Hunter: World Version",
-            "category": "CATEGORY.TRIAL",
+            "category": "@CATEGORY.TRIAL",
             "source": "d.475",
             "patch": "4.36"
         },
@@ -66,7 +65,7 @@
             "number": "35",
             "name_en": "Sunrise",
             "name_fr": "Sunrise",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.597",
             "patch": "4.4"
         },
@@ -74,7 +73,7 @@
             "number": "9",
             "name_en": "Wreck to the Seaman",
             "name_fr": "Wreck to the Seaman",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.73",
             "patch": "3.3"
         },
@@ -82,7 +81,7 @@
             "number": "10",
             "name_en": "Through the Maelstrom",
             "name_fr": "Through the Maelstrom",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.73",
             "patch": "3.3"
         },
@@ -90,7 +89,7 @@
             "number": "11",
             "name_en": "Good King Moggle Mog XII",
             "name_fr": "Good King Moggle Mog XII",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.67",
             "patch": "3.3"
         },
@@ -98,7 +97,7 @@
             "number": "12",
             "name_en": "Revenge of the Horde",
             "name_fr": "Revenge of the Horde",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.170",
             "patch": "3.3"
         },
@@ -106,7 +105,7 @@
             "number": "13",
             "name_en": "Battle on the Big Bridge",
             "name_fr": "Battle on the Big Bridge",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": ["d.76", "d.85"],
             "patch": "3.3"
         },
@@ -114,17 +113,17 @@
             "number": "14",
             "name_en": "Battle to the Death - Heavensward",
             "name_fr": "Battle to the Death - Heavensward",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Gold Saucer Attendant - 20,000 MGP",
             "source_fr": "Préposé Aux Lots - 20.000 PGS",
-            "location": "ZONE.THE_GOLD_SAUCER",
+            "location": "@ZONE.THE_GOLD_SAUCER",
             "patch": "3.3"
         },
         "x104": {
             "number": "15",
             "name_en": "Footsteps in the Snow",
             "name_fr": "Footsteps in the Snow",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.80",
             "patch": "3.4"
         },
@@ -132,7 +131,7 @@
             "number": "16",
             "name_en": "Oblivion",
             "name_fr": "Oblivion",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.80",
             "patch": "3.4"
         },
@@ -140,7 +139,7 @@
             "number": "17",
             "name_en": "Thunder Rolls",
             "name_fr": "Thunder Rolls",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.78",
             "patch": "3.4"
         },
@@ -148,7 +147,7 @@
             "number": "18",
             "name_en": "Equilibrium",
             "name_fr": "Equilibrium",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.184",
             "patch": "3.4"
         },
@@ -156,7 +155,7 @@
             "number": "19",
             "name_en": "The Corpse Hall",
             "name_fr": "The Corpse Hall",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.82",
             "patch": "3.5"
         },
@@ -164,7 +163,7 @@
             "number": "20",
             "name_en": "Limitless Blue",
             "name_fr": "Limitless Blue",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.89",
             "patch": "3.5"
         },
@@ -172,7 +171,7 @@
             "number": "21",
             "name_en": "Woe that Is Madness",
             "name_fr": "Woe that Is Madness",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.89",
             "patch": "3.5"
         },
@@ -180,7 +179,7 @@
             "number": "22",
             "name_en": "The Hand that Gives the Rose",
             "name_fr": "The Hand that Gives the Rose",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.87",
             "patch": "3.5"
         },
@@ -188,7 +187,7 @@
             "number": "23",
             "name_en": "Unbending Steel",
             "name_fr": "Unbending Steel",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.87",
             "patch": "3.5"
         },
@@ -196,7 +195,7 @@
             "number": "24",
             "name_en": "Infinity",
             "name_fr": "Infinity",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.224",
             "patch": "3.5"
         },
@@ -204,7 +203,7 @@
             "number": "25",
             "name_en": "Revelation",
             "name_fr": "Revelation",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.244",
             "patch": "4.0"
         },
@@ -212,7 +211,7 @@
             "number": "26",
             "name_en": "Beauty's Wicked Wiles",
             "name_fr": "Beauty's Wicked Wiles",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.264",
             "patch": "4.0"
         },
@@ -220,7 +219,7 @@
             "number": "27",
             "name_en": "The Worm's Head",
             "name_fr": "The Worm's Head",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.278",
             "patch": "4.1"
         },
@@ -228,7 +227,7 @@
             "number": "36",
             "name_en": "From the Dragon's Wake",
             "name_fr": "From the Dragon's Wake",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.638",
             "patch": "4.45"
         },
@@ -236,7 +235,7 @@
             "number": "37",
             "name_en": "What Angel Wakes Me",
             "name_fr": "What Angel Wakes Me",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.658",
             "patch": "5.0"
         },
@@ -244,7 +243,7 @@
             "number": "38",
             "name_en": "Insanity",
             "name_fr": "Insanity",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.667",
             "patch": "5.0"
         },
@@ -252,7 +251,7 @@
             "number": "39",
             "name_en": "Invincible",
             "name_fr": "Invincible",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.693",
             "patch": "5.1"
         },
@@ -260,7 +259,7 @@
             "number": "40",
             "name_en": "Ultima (The Primals)",
             "name_fr": "Ultima (The Primals)",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.718",
             "patch": "5.2"
         },
@@ -268,7 +267,7 @@
             "number": "41",
             "name_en": "To the Edge",
             "name_fr": "To the Edge",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.739",
             "patch": "5.3"
         },
@@ -276,16 +275,16 @@
             "number": "42",
             "name_en": "Freefall",
             "name_fr": "Freefall",
-            "category": "CATEGORY.KUPO_OF_FORTUNE",
-            "source": "CATEGORY.KUPO_OF_FORTUNE",
-            "location": "ZONE.THE_FIRMAMENT",
+            "category": "@CATEGORY.KUPO_OF_FORTUNE",
+            "source": "@CATEGORY.KUPO_OF_FORTUNE",
+            "location": "@ZONE.THE_FIRMAMENT",
             "patch": "5.31"
         },
         "x411": {
             "number": "43",
             "name_en": "The Black Wolf Stalks Again",
             "name_fr": "The Black Wolf Stalks Again",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.763",
             "patch": "5.4"
         },
@@ -293,16 +292,16 @@
             "number": "44",
             "name_en": "Faith in Her Fury",
             "name_fr": "Faith in Her Fury",
-            "category": "CATEGORY.KUPO_OF_FORTUNE",
-            "source": "CATEGORY.KUPO_OF_FORTUNE",
-            "location": "ZONE.THE_FIRMAMENT",
+            "category": "@CATEGORY.KUPO_OF_FORTUNE",
+            "source": "@CATEGORY.KUPO_OF_FORTUNE",
+            "location": "@ZONE.THE_FIRMAMENT",
             "patch": "5.41"
         },
         "x437": {
             "number": "45",
             "name_en": "In the Arms of War",
             "name_fr": "In the Arms of War",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.782",
             "patch": "5.5"
         },
@@ -310,7 +309,7 @@
             "number": "46",
             "name_en": "Endcaller",
             "name_fr": "Endcaller",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.803",
             "patch": "6.0"
         },
@@ -318,7 +317,7 @@
             "number": "47",
             "name_en": "Your Answer",
             "name_fr": "Your Answer",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.791",
             "patch": "6.0"
         },
@@ -326,7 +325,7 @@
             "number": "48",
             "name_en": "The Final Day",
             "name_fr": "The Final Day",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.846",
             "patch": "6.1"
         },
@@ -334,7 +333,7 @@
             "number": "49",
             "name_en": "With Hearts Aligned",
             "name_fr": "With Hearts Aligned",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.846",
             "patch": "6.1"
         },
@@ -342,7 +341,7 @@
             "number": "50",
             "name_en": "Battle with the Four Fiends (Buried Memory)",
             "name_fr": "Battle with the Four Fiends (Buried Memory)",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.871",
             "patch": "6.2"
         },
@@ -350,17 +349,17 @@
             "number": "51",
             "name_en": "Unworthy",
             "name_fr": "Unworthy",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Enie - 1,200 Skybuilders' Scrips",
             "source_fr": "Enie - 1.200 Assignats d'Azurée",
-            "location": "ZONE.THE_FIRMAMENT",
+            "location": "@ZONE.THE_FIRMAMENT",
             "patch": "6.2"
         },
         "x565": {
             "number": "52",
             "name_en": "Forged in Crimson",
             "name_fr": "Forged in Crimson",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.924",
             "patch": "6.3"
         },
@@ -368,7 +367,7 @@
             "number": "53",
             "name_en": "Voidcast Savior",
             "name_fr": "Voidcast Savior",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.950",
             "patch": "6.4"
         },
@@ -376,7 +375,7 @@
             "number": "54",
             "name_en": "FINAL FANTASY IV: The Final Battle (Endwalker)",
             "name_fr": "FINAL FANTASY IV: The Final Battle (Endwalker)",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.965",
             "patch": "6.5"
         },
@@ -384,7 +383,7 @@
             "number": "55",
             "name_en": "The Red Wings (Endwalker)",
             "name_fr": "The Red Wings (Endwalker)",
-            "category": "CATEGORY.CRAFTING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "d.965",
             "patch": "6.5"
         }

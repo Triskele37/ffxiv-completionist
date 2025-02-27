@@ -9,7 +9,7 @@
             "name_fr": "Défi: la chasse",
             "location": "(19, 22)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x154": {
             "level": 34,
@@ -17,7 +17,7 @@
             "name_fr": "Menace amphibie",
             "location": "(21, 29)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x163": {
             "level": 22,
@@ -25,7 +25,7 @@
             "name_fr": "Désherbage massif",
             "location": "(22, 21)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x166": {
             "level": 22,
@@ -33,7 +33,7 @@
             "name_fr": "Une tournée de trop",
             "location": "(17, 20)",
             "patch": "2.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x167": {
             "level": 21,
@@ -41,7 +41,7 @@
             "name_fr": "Brames dans la nuit",
             "location": "(15, 18)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x169": {
             "level": 32,
@@ -49,7 +49,7 @@
             "name_fr": "Défi: marché noir",
             "location": "(15, 33)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x170": {
             "level": 22,
@@ -57,7 +57,7 @@
             "name_fr": "À qui profite le crime",
             "location": "(20, 20)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x172": {
             "level": 29,
@@ -65,7 +65,7 @@
             "name_fr": "Gobelins malhonnêtes",
             "location": "(27, 20)",
             "patch": "2.0",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x215": {
             "level": 24,
@@ -73,7 +73,7 @@
             "name_fr": "Pas de pitié pour les truands",
             "location": "(16, 22)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x624": {
             "level": 33,
@@ -81,7 +81,7 @@
             "name_fr": "Vaincre le mal par les Racines",
             "location": "(19, 29)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x626": {
             "level": 30,
@@ -89,7 +89,7 @@
             "name_fr": "Tortues torturées",
             "location": "(16, 27)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x627": {
             "level": 31,
@@ -97,7 +97,7 @@
             "name_fr": "Traitement des eaux usées",
             "location": "(16, 29)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x628": {
             "level": 46,
@@ -105,7 +105,7 @@
             "name_fr": "Défi: Phaïa pas l'inviter",
             "location": "(32, 25)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x159": {
             "level": 32,
@@ -113,7 +113,7 @@
             "name_fr": "Nid de guêpes: les infiltrés",
             "location": "(22, 18)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x160": {
             "level": 32,
@@ -122,7 +122,7 @@
             "location": "(22, 17)",
             "patch": "2.0",
             "previousFate": "f.159",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x161": {
             "level": 32,
@@ -131,7 +131,7 @@
             "location": "(22, 17)",
             "patch": "2.0",
             "previousFate": "f.160",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x162": {
             "level": 32,
@@ -140,7 +140,7 @@
             "location": "(22, 17)",
             "patch": "2.0",
             "previousFate": "f.161",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x158": {
             "level": 28,
@@ -148,7 +148,7 @@
             "name_fr": "Les négociateurs",
             "location": "(26, 22)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x168": {
             "level": 29,
@@ -157,7 +157,7 @@
             "location": "(28, 21)",
             "patch": "2.0",
             "previousFate": "f.158",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x164": {
             "level": 29,
@@ -166,7 +166,7 @@
             "location": "(30, 19)",
             "patch": "2.0",
             "previousFate": "f.168",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }
 }

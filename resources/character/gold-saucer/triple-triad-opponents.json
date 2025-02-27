@@ -28,12 +28,11 @@
             "header_fr": "Patch"
         }
     },
-    "common": ["zone"],
     "tasks": {
         "x115": {
             "name_en": "Maillart",
             "name_fr": "Maillart",
-            "zone": "ZONE.OLD_SHARLAYAN",
+            "zone": "@ZONE.OLD_SHARLAYAN",
             "location": "(8.5, 15.2)",
             "patch": "6.5",
             "drops": ["tt.398", "tt.399"],
@@ -42,7 +41,7 @@
         "x114": {
             "name_en": "Ylaire",
             "name_fr": "Ylaire",
-            "zone": "ZONE.OLD_GRIDANIA",
+            "zone": "@ZONE.OLD_GRIDANIA",
             "location": "(7.8, 10.9)",
             "patch": "6.5",
             "drops": ["tt.394", "tt.395", "tt.396"],
@@ -51,7 +50,7 @@
         "x113": {
             "name_en": "Tokimori",
             "name_fr": "Tokimori",
-            "zone": "ZONE.KUGANE",
+            "zone": "@ZONE.KUGANE",
             "location": "(8.9, 8.8)",
             "patch": "6.45",
             "drops": ["tt.378"],
@@ -60,7 +59,7 @@
         "x112": {
             "name_en": "Ruissenaud",
             "name_fr": "Ruissenaud",
-            "zone": "ZONE.LABYRINTHOS",
+            "zone": "@ZONE.LABYRINTHOS",
             "location": "(8.9, 27.3)",
             "patch": "6.4",
             "drops": ["tt.382", "tt.385"],
@@ -69,7 +68,7 @@
         "x111": {
             "name_en": "Gamingway",
             "name_fr": "Gamingway",
-            "zone": "ZONE.MARE_LAMENTORUM",
+            "zone": "@ZONE.MARE_LAMENTORUM",
             "location": "(18.1, 16.1)",
             "patch": "6.35",
             "drops": ["tt.369"],
@@ -78,7 +77,7 @@
         "x110": {
             "name_en": "Kilfufu",
             "name_fr": "Kilfufu",
-            "zone": "ZONE.UL_DAH_STEPS_OF_NALD",
+            "zone": "@ZONE.UL_DAH_STEPS_OF_NALD",
             "location": "(13, 8)",
             "patch": "6.25",
             "drops": ["tt.358"],
@@ -87,7 +86,7 @@
         "x109": {
             "name_en": "Ghasa",
             "name_fr": "Ghasa",
-            "zone": "ZONE.THAVNAIR",
+            "zone": "@ZONE.THAVNAIR",
             "location": "(20, 28)",
             "patch": "6.15",
             "drops": ["tt.348"],
@@ -96,7 +95,7 @@
         "x108": {
             "name_en": "Prudence",
             "name_fr": "Prudence",
-            "zone": "ZONE.MOR_DHONA",
+            "zone": "@ZONE.MOR_DHONA",
             "location": "(30.6, 12.3)",
             "patch": "6.1",
             "drops": ["tt.350", "tt.351"],
@@ -105,7 +104,7 @@
         "x106": {
             "name_en": "Celia",
             "name_fr": "Celia",
-            "zone": "ZONE.OLD_SHARLAYAN",
+            "zone": "@ZONE.OLD_SHARLAYAN",
             "location": "(15.8, 7.0)",
             "patch": "6.0",
             "drops": ["tt.338", "tt.341"],
@@ -114,7 +113,7 @@
         "x102": {
             "name_en": "Qetanur",
             "name_fr": "Qetanur",
-            "zone": "ZONE.THAVNAIR",
+            "zone": "@ZONE.THAVNAIR",
             "location": "(19.7, 9.2)",
             "patch": "6.0",
             "drops": "tt.328",
@@ -123,7 +122,7 @@
         "x104": {
             "name_en": "Cheatingway",
             "name_fr": "Cheatingway",
-            "zone": "ZONE.OLD_SHARLAYAN",
+            "zone": "@ZONE.OLD_SHARLAYAN",
             "location": "(11.1, 8.9)",
             "patch": "6.0",
             "drops": ["tt.331", "tt.332"],
@@ -132,7 +131,7 @@
         "x101": {
             "name_en": "Sladkey",
             "name_fr": "Sladkey",
-            "zone": "ZONE.GANGOS",
+            "zone": "@ZONE.GANGOS",
             "location": "(5, 6)",
             "patch": "5.55",
             "drops": ["tt.321", "tt.322"],
@@ -141,7 +140,7 @@
         "x55": {
             "name_en": "Arsieu",
             "name_fr": "Arsieu",
-            "zone": "ZONE.GANGOS",
+            "zone": "@ZONE.GANGOS",
             "location": "(5.9, 6.6)",
             "patch": "5.35",
             "drops": ["tt.299", "tt.298"],
@@ -150,7 +149,7 @@
         "x28": {
             "name_en": "Cobleva",
             "name_fr": "Cobleva",
-            "zone": "ZONE.LAKELAND",
+            "zone": "@ZONE.LAKELAND",
             "location": "(14.3, 7.8)",
             "patch": "5.3",
             "drops": ["tt.294", "tt.296"],
@@ -159,7 +158,7 @@
         "x64": {
             "name_en": "Hanagasa",
             "name_fr": "Hanagasa",
-            "zone": "ZONE.KUGANE",
+            "zone": "@ZONE.KUGANE",
             "location": "(10.4, 11.9)",
             "patch": "5.2",
             "drops": ["tt.209", "tt.208", "tt.250", "tt.229"],
@@ -168,7 +167,7 @@
         "x51": {
             "name_en": "Ushiogi",
             "name_fr": "Ushiogi",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "location": "(21.7, 7.9)",
             "patch": "4.35",
             "drops": ["tt.222", "tt.225", "tt.221"],
@@ -177,7 +176,7 @@
         "x77": {
             "name_en": "Masatsuchi",
             "name_fr": "Masatsuchi",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "location": "(29.5, 20.2)",
             "patch": "4.2",
             "drops": ["tt.211", "tt.218"],
@@ -186,7 +185,7 @@
         "x3": {
             "name_en": "Ercanbald",
             "name_fr": "Ercanbald",
-            "zone": "ZONE.RHALGRS_REACH",
+            "zone": "@ZONE.RHALGRS_REACH",
             "location": "(9.8, 9.8)",
             "patch": "4.0",
             "drops": ["tt.86", "tt.186"],
@@ -195,7 +194,7 @@
         "x8": {
             "name_en": "Gyoei",
             "name_fr": "Gyoei",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "location": "(15.7, 31.9)",
             "patch": "4.0",
             "drops": ["tt.183", "tt.248"],
@@ -204,7 +203,7 @@
         "x78": {
             "name_en": "Master Mogzin",
             "name_fr": "Mogzin",
-            "zone": "ZONE.THE_CHURNING_MISTS",
+            "zone": "@ZONE.THE_CHURNING_MISTS",
             "location": "(15, 28)",
             "patch": "3.3",
             "drops": ["tt.43", "tt.146", "tt.153", "tt.124"],
@@ -213,7 +212,7 @@
         "x0": {
             "name_en": "Triple Triad Master",
             "name_fr": "Croupière",
-            "zone": "ZONE.THE_GOLD_SAUCER",
+            "zone": "@ZONE.THE_GOLD_SAUCER",
             "location": "(4, 7)",
             "patch": "2.51",
             "drops": "tt.4",
@@ -222,7 +221,7 @@
         "x13": {
             "name_en": "Maisenta",
             "name_fr": "Maisenta",
-            "zone": "ZONE.NEW_GRIDANIA",
+            "zone": "@ZONE.NEW_GRIDANIA",
             "location": "(11, 11)",
             "patch": "2.51",
             "drops": ["tt.8", "tt.16"],
@@ -231,7 +230,7 @@
         "x20": {
             "name_en": "Roger",
             "name_fr": "Roger",
-            "zone": "ZONE.CENTRAL_THANALAN",
+            "zone": "@ZONE.CENTRAL_THANALAN",
             "location": "(19, 20)",
             "patch": "2.51",
             "drops": ["tt.9", "tt.5"],
@@ -240,7 +239,7 @@
         "x11": {
             "name_en": "Jonas of the Three Spades",
             "name_fr": "Jonas le Valet de pique",
-            "zone": "ZONE.THE_GOLD_SAUCER",
+            "zone": "@ZONE.THE_GOLD_SAUCER",
             "location": "(4, 7)",
             "patch": "2.51",
             "drops": ["tt.15", "tt.20"],
@@ -249,7 +248,7 @@
         "x15": {
             "name_en": "Memeroon",
             "name_fr": "Memeroon",
-            "zone": "ZONE.UPPER_LA_NOSCEA",
+            "zone": "@ZONE.UPPER_LA_NOSCEA",
             "location": "(14, 24)",
             "patch": "2.51",
             "drops": ["tt.14", "tt.128", "tt.37", "tt.2"],
@@ -258,7 +257,7 @@
         "x49": {
             "name_en": "Swift",
             "name_fr": "Swift",
-            "zone": "ZONE.UL_DAH_STEPS_OF_NALD",
+            "zone": "@ZONE.UL_DAH_STEPS_OF_NALD",
             "location": "(8.4, 8.9)",
             "patch": "2.51",
             "drops": ["tt.59", "tt.40", "tt.113", "tt.67"],
@@ -267,7 +266,7 @@
         "x103": {
             "name_en": "Aiglephine",
             "name_fr": "Aiglephine",
-            "zone": "ZONE.LABYRINTHOS",
+            "zone": "@ZONE.LABYRINTHOS",
             "location": "(29.3, 13.2)",
             "patch": "6.0",
             "drops": "tt.327",
@@ -276,7 +275,7 @@
         "x30": {
             "name_en": "Droyn",
             "name_fr": "Droyn",
-            "zone": "ZONE.UL_DAH_STEPS_OF_THAL",
+            "zone": "@ZONE.UL_DAH_STEPS_OF_THAL",
             "location": "(11.8, 13.0)",
             "patch": "5.45",
             "drops": ["tt.309", "character.blue-mage.the-masked-carnivale.29"],
@@ -285,7 +284,7 @@
         "x74": {
             "name_en": "Lewto-Sue",
             "name_fr": "Lewto-Sue",
-            "zone": "ZONE.AMH_ARAENG",
+            "zone": "@ZONE.AMH_ARAENG",
             "location": "(26, 16)",
             "patch": "5.4",
             "drops": ["tt.314", "tt.313"],
@@ -294,7 +293,7 @@
         "x31": {
             "name_en": "Eo Sigun",
             "name_fr": "Eo Sigun",
-            "zone": "ZONE.IL_MHEG",
+            "zone": "@ZONE.IL_MHEG",
             "location": "(22.2, 3.6)",
             "patch": "5.1",
             "drops": ["tt.276", "tt.274"],
@@ -303,7 +302,7 @@
         "x92": {
             "name_en": "Umber Torrent",
             "name_fr": "Umber Torrent",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "location": "(16.4, 24.7)",
             "patch": "4.0",
             "drops": ["tt.217", "tt.189"],
@@ -312,7 +311,7 @@
         "x32": {
             "name_en": "Garima",
             "name_fr": "Garima",
-            "zone": "ZONE.THE_FRINGES",
+            "zone": "@ZONE.THE_FRINGES",
             "location": "(28.2, 19.9)",
             "patch": "4.0",
             "drops": ["tt.185", "tt.205"],
@@ -321,7 +320,7 @@
         "x38": {
             "name_en": "House Fortemps Manservant",
             "name_fr": "Serviteur des Fortemps",
-            "zone": "ZONE.FORTEMPS_MANOR",
+            "zone": "@ZONE.FORTEMPS_MANOR",
             "location": "(11, 11)",
             "patch": "3.2",
             "drops": ["tt.133", "tt.134", "tt.121"],
@@ -330,7 +329,7 @@
         "x18": {
             "name_en": "Mother Miounne",
             "name_fr": "Mother Miounne",
-            "zone": "ZONE.NEW_GRIDANIA",
+            "zone": "@ZONE.NEW_GRIDANIA",
             "location": "(11, 13)",
             "patch": "2.51",
             "drops": ["tt.12", "tt.30"],
@@ -339,7 +338,7 @@
         "x24": {
             "name_en": "Wymond",
             "name_fr": "Wymond",
-            "zone": "ZONE.UL_DAH_STEPS_OF_NALD",
+            "zone": "@ZONE.UL_DAH_STEPS_OF_NALD",
             "location": "(9.8, 8.7)",
             "patch": "2.51",
             "drops": ["tt.8", "tt.141"],
@@ -348,7 +347,7 @@
         "x35": {
             "name_en": "Helmhart",
             "name_fr": "Helmhart",
-            "zone": "ZONE.EASTERN_THANALAN",
+            "zone": "@ZONE.EASTERN_THANALAN",
             "location": "(20, 21)",
             "patch": "2.51",
             "drops": ["tt.34", "tt.22"],
@@ -357,7 +356,7 @@
         "x89": {
             "name_en": "Ruhtwyda of the Three Hearts",
             "name_fr": "Ruthwyda la Dame de cœur",
-            "zone": "ZONE.THE_GOLD_SAUCER",
+            "zone": "@ZONE.THE_GOLD_SAUCER",
             "location": "(3, 7)",
             "patch": "2.51",
             "drops": ["tt.45", "tt.50"],
@@ -366,7 +365,7 @@
         "x105": {
             "name_en": "Mehryde",
             "name_fr": "Mehryde",
-            "zone": "ZONE.RADZ_AT_HAN",
+            "zone": "@ZONE.RADZ_AT_HAN",
             "location": "(10.8, 7.6)",
             "patch": "6.0",
             "drops": "tt.330",
@@ -375,7 +374,7 @@
         "x48": {
             "name_en": "Redard",
             "name_fr": "Redard",
-            "zone": "ZONE.RAK_TIKA",
+            "zone": "@ZONE.RAK_TIKA",
             "location": "(20.4, 27.2)",
             "patch": "5.2",
             "drops": ["tt.287", "tt.284"],
@@ -384,7 +383,7 @@
         "x9": {
             "name_en": "Ibenart",
             "name_fr": "Ibenart",
-            "zone": "ZONE.KHOLUSIA",
+            "zone": "@ZONE.KHOLUSIA",
             "location": "(19.1, 17.4)",
             "patch": "5.0",
             "drops": "tt.255",
@@ -393,7 +392,7 @@
         "x21": {
             "name_en": "Saushs Koal",
             "name_fr": "Saushs Koal",
-            "zone": "ZONE.THE_TEMPEST",
+            "zone": "@ZONE.THE_TEMPEST",
             "location": "(31.4, 17.3)",
             "patch": "5.0",
             "drops": "tt.259",
@@ -402,7 +401,7 @@
         "x33": {
             "name_en": "Gyuf Uin",
             "name_fr": "Gyuf Uin",
-            "zone": "ZONE.IL_MHEG",
+            "zone": "@ZONE.IL_MHEG",
             "location": "(16.1, 30.7)",
             "patch": "5.0",
             "drops": "tt.257",
@@ -411,7 +410,7 @@
         "x2": {
             "name_en": "Drery",
             "name_fr": "Drery",
-            "zone": "ZONE.AMH_ARAENG",
+            "zone": "@ZONE.AMH_ARAENG",
             "location": "(11.9, 16.9)",
             "patch": "5.0",
             "drops": ["tt.254", "tt.256"],
@@ -420,7 +419,7 @@
         "x36": {
             "name_en": "Hetsukaze",
             "name_fr": "Hetsukaze",
-            "zone": "ZONE.KUGANE",
+            "zone": "@ZONE.KUGANE",
             "location": "(8.0, 13.6)",
             "patch": "4.45",
             "drops": ["tt.243", "tt.237", "tt.242", "tt.245"],
@@ -429,7 +428,7 @@
         "x87": {
             "name_en": "Redbill Storeboy",
             "name_fr": "Intendant des Becs-rouges",
-            "zone": "ZONE.IDYLLSHIRE",
+            "zone": "@ZONE.IDYLLSHIRE",
             "location": "(3.8, 4.5)",
             "patch": "3.1",
             "drops": ["tt.152", "tt.179", "tt.112", "tt.129"],
@@ -438,7 +437,7 @@
         "x54": {
             "name_en": "Yusui",
             "name_fr": "Yusui",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "location": "(31.6, 37.1)",
             "patch": "4.2",
             "drops": "tt.214",
@@ -447,7 +446,7 @@
         "x12": {
             "name_en": "Kotokaze",
             "name_fr": "Kotokaze",
-            "zone": "ZONE.KUGANE",
+            "zone": "@ZONE.KUGANE",
             "location": "(10.2, 10.2)",
             "patch": "4.0",
             "drops": "tt.187",
@@ -456,7 +455,7 @@
         "x40": {
             "name_en": "Kaizan",
             "name_fr": "Kaizan",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "location": "(22.3, 8.6)",
             "patch": "4.0",
             "drops": "tt.193",
@@ -465,7 +464,7 @@
         "x50": {
             "name_en": "Tsuzura",
             "name_fr": "Tsuzura",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "location": "(28.5, 16.4)",
             "patch": "4.0",
             "drops": "tt.184",
@@ -474,7 +473,7 @@
         "x25": {
             "name_en": "Wyra \"Greenhands\" Lyehga",
             "name_fr": "Wyra Lyehga La Main Verte",
-            "zone": "ZONE.BATTLE_HALL",
+            "zone": "@ZONE.BATTLE_HALL",
             "location": "(3.3, 3.3)",
             "patch": "3.4",
             "drops": "tt.154",
@@ -483,7 +482,7 @@
         "x91": {
             "name_en": "Tapklix",
             "name_fr": "Tapklix",
-            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_HINTERLANDS",
             "location": "(21, 18)",
             "patch": "3.1",
             "drops": ["tt.163", "tt.136", "tt.117"],
@@ -492,7 +491,7 @@
         "x42": {
             "name_en": "Linu Vali",
             "name_fr": "Linu Vali",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "location": "(6, 14)",
             "patch": "3.0",
             "drops": ["tt.98", "tt.123", "tt.147"],
@@ -501,7 +500,7 @@
         "x29": {
             "name_en": "Dominiac",
             "name_fr": "Dominiac",
-            "zone": "ZONE.COERTHAS_WESTERN_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_WESTERN_HIGHLANDS",
             "location": "(16, 22)",
             "patch": "3.0",
             "drops": ["tt.101", "tt.86"],
@@ -510,7 +509,7 @@
         "x7": {
             "name_en": "Guhtwint of the Three Diamonds",
             "name_fr": "Guthwint l'As de carreau",
-            "zone": "ZONE.THE_GOLD_SAUCER",
+            "zone": "@ZONE.THE_GOLD_SAUCER",
             "location": "(4, 7)",
             "patch": "2.51",
             "drops": ["tt.13", "tt.27"],
@@ -519,7 +518,7 @@
         "x17": {
             "name_en": "Momodi",
             "name_fr": "Momodi",
-            "zone": "ZONE.UL_DAH_STEPS_OF_NALD",
+            "zone": "@ZONE.UL_DAH_STEPS_OF_NALD",
             "location": "(11.9, 9.6)",
             "patch": "2.51",
             "drops": "tt.28",
@@ -528,7 +527,7 @@
         "x4": {
             "name_en": "F'hobhas",
             "name_fr": "F'hobhas",
-            "zone": "ZONE.CENTRAL_THANALAN",
+            "zone": "@ZONE.CENTRAL_THANALAN",
             "location": "(23, 13)",
             "patch": "2.51",
             "drops": "tt.36",
@@ -537,7 +536,7 @@
         "x23": {
             "name_en": "Trachtoum",
             "name_fr": "Trachtoum",
-            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "zone": "@ZONE.LOWER_LA_NOSCEA",
             "location": "(35, 15)",
             "patch": "2.51",
             "drops": ["tt.20", "tt.41"],
@@ -546,7 +545,7 @@
         "x10": {
             "name_en": "Joellaut",
             "name_fr": "Joellaut",
-            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_CENTRAL_HIGHLANDS",
             "location": "(13, 15)",
             "patch": "2.51",
             "drops": ["tt.59", "tt.15"],
@@ -555,7 +554,7 @@
         "x5": {
             "name_en": "Fufulupa",
             "name_fr": "Fufulupa",
-            "zone": "ZONE.WESTERN_THANALAN",
+            "zone": "@ZONE.WESTERN_THANALAN",
             "location": "(22, 17)",
             "patch": "2.51",
             "drops": ["tt.25", "tt.46"],
@@ -564,7 +563,7 @@
         "x1": {
             "name_en": "Baderon",
             "name_fr": "Baderon",
-            "zone": "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+            "zone": "@ZONE.LIMSA_LOMINSA_UPPER_DECKS",
             "location": "(11, 11)",
             "patch": "2.51",
             "drops": ["tt.29", "tt.18"],
@@ -573,7 +572,7 @@
         "x16": {
             "name_en": "Mimidoa",
             "name_fr": "Mimidoa",
-            "zone": "ZONE.LOWER_LA_NOSCEA",
+            "zone": "@ZONE.LOWER_LA_NOSCEA",
             "location": "(25, 35)",
             "patch": "2.51",
             "drops": ["tt.33", "tt.21"],
@@ -582,7 +581,7 @@
         "x26": {
             "name_en": "Aurifort of the Three Clubs",
             "name_fr": "Aurifort l'As de trèfle",
-            "zone": "ZONE.THE_GOLD_SAUCER",
+            "zone": "@ZONE.THE_GOLD_SAUCER",
             "location": "(4, 7)",
             "patch": "2.51",
             "drops": ["tt.12", "tt.27"],
@@ -591,7 +590,7 @@
         "x47": {
             "name_en": "Piralnaut",
             "name_fr": "Piralnaut",
-            "zone": "ZONE.EAST_SHROUD",
+            "zone": "@ZONE.EAST_SHROUD",
             "location": "(17, 26)",
             "patch": "2.51",
             "drops": ["tt.35", "tt.24"],
@@ -600,7 +599,7 @@
         "x90": {
             "name_en": "Sezul Totoloc",
             "name_fr": "Sezul Totoloc",
-            "zone": "ZONE.NORTH_SHROUD",
+            "zone": "@ZONE.NORTH_SHROUD",
             "location": "(24, 23)",
             "patch": "2.51",
             "drops": ["tt.38", "tt.33", "tt.58", "tt.162"],
@@ -609,7 +608,7 @@
         "x56": {
             "name_en": "Buscarron",
             "name_fr": "Buscarron",
-            "zone": "ZONE.SOUTH_SHROUD",
+            "zone": "@ZONE.SOUTH_SHROUD",
             "location": "(18.1, 19.8)",
             "patch": "2.51",
             "drops": ["tt.23", "tt.48", "tt.44"],
@@ -618,7 +617,7 @@
         "x85": {
             "name_en": "Ourdilic",
             "name_fr": "Ourdilic",
-            "zone": "ZONE.COERTHAS_CENTRAL_HIGHLANDS",
+            "zone": "@ZONE.COERTHAS_CENTRAL_HIGHLANDS",
             "location": "(6, 22)",
             "patch": "2.51",
             "drops": ["tt.38", "tt.26", "tt.11"],
@@ -627,7 +626,7 @@
         "x75": {
             "name_en": "Marcette",
             "name_fr": "Marcette",
-            "zone": "ZONE.CENTRAL_SHROUD",
+            "zone": "@ZONE.CENTRAL_SHROUD",
             "location": "(16, 18)",
             "patch": "2.51",
             "drops": ["tt.35", "tt.42"],
@@ -636,7 +635,7 @@
         "x107": {
             "name_en": "Worldly Imperial",
             "name_fr": "Garlemaldais avec de l'entregent",
-            "zone": "ZONE.GARLEMALD",
+            "zone": "@ZONE.GARLEMALD",
             "location": "(31.8, 17.0)",
             "patch": "6.0",
             "drops": "tt.340",
@@ -645,7 +644,7 @@
         "x58": {
             "name_en": "Furtive Former Imperial",
             "name_fr": "Soldat Impérial plein d'entrain",
-            "zone": "ZONE.TERNCLIFF",
+            "zone": "@ZONE.TERNCLIFF",
             "location": "(5.0, 6.3)",
             "patch": "5.3",
             "drops": "tt.302",
@@ -654,7 +653,7 @@
         "x6": {
             "name_en": "Glynard",
             "name_fr": "Glynard",
-            "zone": "ZONE.THE_CRYSTARIUM",
+            "zone": "@ZONE.THE_CRYSTARIUM",
             "location": "(10.8, 15.2)",
             "patch": "5.0",
             "drops": "tt.253",
@@ -663,7 +662,7 @@
         "x34": {
             "name_en": "Hargra",
             "name_fr": "Hargra",
-            "zone": "ZONE.RAK_TIKA",
+            "zone": "@ZONE.RAK_TIKA",
             "location": "(18.5, 26.0)",
             "patch": "5.0",
             "drops": ["tt.258", "tt.268"],
@@ -672,7 +671,7 @@
         "x61": {
             "name_en": "Grewenn",
             "name_fr": "Grewenn",
-            "zone": "ZONE.EULMORE",
+            "zone": "@ZONE.EULMORE",
             "location": "(12.5, 9.9)",
             "patch": "5.0",
             "drops": ["tt.266", "tt.270"],
@@ -681,7 +680,7 @@
         "x79": {
             "name_en": "Mero Roggo",
             "name_fr": "Mero Roggo",
-            "zone": "ZONE.THE_DRAVANIAN_HINTERLANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_HINTERLANDS",
             "location": "(12.7, 36.8)",
             "patch": "3.0",
             "drops": ["tt.94", "tt.130", "tt.161", "tt.251"],
@@ -690,7 +689,7 @@
         "x67": {
             "name_en": "Ironworks Hand",
             "name_fr": "Employé des Forges",
-            "zone": "ZONE.RHALGRS_REACH",
+            "zone": "@ZONE.RHALGRS_REACH",
             "location": "(13.7, 11.3)",
             "patch": "4.5",
             "drops": ["tt.247", "tt.240", "tt.197"],
@@ -699,7 +698,7 @@
         "x27": {
             "name_en": "Botan",
             "name_fr": "Botan",
-            "zone": "ZONE.KUGANE",
+            "zone": "@ZONE.KUGANE",
             "location": "(7.8, 14,.7)",
             "patch": "4.36",
             "drops": ["tt.226", "tt.227", "tt.236", "tt.223"],
@@ -708,7 +707,7 @@
         "x44": {
             "name_en": "Nell Half-Full",
             "name_fr": "Nell la Boit-sans-soif",
-            "zone": "ZONE.BATTLE_HALL",
+            "zone": "@ZONE.BATTLE_HALL",
             "location": "(3.3, 3.7)",
             "patch": "3.4",
             "drops": "tt.164",
@@ -717,7 +716,7 @@
         "x19": {
             "name_en": "Prideful Stag",
             "name_fr": "Prideful Stag le Parvenu",
-            "zone": "ZONE.BATTLE_HALL",
+            "zone": "@ZONE.BATTLE_HALL",
             "location": "(3.7, 3.3)",
             "patch": "3.4",
             "drops": "tt.158",
@@ -726,7 +725,7 @@
         "x57": {
             "name_en": "Flichoirel the Lordling",
             "name_fr": "Flichoirel le Seigneurial",
-            "zone": "ZONE.BATTLE_HALL",
+            "zone": "@ZONE.BATTLE_HALL",
             "location": "(3.7, 3.7)",
             "patch": "3.4",
             "drops": ["tt.155", "tt.167"],
@@ -735,7 +734,7 @@
         "x22": {
             "name_en": "Seika",
             "name_fr": "Seika",
-            "zone": "ZONE.IDYLLSHIRE",
+            "zone": "@ZONE.IDYLLSHIRE",
             "location": "(6.7, 7.4)",
             "patch": "3.1",
             "drops": ["tt.106", "tt.107", "tt.117"],
@@ -744,7 +743,7 @@
         "x45": {
             "name_en": "Noes",
             "name_fr": "Noes",
-            "zone": "ZONE.OLD_GRIDANIA",
+            "zone": "@ZONE.OLD_GRIDANIA",
             "location": "(10, 5)",
             "patch": "3.0",
             "drops": ["tt.81", "tt.131"],
@@ -753,7 +752,7 @@
         "x53": {
             "name_en": "Yellow Moon",
             "name_fr": "Yellow Moon",
-            "zone": "ZONE.UL_DAH_STEPS_OF_THAL",
+            "zone": "@ZONE.UL_DAH_STEPS_OF_THAL",
             "location": "(14, 13)",
             "patch": "3.0",
             "drops": "tt.84",
@@ -762,7 +761,7 @@
         "x95": {
             "name_en": "Yayake",
             "name_fr": "Yayake",
-            "zone": "ZONE.UL_DAH_STEPS_OF_NALD",
+            "zone": "@ZONE.UL_DAH_STEPS_OF_NALD",
             "location": "(7.3, 12.4)",
             "patch": "3.0",
             "drops": ["tt.96", "tt.127"],
@@ -771,7 +770,7 @@
         "x72": {
             "name_en": "Landenel",
             "name_fr": "Landenel",
-            "zone": "ZONE.SOUTH_SHROUD",
+            "zone": "@ZONE.SOUTH_SHROUD",
             "location": "(16, 28)",
             "patch": "2.51",
             "drops": ["tt.52", "tt.41"],
@@ -780,7 +779,7 @@
         "x41": {
             "name_en": "Lamlyn",
             "name_fr": "Lamlyn",
-            "zone": "ZONE.LAKELAND",
+            "zone": "@ZONE.LAKELAND",
             "location": "(35.4, 20.2)",
             "patch": "5.0",
             "drops": "tt.265",
@@ -789,7 +788,7 @@
         "x37": {
             "name_en": "Hokushin",
             "name_fr": "Hokushin",
-            "zone": "ZONE.KUGANE",
+            "zone": "@ZONE.KUGANE",
             "location": "(14.4, 11.2)",
             "patch": "4.45",
             "drops": ["tt.231", "tt.239"],
@@ -798,7 +797,7 @@
         "x68": {
             "name_en": "Kikimo",
             "name_fr": "Kikimo",
-            "zone": "ZONE.KUGANE",
+            "zone": "@ZONE.KUGANE",
             "location": "(8.6, 14.0)",
             "patch": "4.2",
             "drops": "tt.219",
@@ -807,7 +806,7 @@
         "x46": {
             "name_en": "O'kalkaya",
             "name_fr": "O'kalkaya",
-            "zone": "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+            "zone": "@ZONE.LIMSA_LOMINSA_UPPER_DECKS",
             "location": "(12, 13)",
             "patch": "4.0",
             "drops": ["tt.144", "tt.65", "tt.149"],
@@ -816,7 +815,7 @@
         "x43": {
             "name_en": "Mordyn",
             "name_fr": "Mordyn",
-            "zone": "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+            "zone": "@ZONE.LIMSA_LOMINSA_UPPER_DECKS",
             "location": "(11, 7)",
             "patch": "2.51",
             "drops": ["tt.145", "tt.65", "tt.126"],
@@ -825,7 +824,7 @@
         "x52": {
             "name_en": "Vath Deftarm",
             "name_fr": "Futé",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "location": "(23, 19)",
             "patch": "3.0",
             "drops": ["tt.97", "tt.109", "tt.85"],
@@ -834,7 +833,7 @@
         "x71": {
             "name_en": "Klynthota",
             "name_fr": "Klynthota",
-            "zone": "ZONE.MOR_DHONA",
+            "zone": "@ZONE.MOR_DHONA",
             "location": "(30, 13)",
             "patch": "3.2",
             "drops": ["tt.140", "tt.132", "tt.135", "tt.150"],
@@ -843,7 +842,7 @@
         "x94": {
             "name_en": "Wawalago",
             "name_fr": "Wawalago",
-            "zone": "ZONE.LIMSA_LOMINSA_LOWER_DECKS",
+            "zone": "@ZONE.LIMSA_LOMINSA_LOWER_DECKS",
             "location": "(8, 15)",
             "patch": "3.0",
             "drops": "tt.89",
@@ -852,7 +851,7 @@
         "x60": {
             "name_en": "Gibrillont",
             "name_fr": "Gibrillont",
-            "zone": "ZONE.FOUNDATION",
+            "zone": "@ZONE.FOUNDATION",
             "location": "(13, 12)",
             "patch": "3.0",
             "drops": "tt.88",
@@ -861,7 +860,7 @@
         "x59": {
             "name_en": "Gegeruju",
             "name_fr": "Gegeruju",
-            "zone": "ZONE.EASTERN_LA_NOSCEA",
+            "zone": "@ZONE.EASTERN_LA_NOSCEA",
             "location": "(35, 30)",
             "patch": "2.51",
             "drops": ["tt.56", "tt.49"],
@@ -870,7 +869,7 @@
         "x93": {
             "name_en": "Voracious Vath",
             "name_fr": "Vathe Vorace",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "location": "(23, 19)",
             "patch": "3.1",
             "drops": ["tt.105", "tt.109"],
@@ -879,7 +878,7 @@
         "x62": {
             "name_en": "Hab",
             "name_fr": "Hab",
-            "zone": "ZONE.SOUTHERN_THANALAN",
+            "zone": "@ZONE.SOUTHERN_THANALAN",
             "location": "(24, 40)",
             "patch": "2.51",
             "drops": ["tt.45", "tt.62", "tt.46"],
@@ -888,7 +887,7 @@
         "x100": {
             "name_en": "Vorsaile Heuloix",
             "name_fr": "Vorsaile Heuloix",
-            "zone": "ZONE.NEW_GRIDANIA",
+            "zone": "@ZONE.NEW_GRIDANIA",
             "location": "(9.7, 11.0)",
             "patch": "2.51",
             "drops": ["tt.66", "tt.48", "tt.53", "tt.43"],
@@ -897,7 +896,7 @@
         "x63": {
             "name_en": "Hachinan",
             "name_fr": "Hachinan",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "location": "(26.4, 12.9)",
             "patch": "4.0",
             "drops": ["tt.238", "tt.201"],
@@ -906,7 +905,7 @@
         "x98": {
             "name_en": "Isobe",
             "name_fr": "Isobe",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "location": "(20.2, 19.5)",
             "patch": "4.2",
             "drops": ["tt.212", "tt.220"],
@@ -915,7 +914,7 @@
         "x65": {
             "name_en": "Imperial Deserter",
             "name_fr": "Soldat impérial",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "location": "(32.8, 30.1)",
             "patch": "4.0",
             "drops": ["tt.207", "tt.192", "tt.198"],
@@ -924,7 +923,7 @@
         "x73": {
             "name_en": "Laniaitte",
             "name_fr": "Laniaitte",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "location": "(16, 37)",
             "patch": "3.1",
             "drops": ["tt.104", "tt.103"],
@@ -933,7 +932,7 @@
         "x96": {
             "name_en": "Elaisse",
             "name_fr": "Elaisse",
-            "zone": "ZONE.THE_PILLARS",
+            "zone": "@ZONE.THE_PILLARS",
             "location": "(7, 10)",
             "patch": "3.1",
             "drops": ["tt.102", "tt.142"],
@@ -942,7 +941,7 @@
         "x76": {
             "name_en": "Marielle",
             "name_fr": "Marielle",
-            "zone": "ZONE.THE_SEA_OF_CLOUDS",
+            "zone": "@ZONE.THE_SEA_OF_CLOUDS",
             "location": "(15, 37)",
             "patch": "3.0",
             "drops": ["tt.93", "tt.143"],
@@ -951,7 +950,7 @@
         "x39": {
             "name_en": "Idle Imperial",
             "name_fr": "Impérial désœuvré",
-            "zone": "ZONE.AZYS_LLA",
+            "zone": "@ZONE.AZYS_LLA",
             "location": "(28, 31)",
             "patch": "3.0",
             "drops": ["tt.148", "tt.91", "tt.119", "tt.151"],
@@ -960,7 +959,7 @@
         "x86": {
             "name_en": "R'ashaht Rhiki",
             "name_fr": "R'ashaht Rhiki",
-            "zone": "ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+            "zone": "@ZONE.LIMSA_LOMINSA_UPPER_DECKS",
             "location": "(13, 12)",
             "patch": "2.51",
             "drops": ["tt.54", "tt.65", "tt.49"],
@@ -969,7 +968,7 @@
         "x69": {
             "name_en": "King Elmer III",
             "name_fr": "Elmer le Roi",
-            "zone": "ZONE.THE_GOLD_SAUCER",
+            "zone": "@ZONE.THE_GOLD_SAUCER",
             "location": "(3, 7)",
             "patch": "2.51",
             "drops": ["tt.61", "tt.45"],
@@ -978,7 +977,7 @@
         "x66": {
             "name_en": "Indolent Imperial",
             "name_fr": "Impérial paresseux",
-            "zone": "ZONE.MOR_DHONA",
+            "zone": "@ZONE.MOR_DHONA",
             "location": "(11, 17)",
             "patch": "2.51",
             "drops": ["tt.64", "tt.31", "tt.47", "tt.32"],
@@ -987,7 +986,7 @@
         "x83": {
             "name_en": "Nigen",
             "name_fr": "Nigen",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "location": "(31.9, 11.5)",
             "patch": "4.0",
             "drops": ["tt.194", "tt.188"],
@@ -996,7 +995,7 @@
         "x84": {
             "name_en": "Ogodei",
             "name_fr": "Ogodei",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "location": "(22, 20.7)",
             "patch": "4.0",
             "drops": ["tt.195", "tt.188"],
@@ -1005,7 +1004,7 @@
         "x82": {
             "name_en": "Munglig",
             "name_fr": "Munglig",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "location": "(12.2, 33.7)",
             "patch": "4.0",
             "drops": ["tt.196", "tt.188"],
@@ -1014,7 +1013,7 @@
         "x97": {
             "name_en": "Hall Overseer",
             "name_fr": "Croupier de l'arène",
-            "zone": "ZONE.BATTLE_HALL",
+            "zone": "@ZONE.BATTLE_HALL",
             "location": "(3.5, 3.5)",
             "patch": "2.51",
             "drops": ["tt.73", "tt.160"],
@@ -1023,7 +1022,7 @@
         "x14": {
             "name_en": "Marcechamp",
             "name_fr": "Marcechamp",
-            "zone": "ZONE.THE_DRAVANIAN_FORELANDS",
+            "zone": "@ZONE.THE_DRAVANIAN_FORELANDS",
             "location": "(31, 23)",
             "patch": "3.0",
             "drops": "tt.90",
@@ -1032,7 +1031,7 @@
         "x81": {
             "name_en": "Mogmill",
             "name_fr": "Mogmill",
-            "zone": "ZONE.THE_CHURNING_MISTS",
+            "zone": "@ZONE.THE_CHURNING_MISTS",
             "location": "(28, 35)",
             "patch": "3.0",
             "drops": ["tt.83", "tt.115", "tt.82", "tt.108"],
@@ -1041,7 +1040,7 @@
         "x80": {
             "name_en": "Midnight Dew",
             "name_fr": "Midnight Dew",
-            "zone": "ZONE.IDYLLSHIRE",
+            "zone": "@ZONE.IDYLLSHIRE",
             "location": "(5.5, 6.6)",
             "patch": "3.0",
             "drops": ["tt.92", "tt.111"],
@@ -1050,7 +1049,7 @@
         "x88": {
             "name_en": "Rowena",
             "name_fr": "Rowena",
-            "zone": "ZONE.MOR_DHONA",
+            "zone": "@ZONE.MOR_DHONA",
             "location": "(21.9, 5.1)",
             "patch": "2.51",
             "drops": ["tt.34", "tt.60"],
@@ -1059,7 +1058,7 @@
         "x70": {
             "name_en": "Kiuka",
             "name_fr": "Kiuka",
-            "zone": "ZONE.THE_DOMAN_ENCLAVE",
+            "zone": "@ZONE.THE_DOMAN_ENCLAVE",
             "location": "(6.9, 5.9)",
             "patch": "4.0",
             "drops": "tt.202",
@@ -1068,7 +1067,7 @@
         "x99": {
             "name_en": "Lewena",
             "name_fr": "Lewena",
-            "zone": "ZONE.THE_GOLD_SAUCER",
+            "zone": "@ZONE.THE_GOLD_SAUCER",
             "location": "(4, 6)",
             "patch": "2.51",
             "drops": ["tt.72", "tt.70", "tt.73"],

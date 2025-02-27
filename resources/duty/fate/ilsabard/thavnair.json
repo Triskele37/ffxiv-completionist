@@ -9,7 +9,7 @@
             "name_fr": "Obstacles éléphantesques",
             "location": "(17.8, 27.7)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1766": {
             "level": 81,
@@ -17,7 +17,7 @@
             "name_fr": "Code morse",
             "location": "(14.7, 31.3)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1767": {
             "level": 80,
@@ -25,7 +25,7 @@
             "name_fr": "Frissons et tremblements",
             "location": "(20.3, 38.4)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1768": {
             "level": 81,
@@ -33,7 +33,7 @@
             "name_fr": "Bataillon de défense fiel-de-géant",
             "location": "(16.7, 9.0)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1769": {
             "level": 80,
@@ -41,7 +41,7 @@
             "name_fr": "Défi: Kanabhuti la malédiction de la jungle",
             "location": "(17.9, 19.7)",
             "patch": "6.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1770": {
             "level": 81,
@@ -49,7 +49,7 @@
             "name_fr": "Le jeune homme et la mer",
             "location": "(8.2, 15.4)",
             "patch": "6.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x1773": {
             "level": 85,
@@ -57,7 +57,7 @@
             "name_fr": "Jeu empoisonné",
             "location": "(27.8, 10.6)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1774": {
             "level": 85,
@@ -65,7 +65,7 @@
             "name_fr": "Tigres mangeurs d'hommes",
             "location": "(30.8, 19.4)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1775": {
             "level": 85,
@@ -73,7 +73,7 @@
             "name_fr": "Miracle dans la Ksiroda",
             "location": "(30.2, 25.7)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1776": {
             "level": 85,
@@ -81,7 +81,7 @@
             "name_fr": "Papillons vagabonds",
             "location": "(26.5, 14.7)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1777": {
             "level": 85,
@@ -89,7 +89,7 @@
             "name_fr": "Défi: Valyn le tyran",
             "location": "(24.9, 20.0)",
             "patch": "6.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1778": {
             "level": 85,
@@ -97,7 +97,7 @@
             "name_fr": "L'armée des singes",
             "location": "(24.9, 27.1)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1764": {
             "level": 80,
@@ -105,7 +105,7 @@
             "name_fr": "L'alchimiste des senteurs: une cueillette dangereuse",
             "location": "(21.5, 11.1)",
             "patch": "6.0",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x1771": {
             "level": 80,
@@ -114,7 +114,7 @@
             "location": "(14.1, 17.0)",
             "patch": "6.0",
             "previousFate": "f.1764",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1772": {
             "level": 85,
@@ -122,7 +122,7 @@
             "name_fr": "Le culte des Mrga: pélerin perdu",
             "location": "(34.3, 27.5)",
             "patch": "6.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x1779": {
             "level": 85,
@@ -131,7 +131,7 @@
             "location": "(23.0, 23.3)",
             "patch": "6.0",
             "previousFate": "f.1772",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1763": {
             "level": 90,
@@ -140,7 +140,7 @@
             "location": "(9.3, 37.7)",
             "patch": "6.0",
             "previousFate": "f.1779",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }
 }

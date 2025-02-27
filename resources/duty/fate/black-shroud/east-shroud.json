@@ -9,7 +9,7 @@
             "name_fr": "Le miel et les abeilles",
             "location": "(11, 24)",
             "patch": "2.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x144": {
             "level": 16,
@@ -17,7 +17,7 @@
             "name_fr": "Défi: match au sommet",
             "location": "(19, 27)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x149": {
             "level": 17,
@@ -25,7 +25,7 @@
             "name_fr": "Stop à la propagation",
             "location": "(21, 26)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x150": {
             "level": 19,
@@ -33,7 +33,7 @@
             "name_fr": "Défi: les fauteurs de trouble",
             "location": "(20, 29)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x152": {
             "level": 20,
@@ -41,7 +41,7 @@
             "name_fr": "La protection du Massif",
             "location": "(18, 25)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x212": {
             "level": 19,
@@ -49,7 +49,7 @@
             "name_fr": "Les envahisseurs",
             "location": "(20, 29)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x213": {
             "level": 23,
@@ -57,7 +57,7 @@
             "name_fr": "L'offrande",
             "location": "(19, 21)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x214": {
             "level": 11,
@@ -65,7 +65,7 @@
             "name_fr": "Le festin des vautours",
             "location": "(12, 26)",
             "patch": "2.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x217": {
             "level": 21,
@@ -73,7 +73,7 @@
             "name_fr": "L'appel de l'hydromel",
             "location": "(17, 26)",
             "patch": "2.0",
-            "type": "FATE_TYPE.ESCORT"
+            "type": "@FATE.TYPE.ESCORT"
         },
         "x218": {
             "level": 20,
@@ -81,7 +81,7 @@
             "name_fr": "Défi: Laurence pas ravie",
             "location": "(23, 29)",
             "patch": "2.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x607": {
             "level": 40,
@@ -89,7 +89,7 @@
             "name_fr": "Vivre libre ou mourir",
             "location": "(26, 24)",
             "patch": "2.1",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x608": {
             "level": 40,
@@ -97,7 +97,7 @@
             "name_fr": "Occlusion d'otyughs",
             "location": "(26, 23)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x609": {
             "level": 43,
@@ -105,7 +105,7 @@
             "name_fr": "Défi: Cassienova",
             "location": "(23, 20)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x612": {
             "level": 44,
@@ -113,7 +113,7 @@
             "name_fr": "Défi: une option sur l'optio",
             "location": "(32, 20)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x615": {
             "level": 46,
@@ -121,7 +121,7 @@
             "name_fr": "Repénalisation",
             "location": "(28, 17)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x616": {
             "level": 47,
@@ -129,7 +129,7 @@
             "name_fr": "Défi: Daxio le chimiste",
             "location": "(32, 14)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x618": {
             "level": 49,
@@ -137,7 +137,7 @@
             "name_fr": "Un rêve sans fin",
             "location": "(24, 11)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x619": {
             "level": 47,
@@ -145,7 +145,7 @@
             "name_fr": "Défi: vilain Volxia",
             "location": "(29, 13)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x620": {
             "level": 49,
@@ -153,7 +153,7 @@
             "name_fr": "Flapi chapeau",
             "location": "(23, 14)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x622": {
             "level": 49,
@@ -161,7 +161,7 @@
             "name_fr": "Défi: une pulsion contre Pulxio",
             "location": "(20, 10)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x691": {
             "level": 42,
@@ -169,7 +169,7 @@
             "name_fr": "Défi: bon pour la ferraille",
             "location": "(29, 21)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x692": {
             "level": 49,
@@ -177,7 +177,7 @@
             "name_fr": "Défi: ben mon cochon!",
             "location": "(23, 17)",
             "patch": "2.1",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x610": {
             "level": 42,
@@ -185,7 +185,7 @@
             "name_fr": "Entre deux feux",
             "location": "(27, 21)",
             "patch": "2.1",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x611": {
             "level": 42,
@@ -194,7 +194,7 @@
             "location": "(27, 21)",
             "patch": "2.1",
             "previousFate": "f.610",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         }
     }
 }

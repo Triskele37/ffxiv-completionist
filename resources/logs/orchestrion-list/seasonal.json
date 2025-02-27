@@ -2,14 +2,13 @@
     "key": "seasonal",
     "groupName_en": "Seasonal",
     "groupName_fr": "Événements",
-    "common": ["category", "location", "source"],
     "defaultCompletion": "X",
     "tasks": {
         "x300": {
             "number": "-",
             "name_en": "Valse di Fantastica",
             "name_fr": "Valse di Fantastica",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": "A Nocturne for Heroes (2021)",
             "source_fr": "Le Nocturne des Héros (2021)",
             "patch": "4.5"
@@ -18,7 +17,7 @@
             "number": "-",
             "name_en": "Moonfire Faire",
             "name_fr": "Moonfire Faire",
-            "category": ["CATEGORY.EVENT", "CATEGORY.PREMIUM"],
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
             "source_en": "Moonfire Faire (2016)",
             "source_fr": "Les Feux de la Mort (2016)",
             "patch": "3.3"
@@ -27,7 +26,7 @@
             "number": "-",
             "name_en": "Heavensward",
             "name_fr": "Heavensward",
-            "category": ["CATEGORY.EVENT", "CATEGORY.PREMIUM"],
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
             "source_en": "The Rising (2016)",
             "source_fr": "Fête de la Commémoration (2016)",
             "patch": "3.3"
@@ -36,7 +35,7 @@
             "number": "-",
             "name_en": "All Saints' Wake",
             "name_fr": "All Saints' Wake",
-            "category": ["CATEGORY.EVENT", "CATEGORY.PREMIUM"],
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
             "source_en": "All Saints' Wake (2016)",
             "source_fr": "La Veillée des saints (2016)",
             "patch": "3.4"
@@ -45,7 +44,7 @@
             "number": "-",
             "name_en": "Up at Dawn",
             "name_fr": "Up at Dawn",
-            "category": ["CATEGORY.EVENT", "CATEGORY.PREMIUM"],
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
             "source_en": "All Saints' Wake (2016)",
             "source_fr": "La Veillée des saints (2016)",
             "patch": "3.4"
@@ -54,7 +53,7 @@
             "number": "-",
             "name_en": "Starlight Celebration",
             "name_fr": "Starlight Celebration",
-            "category": ["CATEGORY.EVENT", "CATEGORY.PREMIUM"],
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
             "source_en": "Starlight Celebration (2016)",
             "source_fr": "La fête des étoiles (2016)",
             "patch": "3.45"
@@ -63,7 +62,7 @@
             "number": "-",
             "name_en": "Heavensturn",
             "name_fr": "Heavensturn",
-            "category": ["CATEGORY.EVENT", "CATEGORY.PREMIUM"],
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
             "source_en": "Heavensturn (2017)",
             "source_fr": "Fête de la transition (2017)",
             "patch": "3.45"
@@ -72,7 +71,7 @@
             "number": "-",
             "name_en": "The Kiss",
             "name_fr": "The Kiss",
-            "category": ["CATEGORY.EVENT", "CATEGORY.PREMIUM"],
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
             "source_en": "Valentione's Day (2017)",
             "source_fr": "La Valention (2017)",
             "patch": "3.5"
@@ -81,7 +80,7 @@
             "number": "-",
             "name_en": "Hyper Rainbow Z",
             "name_fr": "Hyper Rainbow Z",
-            "category": ["CATEGORY.EVENT", "CATEGORY.PREMIUM"],
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
             "source_en": "Moonfire Faire (2017)",
             "source_fr": "Les Feux de la Mort (2017)",
             "patch": "4.05"
@@ -90,7 +89,7 @@
             "number": "-",
             "name_en": "Answers - Reprise",
             "name_fr": "Answers - Reprise",
-            "category": ["CATEGORY.EVENT", "CATEGORY.PREMIUM"],
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
             "source_en": "The Rising (2017)",
             "source_fr": "Fête de la Commémoration (2017)",
             "patch": "4.05"
@@ -99,7 +98,7 @@
             "number": "-",
             "name_en": "Stormblood",
             "name_fr": "Stormblood",
-            "category": ["CATEGORY.EVENT", "CATEGORY.PREMIUM"],
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
             "source_en": "The Rising (2017)",
             "source_fr": "Fête de la Commémoration (2017)",
             "patch": "4.05"
@@ -108,7 +107,7 @@
             "number": "-",
             "name_en": "Starlit Gateway",
             "name_fr": "Starlit Gateway",
-            "category": ["CATEGORY.EVENT", "CATEGORY.PREMIUM"],
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
             "source_en": "Starlight Celebration (2017)",
             "source_fr": "La fête des étoiles (2017)",
             "patch": "4.1"
@@ -117,7 +116,7 @@
             "number": "-",
             "name_en": "Siren Song",
             "name_fr": "Siren Song",
-            "category": ["CATEGORY.EVENT", "CATEGORY.PREMIUM"],
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
             "source_en": "Little Ladies' Day (2018)",
             "source_fr": "La fête des demoiselles (2018)",
             "patch": "4.2"
@@ -126,7 +125,7 @@
             "number": "-",
             "name_en": "Revolutions",
             "name_fr": "Revolutions",
-            "category": ["CATEGORY.EVENT", "CATEGORY.PREMIUM"],
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
             "source_en": "The Rising (2018)",
             "source_fr": "Fête de la Commémoration (2018)",
             "patch": "4.35"
@@ -135,7 +134,7 @@
             "number": "-",
             "name_en": "Starlight, Starbright",
             "name_fr": "Starlight, Starbright",
-            "category": ["CATEGORY.EVENT", "CATEGORY.PREMIUM"],
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
             "source_en": "Starlight Celebration (2018)",
             "source_fr": "La fête des étoiles (2018)",
             "patch": "4.4"
@@ -144,7 +143,7 @@
             "number": "-",
             "name_en": "Starlight de Chocobo",
             "name_fr": "Starlight de Chocobo",
-            "category": ["CATEGORY.EVENT", "CATEGORY.PREMIUM"],
+            "category": ["@CATEGORY.EVENT", "@CATEGORY.PREMIUM"],
             "source_en": "Starlight Celebration (2019)",
             "source_fr": "La fête des étoiles (2019)",
             "patch": "5.1"
@@ -153,7 +152,7 @@
             "number": "-",
             "name_en": "Hammerhead",
             "name_fr": "Hammerhead",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": "A Nocturne for Heroes (2021)",
             "source_fr": "Le Nocturne des Héros (2021)",
             "patch": "4.5"
@@ -162,7 +161,7 @@
             "number": "-",
             "name_en": "Relax and Reflect",
             "name_fr": "Relax and Reflect",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": "A Nocturne for Heroes (2021)",
             "source_fr": "Le Nocturne des Héros (2021)",
             "patch": "4.5"
@@ -171,7 +170,7 @@
             "number": "-",
             "name_en": "Veiled in Black",
             "name_fr": "Veiled in Black",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": "A Nocturne for Heroes (2021)",
             "source_fr": "Le Nocturne des Héros (2021)",
             "patch": "4.5"
@@ -180,7 +179,7 @@
             "number": "-",
             "name_en": "Apocalypsis Noctis",
             "name_fr": "Apocalypsis Noctis",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": "A Nocturne for Heroes (2021)",
             "source_fr": "Le Nocturne des Héros (2021)",
             "patch": "4.5"
@@ -189,7 +188,7 @@
             "number": "-",
             "name_en": "A Quick Pit Stop",
             "name_fr": "A Quick Pit Stop",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": "A Nocturne for Heroes (2021)",
             "source_fr": "Le Nocturne des Héros (2021)",
             "patch": "4.5"
@@ -198,7 +197,7 @@
             "number": "-",
             "name_en": "Decisions",
             "name_fr": "Decisions",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": "Little Ladies' Day (2023)",
             "source_fr": "La fête des demoiselles (2023)",
             "patch": "6.3"
@@ -207,7 +206,7 @@
             "number": "-",
             "name_en": "Pa-Paya Demastered",
             "name_fr": "Pa-Paya Demastered",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": "Hatching-tide (2023)",
             "source_fr": "La chasse aux Prœufs (2023)",
             "patch": "6.3"
@@ -216,7 +215,7 @@
             "number": "-",
             "name_en": "The Land Reborn",
             "name_fr": "The Land Reborn",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": "The Rising (2023)",
             "source_fr": "Fête de la Commémoration (2023)",
             "patch": "6.48"
@@ -225,7 +224,7 @@
             "number": "-",
             "name_en": "Pom from the Heavens",
             "name_fr": "Pom from the Heavens",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": "The Rising (2023)",
             "source_fr": "Fête de la Commémoration (2023)",
             "patch": "6.48"
@@ -234,7 +233,7 @@
             "number": "-",
             "name_en": "Everybody Falls (Fall Guys Theme)",
             "name_fr": "Everybody Falls",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": "220 MGF",
             "source_fr": "220 Point de Célébrité du Gold Saucer",
             "patch": "6.51"
@@ -243,7 +242,7 @@
             "number": "-",
             "name_en": "Tonitrua ex Machina",
             "name_fr": "Tonitrua ex Machina",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": ["FF XVI Collaboration", "20,000 MGP"],
             "source_fr": ["FF XVI Collaboration", "20.000 PGS"],
             "patch": "6.58"
@@ -252,7 +251,7 @@
             "number": "-",
             "name_en": "Idylls of the Empire",
             "name_fr": "Idylls of the Empire",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": ["FF XVI Collaboration", "20,000 MGP"],
             "source_fr": ["FF XVI Collaboration", "20.000 PGS"],
             "patch": "6.58"
@@ -261,7 +260,7 @@
             "number": "-",
             "name_en": "Forevermore - The Grand Duchy of Rosaria",
             "name_fr": "Forevermore - The Grand Duchy of Rosaria",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": ["FF XVI Collaboration", "20,000 MGP"],
             "source_fr": ["FF XVI Collaboration", "20.000 PGS"],
             "patch": "6.58"
@@ -270,7 +269,7 @@
             "number": "-",
             "name_en": "Before the Storm - Caer Norvent",
             "name_fr": "Before the Storm - Caer Norvent",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": ["FF XVI Collaboration", "20,000 MGP"],
             "source_fr": ["FF XVI Collaboration", "20.000 PGS"],
             "patch": "6.58"
@@ -279,7 +278,7 @@
             "number": "-",
             "name_en": "The State of the Realm",
             "name_fr": "The State of the Realm",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": ["FF XVI Collaboration", "20,000 MGP"],
             "source_fr": ["FF XVI Collaboration", "20.000 PGS"],
             "patch": "6.58"
@@ -288,7 +287,7 @@
             "number": "-",
             "name_en": "Who I Really Am",
             "name_fr": "Who I Really Am",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": ["FF XVI Collaboration", "20,000 MGP"],
             "source_fr": ["FF XVI Collaboration", "20.000 PGS"],
             "patch": "6.58"
@@ -297,7 +296,7 @@
             "number": "-",
             "name_en": "Away (Refrain)",
             "name_fr": "Away (Refrain)",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": ["FF XVI Collaboration", "20,000 MGP"],
             "source_fr": ["FF XVI Collaboration", "20.000 PGS"],
             "patch": "6.58"
@@ -306,7 +305,7 @@
             "number": "-",
             "name_en": "To Sail Forbidden Seas",
             "name_fr": "To Sail Forbidden Seas",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": ["FF XVI Collaboration", "20,000 MGP"],
             "source_fr": ["FF XVI Collaboration", "20.000 PGS"],
             "patch": "6.58"
@@ -315,7 +314,7 @@
             "number": "-",
             "name_en": "Find the Flame",
             "name_fr": "Find the Flame",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": ["FF XVI Collaboration", "20,000 MGP"],
             "source_fr": ["FF XVI Collaboration", "20.000 PGS"],
             "patch": "6.58"
@@ -324,7 +323,7 @@
             "number": "-",
             "name_en": "Land of Eikons",
             "name_fr": "Land of Eikons",
-            "category": "CATEGORY.EVENT",
+            "category": "@CATEGORY.EVENT",
             "source_en": ["FF XVI Collaboration", "20,000 MGP"],
             "source_fr": ["FF XVI Collaboration", "20.000 PGS"],
             "patch": "6.58"

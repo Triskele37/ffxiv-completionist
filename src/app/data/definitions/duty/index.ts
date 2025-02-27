@@ -28,13 +28,14 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
             path: 'duty-raid-finder',
             subGroups: [
                 {
-                    path: 'dungeon',
+                    path: 'dungeons',
                     subGroups: [
                         'arr',
                         'hw',
                         'sb',
                         'shb',
-                        'ew'
+                        'ew',
+                        'dt'
                     ]
                 },
                 {
@@ -44,7 +45,8 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                         'hw',
                         'sb',
                         'shb',
-                        'ew'
+                        'ew',
+                        'dt'
                     ]
                 },
                 {
@@ -54,7 +56,8 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                         'hw',
                         'sb',
                         'shb',
-                        'ew'
+                        'ew',
+                        'dt'
                     ]
                 },
                 {
@@ -70,23 +73,14 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                         { path: 'aloalo-island', subGroups: ['record'] },
                     ]
                 },
-                {
-                    path: 'the-hunt',
-                    subGroups: [
-                        'arr',
-                        'hw',
-                        'sb',
-                        'shb',
-                        'ew'
-                    ]
-                }
             ]
         },
         {
             path: 'trust',
             subGroups: [
                 'shb',
-                'ew'
+                'ew',
+                'dt'
             ]
         },
         {
@@ -220,6 +214,17 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
             subGroups: [
                 'maps',
                 'duties'
+            ]
+        },
+        {
+            path: 'the-hunt',
+            subGroups: [
+                'arr',
+                'hw',
+                'sb',
+                'shb',
+                'ew',
+                'dt'
             ]
         },
         {

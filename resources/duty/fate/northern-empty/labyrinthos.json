@@ -9,7 +9,7 @@
             "name_fr": "Le mal du pays",
             "location": "(16.2, 6.7)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1746": {
             "level": 81,
@@ -17,7 +17,7 @@
             "name_fr": "Drôles de frimousses",
             "location": "(28.6, 8.0)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1747": {
             "level": 80,
@@ -25,7 +25,7 @@
             "name_fr": "La révolution de la chaîne alimentaire",
             "location": "(23.3, 11.8)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1748": {
             "level": 81,
@@ -33,7 +33,7 @@
             "name_fr": "22, v'là les poulets!",
             "location": "(30.1, 21.8)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1749": {
             "level": 80,
@@ -41,7 +41,7 @@
             "name_fr": "Défi: l'abominable blob des neiges",
             "location": "(31.6, 8.8)",
             "patch": "6.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1750": {
             "level": 81,
@@ -49,7 +49,7 @@
             "name_fr": "Toxique dans les prés",
             "location": "(14.4, 9.4)",
             "patch": "6.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x1753": {
             "level": 88,
@@ -57,7 +57,7 @@
             "name_fr": "Danger radiation!",
             "location": "(6.3, 31.8)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1754": {
             "level": 88,
@@ -65,7 +65,7 @@
             "name_fr": "Il faut souffrir pour avoir une belle peau",
             "location": "(22.9, 35.7)",
             "patch": "6.0",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x1755": {
             "level": 88,
@@ -73,7 +73,7 @@
             "name_fr": "Pollution gélatineuse",
             "location": "(9.3, 35.8)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1756": {
             "level": 88,
@@ -81,7 +81,7 @@
             "name_fr": "L'attaque des doblyns irradiés",
             "location": "(24.1, 23.1)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1757": {
             "level": 88,
@@ -89,7 +89,7 @@
             "name_fr": "Défi: Fraelissa l'insatiable",
             "location": "(11.8, 19.9)",
             "patch": "6.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1758": {
             "level": 88,
@@ -97,7 +97,7 @@
             "name_fr": "Aux quatre vents",
             "location": "(8.3, 24.0)",
             "patch": "6.0",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x1743": {
             "level": 80,
@@ -105,7 +105,7 @@
             "name_fr": "Rapport de dégâts: végétaux létaux",
             "location": "(33.6, 14.9)",
             "patch": "6.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1744": {
             "level": 81,
@@ -114,7 +114,7 @@
             "location": "(29.7, 25.1)",
             "patch": "6.0",
             "previousFate": "f.1743",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1751": {
             "level": 85,
@@ -123,7 +123,7 @@
             "location": "(23.6, 31.8)",
             "patch": "6.0",
             "previousFate": "f.1744",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1752": {
             "level": 85,
@@ -132,7 +132,7 @@
             "location": "(18.1, 38.4)",
             "patch": "6.0",
             "previousFate": "f.1751",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         }
     }
 }

@@ -3,7 +3,7 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 /** Orchestrion changes from Generated Resources
  * */
 export function migrateOrchestrions(store: ChangeStore): void {
-    store.safeChangeKeys(`overall.character.mount-guide`, [
+    store.safeChangeKeys(`overall.logs.orchestrion-list`, [
         [0, 152], // Ambient Birdsong
         [1, 151], // Ambient Waves
         [2, 153], // Ambient Rainfall

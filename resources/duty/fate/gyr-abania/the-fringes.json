@@ -9,7 +9,7 @@
             "name_fr": "Et au milieu coule un ruisseau",
             "location": "(12.5, 11.3)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1116": {
             "level": 60,
@@ -17,7 +17,7 @@
             "name_fr": "Danse avec les ours",
             "location": "(10.1, 12.6)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1117": {
             "level": 61,
@@ -25,7 +25,7 @@
             "name_fr": "Saprias, c'est fini",
             "location": "(12, 25.8)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1118": {
             "level": 60,
@@ -33,7 +33,7 @@
             "name_fr": "Défi: bon ours, bon œil",
             "location": "(11.9, 16.7)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1119": {
             "level": 60,
@@ -41,7 +41,7 @@
             "name_fr": "Défi: dopage alchimique",
             "location": "(18, 11)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1120": {
             "level": 60,
@@ -49,7 +49,7 @@
             "name_fr": "Purge aux Marges",
             "location": "(28.6, 12.0)",
             "patch": "4.0",
-            "type": "FATE_TYPE.ESCORT"
+            "type": "@FATE.TYPE.ESCORT"
         },
         "x1121": {
             "level": 60,
@@ -57,7 +57,7 @@
             "name_fr": "Nouvelle purge aux Marges",
             "location": "(23.7, 14.0)",
             "patch": "4.0",
-            "type": "FATE_TYPE.ESCORT"
+            "type": "@FATE.TYPE.ESCORT"
         },
         "x1122": {
             "level": 60,
@@ -65,7 +65,7 @@
             "name_fr": "Gare aux dharas",
             "location": "(23, 10)",
             "patch": "4.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x1124": {
             "level": 60,
@@ -73,7 +73,7 @@
             "name_fr": "Gaganas pique-assiette",
             "location": "(27, 10)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1125": {
             "level": 61,
@@ -81,7 +81,7 @@
             "name_fr": "Pulsions déplacées",
             "location": "(10.7, 29.5)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1126": {
             "level": 60,
@@ -89,7 +89,7 @@
             "name_fr": "Repousser les moussemousses",
             "location": "(12, 14)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1127": {
             "level": 61,
@@ -97,7 +97,7 @@
             "name_fr": "Sus aux saillots",
             "location": "(11.5, 22.4)",
             "patch": "4.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x1128": {
             "level": 61,
@@ -105,7 +105,7 @@
             "name_fr": "Au diable les diakkas!",
             "location": "(10, 18)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1129": {
             "level": 61,
@@ -113,7 +113,7 @@
             "name_fr": "Défi: mauvaise graine",
             "location": "(15.2, 22.7)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1130": {
             "level": 61,
@@ -121,7 +121,7 @@
             "name_fr": "Défi: la colline a huit yeux",
             "location": "(17, 18)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1131": {
             "level": 67,
@@ -129,7 +129,7 @@
             "name_fr": "Un fourmilion fort mignon",
             "location": "(31.4, 29.6)",
             "patch": "4.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x1132": {
             "level": 67,
@@ -137,7 +137,7 @@
             "name_fr": "Défi: un tyran au ban",
             "location": "(29.7, 23.9)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1133": {
             "level": 67,
@@ -145,7 +145,7 @@
             "name_fr": "Chasse en hauteur",
             "location": "(27.3, 25.3)",
             "patch": "4.0",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x1134": {
             "level": 67,
@@ -153,7 +153,7 @@
             "name_fr": "Les caches font de la résistance",
             "location": "(35.7, 28.4)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1136": {
             "level": 67,
@@ -161,7 +161,7 @@
             "name_fr": "Colliers serrés",
             "location": "(34.4, 26.1)",
             "patch": "4.0",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x1137": {
             "level": 67,
@@ -169,7 +169,7 @@
             "name_fr": "Défi: ça va barder pour Berda",
             "location": "(27.8, 27.8)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1138": {
             "level": 67,
@@ -177,7 +177,7 @@
             "name_fr": "Défi: sœurs vengeresses",
             "location": "(28.3, 17.1)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1140": {
             "level": 61,
@@ -185,7 +185,7 @@
             "name_fr": "Honnis soient les canis",
             "location": "(13.7, 20.2)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1141": {
             "level": 67,
@@ -193,7 +193,7 @@
             "name_fr": "La chasse gardée des M",
             "location": "(31.8, 25.6)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1112": {
             "level": 60,
@@ -201,7 +201,7 @@
             "name_fr": "Donner la réplique aux soldats",
             "location": "(8.5, 16.7)",
             "patch": "4.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1113": {
             "level": 60,
@@ -210,7 +210,7 @@
             "location": "(8.8, 16.3)",
             "patch": "4.0",
             "previousFate": "f.1112",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1114": {
             "level": 60,
@@ -219,7 +219,7 @@
             "location": "(9.0, 16.3)",
             "patch": "4.0",
             "previousFate": "f.1113",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1135": {
             "level": 67,
@@ -227,7 +227,7 @@
             "name_fr": "Défi: martyriser les marids",
             "location": "(31.0, 21.5)",
             "patch": "4.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1139": {
             "level": 67,
@@ -236,7 +236,7 @@
             "location": "(30.8, 21.4)",
             "patch": "4.0",
             "previousFate": "f.1135",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }
 }

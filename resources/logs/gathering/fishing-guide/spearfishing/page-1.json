@@ -2,717 +2,716 @@
     "key": "page-1",
     "groupName_en": "Page 1",
     "groupName_fr": "Page 1",
-    "common": ["zone", "bait"],
     "tasks": {
         "x0": {
             "name_en": "Wentletrap",
             "name_fr": "Mollusque de rubis",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.1",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x1": {
             "name_en": "Black Boxfish",
             "name_fr": "Poisson-coffre noir",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.0",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
         },
         "x2": {
             "name_en": "Glass Manta",
             "name_fr": "Raie de verre",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.1",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
         },
         "x3": {
             "name_en": "Regal Silverside",
             "name_fr": "Capucette royale",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.2",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW"
         },
         "x4": {
             "name_en": "Snowflake Moray",
             "name_fr": "Murène flocon",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.4",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x5": {
             "name_en": "Hoppfish",
             "name_fr": "Poisson sauteur",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.8",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE"
         },
         "x6": {
             "name_en": "Lightscale",
             "name_fr": "Légèrécaille",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.8",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_SLOW"
         },
         "x7": {
             "name_en": "Grass Fugu",
             "name_fr": "Fugu de roseau",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.10",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
         },
         "x8": {
             "name_en": "Giant Eel",
             "name_fr": "Anguille géante",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.9",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW"
         },
         "x9": {
             "name_en": "Kamina Crab",
             "name_fr": "Crabe kamina",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.10",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
         },
         "x10": {
             "name_en": "Spider Crab",
             "name_fr": "Crabe araignée",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.0",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_SLOW"
         },
         "x11": {
             "name_en": "Little Dragonfish",
             "name_fr": "Petit poisson-dragon",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.2",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
         },
         "x12": {
             "name_en": "Black Fanfish",
             "name_fr": "Poisson-éventail noir",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.4",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
         },
         "x13": {
             "name_en": "Zebra Shark",
             "name_fr": "Requin-zèbre",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.3",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.HYPER_FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.HYPER_FAST"
         },
         "x14": {
             "name_en": "Nophica's Comb",
             "name_fr": "Peigne de Nophica",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.4",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
         },
         "x15": {
             "name_en": "Warty Wartfish",
             "name_fr": "Poisson-furoncle",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.8",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x16": {
             "name_en": "Common Whelk",
             "name_fr": "Bulot ordinaire",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.9",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x17": {
             "name_en": "Hairless Barb",
             "name_fr": "Barbeau imberbe",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.10",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
         },
         "x18": {
             "name_en": "Hatchetfish",
             "name_fr": "Poisson-hachette",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.0",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW"
         },
         "x19": {
             "name_en": "Threadfish",
             "name_fr": "Poisson-fil",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.0",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
         },
         "x20": {
             "name_en": "Garden Eel",
             "name_fr": "Anguille de jardin",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.1",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
         },
         "x21": {
             "name_en": "Eastern Sea Pickle",
             "name_fr": "Holothurie",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.2",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x22": {
             "name_en": "Brindlebass",
             "name_fr": "Mérou géant",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.3",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_FAST"
         },
         "x23": {
             "name_en": "Demon Stonefish",
             "name_fr": "Poisson-pierre démon",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.4",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
         },
         "x24": {
             "name_en": "Armored Crayfish",
             "name_fr": "Écrevisse blindée",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.9",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW"
         },
         "x25": {
             "name_en": "Bighead Carp",
             "name_fr": "Carpe à grosse tête",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.9",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST"
         },
         "x26": {
             "name_en": "Zeni Clam",
             "name_fr": "Palourde zeni",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.10",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x27": {
             "name_en": "Corpse-Eater",
             "name_fr": "Nécrophage",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.0",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
         },
         "x28": {
             "name_en": "Ronin Trevally",
             "name_fr": "Carangue rônin",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.1",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
         },
         "x29": {
             "name_en": "Toothsome Grouper",
             "name_fr": "Garouga enchanteur",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.2",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.SUPER_FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SUPER_FAST"
         },
         "x30": {
             "name_en": "Horned Turban",
             "name_fr": "Turbo cornu",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.3",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x31": {
             "name_en": "Ruby Sea Star",
             "name_fr": "Étoile de rubis",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.4",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x32": {
             "name_en": "Gauntlet Crab",
             "name_fr": "Crabe gantelet",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.8",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
         },
         "x33": {
             "name_en": "Hermit Goby",
             "name_fr": "Gobie ermite",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.9",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
         },
         "x34": {
             "name_en": "Skythorn",
             "name_fr": "Épine céleste",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.10",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
         },
         "x35": {
             "name_en": "Swordtip",
             "name_fr": "Calmar-crayon",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.1",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
         },
         "x36": {
             "name_en": "False Scad",
             "name_fr": "Faux chinchard",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.2",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
         },
         "x37": {
             "name_en": "Snow Crab",
             "name_fr": "Crabe des neiges",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.3",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
         },
         "x38": {
             "name_en": "Red-Eyed Lates",
             "name_fr": "Lates aux yeux rouges",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.4",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST"
         },
         "x39": {
             "name_en": "Common Bitterling",
             "name_fr": "Bouvière ordinaire",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.8",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
         },
         "x40": {
             "name_en": "Fifty-Summer Cod",
             "name_fr": "Morue des cinquante étés",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.8",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
         },
         "x41": {
             "name_en": "Nagxian Mullet",
             "name_fr": "Mulet de Nagxia",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.10",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
         },
         "x42": {
             "name_en": "Redcoat",
             "name_fr": "Tunique rouge",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.5",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
         },
         "x43": {
             "name_en": "Yanxian Tiger Prawn",
             "name_fr": "Crevette tigrée de Yanxia",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.11",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE"
         },
         "x44": {
             "name_en": "Tengu Fan",
             "name_fr": "Palourde tengu",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.11",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
         },
         "x45": {
             "name_en": "Star Turban",
             "name_fr": "Turbo étoilé",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.12",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x46": {
             "name_en": "Blue-Fish",
             "name_fr": "Tassergal",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.12",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_SLOW"
         },
         "x47": {
             "name_en": "Steppe Bullfrog",
             "name_fr": "Grenouille-taureau des steppes",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.14",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x48": {
             "name_en": "Cavalry Catfish",
             "name_fr": "Poisson-chat de cavalerie",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.14",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW"
         },
         "x49": {
             "name_en": "Redfin",
             "name_fr": "Perche franche",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.15",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
         },
         "x50": {
             "name_en": "Moondisc",
             "name_fr": "Discus lunaire",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.0",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
         },
         "x51": {
             "name_en": "Bleached Bonytongue",
             "name_fr": "Arowana décoloré",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.0",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x52": {
             "name_en": "Salt Shark",
             "name_fr": "Requin salin",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.1",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_FAST"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_FAST"
         },
         "x53": {
             "name_en": "King's Mantle",
             "name_fr": "Manteau du roi",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.2",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW"
         },
         "x54": {
             "name_en": "Sea Lamp",
             "name_fr": "Lanterne des mers",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.5",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x55": {
             "name_en": "Amberjack",
             "name_fr": "Sériole",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.5",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST"
         },
         "x56": {
             "name_en": "Cherry Salmon",
             "name_fr": "Saumon masou",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.11",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
         },
         "x57": {
             "name_en": "Yu-No-Hana Crab",
             "name_fr": "Crabe yunohana",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.12",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
         },
         "x58": {
             "name_en": "Dotharli Gudgeon",
             "name_fr": "Goujon dotharl",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.14",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.SLOW"
         },
         "x59": {
             "name_en": "River Clam",
             "name_fr": "Palourde de rivière",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.15",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x60": {
             "name_en": "Grass Shark",
             "name_fr": "Requin de roseau",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.15",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SLOW"
         },
         "x61": {
             "name_en": "Typhoon Shrimp",
             "name_fr": "Crevette typhon",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.0",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
         },
         "x62": {
             "name_en": "Rock Oyster",
             "name_fr": "Huître rocheuse",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.1",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x63": {
             "name_en": "Salt Urchin",
             "name_fr": "Oursin salin",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.2",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x64": {
             "name_en": "Carpenter Crab",
             "name_fr": "Crabe charpentier",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.2",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
         },
         "x65": {
             "name_en": "Spiny Lobster",
             "name_fr": "Langouste",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.5",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
         },
         "x66": {
             "name_en": "Mitsukuri Shark",
             "name_fr": "Requin-lutin",
-            "zone": "ZONE.THE_RUBY_SEA",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.FAST",
+            "zone": "@ZONE.THE_RUBY_SEA",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST",
             "fishingHoles_en": "Unspoiled Teeming Waters",
             "fishingHoles_fr": "Courant poissonneux"
         },
         "x67": {
             "name_en": "Doman Bubble Eye",
             "name_fr": "Poisson télescope de Doma",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.11",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
         },
         "x68": {
             "name_en": "Dragon Squeaker",
             "name_fr": "Silure draconique",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.12",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW"
         },
         "x69": {
             "name_en": "Dawn Herald",
             "name_fr": "Héraut de l'Aube",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.14",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE"
         },
         "x70": {
             "name_en": "Salt Cellar",
             "name_fr": "Escargot salin",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.0",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x71": {
             "name_en": "White Sturgeon",
             "name_fr": "Esturgeon blanc",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.1",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
         },
         "x72": {
             "name_en": "Tithe Collector",
             "name_fr": "Garoupa géant salin",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.2",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
         },
         "x73": {
             "name_en": "Bashful Batfish",
             "name_fr": "Platax ombré",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.5",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
         },
         "x74": {
             "name_en": "River Bream",
             "name_fr": "Pagre de rivière",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.11",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.FAST"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.FAST"
         },
         "x75": {
             "name_en": "Snipe Eel",
             "name_fr": "Poisson-avocette",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.12",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
         },
         "x76": {
             "name_en": "Cherubfish",
             "name_fr": "Poisson-ange",
-            "zone": "ZONE.YANXIA",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
+            "zone": "@ZONE.YANXIA",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE",
             "fishingHoles_en": "Unspoiled Teeming Waters",
             "fishingHoles_fr": "Courant poissonneux"
         },
         "x77": {
             "name_en": "Dusk Herald",
             "name_fr": "Héraut du Crépuscule",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.14",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
         },
         "x78": {
             "name_en": "Glaring Perch",
             "name_fr": "Perche flamboyante",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.15",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.FAST"
         },
         "x79": {
             "name_en": "Abalathian Pipira",
             "name_fr": "Pipira d'Abalathia",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.0",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.AVERAGE"
         },
         "x80": {
             "name_en": "Steel Loach",
             "name_fr": "Loche d'acier",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.1",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW"
         },
         "x81": {
             "name_en": "Ivory Sole",
             "name_fr": "Sole d'ivoire",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.2",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.EXTREMELY_SLOW"
         },
         "x82": {
             "name_en": "Motley Beakfish",
             "name_fr": "Ishidaï bigarré",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.5",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.AVERAGE"
         },
         "x83": {
             "name_en": "Thousandfang",
             "name_fr": "Mille-crocs",
-            "zone": "ZONE.THE_RUBY_SEA",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.SUPER_FAST",
+            "zone": "@ZONE.THE_RUBY_SEA",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SUPER_FAST",
             "fishingHoles_en": "Unspoiled Teeming Waters",
             "fishingHoles_fr": "Courant poissonneux"
         },
         "x84": {
             "name_en": "Ichthyosaur",
             "name_fr": "Ichtyosaure",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.11",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_FAST"
         },
         "x85": {
             "name_en": "Sailfin",
             "name_fr": "Hakkaku",
-            "zone": "ZONE.YANXIA",
+            "zone": "@ZONE.YANXIA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.12",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_FAST"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_FAST"
         },
         "x86": {
             "name_en": "Fangshi",
             "name_fr": "Fangshi",
-            "zone": "ZONE.YANXIA",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
+            "zone": "@ZONE.YANXIA",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW",
             "fishingHoles_en": "Unspoiled Teeming Waters",
             "fishingHoles_fr": "Courant poissonneux"
         },
         "x87": {
             "name_en": "Flamefish",
             "name_fr": "Poisson-flamme",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.14",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_FAST"
         },
         "x88": {
             "name_en": "Fickle Krait",
             "name_fr": "Bongare volage",
-            "zone": "ZONE.THE_AZIM_STEPPE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.15",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
         },
         "x89": {
             "name_en": "Eternal Eye",
             "name_fr": "Prunelle éternelle",
-            "zone": "ZONE.THE_AZIM_STEPPE",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.VERY_FAST",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_FAST",
             "fishingHoles_en": "Unspoiled Teeming Waters",
             "fishingHoles_fr": "Courant poissonneux"
         },
         "x90": {
             "name_en": "Soul of the Stallion",
             "name_fr": "Âme de l'étalon",
-            "zone": "ZONE.THE_AZIM_STEPPE",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.AVERAGE",
+            "zone": "@ZONE.THE_AZIM_STEPPE",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE",
             "fishingHoles_en": "Unspoiled Teeming Waters",
             "fishingHoles_fr": "Courant poissonneux"
         },
         "x91": {
             "name_en": "Flood Tuna",
             "name_fr": "Thon du déluge",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.0",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.EXTREMELY_FAST"
         },
         "x92": {
             "name_en": "Mercenary Crab",
             "name_fr": "Crabe mercenaire",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.1",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.VERY_SLOW"
         },
         "x93": {
             "name_en": "Ashfish",
             "name_fr": "Poisson-cendre",
-            "zone": "ZONE.THE_LOCHS",
+            "zone": "@ZONE.THE_LOCHS",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.gyr-abania.2",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.SLOW"
         },
         "x94": {
             "name_en": "Silken Sunfish",
             "name_fr": "Poisson-lune satiné",
-            "zone": "ZONE.THE_LOCHS",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.VERY_SLOW",
+            "zone": "@ZONE.THE_LOCHS",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.VERY_SLOW",
             "fishingHoles_en": "Unspoiled Teeming Waters",
             "fishingHoles_fr": "Courant poissonneux"
         },
         "x95": {
             "name_en": "Mosasaur",
             "name_fr": "Mosasaure",
-            "zone": "ZONE.THE_LOCHS",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.SUPER_FAST",
+            "zone": "@ZONE.THE_LOCHS",
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.SUPER_FAST",
             "fishingHoles_en": "Unspoiled Teeming Waters",
             "fishingHoles_fr": "Courant poissonneux"
         },
         "x96": {
             "name_en": "Tiny Tatsunoko",
             "name_fr": "Hippocampoupon",
-            "zone": "ZONE.THE_RUBY_SEA",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.AVERAGE",
+            "zone": "@ZONE.THE_RUBY_SEA",
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.AVERAGE",
             "fishingHoles_en": "Unspoiled Teeming Waters",
             "fishingHoles_fr": "Courant poissonneux"
         },
         "x97": {
             "name_en": "Ichimonji",
             "name_fr": "Ichimonji",
-            "zone": "ZONE.THE_RUBY_SEA",
+            "zone": "@ZONE.THE_RUBY_SEA",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.othard.5",
-            "bait": "FISH.SIZE.LARGE / FISH.SPEED.MEGA_FAST"
+            "bait": "@FISH.SIZE.LARGE / FISH.SPEED.MEGA_FAST"
         },
         "x98": {
             "name_en": "Snailfish",
             "name_fr": "Poisson-limace",
-            "zone": "ZONE.THE_RUBY_SEA",
-            "bait": "FISH.SIZE.MEDIUM / FISH.SPEED.FAST",
+            "zone": "@ZONE.THE_RUBY_SEA",
+            "bait": "@FISH.SIZE.MEDIUM / FISH.SPEED.FAST",
             "fishingHoles_en": "Unspoiled Teeming Waters",
             "fishingHoles_fr": "Courant poissonneux"
         },
         "x99": {
             "name_en": "Grey Carp",
             "name_fr": "Carpe grise",
-            "zone": "ZONE.LAKELAND",
+            "zone": "@ZONE.LAKELAND",
             "fishingHoles": "logs.gathering.fishing-log.spearfishing.norvrandt.1",
-            "bait": "FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
+            "bait": "@FISH.SIZE.SMALL / FISH.SPEED.VERY_SLOW"
         }
     }
 }

@@ -21,12 +21,11 @@
             "header_fr": "Commentaire"
         }
     },
-    "common": ["expansion"],
     "tasks": {
         "x0": {
             "name_en": "Amalj'aa - Neutral",
             "name_fr": "Amalj'aa - Neutre",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "150",
             "cNext": [1],
             "cSiblings": ["q.66754", "a.863"]
@@ -34,7 +33,7 @@
         "x1": {
             "name_en": "Amalj'aa - Recognized",
             "name_fr": "Amalj'aa - Reconnu",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "360",
             "cPrev": [0],
             "cNext": [2],
@@ -43,7 +42,7 @@
         "x2": {
             "name_en": "Amalj'aa - Friendly",
             "name_fr": "Amalj'aa - Ami",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "510",
             "cPrev": [1],
             "cNext": [3],
@@ -52,7 +51,7 @@
         "x3": {
             "name_en": "Amalj'aa - Trusted",
             "name_fr": "Amalj'aa - Fiable",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -63,7 +62,7 @@
         "x4": {
             "name_en": "Amalj'aa - Allied",
             "name_fr": "Amalj'aa - Allié",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "-",
             "notes_en": "Complete Allied Beast Tribe Side Story Quests to Unlock",
             "notes_fr": "Accomplir la série de quête annexes des tribus alliées",
@@ -73,7 +72,7 @@
         "x5": {
             "name_en": "Sylph - Neutral",
             "name_fr": "Sylphes - Neutre",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "150",
             "cNext": [6],
             "cSiblings": ["q.66789", "a.867"]
@@ -81,7 +80,7 @@
         "x6": {
             "name_en": "Sylph - Recognized",
             "name_fr": "Sylphes - Reconnu",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "360",
             "cPrev": [5],
             "cNext": [7],
@@ -90,7 +89,7 @@
         "x7": {
             "name_en": "Sylph - Friendly",
             "name_fr": "Sylphes - Ami",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "510",
             "cPrev": [6],
             "cNext": [8],
@@ -99,7 +98,7 @@
         "x8": {
             "name_en": "Sylph - Trusted",
             "name_fr": "Sylphes - Fiable",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -110,7 +109,7 @@
         "x9": {
             "name_en": "Sylph - Allied",
             "name_fr": "Sylphes - Allié",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "-",
             "notes_en": "Complete Allied Beast Tribe Side Story Quests to Unlock",
             "notes_fr": "Accomplir la série de quête annexes des tribus alliées",
@@ -120,7 +119,7 @@
         "x10": {
             "name_en": "Kobold - Neutral",
             "name_fr": "Kobolds - Neutre",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "150",
             "cNext": [11],
             "cSiblings": ["q.66857", "a.904"]
@@ -128,7 +127,7 @@
         "x11": {
             "name_en": "Kobold - Recognized",
             "name_fr": "Kobolds - Reconnu",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "360",
             "cPrev": [10],
             "cNext": [12],
@@ -137,7 +136,7 @@
         "x12": {
             "name_en": "Kobold - Friendly",
             "name_fr": "Kobolds - Ami",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "510",
             "cPrev": [11],
             "cNext": [13],
@@ -146,7 +145,7 @@
         "x13": {
             "name_en": "Kobold - Trusted",
             "name_fr": "Kobolds - Fiable",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -157,7 +156,7 @@
         "x14": {
             "name_en": "Kobold - Allied",
             "name_fr": "Kobolds - Allié",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "-",
             "notes_en": "Complete Allied Beast Tribe Side Story Quests to Unlock",
             "notes_fr": "Accomplir la série de quête annexes des tribus alliées",
@@ -167,7 +166,7 @@
         "x15": {
             "name_en": "Sahagin - Neutral",
             "name_fr": "Sahuagins - Neutre",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "150",
             "cNext": [16],
             "cSiblings": ["q.66911", "a.908"]
@@ -175,7 +174,7 @@
         "x16": {
             "name_en": "Sahagin - Recognized",
             "name_fr": "Sahuagins - Reconnu",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "360",
             "cPrev": [15],
             "cNext": [17],
@@ -184,7 +183,7 @@
         "x17": {
             "name_en": "Sahagin - Friendly",
             "name_fr": "Sahuagins - Ami",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "510",
             "cPrev": [16],
             "cNext": [18],
@@ -193,7 +192,7 @@
         "x18": {
             "name_en": "Sahagin - Trusted",
             "name_fr": "Sahuagins - Fiable",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -204,7 +203,7 @@
         "x19": {
             "name_en": "Sahagin - Allied",
             "name_fr": "Sahuagins - Allié",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "-",
             "notes_en": "Complete Allied Beast Tribe Side Story Quests to Unlock",
             "notes_fr": "Accomplir la série de quête annexes des tribus alliées",
@@ -214,7 +213,7 @@
         "x20": {
             "name_en": "Ixal - Neutral",
             "name_fr": "Ixali - Neutre",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "150",
             "cNext": [21],
             "cSiblings": ["q.67023", "a.1022"]
@@ -222,7 +221,7 @@
         "x21": {
             "name_en": "Ixal - Recognized",
             "name_fr": "Ixali - Reconnu",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "360",
             "cPrev": [20],
             "cNext": [22],
@@ -231,7 +230,7 @@
         "x22": {
             "name_en": "Ixal - Friendly",
             "name_fr": "Ixali - Ami",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "510",
             "cPrev": [21],
             "cNext": [23],
@@ -240,7 +239,7 @@
         "x23": {
             "name_en": "Ixal - Trusted",
             "name_fr": "Ixali - Fiable",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "720",
             "cPrev": [22],
             "cNext": [24],
@@ -249,7 +248,7 @@
         "x24": {
             "name_en": "Ixal - Respected",
             "name_fr": "Ixali - Respecté",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "990",
             "cPrev": [23],
             "cNext": [25],
@@ -258,7 +257,7 @@
         "x25": {
             "name_en": "Ixal - Honored",
             "name_fr": "Ixali - Émérite",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "1320",
             "cPrev": [24],
             "cNext": [26],
@@ -267,7 +266,7 @@
         "x26": {
             "name_en": "Ixal - Sworn",
             "name_fr": "Ixali - Assermenté",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -278,7 +277,7 @@
         "x27": {
             "name_en": "Ixal - Allied",
             "name_fr": "Ixali - Allié",
-            "expansion": "EXPANSION.ARR",
+            "expansion": "@EXPANSION.ARR",
             "reputationToCap": "-",
             "notes_en": "Complete Allied Beast Tribe Side Story Quests to Unlock",
             "notes_fr": "Accomplir la série de quête annexes des tribus alliées",
@@ -288,7 +287,7 @@
         "x28": {
             "name_en": "Vanu Vanu - Neutral",
             "name_fr": "Vanu Vanu - Neutre",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "150",
             "cNext": [29],
             "cSiblings": ["q.67700", "a.1395"]
@@ -296,7 +295,7 @@
         "x29": {
             "name_en": "Vanu Vanu - Recognized",
             "name_fr": "Vanu Vanu - Reconnu",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "360",
             "cPrev": [28],
             "cNext": [30],
@@ -305,7 +304,7 @@
         "x30": {
             "name_en": "Vanu Vanu - Friendly",
             "name_fr": "Vanu Vanu - Ami",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "510",
             "cPrev": [29],
             "cNext": [31],
@@ -314,7 +313,7 @@
         "x31": {
             "name_en": "Vanu Vanu - Trusted",
             "name_fr": "Vanu Vanu - Fiable",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "720",
             "cPrev": [30],
             "cNext": [32],
@@ -323,7 +322,7 @@
         "x32": {
             "name_en": "Vanu Vanu - Respected",
             "name_fr": "Vanu Vanu - Respecté",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "990",
             "cPrev": [31],
             "cNext": [33],
@@ -332,7 +331,7 @@
         "x33": {
             "name_en": "Vanu Vanu - Honored",
             "name_fr": "Vanu Vanu - Émérite",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "1320",
             "cPrev": [32],
             "cNext": [34],
@@ -341,7 +340,7 @@
         "x34": {
             "name_en": "Vanu Vanu - Sworn",
             "name_fr": "Vanu Vanu - Assermenté",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "1730",
             "cPrev": [33],
             "cNext": [35],
@@ -350,7 +349,7 @@
         "x35": {
             "name_en": "Vanu Vanu - Bloodsworn",
             "name_fr": "Vanu Vanu - Assermenté★",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -361,7 +360,7 @@
         "x36": {
             "name_en": "Vanu Vanu - Allied",
             "name_fr": "Vanu Vanu - Allié",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "-",
             "notes_en": "Complete Heavensward Beast Tribe Side Story Quests to Unlock",
             "notes_fr": "Accomplir la série de quête annexes des tribus alliées (Heavensward)",
@@ -371,7 +370,7 @@
         "x37": {
             "name_en": "Vath - Friendly",
             "name_fr": "Gnathes - Ami",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "510",
             "cNext": [38],
             "cSiblings": ["q.67791", "a.1495"]
@@ -379,7 +378,7 @@
         "x38": {
             "name_en": "Vath - Trusted",
             "name_fr": "Gnathes - Fiable",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "720",
             "cPrev": [37],
             "cNext": [39],
@@ -388,7 +387,7 @@
         "x39": {
             "name_en": "Vath - Respected",
             "name_fr": "Gnathes - Respecté",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "990",
             "cPrev": [38],
             "cNext": [40],
@@ -397,7 +396,7 @@
         "x40": {
             "name_en": "Vath - Honored",
             "name_fr": "Gnathes - Émérite",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "1320",
             "cPrev": [39],
             "cNext": [41],
@@ -406,7 +405,7 @@
         "x41": {
             "name_en": "Vath - Sworn",
             "name_fr": "Gnathes - Assermenté",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "1730",
             "cPrev": [40],
             "cNext": [42],
@@ -415,7 +414,7 @@
         "x42": {
             "name_en": "Vath - Bloodsworn",
             "name_fr": "Gnathes - Assermenté★",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -426,7 +425,7 @@
         "x43": {
             "name_en": "Vath - Allied",
             "name_fr": "Gnathes - Allié",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "-",
             "notes_en": "Complete Heavensward Beast Tribe Side Story Quests to Unlock",
             "notes_fr": "Accomplir la série de quête annexes des tribus alliées (Heavensward)",
@@ -436,7 +435,7 @@
         "x44": {
             "name_en": "Moogle - Neutral",
             "name_fr": "Mogs célestes - Neutre",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "150",
             "cNext": [45],
             "cSiblings": ["q.67856", "a.1618"]
@@ -444,7 +443,7 @@
         "x45": {
             "name_en": "Moogle - Recognized",
             "name_fr": "Mogs célestes - Reconnu",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "360",
             "cPrev": [44],
             "cNext": [46],
@@ -453,7 +452,7 @@
         "x46": {
             "name_en": "Moogle - Friendly",
             "name_fr": "Mogs célestes - Ami",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "510",
             "cPrev": [45],
             "cNext": [47],
@@ -462,7 +461,7 @@
         "x47": {
             "name_en": "Moogle - Trusted",
             "name_fr": "Mogs célestes - Fiable",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "720",
             "cPrev": [46],
             "cNext": [48],
@@ -471,7 +470,7 @@
         "x48": {
             "name_en": "Moogle - Respected",
             "name_fr": "Mogs célestes - Respecté",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "990",
             "cPrev": [47],
             "cNext": [49],
@@ -480,7 +479,7 @@
         "x49": {
             "name_en": "Moogle - Honored",
             "name_fr": "Mogs célestes - Émérite",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "1320",
             "cPrev": [48],
             "cNext": [50],
@@ -489,7 +488,7 @@
         "x50": {
             "name_en": "Moogle - Sworn",
             "name_fr": "Mogs célestes - Assermenté",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "1730",
             "cPrev": [49],
             "cNext": [51],
@@ -498,7 +497,7 @@
         "x51": {
             "name_en": "Moogle - Bloodsworn",
             "name_fr": "Mogs célestes - Assermenté★",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -509,7 +508,7 @@
         "x52": {
             "name_en": "Moogle - Allied",
             "name_fr": "Mogs célestes - Allié",
-            "expansion": "EXPANSION.HW",
+            "expansion": "@EXPANSION.HW",
             "reputationToCap": "-",
             "notes_en": "Complete Heavensward Beast Tribe Side Story Quests to Unlock",
             "notes_fr": "Accomplir la série de quête annexes des tribus alliées (Heavensward)",
@@ -519,7 +518,7 @@
         "x53": {
             "name_en": "Kojin - Friendly",
             "name_fr": "Kojin verts - Ami",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "510",
             "cNext": [54],
             "cSiblings": ["q.68509", "a.1997"]
@@ -527,7 +526,7 @@
         "x54": {
             "name_en": "Kojin - Trusted",
             "name_fr": "Kojin verts - Fiable",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "720",
             "cPrev": [53],
             "cNext": [55],
@@ -536,7 +535,7 @@
         "x55": {
             "name_en": "Kojin - Respected",
             "name_fr": "Kojin verts - Respecté",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "990",
             "cPrev": [54],
             "cNext": [56],
@@ -545,7 +544,7 @@
         "x56": {
             "name_en": "Kojin - Honored",
             "name_fr": "Kojin verts - Émérite",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "1320",
             "cPrev": [55],
             "cNext": [57],
@@ -554,7 +553,7 @@
         "x57": {
             "name_en": "Kojin - Sworn",
             "name_fr": "Kojin verts - Assermenté",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "1730",
             "cPrev": [56],
             "cNext": [58],
@@ -563,7 +562,7 @@
         "x58": {
             "name_en": "Kojin - Bloodsworn",
             "name_fr": "Kojin verts - Assermenté★",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "-",
             "cSiblings": ["q.68514"],
             "notes_en": "Max Rank from Missions",
@@ -574,7 +573,7 @@
         "x59": {
             "name_en": "Kojin - Allied",
             "name_fr": "Kojin verts - Allié",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "-",
             "notes_en": "Complete Stormblood Beast Tribe Side Story Quests to Unlock",
             "notes_fr": "Accomplir la série de quête annexes des tribus alliées (Stormblood)",
@@ -584,7 +583,7 @@
         "x60": {
             "name_en": "Ananta - Friendly",
             "name_fr": "Anantas - Ami",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "510",
             "cNext": [61],
             "cSiblings": ["q.68572", "a.2014"]
@@ -592,7 +591,7 @@
         "x61": {
             "name_en": "Ananta - Trusted",
             "name_fr": "Anantas - Fiable",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "720",
             "cPrev": [60],
             "cNext": [62],
@@ -601,7 +600,7 @@
         "x62": {
             "name_en": "Ananta - Respected",
             "name_fr": "Anantas - Respecté",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "990",
             "cPrev": [61],
             "cNext": [63],
@@ -610,7 +609,7 @@
         "x63": {
             "name_en": "Ananta - Honored",
             "name_fr": "Anantas - Émérite",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "1320",
             "cPrev": [62],
             "cNext": [64],
@@ -619,7 +618,7 @@
         "x64": {
             "name_en": "Ananta - Sworn",
             "name_fr": "Anantas - Assermenté",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "1730",
             "cPrev": [63],
             "cNext": [65],
@@ -628,7 +627,7 @@
         "x65": {
             "name_en": "Ananta - Bloodsworn",
             "name_fr": "Anantas - Assermenté★",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -639,7 +638,7 @@
         "x66": {
             "name_en": "Ananta - Allied",
             "name_fr": "Anantas - Allié",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "-",
             "notes_en": "Complete Stormblood Beast Tribe Side Story Quests to Unlock",
             "notes_fr": "Accomplir la série de quête annexes des tribus alliées (Stormblood)",
@@ -649,7 +648,7 @@
         "x67": {
             "name_en": "Namazu - Friendly",
             "name_fr": "Namazu - Ami",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "510",
             "cNext": [68],
             "cSiblings": ["q.68633", "a.2099"]
@@ -657,7 +656,7 @@
         "x68": {
             "name_en": "Namazu - Trusted",
             "name_fr": "Namazu - Fiable",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "720",
             "cPrev": [67],
             "cNext": [69],
@@ -666,7 +665,7 @@
         "x69": {
             "name_en": "Namazu - Respected",
             "name_fr": "Namazu - Respecté",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "990",
             "cPrev": [68],
             "cNext": [70],
@@ -675,7 +674,7 @@
         "x70": {
             "name_en": "Namazu - Honored",
             "name_fr": "Namazu - Émérite",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "1320",
             "cPrev": [69],
             "cNext": [71],
@@ -684,7 +683,7 @@
         "x71": {
             "name_en": "Namazu - Sworn",
             "name_fr": "Namazu - Assermenté",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "1730",
             "cPrev": [70],
             "cNext": [72],
@@ -693,7 +692,7 @@
         "x72": {
             "name_en": "Namazu - Bloodsworn",
             "name_fr": "Namazu - Assermenté★",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -704,7 +703,7 @@
         "x73": {
             "name_en": "Namazu - Allied",
             "name_fr": "Namazu - Allié",
-            "expansion": "EXPANSION.SB",
+            "expansion": "@EXPANSION.SB",
             "reputationToCap": "-",
             "notes_en": "Complete Stormblood Beast Tribe Side Story Quests to Unlock",
             "notes_fr": "Accomplir la série de quête annexes des tribus alliées (Stormblood)",
@@ -714,7 +713,7 @@
         "x86": {
             "name_en": "Pixie - Friendly",
             "name_fr": "Pixies - Ami",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "510",
             "cNext": [87],
             "cSiblings": ["q.69219", "a.2436"]
@@ -722,7 +721,7 @@
         "x87": {
             "name_en": "Pixie - Trusted",
             "name_fr": "Pixies - Fiable",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "720",
             "cPrev": [86],
             "cNext": [88],
@@ -731,7 +730,7 @@
         "x88": {
             "name_en": "Pixie - Respected",
             "name_fr": "Pixies - Respecté",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "990",
             "cPrev": [87],
             "cNext": [89],
@@ -740,7 +739,7 @@
         "x89": {
             "name_en": "Pixie - Honored",
             "name_fr": "Pixies - Émérite",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "1320",
             "cPrev": [88],
             "cNext": [90],
@@ -749,7 +748,7 @@
         "x90": {
             "name_en": "Pixie - Sworn",
             "name_fr": "Pixies - Assermenté",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "1730",
             "cPrev": [89],
             "cNext": [91],
@@ -758,7 +757,7 @@
         "x91": {
             "name_en": "Pixie - Bloodsworn",
             "name_fr": "Pixies - Assermenté★",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -768,7 +767,7 @@
         "x80": {
             "name_en": "Qitari - Friendly",
             "name_fr": "Qitari - Ami",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "510",
             "cNext": [81],
             "cSiblings": ["q.69330", "a.2597"]
@@ -776,7 +775,7 @@
         "x81": {
             "name_en": "Qitari - Trusted",
             "name_fr": "Qitari - Fiable",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "720",
             "cPrev": [80],
             "cNext": [82],
@@ -785,7 +784,7 @@
         "x82": {
             "name_en": "Qitari - Respected",
             "name_fr": "Qitari - Respecté",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "990",
             "cPrev": [81],
             "cNext": [83],
@@ -794,7 +793,7 @@
         "x83": {
             "name_en": "Qitari - Honored",
             "name_fr": "Qitari - Émérite",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "1320",
             "cPrev": [82],
             "cNext": [84],
@@ -803,7 +802,7 @@
         "x84": {
             "name_en": "Qitari - Sworn",
             "name_fr": "Qitari - Assermenté",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "1730",
             "cPrev": [83],
             "cNext": [85],
@@ -812,7 +811,7 @@
         "x85": {
             "name_en": "Qitari - Bloodsworn",
             "name_fr": "Qitari - Assermenté★",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -822,7 +821,7 @@
         "x74": {
             "name_en": "Dwarf - Friendly",
             "name_fr": "Nains - Ami",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "510",
             "cNext": [75],
             "cSiblings": ["q.69432", "a.2638"]
@@ -830,7 +829,7 @@
         "x75": {
             "name_en": "Dwarf - Trusted",
             "name_fr": "Nains - Fiable",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "720",
             "cPrev": [74],
             "cNext": [76],
@@ -839,7 +838,7 @@
         "x76": {
             "name_en": "Dwarf - Respected",
             "name_fr": "Nains - Respecté",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "990",
             "cPrev": [75],
             "cNext": [77],
@@ -848,7 +847,7 @@
         "x77": {
             "name_en": "Dwarf - Honored",
             "name_fr": "Nains - Émérite",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "1320",
             "cPrev": [76],
             "cNext": [78],
@@ -857,7 +856,7 @@
         "x78": {
             "name_en": "Dwarf - Sworn",
             "name_fr": "Nains - Assermenté",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "1730",
             "cPrev": [77],
             "cNext": [79],
@@ -866,7 +865,7 @@
         "x79": {
             "name_en": "Dwarf - Bloodsworn",
             "name_fr": "Nains - Assermenté★",
-            "expansion": "EXPANSION.SHB",
+            "expansion": "@EXPANSION.SHB",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -876,7 +875,7 @@
         "x92": {
             "name_en": "Arkasodara - Friendly",
             "name_fr": "Arkasodara - Ami",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "510",
             "cNext": [93],
             "cSiblings": ["q.70081", "a.3055"]
@@ -884,7 +883,7 @@
         "x93": {
             "name_en": "Arkasodara - Trusted",
             "name_fr": "Arkasodara - Fiable",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "720",
             "cPrev": [92],
             "cNext": [94],
@@ -893,7 +892,7 @@
         "x94": {
             "name_en": "Arkasodara - Respected",
             "name_fr": "Arkasodara - Respecté",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "990",
             "cPrev": [93],
             "cNext": [95],
@@ -902,7 +901,7 @@
         "x95": {
             "name_en": "Arkasodara - Honored",
             "name_fr": "Arkasodara - Émérite",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "1320",
             "cPrev": [94],
             "cNext": [96],
@@ -911,7 +910,7 @@
         "x96": {
             "name_en": "Arkasodara - Sworn",
             "name_fr": "Arkasodara - Assermenté",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "1730",
             "cPrev": [95],
             "cNext": [97],
@@ -920,7 +919,7 @@
         "x97": {
             "name_en": "Arkasodara - Bloodsworn",
             "name_fr": "Arkasodara - Assermenté★",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -931,7 +930,7 @@
         "x110": {
             "name_en": "Arkasodara - Allied",
             "name_fr": "Arkasodara - Allié",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "-",
             "notes_en": "Complete Endwalker Beast Tribe Side Story Quests to Unlock",
             "notes_fr": "Accomplir la série de quête annexes des tribus alliées (Endwalker)",
@@ -941,7 +940,7 @@
         "x98": {
             "name_en": "Omicrons - Friendly",
             "name_fr": "Omicrons - Ami",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "510",
             "cNext": [99],
             "cSiblings": ["q.70137", "a.3123"]
@@ -949,7 +948,7 @@
         "x99": {
             "name_en": "Omicrons - Trusted",
             "name_fr": "Omicrons - Fiable",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "720",
             "cPrev": [98],
             "cNext": [100],
@@ -958,7 +957,7 @@
         "x100": {
             "name_en": "Omicrons - Respected",
             "name_fr": "Omicrons - Respecté",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "990",
             "cPrev": [99],
             "cNext": [101],
@@ -967,7 +966,7 @@
         "x101": {
             "name_en": "Omicrons - Honored",
             "name_fr": "Omicrons - Émérite",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "1320",
             "cPrev": [100],
             "cNext": [102],
@@ -976,7 +975,7 @@
         "x102": {
             "name_en": "Omicrons - Sworn",
             "name_fr": "Omicrons - Assermenté",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "1730",
             "cPrev": [101],
             "cNext": [103],
@@ -985,7 +984,7 @@
         "x103": {
             "name_en": "Omicrons - Bloodsworn",
             "name_fr": "Omicrons - Assermenté★",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -996,7 +995,7 @@
         "x111": {
             "name_en": "Omicrons - Allied",
             "name_fr": "Omicrons - Allié",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "-",
             "notes_en": "Complete Endwalker Beast Tribe Side Story Quests to Unlock",
             "notes_fr": "Accomplir la série de quête annexes des tribus alliées (Endwalker)",
@@ -1006,7 +1005,7 @@
         "x104": {
             "name_en": "Loporrits - Friendly",
             "name_fr": "Loporrites - Ai",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "510",
             "cNext": [105],
             "cSiblings": ["q.70217", "a.3188"]
@@ -1014,7 +1013,7 @@
         "x105": {
             "name_en": "Loporrits - Trusted",
             "name_fr": "Loporrites - Fiable",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "720",
             "cPrev": [104],
             "cNext": [106],
@@ -1023,7 +1022,7 @@
         "x106": {
             "name_en": "Loporrits - Respected",
             "name_fr": "Loporrites - Respecté",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "990",
             "cPrev": [105],
             "cNext": [107],
@@ -1032,7 +1031,7 @@
         "x107": {
             "name_en": "Loporrits - Honored",
             "name_fr": "Loporrites - Émérite",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "1320",
             "cPrev": [106],
             "cNext": [108],
@@ -1041,7 +1040,7 @@
         "x108": {
             "name_en": "Loporrits - Sworn",
             "name_fr": "Loporrites - Assermenté",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "1730",
             "cPrev": [107],
             "cNext": [109],
@@ -1050,7 +1049,7 @@
         "x109": {
             "name_en": "Loporrits - Bloodsworn",
             "name_fr": "Loporrites - Assermenté★",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "-",
             "notes_en": "Max Rank from Missions",
             "notes_fr": "Rang maximum atteignable grâce aux quêtes tribales quotidiennes",
@@ -1061,7 +1060,7 @@
         "x112": {
             "name_en": "Loporrits - Allied",
             "name_fr": "Loporrites - Allié",
-            "expansion": "EXPANSION.EW",
+            "expansion": "@EXPANSION.EW",
             "reputationToCap": "-",
             "notes_en": "Complete Endwalker Beast Tribe Side Story Quests to Unlock",
             "notes_fr": "Accomplir la série de quête annexes des tribus alliées (Endwalker)",

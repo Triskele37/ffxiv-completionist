@@ -49,6 +49,17 @@ export const TRAVEL_DEFINITION: GroupDefinition = {
                         'elpis',
                         'ultima-thule',
                     ]
+                },
+                {
+                    path: 'dt',
+                    subGroups: [
+                        'urqopacha',
+                        'kozamauka',
+                        'yak-tel',
+                        'shaaloani',
+                        'heritage-found',
+                        'living-memory',
+                    ]
                 }
             ]
         },
@@ -98,7 +109,8 @@ export const TRAVEL_DEFINITION: GroupDefinition = {
             path: 'shared-fate',
             subGroups: [
                 'shb',
-                'ew'
+                'ew',
+                'dt'
             ]
         }
     ]

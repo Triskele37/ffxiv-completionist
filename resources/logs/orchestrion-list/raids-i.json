@@ -2,13 +2,12 @@
     "key": "raids-i",
     "groupName_en": "Raids I",
     "groupName_fr": "Raids I",
-    "common": ["category", "location", "source"],
     "tasks": {
         "x233": {
             "number": "36",
             "name_en": "A Chapel",
             "name_fr": "A Chapel",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68628",
             "patch": "4.3"
         },
@@ -16,7 +15,7 @@
             "number": "37",
             "name_en": "The Mystery of Giruvegan",
             "name_fr": "The Mystery of Giruvegan",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.550",
             "patch": "4.3"
         },
@@ -24,7 +23,7 @@
             "number": "38",
             "name_en": "Apoplexy",
             "name_fr": "Apoplexy",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.550",
             "patch": "4.3"
         },
@@ -32,7 +31,7 @@
             "number": "39",
             "name_en": "Flash of Steel",
             "name_fr": "Flash of Steel",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.550",
             "patch": "4.3"
         },
@@ -40,7 +39,7 @@
             "number": "5",
             "name_en": "Shattered",
             "name_fr": "Shattered",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.102",
             "patch": "4.2"
         },
@@ -48,7 +47,7 @@
             "number": "40",
             "name_en": "Staff Credits",
             "name_fr": "Staff Credits",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68725",
             "patch": "4.45"
         },
@@ -56,7 +55,7 @@
             "number": "41",
             "name_en": "Alma's Theme",
             "name_fr": "Alma's Theme",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68725",
             "patch": "4.45"
         },
@@ -64,7 +63,7 @@
             "number": "42",
             "name_en": "Under the Stars",
             "name_fr": "Under the Stars",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.636",
             "patch": "4.45"
         },
@@ -72,26 +71,26 @@
             "number": "9",
             "name_en": "Calamity Unbound",
             "name_fr": "Calamity Unbound",
-            "category": ["CATEGORY.TREASURE_HUNT", "CATEGORY.KUPO_OF_FORTUNE"],
-            "source": ["duty.treasure-hunt.duties.0", "CATEGORY.KUPO_OF_FORTUNE"],
-            "location": "ZONE.THE_FIRMAMENT",
+            "category": ["@CATEGORY.TREASURE_HUNT", "@CATEGORY.KUPO_OF_FORTUNE"],
+            "source": ["duty.treasure-hunt.duties.0", "@CATEGORY.KUPO_OF_FORTUNE"],
+            "location": "@ZONE.THE_FIRMAMENT",
             "patch": "3.4"
         },
         "x140": {
             "number": "10",
             "name_en": "Spiral",
             "name_fr": "Spiral",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Gold Saucer Attendant - 30,000 MGP",
             "source_fr": "Préposé Aux Lots - 30.000 PGS",
-            "location": "ZONE.THE_GOLD_SAUCER",
+            "location": "@ZONE.THE_GOLD_SAUCER",
             "patch": "3.5"
         },
         "x295": {
             "number": "43",
             "name_en": "Pressure (No. 1)",
             "name_fr": "Pressure (No. 1)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.636",
             "patch": "4.45"
         },
@@ -99,17 +98,17 @@
             "number": "12",
             "name_en": "Tempest",
             "name_fr": "Tempest",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Gold Saucer Attendant - 30,000 MGP",
             "source_fr": "Préposé Aux Lots - 30.000 PGS",
-            "location": "ZONE.THE_GOLD_SAUCER",
+            "location": "@ZONE.THE_GOLD_SAUCER",
             "patch": "3.5"
         },
         "x296": {
             "number": "44",
             "name_en": "Antipyretic",
             "name_fr": "Antipyretic",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.636",
             "patch": "4.45"
         },
@@ -117,7 +116,7 @@
             "number": "45",
             "name_en": "A Man Consumed",
             "name_fr": "A Man Consumed",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.636",
             "patch": "4.45"
         },
@@ -125,7 +124,7 @@
             "number": "46",
             "name_en": "Ultima's Perfection",
             "name_fr": "Ultima's Perfection",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.636",
             "patch": "4.45"
         },
@@ -133,57 +132,57 @@
             "number": "16",
             "name_en": "Beyond Redemption",
             "name_fr": "Beyond Redemption",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Jonathas - 2 Achievement Certificate",
             "source_fr": "Jonathas - 2 Jetons de hauts fait",
-            "location": "ZONE.OLD_GRIDANIA",
+            "location": "@ZONE.OLD_GRIDANIA",
             "patch": "4.45"
         },
         "x142": {
             "number": "17",
             "name_en": "Aetherosphere",
             "name_fr": "Aetherosphere",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Hismena - 375 Allagan Tomestones of Poetics",
             "source_fr": "Hismena - 375 Mémoquartz allagois poétique",
-            "location": "ZONE.IDYLLSHIRE",
+            "location": "@ZONE.IDYLLSHIRE",
             "patch": "3.5"
         },
         "x143": {
             "number": "18",
             "name_en": "Six Fulms Under",
             "name_fr": "Six Fulms Under",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Hismena - 375 Allagan Tomestones of Poetics",
             "source_fr": "Hismena - 375 Mémoquartz allagois poétique",
-            "location": "ZONE.IDYLLSHIRE",
+            "location": "@ZONE.IDYLLSHIRE",
             "patch": "3.5"
         },
         "x144": {
             "number": "19",
             "name_en": "Teardrops in the Rain",
             "name_fr": "Teardrops in the Rain",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Hismena - 375 Allagan Tomestones of Poetics",
             "source_fr": "Hismena - 375 Mémoquartz allagois poétique",
-            "location": "ZONE.IDYLLSHIRE",
+            "location": "@ZONE.IDYLLSHIRE",
             "patch": "3.5"
         },
         "x145": {
             "number": "20",
             "name_en": "A Thousand Faces",
             "name_fr": "A Thousand Faces",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Hismena - 375 Allagan Tomestones of Poetics",
             "source_fr": "Hismena - 375 Mémoquartz allagois poétique",
-            "location": "ZONE.IDYLLSHIRE",
+            "location": "@ZONE.IDYLLSHIRE",
             "patch": "3.5"
         },
         "x146": {
             "number": "21",
             "name_en": "Promises",
             "name_fr": "Promises",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.67909",
             "patch": "3.5"
         },
@@ -191,7 +190,7 @@
             "number": "22",
             "name_en": "Shadow of the Body",
             "name_fr": "Shadow of the Body",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.67909",
             "patch": "3.5"
         },
@@ -199,7 +198,7 @@
             "number": "23",
             "name_en": "Sins of the Father, Sins of the Son",
             "name_fr": "Sins of the Father, Sins of the Son",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.67875",
             "patch": "3.4"
         },
@@ -207,7 +206,7 @@
             "number": "24",
             "name_en": "Locus",
             "name_fr": "Locus",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.67875",
             "patch": "3.4"
         },
@@ -215,7 +214,7 @@
             "number": "25",
             "name_en": "Metal",
             "name_fr": "Metal",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.67875",
             "patch": "3.4"
         },
@@ -223,7 +222,7 @@
             "number": "26",
             "name_en": "Metal - Brute Justice Mode",
             "name_fr": "Metal - Brute Justice Mode",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.67875",
             "patch": "3.4"
         },
@@ -231,7 +230,7 @@
             "number": "27",
             "name_en": "Exponential Entropy",
             "name_fr": "Exponential Entropy",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.67873",
             "patch": "3.4"
         },
@@ -239,7 +238,7 @@
             "number": "28",
             "name_en": "Rise",
             "name_fr": "Rise",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.67874",
             "patch": "3.4"
         },
@@ -247,17 +246,17 @@
             "number": "29",
             "name_en": "Moebius",
             "name_fr": "Moebius",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Bertana - 1 Alexandrian Gear",
             "source_fr": "Bertana - 1 Petit rouage alexandrin",
-            "location": "ZONE.IDYLLSHIRE",
+            "location": "@ZONE.IDYLLSHIRE",
             "patch": "3.5"
         },
         "x186": {
             "number": "30",
             "name_en": "Trisection",
             "name_fr": "Trisection",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.281",
             "patch": "4.1"
         },
@@ -265,7 +264,7 @@
             "number": "31",
             "name_en": "Precipitous Combat",
             "name_fr": "Precipitous Combat",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.281",
             "patch": "4.1"
         },
@@ -273,7 +272,7 @@
             "number": "32",
             "name_en": "Ultima's Transformation",
             "name_fr": "Ultima's Transformation",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.281",
             "patch": "4.1"
         },
@@ -281,7 +280,7 @@
             "number": "33",
             "name_en": "Protagonist's Theme",
             "name_fr": "Protagonist's Theme",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68540",
             "patch": "4.1"
         },
@@ -289,7 +288,7 @@
             "number": "34",
             "name_en": "Background Story",
             "name_fr": "Background Story",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68540",
             "patch": "4.1"
         },
@@ -297,7 +296,7 @@
             "number": "35",
             "name_en": "World Map",
             "name_fr": "World Map",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68627",
             "patch": "4.3"
         },
@@ -305,7 +304,7 @@
             "number": "47",
             "name_en": "Deltascape",
             "name_fr": "Deltascape",
-            "category": "CATEGORY.QUEST",
+            "category": "@CATEGORY.QUEST",
             "source": "q.68691",
             "patch": "4.4"
         },
@@ -313,7 +312,7 @@
             "number": "48",
             "name_en": "Omega Squared",
             "name_fr": "Omega Squared",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": ["d.252", "d.253", "d.254"],
             "patch": "4.4"
         },
@@ -321,7 +320,7 @@
             "number": "49",
             "name_en": "Decisions (Omega)",
             "name_fr": "Decisions (Omega)",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.255",
             "patch": "4.4"
         },
@@ -329,17 +328,17 @@
             "number": "50",
             "name_en": "Final, Not Final",
             "name_fr": "Final, Not Final",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Eschina - 2 Deltascape Bolts",
             "source_fr": "Eschina - 2 Boulon deltastitiel",
-            "location": "ZONE.RHALGRS_REACH",
+            "location": "@ZONE.RHALGRS_REACH",
             "patch": "4.4"
         },
         "x256": {
             "number": "51",
             "name_en": "A Battle Decisively",
             "name_fr": "A Battle Decisively",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": ["d.286", "d.287", "d.288"],
             "patch": "4.4"
         },
@@ -347,7 +346,7 @@
             "number": "52",
             "name_en": "Dancing Mad - Movement I",
             "name_fr": "Dancing Mad - Movement I",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.289",
             "patch": "4.4"
         },
@@ -355,7 +354,7 @@
             "number": "53",
             "name_en": "Dancing Mad - Movement II",
             "name_fr": "Dancing Mad - Movement II",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.289",
             "patch": "4.4"
         },
@@ -363,7 +362,7 @@
             "number": "54",
             "name_en": "Dancing Mad - Movement III",
             "name_fr": "Dancing Mad - Movement III",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.289",
             "patch": "4.4"
         },
@@ -371,17 +370,17 @@
             "number": "55",
             "name_en": "Dancing Mad - Movement IV",
             "name_fr": "Dancing Mad - Movement IV",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Eschina - 2 Sigmascape Bolts",
             "source_fr": "Eschina - 2 Boulon sigmastitiel",
-            "location": "ZONE.RHALGRS_REACH",
+            "location": "@ZONE.RHALGRS_REACH",
             "patch": "4.4"
         },
         "x261": {
             "number": "56",
             "name_en": "Battle",
             "name_fr": "Battle",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.587",
             "patch": "4.4"
         },
@@ -389,7 +388,7 @@
             "number": "57",
             "name_en": "Primogenitor",
             "name_fr": "Primogenitor",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.588",
             "patch": "4.4"
         },
@@ -397,7 +396,7 @@
             "number": "58",
             "name_en": "eScape",
             "name_fr": "eScape",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.589",
             "patch": "4.4"
         },
@@ -405,7 +404,7 @@
             "number": "59",
             "name_en": "Heartless",
             "name_fr": "Heartless",
-            "category": "CATEGORY.RAID",
+            "category": "@CATEGORY.RAID",
             "source": "d.590",
             "patch": "4.4"
         },
@@ -413,10 +412,10 @@
             "number": "60",
             "name_en": "From the Heavens",
             "name_fr": "From the Heavens",
-            "category": "CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PURCHASE",
             "source_en": "Eschina - 2 Alphascape Bolts",
             "source_fr": "Eschina - 2 Boulon alphastitiel",
-            "location": "ZONE.RHALGRS_REACH",
+            "location": "@ZONE.RHALGRS_REACH",
             "patch": "4.4"
         }
     }

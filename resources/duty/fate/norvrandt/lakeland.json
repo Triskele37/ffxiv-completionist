@@ -9,7 +9,7 @@
             "name_fr": "Défi: Ophion, le reptile sanguinaire",
             "location": "(34.7, 9.8)",
             "patch": "5.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1499": {
             "level": 71,
@@ -17,7 +17,7 @@
             "name_fr": "La trahison des wargs",
             "location": "(19.4, 21.5)",
             "patch": "5.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1505": {
             "level": 71,
@@ -25,7 +25,7 @@
             "name_fr": "Pour le salut du petit commerce",
             "location": "(25.4, 12.5)",
             "patch": "5.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x1506": {
             "level": 71,
@@ -33,7 +33,7 @@
             "name_fr": "Pas venu ici pour souffrir",
             "location": "(32.6, 17.6)",
             "patch": "5.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1507": {
             "level": 71,
@@ -41,7 +41,7 @@
             "name_fr": "Défi: le noble Lugarhoo",
             "location": "(14.6, 18.5)",
             "patch": "5.0",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1508": {
             "level": 71,
@@ -49,7 +49,7 @@
             "name_fr": "La petite porte des horreurs",
             "location": "(18.2, 13.6)",
             "patch": "5.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1496": {
             "level": 71,
@@ -57,7 +57,7 @@
             "name_fr": "La menace des Fanes pourpres: un repaire convoité",
             "location": "(8.6, 9.8)",
             "patch": "5.0",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1497": {
             "level": 71,
@@ -66,7 +66,7 @@
             "location": "(10.3, 22.1)",
             "patch": "5.0",
             "previousFate": "f.1496",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1500": {
             "level": 71,
@@ -74,7 +74,7 @@
             "name_fr": "Dur dur d'être un bûcheron",
             "location": "(21.8, 24.1)",
             "patch": "5.0",
-            "type": "FATE_TYPE.GATHER"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x1501": {
             "level": 71,
@@ -83,7 +83,7 @@
             "location": "(24.1, 26.2)",
             "patch": "5.0",
             "previousFate": "f.1500",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x1502": {
             "level": 71,
@@ -92,7 +92,7 @@
             "location": "(26.0, 13.0)",
             "patch": "5.0",
             "previousFate": ["f.1497", "f.1501"],
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x1503": {
             "level": 71,
@@ -101,7 +101,7 @@
             "location": "(17.6, 12.0)",
             "patch": "5.0",
             "previousFate": "f.1502",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1504": {
             "level": 71,
@@ -110,7 +110,7 @@
             "location": "(17.6, 12.0)",
             "patch": "5.0",
             "previousFate": "f.1503",
-            "type": "FATE_TYPE.SLAY"
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1509": {
             "level": 71,
@@ -118,7 +118,7 @@
             "name_fr": "Il est frais, mon poisson",
             "location": "(20.6, 28.1)",
             "patch": "5.0",
-            "type": "FATE_TYPE.DEFENSE"
+            "type": "@FATE.TYPE.DEFENSE"
         },
         "x1510": {
             "level": 71,
@@ -127,7 +127,7 @@
             "location": "(20.6, 28.1)",
             "patch": "5.0",
             "previousFate": "f.1509",
-            "type": "FATE_TYPE.NM"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }
 }

@@ -304,13 +304,13 @@
             },
             "achievement": {
                 "battle": {
-                    "battle": {},
                     "dungeons": {},
                     "trials": {},
                     "raids": {},
                     "the-hunt": {},
                     "treasure-hunt": {},
-                    "field-operations": {}
+                    "field-operations": {},
+                    "general": {}
                 },
                 "pvp": {
                     "general": {},
@@ -323,15 +323,14 @@
                     "general": {
                         "1162": "Y"
                     },
-                    "disciple-of-war": {},
-                    "disciple-of-magic": {},
-                    "disciple-of-the-hand": {},
-                    "disciple-of-the-land": {},
                     "commendation": {},
-                    "gold-saucer": {}
+                    "gold-saucer": {},
+                    "disciples-of-magic": {},
+                    "disciples-of-the-hand": {},
+                    "disciples-of-the-land": {},
+                    "disciples-of-war": {}
                 },
                 "items": {
-                    "items": {},
                     "currency": {},
                     "desynthesis": {},
                     "collectables": {},
@@ -344,40 +343,10 @@
                     "resistance-weapons": {},
                     "manderville-weapons": {},
                     "skysteel-tools": {},
-                    "splendorous-tools": {}
-                },
-                "crafting--gathering": {
-                    "all-disciplines": {},
-                    "carpenter": {},
-                    "blacksmith": {},
-                    "armorer": {},
-                    "goldsmith": {},
-                    "leatherworker": {},
-                    "weaver": {},
-                    "alchemist": {},
-                    "culinarian": {},
-                    "miner": {},
-                    "botanist": {},
-                    "fisher": {}
+                    "splendorous-tools": {},
+                    "general": {}
                 },
                 "quests": {
-                    "quests": {
-                        "900": "Y",
-                        "901": "Y",
-                        "1030": "Y",
-                        "1060": "Y",
-                        "1164": "Y",
-                        "1165": "Y",
-                        "1388": "Y",
-                        "1494": "Y",
-                        "1629": "Y",
-                        "1796": "Y",
-                        "2243": "Y",
-                        "2852": "Y",
-                        "2887": "Y",
-                        "3247": "Y",
-                        "3408": "Y"
-                    },
                     "main-scenario": {
                         "310": "X",
                         "311": "Y",
@@ -446,9 +415,27 @@
                         "3413": "Y",
                         "3414": "Y"
                     },
-                    "job-role-quests": {},
                     "levequests": {},
-                    "tribal-quests": {
+                    "seasonal-events": {},
+                    "general": {
+                        "900": "Y",
+                        "901": "Y",
+                        "1030": "Y",
+                        "1060": "Y",
+                        "1164": "Y",
+                        "1165": "Y",
+                        "1388": "Y",
+                        "1494": "Y",
+                        "1629": "Y",
+                        "1796": "Y",
+                        "2243": "Y",
+                        "2852": "Y",
+                        "2887": "Y",
+                        "3247": "Y",
+                        "3408": "Y"
+                    },
+                    "job-and-role-quests": {},
+                    "allied-society-quests": {
                         "863": "Y",
                         "864": "Y",
                         "865": "Y",
@@ -520,8 +507,7 @@
                         "3189": "Y",
                         "3190": "Y",
                         "3191": "Y"
-                    },
-                    "seasonal-events": {}
+                    }
                 },
                 "exploration": {
                     "sightseeing-log": {},
@@ -541,10 +527,10 @@
                     "duty": {}
                 },
                 "grand-company": {
-                    "grand-company": {},
                     "maelstrom": {},
                     "order-of-the-twin-adder": {},
-                    "immortal-flames": {}
+                    "immortal-flames": {},
+                    "general": {}
                 },
                 "legacy": {
                     "battle": {},
@@ -555,6 +541,20 @@
                     "dungeons": {},
                     "exploration": {},
                     "grand-company": {}
+                },
+                "crafting-and-gathering": {
+                    "all-disciplines": {},
+                    "carpenter": {},
+                    "blacksmith": {},
+                    "armorer": {},
+                    "goldsmith": {},
+                    "leatherworker": {},
+                    "weaver": {},
+                    "alchemist": {},
+                    "culinarian": {},
+                    "miner": {},
+                    "botanist": {},
+                    "fisher": {}
                 }
             }
         },
@@ -576,7 +576,279 @@
                 },
                 "field-record": {}
             },
-            "quests": {
+            "trust": {
+                "shb": {
+                    "0": "71",
+                    "1": "71",
+                    "2": "71",
+                    "3": "71",
+                    "4": "71",
+                    "5": "71"
+                },
+                "ew": {
+                    "0": "81",
+                    "1": "81",
+                    "2": "81",
+                    "3": "81",
+                    "4": "81",
+                    "5": "81",
+                    "6": "81"
+                }
+            },
+            "hall-of-the-novice": {
+                "tank": {},
+                "dps": {},
+                "healer": {}
+            },
+            "fate": {
+                "la-noscea": {
+                    "eastern-la-noscea": {},
+                    "lower-la-noscea": {},
+                    "middle-la-noscea": {},
+                    "outer-la-noscea": {},
+                    "upper-la-noscea": {},
+                    "western-la-noscea": {}
+                },
+                "black-shroud": {
+                    "central-shroud": {},
+                    "east-shroud": {},
+                    "north-shroud": {},
+                    "south-shroud": {}
+                },
+                "thanalan": {
+                    "central-thanalan": {},
+                    "eastern-thanalan": {},
+                    "northern-thanalan": {},
+                    "southern-thanalan": {},
+                    "western-thanalan": {}
+                },
+                "coerthas": {
+                    "central-highlands": {},
+                    "western-highlands": {}
+                },
+                "mor-dhona": {},
+                "abalathias-spine": {
+                    "the-sea-of-clouds": {},
+                    "azys-lla": {}
+                },
+                "dravania": {
+                    "the-churning-mists": {},
+                    "the-dravanian-forelands": {},
+                    "the-dravanian-hinterlands": {}
+                },
+                "gyr-abania": {
+                    "the-fringes": {},
+                    "the-lochs": {},
+                    "the-peaks": {}
+                },
+                "othard": {
+                    "the-azim-steppe": {},
+                    "the-ruby-sea": {},
+                    "yanxia": {}
+                },
+                "norvrandt": {
+                    "amh-araeng": {},
+                    "il-mheg": {},
+                    "kholusia": {},
+                    "lakeland": {},
+                    "the-rak-tika-greatwood": {},
+                    "the-tempest": {}
+                },
+                "northern-empty": {
+                    "labyrinthos": {}
+                },
+                "ilsabard": {
+                    "thavnair": {},
+                    "garlemald": {}
+                },
+                "sea-of-stars": {
+                    "mare-lamentorum": {},
+                    "ultima-thule": {}
+                },
+                "world-unsundered": {
+                    "elpis": {}
+                }
+            },
+            "squadron": {
+                "0": "0",
+                "1": "0",
+                "command-missions": {},
+                "squadron": {},
+                "stats": {
+                    "level": {
+                        "0": "0",
+                        "1": "0",
+                        "2": "0",
+                        "3": "0",
+                        "4": "0",
+                        "5": "0",
+                        "6": "0",
+                        "7": "0"
+                    },
+                    "independent": {
+                        "0": "0",
+                        "1": "0",
+                        "2": "0",
+                        "3": "0",
+                        "4": "0",
+                        "5": "0",
+                        "6": "0",
+                        "7": "0"
+                    },
+                    "offensive": {
+                        "0": "0",
+                        "1": "0",
+                        "2": "0",
+                        "3": "0",
+                        "4": "0",
+                        "5": "0",
+                        "6": "0",
+                        "7": "0"
+                    },
+                    "defensive": {
+                        "0": "0",
+                        "1": "0",
+                        "2": "0",
+                        "3": "0",
+                        "4": "0",
+                        "5": "0",
+                        "6": "0",
+                        "7": "0"
+                    },
+                    "balanced": {
+                        "0": "0",
+                        "1": "0",
+                        "2": "0",
+                        "3": "0",
+                        "4": "0",
+                        "5": "0",
+                        "6": "0",
+                        "7": "0"
+                    }
+                }
+            },
+            "treasure-hunt": {
+                "maps": {},
+                "duties": {}
+            },
+            "exploratory-missions": {
+                "the-forbidden-land-eureka": {
+                    "elemental-level": {},
+                    "aetherytes": {},
+                    "notorious-monsters": {
+                        "anemos": {},
+                        "pagos": {},
+                        "pyros": {},
+                        "hydatos": {}
+                    },
+                    "logos-actions": {},
+                    "duties": {}
+                },
+                "the-bozjan-southern-front": {
+                    "resistance-rank": {},
+                    "resistance-honors": {},
+                    "aetherytes": {},
+                    "events": {},
+                    "lost-actions": {},
+                    "duties": {}
+                }
+            },
+            "island-sanctuary": {
+                "rank": {},
+                "buildings": {
+                    "11": "0",
+                    "12": "0",
+                    "13": "0",
+                    "14": "0",
+                    "15": "0",
+                    "16": "0",
+                    "24": "0",
+                    "25": "0",
+                    "26": "0",
+                    "27": "0"
+                },
+                "crafting": {
+                    "tools": {},
+                    "feed": {},
+                    "restraints": {}
+                },
+                "isleventory": {
+                    "materials": {},
+                    "gardening-starters": {},
+                    "produce": {},
+                    "leavings": {}
+                },
+                "animals": {}
+            },
+            "duty-raid-finder": {
+                "dungeons": {
+                    "arr": {},
+                    "hw": {},
+                    "sb": {},
+                    "shb": {},
+                    "ew": {}
+                },
+                "trials": {
+                    "arr": {},
+                    "hw": {},
+                    "sb": {},
+                    "shb": {},
+                    "ew": {}
+                },
+                "raids": {
+                    "arr": {},
+                    "hw": {},
+                    "sb": {},
+                    "shb": {},
+                    "ew": {}
+                },
+                "guildhests": {
+                    "arcanist": {},
+                    "archer": {},
+                    "astrologian": {},
+                    "conjurer": {},
+                    "dark-knight": {},
+                    "gladiator": {},
+                    "lancer": {},
+                    "machinist": {},
+                    "marauder": {},
+                    "pugilist": {},
+                    "red-mage": {},
+                    "rogue": {},
+                    "samurai": {},
+                    "thaumaturge": {}
+                },
+                "deep-dungeon": {
+                    "0": "0",
+                    "1": "0",
+                    "2": "0"
+                },
+                "v-and-c-dungeon": {
+                    "sildihn-subterrane": {
+                        "record": {}
+                    },
+                    "mount-rokkon": {
+                        "record": {}
+                    },
+                    "aloalo-island": {
+                        "record": {}
+                    }
+                },
+                "deep-dungeons": {},
+                "v-anc-c-dungeons": {
+                    "aloalo-island": {},
+                    "mount-rokkon": {},
+                    "sildihn-subterrane": {}
+                }
+            },
+            "the-hunt": {
+                "arr": {},
+                "hw": {},
+                "sb": {},
+                "shb": {},
+                "ew": {}
+            },
+            "quest": {
                 "main-scenario": {
                     "seventh-umbral-era": {
                         "65781": "Y",
@@ -797,7 +1069,7 @@
                             "69389": "X"
                         }
                     },
-                    "seventh-astral-era": {
+                    "seventh-astral-era-main-scenario-quests": {
                         "65588": "Y",
                         "65589": "Y",
                         "65590": "Y",
@@ -879,7 +1151,7 @@
                         "69423": "Y",
                         "69424": "Y"
                     },
-                    "heavensward": {
+                    "heavensward-main-scenario-quests": {
                         "67116": "Y",
                         "67117": "Y",
                         "67118": "Y",
@@ -975,7 +1247,7 @@
                         "67531": "Y",
                         "67532": "Y"
                     },
-                    "dragonsong": {
+                    "dragonsong-main-scenario-quests": {
                         "67692": "Y",
                         "67693": "Y",
                         "67694": "Y",
@@ -1002,7 +1274,7 @@
                         "67782": "Y",
                         "67783": "Y"
                     },
-                    "post-dragonsong": {
+                    "post-dragonsong-main-scenario-quests": {
                         "67877": "Y",
                         "67878": "Y",
                         "67879": "Y",
@@ -1023,7 +1295,7 @@
                         "67894": "Y",
                         "67895": "Y"
                     },
-                    "stormblood": {
+                    "stormblood-main-scenario-quests": {
                         "67982": "Y",
                         "67983": "Y",
                         "67984": "Y",
@@ -1147,7 +1419,7 @@
                         "68490": "Y",
                         "68491": "Y"
                     },
-                    "post-stormblood": {
+                    "post-stormblood-main-scenario-quests": {
                         "68498": "Y",
                         "68499": "Y",
                         "68500": "Y",
@@ -1189,7 +1461,7 @@
                         "68720": "Y",
                         "68721": "Y"
                     },
-                    "shadowbringers": {
+                    "shadowbringers-main-scenario-quests": {
                         "68815": "Y",
                         "68816": "Y",
                         "68817": "Y",
@@ -1297,7 +1569,7 @@
                         "69189": "Y",
                         "69190": "Y"
                     },
-                    "post-shadowbringers": {
+                    "post-shadowbringers-main-scenario-quests": {
                         "69209": "Y",
                         "69210": "Y",
                         "69211": "Y",
@@ -1331,7 +1603,7 @@
                         "69317": "Y",
                         "69318": "Y"
                     },
-                    "post-shadowbringers-ii": {
+                    "post-shadowbringers-main-scenario-quests-ii": {
                         "69543": "Y",
                         "69544": "Y",
                         "69545": "Y",
@@ -1352,7 +1624,7 @@
                         "69601": "Y",
                         "69602": "Y"
                     },
-                    "endwalker": {
+                    "endwalker-main-scenario-quests": {
                         "69893": "Y",
                         "69894": "Y",
                         "69895": "Y",
@@ -1462,7 +1734,7 @@
                         "69999": "Y",
                         "70000": "Y"
                     },
-                    "post-endwalker": {
+                    "post-endwalker-main-scenario-quests": {
                         "70062": "Y",
                         "70063": "Y",
                         "70064": "Y",
@@ -1510,7 +1782,8 @@
                         "70287": "Y",
                         "70288": "Y",
                         "70289": "Y"
-                    }
+                    },
+                    "": {}
                 },
                 "chronicles-of-a-new-era": {
                     "primals": {
@@ -1530,14 +1803,6 @@
                         "66949": "Y",
                         "67066": "Y"
                     },
-                    "bahamut": {
-                        "65579": "Y",
-                        "65580": "Y",
-                        "66695": "Y",
-                        "66696": "Y",
-                        "66849": "Y",
-                        "66850": "Y"
-                    },
                     "the-crystal-tower": {
                         "66030": "Y",
                         "66031": "Y",
@@ -1549,23 +1814,6 @@
                         "66739": "Y",
                         "67010": "Y",
                         "67245": "Y"
-                    },
-                    "alexander": {
-                        "67626": "Y",
-                        "67627": "Y",
-                        "67628": "Y",
-                        "67629": "Y",
-                        "67630": "Y",
-                        "67785": "Y",
-                        "67786": "Y",
-                        "67787": "Y",
-                        "67788": "Y",
-                        "67789": "Y",
-                        "67871": "Y",
-                        "67872": "Y",
-                        "67873": "Y",
-                        "67874": "Y",
-                        "67875": "Y"
                     },
                     "the-warring-triad": {
                         "67650": "Y",
@@ -1588,126 +1836,186 @@
                         "67909": "Y",
                         "67910": "Y"
                     },
-                    "omega": {
-                        "68464": "Y",
-                        "68465": "Y",
-                        "68466": "Y",
-                        "68467": "Y",
-                        "68468": "Y",
-                        "68469": "Y",
-                        "68567": "Y",
-                        "68568": "Y",
-                        "68569": "Y",
-                        "68570": "Y",
-                        "68571": "Y",
-                        "68690": "Y",
-                        "68691": "Y",
-                        "68692": "Y",
-                        "68693": "Y",
-                        "beyond-the-rift": {
-                            "70122": "Y",
-                            "70123": "Y"
+                    "chronicles-of-a-new-era---alexander": {
+                        "alexander-quests": {
+                            "67626": "Y",
+                            "67627": "Y",
+                            "67628": "Y",
+                            "67629": "Y",
+                            "67630": "Y",
+                            "67785": "Y",
+                            "67786": "Y",
+                            "67787": "Y",
+                            "67788": "Y",
+                            "67789": "Y",
+                            "67871": "Y",
+                            "67872": "Y",
+                            "67873": "Y",
+                            "67874": "Y",
+                            "67875": "Y"
                         }
                     },
-                    "return-to-ivalice": {
-                        "68539": "Y",
-                        "68540": "Y",
-                        "68625": "Y",
-                        "68626": "Y",
-                        "68627": "Y",
-                        "68628": "Y",
-                        "68723": "Y",
-                        "68724": "Y",
-                        "68725": "Y",
-                        "68726": "Y"
+                    "chronicles-of-a-new-era---bahamut": {
+                        "bahamut-quests": {
+                            "65579": "Y",
+                            "65580": "Y",
+                            "66695": "Y",
+                            "66696": "Y",
+                            "66849": "Y",
+                            "66850": "Y"
+                        }
                     },
-                    "the-four-lords": {
-                        "68551": "Y",
-                        "68552": "Y",
-                        "68688": "Y",
-                        "68701": "Y",
-                        "68702": "Y"
+                    "chronicles-of-a-new-era---eden": {
+                        "eden": {
+                            "68791": "Y",
+                            "68792": "Y",
+                            "68793": "Y",
+                            "68794": "Y",
+                            "68795": "Y",
+                            "68796": "Y",
+                            "69323": "Y",
+                            "69324": "Y",
+                            "69325": "Y",
+                            "69326": "Y",
+                            "69327": "Y",
+                            "69328": "Y",
+                            "69329": "Y",
+                            "69511": "Y",
+                            "69512": "Y",
+                            "69513": "Y",
+                            "69514": "Y",
+                            "69515": "Y"
+                        }
                     },
-                    "eden": {
-                        "68791": "Y",
-                        "68792": "Y",
-                        "68793": "Y",
-                        "68794": "Y",
-                        "68795": "Y",
-                        "68796": "Y",
-                        "69323": "Y",
-                        "69324": "Y",
-                        "69325": "Y",
-                        "69326": "Y",
-                        "69327": "Y",
-                        "69328": "Y",
-                        "69329": "Y",
-                        "69511": "Y",
-                        "69512": "Y",
-                        "69513": "Y",
-                        "69514": "Y",
-                        "69515": "Y"
+                    "chronicles-of-a-new-era---myths-of-the-realm": {
+                        "myths-of-the-realm": {
+                            "70072": "Y",
+                            "70073": "Y",
+                            "70074": "Y",
+                            "70075": "Y",
+                            "70202": "Y",
+                            "70203": "Y",
+                            "70204": "Y",
+                            "70205": "Y",
+                            "70327": "Y",
+                            "70328": "Y"
+                        }
+                    },
+                    "chronicles-of-a-new-era---pandmonium": {
+                        "pandmonium": {
+                            "70011": "Y",
+                            "70012": "Y",
+                            "70013": "Y",
+                            "70014": "Y",
+                            "70015": "Y",
+                            "70171": "Y",
+                            "70172": "Y",
+                            "70173": "Y",
+                            "70174": "Y",
+                            "70175": "Y",
+                            "70176": "Y",
+                            "70292": "Y",
+                            "70293": "Y",
+                            "70294": "Y",
+                            "70295": "Y",
+                            "70296": "Y"
+                        }
+                    },
+                    "chronicles-of-a-new-era---primals": {
+                        "primal-quests": {}
+                    },
+                    "chronicles-of-a-new-era---return-to-ivalice": {
+                        "return-to-ivalice": {
+                            "68539": "Y",
+                            "68540": "Y",
+                            "68625": "Y",
+                            "68626": "Y",
+                            "68627": "Y",
+                            "68628": "Y",
+                            "68723": "Y",
+                            "68724": "Y",
+                            "68725": "Y",
+                            "68726": "Y"
+                        }
+                    },
+                    "chronicles-of-a-new-era---the-crystal-tower": {
+                        "crystal-tower-quests": {}
+                    },
+                    "chronicles-of-a-new-era---the-four-lords": {
+                        "the-four-lords": {
+                            "68551": "Y",
+                            "68552": "Y",
+                            "68688": "Y",
+                            "68701": "Y",
+                            "68702": "Y"
+                        }
+                    },
+                    "chronicles-of-a-new-era---the-shadow-of-mhach": {
+                        "shadow-of-mhach-quests": {}
+                    },
+                    "chronicles-of-a-new-era---the-sorrow-of-werlyt": {
+                        "garlemalds-machinations": {
+                            "69319": "Y",
+                            "69431": "Y",
+                            "69516": "Y",
+                            "69517": "Y",
+                            "69567": "Y",
+                            "69568": "Y"
+                        }
+                    },
+                    "chronicles-of-a-new-era---the-warring-triad": {
+                        "heavensward-primal-quests": {}
                     },
                     "yorha-dark-apocalypse": {
-                        "69207": "Y",
-                        "69253": "Y",
-                        "69254": "Y",
-                        "69255": "Y",
-                        "69256": "Y",
-                        "69257": "X",
-                        "69320": "Y",
-                        "69321": "Y",
-                        "69488": "Y",
-                        "69489": "Y",
-                        "69490": "Y",
-                        "69534": "Y",
-                        "69570": "Y",
-                        "69571": "Y",
-                        "69572": "Y",
-                        "69579": "Y",
-                        "69586": "Y",
-                        "69587": "Y",
-                        "69588": "Y",
-                        "69589": "Y"
+                        "yorha-dark-apocalypse": {
+                            "69207": "Y",
+                            "69253": "Y",
+                            "69254": "Y",
+                            "69255": "Y",
+                            "69256": "Y",
+                            "69257": "X",
+                            "69320": "Y",
+                            "69321": "Y",
+                            "69488": "Y",
+                            "69489": "Y",
+                            "69490": "Y",
+                            "69534": "Y",
+                            "69570": "Y",
+                            "69571": "Y",
+                            "69572": "Y",
+                            "69579": "Y",
+                            "69586": "Y",
+                            "69587": "Y",
+                            "69588": "Y",
+                            "69589": "Y",
+                            "yorha-dark-apocalypse": {}
+                        }
                     },
-                    "the-sorrow-of-werlyt": {
-                        "69319": "Y",
-                        "69431": "Y",
-                        "69516": "Y",
-                        "69517": "Y",
-                        "69567": "Y",
-                        "69568": "Y"
+                    "chronicles-of-a-new-era-omega": {
+                        "omega-quests": {
+                            "68464": "Y",
+                            "68465": "Y",
+                            "68466": "Y",
+                            "68467": "Y",
+                            "68468": "Y",
+                            "68469": "Y",
+                            "68567": "Y",
+                            "68568": "Y",
+                            "68569": "Y",
+                            "68570": "Y",
+                            "68571": "Y",
+                            "68690": "Y",
+                            "68691": "Y",
+                            "68692": "Y",
+                            "68693": "Y",
+                            "beyond-the-rift": {
+                                "70122": "Y",
+                                "70123": "Y"
+                            }
+                        },
+                        "omega-beyond-the-rift": {}
                     },
-                    "pandaemonium": {
-                        "70011": "Y",
-                        "70012": "Y",
-                        "70013": "Y",
-                        "70014": "Y",
-                        "70015": "Y",
-                        "70171": "Y",
-                        "70172": "Y",
-                        "70173": "Y",
-                        "70174": "Y",
-                        "70175": "Y",
-                        "70176": "Y",
-                        "70292": "Y",
-                        "70293": "Y",
-                        "70294": "Y",
-                        "70295": "Y",
-                        "70296": "Y"
-                    },
-                    "myths-of-the-realm": {
-                        "70072": "Y",
-                        "70073": "Y",
-                        "70074": "Y",
-                        "70075": "Y",
-                        "70202": "Y",
-                        "70203": "Y",
-                        "70204": "Y",
-                        "70205": "Y",
-                        "70327": "Y",
-                        "70328": "Y"
-                    }
+                    "omega": {}
                 },
                 "sidequests": {
                     "chronicles-of-light": {
@@ -1716,11 +2024,11 @@
                         "tales-of-newfound-adventure": {}
                     },
                     "hildibrand-sidequests": {
-                        "hildibrand": {},
                         "further-hildibrand-adventures": {},
                         "even-further-hildibrand-adventures": {},
                         "somehow-further-hildibrand-adventures": {},
-                        "manderville-weapons": {}
+                        "manderville-weapons": {},
+                        "hildibrand-adventures": {}
                     },
                     "weapon-enhancement-sidequests": {
                         "zodiac-weapons": {},
@@ -1738,14 +2046,11 @@
                         "heaven-on-high": {},
                         "eureka-orthos": {},
                         "island-sanctuary": {},
-                        "variant-dungeons": {}
-                    },
-                    "side-story": {
-                        "tales-from-the-calamity": {},
-                        "delivery-moogle": {},
-                        "scholasticate": {},
-                        "void-quests": {},
-                        "tatarus-grand-endeavor": {}
+                        "variant-dungeons": {},
+                        "domain-adventurers-guild-quests": {},
+                        "domain-reconstruction-quests": {},
+                        "ishgardian-restoration-main-quests-quests": {},
+                        "island-sanctuary-quests-quests": {}
                     },
                     "lominsan": {
                         "limsa-lominsa": {
@@ -1985,269 +2290,317 @@
                     },
                     "ultima-thule": {
                         "ultima-thule": {}
+                    },
+                    "side-story-quests": {
+                        "tales-from-the-calamity": {},
+                        "void-quests": {},
+                        "tatarus-grand-endeavor": {},
+                        "delivery-moogle-quests": {},
+                        "scholasticate-quests": {}
                     }
                 },
-                "tribal-quests": {
-                    "amaljaa": {
-                        "66753": "Y",
-                        "66754": "Y",
-                        "66755": "Y",
-                        "66756": "Y",
-                        "66757": "Y",
-                        "66758": "Y",
-                        "66759": "Y",
-                        "66760": "Y",
-                        "66761": "Y",
-                        "66762": "Y",
-                        "66763": "Y",
-                        "66764": "Y",
-                        "66765": "Y",
-                        "66766": "Y",
-                        "66767": "Y",
-                        "66768": "Y",
-                        "66769": "Y",
-                        "66770": "Y",
-                        "66771": "Y",
-                        "66772": "Y",
-                        "66773": "Y",
-                        "66774": "Y",
-                        "66775": "Y",
-                        "66776": "Y",
-                        "66777": "Y",
-                        "66778": "Y",
-                        "66779": "Y",
-                        "66780": "Y",
-                        "66781": "Y",
-                        "66782": "Y",
-                        "66783": "Y",
-                        "66784": "Y",
-                        "66785": "Y",
-                        "66786": "Y",
-                        "66787": "Y"
+                "levequests": {
+                    "battlecraft": {},
+                    "grand-company": {},
+                    "mining": {},
+                    "botany": {},
+                    "fishing": {},
+                    "carpentry": {},
+                    "blacksmithing": {},
+                    "armoring": {},
+                    "goldsmithing": {},
+                    "leatherworking": {},
+                    "clothcrafting": {},
+                    "alchemy": {},
+                    "cooking": {},
+                    "alchemy-leves": {
+                        "coerthas-central-highlands": {},
+                        "eastern-la-noscea": {},
+                        "eastern-thanalan": {},
+                        "ishgard": {},
+                        "kugane": {},
+                        "mor-dhona": {},
+                        "old-sharlayan": {},
+                        "south-shroud": {},
+                        "the-crystarium": {},
+                        "uldah": {},
+                        "western-thanalan": {}
                     },
-                    "sylph": {
-                        "66788": "Y",
-                        "66789": "Y",
-                        "66790": "Y",
-                        "66791": "Y",
-                        "66792": "Y",
-                        "66793": "Y",
-                        "66794": "Y",
-                        "66795": "Y",
-                        "66796": "Y",
-                        "66797": "Y",
-                        "66798": "Y",
-                        "66799": "Y",
-                        "66800": "Y",
-                        "66801": "Y",
-                        "66802": "Y",
-                        "66803": "Y",
-                        "66804": "Y",
-                        "66805": "Y",
-                        "66806": "Y",
-                        "66807": "Y",
-                        "66808": "Y",
-                        "66809": "Y",
-                        "66810": "Y",
-                        "66811": "Y",
-                        "66812": "Y",
-                        "66813": "Y",
-                        "66814": "Y",
-                        "66815": "Y",
-                        "66816": "Y",
-                        "66817": "Y",
-                        "66818": "Y",
-                        "66819": "Y",
-                        "66820": "Y",
-                        "66821": "Y",
-                        "66822": "Y"
+                    "armoring-leves": {
+                        "coerthas-central-highlands": {},
+                        "eastern-la-noscea": {},
+                        "ishgard": {},
+                        "kugane": {},
+                        "limsa-lominsa": {},
+                        "lower-la-noscea": {},
+                        "mor-dhona": {},
+                        "old-sharlayan": {},
+                        "south-shroud": {},
+                        "the-crystarium": {},
+                        "western-la-noscea": {}
                     },
-                    "kobold": {
-                        "66856": "Y",
-                        "66857": "Y",
-                        "66858": "Y",
-                        "66859": "Y",
-                        "66860": "Y",
-                        "66861": "Y",
-                        "66862": "Y",
-                        "66863": "Y",
-                        "66864": "Y",
-                        "66865": "Y",
-                        "66866": "Y",
-                        "66867": "Y",
-                        "66868": "Y",
-                        "66869": "Y",
-                        "66870": "Y",
-                        "66871": "Y",
-                        "66872": "Y",
-                        "66873": "Y",
-                        "66874": "Y",
-                        "66875": "Y",
-                        "66876": "Y",
-                        "66877": "Y",
-                        "66878": "Y",
-                        "66879": "Y",
-                        "66880": "Y",
-                        "66900": "Y",
-                        "66901": "Y",
-                        "66902": "Y",
-                        "66903": "Y",
-                        "66904": "Y",
-                        "66905": "Y",
-                        "66906": "Y",
-                        "66907": "Y",
-                        "66908": "Y",
-                        "66909": "Y"
+                    "battlecraft-leves": {
+                        "central-shroud": {},
+                        "coerthas-central-highlands": {},
+                        "coerthas-western-highlands": {},
+                        "eastern-la-noscea": {},
+                        "eastern-thanalan": {},
+                        "east-shroud": {},
+                        "lower-la-noscea": {},
+                        "mor-dhona": {},
+                        "northern-thanalan": {},
+                        "southern-thanalan": {},
+                        "south-shroud": {},
+                        "the-churning-mists": {},
+                        "the-dravanian-forelands": {},
+                        "the-dravanian-hinterlands": {},
+                        "the-sea-of-clouds": {},
+                        "western-la-noscea": {
+                            "556": "X"
+                        },
+                        "western-thanalan": {
+                            "566": "X"
+                        }
                     },
-                    "sahagin": {
-                        "66910": "Y",
-                        "66911": "Y",
-                        "66912": "Y",
-                        "66913": "Y",
-                        "66914": "Y",
-                        "66915": "Y",
-                        "66916": "Y",
-                        "66917": "Y",
-                        "66918": "Y",
-                        "66919": "Y",
-                        "66920": "Y",
-                        "66921": "Y",
-                        "66922": "Y",
-                        "66923": "Y",
-                        "66924": "Y",
-                        "66926": "Y",
-                        "66927": "Y",
-                        "66928": "Y",
-                        "66929": "Y",
-                        "66930": "Y",
-                        "66931": "Y",
-                        "66932": "Y",
-                        "66933": "Y",
-                        "66934": "Y",
-                        "66935": "Y",
-                        "66936": "Y",
-                        "66937": "Y",
-                        "66938": "Y",
-                        "66939": "Y",
-                        "66940": "Y",
-                        "66941": "Y",
-                        "66942": "Y",
-                        "66943": "Y",
-                        "66944": "Y",
-                        "66945": "Y"
+                    "blacksmithing-leves": {
+                        "coerthas-central-highlands": {},
+                        "eastern-la-noscea": {},
+                        "ishgard": {},
+                        "kugane": {},
+                        "limsa-lominsa": {},
+                        "lower-la-noscea": {},
+                        "mor-dhona": {},
+                        "old-sharlayan": {},
+                        "south-shroud": {},
+                        "the-crystarium": {},
+                        "western-la-noscea": {}
                     },
-                    "ixal": {
-                        "67022": "Y",
-                        "67023": "Y",
-                        "67024": "Y",
-                        "67025": "Y",
-                        "67026": "Y",
-                        "67027": "Y",
-                        "67028": "Y",
-                        "67029": "Y",
-                        "67030": "Y",
-                        "67031": "Y",
-                        "67032": "Y",
-                        "67033": "Y",
-                        "67034": "Y",
-                        "67035": "Y",
-                        "67036": "Y",
-                        "67037": "Y",
-                        "67038": "Y",
-                        "67039": "Y",
-                        "67040": "Y",
-                        "67041": "Y",
-                        "67042": "Y",
-                        "67043": "Y",
-                        "67044": "Y",
-                        "67045": "Y",
-                        "67046": "Y",
-                        "67047": "Y",
-                        "67048": "Y",
-                        "67049": "Y",
-                        "67050": "Y",
-                        "67051": "Y",
-                        "67052": "Y",
-                        "67053": "Y",
-                        "67054": "Y",
-                        "67055": "Y",
-                        "67056": "Y",
-                        "67057": "Y",
-                        "67058": "Y",
-                        "67059": "Y",
-                        "67102": "Y",
-                        "67103": "Y",
-                        "67104": "Y",
-                        "67105": "Y"
+                    "botany-leves": {
+                        "amh-araeng": {},
+                        "central-shroud": {},
+                        "coerthas-central-highlands": {},
+                        "coerthas-western-highlands": {},
+                        "eastern-la-noscea": {},
+                        "east-shroud": {},
+                        "garlemald": {},
+                        "il-mheg": {},
+                        "kholusia": {},
+                        "labyrinthos": {},
+                        "lakeland": {},
+                        "mor-dhona": {},
+                        "south-shroud": {},
+                        "thavnair": {},
+                        "the-azim-steppe": {},
+                        "the-churning-mists": {},
+                        "the-dravanian-forelands": {},
+                        "the-dravanian-hinterlands": {},
+                        "the-fringes": {},
+                        "the-peaks": {},
+                        "the-raktika-greatwood": {},
+                        "the-ruby-sea": {},
+                        "the-sea-of-clouds": {},
+                        "yanxia": {}
                     },
-                    "vanu": {
-                        "67700": "Y",
-                        "67701": "Y",
-                        "67702": "Y",
-                        "67703": "Y",
-                        "67704": "Y",
-                        "67705": "Y",
-                        "67706": "Y",
-                        "67707": "Y",
-                        "67708": "Y",
-                        "67709": "Y",
-                        "67710": "Y",
-                        "67711": "Y",
-                        "67712": "Y",
-                        "67713": "Y",
-                        "67714": "Y",
-                        "67715": "Y",
-                        "67716": "Y",
-                        "67717": "Y",
-                        "67718": "Y",
-                        "67719": "Y",
-                        "67720": "Y",
-                        "67721": "Y",
-                        "67722": "Y",
-                        "67723": "Y",
-                        "67724": "Y",
-                        "67725": "Y",
-                        "67726": "Y",
-                        "67727": "Y",
-                        "67728": "Y",
-                        "67729": "Y",
-                        "67730": "Y",
-                        "67731": "Y",
-                        "67732": "Y",
-                        "67733": "Y",
-                        "67734": "Y",
-                        "67735": "Y",
-                        "67736": "Y",
-                        "67761": "Y"
+                    "carpentry-leves": {
+                        "central-shroud": {},
+                        "coerthas-central-highlands": {},
+                        "eastern-la-noscea": {},
+                        "east-shroud": {},
+                        "gridania": {},
+                        "ishgard": {},
+                        "kugane": {},
+                        "mor-dhona": {},
+                        "old-sharlayan": {},
+                        "south-shroud": {},
+                        "the-crystarium": {}
                     },
-                    "vath": {
-                        "67791": "Y",
-                        "67792": "Y",
-                        "67793": "Y",
-                        "67794": "Y",
-                        "67795": "Y",
-                        "67796": "Y",
-                        "67797": "Y",
-                        "67798": "Y",
-                        "67799": "Y",
-                        "67800": "Y",
-                        "67801": "Y",
-                        "67802": "Y",
-                        "67803": "Y",
-                        "67804": "Y",
-                        "67805": "Y",
-                        "67806": "Y",
-                        "67807": "Y",
-                        "67808": "Y",
-                        "67809": "Y",
-                        "67810": "Y",
-                        "67811": "Y",
-                        "67812": "Y",
-                        "67813": "Y",
-                        "67814": "Y",
-                        "67815": "Y",
-                        "67816": "Y"
+                    "clothcrafting-leves": {
+                        "coerthas-central-highlands": {},
+                        "eastern-la-noscea": {},
+                        "eastern-thanalan": {},
+                        "ishgard": {},
+                        "kugane": {},
+                        "mor-dhona": {},
+                        "old-sharlayan": {},
+                        "south-shroud": {},
+                        "the-crystarium": {},
+                        "uldah": {},
+                        "western-thanalan": {}
                     },
+                    "company": {},
+                    "company-leves": {
+                        "immortal-flames-levequests": {},
+                        "maelstrom-levequests": {},
+                        "order-of-the-twin-adder-levequests": {}
+                    },
+                    "cooking-leves": {
+                        "coerthas-central-highlands": {},
+                        "eastern-la-noscea": {},
+                        "ishgard": {},
+                        "kugane": {},
+                        "limsa-lominsa": {},
+                        "lower-la-noscea": {},
+                        "mor-dhona": {},
+                        "old-sharlayan": {},
+                        "south-shroud": {},
+                        "the-crystarium": {},
+                        "western-la-noscea": {}
+                    },
+                    "fishing-leves": {
+                        "coerthas-central-highlands": {},
+                        "eastern-la-noscea": {},
+                        "ishgard": {},
+                        "kugane": {},
+                        "limsa-lominsa": {},
+                        "mor-dhona": {},
+                        "old-sharlayan": {},
+                        "south-shroud": {},
+                        "the-crystarium": {},
+                        "western-la-noscea": {}
+                    },
+                    "goldsmithing-leves": {
+                        "coerthas-central-highlands": {},
+                        "eastern-la-noscea": {},
+                        "eastern-thanalan": {},
+                        "ishgard": {},
+                        "kugane": {},
+                        "mor-dhona": {},
+                        "old-sharlayan": {},
+                        "south-shroud": {},
+                        "the-crystarium": {},
+                        "uldah": {},
+                        "western-thanalan": {}
+                    },
+                    "leatherworking-leves": {
+                        "central-shroud": {},
+                        "coerthas-central-highlands": {},
+                        "eastern-la-noscea": {},
+                        "east-shroud": {},
+                        "gridania": {},
+                        "ishgard": {},
+                        "kugane": {},
+                        "mor-dhona": {},
+                        "old-sharlayan": {},
+                        "south-shroud": {},
+                        "the-crystarium": {}
+                    },
+                    "mining-leves": {
+                        "amh-araeng": {},
+                        "coerthas-central-highlands": {},
+                        "coerthas-western-highlands": {},
+                        "eastern-la-noscea": {},
+                        "eastern-thanalan": {},
+                        "garlemald": {},
+                        "il-mheg": {},
+                        "kholusia": {},
+                        "labyrinthos": {},
+                        "lakeland": {},
+                        "mor-dhona": {},
+                        "south-shroud": {},
+                        "thavnair": {},
+                        "the-azim-steppe": {},
+                        "the-churning-mists": {},
+                        "the-dravanian-forelands": {},
+                        "the-dravanian-hinterlands": {},
+                        "the-fringes": {},
+                        "the-peaks": {},
+                        "the-raktika-greatwood": {},
+                        "the-ruby-sea": {},
+                        "the-sea-of-clouds": {},
+                        "western-thanalan": {},
+                        "yanxia": {}
+                    }
+                },
+                "class-and-job-quests": {
+                    "disciple-of-magic-job-quests": {
+                        "astrologian-quests": {},
+                        "black-mage-quests": {},
+                        "blue-mage-quests": {},
+                        "red-mage-quests": {},
+                        "sage-quests": {},
+                        "scholar-quests": {},
+                        "summoner-quests": {},
+                        "white-mage-quests": {}
+                    },
+                    "disciple-of-magic-quests": {
+                        "arcanist-quests": {},
+                        "conjurer-quests": {},
+                        "thaumaturge-quests": {}
+                    },
+                    "disciple-of-the-hand-quests": {
+                        "alchemist-quests": {},
+                        "armorer-quests": {},
+                        "blacksmith-quests": {},
+                        "carpenter-quests": {},
+                        "culinarian-quests": {},
+                        "goldsmith-quests": {},
+                        "leatherworker-quests": {},
+                        "weaver-quests": {}
+                    },
+                    "disciple-of-the-land-quests": {
+                        "botanist-quests": {},
+                        "fisher-quests": {},
+                        "miner-quests": {}
+                    },
+                    "disciple-of-war-job-quests": {
+                        "bard-quests": {},
+                        "dancer-quests": {},
+                        "dark-knight-quests": {},
+                        "dragoon-quests": {},
+                        "gunbreaker-quests": {},
+                        "machinist-quests": {},
+                        "monk-quests": {},
+                        "ninja-quests": {},
+                        "paladin-quests": {},
+                        "reaper-quests": {},
+                        "samurai-quests": {},
+                        "warrior-quests": {}
+                    },
+                    "disciple-of-war-quests": {
+                        "archer-quests": {},
+                        "gladiator-quests": {},
+                        "lancer-quests": {},
+                        "marauder-quests": {},
+                        "pugilist-quests": {},
+                        "rogue-quests": {}
+                    },
+                    "role-quests": {
+                        "shb": {},
+                        "ew": {},
+                        "healer-role-quests-shadowbringers": {},
+                        "healer-role-quests-endwalker": {},
+                        "magical-ranged-dps-role-quests-endwalker": {},
+                        "magical-ranged-dps-role-quests-shadowbringers": {},
+                        "melee-dps-role-quests-endwalker": {},
+                        "physical-dps-role-quests-shadowbringers": {},
+                        "physical-ranged-dps-role-quests-endwalker": {},
+                        "role-quests-endwalker": {},
+                        "role-quests-shadowbringers": {},
+                        "tank-role-quests-endwalker": {},
+                        "tank-role-quests-shadowbringers": {}
+                    },
+                    "crystalline-mean-quests": {
+                        "crystalline-mean-quests": {
+                            "facet-of-crafting-quests": {},
+                            "facet-of-fishing-quests": {},
+                            "facet-of-forging-quests": {},
+                            "facet-of-gathering-quests": {},
+                            "facet-of-nourishing-quests": {},
+                            "crystalline-mean-quests": {}
+                        }
+                    },
+                    "studium-quests": {
+                        "studium-quests": {
+                            "faculty-of-aetherology-quests": {},
+                            "faculty-of-anthropology-quests": {},
+                            "faculty-of-archaeology-quests": {},
+                            "faculty-of-astronomy-quests": {},
+                            "faculty-of-medicine-quests": {},
+                            "studium-quests": {}
+                        }
+                    }
+                },
+                "allied-society-quests": {
                     "moogle": {
                         "67826": "Y",
                         "67827": "Y",
@@ -2288,297 +2641,6 @@
                         "67862": "Y",
                         "67863": "Y"
                     },
-                    "kojin": {
-                        "68509": "Y",
-                        "68510": "Y",
-                        "68511": "Y",
-                        "68512": "Y",
-                        "68513": "Y",
-                        "68514": "Y",
-                        "68515": "Y",
-                        "68516": "Y",
-                        "68517": "Y",
-                        "68518": "Y",
-                        "68519": "Y",
-                        "68520": "Y",
-                        "68521": "Y",
-                        "68522": "Y",
-                        "68523": "Y",
-                        "68524": "Y",
-                        "68525": "Y",
-                        "68526": "Y",
-                        "68527": "Y",
-                        "68528": "Y",
-                        "68529": "Y",
-                        "68530": "Y",
-                        "68531": "Y",
-                        "68532": "Y",
-                        "68533": "Y",
-                        "68534": "Y",
-                        "68535": "Y",
-                        "68536": "Y",
-                        "68537": "Y",
-                        "68538": "Y"
-                    },
-                    "ananta": {
-                        "68572": "Y",
-                        "68573": "Y",
-                        "68574": "Y",
-                        "68575": "Y",
-                        "68576": "Y",
-                        "68577": "Y",
-                        "68578": "Y",
-                        "68579": "Y",
-                        "68580": "Y",
-                        "68581": "Y",
-                        "68582": "Y",
-                        "68583": "Y",
-                        "68584": "Y",
-                        "68585": "Y",
-                        "68586": "Y",
-                        "68587": "Y",
-                        "68588": "Y",
-                        "68589": "Y",
-                        "68590": "Y",
-                        "68591": "Y",
-                        "68592": "Y",
-                        "68593": "Y",
-                        "68594": "Y",
-                        "68595": "Y",
-                        "68596": "Y",
-                        "68597": "Y",
-                        "68598": "Y",
-                        "68599": "Y",
-                        "68600": "Y",
-                        "68601": "Y",
-                        "68602": "Y",
-                        "68603": "Y",
-                        "68604": "Y",
-                        "68605": "Y"
-                    },
-                    "namazu": {
-                        "68632": "Y",
-                        "68633": "Y",
-                        "68634": "Y",
-                        "68635": "Y",
-                        "68636": "Y",
-                        "68637": "Y",
-                        "68638": "Y",
-                        "68639": "Y",
-                        "68640": "Y",
-                        "68641": "Y",
-                        "68642": "Y",
-                        "68643": "Y",
-                        "68644": "Y",
-                        "68645": "Y",
-                        "68646": "Y",
-                        "68647": "Y",
-                        "68648": "Y",
-                        "68649": "Y",
-                        "68650": "Y",
-                        "68651": "Y",
-                        "68652": "Y",
-                        "68653": "Y",
-                        "68654": "Y",
-                        "68655": "Y",
-                        "68656": "Y",
-                        "68657": "Y",
-                        "68658": "Y",
-                        "68659": "Y",
-                        "68660": "Y",
-                        "68661": "Y",
-                        "68662": "Y",
-                        "68663": "Y",
-                        "68664": "Y",
-                        "68665": "Y",
-                        "68666": "Y"
-                    },
-                    "pixie": {
-                        "69219": "Y",
-                        "69220": "Y",
-                        "69221": "Y",
-                        "69222": "Y",
-                        "69223": "Y",
-                        "69224": "Y",
-                        "69225": "Y",
-                        "69226": "Y",
-                        "69227": "Y",
-                        "69228": "Y",
-                        "69229": "Y",
-                        "69230": "Y",
-                        "69231": "Y",
-                        "69232": "Y",
-                        "69233": "Y",
-                        "69234": "Y",
-                        "69235": "Y",
-                        "69236": "Y",
-                        "69237": "Y",
-                        "69238": "Y",
-                        "69239": "Y",
-                        "69240": "Y",
-                        "69241": "Y",
-                        "69242": "Y",
-                        "69243": "Y",
-                        "69244": "Y",
-                        "69245": "Y",
-                        "69246": "Y",
-                        "69247": "Y",
-                        "69248": "Y",
-                        "69249": "Y",
-                        "69250": "Y",
-                        "69251": "Y",
-                        "69252": "Y"
-                    },
-                    "qitari": {
-                        "69330": "Y",
-                        "69331": "Y",
-                        "69332": "Y",
-                        "69333": "Y",
-                        "69334": "Y",
-                        "69335": "Y",
-                        "69336": "Y",
-                        "69337": "X",
-                        "69338": "Y",
-                        "69339": "X",
-                        "69340": "Y",
-                        "69341": "X",
-                        "69342": "Y",
-                        "69343": "Y",
-                        "69344": "Y",
-                        "69345": "Y",
-                        "69346": "Y",
-                        "69347": "Y",
-                        "69348": "Y",
-                        "69349": "Y",
-                        "69350": "Y",
-                        "69351": "Y",
-                        "69352": "Y",
-                        "69353": "Y",
-                        "69354": "Y",
-                        "69355": "Y",
-                        "69356": "Y",
-                        "69357": "Y",
-                        "69358": "Y",
-                        "69359": "Y",
-                        "69360": "Y",
-                        "69361": "Y",
-                        "69362": "Y",
-                        "69363": "Y",
-                        "69364": "Y",
-                        "69365": "Y",
-                        "69366": "Y",
-                        "69367": "Y",
-                        "69368": "Y",
-                        "69369": "Y"
-                    },
-                    "dwarf": {
-                        "69432": "Y",
-                        "69433": "Y",
-                        "69434": "Y",
-                        "69435": "Y",
-                        "69436": "Y",
-                        "69437": "Y",
-                        "69438": "Y",
-                        "69439": "Y",
-                        "69440": "Y",
-                        "69441": "Y",
-                        "69442": "Y",
-                        "69443": "Y",
-                        "69444": "Y",
-                        "69445": "Y",
-                        "69446": "Y",
-                        "69447": "Y",
-                        "69448": "Y",
-                        "69449": "Y",
-                        "69450": "Y",
-                        "69451": "Y",
-                        "69452": "Y",
-                        "69453": "Y",
-                        "69454": "Y",
-                        "69455": "Y",
-                        "69456": "Y",
-                        "69457": "Y",
-                        "69458": "Y",
-                        "69459": "Y",
-                        "69460": "Y",
-                        "69461": "Y",
-                        "69462": "Y",
-                        "69463": "Y",
-                        "69464": "Y",
-                        "69465": "Y"
-                    },
-                    "arkasodara": {
-                        "70081": "Y",
-                        "70082": "Y",
-                        "70083": "Y",
-                        "70084": "Y",
-                        "70085": "Y",
-                        "70086": "Y",
-                        "70087": "Y",
-                        "70088": "Y",
-                        "70089": "Y",
-                        "70090": "Y",
-                        "70091": "Y",
-                        "70092": "Y",
-                        "70093": "Y",
-                        "70094": "Y",
-                        "70095": "Y",
-                        "70096": "Y",
-                        "70097": "Y",
-                        "70098": "Y",
-                        "70099": "Y",
-                        "70100": "Y",
-                        "70101": "Y",
-                        "70102": "Y",
-                        "70103": "Y",
-                        "70104": "Y",
-                        "70105": "Y",
-                        "70106": "Y",
-                        "70107": "Y",
-                        "70108": "Y",
-                        "70109": "Y",
-                        "70110": "Y",
-                        "70111": "Y",
-                        "70112": "Y",
-                        "70113": "Y",
-                        "70114": "Y"
-                    },
-                    "omicron": {
-                        "70137": "Y",
-                        "70138": "Y",
-                        "70139": "Y",
-                        "70140": "Y",
-                        "70141": "Y",
-                        "70142": "Y",
-                        "70143": "Y",
-                        "70144": "Y",
-                        "70145": "Y",
-                        "70146": "Y",
-                        "70147": "Y",
-                        "70148": "Y",
-                        "70149": "Y",
-                        "70150": "Y",
-                        "70151": "Y",
-                        "70152": "Y",
-                        "70153": "Y",
-                        "70154": "Y",
-                        "70155": "Y",
-                        "70156": "Y",
-                        "70157": "Y",
-                        "70158": "Y",
-                        "70159": "Y",
-                        "70160": "Y",
-                        "70161": "Y",
-                        "70162": "Y",
-                        "70163": "Y",
-                        "70164": "Y",
-                        "70165": "Y",
-                        "70166": "Y",
-                        "70167": "Y",
-                        "70168": "Y",
-                        "70169": "Y",
-                        "70170": "Y"
-                    },
                     "loporrit": {
                         "70217": "Y",
                         "70218": "Y",
@@ -2615,8 +2677,627 @@
                         "70249": "Y",
                         "70250": "Y"
                     },
-                    "tribal-alliance-quests": {
-                        "a-realm-reborn-tribal-quests": {
+                    "amaljaa-quests": {
+                        "daily-quests": {
+                            "66758": "Y",
+                            "66759": "Y",
+                            "66760": "Y",
+                            "66761": "Y",
+                            "66762": "Y",
+                            "66763": "Y",
+                            "66764": "Y",
+                            "66765": "Y",
+                            "66766": "Y",
+                            "66767": "Y",
+                            "66768": "Y",
+                            "66769": "Y",
+                            "66770": "Y",
+                            "66771": "Y",
+                            "66772": "Y",
+                            "66773": "Y",
+                            "66774": "Y",
+                            "66775": "Y",
+                            "66776": "Y",
+                            "66777": "Y",
+                            "66778": "Y",
+                            "66779": "Y",
+                            "66780": "Y",
+                            "66781": "Y",
+                            "66782": "Y",
+                            "66783": "Y",
+                            "66784": "Y",
+                            "66785": "Y",
+                            "66786": "Y",
+                            "66787": "Y"
+                        },
+                        "main-quests": {
+                            "66753": "Y",
+                            "66754": "Y",
+                            "66755": "Y",
+                            "66756": "Y",
+                            "66757": "Y"
+                        }
+                    },
+                    "ananta-quests": {
+                        "daily-quests": {
+                            "68578": "Y",
+                            "68579": "Y",
+                            "68580": "Y",
+                            "68581": "Y",
+                            "68582": "Y",
+                            "68583": "Y",
+                            "68584": "Y",
+                            "68585": "Y",
+                            "68586": "Y",
+                            "68587": "Y",
+                            "68588": "Y",
+                            "68589": "Y",
+                            "68590": "Y",
+                            "68591": "Y",
+                            "68592": "Y",
+                            "68593": "Y",
+                            "68594": "Y",
+                            "68595": "Y",
+                            "68596": "Y",
+                            "68597": "Y",
+                            "68598": "Y",
+                            "68599": "Y",
+                            "68600": "Y",
+                            "68601": "Y",
+                            "68602": "Y",
+                            "68603": "Y",
+                            "68604": "Y",
+                            "68605": "Y"
+                        },
+                        "main-quests": {
+                            "68572": "Y",
+                            "68573": "Y",
+                            "68574": "Y",
+                            "68575": "Y",
+                            "68576": "Y",
+                            "68577": "Y"
+                        }
+                    },
+                    "arkasodara-quests": {
+                        "daily-quests": {
+                            "70087": "Y",
+                            "70088": "Y",
+                            "70089": "Y",
+                            "70090": "Y",
+                            "70091": "Y",
+                            "70092": "Y",
+                            "70093": "Y",
+                            "70094": "Y",
+                            "70095": "Y",
+                            "70096": "Y",
+                            "70097": "Y",
+                            "70098": "Y",
+                            "70099": "Y",
+                            "70100": "Y",
+                            "70101": "Y",
+                            "70102": "Y",
+                            "70103": "Y",
+                            "70104": "Y",
+                            "70105": "Y",
+                            "70106": "Y",
+                            "70107": "Y",
+                            "70108": "Y",
+                            "70109": "Y",
+                            "70110": "Y",
+                            "70111": "Y",
+                            "70112": "Y",
+                            "70113": "Y",
+                            "70114": "Y"
+                        },
+                        "main-quests": {
+                            "70081": "Y",
+                            "70082": "Y",
+                            "70083": "Y",
+                            "70084": "Y",
+                            "70085": "Y",
+                            "70086": "Y"
+                        }
+                    },
+                    "dwarf-quests": {
+                        "daily-quests": {
+                            "69438": "Y",
+                            "69439": "Y",
+                            "69440": "Y",
+                            "69441": "Y",
+                            "69442": "Y",
+                            "69443": "Y",
+                            "69444": "Y",
+                            "69445": "Y",
+                            "69446": "Y",
+                            "69447": "Y",
+                            "69448": "Y",
+                            "69449": "Y",
+                            "69450": "Y",
+                            "69451": "Y",
+                            "69452": "Y",
+                            "69453": "Y",
+                            "69454": "Y",
+                            "69455": "Y",
+                            "69456": "Y",
+                            "69457": "Y",
+                            "69458": "Y",
+                            "69459": "Y",
+                            "69460": "Y",
+                            "69461": "Y",
+                            "69462": "Y",
+                            "69463": "Y",
+                            "69464": "Y",
+                            "69465": "Y"
+                        },
+                        "main-quests": {
+                            "69432": "Y",
+                            "69433": "Y",
+                            "69434": "Y",
+                            "69435": "Y",
+                            "69436": "Y",
+                            "69437": "Y"
+                        }
+                    },
+                    "ixal-quests": {
+                        "daily-quests": {
+                            "67030": "Y",
+                            "67031": "Y",
+                            "67032": "Y",
+                            "67033": "Y",
+                            "67034": "Y",
+                            "67035": "Y",
+                            "67036": "Y",
+                            "67037": "Y",
+                            "67038": "Y",
+                            "67039": "Y",
+                            "67040": "Y",
+                            "67041": "Y",
+                            "67042": "Y",
+                            "67043": "Y",
+                            "67044": "Y",
+                            "67045": "Y",
+                            "67046": "Y",
+                            "67047": "Y",
+                            "67048": "Y",
+                            "67049": "Y",
+                            "67050": "Y",
+                            "67051": "Y",
+                            "67052": "Y",
+                            "67053": "Y",
+                            "67054": "Y",
+                            "67055": "Y",
+                            "67056": "Y",
+                            "67057": "Y",
+                            "67058": "Y",
+                            "67059": "Y",
+                            "67102": "Y",
+                            "67103": "Y",
+                            "67104": "Y",
+                            "67105": "Y"
+                        },
+                        "main-quests": {
+                            "67022": "Y",
+                            "67023": "Y",
+                            "67024": "Y",
+                            "67025": "Y",
+                            "67026": "Y",
+                            "67027": "Y",
+                            "67028": "Y",
+                            "67029": "Y"
+                        }
+                    },
+                    "kobold-quests": {
+                        "daily-quests": {
+                            "66861": "Y",
+                            "66862": "Y",
+                            "66863": "Y",
+                            "66864": "Y",
+                            "66865": "Y",
+                            "66866": "Y",
+                            "66867": "Y",
+                            "66868": "Y",
+                            "66869": "Y",
+                            "66870": "Y",
+                            "66871": "Y",
+                            "66872": "Y",
+                            "66873": "Y",
+                            "66874": "Y",
+                            "66875": "Y",
+                            "66876": "Y",
+                            "66877": "Y",
+                            "66878": "Y",
+                            "66879": "Y",
+                            "66880": "Y",
+                            "66900": "Y",
+                            "66901": "Y",
+                            "66902": "Y",
+                            "66903": "Y",
+                            "66904": "Y",
+                            "66905": "Y",
+                            "66906": "Y",
+                            "66907": "Y",
+                            "66908": "Y",
+                            "66909": "Y"
+                        },
+                        "main-quests": {
+                            "66856": "Y",
+                            "66857": "Y",
+                            "66858": "Y",
+                            "66859": "Y",
+                            "66860": "Y"
+                        }
+                    },
+                    "kojin-quests": {
+                        "daily-quests": {
+                            "68515": "Y",
+                            "68516": "Y",
+                            "68517": "Y",
+                            "68518": "Y",
+                            "68519": "Y",
+                            "68520": "Y",
+                            "68521": "Y",
+                            "68522": "Y",
+                            "68523": "Y",
+                            "68524": "Y",
+                            "68525": "Y",
+                            "68526": "Y",
+                            "68527": "Y",
+                            "68528": "Y",
+                            "68529": "Y",
+                            "68530": "Y",
+                            "68531": "Y",
+                            "68532": "Y",
+                            "68533": "Y",
+                            "68534": "Y",
+                            "68535": "Y",
+                            "68536": "Y",
+                            "68537": "Y",
+                            "68538": "Y"
+                        },
+                        "main-quests": {
+                            "68509": "Y",
+                            "68510": "Y",
+                            "68511": "Y",
+                            "68512": "Y",
+                            "68513": "Y",
+                            "68514": "Y"
+                        }
+                    },
+                    "loporitt-quests": {
+                        "daily-quests": {},
+                        "main-quests": {}
+                    },
+                    "moggle-quests": {
+                        "daily-quests": {},
+                        "main-quests": {}
+                    },
+                    "namazu-quests": {
+                        "daily-quests": {
+                            "68639": "Y",
+                            "68640": "Y",
+                            "68641": "Y",
+                            "68642": "Y",
+                            "68643": "Y",
+                            "68644": "Y",
+                            "68645": "Y",
+                            "68646": "Y",
+                            "68647": "Y",
+                            "68648": "Y",
+                            "68649": "Y",
+                            "68650": "Y",
+                            "68651": "Y",
+                            "68652": "Y",
+                            "68653": "Y",
+                            "68654": "Y",
+                            "68655": "Y",
+                            "68656": "Y",
+                            "68657": "Y",
+                            "68658": "Y",
+                            "68659": "Y",
+                            "68660": "Y",
+                            "68661": "Y",
+                            "68662": "Y",
+                            "68663": "Y",
+                            "68664": "Y",
+                            "68665": "Y",
+                            "68666": "Y"
+                        },
+                        "main-quests": {
+                            "68632": "Y",
+                            "68633": "Y",
+                            "68634": "Y",
+                            "68635": "Y",
+                            "68636": "Y",
+                            "68637": "Y",
+                            "68638": "Y"
+                        }
+                    },
+                    "omicron-quests": {
+                        "daily-quests": {
+                            "70143": "Y",
+                            "70144": "Y",
+                            "70145": "Y",
+                            "70146": "Y",
+                            "70147": "Y",
+                            "70148": "Y",
+                            "70149": "Y",
+                            "70150": "Y",
+                            "70151": "Y",
+                            "70152": "Y",
+                            "70153": "Y",
+                            "70154": "Y",
+                            "70155": "Y",
+                            "70156": "Y",
+                            "70157": "Y",
+                            "70158": "Y",
+                            "70159": "Y",
+                            "70160": "Y",
+                            "70161": "Y",
+                            "70162": "Y",
+                            "70163": "Y",
+                            "70164": "Y",
+                            "70165": "Y",
+                            "70166": "Y",
+                            "70167": "Y",
+                            "70168": "Y",
+                            "70169": "Y",
+                            "70170": "Y"
+                        },
+                        "main-quests": {
+                            "70137": "Y",
+                            "70138": "Y",
+                            "70139": "Y",
+                            "70140": "Y",
+                            "70141": "Y",
+                            "70142": "Y"
+                        }
+                    },
+                    "pixie-quests": {
+                        "daily-quests": {
+                            "69225": "Y",
+                            "69226": "Y",
+                            "69227": "Y",
+                            "69228": "Y",
+                            "69229": "Y",
+                            "69230": "Y",
+                            "69231": "Y",
+                            "69232": "Y",
+                            "69233": "Y",
+                            "69234": "Y",
+                            "69235": "Y",
+                            "69236": "Y",
+                            "69237": "Y",
+                            "69238": "Y",
+                            "69239": "Y",
+                            "69240": "Y",
+                            "69241": "Y",
+                            "69242": "Y",
+                            "69243": "Y",
+                            "69244": "Y",
+                            "69245": "Y",
+                            "69246": "Y",
+                            "69247": "Y",
+                            "69248": "Y",
+                            "69249": "Y",
+                            "69250": "Y",
+                            "69251": "Y",
+                            "69252": "Y"
+                        },
+                        "main-quests": {
+                            "69219": "Y",
+                            "69220": "Y",
+                            "69221": "Y",
+                            "69222": "Y",
+                            "69223": "Y",
+                            "69224": "Y"
+                        }
+                    },
+                    "qitari-quests": {
+                        "daily-quests": {
+                            "69342": "Y",
+                            "69343": "Y",
+                            "69344": "Y",
+                            "69345": "Y",
+                            "69346": "Y",
+                            "69347": "Y",
+                            "69348": "Y",
+                            "69349": "Y",
+                            "69350": "Y",
+                            "69351": "Y",
+                            "69352": "Y",
+                            "69353": "Y",
+                            "69354": "Y",
+                            "69355": "Y",
+                            "69356": "Y",
+                            "69357": "Y",
+                            "69358": "Y",
+                            "69359": "Y",
+                            "69360": "Y",
+                            "69361": "Y",
+                            "69362": "Y",
+                            "69363": "Y",
+                            "69364": "Y",
+                            "69365": "Y",
+                            "69366": "Y",
+                            "69367": "Y",
+                            "69368": "Y",
+                            "69369": "Y"
+                        },
+                        "main-quests": {
+                            "69330": "Y",
+                            "69331": "Y",
+                            "69332": "Y",
+                            "69333": "Y",
+                            "69334": "Y",
+                            "69335": "Y",
+                            "69336": "Y",
+                            "69337": "X",
+                            "69338": "Y",
+                            "69339": "X",
+                            "69340": "Y",
+                            "69341": "X"
+                        }
+                    },
+                    "sahagin-quests": {
+                        "daily-quests": {
+                            "66915": "Y",
+                            "66916": "Y",
+                            "66917": "Y",
+                            "66918": "Y",
+                            "66919": "Y",
+                            "66920": "Y",
+                            "66921": "Y",
+                            "66922": "Y",
+                            "66923": "Y",
+                            "66924": "Y",
+                            "66926": "Y",
+                            "66927": "Y",
+                            "66928": "Y",
+                            "66929": "Y",
+                            "66930": "Y",
+                            "66931": "Y",
+                            "66932": "Y",
+                            "66933": "Y",
+                            "66934": "Y",
+                            "66935": "Y",
+                            "66936": "Y",
+                            "66937": "Y",
+                            "66938": "Y",
+                            "66939": "Y",
+                            "66940": "Y",
+                            "66941": "Y",
+                            "66942": "Y",
+                            "66943": "Y",
+                            "66944": "Y",
+                            "66945": "Y"
+                        },
+                        "main-quests": {
+                            "66910": "Y",
+                            "66911": "Y",
+                            "66912": "Y",
+                            "66913": "Y",
+                            "66914": "Y"
+                        }
+                    },
+                    "sylph-quests": {
+                        "daily-quests": {
+                            "66793": "Y",
+                            "66794": "Y",
+                            "66795": "Y",
+                            "66796": "Y",
+                            "66797": "Y",
+                            "66798": "Y",
+                            "66799": "Y",
+                            "66800": "Y",
+                            "66801": "Y",
+                            "66802": "Y",
+                            "66803": "Y",
+                            "66804": "Y",
+                            "66805": "Y",
+                            "66806": "Y",
+                            "66807": "Y",
+                            "66808": "Y",
+                            "66809": "Y",
+                            "66810": "Y",
+                            "66811": "Y",
+                            "66812": "Y",
+                            "66813": "Y",
+                            "66814": "Y",
+                            "66815": "Y",
+                            "66816": "Y",
+                            "66817": "Y",
+                            "66818": "Y",
+                            "66819": "Y",
+                            "66820": "Y",
+                            "66821": "Y",
+                            "66822": "Y"
+                        },
+                        "main-quests": {
+                            "66788": "Y",
+                            "66789": "Y",
+                            "66790": "Y",
+                            "66791": "Y",
+                            "66792": "Y"
+                        }
+                    },
+                    "vanu-vanu-quests": {
+                        "daily-quests": {
+                            "67707": "Y",
+                            "67708": "Y",
+                            "67709": "Y",
+                            "67710": "Y",
+                            "67711": "Y",
+                            "67712": "Y",
+                            "67713": "Y",
+                            "67714": "Y",
+                            "67715": "Y",
+                            "67716": "Y",
+                            "67717": "Y",
+                            "67718": "Y",
+                            "67719": "Y",
+                            "67720": "Y",
+                            "67721": "Y",
+                            "67722": "Y",
+                            "67723": "Y",
+                            "67724": "Y",
+                            "67725": "Y",
+                            "67726": "Y",
+                            "67727": "Y",
+                            "67728": "Y",
+                            "67729": "Y",
+                            "67730": "Y",
+                            "67731": "Y",
+                            "67732": "Y",
+                            "67733": "Y",
+                            "67734": "Y",
+                            "67735": "Y",
+                            "67736": "Y"
+                        },
+                        "main-quests": {
+                            "67700": "Y",
+                            "67701": "Y",
+                            "67702": "Y",
+                            "67703": "Y",
+                            "67704": "Y",
+                            "67705": "Y",
+                            "67706": "Y",
+                            "67761": "Y"
+                        }
+                    },
+                    "vath-quests": {
+                        "daily-quests": {
+                            "67797": "Y",
+                            "67798": "Y",
+                            "67799": "Y",
+                            "67800": "Y",
+                            "67801": "Y",
+                            "67802": "Y",
+                            "67803": "Y",
+                            "67804": "Y",
+                            "67805": "Y",
+                            "67806": "Y",
+                            "67807": "Y",
+                            "67808": "Y",
+                            "67809": "Y",
+                            "67810": "Y",
+                            "67811": "Y",
+                            "67812": "Y",
+                            "67813": "Y",
+                            "67814": "Y",
+                            "67815": "Y",
+                            "67816": "Y"
+                        },
+                        "main-quests": {
+                            "67791": "Y",
+                            "67792": "Y",
+                            "67793": "Y",
+                            "67794": "Y",
+                            "67795": "Y",
+                            "67796": "Y"
+                        }
+                    },
+                    "intersocietal-quests": {
+                        "a-realm-reborn-allied-society-quests": {
                             "67001": "Y",
                             "67002": "X",
                             "67003": "X",
@@ -2627,102 +3308,25 @@
                             "67008": "Y",
                             "67009": "Y"
                         },
-                        "heavensward-tribal-quests": {
+                        "heavensward-allied-society-quests": {
                             "67918": "Y",
                             "67919": "Y",
                             "67920": "Y",
                             "67921": "Y"
                         },
-                        "stormblood-tribal-quests": {
+                        "stormblood-allied-society-quests": {
                             "68697": "Y",
                             "68698": "Y",
                             "68699": "Y",
                             "68700": "Y"
                         },
-                        "endwalker-tribal-quests": {
+                        "endwalker-allied-society-quests": {
                             "70323": "Y",
                             "70324": "Y"
                         }
                     }
                 },
-                "class--job": {
-                    "disciple-of-war": {
-                        "gladiator": {},
-                        "pugilist": {},
-                        "marauder": {},
-                        "lancer": {},
-                        "archer": {},
-                        "rogue": {}
-                    },
-                    "disciple-of-magic": {
-                        "conjurer": {},
-                        "thaumaturge": {},
-                        "arcanist": {}
-                    },
-                    "disciple-of-the-hand": {
-                        "carpenter": {},
-                        "blacksmith": {},
-                        "armorer": {},
-                        "goldsmith": {},
-                        "leatherworker": {},
-                        "weaver": {},
-                        "alchemist": {},
-                        "culinarian": {}
-                    },
-                    "disciple-of-the-land": {
-                        "miner": {},
-                        "botanist": {},
-                        "fisher": {}
-                    },
-                    "crystalline-mean": {
-                        "facet-of-forging": {},
-                        "facet-of-crafting": {},
-                        "facet-of-nourishing": {},
-                        "facet-of-gathering": {},
-                        "facet-of-fishing": {}
-                    },
-                    "studium": {
-                        "faculty-of-aetherology": {},
-                        "faculty-of-anthropology": {},
-                        "faculty-of-archaeology": {},
-                        "faculty-of-astronomy": {},
-                        "faculty-of-medicine": {}
-                    },
-                    "disciple-of-war-job": {
-                        "paladin": {},
-                        "monk": {},
-                        "warrior": {},
-                        "dragoon": {},
-                        "bard": {},
-                        "ninja": {},
-                        "dark-knight": {},
-                        "machinist": {},
-                        "samurai": {},
-                        "gunbreaker": {},
-                        "dancer": {},
-                        "reaper": {}
-                    },
-                    "disciple-of-magic-job": {
-                        "white-mage": {},
-                        "black-mage": {},
-                        "summoner": {},
-                        "scholar": {},
-                        "astrologian": {},
-                        "red-mage": {},
-                        "sage": {},
-                        "blue-mage": {}
-                    },
-                    "role": {
-                        "shb": {},
-                        "ew": {}
-                    }
-                },
-                "other": {
-                    "grand-company": {
-                        "maelstrom": {},
-                        "order-of-the-twin-adder": {},
-                        "immortal-flames": {}
-                    },
+                "other-quests": {
                     "seasonal": {
                         "heavensturn": {},
                         "valentiones-day": {},
@@ -2736,9 +3340,6 @@
                         "all-saints-wake": {},
                         "starlight-celebration": {}
                     },
-                    "special": {
-                        "collaboration": {}
-                    },
                     "quasi-quests": {
                         "69580": "Y",
                         "69581": "Y",
@@ -2746,292 +3347,32 @@
                         "69583": "Y",
                         "69584": "Y",
                         "69585": "Y"
-                    }
-                },
-                "levequests": {
-                    "battlecraft": {
-                        "556": "X",
-                        "566": "X"
                     },
-                    "grand-company": {},
-                    "mining": {},
-                    "botany": {},
-                    "fishing": {},
-                    "carpentry": {},
-                    "blacksmithing": {},
-                    "armoring": {},
-                    "goldsmithing": {},
-                    "leatherworking": {},
-                    "clothcrafting": {},
-                    "alchemy": {},
-                    "cooking": {}
-                }
-            },
-            "dutyraid-finder": {
-                "dungeons": {
-                    "arr": {},
-                    "hw": {},
-                    "sb": {},
-                    "shb": {},
-                    "ew": {}
-                },
-                "trials": {
-                    "arr": {},
-                    "hw": {},
-                    "sb": {},
-                    "shb": {},
-                    "ew": {}
-                },
-                "raids": {
-                    "arr": {},
-                    "hw": {},
-                    "sb": {},
-                    "shb": {},
-                    "ew": {}
-                },
-                "guildhests": {
-                    "arcanist": {},
-                    "archer": {},
-                    "astrologian": {},
-                    "conjurer": {},
-                    "dark-knight": {},
-                    "gladiator": {},
-                    "lancer": {},
-                    "machinist": {},
-                    "marauder": {},
-                    "pugilist": {},
-                    "red-mage": {},
-                    "rogue": {},
-                    "samurai": {},
-                    "thaumaturge": {}
-                },
-                "deep-dungeon": {
-                    "0": "0",
-                    "1": "0",
-                    "2": "0"
-                },
-                "v-and-c-dungeon": {
-                    "sildihn-subterrane": {
-                        "record": {}
+                    "grand-company-quests": {
+                        "immortal-flames-quests": {},
+                        "maelstrom-quests": {},
+                        "order-of-the-twin-adder-quests": {}
                     },
-                    "mount-rokkon": {
-                        "record": {}
+                    "seasonal-events": {
+                        "all-saints-wake-events": {},
+                        "hatching-tide-events": {},
+                        "heavensturn-events": {},
+                        "little-ladies-and-hatching-tide-events": {},
+                        "little-ladies-day-events": {},
+                        "moonfire-faire-events": {},
+                        "rising-events": {},
+                        "starlight-celebration-events": {},
+                        "valentiones-and-little-ladies-day-events": {},
+                        "valentiones-day-events": {}
                     },
-                    "aloalo-island": {
-                        "record": {}
-                    }
-                },
-                "the-hunt": {
-                    "arr": {},
-                    "hw": {},
-                    "sb": {},
-                    "shb": {},
-                    "ew": {}
-                }
-            },
-            "trust": {
-                "shb": {
-                    "0": "71",
-                    "1": "71",
-                    "2": "71",
-                    "3": "71",
-                    "4": "71",
-                    "5": "71"
-                },
-                "ew": {
-                    "0": "81",
-                    "1": "81",
-                    "2": "81",
-                    "3": "81",
-                    "4": "81",
-                    "5": "81",
-                    "6": "81"
-                }
-            },
-            "hall-of-the-novice": {
-                "tank": {},
-                "dps": {},
-                "healer": {}
-            },
-            "fate": {
-                "la-noscea": {
-                    "eastern-la-noscea": {},
-                    "lower-la-noscea": {},
-                    "middle-la-noscea": {},
-                    "outer-la-noscea": {},
-                    "upper-la-noscea": {},
-                    "western-la-noscea": {}
-                },
-                "black-shroud": {
-                    "central-shroud": {},
-                    "east-shroud": {},
-                    "north-shroud": {},
-                    "south-shroud": {}
-                },
-                "thanalan": {
-                    "central-thanalan": {},
-                    "eastern-thanalan": {},
-                    "northern-thanalan": {},
-                    "southern-thanalan": {},
-                    "western-thanalan": {}
-                },
-                "coerthas": {
-                    "central-highlands": {},
-                    "western-highlands": {}
-                },
-                "mor-dhona": {},
-                "abalathias-spine": {
-                    "the-sea-of-clouds": {},
-                    "azys-lla": {}
-                },
-                "dravania": {
-                    "the-churning-mists": {},
-                    "the-dravanian-forelands": {},
-                    "the-dravanian-hinterlands": {}
-                },
-                "gyr-abania": {
-                    "the-fringes": {},
-                    "the-lochs": {},
-                    "the-peaks": {}
-                },
-                "othard": {
-                    "the-azim-steppe": {},
-                    "the-ruby-sea": {},
-                    "yanxia": {}
-                },
-                "norvrandt": {
-                    "amh-araeng": {},
-                    "il-mheg": {},
-                    "kholusia": {},
-                    "lakeland": {},
-                    "the-rak-tika-greatwood": {},
-                    "the-tempest": {}
-                },
-                "northern-empty": {
-                    "labyrinthos": {}
-                },
-                "ilsabard": {
-                    "thavnair": {},
-                    "garlemald": {}
-                },
-                "sea-of-stars": {
-                    "mare-lamentorum": {},
-                    "ultima-thule": {}
-                },
-                "world-unsundered": {
-                    "elpis": {}
-                }
-            },
-            "squadron": {
-                "0": "0",
-                "1": "0",
-                "command-missions": {},
-                "squadron": {},
-                "stats": {
-                    "level": {
-                        "0": "0",
-                        "1": "0",
-                        "2": "0",
-                        "3": "0",
-                        "4": "0",
-                        "5": "0",
-                        "6": "0",
-                        "7": "0"
-                    },
-                    "independent": {
-                        "0": "0",
-                        "1": "0",
-                        "2": "0",
-                        "3": "0",
-                        "4": "0",
-                        "5": "0",
-                        "6": "0",
-                        "7": "0"
-                    },
-                    "offensive": {
-                        "0": "0",
-                        "1": "0",
-                        "2": "0",
-                        "3": "0",
-                        "4": "0",
-                        "5": "0",
-                        "6": "0",
-                        "7": "0"
-                    },
-                    "defensive": {
-                        "0": "0",
-                        "1": "0",
-                        "2": "0",
-                        "3": "0",
-                        "4": "0",
-                        "5": "0",
-                        "6": "0",
-                        "7": "0"
-                    },
-                    "balanced": {
-                        "0": "0",
-                        "1": "0",
-                        "2": "0",
-                        "3": "0",
-                        "4": "0",
-                        "5": "0",
-                        "6": "0",
-                        "7": "0"
+                    "special-quests": {
+                        "special-quests": {
+                            "collaboration": {},
+                            "special-quests": {}
+                        },
+                        "collaboration-quests": {}
                     }
                 }
-            },
-            "treasure-hunt": {
-                "maps": {},
-                "duties": {}
-            },
-            "exploratory-missions": {
-                "the-forbidden-land-eureka": {
-                    "elemental-level": {},
-                    "aetherytes": {},
-                    "notorious-monsters": {
-                        "anemos": {},
-                        "pagos": {},
-                        "pyros": {},
-                        "hydatos": {}
-                    },
-                    "logos-actions": {},
-                    "duties": {}
-                },
-                "the-bozjan-southern-front": {
-                    "resistance-rank": {},
-                    "resistance-honors": {},
-                    "aetherytes": {},
-                    "events": {},
-                    "lost-actions": {},
-                    "duties": {}
-                }
-            },
-            "island-sanctuary": {
-                "rank": {},
-                "buildings": {
-                    "11": "0",
-                    "12": "0",
-                    "13": "0",
-                    "14": "0",
-                    "15": "0",
-                    "16": "0",
-                    "24": "0",
-                    "25": "0",
-                    "26": "0",
-                    "27": "0"
-                },
-                "crafting": {
-                    "tools": {},
-                    "feed": {},
-                    "restraints": {}
-                },
-                "isleventory": {
-                    "materials": {},
-                    "gardening-starters": {},
-                    "produce": {},
-                    "leavings": {}
-                },
-                "animals": {}
             }
         },
         "logs": {
@@ -4129,5 +4470,5 @@
     "custom": {},
     "bookmarked-groups": [],
     "bookmarked-tasks": [],
-    "version": "1.0.4"
+    "version": "1.0.5"
 }
