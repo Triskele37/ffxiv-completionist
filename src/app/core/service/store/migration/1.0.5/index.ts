@@ -8,6 +8,7 @@ import { migrateLevequests } from './levequest';
 import { migrateMinions } from './minion';
 import { migrateMounts } from './mount';
 import { migrateOrchestrions } from './orchestrion';
+import { migrateTripleTriadCards } from './triple-triad';
 
 export function migrateTo_1_0_5(svcSaveStore: SaveStoreService): void {
     const store = new ChangeStore(svcSaveStore, '1.0.5');
@@ -19,6 +20,7 @@ export function migrateTo_1_0_5(svcSaveStore: SaveStoreService): void {
     migrateMinions(store);
     migrateMounts(store);
     migrateOrchestrions(store);
+    migrateTripleTriadCards(store);
 
     store.write();
 }
