@@ -772,6 +772,40 @@
             "patch": "6.55",
             "points": 20,
             "cSiblings": ["q.70324"]
+        },
+		"x3588": {
+            "description_en": "Attain rank 3 reputation (friendly) with the Turali Travel Agency.",
+            "description_fr": "Atteindre le rang 3 (Ami) de réputation auprès des Pelupelu de l'agence Tural Voyages.",
+            "name_en": "Pelu Proponent I",
+            "name_fr": "Conseiller touristique I",
+            "patch": "7.1",
+            "points": 5
+        },
+        "x3589": {
+            "description_en": "Attain rank 4 reputation (trusted) with the Turali Travel Agency.",
+            "description_fr": "Atteindre le rang 4 (Estimé) de réputation auprès des Pelupelu de l'agence Tural Voyages.",
+            "name_en": "Pelu Proponent II",
+            "name_fr": "Conseiller touristique II",
+            "patch": "7.1",
+            "points": 5
+        },
+        "x3590": {
+            "description_en": "Attain rank 6 reputation (honored) with the Turali Travel Agency.",
+            "description_fr": "Atteindre le rang 6 (Émérite) de réputation auprès des Pelupelu de l'agence Tural Voyages.",
+            "name_en": "Pelu Proponent III",
+            "name_fr": "Conseiller touristique III",
+            "patch": "7.1",
+            "points": 10
+        },
+        "x3591": {
+            "cSiblings": ["t.762"],
+            "description_en": "Attain rank 7 reputation (sworn) with the Turali Travel Agency.",
+            "description_fr": "Atteindre le rang 7 (Assermenté) de réputation auprès des Pelupelu de l'agence Tural Voyages.",
+            "name_en": "Extra-special Advisor",
+            "name_fr": "Tural Voyages Conseil",
+            "patch": "7.1",
+            "points": 20,
+            "reward": "t.762"
         }
     }
 }

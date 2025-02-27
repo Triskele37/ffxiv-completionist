@@ -1011,6 +1011,93 @@
             "patch": "6.5",
             "points": 5,
             "cSiblings": ["d.962"]
+        },
+        "x3572": {
+			"cNext": ["a.3573"],
+            "cSiblings": ["d.991", "q.70501"],
+            "description_en": "Complete the quest “The Neoteric Witch” and AAC Light-heavyweight Tier.",
+            "description_fr": "Conquérir la division poids mi-lourds CCA et accomplir la quête “L'Enchanteresse électrique”.",
+            "name_en": "Pick on Someone Your Own Size I",
+            "name_fr": "Champion poids mi-lourds de l'Arcadion I",
+            "patch": "7.01",
+            "points": 5
+        },
+        "x3573": {
+			"cPrev": ["a.3572"],
+			"cNext": ["a.3574"],
+            "description_en": "Complete AAC Light-heavyweight Tier 5 times.",
+            "description_fr": "Conquérir la division poids mi-lourds CCA 5 fois.",
+            "name_en": "Pick on Someone Your Own Size II",
+            "name_fr": "Champion poids mi-lourds de l'Arcadion II",
+            "patch": "7.01",
+            "points": 10
+        },
+        "x3574": {
+			"cPrev": ["a.3573"],
+            "description_en": "Complete AAC Light-heavyweight Tier 10 times.",
+            "description_fr": "Conquérir la division poids mi-lourds CCA 10 fois.",
+            "name_en": "Pick on Someone Your Own Size III",
+            "name_fr": "Champion poids mi-lourds de l'Arcadion III",
+            "patch": "7.01",
+            "points": 20
+        },
+        "x3575": {
+			"cNext": ["a.3576"],
+            "cSiblings": ["d.992"],
+            "description_en": "Complete AAC Light-heavyweight Tier (Savage).",
+            "description_fr": "Conquérir la division poids mi-lourds CCA (sadique) 1 fois.",
+            "name_en": "Savage Someone Your Own Size I",
+            "name_fr": "Champion poids mi-lourds incontesté de l'Arcadion I",
+            "patch": "7.05",
+            "points": 5
+        },
+        "x3576": {
+			"cPrev": ["a.3575"],
+			"cNext": ["a.3577"],
+            "description_en": "Complete AAC Light-heavyweight Tier (Savage) 5 times.",
+            "description_fr": "Conquérir la division poids mi-lourds CCA (sadique) 5 fois.",
+            "name_en": "Savage Someone Your Own Size II",
+            "name_fr": "Champion poids mi-lourds incontesté de l'Arcadion II",
+            "patch": "7.05",
+            "points": 10
+        },
+        "x3577": {
+			"cPrev": ["a.3576"],
+            "description_en": "Complete AAC Light-heavyweight Tier (Savage) 10 times.",
+            "description_fr": "Conquérir la division poids mi-lourds CCA (sadique) 10 fois.",
+            "name_en": "Savage Someone Your Own Size III",
+            "name_fr": "Champion poids mi-lourds incontesté de l'Arcadion III",
+            "patch": "7.05",
+            "points": 20
+        },
+		"x3606": {
+            "cSiblings": ["d.1015"],
+            "description_en": "Complete Jeuno: The First Walk.",
+            "description_fr": "Finir Jeuno - La première perambulation.",
+            "name_en": "Home Away from Home",
+            "name_fr": "Échos des premières aventures",
+            "patch": "7.1",
+            "points": 5
+        },
+        "x3616": {
+            "cSiblings": ["d.1010"],
+            "description_en": "Defeat the Cloud of Darkness in the Cloud of Darkness (Chaotic).",
+            "description_fr": "Vaincre le Nuage de Ténèbres dans le raid “La Tour de Ténèbres (chaotique)”.",
+            "name_en": "Cloud Strife",
+            "name_fr": "Nuage dissipé",
+            "patch": "7.15",
+            "points": 5
+        },
+        "x3617": {
+            "cSiblings": ["d.1006", "t.768"],
+            "description_en": "Bear witness to a different future for the Oracles of Light and Darkness.",
+            "description_fr": "Fusionner les destins des prêtresses de la Lumière et des Ténèbres.",
+            "name_en": "Alternative Destiny",
+            "name_fr": "Nous ne ferons plus qu'un",
+            "patch": "7.11",
+            "points": 10,
+            "reward": "t.768"
         }
     }
 }
+

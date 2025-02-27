@@ -116,7 +116,20 @@
             "cSiblingsAt": {
                 "90": ["cj.4"]
             },
-            "cPrev": ["a.2251"]
+            "cPrev": ["a.2251"],
+            "cNext": ["a.3434"]
+        },
+        "x3434": {
+            "cSiblingsAt": {
+                "100": ["cj.4"]
+            },
+            "cPrev": ["a.2897"],
+            "description_en": "Achieve conjurer level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe élémentaliste.",
+            "name_en": "I Got the Magic Stick X",
+            "name_fr": "Élémentaliste mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x50": {
             "name_en": "Bring Out Your Dead I",
@@ -231,7 +244,20 @@
             "cSiblingsAt": {
                 "90": ["cj.14"]
             },
-            "cPrev": ["a.2252"]
+            "cPrev": ["a.2252"],
+            "cNext": ["a.3435"]
+        },
+        "x3435": {
+            "cSiblingsAt": {
+                "100": ["cj.14"]
+            },
+            "cPrev": ["a.2898"],
+            "description_en": "Achieve thaumaturge level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe occultiste.",
+            "name_en": "Bring Out Your Dead X",
+            "name_fr": "Occultiste mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x592": {
             "name_en": "Through the Gate I",
@@ -346,7 +372,20 @@
             "cSiblingsAt": {
                 "90": ["cj.5", "cj.15"]
             },
-            "cPrev": ["a.2253"]
+            "cPrev": ["a.2253"],
+            "cNext": ["a.3436"]
+        },
+        "x3436": {
+            "cSiblingsAt": {
+                "100": ["cj.5", "cj.15"]
+            },
+            "cPrev": ["a.2899"],
+            "description_en": "Achieve arcanist level 100.",
+            "description_fr": "Atteindre le niveau 100 avec la classe arcaniste.",
+            "name_en": "Through the Gate X",
+            "name_fr": "Arcaniste mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x1184": {
             "name_en": "Starstruck I",
@@ -435,7 +474,20 @@
             "cSiblingsAt": {
                 "90": ["cj.6"]
             },
-            "cPrev": ["a.2257"]
+            "cPrev": ["a.2257"],
+            "cNext": ["a.3440"]
+        },
+        "x3440": {
+            "cSiblingsAt": {
+                "100": ["cj.6"]
+            },
+            "cPrev": ["a.2903"],
+            "description_en": "Achieve astrologian level 100.",
+            "description_fr": "Atteindre le niveau 100 avec le job astromancien.",
+            "name_en": "Starstruck VIII",
+            "name_fr": "Astromancien mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x1826": {
             "name_en": "How Deep the Rabbit Hole Goes I",
@@ -498,7 +550,20 @@
             "cSiblingsAt": {
                 "90": ["cj.16"]
             },
-            "cPrev": ["a.2258"]
+            "cPrev": ["a.2258"],
+            "cNext": ["a.3441"]
+        },
+        "x3441": {
+            "cSiblingsAt": {
+                "100": ["cj.16"]
+            },
+            "cPrev": ["a.2904"],
+            "description_en": "Achieve red mage level 100.",
+            "description_fr": "Atteindre le niveau 100 avec le job mage rouge.",
+            "name_en": "How Deep the Rabbit Hole Goes VI",
+            "name_fr": "Mage rouge mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x2910": {
             "name_en": "Do No Harm I",
@@ -522,7 +587,44 @@
             "cSiblingsAt": {
                 "90": ["cj.29"]
             },
-            "cPrev": ["a.2910"]
+            "cPrev": ["a.2910"],
+            "cNext": ["a.3446"]
+        },
+        "x3446": {
+            "cSiblingsAt": {
+                "100": ["cj.29"]
+            },
+            "cPrev": ["a.2911"],
+            "description_en": "Achieve sage level 100.",
+            "description_fr": "Atteindre le niveau 100 avec le job sage.",
+            "name_en": "Do No Harm III",
+            "name_fr": "Sage mythique",
+            "patch": "7.0",
+            "points": 5
+        },
+        "x3449": {
+            "cSiblingsAt": {
+                "90": ["cj.32"]
+            },
+            "cNext": ["a.3450"],
+            "description_en": "Achieve pictomancer level 90.",
+            "description_fr": "Atteindre le niveau 90 avec le job pictomancien.",
+            "name_en": "Let Me Paint You a Picture I",
+            "name_fr": "Pictomancien légendaire",
+            "patch": "7.0",
+            "points": 5
+        },
+        "x3450": {
+            "cSiblingsAt": {
+                "100": ["cj.32"]
+            },
+            "cPrev": ["a.3449"],
+            "description_en": "Achieve pictomancer level 100.",
+            "description_fr": "Atteindre le niveau 100 avec le job pictomancien.",
+            "name_en": "Let Me Paint You a Picture II",
+            "name_fr": "Pictomancien mythique",
+            "patch": "7.0",
+            "points": 5
         },
         "x2194": {
             "name_en": "Da Ba Dee I",

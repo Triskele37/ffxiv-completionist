@@ -441,6 +441,37 @@
             "cSiblings": ["t.617"],
             "cCombo": ["a.3000"]
         },
+        "x3531": {
+			"cNext": ["a.3532"],
+            "description_en": "Slay 100 rank A elite marks in Dawntrail regions.",
+            "description_fr": "Abattre 100 cibles d'élite de rang A dans les zones de Dawntrail.",
+            "name_en": "Dawn of a New A Game I",
+            "name_fr": "L'aurore du menu fretin I",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3532": {
+			"cPrev": ["a.3531"],
+			"cNext": ["a.3533"],
+            "description_en": "Slay 500 rank A elite marks in Dawntrail regions.",
+            "description_fr": "Abattre 500 cibles d'élite de rang A dans les zones de Dawntrail.",
+            "name_en": "Dawn of a New A Game II",
+            "name_fr": "L'aurore du menu fretin II",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3533": {
+			"cPrev": ["a.3532"],
+			"cCombo": ["a.3537"],
+            "cSiblings": ["t.747"],
+            "description_en": "Slay 2,000 rank A elite marks in Dawntrail regions.",
+            "description_fr": "Abattre 2 000 cibles d'élite de rang A dans les zones de Dawntrail.",
+            "name_en": "Dawn of a New A Game III",
+            "name_fr": "L'aurore du menu fretin III",
+            "patch": "7.0",
+            "points": 10,
+            "reward": "t.747"
+        },
         "x987": {
             "name_en": "Bring Your S Game I",
             "name_fr": "S comme super élite I",
@@ -607,6 +638,47 @@
             "patch": "6.0",
             "points": 10,
             "cPrev": ["a.2996", "a.2999"]
+        },
+        "x3534": {
+			"cNext": ["a.3535"],
+            "description_en": "Slay 30 rank S elite marks in Dawntrail regions.",
+            "description_fr": "Abattre 30 cibles d'élite de rang S ou plus dans les zones de Dawntrail.",
+            "name_en": "Dawn of a New S Game I",
+            "name_fr": "L'aurore du gros gibier I",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3535": {
+			"cPrev": ["a.3534"],
+			"cNext": ["a.3536"],
+            "description_en": "Slay 300 rank S elite marks in Dawntrail regions.",
+            "description_fr": "Abattre 300 cibles d'élite de rang S ou plus dans les zones de Dawntrail.",
+            "name_en": "Dawn of a New S Game II",
+            "name_fr": "L'aurore du gros gibier II",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3536": {
+			"cPrev": ["a.3535"],
+			"cCombo": ["a.3537"],
+            "cSiblings": ["t.748"],
+            "description_en": "Slay 1,000 rank S elite marks in Dawntrail regions.",
+            "description_fr": "Abattre 1 000 cibles d'élite de rang S ou plus dans les zones de Dawntrail.",
+            "name_en": "Dawn of a New S Game III",
+            "name_fr": "L'aurore du gros gibier III",
+            "patch": "7.0",
+            "points": 10,
+            "reward": "t.748"
+        },
+        "x3537": {
+            "cPrev": ["a.3533", "a.3536"],
+            "description_en": "Obtain the “Dawn of a New A Game III” and “Dawn of a New S Game III” achievements.",
+            "description_fr": "Accomplir les hauts faits “L'aurore du menu fretin III” et “L'aurore du gros gibier III”.",
+            "name_en": "Dawnbright Hunter",
+            "name_fr": "Chasseur de l'aurore",
+            "patch": "7.0",
+            "points": 10,
+            "reward": "mo.351"
         }
     }
 }

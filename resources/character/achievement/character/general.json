@@ -201,6 +201,44 @@
             "points": 30,
             "cPrev": ["a.2277", "a.2923", "a.2924"]
         },
+		"x3462": {
+            "cCombo": ["a.3464"],
+			"cPrevAt": {
+                "100": ["cj.0", "cj.1", "cj.7", "cj.8", "cj.11", "cj.9", "cj.2", "cj.12", "cj.10", "cj.3", "cj.13", "cj.30", "cj.31"]
+            },
+            "cSiblings": ["t.725"],
+            "description_en": "Achieve level 100 as a gladiator, pugilist, marauder, lancer, archer, rogue, dark knight, machinist, samurai, gunbreaker, dancer, reaper, and viper.",
+            "description_fr": "Atteindre le niveau 100 avec les classes ou jobs gladiateur, pugiliste, maraudeur, maître d'hast, archer, surineur, chevalier noir, machiniste, samouraï, pistosabeur, danseur, faucheur et rôdeur vipère.",
+            "name_en": "Mastering War VI",
+            "name_fr": "Mythe de la guerre",
+            "patch": "7.0",
+            "points": 20,
+            "reward": "t.725"
+        },
+        "x3463": {
+            "cCombo": ["a.3464"],
+			"cPrevAt": {
+                "100": ["cj.4", "cj.5", "cj.14", "cj.15", "cj.6", "cj.16", "cj.29", "cj.32"]
+            },
+            "cSiblings": ["t.726"],
+            "description_en": "Achieve level 100 as a conjurer, thaumaturge, arcanist, astrologian, red mage, sage, and pictomancer.",
+            "description_fr": "Atteindre le niveau 100 avec les classes ou jobs élémentaliste, occultiste, arcaniste, astromancien, mage rouge, sage et pictomancien.",
+            "name_en": "Mastering Magic VI",
+            "name_fr": "Mythe de la magie",
+            "patch": "7.0",
+            "points": 20,
+            "reward": "t.726"
+        },
+        "x3464": {
+			"cPrev": ["a.2925", "a.3462", "a.3463"],
+            "description_en": "Obtain the achievements “Mastering War VI” and “Mastering Magic VI.”",
+            "description_fr": "Accomplir les hauts faits “Mythe de la guerre” et “Mythe de la magie”.",
+            "name_en": "A Life of Adventure VI",
+            "name_fr": "Mythe du corps et de l'esprit",
+            "patch": "7.0",
+            "points": 30,
+            "reward": "mo.347"
+        },
         "x97": {
             "name_en": "Mastering the Hand I",
             "name_fr": "Maître de la main",
@@ -330,6 +368,32 @@
                 "90": ["cj.26", "cj.27", "cj.28"]
             },
             "cSiblings": ["t.596"]
+        },
+        "x3465": {
+            "cPrevAt": {
+                "100": ["cj.18", "cj.19", "cj.20", "cj.21", "cj.22", "cj.23", "cj.24", "cj.25"]
+            },
+            "cSiblings": ["t.727"],
+            "description_en": "Achieve level 100 as a carpenter, blacksmith, armorer, goldsmith, leatherworker, weaver, alchemist, and culinarian.",
+            "description_fr": "Atteindre le niveau 100 avec les classes menuisier, forgeron, armurier, orfèvre, tanneur, couturier, alchimiste et cuisinier.",
+            "name_en": "Mastering the Hand VI",
+            "name_fr": "Mythe de la main",
+            "patch": "7.0",
+            "points": 20,
+            "reward": "t.727"
+        },
+        "x3466": {
+            "cPrevAt": {
+                "100": ["cj.26", "cj.27", "cj.28"]
+            },
+            "cSiblings": ["t.728"],
+            "description_en": "Achieve level 100 as a miner, botanist, and fisher.",
+            "description_fr": "Atteindre le niveau 100 avec les classes mineur, botaniste et pêcheur.",
+            "name_en": "Mastering the Land VI",
+            "name_fr": "Mythe de la terre",
+            "patch": "7.0",
+            "points": 20,
+            "reward": "t.728"
         },
         "x912": {
             "name_en": "Can't Someone Else Do It I",
@@ -653,6 +717,69 @@
             "patch": "6.0",
             "points": 10,
             "cPrev": ["a.3003", "a.3004", "a.3005", "a.3006", "a.3007", "a.3008"]
+        },
+        "x3540": {
+            "cCombo": ["a.3546"],
+            "description_en": "Attune with all the aether currents in Urqopacha.",
+            "description_fr": "S'harmoniser avec tous les vents éthérés d'Urqopacha.",
+            "name_en": "Freebird: Urqopacha",
+            "name_fr": "Aux quatre vents : Urqopacha",
+            "patch": "7.0",
+            "points": 5
+        },
+        "x3541": {
+            "cCombo": ["a.3546"],
+            "description_en": "Attune with all the aether currents in Kozama'uka.",
+            "description_fr": "S'harmoniser avec tous les vents éthérés de Kozama'uka.",
+            "name_en": "Freebird: Kozama'uka",
+            "name_fr": "Aux quatre vents : Kozama'uka",
+            "patch": "7.0",
+            "points": 5
+        },
+        "x3542": {
+            "cCombo": ["a.3546"],
+            "description_en": "Attune with all the aether currents in Yak T'el.",
+            "description_fr": "S'harmoniser avec tous les vents éthérés de Yak T'el.",
+            "name_en": "Freebird: Yak T'el",
+            "name_fr": "Aux quatre vents : Yak T'el",
+            "patch": "7.0",
+            "points": 5
+        },
+        "x3543": {
+            "cCombo": ["a.3546"],
+            "description_en": "Attune with all the aether currents in Shaaloani.",
+            "description_fr": "S'harmoniser avec tous les vents éthérés de Shaaloani.",
+            "name_en": "Freebird: Shaaloani",
+            "name_fr": "Aux quatre vents : Shaaloani",
+            "patch": "7.0",
+            "points": 5
+        },
+        "x3544": {
+            "cCombo": ["a.3546"],
+            "description_en": "Attune with all the aether currents in Heritage Found.",
+            "description_fr": "S'harmoniser avec tous les vents éthérés de L'Hoirie recouvrée.",
+            "name_en": "Freebird: Heritage Found",
+            "name_fr": "Aux quatre vents : L'Hoirie recouvrée",
+            "patch": "7.0",
+            "points": 5
+        },
+        "x3545": {
+            "cCombo": ["a.3546"],
+            "description_en": "Attune with all the aether currents in Living Memory.",
+            "description_fr": "S'harmoniser avec tous les vents éthérés de La Mémoire vivante.",
+            "name_en": "Freebird: Living Memory",
+            "name_fr": "Aux quatre vents : La Mémoire vivante",
+            "patch": "7.0",
+            "points": 5
+        },
+        "x3546": {
+			"cPrev": ["a.3540", "a.3541", "a.3542", "a.3543", "a.3544", "a.3545"],
+            "description_en": "Obtain “Freebird” achievements for Urqopacha, Kozama'uka, Yak T'el, Shaaloani, Heritage Found, and Living Memory.",
+            "description_fr": "S'harmoniser avec tous les vents éthérés d'Urqopacha, de Kozama'uka, de Yak T'el, de Shaaloani, de l'Hoirie recouvrée, et de la Mémoire vivante.",
+            "name_en": "Frequent Flyer V",
+            "name_fr": "Navigateur des cieux de l'ouest",
+            "patch": "7.0",
+            "points": 10
         },
         "x1472": {
             "name_en": "I Hope Mentor Will Notice Me I",
@@ -1334,6 +1461,56 @@
             "points": 10,
             "cPrev": ["a.3354"]
         },
+		"x3592": {
+            "cNext": ["a.3593"],
+            "description_en": "Achieve a satisfaction level of 1 with Nitowikwe.",
+            "description_fr": "Atteindre le rang 1 de satisfaction auprès de Nitowikwe.",
+            "name_en": "Satisfaction Guaranteed: Nitowikwe I",
+            "name_fr": "Train-train quotidien I",
+            "patch": "7.15",
+            "points": 5
+        },
+        "x3593": {
+            "cPrev": ["a.3592"],
+            "cNext": ["a.3594"],
+            "description_en": "Achieve a satisfaction level of 2 with Nitowikwe.",
+            "description_fr": "Atteindre le rang 2 de satisfaction auprès de Nitowikwe.",
+            "name_en": "Satisfaction Guaranteed: Nitowikwe II",
+            "name_fr": "Train-train quotidien II",
+            "patch": "7.15",
+            "points": 5
+        },
+        "x3594": {
+            "cPrev": ["a.3593"],
+            "cNext": ["a.3595"],
+            "description_en": "Achieve a satisfaction level of 3 with Nitowikwe.",
+            "description_fr": "Atteindre le rang 3 de satisfaction auprès de Nitowikwe.",
+            "name_en": "Satisfaction Guaranteed: Nitowikwe III",
+            "name_fr": "Train-train quotidien III",
+            "patch": "7.15",
+            "points": 5
+        },
+        "x3595": {
+            "cPrev": ["a.3594"],
+            "cNext": ["a.3596"],
+            "description_en": "Achieve a satisfaction level of 4 with Nitowikwe.",
+            "description_fr": "Atteindre le rang 4 de satisfaction auprès de Nitowikwe.",
+            "name_en": "Satisfaction Guaranteed: Nitowikwe IV",
+            "name_fr": "Train-train quotidien IV",
+            "patch": "7.15",
+            "points": 5
+        },
+        "x3596": {
+            "cPrev": ["a.3595"],
+            "cSiblings": ["t.763"],
+            "description_en": "Achieve a satisfaction level of 5 with Nitowikwe.",
+            "description_fr": "Atteindre le rang 5 de satisfaction auprès de Nitowikwe.",
+            "name_en": "Satisfaction Guaranteed: Nitowikwe V",
+            "name_fr": "Train-train quotidien V",
+            "patch": "7.15",
+            "points": 10,
+            "reward": "t.763"
+        },
         "x2001": {
             "name_en": "You Look Marvelous I",
             "name_fr": "Classe mannequin I",
@@ -1454,6 +1631,28 @@
                 ]
             },
             "cSiblings": ["t.612"]
+        },
+        "x3509": {
+            "cPrevAt": {
+                "100": [
+                    "duty.trust.dt.0",
+                    "duty.trust.dt.1",
+                    "duty.trust.dt.2",
+                    "duty.trust.dt.3",
+                    "duty.trust.dt.4",
+                    "duty.trust.dt.5",
+                    "duty.trust.dt.6",
+                    "duty.trust.dt.7"
+                ]
+            },
+            "cSiblings": ["t.742"],
+            "description_en": "Achieve trust level 100 with all available avatars in Dawntrail.",
+            "description_fr": "Monter au niveau 100 les alter ego d'Alphinaud, d'Alisaie, de Thancred, d'Urianger, de Y'shtola, de G'raha Tia, d'Estinien et de Krile.",
+            "name_en": "Bound by Amity",
+            "name_fr": "Pouvoir de l'amitié",
+            "patch": "7.0",
+            "points": 20,
+            "reward": "t.742"
         },
         "x3089": {
             "name_en": "No Mammet Is an Island",

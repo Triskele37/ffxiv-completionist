@@ -217,6 +217,14 @@
             "patch": "6.0",
             "points": 10
         },
+        "x3477": {
+            "description_en": "Fish or gig 3,000 times from level 91-100 waters.",
+            "description_fr": "Pêcher 3 000 fois dans des points de pêche ou de harponnage de niveau 91 à 100.",
+            "name_en": "Baiting Dawntrail",
+            "name_fr": "Surveiller sa ligne : terres de l'aurore",
+            "patch": "7.0",
+            "points": 10
+        },
         "x725": {
             "name_en": "I Caught That I",
             "name_fr": "Carnet de notes : pêcheur I",
@@ -614,6 +622,14 @@
             "cPrev": ["a.2834", "a.3378"],
             "cSiblings": ["t.706"]
         },
+        "x3610": {
+            "description_en": "Catch 8 different varieties of big fish in areas explored during Dawntrail.",
+            "description_fr": "Pêcher 8 prises légendaires différentes dans les zones explorées lors de Dawntrail.",
+            "name_en": "Go Big on the Trail I",
+            "name_fr": "Pêcheur de légendes éternel I",
+            "patch": "7.1",
+            "points": 10
+        },
         "x2519": {
             "name_en": "Skyward Rod I",
             "name_fr": "Hameçon d'Azurée I",
@@ -914,6 +930,7 @@
             "name_fr": "Grand pêcheur IV",
             "description_en": "Earn a cumulative total of 1,000,000 points while ocean fishing.",
             "description_fr": "Cumuler 1 000 000 de points à la pêche en mer.",
+            "reward": "mi.396",
             "patch": "5.4",
             "points": 20,
             "cPrev": ["a.2559"],

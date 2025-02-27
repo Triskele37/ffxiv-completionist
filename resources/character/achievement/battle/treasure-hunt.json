@@ -135,6 +135,22 @@
             "patch": "6.3",
             "points": 20
         },
+        "x3547": {
+            "description_en": "Decipher 20 timeworn loboskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 20 vieilles cartes en peau de loup argenté et ouvrir les coffres auxquels elles conduisent.",
+            "name_en": "I Can Dig It XV",
+            "name_fr": "Creuser son trou XV",
+            "patch": "7.0",
+            "points": 20
+        },
+        "x3548": {
+            "description_en": "Decipher 20 timeworn br'aaxskin maps and open the treasure coffers to which they lead.",
+            "description_fr": "Déchiffrer 20 vieilles cartes en peau de br'aax et ouvrir les coffres auxquels elles conduisent.",
+            "name_en": "I Can Dig It XVI",
+            "name_fr": "Creuser son trou XVI",
+            "patch": "7.0",
+            "points": 20
+        },
         "x1548": {
             "name_en": "Life Aquatic I",
             "name_fr": "Visiteur de l'Aquapole I",
@@ -790,6 +806,88 @@
             "points": 20,
             "cPrev": ["a.3216"],
             "cSiblings": ["t.670"]
+        },
+        "x3549": {
+			"cNext": ["a.3550"],
+            "cSiblings": ["t.749"],
+            "description_en": "Raid Cenote Ja Ja Gural.",
+            "description_fr": "Pénétrer 1 fois dans le cénote Ja Ja Gural.",
+            "name_en": "Legends of the Hidden Treasure I",
+            "name_fr": "Visiteur du cénote Ja Ja Gural I",
+            "patch": "7.05",
+            "points": 5,
+            "reward": "t.749"
+        },
+        "x3550": {
+			"cPrev": ["a.3549"],
+			"cNext": ["a.3551"],
+            "description_en": "Raid Cenote Ja Ja Gural 5 times.",
+            "description_fr": "Pénétrer 5 fois dans le cénote Ja Ja Gural.",
+            "name_en": "Legends of the Hidden Treasure II",
+            "name_fr": "Visiteur du cénote Ja Ja Gural II",
+            "patch": "7.05",
+            "points": 10
+        },
+        "x3551": {
+			"cPrev": ["a.3550"],
+			"cNext": ["a.3552"],
+            "description_en": "Raid Cenote Ja Ja Gural 10 times.",
+            "description_fr": "Pénétrer 10 fois dans le cénote Ja Ja Gural.",
+            "name_en": "Legends of the Hidden Treasure III",
+            "name_fr": "Visiteur du cénote Ja Ja Gural III",
+            "patch": "7.05",
+            "points": 10
+        },
+        "x3552": {
+			"cPrev": ["a.3551"],
+            "cSiblings": ["t.750"],
+            "description_en": "Raid Cenote Ja Ja Gural 20 times.",
+            "description_fr": "Pénétrer 20 fois dans le cénote Ja Ja Gural.",
+            "name_en": "Legends of the Hidden Treasure IV",
+            "name_fr": "Visiteur du cénote Ja Ja Gural IV",
+            "patch": "7.05",
+            "points": 20,
+            "reward": "t.750"
+        },
+        "x3553": {
+			"cNext": ["a.3554"],
+            "description_en": "Raid the final platform in Cenote Ja Ja Gural.",
+            "description_fr": "Conquérir 1 fois le cénote Ja Ja Gural.",
+            "name_en": "Stay Gold, Cenote I",
+            "name_fr": "Maître du cénote Ja Ja Gural I",
+            "patch": "7.05",
+            "points": 5
+        },
+        "x3554": {
+			"cPrev": ["a.3553"],
+			"cNext": ["a.3555"],
+            "description_en": "Raid the final platform in Cenote Ja Ja Gural 5 times.",
+            "description_fr": "Conquérir 5 fois le cénote Ja Ja Gural.",
+            "name_en": "Stay Gold, Cenote II",
+            "name_fr": "Maître du cénote Ja Ja Gural II",
+            "patch": "7.05",
+            "points": 10
+        },
+        "x3555": {
+			"cPrev": ["a.3554"],
+			"cNext": ["a.3556"],
+            "description_en": "Raid the final platform in Cenote Ja Ja Gural 10 times.",
+            "description_fr": "Conquérir 10 fois le cénote Ja Ja Gural.",
+            "name_en": "Stay Gold, Cenote III",
+            "name_fr": "Maître du cénote Ja Ja Gural III",
+            "patch": "7.05",
+            "points": 10
+        },
+        "x3556": {
+			"cPrev": ["a.3555"],
+            "cSiblings": ["t.751"],
+            "description_en": "Raid the final platform in Cenote Ja Ja Gural 20 times.",
+            "description_fr": "Conquérir 20 fois le cénote Ja Ja Gural.",
+            "name_en": "Stay Gold, Cenote IV",
+            "name_fr": "Maître du cénote Ja Ja Gural IV",
+            "patch": "7.05",
+            "points": 20,
+            "reward": "t.751"
         }
     }
 }

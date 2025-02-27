@@ -61,7 +61,17 @@
             "description_fr": "Synthétiser 7 000 objets collectionnables.",
             "patch": "6.0",
             "points": 10,
-            "cPrev": ["a.2291"]
+            "cPrev": ["a.2291"],
+            "cNext": ["a.3478"]
+        },
+		"x3478": {
+            "description_en": "Synthesize 9,000 collectables.",
+            "description_fr": "Synthétiser 9 000 objets collectionnables.",
+            "name_en": "I Made That (Worth Collecting) VII",
+            "name_fr": "Facteur de merveilles VII",
+            "patch": "7.0",
+            "points": 10,
+            "cPrev": ["a.2939"]
         },
         "x1292": {
             "name_en": "I Collected That I",
@@ -121,7 +131,17 @@
             "description_fr": "Récolter 10 000 objets collectionnables.",
             "patch": "6.0",
             "points": 10,
-            "cPrev": ["a.2292"]
+            "cPrev": ["a.2292"],
+            "cNext": ["a.3479"]
+        },
+		"x3479": {
+            "description_en": "Gather or catch 12,000 collectables.",
+            "description_fr": "Récolter 12 000 objets collectionnables.",
+            "name_en": "I Collected That VII",
+            "name_fr": "Chasseur de merveilles VII",
+            "patch": "7.0",
+            "points": 10,
+            "cPrev": ["a.2940"]
         },
         "x1295": {
             "name_en": "I Traded That I",
@@ -752,6 +772,66 @@
             "points": 10,
             "cPrev": ["a.3360"],
             "cSiblings": ["t.700"]
+        },
+		"x3597": {
+			"cNext": ["a.3598"],
+            "description_en": "Deliver 36 collectables to Nitowikwe.",
+            "description_fr": "Échanger 36 objets collectionnables à Nitowikwe.",
+            "name_en": "The Customer Is Always Right: Nitowikwe I",
+            "name_fr": "Fournisseur officiel de Nitowikwe I",
+            "patch": "7.15",
+            "points": 5
+        },
+        "x3598": {
+			"cPrev": ["a.3597"],
+			"cNext": ["a.3599"],
+            "description_en": "Deliver 48 collectables to Nitowikwe.",
+            "description_fr": "Échanger 48 objets collectionnables à Nitowikwe.",
+            "name_en": "The Customer Is Always Right: Nitowikwe II",
+            "name_fr": "Fournisseur officiel de Nitowikwe II",
+            "patch": "7.15",
+            "points": 5
+        },
+        "x3599": {
+			"cPrev": ["a.3598"],
+			"cNext": ["a.3600"],
+            "description_en": "Deliver 60 collectables to Nitowikwe.",
+            "description_fr": "Échanger 60 objets collectionnables à Nitowikwe.",
+            "name_en": "The Customer Is Always Right: Nitowikwe III",
+            "name_fr": "Fournisseur officiel de Nitowikwe III",
+            "patch": "7.15",
+            "points": 5
+        },
+        "x3600": {
+			"cPrev": ["a.3599"],
+			"cNext": ["a.3601"],
+            "description_en": "Deliver 90 collectables to Nitowikwe.",
+            "description_fr": "Échanger 90 objets collectionnables à Nitowikwe.",
+            "name_en": "The Customer Is Always Right: Nitowikwe IV",
+            "name_fr": "Fournisseur officiel de Nitowikwe IV",
+            "patch": "7.15",
+            "points": 5
+        },
+        "x3601": {
+			"cPrev": ["a.3600"],
+			"cNext": ["a.3602"],
+            "description_en": "Deliver 120 collectables to Nitowikwe.",
+            "description_fr": "Échanger 120 objets collectionnables à Nitowikwe.",
+            "name_en": "The Customer Is Always Right: Nitowikwe V",
+            "name_fr": "Fournisseur officiel de Nitowikwe V",
+            "patch": "7.15",
+            "points": 5
+        },
+        "x3602": {
+			"cPrev": ["a.3601"],
+            "cSiblings": ["t.764"],
+            "description_en": "Deliver 150 collectables to Nitowikwe.",
+            "description_fr": "Échanger 150 objets collectionnables à Nitowikwe.",
+            "name_en": "The Customer Is Always Right: Nitowikwe VI",
+            "name_fr": "Fournisseur officiel de Nitowikwe VI",
+            "patch": "7.15",
+            "points": 10,
+            "reward": "t.764"
         }
     }
 }

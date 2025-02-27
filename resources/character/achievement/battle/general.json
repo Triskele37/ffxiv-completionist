@@ -497,6 +497,24 @@
             "points": 10,
             "cPrev": ["f.1855"]
         },
+        "x3566": {
+            "cPrev": ["f.1871"],
+            "description_en": "Successfully complete the FATE “The Serpentlord Seethes” with the highest rating possible.",
+            "description_fr": "Accomplir l'ALÉA “Ttokrrone : lutte ensablée” avec la meilleure évaluation possible.",
+            "name_en": "Terrible Ttokrrone",
+            "name_fr": "Ttokrrone charmé",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3567": {
+            "cPrev": ["f.1922"],
+            "description_en": "Successfully complete the FATE “Mascot Murder” with the highest rating possible.",
+            "description_fr": "Accomplir l'ALÉA “Mica le mu : le grand final” avec la meilleure évaluation possible.",
+            "name_en": "Thanks for the Mu-mories",
+            "name_fr": "Farandole mu-gique",
+            "patch": "7.0",
+            "points": 10
+        },
         "x2343": {
             "name_en": "Free Market Friend: Lakeland",
             "name_fr": "Héros de grand chemin : Grand-Lac",
@@ -638,6 +656,77 @@
             "points": 20,
             "cPrev": ["a.3022", "a.3023", "a.3024", "a.3025", "a.3026", "a.3027"],
             "cSiblings": ["t.622"]
+        },
+        "x3559": {
+            "cCombo": ["a.3565"],
+            "cSiblings": ["travel.shared-fate.dt.2"],
+            "description_en": "Achieve shared FATE rank 4 in Urqopacha.",
+            "description_fr": "Atteindre le rang 4 de réussite des ALÉA à Urqopacha.",
+            "name_en": "Free Market Friend: Urqopacha",
+            "name_fr": "Héros de grand chemin : Urqopacha",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3560": {
+            "cCombo": ["a.3565"],
+            "cSiblings": ["travel.shared-fate.dt.5"],
+            "description_en": "Achieve shared FATE rank 4 in Kozama'uka.",
+            "description_fr": "Atteindre le rang 4 de réussite des ALÉA à Kozama'uka.",
+            "name_en": "Free Market Friend: Kozama'uka",
+            "name_fr": "Héros de grand chemin : Kozama'uka",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3561": {
+            "cCombo": ["a.3565"],
+            "cSiblings": ["travel.shared-fate.dt.8"],
+            "description_en": "Achieve shared FATE rank 4 in Yak T'el.",
+            "description_fr": "Atteindre le rang 4 de réussite des ALÉA à Yak T'el.",
+            "name_en": "Free Market Friend: Yak T'el",
+            "name_fr": "Héros de grand chemin : Yak T'el",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3562": {
+            "cCombo": ["a.3565"],
+            "cSiblings": ["travel.shared-fate.dt.11"],
+            "description_en": "Achieve shared FATE rank 4 in Shaaloani.",
+            "description_fr": "Atteindre le rang 4 de réussite des ALÉA en Shaaloani.",
+            "name_en": "Free Market Friend: Shaaloani",
+            "name_fr": "Héros de grand chemin : Shaaloani",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3563": {
+            "cCombo": ["a.3565"],
+            "cSiblings": ["travel.shared-fate.dt.14"],
+            "description_en": "Achieve shared FATE rank 4 in Heritage Found.",
+            "description_fr": "Atteindre le rang 4 de réussite des ALÉA à L'Hoirie recouvrée.",
+            "name_en": "Free Market Friend: Heritage Found",
+            "name_fr": "Héros de grand chemin : L'Hoirie recouvrée",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3564": {
+            "cCombo": ["a.3565"],
+            "cSiblings": ["travel.shared-fate.dt.17"],
+            "description_en": "Achieve shared FATE rank 4 in Living Memory.",
+            "description_fr": "Atteindre le rang 4 de réussite des ALÉA à La Mémoire vivante.",
+            "name_en": "Free Market Friend: Living Memory",
+            "name_fr": "Héros de grand chemin : La Mémoire vivante",
+            "patch": "7.0",
+            "points": 10
+        },
+        "x3565": {
+			"cPrev": ["a.3559", "a.3560", "a.3561", "a.3562", "a.3563", "a.3564"],
+            "cSiblings": ["t.752"],
+            "description_en": "Obtain “Free Market Friend” achievements for all six regions in Tural.",
+            "description_fr": "Accomplir les hauts faits “Héros de grand chemin” pour les régions d'Urqopacha, Kozama'uka, Yak T'el, Shaaloani, L'Hoirie recouvrée et La Mémoire vivante.",
+            "name_en": "Transcontinental Trade",
+            "name_fr": "Héros de grand chemin : Tural",
+            "patch": "7.0",
+            "points": 20,
+            "reward": "t.752"
         },
         "x803": {
             "name_en": "Date with Destiny I",
@@ -946,7 +1035,19 @@
             "patch": "6.0",
             "points": 20,
             "cPrev": ["a.2387"],
+            "cNext": ["a.3527"],
             "cSiblings": ["t.613"]
+        },
+        "x3527": {
+            "cPrev": ["a.2990"],
+            "cSiblings": ["t.743"],
+            "description_en": "Complete 900 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a paladin.※Each roulette only counts with daily award bonus.",
+            "description_fr": "Finir 900 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que paladin.* Seule une mission aléatoire par jour est prise en compte.",
+            "name_en": "Tank You, Paladin VI",
+            "name_fr": "Paladin philanthrope VI",
+            "patch": "7.0",
+            "points": 20,
+            "reward": "t.743"
         },
         "x1956": {
             "name_en": "Tank You, Warrior I",
@@ -999,7 +1100,19 @@
             "patch": "6.0",
             "points": 20,
             "cPrev": ["a.2388"],
+            "cNext": ["a.3528"],
             "cSiblings": ["t.614"]
+        },
+        "x3528": {
+            "cPrev": ["a.2991"],
+            "cSiblings": ["t.744"],
+            "description_en": "Complete 900 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a warrior.※Each roulette only counts with daily award bonus.",
+            "description_fr": "Finir 900 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que guerrier.* Seule une mission aléatoire par jour est prise en compte.",
+            "name_en": "Tank You, Warrior VI",
+            "name_fr": "Guerrier philanthrope VI",
+            "patch": "7.0",
+            "points": 20,
+            "reward": "t.744"
         },
         "x1959": {
             "name_en": "Tank You, Dark Knight I",
@@ -1052,7 +1165,19 @@
             "patch": "6.0",
             "points": 20,
             "cPrev": ["a.2389"],
+            "cNext": ["a.3529"],
             "cSiblings": ["t.615"]
+        },
+        "x3529": {
+            "cPrev": ["a.2992"],
+            "cSiblings": ["t.745"],
+            "description_en": "Complete 900 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a dark knight.※Each roulette only counts with daily award bonus.",
+            "description_fr": "Finir 900 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que chevalier noir.* Seule une mission aléatoire par jour est prise en compte.",
+            "name_en": "Tank You, Dark Knight VI",
+            "name_fr": "Chevalier noir philanthrope VI",
+            "patch": "7.0",
+            "points": 20,
+            "reward": "t.745"
         },
         "x2390": {
             "name_en": "Tank You, Gunbreaker I",
@@ -1106,7 +1231,19 @@
             "patch": "6.0",
             "points": 20,
             "cPrev": ["a.2393"],
+            "cNext": ["a.3530"],
             "cSiblings": ["t.616"]
+        },
+        "x3530": {
+            "cPrev": ["a.2993"],
+            "cSiblings": ["t.746"],
+            "description_en": "Complete 900 dungeons (lv. 61 and above), extreme trials (lv. 61 and above), unreal trials, high-level duty roulette dungeons, or duty roulette leveling duties as a gunbreaker.※Each roulette only counts with daily award bonus.",
+            "description_fr": "Finir 900 donjons (nv 61 ou plus), défis extrêmes (nv 61 ou plus), défis irréels, missions aléatoires “gain de niveaux” ou “donjons avancés” en tant que pistosabreur.* Seule une mission aléatoire par jour est prise en compte.",
+            "name_en": "Tank You, Gunbreaker VI",
+            "name_fr": "Pistosabreur philanthrope VI",
+            "patch": "7.0",
+            "points": 20,
+            "reward": "t.746"
         },
         "x2451": {
             "name_en": "Jack of All Trades I",
@@ -1538,6 +1675,7 @@
             "name_fr": "Conte bleu d'Éden",
             "description_en": "Obtain the achievements “Mightier than the Gate,” “Mightier than the Verse,” and “Mightier than the Promise.”",
             "description_fr": "Accomplir les trois hauts faits de la série “Des bleus pour Éden”.",
+            "reward": "t.694",
             "patch": "6.45",
             "points": 10,
             "cPrev": ["a.3327", "a.3328", "a.3329"],
