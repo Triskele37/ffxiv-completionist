@@ -24,46 +24,6 @@
     "common": ["category"],
     "tasks": {
         "x6": {
-            "name_en": "Parasol",
-            "name_fr": "Ombrelle",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": ["1,800 Skybuilders' Scrips", "Fête Present"],
-            "source_fr": ["1.800 Assignats d'Azurée", "Boîte à cadeaux de feste"],
-            "patch": "5.21"
-        },
-        "x11": {
-            "name_en": "Sky Blue Parasol",
-            "name_fr": "Ombrelle d'azur",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": ["900 Skybuilders' Scrips", "Fête Present"],
-            "source_fr": ["900 Assignats d'Azurée", "Boîte à cadeaux de feste"],
-            "patch": "5.21"
-        },
-        "x12": {
-            "name_en": "Vermilion Paper Parasol",
-            "name_fr": "Ombrelle pourpre laquée",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "Tokohana - Kugane - 100,000 Gil",
-            "source_fr": "Tokohana - Kugane - 100.000 gils",
-            "patch": "5.3"
-        },
-        "x9": {
-            "name_en": "Plum Paper Parasol",
-            "name_fr": "Ombrelle mauve laquée",
-            "category": "CATEGORY.VOYAGE",
-            "source_en": "Subaquatic Voyages - Rogo-Tumu-Here's Repose",
-            "source_fr": "Expédition sous-marine - Repos de Rogo-Tumu-Here (F)",
-            "patch": "5.3"
-        },
-        "x4": {
-            "name_en": "Gold Paper Parasol",
-            "name_fr": "Ombrelle dorée laquée",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "200,000 MGP",
-            "source_fr": "200.000 PGS",
-            "patch": "5.3"
-        },
-        "x1": {
             "name_en": "Calming Checkered Parasol",
             "name_fr": "Ombrelle à carreaux bleue",
             "category": "CATEGORY.PURCHASE",
@@ -71,30 +31,15 @@
             "source_fr": ["900 Assignats d'Azurée", "Boîte à cadeaux de feste"],
             "patch": "5.31"
         },
-        "x2": {
-            "name_en": "Cheerful Checkered Parasol",
-            "name_fr": "Ombrelle à carreaux rouge",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": ["1,800 Skybuilders' Scrips", "Fête Present"],
-            "source_fr": ["1.800 Assignats d'Azurée", "Boîte à cadeaux de feste"],
-            "patch": "5.31"
+        "x18": {
+            "name_en": "Archangel Wings",
+            "name_fr": "Ailes d'archange",
+            "category": "CATEGORY.TREASURE_HUNT",
+            "source_en": "The Excitatron 6000",
+            "source_fr": "Le Ludodrome",
+            "patch": "6.05"
         },
-        "x3": {
-            "name_en": "Classy Checkered Parasol",
-            "name_fr": "Ombrelle à carreaux noire",
-            "category": "CATEGORY.EXPLORATORY_MISSION",
-            "source_en": "Southern Front Lockbox",
-            "source_fr": "Coffre verrouillé du Front sud de Bozja",
-            "patch": "5.35"
-        },
-        "x5": {
-            "name_en": "Gold Parasaucer",
-            "name_fr": "Ombrelle du Gold Saucer",
-            "category": "CATEGORY.ACHIEVEMENT",
-            "source": "a.2803",
-            "patch": "5.4"
-        },
-        "x8": {
+        "x11": {
             "name_en": "Pleasant Dot Parasol",
             "name_fr": "Ombrelle bleue à pois",
             "category": "CATEGORY.EXPLORATORY_MISSION",
@@ -102,21 +47,13 @@
             "source_fr": "25 Cristaux bozjiens",
             "patch": "5.45"
         },
-        "x10": {
+        "x12": {
             "name_en": "Prim Dot Parasol",
             "name_fr": "Ombrelle rose à pois",
             "category": "CATEGORY.PURCHASE",
             "source_en": "Pixie Hoarders - Il Mheg - 100,000 Gil",
             "source_fr": "Ys Gyuf - Il Mheg - 100.000 gils",
             "patch": "5.4"
-        },
-        "x7": {
-            "name_en": "Pastoral Dot Parasol",
-            "name_fr": "Ombrelle vert d'eau à pois",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": ["1,800 Skybuilders' Scrips", "Fête Present"],
-            "source_fr": ["1.800 Assignats d'Azurée", "Boîte à cadeaux de feste"],
-            "patch": "5.41"
         },
         "x14": {
             "name_en": "Fat Cat Parasol",
@@ -126,47 +63,23 @@
             "source_fr": "100 Mémoquartz allagois festif inhabituel 2023",
             "patch": "5.5"
         },
-        "x13": {
-            "name_en": "Great Paraserpent",
-            "name_fr": "Ombrelle Serpent marin de Ronka ?",
-            "category": "CATEGORY.EVENT",
-            "source_en": "Community Events Reward",
-            "source_fr": "Récompense de concours communautaire",
-            "patch": "5.5",
-            "defaultCompletion": "X"
-        },
-        "x15": {
-            "name_en": "Red Moon Parasol",
-            "name_fr": "Ombrelle Dalamud",
-            "category": "CATEGORY.EVENT",
-            "source_en": "The Rising (2021)",
-            "source_fr": "Fête de la Commémoration (2021)",
-            "patch": "5.55"
-        },
-        "x21": {
-            "name_en": "White Lace Parasol",
-            "name_fr": "Ombrelle à dentelle blanche",
-            "category": "CATEGORY.TREASURE_HUNT",
-            "source_en": "The Excitatron 6000",
-            "source_fr": "Le Ludodrome",
-            "patch": "6.1"
-        },
-        "x22": {
-            "name_en": "Blue Blossom Parasol",
-            "name_fr": "Ombrelle à fleurs bleues",
-            "category": "CATEGORY.VOYAGE",
-            "source_en": "Subaquatic Voyages - Thrall's Unrest",
-            "source_fr": "Subaquatic Voyages - Thrall's Unrest",
+        "x25": {
+            "name_en": "False Shaded Spectacles",
+            "name_fr": "Mirage de lunettes teintées",
+            "category": "CATEGORY.PVP",
+            "source_en": "Series Reward",
+            "source_fr": "Récompense de série",
             "patch": "6.1"
         },
         "x26": {
-            "name_en": "Sabotender Parasol",
-            "name_fr": "Ombrelle pampa",
-            "category": "CATEGORY.DUTY",
-            "source": "d.868",
-            "patch": "6.25"
+            "name_en": "False Classic Spectacles",
+            "name_fr": "Mirage de lunettes classiques",
+            "category": "CATEGORY.VOYAGE",
+            "source_en": "Subaquatic Voyages - Anthemoessa",
+            "source_fr": "Expédition sous-marine - Anthemoessa",
+            "patch": "6.1"
         },
-        "x27": {
+        "x30": {
             "name_en": "Felicitous Furball Umbrella",
             "name_fr": "Parapluie Chamoiselle",
             "category": "CATEGORY.PURCHASE",
@@ -174,7 +87,7 @@
             "source_fr": "6.000 Assignat insulaire azur",
             "patch": "6.3"
         },
-        "x28": {
+        "x31": {
             "name_en": "Raindrop Defense System",
             "name_fr": "Système de protection anti-gouttes",
             "category": "CATEGORY.DUTY",
@@ -211,7 +124,7 @@
             "source_fr": "6.000 Assignat insulaire azur",
             "patch": "6.5"
         },
-        "x0": {
+        "x9": {
             "name_en": "Angel Wings",
             "name_fr": "Ailes angéliques",
             "category": "CATEGORY.PURCHASE",
@@ -219,28 +132,12 @@
             "source_fr": "500.000 PGS",
             "patch": "5.4"
         },
-        "x18": {
-            "name_en": "Fallen Angel Wings",
-            "name_fr": "Ailes d'ange déchu",
+        "x22": {
+            "name_en": "False Spectacles",
+            "name_fr": "Mirage de lunettes ovales",
             "category": "CATEGORY.PURCHASE",
-            "source_en": "Edelina - Mor Dhona - 500 Bicolor Gemstone Vouchers",
-            "source_fr": "Edelina - Mor Dhona - 500 Bons de livraison de gemmes bicolores",
-            "patch": "6.0"
-        },
-        "x16": {
-            "name_en": "Archangel Wings",
-            "name_fr": "Ailes d'archange",
-            "category": "CATEGORY.TREASURE_HUNT",
-            "source_en": "The Excitatron 6000",
-            "source_fr": "Le Ludodrome",
-            "patch": "6.05"
-        },
-        "x17": {
-            "name_en": "Diabolos Wings",
-            "name_fr": "Ailes de Diabolos",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "800 Sacks of Nuts",
-            "source_fr": "800 Insignes de chasse",
+            "source_en": "100,000 MGP",
+            "source_fr": "100.000 PGS",
             "patch": "6.0"
         },
         "x20": {
@@ -251,7 +148,7 @@
             "source_fr": "Vieille carte en peau d'ophiotauros",
             "patch": "6.0"
         },
-        "x25": {
+        "x28": {
             "name_en": "Bluepowder Pixie Wings",
             "name_fr": "Ailes de Pixie bleues",
             "category": "CATEGORY.PURCHASE",
@@ -266,30 +163,6 @@
             "source_en": "3 Aloalo Potsherd",
             "source_fr": "3 Relique de l'île d'Aloalo",
             "patch": "6.51"
-        },
-        "x19": {
-            "name_en": "False Spectacles",
-            "name_fr": "Mirage de lunettes ovales",
-            "category": "CATEGORY.PURCHASE",
-            "source_en": "100,000 MGP",
-            "source_fr": "100.000 PGS",
-            "patch": "6.0"
-        },
-        "x23": {
-            "name_en": "False Shaded Spectacles",
-            "name_fr": "Mirage de lunettes teintées",
-            "category": "CATEGORY.PVP",
-            "source_en": "Series Reward",
-            "source_fr": "Récompense de série",
-            "patch": "6.1"
-        },
-        "x24": {
-            "name_en": "False Classic Spectacles",
-            "name_fr": "Mirage de lunettes classiques",
-            "category": "CATEGORY.VOYAGE",
-            "source_en": "Subaquatic Voyages - Anthemoessa",
-            "source_fr": "Expédition sous-marine - Anthemoessa",
-            "patch": "6.1"
         },
         "x32": {
             "name_en": "Rose-colored Spectacles",

@@ -3,6 +3,7 @@ import { ChangeStore } from '../ChangeStore';
 
 import { migrateAchievements } from './achievement';
 import { migrateDuties } from './duty';
+import { migrateFashionAccessories } from './fashion-accessories';
 import { migrateQuests } from './quest';
 import { migrateLevequests } from './levequest';
 import { migrateMinions } from './minion';
@@ -15,6 +16,7 @@ export function migrateTo_1_0_5(svcSaveStore: SaveStoreService): void {
 
     migrateAchievements(store);
     migrateDuties(store);
+    migrateFashionAccessories(store);
     migrateQuests(store);
     migrateLevequests(store);
     migrateMinions(store);

@@ -17,6 +17,7 @@ const createIndex = (baseKey: string, shorthand: string): IndexContainer =>
 const INDEX: Record<string, IndexContainer> = {
     Achievement: createIndex('character.achievement', 'a'),
     ClassAndJob: createIndex('character.character.classes--jobs', 'cj'),
+    FashionAccessory: createIndex('character.fashion-accessories', 'fa'),
     Minion: createIndex('character.minion-guide', 'mi'),
     Mount: createIndex('character.mount-guide', 'mo'),
     Duty: createIndex('duty.duty-raid-finder', 'd'),

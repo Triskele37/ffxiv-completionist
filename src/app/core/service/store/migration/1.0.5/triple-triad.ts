@@ -5,8 +5,6 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 export function migrateTripleTriadCards(store: ChangeStore): void {
     const TT = 'overall.character.gold-saucer.triple-triad-card-list';
 
-    store.safeChangeKeys(`${TT}.page-`, []);
-
     store.safeChangeKeys(`${TT}.last-page`, [
         [0, 68], // Warrior of Light
         [1, 69], // Firion
