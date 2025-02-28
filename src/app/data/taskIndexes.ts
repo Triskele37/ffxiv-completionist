@@ -5,51 +5,46 @@ import { Task } from '@model/Task';
  * - Uses Task id for the Map key
  * - Map is used to ensure uniqueness and additional perf/size gains over a raw object
  */
-type IndexContainer = {
-    baseKey: string;
-    shorthand: string;
-    map: Map<number, Task>;
-};
+type TaskIndex = Map<number, Task>;
+type IndexContainer = Map<string, TaskIndex>;
 
-const createIndex = (baseKey: string, shorthand: string): IndexContainer => ({
-    baseKey: `overall.${baseKey}`,
-    shorthand,
-    map: new Map<number, Task>()
-});
+// Quick lookup of shorthand from storage key
+const LOOKUP: Map<string, string> = new Map([
+    ['overall.character.achievement', 'a'],
+    ['overall.character.companion.barding', 'b'],
+    ['overall.character.character.classes--jobs', 'cj'],
+    ['overall.character.fashion-accessories', 'fa'],
+    ['overall.character.minion-guide', 'mi'],
+    ['overall.character.mount-guide', 'mo'],
+    ['overall.duty.duty-raid-finder', 'd'],
+    ['overall.duty.the-hunt', 'h'],
+    ['overall.duty.fate', 'f'],
+    ['overall.logs.orchestrion-list', 'o'],
+    ['overall.duty.quest', 'q'],
+    ['overall.character.character.title', 't'],
+    ['overall.character.gold-saucer.triple-triad-card-list', 'tt'],
+]);
 
-const INDEX: Record<string, IndexContainer> = {
-    Achievement: createIndex('character.achievement', 'a'),
-    Barding: createIndex('character.companion.barding', 'b'),
-    ClassAndJob: createIndex('character.character.classes--jobs', 'cj'),
-    FashionAccessory: createIndex('character.fashion-accessories', 'fa'),
-    Minion: createIndex('character.minion-guide', 'mi'),
-    Mount: createIndex('character.mount-guide', 'mo'),
-    Duty: createIndex('duty.duty-raid-finder', 'd'),
-    Hunt: createIndex('duty.the-hunt', 'h'),
-    Fate: createIndex('duty.fate', 'f'),
-    Orchestrion: createIndex('logs.orchestrion-list', 'o'),
-    Quest: createIndex('duty.quest', 'q'),
-    Title: createIndex('character.character.title', 't'),
-    TripleTriadCard: createIndex('character.gold-saucer.triple-triad-card-list', 'tt'),
-};
+// This is the actual entity storing indexed tasks via [shorthand][id]
+const INDEX: IndexContainer = new Map<string, TaskIndex>();
 
-/**
- * Attempt to add tasks to indexes
- */
-export function addTaskToIndex(task: Task) {
-    for(const { baseKey, map } of Object.values(INDEX)) {
-        if(task.fullStorageKey.startsWith(baseKey)) {
-            map.set(task.id, task);
-            break;
-        }
-    }
+// Prepopulate INDEX with all shorthands from LOOKUP
+for(const shorthand of LOOKUP.values()) {
+    INDEX.set(shorthand, new Map<number, Task>);
 }
 
+/**
+ * Attempt to add a task INDEX
+ */
+export function addTaskToIndex(task: Task) {
+    const shorthand = LOOKUP.get(task.fullStorageKey);
+    if(shorthand) INDEX.get(shorthand).set(task.id, task);
+}
+
+/**
+ * Attempt to retrieve a task from INDEX
+ */
 export function getIndexedTask(indexKey: string, taskId: number | string) {
     const id = typeof taskId === 'number' ? taskId : parseInt(taskId);
-    if(isNaN(id)) return;
-
-    for(const { map, shorthand } of Object.values(INDEX)) {
-        if(indexKey === shorthand) return map.get(id);
-    }
+    return isNaN(id) ? undefined : INDEX.get(indexKey)?.get(id);
 }
