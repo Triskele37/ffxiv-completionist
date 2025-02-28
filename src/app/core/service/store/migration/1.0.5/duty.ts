@@ -19,10 +19,13 @@ export function migrateDuties(store: ChangeStore): void {
 }
 
 function migrateDeepDungeons(store: ChangeStore): void {
-    const DD = `${DRF}.deep-dungeons`
-    store.changeKey(DD, 0, 174);
-    store.changeKey(DD, 1, 540);
-    store.changeKey(DD, 2, 897);
+    const OLD_DD = `${DRF}.deep-dungeon`;
+    const NEW_DD = `${DRF}.deep-dungeons`;
+
+    store.changeKey(OLD_DD, 0, 174);
+    store.changeKey(OLD_DD, 1, 540);
+    store.changeKey(OLD_DD, 2, 897);
+    store.moveGroup(OLD_DD, NEW_DD, true);
 }
 
 function migrateDungeons(store: ChangeStore): void {
@@ -410,16 +413,20 @@ function migrateGuildhests(store: ChangeStore): void {
 }
 
 function migrateVCDungeons(store: ChangeStore): void {
-    const VCDUNGEONS = `${DRF}.v-anc-c-dungeons`;
-    store.changeKey(`${VCDUNGEONS}.aloalo-island`, 0, 961);
-    store.changeKey(`${VCDUNGEONS}.aloalo-island`, 1, 979);
-    store.changeKey(`${VCDUNGEONS}.aloalo-island`, 2, 980);
-    store.changeKey(`${VCDUNGEONS}.mount-rokkon`, 0, 945);
-    store.changeKey(`${VCDUNGEONS}.mount-rokkon`, 1, 946);
-    store.changeKey(`${VCDUNGEONS}.mount-rokkon`, 2, 947);
-    store.changeKey(`${VCDUNGEONS}.sildihn-subterrane`, 0, 868);
-    store.changeKey(`${VCDUNGEONS}.sildihn-subterrane`, 1, 878);
-    store.changeKey(`${VCDUNGEONS}.sildihn-subterrane`, 2, 879);
+    const OLD_VC = `${DRF}.v-and-c-dungeon`;
+    const NEW_VC = `${DRF}.v-and-c-dungeons`;
+
+    store.changeKey(`${OLD_VC}.aloalo-island`, 0, 961);
+    store.changeKey(`${OLD_VC}.aloalo-island`, 1, 979);
+    store.changeKey(`${OLD_VC}.aloalo-island`, 2, 980);
+    store.changeKey(`${OLD_VC}.mount-rokkon`, 0, 945);
+    store.changeKey(`${OLD_VC}.mount-rokkon`, 1, 946);
+    store.changeKey(`${OLD_VC}.mount-rokkon`, 2, 947);
+    store.changeKey(`${OLD_VC}.sildihn-subterrane`, 0, 868);
+    store.changeKey(`${OLD_VC}.sildihn-subterrane`, 1, 878);
+    store.changeKey(`${OLD_VC}.sildihn-subterrane`, 2, 879);
+
+    store.moveGroup(OLD_VC, NEW_VC, true);
 }
 
 function migrateHunts(store: ChangeStore): void {

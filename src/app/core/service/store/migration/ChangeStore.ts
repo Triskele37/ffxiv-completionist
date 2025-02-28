@@ -233,7 +233,7 @@ function dive(path: string | string[], store: any): any {
 
     let cur = store;
     for(const item of pathSegments) {
-        if(!cur[item]) cur[item] = {};
+        cur[item] ??= {};
         cur = cur[item];
     }
 

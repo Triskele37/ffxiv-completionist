@@ -80,6 +80,7 @@ export const QUEST_DEFINITION = {
                         'even-further-hildibrand-adventures',
                         'somehow-further-hildibrand-adventures',
                         'manderville-weapons',
+                        'inconceivably-further-hildibrand-adventures',
                     ]
                 },
                 {
@@ -260,6 +261,18 @@ export const QUEST_DEFINITION = {
                 {
                     path: 'ultima-thule-sidequests',
                     subGroups: ['ultima-thule']
+                },
+                {
+                    path: 'yok-tural-sidequests',
+                    subGroups: ['tuliyollal', 'urqopacha', 'kozamauka', 'yak-tel']
+                },
+                {
+                    path: 'xak-tural-sidequests',
+                    subGroups: ['solution-nine', 'shaaloani', 'heritage-found']
+                },
+                {
+                    path: 'unlost-world-sidequests',
+                    subGroups: ['living-memory']
                 }
             ]
         },
@@ -283,6 +296,7 @@ export const QUEST_DEFINITION = {
                 alliedSociety('arkasodara-quests'),
                 alliedSociety('omicron-quests'),
                 alliedSociety('loporrit-quests'),
+                alliedSociety('pelupelu-quests'),
                 {
                     path: 'intersocietal-quests',
                     subGroups: [
@@ -340,6 +354,7 @@ export const QUEST_DEFINITION = {
                 {
                     path: 'crystalline-mean-quests',
                     subGroups: [
+                        'crystalline-mean-quests',
                         'facet-of-forging-quests',
                         'facet-of-crafting-quests',
                         'facet-of-nourishing-quests',
@@ -350,11 +365,23 @@ export const QUEST_DEFINITION = {
                 {
                     path: 'studium-quests',
                     subGroups: [
+                        'studium-quests',
                         'faculty-of-aetherology-quests',
                         'faculty-of-anthropology-quests',
                         'faculty-of-archaeology-quests',
                         'faculty-of-astronomy-quests',
                         'faculty-of-medicine-quests',
+                    ]
+                },
+                {
+                    path: 'wachumeqimeqi-quests',
+                    subGroups: [
+                        'wachumeqimeqi-quests',
+                        'epistles-by-pameka-quests',
+                        'fish-fancies-donuhanu-quests',
+                        'shunyes-apothecary-quests',
+                        'xeerol-ja-juicecraft-quests',
+                        'xrral-soj-metalwares-quests',
                     ]
                 },
                 {
@@ -372,6 +399,7 @@ export const QUEST_DEFINITION = {
                         'gunbreaker-quests',
                         'dancer-quests',
                         'reaper-quests',
+                        'viper-quests',
                     ]
                 },
                 {
@@ -384,6 +412,7 @@ export const QUEST_DEFINITION = {
                         'astrologian-quests',
                         'red-mage-quests',
                         'sage-quests',
+                        'pictomancer-quests',
                         'blue-mage-quests',
                     ]
                 },

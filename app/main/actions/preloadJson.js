@@ -45,6 +45,7 @@ var path = require("path");
 exports.JSON_CACHE = {};
 /**
  * Preload all json asynchronously before the app loads to speed up init time
+ * - Keep in memory (~10MB) to completely remove slowdown of file read during app run
  */
 function preloadJson() {
     return __awaiter(this, void 0, void 0, function () {

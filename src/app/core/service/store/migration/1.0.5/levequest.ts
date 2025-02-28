@@ -52,7 +52,7 @@ export function migrateLevequests(store: ChangeStore): void {
         'east-shroud': range(567, 573),
         'lower-la-noscea': [...range(507, 512), ...range(525, 530), ...range(597, 603)],
         'mor-dhona': range(656, 661),
-        'northern-thanalan': range(643, 548),
+        'northern-thanalan': range(643, 648),
         'southern-thanalan': range(611, 616),
         'south-shroud': [...range(589, 596), ...range(604, 610), ...range(617, 622)],
         'the-churning-mists': range(890, 895),
@@ -242,19 +242,20 @@ export function migrateLevequests(store: ChangeStore): void {
 }
 
 function migrateCompany(store: ChangeStore): void {
-    const CL = `${LEVE}.company`;
+    const OLD_CL = `${LEVE}.grand-company`;
+    const NEW_CL = `${LEVE}.company-leves`;
 
-    store.moveTasks(CL, `${CL}-leves.immortal-flames-levequests`, [
+    store.moveTasks(OLD_CL, `${NEW_CL}.immortal-flames-levequests`, [
         802, 803, 804, 805, 814, 815, 816, 817, 828, 829, 830,
         831, 832, 843, 844, 845, 858, 859, 860, 873, 874, 875
     ]);
 
-    store.moveTasks(CL, `${CL}-leves.maelstrom-levequests`, [
+    store.moveTasks(OLD_CL, `${NEW_CL}.maelstrom-levequests`, [
         794, 795, 796, 797, 806, 807, 808, 809, 818, 819, 820,
         821, 822, 833, 834, 835, 848, 849, 850, 863, 864, 865
     ]);
 
-    store.moveTasks(CL, `${CL}-leves.order-of-the-twin-adder-levequests`, [
+    store.moveTasks(OLD_CL, `${NEW_CL}.order-of-the-twin-adder-levequests`, [
         798, 799, 800, 801, 810, 811, 812, 813, 823, 824, 825,
         826, 827, 838, 839, 840, 853, 854, 855, 868, 869, 870
     ]);

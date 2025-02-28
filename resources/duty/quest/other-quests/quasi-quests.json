@@ -3,11 +3,6 @@
     "groupName_en": "Quasi-Quests",
     "groupName_fr": "Quasi-Quêtes",
     "headers": {
-        "unlock": {
-            "link": true,
-            "header_en": "Unlock",
-            "header_fr": "Débloque"
-        },
         "level": {
             "header_en": "Level",
             "header_fr": "Niveau"
@@ -15,6 +10,11 @@
         "name": {
             "header_en": "Quest",
             "header_fr": "Nom"
+        },
+        "unlock": {
+            "link": true,
+            "header_en": "Unlock",
+            "header_fr": "Débloque"
         }
     },
     "tasks": {
@@ -343,8 +343,8 @@
             "name_en": "Recondition the Anima",
             "name_fr": "Un nouvel épanouissement",
             "level": 60,
-            "unlock_en": "Reconditions Anima Weapon",
-            "unlock_fr": "Reconditions Anima Weapon",
+            "unlock_en": "Recondition Anima Weapon",
+            "unlock_fr": "Recondition Anima Weapon",
             "npc_en": "Ulan",
             "npc_fr": "Ulan",
             "cPrev": ["q.67864"],
@@ -669,6 +669,8 @@
             "level": 80,
             "name_en": "Forged Anew",
             "name_fr": "Le juste ajustement",
+            "unlock_en": "Recondition Resistance Weapon",
+            "unlock_fr": "Recondition Resistance Weapon",
             "npc_en": "Allagan Node",
             "npc_fr": "Système De Mémorisation",
             "cPrev": ["q.69576"],

@@ -3,7 +3,9 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 /** Orchestrion changes from Generated Resources
  * */
 export function migrateOrchestrions(store: ChangeStore): void {
-    store.safeChangeKeys(`overall.logs.orchestrion-list`, [
+    const ORCH = `overall.logs.orchestrion-list`;
+
+    store.safeChangeKeys(`${ORCH}.ambient`, [
         [0, 152], // Ambient Birdsong
         [1, 151], // Ambient Waves
         [2, 153], // Ambient Rainfall
@@ -18,6 +20,9 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [11, 221], // Ambient Wind Chime
         [12, 222], // Ambient Abyss
         [13, 564], // Silence
+    ]);
+
+    store.safeChangeKeys(`${ORCH}.dungeons-i`, [
         [71, 502], // From the Depths
         [64, 431], // Below
         [65, 426], // The Ludus
@@ -94,6 +99,9 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [100, 573], // Dangertek
         [101, 583], // The Promise of Plunder
         [102, 612], // My Soul to Keep
+    ]);
+
+    store.safeChangeKeys(`${ORCH}.dungeons-ii`, [
         [48, 317], // To Fire and Sword
         [49, 318], // Figments
         [50, 319], // Unwound
@@ -128,6 +136,9 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [643, 643], // Kingdom of Baron (Endwalker)
         [648, 648], // O Speaker, Slumber
         [649, 649], // O Hunter, Rejoice
+    ]);
+
+    store.safeChangeKeys(`${ORCH}.locales-i`, [
         [0, 2], // Wailers and Waterwheels
         [1, 3], // I Am the Sea
         [2, 4], // A New Hope
@@ -207,6 +218,9 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [76, 550], // The Hall of Flames
         [77, 584], // Crystal Rain
         [78, 603], // Looping in the Deepest Fringes
+    ]);
+
+    store.safeChangeKeys(`${ORCH}.locales-ii`, [
         [0, 331], // The Dark Which Illuminates the World
         [1, 332], // Indulgence
         [2, 342], // Pain in Pleasure
@@ -254,6 +268,9 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [44, 566], // Dreamwalker
         [45, 582], // Battle 1 from FINAL FANTASY IV
         [46, 591], // Another Moon
+    ]);
+
+    store.safeChangeKeys(`${ORCH}.mog-station`, [
         [0, 114], // Borderless (Duality)
         [1, 115], // Unbending Steel (Duality)
         [2, 191], // Ultima (Orchestral Version)
@@ -332,6 +349,9 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [635, 635], // Dedicated to Moonlight (Amanda Achen Vocals)
         [641, 641], // Dedicated to Moonlight (Forge Ahead)
         [642, 642], // In the Balance (Amanda Achen Vocals)
+    ]);
+
+    store.safeChangeKeys(`${ORCH}.others`, [
         [93, 547], // Born to Ride
         [7, 17], // Tenacity
         [8, 47], // When a Tree Falls
@@ -383,6 +403,9 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [101, 593], // Subterranean Sanctuary
         [102, 602], // Battle 2 from FINAL FANTASY III
         [0, 12], // Prelude – Discoveries
+    ]);
+
+    store.safeChangeKeys(`${ORCH}.quests`, [
         [18, 128], // Forever Lost
         [29, 200], // Daring Dalliances
         [77, 442], // By Design
@@ -449,6 +472,9 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [650, 650], // Pennons Aloft
         [651, 651], // From Fear to Fortitude
         [644, 644], // A Gentleman to Walk with Me
+    ]);
+
+    store.safeChangeKeys(`${ORCH}.raids-i`, [
         [0, 35], // Hubris
         [1, 36], // Tumbling Down
         [2, 37], // Now I Know the Truth
@@ -509,6 +535,9 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [57, 263], // eScape
         [58, 264], // Heartless
         [59, 275], // From the Heavens
+    ]);
+
+    store.safeChangeKeys(`${ORCH}.raids-ii`, [
         [0, 350], // Significance (Nothing)
         [1, 351], // City Ruins (Rays of Light)
         [2, 353], // Voice of no Return (Guitar)
@@ -582,6 +611,9 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [14, 245], // Starlight, Starbright
         [21, 348], // Starlight de Chocobo
         [15, 299], // Hammerhead
+    ]);
+
+    store.safeChangeKeys(`${ORCH}.seasonal`, [
         [16, 300], // Valse di Fantastica
         [17, 301], // Relax and Reflect
         [18, 302], // Veiled in Black
@@ -602,6 +634,9 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [654, 654], // To Sail Forbidden Seas
         [655, 655], // Find the Flame
         [656, 656], // Land of Eikons
+    ]);
+
+    store.safeChangeKeys(`${ORCH}.trials`, [
         [0, 27], // Torn from the Heavens
         [1, 28], // Ultima
         [2, 29], // The Maker's Ruin
@@ -657,5 +692,5 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [52, 592], // Voidcast Savior
         [614, 614], // FINAL FANTASY IV: The Final Battle (Endwalker)
         [625, 625], // The Red Wings (Endwalker)
-]);
+    ]);
 }

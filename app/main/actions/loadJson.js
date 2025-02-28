@@ -9,17 +9,13 @@ function loadJson(event, key) {
     try {
         // Check if passed group has a self-named file
         if (preloadJson_1.JSON_CACHE[key]) {
-            var file = preloadJson_1.JSON_CACHE[key];
-            // if(!key.endsWith('template')) delete JSON_CACHE[key];
-            event.returnValue = file;
+            event.returnValue = preloadJson_1.JSON_CACHE[key];
             return;
         }
         // Check if passed group has/is an index file
         var keyIfIndex = [key, '_index'].filter(function (p) { return p; }).join('.');
         if (preloadJson_1.JSON_CACHE[keyIfIndex]) {
-            var file = preloadJson_1.JSON_CACHE[keyIfIndex];
-            // if(!key.endsWith('template')) delete JSON_CACHE[keyIfIndex];
-            event.returnValue = file;
+            event.returnValue = preloadJson_1.JSON_CACHE[keyIfIndex];
             return;
         }
         console.log("Could not find file for: ".concat(key));

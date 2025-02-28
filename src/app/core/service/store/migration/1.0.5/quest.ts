@@ -1,6 +1,7 @@
 import { ChangeStore } from '@service/store/migration/ChangeStore';
 
 const QUEST = 'overall.duty.quest';
+const CAJ = `${QUEST}.class-and-job-quests`;
 const SIDE_QUESTS = `${QUEST}.sidequests`;
 
 // Add '-suffix' to the end of 'a'
@@ -9,6 +10,7 @@ const withSuffix = (suffix: string) => (base: string, a: string, b?: string): [s
     `${base}.${b ?? a}-${suffix}`
 ];
 const withQuests = withSuffix('quests');
+const withSidequests = withSuffix('sidequests');
 const withEvents = withSuffix('events');
 const withMsq = withSuffix('main-scenario-quests')
 
@@ -21,10 +23,19 @@ export function migrateQuests(store: ChangeStore): void {
     migrateCoane(store);
     migrateClassAndJobQuests(store);
     reorganizeRoleQuests(store);
+    migrateDohlRoleQuests(store);
     migrateMsq(store);
     migrateSideStoryQuests(store);
+    migrateSidequests(store);
     migrateTribalAGAIN(store);
     migrateOtherQuests(store);
+
+    store.moveTask(
+        `${QUEST}.sidequests.weapon-enhancement-sidequests.resistance-weapons`,
+        `${QUEST}.other-quests.quasi-quests`,
+        69577,
+        true
+    );
 }
 
 function migrateCoane(store: ChangeStore): void {
@@ -35,47 +46,35 @@ function migrateCoane(store: ChangeStore): void {
         `${CoaNE}.${a}`,
         `${CoaNE}.${coane}---${b}.${c}`,
     ];
-    const ab_c = (a: string, c: string) => foo(a, a, c);
-    const a_bc = (a: string, b: string) => foo(a, b, b);
-    const abc = (a: string) => foo(a, a, a);
 
-    store.moveGroup(...ab_c('alexander', 'alexander-quests'));
-    store.moveGroup(...ab_c('bahamut', 'bahamut-quests'));
-    store.moveGroup(...abc('eden'));
-    store.moveGroup(...abc('myths-of-the-realm'));
-    store.moveGroup(...a_bc('pandaemonium', 'pandmonium'));
-    store.moveGroup(...foo('primal', 'primals', 'primal-quests'));
-    store.moveGroup(...abc('return-to-ivalice'));
-    store.moveGroup(...foo('crystal-tower', 'the-crystal-tower', 'crystal-tower-quests'));
-    store.moveGroup(...abc('the-four-lords'));
-    store.moveGroup(...foo('shadow-of-mhach', 'the-shadow-of-mhach', 'shadow-of-mhach-quests'));
+    store.moveGroup(...foo('alexander', 'alexander', 'alexander-quests'));
+    store.moveGroup(...foo('bahamut', 'bahamut', 'bahamut-quests'));
+    store.moveGroup(...foo('eden', 'eden', 'eden'));
+    store.moveGroup(...foo('myths-of-the-realm', 'myths-of-the-realm', 'myths-of-the-realm'));
+    store.moveGroup(...foo('pandaemonium', 'pandmonium', 'pandmonium'));
+    store.moveGroup(...foo('primals', 'primals', 'primal-quests'));
+    store.moveGroup(...foo('return-to-ivalice', 'return-to-ivalice', 'return-to-ivalice'));
+    store.moveGroup(...foo('the-crystal-tower', 'the-crystal-tower', 'crystal-tower-quests'));
+    store.moveGroup(...foo('the-four-lords', 'the-four-lords', 'the-four-lords'));
+    store.moveGroup(...foo('the-shadow-of-mhach', 'the-shadow-of-mhach', 'shadow-of-mhach-quests'));
     store.moveGroup(...foo('the-sorrow-of-werlyt', 'the-sorrow-of-werlyt', 'garlemalds-machinations'));
-    store.moveGroup(...foo('heavensward-primal', 'the-warring-triad', 'heavensward-primal-quests'));
+    store.moveGroup(...foo('the-warring-triad', 'the-warring-triad', 'heavensward-primal-quests'));
     store.moveGroup(`${CoaNE}.yorha-dark-apocalypse`, `${CoaNE}.yorha-dark-apocalypse.yorha-dark-apocalypse`);
 
     // Omega already weirdly nested
     store.moveGroup(
-        `${CoaNE}.omega`,
-        `${CoaNE}.${coane}-omega.omega-quests`
+        `${CoaNE}.omega.beyond-the-rift`,
+        `${CoaNE}.${coane}---omega.omega-beyond-the-rift`
     );
 
     store.moveGroup(
-        `${CoaNE}.omega.beyond-the-rift`,
-        `${CoaNE}.${coane}-omega.omega-beyond-the-rift`
+        `${CoaNE}.omega`,
+        `${CoaNE}.${coane}---omega.omega-quests`
     );
 }
 
 function migrateClassAndJobQuests(store: ChangeStore): void {
-    const CAJ = `${QUEST}.class-and-job-quests`;
     store.moveGroup(`${QUEST}.class--job`, CAJ);
-
-    const CM = `${CAJ}.crystalline-mean-quests`;
-    store.moveGroup(...withQuests(CAJ, 'crystalline-mean'));
-    store.moveGroup(...withQuests(CM, 'facet-of-crafting'));
-    store.moveGroup(...withQuests(CM, 'facet-of-fishing'));
-    store.moveGroup(...withQuests(CM, 'facet-of-forging'));
-    store.moveGroup(...withQuests(CM, 'facet-of-gathering'));
-    store.moveGroup(...withQuests(CM, 'facet-of-nourishing'));
 
     const DOMJ = `${CAJ}.disciple-of-magic-job-quests`;
     store.moveGroup(...withQuests(CAJ, 'disciple-of-magic-job'));
@@ -134,28 +133,36 @@ function migrateClassAndJobQuests(store: ChangeStore): void {
     store.moveGroup(...withQuests(DOW, 'marauder'));
     store.moveGroup(...withQuests(DOW, 'pugilist'));
     store.moveGroup(...withQuests(DOW, 'rogue'));
+}
 
-    store.moveGroup(...withQuests(CAJ, 'role'));
+function migrateDohlRoleQuests(store: ChangeStore): void {
+    const OLD_CM = `${CAJ}.crystalline-mean`;
+    const NEW_CM = `${OLD_CM}-quests`;
+    store.moveTasks(OLD_CM, `${OLD_CM}.crystalline-mean-quests`, [68778, 69191]);
+    store.moveGroup(OLD_CM, NEW_CM, true);
+    store.moveGroup(...withQuests(NEW_CM, 'facet-of-forging'));
+    store.moveGroup(...withQuests(NEW_CM, 'facet-of-crafting'));
+    store.moveGroup(...withQuests(NEW_CM, 'facet-of-nourishing'));
+    store.moveGroup(...withQuests(NEW_CM, 'facet-of-gathering'));
+    store.moveGroup(...withQuests(NEW_CM, 'facet-of-fishing'));
 
-    const STUDIUM = `${CAJ}.studium-quests`;
-    store.moveGroup(...withQuests(CAJ, 'studium'));
-    store.moveGroup(...withQuests(STUDIUM, 'faculty-of-aetherology'));
-    store.moveGroup(...withQuests(STUDIUM, 'faculty-of-anthropology'));
-    store.moveGroup(...withQuests(STUDIUM, 'faculty-of-archaeology'));
-    store.moveGroup(...withQuests(STUDIUM, 'faculty-of-astronomy'));
-    store.moveGroup(...withQuests(STUDIUM, 'faculty-of-medicine'));
+    const OLD_S = `${CAJ}.studium`;
+    const NEW_S = `${OLD_S}-quests`;
+    store.moveTasks(OLD_S, `${OLD_S}.studium-quests`, [70009, 70010]);
+    store.moveGroup(OLD_S, NEW_S, true);
+    store.moveGroup(...withQuests(NEW_S, 'faculty-of-aetherology'));
+    store.moveGroup(...withQuests(NEW_S, 'faculty-of-anthropology'));
+    store.moveGroup(...withQuests(NEW_S, 'faculty-of-archaeology'));
+    store.moveGroup(...withQuests(NEW_S, 'faculty-of-astronomy'));
+    store.moveGroup(...withQuests(NEW_S, 'faculty-of-medicine'));
 }
 
 function reorganizeRoleQuests(store: ChangeStore): void {
-    const CM = `${QUEST}.class-and-job-quests.crystalline-mean-quests`;
-    store.moveGroup(CM, `${CM}.crystalline-mean-quests`);
-
-    const STUDIUM = `${QUEST}.class-and-job-quests.studium-quests`;
-    store.moveGroup(STUDIUM, `${STUDIUM}.studium-quests`);
-
     const ROLE = `${QUEST}.class-and-job-quests.role-quests`;
     const ROLE_SHB = `${ROLE}.shb`;
     const ROLE_EW = `${ROLE}.ew`;
+
+    store.moveGroup(...withQuests(CAJ, 'role'));
 
     store.moveTasks(ROLE_SHB, `${ROLE}.healer-role-quests-shadowbringers`, [
         68803, 68804, 68805, 68806, 68807, 68808
@@ -221,22 +228,48 @@ function migrateMsq(store: ChangeStore): void {
 }
 
 function migrateSideStoryQuests(store: ChangeStore): void {
-
     const SSQ = `${SIDE_QUESTS}.side-story-quests`
     store.moveGroup(`${SIDE_QUESTS}.side-story`, SSQ);
     store.moveGroup(...withQuests(SSQ, 'delivery-moogle'));
     store.moveGroup(...withQuests(SSQ, 'scholasticate'));
 
     const RoUE = `${SIDE_QUESTS}.records-of-unusual-endeavors`;
-    store.moveGroup(...withQuests(RoUE, 'domain-adventurers-guild'));
-    store.moveGroup(...withQuests(RoUE, 'domain-reconstruction'));
-    store.moveGroup(...withQuests(RoUE, 'ishgardian-restoration-main-quests'));
-    store.moveGroup(...withQuests(RoUE, 'island-sanctuary-quests'));
+    store.moveGroup(...withQuests(RoUE, 'doman-adventurers-guild'));
+    store.moveGroup(...withQuests(RoUE, 'doman-reconstruction'));
+    store.moveGroup(...withQuests(RoUE, 'ishgardian-restoration-main'));
+    store.moveGroup(...withQuests(RoUE, 'island-sanctuary'));
 
     store.moveGroup(
         `${SIDE_QUESTS}.hildibrand-sidequests.hildibrand`,
         `${SIDE_QUESTS}.hildibrand-sidequests.hildibrand-adventures`
     );
+}
+
+function migrateSidequests(store: ChangeStore): void {
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'lominsan'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'gridanian'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'uldahn'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'coerthan'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'mor-dhonan'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'ishgardian'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'abalathian'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'dravanian'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'azys-lla'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'gyr-abanian'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'othardian'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'hingan'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'lakeland'));
+    store.moveGroup(`${SIDE_QUESTS}.kholusia`, `${SIDE_QUESTS}.kholusian-sidequests`);
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'amh-araeng'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'il-mheg'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'raktika'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'tempest'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'sharlayan'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'thavnairian'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'garlean'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'mare-lamentorum'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'elpis'));
+    store.moveGroup(...withSidequests(SIDE_QUESTS, 'ultima-thule'));
 }
 
 function migrateOtherQuests(store: ChangeStore): void {
@@ -285,8 +318,8 @@ function migrateTribalAGAIN(store: ChangeStore): void {
     moveSociety('ixal', [67022, 67023, 67024, 67025, 67026, 67027, 67028, 67029]);
     moveSociety('kobold', [66856, 66857, 66858, 66859, 66860]);
     moveSociety('kojin', [68509, 68510, 68511, 68512, 68513, 68514]);
-    moveSociety('loporitt', [70217, 70218, 70219, 70220, 70221, 70222]);
-    moveSociety('moggle', [67856, 67857, 67858, 67859, 67860, 67861, 67862, 67863]);
+    moveSociety('loporrit', [70217, 70218, 70219, 70220, 70221, 70222]);
+    moveSociety('moogle', [67856, 67857, 67858, 67859, 67860, 67861, 67862, 67863]);
     moveSociety('namazu', [68632, 68633, 68634, 68635, 68636, 68637, 68638]);
     moveSociety('omicron', [70137, 70138, 70139, 70140, 70141, 70142]);
     moveSociety('pixie', [69219, 69220, 69221, 69222, 69223, 69224]);

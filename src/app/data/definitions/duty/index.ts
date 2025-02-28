@@ -64,9 +64,9 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                     path: 'guildhests',
                     subGroups: Duty_Guildhests(translate)
                 },
-                'deep-dungeon',
+                'deep-dungeons',
                 {
-                    path: 'v-and-c-dungeon',
+                    path: 'v-and-c-dungeons',
                     subGroups: [
                         { path: 'sildihn-subterrane', subGroups: ['record'] },
                         { path: 'mount-rokkon', subGroups: ['record'] },
