@@ -20,24 +20,15 @@ export type JSON_GROUP = JSON & {
 
 const COMMON_KEY_PREFIX = '@';
 
-let logTimeout;
-let start, end;
-let offset = 0;
-
 /**
  * Load the group json file at the given path, applying necessary
  * pre-class transformations
  */
-export function loadJson(path: string) {
-    const resourcesRoot = getResourcesRoot();
-    if(!start) start = Date.now();
-
+export function loadJson(key: string) {
     let finalJson: JSON_GROUP = {};
+
     try {
-        const fullPath = [resourcesRoot, path].filter((s) => s).join('/');
-        let ss = Date.now();
-        const json = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, fullPath);
-        offset += Date.now() - ss;
+        const json = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, key);
 
         try {
             finalJson = {
@@ -47,33 +38,14 @@ export function loadJson(path: string) {
             };
         }
         catch(e) {
-            console.error(`Error in ${resourcesRoot}/${path}.json`, e);
+            console.error(`Error processing group: ${key}`, e);
         }
     }
     catch(e) {
-        console.error(`Error in ${resourcesRoot}/${path}.json`, e);
+        console.error(`Error loading group: ${key}`, e);
     }
-
-    end = Date.now();
-    if(logTimeout) clearTimeout(logTimeout);
-    logTimeout = setTimeout(() => {
-        console.log('Total millis to load:', end - start);
-        console.log('Excluding app layer access:', (end - start) - offset);
-    }, 5000);
 
     return finalJson;
-}
-
-/**
- * Get the path prefix based on environment
- */
-function getResourcesRoot() {
-    if(process.env.NODE_ENV === 'production' && process.resourcesPath) {
-        return `${process.resourcesPath}/resources`;
-    }
-    else {
-        return './resources';
-    }
 }
 
 /**

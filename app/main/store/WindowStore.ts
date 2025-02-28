@@ -75,6 +75,7 @@ export class WindowStore {
             autoHideMenuBar: true,
             backgroundColor: '#1e1e1e',
             show: false,
+            // show: true, // toggle for debugging
             webPreferences: {
                 nodeIntegration: true,
                 // Necessary for ElectronService to function

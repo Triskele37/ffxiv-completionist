@@ -11,8 +11,11 @@ type IndexContainer = {
     map: Map<number, Task>;
 };
 
-const createIndex = (baseKey: string, shorthand: string): IndexContainer =>
-    ({ baseKey, shorthand, map: new Map<number, Task>() });
+const createIndex = (baseKey: string, shorthand: string): IndexContainer => ({
+    baseKey: `overall.${baseKey}`,
+    shorthand,
+    map: new Map<number, Task>()
+});
 
 const INDEX: Record<string, IndexContainer> = {
     Achievement: createIndex('character.achievement', 'a'),

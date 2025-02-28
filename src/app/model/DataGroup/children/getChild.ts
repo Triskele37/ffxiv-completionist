@@ -1,3 +1,4 @@
+import { getIndexedTask } from '@data/taskIndexes';
 import { Task } from '@model/Task';
 
 import { DataGroup } from '../';
@@ -15,6 +16,13 @@ export function getChild(group: DataGroup, path: string): DataGroup | Task {
 
     // Separate the path and id
     const segments = path.split('.');
+
+    // See if link is an indexed one first
+    if(segments.length === 2) {
+        const indexedTask = getIndexedTask(segments[0], segments[1]);
+        if(indexedTask) return indexedTask;
+    }
+
     const id = segments[segments.length - 1].match(/^[0-9]+$/) ?
         parseInt(segments.pop(), 10) : null;
 

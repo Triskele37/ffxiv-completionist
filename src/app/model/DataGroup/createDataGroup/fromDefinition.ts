@@ -13,10 +13,10 @@ export function fromDefinition(parent: DataGroup, definition: GroupDefinition): 
                 let subGroup;
 
                 if(typeof subGroupDef === 'string') {
-                    subGroup = fromJson(group, `${definition.path}/${subGroupDef}`);
+                    subGroup = fromJson(group, `${definition.path}.${subGroupDef}`);
                 }
                 else {
-                    subGroupDef.path = `${definition.path}/${subGroupDef.path}`;
+                    subGroupDef.path = `${definition.path}.${subGroupDef.path}`;
                     subGroup = fromDefinition(group, subGroupDef);
                 }
 
