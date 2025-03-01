@@ -12,12 +12,21 @@
             "cNext": ["q.66106"],
             "patch": "4.31"
         },
-        "x65932": {
+        "x65685": {
             "level": 1,
-            "name_en": "No Lady Is an Island",
-            "name_fr": "Par ici la monnaie",
-            "npc_en": "Genevieve",
-            "npc_fr": "Genevieve",
+            "name_en": "Due Diligence",
+            "name_fr": "L'enveloppe de l'informateur",
+            "npc_en": "Wymond",
+            "npc_fr": "Wymond",
+            "patch": "4.31"
+        },
+        "x65686": {
+            "level": 1,
+            "name_en": "Motivational Speaking",
+            "name_fr": "Éléments de persuasion",
+            "npc_en": "Gelther",
+            "npc_fr": "Gelther",
+            "cNext": ["q.65687"],
             "patch": "4.31"
         },
         "x65687": {
@@ -30,14 +39,6 @@
             "cNext": ["q.65689"],
             "patch": "4.31"
         },
-        "x65685": {
-            "level": 1,
-            "name_en": "Due Diligence",
-            "name_fr": "L'enveloppe de l'informateur",
-            "npc_en": "Wymond",
-            "npc_fr": "Wymond",
-            "patch": "4.31"
-        },
         "x65689": {
             "level": 1,
             "name_en": "Unholy Matrimony",
@@ -45,15 +46,6 @@
             "npc_en": "Hihito",
             "npc_fr": "Hihito",
             "cPrev": ["q.65687"],
-            "patch": "4.31"
-        },
-        "x65686": {
-            "level": 1,
-            "name_en": "Motivational Speaking",
-            "name_fr": "Éléments de persuasion",
-            "npc_en": "Gelther",
-            "npc_fr": "Gelther",
-            "cNext": ["q.65687"],
             "patch": "4.31"
         },
         "x65701": {
@@ -70,6 +62,22 @@
             "name_fr": "Bienvenue dans le monde de la mode",
             "npc_en": "Juliana",
             "npc_fr": "Juliana",
+            "patch": "4.31"
+        },
+        "x65932": {
+            "level": 1,
+            "name_en": "No Lady Is an Island",
+            "name_fr": "Par ici la monnaie",
+            "npc_en": "Genevieve",
+            "npc_fr": "Genevieve",
+            "patch": "4.31"
+        },
+        "x65928": {
+            "level": 2,
+            "name_en": "Decisions, Decisions",
+            "name_fr": "La perfection au féminin",
+            "npc_en": "Bitter Snow",
+            "npc_fr": "Bitter Snow",
             "patch": "4.31"
         },
         "x65929": {
@@ -98,12 +106,12 @@
             "cPrev": ["q.65930"],
             "patch": "4.31"
         },
-        "x65928": {
-            "level": 2,
-            "name_en": "Decisions, Decisions",
-            "name_fr": "La perfection au féminin",
-            "npc_en": "Bitter Snow",
-            "npc_fr": "Bitter Snow",
+        "x65699": {
+            "level": 3,
+            "name_en": "Tougher than Leather",
+            "name_fr": "Cuir pour durs à cuire",
+            "npc_en": "Jajakuta",
+            "npc_fr": "Jajakuta",
             "patch": "4.31"
         },
         "x66107": {
@@ -114,14 +122,6 @@
             "npc_fr": "Wolkan",
             "patch": "4.31"
         },
-        "x65699": {
-            "level": 3,
-            "name_en": "Tougher than Leather",
-            "name_fr": "Cuir pour durs à cuire",
-            "npc_en": "Jajakuta",
-            "npc_fr": "Jajakuta",
-            "patch": "4.31"
-        },
         "x66108": {
             "level": 3,
             "name_en": "In the Name of Science",
@@ -129,6 +129,15 @@
             "npc_en": "Erasmus",
             "npc_fr": "Erasmus",
             "patch": "4.31"
+        },
+        "x70723": {
+            "cPrev": ["q.66045"],
+            "level": 1,
+            "name_en": "Bottled Fantasy",
+            "name_fr": "Une décoction miraculeuse",
+            "npc_en": "Medicine Merchant",
+            "npc_fr": "Apothicaire Suspect",
+            "patch": "7.0"
         },
         "x65925": {
             "level": 4,
@@ -229,13 +238,14 @@
             "cPrev": ["q.65808"],
             "patch": "4.31"
         },
-        "x66459": {
+        "x66455": {
             "level": 38,
-            "name_en": "A Tale of Three Cities",
-            "name_fr": "Graissage de patte",
+            "name_en": "Hold for Customer Support",
+            "name_fr": "Le cœur du problème",
             "npc_en": "Syntgoht",
             "npc_fr": "Syntgoht",
-            "cPrev": ["q.66458"],
+            "cPrev": ["q.66454"],
+            "cNext": ["q.66456"],
             "patch": "4.31"
         },
         "x66457": {
@@ -247,14 +257,13 @@
             "npc_fr": "Sibold",
             "patch": "4.31"
         },
-        "x66455": {
+        "x66459": {
             "level": 38,
-            "name_en": "Hold for Customer Support",
-            "name_fr": "Le cœur du problème",
+            "name_en": "A Tale of Three Cities",
+            "name_fr": "Graissage de patte",
             "npc_en": "Syntgoht",
             "npc_fr": "Syntgoht",
-            "cPrev": ["q.66454"],
-            "cNext": ["q.66456"],
+            "cPrev": ["q.66458"],
             "patch": "4.31"
         },
         "x67060": {
@@ -267,15 +276,6 @@
             "cPrev": ["q.66060"],
             "cNext": ["q.67093"],
             "patch": "4.31"
-        },
-        "x70723": {
-            "cPrev": ["q.66045"],
-            "level": 1,
-            "name_en": "Bottled Fantasy",
-            "name_fr": "Une décoction miraculeuse",
-            "npc_en": "Medicine Merchant",
-            "npc_fr": "Apothicaire Suspect",
-            "patch": "7.0"
         }
     }
 }

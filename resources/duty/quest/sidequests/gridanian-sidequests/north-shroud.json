@@ -12,6 +12,14 @@
             "cNext": ["q.65707"],
             "patch": "4.31"
         },
+        "x65709": {
+            "level": 5,
+            "name_en": "The Nose Knows",
+            "name_fr": "Une livraison de boules puantes",
+            "npc_en": "Vionne",
+            "npc_fr": "Vionne",
+            "patch": "4.31"
+        },
         "x65731": {
             "level": 5,
             "name_en": "A Glim Harvest",
@@ -20,12 +28,14 @@
             "npc_fr": "Linyeve",
             "patch": "4.31"
         },
-        "x65709": {
-            "level": 5,
-            "name_en": "The Nose Knows",
-            "name_fr": "Une livraison de boules puantes",
-            "npc_en": "Vionne",
-            "npc_fr": "Vionne",
+        "x65639": {
+            "level": 6,
+            "name_en": "Death to the Bean Thieves",
+            "name_fr": "La main dans le sac",
+            "npc_en": "Q'djawana",
+            "npc_fr": "Q'djawana",
+            "cPrev": ["q.65735"],
+            "cNext": ["q.65634"],
             "patch": "4.31"
         },
         "x65707": {
@@ -47,16 +57,6 @@
             "cNext": ["q.65639"],
             "patch": "4.31"
         },
-        "x65639": {
-            "level": 6,
-            "name_en": "Death to the Bean Thieves",
-            "name_fr": "La main dans le sac",
-            "npc_en": "Q'djawana",
-            "npc_fr": "Q'djawana",
-            "cPrev": ["q.65735"],
-            "cNext": ["q.65634"],
-            "patch": "4.31"
-        },
         "x65631": {
             "level": 7,
             "name_en": "Hematophagic Harassment",
@@ -75,16 +75,6 @@
             "cPrev": ["q.65707"],
             "patch": "4.31"
         },
-        "x65634": {
-            "level": 8,
-            "name_en": "Drink Your Beans, Dear",
-            "name_fr": "Faut pas gâcher",
-            "npc_en": "Dametta",
-            "npc_fr": "Dametta",
-            "cPrev": ["q.65639"],
-            "cNext": ["q.65635"],
-            "patch": "4.31"
-        },
         "x65633": {
             "level": 8,
             "name_en": "Harriers of the Hedgetree",
@@ -92,6 +82,16 @@
             "npc_en": "Eadbert",
             "npc_fr": "Eadbert",
             "cPrev": ["q.65631"],
+            "cNext": ["q.65635"],
+            "patch": "4.31"
+        },
+        "x65634": {
+            "level": 8,
+            "name_en": "Drink Your Beans, Dear",
+            "name_fr": "Faut pas gâcher",
+            "npc_en": "Dametta",
+            "npc_fr": "Dametta",
+            "cPrev": ["q.65639"],
             "cNext": ["q.65635"],
             "patch": "4.31"
         },

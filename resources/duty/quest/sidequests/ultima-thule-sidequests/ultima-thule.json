@@ -3,6 +3,15 @@
     "groupName_en": "Ultima Thule",
     "groupName_fr": "Ultima Thulé",
     "tasks": {
+        "x69875": {
+            "level": 80,
+            "name_en": "The Sound of Fear",
+            "name_fr": "Métal hurlant",
+            "npc_en": "Overwrought Dragon",
+            "npc_fr": "Dragon Exténué",
+            "cPrev": ["q.69990"],
+            "patch": "6.0"
+        },
         "x69873": {
             "level": 80,
             "name_en": "Futures Lost",
@@ -21,15 +30,6 @@
             "cPrev": ["q.70000"],
             "patch": "6.0"
         },
-        "x69875": {
-            "level": 80,
-            "name_en": "The Sound of Fear",
-            "name_fr": "Métal hurlant",
-            "npc_en": "Overwrought Dragon",
-            "npc_fr": "Dragon Exténué",
-            "cPrev": ["q.69990"],
-            "patch": "6.0"
-        },
         "x69876": {
             "level": 80,
             "name_en": "Stars Like Gems",
@@ -46,6 +46,33 @@
             "npc_en": "Nesh Ohr",
             "npc_fr": "Nesh Ohr",
             "cPrev": ["q.69990"],
+            "patch": "6.0"
+        },
+        "x69884": {
+            "level": 80,
+            "name_en": "Left Alive",
+            "name_fr": "Nous voulions partir",
+            "npc_en": "Sehth Toskh",
+            "npc_fr": "Sehth Toskh",
+            "cPrev": ["q.70000"],
+            "patch": "6.0"
+        },
+        "x69885": {
+            "level": 80,
+            "name_en": "Loud and Proud",
+            "name_fr": "Rugissements purificateurs",
+            "npc_en": "Old Wyrm",
+            "npc_fr": "Vieux Dragon",
+            "cPrev": ["q.70000"],
+            "patch": "6.0"
+        },
+        "x69886": {
+            "level": 80,
+            "name_en": "A Parent's Love",
+            "name_fr": "Un amour de dragon",
+            "npc_en": "Unmourning Mother",
+            "npc_fr": "Mère Dragon",
+            "cPrev": ["q.70000"],
             "patch": "6.0"
         },
         "x69878": {
@@ -103,33 +130,6 @@
             "name_fr": "Vers la réincarnation",
             "npc_en": "Yearning Ea",
             "npc_fr": "Éa Impatient",
-            "cPrev": ["q.70000"],
-            "patch": "6.0"
-        },
-        "x69884": {
-            "level": 80,
-            "name_en": "Left Alive",
-            "name_fr": "Nous voulions partir",
-            "npc_en": "Sehth Toskh",
-            "npc_fr": "Sehth Toskh",
-            "cPrev": ["q.70000"],
-            "patch": "6.0"
-        },
-        "x69885": {
-            "level": 80,
-            "name_en": "Loud and Proud",
-            "name_fr": "Rugissements purificateurs",
-            "npc_en": "Old Wyrm",
-            "npc_fr": "Vieux Dragon",
-            "cPrev": ["q.70000"],
-            "patch": "6.0"
-        },
-        "x69886": {
-            "level": 80,
-            "name_en": "A Parent's Love",
-            "name_fr": "Un amour de dragon",
-            "npc_en": "Unmourning Mother",
-            "npc_fr": "Mère Dragon",
             "cPrev": ["q.70000"],
             "patch": "6.0"
         },

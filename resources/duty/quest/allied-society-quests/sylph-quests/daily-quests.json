@@ -3,20 +3,20 @@
     "groupName_en": "Daily Quests",
     "groupName_fr": "Quêtes quotidiennes",
     "tasks": {
-        "x66808": {
-            "level": 45,
-            "name_en": "Shocking Developments",
-            "name_fr": "Foudre nocive",
-            "npc_en": "Ponnixia",
-            "npc_fr": "Ponnixia",
-            "reputation_en": "Recognized",
-            "reputation_fr": "Reconnu",
-            "patch": "4.31"
-        },
         "x66793": {
             "level": 42,
             "name_en": "Deck the Hut",
             "name_fr": "L'enfer est pavé de bonnes intentions",
+            "npc_en": "Tonaxia",
+            "npc_fr": "Tonaxia",
+            "reputation_en": "Neutral",
+            "reputation_fr": "Neutre",
+            "patch": "4.31"
+        },
+        "x66794": {
+            "level": 42,
+            "name_en": "Malodorous Mischief",
+            "name_fr": "Facéties méphitiques",
             "npc_en": "Tonaxia",
             "npc_fr": "Tonaxia",
             "reputation_en": "Neutral",
@@ -103,16 +103,6 @@
             "reputation_fr": "Neutre",
             "patch": "4.31"
         },
-        "x66794": {
-            "level": 42,
-            "name_en": "Malodorous Mischief",
-            "name_fr": "Facéties méphitiques",
-            "npc_en": "Tonaxia",
-            "npc_fr": "Tonaxia",
-            "reputation_en": "Neutral",
-            "reputation_fr": "Neutre",
-            "patch": "4.31"
-        },
         "x66803": {
             "level": 45,
             "name_en": "With One Stone",
@@ -157,6 +147,16 @@
             "level": 45,
             "name_en": "Something to Sneeze At",
             "name_fr": "Le pont de Chantalouette",
+            "npc_en": "Ponnixia",
+            "npc_fr": "Ponnixia",
+            "reputation_en": "Recognized",
+            "reputation_fr": "Reconnu",
+            "patch": "4.31"
+        },
+        "x66808": {
+            "level": 45,
+            "name_en": "Shocking Developments",
+            "name_fr": "Foudre nocive",
             "npc_en": "Ponnixia",
             "npc_fr": "Ponnixia",
             "reputation_en": "Recognized",

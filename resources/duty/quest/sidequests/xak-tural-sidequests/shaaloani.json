@@ -30,15 +30,6 @@
             "npc_fr": "Kipeshpe",
             "patch": "7.0"
         },
-        "x70658": {
-            "cPrev": ["q.70459"],
-            "level": 90,
-            "name_en": "Fruitful Endeavors",
-            "name_fr": "Un ingrédient de choix",
-            "npc_en": "Hhesayo",
-            "npc_fr": "Hhesayo",
-            "patch": "7.0"
-        },
         "x70659": {
             "cPrev": ["q.70448"],
             "level": 90,
@@ -46,15 +37,6 @@
             "name_fr": "Il était une fois... les rroneeks",
             "npc_en": "Pyaaho",
             "npc_fr": "Pyaaho",
-            "patch": "7.0"
-        },
-        "x70660": {
-            "cPrev": ["q.70459"],
-            "level": 90,
-            "name_en": "Waiting One's Turn",
-            "name_fr": "Le Seuil du continent",
-            "npc_en": "Hhopu",
-            "npc_fr": "Hhopu",
             "patch": "7.0"
         },
         "x70661": {
@@ -73,24 +55,6 @@
             "name_fr": "Inspection surprise",
             "npc_en": "Kepayuwte",
             "npc_fr": "Kepayuwte",
-            "patch": "7.0"
-        },
-        "x70663": {
-            "cPrev": ["q.70459"],
-            "level": 90,
-            "name_en": "Surprising Source of Fiber",
-            "name_fr": "Étude de marché",
-            "npc_en": "Refinery Engineer",
-            "npc_fr": "Responsable De La Raffinerie",
-            "patch": "7.0"
-        },
-        "x70664": {
-            "cPrev": ["q.70459"],
-            "level": 90,
-            "name_en": "A Grave Matter",
-            "name_fr": "Un hommage singulier",
-            "npc_en": "Melancholic Worker",
-            "npc_fr": "Travailleur Tonawawta",
             "patch": "7.0"
         },
         "x70665": {
@@ -120,24 +84,6 @@
             "npc_fr": "Jeune Fille Paniquée",
             "patch": "7.0"
         },
-        "x70668": {
-            "cPrev": ["q.70459"],
-            "level": 90,
-            "name_en": "Death by Popoto",
-            "name_fr": "Aux grands maux les grands remèdes",
-            "npc_en": "Troubled Civilian",
-            "npc_fr": "Tonawawta Inquiet",
-            "patch": "7.0"
-        },
-        "x70669": {
-            "cPrev": ["q.70459"],
-            "level": 90,
-            "name_en": "A Tool Tale",
-            "name_fr": "Un outil indispensable",
-            "npc_en": "Amiable Worker",
-            "npc_fr": "Travailleur Perplexe",
-            "patch": "7.0"
-        },
         "x70670": {
             "cNext": ["q.70690"],
             "cPrev": ["q.70452", "q.70635"],
@@ -146,51 +92,6 @@
             "name_fr": "Sire Épidemaïs lutte contre la fatigue",
             "npc_en": "Cornservant",
             "npc_fr": "Sire Épidemaïs",
-            "patch": "7.0"
-        },
-        "x70671": {
-            "cPrev": ["q.70454"],
-            "level": 90,
-            "name_en": "Snakes on a Train(line)",
-            "name_fr": "Attention au gros serpent",
-            "npc_en": "Railroad Inspector",
-            "npc_fr": "Inspecteur De La Voie Ferrée",
-            "patch": "7.0"
-        },
-        "x70672": {
-            "cPrev": ["q.70454"],
-            "level": 90,
-            "name_en": "It's a Terrible Ring to Lose",
-            "name_fr": "Les bagues jumelles",
-            "npc_en": "Impetuous Youth",
-            "npc_fr": "Hhetsarro Perdu",
-            "patch": "7.0"
-        },
-        "x70673": {
-            "cPrev": ["q.70454"],
-            "level": 90,
-            "name_en": "A Mount with a View",
-            "name_fr": "La colline hors du temps",
-            "npc_en": "Railroad Foreman",
-            "npc_fr": "Contremaître Du Chemin De Fer",
-            "patch": "7.0"
-        },
-        "x70674": {
-            "cPrev": ["q.70454"],
-            "level": 90,
-            "name_en": "Rroneek Seeker",
-            "name_fr": "Petit rroneek perdu",
-            "npc_en": "Concerned Herder",
-            "npc_fr": "Berger Hhetsarro",
-            "patch": "7.0"
-        },
-        "x70675": {
-            "cPrev": ["q.70454"],
-            "level": 90,
-            "name_en": "The Horns That Bind Us",
-            "name_fr": "Entre tradition et corne décorée",
-            "npc_en": "Stern Hhetsarro",
-            "npc_fr": "Hhetsarro Austère",
             "patch": "7.0"
         },
         "x70676": {
@@ -231,6 +132,105 @@
             "name_fr": "L'homme qui faisait danser les gils",
             "npc_en": "Zitekkwa",
             "npc_fr": "Zitekkwa",
+            "patch": "7.0"
+        },
+        "x70671": {
+            "cPrev": ["q.70454"],
+            "level": 90,
+            "name_en": "Snakes on a Train(line)",
+            "name_fr": "Attention au gros serpent",
+            "npc_en": "Railroad Inspector",
+            "npc_fr": "Inspecteur de la Voie Ferrée",
+            "patch": "7.0"
+        },
+        "x70673": {
+            "cPrev": ["q.70454"],
+            "level": 90,
+            "name_en": "A Mount with a View",
+            "name_fr": "La colline hors du temps",
+            "npc_en": "Railroad Foreman",
+            "npc_fr": "Contremaître Du Chemin De Fer",
+            "patch": "7.0"
+        },
+        "x70672": {
+            "cPrev": ["q.70454"],
+            "level": 90,
+            "name_en": "It's a Terrible Ring to Lose",
+            "name_fr": "Les bagues jumelles",
+            "npc_en": "Impetuous Youth",
+            "npc_fr": "Hhetsarro Perdu",
+            "patch": "7.0"
+        },
+        "x70674": {
+            "cPrev": ["q.70454"],
+            "level": 90,
+            "name_en": "Rroneek Seeker",
+            "name_fr": "Petit rroneek perdu",
+            "npc_en": "Concerned Herder",
+            "npc_fr": "Berger Hhetsarro",
+            "patch": "7.0"
+        },
+        "x70675": {
+            "cPrev": ["q.70454"],
+            "level": 90,
+            "name_en": "The Horns That Bind Us",
+            "name_fr": "Entre tradition et corne décorée",
+            "npc_en": "Stern Hhetsarro",
+            "npc_fr": "Hhetsarro Austère",
+            "patch": "7.0"
+        },
+        "x70658": {
+            "cPrev": ["q.70459"],
+            "level": 90,
+            "name_en": "Fruitful Endeavors",
+            "name_fr": "Un ingrédient de choix",
+            "npc_en": "Hhesayo",
+            "npc_fr": "Hhesayo",
+            "patch": "7.0"
+        },
+        "x70668": {
+            "cPrev": ["q.70459"],
+            "level": 90,
+            "name_en": "Death by Popoto",
+            "name_fr": "Aux grands maux les grands remèdes",
+            "npc_en": "Troubled Civilian",
+            "npc_fr": "Tonawawta Inquiet",
+            "patch": "7.0"
+        },
+        "x70660": {
+            "cPrev": ["q.70459"],
+            "level": 90,
+            "name_en": "Waiting One's Turn",
+            "name_fr": "Le Seuil du continent",
+            "npc_en": "Hhopu",
+            "npc_fr": "Hhopu",
+            "patch": "7.0"
+        },
+        "x70663": {
+            "cPrev": ["q.70459"],
+            "level": 90,
+            "name_en": "Surprising Source of Fiber",
+            "name_fr": "Étude de marché",
+            "npc_en": "Refinery Engineer",
+            "npc_fr": "Responsable de la Raffinerie",
+            "patch": "7.0"
+        },
+        "x70664": {
+            "cPrev": ["q.70459"],
+            "level": 90,
+            "name_en": "A Grave Matter",
+            "name_fr": "Un hommage singulier",
+            "npc_en": "Melancholic Worker",
+            "npc_fr": "Travailleur Tonawawta",
+            "patch": "7.0"
+        },
+        "x70669": {
+            "cPrev": ["q.70459"],
+            "level": 90,
+            "name_en": "A Tool Tale",
+            "name_fr": "Un outil indispensable",
+            "npc_en": "Amiable Worker",
+            "npc_fr": "Travailleur Perplexe",
             "patch": "7.0"
         },
         "x70680": {

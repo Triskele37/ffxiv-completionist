@@ -111,6 +111,28 @@
             "cNext": ["q.69615"],
             "patch": "5.31"
         },
+        "x69615": {
+            "level": 70,
+            "name_en": "You Can Count on It",
+            "name_fr": "Le comte de Durendaire et ses commandes spéciales",
+            "npc_en": "Francel",
+            "npc_fr": "Francel",
+            "unlock_en": "Custom Deliveries: Charlemend",
+            "unlock_fr": "Custom Deliveries: Charlemend",
+            "cPrev": ["q.69538", "q.69496", "q.67634"],
+            "cNext": ["q.69616"],
+            "cSiblings": ["a.2835"],
+            "patch": "5.5"
+        },
+        "x69616": {
+            "level": 70,
+            "name_en": "Those Who Serve",
+            "name_fr": "Un futur main dans la main",
+            "npc_en": "Maurilette",
+            "npc_fr": "Maurilette",
+            "cPrev": ["q.69615"],
+            "patch": "5.5"
+        },
         "x69375": {
             "level": 60,
             "name_en": "Shadow over the Orphanage",
@@ -155,7 +177,7 @@
             "name_en": "Mislaid Plans",
             "name_fr": "Un projet en acier trempé",
             "npc_en": "Skysteel Engineer",
-            "npc_fr": "Ingénieur De La Manufacture",
+            "npc_fr": "Ingénieur de la Manufacture",
             "cPrev": ["q.69208"],
             "cNext": ["q.69385"],
             "patch": "5.25"
@@ -230,28 +252,6 @@
             "cPrev": ["q.69519"],
             "cSiblings": ["a.2798"],
             "patch": "5.45"
-        },
-        "x69615": {
-            "level": 70,
-            "name_en": "You Can Count on It",
-            "name_fr": "Le comte de Durendaire et ses commandes spéciales",
-            "npc_en": "Francel",
-            "npc_fr": "Francel",
-            "unlock_en": "Custom Deliveries: Charlemend",
-            "unlock_fr": "Custom Deliveries: Charlemend",
-            "cPrev": ["q.69538", "q.69496", "q.67634"],
-            "cNext": ["q.69616"],
-            "cSiblings": ["a.2835"],
-            "patch": "5.5"
-        },
-        "x69616": {
-            "level": 70,
-            "name_en": "Those Who Serve",
-            "name_fr": "Un futur main dans la main",
-            "npc_en": "Maurilette",
-            "npc_fr": "Maurilette",
-            "cPrev": ["q.69615"],
-            "patch": "5.5"
         }
     }
 }

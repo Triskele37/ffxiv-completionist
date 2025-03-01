@@ -283,6 +283,16 @@
             "cNext": ["q.69628"],
             "patch": "5.55"
         },
+        "x69628": {
+            "level": 80,
+            "name_en": "Where Eagles Roost",
+            "name_fr": "La poussée des aigles",
+            "npc_en": "Dmitar",
+            "npc_fr": "Dmitar",
+            "cPrev": ["q.69621"],
+            "cNext": ["q.69622"],
+            "patch": "5.55"
+        },
         "x69622": {
             "level": 80,
             "name_en": "Reaching Out",
@@ -291,6 +301,16 @@
             "npc_fr": "Mikoto",
             "cPrev": ["q.69628"],
             "cNext": ["q.69629"],
+            "patch": "5.55"
+        },
+        "x69629": {
+            "level": 80,
+            "name_en": "In Their Shadow",
+            "name_fr": "Le piqué des aigles",
+            "npc_en": "Dmitar",
+            "npc_fr": "Dmitar",
+            "cPrev": ["q.69622"],
+            "cNext": ["q.69623"],
             "patch": "5.55"
         },
         "x69623": {
@@ -312,26 +332,6 @@
             "cPrev": ["q.69623"],
             "cNext": ["q.69631", "q.69630"],
             "cSiblings": ["a.2884"],
-            "patch": "5.55"
-        },
-        "x69628": {
-            "level": 80,
-            "name_en": "Where Eagles Roost",
-            "name_fr": "La poussée des aigles",
-            "npc_en": "Dmitar",
-            "npc_fr": "Dmitar",
-            "cPrev": ["q.69621"],
-            "cNext": ["q.69622"],
-            "patch": "5.55"
-        },
-        "x69629": {
-            "level": 80,
-            "name_en": "In Their Shadow",
-            "name_fr": "Le piqué des aigles",
-            "npc_en": "Dmitar",
-            "npc_fr": "Dmitar",
-            "cPrev": ["q.69622"],
-            "cNext": ["q.69623"],
             "patch": "5.55"
         },
         "x69631": {

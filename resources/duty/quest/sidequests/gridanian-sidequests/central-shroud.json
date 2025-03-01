@@ -28,15 +28,6 @@
             "npc_fr": "Maurelin",
             "patch": "4.31"
         },
-        "x65666": {
-            "level": 8,
-            "name_en": "Soil Despoilers",
-            "name_fr": "Morfal Kombat",
-            "npc_en": "Gabineaux",
-            "npc_fr": "Gabineaux",
-            "cPrev": ["q.65663"],
-            "patch": "4.31"
-        },
         "x65663": {
             "level": 8,
             "name_en": "Parasite Cleave",
@@ -47,21 +38,13 @@
             "cNext": ["q.65666"],
             "patch": "4.31"
         },
-        "x65914": {
-            "level": 10,
-            "name_en": "Look, but Won't Touch",
-            "name_fr": "Oolophobie",
-            "npc_en": "Roseline",
-            "npc_fr": "Roseline",
-            "cPrev": ["q.65912"],
-            "patch": "4.31"
-        },
-        "x66748": {
-            "level": 10,
-            "name_en": "Where the Heart Is (The Lavender Beds)",
-            "name_fr": "La maison de mes rêves à Lavandière",
-            "npc_en": "Margeria",
-            "npc_fr": "Margeria",
+        "x65666": {
+            "level": 8,
+            "name_en": "Soil Despoilers",
+            "name_fr": "Morfal Kombat",
+            "npc_en": "Gabineaux",
+            "npc_fr": "Gabineaux",
+            "cPrev": ["q.65663"],
             "patch": "4.31"
         },
         "x65596": {
@@ -83,13 +66,21 @@
             "cNext": ["q.65693"],
             "patch": "4.31"
         },
-        "x65922": {
-            "level": 11,
-            "name_en": "Walking the Planks",
-            "name_fr": "Le transporteur",
-            "npc_en": "Waltheof",
-            "npc_fr": "Waltheof",
-            "cNext": ["q.65694"],
+        "x65914": {
+            "level": 10,
+            "name_en": "Look, but Won't Touch",
+            "name_fr": "Oolophobie",
+            "npc_en": "Roseline",
+            "npc_fr": "Roseline",
+            "cPrev": ["q.65912"],
+            "patch": "4.31"
+        },
+        "x66748": {
+            "level": 10,
+            "name_en": "Where the Heart Is (The Lavender Beds)",
+            "name_fr": "La maison de mes rêves à Lavandière",
+            "npc_en": "Margeria",
+            "npc_fr": "Margeria",
             "patch": "4.31"
         },
         "x65693": {
@@ -99,6 +90,24 @@
             "npc_en": "Luquelot",
             "npc_fr": "Luquelot",
             "cPrev": ["q.65911"],
+            "patch": "4.31"
+        },
+        "x65922": {
+            "level": 11,
+            "name_en": "Walking the Planks",
+            "name_fr": "Le transporteur",
+            "npc_en": "Waltheof",
+            "npc_fr": "Waltheof",
+            "cNext": ["q.65694"],
+            "patch": "4.31"
+        },
+        "x65694": {
+            "level": 12,
+            "name_en": "Sting in a Bottle",
+            "name_fr": "Éliminer l'essaim",
+            "npc_en": "Waltheof",
+            "npc_fr": "Waltheof",
+            "cPrev": ["q.65922"],
             "patch": "4.31"
         },
         "x65919": {
@@ -116,15 +125,6 @@
             "name_fr": "Un pêcheur sachant pêcher...",
             "npc_en": "Berthe",
             "npc_fr": "Berthe",
-            "patch": "4.31"
-        },
-        "x65694": {
-            "level": 12,
-            "name_en": "Sting in a Bottle",
-            "name_fr": "Éliminer l'essaim",
-            "npc_en": "Waltheof",
-            "npc_fr": "Waltheof",
-            "cPrev": ["q.65922"],
             "patch": "4.31"
         },
         "x65696": {
@@ -145,6 +145,15 @@
             "unlock_en": "Chocobo Racing",
             "cPrev": ["q.65972"],
             "cNext": ["q.66112"],
+            "patch": "4.31"
+        },
+        "x66340": {
+            "level": 29,
+            "name_en": "Fungal Frolic",
+            "name_fr": "Champignons champêtres",
+            "npc_en": "Marcette",
+            "npc_fr": "Marcette",
+            "cNext": ["q.66341"],
             "patch": "4.31"
         },
         "x66341": {
@@ -174,15 +183,6 @@
             "npc_fr": "Marcette",
             "cPrev": ["q.66341"],
             "cNext": ["q.67021"],
-            "patch": "4.31"
-        },
-        "x66340": {
-            "level": 29,
-            "name_en": "Fungal Frolic",
-            "name_fr": "Champignons champêtres",
-            "npc_en": "Marcette",
-            "npc_fr": "Marcette",
-            "cNext": ["q.66341"],
             "patch": "4.31"
         },
         "x67096": {

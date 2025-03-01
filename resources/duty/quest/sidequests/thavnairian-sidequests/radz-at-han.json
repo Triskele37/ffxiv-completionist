@@ -3,15 +3,6 @@
     "groupName_en": "Radz-at-Han",
     "groupName_fr": "Radz-at-Han",
     "tasks": {
-        "x69709": {
-            "level": 90,
-            "name_en": "A Place to Train",
-            "name_fr": "Rayonner toujours plus fort",
-            "npc_en": "Hardy-looking Radiant",
-            "npc_fr": "Soldat Costaud De L'Ost Rayonnant",
-            "cPrev": ["q.70000", "q.67654"],
-            "patch": "6.0"
-        },
         "x69805": {
             "level": 80,
             "name_en": "A Bond Eternal",
@@ -73,6 +64,15 @@
             "npc_en": "Radiant Host Captain",
             "npc_fr": "Gardienne De L'Ost Rayonnant",
             "cPrev": ["q.69954"],
+            "patch": "6.0"
+        },
+        "x69709": {
+            "level": 90,
+            "name_en": "A Place to Train",
+            "name_fr": "Rayonner toujours plus fort",
+            "npc_en": "Hardy-looking Radiant",
+            "npc_fr": "Soldat Costaud De L'Ost Rayonnant",
+            "cPrev": ["q.70000", "q.67654"],
             "patch": "6.0"
         }
     }

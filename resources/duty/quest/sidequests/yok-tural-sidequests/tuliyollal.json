@@ -3,55 +3,6 @@
     "groupName_en": "Tuliyollal",
     "groupName_fr": "Tuliyollal",
     "tasks": {
-        "x70545": {
-            "cNext": ["q.70546"],
-            "cPrev": ["q.67658", "q.70400"],
-            "level": 90,
-            "name_en": "A New Dawn, a New Hunt",
-            "name_fr": "La coopérative turalienne",
-            "npc_en": "Wing Of Protection Scout",
-            "npc_fr": "Mamool Ja Du Ministère De La Force Du Tuliyollal",
-            "patch": "7.0"
-        },
-        "x70546": {
-            "cNext": ["q.70547"],
-            "cPrev": ["q.70545"],
-            "level": 94,
-            "name_en": "Why We Hunt",
-            "name_fr": "Des chasseurs ancestraux",
-            "npc_en": "Bol Ogaw",
-            "npc_fr": "Bol Ogaw",
-            "patch": "7.0"
-        },
-        "x70547": {
-            "cNext": ["q.70548"],
-            "cPrev": ["q.70546"],
-            "level": 99,
-            "name_en": "Hunting the Hunter",
-            "name_fr": "La chasseuse de Solution Neuf",
-            "npc_en": "Bol Ogaw",
-            "npc_fr": "Bol Ogaw",
-            "patch": "7.0"
-        },
-        "x70548": {
-            "cPrev": ["q.70547"],
-            "level": 100,
-            "name_en": "The Hunt Goes On",
-            "name_fr": "Chasser pour vivre, vivre pour la chasse",
-            "npc_en": "Bol Ogaw",
-            "npc_fr": "Bol Ogaw",
-            "patch": "7.0"
-        },
-        "x70549": {
-            "cPrev": ["q.70495"],
-            "level": 100,
-            "name_en": "It Belongs in a Museum",
-            "name_fr": "Une exploration épineuse",
-            "npc_en": "Zeycihan",
-            "npc_fr": "Zeycihan",
-            "unlock": "d.834",
-            "patch": "7.0"
-        },
         "x70553": {
             "cPrev": ["q.70400"],
             "level": 90,
@@ -168,6 +119,55 @@
             "name_fr": "Une guilde au Tural?",
             "npc_en": "Cullaal Ja",
             "npc_fr": "Cullaal Ja",
+            "patch": "7.0"
+        },
+        "x70545": {
+            "cNext": ["q.70546"],
+            "cPrev": ["q.67658", "q.70400"],
+            "level": 90,
+            "name_en": "A New Dawn, a New Hunt",
+            "name_fr": "La coopérative turalienne",
+            "npc_en": "Wing of Protection Scout",
+            "npc_fr": "Mamool Ja Du Ministère de la Force Du Tuliyollal",
+            "patch": "7.0"
+        },
+        "x70546": {
+            "cNext": ["q.70547"],
+            "cPrev": ["q.70545"],
+            "level": 94,
+            "name_en": "Why We Hunt",
+            "name_fr": "Des chasseurs ancestraux",
+            "npc_en": "Bol Ogaw",
+            "npc_fr": "Bol Ogaw",
+            "patch": "7.0"
+        },
+        "x70547": {
+            "cNext": ["q.70548"],
+            "cPrev": ["q.70546"],
+            "level": 99,
+            "name_en": "Hunting the Hunter",
+            "name_fr": "La chasseuse de Solution Neuf",
+            "npc_en": "Bol Ogaw",
+            "npc_fr": "Bol Ogaw",
+            "patch": "7.0"
+        },
+        "x70548": {
+            "cPrev": ["q.70547"],
+            "level": 100,
+            "name_en": "The Hunt Goes On",
+            "name_fr": "Chasser pour vivre, vivre pour la chasse",
+            "npc_en": "Bol Ogaw",
+            "npc_fr": "Bol Ogaw",
+            "patch": "7.0"
+        },
+        "x70549": {
+            "cPrev": ["q.70495"],
+            "level": 100,
+            "name_en": "It Belongs in a Museum",
+            "name_fr": "Une exploration épineuse",
+            "npc_en": "Zeycihan",
+            "npc_fr": "Zeycihan",
+            "unlock": "d.834",
             "patch": "7.0"
         },
         "x70775": {

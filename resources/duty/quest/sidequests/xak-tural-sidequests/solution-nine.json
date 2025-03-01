@@ -3,25 +3,6 @@
     "groupName_en": "Solution Nine",
     "groupName_fr": "Solution Neuf",
     "tasks": {
-        "x70541": {
-            "cPrev": ["q.70495", "q.67654"],
-            "level": 100,
-            "name_en": "Trial by Spire",
-            "name_fr": "L'accès à la tour des Épreuves",
-            "npc_en": "Eccentric Researcher",
-            "npc_fr": "Chercheuse Excentrique",
-            "patch": "7.0"
-        },
-        "x70550": {
-            "cPrev": ["q.70495"],
-            "level": 100,
-            "name_en": "Something Stray in the Neighborhood",
-            "name_fr": "Le parc des cauchemars",
-            "npc_en": "Nostalgia",
-            "npc_fr": "Nostalgia",
-            "unlock": "d.981",
-            "patch": "7.0"
-        },
         "x70700": {
             "cPrev": ["q.70473"],
             "level": 90,
@@ -110,6 +91,25 @@
             "name_fr": "Dernière étape pour sire Épidemaïs",
             "npc_en": "Cornservant",
             "npc_fr": "Sire Épidemaïs",
+            "patch": "7.0"
+        },
+        "x70541": {
+            "cPrev": ["q.70495", "q.67654"],
+            "level": 100,
+            "name_en": "Trial by Spire",
+            "name_fr": "L'accès à la tour des Épreuves",
+            "npc_en": "Eccentric Researcher",
+            "npc_fr": "Chercheuse Excentrique",
+            "patch": "7.0"
+        },
+        "x70550": {
+            "cPrev": ["q.70495"],
+            "level": 100,
+            "name_en": "Something Stray in the Neighborhood",
+            "name_fr": "Le parc des cauchemars",
+            "npc_en": "Nostalgia",
+            "npc_fr": "Nostalgia",
+            "unlock": "d.981",
             "patch": "7.0"
         }
     }

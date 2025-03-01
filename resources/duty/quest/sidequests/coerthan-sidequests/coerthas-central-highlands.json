@@ -13,15 +13,6 @@
             "cPrev": ["q.66229", "q.65756", "q.66223"],
             "patch": "4.31"
         },
-        "x66847": {
-            "level": 36,
-            "name_en": "Rolling with the Snowies",
-            "name_fr": "Coups de boules",
-            "npc_en": "Duvicauroix",
-            "npc_fr": "Duvicauroix",
-            "cPrev": ["q.66846"],
-            "patch": "4.31"
-        },
         "x66424": {
             "level": 36,
             "name_en": "Speak Softly to Me",
@@ -85,6 +76,24 @@
             "cSiblings": ["social.emotes.general.85"],
             "patch": "4.31"
         },
+        "x66847": {
+            "level": 36,
+            "name_en": "Rolling with the Snowies",
+            "name_fr": "Coups de boules",
+            "npc_en": "Duvicauroix",
+            "npc_fr": "Duvicauroix",
+            "cPrev": ["q.66846"],
+            "patch": "4.31"
+        },
+        "x66434": {
+            "level": 37,
+            "name_en": "Papa Do Preach",
+            "name_fr": "Aristocratie menacée",
+            "npc_en": "Duchesnelt",
+            "npc_fr": "Duchesnelt",
+            "cPrev": ["q.66426"],
+            "patch": "4.31"
+        },
         "x66435": {
             "level": 37,
             "name_en": "Dead Is Dead",
@@ -143,21 +152,30 @@
             "cNext": ["q.66442"],
             "patch": "4.31"
         },
-        "x66434": {
-            "level": 37,
-            "name_en": "Papa Do Preach",
-            "name_fr": "Aristocratie menacée",
-            "npc_en": "Duchesnelt",
-            "npc_fr": "Duchesnelt",
-            "cPrev": ["q.66426"],
-            "patch": "4.31"
-        },
         "x66451": {
             "level": 37,
             "name_en": "A Fool and His Life Are Soon Parted",
             "name_fr": "La vengeance d'une mère",
             "npc_en": "Meduil",
             "npc_fr": "Meduil",
+            "patch": "4.31"
+        },
+        "x66437": {
+            "level": 38,
+            "name_en": "Sebastian vs. the Ogre",
+            "name_fr": "Sebastian contre l'ogre",
+            "npc_en": "Yaelle",
+            "npc_fr": "Yaelle",
+            "cPrev": ["q.66426"],
+            "patch": "4.31"
+        },
+        "x66449": {
+            "level": 38,
+            "name_en": "A Cup of Joy",
+            "name_fr": "Un cru d'exception",
+            "npc_en": "Aurelle",
+            "npc_fr": "Aurelle",
+            "cPrev": ["q.66448"],
             "patch": "4.31"
         },
         "x66450": {
@@ -185,22 +203,14 @@
             "cNext": ["q.66455"],
             "patch": "4.31"
         },
-        "x66437": {
-            "level": 38,
-            "name_en": "Sebastian vs. the Ogre",
-            "name_fr": "Sebastian contre l'ogre",
-            "npc_en": "Yaelle",
-            "npc_fr": "Yaelle",
-            "cPrev": ["q.66426"],
-            "patch": "4.31"
-        },
-        "x66449": {
-            "level": 38,
-            "name_en": "A Cup of Joy",
-            "name_fr": "Un cru d'exception",
-            "npc_en": "Aurelle",
-            "npc_fr": "Aurelle",
-            "cPrev": ["q.66448"],
+        "x66464": {
+            "level": 39,
+            "name_en": "Cleaning Out the Dead",
+            "name_fr": "Pillage de cadavres",
+            "npc_en": "Oncenedl",
+            "npc_fr": "Oncenedl",
+            "cPrev": ["q.66460"],
+            "cNext": ["q.66466", "q.66467"],
             "patch": "4.31"
         },
         "x66465": {
@@ -240,14 +250,13 @@
             "cPrev": ["q.66467"],
             "patch": "4.31"
         },
-        "x66464": {
+        "x66469": {
             "level": 39,
-            "name_en": "Cleaning Out the Dead",
-            "name_fr": "Pillage de cadavres",
-            "npc_en": "Oncenedl",
-            "npc_fr": "Oncenedl",
+            "name_en": "Run, Fido, Run",
+            "name_fr": "Interception de coursiers",
+            "npc_en": "Faucillien",
+            "npc_fr": "Faucillien",
             "cPrev": ["q.66460"],
-            "cNext": ["q.66466", "q.66467"],
             "patch": "4.31"
         },
         "x66470": {
@@ -278,13 +287,14 @@
             "cPrev": ["q.66460"],
             "patch": "4.31"
         },
-        "x66469": {
-            "level": 39,
-            "name_en": "Run, Fido, Run",
-            "name_fr": "Interception de coursiers",
-            "npc_en": "Faucillien",
-            "npc_fr": "Faucillien",
-            "cPrev": ["q.66460"],
+        "x65553": {
+            "level": 40,
+            "name_en": "Leves of Whitebrim",
+            "name_fr": "Mandataire du poste de L'Arête blanche",
+            "cPrevAny": true,
+            "npc_en": "Voilinaut",
+            "npc_fr": "Voilinaut",
+            "cPrev": ["q.66229", "q.65756", "q.66223"],
             "patch": "4.31"
         },
         "x66478": {
@@ -293,6 +303,15 @@
             "name_fr": "Oublier les outrages du passé",
             "npc_en": "Liautroix",
             "npc_fr": "Liautroix",
+            "cPrev": ["q.66477"],
+            "patch": "4.31"
+        },
+        "x66479": {
+            "level": 40,
+            "name_en": "Physician, Find Yourself",
+            "name_fr": "Le médecin malchanceux",
+            "npc_en": "Astidien",
+            "npc_fr": "Astidien",
             "cPrev": ["q.66477"],
             "patch": "4.31"
         },
@@ -343,13 +362,13 @@
             "cPrev": ["q.66477"],
             "patch": "4.31"
         },
-        "x66479": {
+        "x66485": {
             "level": 40,
-            "name_en": "Physician, Find Yourself",
-            "name_fr": "Le médecin malchanceux",
-            "npc_en": "Astidien",
-            "npc_fr": "Astidien",
-            "cPrev": ["q.66477"],
+            "name_en": "Whey Too into You",
+            "name_fr": "L'élément perturbateur",
+            "npc_en": "Ourdilic",
+            "npc_fr": "Ourdilic",
+            "cPrev": ["q.66483"],
             "patch": "4.31"
         },
         "x66486": {
@@ -370,23 +389,13 @@
             "cPrev": ["q.66477"],
             "patch": "4.31"
         },
-        "x65553": {
-            "level": 40,
-            "name_en": "Leves of Whitebrim",
-            "name_fr": "Mandataire du poste de L'Arête blanche",
-            "cPrevAny": true,
-            "npc_en": "Voilinaut",
-            "npc_fr": "Voilinaut",
-            "cPrev": ["q.66229", "q.65756", "q.66223"],
-            "patch": "4.31"
-        },
-        "x66485": {
-            "level": 40,
-            "name_en": "Whey Too into You",
-            "name_fr": "L'élément perturbateur",
-            "npc_en": "Ourdilic",
-            "npc_fr": "Ourdilic",
-            "cPrev": ["q.66483"],
+        "x66515": {
+            "level": 44,
+            "name_en": "Fort of Fear",
+            "name_fr": "Les ténèbres de la Forteresse de Dzemael",
+            "unlock": "d.13",
+            "npc_en": "Carrilaut",
+            "npc_fr": "Carrilaut",
             "patch": "4.31"
         },
         "x66521": {
@@ -396,15 +405,6 @@
             "npc_en": "Cailean",
             "npc_fr": "Cailean",
             "cPrev": ["q.66519"],
-            "patch": "4.31"
-        },
-        "x66515": {
-            "level": 44,
-            "name_en": "Fort of Fear",
-            "name_fr": "Les ténèbres de la Forteresse de Dzemael",
-            "unlock": "d.13",
-            "npc_en": "Carrilaut",
-            "npc_fr": "Carrilaut",
             "patch": "4.31"
         }
     }

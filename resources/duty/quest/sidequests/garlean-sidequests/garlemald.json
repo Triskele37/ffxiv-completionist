@@ -3,6 +3,60 @@
     "groupName_en": "Garlemald",
     "groupName_fr": "Garlemald",
     "tasks": {
+        "x69755": {
+            "level": 80,
+            "name_en": "Your Inventory Is Not Full",
+            "name_fr": "Il y a toujours de la place",
+            "npc_en": "Contingent Quartermaster",
+            "npc_fr": "Officier de la Délégation",
+            "cPrev": ["q.69919"],
+            "patch": "6.0"
+        },
+        "x69759": {
+            "level": 80,
+            "name_en": "Bear Baiting",
+            "name_fr": "La peau de l'ours",
+            "npc_en": "Iliette",
+            "npc_fr": "Iliette",
+            "cPrev": ["q.69919"],
+            "patch": "6.0"
+        },
+        "x69757": {
+            "level": 80,
+            "name_en": "Heroes All",
+            "name_fr": "Soigner ceux qui soignent",
+            "npc_en": "June",
+            "npc_fr": "June",
+            "cPrev": ["q.69923"],
+            "patch": "6.0"
+        },
+        "x69760": {
+            "level": 80,
+            "name_en": "Under Lock and Code",
+            "name_fr": "Énigme martiale",
+            "npc_en": "Ambaghai",
+            "npc_fr": "Ambaghai",
+            "cPrev": ["q.69923"],
+            "patch": "6.0"
+        },
+        "x69756": {
+            "level": 80,
+            "name_en": "Help Me to Help You",
+            "name_fr": "Besoin d'aide?",
+            "npc_en": "Menuki",
+            "npc_fr": "Menuki",
+            "cPrev": ["q.69929"],
+            "patch": "6.0"
+        },
+        "x69758": {
+            "level": 80,
+            "name_en": "Scouting for Scouts",
+            "name_fr": "Trouver l'espionne",
+            "npc_en": "Talon",
+            "npc_fr": "Talon",
+            "cPrev": ["q.69929"],
+            "patch": "6.0"
+        },
         "x69752": {
             "level": 80,
             "name_en": "Best Delivered Cold",
@@ -34,58 +88,46 @@
             "cPrev": ["q.69929", "q.69753"],
             "patch": "6.0"
         },
-        "x69755": {
+        "x70034": {
             "level": 80,
-            "name_en": "Your Inventory Is Not Full",
-            "name_fr": "Il y a toujours de la place",
-            "npc_en": "Contingent Quartermaster",
-            "npc_fr": "Officier De La Délégation",
-            "cPrev": ["q.69919"],
-            "patch": "6.0"
-        },
-        "x69756": {
-            "level": 80,
-            "name_en": "Help Me to Help You",
-            "name_fr": "Besoin d'aide?",
-            "npc_en": "Menuki",
-            "npc_fr": "Menuki",
+            "name_en": "In Pursuit of Power",
+            "name_fr": "Un ingénieur déterminé",
+            "unlock": "travel.aether-currents.ew.garlemald.10",
+            "npc_en": "Rimelnaud",
+            "npc_fr": "Rimelnaud",
             "cPrev": ["q.69929"],
+            "cNext": ["q.70035"],
+            "cSiblings": ["travel.aether-currents.ew.garlemald.10"],
             "patch": "6.0"
         },
-        "x69757": {
+        "x70035": {
             "level": 80,
-            "name_en": "Heroes All",
-            "name_fr": "Soigner ceux qui soignent",
-            "npc_en": "June",
-            "npc_fr": "June",
-            "cPrev": ["q.69923"],
+            "name_en": "Camp Broken Engines",
+            "name_fr": "Faire renaître la région",
+            "npc_en": "Rimelnaud",
+            "npc_fr": "Rimelnaud",
+            "cPrev": ["q.70034"],
+            "cNext": ["q.70036"],
             "patch": "6.0"
         },
-        "x69758": {
+        "x70036": {
             "level": 80,
-            "name_en": "Scouting for Scouts",
-            "name_fr": "Trouver l'espionne",
-            "npc_en": "Talon",
-            "npc_fr": "Talon",
-            "cPrev": ["q.69929"],
+            "name_en": "Operation: Reactivation",
+            "name_fr": "La plateforme",
+            "npc_en": "Rimelnaud",
+            "npc_fr": "Rimelnaud",
+            "cPrev": ["q.70035"],
+            "cNext": ["q.70037"],
             "patch": "6.0"
         },
-        "x69759": {
+        "x70037": {
             "level": 80,
-            "name_en": "Bear Baiting",
-            "name_fr": "La peau de l'ours",
-            "npc_en": "Iliette",
-            "npc_fr": "Iliette",
-            "cPrev": ["q.69919"],
-            "patch": "6.0"
-        },
-        "x69760": {
-            "level": 80,
-            "name_en": "Under Lock and Code",
-            "name_fr": "Énigme martiale",
-            "npc_en": "Ambaghai",
-            "npc_fr": "Ambaghai",
-            "cPrev": ["q.69923"],
+            "name_en": "Energy for All",
+            "name_fr": "Un espoir de renouveau",
+            "npc_en": "Rimelnaud",
+            "npc_fr": "Rimelnaud",
+            "cPrev": ["q.70036"],
+            "cNext": ["q.70042"],
             "patch": "6.0"
         },
         "x69761": {
@@ -223,48 +265,6 @@
             "npc_en": "Contingent Scout",
             "npc_fr": "Éclaireur Délégué",
             "cPrev": ["q.69929"],
-            "patch": "6.0"
-        },
-        "x70034": {
-            "level": 80,
-            "name_en": "In Pursuit of Power",
-            "name_fr": "Un ingénieur déterminé",
-            "unlock": "travel.aether-currents.ew.garlemald.10",
-            "npc_en": "Rimelnaud",
-            "npc_fr": "Rimelnaud",
-            "cPrev": ["q.69929"],
-            "cNext": ["q.70035"],
-            "cSiblings": ["travel.aether-currents.ew.garlemald.10"],
-            "patch": "6.0"
-        },
-        "x70035": {
-            "level": 80,
-            "name_en": "Camp Broken Engines",
-            "name_fr": "Faire renaître la région",
-            "npc_en": "Rimelnaud",
-            "npc_fr": "Rimelnaud",
-            "cPrev": ["q.70034"],
-            "cNext": ["q.70036"],
-            "patch": "6.0"
-        },
-        "x70036": {
-            "level": 80,
-            "name_en": "Operation: Reactivation",
-            "name_fr": "La plateforme",
-            "npc_en": "Rimelnaud",
-            "npc_fr": "Rimelnaud",
-            "cPrev": ["q.70035"],
-            "cNext": ["q.70037"],
-            "patch": "6.0"
-        },
-        "x70037": {
-            "level": 80,
-            "name_en": "Energy for All",
-            "name_fr": "Un espoir de renouveau",
-            "npc_en": "Rimelnaud",
-            "npc_fr": "Rimelnaud",
-            "cPrev": ["q.70036"],
-            "cNext": ["q.70042"],
             "patch": "6.0"
         },
         "x70038": {

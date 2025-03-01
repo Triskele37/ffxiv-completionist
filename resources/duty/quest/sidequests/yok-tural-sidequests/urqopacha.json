@@ -103,6 +103,46 @@
             "npc_fr": "Sire Épidemaïs",
             "patch": "7.0"
         },
+        "x70587": {
+            "cNext": ["q.70588"],
+            "cPrev": ["q.70413"],
+            "level": 90,
+            "name_en": "A Crisis of Corruption",
+            "name_fr": "Une affaire à ne pas manquer!",
+            "npc_en": "Nopli",
+            "npc_fr": "Nopli",
+            "patch": "7.0"
+        },
+        "x70588": {
+            "cNext": ["q.70589"],
+            "cPrev": ["q.70587"],
+            "level": 90,
+            "name_en": "To Catch a Merchant",
+            "name_fr": "Pratiques commerciales peu recommandables",
+            "npc_en": "Nopli",
+            "npc_fr": "Nopli",
+            "patch": "7.0"
+        },
+        "x70589": {
+            "cNext": ["q.70590"],
+            "cPrev": ["q.70588"],
+            "level": 90,
+            "name_en": "Finding Bait",
+            "name_fr": "Spécialités locales",
+            "npc_en": "Nopli",
+            "npc_fr": "Nopli",
+            "patch": "7.0"
+        },
+        "x70590": {
+            "cNext": ["q.70595"],
+            "cPrev": ["q.70589"],
+            "level": 90,
+            "name_en": "Springing the Trap",
+            "name_fr": "Marchands sans frontières",
+            "npc_en": "Nopli",
+            "npc_fr": "Nopli",
+            "patch": "7.0"
+        },
         "x70577": {
             "cPrev": ["q.70426"],
             "level": 90,
@@ -191,46 +231,6 @@
             "name_fr": "Hommage fruité",
             "npc_en": "Karporger",
             "npc_fr": "Karporger",
-            "patch": "7.0"
-        },
-        "x70587": {
-            "cNext": ["q.70588"],
-            "cPrev": ["q.70413"],
-            "level": 90,
-            "name_en": "A Crisis of Corruption",
-            "name_fr": "Une affaire à ne pas manquer!",
-            "npc_en": "Nopli",
-            "npc_fr": "Nopli",
-            "patch": "7.0"
-        },
-        "x70588": {
-            "cNext": ["q.70589"],
-            "cPrev": ["q.70587"],
-            "level": 90,
-            "name_en": "To Catch a Merchant",
-            "name_fr": "Pratiques commerciales peu recommandables",
-            "npc_en": "Nopli",
-            "npc_fr": "Nopli",
-            "patch": "7.0"
-        },
-        "x70589": {
-            "cNext": ["q.70590"],
-            "cPrev": ["q.70588"],
-            "level": 90,
-            "name_en": "Finding Bait",
-            "name_fr": "Spécialités locales",
-            "npc_en": "Nopli",
-            "npc_fr": "Nopli",
-            "patch": "7.0"
-        },
-        "x70590": {
-            "cNext": ["q.70595"],
-            "cPrev": ["q.70589"],
-            "level": 90,
-            "name_en": "Springing the Trap",
-            "name_fr": "Marchands sans frontières",
-            "npc_en": "Nopli",
-            "npc_fr": "Nopli",
             "patch": "7.0"
         },
         "x70591": {

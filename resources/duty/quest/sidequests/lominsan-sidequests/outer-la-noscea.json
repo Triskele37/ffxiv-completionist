@@ -3,16 +3,6 @@
     "groupName_en": "Outer La Noscea",
     "groupName_fr": "Noscea extérieure",
     "tasks": {
-        "x66400": {
-            "level": 34,
-            "name_en": "Looking for Trouble",
-            "name_fr": "La traque des éclaireurs",
-            "npc_en": "Bloeidin",
-            "npc_fr": "Bloeidin",
-            "cPrev": ["q.66397"],
-            "cNext": ["q.66401"],
-            "patch": "4.31"
-        },
         "x66395": {
             "level": 34,
             "name_en": "Never Trout That I Love",
@@ -21,6 +11,15 @@
             "npc_fr": "Bloeidin",
             "cPrev": ["q.66394"],
             "cNext": ["q.66397"],
+            "patch": "4.31"
+        },
+        "x66396": {
+            "level": 34,
+            "name_en": "Dead or Sumfin' Like It",
+            "name_fr": "Dégommage de volatiles",
+            "npc_en": "Augustine",
+            "npc_fr": "Augustine",
+            "cPrev": ["q.66393"],
             "patch": "4.31"
         },
         "x66397": {
@@ -52,13 +51,14 @@
             "cPrev": ["q.66398"],
             "patch": "4.31"
         },
-        "x66396": {
+        "x66400": {
             "level": 34,
-            "name_en": "Dead or Sumfin' Like It",
-            "name_fr": "Dégommage de volatiles",
-            "npc_en": "Augustine",
-            "npc_fr": "Augustine",
-            "cPrev": ["q.66393"],
+            "name_en": "Looking for Trouble",
+            "name_fr": "La traque des éclaireurs",
+            "npc_en": "Bloeidin",
+            "npc_fr": "Bloeidin",
+            "cPrev": ["q.66397"],
+            "cNext": ["q.66401"],
             "patch": "4.31"
         },
         "x66401": {

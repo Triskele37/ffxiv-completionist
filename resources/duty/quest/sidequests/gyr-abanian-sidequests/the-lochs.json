@@ -3,6 +3,16 @@
     "groupName_en": "The Lochs",
     "groupName_fr": "Les Lacs",
     "tasks": {
+        "x69593": {
+            "level": 1,
+            "name_en": "The Dragon Made",
+            "name_fr": "Les ailes sombres d'Allag",
+            "npc_en": "Warmachina Fanatic",
+            "npc_fr": "Maquettiste Des Forges",
+            "cPrev": ["mo.249", "mo.238", "mo.189", "mo.226", "mo.192", "mo.217", "mo.205"],
+            "cSiblings": ["a.2820"],
+            "patch": "5.5"
+        },
         "x68413": {
             "level": 69,
             "name_en": "It's a Zu Out There",
@@ -91,16 +101,6 @@
             "npc_fr": "Bertliana",
             "cPrev": ["q.68089", "q.68424"],
             "patch": "4.31"
-        },
-        "x69593": {
-            "level": 1,
-            "name_en": "The Dragon Made",
-            "name_fr": "Les ailes sombres d'Allag",
-            "npc_en": "Warmachina Fanatic",
-            "npc_fr": "Maquettiste Des Forges",
-            "cPrev": ["mo.249", "mo.238", "mo.189", "mo.226", "mo.192", "mo.217", "mo.205"],
-            "cSiblings": ["a.2820"],
-            "patch": "5.5"
         }
     }
 }

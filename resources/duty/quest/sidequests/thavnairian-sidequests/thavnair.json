@@ -30,6 +30,48 @@
             "cPrev": ["q.69906"],
             "patch": "6.0"
         },
+        "x70025": {
+            "level": 80,
+            "name_en": "Steppe Child",
+            "name_fr": "L'aventurière de la Steppe d'Azim",
+            "unlock": "travel.aether-currents.ew.thavnair.12",
+            "npc_en": "Ogul",
+            "npc_fr": "Ogul",
+            "cPrev": ["q.69906"],
+            "cNext": ["q.70026"],
+            "cSiblings": ["travel.aether-currents.ew.thavnair.12"],
+            "patch": "6.0"
+        },
+        "x70026": {
+            "level": 80,
+            "name_en": "The Matanga along the Way",
+            "name_fr": "Des Matangas partout",
+            "npc_en": "Kancana",
+            "npc_fr": "Kancana",
+            "cPrev": ["q.70025"],
+            "cNext": ["q.70027"],
+            "patch": "6.0"
+        },
+        "x70027": {
+            "level": 80,
+            "name_en": "Ogul Repays Her Favors",
+            "name_fr": "De l'importance de retourner une faveur",
+            "npc_en": "Ogul",
+            "npc_fr": "Ogul",
+            "cPrev": ["q.70026"],
+            "cNext": ["q.70028"],
+            "patch": "6.0"
+        },
+        "x70028": {
+            "level": 80,
+            "name_en": "The Yedlihmad Hunt",
+            "name_fr": "Chasse à l'homme à Yedlihmad",
+            "npc_en": "Ogul",
+            "npc_fr": "Ogul",
+            "cPrev": ["q.70027"],
+            "cNext": ["q.70033"],
+            "patch": "6.0"
+        },
         "x69735": {
             "level": 80,
             "name_en": "The Great Heist",
@@ -129,48 +171,6 @@
             "npc_en": "Kusuma",
             "npc_fr": "Kusuma",
             "cPrev": ["q.69910"],
-            "patch": "6.0"
-        },
-        "x70025": {
-            "level": 80,
-            "name_en": "Steppe Child",
-            "name_fr": "L'aventurière de la Steppe d'Azim",
-            "unlock": "travel.aether-currents.ew.thavnair.12",
-            "npc_en": "Ogul",
-            "npc_fr": "Ogul",
-            "cPrev": ["q.69906"],
-            "cNext": ["q.70026"],
-            "cSiblings": ["travel.aether-currents.ew.thavnair.12"],
-            "patch": "6.0"
-        },
-        "x70026": {
-            "level": 80,
-            "name_en": "The Matanga along the Way",
-            "name_fr": "Des Matangas partout",
-            "npc_en": "Kancana",
-            "npc_fr": "Kancana",
-            "cPrev": ["q.70025"],
-            "cNext": ["q.70027"],
-            "patch": "6.0"
-        },
-        "x70027": {
-            "level": 80,
-            "name_en": "Ogul Repays Her Favors",
-            "name_fr": "De l'importance de retourner une faveur",
-            "npc_en": "Ogul",
-            "npc_fr": "Ogul",
-            "cPrev": ["q.70026"],
-            "cNext": ["q.70028"],
-            "patch": "6.0"
-        },
-        "x70028": {
-            "level": 80,
-            "name_en": "The Yedlihmad Hunt",
-            "name_fr": "Chasse à l'homme à Yedlihmad",
-            "npc_en": "Ogul",
-            "npc_fr": "Ogul",
-            "cPrev": ["q.70027"],
-            "cNext": ["q.70033"],
             "patch": "6.0"
         },
         "x69792": {

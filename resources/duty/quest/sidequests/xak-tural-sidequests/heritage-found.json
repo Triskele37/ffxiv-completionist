@@ -58,6 +58,45 @@
             "npc_fr": "Sire Épidemaïs",
             "patch": "7.0"
         },
+        "x70696": {
+            "cNext": ["q.70697"],
+            "cPrev": ["q.70467"],
+            "level": 90,
+            "name_en": "Aunty Knows Best",
+            "name_fr": "Une responsable irresponsable",
+            "npc_en": "Nakente",
+            "npc_fr": "Nakente",
+            "patch": "7.0"
+        },
+        "x70697": {
+            "cNext": ["q.70698"],
+            "cPrev": ["q.70696"],
+            "level": 90,
+            "name_en": "Yyupye's Dirt",
+            "name_fr": "La surprise de Yyupye",
+            "npc_en": "Shaloaci",
+            "npc_fr": "Shaloaci",
+            "patch": "7.0"
+        },
+        "x70698": {
+            "cNext": ["q.70699"],
+            "cPrev": ["q.70697"],
+            "level": 90,
+            "name_en": "What She Left Behind",
+            "name_fr": "La gare du souvenir",
+            "npc_en": "Nakente",
+            "npc_fr": "Nakente",
+            "patch": "7.0"
+        },
+        "x70699": {
+            "cPrev": ["q.70698"],
+            "level": 90,
+            "name_en": "All That She Carried",
+            "name_fr": "Sale journée pour les exorays",
+            "npc_en": "Shaloaci",
+            "npc_fr": "Shaloaci",
+            "patch": "7.0"
+        },
         "x70691": {
             "cPrev": ["q.70476"],
             "level": 90,
@@ -101,45 +140,6 @@
             "name_fr": "Souvenirs effacés",
             "npc_en": "Ui'she",
             "npc_fr": "Ui'she",
-            "patch": "7.0"
-        },
-        "x70696": {
-            "cNext": ["q.70697"],
-            "cPrev": ["q.70467"],
-            "level": 90,
-            "name_en": "Aunty Knows Best",
-            "name_fr": "Une responsable irresponsable",
-            "npc_en": "Nakente",
-            "npc_fr": "Nakente",
-            "patch": "7.0"
-        },
-        "x70697": {
-            "cNext": ["q.70698"],
-            "cPrev": ["q.70696"],
-            "level": 90,
-            "name_en": "Yyupye's Dirt",
-            "name_fr": "La surprise de Yyupye",
-            "npc_en": "Shaloaci",
-            "npc_fr": "Shaloaci",
-            "patch": "7.0"
-        },
-        "x70698": {
-            "cNext": ["q.70699"],
-            "cPrev": ["q.70697"],
-            "level": 90,
-            "name_en": "What She Left Behind",
-            "name_fr": "La gare du souvenir",
-            "npc_en": "Nakente",
-            "npc_fr": "Nakente",
-            "patch": "7.0"
-        },
-        "x70699": {
-            "cPrev": ["q.70698"],
-            "level": 90,
-            "name_en": "All That She Carried",
-            "name_fr": "Sale journée pour les exorays",
-            "npc_en": "Shaloaci",
-            "npc_fr": "Shaloaci",
             "patch": "7.0"
         }
     }

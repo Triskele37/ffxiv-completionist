@@ -111,6 +111,48 @@
             "cPrev": ["q.69961"],
             "patch": "6.0"
         },
+        "x70043": {
+            "level": 80,
+            "name_en": "Touring Anagnorisis, Part I",
+            "name_fr": "Observateurs observés",
+            "unlock": "travel.aether-currents.ew.elpis.13",
+            "npc_en": "Sokles",
+            "npc_fr": "Soclès",
+            "cPrev": ["q.69961"],
+            "cNext": ["q.70044"],
+            "cSiblings": ["travel.aether-currents.ew.elpis.13"],
+            "patch": "6.0"
+        },
+        "x70044": {
+            "level": 80,
+            "name_en": "Touring Anagnorisis, Part II",
+            "name_fr": "Visite guidée d'intérêt mutuel",
+            "npc_en": "Sokles",
+            "npc_fr": "Soclès",
+            "cPrev": ["q.70043"],
+            "cNext": ["q.70045"],
+            "patch": "6.0"
+        },
+        "x70045": {
+            "level": 80,
+            "name_en": "Familiar Food",
+            "name_fr": "Collation fleurie à l'Anagnorisis",
+            "npc_en": "Charmion",
+            "npc_fr": "Charmion",
+            "cPrev": ["q.70044"],
+            "cNext": ["q.70046"],
+            "patch": "6.0"
+        },
+        "x70046": {
+            "level": 80,
+            "name_en": "Familiar Fate",
+            "name_fr": "Notre rôle en ce monde",
+            "npc_en": "Charmion",
+            "npc_fr": "Charmion",
+            "cPrev": ["q.70045"],
+            "cNext": ["q.70051"],
+            "patch": "6.0"
+        },
         "x69824": {
             "level": 80,
             "name_en": "You and the Ailouros",
@@ -366,48 +408,6 @@
             "npc_en": "Glaphyra",
             "npc_fr": "Glaphyra",
             "cPrev": ["q.69967"],
-            "patch": "6.0"
-        },
-        "x70043": {
-            "level": 80,
-            "name_en": "Touring Anagnorisis, Part I",
-            "name_fr": "Observateurs observés",
-            "unlock": "travel.aether-currents.ew.elpis.13",
-            "npc_en": "Sokles",
-            "npc_fr": "Soclès",
-            "cPrev": ["q.69961"],
-            "cNext": ["q.70044"],
-            "cSiblings": ["travel.aether-currents.ew.elpis.13"],
-            "patch": "6.0"
-        },
-        "x70044": {
-            "level": 80,
-            "name_en": "Touring Anagnorisis, Part II",
-            "name_fr": "Visite guidée d'intérêt mutuel",
-            "npc_en": "Sokles",
-            "npc_fr": "Soclès",
-            "cPrev": ["q.70043"],
-            "cNext": ["q.70045"],
-            "patch": "6.0"
-        },
-        "x70045": {
-            "level": 80,
-            "name_en": "Familiar Food",
-            "name_fr": "Collation fleurie à l'Anagnorisis",
-            "npc_en": "Charmion",
-            "npc_fr": "Charmion",
-            "cPrev": ["q.70044"],
-            "cNext": ["q.70046"],
-            "patch": "6.0"
-        },
-        "x70046": {
-            "level": 80,
-            "name_en": "Familiar Fate",
-            "name_fr": "Notre rôle en ce monde",
-            "npc_en": "Charmion",
-            "npc_fr": "Charmion",
-            "cPrev": ["q.70045"],
-            "cNext": ["q.70051"],
             "patch": "6.0"
         },
         "x70047": {

@@ -86,15 +86,6 @@
             "cPrev": ["q.66050"],
             "patch": "4.31"
         },
-        "x66305": {
-            "level": 26,
-            "name_en": "A Bumper Crop",
-            "name_fr": "Offrez des pommes",
-            "npc_en": "Fawkes",
-            "npc_fr": "Fawkes",
-            "cPrev": ["q.66304"],
-            "patch": "4.31"
-        },
         "x66302": {
             "level": 26,
             "name_en": "Savage Snares",
@@ -120,13 +111,13 @@
             "cNext": ["q.66305"],
             "patch": "4.31"
         },
-        "x66309": {
+        "x66305": {
             "level": 26,
-            "name_en": "Masher for a Day",
-            "name_fr": "Le secret de la sauce de Mun-Tuy",
-            "npc_en": "Erimmont",
-            "npc_fr": "Erimmont",
-            "cPrev": ["q.66308"],
+            "name_en": "A Bumper Crop",
+            "name_fr": "Offrez des pommes",
+            "npc_en": "Fawkes",
+            "npc_fr": "Fawkes",
+            "cPrev": ["q.66304"],
             "patch": "4.31"
         },
         "x66306": {
@@ -154,6 +145,15 @@
             "npc_fr": "Aedoc",
             "cPrev": ["q.66307"],
             "cNext": ["q.66309"],
+            "patch": "4.31"
+        },
+        "x66309": {
+            "level": 26,
+            "name_en": "Masher for a Day",
+            "name_fr": "Le secret de la sauce de Mun-Tuy",
+            "npc_en": "Erimmont",
+            "npc_fr": "Erimmont",
+            "cPrev": ["q.66308"],
             "patch": "4.31"
         },
         "x65980": {

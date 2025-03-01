@@ -3,6 +3,15 @@
     "groupName_en": "Old Sharlayan",
     "groupName_fr": "Vieille Sharlayan",
     "tasks": {
+        "x70331": {
+            "name_en": "Wings of Hope",
+            "name_fr": "À ailes éternelles, nul vol n'est impossible",
+            "level": 1,
+            "npc_en": "Singingway",
+            "npc_fr": "Singingway",
+            "cPrev": ["q.70284"],
+            "patch": "6.5"
+        },
         "x69716": {
             "name_en": "A Waiting Love",
             "name_fr": "Récif, boulot, dodo",
@@ -180,6 +189,16 @@
             "cPrev": ["q.70060"],
             "patch": "6.28"
         },
+        "x70351": {
+            "name_en": "A Request of One's Own",
+            "name_fr": "La complainte de la chercheuse",
+            "level": 80,
+            "npc_en": "Theopauldin",
+            "npc_fr": "Theopauldin",
+            "cPrev": ["q.70272", "q.67634"],
+            "cNext": ["q.70352"],
+            "patch": "6.5"
+        },
         "x69712": {
             "name_en": "The Hunt for Specimens",
             "name_fr": "Chasse académique",
@@ -218,25 +237,6 @@
             "npc_fr": "Northota",
             "cPrev": ["q.69714"],
             "patch": "6.0"
-        },
-        "x70331": {
-            "name_en": "Wings of Hope",
-            "name_fr": "À ailes éternelles, nul vol n'est impossible",
-            "level": 1,
-            "npc_en": "Singingway",
-            "npc_fr": "Singingway",
-            "cPrev": ["q.70284"],
-            "patch": "6.5"
-        },
-        "x70351": {
-            "name_en": "A Request of One's Own",
-            "name_fr": "La complainte de la chercheuse",
-            "level": 80,
-            "npc_en": "Theopauldin",
-            "npc_fr": "Theopauldin",
-            "cPrev": ["q.70272", "q.67634"],
-            "cNext": ["q.70352"],
-            "patch": "6.5"
         }
     }
 }

@@ -22,15 +22,6 @@
             "cNext": ["q.66166", "q.66173"],
             "patch": "4.31"
         },
-        "x66173": {
-            "level": 17,
-            "name_en": "Green Thumb",
-            "name_fr": "Avoir la main verte",
-            "npc_en": "Jospaire",
-            "npc_fr": "Jospaire",
-            "cPrev": ["q.66160"],
-            "patch": "4.31"
-        },
         "x66166": {
             "level": 17,
             "name_en": "The Circle of Life",
@@ -40,31 +31,13 @@
             "cPrev": ["q.66160"],
             "patch": "4.31"
         },
-        "x66165": {
-            "level": 18,
-            "name_en": "Honoring the Dead",
-            "name_fr": "L'amour d'un frère",
-            "npc_en": "Eaduuard",
-            "npc_fr": "Eaduuard",
-            "cPrev": ["q.66162"],
-            "patch": "4.31"
-        },
-        "x66162": {
-            "level": 18,
-            "name_en": "Buzzing at Church",
-            "name_fr": "À réveiller les morts",
-            "npc_en": "Esmour",
-            "npc_fr": "Esmour",
-            "cNext": ["q.66165"],
-            "patch": "4.31"
-        },
-        "x66178": {
-            "level": 18,
-            "name_en": "Dead Bodies Everywhere",
-            "name_fr": "J'irai nettoyer vos tombes",
-            "npc_en": "Airell",
-            "npc_fr": "Airell",
-            "cNext": ["q.66163"],
+        "x66173": {
+            "level": 17,
+            "name_en": "Green Thumb",
+            "name_fr": "Avoir la main verte",
+            "npc_en": "Jospaire",
+            "npc_fr": "Jospaire",
+            "cPrev": ["q.66160"],
             "patch": "4.31"
         },
         "x66161": {
@@ -76,6 +49,15 @@
             "cNext": ["q.66167"],
             "patch": "4.31"
         },
+        "x66162": {
+            "level": 18,
+            "name_en": "Buzzing at Church",
+            "name_fr": "À réveiller les morts",
+            "npc_en": "Esmour",
+            "npc_fr": "Esmour",
+            "cNext": ["q.66165"],
+            "patch": "4.31"
+        },
         "x66163": {
             "level": 18,
             "name_en": "Lichyard Lilies",
@@ -83,6 +65,24 @@
             "npc_en": "Airell",
             "npc_fr": "Airell",
             "cPrev": ["q.66178"],
+            "patch": "4.31"
+        },
+        "x66165": {
+            "level": 18,
+            "name_en": "Honoring the Dead",
+            "name_fr": "L'amour d'un frère",
+            "npc_en": "Eaduuard",
+            "npc_fr": "Eaduuard",
+            "cPrev": ["q.66162"],
+            "patch": "4.31"
+        },
+        "x66178": {
+            "level": 18,
+            "name_en": "Dead Bodies Everywhere",
+            "name_fr": "J'irai nettoyer vos tombes",
+            "npc_en": "Airell",
+            "npc_fr": "Airell",
+            "cNext": ["q.66163"],
             "patch": "4.31"
         },
         "x66167": {

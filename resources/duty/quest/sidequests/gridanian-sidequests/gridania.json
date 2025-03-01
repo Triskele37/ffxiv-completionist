@@ -12,30 +12,6 @@
             "cNext": ["q.65537", "q.65660"],
             "patch": "4.31"
         },
-        "x65585": {
-            "level": 1,
-            "name_en": "I Am Millicent, Hear Me Roar",
-            "name_fr": "En attendant la relève",
-            "npc_en": "Duimessand",
-            "npc_fr": "Duimessand",
-            "patch": "4.31"
-        },
-        "x65560": {
-            "level": 1,
-            "name_en": "Coarse Correspondence",
-            "name_fr": "Une lettre mystérieuse",
-            "npc_en": "F'mibhas",
-            "npc_fr": "F'mibhas",
-            "patch": "4.31"
-        },
-        "x65556": {
-            "level": 1,
-            "name_en": "Incense and Sensibility",
-            "name_fr": "Le souhait de Mellaine",
-            "npc_en": "Mellaine",
-            "npc_fr": "Mellaine",
-            "patch": "4.31"
-        },
         "x65537": {
             "level": 1,
             "name_en": "A Good Adventurer Is Hard to Find",
@@ -46,6 +22,22 @@
             "cNext": ["q.65573"],
             "patch": "4.31"
         },
+        "x65556": {
+            "level": 1,
+            "name_en": "Incense and Sensibility",
+            "name_fr": "Le souhait de Mellaine",
+            "npc_en": "Mellaine",
+            "npc_fr": "Mellaine",
+            "patch": "4.31"
+        },
+        "x65560": {
+            "level": 1,
+            "name_en": "Coarse Correspondence",
+            "name_fr": "Une lettre mystérieuse",
+            "npc_en": "F'mibhas",
+            "npc_fr": "F'mibhas",
+            "patch": "4.31"
+        },
         "x65563": {
             "level": 1,
             "name_en": "Preserving the Past",
@@ -54,12 +46,12 @@
             "npc_fr": "Idele",
             "patch": "4.31"
         },
-        "x65576": {
-            "level": 2,
-            "name_en": "For Friendship",
-            "name_fr": "Un geste pour un sourire",
-            "npc_en": "Nicoliaux",
-            "npc_fr": "Nicoliaux",
+        "x65585": {
+            "level": 1,
+            "name_en": "I Am Millicent, Hear Me Roar",
+            "name_fr": "En attendant la relève",
+            "npc_en": "Duimessand",
+            "npc_fr": "Duimessand",
             "patch": "4.31"
         },
         "x65574": {
@@ -70,12 +62,12 @@
             "npc_fr": "Parsemontret",
             "patch": "4.31"
         },
-        "x65578": {
+        "x65576": {
             "level": 2,
-            "name_en": "Sylphic Gratitude",
-            "name_fr": "Citrouilles en vadrouille",
-            "npc_en": "Estaine",
-            "npc_fr": "Estaine",
+            "name_en": "For Friendship",
+            "name_fr": "Un geste pour un sourire",
+            "npc_en": "Nicoliaux",
+            "npc_fr": "Nicoliaux",
             "patch": "4.31"
         },
         "x65577": {
@@ -86,12 +78,12 @@
             "npc_fr": "Samiane",
             "patch": "4.31"
         },
-        "x65562": {
-            "level": 3,
-            "name_en": "Once Bitten, Twice Shy",
-            "name_fr": "Chat échaudé craint l'eau froide",
-            "npc_en": "Ethelred",
-            "npc_fr": "Ethelred",
+        "x65578": {
+            "level": 2,
+            "name_en": "Sylphic Gratitude",
+            "name_fr": "Citrouilles en vadrouille",
+            "npc_en": "Estaine",
+            "npc_fr": "Estaine",
             "patch": "4.31"
         },
         "x65561": {
@@ -102,12 +94,29 @@
             "npc_fr": "Boiselont",
             "patch": "4.31"
         },
+        "x65562": {
+            "level": 3,
+            "name_en": "Once Bitten, Twice Shy",
+            "name_fr": "Chat échaudé craint l'eau froide",
+            "npc_en": "Ethelred",
+            "npc_fr": "Ethelred",
+            "patch": "4.31"
+        },
         "x65567": {
             "level": 3,
             "name_en": "Essential Oil",
             "name_fr": "Huile essentielle",
             "npc_en": "Braya",
             "npc_fr": "Braya",
+            "patch": "4.31"
+        },
+        "x65568": {
+            "level": 4,
+            "name_en": "A Hard Nut to Crack",
+            "name_fr": "Visite à l'écurie",
+            "npc_en": "Tatasosa",
+            "npc_fr": "Tatasosa",
+            "cPrev": ["q.65660"],
             "patch": "4.31"
         },
         "x65570": {
@@ -126,15 +135,6 @@
             "npc_en": "Chansteloup",
             "npc_fr": "Chansteloup",
             "cPrev": ["q.65537"],
-            "patch": "4.31"
-        },
-        "x65568": {
-            "level": 4,
-            "name_en": "A Hard Nut to Crack",
-            "name_fr": "Visite à l'écurie",
-            "npc_en": "Tatasosa",
-            "npc_fr": "Tatasosa",
-            "cPrev": ["q.65660"],
             "patch": "4.31"
         },
         "x65756": {
@@ -185,17 +185,6 @@
             "cExclude": ["q.66969", "q.66970"],
             "patch": "4.31"
         },
-        "x66236": {
-            "level": 20,
-            "name_en": "My Little Chocobo (Twin Adder)",
-            "name_fr": "À chacun sa monture (Gridania)",
-            "unlock": "mo.1",
-            "npc_en": "Vorsaile Heuloix",
-            "npc_fr": "Vorsaile Heuloix",
-            "cNext": ["q.66698"],
-            "cExclude": ["q.66237", "q.66238"],
-            "patch": "4.31"
-        },
         "x65698": {
             "level": 20,
             "name_en": "A Sight to Behold",
@@ -205,6 +194,17 @@
             "unlock_en": "Sightseeing Log",
             "cPrev": ["q.66049"],
             "cNext": ["q.68456", "q.69140", "q.69710", "q.67643"],
+            "patch": "4.31"
+        },
+        "x66236": {
+            "level": 20,
+            "name_en": "My Little Chocobo (Twin Adder)",
+            "name_fr": "À chacun sa monture (Gridania)",
+            "unlock": "mo.1",
+            "npc_en": "Vorsaile Heuloix",
+            "npc_fr": "Vorsaile Heuloix",
+            "cNext": ["q.66698"],
+            "cExclude": ["q.66237", "q.66238"],
             "patch": "4.31"
         },
         "x66338": {

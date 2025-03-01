@@ -3,6 +3,16 @@
     "groupName_en": "Primal Quests",
     "groupName_fr": "Primordiaux (A Realm Reborn)",
     "tasks": {
+        "x66583": {
+            "level": 50,
+            "name_en": "A Recurring Problem",
+            "name_fr": "La résurgence des Primordiaux",
+            "npc_en": "Minfilia",
+            "npc_fr": "Minfilia",
+            "cPrev": ["q.66060"],
+            "cNext": ["q.66584"],
+            "patch": "4.31"
+        },
         "x66584": {
             "level": 50,
             "name_en": "Ifrit Bleeds, We Can Kill It",
@@ -12,16 +22,6 @@
             "npc_fr": "Thancred",
             "cPrev": ["q.66583"],
             "cNext": ["q.66693"],
-            "patch": "4.31"
-        },
-        "x66583": {
-            "level": 50,
-            "name_en": "A Recurring Problem",
-            "name_fr": "La résurgence des Primordiaux",
-            "npc_en": "Minfilia",
-            "npc_fr": "Minfilia",
-            "cPrev": ["q.66060"],
-            "cNext": ["q.66584"],
             "patch": "4.31"
         },
         "x66693": {
@@ -46,6 +46,16 @@
             "cNext": ["q.66695", "q.66730"],
             "patch": "4.31"
         },
+        "x66730": {
+            "level": 50,
+            "name_en": "Primal Nature",
+            "name_fr": "Une nouvelle tempête primordiale",
+            "npc_en": "Urianger",
+            "npc_fr": "Urianger",
+            "cPrev": ["q.66694"],
+            "cNext": ["q.66731"],
+            "patch": "4.31"
+        },
         "x66731": {
             "level": 50,
             "name_en": "Gale-force Warning",
@@ -55,16 +65,6 @@
             "npc_fr": "Vorsaile Heuloix",
             "cPrev": ["q.66730"],
             "cNext": ["q.66732"],
-            "patch": "4.31"
-        },
-        "x66730": {
-            "level": 50,
-            "name_en": "Primal Nature",
-            "name_fr": "Une nouvelle tempête primordiale",
-            "npc_en": "Urianger",
-            "npc_fr": "Urianger",
-            "cPrev": ["q.66694"],
-            "cNext": ["q.66731"],
             "patch": "4.31"
         },
         "x66732": {

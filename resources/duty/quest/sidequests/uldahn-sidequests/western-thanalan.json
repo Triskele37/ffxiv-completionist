@@ -22,14 +22,6 @@
             "cNext": ["q.65760"],
             "patch": "4.31"
         },
-        "x66749": {
-            "level": 5,
-            "name_en": "Where the Heart Is (The Goblet)",
-            "name_fr": "La maison de mes rêves à La Coupe",
-            "npc_en": "Imme",
-            "npc_fr": "Imme",
-            "patch": "4.31"
-        },
         "x65759": {
             "level": 5,
             "name_en": "A Dab'll Do Ya",
@@ -42,6 +34,14 @@
             "level": 5,
             "name_en": "Ticked Off",
             "name_fr": "Plume à gratter",
+            "npc_en": "Imme",
+            "npc_fr": "Imme",
+            "patch": "4.31"
+        },
+        "x66749": {
+            "level": 5,
+            "name_en": "Where the Heart Is (The Goblet)",
+            "name_fr": "La maison de mes rêves à La Coupe",
             "npc_en": "Imme",
             "npc_fr": "Imme",
             "patch": "4.31"
@@ -112,12 +112,14 @@
             "cPrev": ["q.65764", "q.65765", "q.65762"],
             "patch": "4.31"
         },
-        "x65875": {
+        "x65594": {
             "level": 10,
-            "name_en": "For Their Eyes Only",
-            "name_fr": "Dans le rouge des yeux",
-            "npc_en": "Zuzutyro",
-            "npc_fr": "Zuzutyro",
+            "name_en": "Simply the Hest",
+            "name_fr": "Opérations de guilde (Ul'dah)",
+            "npc_en": "Totonowa",
+            "npc_fr": "Totonowa",
+            "unlock_en": "Guildhests",
+            "cPrev": ["q.66223"],
             "patch": "4.31"
         },
         "x65873": {
@@ -128,14 +130,12 @@
             "npc_fr": "Fufulupa",
             "patch": "4.31"
         },
-        "x65594": {
+        "x65875": {
             "level": 10,
-            "name_en": "Simply the Hest",
-            "name_fr": "Opérations de guilde (Ul'dah)",
-            "npc_en": "Totonowa",
-            "npc_fr": "Totonowa",
-            "unlock_en": "Guildhests",
-            "cPrev": ["q.66223"],
+            "name_en": "For Their Eyes Only",
+            "name_fr": "Dans le rouge des yeux",
+            "npc_en": "Zuzutyro",
+            "npc_fr": "Zuzutyro",
             "patch": "4.31"
         },
         "x65877": {
@@ -250,25 +250,6 @@
             "npc_fr": "Nedrick Ironheart",
             "patch": "4.31"
         },
-        "x66671": {
-            "level": 50,
-            "name_en": "Ghosts of Amdapor",
-            "name_fr": "Les fantômes d'Amdapor",
-            "unlock": "d.14",
-            "npc_en": "Nedrick Ironheart",
-            "npc_fr": "Nedrick Ironheart",
-            "cPrev": ["q.66060"],
-            "patch": "4.31"
-        },
-        "x66406": {
-            "level": 50,
-            "name_en": "Trauma Queen",
-            "name_fr": "Le palais d'Allene",
-            "unlock": "d.10",
-            "npc_en": "Allene",
-            "npc_fr": "Allene",
-            "patch": "4.31"
-        },
         "x66241": {
             "level": 50,
             "name_en": "The Weaponsmith of Legend",
@@ -288,6 +269,25 @@
                 "q.66662",
                 "q.67115"
             ],
+            "patch": "4.31"
+        },
+        "x66406": {
+            "level": 50,
+            "name_en": "Trauma Queen",
+            "name_fr": "Le palais d'Allene",
+            "unlock": "d.10",
+            "npc_en": "Allene",
+            "npc_fr": "Allene",
+            "patch": "4.31"
+        },
+        "x66671": {
+            "level": 50,
+            "name_en": "Ghosts of Amdapor",
+            "name_fr": "Les fantômes d'Amdapor",
+            "unlock": "d.14",
+            "npc_en": "Nedrick Ironheart",
+            "npc_fr": "Nedrick Ironheart",
+            "cPrev": ["q.66060"],
             "patch": "4.31"
         }
     }

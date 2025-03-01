@@ -94,6 +94,46 @@
             "npc_fr": "Sire Épidemaïs",
             "patch": "7.0"
         },
+        "x70646": {
+            "cNext": ["q.70647"],
+            "cPrev": ["q.70438"],
+            "level": 90,
+            "name_en": "Aiming High",
+            "name_fr": "Devenir un chasseur accompli",
+            "npc_en": "Ty'at Roh",
+            "npc_fr": "Ty'at Roh",
+            "patch": "7.0"
+        },
+        "x70647": {
+            "cNext": ["q.70648"],
+            "cPrev": ["q.70646"],
+            "level": 90,
+            "name_en": "Hunting for the Family",
+            "name_fr": "La grande famille d'Iq Br'aax",
+            "npc_en": "Ty'at Roh",
+            "npc_fr": "Ty'at Roh",
+            "patch": "7.0"
+        },
+        "x70648": {
+            "cNext": ["q.70649"],
+            "cPrev": ["q.70647"],
+            "level": 90,
+            "name_en": "A Hunter's Dream",
+            "name_fr": "Le rêve de Ty'at Roh",
+            "npc_en": "Ty'at Roh",
+            "npc_fr": "Ty'at Roh",
+            "patch": "7.0"
+        },
+        "x70649": {
+            "cNext": ["q.70654"],
+            "cPrev": ["q.70648"],
+            "level": 90,
+            "name_en": "The Trial Commences",
+            "name_fr": "L'épreuve des Pisteurs br'aax",
+            "npc_en": "Ty'at Roh",
+            "npc_fr": "Ty'at Roh",
+            "patch": "7.0"
+        },
         "x70636": {
             "cPrev": ["q.70444"],
             "level": 90,
@@ -182,46 +222,6 @@
             "name_fr": "Tout pour mon partenaire",
             "npc_en": "Mosaal Ja",
             "npc_fr": "Mosaal Ja",
-            "patch": "7.0"
-        },
-        "x70646": {
-            "cNext": ["q.70647"],
-            "cPrev": ["q.70438"],
-            "level": 90,
-            "name_en": "Aiming High",
-            "name_fr": "Devenir un chasseur accompli",
-            "npc_en": "Ty'at Roh",
-            "npc_fr": "Ty'at Roh",
-            "patch": "7.0"
-        },
-        "x70647": {
-            "cNext": ["q.70648"],
-            "cPrev": ["q.70646"],
-            "level": 90,
-            "name_en": "Hunting for the Family",
-            "name_fr": "La grande famille d'Iq Br'aax",
-            "npc_en": "Ty'at Roh",
-            "npc_fr": "Ty'at Roh",
-            "patch": "7.0"
-        },
-        "x70648": {
-            "cNext": ["q.70649"],
-            "cPrev": ["q.70647"],
-            "level": 90,
-            "name_en": "A Hunter's Dream",
-            "name_fr": "Le rêve de Ty'at Roh",
-            "npc_en": "Ty'at Roh",
-            "npc_fr": "Ty'at Roh",
-            "patch": "7.0"
-        },
-        "x70649": {
-            "cNext": ["q.70654"],
-            "cPrev": ["q.70648"],
-            "level": 90,
-            "name_en": "The Trial Commences",
-            "name_fr": "L'épreuve des Pisteurs br'aax",
-            "npc_en": "Ty'at Roh",
-            "npc_fr": "Ty'at Roh",
             "patch": "7.0"
         },
         "x70650": {

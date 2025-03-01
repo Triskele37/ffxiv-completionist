@@ -12,15 +12,15 @@
             "cNext": ["q.65645", "q.65647"],
             "patch": "4.31"
         },
-        "x69379": {
+        "x65647": {
             "level": 1,
-            "name_en": "All the Fish in the Sea",
-            "name_fr": "L'Ambition fait le poisson",
-            "npc_en": "Fhilsnoe",
-            "npc_fr": "Fhilsnoe",
-            "unlock_en": "Ocean Fishing",
-            "cPrev": ["q.66644"],
-            "patch": "5.2"
+            "name_en": "Making a Name",
+            "name_fr": "C'est l'intention qui compte",
+            "npc_en": "Niniya",
+            "npc_fr": "Niniya",
+            "cPrev": ["q.65643"],
+            "cNext": ["q.65648"],
+            "patch": "4.31"
         },
         "x65648": {
             "level": 1,
@@ -55,16 +55,6 @@
             "npc_fr": "P'tahjha",
             "patch": "4.31"
         },
-        "x65647": {
-            "level": 1,
-            "name_en": "Making a Name",
-            "name_fr": "C'est l'intention qui compte",
-            "npc_en": "Niniya",
-            "npc_fr": "Niniya",
-            "cPrev": ["q.65643"],
-            "cNext": ["q.65648"],
-            "patch": "4.31"
-        },
         "x65859": {
             "level": 1,
             "name_en": "Edelweiss, Edelweiss",
@@ -73,21 +63,30 @@
             "npc_fr": "J'nasshym",
             "patch": "4.31"
         },
+        "x69379": {
+            "level": 1,
+            "name_en": "All the Fish in the Sea",
+            "name_fr": "L'Ambition fait le poisson",
+            "npc_en": "Fhilsnoe",
+            "npc_fr": "Fhilsnoe",
+            "unlock_en": "Ocean Fishing",
+            "cPrev": ["q.66644"],
+            "patch": "5.2"
+        },
+        "x65653": {
+            "level": 2,
+            "name_en": "A Thousand Words",
+            "name_fr": "Un portrait fidèle",
+            "npc_en": "Latisha",
+            "npc_fr": "Latisha",
+            "patch": "4.31"
+        },
         "x65654": {
             "level": 2,
             "name_en": "Licensed to Reave",
             "name_fr": "Des épices de haute mer",
             "npc_en": "Mordyn",
             "npc_fr": "Mordyn",
-            "patch": "4.31"
-        },
-        "x65656": {
-            "level": 2,
-            "name_en": "I Stay the Streetlight",
-            "name_fr": "La jumelle délégante",
-            "npc_en": "N'tanmo",
-            "npc_fr": "N'tanmo",
-            "cPrev": ["q.65655"],
             "patch": "4.31"
         },
         "x65655": {
@@ -99,20 +98,13 @@
             "cNext": ["q.65656"],
             "patch": "4.31"
         },
-        "x65653": {
+        "x65656": {
             "level": 2,
-            "name_en": "A Thousand Words",
-            "name_fr": "Un portrait fidèle",
-            "npc_en": "Latisha",
-            "npc_fr": "Latisha",
-            "patch": "4.31"
-        },
-        "x65657": {
-            "level": 3,
-            "name_en": "Back in the Water",
-            "name_fr": "La pêche aux bateaux",
-            "npc_en": "Sisipu",
-            "npc_fr": "Sisipu",
+            "name_en": "I Stay the Streetlight",
+            "name_fr": "La jumelle délégante",
+            "npc_en": "N'tanmo",
+            "npc_fr": "N'tanmo",
+            "cPrev": ["q.65655"],
             "patch": "4.31"
         },
         "x65652": {
@@ -121,6 +113,14 @@
             "name_fr": "Le saigneur des agneaux",
             "npc_en": "H'lahono",
             "npc_fr": "H'lahono",
+            "patch": "4.31"
+        },
+        "x65657": {
+            "level": 3,
+            "name_en": "Back in the Water",
+            "name_fr": "La pêche aux bateaux",
+            "npc_en": "Sisipu",
+            "npc_fr": "Sisipu",
             "patch": "4.31"
         },
         "x66197": {
@@ -218,15 +218,6 @@
             "cNext": ["q.67925", "q.67926", "q.67927"],
             "patch": "4.31"
         },
-        "x70300": {
-            "level": 30,
-            "name_en": "A Faerie Tale Come True",
-            "name_fr": "Fée déguisée",
-            "npc_en": "Thubyrgeim",
-            "npc_fr": "Thubyrgeim",
-            "cPrev": ["q.66633"],
-            "patch": "6.4"
-        },
         "x66969": {
             "level": 17,
             "name_en": "An Ill-conceived Venture",
@@ -247,6 +238,15 @@
             "cNext": ["q.66698"],
             "cExclude": ["q.66236", "q.66238"],
             "patch": "4.31"
+        },
+        "x70300": {
+            "level": 30,
+            "name_en": "A Faerie Tale Come True",
+            "name_fr": "Fée déguisée",
+            "npc_en": "Thubyrgeim",
+            "npc_fr": "Thubyrgeim",
+            "cPrev": ["q.66633"],
+            "patch": "6.4"
         },
         "x66966": {
             "level": 50,
