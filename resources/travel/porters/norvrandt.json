@@ -1,127 +1,96 @@
 {
     "key": "norvrandt",
-    "groupName_en": "Norvrandt",
-    "groupName_fr": "Norvrandt",
+    "groupName": "@PLACE.NORVRANDT",
     "tasks": {
         "x57": {
             "name_en": "The Amaro Launch",
             "name_fr": "Jetée des amaros",
-            "zone_en": "The Crystarium",
-            "zone_fr": "Cristarium",
-            "type_en": "Amarokeep",
-            "type_fr": "Relais à amaros"
+            "zone": "@PLACE.THE_CRYSTARIUM",
+            "type": "@TYPE.PORTER.AMARO"
         },
         "x58": {
             "name_en": "The Derelicts",
             "name_fr": "La Fange",
-            "zone_en": "Eulmore",
-            "zone_fr": "Eulmore",
-            "type_en": "Amarokeep",
-            "type_fr": "Relais à amaros"
+            "zone": "@PLACE.EULMORE",
+            "type": "@TYPE.PORTER.AMARO"
         },
         "x59": {
             "name_en": "Fort Jobb",
             "name_fr": "Fort Jobb",
-            "zone_en": "Lakeland",
-            "zone_fr": "Grand-Lac",
-            "type_en": "Amarokeep",
-            "type_fr": "Relais à amaros"
+            "zone": "@PLACE.LAKELAND",
+            "type": "@TYPE.PORTER.AMARO"
         },
         "x60": {
             "name_en": "The Ostall Imperative",
             "name_fr": "L'Impératif d'Ostall",
-            "zone_en": "Lakeland",
-            "zone_fr": "Grand-Lac",
-            "type_en": "Amarokeep",
-            "type_fr": "Relais à amaros"
+            "zone": "@PLACE.LAKELAND",
+            "type": "@TYPE.PORTER.AMARO"
         },
         "x61": {
             "name_en": "Stilltide",
             "name_fr": "Douceonde",
-            "zone_en": "Kholusia",
-            "zone_fr": "Kholusia",
-            "type_en": "Amarokeep",
-            "type_fr": "Relais à amaros"
+            "zone": "@PLACE.KHOLUSIA",
+            "type": "@TYPE.PORTER.AMARO"
         },
         "x62": {
             "name_en": "Wright",
             "name_fr": "Cherpant",
-            "zone_en": "Kholusia",
-            "zone_fr": "Kholusia",
-            "type_en": "Amarokeep",
-            "type_fr": "Relais à amaros"
+            "zone": "@PLACE.KHOLUSIA",
+            "type": "@TYPE.PORTER.AMARO"
         },
         "x63": {
             "name_en": "Tomra",
             "name_fr": "Tomra",
-            "zone_en": "Kholusia",
-            "zone_fr": "Kholusia",
-            "type_en": "Amarokeep",
-            "type_fr": "Relais à amaros"
+            "zone": "@PLACE.KHOLUSIA",
+            "type": "@TYPE.PORTER.AMARO"
         },
         "x64": {
             "name_en": "Mord Souq",
             "name_fr": "Mord Souq",
-            "zone_en": "Amh Araeng",
-            "zone_fr": "Amh Araeng",
-            "type_en": "Amarokeep",
-            "type_fr": "Relais à amaros"
+            "zone": "@PLACE.AMH_ARAENG",
+            "type": "@TYPE.PORTER.AMARO"
         },
         "x65": {
             "name_en": "The Inn at Journey's Head",
             "name_fr": "Auberge du Grand Départ",
-            "zone_en": "Amh Araeng",
-            "zone_fr": "Amh Araeng",
-            "type_en": "Amarokeep",
-            "type_fr": "Relais à amaros"
+            "zone": "@PLACE.AMH_ARAENG",
+            "type": "@TYPE.PORTER.AMARO"
         },
         "x66": {
             "name_en": "Twine",
             "name_fr": "Queues-liées",
-            "zone_en": "Amh Araeng",
-            "zone_fr": "Amh Araeng",
-            "type_en": "Amarokeep",
-            "type_fr": "Relais à amaros"
+            "zone": "@PLACE.AMH_ARAENG",
+            "type": "@TYPE.PORTER.AMARO"
         },
         "x67": {
             "name_en": "Lydha Lran",
             "name_fr": "Lydha Lran",
-            "zone_en": "Il Mheg",
-            "zone_fr": "Il Mheg",
-            "type_en": "Summoning Stone",
-            "type_fr": "Rocher gazouillant"
+            "zone": "@PLACE.IL_MHEG",
+            "type": "@TYPE.PORTER.AMARO"
         },
         "x68": {
             "name_en": "Pla Enni",
             "name_fr": "Pla Enni",
-            "zone_en": "Il Mheg",
-            "zone_fr": "Il Mheg",
-            "type_en": "Summoning Stone",
-            "type_fr": "Rocher gazouillant"
+            "zone": "@PLACE.IL_MHEG",
+            "type": "@TYPE.PORTER.AMARO"
         },
         "x69": {
             "name_en": "Wolekdorf",
             "name_fr": "Wolekdorf",
-            "zone_en": "Il Mheg",
-            "zone_fr": "Il Mheg",
-            "type_en": "Summoning Stone",
-            "type_fr": "Rocher gazouillant"
+            "zone": "@PLACE.IL_MHEG",
+            "type": "@TYPE.PORTER.AMARO"
         },
         "x70": {
             "name_en": "Slitherbough",
             "name_fr": "Serpentige",
-            "zone_en": "Rak'tika Greatwood",
-            "zone_fr": "Rak'tika",
-            "type_en": "Amarokeep",
-            "type_fr": "Relais à amaros"
+            "zone": "@PLACE.RAK_TIKA",
+            "type": "@TYPE.PORTER.AMARO"
         },
         "x71": {
             "name_en": "Fanow",
             "name_fr": "Fanow",
-            "zone_en": "Rak'tika Greatwood",
-            "zone_fr": "Rak'tika",
-            "type_en": "Amarokeep",
-            "type_fr": "Relais à amaros"
+            "zone": "@PLACE.RAK_TIKA",
+            "type": "@TYPE.PORTER.AMARO"
         }
     }
 }

@@ -4,13 +4,11 @@
     "groupName_fr": "Matériaux",
     "headers": {
         "name": {
-            "header_en": "Material",
-            "header_fr": "Matériaux"
+            "header": "@HEADER.NAME"
         },
         "requirement": {
-            "link": true,
-            "header_en": "Requirement",
-            "header_fr": "Nécessite"
+            "header": "@HEADER.REQUIREMENTS",
+            "link": true
         }
     },
     "tasks": {

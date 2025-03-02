@@ -4,25 +4,21 @@
     "groupName_fr": "Quêtes",
     "headers": {
         "level": {
-            "header_en": "Level",
-            "header_fr": "Niveau"
+            "header": "@HEADER.LEVEL"
         },
         "name": {
-            "header_en": "Name",
-            "header_fr": "Nom"
+            "header": "@HEADER.NAME"
         },
         "npc": {
             "header_en": "NPC",
             "header_fr": "PNJ"
         },
         "unlock": {
-            "link": true,
-            "header_en": "Unlock",
-            "header_fr": "Débloque"
+            "header": "@HEADER.UNLOCK",
+            "link": true
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     }
 }

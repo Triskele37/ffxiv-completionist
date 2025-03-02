@@ -4,14 +4,12 @@
     "groupName_fr": "Niveau élémentaire",
     "headers": {
         "name": {
-            "width": 75,
-            "header_en": "Level",
-            "header_fr": "Niveau"
+            "header": "@HEADER.LEVEL",
+            "width": 75
         },
         "zone": {
-            "width": 130,
-            "header_en": "Zone",
-            "header_fr": "Zone"
+            "header": "@HEADER.ZONE",
+            "width": 130
         },
         "notes": {
             "link": true,

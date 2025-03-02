@@ -4,13 +4,11 @@
     "groupName_fr": "Missions d'incursion",
     "headers": {
         "level": {
-            "header_en": "Level",
-            "header_fr": "Niveau"
+            "header": "@HEADER.LEVEL"
         },
         "name": {
-            "link": true,
-            "header_en": "Dungeon",
-            "header_fr": "Donjon"
+            "header": "@HEADER.NAME",
+            "link": true
         }
     },
     "tasks": {

@@ -1,73 +1,61 @@
 {
     "key": "thanalan",
-    "groupName_en": "Thanalan",
-    "groupName_fr": "Thanalan",
+    "groupName": "@PLACE.THANALAN",
     "tasks": {
         "x0": {
-            "name_en": "The Goblet",
-            "name_fr": "La Coupe",
-            "method": "q.66060",
+            "name": "@PLACE.THE_GOBLET",
+            "source": "q.66060",
             "cSiblings": ["q.66060"]
         },
         "x1": {
-            "name_en": "Western Thanalan - 1",
-            "name_fr": "Thanalan occidental - 1",
-            "method": "q.66260",
+            "name": "@PLACE.WESTERN_THANALAN - 1",
+            "source": "q.66260",
             "cSiblings": ["q.66260"]
         },
         "x2": {
-            "name_en": "Western Thanalan - 2",
-            "name_fr": "Thanalan occidental - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.WESTERN_THANALAN - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         },
         "x3": {
-            "name_en": "Central Thanalan - 1",
-            "name_fr": "Thanalan central - 1",
-            "method": "q.66260",
+            "name": "@PLACE.CENTRAL_THANALAN - 1",
+            "source": "q.66260",
             "cSiblings": ["q.66260"]
         },
         "x4": {
-            "name_en": "Central Thanalan - 2",
-            "name_fr": "Thanalan central - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.CENTRAL_THANALAN - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         },
         "x5": {
-            "name_en": "Eastern Thanalan - 1",
-            "name_fr": "Thanalan oriental - 1",
-            "method": "q.66054",
+            "name": "@PLACE.EASTERN_THANALAN - 1",
+            "source": "q.66054",
             "cSiblings": ["q.66054"]
         },
         "x6": {
-            "name_en": "Eastern Thanalan - 2",
-            "name_fr": "Thanalan oriental - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.EASTERN_THANALAN - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         },
         "x7": {
-            "name_en": "Southern Thanalan - 1",
-            "name_fr": "Thanalan méridional - 1",
-            "method": "q.66358",
+            "name": "@PLACE.SOUTHERN_THANALAN - 1",
+            "source": "q.66358",
             "cSiblings": ["q.66358"]
         },
         "x8": {
-            "name_en": "Southern Thanalan - 2",
-            "name_fr": "Thanalan méridional - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.SOUTHERN_THANALAN - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         },
         "x9": {
-            "name_en": "Northern Thanalan - 1",
-            "name_fr": "Thanalan septentrional - 1",
-            "method": "q.66060",
+            "name": "@PLACE.NORTHERN_THANALAN - 1",
+            "source": "q.66060",
             "cSiblings": ["q.66060"]
         },
         "x10": {
-            "name_en": "Northern Thanalan - 2",
-            "name_fr": "Thanalan septentrional - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.NORTHERN_THANALAN - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         }
     }
 }

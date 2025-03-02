@@ -10,7 +10,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Housing Merchant - 5,000 gil",
             "source_fr": "Quincaillière - 5.000 gils",
-            "location": ["@ZONE.MIST", "@ZONE.THE_LAVENDER_BEDS", "@ZONE.THE_GOBLET", "@ZONE.SHIROGANE", "@ZONE.EMPYREUM"],
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
             "patch": "6.2"
         },
         "x17": {
@@ -20,7 +20,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Amber Trader - 3 Amber-encased Vilekin",
             "source_fr": "Collectionneuse D'ambre Rare - 3 Morceau d'ambre à insecte",
-            "location": "@ZONE.FOUNDATION",
+            "location": "@PLACE.FOUNDATION",
             "patch": "3.25"
         },
         "x47": {
@@ -30,7 +30,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Amber Trader - 6 Amber-encased Vilekin",
             "source_fr": "Collectionneuse D'ambre Rare - 6 Morceau d'ambre à insecte",
-            "location": "@ZONE.FOUNDATION",
+            "location": "@PLACE.FOUNDATION",
             "patch": "3.25"
         },
         "x394": {
@@ -48,7 +48,7 @@
             "category": ["@CATEGORY.PURCHASE", "@CATEGORY.CRAFTING"],
             "source_en": "Mark Quartermaster - 5,000 Wolf Mark",
             "source_fr": "Soldat Du Maelstrom - 5.000 Marque de loup",
-            "location": "@ZONE.WOLVES_DEN_PIER",
+            "location": "@PLACE.WOLVES_DEN_PIER",
             "patch": "3.25"
         },
         "x123": {
@@ -58,7 +58,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Enie - 600 Skybuilders' Scrip",
             "source_fr": "Enie - 600 Assignat d'Azurée",
-            "location": "@ZONE.THE_FIRMAMENT",
+            "location": "@PLACE.THE_FIRMAMENT",
             "patch": "3.55b"
         },
         "x171": {
@@ -68,7 +68,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Mark Quartermaster - 10,000 Wolf Mark",
             "source_fr": "Soldat Du Maelstrom - 10.000 Marque de loup",
-            "location": "@ZONE.WOLVES_DEN_PIER",
+            "location": "@PLACE.WOLVES_DEN_PIER",
             "patch": "4.15"
         },
         "x202": {
@@ -78,7 +78,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Mark Quartermaster - 10,000 Wolf Mark",
             "source_fr": "Soldat Du Maelstrom - 10.000 Marque de loup",
-            "location": "@ZONE.WOLVES_DEN_PIER",
+            "location": "@PLACE.WOLVES_DEN_PIER",
             "patch": "4.2"
         },
         "x346": {
@@ -88,7 +88,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Mark Quartermaster - 10,000 Wolf Mark",
             "source_fr": "Soldat Du Maelstrom - 10.000 Marque de loup",
-            "location": "@ZONE.WOLVES_DEN_PIER",
+            "location": "@PLACE.WOLVES_DEN_PIER",
             "patch": "5.15"
         },
         "x347": {
@@ -98,7 +98,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Mark Quartermaster - 10,000 Wolf Mark",
             "source_fr": "Soldat Du Maelstrom - 10.000 Marque de loup",
-            "location": "@ZONE.WOLVES_DEN_PIER",
+            "location": "@PLACE.WOLVES_DEN_PIER",
             "patch": "5.15"
         },
         "x525": {
@@ -108,7 +108,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Crystal Quartermaster - 1,000 Trophy Crystal",
             "source_fr": "Quartier-maître Du Maelstrom - 1.000 Cristaux-trophée",
-            "location": "@ZONE.WOLVES_DEN_PIER",
+            "location": "@PLACE.WOLVES_DEN_PIER",
             "patch": "6.1"
         },
         "x526": {
@@ -118,7 +118,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Crystal Quartermaster - 1,000 Trophy Crystal",
             "source_fr": "Quartier-maître Du Maelstrom - 1.000 Cristaux-trophée",
-            "location": "@ZONE.WOLVES_DEN_PIER",
+            "location": "@PLACE.WOLVES_DEN_PIER",
             "patch": "6.1"
         },
         "x527": {
@@ -128,7 +128,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Crystal Quartermaster - 1,000 Trophy Crystal",
             "source_fr": "Quartier-maître Du Maelstrom - 1.000 Cristaux-trophée",
-            "location": "@ZONE.WOLVES_DEN_PIER",
+            "location": "@PLACE.WOLVES_DEN_PIER",
             "patch": "6.1"
         },
         "x531": {
@@ -138,7 +138,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Gold Saucer Attendant - 50,000 MGP",
             "source_fr": "Préposé Aux Lots - 50.000 PGS",
-            "location": "@ZONE.THE_GOLD_SAUCER",
+            "location": "@PLACE.THE_GOLD_SAUCER",
             "patch": "6.1"
         },
         "x8": {
@@ -148,7 +148,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Gold Saucer Attendant - 15,000 MGP",
             "source_fr": "Préposé Aux Lots - 15.000 PGS",
-            "location": "@ZONE.THE_GOLD_SAUCER",
+            "location": "@PLACE.THE_GOLD_SAUCER",
             "patch": "3.25"
         },
         "x561": {
@@ -174,7 +174,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Gold Saucer Attendant - 30,000 MGP",
             "source_fr": "Préposé Aux Lots - 30.000 PGS",
-            "location": "@ZONE.THE_GOLD_SAUCER",
+            "location": "@PLACE.THE_GOLD_SAUCER",
             "patch": "4.45"
         },
         "x271": {
@@ -192,7 +192,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Gold Saucer Attendant - 50,000 MGP",
             "source_fr": "Préposé Aux Lots - 50.000 PGS",
-            "location": "@ZONE.THE_GOLD_SAUCER",
+            "location": "@PLACE.THE_GOLD_SAUCER",
             "patch": "4.45"
         },
         "x208": {
@@ -202,7 +202,7 @@
             "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source_en": "Anemos Lockbox",
             "source_fr": "Coffre verrouillé d'Anemos",
-            "location": "@ZONE.EUREKA_ANEMOS",
+            "location": "@PLACE.EUREKA_ANEMOS",
             "patch": "4.25"
         },
         "x209": {
@@ -212,7 +212,7 @@
             "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source_en": "Anemos Lockbox",
             "source_fr": "Coffre verrouillé d'Anemos",
-            "location": "@ZONE.EUREKA_ANEMOS",
+            "location": "@PLACE.EUREKA_ANEMOS",
             "patch": "4.25"
         },
         "x288": {
@@ -222,7 +222,7 @@
             "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source_en": "Hydatos Lockbox",
             "source_fr": "Coffre verrouillé d'Hydatos",
-            "location": "@ZONE.EUREKA_HYDATOS",
+            "location": "@PLACE.EUREKA_HYDATOS",
             "patch": "4.5"
         },
         "x289": {
@@ -232,7 +232,7 @@
             "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source_en": "Moisture-warped Lockbox",
             "source_fr": "Coffre rouillé",
-            "location": "@ZONE.EUREKA_HYDATOS",
+            "location": "@PLACE.EUREKA_HYDATOS",
             "patch": "4.5"
         },
         "x290": {
@@ -241,7 +241,7 @@
             "number": "26",
             "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source": "duty.exploratory-missions.the-forbidden-land-eureka.duties.0",
-            "location": "@ZONE.EUREKA_HYDATOS",
+            "location": "@PLACE.EUREKA_HYDATOS",
             "patch": "4.5"
         },
         "x237": {
@@ -251,7 +251,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Smithy - 10 Rathalos Scale",
             "source_fr": "Forgeron itinérant - 10 Écaille Rathalos",
-            "location": "@ZONE.KUGANE",
+            "location": "@PLACE.KUGANE",
             "patch": "4.36"
         },
         "x360": {
@@ -261,7 +261,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Maudlin Latool Ja - 500 Allied Seal",
             "source_fr": "Maudlin Latool Ja - 500 Insigne alliés",
-            "location": "@ZONE.UL_DAH_STEPS_OF_THAL",
+            "location": "@PLACE.UL_DAH_STEPS_OF_THAL",
             "patch": "5.15"
         },
         "x361": {
@@ -271,7 +271,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Maudlin Latool Ja - 500 Allied Seal",
             "source_fr": "Maudlin Latool Ja - 500 Insigne alliés",
-            "location": "@ZONE.UL_DAH_STEPS_OF_THAL",
+            "location": "@PLACE.UL_DAH_STEPS_OF_THAL",
             "patch": "5.15"
         },
         "x412": {
@@ -281,7 +281,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Maudlin Latool Ja - 500 Allied Seal",
             "source_fr": "Maudlin Latool Ja - 500 Insigne alliés",
-            "location": "@ZONE.UL_DAH_STEPS_OF_THAL",
+            "location": "@PLACE.UL_DAH_STEPS_OF_THAL",
             "patch": "5.45"
         },
         "x381": {
@@ -299,7 +299,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Enie - 1,200 Skybuilders' Scrip",
             "source_fr": "Enie - 1.200 Assignat d'Azurée",
-            "location": "@ZONE.THE_FIRMAMENT",
+            "location": "@PLACE.THE_FIRMAMENT",
             "patch": "5.21"
         },
         "x410": {
@@ -317,7 +317,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Enie - 1,200 Skybuilders' Scrip",
             "source_fr": "Enie - 1,200 Assignat d'Azurée",
-            "location": "@ZONE.THE_FIRMAMENT",
+            "location": "@PLACE.THE_FIRMAMENT",
             "patch": "5.41"
         },
         "x463": {
@@ -327,7 +327,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Enie - 1,200 Skybuilders' Scrip",
             "source_fr": "Enie - 1,200 Assignat d'Azurée",
-            "location": "@ZONE.THE_FIRMAMENT",
+            "location": "@PLACE.THE_FIRMAMENT",
             "patch": "5.5"
         },
         "x387": {
@@ -337,7 +337,7 @@
             "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source_en": "Southern Front Lockbox",
             "source_fr": "Coffre verrouillé du Front sud de Bozja",
-            "location": "@ZONE.BOZJAN_SOUTHERN_FRONT",
+            "location": "@PLACE.BOZJAN_SOUTHERN_FRONT",
             "patch": "5.35"
         },
         "x388": {
@@ -347,7 +347,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Resistance Supplier - 25 Bozjan Cluster",
             "source_fr": "Technicien - 25 Cristal bozjien",
-            "location": "@ZONE.BOZJAN_SOUTHERN_FRONT",
+            "location": "@PLACE.BOZJAN_SOUTHERN_FRONT",
             "patch": "5.35"
         },
         "x389": {
@@ -357,7 +357,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Resistance Supplier - 25 Bozjan Cluster",
             "source_fr": "Technicien - 25 Cristal bozjien",
-            "location": "@ZONE.BOZJAN_SOUTHERN_FRONT",
+            "location": "@PLACE.BOZJAN_SOUTHERN_FRONT",
             "patch": "5.35"
         },
         "x390": {
@@ -366,7 +366,7 @@
             "number": "39",
             "category": "@CATEGORY.PURCHASE",
             "source": "duty.exploratory-missions.the-bozjan-southern-front.duties.0",
-            "location": "@ZONE.BOZJAN_SOUTHERN_FRONT",
+            "location": "@PLACE.BOZJAN_SOUTHERN_FRONT",
             "patch": "5.35"
         },
         "x391": {
@@ -375,7 +375,7 @@
             "number": "40",
             "category": "@CATEGORY.PURCHASE",
             "source": "duty.exploratory-missions.the-bozjan-southern-front.duties.0",
-            "location": "@ZONE.BOZJAN_SOUTHERN_FRONT",
+            "location": "@PLACE.BOZJAN_SOUTHERN_FRONT",
             "patch": "5.35"
         },
         "x392": {
@@ -384,7 +384,7 @@
             "number": "41",
             "category": "@CATEGORY.PURCHASE",
             "source": "duty.exploratory-missions.the-bozjan-southern-front.duties.0",
-            "location": "@ZONE.BOZJAN_SOUTHERN_FRONT",
+            "location": "@PLACE.BOZJAN_SOUTHERN_FRONT",
             "patch": "5.35"
         },
         "x413": {
@@ -417,7 +417,7 @@
             "number": "45",
             "category": "@CATEGORY.FATE",
             "source": "duty.exploratory-missions.the-bozjan-southern-front.duties.3",
-            "location": "@ZONE.ZADNOR",
+            "location": "@PLACE.ZADNOR",
             "patch": "5.55"
         },
         "x544": {
@@ -427,7 +427,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Horrendous Hoarder - 4,000 Seafarer's Cowrie",
             "source_fr": "Marchandréa - 4.000 Assignat insulaire azur",
-            "location": "@ZONE.ISLAND_SANCTUARY",
+            "location": "@PLACE.ISLAND_SANCTUARY",
             "patch": "6.2"
         },
         "x545": {
@@ -437,7 +437,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Horrendous Hoarder - 4,000 Seafarer's Cowrie",
             "source_fr": "Marchandréa - 4.000 Assignat insulaire azur",
-            "location": "@ZONE.ISLAND_SANCTUARY",
+            "location": "@PLACE.ISLAND_SANCTUARY",
             "patch": "6.2"
         },
         "x572": {
@@ -455,7 +455,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Horrendous Hoarder - 4,000 Seafarer's Cowrie",
             "source_fr": "Marchandréa - 4.000 Assignat insulaire azur",
-            "location": "@ZONE.ISLAND_SANCTUARY",
+            "location": "@PLACE.ISLAND_SANCTUARY",
             "patch": "6.4"
         },
         "x602": {
@@ -465,7 +465,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Maudlin Latool Ja - 500 Allied Seal",
             "source_fr": "Maudlin Latool Ja - 500 Insigne alliés",
-            "location": "@ZONE.UL_DAH_STEPS_OF_THAL",
+            "location": "@PLACE.UL_DAH_STEPS_OF_THAL",
             "patch": "6.4"
         }
     }

@@ -1,63 +1,48 @@
 {
     "key": "gyr-abania",
-    "groupName_en": "Gyr Abania",
-    "groupName_fr": "Gyr Abania",
+    "groupName": "@PLACE.GYR_ABANIA",
     "tasks": {
         "x42": {
             "name_en": "Rhalgr's Reach",
             "name_fr": "L'Étendue de Rhalgr",
-            "zone_en": "Rhalgr's Reach",
-            "zone_fr": "L'Étendue de Rhalgr",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.RHALGRS_REACH",
+            "type": "@TYPE.PORTER.CHOCOBO"
         },
         "x43": {
             "name_en": "Castrum Oriens",
             "name_fr": "Castrum Oriens",
-            "zone_en": "The Fringes",
-            "zone_fr": "Les Marges",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.THE_FRINGES",
+            "type": "@TYPE.PORTER.CHOCOBO"
         },
         "x44": {
             "name_en": "The Peering Stones",
             "name_fr": "Rochers d'aguet",
-            "zone_en": "The Fringes",
-            "zone_fr": "Les Marges",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.THE_FRINGES",
+            "type": "@TYPE.PORTER.CHOCOBO"
         },
         "x45": {
             "name_en": "Ala Gannha",
             "name_fr": "Ala Gannha",
-            "zone_en": "The Peaks",
-            "zone_fr": "Les Pics",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.THE_PEAKS",
+            "type": "@TYPE.PORTER.CHOCOBO"
         },
         "x46": {
             "name_en": "Ala Ghiri",
             "name_fr": "Ala Ghiri",
-            "zone_en": "The Peaks",
-            "zone_fr": "Les Pics",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.THE_PEAKS",
+            "type": "@TYPE.PORTER.CHOCOBO"
         },
         "x47": {
             "name_en": "Porta Praetoria",
             "name_fr": "Porta Praetoria",
-            "zone_en": "The Lochs",
-            "zone_fr": "Les Lacs",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.THE_LOCHS",
+            "type": "@TYPE.PORTER.CHOCOBO"
         },
         "x48": {
             "name_en": "The Ala Mhigan Quarter",
             "name_fr": "Faubourg mhigois",
-            "zone_en": "The Lochs",
-            "zone_fr": "Les Lacs",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.THE_LOCHS",
+            "type": "@TYPE.PORTER.CHOCOBO"
         }
     }
 }

@@ -4,8 +4,7 @@
     "groupName_fr": "La Chasse",
     "headers": {
         "name": {
-            "header_en": "Name",
-            "header_fr": "Proie"
+            "header": "@HEADER.NAME"
         },
         "rank": {
             "filterable": true,
@@ -14,9 +13,8 @@
             "header_fr": "Rang"
         },
         "location": {
-            "filterable": true,
-            "header_en": "Location",
-            "header_fr": "Lieu"
+            "header": "@HEADER.LOCATION",
+            "filterable": true
         },
         "condition": {
             "header_en": "Condition",

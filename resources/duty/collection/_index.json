@@ -4,13 +4,11 @@
     "groupName_fr": "Objet précieux",
     "headers": {
         "name": {
-            "header_en": "Name",
-            "header_fr": "Nom"
+            "header": "@HEADER.NAME"
         },
         "source": {
-            "link": true,
-            "header_en": "Source",
-            "header_fr": "Source"
+            "header": "@HEADER.SOURCE",
+            "link": true
         }
     },
     "tasks": {

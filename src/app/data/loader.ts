@@ -31,6 +31,7 @@ export function loadJson(key: string) {
         const json = refs.svcElectron.sendSync(IPC_EVENT.LOAD_JSON, key);
 
         try {
+            translateCommonKeys(json);
             finalJson = {
                 ...json,
                 headers: mapHeaders(json),
@@ -53,12 +54,17 @@ export function loadJson(key: string) {
  */
 function mapHeaders(json: JSON_GROUP) {
     if(!json.headers) return null;
-    return Object.keys(json.headers)
-        .map((key) => ({
+    return Object.keys(json.headers).map((key) => {
+        const header = {
             key,
             ...json.headers[key],
             ...defaultHeaderProps(key, json.headers[key])
-        }));
+        };
+
+        translateCommonKeys(header);
+
+        return header;
+    });
 }
 
 /**
@@ -147,18 +153,29 @@ function translateCommonKeys(obj: JSON) {
  * @param value - should already have returned true when passed to `shouldTranslate`
  */
 function getCommonTranslation(value: string): string {
-    const keys = value.match(/[A-Z0-9_]+.[A-Z0-9_.]+/g);
-    if(!keys) return value;
-
     let updatedValue = value.substring(1);
+    let commonKeys: string[] | null;
 
-    for(const key of keys) {
-        // Attempt to get a common translation
-        const fullKey = `DATA.${key}`;
-        const common = refs.translate.instant(fullKey);
+    // Loop through the updated value (allows for nested common values)
+    while(commonKeys = updatedValue.match(/[A-Z0-9_]+.[A-Z0-9_.]+/g)) {
+        const replacements: Record<string, string> = {};
 
-        if(common !== fullKey) {
-            updatedValue = updatedValue.replace(key, common);
+        for(const commonKey of commonKeys) {
+            if(!replacements[commonKey]) {
+                // Attempt to get translation
+                const fullCommonKey = `DATA.${commonKey}`;
+                const commonTranslation = refs.translate.instant(fullCommonKey);
+
+                // No translation if these two are equal
+                if(commonTranslation !== fullCommonKey) {
+                    replacements[commonKey] = commonTranslation;
+                }
+            }
+        }
+
+        //TODO - though unlikely to be an issue, this won't replace duplicate commonKeys
+        for (const [commonKey, translation] of Object.entries(replacements)) {
+            updatedValue = updatedValue.replace(commonKey, translation);
         }
     }
 

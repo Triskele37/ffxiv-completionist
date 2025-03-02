@@ -1,71 +1,54 @@
 {
     "key": "the-far-east",
-    "groupName_en": "The Far East",
-    "groupName_fr": "Orient",
+    "groupName": "@PLACE.FAR_EAST",
     "tasks": {
         "x49": {
             "name_en": "Pier #2",
             "name_fr": "Jetée n°2",
-            "zone_en": "Kugane",
-            "zone_fr": "Kugane",
-            "type_en": "Falcon Porter",
-            "type_fr": "Fauconnier"
+            "zone": "@PLACE.KUGANE",
+            "type": "@TYPE.PORTER.FALCON"
         },
         "x50": {
             "name_en": "Tamamizu",
             "name_fr": "Tamamizu",
-            "zone_en": "The Ruby Sea",
-            "zone_fr": "Mer de Rubis",
-            "type_en": "Falcon Porter",
-            "type_fr": "Fauconnier"
+            "zone": "@PLACE.THE_RUBY_SEA",
+            "type": "@TYPE.PORTER.FALCON"
         },
         "x51": {
             "name_en": "Onokoro",
             "name_fr": "Onokoro",
-            "zone_en": "The Ruby Sea",
-            "zone_fr": "Mer de Rubis",
-            "type_en": "Falcon Porter",
-            "type_fr": "Fauconnier"
+            "zone": "@PLACE.THE_RUBY_SEA",
+            "type": "@TYPE.PORTER.FALCON"
         },
         "x52": {
             "name_en": "Namai",
             "name_fr": "Namai",
-            "zone_en": "Yanxia",
-            "zone_fr": "Yanxia",
-            "type_en": "Falcon Porter",
-            "type_fr": "Fauconnier"
+            "zone": "@PLACE.YANXIA",
+            "type": "@TYPE.PORTER.FALCON"
         },
         "x53": {
             "name_en": "The House of the Fierce",
             "name_fr": "Cercle des Intrépides",
-            "zone_en": "Yanxia",
-            "zone_fr": "Yanxia",
-            "type_en": "Falcon Porter",
-            "type_fr": "Fauconnier"
+            "zone": "@PLACE.YANXIA",
+            "type": "@TYPE.PORTER.FALCON"
         },
         "x54": {
             "name_en": "Reunion",
             "name_fr": "Ralliement",
-            "zone_en": "The Azim Steppe",
-            "zone_fr": "Steppe d'Azim",
-            "type_en": "Falcon Porter",
-            "type_fr": "Fauconnier"
+            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "type": "@TYPE.PORTER.FALCON"
         },
         "x55": {
             "name_en": "The Dawn Throne",
             "name_fr": "Trône de l'Aube",
-            "zone_en": "The Azim Steppe",
-            "zone_fr": "Steppe d'Azim",
-            "type_en": "Falcon Porter",
-            "type_fr": "Fauconnier"
+            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "type": "@TYPE.PORTER.FALCON"
         },
         "x56": {
             "name_en": "Mol Iloh",
             "name_fr": "Mol Iloh",
-            "zone_en": "The Azim Steppe",
-            "zone_fr": "Steppe d'Azim",
-            "type_en": "Falcon Porter",
-            "type_fr": "Fauconnier"
+            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "type": "@TYPE.PORTER.FALCON"
         }
     }
 }

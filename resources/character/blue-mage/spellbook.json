@@ -4,18 +4,16 @@
     "groupName_fr": "Codex bleu",
     "headers": {
         "number": {
-            "width": 100,
-            "header_en": "#",
-            "header_fr": "N°"
+            "header": "@HEADER.NUMBER",
+            "width": 100
         },
         "name": {
             "header_en": "Spell",
             "header_fr": "Sort"
         },
         "location": {
-            "link": true,
-            "header_en": "Location",
-            "header_fr": "Lieu"
+            "header": "@HEADER.LOCATION",
+            "link": true
         },
         "enemy": {
             "header_en": "Enemy",
@@ -963,7 +961,7 @@
             "number": "105",
             "name_en": "Goblin Punch",
             "name_fr": "Coup de poing gobelin",
-            "location": "@ZONE.KHOLUSIA (37, 28)",
+            "location": "@PLACE.KHOLUSIA (37, 28)",
             "enemy_en": "Hobgoblin",
             "enemy_fr": "Hobgoblin"
         },
@@ -979,7 +977,7 @@
             "number": "107",
             "name_en": "Schiltron",
             "name_fr": "Sheltron",
-            "location": "@ZONE.AMH_ARAENG (17, 30)",
+            "location": "@PLACE.AMH_ARAENG (17, 30)",
             "enemy_en": "Long-tailed Armadillo",
             "enemy_fr": "Tatou longue-queue"
         },
@@ -987,7 +985,7 @@
             "number": "108",
             "name_en": "Rehydration",
             "name_fr": "Réhydratation",
-            "location": "@ZONE.AMH_ARAENG (33.9, 11.9)",
+            "location": "@PLACE.AMH_ARAENG (33.9, 11.9)",
             "enemy_en": "Slippery Armadillo",
             "enemy_fr": "Tatou fuyard"
         },

@@ -4,8 +4,7 @@
     "groupName_fr": "Graines",
     "headers": {
         "name": {
-            "header_en": "Starter",
-            "header_fr": "Graine"
+            "header": "@HEADER.NAME"
         },
         "produce": {
             "link": true,
@@ -13,9 +12,8 @@
             "header_fr": "Cultures"
         },
         "requirement": {
-            "link": true,
-            "header_en": "Requirement",
-            "header_fr": "Nécessite"
+            "header": "@HEADER.REQUIREMENTS",
+            "link": true
         }
     },
     "tasks": {

@@ -4,16 +4,14 @@
     "groupName_fr": "Livres de récolte légendaire",
     "headers": {
         "name": {
-            "header_en": "Book",
-            "header_fr": "Tome"
+            "header": "@HEADER.NAME"
         },
         "npc": {
             "header_en": "NPC",
             "header_fr": "PNJ"
         },
         "requirements": {
-            "header_en": "Requirements",
-            "header_fr": "Condition"
+            "header": "@HEADER.REQUIREMENTS"
         }
     },
     "tasks": {

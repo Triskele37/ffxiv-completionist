@@ -1,55 +1,42 @@
 {
     "key": "ilsabard",
-    "groupName_en": "Ilsabard",
-    "groupName_fr": "Ilsabard",
+    "groupName": "@PLACE.ILSABARD",
     "tasks": {
         "x75": {
             "name_en": "Gajasimha Bridge",
             "name_fr": "Pont de Gajasimha",
-            "zone_en": "Radz-at-Han",
-            "zone_fr": "Radz-at-Han",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.RADZ_AT_HAN",
+            "type": "@TYPE.PORTER.CHOCOBO"
         },
         "x79": {
             "name_en": "Yedlihmad",
             "name_fr": "Yedlihmad",
-            "zone_en": "Thavnair",
-            "zone_fr": "Thavnair",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.THAVNAIR",
+            "type": "@TYPE.PORTER.CHOCOBO"
         },
         "x80": {
             "name_en": "The Great Work",
             "name_fr": "Le Grand Œuvre",
-            "zone_en": "Thavnair",
-            "zone_fr": "Thavnair",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.THAVNAIR",
+            "type": "@TYPE.PORTER.CHOCOBO"
         },
         "x81": {
             "name_en": "Palaka's Stand",
             "name_fr": "Écoute des Palaka",
-            "zone_en": "Thavnair",
-            "zone_fr": "Thavnair",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.THAVNAIR",
+            "type": "@TYPE.PORTER.CHOCOBO"
         },
         "x82": {
             "name_en": "Camp Broken Glass",
             "name_fr": "Camp Bris-de-glace",
-            "zone_en": "Garlemald",
-            "zone_fr": "Garlemald",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.GARLEMALD",
+            "type": "@TYPE.PORTER.CHOCOBO"
         },
         "x83": {
             "name_en": "Tertium",
             "name_fr": "Gare de Tertium",
-            "zone_en": "Garlemald",
-            "zone_fr": "Garlemald",
-            "type_en": "Chocobokeep",
-            "type_fr": "Relais à chocobos"
+            "zone": "@PLACE.GARLEMALD",
+            "type": "@TYPE.PORTER.CHOCOBO"
         }
     }
 }

@@ -4,17 +4,14 @@
     "groupName_fr": "Carnet d'artisanat",
     "headers": {
         "level": {
-            "width": 120,
-            "header_en": "Level",
-            "header_fr": "Niveau"
+            "header": "@HEADER.LEVEL",
+            "width": 120
         },
         "name": {
-            "header_en": "Name",
-            "header_fr": "Nom"
+            "header": "@HEADER.NAME"
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     },
     "isCraftingLogGroup": true

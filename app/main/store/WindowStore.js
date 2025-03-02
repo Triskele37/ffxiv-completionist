@@ -16,6 +16,11 @@ var electron_1 = require("electron");
 var path = require("path");
 var fs = require("fs");
 var ConfigStore_1 = require("./ConfigStore");
+/**
+ * Debug Flag
+ * - shows the main window regardless of load state (allows console access)
+ */
+var DEBUG_MODE = true;
 var WindowStore = /** @class */ (function () {
     function WindowStore() {
     }
@@ -68,9 +73,7 @@ var WindowStore = /** @class */ (function () {
     //#region------------------------------------------------------- Main Window
     WindowStore.loadMainWindow = function (isServe) {
         var oldState = WindowStore.loadWindowState();
-        WindowStore.main = new electron_1.BrowserWindow(__assign(__assign({}, oldState), { autoHideMenuBar: true, backgroundColor: '#1e1e1e', show: false, 
-            // show: true, // toggle for debugging
-            webPreferences: {
+        WindowStore.main = new electron_1.BrowserWindow(__assign(__assign({}, oldState), { autoHideMenuBar: true, backgroundColor: '#1e1e1e', show: DEBUG_MODE, webPreferences: {
                 nodeIntegration: true,
                 // Necessary for ElectronService to function
                 contextIsolation: false,

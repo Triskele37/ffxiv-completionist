@@ -26,7 +26,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Kasumi - 5,000 gil",
             "source_fr": "Kasumi - 5.000 gils",
-            "location": "@ZONE.THE_GOLD_SAUCER",
+            "location": "@PLACE.THE_GOLD_SAUCER",
             "patch": "4.2"
         },
         "x442": {
@@ -44,7 +44,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Housing Merchant - 5,000 gil",
             "source_fr": "Quincaillière - 5.000 gils",
-            "location": ["@ZONE.MIST", "@ZONE.THE_LAVENDER_BEDS", "@ZONE.THE_GOBLET", "@ZONE.SHIROGANE", "@ZONE.EMPYREUM"],
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
             "patch": "3.5"
         },
         "x551": {
@@ -54,7 +54,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Serpent Quartermaster - 40,000 Serpent Seal",
             "source_fr": "Officier De La Logistique - 40.000 Sceau de compagnie gridanien",
-            "location": "@ZONE.NEW_GRIDANIA",
+            "location": "@PLACE.NEW_GRIDANIA",
             "patch": "6.2"
         },
         "x552": {
@@ -64,7 +64,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Storm Quartermaster - 40,000 Storm Seal",
             "source_fr": "Officier De La Logistique - 40.000 Sceau de compagnie limséen",
-            "location": "@ZONE.LIMSA_LOMINSA_UPPER_DECKS",
+            "location": "@PLACE.LIMSA_LOMINSA_UPPER_DECKS",
             "patch": "6.2"
         },
         "x553": {
@@ -74,7 +74,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Flame Quartermaster - 40,000 Flame Seal",
             "source_fr": "Officier De La Logistique - 40.000 Sceau de compagnie uldien",
-            "location": "@ZONE.UL_DAH_STEPS_OF_NALD",
+            "location": "@PLACE.UL_DAH_STEPS_OF_NALD",
             "patch": "6.2"
         },
         "x532": {
@@ -84,7 +84,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Housing Merchant - 5,000 gil",
             "source_fr": "Quincaillière - 5.000 gils",
-            "location": ["@ZONE.MIST", "@ZONE.THE_LAVENDER_BEDS", "@ZONE.THE_GOBLET", "@ZONE.SHIROGANE", "@ZONE.EMPYREUM"],
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
             "patch": "6.1"
         },
         "x444": {
@@ -118,7 +118,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Zawawa - 350 Bicolor Gemstones",
             "source_fr": "Zawawa - 350 Gemme bicolore",
-            "location": "@ZONE.GARLEMALD",
+            "location": "@PLACE.GARLEMALD",
             "patch": "6.1"
         },
         "x96": {
@@ -128,7 +128,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Gold Saucer Attendant - 20,000 MGP",
             "source_fr": "Préposé Aux Lots - 20.000 PGS",
-            "location": "@ZONE.THE_GOLD_SAUCER",
+            "location": "@PLACE.THE_GOLD_SAUCER",
             "patch": "3.4"
         },
         "x129": {
@@ -146,7 +146,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Gold Saucer Attendant - 5,000 MGP",
             "source_fr": "Préposé Aux Lots - 5.000 PGS",
-            "location": "@ZONE.THE_GOLD_SAUCER",
+            "location": "@PLACE.THE_GOLD_SAUCER",
             "patch": "3.25"
         },
         "x315": {
@@ -189,7 +189,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Housing Merchant - 5,000 gil",
             "source_fr": "Quincaillière - 5.000 gils",
-            "location": ["@ZONE.MIST", "@ZONE.THE_LAVENDER_BEDS", "@ZONE.THE_GOBLET", "@ZONE.SHIROGANE", "@ZONE.EMPYREUM"],
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
             "patch": "4.2"
         },
         "x376": {
@@ -198,7 +198,7 @@
             "name_fr": "Stone and Steel",
             "category": "@CATEGORY.KUPO_OF_FORTUNE",
             "source": "@CATEGORY.KUPO_OF_FORTUNE",
-            "location": "@ZONE.THE_FIRMAMENT",
+            "location": "@PLACE.THE_FIRMAMENT",
             "patch": "5.21"
         },
         "x398": {
@@ -208,7 +208,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Enie - 1,200 Skybuilders' Scrips",
             "source_fr": "Enie - 1.200 Assignats Azurée",
-            "location": "@ZONE.THE_FIRMAMENT",
+            "location": "@PLACE.THE_FIRMAMENT",
             "patch": "5.31"
         },
         "x201": {
@@ -242,7 +242,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Confederate Custodian - 10 Empyrean Potsherd",
             "source_fr": "Fournisseuse De La Confédération - 10 Tesson de poterie empyréenne",
-            "location": "@ZONE.THE_RUBY_SEA",
+            "location": "@PLACE.THE_RUBY_SEA",
             "patch": "4.35"
         },
         "x225": {
@@ -276,7 +276,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Goushs Ooan - 350 Bicolor Gemstone",
             "source_fr": "Goushs Ooan - 350 Gemme bicolore",
-            "location": "@ZONE.THE_TEMPEST",
+            "location": "@PLACE.THE_TEMPEST",
             "patch": "5.2"
         },
         "x422": {
@@ -294,7 +294,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Junkmonger - 5,000 gil",
             "source_fr": "Quincaillière - 5.000 gils",
-            "location": "@ZONE.THE_DOMAN_ENCLAVE",
+            "location": "@PLACE.THE_DOMAN_ENCLAVE",
             "patch": "4.3"
         },
         "x266": {
@@ -344,7 +344,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Gold Saucer Attendant - 50,000 MGP",
             "source_fr": "Préposé Aux Lots - 50.000 PGS",
-            "location": "@ZONE.THE_GOLD_SAUCER",
+            "location": "@PLACE.THE_GOLD_SAUCER",
             "patch": "5.2"
         },
         "x385": {
@@ -394,7 +394,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Housing Merchant - 5,000 gil",
             "source_fr": "Quincaillière - 5.000 gils",
-            "location": ["@ZONE.MIST", "@ZONE.THE_LAVENDER_BEDS", "@ZONE.THE_GOBLET", "@ZONE.SHIROGANE", "@ZONE.EMPYREUM"],
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
             "patch": "6.3"
         },
         "x586": {
@@ -404,7 +404,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Housing Merchant - 5,000 gil",
             "source_fr": "Quincaillière - 5.000 gils",
-            "location": ["@ZONE.MIST", "@ZONE.THE_LAVENDER_BEDS", "@ZONE.THE_GOBLET", "@ZONE.SHIROGANE", "@ZONE.EMPYREUM"],
+            "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
             "patch": "6.3"
         },
         "x587": {
@@ -430,7 +430,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
             "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@ZONE.NEW_GRIDANIA", "@ZONE.LIMSA_LOMINSA_UPPER_DECKS", "@ZONE.UL_DAH_STEPS_OF_NALD"],
+            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x605": {
@@ -440,7 +440,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
             "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@ZONE.NEW_GRIDANIA", "@ZONE.LIMSA_LOMINSA_UPPER_DECKS", "@ZONE.UL_DAH_STEPS_OF_NALD"],
+            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x606": {
@@ -450,7 +450,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
             "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@ZONE.NEW_GRIDANIA", "@ZONE.LIMSA_LOMINSA_UPPER_DECKS", "@ZONE.UL_DAH_STEPS_OF_NALD"],
+            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x607": {
@@ -460,7 +460,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
             "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@ZONE.NEW_GRIDANIA", "@ZONE.LIMSA_LOMINSA_UPPER_DECKS", "@ZONE.UL_DAH_STEPS_OF_NALD"],
+            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x608": {
@@ -470,7 +470,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
             "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@ZONE.NEW_GRIDANIA", "@ZONE.LIMSA_LOMINSA_UPPER_DECKS", "@ZONE.UL_DAH_STEPS_OF_NALD"],
+            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x609": {
@@ -480,7 +480,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
             "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@ZONE.NEW_GRIDANIA", "@ZONE.LIMSA_LOMINSA_UPPER_DECKS", "@ZONE.UL_DAH_STEPS_OF_NALD"],
+            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x610": {
@@ -490,7 +490,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
             "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@ZONE.NEW_GRIDANIA", "@ZONE.LIMSA_LOMINSA_UPPER_DECKS", "@ZONE.UL_DAH_STEPS_OF_NALD"],
+            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x611": {
@@ -500,7 +500,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
             "source_fr": ["Leandryne - 1,000 gil", "Syznthota - 1,000 gil", "Fowke - 1,000 gil"],
-            "location": ["@ZONE.NEW_GRIDANIA", "@ZONE.LIMSA_LOMINSA_UPPER_DECKS", "@ZONE.UL_DAH_STEPS_OF_NALD"],
+            "location": ["@PLACE.NEW_GRIDANIA", "@PLACE.LIMSA_LOMINSA_UPPER_DECKS", "@PLACE.UL_DAH_STEPS_OF_NALD"],
             "patch": "6.4"
         },
         "x613": {
@@ -510,7 +510,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source_en": "Jonathas - 2 Achievement Certificate",
             "source_fr": "Jonathas - 2 Jeton de hauts faits",
-            "location": "@ZONE.OLD_GRIDANIA",
+            "location": "@PLACE.OLD_GRIDANIA",
             "patch": "6.4"
         },
         "x650": {
@@ -535,7 +535,7 @@
             "name_fr": "A Gentleman to Walk with Me",
             "category": "@CATEGORY.QUEST",
             "source": "q.70336",
-            "location": "@ZONE.THAVNAIR",
+            "location": "@PLACE.THAVNAIR",
             "patch": "6.55"
         }
     }

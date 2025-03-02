@@ -4,12 +4,10 @@
     "groupName_fr": "Actions oubliées",
     "headers": {
         "name": {
-            "header_en": "Action",
-            "header_fr": "Action"
+            "header": "@HEADER.NAME"
         },
         "category": {
-            "header_en": "Category",
-            "header_fr": "Catégorie"
+            "header": "@HEADER.CATEGORY"
         },
         "fragment": {
             "filterable": true,

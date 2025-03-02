@@ -4,18 +4,15 @@
     "groupName_fr": "Installations",
     "headers": {
         "name": {
-            "header_en": "Item",
-            "header_fr": "Objet"
+            "header": "@HEADER.NAME"
         },
         "requires": {
-            "link": true,
-            "header_en": "Requires",
-            "header_fr": "Nécessite"
+            "header": "@HEADER.REQUIREMENTS",
+            "link": true
         },
         "unlocks": {
-            "link": true,
-            "header_en": "Unlocks",
-            "header_fr": "Débloque"
+            "header": "@HEADER.UNLOCK",
+            "link": true
         }
     },
     "tasks": {

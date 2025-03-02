@@ -4,16 +4,14 @@
     "groupName_fr": "Livres d'artisanat expert",
     "headers": {
         "name": {
-            "header_en": "Book",
-            "header_fr": "Livre"
+            "header": "@HEADER.NAME"
         },
         "purchase": {
             "header_en": "Purchase",
             "header_fr": "Achat"
         },
         "requirements": {
-            "header_en": "Requirements",
-            "header_fr": "Condition"
+            "header": "@HEADER.REQUIREMENTS"
         }
     },
     "isCraftingLogGroup": false,

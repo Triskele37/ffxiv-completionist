@@ -97,7 +97,13 @@ function diveResources(root_1) {
                                     case 4:
                                         file = _a.sent();
                                         cacheKey = pathToKey(root, entityPath);
-                                        exports.JSON_CACHE[cacheKey] = JSON.parse(file);
+                                        try {
+                                            exports.JSON_CACHE[cacheKey] = JSON.parse(file);
+                                        }
+                                        catch (e) {
+                                            console.error("Error Loading: ".concat(entityPath));
+                                            console.error(e);
+                                        }
                                         _a.label = 5;
                                     case 5: return [2 /*return*/];
                                 }

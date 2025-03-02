@@ -592,6 +592,24 @@
         "SAVE_FAILED_DETAIL": "Une sauvegarde temporaire a été créée"
     },
     "DATA": {
+        "HEADER": {
+            "NUMBER": "N°",
+            "LEVEL": "Niveau",
+            "NAME": "Nom",
+            "TYPE": "Type",
+            "CATEGORY": "Catégorie",
+            "DESCRIPTION": "Description",
+            "SOURCE": "Source",
+            "ZONE": "Zone",
+            "LOCATION": "Emplacement",
+            "COORDINATES": "Coordonnées",
+            "POINTS": "Points",
+            "REWARD": "Récompense",
+            "REQUIREMENTS": "Conditions",
+            "UNLOCK": "Débloqué",
+            "PATCH": "Patch",
+            "FATE": "ALÉA"
+        },
         "CLASS_JOB": {
             "GLA": "Gladiateur",
             "PGL": "Pugiliste",
@@ -641,8 +659,9 @@
             "VPR": "Rôdeur Vipère",
             "PCT": "Pictomancien"
         },
-        "ZONE": {
+        "PLACE": {
             "LA_NOSCEA": "Noscea",
+            "LIMSA_LOMINSA": "Limsa Lominsa",
             "LIMSA_LOMINSA_LOWER_DECKS": "Limsa Lominsa - L'Entrepont",
             "LIMSA_LOMINSA_UPPER_DECKS": "Limsa Lominsa - Le Tillac",
             "MIST": "Brumée",
@@ -654,16 +673,8 @@
             "OUTER_LA_NOSCEA": "Noscea extérieure",
             "WOLVES_DEN_PIER": "Jetée de l'Antre des loups",
 
-            "THE_BLACK_SHROUD": "Forêt de Sombrelinceul",
-            "NEW_GRIDANIA": "Nouvelle Gridania",
-            "OLD_GRIDANIA": "Vieille Gridania",
-            "THE_LAVENDER_BEDS": "Lavendière",
-            "CENTRAL_SHROUD": "Forêt centrale",
-            "EAST_SHROUD": "Forêt de l'est",
-            "SOUTH_SHROUD": "Forêt du sud",
-            "NORTH_SHROUD": "Forêt du nord",
-
             "THANALAN": "Thanalan",
+            "UL_DAH": "Ul'dah",
             "UL_DAH_STEPS_OF_NALD": "Ul'dah - Faubourg de Nald",
             "UL_DAH_STEPS_OF_THAL": "Ul'dah - Faubourg de Thal",
             "THE_GOBLET": "La Coupe",
@@ -677,27 +688,48 @@
             "CHOCOBO_SQUARE": "Square des chocobos",
             "BATTLE_HALL": "Arène Triple Triade",
 
-            "MOR_DHONA": "Mor Dhona",
-            "COERTHAS_CENTRAL_HIGHLANDS": "Hautes terres du Coerthas central",
+            "THE_BLACK_SHROUD": "Forêt de Sombrelinceul",
+            "GRIDANIA": "Gridania",
+            "NEW_GRIDANIA": "Nouvelle Gridania",
+            "OLD_GRIDANIA": "Vieille Gridania",
+            "THE_LAVENDER_BEDS": "Lavendière",
+            "CENTRAL_SHROUD": "Forêt centrale",
+            "EAST_SHROUD": "Forêt de l'est",
+            "SOUTH_SHROUD": "Forêt du sud",
+            "NORTH_SHROUD": "Forêt du nord",
 
+            "ISHGARD": "Ishgard",
+            "COERTHAS": "Coerthas",
+            "ISHGARD_AND_COERTHAS": "Environs d'Ishgard",
+            "COERTHAS_CENTRAL_HIGHLANDS": "Hautes terres du Coerthas central",
             "COERTHAS_WESTERN_HIGHLANDS": "Hautes terres du Coerthas occidental",
             "FOUNDATION": "Ishgard - L'Assise",
             "THE_PILLARS": "Ishgard - Les Contreforts",
             "THE_FIRMAMENT": "Azurée",
             "EMPYREUM": "Empyrée",
             "FORTEMPS_MANOR": "Manoir des Fortemps",
+
+            "MOR_DHONA": "Mor Dhona",
+
+            "ABALATHIA": "Abalathia",
             "THE_SEA_OF_CLOUDS": "L'Écume des cieux d'Abalathia",
             "AZYS_LLA": "Azys Lla",
-            "THE_DRAVANIAN_FORELANDS": "Avant-pays dravanien",
+
+            "DRAVANIA": "Dravania",
             "THE_CHURNING_MISTS": "L'Écume des cieux de Dravania",
+            "THE_DRAVANIAN_FORELANDS": "Avant-pays dravanien",
             "THE_DRAVANIAN_HINTERLANDS": "Arrière-pays dravanien",
             "MATOYAS_CAVE": "Caverne de Matoya",
             "IDYLLSHIRE": "Idyllée",
 
+            "GYR_ABANIA": "Gyr Abania",
             "RHALGRS_REACH": "L'Étendue de Rhalgr",
             "THE_FRINGES": "Les Marges",
             "THE_PEAKS": "Les Pics",
             "THE_LOCHS": "Les Lacs",
+
+            "FAR_EAST": "Orient",
+            "OTHARD": "Othard",
             "KUGANE": "Kugane",
             "SHIROGANE": "Shirogane",
             "THE_RUBY_SEA": "Mer de Rubis",
@@ -718,21 +750,44 @@
             "IL_MHEG": "Il Mheg",
             "RAK_TIKA": "Rak'tika",
             "THE_TEMPEST": "La Tempête",
+
             "GANGOS": "Gangos",
             "BOZJAN_SOUTHERN_FRONT": "Front sud de Bozja",
             "ZADNOR": "Hauts plateaux de Zadnor",
             "TERNCLIFF": "Rocasternes",
 
+            "THE_NORTHERN_EMPTY": "Mers du Nord",
             "OLD_SHARLAYAN": "Vieille Sharlayan",
             "LABYRINTHOS": "Le Labyrinthos",
+
+            "ILSABARD": "Ilsabard",
             "RADZ_AT_HAN": "Radz-at-Han",
             "THAVNAIR": "Thavnair",
             "GARLEMALD": "Garlemald",
-            "MARE_LAMENTORUM": "Mare Lamentorum",
-            "ELPIS": "Elpis",
-            "ULTIMA_THULE": "Ultima Thulé",
-            "ISLAND_SANCTUARY": "Félicité insulaire",
 
+            "THE_SEA_OF_STARS": "Espace intersidéral",
+            "MARE_LAMENTORUM": "Mare Lamentorum",
+            "ULTIMA_THULE": "Ultima Thulé",
+
+            "THE_WORLD_UNSUNDERED": "Ancien monde",
+            "ELPIS": "Elpis",
+
+            "YOK_TURAL": "Yok Tural",
+            "TULIYOLLAL": "Tuliyollal",
+            "URQOPACHA": "Urqopacha",
+            "KOZAMAUKA": "Kozama'uka",
+            "YAK_TEL": "Yak T'el",
+
+            "XAK_TURAL": "XAK Tural",
+            "SHAALOANI": "Shaaloani",
+            "HERITAGE_FOUND": "L'Hoirie recouvrée",
+            "SOLUTION_NINE": "Solution Neuf",
+
+            "UNLOST_WORLD": "Unlost World",
+            "LIVING_MEMORY": "La Mémoire vivante",
+
+            "OTHERS": "Autres",
+            "ISLAND_SANCTUARY": "Félicité insulaire",
             "THE_HIGH_SEAS": {
                 "GALADION_BAY": "Baie de Galadion",
                 "RHOTANO_SEA": "Mer de Rhotano",
@@ -745,22 +800,7 @@
                 "KUGANE": "Baie de Kugane",
                 "THE_RUBY_SEA": "Mer de Rubis",
                 "THE_ONE_RIVER": "Muni"
-            },
-
-            "SOLUTION_NINE": "Solution Neuf",
-            "TULIYOLLAL": "Tuliyollal",
-            "URQOPACHA": "Urqopacha",
-            "KOZAMAUKA": "Kozama'uka",
-            "YAK_TEL": "Yak T'el",
-            "SHAALOANI": "Shaaloani",
-            "HERITAGE_FOUND": "L'Hoirie recouvrée",
-            "LIVING_MEMORY": "La Mémoire vivante"
-        },
-        "REGION": {
-            "ABALATHIA": "Abalathia",
-            "DRAVANIA": "Dravania",
-            "GYR_ABANIA": "Gyr Abania",
-            "OTHARD": "Othard"
+            }
         },
         "FISH": {
             "BAIT": {
@@ -917,6 +957,18 @@
             "VENTURE": "Servant",
             "VOYAGE": "Expédition",
             "WONDROUS_TAILS": "Carnet de Khloe"
+        },
+        "TYPE": {
+            "AETHERYTE": {
+                "CRYSTAL": "Éthérite",
+                "SHARD": "Éthérite urbaine"
+            },
+            "PORTER": {
+                "AMARO": "Relais à amaros",
+                "CHOCOBO": "Relais à chocobos",
+                "FALCON": "Fauconnier",
+                "STONE": "Rocher gazouillant"
+            }
         },
         "SOCIETY": {
             "MAELSTROM": "Le Maelstrom",

@@ -4,21 +4,18 @@
     "groupName_fr": "Enregistrement",
     "headers": {
         "entry": {
-            "width": 100,
-            "header_en": "Entry",
-            "header_fr": "Entrée"
+            "header": "@HEADER.NUMBER",
+            "width": 100
         },
         "name": {
-            "header_en": "Name",
-            "header_fr": "Nom"
+            "header": "@HEADER.NAME"
         },
         "steps": {
             "header_en": "Steps",
             "header_fr": "Étapes"
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {

@@ -1,61 +1,51 @@
 {
     "key": "the-black-shroud",
-    "groupName_en": "The Black Shroud",
-    "groupName_fr": "Forêt de Sombrelinceul",
+    "groupName": "@PLACE.THE_BLACK_SHROUD",
     "tasks": {
         "x0": {
-            "name_en": "The Lavender Beds",
-            "name_fr": "Lavendière",
-            "method": "q.66060",
+            "name": "@PLACE.THE_LAVENDER_BEDS",
+            "source": "q.66060",
             "cSiblings": ["q.66060"]
         },
         "x1": {
-            "name_en": "Central Shroud - 1",
-            "name_fr": "Forêt centrale - 1",
-            "method": "q.66260",
+            "name": "@PLACE.CENTRAL_SHROUD - 1",
+            "source": "q.66260",
             "cSiblings": ["q.66260"]
         },
         "x2": {
-            "name_en": "Central Shroud - 2",
-            "name_fr": "Forêt centrale - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.CENTRAL_SHROUD - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         },
         "x3": {
-            "name_en": "East Shroud - 1",
-            "name_fr": "Forêt de l'est - 1",
-            "method": "q.66260",
+            "name": "@PLACE.EAST_SHROUD - 1",
+            "source": "q.66260",
             "cSiblings": ["q.66260"]
         },
         "x4": {
-            "name_en": "East Shroud - 2",
-            "name_fr": "Forêt de l'est - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.EAST_SHROUD - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         },
         "x5": {
-            "name_en": "South Shroud - 1",
-            "name_fr": "Forêt du sud - 1",
-            "method": "q.66312",
+            "name": "@PLACE.SOUTH_SHROUD - 1",
+            "source": "q.66312",
             "cSiblings": ["q.66312"]
         },
         "x6": {
-            "name_en": "South Shroud - 2",
-            "name_fr": "Forêt du sud - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.SOUTH_SHROUD - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         },
         "x7": {
-            "name_en": "North Shroud - 1",
-            "name_fr": "Forêt du nord - 1",
-            "method": "q.66335",
+            "name": "@PLACE.NORTH_SHROUD - 1",
+            "source": "q.66335",
             "cSiblings": ["q.66335"]
         },
         "x8": {
-            "name_en": "North Shroud - 2",
-            "name_fr": "Forêt du nord - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.NORTH_SHROUD - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         }
     }
 }

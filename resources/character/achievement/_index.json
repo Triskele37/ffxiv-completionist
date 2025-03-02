@@ -4,27 +4,22 @@
     "groupName_fr": "Hauts faits",
     "headers": {
         "name": {
-            "header_en": "Name",
-            "header_fr": "Nom"
+            "header": "@HEADER.NAME"
         },
         "description": {
-            "header_en": "Description",
-            "header_fr": "Description"
+            "header": "@HEADER.DESCRIPTION"
         },
         "points": {
+            "header": "@HEADER.POINTS",
             "filterable": true,
-            "width": 100,
-            "header_en": "Points",
-            "header_fr": "Points"
+            "width": 100
         },
         "reward": {
-            "link": true,
-            "header_en": "Reward",
-            "header_fr": "Récompense"
+            "header": "@HEADER.REWARD",
+            "link": true
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     }
 }

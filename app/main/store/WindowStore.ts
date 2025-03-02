@@ -4,6 +4,12 @@ import * as fs from 'fs';
 
 import { ConfigStore } from './ConfigStore';
 
+/**
+ * Debug Flag
+ * - shows the main window regardless of load state (allows console access)
+ */
+const DEBUG_MODE = false;
+
 export class WindowStore {
     private static isServe: boolean;
     private static maxOnShow: boolean;
@@ -74,8 +80,7 @@ export class WindowStore {
             ...oldState,
             autoHideMenuBar: true,
             backgroundColor: '#1e1e1e',
-            show: false,
-            // show: true, // toggle for debugging
+            show: DEBUG_MODE,
             webPreferences: {
                 nodeIntegration: true,
                 // Necessary for ElectronService to function

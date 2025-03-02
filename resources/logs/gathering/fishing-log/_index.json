@@ -4,29 +4,23 @@
     "groupName_fr": "Carnet de pêche",
     "headers": {
         "level": {
-            "header_en": "Level",
-            "header_fr": "Niveau"
+            "header": "@HEADER.LEVEL"
         },
         "name": {
-            "header_en": "Log",
-            "header_fr": "Entrée"
+            "header": "@HEADER.NAME"
         },
         "zone": {
-            "header_en": "Zone",
-            "header_fr": "Zone"
+            "header": "@HEADER.ZONE"
         },
         "location": {
-            "header_en": "Location",
-            "header_fr": "Lieu"
+            "header": "@HEADER.LOCATION"
         },
         "type": {
-            "filterable": true,
-            "header_en": "Type",
-            "header_fr": "Type"
+            "header": "@HEADER.TYPE",
+            "filterable": true
         },
         "req": {
-            "header_en": "Req.",
-            "header_fr": "Condition"
+            "header": "@HEADER.REQUIREMENTS"
         }
     }
 }

@@ -1,167 +1,126 @@
 {
     "key": "ishgard-and-coerthas",
-    "groupName_en": "Ishgard & Coerthas",
-    "groupName_fr": "Environs d'Ishgard",
+    "groupName": "@PLACE.ISHGARD_AND_COERTHAS",
     "tasks": {
         "x54": {
             "name_en": "Foundation",
             "name_fr": "Ishgard / Place de l'Éthérite",
-            "zone_en": "Foundation",
-            "zone_fr": "Ishgard - L'Assise",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.FOUNDATION",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x55": {
             "name_en": "The Forgotten Knight",
             "name_fr": "Le Chevalier oublié",
-            "zone_en": "Foundation",
-            "zone_fr": "Ishgard - L'Assise",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.FOUNDATION",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x56": {
             "name_en": "Skysteel Manufactory",
             "name_fr": "Manufacture de Cielacier",
-            "zone_en": "Foundation",
-            "zone_fr": "Ishgard - L'Assise",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.FOUNDATION",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x57": {
             "name_en": "The Brume",
             "name_fr": "Brouillasse",
-            "zone_en": "Foundation",
-            "zone_fr": "Ishgard - L'Assise",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.FOUNDATION",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x58": {
             "name_en": "Athenaeum Astrologicum",
             "name_fr": "Collège d'astromancie Saint-Guenril (aérodrome d'Ishgard)",
-            "zone_en": "The Pillars",
-            "zone_fr": "Ishgard - Les Contreforts",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.THE_PILLARS",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x59": {
             "name_en": "The Jeweled Crozier",
             "name_fr": "Marché (Crosseron précieux)",
-            "zone_en": "The Pillars",
-            "zone_fr": "Ishgard - Les Contreforts",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.THE_PILLARS",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x60": {
             "name_en": "Saint Reymanaud Cathedral",
             "name_fr": "Cathédrale Saint-Reymanaud (scolasticat Saint-Endalim)",
-            "zone_en": "The Pillars",
-            "zone_fr": "Ishgard - Les Contreforts",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.THE_PILLARS",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x61": {
             "name_en": "The Tribunal",
             "name_fr": "Tribunal du Saint-Office",
-            "zone_en": "The Pillars",
-            "zone_fr": "Ishgard - Les Contreforts",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.THE_PILLARS",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x62": {
             "name_en": "The Last Vigil",
             "name_fr": "Le Dernier Vigile (manoir des Fortemps)",
-            "zone_en": "The Pillars",
-            "zone_fr": "Ishgard - Les Contreforts",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.THE_PILLARS",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x63": {
             "name_en": "Camp Dragonhead",
             "name_fr": "Camp de la Tête du dragon",
-            "zone_en": "Coerthas Central Highlands",
-            "zone_fr": "Hautes terres du Coerthas central",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x64": {
             "name_en": "Falcon's Nest",
             "name_fr": "Nid du faucon",
-            "zone_en": "Coerthas Western Highlands",
-            "zone_fr": "Hautes terres du Coerthas occidentale",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.COERTHAS_WESTERN_HIGHLANDS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x65": {
             "name_en": "Camp Cloudtop",
             "name_fr": "Camp de Cime-des-nuages",
-            "zone_en": "The Sea of Clouds",
-            "zone_fr": "L'Écume des cieux d'Abalathia",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x66": {
             "name_en": "Ok' Zundu",
             "name_fr": "Ok' Zundu",
-            "zone_en": "The Sea of Clouds",
-            "zone_fr": "L'Écume des cieux d'Abalathia",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_SEA_OF_CLOUDS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x67": {
             "name_en": "Helix",
             "name_fr": "Hélice",
-            "zone_en": "Azys Lla",
-            "zone_fr": "Azys Lla",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.AZYS_LLA",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x68": {
             "name_en": "Idyllshire",
             "name_fr": "Idyllée / Place de l'Éthérite",
-            "zone_en": "Idyllshire",
-            "zone_fr": "Idyllée",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.IDYLLSHIRE",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x69": {
             "name_en": "West Idyllshire",
             "name_fr": "Idyllée ouest",
-            "zone_en": "Idyllshire",
-            "zone_fr": "Idyllée",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.IDYLLSHIRE",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x70": {
             "name_en": "Tailfeather",
             "name_fr": "La Penne",
-            "zone_en": "The Dravanian Forelands",
-            "zone_fr": "Avant-pays dravanien",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_DRAVANIAN_FORELANDS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x71": {
             "name_en": "Anyx Trine",
             "name_fr": "Annexe Trine",
-            "zone_en": "The Dravanian Forelands",
-            "zone_fr": "Avant-pays dravanien",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_DRAVANIAN_FORELANDS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x72": {
             "name_en": "Moghome",
             "name_fr": "Nid-Mog",
-            "zone_en": "The Churning Mists",
-            "zone_fr": "L'Écume des cieux de Dravania",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_CHURNING_MISTS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x73": {
             "name_en": "Zenith",
             "name_fr": "Zénith",
-            "zone_en": "The Churning Mists",
-            "zone_fr": "L'Écume des cieux de Dravania",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_CHURNING_MISTS",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         }
     }
 }

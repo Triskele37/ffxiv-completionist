@@ -4,8 +4,7 @@
     "groupName_fr": "Éthérites",
     "headers": {
         "name": {
-            "header_en": "Name",
-            "header_fr": "Nom"
+            "header": "@HEADER.NAME"
         },
         "rankReq": {
             "header_en": "Rank Required",
@@ -16,8 +15,7 @@
             "header_fr": "Zone"
         },
         "coordinates": {
-            "header_en": "Coordinates",
-            "header_fr": "Coordonnées"
+            "header": "@HEADER.COORDINATES"
         }
     },
     "tasks": {

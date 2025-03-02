@@ -13,13 +13,11 @@
             "header_fr": "Carte"
         },
         "source": {
-            "link": true,
-            "header_en": "Source",
-            "header_fr": "Méthode d'Acquisition"
+            "header": "@HEADER.SOURCE",
+            "link": true
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     }
 }

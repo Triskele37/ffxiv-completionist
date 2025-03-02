@@ -4,8 +4,7 @@
     "groupName_fr": "Donjon sans fond",
     "headers": {
         "name": {
-            "header_en": "Dungeon",
-            "header_fr": "Donjon"
+            "header": "@HEADER.NAME"
         },
         "zone": {
             "header_en": "Entrance Zone",
@@ -15,14 +14,12 @@
             "header_en": "Entrance Location",
             "header_fr": "Lieu d'entrée"
         },
-        "startingQuest": {
-            "link": true,
-            "header_en": "Starting Quest",
-            "header_fr": "Quête de départ"
+        "unlock": {
+            "header": "@HEADER.UNLOCK",
+            "link": true
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     },
     "defaultCompletion": 0,
@@ -31,12 +28,12 @@
         "x174": {
             "name_en": "The Palace of the Dead",
             "name_fr": "Palais des morts",
-            "zone": "@ZONE.SOUTH_SHROUD",
+            "zone": "@PLACE.SOUTH_SHROUD",
             "location": "(25.2, 20.6)",
             "patch": "3.35",
             "minValue": 0,
             "maxValue": 200,
-            "startingQuest": "q.67092",
+            "unlock": "q.67092",
             "cPrevAt": {
                 "51": ["q.67923"]
             },
@@ -55,12 +52,12 @@
         "x540": {
             "name_en": "Heaven-on-High",
             "name_fr": "Pilier des Cieux",
-            "zone": "@ZONE.THE_RUBY_SEA",
+            "zone": "@PLACE.THE_RUBY_SEA",
             "location": "(21.4, 9.2)",
             "patch": "4.35",
             "minValue": 0,
             "maxValue": 100,
-            "startingQuest": "q.68667",
+            "unlock": "q.68667",
             "cPrevAt": {
                 "31": "q.68668"
             },
@@ -76,12 +73,12 @@
         "x897": {
             "name_en": "Eureka Orthos",
             "name_fr": "Eurêka Orthos",
-            "zone": "@ZONE.MOR_DHONA",
+            "zone": "@PLACE.MOR_DHONA",
             "location": "(34.8, 19.3)",
             "patch": "6.35",
             "minValue": 0,
             "maxValue": 100,
-            "startingQuest": "q.70199",
+            "unlock": "q.70199",
             "cSiblingsAt": {
                 "0": ["q.70199"],
                 "10": ["a.3174"],

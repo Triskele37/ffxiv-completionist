@@ -4,12 +4,10 @@
     "groupName_fr": "Carnet d'exploration",
     "headers": {
         "vista": {
-            "header_en": "#",
-            "header_fr": "#"
+            "header": "@HEADER.NUMBER"
         },
         "name": {
-            "header_en": "Name",
-            "header_fr": "Nom"
+            "header": "@HEADER.NAME"
         },
         "emote": {
             "filterable": true,
@@ -17,12 +15,10 @@
             "header_fr": "Emote"
         },
         "zone": {
-            "header_en": "Zone",
-            "header_fr": "Zone"
+            "header": "@HEADER.ZONE"
         },
         "location": {
-            "header_en": "Location",
-            "header_fr": "Coordonnées"
+            "header": "@HEADER.COORDINATES"
         }
     }
 }

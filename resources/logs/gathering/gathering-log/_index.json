@@ -4,21 +4,17 @@
     "groupName_fr": "Carnet de récolte",
     "headers": {
         "level": {
-            "width": 120,
-            "header_en": "Level",
-            "header_fr": "Niveau"
+            "header": "@HEADER.LEVEL",
+            "width": 120
         },
         "name": {
-            "header_en": "Name",
-            "header_fr": "Objet"
+            "header": "@HEADER.NAME"
         },
         "zone": {
-            "header_en": "Zone",
-            "header_fr": "Zone"
+            "header": "@HEADER.ZONE"
         },
         "coordinates": {
-            "header_en": "Coordinates",
-            "header_fr": "Coordonnées"
+            "header": "@HEADER.COORDINATES"
         },
         "closestAetheryte": {
             "header_en": "Closest Aetheryte",
@@ -30,8 +26,7 @@
             "header_fr": "Horaire"
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     }
 }

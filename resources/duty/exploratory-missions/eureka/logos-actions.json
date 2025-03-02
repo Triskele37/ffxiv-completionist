@@ -4,12 +4,10 @@
     "groupName_fr": "Actions Logos",
     "headers": {
         "name": {
-            "header_en": "Action",
-            "header_fr": "Action"
+            "header": "@HEADER.NAME"
         },
         "description": {
-            "header_en": "Description",
-            "header_fr": "Description"
+            "header": "@HEADER.DESCRIPTION"
         },
         "equippableBy": {
             "filterable": true,

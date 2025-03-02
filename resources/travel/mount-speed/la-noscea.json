@@ -1,85 +1,71 @@
 {
     "key": "la-noscea",
-    "groupName_en": "La Noscea",
-    "groupName_fr": "Noscea",
+    "groupName": "@PLACE.LA_NOSCEA",
     "tasks": {
         "x0": {
-            "name_en": "Mist",
-            "name_fr": "Brumée",
-            "method": "q.66060",
+            "name": "@PLACE.MIST",
+            "source": "q.66060",
             "cSiblings": ["q.66060"]
         },
         "x1": {
-            "name_en": "Middle La Noscea - 1",
-            "name_fr": "Noscea centrale - 1",
-            "method": "q.66260",
+            "name": "@PLACE.MIDDLE_LA_NOSCEA - 1",
+            "source": "q.66260",
             "cSiblings": ["q.66260"]
         },
         "x2": {
-            "name_en": "Middle La Noscea - 2",
-            "name_fr": "Noscea centrale - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.MIDDLE_LA_NOSCEA - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         },
         "x3": {
-            "name_en": "Lower La Noscea - 1",
-            "name_fr": "Basse-Noscea - 1",
-            "method": "q.66260",
+            "name": "@PLACE.LOWER_LA_NOSCEA - 1",
+            "source": "q.66260",
             "cSiblings": ["q.66260"]
         },
         "x4": {
-            "name_en": "Lower La Noscea - 2",
-            "name_fr": "Basse-Noscea - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.LOWER_LA_NOSCEA - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         },
         "x5": {
-            "name_en": "Eastern La Noscea - 1",
-            "name_fr": "Noscea orientale - 1",
-            "method": "q.66391",
+            "name": "@PLACE.EASTERN_LA_NOSCEA - 1",
+            "source": "q.66391",
             "cSiblings": ["q.66391"]
         },
         "x6": {
-            "name_en": "Eastern La Noscea - 2",
-            "name_fr": "Noscea orientale - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.EASTERN_LA_NOSCEA - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         },
         "x7": {
-            "name_en": "Western La Noscea - 1",
-            "name_fr": "Noscea occidentale - 1",
-            "method": "q.66503",
+            "name": "@PLACE.WESTERN_LA_NOSCEA - 1",
+            "source": "q.66503",
             "cSiblings": ["q.66503"]
         },
         "x8": {
-            "name_en": "Western La Noscea - 2",
-            "name_fr": "Noscea occidentale - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.WESTERN_LA_NOSCEA - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         },
         "x9": {
-            "name_en": "Upper La Noscea - 1",
-            "name_fr": "Haute-Noscea - 1",
-            "method": "q.66393",
+            "name": "@PLACE.UPPER_LA_NOSCEA - 1",
+            "source": "q.66393",
             "cSiblings": ["q.66393"]
         },
         "x10": {
-            "name_en": "Upper La Noscea - 2",
-            "name_fr": "Haute-Noscea - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.UPPER_LA_NOSCEA - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         },
         "x11": {
-            "name_en": "Outer La Noscea - 1",
-            "name_fr": "Noscea extérieure - 1",
-            "method": "q.66393",
+            "name": "@PLACE.OUTER_LA_NOSCEA - 1",
+            "source": "q.66393",
             "cSiblings": ["q.66393"]
         },
         "x12": {
-            "name_en": "Outer La Noscea - 2",
-            "name_fr": "Noscea extérieure - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.OUTER_LA_NOSCEA - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         }
     }
 }

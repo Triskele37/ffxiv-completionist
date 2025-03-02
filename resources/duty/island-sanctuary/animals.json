@@ -4,8 +4,7 @@
     "groupName_fr": "Animaux",
     "headers": {
         "name": {
-            "header_en": "Name",
-            "header_fr": "Nom"
+            "header": "@HEADER.NAME"
         },
         "size": {
             "filterable": true,
@@ -13,8 +12,7 @@
             "header_fr": "Taille"
         },
         "location": {
-            "header_en": "Location",
-            "header_fr": "Position"
+            "header": "@HEADER.COORDINATES"
         },
         "time": {
             "header_en": "Time",

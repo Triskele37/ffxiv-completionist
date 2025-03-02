@@ -4,12 +4,10 @@
     "groupName_fr": "Missions d'escouade",
     "headers": {
         "level": {
-            "header_en": "Level",
-            "header_fr": "Niveau"
+            "header": "@HEADER.LEVEL"
         },
         "name": {
-            "header_en": "Mission",
-            "header_fr": "Mission"
+            "header": "@HEADER.NAME"
         },
         "difficulty": {
             "filterable": true,

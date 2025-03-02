@@ -4,31 +4,25 @@
     "groupName_fr": "Morceaux de l'orchestrion",
     "headers": {
         "number": {
-            "width": 100,
-            "header_en": "Number",
-            "header_fr": "Numéro"
+            "header": "@HEADER.NUMBER",
+            "width": 100
         },
         "name": {
-            "header_en": "Orchestrion Roll",
-            "header_fr": "Rouleau d'orchestrion"
+            "header": "@HEADER.NAME"
         },
         "category": {
-            "header_en": "Category",
-            "header_fr": "Catégorie"
+            "header": "@HEADER.CATEGORY"
         },
         "source": {
-            "link": true,
-            "header_en": "Source",
-            "header_fr": "Source"
+            "header": "@HEADER.SOURCE",
+            "link": true
         },
         "location": {
-            "filterable": true,
-            "header_en": "Location",
-            "header_fr": "Location"
+            "header": "@HEADER.LOCATION",
+            "filterable": true
         },
         "patch": {
-            "header_en": "Patch",
-            "header_fr": "Patch"
+            "header": "@HEADER.PATCH"
         }
     }
 }

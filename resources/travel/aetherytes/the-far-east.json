@@ -1,167 +1,126 @@
 {
     "key": "the-far-east",
-    "groupName_en": "The Far East",
-    "groupName_fr": "Orient",
+    "groupName": "@PLACE.FAR_EAST",
     "tasks": {
         "x83": {
             "name_en": "Kugane",
             "name_fr": "Kugane / Place Tenkonto",
-            "zone_en": "Kugane",
-            "zone_fr": "Kugane",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.KUGANE",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x84": {
             "name_en": "Shiokaze Hostelry",
             "name_fr": "Shiokaze",
-            "zone_en": "Kugane",
-            "zone_fr": "Kugane",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x85": {
             "name_en": "Pier #1",
             "name_fr": "Jetée n°1",
-            "zone_en": "Kugane",
-            "zone_fr": "Kugane",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x86": {
             "name_en": "Thavnairian Consulate",
             "name_fr": "Consulat de Radz-at-Han",
-            "zone_en": "Kugane",
-            "zone_fr": "Kugane",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x87": {
             "name_en": "Kogane Dori Markets",
             "name_fr": "Marché (Kogane-dori)",
-            "zone_en": "Kugane",
-            "zone_fr": "Kugane",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x88": {
             "name_en": "Bokairo Inn",
             "name_fr": "Auberge du Bokairo",
-            "zone_en": "Kugane",
-            "zone_fr": "Kugane",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x89": {
             "name_en": "The Ruby Bazaar",
             "name_fr": "Bazar de Rubis",
-            "zone_en": "Kugane",
-            "zone_fr": "Kugane",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x90": {
             "name_en": "Sekiseigumi Barracks",
             "name_fr": "Caserne du Sekiseigumi",
-            "zone_en": "Kugane",
-            "zone_fr": "Kugane",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x91": {
             "name_en": "Rakuza District",
             "name_fr": "Quartier de Rakuza",
-            "zone_en": "Kugane",
-            "zone_fr": "Kugane",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.KUGANE",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x92": {
             "name_en": "Tamamizu",
             "name_fr": "Tamamizu",
-            "zone_en": "The Ruby Sea",
-            "zone_fr": "Mer de Rubis",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_RUBY_SEA",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x93": {
             "name_en": "Onokoro",
             "name_fr": "Onokoro",
-            "zone_en": "The Ruby Sea",
-            "zone_fr": "Mer de Rubis",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_RUBY_SEA",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x94": {
             "name_en": "Namai",
             "name_fr": "Namai",
-            "zone_en": "Yanxia",
-            "zone_fr": "Yanxia",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.YANXIA",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x95": {
             "name_en": "The House of the Fierce",
             "name_fr": "Cercle des Intrépides",
-            "zone_en": "Yanxia",
-            "zone_fr": "Yanxia",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.YANXIA",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x96": {
             "name_en": "Reunion",
             "name_fr": "Ralliement",
-            "zone_en": "The Azim Steppe",
-            "zone_fr": "Steppe d'Azim",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x97": {
             "name_en": "The Dawn Throne",
             "name_fr": "Trône de l'Aube",
-            "zone_en": "The Azim Steppe",
-            "zone_fr": "Steppe d'Azim",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x98": {
             "name_en": "Dhoro Iloh",
             "name_fr": "Dhoro Iloh",
-            "zone_en": "The Azim Steppe",
-            "zone_fr": "Steppe d'Azim",
-            "type_en": "Crystal",
-            "type_fr": "Crystal"
+            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x99": {
             "name_en": "The Doman Enclave",
             "name_fr": "Quartier enclavé de Doma / Place de l'Éthérite",
-            "zone_en": "The Doman Enclave",
-            "zone_fr": "Quartier enclavé de Doma",
-            "type_en": "Crystal",
-            "type_fr": "Éthérite"
+            "zone": "@PLACE.THE_DOMAN_ENCLAVE",
+            "type": "@TYPE.AETHERYTE.CRYSTAL"
         },
         "x100": {
             "name_en": "The Northern Enclave",
             "name_fr": "Quartier enclavé nord (jardins de Muniteien/rizières de Den'en-chi",
-            "zone_en": "The Doman Enclave",
-            "zone_fr": "Quartier enclavé de Doma",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.THE_DOMAN_ENCLAVE",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x101": {
             "name_en": "The Southern Enclave",
             "name_fr": "Quartier enclavé sud (école Rissai-juku)",
-            "zone_en": "The Doman Enclave",
-            "zone_fr": "Quartier enclavé de Doma",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.THE_DOMAN_ENCLAVE",
+            "type": "@TYPE.AETHERYTE.SHARD"
         },
         "x102": {
             "name_en": "Ferry Docks",
             "name_fr": "Embarcadère",
-            "zone_en": "The Doman Enclave",
-            "zone_fr": "Quartier enclavé de Doma",
-            "type_en": "Shard",
-            "type_fr": "Éthérite urbaine"
+            "zone": "@PLACE.THE_DOMAN_ENCLAVE",
+            "type": "@TYPE.AETHERYTE.SHARD"
         }
     }
 }

@@ -12,7 +12,6 @@ export const JSON_CACHE: Record<string, object> = {};
  */
 export async function preloadJson() {
     const resourceRoot = getResourcesRoot();
-    console.log(resourceRoot);
     await diveResources(path.normalize(resourceRoot));
 }
 
@@ -29,7 +28,14 @@ async function diveResources(root: string, p: string = root): Promise<void> {
         else if(entityPath.endsWith('.json')) {
             const file = await fs.promises.readFile(entityPath, 'utf8');
             const cacheKey = pathToKey(root, entityPath);
-            JSON_CACHE[cacheKey] = JSON.parse(file);
+
+            try {
+                JSON_CACHE[cacheKey] = JSON.parse(file);
+            }
+            catch(e) {
+                console.error(`Error Loading: ${entityPath}`);
+                console.error(e);
+            }
         }
     }));
 }

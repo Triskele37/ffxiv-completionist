@@ -1,103 +1,86 @@
 {
     "key": "ishgard--coerthas",
-    "groupName_en": "Ishgard & Coerthas",
-    "groupName_fr": "Terres du nord",
+    "groupName": "@PLACE.ISHGARD_AND_COURTHAS",
     "tasks": {
         "x15": {
-            "name_en": "Empyreum",
-            "name_fr": "Empyrée",
-            "method": "q.69708",
+            "name": "@PLACE.EMPYREUM",
+            "source": "q.69708",
             "cSiblings": ["q.69708"]
         },
         "x0": {
-            "name_en": "Coerthas Central Highlands - 1",
-            "name_fr": "Hautes terres du Coerthas central - 1",
-            "method": "q.66488",
+            "name": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS - 1",
+            "source": "q.66488",
             "cSiblings": ["q.66488"]
         },
         "x1": {
-            "name_en": "Coerthas Central Highlands - 2",
-            "name_fr": "Hautes terres du Coerthas central - 2",
-            "method_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "method_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "name": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS - 2",
+            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
+            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
         },
         "x2": {
-            "name_en": "Coerthas Western Highlands - 1",
-            "name_fr": "Hautes terres du Coerthas occidental - 1",
-            "method": "q.67142",
+            "name": "@PLACE.COERTHAS_WESTERN_HIGHLANDS - 1",
+            "source": "q.67142",
             "cSiblings": ["q.67142"]
         },
         "x3": {
-            "name_en": "Coerthas Western Highlands - 2",
-            "name_fr": "Hautes terres du Coerthas occidental - 2",
-            "method_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
-            "method_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
+            "name": "@PLACE.COERTHAS_WESTERN_HIGHLANDS - 2",
+            "source_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
+            "source_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
         },
         "x4": {
-            "name_en": "The Sea of Clouds - 1",
-            "name_fr": "L'Écume des cieux d'Abalathia - 1",
-            "method": "q.67183",
+            "name": "@PLACE.THE_SEA_OF_CLOUDS - 1",
+            "source": "q.67183",
             "cSiblings": ["q.67183"]
         },
         "x5": {
-            "name_en": "The Sea of Clouds - 2",
-            "name_fr": "L'Écume des cieux d'Abalathia - 2",
-            "method_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
-            "method_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
+            "name": "@PLACE.THE_SEA_OF_CLOUDS - 2",
+            "source_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
+            "source_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
         },
         "x6": {
-            "name_en": "Azys Lla - 1",
-            "name_fr": "Azys Lla - 1",
-            "method": "q.67203",
+            "name": "@PLACE.AZYS_LLA - 1",
+            "source": "q.67203",
             "cSiblings": ["q.67203"]
         },
         "x7": {
-            "name_en": "Azys Lla - 2",
-            "name_fr": "Azys Lla - 2",
-            "method_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
-            "method_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
+            "name": "@PLACE.AZYS_LLA - 2",
+            "source_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
+            "source_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
         },
         "x8": {
-            "name_en": "Idyllshire",
-            "name_fr": "Idyllée",
-            "method": "q.67205",
+            "name": "@PLACE.IDYLLSHIRE",
+            "source": "q.67205",
             "cSiblings": ["q.67205"]
         },
         "x9": {
-            "name_en": "The Dravanian Forelands - 1",
-            "name_fr": "Avant-pays dravanien - 1",
-            "method": "q.67152",
+            "name": "@PLACE.THE_DRAVANIAN_FORELANDS - 1",
+            "source": "q.67152",
             "cSiblings": ["q.67152"]
         },
         "x10": {
-            "name_en": "The Dravanian Forelands - 2",
-            "name_fr": "Avant-pays dravanien - 2",
-            "method_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
-            "method_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
+            "name": "@PLACE.THE_DRAVANIAN_FORELANDS - 2",
+            "source_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
+            "source_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
         },
         "x11": {
-            "name_en": "The Dravanian Hinterlands - 1",
-            "name_fr": "Arrière-pays dravanien - 1",
-            "method": "q.67195",
+            "name": "@PLACE.THE_DRAVANIAN_HINTERLANDS - 1",
+            "source": "q.67195",
             "cSiblings": ["q.67195"]
         },
         "x12": {
-            "name_en": "The Dravanian Hinterlands - 2",
-            "name_fr": "Arrière-pays dravanien - 2",
-            "method_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
-            "method_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
+            "name": "@PLACE.THE_DRAVANIAN_HINTERLANDS - 2",
+            "source_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
+            "source_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
         },
         "x13": {
-            "name_en": "The Churning Mists - 1",
-            "name_fr": "L'Écume des cieux de Dravania - 1",
-            "method": "q.67162",
+            "name": "@PLACE.THE_CHURNING_MISTS - 1",
+            "source": "q.67162",
             "cSiblings": ["q.67162"]
         },
         "x14": {
-            "name_en": "The Churning Mists - 2",
-            "name_fr": "L'Écume des cieux de Dravania - 2",
-            "method_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
-            "method_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
+            "name": "@PLACE.THE_CHURNING_MISTS - 2",
+            "source_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
+            "source_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
         }
     }
 }

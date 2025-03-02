@@ -4,17 +4,14 @@
     "groupName_fr": "Défis",
     "headers": {
         "level": {
-            "header_en": "Level",
-            "header_fr": "Niveau"
+            "header": "@HEADER.LEVEL"
         },
         "name": {
-            "header_en": "Name",
-            "header_fr": "Défi"
+            "header": "@HEADER.NAME"
         },
         "unlock": {
-            "link": true,
-            "header_en": "Unlock",
-            "header_fr": "Débloqué par"
+            "header": "@HEADER.UNLOCK",
+            "link": true
         }
     }
 }

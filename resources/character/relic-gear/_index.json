@@ -8,8 +8,7 @@
             "header_fr": "Nv d'objet"
         },
         "name": {
-            "header_en": "Name",
-            "header_fr": "Nom"
+            "header": "@HEADER.NAME"
         },
         "job": {
             "filterable": true,
@@ -17,9 +16,8 @@
             "header_fr": "Job"
         },
         "requirements": {
-            "link": true,
-            "header_en": "Requirements",
-            "header_fr": "Conditions"
+            "header": "@HEADER.REQUIREMENTS",
+            "link": true
         }
     }
 }

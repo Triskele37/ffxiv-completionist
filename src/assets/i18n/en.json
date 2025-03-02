@@ -592,6 +592,24 @@
         "SAVE_FAILED_DETAIL": "A temporary save has been created"
     },
     "DATA": {
+        "HEADER": {
+            "NUMBER": "#",
+            "LEVEL": "Level",
+            "NAME": "Name",
+            "TYPE": "Type",
+            "CATEGORY": "Category",
+            "DESCRIPTION": "Description",
+            "SOURCE": "Source",
+            "ZONE": "Zone",
+            "LOCATION": "Location",
+            "COORDINATES": "Coordinates",
+            "POINTS": "Points",
+            "REWARD": "Reward",
+            "REQUIREMENTS": "Requirements",
+            "UNLOCK": "Unlock",
+            "PATCH": "Patch",
+            "FATE": "FATE"
+        },
         "CLASS_JOB": {
             "GLA": "Gladiator",
             "PGL": "Pugilist",
@@ -642,8 +660,9 @@
             "PCT": "Pictomancer"
 
         },
-        "ZONE": {
+        "PLACE": {
             "LA_NOSCEA": "La Noscea",
+            "LIMSA_LOMINSA": "Limsa Lominsa",
             "LIMSA_LOMINSA_LOWER_DECKS": "Limsa Lominsa Lower Decks",
             "LIMSA_LOMINSA_UPPER_DECKS": "Limsa Lominsa Upper Decks",
             "MIST": "Mist",
@@ -655,16 +674,8 @@
             "OUTER_LA_NOSCEA": "Outer La Noscea",
             "WOLVES_DEN_PIER": "Wolves' Den Pier",
 
-            "THE_BLACK_SHROUD": "The Black Shroud",
-            "NEW_GRIDANIA": "New Gridania",
-            "OLD_GRIDANIA": "Old Gridania",
-            "THE_LAVENDER_BEDS": "The Lavender Beds",
-            "CENTRAL_SHROUD": "Central Shroud",
-            "EAST_SHROUD": "East Shroud",
-            "SOUTH_SHROUD": "South Shroud",
-            "NORTH_SHROUD": "North Shroud",
-
             "THANALAN": "Thanalan",
+            "UL_DAH": "Ul'dah",
             "UL_DAH_STEPS_OF_NALD": "Ul'dah - Steps of Nald",
             "UL_DAH_STEPS_OF_THAL": "Ul'dah - Steps of Thal",
             "THE_GOBLET": "The Goblet",
@@ -678,27 +689,48 @@
             "CHOCOBO_SQUARE": "Chocobo Square",
             "BATTLE_HALL": "The Battlehall",
 
-            "COERTHAS_CENTRAL_HIGHLANDS": "Coerthas Central Highlands",
-            "MOR_DHONA": "Mor Dhona",
+            "THE_BLACK_SHROUD": "The Black Shroud",
+            "GRIDANIA": "Gridania",
+            "NEW_GRIDANIA": "New Gridania",
+            "OLD_GRIDANIA": "Old Gridania",
+            "THE_LAVENDER_BEDS": "The Lavender Beds",
+            "CENTRAL_SHROUD": "Central Shroud",
+            "EAST_SHROUD": "East Shroud",
+            "SOUTH_SHROUD": "South Shroud",
+            "NORTH_SHROUD": "North Shroud",
 
+            "ISHGARD": "Ishgard",
+            "COERTHAS": "Coerthas",
+            "ISHGARD_AND_COERTHAS": "Ishgard & Coerthas",
+            "COERTHAS_CENTRAL_HIGHLANDS": "Coerthas Central Highlands",
             "COERTHAS_WESTERN_HIGHLANDS": "Coerthas Western Highlands",
             "FOUNDATION": "Foundation",
             "THE_PILLARS": "The Pillars",
             "THE_FIRMAMENT": "The Firmament",
             "EMPYREUM": "Empyreum",
             "FORTEMPS_MANOR": "Fortemps Manor",
+
+            "MOR_DHONA": "Mor Dhona",
+
+            "ABALATHIA": "Abalathia's Spine",
             "THE_SEA_OF_CLOUDS": "The Sea of Clouds",
             "AZYS_LLA": "Azys Lla",
+
+            "DRAVANIA": "Dravania",
             "THE_DRAVANIAN_FORELANDS": "The Dravanian Forelands",
             "THE_CHURNING_MISTS": "The Churning Mists",
             "THE_DRAVANIAN_HINTERLANDS": "The Dravanian Hinterlands",
             "MATOYAS_CAVE": "Matoya's Cave",
             "IDYLLSHIRE": "Idyllshire",
 
+            "GYR_ABANIA": "Gyr Abania",
             "RHALGRS_REACH": "Rhalgr's Reach",
             "THE_FRINGES": "The Fringes",
             "THE_PEAKS": "The Peaks",
             "THE_LOCHS": "The Lochs",
+
+            "FAR_EAST": "Far East",
+            "OTHARD": "Othard",
             "KUGANE": "Kugane",
             "SHIROGANE": "Shirogane",
             "THE_RUBY_SEA": "The Ruby Sea",
@@ -719,21 +751,44 @@
             "IL_MHEG": "Il Mheg",
             "RAK_TIKA": "The Rak'tika Greatwood",
             "THE_TEMPEST": "The Tempest",
+
             "GANGOS": "Gangos",
             "BOZJAN_SOUTHERN_FRONT": "Bozjan Southern Front",
             "ZADNOR": "Zadnor",
             "TERNCLIFF": "Terncliff",
 
+            "THE_NORTHERN_EMPTY": "The Northern Empty",
             "OLD_SHARLAYAN": "Old Sharlayan",
             "LABYRINTHOS": "Labyrinthos",
+
+            "ILSABARD": "Ilsabard",
             "RADZ_AT_HAN": "Radz-at-Han",
             "THAVNAIR": "Thavnair",
             "GARLEMALD": "Garlemald",
-            "MARE_LAMENTORUM": "Mare Lamentorum",
-            "ELPIS": "Elpis",
-            "ULTIMA_THULE": "Ultima Thule",
-            "ISLAND_SANCTUARY": "Island Sanctuary",
 
+            "THE_SEA_OF_STARS": "The Sea of Stars",
+            "MARE_LAMENTORUM": "Mare Lamentorum",
+            "ULTIMA_THULE": "Ultima Thule",
+
+            "THE_WORLD_UNSUNDERED": "The World Unsundered",
+            "ELPIS": "Elpis",
+
+            "YOK_TURAL": "Yok Tural",
+            "TULIYOLLAL": "Tuliyollal",
+            "URQOPACHA": "Urqopacha",
+            "KOZAMAUKA": "Kozama'uka",
+            "YAK_TEL": "Yak T'el",
+
+            "XAK_TURAL": "XAK Tural",
+            "SHAALOANI": "Shaaloani",
+            "HERITAGE_FOUND": "Heritage Found",
+            "SOLUTION_NINE": "Solution Nine",
+
+            "UNLOST_WORLD": "Unlost World",
+            "LIVING_MEMORY": "Living Memory",
+
+            "OTHERS": "Others",
+            "ISLAND_SANCTUARY": "Island Sanctuary",
             "THE_HIGH_SEAS": {
                 "GALADION_BAY": "Galadion Bay",
                 "RHOTANO_SEA": "Rhotano Sea",
@@ -746,22 +801,7 @@
                 "KUGANE": "Kugane",
                 "THE_RUBY_SEA": "The Ruby Sea",
                 "THE_ONE_RIVER": "The One River"
-            },
-
-            "SOLUTION_NINE": "Solution Nine",
-            "TULIYOLLAL": "Tuliyollal",
-            "URQOPACHA": "Urqopacha",
-            "KOZAMAUKA": "Kozama'uka",
-            "YAK_TEL": "Yak T'el",
-            "SHAALOANI": "Shaaloani",
-            "HERITAGE_FOUND": "Heritage Found",
-            "LIVING_MEMORY": "Living Memory"
-        },
-        "REGION": {
-            "ABALATHIA": "Abalathia's Spine",
-            "DRAVANIA": "Dravania",
-            "GYR_ABANIA": "Gyr Abania",
-            "OTHARD": "Othard"
+            }
         },
         "FISH": {
             "BAIT": {
@@ -918,6 +958,18 @@
             "VENTURE": "Venture",
             "VOYAGE": "Voyages",
             "WONDROUS_TAILS": "Wondrous Tails"
+        },
+        "TYPE": {
+            "AETHERYTE": {
+                "CRYSTAL": "Crystal",
+                "SHARD": "Shard"
+            },
+            "PORTER": {
+                "AMARO": "Amarokeep",
+                "CHOCOBO": "Chocobokeep",
+                "FALCON": "Falcon Porter",
+                "STONE": "Summoning Stone"
+            }
         },
         "SOCIETY": {
             "MAELSTROM": "Maelstrom",
