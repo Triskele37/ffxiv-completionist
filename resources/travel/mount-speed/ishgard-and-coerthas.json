@@ -1,6 +1,6 @@
 {
     "key": "ishgard--coerthas",
-    "groupName": "@PLACE.ISHGARD_AND_COURTHAS",
+    "groupName": "@PLACE.ISHGARD_AND_COERTHAS",
     "tasks": {
         "x15": {
             "name": "@PLACE.EMPYREUM",
@@ -14,8 +14,7 @@
         },
         "x1": {
             "name": "@PLACE.COERTHAS_CENTRAL_HIGHLANDS - 2",
-            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.ALLIED_SEALS)"
         },
         "x2": {
             "name": "@PLACE.COERTHAS_WESTERN_HIGHLANDS - 1",
@@ -24,8 +23,7 @@
         },
         "x3": {
             "name": "@PLACE.COERTHAS_WESTERN_HIGHLANDS - 2",
-            "source_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
-            "source_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
+            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.CENTURIO_SEALS)"
         },
         "x4": {
             "name": "@PLACE.THE_SEA_OF_CLOUDS - 1",
@@ -34,8 +32,7 @@
         },
         "x5": {
             "name": "@PLACE.THE_SEA_OF_CLOUDS - 2",
-            "source_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
-            "source_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
+            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.CENTURIO_SEALS)"
         },
         "x6": {
             "name": "@PLACE.AZYS_LLA - 1",
@@ -44,8 +41,7 @@
         },
         "x7": {
             "name": "@PLACE.AZYS_LLA - 2",
-            "source_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
-            "source_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
+            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.CENTURIO_SEALS)"
         },
         "x8": {
             "name": "@PLACE.IDYLLSHIRE",
@@ -59,8 +55,7 @@
         },
         "x10": {
             "name": "@PLACE.THE_DRAVANIAN_FORELANDS - 2",
-            "source_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
-            "source_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
+            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.CENTURIO_SEALS)"
         },
         "x11": {
             "name": "@PLACE.THE_DRAVANIAN_HINTERLANDS - 1",
@@ -69,8 +64,7 @@
         },
         "x12": {
             "name": "@PLACE.THE_DRAVANIAN_HINTERLANDS - 2",
-            "source_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
-            "source_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
+            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.CENTURIO_SEALS)"
         },
         "x13": {
             "name": "@PLACE.THE_CHURNING_MISTS - 1",
@@ -79,8 +73,7 @@
         },
         "x14": {
             "name": "@PLACE.THE_CHURNING_MISTS - 2",
-            "source_en": "250 Centurio Seals (Ardolain - The Forgotten Knight, Ishgard)",
-            "source_fr": "250 Insignes Centurio (Ardolain - Le Chevalier Oublié, Ishgard)"
+            "source": "@VENDOR.ARDOLAIN (250 CURRENCY.CENTURIO_SEALS)"
         }
     }
 }

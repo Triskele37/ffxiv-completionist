@@ -9,38 +9,31 @@
         },
         "x1": {
             "name": "@PLACE.MOR_DHONA - 2",
-            "source_en": "250 Allied Seals (Hunt Billmaster - Grand Company HQ)",
-            "source_fr": "250 Insignes alliés (Responsable de la Chasse - Base de Grande Compagnie)"
+            "source": "@VENDOR.HUNT_BILLMASTER (250 CURRENCY.ALLIED_SEALS)"
         },
         "x4": {
             "name": "@PLACE.LABYRINTHOS",
-            "source_en": "70 Bicolor Gemstone (Labyrinthos Gemstone Trader)",
-            "source_fr": "70 Gemme bicolore"
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.LABYRINTHOS (70 CURRENCY.BICOLOR_GEMSTONES)"
         },
         "x5": {
             "name": "@PLACE.MARE_LAMENTORUM",
-            "source_en": "70 Bicolor Gemstone (Mare Lamentorum Gemstone Trader)",
-            "source_fr": "70 Gemme bicolore"
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.MARE_LAMENTORUM (70 CURRENCY.BICOLOR_GEMSTONES)"
         },
         "x6": {
             "name": "@PLACE.ULTIMA_THULE",
-            "source_en": "70 Bicolor Gemstone (Ultima Thule Gemstone Trader)",
-            "source_fr": "70 Gemme bicolore"
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.ULTIMA_THULE (70 CURRENCY.BICOLOR_GEMSTONES)"
         },
         "x7": {
             "name": "@PLACE.ELPIS",
-            "source_en": "70 Bicolor Gemstone (Elpis Gemstone Trader)",
-            "source_fr": "70 Gemme bicolore"
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.ELPIS (70 CURRENCY.BICOLOR_GEMSTONES)"
         },
         "x2": {
             "name": "@PLACE.BOZJAN_SOUTHERN_FRONT",
-            "source_en": "25 Bozjan Cluster (Resistance Quartermaster)",
-            "source_fr": "25 Critaux bozjiens"
+            "source": "@VENDOR.RESISTANCE_QUARTERMASTER - PLACE.BOZJAN_SOUTHERN_FRONT (25 CURRENCY.BOZJAN_CLUSTERS)"
         },
         "x3": {
             "name": "@PLACE.ZADNOR",
-            "source_en": "25 Bozjan Cluster (Resistance Quartermaster)",
-            "source_fr": "25 Critaux bozjiens"
+            "source": "@VENDOR.RESISTANCE_QUARTERMASTER - PLACE.ZADNOR (25 CURRENCY.BOZJAN_CLUSTERS)"
         }
     }
 }

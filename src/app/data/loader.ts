@@ -19,6 +19,7 @@ export type JSON_GROUP = JSON & {
 };
 
 const COMMON_KEY_PREFIX = '@';
+const COMMON_KEY_REGEX = /[A-Z]+[A-Z0-9_]+\.[A-Z0-9_.]+/g;
 
 /**
  * Load the group json file at the given path, applying necessary
@@ -157,7 +158,7 @@ function getCommonTranslation(value: string): string {
     let commonKeys: string[] | null;
 
     // Loop through the updated value (allows for nested common values)
-    while(commonKeys = updatedValue.match(/[A-Z0-9_]+.[A-Z0-9_.]+/g)) {
+    while(commonKeys = updatedValue.match(COMMON_KEY_REGEX)) {
         const replacements: Record<string, string> = {};
 
         for(const commonKey of commonKeys) {
@@ -173,11 +174,17 @@ function getCommonTranslation(value: string): string {
             }
         }
 
+        if(Object.entries(replacements).length === 0) {
+            console.log('Data Jacked:', commonKeys);
+            break;
+        }
+
         //TODO - though unlikely to be an issue, this won't replace duplicate commonKeys
         for (const [commonKey, translation] of Object.entries(replacements)) {
             updatedValue = updatedValue.replace(commonKey, translation);
         }
     }
+    if(value.includes('33.9')) console.log(updatedValue)
 
     return updatedValue;
 }

@@ -4,13 +4,11 @@
     "tasks": {
         "x0": {
             "name": "@PLACE.THAVNAIR",
-            "source_en": "70 Bicolor Gemstone (Thavnair Gemstone Trader)",
-            "source_fr": "70 Gemme bicolore"
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.THAVNAIR (70 CURRENCY.BICOLOR_GEMSTONES)"
         },
         "x1": {
             "name": "@PLACE.GARLEMALD",
-            "source_en": "70 Bicolor Gemstone (Garlemald Gemstone Trader)",
-            "source_fr": "70 Gemme bicolore"
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.GARLEMALD (70 CURRENCY.BICOLOR_GEMSTONES)"
         }
     }
 }

@@ -36,7 +36,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.preloadJson = exports.JSON_CACHE = void 0;
+exports.clearCache = exports.preloadJson = exports.JSON_CACHE = void 0;
 var fs = require("fs");
 var path = require("path");
 /**
@@ -54,7 +54,6 @@ function preloadJson() {
             switch (_a.label) {
                 case 0:
                     resourceRoot = getResourcesRoot();
-                    console.log(resourceRoot);
                     return [4 /*yield*/, diveResources(path.normalize(resourceRoot))];
                 case 1:
                     _a.sent();
@@ -64,6 +63,12 @@ function preloadJson() {
     });
 }
 exports.preloadJson = preloadJson;
+function clearCache() {
+    for (var k in exports.JSON_CACHE) {
+        delete exports.JSON_CACHE[k];
+    }
+}
+exports.clearCache = clearCache;
 /**
  * Recursively dive the resource directory for json
  */

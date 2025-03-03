@@ -1,15 +1,18 @@
 import { ChangeDetectorRef, Component, ElementRef, Input, OnChanges, OnDestroy, SimpleChanges, ViewChild } from '@angular/core';
 import { OverlayPanel } from 'primeng/overlaypanel';
 
+import { DataService } from '@data';
 import { Column } from '@model/Column';
 import { DataGroup } from '@model/DataGroup';
 import { getChild } from '@model/DataGroup/children/getChild';
 import { Task } from '@model/Task';
-import { DataService } from '@data';
 
 type LinkData = {
+    xivDataType?: 'LinkData';
     value: DataGroup | Task | string;
     type: 'Group' | 'Task' | 'Value';
+    pre?: string; // Text before the link
+    post?: string; // Text after the link
 };
 
 @Component({
@@ -77,11 +80,37 @@ export class DataCellComponent implements OnChanges, OnDestroy {
     }
 
     getLinkFromPath(pathOrValue: string): LinkData {
-        if(this.column.link && pathOrValue?.includes('.')) {
-            const content = getChild(this.svcData.data, pathOrValue);
-            if(content?.xivDataType === 'Group') return { value: content, type: 'Group' };
-            if(content?.xivDataType === 'Task') return { value: content, type: 'Task' };
-            return { value: pathOrValue, type: 'Value' };
+        if(this.column.link && pathOrValue) {
+            const segments = pathOrValue.split(' ');
+            const linkRegex = /[a-z]+[a-z0-9-]*\.[a-z0-9-.]+/;
+            const linkIndex = segments.findIndex((s) => s.match(linkRegex));
+
+            if(linkIndex !== -1) {
+                const rawLink = segments[linkIndex];
+                const content = getChild(this.svcData.data, rawLink);
+                const linkData: Partial<LinkData> = {};
+
+                if(content?.xivDataType === 'Group') {
+                    linkData.value = content;
+                    linkData.type = 'Group'
+                }
+                else if(content?.xivDataType === 'Task') {
+                    linkData.value = content;
+                    linkData.type = 'Task';
+                }
+                else {
+                    linkData.value = rawLink;
+                    linkData.type = 'Value';
+                }
+
+                linkData.pre = segments.slice(0, linkIndex).join(' ');
+                linkData.post = segments.slice(linkIndex + 1).join(' ');
+
+                return linkData as LinkData;
+            }
+            else {
+                return { value: pathOrValue, type: 'Value' };
+            }
         }
         else {
             // parameter is a raw value

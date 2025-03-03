@@ -15,6 +15,12 @@ export async function preloadJson() {
     await diveResources(path.normalize(resourceRoot));
 }
 
+export function clearCache() {
+    for(let k in JSON_CACHE) {
+        delete JSON_CACHE[k];
+    }
+}
+
 /**
  * Recursively dive the resource directory for json
  */

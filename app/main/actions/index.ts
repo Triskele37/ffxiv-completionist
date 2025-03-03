@@ -5,10 +5,15 @@ import { PlayerStore } from '../store/PlayerStore';
 import { WindowStore } from '../store/WindowStore';
 import * as Remote from '../remote';
 
+import { clearCache, preloadJson } from './preloadJson';
 import { loadJson } from './loadJson';
 
 export function initActions() {
     ipcMain.on('app-ready', WindowStore.showMainWindow);
+    ipcMain.on('app-refresh', () => {
+        clearCache();
+        preloadJson();
+    });
     ipcMain.on('load-json', loadJson);
 
     ipcMain.on('get-config', ConfigStore.get);

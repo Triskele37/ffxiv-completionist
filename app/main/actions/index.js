@@ -6,9 +6,14 @@ var ConfigStore_1 = require("../store/ConfigStore");
 var PlayerStore_1 = require("../store/PlayerStore");
 var WindowStore_1 = require("../store/WindowStore");
 var Remote = require("../remote");
+var preloadJson_1 = require("./preloadJson");
 var loadJson_1 = require("./loadJson");
 function initActions() {
     electron_1.ipcMain.on('app-ready', WindowStore_1.WindowStore.showMainWindow);
+    electron_1.ipcMain.on('app-refresh', function () {
+        (0, preloadJson_1.clearCache)();
+        (0, preloadJson_1.preloadJson)();
+    });
     electron_1.ipcMain.on('load-json', loadJson_1.loadJson);
     electron_1.ipcMain.on('get-config', ConfigStore_1.ConfigStore.get);
     electron_1.ipcMain.on('set-config', ConfigStore_1.ConfigStore.set);

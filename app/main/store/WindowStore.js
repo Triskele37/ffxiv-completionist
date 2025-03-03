@@ -80,6 +80,8 @@ var WindowStore = /** @class */ (function () {
             } }));
         WindowStore.maxOnShow = !!oldState.max;
         WindowStore.loadWindowUrl(isServe);
+        if (DEBUG_MODE)
+            WindowStore.main.webContents.openDevTools();
     };
     WindowStore.loadWindowUrl = function (isServe) {
         if (isServe) {

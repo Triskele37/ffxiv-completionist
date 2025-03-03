@@ -8,6 +8,7 @@ import { ipcRenderer } from 'electron';
 
 export enum IPC_EVENT {
     APP_READY = 'app-ready',
+    APP_REFRESH = 'app-refresh',
     GET_CONFIG = 'get-config',
     SET_CONFIG = 'set-config',
     NEW_SAVE = 'new-save',
@@ -40,6 +41,11 @@ export class ElectronService {
         // Conditional imports
         if(this.isElectron) {
             this.ipcRenderer = window.require('electron').ipcRenderer;
+
+            // Let the app layer know about refreshing
+            window.addEventListener('beforeunload', () => {
+                this.sendSync(IPC_EVENT.APP_REFRESH);
+            });
         }
     }
 
