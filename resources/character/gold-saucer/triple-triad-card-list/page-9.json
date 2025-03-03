@@ -42,44 +42,35 @@
             "number": "246",
             "name_en": "Philia",
             "name_fr": "Philia",
-            "source": "d.676",
-            "source_en": "Dream Triad Card",
-            "source_fr": "Pochette Triple Triade onirique",
+            "source": ["d.676", "@TRIAD.DREAM_PACK"],
             "patch": "5.0"
         },
         "x261": {
             "number": "247",
             "name_en": "Titania",
             "name_fr": "Titania",
-            "source": ["d.657", "d.658"],
-            "source_en": "Dream Triad Card",
-            "source_fr": "Pochette Triple Triade onirique",
+            "source": ["d.657", "d.658", "@TRIAD.DREAM_PACK"],
             "patch": "5.0"
         },
         "x262": {
             "number": "248",
             "name_en": "Eros",
             "name_fr": "Éros",
-            "source": "d.651",
-            "source_en": "Dream Triad Card",
-            "source_fr": "Pochette Triple Triade onirique",
+            "source": ["d.651", "@TRIAD.DREAM_PACK"],
             "patch": "5.0"
         },
         "x263": {
             "number": "249",
             "name_en": "Storge",
             "name_fr": "Storgê",
-            "source": "d.656",
-            "source_en": "Dream Triad Card",
-            "source_fr": "Pochette Triple Triade onirique",
+            "source": ["d.656", "@TRIAD.DREAM_PACK"],
             "patch": "5.0"
         },
         "x264": {
             "number": "250",
             "name_en": "Formidable",
             "name_fr": "Formidable",
-            "source_en": "200 Bicolor Gemstones (Kholusia)",
-            "source_fr": "200 Gemme bicolore (Kholusia)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.KHOLUSIA (200 CURRENCY.BICOLOR_GEMSTONES)",
             "patch": "5.0"
         },
         "x265": {
@@ -100,9 +91,7 @@
             "number": "253",
             "name_en": "Innocence",
             "name_fr": "Innocence",
-            "source": ["d.666", "d.667"],
-            "source_en": "Dream Triad Card",
-            "source_fr": "Pochette Triple Triade onirique",
+            "source": ["d.666", "d.667", "@TRIAD.DREAM_PACK"],
             "patch": "5.0"
         },
         "x268": {
@@ -144,8 +133,7 @@
             "number": "259",
             "name_en": "Hobgoblin",
             "name_fr": "Hobgoblin",
-            "source_en": "Dream Triad Card",
-            "source_fr": "Pochette Triple Triade onirique",
+            "source": "@TRIAD.DREAM_PACK",
             "patch": "5.1"
         },
         "x274": {
@@ -159,8 +147,7 @@
             "number": "261",
             "name_en": "Iguana",
             "name_fr": "Iguane",
-            "source_en": "Dream Triad Card",
-            "source_fr": "Pochette Triple Triade onirique",
+            "source": "@TRIAD.DREAM_PACK",
             "patch": "5.1"
         },
         "x276": {
@@ -174,16 +161,14 @@
             "number": "263",
             "name_en": "Fuath",
             "name_fr": "Fuath",
-            "source_en": "Dream Triad Card",
-            "source_fr": "Pochette Triple Triade onirique",
+            "source": "@TRIAD.DREAM_PACK",
             "patch": "5.1"
         },
         "x278": {
             "number": "264",
             "name_en": "Leannan Sith",
             "name_fr": "Leannan Sith",
-            "source_en": "Dream Triad Card",
-            "source_fr": "Pochette Triple Triade onirique",
+            "source": "@TRIAD.DREAM_PACK",
             "patch": "5.1"
         },
         "x279": {
@@ -197,16 +182,14 @@
             "number": "266",
             "name_en": "Oracle of Light",
             "name_fr": "Prêtresse de la Lumière",
-            "source_en": "Dream Triad Card",
-            "source_fr": "Pochette Triple Triade onirique",
+            "source": "@TRIAD.DREAM_PACK",
             "patch": "5.1"
         },
         "x281": {
             "number": "267",
             "name_en": "Archaeotania",
             "name_fr": "Archaeotania",
-            "source_en": "Dream Triad Card",
-            "source_fr": "Pochette Triple Triade onirique",
+            "source": "@TRIAD.DREAM_PACK",
             "patch": "5.1"
         },
         "x282": {
@@ -220,8 +203,7 @@
             "number": "269",
             "name_en": "Flower Basket",
             "name_fr": "Panier fleuri",
-            "source_en": "40 Bicolor Gemstones (Il Mheg)",
-            "source_fr": "40 Gemme bicolore (Il Mheg)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.IL_MHEG (40 CURRENCY.BICOLOR_GEMSTONES)",
             "patch": "5.2"
         },
         "x284": {

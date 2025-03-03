@@ -35,9 +35,7 @@
             "number": "095",
             "name_en": "Vedrfolnir",
             "name_fr": "Vedrfolnir",
-            "source": "character.gold-saucer.triple-triad-opponents.81",
-            "source_en": "Mythril Triad Card",
-            "source_fr": "Pochette Triple Triade mithrite",
+            "source": ["character.gold-saucer.triple-triad-opponents.81", "@TRIAD.MYTHRIL_PACK"],
             "patch": "3.1"
         },
         "x109": {
@@ -46,10 +44,9 @@
             "name_fr": "Regina Coeurl",
             "source": [
                 "character.gold-saucer.triple-triad-opponents.93",
-                "character.gold-saucer.triple-triad-opponents.52"
+                "character.gold-saucer.triple-triad-opponents.52",
+                "@TRIAD.MYTHRIL_PACK"
             ],
-            "source_en": "Mythril Triad Card",
-            "source_fr": "Pochette Triple Triade mithrite",
             "patch": "3.1"
         },
         "x110": {
@@ -77,17 +74,14 @@
             "number": "100",
             "name_en": "Pipin Tarupin",
             "name_fr": "Pipin Tarupin",
-            "source": "character.gold-saucer.triple-triad-opponents.49",
-            "source_en": "Mythril Triad Card",
-            "source_fr": "Pochette Triple Triade mithrite",
+            "source": ["character.gold-saucer.triple-triad-opponents.49", "@TRIAD.MYTHRIL_PACK"],
             "patch": "3.1"
         },
         "x114": {
             "number": "101",
             "name_en": "Julyan Manderville",
             "name_fr": "Julyan Manderville",
-            "source_en": "14,400 MGP",
-            "source_fr": "14.400 PGS",
+            "source": "@14,400 CURRENCY.MGP",
             "patch": "3.1"
         },
         "x115": {
@@ -118,17 +112,14 @@
             "number": "105",
             "name_en": "Senor Sabotender",
             "name_fr": "Señor Pampa",
-            "source_en": "200,000 MGP",
-            "source_fr": "200.000 PGS",
+            "source": "@200,000 CURRENCY.MGP",
             "patch": "3.1"
         },
         "x119": {
             "number": "106",
             "name_en": "Regula van Hydrus",
             "name_fr": "Regula van Hydrus",
-            "source": "character.gold-saucer.triple-triad-opponents.39",
-            "source_en": "Imperial Triad Card",
-            "source_fr": "Pochette Triple Triade impériale",
+            "source": ["character.gold-saucer.triple-triad-opponents.39", "@TRIAD.IMPERIAL_PACK"],
             "patch": "3.1"
         },
         "x120": {
@@ -149,17 +140,14 @@
             "number": "109",
             "name_en": "Hoary Boulder & Coultenet",
             "name_fr": "Hoary Boulder & Coultenet",
-            "source_en": "Gold Triad Card",
-            "source_fr": "Pochette Triple Triade or",
+            "source": "@TRIAD.GOLD_PACK",
             "patch": "3.2"
         },
         "x123": {
             "number": "110",
             "name_en": "Brachiosaur",
             "name_fr": "Brachiosaure",
-            "source": "character.gold-saucer.triple-triad-opponents.42",
-            "source_en": "Mythril Triad Card",
-            "source_fr": "Pochette Triple Triade mithrite",
+            "source": ["character.gold-saucer.triple-triad-opponents.42", "@TRIAD.MYTHRIL_PACK"],
             "patch": "3.2"
         },
         "x124": {
@@ -173,9 +161,7 @@
             "number": "112",
             "name_en": "Fenrir",
             "name_fr": "Fenrir",
-            "source": "d.27",
-            "source_en": "72,000 MGP",
-            "source_fr": "72.000 PGS",
+            "source": ["d.27", "@72,000 CURRENCY.MGP"],
             "patch": "3.2"
         },
         "x126": {
@@ -203,9 +189,7 @@
             "number": "116",
             "name_en": "Ferdiad",
             "name_fr": "Ferdiad",
-            "source": ["character.gold-saucer.triple-triad-opponents.87", "d.29"],
-            "source_en": "Silver Triad Card",
-            "source_fr": "Pochette Triple Triade argent",
+            "source": ["character.gold-saucer.triple-triad-opponents.87", "d.29", "@TRIAD.SILVER_PACK"],
             "patch": "3.2"
         },
         "x130": {

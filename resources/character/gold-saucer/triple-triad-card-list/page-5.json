@@ -35,8 +35,7 @@
             "number": "125",
             "name_en": "F'lhaminn",
             "name_fr": "F'lhaminn",
-            "source_en": ["20,000 MGP", "Platinum Triad Card"],
-            "source_fr": ["20.000 PGS", "Pochette Triple Triade platine"],
+            "source": ["@20,000 CURRENCY.MGP", "@TRIAD.PLATINUM_PACK"],
             "patch": "3.2"
         },
         "x139": {
@@ -99,9 +98,7 @@
             "number": "134",
             "name_en": "Waukkeon",
             "name_fr": "Waukkeon",
-            "source": ["character.gold-saucer.triple-triad-opponents.42", "d.33"],
-            "source_en": "Bronze Triad Card",
-            "source_fr": "Pochette Triple Triade bronze",
+            "source": ["character.gold-saucer.triple-triad-opponents.42", "d.33", "@TRIAD.BRONZE_PACK"],
             "patch": "3.3"
         },
         "x148": {
@@ -143,9 +140,7 @@
             "number": "140",
             "name_en": "Hraesvelgr",
             "name_fr": "Hraesvelgr",
-            "source": ["character.gold-saucer.triple-triad-opponents.78", "d.171"],
-            "source_en": "Platinum Triad Card",
-            "source_fr": "Pochette Triple Triade platine",
+            "source": ["character.gold-saucer.triple-triad-opponents.78", "d.171", "@TRIAD.PLATINUM_PACK"],
             "patch": "3.3"
         },
         "x154": {
@@ -166,16 +161,14 @@
             "number": "143",
             "name_en": "Magitek Death Claw",
             "name_fr": "Griffe de mort magitek",
-            "source_en": "Bronze Triad Card",
-            "source_fr": "Pochette Triple Triade bronze",
+            "source": "@TRIAD.BRONZE_PACK",
             "patch": "3.4"
         },
         "x157": {
             "number": "144",
             "name_en": "Liquid Flame",
             "name_fr": "Flamme liquide",
-            "source_en": "Bronze Triad Card",
-            "source_fr": "Pochette Triple Triade bronze",
+            "source": "@TRIAD.BRONZE_PACK",
             "patch": "3.4"
         },
         "x158": {
@@ -189,8 +182,7 @@
             "number": "146",
             "name_en": "Delivery Moogle",
             "name_fr": "Mog postier",
-            "source_en": "Bronze Triad Card",
-            "source_fr": "Pochette Triple Triade bronze",
+            "source": "@TRIAD.BRONZE_PACK",
             "patch": "3.4"
         },
         "x160": {
@@ -211,9 +203,7 @@
             "number": "149",
             "name_en": "Tozol Huatotl",
             "name_fr": "Tozol Huatotl",
-            "source": ["character.gold-saucer.triple-triad-opponents.90", "d.182"],
-            "source_en": "Bronze Triad Card",
-            "source_fr": "Pochette Triple Triade bronze",
+            "source": ["character.gold-saucer.triple-triad-opponents.90", "d.182", "@TRIAD.BRONZE_PACK"],
             "patch": "3.4"
         },
         "x163": {

@@ -33,10 +33,9 @@
             "name_fr": "Gerolt",
             "source": [
                 "character.gold-saucer.triple-triad-opponents.35",
-                "character.gold-saucer.triple-triad-opponents.88"
+                "character.gold-saucer.triple-triad-opponents.88",
+                "@TRIAD.GOLD_PACK"
             ],
-            "source_en": "Gold Triad Card",
-            "source_fr": "Pochette Triple Triade or",
             "patch": "2.51"
         },
         "x35": {
@@ -69,28 +68,23 @@
             "name_fr": "Béhémoth",
             "source": [
                 "character.gold-saucer.triple-triad-opponents.90",
-                "character.gold-saucer.triple-triad-opponents.85"
+                "character.gold-saucer.triple-triad-opponents.85",
+                "@TRIAD.BRONZE_PACK"
             ],
-            "source_en": "Bronze Triad Card",
-            "source_fr": "Pochette Triple Triade bronze",
             "patch": "2.51"
         },
         "x39": {
             "number": "039",
             "name_en": "Gilgamesh & Enkidu",
             "name_fr": "Gilgamesh & Enkidu",
-            "source": "d.76",
-            "source_en": "Mythril Triad Card",
-            "source_fr": "Pochette Triple Triade mithrite",
+            "source": ["d.76", "@TRIAD.MYTHRIL_PACK"],
             "patch": "2.51"
         },
         "x40": {
             "number": "040",
             "name_en": "Ifrit",
             "name_fr": "Ifrit",
-            "source": ["character.gold-saucer.triple-triad-opponents.49", "d.59", "d.63"],
-            "source_en": "Silver Triad Card",
-            "source_fr": "Pochette Triple Triade argent",
+            "source": ["character.gold-saucer.triple-triad-opponents.49", "d.59", "d.63", "@TRIAD.SILVER_PACK"],
             "patch": "2.51"
         },
         "x41": {
@@ -101,19 +95,16 @@
                 "character.gold-saucer.triple-triad-opponents.23",
                 "character.gold-saucer.triple-triad-opponents.72",
                 "d.60",
-                "d.64"
+                "d.64",
+                "@TRIAD.SILVER_PACK"
             ],
-            "source_en": "Silver Triad Card",
-            "source_fr": "Pochette Triple Triade argent",
             "patch": "2.51"
         },
         "x42": {
             "number": "042",
             "name_en": "Garuda",
             "name_fr": "Garuda",
-            "source": ["character.gold-saucer.triple-triad-opponents.75", "d.61", "d.65"],
-            "source_en": "Silver Triad Card",
-            "source_fr": "Pochette Triple Triade argent",
+            "source": ["character.gold-saucer.triple-triad-opponents.75", "d.61", "d.65", "@TRIAD.SILVER_PACK"],
             "patch": "2.51"
         },
         "x43": {
@@ -124,19 +115,16 @@
                 "character.gold-saucer.triple-triad-opponents.100",
                 "character.gold-saucer.triple-triad-opponents.78",
                 "d.66",
-                "d.67"
+                "d.67",
+                "@TRIAD.SILVER_PACK"
             ],
-            "source_en": "Silver Triad Card",
-            "source_fr": "Pochette Triple Triade argent",
             "patch": "2.51"
         },
         "x44": {
             "number": "044",
             "name_en": "Raya-O-Senna & A-Ruhn-Senna",
             "name_fr": "Raya-O-Senna & A-Ruhn-Senna",
-            "source": "character.gold-saucer.triple-triad-opponents.56",
-            "source_en": "4,800 MGP",
-            "source_fr": "4.800 PGS",
+            "source": ["character.gold-saucer.triple-triad-opponents.56", "@4,800 CURRENCY.MGP"],
             "patch": "2.51"
         },
         "x45": {
@@ -146,10 +134,9 @@
             "source": [
                 "character.gold-saucer.triple-triad-opponents.89",
                 "character.gold-saucer.triple-triad-opponents.69",
-                "character.gold-saucer.triple-triad-opponents.62"
+                "character.gold-saucer.triple-triad-opponents.62",
+                "@9,600 CURRENCY.MGP"
             ],
-            "source_en": "9,600 MGP",
-            "source_fr": "9.600 PGS",
             "patch": "2.51"
         },
         "x46": {
@@ -190,80 +177,63 @@
             "number": "050",
             "name_en": "Urianger",
             "name_fr": "Urianger",
-            "source": "character.gold-saucer.triple-triad-opponents.89",
-            "source_en": "Silver Triad Card",
-            "source_fr": "Pochette Triple Triade argent",
+            "source": ["character.gold-saucer.triple-triad-opponents.89", "@TRIAD.SILVER_PACK"],
             "patch": "2.51"
         },
         "x51": {
             "number": "051",
             "name_en": "Ultima Weapon",
             "name_fr": "Ultima Arma",
-            "source": "d.68",
-            "source_en": ["Gold Triad Card", "Platinum Triad Card"],
-            "source_fr": ["Pochette Triple Triade or", "Pochette Triple Triade platine"],
+            "source": ["d.68", "@TRIAD.GOLD_PACK", "@TRIAD.PLATINUM_PACK"],
             "patch": "2.51"
         },
         "x52": {
             "number": "052",
             "name_en": "Odin",
             "name_fr": "Odin",
-            "source": ["character.gold-saucer.triple-triad-opponents.72", "d.82"],
-            "source_en": "Mythril Triad Card",
-            "source_fr": "Mythril Triad Card",
+            "source": ["character.gold-saucer.triple-triad-opponents.72", "d.82", "@TRIAD.MYTHRIL_PACK"],
             "patch": "2.51"
         },
         "x53": {
             "number": "053",
             "name_en": "Ramuh",
             "name_fr": "Ramuh",
-            "source": ["character.gold-saucer.triple-triad-opponents.100", "d.77", "d.78"],
-            "source_en": "Gold Triad Card",
-            "source_fr": "Pochette Triple Triade or",
+            "source": ["character.gold-saucer.triple-triad-opponents.100", "d.77", "d.78", "@TRIAD.GOLD_PACK"],
             "patch": "2.51"
         },
         "x54": {
             "number": "054",
             "name_en": "Leviathan",
             "name_fr": "Léviathan",
-            "source": ["character.gold-saucer.triple-triad-opponents.86", "d.72", "d.73"],
-            "source_en": "Gold Triad Card",
-            "source_fr": "Pochette Triple Triade or",
+            "source": ["character.gold-saucer.triple-triad-opponents.86", "d.72", "d.73", "@TRIAD.GOLD_PACK"],
             "patch": "2.51"
         },
         "x55": {
             "number": "055",
             "name_en": "Shiva",
             "name_fr": "Shiva",
-            "source": ["d.79", "d.80"],
-            "source_en": ["Gold Triad Card", "Platinum Triad Card"],
-            "source_fr": ["Pochette Triple Triade or", "Pochette Triple Triade platine"],
+            "source": ["d.79", "d.80", "@TRIAD.GOLD_PACK", "@TRIAD.PLATINUM_PACK"],
             "patch": "2.51"
         },
         "x56": {
             "number": "056",
             "name_en": "Minfilia",
             "name_fr": "Minfilia",
-            "source": "character.gold-saucer.triple-triad-opponents.59",
-            "source_en": "Silver Triad Card",
-            "source_fr": "Pochette Triple Triade argent",
+            "source": ["character.gold-saucer.triple-triad-opponents.59", "@TRIAD.SILVER_PACK"],
             "patch": "2.51"
         },
         "x57": {
             "number": "057",
             "name_en": "Lahabrea",
             "name_fr": "Lahabrea",
-            "source_en": ["Silver Triad Card", "Platinum Triad Card"],
-            "source_fr": ["Pochette Triple Triade argent", "Pochette Triple Triade platine"],
+            "source": ["@TRIAD.SILVER_PACK", "@TRIAD.PLATINUM_PACK"],
             "patch": "2.51"
         },
         "x58": {
             "number": "058",
             "name_en": "Cid Garlond",
             "name_fr": "Cid",
-            "source": "character.gold-saucer.triple-triad-opponents.90",
-            "source_en": "Gold Triad Card",
-            "source_fr": "Pochette Triple Triade or",
+            "source": ["character.gold-saucer.triple-triad-opponents.90", "@TRIAD.GOLD_PACK"],
             "patch": "2.51"
         },
         "x59": {
@@ -272,19 +242,16 @@
             "name_fr": "Alphinaud & Alisaie",
             "source": [
                 "character.gold-saucer.triple-triad-opponents.49",
-                "character.gold-saucer.triple-triad-opponents.10"
+                "character.gold-saucer.triple-triad-opponents.10",
+                "@TRIAD.PLATINUM_PACK"
             ],
-            "source_en": "Platinum Triad Card",
-            "source_fr": "Pochette Triple Triade platine",
             "patch": "2.51"
         },
         "x60": {
             "number": "060",
             "name_en": "Louisoix Leveilleur",
             "name_fr": "Louisoix",
-            "source": "character.gold-saucer.triple-triad-opponents.88",
-            "source_en": "Platinum Triad Card",
-            "source_fr": "Pochette Triple Triade platine",
+            "source": ["character.gold-saucer.triple-triad-opponents.88", "@TRIAD.PLATINUM_PACK"],
             "patch": "2.51"
         }
     }

@@ -21,8 +21,7 @@
             "number": "063",
             "name_en": "Nanamo Ul Namo",
             "name_fr": "Nanamo",
-            "source_en": ["Platinum Triad Card", "400,000 MGP"],
-            "source_fr": ["Pochette Triple Triade platine", "400.000 PGS"],
+            "source": ["@TRIAD.PLATINUM_PACK", "@400,000 CURRENCY.MGP"],
             "patch": "2.51"
         },
         "x64": {
@@ -39,28 +38,23 @@
             "source": [
                 "character.gold-saucer.triple-triad-opponents.86",
                 "character.gold-saucer.triple-triad-opponents.46",
-                "character.gold-saucer.triple-triad-opponents.43"
+                "character.gold-saucer.triple-triad-opponents.43",
+                "@TRIAD.GOLD_PACK"
             ],
-            "source_en": "Gold Triad Card",
-            "source_fr": "Pochette Triple Triade or",
             "patch": "2.51"
         },
         "x66": {
             "number": "066",
             "name_en": "Kan-E-Senna",
             "name_fr": "Kan-E-Senna",
-            "source": "character.gold-saucer.triple-triad-opponents.100",
-            "source_en": "Gold Triad Card",
-            "source_fr": "Pochette Triple Triade or",
+            "source": ["character.gold-saucer.triple-triad-opponents.100", "@TRIAD.GOLD_PACK"],
             "patch": "2.51"
         },
         "x67": {
             "number": "067",
             "name_en": "Raubahn Aldynn",
             "name_fr": "Raubahn",
-            "source": "character.gold-saucer.triple-triad-opponents.49",
-            "source_en": "Gold Triad Card",
-            "source_fr": "Pochette Triple Triade or",
+            "source": ["character.gold-saucer.triple-triad-opponents.49", "@TRIAD.GOLD_PACK"],
             "patch": "2.51"
         },
         "x81": {

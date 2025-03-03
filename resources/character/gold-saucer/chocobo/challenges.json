@@ -4,8 +4,7 @@
     "groupName_fr": "Challenges de performance",
     "headers": {
         "race": {
-            "header_en": "Race",
-            "header_fr": "CP"
+            "header": "HEADER.NUMBER"
         },
         "name": {
             "header": "@HEADER.NAME"
@@ -15,8 +14,7 @@
             "header_fr": "Cote Minimale"
         },
         "reward": {
-            "header_en": "MGP Reward",
-            "header_fr": "Récompense (PGS)"
+            "header": "@HEADER.REWARD"
         },
         "patch": {
             "header": "@HEADER.PATCH"
@@ -26,8 +24,7 @@
         "x0": {
             "name_en": "Hugging the Inside",
             "name_fr": "Toujours à la corde !",
-            "reward_en": "20,000",
-            "reward_fr": "20.000",
+            "reward": "@20,000 CURRENCY.MGP",
             "patch": "3.25",
             "race": "1",
             "minimumRating": "41",
@@ -36,8 +33,7 @@
         "x1": {
             "name_en": "Keep Away",
             "name_fr": "Gare aux attaques à aires d'effet !",
-            "reward_en": "21,000",
-            "reward_fr": "21.000",
+            "reward": "@21,000 CURRENCY.MGP",
             "patch": "3.25",
             "race": "2",
             "minimumRating": "61",
@@ -47,8 +43,7 @@
         "x2": {
             "name_en": "Inability",
             "name_fr": "En avant même sans aptitudes !",
-            "reward_en": "22,000",
-            "reward_fr": "22.000",
+            "reward": "@22,000 CURRENCY.MGP",
             "patch": "3.25",
             "race": "3",
             "minimumRating": "81",
@@ -58,8 +53,7 @@
         "x3": {
             "name_en": "Heavy Hooves",
             "name_fr": "Une course très très pesante !",
-            "reward_en": "23,000",
-            "reward_fr": "23.000",
+            "reward": "@23,000 CURRENCY.MGP",
             "patch": "3.25",
             "race": "4",
             "minimumRating": "101",
@@ -69,8 +63,7 @@
         "x4": {
             "name_en": "Defending the Rush",
             "name_fr": "Attention aux départs rapides !",
-            "reward_en": "24,000",
-            "reward_fr": "24.000",
+            "reward": "@24,000 CURRENCY.MGP",
             "patch": "3.25",
             "race": "5",
             "minimumRating": "121",
@@ -80,8 +73,7 @@
         "x5": {
             "name_en": "Road Rivals",
             "name_fr": "Pas de pitié pour les rivaux !",
-            "reward_en": "25,000",
-            "reward_fr": "25.000",
+            "reward": "@25,000 CURRENCY.MGP",
             "patch": "3.25",
             "race": "6",
             "minimumRating": "141",
@@ -91,8 +83,7 @@
         "x6": {
             "name_en": "Field of Dreams",
             "name_fr": "Prendre du champ avec les champs !",
-            "reward_en": "26,000",
-            "reward_fr": "26.000",
+            "reward": "@26,000 CURRENCY.MGP",
             "patch": "3.25",
             "race": "7",
             "minimumRating": "161",
@@ -102,8 +93,7 @@
         "x7": {
             "name_en": "Playing Both Ends",
             "name_fr": "Laissons les rivaux s'éliminer !",
-            "reward_en": "27,000",
-            "reward_fr": "27.000",
+            "reward": "@27,000 CURRENCY.MGP",
             "patch": "3.25",
             "race": "8",
             "minimumRating": "181",
@@ -113,8 +103,7 @@
         "x8": {
             "name_en": "Stamina",
             "name_fr": "Une bataille d'endurance !",
-            "reward_en": "28,000",
-            "reward_fr": "28.000",
+            "reward": "@28,000 CURRENCY.MGP",
             "patch": "3.25",
             "race": "9",
             "minimumRating": "201",
@@ -124,8 +113,7 @@
         "x9": {
             "name_en": "Cat and Mouse",
             "name_fr": "Course poursuite !",
-            "reward_en": "29,000",
-            "reward_fr": "29.000",
+            "reward": "@29,000 CURRENCY.MGP",
             "patch": "3.25",
             "race": "10",
             "minimumRating": "221",
@@ -135,8 +123,7 @@
         "x10": {
             "name_en": "Mad Dash",
             "name_fr": "À bride abattue !",
-            "reward_en": "30,000",
-            "reward_fr": "30.000",
+            "reward": "@30,000 CURRENCY.MGP",
             "patch": "3.25",
             "race": "11",
             "minimumRating": "231",
@@ -146,8 +133,7 @@
         "x11": {
             "name_en": "Bag of Tricks",
             "name_fr": "Une épreuve d'aptitude !",
-            "reward_en": "35,000",
-            "reward_fr": "35.000",
+            "reward": "@35,000 CURRENCY.MGP",
             "patch": "3.25",
             "race": "12",
             "minimumRating": "241",
@@ -157,8 +143,7 @@
         "x12": {
             "name_en": "Tag Team",
             "name_fr": "Un travail d'équipe !",
-            "reward_en": "40,000",
-            "reward_fr": "40.000",
+            "reward": "@40,000 CURRENCY.MGP",
             "patch": "3.25",
             "race": "13",
             "minimumRating": "251",
@@ -168,8 +153,7 @@
         "x13": {
             "name_en": "Heavier Hooves",
             "name_fr": "Une course encore plus pesante !",
-            "reward_en": "45,000",
-            "reward_fr": "45.000",
+            "reward": "@45,000 CURRENCY.MGP",
             "patch": "3.25",
             "race": "14",
             "minimumRating": "261",
@@ -179,8 +163,7 @@
         "x14": {
             "name_en": "Ultimatum",
             "name_fr": "La course des extrêmes !",
-            "reward_en": "50,000",
-            "reward_fr": "50.000",
+            "reward": "@50,000 CURRENCY.MGP",
             "patch": "3.25",
             "race": "15",
             "minimumRating": "271",

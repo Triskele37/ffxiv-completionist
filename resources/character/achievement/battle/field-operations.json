@@ -121,7 +121,7 @@
             "reward": "t.542",
             "patch": "5.35",
             "points": 10,
-            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.events.45", "t.542"],
+            "cSiblings": ["duty.exploratory-missions.bozja.events.45", "t.542"],
             "cCombo": ["a.2686"]
         },
         "x2684": {
@@ -132,7 +132,7 @@
             "reward": "t.543",
             "patch": "5.35",
             "points": 10,
-            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.events.47", "t.543"],
+            "cSiblings": ["duty.exploratory-missions.bozja.events.47", "t.543"],
             "cCombo": ["a.2686"]
         },
         "x2685": {
@@ -143,7 +143,7 @@
             "reward": "t.544",
             "patch": "5.35",
             "points": 10,
-            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.events.46", "t.544"],
+            "cSiblings": ["duty.exploratory-missions.bozja.events.46", "t.544"],
             "cCombo": ["a.2686"]
         },
         "x2686": {
@@ -166,7 +166,7 @@
             "patch": "5.35",
             "points": 10,
             "cNext": ["a.2681"],
-            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.0"]
+            "cSiblings": ["duty.exploratory-missions.bozja.duties.0"]
         },
         "x2681": {
             "name_en": "Operation: Eagle's Nest II",
@@ -267,7 +267,7 @@
             "patch": "5.45",
             "points": 5,
             "cNext": ["a.2763"],
-            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.1"]
+            "cSiblings": ["duty.exploratory-missions.bozja.duties.1"]
         },
         "x2763": {
             "name_en": "Queen of Swords II",
@@ -297,7 +297,7 @@
             "patch": "5.45",
             "points": 5,
             "cNext": ["a.2766"],
-            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.2"]
+            "cSiblings": ["duty.exploratory-missions.bozja.duties.2"]
         },
         "x2766": {
             "name_en": "Savage Queen of Swords II",
@@ -328,7 +328,7 @@
             "reward": "t.586",
             "patch": "5.55",
             "points": 10,
-            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.events.82", "t.586"],
+            "cSiblings": ["duty.exploratory-missions.bozja.events.82", "t.586"],
             "cCombo": ["a.2880"]
         },
         "x2878": {
@@ -339,7 +339,7 @@
             "reward": "t.587",
             "patch": "5.55",
             "points": 10,
-            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.events.63", "t.587"],
+            "cSiblings": ["duty.exploratory-missions.bozja.events.63", "t.587"],
             "cCombo": ["a.2880"]
         },
         "x2879": {
@@ -350,7 +350,7 @@
             "reward": "t.588",
             "patch": "5.55",
             "points": 10,
-            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.events.78", "t.588"],
+            "cSiblings": ["duty.exploratory-missions.bozja.events.78", "t.588"],
             "cCombo": ["a.2880"]
         },
         "x2880": {
@@ -384,7 +384,7 @@
             "patch": "5.55",
             "points": 10,
             "cNext": ["a.2875"],
-            "cSiblings": ["duty.exploratory-missions.the-bozjan-southern-front.duties.3"]
+            "cSiblings": ["duty.exploratory-missions.bozja.duties.3"]
         },
         "x2875": {
             "name_en": "Hell to Pay II",
@@ -417,9 +417,9 @@
             "points": 10,
             "cPrevAt": {
                 "10": [
-                    "duty.exploratory-missions.the-bozjan-southern-front.resistance-honors.0",
-                    "duty.exploratory-missions.the-bozjan-southern-front.resistance-honors.1",
-                    "duty.exploratory-missions.the-bozjan-southern-front.resistance-honors.2"
+                    "duty.exploratory-missions.bozja.resistance-honors.0",
+                    "duty.exploratory-missions.bozja.resistance-honors.1",
+                    "duty.exploratory-missions.bozja.resistance-honors.2"
                 ]
             },
             "cSiblings": ["t.591"]
@@ -431,7 +431,7 @@
             "description_fr": "Débloquer les 99 actions oubliées.",
             "patch": "5.55",
             "points": 10,
-            "cPrev": ["duty.exploratory-missions.the-bozjan-southern-front.lost-actions.all"]
+            "cPrev": ["duty.exploratory-missions.bozja.lost-actions.all"]
         }
     }
 }

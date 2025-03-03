@@ -14,16 +14,14 @@
             "number": "302",
             "name_en": "Gogo, Master of Mimicry",
             "name_fr": "Gogo le mime",
-            "source_en": "Maudlin Latool Ja - Ul'dah - 300 Allied Seals (Required Quest: A Future in Blue)",
-            "source_fr": "Quête nécessaire: \"Le bon et le mauvais copieur\" - Maudlin Latool Ja - Ul'dah - 300 Insignes alliés",
+            "source": "@VENDOR.MAUDLIN (300 CURRENCY.ALLIED_SEALS) < q.69530",
             "patch": "5.45"
         },
         "x317": {
             "number": "303",
             "name_en": "Keeper of the Keys",
             "name_fr": "Gardien hypogéen",
-            "source_en": "60 Bicolor Gemstones (Il Mheg)",
-            "source_fr": "60 Gemme bicolore (Il Mheg)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.IL_MHEG (60 CURRENCY.BICOLOR_GEMSTONES)",
             "patch": "5.5"
         },
         "x318": {
@@ -37,8 +35,7 @@
             "number": "305",
             "name_en": "Valens van Varro",
             "name_fr": "Valens van Varro",
-            "source_en": "22,400 MGP",
-            "source_fr": "22.400 PGS",
+            "source": "@22,400 CURRENCY.MGP",
             "patch": "5.5"
         },
         "x323": {
@@ -67,8 +64,7 @@
             "number": "309",
             "name_en": "Lunar Ifrit",
             "name_fr": "Luna-Ifrit",
-            "source_en": "22,400 MGP",
-            "source_fr": "22.400 PGS",
+            "source": "@22,400 CURRENCY.MGP",
             "patch": "5.55"
         },
         "x321": {
@@ -89,8 +85,7 @@
             "number": "312",
             "name_en": "Diablo Armament",
             "name_fr": "Batterie d'artillerie Diablo",
-            "source_en": "7 Bozjan Clusters",
-            "source_fr": "7 Cristaux bozjiens",
+            "source": "@7 CURRENCY.BOZJAN_CLUSTERS",
             "patch": "5.55"
         },
         "x327": {
@@ -111,8 +106,7 @@
             "number": "315",
             "name_en": "Ea",
             "name_fr": "Éa",
-            "source_en": "200 Bicolor Gemstones (Ultima Thule)",
-            "source_fr": "200 Gemme bicolore (Ultima Thulé)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.ULTIMA_THULE (200 CURRENCY.BICOLOR_GEMSTONES)",
             "patch": "6.0"
         },
         "x330": {
@@ -196,8 +190,7 @@
             "number": "327",
             "name_en": "Hythlodaeus",
             "name_fr": "Hythlodaeus",
-            "source_en": "200 Bicolor Gemstones (Elpis)",
-            "source_fr": "200 Gemme bicolore (Elpis)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.ELPIS (200 CURRENCY.BICOLOR_GEMSTONES)",
             "patch": "6.0"
         },
         "x343": {

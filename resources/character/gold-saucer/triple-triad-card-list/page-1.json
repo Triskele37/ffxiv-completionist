@@ -3,13 +3,235 @@
     "groupName_en": "Page 1",
     "groupName_fr": "Page 1",
     "tasks": {
+        "x1": {
+            "number": "001",
+            "name_en": "Dodo",
+            "name_fr": "Dodo",
+            "source": "q.65973",
+            "patch": "2.51"
+        },
+        "x2": {
+            "number": "002",
+            "name_en": "Tonberry",
+            "name_fr": "Tomberry",
+            "source": ["character.gold-saucer.triple-triad-opponents.15", "d.10", "d.30"],
+            "patch": "2.51"
+        },
+        "x3": {
+            "number": "003",
+            "name_en": "Sabotender",
+            "name_fr": "Pampa",
+            "source": "q.65973",
+            "patch": "2.51"
+        },
+        "x4": {
+            "number": "004",
+            "name_en": "Spriggan",
+            "name_fr": "Spriggan",
+            "source": ["character.gold-saucer.triple-triad-opponents.0", "@TRIAD.BRONZE_PACK"],
+            "patch": "2.51"
+        },
+        "x5": {
+            "number": "005",
+            "name_en": "Pudding",
+            "name_fr": "Pudding",
+            "source": ["character.gold-saucer.triple-triad-opponents.20", "@TRIAD.BRONZE_PACK"],
+            "patch": "2.51"
+        },
+        "x6": {
+            "number": "006",
+            "name_en": "Bomb",
+            "name_fr": "Bombo",
+            "source": "q.65973",
+            "patch": "2.51"
+        },
+        "x7": {
+            "number": "007",
+            "name_en": "Mandragora",
+            "name_fr": "Mandragore",
+            "source": "q.65973",
+            "patch": "2.51"
+        },
+        "x8": {
+            "number": "008",
+            "name_en": "Coblyn",
+            "name_fr": "Coblyn",
+            "source": [
+                "character.gold-saucer.triple-triad-opponents.13",
+                "character.gold-saucer.triple-triad-opponents.24",
+                "@TRIAD.BRONZE_PACK"
+            ],
+            "patch": "2.51"
+        },
+        "x9": {
+            "number": "009",
+            "name_en": "Morbol",
+            "name_fr": "Morbol",
+            "source": ["character.gold-saucer.triple-triad-opponents.20", "d.5"],
+            "patch": "2.51"
+        },
+        "x10": {
+            "number": "010",
+            "name_en": "Coeurl",
+            "name_fr": "Coeurl",
+            "source": "q.65973",
+            "patch": "2.51"
+        },
+        "x11": {
+            "number": "011",
+            "name_en": "Ahriman",
+            "name_fr": "Ahriman",
+            "source": ["character.gold-saucer.triple-triad-opponents.85", "d.13", "@TRIAD.BRONZE_PACK"],
+            "patch": "2.51"
+        },
+        "x12": {
+            "number": "012",
+            "name_en": "Goobbue",
+            "name_fr": "Goobbue",
+            "source": [
+                "character.gold-saucer.triple-triad-opponents.26",
+                "character.gold-saucer.triple-triad-opponents.18",
+                "@TRIAD.BRONZE_PACK"
+            ],
+            "patch": "2.51"
+        },
+        "x13": {
+            "number": "013",
+            "name_en": "Chocobo",
+            "name_fr": "Chocobo",
+            "source": ["character.gold-saucer.triple-triad-opponents.7", "@600 CURRENCY.MGP"],
+            "source_fr": "600 PGS",
+            "patch": "2.51"
+        },
+        "x14": {
+            "number": "014",
+            "name_en": "Amalj'aa",
+            "name_fr": "Amalj'aa",
+            "source": ["character.gold-saucer.triple-triad-opponents.15", "@TRIAD.SILVER_PACK"],
+            "patch": "2.51"
+        },
+        "x15": {
+            "number": "015",
+            "name_en": "Ixal",
+            "name_fr": "Ixal",
+            "source": [
+                "character.gold-saucer.triple-triad-opponents.11",
+                "character.gold-saucer.triple-triad-opponents.10",
+                "@TRIAD.SILVER_PACK"
+            ],
+            "patch": "2.51"
+        },
+        "x16": {
+            "number": "016",
+            "name_en": "Sylph",
+            "name_fr": "Sylphe",
+            "source": ["character.gold-saucer.triple-triad-opponents.13", "@TRIAD.SILVER_PACK"],
+            "patch": "2.51"
+        },
+        "x17": {
+            "number": "017",
+            "name_en": "Kobold",
+            "name_fr": "Kobold",
+            "source": "@TRIAD.SILVER_PACK",
+            "patch": "2.51"
+        },
+        "x18": {
+            "number": "018",
+            "name_en": "Sahagin",
+            "name_fr": "Sahuagin",
+            "source": ["character.gold-saucer.triple-triad-opponents.1", "d.4", "d.28"],
+            "patch": "2.51"
+        },
+        "x19": {
+            "number": "019",
+            "name_en": "Tataru Taru",
+            "name_fr": "Tataru",
+            "source": "@TRIAD.SILVER_PACK",
+            "patch": "2.51"
+        },
+        "x20": {
+            "number": "020",
+            "name_en": "Moogle",
+            "name_fr": "Mog",
+            "source": [
+                "character.gold-saucer.triple-triad-opponents.11",
+                "character.gold-saucer.triple-triad-opponents.23",
+                "@840 CURRENCY.MGP"
+            ],
+            "patch": "2.51"
+        },
+        "x21": {
+            "number": "021",
+            "name_en": "Siren",
+            "name_fr": "Sirène",
+            "source": ["character.gold-saucer.triple-triad-opponents.16", "d.17", "@TRIAD.SILVER_PACK"],
+            "patch": "2.51"
+        },
+        "x22": {
+            "number": "022",
+            "name_en": "Ultros & Typhon",
+            "name_fr": "Orthros & Typhon",
+            "source": ["character.gold-saucer.triple-triad-opponents.35", "d.81"],
+            "patch": "2.51"
+        },
+        "x23": {
+            "number": "023",
+            "name_en": "Demon Wall",
+            "name_fr": "Mur démoniaque",
+            "source": ["character.gold-saucer.triple-triad-opponents.56", "d.14", "d.29"],
+            "patch": "2.51"
+        },
+        "x24": {
+            "number": "024",
+            "name_en": "Succubus",
+            "name_fr": "Succube",
+            "source": ["character.gold-saucer.triple-triad-opponents.47", "d.6", "d.19", "@TRIAD.BRONZE_PACK"],
+            "patch": "2.51"
+        },
+        "x25": {
+            "number": "025",
+            "name_en": "Chimera",
+            "name_fr": "Chimère",
+            "source": ["character.gold-saucer.triple-triad-opponents.5", "d.12", "@TRIAD.BRONZE_PACK"],
+            "patch": "2.51"
+        },
+        "x26": {
+            "number": "026",
+            "name_en": "Blue Dragon",
+            "name_fr": "Dragon bleu",
+            "source": ["character.gold-saucer.triple-triad-opponents.85", "d.11", "d.25", "@TRIAD.BRONZE_PACK"],
+            "patch": "2.51"
+        },
+        "x27": {
+            "number": "027",
+            "name_en": "Scarface Bugaal Ja",
+            "name_fr": "Bugaal Ja",
+            "source": [
+                "character.gold-saucer.triple-triad-opponents.7",
+                "character.gold-saucer.triple-triad-opponents.26",
+                "@TRIAD.BRONZE_PACK"
+            ],
+            "patch": "2.51"
+        },
+        "x28": {
+            "number": "028",
+            "name_en": "Momodi Modi",
+            "name_fr": "Momodi",
+            "source": ["character.gold-saucer.triple-triad-opponents.17", "@TRIAD.GOLD_PACK"],
+            "patch": "2.51"
+        },
+        "x29": {
+            "number": "029",
+            "name_en": "Baderon Tenfingers",
+            "name_fr": "Baderon",
+            "source": ["character.gold-saucer.triple-triad-opponents.1", "@TRIAD.GOLD_PACK"],
+            "patch": "2.51"
+        },
         "x30": {
             "number": "030",
             "name_en": "Mother Miounne",
             "name_fr": "Miounne",
-            "source": "character.gold-saucer.triple-triad-opponents.18",
-            "source_en": "Gold Triad Card",
-            "source_fr": "Pochette Triple Triade or",
+            "source": ["character.gold-saucer.triple-triad-opponents.18", "@TRIAD.GOLD_PACK"],
             "patch": "2.51"
         }
     }
