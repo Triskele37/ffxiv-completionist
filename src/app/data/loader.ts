@@ -184,7 +184,6 @@ function getCommonTranslation(value: string): string {
             updatedValue = updatedValue.replace(commonKey, translation);
         }
     }
-    if(value.includes('33.9')) console.log(updatedValue)
 
     return updatedValue;
 }
