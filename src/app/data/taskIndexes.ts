@@ -53,6 +53,11 @@ function createIndex(base: string, exclude?: string[]): IndexMeta {
 export function addTaskToIndex(task: Task) {
     const baseKey = Object.keys(LOOKUP).find((base) => task.fullStorageKey.startsWith(base));
     const shorthand = LOOKUP[baseKey];
+
+    if(task.id === 67114) {
+        console.log(baseKey, shorthand);
+    }
+
     if(shorthand) {
         const { exclude, map } = INDEX.get(shorthand);
         if(exclude && exclude.some((e) => task.fullStorageKey.includes(e))) return;

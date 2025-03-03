@@ -959,6 +959,12 @@
             "WONDROUS_TAILS": "Carnet de Khloe"
         },
         "TYPE": {
+            "AESTHETICIAN": {
+                "FEMALE": "Female Only",
+                "MALE": "Male Only",
+                "UNISEX": "Unisexe",
+                "UNISEX_DIFFER": "Unisexe (styles différents)"
+            },
             "AETHERYTE": {
                 "CRYSTAL": "Éthérite",
                 "SHARD": "Éthérite urbaine"
@@ -1039,9 +1045,15 @@
         },
         "CURRENCY": {
             "ALLIED_SEALS": "Insignes alliés",
+            "ALOALO_POTSHERD": "Relique de l'île d'Aloalo",
             "CENTURIO_SEALS": "Insignes Centurio",
             "BICOLOR_GEMSTONES": "Gemme bicolore",
-            "BOZJAN_CLUSTERS": "Critaux bozjiens"
+            "BOZJAN_CLUSTERS": "Critaux bozjiens",
+            "MGP": "PGS",
+            "ROKKON_POTSHERD": "Relique du mont Rokkon",
+            "SEAFARERS_COWRIES": "Assignat insulaire azur",
+            "SKYBUILDERS_SCRIPS": "Assignats d'Azurée",
+            "WOLF_MARKS": "Marques de loup"
         },
         "VENDOR": {
             "HUNT_BILLMASTER": "Responsable de la Chasse - Base de Grande Compagnie",

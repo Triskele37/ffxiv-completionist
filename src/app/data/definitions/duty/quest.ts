@@ -469,7 +469,10 @@ export const QUEST_DEFINITION = {
                 },
                 {
                     path: 'special-quests',
-                    subGroups: ['collaboration-quests']
+                    subGroups: [
+                        'collaboration-quests',
+                        'special-quests'
+                    ]
                 },
                 'quasi-quests'
             ]

@@ -16,6 +16,11 @@ export function migrateDuties(store: ChangeStore): void {
     migrateGuildhests(store);
     migrateVCDungeons(store);
     migrateHunts(store);
+
+    store.moveGroup(
+        `${DUTY}.exploratory-missions.the-bozjan-southern-front`,
+        `${DUTY}.exploratory-missions.bozja`
+    );
 }
 
 function migrateDeepDungeons(store: ChangeStore): void {
