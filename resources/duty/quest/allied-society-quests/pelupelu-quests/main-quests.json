@@ -6,6 +6,7 @@
         "x70729": {
             "cNext": ["q.70730"],
             "cPrev": ["q.70495"],
+            "cSiblings": ["character.character.tribal-relations.113"],
             "level": 90,
             "name_en": "An Intrepid New Enterprise",
             "name_fr": "Commerce d'un nouveau genre",
@@ -18,51 +19,61 @@
         "x70730": {
             "cNext": ["q.70731"],
             "cPrev": ["q.70729"],
+            "cSiblings": ["character.character.tribal-relations.114"],
             "level": 90,
             "name_en": "A Tentative First Tour",
             "name_fr": "Tural Voyages, en route pour l'aventure",
             "npc_en": "Liplu",
             "npc_fr": "Liplu",
-            "patch": "7.1"
+            "patch": "7.1",
+            "reputation": "@REPUTATION.FRIENDLY"
         },
         "x70731": {
             "cNext": ["q.70732"],
             "cPrev": ["q.70730"],
+            "cSiblings": ["character.character.tribal-relations.115"],
             "level": 90,
             "name_en": "Earthenshire Awaits",
             "name_fr": "Envolez-vous pour l'inconnu avec Tural Voyages",
             "npc_en": "Liplu",
             "npc_fr": "Liplu",
-            "patch": "7.1"
+            "patch": "7.1",
+            "reputation": "@REPUTATION.TRUSTED"
         },
         "x70732": {
             "cNext": ["q.70733"],
             "cPrev": ["q.70731"],
+            "cSiblings": ["character.character.tribal-relations.116"],
             "level": 90,
             "name_en": "Recruitment Drive",
             "name_fr": "Tural Voyages embauche !",
             "npc_en": "Liplu",
             "npc_fr": "Liplu",
-            "patch": "7.1"
+            "patch": "7.1",
+            "reputation": "@REPUTATION.RESPECTED"
         },
         "x70733": {
             "cNext": ["q.70734"],
             "cPrev": ["q.70732"],
+            "cSiblings": ["character.character.tribal-relations.117"],
             "level": 90,
             "name_en": "A Guest from Across the Salt",
             "name_fr": "Tural Voyages, créateur de liens",
             "npc_en": "Liplu",
             "npc_fr": "Liplu",
-            "patch": "7.1"
+            "patch": "7.1",
+            "reputation": "@REPUTATION.HONORED"
         },
         "x70734": {
             "cPrev": ["q.70733"],
+            "cSiblings": ["character.character.tribal-relations.118"],
             "level": 90,
             "name_en": "Partners in Pel",
             "name_fr": "Tural Voyages exauce vos rêves",
             "npc_en": "Liplu",
             "npc_fr": "Liplu",
-            "patch": "7.1"
+            "patch": "7.1",
+            "reputation": "@REPUTATION.SWORN"
         }
     }
 }

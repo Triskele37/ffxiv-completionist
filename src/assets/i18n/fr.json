@@ -917,15 +917,16 @@
             }
         },
         "REPUTATION": {
-            "1": "Neutre",
-            "2": "Reconnu",
-            "3": "Ami",
-            "4": "Estimé",
-            "5": "Respecté",
-            "6": "Émérite",
-            "7": "Assermenté",
-            "8": "Assermenté★",
-            "9": "Allié"
+            "NONE": "Aucun",
+            "NEUTRAL": "Neutre",
+            "RECOGNIZED": "Reconnu",
+            "FRIENDLY": "Ami",
+            "TRUSTED": "Estimé",
+            "RESPECTED": "Respecté",
+            "HONORED": "Émérite",
+            "SWORN": "Assermenté",
+            "BLOODSWORN": "Assermenté★",
+            "ALLIED": "Allié"
         },
         "CATEGORY": {
             "ACHIEVEMENT": "Haut fait",
@@ -981,7 +982,26 @@
         "SOCIETY": {
             "MAELSTROM": "Le Maelstrom",
             "ADDER": "L'ordre des Deux Vipères",
-            "FLAMES": "Les Immortels"
+            "FLAMES": "Les Immortels",
+
+            "AMALJAA": "Amalj'aa",
+            "SYLPHS": "Sylphes",
+            "KOBOLDS": "Kobolds",
+            "SAHAGIN": "Sahuagins",
+            "IXAL": "Ixali",
+            "VANU_VANU": "Vanu Vanu",
+            "VATH": "Gnathes",
+            "MOOGLES": "Mogs célestes",
+            "KOJIN": "Kojin verts",
+            "ANANTA": "Anantas",
+            "NAMAZU": "Namazu",
+            "PIXIES": "Pixies",
+            "QITARI": "Qitari",
+            "DWARVES": "Nains",
+            "ARKASODARA": "Arkasodaras",
+            "OMICRONS": "Omicrons",
+            "LOPORRITS": "Loporrites",
+            "PELUPELU": "Pelupelu"
         },
         "EXPANSION": {
             "ARR": "A Realm Reborn",
