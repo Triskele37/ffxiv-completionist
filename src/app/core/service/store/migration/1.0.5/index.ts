@@ -15,6 +15,11 @@ import { migrateTripleTriadCards } from './triple-triad';
 export function migrateTo_1_0_5(svcSaveStore: SaveStoreService): void {
     const store = new ChangeStore(svcSaveStore, '1.0.5');
 
+    store.moveGroup(
+        'overall.character.character.tribal-relations',
+        'overall.character.character.allied-society-relations'
+    );
+
     migrateAchievements(store);
     migrateDuties(store);
     migrateFashionAccessories(store);
