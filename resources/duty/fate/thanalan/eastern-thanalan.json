@@ -2,14 +2,6 @@
     "key": "eastern-thanalan",
     "groupName": "@PLACE.EASTERN_THANALAN",
     "tasks": {
-        "x394": {
-            "level": 19,
-            "name_en": "Men Who See Goats",
-            "name_fr": "Des chèvres voraces",
-            "location": "(17, 29)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
         "x395": {
             "level": 15,
             "name_en": "License to Quill",
@@ -17,22 +9,6 @@
             "location": "(12, 27)",
             "patch": "2.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x397": {
-            "level": 18,
-            "name_en": "Westward Bound",
-            "name_fr": "En route vers l'ouest",
-            "location": "(16, 26)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x398": {
-            "level": 18,
-            "name_en": "Bad Camp",
-            "name_fr": "Défi: destruction de camp",
-            "location": "(17, 27)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x400": {
             "level": 17,
@@ -45,7 +21,7 @@
         "x401": {
             "level": 17,
             "name_en": "Grim Undertakings",
-            "name_fr": "Défi: deux yalms sous terre",
+            "name_fr": "Défi : deux yalms sous terre",
             "location": "(14, 17)",
             "patch": "2.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -55,30 +31,6 @@
             "name_en": "Simple Minds",
             "name_fr": "Esprits malfaisants",
             "location": "(12, 19)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x406": {
-            "level": 27,
-            "name_en": "Manifest Destiny",
-            "name_fr": "Volonté divine",
-            "location": "(24, 20)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x407": {
-            "level": 29,
-            "name_en": "Spare the Hair",
-            "name_fr": "Défi: comme un œuf",
-            "location": "(26, 21)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x409": {
-            "level": 26,
-            "name_en": "Desert Rose",
-            "name_fr": "Rose des sables",
-            "location": "(27, 17)",
             "patch": "2.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
@@ -98,13 +50,97 @@
             "patch": "2.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
-        "x540": {
-            "level": 42,
-            "name_en": "Quartz Coupling",
-            "name_fr": "Quitte ou doblyn",
-            "location": "(26, 24)",
-            "patch": "2.1",
+        "x397": {
+            "level": 18,
+            "name_en": "Westward Bound",
+            "name_fr": "En route vers l'ouest",
+            "location": "(16, 26)",
+            "patch": "2.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x398": {
+            "level": 18,
+            "name_en": "Bad Camp",
+            "name_fr": "Défi : destruction de camp",
+            "location": "(17, 27)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x394": {
+            "level": 19,
+            "name_en": "Men Who See Goats",
+            "name_fr": "Des chèvres voraces",
+            "location": "(17, 29)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x191": {
+            "level": 26,
+            "name_en": "Attack on Highbridge: Prelude",
+            "name_fr": "Assaut sur Le Viaduc : prélude",
+            "location": "(21, 22)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x192": {
+            "level": 26,
+            "name_en": "Attack on Highbridge: Act I",
+            "name_fr": "Assaut sur Le Viaduc : acte I",
+            "location": "(22, 21)",
+            "patch": "2.0",
+            "previousFate": "f.191",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x193": {
+            "level": 26,
+            "name_en": "Attack on Highbridge: Act II",
+            "name_fr": "Assaut sur Le Viaduc : acte II",
+            "location": "(22, 21)",
+            "patch": "2.0",
+            "previousFate": "f.192",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x194": {
+            "level": 26,
+            "name_en": "Attack on Highbridge: Act III",
+            "name_fr": "Assaut sur Le Viaduc : acte III",
+            "location": "(23, 23)",
+            "patch": "2.0",
+            "previousFate": "f.193",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x195": {
+            "level": 26,
+            "name_en": "Attack on Highbridge: Denouement",
+            "name_fr": "Assaut sur Le Viaduc : dénouement",
+            "location": "(23, 22)",
+            "patch": "2.0",
+            "previousFate": ["f.191", "f.192", "f.193", "f.194"],
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x409": {
+            "level": 26,
+            "name_en": "Desert Rose",
+            "name_fr": "Rose des sables",
+            "location": "(27, 17)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x406": {
+            "level": 27,
+            "name_en": "Manifest Destiny",
+            "name_fr": "Volonté divine",
+            "location": "(24, 20)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x407": {
+            "level": 29,
+            "name_en": "Spare the Hair",
+            "name_fr": "Défi : comme un œuf",
+            "location": "(26, 21)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x541": {
             "level": 40,
@@ -114,10 +150,18 @@
             "patch": "2.1",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
+        "x540": {
+            "level": 42,
+            "name_en": "Quartz Coupling",
+            "name_fr": "Quitte ou doblyn",
+            "location": "(26, 24)",
+            "patch": "2.1",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
         "x542": {
             "level": 42,
             "name_en": "Bad Hair Day",
-            "name_fr": "Défi: pelote en colère",
+            "name_fr": "Défi : pelote en colère",
             "location": "(27, 24)",
             "patch": "2.1",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -125,53 +169,9 @@
         "x543": {
             "level": 42,
             "name_en": "The Big Bagoly Theory",
-            "name_fr": "Défi: se forger des chimères",
+            "name_fr": "Défi : se forger des chimères",
             "location": "(30, 25)",
             "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x191": {
-            "level": 26,
-            "name_en": "Attack on Highbridge: Prelude",
-            "name_fr": "Assaut sur Le Viaduc: prélude",
-            "location": "(21, 22)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x192": {
-            "level": 26,
-            "name_en": "Attack on Highbridge: Act I",
-            "name_fr": "Assaut sur Le Viaduc: acte I",
-            "location": "(22, 21)",
-            "patch": "2.0",
-            "previousFate": "f.191",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x193": {
-            "level": 26,
-            "name_en": "Attack on Highbridge: Act II",
-            "name_fr": "Assaut sur Le Viaduc: acte II",
-            "location": "(22, 21)",
-            "patch": "2.0",
-            "previousFate": "f.192",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x194": {
-            "level": 26,
-            "name_en": "Attack on Highbridge: Act III",
-            "name_fr": "Assaut sur Le Viaduc: acte III",
-            "location": "(23, 23)",
-            "patch": "2.0",
-            "previousFate": "f.193",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x195": {
-            "level": 26,
-            "name_en": "Attack on Highbridge: Denouement",
-            "name_fr": "Assaut sur Le Viaduc: dénouement",
-            "location": "(23, 22)",
-            "patch": "2.0",
-            "previousFate": ["f.191", "f.192", "f.193", "f.194"],
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }

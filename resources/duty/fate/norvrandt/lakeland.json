@@ -2,10 +2,27 @@
     "key": "lakeland",
     "groupName": "@PLACE.LAKELAND",
     "tasks": {
+        "x1496": {
+            "level": 71,
+            "name_en": "Looming Nightshade",
+            "name_fr": "La menace des Fanes pourpres : un repaire convoité",
+            "location": "(8.6, 9.8)",
+            "patch": "5.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1497": {
+            "level": 71,
+            "name_en": "Creeping Nightshade",
+            "name_fr": "La menace des Fanes pourpres : un repaire investi",
+            "location": "(10.3, 22.1)",
+            "patch": "5.0",
+            "previousFate": "f.1496",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
         "x1498": {
             "level": 71,
             "name_en": "Draconian Measures",
-            "name_fr": "Défi: Ophion, le reptile sanguinaire",
+            "name_fr": "Défi : Ophion, le reptile sanguinaire",
             "location": "(34.7, 9.8)",
             "patch": "5.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -16,6 +33,50 @@
             "name_fr": "La trahison des wargs",
             "location": "(19.4, 21.5)",
             "patch": "5.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1500": {
+            "level": 71,
+            "name_en": "Pick-up Sticks",
+            "name_fr": "Dur dur d'être un bûcheron",
+            "location": "(21.8, 24.1)",
+            "patch": "5.0",
+            "type": "@FATE.TYPE.GATHER_ITEMS"
+        },
+        "x1501": {
+            "level": 71,
+            "name_en": "Flowering Nightshade",
+            "name_fr": "La menace des Fanes pourpres : le bûcheron attaqué",
+            "location": "(24.1, 26.2)",
+            "patch": "5.0",
+            "previousFate": "f.1500",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1502": {
+            "level": 71,
+            "name_en": "Subtle Nightshade",
+            "name_fr": "La menace des Fanes pourpres : un vil piège",
+            "location": "(26.0, 13.0)",
+            "patch": "5.0",
+            "previousFate": ["f.1497", "f.1501"],
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1503": {
+            "level": 71,
+            "name_en": "Toxic Nightshade",
+            "name_fr": "La menace des Fanes pourpres : l'insurrection",
+            "location": "(17.6, 12.0)",
+            "patch": "5.0",
+            "previousFate": "f.1502",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1504": {
+            "level": 71,
+            "name_en": "Deadly Nightshade",
+            "name_fr": "La menace des Fanes pourpres : les wargs s'en mêlent",
+            "location": "(17.6, 12.0)",
+            "patch": "5.0",
+            "previousFate": "f.1503",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1505": {
@@ -37,7 +98,7 @@
         "x1507": {
             "level": 71,
             "name_en": "A Beast among Men",
-            "name_fr": "Défi: le noble Lugarhoo",
+            "name_fr": "Défi : le noble Lugarhoo",
             "location": "(14.6, 18.5)",
             "patch": "5.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -48,67 +109,6 @@
             "name_fr": "La petite porte des horreurs",
             "location": "(18.2, 13.6)",
             "patch": "5.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1496": {
-            "level": 71,
-            "name_en": "Looming Nightshade",
-            "name_fr": "La menace des Fanes pourpres: un repaire convoité",
-            "location": "(8.6, 9.8)",
-            "patch": "5.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1497": {
-            "level": 71,
-            "name_en": "Creeping Nightshade",
-            "name_fr": "La menace des Fanes pourpres: un repaire investi",
-            "location": "(10.3, 22.1)",
-            "patch": "5.0",
-            "previousFate": "f.1496",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1500": {
-            "level": 71,
-            "name_en": "Pick-up Sticks",
-            "name_fr": "Dur dur d'être un bûcheron",
-            "location": "(21.8, 24.1)",
-            "patch": "5.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
-        },
-        "x1501": {
-            "level": 71,
-            "name_en": "Flowering Nightshade",
-            "name_fr": "La menace des Fanes pourpres: le bûcheron attaqué",
-            "location": "(24.1, 26.2)",
-            "patch": "5.0",
-            "previousFate": "f.1500",
-            "type": "@FATE.TYPE.DEFENSE"
-        },
-        "x1502": {
-            "level": 71,
-            "name_en": "Subtle Nightshade",
-            "name_fr": "La menace des Fanes pourpres: un vil piège",
-            "location": "(26.0, 13.0)",
-            "patch": "5.0",
-            "previousFate": ["f.1497", "f.1501"],
-            "type": "@FATE.TYPE.DEFENSE"
-        },
-        "x1503": {
-            "level": 71,
-            "name_en": "Toxic Nightshade",
-            "name_fr": "La menace des Fanes pourpres: l'insurrection",
-            "location": "(17.6, 12.0)",
-            "patch": "5.0",
-            "previousFate": "f.1502",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1504": {
-            "level": 71,
-            "name_en": "Deadly Nightshade",
-            "name_fr": "La menace des Fanes pourpres: les wargs s'en mêlent",
-            "location": "(17.6, 12.0)",
-            "patch": "5.0",
-            "previousFate": "f.1503",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1509": {
@@ -122,7 +122,7 @@
         "x1510": {
             "level": 71,
             "name_en": "Calm a Chameleon",
-            "name_fr": "Défi: le Casse-noisette excédé",
+            "name_fr": "Défi : le Casse-noisette excédé",
             "location": "(20.6, 28.1)",
             "patch": "5.0",
             "previousFate": "f.1509",

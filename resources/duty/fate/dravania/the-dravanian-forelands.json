@@ -5,7 +5,7 @@
         "x818": {
             "level": 52,
             "name_en": "By the Horns",
-            "name_fr": "Défi: un mâle de chocobo",
+            "name_fr": "Défi : un mâle de chocobo",
             "location": "(34, 31)",
             "patch": "3.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -21,7 +21,7 @@
         "x820": {
             "level": 52,
             "name_en": "Run, Run Away",
-            "name_fr": "Défi: Yowie ne vit qu'une fois",
+            "name_fr": "Défi : Yowie ne vit qu'une fois",
             "location": "(38, 20)",
             "patch": "3.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -37,7 +37,7 @@
         "x822": {
             "level": 52,
             "name_en": "Glawackus On, Glawackus Off",
-            "name_fr": "Défi: Glawackus le gourmand",
+            "name_fr": "Défi : Glawackus le gourmand",
             "location": "(36, 8)",
             "patch": "3.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -61,7 +61,7 @@
         "x825": {
             "level": 52,
             "name_en": "The Rite Stuff",
-            "name_fr": "Sus aux hérétiques!",
+            "name_fr": "Sus aux hérétiques !",
             "location": "(26, 13)",
             "patch": "3.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
@@ -74,6 +74,23 @@
             "patch": "3.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
+        "x827": {
+            "level": 52,
+            "name_en": "The Whole Truth",
+            "name_fr": "Gare à toi, hérétique !",
+            "location": "(24, 21)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x828": {
+            "level": 52,
+            "name_en": "Nothing but the Truth",
+            "name_fr": "Défi : la pacification d'Hubairtien",
+            "location": "(25, 22)",
+            "patch": "3.0",
+            "previousFate": "f.827",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
         "x829": {
             "level": 52,
             "name_en": "Drone Under",
@@ -81,6 +98,22 @@
             "location": "(26, 33)",
             "patch": "3.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x833": {
+            "level": 52,
+            "name_en": "The Migas Touch",
+            "name_fr": "Défi : la folie de Migas",
+            "location": "(22, 30)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x902": {
+            "level": 52,
+            "name_en": "Long Live the Coeurl",
+            "name_fr": "Défi : mort à la reine des coeurls",
+            "location": "(35, 25)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x830": {
             "level": 53,
@@ -101,16 +134,8 @@
         "x832": {
             "level": 53,
             "name_en": "Elephant in the Brume",
-            "name_fr": "Défi: l'exécution de Svarog",
+            "name_fr": "Défi : l'exécution de Svarog",
             "location": "(16, 35)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x833": {
-            "level": 52,
-            "name_en": "The Migas Touch",
-            "name_fr": "Défi: la folie de Migas",
-            "location": "(22, 30)",
             "patch": "3.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
@@ -125,7 +150,7 @@
         "x835": {
             "level": 53,
             "name_en": "The Mourning After",
-            "name_fr": "Défi: Robairlain l'écailleux",
+            "name_fr": "Défi : Robairlain l'écailleux",
             "location": "(18, 6)",
             "patch": "3.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -138,6 +163,14 @@
             "patch": "3.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
+        "x838": {
+            "level": 53,
+            "name_en": "Special Tarasque Force",
+            "name_fr": "Défi : terrasser la Tarasque",
+            "location": "(13, 36)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
         "x837": {
             "level": 57,
             "name_en": "Come to My Arms",
@@ -146,60 +179,27 @@
             "patch": "3.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
-        "x838": {
-            "level": 53,
-            "name_en": "Special Tarasque Force",
-            "name_fr": "Défi: terrasser la Tarasque",
-            "location": "(13, 36)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x910": {
-            "level": 57,
-            "name_en": "Ware the Maiden Fair",
-            "name_fr": "Défi: la vierge marrie",
-            "location": "(12, 38)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x827": {
-            "level": 52,
-            "name_en": "The Whole Truth",
-            "name_fr": "Gare à toi, hérétique!",
-            "location": "(24, 21)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x828": {
-            "level": 52,
-            "name_en": "Nothing but the Truth",
-            "name_fr": "Défi: la pacification d'Hubairtien",
-            "location": "(25, 22)",
-            "patch": "3.0",
-            "previousFate": "f.827",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x902": {
-            "level": 52,
-            "name_en": "Long Live the Coeurl",
-            "name_fr": "Défi: mort à la reine des coeurls",
-            "location": "(35, 25)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
         "x903": {
             "level": 57,
             "name_en": "Coeurls Chase Boys",
-            "name_fr": "Défi: du coeurl à l'ouvrage",
+            "name_fr": "Défi : du coeurl à l'ouvrage",
             "location": "(37, 27)",
             "patch": "3.0",
             "previousFate": "f.902",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
+        "x910": {
+            "level": 57,
+            "name_en": "Ware the Maiden Fair",
+            "name_fr": "Défi : la vierge marrie",
+            "location": "(12, 38)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
         "x905": {
             "level": 60,
             "name_en": "Coeurls Chase Boys Chase Coeurls",
-            "name_fr": "Défi: coeurls brisés",
+            "name_fr": "Défi : coeurls brisés",
             "location": "(31, 5)",
             "patch": "3.0",
             "previousFate": "f.903",

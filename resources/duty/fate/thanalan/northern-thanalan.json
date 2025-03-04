@@ -5,7 +5,7 @@
         "x446": {
             "level": 49,
             "name_en": "With One Eye Open",
-            "name_fr": "Défi: le borgne ravisseur",
+            "name_fr": "Défi : le borgne ravisseur",
             "location": "(25, 20)",
             "patch": "2.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -29,7 +29,7 @@
         "x450": {
             "level": 49,
             "name_en": "Knock on Steel",
-            "name_fr": "Défi: le drone de fer",
+            "name_fr": "Défi : le drone de fer",
             "location": "(18, 14)",
             "patch": "2.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -45,7 +45,7 @@
         "x556": {
             "level": 49,
             "name_en": "Core Blimey",
-            "name_fr": "Ne jetez pas les noyaux !",
+            "name_fr": "Ne jetez pas les noyaux !",
             "location": "(22, 22)",
             "patch": "2.1",
             "type": "@FATE.TYPE.GATHER_ITEMS"
@@ -53,7 +53,7 @@
         "x637": {
             "level": 49,
             "name_en": "The Red Baron",
-            "name_fr": "Défi: le baron rouge",
+            "name_fr": "Défi : le baron rouge",
             "location": "(24, 23)",
             "patch": "2.1",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -90,18 +90,10 @@
             "patch": "2.1",
             "type": "@FATE.TYPE.ESCORT"
         },
-        "x647": {
-            "level": 49,
-            "name_en": "Go, Go, Gorgimera",
-            "name_fr": "Défi: gorgimère indigne",
-            "location": "(17, 14)",
-            "patch": "2.1",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
         "x643": {
             "level": 49,
             "name_en": "Dark Devices - The Plea",
-            "name_fr": "Culte maudit: l'enlèvement",
+            "name_fr": "Culte maudit : l'enlèvement",
             "location": "(26, 22)",
             "patch": "2.1",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
@@ -109,7 +101,7 @@
         "x644": {
             "level": 49,
             "name_en": "Dark Devices - The Bait",
-            "name_fr": "Culte maudit: l'embuscade",
+            "name_fr": "Culte maudit : l'embuscade",
             "location": "(26, 22)",
             "patch": "2.1",
             "previousFate": "f.643",
@@ -118,7 +110,7 @@
         "x645": {
             "level": 49,
             "name_en": "Dark Devices - The Switch",
-            "name_fr": "Culte maudit: l'aveu",
+            "name_fr": "Culte maudit : l'aveu",
             "location": "(26, 22)",
             "patch": "2.1",
             "previousFate": "f.644",
@@ -127,10 +119,18 @@
         "x646": {
             "level": 49,
             "name_en": "Dark Devices - The End",
-            "name_fr": "Culte maudit: l'affront",
+            "name_fr": "Culte maudit : l'affront",
             "location": "(26, 22)",
             "patch": "2.1",
             "previousFate": "f.645",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x647": {
+            "level": 49,
+            "name_en": "Go, Go, Gorgimera",
+            "name_fr": "Défi : gorgimère indigne",
+            "location": "(17, 14)",
+            "patch": "2.1",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }

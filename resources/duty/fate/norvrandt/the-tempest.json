@@ -2,10 +2,63 @@
     "key": "the-tempest",
     "groupName": "@PLACE.THE_TEMPEST",
     "tasks": {
+        "x1426": {
+            "level": 79,
+            "name_en": "Where Has the Dagon",
+            "name_fr": "L'annonciatrice du chaos : l'ouverture de la chasse",
+            "location": "(24.6, 21.0)",
+            "patch": "5.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1427": {
+            "level": 79,
+            "name_en": "Ondo of Blood",
+            "name_fr": "L'annonciatrice du chaos : Zumshs la terreur des abysses",
+            "location": "(29.2, 11.9)",
+            "patch": "5.0",
+            "previousFate": "f.1426",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1428": {
+            "level": 79,
+            "name_en": "Lookin' Back on the Track",
+            "name_fr": "L'annonciatrice du chaos : oléofurors furax",
+            "location": "(23.6, 19.1)",
+            "patch": "5.0",
+            "previousFate": "f.1427",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1429": {
+            "level": 79,
+            "name_en": "Coral Support",
+            "name_fr": "L'annonciatrice du chaos : expédition spéléologique",
+            "location": "(35.3, 9.4)",
+            "patch": "5.0",
+            "previousFate": "f.1428",
+            "type": "@FATE.TYPE.ESCORT"
+        },
+        "x1430": {
+            "level": 79,
+            "name_en": "Low Coral Fiber",
+            "name_fr": "L'annonciatrice du chaos : pêche aux coraux",
+            "location": "(36.0, 5.2)",
+            "patch": "5.0",
+            "previousFate": "f.1429",
+            "type": "@FATE.TYPE.GATHER_ITEMS"
+        },
+        "x1431": {
+            "level": 79,
+            "name_en": "Nothing Like a Trappin' Life",
+            "name_fr": "L'annonciatrice du chaos : les rets de Zumshs",
+            "location": "(26.9, 24.7)",
+            "patch": "5.0",
+            "previousFate": "f.1430",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
         "x1433": {
             "level": 79,
             "name_en": "The Devil in the Deep Blue Sea",
-            "name_fr": "Défi: La belle des abysses",
+            "name_fr": "Défi : La belle des abysses",
             "location": "(17.7, 10.7)",
             "patch": "5.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -66,63 +119,10 @@
             "patch": "5.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
-        "x1426": {
-            "level": 79,
-            "name_en": "Where Has the Dagon",
-            "name_fr": "L'annonciatrice du chaos: l'ouverture de la chasse",
-            "location": "(24.6, 21.0)",
-            "patch": "5.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1427": {
-            "level": 79,
-            "name_en": "Ondo of Blood",
-            "name_fr": "L'annonciatrice du chaos: Zumshs la terreur des abysses",
-            "location": "(29.2, 11.9)",
-            "patch": "5.0",
-            "previousFate": "f.1426",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x1428": {
-            "level": 79,
-            "name_en": "Lookin' Back on the Track",
-            "name_fr": "L'annonciatrice du chaos: oléofurors furax",
-            "location": "(23.6, 19.1)",
-            "patch": "5.0",
-            "previousFate": "f.1427",
-            "type": "@FATE.TYPE.DEFENSE"
-        },
-        "x1429": {
-            "level": 79,
-            "name_en": "Coral Support",
-            "name_fr": "L'annonciatrice du chaos: expédition spéléologique",
-            "location": "(35.3, 9.4)",
-            "patch": "5.0",
-            "previousFate": "f.1428",
-            "type": "@FATE.TYPE.ESCORT"
-        },
-        "x1430": {
-            "level": 79,
-            "name_en": "Low Coral Fiber",
-            "name_fr": "L'annonciatrice du chaos: pêche aux coraux",
-            "location": "(36.0, 5.2)",
-            "patch": "5.0",
-            "previousFate": "f.1429",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
-        },
-        "x1431": {
-            "level": 79,
-            "name_en": "Nothing Like a Trappin' Life",
-            "name_fr": "L'annonciatrice du chaos: les rets de Zumshs",
-            "location": "(26.9, 24.7)",
-            "patch": "5.0",
-            "previousFate": "f.1430",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
         "x1432": {
             "level": 80,
             "name_en": "The Head, the Tail, the Whole Damned Thing",
-            "name_fr": "L'annonciatrice du chaos: bataille au sommet des fonds",
+            "name_fr": "L'annonciatrice du chaos : bataille au sommet des fonds",
             "location": "(27.1, 26.5)",
             "patch": "5.0",
             "previousFate": "f.1431",

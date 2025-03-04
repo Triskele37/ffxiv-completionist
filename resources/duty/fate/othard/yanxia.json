@@ -2,22 +2,6 @@
     "key": "yanxia",
     "groupName": "@PLACE.YANXIA",
     "tasks": {
-        "x1106": {
-            "level": 70,
-            "name_en": "Foxy Lady",
-            "name_fr": "Défi: la renarde fait surface",
-            "location": "(16,12), (11,17), (35,22), (16,32), (24,34)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x1109": {
-            "level": 67,
-            "name_en": "Outfoxed",
-            "name_fr": "Rusera bien qui rusera le dernier",
-            "location": "(31, 8)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
         "x1110": {
             "level": 64,
             "name_en": "Freedom Flies",
@@ -26,13 +10,65 @@
             "patch": "4.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
-        "x1111": {
-            "level": 67,
-            "name_en": "More to Offer",
-            "name_fr": "Les offrandes de Ginko",
-            "location": "(19.9, 7.4)",
+        "x1208": {
+            "level": 64,
+            "name_en": "A Tisket, a Tasket",
+            "name_fr": "Détrousseurs koja",
+            "location": "(18.1, 31.6)",
             "patch": "4.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1209": {
+            "level": 64,
+            "name_en": "A Fish to Fry",
+            "name_fr": "Détrousseurs namazu",
+            "location": "(18.1, 31.6)",
+            "patch": "4.0",
+            "previousFate": "f.1208",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1210": {
+            "level": 64,
+            "name_en": "Falling Drown",
+            "name_fr": "Défi : Gyogun le garde-pêche",
+            "location": "(18.1, 31.6)",
+            "patch": "4.0",
+            "previousFate": "f.1209",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1214": {
+            "level": 64,
+            "name_en": "Stay of Eggsecution",
+            "name_fr": "Prise de bec",
+            "location": "(25.1, 25.1)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1215": {
+            "level": 64,
+            "name_en": "Get Ready for a Nu Wave",
+            "name_fr": "Défi : ovipare ovivore",
+            "location": "(25.1, 25.1)",
+            "patch": "4.0",
+            "previousFate": "f.1214",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1216": {
+            "level": 64,
+            "name_en": "Deep Red Sea",
+            "name_fr": "Les dents du ciel",
+            "location": "(32.5, 30.2)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1217": {
+            "level": 64,
+            "name_en": "To Catch a Weasel",
+            "name_fr": "Défi : il court, il court, le furet",
+            "location": "(33.4, 29.5)",
+            "patch": "4.0",
+            "previousFate": "f.1216",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1218": {
             "level": 64,
@@ -101,7 +137,7 @@
         "x1226": {
             "level": 64,
             "name_en": "Tsurubebi Snugly",
-            "name_fr": "Défi: la lueur des champs",
+            "name_fr": "Défi : la lueur des champs",
             "location": "(34.7, 15.6)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -109,7 +145,7 @@
         "x1227": {
             "level": 64,
             "name_en": "Motherly Love",
-            "name_fr": "Défi: le comédien pourpre",
+            "name_fr": "Défi : le comédien pourpre",
             "location": "(27.1, 24.9)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -117,7 +153,7 @@
         "x1228": {
             "level": 64,
             "name_en": "Killer Apsaras",
-            "name_fr": "Défi: pollution environnementale",
+            "name_fr": "Défi : pollution environnementale",
             "location": "(17.9, 27.6)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -125,7 +161,7 @@
         "x1229": {
             "level": 64,
             "name_en": "Linquan Continental",
-            "name_fr": "Défi: le chien noir de Yanxia",
+            "name_fr": "Défi : le chien noir de Yanxia",
             "location": "(28.7, 31.2)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -133,7 +169,7 @@
         "x1230": {
             "level": 64,
             "name_en": "This Is a Da, This Is a Peng",
-            "name_fr": "Défi: l'éclipse à plumes",
+            "name_fr": "Défi : l'éclipse à plumes",
             "location": "(15.2, 33.6)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -141,10 +177,76 @@
         "x1231": {
             "level": 64,
             "name_en": "Oneblade Wonder",
-            "name_fr": "Défi: qui épouvante l'épouvantail?",
+            "name_fr": "Défi : qui épouvante l'épouvantail ?",
             "location": "(13.9, 28.5)",
             "patch": "4.0",
             "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1239": {
+            "level": 64,
+            "name_en": "The Virgin Homicides",
+            "name_fr": "Chiens de bonne herpe",
+            "location": "(32.5, 23)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1240": {
+            "level": 64,
+            "name_en": "Dead to Rites: Kiyofusa",
+            "name_fr": "Cosmologie hingashienne : le shikigami kiyofusa",
+            "location": "(25.8, 29.6)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1241": {
+            "level": 64,
+            "name_en": "Dead to Rites: Koja",
+            "name_fr": "Cosmologie hingashienne : le shikigami koja",
+            "location": "(18.6, 33.6)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1109": {
+            "level": 67,
+            "name_en": "Outfoxed",
+            "name_fr": "Rusera bien qui rusera le dernier",
+            "location": "(31, 8)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1111": {
+            "level": 67,
+            "name_en": "More to Offer",
+            "name_fr": "Les offrandes de Ginko",
+            "location": "(19.9, 7.4)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.GATHER_ITEMS"
+        },
+        "x1211": {
+            "level": 67,
+            "name_en": "Scared Straightheart",
+            "name_fr": "Le Lupin est un loup pour le Lupin",
+            "location": "(26.4, 9.3)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1212": {
+            "level": 67,
+            "name_en": "Wolves of a Feather",
+            "name_fr": "La meute sanguinaire",
+            "location": "(26.4, 9.3)",
+            "patch": "4.0",
+            "previousFate": "f.1211",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1213": {
+            "level": 67,
+            "name_en": "Goodwill Hunterling",
+            "name_fr": "Défi : Wakizashi le chasseur de lames",
+            "location": "(26.4, 9.3)",
+            "patch": "4.0",
+            "previousFate": "f.1212",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1232": {
             "level": 67,
@@ -173,7 +275,7 @@
         "x1235": {
             "level": 67,
             "name_en": "Tora Tora Tora",
-            "name_fr": "Tora! Tora! Tora!",
+            "name_fr": "Tora ! Tora ! Tora !",
             "location": "(28.4, 7.7)",
             "patch": "4.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
@@ -181,7 +283,7 @@
         "x1236": {
             "level": 67,
             "name_en": "Ragoh to Extremes",
-            "name_fr": "Défi: Ragoh perd la tête",
+            "name_fr": "Défi : Ragoh perd la tête",
             "location": "(18.1, 8.2)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -189,7 +291,7 @@
         "x1237": {
             "level": 67,
             "name_en": "Très Bian",
-            "name_fr": "Défi: avis d'éviction",
+            "name_fr": "Défi : avis d'éviction",
             "location": "(21, 12.3)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -197,119 +299,17 @@
         "x1238": {
             "level": 67,
             "name_en": "Curiosity Killed the Catfish",
-            "name_fr": "Défi: le géant de fer",
+            "name_fr": "Défi : le géant de fer",
             "location": "(15.8, 10.7)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
-        "x1239": {
-            "level": 64,
-            "name_en": "The Virgin Homicides",
-            "name_fr": "Chiens de bonne herpe",
-            "location": "(32.5, 23)",
+        "x1106": {
+            "level": 70,
+            "name_en": "Foxy Lady",
+            "name_fr": "Défi : la renarde fait surface",
+            "location": "(16,12), (11,17), (35,22), (16,32), (24,34)",
             "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1240": {
-            "level": 64,
-            "name_en": "Dead to Rites: Kiyofusa",
-            "name_fr": "Cosmologie hingashienne: le shikigami kiyofusa",
-            "location": "(25.8, 29.6)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1241": {
-            "level": 64,
-            "name_en": "Dead to Rites: Koja",
-            "name_fr": "Cosmologie hingashienne: le shikigami koja",
-            "location": "(18.6, 33.6)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1208": {
-            "level": 64,
-            "name_en": "A Tisket, a Tasket",
-            "name_fr": "Détrousseurs koja",
-            "location": "(18.1, 31.6)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.DEFENSE"
-        },
-        "x1209": {
-            "level": 64,
-            "name_en": "A Fish to Fry",
-            "name_fr": "Détrousseurs namazu",
-            "location": "(18.1, 31.6)",
-            "patch": "4.0",
-            "previousFate": "f.1208",
-            "type": "@FATE.TYPE.DEFENSE"
-        },
-        "x1210": {
-            "level": 64,
-            "name_en": "Falling Drown",
-            "name_fr": "Défi: Gyogun le garde-pêche",
-            "location": "(18.1, 31.6)",
-            "patch": "4.0",
-            "previousFate": "f.1209",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x1211": {
-            "level": 67,
-            "name_en": "Scared Straightheart",
-            "name_fr": "Le Lupin est un loup pour le Lupin",
-            "location": "(26.4, 9.3)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.DEFENSE"
-        },
-        "x1212": {
-            "level": 67,
-            "name_en": "Wolves of a Feather",
-            "name_fr": "La meute sanguinaire",
-            "location": "(26.4, 9.3)",
-            "patch": "4.0",
-            "previousFate": "f.1211",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1213": {
-            "level": 67,
-            "name_en": "Goodwill Hunterling",
-            "name_fr": "Défi: Wakizashi le chasseur de lames",
-            "location": "(26.4, 9.3)",
-            "patch": "4.0",
-            "previousFate": "f.1212",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x1214": {
-            "level": 64,
-            "name_en": "Stay of Eggsecution",
-            "name_fr": "Prise de bec",
-            "location": "(25.1, 25.1)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1215": {
-            "level": 64,
-            "name_en": "Get Ready for a Nu Wave",
-            "name_fr": "Défi: ovipare ovivore",
-            "location": "(25.1, 25.1)",
-            "patch": "4.0",
-            "previousFate": "f.1214",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x1216": {
-            "level": 64,
-            "name_en": "Deep Red Sea",
-            "name_fr": "Les dents du ciel",
-            "location": "(32.5, 30.2)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1217": {
-            "level": 64,
-            "name_en": "To Catch a Weasel",
-            "name_fr": "Défi: il court, il court, le furet",
-            "location": "(33.4, 29.5)",
-            "patch": "4.0",
-            "previousFate": "f.1216",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }

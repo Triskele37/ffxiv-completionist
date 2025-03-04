@@ -5,7 +5,7 @@
         "x1142": {
             "level": 62,
             "name_en": "Wet",
-            "name_fr": "Défi: l'eau, elle aime ça",
+            "name_fr": "Défi : l'eau, elle aime ça",
             "location": "(34.8, 9.7)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -18,22 +18,6 @@
             "patch": "4.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
-        "x1144": {
-            "level": 63,
-            "name_en": "Quoth the Raven",
-            "name_fr": "Défi: à tout jamais",
-            "location": "(32.4, 20.2)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x1145": {
-            "level": 63,
-            "name_en": "Lay of the Lang",
-            "name_fr": "Défi: on craint gedan",
-            "location": "(10.6, 7.4)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
         "x1146": {
             "level": 62,
             "name_en": "Pool Party",
@@ -45,7 +29,7 @@
         "x1147": {
             "level": 62,
             "name_en": "Soak Up the Sun",
-            "name_fr": "Défi: le crabe marche sous la tête",
+            "name_fr": "Défi : le crabe marche sous la tête",
             "location": "(31.1, 25.7)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -53,7 +37,7 @@
         "x1148": {
             "level": 62,
             "name_en": "Agni's Philosophy",
-            "name_fr": "Défi: la philosophie d'Agni",
+            "name_fr": "Défi : la philosophie d'Agni",
             "location": "(23.7, 36.0)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -93,18 +77,10 @@
         "x1153": {
             "level": 62,
             "name_en": "Princess, Princess",
-            "name_fr": "Défi: la princesse aux longues dents",
+            "name_fr": "Défi : la princesse aux longues dents",
             "location": "(26.6, 29.7)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x1154": {
-            "level": 63,
-            "name_en": "Kill the Messenger",
-            "name_fr": "Athlétiques bibao",
-            "location": "(8.9, 6.7)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1155": {
             "level": 62,
@@ -119,6 +95,105 @@
             "name_en": "Raise the Red Flag",
             "name_fr": "L'écarlate scélérate",
             "location": "(27.4, 28.8)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1159": {
+            "level": 62,
+            "name_en": "Bilge-hold Jin",
+            "name_fr": "Défi : prendre le clandestin par les cornes",
+            "location": "(17.8, 7.5)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1160": {
+            "level": 62,
+            "name_en": "Days of Plunder",
+            "name_fr": "Le butin, ça va, ça vient",
+            "location": "(17.8, 7.5)",
+            "patch": "4.0",
+            "previousFate": "f.1159",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1161": {
+            "level": 62,
+            "name_en": "Forever Younglier",
+            "name_fr": "Défi : le chevalier d'écailles",
+            "location": "(20.1, 4.4)",
+            "patch": "4.0",
+            "previousFate": "f.1160",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1164": {
+            "level": 62,
+            "name_en": "Jumping the Shark",
+            "name_fr": "Les vils requins",
+            "location": "(14.6, 9.5)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1166": {
+            "level": 62,
+            "name_en": "Ranging Bull",
+            "name_fr": "Avant qu'il ne soit taureau tard",
+            "location": "(23.1, 5.7)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1167": {
+            "level": 62,
+            "name_en": "Another One Bites the Dust",
+            "name_fr": "Défi : le samouraï vagabond",
+            "location": "(14.7, 5.1)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1168": {
+            "level": 62,
+            "name_en": "Turtle Power",
+            "name_fr": "Vagabond contre chasseur",
+            "location": "(14.7, 5.1)",
+            "patch": "4.0",
+            "previousFate": "f.1167",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1170": {
+            "level": 62,
+            "name_en": "Crab Mentality",
+            "name_fr": "Casse-toi et marche en crabe",
+            "location": "(29.7, 34.8)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1172": {
+            "level": 62,
+            "name_en": "Never Say Daimyo",
+            "name_fr": "Défi : amocher les daimyo",
+            "location": "(17.5, 9.2)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1144": {
+            "level": 63,
+            "name_en": "Quoth the Raven",
+            "name_fr": "Défi : à tout jamais",
+            "location": "(32.4, 20.2)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1145": {
+            "level": 63,
+            "name_en": "Lay of the Lang",
+            "name_fr": "Défi : on craint gedan",
+            "location": "(10.6, 7.4)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1154": {
+            "level": 63,
+            "name_en": "Kill the Messenger",
+            "name_fr": "Athlétiques bibao",
+            "location": "(8.9, 6.7)",
             "patch": "4.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
@@ -154,54 +229,13 @@
             "patch": "4.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
-        "x1164": {
-            "level": 62,
-            "name_en": "Jumping the Shark",
-            "name_fr": "Les vils requins",
-            "location": "(14.6, 9.5)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
         "x1165": {
             "level": 63,
             "name_en": "Red Cliff",
-            "name_fr": "Défi: fais tes prières, Sogenbi",
+            "name_fr": "Défi : fais tes prières, Sogenbi",
             "location": "(26.0, 5.9)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x1166": {
-            "level": 62,
-            "name_en": "Ranging Bull",
-            "name_fr": "Avant qu'il ne soit taureau tard",
-            "location": "(23.1, 5.7)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1167": {
-            "level": 62,
-            "name_en": "Another One Bites the Dust",
-            "name_fr": "Défi: le samouraï vagabond",
-            "location": "(14.7, 5.1)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x1168": {
-            "level": 62,
-            "name_en": "Turtle Power",
-            "name_fr": "Vagabond contre chasseur",
-            "location": "(14.7, 5.1)",
-            "patch": "4.0",
-            "previousFate": "f.1167",
-            "type": "@FATE.TYPE.DEFENSE"
-        },
-        "x1170": {
-            "level": 62,
-            "name_en": "Crab Mentality",
-            "name_fr": "Casse-toi et marche en crabe",
-            "location": "(29.7, 34.8)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1171": {
             "level": 63,
@@ -210,40 +244,6 @@
             "location": "(34.7, 22.8)",
             "patch": "4.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1172": {
-            "level": 62,
-            "name_en": "Never Say Daimyo",
-            "name_fr": "Défi: amocher les daimyo",
-            "location": "(17.5, 9.2)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x1159": {
-            "level": 62,
-            "name_en": "Bilge-hold Jin",
-            "name_fr": "Défi: prendre le clandestin par les cornes",
-            "location": "(17.8, 7.5)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x1160": {
-            "level": 62,
-            "name_en": "Days of Plunder",
-            "name_fr": "Le butin, ça va, ça vient",
-            "location": "(17.8, 7.5)",
-            "patch": "4.0",
-            "previousFate": "f.1159",
-            "type": "@FATE.TYPE.DEFENSE"
-        },
-        "x1161": {
-            "level": 62,
-            "name_en": "Forever Younglier",
-            "name_fr": "Défi: le chevalier d'écailles",
-            "location": "(20.1, 4.4)",
-            "patch": "4.0",
-            "previousFate": "f.1160",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }
 }

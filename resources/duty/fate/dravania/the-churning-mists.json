@@ -21,18 +21,10 @@
         "x727": {
             "level": 54,
             "name_en": "Glycon Air",
-            "name_fr": "Défi: c'est complètement Glycon",
+            "name_fr": "Défi : c'est complètement Glycon",
             "location": "(32, 25)",
             "patch": "3.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x728": {
-            "level": 55,
-            "name_en": "Coin Toss",
-            "name_fr": "Pile ou face mog",
-            "location": "(34, 21)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x731": {
             "level": 54,
@@ -53,120 +45,8 @@
         "x735": {
             "level": 54,
             "name_en": "Whole Food",
-            "name_fr": "Défi: Mog en un seul morceau",
+            "name_fr": "Défi : Mog en un seul morceau",
             "location": "(29, 23)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x738": {
-            "level": 54,
-            "name_en": "Waugyl Waugyl Waugyl",
-            "name_fr": "Défi: Waugyl le belliqueux",
-            "location": "(33, 16)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x742": {
-            "level": 54,
-            "name_en": "Asah, I Came, I Conquered",
-            "name_fr": "Défi: Asah commence à bien faire",
-            "location": "(21, 29)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x744": {
-            "level": 55,
-            "name_en": "Waiting for Fjalar to Stall",
-            "name_fr": "Défi: marre de Fjalar",
-            "location": "(13, 21)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x746": {
-            "level": 56,
-            "name_en": "Don't Know Wyvern",
-            "name_fr": "Wyverne de représailles",
-            "location": "(8, 17)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x747": {
-            "level": 55,
-            "name_en": "From Dusk till Gone",
-            "name_fr": "Défi: la vengeance du Vigile",
-            "location": "(20, 17)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x748": {
-            "level": 55,
-            "name_en": "Treehouse of the Spirits",
-            "name_fr": "De quoi je me mélias?",
-            "location": "(8, 14)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x751": {
-            "level": 56,
-            "name_en": "As the World Burns",
-            "name_fr": "Défi: Kucedre le maudit",
-            "location": "(25, 8)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x752": {
-            "level": 54,
-            "name_en": "It's the Moogle, Reinvented",
-            "name_fr": "Des Mogs au ménage",
-            "location": "(14, 31)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.ESCORT"
-        },
-        "x753": {
-            "level": 54,
-            "name_en": "Corporal Pomishment",
-            "name_fr": "Défi: châtiment kupporel",
-            "location": "(20, 23)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x754": {
-            "level": 55,
-            "name_en": "Infamous",
-            "name_fr": "Galar en galère",
-            "location": "(12, 26)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.DEFENSE"
-        },
-        "x755": {
-            "level": 54,
-            "name_en": "Ain't Misbehaving",
-            "name_fr": "Défi: mogvais garçon",
-            "location": "(17, 31)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x872": {
-            "level": 54,
-            "name_en": "End of the Rainbow",
-            "name_fr": "Garde de bébé dragon",
-            "location": "(13, 24)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.DEFENSE"
-        },
-        "x873": {
-            "level": 55,
-            "name_en": "Rastaban Vibration",
-            "name_fr": "Sus aux sous-fifres!",
-            "location": "(14, 13)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x874": {
-            "level": 54,
-            "name_en": "Mogicide",
-            "name_fr": "Défi: touche pas mes Mogs",
-            "location": "(22, 21)",
             "patch": "3.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
@@ -187,6 +67,14 @@
             "previousFate": "f.736",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
+        "x738": {
+            "level": 54,
+            "name_en": "Waugyl Waugyl Waugyl",
+            "name_fr": "Défi : Waugyl le belliqueux",
+            "location": "(33, 16)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
         "x740": {
             "level": 54,
             "name_en": "How to Cane Your Dragon",
@@ -204,10 +92,98 @@
             "previousFate": "f.740",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
+        "x742": {
+            "level": 54,
+            "name_en": "Asah, I Came, I Conquered",
+            "name_fr": "Défi : Asah commence à bien faire",
+            "location": "(21, 29)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x752": {
+            "level": 54,
+            "name_en": "It's the Moogle, Reinvented",
+            "name_fr": "Des Mogs au ménage",
+            "location": "(14, 31)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.ESCORT"
+        },
+        "x753": {
+            "level": 54,
+            "name_en": "Corporal Pomishment",
+            "name_fr": "Défi : châtiment kupporel",
+            "location": "(20, 23)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x755": {
+            "level": 54,
+            "name_en": "Ain't Misbehaving",
+            "name_fr": "Défi : mogvais garçon",
+            "location": "(17, 31)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x872": {
+            "level": 54,
+            "name_en": "End of the Rainbow",
+            "name_fr": "Garde de bébé dragon",
+            "location": "(13, 24)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x874": {
+            "level": 54,
+            "name_en": "Mogicide",
+            "name_fr": "Défi : touche pas mes Mogs",
+            "location": "(22, 21)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x728": {
+            "level": 55,
+            "name_en": "Coin Toss",
+            "name_fr": "Pile ou face mog",
+            "location": "(34, 21)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.GATHER_ITEMS"
+        },
+        "x744": {
+            "level": 55,
+            "name_en": "Waiting for Fjalar to Stall",
+            "name_fr": "Défi : marre de Fjalar",
+            "location": "(13, 21)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x747": {
+            "level": 55,
+            "name_en": "From Dusk till Gone",
+            "name_fr": "Défi : la vengeance du Vigile",
+            "location": "(20, 17)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x748": {
+            "level": 55,
+            "name_en": "Treehouse of the Spirits",
+            "name_fr": "De quoi je me mélias ?",
+            "location": "(8, 14)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x754": {
+            "level": 55,
+            "name_en": "Infamous",
+            "name_fr": "Galar en galère",
+            "location": "(12, 26)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
         "x868": {
             "level": 55,
             "name_en": "Darkscale Descendeth",
-            "name_fr": "Défi: sus à Sombrécaille",
+            "name_fr": "Défi : sus à Sombrécaille",
             "location": "(18, 12)",
             "patch": "3.0",
             "type": "@FATE.TYPE.DEFENSE"
@@ -215,7 +191,7 @@
         "x869": {
             "level": 55,
             "name_en": "Darkscale Disappeareth",
-            "name_fr": "Défi: Sombrécaille se soigne",
+            "name_fr": "Défi : Sombrécaille se soigne",
             "location": "(18, 12)",
             "patch": "3.0",
             "previousFate": "f.868",
@@ -224,16 +200,40 @@
         "x870": {
             "level": 55,
             "name_en": "Darkscale Devoureth",
-            "name_fr": "Défi: quand sombre Sombrécaille",
+            "name_fr": "Défi : quand sombre Sombrécaille",
             "location": "(18, 9)",
             "patch": "3.0",
             "previousFate": "f.869",
             "type": "@FATE.TYPE.DEFENSE"
         },
+        "x873": {
+            "level": 55,
+            "name_en": "Rastaban Vibration",
+            "name_fr": "Sus aux sous-fifres !",
+            "location": "(14, 13)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x746": {
+            "level": 56,
+            "name_en": "Don't Know Wyvern",
+            "name_fr": "Wyverne de représailles",
+            "location": "(8, 17)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x751": {
+            "level": 56,
+            "name_en": "As the World Burns",
+            "name_fr": "Défi : Kucedre le maudit",
+            "location": "(25, 8)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
         "x871": {
             "level": 56,
             "name_en": "Vedrfolnir Devoteth",
-            "name_fr": "Défi: duel amical contre Vedrfolnir",
+            "name_fr": "Défi : duel amical contre Vedrfolnir",
             "location": "(11, 36)",
             "patch": "3.0",
             "previousFate": "f.870",

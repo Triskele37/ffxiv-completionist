@@ -2,6 +2,32 @@
     "key": "the-fringes",
     "groupName": "@PLACE.THE_FRINGES",
     "tasks": {
+        "x1112": {
+            "level": 60,
+            "name_en": "Showing the Recruits What For",
+            "name_fr": "Donner la réplique aux soldats",
+            "location": "(8.5, 16.7)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1113": {
+            "level": 60,
+            "name_en": "Showing the Officers What For",
+            "name_fr": "Donner la réplique aux sous-officiers",
+            "location": "(8.8, 16.3)",
+            "patch": "4.0",
+            "previousFate": "f.1112",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1114": {
+            "level": 60,
+            "name_en": "Showing the Commanders What For",
+            "name_fr": "Donner la réplique aux officiers",
+            "location": "(9.0, 16.3)",
+            "patch": "4.0",
+            "previousFate": "f.1113",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
         "x1115": {
             "level": 60,
             "name_en": "Death Beckons",
@@ -18,18 +44,10 @@
             "patch": "4.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
-        "x1117": {
-            "level": 61,
-            "name_en": "The Secret Life of Plants",
-            "name_fr": "Saprias, c'est fini",
-            "location": "(12, 25.8)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
         "x1118": {
             "level": 60,
             "name_en": "Dizzy Miss Grizzly",
-            "name_fr": "Défi: bon ours, bon œil",
+            "name_fr": "Défi : bon ours, bon œil",
             "location": "(11.9, 16.7)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -37,7 +55,7 @@
         "x1119": {
             "level": 60,
             "name_en": "Roid Rage",
-            "name_fr": "Défi: dopage alchimique",
+            "name_fr": "Défi : dopage alchimique",
             "location": "(18, 11)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -74,19 +92,27 @@
             "patch": "4.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
-        "x1125": {
-            "level": 61,
-            "name_en": "The Morning After",
-            "name_fr": "Pulsions déplacées",
-            "location": "(10.7, 29.5)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
         "x1126": {
             "level": 60,
             "name_en": "Thank You for Not Mossling",
             "name_fr": "Repousser les moussemousses",
             "location": "(12, 14)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1117": {
+            "level": 61,
+            "name_en": "The Secret Life of Plants",
+            "name_fr": "Saprias, c'est fini",
+            "location": "(12, 25.8)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1125": {
+            "level": 61,
+            "name_en": "The Morning After",
+            "name_fr": "Pulsions déplacées",
+            "location": "(10.7, 29.5)",
             "patch": "4.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
@@ -101,7 +127,7 @@
         "x1128": {
             "level": 61,
             "name_en": "Diakka Round",
-            "name_fr": "Au diable les diakkas!",
+            "name_fr": "Au diable les diakkas !",
             "location": "(10, 18)",
             "patch": "4.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
@@ -109,7 +135,7 @@
         "x1129": {
             "level": 61,
             "name_en": "The Evil Seed",
-            "name_fr": "Défi: mauvaise graine",
+            "name_fr": "Défi : mauvaise graine",
             "location": "(15.2, 22.7)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -117,10 +143,18 @@
         "x1130": {
             "level": 61,
             "name_en": "The Spiderweb Chronicles",
-            "name_fr": "Défi: la colline a huit yeux",
+            "name_fr": "Défi : la colline a huit yeux",
             "location": "(17, 18)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1140": {
+            "level": 61,
+            "name_en": "Yes, This Is Dogs",
+            "name_fr": "Honnis soient les canis",
+            "location": "(13.7, 20.2)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x1131": {
             "level": 67,
@@ -133,7 +167,7 @@
         "x1132": {
             "level": 67,
             "name_en": "Really Don't Keratyrannos",
-            "name_fr": "Défi: un tyran au ban",
+            "name_fr": "Défi : un tyran au ban",
             "location": "(29.7, 23.9)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -154,6 +188,14 @@
             "patch": "4.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
+        "x1135": {
+            "level": 67,
+            "name_en": "Pop the Trunk",
+            "name_fr": "Défi : martyriser les marids",
+            "location": "(31.0, 21.5)",
+            "patch": "4.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
         "x1136": {
             "level": 67,
             "name_en": "A Pain in the Neck",
@@ -165,7 +207,7 @@
         "x1137": {
             "level": 67,
             "name_en": "Flappy Berda",
-            "name_fr": "Défi: ça va barder pour Berda",
+            "name_fr": "Défi : ça va barder pour Berda",
             "location": "(27.8, 27.8)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -173,18 +215,19 @@
         "x1138": {
             "level": 67,
             "name_en": "Ananta and Her Sisters",
-            "name_fr": "Défi: sœurs vengeresses",
+            "name_fr": "Défi : sœurs vengeresses",
             "location": "(28.3, 17.1)",
             "patch": "4.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
-        "x1140": {
-            "level": 61,
-            "name_en": "Yes, This Is Dogs",
-            "name_fr": "Honnis soient les canis",
-            "location": "(13.7, 20.2)",
+        "x1139": {
+            "level": 67,
+            "name_en": "Raisin' Hell",
+            "name_fr": "Défi : la fille du soleil",
+            "location": "(30.8, 21.4)",
             "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
+            "previousFate": "f.1135",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x1141": {
             "level": 67,
@@ -193,49 +236,6 @@
             "location": "(31.8, 25.6)",
             "patch": "4.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1112": {
-            "level": 60,
-            "name_en": "Showing the Recruits What For",
-            "name_fr": "Donner la réplique aux soldats",
-            "location": "(8.5, 16.7)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1113": {
-            "level": 60,
-            "name_en": "Showing the Officers What For",
-            "name_fr": "Donner la réplique aux sous-officiers",
-            "location": "(8.8, 16.3)",
-            "patch": "4.0",
-            "previousFate": "f.1112",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1114": {
-            "level": 60,
-            "name_en": "Showing the Commanders What For",
-            "name_fr": "Donner la réplique aux officiers",
-            "location": "(9.0, 16.3)",
-            "patch": "4.0",
-            "previousFate": "f.1113",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x1135": {
-            "level": 67,
-            "name_en": "Pop the Trunk",
-            "name_fr": "Défi: martyriser les marids",
-            "location": "(31.0, 21.5)",
-            "patch": "4.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x1139": {
-            "level": 67,
-            "name_en": "Raisin' Hell",
-            "name_fr": "Défi: la fille du soleil",
-            "location": "(30.8, 21.4)",
-            "patch": "4.0",
-            "previousFate": "f.1135",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }
 }

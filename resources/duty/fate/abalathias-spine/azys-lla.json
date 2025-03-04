@@ -5,7 +5,7 @@
         "x877": {
             "level": 59,
             "name_en": "Prey Online",
-            "name_fr": "Proto-Ultima: la menace surgie du passé",
+            "name_fr": "Proto-Ultima : la menace surgie du passé",
             "location": "(38, 18), (27, 5), (6,20)",
             "patch": "3.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -29,7 +29,7 @@
         "x882": {
             "level": 59,
             "name_en": "Still Ticking",
-            "name_fr": "Défi: des frasques à la défrag'",
+            "name_fr": "Défi : des frasques à la défrag'",
             "location": "(18, 12)",
             "patch": "3.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -37,7 +37,7 @@
         "x883": {
             "level": 59,
             "name_en": "Life of Brain",
-            "name_fr": "Défi: euthanasie cérébrale",
+            "name_fr": "Défi : euthanasie cérébrale",
             "location": "(30, 7)",
             "patch": "3.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -53,7 +53,7 @@
         "x885": {
             "level": 59,
             "name_en": "Pet, Smart",
-            "name_fr": "Défi: couchée, sale bête !",
+            "name_fr": "Défi : couchée, sale bête !",
             "location": "(35, 12)",
             "patch": "3.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -81,6 +81,23 @@
             "location": "(25, 29)",
             "patch": "3.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x889": {
+            "level": 59,
+            "name_en": "Put the Knives Down",
+            "name_fr": "Bas les griffes",
+            "location": "(34, 36)",
+            "patch": "3.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x890": {
+            "level": 59,
+            "name_en": "Scared Sylla",
+            "name_fr": "Défi : mettre Sylla à mal",
+            "location": "(34, 36)",
+            "patch": "3.0",
+            "previousFate": "f.889",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x891": {
             "level": 59,
@@ -117,7 +134,7 @@
         "x895": {
             "level": 59,
             "name_en": "No Greater Goryshche",
-            "name_fr": "Défi: décapitation de Goryschche",
+            "name_fr": "Défi : décapitation de Goryschche",
             "location": "(12, 33)",
             "patch": "3.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -133,7 +150,7 @@
         "x898": {
             "level": 59,
             "name_en": "Out of Sight, Out of Mind",
-            "name_fr": "Défi: Sthéno en quarantaine",
+            "name_fr": "Défi : Sthéno en quarantaine",
             "location": "(10, 21)",
             "patch": "3.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -157,26 +174,9 @@
         "x901": {
             "level": 59,
             "name_en": "Do Spinners Dream of Electric Rooks",
-            "name_fr": "Défi: les drilles rêvent-ils de meules électriques ?",
+            "name_fr": "Défi : les drilles rêvent-ils de meules électriques ?",
             "location": "(12, 13)",
             "patch": "3.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x889": {
-            "level": 59,
-            "name_en": "Put the Knives Down",
-            "name_fr": "Bas les griffes",
-            "location": "(34, 36)",
-            "patch": "3.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x890": {
-            "level": 59,
-            "name_en": "Scared Sylla",
-            "name_fr": "Défi: mettre Sylla à mal",
-            "location": "(34, 36)",
-            "patch": "3.0",
-            "previousFate": "f.889",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }

@@ -5,7 +5,7 @@
         "x370": {
             "level": 5,
             "name_en": "Something to Prove",
-            "name_fr": "Défi: quelque chose à prouver",
+            "name_fr": "Défi : quelque chose à prouver",
             "location": "(21, 23)",
             "patch": "2.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -18,13 +18,13 @@
             "patch": "2.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
-        "x374": {
-            "level": 7,
-            "name_en": "Wrecked Rats",
-            "name_fr": "Ivres comme des rats",
-            "location": "(19, 20)",
+        "x378": {
+            "level": 5,
+            "name_en": "Let them Eat Cactus",
+            "name_fr": "Salade de cactuars",
+            "location": "(23, 16)",
             "patch": "2.0",
-            "type": "@FATE.TYPE.DEFENSE"
+            "type": "@FATE.TYPE.GATHER_ITEMS"
         },
         "x375": {
             "level": 6,
@@ -34,29 +34,37 @@
             "patch": "2.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
-        "x376": {
-            "level": 9,
-            "name_en": "Cracked",
-            "name_fr": "Défi: fêlure",
-            "location": "(17, 19)",
+        "x374": {
+            "level": 7,
+            "name_en": "Wrecked Rats",
+            "name_fr": "Ivres comme des rats",
+            "location": "(19, 20)",
             "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+            "type": "@FATE.TYPE.DEFENSE"
         },
-        "x377": {
-            "level": 14,
-            "name_en": "Orobon Part Two: The Spawning",
-            "name_fr": "Animé par la vengeance",
-            "location": "(29, 20)",
+        "x383": {
+            "level": 7,
+            "name_en": "Big Time",
+            "name_fr": "Massacre de volatiles",
+            "location": "(15, 22)",
             "patch": "2.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
-        "x378": {
-            "level": 5,
-            "name_en": "Let them Eat Cactus",
-            "name_fr": "Salade de cactuars",
-            "location": "(23, 16)",
+        "x389": {
+            "level": 7,
+            "name_en": "A Warm Welcome",
+            "name_fr": "Défi : un accueil brûlant",
+            "location": "(18, 23)",
             "patch": "2.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x376": {
+            "level": 9,
+            "name_en": "Cracked",
+            "name_fr": "Défi : fêlure",
+            "location": "(17, 19)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
         "x379": {
             "level": 9,
@@ -74,35 +82,27 @@
             "patch": "2.0",
             "type": "@FATE.TYPE.GATHER_ITEMS"
         },
-        "x383": {
-            "level": 7,
-            "name_en": "Big Time",
-            "name_fr": "Massacre de volatiles",
-            "location": "(15, 22)",
+        "x393": {
+            "level": 12,
+            "name_en": "Leaving the Nest",
+            "name_fr": "Défi : sortie du nid",
+            "location": "(17, 15)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x377": {
+            "level": 14,
+            "name_en": "Orobon Part Two: The Spawning",
+            "name_fr": "Animé par la vengeance",
+            "location": "(29, 20)",
             "patch": "2.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x385": {
             "level": 14,
             "name_en": "Cold-blooded",
-            "name_fr": "Défi: cruelle créature",
+            "name_fr": "Défi : cruelle créature",
             "location": "(28, 19)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x389": {
-            "level": 7,
-            "name_en": "A Warm Welcome",
-            "name_fr": "Défi: un accueil brûlant",
-            "location": "(18, 23)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x393": {
-            "level": 12,
-            "name_en": "Leaving the Nest",
-            "name_fr": "Défi: sortie du nid",
-            "location": "(17, 15)",
             "patch": "2.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }

@@ -2,19 +2,19 @@
     "key": "thavnair",
     "groupName": "@PLACE.THAVNAIR",
     "tasks": {
+        "x1764": {
+            "level": 80,
+            "name_en": "Full Petal Alchemist: Perilous Pickings",
+            "name_fr": "L'alchimiste des senteurs : une cueillette dangereuse",
+            "location": "(21.5, 11.1)",
+            "patch": "6.0",
+            "type": "@FATE.TYPE.GATHER_ITEMS"
+        },
         "x1765": {
             "level": 80,
             "name_en": "When Gaja Go Gaga",
             "name_fr": "Obstacles éléphantesques",
             "location": "(17.8, 27.7)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1766": {
-            "level": 81,
-            "name_en": "I Am the Valras",
-            "name_fr": "Code morse",
-            "location": "(14.7, 31.3)",
             "patch": "6.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
@@ -26,6 +26,31 @@
             "patch": "6.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
+        "x1769": {
+            "level": 80,
+            "name_en": "The Accursed Kanabhuti",
+            "name_fr": "Défi : Kanabhuti la malédiction de la jungle",
+            "location": "(17.9, 19.7)",
+            "patch": "6.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x1771": {
+            "level": 80,
+            "name_en": "Full Petal Alchemist: Risky Return",
+            "name_fr": "L'alchimiste des senteurs : un retour dangereux",
+            "location": "(14.1, 17.0)",
+            "patch": "6.0",
+            "previousFate": "f.1764",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x1766": {
+            "level": 81,
+            "name_en": "I Am the Valras",
+            "name_fr": "Code morse",
+            "location": "(14.7, 31.3)",
+            "patch": "6.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
         "x1768": {
             "level": 81,
             "name_en": "Of Claws and Gall",
@@ -34,19 +59,19 @@
             "patch": "6.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
-        "x1769": {
-            "level": 80,
-            "name_en": "The Accursed Kanabhuti",
-            "name_fr": "Défi: Kanabhuti la malédiction de la jungle",
-            "location": "(17.9, 19.7)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
         "x1770": {
             "level": 81,
             "name_en": "The Little Nanka That Could",
             "name_fr": "Le jeune homme et la mer",
             "location": "(8.2, 15.4)",
+            "patch": "6.0",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1772": {
+            "level": 85,
+            "name_en": "Devout Pilgrims vs. the Jungle Lizards",
+            "name_fr": "Le culte des Mrga : pèlerin perdu",
+            "location": "(34.3, 27.5)",
             "patch": "6.0",
             "type": "@FATE.TYPE.DEFENSE"
         },
@@ -85,7 +110,7 @@
         "x1777": {
             "level": 85,
             "name_en": "Return of the Tyrant",
-            "name_fr": "Défi: Valyn le tyran",
+            "name_fr": "Défi : Valyn le tyran",
             "location": "(24.9, 20.0)",
             "patch": "6.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
@@ -98,35 +123,10 @@
             "patch": "6.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
-        "x1764": {
-            "level": 80,
-            "name_en": "Full Petal Alchemist: Perilous Pickings",
-            "name_fr": "L'alchimiste des senteurs: une cueillette dangereuse",
-            "location": "(21.5, 11.1)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
-        },
-        "x1771": {
-            "level": 80,
-            "name_en": "Full Petal Alchemist: Risky Return",
-            "name_fr": "L'alchimiste des senteurs: un retour dangereux",
-            "location": "(14.1, 17.0)",
-            "patch": "6.0",
-            "previousFate": "f.1764",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x1772": {
-            "level": 85,
-            "name_en": "Devout Pilgrims vs. the Jungle Lizards",
-            "name_fr": "Le culte des Mrga: pélerin perdu",
-            "location": "(34.3, 27.5)",
-            "patch": "6.0",
-            "type": "@FATE.TYPE.DEFENSE"
-        },
         "x1779": {
             "level": 85,
             "name_en": "Devout Pilgrims vs. the Apalala",
-            "name_fr": "Le culte des Mrga: l'heure de la prière",
+            "name_fr": "Le culte des Mrga : l'heure de la prière",
             "location": "(23.0, 23.3)",
             "patch": "6.0",
             "previousFate": "f.1772",
@@ -135,7 +135,7 @@
         "x1763": {
             "level": 90,
             "name_en": "Devout Pilgrims vs. Daivadipa",
-            "name_fr": "Le culte des Mrga: le faux dieu",
+            "name_fr": "Le culte des Mrga : le faux dieu",
             "location": "(9.3, 37.7)",
             "patch": "6.0",
             "previousFate": "f.1779",

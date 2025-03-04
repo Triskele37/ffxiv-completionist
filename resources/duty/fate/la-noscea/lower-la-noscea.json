@@ -2,27 +2,27 @@
     "key": "lower-la-noscea",
     "groupName": "@PLACE.LOWER_LA_NOSCEA",
     "tasks": {
-        "x245": {
-            "level": 13,
-            "name_en": "One Prince",
-            "name_fr": "Défi: le prince",
-            "location": "(19, 37)",
+        "x257": {
+            "level": 3,
+            "name_en": "I Melt with You",
+            "name_fr": "Défi : une bonne digestion",
+            "location": "(26, 25)",
             "patch": "2.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x246": {
-            "level": 5,
-            "name_en": "Fight the Flower",
-            "name_fr": "Dangereux végétaux",
-            "location": "(30, 19)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
         "x249": {
             "level": 4,
             "name_en": "You Call That a Toad",
             "name_fr": "Problème de nuisibles",
             "location": "(24, 22)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x246": {
+            "level": 5,
+            "name_en": "Fight the Flower",
+            "name_fr": "Dangereux végétaux",
+            "location": "(30, 19)",
             "patch": "2.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
@@ -42,46 +42,6 @@
             "patch": "2.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
-        "x257": {
-            "level": 3,
-            "name_en": "I Melt with You",
-            "name_fr": "Défi: une bonne digestion",
-            "location": "(26, 25)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x260": {
-            "level": 11,
-            "name_en": "Away in a Bilge Hold",
-            "name_fr": "Mise au placard",
-            "location": "(21, 38)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.DEFENSE"
-        },
-        "x261": {
-            "level": 10,
-            "name_en": "In the Name of Love",
-            "name_fr": "Défi: au nom de l'amour",
-            "location": "(20, 38)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
-        "x262": {
-            "level": 12,
-            "name_en": "Don't Drink the Water",
-            "name_fr": "Eau non potable",
-            "location": "(21, 34)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.SLAY_ENEMIES"
-        },
-        "x333": {
-            "level": 10,
-            "name_en": "Under the Bridge",
-            "name_fr": "Défi: lien brisé",
-            "location": "(20, 33)",
-            "patch": "2.0",
-            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
-        },
         "x264": {
             "level": 9,
             "name_en": "Enter Beastman",
@@ -97,6 +57,46 @@
             "location": "(31, 12)",
             "patch": "2.0",
             "previousFate": "f.264",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x261": {
+            "level": 10,
+            "name_en": "In the Name of Love",
+            "name_fr": "Défi : au nom de l'amour",
+            "location": "(20, 38)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x333": {
+            "level": 10,
+            "name_en": "Under the Bridge",
+            "name_fr": "Défi : lien brisé",
+            "location": "(20, 33)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
+        },
+        "x260": {
+            "level": 11,
+            "name_en": "Away in a Bilge Hold",
+            "name_fr": "Mise au placard",
+            "location": "(21, 38)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x262": {
+            "level": 12,
+            "name_en": "Don't Drink the Water",
+            "name_fr": "Eau non potable",
+            "location": "(21, 34)",
+            "patch": "2.0",
+            "type": "@FATE.TYPE.SLAY_ENEMIES"
+        },
+        "x245": {
+            "level": 13,
+            "name_en": "One Prince",
+            "name_fr": "Défi : le prince",
+            "location": "(19, 37)",
+            "patch": "2.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         }
     }

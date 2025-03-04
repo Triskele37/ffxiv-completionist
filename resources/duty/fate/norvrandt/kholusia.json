@@ -50,6 +50,23 @@
             "patch": "5.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
         },
+        "x1462": {
+            "level": 78,
+            "name_en": "Foes Most Formidable",
+            "name_fr": "Formidable : la menace",
+            "location": "(22.6, 13.5)",
+            "patch": "5.0",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
+        "x1463": {
+            "level": 78,
+            "name_en": "A Family Most Formidable",
+            "name_fr": "Formidable : la filature",
+            "location": "(25.7, 20.8)",
+            "patch": "5.0",
+            "previousFate": "f.1462",
+            "type": "@FATE.TYPE.DEFENSE"
+        },
         "x1473": {
             "level": 78,
             "name_en": "Knockout",
@@ -77,15 +94,24 @@
         "x1476": {
             "level": 78,
             "name_en": "Not Today",
-            "name_fr": "Défi: Mort à Mort rampante!",
+            "name_fr": "Défi : Mort à Mort rampante !",
             "location": "(11.5, 15.1)",
             "patch": "5.0",
             "type": "@FATE.TYPE.NOTORIOUS_MONSTER"
         },
+        "x1477": {
+            "level": 78,
+            "name_en": "Ironbeard Builders - Rebuilt",
+            "name_fr": "Bataille d'ingénieurs : automate en construction",
+            "location": "(25.6, 17.0)",
+            "patch": "5.0",
+            "previousFate": "f.1479",
+            "type": "@FATE.TYPE.GATHER_ITEMS"
+        },
         "x1478": {
             "level": 78,
             "name_en": "Ironbeard Builders - Resist",
-            "name_fr": "Bataille d'ingénieurs: dernière mise au point",
+            "name_fr": "Bataille d'ingénieurs : dernière mise au point",
             "location": "(18.0, 14.8)",
             "patch": "5.0",
             "type": "@FATE.TYPE.SLAY_ENEMIES"
@@ -93,42 +119,16 @@
         "x1479": {
             "level": 78,
             "name_en": "Ironbeard Builders - Revolt",
-            "name_fr": "Bataille d'ingénieurs: la lutte finale",
+            "name_fr": "Bataille d'ingénieurs : la lutte finale",
             "location": "(16.2, 21.4)",
             "patch": "5.0",
             "previousFate": "f.1478",
             "type": "@FATE.TYPE.DEFENSE"
         },
-        "x1477": {
-            "level": 78,
-            "name_en": "Ironbeard Builders - Rebuilt",
-            "name_fr": "Bataille d'ingénieurs: automate en construction",
-            "location": "(25.6, 17.0)",
-            "patch": "5.0",
-            "previousFate": "f.1479",
-            "type": "@FATE.TYPE.GATHER_ITEMS"
-        },
-        "x1462": {
-            "level": 78,
-            "name_en": "Foes Most Formidable",
-            "name_fr": "Formidable: la menace",
-            "location": "(22.6, 13.5)",
-            "patch": "5.0",
-            "type": "@FATE.TYPE.DEFENSE"
-        },
-        "x1463": {
-            "level": 78,
-            "name_en": "A Family Most Formidable",
-            "name_fr": "Formidable: la filature",
-            "location": "(25.7, 20.8)",
-            "patch": "5.0",
-            "previousFate": "f.1462",
-            "type": "@FATE.TYPE.DEFENSE"
-        },
         "x1464": {
             "level": 80,
             "name_en": "A Finale Most Formidable",
-            "name_fr": "Formidable: l'arme secrète",
+            "name_fr": "Formidable : l'arme secrète",
             "location": "(33, 26)",
             "patch": "5.0",
             "previousFate": ["f.1477", "f.1463"],
