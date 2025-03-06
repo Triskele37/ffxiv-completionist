@@ -21,6 +21,12 @@ export function migrateTo_1_0_5(svcSaveStore: SaveStoreService): void {
         'overall.character.character.allied-society-relations'
     );
 
+    // Glasses removed from fashion acc
+    store.deleteTask('overall.character.fashion-accessories', 25);
+    store.deleteTask('overall.character.fashion-accessories', 26);
+    store.deleteTask('overall.character.fashion-accessories', 22);
+    store.deleteTask('overall.character.fashion-accessories', 32);
+
     migrateAchievements(store);
     migrateAesthetician(store);
     migrateDuties(store);

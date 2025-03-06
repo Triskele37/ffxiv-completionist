@@ -395,6 +395,17 @@
                     "L2": "Stored window position allowing the app to start off-screen",
                     "L3": "Show All column sizing for numeric groups"
                 }
+            },
+            "1_0_5": {
+                "ADD": {
+                    "L1": "Resources up to FFXIV 7.15"
+                },
+                "CHANGE": {
+                    "L1": "Please note that facewear will not automatically migrate from the old format"
+                },
+                "FIX": {
+                    "L1": ""
+                }
             }
         },
         "RANDOM": {
@@ -972,6 +983,7 @@
             "RAID": "Raid",
             "TREASURE_HUNT": "Treasure Hunt",
             "TRIAL": "Trial",
+            "VC_DUNGEON": "V&C Dungeon",
             "VENTURE": "Venture",
             "VOYAGE": "Voyages",
             "WONDROUS_TAILS": "Wondrous Tails"
@@ -1075,7 +1087,8 @@
             "THE_CRYSTAL_FONT": "The Crystal Font",
             "TANGAROAS_PROW": "Tangaroa's Prow",
             "WINGSREACH": "Wingsreach",
-            "THE_FLORAL_REEF": "The Floral Reef"
+            "THE_FLORAL_REEF": "The Floral Reef",
+            "THE_INDIGO_SHALLOWS": "The Indigo Shallows"
         },
         "TRIAD": {
             "BRONZE_PACK": "Bronze Triad Card",
@@ -1087,27 +1100,28 @@
             "DREAM_PACK": "Dream Triad Card"
         },
         "CURRENCY": {
-            "ACHIEVEMENT_CERTIFICATES": "Achievement Certificates",
-            "ALLIED_SEALS": "Allied Seals",
+            "ACHIEVEMENT_CERTIFICATE": "Achievement Certificate",
+            "ALLIED_SEAL": "Allied Seal",
             "ALOALO_POTSHERD": "Aloalo Potsherd",
-            "BICOLOR_GEMSTONES": "Bicolor Gemstones",
-            "BOZJAN_CLUSTERS": "Bozjan Clusters",
-            "CENTURIO_SEALS": "Centurio Seals",
+            "BICOLOR_GEMSTONES": "Bicolor Gemstone",
+            "BOZJAN_CLUSTERS": "Bozjan Cluster",
+            "CENTURIO_SEALS": "Centurio Seal",
             "CLOUDDARK_DEMIMATERIA_II": "Clouddark Demimateria II",
-            "FLAME_SEALS": "Flame Seals",
+            "FLAME_SEAL": "Flame Seal",
+            "GIL": "Gil",
             "MGP": "MGP",
-            "PRIMARY_CRAFTER_SCRIPS": "",
-            "PRIMARY_GATHERER_SCRIPS": "",
+            "PRIMARY_CRAFTERS_SCRIP": "Orange Crafters' Scrip",
+            "PRIMARY_GATHERERS_SCRIP": "Orange Gatherer' Scrip",
             "ROKKON_POTSHERD": "Rokkon Potsherd",
-            "SEAFARERS_COWRIES": "Seafarer's Cowries",
-            "SECONDARY_CRAFTER_SCRIPS": "",
-            "SECONDARY_GATHERER_SCRIPS": "",
-            "SERPENT_SEALS": "Serpent Seals",
-            "SKYBUILDERS_SCRIPS": "Skybuilders' Scrips",
-            "STORM_SEALS": "Storm Seals",
-            "TROPHY_CRYSTALS": "Trophy Crystals",
-            "VETERANS_MARKS": "Veteran's Clan Mark Logs",
-            "WOLF_MARKS": "Wolf Marks",
+            "SEAFARERS_COWRY": "Seafarer's Cowry",
+            "SECONDARY_CRAFTERS_SCRIP": "Purple Crafters' Scrip",
+            "SECONDARY_GATHERERS_SCRIP": "Purple Gatherer' Scrip",
+            "SERPENT_SEAL": "Serpent Seal",
+            "SKYBUILDERS_SCRIP": "Skybuilders' Scrip",
+            "STORM_SEAL": "Storm Seal",
+            "TROPHY_CRYSTAL": "Trophy Crystal",
+            "VETERANS_MARK": "Veteran's Clan Mark Log",
+            "WOLF_MARK": "Wolf Mark",
             "SOCIETY": {
                 "ARKASODARA": "Arkasodara Pana",
                 "OMICRON": "Omicron Omnitoken"
@@ -1116,7 +1130,9 @@
         "VENDOR": {
             "AELINA": "Aelina - PLACE.MOR_DHONA",
             "ARDOLAIN": "Ardolain - The Forgotten Knight, PLACE.FOUNDATION",
+            "BANGO_ZANGO": "Bango Zango - PLACE.LIMSA_LOMINSA_LOWER_DECKS",
             "BERTANA": "Bertana - PLACE.IDYLLSHIRE",
+            "DIBOURDIER": "Dibourdier - PLACE.THE_GOLD_SAUCER",
             "ESCHINA": "Eschina - PLACE.RHALGRS_REACH",
             "ESTRILD": "Estrild - Shiokaze Hostelry, PLACE.KUGANE",
             "GEMSTONE_TRADER": "Gemstone Trader",
@@ -1124,11 +1140,15 @@
             "HUNT_BILLMASTER": "Hunt Billmaster - Grand Company HQ",
             "JONATHAS": "Jonathas - PLACE.OLD_GRIDANIA",
             "LEUEKIN": "Leuekin - PLACE.RHALGRS_REACH",
+            "MAISENTA": "Maisenta - PLACE.NEW_GRIDANIA",
             "MAUDLIN": "Maudlin Latool Ja - PLACE.UL_DAH",
             "MOG_STATION": "Mog Station",
             "N0598": "N-0598 - PLACE.ULTIMA_THULE",
             "NESVAAZ": "Nesvaaz - PLACE.RADZ_AT_HAN",
             "RESISTANCE_QUARTERMASTER": "Resistance Quartermaster",
+            "ROARICH": "Roarich - PLACE.UL_DAH_STEPS_OF_NALD",
+            "SCRIP_EXHANGE": "Scrip Exchange",
+            "TRISASSANT": "Trisassant - PLACE.OLD_SHARLAYAN",
             "UAHSHEPYA": "Uah'shepya - PLACE.SOLUTION_NINE"
         }
     }

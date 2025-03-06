@@ -1,0 +1,78 @@
+{
+    "key": "mahjong-voices",
+    "groupName_en": "Mahjong Voices",
+    "groupName_fr": "",
+    "headers": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "source": {
+            "header": "@HEADER.SOURCE"
+        },
+        "requirements": {
+            "header": "@HEADER.REQUIREMENTS",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
+    "tasks": {
+        "x12": {
+            "name_en": "Alphinaud",
+            "name_fr": "Alphinaud",
+            "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
+            "requirements": "q.67205",
+            "patch": "7.1"
+        },
+        "x16": {
+            "name_en": "Alisaie",
+            "name_fr": "Alisaie",
+            "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
+            "requirements": "q.68089",
+            "patch": "7.1"
+        },
+        "x2": {
+            "name_en": "Thancred",
+            "name_fr": "Thancred",
+            "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
+            "requirements": "q.69190",
+            "patch": "7.1"
+        },
+        "x6": {
+            "name_en": "Urianger",
+            "name_fr": "Urianger",
+            "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
+            "requirements": "q.69190",
+            "patch": "7.1"
+        },
+        "x15": {
+            "name_en": "Y'shtola",
+            "name_fr": "Y'shtola",
+            "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
+            "requirements": "q.69190",
+            "patch": "7.1"
+        },
+        "x11": {
+            "name_en": "Estinien",
+            "name_fr": "Estinien",
+            "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
+            "requirements": "q.70000",
+            "patch": "7.1"
+        },
+        "x9": {
+            "name_en": "G'raha Tia",
+            "name_fr": "G'raha Tia",
+            "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
+            "requirements": "q.70000",
+            "patch": "7.1"
+        },
+        "x5": {
+            "name_en": "Krile",
+            "name_fr": "Krile",
+            "source": "@VENDOR.DIBOURDIER (100,000 CURRENCY.MGP)",
+            "requirements": "q.70495",
+            "patch": "7.1"
+        }
+    }
+}

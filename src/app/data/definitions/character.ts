@@ -25,6 +25,7 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
         },
         'mount-guide',
         'minion-guide',
+        'facewear',
         'fashion-accessories',
         {
             path: 'relic-gear',
@@ -84,7 +85,8 @@ export const CHARACTER_DEFINITION: GroupDefinition = {
                         'last-page',
                     ]
                 },
-                'triple-triad-opponents'
+                'triple-triad-opponents',
+                'mahjong-voices'
             ]
         },
         {

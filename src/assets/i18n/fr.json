@@ -395,6 +395,17 @@
                     "L2": "Stored window position allowing the app to start off-screen",
                     "L3": "Show All column sizing for numeric groups"
                 }
+            },
+            "1_0_5": {
+                "ADD": {
+                    "L1": "Resources up to FFXIV 7.15"
+                },
+                "CHANGE": {
+                    "L1": "Please note that facewear will not automatically migrate from the old format"
+                },
+                "FIX": {
+                    "L1": ""
+                }
             }
         },
         "RANDOM": {
@@ -971,6 +982,7 @@
             "RAID": "Raid",
             "TREASURE_HUNT": "Chasse aux trésors",
             "TRIAL": "Défi",
+            "VC_DUNGEON": "Donjons spéciaux",
             "VENTURE": "Servant",
             "VOYAGE": "Expédition",
             "WONDROUS_TAILS": "Carnet de Khloe"
@@ -1072,7 +1084,8 @@
             "THE_CRYSTAL_FONT": "Source cristalline",
             "TANGAROAS_PROW": "Hameçon de Tangaroa",
             "WINGSREACH": "Île des tiges ailées",
-            "THE_FLORAL_REEF": "Lagon en fleur"
+            "THE_FLORAL_REEF": "Lagon en fleur",
+            "THE_INDIGO_SHALLOWS": "Les Bas-fonds Indigo"
         },
         "TRIAD": {
             "BRONZE_PACK": "Pochette Triple Triade bronze",
@@ -1084,27 +1097,28 @@
             "DREAM_PACK": "Pochette Triple Triade onirique"
         },
         "CURRENCY": {
-            "ACHIEVEMENT_CERTIFICATES": "Jetons de haut fait",
-            "ALLIED_SEALS": "Insignes alliés",
+            "ACHIEVEMENT_CERTIFICATE": "Jetons de haut fait",
+            "ALLIED_SEAL": "Insignes alliés",
             "ALOALO_POTSHERD": "Relique de l'île d'Aloalo",
-            "BICOLOR_GEMSTONES": "Gemme bicolore",
-            "BOZJAN_CLUSTERS": "Critaux bozjiens",
-            "CENTURIO_SEALS": "Insignes Centurio",
+            "BICOLOR_GEMSTONE": "Gemme bicolore",
+            "BOZJAN_CLUSTER": "Critaux bozjiens",
+            "CENTURIO_SEAL": "Insignes Centurio",
             "CLOUDDARK_DEMIMATERIA_II": "Demi-matéria du vortex obscur",
-            "FLAME_SEALS": "Sceaux de compagnie uldien",
+            "FLAME_SEAL": "Sceaux de compagnie uldien",
+            "GIL": "Gil",
             "MGP": "PGS",
-            "PRIMARY_CRAFTER_SCRIPS": "",
-            "PRIMARY_GATHERER_SCRIPS": "",
+            "PRIMARY_CRAFTERS_SCRIP": "",
+            "PRIMARY_GATHERERS_SCRIP": "",
             "ROKKON_POTSHERD": "Relique du mont Rokkon",
-            "SEAFARERS_COWRIES": "Assignat insulaire azur",
-            "SECONDARY_CRAFTER_SCRIPS": "",
-            "SECONDARY_GATHERER_SCRIPS": "",
-            "SERPENT_SEALS": "Sceaux de compagnie gridanien",
-            "SKYBUILDERS_SCRIPS": "Assignats d'Azurée",
-            "STORM_SEALS": "Sceaux de compagnie limséen",
-            "TROPHY_CRYSTALS": "Cristaux-trophées",
-            "VETERANS_MARKS": "Journaux de membre éminent du clan",
-            "WOLF_MARKS": "Marques de loup",
+            "SEAFARERS_COWRY": "Assignat insulaire azur",
+            "SECONDARY_CRAFTERS_SCRIP": "",
+            "SECONDARY_GATHERERS_SCRIP": "",
+            "SERPENT_SEAL": "Sceaux de compagnie gridanien",
+            "SKYBUILDERS_SCRIP": "Assignats d'Azurée",
+            "STORM_SEAL": "Sceaux de compagnie limséen",
+            "TROPHY_CRYSTAL": "Cristaux-trophées",
+            "VETERANS_MARK": "Journaux de membre éminent du clan",
+            "WOLF_MARK": "Marques de loup",
             "SOCIETY": {
                 "ARKASODARA": "Seikos arkasodara",
                 "OMICRON": "Omicoin"
@@ -1113,7 +1127,9 @@
         "VENDOR": {
             "AELINA": "Aelina - PLACE.MOR_DHONA",
             "ARDOLAIN": "Ardolain - Le Chevalier Oublié, PLACE.FOUNDATION",
+            "BANGO_ZANGO": "Bango Zango - PLACE.LIMSA_LOMINSA_LOWER_DECKS",
             "BERTANA": "Bertana - PLACE.IDYLLSHIRE",
+            "DIBOURDIER": "Dibourdier - PLACE.THE_GOLD_SAUCER",
             "ESCHINA": "Eschina - PLACE.RHALGRS_REACH",
             "ESTRILD": "Estrild - Shiokaze, PLACE.KUGANE",
             "GEMSTONE_TRADER": "Marchand de gemmes",
@@ -1121,11 +1137,15 @@
             "HUNT_BILLMASTER": "Responsable de la Chasse - Base de Grande Compagnie",
             "JONATHAS": "Jonathas - PLACE.OLD_GRIDANIA",
             "LEUEKIN": "Leuekin - PLACE.RHALGRS_REACH",
+            "MAISENTA": "Maisenta - PLACE.NEW_GRIDANIA",
             "MAUDLIN": "Maudlin Latool Ja - PLACE.UL_DAH",
             "MOG_STATION": "Station mog",
             "N0598": "N-0598 - PLACE.ULTIMA_THULE",
             "NESVAAZ": "Nesvaaz - PLACE.RADZ_AT_HAN",
             "RESISTANCE_QUARTERMASTER": "Tacticienne",
+            "ROARICH": "Roarich - PLACE.UL_DAH_STEPS_OF_NALD",
+            "SCRIP_EXHANGE": "Comptable Des Assignats",
+            "TRISASSANT": "Trisassant - PLACE.OLD_SHARLAYAN",
             "UAHSHEPYA": "Uah'shepya - PLACE.SOLUTION_NINE"
         }
     }
