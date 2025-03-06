@@ -128,11 +128,10 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                 {
                     path: 'coerthas',
                     subGroups: [
-                        'central-highlands',
-                        'western-highlands',
+                        'coerthas-central-highlands',
+                        'coerthas-western-highlands',
                     ]
                 },
-                'mor-dhona',
                 {
                     path: 'abalathias-spine',
                     subGroups: [
@@ -165,6 +164,25 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                     ]
                 },
                 {
+                    path: 'ilsabard',
+                    subGroups: ['thavnair', 'garlemald']
+                },
+                {
+                    path: 'yok-tural',
+                    subGroups: [
+                        'urqopacha',
+                        'kozamauka',
+                        'yak-tel'
+                    ]
+                },
+                {
+                    path: 'xak-tural',
+                    subGroups: [
+                        'shaaloani',
+                        'heritage-found'
+                    ]
+                },
+                {
                     path: 'norvrandt',
                     subGroups: [
                         'amh-araeng',
@@ -175,13 +193,10 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                         'the-tempest',
                     ]
                 },
+                'mor-dhona',
                 {
                     path: 'northern-empty',
                     subGroups: ['labyrinthos']
-                },
-                {
-                    path: 'ilsabard',
-                    subGroups: ['thavnair', 'garlemald']
                 },
                 {
                     path: 'sea-of-stars',
@@ -190,6 +205,10 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
                 {
                     path: 'world-unsundered',
                     subGroups: ['elpis']
+                },
+                {
+                    path: 'unlost-world',
+                    subGroups: ['living-memory']
                 }
             ]
         },

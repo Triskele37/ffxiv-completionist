@@ -73,6 +73,7 @@ export const TRAVEL_DEFINITION: GroupDefinition = {
                 'gyr-abania',
                 'the-far-east',
                 'ilsabard',
+                'tural',
                 'norvrandt',
                 'others',
             ]
@@ -87,6 +88,7 @@ export const TRAVEL_DEFINITION: GroupDefinition = {
                 'gyr-abania',
                 'the-far-east',
                 'ilsabard',
+                'tural',
                 'norvrandt',
                 'others',
             ]
@@ -101,6 +103,7 @@ export const TRAVEL_DEFINITION: GroupDefinition = {
                 'gyr-abania',
                 'the-far-east',
                 'ilsabard',
+                'tural',
                 'norvrandt',
                 'others',
             ]
