@@ -2,6 +2,7 @@ import { SaveStoreService } from '../../save-store.service';
 import { ChangeStore } from '../ChangeStore';
 
 import { migrateAchievements } from './achievement';
+import { migrateAesthetician } from './aesthetician';
 import { migrateDuties } from './duty';
 import { migrateFashionAccessories } from './fashion-accessories';
 import { migrateFates } from './fate';
@@ -21,6 +22,7 @@ export function migrateTo_1_0_5(svcSaveStore: SaveStoreService): void {
     );
 
     migrateAchievements(store);
+    migrateAesthetician(store);
     migrateDuties(store);
     migrateFashionAccessories(store);
     migrateFates(store);

@@ -660,6 +660,19 @@
             "PCT": "Pictomancer"
 
         },
+        "CHARA": {
+            "FEMALE": "Female",
+            "MALE": "Male",
+            "HIGHLANDER": "Highlander",
+            "MIDLANDER": "Midlander",
+            "ELEZEN": "Elezen",
+            "LALAFELL": "Lalafell",
+            "MIQOTE": "Miqo'te",
+            "ROEGADYN": "Roegadyn",
+            "AURA": "Au Ra",
+            "HROTHGAR": "Hrothgar",
+            "VIERA": "Viera"
+        },
         "PLACE": {
             "LA_NOSCEA": "La Noscea",
             "LIMSA_LOMINSA": "Limsa Lominsa",
@@ -963,12 +976,6 @@
             "WONDROUS_TAILS": "Wondrous Tails"
         },
         "TYPE": {
-            "AESTHETICIAN": {
-                "FEMALE": "Female Only",
-                "MALE": "Male Only",
-                "UNISEX": "Unisex",
-                "UNISEX_DIFFER": "Unisex (Differing Styles)"
-            },
             "AETHERYTE": {
                 "CRYSTAL": "Crystal",
                 "SHARD": "Shard"
@@ -1081,9 +1088,10 @@
             "ACHIEVEMENT_CERTIFICATES": "Achievement Certificates",
             "ALLIED_SEALS": "Allied Seals",
             "ALOALO_POTSHERD": "Aloalo Potsherd",
-            "CENTURIO_SEALS": "Centurio Seals",
             "BICOLOR_GEMSTONES": "Bicolor Gemstones",
             "BOZJAN_CLUSTERS": "Bozjan Clusters",
+            "CENTURIO_SEALS": "Centurio Seals",
+            "CLOUDDARK_DEMIMATERIA_II": "Clouddark Demimateria II",
             "FLAME_SEALS": "Flame Seals",
             "MGP": "MGP",
             "PRIMARY_CRAFTER_SCRIPS": "",
@@ -1115,9 +1123,11 @@
             "JONATHAS": "Jonathas - PLACE.OLD_GRIDANIA",
             "LEUEKIN": "Leuekin - PLACE.RHALGRS_REACH",
             "MAUDLIN": "Maudlin Latool Ja - PLACE.UL_DAH",
+            "MOG_STATION": "Mog Station",
             "N0598": "N-0598 - PLACE.ULTIMA_THULE",
             "NESVAAZ": "Nesvaaz - PLACE.RADZ_AT_HAN",
-            "RESISTANCE_QUARTERMASTER": "Resistance Quartermaster"
+            "RESISTANCE_QUARTERMASTER": "Resistance Quartermaster",
+            "UAHSHEPYA": "Uah'shepya - PLACE.SOLUTION_NINE"
         }
     }
 }

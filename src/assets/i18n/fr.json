@@ -659,6 +659,19 @@
             "VPR": "Rôdeur Vipère",
             "PCT": "Pictomancien"
         },
+        "CHARA": {
+            "FEMALE": "Femme",
+            "MALE": "Homme",
+            "HIGHLANDER": "Hyurgoth",
+            "MIDLANDER": "Hyur",
+            "ELEZEN": "Élézen",
+            "LALAFELL": "Lalafell",
+            "MIQOTE": "Miqo'te",
+            "ROEGADYN": "Roegadyn",
+            "AURA": "Ao Ra",
+            "HROTHGAR": "Hrothgar",
+            "VIERA": "Viera"
+        },
         "PLACE": {
             "LA_NOSCEA": "Noscea",
             "LIMSA_LOMINSA": "Limsa Lominsa",
@@ -962,12 +975,6 @@
             "WONDROUS_TAILS": "Carnet de Khloe"
         },
         "TYPE": {
-            "AESTHETICIAN": {
-                "FEMALE": "Female Only",
-                "MALE": "Male Only",
-                "UNISEX": "Unisexe",
-                "UNISEX_DIFFER": "Unisexe (styles différents)"
-            },
             "AETHERYTE": {
                 "CRYSTAL": "Éthérite",
                 "SHARD": "Éthérite urbaine"
@@ -1078,9 +1085,10 @@
             "ACHIEVEMENT_CERTIFICATES": "Jetons de haut fait",
             "ALLIED_SEALS": "Insignes alliés",
             "ALOALO_POTSHERD": "Relique de l'île d'Aloalo",
-            "CENTURIO_SEALS": "Insignes Centurio",
             "BICOLOR_GEMSTONES": "Gemme bicolore",
             "BOZJAN_CLUSTERS": "Critaux bozjiens",
+            "CENTURIO_SEALS": "Insignes Centurio",
+            "CLOUDDARK_DEMIMATERIA_II": "Demi-matéria du vortex obscur",
             "FLAME_SEALS": "Sceaux de compagnie uldien",
             "MGP": "PGS",
             "PRIMARY_CRAFTER_SCRIPS": "",
@@ -1112,9 +1120,11 @@
             "JONATHAS": "Jonathas - PLACE.OLD_GRIDANIA",
             "LEUEKIN": "Leuekin - PLACE.RHALGRS_REACH",
             "MAUDLIN": "Maudlin Latool Ja - PLACE.UL_DAH",
+            "MOG_STATION": "Station mog",
             "N0598": "N-0598 - PLACE.ULTIMA_THULE",
             "NESVAAZ": "Nesvaaz - PLACE.RADZ_AT_HAN",
-            "RESISTANCE_QUARTERMASTER": "Tacticienne"
+            "RESISTANCE_QUARTERMASTER": "Tacticienne",
+            "UAHSHEPYA": "Uah'shepya - PLACE.SOLUTION_NINE"
         }
     }
 }
