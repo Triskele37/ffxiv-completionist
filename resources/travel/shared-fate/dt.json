@@ -15,93 +15,129 @@
         },
         "x2": {
             "name": "@PLACE.URQOPACHA 3",
-            "requiredFates": 60,
+            "requiredFates": 20,
             "cPrev": [1],
-            "cSiblings": ["a.3559"]
+            "cNext": [3]
         },
         "x3": {
-            "name": "@PLACE.KOZAMAUKA 1",
-            "requiredFates": 1,
-            "cNext": [4]
-        },
-        "x4": {
-            "name": "@PLACE.KOZAMAUKA 2",
-            "requiredFates": 6,
-            "cPrev": [3],
-            "cNext": [5]
-        },
-        "x5": {
-            "name": "@PLACE.KOZAMAUKA 3",
-            "requiredFates": 60,
-            "cPrev": [4],
-            "cSiblings": ["a.3560"]
-        },
-        "x6": {
-            "name": "@PLACE.YAK_TEL 1",
-            "requiredFates": 1,
-            "cNext": [7]
-        },
-        "x7": {
-            "name": "@PLACE.YAK_TEL 2",
-            "requiredFates": 6,
-            "cPrev": [6],
-            "cNext": [8]
-        },
-        "x8": {
-            "name": "@PLACE.YAK_TEL 3",
-            "requiredFates": 60,
-            "cPrev": [7],
-            "cSiblings": ["a.3561"]
-        },
-        "x9": {
-            "name": "@PLACE.SHAALOANI 1",
-            "requiredFates": 1,
-            "cNext": [10]
+            "name": "@PLACE.URQOPACHA 4",
+            "requiredFates": 40,
+            "cPrev": [2],
+            "cSiblings": ["a.3559"]
         },
         "x10": {
-            "name": "@PLACE.SHAALOANI 2",
-            "requiredFates": 6,
-            "cPrev": [9],
+            "name": "@PLACE.KOZAMAUKA 1",
+            "requiredFates": 1,
             "cNext": [11]
         },
         "x11": {
-            "name": "@PLACE.SHAALOANI 3",
-            "requiredFates": 60,
+            "name": "@PLACE.KOZAMAUKA 2",
+            "requiredFates": 6,
             "cPrev": [10],
-            "cSiblings": ["a.3562"]
+            "cNext": [12]
         },
         "x12": {
-            "name": "@PLACE.HERITAGE_FOUND 1",
-            "requiredFates": 1,
+            "name": "@PLACE.KOZAMAUKA 3",
+            "requiredFates": 20,
+            "cPrev": [11],
             "cNext": [13]
         },
         "x13": {
+            "name": "@PLACE.KOZAMAUKA 4",
+            "requiredFates": 40,
+            "cPrev": [12],
+            "cSiblings": ["a.3560"]
+        },
+        "x20": {
+            "name": "@PLACE.YAK_TEL 1",
+            "requiredFates": 1,
+            "cNext": [21]
+        },
+        "x21": {
+            "name": "@PLACE.YAK_TEL 2",
+            "requiredFates": 6,
+            "cPrev": [20],
+            "cNext": [22]
+        },
+        "x22": {
+            "name": "@PLACE.YAK_TEL 3",
+            "requiredFates": 20,
+            "cPrev": [21],
+            "cNext": [23]
+        },
+        "x23": {
+            "name": "@PLACE.YAK_TEL 4",
+            "requiredFates": 40,
+            "cPrev": [22],
+            "cSiblings": ["a.3561"]
+        },
+        "x30": {
+            "name": "@PLACE.SHAALOANI 1",
+            "requiredFates": 1,
+            "cNext": [31]
+        },
+        "x31": {
+            "name": "@PLACE.SHAALOANI 2",
+            "requiredFates": 6,
+            "cPrev": [30],
+            "cNext": [32]
+        },
+        "x32": {
+            "name": "@PLACE.SHAALOANI 3",
+            "requiredFates": 20,
+            "cPrev": [31],
+            "cNext": [33]
+        },
+        "x33": {
+            "name": "@PLACE.SHAALOANI 4",
+            "requiredFates": 40,
+            "cPrev": [32],
+            "cSiblings": ["a.3562"]
+        },
+        "x40": {
+            "name": "@PLACE.HERITAGE_FOUND 1",
+            "requiredFates": 1,
+            "cNext": [41]
+        },
+        "x41": {
             "name": "@PLACE.HERITAGE_FOUND 2",
             "requiredFates": 6,
-            "cPrev": [12],
-            "cNext": [14]
+            "cPrev": [40],
+            "cNext": [42]
         },
-        "x14": {
+        "x42": {
             "name": "@PLACE.HERITAGE_FOUND 3",
-            "requiredFates": 60,
-            "cPrev": [13],
+            "requiredFates": 20,
+            "cPrev": [41],
+            "cNext": [43]
+        },
+        "x43": {
+            "name": "@PLACE.HERITAGE_FOUND 4",
+            "requiredFates": 40,
+            "cPrev": [42],
             "cSiblings": ["a.3563"]
         },
-        "x15": {
+        "x50": {
             "name": "@PLACE.LIVING_MEMORY 1",
             "requiredFates": 1,
-            "cNext": [16]
+            "cNext": [51]
         },
-        "x16": {
+        "x51": {
             "name": "@PLACE.LIVING_MEMORY 2",
             "requiredFates": 6,
-            "cPrev": [15],
-            "cNext": [17]
+            "cPrev": [50],
+            "cNext": [52]
+        },
+        "x52": {
+            "name": "@PLACE.LIVING_MEMORY 3",
+            "requiredFates": 20,
+            "cPrev": [51],
+            "cNext": [53]
         },
         "x17": {
-            "name": "@PLACE.LIVING_MEMORY 3",
-            "requiredFates": 60,
-            "cPrev": [16],
+            "name": "@PLACE.LIVING_MEMORY 4",
+            "requiredFates": 40,
+            "cPrev": [52],
             "cSiblings": ["a.3564"]
         }
     }
