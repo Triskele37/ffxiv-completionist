@@ -88,7 +88,8 @@ export const DUTY_DEFINITION: DefinitionCallback = (translate: TranslateService)
             subGroups: [
                 'tank',
                 'dps',
-                'healer'
+                'healer',
+                'tactical'
             ]
         },
         {
