@@ -18,6 +18,7 @@ const INDEX: IndexContainer = new Map([
     ['a', createIndex('character.achievement')],
     ['b', createIndex('character.companion.barding')],
     ['cj', createIndex('character.character.classes--jobs')],
+    ['e', createIndex('social.emotes')],
     ['fa', createIndex('character.fashion-accessories')],
     ['mi', createIndex('character.minion-guide')],
     ['mo', createIndex('character.mount-guide')],

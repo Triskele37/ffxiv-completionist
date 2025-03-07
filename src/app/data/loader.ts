@@ -1,6 +1,7 @@
 import { TranslateService } from '@ngx-translate/core';
 
 import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
+import { Globals } from '@constant/Global';
 
 export const refs: {
     svcElectron: ElectronService;
@@ -20,6 +21,7 @@ export type JSON_GROUP = JSON & {
 
 const COMMON_KEY_PREFIX = '@';
 const COMMON_KEY_REGEX = /[A-Z]+[A-Z0-9_]+\.[A-Z0-9_.]+/g;
+const NUMBER_REGEX = /\b\d+[,.]+[\d.,]+\b/g;
 
 /**
  * Load the group json file at the given path, applying necessary
@@ -174,15 +176,23 @@ function getCommonTranslation(value: string): string {
             }
         }
 
-        if(Object.entries(replacements).length === 0) {
+        // Bail if an entry somehow gets this far without replacements
+        if(Object.keys(replacements).length === 0) {
             console.log('Data Jacked:', commonKeys);
             break;
         }
 
-        //TODO - though unlikely to be an issue, this won't replace duplicate commonKeys
+        // Do the actual replacement transformation
         for (const [commonKey, translation] of Object.entries(replacements)) {
-            updatedValue = updatedValue.replace(commonKey, translation);
+            updatedValue = updatedValue.replace(new RegExp(commonKey, 'g'), translation);
         }
+    }
+
+    // Special currency handling
+    if(Globals.config.lang === 'fr') {
+        updatedValue = updatedValue.replace(NUMBER_REGEX, (n) =>
+            n.replace(/[.,]/g, (punct) => punct === '.' ? ',' : '.')
+        );
     }
 
     return updatedValue;
