@@ -50,7 +50,7 @@
             "name_en": "Black Chocobo Chick",
             "name_fr": "Bébé Chocobo Noir",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
             "patch": "2.1"
         },
         "x128": {
@@ -151,7 +151,7 @@
             "name_en": "Behemoth Heir",
             "name_fr": "Prince Bébéhémoth",
             "category": "@CATEGORY.THE_HUNT",
-            "source": "@VENDOR.ARDOLAIN (400 CURRENCY.SEAL.CENTURIO)",
+            "source": "@VENDOR.ARDOLAIN (400 CURRENCY.HUNT.CENTURIO)",
             "patch": "3.0"
         },
         "x12": {
@@ -312,7 +312,7 @@
             "name_en": "Beady Eye",
             "name_fr": "Œil Apprivoisé",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
             "patch": "2.1"
         },
         "x225": {
@@ -567,7 +567,7 @@
             "name_en": "Griffin Hatchling",
             "name_fr": "Bébé Griffon",
             "category": "@CATEGORY.THE_HUNT",
-            "source": "@400 CURRENCY.SEAL.CENTURIO",
+            "source": "@400 CURRENCY.HUNT.CENTURIO",
             "patch": "3.0"
         },
         "x157": {
@@ -671,14 +671,14 @@
             "name_en": "Wind-up Sasquatch",
             "name_fr": "Mini-sasquatch",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "@VENDOR.E_UNA_KOTOR (3 CURRENCY.POTSHERD.GELMORRAN)",
+            "source": "@VENDOR.E_UNA_KOTOR (3 CURRENCY.DD.GELMORRAN)",
             "patch": "3.35"
         },
         "x198": {
             "name_en": "Hecteye",
             "name_fr": "Hectoculus Monoculaire",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "@VENDOR.E_UNA_KOTOR (3 CURRENCY.POTSHERD.GELMORRAN)",
+            "source": "@VENDOR.E_UNA_KOTOR (3 CURRENCY.DD.GELMORRAN)",
             "patch": "3.35"
         },
         "x216": {
@@ -923,14 +923,14 @@
             "name_en": "Amaro Hatchling",
             "name_fr": "Bébé Amaro",
             "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.THE_CRYSTARIUM (400 CURRENCY.GEMSTONE.BICOLOR)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.THE_CRYSTARIUM (400 CURRENCY.FATE.GEMSTONE)",
             "patch": "5.4"
         },
         "x423": {
             "name_en": "Wee Ea",
             "name_fr": "Mini-Éa",
             "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.ULTIMA_THULE (500 CURRENCY.GEMSTONE.BICOLOR)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.ULTIMA_THULE (500 CURRENCY.FATE.GEMSTONE)",
             "patch": "6.0"
         },
         "x433": {
@@ -1340,7 +1340,7 @@
             "name_en": "Tora-jiro",
             "name_fr": "Tora-jiro",
             "category": "@CATEGORY.THE_HUNT",
-            "source": "@800 CURRENCY.SEAL.CENTURIO",
+            "source": "@800 CURRENCY.HUNT.CENTURIO",
             "patch": "4.0"
         },
         "x246": {
@@ -1390,14 +1390,14 @@
             "name_en": "Komainu",
             "name_fr": "Petit Komainu",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
             "patch": "4.2"
         },
         "x292": {
             "name_en": "Frilled Dragon",
             "name_fr": "Lézard À Collerette",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "@VENDOR.CONFEDERATE_CUSTODIAN (10 CURRENCY.POTSHERD.EMPYREAN)",
+            "source": "@VENDOR.CONFEDERATE_CUSTODIAN (10 CURRENCY.DD.EMPYREAN)",
             "patch": "4.35"
         },
         "x316": {
@@ -1468,7 +1468,7 @@
             "name_en": "Butterfly Effect",
             "name_fr": "Couple De Papillons",
             "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.RAK_TIKA (400 CURRENCY.GEMSTONE.BICOLOR)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.RAK_TIKA (400 CURRENCY.FATE.GEMSTONE)",
             "patch": "5.0"
         },
         "x356": {
@@ -1503,7 +1503,7 @@
             "name_en": "Nagxian Cat",
             "name_fr": "Chat Nagxien",
             "category": "@CATEGORY.THE_HUNT",
-            "source": "@VENDOR.HUNT_TRADER - PLACE.OLD_SHARLAYAN / PLACE.RADZ_AT_HAN (800 CURRENCY.SACK_OF_NUTS)",
+            "source": "@VENDOR.HUNT_TRADER - PLACE.OLD_SHARLAYAN / PLACE.RADZ_AT_HAN (800 CURRENCY.HUNT.SACK_OF_NUTS)",
             "patch": "6.0"
         },
         "x431": {
@@ -1587,7 +1587,7 @@
             "name_en": "Alpaca Cria",
             "name_fr": "Cria Alpaga",
             "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.URQOPACHA (700 CURRENCY.GEMSTONE.BICOLOR)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.URQOPACHA (700 CURRENCY.FATE.GEMSTONE)",
             "patch": "7.0"
         },
         "x511": {
@@ -1601,7 +1601,7 @@
             "name_en": "Ilyikty'i",
             "name_fr": "Ilyikty'i",
             "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.YAK_TEL (700 CURRENCY.GEMSTONE.BICOLOR)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.YAK_TEL (700 CURRENCY.FATE.GEMSTONE)",
             "patch": "7.0"
         },
         "x514": {
@@ -1615,7 +1615,7 @@
             "name_en": "Bluecoat Cat",
             "name_fr": "Chat Gris Bleuté",
             "category": "@CATEGORY.THE_HUNT",
-            "source": "@VENDOR.HUNT_TRADER - PLACE.TULIYOLLAL (800 CURRENCY.SACK_OF_NUTS)",
+            "source": "@VENDOR.HUNT_TRADER - PLACE.TULIYOLLAL (800 CURRENCY.HUNT.SACK_OF_NUTS)",
             "patch": "7.0"
         },
         "x532": {
@@ -1710,7 +1710,7 @@
             "name_en": "Bitty Duckbill",
             "name_fr": "Ornithorynque Nain",
             "category": "@CATEGORY.THE_HUNT",
-            "source": "@800 CURRENCY.SACK_OF_NUTS",
+            "source": "@800 CURRENCY.HUNT.SACK_OF_NUTS",
             "patch": "5.0"
         },
         "x359": {
@@ -1891,7 +1891,7 @@
             "name_en": "Wind-up Meateater",
             "name_fr": "Croque-viande Mécanique",
             "category": "@CATEGORY.THE_HUNT",
-            "source": "@800 CURRENCY.SEAL.CENTURIO",
+            "source": "@800 CURRENCY.HUNT.CENTURIO",
             "patch": "4.0"
         },
         "x253": {
@@ -1962,7 +1962,7 @@
             "name_en": "Wind-up Goblin",
             "name_fr": "Gobelin Articulé",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
             "patch": "2.1"
         },
         "x158": {
@@ -2123,7 +2123,7 @@
             "name_en": "Wind-up Nu Mou",
             "name_fr": "Nu Mou Miniature",
             "category": "@CATEGORY.THE_HUNT",
-            "source": "@VENDOR.HUNT_TRADER - PLACE.THE_CRYSTARIUM / PLACE.EULMORE (800 CURRENCY.SACK_OF_NUTS)",
+            "source": "@VENDOR.HUNT_TRADER - PLACE.THE_CRYSTARIUM / PLACE.EULMORE (800 CURRENCY.HUNT.SACK_OF_NUTS)",
             "patch": "5.0"
         },
         "x354": {
@@ -2186,7 +2186,7 @@
             "name_en": "Wind-up Odin",
             "name_fr": "Odin Mécanique",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
             "patch": "2.2"
         },
         "x263": {
@@ -2499,7 +2499,7 @@
             "name_en": "Wind-up Leader",
             "name_fr": "Dirigeant Miniature",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
             "patch": "2.1"
         },
         "x276": {
@@ -2513,7 +2513,7 @@
             "name_en": "Wind-up Nanamo",
             "name_fr": "Nanamo Miniature",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
             "patch": "2.45"
         },
         "x145": {
@@ -2818,7 +2818,7 @@
             "name_en": "Wind-up Gilgamesh",
             "name_fr": "Pantin Gilgamesh",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
             "patch": "2.3"
         },
         "x122": {
@@ -3040,7 +3040,7 @@
             "name_en": "Little Leafman",
             "name_fr": "Enfeuillé Miniature",
             "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.IL_MHEG (400 CURRENCY.GEMSTONE.BICOLOR)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.IL_MHEG (400 CURRENCY.FATE.GEMSTONE)",
             "patch": "5.2"
         },
         "x374": {
@@ -3284,7 +3284,7 @@
             "name_en": "Wind-up Cursor",
             "name_fr": "Curseur Flottant",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
             "patch": "2.1"
         },
         "x65": {
@@ -3443,7 +3443,7 @@
             "name_en": "Minion of Light",
             "name_fr": "Héros de la Lumière",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
             "patch": "2.1"
         },
         "x239": {
@@ -3458,14 +3458,14 @@
             "name_en": "Wind-up Warrior of Light",
             "name_fr": "Guerrier de la Lumière",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
             "patch": "2.2"
         },
         "x167": {
             "name_en": "Wind-up Firion",
             "name_fr": "Firion Miniature",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
             "patch": "3.07"
         },
         "x92": {

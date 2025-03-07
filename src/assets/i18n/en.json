@@ -961,28 +961,19 @@
         },
         "CATEGORY": {
             "ACHIEVEMENT": "Achievement",
-            "BATTLE": "Battle",
-            "CHARACTER": "Character",
             "CRAFTING": "Crafting",
             "CRAFTING_GATHERING": "Crafting & Gathering",
-            "DAILY": "Daily",
             "DEEP_DUNGEON": "Deep Dungeon",
             "DUNGEON": "Dungeon",
-            "DUTY": "Duty",
             "EVENT": "Event",
-            "EXPLORATION": "Exploration",
             "EXPLORATORY_MISSION": "Exploratory Mission",
             "EXPLORATORY_VOYAGE": "Exploratory Voyage",
             "FATE": "FATE",
             "FAUX_HOLLOWS": "Faux Hollows",
             "GATHERING": "Gathering",
             "GOLD_SAUCER": "Gold Saucer",
-            "GRAND_COMPANY": "Grand Company",
             "THE_HUNT": "The Hunt",
             "ISLAND_SANCTUARY": "Island Sanctuary",
-            "ITEMS": "Items",
-            "LEGACY": "Legacy",
-            "MAIN": "Main",
             "OTHER": "Other",
             "PREMIUM": "Premium",
             "PURCHASE": "Purchase",
@@ -995,7 +986,15 @@
             "VC_DUNGEON": "V&C Dungeon",
             "VENTURE": "Venture",
             "SUBAQUATIC_VOYAGE": "Subaquatic Voyages",
-            "WONDROUS_TAILS": "Wondrous Tails"
+            "WONDROUS_TAILS": "Wondrous Tails",
+            "TITLE": {
+                "BATTLE": "Battle",
+                "CHARACTER": "Character",
+                "EXPLORATION": "Exploration",
+                "GRAND_COMPANY": "Grand Company",
+                "ITEMS": "Items",
+                "LEGACY": "Legacy"
+            }
         },
         "EVENT": {
             "HEAVENSTURN": "Heavensturn",
@@ -1147,10 +1146,7 @@
             "DREAM_PACK": "Dream Triad Card"
         },
         "CURRENCY": {
-            "ACHIEVEMENT_CERTIFICATE": "Achievement Certificate",
-            "ALOALO_COIN": "Aloalo Coin",
-            "SHISHU_COIN": "Shishu Coin",
-            "SILDIHN_SILVER": "Sil'dihn Silver",
+            "ACHIEVEMENT": "Achievement Certificate",
             "BOZJAN_CLUSTER": "Bozjan Cluster",
             "CLOUDDARK_DEMIMATERIA_II": "Clouddark Demimateria II",
             "FAUX_LEAF": "Faux Leaf",
@@ -1160,12 +1156,14 @@
             "MGP": "MGP",
             "AMBER": "Amber-encased Vilekin",
             "RATHALOS_SCALE": "Rathalos Scale",
-            "SACK_OF_NUTS": "Sack of Nuts",
             "TROPHY_CRYSTAL": "Trophy Crystal",
-            "VETERANS_MARK": "Veteran's Clan Mark Log",
-            "MYTHIC_MARK": "Mythic Clan Mark Log",
             "WOLF_MARK": "Wolf Mark",
+
             "FATE": {
+                "GEMSTONE": "Bicolor Gemstone",
+                "TURALI_VOUCHER": "Turali Bicolor Gemstone Voucher",
+                "VOUCHER": "Bicolor Gemstone Voucher",
+
                 "ARCHAEOTANIA": "Archaeotania's Horn",
                 "CHI": "Chi Bolt",
                 "DAIVADIPA": "Daivadipa's Bead",
@@ -1174,12 +1172,12 @@
                 "IXION": "Ixion Horn",
                 "ODIN": "Odin's Mantle"
             },
-            "GEMSTONE": {
-                "BICOLOR": "Bicolor Gemstone",
-                "TURALI_VOUCHER": "Turali Bicolor Gemstone Voucher",
-                "VOUCHER": "Bicolor Gemstone Voucher"
-            },
             "HUNT": {
+                "CENTURIO": "Centurio Seal",
+                "VETERANS_MARK": "Veteran's Clan Mark Log",
+                "MYTHIC_MARK": "Mythic Clan Mark Log",
+                "SACK_OF_NUTS": "Sack of Nuts",
+
                 "BURNING_HORN": "Burning Horn",
                 "EXCITING_TONIC": "Exciting Tonic",
                 "RESPLENDENT_FEATHER": "Resplendent Feather"
@@ -1193,12 +1191,17 @@
                 "SILVER": "Khloe's Silver Certificate of Commendation",
                 "GOLD": "Khloe's Gold Certificate of Commendation"
             },
-            "POTSHERD": {
-                "ALOALO": "Aloalo Potsherd",
-                "EMPYREAN": "Empyrean Potsherd",
+            "DD": {
                 "GELMORRAN": "Gelmorran Potsherd",
-                "ROKKON": "Rokkon Potsherd",
-                "SILDIHN": "Sil'dihn Potsherd"
+                "EMPYREAN": "Empyrean Potsherd"
+            },
+            "VCD": {
+                "SILDIHN_SILVER": "Sil'dihn Silver",
+                "SILDIHN_POTSHERD": "Sil'dihn Potsherd",
+                "SHISHU_COIN": "Shishu Coin",
+                "ROKKON_POTSHERD": "Rokkon Potsherd",
+                "ALOALO_COIN": "Aloalo Coin",
+                "ALOALO_POTSHERD": "Aloalo Potsherd"
             },
             "SCRIP": {
                 "PRIMARY_CRAFTERS": "Orange Crafters' Scrip",
@@ -1209,7 +1212,6 @@
             },
             "SEAL": {
                 "ALLIED": "Allied Seal",
-                "CENTURIO": "Centurio Seal",
                 "COMPANY": "Company Seal",
                 "FLAME": "Flame Seal",
                 "SERPENT": "Serpent Seal",

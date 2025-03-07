@@ -497,7 +497,7 @@
             "name_en": "Sweat",
             "name_fr": "Transpirer",
             "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "@VENDOR.CONFEDERATE_CUSTODIAN (10 CURRENCY.POTSHERD.EMPYREAN)",
+            "source": "@VENDOR.CONFEDERATE_CUSTODIAN (10 CURRENCY.DD.EMPYREAN)",
             "command_en": "/sweat, /tillyoubleed",
             "command_fr": "/sweat, /transpirer",
             "patch": "4.35"
@@ -515,7 +515,7 @@
             "name_en": "Tremble",
             "name_fr": "Trembler de peur",
             "category": "@CATEGORY.THE_HUNT",
-            "source": "@VENDOR.ESCHINA (6 @CURRENCY.MYTHIC_MARK)",
+            "source": "@VENDOR.ESCHINA (6 CURRENCY.HUNT.MYTHIC_MARK)",
             "command_en": "/tremble",
             "command_fr": "/tremble, /tremblerdepeur",
             "patch": "4.2"
@@ -524,7 +524,7 @@
             "name_en": "Winded",
             "name_fr": "Genou à terre",
             "category_en": "@CATEGORY.THE_HUNT",
-            "source": "@VENDOR.ESCHINA (6 CURRENCY.MYTHIC_MARK)",
+            "source": "@VENDOR.ESCHINA (6 CURRENCY.HUNT.MYTHIC_MARK)",
             "command_en": "/winded",
             "command_fr": "/winded, /genouàterre",
             "patch": "4.2"
@@ -673,7 +673,7 @@
             "name_en": "Water",
             "name_fr": "Arroser",
             "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
             "command_en": "/water",
             "command_fr": "/water, /arroser, /arrosoir",
             "patch": "7.1"

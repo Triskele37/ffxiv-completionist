@@ -960,28 +960,19 @@
         },
         "CATEGORY": {
             "ACHIEVEMENT": "Haut fait",
-            "BATTLE": "Combats",
-            "CHARACTER": "Personnage",
             "CRAFTING": "Synthèse",
             "CRAFTING_GATHERING": "Synthèse et récolte",
-            "DAILY": "Quotidienne",
             "DEEP_DUNGEON": "Donjon sans fond",
             "DUNGEON": "Donjon",
-            "DUTY": "Mission",
             "EVENT": "Événement",
-            "EXPLORATION": "Exploration",
             "EXPLORATORY_MISSION": "Mission d'exploration",
             "EXPLORATORY_VOYAGE": "Expédition exploratoire",
             "FATE": "ALÉA",
             "FAUX_HOLLOWS": "Touché-tourné",
             "GATHERING": "Récolte",
             "GOLD_SAUCER": "Gold Saucer",
-            "GRAND_COMPANY": "Grandes compagnies",
             "THE_HUNT": "La Chasse",
             "ISLAND_SANCTUARY": "Félicité insulaire",
-            "ITEMS": "Objets",
-            "LEGACY": "Legacy",
-            "MAIN": "Principale",
             "OTHER": "Autre",
             "PREMIUM": "Premium",
             "PURCHASE": "Achat",
@@ -995,6 +986,14 @@
             "VENTURE": "Servant",
             "SUBAQUATIC_VOYAGE": "Expédition subaquatique",
             "WONDROUS_TAILS": "Carnet de Khloe"
+        },
+        "TITLE": {
+            "BATTLE": "Combats",
+            "CHARACTER": "Personnage",
+            "EXPLORATION": "Exploration",
+            "GRAND_COMPANY": "Grandes compagnies",
+            "ITEMS": "Objets",
+            "LEGACY": "Legacy"
         },
         "EVENT": {
             "HEAVENSTURN": "Fête de la transition",
@@ -1144,10 +1143,7 @@
             "DREAM_PACK": "Pochette Triple Triade onirique"
         },
         "CURRENCY": {
-            "ACHIEVEMENT_CERTIFICATE": "Jetons de haut fait",
-            "ALOALO_COIN": "Pièce d'or de l'île d'Aloalo",
-            "SHISHU_COIN": "Tsûhô de Shishû",
-            "SILDIHN_SILVER": "Pièce d'argent sildienne",
+            "ACHIEVEMENT": "Jetons de haut fait",
             "BOZJAN_CLUSTER": "Critaux bozjiens",
             "CLOUDDARK_DEMIMATERIA_II": "Demi-matéria du vortex obscur",
             "FAUX_LEAF": "Folioles irréelles",
@@ -1157,12 +1153,14 @@
             "MGP": "PGS",
             "AMBER": "Morceau d'ambre à insecte",
             "RATHALOS_SCALE": "Écaille Rathalos",
-            "SACK_OF_NUTS": "Insignes de chasse",
             "TROPHY_CRYSTAL": "Cristaux-trophées",
-            "VETERANS_MARK": "Journal de membre éminent du clan",
-            "MYTHIC_MARK": "Journal de membre émérite du clan",
             "WOLF_MARK": "Marques de loup",
+
             "FATE": {
+                "BICOLOR": "Gemme bicolore",
+                "TURALI_VOUCHER": "Bon de livraison de gemmes bicolores turalien",
+                "VOUCHER": "Bon de livraison de gemmes bicolores",
+
                 "ARCHAEOTANIA": "Cornes d'Archaeotania",
                 "CHI": "Boulons de Khi",
                 "DAIVADIPA": "Orbes sacrées de Daivadipa",
@@ -1171,12 +1169,12 @@
                 "IXION": "Cornes d'Ixion",
                 "ODIN": "Mantes d'Odin"
             },
-            "GEMSTONE": {
-                "BICOLOR": "Gemme bicolore",
-                "TURALI_VOUCHER": "Bon de livraison de gemmes bicolores turalien",
-                "VOUCHER": "Bon de livraison de gemmes bicolores"
-            },
             "HUNT": {
+                "CENTURIO": "Insignes Centurio",
+                "VETERANS_MARK": "Journal de membre éminent du clan",
+                "MYTHIC_MARK": "Journal de membre émérite du clan",
+                "SACK_OF_NUTS": "Insignes de chasse",
+
                 "BURNING_HORN": "Corne ardente",
                 "EXCITING_TONIC": "Ludotonique",
                 "RESPLENDENT_FEATHER": "Plumes resplendissantes"
@@ -1190,23 +1188,27 @@
                 "SILVER": "Certificat de mérite d'argent de Khloe",
                 "GOLD": "Certificat de mérite d'or de Khloe"
             },
-            "POTSHERD": {
-                "ALOALO": "Relique de l'île d'Aloalo",
-                "EMPYREAN": "Tessons de poterie empyréenne",
+            "DD": {
                 "GELMORRAN": "Tessons de poterie gelmorraine",
-                "ROKKON": "Relique du mont Rokkon",
-                "SILDIHN": "Relique sildienne"
+                "EMPYREAN": "Tessons de poterie empyréenne"
+            },
+            "VCD": {
+                "SILDIHN_SILVER": "Pièce d'argent sildienne",
+                "SILDIHN_POTSHERD": "Relique sildienne",
+                "SHISHU_COIN": "Tsûhô de Shishû",
+                "ROKKON_POTSHERD": "Relique du mont Rokkon",
+                "ALOALO_COIN": "Pièce d'or de l'île d'Aloalo",
+                "ALOALO_POTSHERD": "Relique de l'île d'Aloalo"
             },
             "SCRIP": {
-                "PRIMARY_CRAFTERS": "",
-                "PRIMARY_GATHERERS": "",
-                "SECONDARY_CRAFTERS": "",
-                "SECONDARY_GATHERERS": "",
+                "PRIMARY_CRAFTERS": "Assignat orange d'artisan",
+                "PRIMARY_GATHERERS": "Assignat orange de récolteur",
+                "SECONDARY_CRAFTERS": "Assignat mauve d'artisan",
+                "SECONDARY_GATHERERS": "Assignat mauve de récolteur",
                 "SKYBUILDERS": "Assignats d'Azurée"
             },
             "SEAL": {
                 "ALLIED": "Insignes alliés",
-                "CENTURIO": "Insignes Centurio",
                 "COMPANY": "Sceaux de compagnie",
                 "FLAME": "Sceaux de compagnie uldien",
                 "SERPENT": "Sceaux de compagnie gridanien",
