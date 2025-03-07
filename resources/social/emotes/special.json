@@ -66,10 +66,8 @@
         "x118": {
             "name_en": "Thavnairian Dance",
             "name_fr": "Danse thavnairoise",
-            "category_en": "Purchase",
-            "category_fr": "Achat",
-            "source_en": "80,000 MGP",
-            "source_fr": "Vendu par le Préposé aux lots au Gold Saucer pour 80.000 PGS",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@80,000 CURRENCY.MGP",
             "patch": "3.1",
             "command_en": "/thavdance, /tdance",
             "command_fr": "/thavdance, /tdance, /dansethavnairoise, /dthavn"
@@ -77,10 +75,8 @@
         "x119": {
             "name_en": "Gold Dance",
             "name_fr": "Danse de l'or",
-            "category_en": "Purchase",
-            "category_fr": "Achat",
-            "source_en": "80,000 MGP",
-            "source_fr": "Vendu par le Préposé aux lots au Gold Saucer pour 80.000 PGS",
+            "category": "@CATEGORY.GOLD_SAUCER",
+            "source": "@80,000 CURRENCY.MGP",
             "patch": "3.1",
             "command_en": "/golddance, /gdance",
             "command_fr": "/golddance, /gdance, /dansedelor, /ddelor"

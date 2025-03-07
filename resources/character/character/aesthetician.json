@@ -26,7 +26,7 @@
         "x66": {
             "name_en": "Modern Aesthetics - Early to Rise",
             "name_fr": "Méthode de coiffure “Lêve-tôt”",
-            "category": "@CATEGORY.DUTY",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source": "duty.exploratory-missions.bozja.duties.1",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "5.45"
@@ -43,14 +43,14 @@
         "x72": {
             "name_en": "Modern Aesthetics - Controlled Chaos",
             "name_fr": "Méthode de coiffure “Coupe asymétrique”",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
             "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
             "patch": "5.21"
         },
         "x79": {
             "name_en": "Modern Aesthetics - Modern Legend",
             "name_fr": "Méthode de coiffure “Mèches légendaires”",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
             "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "5.11"
@@ -83,8 +83,7 @@
             "name_en": "Modern Aesthetics - Lucian Locks",
             "name_fr": "Méthode de coiffure “Noctis”",
             "category": "@CATEGORY.EVENT",
-            "source_en": "Final Fantasy XV Collaboration",
-            "source_fr": "Quête en collaboration avec Final Fantasy XV",
+            "source": "@EVENT.XV_COLLAB",
             "lockedFor": "@CHARA.VIERA, CHARA.HROTHGAR",
             "defaultCompletion": "X",
             "patch": "4.56"
@@ -93,8 +92,7 @@
             "name_en": "Modern Cosmetics - Clowning Around",
             "name_fr": "Méthode de maquillage : clown",
             "category": "@CATEGORY.EVENT",
-            "source_en": "All Saint's Wake (2022)",
-            "source_fr": "Veillée des saints (2022)",
+            "source": "@EVENT.ALL_SAINTS_WAKE (2022)",
             "defaultCompletion": "X",
             "patch": "6.0"
         },
@@ -108,7 +106,7 @@
         "x267": {
             "name_en": "Modern Aesthetics - Gyr Abanian Plait",
             "name_fr": "Méthode de coiffure “Tresse gyrabanienne”",
-            "category": "@CATEGORY.DUTY",
+            "category": "@CATEGORY.DEEP_DUNGEON",
             "source": "d.540",
             "lockedFor": "@CHARA.HROTHGAR",
             "patch": "4.35"
@@ -116,7 +114,7 @@
         "x268": {
             "name_en": "Modern Aesthetics - Fashionably Feathered",
             "name_fr": "Méthode de coiffure “Brushing souple”",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PVP",
             "source": "@18,000 CURRENCY.WOLF_MARK",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "4.3"
@@ -124,7 +122,7 @@
         "x280": {
             "name_en": "Modern Aesthetics - Saintly Style",
             "name_fr": "Méthode de coiffure “Ailes de saint”",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
             "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "5.31"
@@ -132,7 +130,7 @@
         "x281": {
             "name_en": "Modern Aesthetics - Wind Caller",
             "name_fr": "Méthode de coiffure “Vartan”",
-            "category": "@CATEGORY.DUTY",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source": "@150 CURRENCY.BOZJAN_CLUSTER",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "5.35"
@@ -165,7 +163,7 @@
         "x302": {
             "name_en": "Modern Aesthetics - Samsonian Locks",
             "name_fr": "Méthode de coiffure “Cheveux longs”",
-            "category": "@CATEGORY.DUTY",
+            "category": "@CATEGORY.DEEP_DUNGEON",
             "source": "d.174",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "3.4"
@@ -216,16 +214,15 @@
         "x397": {
             "name_en": "Modern Aesthetics - Form and Function",
             "name_fr": "Méthode de coiffure “Tresse bandeau”",
-            "category": "@CATEGORY.DUTY",
-            "source_en": "Happy Bunny Lockbox - Eureka Pyros",
-            "source_fr": "Eurêka Pyros",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "source": "@SOURCE.LOCKBOX.PYROS_BUNNY",
             "lockedFor": "@CHARA.HROTHGAR",
             "patch": "4.45"
         },
         "x398": {
             "name_en": "Modern Aesthetics - Styled for Hire",
             "name_fr": "Méthode de coiffure “Mercenaire”",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PVP",
             "source": "@18,000 CURRENCY.WOLF_MARK",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "4.4"
@@ -251,23 +248,22 @@
         "x419": {
             "name_en": "Modern Aesthetics - Both Ways",
             "name_fr": "Méthode de coiffure “Queue-de-cheval sur le côté”",
-            "category": "@CATEGORY.DUTY",
-            "source_en": "Zadnor Lockbox",
-            "source_fr": "Coffre verrouillé des Hauts plateaux de Zadnor",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "source": "@SOURCE.LOCKBOX.ZADNOR",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "5.55"
         },
         "x420": {
             "name_en": "Modern Aesthetics - Battle-ready Bobs",
             "name_fr": "Méthode de coiffure “2B”",
-            "category": "@CATEGORY.DUTY",
-            "source_en": "d.779",
+            "category": "@CATEGORY.RAID",
+            "source": "d.779",
             "patch": "5.5"
         },
         "x421": {
             "name_en": "Modern Aesthetics - Scanning for Style",
             "name_fr": "Méthode de coiffure “9S”",
-            "category": "@CATEGORY.DUTY",
+            "category": "@CATEGORY.RAID",
             "source": "d.779",
             "patch": "5.5"
         },
@@ -283,7 +279,7 @@
         "x441": {
             "name_en": "Modern Aesthetics - Tall Tails",
             "name_fr": "Méthode de coiffure “Queue de cheval haute”",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
             "source": "@6,000 CURRENCY.ISLAND.SEAFARERS",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "6.28"
@@ -291,7 +287,7 @@
         "x442": {
             "name_en": "Modern Aesthetics - Practical Ponytails",
             "name_fr": "Méthode de coiffure “Queue de cheval sommaire”",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
             "source": "@6,000 CURRENCY.ISLAND.SEAFARERS",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "6.28"
@@ -308,7 +304,7 @@
         "x448": {
             "name_en": "Modern Aesthetics - A Close Shave",
             "name_fr": "Méthode de coiffure “Coupe à ras”",
-            "category": "@CATEGORY.DUTY",
+            "category": "@CATEGORY.DEEP_DUNGEON",
             "source": "d.897",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "6.35"
@@ -316,7 +312,7 @@
         "x460": {
             "name_en": "Modern Aesthetics - Ambitious Ends",
             "name_fr": "Méthode de coiffure “Coupe mi-longue négligée”",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.VC_DUNGEON",
             "source": "@6 CURRENCY.POTSHERD.ROKKON",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "6.45"
@@ -324,7 +320,7 @@
         "x476": {
             "name_en": "Modern Aesthetics - The Bold and the Braid",
             "name_fr": "Méthode de coiffure “Tresses collées sur le côté”",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.VC_DUNGEON",
             "source": "@6 CURRENCY.POTSHERD.ALOALO",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "6.51"
@@ -346,7 +342,7 @@
         "x486": {
             "name_en": "Modern Aesthetics - A Half Times Two",
             "name_fr": "Méthode de coiffure “Coupe demi-couettes”",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.RAID",
             "source": "@VENDOR.UAHSHEPYA (49 CURRENCY.CLOUDDARK_DEMIMATERIA_II)",
             "patch": "7.15"
         },

@@ -186,7 +186,7 @@
             "name_en": "Wide-eyed Fawn",
             "name_fr": "Faon Aux Yeux De Biche",
             "category": "@CATEGORY.PURCHASE",
-            "source_en": "@VENDOR.AURIANA (3 CURRENCY.TOMESTONE.POETIC)",
+            "source": "@VENDOR.AURIANA (3 CURRENCY.TOMESTONE.POETIC)",
             "patch": "2.1"
         },
         "x18": {
@@ -741,7 +741,7 @@
             "name_en": "Wind-up Ixion",
             "name_fr": "Petit Ixion",
             "category": "@CATEGORY.FATE",
-            "source_en": "@VENDOR.ESCHINA (5 CURRENCY.FATE.IXION)",
+            "source": "@VENDOR.ESCHINA (5 CURRENCY.FATE.IXION)",
             "patch": "4.1"
         },
         "x285": {
@@ -3422,7 +3422,7 @@
             "name_en": "Goggle-eyed Dogu",
             "name_fr": "Dogû Globuleux",
             "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
-            "source_en": ["@VOYAGE.LILAC_SEA 2", "@VOYAGE.WINGSREACH"],
+            "source": ["@VOYAGE.LILAC_SEA 2", "@VOYAGE.WINGSREACH"],
             "patch": "6.4"
         },
         "x495": {

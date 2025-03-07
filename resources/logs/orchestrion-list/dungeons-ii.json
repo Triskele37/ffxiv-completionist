@@ -215,9 +215,8 @@
             "number": "27",
             "name_en": "Desert Sun",
             "name_fr": "Desert Sun",
-            "category": "@CATEGORY.PURCHASE",
-            "source_en": "Trisassant - 8 Sil'dihn Silver",
-            "source_fr": "Trisassant - 8 Pièce d'argent sildienne",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "@VENDOR.TRISASSANT (8 CURRENCY.SILDIHN_SILVER)",
             "location": "@PLACE.OLD_SHARLAYAN",
             "patch": "6.25"
         },
@@ -249,9 +248,8 @@
             "number": "31",
             "name_en": "Crimson Rise",
             "name_fr": "Crimson Rise",
-            "category": "@CATEGORY.PURCHASE",
-            "source_en": "Trisassant - 8 Shishu Coin",
-            "source_fr": "Trisassant - 8 Tsûhô de Shishû",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "@VENDOR.TRISASSANT (8 CURRENCY.SHISHU_COIN)",
             "location": "@PLACE.OLD_SHARLAYAN",
             "patch": "6.4"
         },
@@ -267,9 +265,8 @@
             "number": "33",
             "name_en": "O Speaker, Slumber",
             "name_fr": "O Speaker, Slumber",
-            "category": "@CATEGORY.PURCHASE",
-            "source_en": "9 Aloalo Potsherd",
-            "source_fr": "9 Relique de l'île d'Aloalo",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "@VENDOR.TRISASSANT (9 CURRENCY.POTSHERD.ALOALO)",
             "location": "@PLACE.OLD_SHARLAYAN",
             "patch": "6.51"
         },
@@ -277,9 +274,8 @@
             "number": "34",
             "name_en": "O Hunter, Rejoice",
             "name_fr": "O Hunter, Rejoice",
-            "category": "@CATEGORY.PURCHASE",
-            "source_en": "8 Aloalo Coin",
-            "source_fr": "8 Pièce d'or de l'île d'Aloalo",
+            "category": "@CATEGORY.VC_DUNGEON",
+            "source": "@VENDOR.TRISASSANT (8 CURRENCY.ALOALO_COIN)",
             "location": "@PLACE.OLD_SHARLAYAN",
             "patch": "6.51"
         }

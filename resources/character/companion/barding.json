@@ -130,44 +130,42 @@
         "x19": {
             "name_en": "Black Mage Barding",
             "name_fr": "Barde de mage noir",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS - (3 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "2.0"
         },
         "x61": {
             "name_en": "Red Mage Barding",
             "name_fr": "Barde de mage rouge",
-            "category": "@CATEGORY.DUTY",
-            "source_en": "Anemos Lockbox",
-            "source_fr": "Coffre verrouillé d'Anemos",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "source": "@SOURCE.LOCKBOX.ANEMOS",
             "patch": "4.25"
         },
         "x66": {
             "name_en": "Samurai Barding",
             "name_fr": "Barde de samouraï",
-            "category": "@CATEGORY.DUTY",
-            "source_en": "Heat-warped Lockbox - Eureka Pyros",
-            "source_fr": "Coffre roussi - Eurêka Pyros",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "source": "@SOURCE.LOCKBOX.HEAT_WARPED",
             "patch": "4.45"
         },
         "x71": {
             "name_en": "Dancer Barding",
             "name_fr": "Barde de danseur",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.EULMORE (350 CURRENCY.GEMSTONE.BICOLOR)",
             "patch": "5.0"
         },
         "x76": {
             "name_en": "Machinist Barding",
             "name_fr": "Barde de machiniste",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
             "source": "@1,200 CURRENCY.SCRIP.SKYBUILDERS",
             "patch": "5.21"
         },
         "x23": {
             "name_en": "Barding of Light",
             "name_fr": "Barde de la Lumière",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (3 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "2.2"
         },
@@ -181,28 +179,28 @@
         "x39": {
             "name_en": "Wild Rose Barding",
             "name_fr": "Barde de la rose sauvage",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (3 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "3.07"
         },
         "x18": {
             "name_en": "Flyer Shaffron",
             "name_fr": "Chanfrein d'aviateur",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (3 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "3.0"
         },
         "x20": {
             "name_en": "Sovereign Barding",
             "name_fr": "Chanfrein du roi chocobo",
-            "category": "@CATEGORY.CHARACTER",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.861",
             "patch": "2.1"
         },
         "x26": {
             "name_en": "Plumed Barding",
             "name_fr": "Chanfrein à panache",
-            "category": "@CATEGORY.CHARACTER",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.1020",
             "patch": "2.3"
         },
@@ -216,7 +214,7 @@
         "x32": {
             "name_en": "Ishgardian Barding",
             "name_fr": "Barde ishgardaise",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.THE_HUNT",
             "source": "@350 CURRENCY.SEAL.CENTURIO",
             "patch": "3.0"
         },
@@ -232,14 +230,14 @@
         "x37": {
             "name_en": "Orthodox Barding",
             "name_fr": "Barde orthodoxe",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "CLASS_JOB.WVR",
             "patch": "3.0"
         },
         "x38": {
             "name_en": "Highland Barding",
             "name_fr": "Barde des Hautes terres",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "CLASS_JOB.LTW",
             "patch": "3.0"
         },
@@ -247,15 +245,14 @@
             "name_en": "Far Eastern Barding",
             "name_fr": "Barde orientale",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "source": "@SOURCE.MOG_STATION",
             "patch": "2.0",
             "defaultCompletion": "X"
         },
         "x44": {
             "name_en": "Race Barding",
             "name_fr": "Barde de course",
-            "category": "@CATEGORY.CHARACTER",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.1512",
             "patch": "3.25"
         },
@@ -263,15 +260,14 @@
             "name_en": "Butlery Barding",
             "name_fr": "Barde de majordome",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "source": "@SOURCE.MOG_STATION",
             "patch": "2.0",
             "defaultCompletion": "X"
         },
         "x48": {
             "name_en": "Abigail Barding",
             "name_fr": "Barde de servante",
-            "category": "@CATEGORY.DUTY",
+            "category": "@CATEGORY.DEEP_DUNGEON",
             "source": "d.174",
             "patch": "3.4"
         },
@@ -286,8 +282,7 @@
             "name_en": "Angelic Barding",
             "name_fr": "Barde angélique",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "source": "@SOURCE.MOG_STATION",
             "patch": "3.5",
             "defaultCompletion": "X"
         },
@@ -295,8 +290,7 @@
             "name_en": "Demonic Barding",
             "name_fr": "Barde démoniaque",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "source": "@SOURCE.MOG_STATION",
             "patch": "3.5",
             "defaultCompletion": "X"
         },
@@ -310,7 +304,7 @@
         "x56": {
             "name_en": "Hingan Barding",
             "name_fr": "Barde chocobo hingashienne",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.THE_HUNT",
             "source": "@VENDOR.ESCHINA (4 CURRENCY.VETERANS_MARK)",
             "patch": "4.0"
         },
@@ -318,8 +312,8 @@
             "name_en": "Oriental Barding",
             "name_fr": "Barde mog hingashienne",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store (China)",
-            "source_fr": "Boutique en ligne Final Fantasy XIV (Chine)",
+            "source_en": "@SOURCE.MOG_STATION (China)",
+            "source_fr": "@SOURCE.MOG_STATION (Chine)",
             "patch": "4.0",
             "defaultCompletion": "X"
         },
@@ -327,51 +321,49 @@
             "name_en": "Nezha Barding",
             "name_fr": "Barde de Nezha",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "source": "@SOURCE.MOG_STATION",
             "patch": "4.2",
             "defaultCompletion": "X"
         },
         "x63": {
             "name_en": "Chocobo Raincoat",
             "name_fr": "Barde imperméable",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.GATHERING",
             "source": "@800 CURRENCY.SECONDARY_GATHERERS_SCRIPS",
             "patch": "4.2"
         },
         "x72": {
             "name_en": "Deepshadow Barding",
             "name_fr": "Barde de la Pleine-ombre",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.LAKELAND (350 CURRENCY.GEMSTONE.BICOLOR)",
             "patch": "5.0"
         },
         "x85": {
             "name_en": "Thavnairian Barding",
             "name_fr": "Barde thavnairoise",
-            "category": "@CATEGORY.PURCHASE",
-            "source_en": "@VENDOR.NESVAAZ (3 Daivadipa's Bead)",
-            "source_fr": "@VENDOR.NESVAAZ (3 Orbes sacrés de Daivadipa)",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.NESVAAZ (3 CURRENCY.FATE.DAIVADIPA)",
             "patch": "6.0"
         },
         "x87": {
             "name_en": "Wolf Barding",
             "name_fr": "Barde de loup",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PVP",
             "source": "@1,000 CURRENCY.TROPHY_CRYSTAL",
             "patch": "6.1"
         },
         "x89": {
             "name_en": "Isle Pioneer's Barding",
             "name_fr": "Barde de pionnier insulaire",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
             "source": "@4,000 CURRENCY.ISLAND.SEAFARERS",
             "patch": "6.2"
         },
         "x91": {
             "name_en": "Allagan Barding",
             "name_fr": "Barde allagoise",
-            "category": "@CATEGORY.DUTY",
+            "category": "@CATEGORY.DEEP_DUNGEON",
             "source": "d.897",
             "patch": "6.35"
         },
@@ -379,8 +371,7 @@
             "name_en": "Starlight Barding",
             "name_fr": "Barde de la fête des étoiles",
             "category": "@CATEGORY.EVENT",
-            "source_en": "Starlight Celebration (2013)",
-            "source_fr": "La fête des étoiles (2013)",
+            "source": "@EVENT.STARLIGHT_CELEBRATION (2013)",
             "patch": "2.1",
             "defaultCompletion": "X"
         },
@@ -388,8 +379,7 @@
             "name_en": "Egg Barding",
             "name_fr": "Chanfrein ovoïde",
             "category": "@CATEGORY.EVENT",
-            "source_en": "Hatching-tide (2014)",
-            "source_fr": "La Chasse aux Prœufs (2014)",
+            "source": "@EVENT.HATCHINGTIDE (2014)",
             "patch": "2.2",
             "defaultCompletion": "X"
         },
@@ -397,8 +387,7 @@
             "name_en": "Eerie Barding",
             "name_fr": "Barde d'effroi",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "source": "@SOURCE.MOG_STATION",
             "patch": "2.38",
             "defaultCompletion": "X"
         },
@@ -406,8 +395,7 @@
             "name_en": "Paramour Barding",
             "name_fr": "Barde de soupirant",
             "category": "@CATEGORY.EVENT",
-            "source_en": "Valentione's Day (2015)",
-            "source_fr": "La Valention (2015)",
+            "source": "@EVENT.VALENTIONES_DAY (2015)",
             "patch": "2.5",
             "defaultCompletion": "X"
         },
@@ -415,8 +403,7 @@
             "name_en": "Egg Hunter Barding",
             "name_fr": "Barde de chasseur de Prœufs",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Final Fantasy XIV Online Store",
-            "source_fr": "Boutique en ligne Final Fantasy XIV",
+            "source": "@SOURCE.MOG_STATION",
             "patch": "3.2",
             "defaultCompletion": "X"
         },
@@ -424,8 +411,7 @@
             "name_en": "Saintly Barding",
             "name_fr": "Barde sainte",
             "category": "@CATEGORY.EVENT",
-            "source_en": "Starlight Festival (2019)",
-            "source_fr": "La fête des étoiles (2019)",
+            "source": "@EVENT.STARLIGHT_CELEBRATION (2019)",
             "patch": "5.1",
             "defaultCompletion": "X"
         },
@@ -433,50 +419,49 @@
             "name_en": "Postmoogle Barding",
             "name_fr": "Barde de postier",
             "category": "@CATEGORY.EVENT",
-            "source_en": "Valentione's Day (2022)",
-            "source_fr": "La Valention (2022)",
+            "source": "@EVENT.VALENTIONES_DAY (2022)",
             "patch": "6.0",
             "defaultCompletion": "X"
         },
         "x22": {
             "name_en": "Tidal Barding",
             "name_fr": "Barde de Léviathan",
-            "category": "@CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": ["d.540", "CLASS_JOB.ARM"],
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.ARM)", "d.540"],
             "patch": "2.2"
         },
         "x25": {
             "name_en": "Levin Barding",
             "name_fr": "Barde de Ramuh",
-            "category": "@CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": ["d.540", "CLASS_JOB.LTW"],
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.LTW)", "d.540"],
             "patch": "2.3"
         },
         "x28": {
             "name_en": "Ice Barding",
             "name_fr": "Barde de Shiva",
-            "category": "@CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": ["d.540", "CLASS_JOB.LTW"],
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.LTW)", "d.540"],
             "patch": "2.4"
         },
         "x34": {
             "name_en": "Expanse Barding",
             "name_fr": "Barde de Bismarck",
-            "category": "@CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": ["d.540", "CLASS_JOB.ARM"],
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.ARM)", "d.540"],
             "patch": "3.0"
         },
         "x35": {
             "name_en": "Hive Barding",
             "name_fr": "Barde de Ravana",
-            "category": "@CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": ["d.540", "CLASS_JOB.ARM"],
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.ARM)", "d.540"],
             "patch": "3.0"
         },
         "x40": {
             "name_en": "Round Table Barding",
             "name_fr": "Barde de la Table ronde",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.TRIAL",
             "source_en": "@VENDOR.BERTANA (15 Heavens' Ward Helm Fragments)",
             "source_fr": "@VENDOR.BERTANA (15 Fragments de casque de l'Azur)",
             "patch": "3.1"
@@ -484,119 +469,119 @@
         "x41": {
             "name_en": "Sephirotic Barding",
             "name_fr": "Barde de Sephirot",
-            "category": "@CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": ["d.540", "CLASS_JOB.LTW"],
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.LTW)", "d.540"],
             "patch": "3.2"
         },
         "x45": {
             "name_en": "Horde Barding",
             "name_fr": "Barde de Nidhogg",
-            "category": "@CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": ["d.540", "CLASS_JOB.LTW"],
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.LTW)", "d.540"],
             "patch": "3.3"
         },
         "x47": {
             "name_en": "Sophic Barding",
             "name_fr": "Barde de Sophia",
-            "category": "@CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": ["d.540", "CLASS_JOB.GSM"],
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.GSM)", "d.540"],
             "patch": "3.4"
         },
         "x52": {
             "name_en": "Zurvanite Barding",
             "name_fr": "Barde de Zurvan",
-            "category": "@CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": ["d.540", "CLASS_JOB.ARM"],
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.ARM)", "d.540"],
             "patch": "3.5"
         },
         "x53": {
             "name_en": "Reveler's Barding",
             "name_fr": "Barde de Susano",
-            "category": "@CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": ["d.540", "CLASS_JOB.ARM"],
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.ARM)", "d.540"],
             "patch": "4.0"
         },
         "x55": {
             "name_en": "Blissful Barding",
             "name_fr": "Barde de Lakshmi",
-            "category": "@CATEGORY.CRAFTING_GATHERING / CATEGORY.DUTY",
-            "source": ["d.540", "CLASS_JOB.GSM"],
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["@SOURCE.CRAFTED (CLASS_JOB.GSM)", "d.540"],
             "patch": "4.0"
         },
         "x59": {
             "name_en": "Shinryu Barding",
             "name_fr": "Barde de Shinryu",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "CLASS_JOB.ARM",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
             "patch": "4.1"
         },
         "x62": {
             "name_en": "Byakko Barding",
             "name_fr": "Barde de Byakko",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "CLASS_JOB.GSM",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@SOURCE.CRAFTED (CLASS_JOB.GSM)",
             "patch": "4.2"
         },
         "x64": {
             "name_en": "Lunar Barding",
             "name_fr": "Barde de Tsukuyomi",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "CLASS_JOB.WVR",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
             "patch": "4.3"
         },
         "x65": {
             "name_en": "Suzaku Barding",
             "name_fr": "Barde de Suzaku",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "CLASS_JOB.ARM",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
             "patch": "4.4"
         },
         "x67": {
             "name_en": "Seiryu Barding",
             "name_fr": "Barde de Seiryû",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "CLASS_JOB.ARM",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
             "patch": "4.45"
         },
         "x69": {
             "name_en": "Titania Barding",
             "name_fr": "Barde de Titania",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "CLASS_JOB.ARM",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
             "patch": "5.0"
         },
         "x70": {
             "name_en": "Innocence Barding",
             "name_fr": "Barde d'Innocence",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "CLASS_JOB.ARM",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
             "patch": "5.0"
         },
         "x73": {
             "name_en": "Hades Barding",
             "name_fr": "Barde d'Hadès",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "CLASS_JOB.ARM",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
             "patch": "5.1"
         },
         "x75": {
             "name_en": "Ruby Barding",
             "name_fr": "Barde Rubinus",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "CLASS_JOB.ARM",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
             "patch": "5.2"
         },
         "x77": {
             "name_en": "True Barding of Light",
             "name_fr": "Barde de la Lumière véritable",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "CLASS_JOB.ARM",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
             "patch": "5.3"
         },
         "x93": {
             "name_en": "Felicitous Barding",
             "name_fr": "Barde de Chamoiselle",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
             "source": "@4,000 CURRENCY.ISLAND.SEAFARERS",
             "patch": "6.4"
         },
@@ -610,103 +595,99 @@
         "x78": {
             "name_en": "Emerald Barding",
             "name_fr": "Barde Smaragdus",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "CLASS_JOB.ARM",
             "patch": "5.4"
         },
         "x79": {
             "name_en": "Queen's Guard Barding",
             "name_fr": "Barde-la-Reine",
-            "category": "@CATEGORY.DUTY",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source": "duty.exploratory-missions.bozja.duties.1",
             "patch": "5.45"
         },
         "x81": {
             "name_en": "Diamond Barding",
             "name_fr": "Barde Adamas",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "CLASS_JOB.ARM",
             "patch": "5.5"
         },
         "x80": {
             "name_en": "Bozjan Barding",
             "name_fr": "Barde bozjienne",
-            "category": "@CATEGORY.DUTY",
-            "source_en": "Zadnor Lockbox",
-            "source_fr": "Coffre verrouillé des Hauts plateaux de Zadnor",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
+            "source": "@SOURCE.LOCKBOX.ZADNOR",
             "patch": "5.55"
         },
         "x82": {
             "name_en": "Barding of Eternal Darkness",
             "name_fr": "Barde des Ténèbres éternelles",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "CLASS_JOB.ARM",
             "patch": "6.0"
         },
         "x83": {
             "name_en": "Barding of Divine Light",
             "name_fr": "Barde de la Lumière divine",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "CLASS_JOB.ARM",
             "patch": "6.0"
         },
         "x86": {
             "name_en": "Bluefeather Barding",
             "name_fr": "Barde à Plumes Bleues",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "CLASS_JOB.ARM",
             "patch": "6.1"
         },
         "x88": {
             "name_en": "Windswept Barding",
             "name_fr": "Barde de Barbariccia",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "CLASS_JOB.LTW",
             "patch": "6.2"
         },
         "x90": {
             "name_en": "Flamecloaked Barding",
             "name_fr": "Barde de Rubicante",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "CLASS_JOB.WVR",
             "patch": "6.3"
         },
         "x92": {
             "name_en": "Voidcast Barding",
             "name_fr": "Barde de Golbez",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "CLASS_JOB.ARM",
             "patch": "6.4"
         },
         "x16": {
             "name_en": "Sleipnir Barding",
             "name_fr": "Barde de Sleipnir",
-            "category": "@CATEGORY.PURCHASE",
-            "source_en": "@VENDOR.AELINA (5 Odin's Mantles)",
-            "source_fr": "@VENDOR.AELINA (5 Mantes d'Odin)",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.AELINA (5 CURRENCY.FATE.ODIN)",
             "patch": "2.0"
         },
         "x17": {
             "name_en": "Behemoth Barding",
             "name_fr": "Barde de béhémoth",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "A Realm Reborn Collector's Edition",
-            "source_fr": "A Realm Reborn Édition Collector",
+            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.ARR)",
             "patch": "2.0",
             "defaultCompletion": "X"
         },
         "x60": {
             "name_en": "Ixion Barding",
             "name_fr": "Barde d'Ixion",
-            "category": "@CATEGORY.PURCHASE",
-            "source_en": "@VENDOR.ESCHINA (5 Ixion Horns)",
-            "source_fr": "@VENDOR.ESCHINA (5 Cornes d'Ixion)",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.ESCHINA (5 CURRENCY.FATE.IXION)",
             "patch": "4.1"
         },
         "x68": {
             "name_en": "Yojimbo Barding",
             "name_fr": "Barde de Yojimbo",
-            "category": "@CATEGORY.DUTY",
+            "category": "@CATEGORY.TRIAL",
             "source": "d.595",
             "patch": "4.5"
         }
