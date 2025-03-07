@@ -155,7 +155,7 @@
             "number": "25",
             "name_en": "Nemesis",
             "name_fr": "Nemesis",
-            "category": "@CATEGORY.VOYAGE",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
             "source": "@VOYAGE.MOERGYNNS_FORGE",
             "patch": "5.4"
         },
@@ -172,8 +172,7 @@
             "name_en": "My Soul to Keep",
             "name_fr": "My Soul to Keep",
             "category": "@CATEGORY.PURCHASE",
-            "source_en": "Jonathas - 2 Achievement Certificate",
-            "source_fr": "Jonathas - 2 Jeton de hauts faits",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "location": "@PLACE.OLD_GRIDANIA",
             "patch": "6.4"
         },

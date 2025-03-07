@@ -36,7 +36,7 @@
             "name_en": "Storm Private Second Class",
             "name_fr": "Soldat 2e classe",
             "grandCompany": "@SOCIETY.MAELSTROM",
-            "requirement": "@2,000 CURRENCY.STORM_SEAL",
+            "requirement": "@2,000 CURRENCY.SEAL.STORM",
             "entitlements_en": "15,000 Seal Cap",
             "entitlements_fr": "15.000 Sceaux de compagnie limséen maximum",
             "cPrev": [0],
@@ -46,7 +46,7 @@
             "name_en": "Storm Private First Class",
             "name_fr": "Soldat 1re classe",
             "grandCompany": "@SOCIETY.MAELSTROM",
-            "requirement": "@3,000 CURRENCY.STORM_SEAL",
+            "requirement": "@3,000 CURRENCY.SEAL.STORM",
             "entitlements_en": "20,000 Seal Cap",
             "entitlements_fr": "20.000 Sceaux de compagnie limséen maximum",
             "cPrev": [1],
@@ -56,7 +56,7 @@
             "name_en": "Storm Corporal",
             "name_fr": "Caporal(e)",
             "grandCompany": "@SOCIETY.MAELSTROM",
-            "requirement": "@4,000 CURRENCY.STORM_SEAL",
+            "requirement": "@4,000 CURRENCY.SEAL.STORM",
             "entitlements_en": "25,000 Seal Cap",
             "entitlements_fr": "25.000 Sceaux de compagnie limséen maximum",
             "cPrev": [2],
@@ -68,11 +68,11 @@
             "grandCompany": "@SOCIETY.MAELSTROM",
             "requirement_en": [
                 "logs.hunting-log.maelstrom to Rank 1",
-                "@5,000 CURRENCY.STORM_SEAL"
+                "@5,000 CURRENCY.SEAL.STORM"
             ],
             "requirement_fr": [
                 "logs.hunting-log.maelstrom pour le Rang 1",
-                "@5.000 CURRENCY.STORM_SEAL"
+                "@5.000 CURRENCY.SEAL.STORM"
             ],
             "entitlements_en": ["30,000 Seal Cap", "Level 30 GC Leves", "Whitebrim GC Leves"],
             "entitlements_fr": [
@@ -87,7 +87,7 @@
             "name_en": "Storm Sergeant Second Class",
             "name_fr": "Sergent(e)",
             "grandCompany": "@SOCIETY.MAELSTROM",
-            "requirement": "@6,000 CURRENCY.STORM_SEAL",
+            "requirement": "@6,000 CURRENCY.SEAL.STORM",
             "entitlements_en": ["35,000 Seal Cap", "Expert Deliveries"],
             "entitlements_fr": ["35.000 Sceaux de compagnie limséen maximum ", "Prises de guerre"],
             "cPrev": [4],
@@ -97,7 +97,7 @@
             "name_en": "Storm Sergeant First Class",
             "name_fr": "Sergent-major",
             "grandCompany": "@SOCIETY.MAELSTROM",
-            "requirement": "@7,000 CURRENCY.STORM_SEAL",
+            "requirement": "@7,000 CURRENCY.SEAL.STORM",
             "entitlements_en": "40,000 Seal Cap",
             "entitlements_fr": "40.000 Sceaux de compagnie limséen maximum",
             "cPrev": [5],
@@ -107,7 +107,7 @@
             "name_en": "Chief Storm Sergeant",
             "name_fr": "Major",
             "grandCompany": "@SOCIETY.MAELSTROM",
-            "requirement": ["q.66664", "@8,000 CURRENCY.STORM_SEAL"],
+            "requirement": ["q.66664", "@8,000 CURRENCY.SEAL.STORM"],
             "entitlements_en": ["45,000 Seal Cap", "Mor Dhona GC Leves"],
             "entitlements_fr": ["45.000 Sceaux de compagnie limséen maximum", "Mandats de Grande Compagnie au Mor Dhona"],
             "cPrev": [6],
@@ -120,12 +120,12 @@
             "requirement_en": [
                 "q.66667",
                 "logs.hunting-log.maelstrom to Rank 2",
-                "@9,000 CURRENCY.STORM_SEAL"
+                "@9,000 CURRENCY.SEAL.STORM"
             ],
             "requirement_fr": [
                 "q.66667",
                 "logs.hunting-log.maelstrom pour le Rang 2",
-                "@9.000 CURRENCY.STORM_SEAL"
+                "@9.000 CURRENCY.SEAL.STORM"
             ],
             "entitlements_en": ["50,000 Seal Cap", "Adventurer Squadrons"],
             "entitlements_fr": ["50.000 Sceaux de compagnie limséen maximum", "Escouade de Grande Compagnie"],
@@ -172,7 +172,7 @@
             "name_en": "Serpent Private Second Class",
             "name_fr": "Soldat 2e classe",
             "grandCompany": "@SOCIETY.ADDER",
-            "requirement": "@2,000 CURRENCY.SERPENT_SEAL",
+            "requirement": "@2,000 CURRENCY.SEAL.SERPENT",
             "entitlements_en": "15,000 Seal Cap",
             "entitlements_fr": "15.000 Sceaux de compagnie gridanien maximum",
             "cPrev": [11],
@@ -182,7 +182,7 @@
             "name_en": "Serpent Private First Class",
             "name_fr": "Soldat 1re classe",
             "grandCompany": "@SOCIETY.ADDER",
-            "requirement": "@3,000 CURRENCY.SERPENT_SEAL",
+            "requirement": "@3,000 CURRENCY.SEAL.SERPENT",
             "entitlements_en": "20,000 Seal Cap",
             "entitlements_fr": "20.000 Sceaux de compagnie gridanien maximum",
             "cPrev": [12],
@@ -192,7 +192,7 @@
             "name_en": "Serpent Corporal",
             "name_fr": "Caporal(e)",
             "grandCompany": "@SOCIETY.ADDER",
-            "requirement": "@4,000 CURRENCY.SERPENT_SEAL",
+            "requirement": "@4,000 CURRENCY.SEAL.SERPENT",
             "entitlements_en": "25,000 Seal Cap",
             "entitlements_fr": "25.000 Sceaux de compagnie gridanien maximum",
             "cPrev": [13],
@@ -204,11 +204,11 @@
             "grandCompany": "@SOCIETY.ADDER",
             "requirement_en": [
                 "logs.hunting-log.order-of-the-twin-adder to Rank 1",
-                "@5,000 CURRENCY.SERPENT_SEAL"
+                "@5,000 CURRENCY.SEAL.SERPENT"
             ],
             "requirement_fr": [
                 "logs.hunting-log.order-of-the-twin-adder pour le Rang 1",
-                "@5.000 CURRENCY.SERPENT_SEAL"
+                "@5.000 CURRENCY.SEAL.SERPENT"
             ],
             "entitlements_en": ["30,000 Seal Cap", "Level 30 GC Leves", "Whitebrim GC Leves"],
             "entitlements_fr": [
@@ -223,7 +223,7 @@
             "name_en": "Serpent Sergeant Second Class",
             "name_fr": "Sergent(e)",
             "grandCompany": "@SOCIETY.ADDER",
-            "requirement": "@6,000 CURRENCY.SERPENT_SEAL",
+            "requirement": "@6,000 CURRENCY.SEAL.SERPENT",
             "entitlements_en": ["35,000 Seal Cap", "Expert Deliveries"],
             "entitlements_fr": ["35.000 Sceaux de compagnie gridanien maximum", "Prises de guerre"],
             "cPrev": [15],
@@ -233,7 +233,7 @@
             "name_en": "Serpent Sergeant First Class",
             "name_fr": "Sergent-major",
             "grandCompany": "@SOCIETY.ADDER",
-            "requirement": "@7,000 CURRENCY.SERPENT_SEAL",
+            "requirement": "@7,000 CURRENCY.SEAL.SERPENT",
             "entitlements_en": "40,000 Seal Cap",
             "entitlements_fr": "40.000 Sceaux de compagnie gridanien maximum",
             "cPrev": [16],
@@ -243,7 +243,7 @@
             "name_en": "Chief Serpent Sergeant",
             "name_fr": "Major",
             "grandCompany": "@SOCIETY.ADDER",
-            "requirement": ["q.66665", "@8,000 CURRENCY.SERPENT_SEAL"],
+            "requirement": ["q.66665", "@8,000 CURRENCY.SEAL.SERPENT"],
             "entitlements_en": ["45,000 Seal Cap", "Mor Dhona GC Leves"],
             "entitlements_fr": ["45.000 Sceaux de compagnie gridanien maximum", "Mandats de Grande Compagnie au Mor Dhona"],
             "cPrev": [17],
@@ -256,12 +256,12 @@
             "requirement_en": [
                 "q.66668",
                 "logs.hunting-log.order-of-the-twin-adder to Rank 2",
-                "@9,000 CURRENCY.SERPENT_SEAL"
+                "@9,000 CURRENCY.SEAL.SERPENT"
             ],
             "requirement_fr": [
                 "q.66668",
                 "logs.hunting-log.order-of-the-twin-adder pour le Rang 2",
-                "@9.000 CURRENCY.SERPENT_SEAL"
+                "@9.000 CURRENCY.SEAL.SERPENT"
             ],
             "entitlements_en": ["50,000 Seal Cap", "Adventurer Squadrons"],
             "entitlements_fr": ["50.000 Sceaux de compagnie gridanien maximum", "Escouade de Grande Compagnie"],
@@ -308,7 +308,7 @@
             "name_en": "Flame Private Second Class",
             "name_fr": "Soldat 2e classe",
             "grandCompany": "@SOCIETY.FLAMES",
-            "requirement": "@2,000 CURRENCY.FLAME_SEAL",
+            "requirement": "@2,000 CURRENCY.SEAL.FLAME",
             "entitlements_en": "15,000 Seal Cap",
             "entitlements_fr": "15.000 Sceaux de compagnie uldien maximum",
             "cPrev": [22],
@@ -318,7 +318,7 @@
             "name_en": "Flame Private First Class",
             "name_fr": "Soldat 1re classe",
             "grandCompany": "@SOCIETY.FLAMES",
-            "requirement": "@3,000 CURRENCY.FLAME_SEAL",
+            "requirement": "@3,000 CURRENCY.SEAL.FLAME",
             "entitlements_en": "20,000 Seal Cap",
             "entitlements_fr": "20.000 Sceaux de compagnie uldien maximum",
             "cPrev": [23],
@@ -328,7 +328,7 @@
             "name_en": "Flame Corporal",
             "name_fr": "Caporal(e)",
             "grandCompany": "@SOCIETY.FLAMES",
-            "requirement": "@4,000 CURRENCY.FLAME_SEAL",
+            "requirement": "@4,000 CURRENCY.SEAL.FLAME",
             "entitlements_en": "25,000 Seal Cap",
             "entitlements_fr": "25.000 Sceaux de compagnie uldien maximum",
             "cPrev": [24],
@@ -340,11 +340,11 @@
             "grandCompany": "@SOCIETY.FLAMES",
             "requirement_en": [
                 "logs.hunting-log.immortal-flames to Rank 1",
-                "@5,000 CURRENCY.FLAME_SEAL"
+                "@5,000 CURRENCY.SEAL.FLAME"
             ],
             "requirement_fr": [
                 "logs.hunting-log.immortal-flames pour le Rang 1",
-                "@5.000 CURRENCY.FLAME_SEAL"
+                "@5.000 CURRENCY.SEAL.FLAME"
             ],
             "entitlements_en": ["30,000 Seal Cap", "Level 30 GC Leves", "Whitebrim GC Leves"],
             "entitlements_fr": [
@@ -359,7 +359,7 @@
             "name_en": "Flame Sergeant Second Class",
             "name_fr": "Sergent(e)",
             "grandCompany": "@SOCIETY.FLAMES",
-            "requirement": "@6,000 CURRENCY.FLAME_SEAL",
+            "requirement": "@6,000 CURRENCY.SEAL.FLAME",
             "entitlements_en": ["35,000 Seal Cap", "Expert Deliveries"],
             "entitlements_fr": ["35.000 Sceaux de compagnie uldien maximum", "Prise de guerre"],
             "cPrev": [26],
@@ -369,7 +369,7 @@
             "name_en": "Flame Sergeant First Class",
             "name_fr": "Sergent-major",
             "grandCompany": "@SOCIETY.FLAMES",
-            "requirement": "@7,000 CURRENCY.FLAME_SEAL",
+            "requirement": "@7,000 CURRENCY.SEAL.FLAME",
             "entitlements_en": "40,000 Seal Cap",
             "entitlements_fr": "40.000 Sceaux de compagnie uldien maximum",
             "cPrev": [27],
@@ -379,7 +379,7 @@
             "name_en": "Chief Flame Sergeant",
             "name_fr": "Major",
             "grandCompany": "@SOCIETY.FLAMES",
-            "requirement": ["q.66666", "@8,000 CURRENCY.FLAME_SEAL"],
+            "requirement": ["q.66666", "@8,000 CURRENCY.SEAL.FLAME"],
             "entitlements_en": ["45,000 Seal Cap", "Mor Dhona GC Leves"],
             "entitlements_fr": ["45,000 Sceaux de compagnie uldien maximum", "Mandats de Grande Compagnie au Mor Dhona"],
             "cPrev": [28],
@@ -392,12 +392,12 @@
             "requirement_en": [
                 "q.66669",
                 "logs.hunting-log.immortal-flames to Rank 2",
-                "@9,000 CURRENCY.FLAME_SEAL"
+                "@9,000 CURRENCY.SEAL.FLAME"
             ],
             "requirement_fr": [
                 "q.66669",
                 "logs.hunting-log.immortal-flames pour le Rang 2",
-                "@9.000 CURRENCY.FLAME_SEAL"
+                "@9.000 CURRENCY.SEAL.FLAME"
             ],
             "entitlements_en": ["50,000 Seal Cap", "Adventurer Squadrons"],
             "entitlements_fr": ["50.000 Sceaux de compagnie uldien maximum", "Escouade de Grande Compagnie"],

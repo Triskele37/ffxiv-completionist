@@ -708,9 +708,14 @@
             "SOUTHERN_THANALAN": "Thanalan méridional",
             "NORTHERN_THANALAN": "Thanalan septentrional",
             "THE_WAKING_SANDS": "Refuge des sables",
+
             "THE_GOLD_SAUCER": "Gold Saucer",
-            "CHOCOBO_SQUARE": "Square des chocobos",
             "BATTLE_HALL": "Arène Triple Triade",
+            "CHOCOBO_SQUARE": "Square des chocobos",
+            "EVENT_SQUARE": "Square des spectacles",
+            "MINION_SQUARE": "Square des mascottes",
+            "ROUND_SQUARE": "Square du rond-point",
+            "WONDER_SQUARE": "Square des merveilles",
 
             "THE_BLACK_SHROUD": "Forêt de Sombrelinceul",
             "GRIDANIA": "Gridania",
@@ -967,9 +972,11 @@
             "EVENT": "Événement",
             "EXPLORATION": "Exploration",
             "EXPLORATORY_MISSION": "Mission d'exploration",
+            "EXPLORATORY_VOYAGE": "Expédition exploratoire",
             "FATE": "ALÉA",
             "GATHERING": "Récolte",
             "GRAND_COMPANY": "Grandes compagnies",
+            "THE_HUNT": "La Chasse",
             "ITEMS": "Objets",
             "KUPO_OF_FORTUNE": "Kupo de la fortune",
             "LEGACY": "Legacy",
@@ -984,8 +991,25 @@
             "TRIAL": "Défi",
             "VC_DUNGEON": "Donjons spéciaux",
             "VENTURE": "Servant",
-            "VOYAGE": "Expédition",
+            "SUBAQUATIC_VOYAGE": "Expédition subaquatique",
             "WONDROUS_TAILS": "Carnet de Khloe"
+        },
+        "EVENT": {
+            "HEAVENSTURN": "Fête de la transition",
+            "VALENTIONES_DAY": "Valention",
+            "LITTLE_LADIES_DAY": "Fête des demoiselles",
+            "HATCHING_TIDE": "Chasse aux Prœufs",
+            "MAKE_IT_RAIN": "Festival du Gold Saucer",
+            "MOONFIRE_FAIRE": "Feux de la Mort",
+            "THE_RISING": "Fête de la Commémoration",
+            "ALL_SAINTS_WAKE": "Veillée des saints",
+            "STARLIGHT_CELEBRATION": "Fête des étoiles",
+
+            "MOOGLE_TREASURE_TROVE": "Moogle Treasure Trove",
+
+            "DRAGON_QUEST_COLLAB": "Golems hors du Commun",
+            "XVI_COLLAB": "Collaboration: Final Fantasy XVI",
+            "YO_KAI": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
         "TYPE": {
             "AETHERYTE": {
@@ -1070,22 +1094,42 @@
             }
         },
         "VOYAGE": {
+            "AIR": "Mer de nuages - secteur",
+            "DIADEM": "Le Diadème (brutal)",
+
+            "DEEPSEA_SITE": "Mer des noyades",
+            "THE_UMBRELLA_NARROW": "Détroit du Parapluie",
             "MOERGYNNS_FORGE": "Forge de Moergynn",
             "THE_MYSTIC_BASIN": "Bassin mystérieux",
-            "DEEPSEA_SITE_5": "Mer des noyades 5",
             "THE_RIMILALA_SHELF": "Large talus de la fosse de Rimilala",
             "FLICKERING_DIP": "Vallée écumeuse du crépuscule",
-            "BLOODBREAK": "Colline de sang pourpre",
-            "SEA_OF_JADE_5": "Mer de Jade 5",
-            "SIRENSONG_SEA_3":  "Mer du Chant des sirènes 3",
-            "SEA_OF_CLOUDS_SECTOR_18": "Mer de nuages 18",
-            "SEA_OF_CLOUDS_23": "Mer de nuages 23",
-            "FORTUNES_FORD":  "Haut-fond de l'oiseau vagabond",
-            "THE_CRYSTAL_FONT": "Source cristalline",
+
+            "SEA_OF_ASH": "Mer de Cendre",
+            "THE_SOUTHERN_CHARNEL_TRENCH": "Sud de la Fosse crématoire",
+            "THE_CENTRAL_CHARNEL_TRENCH": "Flanc de la Fosse crématoire",
+            "COLDTOE_ISLE": "Île de la chaussette trouée",
+            "THE_OPEN_ROBE": "Île de la robe fripée",
+            "NALDTHALS_PIPE": "Cheminée de Nald'thal",
+            "GLUTTONS_BELLY": "Estomac goulu",
+
+            "SEA_OF_JADE": "Mer de Jade",
+            "THE_ISLE_OF_SACRAMENT": "Île du Sacrement",
             "TANGAROAS_PROW": "Hameçon de Tangaroa",
-            "WINGSREACH": "Île des tiges ailées",
+            "THE_DEVILS_CRYPT": "Crypte du diable",
+
+            "SIRENSONG_SEA":  "Mer du Chant des sirènes",
+            "THE_ANTHEMOESSA_UNDERTOW": "Courant sous-marin d'Anthémuse",
+            "BLOODBREAK": "Colline de sang pourpre",
+            "THE_CRYSTAL_FONT": "Source cristalline",
+
+            "LILAC_SEA": "Mer de lilas",
+            "FORTUNES_FORD":  "Haut-fond de l'oiseau vagabond",
             "THE_FLORAL_REEF": "Lagon en fleur",
-            "THE_INDIGO_SHALLOWS": "Les Bas-fonds Indigo"
+            "WINGSREACH": "Île des tiges ailées",
+
+            "THE_INDIGO_SHALLOWS": "Hauts-fonds indigo",
+            "NORTH_DELPHINIUM_SEASHELF": "Nord des profondeurs de la Mer de cobalt",
+            "THE_CENTRAL_BLUE": "Immensité bleue"
         },
         "TRIAD": {
             "BRONZE_PACK": "Pochette Triple Triade bronze",
@@ -1098,55 +1142,125 @@
         },
         "CURRENCY": {
             "ACHIEVEMENT_CERTIFICATE": "Jetons de haut fait",
-            "ALLIED_SEAL": "Insignes alliés",
-            "ALOALO_POTSHERD": "Relique de l'île d'Aloalo",
             "BICOLOR_GEMSTONE": "Gemme bicolore",
             "BOZJAN_CLUSTER": "Critaux bozjiens",
-            "CENTURIO_SEAL": "Insignes Centurio",
             "CLOUDDARK_DEMIMATERIA_II": "Demi-matéria du vortex obscur",
-            "FLAME_SEAL": "Sceaux de compagnie uldien",
+            "FAUX_LEAF": "Folioles irréelles",
             "GIL": "Gil",
+            "MGF": "Point de Célébrité du Gold Saucer",
             "MGP": "PGS",
-            "PRIMARY_CRAFTERS_SCRIP": "",
-            "PRIMARY_GATHERERS_SCRIP": "",
-            "ROKKON_POTSHERD": "Relique du mont Rokkon",
+            "SACK_OF_NUTS": "Insignes de chasse",
             "SEAFARERS_COWRY": "Assignat insulaire azur",
-            "SECONDARY_CRAFTERS_SCRIP": "",
-            "SECONDARY_GATHERERS_SCRIP": "",
-            "SERPENT_SEAL": "Sceaux de compagnie gridanien",
-            "SKYBUILDERS_SCRIP": "Assignats d'Azurée",
-            "STORM_SEAL": "Sceaux de compagnie limséen",
             "TROPHY_CRYSTAL": "Cristaux-trophées",
             "VETERANS_MARK": "Journaux de membre éminent du clan",
             "WOLF_MARK": "Marques de loup",
+            "FATE": {
+                "ARCHAEOTANIA": "Cornes d'Archaeotania",
+                "DAIVADIPA": "Orbes sacrées de Daivadipa",
+                "FORMIDABLE": "Rouages du Formidable",
+                "FOX": "Fragments de la Roche meurtrière",
+                "IXION": "Cornes d'Ixion"
+            },
+            "KHLOE": {
+                "BRONZE": "Certificat de mérite de bronze de Khloe",
+                "SILVER": "Certificat de mérite d'argent de Khloe",
+                "GOLD": "Certificat de mérite d'or de Khloe"
+            },
+            "POTSHERD": {
+                "ALOALO": "Relique de l'île d'Aloalo",
+                "EMPYREAN": "Tessons de poterie empyréenne",
+                "GELMORRAN": "Tessons de poterie gelmorraine",
+                "ROKKON": "Relique du mont Rokkon"
+            },
+            "SCRIP": {
+                "PRIMARY_CRAFTERS": "",
+                "PRIMARY_GATHERERS": "",
+                "SECONDARY_CRAFTERS": "",
+                "SECONDARY_GATHERERS": "",
+                "SKYBUILDERS": "Assignats d'Azurée"
+            },
+            "SEAL": {
+                "ALLIED": "Insignes alliés",
+                "CENTURIO": "Insignes Centurio",
+                "FLAME": "Sceaux de compagnie uldien",
+                "SERPENT": "Sceaux de compagnie gridanien",
+                "STORM": "Sceaux de compagnie limséen"
+            },
             "SOCIETY": {
+                "ANANTA": "Barettes béatifiques ananta",
                 "ARKASODARA": "Seikos arkasodara",
-                "OMICRON": "Omicoin"
+                "DWARF": "Médailles naines",
+                "KOJIN": "Sangos Kojin",
+                "LOPORRIT": "Carotus",
+                "NAMAZU": "Kobans Namazu",
+                "OMICRON": "Omicoin",
+                "PELUPELU": "Pluplume pelupelu",
+                "PIXIE": "Cristaux illusoires pixie",
+                "QITARI": "Pièces-châtaignes Qitari"
+            },
+            "TOMESTONE": {
+                "POETIC": "Mémoquartz allagois poétiques"
             }
         },
         "VENDOR": {
             "AELINA": "Aelina - PLACE.MOR_DHONA",
             "ARDOLAIN": "Ardolain - Le Chevalier Oublié, PLACE.FOUNDATION",
+            "AURIANA": "Auriana - PLACE.MOR_DHONA",
             "BANGO_ZANGO": "Bango Zango - PLACE.LIMSA_LOMINSA_LOWER_DECKS",
+            "BOUGHBURY_TRADER": "Marchand de Rambourg - Guêpier des Ventrerouge",
             "BERTANA": "Bertana - PLACE.IDYLLSHIRE",
+            "CHACHAMUN": "Chachamun - Bois du Renouveau",
+            "CONFEDERATE_CUSTODIAN": "Fournisseuse de la Confédération - L'Entorse",
             "DIBOURDIER": "Dibourdier - PLACE.THE_GOLD_SAUCER",
+            "E_UNA_KOTOR": "E-Una-Kotor - Moulin de la Carrière",
             "ESCHINA": "Eschina - PLACE.RHALGRS_REACH",
             "ESTRILD": "Estrild - Shiokaze, PLACE.KUGANE",
-            "GEMSTONE_TRADER": "Marchand de gemmes",
+            "FATHARD": "Fathard - PLACE.EULMORE",
             "GHANTA": "Ghanta - PLACE.THAVNAIR",
             "HUNT_BILLMASTER": "Responsable de la Chasse - Base de Grande Compagnie",
             "JONATHAS": "Jonathas - PLACE.OLD_GRIDANIA",
+            "JUNKMONGER_NONOROON": "Nonoroon Renigle-nid - Hameau des Malheureuses",
             "LEUEKIN": "Leuekin - PLACE.RHALGRS_REACH",
             "MAISENTA": "Maisenta - PLACE.NEW_GRIDANIA",
             "MAUDLIN": "Maudlin Latool Ja - PLACE.UL_DAH",
-            "MOG_STATION": "Station mog",
-            "N0598": "N-0598 - PLACE.ULTIMA_THULE",
+            "MINION_TRADER": "Marchande de mascottes - PLACE.MINION_SQUARE",
             "NESVAAZ": "Nesvaaz - PLACE.RADZ_AT_HAN",
             "RESISTANCE_QUARTERMASTER": "Tacticienne",
             "ROARICH": "Roarich - PLACE.UL_DAH_STEPS_OF_NALD",
-            "SCRIP_EXHANGE": "Comptable Des Assignats",
             "TRISASSANT": "Trisassant - PLACE.OLD_SHARLAYAN",
-            "UAHSHEPYA": "Uah'shepya - PLACE.SOLUTION_NINE"
+            "UAHSHEPYA": "Uah'shepya - PLACE.SOLUTION_NINE",
+
+            "GEMSTONE_TRADER": "Marchand de gemmes",
+            "HUNT_TRADER": "Hunt Trader",
+            "SCRIP_EXHANGE": "Comptable Des Assignats",
+            "SOCIETY_TRADER": "Society Trader"
+        },
+        "SOURCE": {
+            "CRAFTED": "Recette",
+            "GARDENING": "Jardinage",
+            "GATHERED": "Récolté",
+            "KUPO_OF_FORTUNE": "Kupo de la Fortune",
+            "MOG_STATION": "Station mog",
+            "SERIES_REWARD": "Récompense de série",
+            "COLLECTORS_EDITION": "Édition Collector",
+            "EXPLORATION": {
+                "FIELD": "Exploration en plaine",
+                "HIGHLAND": "Exploration en montagne",
+                "QUICK": "Tâche improvisée",
+                "WATERSIDE": "Exploration en rivage",
+                "WOODLAND": "Exploration en forêt"
+            },
+            "LOCKBOX": {
+                "ANEMOS": "Coffre verrouillé d'Anemos",
+                "PAGOS": "Coffre verrouillé de Pagos",
+                "PAGOS_BUNNY": "Coffre verrouillé de Pagos - Eurêka: Pagos",
+                "PYROS": "Coffre verrouillé de Pyros",
+                "HEAT_WARPED": "Coffre roussi",
+                "HYDATOS": "Coffre verrouillé d'Hydatos",
+                "MOISTURE_WARPED": "Coffre rouillé",
+                "BOZJA": "Coffre verrouillé du Front sud de Bozja",
+                "ZADNOR": "Coffre verrouillé des Hauts plateaux de Zadnor"
+            }
         }
     }
 }

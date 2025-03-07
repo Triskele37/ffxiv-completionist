@@ -208,8 +208,7 @@
             "name_en": "Traveling Supporter",
             "name_fr": "Unité de Voyage Accompagné",
             "category": "@CATEGORY.PVP",
-            "source_en": "Series Reward",
-            "source_fr": "Récompense de série",
+            "source": "@SOURCE.SERIES_REWARD",
             "patch": "6.4",
             "defaultCompletion": "X"
         },
@@ -232,8 +231,7 @@
             "name_en": "Fylgja",
             "name_fr": "Fylgja",
             "category": "@CATEGORY.PVP",
-            "source_en": "Series Reward",
-            "source_fr": "Récompense de série",
+            "source": "@SOURCE.SERIES_REWARD",
             "patch": "6.2"
         },
         "x279": {
@@ -1224,8 +1222,7 @@
             "name_en": "Magitek Death Claw",
             "name_fr": "Griffe d'arrestation magitek",
             "category": "@CATEGORY.PURCHASE",
-            "source_en": "Jonathas - Old Gridania - 6 Achievement Certificates",
-            "source_fr": "Jonathas - Vieille Gridania - 6 Jetons de hauts faits",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "4.2"
         },
         "x185": {
@@ -1566,8 +1563,7 @@
             "name_en": "Behemoth",
             "name_fr": "Béhémoth",
             "category": "@CATEGORY.PURCHASE",
-            "source_en": "Jonathas - Old Gridania - 6 Achievement Certificates",
-            "source_fr": "Jonathas - Vieille Gridania - 6 Jetons de hauts faits",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "2.1"
         },
         "x197": {
@@ -1647,8 +1643,7 @@
             "name_en": "Ahriman",
             "name_fr": "Ahriman",
             "category": "@CATEGORY.PURCHASE",
-            "source_en": "Jonathas - Old Gridania - 6 Achievement Certificates",
-            "source_fr": "Jonathas - Vieille Gridania - 6 Jetons de hauts faits",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "2.0"
         },
         "x46": {

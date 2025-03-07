@@ -35,7 +35,7 @@
         "x2": {
             "name_en": "Classic Spectacles",
             "name_fr": "Lunettes classiques",
-            "category": "@CATEGORY.VOYAGES",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
             "source": "@VOYAGE.THE_INDIGO_SHALLOWS",
             "patch": "7.0"
         },
@@ -110,15 +110,14 @@
             "name_en": "Rose-colored Spectacles",
             "name_fr": "Lunettes roses",
             "category": "@CATEGORY.VC_DUNGEON",
-            "source": "@VENDOR.TRISASSANT (3 CURRENCY.ROKKON_POTSHERD)",
+            "source": "@VENDOR.TRISASSANT (3 CURRENCY.POTSHERD.ROKKON)",
             "patch": "7.0"
         },
         "x1": {
             "name_en": "Shaded Spectacles",
             "name_fr": "Lunettes teintées",
             "category": "@CATEGORY.PVP",
-            "source_en": "Series Reward",
-            "source_fr": "Récompense de série",
+            "source": "@SOURCE.SERIES_REWARD",
             "patch": "7.0"
         },
         "x4": {

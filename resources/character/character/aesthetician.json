@@ -35,7 +35,7 @@
             "name_en": "Modern Aesthetics - Sharlayan Studies",
             "name_fr": "Méthode de coiffure “Prodige sharlayanais”",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@VENDOR.MOG_STATION",
+            "source": "@SOURCE.MOG_STATION",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "defaultCompletion": "X",
             "patch": "5.4"
@@ -44,14 +44,14 @@
             "name_en": "Modern Aesthetics - Controlled Chaos",
             "name_fr": "Méthode de coiffure “Coupe asymétrique”",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@1,800 CURRENCY.SKYBUILDERS_SCRIP",
+            "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
             "patch": "5.21"
         },
         "x79": {
             "name_en": "Modern Aesthetics - Modern Legend",
             "name_fr": "Méthode de coiffure “Mèches légendaires”",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@1,800 CURRENCY.SKYBUILDERS_SCRIP",
+            "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "5.11"
         },
@@ -59,7 +59,7 @@
             "name_en": "Modern Cosmetics - A Wicked Wake",
             "name_fr": "Méthode de maquillage : Veillée des saints",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@VENDOR.MOG_STATION",
+            "source": "@SOURCE.MOG_STATION",
             "defaultCompletion": "X",
             "patch": "2.38"
         },
@@ -125,7 +125,7 @@
             "name_en": "Modern Aesthetics - Saintly Style",
             "name_fr": "Méthode de coiffure “Ailes de saint”",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@1,800 CURRENCY.SKYBUILDERS_SCRIP",
+            "source": "@1,800 CURRENCY.SCRIP.SKYBUILDERS",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "5.31"
         },
@@ -157,7 +157,7 @@
             "name_en": "Modern Aesthetics - Scion Special Issue",
             "name_fr": "Méthode de coiffure “Meneuse des Héritiers”",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@VENDOR.MOG_STATION",
+            "source": "@SOURCE.MOG_STATION",
             "lockedFor": "@CHARA.MALE, CHARA.FEMALE CHARA.HROTHGAR, CHARA.FEMALE CHARA.VIERA",
             "defaultCompletion": "X",
             "patch": "3.1"
@@ -174,7 +174,7 @@
             "name_en": "Modern Aesthetics - Pulse",
             "name_fr": "Méthode de coiffure “Lightning et Snow”",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@VENDOR.MOG_STATION",
+            "source": "@SOURCE.MOG_STATION",
             "defaultCompletion": "X",
             "patch": "3.15"
         },
@@ -182,7 +182,7 @@
             "name_en": "Modern Aesthetics - Scion Special Issue II",
             "name_fr": "Méthode de coiffure “Surineur des Héritiers”",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@VENDOR.MOG_STATION",
+            "source": "@SOURCE.MOG_STATION",
             "lockedFor": "@CHARA.FEMALE, CHARA.MALE CHARA.HROTHGAR, CHARA.MALE CHARA.VIERA",
             "defaultCompletion": "X",
             "patch": "3.35"
@@ -191,7 +191,7 @@
             "name_en": "Modern Aesthetics - Scion Special Issue III",
             "name_fr": "Méthode de coiffure “Élémentaliste des Héritiers”",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@VENDOR.MOG_STATION",
+            "source": "@SOURCE.MOG_STATION",
             "lockedFor": "@CHARA.MALE, CHARA.FEMALE CHARA.HROTHGAR, CHARA.FEMALE CHARA.VIERA",
             "defaultCompletion": "X",
             "patch": "3.35"
@@ -208,7 +208,7 @@
             "name_en": "Modern Aesthetics - Master & Commander",
             "name_fr": "Méthode de coiffure “Capitaine général”",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@VENDOR.MOG_STATION",
+            "source": "@SOURCE.MOG_STATION",
             "lockedFor": "@CHARA.VIERA, CHARA.HROTHGAR",
             "defaultCompletion": "X",
             "patch": "3.55b"
@@ -275,7 +275,7 @@
             "name_en": "Modern Aesthetics - Liberating Locks",
             "name_fr": "Méthode de coiffure “Libératrice des Héritiers”",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@VENDOR.MOG_STATION",
+            "source": "@SOURCE.MOG_STATION",
             "lockedFor": "@CHARA.MALE, CHARA.FEMALE CHARA.HROTHGAR",
             "defaultCompletion": "X",
             "patch": "6.1"
@@ -300,7 +300,7 @@
             "name_en": "Modern Aesthetics - Sharlayan Rebellion",
             "name_fr": "Méthode de coiffure “Dissidente de Sharlayan”",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@VENDOR.MOG_STATION",
+            "source": "@SOURCE.MOG_STATION",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "defaultCompletion": "X",
             "patch": "6.3"
@@ -317,7 +317,7 @@
             "name_en": "Modern Aesthetics - Ambitious Ends",
             "name_fr": "Méthode de coiffure “Coupe mi-longue négligée”",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@6 CURRENCY.ROKKON_POTSHERD",
+            "source": "@6 CURRENCY.POTSHERD.ROKKON",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "6.45"
         },
@@ -325,7 +325,7 @@
             "name_en": "Modern Aesthetics - The Bold and the Braid",
             "name_fr": "Méthode de coiffure “Tresses collées sur le côté”",
             "category": "@CATEGORY.PURCHASE",
-            "source": "@6 CURRENCY.ALOALO_POTSHERD",
+            "source": "@6 CURRENCY.POTSHERD.ALOALO",
             "lockedFor": "@CHARA.FEMALE CHARA.HROTHGAR",
             "patch": "6.51"
         },
@@ -354,7 +354,7 @@
             "name_en": "Modern Aesthetics - Scion Special Issue IV",
             "name_fr": "Méthode de coiffure “Exarque des Héritiers”",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@VENDOR.MOG_STATION",
+            "source": "@SOURCE.MOG_STATION",
             "defaultCompletion": "X",
             "patch": "7.1"
         },
@@ -362,7 +362,7 @@
             "name_en": "Modern Aesthetics - Voidswept Strands",
             "name_fr": "Méthode de coiffure “Carré gradué”",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@VENDOR.MOG_STATION",
+            "source": "@SOURCE.MOG_STATION",
             "defaultCompletion": "X",
             "patch": "7.1"
         },
@@ -370,7 +370,7 @@
             "name_en": "Modern Aesthetics - Head Hound",
             "name_fr": "Méthode de coiffure “Queue de cheval tressée”",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@VENDOR.MOG_STATION",
+            "source": "@SOURCE.MOG_STATION",
             "defaultCompletion": "X",
             "patch": "7.1"
         }
