@@ -961,7 +961,6 @@
         "CATEGORY": {
             "ACHIEVEMENT": "Haut fait",
             "BATTLE": "Combats",
-            "BEAST_TRIBE": "Tribus barbares",
             "CHARACTER": "Personnage",
             "CRAFTING": "Synthèse",
             "CRAFTING_GATHERING": "Synthèse et récolte",
@@ -974,9 +973,11 @@
             "EXPLORATORY_MISSION": "Mission d'exploration",
             "EXPLORATORY_VOYAGE": "Expédition exploratoire",
             "FATE": "ALÉA",
+            "FAUX_HOLLOWS": "Touché-tourné",
             "GATHERING": "Récolte",
             "GRAND_COMPANY": "Grandes compagnies",
             "THE_HUNT": "La Chasse",
+            "ISLAND_SANCTUARY": "Félicité insulaire",
             "ITEMS": "Objets",
             "KUPO_OF_FORTUNE": "Kupo de la fortune",
             "LEGACY": "Legacy",
@@ -987,6 +988,7 @@
             "PVP": "JcJ",
             "QUEST": "Quête",
             "RAID": "Raid",
+            "SOCIETY": "Peuples",
             "TREASURE_HUNT": "Chasse aux trésors",
             "TRIAL": "Défi",
             "VC_DUNGEON": "Donjons spéciaux",
@@ -1008,6 +1010,7 @@
             "MOOGLE_TREASURE_TROVE": "Moogle Treasure Trove",
 
             "DRAGON_QUEST_COLLAB": "Golems hors du Commun",
+            "XV_COLLAB": "Final Fantasy XV Collaboration",
             "XVI_COLLAB": "Collaboration: Final Fantasy XVI",
             "YO_KAI": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !"
         },
@@ -1142,24 +1145,41 @@
         },
         "CURRENCY": {
             "ACHIEVEMENT_CERTIFICATE": "Jetons de haut fait",
-            "BICOLOR_GEMSTONE": "Gemme bicolore",
+            "ALOALO_COIN": "Pièce d'or de l'île d'Aloalo",
+            "SHISHU_COIN": "Tsûhô de Shishû",
+            "SILDIHN_SILVER": "Pièce d'argent sildienne",
             "BOZJAN_CLUSTER": "Critaux bozjiens",
             "CLOUDDARK_DEMIMATERIA_II": "Demi-matéria du vortex obscur",
             "FAUX_LEAF": "Folioles irréelles",
+            "FETE_TOKEN": "Coupons de feste",
             "GIL": "Gil",
             "MGF": "Point de Célébrité du Gold Saucer",
             "MGP": "PGS",
             "SACK_OF_NUTS": "Insignes de chasse",
-            "SEAFARERS_COWRY": "Assignat insulaire azur",
             "TROPHY_CRYSTAL": "Cristaux-trophées",
             "VETERANS_MARK": "Journaux de membre éminent du clan",
             "WOLF_MARK": "Marques de loup",
             "FATE": {
                 "ARCHAEOTANIA": "Cornes d'Archaeotania",
+                "CHI": "Boulons de Khi",
                 "DAIVADIPA": "Orbes sacrées de Daivadipa",
                 "FORMIDABLE": "Rouages du Formidable",
                 "FOX": "Fragments de la Roche meurtrière",
                 "IXION": "Cornes d'Ixion"
+            },
+            "GEMSTONE": {
+                "BICOLOR": "Gemme bicolore",
+                "TURALI_VOUCHER": "Bon de livraison de gemmes bicolores turalien",
+                "VOUCHER": "Bon de livraison de gemmes bicolores"
+            },
+            "HUNT": {
+                "BURNING_HORN": "Corne ardente",
+                "EXCITING_TONIC": "Ludotonique",
+                "RESPLENDENT_FEATHER": "Plumes resplendissantes"
+            },
+            "ISLAND": {
+                "SEAFARERS": "Assignat insulaire azur",
+                "VEGETAL": "Certificat végétal"
             },
             "KHLOE": {
                 "BRONZE": "Certificat de mérite de bronze de Khloe",
@@ -1212,6 +1232,7 @@
             "CHACHAMUN": "Chachamun - Bois du Renouveau",
             "CONFEDERATE_CUSTODIAN": "Fournisseuse de la Confédération - L'Entorse",
             "DIBOURDIER": "Dibourdier - PLACE.THE_GOLD_SAUCER",
+            "EDELINA": "Edelina - PLACE.MOR_DHONA",
             "E_UNA_KOTOR": "E-Una-Kotor - Moulin de la Carrière",
             "ESCHINA": "Eschina - PLACE.RHALGRS_REACH",
             "ESTRILD": "Estrild - Shiokaze, PLACE.KUGANE",
@@ -1224,9 +1245,11 @@
             "MAISENTA": "Maisenta - PLACE.NEW_GRIDANIA",
             "MAUDLIN": "Maudlin Latool Ja - PLACE.UL_DAH",
             "MINION_TRADER": "Marchande de mascottes - PLACE.MINION_SQUARE",
+            "MOGMUL": "Mogmul - Bahrr Lehs",
             "NESVAAZ": "Nesvaaz - PLACE.RADZ_AT_HAN",
             "RESISTANCE_QUARTERMASTER": "Tacticienne",
             "ROARICH": "Roarich - PLACE.UL_DAH_STEPS_OF_NALD",
+            "TABETH": "Tabeth - PLACE.EULMORE",
             "TRISASSANT": "Trisassant - PLACE.OLD_SHARLAYAN",
             "UAHSHEPYA": "Uah'shepya - PLACE.SOLUTION_NINE",
 
@@ -1237,12 +1260,16 @@
         },
         "SOURCE": {
             "CRAFTED": "Recette",
+            "DESYNTHESIS": "Recyclage",
+            "FETE_PRESENT": "Boîte à cadeaux de feste",
             "GARDENING": "Jardinage",
             "GATHERED": "Récolté",
             "KUPO_OF_FORTUNE": "Kupo de la Fortune",
             "MOG_STATION": "Station mog",
             "SERIES_REWARD": "Récompense de série",
             "COLLECTORS_EDITION": "Édition Collector",
+            "PREORDER": "Précommande",
+            "FEAST_SEASON": "The Feast: Saison",
             "EXPLORATION": {
                 "FIELD": "Exploration en plaine",
                 "HIGHLAND": "Exploration en montagne",
@@ -1255,11 +1282,14 @@
                 "PAGOS": "Coffre verrouillé de Pagos",
                 "PAGOS_BUNNY": "Coffre verrouillé de Pagos - Eurêka: Pagos",
                 "PYROS": "Coffre verrouillé de Pyros",
+                "PYROS_BUNNY": "Coffre des Lapin du bonheur - Eurêka Pyros",
                 "HEAT_WARPED": "Coffre roussi",
                 "HYDATOS": "Coffre verrouillé d'Hydatos",
+                "HYDATOS_BUNNY": "Coffre des Lapin du bonheur - Eurêka Hydatos",
                 "MOISTURE_WARPED": "Coffre rouillé",
                 "BOZJA": "Coffre verrouillé du Front sud de Bozja",
-                "ZADNOR": "Coffre verrouillé des Hauts plateaux de Zadnor"
+                "ZADNOR": "Coffre verrouillé des Hauts plateaux de Zadnor",
+                "SANCTUARY": "Malle-surprise Insulaire"
             }
         }
     }

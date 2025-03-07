@@ -962,7 +962,6 @@
         "CATEGORY": {
             "ACHIEVEMENT": "Achievement",
             "BATTLE": "Battle",
-            "BEAST_TRIBE": "Beast Tribe",
             "CHARACTER": "Character",
             "CRAFTING": "Crafting",
             "CRAFTING_GATHERING": "Crafting & Gathering",
@@ -975,9 +974,11 @@
             "EXPLORATORY_MISSION": "Exploratory Mission",
             "EXPLORATORY_VOYAGE": "Exploratory Voyage",
             "FATE": "FATE",
+            "FAUX_HOLLOWS": "Faux Hollows",
             "GATHERING": "Gathering",
             "GRAND_COMPANY": "Grand Company",
             "THE_HUNT": "The Hunt",
+            "ISLAND_SANCTUARY": "Island Sanctuary",
             "ITEMS": "Items",
             "KUPO_OF_FORTUNE": "Kupo of Fortune",
             "LEGACY": "Legacy",
@@ -988,6 +989,7 @@
             "PVP": "PvP",
             "QUEST": "Quest",
             "RAID": "Raid",
+            "SOCIETY": "Society",
             "TREASURE_HUNT": "Treasure Hunt",
             "TRIAL": "Trial",
             "VC_DUNGEON": "V&C Dungeon",
@@ -1009,6 +1011,7 @@
             "MOOGLE_TREASURE_TROVE": "Moogle Treasure Trove",
 
             "DRAGON_QUEST_COLLAB": "Breaking Brick Mountains",
+            "XV_COLLAB": "Final Fantasy XV Collaboration",
             "XVI_COLLAB": "Final Fantasy XVI Collaboration",
             "YO_KAI": "Yo-Kai Watch"
         },
@@ -1145,24 +1148,41 @@
         },
         "CURRENCY": {
             "ACHIEVEMENT_CERTIFICATE": "Achievement Certificate",
-            "BICOLOR_GEMSTONES": "Bicolor Gemstone",
-            "BOZJAN_CLUSTERS": "Bozjan Cluster",
+            "ALOALO_COIN": "Aloalo Coin",
+            "SHISHU_COIN": "Shishu Coin",
+            "SILDIHN_SILVER": "Sil'dihn Silver",
+            "BOZJAN_CLUSTER": "Bozjan Cluster",
             "CLOUDDARK_DEMIMATERIA_II": "Clouddark Demimateria II",
             "FAUX_LEAF": "Faux Leaf",
+            "FETE_TOKEN": "Fête Token",
             "GIL": "Gil",
             "MGF": "MGF",
             "MGP": "MGP",
             "SACK_OF_NUTS": "Sack of Nuts",
-            "SEAFARERS_COWRY": "Seafarer's Cowry",
             "TROPHY_CRYSTAL": "Trophy Crystal",
             "VETERANS_MARK": "Veteran's Clan Mark Log",
             "WOLF_MARK": "Wolf Mark",
             "FATE": {
                 "ARCHAEOTANIA": "Archaeotania's Horn",
+                "CHI": "Chi Bolt",
                 "DAIVADIPA": "Daivadipa's Bead",
                 "FORMIDABLE": "Formidable Cog",
                 "FOX": "Sassho-seki Fragments",
                 "IXION": "Ixion Horn"
+            },
+            "GEMSTONE": {
+                "BICOLOR": "Bicolor Gemstone",
+                "TURALI_VOUCHER": "Turali Bicolor Gemstone Voucher",
+                "VOUCHER": "Bicolor Gemstone Voucher"
+            },
+            "HUNT": {
+                "BURNING_HORN": "Burning Horn",
+                "EXCITING_TONIC": "Exciting Tonic",
+                "RESPLENDENT_FEATHER": "Resplendent Feather"
+            },
+            "ISLAND": {
+                "SEAFARERS": "Seafarer's Cowry",
+                "VEGETAL": "Vegetal Voucher"
             },
             "KHLOE": {
                 "BRONZE": "Khloe's Bronze Certificate of Commendation",
@@ -1215,6 +1235,7 @@
             "CHACHAMUN": "Chachamun - Wellwick Wood",
             "CONFEDERATE_CUSTODIAN": "Confederate Custodian - Crick",
             "DIBOURDIER": "Dibourdier - PLACE.THE_GOLD_SAUCER",
+            "EDELINA": "Edelina - PLACE.MOR_DHONA",
             "E_UNA_KOTOR": "E-Una-Kotor - Quarrymill",
             "ESCHINA": "Eschina - PLACE.RHALGRS_REACH",
             "ESTRILD": "Estrild - Shiokaze Hostelry, PLACE.KUGANE",
@@ -1227,10 +1248,12 @@
             "MAISENTA": "Maisenta - PLACE.NEW_GRIDANIA",
             "MAUDLIN": "Maudlin Latool Ja - PLACE.UL_DAH",
             "MINION_TRADER": "Minion Trader - PLACE.MINION_SQUARE",
+            "MOGMUL": "Mogmul Mogbelly - Bahrr Lehs",
             "N0598": "N-0598 - PLACE.ULTIMA_THULE",
             "NESVAAZ": "Nesvaaz - PLACE.RADZ_AT_HAN",
             "RESISTANCE_QUARTERMASTER": "Resistance Quartermaster",
             "ROARICH": "Roarich - PLACE.UL_DAH_STEPS_OF_NALD",
+            "TABETH": "Tabeth - PLACE.EULMORE",
             "TRISASSANT": "Trisassant - PLACE.OLD_SHARLAYAN",
             "UAHSHEPYA": "Uah'shepya - PLACE.SOLUTION_NINE",
 
@@ -1241,12 +1264,16 @@
         },
         "SOURCE": {
             "CRAFTED": "Crafted",
+            "DESYNTHESIS": "Desynthesis",
+            "FETE_PRESENT": "Fête Present",
             "GARDENING": "Gardening",
             "GATHERED": "Gathered",
             "KUPO_OF_FORTUNE": "Kupo of Fortune",
             "MOG_STATION": "Mog Station",
             "SERIES_REWARD": "Series Reward",
             "COLLECTORS_EDITION": "Collector's Edition",
+            "PREORDER": "Pre-order",
+            "FEAST_SEASON": "The Feast: Season",
             "EXPLORATION": {
                 "FIELD": "Field Exploration",
                 "HIGHLAND": "Highland Exploration",
@@ -1259,11 +1286,14 @@
                 "PAGOS": "Pagos Lockbox",
                 "PAGOS_BUNNY": "Happy Bunny Lockbox - Eureka Pagos",
                 "PYROS": "Pyros Lockbox",
+                "PYROS_BUNNY": "Happy Bunny Lockbox - Eureka Pyros",
                 "HEAT_WARPED": "Heat-warped Lockbox",
                 "HYDATOS": "Hydatos Lockbox",
+                "HYDATOS_BUNNY": "Happy Bunny Lockbox - Eureka Hydatos",
                 "MOISTURE_WARPED": "Moisture-warped Lockbox",
                 "BOZJA": "Southern Front Lockbox",
-                "ZADNOR": "Zadnor Lockbox"
+                "ZADNOR": "Zadnor Lockbox",
+                "SANCTUARY": "Sanctuary Materiel Container"
             }
         }
     }

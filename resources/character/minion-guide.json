@@ -49,7 +49,7 @@
         "x54": {
             "name_en": "Black Chocobo Chick",
             "name_fr": "Bébé Chocobo Noir",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "2.1"
         },
@@ -57,8 +57,7 @@
             "name_en": "Chocobo Chick Courier",
             "name_fr": "Bébé Chocobo Noir Volant",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Heavensward Pre-order",
-            "source_fr": "Précommande de FFXIV: Heavensward",
+            "source": "@SOURCE.PREORDER (EXPANSION.HW)",
             "patch": "3.0",
             "defaultCompletion": "X"
         },
@@ -79,7 +78,7 @@
         "x237": {
             "name_en": "Castaway Chocobo Chick",
             "name_fr": "Bébé Chocobo Des Mers",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.GATHERING",
             "source": ["d.540", "@SOURCE.GATHERED (CLASS_JOB.FSH)"],
             "patch": "4.0"
         },
@@ -151,8 +150,8 @@
         "x148": {
             "name_en": "Behemoth Heir",
             "name_fr": "Prince Bébéhémoth",
-            "category": "@CATEGORY.PURCHASE",
-            "source": "@400 CURRENCY.SEAL.CENTURIO",
+            "category": "@CATEGORY.THE_HUNT",
+            "source": "@VENDOR.ARDOLAIN (400 CURRENCY.SEAL.CENTURIO)",
             "patch": "3.0"
         },
         "x12": {
@@ -214,21 +213,21 @@
         "x22": {
             "name_en": "Gravel Golem",
             "name_fr": "Golem Graveleux",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.GSM)",
             "patch": "2.1"
         },
         "x23": {
             "name_en": "Wind-up Tonberry",
             "name_fr": "Tomberry Mécanique",
-            "category": "@CATEGORY.DEEP_DUNGEON",
+            "category": "@CATEGORY.TREASURE_HUNT",
             "source": ["d.174", "duty.treasure-hunt.maps.3", "duty.treasure-hunt.duties.0"],
             "patch": "2.1"
         },
         "x24": {
             "name_en": "Tiny Tortoise",
             "name_fr": "Tortue Naine",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.GATHERING",
             "source": "@SOURCE.GATHERED (CLASS_JOB.FSH)",
             "patch": "2.1"
         },
@@ -249,7 +248,7 @@
         "x27": {
             "name_en": "Tiny Bulb",
             "name_fr": "Bulbe Miniature",
-            "category": "@CATEGORY.DEEP_DUNGEON",
+            "category": "@CATEGORY.TREASURE_HUNT",
             "source": ["d.174", "duty.treasure-hunt.maps.2", "duty.treasure-hunt.duties.0"],
             "patch": "2.1"
         },
@@ -263,14 +262,14 @@
         "x29": {
             "name_en": "Wind-up Dullahan",
             "name_fr": "Dullahan Nain",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
             "patch": "2.1"
         },
         "x30": {
             "name_en": "Gigantpole",
             "name_fr": "Têtard Géant",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.GATHERING",
             "source": "@SOURCE.GATHERED (CLASS_JOB.FSH)",
             "patch": "2.1"
         },
@@ -312,7 +311,7 @@
         "x36": {
             "name_en": "Beady Eye",
             "name_fr": "Œil Apprivoisé",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "2.1"
         },
@@ -334,7 +333,7 @@
         "x48": {
             "name_en": "Kidragora",
             "name_fr": "Mini-mini-mandragore",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.GATHERING",
             "source": "@SOURCE.GATHERED (CLASS_JOB.BTN)",
             "patch": "2.1"
         },
@@ -391,14 +390,14 @@
         "x38": {
             "name_en": "Coblyn Larva",
             "name_fr": "Larve De Coblyn",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.GATHERING",
             "source": "@SOURCE.GATHERED (CLASS_JOB.MIN)",
             "patch": "2.1"
         },
         "x39": {
             "name_en": "Wind-up Aldgoat",
             "name_fr": "Mini-bouquetin",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
             "patch": "2.1"
         },
@@ -468,7 +467,7 @@
         "x57": {
             "name_en": "Tight-beaked Parrot",
             "name_fr": "Perroquet Taciturne",
-            "category": "@CATEGORY.DUNGEON",
+            "category": ["@CATEGORY.DUNGEON", "@CATEGORY.TREASURE_HUNT"],
             "source": ["d.28", "duty.treasure-hunt.duties.0"],
             "patch": "2.4"
         },
@@ -532,7 +531,7 @@
         "x136": {
             "name_en": "Atrophied Atomos",
             "name_fr": "Atomos Atrophié",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": ["@SOURCE.CRAFTED (CLASS_JOB.ALC)", "@SOURCE.KUPO_OF_FORTUNE"],
             "patch": "3.0"
         },
@@ -546,7 +545,7 @@
         "x384": {
             "name_en": "Weatherproof Gaelicat",
             "name_fr": "Gaélichat Emmitouflé",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.KUPO_OF_FORTUNE",
             "patch": "5.31"
         },
@@ -560,21 +559,21 @@
         "x143": {
             "name_en": "Iron Dwarf",
             "name_fr": "Nain D'acier",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
             "patch": "3.0"
         },
         "x144": {
             "name_en": "Griffin Hatchling",
             "name_fr": "Bébé Griffon",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.THE_HUNT",
             "source": "@400 CURRENCY.SEAL.CENTURIO",
             "patch": "3.0"
         },
         "x157": {
             "name_en": "Paissa Brat",
             "name_fr": "Petiot Païssa",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
             "source": [
                 "d.174",
                 "duty.treasure-hunt.maps.8",
@@ -586,14 +585,14 @@
         "x372": {
             "name_en": "Paissa Patissier",
             "name_fr": "Païssa Cuisinier",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.KUPO_OF_FORTUNE",
             "patch": "5.21"
         },
         "x373": {
             "name_en": "Paissa Threadpuller",
             "name_fr": "Païssa Couturier",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.KUPO_OF_FORTUNE",
             "patch": "5.21"
         },
@@ -642,8 +641,8 @@
         "x183": {
             "name_en": "Fenrir Pup",
             "name_fr": "Bébé Fenrir",
-            "category": "@CATEGORY.OTHER",
-            "source_en": "The Feast / Crystalline Conflict: Random Drop",
+            "category": "@CATEGORY.PVP",
+            "source_en": "Crystalline Conflict: Random Drop",
             "source_fr": "Crystalline Conflict: obtention aléatoire",
             "patch": "3.15"
         },
@@ -657,14 +656,14 @@
         "x190": {
             "name_en": "Baby Brachiosaur",
             "name_fr": "Bébé Brachiosaure",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
             "source": ["d.540", "@800 CURRENCY.SCRIP.SKYBUILDERS"],
             "patch": "3.55b"
         },
         "x194": {
             "name_en": "Pegasus Colt",
             "name_fr": "Poulain Pégase",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
             "source": "@800 CURRENCY.SCRIP.SKYBUILDERS",
             "patch": "3.55b"
         },
@@ -713,7 +712,7 @@
         "x244": {
             "name_en": "Tiny Tatsunoko",
             "name_fr": "Hippocampoupon",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.GATHERING",
             "source": ["d.540", "@SOURCE.GATHERED (CLASS_JOB.FSH)"],
             "patch": "4.0"
         },
@@ -804,8 +803,7 @@
             "name_en": "Baby Gremlin",
             "name_fr": "Bébé Gremlin",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Shadowbringers Pre-order",
-            "source_fr": "Précommande de Shadowbringers",
+            "source": "@SOURCE.PREORDER (EXPANSION.SHB)",
             "patch": "4.5",
             "defaultCompletion": "X"
         },
@@ -868,7 +866,7 @@
         "x357": {
             "name_en": "Miniature White Knight",
             "name_fr": "Mini-cavalier Blanc",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
             "source": "@1,200 CURRENCY.SCRIP.SKYBUILDERS",
             "patch": "5.11"
         },
@@ -903,7 +901,7 @@
         "x388": {
             "name_en": "Petit Pteranodon",
             "name_fr": "Ptiranodon",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.KUPO_OF_FORTUNE",
             "patch": "5.31"
         },
@@ -917,7 +915,7 @@
         "x406": {
             "name_en": "Trike",
             "name_fr": "Trike",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.KUPO_OF_FORTUNE",
             "patch": "5.41"
         },
@@ -925,14 +923,14 @@
             "name_en": "Amaro Hatchling",
             "name_fr": "Bébé Amaro",
             "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.THE_CRYSTARIUM (400 CURRENCY.BICOLOR_GEMSTONE)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.THE_CRYSTARIUM (400 CURRENCY.GEMSTONE.BICOLOR)",
             "patch": "5.4"
         },
         "x423": {
             "name_en": "Wee Ea",
             "name_fr": "Mini-Éa",
             "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.ULTIMA_THULE (500 CURRENCY.BICOLOR_GEMSTONE)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.ULTIMA_THULE (500 CURRENCY.GEMSTONE.BICOLOR)",
             "patch": "6.0"
         },
         "x433": {
@@ -966,7 +964,7 @@
         "x442": {
             "name_en": "Wind-up Daivadipa",
             "name_fr": "Daïvadipa Miniature",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.FATE",
             "source": "@5 CURRENCY.FATE.DAIVADIPA",
             "patch": "6.0"
         },
@@ -994,7 +992,7 @@
         "x457": {
             "name_en": "Lumini",
             "name_fr": "Lumignon",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.ULTIMA_THULE (8 CURRENCY.SOCIETY.OMICRON)",
             "patch": "6.28"
         },
@@ -1008,8 +1006,8 @@
         "x468": {
             "name_en": "Sky Blue Back",
             "name_fr": "Dronte Échine-bleu Ciel",
-            "category": "@CATEGORY.PURCHASE",
-            "source": "@4,000 CURRENCY.SEAFARERS_COWRY",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
+            "source": "@4,000 CURRENCY.ISLAND.SEAFARERS",
             "patch": "6.3"
         },
         "x484": {
@@ -1101,7 +1099,7 @@
         "x147": {
             "name_en": "Steam-powered Gobwalker G-VII",
             "name_fr": "Gobblindé G-VII À Vapeur",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
             "patch": "3.0"
         },
@@ -1220,7 +1218,7 @@
         "x363": {
             "name_en": "Cerberpup",
             "name_fr": "Cerbère Chiot",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
             "source": "@1,200 CURRENCY.SCRIP.SKYBUILDERS",
             "patch": "5.21"
         },
@@ -1269,14 +1267,14 @@
         "x95": {
             "name_en": "Nana Bear",
             "name_fr": "Ourson De Nanakko",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
             "patch": "2.4"
         },
         "x97": {
             "name_en": "Nutkin",
             "name_fr": "Écureuil Grignoteur",
-            "category": "@CATEGORY.DEEP_DUNGEON",
+            "category": "@CATEGORY.TREASURE_HUNT",
             "source": ["d.174", "duty.treasure-hunt.maps.5", "duty.treasure-hunt.duties.0"],
             "patch": "2.3"
         },
@@ -1341,7 +1339,7 @@
         "x243": {
             "name_en": "Tora-jiro",
             "name_fr": "Tora-jiro",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.THE_HUNT",
             "source": "@800 CURRENCY.SEAL.CENTURIO",
             "patch": "4.0"
         },
@@ -1391,7 +1389,7 @@
         "x288": {
             "name_en": "Komainu",
             "name_fr": "Petit Komainu",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "4.2"
         },
@@ -1448,14 +1446,14 @@
         "x369": {
             "name_en": "The Behelmeted Serpent of Ronka",
             "name_fr": "Grand Serpent De Hopl ?",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.RAK_TIKA (8 CURRENCY.SOCIETY.QITARI)",
             "patch": "5.2"
         },
         "x370": {
             "name_en": "The Behatted Serpent of Ronka",
             "name_fr": "Grand Serpent Des Qitari ?",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.RAK_TIKA (8 CURRENCY.SOCIETY.QITARI)",
             "patch": "5.2"
         },
@@ -1470,7 +1468,7 @@
             "name_en": "Butterfly Effect",
             "name_fr": "Couple De Papillons",
             "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.RAK_TIKA (400 CURRENCY.BICOLOR_GEMSTONE)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.RAK_TIKA (400 CURRENCY.GEMSTONE.BICOLOR)",
             "patch": "5.0"
         },
         "x356": {
@@ -1483,14 +1481,14 @@
         "x387": {
             "name_en": "Sand Fox",
             "name_fr": "Renard Des Sables",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.FAUX_HOLLOWS",
             "source": "@400 CURRENCY.FAUX_LEAF",
             "patch": "5.3"
         },
         "x409": {
             "name_en": "Anteater",
             "name_fr": "Tamandua",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.FAUX_HOLLOWS",
             "source": "@400 CURRENCY.FAUX_LEAF",
             "patch": "5.5"
         },
@@ -1539,7 +1537,7 @@
         "x462": {
             "name_en": "Pterosquirrel",
             "name_fr": "Momonga",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.FAUX_HOLLOWS",
             "source": "@400 CURRENCY.FAUX_LEAF",
             "patch": "6.28"
         },
@@ -1560,14 +1558,14 @@
         "x467": {
             "name_en": "Corgi",
             "name_fr": "Corgi",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.FAUX_HOLLOWS",
             "source": "@400 CURRENCY.FAUX_LEAF",
             "patch": "6.3"
         },
         "x483": {
             "name_en": "Chimpanzee",
             "name_fr": "Chimpanzé",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.FAUX_HOLLOWS",
             "source": "@400 CURRENCY.FAUX_LEAF",
             "patch": "6.4"
         },
@@ -1588,8 +1586,8 @@
         "x509": {
             "name_en": "Alpaca Cria",
             "name_fr": "Cria Alpaga",
-            "category": "@CATEGORY.PURCHASE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.URQOPACHA (700 CURRENCY.BICOLOR_GEMSTONE)",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.URQOPACHA (700 CURRENCY.GEMSTONE.BICOLOR)",
             "patch": "7.0"
         },
         "x511": {
@@ -1602,8 +1600,8 @@
         "x512": {
             "name_en": "Ilyikty'i",
             "name_fr": "Ilyikty'i",
-            "category": "@CATEGORY.PURCHASE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.YAK_TEL (700 CURRENCY.BICOLOR_GEMSTONE)",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.YAK_TEL (700 CURRENCY.GEMSTONE.BICOLOR)",
             "patch": "7.0"
         },
         "x514": {
@@ -1638,8 +1636,7 @@
             "name_en": "Assassin Fry",
             "name_fr": "Fretin Assassin",
             "category": "@CATEGORY.OTHER",
-            "source_en": "Desynthesize a Ninja Betta",
-            "source_fr": "Recyclage d'un betta assassin",
+            "source": "@SOURCE.DESYNTHESIS (logs.gathering.fishing-guide.fishing.page-3.82)",
             "patch": "2.4"
         },
         "x241": {
@@ -1671,8 +1668,8 @@
         "x481": {
             "name_en": "Posher Otter",
             "name_fr": "Loutre Choute Fringante",
-            "category": "@CATEGORY.PURCHASE",
-            "source": "@4,000 CURRENCY.SEAFARERS_COWRY",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
+            "source": "@4,000 CURRENCY.ISLAND.SEAFARERS",
             "patch": "6.4"
         },
         "x258": {
@@ -1712,7 +1709,7 @@
         "x340": {
             "name_en": "Bitty Duckbill",
             "name_fr": "Ornithorynque Nain",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.THE_HUNT",
             "source": "@800 CURRENCY.SACK_OF_NUTS",
             "patch": "5.0"
         },
@@ -1775,7 +1772,7 @@
         "x16": {
             "name_en": "Bluebird",
             "name_fr": "Oiseau Bleu",
-            "category": "@CATEGORY.DEEP_DUNGEON",
+            "category": "@CATEGORY.TREASURE_HUNT",
             "source": [
                 "d.174",
                 "duty.treasure-hunt.maps.4",
@@ -1809,7 +1806,7 @@
         "x162": {
             "name_en": "Hunting Hawk",
             "name_fr": "Buse Chasseuse",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.DEEP_DUNGEON",
             "source": ["d.540", "@800 CURRENCY.SCRIP.SKYBUILDERS"],
             "patch": "3.1"
         },
@@ -1886,14 +1883,14 @@
         "x53": {
             "name_en": "Wind-up Qiqirn",
             "name_fr": "Qiqirn Mécanique",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
             "patch": "2.1"
         },
         "x256": {
             "name_en": "Wind-up Meateater",
             "name_fr": "Croque-viande Mécanique",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.THE_HUNT",
             "source": "@800 CURRENCY.SEAL.CENTURIO",
             "patch": "4.0"
         },
@@ -1914,7 +1911,7 @@
         "x302": {
             "name_en": "Attendee #777",
             "name_fr": "Namazu Nain Festif",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_AZIM_STEPPE (7 CURRENCY.SOCIETY.NAMAZU)",
             "patch": "4.3"
         },
@@ -1928,7 +1925,7 @@
         "x342": {
             "name_en": "Giant Beaver",
             "name_fr": "Castor Géant",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.TRIAL",
             "source_en": "Giant Beaver - Il Mheg - 1 Dancing Wing (Titania) (Required Quests: And Then There Were None, Acht-la Ormh Inn)",
             "source_fr": "Castor géant - Il Mheg - 1 Ailes de Titania (Quêtes requises: Mais où sont les Pixies ?, Passation de pouvoir)",
             "patch": "5.0"
@@ -1950,7 +1947,7 @@
         "x472": {
             "name_en": "Findingway",
             "name_fr": "Findingway",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.MARE_LAMENTORUM (8 CURRENCY.SOCIETY.LOPORRIT)",
             "patch": "6.35"
         },
@@ -1964,14 +1961,14 @@
         "x49": {
             "name_en": "Wind-up Goblin",
             "name_fr": "Gobelin Articulé",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "2.1"
         },
         "x158": {
             "name_en": "Wind-up Illuminatus",
             "name_fr": "Gobelin de la Mimine Bleue",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
             "patch": "3.1"
         },
@@ -1985,140 +1982,140 @@
         "x50": {
             "name_en": "Wind-up Sylph",
             "name_fr": "Sylphe Nain",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.EAST_SHROUD (25,000 CURRENCY.GIL)",
             "patch": "2.1"
         },
         "x123": {
             "name_en": "Wind-up Violet",
             "name_fr": "Poupée De Méchant Sylphe",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.EAST_SHROUD (25,000 CURRENCY.GIL)",
             "patch": "2.35"
         },
         "x58": {
             "name_en": "Wind-up Amalj'aa",
             "name_fr": "Amalj'aa Mécanique",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.SOUTHERN_THANALAN (25,000 CURRENCY.GIL)",
             "patch": "2.1"
         },
         "x124": {
             "name_en": "Wind-up Founder",
             "name_fr": "Poupée Du Maître Fondateur",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.SOUTHERN_THANALAN (25,000 CURRENCY.GIL)",
             "patch": "2.35"
         },
         "x125": {
             "name_en": "Wind-up Dezul Qualan",
             "name_fr": "Dezul Miniature",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.NORTH_SHROUD (25,000 CURRENCY.GIL)",
             "patch": "2.35"
         },
         "x59": {
             "name_en": "Wind-up Ixal",
             "name_fr": "Ixal Mécanique",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.NORTH_SHROUD (25,000 CURRENCY.GIL)",
             "patch": "2.35"
         },
         "x60": {
             "name_en": "Wind-up Kobold",
             "name_fr": "Poupée Kobolde",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.OUTER_LA_NOSCEA (25,000 CURRENCY.GIL)",
             "patch": "2.2"
         },
         "x126": {
             "name_en": "Wind-up Kobolder",
             "name_fr": "Poupée Kobolde N°2",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.OUTER_LA_NOSCEA (25,000 CURRENCY.GIL)",
             "patch": "2.35"
         },
         "x61": {
             "name_en": "Wind-up Sahagin",
             "name_fr": "Pantin Sahuagin",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.WESTERN_LA_NOSCEA (25,000 CURRENCY.GIL)",
             "patch": "2.2"
         },
         "x127": {
             "name_en": "Wind-up Sea Devil",
             "name_fr": "Démon Des Mers Mécanique",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.WESTERN_LA_NOSCEA (25,000 CURRENCY.GIL)",
             "patch": "2.35"
         },
         "x175": {
             "name_en": "Wind-up Vath",
             "name_fr": "Poupée Vathe",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_DRAVANIAN_FORELANDS (30,000 CURRENCY.GIL)",
             "patch": "3.15"
         },
         "x156": {
             "name_en": "Wind-up Gnath",
             "name_fr": "Poupée Gnathe",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_DRAVANIAN_FORELANDS (30,000 CURRENCY.GIL)",
             "patch": "3.15"
         },
         "x135": {
             "name_en": "Wind-up Gundu Warrior",
             "name_fr": "Poupée Gundu",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_SEA_OF_CLOUDS (30,000 CURRENCY.GIL)",
             "patch": "3.1"
         },
         "x172": {
             "name_en": "Wind-up Zundu Warrior",
             "name_fr": "Poupée Zundu",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_SEA_OF_CLOUDS (30,000 CURRENCY.GIL)",
             "patch": "3.1"
         },
         "x184": {
             "name_en": "Wind-up Dragonet",
             "name_fr": "Mini-dragonnet",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_CHURNING_MISTS (30,000 CURRENCY.GIL)",
             "patch": "3.3"
         },
         "x235": {
             "name_en": "Wind-up Ohl Deeh",
             "name_fr": "Ohl Deeh Miniature",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_CHURNING_MISTS (30,000 CURRENCY.GIL)",
             "patch": "3.5"
         },
         "x266": {
             "name_en": "Wind-up Kojin",
             "name_fr": "Kojin Mécanique",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_RUBY_SEA (5 CURRENCY.SOCIETY.KOJIN)",
             "patch": "4.1"
         },
         "x323": {
             "name_en": "Wind-up Redback",
             "name_fr": "Kojin Rouge Mécanique",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_RUBY_SEA (5 CURRENCY.SOCIETY.KOJIN)",
             "patch": "4.56"
         },
         "x277": {
             "name_en": "Wind-up Ananta",
             "name_fr": "Poupée Ananta",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_FRINGES (7 CURRENCY.SOCIETY.ANANTA)",
             "patch": "4.2"
         },
         "x322": {
             "name_en": "Wind-up Qalyana",
             "name_fr": "Poupée Qalyana",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_FRINGES (7 CURRENCY.SOCIETY.ANANTA)",
             "patch": "4.56"
         },
@@ -2132,98 +2129,98 @@
         "x354": {
             "name_en": "Wind-up Pixie",
             "name_fr": "Pixie Miniature",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.IL_MHEG (8 CURRENCY.SOCIETY.PIXIE)",
             "patch": "5.1"
         },
         "x444": {
             "name_en": "Wind-up Arkasodara",
             "name_fr": "Arkasodara Miniature",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THAVNAIR (8 CURRENCY.SOCIETY.ARKASODARA)",
             "patch": "6.28"
         },
         "x168": {
             "name_en": "Wind-up Ifrit",
             "name_fr": "Petit Ifrit",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": ["d.540", "@SOURCE.CRAFTED (CLASS_JOB.WVR)"],
             "patch": "3.1"
         },
         "x169": {
             "name_en": "Wind-up Garuda",
             "name_fr": "Petite Garuda",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": ["d.540", "@SOURCE.CRAFTED (CLASS_JOB.WVR)"],
             "patch": "3.15"
         },
         "x170": {
             "name_en": "Wind-up Titan",
             "name_fr": "Petit Titan",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": ["d.540", "@SOURCE.CRAFTED (CLASS_JOB.WVR)"],
             "patch": "3.15"
         },
         "x171": {
             "name_en": "Wind-up Leviathan",
             "name_fr": "Petit Léviathan",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": ["d.540", "@SOURCE.CRAFTED (CLASS_JOB.WVR)"],
             "patch": "3.15"
         },
         "x185": {
             "name_en": "Wind-up Ramuh",
             "name_fr": "Petit Ramuh",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": ["d.540", "@SOURCE.CRAFTED (CLASS_JOB.WVR)"],
             "patch": "3.3"
         },
         "x186": {
             "name_en": "Wind-up Shiva",
             "name_fr": "Petite Shiva",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": ["d.540", "@SOURCE.CRAFTED (CLASS_JOB.WVR)"],
             "patch": "3.3"
         },
         "x76": {
             "name_en": "Wind-up Odin",
             "name_fr": "Odin Mécanique",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "2.2"
         },
         "x263": {
             "name_en": "Wind-up Bismarck",
             "name_fr": "Petit Bismarck",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": ["d.540", "@SOURCE.CRAFTED (CLASS_JOB.WVR)"],
             "patch": "4.0"
         },
         "x265": {
             "name_en": "Wind-up Ravana",
             "name_fr": "Petit Ravana",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": ["d.540", "@SOURCE.CRAFTED (CLASS_JOB.WVR)"],
             "patch": "4.1"
         },
         "x261": {
             "name_en": "Wind-up Susano",
             "name_fr": "Petit Susano",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": ["d.540", "@SOURCE.CRAFTED (CLASS_JOB.WVR)"],
             "patch": "4.0"
         },
         "x262": {
             "name_en": "Wind-up Lakshmi",
             "name_fr": "Petite Lakshmi",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": ["d.540", "@SOURCE.CRAFTED (CLASS_JOB.WVR)"],
             "patch": "4.0"
         },
         "x275": {
             "name_en": "Wind-up Shinryu",
             "name_fr": "Mini-Shinryu",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
             "patch": "4.1"
         },
@@ -2239,14 +2236,14 @@
         "x284": {
             "name_en": "Byakko Cub",
             "name_fr": "Bébé Byakko",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
             "patch": "4.2"
         },
         "x303": {
             "name_en": "Scarlet Peacock",
             "name_fr": "Paonne Vermillon",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
             "patch": "4.4"
         },
@@ -2262,7 +2259,7 @@
         "x327": {
             "name_en": "Seitei",
             "name_fr": "Dragonnet Azur",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
             "patch": "4.5"
         },
@@ -2304,7 +2301,7 @@
         "x488": {
             "name_en": "Wind-up Barbariccia",
             "name_fr": "Barbariccia Miniature",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
             "patch": "6.4"
         },
@@ -2501,7 +2498,7 @@
         "x71": {
             "name_en": "Wind-up Leader",
             "name_fr": "Dirigeant Miniature",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "2.1"
         },
@@ -2515,7 +2512,7 @@
         "x84": {
             "name_en": "Wind-up Nanamo",
             "name_fr": "Nanamo Miniature",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "2.45"
         },
@@ -2580,7 +2577,7 @@
         "x360": {
             "name_en": "Dress-up Estinien",
             "name_fr": "Nouvel Estinien Miniature",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
             "source": "@1,200 CURRENCY.SCRIP.SKYBUILDERS",
             "patch": "5.11"
         },
@@ -2633,14 +2630,14 @@
         "x282": {
             "name_en": "Wind-up Magnai",
             "name_fr": "Magnai Miniature",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
             "patch": "4.3"
         },
         "x294": {
             "name_en": "Wind-up Sadu",
             "name_fr": "Sadu Miniature",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
             "patch": "4.3"
         },
@@ -2733,7 +2730,7 @@
         "x418": {
             "name_en": "Wind-up Gunnhildr",
             "name_fr": "Gunnhildr Miniature",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source": "@100 CURRENCY.BOZJAN_CLUSTER",
             "patch": "5.55"
         },
@@ -2820,7 +2817,7 @@
         "x85": {
             "name_en": "Wind-up Gilgamesh",
             "name_fr": "Pantin Gilgamesh",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "2.3"
         },
@@ -2925,8 +2922,7 @@
             "name_en": "Cait Sith Doll",
             "name_fr": "Poupée Cait Sith",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "A Realm Reborn Pre-order",
-            "source_fr": "Précommande de FFXIV: ARR (édition complète ou standard)",
+            "source": "@SOURCE.PREORDER (EXPANSION.ARR)",
             "patch": "2.0",
             "defaultCompletion": "X"
         },
@@ -2959,7 +2955,7 @@
         "x191": {
             "name_en": "Wind-up Cheerleader",
             "name_fr": "Marionnette Majorette",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PVP",
             "source": "@15,000 CURRENCY.WOLF_MARK",
             "patch": "3.3"
         },
@@ -2981,7 +2977,7 @@
         "x255": {
             "name_en": "Wind-up Chimera",
             "name_fr": "Chimère Mécanique",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
             "patch": "4.0"
         },
@@ -3044,7 +3040,7 @@
             "name_en": "Little Leafman",
             "name_fr": "Enfeuillé Miniature",
             "category": "@CATEGORY.FATE",
-            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.IL_MHEG (400 CURRENCY.BICOLOR_GEMSTONE)",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.IL_MHEG (400 CURRENCY.GEMSTONE.BICOLOR)",
             "patch": "5.2"
         },
         "x374": {
@@ -3064,21 +3060,21 @@
         "x456": {
             "name_en": "Felicitous Fuzzball",
             "name_fr": "Madmiaouselle",
-            "category": "@CATEGORY.PURCHASE",
-            "source": "@4,000 CURRENCY.SEAFARERS_COWRY",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
+            "source": "@4,000 CURRENCY.ISLAND.SEAFARERS",
             "patch": "6.28"
         },
         "x496": {
             "name_en": "Vicarious Vacationer",
             "name_fr": "Barnabaigneur",
-            "category": "@CATEGORY.PURCHASE",
-            "source": "@4,000 CURRENCY.SEAFARERS_COWRY",
+            "category": "@CATEGORY.ISLAND_SANCTUARY",
+            "source": "@4,000 CURRENCY.ISLAND.SEAFARERS",
             "patch": "6.5"
         },
         "x534": {
             "name_en": "Wind-up Pelupelu",
             "name_fr": "Pelupelu Miniature",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.KOZAMAUKA (8 CURRENCY.SOCIETY.PELUPELU)",
             "patch": "7.1"
         },
@@ -3101,7 +3097,7 @@
         "x43": {
             "name_en": "Model Vanguard",
             "name_fr": "Maquette Magitek",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.GSM)",
             "patch": "2.1"
         },
@@ -3117,7 +3113,7 @@
         "x100": {
             "name_en": "Model Magitek Bit",
             "name_fr": "Micro-drone Magitek",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.BSM)",
             "patch": "2.5"
         },
@@ -3145,7 +3141,7 @@
         "x324": {
             "name_en": "Minitek Conveyor",
             "name_fr": "Transporteur Miniature",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PVP",
             "source": "@15,000 CURRENCY.WOLF_MARK",
             "patch": "4.5"
         },
@@ -3208,7 +3204,7 @@
         "x446": {
             "name_en": "Protonaught",
             "name_fr": "Proto-Dreadnaught",
-            "category": "@CATEGORY.OTHER",
+            "category": "@CATEGORY.PVP",
             "source": "@1,000 CURRENCY.TROPHY_CRYSTAL",
             "patch": "6.1"
         },
@@ -3236,7 +3232,7 @@
         "x475": {
             "name_en": "Bantam Train",
             "name_fr": "Train Petit Mais Costaud",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.ARM)",
             "patch": "6.3"
         },
@@ -3273,7 +3269,7 @@
         "x535": {
             "name_en": "Tin Soldier S3",
             "name_fr": "Soldat D'étain S3",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.FAUX_HOLLOWS",
             "source": "@400 CURRENCY.FAUX_LEAF",
             "patch": "7.1"
         },
@@ -3287,7 +3283,7 @@
         "x51": {
             "name_en": "Wind-up Cursor",
             "name_fr": "Curseur Flottant",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "2.1"
         },
@@ -3310,21 +3306,21 @@
         "x66": {
             "name_en": "Plush Cushion",
             "name_fr": "Coussin Moelleux",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
             "patch": "2.2"
         },
         "x328": {
             "name_en": "Zephyrous Zabuton",
             "name_fr": "Coussin Zabuton Moelleux",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_RUBY_SEA (5 CURRENCY.SOCIETY.KOJIN)",
             "patch": "4.56"
         },
         "x81": {
             "name_en": "Magic Broom",
             "name_fr": "Balai Enchanté",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.CRP)",
             "patch": "2.2"
         },
@@ -3345,7 +3341,7 @@
         "x140": {
             "name_en": "Clockwork Barrow",
             "name_fr": "Brouette Mécanique",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.CRP)",
             "patch": "3.0"
         },
@@ -3369,21 +3365,21 @@
         "x188": {
             "name_en": "Magic Bucket",
             "name_fr": "Seau D'eau Magique",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.GATHERING",
             "source": "@SOURCE.GATHERED (CLASS_JOB.FSH)",
             "patch": "3.3"
         },
         "x278": {
             "name_en": "Private Moai",
             "name_fr": "Mini Moai",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.BSM)",
             "patch": "4.2"
         },
         "x291": {
             "name_en": "Clockwork Lantern",
             "name_fr": "Lanterne Mécanique",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.PVP",
             "source": "@15,000 CURRENCY.WOLF_MARK",
             "patch": "4.3"
         },
@@ -3411,14 +3407,14 @@
         "x414": {
             "name_en": "Wanderer's Campfire",
             "name_fr": "Feu De Camp De Voyageur",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.ALC)",
             "patch": "5.5"
         },
         "x436": {
             "name_en": "Adventure Basket",
             "name_fr": "Malle D'aventure",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
             "patch": "6.0"
         },
@@ -3432,7 +3428,7 @@
         "x495": {
             "name_en": "Kydonia Strolls",
             "name_fr": "Rocher De Cydonia",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.FAUX_HOLLOWS",
             "source": "@400 CURRENCY.FAUX_LEAF",
             "patch": "6.5"
         },
@@ -3446,7 +3442,7 @@
         "x67": {
             "name_en": "Minion of Light",
             "name_fr": "Héros de la Lumière",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "2.1"
         },
@@ -3454,22 +3450,21 @@
             "name_en": "Wind-up Red Mage",
             "name_fr": "Mage Rouge Mécanique",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Stormblood Pre-order",
-            "source_fr": "Précommande de Stormblood",
+            "source": "@SOURCE.PREORDER (EXPANSION.SB)",
             "patch": "4.0",
             "defaultCompletion": "X"
         },
         "x77": {
             "name_en": "Wind-up Warrior of Light",
             "name_fr": "Guerrier de la Lumière",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "2.2"
         },
         "x167": {
             "name_en": "Wind-up Firion",
             "name_fr": "Firion Miniature",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT_CERTIFICATE)",
             "patch": "3.07"
         },
@@ -3510,8 +3505,7 @@
             "name_en": "Wind-up Palom",
             "name_fr": "Palom Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Endwalker Pre-order",
-            "source_fr": "Précommande d'Endwalker",
+            "source": "@SOURCE.PREORDER (EXPANSION.EW)",
             "patch": "5.5",
             "defaultCompletion": "X"
         },
@@ -3602,8 +3596,7 @@
             "name_en": "Wind-up Zidane",
             "name_fr": "Djidane Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source_en": "Dawntrail Pre-order",
-            "source_fr": "Précommande de Dawntrail",
+            "source": "@SOURCE.PREORDER (EXPANSION.DT)",
             "patch": "6.58"
         },
         "x505": {
@@ -3676,7 +3669,7 @@
         "x380": {
             "name_en": "Lalinator 5.H0",
             "name_fr": "Nain Lali-ho",
-            "category": "@CATEGORY.BEAST_TRIBE",
+            "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.LAKELAND (8 CURRENCY.SOCIETY.DWARF)",
             "patch": "5.3"
         },
@@ -3890,16 +3883,18 @@
         "x499": {
             "name_en": "Pink Bean",
             "name_fr": "Haricot Rose",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.EVENT",
             "source": "@350 CURRENCY.MGF",
-            "patch": "6.51"
+            "patch": "6.51",
+            "defaultCompletion": "X"
         },
         "x500": {
             "name_en": "Pegwin",
             "name_fr": "Pegwin",
-            "category": "@CATEGORY.PURCHASE",
+            "category": "@CATEGORY.EVENT",
             "source": "@350 CURRENCY.MGF",
-            "patch": "6.51"
+            "patch": "6.51",
+            "defaultCompletion": "X"
         }
     }
 }
