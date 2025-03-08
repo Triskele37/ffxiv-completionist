@@ -6,7 +6,7 @@
         "x0": {
             "name_en": "Antiquated Pleiades",
             "name_fr": "Pléiade vieillie",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
@@ -15,7 +15,7 @@
         "x1": {
             "name_en": "Pleiades",
             "name_fr": "Pléiade",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
@@ -25,7 +25,7 @@
         "x2": {
             "name_en": "Pleiades +1",
             "name_fr": "Pléiade +1",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
@@ -35,7 +35,7 @@
         "x3": {
             "name_en": "Pleiades +2",
             "name_fr": "Pléiade +2",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
@@ -45,7 +45,7 @@
         "x4": {
             "name_en": "Pleiades Anemos",
             "name_fr": "Pléiade Anemos",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
@@ -56,7 +56,7 @@
         "x5": {
             "name_en": "Pleiades Pagos",
             "name_fr": "Pléiade Pagos",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
@@ -66,7 +66,7 @@
         "x6": {
             "name_en": "Pleiades Pagos +1",
             "name_fr": "Pléiade Pagos +1",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "365",
             "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
             "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
@@ -76,7 +76,7 @@
         "x7": {
             "name_en": "Elemental Astrometer",
             "name_fr": "Planisphère élémentaire",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "370",
             "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
             "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
@@ -87,7 +87,7 @@
         "x8": {
             "name_en": "Elemental Astrometer +1",
             "name_fr": "Planisphère élémentaire +1",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
@@ -97,7 +97,7 @@
         "x9": {
             "name_en": "Elemental Astrometer +2",
             "name_fr": "Planisphère élémentaire +2",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
@@ -107,7 +107,7 @@
         "x10": {
             "name_en": "Pyros Astrometer",
             "name_fr": "Planisphère Pyros",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "385",
             "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
             "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
@@ -118,7 +118,7 @@
         "x11": {
             "name_en": "Hydatos Astrometer",
             "name_fr": "Planisphère Hydatos",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
@@ -128,7 +128,7 @@
         "x12": {
             "name_en": "Hydatos Astrometer +1",
             "name_fr": "Planisphère Hydatos +1",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -138,7 +138,7 @@
         "x13": {
             "name_en": "Albireo",
             "name_fr": "Albiréo",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -148,7 +148,7 @@
         "x14": {
             "name_en": "Albireo Eureka",
             "name_fr": "Albiréo Eurêka",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "405",
             "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
             "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
@@ -158,7 +158,7 @@
         "x15": {
             "name_en": "Albireo Physeos",
             "name_fr": "Albiréo personnalisé",
-            "job": "CLASS_JOB.AST",
+            "job": "@CLASS_JOB.AST",
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
@@ -168,7 +168,7 @@
         "x16": {
             "name_en": "Antiquated Failnaught",
             "name_fr": "Arc Qui-ne-faut vieilli",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
@@ -177,7 +177,7 @@
         "x17": {
             "name_en": "Failnaught",
             "name_fr": "Arc Qui-ne-faut",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
@@ -187,7 +187,7 @@
         "x18": {
             "name_en": "Failnaught +1",
             "name_fr": "Arc Qui-ne-faut +1",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
@@ -197,7 +197,7 @@
         "x19": {
             "name_en": "Failnaught +2",
             "name_fr": "Arc Qui-ne-faut +2",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
@@ -207,7 +207,7 @@
         "x20": {
             "name_en": "Failnaught Anemos",
             "name_fr": "Arc Qui-ne-faut Anemos",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
@@ -218,7 +218,7 @@
         "x21": {
             "name_en": "Failnaught Pagos",
             "name_fr": "Arc Qui-ne-faut Pagos",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
@@ -228,7 +228,7 @@
         "x22": {
             "name_en": "Failnaught Pagos +1",
             "name_fr": "Arc Qui-ne-faut Pagos +1",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "365",
             "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
             "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
@@ -238,7 +238,7 @@
         "x23": {
             "name_en": "Elemental Harp Bow",
             "name_fr": "Arc-harpe élémentaire",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "370",
             "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
             "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
@@ -249,7 +249,7 @@
         "x24": {
             "name_en": "Elemental Harp Bow +1",
             "name_fr": "Arc-harpe élémentaire +1",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
@@ -259,7 +259,7 @@
         "x25": {
             "name_en": "Elemental Harp Bow +2",
             "name_fr": "Arc-harpe élémentaire +2",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
@@ -269,7 +269,7 @@
         "x26": {
             "name_en": "Pyros Harp Bow",
             "name_fr": "Arc-harpe Pyros",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "385",
             "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
             "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
@@ -280,7 +280,7 @@
         "x27": {
             "name_en": "Hydatos Harp Bow",
             "name_fr": "Arc-harpe Hydatos",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
@@ -290,7 +290,7 @@
         "x28": {
             "name_en": "Hydatos Harp Bow +1",
             "name_fr": "Arc-harpe Hydatos +1",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -300,7 +300,7 @@
         "x29": {
             "name_en": "Circinae",
             "name_fr": "Circinae",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -310,7 +310,7 @@
         "x30": {
             "name_en": "Circinae Eureka",
             "name_fr": "Circinae Eurêka",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "405",
             "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
             "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
@@ -320,7 +320,7 @@
         "x31": {
             "name_en": "Circinae Physeos",
             "name_fr": "Circinea personnalisé",
-            "job": "CLASS_JOB.BRD",
+            "job": "@CLASS_JOB.BRD",
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
@@ -330,7 +330,7 @@
         "x32": {
             "name_en": "Antiquated Vanargand",
             "name_fr": "Vanargand vieilli",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
@@ -339,7 +339,7 @@
         "x33": {
             "name_en": "Vanargand",
             "name_fr": "Vanargand",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
@@ -349,7 +349,7 @@
         "x34": {
             "name_en": "Vanargand +1",
             "name_fr": "Vanargand +1",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
@@ -359,7 +359,7 @@
         "x35": {
             "name_en": "Vanargand +2",
             "name_fr": "Vanargand +2",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
@@ -369,7 +369,7 @@
         "x36": {
             "name_en": "Vanargand Anemos",
             "name_fr": "Vanargand Anemos",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
@@ -380,7 +380,7 @@
         "x37": {
             "name_en": "Vanargand Pagos",
             "name_fr": "Vanargand Pagos",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
@@ -390,7 +390,7 @@
         "x38": {
             "name_en": "Vanargand Pagos +1",
             "name_fr": "Vanargand Pagos +1",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "365",
             "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
             "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
@@ -400,7 +400,7 @@
         "x39": {
             "name_en": "Elemental Rod",
             "name_fr": "Sceptre élémentaire",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "370",
             "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
             "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
@@ -411,7 +411,7 @@
         "x40": {
             "name_en": "Elemental Rod +1",
             "name_fr": "Sceptre élémentaire +1",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
@@ -421,7 +421,7 @@
         "x41": {
             "name_en": "Elemental Rod +2",
             "name_fr": "Sceptre élémentaire +2",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
@@ -431,7 +431,7 @@
         "x42": {
             "name_en": "Pyros Rod",
             "name_fr": "Sceptre Pyros",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "385",
             "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
             "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
@@ -442,7 +442,7 @@
         "x43": {
             "name_en": "Hydatos Rod",
             "name_fr": "Sceptre Hydatos",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
@@ -452,7 +452,7 @@
         "x44": {
             "name_en": "Hydatos Rod +1",
             "name_fr": "Sceptre Hydatos +1",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -462,7 +462,7 @@
         "x45": {
             "name_en": "Paikea",
             "name_fr": "Paikea",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -472,7 +472,7 @@
         "x46": {
             "name_en": "Paikea Eureka",
             "name_fr": "Paikea Eurêka",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "405",
             "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
             "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
@@ -482,7 +482,7 @@
         "x47": {
             "name_en": "Paikea Physeos",
             "name_fr": "Paikea personnalisé",
-            "job": "CLASS_JOB.BLM",
+            "job": "@CLASS_JOB.BLM",
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
@@ -492,7 +492,7 @@
         "x48": {
             "name_en": "Antiquated Caladbolg",
             "name_fr": "Caladbolg vieilli",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
@@ -501,7 +501,7 @@
         "x49": {
             "name_en": "Caladbolg",
             "name_fr": "Caladbolg",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
@@ -511,7 +511,7 @@
         "x50": {
             "name_en": "Caladbolg +1",
             "name_fr": "Caladbolg +1",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
@@ -521,7 +521,7 @@
         "x51": {
             "name_en": "Caladbolg +2",
             "name_fr": "Caladbolg +2",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
@@ -531,7 +531,7 @@
         "x52": {
             "name_en": "Caladbolg Anemos",
             "name_fr": "Caladbolg Anemos",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
@@ -542,7 +542,7 @@
         "x53": {
             "name_en": "Caladbolg Pagos",
             "name_fr": "Caladbolg Pagos",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
@@ -552,7 +552,7 @@
         "x54": {
             "name_en": "Caladbolg Pagos +1",
             "name_fr": "Caladbolg Pagos +1",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "365",
             "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
             "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
@@ -562,7 +562,7 @@
         "x55": {
             "name_en": "Elemental Guillotine",
             "name_fr": "Fendoir élémentaire",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "370",
             "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
             "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
@@ -573,7 +573,7 @@
         "x56": {
             "name_en": "Elemental Guillotine +1",
             "name_fr": "Fendoir élémentaire +1",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
@@ -583,7 +583,7 @@
         "x57": {
             "name_en": "Elemental Guillotine +2",
             "name_fr": "Fendoir élémentaire +2",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
@@ -593,7 +593,7 @@
         "x58": {
             "name_en": "Pyros Guillotine",
             "name_fr": "Fendoir Pyros",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "385",
             "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
             "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
@@ -604,7 +604,7 @@
         "x59": {
             "name_en": "Hydatos Guillotine",
             "name_fr": "Fendoir Hydatos",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
@@ -614,7 +614,7 @@
         "x60": {
             "name_en": "Hydatos Guillotine +1",
             "name_fr": "Fendoir Hydatos +1",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -624,7 +624,7 @@
         "x61": {
             "name_en": "Xiphias",
             "name_fr": "Xiphias",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -634,7 +634,7 @@
         "x62": {
             "name_en": "Xiphias Eureka",
             "name_fr": "Xiphias Eurêka",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "405",
             "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
             "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
@@ -644,7 +644,7 @@
         "x63": {
             "name_en": "Xiphias Physeos",
             "name_fr": "Xiphias personnalisé",
-            "job": "CLASS_JOB.DRK",
+            "job": "@CLASS_JOB.DRK",
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
@@ -654,7 +654,7 @@
         "x64": {
             "name_en": "Antiquated Ryunohige",
             "name_fr": "Ryûnohige vieilli",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
@@ -663,7 +663,7 @@
         "x65": {
             "name_en": "Ryunohige",
             "name_fr": "Ryûnohige",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
@@ -673,7 +673,7 @@
         "x66": {
             "name_en": "Ryunohige +1",
             "name_fr": "Ryûnohige +1",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
@@ -683,7 +683,7 @@
         "x67": {
             "name_en": "Ryunohige +2",
             "name_fr": "Ryûnohige +2",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
@@ -693,7 +693,7 @@
         "x68": {
             "name_en": "Ryunohige Anemos",
             "name_fr": "Ryûnohige Anemos",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
@@ -704,7 +704,7 @@
         "x69": {
             "name_en": "Ryunohige Pagos",
             "name_fr": "Ryûnohige Pagos",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
@@ -714,7 +714,7 @@
         "x70": {
             "name_en": "Ryunohige Pagos +1",
             "name_fr": "Ryûnohige Pagos +1",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "365",
             "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
             "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
@@ -724,7 +724,7 @@
         "x71": {
             "name_en": "Elemental Lance",
             "name_fr": "Lance élémentaire",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "370",
             "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
             "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
@@ -735,7 +735,7 @@
         "x72": {
             "name_en": "Elemental Lance +1",
             "name_fr": "Lance élémentaire +1",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
@@ -745,7 +745,7 @@
         "x73": {
             "name_en": "Elemental Lance +2",
             "name_fr": "Lance élémentaire +2",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
@@ -755,7 +755,7 @@
         "x74": {
             "name_en": "Pyros Lance",
             "name_fr": "Lance Pyros",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "385",
             "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
             "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
@@ -766,7 +766,7 @@
         "x75": {
             "name_en": "Hydatos Lance",
             "name_fr": "Lance Hydatos",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
@@ -776,7 +776,7 @@
         "x76": {
             "name_en": "Hydatos Lance +1",
             "name_fr": "Lance Hydatos +1",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -786,7 +786,7 @@
         "x77": {
             "name_en": "Daboya",
             "name_fr": "Daboya",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -796,7 +796,7 @@
         "x78": {
             "name_en": "Daboya Eureka",
             "name_fr": "Daboya Eurêka",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "405",
             "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
             "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
@@ -806,7 +806,7 @@
         "x79": {
             "name_en": "Daboya Physeos",
             "name_fr": "Daboya personnalisé",
-            "job": "CLASS_JOB.DRG",
+            "job": "@CLASS_JOB.DRG",
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
@@ -816,7 +816,7 @@
         "x80": {
             "name_en": "Antiquated Outsider",
             "name_fr": "Outsider vieilli",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
@@ -825,7 +825,7 @@
         "x81": {
             "name_en": "Outsider",
             "name_fr": "Outsider",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
@@ -835,7 +835,7 @@
         "x82": {
             "name_en": "Outsider +1",
             "name_fr": "Outsider +1",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
@@ -845,7 +845,7 @@
         "x83": {
             "name_en": "Outsider +2",
             "name_fr": "Outsider +2",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
@@ -855,7 +855,7 @@
         "x84": {
             "name_en": "Outsider Anemos",
             "name_fr": "Outsider Anemos",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
@@ -866,7 +866,7 @@
         "x85": {
             "name_en": "Outsider Pagos",
             "name_fr": "Outsider Pagos",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
@@ -876,7 +876,7 @@
         "x86": {
             "name_en": "Outsider Pagos +1",
             "name_fr": "Outsider Pagos +1",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "365",
             "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
             "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
@@ -886,7 +886,7 @@
         "x87": {
             "name_en": "Elemental Handgonne",
             "name_fr": "Haquebute élémentaire",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "370",
             "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
             "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
@@ -897,7 +897,7 @@
         "x88": {
             "name_en": "Elemental Handgonne +1",
             "name_fr": "Haquebute élémentaire +1",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
@@ -907,7 +907,7 @@
         "x89": {
             "name_en": "Elemental Handgonne +2",
             "name_fr": "Haquebute élémentaire +2",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
@@ -917,7 +917,7 @@
         "x90": {
             "name_en": "Pyros Handgonne",
             "name_fr": "Haquebute Pyros",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "385",
             "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
             "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
@@ -928,7 +928,7 @@
         "x91": {
             "name_en": "Hydatos Handgonne",
             "name_fr": "Haquebute Hydatos",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
@@ -938,7 +938,7 @@
         "x92": {
             "name_en": "Hydatos Handgonne +1",
             "name_fr": "Haquebute Hydatos +1",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -948,7 +948,7 @@
         "x93": {
             "name_en": "Mollfrith",
             "name_fr": "Mollfrith",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -958,7 +958,7 @@
         "x94": {
             "name_en": "Mollfrith Eureka",
             "name_fr": "Mollfrith Eurêka",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "405",
             "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
             "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
@@ -968,7 +968,7 @@
         "x95": {
             "name_en": "Mollfrith Physeos",
             "name_fr": "Mollfrith personnalisée",
-            "job": "CLASS_JOB.MCH",
+            "job": "@CLASS_JOB.MCH",
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
@@ -978,7 +978,7 @@
         "x96": {
             "name_en": "Antiquated Sudarshana Chakra",
             "name_fr": "Chakras Sudarshana vieillis",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
@@ -987,7 +987,7 @@
         "x97": {
             "name_en": "Sudarshana Chakra",
             "name_fr": "Chakras Sudarshana",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
@@ -997,7 +997,7 @@
         "x98": {
             "name_en": "Sudarshana Chakra +1",
             "name_fr": "Chakras Sudarshana +1",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
@@ -1007,7 +1007,7 @@
         "x99": {
             "name_en": "Sudarshana Chakra +2",
             "name_fr": "Chakras Sudarshana +2",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
@@ -1017,7 +1017,7 @@
         "x100": {
             "name_en": "Sudarshana Chakra Anemos",
             "name_fr": "Chakras Sudarshana Anemos",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
@@ -1028,7 +1028,7 @@
         "x101": {
             "name_en": "Sudarshana Chakra Pagos",
             "name_fr": "Chakras Sudarshana Pagos",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
@@ -1038,7 +1038,7 @@
         "x102": {
             "name_en": "Sudarshana Chakra Pagos +1",
             "name_fr": "Chakras Sudarshana Pagos +1",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "365",
             "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
             "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
@@ -1048,7 +1048,7 @@
         "x103": {
             "name_en": "Elemental Knuckles",
             "name_fr": "Poings élémentaires",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "370",
             "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
             "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
@@ -1059,7 +1059,7 @@
         "x104": {
             "name_en": "Elemental Knuckles +1",
             "name_fr": "Poings élémentaires +1",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
@@ -1069,7 +1069,7 @@
         "x105": {
             "name_en": "Elemental Knuckles +2",
             "name_fr": "Poings élémentaires +2",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
@@ -1079,7 +1079,7 @@
         "x106": {
             "name_en": "Pyros Knuckles",
             "name_fr": "Poings Pyros",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "385",
             "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
             "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
@@ -1090,7 +1090,7 @@
         "x107": {
             "name_en": "Hydatos Knuckles",
             "name_fr": "Poings Hydatos",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
@@ -1100,7 +1100,7 @@
         "x108": {
             "name_en": "Hydatos Knuckles +1",
             "name_fr": "Poings Hydatos +1",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -1110,7 +1110,7 @@
         "x109": {
             "name_en": "Dumuzis",
             "name_fr": "Dumuzi",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -1120,7 +1120,7 @@
         "x110": {
             "name_en": "Dumuzis Eureka",
             "name_fr": "Dumuzi Eurêka",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "405",
             "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
             "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
@@ -1130,7 +1130,7 @@
         "x111": {
             "name_en": "Dumuzis Physeos",
             "name_fr": "Dumuzi personnalisés",
-            "job": "CLASS_JOB.MNK",
+            "job": "@CLASS_JOB.MNK",
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
@@ -1140,7 +1140,7 @@
         "x112": {
             "name_en": "Antiquated Nagi",
             "name_fr": "Nagi vieillies",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
@@ -1149,7 +1149,7 @@
         "x113": {
             "name_en": "Nagi",
             "name_fr": "Nagi",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
@@ -1159,7 +1159,7 @@
         "x114": {
             "name_en": "Nagi +1",
             "name_fr": "Nagi +1",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
@@ -1169,7 +1169,7 @@
         "x115": {
             "name_en": "Nagi +2",
             "name_fr": "Nagi +2",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
@@ -1179,7 +1179,7 @@
         "x116": {
             "name_en": "Nagi Anemos",
             "name_fr": "Nagi Anemos",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
@@ -1190,7 +1190,7 @@
         "x117": {
             "name_en": "Nagi Pagos",
             "name_fr": "Nagi Pagos",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
@@ -1200,7 +1200,7 @@
         "x118": {
             "name_en": "Nagi Pagos +1",
             "name_fr": "Nagi Pagos +1",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "365",
             "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
             "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
@@ -1210,7 +1210,7 @@
         "x119": {
             "name_en": "Elemental Knives",
             "name_fr": "Couteaux élémentaires",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "370",
             "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
             "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
@@ -1221,7 +1221,7 @@
         "x120": {
             "name_en": "Elemental Knives +1",
             "name_fr": "Couteaux élémentaires +1",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
@@ -1231,7 +1231,7 @@
         "x121": {
             "name_en": "Elemental Knives +2",
             "name_fr": "Couteaux élémentaires +2",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
@@ -1241,7 +1241,7 @@
         "x122": {
             "name_en": "Pyros Knives",
             "name_fr": "Couteaux Pyros",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "385",
             "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
             "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
@@ -1252,7 +1252,7 @@
         "x123": {
             "name_en": "Hydatos Knives",
             "name_fr": "Couteaux Hydatos",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
@@ -1262,7 +1262,7 @@
         "x124": {
             "name_en": "Hydatos Knives +1",
             "name_fr": "Couteaux Hydatos +1",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -1272,7 +1272,7 @@
         "x125": {
             "name_en": "Kasasagi",
             "name_fr": "Kasasagi",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -1282,7 +1282,7 @@
         "x126": {
             "name_en": "Kasasagi Eureka",
             "name_fr": "Kasasagi Eurêka",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "405",
             "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
             "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
@@ -1292,7 +1292,7 @@
         "x127": {
             "name_en": "Kasasagi Physeos",
             "name_fr": "Kasasagi personnalisés",
-            "job": "CLASS_JOB.NIN",
+            "job": "@CLASS_JOB.NIN",
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
@@ -1302,7 +1302,7 @@
         "x128": {
             "name_en": "Antiquated Galatyn & Antiquated Evalach",
             "name_fr": "Galatyn vieilli & Evalach vieilli",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
@@ -1311,7 +1311,7 @@
         "x129": {
             "name_en": "Galatyn & Evalach",
             "name_fr": "Galatyn & Evalach",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
@@ -1321,7 +1321,7 @@
         "x130": {
             "name_en": "Galatyn +1 & Evalach +1",
             "name_fr": "Galatyn +1 & Evalach +1",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
@@ -1331,7 +1331,7 @@
         "x131": {
             "name_en": "Galatyn +2 & Evalach +2",
             "name_fr": "Galatyn +2 & Evalach +2",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
@@ -1341,7 +1341,7 @@
         "x132": {
             "name_en": "Galatyn Anemos & Evalach Anemos",
             "name_fr": "Galatyn Anemos & Evalach Anemos",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
@@ -1352,7 +1352,7 @@
         "x133": {
             "name_en": "Galatyn Pagos & Evalach Pagos",
             "name_fr": "Galatyn Pagos & Evalach Pagos",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
@@ -1362,7 +1362,7 @@
         "x134": {
             "name_en": "Galatyn Pagos +1 & Evalach Pagos +1",
             "name_fr": "Galatyn Pagos +1 & Evalach Pagos +1",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "365",
             "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
             "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
@@ -1372,7 +1372,7 @@
         "x135": {
             "name_en": "Elemental Sword & Elemental Shield",
             "name_fr": "Épée élémentaire & Bouclier élémentaire",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "370",
             "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
             "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
@@ -1383,7 +1383,7 @@
         "x136": {
             "name_en": "Elemental Sword +1 & Elemental Shield +1",
             "name_fr": "Épée élémentaire +1 & Bouclier élémentaire +1",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
@@ -1393,7 +1393,7 @@
         "x137": {
             "name_en": "Elemental Sword +2 & Elemental Shield +2",
             "name_fr": "Épée élémentaire +2 & Bouclier élémentaire +2",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
@@ -1403,7 +1403,7 @@
         "x138": {
             "name_en": "Pyros Sword & Pyros Shield",
             "name_fr": "Épée Pyros & Bouclier Pyros",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "385",
             "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
             "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
@@ -1414,7 +1414,7 @@
         "x139": {
             "name_en": "Hydatos Sword & Hydatos Shield",
             "name_fr": "Épée Hydatos & Bouclier Hydatos",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
@@ -1424,7 +1424,7 @@
         "x140": {
             "name_en": "Hydatos Sword +1 & Hydatos Shield +1",
             "name_fr": "Épée Hydatos +1 & Bouclier Hydatos +1",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -1434,7 +1434,7 @@
         "x141": {
             "name_en": "Antea & Bellerophon",
             "name_fr": "Antea & Béllérophon",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -1444,7 +1444,7 @@
         "x142": {
             "name_en": "Antea Eureka & Bellerophon Eureka",
             "name_fr": "Antea Eurêka & Béllérophon Eurêka",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "405",
             "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
             "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
@@ -1454,7 +1454,7 @@
         "x143": {
             "name_en": "Antea Physeos & Bellerophon Physeos",
             "name_fr": "Antea personnalisé & Béllérophon personnalisé",
-            "job": "CLASS_JOB.PLD",
+            "job": "@CLASS_JOB.PLD",
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
@@ -1464,7 +1464,7 @@
         "x144": {
             "name_en": "Antiquated Murgleis",
             "name_fr": "Murgleis vieillie",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
@@ -1473,7 +1473,7 @@
         "x145": {
             "name_en": "Murgleis",
             "name_fr": "Murgleis",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
@@ -1483,7 +1483,7 @@
         "x146": {
             "name_en": "Murgleis +1",
             "name_fr": "Murgleis +1",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
@@ -1493,7 +1493,7 @@
         "x147": {
             "name_en": "Murgleis +2",
             "name_fr": "Murgleis +2",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
@@ -1503,7 +1503,7 @@
         "x148": {
             "name_en": "Murgleis Anemos",
             "name_fr": "Murgleis Anemos",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
@@ -1514,7 +1514,7 @@
         "x149": {
             "name_en": "Murgleis Pagos",
             "name_fr": "Murgleis Pagos",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
@@ -1524,7 +1524,7 @@
         "x150": {
             "name_en": "Murgleis Pagos +1",
             "name_fr": "Murgleis Pagos +1",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "365",
             "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
             "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
@@ -1534,7 +1534,7 @@
         "x151": {
             "name_en": "Elemental Tuck",
             "name_fr": "Estoc élémentaire",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "370",
             "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
             "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
@@ -1545,7 +1545,7 @@
         "x152": {
             "name_en": "Elemental Tuck +1",
             "name_fr": "Estoc élémentaire +1",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
@@ -1555,7 +1555,7 @@
         "x153": {
             "name_en": "Elemental Tuck +2",
             "name_fr": "Estoc élémentaire +2",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
@@ -1565,7 +1565,7 @@
         "x154": {
             "name_en": "Pyros Tuck",
             "name_fr": "Estoc Pyros",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "385",
             "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
             "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
@@ -1576,7 +1576,7 @@
         "x155": {
             "name_en": "Hydatos Tuck",
             "name_fr": "Estoc Hydatos",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
@@ -1586,7 +1586,7 @@
         "x156": {
             "name_en": "Hydatos Tuck +1",
             "name_fr": "Estoc Hydatos +1",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -1596,7 +1596,7 @@
         "x157": {
             "name_en": "Brunello",
             "name_fr": "Brunello",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -1606,7 +1606,7 @@
         "x158": {
             "name_en": "Brunello Eureka",
             "name_fr": "Brunello Eurêka",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "405",
             "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
             "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
@@ -1616,7 +1616,7 @@
         "x159": {
             "name_en": "Brunello Physeos",
             "name_fr": "Brunello personnalisé",
-            "job": "CLASS_JOB.RDM",
+            "job": "@CLASS_JOB.RDM",
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
@@ -1626,7 +1626,7 @@
         "x160": {
             "name_en": "Antiquated Kiku-ichimonji",
             "name_fr": "Kiku-Ichimonji vieilli",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
@@ -1635,7 +1635,7 @@
         "x161": {
             "name_en": "Kiku-ichimonji",
             "name_fr": "Kiku-Ichimonji",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
@@ -1645,7 +1645,7 @@
         "x162": {
             "name_en": "Kiku-ichimonji +1",
             "name_fr": "Kiku-Ichimonji +1",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
@@ -1655,7 +1655,7 @@
         "x163": {
             "name_en": "Kiku-ichimonji +2",
             "name_fr": "Kiku-Ichimonji +2",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
@@ -1665,7 +1665,7 @@
         "x164": {
             "name_en": "Kiku-ichimonji Anemos",
             "name_fr": "Kiku-Ichimonji Anemos",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
@@ -1676,7 +1676,7 @@
         "x165": {
             "name_en": "Kiku-ichimonji Pagos",
             "name_fr": "Kiku-Ichimonji Pagos",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
@@ -1686,7 +1686,7 @@
         "x166": {
             "name_en": "Kiku-ichimonji Pagos +1",
             "name_fr": "Kiku-Ichimonji Pagos +1",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "365",
             "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
             "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
@@ -1696,7 +1696,7 @@
         "x167": {
             "name_en": "Elemental Blade",
             "name_fr": "Lame élémentaire",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "370",
             "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
             "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
@@ -1707,7 +1707,7 @@
         "x168": {
             "name_en": "Elemental Blade +1",
             "name_fr": "Lame élémentaire +1",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
@@ -1717,7 +1717,7 @@
         "x169": {
             "name_en": "Elemental Blade +2",
             "name_fr": "Lame élémentaire +2",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
@@ -1727,7 +1727,7 @@
         "x170": {
             "name_en": "Pyros Blade",
             "name_fr": "Lame Pyros",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "385",
             "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
             "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
@@ -1738,7 +1738,7 @@
         "x171": {
             "name_en": "Hydatos Blade",
             "name_fr": "Lame Hydatos",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
@@ -1748,7 +1748,7 @@
         "x172": {
             "name_en": "Hydatos Blade +1",
             "name_fr": "Lame Hydatos +1",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -1758,7 +1758,7 @@
         "x173": {
             "name_en": "Torigashira",
             "name_fr": "Torigashira-no-tachi",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -1768,7 +1768,7 @@
         "x174": {
             "name_en": "Torigashira Eureka",
             "name_fr": "Torigashira-no-tachi Eurêka",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "405",
             "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
             "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
@@ -1778,7 +1778,7 @@
         "x175": {
             "name_en": "Torigashira Physeos",
             "name_fr": "Torigashira-no-tachi personnalisée",
-            "job": "CLASS_JOB.SAM",
+            "job": "@CLASS_JOB.SAM",
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
@@ -1788,7 +1788,7 @@
         "x176": {
             "name_en": "Antiquated Organum",
             "name_fr": "Organum vieilli",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
@@ -1797,7 +1797,7 @@
         "x177": {
             "name_en": "Organum",
             "name_fr": "Organum",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
@@ -1807,7 +1807,7 @@
         "x178": {
             "name_en": "Organum +1",
             "name_fr": "Organum +1",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
@@ -1817,7 +1817,7 @@
         "x179": {
             "name_en": "Organum +2",
             "name_fr": "Organum +2",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
@@ -1827,7 +1827,7 @@
         "x180": {
             "name_en": "Organum Anemos",
             "name_fr": "Organum Anemos",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
@@ -1838,7 +1838,7 @@
         "x181": {
             "name_en": "Organum Pagos",
             "name_fr": "Organum Pagos",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
@@ -1848,7 +1848,7 @@
         "x182": {
             "name_en": "Organum Pagos +1",
             "name_fr": "Organum Pagos +1",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "365",
             "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
             "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
@@ -1858,7 +1858,7 @@
         "x183": {
             "name_en": "Elemental Codex",
             "name_fr": "Codex élémentaire",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "370",
             "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
             "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
@@ -1869,7 +1869,7 @@
         "x184": {
             "name_en": "Elemental Codex +1",
             "name_fr": "Codex élémentaire +1",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
@@ -1879,7 +1879,7 @@
         "x185": {
             "name_en": "Elemental Codex +2",
             "name_fr": "Codex élémentaire +2",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
@@ -1889,7 +1889,7 @@
         "x186": {
             "name_en": "Pyros Codex",
             "name_fr": "Codex Pyros",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "385",
             "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
             "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
@@ -1900,7 +1900,7 @@
         "x187": {
             "name_en": "Hydatos Codex",
             "name_fr": "Codex Hydatos",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
@@ -1910,7 +1910,7 @@
         "x188": {
             "name_en": "Hydatos Codex +1",
             "name_fr": "Codex Hydatos +1",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -1920,7 +1920,7 @@
         "x189": {
             "name_en": "Jebat",
             "name_fr": "Jebat",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -1930,7 +1930,7 @@
         "x190": {
             "name_en": "Jebat Eureka",
             "name_fr": "Jebat Eurêka",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "405",
             "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
             "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
@@ -1940,7 +1940,7 @@
         "x191": {
             "name_en": "Jebat Physeos",
             "name_fr": "Jebat personnalisé",
-            "job": "CLASS_JOB.SCH",
+            "job": "@CLASS_JOB.SCH",
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
@@ -1950,7 +1950,7 @@
         "x192": {
             "name_en": "Antiquated Lemegeton",
             "name_fr": "Lemegeton vieilli",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
@@ -1959,7 +1959,7 @@
         "x193": {
             "name_en": "Lemegeton",
             "name_fr": "Lemegeton",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
@@ -1969,7 +1969,7 @@
         "x194": {
             "name_en": "Lemegeton +1",
             "name_fr": "Lemegeton +1",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
@@ -1979,7 +1979,7 @@
         "x195": {
             "name_en": "Lemegeton +2",
             "name_fr": "Lemegeton +2",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
@@ -1989,7 +1989,7 @@
         "x196": {
             "name_en": "Lemegeton Anemos",
             "name_fr": "Lemegeton Anemos",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
@@ -2000,7 +2000,7 @@
         "x197": {
             "name_en": "Lemegeton Pagos",
             "name_fr": "Lemegeton Pagos",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
@@ -2010,7 +2010,7 @@
         "x198": {
             "name_en": "Lemegeton Pagos +1",
             "name_fr": "Lemegeton Pagos +1",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "365",
             "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
             "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
@@ -2020,7 +2020,7 @@
         "x199": {
             "name_en": "Elemental Grimoire",
             "name_fr": "Grimoire élémentaire",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "370",
             "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
             "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
@@ -2031,7 +2031,7 @@
         "x200": {
             "name_en": "Elemental Grimoire +1",
             "name_fr": "Grimoire élémentaire +1",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
@@ -2041,7 +2041,7 @@
         "x201": {
             "name_en": "Elemental Grimoire +2",
             "name_fr": "Grimoire élémentaire +2",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
@@ -2051,7 +2051,7 @@
         "x202": {
             "name_en": "Pyros Grimoire",
             "name_fr": "Grimoire Pyros",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "385",
             "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
             "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
@@ -2062,7 +2062,7 @@
         "x203": {
             "name_en": "Hydatos Grimoire",
             "name_fr": "Grimoire Hydatos",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
@@ -2072,7 +2072,7 @@
         "x204": {
             "name_en": "Hydatos Grimoire +1",
             "name_fr": "Grimoire Hydatos +1",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -2082,7 +2082,7 @@
         "x205": {
             "name_en": "Tuah",
             "name_fr": "Tuah",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -2092,7 +2092,7 @@
         "x206": {
             "name_en": "Tuah Eureka",
             "name_fr": "Tuah Eurêka",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "405",
             "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
             "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
@@ -2102,7 +2102,7 @@
         "x207": {
             "name_en": "Tuah Physeos",
             "name_fr": "Tuah personnalisé",
-            "job": "CLASS_JOB.SMN",
+            "job": "@CLASS_JOB.SMN",
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
@@ -2112,7 +2112,7 @@
         "x208": {
             "name_en": "Antiquated Farsha",
             "name_fr": "Farsha vieillie",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
@@ -2121,7 +2121,7 @@
         "x209": {
             "name_en": "Farsha",
             "name_fr": "Farsha",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
@@ -2131,7 +2131,7 @@
         "x210": {
             "name_en": "Farsha +1",
             "name_fr": "Farsha +1",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
@@ -2141,7 +2141,7 @@
         "x211": {
             "name_en": "Farsha +2",
             "name_fr": "Farsha +2",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
@@ -2151,7 +2151,7 @@
         "x212": {
             "name_en": "Farsha Anemos",
             "name_fr": "Farsha Anemos",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
@@ -2162,7 +2162,7 @@
         "x213": {
             "name_en": "Farsha Pagos",
             "name_fr": "Farsha Pagos",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
@@ -2172,7 +2172,7 @@
         "x214": {
             "name_en": "Farsha Pagos +1",
             "name_fr": "Farsha Pagos +1",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "365",
             "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
             "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
@@ -2182,7 +2182,7 @@
         "x215": {
             "name_en": "Elemental Battleaxe",
             "name_fr": "Hache de combat élémentaire",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "370",
             "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
             "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
@@ -2193,7 +2193,7 @@
         "x216": {
             "name_en": "Elemental Battleaxe +1",
             "name_fr": "Hache de combat élémentaire +1",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
@@ -2203,7 +2203,7 @@
         "x217": {
             "name_en": "Elemental Battleaxe +2",
             "name_fr": "Hache de combat élémentaire +2",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
@@ -2213,7 +2213,7 @@
         "x218": {
             "name_en": "Pyros Battleaxe",
             "name_fr": "Hache de combat Pyros",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "385",
             "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
             "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
@@ -2224,7 +2224,7 @@
         "x219": {
             "name_en": "Hydatos Battleaxe",
             "name_fr": "Hache de combat Hydatos",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
@@ -2234,7 +2234,7 @@
         "x220": {
             "name_en": "Hydatos Battleaxe +1",
             "name_fr": "Hache de combat Hydatos +1",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -2244,7 +2244,7 @@
         "x221": {
             "name_en": "Shamash",
             "name_fr": "Shamash",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -2254,7 +2254,7 @@
         "x222": {
             "name_en": "Shamash Eureka",
             "name_fr": "Shamash Eurêka",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "405",
             "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
             "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
@@ -2264,7 +2264,7 @@
         "x223": {
             "name_en": "Shamash Physeos",
             "name_fr": "Shamash personnalisé",
-            "job": "CLASS_JOB.WAR",
+            "job": "@CLASS_JOB.WAR",
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",
@@ -2274,7 +2274,7 @@
         "x224": {
             "name_en": "Antiquated Aymur",
             "name_fr": "Aymur vieilli",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "290",
             "requirements_en": "-",
             "requirements_fr": "-",
@@ -2283,7 +2283,7 @@
         "x225": {
             "name_en": "Aymur",
             "name_fr": "Aymur",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "335",
             "requirements_en": "Protean Crystal x100",
             "requirements_fr": "Cristal instable x100",
@@ -2293,7 +2293,7 @@
         "x226": {
             "name_en": "Aymur +1",
             "name_fr": "Aymur +1",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "340",
             "requirements_en": "Protean Crystal x400",
             "requirements_fr": "Cristal instable x400",
@@ -2303,7 +2303,7 @@
         "x227": {
             "name_en": "Aymur +2",
             "name_fr": "Aymur +2",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "345",
             "requirements_en": "Protean Crystal x800",
             "requirements_fr": "Cristal instable x800",
@@ -2313,7 +2313,7 @@
         "x228": {
             "name_en": "Aymur Anemos",
             "name_fr": "Aymur Anemos",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "355",
             "requirements_en": "Pazuzu Feather x3",
             "requirements_fr": "Plume de Pazuzu x3",
@@ -2324,7 +2324,7 @@
         "x229": {
             "name_en": "Aymur Pagos",
             "name_fr": "Aymur Pagos",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "360",
             "requirements_en": "Frosted Protean Crystal x5",
             "requirements_fr": "Cristal instable de glace x5",
@@ -2334,7 +2334,7 @@
         "x230": {
             "name_en": "Aymur Pagos +1",
             "name_fr": "Aymur Pagos +1",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "365",
             "requirements_en": ["Frosted Protean Crystal x10", "Pagos Crystal x500"],
             "requirements_fr": ["Cristal instable de glace x10", "Cristal Pagos x500"],
@@ -2344,7 +2344,7 @@
         "x231": {
             "name_en": "Elemental Cane",
             "name_fr": "Canne élémentaire",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "370",
             "requirements_en": ["Frosted Protean Crystal x16", "Louhi Ice x5"],
             "requirements_fr": ["Cristal instable de glace x16", "Glace de Louhi x5"],
@@ -2355,7 +2355,7 @@
         "x232": {
             "name_en": "Elemental Cane +1",
             "name_fr": "Canne élémentaire +1",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "375",
             "requirements_en": "Pyros Crystal x150",
             "requirements_fr": "Cristal Pyros x150",
@@ -2365,7 +2365,7 @@
         "x233": {
             "name_en": "Elemental Cane +2",
             "name_fr": "Canne élémentaire +2",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "380",
             "requirements_en": "Pyros Crystal x200",
             "requirements_fr": "Cristal Pyros x200",
@@ -2375,7 +2375,7 @@
         "x234": {
             "name_en": "Pyros Cane",
             "name_fr": "Canne Pyros",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "385",
             "requirements_en": ["Pyros Crystal x300", "Penthesilea's Flame x5"],
             "requirements_fr": ["Cristal Pyros x300", "Braises de Penthésilée x5"],
@@ -2386,7 +2386,7 @@
         "x235": {
             "name_en": "Hydatos Cane",
             "name_fr": "Canne Hydatos",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "390",
             "requirements_en": "Hydatos Crystal x50",
             "requirements_fr": "Cristal Hydatos x50",
@@ -2396,7 +2396,7 @@
         "x236": {
             "name_en": "Hydatos Cane +1",
             "name_fr": "Canne Hydatos +1",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "395",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -2406,7 +2406,7 @@
         "x237": {
             "name_en": "Rose Couverte",
             "name_fr": "Rose Couverte",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "400",
             "requirements_en": "Hydatos Crystal x100",
             "requirements_fr": "Cristal Hydatos x100",
@@ -2416,7 +2416,7 @@
         "x238": {
             "name_en": "Rose Couverte Eureka",
             "name_fr": "Rose Couverte Eurêka",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "405",
             "requirements_en": ["Hydatos Crystal x100", "Crystalline Scale x5"],
             "requirements_fr": ["Cristal Hydatos x100", "Écaille de dragon de cristal x5"],
@@ -2426,7 +2426,7 @@
         "x239": {
             "name_en": "Rose Couverte Physeos",
             "name_fr": "Rose Couverte personnalisé",
-            "job": "CLASS_JOB.WHM",
+            "job": "@CLASS_JOB.WHM",
             "iLevel": "405",
             "requirements_en": "Eureka Fragment x100",
             "requirements_fr": "Fragment d'Eurêka x100",

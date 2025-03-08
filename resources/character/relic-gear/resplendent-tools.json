@@ -6,7 +6,7 @@
         "x0": {
             "name_en": "Resplendent Millfiend's Saw",
             "name_fr": "Scie du fiélon de l'établi resplendissante",
-            "job": "CLASS_JOB.CRP",
+            "job": "@CLASS_JOB.CRP",
             "iLevel": "500",
             "requirements_en": "60x Resplendent Carpenter's Final Material",
             "requirements_fr": "60 Matériaux pour outil resplendissant IV (menuisier)"
@@ -14,7 +14,7 @@
         "x1": {
             "name_en": "Resplendent Forgefiend's Hammer",
             "name_fr": "Marteau du fiélon de la forge resplendissant",
-            "job": "CLASS_JOB.BSM",
+            "job": "@CLASS_JOB.BSM",
             "iLevel": "500",
             "requirements_en": "60x Resplendent Blacksmith's Final Material",
             "requirements_fr": "60 Matériaux pour outil resplendissant IV (forgeron)"
@@ -22,7 +22,7 @@
         "x2": {
             "name_en": "Resplendent Hammerfiend's Beetle",
             "name_fr": "Marteau du fiélon de la fonderie resplendissante",
-            "job": "CLASS_JOB.ARM",
+            "job": "@CLASS_JOB.ARM",
             "iLevel": "500",
             "requirements_en": "60x Resplendent Armorer's Final Material",
             "requirements_fr": "60 Matériaux pour outil resplendissant IV (armurier)"
@@ -30,7 +30,7 @@
         "x3": {
             "name_en": "Resplendent Gemfiend's Mallet",
             "name_fr": "Massette du fiélon des gemmes resplendissante",
-            "job": "CLASS_JOB.GSM",
+            "job": "@CLASS_JOB.GSM",
             "iLevel": "500",
             "requirements_en": "60x Resplendent Goldsmith's Final Material",
             "requirements_fr": "60 Matériaux pour outil resplendissant IV (orfèvre)"
@@ -38,7 +38,7 @@
         "x4": {
             "name_en": "Resplendent Hidefiend's Knife",
             "name_fr": "Couteau du fiélon de la peausserie resplendissant",
-            "job": "CLASS_JOB.LTW",
+            "job": "@CLASS_JOB.LTW",
             "iLevel": "500",
             "requirements_en": "60x Resplendent Leatherworker's Final Material",
             "requirements_fr": "60 Matériaux pour outil resplendissant IV (tanneur)"
@@ -46,7 +46,7 @@
         "x5": {
             "name_en": "Resplendent Boltfiend's Needle",
             "name_fr": "Aiguille du fiélon des étoffes resplendissante",
-            "job": "CLASS_JOB.WVR",
+            "job": "@CLASS_JOB.WVR",
             "iLevel": "500",
             "requirements_en": "60x Resplendent Weaver's Final Material",
             "requirements_fr": "60 Matériaux pour outil resplendissant IV (couturier)"
@@ -54,7 +54,7 @@
         "x6": {
             "name_en": "Resplendent Cauldronfiend's Alembic",
             "name_fr": "Alambic du fiélon de l'apothicairerie resplendissant",
-            "job": "CLASS_JOB.ALC",
+            "job": "@CLASS_JOB.ALC",
             "iLevel": "500",
             "requirements_en": "60x Resplendent Alchemist's Final Material",
             "requirements_fr": "60 Matériaux pour outil resplendissant IV (alchimiste)"
@@ -62,7 +62,7 @@
         "x7": {
             "name_en": "Resplendent Galleyfiend's Frypan",
             "name_fr": "Poêle à frire du fiélon des fourneaux resplendissante",
-            "job": "CLASS_JOB.CUL",
+            "job": "@CLASS_JOB.CUL",
             "iLevel": "500",
             "requirements_en": "60x Resplendent Culinarian's Final Material",
             "requirements_fr": "60 Matériaux pour outil resplendissant IV (cuisinier)"
@@ -70,7 +70,7 @@
         "x8": {
             "name_en": "Resplendent Minefiend's Pickaxe",
             "name_fr": "Pioche du fiélon des carrières resplendissante",
-            "job": "CLASS_JOB.MIN",
+            "job": "@CLASS_JOB.MIN",
             "iLevel": "500",
             "requirements": "a.2830",
             "cSiblings": ["a.2830"]
@@ -78,7 +78,7 @@
         "x9": {
             "name_en": "Resplendent Fieldfiend's Hatchet",
             "name_fr": "Hachette du fiélon de l'agronomie resplendissante",
-            "job": "CLASS_JOB.BTN",
+            "job": "@CLASS_JOB.BTN",
             "iLevel": "500",
             "requirements": "a.2831",
             "cSiblings": ["a.2831"]
@@ -86,7 +86,7 @@
         "x10": {
             "name_en": "Resplendent Tacklefiend's Rod",
             "name_fr": "Canne à pêche du fiélon de l'halieutique resplendissante",
-            "job": "CLASS_JOB.FSH",
+            "job": "@CLASS_JOB.FSH",
             "iLevel": "500",
             "requirements": "a.2832",
             "cSiblings": ["a.2832"]

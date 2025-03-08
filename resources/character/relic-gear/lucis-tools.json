@@ -6,7 +6,7 @@
         "x0": {
             "name_en": "Ullikummi",
             "name_fr": "Scie d'Ullikummi",
-            "job": "CLASS_JOB.CRP",
+            "job": "@CLASS_JOB.CRP",
             "iLevel": "55",
             "requirements": "q.66075",
             "cNext": [1],
@@ -15,7 +15,7 @@
         "x1": {
             "name_en": "Ullikummi Supra",
             "name_fr": "Scie d'Ullikummi Supra",
-            "job": "CLASS_JOB.CRP",
+            "job": "@CLASS_JOB.CRP",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
             "requirements_fr": ["Demi-matéria de la maîtrise divine", "Épicéa contreplaqué double"],
@@ -25,7 +25,7 @@
         "x2": {
             "name_en": "Ullikummi Lucis",
             "name_fr": "Scied'Ullikummi Lucis",
-            "job": "CLASS_JOB.CRP",
+            "job": "@CLASS_JOB.CRP",
             "iLevel": "90",
             "requirements_en": "5x Petrified Orb",
             "requirements_fr": ["5 Bille de bois pétrifié", "5 Pierre de lune"],
@@ -35,7 +35,7 @@
         "x3": {
             "name_en": "Vulcan",
             "name_fr": "Marteau de Vulcain",
-            "job": "CLASS_JOB.BSM",
+            "job": "@CLASS_JOB.BSM",
             "iLevel": "55",
             "requirements": "q.65838",
             "cNext": [4],
@@ -44,7 +44,7 @@
         "x4": {
             "name_en": "Vulcan Supra",
             "name_fr": "Marteau de Vulcain Supra",
-            "job": "CLASS_JOB.BSM",
+            "job": "@CLASS_JOB.BSM",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
             "requirements_fr": ["Demi-matéria de la maîtrise divine", "Crochet de sombracier équilibré"],
@@ -54,7 +54,7 @@
         "x5": {
             "name_en": "Vulcan Lucis",
             "name_fr": "Marteau de Vulcain lucis",
-            "job": "CLASS_JOB.BSM",
+            "job": "@CLASS_JOB.BSM",
             "iLevel": "90",
             "requirements_en": "5x Mummer's Daggers",
             "requirements_fr": ["5 Dagues d'acrobate", "5 Pierre de lune"],
@@ -64,7 +64,7 @@
         "x6": {
             "name_en": "Kurdalegon",
             "name_fr": "Marteau de Kurdalaegon",
-            "job": "CLASS_JOB.ARM",
+            "job": "@CLASS_JOB.ARM",
             "iLevel": "55",
             "requirements": "q.65820",
             "cNext": [7],
@@ -73,7 +73,7 @@
         "x7": {
             "name_en": "Kurdalegon Supra",
             "name_fr": "Marteau de Kurdalaegon Supra",
-            "job": "CLASS_JOB.ARM",
+            "job": "@CLASS_JOB.ARM",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
             "requirements_fr": ["Demi-matéria de la maîtrise divine", "Fil de sombracier renforcé"],
@@ -83,7 +83,7 @@
         "x8": {
             "name_en": "Kurdalegon Lucis",
             "name_fr": "Marteau de Kurdalaegon Lucis",
-            "job": "CLASS_JOB.ARM",
+            "job": "@CLASS_JOB.ARM",
             "iLevel": "90",
             "requirements_en": "5x Lapdog Collar Bell",
             "requirements_fr": ["5 Cloche d'animal", "5 Pierre de lune"],
@@ -93,7 +93,7 @@
         "x9": {
             "name_en": "Urcaguary",
             "name_fr": "Marteaud'Urcaguary",
-            "job": "CLASS_JOB.GSM",
+            "job": "@CLASS_JOB.GSM",
             "iLevel": "55",
             "requirements": "q.66194",
             "cNext": [10],
@@ -102,7 +102,7 @@
         "x10": {
             "name_en": "Urcaguary Supra",
             "name_fr": "Marteau d'Urcaguary Supra",
-            "job": "CLASS_JOB.GSM",
+            "job": "@CLASS_JOB.GSM",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
             "requirements_fr": ["Demi-matéria de la maîtrise divine", "Engrenage en or rose calibré"],
@@ -112,7 +112,7 @@
         "x11": {
             "name_en": "Urcaguary Lucis",
             "name_fr": "Marteau d'Urcaguary Lucis",
-            "job": "CLASS_JOB.GSM",
+            "job": "@CLASS_JOB.GSM",
             "iLevel": "90",
             "requirements_en": "5x Fluorite Lens",
             "requirements_fr": ["5 Lentille en fluorine claire", "5 Pierre de lune"],
@@ -122,7 +122,7 @@
         "x12": {
             "name_en": "Pinga",
             "name_fr": "Couteau de Pinga",
-            "job": "CLASS_JOB.LTW",
+            "job": "@CLASS_JOB.LTW",
             "iLevel": "55",
             "requirements": "q.65602",
             "cNext": [13],
@@ -131,7 +131,7 @@
         "x13": {
             "name_en": "Pinga Supra",
             "name_fr": "Couteau de Pinga Supra",
-            "job": "CLASS_JOB.LTW",
+            "job": "@CLASS_JOB.LTW",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
             "requirements_fr": ["Demi-matéria de la maîtrise divine", "Lanière en cuir d'hippogriffe bouilli"],
@@ -141,7 +141,7 @@
         "x14": {
             "name_en": "Pinga Lucis",
             "name_fr": "Couteau de Pinga Lucis",
-            "job": "CLASS_JOB.LTW",
+            "job": "@CLASS_JOB.LTW",
             "iLevel": "90",
             "requirements_en": "5x Patent Leather",
             "requirements_fr": ["5 Cuir de saurien verni", "5 Pierre de lune"],
@@ -151,7 +151,7 @@
         "x15": {
             "name_en": "Clotho",
             "name_fr": "Fuseau de Clotho",
-            "job": "CLASS_JOB.WVR",
+            "job": "@CLASS_JOB.WVR",
             "iLevel": "55",
             "requirements": "q.66190",
             "cNext": [16],
@@ -160,7 +160,7 @@
         "x16": {
             "name_en": "Clotho Supra",
             "name_fr": "Fuseau de Clotho Supra",
-            "job": "CLASS_JOB.WVR",
+            "job": "@CLASS_JOB.WVR",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
             "requirements_fr": ["Demi-matéria de la maîtrise divine", "Brocart fin en argent"],
@@ -170,7 +170,7 @@
         "x17": {
             "name_en": "Clotho Lucis",
             "name_fr": "Fuseau de Clotho Lucis",
-            "job": "CLASS_JOB.WVR",
+            "job": "@CLASS_JOB.WVR",
             "iLevel": "90",
             "requirements_en": "5x Camlet",
             "requirements_fr": ["5 Camelot", "5 Pierre de lune"],
@@ -180,7 +180,7 @@
         "x18": {
             "name_en": "Paracelsus",
             "name_fr": "Alambic de Paracelse",
-            "job": "CLASS_JOB.ALC",
+            "job": "@CLASS_JOB.ALC",
             "iLevel": "55",
             "requirements": "q.66186",
             "cNext": [19],
@@ -189,7 +189,7 @@
         "x19": {
             "name_en": "Paracelsus Supra",
             "name_fr": "Alambic de Paracelse Supra",
-            "job": "CLASS_JOB.ALC",
+            "job": "@CLASS_JOB.ALC",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
             "requirements_fr": ["Demi-matéria de la maîtrise divine", "Esprit de sel concentré"],
@@ -199,7 +199,7 @@
         "x20": {
             "name_en": "Paracelsus Lucis",
             "name_fr": "Alambic de Paracelse Lucis",
-            "job": "CLASS_JOB.ALC",
+            "job": "@CLASS_JOB.ALC",
             "iLevel": "90",
             "requirements_en": "5x Enchanted Quicksilver",
             "requirements_fr": ["5 Mercure enchanté", "5 Pierre de lune"],
@@ -209,7 +209,7 @@
         "x21": {
             "name_en": "Chantico",
             "name_fr": "Sauteuse de Chantico",
-            "job": "CLASS_JOB.CUL",
+            "job": "@CLASS_JOB.CUL",
             "iLevel": "55",
             "requirements": "q.65806",
             "cNext": [22],
@@ -218,7 +218,7 @@
         "x22": {
             "name_en": "Chantico Supra",
             "name_fr": "Sauteuse de Chantico Supra",
-            "job": "CLASS_JOB.CUL",
+            "job": "@CLASS_JOB.CUL",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
             "requirements_fr": ["Demi-matéria de la maîtrise divine", "Condiment piquant à la tomate"],
@@ -228,7 +228,7 @@
         "x23": {
             "name_en": "Chantico Lucis",
             "name_fr": "Sauteuse de Chantico Lucis",
-            "job": "CLASS_JOB.CUL",
+            "job": "@CLASS_JOB.CUL",
             "iLevel": "90",
             "requirements_en": "5x Duck Broth",
             "requirements_fr": ["5 Fond de canard", "5 Pierre de lune"],
@@ -238,7 +238,7 @@
         "x24": {
             "name_en": "Mammon",
             "name_fr": "Piolet de Mammon",
-            "job": "CLASS_JOB.MIN",
+            "job": "@CLASS_JOB.MIN",
             "iLevel": "55",
             "requirements": "q.66182",
             "cNext": [25],
@@ -247,7 +247,7 @@
         "x25": {
             "name_en": "Mammon Supra",
             "name_fr": "Piolet de Mammon Supra",
-            "job": "CLASS_JOB.MIN",
+            "job": "@CLASS_JOB.MIN",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
             "requirements_fr": ["Demi-matéria de la maîtrise divine", "30 roche antéombrale", "2 Demi-matéria de l'artifice III"],
@@ -257,7 +257,7 @@
         "x26": {
             "name_en": "Mammon Lucis",
             "name_fr": "Piolet de Mammon Lucis",
-            "job": "CLASS_JOB.MIN",
+            "job": "@CLASS_JOB.MIN",
             "iLevel": "90",
             "requirements_en": "30x Antumbral Rock, 15x Magicked Oilcloth",
             "requirements_fr": ["30 Roche antéombrale", "15 Toile enduite éthéréenne", "5 Pierre de lune"],
@@ -267,7 +267,7 @@
         "x27": {
             "name_en": "Rauni",
             "name_fr": "Hachette de Rauni",
-            "job": "CLASS_JOB.BTN",
+            "job": "@CLASS_JOB.BTN",
             "iLevel": "55",
             "requirements": "q.65549",
             "cNext": [28],
@@ -276,7 +276,7 @@
         "x28": {
             "name_en": "Rauni Supra",
             "name_fr": "Hachette de Rauni Supra",
-            "job": "CLASS_JOB.BTN",
+            "job": "@CLASS_JOB.BTN",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
             "requirements_fr": ["Demi-matéria de la maîtrise divine", "30 Rondin fragrant", "2 Demi-matéria de l'artifice III"],
@@ -286,7 +286,7 @@
         "x29": {
             "name_en": "Rauni Lucis",
             "name_fr": "Hachette de Rauni Lucis",
-            "job": "CLASS_JOB.BTN",
+            "job": "@CLASS_JOB.BTN",
             "iLevel": "90",
             "requirements_en": "30x Redolent Log, 15x Bamboo Paper",
             "requirements_fr": ["30 Rondin fragrant", "15 Papier bambou", "5 Pierre de lune"],
@@ -296,7 +296,7 @@
         "x30": {
             "name_en": "Halcyon",
             "name_fr": "Canne à pêche alcyon",
-            "job": "CLASS_JOB.FSH",
+            "job": "@CLASS_JOB.FSH",
             "iLevel": "55",
             "requirements": "q.66654",
             "cNext": [31],
@@ -305,7 +305,7 @@
         "x31": {
             "name_en": "Halcyon Supra",
             "name_fr": "Canne à pêche alcyon Supra",
-            "job": "CLASS_JOB.FSH",
+            "job": "@CLASS_JOB.FSH",
             "iLevel": "75",
             "requirements_en": "1x Mastercraft Demimateria",
             "requirements_fr": ["Demi-matéria de la maîtrise divine", "Olgoi-Khorkhoi", "2 Demi-matéria de l'artifice III"],
@@ -315,7 +315,7 @@
         "x32": {
             "name_en": "Halcyon Lucis",
             "name_fr": "Canne à pêche alcyon Lucis",
-            "job": "CLASS_JOB.FSH",
+            "job": "@CLASS_JOB.FSH",
             "iLevel": "90",
             "requirements_en": "10x Gigant Clam, 15x Glacier Crystal",
             "requirements_fr": ["10 Cocoquillage géant", "15 Cristal de givre", "5 Pierre de lune"],
