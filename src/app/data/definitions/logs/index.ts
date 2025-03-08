@@ -25,12 +25,12 @@ export const LOGS_DEFINITION: GroupDefinition = {
         {
             path: 'sightseeing',
             subGroups: [
-                'arr',
-                'hw',
-                'sb',
-                'shb',
-                'ew',
-                // 'dt'
+                'a-realm-reborn',
+                'heavensward',
+                'stormblood',
+                'shadowbringers',
+                'endwalker',
+                'dawntrail'
             ]
         },
         CRAFTING_LOG_DEFINITION,

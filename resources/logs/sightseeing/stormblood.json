@@ -1,0 +1,655 @@
+{
+    "key": "stormblood",
+    "groupName_en": "Stormblood",
+    "groupName_fr": "Stormblood",
+    "headers": {
+        "vista": {
+            "header_en": "#",
+            "header_fr": "#"
+        },
+        "name": {
+            "header_en": "Name",
+            "header_fr": "Nom"
+        },
+        "emote": {
+            "header_en": "Emote",
+            "header_fr": "Emote"
+        },
+        "zone": {
+            "header_en": "Zone",
+            "header_fr": "Zone"
+        },
+        "location": {
+            "header_en": "Location",
+            "header_fr": "Coordonnées"
+        },
+        "time": {
+            "header_en": "Time",
+            "header_fr": "Horaire"
+        }
+    },
+    "tasks": {
+        "x2162830": {
+            "name_en": "Castellum Velodyna",
+            "name_fr": "Castellum Velodyna",
+            "location": "(22.0, 27.0)",
+            "vista": "001",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_FRINGES",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162831": {
+            "name_en": "Gyr Kehim",
+            "name_fr": "Gyr Kehim",
+            "location": "(24.3, 16.3)",
+            "vista": "002",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_FRINGES",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162832": {
+            "name_en": "Schism",
+            "name_fr": "Le Schisme",
+            "location": "(23.3, 7.3)",
+            "vista": "003",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_FRINGES",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162833": {
+            "name_en": "Castrum Oriens",
+            "name_fr": "Castrum Oriens",
+            "location": "(9.4, 10.9)",
+            "vista": "004",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_FRINGES",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162834": {
+            "name_en": "Dimwold",
+            "name_fr": "Ternebois",
+            "location": "(8.7, 26.5)",
+            "vista": "005",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_FRINGES",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162835": {
+            "name_en": "Djanan Qhat",
+            "name_fr": "Djanan Qhat",
+            "location": "(36.6, 16.5)",
+            "vista": "006",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_FRINGES",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162836": {
+            "name_en": "The Peering Stones",
+            "name_fr": "Les Rochers d'aguet",
+            "location": "(30.0, 25.3)",
+            "vista": "007",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_FRINGES",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162837": {
+            "name_en": "Hidden Tear",
+            "name_fr": "Pleur caché",
+            "location": "(33.3, 10.2)",
+            "vista": "008",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_PEAKS",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162838": {
+            "name_en": "Coldhearth",
+            "name_fr": "Âtrefroid",
+            "location": "(27.1, 36.9)",
+            "vista": "009",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_PEAKS",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162839": {
+            "name_en": "Nyunkrepf's Hope",
+            "name_fr": "Le Secours de Nyunkrepf",
+            "location": "(22.1, 32.9)",
+            "vista": "010",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_PEAKS",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162840": {
+            "name_en": "Ala Gannha",
+            "name_fr": "Ala Gannha",
+            "location": "(25.1, 5.9)",
+            "vista": "011",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_PEAKS",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162841": {
+            "name_en": "Specula Imperatoris",
+            "name_fr": "Specula Imperatoris",
+            "location": "(20.0, 23.5)",
+            "vista": "012",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_PEAKS",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162842": {
+            "name_en": "The Arms of Meed",
+            "name_fr": "Les Bras du rachat",
+            "location": "(8.2, 37.6)",
+            "vista": "013",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_PEAKS",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162843": {
+            "name_en": "The Ziggurat",
+            "name_fr": "La Ziggourat",
+            "location": "(18.3, 14.3)",
+            "vista": "014",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_PEAKS",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162844": {
+            "name_en": "Emprise",
+            "name_fr": "L'Emprise",
+            "location": "(7.5, 7.6)",
+            "vista": "015",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_PEAKS",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162845": {
+            "name_en": "Ala Mhigo",
+            "name_fr": "Ala Mhigo",
+            "location": "(23.5, 33.8)",
+            "vista": "016",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_LOCHS",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162846": {
+            "name_en": "The Ala Mhigan Quarter",
+            "name_fr": "Le Faubourg mhigois",
+            "location": "(35.3, 33.2)",
+            "vista": "017",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_LOCHS",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162847": {
+            "name_en": "Sothwatch",
+            "name_fr": "Gardesud",
+            "location": "(13.9, 35.5)",
+            "vista": "018",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_LOCHS",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162848": {
+            "name_en": "The Divine Audience",
+            "name_fr": "L'Audience divine",
+            "location": "(20.6, 16.6)",
+            "vista": "019",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_LOCHS",
+            "emote": "e.58",
+            "patch": "4.0"
+        },
+        "x2162849": {
+            "name_en": "The Hidden Tunnel",
+            "name_fr": "Les canaux souterrains",
+            "location": "(33.9, 30.3)",
+            "vista": "020",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_LOCHS",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162850": {
+            "name_en": "Porta Praetoria",
+            "name_fr": "Porta Praetoria",
+            "location": "(5.9, 22.1)",
+            "vista": "021",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_LOCHS",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162851": {
+            "name_en": "The Sekiseigumi Barracks",
+            "name_fr": "La caserne du Sekiseigumi",
+            "location": "(14.3, 9.6)",
+            "vista": "022",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.KUGANE",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162852": {
+            "name_en": "Bokairo Inn",
+            "name_fr": "L'auberge du Bokairo",
+            "location": "(9.4, 7.3)",
+            "vista": "023",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.KUGANE",
+            "emote": "e.52",
+            "patch": "4.0"
+        },
+        "x2162853": {
+            "name_en": "Kogane Dori",
+            "name_fr": "Kogane-dori",
+            "location": "(13.2, 12.9)",
+            "vista": "024",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.KUGANE",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162854": {
+            "name_en": "Kogane Alleyways",
+            "name_fr": "Les ruelles de Kogane-dori",
+            "location": "(12.0, 11.7)",
+            "vista": "025",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.KUGANE",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162855": {
+            "name_en": "Shiokaze Hostelry",
+            "name_fr": "Le Shiokaze",
+            "location": "(10.3, 10.1)",
+            "vista": "026",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.KUGANE",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162856": {
+            "name_en": "Tamamizu",
+            "name_fr": "Tamamizu",
+            "location": "(26.0, 13.0)",
+            "vista": "027",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_RUBY_SEA",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162857": {
+            "name_en": "Shoal Rock",
+            "name_fr": "Okinoiwa",
+            "location": "(33.0, 8.7)",
+            "vista": "028",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_RUBY_SEA",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162858": {
+            "name_en": "Heaven-on-High",
+            "name_fr": "Le Pilier des Cieux",
+            "location": "(24.1, 5.7)",
+            "vista": "029",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_RUBY_SEA",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162859": {
+            "name_en": "Sakazuki",
+            "name_fr": "Sakazuki",
+            "location": "(31.6, 37.3)",
+            "vista": "030",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_RUBY_SEA",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162860": {
+            "name_en": "The Isle of Zekki",
+            "name_fr": "L'île de Zekki",
+            "location": "(10.2, 26.8)",
+            "vista": "031",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_RUBY_SEA",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162861": {
+            "name_en": "Isari",
+            "name_fr": "Isari",
+            "location": "(6.5, 10.9)",
+            "vista": "032",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_RUBY_SEA",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162862": {
+            "name_en": "The Swallow's Compass",
+            "name_fr": "Le Compas de l'Hirondelle",
+            "location": "(12.4, 26.8)",
+            "vista": "033",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.YANXIA",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162863": {
+            "name_en": "Castrum Fluminis",
+            "name_fr": "Castrum Fluminis",
+            "location": "(30.4, 32.9)",
+            "vista": "034",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.YANXIA",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162864": {
+            "name_en": "Namai",
+            "name_fr": "Namai",
+            "location": "(34.4, 18.4)",
+            "vista": "035",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.YANXIA",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162865": {
+            "name_en": "Prism Lake",
+            "name_fr": "Le lac aux Prismes",
+            "location": "(30.4, 6.2)",
+            "vista": "036",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.YANXIA",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162866": {
+            "name_en": "Doma Castle",
+            "name_fr": "Le Château de Doma",
+            "location": "(14.9, 6.4)",
+            "vista": "037",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.YANXIA",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162867": {
+            "name_en": "Dairyu Moon Gates",
+            "name_fr": "Les portes lune de Dairyu",
+            "location": "(19.6, 20.6)",
+            "vista": "038",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.YANXIA",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162868": {
+            "name_en": "Yuzuka Manor",
+            "name_fr": "Le manoir des Yuzuka",
+            "location": "(15.2, 31.7)",
+            "vista": "039",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.YANXIA",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162869": {
+            "name_en": "Ceol Aen",
+            "name_fr": "Ceol Aen",
+            "location": "(14.3, 9.8)",
+            "vista": "040",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162870": {
+            "name_en": "Dotharl Khaa",
+            "name_fr": "Dotharl Khaa",
+            "location": "(12.3, 32.1)",
+            "vista": "041",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162871": {
+            "name_en": "The Dusk Throne",
+            "name_fr": "Le Trône du Crépuscule",
+            "location": "(19.9, 33.8)",
+            "vista": "042",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162872": {
+            "name_en": "Reunion",
+            "name_fr": "Le Ralliement",
+            "location": "(34.5, 31.9)",
+            "vista": "043",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162873": {
+            "name_en": "Chakha Zoh",
+            "name_fr": "Chakha Zoh",
+            "location": "(20.1, 12.6)",
+            "vista": "044",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "emote": "e.58",
+            "patch": "4.0"
+        },
+        "x2162874": {
+            "name_en": "The Dawn Throne",
+            "name_fr": "Le Trône de l'Aube",
+            "location": "(22.8, 21.2)",
+            "vista": "045",
+            "cCombo": ["a.1903"],
+            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "emote": "e.22",
+            "patch": "4.0"
+        },
+        "x2162875": {
+            "name_en": "The Destroyer",
+            "name_fr": "Statue du Destructeur",
+            "location": "(11.4, 14.0)",
+            "vista": "046",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.RHALGRS_REACH",
+            "emote": "e.22",
+            "patch": "4.1"
+        },
+        "x2162876": {
+            "name_en": "Bloodstorm",
+            "name_fr": "Tempête de sang",
+            "location": "(10.6, 9.7)",
+            "vista": "047",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.RHALGRS_REACH",
+            "emote": "e.22",
+            "patch": "4.1"
+        },
+        "x2162877": {
+            "name_en": "The Yawn",
+            "name_fr": "Bâillement",
+            "location": "(27.6, 35.2)",
+            "vista": "048",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.THE_FRINGES",
+            "emote": "e.22",
+            "patch": "4.1",
+            "time": "18:00 - 04:59"
+        },
+        "x2162878": {
+            "name_en": "Ala Ghiri",
+            "name_fr": "Ala Ghiri",
+            "location": "(14.3, 36.7)",
+            "vista": "049",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.THE_PEAKS",
+            "emote": "e.22",
+            "patch": "4.1"
+        },
+        "x2162879": {
+            "name_en": "Specula Imperatoris #2",
+            "name_fr": "Specula Imperatoris (2)",
+            "location": "(20.4, 22.9)",
+            "vista": "050",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.THE_PEAKS",
+            "emote": "e.22",
+            "patch": "4.1"
+        },
+        "x2162880": {
+            "name_en": "The Sunken Destroyer",
+            "name_fr": "Statue engloutie du Destructeur",
+            "location": "(17.1, 19.2)",
+            "vista": "051",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.THE_LOCHS",
+            "emote": "e.22",
+            "patch": "4.1"
+        },
+        "x2162881": {
+            "name_en": "The Ala Mhigan Quarter #2",
+            "name_fr": "Faubourg mhigois (2)",
+            "location": "(36.1, 33.6)",
+            "vista": "052",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.THE_LOCHS",
+            "emote": "e.22",
+            "patch": "4.1"
+        },
+        "x2162882": {
+            "name_en": "The Statue of Zuiko",
+            "name_fr": "Statue de Zuiko",
+            "location": "(11.2, 10.0)",
+            "vista": "053",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.KUGANE",
+            "emote": "e.22",
+            "patch": "4.1"
+        },
+        "x2162883": {
+            "name_en": "Rakuza District",
+            "name_fr": "Quartier de Rakuza",
+            "location": "(9.8, 8.4)",
+            "vista": "054",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.KUGANE",
+            "emote": "e.22",
+            "patch": "4.1"
+        },
+        "x2162884": {
+            "name_en": "Tenkonto",
+            "name_fr": "Place Tenkonto",
+            "location": "(12.5, 10.6)",
+            "vista": "055",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.KUGANE",
+            "emote": "e.22",
+            "patch": "4.1"
+        },
+        "x2162885": {
+            "name_en": "Kugane Ofunakura",
+            "name_fr": "Kugane Ofunakura",
+            "location": "(9.9, 12.4)",
+            "vista": "056",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.KUGANE",
+            "emote": "e.22",
+            "patch": "4.1"
+        },
+        "x2162886": {
+            "name_en": "Shisui of the Violet Tides",
+            "name_fr": "Palais aux Marées violettes",
+            "location": "(5.1, 36.5)",
+            "vista": "057",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.THE_RUBY_SEA",
+            "emote": "e.22",
+            "patch": "4.1"
+        },
+        "x2162887": {
+            "name_en": "East Othard Coastline",
+            "name_fr": "Côte orientale d'Othard",
+            "location": "(9.5, 19.1)",
+            "vista": "058",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.THE_RUBY_SEA",
+            "emote": "e.22",
+            "patch": "4.1",
+            "time": "05:00 - 07:59"
+        },
+        "x2162888": {
+            "name_en": "Crick",
+            "name_fr": "L'Entorse",
+            "location": "(21.5, 12.0)",
+            "vista": "059",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.THE_RUBY_SEA",
+            "emote": "e.22",
+            "patch": "4.1"
+        },
+        "x2162889": {
+            "name_en": "Imperial Hypersonic Assault Craft L-XXIII",
+            "name_fr": "Contre-torpilleur hypersonique impérial L-XXIII",
+            "location": "(35.6, 38.9)",
+            "vista": "060",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.YANXIA",
+            "emote": "e.22",
+            "patch": "4.1"
+        },
+        "x2162890": {
+            "name_en": "Mol Iloh",
+            "name_fr": "Mol Iloh",
+            "location": "(31.4, 11.5)",
+            "vista": "061",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "emote": "e.22",
+            "patch": "4.1"
+        },
+        "x2162891": {
+            "name_en": "Moai Statue",
+            "name_fr": "Moai",
+            "location": "(21.9, 20.4)",
+            "vista": "062",
+            "cCombo": ["a.1965"],
+            "zone": "@PLACE.THE_AZIM_STEPPE",
+            "emote": "e.22",
+            "patch": "4.1"
+        }
+    }
+}
