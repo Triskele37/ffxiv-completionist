@@ -1,7 +1,7 @@
 {
-    "key": "mog-station",
-    "groupName_en": "Premium",
-    "groupName_fr": "Premium",
+    "key": "online-store-and-bonuses",
+    "groupName_en": "Online Store & Bonuses",
+    "groupName_fr": "Boutique en ligne/objet bonus",
     "defaultCompletion": "X",
     "tasks": {
         "x114": {
@@ -113,7 +113,7 @@
             "category": "@CATEGORY.PREMIUM",
             "source_en": "THE PRIMALS Zepp Tour 2018 - Trial By Shadow",
             "source_fr": "THE PRIMALS Zepp Tour 2018 - Trial By Shadow",
-            "patch": "4.45"
+            "patch": "4.5"
         },
         "x280": {
             "number": "-",
@@ -122,7 +122,7 @@
             "category": "@CATEGORY.PREMIUM",
             "source_en": "THE PRIMALS Zepp Tour 2018 - Trial By Shadow",
             "source_fr": "THE PRIMALS Zepp Tour 2018 - Trial By Shadow",
-            "patch": "4.45"
+            "patch": "4.5"
         },
         "x281": {
             "number": "-",
@@ -130,7 +130,7 @@
             "name_fr": "Painted Foothills (Orchestral Version)",
             "category": "@CATEGORY.PREMIUM",
             "location": "@SOURCE.MOG_STATION",
-            "patch": "4.45"
+            "patch": "4.5"
         },
         "x282": {
             "number": "-",
@@ -138,7 +138,7 @@
             "name_fr": "Moebius (Orchestral Version)",
             "category": "@CATEGORY.PREMIUM",
             "location": "@SOURCE.MOG_STATION",
-            "patch": "4.45"
+            "patch": "4.5"
         },
         "x305": {
             "number": "-",
@@ -147,7 +147,7 @@
             "category": "@CATEGORY.PREMIUM",
             "source_en": "Journeys: FINAL FANTASY XIV Arrangement Album",
             "source_fr": "Journeys: FINAL FANTASY XIV Arrangement Album",
-            "patch": "4.5"
+            "patch": "4.58"
         },
         "x306": {
             "number": "-",
@@ -156,7 +156,7 @@
             "category": "@CATEGORY.PREMIUM",
             "source_en": "Journeys: FINAL FANTASY XIV Arrangement Album",
             "source_fr": "Journeys: FINAL FANTASY XIV Arrangement Album",
-            "patch": "4.5"
+            "patch": "4.58"
         },
         "x358": {
             "number": "-",
@@ -176,30 +176,6 @@
             "source_fr": "Eorzean Symphony: FINAL FANTASY XIV Orchestral Album Vol. 2",
             "patch": "5.1"
         },
-        "x407": {
-            "number": "-",
-            "name_en": "A New Hope (Piano Collections)",
-            "name_fr": "A New Hope (Piano Collections)",
-            "category": "@CATEGORY.PREMIUM",
-            "location": "@SOURCE.MOG_STATION",
-            "patch": "5.3"
-        },
-        "x408": {
-            "number": "-",
-            "name_en": "Wailers and Waterwheels (Piano Collections)",
-            "name_fr": "Wailers and Waterwheels (Piano Collections)",
-            "category": "@CATEGORY.PREMIUM",
-            "location": "@SOURCE.MOG_STATION",
-            "patch": "5.3"
-        },
-        "x409": {
-            "number": "-",
-            "name_en": "I Am the Sea (Piano Collections)",
-            "name_fr": "I Am the Sea (Piano Collections)",
-            "category": "@CATEGORY.PREMIUM",
-            "location": "@SOURCE.MOG_STATION",
-            "patch": "5.3"
-        },
         "x405": {
             "number": "-",
             "name_en": "Neath Dark Waters (Scions & Sinners)",
@@ -217,6 +193,30 @@
             "source_en": "FINAL FANTASY XIV: SCIONS & SINNERS Arrangement Album",
             "source_fr": "FINAL FANTASY XIV: SCIONS & SINNERS Arrangement Album",
             "patch": "5.4"
+        },
+        "x407": {
+            "number": "-",
+            "name_en": "A New Hope (Piano Collections)",
+            "name_fr": "A New Hope (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.3"
+        },
+        "x408": {
+            "number": "-",
+            "name_en": "Wailers and Waterwheels (Piano Collections)",
+            "name_fr": "Wailers And Waterwheels (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.3"
+        },
+        "x409": {
+            "number": "-",
+            "name_en": "I Am the Sea (Piano Collections)",
+            "name_fr": "I Am the Sea (Piano Collections)",
+            "category": "@CATEGORY.PREMIUM",
+            "location": "@SOURCE.MOG_STATION",
+            "patch": "5.3"
         },
         "x433": {
             "number": "-",
@@ -440,10 +440,10 @@
             "location": "@SOURCE.MOG_STATION",
             "patch": "6.0"
         },
-        "x535": {
+        "x533": {
             "number": "-",
-            "name_en": "Crimson Sunset (Piano Collections)",
-            "name_fr": "Crimson Sunset (Piano Collections)",
+            "name_en": "Westward Tide (Piano Collections)",
+            "name_fr": "Westward Tide (Piano Collections)",
             "category": "@CATEGORY.PREMIUM",
             "location": "@SOURCE.MOG_STATION",
             "patch": "6.1"
@@ -456,22 +456,13 @@
             "location": "@SOURCE.MOG_STATION",
             "patch": "6.1"
         },
-        "x533": {
+        "x535": {
             "number": "-",
-            "name_en": "Westward Tide (Piano Collections)",
-            "name_fr": "Westward Tide (Piano Collections)",
+            "name_en": "Crimson Sunset (Piano Collections)",
+            "name_fr": "Crimson Sunset (Piano Collections)",
             "category": "@CATEGORY.PREMIUM",
             "location": "@SOURCE.MOG_STATION",
             "patch": "6.1"
-        },
-        "x563": {
-            "number": "-",
-            "name_en": "Hic Svnt Leones (Beyond the Shadow)",
-            "name_fr": "Hic Svnt Leones (Beyond the Shadow)",
-            "category": "@CATEGORY.PREMIUM",
-            "source_en": "The Primals Live In Japan - Beyond The Shadow",
-            "source_fr": "The Primals Live In Japan - Beyond The Shadow",
-            "patch": "6.2"
         },
         "x562": {
             "number": "-",
@@ -480,7 +471,16 @@
             "category": "@CATEGORY.PREMIUM",
             "source_en": "The Primals Live In Japan - Beyond The Shadow",
             "source_fr": "The Primals Live In Japan - Beyond The Shadow",
-            "patch": "6.2"
+            "patch": "6.28"
+        },
+        "x563": {
+            "number": "-",
+            "name_en": "Hic Svnt Leones (Beyond the Shadow)",
+            "name_fr": "Hic Svnt Leones (Beyond the Shadow)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "The Primals Live In Japan - Beyond The Shadow",
+            "source_fr": "The Primals Live In Japan - Beyond The Shadow",
+            "patch": "6.28"
         },
         "x588": {
             "number": "-",
@@ -550,20 +550,20 @@
             "location": "@SOURCE.MOG_STATION",
             "patch": "6.4"
         },
-        "x621": {
+        "x620": {
             "number": "-",
-            "name_en": "Equilibrium (Pulse)",
-            "name_fr": "Equilibrium (Pulse)",
+            "name_en": "Unbreakable (Pulse)",
+            "name_fr": "Unbreakable (Pulse)",
             "category": "@CATEGORY.PREMIUM",
             "source_en": "Pulse Orchestrion Roll Set II",
             "source_fr": "Pulse Orchestrion Roll Set II",
             "location": "@SOURCE.MOG_STATION",
             "patch": "6.4"
         },
-        "x620": {
+        "x621": {
             "number": "-",
-            "name_en": "Unbreakable (Pulse)",
-            "name_fr": "Unbreakable (Pulse)",
+            "name_en": "Equilibrium (Pulse)",
+            "name_fr": "Equilibrium (Pulse)",
             "category": "@CATEGORY.PREMIUM",
             "source_en": "Pulse Orchestrion Roll Set II",
             "source_fr": "Pulse Orchestrion Roll Set II",
@@ -707,6 +707,42 @@
             "source_en": "FORGE AHEAD: FINAL FANTASY XIV Arrangement Album",
             "source_fr": "FORGE AHEAD: FINAL FANTASY XIV Arrangement Album",
             "patch": "6.5"
+        },
+        "x691": {
+            "name_en": "Flow (Fan Fest)",
+            "name_fr": "Flow (Fan Fest)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Item code included with And Back Again: Live Performances from the Fan Festival 2024",
+            "source_fr": "Item code included with And Back Again: Live Performances from the Fan Festival 2024",
+            "patch": "7.0",
+            "number": "-"
+        },
+        "x692": {
+            "name_en": "Endwalker – Footfalls (Fan Fest)",
+            "name_fr": "Endwalker – Footfalls (Fan Fest)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Item code included with And Back Again: Live Performances from the Fan Festival 2024",
+            "source_fr": "Item code included with And Back Again: Live Performances from the Fan Festival 2024",
+            "patch": "7.0",
+            "number": "-"
+        },
+        "x725": {
+            "name_en": "Bee My Honey (Darkest Before Dawn)",
+            "name_fr": "Bee My Honey (Darkest Before Dawn)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Item code included with The Primals Live In Japan - Darkest Before Dawn",
+            "source_fr": "Item code included with The Primals Live In Japan - Darkest Before Dawn",
+            "patch": "7.1",
+            "number": "-"
+        },
+        "x726": {
+            "name_en": "Give It All (Darkest Before Dawn)",
+            "name_fr": "Give It All (Darkest Before Dawn)",
+            "category": "@CATEGORY.PREMIUM",
+            "source_en": "Item code included with The Primals Live In Japan - Darkest Before Dawn",
+            "source_fr": "Item code included with The Primals Live In Japan - Darkest Before Dawn",
+            "patch": "7.1",
+            "number": "-"
         }
     }
 }

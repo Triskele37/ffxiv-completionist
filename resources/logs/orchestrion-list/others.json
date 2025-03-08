@@ -10,7 +10,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
             "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
-            "patch": "6.2"
+            "patch": "6.28"
         },
         "x17": {
             "name_en": "Tenacity",
@@ -19,7 +19,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.AMBER_TRADER (3 CURRENCY.AMBER)",
             "location": "@PLACE.FOUNDATION",
-            "patch": "3.25"
+            "patch": "3.15"
         },
         "x47": {
             "name_en": "When a Tree Falls",
@@ -28,7 +28,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.AMBER_TRADER (6 CURRENCY.AMBER)",
             "location": "@PLACE.FOUNDATION",
-            "patch": "3.25"
+            "patch": "3.15"
         },
         "x394": {
             "name_en": "Hard to Miss",
@@ -45,16 +45,16 @@
             "category": "@CATEGORY.PVP / CATEGORY.CRAFTING",
             "source": "@5,000 CURRENCY.WOLF_MARK",
             "location": "@PLACE.WOLVES_DEN_PIER",
-            "patch": "3.25"
+            "patch": "3.15"
         },
-        "x123": {
-            "name_en": "Jewel",
-            "name_fr": "Jewel",
-            "number": "21",
-            "category": "@CATEGORY.CRAFTING_GATHERING",
-            "source": "@600 CURRENCY.SCRIP.SKYBUILDERS",
-            "location": "@PLACE.THE_FIRMAMENT",
-            "patch": "3.55b"
+        "x19": {
+            "number": "6",
+            "name_en": "Starved",
+            "name_fr": "Starved",
+            "category": "@CATEGORY.PVP / CATEGORY.CRAFTING",
+            "source": "@10,000 CURRENCY.WOLF_MARK",
+            "location": "PLACE.WOLVES_DEN_PIER",
+            "patch": "3.15"
         },
         "x171": {
             "name_en": "Birds of Prey",
@@ -81,7 +81,7 @@
             "category": "@CATEGORY.PVP",
             "source": "@10,000 CURRENCY.WOLF_MARK",
             "location": "@PLACE.WOLVES_DEN_PIER",
-            "patch": "5.15"
+            "patch": "5.18"
         },
         "x347": {
             "name_en": "A Fine Air Forbiddeth",
@@ -90,7 +90,7 @@
             "category": "@CATEGORY.PVP",
             "source": "@10,000 CURRENCY.WOLF_MARK",
             "location": "@PLACE.WOLVES_DEN_PIER",
-            "patch": "5.15"
+            "patch": "5.18"
         },
         "x525": {
             "name_en": "Warming Up",
@@ -135,7 +135,7 @@
             "category": "@CATEGORY.GOLD_SAUCER",
             "source": "@15,000 CURRENCY.MGP",
             "location": "@PLACE.THE_GOLD_SAUCER",
-            "patch": "3.25"
+            "patch": "3.15"
         },
         "x561": {
             "name_en": "Shuffle or Boogie",
@@ -143,7 +143,7 @@
             "number": "16",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.2801",
-            "patch": "5.4"
+            "patch": "6.28"
         },
         "x436": {
             "name_en": "Shuffle or Boogie (Shadowbringers)",
@@ -151,7 +151,7 @@
             "number": "17",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.2801",
-            "patch": "6.2"
+            "patch": "5.4"
         },
         "x270": {
             "name_en": "Game Theory",
@@ -160,7 +160,7 @@
             "category": "@CATEGORY.GOLD_SAUCER",
             "source": "@30,000 CURRENCY.MGP",
             "location": "@PLACE.THE_GOLD_SAUCER",
-            "patch": "4.45"
+            "patch": "4.5"
         },
         "x271": {
             "name_en": "Doman Distractions",
@@ -168,7 +168,7 @@
             "number": "19",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.2180",
-            "patch": "4.45"
+            "patch": "4.5"
         },
         "x276": {
             "name_en": "Rise of Heroes (Chiptune Version)",
@@ -178,6 +178,15 @@
             "source": "@50,000 CURRENCY.MGP",
             "location": "@PLACE.THE_GOLD_SAUCER",
             "patch": "4.45"
+        },
+        "x123": {
+            "name_en": "Jewel",
+            "name_fr": "Jewel",
+            "number": "21",
+            "category": "@CATEGORY.CRAFTING_GATHERING",
+            "source": "@600 CURRENCY.SCRIP.SKYBUILDERS",
+            "location": "@PLACE.THE_FIRMAMENT",
+            "patch": "3.55b"
         },
         "x208": {
             "name_en": "Wicked Winds Whisper",
@@ -204,7 +213,7 @@
             "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source": "@SOURCE.LOCKBOX.HYDATOS",
             "location": "@PLACE.EUREKA_HYDATOS",
-            "patch": "4.5"
+            "patch": "4.55"
         },
         "x289": {
             "name_en": "Onslaught",
@@ -213,7 +222,7 @@
             "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source": "@SOURCE.LOCKBOX.MOISTURE_WARPED",
             "location": "@PLACE.EUREKA_HYDATOS",
-            "patch": "4.5"
+            "patch": "4.55"
         },
         "x290": {
             "name_en": "Turmoil",
@@ -222,7 +231,7 @@
             "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source": "duty.exploratory-missions.the-forbidden-land-eureka.duties.0",
             "location": "@PLACE.EUREKA_HYDATOS",
-            "patch": "4.5"
+            "patch": "4.55"
         },
         "x237": {
             "name_en": "Cornerstone of the New World - Astera",
@@ -231,7 +240,7 @@
             "category": "@CATEGORY.TRIAL",
             "source": "@VENDOR.SMITHY (10 CURRENCY.RATHALOS_SCALE)",
             "location": "@PLACE.KUGANE",
-            "patch": "4.36"
+            "patch": "4.4"
         },
         "x360": {
             "name_en": "Nail of the Heavens",
@@ -240,7 +249,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.MAUDLIN (500 CURRENCY.SEAL.ALLIED)",
             "location": "@PLACE.UL_DAH_STEPS_OF_THAL",
-            "patch": "5.15"
+            "patch": "5.18"
         },
         "x361": {
             "name_en": "Imperium",
@@ -249,7 +258,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.MAUDLIN (500 CURRENCY.SEAL.ALLIED)",
             "location": "@PLACE.UL_DAH_STEPS_OF_THAL",
-            "patch": "5.15"
+            "patch": "5.18"
         },
         "x412": {
             "name_en": "Gogo's Theme",
@@ -397,7 +406,7 @@
             "category": "@CATEGORY.ISLAND_SANCTUARY",
             "source": "@4,000 CURRENCY.ISLAND.SEAFARERS",
             "location": "@PLACE.ISLAND_SANCTUARY",
-            "patch": "6.2"
+            "patch": "6.28"
         },
         "x545": {
             "name_en": "Island Paradise",
@@ -406,7 +415,7 @@
             "category": "@CATEGORY.ISLAND_SANCTUARY",
             "source": "@4,000 CURRENCY.ISLAND.SEAFARERS",
             "location": "@PLACE.ISLAND_SANCTUARY",
-            "patch": "6.2"
+            "patch": "6.28"
         },
         "x572": {
             "name_en": "A Victory Fanfare Reborn",
@@ -432,7 +441,7 @@
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.MAUDLIN (500 CURRENCY.SEAL.ALLIED)",
             "location": "@PLACE.UL_DAH_STEPS_OF_THAL",
-            "patch": "6.4"
+            "patch": "6.45"
         }
     }
 }

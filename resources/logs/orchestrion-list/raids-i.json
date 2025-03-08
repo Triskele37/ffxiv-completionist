@@ -3,37 +3,37 @@
     "groupName_en": "Raids I",
     "groupName_fr": "Raids I",
     "tasks": {
-        "x233": {
-            "number": "36",
-            "name_en": "A Chapel",
-            "name_fr": "A Chapel",
-            "category": "@CATEGORY.QUEST",
-            "source": "q.68628",
-            "patch": "4.3"
+        "x35": {
+            "number": "1",
+            "name_en": "Hubris",
+            "name_fr": "Hubris",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "d.92",
+            "patch": "3.15"
         },
-        "x234": {
-            "number": "37",
-            "name_en": "The Mystery of Giruvegan",
-            "name_fr": "The Mystery of Giruvegan",
-            "category": "@CATEGORY.RAID",
-            "source": "d.550",
-            "patch": "4.3"
+        "x36": {
+            "number": "2",
+            "name_en": "Tumbling Down",
+            "name_fr": "Tumbling Down",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "d.92",
+            "patch": "3.15"
         },
-        "x235": {
-            "number": "38",
-            "name_en": "Apoplexy",
-            "name_fr": "Apoplexy",
-            "category": "@CATEGORY.RAID",
-            "source": "d.550",
-            "patch": "4.3"
+        "x37": {
+            "number": "3",
+            "name_en": "Now I Know the Truth",
+            "name_fr": "Now I Know the Truth",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "d.102",
+            "patch": "3.15"
         },
-        "x236": {
-            "number": "39",
-            "name_en": "Flash of Steel",
-            "name_fr": "Flash of Steel",
-            "category": "@CATEGORY.RAID",
-            "source": "d.550",
-            "patch": "4.3"
+        "x38": {
+            "number": "4",
+            "name_en": "Out of the Labyrinth",
+            "name_fr": "Out of the Labyrinth",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "d.102",
+            "patch": "3.15"
         },
         "x218": {
             "number": "5",
@@ -43,29 +43,29 @@
             "source": "d.102",
             "patch": "4.2"
         },
-        "x292": {
-            "number": "40",
-            "name_en": "Staff Credits",
-            "name_fr": "Staff Credits",
-            "category": "@CATEGORY.QUEST",
-            "source": "q.68725",
-            "patch": "4.45"
+        "x39": {
+            "number": "6",
+            "name_en": "Blind to the Dark",
+            "name_fr": "Blind to the Dark",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "d.111",
+            "patch": "3.15"
         },
-        "x293": {
-            "number": "41",
-            "name_en": "Alma's Theme",
-            "name_fr": "Alma's Theme",
-            "category": "@CATEGORY.QUEST",
-            "source": "q.68725",
-            "patch": "4.45"
+        "x40": {
+            "number": "7",
+            "name_en": "Hunger",
+            "name_fr": "Hunger",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "d.111",
+            "patch": "3.15"
         },
-        "x294": {
-            "number": "42",
-            "name_en": "Under the Stars",
-            "name_fr": "Under the Stars",
-            "category": "@CATEGORY.RAID",
-            "source": "d.636",
-            "patch": "4.45"
+        "x41": {
+            "number": "8",
+            "name_en": "Eternal Wind",
+            "name_fr": "Eternal Wind",
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["d.92", "d.102", "d.111"],
+            "patch": "3.15"
         },
         "x95": {
             "number": "9",
@@ -85,13 +85,13 @@
             "location": "@PLACE.THE_GOLD_SAUCER",
             "patch": "3.5"
         },
-        "x295": {
-            "number": "43",
-            "name_en": "Pressure (No. 1)",
-            "name_fr": "Pressure (No. 1)",
-            "category": "@CATEGORY.RAID",
-            "source": "d.636",
-            "patch": "4.45"
+        "x42": {
+            "number": "11",
+            "name_en": "Thunderer",
+            "name_fr": "Thunderer",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "d.97",
+            "patch": "3.15"
         },
         "x139": {
             "number": "12",
@@ -102,29 +102,29 @@
             "location": "@PLACE.THE_GOLD_SAUCER",
             "patch": "3.5"
         },
-        "x296": {
-            "number": "44",
-            "name_en": "Antipyretic",
-            "name_fr": "Antipyretic",
-            "category": "@CATEGORY.RAID",
-            "source": "d.636",
-            "patch": "4.45"
+        "x43": {
+            "number": "13",
+            "name_en": "Rise of the White Raven",
+            "name_fr": "Rise of the White Raven",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "d.101",
+            "patch": "3.15"
         },
-        "x297": {
-            "number": "45",
-            "name_en": "A Man Consumed",
-            "name_fr": "A Man Consumed",
-            "category": "@CATEGORY.RAID",
-            "source": "d.636",
-            "patch": "4.45"
+        "x44": {
+            "number": "14",
+            "name_en": "From the Ashes",
+            "name_fr": "From the Ashes",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "d.109",
+            "patch": "3.15"
         },
-        "x298": {
-            "number": "46",
-            "name_en": "Ultima's Perfection",
-            "name_fr": "Ultima's Perfection",
-            "category": "@CATEGORY.RAID",
-            "source": "d.636",
-            "patch": "4.45"
+        "x45": {
+            "number": "15",
+            "name_en": "Answers",
+            "name_fr": "Answers",
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["d.97", "d.101", "d.110"],
+            "patch": "3.15"
         },
         "x291": {
             "number": "16",
@@ -133,7 +133,7 @@
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
             "location": "@PLACE.OLD_GRIDANIA",
-            "patch": "4.45"
+            "patch": "4.5"
         },
         "x142": {
             "number": "17",
@@ -292,6 +292,94 @@
             "category": "@CATEGORY.QUEST",
             "source": "q.68627",
             "patch": "4.3"
+        },
+        "x233": {
+            "number": "36",
+            "name_en": "A Chapel",
+            "name_fr": "A Chapel",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68628",
+            "patch": "4.3"
+        },
+        "x234": {
+            "number": "37",
+            "name_en": "The Mystery of Giruvegan",
+            "name_fr": "The Mystery of Giruvegan",
+            "category": "@CATEGORY.RAID",
+            "source": "d.550",
+            "patch": "4.3"
+        },
+        "x235": {
+            "number": "38",
+            "name_en": "Apoplexy",
+            "name_fr": "Apoplexy",
+            "category": "@CATEGORY.RAID",
+            "source": "d.550",
+            "patch": "4.3"
+        },
+        "x236": {
+            "number": "39",
+            "name_en": "Flash of Steel",
+            "name_fr": "Flash of Steel",
+            "category": "@CATEGORY.RAID",
+            "source": "d.550",
+            "patch": "4.3"
+        },
+        "x292": {
+            "number": "40",
+            "name_en": "Staff Credits",
+            "name_fr": "Staff Credits",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68725",
+            "patch": "4.5"
+        },
+        "x293": {
+            "number": "41",
+            "name_en": "Alma's Theme",
+            "name_fr": "Alma's Theme",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.68725",
+            "patch": "4.5"
+        },
+        "x294": {
+            "number": "42",
+            "name_en": "Under the Stars",
+            "name_fr": "Under the Stars",
+            "category": "@CATEGORY.RAID",
+            "source": "d.636",
+            "patch": "4.5"
+        },
+        "x295": {
+            "number": "43",
+            "name_en": "Pressure (No. 1)",
+            "name_fr": "Pressure (No. 1)",
+            "category": "@CATEGORY.RAID",
+            "source": "d.636",
+            "patch": "4.5"
+        },
+        "x296": {
+            "number": "44",
+            "name_en": "Antipyretic",
+            "name_fr": "Antipyretic",
+            "category": "@CATEGORY.RAID",
+            "source": "d.636",
+            "patch": "4.5"
+        },
+        "x297": {
+            "number": "45",
+            "name_en": "A Man Consumed",
+            "name_fr": "A Man Consumed",
+            "category": "@CATEGORY.RAID",
+            "source": "d.636",
+            "patch": "4.5"
+        },
+        "x298": {
+            "number": "46",
+            "name_en": "Ultima's Perfection",
+            "name_fr": "Ultima's Perfection",
+            "category": "@CATEGORY.RAID",
+            "source": "d.636",
+            "patch": "4.5"
         },
         "x265": {
             "number": "47",

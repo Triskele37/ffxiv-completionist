@@ -47,9 +47,9 @@ export const LOGS_DEFINITION: GroupDefinition = {
                 'raids-ii',
                 'ambient',
                 'quests',
-                'other',
+                'others',
                 'seasonal',
-                'mogstation',
+                'online-store-and-bonuses',
             ]
         }
     ]

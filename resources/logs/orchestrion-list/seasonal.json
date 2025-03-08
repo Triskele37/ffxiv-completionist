@@ -4,13 +4,13 @@
     "groupName_fr": "Événements",
     "defaultCompletion": "X",
     "tasks": {
-        "x300": {
+        "x16": {
             "number": "-",
-            "name_en": "Valse di Fantastica",
-            "name_fr": "Valse di Fantastica",
-            "category": "@CATEGORY.EVENT",
-            "source": "@EVENT.XV_COLLAB (2021)",
-            "patch": "4.5"
+            "name_en": "Pa-Paya",
+            "name_fr": "Pa-Paya",
+            "category": "@CATEGORY.EVENT / CATEGORY.PREMIUM",
+            "source": "@EVENT.HATCHINGTIDE (2016)",
+            "patch": "3.15"
         },
         "x60": {
             "number": "-",
@@ -74,7 +74,7 @@
             "name_fr": "Hyper Rainbow Z",
             "category": "@CATEGORY.EVENT / CATEGORY.PREMIUM",
             "source": "@EVENT.MOONFIRE_FAIRE (2017)",
-            "patch": "4.05"
+            "patch": "4.01"
         },
         "x149": {
             "number": "-",
@@ -82,7 +82,7 @@
             "name_fr": "Answers - Reprise",
             "category": "@CATEGORY.EVENT / CATEGORY.PREMIUM",
             "source": "@EVENT.THE_RISING (2017)",
-            "patch": "4.05"
+            "patch": "4.01"
         },
         "x150": {
             "number": "-",
@@ -90,7 +90,7 @@
             "name_fr": "Stormblood",
             "category": "@CATEGORY.EVENT / CATEGORY.PREMIUM",
             "source": "@EVENT.THE_RISING (2017)",
-            "patch": "4.05"
+            "patch": "4.01"
         },
         "x193": {
             "number": "-",
@@ -124,21 +124,21 @@
             "source": "@EVENT.STARLIGHT_CELEBRATION (2018)",
             "patch": "4.4"
         },
-        "x348": {
-            "number": "-",
-            "name_en": "Starlight de Chocobo",
-            "name_fr": "Starlight de Chocobo",
-            "category": "@CATEGORY.EVENT / CATEGORY.PREMIUM",
-            "source": "@EVENT.STARLIGHT_CELEBRATION (2019)",
-            "patch": "5.1"
-        },
         "x299": {
             "number": "-",
             "name_en": "Hammerhead",
             "name_fr": "Hammerhead",
             "category": "@CATEGORY.EVENT",
             "source": "@EVENT.XV_COLLAB (2021)",
-            "patch": "4.5"
+            "patch": "4.56"
+        },
+        "x300": {
+            "number": "-",
+            "name_en": "Valse di Fantastica",
+            "name_fr": "Valse di Fantastica",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.XV_COLLAB (2021)",
+            "patch": "4.56"
         },
         "x301": {
             "number": "-",
@@ -146,7 +146,7 @@
             "name_fr": "Relax and Reflect",
             "category": "@CATEGORY.EVENT",
             "source": "@EVENT.XV_COLLAB (2021)",
-            "patch": "4.5"
+            "patch": "4.56"
         },
         "x302": {
             "number": "-",
@@ -154,7 +154,7 @@
             "name_fr": "Veiled in Black",
             "category": "@CATEGORY.EVENT",
             "source": "@EVENT.XV_COLLAB (2021)",
-            "patch": "4.5"
+            "patch": "4.56"
         },
         "x303": {
             "number": "-",
@@ -162,7 +162,7 @@
             "name_fr": "Apocalypsis Noctis",
             "category": "@CATEGORY.EVENT",
             "source": "@EVENT.XV_COLLAB (2021)",
-            "patch": "4.5"
+            "patch": "4.56"
         },
         "x304": {
             "number": "-",
@@ -170,7 +170,15 @@
             "name_fr": "A Quick Pit Stop",
             "category": "@CATEGORY.EVENT",
             "source": "@EVENT.XV_COLLAB (2021)",
-            "patch": "4.5"
+            "patch": "4.56"
+        },
+        "x348": {
+            "number": "-",
+            "name_en": "Starlight de Chocobo",
+            "name_fr": "Starlight de Chocobo",
+            "category": "@CATEGORY.EVENT / CATEGORY.PREMIUM",
+            "source": "@EVENT.STARLIGHT_CELEBRATION (2019)",
+            "patch": "5.1"
         },
         "x580": {
             "number": "-",
@@ -203,14 +211,6 @@
             "category": "@CATEGORY.EVENT",
             "source": "@EVENT.THE_RISING (2023)",
             "patch": "6.48"
-        },
-        "x657": {
-            "number": "-",
-            "name_en": "Everybody Falls (Fall Guys Theme)",
-            "name_fr": "Everybody Falls",
-            "category": "@CATEGORY.EVENT",
-            "source": "@220 CURRENCY.MGF",
-            "patch": "6.51"
         },
         "x636": {
             "number": "-",
@@ -291,6 +291,22 @@
             "category": "@CATEGORY.EVENT",
             "source": "@EVENT.XVI_COLLAB (20,000 CURRENCY.MGP)",
             "patch": "6.58"
+        },
+        "x657": {
+            "number": "-",
+            "name_en": "Everybody Falls (Fall Guys Theme)",
+            "name_fr": "Everybody Falls",
+            "category": "@CATEGORY.EVENT",
+            "source": "@220 CURRENCY.MGF",
+            "patch": "6.51"
+        },
+        "x722": {
+            "name_en": "Winter's Warm Boughs",
+            "name_fr": "Winter's Warm Boughs",
+            "category": "@CATEGORY.EVENT",
+            "source": "@EVENT.STARLIGHT_CELEBRATION (2024)",
+            "patch": "7.1",
+            "number": "-"
         }
     }
 }

@@ -185,7 +185,7 @@
             "name_fr": "Troian Beauty (Endwalker)",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.869",
-            "patch": "6.2"
+            "patch": "6.28"
         },
         "x538": {
             "number": "24",
@@ -193,7 +193,7 @@
             "name_fr": "FINAL FANTASY IV: Battle 2 (Endwalker)",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.869",
-            "patch": "6.2"
+            "patch": "6.28"
         },
         "x496": {
             "number": "25",
@@ -218,7 +218,7 @@
             "category": "@CATEGORY.VC_DUNGEON",
             "source": "@VENDOR.TRISASSANT (8 CURRENCY.VCD.SILDIHN_SILVER)",
             "location": "@PLACE.OLD_SHARLAYAN",
-            "patch": "6.25"
+            "patch": "6.28"
         },
         "x567": {
             "number": "28",
@@ -251,7 +251,7 @@
             "category": "@CATEGORY.VC_DUNGEON",
             "source": "@VENDOR.TRISASSANT (8 CURRENCY.VCD.SHISHU_COIN)",
             "location": "@PLACE.OLD_SHARLAYAN",
-            "patch": "6.4"
+            "patch": "6.45"
         },
         "x643": {
             "number": "32",
@@ -278,6 +278,94 @@
             "source": "@VENDOR.TRISASSANT (8 CURRENCY.VCD.ALOALO_COIN)",
             "location": "@PLACE.OLD_SHARLAYAN",
             "patch": "6.51"
+        },
+        "x658": {
+            "name_en": "Punutiy Crossing",
+            "name_fr": "Punutiy Crossing",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.826",
+            "patch": "7.0",
+            "number": "35"
+        },
+        "x659": {
+            "name_en": "Empyrean Peak",
+            "name_fr": "Empyrean Peak",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.824",
+            "patch": "7.0",
+            "number": "36"
+        },
+        "x660": {
+            "name_en": "Lost in the Deep",
+            "name_fr": "Lost in the Deep",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.829",
+            "patch": "7.0",
+            "number": "37"
+        },
+        "x661": {
+            "name_en": "In Fulgur and Fire",
+            "name_fr": "In Fulgur and Fire",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.831",
+            "patch": "7.0",
+            "number": "38"
+        },
+        "x662": {
+            "name_en": "Anatomy of Existence",
+            "name_fr": "Anatomy of Existence",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.825",
+            "patch": "7.0",
+            "number": "39"
+        },
+        "x663": {
+            "name_en": "A Trail Unending",
+            "name_fr": "A Trail Unending",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.827",
+            "patch": "7.0",
+            "number": "40"
+        },
+        "x664": {
+            "name_en": "Blessings on the Bluffs",
+            "name_fr": "Blessings on the Bluffs",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.834",
+            "patch": "7.0",
+            "number": "41"
+        },
+        "x665": {
+            "name_en": "Court Jesters (Dawntrail)",
+            "name_fr": "Court Jesters (Dawntrail)",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.981",
+            "patch": "7.0",
+            "number": "42"
+        },
+        "x685": {
+            "name_en": "Roads Forsaken",
+            "name_fr": "Roads Forsaken",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.maps.18",
+            "patch": "7.0",
+            "number": "43"
+        },
+        "x686": {
+            "name_en": "Pathmaker",
+            "name_fr": "Pathmaker",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": "duty.treasure-hunt.duties.8",
+            "patch": "7.05",
+            "number": "44"
+        },
+        "x693": {
+            "name_en": "Unbroken Vessels",
+            "name_fr": "Unbroken Vessels",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.1008",
+            "patch": "7.1",
+            "number": "45"
         }
     }
 }

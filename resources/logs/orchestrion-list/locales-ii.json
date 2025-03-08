@@ -386,7 +386,7 @@
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER (6 CURRENCY.SOCIETY.ARKASODARA)",
             "location": "@PLACE.THAVNAIR",
-            "patch": "6.15"
+            "patch": "6.28"
         },
         "x546": {
             "number": "44",
@@ -395,7 +395,7 @@
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER (6 CURRENCY.SOCIETY.OMICRON)",
             "location": "@PLACE.ULTIMA_THULE",
-            "patch": "6.25"
+            "patch": "6.28"
         },
         "x566": {
             "number": "45",
@@ -421,7 +421,175 @@
             "name_fr": "Another Moon",
             "category": "@CATEGORY.QUEST",
             "source": "q.70279",
-            "patch": "6.35"
+            "patch": "6.4"
+        },
+        "x673": {
+            "name_en": "Morrow's Might",
+            "name_fr": "Morrow's Might",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.TULIYOLLAL (450 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.0",
+            "number": "48"
+        },
+        "x674": {
+            "name_en": "Starless Skyline",
+            "name_fr": "Starless Skyline",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SOLUTION_NINE (450 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.0",
+            "number": "49"
+        },
+        "x675": {
+            "name_en": "Windswept Echoes",
+            "name_fr": "Windswept Echoes",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.URQOPACHA (450 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.0",
+            "number": "50"
+        },
+        "x676": {
+            "name_en": "Of Glittering Wings",
+            "name_fr": "Of Glittering Wings",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.KOZAMAUKA (450 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.0",
+            "number": "51"
+        },
+        "x677": {
+            "name_en": "Emerald under Sapphire",
+            "name_fr": "Emerald under Sapphire",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.YAK_TEL (450 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.0",
+            "number": "52"
+        },
+        "x678": {
+            "name_en": "Ceruleum Smoke at High Noon",
+            "name_fr": "Ceruleum Smoke at High Noon",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SHAALOANI (450 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.0",
+            "number": "53"
+        },
+        "x679": {
+            "name_en": "Flash in the Dark",
+            "name_fr": "Flash in the Dark",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.HERITAGE_FOUND (450 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.0",
+            "number": "54"
+        },
+        "x680": {
+            "name_en": "Bygone Serenity",
+            "name_fr": "Bygone Serenity",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.LIVING_MEMORY (450 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.0",
+            "number": "55"
+        },
+        "x681": {
+            "name_en": "Pastoral Pleasures",
+            "name_fr": "Pastoral Pleasures",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.70625",
+            "patch": "7.0",
+            "number": "56"
+        },
+        "x682": {
+            "name_en": "Life Bound by Honor",
+            "name_fr": "Life Bound by Honor",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.70654",
+            "patch": "7.0",
+            "number": "57"
+        },
+        "x683": {
+            "name_en": "Desertwalkers",
+            "name_fr": "Desertwalkers",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.70699",
+            "patch": "7.0",
+            "number": "58"
+        },
+        "x684": {
+            "name_en": "Blade's Exaltation",
+            "name_fr": "Blade's Exaltation",
+            "category": "@CATEGORY.THE_HUNT",
+            "source": "@VENDOR.RYUBOOL (300 CURRENCY.HUNT.SACK_OF_NUTS)",
+            "patch": "7.0",
+            "number": "59"
+        },
+        "x694": {
+            "name_en": "Morrow's Magic",
+            "name_fr": "Morrow's Magic",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.TULIYOLLAL (450 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.1",
+            "number": "60"
+        },
+        "x695": {
+            "name_en": "Windswept Whispers",
+            "name_fr": "Windswept Whispers",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.URQOPACHA (450 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.1",
+            "number": "61"
+        },
+        "x696": {
+            "name_en": "Of Glittering Baubles",
+            "name_fr": "Of Glittering Baubles",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.KOZAMAUKA (450 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.1",
+            "number": "62"
+        },
+        "x697": {
+            "name_en": "Skybound Emerald",
+            "name_fr": "Skybound Emerald",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.YAK_TEL (450 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.1",
+            "number": "63"
+        },
+        "x698": {
+            "name_en": "Ceruleum Embers by Dusk",
+            "name_fr": "Ceruleum Embers by Dusk",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SHAALOANI (450 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.1",
+            "number": "64"
+        },
+        "x699": {
+            "name_en": "Crash in the Dark",
+            "name_fr": "Crash in the Dark",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.HERITAGE_FOUND (450 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.1",
+            "number": "65"
+        },
+        "x700": {
+            "name_en": "Echoes of Memory",
+            "name_fr": "Echoes of Memory",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.LIVING_MEMORY (450 CURRENCY.FATE.GEMSTONE)",
+            "patch": "7.1",
+            "number": "66"
+        },
+        "x701": {
+            "name_en": "Faerie Battle",
+            "name_fr": "Faerie Battle",
+            "category": "@CATEGORY.FATE",
+            "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SOLUTION_NINE (2 CURRENCY.FATE.MICA)",
+            "patch": "7.1",
+            "number": "67"
+        },
+        "x708": {
+            "name_en": "The Travel Agency (Dawntrail)",
+            "name_fr": "The Travel Agency (Dawntrail)",
+            "category": "@CATEGORY.SOCIETY",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.KOZAMAUKA (6 CURRENCY.SOCIETY.PELUPELU)",
+            "patch": "7.1",
+            "number": "68"
         }
     }
 }

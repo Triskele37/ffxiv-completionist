@@ -70,7 +70,7 @@
         "x362": {
             "number": "9",
             "name_en": "Blue Fields (Shadowbringers)",
-            "name_fr": "Blue Fields (Shadowbringers)",
+            "name_fr": "Blue Fields",
             "category": "@CATEGORY.QUEST",
             "source": "q.69329",
             "patch": "5.2"
@@ -78,7 +78,7 @@
         "x327": {
             "number": "10",
             "name_en": "Force Your Way (Shadowbringers)",
-            "name_fr": "Force Your Way (Shadowbringers)",
+            "name_fr": "Force Your Way",
             "category": "@CATEGORY.RAID",
             "source": ["d.653", "d.684"],
             "patch": "5.01"
@@ -174,7 +174,7 @@
         "x417": {
             "number": "22",
             "name_en": "Don't Be Afraid (Shadowbringers)",
-            "name_fr": "Don't Be Afraid (Shadowbringers)",
+            "name_fr": "Don't Be Afraid",
             "category": "@CATEGORY.RAID",
             "source": "d.747",
             "patch": "5.4"
@@ -182,7 +182,7 @@
         "x418": {
             "number": "23",
             "name_en": "The Legendary Beast (Shadowbringers)",
-            "name_fr": "The Legendary Beast (Shadowbringers)",
+            "name_fr": "The Legendary Beast",
             "category": "@CATEGORY.RAID",
             "source": "d.751",
             "patch": "5.4"
@@ -198,7 +198,7 @@
         "x420": {
             "number": "25",
             "name_en": "The Extreme (Shadowbringers)",
-            "name_fr": "The Extreme (Shadowbringers)",
+            "name_fr": "The Extreme",
             "category": "@CATEGORY.RAID",
             "source": "d.759",
             "patch": "5.4"
@@ -297,7 +297,7 @@
             "name_fr": "Ancient Shackles",
             "category": "@CATEGORY.RAID",
             "source": "d.806",
-            "patch": "6.01"
+            "patch": "6.05"
         },
         "x486": {
             "number": "38",
@@ -305,7 +305,7 @@
             "name_fr": "Hic Svnt Leones",
             "category": "@CATEGORY.RAID",
             "source": "d.800",
-            "patch": "6.01"
+            "patch": "6.05"
         },
         "x511": {
             "number": "39",
@@ -337,7 +337,7 @@
             "name_fr": "Silent Scream",
             "category": "@CATEGORY.RAID",
             "source": "d.872",
-            "patch": "6.2"
+            "patch": "6.28"
         },
         "x541": {
             "number": "43",
@@ -345,7 +345,7 @@
             "name_fr": "Scream",
             "category": "@CATEGORY.RAID",
             "source": ["d.880", "d.876"],
-            "patch": "6.2"
+            "patch": "6.28"
         },
         "x542": {
             "number": "44",
@@ -353,7 +353,7 @@
             "name_fr": "Embers",
             "category": "@CATEGORY.RAID",
             "source": "d.883",
-            "patch": "6.2"
+            "patch": "6.28"
         },
         "x543": {
             "number": "45",
@@ -361,7 +361,7 @@
             "name_fr": "White Stone Black",
             "category": "@CATEGORY.RAID",
             "source": "d.884",
-            "patch": "6.2"
+            "patch": "6.28"
         },
         "x569": {
             "number": "46",
@@ -450,6 +450,166 @@
             "category": "@CATEGORY.RAID",
             "source": "d.962",
             "patch": "6.5"
+        },
+        "x668": {
+            "name_en": "It's Showtime!",
+            "name_fr": "It's Showtime!",
+            "category": "@CATEGORY.RAID",
+            "source": "d.985",
+            "patch": "7.01",
+            "number": "57"
+        },
+        "x669": {
+            "name_en": "Bee My Honey",
+            "name_fr": "Bee My Honey",
+            "category": "@CATEGORY.RAID",
+            "source": "d.987",
+            "patch": "7.01",
+            "number": "58"
+        },
+        "x670": {
+            "name_en": "Burning Souls",
+            "name_fr": "Burning Souls",
+            "category": "@CATEGORY.RAID",
+            "source": "d.989",
+            "patch": "7.01",
+            "number": "59"
+        },
+        "x671": {
+            "name_en": "Give It All",
+            "name_fr": "Give It All",
+            "category": "@CATEGORY.RAID",
+            "source": "d.991",
+            "patch": "7.01",
+            "number": "60"
+        },
+        "x672": {
+            "name_en": "A Risky Bet",
+            "name_fr": "A Risky Bet",
+            "category": "@CATEGORY.RAID",
+            "source": "d.992",
+            "patch": "7.05",
+            "number": "61"
+        },
+        "x707": {
+            "name_en": "Where Dæmons Abide",
+            "name_fr": "Where Dæmons Abide",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.70788",
+            "patch": "7.1",
+            "number": "62"
+        },
+        "x709": {
+            "name_en": "The Grand Duchy of Jeuno",
+            "name_fr": "The Grand Duchy of Jeuno",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.70772",
+            "patch": "7.1",
+            "number": "63"
+        },
+        "x710": {
+            "name_en": "The Forgotten City - Tavnazian Safehold",
+            "name_fr": "The Forgotten City - Tavnazian Safehold",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.PECULIAR_GOBLIN (1 CURRENCY.TATTERED_SHEET_MUSIC)",
+            "patch": "7.1",
+            "number": "64"
+        },
+        "x711": {
+            "name_en": "Shadow Lord",
+            "name_fr": "Shadow Lord",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.PECULIAR_GOBLIN (1 CURRENCY.TATTERED_SHEET_MUSIC)",
+            "patch": "7.1",
+            "number": "65"
+        },
+        "x712": {
+            "name_en": "Depths of the Soul",
+            "name_fr": "Depths of the Soul",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.PECULIAR_GOBLIN (1 CURRENCY.TATTERED_SHEET_MUSIC)",
+            "patch": "7.1",
+            "number": "66"
+        },
+        "x713": {
+            "name_en": "Battle in the Dungeon",
+            "name_fr": "Battle in the Dungeon",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.PECULIAR_GOBLIN (1 CURRENCY.TATTERED_SHEET_MUSIC)",
+            "patch": "7.1",
+            "number": "67"
+        },
+        "x714": {
+            "name_en": "Battle in the Dungeon #3",
+            "name_fr": "Battle in the Dungeon #3",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.PECULIAR_GOBLIN (1 CURRENCY.TATTERED_SHEET_MUSIC)",
+            "patch": "7.1",
+            "number": "68"
+        },
+        "x715": {
+            "name_en": "Tu'Lia",
+            "name_fr": "Tu'Lia",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.PECULIAR_GOBLIN (1 CURRENCY.TATTERED_SHEET_MUSIC)",
+            "patch": "7.1",
+            "number": "69"
+        },
+        "x716": {
+            "name_en": "Battle Theme from FINAL FANTASY XI",
+            "name_fr": "Battle Theme from FINAL FANTASY XI",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.PECULIAR_GOBLIN (1 CURRENCY.TATTERED_SHEET_MUSIC)",
+            "patch": "7.1",
+            "number": "70"
+        },
+        "x717": {
+            "name_en": "Fighters of the Crystal",
+            "name_fr": "Fighters of the Crystal",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.PECULIAR_GOBLIN (1 CURRENCY.TATTERED_SHEET_MUSIC)",
+            "patch": "7.1",
+            "number": "71"
+        },
+        "x718": {
+            "name_en": "Castle Zvahl",
+            "name_fr": "Castle Zvahl",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.PECULIAR_GOBLIN (1 CURRENCY.TATTERED_SHEET_MUSIC)",
+            "patch": "7.1",
+            "number": "72"
+        },
+        "x719": {
+            "name_en": "Awakening",
+            "name_fr": "Awakening",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.PECULIAR_GOBLIN (1 CURRENCY.TATTERED_SHEET_MUSIC)",
+            "patch": "7.1",
+            "number": "73"
+        },
+        "x720": {
+            "name_en": "Vana'diel March",
+            "name_fr": "Vana'diel March",
+            "category": "@CATEGORY.RAID",
+            "source": "@VENDOR.PECULIAR_GOBLIN (1 CURRENCY.TATTERED_SHEET_MUSIC)",
+            "patch": "7.1",
+            "number": "74"
+        },
+        "x706": {
+            "name_en": "A Sundering of Light",
+            "name_fr": "A Sundering of Light",
+            "category": "@CATEGORY.ACHIEVEMENT",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
+            "patch": "7.11",
+            "number": "75"
+        },
+        "x705": {
+            "name_en": "Return to Oblivion (Scions & Sinners: Band)",
+            "name_fr": "Return to Oblivion (Scions & Sinners: Band)",
+            "category": "@CATEGORY.ACHIEVEMENT",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
+            "patch": "7.11",
+            "number": "76"
         }
     }
 }

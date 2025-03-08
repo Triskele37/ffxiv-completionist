@@ -131,7 +131,23 @@
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.HOUSING_MERCHANT (5,000 CURRENCY.GIL)",
             "location": ["@PLACE.MIST", "@PLACE.THE_LAVENDER_BEDS", "@PLACE.THE_GOBLET", "@PLACE.SHIROGANE", "@PLACE.EMPYREUM"],
-            "patch": "6.2"
+            "patch": "6.28"
+        },
+        "x689": {
+            "number": "15",
+            "name_en": "Subterranean Drop",
+            "name_fr": "Subterranean Drop",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": ["@VOYAGE.EAST_DODIES_ABYSS", "@VOYAGE.RAINBRINGER_RIFT"],
+            "patch": "7.0"
+        },
+        "x690": {
+            "number": "16",
+            "name_en": "Tinkerer's Treasure Trove",
+            "name_fr": "Tinkerer's Treasure Trove",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": ["@VOYAGE.WEST_DIDIES_ABYSS", "@VOYAGE.SOUTH_INDIGO_DEEP 1"],
+            "patch": "7.0"
         }
     }
 }

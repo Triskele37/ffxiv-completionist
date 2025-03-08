@@ -693,4 +693,6 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [614, 614], // FINAL FANTASY IV: The Final Battle (Endwalker)
         [625, 625], // The Red Wings (Endwalker)
     ]);
+
+    store.moveGroup(`${ORCH}.mog-station`, `${ORCH}.online-store-and-bonuses`, true);
 }

@@ -33,7 +33,7 @@
             "name_fr": "A Thousand Screams",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.1",
-            "patch": "6.2"
+            "patch": "6.28"
         },
         "x368": {
             "number": "5",
@@ -49,7 +49,7 @@
             "name_fr": "Lipflaps on Longstops",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.8",
-            "patch": "6.2"
+            "patch": "6.28"
         },
         "x396": {
             "number": "7",
@@ -82,7 +82,7 @@
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER (350 CURRENCY.FATE.GEMSTONE)",
             "location": "@PLACE.GARLEMALD",
-            "patch": "6.2"
+            "patch": "6.28"
         },
         "x558": {
             "number": "11",
@@ -91,31 +91,31 @@
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER (350 CURRENCY.FATE.GEMSTONE)",
             "location": "@PLACE.GARLEMALD",
-            "patch": "6.2"
+            "patch": "6.28"
         },
-        "x227": {
-            "number": "44",
-            "name_en": "The Ancient City",
-            "name_fr": "The Ancient City",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.140",
-            "patch": "4.3"
+        "x23": {
+            "number": "12",
+            "name_en": "A Light in the Storm",
+            "name_fr": "A Light in the Storm",
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["d.17", "d.40"],
+            "patch": "3.15"
         },
-        "x103": {
-            "number": "46",
-            "name_en": "Grounded",
-            "name_fr": "Grounded",
-            "category": "@CATEGORY.QUEST",
-            "source": "q.67878",
-            "patch": "3.4"
+        "x22": {
+            "number": "13",
+            "name_en": "The Dark's Embrace",
+            "name_fr": "The Dark's Embrace",
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["d.3", "d.18"],
+            "patch": "3.15"
         },
-        "x156": {
-            "number": "47",
-            "name_en": "Bibliophobia",
-            "name_fr": "Bibliophobia",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.196",
-            "patch": "4.0"
+        "x26": {
+            "number": "14",
+            "name_en": "The Scars of Battle",
+            "name_fr": "The Scars of Battle",
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["d.22", "d.140"],
+            "patch": "3.15"
         },
         "x249": {
             "number": "15",
@@ -141,38 +141,37 @@
             "source": ["d.23", "d.172"],
             "patch": "3.3"
         },
-        "x247": {
-            "number": "41",
-            "name_en": "Upon the Rocks",
-            "name_fr": "Upon the Rocks",
+        "x21": {
+            "number": "18",
+            "name_en": "Dark Vows",
+            "name_fr": "Dark Vows",
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["d.2", "d.24"],
+            "patch": "3.15"
+        },
+        "x62": {
+            "number": "19",
+            "name_en": "The Warrens",
+            "name_fr": "The Warrens",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "d.27",
+            "patch": "3.3"
+        },
+        "x20": {
+            "number": "20",
+            "name_en": "Riptide",
+            "name_fr": "Riptide",
+            "category": "@CATEGORY.CRAFTING",
+            "source": ["d.4", "d.28"],
+            "patch": "3.15"
+        },
+        "x102": {
+            "number": "21",
+            "name_en": "Silver Tears",
+            "name_fr": "Silver Tears",
             "category": "@CATEGORY.DUNGEON",
-            "source": "d.40",
-            "patch": "4.4"
-        },
-        "x421": {
-            "number": "25",
-            "name_en": "Nemesis",
-            "name_fr": "Nemesis",
-            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
-            "source": "@VOYAGE.MOERGYNNS_FORGE",
-            "patch": "5.4"
-        },
-        "x155": {
-            "number": "40",
-            "name_en": "Poison Ivy",
-            "name_fr": "Poison Ivy",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.41",
-            "patch": "4.0"
-        },
-        "x612": {
-            "number": "76",
-            "name_en": "My Soul to Keep",
-            "name_fr": "My Soul to Keep",
-            "category": "@CATEGORY.ACHIEVEMENT",
-            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
-            "location": "@PLACE.OLD_GRIDANIA",
-            "patch": "6.4"
+            "source": "d.32",
+            "patch": "3.4"
         },
         "x248": {
             "number": "22",
@@ -199,37 +198,45 @@
             "location": "@PLACE.THE_GOLD_SAUCER",
             "patch": "5.4"
         },
-        "x574": {
-            "number": "71",
-            "name_en": "Cracks in the Wall",
-            "name_fr": "Cracks in the Wall",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.14",
-            "patch": "6.3"
+        "x421": {
+            "number": "25",
+            "name_en": "Nemesis",
+            "name_fr": "Nemesis",
+            "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
+            "source": "@VOYAGE.MOERGYNNS_FORGE",
+            "patch": "5.4"
         },
-        "x578": {
-            "number": "72",
-            "name_en": "Forgotten by the Sun",
-            "name_fr": "Forgotten by the Sun",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.26",
-            "patch": "6.3"
+        "x97": {
+            "number": "26",
+            "name_en": "Blackbosom",
+            "name_fr": "Blackbosom",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": "d.174",
+            "patch": "3.45"
         },
-        "x579": {
-            "number": "73",
-            "name_en": "Holy Consult",
-            "name_fr": "Holy Consult",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.172",
-            "patch": "6.3"
+        "x98": {
+            "number": "27",
+            "name_en": "Fog of Phantom",
+            "name_fr": "Fog of Phantom",
+            "category": "@CATEGORY.ACHIEVEMENT / CATEGORY.PURCHASE",
+            "source": ["a.1656", "@VENDOR.E_UNA_KOTOR (5 CURRENCY.DD.GELMORRAN)"],
+            "patch": "3.45"
         },
-        "x573": {
-            "number": "74",
-            "name_en": "Dangertek",
-            "name_fr": "Dangertek",
-            "category": "@CATEGORY.TREASURE_HUNT",
-            "source": ["duty.treasure-hunt.duties.6", "duty.treasure-hunt.duties.7"],
-            "patch": "6.3"
+        "x99": {
+            "number": "28",
+            "name_en": "Blasphemous Experiment",
+            "name_fr": "Blasphemous Experiment",
+            "category": "@CATEGORY.ACHIEVEMENT / CATEGORY.PURCHASE",
+            "source": ["a.1655", "@VENDOR.E_UNA_KOTOR (1 CURRENCY.DD.GELMORRAN)"],
+            "patch": "3.45"
+        },
+        "x100": {
+            "number": "29",
+            "name_en": "Notice of Death",
+            "name_fr": "Notice of Death",
+            "category": "@CATEGORY.ACHIEVEMENT / CATEGORY.PURCHASE",
+            "source": ["a.1657", "@VENDOR.E_UNA_KOTOR (10 CURRENCY.DD.GELMORRAN)"],
+            "patch": "3.45"
         },
         "x529": {
             "number": "30",
@@ -239,13 +246,13 @@
             "source": "d.36",
             "patch": "6.1"
         },
-        "x583": {
-            "number": "75",
-            "name_en": "The Promise of Plunder",
-            "name_fr": "The Promise of Plunder",
-            "category": "@CATEGORY.DEEP_DUNGEON",
-            "source": "d.897",
-            "patch": "6.35"
+        "x101": {
+            "number": "31",
+            "name_en": "Slumber Eternal",
+            "name_fr": "Slumber Eternal",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.37",
+            "patch": "3.4"
         },
         "x501": {
             "number": "32",
@@ -261,7 +268,7 @@
             "name_fr": "Toll of the Bells",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.34",
-            "patch": "6.2"
+            "patch": "6.28"
         },
         "x130": {
             "number": "34",
@@ -277,7 +284,7 @@
             "name_fr": "Stigma",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.34",
-            "patch": "6.2"
+            "patch": "6.28"
         },
         "x64": {
             "number": "36",
@@ -287,13 +294,13 @@
             "source": "d.31",
             "patch": "3.3"
         },
-        "x66": {
-            "number": "45",
-            "name_en": "Apologies",
-            "name_fr": "Apologies",
-            "category": "@CATEGORY.DUNGEON",
-            "source": "d.171",
-            "patch": "3.3"
+        "x24": {
+            "number": "37",
+            "name_en": "Imagination",
+            "name_fr": "Imagination",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "d.38",
+            "patch": "3.15"
         },
         "x528": {
             "number": "38",
@@ -311,6 +318,30 @@
             "source": "d.35",
             "patch": "3.3"
         },
+        "x155": {
+            "number": "40",
+            "name_en": "Poison Ivy",
+            "name_fr": "Poison Ivy",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.41",
+            "patch": "4.0"
+        },
+        "x247": {
+            "number": "41",
+            "name_en": "Upon the Rocks",
+            "name_fr": "Upon the Rocks",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.40",
+            "patch": "4.4"
+        },
+        "x25": {
+            "number": "42",
+            "name_en": "Down the Up Staircase",
+            "name_fr": "Down the Up Staircase",
+            "category": "@CATEGORY.CRAFTING",
+            "source": "d.141",
+            "patch": "3.15"
+        },
         "x432": {
             "number": "43",
             "name_en": "Dancing Calcabrina",
@@ -318,6 +349,38 @@
             "category": "@CATEGORY.DUNGEON",
             "source": "d.141",
             "patch": "5.4"
+        },
+        "x227": {
+            "number": "44",
+            "name_en": "The Ancient City",
+            "name_fr": "The Ancient City",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.140",
+            "patch": "4.3"
+        },
+        "x66": {
+            "number": "45",
+            "name_en": "Apologies",
+            "name_fr": "Apologies",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.171",
+            "patch": "3.3"
+        },
+        "x103": {
+            "number": "46",
+            "name_en": "Grounded",
+            "name_fr": "Grounded",
+            "category": "@CATEGORY.QUEST",
+            "source": "q.67878",
+            "patch": "3.4"
+        },
+        "x156": {
+            "number": "47",
+            "name_en": "Bibliophobia",
+            "name_fr": "Bibliophobia",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.196",
+            "patch": "4.0"
         },
         "x132": {
             "number": "48",
@@ -471,7 +534,7 @@
             "name_fr": "A Pall Most Murderous",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.611",
-            "patch": "4.45"
+            "patch": "4.5"
         },
         "x214": {
             "number": "67",
@@ -505,6 +568,55 @@
             "category": "@CATEGORY.DUNGEON",
             "source": "d.5",
             "patch": "6.3"
+        },
+        "x574": {
+            "number": "71",
+            "name_en": "Cracks in the Wall",
+            "name_fr": "Cracks in the Wall",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.14",
+            "patch": "6.3"
+        },
+        "x578": {
+            "number": "72",
+            "name_en": "Forgotten by the Sun",
+            "name_fr": "Forgotten by the Sun",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.26",
+            "patch": "6.3"
+        },
+        "x579": {
+            "number": "73",
+            "name_en": "Holy Consult",
+            "name_fr": "Holy Consult",
+            "category": "@CATEGORY.DUNGEON",
+            "source": "d.172",
+            "patch": "6.3"
+        },
+        "x573": {
+            "number": "74",
+            "name_en": "Dangertek",
+            "name_fr": "Dangertek",
+            "category": "@CATEGORY.TREASURE_HUNT",
+            "source": ["duty.treasure-hunt.duties.6", "duty.treasure-hunt.duties.7"],
+            "patch": "6.3"
+        },
+        "x583": {
+            "number": "75",
+            "name_en": "The Promise of Plunder",
+            "name_fr": "The Promise of Plunder",
+            "category": "@CATEGORY.DEEP_DUNGEON",
+            "source": "d.897",
+            "patch": "6.35"
+        },
+        "x612": {
+            "number": "76",
+            "name_en": "My Soul to Keep",
+            "name_fr": "My Soul to Keep",
+            "category": "@CATEGORY.ACHIEVEMENT",
+            "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
+            "location": "@PLACE.OLD_GRIDANIA",
+            "patch": "6.4"
         }
     }
 }
