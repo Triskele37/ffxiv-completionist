@@ -27,6 +27,96 @@
         }
     },
     "tasks": {
+        "x125": {
+            "name_en": "Miitso",
+            "name_fr": "Miitso",
+            "zone": "@PLACE.LOWER_JEUNO",
+            "location": "(6.4, 6.1)",
+            "patch": "7.1",
+            "drops": ["tt.430", "tt.431"],
+            "quest": "q.70772"
+        },
+        "x124": {
+            "name_en": "Pawkukwe",
+            "name_fr": "Pawkukwe",
+            "zone": "@PLACE.LOWER_JEUNO",
+            "location": "(6.7, 7.1)",
+            "patch": "7.1",
+            "drops": ["tt.428", "tt.429"],
+            "quest": "q.70772"
+        },
+        "x123": {
+            "name_en": "Gavoll Ja",
+            "name_fr": "Gavoll Ja",
+            "zone": "@PLACE.TULIYOLLAL",
+            "location": "(15.7, 2.9)",
+            "patch": "7.0",
+            "drops": ["tt.413"],
+            "quest": "q.70456"
+        },
+        "x122": {
+            "name_en": "Larisa",
+            "name_fr": "Larisa",
+            "zone": "@PLACE.SOLUTION_NINE",
+            "location": "(5.8, 13.9)",
+            "patch": "7.0",
+            "drops": ["tt.412"],
+            "quest": "q.70486"
+        },
+        "x121": {
+            "name_en": "Uataaye",
+            "name_fr": "Uataaye",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "location": "(19.5, 9.4)",
+            "patch": "7.0",
+            "drops": ["tt.411"],
+            "quest": "q.70464"
+        },
+        "x120": {
+            "name_en": "Luwyawa",
+            "name_fr": "Luwyawa",
+            "zone": "@PLACE.SHAALOANI",
+            "location": "(28.9, 30.4)",
+            "patch": "7.0",
+            "drops": ["tt.410"],
+            "quest": "q.70448"
+        },
+        "x119": {
+            "name_en": "Br'uk Noq'",
+            "name_fr": "Br'uk Noq'",
+            "zone": "@PLACE.YAK_TEL",
+            "location": "(12.7, 14.8)",
+            "patch": "7.0",
+            "drops": ["tt.409"],
+            "quest": "q.70444"
+        },
+        "x118": {
+            "name_en": "Warsowok",
+            "name_fr": "Warsowok",
+            "zone": "@PLACE.KOZAMAUKA",
+            "location": "(11.5, 27.2)",
+            "patch": "7.0",
+            "drops": ["tt.408"],
+            "quest": "q.70416"
+        },
+        "x117": {
+            "name_en": "Wopli",
+            "name_fr": "Wopli",
+            "zone": "@PLACE.URQOPACHA",
+            "location": "(28.5, 12.9)",
+            "patch": "7.0",
+            "drops": ["tt.407"],
+            "quest": "q.70413"
+        },
+        "x116": {
+            "name_en": "Nyikweni",
+            "name_fr": "Nyikweni",
+            "zone": "@PLACE.TULIYOLLAL",
+            "location": "(15.0, 13.6)",
+            "patch": "7.0",
+            "drops": ["tt.406"],
+            "quest": "q.70413"
+        },
         "x115": {
             "name_en": "Maillart",
             "name_fr": "Maillart",
