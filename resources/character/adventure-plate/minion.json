@@ -1,0 +1,1533 @@
+{
+    "key": "minion",
+    "groupName_en": "Minion",
+    "groupName_fr": "Mascottes",
+    "tasks": {
+        "x349": {
+            "name_en": "Wayward Hatchling",
+            "name_fr": "Bébé Chocobo",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.3",
+            "patch": "6.1"
+        },
+        "x435": {
+            "name_en": "Heavy Hatchling",
+            "name_fr": "Bébé Chocobo Grassouillet",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.106",
+            "patch": "6.3"
+        },
+        "x364": {
+            "name_en": "Wind-up Moogle",
+            "name_fr": "Poupée Mog",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.79",
+            "patch": "6.1"
+        },
+        "x350": {
+            "name_en": "Cherry Bomb",
+            "name_fr": "Bombino",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.1",
+            "patch": "6.1"
+        },
+        "x351": {
+            "name_en": "Baby Behemoth",
+            "name_fr": "Bébéhémoth",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.5",
+            "patch": "6.1"
+        },
+        "x352": {
+            "name_en": "Morbol Seedling",
+            "name_fr": "Bulbe De Morbol",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.12",
+            "patch": "6.1"
+        },
+        "x650": {
+            "name_en": "Tiny Rat",
+            "name_fr": "Écureuil Nain",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.13",
+            "patch": "7.0"
+        },
+        "x651": {
+            "name_en": "Baby Bun",
+            "name_fr": "Fungus Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.14",
+            "patch": "7.0"
+        },
+        "x652": {
+            "name_en": "Chigoe Larva",
+            "name_fr": "Chigoe Apprivoisé",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.15",
+            "patch": "7.0"
+        },
+        "x361": {
+            "name_en": "Coeurl Kitten",
+            "name_fr": "Joli Coeurl",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.19",
+            "patch": "6.1"
+        },
+        "x653": {
+            "name_en": "Black Coeurl",
+            "name_fr": "Coeurl Noir",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.20",
+            "patch": "7.0"
+        },
+        "x541": {
+            "name_en": "Gravel Golem",
+            "name_fr": "Golem Graveleux",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.22",
+            "patch": "6.4"
+        },
+        "x362": {
+            "name_en": "Wind-up Tonberry",
+            "name_fr": "Tomberry Mécanique",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.23",
+            "patch": "6.1"
+        },
+        "x654": {
+            "name_en": "Baby Raptor",
+            "name_fr": "Bébé Raptor",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.25",
+            "patch": "7.0"
+        },
+        "x353": {
+            "name_en": "Dust Bunny",
+            "name_fr": "Lapin Mutin",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.28",
+            "patch": "6.1"
+        },
+        "x354": {
+            "name_en": "Cactuar Cutting",
+            "name_fr": "Mini-pampa",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.33",
+            "patch": "6.1"
+        },
+        "x355": {
+            "name_en": "Smallshell",
+            "name_fr": "Coquépique",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.34",
+            "patch": "6.1"
+        },
+        "x360": {
+            "name_en": "Wolf Pup",
+            "name_fr": "Bébé Chacal",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.35",
+            "patch": "6.1"
+        },
+        "x380": {
+            "name_en": "Fledgling Dodo",
+            "name_fr": "Dodu Dodo",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.37",
+            "patch": "6.1"
+        },
+        "x383": {
+            "name_en": "Kidragora",
+            "name_fr": "Mini-mini-mandragore",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.48",
+            "patch": "6.1"
+        },
+        "x387": {
+            "name_en": "Onion Prince",
+            "name_fr": "Prince Oignon",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.86",
+            "patch": "6.1"
+        },
+        "x388": {
+            "name_en": "Eggplant Knight",
+            "name_fr": "Chevalier Aubergine",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.87",
+            "patch": "6.1"
+        },
+        "x389": {
+            "name_en": "Garlic Jester",
+            "name_fr": "Baron Ail",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.88",
+            "patch": "6.1"
+        },
+        "x390": {
+            "name_en": "Tomato King",
+            "name_fr": "Roi Tomate",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.89",
+            "patch": "6.1"
+        },
+        "x391": {
+            "name_en": "Mandragora Queen",
+            "name_fr": "Reine Mandragore",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.90",
+            "patch": "6.1"
+        },
+        "x534": {
+            "name_en": "Private Pachypodium",
+            "name_fr": "Soldate Pachypodium",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.473",
+            "patch": "6.4"
+        },
+        "x645": {
+            "name_en": "Coblyn Larva",
+            "name_fr": "Larve De Coblyn",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.38",
+            "patch": "7.0"
+        },
+        "x381": {
+            "name_en": "Fledgling Apkallu",
+            "name_fr": "Apkallu Nain",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.40",
+            "patch": "6.1"
+        },
+        "x356": {
+            "name_en": "Goobbue Sproutling",
+            "name_fr": "Goobbue Goulu",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.41",
+            "patch": "6.1"
+        },
+        "x357": {
+            "name_en": "Demon Brick",
+            "name_fr": "Bloc Démonique",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.44",
+            "patch": "6.1"
+        },
+        "x382": {
+            "name_en": "Tender Lamb",
+            "name_fr": "Belin Bêlant",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.46",
+            "patch": "6.1"
+        },
+        "x436": {
+            "name_en": "Slime Puddle",
+            "name_fr": "Mini-gluant",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.47",
+            "patch": "6.3"
+        },
+        "x655": {
+            "name_en": "Minute Mindflayer",
+            "name_fr": "Gentil Flagelleur",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.56",
+            "patch": "7.0"
+        },
+        "x384": {
+            "name_en": "Tight-beaked Parrot",
+            "name_fr": "Perroquet Taciturne",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.57",
+            "patch": "6.1"
+        },
+        "x437": {
+            "name_en": "Baby Opo-opo",
+            "name_fr": "Bébé Opo-opo",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.80",
+            "patch": "6.3"
+        },
+        "x385": {
+            "name_en": "Wind-up Succubus",
+            "name_fr": "Poupée Succube",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.82",
+            "patch": "6.1"
+        },
+        "x438": {
+            "name_en": "Littlefoot",
+            "name_fr": "Petit Yéti",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.111",
+            "patch": "6.3"
+        },
+        "x542": {
+            "name_en": "Mummy's Little Mummy",
+            "name_fr": "Mini-momie",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.112",
+            "patch": "6.4"
+        },
+        "x394": {
+            "name_en": "Atrophied Atomos",
+            "name_fr": "Atomos Atrophié",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.136",
+            "patch": "6.1"
+        },
+        "x395": {
+            "name_en": "Gaelikitten",
+            "name_fr": "Gaélichaton",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.139",
+            "patch": "6.1"
+        },
+        "x474": {
+            "name_en": "Weatherproof Gaelicat",
+            "name_fr": "Gaélichat Emmitouflé",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.384",
+            "patch": "6.3"
+        },
+        "x369": {
+            "name_en": "Paissa Brat",
+            "name_fr": "Petiot Païssa",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.157",
+            "patch": "6.1"
+        },
+        "x439": {
+            "name_en": "Shalloweye",
+            "name_fr": "Poussin Oculus",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.163",
+            "patch": "6.3"
+        },
+        "x370": {
+            "name_en": "Korpokkur Kid",
+            "name_fr": "Pon-korpokkur",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.166",
+            "patch": "6.1"
+        },
+        "x440": {
+            "name_en": "Morpho",
+            "name_fr": "Morpho",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.180",
+            "patch": "6.3"
+        },
+        "x441": {
+            "name_en": "Poro Roggo",
+            "name_fr": "Poro Roggo",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.181",
+            "patch": "6.3"
+        },
+        "x543": {
+            "name_en": "Fenrir Pup",
+            "name_fr": "Bébé Fenrir",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.183",
+            "patch": "6.4"
+        },
+        "x399": {
+            "name_en": "Shaggy Shoat",
+            "name_fr": "Marcassin",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.216",
+            "patch": "6.1"
+        },
+        "x402": {
+            "name_en": "Yukinko Snowflake",
+            "name_fr": "Ko-yukinko",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.319",
+            "patch": "6.3"
+        },
+        "x405": {
+            "name_en": "Bacon Bits",
+            "name_fr": "Bout-de-cochon",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.353",
+            "patch": "6.3"
+        },
+        "x544": {
+            "name_en": "Little Leannan",
+            "name_fr": "Mini-Leannan Sith",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.361",
+            "patch": "6.4"
+        },
+        "x442": {
+            "name_en": "Drippy",
+            "name_fr": "Drippy",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.405",
+            "patch": "6.3"
+        },
+        "x734": {
+            "name_en": "Prince Lunatender",
+            "name_fr": "Prince Pampa Sélénien",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.433",
+            "patch": "7.1"
+        },
+        "x736": {
+            "name_en": "Royal Lunatender",
+            "name_fr": "Roi Pampa Sélénien",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.443",
+            "patch": "7.1"
+        },
+        "x482": {
+            "name_en": "Greener Gleaner",
+            "name_fr": "Glaneur Vert",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.438",
+            "patch": "6.4"
+        },
+        "x472": {
+            "name_en": "Sponge Silkie",
+            "name_fr": "Silkie-éponge",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.463",
+            "patch": "6.3"
+        },
+        "x750": {
+            "name_en": "Tankardtender",
+            "name_fr": "Biscoto-pampa",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.517",
+            "patch": "7.1"
+        },
+        "x489": {
+            "name_en": "OMG",
+            "name_fr": "Mini-Oméga",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.305",
+            "patch": "6.4"
+        },
+        "x487": {
+            "name_en": "Wind-up Omega-M",
+            "name_fr": "Oméga-M Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.344",
+            "patch": "6.4"
+        },
+        "x488": {
+            "name_en": "Wind-up Omega-F",
+            "name_fr": "Oméga-F Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.345",
+            "patch": "6.4"
+        },
+        "x538": {
+            "name_en": "Wind-up Azeyma",
+            "name_fr": "Azeyma Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.451",
+            "patch": "6.4"
+        },
+        "x539": {
+            "name_en": "Wind-up Halone",
+            "name_fr": "Halone Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.474",
+            "patch": "6.4"
+        },
+        "x540": {
+            "name_en": "Wind-up Oschon",
+            "name_fr": "Oschon Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.494",
+            "patch": "6.4"
+        },
+        "x475": {
+            "name_en": "Nana Bear",
+            "name_fr": "Ourson De Nanakko",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.95",
+            "patch": "6.3"
+        },
+        "x365": {
+            "name_en": "Nutkin",
+            "name_fr": "Écureuil Grignoteur",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.97",
+            "patch": "6.1"
+        },
+        "x366": {
+            "name_en": "Fat Cat",
+            "name_fr": "Gros Minou",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.110",
+            "patch": "6.1"
+        },
+        "x656": {
+            "name_en": "Unicolt",
+            "name_fr": "Bébé Licorne",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.134",
+            "patch": "7.0"
+        },
+        "x396": {
+            "name_en": "Lesser Panda",
+            "name_fr": "Petit Panda Roux",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.141",
+            "patch": "6.1"
+        },
+        "x657": {
+            "name_en": "Gestahl",
+            "name_fr": "Gestahl",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.146",
+            "patch": "7.0"
+        },
+        "x545": {
+            "name_en": "Dwarf Rabbit",
+            "name_fr": "Lapin Nain",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.197",
+            "patch": "6.4"
+        },
+        "x403": {
+            "name_en": "Fox Kit",
+            "name_fr": "Bébé Renard",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.242",
+            "patch": "6.3"
+        },
+        "x443": {
+            "name_en": "Bom Boko",
+            "name_fr": "Bunbuku",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.246",
+            "patch": "6.3"
+        },
+        "x374": {
+            "name_en": "Mameshiba",
+            "name_fr": "Mame Shiba",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.267",
+            "patch": "6.1"
+        },
+        "x476": {
+            "name_en": "Black Hayate",
+            "name_fr": "Kuro Shiba",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.333",
+            "patch": "6.3"
+        },
+        "x477": {
+            "name_en": "Koala Joey",
+            "name_fr": "Bébé Koala",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.271",
+            "patch": "6.3"
+        },
+        "x478": {
+            "name_en": "Capybara Pup",
+            "name_fr": "Bébé Cabiaï",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.316",
+            "patch": "6.3"
+        },
+        "x444": {
+            "name_en": "Hedgehoglet",
+            "name_fr": "Hérisson Mignon",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.330",
+            "patch": "6.3"
+        },
+        "x643": {
+            "name_en": "Repulu",
+            "name_fr": "Repulu",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.506",
+            "patch": "7.0"
+        },
+        "x375": {
+            "name_en": "Great Serpent of Ronka",
+            "name_fr": "Serpent Marin De Ronka ?",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.337",
+            "patch": "6.1"
+        },
+        "x546": {
+            "name_en": "Meerkat",
+            "name_fr": "Suricate",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.356",
+            "patch": "6.4"
+        },
+        "x406": {
+            "name_en": "Sand Fox",
+            "name_fr": "Renard Des Sables",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.387",
+            "patch": "6.3"
+        },
+        "x479": {
+            "name_en": "Flag",
+            "name_fr": "Drapo",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.422",
+            "patch": "6.3"
+        },
+        "x731": {
+            "name_en": "Nagxian Cat",
+            "name_fr": "Chat Nagxien",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.428",
+            "patch": "7.1"
+        },
+        "x733": {
+            "name_en": "Crabe de la Crabe",
+            "name_fr": "Crabe Du Crabe",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.432",
+            "patch": "7.1"
+        },
+        "x445": {
+            "name_en": "Pterosquirrel",
+            "name_fr": "Momonga",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.462",
+            "patch": "6.3"
+        },
+        "x473": {
+            "name_en": "Chewy",
+            "name_fr": "Chihuaouaf",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.448",
+            "patch": "6.3"
+        },
+        "x480": {
+            "name_en": "Corgi",
+            "name_fr": "Corgi",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.467",
+            "patch": "6.3"
+        },
+        "x649": {
+            "name_en": "Chimpanzee",
+            "name_fr": "Chimpanzé",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.483",
+            "patch": "7.0"
+        },
+        "x535": {
+            "name_en": "Shiromaru",
+            "name_fr": "Shiromaru",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.486",
+            "patch": "6.4"
+        },
+        "x536": {
+            "name_en": "Kuromaru",
+            "name_fr": "Kuromaru",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.490",
+            "patch": "6.4"
+        },
+        "x745": {
+            "name_en": "Alpaca Cria",
+            "name_fr": "Cria Alpaga",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.509",
+            "patch": "7.1"
+        },
+        "x746": {
+            "name_en": "Ilyikty'i",
+            "name_fr": "Ilyikty'i",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.512",
+            "patch": "7.1"
+        },
+        "x748": {
+            "name_en": "Squeak the Coyote",
+            "name_fr": "Coyote Court Sur Pattes",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.514",
+            "patch": "7.1"
+        },
+        "x751": {
+            "name_en": "Bluecoat Cat",
+            "name_fr": "Chat Gris Bleuté",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.518",
+            "patch": "7.1"
+        },
+        "x547": {
+            "name_en": "Assassin Fry",
+            "name_fr": "Fretin Assassin",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.115",
+            "patch": "6.4"
+        },
+        "x371": {
+            "name_en": "Odder Otter",
+            "name_fr": "Loutre Choute",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.241",
+            "patch": "6.1"
+        },
+        "x446": {
+            "name_en": "Ghido",
+            "name_fr": "Ghido",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.258",
+            "patch": "6.3"
+        },
+        "x447": {
+            "name_en": "Salt & Pepper Seal",
+            "name_fr": "Bébé Phoque",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.272",
+            "patch": "6.3"
+        },
+        "x448": {
+            "name_en": "Axolotl Eft",
+            "name_fr": "Axolotl",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.273",
+            "patch": "6.3"
+        },
+        "x449": {
+            "name_en": "Bitty Duckbill",
+            "name_fr": "Ornithorynque Nain",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.340",
+            "patch": "6.3"
+        },
+        "x377": {
+            "name_en": "Major-General",
+            "name_fr": "Requin Commandeur",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.375",
+            "patch": "6.1"
+        },
+        "x407": {
+            "name_en": "Much-coveted Mora",
+            "name_fr": "Momo Ramora",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.396",
+            "patch": "6.3"
+        },
+        "x729": {
+            "name_en": "Dolphin Calf",
+            "name_fr": "Bébé Dauphin",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.410",
+            "patch": "7.1"
+        },
+        "x379": {
+            "name_en": "Bluebird",
+            "name_fr": "Oiseau Bleu",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.16",
+            "patch": "6.1"
+        },
+        "x548": {
+            "name_en": "Owlet",
+            "name_fr": "Bébé Hibou",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.137",
+            "patch": "6.4"
+        },
+        "x450": {
+            "name_en": "Ugly Duckling",
+            "name_fr": "Vilain Petit Canard",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.138",
+            "patch": "6.3"
+        },
+        "x549": {
+            "name_en": "Hunting Hawk",
+            "name_fr": "Buse Chasseuse",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.162",
+            "patch": "6.4"
+        },
+        "x397": {
+            "name_en": "Penguin Prince",
+            "name_fr": "Manchot Prince",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.164",
+            "patch": "6.1"
+        },
+        "x400": {
+            "name_en": "Road Sparrow",
+            "name_fr": "Moineau Voyageur",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.247",
+            "patch": "6.1"
+        },
+        "x404": {
+            "name_en": "Shoebill",
+            "name_fr": "Bec-en-sabot",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.349",
+            "patch": "6.3"
+        },
+        "x481": {
+            "name_en": "Silver Dasher",
+            "name_fr": "Mésange À Longue Queue",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.371",
+            "patch": "6.4"
+        },
+        "x550": {
+            "name_en": "Blue-footed Booby",
+            "name_fr": "Fou À Pattes Bleues",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.453",
+            "patch": "6.4"
+        },
+        "x648": {
+            "name_en": "Puffin",
+            "name_fr": "Macareux",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.478",
+            "patch": "7.0"
+        },
+        "x644": {
+            "name_en": "Uolosapa",
+            "name_fr": "Uolosapa",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.491",
+            "patch": "7.0"
+        },
+        "x747": {
+            "name_en": "Quetzal",
+            "name_fr": "Quetzal Resplendissant",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.513",
+            "patch": "7.1"
+        },
+        "x359": {
+            "name_en": "Wind-up Qiqirn",
+            "name_fr": "Qiqirn Mécanique",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.53",
+            "patch": "6.1"
+        },
+        "x372": {
+            "name_en": "Wind-up Namazu",
+            "name_fr": "Namazu Mécanique",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.253",
+            "patch": "6.1"
+        },
+        "x376": {
+            "name_en": "Giant Beaver",
+            "name_fr": "Castor Géant",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.342",
+            "patch": "6.1"
+        },
+        "x484": {
+            "name_en": "Wind-up Grebuloff",
+            "name_fr": "Grébuloff Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.439",
+            "patch": "6.4"
+        },
+        "x485": {
+            "name_en": "Findingway",
+            "name_fr": "Findingway",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.472",
+            "patch": "6.4"
+        },
+        "x483": {
+            "name_en": "Wind-up Arkasodara",
+            "name_fr": "Arkasodara Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.444",
+            "patch": "6.4"
+        },
+        "x451": {
+            "name_en": "Byakko Cub",
+            "name_fr": "Bébé Byakko",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.284",
+            "patch": "6.3"
+        },
+        "x452": {
+            "name_en": "Scarlet Peacock",
+            "name_fr": "Paonne Vermillon",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.303",
+            "patch": "6.3"
+        },
+        "x669": {
+            "name_en": "Wind-up Suzaku",
+            "name_fr": "Suzaku Mécanique",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.343",
+            "patch": "7.0"
+        },
+        "x453": {
+            "name_en": "Seitei",
+            "name_fr": "Dragonnet Azur",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.327",
+            "patch": "6.3"
+        },
+        "x454": {
+            "name_en": "Wind-up Y'shtola",
+            "name_fr": "Y'shtola Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.91",
+            "patch": "6.3"
+        },
+        "x551": {
+            "name_en": "Dress-up Y'shtola",
+            "name_fr": "Nouvelle Y'shtola Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.177",
+            "patch": "6.5"
+        },
+        "x670": {
+            "name_en": "Brave New Y'shtola",
+            "name_fr": "Y'shtola Miniature (premier Reflet)",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.331",
+            "patch": "7.0"
+        },
+        "x455": {
+            "name_en": "Wind-up Minfilia",
+            "name_fr": "Minfilia Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.98",
+            "patch": "6.3"
+        },
+        "x456": {
+            "name_en": "Wind-up Thancred",
+            "name_fr": "Thancred Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.99",
+            "patch": "6.3"
+        },
+        "x552": {
+            "name_en": "Dress-up Thancred",
+            "name_fr": "Nouveau Thancred Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.217",
+            "patch": "6.5"
+        },
+        "x457": {
+            "name_en": "Wind-up Yda",
+            "name_fr": "Yda Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.107",
+            "patch": "6.3"
+        },
+        "x658": {
+            "name_en": "Wind-up Lyse",
+            "name_fr": "Lyse Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.248",
+            "patch": "7.0"
+        },
+        "x458": {
+            "name_en": "Wind-up Papalymo",
+            "name_fr": "Papalymo Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.108",
+            "patch": "6.3"
+        },
+        "x459": {
+            "name_en": "Wind-up Urianger",
+            "name_fr": "Urianger Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.109",
+            "patch": "6.3"
+        },
+        "x671": {
+            "name_en": "Brave New Urianger",
+            "name_fr": "Nouvel Urianger Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.429",
+            "patch": "7.0"
+        },
+        "x553": {
+            "name_en": "Wind-up Louisoix",
+            "name_fr": "Louisoix Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.118",
+            "patch": "6.5"
+        },
+        "x744": {
+            "name_en": "Wind-up Fourchenault",
+            "name_fr": "Fourchenault Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.503",
+            "patch": "7.1"
+        },
+        "x460": {
+            "name_en": "Wind-up Alphinaud",
+            "name_fr": "Alphinaud Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.130",
+            "patch": "6.3"
+        },
+        "x461": {
+            "name_en": "Wind-up Alisaie",
+            "name_fr": "Alisaie Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.131",
+            "patch": "6.3"
+        },
+        "x554": {
+            "name_en": "Dress-up Alisaie",
+            "name_fr": "Nouvelle Alisaie Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.218",
+            "patch": "6.5"
+        },
+        "x462": {
+            "name_en": "Wind-up Tataru",
+            "name_fr": "Tataru Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.132",
+            "patch": "6.3"
+        },
+        "x668": {
+            "name_en": "Dress-up Tataru",
+            "name_fr": "Nouvelle Tataru Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.320",
+            "patch": "7.0"
+        },
+        "x463": {
+            "name_en": "Wind-up Cid",
+            "name_fr": "Cid Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.133",
+            "patch": "6.3"
+        },
+        "x491": {
+            "name_en": "Wind-up Krile",
+            "name_fr": "Krile Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.192",
+            "patch": "6.4"
+        },
+        "x753": {
+            "name_en": "Brushed-up Krile",
+            "name_fr": "Nouvelle Krile Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.525",
+            "patch": "7.1"
+        },
+        "x492": {
+            "name_en": "Wind-up Moenbryda",
+            "name_fr": "Moenbryda Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.224",
+            "patch": "6.4"
+        },
+        "x493": {
+            "name_en": "Wind-up Gentleman",
+            "name_fr": "Hildibrand Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.21",
+            "patch": "6.4"
+        },
+        "x555": {
+            "name_en": "Wind-up Godbert",
+            "name_fr": "Godbert Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.476",
+            "patch": "6.5"
+        },
+        "x501": {
+            "name_en": "Wind-up Merlwyb",
+            "name_fr": "Merlwyb Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.71",
+            "patch": "6.4"
+        },
+        "x500": {
+            "name_en": "Wind-up Kan-E",
+            "name_fr": "Kan-E Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.71",
+            "patch": "6.4"
+        },
+        "x499": {
+            "name_en": "Wind-up Raubahn",
+            "name_fr": "Raubahn Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.71",
+            "patch": "6.4"
+        },
+        "x664": {
+            "name_en": "Dress-up Raubahn",
+            "name_fr": "Nouveau Raubahn Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.276",
+            "patch": "7.0"
+        },
+        "x494": {
+            "name_en": "Wind-up Nanamo",
+            "name_fr": "Nanamo Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.84",
+            "patch": "6.4"
+        },
+        "x556": {
+            "name_en": "Wind-up Iceheart",
+            "name_fr": "Ysayle Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.145",
+            "patch": "6.5"
+        },
+        "x557": {
+            "name_en": "Wind-up Yugiri",
+            "name_fr": "Yugiri Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.150",
+            "patch": "6.5"
+        },
+        "x660": {
+            "name_en": "Dress-up Yugiri",
+            "name_fr": "Yugiri Miniature Revisitée",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.249",
+            "patch": "7.0"
+        },
+        "x495": {
+            "name_en": "Wind-up Haurchefant",
+            "name_fr": "Haurchefant Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.173",
+            "patch": "6.4"
+        },
+        "x498": {
+            "name_en": "Wind-up Nero tol Scaeva",
+            "name_fr": "Nero tol Scaeva Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.174",
+            "patch": "6.4"
+        },
+        "x496": {
+            "name_en": "Wind-up Aymeric",
+            "name_fr": "Aymeric Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.193",
+            "patch": "6.4"
+        },
+        "x558": {
+            "name_en": "Wind-up Edda",
+            "name_fr": "Edda Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.219",
+            "patch": "6.5"
+        },
+        "x497": {
+            "name_en": "Wind-up Estinien",
+            "name_fr": "Estinien Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.228",
+            "patch": "6.4"
+        },
+        "x672": {
+            "name_en": "Dress-up Estinien",
+            "name_fr": "Nouvel Estinien Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.360",
+            "patch": "7.0"
+        },
+        "x661": {
+            "name_en": "Wind-up Gosetsu",
+            "name_fr": "Gosetsu Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.250",
+            "patch": "7.0"
+        },
+        "x662": {
+            "name_en": "Wind-up Yotsuyu",
+            "name_fr": "Yotsuyu Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.251",
+            "patch": "7.0"
+        },
+        "x659": {
+            "name_en": "Wind-up Hien",
+            "name_fr": "Hien Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.264",
+            "patch": "7.0"
+        },
+        "x559": {
+            "name_en": "Wind-up Zhloe",
+            "name_fr": "Zhloe Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.298",
+            "patch": "6.5"
+        },
+        "x373": {
+            "name_en": "Wind-up Khloe",
+            "name_fr": "Khloe Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.260",
+            "patch": "6.1"
+        },
+        "x666": {
+            "name_en": "Wind-up Cirina",
+            "name_fr": "Cirina Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.293",
+            "patch": "7.0"
+        },
+        "x665": {
+            "name_en": "Wind-up Magnai",
+            "name_fr": "Magnai Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.282",
+            "patch": "7.0"
+        },
+        "x667": {
+            "name_en": "Wind-up Sadu",
+            "name_fr": "Sadu Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.294",
+            "patch": "7.0"
+        },
+        "x663": {
+            "name_en": "Mock-up Grynewaht",
+            "name_fr": "Grynewaht Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.252",
+            "patch": "7.0"
+        },
+        "x560": {
+            "name_en": "Wind-up G'raha Tia",
+            "name_fr": "G'raha Tia Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.306",
+            "patch": "6.5"
+        },
+        "x676": {
+            "name_en": "Wind-up Ryne",
+            "name_fr": "Ryne Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.332",
+            "patch": "7.0"
+        },
+        "x675": {
+            "name_en": "Wind-up Dulia-Chai",
+            "name_fr": "Dulia-Chai Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.376",
+            "patch": "7.0"
+        },
+        "x678": {
+            "name_en": "Wind-up Mystel",
+            "name_fr": "Mystel Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.381",
+            "patch": "7.0"
+        },
+        "x679": {
+            "name_en": "Wind-up Ardbert",
+            "name_fr": "Ardbert Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.382",
+            "patch": "7.0"
+        },
+        "x677": {
+            "name_en": "Wind-up Gaia",
+            "name_fr": "Gaïa Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.398",
+            "patch": "7.0"
+        },
+        "x673": {
+            "name_en": "Wind-up Lyna",
+            "name_fr": "Lyna Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.416",
+            "patch": "7.0"
+        },
+        "x674": {
+            "name_en": "Wind-up Runar",
+            "name_fr": "Runar Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.417",
+            "patch": "7.0"
+        },
+        "x735": {
+            "name_en": "Wind-up Herois",
+            "name_fr": "Héroïne Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.441",
+            "patch": "7.1"
+        },
+        "x680": {
+            "name_en": "Clockwork Solus",
+            "name_fr": "Solus Mécanique",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.455",
+            "patch": "7.0"
+        },
+        "x739": {
+            "name_en": "Wind-up Aidoneus",
+            "name_fr": "Aidoneus Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.477",
+            "patch": "7.1"
+        },
+        "x737": {
+            "name_en": "Wind-up Philos",
+            "name_fr": "Ami Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.465",
+            "patch": "7.1"
+        },
+        "x738": {
+            "name_en": "Wind-up Erichthonios",
+            "name_fr": "Érichthonios Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.466",
+            "patch": "7.1"
+        },
+        "x740": {
+            "name_en": "Wind-up Athena",
+            "name_fr": "Athéna Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.487",
+            "patch": "7.1"
+        },
+        "x754": {
+            "name_en": "Wind-up Zero",
+            "name_fr": "Zero Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.526",
+            "patch": "7.1"
+        },
+        "x755": {
+            "name_en": "Wind-up Erenville",
+            "name_fr": "Erenville Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.527",
+            "patch": "7.1"
+        },
+        "x742": {
+            "name_en": "Hydaelyn Idol",
+            "name_fr": "Idole Hydaelyn",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.501",
+            "patch": "7.1"
+        },
+        "x743": {
+            "name_en": "Zodiark Idol",
+            "name_fr": "Idole Zordiarche",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.502",
+            "patch": "7.1"
+        },
+        "x386": {
+            "name_en": "Wind-up Gilgamesh",
+            "name_fr": "Pantin Gilgamesh",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.85",
+            "patch": "6.1"
+        },
+        "x393": {
+            "name_en": "Enkidu",
+            "name_fr": "Enkidu",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.122",
+            "patch": "6.1"
+        },
+        "x392": {
+            "name_en": "Wind-up Ultros",
+            "name_fr": "Orthros Articulé",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.104",
+            "patch": "6.1"
+        },
+        "x561": {
+            "name_en": "Midgardsormr",
+            "name_fr": "Midgardsormr",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.119",
+            "patch": "6.5"
+        },
+        "x562": {
+            "name_en": "Wind-up Hraesvelgr",
+            "name_fr": "Hraesvelgr Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.229",
+            "patch": "6.5"
+        },
+        "x563": {
+            "name_en": "Wind-up Nidhogg",
+            "name_fr": "Nidhogg Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.233",
+            "patch": "6.5"
+        },
+        "x732": {
+            "name_en": "Wind-up Vrtra",
+            "name_fr": "Vrtra Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.430",
+            "patch": "7.1"
+        },
+        "x490": {
+            "name_en": "Wind-up Alpha",
+            "name_fr": "Alpha Mécanique",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.304",
+            "patch": "6.4"
+        },
+        "x730": {
+            "name_en": "Starbird",
+            "name_fr": "Oiseau Stellaire",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.427",
+            "patch": "7.1"
+        },
+        "x348": {
+            "name_en": "Mammet #001",
+            "name_fr": "Pantin P001",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.2",
+            "patch": "6.1"
+        },
+        "x378": {
+            "name_en": "Cait Sith Doll",
+            "name_fr": "Poupée Cait Sith",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.4",
+            "patch": "6.1"
+        },
+        "x401": {
+            "name_en": "Wind-up Chimera",
+            "name_fr": "Chimère Mécanique",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.255",
+            "patch": "6.3"
+        },
+        "x464": {
+            "name_en": "Felicitous Fuzzball",
+            "name_fr": "Madmiaouselle",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.456",
+            "patch": "6.3"
+        },
+        "x741": {
+            "name_en": "Vicarious Vacationer",
+            "name_fr": "Barnabaigneur",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.496",
+            "patch": "7.1"
+        },
+        "x368": {
+            "name_en": "Accompaniment Node",
+            "name_fr": "Sphère De Guidage",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.149",
+            "patch": "6.1"
+        },
+        "x486": {
+            "name_en": "Optimus Omicron",
+            "name_fr": "Omicron Optimus",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.425",
+            "patch": "6.4"
+        },
+        "x752": {
+            "name_en": "Tin Sentry T1",
+            "name_fr": "Sentinelle De Plomb T1",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.522",
+            "patch": "7.1"
+        },
+        "x358": {
+            "name_en": "Wind-up Cursor",
+            "name_fr": "Curseur Flottant",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.51",
+            "patch": "6.1"
+        },
+        "x363": {
+            "name_en": "Magic Broom",
+            "name_fr": "Balai Enchanté",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.81",
+            "patch": "6.1"
+        },
+        "x537": {
+            "name_en": "Private Moai",
+            "name_fr": "Mini Moai",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.278",
+            "patch": "6.4"
+        },
+        "x646": {
+            "name_en": "Kydonia Strolls",
+            "name_fr": "Rocher De Cydonia",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.495",
+            "patch": "7.0"
+        },
+        "x749": {
+            "name_en": "Cornservant",
+            "name_fr": "Sire Épidemaïs",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.516",
+            "patch": "7.1"
+        },
+        "x647": {
+            "name_en": "Wind-up PuPu",
+            "name_fr": "Koyo K Miniature",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.454",
+            "patch": "7.0"
+        },
+        "x566": {
+            "name_en": "Torgal Pup",
+            "name_fr": "Talgor Louveteau",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.498",
+            "patch": "6.5"
+        },
+        "x367": {
+            "name_en": "Water Imp",
+            "name_fr": "Petit Kappa",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.117",
+            "patch": "6.1"
+        },
+        "x398": {
+            "name_en": "Piggy",
+            "name_fr": "Porcelet Promeneur",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.187",
+            "patch": "6.1"
+        },
+        "x564": {
+            "name_en": "Pink Bean",
+            "name_fr": "Haricot Rose",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.499",
+            "patch": "6.5"
+        },
+        "x565": {
+            "name_en": "Pegwin",
+            "name_fr": "Pegwin",
+            "category": "@CATEGORY.MINION",
+            "source": "mi.500",
+            "patch": "6.5"
+        }
+    }
+}

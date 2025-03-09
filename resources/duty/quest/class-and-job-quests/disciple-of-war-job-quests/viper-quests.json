@@ -4,6 +4,7 @@
     "groupName_fr": "Quêtes de rôdeur vipère",
     "tasks": {
         "x70384": {
+            "cSiblings": ["ap.703"],
             "cNext": ["q.70385"],
             "level": 80,
             "name_en": "Enter the Viper",
@@ -53,6 +54,7 @@
             "patch": "7.0"
         },
         "x70389": {
+            "cSiblings": ["ap.705"],
             "cPrev": ["q.70388"],
             "level": 90,
             "name_en": "Vengeance of the Viper",

@@ -16,6 +16,7 @@ type TaskIndex = Map<number, Task>;
 // This is the actual entity storing indexed tasks via [shorthand][id]
 const INDEX: IndexContainer = new Map([
     ['a', createIndex('character.achievement')],
+    ['ap', createIndex('character.adventure-plate')],
     ['b', createIndex('character.companion.barding')],
     ['cj', createIndex('character.character.classes--jobs')],
     ['e', createIndex('social.emotes')],

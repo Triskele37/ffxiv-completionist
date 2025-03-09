@@ -2,6 +2,7 @@ import { SaveStoreService } from '../../save-store.service';
 import { ChangeStore } from '../ChangeStore';
 
 import { migrateAchievements } from './achievement';
+import { migrateAdventurePlate } from './adventure-plate';
 import { migrateAesthetician } from './aesthetician';
 import { migrateDuties } from './duty';
 import { migrateFashionAccessories } from './fashion-accessories';
@@ -29,6 +30,7 @@ export function migrateTo_1_0_5(svcSaveStore: SaveStoreService): void {
     store.deleteTask('overall.character.fashion-accessories', 32);
 
     migrateAchievements(store);
+    migrateAdventurePlate(store);
     migrateAesthetician(store);
     migrateDuties(store);
     migrateFashionAccessories(store);

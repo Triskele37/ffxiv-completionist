@@ -3,7 +3,14 @@ import { GroupDefinition } from '@model/Definition';
 export const CHARACTER_DEFINITION: GroupDefinition = {
     path: 'character',
     subGroups: [
-        'adventure-plate',
+        {
+            path: 'adventure-plate',
+            subGroups: [
+                'class-job',
+                'minion',
+                'pvp'
+            ]
+        },
         {
             path: 'character',
             subGroups: [

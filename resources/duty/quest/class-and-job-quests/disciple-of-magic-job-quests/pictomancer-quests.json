@@ -4,6 +4,7 @@
     "groupName_fr": "Quêtes de pictomancien",
     "tasks": {
         "x70390": {
+            "cSiblings": ["ap.704"],
             "cNext": ["q.70391"],
             "level": 80,
             "name_en": "The Joy of Pictomancy",
@@ -53,6 +54,7 @@
             "patch": "7.0"
         },
         "x70395": {
+            "cSiblings": ["ap.706"],
             "cPrev": ["q.70394"],
             "level": 90,
             "name_en": "Somewhere Only She Knows",
