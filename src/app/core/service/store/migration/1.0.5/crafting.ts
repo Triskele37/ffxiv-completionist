@@ -2,8 +2,13 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 
 const CLOG = 'overall.logs.crafting-log';
 
-/** Crafting log changes from Generated Resources
- * */
+/**
+ * Crafting log changes from Generated Resources
+ * - Massive ID consistency rekey from some using ItemResult's id to the Recipe itself
+ * - Need to move books group out so indexing doesn't overlap its keys with recipes
+ * - Minor group renames from 7.x
+ * - Delete save data for belts
+ */
 export function migrateCrafting(store: ChangeStore): void {
     // Uniform Item id to Recipe id
     migrateCarpenter(store);
@@ -487,6 +492,27 @@ function migrateBlacksmith(store: ChangeStore): void {
 }
 
 function migrateArmorer(store: ChangeStore): void {
+    store.deleteTasks('logs.crafting-log.armorer.level-based.11-15', [3972]);
+    store.deleteTasks('logs.crafting-log.armorer.level-based.16-20', [3985]);
+    store.deleteTasks('logs.crafting-log.armorer.level-based.21-25', [3998]);
+    store.deleteTasks('logs.crafting-log.armorer.level-based.26-30', [4007]);
+    store.deleteTasks('logs.crafting-log.armorer.level-based.31-35', [4009, 4024]);
+    store.deleteTasks('logs.crafting-log.armorer.level-based.36-40', [4034]);
+    store.deleteTasks('logs.crafting-log.armorer.level-based.41-45', [4047]);
+    store.deleteTasks('logs.crafting-log.armorer.level-based.46-50', [4059, 4075]);
+    store.deleteTasks('logs.crafting-log.armorer.level-based.51-55', [10691, 10733, 10693, 10735]);
+    store.deleteTasks('logs.crafting-log.armorer.level-based.56-60', [10694, 10695, 10737]);
+    store.deleteTasks('logs.crafting-log.armorer.level-based.61-65', [18210, 18216, 18366, 18372]);
+    store.deleteTasks('logs.crafting-log.armorer.level-based.66-70', [18678, 18684, 18912, 18918]);
+    store.deleteTasks('logs.crafting-log.armorer.level-based.71-75', [25651, 25657, 25663, 25675, 25669, 25687, 25681, 25811, 25817, 25823, 25835, 25829, 25847, 25841, 25971, 25977, 25983, 25995, 25989, 26007, 26001]);
+    store.deleteTasks('logs.crafting-log.armorer.level-based.76-80', [26131, 26137, 26143, 26155, 26149, 26167, 26161, 26291, 26297, 26303, 26315, 26309, 26327, 26321]);
+    store.deleteTasks('logs.crafting-log.armorer.master-recipes.master-recipes-1', [7485, 7491]);
+    store.deleteTasks('logs.crafting-log.armorer.master-recipes.master-recipes-2', [9031]);
+    store.deleteTasks('logs.crafting-log.armorer.master-recipes.master-recipes-3', [10696]);
+    store.deleteTasks('logs.crafting-log.armorer.master-recipes.master-recipes-4', [14747, 14748, 14749, 16646, 16652, 16658, 16670, 16664]);
+    store.deleteTasks('logs.crafting-log.armorer.master-recipes.master-recipes-7', [26451, 26457, 26463, 26475, 26469, 26487, 26481]);
+    store.deleteTasks('logs.crafting-log.armorer.master-recipes.master-recipes-8', [29427, 29433, 31836, 31842, 31872, 31866]);
+
     store.safeChangeKeys('logs.crafting-log.armorer.level-based.1-5', [
         [5056, 170], [5081, 172], [5091, 171], [5071, 173], [2468, 174], [2494, 175], [2226, 176],
     ]);
@@ -948,6 +974,30 @@ function migrateGoldsmith(store: ChangeStore): void {
 }
 
 function migrateLeatherworker(store: ChangeStore): void {
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.1-5', [3960, 3959, 3962]);
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.11-15', [3965, 3968, 3967, 3970]);
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.16-20', [3979, 3980, 3982]);
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.21-25', [3983, 3991, 3989]);
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.26-30', [4005, 4003]);
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.31-35', [4011, 4016, 4022, 4015]);
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.36-40', [4032, 4018, 4039, 4038, 4044]);
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.41-45', [4045, 4049, 4051, 4052, 4056, 4057]);
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.46-50', [4061, 4067, 4077, 4076]);
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.51-55', [10775, 10692, 10734, 10776, 10860, 10818, 10944, 10902, 10777, 10861, 10819, 10945, 10903, 11998]);
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.56-60', [10736, 10778, 10862, 10779, 10863, 10821, 11971, 11999]);
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.6-10', [3966]);
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.61-65', [18054, 18060, 18066, 18078, 18072, 18090, 18084, 18222, 18234, 18228, 19732, 18378, 18390, 18384]);
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.66-70', [18522, 18528, 18540, 18558, 18552, 19742, 18690, 18702, 18696, 18924, 18936, 18930, 19752]);
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.71-75', [27201, 27206, 27216]);
+    store.deleteTasks('logs.crafting-log.leatherworker.level-based.76-80', [27221, 27226]);
+    store.deleteTasks('logs.crafting-log.leatherworker.master-recipes.master-recipes-1', [7497, 7503, 7515, 7509]);
+    store.deleteTasks('logs.crafting-log.leatherworker.master-recipes.master-recipes-2', [9041, 9047, 9490, 9077, 9067]);
+    store.deleteTasks('logs.crafting-log.leatherworker.master-recipes.master-recipes-3', [10738, 10780, 10864, 10906, 10697, 10739, 10949, 10907, 11972, 12000]);
+    store.deleteTasks('logs.crafting-log.leatherworker.master-recipes.master-recipes-4', [14751, 14750, 15534, 15529]);
+    store.deleteTasks('logs.crafting-log.leatherworker.master-recipes.master-recipes-6', [21716, 21722, 21728, 21740, 21734, 21752, 21746, 23789, 23795, 23801, 23813, 23807, 23825, 23819]);
+    store.deleteTasks('logs.crafting-log.leatherworker.master-recipes.master-recipes-8', [29439, 29451, 29445, 29463, 29457, 30471, 30476]);
+    store.deleteTasks('logs.crafting-log.leatherworker.master-recipes.other-master-recipes', [8447, 8448]);
+
     store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.1-5', [
         [5275, 302], [2631, 303], [3516, 305], [3740, 304], [3741, 307], [2653, 311], [3530, 309], [3761, 310], [3310, 315], [3762, 313], [27634, 4477],
         [4304, 314],
@@ -1184,6 +1234,27 @@ function migrateLeatherworker(store: ChangeStore): void {
 }
 
 function migrateWeaver(store: ChangeStore): void {
+    store.deleteTasks('logs.crafting-log.weaver.level-based.11-15', [3969]);
+    store.deleteTasks('logs.crafting-log.weaver.level-based.16-20', [3974]);
+    store.deleteTasks('logs.crafting-log.weaver.level-based.21-25', [3987]);
+    store.deleteTasks('logs.crafting-log.weaver.level-based.26-30', [3996, 4001, 4006]);
+    store.deleteTasks('logs.crafting-log.weaver.level-based.31-35', [4013, 4000]);
+    store.deleteTasks('logs.crafting-log.weaver.level-based.36-40', [4030, 4033, 4036]);
+    store.deleteTasks('logs.crafting-log.weaver.level-based.41-45', [4063]);
+    store.deleteTasks('logs.crafting-log.weaver.level-based.46-50', [4079, 4078]);
+    store.deleteTasks('logs.crafting-log.weaver.level-based.51-55', [10859, 10817, 10943, 10901, 11970]);
+    store.deleteTasks('logs.crafting-log.weaver.level-based.56-60', [10820, 10946, 10904, 10947, 10905]);
+    store.deleteTasks('logs.crafting-log.weaver.level-based.6-10', [3963]);
+    store.deleteTasks('logs.crafting-log.weaver.level-based.61-65', [18246, 18240, 19727, 18402, 18396]);
+    store.deleteTasks('logs.crafting-log.weaver.level-based.66-70', [18534, 18546, 19737, 18714, 18708, 18948, 18942, 19747]);
+    store.deleteTasks('logs.crafting-log.weaver.level-based.71-75', [27211]);
+    store.deleteTasks('logs.crafting-log.weaver.master-recipes.master-recipes-2', [9057]);
+    store.deleteTasks('logs.crafting-log.weaver.master-recipes.master-recipes-3', [10822, 10948, 10781, 10865, 10823]);
+    store.deleteTasks('logs.crafting-log.weaver.master-recipes.master-recipes-4', [14753, 14752, 16682, 16676]);
+    store.deleteTasks('logs.crafting-log.weaver.master-recipes.master-recipes-5', [18990, 18996, 19002, 19014, 19008, 19026, 19020]);
+    store.deleteTasks('logs.crafting-log.weaver.master-recipes.master-recipes-6', [22915, 22920]);
+    store.deleteTasks('logs.crafting-log.weaver.master-recipes.master-recipes-8', [31848, 31860, 31854]);
+
     store.safeChangeKeys('logs.crafting-log.weaver.level-based.1-5', [
         [5333, 464], [5324, 465], [3515, 466], [3307, 467], [3308, 468], [2629, 470], [2996, 469], [2997, 471], [3275, 472], [2630, 474], [2961, 473],
         [2958, 476], [3276, 475], [3274, 477], [2652, 483], [2959, 478], [2960, 479], [3000, 484], [3311, 480], [3309, 481], [3312, 482],
