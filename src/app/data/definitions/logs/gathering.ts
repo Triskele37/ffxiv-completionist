@@ -34,6 +34,9 @@ export const GATHERING_LOG_DEFINITION: GroupDefinition = {
                         'ilsabard',
                         'the-sea-of-stars',
                         'the-world-unsundered',
+                        'yok-tural',
+                        'xak-tural',
+                        'unlost-world',
                         'the-high-seas',
                     ]
                 },
@@ -44,7 +47,10 @@ export const GATHERING_LOG_DEFINITION: GroupDefinition = {
                         'gyr-abania',
                         'othard',
                         'norvrandt',
-                        'ilsabard'
+                        'ilsabard',
+                        'yok-tural',
+                        'xak-tural',
+                        'unlost-world',
                     ]
                 },
             ]
@@ -54,7 +60,7 @@ export const GATHERING_LOG_DEFINITION: GroupDefinition = {
             subGroups: [
                 {
                     path: 'fishing',
-                    subGroups: makePages(13)
+                    subGroups: makePages(15)
                 },
                 {
                     path: 'spearfishing',
