@@ -688,6 +688,7 @@
             "LIMSA_LOMINSA": "Limsa Lominsa",
             "LIMSA_LOMINSA_LOWER_DECKS": "Limsa Lominsa - L'Entrepont",
             "LIMSA_LOMINSA_UPPER_DECKS": "Limsa Lominsa - Le Tillac",
+            "FERRY_DOCKS": "Embarcadère",
             "MIST": "Brumée",
             "MIDDLE_LA_NOSCEA": "Noscea centrale",
             "LOWER_LA_NOSCEA": "Basse-Noscea",
@@ -945,6 +946,22 @@
                 "SUPER_FAST": "Super Rapide",
                 "MEGA_FAST": "Méga Rapide",
                 "HYPER_FAST": "Hyper Rapide"
+            },
+            "TYPE": {
+                "FRESHWATER": "Eau douce",
+                "SALTWATER": "Eau salée",
+                "RIVER": "",
+
+                "OCEAN": "Océan",
+
+                "DUNEFISHING": "Sables",
+                "SKYFISHING": "Nuages",
+                "CLOUDFISHING": "Cieux",
+                "HELLFISHING": "Enfers",
+                "AETHERFISHING": "L'éther",
+                "SALTFISHING": "Lacs salés",
+                "STARFISHING": "L'espace",
+                "SPEARFISHING": "Harpon"
             }
         },
         "REPUTATION": {
