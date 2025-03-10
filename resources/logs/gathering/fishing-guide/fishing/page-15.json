@@ -1,15 +1,263 @@
 {
-    "key": "page-14",
-    "groupName_en": "Page 14",
-    "groupName_fr": "Page 14",
+    "key": "page-15",
+    "groupName_en": "Page 15",
+    "groupName_fr": "Page 15",
     "tasks": {
         "x0": {
-            "name_en": "",
+            "name_en": "Windspath Eel",
             "name_fr": "",
-            "zone": "@PLACE.THE_HIGH_SEAS.",
-            "patch": "",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.",
-            "bait": "@FISH.BAIT."
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.0",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x1": {
+            "name_en": "Harlequin Lancer",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.0",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x2": {
+            "name_en": "Cleyran Carp",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.1",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x3": {
+            "name_en": "Giant Snakehead",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.1",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x4": {
+            "name_en": "Datnioides",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.2",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x5": {
+            "name_en": "Neo Arowana",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.2",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x6": {
+            "name_en": "Canal Bream",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.3",
+            "bait": "@FISH.BAIT.SHUCKED_CLAM"
+        },
+        "x7": {
+            "name_en": "Iris Wrasse",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.3",
+            "bait": "@FISH.BAIT.SHUCKED_CLAM"
+        },
+        "x8": {
+            "name_en": "Canal Drum",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.3",
+            "bait": "@FISH.BAIT.GHOST_NIPPER"
+        },
+        "x9": {
+            "name_en": "Butterfly Ray",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.3",
+            "bait": "@FISH.BAIT.GHOST_NIPPER"
+        },
+        "x10": {
+            "name_en": "Hydro Louvar",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.3",
+            "bait": "@FISH.BAIT.GHOST_NIPPER"
+        },
+        "x11": {
+            "name_en": "Devotion Clam",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.4",
+            "bait": "@FISH.BAIT.SHUCKED_CLAM"
+        },
+        "x12": {
+            "name_en": "Forgotten One",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.4",
+            "bait": "@FISH.BAIT.GHOST_NIPPER"
+        },
+        "x13": {
+            "name_en": "Copper Shark",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.4",
+            "bait": "@FISH.BAIT.GHOST_NIPPER"
+        },
+        "x14": {
+            "name_en": "Golden Day",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.5",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x15": {
+            "name_en": "Starglass Gibel",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.5",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x16": {
+            "name_en": "Scarlet Queen",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.5",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x17": {
+            "name_en": "Ultimoat Carp",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.5",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x18": {
+            "name_en": "Icuvlo's Barter",
+            "name_fr": "",
+            "zone": "@PLACE.TULIYOLLAL",
+            "patch": "7.1",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.0",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x19": {
+            "name_en": "Moongripper",
+            "name_fr": "",
+            "zone": "@PLACE.URQOPACHA",
+            "patch": "7.1",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.4",
+            "bait": "@FISH.BAIT.WHITE_WORM"
+        },
+        "x20": {
+            "name_en": "Cazuela Crab",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.1",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.8",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x21": {
+            "name_en": "Ilyon Asoh Cichlid",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.1",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.15",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x22": {
+            "name_en": "Stardust Sleeper",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.1",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.25",
+            "bait": "Mooching"
+        },
+        "x23": {
+            "name_en": "Hwittayoanaan Cichlid",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.1",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.1",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x24": {
+            "name_en": "Thunderswift Trout",
+            "name_fr": "",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "patch": "7.1",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.6",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x25": {
+            "name_en": "Pixel Loach",
+            "name_fr": "",
+            "zone": "@PLACE.SOLUTION_NINE",
+            "patch": "7.1",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.0",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x26": {
+            "name_en": "Cloudsail",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.1",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.4",
+            "bait": "@FISH.BAIT.CACTUAR_JIG"
+        },
+        "x27": {
+            "name_en": "Oily Ropefish",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.15",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.7",
+            "bait": "@FISH.BAIT.METAL_SPINNER"
+        },
+        "x28": {
+            "name_en": "Yak Awak Core",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.15",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.17",
+            "bait": "@FISH.BAIT.METAL_SPINNER"
+        },
+        "x29": {
+            "name_en": "Inktopus",
+            "name_fr": "",
+            "zone": "@PLACE.TULIYOLLAL",
+            "patch": "7.15",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.2",
+            "bait": "@FISH.BAIT.METAL_SPINNER"
+        },
+        "x30": {
+            "name_en": "Honeycomb Sponge",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.15",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.13",
+            "bait": "@FISH.BAIT.METAL_SPINNER"
+        },
+        "x31": {
+            "name_en": "Cenote Oyster",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.15",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.24",
+            "bait": "@FISH.BAIT.METAL_SPINNER"
         }
     }
 }

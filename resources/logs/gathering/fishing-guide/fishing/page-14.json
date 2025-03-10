@@ -4,12 +4,804 @@
     "groupName_fr": "Page 14",
     "tasks": {
         "x0": {
-            "name_en": "",
+            "name_en": "Zorlortor",
             "name_fr": "",
-            "zone": "@PLACE.THE_HIGH_SEAS.",
-            "patch": "",
-            "fishingHoles": "logs.gathering.fishing-log.fishing.",
-            "bait": "@FISH.BAIT."
+            "zone": "@PLACE.URQOPACHA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.5",
+            "bait": "@FISH.BAIT.SILKMOTH_PUPA"
+        },
+        "x1": {
+            "name_en": "Shooting Starscale",
+            "name_fr": "",
+            "zone": "@PLACE.URQOPACHA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.5",
+            "bait": "@FISH.BAIT.SILKMOTH_PUPA"
+        },
+        "x2": {
+            "name_en": "First Feastfish",
+            "name_fr": "",
+            "zone": "@PLACE.URQOPACHA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.6",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x3": {
+            "name_en": "Urqofrog",
+            "name_fr": "",
+            "zone": "@PLACE.URQOPACHA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.6",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x4": {
+            "name_en": "Zeh Tortoh",
+            "name_fr": "",
+            "zone": "@PLACE.URQOPACHA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.6",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x5": {
+            "name_en": "Morsel Trout",
+            "name_fr": "",
+            "zone": "@PLACE.URQOPACHA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.6",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x6": {
+            "name_en": "Deepwarden",
+            "name_fr": "",
+            "zone": "@PLACE.URQOPACHA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.6",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x7": {
+            "name_en": "Kozama'uka Skipper",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.7",
+            "bait": "@FISH.BAIT.GOLDEN_STONEFLY_NYMPH"
+        },
+        "x8": {
+            "name_en": "Bopo'u Sleeper",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.7",
+            "bait": "@FISH.BAIT.GOLDEN_STONEFLY_NYMPH"
+        },
+        "x9": {
+            "name_en": "Poison Dyefrog",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.7",
+            "bait": "@FISH.BAIT.GOLDEN_STONEFLY_NYMPH"
+        },
+        "x10": {
+            "name_en": "Pleated Matamata",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.7",
+            "bait": "Mooching"
+        },
+        "x11": {
+            "name_en": "Uyuy Xage",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.7",
+            "bait": "Mooching"
+        },
+        "x12": {
+            "name_en": "Plattershell",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.8",
+            "bait": "@FISH.BAIT.GOLDEN_STONEFLY_NYMPH"
+        },
+        "x13": {
+            "name_en": "Candiru",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.9",
+            "bait": "@FISH.BAIT.GOLDEN_STONEFLY_NYMPH"
+        },
+        "x14": {
+            "name_en": "Trahira",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.9",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x15": {
+            "name_en": "Driftwood Catfish",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.9",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x16": {
+            "name_en": "Oho Hunu",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.10",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x17": {
+            "name_en": "Bronze Pleco",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.10",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x18": {
+            "name_en": "Crenicichla",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.10",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x19": {
+            "name_en": "Hunu Peacock Bass",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.11",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x20": {
+            "name_en": "Pelubane",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.11",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x21": {
+            "name_en": "Giant Trahira",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.11",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x22": {
+            "name_en": "Ku'uxage Bitterling",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.12",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x23": {
+            "name_en": "Tonguesnatcher",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.12",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x24": {
+            "name_en": "Corn Dace",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.12",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x25": {
+            "name_en": "Ka Puyhu",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.12",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x26": {
+            "name_en": "Ligaka Guppy",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.13",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x27": {
+            "name_en": "Dumplingfish",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.13",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x28": {
+            "name_en": "Banded Candiru",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.13",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x29": {
+            "name_en": "Oxydoras",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.13",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x30": {
+            "name_en": "Spotted Stingray",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.14",
+            "bait": "Mooching"
+        },
+        "x31": {
+            "name_en": "Yellow Peacock Bass",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.14",
+            "bait": "Mooching"
+        },
+        "x32": {
+            "name_en": "Shovelnose Catfish",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.14",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x33": {
+            "name_en": "Shimmering Shadow",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.15",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x34": {
+            "name_en": "Ut'ohmu Dawnfish",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.15",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x35": {
+            "name_en": "Belonesox",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.15",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x36": {
+            "name_en": "Xd'aa Talat Cichlid",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.15",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x37": {
+            "name_en": "Iq Br'aax Sailfin",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.16",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x38": {
+            "name_en": "Hunmu Ob",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.16",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x39": {
+            "name_en": "Apoda",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.17",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x40": {
+            "name_en": "Mirror Carp",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.17",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x41": {
+            "name_en": "Tsoly Mu",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.18",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x42": {
+            "name_en": "Iq Rrax Leaffish",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.18",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x43": {
+            "name_en": "Archmatron Angelfish",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.18",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x44": {
+            "name_en": "Yak T'el Salamander",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.18",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x45": {
+            "name_en": "Shadowtongue",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.18",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x46": {
+            "name_en": "Cloud-eye Carp",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.19",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x47": {
+            "name_en": "Xobr'it Lobster",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.19",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x48": {
+            "name_en": "Sunbright Axolotl",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.19",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x49": {
+            "name_en": "Horned Frog",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.19",
+            "bait": "Mooching"
+        },
+        "x50": {
+            "name_en": "Mudfish",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.20",
+            "bait": "@FISH.BAIT.HONEYBEE"
+        },
+        "x51": {
+            "name_en": "Turali Breaded Lizard",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.20",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x52": {
+            "name_en": "Yak T'el Catfish",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.20",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x53": {
+            "name_en": "Ankledeep Catfish",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.20",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x54": {
+            "name_en": "Checkered Cichlid",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.21",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x55": {
+            "name_en": "Moxutural Gar",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.21",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x56": {
+            "name_en": "Variatus",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.22",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x57": {
+            "name_en": "Welkin Catfish",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.22",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x58": {
+            "name_en": "Flawless Saucer",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.22",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x59": {
+            "name_en": "Glittergill",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.23",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x60": {
+            "name_en": "Twig Catfish",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.23",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x61": {
+            "name_en": "Blind Brotula",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.24",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x62": {
+            "name_en": "Yak T'el Caiman",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.24",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x63": {
+            "name_en": "Ut'ohmu Tiika",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.25",
+            "bait": "Shucked Clam"
+        },
+        "x64": {
+            "name_en": "Sharknose Goby",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.25",
+            "bait": "Ghost Nipper"
+        },
+        "x65": {
+            "name_en": "Yak T'el Crab",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.25",
+            "bait": "Mooching"
+        },
+        "x66": {
+            "name_en": "Xty'iinbek Sleeper",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.25",
+            "bait": "Shucked Clam"
+        },
+        "x67": {
+            "name_en": "Chain Shark",
+            "name_fr": "",
+            "zone": "@PLACE.YAK_TEL",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.yok-tural.25",
+            "bait": "Mooching"
+        },
+        "x68": {
+            "name_en": "Bonytail Chub",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.1",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x69": {
+            "name_en": "Niikwerepi Trout",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.1",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x70": {
+            "name_en": "Pyariyoanaan Cichlid",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.1",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x71": {
+            "name_en": "Shaaloani Salmon",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.1",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x72": {
+            "name_en": "Trailtrout",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.2",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x73": {
+            "name_en": "Toari Sucker",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.2",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x74": {
+            "name_en": "Turali Paddlefish",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.2",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x75": {
+            "name_en": "Zorgor Core",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.3",
+            "bait": "@FISH.BAIT.CACTUAR_JIG"
+        },
+        "x76": {
+            "name_en": "Cloudribbon",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.3",
+            "bait": "@FISH.BAIT.CACTUAR_JIG"
+        },
+        "x77": {
+            "name_en": "Zorgor Scorpion",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.3",
+            "bait": "@FISH.BAIT.CACTUAR_JIG"
+        },
+        "x78": {
+            "name_en": "Vagrant Cascade",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.3",
+            "bait": "@FISH.BAIT.CACTUAR_JIG"
+        },
+        "x79": {
+            "name_en": "Zorgor Condor",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.3",
+            "bait": "Dragonfly"
+        },
+        "x80": {
+            "name_en": "Cloud Wasp",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.4",
+            "bait": "Dragonfly"
+        },
+        "x81": {
+            "name_en": "Azure Glider",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.4",
+            "bait": "@FISH.BAIT.CACTUAR_JIG"
+        },
+        "x82": {
+            "name_en": "Hellsnow Shark",
+            "name_fr": "",
+            "zone": "@PLACE.SHAALOANI",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.4",
+            "bait": "@FISH.BAIT.CACTUAR_JIG"
+        },
+        "x83": {
+            "name_en": "Heritage Loach",
+            "name_fr": "",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.5",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x84": {
+            "name_en": "Outskirts Sniffer",
+            "name_fr": "",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.5",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x85": {
+            "name_en": "Pumpkin Perch",
+            "name_fr": "",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.5",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x86": {
+            "name_en": "Tiger Muskellunge",
+            "name_fr": "",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.5",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x87": {
+            "name_en": "Moon Croppie",
+            "name_fr": "",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.6",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x88": {
+            "name_en": "Driftdowns Trout",
+            "name_fr": "",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.6",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x89": {
+            "name_en": "Electrobetta",
+            "name_fr": "",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.7",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x90": {
+            "name_en": "Thundering Redbelly",
+            "name_fr": "",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.7",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x91": {
+            "name_en": "Yyasulani Bowfin",
+            "name_fr": "",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.7",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x92": {
+            "name_en": "Crackling Flounder",
+            "name_fr": "",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.7",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x93": {
+            "name_en": "Goldgrouper",
+            "name_fr": "",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.8",
+            "bait": "@FISH.BAIT.RED_MAGGOTS"
+        },
+        "x94": {
+            "name_en": "Everkeep Yabby",
+            "name_fr": "",
+            "zone": "@PLACE.SOLUTION_NINE",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.0",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x95": {
+            "name_en": "Stickleback",
+            "name_fr": "",
+            "zone": "@PLACE.SOLUTION_NINE",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.0",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x96": {
+            "name_en": "Custodian Carp",
+            "name_fr": "",
+            "zone": "@PLACE.SOLUTION_NINE",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.0",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x97": {
+            "name_en": "Mosaic Loach",
+            "name_fr": "",
+            "zone": "@PLACE.SOLUTION_NINE",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.xak-tural.0",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x98": {
+            "name_en": "Rosebud Frog",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.0",
+            "bait": "@FISH.BAIT.POPPER_LURE"
+        },
+        "x99": {
+            "name_en": "Knight Goby",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "patch": "7.0",
+            "fishingHoles": "logs.gathering.fishing-log.fishing.unlost-world.0",
+            "bait": "@FISH.BAIT.POPPER_LURE"
         }
     }
 }
