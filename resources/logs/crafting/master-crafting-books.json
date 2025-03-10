@@ -37,74 +37,65 @@
         "x2": {
             "name_en": "Master Carpenter III",
             "name_fr": "Menuiserie experte III",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.0"
         },
         "x3": {
             "name_en": "Master Carpenter IV",
             "name_fr": "Menuiserie experte IV",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.2"
         },
         "x4": {
             "name_en": "Master Carpenter V",
             "name_fr": "Menuiserie V",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.05"
         },
         "x5": {
             "name_en": "Master Carpenter VI",
             "name_fr": "Menuiserie VI",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.2"
         },
         "x6": {
             "name_en": "Master Carpenter VII",
             "name_fr": "Menuiserie VII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "300 White Scrips",
-            "requirements_fr": "300 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.05"
         },
         "x7": {
             "name_en": "Master Carpenter VIII",
             "name_fr": "Menuiserie VIII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.2"
         },
         "x78": {
             "name_en": "Master Carpenter IX",
             "name_fr": "Menuiserie IX",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@300 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.05"
         },
         "x86": {
             "name_en": "Master Carpenter X",
             "name_fr": "Menuiserie X",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "1200 White Scrips",
-            "requirements_fr": "1200 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@400 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.2"
+        },
+        "x94": {
+            "name_en": "Master Carpenter XI",
+            "name_fr": "Menuiserie XI",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@1200 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
+            "patch": "7.05"
         },
         "x8": {
             "name_en": "Master Carpenter: Demimateria",
@@ -120,8 +111,7 @@
             "name_fr": "Menuiserie experte : mirages",
             "purchase_en": "Tataroga: Mor Dhona (x22, y6)",
             "purchase_fr": "Tataroga: Mor Dhona (x22, y6)",
-            "requirements_en": "300 gil",
-            "requirements_fr": "300 gils",
+            "requirements": "@300 CURRENCY.GIL",
             "patch": "2.2"
         },
         "x10": {
@@ -145,74 +135,65 @@
         "x12": {
             "name_en": "Master Blacksmith III",
             "name_fr": "Métallurgie III",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.0"
         },
         "x13": {
             "name_en": "Master Blacksmith IV",
             "name_fr": "Métallurgie IV",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.2"
         },
         "x14": {
             "name_en": "Master Blacksmith V",
             "name_fr": "Métallurgie V",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.05"
         },
         "x15": {
             "name_en": "Master Blacksmith VI",
             "name_fr": "Métallurgie VI",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.2"
         },
         "x16": {
             "name_en": "Master Blacksmith VII",
             "name_fr": "Métallurgie VII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "300 White Scrips",
-            "requirements_fr": "300 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.05"
         },
         "x17": {
             "name_en": "Master Blacksmith VIII",
             "name_fr": "Métallurgie VIII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.2"
         },
         "x79": {
             "name_en": "Master Blacksmith IX",
             "name_fr": "Métallurgie IX",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@300 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.05"
         },
         "x87": {
             "name_en": "Master Blacksmith X",
             "name_fr": "Métallurgie X",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "1200 White Scrips",
-            "requirements_fr": "1200 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@400 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.2"
+        },
+        "x95": {
+            "name_en": "Master Blacksmith XI",
+            "name_fr": "Métallurgie XI",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@1200 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
+            "patch": "7.05"
         },
         "x18": {
             "name_en": "Master Blacksmith: Demimateria",
@@ -228,8 +209,7 @@
             "name_fr": "Métallurgie : mirages",
             "purchase_en": "Tataroga: Mor Dhona (x22, y6)",
             "purchase_fr": "Tataroga: Mor Dhona (x22, y6)",
-            "requirements_en": "300 gil",
-            "requirements_fr": "300 gils",
+            "requirements": "@300 CURRENCY.GIL",
             "patch": "2.2"
         },
         "x20": {
@@ -253,74 +233,65 @@
         "x22": {
             "name_en": "Master Armorer III",
             "name_fr": "Armurerie III",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.0"
         },
         "x23": {
             "name_en": "Master Armorer IV",
             "name_fr": "Armurerie IV",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.2"
         },
         "x24": {
             "name_en": "Master Armorer V",
             "name_fr": "Armurerie V",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.05"
         },
         "x25": {
             "name_en": "Master Armorer VI",
             "name_fr": "Armurerie VI",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.2"
         },
         "x26": {
             "name_en": "Master Armorer VII",
             "name_fr": "Armurerie VII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "300 White Scrips",
-            "requirements_fr": "300 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.05"
         },
         "x27": {
             "name_en": "Master Armorer VIII",
             "name_fr": "Armurerie VIII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.2"
         },
         "x80": {
             "name_en": "Master Armorer IX",
             "name_fr": "Armurerie IX",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@300 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.05"
         },
         "x88": {
             "name_en": "Master Armorer X",
             "name_fr": "Armurerie X",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "1200 White Scrips",
-            "requirements_fr": "1200 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@400 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.2"
+        },
+        "x96": {
+            "name_en": "Master Armorer XI",
+            "name_fr": "Armurerie XI",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@1200 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
+            "patch": "7.05"
         },
         "x28": {
             "name_en": "Master Armorer: Demimateria",
@@ -336,8 +307,7 @@
             "name_fr": "Armurerie : mirages",
             "purchase_en": "Tataroga: Mor Dhona (x22, y6)",
             "purchase_fr": "Tataroga: Mor Dhona (x22, y6)",
-            "requirements_en": "300 gil",
-            "requirements_fr": "300 gils",
+            "requirements": "@300 CURRENCY.GIL",
             "patch": "2.2"
         },
         "x30": {
@@ -361,74 +331,65 @@
         "x32": {
             "name_en": "Master Goldsmith III",
             "name_fr": "Orfèvrerie III",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.0"
         },
         "x33": {
             "name_en": "Master Goldsmith IV",
             "name_fr": "Orfèvrerie IV",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.2"
         },
         "x34": {
             "name_en": "Master Goldsmith V",
             "name_fr": "Orfèvrerie V",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.05"
         },
         "x35": {
             "name_en": "Master Goldsmith VI",
             "name_fr": "Orfèvrerie VI",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.2"
         },
         "x36": {
             "name_en": "Master Goldsmith VII",
             "name_fr": "Orfèvrerie VII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "300 White Scrips",
-            "requirements_fr": "300 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.05"
         },
         "x37": {
             "name_en": "Master Goldsmith VIII",
             "name_fr": "Orfèvrerie VIII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.2"
         },
         "x81": {
             "name_en": "Master Goldsmith IX",
             "name_fr": "Orfèvrerie IX",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@300 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.05"
         },
         "x89": {
             "name_en": "Master Goldsmith X",
             "name_fr": "Orfèvrerie X",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "1200 White Scrips",
-            "requirements_fr": "1200 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@400 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.2"
+        },
+        "x97": {
+            "name_en": "Master Goldsmith XI",
+            "name_fr": "Orfèvrerie XI",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@1200 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
+            "patch": "7.05"
         },
         "x38": {
             "name_en": "Master Goldsmith: Demimateria",
@@ -444,8 +405,7 @@
             "name_fr": "Orfèvrerie : mirages",
             "purchase_en": "Tataroga: Mor Dhona (x22, y6)",
             "purchase_fr": "Tataroga: Mor Dhona (x22, y6)",
-            "requirements_en": "300 gil",
-            "requirements_fr": "300 gils",
+            "requirements": "@300 CURRENCY.GIL",
             "patch": "2.2"
         },
         "x40": {
@@ -469,74 +429,65 @@
         "x42": {
             "name_en": "Master Leatherworker III",
             "name_fr": "Tannerie III",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.0"
         },
         "x43": {
             "name_en": "Master Leatherworker IV",
             "name_fr": "Tannerie IV",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.2"
         },
         "x44": {
             "name_en": "Master Leatherworker V",
             "name_fr": "Tannerie V",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.05"
         },
         "x45": {
             "name_en": "Master Leatherworker VI",
             "name_fr": "Tannerie VI",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.2"
         },
         "x46": {
             "name_en": "Master Leatherworker VII",
             "name_fr": "Tannerie VII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "300 White Scrips",
-            "requirements_fr": "300 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.05"
         },
         "x47": {
             "name_en": "Master Leatherworker VIII",
             "name_fr": "Tannerie VIII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.2"
         },
         "x82": {
             "name_en": "Master Leatherworker IX",
             "name_fr": "Tannerie IX",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@300 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.05"
         },
         "x90": {
             "name_en": "Master Leatherworker X",
             "name_fr": "Tannerie X",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "1200 White Scrips",
-            "requirements_fr": "1200 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@400 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.2"
+        },
+        "x98": {
+            "name_en": "Master Leatherworker XI",
+            "name_fr": "Tannerie XI",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@1200 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
+            "patch": "7.05"
         },
         "x48": {
             "name_en": "Master Leatherworker: Demimateria",
@@ -552,8 +503,7 @@
             "name_fr": "Tannerie : mirages",
             "purchase_en": "Tataroga: Mor Dhona (x22, y6)",
             "purchase_fr": "Tataroga: Mor Dhona (x22, y6)",
-            "requirements_en": "300 gil",
-            "requirements_fr": "300 gils",
+            "requirements": "@300 CURRENCY.GIL",
             "patch": "2.2"
         },
         "x50": {
@@ -577,74 +527,65 @@
         "x52": {
             "name_en": "Master Weaver III",
             "name_fr": "Couture III",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.0"
         },
         "x53": {
             "name_en": "Master Weaver IV",
             "name_fr": "Couture IV",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.2"
         },
         "x54": {
             "name_en": "Master Weaver V",
             "name_fr": "Couture V",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.05"
         },
         "x55": {
             "name_en": "Master Weaver VI",
             "name_fr": "Couture VI",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.2"
         },
         "x56": {
             "name_en": "Master Weaver VII",
             "name_fr": "Couture VII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "300 White Scrips",
-            "requirements_fr": "300 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.05"
         },
         "x57": {
             "name_en": "Master Weaver VIII",
             "name_fr": "Couture VIII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.2"
         },
         "x83": {
             "name_en": "Master Weaver IX",
             "name_fr": "Couture IX",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@300 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.05"
         },
         "x91": {
             "name_en": "Master Weaver X",
             "name_fr": "Couture X",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "1200 White Scrips",
-            "requirements_fr": "1200 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@400 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.2"
+        },
+        "x99": {
+            "name_en": "Master Weaver XI",
+            "name_fr": "Couture XI",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@1200 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
+            "patch": "7.05"
         },
         "x58": {
             "name_en": "Master Weaver: Demimateria",
@@ -660,8 +601,7 @@
             "name_fr": "Couture : mirages",
             "purchase_en": "Tataroga: Mor Dhona (x22, y6)",
             "purchase_fr": "Tataroga: Mor Dhona (x22, y6)",
-            "requirements_en": "300 gil",
-            "requirements_fr": "300 gils",
+            "requirements": "@300 CURRENCY.GIL",
             "patch": "2.2"
         },
         "x60": {
@@ -685,74 +625,65 @@
         "x62": {
             "name_en": "Master Alchemist III",
             "name_fr": "Alchimie III",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.0"
         },
         "x63": {
             "name_en": "Master Alchemist IV",
             "name_fr": "Alchimie IV",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.2"
         },
         "x64": {
             "name_en": "Master Alchemist V",
             "name_fr": "Alchimie V",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.05"
         },
         "x65": {
             "name_en": "Master Alchemist VI",
             "name_fr": "Alchimie VI",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.2"
         },
         "x66": {
             "name_en": "Master Alchemist VII",
             "name_fr": "Alchimie VII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "300 White Scrips",
-            "requirements_fr": "300 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.05"
         },
         "x67": {
             "name_en": "Master Alchemist VIII",
             "name_fr": "Alchimie VIII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.2"
         },
         "x84": {
             "name_en": "Master Alchemist IX",
             "name_fr": "Alchimie IX",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@300 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.05"
         },
         "x92": {
             "name_en": "Master Alchemist X",
             "name_fr": "Alchimie X",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "1200 White Scrips",
-            "requirements_fr": "1200 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@400 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.2"
+        },
+        "x100": {
+            "name_en": "Master Alchemist XI",
+            "name_fr": "Alchimie XI",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@1200 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
+            "patch": "7.05"
         },
         "x68": {
             "name_en": "Master Alchemist: Demimateria",
@@ -768,8 +699,7 @@
             "name_fr": "Alchimie : mirages",
             "purchase_en": "Tataroga: Mor Dhona (x22, y6)",
             "purchase_fr": "Tataroga: Mor Dhona (x22, y6)",
-            "requirements_en": "300 gil",
-            "requirements_fr": "300 gils",
+            "requirements": "@300 CURRENCY.GIL",
             "patch": "2.2"
         },
         "x70": {
@@ -793,74 +723,65 @@
         "x72": {
             "name_en": "Master Culinarian III",
             "name_fr": "Cuisine III",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.0"
         },
         "x73": {
             "name_en": "Master Culinarian IV",
             "name_fr": "Cuisine IV",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "3.2"
         },
         "x74": {
             "name_en": "Master Culinarian V",
             "name_fr": "Cuisine V",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.05"
         },
         "x75": {
             "name_en": "Master Culinarian VI",
             "name_fr": "Cuisine VI",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "100 White Scrips",
-            "requirements_fr": "100 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "4.2"
         },
         "x76": {
             "name_en": "Master Culinarian VII",
             "name_fr": "Cuisine VII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "300 White Scrips",
-            "requirements_fr": "300 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.05"
         },
         "x77": {
             "name_en": "Master Culinarian VIII",
             "name_fr": "Cuisine VIII",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@100 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "5.2"
         },
         "x85": {
             "name_en": "Master Culinarian IX",
             "name_fr": "Cuisine IX",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "400 White Scrips",
-            "requirements_fr": "400 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@300 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.05"
         },
         "x93": {
             "name_en": "Master Culinarian X",
             "name_fr": "Cuisine X",
-            "purchase_en": "Scrip Exchange",
-            "purchase_fr": "Comptable des assignats",
-            "requirements_en": "1200 White Scrips",
-            "requirements_fr": "1200 Assignats blanc d'artisan",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@400 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
             "patch": "6.2"
+        },
+        "x101": {
+            "name_en": "Master Culinarian XI",
+            "name_fr": "Cuisine XI",
+            "purchase": "@VENDOR.SCRIP_EXCHANGE",
+            "requirements": "@1200 CURRENCY.SCRIP.SECONDARY_CRAFTERS",
+            "patch": "7.05"
         }
     }
 }
