@@ -1,0 +1,90 @@
+{
+    "key": "gladiator",
+    "groupName": "@CLASS_JOB.GLA",
+    "tasks": {
+        "x42": {
+            "level": "10",
+            "name_en": "Basic Training: Enemy Parties",
+            "name_fr": "Entraînement : groupes d'ennemis",
+            "unlock": ["q.65596", "q.65595", "q.65594"]
+        },
+        "x43": {
+            "level": "10",
+            "name_en": "Under the Armor",
+            "name_fr": "Chasse au fantôme fantoche",
+            "unlock": "d.42"
+        },
+        "x44": {
+            "level": "15",
+            "name_en": "Basic Training: Enemy Strongholds",
+            "name_fr": "Entraînement : infiltration en base ennemie",
+            "unlock": "d.43"
+        },
+        "x45": {
+            "level": "15",
+            "name_en": "Hero on the Half Shell",
+            "name_fr": "Reconquête d'une carapace escamotée",
+            "unlock": "d.44"
+        },
+        "x46": {
+            "level": "20",
+            "name_en": "Pulling Poison Posies",
+            "name_fr": "Opération fleurs du mal",
+            "unlock": "d.45"
+        },
+        "x47": {
+            "level": "20",
+            "name_en": "Stinging Back",
+            "name_fr": "Expédition punitive contre les Ventrerouge",
+            "unlock": "d.46"
+        },
+        "x48": {
+            "level": "25",
+            "name_en": "All's Well that Ends in the Well",
+            "name_fr": "Briaxio à bras raccourcis",
+            "unlock": "d.47"
+        },
+        "x49": {
+            "level": "25",
+            "name_en": "Flicking Sticks and Taking Names",
+            "name_fr": "Les Gobelins bombardiers",
+            "unlock": "d.48"
+        },
+        "x50": {
+            "level": "30",
+            "name_en": "More than a Feeler",
+            "name_fr": "Sus au morbol pollueur",
+            "unlock": "d.49"
+        },
+        "x51": {
+            "level": "30",
+            "name_en": "Annoy the Void",
+            "name_fr": "Buso l'immolateur",
+            "unlock": "d.50"
+        },
+        "x52": {
+            "level": "35",
+            "name_en": "Shadow and Claw",
+            "name_fr": "Ombres et griffes",
+            "unlock": "d.51"
+        },
+        "x53": {
+            "level": "35",
+            "name_en": "Long Live the Queen",
+            "name_fr": "Longue vie à la Reine",
+            "unlock": "d.52"
+        },
+        "x54": {
+            "level": "40",
+            "name_en": "Ward Up",
+            "name_fr": "Quintettes infernaux",
+            "unlock": "d.53"
+        },
+        "x55": {
+            "level": "40",
+            "name_en": "Solemn Trinity",
+            "name_fr": "Trinité sinistre",
+            "unlock": "d.54"
+        }
+    }
+}

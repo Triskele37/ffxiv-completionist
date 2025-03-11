@@ -2,6 +2,15 @@
     "key": "quest",
     "groupName_en": "Quests",
     "groupName_fr": "Quêtes",
+    "subGroups": [
+        "main-scenario",
+        "chronicles-of-a-new-era",
+        "sidequests",
+        "allied-society-quests",
+        "class-and-job-quests",
+        "other-quests",
+        "levequests"
+    ],
     "headers": {
         "level": {
             "header": "@HEADER.LEVEL"

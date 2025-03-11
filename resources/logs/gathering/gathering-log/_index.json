@@ -2,6 +2,12 @@
     "key": "gathering-log",
     "groupName_en": "Gathering Log",
     "groupName_fr": "Carnet de récolte",
+    "subGroups": [
+        "mining",
+        "quarrying",
+        "logging",
+        "harvesting"
+    ],
     "headers": {
         "level": {
             "header": "@HEADER.LEVEL",
@@ -18,7 +24,8 @@
         },
         "closestAetheryte": {
             "header_en": "Closest Aetheryte",
-            "header_fr": "Éthérite la plus proche"
+            "header_fr": "Éthérite la plus proche",
+            "link": true
         },
         "nodeTimer": {
             "filterable": true,
@@ -28,11 +35,5 @@
         "patch": {
             "header": "@HEADER.PATCH"
         }
-    },
-    "subGroups": [
-        "mining",
-        "quarrying",
-        "logging",
-        "harvesting"
-    ]
+    }
 }

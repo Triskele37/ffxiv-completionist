@@ -2,6 +2,12 @@
     "key": "hall-of-the-novice",
     "groupName_en": "Hall of the Novice",
     "groupName_fr": "Salle des novices",
+    "subGroups": [
+        "tank",
+        "dps",
+        "healer",
+        "tactical"
+    ],
     "headers": {
         "level": {
             "header": "@HEADER.LEVEL"

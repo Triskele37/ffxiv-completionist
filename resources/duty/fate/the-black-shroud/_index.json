@@ -1,6 +1,12 @@
 {
     "key": "the-black-shroud",
     "groupName": "@PLACE.THE_BLACK_SHROUD",
+    "subGroups": [
+        "central-shroud",
+        "east-shroud",
+        "north-shroud",
+        "south-shroud"
+    ],
     "tasks": {
         "x196": {
             "level": 50,
