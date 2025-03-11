@@ -2,12 +2,5 @@
     "key": "character",
     "groupName_en": "Character",
     "groupName_fr": "Personnage",
-    "subGroups": [
-        "aesthetician",
-        "title",
-        "grand-company-rank",
-        "classes-jobs",
-        "desynthesis",
-        "tribal-relations"
-    ]
+    "order": ["aesthetician", "title", "grand-company-rank", "classes-jobs", "desynthesis", "society-relations"]
 }

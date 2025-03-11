@@ -2,11 +2,5 @@
     "key": "overall",
     "groupName_en": "Overall",
     "groupName_fr": "Total",
-    "subGroups": [
-        "character",
-        "duty",
-        "logs",
-        "travel",
-        "social"
-    ]
+    "order": ["character", "duty", "logs", "travel", "social"]
 }

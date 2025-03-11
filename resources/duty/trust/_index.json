@@ -2,11 +2,7 @@
     "key": "trust",
     "groupName_en": "Trust",
     "groupName_fr": "Adjuration",
-    "subGroups": [
-        "dt",
-        "ew",
-        "shb"
-    ],
+    "order": ["dt", "ew", "shb"],
     "headers": {
         "name": {
             "header": "@HEADER.NAME"

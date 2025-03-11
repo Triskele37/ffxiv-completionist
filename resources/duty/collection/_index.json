@@ -2,6 +2,7 @@
     "key": "collection",
     "groupName_en": "Collection",
     "groupName_fr": "Objet précieux",
+    "order": ["yo-kai-medallium", "portable-archive", "field-record"],
     "headers": {
         "name": {
             "header": "@HEADER.NAME"
@@ -18,10 +19,5 @@
             "source": "q.67133",
             "cSiblings": ["q.67133"]
         }
-    },
-    "subGroups": [
-        "yo-kai-medallium",
-        "portable-archive",
-        "field-record"
-    ]
+    }
 }

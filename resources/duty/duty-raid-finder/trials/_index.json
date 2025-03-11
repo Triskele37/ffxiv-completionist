@@ -2,6 +2,7 @@
     "key": "trials",
     "groupName_en": "Trials",
     "groupName_fr": "Défis",
+    "order": ["dt", "ew", "shb", "sb", "hw", "arr"],
     "headers": {
         "level": {
             "header": "@HEADER.LEVEL"
@@ -13,13 +14,5 @@
             "header": "@HEADER.UNLOCK",
             "link": true
         }
-    },
-    "subGroups": [
-        "dt",
-        "ew",
-        "shb",
-        "sb",
-        "hw",
-        "arr"
-    ]
+    }
 }

@@ -2,9 +2,5 @@
     "key": "companion",
     "groupName_en": "Companion",
     "groupName_fr": "Compagnon",
-    "subGroups": [
-        "companion-rank",
-        "companion-skills",
-        "barding"
-    ]
+    "order": ["companion-rank", "companion-skills", "barding"]
 }

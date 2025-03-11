@@ -2,9 +2,6 @@
     "key": "special-quests",
     "groupName_en": "Special Quests",
     "groupName_fr": "Autres quêtes",
-    "subGroups": [
-        "collaboration-quests",
-        "special-quests"
-    ],
+    "order": ["collaboration-quests", "special-quests"],
     "defaultCompletion": "X"
 }

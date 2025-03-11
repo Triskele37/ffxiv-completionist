@@ -2,11 +2,7 @@
     "key": "crafting",
     "groupName_en": "Crafting",
     "groupName_fr": "Atelier",
-    "subGroups": [
-        "tools",
-        "feed",
-        "restraints"
-    ],
+    "order": ["tools", "feed", "restraints"],
     "headers": {
         "name": {
             "header": "@HEADER.NAME"

@@ -2,11 +2,7 @@
     "key": "adventure-plate",
     "groupName_en": "Adventure Plate",
     "groupName_fr": "Carte de personnage",
-    "subGroups": [
-        "class-job",
-        "minion",
-        "pvp"
-    ],
+    "order": ["class-job", "minion", "pvp"],
     "tasks": {
         "x298": {
             "name_en": "Triple Triad Ex.",

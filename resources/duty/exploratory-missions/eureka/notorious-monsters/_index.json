@@ -2,7 +2,7 @@
     "key": "notorious-monsters",
     "groupName_en": "Notorious Monsters",
     "groupName_fr": "Monstres Célèbres",
-    "subGroups": ["anemos", "pagos", "pyros", "hydatos"],
+    "order": ["anemos", "pagos", "pyros", "hydatos"],
     "headers": {
         "level": {
             "header": "@HEADER.LEVEL"

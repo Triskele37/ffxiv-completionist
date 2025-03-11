@@ -2,9 +2,5 @@
     "key": "blue-mage",
     "groupName_en": "Blue Mage",
     "groupName_fr": "Mage Bleu",
-    "subGroups": [
-        "spellbook",
-        "the-masked-carnivale",
-        "log"
-    ]
+    "order": ["spellbook", "log", "the-masked-carnivale"]
 }
