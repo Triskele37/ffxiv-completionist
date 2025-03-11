@@ -1,0 +1,45 @@
+{
+    "key": "96-100",
+    "groupName_en": "96-100",
+    "groupName_fr": "96-100",
+    "tasks": {
+        "x0": {
+            "level": "91",
+            "name_en": "Rarefied Kozama'uka Chamomile",
+            "name_fr": "",
+            "zone": "@PLACE.KOZAMAUKA",
+            "coordinates": "(26, 25)",
+            "closestAetheryte": "travel.aetherytes.tural.175",
+            "patch": "7.0"
+        },
+        "x1": {
+            "level": "93",
+            "name_en": "Rarefied Mountain Flax",
+            "name_fr": "",
+            "zone": "@PLACE.URQOPACHA",
+            "coordinates": "(6, 24)",
+            "closestAetheryte": "travel.aetherytes.tural.173",
+            "nodeTimer": "00:00 / 12:00",
+            "patch": "7.0"
+        },
+        "x2": {
+            "level": "100",
+            "name_en": "Rarefied Wild Agave",
+            "name_fr": "",
+            "zone": "@PLACE.HERITAGE_FOUND",
+            "coordinates": "(16, 7)",
+            "closestAetheryte": "travel.aetherytes.tural.192",
+            "patch": "7.0"
+        },
+        "x3": {
+            "level": "100★",
+            "name_en": "Rarefied Windsbalm Bay Leaf",
+            "name_fr": "",
+            "zone": "@PLACE.LIVING_MEMORY",
+            "coordinates": "(9, 7)",
+            "closestAetheryte": "travel.aetherytes.tural.196",
+            "nodeTimer": "10:00 / 22:00",
+            "patch": "7.0"
+        }
+    }
+}
