@@ -14,5 +14,17 @@
             "header": "@HEADER.PATCH"
         }
     },
-    "isCraftingLogGroup": true
+    "isCraftingLogGroup": true,
+    "subGroups": [
+        "master-crafting-books",
+        "carpenter",
+        "blacksmith",
+        "armorer",
+        "goldsmith",
+        "leatherworker",
+        "weaver",
+        "alchemist",
+        "culinarian",
+        "shared"
+    ]
 }

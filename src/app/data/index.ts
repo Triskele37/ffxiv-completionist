@@ -11,11 +11,6 @@ import { setCompletion } from '@model/Task/completion/setCompletion';
 import { ElectronService } from '@service/electron/electron.service';
 import { SaveStoreService } from '@service/store/save-store.service';
 
-import { CHARACTER_DEFINITION } from './definitions/character';
-import { DUTY_DEFINITION } from './definitions/duty';
-import { LOGS_DEFINITION } from './definitions/logs';
-import { TRAVEL_DEFINITION } from './definitions/travel';
-import { SOCIAL_DEFINITION } from './definitions/social';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
 @Injectable({

@@ -21,9 +21,6 @@ export function migrateCrafting(store: ChangeStore): void {
     migrateCulinarian(store);
     migrateShared(store);
 
-    // Move master books out so index doesn't use them for cl
-    store.moveGroup('logs.crafting-log.master-crafting-books', 'logs.master-crafting-books');
-
     // Group renaming
     migrateCrafterGroups(store, 'carpenter');
     migrateCrafterGroups(store, 'blacksmith');

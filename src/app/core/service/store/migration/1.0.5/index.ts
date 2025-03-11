@@ -30,9 +30,6 @@ export function migrateTo_1_0_5(svcSaveStore: SaveStoreService): void {
     store.deleteTask('overall.character.fashion-accessories', 22);
     store.deleteTask('overall.character.fashion-accessories', 32);
 
-    // Move because the crafting one did too
-    store.moveGroup('logs.gathering.folklore-gathering-books', 'logs.folklore-gathering-books');
-
     migrateAchievements(store);
     migrateAdventurePlate(store);
     migrateAesthetician(store);
