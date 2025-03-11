@@ -30,6 +30,9 @@ export function migrateQuests(store: ChangeStore): void {
     migrateTribalAGAIN(store);
     migrateOtherQuests(store);
 
+    // Actually updated the quest reference for Steps of Faith
+    store.changeKey(`${QUEST}.main-scenario.seventh-astral-era-main-scenario-quests`, 65955, 70127, true);
+
     store.moveTask(
         `${QUEST}.sidequests.weapon-enhancement-sidequests.resistance-weapons`,
         `${QUEST}.other-quests.quasi-quests`,

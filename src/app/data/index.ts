@@ -37,20 +37,10 @@ export class DataService {
         this.data.subGroups.set('bookmarks', null);
         this.data.subGroups.set('custom', null);
 
-        const character = fromDefinition(this.data, CHARACTER_DEFINITION);
-        this.data.subGroups.set(character._key, character);
-
-        const duty = fromDefinition(this.data, DUTY_DEFINITION(this.translate));
-        this.data.subGroups.set(duty._key, duty);
-
-        const logs = fromDefinition(this.data, LOGS_DEFINITION);
-        this.data.subGroups.set(logs._key, logs);
-
-        const travel = fromDefinition(this.data, TRAVEL_DEFINITION);
-        this.data.subGroups.set(travel._key, travel);
-
-        const social = fromDefinition(this.data, SOCIAL_DEFINITION);
-        this.data.subGroups.set(social._key, social);
+        this.data.order.forEach((subGroupKey) => {
+            const subGroup = fromDefinition(this.data, subGroupKey);
+            this.data.subGroups.set(subGroup._key, subGroup);
+        });
     }
 
     // Must be called after all groups are attached

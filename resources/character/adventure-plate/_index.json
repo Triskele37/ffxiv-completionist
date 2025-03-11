@@ -3,6 +3,21 @@
     "groupName_en": "Adventure Plate",
     "groupName_fr": "Carte de personnage",
     "order": ["class-job", "minion", "pvp"],
+    "headers": {
+        "name": {
+            "header": "@HEADER.NAME"
+        },
+        "category": {
+            "header": "@HEADER.CATEGORY"
+        },
+        "source": {
+            "header": "@HEADER.SOURCE",
+            "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
+        }
+    },
     "tasks": {
         "x298": {
             "name_en": "Triple Triad Ex.",

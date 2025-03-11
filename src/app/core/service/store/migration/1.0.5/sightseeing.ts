@@ -1,6 +1,6 @@
 import { ChangeStore } from '@service/store/migration/ChangeStore';
 
-const SIGHTSEEING_LOG = 'overall.logs.sightseeing';
+const SIGHTSEEING_LOG = 'overall.logs.sightseeing-log';
 
 /** Sightseeing Log changes from Generated Resources
  * */

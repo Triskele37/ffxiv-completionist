@@ -3,6 +3,12 @@ import { ChangeStore } from '@service/store/migration/ChangeStore';
 /** Fashion Accessory changes from Generated Resources
  * */
 export function migrateFashionAccessories(store: ChangeStore): void {
+    // Glasses removed from fashion acc
+    store.deleteTask('overall.character.fashion-accessories', 19);
+    store.deleteTask('overall.character.fashion-accessories', 23);
+    store.deleteTask('overall.character.fashion-accessories', 24);
+    store.deleteTask('overall.character.fashion-accessories', 32);
+
     store.safeChangeKeys('overall.character.fashion-accessories', [
         [6, 1], // Parasol
         [11, 2], // Sky Blue Parasol
@@ -35,10 +41,6 @@ export function migrateFashionAccessories(store: ChangeStore): void {
         [20, 20], // Pixie Wings
         [25, 28], // Bluepowder Pixie Wings
         [36, 36], // Statice's Wings
-        [19, 22], // False Spectacles
-        [23, 25], // False Shaded Spectacles
-        [24, 26], // False Classic Spectacles
-        [32, 32], // Rose-colored Spectacles
         [35, 35], // Knapsack
     ]);
 }

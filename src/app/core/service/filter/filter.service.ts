@@ -87,6 +87,9 @@ export class FilterService {
 
                 if(!completionFilter(task)) return false;
 
+                if(!group.columns) {
+                    console.log(group);
+                }
                 return group.columns.every(({ key, link }) => {
                     const filter = this.filters[key];
                     if(!filter) return true;

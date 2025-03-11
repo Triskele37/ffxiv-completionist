@@ -178,7 +178,7 @@ function getCommonTranslation(value: string): string {
 
         // Bail if an entry somehow gets this far without replacements
         if(Object.keys(replacements).length === 0) {
-            console.log('Data Jacked:', commonKeys);
+            console.log('Data Jacked:', commonKeys, updatedValue);
             break;
         }
 

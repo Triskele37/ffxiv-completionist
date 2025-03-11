@@ -335,7 +335,7 @@
             "name_en": "Island Peerifool",
             "name_fr": "Peeriefool Insulaire",
             "category": "@CATEGORY.ISLAND_SANCTUARY",
-            "source": "@SOURCES.LOCKBOX.SANCTUARY",
+            "source": "@SOURCE.LOCKBOX.SANCTUARY",
             "patch": "6.5"
         },
         "x340": {
@@ -364,7 +364,7 @@
             "name_en": "Troll",
             "name_fr": "Troll",
             "category": "@CATEGORY.WONDROUS_TAILS / CATEGORY.FAUX_HOLLOWS",
-            "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX.LEAF"],
+            "source": ["@1 CURRENCY.KHLOE.GOLD", "@600 CURRENCY.FAUX_LEAF"],
             "patch": "6.1"
         },
         "x291": {
@@ -1367,7 +1367,7 @@
             "name_en": "Rolling Tankard",
             "name_fr": "Automatank",
             "category": "@CATEGORY.SOCIETY",
-            "source": "@VENDOR.SOCIETY_TRADER - PLACE.LAKELAND (18 CURRENCY.SOCIETY.DWARD)",
+            "source": "@VENDOR.SOCIETY_TRADER - PLACE.LAKELAND (18 CURRENCY.SOCIETY.DWARF)",
             "patch": "5.3"
         },
         "x264": {

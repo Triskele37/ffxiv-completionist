@@ -26,6 +26,8 @@ export type DataGroup = {
     //#endregion
 
     //#region--------------------------------- Data
+    order?: string[];
+
     subGroups?: Map<string, DataGroup>;
 
     tasks: Task[];

@@ -9,7 +9,7 @@ export function initializeColumns(group: DataGroup, json) {
             .map((key) => ({
                 key,
                 ...json.headers[key],
-                header: json.headers[key][`header_${lang}`]
+                header: json.headers[key].header ?? json.headers[key][`header_${lang}`]
             }));
     }
     else if(group._parent?.columns) {

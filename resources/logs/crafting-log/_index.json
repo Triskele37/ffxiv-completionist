@@ -2,6 +2,18 @@
     "key": "crafting-log",
     "groupName_en": "Crafting Log",
     "groupName_fr": "Carnet d'artisanat",
+    "order": [
+        "master-crafting-books",
+        "carpenter",
+        "blacksmith",
+        "armorer",
+        "goldsmith",
+        "leatherworker",
+        "weaver",
+        "alchemist",
+        "culinarian",
+        "shared"
+    ],
     "headers": {
         "level": {
             "header": "@HEADER.LEVEL",
@@ -14,17 +26,5 @@
             "header": "@HEADER.PATCH"
         }
     },
-    "isCraftingLogGroup": true,
-    "order": [
-        "master-crafting-books",
-        "carpenter",
-        "blacksmith",
-        "armorer",
-        "goldsmith",
-        "leatherworker",
-        "weaver",
-        "alchemist",
-        "culinarian",
-        "shared"
-    ]
+    "isCraftingLogGroup": true
 }

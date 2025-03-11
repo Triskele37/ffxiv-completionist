@@ -102,11 +102,26 @@ export class ChangeStore {
     }
 
     // Safely move a set of keys to prevent collisions
-    safeChangeKeys(groupPath: string, idMap: [number, number][], newToNew?: boolean): void {
-        // Find the highest id in the new set, set every old id to that number + 1 + itself
-        const offset = idMap.reduce((highest, [, newId]) => newId > highest ? newId : highest, 0) + 1;
-        idMap.forEach(([oldId]) => this.changeKey(groupPath, oldId, offset + oldId, newToNew));
-        idMap.forEach(([oldId, newId]) => this.changeKey(groupPath, offset + oldId, newId, newToNew));
+    safeChangeKeys(groupPath: string, idMap: [number, number][], fromNew?: boolean): void {
+        const sourceStore = dive(groupPath, fromNew ? this.newStore : this.oldStore);
+        const targetStore = dive(groupPath, this.newStore);
+
+        // Cache current flags for all keys
+        const flags = idMap.reduce((acc, [oldId, newId]) => {
+            acc[newId] = sourceStore[oldId];
+            return acc;
+        }, {});
+
+        // Clear out target
+        idMap.forEach(([oldId]) => delete targetStore[oldId]);
+
+        // Write new flags
+        idMap.forEach(([oldId, newId]) => {
+            targetStore[newId] = flags[newId];
+
+            // Fix bookmark
+            this.fixBookmarkedTask(groupPath, oldId, groupPath, newId);
+        });
     }
 
     // Change helper when task is in different group

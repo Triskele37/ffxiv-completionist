@@ -10,6 +10,16 @@ const CLOG = 'overall.logs.crafting-log';
  * - Delete save data for belts
  */
 export function migrateCrafting(store: ChangeStore): void {
+    // Group renaming
+    migrateRestoration(store, 'carpenter');
+    migrateRestoration(store, 'blacksmith');
+    migrateRestoration(store, 'armorer');
+    migrateRestoration(store, 'goldsmith');
+    migrateRestoration(store, 'leatherworker');
+    migrateRestoration(store, 'weaver');
+    migrateRestoration(store, 'alchemist');
+    migrateRestoration(store, 'culinarian');
+
     // Uniform Item id to Recipe id
     migrateCarpenter(store);
     migrateBlacksmith(store);
@@ -32,18 +42,28 @@ export function migrateCrafting(store: ChangeStore): void {
     migrateCrafterGroups(store, 'culinarian');
 }
 
+// Minor re-groups
 function migrateCrafterGroups(store: ChangeStore, crafter: string): void {
-    // Renames
     const HOUSING = `${CLOG}.${crafter}.special-recipes.housing`;
     store.moveGroup(`${HOUSING}.indoor`, `${HOUSING}.indoor-furnishings`, true);
     store.moveGroup(`${HOUSING}.outdoor`, `${HOUSING}.outdoor-furnishings`, true);
-    store.moveGroup(`${HOUSING}.table-rugs`, `${HOUSING}.tables-and-rugs`, true);
+    store.moveGroup(`${HOUSING}.tables-rugs`, `${HOUSING}.tables-and-rugs`, true);
 
-    const SHARED = `${CLOG}.shared`;
+    const SHARED = `${CLOG}.shared`, SOCIETY = `${SHARED}.society-quests`;
     store.moveGroup(`${SHARED}.class.studium`, `${SHARED}.class.studium-deliveries`, true);
-    store.moveGroup(`${SHARED}.tribal-quests`, `${SHARED}.society-quests`, true);
+    store.moveGroup(`${SHARED}.tribal-quests`, SOCIETY, true);
+    store.moveGroup(`${SOCIETY}.ixal`, `${SOCIETY}.ixal-quests`, true);
+    store.moveGroup(`${SOCIETY}.moogle`, `${SOCIETY}.moogle-quests`, true);
+    store.moveGroup(`${SOCIETY}.namazu`, `${SOCIETY}.namazu-quests`, true);
+    store.moveGroup(`${SOCIETY}.dwarf`, `${SOCIETY}.dwarf-quests`, true);
+    store.moveGroup(`${SOCIETY}.loporrit`, `${SOCIETY}.loporrit-quests`, true);
 
-    // Restoration merge
+    const MASTER = `${CLOG}.${crafter}.master-recipes`;
+    store.moveGroup(`${MASTER}.mr-9`, `${MASTER}.master-recipes-9`);
+    store.moveGroup(`${MASTER}.mr-10`, `${MASTER}.master-recipes-10`);
+}
+
+function migrateRestoration(store: ChangeStore, crafter: string): void {
     const RESTO = `${CLOG}.${crafter}.special-recipes.sidequests.restoration`;
     store.moveGroup(`${RESTO}-1`, RESTO, true);
     store.moveGroup(`${RESTO}-2`, RESTO, true);
@@ -52,99 +72,99 @@ function migrateCrafterGroups(store: ChangeStore, crafter: string): void {
 }
 
 function migrateCarpenter(store: ChangeStore): void {
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.1-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.1-5', [
         [5361, 1008], [3742, 1009], [1891, 1010], [1820, 1011], [2405, 1013], [3763, 1012], [2456, 1015], [2219, 1014],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.11-15', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.11-15', [
         [2406, 1026], [2457, 1027], [2573, 1028], [1823, 1029], [1998, 1030], [1824, 1031], [2675, 1033], [3779, 1032], [1894, 1034], [1895, 1035], [2233, 1036],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.16-20', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.16-20', [
         [5367, 1037], [2574, 1038], [1825, 1039], [2000, 1040], [1897, 1041], [2002, 1043], [2459, 1042], [14181, 2864], [1827, 1046], [2575, 1045], [2703, 1044],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.21-25', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.21-25', [
         [5368, 1047], [1899, 1048], [2004, 1049], [1833, 1051], [2408, 1050], [2460, 1052], [1905, 1054], [2011, 1055], [3805, 1053], [5371, 1056], [2409, 1057],
         [2576, 1058],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.26-30', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.26-30', [
         [1908, 1060], [2010, 1910], [2246, 1059], [1836, 1061], [1627, 1062], [1838, 1065], [2015, 1064], [2577, 1063], [1845, 1066], [2021, 1067],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.31-35', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.31-35', [
         [1915, 1068], [5373, 1069], [2578, 1070], [2462, 1071], [3837, 1072], [1637, 1074], [2411, 1073], [1847, 1075], [1917, 1077], [2023, 1076], [2238, 1517],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.36-40', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.36-40', [
         [1850, 1079], [1920, 1078], [2026, 1081], [2579, 1080], [1855, 1082], [2041, 1518], [5374, 1083], [3870, 1084], [1925, 1085], [2464, 1086], [2580, 1519],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.41-45', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.41-45', [
         [1650, 1087], [2030, 1520], [2413, 1088], [2289, 1521], [1862, 1090], [2039, 1091], [5376, 1092], [1932, 1093], [2465, 1522], [2581, 1089], [2287, 1094],
         [1871, 1523],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.46-50', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.46-50', [
         [1937, 1095], [1867, 1096], [2414, 1524], [1941, 1525], [2044, 1911], [2582, 1098], [3908, 1097], [1872, 1100], [1942, 1099], [5378, 1526], [1879, 1530],
         [1949, 1529], [2415, 1531], [2466, 1532], [5379, 1527], [5574, 1528], [1953, 1534], [2304, 1533], [3947, 1535], [8168, 2020], [14182, 2865],
         [7568, 1941],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.51-55', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.51-55', [
         [5366, 2195], [10604, 2196], [10610, 2201], [10634, 2206], [12580, 2239], [10605, 2197], [10611, 2202], [11911, 2213], [11927, 2216], [11935, 2219], [12014, 2224],
         [12020, 2226], [12581, 2240], [10606, 2198], [10612, 2203], [10636, 2208], [12011, 2222], [11912, 2214],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.56-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.56-60', [
         [12582, 2241], [10607, 2199], [10613, 2204], [11928, 2217], [11936, 2220], [10799, 2210], [10925, 2212], [10883, 2211], [11913, 2215], [12021, 2227], [12583, 2242],
         [10608, 2200], [10614, 2205], [10638, 2209], [12015, 2225], [11929, 2218], [11937, 2221], [12012, 2223], [14183, 2866],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.6-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.6-10', [
         [1821, 1017], [1996, 1016], [1892, 1018], [1997, 1020], [2572, 1019], [1893, 1021], [2228, 1022], [5364, 1023], [1604, 1024], [1822, 1025],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.61-65', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.61-65', [
         [19925, 3608], [18036, 2959], [18037, 2960], [18041, 2964], [19516, 3383], [18085, 3008], [18079, 3002], [19926, 3609], [18192, 3037], [18193, 3038], [18197, 3042],
         [19520, 3387], [19522, 3389], [19728, 3508], [19729, 3509], [19730, 3510], [19731, 3511], [5372, 3610], [18348, 3115], [18349, 3116], [18353, 3120],
         [19541, 3408], [19543, 3410], [19537, 3404],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.66-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.66-70', [
         [19927, 3611], [18504, 3193], [18505, 3194], [18509, 3198], [19558, 3425], [19562, 3429], [19564, 3431], [19738, 3518], [19739, 3519], [19740, 3520], [19741, 3521],
         [19928, 3612], [18660, 3271], [18661, 3272], [18665, 3276], [19748, 3528], [19749, 3529], [19750, 3530], [19751, 3531], [19583, 3450], [19585, 3452],
         [19579, 3446],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.71-75', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.71-75', [
         [27689, 3812], [25631, 3916], [25632, 3917], [25637, 3922], [25636, 3921], [27091, 4327], [27093, 4329], [27087, 4323], [27202, 4438], [27203, 4439], [27204, 4440],
         [27205, 4441], [27690, 3813], [25791, 3996], [25792, 3997], [25797, 4002], [25796, 4001], [27691, 3814], [25951, 4076], [25956, 4081], [27112, 4348],
         [27114, 4350], [27108, 4344], [26008, 4133], [26009, 4134], [26010, 4135], [26012, 4137], [26011, 4136], [27217, 4453], [27218, 4454], [27219, 4455],
         [27220, 4456],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.76-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.76-80', [
         [27692, 3815], [26111, 4156], [26112, 4157], [26117, 4162], [26116, 4161], [27133, 4369], [27135, 4371], [27129, 4365], [27693, 3816], [26271, 4236], [26272, 4237],
         [26277, 4242], [26276, 4241], [27227, 4463], [27228, 4464], [27229, 4465], [27230, 4466], [27154, 4390], [27156, 4392], [27150, 4386],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.81-85', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.81-85', [
         [36196, 5296], [34083, 4731], [34084, 4732], [34089, 4737], [34088, 4736], [35334, 5117], [35336, 5119], [35330, 5113], [35409, 5192], [35448, 5231], [35449, 5232],
         [35450, 5233], [35451, 5234], [36197, 5297], [34233, 4806], [34234, 4807], [34238, 4811], [34285, 4858], [34286, 4859], [34287, 4860], [34289, 4862],
         [34288, 4861], [34295, 4868], [34296, 4869], [34297, 4870], [34299, 4872], [34298, 4871], [36198, 5298], [34388, 4886], [34383, 4881], [35355, 5138],
         [35357, 5140], [35351, 5134],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.level-based.86-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.level-based.86-90', [
         [36199, 5299], [34533, 4956], [34534, 4957], [34539, 4962], [34538, 4961], [35452, 5235], [34590, 5013], [34591, 5014], [34592, 5015], [34594, 5017], [34593, 5016],
         [35453, 5236], [35454, 5237], [35455, 5238], [35376, 5159], [35378, 5161], [35372, 5155], [36200, 5300], [34683, 5031], [34684, 5032], [34689, 5037],
         [34688, 5036], [35460, 5243], [35461, 5244], [35462, 5245], [35463, 5246], [35397, 5180], [35399, 5182], [35393, 5176],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.master-recipes.master-recipes-1', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.master-recipes.master-recipes-1', [
         [7612, 30297], [10373, 30971], [15157, 31854], [16782, 32067], [8032, 30417], [10100, 30925], [7606, 30290], [9511, 30918], [9310, 30833], [9312, 30835], [15161, 31857],
         [22555, 33069], [22556, 33070], [15143, 31849], [22554, 32993], [22553, 32992], [12232, 30985],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.master-recipes.master-recipes-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.master-recipes.mr-10', [
         [37831, 35102], [37745, 35029], [37746, 35030], [37750, 35034], [37807, 35091], [37808, 35092], [37809, 35093], [37811, 35095], [37810, 35094], [37812, 35096], [37813, 35097],
         [37814, 35098], [37816, 35100], [37815, 35099], [37699, 35127], [38904, 35431], [38906, 35433], [38900, 35427], [38921, 35448], [38922, 35449], [38923, 35450],
         [38924, 35451], [39242, 35491], [39717, 35574], [39633, 35502], [39634, 35503], [39700, 35569], [39701, 35570], [39702, 35571], [39703, 35572], [39704, 35573],
         [39914, 35616], [41421, 35699],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.master-recipes.master-recipes-2', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.master-recipes.master-recipes-2', [
         [5377, 30861], [9086, 30941], [15559, 31919], [9087, 30942], [15560, 31920], [9090, 30945], [9089, 30944], [15564, 31924], [9302, 30906],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.master-recipes.master-recipes-3', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.master-recipes.master-recipes-3', [
         [13069, 31342], [10609, 30972], [10615, 30973], [10639, 30974], [11914, 30975], [10350, 30969], [13758, 31341], [13593, 31298], [12055, 30981], [23902, 33199], [22531, 32979],
         [10349, 30968], [10351, 30970], [22559, 32996], [12104, 30983], [22558, 32995], [12087, 30982], [12584, 30986], [11930, 30976], [11938, 30977], [12013, 30978],
         [12016, 30979], [12022, 30980], [13076, 31282], [12105, 30984], [15957, 32114], [15958, 32115], [15959, 32116], [15960, 32117], [15961, 32118], [15962, 32119],
         [15963, 32120],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.master-recipes.master-recipes-4', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.master-recipes.master-recipes-4', [
         [14158, 31488], [15573, 31933], [15587, 32088], [15574, 31934], [15588, 32089], [15578, 31938], [15592, 32093], [14065, 31468], [14045, 31454], [14051, 31463], [16781, 32066],
         [15777, 32056], [14157, 31487], [15601, 32102], [17607, 32135], [24323, 33181], [25025, 33216], [25041, 33232], [15602, 32103], [17608, 32136], [24324, 33182],
         [25026, 33217], [25042, 33233], [15606, 32107], [17612, 32140], [13301, 31346], [13305, 31350], [13309, 31354], [13313, 31358], [13317, 31362], [13303, 31348],
@@ -153,11 +173,11 @@ function migrateCarpenter(store: ChangeStore): void {
         [16689, 32022], [16690, 32023], [16691, 32024], [16692, 32025], [16693, 32026], [16694, 32027], [16695, 32028], [16696, 32029], [16697, 32030], [22570, 32998],
         [15778, 32057], [26530, 33492],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.master-recipes.master-recipes-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.master-recipes.master-recipes-5', [
         [20752, 32464], [20310, 32467], [19929, 32425], [18972, 32342], [18973, 32343], [18977, 32347], [19611, 32446], [19032, 32402], [19033, 32403], [19034, 32404], [19036, 32406],
         [19035, 32405], [19037, 32407], [19038, 32408], [19039, 32409], [19041, 32411], [19040, 32410],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.master-recipes.master-recipes-6', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.master-recipes.master-recipes-6', [
         [30071, 33780], [33600, 34670], [37320, 35000], [30815, 33997], [30847, 34029], [33601, 34671], [37321, 35001], [30820, 34002], [30076, 33785], [30819, 34001], [30835, 34017],
         [37325, 35005], [21866, 32675], [22579, 33002], [22539, 32984], [22540, 32985], [22536, 32981], [22538, 32983], [21830, 32667], [24491, 33201], [22569, 33001],
         [21835, 32681], [21827, 32666], [21816, 32663], [22429, 32636], [21698, 32558], [21699, 32559], [21703, 32563], [22898, 33034], [22900, 33036], [22894, 33030],
@@ -165,39 +185,39 @@ function migrateCarpenter(store: ChangeStore): void {
         [21767, 32627], [21766, 32626], [22918, 33054], [22919, 33055], [23863, 33175], [24252, 33154], [23772, 33077], [23776, 33081], [23831, 33136], [23832, 33137],
         [23833, 33138], [23835, 33140], [23834, 33139], [23836, 33141], [23837, 33142], [23838, 33143], [23840, 33145], [23839, 33144],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.master-recipes.master-recipes-7', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.master-recipes.master-recipes-7', [
         [26782, 33352], [27694, 33326], [26431, 33363], [38544, 35137], [26432, 33364], [38545, 35138], [26437, 33369], [33896, 34703], [38550, 35143], [26436, 33368], [38549, 35142],
         [28512, 33522], [28514, 33524], [28471, 33508],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.master-recipes.master-recipes-8', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.master-recipes.master-recipes-8', [
         [39552, 35462], [39553, 35463], [39558, 35468], [39557, 35467], [29960, 33899], [29408, 33805], [29412, 33809], [30454, 33922], [30456, 33924], [30450, 33918], [29464, 33861],
         [29465, 33862], [29466, 33863], [29468, 33865], [29467, 33864], [30477, 33945], [30478, 33946], [30479, 33947], [29479, 33876], [29480, 33877], [29481, 33878],
         [29483, 33880], [29482, 33879], [30480, 33948], [32934, 34576], [31816, 34484], [31821, 34489], [31878, 34546], [31879, 34547], [31880, 34548], [31882, 34550],
         [31881, 34549], [31883, 34551], [31884, 34552], [31885, 34553], [31887, 34555], [31886, 34554], [36311, 34603], [36319, 34611], [36327, 34619],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.master-recipes.master-recipes-9', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.master-recipes.mr-9', [
         [36201, 34893], [35023, 34803], [35024, 34804], [35029, 34809], [35028, 34808], [35085, 34865], [35086, 34866], [35087, 34867], [35089, 34869], [35088, 34868], [36701, 34975],
         [36703, 34977], [36697, 34971], [38536, 35153],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.master-recipes.other-master-recipes', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.master-recipes.other-master-recipes', [
         [21800, 30305], [8367, 30461], [8359, 30453], [8368, 30462], [8386, 30480], [8388, 30482], [8360, 30454],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.special-recipes.class.class-quests', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.special-recipes.class.class-quests', [
         [17878, 32272], [17880, 32273], [17882, 32274], [17884, 32275],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.special-recipes.collectables.50-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.special-recipes.collectables.50-60', [
         [30970, 34047], [30971, 34048], [30972, 34049], [30973, 34050], [30974, 34051], [30975, 34052],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.special-recipes.collectables.61-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.special-recipes.collectables.61-70', [
         [30976, 34053], [30977, 34054], [30978, 34055], [30979, 34056], [30980, 34057],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.special-recipes.collectables.71-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.special-recipes.collectables.71-80', [
         [30981, 34058], [30982, 34059], [30983, 34060], [30984, 34061], [31652, 34423],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.special-recipes.collectables.81-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.special-recipes.collectables.81-90', [
         [35626, 34712], [35627, 34713], [35628, 34714], [35629, 34715], [35630, 34716], [36619, 34901],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.special-recipes.housing.fixtures', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.special-recipes.housing.fixtures', [
         [6404, 1654], [6401, 1651], [6406, 1656], [6407, 1657], [6432, 1682], [6402, 1652], [6383, 1633], [6464, 1714], [6348, 1598], [6405, 1655], [6374, 1624],
         [6365, 1615], [6392, 1642], [6384, 1634], [6349, 1599], [27268, 4527], [6414, 1664], [6421, 1671], [6458, 1708], [6459, 1709], [6460, 1710],
         [6417, 1667], [6428, 1678], [7138, 2008], [6455, 1705], [6456, 1706], [6410, 1660], [6415, 1665], [6465, 1715], [6452, 1702], [6351, 1601],
@@ -208,7 +228,7 @@ function migrateCarpenter(store: ChangeStore): void {
         [20692, 3690], [20693, 3691], [20714, 3712], [20711, 3709], [20718, 3715], [20722, 3718], [20695, 3693], [20696, 3694], [32254, 4669], [32252, 4667],
         [28962, 4599], [35810, 5357],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.special-recipes.housing.indoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.special-recipes.housing.indoor', [
         [6514, 1756], [7084, 1967], [6561, 1787], [6576, 1802], [13077, 2831], [6562, 1788], [6520, 1762], [6552, 1784], [6563, 1789], [6560, 1786], [6569, 1795],
         [7114, 1994], [7109, 1989], [6550, 1782], [6515, 1757], [6577, 1803], [6551, 1783], [6574, 1800], [13078, 2832], [23884, 3768], [9736, 2179],
         [8786, 2102], [6567, 1793], [6521, 1763], [8787, 2103], [15974, 2916], [6568, 1794], [8788, 2104], [6584, 1810], [6590, 1816], [6592, 1818],
@@ -218,12 +238,12 @@ function migrateCarpenter(store: ChangeStore): void {
         [33267, 4703], [33268, 4704], [29680, 4618], [32229, 4655], [33271, 4705], [35560, 5360], [35564, 5364], [35578, 5379], [40644, 5535], [40657, 5541],
         [40649, 5547], [39381, 5507], [40641, 5533], [40637, 5530], [37363, 5440], [40652, 5538], [41105, 5578], [37355, 5431],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.special-recipes.housing.outdoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.special-recipes.housing.outdoor', [
         [6494, 1740], [6492, 1739], [6491, 1738], [12115, 2238], [6484, 1731], [7997, 2046], [12114, 2237], [9748, 2187], [8820, 2126], [9739, 2182], [7993, 2001],
         [9746, 2186], [8000, 2049], [8001, 2050], [8818, 2124], [7116, 1998], [7121, 2003], [9740, 2183], [22520, 3723], [17983, 3549], [28642, 4585],
         [30421, 4640], [32250, 4676], [35583, 5366], [35585, 5377], [38623, 5489], [37400, 5453], [38622, 5488], [40678, 5542], [40682, 5544],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.special-recipes.housing.tables-and-rugs', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.special-recipes.housing.tables-rugs', [
         [6603, 1828], [6624, 1849], [13075, 2830], [7973, 2028], [6548, 1780], [6622, 1847], [6613, 1838], [8796, 2110], [6615, 1840], [12098, 2234], [6621, 1846],
         [6627, 1852], [24507, 3795], [6623, 1848], [6628, 1853], [8797, 2111], [12095, 2231], [6607, 1832], [6618, 1843], [12096, 2232], [6629, 1854],
         [6617, 1842], [7978, 2033], [6608, 1833], [9722, 2169], [17024, 2939], [8793, 2107], [8794, 2108], [8795, 2109], [13072, 2829], [7102, 1982],
@@ -231,93 +251,93 @@ function migrateCarpenter(store: ChangeStore): void {
         [20738, 3728], [20736, 3726], [28638, 4572], [28991, 4609], [30385, 4622], [33273, 4707], [33285, 4716], [28974, 4602], [33283, 4714], [33284, 4715],
         [32225, 4666], [33279, 4710], [35565, 5365], [37347, 5428], [41094, 5576], [39411, 5513], [40623, 5521], [40640, 5532], [40643, 5534], [40658, 5572],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.special-recipes.housing.tabletop', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.special-recipes.housing.tabletop', [
         [6637, 1862], [23879, 3766], [17971, 3548], [27296, 4541], [7976, 2031], [15775, 2914], [17020, 2936], [23885, 3769], [7103, 1983], [7104, 1984], [7105, 1985],
         [7106, 1986], [7107, 1987], [27279, 4534], [12094, 2230], [15776, 2933], [17023, 2938], [6541, 3722], [17958, 3541], [17959, 3542], [33263, 4700],
         [30393, 4628], [33275, 4726], [33264, 4701], [35574, 5371],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.special-recipes.housing.wall-mounted', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.special-recipes.housing.wall-mounted', [
         [24501, 3792], [24526, 3807], [15970, 2915], [16935, 2934], [23891, 3770], [24511, 3798], [24512, 3799], [24513, 3800], [7958, 2024], [9730, 2175], [23877, 3765],
         [16936, 2935], [20742, 3731], [28139, 4567], [29684, 4612], [30387, 4623], [33286, 4717], [35575, 5380], [35571, 5370], [38605, 5483], [37353, 5432],
         [37364, 5447], [38583, 5475], [40624, 5522], [37373, 5442], [40634, 5529], [39380, 5504], [38606, 5484], [37360, 5433],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.special-recipes.sidequests.restoration', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.special-recipes.sidequests.restoration', [
         [31913, 34433], [31921, 34441], [31929, 34449], [31937, 34457], [31945, 34465], [31953, 34473], [31184, 34375], [31192, 34383], [31200, 34391], [31208, 34399], [31216, 34407],
         [31224, 34415], [29792, 33713], [29800, 33721], [29808, 33729], [29816, 33737], [29824, 33745], [29832, 33753], [28725, 33573], [28733, 33581], [28741, 33589],
         [28749, 33597], [28757, 33605],
-    ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.special-recipes.sidequests.skysteel-tools', [
+    ], true);
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.special-recipes.sidequests.skysteel-tools', [
         [29645, 33761], [29653, 33769], [31101, 34359], [31109, 34367], [31750, 34587],
     ]);
-    store.safeChangeKeys('logs.crafting-log.carpenter.special-recipes.sidequests.splendorous-tools', [
+    store.safeChangeKeys('overall.logs.crafting-log.carpenter.special-recipes.sidequests.splendorous-tools', [
         [38756, 35401], [38764, 35409], [39773, 35600], [39781, 35608], [41254, 35683], [41262, 35691],
     ]);
 }
 
 function migrateBlacksmith(store: ChangeStore): void {
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.1-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.1-5', [
         [5056, 1], [2546, 2], [1602, 3], [2355, 4], [5091, 5], [1750, 6], [2380, 7], [2315, 9], [2430, 8], [9184, 2071], [2328, 10],
         [2341, 11], [2367, 12],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.11-15', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.11-15', [
         [2368, 29], [2418, 31], [2431, 27], [2521, 30], [2560, 28], [2316, 34], [2394, 36], [2508, 32], [2534, 33], [2547, 35], [1605, 38],
         [1684, 37], [1753, 39], [9186, 2074], [2419, 40], [13726, 2854], [2343, 41], [2369, 42],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.16-20', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.16-20', [
         [5057, 43], [7018, 1587], [1607, 45], [1686, 47], [8661, 2075], [2317, 46], [2522, 44], [1754, 48], [1756, 50], [2548, 49], [5092, 51],
         [2344, 52], [2370, 54], [2395, 53], [2420, 57], [2433, 55], [2536, 58], [2549, 56], [1609, 59], [1611, 63], [8662, 2076],
         [2318, 61], [2331, 62], [2523, 60],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.21-25', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.21-25', [
         [1758, 67], [2345, 68], [2371, 70], [2396, 69], [2484, 66], [2510, 64], [2562, 65], [1614, 74], [8663, 2077], [2358, 71], [2383, 72],
         [2524, 73], [1694, 77], [2434, 76], [2537, 75], [1764, 78], [2319, 80], [2332, 81], [2485, 82], [2550, 79], [1622, 84],
         [2421, 83], [2511, 85], [2563, 86],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.26-30', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.26-30', [
         [5058, 87], [1766, 91], [9193, 2078], [2346, 90], [2372, 89], [2397, 88], [7019, 1588], [2359, 92], [2384, 93], [2525, 94], [1625, 95],
         [1769, 97], [2320, 96], [5093, 98], [1699, 102], [2347, 101], [2373, 103], [2422, 99], [2551, 100], [8664, 2079], [2321, 108],
         [2398, 104], [2423, 107], [2526, 105], [2539, 106],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.31-35', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.31-35', [
         [1633, 111], [2334, 110], [2436, 109], [1776, 113], [2348, 115], [2399, 116], [2487, 114], [2513, 112], [2527, 120], [2540, 118], [2552, 124],
         [2565, 117], [10401, 2243], [8665, 2080], [10463, 2249], [2349, 123], [2361, 121], [2374, 122], [1778, 127], [2322, 126], [2386, 125],
         [2488, 129], [2514, 128], [2553, 119], [2566, 130], [1635, 1184],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.36-40', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.36-40', [
         [2335, 132], [2424, 131], [2437, 133], [1639, 134], [5065, 135], [1643, 137], [10402, 2244], [8666, 2082], [10464, 2250], [2350, 1186], [2375, 1185],
         [2528, 136], [2554, 138], [1648, 1187], [5099, 139], [1781, 140], [1711, 141], [2323, 143], [2425, 142], [1786, 145], [2337, 147],
         [2363, 148], [2400, 144], [2439, 146],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.41-45', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.41-45', [
         [10403, 2245], [9209, 2083], [10465, 2251], [2490, 151], [2516, 149], [2542, 152], [2568, 150], [5059, 153], [1657, 156], [1723, 157], [2324, 1188],
         [2351, 1192], [2388, 154], [2401, 1190], [2426, 1189], [1642, 1191], [5094, 155], [1659, 158], [1796, 159], [2376, 1193], [2529, 1197],
         [2555, 1194], [7020, 1589], [2338, 1201], [2389, 1198], [2440, 1195], [2517, 1196], [2543, 1199], [1801, 160], [10404, 2246], [8667, 2084],
         [10466, 2252], [2352, 161], [2364, 1202], [2491, 1204], [2569, 1203], [1649, 1200],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.46-50', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.46-50', [
         [2325, 162], [2427, 163], [2377, 165], [2402, 164], [1800, 1205], [10405, 2247], [10467, 2253], [2530, 166], [1663, 168], [1803, 1206], [1733, 169],
         [8668, 2085], [2556, 167], [5061, 1207], [5095, 1208], [1670, 1214], [1810, 1215], [2339, 1218], [2365, 1220], [2390, 1221], [2441, 1216],
         [2492, 1222], [2518, 1217], [2544, 1223], [2570, 1219], [5060, 1209], [5571, 1210], [5573, 1211], [5570, 1212], [5572, 1213], [9461, 2088],
         [1673, 1226], [1813, 1227], [10407, 2248], [1882, 1225], [1743, 1224], [9226, 2087], [10469, 2254], [10071, 2137],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.51-55', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.51-55', [
         [12518, 2330], [12528, 2335], [10586, 2255], [10598, 2265], [10622, 2275], [10592, 2260], [20388, 3650], [10616, 2270], [10628, 2280], [12519, 2331], [20390, 3652],
         [11871, 2285], [11875, 2288], [11879, 2291], [11883, 2294], [11887, 2297], [11903, 2300], [11907, 2303], [10587, 2256], [10599, 2266], [10623, 2276],
         [10593, 2261], [10617, 2271], [10629, 2281], [11915, 2306], [11919, 2309], [11923, 2312], [11931, 2315], [11939, 2318], [11943, 2321], [11947, 2324],
         [11951, 2327], [12524, 2332], [12529, 2336], [10588, 2257], [10600, 2267], [10624, 2277], [10594, 2262], [20392, 3654], [10618, 2272], [10630, 2282],
         [11872, 2286], [11876, 2289], [11880, 2292], [11884, 2295], [11888, 2298], [11904, 2301], [11908, 2304],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.56-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.56-60', [
         [12525, 2333], [20394, 3656], [11916, 2307], [11920, 2310], [11924, 2313], [11932, 2316], [11940, 2319], [11944, 2322], [11948, 2325], [11952, 2328], [10589, 2258],
         [10601, 2268], [10625, 2278], [10595, 2263], [10619, 2273], [10631, 2283], [11873, 2287], [11877, 2290], [11881, 2293], [11885, 2296], [11889, 2299],
         [11905, 2302], [11909, 2305], [12526, 2334], [12530, 2337], [10590, 2259], [10602, 2269], [10626, 2279], [10596, 2264], [20396, 3658], [10620, 2274],
         [10632, 2284], [11917, 2308], [11921, 2311], [11925, 2314], [11933, 2317], [11941, 2320], [11945, 2323], [11949, 2326], [11953, 2329],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.6-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.6-10', [
         [2481, 14], [2507, 13], [1603, 15], [1751, 17], [2392, 16], [9185, 2072], [2417, 19], [2520, 18], [1752, 20], [2329, 21], [8660, 2073],
         [2342, 25], [2356, 22], [2381, 23], [2393, 26], [2482, 24],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.61-65', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.61-65', [
         [19939, 3614], [18033, 2956], [18035, 2958], [18039, 2962], [27357, 4467], [18034, 2957], [18046, 2969], [18038, 2961], [18040, 2963], [27358, 4468], [19506, 3373],
         [19507, 3374], [19508, 3375], [19509, 3376], [19510, 3377], [19514, 3381], [19515, 3382], [19941, 3617], [19517, 3384], [19518, 3385], [19519, 3386],
         [19521, 3388], [19523, 3390], [19524, 3391], [19525, 3392], [19526, 3393], [18189, 3034], [18191, 3036], [18195, 3040], [27361, 4469], [18190, 3035],
@@ -325,14 +345,14 @@ function migrateBlacksmith(store: ChangeStore): void {
         [19527, 3394], [19528, 3395], [19529, 3396], [19530, 3397], [19531, 3398], [19535, 3402], [19536, 3403], [18351, 3118], [18358, 3125], [18350, 3117],
         [18352, 3119], [19538, 3405], [19539, 3406], [19540, 3407], [19542, 3409], [19544, 3411], [19545, 3412], [19546, 3413], [19547, 3414],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.66-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.66-70', [
         [19945, 3623], [18501, 3190], [18503, 3192], [27369, 4473], [18502, 3191], [27370, 4474], [19548, 3415], [19549, 3416], [19550, 3417], [19551, 3418], [19552, 3419],
         [19556, 3423], [19557, 3424], [18507, 3196], [18514, 3203], [18506, 3195], [18508, 3197], [19559, 3426], [19560, 3427], [19561, 3428], [19563, 3430],
         [19565, 3432], [19566, 3433], [19567, 3434], [19568, 3435], [19947, 3626], [18657, 3268], [18659, 3270], [18663, 3274], [27373, 4475], [18658, 3269],
         [18670, 3281], [18662, 3273], [18664, 3275], [27374, 4476], [19569, 3436], [19570, 3437], [19571, 3438], [19572, 3439], [19573, 3440], [19577, 3444],
         [19578, 3445], [19580, 3447], [19581, 3448], [19582, 3449], [19584, 3451], [19586, 3453], [19587, 3454], [19588, 3455], [19589, 3456],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.71-75', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.71-75', [
         [27706, 3817], [25628, 3913], [25630, 3915], [25634, 3919], [25643, 3928], [35760, 5337], [25629, 3914], [25641, 3926], [25633, 3918], [25635, 3920], [25644, 3929],
         [27077, 4313], [27088, 4324], [27078, 4314], [27089, 4325], [27079, 4315], [27090, 4326], [27080, 4316], [27081, 4317], [27092, 4328], [27094, 4330],
         [27095, 4331], [27085, 4321], [27096, 4332], [27086, 4322], [27097, 4333], [27708, 3818], [25788, 3993], [25790, 3995], [25794, 3999], [35763, 5339],
@@ -340,7 +360,7 @@ function migrateBlacksmith(store: ChangeStore): void {
         [25963, 4088], [35765, 5341], [25955, 4080], [27109, 4345], [27110, 4346], [27111, 4347], [27113, 4349], [27115, 4351], [27116, 4352], [27117, 4353],
         [27118, 4354], [27098, 4334], [27099, 4335], [27100, 4336], [27101, 4337], [27102, 4338], [27106, 4342], [27107, 4343],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.76-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.76-80', [
         [27713, 3820], [26108, 4153], [26110, 4155], [26114, 4159], [26123, 4168], [35767, 5343], [26109, 4154], [26121, 4166], [26113, 4158], [26115, 4160], [26124, 4169],
         [27119, 4355], [27130, 4366], [27120, 4356], [27131, 4367], [27121, 4357], [27132, 4368], [27122, 4358], [27123, 4359], [27134, 4370], [27136, 4372],
         [27137, 4373], [27127, 4363], [27138, 4374], [27128, 4364], [27139, 4375], [27714, 3821], [26268, 4233], [26270, 4235], [26274, 4239], [26283, 4248],
@@ -348,7 +368,7 @@ function migrateBlacksmith(store: ChangeStore): void {
         [27155, 4391], [27157, 4393], [27158, 4394], [27159, 4395], [27160, 4396], [27140, 4376], [27141, 4377], [27142, 4378], [27143, 4379], [27144, 4380],
         [27148, 4384], [27149, 4385],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.81-85', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.81-85', [
         [36168, 5301], [34080, 4728], [34082, 4730], [34086, 4734], [34095, 4743], [34098, 4746], [34093, 4741], [34085, 4733], [34087, 4735], [34096, 4744], [35320, 5103],
         [35331, 5114], [35321, 5104], [35332, 5115], [35322, 5105], [35333, 5116], [35323, 5106], [35324, 5107], [35335, 5118], [35337, 5120], [35338, 5121],
         [35328, 5111], [35339, 5122], [35329, 5112], [35340, 5123], [36169, 5302], [34230, 4803], [34232, 4805], [34236, 4809], [34245, 4818], [34243, 4816],
@@ -357,7 +377,7 @@ function migrateBlacksmith(store: ChangeStore): void {
         [35353, 5136], [35343, 5126], [35354, 5137], [35344, 5127], [35345, 5128], [35356, 5139], [35358, 5141], [35359, 5142], [35349, 5132], [35360, 5143],
         [35350, 5133], [35361, 5144],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.level-based.86-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.level-based.86-90', [
         [36171, 5304], [34530, 4953], [34532, 4955], [34536, 4959], [34545, 4968], [34548, 4971], [34531, 4954], [34543, 4966], [34535, 4958], [34537, 4960], [34546, 4969],
         [35362, 5145], [35373, 5156], [35363, 5146], [35374, 5157], [35364, 5147], [35375, 5158], [35365, 5148], [35366, 5149], [35377, 5160], [35379, 5162],
         [35380, 5163], [35370, 5153], [35381, 5164], [35371, 5154], [35382, 5165], [36172, 5305], [34680, 5028], [34682, 5030], [34686, 5034], [34695, 5043],
@@ -365,27 +385,27 @@ function migrateBlacksmith(store: ChangeStore): void {
         [35400, 5183], [35401, 5184], [35402, 5185], [35403, 5186], [35383, 5166], [35384, 5167], [35385, 5168], [35386, 5169], [35387, 5170], [35391, 5174],
         [35392, 5175],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.master-recipes.master-recipes-1', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.master-recipes.master-recipes-1', [
         [7613, 30298], [10373, 30987], [8033, 30418], [10101, 30926], [7607, 30291], [9513, 30920], [9307, 30830], [9308, 30831], [9309, 30832], [9311, 30834], [9313, 30836],
         [9314, 30837], [9315, 30838], [9316, 30839], [12913, 31021],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.master-recipes.master-recipes-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.master-recipes.mr-10', [
         [38612, 35162], [37833, 35104], [37742, 35026], [37744, 35028], [37748, 35032], [37757, 35041], [37760, 35044], [37743, 35027], [37755, 35039], [37747, 35031], [37749, 35033],
         [37758, 35042], [40663, 35625], [40661, 35729], [39410, 35488], [37700, 35130], [38890, 35417], [38901, 35428], [38891, 35418], [38902, 35429], [38892, 35419],
         [38903, 35430], [38893, 35420], [38894, 35421], [38905, 35432], [38907, 35434], [38908, 35435], [38898, 35425], [38909, 35436], [38899, 35426], [38910, 35437],
         [39243, 35494], [39718, 35575], [39630, 35499], [39632, 35501], [39636, 35505], [39645, 35514], [39648, 35517], [39631, 35500], [39643, 35512], [39635, 35504],
         [39637, 35506], [39646, 35515], [39915, 35619], [41422, 35702],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.master-recipes.master-recipes-2', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.master-recipes.master-recipes-2', [
         [9358, 30859], [9083, 30938], [9085, 30940], [15558, 31918], [10412, 30991], [15562, 31922], [9084, 30939], [15557, 31917], [20378, 32318], [9088, 30943], [15561, 31921],
         [10474, 30997], [36122, 31916], [15563, 31923],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.master-recipes.master-recipes-3', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.master-recipes.master-recipes-3', [
         [10591, 30999], [10603, 31001], [10627, 31003], [10597, 31000], [10621, 31002], [10633, 31004], [11874, 31005], [11878, 31006], [11882, 31007], [11886, 31008], [11890, 31009],
         [11906, 31010], [11910, 31011], [13747, 31338], [13589, 31294], [13061, 31345], [12527, 31020], [25009, 33211], [13005, 31274], [11918, 31012], [13006, 31275],
         [11922, 31013], [13007, 31276], [11926, 31014], [13008, 31277], [13009, 31278], [11934, 31015], [11942, 31016], [11946, 31017], [11950, 31018], [11954, 31019],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.master-recipes.master-recipes-4', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.master-recipes.master-recipes-4', [
         [14184, 31500], [14935, 31580], [15572, 31932], [15586, 32087], [15576, 31936], [15590, 32091], [15571, 31931], [15585, 32086], [20428, 32320], [20432, 32322], [15575, 31935],
         [15589, 32090], [36123, 31930], [36124, 32085], [15577, 31937], [15591, 32092], [15975, 32064], [14048, 31460], [15969, 32062], [14146, 31482], [13790, 31366],
         [13835, 31411], [15600, 32101], [17606, 32134], [24322, 33180], [25024, 33215], [25040, 33231], [13792, 31368], [13837, 31413], [15604, 32105], [17610, 32138],
@@ -397,11 +417,11 @@ function migrateBlacksmith(store: ChangeStore): void {
         [15539, 31899], [15550, 31910], [15552, 31912], [15553, 31913], [15543, 31903], [15554, 31914], [15544, 31904], [15555, 31915], [16705, 32037], [16627, 31960],
         [16629, 31962], [16633, 31966], [16628, 31961], [16632, 31965], [16634, 31967], [26532, 33493],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.master-recipes.master-recipes-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.master-recipes.master-recipes-5', [
         [19949, 32427], [18969, 32339], [18971, 32341], [18975, 32345], [18970, 32340], [18982, 32352], [18974, 32344], [18976, 32346], [19601, 32436], [19602, 32437], [19603, 32438],
         [19604, 32439], [19605, 32440], [19609, 32444], [19610, 32445],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.master-recipes.master-recipes-6', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.master-recipes.master-recipes-6', [
         [30070, 33779], [30813, 33995], [30829, 34011], [30845, 34027], [33599, 34669], [37319, 34999], [30074, 33783], [30817, 33999], [30833, 34015], [30849, 34031], [33603, 34673],
         [37323, 35003], [30083, 33792], [30814, 33996], [30830, 34012], [30846, 34028], [30069, 33778], [30812, 33994], [30828, 34010], [30844, 34026], [33598, 34668],
         [37318, 34998], [30081, 33790], [30824, 34006], [30840, 34022], [30856, 34038], [33610, 34680], [37330, 35010], [30073, 33782], [30816, 33998], [30832, 34014],
@@ -412,14 +432,14 @@ function migrateBlacksmith(store: ChangeStore): void {
         [22893, 33029], [22904, 33040], [24250, 33151], [23768, 33073], [23770, 33075], [23774, 33079], [23771, 33076], [23769, 33074], [23781, 33086], [23773, 33078],
         [23775, 33080], [27299, 33356],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.master-recipes.master-recipes-7', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.master-recipes.master-recipes-7', [
         [27716, 33327], [26428, 33360], [26430, 33362], [33889, 34696], [38543, 35136], [26434, 33366], [33893, 34700], [38547, 35140], [26443, 33375], [33902, 34709], [38556, 35149],
         [33890, 34697], [26429, 33361], [33888, 34695], [38542, 35135], [26441, 33373], [33900, 34707], [38554, 35147], [26433, 33365], [33892, 34699], [38546, 35139],
         [26435, 33367], [33894, 34701], [38548, 35141], [26444, 33376], [33903, 34710], [38557, 35150], [28461, 33498], [28509, 33519], [28462, 33499], [28510, 33520],
         [28463, 33500], [28511, 33521], [28464, 33501], [28465, 33502], [28513, 33523], [28515, 33525], [28516, 33526], [28469, 33506], [28517, 33527], [28470, 33507],
         [28518, 33528], [36134, 34694], [38573, 35151],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.master-recipes.master-recipes-8', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.master-recipes.master-recipes-8', [
         [39551, 35461], [41602, 35712], [39555, 35465], [41606, 35716], [39564, 35474], [41615, 35725], [41603, 35713], [39550, 35460], [41601, 35711], [39562, 35472], [41613, 35723],
         [39554, 35464], [41605, 35715], [41604, 35714], [39556, 35466], [41607, 35717], [39565, 35475], [41616, 35726], [39567, 35476], [41618, 35727], [29958, 33896],
         [29404, 33801], [29406, 33803], [29410, 33807], [29419, 33816], [29407, 33804], [29405, 33802], [29417, 33814], [29409, 33806], [29411, 33808], [29420, 33817],
@@ -427,123 +447,123 @@ function migrateBlacksmith(store: ChangeStore): void {
         [30458, 33926], [30448, 33916], [30459, 33927], [30449, 33917], [30460, 33928], [32935, 34577], [31813, 34481], [31815, 34483], [31819, 34487], [31828, 34496],
         [31814, 34482], [31826, 34494], [31818, 34486], [31817, 34485], [31820, 34488], [31829, 34497], [36312, 34604], [36320, 34612], [36328, 34620],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.master-recipes.master-recipes-9', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.master-recipes.mr-9', [
         [37380, 35014], [36173, 34890], [35020, 34800], [35022, 34802], [35026, 34806], [35035, 34815], [35038, 34818], [35021, 34801], [35033, 34813], [35025, 34805], [35027, 34807],
         [35036, 34816], [36687, 34961], [36698, 34972], [36688, 34962], [36699, 34973], [36689, 34963], [36700, 34974], [36690, 34964], [36691, 34965], [36702, 34976],
         [36704, 34978], [36705, 34979], [36695, 34969], [36706, 34980], [36696, 34970], [36707, 34981], [38536, 35154],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.master-recipes.other-master-recipes', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.master-recipes.other-master-recipes', [
         [21800, 30312], [8355, 30449], [8364, 30458], [8382, 30476], [8357, 30451], [8366, 30460], [8384, 30478], [10408, 30988], [10409, 30989], [10411, 30990], [8358, 30452],
         [8385, 30479], [8356, 30450], [8365, 30459], [20358, 32310], [20362, 32312], [20370, 32316], [9234, 30847], [9237, 30850], [10470, 30993], [10471, 30994],
         [10472, 30995],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.special-recipes.class.class-quests', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.special-recipes.class.class-quests', [
         [17886, 32276], [17888, 32277], [17890, 32278], [17892, 32279],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.special-recipes.collectables.50-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.special-recipes.collectables.50-60', [
         [30985, 34062], [30986, 34063], [30987, 34064], [30988, 34065], [30989, 34066], [30990, 34067],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.special-recipes.collectables.61-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.special-recipes.collectables.61-70', [
         [30991, 34068], [30992, 34069], [30993, 34070], [30994, 34071], [30995, 34072],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.special-recipes.collectables.71-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.special-recipes.collectables.71-80', [
         [30996, 34073], [30997, 34074], [30998, 34075], [30999, 34076], [31653, 34424],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.special-recipes.collectables.81-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.special-recipes.collectables.81-90', [
         [35631, 34717], [35632, 34718], [35633, 34719], [35634, 34720], [35635, 34721], [36620, 34902],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.special-recipes.housing.fixtures', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.special-recipes.housing.fixtures', [
         [6409, 1659], [6403, 1653], [6408, 1658], [6461, 1711], [6412, 1662], [6462, 1712], [6426, 1676], [6463, 1713], [6425, 1675], [7151, 2018], [8006, 2054],
         [14068, 2861], [36893, 5414], [36898, 5419], [36899, 5420], [36900, 5421], [36889, 5410], [36890, 5411], [36891, 5412], [20680, 3678], [20713, 3711],
         [20683, 3681], [20686, 3684], [30380, 4621], [32253, 4668], [37410, 5427], [38673, 5473], [40622, 5520], [39431, 5503],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.special-recipes.housing.indoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.special-recipes.housing.indoor', [
         [6513, 1755], [6570, 1796], [6580, 1806], [6585, 1811], [6523, 1765], [6583, 1809], [6579, 1805], [6522, 1764], [7980, 2035], [8783, 2100], [7981, 2036],
         [7066, 1949], [7072, 1955], [7064, 1947], [8784, 2101], [30405, 4637], [37365, 5439], [37348, 5429], [40639, 5531], [37367, 5448], [38586, 5485],
         [41092, 5575],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.special-recipes.housing.outdoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.special-recipes.housing.outdoor', [
         [6490, 1737], [8821, 2127], [6487, 1734], [6505, 1747], [6506, 1748], [6501, 1743], [6504, 1746], [6499, 1995], [6500, 1996], [8817, 2123], [8819, 2125],
         [7117, 1999], [28163, 4576], [33300, 4722], [32244, 4672], [33301, 4723], [35586, 5375], [37401, 5452], [39424, 5515],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.special-recipes.housing.tables-and-rugs', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.special-recipes.housing.tables-rugs', [
         [6602, 1827], [6606, 1831], [6625, 1850], [6564, 1790], [6626, 1851], [6630, 1855], [6620, 1845], [6632, 1857], [13071, 2828], [27284, 4536], [28973, 4616],
         [37374, 5444],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.special-recipes.housing.tabletop', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.special-recipes.housing.tabletop', [
         [20747, 3733], [28145, 4568], [29683, 4611], [30402, 4634], [33266, 4702], [32235, 4659], [35555, 5359], [38616, 5479], [40629, 5524], [39390, 5511],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.special-recipes.housing.wall-mounted', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.special-recipes.housing.wall-mounted', [
         [8811, 2118], [6663, 1881], [6668, 1886], [8805, 2113], [7082, 1965], [30406, 4638], [30400, 4632], [35577, 5368], [37362, 5438], [39395, 5510],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.special-recipes.sidequests.restoration', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.special-recipes.sidequests.restoration', [
         [31914, 34434], [31922, 34442], [31930, 34450], [31938, 34458], [31946, 34466], [31954, 34474], [31185, 34376], [31193, 34384], [31201, 34392], [31209, 34400], [31217, 34408],
         [31225, 34416], [29793, 33714], [29801, 33722], [29809, 33730], [29817, 33738], [29825, 33746], [29833, 33754], [28726, 33574], [28734, 33582], [28742, 33590],
         [28750, 33598], [28758, 33606],
-    ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.special-recipes.sidequests.skysteel-tools', [
+    ], true);
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.special-recipes.sidequests.skysteel-tools', [
         [29646, 33762], [29654, 33770], [31102, 34360], [31110, 34368], [31751, 34588],
     ]);
-    store.safeChangeKeys('logs.crafting-log.blacksmith.special-recipes.sidequests.splendorous-tools', [
+    store.safeChangeKeys('overall.logs.crafting-log.blacksmith.special-recipes.sidequests.splendorous-tools', [
         [38757, 35402], [38765, 35410], [39774, 35601], [39782, 35609], [41255, 35684], [41263, 35692],
     ]);
 }
 
 function migrateArmorer(store: ChangeStore): void {
-    store.deleteTasks('logs.crafting-log.armorer.level-based.11-15', [3972]);
-    store.deleteTasks('logs.crafting-log.armorer.level-based.16-20', [3985]);
-    store.deleteTasks('logs.crafting-log.armorer.level-based.21-25', [3998]);
-    store.deleteTasks('logs.crafting-log.armorer.level-based.26-30', [4007]);
-    store.deleteTasks('logs.crafting-log.armorer.level-based.31-35', [4009, 4024]);
-    store.deleteTasks('logs.crafting-log.armorer.level-based.36-40', [4034]);
-    store.deleteTasks('logs.crafting-log.armorer.level-based.41-45', [4047]);
-    store.deleteTasks('logs.crafting-log.armorer.level-based.46-50', [4059, 4075]);
-    store.deleteTasks('logs.crafting-log.armorer.level-based.51-55', [10691, 10733, 10693, 10735]);
-    store.deleteTasks('logs.crafting-log.armorer.level-based.56-60', [10694, 10695, 10737]);
-    store.deleteTasks('logs.crafting-log.armorer.level-based.61-65', [18210, 18216, 18366, 18372]);
-    store.deleteTasks('logs.crafting-log.armorer.level-based.66-70', [18678, 18684, 18912, 18918]);
-    store.deleteTasks('logs.crafting-log.armorer.level-based.71-75', [25651, 25657, 25663, 25675, 25669, 25687, 25681, 25811, 25817, 25823, 25835, 25829, 25847, 25841, 25971, 25977, 25983, 25995, 25989, 26007, 26001]);
-    store.deleteTasks('logs.crafting-log.armorer.level-based.76-80', [26131, 26137, 26143, 26155, 26149, 26167, 26161, 26291, 26297, 26303, 26315, 26309, 26327, 26321]);
-    store.deleteTasks('logs.crafting-log.armorer.master-recipes.master-recipes-1', [7485, 7491]);
-    store.deleteTasks('logs.crafting-log.armorer.master-recipes.master-recipes-2', [9031]);
-    store.deleteTasks('logs.crafting-log.armorer.master-recipes.master-recipes-3', [10696]);
-    store.deleteTasks('logs.crafting-log.armorer.master-recipes.master-recipes-4', [14747, 14748, 14749, 16646, 16652, 16658, 16670, 16664]);
-    store.deleteTasks('logs.crafting-log.armorer.master-recipes.master-recipes-7', [26451, 26457, 26463, 26475, 26469, 26487, 26481]);
-    store.deleteTasks('logs.crafting-log.armorer.master-recipes.master-recipes-8', [29427, 29433, 31836, 31842, 31872, 31866]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.level-based.11-15', [3972]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.level-based.16-20', [3985]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.level-based.21-25', [3998]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.level-based.26-30', [4007]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.level-based.31-35', [4009, 4024]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.level-based.36-40', [4034]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.level-based.41-45', [4047]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.level-based.46-50', [4059, 4075]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.level-based.51-55', [10691, 10733, 10693, 10735]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.level-based.56-60', [10694, 10695, 10737]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.level-based.61-65', [18210, 18216, 18366, 18372]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.level-based.66-70', [18678, 18684, 18912, 18918]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.level-based.71-75', [25651, 25657, 25663, 25675, 25669, 25687, 25681, 25811, 25817, 25823, 25835, 25829, 25847, 25841, 25971, 25977, 25983, 25995, 25989, 26007, 26001]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.level-based.76-80', [26131, 26137, 26143, 26155, 26149, 26167, 26161, 26291, 26297, 26303, 26315, 26309, 26327, 26321]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.master-recipes.master-recipes-1', [7485, 7491]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.master-recipes.master-recipes-2', [9031]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.master-recipes.master-recipes-3', [10696]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.master-recipes.master-recipes-4', [14747, 14748, 14749, 16646, 16652, 16658, 16670, 16664]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.master-recipes.master-recipes-7', [26451, 26457, 26463, 26475, 26469, 26487, 26481]);
+    store.deleteTasks('overall.logs.crafting-log.armorer.master-recipes.master-recipes-8', [29427, 29433, 31836, 31842, 31872, 31866]);
 
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.1-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.1-5', [
         [5056, 170], [5081, 172], [5091, 171], [5071, 173], [2468, 174], [2494, 175], [2226, 176],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.11-15', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.11-15', [
         [2495, 185], [2673, 188], [3026, 187], [5057, 189], [3775, 190], [5072, 192], [5092, 191], [3544, 193], [5082, 194], [7021, 1590], [2470, 197],
         [2496, 196], [2231, 195],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.16-20', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.16-20', [
         [2680, 198], [3550, 199], [2236, 200], [2471, 201], [2497, 202], [2708, 204], [3793, 203], [2239, 209], [2712, 208], [3045, 207], [3563, 206],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.21-25', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.21-25', [
         [2241, 211], [3557, 210], [2723, 212], [27653, 4496], [3802, 213], [2472, 214], [2498, 218], [3057, 217], [3574, 216], [3804, 215], [2242, 220],
         [2725, 219], [3068, 222], [3579, 223], [3352, 224],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.26-30', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.26-30', [
         [5058, 225], [7024, 1593], [2473, 226], [5073, 227], [5093, 228], [7022, 1591], [2499, 230], [2248, 229], [5083, 231], [3096, 233], [2474, 235],
         [2500, 236], [2753, 234], [2755, 240], [3102, 238], [3599, 237], [3825, 239], [3833, 241],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.31-35', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.31-35', [
         [2257, 244], [2765, 245], [3586, 242], [27654, 4497], [3118, 248], [3605, 247], [3835, 246], [2501, 250], [2260, 249], [2475, 251], [2262, 255],
         [3127, 253], [3614, 254], [2786, 258], [27655, 4498], [3619, 259], [3386, 256], [3847, 257], [2244, 1228],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.36-40', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.36-40', [
         [5065, 260], [2502, 261], [5089, 262], [5099, 263], [2268, 264], [3850, 1229], [5079, 265], [2812, 1231], [3622, 1230], [2757, 1233], [3149, 1235],
         [3628, 1234], [3854, 1236], [2476, 268], [2802, 267], [27656, 4499], [3142, 266], [2278, 1237],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.41-45', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.41-45', [
         [2817, 270], [3623, 274], [3858, 269], [3164, 1238], [5059, 273], [2477, 1239], [2819, 272], [2827, 276], [3174, 277], [3861, 271], [3868, 275],
         [5074, 278], [5084, 279], [2503, 281], [3642, 280], [3649, 1242], [3431, 1243], [2264, 1241], [5094, 282], [7023, 1592], [2279, 1244],
         [2830, 283], [27657, 4500], [3180, 1245], [27658, 4501], [3654, 284], [2850, 286], [27659, 4502], [3183, 287], [3669, 1249], [3883, 285],
         [3886, 1247], [2300, 1246],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.46-50', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.46-50', [
         [2859, 288], [3887, 289], [3218, 1248], [2504, 1251], [3243, 1250], [3670, 290], [2296, 1253], [2861, 291], [2893, 1252], [2478, 296], [2294, 292],
         [2884, 294], [2889, 300], [27660, 4503], [3203, 295], [3209, 298], [27661, 4504], [3692, 297], [27662, 4505], [3906, 293], [3912, 299],
         [27664, 4507], [6190, 1384], [5061, 1254], [5075, 1255], [5085, 1257], [5095, 1256], [2912, 1264], [2911, 1268], [3241, 1266], [3700, 1265],
@@ -551,71 +571,71 @@ function migrateArmorer(store: ChangeStore): void {
         [2303, 1280], [2940, 1271], [3257, 1275], [3256, 1276], [7546, 1935], [3724, 1272], [3723, 1277], [3498, 1278], [7547, 1936], [3943, 1273],
         [7552, 1939],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.51-55', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.51-55', [
         [12518, 2402], [12528, 2824], [10664, 2338], [10670, 2343], [10712, 2364], [10677, 2347], [10719, 2368], [10684, 2351], [10726, 2372], [10705, 2360], [10747, 2380],
         [12519, 2403], [11895, 2395], [11899, 2398], [10665, 2339], [12524, 2404], [12529, 2825], [11896, 2396], [11900, 2399], [10672, 2344], [10714, 2365],
         [10756, 2384], [10840, 2390], [10798, 2389], [10666, 2340], [10679, 2348], [10721, 2369], [10686, 2352], [10728, 2373], [10707, 2361], [10749, 2381],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.56-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.56-60', [
         [12525, 2405], [10673, 2345], [10715, 2366], [10757, 2385], [10841, 2391], [10687, 2353], [10729, 2374], [10771, 2387], [10855, 2393], [11897, 2397], [11901, 2400],
         [10667, 2341], [10680, 2349], [10722, 2370], [10764, 2386], [10848, 2392], [10708, 2362], [10750, 2382], [10792, 2388], [10876, 2394], [12526, 2406],
         [12530, 2826], [10674, 2346], [10716, 2367], [10688, 2354], [10730, 2375], [10709, 2363], [10751, 2383], [10668, 2342], [10681, 2350], [10723, 2371],
         [10702, 2359], [10744, 2379],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.6-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.6-10', [
         [3011, 177], [3767, 178], [2656, 179], [2662, 180], [2469, 182], [3540, 181], [2230, 184], [2664, 183],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.61-65', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.61-65', [
         [19939, 3615], [19512, 3379], [19513, 3380], [18048, 2971], [18049, 2972], [18055, 2978], [18050, 2973], [18056, 2979], [18051, 2974], [18057, 2980], [19941, 3618],
         [18204, 3049], [18205, 3050], [18211, 3056], [18206, 3051], [18212, 3057], [18207, 3052], [18213, 3058], [18209, 3054], [18215, 3060], [19943, 3621],
         [18363, 3130], [18369, 3136], [18365, 3132], [18371, 3138], [19533, 3400], [19534, 3401], [18360, 3127], [18362, 3129], [18368, 3135],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.66-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.66-70', [
         [19945, 3624], [18519, 3208], [18525, 3214], [18531, 3220], [18543, 3232], [18521, 3210], [18527, 3216], [18533, 3222], [18545, 3234], [19554, 3421], [19555, 3422],
         [18516, 3205], [18517, 3206], [18523, 3212], [18518, 3207], [18524, 3213], [19947, 3627], [18673, 3284], [18679, 3290], [18672, 3283], [18681, 3292],
         [18687, 3298], [18699, 3310], [18677, 3288], [19575, 3442], [19576, 3443],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.71-75', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.71-75', [
         [27706, 3822], [27083, 4319], [27084, 4320], [25645, 3930], [25646, 3931], [25670, 3955], [25647, 3932], [25648, 3933], [25650, 3935], [27708, 3823], [25806, 4011],
         [25808, 4013], [25814, 4019], [25816, 4021], [25805, 4010], [25807, 4012], [25813, 4018], [27711, 3824], [25966, 4091], [25972, 4097], [26002, 4127],
         [25968, 4093], [25974, 4099], [25970, 4095], [25976, 4101], [26006, 4131], [27104, 4340], [27105, 4341], [25965, 4090], [25967, 4092], [25973, 4098],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.76-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.76-80', [
         [27713, 3825], [26150, 4195], [27125, 4361], [27126, 4362], [26125, 4170], [27714, 3826], [26286, 4251], [26292, 4257], [26298, 4263], [26287, 4252], [26293, 4258],
         [26299, 4264], [26290, 4255], [26296, 4261], [26314, 4279], [26308, 4273], [26285, 4250], [27146, 4382], [27147, 4383],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.81-85', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.81-85', [
         [36168, 5306], [34081, 4729], [35326, 5109], [35327, 5110], [34099, 4747], [34100, 4748], [34120, 4768], [34102, 4750], [34107, 4755], [34117, 4765], [36169, 5307],
         [34252, 4825], [34257, 4830], [34254, 4827], [34259, 4832], [34249, 4822], [34251, 4824], [34256, 4829], [36170, 5308], [34445, 4943], [34446, 4944],
         [34447, 4945], [34449, 4947], [34448, 4946], [34450, 4948], [34451, 4949], [34452, 4950], [34454, 4952], [34453, 4951], [35347, 5130], [35348, 5131],
         [34399, 4897], [34400, 4898], [34405, 4903],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.level-based.86-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.level-based.86-90', [
         [36171, 5309], [34549, 4972], [34550, 4973], [34555, 4978], [34560, 4983], [34570, 4993], [34552, 4975], [34557, 4980], [34562, 4985], [34572, 4995], [34554, 4977],
         [34559, 4982], [34564, 4987], [34574, 4997], [34584, 5007], [34579, 5002], [35368, 5151], [35369, 5152], [34551, 4974], [34556, 4979], [36172, 5310],
         [34702, 5050], [34707, 5055], [34712, 5060], [34722, 5070], [34717, 5065], [34732, 5080], [34727, 5075], [34699, 5047], [34701, 5049], [34706, 5054],
         [34704, 5052], [34724, 5072], [35389, 5172], [35390, 5173],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.master-recipes.master-recipes-1', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.master-recipes.master-recipes-1', [
         [7614, 30299], [10373, 31023], [8034, 30419], [10102, 30927], [8029, 30402], [9512, 30919], [7480, 30241], [7486, 30247], [7481, 30242], [7487, 30248], [7482, 30243],
         [7488, 30249], [7483, 30244], [7484, 30245], [7490, 30251], [12913, 31051],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.master-recipes.master-recipes-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.master-recipes.mr-10', [
         [37833, 35105], [37761, 35045], [37762, 35046], [37767, 35051], [37763, 35047], [37768, 35052], [37764, 35048], [37769, 35053], [37766, 35050], [37771, 35055], [37786, 35070],
         [37781, 35065], [39482, 35479], [40367, 35624], [40662, 35641], [37700, 35131], [38896, 35423], [38897, 35424], [38916, 35443], [38918, 35445], [39243, 35495],
         [39718, 35576], [39649, 35518], [39652, 35521], [39657, 35526], [39667, 35536], [39653, 35522], [39658, 35527], [39668, 35537], [39685, 35554], [39686, 35555],
         [39687, 35556], [39688, 35557], [39689, 35558], [41057, 35733], [39915, 35620], [41422, 35703],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.master-recipes.master-recipes-2', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.master-recipes.master-recipes-2', [
         [9082, 30937], [9026, 30868], [9036, 30874], [9027, 30869], [9037, 30875], [9028, 30870], [9038, 30876], [36122, 31929], [9030, 30872], [9040, 30878],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.master-recipes.master-recipes-3', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.master-recipes.master-recipes-3', [
         [2220, 31022], [10675, 31025], [11898, 31041], [11902, 31042], [10669, 31024], [10682, 31027], [10724, 31035], [10689, 31029], [10710, 31032], [10752, 31038], [10920, 31040],
         [12996, 31227], [12997, 31228], [13592, 31297], [12058, 31043], [12062, 31044], [12082, 31046], [12083, 31047], [12106, 31048], [12527, 31050], [25009, 33212],
         [13011, 31280], [13012, 31281], [13023, 31244], [10676, 31026], [13640, 31302], [10718, 31034], [13646, 31307], [10683, 31028], [13641, 31303], [10725, 31036],
         [13647, 31308], [10690, 31030], [13642, 31304], [10732, 31037], [13648, 31309], [10711, 31033], [10753, 31039], [12107, 31049],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.master-recipes.master-recipes-4', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.master-recipes.master-recipes-4', [
         [14184, 31501], [14935, 31581], [13804, 31380], [13809, 31385], [13853, 31429], [13897, 31819], [13814, 31390], [13858, 31434], [13819, 31395], [13805, 31381], [13849, 31425],
         [13893, 31815], [13810, 31386], [13854, 31430], [13898, 31820], [13815, 31391], [13859, 31435], [13820, 31396], [13806, 31382], [13850, 31426], [13894, 31816],
         [13811, 31387], [13855, 31431], [13899, 31821], [13816, 31392], [13860, 31436], [13821, 31397], [13807, 31383], [13808, 31384], [13852, 31428], [13896, 31818],
@@ -626,132 +646,132 @@ function migrateArmorer(store: ChangeStore): void {
         [17328, 32174], [17333, 32179], [16645, 31978], [16651, 31984], [17320, 32166], [17325, 32171], [17340, 32186], [17522, 32131], [15965, 32059], [17013, 32122],
         [26532, 33494], [20558, 32337], [17962, 32308],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.master-recipes.master-recipes-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.master-recipes.master-recipes-5', [
         [19949, 32428], [19607, 32442], [19608, 32443], [18984, 32354], [18985, 32355], [18986, 32356], [18992, 32362], [18987, 32357], [18993, 32363], [18989, 32359], [18995, 32365],
         [21042, 32551],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.master-recipes.master-recipes-6', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.master-recipes.master-recipes-6', [
         [21841, 32671], [21842, 32672], [24492, 33202], [24493, 33203], [36129, 33794], [36131, 34008], [36132, 34024], [36133, 34040], [36130, 34682], [37333, 35013], [22427, 32634],
         [22890, 33026], [22891, 33027], [21710, 32570], [21711, 32571], [21717, 32577], [21712, 32572], [21718, 32578], [21713, 32573], [21719, 32579], [21715, 32575],
         [21721, 32581], [24250, 33152], [23783, 33088], [23784, 33089], [23790, 33095], [23786, 33091], [23792, 33097], [23788, 33093], [23794, 33099], [24143, 33177],
         [24799, 33209], [27986, 33495], [27987, 33496],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.master-recipes.master-recipes-7', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.master-recipes.master-recipes-7', [
         [27716, 33328], [28467, 33504], [28468, 33505], [26445, 33377], [26452, 33384], [26447, 33379], [26453, 33385], [26448, 33380], [26454, 33386], [26450, 33382], [26456, 33388],
         [36134, 34711], [38573, 35152], [28616, 33689],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.master-recipes.master-recipes-8', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.master-recipes.master-recipes-8', [
         [39567, 35477], [41618, 35728], [29402, 33800], [28994, 33799], [29958, 33897], [30483, 33951], [30446, 33914], [30447, 33915], [29421, 33818], [29423, 33820], [29429, 33826],
         [29424, 33821], [29430, 33827], [29436, 33833], [29448, 33845], [29442, 33839], [29460, 33857], [29454, 33851], [29426, 33823], [29450, 33847], [30678, 34045],
         [30381, 34046], [32935, 34578], [31830, 34498], [31831, 34499], [31837, 34505], [31832, 34500], [31838, 34506], [31833, 34501], [31839, 34507], [31835, 34503],
         [31841, 34509], [32823, 34596], [36011, 34919], [35793, 34909], [35794, 34910], [33673, 34684], [32206, 34595], [33253, 34683], [36313, 34605], [36321, 34613],
         [36329, 34621],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.master-recipes.master-recipes-9', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.master-recipes.mr-9', [
         [36849, 35015], [36173, 34891], [35039, 34819], [35040, 34820], [35045, 34825], [35050, 34830], [35060, 34840], [35051, 34831], [35061, 34841], [35042, 34822], [35047, 34827],
         [35052, 34832], [35062, 34842], [35044, 34824], [35064, 34844], [36693, 34967], [36694, 34968], [38536, 35155],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.master-recipes.other-master-recipes', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.master-recipes.other-master-recipes', [
         [21800, 30319], [8454, 30492], [8455, 30493],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.special-recipes.class.class-quests', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.special-recipes.class.class-quests', [
         [17894, 32280], [17896, 32281], [17898, 32282], [17900, 32283],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.special-recipes.collectables.50-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.special-recipes.collectables.50-60', [
         [31000, 34077], [31001, 34078], [31002, 34079], [31003, 34080], [31004, 34081], [31005, 34082],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.special-recipes.collectables.61-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.special-recipes.collectables.61-70', [
         [31006, 34083], [31007, 34084], [31008, 34085], [31009, 34086], [31010, 34087],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.special-recipes.collectables.71-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.special-recipes.collectables.71-80', [
         [31011, 34088], [31012, 34089], [31013, 34090], [31014, 34091], [31654, 34425],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.special-recipes.collectables.81-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.special-recipes.collectables.81-90', [
         [35636, 34722], [35637, 34723], [35638, 34724], [35639, 34725], [35640, 34726], [36621, 34903],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.special-recipes.housing.fixtures', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.special-recipes.housing.fixtures', [
         [6437, 1687], [6467, 1717], [6438, 1688], [6468, 1718], [6416, 1666], [8834, 2131], [6419, 1669], [6435, 1685], [6441, 1691], [6440, 1690], [6422, 1672],
         [7137, 2007], [7147, 2014], [6469, 1719], [36885, 5406], [36892, 5413], [36896, 5417], [36864, 5385], [36867, 5388], [36870, 5391], [36873, 5394],
         [36876, 5397], [36879, 5400], [20682, 3680], [20691, 3689], [20700, 3698], [20715, 3713], [20685, 3683], [20709, 3707], [20694, 3692], [20712, 3710],
         [20688, 3686], [20697, 3695], [30378, 4619], [30379, 4620], [35809, 5356],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.special-recipes.housing.indoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.special-recipes.housing.indoor', [
         [6549, 1781], [6566, 1792], [6559, 1785], [7111, 1991], [9733, 2176], [7071, 1954], [20737, 3727], [27282, 4535], [30404, 4636], [29685, 4613], [30407, 4639],
         [39414, 5506], [39409, 5512],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.special-recipes.housing.outdoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.special-recipes.housing.outdoor', [
         [6486, 1733], [7996, 2045], [12235, 2401], [6485, 1732], [6475, 1722], [28162, 4575], [33299, 4721], [41144, 5583], [41429, 5585],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.special-recipes.housing.tables-and-rugs', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.special-recipes.housing.tables-rugs', [
         [6612, 1837], [6611, 1836], [6619, 1844], [6601, 1826], [6604, 1829], [6610, 1835], [6616, 1841], [6634, 1859], [6605, 1830], [7100, 1980], [7101, 1981],
         [37376, 5443], [37369, 5441],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.special-recipes.housing.tabletop', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.special-recipes.housing.tabletop', [
         [6636, 1861], [6652, 1877], [8798, 2112], [27278, 4533], [20748, 3734], [27286, 4538], [28984, 4608], [33292, 4725],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.special-recipes.housing.wall-mounted', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.special-recipes.housing.wall-mounted', [
         [6670, 1888], [27285, 4537], [28133, 4564], [30401, 4633], [30403, 4635], [40656, 5540], [40631, 5526], [40655, 5539], [41113, 5580], [40645, 5546],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.special-recipes.sidequests.other', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.special-recipes.sidequests.other', [
         [28808, 33613], [28813, 33618], [28853, 33658], [28863, 33668], [28809, 33614], [28814, 33619], [28810, 33615], [28815, 33620], [28845, 33650], [28850, 33655], [28865, 33670],
         [28870, 33675], [28857, 33662], [28862, 33667], [28877, 33682],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.special-recipes.sidequests.restoration', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.special-recipes.sidequests.restoration', [
         [31915, 34435], [31923, 34443], [31931, 34451], [31939, 34459], [31947, 34467], [31955, 34475], [31186, 34377], [31194, 34385], [31202, 34393], [31210, 34401], [31218, 34409],
         [31226, 34417], [29794, 33715], [29802, 33723], [29810, 33731], [29818, 33739], [29826, 33747], [29834, 33755], [28727, 33575], [28735, 33583], [28743, 33591],
         [28751, 33599], [28759, 33607],
-    ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.special-recipes.sidequests.skysteel-tools', [
+    ], true);
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.special-recipes.sidequests.skysteel-tools', [
         [29647, 33763], [29655, 33771], [31103, 34361], [31111, 34369], [31752, 34589],
     ]);
-    store.safeChangeKeys('logs.crafting-log.armorer.special-recipes.sidequests.splendorous-tools', [
+    store.safeChangeKeys('overall.logs.crafting-log.armorer.special-recipes.sidequests.splendorous-tools', [
         [38758, 35403], [38766, 35411], [39775, 35602], [39783, 35610], [41256, 35685], [41264, 35693],
     ]);
 }
 
 function migrateGoldsmith(store: ChangeStore): void {
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.1-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.1-5', [
         [5062, 663], [1681, 664], [2056, 665], [5086, 666], [2106, 667], [4305, 668], [4091, 669],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.11-15', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.11-15', [
         [4198, 681], [2058, 682], [2445, 683], [5169, 684], [5170, 685], [5173, 686], [2108, 687], [5172, 689], [5171, 690], [5174, 691], [5063, 688],
         [2059, 693], [2668, 692], [5087, 694], [4204, 695], [4309, 696], [4094, 697],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.16-20', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.16-20', [
         [2444, 698], [4095, 699], [2109, 702], [4205, 701], [4311, 700], [2685, 703], [2687, 704], [2693, 705], [2111, 710], [2691, 706], [2689, 707],
         [2695, 708], [4100, 709], [5259, 711], [2061, 712], [4430, 713], [4431, 714], [2614, 1437],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.21-25', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.21-25', [
         [4209, 717], [4313, 715], [4433, 716], [5199, 718], [5203, 719], [5202, 720], [2446, 721], [2611, 1438], [5201, 722], [5200, 723], [5198, 724],
         [5064, 725], [2063, 726], [2116, 1912], [8563, 2021], [8703, 2064], [2612, 1439], [5088, 727], [2447, 728], [2728, 729], [4211, 730],
         [2066, 732], [2118, 733], [2731, 731], [4315, 734], [4103, 735], [4105, 736], [8697, 2136],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.26-30', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.26-30', [
         [2069, 741], [2448, 742], [4213, 737], [4317, 740], [4439, 738], [4440, 739], [4214, 747], [4216, 749], [4320, 743], [4322, 745], [4109, 744],
         [4111, 746], [4442, 748], [4444, 750], [2610, 1440], [4222, 755], [4224, 757], [4328, 751], [4330, 753], [4117, 752], [4119, 754],
         [4450, 756], [4452, 758], [4220, 761], [4326, 759], [4115, 760], [4448, 762], [7009, 1581], [5260, 763], [4218, 766], [4324, 764],
         [4113, 765], [4446, 767],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.31-35', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.31-35', [
         [2121, 772], [4226, 771], [4332, 768], [4121, 769], [4454, 770], [5180, 773], [5179, 774], [5175, 775], [5176, 776], [5178, 777], [5177, 778],
         [2449, 779], [27668, 4511], [2616, 1442], [2615, 1441], [2745, 780], [2743, 781], [2735, 782], [2737, 783], [2741, 784], [2739, 785],
         [5065, 786], [1706, 789], [2071, 787], [2076, 790], [10525, 2408], [2758, 788], [2769, 791], [2774, 792], [2617, 1443], [5089, 793],
         [2078, 796], [2123, 794], [4231, 795], [4232, 799], [4335, 797], [4124, 798], [4126, 1444], [2093, 1445],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.36-40', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.36-40', [
         [5193, 1446], [2450, 801], [4337, 800], [4465, 802], [4467, 1447], [2623, 1448], [4349, 803], [4347, 804], [4339, 805], [4341, 806], [4345, 807],
         [4343, 808], [4351, 809], [10526, 2409], [4143, 810], [4141, 811], [4133, 812], [4135, 813], [4139, 814], [4137, 815], [4145, 816],
         [4243, 817], [4241, 819], [4233, 821], [4235, 823], [4478, 818], [4476, 820], [4468, 822], [4470, 824], [2620, 1450], [5196, 825],
         [5262, 826], [27674, 4518], [9298, 2067], [10049, 2138], [4239, 827], [4237, 829], [4147, 831], [4474, 828], [4472, 830], [2619, 1449],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.41-45', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.41-45', [
         [5184, 832], [5182, 833], [5185, 834], [5186, 835], [5183, 836], [5181, 837], [2125, 838], [10527, 2410], [4245, 839], [4247, 1451], [4353, 841],
         [4480, 840], [2622, 1452], [5066, 842], [1716, 849], [2083, 850], [2451, 1453], [2796, 843], [2792, 844], [2798, 845], [2800, 846],
         [2794, 847], [2790, 848], [5090, 851], [2088, 852], [2094, 856], [2452, 853], [4254, 855], [4361, 857], [4150, 858], [4485, 854],
         [2618, 1454], [2130, 1458], [2834, 1456], [4255, 859], [4152, 1455], [4497, 860], [2624, 1457], [5194, 861], [10528, 2411], [2857, 862],
         [2876, 865], [2872, 866], [2878, 867], [2880, 868], [2874, 869], [2870, 870], [4363, 863], [4371, 864], [4501, 1459], [1732, 1460],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.46-50', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.46-50', [
         [2625, 1461], [2453, 872], [4367, 873], [4373, 875], [4375, 877], [4162, 871], [4158, 874], [4164, 876], [4166, 878], [4508, 879], [2626, 1462],
         [10529, 2412], [4369, 880], [4377, 882], [4365, 884], [4160, 881], [4168, 883], [4156, 885], [2628, 1464], [2627, 1463], [2097, 1466],
         [4272, 1465], [4379, 886], [4170, 1467], [4504, 887], [4510, 888], [4512, 889], [4506, 890], [4514, 891], [4502, 892], [2133, 893],
@@ -761,7 +781,7 @@ function migrateGoldsmith(store: ChangeStore): void {
         [8704, 2065], [10050, 2139], [13262, 2841], [13263, 2842], [4286, 1489], [4284, 1490], [4285, 1493], [4389, 1485], [4390, 1491], [4182, 1486],
         [4183, 1494], [4527, 1487], [4528, 1495],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.51-55', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.51-55', [
         [12542, 2532], [12543, 2533], [12518, 2526], [10640, 2414], [20389, 3651], [10658, 2419], [10754, 2424], [11955, 2520], [11983, 2521], [10976, 2435], [11000, 2453],
         [11024, 2471], [11072, 2507], [11048, 2489], [10970, 2430], [10994, 2448], [11018, 2466], [11066, 2502], [11042, 2484], [10982, 2440], [11006, 2458],
         [11030, 2476], [11078, 2512], [11054, 2494], [12519, 2527], [20391, 3653], [11891, 2517], [10977, 2436], [11001, 2454], [11025, 2472], [11073, 2508],
@@ -771,7 +791,7 @@ function migrateGoldsmith(store: ChangeStore): void {
         [11032, 2478], [11080, 2514], [11056, 2496], [12544, 2534], [12545, 2535], [10660, 2421], [10978, 2437], [11002, 2455], [11026, 2473], [11074, 2509],
         [11050, 2491], [10972, 2432], [10996, 2450], [11020, 2468], [11068, 2504], [11044, 2486],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.56-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.56-60', [
         [12546, 2536], [12561, 2541], [12521, 2529], [20395, 3657], [11893, 2519], [12018, 2523], [10973, 2433], [10997, 2451], [11021, 2469], [11069, 2505], [11045, 2487],
         [10985, 2443], [11009, 2461], [11033, 2479], [11081, 2515], [11057, 2497], [12550, 2540], [10643, 2417], [10661, 2422], [10979, 2438], [11003, 2456],
         [11027, 2474], [11075, 2510], [11051, 2492], [12030, 2525], [10967, 2428], [10991, 2446], [11015, 2464], [11063, 2500], [11039, 2482], [12522, 2530],
@@ -779,10 +799,10 @@ function migrateGoldsmith(store: ChangeStore): void {
         [11046, 2488], [12706, 2543], [12547, 2537], [12644, 2542], [10644, 2418], [10662, 2423], [10968, 2429], [10992, 2447], [11016, 2465], [11064, 2501],
         [11040, 2483], [10986, 2444], [11010, 2462], [11034, 2480], [11082, 2516], [11058, 2498], [12548, 2538], [12707, 2544],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.6-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.6-10', [
         [5258, 670], [4197, 671], [4422, 672], [4421, 673], [2443, 674], [4306, 675], [2107, 677], [4307, 676], [1683, 680], [2057, 678], [4093, 679],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.61-65', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.61-65', [
         [19962, 3628], [20008, 3649], [19938, 3613], [18042, 2965], [18047, 2970], [18045, 2968], [19511, 3378], [18061, 2984], [18073, 2996], [18087, 3010], [18081, 3004],
         [18091, 3014], [18092, 3015], [18093, 3016], [18095, 3018], [18094, 3017], [18096, 3019], [18097, 3020], [18098, 3021], [18100, 3023], [18099, 3022],
         [18101, 3024], [18102, 3025], [18103, 3026], [18105, 3028], [18104, 3027], [18106, 3029], [18107, 3030], [18108, 3031], [18110, 3033], [18109, 3032],
@@ -793,7 +813,7 @@ function migrateGoldsmith(store: ChangeStore): void {
         [18357, 3124], [19532, 3399], [18361, 3128], [18367, 3134], [19634, 3479], [18403, 3170], [18404, 3171], [18405, 3172], [18407, 3174], [18406, 3173],
         [18408, 3175], [18409, 3176], [18410, 3177], [18412, 3179], [18411, 3178],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.66-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.66-70', [
         [19965, 3631], [19944, 3622], [19553, 3420], [18569, 3258], [18570, 3259], [18571, 3260], [18573, 3262], [18572, 3261], [18574, 3263], [18575, 3264], [18576, 3265],
         [18578, 3267], [18577, 3266], [18510, 3199], [18515, 3204], [18513, 3202], [18559, 3248], [18560, 3249], [18561, 3250], [18563, 3252], [18562, 3251],
         [18564, 3253], [18565, 3254], [18566, 3255], [18568, 3257], [18567, 3256], [19966, 3632], [19946, 3625], [18715, 3326], [18716, 3327], [18717, 3328],
@@ -803,7 +823,7 @@ function migrateGoldsmith(store: ChangeStore): void {
         [18967, 3371], [19967, 3633], [18949, 3353], [18950, 3354], [18951, 3355], [18953, 3357], [18952, 3356], [18954, 3358], [18955, 3359], [18956, 3360],
         [18958, 3362], [18957, 3361],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.71-75', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.71-75', [
         [27720, 3832], [27802, 3838], [27707, 3827], [25642, 3927], [25640, 3925], [35778, 5338], [27082, 4318], [25652, 3937], [25688, 3973], [25689, 3974], [25690, 3975],
         [25692, 3977], [25691, 3976], [25693, 3978], [25694, 3979], [25695, 3980], [25697, 3982], [25696, 3981], [25698, 3983], [25699, 3984], [25700, 3985],
         [25702, 3987], [25701, 3986], [25703, 3988], [25704, 3989], [25705, 3990], [25707, 3992], [25706, 3991], [27721, 3833], [27709, 3828], [25848, 4053],
@@ -813,7 +833,7 @@ function migrateGoldsmith(store: ChangeStore): void {
         [25962, 4087], [25960, 4085], [27103, 4339], [35783, 5342], [27212, 4448], [27213, 4449], [27214, 4450], [26023, 4148], [26024, 4149], [26025, 4150],
         [26027, 4152], [26026, 4151], [27215, 4451],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.76-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.76-80', [
         [27723, 3835], [27804, 3839], [27712, 3830], [26122, 4167], [26120, 4165], [35785, 5344], [26168, 4213], [26169, 4214], [26170, 4215], [26172, 4217], [26171, 4216],
         [26183, 4228], [26184, 4229], [26185, 4230], [26187, 4232], [26186, 4231], [27124, 4360], [26126, 4171], [26132, 4177], [26173, 4218], [26174, 4219],
         [26175, 4220], [26177, 4222], [26176, 4221], [26178, 4223], [26179, 4224], [26180, 4225], [26182, 4227], [26181, 4226], [27724, 3836], [27715, 3831],
@@ -821,7 +841,7 @@ function migrateGoldsmith(store: ChangeStore): void {
         [26347, 4312], [26346, 4311], [26333, 4298], [26334, 4299], [26335, 4300], [26337, 4302], [26336, 4301], [26338, 4303], [26339, 4304], [26340, 4305],
         [26342, 4307], [26341, 4306], [27725, 3837], [27145, 4381], [27222, 4458], [27223, 4459], [27224, 4460], [27225, 4461],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.81-85', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.81-85', [
         [36182, 5311], [36188, 5316], [34094, 4742], [34092, 4740], [34097, 4745], [35325, 5108], [34105, 4753], [34110, 4758], [34115, 4763], [34135, 4783], [34136, 4784],
         [34137, 4785], [34139, 4787], [34138, 4786], [35444, 5227], [34140, 4788], [34141, 4789], [34142, 4790], [34144, 4792], [34143, 4791], [35445, 5228],
         [34145, 4793], [34146, 4794], [34147, 4795], [34149, 4797], [34148, 4796], [35446, 5229], [34150, 4798], [34151, 4799], [34152, 4800], [34154, 4802],
@@ -830,37 +850,37 @@ function migrateGoldsmith(store: ChangeStore): void {
         [34389, 4887], [34394, 4892], [34392, 4890], [34397, 4895], [34440, 4938], [34441, 4939], [34442, 4940], [34444, 4942], [34443, 4941], [35346, 5129],
         [34435, 4933], [34436, 4934], [34437, 4935], [34439, 4937], [34438, 4936],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.level-based.86-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.level-based.86-90', [
         [36185, 5314], [36189, 5317], [34544, 4967], [34542, 4965], [34547, 4970], [34595, 5018], [34596, 5019], [34597, 5020], [34599, 5022], [34598, 5021], [34600, 5023],
         [34601, 5024], [34602, 5025], [34604, 5027], [34603, 5026], [35367, 5150], [34565, 4988], [34585, 5008], [34586, 5009], [34587, 5010], [34589, 5012],
         [34588, 5011], [36186, 5315], [34694, 5042], [34692, 5040], [34697, 5045], [34735, 5083], [34736, 5084], [34737, 5085], [34739, 5087], [34738, 5086],
         [34750, 5098], [34751, 5099], [34752, 5100], [34754, 5102], [34753, 5101], [34740, 5088], [34741, 5089], [34742, 5090], [34744, 5092], [34743, 5091],
         [34745, 5093], [34746, 5094], [34747, 5095], [34749, 5097], [34748, 5096], [35388, 5171],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.master-recipes.master-recipes-1', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.master-recipes.master-recipes-1', [
         [7615, 30300], [10373, 31052], [10103, 30928], [8035, 30420], [5187, 30293], [5188, 30403], [5189, 30404], [5190, 30405], [5191, 30406], [5192, 30407], [5069, 30292],
         [9359, 30827], [9510, 30917], [7504, 30265], [15159, 31855], [12912, 31092],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.master-recipes.master-recipes-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.master-recipes.mr-10', [
         [37830, 35101], [37751, 35035], [37756, 35040], [37754, 35038], [37759, 35043], [37772, 35056], [37782, 35066], [37777, 35061], [37792, 35076], [37787, 35071], [37802, 35086],
         [37803, 35087], [37804, 35088], [37806, 35090], [37805, 35089], [40757, 35627], [40758, 35628], [37700, 35132], [38931, 35458], [38895, 35422], [38911, 35438],
         [39421, 35478], [39243, 35496], [39719, 35577], [39639, 35508], [39644, 35513], [39638, 35507], [39642, 35511], [39647, 35516], [39690, 35559], [39691, 35560],
         [39692, 35561], [39694, 35563], [39693, 35562], [39695, 35564], [39696, 35565], [39697, 35566], [39699, 35568], [39698, 35567], [41086, 35730], [39915, 35621],
         [41422, 35704],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.master-recipes.master-recipes-2', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.master-recipes.master-recipes-2', [
         [9360, 30860], [15565, 31925], [20379, 32319], [10536, 31057], [15568, 31928], [9072, 30898], [9062, 30892], [9033, 30949], [9049, 30953], [9059, 30957], [9079, 30965],
         [9069, 30961], [9034, 30950], [9050, 30954], [9060, 30958], [9080, 30966], [9070, 30962], [9032, 30948], [9048, 30952], [9058, 30956], [9078, 30964],
         [9068, 30960], [9035, 30951], [9051, 30955], [9061, 30959], [9081, 30967], [9071, 30963],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.master-recipes.master-recipes-3', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.master-recipes.master-recipes-3', [
         [10969, 31064], [10993, 31068], [11017, 31072], [11065, 31080], [11041, 31076], [10645, 31059], [10663, 31060], [11894, 31084], [10885, 31061], [10981, 31066], [11005, 31070],
         [11029, 31074], [11077, 31082], [11053, 31078], [10975, 31065], [10999, 31069], [11023, 31073], [11071, 31081], [11047, 31077], [10987, 31067], [11011, 31071],
         [11035, 31075], [11083, 31083], [11059, 31079], [12111, 31089], [12108, 31087], [12109, 31088], [13596, 31301], [12112, 31090], [12523, 31091], [13010, 31279],
         [13018, 31239], [13028, 31249], [13043, 31264], [13652, 31312], [13664, 31322], [10928, 31063], [13676, 31332], [10886, 31062], [13670, 31327], [13030, 31251],
         [12019, 31085], [12031, 31086], [17035, 32126], [13097, 31284], [17994, 32309],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.master-recipes.master-recipes-4', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.master-recipes.master-recipes-4', [
         [14186, 31502], [15579, 31939], [15593, 32094], [20429, 32321], [20433, 32323], [15582, 31942], [15596, 32097], [13848, 31424], [13892, 31814], [13902, 31824], [13922, 31844],
         [13829, 31405], [13824, 31400], [13868, 31444], [14058, 31464], [14059, 31465], [14060, 31466], [14064, 31467], [17954, 32306], [14149, 31484], [24327, 33185],
         [13796, 31372], [15607, 32108], [17613, 32141], [24329, 33187], [25031, 33222], [25047, 33238], [13841, 31417], [15097, 31590], [20437, 32325], [20441, 32327],
@@ -872,11 +892,11 @@ function migrateGoldsmith(store: ChangeStore): void {
         [16686, 32019], [16687, 32020], [16698, 32031], [16699, 32032], [16700, 32033], [16701, 32034], [16702, 32035], [16557, 32078], [15964, 32058], [20560, 32338],
         [17961, 32307],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.master-recipes.master-recipes-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.master-recipes.master-recipes-5', [
         [20753, 32465], [19948, 32426], [18978, 32348], [18983, 32353], [18981, 32351], [19606, 32441], [18991, 32361], [18997, 32367], [19009, 32379], [19027, 32397], [19028, 32398],
         [19029, 32399], [19031, 32401], [19030, 32400], [19042, 32412], [19043, 32413], [19044, 32414], [19046, 32416], [19045, 32415], [27280, 33440],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.master-recipes.master-recipes-6', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.master-recipes.master-recipes-6', [
         [30831, 34013], [30077, 33786], [30836, 34018], [30852, 34034], [33606, 34676], [37326, 35006], [30082, 33791], [30825, 34007], [30841, 34023], [30857, 34039], [33611, 34681],
         [37331, 35011], [30851, 34033], [33605, 34675], [30080, 33789], [30823, 34005], [30839, 34021], [30855, 34037], [33609, 34679], [37329, 35009], [21869, 32677],
         [22532, 32980], [24868, 33210], [22582, 33005], [21833, 32668], [15144, 33200], [21843, 32673], [21813, 32661], [22537, 32982], [20746, 32679], [21836, 32670],
@@ -886,45 +906,45 @@ function migrateGoldsmith(store: ChangeStore): void {
         [23826, 33131], [23827, 33132], [23828, 33133], [23830, 33135], [23829, 33134], [23841, 33146], [23842, 33147], [23843, 33148], [23845, 33150], [23844, 33149],
         [24495, 33204], [27300, 33357],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.master-recipes.master-recipes-7', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.master-recipes.master-recipes-7', [
         [27717, 33329], [28714, 33529], [33891, 34698], [26442, 33374], [33901, 34708], [38555, 35148], [33895, 34702], [26440, 33372], [33899, 34706], [38553, 35146], [28466, 33503],
         [26446, 33378], [26458, 33390], [26488, 33420], [26489, 33421], [26490, 33422], [26492, 33424], [26491, 33423], [26493, 33425], [26494, 33426], [26495, 33427],
         [26497, 33429], [26496, 33428], [26498, 33430], [26499, 33431], [26500, 33432], [26502, 33434], [26501, 33433], [26503, 33435], [26504, 33436], [26505, 33437],
         [26507, 33439], [26506, 33438], [29681, 33798], [28144, 33687],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.master-recipes.master-recipes-8', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.master-recipes.master-recipes-8', [
         [41609, 35719], [39563, 35473], [41614, 35724], [41608, 35718], [39561, 35471], [41612, 35722], [29959, 33898], [29413, 33810], [29418, 33815], [29416, 33813], [30445, 33913],
         [30472, 33940], [29469, 33866], [29470, 33867], [29471, 33868], [29473, 33870], [29472, 33869], [30473, 33941], [29474, 33871], [29475, 33872], [29476, 33873],
         [29478, 33875], [29477, 33874], [30474, 33942], [30475, 33943], [32936, 34579], [31822, 34490], [31827, 34495], [31825, 34493], [31861, 34529], [31873, 34541],
         [31874, 34542], [31875, 34543], [31877, 34545], [31876, 34544], [31888, 34556], [31889, 34557], [31890, 34558], [31892, 34560], [31891, 34559], [36314, 34606],
         [36322, 34614], [36330, 34622],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.master-recipes.master-recipes-9', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.master-recipes.mr-9', [
         [36187, 34892], [35034, 34814], [35032, 34812], [35037, 34817], [35070, 34850], [35065, 34845], [35067, 34847], [35075, 34855], [35076, 34856], [35077, 34857], [35079, 34859],
         [35078, 34858], [35090, 34870], [35091, 34871], [35092, 34872], [35094, 34874], [35093, 34873], [37280, 35018], [36692, 34966], [38536, 35156],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.master-recipes.other-master-recipes', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.master-recipes.other-master-recipes', [
         [21800, 30326], [8449, 30487], [8450, 30488], [8451, 30489], [8705, 30823], [9235, 30848], [8361, 30455], [15915, 31958], [8370, 30464], [20359, 32311], [20363, 32313],
         [20371, 32317], [8369, 30463], [15913, 31956], [10532, 31053], [10533, 31054], [10535, 31056], [8280, 30425], [8281, 30426], [8282, 30427], [8283, 30428],
         [8284, 30429], [8285, 30430], [8286, 30431], [8287, 30432], [8288, 30433], [8289, 30434], [8290, 30435], [8291, 30436], [8292, 30437], [8293, 30438],
         [8294, 30439], [8295, 30440], [8296, 30441], [8297, 30442], [8298, 30443], [8299, 30444], [8300, 30445], [8301, 30446], [8302, 30447], [8303, 30448],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.special-recipes.class.class-quests', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.special-recipes.class.class-quests', [
         [17902, 32284], [17904, 32285], [17906, 32286], [17908, 32287],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.special-recipes.collectables.50-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.special-recipes.collectables.50-60', [
         [31015, 34092], [31016, 34093], [31017, 34094], [31018, 34095], [31019, 34096], [31020, 34097],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.special-recipes.collectables.61-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.special-recipes.collectables.61-70', [
         [31021, 34098], [31022, 34099], [31023, 34100], [31024, 34101], [31025, 34102],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.special-recipes.collectables.71-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.special-recipes.collectables.71-80', [
         [31026, 34103], [31027, 34104], [31028, 34105], [31029, 34106], [31655, 34426],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.special-recipes.collectables.81-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.special-recipes.collectables.81-90', [
         [35641, 34727], [35642, 34728], [35643, 34729], [35644, 34730], [35645, 34731], [36622, 34904],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.special-recipes.housing.fixtures', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.special-recipes.housing.fixtures', [
         [6367, 1617], [6375, 1625], [6394, 1644], [6366, 1616], [6385, 1635], [6393, 1643], [6376, 1626], [6439, 1689], [8015, 2063], [6411, 1661], [6418, 1668],
         [6423, 1673], [6413, 1663], [8831, 2128], [8832, 2129], [6446, 1696], [6449, 1699], [8012, 2060], [6370, 1620], [6434, 1684], [6436, 1686],
         [6378, 1628], [6397, 1647], [6420, 1670], [6369, 1619], [6388, 1638], [6396, 1646], [6379, 1629], [9770, 2193], [6424, 1674], [6453, 1703],
@@ -935,103 +955,103 @@ function migrateGoldsmith(store: ChangeStore): void {
         [28127, 4562], [28128, 4563], [28960, 4597], [28961, 4598], [37408, 5425], [38674, 5474], [40620, 5518], [39429, 5501], [37409, 5426], [38672, 5472],
         [40621, 5519], [39430, 5502], [41084, 5571],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.special-recipes.housing.indoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.special-recipes.housing.indoor', [
         [6578, 1804], [6586, 1812], [24514, 3801], [8790, 2106], [27271, 4530], [6573, 1799], [6575, 1801], [6518, 1760], [6581, 1807], [6565, 1791], [6571, 1797],
         [6599, 1825], [6596, 1822], [6588, 1814], [6591, 1817], [6593, 1819], [17025, 2940], [6597, 1823], [6536, 1775], [6589, 1815], [6598, 1824],
         [6537, 1776], [7067, 1950], [7982, 2037], [8785, 2166], [30410, 4650], [33258, 4698], [35561, 5361], [37349, 5430],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.special-recipes.housing.outdoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.special-recipes.housing.outdoor', [
         [7998, 2047], [7999, 2048], [6512, 1754], [6497, 1741], [9745, 2185], [6498, 1742], [6502, 1744], [7995, 2044], [7115, 1997], [28164, 4577], [35587, 5383],
         [35582, 5362], [38621, 5490], [39423, 5516], [39426, 5517], [40679, 5548], [37397, 5449], [37398, 5450],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.special-recipes.housing.tables-and-rugs', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.special-recipes.housing.tables-rugs', [
         [6609, 1834], [6614, 1839], [6633, 1858], [33281, 4712], [35576, 5372], [37361, 5436], [38595, 5486], [41089, 5574],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.special-recipes.housing.tabletop', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.special-recipes.housing.tabletop', [
         [6635, 1860], [6638, 1863], [6650, 1875], [6648, 1873], [6643, 1868], [7086, 1969], [27297, 4542], [6651, 1876], [6647, 1872], [7073, 1956], [7094, 1977],
         [24523, 3804], [24506, 3794], [28149, 4570], [28148, 4574], [27291, 4539], [41096, 5577],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.special-recipes.housing.wall-mounted', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.special-recipes.housing.wall-mounted', [
         [17955, 3538], [27272, 4531], [6667, 1885], [6671, 1889], [7074, 1957], [6669, 1887], [6665, 1883], [6666, 1884], [6664, 1882], [8808, 2116], [7093, 1976],
         [33291, 4718], [33293, 4724], [39384, 5508], [37351, 5446], [38576, 5476], [40630, 5525], [40647, 5537], [41087, 5573],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.special-recipes.sidequests.other', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.special-recipes.sidequests.other', [
         [28818, 33623], [28828, 33633], [28833, 33638], [28838, 33643], [28843, 33648], [28848, 33653], [28858, 33663], [28868, 33673], [28873, 33678],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.special-recipes.sidequests.restoration', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.special-recipes.sidequests.restoration', [
         [31916, 34436], [31924, 34444], [31932, 34452], [31940, 34460], [31948, 34468], [31956, 34476], [31187, 34378], [31195, 34386], [31203, 34394], [31211, 34402], [31219, 34410],
         [31227, 34418], [29795, 33716], [29803, 33724], [29811, 33732], [29819, 33740], [29827, 33748], [29835, 33756], [28728, 33576], [28736, 33584], [28744, 33592],
         [28752, 33600], [28760, 33608],
-    ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.special-recipes.sidequests.skysteel-tools', [
+    ], true);
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.special-recipes.sidequests.skysteel-tools', [
         [29648, 33764], [29656, 33772], [31104, 34362], [31112, 34370], [31753, 34590],
     ]);
-    store.safeChangeKeys('logs.crafting-log.goldsmith.special-recipes.sidequests.splendorous-tools', [
+    store.safeChangeKeys('overall.logs.crafting-log.goldsmith.special-recipes.sidequests.splendorous-tools', [
         [38759, 35404], [38767, 35412], [39776, 35603], [39784, 35611], [41257, 35686], [41265, 35694],
     ]);
 }
 
 function migrateLeatherworker(store: ChangeStore): void {
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.1-5', [3960, 3959, 3962]);
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.11-15', [3965, 3968, 3967, 3970]);
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.16-20', [3979, 3980, 3982]);
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.21-25', [3983, 3991, 3989]);
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.26-30', [4005, 4003]);
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.31-35', [4011, 4016, 4022, 4015]);
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.36-40', [4032, 4018, 4039, 4038, 4044]);
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.41-45', [4045, 4049, 4051, 4052, 4056, 4057]);
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.46-50', [4061, 4067, 4077, 4076]);
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.51-55', [10775, 10692, 10734, 10776, 10860, 10818, 10944, 10902, 10777, 10861, 10819, 10945, 10903, 11998]);
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.56-60', [10736, 10778, 10862, 10779, 10863, 10821, 11971, 11999]);
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.6-10', [3966]);
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.61-65', [18054, 18060, 18066, 18078, 18072, 18090, 18084, 18222, 18234, 18228, 19732, 18378, 18390, 18384]);
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.66-70', [18522, 18528, 18540, 18558, 18552, 19742, 18690, 18702, 18696, 18924, 18936, 18930, 19752]);
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.71-75', [27201, 27206, 27216]);
-    store.deleteTasks('logs.crafting-log.leatherworker.level-based.76-80', [27221, 27226]);
-    store.deleteTasks('logs.crafting-log.leatherworker.master-recipes.master-recipes-1', [7497, 7503, 7515, 7509]);
-    store.deleteTasks('logs.crafting-log.leatherworker.master-recipes.master-recipes-2', [9041, 9047, 9490, 9077, 9067]);
-    store.deleteTasks('logs.crafting-log.leatherworker.master-recipes.master-recipes-3', [10738, 10780, 10864, 10906, 10697, 10739, 10949, 10907, 11972, 12000]);
-    store.deleteTasks('logs.crafting-log.leatherworker.master-recipes.master-recipes-4', [14751, 14750, 15534, 15529]);
-    store.deleteTasks('logs.crafting-log.leatherworker.master-recipes.master-recipes-6', [21716, 21722, 21728, 21740, 21734, 21752, 21746, 23789, 23795, 23801, 23813, 23807, 23825, 23819]);
-    store.deleteTasks('logs.crafting-log.leatherworker.master-recipes.master-recipes-8', [29439, 29451, 29445, 29463, 29457, 30471, 30476]);
-    store.deleteTasks('logs.crafting-log.leatherworker.master-recipes.other-master-recipes', [8447, 8448]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.1-5', [3960, 3959, 3962]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.11-15', [3965, 3968, 3967, 3970]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.16-20', [3979, 3980, 3982]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.21-25', [3983, 3991, 3989]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.26-30', [4005, 4003]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.31-35', [4011, 4016, 4022, 4015]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.36-40', [4032, 4018, 4039, 4038, 4044]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.41-45', [4045, 4049, 4051, 4052, 4056, 4057]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.46-50', [4061, 4067, 4077, 4076]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.51-55', [10775, 10692, 10734, 10776, 10860, 10818, 10944, 10902, 10777, 10861, 10819, 10945, 10903, 11998]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.56-60', [10736, 10778, 10862, 10779, 10863, 10821, 11971, 11999]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.6-10', [3966]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.61-65', [18054, 18060, 18066, 18078, 18072, 18090, 18084, 18222, 18234, 18228, 19732, 18378, 18390, 18384]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.66-70', [18522, 18528, 18540, 18558, 18552, 19742, 18690, 18702, 18696, 18924, 18936, 18930, 19752]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.71-75', [27201, 27206, 27216]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.level-based.76-80', [27221, 27226]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.master-recipes.master-recipes-1', [7497, 7503, 7515, 7509]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.master-recipes.master-recipes-2', [9041, 9047, 9490, 9077, 9067]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.master-recipes.master-recipes-3', [10738, 10780, 10864, 10906, 10697, 10739, 10949, 10907, 11972, 12000]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.master-recipes.master-recipes-4', [14751, 14750, 15534, 15529]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.master-recipes.master-recipes-6', [21716, 21722, 21728, 21740, 21734, 21752, 21746, 23789, 23795, 23801, 23813, 23807, 23825, 23819]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.master-recipes.master-recipes-8', [29439, 29451, 29445, 29463, 29457, 30471, 30476]);
+    store.deleteTasks('overall.logs.crafting-log.leatherworker.master-recipes.other-master-recipes', [8447, 8448]);
 
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.1-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.1-5', [
         [5275, 302], [2631, 303], [3516, 305], [3740, 304], [3741, 307], [2653, 311], [3530, 309], [3761, 310], [3310, 315], [3762, 313], [27634, 4477],
         [4304, 314],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.11-15', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.11-15', [
         [2660, 333], [3771, 334], [3017, 336], [3770, 335], [3773, 1577], [2229, 338], [3541, 340], [1685, 344], [2669, 343], [3542, 346], [3319, 342],
         [27636, 4479], [3772, 341], [27637, 4480], [3546, 348], [3777, 349], [3780, 1578], [4308, 347],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.16-20', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.16-20', [
         [3547, 350], [5277, 353], [2672, 354], [3774, 355], [4097, 356], [4099, 357], [1688, 360], [3549, 358], [3552, 359], [2697, 363], [3784, 361],
         [3562, 365], [4435, 364],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.21-25', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.21-25', [
         [3788, 366], [3790, 367], [3795, 368], [2714, 370], [3043, 372], [3559, 371], [3337, 369], [2710, 373], [3572, 376], [3791, 374], [3347, 378],
         [3806, 1579], [3576, 381], [3578, 382], [3799, 380],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.26-30', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.26-30', [
         [5280, 383], [3808, 384], [4314, 385], [3581, 388], [3810, 386], [3821, 387], [27667, 4510], [4108, 389], [1697, 391], [2250, 394], [3367, 395],
         [4106, 393], [3099, 396], [3100, 398], [3597, 397], [27672, 4515],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.31-35', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.31-35', [
         [3369, 399], [3827, 401], [3829, 402], [3377, 404], [4456, 403], [5282, 406], [1708, 409], [2767, 407], [3611, 410], [3613, 412], [4333, 411],
         [15928, 2893], [3844, 413], [3841, 414], [3843, 415], [27640, 4483], [15931, 2896],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.36-40', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.36-40', [
         [3616, 416], [4130, 417], [4132, 1282], [2788, 420], [27641, 4484], [3138, 419], [3402, 418], [5284, 421], [3625, 424], [3405, 1285], [3851, 422],
         [3853, 423], [3165, 427], [3627, 425], [3860, 426], [4482, 1286], [3691, 1287], [6978, 1905], [6979, 1907], [3639, 428], [6980, 1906],
         [3856, 1580], [6981, 1904], [12081, 2652],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.41-45', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.41-45', [
         [5285, 439], [3416, 432], [3426, 433], [3423, 435], [3866, 436], [3911, 1288], [2270, 440], [3871, 437], [5287, 1289], [3177, 438], [3662, 443],
         [3658, 444], [3660, 445], [3666, 446], [3656, 447], [3664, 448], [3651, 449], [4360, 442], [2915, 1290], [1728, 451], [3191, 454],
         [3653, 450], [3668, 460], [3447, 453], [3443, 1292], [2862, 457], [3694, 1300], [27650, 4493], [3457, 459], [3909, 463], [27647, 4490],
         [17465, 2946], [4153, 455], [4155, 1294],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.46-50', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.46-50', [
         [3471, 1293], [27651, 4494], [3885, 456], [27682, 4526], [5286, 1295], [3206, 462], [3904, 458], [3244, 1297], [2298, 1299], [4516, 1298], [3213, 1301],
         [27649, 4492], [3916, 1303], [27652, 4495], [5288, 1305], [5290, 1304], [1740, 1313], [2933, 1311], [3242, 1318], [6982, 1909], [14850, 2873],
         [14852, 2875], [14869, 2878], [3699, 1320], [13273, 2843], [3479, 1315], [14851, 2874], [14853, 2876], [14868, 2877], [3922, 1314], [3920, 1316],
@@ -1042,7 +1062,7 @@ function migrateLeatherworker(store: ChangeStore): void {
         [3258, 1350], [3259, 1351], [3726, 1347], [3725, 1356], [3500, 1348], [3499, 1353], [3944, 1349], [3945, 1359], [4388, 1352], [4181, 1360],
         [4526, 1361], [8570, 2023], [9355, 2069],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.51-55', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.51-55', [
         [12562, 2653], [10768, 2562], [10810, 2577], [10936, 2615], [10894, 2603], [13685, 2850], [11965, 2627], [11993, 2637], [10698, 2548], [10740, 2556], [10789, 2572],
         [10873, 2599], [10831, 2585], [10957, 2621], [10915, 2608], [13684, 2849], [13687, 2852], [12563, 2654], [11960, 2626], [11988, 2634], [10685, 2546],
         [10727, 2553], [10769, 2563], [10853, 2591], [10811, 2578], [10937, 2616], [10895, 2604], [11973, 2630], [12001, 2641], [11978, 2631], [12006, 2643],
@@ -1051,16 +1071,16 @@ function migrateLeatherworker(store: ChangeStore): void {
         [12023, 2646], [11985, 2633], [10763, 2561], [10847, 2590], [10805, 2576], [14924, 2880], [11967, 2628], [11995, 2638], [14928, 2884], [10700, 2549],
         [10742, 2557], [10791, 2574], [10875, 2601], [10833, 2587], [10959, 2623], [10917, 2610], [14926, 2882], [14930, 2886], [16598, 2923],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.56-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.56-60', [
         [12565, 2656], [11990, 2636], [10813, 2580], [10939, 2617], [10897, 2605], [13771, 2856], [11980, 2632], [12008, 2645], [13772, 2857], [10701, 2550], [10743, 2558],
         [10785, 2571], [10869, 2598], [10834, 2588], [10960, 2624], [10918, 2611], [12033, 2651], [12566, 2657], [10926, 2614], [10772, 2565], [10856, 2593],
         [10814, 2581], [10940, 2618], [12024, 2647], [12027, 2649], [10793, 2575], [10877, 2602], [10835, 2589], [10961, 2625], [10919, 2612],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.6-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.6-10', [
         [3531, 316], [3535, 318], [3534, 319], [3766, 317], [1682, 320], [4092, 321], [5276, 322], [2654, 324], [3764, 323], [3765, 325], [27665, 4508],
         [3536, 327], [3768, 326], [3769, 328], [3016, 329], [3537, 331],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.61-65', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.61-65', [
         [19993, 3644], [18067, 2990], [19617, 3462], [18068, 2991], [19618, 3463], [18069, 2992], [19614, 3459], [19619, 3464], [18052, 2975], [18058, 2981], [18070, 2993],
         [18053, 2976], [18059, 2982], [18065, 2988], [18077, 3000], [18071, 2994], [18089, 3012], [18083, 3006], [19616, 3461], [19621, 3466], [19994, 3645],
         [18223, 3068], [18219, 3064], [18231, 3076], [18225, 3070], [18237, 3082], [18208, 3053], [18214, 3059], [19627, 3472], [19628, 3473], [19624, 3469],
@@ -1069,14 +1089,14 @@ function migrateLeatherworker(store: ChangeStore): void {
         [18385, 3152], [18379, 3146], [19637, 3482], [19639, 3484], [18377, 3144], [18389, 3156], [18383, 3150], [18401, 3168], [18395, 3162], [19636, 3481],
         [19641, 3486],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.66-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.66-70', [
         [19996, 3647], [18529, 3218], [18541, 3230], [18537, 3226], [18555, 3244], [18549, 3238], [18539, 3228], [18557, 3246], [18551, 3240], [18530, 3219], [18542, 3231],
         [19643, 3488], [19648, 3493], [19644, 3489], [19649, 3494], [18520, 3209], [18526, 3215], [18532, 3221], [18544, 3233], [19646, 3491], [19651, 3496],
         [19743, 3523], [19744, 3524], [19745, 3525], [19746, 3526], [19997, 3648], [18675, 3286], [18705, 3316], [18683, 3294], [18689, 3300], [18701, 3312],
         [18695, 3306], [18713, 3324], [18707, 3318], [18674, 3285], [18680, 3291], [18686, 3297], [18698, 3309], [18704, 3315], [18693, 3304], [18711, 3322],
         [18682, 3293], [18688, 3299], [18700, 3311], [19654, 3499], [19656, 3501], [19661, 3506], [19753, 3533], [19754, 3534], [19755, 3535], [19756, 3536],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.71-75', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.71-75', [
         [27738, 3840], [25654, 3939], [25672, 3957], [25684, 3969], [25678, 3963], [27163, 4399], [27168, 4404], [25649, 3934], [25655, 3940], [25656, 3941], [25662, 3947],
         [25674, 3959], [25668, 3953], [25686, 3971], [25680, 3965], [27165, 4401], [27170, 4406], [27207, 4443], [27208, 4444], [27209, 4445], [27210, 4446],
         [27739, 3841], [25820, 4025], [25832, 4037], [25826, 4031], [25822, 4027], [25834, 4039], [25828, 4033], [25844, 4049], [25838, 4043], [25809, 4014],
@@ -1085,14 +1105,14 @@ function migrateLeatherworker(store: ChangeStore): void {
         [26018, 4143], [26019, 4144], [26020, 4145], [26022, 4147], [26021, 4146], [25991, 4116], [25985, 4110], [26003, 4128], [25969, 4094], [25975, 4100],
         [26013, 4138], [26014, 4139], [26015, 4140], [26017, 4142], [26016, 4141],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.76-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.76-80', [
         [27741, 3843], [26140, 4185], [26152, 4197], [26146, 4191], [26164, 4209], [26158, 4203], [26142, 4187], [26154, 4199], [26148, 4193], [26166, 4211], [26160, 4205],
         [26127, 4172], [26133, 4178], [27182, 4418], [27187, 4423], [26128, 4173], [26134, 4179], [27183, 4419], [27188, 4424], [26130, 4175], [26136, 4181],
         [27185, 4421], [27190, 4426], [27742, 3844], [26311, 4276], [26305, 4270], [26288, 4253], [26294, 4259], [26300, 4265], [26312, 4277], [26306, 4271],
         [26302, 4267], [26323, 4288], [26317, 4282], [26324, 4289], [26318, 4283], [26326, 4291], [26320, 4285], [27197, 4433], [27193, 4429], [27198, 4434],
         [27195, 4431], [27200, 4436],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.81-85', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.81-85', [
         [36247, 5318], [34130, 4778], [34125, 4773], [34101, 4749], [34106, 4754], [34111, 4759], [34121, 4769], [34116, 4764], [34112, 4760], [34122, 4770], [35406, 5189],
         [35411, 5194], [34104, 4752], [34109, 4757], [34114, 4762], [34124, 4772], [34119, 4767], [34134, 4782], [34129, 4777], [35408, 5191], [35413, 5196],
         [36248, 5319], [34262, 4835], [34272, 4845], [34264, 4837], [34274, 4847], [34269, 4842], [34284, 4857], [34279, 4852], [34261, 4834], [34271, 4844],
@@ -1101,28 +1121,28 @@ function migrateLeatherworker(store: ChangeStore): void {
         [34409, 4907], [34414, 4912], [34424, 4922], [34419, 4917], [34434, 4932], [34429, 4927], [34401, 4899], [34406, 4904], [34411, 4909], [34421, 4919],
         [34416, 4914], [35416, 5199], [35421, 5204], [35418, 5201], [35423, 5206],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.level-based.86-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.level-based.86-90', [
         [36250, 5321], [34561, 4984], [34571, 4994], [34567, 4990], [34582, 5005], [34577, 5000], [34553, 4976], [34558, 4981], [34569, 4992], [35456, 5239], [35457, 5240],
         [35458, 5241], [35459, 5242], [35426, 5209], [35431, 5214], [35428, 5211], [35433, 5216], [36251, 5322], [34709, 5057], [34714, 5062], [34719, 5067],
         [34734, 5082], [34729, 5077], [34721, 5069], [34716, 5064], [34731, 5079], [34726, 5074], [35464, 5247], [35465, 5248], [35466, 5249], [35467, 5250],
         [35436, 5219], [35441, 5224], [35438, 5221], [35443, 5226],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.master-recipes.master-recipes-1', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.master-recipes.master-recipes-1', [
         [7616, 30301], [10373, 31094], [10104, 30929], [8036, 30421], [7608, 30294], [9514, 30921], [7492, 30253], [7493, 30254], [7499, 30260], [7494, 30255], [7500, 30261],
         [7512, 30273], [7506, 30267], [15464, 32071], [7489, 30250], [7496, 30257], [7502, 30263], [7514, 30275], [7508, 30269], [15466, 32073], [12233, 31154],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.master-recipes.master-recipes-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.master-recipes.mr-10', [
         [38440, 35161], [37832, 35103], [37774, 35058], [37784, 35068], [37779, 35063], [37794, 35078], [37789, 35073], [39310, 35482], [37776, 35060], [37796, 35080], [37791, 35075],
         [39312, 35484], [40407, 35632], [40411, 35636], [40415, 35640], [37797, 35081], [37798, 35082], [37799, 35083], [37801, 35085], [37800, 35084], [37699, 35128],
         [38913, 35440], [38915, 35442], [38920, 35447], [38925, 35452], [38926, 35453], [38928, 35455], [39242, 35492], [39721, 35579], [39660, 35529], [39670, 35539],
         [39651, 35520], [39656, 35525], [39666, 35535], [39662, 35531], [39672, 35541], [39654, 35523], [39659, 35528], [39664, 35533], [39674, 35543], [39669, 35538],
         [39684, 35553], [39679, 35548], [41594, 35709], [39914, 35617], [41421, 35700],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.master-recipes.master-recipes-2', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.master-recipes.master-recipes-2', [
         [9361, 30862], [9052, 30886], [9053, 30887], [9054, 30888], [9074, 30900], [9064, 30894], [9300, 30904], [9304, 30908], [9029, 30871], [9039, 30877], [9055, 30889],
         [9046, 30884], [9489, 30915], [9056, 30890], [9076, 30902], [9066, 30896], [9306, 30910],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.master-recipes.master-recipes-3', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.master-recipes.master-recipes-3', [
         [2650, 31093], [10731, 31103], [10773, 31110], [10857, 31126], [10815, 31119], [10941, 31137], [10899, 31133], [11969, 31142], [11997, 31147], [10717, 31102], [11987, 31145],
         [15472, 31861], [11992, 31146], [10745, 31106], [10787, 31113], [10871, 31129], [10829, 31121], [10955, 31139], [10794, 31115], [10878, 31131], [10836, 31122],
         [10962, 31140], [11982, 31144], [12010, 31149], [15475, 31864], [13749, 31340], [13269, 31288], [12998, 31229], [13000, 31231], [12999, 31230], [10388, 31095],
@@ -1135,7 +1155,7 @@ function migrateLeatherworker(store: ChangeStore): void {
         [10879, 31132], [13668, 31326], [10837, 31123], [13662, 31321], [10963, 31141], [13680, 31336], [10921, 31136], [13674, 31331], [12025, 31150], [12028, 31151],
         [12034, 31152],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.master-recipes.master-recipes-4', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.master-recipes.master-recipes-4', [
         [14187, 31503], [15510, 31870], [13863, 31439], [13873, 31449], [13907, 31829], [13917, 31839], [15511, 31871], [13903, 31825], [13923, 31845], [13908, 31830], [13918, 31840],
         [15512, 31872], [13831, 31407], [13826, 31402], [13865, 31441], [13875, 31451], [13870, 31446], [13904, 31826], [13924, 31846], [13909, 31831], [13919, 31841],
         [13914, 31836], [13851, 31427], [13856, 31432], [13861, 31437], [13866, 31442], [13876, 31452], [13900, 31822], [13910, 31832], [15524, 31884], [15514, 31874],
@@ -1147,143 +1167,143 @@ function migrateLeatherworker(store: ChangeStore): void {
         [16661, 31994], [17323, 32169], [17338, 32184], [16644, 31977], [16650, 31983], [16656, 31989], [16668, 32001], [16662, 31995], [17310, 32156], [17315, 32161],
         [16657, 31990], [16669, 32002], [17330, 32176], [16663, 31996], [16681, 32014], [16675, 32008], [17335, 32181], [20472, 32330], [20474, 32332], [20478, 32336],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.master-recipes.master-recipes-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.master-recipes.master-recipes-5', [
         [19998, 32430], [19003, 32373], [19021, 32391], [19015, 32385], [18998, 32368], [19010, 32380], [18999, 32369], [19011, 32381], [19005, 32375], [19023, 32393], [19017, 32387],
         [19719, 32449], [19724, 32454], [18988, 32358], [18994, 32364], [19006, 32376], [19001, 32371], [19013, 32383], [19007, 32377], [19025, 32395], [19019, 32389],
         [19721, 32451], [19726, 32456],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.master-recipes.master-recipes-6', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.master-recipes.master-recipes-6', [
         [23000, 33064], [23374, 33068], [23097, 33003], [21817, 32664], [22430, 32637], [21737, 32597], [21731, 32591], [22907, 33043], [22912, 33048], [21727, 32587], [21739, 32599],
         [21733, 32593], [21751, 32611], [21745, 32605], [22909, 33045], [22914, 33050], [24593, 33207], [22922, 33058], [22923, 33059], [22924, 33060], [24253, 33155],
         [23798, 33103], [23810, 33115], [23804, 33109], [23822, 33127], [23816, 33121], [23800, 33105], [23812, 33117], [23806, 33111], [23824, 33129], [23818, 33123],
         [27940, 33355],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.master-recipes.master-recipes-7', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.master-recipes.master-recipes-7', [
         [27938, 33353], [27991, 33497], [27939, 33354], [27743, 33330], [28477, 33514], [26459, 33391], [26460, 33392], [26472, 33404], [26484, 33416], [28474, 33511], [26449, 33381],
         [26455, 33387], [26473, 33405], [26462, 33394], [26474, 33406], [26468, 33400], [26486, 33418], [26480, 33412], [28476, 33513], [28481, 33518], [28589, 33684],
         [28591, 33686], [30057, 33797],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.master-recipes.master-recipes-8', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.master-recipes.master-recipes-8', [
         [29962, 33901], [29447, 33844], [29441, 33838], [29459, 33856], [29453, 33850], [30467, 33935], [30463, 33931], [30468, 33936], [29432, 33829], [29438, 33835], [29444, 33841],
         [29462, 33859], [29456, 33853], [30465, 33933], [30470, 33938], [30758, 34044], [32938, 34581], [31867, 34535], [32798, 34597], [31868, 34536], [32799, 34598],
         [33656, 34687], [31845, 34513], [31857, 34525], [31851, 34519], [31869, 34537], [32800, 34599], [31834, 34502], [31840, 34508], [31870, 34538], [31864, 34532],
         [32801, 34600], [31847, 34515], [31859, 34527], [31853, 34521], [31871, 34539], [32802, 34601], [33658, 34689], [33662, 34693], [36315, 34607], [36323, 34615],
         [36331, 34623],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.master-recipes.master-recipes-9', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.master-recipes.mr-9', [
         [35869, 34913], [35870, 34914], [35871, 34915], [36840, 35023], [36252, 34895], [35056, 34836], [35072, 34852], [35049, 34829], [35054, 34834], [35059, 34839], [35074, 34854],
         [35069, 34849], [35080, 34860], [35081, 34861], [35082, 34862], [35084, 34864], [35083, 34863], [36710, 34984], [36715, 34989], [38245, 35166], [36716, 34990],
         [36712, 34986], [36717, 34991], [38247, 35168], [38536, 35157],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.master-recipes.other-master-recipes', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.master-recipes.other-master-recipes', [
         [21800, 30333], [8546, 30500], [8553, 30503], [8547, 30501], [8548, 30502], [8554, 30504], [8555, 30505], [8452, 30490], [8453, 30491], [9291, 30846], [9285, 30842],
         [9288, 30845], [8383, 30477], [8456, 30494], [8457, 30495],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.special-recipes.class.class-quests', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.special-recipes.class.class-quests', [
         [17910, 32288], [17912, 32289], [17914, 32290], [17916, 32291],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.special-recipes.collectables.50-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.special-recipes.collectables.50-60', [
         [31030, 34107], [31031, 34108], [31032, 34109], [31033, 34110], [31034, 34111], [31035, 34112],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.special-recipes.collectables.61-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.special-recipes.collectables.61-70', [
         [31036, 34113], [31037, 34114], [31038, 34115], [31039, 34116], [31040, 34117],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.special-recipes.collectables.71-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.special-recipes.collectables.71-80', [
         [31041, 34118], [31042, 34119], [31043, 34120], [31044, 34121], [31656, 34427],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.special-recipes.collectables.81-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.special-recipes.collectables.81-90', [
         [35646, 34732], [35647, 34733], [35648, 34734], [35649, 34735], [35650, 34736], [36623, 34905],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.special-recipes.housing.fixtures', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.special-recipes.housing.fixtures', [
         [7148, 2015], [6445, 1695], [6444, 1694], [6443, 1693], [6473, 1720],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.special-recipes.housing.indoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.special-recipes.housing.indoor', [
         [6524, 1766], [6519, 1761], [8806, 2114], [6535, 1774], [6517, 1759], [6530, 1769], [6533, 1772], [6516, 1758], [6572, 1798], [6582, 1808], [7077, 1960],
         [7078, 1961], [7088, 1971], [17956, 3539], [17957, 3540], [28639, 4573], [28992, 4610],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.special-recipes.housing.outdoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.special-recipes.housing.outdoor', [
         [9749, 2188],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.special-recipes.housing.tables-and-rugs', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.special-recipes.housing.tables-rugs', [
         [6631, 1856], [6682, 1900], [6675, 1893], [6678, 1896], [6674, 1892], [6685, 1903], [7092, 1975], [35556, 5382],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.special-recipes.housing.tabletop', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.special-recipes.housing.tabletop', [
         [6655, 1880], [7966, 2025],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.special-recipes.housing.wall-mounted', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.special-recipes.housing.wall-mounted', [
         [6672, 1890],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.special-recipes.sidequests.other', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.special-recipes.sidequests.other', [
         [28823, 33628], [28819, 33624], [28829, 33634], [28844, 33649], [28849, 33654], [28854, 33659], [28859, 33664], [28864, 33669], [28869, 33674], [28874, 33679], [28820, 33625],
         [28825, 33630], [28830, 33635], [28835, 33640], [28840, 33645], [28855, 33660], [28860, 33665], [28875, 33680], [28812, 33617], [28817, 33622], [28822, 33627],
         [28827, 33632], [28832, 33637], [28837, 33642], [28842, 33647], [28847, 33652], [28852, 33657], [28867, 33672], [28872, 33677],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.special-recipes.sidequests.restoration', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.special-recipes.sidequests.restoration', [
         [31917, 34437], [31925, 34445], [31933, 34453], [31941, 34461], [31949, 34469], [31957, 34477], [31188, 34379], [31196, 34387], [31204, 34395], [31212, 34403], [31220, 34411],
         [31228, 34419], [29796, 33717], [29804, 33725], [29812, 33733], [29820, 33741], [29828, 33749], [29836, 33757], [28729, 33577], [28737, 33585], [28745, 33593],
         [28753, 33601], [28761, 33609],
-    ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.special-recipes.sidequests.skysteel-tools', [
+    ], true);
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.special-recipes.sidequests.skysteel-tools', [
         [29649, 33765], [29657, 33773], [31105, 34363], [31113, 34371], [31754, 34591],
     ]);
-    store.safeChangeKeys('logs.crafting-log.leatherworker.special-recipes.sidequests.splendorous-tools', [
+    store.safeChangeKeys('overall.logs.crafting-log.leatherworker.special-recipes.sidequests.splendorous-tools', [
         [38760, 35405], [38768, 35413], [39777, 35604], [39785, 35612], [41258, 35687], [41266, 35695],
     ]);
 }
 
 function migrateWeaver(store: ChangeStore): void {
-    store.deleteTasks('logs.crafting-log.weaver.level-based.11-15', [3969]);
-    store.deleteTasks('logs.crafting-log.weaver.level-based.16-20', [3974]);
-    store.deleteTasks('logs.crafting-log.weaver.level-based.21-25', [3987]);
-    store.deleteTasks('logs.crafting-log.weaver.level-based.26-30', [3996, 4001, 4006]);
-    store.deleteTasks('logs.crafting-log.weaver.level-based.31-35', [4013, 4000]);
-    store.deleteTasks('logs.crafting-log.weaver.level-based.36-40', [4030, 4033, 4036]);
-    store.deleteTasks('logs.crafting-log.weaver.level-based.41-45', [4063]);
-    store.deleteTasks('logs.crafting-log.weaver.level-based.46-50', [4079, 4078]);
-    store.deleteTasks('logs.crafting-log.weaver.level-based.51-55', [10859, 10817, 10943, 10901, 11970]);
-    store.deleteTasks('logs.crafting-log.weaver.level-based.56-60', [10820, 10946, 10904, 10947, 10905]);
-    store.deleteTasks('logs.crafting-log.weaver.level-based.6-10', [3963]);
-    store.deleteTasks('logs.crafting-log.weaver.level-based.61-65', [18246, 18240, 19727, 18402, 18396]);
-    store.deleteTasks('logs.crafting-log.weaver.level-based.66-70', [18534, 18546, 19737, 18714, 18708, 18948, 18942, 19747]);
-    store.deleteTasks('logs.crafting-log.weaver.level-based.71-75', [27211]);
-    store.deleteTasks('logs.crafting-log.weaver.master-recipes.master-recipes-2', [9057]);
-    store.deleteTasks('logs.crafting-log.weaver.master-recipes.master-recipes-3', [10822, 10948, 10781, 10865, 10823]);
-    store.deleteTasks('logs.crafting-log.weaver.master-recipes.master-recipes-4', [14753, 14752, 16682, 16676]);
-    store.deleteTasks('logs.crafting-log.weaver.master-recipes.master-recipes-5', [18990, 18996, 19002, 19014, 19008, 19026, 19020]);
-    store.deleteTasks('logs.crafting-log.weaver.master-recipes.master-recipes-6', [22915, 22920]);
-    store.deleteTasks('logs.crafting-log.weaver.master-recipes.master-recipes-8', [31848, 31860, 31854]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.level-based.11-15', [3969]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.level-based.16-20', [3974]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.level-based.21-25', [3987]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.level-based.26-30', [3996, 4001, 4006]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.level-based.31-35', [4013, 4000]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.level-based.36-40', [4030, 4033, 4036]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.level-based.41-45', [4063]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.level-based.46-50', [4079, 4078]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.level-based.51-55', [10859, 10817, 10943, 10901, 11970]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.level-based.56-60', [10820, 10946, 10904, 10947, 10905]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.level-based.6-10', [3963]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.level-based.61-65', [18246, 18240, 19727, 18402, 18396]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.level-based.66-70', [18534, 18546, 19737, 18714, 18708, 18948, 18942, 19747]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.level-based.71-75', [27211]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.master-recipes.master-recipes-2', [9057]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.master-recipes.master-recipes-3', [10822, 10948, 10781, 10865, 10823]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.master-recipes.master-recipes-4', [14753, 14752, 16682, 16676]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.master-recipes.master-recipes-5', [18990, 18996, 19002, 19014, 19008, 19026, 19020]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.master-recipes.master-recipes-6', [22915, 22920]);
+    store.deleteTasks('overall.logs.crafting-log.weaver.master-recipes.master-recipes-8', [31848, 31860, 31854]);
 
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.1-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.1-5', [
         [5333, 464], [5324, 465], [3515, 466], [3307, 467], [3308, 468], [2629, 470], [2996, 469], [2997, 471], [3275, 472], [2630, 474], [2961, 473],
         [2958, 476], [3276, 475], [3274, 477], [2652, 483], [2959, 478], [2960, 479], [3000, 484], [3311, 480], [3309, 481], [3312, 482],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.11-15', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.11-15', [
         [2658, 503], [3539, 504], [3538, 505], [5334, 506], [2663, 507], [3020, 508], [3019, 509], [3018, 510], [5325, 511], [2665, 512], [2666, 514],
         [27635, 4478], [3320, 513], [3022, 516], [3024, 518], [3321, 515], [3324, 519], [3327, 520], [2670, 522], [3543, 523], [3322, 521],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.16-20', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.16-20', [
         [2677, 526], [3023, 524], [3028, 527], [3325, 525], [3036, 530], [3038, 531], [27666, 4509], [3332, 529], [7025, 1594], [3041, 532], [2699, 535],
         [2700, 536], [3039, 534], [3334, 537], [3336, 538], [3064, 533], [3561, 541], [3341, 539], [3339, 540],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.21-25', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.21-25', [
         [3568, 543], [3050, 544], [3343, 545], [3800, 546], [5335, 547], [2719, 550], [3053, 548], [3052, 549], [3060, 551], [3570, 552], [5326, 553],
         [3065, 555], [3062, 556], [3575, 558], [3345, 554], [3348, 557], [2727, 559], [3349, 560], [3351, 561], [3354, 562],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.26-30', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.26-30', [
         [2729, 564], [27638, 4481], [3066, 563], [2733, 567], [3090, 568], [3355, 569], [2734, 570], [3092, 571], [3365, 574], [3823, 573], [2750, 577],
         [3077, 575], [3583, 576], [3104, 579], [3601, 581], [3363, 578], [3370, 580], [3831, 582],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.31-35', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.31-35', [
         [3106, 586], [27669, 4512], [3603, 585], [27670, 4513], [3372, 583], [27671, 4514], [5336, 587], [2763, 588], [3120, 589], [5327, 590], [3121, 591],
         [3607, 593], [3379, 592], [2776, 597], [27639, 4482], [3125, 596], [3383, 594], [3385, 595], [2779, 599], [3131, 600], [15929, 2894],
         [15476, 2918], [3397, 598], [27990, 4516], [15930, 2895], [15477, 2919],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.36-40', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.36-40', [
         [7026, 1595], [2778, 601], [3140, 603], [27673, 4517], [3399, 602], [2804, 604], [3404, 607], [3849, 606], [3076, 1364], [5337, 608], [2805, 609],
         [3144, 610], [3145, 611], [3621, 612], [3105, 1365], [5328, 613], [2806, 614], [2810, 616], [3147, 615], [3146, 1369], [27642, 4485],
         [3407, 1367], [3411, 1368], [2808, 617], [2814, 620], [2816, 621], [13257, 2838], [3408, 618], [3410, 619], [3137, 1370],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.41-45', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.41-45', [
         [13258, 2839], [3160, 623], [3162, 624], [27675, 4519], [3640, 1371], [3413, 622], [27676, 4520], [2785, 1372], [7027, 1596], [2829, 628], [2825, 629],
         [2832, 635], [27643, 4486], [13259, 2840], [3163, 626], [3176, 630], [3172, 633], [27644, 4487], [3645, 632], [27645, 4488], [3415, 625],
         [3425, 627], [3421, 631], [3429, 634], [3881, 1373], [5329, 640], [2835, 641], [3178, 639], [3647, 636], [3648, 637], [3427, 638],
@@ -1291,7 +1311,7 @@ function migrateWeaver(store: ChangeStore): void {
         [2882, 652], [13256, 2837], [17462, 2943], [3193, 649], [3201, 651], [3205, 653], [27677, 4521], [17463, 2944], [3680, 655], [3456, 650],
         [3454, 654], [17464, 2945], [2855, 1376],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.46-50', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.46-50', [
         [2886, 657], [3678, 656], [3681, 658], [3914, 1380], [2888, 1377], [2891, 660], [27678, 4522], [3467, 659], [3469, 1381], [27663, 4506], [27681, 4525],
         [3208, 1378], [3211, 661], [27679, 4523], [3696, 1382], [27680, 4524], [3473, 662], [27648, 4491], [2895, 1392], [3215, 1395], [3698, 1393],
         [3475, 1396], [3918, 1394], [6214, 1383], [6200, 1385], [5338, 1386], [7777, 1946], [2934, 1398], [2913, 1405], [7534, 1925], [15921, 2897],
@@ -1302,7 +1322,7 @@ function migrateWeaver(store: ChangeStore): void {
         [3261, 1436], [7548, 1937], [3727, 1426], [3728, 1427], [3501, 1430], [3502, 1433], [3503, 1434], [7549, 1938], [3946, 1425], [7539, 1930],
         [7543, 1934], [7540, 1931], [7536, 1927], [7541, 1932], [9289, 2068], [7542, 1933], [7559, 1940], [8200, 2070],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.51-55', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.51-55', [
         [12588, 2751], [12594, 2756], [10838, 2684], [10796, 2670], [10922, 2714], [10880, 2696], [10852, 2690], [10761, 2663], [10845, 2687], [10803, 2673], [10929, 2715],
         [10887, 2699], [13682, 2847], [13686, 2851], [10782, 2666], [10866, 2692], [10824, 2679], [10950, 2724], [10908, 2709], [13683, 2848], [10964, 2729],
         [10988, 2731], [11012, 2733], [11060, 2737], [11036, 2735], [12589, 2752], [10839, 2685], [10797, 2671], [10699, 2659], [10741, 2661], [10783, 2667],
@@ -1312,16 +1332,16 @@ function migrateWeaver(store: ChangeStore): void {
         [10931, 2717], [10889, 2701], [14927, 2883], [16597, 2921], [10784, 2668], [10868, 2694], [10826, 2681], [10952, 2726], [10910, 2711], [14925, 2881],
         [14929, 2885], [16909, 2922],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.56-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.56-60', [
         [12591, 2754], [11962, 2742], [13688, 2853], [11975, 2746], [12003, 2750], [12991, 2822], [12596, 2758], [10806, 2675], [10932, 2718], [10890, 2702], [10827, 2682],
         [10953, 2727], [10911, 2712], [12592, 2755], [10758, 2662], [10842, 2686], [10800, 2672], [10884, 2698], [10898, 2705], [10765, 2665], [10849, 2689],
         [10807, 2676], [10933, 2719], [10891, 2703], [10786, 2669], [10870, 2695], [10828, 2683], [10954, 2728], [10912, 2713],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.6-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.6-10', [
         [2655, 486], [2999, 485], [3001, 487], [3533, 488], [3010, 489], [3532, 490], [3008, 492], [3313, 493], [3314, 494], [3014, 495], [3013, 496],
         [3317, 497], [3315, 498], [2661, 500], [3015, 501], [3318, 499], [3316, 502],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.61-65', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.61-65', [
         [19974, 3634], [19975, 3635], [19612, 3457], [18062, 2985], [18074, 2997], [18086, 3009], [18080, 3003], [19613, 3458], [18063, 2986], [18075, 2998], [18064, 2987],
         [18076, 2999], [18088, 3011], [18082, 3005], [19615, 3460], [19620, 3465], [19977, 3636], [19978, 3637], [18217, 3062], [18229, 3074], [18241, 3086],
         [18243, 3088], [19622, 3467], [18218, 3063], [18230, 3075], [18224, 3069], [18242, 3087], [18236, 3081], [19623, 3468], [18220, 3065], [18232, 3077],
@@ -1329,13 +1349,13 @@ function migrateWeaver(store: ChangeStore): void {
         [18388, 3155], [18382, 3149], [18400, 3167], [18394, 3161], [19632, 3477], [18374, 3141], [18386, 3153], [18380, 3147], [18398, 3165], [18392, 3159],
         [19633, 3478], [19638, 3483], [18376, 3143], [19635, 3480], [19640, 3485],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.66-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.66-70', [
         [19983, 3640], [19984, 3641], [18535, 3224], [18553, 3242], [18547, 3236], [21936, 3744], [19642, 3487], [19647, 3492], [18536, 3225], [18554, 3243], [18548, 3237],
         [18538, 3227], [18556, 3245], [18550, 3239], [19645, 3490], [19650, 3495], [19987, 3642], [19988, 3643], [18685, 3296], [18697, 3308], [18691, 3302],
         [18709, 3320], [18703, 3314], [18692, 3303], [18710, 3321], [18676, 3287], [18694, 3305], [18712, 3323], [18706, 3317], [19652, 3497], [19657, 3502],
         [19653, 3498], [19658, 3503], [19659, 3504], [19655, 3500], [19660, 3505],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.71-75', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.71-75', [
         [27745, 3845], [27746, 3846], [25658, 3943], [25664, 3949], [25682, 3967], [25676, 3961], [27161, 4397], [27166, 4402], [25653, 3938], [25659, 3944], [25671, 3956],
         [25665, 3950], [25683, 3968], [25677, 3962], [27162, 4398], [27167, 4403], [25660, 3945], [25666, 3951], [25661, 3946], [25673, 3958], [25667, 3952],
         [25685, 3970], [25679, 3964], [27164, 4400], [27169, 4405], [27748, 3847], [27749, 3848], [25812, 4017], [25818, 4023], [25830, 4035], [25824, 4029],
@@ -1343,30 +1363,30 @@ function migrateWeaver(store: ChangeStore): void {
         [25845, 4050], [25839, 4044], [27751, 3849], [27752, 3850], [25978, 4103], [25996, 4121], [27171, 4407], [27172, 4408], [25980, 4105], [27173, 4409],
         [27174, 4410], [27179, 4415], [25979, 4104], [25997, 4122], [25981, 4106], [25993, 4118], [25987, 4112], [26005, 4130], [25999, 4124],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.76-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.76-80', [
         [27754, 3851], [27755, 3852], [26144, 4189], [26162, 4207], [26156, 4201], [26151, 4196], [26145, 4190], [26163, 4208], [26153, 4198], [26147, 4192], [26165, 4210],
         [26159, 4204], [26138, 4183], [27181, 4417], [27186, 4422], [26139, 4184], [26157, 4202], [26129, 4174], [26135, 4180], [26141, 4186], [27184, 4420],
         [27189, 4425], [27757, 3853], [27758, 3854], [26322, 4287], [26316, 4281], [26289, 4254], [26295, 4260], [26301, 4266], [26325, 4290], [26319, 4284],
         [26310, 4275], [26304, 4269], [26313, 4278], [26307, 4272], [27191, 4427], [27196, 4432], [27192, 4428], [27194, 4430], [27199, 4435],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.81-85', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.81-85', [
         [36208, 5323], [35404, 5187], [34131, 4779], [34126, 4774], [35405, 5188], [35410, 5193], [34132, 4780], [34127, 4775], [34103, 4751], [34108, 4756], [34113, 4761],
         [34123, 4771], [34118, 4766], [34133, 4781], [34128, 4776], [35407, 5190], [35412, 5195], [36209, 5324], [34260, 4833], [34270, 4843], [34265, 4838],
         [34280, 4853], [34275, 4848], [34266, 4839], [34281, 4854], [34276, 4849], [34267, 4840], [34282, 4855], [34277, 4850], [36210, 5325], [34410, 4908],
         [34420, 4918], [34425, 4923], [34431, 4929], [34426, 4924], [34413, 4911], [34423, 4921], [34418, 4916], [34433, 4931], [34428, 4926], [35414, 5197],
         [35419, 5202], [35415, 5198], [35420, 5203], [35417, 5200], [35422, 5205],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.level-based.86-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.level-based.86-90', [
         [36211, 5326], [34580, 5003], [34575, 4998], [34566, 4989], [34581, 5004], [34576, 4999], [34563, 4986], [34573, 4996], [34568, 4991], [34583, 5006], [34578, 5001],
         [35424, 5207], [35429, 5212], [35425, 5208], [35430, 5213], [35427, 5210], [35432, 5215], [36212, 5327], [34700, 5048], [34705, 5053], [34710, 5058],
         [34720, 5068], [34715, 5063], [34730, 5078], [34725, 5073], [34711, 5059], [34703, 5051], [34708, 5056], [34713, 5061], [34723, 5071], [34718, 5066],
         [34733, 5081], [34728, 5076], [35434, 5217], [35439, 5222], [35435, 5218], [35440, 5223], [35437, 5220], [35442, 5225],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.master-recipes.master-recipes-1', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.master-recipes.master-recipes-1', [
         [7617, 30302], [10373, 31157], [23900, 33198], [8037, 30422], [10105, 30930], [7609, 30295], [9517, 30924], [7498, 30259], [7510, 30271], [15462, 32069], [7511, 30272],
         [7505, 30266], [15463, 32070], [7495, 30256], [7501, 30262], [7513, 30274], [7507, 30268], [15465, 32072], [12231, 31190],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.master-recipes.master-recipes-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.master-recipes.mr-10', [
         [37834, 35106], [39308, 35480], [40404, 35629], [40408, 35633], [40412, 35637], [37773, 35057], [37783, 35067], [37778, 35062], [37793, 35077], [37788, 35072], [39309, 35481],
         [39313, 35485], [40405, 35630], [40409, 35634], [40413, 35638], [39314, 35486], [37765, 35049], [37770, 35054], [37775, 35059], [37785, 35069], [37780, 35064],
         [37795, 35079], [37790, 35074], [39311, 35483], [39315, 35487], [40406, 35631], [40410, 35635], [40414, 35639], [40380, 35642], [39470, 35489], [37699, 35129],
@@ -1374,11 +1394,11 @@ function migrateWeaver(store: ChangeStore): void {
         [39680, 35549], [39675, 35544], [39661, 35530], [39671, 35540], [39681, 35550], [39676, 35545], [41592, 35707], [41595, 35710], [39682, 35551], [39677, 35546],
         [39663, 35532], [39673, 35542], [39683, 35552], [39678, 35547], [41593, 35708], [39914, 35618], [41421, 35701],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.master-recipes.master-recipes-2', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.master-recipes.master-recipes-2', [
         [9362, 30863], [9042, 30880], [9485, 30911], [9043, 30881], [9486, 30912], [9073, 30899], [9063, 30893], [9303, 30907], [10052, 30936], [9044, 30882], [9487, 30913],
         [9045, 30883], [9488, 30914], [9075, 30901], [9065, 30895], [9301, 30905], [9305, 30909],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.master-recipes.master-recipes-3', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.master-recipes.master-recipes-3', [
         [2993, 31156], [10759, 31164], [10843, 31172], [10801, 31167], [10927, 31180], [11959, 31186], [10766, 31165], [10850, 31173], [10808, 31168], [10934, 31181], [10892, 31175],
         [11964, 31187], [15473, 31862], [10703, 31163], [10913, 31178], [11977, 31188], [12005, 31189], [15474, 31863], [13748, 31339], [10387, 31158], [10392, 31160],
         [14939, 31584], [16599, 32074], [17466, 32127], [13002, 31233], [13001, 31232], [10393, 31161], [13266, 31285], [13270, 31289], [13272, 31291], [14940, 31585],
@@ -1389,7 +1409,7 @@ function migrateWeaver(store: ChangeStore): void {
         [13026, 31247], [13031, 31252], [13036, 31257], [13041, 31262], [13046, 31267], [13051, 31272], [13643, 31305], [13649, 31310], [13655, 31315], [13667, 31325],
         [10830, 31171], [13661, 31320], [10956, 31185], [13679, 31335], [10914, 31179], [13673, 31330], [17032, 32125],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.master-recipes.master-recipes-4', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.master-recipes.master-recipes-4', [
         [14188, 31504], [15520, 31880], [13912, 31834], [15521, 31881], [13830, 31406], [13825, 31401], [13864, 31440], [13874, 31450], [13869, 31445], [13913, 31835], [15522, 31882],
         [15523, 31883], [15513, 31873], [13812, 31388], [13817, 31393], [13822, 31398], [13832, 31408], [13827, 31403], [13871, 31447], [13895, 31817], [13905, 31827],
         [13925, 31847], [13920, 31842], [13915, 31837], [14047, 31455], [14900, 31456], [14901, 31457], [14902, 31458], [14903, 31459], [15967, 32060], [15968, 32061],
@@ -1400,11 +1420,11 @@ function migrateWeaver(store: ChangeStore): void {
         [17324, 32170], [16680, 32013], [17339, 32185], [16674, 32007], [17334, 32180], [22560, 32997], [20470, 32328], [20475, 32333], [20471, 32329], [20476, 32334],
         [20473, 32331], [20477, 32335], [20545, 32431], [20546, 32432],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.master-recipes.master-recipes-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.master-recipes.master-recipes-5', [
         [20539, 32548], [21065, 32462], [19990, 32429], [19717, 32447], [19722, 32452], [19004, 32374], [19022, 32392], [19016, 32386], [19718, 32448], [19723, 32453], [21202, 32552],
         [21203, 32553], [21204, 32554], [19000, 32370], [19012, 32382], [19024, 32394], [19018, 32388], [19720, 32450], [19725, 32455],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.master-recipes.master-recipes-6', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.master-recipes.master-recipes-6', [
         [22997, 33061], [23373, 33065], [21937, 32656], [21941, 32680], [22998, 33062], [23001, 33066], [22999, 33063], [23002, 33067], [23030, 33008], [21915, 33009], [21867, 32676],
         [22580, 33004], [22568, 33000], [22543, 32987], [22545, 32988], [22493, 32638], [21735, 32595], [21729, 32589], [21747, 32607], [21741, 32601], [22905, 33041],
         [24591, 33205], [21724, 32584], [21736, 32596], [21730, 32590], [21748, 32608], [21742, 32602], [22906, 33042], [22911, 33047], [24004, 33194], [24592, 33206],
@@ -1413,260 +1433,260 @@ function migrateWeaver(store: ChangeStore): void {
         [23797, 33102], [23809, 33114], [23803, 33108], [23821, 33126], [23815, 33120], [23787, 33092], [23793, 33098], [23799, 33104], [23811, 33116], [23805, 33110],
         [23823, 33128], [23817, 33122], [23989, 33176], [24634, 33208], [27941, 33442], [27942, 33443],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.master-recipes.master-recipes-7', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.master-recipes.master-recipes-7', [
         [27760, 33331], [26470, 33402], [26464, 33396], [26482, 33414], [26476, 33408], [28472, 33509], [26471, 33403], [26465, 33397], [26483, 33415], [26477, 33409], [28473, 33510],
         [28478, 33515], [28588, 33683], [28590, 33685], [30055, 33795], [26466, 33398], [26478, 33410], [28479, 33516], [26461, 33393], [26467, 33399], [26485, 33417],
         [26479, 33411], [28475, 33512], [28480, 33517], [30056, 33796],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.master-recipes.master-recipes-8', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.master-recipes.master-recipes-8', [
         [29961, 33900], [29422, 33819], [29428, 33825], [29434, 33831], [29446, 33843], [29440, 33837], [29458, 33855], [29452, 33849], [30461, 33929], [30466, 33934], [29435, 33832],
         [30462, 33930], [30755, 34041], [29425, 33822], [29431, 33828], [29437, 33834], [29449, 33846], [29443, 33840], [29461, 33858], [29455, 33852], [30464, 33932],
         [30469, 33937], [30756, 34042], [30757, 34043], [32937, 34580], [31843, 34511], [31855, 34523], [31849, 34517], [33655, 34686], [33659, 34690], [31844, 34512],
         [31856, 34524], [31850, 34518], [31862, 34530], [33660, 34691], [31863, 34531], [33661, 34692], [31846, 34514], [31858, 34526], [31852, 34520], [33657, 34688],
         [31865, 34533], [35862, 34911], [35984, 34918], [36012, 34920], [36316, 34608], [36324, 34616], [36332, 34624],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.master-recipes.master-recipes-9', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.master-recipes.mr-9', [
         [36837, 35020], [35868, 34912], [36838, 35021], [36841, 35024], [36839, 35022], [36842, 35025], [36213, 34894], [35055, 34835], [35041, 34821], [35046, 34826], [35071, 34851],
         [35066, 34846], [35057, 34837], [35043, 34823], [35048, 34828], [35053, 34833], [35063, 34843], [35058, 34838], [35073, 34853], [35068, 34848], [36708, 34982],
         [36713, 34987], [38243, 35164], [36709, 34983], [36714, 34988], [38244, 35165], [36711, 34985], [38246, 35167], [38536, 35158],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.master-recipes.other-master-recipes', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.master-recipes.other-master-recipes', [
         [21800, 30340], [8540, 30498], [8541, 30499], [8557, 30506], [8558, 30507], [8559, 30508], [9283, 30840], [9286, 30843], [8560, 30509], [9284, 30841], [9287, 30844],
         [8561, 30510], [8459, 30497], [8458, 30496],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.special-recipes.class.class-quests', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.special-recipes.class.class-quests', [
         [17918, 32292], [17920, 32293], [17922, 32294], [17924, 32295],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.special-recipes.collectables.50-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.special-recipes.collectables.50-60', [
         [31045, 34122], [31046, 34123], [31047, 34124], [31048, 34125], [31049, 34126], [31050, 34127],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.special-recipes.collectables.61-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.special-recipes.collectables.61-70', [
         [31051, 34128], [31052, 34129], [31053, 34130], [31054, 34131], [31055, 34132],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.special-recipes.collectables.71-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.special-recipes.collectables.71-80', [
         [31056, 34133], [31057, 34134], [31058, 34135], [31059, 34136], [31657, 34428],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.special-recipes.collectables.81-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.special-recipes.collectables.81-90', [
         [35651, 34737], [35652, 34738], [35653, 34739], [35654, 34740], [35655, 34741], [36624, 34906],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.special-recipes.housing.fixtures', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.special-recipes.housing.fixtures', [
         [6356, 1606], [6358, 1608], [6429, 1679], [6359, 1609], [9766, 2189], [6361, 1611], [6431, 1681], [8007, 2055], [8008, 2056], [8009, 2057], [6433, 1683],
         [6450, 1700], [8011, 2059], [24538, 3810], [9767, 2190], [7139, 2009], [7149, 2016], [8010, 2058], [6362, 1612], [6364, 1614], [7140, 2010],
         [9768, 2191], [7150, 2017], [15165, 2891], [20716, 3714], [28126, 4561], [33249, 4696], [41083, 5570],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.special-recipes.housing.indoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.special-recipes.housing.indoor', [
         [6542, 1777], [6543, 1778], [6544, 1779], [15151, 2889], [6529, 1768], [6525, 1767], [6532, 1771], [6531, 1770], [6534, 1773], [6587, 1813], [7080, 1963],
         [7986, 2041], [7987, 2042], [7988, 2043], [8777, 2094], [8778, 2095], [7984, 2039], [17953, 3537], [20729, 3719], [24528, 3808], [20730, 3720],
         [30390, 4626], [41088, 5581], [37357, 5434],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.special-recipes.housing.outdoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.special-recipes.housing.outdoor', [
         [6482, 1729], [30388, 4624], [32242, 4670], [32243, 4671], [38618, 5487],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.special-recipes.housing.tables-and-rugs', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.special-recipes.housing.tables-rugs', [
         [6681, 1899], [6673, 1891], [6677, 1895], [6679, 1897], [24525, 3806], [7983, 2038], [6676, 1894], [8813, 2119], [6683, 1901], [8814, 2120], [6680, 1898],
         [7075, 1958], [7076, 1959], [7977, 2032], [15976, 2917], [7083, 1966], [7099, 1979], [6684, 1902], [7087, 1970], [8815, 2121], [35567, 5374],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.special-recipes.housing.tabletop', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.special-recipes.housing.tabletop', [
         [24522, 3803], [7085, 1968], [6654, 1879], [6653, 1878], [23896, 3773], [23880, 3767], [20745, 3732], [28147, 4569], [28142, 4566], [28983, 4606], [28976, 4604],
         [32233, 4657], [32234, 4658], [35559, 5381],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.special-recipes.housing.wall-mounted', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.special-recipes.housing.wall-mounted', [
         [27274, 4532], [32224, 4665], [30389, 4625], [38591, 5481], [38592, 5482],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.special-recipes.sidequests.other', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.special-recipes.sidequests.other', [
         [28824, 33629], [28834, 33639], [28839, 33644], [28811, 33616], [28816, 33621], [28821, 33626], [28826, 33631], [28831, 33636], [28836, 33641], [28841, 33646], [28846, 33651],
         [28851, 33656], [28856, 33661], [28861, 33666], [28866, 33671], [28871, 33676], [28876, 33681],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.special-recipes.sidequests.restoration', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.special-recipes.sidequests.restoration', [
         [31918, 34438], [31926, 34446], [31934, 34454], [31942, 34462], [31950, 34470], [31958, 34478], [31189, 34380], [31197, 34388], [31205, 34396], [31213, 34404], [31221, 34412],
         [31229, 34420], [29797, 33718], [29805, 33726], [29813, 33734], [29821, 33742], [29829, 33750], [29837, 33758], [28730, 33578], [28738, 33586], [28746, 33594],
         [28754, 33602], [28762, 33610],
-    ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.special-recipes.sidequests.skysteel-tools', [
+    ], true);
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.special-recipes.sidequests.skysteel-tools', [
         [29650, 33766], [29658, 33774], [31106, 34364], [31114, 34372], [31755, 34592],
     ]);
-    store.safeChangeKeys('logs.crafting-log.weaver.special-recipes.sidequests.splendorous-tools', [
+    store.safeChangeKeys('overall.logs.crafting-log.weaver.special-recipes.sidequests.splendorous-tools', [
         [38761, 35406], [38769, 35414], [39778, 35605], [39786, 35613], [41259, 35688], [41267, 35696],
     ]);
 }
 
 function migrateAlchemist(store: ChangeStore): void {
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.1-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.1-5', [
         [5487, 1101], [5489, 1102], [5503, 1103], [5470, 1104], [5475, 1105], [1958, 1106], [2143, 1107], [4564, 1108],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.11-15', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.11-15', [
         [7015, 1584], [1960, 1117], [4551, 1118], [2146, 1119], [4856, 1120], [5476, 1121], [5471, 1122], [4555, 1123],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.16-20', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.16-20', [
         [2147, 1124], [1961, 1125], [4597, 1126], [4595, 1127], [7013, 1582], [4596, 1128], [5483, 1129], [4594, 1130], [7016, 1585], [2149, 1131], [4598, 1132],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.21-25', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.21-25', [
         [1963, 1133], [4574, 1135], [4575, 1134], [4577, 1913], [4578, 1914], [2151, 1136], [4566, 1137], [4576, 1138], [5477, 1139], [2156, 1140], [5522, 1141],
         [4552, 1142],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.26-30', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.26-30', [
         [5484, 1143], [1965, 1144], [5512, 1145], [1967, 1146], [5485, 1147], [2160, 1148], [5472, 1149], [5505, 1150], [4568, 1151], [14241, 2870], [14242, 2871],
         [14243, 2872],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.31-35', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.31-35', [
         [4600, 1153], [4603, 1152], [12611, 2784], [4601, 1154], [4602, 1155], [5478, 1156], [4599, 1157], [2166, 1158], [1969, 1159], [4614, 1919], [4615, 1920],
         [4616, 1921], [4617, 1922], [4618, 1923], [4619, 1924], [9205, 2081], [2184, 1536], [4556, 1160], [4579, 1161], [4583, 1162],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.36-40', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.36-40', [
         [4580, 1163], [4582, 1164], [4581, 1165], [2169, 1537], [1971, 1538], [7014, 1583], [1976, 1166], [1974, 1167], [1978, 1168], [5517, 1169], [4567, 1170],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.41-45', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.41-45', [
         [5486, 1171], [7017, 1586], [2174, 1539], [5479, 1540], [4553, 1172], [4608, 1173], [2185, 1541], [1983, 1174], [1985, 1175], [1981, 1176], [4604, 1177],
         [4607, 1178],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.46-50', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.46-50', [
         [4569, 1181], [4605, 1180], [4606, 1179], [4584, 1542], [4588, 1543], [4586, 1545], [4587, 1544], [2189, 1546], [1987, 1547], [4585, 1548], [2047, 1554],
         [4557, 1183], [4559, 1182], [4620, 1561], [4621, 1564], [4622, 1565], [4623, 1563], [4624, 1566], [4625, 1562], [14229, 2867], [14234, 2868],
         [14235, 2869], [5473, 1550], [5480, 1549], [9224, 2086], [2202, 1555], [2049, 1557], [2201, 1556], [16911, 2913], [5474, 1553], [5481, 1552],
         [7620, 1944], [12610, 2783], [5575, 1551], [2211, 1559], [2051, 1558], [2212, 1560], [4554, 1568], [4558, 1567], [4560, 1569], [4609, 1915],
         [4610, 1916], [4611, 1917], [4612, 1918], [4613, 2019], [4626, 1570], [4627, 1573], [4628, 1574], [4629, 1572], [4630, 1575], [4631, 1571],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.51-55', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.51-55', [
         [12601, 2776], [10646, 2763], [10652, 2768], [12607, 2781], [5506, 2759], [12604, 2779], [10647, 2764], [10635, 2207], [10653, 2769], [12612, 2785], [12613, 2786],
         [12602, 2777], [12614, 2787], [12615, 2788], [12616, 2789], [5507, 2760], [10648, 2765], [10654, 2770],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.56-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.56-60', [
         [12605, 2780], [10637, 2762], [10649, 2766], [10655, 2771], [12608, 2782], [12603, 2778], [10650, 2767], [10656, 2772], [5508, 2761], [23218, 3759], [23349, 3760],
         [13637, 2845], [13638, 2846],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.6-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.6-10', [
         [4565, 1109], [5510, 1110], [2144, 1111], [1959, 1112], [5482, 1113], [5504, 1114], [5515, 1115], [2145, 1116],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.61-65', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.61-65', [
         [19904, 3604], [19901, 3601], [18043, 2966], [18044, 2967], [18199, 3044], [18200, 3045], [19885, 3590], [19891, 3596], [19892, 3597], [19893, 3598], [19894, 3599],
         [19895, 3600], [19902, 3602], [19906, 3606], [19882, 3587], [18355, 3122], [18356, 3123], [19883, 3588],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.66-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.66-70', [
         [19905, 3605], [19909, 3607], [18511, 3200], [18512, 3201], [19884, 3589], [19903, 3603], [18667, 3278], [18668, 3279], [19888, 3593], [19890, 3595], [23167, 3761],
         [23168, 3762], [19886, 3591], [19887, 3592], [19889, 3594],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.71-75', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.71-75', [
         [27765, 3855], [27766, 3856], [27955, 3857], [25638, 3923], [25639, 3924], [25798, 4003], [25799, 4004], [27960, 3876], [27767, 3858], [27768, 3859], [27769, 3860],
         [27770, 3861], [27771, 3862], [27772, 3863], [25958, 4083], [25959, 4084], [27775, 3864], [27957, 3873],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.76-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.76-80', [
         [27778, 3866], [27777, 3865], [26118, 4163], [26119, 4164], [27959, 3875], [27958, 3874], [27781, 3867], [26278, 4243], [26279, 4244], [27788, 3870], [27790, 3872],
         [27786, 3868], [27787, 3869], [27789, 3871], [33696, 4727],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.81-85', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.81-85', [
         [36237, 5333], [34090, 4738], [34091, 4739], [34240, 4813], [34241, 4814], [36227, 5328], [36228, 5329], [36229, 5330], [36230, 5331], [36231, 5332], [34390, 4888],
         [34391, 4889], [36239, 5335], [36240, 5336], [36114, 5293],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.level-based.86-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.level-based.86-90', [
         [34540, 4963], [34541, 4964], [36238, 5334], [36115, 5294], [34690, 5038], [34691, 5039], [36106, 5290], [36108, 5292], [36116, 5295], [38956, 5500], [36104, 5288],
         [36105, 5289], [36107, 5291],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.master-recipes.master-recipes-1', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.master-recipes.master-recipes-1', [
         [7618, 30303], [10373, 31192], [1666, 30277], [1806, 30279], [10406, 31193], [1875, 30280], [1736, 30278], [9225, 30825], [1945, 30281], [10468, 31195], [2136, 30283],
         [2193, 30284], [2048, 30282], [2194, 30285], [10530, 31196], [14244, 31510], [14247, 31513], [15823, 31954], [9373, 30933], [8038, 30423], [10106, 30931],
         [7807, 30296], [9515, 30922], [8043, 30408], [8044, 30409], [8045, 30410], [8046, 30411], [8047, 30412], [8048, 30413], [8049, 30414], [8050, 30415],
         [8051, 30416], [9256, 30826], [6141, 31799], [14250, 31514], [14251, 31515], [14252, 31516], [14253, 31517], [15819, 31950], [15820, 31951], [15821, 31952],
         [12914, 31211], [12916, 31213], [12918, 31215], [12915, 31212], [12917, 31214], [12919, 31216],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.master-recipes.master-recipes-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.master-recipes.mr-10', [
         [38629, 35163], [37835, 35107], [37836, 35108], [37837, 35109], [37838, 35110], [37839, 35111], [37752, 35036], [37753, 35037], [37840, 35112], [37841, 35113], [37842, 35114],
         [37843, 35115], [37844, 35116], [39596, 35490], [40703, 35626], [37701, 35133], [38932, 35459], [39244, 35497], [39722, 35580], [39723, 35581], [39724, 35582],
         [39725, 35583], [39726, 35584], [39640, 35509], [39641, 35510], [39727, 35585], [39728, 35586], [39729, 35587], [39730, 35588], [39731, 35589], [41655, 35731],
         [41656, 35732], [39916, 35622], [41423, 35705],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.master-recipes.master-recipes-2', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.master-recipes.master-recipes-2', [
         [9091, 30946], [15566, 31926], [9092, 30947], [15567, 31927], [10086, 30935], [14256, 31520], [14257, 31521], [14258, 31522], [14259, 31523], [14260, 31524], [14261, 31525],
         [14263, 31527], [14264, 31528], [14265, 31529], [16819, 32079], [16820, 32080], [16821, 32081], [17636, 32146],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.master-recipes.master-recipes-3', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.master-recipes.master-recipes-3', [
         [12622, 31206], [12623, 31207], [12624, 31208], [12625, 31209], [12626, 31210], [10651, 31197], [10657, 31198], [14230, 31506], [14231, 31507], [14239, 31508], [14240, 31509],
         [14245, 31511], [15805, 31947], [15806, 31948], [15807, 31949], [15825, 31955], [16806, 32113], [17855, 32434], [17856, 32435], [23324, 33013], [12606, 31200],
         [13591, 31296], [12051, 31199], [14246, 31512], [14254, 31518], [14255, 31519], [14262, 31526], [17637, 32147], [17638, 32148], [17639, 32149], [17640, 32150],
         [12617, 31201], [12618, 31202], [12619, 31203], [12620, 31204], [12621, 31205], [13091, 31283],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.master-recipes.master-recipes-4', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.master-recipes.master-recipes-4', [
         [15645, 31944], [14189, 31505], [16908, 32042], [14161, 31489], [15580, 31940], [15594, 32095], [15581, 31941], [15595, 32096], [22530, 32978], [13088, 31582], [22557, 32994],
         [14267, 31530], [15822, 31953], [16822, 32082], [15608, 32109], [17614, 32142], [24330, 33188], [25032, 33223], [25048, 33239], [13797, 31373], [13842, 31418],
         [15609, 32110], [17615, 32143], [24331, 33189], [25033, 33224], [25049, 33240], [13798, 31374], [13843, 31419], [14176, 31495], [14177, 31496], [14178, 31497],
         [14179, 31498], [14180, 31499], [13089, 31583], [17641, 32151], [14171, 31490], [14172, 31491], [14173, 31492], [14174, 31493], [14175, 31494], [16637, 31970],
         [16638, 31971], [16716, 32051], [16717, 32052], [16718, 32053], [16719, 32054], [16720, 32055], [17853, 32304], [17854, 32305],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.master-recipes.master-recipes-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.master-recipes.master-recipes-5', [
         [21289, 32549], [21290, 32550], [20754, 32466], [21083, 32457], [21084, 32458], [19896, 32420], [19897, 32421], [19898, 32422], [19899, 32423], [19900, 32424], [18979, 32349],
         [18980, 32350], [21052, 32461],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.master-recipes.master-recipes-6', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.master-recipes.master-recipes-6', [
         [30078, 33787], [30821, 34003], [30837, 34019], [30853, 34035], [33607, 34677], [37327, 35007], [30079, 33788], [30822, 34004], [30838, 34020], [30854, 34036], [33608, 34678],
         [37328, 35008], [22552, 32991], [22574, 32999], [21834, 32669], [23316, 33012], [23184, 33019], [22422, 32639], [22423, 32640], [22424, 32641], [22425, 32642],
         [22426, 32643], [23183, 33018], [21705, 32565], [21706, 32566], [22447, 32644], [22448, 32645], [22449, 32646], [22450, 32647], [22451, 32648], [22486, 32657],
         [22487, 32658], [23331, 33010], [23332, 33011], [24256, 33157], [24257, 33158], [24258, 33159], [24259, 33160], [24260, 33161], [23778, 33083], [23779, 33084],
         [24261, 33162], [24262, 33163], [24263, 33164], [24264, 33165], [24265, 33166], [24296, 33174], [25058, 33245], [27312, 33441], [27901, 33358], [27902, 33359],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.master-recipes.master-recipes-7', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.master-recipes.master-recipes-7', [
         [27791, 33332], [27792, 33333], [27793, 33334], [27794, 33335], [27795, 33336], [28715, 33530], [26438, 33370], [33897, 34704], [38551, 35144], [26439, 33371], [33898, 34705],
         [38552, 35145], [27995, 33337], [27996, 33338], [27997, 33339], [27998, 33340], [27999, 33341], [28887, 33688],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.master-recipes.master-recipes-8', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.master-recipes.master-recipes-8', [
         [39559, 35469], [41610, 35720], [39560, 35470], [41611, 35721], [30251, 33907], [30484, 33952], [29963, 33902], [29964, 33903], [29965, 33904], [29966, 33905], [29967, 33906],
         [29414, 33811], [29415, 33812], [29492, 33881], [29493, 33882], [29494, 33883], [29495, 33884], [29496, 33885], [31662, 34431], [31663, 34432], [33110, 34602],
         [32939, 34582], [32940, 34583], [32941, 34584], [32942, 34585], [32943, 34586], [31823, 34491], [31824, 34492], [31893, 34561], [31894, 34562], [31895, 34563],
         [31896, 34564], [31897, 34565], [33839, 34685], [36317, 34609], [36325, 34617], [36333, 34625], [36354, 34916], [36355, 34917],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.master-recipes.master-recipes-9', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.master-recipes.mr-9', [
         [37412, 35016], [37413, 35017], [36232, 34896], [36233, 34897], [36234, 34898], [36235, 34899], [36236, 34900], [35030, 34810], [35031, 34811], [36109, 34885], [36110, 34886],
         [36111, 34887], [36112, 34888], [36113, 34889], [37281, 35019], [38536, 35159],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.master-recipes.other-master-recipes', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.master-recipes.other-master-recipes', [
         [21800, 30347], [7059, 30934], [8374, 30468], [10410, 31194], [8375, 30469], [8373, 30467], [20366, 32314], [9236, 30849], [8376, 30470], [10473, 30996], [8378, 30472],
         [15916, 31959], [8362, 30456], [8371, 30465], [8379, 30473], [8389, 30483], [20367, 32315], [8387, 30481], [8377, 30471], [15914, 31957], [8363, 30457],
         [8372, 30466], [8380, 30474], [8390, 30484], [10534, 31055], [8381, 30475],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.class.class-quests', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.class.class-quests', [
         [17926, 32296], [17928, 32297], [17930, 32298], [17932, 32299],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.collectables.50-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.collectables.50-60', [
         [31060, 34137], [31061, 34138], [31062, 34139], [31063, 34140], [31064, 34141], [31065, 34142],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.collectables.61-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.collectables.61-70', [
         [31066, 34143], [31067, 34144], [31068, 34145], [31069, 34146], [31070, 34147],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.collectables.71-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.collectables.71-80', [
         [31071, 34148], [31072, 34149], [31073, 34150], [31074, 34151], [31658, 34429],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.collectables.81-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.collectables.81-90', [
         [35656, 34742], [35657, 34743], [35658, 34744], [35659, 34745], [35660, 34746], [36625, 34907],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.housing.fixtures', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.housing.fixtures', [
         [27269, 4528], [6430, 1680], [6347, 1597], [6357, 1607], [8013, 2061], [7132, 2005], [7142, 2012], [6457, 1707], [6350, 1600], [6360, 1610], [7131, 2004],
         [7141, 2011], [6353, 1603], [6363, 1613], [8004, 2052], [36881, 5402], [36897, 5418], [36887, 5408], [36865, 5386], [36868, 5389], [36871, 5392],
         [36874, 5395], [36877, 5398], [36880, 5401], [33248, 4695], [33250, 4697], [35811, 5358], [41082, 5569],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.housing.indoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.housing.indoor', [
         [6594, 1820], [6595, 1821], [9734, 2177], [7979, 2034], [7975, 2030], [8782, 2099], [7974, 2029], [33282, 4713], [28131, 4587], [30394, 4629], [32228, 4654],
         [32221, 4656],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.housing.other', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.housing.other', [
         [12214, 2774], [8844, 2150], [8845, 2151], [8846, 2152], [8847, 2153], [8848, 2154], [8849, 2155], [8850, 2156], [8851, 2157], [8852, 2158], [8853, 2159],
         [8854, 2160], [8855, 2161], [8856, 2162], [8857, 2163], [8858, 2164], [8859, 2165],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.housing.outdoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.housing.outdoor', [
         [6489, 1736], [6477, 1724], [6476, 1723], [6478, 1725], [6511, 1753], [6510, 1752], [6479, 1726], [6488, 1735], [6503, 1745], [6509, 1751], [6481, 1728],
         [24536, 3809], [6480, 1727], [7992, 2000], [6483, 1730], [7994, 2002], [8002, 2051], [6507, 1749], [6508, 1750], [8816, 2122], [21864, 3748],
         [22440, 3749], [9744, 2184], [12234, 2775], [13084, 2833], [14061, 2860], [12113, 2773], [17030, 2941], [17984, 3550], [13090, 2834], [28165, 4578],
         [28169, 4582], [28170, 4583], [28160, 4586], [29687, 4614], [30396, 4631], [32251, 4664], [32249, 4675], [33296, 4720], [32245, 4673], [33295, 4719],
         [37402, 5451], [40681, 5543], [41145, 5584],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.housing.tables-and-rugs', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.housing.tables-rugs', [
         [23893, 3771], [33276, 4708], [41111, 5579],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.housing.tabletop', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.housing.tabletop', [
         [24524, 3805], [6649, 1874], [6639, 1864], [6640, 1865], [6641, 1866], [6644, 1869], [6645, 1870], [6646, 1871], [6642, 1867], [24502, 3793], [28965, 4600],
         [28137, 4607], [28970, 4601], [32236, 4660], [35566, 5367], [35568, 5376], [35579, 5373], [39379, 5505], [40626, 5523], [39385, 5509], [41106, 5582],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.housing.wall-mounted', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.housing.wall-mounted', [
         [7970, 2026], [23894, 3772], [8807, 2115], [8809, 2117], [24508, 3796], [28975, 4603], [35563, 5363], [38577, 5477], [40646, 5536], [37359, 5437],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.others.ornaments-1', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.others.ornaments-1', [
         [14841, 2904], [14842, 2905], [14843, 2906], [14844, 2907], [14845, 2908], [14846, 2909], [14847, 2910], [14848, 2911], [14849, 2912], [16616, 2924], [16617, 2925],
         [16618, 2926], [16619, 2927], [16620, 2928], [16621, 2929], [16622, 2930], [16623, 2931], [16624, 2932], [17537, 2947], [17538, 2948], [17539, 2949],
         [17540, 2950], [17541, 2951], [17542, 2952], [17543, 2953], [17544, 2954], [17545, 2955], [20261, 3660], [20262, 3661], [20263, 3662], [20264, 3663],
@@ -1684,156 +1704,156 @@ function migrateAlchemist(store: ChangeStore): void {
         [35997, 5353], [35998, 5354], [35999, 5355], [37293, 5454], [37294, 5455], [37295, 5456], [37296, 5457], [37297, 5458], [37298, 5459], [37299, 5460],
         [37300, 5461], [37301, 5462],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.others.ornaments-2', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.others.ornaments-2', [
         [38560, 5463], [38561, 5464], [38562, 5465], [38563, 5466], [38564, 5467], [38565, 5468], [38566, 5469], [38567, 5470], [38568, 5471], [39316, 5491], [39317, 5492],
         [39318, 5493], [39319, 5494], [39320, 5495], [39321, 5496], [39322, 5497], [39323, 5498], [39324, 5499], [40395, 5549], [40396, 5550], [40397, 5551],
         [40398, 5552], [40399, 5553], [40400, 5554], [40401, 5555], [40402, 5556], [40403, 5557], [41509, 5560], [41510, 5561], [41511, 5562], [41512, 5563],
         [41513, 5564], [41514, 5565], [41515, 5566], [41516, 5567], [41517, 5568],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.sidequests.restoration', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.sidequests.restoration', [
         [31919, 34439], [31927, 34447], [31935, 34455], [31943, 34463], [31951, 34471], [31959, 34479], [31190, 34381], [31198, 34389], [31206, 34397], [31214, 34405], [31222, 34413],
         [31230, 34421], [29798, 33719], [29806, 33727], [29814, 33735], [29822, 33743], [29830, 33751], [29838, 33759], [28731, 33579], [28739, 33587], [28747, 33595],
         [28755, 33603], [28763, 33611],
-    ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.sidequests.skysteel-tools', [
+    ], true);
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.sidequests.skysteel-tools', [
         [29651, 33767], [29659, 33775], [31107, 34365], [31115, 34373], [31756, 34593],
     ]);
-    store.safeChangeKeys('logs.crafting-log.alchemist.special-recipes.sidequests.splendorous-tools', [
+    store.safeChangeKeys('overall.logs.crafting-log.alchemist.special-recipes.sidequests.splendorous-tools', [
         [38762, 35407], [38770, 35415], [39779, 35606], [39787, 35614], [41260, 35689], [41268, 35697],
     ]);
 }
 
 function migrateCulinarian(store: ChangeStore): void {
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.1-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.1-5', [
         [4847, 901], [4849, 902], [4848, 903], [4728, 904], [4650, 905], [4825, 906], [4850, 907], [4716, 908], [7767, 1945], [2588, 1496], [10332, 2790],
         [15425, 2892], [4639, 910], [4660, 911], [4696, 909],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.11-15', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.11-15', [
         [4857, 924], [4855, 925], [4640, 926], [4865, 927], [4735, 928], [4736, 929], [4641, 930], [4682, 931], [4863, 932], [4861, 933], [4708, 934],
         [4661, 936], [4666, 935],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.16-20', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.16-20', [
         [4859, 937], [4858, 938], [4642, 940], [4651, 939], [4754, 941], [4674, 942], [4683, 943], [4717, 944], [4697, 946], [4709, 945], [4667, 947],
         [2593, 1498], [6142, 1499], [4675, 949], [4690, 948],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.21-25', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.21-25', [
         [4643, 951], [4698, 953], [4722, 950], [4746, 952], [4652, 956], [4684, 955], [4730, 954], [4662, 958], [4699, 959], [4710, 957], [4749, 960],
         [2595, 1500], [4711, 961],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.26-30', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.26-30', [
         [4644, 964], [4731, 962], [4718, 963], [4653, 966], [4668, 967], [4723, 965], [4867, 968], [4676, 969], [4732, 970], [4827, 971], [4669, 972],
         [9615, 2140], [9618, 2142], [9624, 2146], [9627, 2148], [9621, 2144],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.31-35', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.31-35', [
         [4860, 973], [4685, 974], [4700, 975], [4645, 977], [4691, 976], [4670, 979], [4712, 978], [4654, 981], [4701, 980], [2598, 1501], [4719, 982],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.36-40', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.36-40', [
         [4756, 983], [4686, 984], [4677, 986], [4724, 985], [4663, 987], [4702, 988], [4692, 990], [4687, 989], [6143, 1502], [4733, 992], [4747, 991],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.41-45', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.41-45', [
         [4646, 993], [4671, 994], [4757, 995], [4720, 996], [4679, 1503], [4693, 997], [4664, 998], [4703, 1000], [4727, 999],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.46-50', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.46-50', [
         [4655, 1001], [4750, 1002], [4713, 1003], [4694, 1004], [4647, 1005], [4678, 1006], [4715, 1007], [6144, 1505], [4672, 1507], [4688, 1508], [4714, 1504],
         [4721, 1506], [4725, 1509], [4648, 1511], [4656, 1510], [4665, 1516], [4695, 1515], [4704, 1514], [7575, 1943], [7574, 1942], [4734, 1512],
         [4748, 1513], [9616, 2141], [9619, 2143], [9625, 2147], [9628, 2149], [9622, 2145],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.51-55', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.51-55', [
         [12894, 2820], [12845, 2796], [12881, 2817], [12866, 2813], [12861, 2809], [12895, 2821], [12853, 2802], [12850, 2800], [12842, 2794], [12855, 2804], [12867, 2814],
         [12862, 2810], [12846, 2797], [12890, 2818], [12849, 2799],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.56-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.56-60', [
         [12908, 2823], [13743, 2855], [12863, 2811], [12859, 2807], [12869, 2816], [12858, 2806], [12856, 2805], [12843, 2795], [12892, 2819], [12851, 2801], [12847, 2798],
         [12860, 2808], [12868, 2815], [12854, 2803], [12864, 2812],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.6-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.6-10', [
         [4852, 912], [4745, 913], [4826, 915], [4853, 914], [4658, 916], [4657, 918], [4689, 917], [4659, 919], [4673, 920], [4854, 921], [2589, 1497],
         [4681, 922], [4726, 923],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.61-65', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.61-65', [
         [19841, 3581], [19811, 3554], [19808, 3552], [19848, 3586], [19828, 3570], [19838, 3579], [19809, 3553], [19846, 3585], [19816, 3559], [19822, 3564], [19842, 3582],
         [19844, 3584], [19833, 3575], [19834, 3576], [19843, 3583], [19817, 3560], [19825, 3567], [19831, 3573],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.66-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.66-70', [
         [19826, 3568], [19832, 3574], [19839, 3580], [19837, 3578], [19820, 3562], [19835, 3577], [19813, 3556], [19821, 3563], [19823, 3565], [19807, 3551], [19819, 3561],
         [19829, 3571], [19814, 3557], [19827, 3569], [19824, 3566], [19830, 3572], [19815, 3558], [19812, 3555],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.71-75', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.71-75', [
         [27838, 3877], [27853, 3883], [27854, 3884], [27839, 3878], [27856, 3886], [27855, 3885], [27840, 3879], [27859, 3889], [27858, 3888], [27857, 3887], [27841, 3880],
         [27842, 3881], [27860, 3890], [27862, 3892], [27861, 3891], [27843, 3882], [27864, 3894], [27865, 3895], [27863, 3893],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.76-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.76-80', [
         [27866, 3896], [27867, 3897], [27869, 3899], [27868, 3898], [27870, 3900], [27871, 3901], [27872, 3902], [27875, 3905], [27873, 3903], [27874, 3904], [27876, 3906],
         [27877, 3907], [27878, 3908], [27879, 3909], [27882, 3912], [27881, 3911], [27880, 3910],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.81-85', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.81-85', [
         [36077, 5282], [36078, 5283], [36036, 5251], [36037, 5252], [36079, 5284], [36080, 5285], [36038, 5253], [36039, 5254], [36040, 5255], [36041, 5256], [36042, 5257],
         [36043, 5258], [36081, 5286], [36082, 5287], [36044, 5259], [36045, 5260], [36046, 5261], [36047, 5262],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.level-based.86-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.level-based.86-90', [
         [36048, 5263], [36049, 5264], [36050, 5265], [36051, 5266], [36052, 5267], [36053, 5268], [36054, 5269], [36055, 5270], [36056, 5271], [36057, 5272], [36058, 5273],
         [36059, 5274], [36060, 5275], [36061, 5276], [36062, 5277], [36063, 5278], [36064, 5279], [36065, 5280], [36066, 5281],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.master-recipes.master-recipes-1', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.master-recipes.master-recipes-1', [
         [7619, 30304], [10373, 31217], [8039, 30424], [10107, 30932], [9516, 30923], [7572, 30288], [7570, 30286], [9334, 30829], [7571, 30287], [9333, 30828], [7573, 30289],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.master-recipes.master-recipes-10', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.master-recipes.mr-10', [
         [38261, 35117], [38262, 35118], [38263, 35119], [38264, 35120], [38265, 35121], [38266, 35122], [38267, 35123], [38268, 35124], [38269, 35125], [38270, 35126], [37701, 35134],
         [38929, 35456], [38930, 35457], [39244, 35498], [39869, 35590], [39870, 35591], [39871, 35592], [39872, 35593], [39873, 35594], [39874, 35595], [39875, 35596],
         [39876, 35597], [39877, 35598], [39878, 35599], [39916, 35623], [41423, 35706],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.master-recipes.master-recipes-2', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.master-recipes.master-recipes-2', [
         [9332, 30866], [9331, 30865], [9335, 30867], [9330, 30864],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.master-recipes.master-recipes-3', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.master-recipes.master-recipes-3', [
         [12088, 31218], [12091, 31220], [12857, 31224], [13742, 31337], [12865, 31225], [12852, 31223], [12870, 31226], [13595, 31300], [12848, 31222], [12844, 31221], [12089, 31219],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.master-recipes.master-recipes-4', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.master-recipes.master-recipes-4', [
         [14141, 31481], [14139, 31479], [14140, 31480], [14136, 31476], [14137, 31477], [14138, 31478], [14135, 31475], [14134, 31474], [15651, 31946], [15650, 31945], [16711, 32046],
         [16713, 32048], [16714, 32049], [16712, 32047], [16715, 32050], [16709, 32044], [16710, 32045],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.master-recipes.master-recipes-5', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.master-recipes.master-recipes-5', [
         [19818, 32418], [21088, 32460], [21087, 32459], [19836, 32419], [19810, 32417],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.master-recipes.master-recipes-6', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.master-recipes.master-recipes-6', [
         [22435, 32652], [22434, 32651], [23188, 33017], [22437, 32654], [22432, 32649], [22433, 32650], [22445, 32655], [23186, 33015], [23185, 33014], [22436, 32653], [23187, 33016],
         [24276, 33169], [24280, 33173], [24275, 33168], [24277, 33170], [24279, 33172], [24278, 33171], [24274, 33167],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.master-recipes.master-recipes-7', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.master-recipes.master-recipes-7', [
         [27891, 33350], [27883, 33342], [27884, 33343], [27892, 33351], [28720, 33531], [27885, 33344], [27886, 33345], [28721, 33532], [27888, 33347], [27889, 33348], [27890, 33349],
         [27887, 33346],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.master-recipes.master-recipes-8', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.master-recipes.master-recipes-8', [
         [29497, 33886], [29498, 33887], [29499, 33888], [29500, 33889], [29501, 33890], [29502, 33891], [29503, 33892], [29504, 33893], [29505, 33894], [29506, 33895], [30481, 33949],
         [30482, 33950], [31898, 34566], [31899, 34567], [31900, 34568], [31901, 34569], [31902, 34570], [31903, 34571], [31904, 34572], [31905, 34573], [31906, 34574],
         [31907, 34575], [36318, 34610], [36326, 34618], [36334, 34626],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.master-recipes.master-recipes-9', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.master-recipes.mr-9', [
         [36067, 34875], [36068, 34876], [36069, 34877], [36070, 34878], [36071, 34879], [36072, 34880], [36073, 34881], [36074, 34882], [36075, 34883], [36076, 34884], [37282, 34992],
         [37283, 34993], [38536, 35160],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.special-recipes.class.class-quests', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.special-recipes.class.class-quests', [
         [17934, 32300], [17936, 32301], [17938, 32302], [17940, 32303],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.special-recipes.collectables.50-60', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.special-recipes.collectables.50-60', [
         [31075, 34152], [31076, 34153], [31077, 34154], [31078, 34155], [31079, 34156], [31080, 34157],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.special-recipes.collectables.61-70', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.special-recipes.collectables.61-70', [
         [31081, 34158], [31082, 34159], [31083, 34160], [31084, 34161], [31085, 34162],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.special-recipes.collectables.71-80', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.special-recipes.collectables.71-80', [
         [31086, 34163], [31087, 34164], [31088, 34165], [31089, 34166], [31659, 34430],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.special-recipes.collectables.81-90', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.special-recipes.collectables.81-90', [
         [35661, 34747], [35662, 34748], [35663, 34749], [35664, 34750], [35665, 34751], [36626, 34908],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.special-recipes.housing.indoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.special-recipes.housing.indoor', [
         [33259, 4699],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.special-recipes.housing.outdoor-furnishings', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.special-recipes.housing.outdoor', [
         [28166, 4579], [28167, 4580], [28168, 4581], [28171, 4584], [32246, 4674],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.special-recipes.housing.tabletop', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.special-recipes.housing.tabletop', [
         [9723, 2170], [27295, 4540], [8802, 2134], [9727, 2173], [24515, 3802], [7963, 2093], [23862, 3763], [9726, 2172], [7959, 2089], [23874, 3764], [15146, 2887],
         [8804, 2135], [7962, 2092], [9738, 2181], [9728, 2174], [7960, 2090], [7961, 2091], [9735, 2178], [12090, 2792], [21825, 3747], [21824, 3746],
         [13070, 2827], [14053, 2859], [17021, 2937], [12092, 2793], [12086, 2791], [14052, 2858], [17969, 3546], [17967, 3544], [17970, 3547], [17968, 3545],
@@ -1841,85 +1861,85 @@ function migrateCulinarian(store: ChangeStore): void {
         [30427, 4651], [32202, 4662], [32212, 4663], [32237, 4661], [35569, 5369], [35796, 5378], [38617, 5480], [37356, 5435], [37358, 5445], [38585, 5478],
         [39412, 5514], [40632, 5527], [40633, 5528], [40625, 5545], [41095, 5558], [41108, 5559],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.special-recipes.sidequests.restoration', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.special-recipes.sidequests.restoration', [
         [31920, 34440], [31928, 34448], [31936, 34456], [31944, 34464], [31952, 34472], [31960, 34480], [31191, 34382], [31199, 34390], [31207, 34398], [31215, 34406], [31223, 34414],
         [31231, 34422], [29799, 33720], [29807, 33728], [29815, 33736], [29823, 33744], [29831, 33752], [29839, 33760], [28732, 33580], [28740, 33588], [28748, 33596],
         [28756, 33604], [28764, 33612],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.special-recipes.sidequests.skysteel-tools', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.special-recipes.sidequests.skysteel-tools', [
         [29652, 33768], [29660, 33776], [31108, 34366], [31116, 34374], [31757, 34594],
     ]);
-    store.safeChangeKeys('logs.crafting-log.culinarian.special-recipes.sidequests.splendorous-tools', [
+    store.safeChangeKeys('overall.logs.crafting-log.culinarian.special-recipes.sidequests.splendorous-tools', [
         [38763, 35408], [38771, 35416], [39780, 35607], [39788, 35615], [41261, 35690], [41269, 35698],
     ]);
 }
 
 function migrateShared(store: ChangeStore): void {
-    store.safeChangeKeys('logs.crafting-log.shared.class.crystarium-deliveries', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.class.crystarium-deliveries', [
         [27240, 33462], [27241, 33463], [27242, 33464], [27245, 33466], [27243, 33465], [27247, 33467], [27232, 33444], [27233, 33445], [27234, 33446], [27237, 33448], [27235, 33447],
         [27239, 33449], [27248, 33480], [27249, 33481], [27250, 33482], [27253, 33484], [27251, 33483], [27255, 33485],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.class.studium-deliveries', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.class.studium', [
         [35592, 34770], [35593, 34771], [35594, 34772], [35840, 34774], [35595, 34773], [35842, 34775], [35588, 34752], [35589, 34753], [35590, 34754], [35836, 34756], [35591, 34755],
         [35838, 34757], [35596, 34788], [35597, 34789], [35598, 34790], [35844, 34792], [35599, 34791], [35846, 34793],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.custom-deliveries.adkiragh', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.custom-deliveries.adkiragh', [
         [24572, 33246], [24562, 33247], [24573, 33248], [24563, 33249], [24574, 33250], [24564, 33251], [24575, 33252], [24565, 33253], [24576, 33254], [24566, 33255],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.custom-deliveries.ameliance', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.custom-deliveries.ameliance', [
         [36664, 34921], [36665, 34922], [36666, 34923], [36667, 34924], [36668, 34925],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.custom-deliveries.anden', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.custom-deliveries.anden', [
         [38815, 35361], [38816, 35362], [38817, 35363], [38818, 35364], [38819, 35365],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.custom-deliveries.charlemend', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.custom-deliveries.charlemend', [
         [33224, 34627], [33225, 34628], [33226, 34629], [33227, 34630], [33228, 34631],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.custom-deliveries.ehll-tou', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.custom-deliveries.ehll-tou', [
         [30493, 33953], [30494, 33954], [30495, 33955], [30496, 33956], [30497, 33957],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.custom-deliveries.kai-shirr', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.custom-deliveries.kai-shirr', [
         [28194, 33533], [28195, 33534], [28196, 33535], [28197, 33536], [28198, 33537],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.custom-deliveries.kurenai', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.custom-deliveries.kurenai', [
         [23153, 32898], [23143, 32899], [23154, 32900], [23144, 32901], [23155, 32902], [23145, 32903], [23156, 32904], [23146, 32905], [23157, 32906], [23147, 32907],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.custom-deliveries.margrat', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.custom-deliveries.margrat', [
         [41063, 35643], [41064, 35644], [41065, 35645], [41066, 35646], [41067, 35647],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.custom-deliveries.mnaago', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.custom-deliveries.mnaago', [
         [21091, 32468], [20775, 32469], [21092, 32470], [20776, 32471], [21093, 32472], [20777, 32473], [21094, 32474], [20778, 32475], [21095, 32476], [20779, 32477],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.custom-deliveries.zhloe-aliapoh', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.custom-deliveries.zhloe-aliapoh', [
         [17554, 32192], [17549, 32193], [17555, 32194], [17550, 32195], [17556, 32196], [17551, 32197], [17727, 32198], [17552, 32199], [17728, 32200], [17553, 32201],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.dyes', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.dyes', [
         [5729, 30012], [5734, 30013], [5738, 30001], [5740, 30002], [5754, 30008], [5761, 30009], [5744, 30108], [5749, 30109], [5765, 30005], [5766, 30354], [5780, 30006],
         [5787, 30007], [5781, 30107], [5784, 30355], [5785, 30356], [5801, 30003], [5804, 30004], [5798, 30105], [5799, 30106], [5795, 30357], [5800, 30358],
         [5810, 30010], [5813, 30011], [5812, 30110], [5811, 30359],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.society-quests.dwarf-quests', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.tribal-quests.dwarf', [
         [31137, 34167], [31139, 34168], [31141, 34169], [31143, 34170], [31145, 34171], [31147, 34172], [31149, 34173], [31151, 34174], [31153, 34175], [31155, 34176], [31157, 34177],
         [31159, 34178], [31161, 34179], [31163, 34180], [31165, 34181], [31167, 34182], [31169, 34183], [31171, 34184], [31173, 34185], [31175, 34186], [31177, 34187],
         [31179, 34188], [31181, 34189], [31183, 34190],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.society-quests.ixal-quests', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.tribal-quests.ixal', [
         [8129, 30544], [8091, 30511], [8092, 30512], [8093, 30513], [8094, 30514], [8130, 30545], [8095, 30515], [8096, 30516], [8097, 30517], [8098, 30518], [8099, 30519],
         [8131, 30546], [8100, 30520], [8101, 30521], [8102, 30522], [8103, 30523], [8104, 30524], [8105, 30525], [8106, 30526], [8107, 30527], [8108, 30528],
         [8109, 30529], [8110, 30530], [8132, 30547], [8112, 30531], [8113, 30532], [8114, 30533], [8115, 30534], [8117, 30535], [8118, 30536], [8120, 30537],
         [8121, 30538], [8122, 30539], [8123, 30540], [8125, 30541], [8126, 30542], [8127, 30543], [8133, 30548], [8134, 30549],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.society-quests.loporrit-quests', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.tribal-quests.loporrit', [
         [38843, 35169], [38845, 35170], [38847, 35171], [38849, 35172], [38851, 35173], [38853, 35174], [38855, 35175], [38857, 35176], [38859, 35177], [38861, 35178], [38863, 35179],
         [38865, 35180], [38867, 35181], [38869, 35182], [38871, 35183], [38873, 35184], [38875, 35185], [38877, 35186], [38879, 35187], [38881, 35188], [38883, 35189],
         [38885, 35190], [38887, 35191], [38889, 35192],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.society-quests.moogle-quests', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.tribal-quests.moogle', [
         [15720, 31591], [15721, 31592], [15722, 31593], [15723, 31594], [15724, 31595], [15725, 31596], [15726, 31597], [15727, 31598], [15728, 31599], [15729, 31600], [15730, 31601],
         [15731, 31602], [15732, 31603], [15733, 31604], [15734, 31605], [15735, 31606], [15736, 31607], [15737, 31608], [15738, 31609], [15739, 31610], [15740, 31611],
         [15741, 31612], [15742, 31613], [15743, 31614], [15744, 31615], [15745, 31616],
     ]);
-    store.safeChangeKeys('logs.crafting-log.shared.society-quests.namazu-quests', [
+    store.safeChangeKeys('overall.logs.crafting-log.shared.tribal-quests.namazu', [
         [22720, 32682], [22725, 32695], [22726, 32696], [22727, 32697], [22728, 32698], [22729, 32699], [22721, 32683], [22730, 32700], [22731, 32701], [22732, 32702], [22734, 32703],
         [22735, 32704], [22739, 32705], [22722, 32684], [22733, 32685], [22737, 32686], [22738, 32687], [22740, 32688], [22723, 32689], [22736, 32690], [22743, 32691],
         [22744, 32692], [23173, 32693], [22724, 32694], [22741, 32706], [22742, 32707], [22745, 32708],

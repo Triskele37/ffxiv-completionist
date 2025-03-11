@@ -32,6 +32,8 @@ export function createDataGroup(json, parent: DataGroup): DataGroup {
         numericDecimal: 0,
     };
 
+    if(json.order) group.order = json.order;
+
     group.contentLink = getContentLink(group);
 
     initializeColumns(group, json);
