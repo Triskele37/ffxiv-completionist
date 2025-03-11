@@ -8,7 +8,7 @@ import { ConfigStore } from './ConfigStore';
  * Debug Flag
  * - shows the main window regardless of load state (allows console access)
  */
-const DEBUG_MODE = true;
+const DEBUG_MODE = false;
 
 export class WindowStore {
     private static isServe: boolean;
