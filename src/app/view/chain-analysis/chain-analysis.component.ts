@@ -12,6 +12,17 @@ type ChainIssue = {
     targetTask: Task;
 };
 
+/**
+ * Currently only handles
+ * - Single cSiblings chain
+ * - Single cPrev chain
+ *
+ * Could add support for:
+ * - cPrevAny
+ * - numeric completion
+ * - 'at' type chains
+ * - range chains
+ */
 @Component({
     selector: 'xiv-chain-analysis',
     templateUrl: './chain-analysis.component.html',
@@ -82,6 +93,7 @@ export class ChainAnalysisComponent {
         if(!task.cPrev) return;
         if(task.isNumericCompletion) return;
         if(task.completionFlag !== 'Y') return;
+        if(task.cPrevAny) return;
 
         if(Array.isArray(task.cPrev)) {
             task.cPrev.forEach((prevLink) => {
@@ -100,11 +112,12 @@ export class ChainAnalysisComponent {
     }
 
     getChainedTask(source: Task, link: Link) {
-        if(typeof link !== 'string') return;
-        if(link.match(/\.all$/)) return;
-        if(link.match(/\.[0-9]+-[0-9]+$/)) return;
+        const fullLink = typeof link === 'string' ? link : `${source._parent.fullStorageKey}.${link}`;
 
-        const task = getChildTask(this.svcData.data, link);
+        if(fullLink.match(/\.all$/)) return;
+        if(fullLink.match(/\.[0-9]+-[0-9]+$/)) return;
+
+        const task = getChildTask(this.svcData.data, fullLink);
 
         if(!task) {
             console.log('broken link:', link, source);
