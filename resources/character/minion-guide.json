@@ -23,7 +23,8 @@
             "name_fr": "Bébé Chocobo",
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.MINION_TRADER (2,400 CURRENCY.GIL)",
-            "patch": "2.0"
+            "patch": "2.0",
+            "cSiblings": ["ap.349"]
         },
         "x9": {
             "name_en": "Storm Hatchling",
@@ -73,7 +74,8 @@
             "name_fr": "Bébé Chocobo Grassouillet",
             "category": "@CATEGORY.GOLD_SAUCER",
             "source": "@20,000 CURRENCY.MGP",
-            "patch": "2.4"
+            "patch": "2.4",
+            "cSiblings": ["ap.435"]
         },
         "x237": {
             "name_en": "Castaway Chocobo Chick",
@@ -96,7 +98,8 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.ARR)",
             "patch": "2.2",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.364"]
         },
         "x114": {
             "name_en": "Wind-up Delivery Moogle",
@@ -138,7 +141,8 @@
             "name_fr": "Bombino",
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.MINION_TRADER (2,400 CURRENCY.GIL)",
-            "patch": "2.0"
+            "patch": "2.0",
+            "cSiblings": ["ap.350"]
         },
         "x5": {
             "name_en": "Baby Behemoth",
@@ -146,7 +150,8 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.ARR)",
             "patch": "2.0",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.351"]
         },
         "x148": {
             "name_en": "Behemoth Heir",
@@ -160,28 +165,32 @@
             "name_fr": "Bulbe De Morbol",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.5",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.352"]
         },
         "x13": {
             "name_en": "Tiny Rat",
             "name_fr": "Écureuil Nain",
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.CHACHAMUN (2,400 CURRENCY.GIL)",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.650"]
         },
         "x14": {
             "name_en": "Baby Bun",
             "name_fr": "Fungus Miniature",
             "category": "@CATEGORY.FATE",
             "source": "f.218",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.651"]
         },
         "x15": {
             "name_en": "Chigoe Larva",
             "name_fr": "Chigoe Apprivoisé",
             "category": "@CATEGORY.QUEST",
             "source": "q.66266",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.652"]
         },
         "x17": {
             "name_en": "Wide-eyed Fawn",
@@ -202,28 +211,32 @@
             "name_fr": "Joli Coeurl",
             "category": "@CATEGORY.QUEST",
             "source": "q.66827",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.361"]
         },
         "x20": {
             "name_en": "Black Coeurl",
             "name_fr": "Coeurl Noir",
             "category": "@CATEGORY.GOLD_SAUCER",
             "source": "@20,000 CURRENCY.MGP",
-            "patch": "2.51"
+            "patch": "2.51",
+            "cSiblings": ["ap.653"]
         },
         "x22": {
             "name_en": "Gravel Golem",
             "name_fr": "Golem Graveleux",
             "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.GSM)",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.541"]
         },
         "x23": {
             "name_en": "Wind-up Tonberry",
             "name_fr": "Tomberry Mécanique",
             "category": "@CATEGORY.TREASURE_HUNT",
             "source": ["d.174", "duty.treasure-hunt.maps.3", "duty.treasure-hunt.duties.0"],
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.362"]
         },
         "x24": {
             "name_en": "Tiny Tortoise",
@@ -237,7 +250,8 @@
             "name_fr": "Bébé Raptor",
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.BOUGHBURY_TRADER (2,400 CURRENCY.GIL)",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.654"]
         },
         "x26": {
             "name_en": "Baby Bat",
@@ -258,7 +272,8 @@
             "name_fr": "Lapin Mutin",
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.AURIANA (3 CURRENCY.TOMESTONE.POETIC)",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.353"]
         },
         "x29": {
             "name_en": "Wind-up Dullahan",
@@ -293,21 +308,24 @@
             "name_fr": "Mini-pampa",
             "category": "@CATEGORY.QUEST",
             "source": "q.66558",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.354"]
         },
         "x34": {
             "name_en": "Smallshell",
             "name_fr": "Coquépique",
             "category": "@CATEGORY.FATE",
             "source": "f.335",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.355"]
         },
         "x35": {
             "name_en": "Wolf Pup",
             "name_fr": "Bébé Chacal",
             "category": "@CATEGORY.QUEST",
             "source": "q.66826",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.360"]
         },
         "x36": {
             "name_en": "Beady Eye",
@@ -329,49 +347,56 @@
             "name_fr": "Dodu Dodo",
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.AURIANA (3 CURRENCY.TOMESTONE.POETIC)",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.380"]
         },
         "x48": {
             "name_en": "Kidragora",
             "name_fr": "Mini-mini-mandragore",
             "category": "@CATEGORY.GATHERING",
             "source": "@SOURCE.GATHERED (CLASS_JOB.BTN)",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.383"]
         },
         "x86": {
             "name_en": "Onion Prince",
             "name_fr": "Prince Oignon",
             "category": "@CATEGORY.OTHER",
             "source": "@SOURCE.GARDENING",
-            "patch": "2.3"
+            "patch": "2.3",
+            "cSiblings": ["ap.387"]
         },
         "x87": {
             "name_en": "Eggplant Knight",
             "name_fr": "Chevalier Aubergine",
             "category": "@CATEGORY.OTHER",
             "source": "@SOURCE.GARDENING",
-            "patch": "2.3"
+            "patch": "2.3",
+            "cSiblings": ["ap.388"]
         },
         "x88": {
             "name_en": "Garlic Jester",
             "name_fr": "Baron Ail",
             "category": "@CATEGORY.OTHER",
             "source": "@SOURCE.GARDENING",
-            "patch": "2.3"
+            "patch": "2.3",
+            "cSiblings": ["ap.389"]
         },
         "x89": {
             "name_en": "Tomato King",
             "name_fr": "Roi Tomate",
             "category": "@CATEGORY.OTHER",
             "source": "@SOURCE.GARDENING",
-            "patch": "2.3"
+            "patch": "2.3",
+            "cSiblings": ["ap.390"]
         },
         "x90": {
             "name_en": "Mandragora Queen",
             "name_fr": "Reine Mandragore",
             "category": "@CATEGORY.OTHER",
             "source": "@SOURCE.GARDENING",
-            "patch": "2.3"
+            "patch": "2.3",
+            "cSiblings": ["ap.391"]
         },
         "x159": {
             "name_en": "Pumpkin Butler",
@@ -386,14 +411,16 @@
             "name_fr": "Soldate Pachypodium",
             "category": "@CATEGORY.DEEP_DUNGEON",
             "source": "d.897",
-            "patch": "6.35"
+            "patch": "6.35",
+            "cSiblings": ["ap.534"]
         },
         "x38": {
             "name_en": "Coblyn Larva",
             "name_fr": "Larve De Coblyn",
             "category": "@CATEGORY.GATHERING",
             "source": "@SOURCE.GATHERED (CLASS_JOB.MIN)",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.645"]
         },
         "x39": {
             "name_en": "Wind-up Aldgoat",
@@ -407,14 +434,16 @@
             "name_fr": "Apkallu Nain",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.929",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.381"]
         },
         "x41": {
             "name_en": "Goobbue Sproutling",
             "name_fr": "Goobbue Goulu",
             "category": "@CATEGORY.QUEST",
             "source": "q.66386",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.356"]
         },
         "x42": {
             "name_en": "Bite-sized Pudding",
@@ -428,7 +457,8 @@
             "name_fr": "Bloc Démonique",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.14",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.357"]
         },
         "x45": {
             "name_en": "Mini Mole",
@@ -443,14 +473,16 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "2.1",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.382"]
         },
         "x47": {
             "name_en": "Slime Puddle",
             "name_fr": "Mini-gluant",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.18",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.436"]
         },
         "x56": {
             "name_en": "Minute Mindflayer",
@@ -463,28 +495,32 @@
                 "@SOURCE.EXPLORATION.WATERSIDE XIII",
                 "duty.treasure-hunt.duties.0"
             ],
-            "patch": "2.2"
+            "patch": "2.2",
+            "cSiblings": ["ap.655"]
         },
         "x57": {
             "name_en": "Tight-beaked Parrot",
             "name_fr": "Perroquet Taciturne",
             "category": ["@CATEGORY.DUNGEON", "@CATEGORY.TREASURE_HUNT"],
             "source": ["d.28", "duty.treasure-hunt.duties.0"],
-            "patch": "2.4"
+            "patch": "2.4",
+            "cSiblings": ["ap.384"]
         },
         "x80": {
             "name_en": "Baby Opo-opo",
             "name_fr": "Bébé Opo-opo",
             "category": "@CATEGORY.DUNGEON",
             "source": ["d.20", "d.174", "duty.treasure-hunt.duties.0"],
-            "patch": "2.2"
+            "patch": "2.2",
+            "cSiblings": ["ap.437"]
         },
         "x82": {
             "name_en": "Wind-up Succubus",
             "name_fr": "Poupée Succube",
             "category": "@CATEGORY.PURCHASE",
             "source": "@500 CURRENCY.SEAL.ALLIED",
-            "patch": "2.3"
+            "patch": "2.3",
+            "cSiblings": ["ap.385"]
         },
         "x83": {
             "name_en": "Zu Hatchling",
@@ -512,7 +548,8 @@
             "name_fr": "Petit Yéti",
             "category": "@CATEGORY.VENTURE",
             "source": "@SOURCE.EXPLORATION.WOODLAND XIV - XVIII",
-            "patch": "2.4"
+            "patch": "2.4",
+            "cSiblings": ["ap.438"]
         },
         "x420": {
             "name_en": "Wind-up Rudy",
@@ -527,28 +564,32 @@
             "name_fr": "Mini-momie",
             "category": "@CATEGORY.DUNGEON",
             "source": ["d.26", "d.174", "duty.treasure-hunt.duties.0"],
-            "patch": "2.4"
+            "patch": "2.4",
+            "cSiblings": ["ap.542"]
         },
         "x136": {
             "name_en": "Atrophied Atomos",
             "name_fr": "Atomos Atrophié",
             "category": "@CATEGORY.CRAFTING",
             "source": ["@SOURCE.CRAFTED (CLASS_JOB.ALC)", "@SOURCE.KUPO_OF_FORTUNE"],
-            "patch": "3.0"
+            "patch": "3.0",
+            "cSiblings": ["ap.394"]
         },
         "x139": {
             "name_en": "Gaelikitten",
             "name_fr": "Gaélichaton",
             "category": "@CATEGORY.DUNGEON",
             "source": ["d.37", "d.174", "duty.treasure-hunt.duties.0", "@SOURCE.KUPO_OF_FORTUNE"],
-            "patch": "3.0"
+            "patch": "3.0",
+            "cSiblings": ["ap.395"]
         },
         "x384": {
             "name_en": "Weatherproof Gaelicat",
             "name_fr": "Gaélichat Emmitouflé",
             "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.KUPO_OF_FORTUNE",
-            "patch": "5.31"
+            "patch": "5.31",
+            "cSiblings": ["ap.474"]
         },
         "x142": {
             "name_en": "Page 63",
@@ -581,7 +622,8 @@
                 "duty.treasure-hunt.duties.0",
                 "@800 CURRENCY.SCRIP.SKYBUILDERS"
             ],
-            "patch": "3.1"
+            "patch": "3.1",
+            "cSiblings": ["ap.369"]
         },
         "x372": {
             "name_en": "Paissa Patissier",
@@ -602,14 +644,16 @@
             "name_fr": "Poussin Oculus",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.1382",
-            "patch": "3.1"
+            "patch": "3.1",
+            "cSiblings": ["ap.439"]
         },
         "x166": {
             "name_en": "Korpokkur Kid",
             "name_fr": "Pon-korpokkur",
             "category": "@CATEGORY.DUNGEON",
             "source": ["d.41", "d.540"],
-            "patch": "3.1"
+            "patch": "3.1",
+            "cSiblings": ["ap.370"]
         },
         "x178": {
             "name_en": "Calca",
@@ -630,14 +674,16 @@
             "name_fr": "Morpho",
             "category": "@CATEGORY.DUNGEON",
             "source": ["d.140", "d.540", "@SOURCE.KUPO_OF_FORTUNE"],
-            "patch": "3.15"
+            "patch": "3.15",
+            "cSiblings": ["ap.440"]
         },
         "x181": {
             "name_en": "Poro Roggo",
             "name_fr": "Poro Roggo",
             "category": "@CATEGORY.QUEST",
             "source": "q.67768",
-            "patch": "3.15"
+            "patch": "3.15",
+            "cSiblings": ["ap.441"]
         },
         "x183": {
             "name_en": "Fenrir Pup",
@@ -645,7 +691,8 @@
             "category": "@CATEGORY.PVP",
             "source_en": "Crystalline Conflict: Random Drop",
             "source_fr": "Crystalline Conflict: obtention aléatoire",
-            "patch": "3.15"
+            "patch": "3.15",
+            "cSiblings": ["ap.543"]
         },
         "x189": {
             "name_en": "Calamari",
@@ -687,7 +734,8 @@
             "name_fr": "Marcassin",
             "category": "@CATEGORY.DUNGEON",
             "source": ["d.182", "d.540"],
-            "patch": "3.4"
+            "patch": "3.4",
+            "cSiblings": ["ap.399"]
         },
         "x226": {
             "name_en": "Bullpup",
@@ -813,7 +861,8 @@
             "name_fr": "Ko-yukinko",
             "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source": ["@SOURCE.LOCKBOX.HYDATOS", "@SOURCE.LOCKBOX.MOISTURE_WARPED"],
-            "patch": "4.55"
+            "patch": "4.55",
+            "cSiblings": ["ap.402"]
         },
         "x336": {
             "name_en": "Armadillo Bowler",
@@ -855,7 +904,8 @@
             "name_fr": "Bout-de-cochon",
             "category": "@CATEGORY.VENTURE",
             "source": ["@SOURCE.EXPLORATION.WOODLAND XXV", "@SOURCE.EXPLORATION.QUICK"],
-            "patch": "5.1"
+            "patch": "5.1",
+            "cSiblings": ["ap.405"]
         },
         "x355": {
             "name_en": "Mystic Weapon",
@@ -876,7 +926,8 @@
             "name_fr": "Mini-Leannan Sith",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.692",
-            "patch": "5.1"
+            "patch": "5.1",
+            "cSiblings": ["ap.544"]
         },
         "x366": {
             "name_en": "Sungold Talos",
@@ -911,7 +962,8 @@
             "name_fr": "Drippy",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.746",
-            "patch": "5.4"
+            "patch": "5.4",
+            "cSiblings": ["ap.442"]
         },
         "x406": {
             "name_en": "Trike",
@@ -939,14 +991,16 @@
             "name_fr": "Prince Pampa Sélénien",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.794",
-            "patch": "6.0"
+            "patch": "6.0",
+            "cSiblings": ["ap.734"]
         },
         "x443": {
             "name_en": "Royal Lunatender",
             "name_fr": "Roi Pampa Sélénien",
             "category": "@CATEGORY.TREASURE_HUNT",
             "source": "duty.treasure-hunt.duties.6",
-            "patch": "6.05"
+            "patch": "6.05",
+            "cSiblings": ["ap.736"]
         },
         "x434": {
             "name_en": "Tiny Troll",
@@ -960,7 +1014,8 @@
             "name_fr": "Glaneur Vert",
             "category": "@CATEGORY.VENTURE",
             "source": "@SOURCE.EXPLORATION.WOODLAND XXVI - XXVII",
-            "patch": "6.0"
+            "patch": "6.0",
+            "cSiblings": ["ap.482"]
         },
         "x442": {
             "name_en": "Wind-up Daivadipa",
@@ -1002,7 +1057,8 @@
             "name_fr": "Silkie-éponge",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.868",
-            "patch": "6.28"
+            "patch": "6.28",
+            "cSiblings": ["ap.472"]
         },
         "x468": {
             "name_en": "Sky Blue Back",
@@ -1044,7 +1100,8 @@
             "name_fr": "Biscoto-pampa",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.834",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cSiblings": ["ap.750"]
         },
         "x519": {
             "name_en": "Speaking Stone",
@@ -1137,21 +1194,24 @@
             "name_fr": "Mini-Oméga",
             "category": "@CATEGORY.RAID",
             "source": ["d.590", "d.594"],
-            "patch": "4.4"
+            "patch": "4.4",
+            "cSiblings": ["ap.489"]
         },
         "x344": {
             "name_en": "Wind-up Omega-M",
             "name_fr": "Oméga-M Miniature",
             "category": "@CATEGORY.WONDROUS_TAILS",
             "source": "@1 CURRENCY.KHLOE.SILVER",
-            "patch": "5.0"
+            "patch": "5.0",
+            "cSiblings": ["ap.487"]
         },
         "x345": {
             "name_en": "Wind-up Omega-F",
             "name_fr": "Oméga-F Miniature",
             "category": "@CATEGORY.WONDROUS_TAILS",
             "source": "@1 CURRENCY.KHLOE.SILVER",
-            "patch": "5.0"
+            "patch": "5.0",
+            "cSiblings": ["ap.488"]
         },
         "x341": {
             "name_en": "Eden Minor",
@@ -1235,21 +1295,24 @@
             "name_fr": "Azeyma Miniature",
             "category": "@CATEGORY.RAID",
             "source": "d.866",
-            "patch": "6.1"
+            "patch": "6.1",
+            "cSiblings": ["ap.538"]
         },
         "x474": {
             "name_en": "Wind-up Halone",
             "name_fr": "Halone Miniature",
             "category": "@CATEGORY.RAID",
             "source": "d.911",
-            "patch": "6.3"
+            "patch": "6.3",
+            "cSiblings": ["ap.539"]
         },
         "x494": {
             "name_en": "Wind-up Oschon",
             "name_fr": "Oschon Miniature",
             "category": "@CATEGORY.RAID",
             "source": "d.962",
-            "patch": "6.5"
+            "patch": "6.5",
+            "cSiblings": ["ap.540"]
         },
         "x528": {
             "name_en": "Nano Lord",
@@ -1270,14 +1333,16 @@
             "name_fr": "Ourson De Nanakko",
             "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
-            "patch": "2.4"
+            "patch": "2.4",
+            "cSiblings": ["ap.475"]
         },
         "x97": {
             "name_en": "Nutkin",
             "name_fr": "Écureuil Grignoteur",
             "category": "@CATEGORY.TREASURE_HUNT",
             "source": ["d.174", "duty.treasure-hunt.maps.5", "duty.treasure-hunt.duties.0"],
-            "patch": "2.3"
+            "patch": "2.3",
+            "cSiblings": ["ap.365"]
         },
         "x421": {
             "name_en": "Squirrel Emperor",
@@ -1300,42 +1365,48 @@
             "name_fr": "Gros Minou",
             "category": "@CATEGORY.VENTURE",
             "source": "@SOURCE.EXPLORATION.WATERSIDE XIV - XXV",
-            "patch": "2.4"
+            "patch": "2.4",
+            "cSiblings": ["ap.366"]
         },
         "x134": {
             "name_en": "Unicolt",
             "name_fr": "Bébé Licorne",
             "category": "@CATEGORY.DUNGEON",
             "source": ["d.34", "d.174", "duty.treasure-hunt.duties.0"],
-            "patch": "3.0"
+            "patch": "3.0",
+            "cSiblings": ["ap.656"]
         },
         "x141": {
             "name_en": "Lesser Panda",
             "name_fr": "Petit Panda Roux",
             "category": "@CATEGORY.DUNGEON",
             "source": ["d.39", "d.174", "duty.treasure-hunt.duties.0"],
-            "patch": "3.0"
+            "patch": "3.0",
+            "cSiblings": ["ap.396"]
         },
         "x146": {
             "name_en": "Gestahl",
             "name_fr": "Gestahl",
             "category": "@CATEGORY.VENTURE",
             "source": ["d.540", "@SOURCE.EXPLORATION.WATERSIDE XVIII, XIX"],
-            "patch": "3.0"
+            "patch": "3.0",
+            "cSiblings": ["ap.657"]
         },
         "x197": {
             "name_en": "Dwarf Rabbit",
             "name_fr": "Lapin Nain",
             "category": "@CATEGORY.DEEP_DUNGEON",
             "source": ["d.540", "duty.treasure-hunt.duties.0", "@SOURCE.KUPO_OF_FORTUNE"],
-            "patch": "3.3"
+            "patch": "3.3",
+            "cSiblings": ["ap.545"]
         },
         "x242": {
             "name_en": "Fox Kit",
             "name_fr": "Bébé Renard",
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.ESCHINA (3 CURRENCY.FATE.FOX)",
-            "patch": "4.0"
+            "patch": "4.0",
+            "cSiblings": ["ap.403"]
         },
         "x243": {
             "name_en": "Tora-jiro",
@@ -1348,37 +1419,33 @@
             "name_en": "Bom Boko",
             "name_fr": "Bunbuku",
             "category": "@CATEGORY.VENTURE",
-            "source": [
-                "d.540",
-                "@SOURCE.EXPLORATION.FIELD XX, XXII",
-                "@SOURCE.EXPLORATION.QUICK"
-            ],
-            "patch": "4.0"
+            "source": ["d.540", "@SOURCE.EXPLORATION.FIELD XX, XXII", "@SOURCE.EXPLORATION.QUICK"],
+            "patch": "4.0",
+            "cSiblings": ["ap.443"]
         },
         "x267": {
             "name_en": "Mameshiba",
             "name_fr": "Mame Shiba",
             "category": "@CATEGORY.VENTURE",
             "source": ["@SOURCE.EXPLORATION.HIGHLAND XXII", "@SOURCE.EXPLORATION.QUICK"],
-            "patch": "4.1"
+            "patch": "4.1",
+            "cSiblings": ["ap.374"]
         },
         "x333": {
             "name_en": "Black Hayate",
             "name_fr": "Kuro Shiba",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.676",
-            "patch": "5.0"
+            "patch": "5.0",
+            "cSiblings": ["ap.476"]
         },
         "x271": {
             "name_en": "Koala Joey",
             "name_fr": "Bébé Koala",
             "category": "@CATEGORY.VENTURE",
-            "source": [
-                "@SOURCE.EXPLORATION.WOODLAND XXII",
-                "@SOURCE.LOCKBOX.BOZJA",
-                "@SOURCE.LOCKBOX.ZADNOR"
-            ],
-            "patch": "4.1"
+            "source": ["@SOURCE.EXPLORATION.WOODLAND XXII", "@SOURCE.LOCKBOX.BOZJA", "@SOURCE.LOCKBOX.ZADNOR"],
+            "patch": "4.1",
+            "cSiblings": ["ap.477"]
         },
         "x279": {
             "name_en": "White Whittret",
@@ -1405,23 +1472,17 @@
             "name_en": "Capybara Pup",
             "name_fr": "Bébé Cabiaï",
             "category": "@CATEGORY.TREASURE_HUNT",
-            "source": [
-                "duty.treasure-hunt.duties.1",
-                "duty.treasure-hunt.duties.2",
-                "duty.treasure-hunt.duties.3"
-            ],
-            "patch": "4.4"
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2", "duty.treasure-hunt.duties.3"],
+            "patch": "4.4",
+            "cSiblings": ["ap.478"]
         },
         "x330": {
             "name_en": "Hedgehoglet",
             "name_fr": "Hérisson Mignon",
             "category": "@CATEGORY.TREASURE_HUNT",
-            "source": [
-                "duty.treasure-hunt.duties.1",
-                "duty.treasure-hunt.duties.2",
-                "duty.treasure-hunt.duties.3"
-            ],
-            "patch": "4.5"
+            "source": ["duty.treasure-hunt.duties.1", "duty.treasure-hunt.duties.2", "duty.treasure-hunt.duties.3"],
+            "patch": "4.5",
+            "cSiblings": ["ap.444"]
         },
         "x334": {
             "name_en": "Chameleon",
@@ -1435,14 +1496,16 @@
             "name_fr": "Repulu",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.961",
-            "patch": "6.51"
+            "patch": "6.51",
+            "cSiblings": ["ap.643"]
         },
         "x337": {
             "name_en": "The Great Serpent of Ronka",
             "name_fr": "Serpent Marin De Ronka ?",
             "category": "@CATEGORY.QUEST",
             "source": "q.69018",
-            "patch": "5.0"
+            "patch": "5.0",
+            "cSiblings": ["ap.375"]
         },
         "x369": {
             "name_en": "The Behelmeted Serpent of Ronka",
@@ -1478,14 +1541,16 @@
             "name_fr": "Suricate",
             "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
             "source": "@VOYAGE.COLDTOE_ISLE",
-            "patch": "5.1"
+            "patch": "5.1",
+            "cSiblings": ["ap.546"]
         },
         "x387": {
             "name_en": "Sand Fox",
             "name_fr": "Renard Des Sables",
             "category": "@CATEGORY.FAUX_HOLLOWS",
             "source": "@400 CURRENCY.FAUX_LEAF",
-            "patch": "5.3"
+            "patch": "5.3",
+            "cSiblings": ["ap.406"]
         },
         "x409": {
             "name_en": "Anteater",
@@ -1499,14 +1564,16 @@
             "name_fr": "Drapo",
             "category": "@CATEGORY.VENTURE",
             "source": "@SOURCE.EXPLORATION.FIELD XXVI",
-            "patch": "6.0"
+            "patch": "6.0",
+            "cSiblings": ["ap.479"]
         },
         "x428": {
             "name_en": "Nagxian Cat",
             "name_fr": "Chat Nagxien",
             "category": "@CATEGORY.THE_HUNT",
             "source": "@VENDOR.HUNT_TRADER - PLACE.OLD_SHARLAYAN / PLACE.RADZ_AT_HAN (800 CURRENCY.HUNT.SACK_OF_NUTS)",
-            "patch": "6.0"
+            "patch": "6.0",
+            "cSiblings": ["ap.731"]
         },
         "x431": {
             "name_en": "Hippo Calf",
@@ -1520,7 +1587,8 @@
             "name_fr": "Crabe Du Crabe",
             "category": "@CATEGORY.VENTURE",
             "source": "@SOURCE.EXPLORATION.WATERSIDE XXVI - XXVII",
-            "patch": "6.0"
+            "patch": "6.0",
+            "cSiblings": ["ap.733"]
         },
         "x435": {
             "name_en": "Caduceus",
@@ -1541,14 +1609,16 @@
             "name_fr": "Momonga",
             "category": "@CATEGORY.FAUX_HOLLOWS",
             "source": "@400 CURRENCY.FAUX_LEAF",
-            "patch": "6.28"
+            "patch": "6.28",
+            "cSiblings": ["ap.445"]
         },
         "x448": {
             "name_en": "Chewy",
             "name_fr": "Chihuaouaf",
             "category": "@CATEGORY.VENTURE",
             "source": "@SOURCE.EXPLORATION.WOODLAND XXVIII",
-            "patch": "6.1"
+            "patch": "6.1",
+            "cSiblings": ["ap.473"]
         },
         "x464": {
             "name_en": "Sewer Skink",
@@ -1562,35 +1632,40 @@
             "name_fr": "Corgi",
             "category": "@CATEGORY.FAUX_HOLLOWS",
             "source": "@400 CURRENCY.FAUX_LEAF",
-            "patch": "6.3"
+            "patch": "6.3",
+            "cSiblings": ["ap.480"]
         },
         "x483": {
             "name_en": "Chimpanzee",
             "name_fr": "Chimpanzé",
             "category": "@CATEGORY.FAUX_HOLLOWS",
             "source": "@400 CURRENCY.FAUX_LEAF",
-            "patch": "6.4"
+            "patch": "6.4",
+            "cSiblings": ["ap.649"]
         },
         "x486": {
             "name_en": "Shiromaru",
             "name_fr": "Shiromaru",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.945",
-            "patch": "6.45"
+            "patch": "6.45",
+            "cSiblings": ["ap.535"]
         },
         "x490": {
             "name_en": "Kuromaru",
             "name_fr": "Kuromaru",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.945",
-            "patch": "6.45"
+            "patch": "6.45",
+            "cSiblings": ["ap.536"]
         },
         "x509": {
             "name_en": "Alpaca Cria",
             "name_fr": "Cria Alpaga",
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.URQOPACHA (700 CURRENCY.FATE.GEMSTONE)",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cSiblings": ["ap.745"]
         },
         "x511": {
             "name_en": "Not-so-bighorn",
@@ -1604,7 +1679,8 @@
             "name_fr": "Ilyikty'i",
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.YAK_TEL (700 CURRENCY.FATE.GEMSTONE)",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cSiblings": ["ap.746"]
         },
         "x514": {
             "name_en": "Squeak the Coyote",
@@ -1612,14 +1688,16 @@
             "category": "@CATEGORY.PVP",
             "source": "@SOURCE.SERIES_REWARD",
             "patch": "7.0",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.748"]
         },
         "x518": {
             "name_en": "Bluecoat Cat",
             "name_fr": "Chat Gris Bleuté",
             "category": "@CATEGORY.THE_HUNT",
             "source": "@VENDOR.HUNT_TRADER - PLACE.TULIYOLLAL (800 CURRENCY.HUNT.SACK_OF_NUTS)",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cSiblings": ["ap.751"]
         },
         "x532": {
             "name_en": "Shshuye",
@@ -1640,7 +1718,8 @@
             "name_fr": "Fretin Assassin",
             "category": "@CATEGORY.OTHER",
             "source": "@SOURCE.DESYNTHESIS (logs.gathering.fishing-guide.fishing.page-3.82)",
-            "patch": "2.4"
+            "patch": "2.4",
+            "cSiblings": ["ap.547"]
         },
         "x241": {
             "name_en": "Odder Otter",
@@ -1653,7 +1732,8 @@
                 "@SOURCE.EXPLORATION.WATERSIDE XIX - XXII",
                 "@SOURCE.EXPLORATION.QUICK"
             ],
-            "patch": "4.0"
+            "patch": "4.0",
+            "cSiblings": ["ap.371"]
         },
         "x329": {
             "name_en": "Abroader Otter",
@@ -1680,21 +1760,24 @@
             "name_fr": "Ghido",
             "category": "@CATEGORY.DUNGEON",
             "source": ["d.238", "d.540"],
-            "patch": "4.0"
+            "patch": "4.0",
+            "cSiblings": ["ap.446"]
         },
         "x272": {
             "name_en": "Salt & Pepper Seal",
             "name_fr": "Bébé Phoque",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.279",
-            "patch": "4.1"
+            "patch": "4.1",
+            "cSiblings": ["ap.447"]
         },
         "x273": {
             "name_en": "Axolotl Eft",
             "name_fr": "Axolotl",
             "category": "@CATEGORY.VENTURE",
             "source": ["@SOURCE.EXPLORATION.WATERSIDE XXII", "@SOURCE.EXPLORATION.QUICK"],
-            "patch": "4.1"
+            "patch": "4.1",
+            "cSiblings": ["ap.448"]
         },
         "x283": {
             "name_en": "Aurelia Polyp",
@@ -1714,7 +1797,8 @@
             "name_fr": "Ornithorynque Nain",
             "category": "@CATEGORY.THE_HUNT",
             "source": "@800 CURRENCY.HUNT.SACK_OF_NUTS",
-            "patch": "5.0"
+            "patch": "5.0",
+            "cSiblings": ["ap.449"]
         },
         "x359": {
             "name_en": "Domakin",
@@ -1728,7 +1812,8 @@
             "name_fr": "Requin Commandeur",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.2560",
-            "patch": "5.2"
+            "patch": "5.2",
+            "cSiblings": ["ap.377"]
         },
         "x378": {
             "name_en": "Laladile",
@@ -1742,14 +1827,16 @@
             "name_fr": "Momo Ramora",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.2757",
-            "patch": "5.4"
+            "patch": "5.4",
+            "cSiblings": ["ap.407"]
         },
         "x410": {
             "name_en": "Dolphin Calf",
             "name_fr": "Bébé Dauphin",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.2889",
-            "patch": "5.5"
+            "patch": "5.5",
+            "cSiblings": ["ap.729"]
         },
         "x469": {
             "name_en": "Suzusaurus",
@@ -1776,13 +1863,9 @@
             "name_en": "Bluebird",
             "name_fr": "Oiseau Bleu",
             "category": "@CATEGORY.TREASURE_HUNT",
-            "source": [
-                "d.174",
-                "duty.treasure-hunt.maps.4",
-                "duty.treasure-hunt.maps.8",
-                "duty.treasure-hunt.duties.0"
-            ],
-            "patch": "2.1"
+            "source": ["d.174", "duty.treasure-hunt.maps.4", "duty.treasure-hunt.maps.8", "duty.treasure-hunt.duties.0"],
+            "patch": "2.1",
+            "cSiblings": ["ap.379"]
         },
         "x121": {
             "name_en": "Doman Magpie",
@@ -1797,49 +1880,56 @@
             "name_fr": "Bébé Hibou",
             "category": "@CATEGORY.DUNGEON",
             "source": ["d.35", "d.174", "duty.treasure-hunt.duties.0"],
-            "patch": "3.0"
+            "patch": "3.0",
+            "cSiblings": ["ap.548"]
         },
         "x138": {
             "name_en": "Ugly Duckling",
             "name_fr": "Vilain Petit Canard",
             "category": "@CATEGORY.DUNGEON",
             "source": ["d.33", "d.174", "duty.treasure-hunt.duties.0", "@SOURCE.KUPO_OF_FORTUNE"],
-            "patch": "3.0"
+            "patch": "3.0",
+            "cSiblings": ["ap.450"]
         },
         "x162": {
             "name_en": "Hunting Hawk",
             "name_fr": "Buse Chasseuse",
             "category": "@CATEGORY.DEEP_DUNGEON",
             "source": ["d.540", "@800 CURRENCY.SCRIP.SKYBUILDERS"],
-            "patch": "3.1"
+            "patch": "3.1",
+            "cSiblings": ["ap.549"]
         },
         "x164": {
             "name_en": "Penguin Prince",
             "name_fr": "Manchot Prince",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.1385",
-            "patch": "3.1"
+            "patch": "3.1",
+            "cSiblings": ["ap.397"]
         },
         "x247": {
             "name_en": "Road Sparrow",
             "name_fr": "Moineau Voyageur",
             "category": "@CATEGORY.DUNGEON",
             "source": ["d.240", "d.540"],
-            "patch": "4.0"
+            "patch": "4.0",
+            "cSiblings": ["ap.400"]
         },
         "x349": {
             "name_en": "Shoebill",
             "name_fr": "Bec-en-sabot",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.652",
-            "patch": "5.0"
+            "patch": "5.0",
+            "cSiblings": ["ap.404"]
         },
         "x371": {
             "name_en": "Silver Dasher",
             "name_fr": "Mésange À Longue Queue",
             "category": "@CATEGORY.SUBAQUATIC_VOYAGE",
             "source": "@VOYAGE.THE_OPEN_ROBE",
-            "patch": "5.2"
+            "patch": "5.2",
+            "cSiblings": ["ap.481"]
         },
         "x408": {
             "name_en": "Gull",
@@ -1853,28 +1943,32 @@
             "name_fr": "Fou À Pattes Bleues",
             "category": "@CATEGORY.VENTURE",
             "source": "@SOURCE.EXPLORATION.WATERSIDE XXVIII",
-            "patch": "6.1"
+            "patch": "6.1",
+            "cSiblings": ["ap.550"]
         },
         "x478": {
             "name_en": "Puffin",
             "name_fr": "Macareux",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.822",
-            "patch": "6.4"
+            "patch": "6.4",
+            "cSiblings": ["ap.648"]
         },
         "x491": {
             "name_en": "Uolosapa",
             "name_fr": "Uolosapa",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.961",
-            "patch": "6.51"
+            "patch": "6.51",
+            "cSiblings": ["ap.644"]
         },
         "x513": {
             "name_en": "Quetzal",
             "name_fr": "Quetzal Resplendissant",
             "category": "@CATEGORY.VENTURE",
             "source": "@SOURCE.EXPLORATION.WATERSIDE XXXI",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cSiblings": ["ap.747"]
         },
         "x531": {
             "name_en": "Toco Toquito",
@@ -1888,7 +1982,8 @@
             "name_fr": "Qiqirn Mécanique",
             "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.359"]
         },
         "x256": {
             "name_en": "Wind-up Meateater",
@@ -1902,7 +1997,8 @@
             "name_fr": "Namazu Mécanique",
             "category": "@CATEGORY.TREASURE_HUNT",
             "source": "duty.treasure-hunt.duties.10",
-            "patch": "4.01"
+            "patch": "4.01",
+            "cSiblings": ["ap.372"]
         },
         "x289": {
             "name_en": "The Gold Whisker",
@@ -1931,7 +2027,8 @@
             "category": "@CATEGORY.TRIAL",
             "source_en": "Giant Beaver - Il Mheg - 1 Dancing Wing (Titania) (Required Quests: And Then There Were None, Acht-la Ormh Inn)",
             "source_fr": "Castor géant - Il Mheg - 1 Ailes de Titania (Quêtes requises: Mais où sont les Pixies ?, Passation de pouvoir)",
-            "patch": "5.0"
+            "patch": "5.0",
+            "cSiblings": ["ap.376"]
         },
         "x407": {
             "name_en": "Golden Beaver",
@@ -1945,14 +2042,16 @@
             "name_fr": "Grébuloff Miniature",
             "category": "@CATEGORY.VENTURE",
             "source": "@SOURCE.EXPLORATION.HIGHLAND XXVI - XXVII",
-            "patch": "6.0"
+            "patch": "6.0",
+            "cSiblings": ["ap.484"]
         },
         "x472": {
             "name_en": "Findingway",
             "name_fr": "Findingway",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.MARE_LAMENTORUM (8 CURRENCY.SOCIETY.LOPORRIT)",
-            "patch": "6.35"
+            "patch": "6.35",
+            "cSiblings": ["ap.485"]
         },
         "x520": {
             "name_en": "Wind-up Mamool Ja",
@@ -2141,7 +2240,8 @@
             "name_fr": "Arkasodara Miniature",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THAVNAIR (8 CURRENCY.SOCIETY.ARKASODARA)",
-            "patch": "6.28"
+            "patch": "6.28",
+            "cSiblings": ["ap.483"]
         },
         "x168": {
             "name_en": "Wind-up Ifrit",
@@ -2241,14 +2341,16 @@
             "name_fr": "Bébé Byakko",
             "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
-            "patch": "4.2"
+            "patch": "4.2",
+            "cSiblings": ["ap.451"]
         },
         "x303": {
             "name_en": "Scarlet Peacock",
             "name_fr": "Paonne Vermillon",
             "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
-            "patch": "4.4"
+            "patch": "4.4",
+            "cSiblings": ["ap.452"]
         },
         "x343": {
             "name_en": "Wind-up Suzaku",
@@ -2257,14 +2359,16 @@
             "source_en": "Item code included with Shadowbringers Original Soundtrack",
             "source_fr": "Bonus d'achat du CD: \"Shadowbringers Original Soundtrack\"",
             "patch": "5.0",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.669"]
         },
         "x327": {
             "name_en": "Seitei",
             "name_fr": "Dragonnet Azur",
             "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
-            "patch": "4.5"
+            "patch": "4.5",
+            "cSiblings": ["ap.453"]
         },
         "x482": {
             "name_en": "Rubellite Weapon",
@@ -2324,7 +2428,8 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "2.38",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.454"]
         },
         "x177": {
             "name_en": "Dress-up Y'shtola",
@@ -2332,7 +2437,8 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "3.35",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.551"]
         },
         "x331": {
             "name_en": "Brave New Y'shtola",
@@ -2340,7 +2446,8 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "5.05",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.670"]
         },
         "x98": {
             "name_en": "Wind-up Minfilia",
@@ -2348,7 +2455,8 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "2.3",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.455"]
         },
         "x99": {
             "name_en": "Wind-up Thancred",
@@ -2356,14 +2464,16 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "2.3",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.456"]
         },
         "x217": {
             "name_en": "Dress-up Thancred",
             "name_fr": "Nouveau Thancred Miniature",
             "category": "@CATEGORY.WONDROUS_TAILS",
             "source": "@1 CURRENCY.KHLOE.BRONZE",
-            "patch": "3.4"
+            "patch": "3.4",
+            "cSiblings": ["ap.552"]
         },
         "x107": {
             "name_en": "Wind-up Yda",
@@ -2371,7 +2481,8 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "2.38",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.457"]
         },
         "x248": {
             "name_en": "Wind-up Lyse",
@@ -2379,7 +2490,8 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "4.01",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.658"]
         },
         "x108": {
             "name_en": "Wind-up Papalymo",
@@ -2387,7 +2499,8 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "2.38",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.458"]
         },
         "x109": {
             "name_en": "Wind-up Urianger",
@@ -2395,21 +2508,24 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "2.45",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.459"]
         },
         "x429": {
             "name_en": "Brave New Urianger",
             "name_fr": "Nouvel Urianger Miniature",
             "category": "@CATEGORY.WONDROUS_TAILS",
             "source": "@1 CURRENCY.KHLOE.SILVER",
-            "patch": "6.0"
+            "patch": "6.0",
+            "cSiblings": ["ap.671"]
         },
         "x118": {
             "name_en": "Wind-up Louisoix",
             "name_fr": "Louisoix Miniature",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "a.1040",
-            "patch": "2.4"
+            "patch": "2.4",
+            "cSiblings": ["ap.553"]
         },
         "x503": {
             "name_en": "Wind-up Fourchenault",
@@ -2417,14 +2533,16 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "6.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.744"]
         },
         "x130": {
             "name_en": "Wind-up Alphinaud",
             "name_fr": "Alphinaud Miniature",
             "category": "@CATEGORY.QUEST",
             "source": "q.67140",
-            "patch": "3.0"
+            "patch": "3.0",
+            "cSiblings": ["ap.460"]
         },
         "x131": {
             "name_en": "Wind-up Alisaie",
@@ -2432,14 +2550,16 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "3.0",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.461"]
         },
         "x218": {
             "name_en": "Dress-up Alisaie",
             "name_fr": "Nouvelle Alisaie Miniature",
             "category": "@CATEGORY.WONDROUS_TAILS",
             "source": "@1 CURRENCY.KHLOE.BRONZE",
-            "patch": "3.4"
+            "patch": "3.4",
+            "cSiblings": ["ap.554"]
         },
         "x132": {
             "name_en": "Wind-up Tataru",
@@ -2447,7 +2567,8 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "3.0",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.462"]
         },
         "x320": {
             "name_en": "Dress-up Tataru",
@@ -2456,14 +2577,16 @@
             "source_en": "Item code included with Art of the Revolution: Eastern Memories",
             "source_fr": "Bonus d'achat du livre: \"Art of the Revolution - Eastern Memories\"",
             "patch": "4.56",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.668"]
         },
         "x133": {
             "name_en": "Wind-up Cid",
             "name_fr": "Cid Miniature",
             "category": "@CATEGORY.QUEST",
             "source": "q.67184",
-            "patch": "3.0"
+            "patch": "3.0",
+            "cSiblings": ["ap.463"]
         },
         "x192": {
             "name_en": "Wind-up Krile",
@@ -2471,7 +2594,8 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "3.35",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.491"]
         },
         "x525": {
             "name_en": "Brushed-up Krile",
@@ -2479,21 +2603,24 @@
             "category": "@CATEGORY.EVENT",
             "source": "@EVENT.THE_RISING (2024)",
             "patch": "7.0",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.753"]
         },
         "x224": {
             "name_en": "Wind-up Moenbryda",
             "name_fr": "Moenbryda Miniature",
             "category": "@CATEGORY.QUEST",
             "source": "q.67886",
-            "patch": "3.4"
+            "patch": "3.4",
+            "cSiblings": ["ap.492"]
         },
         "x21": {
             "name_en": "Wind-up Gentleman",
             "name_fr": "Hildibrand Miniature",
             "category": "@CATEGORY.QUEST",
             "source": "q.66038",
-            "patch": "2.5"
+            "patch": "2.5",
+            "cSiblings": ["ap.493"]
         },
         "x476": {
             "name_en": "Wind-up Godbert",
@@ -2501,28 +2628,32 @@
             "category": "@CATEGORY.EVENT",
             "source": "@EVENT.MAKE_IT_RAIN (2023)",
             "patch": "6.3",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.555"]
         },
         "x71": {
             "name_en": "Wind-up Leader",
             "name_fr": "Dirigeant Miniature",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.501", "ap.500", "ap.499"]
         },
         "x276": {
             "name_en": "Dress-up Raubahn",
             "name_fr": "Nouveau Raubahn Miniature",
             "category": "@CATEGORY.QUEST",
             "source": "q.68508",
-            "patch": "4.1"
+            "patch": "4.1",
+            "cSiblings": ["ap.664"]
         },
         "x84": {
             "name_en": "Wind-up Nanamo",
             "name_fr": "Nanamo Miniature",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
-            "patch": "2.45"
+            "patch": "2.45",
+            "cSiblings": ["ap.494"]
         },
         "x145": {
             "name_en": "Wind-up Iceheart",
@@ -2530,7 +2661,8 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "3.05",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.556"]
         },
         "x150": {
             "name_en": "Wind-up Yugiri",
@@ -2538,56 +2670,64 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "3.07",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.557"]
         },
         "x249": {
             "name_en": "Dress-up Yugiri",
             "name_fr": "Yugiri Miniature Revisitée",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.262",
-            "patch": "4.0"
+            "patch": "4.0",
+            "cSiblings": ["ap.660"]
         },
         "x173": {
             "name_en": "Wind-up Haurchefant",
             "name_fr": "Haurchefant Miniature",
             "category": "@CATEGORY.QUEST",
             "source": "q.67699",
-            "patch": "3.1"
+            "patch": "3.1",
+            "cSiblings": ["ap.495"]
         },
         "x174": {
             "name_en": "Wind-up Nero tol Scaeva",
             "name_fr": "Nero tol Scaeva Miniature",
             "category": "@CATEGORY.GOLD_SAUCER",
             "source": "@30,000 CURRENCY.MGP",
-            "patch": "3.15"
+            "patch": "3.15",
+            "cSiblings": ["ap.498"]
         },
         "x193": {
             "name_en": "Wind-up Aymeric",
             "name_fr": "Aymeric Miniature",
             "category": "@CATEGORY.QUEST",
             "source": "q.67783",
-            "patch": "3.3"
+            "patch": "3.3",
+            "cSiblings": ["ap.496"]
         },
         "x219": {
             "name_en": "Wind-up Edda",
             "name_fr": "Edda Miniature",
             "category": "@CATEGORY.DEEP_DUNGEON",
             "source": "d.174",
-            "patch": "3.4"
+            "patch": "3.4",
+            "cSiblings": ["ap.558"]
         },
         "x228": {
             "name_en": "Wind-up Estinien",
             "name_fr": "Estinien Miniature",
             "category": "@CATEGORY.WONDROUS_TAILS",
             "source": "@1 CURRENCY.KHLOE.BRONZE",
-            "patch": "3.5"
+            "patch": "3.5",
+            "cSiblings": ["ap.497"]
         },
         "x360": {
             "name_en": "Dress-up Estinien",
             "name_fr": "Nouvel Estinien Miniature",
             "category": "@CATEGORY.CRAFTING_GATHERING",
             "source": "@1,200 CURRENCY.SCRIP.SKYBUILDERS",
-            "patch": "5.11"
+            "patch": "5.11",
+            "cSiblings": ["ap.672"]
         },
         "x250": {
             "name_en": "Wind-up Gosetsu",
@@ -2595,7 +2735,8 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "4.01",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.661"]
         },
         "x251": {
             "name_en": "Wind-up Yotsuyu",
@@ -2604,28 +2745,32 @@
             "source_en": "Item code included with Art of the Revolution: Western Memories",
             "source_fr": "Bonus d'achat de l'artbook: \"Art of the Revolution: Western Memories\"",
             "patch": "4.2",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.662"]
         },
         "x264": {
             "name_en": "Wind-up Hien",
             "name_fr": "Hien Miniature",
             "category": "@CATEGORY.WONDROUS_TAILS",
             "source": "@1 CURRENCY.KHLOE.BRONZE",
-            "patch": "4.1"
+            "patch": "4.1",
+            "cSiblings": ["ap.659"]
         },
         "x298": {
             "name_en": "Wind-up Zhloe",
             "name_fr": "Zhloe Miniature",
             "category": "@CATEGORY.WONDROUS_TAILS",
             "source": "@1 CURRENCY.KHLOE.BRONZE",
-            "patch": "4.3"
+            "patch": "4.3",
+            "cSiblings": ["ap.559"]
         },
         "x260": {
             "name_en": "Wind-up Khloe",
             "name_fr": "Khloe Miniature",
             "category": "@CATEGORY.WONDROUS_TAILS",
             "source": "@1 CURRENCY.KHLOE.BRONZE",
-            "patch": "4.0"
+            "patch": "4.0",
+            "cSiblings": ["ap.373"]
         },
         "x293": {
             "name_en": "Wind-up Cirina",
@@ -2633,28 +2778,32 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "4.35",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.666"]
         },
         "x282": {
             "name_en": "Wind-up Magnai",
             "name_fr": "Magnai Miniature",
             "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
-            "patch": "4.3"
+            "patch": "4.3",
+            "cSiblings": ["ap.665"]
         },
         "x294": {
             "name_en": "Wind-up Sadu",
             "name_fr": "Sadu Miniature",
             "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
-            "patch": "4.3"
+            "patch": "4.3",
+            "cSiblings": ["ap.667"]
         },
         "x252": {
             "name_en": "Mock-up Grynewaht",
             "name_fr": "Grynewaht Miniature",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.241",
-            "patch": "4.0"
+            "patch": "4.0",
+            "cSiblings": ["ap.663"]
         },
         "x325": {
             "name_en": "Wind-up Fran",
@@ -2669,14 +2818,16 @@
             "name_fr": "G'raha Tia Miniature",
             "category": "@CATEGORY.QUEST",
             "source": "q.69190",
-            "patch": "5.0"
+            "patch": "5.0",
+            "cSiblings": ["ap.560"]
         },
         "x332": {
             "name_en": "Wind-up Ryne",
             "name_fr": "Ryne Miniature",
             "category": "@CATEGORY.RAID",
             "source": ["d.728", "d.729"],
-            "patch": "5.2"
+            "patch": "5.2",
+            "cSiblings": ["ap.676"]
         },
         "x376": {
             "name_en": "Wind-up Dulia-Chai",
@@ -2685,14 +2836,16 @@
             "source_en": "Item code included with The Art of Reflection -Histories Forsaken- Artbook",
             "source_fr": "Bonus d'achat: \"FINAL FANTASY XIV: SHADOWBRINGERS - The Art of Reflection Art Book\"",
             "patch": "5.2",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.675"]
         },
         "x381": {
             "name_en": "Wind-up Mystel",
             "name_fr": "Mystel Miniature",
             "category": "@CATEGORY.QUEST",
             "source": "q.69317",
-            "patch": "5.3"
+            "patch": "5.3",
+            "cSiblings": ["ap.678"]
         },
         "x382": {
             "name_en": "Wind-up Ardbert",
@@ -2700,14 +2853,16 @@
             "category": "@CATEGORY.EVENT",
             "source": "@EVENT.THE_RISING (2020)",
             "patch": "5.3",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.679"]
         },
         "x398": {
             "name_en": "Wind-up Gaia",
             "name_fr": "Gaïa Miniature",
             "category": "@CATEGORY.RAID",
             "source": ["d.758", "d.759"],
-            "patch": "5.4"
+            "patch": "5.4",
+            "cSiblings": ["ap.677"]
         },
         "x412": {
             "name_en": "Senorita Sabotender",
@@ -2724,7 +2879,8 @@
             "source_en": "Item code included with Death Unto Dawn Original Soundtrack",
             "source_fr": "Bonus d'achat du CD: \"Death Unto Dawn Original Soundtrack\"",
             "patch": "5.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.673"]
         },
         "x417": {
             "name_en": "Wind-up Runar",
@@ -2733,7 +2889,8 @@
             "source_en": "Item code included with The Art of Reflection -Histories Unwritten- Artbook",
             "source_fr": "Bonus d'achat de l'artbook: \"The Art of Reflection -Histories Unwritten- Artbook\"",
             "patch": "5.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.674"]
         },
         "x418": {
             "name_en": "Wind-up Gunnhildr",
@@ -2747,7 +2904,8 @@
             "name_fr": "Héroïne Miniature",
             "category": "@CATEGORY.QUEST",
             "source": "q.70000",
-            "patch": "6.0"
+            "patch": "6.0",
+            "cSiblings": ["ap.735"]
         },
         "x455": {
             "name_en": "Clockwork Solus",
@@ -2755,35 +2913,40 @@
             "category": "@CATEGORY.QUEST",
             "source": "q.70080",
             "patch": "6.28",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.680"]
         },
         "x477": {
             "name_en": "Wind-up Aidoneus",
             "name_fr": "Aidoneus Miniature",
             "category": "@CATEGORY.TREASURE_HUNT",
             "source": "duty.treasure-hunt.duties.7",
-            "patch": "6.3"
+            "patch": "6.3",
+            "cSiblings": ["ap.739"]
         },
         "x465": {
             "name_en": "Wind-up Philos",
             "name_fr": "Ami Miniature",
             "category": "@CATEGORY.TREASURE_HUNT",
             "source": "duty.treasure-hunt.duties.7",
-            "patch": "6.3"
+            "patch": "6.3",
+            "cSiblings": ["ap.737"]
         },
         "x466": {
             "name_en": "Wind-up Erichthonios",
             "name_fr": "Érichthonios Miniature",
             "category": "@CATEGORY.RAID",
             "source": ["d.883", "d.884"],
-            "patch": "6.28"
+            "patch": "6.28",
+            "cSiblings": ["ap.738"]
         },
         "x487": {
             "name_en": "Wind-up Athena",
             "name_fr": "Athéna Miniature",
             "category": "@CATEGORY.RAID",
             "source": ["d.942", "d.943"],
-            "patch": "6.4"
+            "patch": "6.4",
+            "cSiblings": ["ap.740"]
         },
         "x538": {
             "name_en": "Wind-up Themis",
@@ -2799,7 +2962,8 @@
             "source_en": "Item code included with Dawntrail Original Soundtrack",
             "source_fr": "Code d'objet bonus inclus dans Dawntrail Original Soundtrack",
             "patch": "7.0",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.754"]
         },
         "x527": {
             "name_en": "Wind-up Erenville",
@@ -2808,7 +2972,8 @@
             "source_en": "Item code included with The Art of Succession -Relics of Heritage- Artbook",
             "source_fr": "Item code included with The Art of Succession -Relics of Heritage- Artbook",
             "patch": "7.1",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.755"]
         },
         "x501": {
             "name_en": "Hydaelyn Idol",
@@ -2816,7 +2981,8 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "6.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.742"]
         },
         "x502": {
             "name_en": "Zodiark Idol",
@@ -2824,35 +2990,40 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.MOG_STATION",
             "patch": "6.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.743"]
         },
         "x85": {
             "name_en": "Wind-up Gilgamesh",
             "name_fr": "Pantin Gilgamesh",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
-            "patch": "2.3"
+            "patch": "2.3",
+            "cSiblings": ["ap.386"]
         },
         "x122": {
             "name_en": "Enkidu",
             "name_fr": "Enkidu",
             "category": "@CATEGORY.TRIAL",
             "source": "d.85",
-            "patch": "2.5"
+            "patch": "2.5",
+            "cSiblings": ["ap.393"]
         },
         "x104": {
             "name_en": "Wind-up Ultros",
             "name_fr": "Orthros Articulé",
             "category": "@CATEGORY.TRIAL",
             "source": "d.81",
-            "patch": "2.4"
+            "patch": "2.4",
+            "cSiblings": ["ap.392"]
         },
         "x119": {
             "name_en": "Midgardsormr",
             "name_fr": "Midgardsormr",
             "category": "@CATEGORY.QUEST",
             "source": "q.65902",
-            "patch": "2.5"
+            "patch": "2.5",
+            "cSiblings": ["ap.561"]
         },
         "x229": {
             "name_en": "Wind-up Hraesvelgr",
@@ -2861,7 +3032,8 @@
             "source_en": "Item code included with The Art of Ishgard: The Scars of War",
             "source_fr": "Bonus d'achat du livre : \"The Art of Ishgard: The Scars of War\"",
             "patch": "3.55b",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.562"]
         },
         "x233": {
             "name_en": "Wind-up Nidhogg",
@@ -2870,7 +3042,8 @@
             "source_en": "Item code included with The Far Edge of Fate Original Soundtrack",
             "source_fr": "Bonus d'achat du CD : \"The Far Edge of Fate Original Soundtrack\"",
             "patch": "3.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.563"]
         },
         "x430": {
             "name_en": "Wind-up Vrtra",
@@ -2879,28 +3052,32 @@
             "source_en": "Item code included with Endwalker Original Soundtrack",
             "source_fr": "Bonus d'achat du CD: \"Endwalker Original Soundtrack\"",
             "patch": "6.0",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.732"]
         },
         "x304": {
             "name_en": "Wind-up Alpha",
             "name_fr": "Alpha Mécanique",
             "category": "@CATEGORY.QUEST",
             "source": "q.68693",
-            "patch": "4.4"
+            "patch": "4.4",
+            "cSiblings": ["ap.490"]
         },
         "x427": {
             "name_en": "Starbird",
             "name_fr": "Oiseau Stellaire",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.792",
-            "patch": "6.0"
+            "patch": "6.0",
+            "cSiblings": ["ap.730"]
         },
         "x2": {
             "name_en": "Mammet #001",
             "name_fr": "Pantin P001",
             "category": "@CATEGORY.PURCHASE",
             "source": "@VENDOR.MINION_TRADER (2,400 CURRENCY.GIL)",
-            "patch": "2.0"
+            "patch": "2.0",
+            "cSiblings": ["ap.348"]
         },
         "x6": {
             "name_en": "Mammet #003L",
@@ -2936,7 +3113,8 @@
             "category": "@CATEGORY.PREMIUM",
             "source": "@SOURCE.PREORDER (EXPANSION.ARR)",
             "patch": "2.0",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.378"]
         },
         "x64": {
             "name_en": "Wind-up Edvya",
@@ -2991,7 +3169,8 @@
             "name_fr": "Chimère Mécanique",
             "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.WVR)",
-            "patch": "4.0"
+            "patch": "4.0",
+            "cSiblings": ["ap.401"]
         },
         "x268": {
             "name_en": "Tengu Doll",
@@ -3074,14 +3253,16 @@
             "name_fr": "Madmiaouselle",
             "category": "@CATEGORY.ISLAND_SANCTUARY",
             "source": "@4,000 CURRENCY.ISLAND.SEAFARERS",
-            "patch": "6.28"
+            "patch": "6.28",
+            "cSiblings": ["ap.464"]
         },
         "x496": {
             "name_en": "Vicarious Vacationer",
             "name_fr": "Barnabaigneur",
             "category": "@CATEGORY.ISLAND_SANCTUARY",
             "source": "@4,000 CURRENCY.ISLAND.SEAFARERS",
-            "patch": "6.5"
+            "patch": "6.5",
+            "cSiblings": ["ap.741"]
         },
         "x534": {
             "name_en": "Wind-up Pelupelu",
@@ -3134,7 +3315,8 @@
             "name_fr": "Sphère De Guidage",
             "category": "@CATEGORY.QUEST",
             "source": "q.67649",
-            "patch": "3.0"
+            "patch": "3.0",
+            "cSiblings": ["ap.368"]
         },
         "x257": {
             "name_en": "Magitek Avenger F1",
@@ -3204,7 +3386,8 @@
             "name_fr": "Omicron Optimus",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.784",
-            "patch": "6.0"
+            "patch": "6.0",
+            "cSiblings": ["ap.486"]
         },
         "x437": {
             "name_en": "Golden Dhyata",
@@ -3278,7 +3461,8 @@
             "name_fr": "Sentinelle De Plomb T1",
             "category": "@CATEGORY.DUNGEON",
             "source": "d.827",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cSiblings": ["ap.752"]
         },
         "x535": {
             "name_en": "Tin Soldier S3",
@@ -3299,7 +3483,8 @@
             "name_fr": "Curseur Flottant",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
-            "patch": "2.1"
+            "patch": "2.1",
+            "cSiblings": ["ap.358"]
         },
         "x65": {
             "name_en": "Wind-up Sun",
@@ -3336,7 +3521,8 @@
             "name_fr": "Balai Enchanté",
             "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.CRP)",
-            "patch": "2.2"
+            "patch": "2.2",
+            "cSiblings": ["ap.363"]
         },
         "x96": {
             "name_en": "Miniature Minecart",
@@ -3388,7 +3574,8 @@
             "name_fr": "Mini Moai",
             "category": "@CATEGORY.CRAFTING",
             "source": "@SOURCE.CRAFTED (CLASS_JOB.BSM)",
-            "patch": "4.2"
+            "patch": "4.2",
+            "cSiblings": ["ap.537"]
         },
         "x291": {
             "name_en": "Clockwork Lantern",
@@ -3444,14 +3631,16 @@
             "name_fr": "Rocher De Cydonia",
             "category": "@CATEGORY.FAUX_HOLLOWS",
             "source": "@400 CURRENCY.FAUX_LEAF",
-            "patch": "6.5"
+            "patch": "6.5",
+            "cSiblings": ["ap.646"]
         },
         "x516": {
             "name_en": "The Cornservant",
             "name_fr": "Sire Épidemaïs",
             "category": "@CATEGORY.QUEST",
             "source": "q.70709",
-            "patch": "7.0"
+            "patch": "7.0",
+            "cSiblings": ["ap.749"]
         },
         "x67": {
             "name_en": "Minion of Light",
@@ -3604,7 +3793,8 @@
             "name_fr": "Koyo K Miniature",
             "category": "@CATEGORY.QUEST",
             "source": "q.70291",
-            "patch": "6.45"
+            "patch": "6.45",
+            "cSiblings": ["ap.647"]
         },
         "x504": {
             "name_en": "Wind-up Zidane",
@@ -3660,7 +3850,8 @@
             "category": "@CATEGORY.EVENT",
             "source": "@EVENT.XVI_COLLAB",
             "patch": "6.58",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.566"]
         },
         "x270": {
             "name_en": "Wind-up Ramza",
@@ -3674,14 +3865,16 @@
             "name_fr": "Petit Kappa",
             "category": "@CATEGORY.GOLD_SAUCER",
             "source": "@10,000 CURRENCY.MGP",
-            "patch": "2.51"
+            "patch": "2.51",
+            "cSiblings": ["ap.367"]
         },
         "x187": {
             "name_en": "Piggy",
             "name_fr": "Porcelet Promeneur",
             "category": "@CATEGORY.GOLD_SAUCER",
             "source": "@30,000 CURRENCY.MGP",
-            "patch": "3.3"
+            "patch": "3.3",
+            "cSiblings": ["ap.398"]
         },
         "x380": {
             "name_en": "Lalinator 5.H0",
@@ -3903,7 +4096,8 @@
             "category": "@CATEGORY.EVENT",
             "source": "@350 CURRENCY.MGF",
             "patch": "6.51",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.564"]
         },
         "x500": {
             "name_en": "Pegwin",
@@ -3911,7 +4105,8 @@
             "category": "@CATEGORY.EVENT",
             "source": "@350 CURRENCY.MGF",
             "patch": "6.51",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "cSiblings": ["ap.565"]
         }
     }
 }
