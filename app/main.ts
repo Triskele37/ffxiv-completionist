@@ -5,6 +5,8 @@ import { WindowStore } from './main/store/WindowStore';
 import { initActions } from './main/actions';
 import { preloadJson } from './main/actions/preloadJson';
 
+process.env.NODE_ENV ??= 'production';
+
 const args = process.argv.slice(1);
 const isServe = args.some((val) => val === '--serve');
 
