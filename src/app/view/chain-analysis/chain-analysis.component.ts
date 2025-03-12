@@ -27,9 +27,26 @@ export class ChainAnalysisComponent {
     analyzeChainedTasks(): void {
         this.issues = [];
         this.dive(this.svcData.data);
+
+        // Get a quick reference for sibling pairs
+        const toPairString = (taskA: Task, taskB: Task) => `${taskA.fullStorageKey}x${taskB.fullStorageKey}`;
+
+        const siblingPairs = this.issues
+            .filter((i) => i.type === 'SIBLING_ISSUE')
+            .map((issue) => toPairString(issue.sourceTask, issue.targetTask));
+
+        // Filter out the expected doubling of every sibling issue
+        this.issues = this.issues.filter(({ type, sourceTask, targetTask }) => {
+            if(type !== 'SIBLING_ISSUE') return true;
+            const reversePair = toPairString(targetTask, sourceTask);
+            return !siblingPairs.includes(reversePair);
+        });
+
     }
 
     dive(group: DataGroup): void {
+        if(group.isBookmarkGroup || group.isCustomGroup) return;
+
         if(group.tasks) {
             group.tasks.forEach((task) => {
                 this.addSiblingIssues(task);

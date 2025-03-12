@@ -3,15 +3,11 @@
     flex-direction: column;
     width: fit-content;
 
-    .analyze-button ::ng-deep {
-        .p-button {
-            border-top-left-radius: 0;
-            border-top-right-radius: 0;
-            border-top: 1px solid var(--surface-500);
-
-            min-width: 200px;
-            width: 100%;
-        }
+    .header {
+        padding-bottom: var(--content-padding);
+        display: flex;
+        align-items: center;
+        gap: var(--content-padding);
     }
 
     .issue-table {

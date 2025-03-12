@@ -1,5 +1,13 @@
 <div class="chain-analysis">
-    {{issues.length}} {{'TABLE.DISPLAYED' | translate}}
+    <div class="header">
+        <p-button
+            class="refresh-button"
+            icon="mi mi-refresh"
+            (onClick)="analyzeChainedTasks()"
+        ></p-button>
+
+        {{issues.length}} {{'TABLE.DISPLAYED' | translate}}
+    </div>
 
     <div class="issue-table">
         <p-table
