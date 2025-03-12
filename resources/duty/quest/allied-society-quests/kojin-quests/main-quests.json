@@ -11,7 +11,7 @@
             "npc_fr": "Pêcheur Inquiet",
             "cPrev": ["q.68026"],
             "cNext": ["q.68510"],
-            "cSiblings": ["character.character.tribal-relations.53"],
+            "cSiblings": ["character.character.society-relations.53"],
             "patch": "4.31"
         },
         "x68510": {
@@ -23,7 +23,7 @@
             "reputation": "@REPUTATION.FRIENDLY",
             "cPrev": ["q.68509"],
             "cNext": ["q.68511"],
-            "cSiblings": ["character.character.tribal-relations.54"],
+            "cSiblings": ["character.character.society-relations.54"],
             "patch": "4.31"
         },
         "x68511": {
@@ -35,7 +35,7 @@
             "reputation": "@REPUTATION.TRUSTED",
             "cPrev": ["q.68510"],
             "cNext": ["q.68512"],
-            "cSiblings": ["character.character.tribal-relations.55"],
+            "cSiblings": ["character.character.society-relations.55"],
             "patch": "4.31"
         },
         "x68512": {
@@ -47,7 +47,7 @@
             "reputation": "@REPUTATION.RESPECTED",
             "cPrev": ["q.68511"],
             "cNext": ["q.68513"],
-            "cSiblings": ["character.character.tribal-relations.56"],
+            "cSiblings": ["character.character.society-relations.56"],
             "patch": "4.31"
         },
         "x68513": {
@@ -59,7 +59,7 @@
             "reputation": "@REPUTATION.HONORED",
             "cPrev": ["q.68512"],
             "cNext": ["q.68514"],
-            "cSiblings": ["character.character.tribal-relations.57"],
+            "cSiblings": ["character.character.society-relations.57"],
             "patch": "4.31"
         },
         "x68514": {
@@ -71,7 +71,7 @@
             "reputation": "@REPUTATION.SWORN",
             "cPrev": ["q.68513"],
             "cNext": ["q.68697"],
-            "cSiblings": ["character.character.tribal-relations.58"],
+            "cSiblings": ["character.character.society-relations.58"],
             "patch": "4.31"
         }
     }

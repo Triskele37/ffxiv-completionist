@@ -11,7 +11,7 @@
             "npc_fr": "Conteur Des Vathes",
             "cPrev": ["q.67152"],
             "cNext": ["q.67792"],
-            "cSiblings": ["character.character.tribal-relations.37"],
+            "cSiblings": ["character.character.society-relations.37"],
             "patch": "4.31"
         },
         "x67792": {
@@ -23,7 +23,7 @@
             "reputation": "@REPUTATION.FRIENDLY",
             "cPrev": ["q.67791"],
             "cNext": ["q.67793", "q.69374"],
-            "cSiblings": ["character.character.tribal-relations.38"],
+            "cSiblings": ["character.character.society-relations.38"],
             "patch": "4.31"
         },
         "x67793": {
@@ -35,7 +35,7 @@
             "reputation": "@REPUTATION.TRUSTED",
             "cPrev": ["q.67792"],
             "cNext": ["q.67794"],
-            "cSiblings": ["character.character.tribal-relations.39"],
+            "cSiblings": ["character.character.society-relations.39"],
             "patch": "4.31"
         },
         "x67794": {
@@ -47,7 +47,7 @@
             "reputation": "@REPUTATION.RESPECTED",
             "cPrev": ["q.67793"],
             "cNext": ["q.67795"],
-            "cSiblings": ["character.character.tribal-relations.40"],
+            "cSiblings": ["character.character.society-relations.40"],
             "patch": "4.31"
         },
         "x67795": {
@@ -59,7 +59,7 @@
             "reputation": "@REPUTATION.HONORED",
             "cPrev": ["q.67794"],
             "cNext": ["q.67796"],
-            "cSiblings": ["character.character.tribal-relations.41"],
+            "cSiblings": ["character.character.society-relations.41"],
             "patch": "4.31"
         },
         "x67796": {
@@ -70,7 +70,7 @@
             "npc_fr": "Futé",
             "reputation": "@REPUTATION.SWORN",
             "cPrev": ["q.67795"],
-            "cSiblings": ["character.character.tribal-relations.42"],
+            "cSiblings": ["character.character.society-relations.42"],
             "patch": "4.31"
         }
     }

@@ -21,7 +21,7 @@
             "npc_fr": "Novv",
             "cPrev": ["q.66910"],
             "cNext": ["q.66912"],
-            "cSiblings": ["character.character.tribal-relations.15"],
+            "cSiblings": ["character.character.society-relations.15"],
             "patch": "4.31"
         },
         "x66912": {
@@ -33,7 +33,7 @@
             "reputation": "@REPUTATION.NEUTRAL",
             "cPrev": ["q.66911"],
             "cNext": ["q.66913"],
-            "cSiblings": ["character.character.tribal-relations.16"],
+            "cSiblings": ["character.character.society-relations.16"],
             "patch": "4.31"
         },
         "x66913": {
@@ -45,7 +45,7 @@
             "reputation": "@REPUTATION.RECOGNIZED",
             "cPrev": ["q.66912"],
             "cNext": ["q.66914"],
-            "cSiblings": ["character.character.tribal-relations.17"],
+            "cSiblings": ["character.character.society-relations.17"],
             "patch": "4.31"
         },
         "x66914": {
@@ -56,7 +56,7 @@
             "npc_fr": "Novv",
             "reputation": "@REPUTATION.FRIENDLY",
             "cPrev": ["q.66913"],
-            "cSiblings": ["character.character.tribal-relations.18"],
+            "cSiblings": ["character.character.society-relations.18"],
             "patch": "4.31"
         }
     }

@@ -9,9 +9,9 @@
             "name_fr": "Révolution motorisée",
             "npc_en": "Affable Townsdwarf",
             "npc_fr": "Nain Insouciant",
-            "cPrev": ["logs.crafting-log.shared.tribal-quests.dwarf.31137", "q.69096"],
+            "cPrev": ["q.69096"],
             "cNext": ["q.69433"],
-            "cSiblings": ["character.character.tribal-relations.74"],
+            "cSiblings": ["character.character.society-relations.74"],
             "patch": "5.3"
         },
         "x69433": {
@@ -21,9 +21,9 @@
             "npc_en": "Ronitt",
             "npc_fr": "Ronitt",
             "reputation": "@REPUTATION.FRIENDLY",
-            "cPrev": ["logs.crafting-log.shared.tribal-quests.dwarf.31139", "q.69432"],
+            "cPrev": ["q.69432"],
             "cNext": ["q.69434"],
-            "cSiblings": ["character.character.tribal-relations.75"],
+            "cSiblings": ["character.character.society-relations.75"],
             "patch": "5.3"
         },
         "x69434": {
@@ -33,9 +33,9 @@
             "npc_en": "Ronitt",
             "npc_fr": "Ronitt",
             "reputation": "@REPUTATION.TRUSTED",
-            "cPrev": ["logs.crafting-log.shared.tribal-quests.dwarf.31141", "q.69433"],
+            "cPrev": ["q.69433"],
             "cNext": ["q.69435"],
-            "cSiblings": ["character.character.tribal-relations.76"],
+            "cSiblings": ["character.character.society-relations.76"],
             "patch": "5.3"
         },
         "x69435": {
@@ -45,9 +45,9 @@
             "npc_en": "Ronitt",
             "npc_fr": "Ronitt",
             "reputation": "@REPUTATION.RESPECTED",
-            "cPrev": ["logs.crafting-log.shared.tribal-quests.dwarf.31143", "q.69434"],
+            "cPrev": ["q.69434"],
             "cNext": ["q.69436"],
-            "cSiblings": ["character.character.tribal-relations.77"],
+            "cSiblings": ["character.character.society-relations.77"],
             "patch": "5.3"
         },
         "x69436": {
@@ -57,9 +57,9 @@
             "npc_en": "Ronitt",
             "npc_fr": "Ronitt",
             "reputation": "@REPUTATION.HONORED",
-            "cPrev": ["logs.crafting-log.shared.tribal-quests.dwarf.31145", "q.69435"],
+            "cPrev": ["q.69435"],
             "cNext": ["q.69437"],
-            "cSiblings": ["character.character.tribal-relations.78"],
+            "cSiblings": ["character.character.society-relations.78"],
             "patch": "5.3"
         },
         "x69437": {
@@ -70,7 +70,7 @@
             "npc_fr": "Ronitt",
             "reputation": "@REPUTATION.SWORN",
             "cPrev": ["q.69436"],
-            "cSiblings": ["character.character.tribal-relations.79"],
+            "cSiblings": ["character.character.society-relations.79"],
             "patch": "5.3"
         }
     }

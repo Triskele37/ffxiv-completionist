@@ -6,6 +6,7 @@ import { createDataGroup } from '@model/DataGroup/createDataGroup';
 
 import { GuideComponent } from '../../../view/guide/guide.component';
 import { PatchNotesComponent } from '../../../view/patch-notes/patch-notes.component';
+import { ChainAnalysisComponent } from '../../../view/chain-analysis/chain-analysis.component';
 import { RandomComponent } from '../../../view/random/random.component';
 import { SettingsComponent } from '../../../view/settings/settings.component';
 import { SearchComponent } from '../../../view/search/search.component';
@@ -30,6 +31,7 @@ export class MainMenuService {
         this.addGuide();
         this.addPatchNotes();
         this.addRandom();
+        this.addChainAnalysis();
         this.addSettings();
         this.addSearch();
     }
@@ -59,6 +61,16 @@ export class MainMenuService {
             key: 'random',
             groupName: this.translate.instant('MAIN.RANDOM.TITLE'),
             component: RandomComponent
+        }, this.data);
+
+        this.data.subGroups.set(random._key, random);
+    }
+
+    addChainAnalysis(): void {
+        const random = createDataGroup({
+            key: 'chain-analysis',
+            groupName: this.translate.instant('MAIN.CHAIN_ANALYSIS.TITLE'),
+            component: ChainAnalysisComponent
         }, this.data);
 
         this.data.subGroups.set(random._key, random);

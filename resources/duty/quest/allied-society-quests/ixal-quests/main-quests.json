@@ -19,9 +19,9 @@
             "name_fr": "Les planeurs sans ailes",
             "npc_en": "Sezul Totoloc",
             "npc_fr": "Sezul Totoloc",
-            "cPrev": ["logs.crafting-log.shared.tribal-quests.ixal.8129", "q.67022"],
+            "cPrev": ["q.67022"],
             "cNext": ["q.67024", "q.67105"],
-            "cSiblings": ["character.character.tribal-relations.20"],
+            "cSiblings": ["character.character.society-relations.20"],
             "patch": "4.31"
         },
         "x67024": {
@@ -31,9 +31,9 @@
             "npc_en": "Sezul Totoloc",
             "npc_fr": "Sezul Totoloc",
             "reputation": "@REPUTATION.NEUTRAL",
-            "cPrev": ["logs.crafting-log.shared.tribal-quests.ixal.8130", "q.67023"],
+            "cPrev": ["q.67023"],
             "cNext": ["q.67025"],
-            "cSiblings": ["character.character.tribal-relations.21"],
+            "cSiblings": ["character.character.society-relations.21"],
             "patch": "4.31"
         },
         "x67025": {
@@ -43,9 +43,9 @@
             "npc_en": "Tataramu",
             "npc_fr": "Tataramu",
             "reputation": "@REPUTATION.RECOGNIZED",
-            "cPrev": ["logs.crafting-log.shared.tribal-quests.ixal.8131", "q.67024"],
+            "cPrev": ["q.67024"],
             "cNext": ["q.67026"],
-            "cSiblings": ["character.character.tribal-relations.22"],
+            "cSiblings": ["character.character.society-relations.22"],
             "patch": "4.31"
         },
         "x67026": {
@@ -57,7 +57,7 @@
             "reputation": "@REPUTATION.FRIENDLY",
             "cPrev": ["q.67025"],
             "cNext": ["q.67027"],
-            "cSiblings": ["character.character.tribal-relations.23"],
+            "cSiblings": ["character.character.society-relations.23"],
             "patch": "4.31"
         },
         "x67027": {
@@ -67,9 +67,9 @@
             "npc_en": "Tataramu",
             "npc_fr": "Tataramu",
             "reputation": "@REPUTATION.TRUSTED",
-            "cPrev": ["logs.crafting-log.shared.tribal-quests.ixal.8132", "q.67026"],
+            "cPrev": ["q.67026"],
             "cNext": ["q.67028"],
-            "cSiblings": ["character.character.tribal-relations.24"],
+            "cSiblings": ["character.character.society-relations.24"],
             "patch": "4.31"
         },
         "x67028": {
@@ -81,7 +81,7 @@
             "reputation": "@REPUTATION.RESPECTED",
             "cPrev": ["q.67027"],
             "cNext": ["q.67029"],
-            "cSiblings": ["character.character.tribal-relations.25"],
+            "cSiblings": ["character.character.society-relations.25"],
             "patch": "4.31"
         },
         "x67029": {
@@ -91,12 +91,8 @@
             "npc_en": "Sezul Totoloc",
             "npc_fr": "Sezul Totoloc",
             "reputation": "@REPUTATION.HONORED",
-            "cPrev": [
-                "logs.crafting-log.shared.tribal-quests.ixal.8133",
-                "logs.crafting-log.shared.tribal-quests.ixal.8134",
-                "q.67028"
-            ],
-            "cSiblings": ["character.character.tribal-relations.26"],
+            "cPrev": ["q.67028"],
+            "cSiblings": ["character.character.society-relations.26"],
             "patch": "4.31"
         }
     }

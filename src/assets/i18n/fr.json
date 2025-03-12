@@ -398,7 +398,8 @@
             },
             "1_0_5": {
                 "ADD": {
-                    "L1": "Resources up to FFXIV 7.15"
+                    "L1": "Resources up to FFXIV 7.15",
+                    "L2": "Added Chain Analysis in main menu"
                 },
                 "CHANGE": {
                     "L1": "Please note that facewear will not automatically migrate from the old format",
@@ -411,6 +412,11 @@
         },
         "RANDOM": {
             "TITLE": "Aléatoire"
+        },
+        "CHAIN_ANALYSIS": {
+            "TITLE": "Chain Analysis",
+            "PREV_ISSUE": "not be possible without",
+            "SIBLING_ISSUE": "should be the same as"
         },
         "SETTING": {
             "TITLE": "Options",
