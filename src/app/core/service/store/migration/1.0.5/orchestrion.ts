@@ -291,11 +291,11 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [17, 306], // eScape (Journeys Version)
         [18, 358], // Tsukuyomi's Pain (Orchestral Version)
         [19, 359], // The Worm's Tail (Orchestral Version)
+        [23, 405], // Neath Dark Waters (Scions & Sinners)
+        [24, 406], // A Long Fall (Scions & Sinners: Band)
         [20, 407], // A New Hope (Piano Collections)
         [21, 408], // Wailers and Waterwheels (Piano Collections)
         [22, 409], // I Am the Sea (Piano Collections)
-        [23, 405], // Neath Dark Waters (Scions & Sinners)
-        [24, 406], // A Long Fall (Scions & Sinners: Band)
         [25, 433], // Ominous Prognisticks (Piano Collections)
         [26, 434], // Night in the Brume (Piano Collections)
         [27, 435], // Painted Foothills (Piano Collections)
@@ -320,11 +320,11 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [46, 503], // Ink Long Dry (Piano Collections)
         [47, 504], // Heroes (Piano Collections)
         [48, 505], // Old Wounds (Piano Collections)
-        [49, 535], // Crimson Sunset (Piano Collections)
-        [50, 534], // Imagination (Piano Collections)
         [51, 533], // Westward Tide (Piano Collections)
-        [52, 563], // Hic Svnt Leones (Beyond the Shadow)
+        [50, 534], // Imagination (Piano Collections)
+        [49, 535], // Crimson Sunset (Piano Collections)
         [53, 562], // Close in the Distance (Beyond the Shadow)
+        [52, 563], // Hic Svnt Leones (Beyond the Shadow)
         [54, 588], // To the Edge (Orchestral Version)
         [55, 589], // Flow (Orchestral Version)
         [56, 615], // Shadowbringers (Orchestral Version)
@@ -332,8 +332,8 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [58, 617], // Your Answer (Orchestral Version)
         [59, 618], // Close in the Distance (Orchestral Version)
         [60, 619], // The Final Day (Orchestral Version)
-        [61, 621], // Equilibrium (Pulse)
         [62, 620], // Unbreakable (Pulse)
+        [61, 621], // Equilibrium (Pulse)
         [63, 622], // Beauty's Wicked Wiles (Pulse)
         [64, 623], // I Am the Sea (Pulse)
         [65, 624], // A Long Fall (Pulse)
@@ -406,6 +406,7 @@ export function migrateOrchestrions(store: ChangeStore): void {
     ]);
 
     store.safeChangeKeys(`${ORCH}.quests`, [
+        [0, 12], // Prelude - Discoveries
         [18, 128], // Forever Lost
         [29, 200], // Daring Dalliances
         [77, 442], // By Design
@@ -594,6 +595,9 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [645, 645], // Fair Winds to Guide
         [646, 646], // Course Uncharted
         [647, 647], // Myths of the Realm
+    ]);
+
+    store.safeChangeKeys(`${ORCH}.seasonal`, [
         [0, 16], // Pa-Paya
         [1, 60], // Moonfire Faire
         [2, 61], // Heavensward
@@ -611,9 +615,6 @@ export function migrateOrchestrions(store: ChangeStore): void {
         [14, 245], // Starlight, Starbright
         [21, 348], // Starlight de Chocobo
         [15, 299], // Hammerhead
-    ]);
-
-    store.safeChangeKeys(`${ORCH}.seasonal`, [
         [16, 300], // Valse di Fantastica
         [17, 301], // Relax and Reflect
         [18, 302], // Veiled in Black

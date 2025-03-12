@@ -751,14 +751,14 @@
             "defaultCompletion": "X"
         },
         "x284": {
-            "hidden": true,
             "name_en": "Blow Bubbles",
             "name_fr": "Bulles de savon",
-            "category": "",
-            "source": "",
+            "category": "@CATEGORY.PREMIUM",
+            "source": "@SOURCE.MOG_STATION",
             "command_en": "/blowbubbles",
             "command_fr": "/blowbubbles, /bullesdesavon, /bulles",
-            "patch": "7.1"
+            "patch": "7.1",
+            "defaultCompletion": "X"
         },
         "x238": {
             "name_en": "Draw Weapon",
