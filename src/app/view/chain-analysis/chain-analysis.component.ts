@@ -30,6 +30,7 @@ type ChainIssue = {
 })
 export class ChainAnalysisComponent {
     issues: ChainIssue[] = [];
+    siblingPairs: string[] = [];
 
     constructor(private svcData: DataService) {
         this.analyzeChainedTasks();
@@ -37,22 +38,9 @@ export class ChainAnalysisComponent {
 
     analyzeChainedTasks(): void {
         this.issues = [];
+        this.siblingPairs = [];
+
         this.dive(this.svcData.data);
-
-        // Get a quick reference for sibling pairs
-        const toPairString = (taskA: Task, taskB: Task) => `${taskA.fullStorageKey}x${taskB.fullStorageKey}`;
-
-        const siblingPairs = this.issues
-            .filter((i) => i.type === 'SIBLING_ISSUE')
-            .map((issue) => toPairString(issue.sourceTask, issue.targetTask));
-
-        // Filter out the expected doubling of every sibling issue
-        this.issues = this.issues.filter(({ type, sourceTask, targetTask }) => {
-            if(type !== 'SIBLING_ISSUE') return true;
-            const reversePair = toPairString(targetTask, sourceTask);
-            return !siblingPairs.includes(reversePair);
-        });
-
     }
 
     dive(group: DataGroup): void {
@@ -77,14 +65,15 @@ export class ChainAnalysisComponent {
             task.cSiblings.forEach((siblingLink) => {
                 const siblingTask = this.getChainedTask(task, siblingLink);
                 if(!siblingTask) return;
+                if(task.completionFlag === siblingTask.completionFlag) return;
+                if(this.siblingPairs.includes(this.toPairString(siblingTask, task))) return;
 
-                if(task.completionFlag !== siblingTask.completionFlag) {
-                    this.issues.push({
-                        type: 'SIBLING_ISSUE',
-                        sourceTask: task,
-                        targetTask: siblingTask,
-                    });
-                }
+                this.siblingPairs.push(this.toPairString(task, siblingTask));
+                this.issues.push({
+                    type: 'SIBLING_ISSUE',
+                    sourceTask: task,
+                    targetTask: siblingTask,
+                });
             });
         }
     }
@@ -111,7 +100,7 @@ export class ChainAnalysisComponent {
         }
     }
 
-    getChainedTask(source: Task, link: Link) {
+    getChainedTask(source: Task, link: Link): Task | undefined {
         const fullLink = typeof link === 'string' ? link : `${source._parent.fullStorageKey}.${link}`;
 
         if(fullLink.match(/\.all$/)) return;
@@ -125,5 +114,9 @@ export class ChainAnalysisComponent {
         }
 
         return task;
+    }
+
+    toPairString(taskA: Task, taskB: Task): string {
+        return `${taskA.fullStorageKey}x${taskB.fullStorageKey}`;
     }
 }
