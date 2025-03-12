@@ -924,7 +924,8 @@
             "description_fr": "Remporter le Blunderville 1 fois.",
             "patch": "6.51",
             "points": 5,
-            "cNext": ["a.3405"]
+            "cNext": ["a.3405"],
+            "defaultCompletion": "X"
         },
         "x3405": {
             "name_en": "It's a Blunderful Life II",
@@ -934,7 +935,8 @@
             "patch": "6.51",
             "points": 5,
             "cPrev": ["a.3404"],
-            "cNext": ["a.3406"]
+            "cNext": ["a.3406"],
+            "defaultCompletion": "X"
         },
         "x3406": {
             "name_en": "It's a Blunderful Life III",
@@ -944,7 +946,8 @@
             "patch": "6.51",
             "points": 5,
             "cPrev": ["a.3405"],
-            "cNext": ["a.3407"]
+            "cNext": ["a.3407"],
+            "defaultCompletion": "X"
         },
         "x3407": {
             "name_en": "It's a Blunderful Life IV",
@@ -955,7 +958,8 @@
             "patch": "6.51",
             "points": 10,
             "cPrev": ["a.3406"],
-            "cSiblings": ["t.708"]
+            "cSiblings": ["t.708"],
+            "defaultCompletion": "X"
         }
     }
 }
