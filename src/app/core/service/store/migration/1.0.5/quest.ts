@@ -277,30 +277,35 @@ function migrateSidequests(store: ChangeStore): void {
 
 function migrateOtherQuests(store: ChangeStore): void {
     const OTHER = `${QUEST}.other-quests`;
-    store.moveGroup(...withQuests(QUEST, 'other'));
+    store.moveGroup(...withQuests(QUEST, 'other'), true);
 
     const GC = `${OTHER}.grand-company-quests`;
-    store.moveGroup(...withQuests(OTHER, 'grand-company'));
-    store.moveGroup(...withQuests(GC, 'immortal-flames'));
-    store.moveGroup(...withQuests(GC, 'maelstrom'));
-    store.moveGroup(...withQuests(GC, 'order-of-the-twin-adder'));
+    store.moveGroup(...withQuests(OTHER, 'grand-company'), true);
+    store.moveGroup(...withQuests(GC, 'immortal-flames'), true);
+    store.moveGroup(...withQuests(GC, 'maelstrom'), true);
+    store.moveGroup(...withQuests(GC, 'order-of-the-twin-adder'), true);
 
     const SEASONAL = `${OTHER}.seasonal-events`;
-    store.moveGroup(...withEvents(SEASONAL, 'all-saints-wake'));
-    store.moveGroup(`${SEASONAL}.egg-hunts`, `${SEASONAL}.hatching-tide-events`);
-    store.moveGroup(...withEvents(SEASONAL, 'heavensturn'));
-    store.moveGroup(...withEvents(SEASONAL, 'little-ladies-and-hatching-tide'));
-    store.moveGroup(...withEvents(SEASONAL, 'little-ladies-day'));
-    store.moveGroup(...withEvents(SEASONAL, 'moonfire-faire'));
-    store.moveGroup(...withEvents(SEASONAL, 'rising'));
-    store.moveGroup(...withEvents(SEASONAL, 'starlight-celebration'));
-    store.moveGroup(`${SEASONAL}.valentiones-little-ladies-day`, `${SEASONAL}.valentiones-and-little-ladies-day-events`);
-    store.moveGroup(...withEvents(SEASONAL, 'valentiones-day'));
+    store.moveGroup(...withEvents(OTHER, 'seasonal'));
+    store.moveGroup(...withEvents(SEASONAL, 'all-saints-wake'), true);
+    store.moveGroup(`${SEASONAL}.egg-hunts`, `${SEASONAL}.hatching-tide-events`, true);
+    store.moveGroup(...withEvents(SEASONAL, 'heavensturn'), true);
+    store.moveGroup(...withEvents(SEASONAL, 'little-ladies-and-hatching-tide'), true);
+    store.moveGroup(...withEvents(SEASONAL, 'little-ladies-day'), true);
+    store.moveGroup(...withEvents(SEASONAL, 'moonfire-faire'), true);
+    store.moveGroup(...withEvents(SEASONAL, 'rising'), true);
+    store.moveGroup(...withEvents(SEASONAL, 'starlight-celebration'), true);
+    store.moveGroup(
+        `${SEASONAL}.valentiones-little-ladies-day`,
+        `${SEASONAL}.valentiones-and-little-ladies-day-events`,
+        true
+    );
+    store.moveGroup(...withEvents(SEASONAL, 'valentiones-day'), true);
 
     const SPECIAL = `${OTHER}.special-quests`;
-    store.moveGroup(...withQuests(OTHER, 'special'));
-    store.moveGroup(SPECIAL, `${SPECIAL}.special-quests`);
-    store.moveGroup(...withQuests(SPECIAL, 'collaboration'));
+    store.moveGroup(...withQuests(OTHER, 'special'), true);
+    store.moveTask(SPECIAL, `${SPECIAL}.special-quests`, 67114);
+    store.moveGroup(...withQuests(SPECIAL, 'collaboration'), true);
 }
 
 function migrateTribalAGAIN(store: ChangeStore): void {
