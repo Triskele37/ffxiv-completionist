@@ -29,15 +29,24 @@
             "category": "@CATEGORY.QUEST",
             "source": "q.65971",
             "patch": "6.1",
-            "cSiblings": ["q.65971"]
+            "cSiblings": ["q.65971"],
+            "decorations": "@PLATE.FRAME"
         },
         "x347": {
             "name_en": "Sheet Music",
             "name_fr": "Musique",
             "category": "@CATEGORY.QUEST",
             "source": "q.68555",
-            "patch": "6.2",
-            "cSiblings": ["q.68555"]
+            "patch": "6.1",
+            "cSiblings": ["q.68555"],
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x299": {
             "name_en": "Gridania",
@@ -45,169 +54,381 @@
             "category": "@CATEGORY.QUEST",
             "source": "q.66196",
             "patch": "6.1",
-            "cSiblings": ["q.66196"]
+            "cSiblings": ["q.66196"],
+            "decorations": "@PORTRAIT.BACKGROUND"
         },
         "x346": {
             "name_en": "Lominsan Flag",
             "name_fr": "Drapeau Limséen",
             "category": "@CATEGORY.QUEST",
             "source": "q.66047",
-            "patch": "6.2",
-            "cSiblings": ["q.66047"]
+            "patch": "6.1",
+            "cSiblings": ["q.66047"],
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.ACCENT", "@PLATE.TOP_BORDER", "@PLATE.BOTTOM_BORDER"]
         },
         "x768": {
             "name_en": "Heavens' Orthodoxy",
             "name_fr": "Ishgard 1",
             "category": "@CATEGORY.WONDROUS_TAILS",
             "source": "@2 CURRENCY.KHLOE.SILVER",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x769": {
             "name_en": "Heavens' Heresy",
             "name_fr": "Ishgard 2",
             "category": "@CATEGORY.WONDROUS_TAILS",
             "source": "@2 CURRENCY.KHLOE.SILVER",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x770": {
             "name_en": "Idyll Wisdom",
             "name_fr": "Idyllée 1",
             "category": "@CATEGORY.WONDROUS_TAILS",
             "source": "@2 CURRENCY.KHLOE.SILVER",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x771": {
             "name_en": "Idyll Industry",
             "name_fr": "Idyllée 2",
             "category": "@CATEGORY.WONDROUS_TAILS",
             "source": "@2 CURRENCY.KHLOE.SILVER",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x772": {
             "name_en": "Kugane Commerce",
             "name_fr": "Kugane 1",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x773": {
             "name_en": "Kugane Leisure",
             "name_fr": "Kugane 2",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x774": {
             "name_en": "Western Reach",
             "name_fr": "L'Étendue De Rhalgr 1",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x775": {
             "name_en": "Eastern Reach",
             "name_fr": "L'Étendue De Rhalgr 2",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": "@VENDOR.JONATHAS (2 CURRENCY.ACHIEVEMENT)",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x776": {
             "name_en": "Exarchic Dome",
             "name_fr": "Cristarium 1",
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.THE_CRYSTARIUM (600 CURRENCY.FATE.GEMSTONE)",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x777": {
             "name_en": "Exarchic Tower",
             "name_fr": "Cristarium 2",
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.THE_CRYSTARIUM (600 CURRENCY.FATE.GEMSTONE)",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x778": {
             "name_en": "Eulmoran Comfort",
             "name_fr": "Eulmore 1",
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.EULMORE (600 CURRENCY.FATE.GEMSTONE)",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x779": {
             "name_en": "Eulmoran Glory",
             "name_fr": "Eulmore 2",
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.EULMORE (600 CURRENCY.FATE.GEMSTONE)",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x780": {
             "name_en": "Sharlayan Stoa",
             "name_fr": "Vieille Sharlayan 1",
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.OLD_SHARLAYAN (600 CURRENCY.FATE.GEMSTONE)",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x781": {
             "name_en": "Sharlayan Agora",
             "name_fr": "Vieille Sharlayan 2",
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.OLD_SHARLAYAN (600 CURRENCY.FATE.GEMSTONE)",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x782": {
             "name_en": "Hannish Radiance",
             "name_fr": "Radz-at-Han 1",
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.RADZ_AT_HAN (600 CURRENCY.FATE.GEMSTONE)",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x783": {
             "name_en": "Hannish Wonders",
             "name_fr": "Radz-at-Han 2",
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.RADZ_AT_HAN (600 CURRENCY.FATE.GEMSTONE)",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x701": {
             "name_en": "Crimson Dawn",
             "name_fr": "Tuliyollal 1",
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.TULIYOLLAL (600 CURRENCY.FATE.GEMSTONE)",
-            "patch": "7.0"
+            "patch": "7.0",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x702": {
             "name_en": "Golden Dawn",
             "name_fr": "Tuliyollal 2",
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.TULIYOLLAL (600 CURRENCY.FATE.GEMSTONE)",
-            "patch": "7.0"
+            "patch": "7.0",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x699": {
             "name_en": "Dark Solution",
             "name_fr": "Solution Neuf 1",
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SOLUTION_NINE (600 CURRENCY.FATE.GEMSTONE)",
-            "patch": "7.0"
+            "patch": "7.0",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x700": {
             "name_en": "Bright Solution",
             "name_fr": "Solution Neuf 2",
             "category": "@CATEGORY.FATE",
             "source": "@VENDOR.GEMSTONE_TRADER - PLACE.SOLUTION_NINE (600 CURRENCY.FATE.GEMSTONE)",
-            "patch": "7.0"
+            "patch": "7.0",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME"
+            ]
         },
         "x573": {
             "name_en": "Tataru's Bespoke",
             "name_fr": "La Tarufacture De Tataru",
             "category": "@CATEGORY.QUEST",
             "source": "q.70349",
-            "patch": "6.55"
+            "patch": "6.5",
+            "decorations": ["@PLATE.BASE", "@PLATE.TOP_BORDER", "@PLATE.PORTRAIT_FRAME", "@PLATE.FRAME"]
         },
         "x527": {
             "name_en": "End of An Era",
             "name_fr": "La Fin D'une Ère",
             "category": "@CATEGORY.QUEST",
             "source": "q.70316",
-            "patch": "6.48"
+            "patch": "6.4",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x467": {
             "name_en": "Four Lords",
@@ -215,190 +436,415 @@
             "category": "@CATEGORY.QUEST",
             "source": "q.68702",
             "patch": "6.3",
-            "cSiblings": ["q.68702"]
+            "cSiblings": ["q.68702"],
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PLATE.BASE", "@PLATE.FRAME"]
         },
         "x572": {
             "name_en": "Twelvefold Blessings",
             "name_fr": "Le Mythe Éorzéen",
             "category": "@CATEGORY.QUEST",
             "source": "q.70328",
-            "patch": "6.5"
+            "patch": "6.5",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x696": {
             "name_en": "Brotherhood of Ash",
             "name_fr": "Quêtes Des Amalj'aa",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.SOUTHERN_THANALAN (6 CURRENCY.SOCIETY.AMALJAA)",
-            "patch": "7.0"
+            "patch": "7.0",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x695": {
             "name_en": "Little Solace",
             "name_fr": "Quêtes Des Sylphes",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.EAST_SHROUD (6 CURRENCY.SOCIETY.SYLPH)",
-            "patch": "7.0"
+            "patch": "7.0",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x694": {
             "name_en": "789th Order",
             "name_fr": "Quêtes Des Kobolds",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.OUTER_LA_NOSCEA (6 CURRENCY.SOCIETY.KOBOLD)",
-            "patch": "7.0"
+            "patch": "7.0",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x697": {
             "name_en": "Novv's Clutch",
             "name_fr": "Quêtes Des Sahuagins",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.WESTERN_LA_NOSCEA (6 CURRENCY.SOCIETY.SAHAGIN)",
-            "patch": "7.0"
+            "patch": "7.0",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x698": {
             "name_en": "Ehcatl Nine",
             "name_fr": "Quêtes Des Ixali",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.NORTH_SHROUD (6 CURRENCY.SOCIETY.IXAL)",
-            "patch": "7.0"
+            "patch": "7.0",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x567": {
             "name_en": "Gundu",
             "name_fr": "Quêtes Des Vanu Vanu",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_SEA_OF_CLOUDS (6 CURRENCY.SOCIETY.VANU_VANU)",
-            "patch": "6.5"
+            "patch": "6.5",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x568": {
             "name_en": "Vath",
             "name_fr": "Quêtes Des Gnathes",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_DRAVANIAN_FORELANDS (6 CURRENCY.SOCIETY.VATH)",
-            "patch": "6.5"
+            "patch": "6.5",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x569": {
             "name_en": "Mogmenders",
             "name_fr": "Quêtes Des Mogs",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_CHURNING_MISTS (6 CURRENCY.SOCIETY.MOOGLE)",
-            "patch": "6.5"
+            "patch": "6.5",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x524": {
             "name_en": "Divine Circle",
             "name_fr": "Quêtes Des Kojin",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_RUBY_SEA (6 CURRENCY.SOCIETY.KOJIN)",
-            "patch": "6.4"
+            "patch": "6.4",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x525": {
             "name_en": "Velodyna Gatekeepers",
             "name_fr": "Quêtes Des Anantas",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_FRINGES (6 CURRENCY.SOCIETY.ANANTA)",
-            "patch": "6.4"
+            "patch": "6.4",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x526": {
             "name_en": "Seven Hundred Seventy-Seven",
             "name_fr": "Quêtes Des Namazu",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THE_AZIM_STEPPE (6 CURRENCY.SOCIETY.NAMAZU)",
-            "patch": "6.4"
+            "patch": "6.4",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x429": {
             "name_en": "Dreamspinners",
             "name_fr": "Quêtes Des Pixies",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.IL_MHEG (6 CURRENCY.SOCIETY.PIXIE)",
-            "patch": "6.3"
+            "patch": "6.3",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x430": {
             "name_en": "Stewards",
             "name_fr": "Quêtes Des Qitari",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.RAK_TIKA (6 CURRENCY.SOCIETY.QITARI)",
-            "patch": "6.3"
+            "patch": "6.3",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x431": {
             "name_en": "Watts's Anvil",
             "name_fr": "Quêtes Des Nains",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.LAKELAND (6 CURRENCY.SOCIETY.DWARF)",
-            "patch": "6.3"
+            "patch": "6.3",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x432": {
             "name_en": "Hippo Riders",
             "name_fr": "Quêtes Des Arkasodaras",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.THAVNAIR (6 CURRENCY.SOCIETY.ARKASODARA)",
-            "patch": "6.3"
+            "patch": "6.3",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x344": {
             "name_en": "Last Dregs",
             "name_fr": "Quêtes Des Omicrons",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.ULTIMA_THULE (6 CURRENCY.SOCIETY.OMICRON)",
-            "patch": "6.25"
+            "patch": "6.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x433": {
             "name_en": "Dreaming Ways",
             "name_fr": "Quêtes Des Loporrites",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.MARE_LAMENTORUM (6 CURRENCY.SOCIETY.LOPORRIT)",
-            "patch": "6.35"
+            "patch": "6.3",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x767": {
             "name_en": "Turali Travel Agency",
             "name_fr": "Quêtes Des Pelupelu",
             "category": "@CATEGORY.SOCIETY",
             "source": "@VENDOR.SOCIETY_TRADER - PLACE.KOZAMAUKA (6 CURRENCY.SOCIETY.PELUPELU)",
-            "patch": "7.1"
+            "patch": "7.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.ACCENT"
+            ]
         },
         "x468": {
             "name_en": "Island Vacation",
             "name_fr": "Félicité Insulaire 1",
             "category": "@CATEGORY.ISLAND_SANCTUARY",
             "source": "@3,000 CURRENCY.ISLAND.SEAFARERS",
-            "patch": "6.3"
+            "patch": "6.3",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x469": {
             "name_en": "Island Memories",
             "name_fr": "Félicité Insulaire 2",
             "category": "@CATEGORY.ISLAND_SANCTUARY",
             "source": "@3,000 CURRENCY.ISLAND.SEAFARERS",
-            "patch": "6.3"
+            "patch": "6.3",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x529": {
             "name_en": "Adventurous Angling",
             "name_fr": "Grand Pêcheur",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": ["a.2758", "@2 CURRENCY.ACHIEVEMENT"],
-            "patch": "6.4"
+            "patch": "6.4",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x530": {
             "name_en": "Big Fish",
             "name_fr": "Pêcheur De Légendes",
-            "category": "",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": ["a.2245", "@2 CURRENCY.ACHIEVEMENT"],
-            "patch": "6.4"
+            "patch": "6.4",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x531": {
             "name_en": "Mahjong Mastery",
             "name_fr": "Tuiles Essentielles",
             "category": "@CATEGORY.ACHIEVEMENT",
             "source": ["a.2181", "@2 CURRENCY.ACHIEVEMENT"],
-            "patch": "6.4"
+            "patch": "6.4",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.BOTTOM_BORDER",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x570": {
             "name_en": "Wondrous Whimsy",
             "name_fr": "Aventures Imaginaires De Khloe",
             "category": "@CATEGORY.WONDROUS_TAILS",
             "source": "@2 CURRENCY.KHLOE.SILVER",
-            "patch": "6.5"
+            "patch": "6.5",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x571": {
             "name_en": "Fantastic Faux",
             "name_fr": "Touché-tourné",
             "category": "@CATEGORY.FAUX_HOLLOWS",
             "source": "@600 CURRENCY.FAUX_LEAF",
-            "patch": "6.5"
+            "patch": "6.5",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x465": {
             "name_en": "Eureka Orthos",
@@ -406,7 +852,8 @@
             "category": "@CATEGORY.DEEP_DUNGEON",
             "source_en": "Synthesis Node - Mor Dhona - 10 Orthos Aetherpool Fragment",
             "source_fr": "Système de synthèse - Mor Dhona - 10 Fragment de substrat magique Orthos",
-            "patch": "6.35"
+            "patch": "6.3",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.ACCENT", "@PLATE.BASE", "@PLATE.PORTRAIT_FRAME"]
         },
         "x466": {
             "name_en": "Enaretos",
@@ -414,68 +861,145 @@
             "category": "@CATEGORY.DEEP_DUNGEON",
             "source_en": "Synthesis Node - Mor Dhona - 1 Orthos Tomestone",
             "source_fr": "Système de synthèse - Mor Dhona - 1 Mémoquartz Orthos",
-            "patch": "6.35"
+            "patch": "6.3",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.ACCENT", "@PLATE.BASE", "@PLATE.PORTRAIT_FRAME"]
         },
         "x343": {
             "name_en": "Sil'dihn Subterrane (Variant)",
             "name_fr": "Donjon À Embranchements : Les Canalisations Sildiennes",
             "category": "@CATEGORY.VC_DUNGEON",
             "source": "@VENDOR.TRISASSANT (8 CURRENCY.VCD.SILDIHN_SILVER)",
-            "patch": "6.25"
+            "patch": "6.1",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.PATTERN",
+                "@PLATE.PORTRAIT_FRAME"
+            ]
         },
         "x528": {
             "name_en": "Mount Rokkon (Variant)",
             "name_fr": "Donjon À Embranchements : Le Mont Rokkon",
             "category": "@CATEGORY.VC_DUNGEON",
             "source": "@VENDOR.TRISASSANT (8 CURRENCY.VCD.SHISHU_COIN)",
-            "patch": "6.4"
+            "patch": "6.4",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.PATTERN",
+                "@PLATE.PORTRAIT_FRAME"
+            ]
         },
         "x574": {
             "name_en": "Aloalo Island (Variant)",
             "name_fr": "Donjon À Embranchements : L'île D'Aloalo",
             "category": "@CATEGORY.VC_DUNGEON",
             "source": "@VENDOR.TRISASSANT (8 CURRENCY.VCD.ALOALO_COIN)",
-            "patch": "6.51"
+            "patch": "6.5",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.PATTERN",
+                "@PLATE.PORTRAIT_FRAME"
+            ]
         },
         "x319": {
             "name_en": "Unending Coil of Bahamut",
             "name_fr": "Abîme Infini De Bahamut (fatal)",
             "category": "@CATEGORY.RAID",
             "source": "d.280",
-            "patch": "6.2",
-            "cSiblings": ["d.280"]
+            "patch": "6.1",
+            "cSiblings": ["d.280"],
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x320": {
             "name_en": "Weapon's Refrain",
             "name_fr": "Fantasmagorie D'Ultima (fatal)",
             "category": "@CATEGORY.RAID",
             "source": "d.539",
-            "patch": "6.2",
-            "cSiblings": ["d.539"]
+            "patch": "6.1",
+            "cSiblings": ["d.539"],
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x321": {
             "name_en": "Epic of Alexander",
             "name_fr": "Odyssée D'Alexander (fatal)",
             "category": "@CATEGORY.RAID",
             "source": "d.694",
-            "patch": "6.2",
-            "cSiblings": ["d.694"]
+            "patch": "6.1",
+            "cSiblings": ["d.694"],
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x322": {
             "name_en": "Dragonsong's Reprise",
             "name_fr": "Guerre Du Chant Des Dragons (fatal)",
             "category": "@CATEGORY.RAID",
             "source": "d.788",
-            "patch": "6.2",
-            "cSiblings": ["d.788"]
+            "patch": "6.1",
+            "cSiblings": ["d.788"],
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x434": {
             "name_en": "Omega Protocol",
             "name_fr": "Protocole Oméga (fatal)",
             "category": "@CATEGORY.RAID",
             "source": "d.908",
-            "patch": "6.31",
-            "cSiblings": ["d.908"]
+            "patch": "6.3",
+            "cSiblings": ["d.908"],
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x143": {
             "name_en": "Team Astra",
@@ -483,7 +1007,8 @@
             "category": "@CATEGORY.PVP",
             "source": "@SOURCE.SERIES_REWARD",
             "patch": "6.1",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
         },
         "x144": {
             "name_en": "Team Umbra",
@@ -491,23 +1016,26 @@
             "category": "@CATEGORY.PVP",
             "source": "@SOURCE.SERIES_REWARD",
             "patch": "6.1",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
         },
         "x341": {
             "name_en": "Azure Conflict",
             "name_fr": "Crystalline Conflict : Bleu",
             "category": "@CATEGORY.PVP",
             "source": "@SOURCE.SERIES_REWARD",
-            "patch": "6.2",
-            "defaultCompletion": "X"
+            "patch": "6.1",
+            "defaultCompletion": "X",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
         },
         "x342": {
             "name_en": "Crimson Conflict",
             "name_fr": "Crystalline Conflict : Rouge",
             "category": "@CATEGORY.PVP",
             "source": "@SOURCE.SERIES_REWARD",
-            "patch": "6.2",
-            "defaultCompletion": "X"
+            "patch": "6.1",
+            "defaultCompletion": "X",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
         },
         "x427": {
             "name_en": "Falcons",
@@ -515,7 +1043,8 @@
             "category": "@CATEGORY.PVP",
             "source": "@SOURCE.SERIES_REWARD",
             "patch": "6.3",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
         },
         "x428": {
             "name_en": "Ravens",
@@ -523,7 +1052,8 @@
             "category": "@CATEGORY.PVP",
             "source": "@SOURCE.SERIES_REWARD",
             "patch": "6.3",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
         },
         "x520": {
             "name_en": "Aramitama Waves",
@@ -531,7 +1061,8 @@
             "category": "@CATEGORY.PVP",
             "source": "@SOURCE.SERIES_REWARD",
             "patch": "6.4",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
         },
         "x521": {
             "name_en": "Nigimitama Waves",
@@ -539,7 +1070,8 @@
             "category": "@CATEGORY.PVP",
             "source": "@SOURCE.SERIES_REWARD",
             "patch": "6.4",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
         },
         "x578": {
             "name_en": "Palaistra",
@@ -547,7 +1079,8 @@
             "category": "@CATEGORY.PVP",
             "source": "@SOURCE.SERIES_REWARD",
             "patch": "6.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
         },
         "x579": {
             "name_en": "Cloud Nine",
@@ -555,7 +1088,8 @@
             "category": "@CATEGORY.PVP",
             "source": "@SOURCE.SERIES_REWARD",
             "patch": "6.5",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
         },
         "x683": {
             "name_en": "Volcanic Heart",
@@ -563,7 +1097,8 @@
             "category": "@CATEGORY.PVP",
             "source": "@SOURCE.SERIES_REWARD",
             "patch": "7.0",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
         },
         "x684": {
             "name_en": "Clockwork Castletown",
@@ -571,7 +1106,8 @@
             "category": "@CATEGORY.PVP",
             "source": "@SOURCE.SERIES_REWARD",
             "patch": "7.0",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
         },
         "x757": {
             "name_en": "Red Sands",
@@ -579,7 +1115,8 @@
             "category": "@CATEGORY.PVP",
             "source": "@SOURCE.SERIES_REWARD",
             "patch": "7.1",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
         },
         "x756": {
             "name_en": "Seal Rock",
@@ -587,7 +1124,8 @@
             "category": "@CATEGORY.PVP",
             "source": "@SOURCE.SERIES_REWARD",
             "patch": "7.1",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "decorations": ["@PORTRAIT.BACKGROUND", "@PORTRAIT.FRAME", "@PORTRAIT.ACCENT"]
         },
         "x523": {
             "name_en": "Ten Year Anniversary",
@@ -595,39 +1133,82 @@
             "category": "@CATEGORY.EVENT",
             "source_en": "10 Irregular Tomestone of Tenfold Pageantry",
             "source_fr": "10 Mémoquartz allagois festif inhabituel 2023",
-            "patch": "6.48",
-            "defaultCompletion": "X"
+            "patch": "6.4",
+            "defaultCompletion": "X",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x575": {
             "name_en": "Blunderful",
             "name_fr": "Blunderville 1",
             "category": "@CATEGORY.EVENT",
             "source": "@200 CURRENCY.MGF",
-            "patch": "6.51",
-            "defaultCompletion": "X"
+            "patch": "6.5",
+            "defaultCompletion": "X",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER"
+            ]
         },
         "x576": {
             "name_en": "Blunderous",
             "name_fr": "Blunderville 2",
             "category": "@CATEGORY.EVENT",
             "source": "@200 CURRENCY.MGF",
-            "patch": "6.51",
-            "defaultCompletion": "X"
+            "patch": "6.5",
+            "defaultCompletion": "X",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER"
+            ]
         },
         "x577": {
             "name_en": "Blunder-villed",
             "name_fr": "Blunderville 3",
             "category": "@CATEGORY.EVENT",
             "source": "@200 CURRENCY.MGF",
-            "patch": "6.51",
-            "defaultCompletion": "X"
+            "patch": "6.5",
+            "defaultCompletion": "X",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER"
+            ]
         },
         "x607": {
             "name_en": "Yo-kai Watch",
             "name_fr": "Yo-kai Watch",
             "category": "@CATEGORY.GOLD_SAUCER",
             "source": "@20,000 CURRENCY.MGP",
-            "patch": "6.58"
+            "patch": "6.5",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.TOP_BORDER",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x154": {
             "name_en": "Companion 1",
@@ -636,7 +1217,17 @@
             "source_en": "Companion App - Linked",
             "source_fr": "Companion App - Lié",
             "patch": "6.1",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         },
         "x155": {
             "name_en": "Companion 2",
@@ -645,7 +1236,17 @@
             "source_en": "Companion App - Premium",
             "source_fr": "Companion App - Premium",
             "patch": "6.1",
-            "defaultCompletion": "X"
+            "defaultCompletion": "X",
+            "decorations": [
+                "@PORTRAIT.BACKGROUND",
+                "@PORTRAIT.FRAME",
+                "@PORTRAIT.ACCENT",
+                "@PLATE.BASE",
+                "@PLATE.BACKING",
+                "@PLATE.PORTRAIT_FRAME",
+                "@PLATE.FRAME",
+                "@PLATE.ACCENT"
+            ]
         }
     }
 }
