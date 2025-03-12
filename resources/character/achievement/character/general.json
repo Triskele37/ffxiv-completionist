@@ -201,9 +201,9 @@
             "points": 30,
             "cPrev": ["a.2277", "a.2923", "a.2924"]
         },
-		"x3462": {
+        "x3462": {
             "cCombo": ["a.3464"],
-			"cPrevAt": {
+            "cPrevAt": {
                 "100": ["cj.0", "cj.1", "cj.7", "cj.8", "cj.11", "cj.9", "cj.2", "cj.12", "cj.10", "cj.3", "cj.13", "cj.30", "cj.31"]
             },
             "cSiblings": ["t.725"],
@@ -217,7 +217,7 @@
         },
         "x3463": {
             "cCombo": ["a.3464"],
-			"cPrevAt": {
+            "cPrevAt": {
                 "100": ["cj.4", "cj.5", "cj.14", "cj.15", "cj.6", "cj.16", "cj.29", "cj.32"]
             },
             "cSiblings": ["t.726"],
@@ -230,7 +230,7 @@
             "reward": "t.726"
         },
         "x3464": {
-			"cPrev": ["a.2925", "a.3462", "a.3463"],
+            "cPrev": ["a.2925", "a.3462", "a.3463"],
             "description_en": "Obtain the achievements “Mastering War VI” and “Mastering Magic VI.”",
             "description_fr": "Accomplir les hauts faits “Mythe de la guerre” et “Mythe de la magie”.",
             "name_en": "A Life of Adventure VI",
@@ -773,7 +773,7 @@
             "points": 5
         },
         "x3546": {
-			"cPrev": ["a.3540", "a.3541", "a.3542", "a.3543", "a.3544", "a.3545"],
+            "cPrev": ["a.3540", "a.3541", "a.3542", "a.3543", "a.3544", "a.3545"],
             "description_en": "Obtain “Freebird” achievements for Urqopacha, Kozama'uka, Yak T'el, Shaaloani, Heritage Found, and Living Memory.",
             "description_fr": "S'harmoniser avec tous les vents éthérés d'Urqopacha, de Kozama'uka, de Yak T'el, de Shaaloani, de l'Hoirie recouvrée, et de la Mémoire vivante.",
             "name_en": "Frequent Flyer V",
@@ -1459,9 +1459,10 @@
             "reward": "t.699",
             "patch": "6.5",
             "points": 10,
-            "cPrev": ["a.3354"]
+            "cPrev": ["a.3354"],
+            "cSiblings": ["t.699"]
         },
-		"x3592": {
+        "x3592": {
             "cNext": ["a.3593"],
             "description_en": "Achieve a satisfaction level of 1 with Nitowikwe.",
             "description_fr": "Atteindre le rang 1 de satisfaction auprès de Nitowikwe.",
