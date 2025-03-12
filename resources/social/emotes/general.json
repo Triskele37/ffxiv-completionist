@@ -70,7 +70,8 @@
             "source": "@SOURCE.SERIES_REWARD",
             "command_en": "/handtoheart",
             "command_fr": "/handtoheart, /mainsurlapoitrine, /mainpoit",
-            "patch": "6.4"
+            "patch": "6.4",
+            "defaultCompletion": "X"
         },
         "x146": {
             "name_en": "Dote",
@@ -89,7 +90,8 @@
             "source": "@SOURCE.SERIES_REWARD",
             "command_en": "/determined",
             "command_fr": "/determined, /détermination",
-            "patch": "6.1"
+            "patch": "6.1",
+            "defaultCompletion": "X"
         },
         "x110": {
             "name_en": "Huzzah",
@@ -288,7 +290,8 @@
             "source": "@SOURCE.MOG_STATION",
             "command_en": "/magictrick",
             "command_fr": "/magictrick, /tourdemagie, /tourmag",
-            "patch": "6.4"
+            "patch": "6.4",
+            "defaultCompletion": "X"
         },
         "x267": {
             "name_en": "All Saints' Charm",
@@ -297,7 +300,8 @@
             "source": "@EVENT.ALL_SAINTS_WAKE (2023)",
             "command_en": "/allsaintscharm",
             "command_fr": "/allsaintscharm, /sortilègedelaveillée, /sortveillée",
-            "patch": "6.4"
+            "patch": "6.4",
+            "defaultCompletion": "X"
         },
         "x258": {
             "name_en": "Jump for Joy 1",
@@ -307,7 +311,8 @@
             "command_en": "/jumpforjoy1, /jj1",
             "command_fr": "/jumpforjoy1, /jj1, /sautdejoie1, /jj1",
             "patch": "6.5",
-            "cSiblings": [259, 260, 261, 262]
+            "cSiblings": [259, 260, 261, 262],
+            "defaultCompletion": "X"
         },
         "x259": {
             "name_en": "Jump for Joy 2",
@@ -317,7 +322,8 @@
             "command_en": "/jumpforjoy2, /jj2",
             "command_fr": "/jumpforjoy2, /jj2, /sautdejoie2, /jj2",
             "patch": "6.5",
-            "cSiblings": [258, 260, 261, 262]
+            "cSiblings": [258, 260, 261, 262],
+            "defaultCompletion": "X"
         },
         "x260": {
             "name_en": "Jump for Joy 3",
@@ -327,7 +333,8 @@
             "command_en": "/jumpforjoy3, /jj3",
             "command_fr": "/jumpforjoy3, /jj3, /sautdejoie3, /jj3",
             "patch": "6.5",
-            "cSiblings": [258, 259, 261, 262]
+            "cSiblings": [258, 259, 261, 262],
+            "defaultCompletion": "X"
         },
         "x261": {
             "name_en": "Jump for Joy 4",
@@ -337,7 +344,8 @@
             "command_en": "/jumpforjoy4, /jj4",
             "command_fr": "/jumpforjoy4, /jj4, /sautdejoie4, /jj4",
             "patch": "6.5",
-            "cSiblings": [258, 259, 260, 262]
+            "cSiblings": [258, 259, 260, 262],
+            "defaultCompletion": "X"
         },
         "x262": {
             "name_en": "Jump for Joy 5",
@@ -347,7 +355,8 @@
             "command_en": "/jumpforjoy5, /jj5",
             "command_fr": "/jumpforjoy5, /jj5, /sautdejoie5, /jj5",
             "patch": "6.5",
-            "cSiblings": [258, 259, 260, 261]
+            "cSiblings": [258, 259, 260, 261],
+            "defaultCompletion": "X"
         },
         "x276": {
             "name_en": "Victory Reveal",
@@ -375,7 +384,8 @@
             "source": "@EVENT.MOONFIRE_FAIRE (2024)",
             "command_en": "/uchiwasshoi, /bigfan",
             "command_fr": "/uchiwasshoi, /bigfan, /grandéventail, /géventail",
-            "patch": "7.0"
+            "patch": "7.0",
+            "defaultCompletion": "X"
         },
         "x245": {
             "name_en": "Deride",
@@ -394,7 +404,8 @@
             "source": "@EVENT.HATCHINGTIDE (2023)",
             "command_en": "/frighten",
             "command_fr": "/frighten, /effrayer",
-            "patch": "6.3"
+            "patch": "6.3",
+            "defaultCompletion": "X"
         },
         "x171": {
             "name_en": "Aback",
@@ -551,7 +562,8 @@
             "source": "@EVENT.LITTLE_LADIES_DAY (2023)",
             "command_en": "/littleladiesdance, /ladance",
             "command_fr": "/littleladiesdance, /ladance, /dansedesprincesses, /dansprinc",
-            "patch": "6.3"
+            "patch": "6.3",
+            "defaultCompletion": "X"
         },
         "x191": {
             "name_en": "Tomestone",
@@ -648,7 +660,8 @@
             "source_fr": "KFC Promotion (JP Only)",
             "command_en": "/eatchicken",
             "command_fr": "/eatchicken, /mangerdupouletfrit, /mangpoul",
-            "patch": "6.5"
+            "patch": "6.5",
+            "defaultCompletion": "X"
         },
         "x239": {
             "name_en": "Drink Tea",
@@ -667,7 +680,8 @@
             "source": "@SOURCE.MOG_STATION",
             "command_en": "/fryegg",
             "command_fr": "/fryegg, /cuisinerunoeufauplat, /cuisoeuf",
-            "patch": "7.1"
+            "patch": "7.1",
+            "defaultCompletion": "X"
         },
         "x207": {
             "name_en": "Read",
@@ -723,7 +737,8 @@
             "source": "@SOURCE.SERIES_REWARD",
             "command_en": "/linkpearl",
             "command_fr": "/linkpearl, /appelvialinkperle, /applink",
-            "patch": "6.3"
+            "patch": "6.3",
+            "defaultCompletion": "X"
         },
         "x257": {
             "name_en": "Advent of Light",
@@ -732,7 +747,8 @@
             "source": "@SOURCE.MOG_STATION",
             "command_en": "/adventoflight, /advent",
             "command_fr": "/adventoflight, /advent, /envolhéroïque, /envhér",
-            "patch": "6.4"
+            "patch": "6.4",
+            "defaultCompletion": "X"
         },
         "x284": {
             "hidden": true,

@@ -20,7 +20,7 @@ var ConfigStore_1 = require("./ConfigStore");
  * Debug Flag
  * - shows the main window regardless of load state (allows console access)
  */
-var DEBUG_MODE = true;
+var DEBUG_MODE = false;
 var WindowStore = /** @class */ (function () {
     function WindowStore() {
     }

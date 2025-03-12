@@ -254,7 +254,8 @@
             "source": "@SOURCE.MOG_STATION",
             "command_en": "/cheerjumpgreen, /cheergreen",
             "command_fr": "/cheerjumpgreen, /cheergreen, /encouragervert",
-            "patch": "6.4"
+            "patch": "6.4",
+            "defaultCompletion": "X"
         },
         "x265": {
             "name_en": "Cheer Wave: Violet",
@@ -263,7 +264,8 @@
             "source": "@SOURCE.MOG_STATION",
             "command_en": "/cheerwaveviolet, /cheerviolet",
             "command_fr": "/cheerwaveviolet, /cheerviolet, /encouragerviolet",
-            "patch": "6.4"
+            "patch": "6.4",
+            "defaultCompletion": "X"
         },
         "x264": {
             "name_en": "Cheer On: Bright",
@@ -272,7 +274,8 @@
             "source": "@SOURCE.MOG_STATION",
             "command_en": "/cheeronbright, /cheerbright",
             "command_fr": "/cheeronbright, /cheerbright, /encouragerblanc",
-            "patch": "6.4"
+            "patch": "6.4",
+            "defaultCompletion": "X"
         },
         "x176": {
             "name_en": "Yol Dance",
@@ -412,13 +415,12 @@
         "x274": {
             "name_en": "Love Heart",
             "name_fr": "Pose en cœur",
-
             "category": "@CATEGORY.EVENT",
-            "source_en": "Valentione's Day (2024)",
-            "source_fr": "Valention (2024)",
-            "patch": "6.5",
+            "source": "@EVENT.VALENTIONES_DAY (2024)",
             "command_en": "/loveheart, /heart",
-            "command_fr": "/loveheart, /heart, /poseencoeur, /coeur"
+            "command_fr": "/loveheart, /heart, /poseencoeur, /coeur",
+            "patch": "6.5",
+            "defaultCompletion": "X"
         },
         "x283": {
             "name_en": "Bouquet",
@@ -427,7 +429,8 @@
             "source": "@EVENT.VALENTIONES_DAY (2025)",
             "command_en": "/bouquet",
             "command_fr": "/bouquet, /offrirfleurs, /fleurs",
-            "patch": "7.1"
+            "patch": "7.1",
+            "defaultCompletion": "X"
         },
         "x155": {
             "name_en": "Squats",
@@ -563,7 +566,8 @@
             "source": "@SOURCE.SERIES_REWARD",
             "command_en": "/slump",
             "command_fr": "/slump, /êtreaccablé, /accablé",
-            "patch": "6.5"
+            "patch": "6.5",
+            "defaultCompletion": "X"
         },
         "x143": {
             "name_en": "Play Dead",
@@ -649,7 +653,8 @@
             "source": "@SOURCE.SERIES_REWARD",
             "command_en": "/spirit",
             "command_fr": "/spirit, /apprécierlespectacle, /apprécispectacle",
-            "patch": "6.28"
+            "patch": "6.28",
+            "defaultCompletion": "X"
         },
         "x279": {
             "name_en": "Attend",
@@ -658,7 +663,8 @@
             "source": "@SOURCE.SERIES_REWARD",
             "command_en": "/attend",
             "command_fr": "/attend, /attendreordre, /attordre",
-            "patch": "7.1"
+            "patch": "7.1",
+            "defaultCompletion": "X"
         },
         "x281": {
             "name_en": "Shake Drink",
@@ -753,7 +759,8 @@
             "source_fr": "Objet inclus avec la Meister Quality Figure Hydaelyn & Zodiark",
             "command_en": "/sundering, /exodus",
             "command_fr": "/sundering, /exodus, /exode",
-            "patch": "6.5"
+            "patch": "6.5",
+            "defaultCompletion": "X"
         }
     }
 }

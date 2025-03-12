@@ -10,9 +10,10 @@
             "header": "@HEADER.NAME"
         },
         "emote": {
-            "filterable": true,
             "header_en": "Emote",
-            "header_fr": "Emote"
+            "header_fr": "Emote",
+            "filterable": true,
+            "link": true
         },
         "zone": {
             "header": "@HEADER.ZONE"
