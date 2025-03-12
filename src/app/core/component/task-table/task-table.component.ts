@@ -167,14 +167,14 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
             });
 
             // Sort
-            if(column.filterType === 'number') {
-                unique[key].sort((a, b) =>
-                    parseInt(a, 10) - parseInt(b, 10)
-                );
-            }
-            else {
-                unique[key].sort();
-            }
+            unique[key].sort((rawA, rawB) => {
+                const a = rawA?.toString();
+                const b = rawB?.toString();
+                return a.localeCompare(b, undefined, { numeric: true });
+            });
+
+            // Invert certain column lists
+            if(key === 'patch') unique[key].reverse();
         });
 
         return unique;
