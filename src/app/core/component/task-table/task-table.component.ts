@@ -78,12 +78,12 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
                 (t) => t.fullStorageKey === this.svcNavigation.selectedTask.fullStorageKey
             );
 
-            if(index !== -1) {
+            if(index > 0) {
                 // Clear the selectedTask
                 this.svcNavigation.selectedTask = null;
 
                 // scrollTo cannot take place in this same tick
-                setTimeout(() => this._taskTable.scrollToVirtualIndex(index), 1);
+                setTimeout(() => this._taskTable.scrollToVirtualIndex(index - 1), 1);
             }
         }
         else {
