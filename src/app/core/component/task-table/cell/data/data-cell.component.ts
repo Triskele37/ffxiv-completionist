@@ -15,6 +15,8 @@ type LinkData = {
     post?: string; // Text after the link
 };
 
+const PRE_LINK_POST_REGEX = /^([^.]*)\b([a-z]+[a-z0-9-]*\.[a-z0-9-.]+)\b([^.]*)$/;
+
 @Component({
     selector: 'xiv-data-cell',
     templateUrl: './data-cell.component.html',
@@ -81,32 +83,22 @@ export class DataCellComponent implements OnChanges, OnDestroy {
 
     getLinkFromPath(pathOrValue: string): LinkData {
         if(this.column.link && pathOrValue) {
-            const segments = pathOrValue.split(' ');
-            const linkRegex = /[a-z]+[a-z0-9-]*\.[a-z0-9-.]+/;
-            const linkIndex = segments.findIndex((s) => s.match(linkRegex));
+            const [, pre, link, post] = pathOrValue.match(PRE_LINK_POST_REGEX) ?? [];
 
-            if(linkIndex !== -1) {
-                const rawLink = segments[linkIndex];
-                const content = getChild(this.svcData.data, rawLink);
+            if(link) {
+                const content = getChild(this.svcData.data, link);
                 const linkData: Partial<LinkData> = {};
 
-                if(content?.xivDataType === 'Group') {
+                if(content) {
                     linkData.value = content;
-                    linkData.type = 'Group'
-                }
-                else if(content?.xivDataType === 'Task') {
-                    linkData.value = content;
-                    linkData.type = 'Task';
+                    linkData.type = content.xivDataType;
+                    if(pre) linkData.pre = pre;
+                    if(post) linkData.post = post;
+                    return linkData as LinkData;
                 }
                 else {
-                    linkData.value = rawLink;
-                    linkData.type = 'Value';
+                    return { value: pathOrValue, type: 'Value' };
                 }
-
-                linkData.pre = segments.slice(0, linkIndex).join(' ');
-                linkData.post = segments.slice(linkIndex + 1).join(' ');
-
-                return linkData as LinkData;
             }
             else {
                 return { value: pathOrValue, type: 'Value' };
