@@ -106,7 +106,7 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
                     result = (a < b) ? -1 : (a > b) ? 1 : 0;
                 }
                 else {
-                    result = this.compareStringOrLink(a, b);
+                    result = this.compareStringOrLink(a, b, field);
                 }
 
                 if(result) return result * order;
@@ -117,7 +117,7 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
         this.filteredTasks = [...$event.data];
     }
 
-    compareStringOrLink(a: string | string[], b: string | string[]): number {
+    compareStringOrLink(a: string | string[], b: string | string[], field: string): number {
         // In case of an array of links, take the first
         let aVal = Array.isArray(a) ? a[0] : a;
         let bVal = Array.isArray(b) ? b[0] : b;
@@ -134,7 +134,14 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
         aVal = aVal.replace(this.alphanumericRegex, '');
         bVal = bVal.replace(this.alphanumericRegex, '');
 
-        return aVal.localeCompare(bVal, undefined, { numeric: true });
+        // Special handling for patch
+        // 3.35 sorts after 3.3 due to how patch numbers are used
+        if(field === 'patch') {
+            return aVal.localeCompare(bVal);
+        }
+        else {
+            return aVal.localeCompare(bVal, undefined, { numeric: true });
+        }
     }
 
     //#endregion

@@ -62,10 +62,8 @@ function pathToKey(root: string, p: string): string {
  * Get the resource root based on environment
  */
 function getResourcesRoot() {
-    if(process.env.NODE_ENV === 'production' && process.resourcesPath) {
-        return `${process.resourcesPath}/resources`;
-    }
-    else {
-        return './resources';
-    }
+    const isDev = process.resourcesPath.includes('electron') &&
+        process.resourcesPath.includes('node_modules');
+
+    return isDev ? './resources' : `${process.resourcesPath}/resources`;
 }

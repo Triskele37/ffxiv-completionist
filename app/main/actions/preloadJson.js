@@ -136,11 +136,8 @@ function pathToKey(root, p) {
  * Get the resource root based on environment
  */
 function getResourcesRoot() {
-    if (process.env.NODE_ENV === 'production' && process.resourcesPath) {
-        return "".concat(process.resourcesPath, "/resources");
-    }
-    else {
-        return './resources';
-    }
+    var isDev = process.resourcesPath.includes('electron') &&
+        process.resourcesPath.includes('node_modules');
+    return isDev ? './resources' : "".concat(process.resourcesPath, "/resources");
 }
 //# sourceMappingURL=preloadJson.js.map

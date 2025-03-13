@@ -30,8 +30,24 @@ export function migrateQuests(store: ChangeStore): void {
     migrateTribalAGAIN(store);
     migrateOtherQuests(store);
 
+    // Merge the 2/3 Call of the Seas
+    const SUE = `${QUEST}.main-scenario.seventh-umbral-era-main-scenario-quests`;
+    if(store.getTask(`${SUE}.uldah`, 66209) === 'Y') {
+        store.deleteTask(`${SUE}.uldah`, 66209);
+        store.setTask(SUE, 66210, 'Y');
+    }
+    else if(store.getTask(`${SUE}.gridania`, 66210) === 'Y') {
+        store.deleteTask(`${SUE}.gridania`, 66210);
+        store.setTask(SUE, 66210, 'Y');
+    }
+    else if(store.getTask(`${SUE}.limsa-lominsa`, 66210) === 'Y') {
+        store.deleteTask(`${SUE}.limsa-lominsa`, 66210);
+        store.setTask(SUE, 66210, 'Y');
+    }
+
     // Actually updated the quest reference for Steps of Faith
-    store.changeKey(`${QUEST}.main-scenario.seventh-astral-era-main-scenario-quests`, 65955, 70127, true);
+    const SAE = `${QUEST}.main-scenario.seventh-astral-era-main-scenario-quests`;
+    store.changeKey(SAE, 65955, 70127, true);
 
     store.moveTask(
         `${QUEST}.sidequests.weapon-enhancement-sidequests.resistance-weapons`,

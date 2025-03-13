@@ -4,6 +4,17 @@
     "groupName_fr": "Chroniques 7e ère ombrale",
     "order": ["gridania", "limsa-lominsa", "uldah"],
     "tasks": {
+        "x66210": {
+            "level": 15,
+            "name_en": "Call of the Sea",
+            "name_fr": "L'appel de la mer",
+            "npc_en": "Bartholomew",
+            "npc_fr": "Bartholomew",
+            "cPrevAny": true,
+            "cPrev": ["q.66043", "q.66064", "q.66082"],
+            "cNext": ["q.66746", "q.66967", "q.66681", "q.66678"],
+            "patch": "4.31"
+        },
         "x65781": {
             "level": 15,
             "name_en": "It's Probably Pirates",
