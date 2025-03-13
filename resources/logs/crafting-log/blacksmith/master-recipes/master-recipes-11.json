@@ -3,16 +3,16 @@
     "groupName_en": "Master Recipes (11)",
     "groupName_fr": "Expert - tome 11",
     "tasks": {
+        "x35908": {
+            "level": "100 ★★",
+            "name_en": "Maraging Steel Ingot",
+            "name_fr": "Lingot d'acier maraging",
+            "patch": "7.05"
+        },
         "x35830": {
             "level": "100 ★★",
             "name_en": "Archeo Kingdom Broadsword",
             "name_fr": "Épée large de l'ancien royaume",
-            "patch": "7.05"
-        },
-        "x35831": {
-            "level": "100 ★★",
-            "name_en": "Archeo Kingdom Patas",
-            "name_fr": "Patas de l'ancien royaume",
             "patch": "7.05"
         },
         "x35832": {
@@ -27,28 +27,10 @@
             "name_fr": "Claymore de l'ancien royaume",
             "patch": "7.05"
         },
-        "x35841": {
-            "level": "100 ★★",
-            "name_en": "Archeo Kingdom Culverin",
-            "name_fr": "Couleuvrine de l'ancien royaume",
-            "patch": "7.05"
-        },
-        "x35843": {
-            "level": "100 ★★",
-            "name_en": "Archeo Kingdom Samurai Blade",
-            "name_fr": "Lame de samouraï de l'ancien royaume",
-            "patch": "7.05"
-        },
         "x35845": {
             "level": "100 ★★",
             "name_en": "Archeo Kingdom Gunblade",
             "name_fr": "Pistolame de l'ancien royaume",
-            "patch": "7.05"
-        },
-        "x35846": {
-            "level": "100 ★★",
-            "name_en": "Archeo Kingdom Chakrams",
-            "name_fr": "Chakrams de l'ancien royaume",
             "patch": "7.05"
         },
         "x35847": {
@@ -57,16 +39,34 @@
             "name_fr": "Faucille de l'ancien royaume",
             "patch": "7.05"
         },
+        "x35831": {
+            "level": "100 ★★",
+            "name_en": "Archeo Kingdom Patas",
+            "name_fr": "Patas de l'ancien royaume",
+            "patch": "7.05"
+        },
+        "x35843": {
+            "level": "100 ★★",
+            "name_en": "Archeo Kingdom Samurai Blade",
+            "name_fr": "Lame de samouraï de l'ancien royaume",
+            "patch": "7.05"
+        },
         "x35849": {
             "level": "100 ★★",
             "name_en": "Archeo Kingdom Twinfangs",
             "name_fr": "Crochets jumeaux de l'ancien royaume",
             "patch": "7.05"
         },
-        "x35908": {
+        "x35841": {
             "level": "100 ★★",
-            "name_en": "Maraging Steel Ingot",
-            "name_fr": "Lingot d'acier maraging",
+            "name_en": "Archeo Kingdom Culverin",
+            "name_fr": "Couleuvrine de l'ancien royaume",
+            "patch": "7.05"
+        },
+        "x35846": {
+            "level": "100 ★★",
+            "name_en": "Archeo Kingdom Chakrams",
+            "name_fr": "Chakrams de l'ancien royaume",
             "patch": "7.05"
         },
         "x35959": {
@@ -75,16 +75,34 @@
             "name_fr": "Scie de bourlingueur invétéré",
             "patch": "7.1"
         },
+        "x35970": {
+            "level": "100 ★★",
+            "name_en": "Everseeker's Claw Hammer",
+            "name_fr": "Marteau arrache-clou de bourlingueur invétéré",
+            "patch": "7.1"
+        },
         "x35960": {
             "level": "100 ★★",
             "name_en": "Everseeker's Cross-pein Hammer",
             "name_fr": "Marteau à panne croisée de bourlingueur invétéré",
             "patch": "7.1"
         },
+        "x35971": {
+            "level": "100 ★★",
+            "name_en": "Everseeker's File",
+            "name_fr": "Lime de bourlingueur invétéré",
+            "patch": "7.1"
+        },
         "x35961": {
             "level": "100 ★★",
             "name_en": "Everseeker's Raising Hammer",
             "name_fr": "Marteau de batteur de bourlingueur invétéré",
+            "patch": "7.1"
+        },
+        "x35972": {
+            "level": "100 ★★",
+            "name_en": "Everseeker's Pliers",
+            "name_fr": "Tenailles de bourlingueur invétéré",
             "patch": "7.1"
         },
         "x35962": {
@@ -97,36 +115,6 @@
             "level": "100 ★★",
             "name_en": "Everseeker's Creasing Knife",
             "name_fr": "Couteau de tanneur de bourlingueur invétéré",
-            "patch": "7.1"
-        },
-        "x35967": {
-            "level": "100 ★★",
-            "name_en": "Everseeker's Pickaxe",
-            "name_fr": "Pioche de bourlingueur invétéré",
-            "patch": "7.1"
-        },
-        "x35968": {
-            "level": "100 ★★",
-            "name_en": "Everseeker's Hatchet",
-            "name_fr": "Hachette de bourlingueur invétéré",
-            "patch": "7.1"
-        },
-        "x35970": {
-            "level": "100 ★★",
-            "name_en": "Everseeker's Claw Hammer",
-            "name_fr": "Marteau arrache-clou de bourlingueur invétéré",
-            "patch": "7.1"
-        },
-        "x35971": {
-            "level": "100 ★★",
-            "name_en": "Everseeker's File",
-            "name_fr": "Lime de bourlingueur invétéré",
-            "patch": "7.1"
-        },
-        "x35972": {
-            "level": "100 ★★",
-            "name_en": "Everseeker's Pliers",
-            "name_fr": "Tenailles de bourlingueur invétéré",
             "patch": "7.1"
         },
         "x35974": {
@@ -147,10 +135,22 @@
             "name_fr": "Couteau de cuisine de bourlingueur invétéré",
             "patch": "7.1"
         },
+        "x35967": {
+            "level": "100 ★★",
+            "name_en": "Everseeker's Pickaxe",
+            "name_fr": "Pioche de bourlingueur invétéré",
+            "patch": "7.1"
+        },
         "x35978": {
             "level": "100 ★★",
             "name_en": "Everseeker's Sledgehammer",
             "name_fr": "Maillet de bourlingueur invétéré",
+            "patch": "7.1"
+        },
+        "x35968": {
+            "level": "100 ★★",
+            "name_en": "Everseeker's Hatchet",
+            "name_fr": "Hachette de bourlingueur invétéré",
             "patch": "7.1"
         },
         "x35979": {
