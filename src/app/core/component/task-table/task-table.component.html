@@ -3,7 +3,7 @@
         [group]="group"
         [tasks]="filteredTasks"
         [totalTasks]="tasks?.length"
-        (onDataChange)="updateFilteredTasks()"
+        (onDataChange)="updateFilteredTasks(true)"
     ></xiv-task-table-toolbar>
 
     <div class="task-table-scroll-container">
@@ -34,7 +34,7 @@
                     [rowIndex]="rowIndex"
                     [group]="group"
                     [task]="task"
-                    (completionChange)="updateFilteredTasks()"
+                    (completionChange)="updateFilteredTasks(true)"
                 ></xiv-data-row>
             </ng-template>
         </p-table>

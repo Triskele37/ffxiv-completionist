@@ -20,6 +20,7 @@ import { SaveStoreService } from '@service/store/save-store.service';
 import { getLinkedName } from '@util/getLinkedName';
 
 import { UniqueValues } from './types';
+import { from } from 'rxjs';
 
 @Component({
     selector: 'xiv-task-table',
@@ -151,8 +152,8 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
         this.updateFilteredTasks();
     }
 
-    updateFilteredTasks(): void {
-        const originalTop = this._taskTable?.scroller?.lastScrollPos
+    updateFilteredTasks(fromSameGroup?: boolean): void {
+        const originalTop = fromSameGroup ? this._taskTable?.scroller?.lastScrollPos : 0;
 
         this.filteredTasks = this.svcFilter.filterTasks(this.group, this.tasks);
         this.uniqueValues = this._uniqueValues;
