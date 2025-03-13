@@ -761,6 +761,26 @@
             "command_fr": "/sundering, /exodus, /exode",
             "patch": "6.5",
             "defaultCompletion": "X"
+        },
+        "x50": {
+            "name_en": "Sit",
+            "name_fr": "S'asseoir",
+            "category": "",
+            "source": "@SOURCE.STANDARD",
+            "command_en": "/lounge, /sit, /sit, /lounge",
+            "command_fr": "/lounge, /sit, /asseoir, /lounge",
+            "patch": "2.0",
+            "defaultCompletion": "Y"
+        },
+        "x52": {
+            "name_en": "Sit on Ground",
+            "name_fr": "S'asseoir par terre",
+            "category": "",
+            "source": "@SOURCE.STANDARD",
+            "command_en": "/groundsit",
+            "command_fr": "/groundsit, /asseoirparterre",
+            "patch": "2.0",
+            "defaultCompletion": "Y"
         }
     }
 }

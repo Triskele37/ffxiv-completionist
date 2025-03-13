@@ -23,6 +23,16 @@
             "patch": "4.2",
             "cSiblings": ["q.68558"]
         },
+        "x31": {
+            "name_en": "Salute",
+            "name_fr": "Saluer",
+            "category": "",
+            "source": "@SOURCE.STANDARD",
+            "command_en": "/salute",
+            "command_fr": "/salute, /saluer",
+            "patch": "2.0",
+            "defaultCompletion": "Y"
+        },
         "x59": {
             "name_en": "Imperial Salute",
             "name_fr": "Salut impérial",
@@ -62,6 +72,46 @@
             "command_fr": "/ohokaliy, /ohokaliy, /hanuhanu",
             "patch": "7.1",
             "cSiblings": ["q.70729"]
+        },
+        "x34": {
+            "name_en": "Rally",
+            "name_fr": "Stimuler",
+            "category": "",
+            "source": "@SOURCE.STANDARD",
+            "command_en": "/rally",
+            "command_fr": "/rally, /stimuler",
+            "patch": "2.0",
+            "defaultCompletion": "Y"
+        },
+        "x9": {
+            "name_en": "Comfort",
+            "name_fr": "Consoler",
+            "category": "",
+            "source": "@SOURCE.STANDARD",
+            "command_en": "/comfort",
+            "command_fr": "/comfort, /consoler",
+            "patch": "2.0",
+            "defaultCompletion": "Y"
+        },
+        "x30": {
+            "name_en": "Psych",
+            "name_fr": "Se motiver",
+            "category": "",
+            "source": "@SOURCE.STANDARD",
+            "command_en": "/psych",
+            "command_fr": "/psych, /motivation, /moral",
+            "patch": "2.0",
+            "defaultCompletion": "Y"
+        },
+        "x58": {
+            "name_en": "Pray",
+            "name_fr": "Prier",
+            "category": "",
+            "source": "@SOURCE.STANDARD",
+            "command_en": "/pray",
+            "command_fr": "/pray, /prier",
+            "patch": "2.0",
+            "defaultCompletion": "Y"
         },
         "x263": {
             "name_en": "Hand to Heart",
@@ -465,6 +515,46 @@
             "command_fr": "/splash, /éclabousser",
             "patch": "4.3",
             "defaultCompletion": "X"
+        },
+        "x13": {
+            "name_en": "Doze",
+            "name_fr": "Somnoler",
+            "category": "",
+            "source": "@SOURCE.STANDARD",
+            "command_en": "/doze",
+            "command_fr": "/doze, /somnoler",
+            "patch": "2.0",
+            "defaultCompletion": "Y"
+        },
+        "x27": {
+            "name_en": "Point",
+            "name_fr": "Montrer",
+            "category": "",
+            "source": "@SOURCE.STANDARD",
+            "command_en": "/point",
+            "command_fr": "/point, /montrer",
+            "patch": "2.0",
+            "defaultCompletion": "Y"
+        },
+        "x22": {
+            "name_en": "Lookout",
+            "name_fr": "Scruter",
+            "category": "",
+            "source": "@SOURCE.STANDARD",
+            "command_en": "/lookout",
+            "command_fr": "/lookout, /scruter",
+            "patch": "2.0",
+            "defaultCompletion": "Y"
+        },
+        "x23": {
+            "name_en": "Me",
+            "name_fr": "Moi",
+            "category": "",
+            "source": "@SOURCE.STANDARD",
+            "command_en": "/me",
+            "command_fr": "/me, /moi",
+            "patch": "2.0",
+            "defaultCompletion": "Y"
         },
         "x123": {
             "name_en": "Backflip",
