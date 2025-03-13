@@ -19,9 +19,8 @@
             "name_fr": "Éclat de glace",
             "zone": "@PLACE.WESTERN_LA_NOSCEA",
             "coordinates": "(26, 24)",
-            "closestAetheryte_en": "Aleport",
-            "closestAetheryte_fr": "Port-aux-Ales",
-            "patch": "2.0"
+            "patch": "2.0",
+            "closestAetheryte": "travel.aetherytes.la-noscea.12"
         },
         "x2": {
             "level": "1",
@@ -29,9 +28,8 @@
             "name_fr": "Éclat de vent",
             "zone": "@PLACE.EAST_SHROUD",
             "coordinates": "(20, 27)",
-            "closestAetheryte_en": "The Hawthorne Hut",
-            "closestAetheryte_fr": "Hutte des Hawthorne",
-            "patch": "2.0"
+            "patch": "2.0",
+            "closestAetheryte": "travel.aetherytes.the-black-shroud.24"
         },
         "x3": {
             "level": "1",
@@ -49,9 +47,8 @@
             "name_fr": "Éclat de foudre",
             "zone": "@PLACE.CENTRAL_THANALAN",
             "coordinates": "(14, 23)",
-            "closestAetheryte_en": "Black Brush Station",
-            "closestAetheryte_fr": "Gare de Roncenoire",
-            "patch": "2.0"
+            "patch": "2.0",
+            "closestAetheryte": "travel.aetherytes.thanalan.39"
         },
         "x5": {
             "level": "1",
@@ -59,9 +56,8 @@
             "name_fr": "Éclat d'eau",
             "zone": "@PLACE.WESTERN_THANALAN",
             "coordinates": "(24, 18)",
-            "closestAetheryte_en": "Horizon",
-            "closestAetheryte_fr": "Horizon",
-            "patch": "2.0"
+            "patch": "2.0",
+            "closestAetheryte": "travel.aetherytes.thanalan.38"
         }
     }
 }

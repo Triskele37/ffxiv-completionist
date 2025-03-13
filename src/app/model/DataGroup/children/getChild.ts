@@ -14,8 +14,14 @@ export function getChildTask(group: DataGroup, path: string): Task {
 export function getChild(group: DataGroup, path: string): DataGroup | Task {
     if(typeof path !== 'string') return;
 
+    // Separate pre/post text
+    // NOTE: this means pre/post cannot have a period
+    const textSegments = path.split(' ');
+    const linkPath = textSegments.find((s) => s.includes('.'));
+    if(!linkPath) return;
+
     // Separate the path and id
-    const segments = path.split('.');
+    const segments = linkPath.split('.');
 
     // See if link is an indexed one first
     if(segments.length === 2) {

@@ -68,13 +68,13 @@
 <!-- Content Link -->
 <ng-template #linkTemplate let-link>
     <span class="link-item">
-        <span>{{link.pre}}</span>
+        <span *ngIf="link.pre">{{link.pre}}</span>
 
         <ng-container
             *ngTemplateOutlet="link.type === 'Group' ? groupLink : taskLink"
         ></ng-container>
 
-        <span>{{link.post}}</span>
+        <span *ngIf="link.post">{{link.post}}</span>
     </span>
 
     <ng-template #groupLink>

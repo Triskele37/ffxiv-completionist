@@ -9,9 +9,8 @@
             "name_fr": "Sable de durium noble",
             "zone": "@PLACE.LABYRINTHOS",
             "coordinates": "(22.8, 12.0)",
-            "closestAetheryte_en": "The Archeion",
-            "closestAetheryte_fr": "Archéion",
-            "patch": "6.0"
+            "patch": "6.0",
+            "closestAetheryte": "travel.aetherytes.others.147"
         },
         "x1": {
             "level": "81",
@@ -19,9 +18,8 @@
             "name_fr": "Schiste vert",
             "zone": "@PLACE.LABYRINTHOS",
             "coordinates": "(22.8, 12.0)",
-            "closestAetheryte_en": "The Archeion",
-            "closestAetheryte_fr": "Archéion",
-            "patch": "6.0"
+            "patch": "6.0",
+            "closestAetheryte": "travel.aetherytes.others.147"
         },
         "x7": {
             "level": "81",
@@ -30,9 +28,8 @@
             "zone": "@PLACE.THAVNAIR",
             "patch": "6.28",
             "coordinates": "(10.1, 14.3)",
-            "closestAetheryte_en": "The Great Work",
-            "closestAetheryte_fr": "Le Grand Œuvre",
-            "cSiblings": ["logs.gathering.gathering-log.harvesting.level.81-85.13"]
+            "cSiblings": ["logs.gathering.gathering-log.harvesting.level.81-85.13"],
+            "closestAetheryte": "travel.aetherytes.ilsabard.151"
         },
         "x10": {
             "level": "81",
@@ -50,9 +47,8 @@
             "name_fr": "Matériau pour amélioration de confort d'assise",
             "zone": "@PLACE.LABYRINTHOS",
             "coordinates": "(22.7, 12.1)",
-            "closestAetheryte_en": "The Archeion",
-            "closestAetheryte_fr": "Archéion",
-            "patch": "6.5"
+            "patch": "6.5",
+            "closestAetheryte": "travel.aetherytes.others.147"
         },
         "x2": {
             "level": "81",
@@ -60,9 +56,8 @@
             "name_fr": "Élément nécessaire à la reproduction de la culture de Radz-at-Han",
             "zone": "@PLACE.THAVNAIR",
             "coordinates": "(10.1, 14.3)",
-            "closestAetheryte_en": "The Great Work",
-            "closestAetheryte_fr": "Le Grand Œuvre",
-            "patch": "6.0"
+            "patch": "6.0",
+            "closestAetheryte": "travel.aetherytes.ilsabard.151"
         },
         "x3": {
             "level": "82",
@@ -70,9 +65,8 @@
             "name_fr": "Minerai de plomb-étain",
             "zone": "@PLACE.THAVNAIR",
             "coordinates": "(10.1, 14.3)",
-            "closestAetheryte_en": "The Great Work",
-            "closestAetheryte_fr": "Le Grand Œuvre",
-            "patch": "6.0"
+            "patch": "6.0",
+            "closestAetheryte": "travel.aetherytes.ilsabard.151"
         },
         "x8": {
             "level": "82",
@@ -81,9 +75,8 @@
             "zone": "@PLACE.GARLEMALD",
             "patch": "6.28",
             "coordinates": "(21.0, 29.0)",
-            "closestAetheryte_en": "Camp Broken Glass",
-            "closestAetheryte_fr": "Camp Bris-de-glace",
-            "cSiblings": ["logs.gathering.gathering-log.logging.level.81-85.6"]
+            "cSiblings": ["logs.gathering.gathering-log.logging.level.81-85.6"],
+            "closestAetheryte": "travel.aetherytes.ilsabard.153"
         },
         "x9": {
             "level": "82",
@@ -92,9 +85,8 @@
             "zone": "@PLACE.LABYRINTHOS",
             "patch": "6.28",
             "coordinates": "(22.8, 12.0)",
-            "closestAetheryte_en": "The Archeion",
-            "closestAetheryte_fr": "Archéion",
-            "cSiblings": ["logs.gathering.gathering-log.logging.level.81-85.7"]
+            "cSiblings": ["logs.gathering.gathering-log.logging.level.81-85.7"],
+            "closestAetheryte": "travel.aetherytes.others.147"
         },
         "x11": {
             "level": "82",
@@ -103,9 +95,8 @@
             "zone": "@PLACE.AMH_ARAENG",
             "patch": "6.3",
             "coordinates": "(15.0, 18.5)",
-            "closestAetheryte_en": "Twine",
-            "closestAetheryte_fr": "Queues-liées",
-            "cSiblings": ["logs.gathering.gathering-log.harvesting.level.81-85.15"]
+            "cSiblings": ["logs.gathering.gathering-log.harvesting.level.81-85.15"],
+            "closestAetheryte": "travel.aetherytes.norvrandt.123"
         },
         "x15": {
             "level": "82",
@@ -113,9 +104,8 @@
             "name_fr": "Friandise pour bien-être félin",
             "zone": "@PLACE.THAVNAIR",
             "coordinates": "(12.4, 13.0)",
-            "closestAetheryte_en": "The Great Work",
-            "closestAetheryte_fr": "The Great Work",
-            "patch": "6.5"
+            "patch": "6.5",
+            "closestAetheryte": "travel.aetherytes.ilsabard.151"
         },
         "x4": {
             "level": "83",
@@ -123,9 +113,8 @@
             "name_fr": "Minerai d'or phrygien",
             "zone": "@PLACE.GARLEMALD",
             "coordinates": "(21.0, 29.0)",
-            "closestAetheryte_en": "Camp Broken Glass",
-            "closestAetheryte_fr": "Camp Bris-de-glace",
-            "patch": "6.0"
+            "patch": "6.0",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153"
         },
         "x12": {
             "level": "83",
@@ -134,9 +123,8 @@
             "zone": "@PLACE.AMH_ARAENG",
             "patch": "6.3",
             "coordinates": "(15.0, 18.5)",
-            "closestAetheryte_en": "Twine",
-            "closestAetheryte_fr": "Queues-liées",
-            "cSiblings": ["logs.gathering.gathering-log.harvesting.level.81-85.16"]
+            "cSiblings": ["logs.gathering.gathering-log.harvesting.level.81-85.16"],
+            "closestAetheryte": "travel.aetherytes.norvrandt.123"
         },
         "x16": {
             "level": "83",
@@ -144,9 +132,8 @@
             "name_fr": "Élément pour réplique de monstre saisissante",
             "zone": "@PLACE.GARLEMALD",
             "coordinates": "(21.0, 29.0)",
-            "closestAetheryte_en": "Camp Broken Glass",
-            "closestAetheryte_fr": "Camp Broken Glass",
-            "patch": "6.5"
+            "patch": "6.5",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153"
         },
         "x5": {
             "level": "83",
@@ -154,9 +141,8 @@
             "name_fr": "Élément nécessaire à la reproduction de la culture de Garlemald",
             "zone": "@PLACE.GARLEMALD",
             "coordinates": "(21.0, 29.0)",
-            "closestAetheryte_en": "Camp Broken Glass",
-            "closestAetheryte_fr": "Camp Bris-de-glace",
-            "patch": "6.0"
+            "patch": "6.0",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153"
         },
         "x6": {
             "level": "84",
@@ -164,9 +150,8 @@
             "name_fr": "Alun d'Éblana",
             "zone": "@PLACE.GARLEMALD",
             "coordinates": "(21.0, 29.0)",
-            "closestAetheryte_en": "Camp Broken Glass",
-            "closestAetheryte_fr": "Camp Bris-de-glace",
-            "patch": "6.0"
+            "patch": "6.0",
+            "closestAetheryte": "travel.aetherytes.ilsabard.153"
         },
         "x13": {
             "level": "84",
@@ -175,9 +160,8 @@
             "zone": "@PLACE.IL_MHEG",
             "patch": "6.3",
             "coordinates": "(31.7, 11.5)",
-            "closestAetheryte_en": "Wolekdorf",
-            "closestAetheryte_fr": "Wolekdorf",
-            "cSiblings": ["logs.gathering.gathering-log.harvesting.level.81-85.17"]
+            "cSiblings": ["logs.gathering.gathering-log.harvesting.level.81-85.17"],
+            "closestAetheryte": "travel.aetherytes.norvrandt.126"
         }
     }
 }
