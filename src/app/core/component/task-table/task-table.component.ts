@@ -152,9 +152,16 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
     }
 
     updateFilteredTasks(): void {
+        const originalTop = this._taskTable?.scroller?.lastScrollPos
+
         this.filteredTasks = this.svcFilter.filterTasks(this.group, this.tasks);
         this.uniqueValues = this._uniqueValues;
         this.cdr.detectChanges();
+
+        // Scroll back to the current position after tasks change
+        if(originalTop) {
+            setTimeout(() => this._taskTable.scroller.scrollTo({ top: originalTop}), 1);
+        }
     }
 
     get _uniqueValues(): UniqueValues {
