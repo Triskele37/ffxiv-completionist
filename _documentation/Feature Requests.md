@@ -2,6 +2,9 @@
 
 * Core
   * Auto-update / Update Indicator
+* Global hide of content
+  * This would remove superfluous "excluded" counts
+  * Initially: Premium, Event (seasonal, collabs, etc)
 * UI
   * Global Filters
     * Allow Multi-selection
@@ -12,7 +15,6 @@
   * Chain confirmation over a configurable count
     * Requires simulation of chaining
   * Chain ocean fish to achievements?
-  * Flatten Duty/Raid Finder
   * Fish iLvl
 
 **Todonts**
@@ -51,8 +53,6 @@
       * The Masked Carnivale
       * Jumbo Cactpot
       * Tome Cap (max 450) (reset)
-  * Breadcrumb UI Improvement
-    * add dropdown arrow to each crumb to open subgroups directly for that crumb
   * Feedback on Random view when selected group has no incomplete tasks
     * or hide complete groups?
   * Replace most of Guide with "Contextual Help"
