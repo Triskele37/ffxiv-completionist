@@ -4,6 +4,7 @@ export type ConfigStore = {
     'store-loc': string;
     'lang': string;
     'starting-class': string;
+    'use-short-names': boolean;
     'last-breadcrumbs': string[];
     'chaining-enabled': boolean;
     'chain-history-limit': number;

@@ -16,6 +16,7 @@ export class SettingsService {
         storeLocation: { key: 'store-loc' },
         startingClass: { key: 'starting-class' },
         lang: { key: 'lang' },
+        useShortNames: { key: 'use-short-names' },
         tableFilters: {
             completed: { key: 'table-filters.completed' },
             incomplete: { key: 'table-filters.incomplete' },

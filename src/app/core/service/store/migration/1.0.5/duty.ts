@@ -1,5 +1,4 @@
 import { ChangeStore } from '@service/store/migration/ChangeStore';
-import { ZoneTaskMap } from '../ZoneTaskMap';
 
 const DUTY = 'overall.duty';
 const DRF = `${DUTY}.duty-raid-finder`;
@@ -16,6 +15,11 @@ export function migrateDuties(store: ChangeStore): void {
     migrateGuildhests(store);
     migrateVCDungeons(store);
     migrateHunts(store);
+
+    store.moveGroup(
+        `${DUTY}.exploratory-missions.the-forbidden-land-eureka`,
+        `${DUTY}.exploratory-missions.eureka`
+    );
 
     store.moveGroup(
         `${DUTY}.exploratory-missions.the-bozjan-southern-front`,

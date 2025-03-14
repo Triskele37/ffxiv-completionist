@@ -3,6 +3,7 @@ export interface Settings {
     storeLocation: StringSetting;
     startingClass: StringSetting;
     lang: StringSetting;
+    useShortNames: BoolSetting;
     tableFilters: {
         completed: BoolSetting;
         incomplete: BoolSetting;

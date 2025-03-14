@@ -79,6 +79,15 @@ export class CharacterSettingsComponent implements OnInit {
 
     //#endregion
 
+    //#region------------------------------------------------------- Short names
+    onUseShortNamesChange(): void {
+        this.svcSettings.onChangeBoolSetting(this.svcSettings.settings.useShortNames);
+        this.isModalVisible = true;
+        location.reload();
+    }
+
+    //#endregion
+
     //#region------------------------------------------------------- Starting Class
     startingClasses: ShortLong[];
 

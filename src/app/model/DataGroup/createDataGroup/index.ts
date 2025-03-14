@@ -12,13 +12,12 @@ import { initializeTasks } from './initializeTasks';
 import { initializeUi } from './initializeUi';
 
 export function createDataGroup(json, parent: DataGroup): DataGroup {
-    const lang = Globals.config.lang || Lang.EN;
     const updated$ = new Subject<void>();
     const id = `${json.key ?? -1}`;
 
     const group: DataGroup = {
         xivDataType: 'Group',
-        name: json[`groupName_${lang}`] ?? json.groupName,
+        name: getGroupName(),
         _key: json.key,
         _parent: parent,
         contentLink: '',
@@ -46,4 +45,18 @@ export function createDataGroup(json, parent: DataGroup): DataGroup {
     if(json.tasks) initializeTasks(group, json.tasks);
 
     return group;
+
+    function getGroupName() {
+        const lang = Globals.config.lang || Lang.EN;
+
+        const longName = json[`groupName_${lang}`] ?? json.groupName;
+        const shortName = json[`groupNameShort_${lang}`] ?? json.groupNameShort;
+
+        if(Globals.config['use-short-names']) {
+            return shortName || longName;
+        }
+        else {
+            return longName;
+        }
+    }
 }

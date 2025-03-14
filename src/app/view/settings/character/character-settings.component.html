@@ -32,6 +32,15 @@
     <xiv-chain-overlay [disableUndo]="true"></xiv-chain-overlay>
 </div>
 
+<div class="setting bool">
+    <label>{{'MAIN.SETTING.GROUP_NAME.LABEL' | translate}}</label>
+    <p-checkbox
+        [binary]="true"
+        [(ngModel)]="svcSettings.settings.useShortNames.value"
+        (onChange)="onUseShortNamesChange()"
+    ></p-checkbox>
+</div>
+
 <div class="setting">
     <label>{{'MAIN.SETTING.SAVE.LOCATION' | translate}}</label>
     <label>{{svcSettings.settings.storeLocation.value}}</label>

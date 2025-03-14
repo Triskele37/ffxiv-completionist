@@ -58,7 +58,7 @@
             "name_en": "Chocobo Chick Courier",
             "name_fr": "Bébé Chocobo Noir Volant",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.PREORDER (EXPANSION.HW)",
+            "source": "@SOURCE.PREORDER (EXPANSION.HEAVENSWARD)",
             "patch": "3.0",
             "defaultCompletion": "X"
         },
@@ -96,7 +96,7 @@
             "name_en": "Wind-up Moogle",
             "name_fr": "Poupée Mog",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.ARR)",
+            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.A_REALM_REBORN)",
             "patch": "2.2",
             "defaultCompletion": "X",
             "cSiblings": ["ap.364"]
@@ -148,7 +148,7 @@
             "name_en": "Baby Behemoth",
             "name_fr": "Bébéhémoth",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.ARR)",
+            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.A_REALM_REBORN)",
             "patch": "2.0",
             "defaultCompletion": "X",
             "cSiblings": ["ap.351"]
@@ -659,7 +659,7 @@
             "name_en": "Calca",
             "name_fr": "Calca",
             "category": "@CATEGORY.DUNGEON",
-            "source": ["d.141", "duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.pyros.1391"],
+            "source": ["d.141", "duty.exploratory-missions.eureka.notorious-monsters.pyros.1391"],
             "patch": "3.15"
         },
         "x179": {
@@ -798,7 +798,7 @@
             "name_fr": "Fafnir Mécanique",
             "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source": [
-                "duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.anemos.1331",
+                "duty.exploratory-missions.eureka.notorious-monsters.anemos.1331",
                 "@SOURCE.LOCKBOX.ANEMOS"
             ],
             "patch": "4.25"
@@ -808,7 +808,7 @@
             "name_fr": "Prince D'Anemos",
             "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source": [
-                "duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.anemos.1348",
+                "duty.exploratory-missions.eureka.notorious-monsters.anemos.1348",
                 "@SOURCE.LOCKBOX.ANEMOS"
             ],
             "patch": "4.25"
@@ -831,7 +831,7 @@
             "name_en": "Conditional Virtue",
             "name_fr": "Mini-vertu",
             "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "duty.exploratory-missions.the-forbidden-land-eureka.duties.0",
+            "source": "duty.exploratory-missions.eureka.duties.0",
             "patch": "4.55"
         },
         "x290": {
@@ -852,7 +852,7 @@
             "name_en": "Baby Gremlin",
             "name_fr": "Bébé Gremlin",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.PREORDER (EXPANSION.SHB)",
+            "source": "@SOURCE.PREORDER (EXPANSION.SHADOWBRINGERS)",
             "patch": "4.5",
             "defaultCompletion": "X"
         },
@@ -2809,7 +2809,7 @@
             "name_en": "Wind-up Fran",
             "name_fr": "Fran Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.SHB)",
+            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.SHADOWBRINGERS)",
             "patch": "5.0",
             "defaultCompletion": "X"
         },
@@ -3111,7 +3111,7 @@
             "name_en": "Cait Sith Doll",
             "name_fr": "Poupée Cait Sith",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.PREORDER (EXPANSION.ARR)",
+            "source": "@SOURCE.PREORDER (EXPANSION.A_REALM_REBORN)",
             "patch": "2.0",
             "defaultCompletion": "X",
             "cSiblings": ["ap.378"]
@@ -3192,7 +3192,7 @@
             "name_fr": "Poupée Mithra",
             "category": "@CATEGORY.EXPLORATORY_MISSION",
             "source": [
-                "duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.anemos.1339",
+                "duty.exploratory-missions.eureka.notorious-monsters.anemos.1339",
                 "@SOURCE.LOCKBOX.ANEMOS"
             ],
             "patch": "4.25"
@@ -3208,7 +3208,7 @@
             "name_en": "Wind-up Elvaan",
             "name_fr": "Poupée Elvaan",
             "category": "@CATEGORY.EXPLORATORY_MISSION",
-            "source": "duty.exploratory-missions.the-forbidden-land-eureka.notorious-monsters.pyros.1400",
+            "source": "duty.exploratory-missions.eureka.notorious-monsters.pyros.1400",
             "patch": "4.45"
         },
         "x307": {
@@ -3653,7 +3653,7 @@
             "name_en": "Wind-up Red Mage",
             "name_fr": "Mage Rouge Mécanique",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.PREORDER (EXPANSION.SB)",
+            "source": "@SOURCE.PREORDER (EXPANSION.STORMBLOOD)",
             "patch": "4.0",
             "defaultCompletion": "X"
         },
@@ -3682,7 +3682,7 @@
             "name_en": "Wind-up Kain",
             "name_fr": "Kaïn Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.HW)",
+            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.HEAVENSWARD)",
             "patch": "3.0",
             "defaultCompletion": "X"
         },
@@ -3708,7 +3708,7 @@
             "name_en": "Wind-up Palom",
             "name_fr": "Palom Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.PREORDER (EXPANSION.EW)",
+            "source": "@SOURCE.PREORDER (EXPANSION.ENDWALKER)",
             "patch": "5.5",
             "defaultCompletion": "X"
         },
@@ -3716,7 +3716,7 @@
             "name_en": "Wind-up Porom",
             "name_fr": "Porom Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.EW)",
+            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.ENDWALKER)",
             "patch": "6.0",
             "defaultCompletion": "X"
         },
@@ -3751,7 +3751,7 @@
             "name_en": "Wind-up Bartz",
             "name_fr": "Bartz Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.SB)",
+            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.STORMBLOOD)",
             "patch": "4.0",
             "defaultCompletion": "X"
         },
@@ -3800,7 +3800,7 @@
             "name_en": "Wind-up Zidane",
             "name_fr": "Djidane Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.PREORDER (EXPANSION.DT)",
+            "source": "@SOURCE.PREORDER (EXPANSION.DAWNTRAIL)",
             "patch": "6.58",
             "defaultCompletion": "X"
         },
@@ -3808,7 +3808,7 @@
             "name_en": "Wind-up Garnet",
             "name_fr": "Grenat Miniature",
             "category": "@CATEGORY.PREMIUM",
-            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.DT)",
+            "source": "@SOURCE.COLLECTORS_EDITION (EXPANSION.DAWNTRAIL)",
             "patch": "7.0",
             "defaultCompletion": "X"
         },

@@ -403,7 +403,8 @@
                     "L3": "Pressing the escape key now navigates to the parent group",
                     "L4": "Pressing the backspace key now navigates back to the previous group",
                     "L5": "Pressing numpad enter now also triggers searches in the search box",
-                    "L6": "Added ability to remove entries from or clear history entirely"
+                    "L6": "Added ability to remove entries from or clear history entirely",
+                    "L7": "Added setting for long/short group name viewing (default short)"
                 },
                 "CHANGE": {
                     "L1": "Please note that facewear will not automatically migrate from the old format",
@@ -511,6 +512,9 @@
                     "LABEL": "Chain Min Threshold",
                     "TOOLTIP": "Chain overlay will auto-collapse groups when the total chained items hits this number"
                 }
+            },
+            "GROUP_NAME": {
+                "LABEL": "Short Group Names"
             }
         },
         "SEARCH": {
@@ -619,6 +623,20 @@
         "SAVE_FAILED_DETAIL": "A temporary save has been created"
     },
     "DATA": {
+        "EXPANSION": {
+            "A_REALM_REBORN": "A Realm Reborn",
+            "ARR": "ARR",
+            "HEAVENSWARD": "Heavensward",
+            "HW": "HW",
+            "STORMBLOOD": "Stormblood",
+            "SB": "SB",
+            "SHADOWBRINGERS": "Shadowbringers",
+            "SHB": "ShB",
+            "ENDWALKER": "Endwalker",
+            "EW": "EW",
+            "DAWNTRAIL": "Dawntrail",
+            "DT": "DT"
+        },
         "PLATE": {
             "BASE": "Base Plate",
             "PATTERN": "Plate Pattern Overlay",
@@ -1120,14 +1138,6 @@
             "OMICRONS": "Omicrons",
             "LOPORRITS": "Loporrits",
             "PELUPELU": "Pelupelu"
-        },
-        "EXPANSION": {
-            "ARR": "A Realm Reborn",
-            "HW": "Heavensward",
-            "SB": "Stormblood",
-            "SHB": "Shadowbringers",
-            "EW": "Endwalker",
-            "DT": "Dawntrail"
         },
         "ISLAND": {
             "EXPEDITION": {
