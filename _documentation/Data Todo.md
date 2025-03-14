@@ -30,8 +30,11 @@
 **Localization**
 
 **Architecture**
+* Finish omitting FATEs
+* Finish removing location from orchestrion-list
+* Deriving sort logic directly from recipe info likely not gonna work
+  * just yolo it using gear slot/class for the majority
 * Convert DataGroup.tasks to Map<string, Task>
-* save starting class in player save
 * Implement "build" step for resources so release doesn't transform resources when read
 * Follow up on Model rewrite
   * Hoist into root so model can be shared between ipcMain/ipcRenderer
