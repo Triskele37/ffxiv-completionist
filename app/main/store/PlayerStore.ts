@@ -3,7 +3,6 @@ import * as path from 'path';
 import * as fs from 'fs';
 
 import { ConfigStore } from './ConfigStore';
-import { WindowStore } from './WindowStore';
 
 export class PlayerStore {
     static path: string;
@@ -18,6 +17,7 @@ export class PlayerStore {
             'custom': {},
             'bookmarked-groups': [],
             'bookmarked-tasks': [],
+            'starting-class': '',
             'version': ''
         };
     }

@@ -16,6 +16,7 @@ var PlayerStore = /** @class */ (function () {
                 'custom': {},
                 'bookmarked-groups': [],
                 'bookmarked-tasks': [],
+                'starting-class': '',
                 'version': ''
             };
         },
