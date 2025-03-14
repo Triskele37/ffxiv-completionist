@@ -28,6 +28,9 @@
 
 **Personal**
 
+* "New In"
+  * Provide a patch selector
+  * Shows all content of that patch in grouped table rows
 * Enum completion type
   * like for Societal Relations
 * Map Dialog
