@@ -19,7 +19,6 @@ export class ConfigStore {
             'store-name': 'completion',
             'store-loc': app.getPath('userData'),
             'lang': 'en',
-            'starting-class': '',
             'use-short-names': true,
             'last-breadcrumbs': ['main-menu'],
             'chaining-enabled': true,

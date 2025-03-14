@@ -1,8 +1,10 @@
+import { ConfigStoreService } from '@service/store/config-store.service';
+
 import { SaveStoreService } from '../../save-store.service';
 import { ChangeStore } from '../ChangeStore';
 
-export function migrateTo_1_0_2(svcSaveStore: SaveStoreService): void {
-    const store = new ChangeStore(svcSaveStore, '1.0.2');
+export function migrateTo_1_0_2(svcConfigStore: ConfigStoreService, svcSaveStore: SaveStoreService): void {
+    const store = new ChangeStore(svcConfigStore, svcSaveStore, '1.0.2');
 
     // Screwed up 6.15 title ids
     store.changeKey('overall.character.character.title', 645, 633);

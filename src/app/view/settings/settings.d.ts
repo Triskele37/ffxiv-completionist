@@ -18,7 +18,10 @@ export interface Settings {
 
 export type Setting = {
     key: string;
+    inSave?: boolean;
 };
+
+export type AnySetting = BoolSetting | NumberSetting | StringSetting;
 
 export type StringSetting = Setting & {
     value?: string;

@@ -2,8 +2,9 @@ import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 
 import { ConfigStoreService } from '@service/store/config-store.service';
+import { SaveStoreService } from '@service/store/save-store.service';
 
-import { BoolSetting, NumberSetting, Settings, StringSetting } from './settings';
+import { AnySetting, BoolSetting, NumberSetting, Settings, StringSetting } from './settings';
 
 /** Handles Settings between components
  * */
@@ -14,7 +15,7 @@ export class SettingsService {
     settings: Settings = {
         storeName: { key: 'store-name' },
         storeLocation: { key: 'store-loc' },
-        startingClass: { key: 'starting-class' },
+        startingClass: { key: 'starting-class', inSave: true },
         lang: { key: 'lang' },
         useShortNames: { key: 'use-short-names' },
         tableFilters: {
@@ -32,31 +33,49 @@ export class SettingsService {
     onChainingEnabled$ = new Subject<void>();
 
     constructor(
-        private svcConfigStore: ConfigStoreService
+        private svcConfigStore: ConfigStoreService,
+        private svcSaveStore: SaveStoreService,
     ) {
     }
 
     init() {
         const load = (obj) => {
-            if(obj.key) obj.value = this.svcConfigStore.get(obj.key);
-            else Object.keys(obj).forEach((key) => load(obj[key]));
+            if(obj.key) {
+                obj.value = this.getSetting(obj);
+            }
+            else {
+                Object.keys(obj).forEach((key) => load(obj[key]));
+            }
         };
 
         load(this.settings);
     }
 
+    getSetting(setting: AnySetting): boolean | number | string | undefined {
+        if(setting.inSave) return this.svcSaveStore.get(setting.key);
+        else return this.svcConfigStore.get(setting.key);
+    }
+
+    setSetting(setting: AnySetting): void {
+        if(setting.inSave) {
+            this.svcSaveStore.set(setting.key, setting.value);
+        }
+        else {
+            this.svcConfigStore.set(setting.key, setting.value);
+        }
+    }
+
     onChangeStringSetting(setting: StringSetting): void {
-        this.svcConfigStore.set(setting.key, setting.value);
+        this.setSetting(setting);
     }
 
     onChangeBoolSetting(setting: BoolSetting): void {
-        this.svcConfigStore.set(setting.key, setting.value);
+        this.setSetting(setting);
     }
 
     onChangeNumSetting(setting: NumberSetting): void {
         if(setting.value < setting.min) setting.value = setting.min;
         else if(setting.value > setting.max) setting.value = setting.max;
-
-        this.svcConfigStore.set(setting.key, setting.value);
+        this.setSetting(setting);
     }
 }

@@ -33,6 +33,6 @@ export class SaveStoreService extends Store<SaveStore> {
     }
 
     migrateData(): void {
-        migrateData(this);
+        migrateData(this.svcConfigStore, this);
     }
 }

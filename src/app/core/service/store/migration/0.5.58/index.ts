@@ -1,3 +1,5 @@
+import { ConfigStoreService } from '@service/store/config-store.service';
+
 import { SaveStoreService } from '../../save-store.service';
 import { ChangeStore } from '../ChangeStore';
 
@@ -6,8 +8,8 @@ import { migrateBarding } from './barding';
 import { migrateEmotes } from './emote';
 import { migrateSharedFate } from './shared-fate';
 
-export function migrateTo_0_5_58(svcSaveStore: SaveStoreService): void {
-    const store = new ChangeStore(svcSaveStore, '0.5.58');
+export function migrateTo_0_5_58(svcConfigStore: ConfigStoreService, svcSaveStore: SaveStoreService): void {
+    const store = new ChangeStore(svcConfigStore, svcSaveStore, '0.5.58');
 
     // Fixing bug from last build
     store.changeKey('duty.quests.other', 'undefined', 'quasi-quests');

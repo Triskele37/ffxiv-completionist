@@ -1,4 +1,5 @@
 import { CompletionFlag } from '@constant';
+import { ConfigStoreService } from '@service/store/config-store.service';
 
 import { SaveStore } from '../Store.d';
 import { SaveStoreService } from '../save-store.service';
@@ -6,12 +7,18 @@ import { SaveStoreService } from '../save-store.service';
 type ID = number | string;
 
 export class ChangeStore {
+    svcConfigStore: ConfigStoreService;
     svcSaveStore: SaveStoreService;
     newStore: SaveStore;
     oldStore: SaveStore;
 
-    constructor(svcSaveStore: SaveStoreService, version: string) {
+    constructor(
+        svcConfigStore: ConfigStoreService,
+        svcSaveStore: SaveStoreService,
+        version: string
+    ) {
         console.log(`Migrating to ${version}`);
+        this.svcConfigStore = svcConfigStore;
         this.svcSaveStore = svcSaveStore;
 
         // Create the initial store object for new users
@@ -20,6 +27,7 @@ export class ChangeStore {
             custom: {},
             'bookmarked-groups': [],
             'bookmarked-tasks': [],
+            'starting-class': '',
             version
         };
 

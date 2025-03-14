@@ -3,7 +3,6 @@ export type ConfigStore = {
     'store-name': string;
     'store-loc': string;
     'lang': string;
-    'starting-class': string;
     'use-short-names': boolean;
     'last-breadcrumbs': string[];
     'chaining-enabled': boolean;
@@ -42,5 +41,6 @@ export type SaveStore = {
     custom: any;
     'bookmarked-groups': string[];
     'bookmarked-tasks': string[];
+    'starting-class': string;
     version: string;
 };

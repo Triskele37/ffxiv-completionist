@@ -99,11 +99,9 @@ export class CharacterSettingsComponent implements OnInit {
     }
 
     chainStartingClass(): void {
-        const msq = 'duty.quests.main-scenario.seventh-umbral-era';
-        const side = 'duty.quests.sidequests';
-        const gridania = getChildTask(this.svcData.data, `${msq}.gridania.65660`);
-        const limsa = getChildTask(this.svcData.data, `${msq}.limsa-lominsa.65645`);
-        const uldah = getChildTask(this.svcData.data, `${msq}.uldah.66106`);
+        const gridania = getChildTask(this.svcData.data, 'q.65660');
+        const limsa = getChildTask(this.svcData.data, 'q.65645');
+        const uldah = getChildTask(this.svcData.data, 'q.66106');
         let pre;
 
         // Not clearing state first makes for botched chains
@@ -113,18 +111,18 @@ export class CharacterSettingsComponent implements OnInit {
             case 'Archer':
             case 'Lancer':
             case 'Conjurer':
-                pre = getChildTask(this.svcData.data, `${side}.gridanian.gridania.65575`);
+                pre = getChildTask(this.svcData.data, 'q.65575');
                 this.setAsStartingZone(gridania, pre);
                 break;
             case 'Marauder':
             case 'Arcanist':
-                pre = getChildTask(this.svcData.data, `${side}.lominsan.limsa-lominsa.65643`);
+                pre = getChildTask(this.svcData.data, 'q.65643');
                 this.setAsStartingZone(limsa, pre);
                 break;
             case 'Gladiator':
             case 'Pugilist':
             case 'Thaumaturge':
-                pre = getChildTask(this.svcData.data, `${side}.uldahn.uldah.66130`);
+                pre = getChildTask(this.svcData.data, 'q.66130');
                 this.setAsStartingZone(uldah, pre);
                 break;
         }
@@ -145,18 +143,15 @@ export class CharacterSettingsComponent implements OnInit {
     }
 
     excludeStartingClassQuest(startingClass: string): void {
-        const dow = 'duty.quests.class--job.disciple-of-war';
-        const dom = 'duty.quests.class--job.disciple-of-magic';
-
         [
-            { name: 'Archer', path: `${dow}.archer.65755` },
-            { name: 'Lancer', path: `${dow}.lancer.65754` },
-            { name: 'Conjurer', path: `${dom}.conjurer.65747` },
-            { name: 'Marauder', path: `${dow}.marauder.65848` },
-            { name: 'Arcanist', path: `${dom}.arcanist.65990` },
-            { name: 'Gladiator', path: `${dow}.gladiator.65822` },
-            { name: 'Pugilist', path: `${dow}.pugilist.66089` },
-            { name: 'Thaumaturge', path: `${dom}.thaumaturge.65882` },
+            { name: 'Archer', path: 'q.65755' },
+            { name: 'Lancer', path: 'q.65754' },
+            { name: 'Conjurer', path: 'q.65747' },
+            { name: 'Marauder', path: 'q.65848' },
+            { name: 'Arcanist', path: 'q.65990' },
+            { name: 'Gladiator', path: 'q.65822' },
+            { name: 'Pugilist', path: 'q.66089' },
+            { name: 'Thaumaturge', path: 'q.65882' },
         ].forEach(({ name, path }) => {
             const task = getChildTask(this.svcData.data, path);
 

@@ -1,3 +1,5 @@
+import { ConfigStoreService } from '@service/store/config-store.service';
+
 import { SaveStoreService } from '../../save-store.service';
 import { ChangeStore } from '../ChangeStore';
 
@@ -16,8 +18,10 @@ import { migrateOrchestrions } from './orchestrion';
 import { migrateSightseeing } from './sightseeing';
 import { migrateTripleTriadCards } from './triple-triad';
 
-export function migrateTo_1_0_5(svcSaveStore: SaveStoreService): void {
-    const store = new ChangeStore(svcSaveStore, '1.0.5');
+export function migrateTo_1_0_5(svcConfigStore: ConfigStoreService, svcSaveStore: SaveStoreService): void {
+    const store = new ChangeStore(svcConfigStore, svcSaveStore, '1.0.5');
+
+    migrateStartingClass(store);
 
     store.moveGroup(
         'overall.character.character.tribal-relations',
@@ -40,4 +44,13 @@ export function migrateTo_1_0_5(svcSaveStore: SaveStoreService): void {
     migrateTripleTriadCards(store);
 
     store.write();
+}
+
+/**
+ * Move starting class from config to save
+ */
+function migrateStartingClass(store: ChangeStore): void {
+    const startingClass = store.svcConfigStore.get('starting-class');
+    if(startingClass) store.svcSaveStore.set('starting-class', startingClass);
+    store.svcConfigStore.delete('starting-class');
 }
