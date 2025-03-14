@@ -33,11 +33,26 @@ export class NavigationService {
         }
     }
 
-    goToHistory(group: DataGroup): void {
-        this.setBreadcrumbs(group.fullStorageKey.split('.'));
+    //#region------------------------------------------------ Selected
+    // All group setting should flow through this function
+    setSelectedGroup(group: DataGroup): void {
+        const breadcrumbs = group.fullStorageKey.split('.');
+
+        this.addGroupHistory();
+        this.breadcrumbs$.next(breadcrumbs);
+        this.selectedGroup$.next(group);
+        this.svcConfig.set('last-breadcrumbs', breadcrumbs);
     }
 
-    //#region------------------------------------------------ Selected Group
+    setSelectedTask(task: Task): void {
+        this.selectedTask = task;
+        this.selectedTask.selected = true;
+        this.setSelectedGroup(task._parent);
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------ Breadcrumbs
     getGroupFromBreadcrumbs(breadcrumbs: string[]): DataGroup {
         if(!breadcrumbs) return null;
 
@@ -59,44 +74,6 @@ export class NavigationService {
         else return this.svcMainMenu.data;
     }
 
-    addGroupHistory(): void {
-        if(!this.selectedGroup$.value) return; // Must exist
-        if(this.selectedGroup$.value.isUiGroup) return; // Must not be Main Menu
-        if(!this.selectedGroup$.value.tasks?.length) return; // Must have tasks
-
-        // Push a pretty history string
-        const newHistory = [...this.groupHistory$.value];
-        newHistory.unshift(this.selectedGroup$.value);
-
-        // Remove older duplicate (check index 0 because we just added it)
-        const lastIndex = newHistory.lastIndexOf(this.selectedGroup$.value);
-        if(lastIndex > 0) newHistory.splice(lastIndex, 1);
-
-        // Limit to 10 historical groups
-        if(newHistory.length > 10) newHistory.pop();
-
-        this.groupHistory$.next(newHistory);
-    }
-
-    // All group setting should flow through this function
-    setSelectedGroup(group: DataGroup): void {
-        const breadcrumbs = group.fullStorageKey.split('.');
-
-        this.addGroupHistory();
-        this.breadcrumbs$.next(breadcrumbs);
-        this.selectedGroup$.next(group);
-        this.svcConfig.set('last-breadcrumbs', breadcrumbs);
-    }
-
-    setSelectedTask(task: Task): void {
-        this.selectedTask = task;
-        this.selectedTask.selected = true;
-        this.setSelectedGroup(task._parent);
-    }
-
-    //#endregion
-
-    //#region------------------------------------------------ Breadcrumbs
     popCrumbsOnce(): void {
         const breadcrumbs = this.breadcrumbs$.value;
         breadcrumbs.pop();
@@ -122,6 +99,41 @@ export class NavigationService {
         const group = this.getGroupFromBreadcrumbs(breadcrumbs);
         this.selectedGroup$.next(group);
         this.svcConfig.set('last-breadcrumbs', breadcrumbs);
+    }
+
+    //#endregion
+
+    //#region------------------------------------------------ History
+    addGroupHistory(): void {
+        if(!this.selectedGroup$.value) return; // Must exist
+        if(this.selectedGroup$.value.isUiGroup) return; // Must not be Main Menu
+        if(!this.selectedGroup$.value.tasks?.length) return; // Must have tasks
+
+        // Push a pretty history string
+        const newHistory = [...this.groupHistory$.value];
+        newHistory.unshift(this.selectedGroup$.value);
+
+        // Remove older duplicate (check index 0 because we just added it)
+        const lastIndex = newHistory.lastIndexOf(this.selectedGroup$.value);
+        if(lastIndex > 0) newHistory.splice(lastIndex, 1);
+
+        // Limit to 10 historical groups
+        if(newHistory.length > 10) newHistory.pop();
+
+        this.groupHistory$.next(newHistory);
+    }
+
+    goToHistory(group: DataGroup): void {
+        this.setBreadcrumbs(group.fullStorageKey.split('.'));
+    }
+
+    clearHistory(): void {
+        this.groupHistory$.next([]);
+    }
+
+    removeHistory(group: DataGroup): void {
+        const newHistory = [...this.groupHistory$.value].filter((g) => g !== group);
+        this.groupHistory$.next(newHistory);
     }
 
     //#endregion

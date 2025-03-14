@@ -402,7 +402,8 @@
                     "L2": "Added Chain Analysis in main menu (only works with simple sibling and previous/next chains currently)",
                     "L3": "Pressing the escape key now navigates to the parent group",
                     "L4": "Pressing the backspace key now navigates back to the previous group",
-                    "L5": "Pressing numpad enter now also triggers searches in the search box"
+                    "L5": "Pressing numpad enter now also triggers searches in the search box",
+                    "L6": "Added ability to remove entries from or clear history entirely"
                 },
                 "CHANGE": {
                     "L1": "Please note that facewear will not automatically migrate from the old format",
@@ -550,7 +551,9 @@
     "OVERLAY": {
         "HISTORY": {
             "TITLE": "History",
-            "NO_CONTENT": "No History to display"
+            "NO_CONTENT": "No History to display",
+            "CLEAR_ALL": "Clear all entries",
+            "REMOVE_ENTRY": "Remove this entry"
         },
         "QUICK_MARK": {
             "TITLE": "Quick-Mark Actions",

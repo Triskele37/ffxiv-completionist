@@ -2,7 +2,24 @@
     border-right: 1px solid var(--primary-color-text);
 }
 
-.history-links {
+.history-overlay-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--maskbg);
+}
+
+.history-links-container {
     display: flex;
     flex-direction: column;
+
+    .no-content {
+        padding-top: var(--content-padding);
+    }
+
+    .history-links {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid var(--maskbg);
+    }
 }
