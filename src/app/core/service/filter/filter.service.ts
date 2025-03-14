@@ -81,7 +81,7 @@ export class FilterService {
     filterTasks(group: DataGroup, tasks: Task[]): Task[] {
         return tasks
             .filter((task) => {
-                if(task.selected) return true;
+                if(task === this.svcNavigation.selectedTask) return true;
 
                 const completionFilter = task.isNumericCompletion ?
                     this.filterNumericCompletion.bind(this) :
