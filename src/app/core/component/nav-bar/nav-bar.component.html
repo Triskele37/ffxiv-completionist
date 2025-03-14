@@ -3,7 +3,7 @@
         <p-button
             icon="material-icons mi-arrow-back"
             [disabled]="!(svcNavigation.groupHistory$ | async).length"
-            (onClick)="svcNavigation.goToHistory(svcNavigation.groupHistory$.value[0])"
+            (onClick)="goBack()"
         ></p-button>
 
         <p-button
