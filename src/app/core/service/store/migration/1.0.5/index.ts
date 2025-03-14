@@ -21,7 +21,7 @@ export function migrateTo_1_0_5(svcSaveStore: SaveStoreService): void {
 
     store.moveGroup(
         'overall.character.character.tribal-relations',
-        'overall.character.character.society-relations'
+        'overall.character.character.societal-relations'
     );
 
     migrateAchievements(store);

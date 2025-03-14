@@ -21,7 +21,7 @@
             "npc_fr": "Sezul Totoloc",
             "cPrev": ["q.67022"],
             "cNext": ["q.67024", "q.67105"],
-            "cSiblings": ["character.character.society-relations.20"],
+            "cSiblings": ["character.character.societal-relations.20"],
             "patch": "4.31"
         },
         "x67024": {
@@ -33,7 +33,7 @@
             "reputation": "@REPUTATION.NEUTRAL",
             "cPrev": ["q.67023"],
             "cNext": ["q.67025"],
-            "cSiblings": ["character.character.society-relations.21"],
+            "cSiblings": ["character.character.societal-relations.21"],
             "patch": "4.31"
         },
         "x67025": {
@@ -45,7 +45,7 @@
             "reputation": "@REPUTATION.RECOGNIZED",
             "cPrev": ["q.67024"],
             "cNext": ["q.67026"],
-            "cSiblings": ["character.character.society-relations.22"],
+            "cSiblings": ["character.character.societal-relations.22"],
             "patch": "4.31"
         },
         "x67026": {
@@ -57,7 +57,7 @@
             "reputation": "@REPUTATION.FRIENDLY",
             "cPrev": ["q.67025"],
             "cNext": ["q.67027"],
-            "cSiblings": ["character.character.society-relations.23"],
+            "cSiblings": ["character.character.societal-relations.23"],
             "patch": "4.31"
         },
         "x67027": {
@@ -69,7 +69,7 @@
             "reputation": "@REPUTATION.TRUSTED",
             "cPrev": ["q.67026"],
             "cNext": ["q.67028"],
-            "cSiblings": ["character.character.society-relations.24"],
+            "cSiblings": ["character.character.societal-relations.24"],
             "patch": "4.31"
         },
         "x67028": {
@@ -81,7 +81,7 @@
             "reputation": "@REPUTATION.RESPECTED",
             "cPrev": ["q.67027"],
             "cNext": ["q.67029"],
-            "cSiblings": ["character.character.society-relations.25"],
+            "cSiblings": ["character.character.societal-relations.25"],
             "patch": "4.31"
         },
         "x67029": {
@@ -92,7 +92,7 @@
             "npc_fr": "Sezul Totoloc",
             "reputation": "@REPUTATION.HONORED",
             "cPrev": ["q.67028"],
-            "cSiblings": ["character.character.society-relations.26"],
+            "cSiblings": ["character.character.societal-relations.26"],
             "patch": "4.31"
         }
     }

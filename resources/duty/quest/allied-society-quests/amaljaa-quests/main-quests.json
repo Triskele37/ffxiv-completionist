@@ -21,7 +21,7 @@
             "npc_fr": "Hamujj Gah",
             "cPrev": ["q.66753"],
             "cNext": ["q.66755"],
-            "cSiblings": ["character.character.society-relations.0"],
+            "cSiblings": ["character.character.societal-relations.0"],
             "patch": "4.31"
         },
         "x66755": {
@@ -33,7 +33,7 @@
             "reputation": "@REPUTATION.NEUTRAL",
             "cPrev": ["q.66754"],
             "cNext": ["q.66756"],
-            "cSiblings": ["character.character.society-relations.1"],
+            "cSiblings": ["character.character.societal-relations.1"],
             "patch": "4.31"
         },
         "x66756": {
@@ -45,7 +45,7 @@
             "reputation": "@REPUTATION.RECOGNIZED",
             "cPrev": ["q.66755"],
             "cNext": ["q.66757"],
-            "cSiblings": ["character.character.society-relations.2"],
+            "cSiblings": ["character.character.societal-relations.2"],
             "patch": "4.31"
         },
         "x66757": {
@@ -56,7 +56,7 @@
             "npc_fr": "Yadovv Gah",
             "reputation": "@REPUTATION.FRIENDLY",
             "cPrev": ["q.66756"],
-            "cSiblings": ["character.character.society-relations.3"],
+            "cSiblings": ["character.character.societal-relations.3"],
             "patch": "4.31"
         }
     }

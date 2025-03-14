@@ -11,7 +11,7 @@
             "npc_fr": "Mère Inquiète",
             "cPrev": ["q.68877", "q.69018"],
             "cNext": ["q.69331"],
-            "cSiblings": ["character.character.society-relations.80"],
+            "cSiblings": ["character.character.societal-relations.80"],
             "patch": "5.2"
         },
         "x69331": {
@@ -23,7 +23,7 @@
             "reputation": "@REPUTATION.FRIENDLY",
             "cPrev": ["q.69330"],
             "cNext": ["q.69336", "q.69337"],
-            "cSiblings": ["character.character.society-relations.81"],
+            "cSiblings": ["character.character.societal-relations.81"],
             "patch": "5.2"
         },
         "x69336": {
@@ -60,7 +60,7 @@
             "reputation": "@REPUTATION.TRUSTED",
             "cPrev": ["q.69336", "q.69337"],
             "cNext": ["q.69338", "q.69339"],
-            "cSiblings": ["character.character.society-relations.82"],
+            "cSiblings": ["character.character.societal-relations.82"],
             "patch": "5.2"
         },
         "x69338": {
@@ -97,7 +97,7 @@
             "reputation": "@REPUTATION.RESPECTED",
             "cPrev": ["q.69338", "q.69339"],
             "cNext": ["q.69340", "q.69341"],
-            "cSiblings": ["character.character.society-relations.83"],
+            "cSiblings": ["character.character.societal-relations.83"],
             "patch": "5.2"
         },
         "x69340": {
@@ -134,7 +134,7 @@
             "reputation": "@REPUTATION.HONORED",
             "cPrev": ["q.69340", "q.69341"],
             "cNext": ["q.69335"],
-            "cSiblings": ["character.character.society-relations.84"],
+            "cSiblings": ["character.character.societal-relations.84"],
             "patch": "5.2"
         },
         "x69335": {
@@ -145,7 +145,7 @@
             "npc_fr": "Chaqurl Qhotl",
             "reputation": "@REPUTATION.SWORN",
             "cPrev": ["q.69334"],
-            "cSiblings": ["character.character.society-relations.85"],
+            "cSiblings": ["character.character.societal-relations.85"],
             "patch": "5.2"
         }
     }
