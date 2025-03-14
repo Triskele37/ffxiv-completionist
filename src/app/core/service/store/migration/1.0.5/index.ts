@@ -28,8 +28,11 @@ export function migrateTo_1_0_5(svcConfigStore: ConfigStoreService, svcSaveStore
         'overall.character.character.societal-relations'
     );
 
-    migrateAchievements(store);
+    // This order so plates use current ids
+    migrateMinions(store);
     migrateAdventurePlate(store);
+
+    migrateAchievements(store);
     migrateAesthetician(store);
     migrateCrafting(store);
     migrateDuties(store);
@@ -37,7 +40,6 @@ export function migrateTo_1_0_5(svcConfigStore: ConfigStoreService, svcSaveStore
     migrateFates(store);
     migrateQuests(store);
     migrateLevequests(store);
-    migrateMinions(store);
     migrateMounts(store);
     migrateOrchestrions(store);
     migrateSightseeing(store);
