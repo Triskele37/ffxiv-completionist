@@ -221,6 +221,7 @@ function reorganizeRoleQuests(store: ChangeStore): void {
 function migrateMsq(store: ChangeStore): void {
     const MSQ = `${QUEST}.main-scenario`;
 
+    store.moveGroup(...withMsq(MSQ, 'seventh-umbral-era'));
     store.moveGroup(...withMsq(MSQ, 'seventh-astral-era'));
 
     store.moveGroup(...withMsq(MSQ, 'heavensward'));
