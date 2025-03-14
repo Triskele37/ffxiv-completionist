@@ -18,10 +18,15 @@
     }
 
     ::ng-deep .p-datatable {
+        .p-scroller {
+            // Fixes scrolling to the bottom of the table flickering sometimes
+            height: calc(100% - 4px) !important;
+        }
+
         .p-datatable-table {
             table-layout: fixed;
 
-            // Fixes virtual scroller jumping
+            // Fixes virtual scroller sticking to bottom of scroll height
             overflow-anchor: none;
 
             .p-datatable-tbody {
