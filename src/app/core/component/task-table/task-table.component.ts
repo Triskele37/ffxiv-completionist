@@ -13,6 +13,7 @@ import { Table, TableRowReorderEvent } from 'primeng/table';
 
 import { DataGroup } from '@model/DataGroup';
 import { Task } from '@model/Task';
+import { sortPatchStrings } from '@model/util/sortPatchStrings';
 import { FilterService } from '@service/filter/filter.service';
 import { NavigationService } from '@service/navigation/navigation.service';
 import { ConfigStoreService } from '@service/store/config-store.service';
@@ -20,7 +21,6 @@ import { SaveStoreService } from '@service/store/save-store.service';
 import { getLinkedName } from '@util/getLinkedName';
 
 import { UniqueValues } from './types';
-import { from } from 'rxjs';
 
 @Component({
     selector: 'xiv-task-table',
@@ -135,10 +135,9 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
         aVal = aVal.replace(this.alphanumericRegex, '');
         bVal = bVal.replace(this.alphanumericRegex, '');
 
-        // Special handling for patch
-        // 3.35 sorts after 3.3 due to how patch numbers are used
+        // Handle by field key
         if(field === 'patch') {
-            return aVal.localeCompare(bVal);
+            return sortPatchStrings(aVal, bVal);
         }
         else {
             return aVal.localeCompare(bVal, undefined, { numeric: true });
@@ -185,7 +184,9 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
             unique[key].sort((rawA, rawB) => {
                 const a = rawA?.toString();
                 const b = rawB?.toString();
-                return a.localeCompare(b, undefined, { numeric: true });
+
+                if(key === 'patch') return sortPatchStrings(a, b);
+                else return a.localeCompare(b, undefined, { numeric: true });
             });
 
             // Invert certain column lists
