@@ -4,82 +4,43 @@
     "cCombo": ["a.3003"],
     "tasks": {
         "x0": {
-            "name_en": "Current 1",
-            "name_fr": "Courant 1",
+            "name": "@TRAVEL.COMPASS_CURRENT 1",
             "location": "(28.4, 6.1, 4.3)"
         },
         "x1": {
-            "name_en": "Current 2",
-            "name_fr": "Courant 2",
+            "name": "@TRAVEL.COMPASS_CURRENT 2",
             "location": "(36.4, 22.8, 3.3)"
         },
         "x2": {
-            "name_en": "Current 3",
-            "name_fr": "Courant 3",
+            "name": "@TRAVEL.COMPASS_CURRENT 3",
             "location": "(10.5, 34.7, 2.0)"
         },
         "x3": {
-            "name_en": "Current 4",
-            "name_fr": "Courant 4",
+            "name": "@TRAVEL.COMPASS_CURRENT 4",
             "location": "(18.9, 35.0, 2.0)"
         },
-        "x4": {
-            "name_en": "Current 5",
-            "name_fr": "Courant 5",
-            "location": "(15.1, 13.5, 3.0)"
-        },
-        "x5": {
-            "name_en": "Current 6",
-            "name_fr": "Courant 6",
-            "location": "(22.1, 15.7, 2.9)"
-        },
-        "x6": {
-            "name_en": "Current 7",
-            "name_fr": "Courant 7",
-            "location": "(31.5, 16.1, 0.5)"
-        },
-        "x7": {
-            "name_en": "Current 8",
-            "name_fr": "Courant 8",
-            "location": "(17.9, 16.6, 2.1)"
-        },
-        "x8": {
-            "name_en": "Current 9",
-            "name_fr": "Courant 9",
-            "location": "(11.3, 19.0, 2.0)"
-        },
-        "x9": {
-            "name_en": "Current 10",
-            "name_fr": "Courant 10",
-            "location": "(22.4, 25.0, 1.9)"
-        },
         "x10": {
-            "name_en": "Current 11",
-            "name_fr": "Courant 11",
+            "name": "@TRAVEL.QUEST_CURRENT 1",
             "quest": "q.69984",
             "cSiblings": ["q.69984"]
         },
         "x11": {
-            "name_en": "Current 12",
-            "name_fr": "Courant 12",
+            "name": "@TRAVEL.QUEST_CURRENT 2",
             "quest": "q.70016",
             "cSiblings": ["q.70016"]
         },
         "x12": {
-            "name_en": "Current 13",
-            "name_fr": "Courant 13",
+            "name": "@TRAVEL.QUEST_CURRENT 3",
             "quest": "q.70020",
             "cSiblings": ["q.70020"]
         },
         "x13": {
-            "name_en": "Current 14",
-            "name_fr": "Courant 14",
+            "name": "@TRAVEL.QUEST_CURRENT 4",
             "quest": "q.69856",
             "cSiblings": ["q.69856"]
         },
         "x14": {
-            "name_en": "Current 15",
-            "name_fr": "Courant 15",
+            "name": "@TRAVEL.QUEST_CURRENT 5",
             "quest": "q.69865",
             "cSiblings": ["q.69865"]
         }
