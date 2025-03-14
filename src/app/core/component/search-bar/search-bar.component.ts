@@ -45,7 +45,7 @@ export class SearchBarComponent implements OnInit {
             setTimeout(this.onSearch.bind(this), 50);
         }
 
-        if($event.code === 'Enter') {
+        if($event.code === 'Enter' || $event.code === 'NumpadEnter') {
             this.onSearch();
         }
     }
