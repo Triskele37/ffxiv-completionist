@@ -15,9 +15,11 @@
             "header_en": "Skill Points Acquired",
             "header_fr": "Points d'aptitudes acquis"
         },
-        "notes": {
-            "header_en": "Notes",
-            "header_fr": "Commentaires"
+        "requirements": {
+            "header": "@HEADER.REQUIREMENTS"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
@@ -25,182 +27,172 @@
             "name": "1",
             "experience": "4,000",
             "skillPoints": "1",
-            "notes_en": "",
-            "notes_fr": "",
             "cNext": [1],
-            "cSiblings": ["a.808"]
+            "cSiblings": ["a.808"],
+            "patch": "2.0"
         },
         "x1": {
             "name": "2",
             "experience": "38,000",
             "skillPoints": "2",
-            "notes_en": "",
-            "notes_fr": "",
             "cPrev": [0],
-            "cNext": [2]
+            "cNext": [2],
+            "patch": "2.0"
         },
         "x2": {
             "name": "3",
             "experience": "82,000",
             "skillPoints": "3",
-            "notes_en": "",
-            "notes_fr": "",
             "cPrev": [1],
-            "cNext": [3]
+            "cNext": [3],
+            "patch": "2.0"
         },
         "x3": {
             "name": "4",
             "experience": "158,000",
             "skillPoints": "4",
-            "notes_en": "",
-            "notes_fr": "",
             "cPrev": [2],
-            "cNext": [4]
+            "cNext": [4],
+            "patch": "2.0"
         },
         "x4": {
             "name": "5",
             "experience": "294,000",
             "skillPoints": "5",
-            "notes_en": "",
-            "notes_fr": "",
             "cPrev": [3],
             "cNext": [5],
-            "cSiblings": ["a.809"]
+            "cSiblings": ["a.809"],
+            "patch": "2.0"
         },
         "x5": {
             "name": "6",
             "experience": "490,000",
             "skillPoints": "6",
-            "notes_en": "",
-            "notes_fr": "",
             "cPrev": [4],
-            "cNext": [6]
+            "cNext": [6],
+            "patch": "2.0"
         },
         "x6": {
             "name": "7",
             "experience": "700,000",
             "skillPoints": "7",
-            "notes_en": "",
-            "notes_fr": "",
             "cPrev": [5],
-            "cNext": [7]
+            "cNext": [7],
+            "patch": "2.0"
         },
         "x7": {
             "name": "8",
             "experience": "940,000",
             "skillPoints": "8",
-            "notes_en": "",
-            "notes_fr": "",
             "cPrev": [6],
-            "cNext": [8]
+            "cNext": [8],
+            "patch": "2.0"
         },
         "x8": {
             "name": "9",
             "experience": "1,200,000",
             "skillPoints": "9",
-            "notes_en": "",
-            "notes_fr": "",
             "cPrev": [7],
-            "cNext": [9]
+            "cNext": [9],
+            "patch": "2.0"
         },
         "x9": {
             "name": "10",
             "experience": "1,458,000",
             "skillPoints": "10",
-            "notes_en": "Requires a Thavnarian Onion to unlock the next rank",
-            "notes_fr": "Nécessite un Oignon de Thavnair pour débloquer le prochain rang",
             "cPrev": [8],
             "cNext": [10],
-            "cSiblings": ["a.810"]
+            "cSiblings": ["a.810"],
+            "patch": "2.0"
         },
         "x10": {
             "name": "11",
             "experience": "1,714,000",
             "skillPoints": "10",
-            "notes_en": "Requires a Thavnarian Onion to unlock the next rank",
-            "notes_fr": "Nécessite un Oignon de Thavnair pour débloquer le prochain rang",
+            "requirements": "@CURRENCY.THAVNAIRIAN_ONION",
             "cPrev": [9],
-            "cNext": [11]
+            "cNext": [11],
+            "patch": "2.3"
         },
         "x11": {
             "name": "12",
             "experience": "1,967,000",
             "skillPoints": "10",
-            "notes_en": "Requires a Thavnarian Onion to unlock the next rank",
-            "notes_fr": "Nécessite un Oignon de Thavnair pour débloquer le prochain rang",
+            "requirements": "@CURRENCY.THAVNAIRIAN_ONION",
             "cPrev": [10],
-            "cNext": [12]
+            "cNext": [12],
+            "patch": "2.3"
         },
         "x12": {
             "name": "13",
             "experience": "2,217,000",
             "skillPoints": "10",
-            "notes_en": "Requires a Thavnarian Onion to unlock the next rank",
-            "notes_fr": "Nécessite un Oignon de Thavnair pour débloquer le prochain rang",
+            "requirements": "@CURRENCY.THAVNAIRIAN_ONION",
             "cPrev": [11],
-            "cNext": [13]
+            "cNext": [13],
+            "patch": "2.3"
         },
         "x13": {
             "name": "14",
             "experience": "2,463,000",
             "skillPoints": "10",
-            "notes_en": "Requires a Thavnarian Onion to unlock the next rank",
-            "notes_fr": "Nécessite un Oignon de Thavnair pour débloquer le prochain rang",
+            "requirements": "@CURRENCY.THAVNAIRIAN_ONION",
             "cPrev": [12],
-            "cNext": [14]
+            "cNext": [14],
+            "patch": "2.3"
         },
         "x14": {
             "name": "15",
             "experience": "2,705,000",
             "skillPoints": "10",
-            "notes_en": "Requires a Thavnarian Onion to unlock the next rank",
-            "notes_fr": "Nécessite un Oignon de Thavnair pour débloquer le prochain rang",
+            "requirements": "@CURRENCY.THAVNAIRIAN_ONION",
             "cPrev": [13],
-            "cNext": [15]
+            "cNext": [15],
+            "patch": "2.3"
         },
         "x15": {
             "name": "16",
             "experience": "2,942,000",
             "skillPoints": "10",
-            "notes_en": "Requires a Thavnarian Onion to unlock the next rank",
-            "notes_fr": "Nécessite un Oignon de Thavnair pour débloquer le prochain rang",
+            "requirements": "@CURRENCY.THAVNAIRIAN_ONION",
             "cPrev": [14],
-            "cNext": [16]
+            "cNext": [16],
+            "patch": "2.3"
         },
         "x16": {
             "name": "17",
             "experience": "3,174,000",
             "skillPoints": "11",
-            "notes_en": "Requires a Thavnarian Onion to unlock the next rank",
-            "notes_fr": "Nécessite un Oignon de Thavnair pour débloquer le prochain rang",
+            "requirements": "@CURRENCY.THAVNAIRIAN_ONION",
             "cPrev": [15],
-            "cNext": [17]
+            "cNext": [17],
+            "patch": "2.3"
         },
         "x17": {
             "name": "18",
             "experience": "3,400,000",
             "skillPoints": "12",
-            "notes_en": "Requires a Thavnarian Onion to unlock the next rank",
-            "notes_fr": "Nécessite un Oignon de Thavnair pour débloquer le prochain rang",
+            "requirements": "@CURRENCY.THAVNAIRIAN_ONION",
             "cPrev": [16],
-            "cNext": [18]
+            "cNext": [18],
+            "patch": "2.3"
         },
         "x18": {
             "name": "19",
             "experience": "3,620,000",
             "skillPoints": "13",
-            "notes_en": "Requires a Thavnarian Onion to unlock the next rank",
-            "notes_fr": "Nécessite un Oignon de Thavnair pour débloquer le prochain rang",
+            "requirements": "@CURRENCY.THAVNAIRIAN_ONION",
             "cPrev": [17],
-            "cNext": [19]
+            "cNext": [19],
+            "patch": "2.3"
         },
         "x19": {
             "name": "20",
             "experience": "-",
             "skillPoints": "14",
-            "notes_en": "",
-            "notes_fr": "",
-            "cPrev": [18]
+            "requirements": "@CURRENCY.THAVNAIRIAN_ONION",
+            "cPrev": [18],
+            "patch": "2.3"
         }
     }
 }

@@ -9,19 +9,19 @@
         },
         "type": {
             "header": "@HEADER.TYPE",
-            "filterable": true,
-            "width": 160
-        },
-        "tree": {
-            "filterable": true,
-            "width": 140,
-            "header_en": "Tree",
-            "header_fr": "Arbre"
+            "filterable": true
         },
         "spCost": {
-            "width": 100,
             "header_en": "SP Cost",
             "header_fr": "Coût en PA"
+        },
+        "tree": {
+            "header_en": "Tree",
+            "header_fr": "Arbre",
+            "filterable": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
@@ -33,7 +33,8 @@
             "tree_fr": "Défense",
             "type_en": "Weaponskill",
             "type_fr": "Technique d'arme",
-            "cNext": [1]
+            "cNext": [1],
+            "patch": "2.0"
         },
         "x1": {
             "name_en": "Enhanced Strength (1)",
@@ -44,7 +45,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [0],
-            "cNext": [2]
+            "cNext": [2],
+            "patch": "2.0"
         },
         "x2": {
             "name_en": "Increased HP (1)",
@@ -55,7 +57,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [1],
-            "cNext": [3]
+            "cNext": [3],
+            "patch": "2.0"
         },
         "x3": {
             "name_en": "Choco Kick",
@@ -66,7 +69,8 @@
             "type_en": "Weaponskill",
             "type_fr": "Technique d'arme",
             "cPrev": [2],
-            "cNext": [4]
+            "cNext": [4],
+            "patch": "2.0"
         },
         "x4": {
             "name_en": "Enhanced Accuracy (1)",
@@ -77,7 +81,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [3],
-            "cNext": [5]
+            "cNext": [5],
+            "patch": "2.0"
         },
         "x5": {
             "name_en": "Enhanced Critical Hit Rate (1)",
@@ -88,7 +93,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [4],
-            "cNext": [6]
+            "cNext": [6],
+            "patch": "2.0"
         },
         "x6": {
             "name_en": "Choco Guard",
@@ -99,7 +105,8 @@
             "type_en": "Weaponskill",
             "type_fr": "Technique d'arme",
             "cPrev": [5],
-            "cNext": [7]
+            "cNext": [7],
+            "patch": "2.0"
         },
         "x7": {
             "name_en": "Enhanced Strength (2)",
@@ -110,7 +117,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [6],
-            "cNext": [8]
+            "cNext": [8],
+            "patch": "2.0"
         },
         "x8": {
             "name_en": "Increased HP (2)",
@@ -121,7 +129,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [7],
-            "cNext": [9]
+            "cNext": [9],
+            "patch": "2.0"
         },
         "x9": {
             "name_en": "Choco Strike",
@@ -131,7 +140,8 @@
             "tree_fr": "Défense",
             "type_en": "Weaponskill",
             "type_fr": "Technique d'arme",
-            "cPrev": [8]
+            "cPrev": [8],
+            "patch": "2.0"
         },
         "x10": {
             "name_en": "Choco Slash",
@@ -141,7 +151,8 @@
             "tree_fr": "Attaque",
             "type_en": "Weaponskill",
             "type_fr": "Technique d'arme",
-            "cNext": [11]
+            "cNext": [11],
+            "patch": "2.0"
         },
         "x11": {
             "name_en": "Enhanced Strength (3)",
@@ -152,7 +163,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [10],
-            "cNext": [12]
+            "cNext": [12],
+            "patch": "2.0"
         },
         "x12": {
             "name_en": "Increased HP (3)",
@@ -163,7 +175,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [11],
-            "cNext": [13]
+            "cNext": [13],
+            "patch": "2.0"
         },
         "x13": {
             "name_en": "Choco Beak",
@@ -174,7 +187,8 @@
             "type_en": "Weaponskill",
             "type_fr": "Technique d'arme",
             "cPrev": [12],
-            "cNext": [14]
+            "cNext": [14],
+            "patch": "2.0"
         },
         "x14": {
             "name_en": "Enhanced Accuracy (2)",
@@ -185,7 +199,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [13],
-            "cNext": [15]
+            "cNext": [15],
+            "patch": "2.0"
         },
         "x15": {
             "name_en": "Enhanced Critical Hit Rate (2)",
@@ -196,7 +211,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [14],
-            "cNext": [16]
+            "cNext": [16],
+            "patch": "2.0"
         },
         "x16": {
             "name_en": "Choco Rush",
@@ -207,7 +223,8 @@
             "type_en": "Weaponskill",
             "type_fr": "Technique d'arme",
             "cPrev": [15],
-            "cNext": [17]
+            "cNext": [17],
+            "patch": "2.0"
         },
         "x17": {
             "name_en": "Enhanced Strength (4)",
@@ -218,7 +235,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [16],
-            "cNext": [18]
+            "cNext": [18],
+            "patch": "2.0"
         },
         "x18": {
             "name_en": "Increased Attack Speed",
@@ -229,7 +247,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [17],
-            "cNext": [19]
+            "cNext": [19],
+            "patch": "2.0"
         },
         "x19": {
             "name_en": "Choco Blast",
@@ -239,7 +258,8 @@
             "tree_fr": "Attaque",
             "type_en": "Weaponskill",
             "type_fr": "Technique d'arme",
-            "cPrev": [18]
+            "cPrev": [18],
+            "patch": "2.0"
         },
         "x20": {
             "name_en": "Choco Regen",
@@ -249,7 +269,8 @@
             "tree_fr": "Soin",
             "type_en": "Weaponskill",
             "type_fr": "Technique d'arme",
-            "cNext": [21]
+            "cNext": [21],
+            "patch": "2.0"
         },
         "x21": {
             "name_en": "Enhanced Mind (1)",
@@ -260,7 +281,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [20],
-            "cNext": [22]
+            "cNext": [22],
+            "patch": "2.0"
         },
         "x22": {
             "name_en": "Increased HP (4)",
@@ -271,7 +293,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [21],
-            "cNext": [23]
+            "cNext": [23],
+            "patch": "2.0"
         },
         "x23": {
             "name_en": "Choco Cure",
@@ -282,7 +305,8 @@
             "type_en": "Weaponskill",
             "type_fr": "Technique d'arme",
             "cPrev": [22],
-            "cNext": [24]
+            "cNext": [24],
+            "patch": "2.0"
         },
         "x24": {
             "name_en": "Enhanced Accuracy (3)",
@@ -293,7 +317,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [23],
-            "cNext": [25]
+            "cNext": [25],
+            "patch": "2.0"
         },
         "x25": {
             "name_en": "Enhanced Critical Hit Rate (3)",
@@ -304,7 +329,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [24],
-            "cNext": [26]
+            "cNext": [26],
+            "patch": "2.0"
         },
         "x26": {
             "name_en": "Choco Surge",
@@ -315,7 +341,8 @@
             "type_en": "Weaponskill",
             "type_fr": "Technique d'arme",
             "cPrev": [25],
-            "cNext": [27]
+            "cNext": [27],
+            "patch": "2.0"
         },
         "x27": {
             "name_en": "Enhanced Mind (2)",
@@ -326,7 +353,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [26],
-            "cNext": [28]
+            "cNext": [28],
+            "patch": "2.0"
         },
         "x28": {
             "name_en": "Increased HP (5)",
@@ -337,7 +365,8 @@
             "type_en": "Trait",
             "type_fr": "Trait",
             "cPrev": [27],
-            "cNext": [29]
+            "cNext": [29],
+            "patch": "2.0"
         },
         "x29": {
             "name_en": "Choco Medica",
@@ -347,7 +376,8 @@
             "tree_fr": "Soin",
             "type_en": "Weaponskill",
             "type_fr": "Technique d'arme",
-            "cPrev": [28]
+            "cPrev": [28],
+            "patch": "2.0"
         }
     }
 }

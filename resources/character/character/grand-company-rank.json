@@ -20,6 +20,9 @@
             "link": true,
             "header_en": "Entitlements",
             "header_fr": "Débloque"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
@@ -30,6 +33,7 @@
             "requirement": "q.66220",
             "entitlements_en": ["10,000 Seal Cap", "Deliveries"],
             "entitlements_fr": ["10.000 Sceaux de compagnie limséen maximum", "Ravitaillement"],
+            "patch": "2.0",
             "cNext": [1]
         },
         "x1": {
@@ -39,6 +43,7 @@
             "requirement": "@2,000 CURRENCY.SEAL.STORM",
             "entitlements_en": "15,000 Seal Cap",
             "entitlements_fr": "15.000 Sceaux de compagnie limséen maximum",
+            "patch": "2.0",
             "cPrev": [0],
             "cNext": [2]
         },
@@ -49,6 +54,7 @@
             "requirement": "@3,000 CURRENCY.SEAL.STORM",
             "entitlements_en": "20,000 Seal Cap",
             "entitlements_fr": "20.000 Sceaux de compagnie limséen maximum",
+            "patch": "2.0",
             "cPrev": [1],
             "cNext": [3]
         },
@@ -59,6 +65,7 @@
             "requirement": "@4,000 CURRENCY.SEAL.STORM",
             "entitlements_en": "25,000 Seal Cap",
             "entitlements_fr": "25.000 Sceaux de compagnie limséen maximum",
+            "patch": "2.0",
             "cPrev": [2],
             "cNext": [4]
         },
@@ -80,6 +87,7 @@
                 "Mandats de Grande Compagnie niveau 30",
                 "Mandats de Grande Compagnie au Poste de L'Arête blanche"
             ],
+            "patch": "2.0",
             "cPrev": [3],
             "cNext": [5]
         },
@@ -90,6 +98,7 @@
             "requirement": "@6,000 CURRENCY.SEAL.STORM",
             "entitlements_en": ["35,000 Seal Cap", "Expert Deliveries"],
             "entitlements_fr": ["35.000 Sceaux de compagnie limséen maximum ", "Prises de guerre"],
+            "patch": "2.0",
             "cPrev": [4],
             "cNext": [6]
         },
@@ -100,6 +109,7 @@
             "requirement": "@7,000 CURRENCY.SEAL.STORM",
             "entitlements_en": "40,000 Seal Cap",
             "entitlements_fr": "40.000 Sceaux de compagnie limséen maximum",
+            "patch": "2.0",
             "cPrev": [5],
             "cNext": [7]
         },
@@ -110,6 +120,7 @@
             "requirement": ["q.66664", "@8,000 CURRENCY.SEAL.STORM"],
             "entitlements_en": ["45,000 Seal Cap", "Mor Dhona GC Leves"],
             "entitlements_fr": ["45.000 Sceaux de compagnie limséen maximum", "Mandats de Grande Compagnie au Mor Dhona"],
+            "patch": "2.0",
             "cPrev": [6],
             "cNext": [8]
         },
@@ -129,6 +140,7 @@
             ],
             "entitlements_en": ["50,000 Seal Cap", "Adventurer Squadrons"],
             "entitlements_fr": ["50.000 Sceaux de compagnie limséen maximum", "Escouade de Grande Compagnie"],
+            "patch": "2.0",
             "cPrev": [7],
             "cNext": [9]
         },
@@ -140,6 +152,7 @@
             "requirement_fr": "Accomplissement de la mission normale d'escouade: \"Subtilisation de cristaux\"",
             "entitlements_en": "80,000 Seal Cap",
             "entitlements_fr": "80.000 Sceaux de compagnie limséen maximum",
+            "patch": "3.4",
             "cPrev": [8],
             "cNext": [10]
         },
@@ -157,6 +170,7 @@
             ],
             "entitlements_en": "90,000 Seal Cap",
             "entitlements_fr": "90.000 Sceaux de compagnie limséen maximum",
+            "patch": "4.4",
             "cPrev": [9]
         },
         "x11": {
@@ -166,6 +180,7 @@
             "requirement": "q.66220",
             "entitlements_en": ["10,000 Seal Cap", "Deliveries"],
             "entitlements_fr": ["10.000 Sceaux de compagnie gridanien maximum", "Ravitaillement"],
+            "patch": "2.0",
             "cNext": [12]
         },
         "x12": {
@@ -175,6 +190,7 @@
             "requirement": "@2,000 CURRENCY.SEAL.SERPENT",
             "entitlements_en": "15,000 Seal Cap",
             "entitlements_fr": "15.000 Sceaux de compagnie gridanien maximum",
+            "patch": "2.0",
             "cPrev": [11],
             "cNext": [13]
         },
@@ -185,6 +201,7 @@
             "requirement": "@3,000 CURRENCY.SEAL.SERPENT",
             "entitlements_en": "20,000 Seal Cap",
             "entitlements_fr": "20.000 Sceaux de compagnie gridanien maximum",
+            "patch": "2.0",
             "cPrev": [12],
             "cNext": [14]
         },
@@ -195,6 +212,7 @@
             "requirement": "@4,000 CURRENCY.SEAL.SERPENT",
             "entitlements_en": "25,000 Seal Cap",
             "entitlements_fr": "25.000 Sceaux de compagnie gridanien maximum",
+            "patch": "2.0",
             "cPrev": [13],
             "cNext": [15]
         },
@@ -216,6 +234,7 @@
                 "Mandats de Grande Compagnie niveau 30",
                 "Mandats de Grande Compagnie au Poste de L'Arête blanche"
             ],
+            "patch": "2.0",
             "cPrev": [14],
             "cNext": [16]
         },
@@ -226,6 +245,7 @@
             "requirement": "@6,000 CURRENCY.SEAL.SERPENT",
             "entitlements_en": ["35,000 Seal Cap", "Expert Deliveries"],
             "entitlements_fr": ["35.000 Sceaux de compagnie gridanien maximum", "Prises de guerre"],
+            "patch": "2.0",
             "cPrev": [15],
             "cNext": [17]
         },
@@ -236,6 +256,7 @@
             "requirement": "@7,000 CURRENCY.SEAL.SERPENT",
             "entitlements_en": "40,000 Seal Cap",
             "entitlements_fr": "40.000 Sceaux de compagnie gridanien maximum",
+            "patch": "2.0",
             "cPrev": [16],
             "cNext": [18]
         },
@@ -246,6 +267,7 @@
             "requirement": ["q.66665", "@8,000 CURRENCY.SEAL.SERPENT"],
             "entitlements_en": ["45,000 Seal Cap", "Mor Dhona GC Leves"],
             "entitlements_fr": ["45.000 Sceaux de compagnie gridanien maximum", "Mandats de Grande Compagnie au Mor Dhona"],
+            "patch": "2.0",
             "cPrev": [17],
             "cNext": [19]
         },
@@ -265,6 +287,7 @@
             ],
             "entitlements_en": ["50,000 Seal Cap", "Adventurer Squadrons"],
             "entitlements_fr": ["50.000 Sceaux de compagnie gridanien maximum", "Escouade de Grande Compagnie"],
+            "patch": "2.0",
             "cPrev": [18],
             "cNext": [20]
         },
@@ -276,6 +299,7 @@
             "requirement_fr": "Accomplissement de la mission normale d'escouade: \"Subtilisation de cristaux\"",
             "entitlements_en": "80,000 Seal Cap",
             "entitlements_fr": "80.000 Sceaux de compagnie gridanien maximum",
+            "patch": "3.4",
             "cPrev": [19],
             "cNext": [21]
         },
@@ -293,6 +317,7 @@
             ],
             "entitlements_en": "90,000 Seal Cap",
             "entitlements_fr": "90.000 Sceaux de compagnie gridanien maximum",
+            "patch": "4.4",
             "cPrev": [20]
         },
         "x22": {
@@ -302,6 +327,7 @@
             "requirement": "q.66220",
             "entitlements_en": ["10,000 Seal Cap", "Deliveries"],
             "entitlements_fr": ["10.000 Sceaux de compagnie uldien maximum", "Ravitaillement"],
+            "patch": "2.0",
             "cNext": [23]
         },
         "x23": {
@@ -311,6 +337,7 @@
             "requirement": "@2,000 CURRENCY.SEAL.FLAME",
             "entitlements_en": "15,000 Seal Cap",
             "entitlements_fr": "15.000 Sceaux de compagnie uldien maximum",
+            "patch": "2.0",
             "cPrev": [22],
             "cNext": [24]
         },
@@ -321,6 +348,7 @@
             "requirement": "@3,000 CURRENCY.SEAL.FLAME",
             "entitlements_en": "20,000 Seal Cap",
             "entitlements_fr": "20.000 Sceaux de compagnie uldien maximum",
+            "patch": "2.0",
             "cPrev": [23],
             "cNext": [25]
         },
@@ -331,6 +359,7 @@
             "requirement": "@4,000 CURRENCY.SEAL.FLAME",
             "entitlements_en": "25,000 Seal Cap",
             "entitlements_fr": "25.000 Sceaux de compagnie uldien maximum",
+            "patch": "2.0",
             "cPrev": [24],
             "cNext": [26]
         },
@@ -352,6 +381,7 @@
                 "Mandats de Grande Compagnie niveau 30",
                 "Mandats de Grande Compagnie au Poste de L'Arête blanche"
             ],
+            "patch": "2.0",
             "cPrev": [25],
             "cNext": [27]
         },
@@ -362,6 +392,7 @@
             "requirement": "@6,000 CURRENCY.SEAL.FLAME",
             "entitlements_en": ["35,000 Seal Cap", "Expert Deliveries"],
             "entitlements_fr": ["35.000 Sceaux de compagnie uldien maximum", "Prise de guerre"],
+            "patch": "2.0",
             "cPrev": [26],
             "cNext": [28]
         },
@@ -372,6 +403,7 @@
             "requirement": "@7,000 CURRENCY.SEAL.FLAME",
             "entitlements_en": "40,000 Seal Cap",
             "entitlements_fr": "40.000 Sceaux de compagnie uldien maximum",
+            "patch": "2.0",
             "cPrev": [27],
             "cNext": [29]
         },
@@ -382,6 +414,7 @@
             "requirement": ["q.66666", "@8,000 CURRENCY.SEAL.FLAME"],
             "entitlements_en": ["45,000 Seal Cap", "Mor Dhona GC Leves"],
             "entitlements_fr": ["45,000 Sceaux de compagnie uldien maximum", "Mandats de Grande Compagnie au Mor Dhona"],
+            "patch": "2.0",
             "cPrev": [28],
             "cNext": [30]
         },
@@ -401,6 +434,7 @@
             ],
             "entitlements_en": ["50,000 Seal Cap", "Adventurer Squadrons"],
             "entitlements_fr": ["50.000 Sceaux de compagnie uldien maximum", "Escouade de Grande Compagnie"],
+            "patch": "2.0",
             "cPrev": [29],
             "cNext": [31]
         },
@@ -412,6 +446,7 @@
             "requirement_fr": "Accomplissement de la mission normale d'escouade: \"Subtilisation de cristaux\"",
             "entitlements_en": "80,000 Seal Cap",
             "entitlements_fr": "80.000 Sceaux de compagnie uldien maximum",
+            "patch": "3.4",
             "cPrev": [30],
             "cNext": [32]
         },
@@ -429,6 +464,7 @@
             ],
             "entitlements_en": "90,000 Seal Cap",
             "entitlements_fr": "90.000 Sceaux de compagnie uldien maximum",
+            "patch": "4.4",
             "cPrev": [31]
         }
     }

@@ -669,9 +669,20 @@
             "POINTS": "Points",
             "REWARD": "Récompense",
             "REQUIREMENTS": "Conditions",
+            "ROLE": "Rôle",
             "UNLOCK": "Débloqué",
             "PATCH": "Patch",
             "FATE": "ALÉA"
+        },
+        "ROLE": {
+            "ALL_ROUNDER": "Polyvalent",
+            "ANY": "Tous",
+            "TANK": "Tank",
+            "HEALER": "Soigneur",
+            "DPS": "DPS",
+            "MELEE_DPS": "DPS de mêlée",
+            "RANGED_MAGICAL_DPS": "DPS magique à distance",
+            "RANGED_PHYSICAL_DPS": "DPS physique à distance"
         },
         "CLASS_JOB": {
             "GLA": "Gladiateur",
@@ -736,6 +747,8 @@
             "VIERA": "Viera"
         },
         "PLACE": {
+            "DUNGEON": "Donjon",
+
             "LA_NOSCEA": "Noscea",
             "LIMSA_LOMINSA": "Limsa Lominsa",
             "LIMSA_LOMINSA_LOWER_DECKS": "Limsa Lominsa - L'Entrepont",
@@ -1242,6 +1255,7 @@
             "MOUNT_TOKEN": "Avoir de cavalier",
             "RATHALOS_SCALE": "Écaille Rathalos",
             "TATTERED_SHEET_MUSIC": "Partition fripée",
+            "THAVNAIRIAN_ONION": "Oignon de Thavnair",
             "TROPHY_CRYSTAL": "Cristaux-trophées",
             "WOLF_MARK": "Marques de loup",
 
@@ -1300,9 +1314,9 @@
                 "SECONDARY_GATHERERS": "Assignat mauve de récolteur",
                 "SKYBUILDERS": "Assignats d'Azurée",
                 "BLUE_TOKEN": "Avoir de récolteur (bleu)",
-                "REGIONAL_A": "50 Avoir de légende locale I",
-                "REGIONAL_B": "50 Avoir de légende locale II",
-                "REGIONAL_C": "50 Avoir de légende locale III"
+                "REGIONAL_A": "Avoir de légende locale I",
+                "REGIONAL_B": "Avoir de légende locale II",
+                "REGIONAL_C": "Avoir de légende locale III"
             },
             "SEAL": {
                 "ALLIED": "Insignes alliés",

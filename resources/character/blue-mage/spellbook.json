@@ -18,6 +18,9 @@
         "enemy": {
             "header_en": "Enemy",
             "header_fr": "Ennemi"
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
@@ -26,7 +29,8 @@
             "name_en": "Water Cannon",
             "name_fr": "Tir d'eau",
             "location_en": "Starting Spell",
-            "location_fr": "Sort de départ"
+            "location_fr": "Sort de départ",
+            "patch": "4.5"
         },
         "x1": {
             "number": "2",
@@ -34,7 +38,8 @@
             "name_fr": "Crache-flammes",
             "location": ["d.20", "d.32"],
             "enemy_en": "Gobmachine G-VI, Einhander",
-            "enemy_fr": "Gobtank G-VI, Einhänder"
+            "enemy_fr": "Gobtank G-VI, Einhänder",
+            "patch": "4.5"
         },
         "x2": {
             "number": "3",
@@ -42,7 +47,8 @@
             "name_fr": "Aquasouffle",
             "location": ["d.81", "d.72"],
             "enemy_en": "Ultros, Leviathan",
-            "enemy_fr": "Orthros, Léviathan"
+            "enemy_fr": "Orthros, Léviathan",
+            "patch": "4.5"
         },
         "x3": {
             "number": "4",
@@ -50,7 +56,8 @@
             "name_fr": "Démence",
             "location": "d.17",
             "enemy_en": "Zu",
-            "enemy_fr": "Zu"
+            "enemy_fr": "Zu",
+            "patch": "4.5"
         },
         "x4": {
             "number": "5",
@@ -58,7 +65,8 @@
             "name_fr": "Canon-foreur",
             "location": "@PLACE.NORTHERN_THANALAN (16, 15)",
             "enemy_en": "Magitek Vanguard H-2",
-            "enemy_fr": "Avant-garde magitek améliorée"
+            "enemy_fr": "Avant-garde magitek améliorée",
+            "patch": "4.5"
         },
         "x5": {
             "number": "6",
@@ -66,7 +74,8 @@
             "name_fr": "Haute tension",
             "location": ["d.93", "d.94", "character.blue-mage.the-masked-carnivale.14"],
             "enemy_en": "ADS, Bestial Node",
-            "enemy_fr": "Sphère De Contrôle, Sphère bestiale"
+            "enemy_fr": "Sphère De Contrôle, Sphère bestiale",
+            "patch": "4.5"
         },
         "x6": {
             "number": "7",
@@ -74,7 +83,8 @@
             "name_fr": "Approche masquée",
             "location": ["@PLACE.NORTHERN_THANALAN", "d.22", "d.24"],
             "enemy_en": "Flame Sergeant Dalvag, Baalzephon, Dantalion",
-            "enemy_fr": "Sergent-major Dalvag, Baalzephon, Dantalion"
+            "enemy_fr": "Sergent-major Dalvag, Baalzephon, Dantalion",
+            "patch": "4.5"
         },
         "x7": {
             "number": "8",
@@ -82,7 +92,8 @@
             "name_fr": "Dard final",
             "location": "@PLACE.MIDDLE_LA_NOSCEA (15, 15)",
             "enemy_en": "Killer Wespe",
-            "enemy_fr": "Frelon tueur"
+            "enemy_fr": "Frelon tueur",
+            "patch": "4.5"
         },
         "x8": {
             "number": "9",
@@ -90,7 +101,8 @@
             "name_fr": "Chant de l'agonie",
             "location": "d.17",
             "enemy_en": "Siren",
-            "enemy_fr": "Sirène"
+            "enemy_fr": "Sirène",
+            "patch": "4.5"
         },
         "x9": {
             "number": "10",
@@ -98,7 +110,8 @@
             "name_fr": "Regard noir",
             "location": "d.5",
             "enemy_en": "Coincounter",
-            "enemy_fr": "Trésorier"
+            "enemy_fr": "Trésorier",
+            "patch": "4.5"
         },
         "x10": {
             "number": "11",
@@ -106,7 +119,8 @@
             "name_fr": "Brise-plaine",
             "location": ["@PLACE.OUTER_LA_NOSCEA", "@PLACE.SOUTHERN_THANALAN (22, 12)"],
             "enemy_en": "Basalt Golem, Sandstone Golem",
-            "enemy_fr": "Golem de basalte, Golem de grès"
+            "enemy_fr": "Golem de basalte, Golem de grès",
+            "patch": "4.5"
         },
         "x11": {
             "number": "12",
@@ -114,14 +128,16 @@
             "name_fr": "Hérissement",
             "location": "@PLACE.EAST_SHROUD (18, 24)",
             "enemy_en": "Wild Boar",
-            "enemy_fr": "Sanglier sauvage"
+            "enemy_fr": "Sanglier sauvage",
+            "patch": "4.5"
         },
         "x12": {
             "number": "13",
             "name_en": "White Wind",
             "name_fr": "Vent blanc",
             "location_en": "Learn 10 Spells",
-            "location_fr": "Apprendre 10 sorts"
+            "location_fr": "Apprendre 10 sorts",
+            "patch": "4.5"
         },
         "x13": {
             "number": "14",
@@ -129,7 +145,8 @@
             "name_fr": "Pétrification niveau 5",
             "location": "d.6",
             "enemy_en": "Manor Sentry",
-            "enemy_fr": "Vigile du manoir"
+            "enemy_fr": "Vigile du manoir",
+            "patch": "4.5"
         },
         "x14": {
             "number": "15",
@@ -137,7 +154,8 @@
             "name_fr": "Couteau aiguisé",
             "location": "d.10",
             "enemy_en": "Tonberry King",
-            "enemy_fr": "Tomberry roi"
+            "enemy_fr": "Tomberry roi",
+            "patch": "4.5"
         },
         "x15": {
             "number": "16",
@@ -145,7 +163,8 @@
             "name_fr": "Pointes de glace",
             "location": "@PLACE.CENTRAL_SHROUD (27, 24)",
             "enemy_en": "Trickster Imp",
-            "enemy_fr": "Imp"
+            "enemy_fr": "Imp",
+            "patch": "4.5"
         },
         "x16": {
             "number": "17",
@@ -153,7 +172,8 @@
             "name_fr": "Suceur de sang",
             "location": "@PLACE.LOWER_LA_NOSCEA (27, 16)",
             "enemy_en": "Cave Bat",
-            "enemy_fr": "Chauve-souris cavernicole"
+            "enemy_fr": "Chauve-souris cavernicole",
+            "patch": "4.5"
         },
         "x17": {
             "number": "18",
@@ -161,7 +181,8 @@
             "name_fr": "Gland explosif",
             "location": "@PLACE.NORTH_SHROUD (24, 28)",
             "enemy_en": "Treant Sapling",
-            "enemy_fr": "Pousse de tréant"
+            "enemy_fr": "Pousse de tréant",
+            "patch": "4.5"
         },
         "x18": {
             "number": "19",
@@ -169,14 +190,16 @@
             "name_fr": "Lancer de bombe",
             "location": "@PLACE.MIDDLE_LA_NOSCEA (23, 21)",
             "enemy_en": "Goblin Fisher, Goblin Gambler",
-            "enemy_fr": "Pêcheur gobelin, Parieur gobelin"
+            "enemy_fr": "Pêcheur gobelin, Parieur gobelin",
+            "patch": "4.5"
         },
         "x19": {
             "number": "20",
             "name_en": "Off-guard",
             "name_fr": "Sans défense",
             "location_en": "Learn 5 Spells",
-            "location_fr": "Apprendre 5 sorts"
+            "location_fr": "Apprendre 5 sorts",
+            "patch": "4.5"
         },
         "x20": {
             "number": "21",
@@ -184,14 +207,16 @@
             "name_fr": "Auto-destruction",
             "location": "@PLACE.WESTERN_THANALAN (27, 16)",
             "enemy_en": "Glide Bomb",
-            "enemy_fr": "Bombo planeur"
+            "enemy_fr": "Bombo planeur",
+            "patch": "4.5"
         },
         "x21": {
             "number": "22",
             "name_en": "Transfusion",
             "name_fr": "Fusion",
             "location_en": "Learn 20 Spells",
-            "location_fr": "Apprendre 20 sorts"
+            "location_fr": "Apprendre 20 sorts",
+            "patch": "4.5"
         },
         "x22": {
             "number": "23",
@@ -199,7 +224,8 @@
             "name_fr": "Désorientation",
             "location": "@PLACE.CENTRAL_THANALAN (16, 19)",
             "enemy_en": "Qiqirn Shellsweeper",
-            "enemy_fr": "Qiqirn casse-coquille"
+            "enemy_fr": "Qiqirn casse-coquille",
+            "patch": "4.5"
         },
         "x23": {
             "number": "24",
@@ -207,7 +233,8 @@
             "name_fr": "Sardine volante",
             "location": "@PLACE.EASTERN_LA_NOSCEA (27, 35)",
             "enemy_en": "Apkallu",
-            "enemy_fr": "Apkallu"
+            "enemy_fr": "Apkallu",
+            "patch": "4.5"
         },
         "x24": {
             "number": "25",
@@ -219,7 +246,8 @@
                 "character.blue-mage.the-masked-carnivale.26"
             ],
             "enemy_en": "Typhon",
-            "enemy_fr": "Typhon"
+            "enemy_fr": "Typhon",
+            "patch": "4.5"
         },
         "x25": {
             "number": "26",
@@ -227,7 +255,8 @@
             "name_fr": "Poids de 4 tonz",
             "location": "d.20",
             "enemy_en": "Ultros",
-            "enemy_fr": "Orthros"
+            "enemy_fr": "Orthros",
+            "patch": "4.5"
         },
         "x26": {
             "number": "27",
@@ -235,7 +264,8 @@
             "name_fr": "Regard intense",
             "location": "d.14",
             "enemy_en": "Anantaboga",
-            "enemy_fr": "Anantaboga"
+            "enemy_fr": "Anantaboga",
+            "patch": "4.5"
         },
         "x27": {
             "number": "28",
@@ -246,7 +276,8 @@
                 "@PLACE.MOR_DHONA (15, 14)"
             ],
             "enemy_en": "Stroper, Morbol",
-            "enemy_fr": "Storoper, Morbol"
+            "enemy_fr": "Storoper, Morbol",
+            "patch": "4.5"
         },
         "x28": {
             "number": "29",
@@ -254,14 +285,16 @@
             "name_fr": "Blindage",
             "location": "d.25",
             "enemy_en": "Cuca Fera",
-            "enemy_fr": "Cuca Fera"
+            "enemy_fr": "Cuca Fera",
+            "patch": "4.5"
         },
         "x29": {
             "number": "30",
             "name_en": "Mighty Guard",
             "name_fr": "Garde puissante",
             "location_en": "Learn 10 Spells",
-            "location_fr": "Apprendre 10 sorts"
+            "location_fr": "Apprendre 10 sorts",
+            "patch": "4.5"
         },
         "x30": {
             "number": "31",
@@ -272,7 +305,8 @@
                 "@PLACE.WESTERN_THANALAN (14, 6)"
             ],
             "enemy_en": "Toxic Toad, Laughing Toad",
-            "enemy_fr": "Crapaud toxique, Crapaud rieur"
+            "enemy_fr": "Crapaud toxique, Crapaud rieur",
+            "patch": "4.5"
         },
         "x31": {
             "number": "32",
@@ -280,7 +314,8 @@
             "name_fr": "Huile de crapaud",
             "location": "@PLACE.WESTERN_THANALAN (15, 7)",
             "enemy_en": "Giggling Gigantoad",
-            "enemy_fr": "Crapaud rieur géant"
+            "enemy_fr": "Crapaud rieur géant",
+            "patch": "4.5"
         },
         "x32": {
             "number": "33",
@@ -292,7 +327,8 @@
                 "character.blue-mage.the-masked-carnivale.24"
             ],
             "enemy_en": "Chimera, Dhorme Chimera, Azulmagia",
-            "enemy_fr": "Chimère, Chimère Dhorme, Azulmagia"
+            "enemy_fr": "Chimère, Chimère Dhorme, Azulmagia",
+            "patch": "4.5"
         },
         "x33": {
             "number": "34",
@@ -304,7 +340,8 @@
                 "character.blue-mage.the-masked-carnivale.24"
             ],
             "enemy_en": "Chimera, Dhorme Chimera, Azulmagia",
-            "enemy_fr": "Chimère, Chimère Dhorme, Azulmagia"
+            "enemy_fr": "Chimère, Chimère Dhorme, Azulmagia",
+            "patch": "4.5"
         },
         "x34": {
             "number": "35",
@@ -312,7 +349,8 @@
             "name_fr": "Missile",
             "location": "d.85",
             "enemy_en": "Enkidu",
-            "enemy_fr": "Enkidu"
+            "enemy_fr": "Enkidu",
+            "patch": "4.5"
         },
         "x35": {
             "number": "36",
@@ -320,7 +358,8 @@
             "name_fr": "1000 aiguilles",
             "location": "@PLACE.SOUTHERN_THANALAN (16, 15)",
             "enemy_en": "Sabotender Bailaor",
-            "enemy_fr": "Pampa bailarin"
+            "enemy_fr": "Pampa bailarin",
+            "patch": "4.5"
         },
         "x36": {
             "number": "37",
@@ -328,7 +367,8 @@
             "name_fr": "Tir d'encre",
             "location": "d.28",
             "enemy_en": "Kraken",
-            "enemy_fr": "Kraken"
+            "enemy_fr": "Kraken",
+            "patch": "4.5"
         },
         "x37": {
             "number": "38",
@@ -336,14 +376,16 @@
             "name_fr": "Angon enflammé",
             "location": "d.30",
             "enemy_en": "Frumious Koheel Ja",
-            "enemy_fr": "Koheel Ja"
+            "enemy_fr": "Koheel Ja",
+            "patch": "4.5"
         },
         "x38": {
             "number": "39",
             "name_en": "Moon Flute",
             "name_fr": "Flûte lunaire",
             "location_en": "Complete 10 Stages in the Masked Carnivale",
-            "location_fr": "Compléter 10 épreuves de la Grande Masquarade"
+            "location_fr": "Compléter 10 épreuves de la Grande Masquarade",
+            "patch": "4.5"
         },
         "x39": {
             "number": "40",
@@ -351,7 +393,8 @@
             "name_fr": "Queue forante",
             "location": ["d.28", "@PLACE.THE_PEAKS"],
             "enemy_en": "Karlabos, Crag Claw",
-            "enemy_fr": "Karlabos, Griffe d'argile"
+            "enemy_fr": "Karlabos, Griffe d'argile",
+            "patch": "4.5"
         },
         "x40": {
             "number": "41",
@@ -359,14 +402,16 @@
             "name_fr": "Explosion mentale",
             "location": "d.2",
             "enemy_en": "Galvanth the Dominator",
-            "enemy_fr": "Galvanth le tyran"
+            "enemy_fr": "Galvanth le tyran",
+            "patch": "4.5"
         },
         "x41": {
             "number": "42",
             "name_en": "Doom",
             "name_fr": "Glas",
             "location_en": "Complete 20 Stages in the Masked Carnivale",
-            "location_fr": "Compléter 20 épreuves de la Grande Masquarade"
+            "location_fr": "Compléter 20 épreuves de la Grande Masquarade",
+            "patch": "4.5"
         },
         "x42": {
             "number": "43",
@@ -374,7 +419,8 @@
             "name_fr": "Lumière sinistre",
             "location": "@PLACE.MOR_DHONA (13, 10)",
             "enemy_en": "Lentic Mudpuppy",
-            "enemy_fr": "Protée lacustre"
+            "enemy_fr": "Protée lacustre",
+            "patch": "4.5"
         },
         "x43": {
             "number": "44",
@@ -382,7 +428,8 @@
             "name_fr": "Pluie de plumes",
             "location": "d.65",
             "enemy_en": "Garuda",
-            "enemy_fr": "Garuda"
+            "enemy_fr": "Garuda",
+            "patch": "4.5"
         },
         "x44": {
             "number": "45",
@@ -390,7 +437,8 @@
             "name_fr": "Éruption",
             "location": "d.56",
             "enemy_en": "Ifrit",
-            "enemy_fr": "Ifrit"
+            "enemy_fr": "Ifrit",
+            "patch": "4.5"
         },
         "x45": {
             "number": "46",
@@ -398,7 +446,8 @@
             "name_fr": "Casse-montagnes",
             "location": "d.60",
             "enemy_en": "Titan",
-            "enemy_fr": "Titan"
+            "enemy_fr": "Titan",
+            "patch": "4.5"
         },
         "x46": {
             "number": "47",
@@ -406,7 +455,8 @@
             "name_fr": "Frappe de choc",
             "location": "d.77",
             "enemy_en": "Ramuh",
-            "enemy_fr": "Ramuh"
+            "enemy_fr": "Ramuh",
+            "patch": "4.5"
         },
         "x47": {
             "number": "48",
@@ -414,7 +464,8 @@
             "name_fr": "Danse de glace",
             "location": "d.80",
             "enemy_en": "Shiva",
-            "enemy_fr": "Shiva"
+            "enemy_fr": "Shiva",
+            "patch": "4.5"
         },
         "x48": {
             "number": "49",
@@ -422,7 +473,8 @@
             "name_fr": "Voile du Déchaîneur",
             "location": "d.72",
             "enemy_en": "Leviathan",
-            "enemy_fr": "Leviathan"
+            "enemy_fr": "Leviathan",
+            "patch": "4.5"
         },
         "x49": {
             "number": "50",
@@ -430,7 +482,8 @@
             "name_fr": "Vent alpin",
             "location": "@PLACE.THE_SEA_OF_CLOUDS (36, 9)",
             "enemy_en": "Griffin",
-            "enemy_fr": "Griffon"
+            "enemy_fr": "Griffon",
+            "patch": "5.15"
         },
         "x50": {
             "number": "51",
@@ -438,7 +491,8 @@
             "name_fr": "Vague inconstante",
             "location": ["d.114", "character.blue-mage.the-masked-carnivale.28"],
             "enemy_en": "Living Liquid, Shikigami",
-            "enemy_fr": "Liquide vivant, Shikigami d'eau"
+            "enemy_fr": "Liquide vivant, Shikigami d'eau",
+            "patch": "5.15"
         },
         "x51": {
             "number": "52",
@@ -446,7 +500,8 @@
             "name_fr": "Aquilons",
             "location": "@PLACE.COERTHAS_WESTERN_HIGHLANDS (22, 27)",
             "enemy_en": "Slate Yeti",
-            "enemy_fr": "Yéti du grésil"
+            "enemy_fr": "Yéti du grésil",
+            "patch": "5.15"
         },
         "x52": {
             "number": "53",
@@ -454,7 +509,8 @@
             "name_fr": "Électrogenèse",
             "location": "@PLACE.THE_SEA_OF_CLOUDS (26, 33)",
             "enemy_en": "Conodont",
-            "enemy_fr": "Conodonte"
+            "enemy_fr": "Conodonte",
+            "patch": "5.15"
         },
         "x53": {
             "number": "54",
@@ -462,7 +518,8 @@
             "name_fr": "Kaltstrahl",
             "location": ["d.112", "d.113"],
             "enemy_en": "Faust, Jagd Doll",
-            "enemy_fr": "Faust, Poupée Jagd"
+            "enemy_fr": "Faust, Poupée Jagd",
+            "patch": "5.15"
         },
         "x54": {
             "number": "55",
@@ -470,7 +527,8 @@
             "name_fr": "Transfixion abyssale",
             "location": ["d.19", "duty.quest.levequests.battlecraft-leves.the-dravanian-hinterlands.903", "d.31"],
             "enemy_en": "Ash, Arch Demon, Biblioklept",
-            "enemy_fr": "Astaroth, Archidémon, Biblioclepte"
+            "enemy_fr": "Astaroth, Archidémon, Biblioclepte",
+            "patch": "5.15"
         },
         "x55": {
             "number": "56",
@@ -478,7 +536,8 @@
             "name_fr": "Gazouillement",
             "location": "@PLACE.THE_SEA_OF_CLOUDS (24, 33)",
             "enemy_en": "Paissa",
-            "enemy_fr": "Païssa"
+            "enemy_fr": "Païssa",
+            "patch": "5.15"
         },
         "x56": {
             "number": "57",
@@ -486,7 +545,8 @@
             "name_fr": "Onde lugubre",
             "location": "@PLACE.AZYS_LLA (30, 12)",
             "enemy_en": "Empuse",
-            "enemy_fr": "Empousa"
+            "enemy_fr": "Empousa",
+            "patch": "5.15"
         },
         "x57": {
             "number": "58",
@@ -494,7 +554,8 @@
             "name_fr": "Pompon soignant",
             "location": "d.66",
             "enemy_en": "Furryfoot Kupli Kipp",
-            "enemy_fr": "Kupli Kipp Pieds-poilus"
+            "enemy_fr": "Kupli Kipp Pieds-poilus",
+            "patch": "5.15"
         },
         "x58": {
             "number": "59",
@@ -502,7 +563,8 @@
             "name_fr": "Gobépiderme",
             "location": ["d.187", "@PLACE.THE_DRAVANIAN_HINTERLANDS"],
             "enemy_en": "Alexandrian Hider, Slipkinx Steeljoints (A Rank)",
-            "enemy_fr": "Traquenardeur Alexandrin, Slipkinx Joints-d'acier (rang A)"
+            "enemy_fr": "Traquenardeur Alexandrin, Slipkinx Joints-d'acier (rang A)",
+            "patch": "5.15"
         },
         "x59": {
             "number": "60",
@@ -510,7 +572,8 @@
             "name_fr": "Marteau magique",
             "location": ["d.196", "character.blue-mage.the-masked-carnivale.23"],
             "enemy_en": "Apanda, Epilogi",
-            "enemy_fr": "Apanda, Epilogi"
+            "enemy_fr": "Apanda, Epilogi",
+            "patch": "5.15"
         },
         "x60": {
             "number": "61",
@@ -518,7 +581,8 @@
             "name_fr": "Ordre défensif",
             "location": "d.41",
             "enemy_en": "Queen Hawk",
-            "enemy_fr": "Reine des guêpes"
+            "enemy_fr": "Reine des guêpes",
+            "patch": "5.15"
         },
         "x61": {
             "number": "62",
@@ -526,7 +590,8 @@
             "name_fr": "Ritournelle batracienne",
             "location": "@PLACE.THE_DRAVANIAN_HINTERLANDS (12, 35)",
             "enemy_en": "Poroggo",
-            "enemy_fr": " Poroggo"
+            "enemy_fr": " Poroggo",
+            "patch": "5.15"
         },
         "x62": {
             "number": "63",
@@ -534,7 +599,8 @@
             "name_fr": "Bang supersonique",
             "location": "@PLACE.THE_SEA_OF_CLOUDS (21, 6)",
             "enemy_en": "Anzu",
-            "enemy_fr": "Anzu"
+            "enemy_fr": "Anzu",
+            "patch": "5.15"
         },
         "x63": {
             "number": "64",
@@ -542,7 +608,8 @@
             "name_fr": "Sifflement",
             "location": "@PLACE.THE_SEA_OF_CLOUDS (16, 30)",
             "enemy_en": "Dhalmel",
-            "enemy_fr": "Dhalmel"
+            "enemy_fr": "Dhalmel",
+            "patch": "5.15"
         },
         "x64": {
             "number": "65",
@@ -550,7 +617,8 @@
             "name_fr": "Tour de cavalier blanc",
             "location": "d.34",
             "enemy_en": "White Knight",
-            "enemy_fr": "Chevalier blanc"
+            "enemy_fr": "Chevalier blanc",
+            "patch": "5.15"
         },
         "x65": {
             "number": "66",
@@ -558,7 +626,8 @@
             "name_fr": "Tour de cavalier noir",
             "location": "d.34",
             "enemy_en": "Black Knight",
-            "enemy_fr": "Chevalier noir"
+            "enemy_fr": "Chevalier noir",
+            "patch": "5.15"
         },
         "x66": {
             "number": "67",
@@ -566,7 +635,8 @@
             "name_fr": "Mort niveau 5",
             "location": "d.31",
             "enemy_en": "Page 64 (No Tether)",
-            "enemy_fr": "Page Soixante-quatre"
+            "enemy_fr": "Page Soixante-quatre",
+            "patch": "5.15"
         },
         "x67": {
             "number": "68",
@@ -574,7 +644,8 @@
             "name_fr": "Lance-roquettes",
             "location": "d.219",
             "enemy_en": "Armored Weapon",
-            "enemy_fr": "Arme blindée"
+            "enemy_fr": "Arme blindée",
+            "patch": "5.15"
         },
         "x68": {
             "number": "69",
@@ -582,7 +653,8 @@
             "name_fr": "Rayon perpétuel",
             "location": "d.115",
             "enemy_en": "The Manipulator",
-            "enemy_fr": "Manipulateur"
+            "enemy_fr": "Manipulateur",
+            "patch": "5.15"
         },
         "x69": {
             "number": "70",
@@ -590,21 +662,24 @@
             "name_fr": "Cactugarde",
             "location": "d.26",
             "enemy_en": "Sabotender Guardia",
-            "enemy_fr": "Pampa garde"
+            "enemy_fr": "Pampa garde",
+            "patch": "5.15"
         },
         "x70": {
             "number": "71",
             "name_en": "Revenge Blast",
             "name_fr": "Éclat vengeur",
             "location_en": "Learn 50 Spells",
-            "location_fr": "Apprendre 50 sorts"
+            "location_fr": "Apprendre 50 sorts",
+            "patch": "5.15"
         },
         "x71": {
             "number": "72",
             "name_en": "Angel Whisper",
             "name_fr": "Grâce angélique",
             "location_en": "Complete 30 Stages at the Masked Carnivale",
-            "location_fr": "Compléter 30 épreuves de la Grande Masquarade"
+            "location_fr": "Compléter 30 épreuves de la Grande Masquarade",
+            "patch": "5.15"
         },
         "x72": {
             "number": "73",
@@ -612,7 +687,8 @@
             "name_fr": "Exuviation",
             "location": "@PLACE.THE_SEA_OF_CLOUDS (9, 16)",
             "enemy_en": "Abalathian Wamoura",
-            "enemy_fr": "Wamoura d'Abalathia"
+            "enemy_fr": "Wamoura d'Abalathia",
+            "patch": "5.15"
         },
         "x73": {
             "number": "74",
@@ -620,7 +696,8 @@
             "name_fr": "Reflux",
             "location": "@PLACE.THE_CHURNING_MISTS (23, 29)",
             "enemy_en": "Cloud Wyvern",
-            "enemy_fr": "Wyverne des nuages"
+            "enemy_fr": "Wyverne des nuages",
+            "patch": "5.15"
         },
         "x74": {
             "number": "75",
@@ -628,7 +705,8 @@
             "name_fr": "Dévoration",
             "location": "d.93",
             "enemy_en": "Caduceus",
-            "enemy_fr": "Caducée"
+            "enemy_fr": "Caducée",
+            "patch": "5.15"
         },
         "x75": {
             "number": "76",
@@ -636,7 +714,8 @@
             "name_fr": "Acuité concentrée",
             "location": "character.blue-mage.the-masked-carnivale.23",
             "enemy_en": "Arena Scribe",
-            "enemy_fr": "Scribe de l'arène"
+            "enemy_fr": "Scribe de l'arène",
+            "patch": "5.15"
         },
         "x76": {
             "number": "77",
@@ -644,7 +723,8 @@
             "name_fr": "Imitation éthéréenne",
             "location": "d.40",
             "enemy_en": "Ghrah Luminary Adds",
-            "enemy_fr": "Trash de Grah virtuose"
+            "enemy_fr": "Trash de Grah virtuose",
+            "patch": "5.15"
         },
         "x77": {
             "number": "78",
@@ -652,7 +732,8 @@
             "name_fr": "Surpanakha",
             "location": "d.86",
             "enemy_en": "Ravana",
-            "enemy_fr": "Ravana"
+            "enemy_fr": "Ravana",
+            "patch": "5.15"
         },
         "x78": {
             "number": "79",
@@ -660,7 +741,8 @@
             "name_fr": "Quasar",
             "location": "d.183",
             "enemy_en": "Sophia",
-            "enemy_fr": "Sophia"
+            "enemy_fr": "Sophia",
+            "patch": "5.15"
         },
         "x79": {
             "number": "80",
@@ -668,7 +750,8 @@
             "name_fr": "Pied justicier",
             "location": "d.139",
             "enemy_en": "Brute Justice",
-            "enemy_fr": "Justicier"
+            "enemy_fr": "Justicier",
+            "patch": "5.15"
         },
         "x80": {
             "number": "81",
@@ -676,7 +759,8 @@
             "name_fr": "Triple trident",
             "location": "@PLACE.YANXIA (28, 6)",
             "enemy_en": "Ebisu Catfish",
-            "enemy_fr": "Namazu ebisu"
+            "enemy_fr": "Namazu ebisu",
+            "patch": "5.45"
         },
         "x81": {
             "number": "82",
@@ -684,7 +768,8 @@
             "name_fr": "Fourmillement",
             "location": "@PLACE.YANXIA (28, 6)",
             "enemy_en": "Ebisu Catfish",
-            "enemy_fr": "Namazu ebisu"
+            "enemy_fr": "Namazu ebisu",
+            "patch": "5.45"
         },
         "x82": {
             "number": "83",
@@ -692,7 +777,8 @@
             "name_fr": "Tatami-gaeshi",
             "location": "d.262",
             "enemy_en": "Dojun-maru",
-            "enemy_fr": "Dôjun Maru"
+            "enemy_fr": "Dôjun Maru",
+            "patch": "5.45"
         },
         "x83": {
             "number": "84",
@@ -700,7 +786,8 @@
             "name_fr": "Brume glaciale",
             "location": "d.585",
             "enemy_en": "Mist Dragon",
-            "enemy_fr": "Dragon des brumes"
+            "enemy_fr": "Dragon des brumes",
+            "patch": "5.45"
         },
         "x84": {
             "number": "85",
@@ -708,7 +795,8 @@
             "name_fr": "Stotram",
             "location": "d.263",
             "enemy_en": "Lakshmi",
-            "enemy_fr": "Lakshmi"
+            "enemy_fr": "Lakshmi",
+            "patch": "5.45"
         },
         "x85": {
             "number": "86",
@@ -716,7 +804,8 @@
             "name_fr": "Faisceaux sacrés",
             "location": "d.286",
             "enemy_en": "Phantom Train",
-            "enemy_fr": "Sigmastice v1.0"
+            "enemy_fr": "Sigmastice v1.0",
+            "patch": "5.45"
         },
         "x86": {
             "number": "87",
@@ -724,14 +813,16 @@
             "name_fr": "Sukuinage-gadoue",
             "location": "d.584",
             "enemy_en": "Tokkapchi",
-            "enemy_fr": "Tokkapchi"
+            "enemy_fr": "Tokkapchi",
+            "patch": "5.45"
         },
         "x87": {
             "number": "88",
             "name_en": "Angel's Snack",
             "name_fr": "Angélique",
             "location_en": "Learned via Whalaqee Totem - Level 70",
-            "location_fr": "Atteindre le niveau 70"
+            "location_fr": "Atteindre le niveau 70",
+            "patch": "5.45"
         },
         "x88": {
             "number": "89",
@@ -739,7 +830,8 @@
             "name_fr": "Barrière mystique",
             "location": "d.284",
             "enemy_en": "Genbu",
-            "enemy_fr": "Genbu"
+            "enemy_fr": "Genbu",
+            "patch": "5.45"
         },
         "x89": {
             "number": "90",
@@ -747,7 +839,8 @@
             "name_fr": "Rose de la destruction",
             "location": "d.236",
             "enemy_en": "Ivon Coeurlfist",
-            "enemy_fr": "Ivon le Coeurl"
+            "enemy_fr": "Ivon le Coeurl",
+            "patch": "5.45"
         },
         "x90": {
             "number": "91",
@@ -755,7 +848,8 @@
             "name_fr": "Instinct profond",
             "location": ["@PLACE.UPPER_LA_NOSCEA (8, 21)", "d.236"],
             "enemy_en": "Master Coeurl, Coeurl Sruti",
-            "enemy_fr": "Maître Coeurl, Coeurl scruti"
+            "enemy_fr": "Maître Coeurl, Coeurl scruti",
+            "patch": "5.45"
         },
         "x91": {
             "number": "92",
@@ -763,7 +857,8 @@
             "name_fr": "Ultravibration",
             "location": "@PLACE.THE_PEAKS (11, 25)",
             "enemy_en": "Kongamato",
-            "enemy_fr": "Kongamato"
+            "enemy_fr": "Kongamato",
+            "patch": "5.45"
         },
         "x92": {
             "number": "93",
@@ -771,7 +866,8 @@
             "name_fr": "Givre",
             "location": "d.252",
             "enemy_en": "Alte Roite",
-            "enemy_fr": "Alte Roite"
+            "enemy_fr": "Alte Roite",
+            "patch": "5.45"
         },
         "x93": {
             "number": "94",
@@ -779,14 +875,16 @@
             "name_fr": "Obus d'ypérite",
             "location": "d.589",
             "enemy_en": "Omega",
-            "enemy_fr": "Oméga"
+            "enemy_fr": "Oméga",
+            "patch": "5.45"
         },
         "x94": {
             "number": "95",
             "name_en": "Dragon Force",
             "name_fr": "Dracoforce",
             "location_en": "Learned via Whalaqee Totem - Learn 100 spells.",
-            "location_fr": "Apprendre 100 sorts"
+            "location_fr": "Apprendre 100 sorts",
+            "patch": "5.45"
         },
         "x95": {
             "number": "96",
@@ -794,7 +892,8 @@
             "name_fr": "Étincelle éthérée",
             "location": "@PLACE.THE_LOCHS (22, 22)",
             "enemy_en": "Salt Dhruva",
-            "enemy_fr": "Dhruva de sel"
+            "enemy_fr": "Dhruva de sel",
+            "patch": "5.45"
         },
         "x96": {
             "number": "97",
@@ -802,7 +901,8 @@
             "name_fr": "Hydrotraction",
             "location": "d.279",
             "enemy_en": "Kelpie",
-            "enemy_fr": "Kelpie"
+            "enemy_fr": "Kelpie",
+            "patch": "5.45"
         },
         "x97": {
             "number": "98",
@@ -810,7 +910,8 @@
             "name_fr": "Malédiction de l'eau",
             "location": "d.536",
             "enemy_en": "Sai Taisui",
-            "enemy_fr": "Sai Taisui"
+            "enemy_fr": "Sai Taisui",
+            "patch": "5.45"
         },
         "x98": {
             "number": "99",
@@ -818,14 +919,16 @@
             "name_fr": "Choco-météore",
             "location": "@PLACE.THE_DRAVANIAN_FORELANDS (34, 28)",
             "enemy_en": "Courser Chocobo",
-            "enemy_fr": "Chocobo coursier"
+            "enemy_fr": "Chocobo coursier",
+            "patch": "5.45"
         },
         "x99": {
             "number": "100",
             "name_en": "Matra Magic",
             "name_fr": "Magie Matra",
             "location_en": "Learned via Whalaqee Totem - Learn 100 spells.",
-            "location_fr": "Apprendre 100 sorts"
+            "location_fr": "Apprendre 100 sorts",
+            "patch": "5.45"
         },
         "x100": {
             "number": "101",
@@ -833,7 +936,8 @@
             "name_fr": "Impression",
             "location": "d.589",
             "enemy_en": "Omega",
-            "enemy_fr": "Oméga"
+            "enemy_fr": "Oméga",
+            "patch": "5.45"
         },
         "x101": {
             "number": "102",
@@ -841,7 +945,8 @@
             "name_fr": "Coup de bâton tournicotant",
             "location": "d.536",
             "enemy_en": "Qitian Dasheng",
-            "enemy_fr": "Qitian Dasheng"
+            "enemy_fr": "Qitian Dasheng",
+            "patch": "5.45"
         },
         "x102": {
             "number": "103",
@@ -849,7 +954,8 @@
             "name_fr": "Frénésie spectrale",
             "location": "d.596",
             "enemy_en": "Suzaku",
-            "enemy_fr": "Suzaku"
+            "enemy_fr": "Suzaku",
+            "patch": "5.45"
         },
         "x103": {
             "number": "104",
@@ -857,7 +963,8 @@
             "name_fr": "Lis araignée",
             "location": "d.537",
             "enemy_en": "Tsukuyomi",
-            "enemy_fr": "Tsukuyomi"
+            "enemy_fr": "Tsukuyomi",
+            "patch": "5.45"
         },
         "x104": {
             "number": "105",
@@ -865,7 +972,8 @@
             "name_fr": "Coup de poing gobelin",
             "location": "@PLACE.KHOLUSIA (37, 28)",
             "enemy_en": "Hobgoblin",
-            "enemy_fr": "Hobgoblin"
+            "enemy_fr": "Hobgoblin",
+            "patch": "6.45"
         },
         "x105": {
             "number": "106",
@@ -873,7 +981,8 @@
             "name_fr": "Grande culbute",
             "location": "d.656",
             "enemy_en": "Greater Armadillo",
-            "enemy_fr": "Grand tatou"
+            "enemy_fr": "Grand tatou",
+            "patch": "6.45"
         },
         "x106": {
             "number": "107",
@@ -881,7 +990,8 @@
             "name_fr": "Sheltron",
             "location": "@PLACE.AMH_ARAENG (17, 30)",
             "enemy_en": "Long-tailed Armadillo",
-            "enemy_fr": "Tatou longue-queue"
+            "enemy_fr": "Tatou longue-queue",
+            "patch": "6.45"
         },
         "x107": {
             "number": "108",
@@ -889,14 +999,16 @@
             "name_fr": "Réhydratation",
             "location": "@PLACE.AMH_ARAENG (33.9, 11.9)",
             "enemy_en": "Slippery Armadillo",
-            "enemy_fr": "Tatou fuyard"
+            "enemy_fr": "Tatou fuyard",
+            "patch": "6.45"
         },
         "x108": {
             "number": "109",
             "name_en": "Breath of Magic",
             "name_fr": "Souffle magique",
             "location_en": "Learned via Whalaqee Totem - Level 80",
-            "location_fr": "Atteindre le niveau 80"
+            "location_fr": "Atteindre le niveau 80",
+            "patch": "6.45"
         },
         "x109": {
             "number": "110",
@@ -904,7 +1016,8 @@
             "name_fr": "Colère bestiale",
             "location": "d.737",
             "enemy_en": "Spectral Berserker",
-            "enemy_fr": "Berserker spectral"
+            "enemy_fr": "Berserker spectral",
+            "patch": "6.45"
         },
         "x110": {
             "number": "111",
@@ -912,7 +1025,8 @@
             "name_fr": "Lancer de boue",
             "location": "d.746",
             "enemy_en": "Mudman",
-            "enemy_fr": "Tadboue"
+            "enemy_fr": "Tadboue",
+            "patch": "6.45"
         },
         "x111": {
             "number": "112",
@@ -920,7 +1034,8 @@
             "name_fr": "Grand nettoyage",
             "location": "d.692",
             "enemy_en": "Seeker of Solitude",
-            "enemy_fr": "Ermite du palais"
+            "enemy_fr": "Ermite du palais",
+            "patch": "6.45"
         },
         "x112": {
             "number": "113",
@@ -928,7 +1043,8 @@
             "name_fr": "Générateur rubis",
             "location": "d.717",
             "enemy_en": "Ruby Weapon",
-            "enemy_fr": "Arme Rubis"
+            "enemy_fr": "Arme Rubis",
+            "patch": "6.45"
         },
         "x113": {
             "number": "114",
@@ -936,7 +1052,8 @@
             "name_fr": "Rune de malice",
             "location": "d.657",
             "enemy_en": "Titania",
-            "enemy_fr": "Titania"
+            "enemy_fr": "Titania",
+            "patch": "6.45"
         },
         "x114": {
             "number": "115",
@@ -944,7 +1061,8 @@
             "name_fr": "Translation dimensionnelle",
             "location": "d.653",
             "enemy_en": "Eden Prime",
-            "enemy_fr": "Primo-Éden"
+            "enemy_fr": "Primo-Éden",
+            "patch": "6.45"
         },
         "x115": {
             "number": "116",
@@ -952,14 +1070,16 @@
             "name_fr": "Conviction - marcato",
             "location": "d.659",
             "enemy_en": "Forgiven Obscenity",
-            "enemy_fr": "Obscénité pardonnée"
+            "enemy_fr": "Obscénité pardonnée",
+            "patch": "6.45"
         },
         "x116": {
             "number": "117",
             "name_en": "Force Field",
             "name_fr": "Champ de force",
             "location_en": "Learned via Whalaqee Totem - Learn 120 spells.",
-            "location_fr": "Apprendre 120 sorts"
+            "location_fr": "Apprendre 120 sorts",
+            "patch": "6.45"
         },
         "x117": {
             "number": "118",
@@ -967,7 +1087,8 @@
             "name_fr": "Réprobation ailée",
             "location": "d.666",
             "enemy_en": "Innocence",
-            "enemy_fr": "Innocence"
+            "enemy_fr": "Innocence",
+            "patch": "6.45"
         },
         "x118": {
             "number": "119",
@@ -975,7 +1096,8 @@
             "name_fr": "Faisceau laser",
             "location": "d.758",
             "enemy_en": "Eden's Promise",
-            "enemy_fr": "Promesse d'Éden"
+            "enemy_fr": "Promesse d'Éden",
+            "patch": "6.45"
         },
         "x119": {
             "number": "120",
@@ -983,7 +1105,8 @@
             "name_fr": "Canne en sucre d'orge",
             "location": "d.649",
             "enemy_en": "Aenc Thon",
-            "enemy_fr": "Aenc Thon l'envoûtant"
+            "enemy_fr": "Aenc Thon l'envoûtant",
+            "patch": "6.45"
         },
         "x120": {
             "number": "121",
@@ -991,7 +1114,8 @@
             "name_fr": "Flamme mortelle",
             "location": "d.692",
             "enemy_en": "Lugus",
-            "enemy_fr": "Lugus"
+            "enemy_fr": "Lugus",
+            "patch": "6.45"
         },
         "x121": {
             "number": "122",
@@ -999,7 +1123,8 @@
             "name_fr": "Explosion tournicoton",
             "location": "d.746",
             "enemy_en": "Nixie",
-            "enemy_fr": "Nixe"
+            "enemy_fr": "Nixe",
+            "patch": "6.45"
         },
         "x122": {
             "number": "123",
@@ -1007,7 +1132,8 @@
             "name_fr": "Apokalypsis",
             "location": "d.652",
             "enemy_en": "Therion",
-            "enemy_fr": "Mégatherion"
+            "enemy_fr": "Mégatherion",
+            "patch": "6.45"
         },
         "x123": {
             "number": "124",
@@ -1015,7 +1141,8 @@
             "name_fr": "Deuil des vivants",
             "location": "d.657",
             "enemy_en": "Titania",
-            "enemy_fr": "Titania"
+            "enemy_fr": "Titania",
+            "patch": "6.45"
         }
     }
 }

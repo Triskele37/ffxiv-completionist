@@ -19,7 +19,8 @@
             "header": "@HEADER.ZONE"
         },
         "location": {
-            "header": "@HEADER.LOCATION"
+            "header": "@HEADER.LOCATION",
+            "link": true
         }
     },
     "order": [

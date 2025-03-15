@@ -11,9 +11,12 @@
     ],
     "headers": {
         "name": {
-            "filterable": true,
             "header_en": "Member",
-            "header_fr": "Membre"
+            "header_fr": "Membre",
+            "filterable": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "isNumericCompletion": true

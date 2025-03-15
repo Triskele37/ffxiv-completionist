@@ -10,8 +10,7 @@
             "name_fr": "Alphinaud",
             "minValue": 71,
             "maxValue": 80,
-            "role_en": "Healer",
-            "role_fr": "Soigneur",
+            "role": "@ROLE.HEALER",
             "cComboAt": {
                 "80": ["a.2336"]
             }
@@ -21,8 +20,7 @@
             "name_fr": "Alisaie",
             "minValue": 71,
             "maxValue": 80,
-            "role_en": "Ranged Magical DPS",
-            "role_fr": "DPS magique à distance",
+            "role": "@ROLE.RANGED_MAGICAL_DPS",
             "cComboAt": {
                 "80": ["a.2336"]
             }
@@ -32,8 +30,7 @@
             "name_fr": "Thancred",
             "minValue": 71,
             "maxValue": 80,
-            "role_en": "Tank",
-            "role_fr": "Tank",
+            "role": "@ROLE.TANK",
             "cComboAt": {
                 "80": ["a.2336"]
             }
@@ -43,8 +40,7 @@
             "name_fr": "Urianger",
             "minValue": 71,
             "maxValue": 80,
-            "role_en": "Healer",
-            "role_fr": "Soigneur",
+            "role": "@ROLE.HEALER",
             "cComboAt": {
                 "80": ["a.2336"]
             }
@@ -54,8 +50,7 @@
             "name_fr": "Y'shtola",
             "minValue": 71,
             "maxValue": 80,
-            "role_en": "Ranged Magical DPS",
-            "role_fr": "DPS magique à distance",
+            "role": "@ROLE.RANGED_MAGICAL_DPS",
             "cComboAt": {
                 "80": ["a.2336"]
             }
@@ -65,8 +60,7 @@
             "name_fr": "Ryne",
             "minValue": 71,
             "maxValue": 80,
-            "role_en": "Melee Physical DPS",
-            "role_fr": "Dps de mêlée",
+            "role": "@ROLE.MELEE_DPS",
             "cComboAt": {
                 "80": ["a.2336"]
             }

@@ -669,9 +669,20 @@
             "POINTS": "Points",
             "REWARD": "Reward",
             "REQUIREMENTS": "Requirements",
+            "ROLE": "Role",
             "UNLOCK": "Unlock",
             "PATCH": "Patch",
             "FATE": "FATE"
+        },
+        "ROLE": {
+            "ALL_ROUNDER": "All Rounder",
+            "ANY": "Any",
+            "TANK": "Tank",
+            "HEALER": "Healer",
+            "DPS": "DPS",
+            "MELEE_DPS": "Melee DPS",
+            "RANGED_MAGICAL_DPS": "Ranged Magical DPS",
+            "RANGED_PHYSICAL_DPS": "Ranged Physical DPS"
         },
         "CLASS_JOB": {
             "GLA": "Gladiator",
@@ -739,6 +750,8 @@
             "VIERA": "Viera"
         },
         "PLACE": {
+            "DUNGEON": "Dungeon",
+
             "LA_NOSCEA": "La Noscea",
             "LIMSA_LOMINSA": "Limsa Lominsa",
             "LIMSA_LOMINSA_LOWER_DECKS": "Limsa Lominsa Lower Decks",
@@ -1247,6 +1260,7 @@
             "MOUNT_TOKEN": "Mount Token",
             "RATHALOS_SCALE": "Rathalos Scale",
             "TATTERED_SHEET_MUSIC": "TATTERED_SHEET_MUSIC",
+            "THAVNAIRIAN_ONION": "Thavnairian Onion",
             "TROPHY_CRYSTAL": "Trophy Crystal",
             "WOLF_MARK": "Wolf Mark",
 
@@ -1305,9 +1319,9 @@
                 "SECONDARY_GATHERERS": "Purple Gatherer' Scrip",
                 "SKYBUILDERS": "Skybuilders' Scrip",
                 "BLUE_TOKEN": "Blue Gatherers' Scrip Token",
-                "REGIONAL_A": "50 Regional Folklore Trader's Token A",
-                "REGIONAL_B": "50 Regional Folklore Trader's Token C",
-                "REGIONAL_C": "50 Regional Folklore Trader's Token C"
+                "REGIONAL_A": "Regional Folklore Trader's Token A",
+                "REGIONAL_B": "Regional Folklore Trader's Token C",
+                "REGIONAL_C": "Regional Folklore Trader's Token C"
             },
             "SEAL": {
                 "ALLIED": "Allied Seal",

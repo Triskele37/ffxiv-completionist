@@ -1,68 +1,67 @@
 {
     "key": "dps",
-    "groupName_en": "DPS",
-    "groupName_fr": "DPS",
+    "groupName": "@ROLE.DPS",
     "tasks": {
         "x0": {
             "level": "15",
             "name_en": "Avoid Area of Effect Attacks",
             "name_fr": "Éviter les attaques à aire d'effet",
-            "role_en": "DPS",
-            "role_fr": "DPS",
-            "cNext": [1]
+            "role": "@ROLE.DPS",
+            "cNext": [1],
+            "patch": "3.2"
         },
         "x1": {
             "level": "15",
             "name_en": "Assist Allies in Defeating a Target",
             "name_fr": "Vaincre un ennemi en assistant des alliés",
-            "role_en": "DPS",
-            "role_fr": "DPS",
+            "role": "@ROLE.DPS",
             "cPrev": [0],
-            "cNext": [2]
+            "cNext": [2],
+            "patch": "3.2"
         },
         "x2": {
             "level": "15",
             "name_en": "Defeat an Occupied Target",
             "name_fr": "Vaincre un ennemi occupé par un allié",
-            "role_en": "DPS",
-            "role_fr": "DPS",
+            "role": "@ROLE.DPS",
             "cPrev": [1],
-            "cNext": [3]
+            "cNext": [3],
+            "patch": "3.2"
         },
         "x3": {
             "level": "15",
             "name_en": "Avoid Engaged Targets",
             "name_fr": "Combattre en évitant les attaques ennemies",
-            "role_en": "DPS",
-            "role_fr": "DPS",
+            "role": "@ROLE.DPS",
             "cPrev": [2],
-            "cNext": [4]
+            "cNext": [4],
+            "patch": "3.2"
         },
         "x4": {
             "level": "15",
             "name_en": "Engage Enemy Reinforcements",
             "name_fr": "Éliminer les renforts ennemis",
-            "role_en": "DPS",
-            "role_fr": "DPS",
+            "role": "@ROLE.DPS",
             "cPrev": [3],
-            "cNext": [5]
+            "cNext": [5],
+            "patch": "3.2"
         },
         "x5": {
             "level": "15",
             "name_en": "Interact with the Battlefield",
             "name_fr": "Intéragir avec le décor en combat",
-            "role_en": "DPS",
-            "role_fr": "DPS",
+            "role": "@ROLE.DPS",
             "cPrev": [4],
-            "cNext": [6]
+            "cNext": [6],
+            "patch": "3.2"
         },
         "x6": {
             "level": "15",
             "name_en": "Final Exercise",
             "name_fr": "Exercice final",
-            "role_en": "DPS",
-            "role_fr": "DPS",
-            "cPrev": [5]
+            "role": "@ROLE.DPS",
+            "cPrev": [5],
+            "patch": "3.2"
         }
     }
 }

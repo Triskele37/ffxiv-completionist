@@ -9,68 +9,86 @@
         "name": {
             "header": "@HEADER.NAME",
             "link": true
+        },
+        "patch": {
+            "header": "@HEADER.PATCH"
         }
     },
     "tasks": {
         "x0": {
             "level": 20,
-            "name": "d.7"
+            "name": "d.7",
+            "patch": "4.1"
         },
         "x1": {
             "level": 24,
-            "name": "d.1"
+            "name": "d.1",
+            "patch": "4.1"
         },
         "x2": {
             "level": 32,
-            "name": "d.8"
+            "name": "d.8",
+            "patch": "4.1"
         },
         "x3": {
             "level": 41,
-            "name": "d.11"
+            "name": "d.11",
+            "patch": "4.1"
         },
         "x4": {
             "level": 44,
-            "name": "d.13"
+            "name": "d.13",
+            "patch": "4.1"
         },
         "x5": {
             "level": 47,
-            "name": "d.5"
+            "name": "d.5",
+            "patch": "4.1"
         },
         "x6": {
             "level": 50,
-            "name": "d.10"
+            "name": "d.10",
+            "patch": "4.1"
         },
         "x7": {
             "level": 50,
-            "name": "d.17"
+            "name": "d.17",
+            "patch": "4.1"
         },
         "x8": {
             "level": 50,
-            "name": "d.18"
+            "name": "d.18",
+            "patch": "4.1"
         },
         "x9": {
             "level": 50,
-            "name": "d.20"
+            "name": "d.20",
+            "patch": "4.1"
         },
         "x10": {
             "level": 50,
-            "name": "d.30"
+            "name": "d.30",
+            "patch": "4.1"
         },
         "x11": {
             "level": 53,
-            "name": "d.37"
+            "name": "d.37",
+            "patch": "4.3"
         },
         "x12": {
             "level": 57,
-            "name": "d.34"
+            "name": "d.34",
+            "patch": "4.3"
         },
         "x13": {
             "level": 60,
-            "name": "d.35"
+            "name": "d.35",
+            "patch": "4.3"
         },
         "x14": {
             "level": 60,
-            "name": "d.40"
+            "name": "d.40",
+            "patch": "4.3"
         }
     }
 }
