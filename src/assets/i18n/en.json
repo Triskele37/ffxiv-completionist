@@ -399,12 +399,13 @@
             "1_0_5": {
                 "ADD": {
                     "L1": "Resources up to FFXIV 7.15",
-                    "L2": "Added Chain Analysis in main menu (only works with simple sibling and previous/next chains currently)",
-                    "L3": "Pressing the escape key now navigates to the parent group",
-                    "L4": "Pressing the backspace key now navigates back to the previous group",
-                    "L5": "Pressing numpad enter now also triggers searches in the search box",
-                    "L6": "Added ability to remove entries from or clear history entirely",
-                    "L7": "Added setting for long/short group name viewing (default short)"
+                    "L2": "Added Chain Analysis in main menu",
+                    "L3": "Added Patch View in main menu",
+                    "L4": "Pressing the escape key now navigates to the parent group",
+                    "L5": "Pressing the backspace key now navigates back to the previous group",
+                    "L6": "Pressing numpad enter now also triggers searches in the search box",
+                    "L7": "Added ability to remove entries from or clear history entirely",
+                    "L8": "Added setting for long/short group name viewing (default short)"
                 },
                 "CHANGE": {
                     "L1": "Please note that facewear will not automatically migrate from the old format",
@@ -418,6 +419,9 @@
                     "L3": "Marking a task that is then filtered out now scrolls the table back"
                 }
             }
+        },
+        "PATCH_VIEW": {
+            "TITLE": "Patch View"
         },
         "RANDOM": {
             "TITLE": "Random"

@@ -46,16 +46,12 @@ export class ChainAnalysisComponent {
     dive(group: DataGroup): void {
         if(group.isBookmarkGroup || group.isCustomGroup) return;
 
-        if(group.tasks) {
-            group.tasks.forEach((task) => {
-                this.addSiblingIssues(task);
-                this.addPrevIssues(task);
-            });
-        }
+        group.tasks?.forEach((task) => {
+            this.addSiblingIssues(task);
+            this.addPrevIssues(task);
+        });
 
-        if(group.subGroups) {
-            group.subGroups.forEach(this.dive.bind(this));
-        }
+        group.subGroups?.forEach(this.dive.bind(this));
     }
 
     addSiblingIssues(task: Task): void {
