@@ -2,7 +2,8 @@ import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { MessageService } from 'primeng/api';
 
-import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
+import { ElectronService } from '@service/electron/electron.service';
+import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 import { ConfigStoreService } from '@service/store/config-store.service';
 
 import { migrateData } from './migration';

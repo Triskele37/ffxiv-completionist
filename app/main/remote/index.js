@@ -2,6 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.asQueryString = exports.openInTeamcraft = exports.openInGarlandTools = exports.searchGarlandTools = exports.searchGamerEscape = exports.searchConsoleGamer = void 0;
 var electron_1 = require("electron");
+/**
+ * NOTE: none of these work, blocked at OS level due to no code signing
+ */
 //#region------------------------------------------------------- Search External
 function searchConsoleGamer(event, term) {
     var query = asQueryString(term, true);
@@ -26,7 +29,7 @@ exports.searchGarlandTools = searchGarlandTools;
 function openInGarlandTools(event, ids, groupName) {
     var baseUrl = 'https://www.garlandtools.org/db/#group';
     var idsString = ids.map(function (id) { return "item/".concat(id); }).join('|');
-    var encodedGroupName = groupName.replace(' ', '%20');
+    var encodedGroupName = encodeURIComponent(groupName);
     electron_1.shell.openExternal("".concat(baseUrl, "/").concat(encodedGroupName, "{").concat(idsString, "}"));
     event.returnValue = null;
 }

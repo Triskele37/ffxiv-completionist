@@ -2,7 +2,8 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 import { DataService } from '@data';
-import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
+import { ElectronService } from '@service/electron/electron.service';
+import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 import { BookmarkService } from '@service/bookmark/bookmark.service';
 import { CustomTaskService } from '@service/custom-task/custom-task.service';
 import { SaveStoreService } from '@service/store/save-store.service';

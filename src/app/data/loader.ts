@@ -1,6 +1,7 @@
 import { TranslateService } from '@ngx-translate/core';
 
-import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
+import { ElectronService } from '@service/electron/electron.service'
+import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 import { Globals } from '@constant/Global';
 
 export const refs: {

@@ -8,7 +8,8 @@ import { Task } from '@model/Task';
 import { changeCompletion } from '@model/Task/completion/changeCompletion';
 import { setCompletion } from '@model/Task/completion/setCompletion';
 import { ChainService } from '@service/chain/chain.service';
-import { ElectronService, IPC_EVENT } from '@service/electron/electron.service';
+import { ElectronService } from '@service/electron/electron.service';
+import { IPC_EVENT } from '@service/electron/IPC_EVENT';
 
 import { SettingsService } from "../settings.service";
 

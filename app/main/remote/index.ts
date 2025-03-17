@@ -1,5 +1,9 @@
 import { IpcMainEvent, shell } from 'electron';
 
+/**
+ * NOTE: none of these work, blocked at OS level due to no code signing
+ */
+
 //#region------------------------------------------------------- Search External
 export function searchConsoleGamer(event: IpcMainEvent, term: string): void {
     const query = asQueryString(term, true);
@@ -27,7 +31,7 @@ export function searchGarlandTools(event: IpcMainEvent, term: string): void {
 export function openInGarlandTools(event: IpcMainEvent, ids: number[], groupName: string): void {
     const baseUrl = 'https://www.garlandtools.org/db/#group';
     const idsString = ids.map((id) => `item/${id}`).join('|');
-    const encodedGroupName = groupName.replace(' ', '%20');
+    const encodedGroupName = encodeURIComponent(groupName);
 
     shell.openExternal(`${baseUrl}/${encodedGroupName}{${idsString}}`);
 

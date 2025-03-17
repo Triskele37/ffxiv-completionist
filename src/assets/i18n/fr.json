@@ -411,7 +411,8 @@
                     "L1": "Please note that facewear will not automatically migrate from the old format",
                     "L2": "Inverted 'Patch' column filter so newest patch shows first",
                     "L3": "Tasks now display regardless of filters if navigated to via a link",
-                    "L4": "Moved starting class from config files to save files"
+                    "L4": "Moved starting class from config files to save files",
+                    "L5": "Due to security restrictions, actions that opened in the browser now only copy their link to the clipboard"
                 },
                 "FIX": {
                     "L1": "Awkward numeric filter dropdown sorting",
@@ -619,7 +620,8 @@
         "TASK_NAVIGATE": "Naviguer vers cette tâche",
         "REMAINING": "Tâche Restante",
         "EXCLUDED": "Tâche Exclue",
-        "WEIGHT": "Poids"
+        "WEIGHT": "Poids",
+        "LINK_COPIED": "Link copied to clipboard"
     },
     "TOAST": {
         "CONFIG_FAILED_SUMMARY": "Échec du chargement de la configuration",

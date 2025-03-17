@@ -46,8 +46,20 @@
     }
 }
 
-:host {
-    ::ng-deep .p-toast-message-content {
+:host ::ng-deep .p-toast {
+    left: calc($nav-drawer-width + var(--content-padding));
+    opacity: 1;
+
+    .p-toast-message-success {
+        color: var(--completed);
+        border-color: var(--completed);
+
+        .p-toast-message-icon {
+            color: var(--completed);
+        }
+    }
+
+    .p-toast-message-content {
         background: var(--surface-900);
 
         .p-toast-icon-close {

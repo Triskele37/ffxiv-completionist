@@ -1,4 +1,6 @@
 import { Injectable } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { MessageService } from 'primeng/api';
 import { AsyncSubject } from 'rxjs';
 
 // If you import a module but never use any of the imported values
@@ -6,28 +8,17 @@ import { AsyncSubject } from 'rxjs';
 // will look as if you never imported the module at all.
 import { ipcRenderer } from 'electron';
 
-export enum IPC_EVENT {
-    APP_READY = 'app-ready',
-    APP_REFRESH = 'app-refresh',
-    GET_CONFIG = 'get-config',
-    SET_CONFIG = 'set-config',
-    NEW_SAVE = 'new-save',
-    LOAD_SAVE = 'load-save',
-    OPEN_CONFIG = 'open-config',
-    BACKUP_CONFIG = 'backup-config',
-    LOAD_BACKUP_CONFIG = 'load-backup-config',
-    GET_SAVE = 'get-save',
-    SET_SAVE = 'set-save',
-    OPEN_SAVE = 'open-save',
-    BACKUP_SAVE = 'backup-save',
-    LOAD_BACKUP_SAVE = 'load-backup-save',
-    LOAD_JSON = 'load-json',
-    SEARCH_CONSOLE_GAMES = 'search-console-games',
-    SEARCH_GAMER_ESCAPE = 'search-gamer-escape',
-    SEARCH_GARLAND_TOOLS = 'search-garland-tools',
-    OPEN_IN_GARLAND_TOOLS = 'open-in-garland-tools',
-    OPEN_IN_TEAMCRAFT = 'open-in-teamcraft'
-}
+import { copyLinkShim } from '@model/External/copyLinkShim';
+
+import { IPC_EVENT } from './IPC_EVENT';
+
+const SHIM_EVENTS: IPC_EVENT[] = [
+    IPC_EVENT.SEARCH_CONSOLE_GAMES,
+    IPC_EVENT.SEARCH_GAMER_ESCAPE,
+    IPC_EVENT.SEARCH_GARLAND_TOOLS,
+    IPC_EVENT.OPEN_IN_GARLAND_TOOLS,
+    IPC_EVENT.OPEN_IN_TEAMCRAFT,
+];
 
 @Injectable({
     providedIn: 'root'
@@ -37,7 +28,10 @@ export class ElectronService {
 
     ipcRenderer: typeof ipcRenderer;
 
-    constructor() {
+    constructor(
+        private svcMessage: MessageService,
+        private translate: TranslateService,
+    ) {
         // Conditional imports
         if(this.isElectron) {
             this.ipcRenderer = window.require('electron').ipcRenderer;
@@ -59,6 +53,11 @@ export class ElectronService {
     }
 
     sendSync(action: IPC_EVENT, ...args: any[]): any {
+        if(SHIM_EVENTS.includes(action)) {
+            copyLinkShim(this.svcMessage, this.translate, action, ...args);
+            return;
+        }
+
         return this.ipcRenderer.sendSync(action, ...args);
     }
 }
