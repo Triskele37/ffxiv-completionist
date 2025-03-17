@@ -6,102 +6,120 @@
         "x0": {
             "name": "@PLACE.LABYRINTHOS 1",
             "requiredFates": 1,
+            "patch": "6.0",
             "cNext": [1]
         },
         "x1": {
             "name": "@PLACE.LABYRINTHOS 2",
             "requiredFates": 6,
+            "patch": "6.0",
             "cPrev": [0],
             "cNext": [2]
         },
         "x2": {
             "name": "@PLACE.LABYRINTHOS 3",
             "requiredFates": 60,
+            "patch": "6.0",
             "cPrev": [1],
             "cSiblings": ["a.3022"]
         },
         "x3": {
             "name": "@PLACE.THAVNAIR 1",
             "requiredFates": 1,
+            "patch": "6.0",
             "cNext": [4]
         },
         "x4": {
             "name": "@PLACE.THAVNAIR 2",
             "requiredFates": 6,
+            "patch": "6.0",
             "cPrev": [3],
             "cNext": [5]
         },
         "x5": {
             "name": "@PLACE.THAVNAIR 3",
             "requiredFates": 60,
+            "patch": "6.0",
             "cPrev": [4],
             "cSiblings": ["a.3023"]
         },
         "x6": {
             "name": "@PLACE.GARLEMALD 1",
             "requiredFates": 1,
+            "patch": "6.0",
             "cNext": [7]
         },
         "x7": {
             "name": "@PLACE.GARLEMALD 2",
             "requiredFates": 6,
+            "patch": "6.0",
             "cPrev": [6],
             "cNext": [8]
         },
         "x8": {
             "name": "@PLACE.GARLEMALD 3",
             "requiredFates": 60,
+            "patch": "6.0",
             "cPrev": [7],
             "cSiblings": ["a.3024"]
         },
         "x9": {
             "name": "@PLACE.MARE_LAMENTORUM 1",
             "requiredFates": 1,
+            "patch": "6.0",
             "cNext": [10]
         },
         "x10": {
             "name": "@PLACE.MARE_LAMENTORUM 2",
             "requiredFates": 6,
+            "patch": "6.0",
             "cPrev": [9],
             "cNext": [11]
         },
         "x11": {
             "name": "@PLACE.MARE_LAMENTORUM 3",
             "requiredFates": 60,
+            "patch": "6.0",
             "cPrev": [10],
             "cSiblings": ["a.3025"]
         },
         "x12": {
             "name": "@PLACE.ELPIS 1",
             "requiredFates": 1,
+            "patch": "6.0",
             "cNext": [13]
         },
         "x13": {
             "name": "@PLACE.ELPIS 2",
             "requiredFates": 6,
+            "patch": "6.0",
             "cPrev": [12],
             "cNext": [14]
         },
         "x14": {
             "name": "@PLACE.ELPIS 3",
             "requiredFates": 60,
+            "patch": "6.0",
             "cPrev": [13],
             "cSiblings": ["a.3026"]
         },
         "x15": {
             "name": "@PLACE.ULTIMA_THULE 1",
             "requiredFates": 1,
+            "patch": "6.0",
             "cNext": [16]
         },
         "x16": {
             "name": "@PLACE.ULTIMA_THULE 2",
             "requiredFates": 6,
+            "patch": "6.0",
             "cPrev": [15],
             "cNext": [17]
         },
         "x17": {
             "name": "@PLACE.ULTIMA_THULE 3",
             "requiredFates": 60,
+            "patch": "6.0",
             "cPrev": [16],
             "cSiblings": ["a.3027"]
         }

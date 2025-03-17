@@ -6,102 +6,120 @@
         "x0": {
             "name": "@PLACE.LAKELAND 1",
             "requiredFates": 1,
+            "patch": "5.0",
             "cNext": [1]
         },
         "x1": {
             "name": "@PLACE.LAKELAND 2",
             "requiredFates": 6,
+            "patch": "5.0",
             "cPrev": [0],
             "cNext": [2]
         },
         "x2": {
             "name": "@PLACE.LAKELAND 3",
             "requiredFates": 60,
+            "patch": "5.0",
             "cPrev": [1],
             "cSiblings": ["a.2343"]
         },
         "x6": {
             "name": "@PLACE.AMH_ARAENG 1",
             "requiredFates": 1,
+            "patch": "5.0",
             "cNext": [7]
         },
         "x7": {
             "name": "@PLACE.AMH_ARAENG 2",
             "requiredFates": 6,
+            "patch": "5.0",
             "cPrev": [6],
             "cNext": [8]
         },
         "x8": {
             "name": "@PLACE.AMH_ARAENG 3",
             "requiredFates": 60,
+            "patch": "5.0",
             "cPrev": [7],
             "cSiblings": ["a.2345"]
         },
         "x9": {
             "name": "@PLACE.IL_MHEG 1",
             "requiredFates": 1,
+            "patch": "5.0",
             "cNext": [10]
         },
         "x10": {
             "name": "@PLACE.IL_MHEG 2",
             "requiredFates": 6,
+            "patch": "5.0",
             "cPrev": [9],
             "cNext": [11]
         },
         "x11": {
             "name": "@PLACE.IL_MHEG 3",
             "requiredFates": 60,
+            "patch": "5.0",
             "cPrev": [10],
             "cSiblings": ["a.2346"]
         },
         "x3": {
             "name": "@PLACE.KHOLUSIA 1",
             "requiredFates": 1,
+            "patch": "5.0",
             "cNext": [4]
         },
         "x4": {
             "name": "@PLACE.KHOLUSIA 2",
             "requiredFates": 6,
+            "patch": "5.0",
             "cPrev": [3],
             "cNext": [5]
         },
         "x5": {
             "name": "@PLACE.KHOLUSIA 3",
             "requiredFates": 60,
+            "patch": "5.0",
             "cPrev": [4],
             "cSiblings": ["a.2344"]
         },
         "x12": {
             "name": "@PLACE.RAK_TIKA 1",
             "requiredFates": 1,
+            "patch": "5.0",
             "cNext": [13]
         },
         "x13": {
             "name": "@PLACE.RAK_TIKA 2",
             "requiredFates": 6,
+            "patch": "5.0",
             "cPrev": [12],
             "cNext": [14]
         },
         "x14": {
             "name": "@PLACE.RAK_TIKA 3",
             "requiredFates": 60,
+            "patch": "5.0",
             "cPrev": [13],
             "cSiblings": ["a.2347"]
         },
         "x15": {
             "name": "@PLACE.THE_TEMPEST 1",
             "requiredFates": 1,
+            "patch": "5.0",
             "cNext": [16]
         },
         "x16": {
             "name": "@PLACE.THE_TEMPEST 2",
             "requiredFates": 6,
+            "patch": "5.0",
             "cPrev": [15],
             "cNext": [17]
         },
         "x17": {
             "name": "@PLACE.THE_TEMPEST 3",
             "requiredFates": 60,
+            "patch": "5.0",
             "cPrev": [16],
             "cSiblings": ["a.2348"]
         }

@@ -22,7 +22,7 @@ export class PatchViewComponent {
     patches: string[] = [];
     tasksInPatch: Task[] = [];
 
-    rowKeys: string[];
+    rowKeys: string[] = [];
     expandedRows: ExpandedRows = {};
     willCollapseAll: boolean = false;
 
@@ -35,6 +35,7 @@ export class PatchViewComponent {
         this.diveForPatches(this.svcData.data);
         this.patches.sort(sortPatchStrings);
         this.patches.reverse();
+        this.patches.push(' ');
     }
 
     diveForPatches(group: DataGroup): void {
@@ -59,7 +60,7 @@ export class PatchViewComponent {
         if(group.isBookmarkGroup || group.isCustomGroup) return;
 
         group.tasks?.forEach((task) => {
-            if(task.patch === this.patch) {
+            if(task.patch === this.patch || this.patch === ' ' && !task.patch) {
                 this.tasksInPatch.push(task);
             }
         });
