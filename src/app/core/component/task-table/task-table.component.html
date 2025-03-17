@@ -3,7 +3,7 @@
         [group]="group"
         [tasks]="filteredTasks"
         [totalTasks]="tasks?.length"
-        (onDataChange)="updateFilteredTasks(true)"
+        (onDataChange)="updateFilteredTasks()"
     ></xiv-task-table-toolbar>
 
     <div class="task-table-scroll-container">
@@ -21,6 +21,7 @@
             [scrollable]="true"
             scrollHeight="flex"
             (onRowReorder)="onRowReorder($event)"
+            [virtualScrollOptions]="{}"
         >
             <ng-template pTemplate="header">
                 <xiv-header-row
@@ -34,7 +35,7 @@
                     [rowIndex]="rowIndex"
                     [group]="group"
                     [task]="task"
-                    (completionChange)="updateFilteredTasks(true)"
+                    (completionChange)="updateFilteredTasks()"
                 ></xiv-data-row>
             </ng-template>
         </p-table>

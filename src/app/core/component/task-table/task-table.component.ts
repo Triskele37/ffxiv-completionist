@@ -38,10 +38,15 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
 
     _taskTable: Table;
 
+    // Shenanigans to scroll back to original position after filter rerenders table
+    scrollTop: number;
+    ignoreNextScrollTick: boolean = false;
+
     @ViewChild('taskTable', { static: false }) set taskTable(ref: Table) {
         if(!ref) return;
         this._taskTable = ref;
-        this.observeVirtualWrapper();
+
+        this.subscribeToScrollerScroll();
         this.fixVirtualReorder();
     }
 
@@ -62,16 +67,26 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
     ngOnChanges(changes: SimpleChanges): void {
         if(changes.group || changes.tasks) {
             this.updateFilteredTasks();
-            this.adjustVirtualHeader();
             this.scrollToSelectedTask();
         }
     }
 
     ngOnDestroy(): void {
-        this.observer?.disconnect();
     }
 
     //#endregion
+
+    //#region----------------------------------------------------------- Scroll
+    subscribeToScrollerScroll(): void {
+        this._taskTable.scroller.onScroll.subscribe((e) => {
+            if(this.ignoreNextScrollTick) {
+                this.ignoreNextScrollTick = false;
+                return;
+            }
+
+            this.scrollTop = (e.originalEvent.target as HTMLDivElement).scrollTop;
+        });
+    }
 
     scrollToSelectedTask(): void {
         if(this.svcNavigation.selectedTask) {
@@ -91,6 +106,8 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
             this._taskTable?.scrollToVirtualIndex(0);
         }
     }
+
+    //#endregion
 
     //#region----------------------------------------------------------- Sort
     alphanumericRegex = new RegExp(/[^\w.]/g);
@@ -151,17 +168,15 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
         this.updateFilteredTasks();
     }
 
-    updateFilteredTasks(fromSameGroup?: boolean): void {
-        const originalTop = fromSameGroup ? this._taskTable?.scroller?.lastScrollPos : 0;
+    updateFilteredTasks(): void {
+        this.ignoreNextScrollTick = true;
 
         this.filteredTasks = this.svcFilter.filterTasks(this.group, this.tasks);
         this.uniqueValues = this._uniqueValues;
         this.cdr.detectChanges();
 
         // Scroll back to the current position after tasks change
-        if(originalTop) {
-            setTimeout(() => this._taskTable.scroller.scrollTo({ top: originalTop}), 1);
-        }
+        setTimeout(() => this._taskTable?.scroller.scrollTo({ top: this.scrollTop }), 1);
     }
 
     get _uniqueValues(): UniqueValues {
@@ -231,48 +246,6 @@ export class TaskTableComponent implements OnInit, OnChanges, OnDestroy {
         // Debounce dragging since its tied to file write
         this.debounceDrag = true;
         setTimeout(() => this.debounceDrag = false, 1000);
-    }
-
-    //#endregion
-
-    //#region----------------------------------------------------------- Fix Virtual Headers
-    observer: MutationObserver;
-
-    observeVirtualWrapper(): void {
-        //TODO - fixed something with virtual scroll, `virtualScrollBody` might be `scroller`?
-        // if(!this._taskTable?.scroller) return;
-        //
-        // const callback: MutationCallback = (mutations) => {
-        //     const styleChanged = mutations.some(
-        //         (m) => m.type === 'attributes' && m.attributeName === 'style'
-        //     );
-        //
-        //     if(styleChanged) this.adjustVirtualHeader();
-        // };
-        //
-        // this.observer?.disconnect();
-        // this.observer = new MutationObserver(callback);
-        //
-        // // Observe the virtual wrapper for style changes
-        // const config = { attributes: true, childList: false, subtree: false };
-        // const { nativeElement } = this._taskTable.scroller.contentViewChild;
-        // this.observer.observe(nativeElement, config);
-    }
-
-    adjustVirtualHeader(): void {
-        // if(!this._taskTable?.scroller) return;
-        //
-        // // Grab the translation from the virtual scroll container
-        // const { transform } = this._taskTable.scroller.contentViewChild.nativeElement.style;
-        // if(!transform) return;
-        //
-        // const transformInt: number = parseInt(transform.match(/[0-9]+/)[0], 10);
-        //
-        // // Apply the inverse to each <th>
-        // const headers = this._taskTable.el.nativeElement.getElementsByTagName('th');
-        // for(const header of headers) {
-        //     header.style.top = `${-transformInt}px`;
-        // }
     }
 
     //#endregion
