@@ -3,7 +3,6 @@ import { ipcMain } from 'electron';
 import { ConfigStore } from '../store/ConfigStore';
 import { PlayerStore } from '../store/PlayerStore';
 import { WindowStore } from '../store/WindowStore';
-import * as Remote from '../remote';
 
 import { clearCache, preloadJson } from './preloadJson';
 import { loadJson } from './loadJson';
@@ -29,10 +28,4 @@ export function initActions() {
     ipcMain.on('open-save', PlayerStore.open);
     ipcMain.on('backup-save', PlayerStore.backup);
     ipcMain.on('load-backup-save', PlayerStore.loadBackup);
-
-    ipcMain.on('search-console-games', Remote.searchConsoleGamer);
-    ipcMain.on('search-gamer-escape', Remote.searchGamerEscape);
-    ipcMain.on('search-garland-tools', Remote.searchGarlandTools);
-    ipcMain.on('open-in-garland-tools', Remote.openInGarlandTools);
-    ipcMain.on('open-in-teamcraft', Remote.openInTeamcraft);
 }
