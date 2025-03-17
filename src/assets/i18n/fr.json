@@ -465,10 +465,10 @@
                 "PRIMARY_COLOR": "Couleur principale",
                 "PRIMARY_TEXT": "Couleur principale du texte",
                 "TEXT_COLOR": "Couleur du texte",
-                "FONT": "Font",
+                "FONT": "Police",
                 "FONT_SIZE": {
-                    "LABEL": "Font Size",
-                    "TOOLTIP": "Changing drastically may create poor UI"
+                    "LABEL": "Taille de police",
+                    "TOOLTIP": "Modifier fortement la taille de la police peut engendrer un UI de mauvaise qualité."
                 },
                 "BACKGROUND": "Fond",
                 "COMPLETION": "Complétion",
@@ -483,12 +483,12 @@
             "COMPLETION": {
                 "TITLE": "Complétion",
                 "COMPLETE_GROUP": {
-                    "LABEL": "Show Completed Groups",
-                    "TOOLTIP": "Whether completed groups are shown"
+                    "LABEL": "Afficher les groupes complétés",
+                    "TOOLTIP": "Active ou non l'affichage des groupes complétés"
                 },
                 "EMPTY_GROUP": {
-                    "LABEL": "Show Empty Groups",
-                    "TOOLTIP": "Whether empty groups are shown"
+                    "LABEL": "Afficher les groupes vides",
+                    "TOOLTIP": "Active ou non l'affichage des groupes vides"
                 },
                 "COMPLETE_TASK": {
                     "LABEL": "Montrer les tâches complètes",
@@ -499,8 +499,8 @@
                     "TOOLTIP": "Les tâches incomplètes seront affichées dans les tableaux"
                 },
                 "EXCLUDED_TASK": {
-                    "LABEL": "Montrer les tâches excludes",
-                    "TOOLTIP": "Les tâches excludes seront affichées dans les tableaux"
+                    "LABEL": "Montrer les tâches exclues",
+                    "TOOLTIP": "Les tâches exclues seront affichées dans les tableaux"
                 }
             },
             "CHAINING": {
@@ -519,7 +519,7 @@
                 }
             },
             "GROUP_NAME": {
-                "LABEL": "Short Group Names"
+                "LABEL": "Nom de groupes raccourcis"
             }
         },
         "SEARCH": {
@@ -527,7 +527,7 @@
             "PLACEHOLDER": "Recherche",
             "NO_SEARCH": "Veuillez rentrer un terme de recherche",
             "TOO_SHORT": "Veuillez rentrer un minimum de 2 caractères",
-            "NO_RESULTS": "No results found",
+            "NO_RESULTS": "Aucun résultat trouvée",
             "EXPAND": "Étendre les résultats",
             "COLLAPSE": "Rétracter les résultats",
             "SEARCH_NAME": "Rechercher dans les colonnes nommées",
@@ -561,8 +561,8 @@
         "HISTORY": {
             "TITLE": "Historique",
             "NO_CONTENT": "Rien à afficher",
-            "CLEAR_ALL": "Clear all entries",
-            "REMOVE_ENTRY": "Remove this entry"
+            "CLEAR_ALL": "Effacer toutes les entrées",
+            "REMOVE_ENTRY": "Effacer cette entrée"
         },
         "QUICK_MARK": {
             "TITLE": "Commandes de Coche-rapide",
@@ -597,7 +597,7 @@
             "TITLE": "Commandes sur le tableau",
             "ADD_BOOKMARK": "Ajouter un marque-page à la catégorie",
             "REM_BOOKMARK": "Enlever le marque-page à la catégorie",
-            "COPY_DATA": "Copy Rows"
+            "COPY_DATA": "Copier les lignes"
         },
         "CUSTOM": {
             "NAME_PLACEHOLDER": "Entrer la tâche personnalisée ici",
@@ -1240,7 +1240,7 @@
             "BRONZE_PACK": "Pochette Triple Triade bronze",
             "SILVER_PACK": "Pochette Triple Triade argent",
             "GOLD_PACK": "Pochette Triple Triade or",
-            "MYTHRIL_PACK": "Pchette Triple Triade mithrite",
+            "MYTHRIL_PACK": "Pochette Triple Triade mithrite",
             "PLATINUM_PACK": "Pochette Triple Triade platine",
             "IMPERIAL_PACK": "Pochette Triple Triade impériale",
             "DREAM_PACK": "Pochette Triple Triade onirique"
@@ -1355,7 +1355,7 @@
         },
         "VENDOR": {
             "AELINA": "Aelina - PLACE.MOR_DHONA",
-            "AMBER_TRADER": "Collectionneuse D'ambre Rare",
+            "AMBER_TRADER": "Collectionneuse d'Ambre Rare",
             "ARDOLAIN": "Ardolain - Le Chevalier Oublié, PLACE.FOUNDATION",
             "AURIANA": "Auriana - PLACE.MOR_DHONA",
             "BANGO_ZANGO": "Bango Zango - PLACE.LIMSA_LOMINSA_LOWER_DECKS",
@@ -1393,9 +1393,9 @@
             "UAHSHEPYA": "Uah'shepya - PLACE.SOLUTION_NINE",
 
             "GEMSTONE_TRADER": "Marchand de gemmes",
-            "HUNT_TRADER": "Hunt Trader",
+            "HUNT_TRADER": "Marchand de la Chasse",
             "SCRIP_EXCHANGE": "Comptable Des Assignats",
-            "SOCIETY_TRADER": "Society Trader",
+            "SOCIETY_TRADER": "Peuple Allié",
             "SPLENDORS": "Négociante En Articles Rares"
         },
         "SOURCE": {
@@ -1435,8 +1435,8 @@
             }
         },
         "TRAVEL": {
-            "COMPASS_CURRENT": "Compass Current",
-            "QUEST_CURRENT": "Quest Current"
+            "COMPASS_CURRENT": "Vents éthérés de la boussole",
+            "QUEST_CURRENT": "Vents éthérés des quêtes"
         }
     }
 }
