@@ -30,7 +30,10 @@ export class SelectionOverlayComponent extends Overlay {
     }
 
     getSelectedItemResultIds(): number[] {
-        return this.tasks.filter((t) => t.selected).map((t) => t._itemId);
+        return this.tasks
+            .filter((t) => t.selected)
+            .map((t) => t._itemId)
+            .filter((id) => id);
     }
 
     // Passing null means 'invert' selected value
