@@ -16,7 +16,7 @@
                 ></p-sortIcon>
             </div>
 
-            <div class="column-filter">
+            <div *ngIf="column.header" class="column-filter">
                 <ng-container
                     *ngTemplateOutlet="
                         column.filterable ? filterableHeader : nonFilterableHeader;
