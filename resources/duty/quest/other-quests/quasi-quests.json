@@ -2,21 +2,6 @@
     "key": "quasi-quests",
     "groupName_en": "Quasi-Quests",
     "groupName_fr": "Quasi-Quêtes",
-    "headers": {
-        "level": {
-            "header_en": "Level",
-            "header_fr": "Niveau"
-        },
-        "name": {
-            "header_en": "Quest",
-            "header_fr": "Nom"
-        },
-        "unlock": {
-            "link": true,
-            "header_en": "Unlock",
-            "header_fr": "Débloque"
-        }
-    },
     "tasks": {
         "x65713": {
             "name_en": "So You Want to Be a Gladiator",
@@ -225,7 +210,14 @@
             "npc_en": "Triple Triad Master",
             "npc_fr": "Croupière",
             "cPrev": ["q.65970"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": [
+                "character.gold-saucer.triple-triad-card-list.page-1.1",
+                "character.gold-saucer.triple-triad-card-list.page-1.3",
+                "character.gold-saucer.triple-triad-card-list.page-1.6",
+                "character.gold-saucer.triple-triad-card-list.page-1.7",
+                "character.gold-saucer.triple-triad-card-list.page-1.10"
+            ]
         },
         "x65987": {
             "name_en": "So You Want to Be an Arcanist",
@@ -483,7 +475,8 @@
             "npc_en": "Simpkin",
             "npc_fr": "Simpkin",
             "cPrev": ["q.66621"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "ap.347"
         },
         "x68624": {
             "name_en": "Recall of Duty",

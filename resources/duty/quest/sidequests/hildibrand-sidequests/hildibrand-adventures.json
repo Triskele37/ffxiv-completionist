@@ -62,7 +62,8 @@
             "cPrev": ["q.66851"],
             "cNext": ["q.66853"],
             "cSiblings": ["e.104"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "e.104"
         },
         "x66853": {
             "level": 50,
@@ -210,7 +211,7 @@
             "level": 50,
             "name_en": "Her Last Vow",
             "name_fr": "Boucler la boucle",
-            "unlock": "d.85",
+            "unlock": ["d.85", "mi.21", "e.114"],
             "npc_en": "Julyan",
             "npc_fr": "Julyan",
             "cPrev": ["q.66029"],

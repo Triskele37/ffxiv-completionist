@@ -28,6 +28,11 @@ export function migrateTo_1_0_5(svcConfigStore: ConfigStoreService, svcSaveStore
         'overall.character.character.societal-relations'
     );
 
+    store.moveGroup(
+        'overall.travel.mount-speed.ishgard--coerthas',
+        'overall.travel.mount-speed.ishgard-and-coerthas',
+    );
+
     // This order so plates use current ids
     migrateMinions(store);
     migrateAdventurePlate(store);

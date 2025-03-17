@@ -415,7 +415,8 @@
             "cPrev": ["q.68015"],
             "cNext": ["q.68217", "q.68489", "q.68215"],
             "cSiblings": ["e.154"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "e.154"
         },
         "x68217": {
             "level": 62,
@@ -499,7 +500,8 @@
             "cPrev": ["q.68019"],
             "cNext": ["q.68021", "q.68458"],
             "cSiblings": ["e.151"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "e.151"
         },
         "x68021": {
             "level": 63,
@@ -812,7 +814,7 @@
             "level": 65,
             "name_en": "In the Footsteps of Bardam the Brave",
             "name_fr": "La Force de Bardam",
-            "unlock": "d.240",
+            "unlock": ["d.240", "mo.125"],
             "npc_en": "Hien",
             "npc_fr": "Hien",
             "cPrev": ["q.68042"],

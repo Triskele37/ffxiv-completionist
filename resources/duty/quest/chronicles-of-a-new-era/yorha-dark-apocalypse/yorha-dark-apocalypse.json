@@ -27,7 +27,7 @@
             "level": 80,
             "name_en": "On the Threshold",
             "name_fr": "Panique mécanique",
-            "unlock": "d.700",
+            "unlock": ["d.700", "o.350"],
             "npc_en": "Dig Site Chief",
             "npc_fr": "Porion Nain",
             "cPrev": ["q.69253"],
@@ -64,7 +64,8 @@
             "cPrev": ["q.69255"],
             "cNext": ["q.69320"],
             "cExclude": ["q.69256"],
-            "patch": "5.1"
+            "patch": "5.1",
+            "unlock": "o.353"
         },
         "x69320": {
             "level": 80,
@@ -85,7 +86,8 @@
             "npc_fr": "Anogg",
             "cPrev": ["q.69320"],
             "cNext": ["q.69488"],
-            "patch": "5.2"
+            "patch": "5.2",
+            "unlock": "o.372"
         },
         "x69488": {
             "level": 80,
@@ -95,7 +97,8 @@
             "npc_fr": "Porion Nain",
             "cPrev": ["q.69321"],
             "cNext": ["q.69489"],
-            "patch": "5.3"
+            "patch": "5.3",
+            "unlock": "o.400"
         },
         "x69489": {
             "level": 80,
@@ -116,7 +119,8 @@
             "npc_fr": "Konogg",
             "cPrev": ["q.69489"],
             "cNext": ["q.69534"],
-            "patch": "5.3"
+            "patch": "5.3",
+            "unlock": "o.399"
         },
         "x69534": {
             "level": 80,
@@ -136,13 +140,14 @@
             "npc_fr": "Porion Nain",
             "cPrev": ["q.69534"],
             "cNext": ["q.69571"],
-            "patch": "5.5"
+            "patch": "5.5",
+            "unlock": ["o.470", "o.471"]
         },
         "x69571": {
             "level": 80,
             "name_en": "Brave New World",
             "name_fr": "Créatures ennemies",
-            "unlock": "d.779",
+            "unlock": ["d.779", "o.472", "o.473", "o.474"],
             "npc_en": "Dig Site Chief",
             "npc_fr": "Porion Nain",
             "cPrev": ["q.69570"],
@@ -204,7 +209,8 @@
             "npc_fr": "Porion Nain",
             "cPrev": ["q.69585"],
             "cSiblings": ["a.2852"],
-            "patch": "5.55"
+            "patch": "5.55",
+            "unlock": "o.469"
         }
     }
 }

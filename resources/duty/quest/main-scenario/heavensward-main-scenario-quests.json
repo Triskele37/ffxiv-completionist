@@ -191,7 +191,7 @@
             "level": 50,
             "name_en": "Divine Intervention",
             "name_fr": "Les chevaliers de l'Azur",
-            "unlock": "duty.collection.0",
+            "unlock": ["duty.collection.0", "mo.45"],
             "npc_en": "House Fortemps Steward",
             "npc_fr": "Majordome Des Fortemps",
             "cPrev": ["q.67125", "q.67132"],
@@ -269,7 +269,8 @@
             "npc_fr": "Alphinaud",
             "cPrev": ["q.67139"],
             "cNext": ["q.67141"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "mi.130"
         },
         "x67141": {
             "level": 51,
@@ -285,7 +286,7 @@
             "level": 51,
             "name_en": "Sounding Out the Amphitheatre",
             "name_fr": "Du sang sur les planches",
-            "unlock": "travel.mount-speed.ishgard--coerthas.2",
+            "unlock": ["travel.mount-speed.ishgard-and-coerthas.2"],
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
             "cPrev": ["q.67141"],
@@ -301,7 +302,7 @@
                 "q.67301",
                 "q.67302"
             ],
-            "cSiblings": ["travel.mount-speed.ishgard--coerthas.2"],
+            "cSiblings": ["travel.mount-speed.ishgard-and-coerthas.2"],
             "patch": "4.31"
         },
         "x67143": {
@@ -416,12 +417,12 @@
             "level": 53,
             "name_en": "Lord of the Hive",
             "name_fr": "Le Maître des lames",
-            "unlock": ["d.86", "travel.mount-speed.ishgard--coerthas.9"],
+            "unlock": ["d.86", "travel.mount-speed.ishgard-and-coerthas.9"],
             "npc_en": "Ysayle",
             "npc_fr": "Ysayle",
             "cPrev": ["q.67151"],
             "cNext": ["q.67153", "q.67346", "q.67352", "q.67353", "q.67354", "q.67791", "q.67345", "q.67347", "q.67349"],
-            "cSiblings": ["travel.mount-speed.ishgard--coerthas.9"],
+            "cSiblings": ["travel.mount-speed.ishgard-and-coerthas.9"],
             "patch": "4.31"
         },
         "x67153": {
@@ -520,12 +521,12 @@
             "level": 54,
             "name_en": "Waiting for the Wind to Change",
             "name_fr": "Le feu de la sincérité",
-            "unlock": "travel.mount-speed.ishgard--coerthas.13",
+            "unlock": ["travel.mount-speed.ishgard-and-coerthas.13"],
             "npc_en": "Moghan",
             "npc_fr": "Moghan",
             "cPrev": ["q.67161"],
             "cNext": ["q.67163"],
-            "cSiblings": ["travel.mount-speed.ishgard--coerthas.13"],
+            "cSiblings": ["travel.mount-speed.ishgard-and-coerthas.13"],
             "patch": "4.31"
         },
         "x67163": {
@@ -602,7 +603,7 @@
             "level": 55,
             "name_en": "Into the Aery",
             "name_fr": "La colère du dragon",
-            "unlock": ["d.39", "travel.aether-currents.hw.the-churning-mists.14"],
+            "unlock": ["d.39", "travel.aether-currents.hw.the-churning-mists.14", "mo.55"],
             "npc_en": "Estinien",
             "npc_fr": "Estinien",
             "cPrev": ["q.67169"],
@@ -849,12 +850,16 @@
             "level": 57,
             "name_en": "Bolt, Chain, and Island",
             "name_fr": "La pêche à la baleine",
-            "unlock": ["d.88", "travel.aether-currents.hw.the-sea-of-clouds.11", "travel.mount-speed.ishgard--coerthas.4"],
+            "unlock": [
+                "d.88",
+                "travel.aether-currents.hw.the-sea-of-clouds.11",
+                "travel.mount-speed.ishgard-and-coerthas.4"
+            ],
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
             "cPrev": ["q.67182"],
             "cNext": ["q.67448", "q.67455", "q.67457", "q.67184", "q.67449", "q.67453", "q.67454", "q.67456"],
-            "cSiblings": ["travel.aether-currents.hw.the-sea-of-clouds.11", "travel.mount-speed.ishgard--coerthas.4"],
+            "cSiblings": ["travel.aether-currents.hw.the-sea-of-clouds.11", "travel.mount-speed.ishgard-and-coerthas.4"],
             "patch": "4.31"
         },
         "x67184": {
@@ -865,7 +870,8 @@
             "npc_fr": "Alphinaud",
             "cPrev": ["q.67183"],
             "cNext": ["q.67185", "q.67700"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "mi.133"
         },
         "x67185": {
             "level": 57,
@@ -1001,12 +1007,12 @@
             "level": 59,
             "name_en": "Matoya's Cave",
             "name_fr": "La caverne de Matoya",
-            "unlock": "travel.mount-speed.ishgard--coerthas.11",
+            "unlock": ["travel.mount-speed.ishgard-and-coerthas.11"],
             "npc_en": "Y'shtola",
             "npc_fr": "Y'shtola",
             "cPrev": ["q.67194"],
             "cNext": ["q.67196", "q.67502", "q.67503", "q.67504", "q.67505", "q.67507"],
-            "cSiblings": ["travel.mount-speed.ishgard--coerthas.11"],
+            "cSiblings": ["travel.mount-speed.ishgard-and-coerthas.11"],
             "patch": "4.31"
         },
         "x67196": {
@@ -1092,19 +1098,22 @@
             "level": 59,
             "name_en": "Close Encounters of the VIth Kind",
             "name_fr": "Revanche impériale",
-            "unlock": ["travel.aether-currents.hw.azys-lla.3", "travel.mount-speed.ishgard--coerthas.6"],
+            "unlock": [
+                "travel.aether-currents.hw.azys-lla.3",
+                "travel.mount-speed.ishgard-and-coerthas.6"
+            ],
             "npc_en": "Guidance Node",
             "npc_fr": "Sphère De Guidage",
             "cPrev": ["q.67202"],
             "cNext": ["q.67204", "q.67526", "q.67527", "q.67528"],
-            "cSiblings": ["travel.aether-currents.hw.azys-lla.3", "travel.mount-speed.ishgard--coerthas.6"],
+            "cSiblings": ["travel.aether-currents.hw.azys-lla.3", "travel.mount-speed.ishgard-and-coerthas.6"],
             "patch": "4.31"
         },
         "x67204": {
             "level": 59,
             "name_en": "Fetters of Lament",
             "name_fr": "Un dragon aux fers",
-            "unlock": "travel.aether-currents.hw.azys-lla.4",
+            "unlock": ["travel.aether-currents.hw.azys-lla.4", "mo.50"],
             "npc_en": "Guidance Node",
             "npc_fr": "Sphère De Guidage",
             "cPrev": ["q.67203"],
@@ -1116,7 +1125,7 @@
             "level": 60,
             "name_en": "Heavensward",
             "name_fr": "Les yeux rivés au ciel",
-            "unlock": ["d.38", "d.90", "travel.mount-speed.ishgard--coerthas.8"],
+            "unlock": ["d.38", "d.90", "travel.mount-speed.ishgard-and-coerthas.8"],
             "npc_en": "Guidance Node",
             "npc_fr": "Sphère De Guidage",
             "cPrev": ["q.67204"],
@@ -1142,7 +1151,7 @@
                 "q.67762",
                 "q.67818"
             ],
-            "cSiblings": ["a.1139", "travel.mount-speed.ishgard--coerthas.8"],
+            "cSiblings": ["a.1139", "travel.mount-speed.ishgard-and-coerthas.8"],
             "patch": "4.31"
         }
     }

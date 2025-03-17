@@ -62,7 +62,7 @@
             "level": 17,
             "name_en": "Into a Copper Hell",
             "name_fr": "Les révoltés de Clochecuivre",
-            "unlock": "d.3",
+            "unlock": ["d.3", "ap.299"],
             "npc_en": "Momodi",
             "npc_fr": "Momodi",
             "cPrev": ["q.66214"],
@@ -181,7 +181,8 @@
             "cSiblings": ["ap.346"],
             "cPrev": ["q.65879"],
             "cNext": ["q.66216", "q.66217", "q.66218"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "ap.346"
         },
         "x66216": {
             "level": 20,
@@ -363,7 +364,15 @@
                 "travel.mount-speed.thanalan.1",
                 "travel.mount-speed.thanalan.3"
             ],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": [
+                "travel.mount-speed.la-noscea.1",
+                "travel.mount-speed.la-noscea.3",
+                "travel.mount-speed.thanalan.1",
+                "travel.mount-speed.thanalan.3",
+                "travel.mount-speed.the-black-shroud.1",
+                "travel.mount-speed.the-black-shroud.3"
+            ]
         },
         "x66261": {
             "level": 22,
@@ -586,7 +595,8 @@
             "cPrev": ["q.66311"],
             "cNext": ["q.66313"],
             "cSiblings": ["travel.mount-speed.the-black-shroud.5"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "travel.mount-speed.the-black-shroud.5"
         },
         "x66313": {
             "level": 27,
@@ -677,7 +687,8 @@
             "cPrev": ["q.66322", "q.66323"],
             "cNext": ["q.66336"],
             "cSiblings": ["travel.mount-speed.the-black-shroud.7"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "travel.mount-speed.the-black-shroud.7"
         },
         "x66336": {
             "level": 28,
@@ -790,7 +801,8 @@
             "cPrev": ["q.66357"],
             "cNext": ["q.66367"],
             "cSiblings": ["travel.mount-speed.thanalan.7"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "travel.mount-speed.thanalan.7"
         },
         "x66367": {
             "level": 31,
@@ -881,7 +893,8 @@
             "npc_fr": "Shamani Lohmani",
             "cPrev": ["q.66384"],
             "cNext": ["q.66391"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "mi.41"
         },
         "x66391": {
             "level": 33,
@@ -892,7 +905,8 @@
             "cPrev": ["q.66386"],
             "cNext": ["q.66392"],
             "cSiblings": ["travel.mount-speed.la-noscea.5"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "travel.mount-speed.la-noscea.5"
         },
         "x66392": {
             "level": 33,
@@ -908,7 +922,7 @@
             "level": 34,
             "name_en": "Lord of Crags",
             "name_fr": "Titan, l'Ébranleur des terres",
-            "unlock": "d.57",
+            "unlock": ["d.57", "travel.mount-speed.la-noscea.9", "travel.mount-speed.la-noscea.11"],
             "npc_en": "Riol",
             "npc_fr": "Riol",
             "cPrev": ["q.66392"],
@@ -966,7 +980,8 @@
             "cPrev": ["q.66414"],
             "cNext": ["q.66419"],
             "cSiblings": ["travel.mount-speed.thanalan.5"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "travel.mount-speed.thanalan.5"
         },
         "x66419": {
             "level": 36,
@@ -1152,12 +1167,12 @@
             "level": 41,
             "name_en": "In Pursuit of the Past",
             "name_fr": "Le dragon du Vigile de Pierre",
-            "unlock": "d.11",
+            "unlock": ["d.11", "travel.mount-speed.ishgard-and-coerthas.0"],
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
             "cPrev": ["q.66477"],
             "cNext": ["q.66856", "q.66910", "q.67022", "q.66489", "q.66753", "q.66788"],
-            "cSiblings": ["a.786", "travel.mount-speed.ishgard--coerthas.0"],
+            "cSiblings": ["a.786", "travel.mount-speed.ishgard-and-coerthas.0"],
             "patch": "4.31"
         },
         "x66489": {
@@ -1250,7 +1265,8 @@
             "cPrev": ["q.66499"],
             "cNext": ["q.69406"],
             "cSiblings": ["travel.mount-speed.la-noscea.7"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "travel.mount-speed.la-noscea.7"
         },
         "x69406": {
             "level": 43,
@@ -1415,7 +1431,8 @@
             "cPrev": ["q.66540"],
             "cNext": ["q.66057"],
             "cSiblings": ["travel.mount-speed.others.0"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "travel.mount-speed.others.0"
         },
         "x66057": {
             "level": 46,
@@ -1482,7 +1499,15 @@
             "level": 50,
             "name_en": "The Ultimate Weapon",
             "name_fr": "L'ultime passe d'armes",
-            "unlock": ["d.16", "d.830"],
+            "unlock": [
+                "d.16",
+                "d.830",
+                "mo.6",
+                "travel.mount-speed.la-noscea.0",
+                "travel.mount-speed.thanalan.0",
+                "travel.mount-speed.thanalan.9",
+                "travel.mount-speed.the-black-shroud.0"
+            ],
             "npc_en": "Raubahn",
             "npc_fr": "Raubahn Aldynn",
             "cPrev": ["q.69409"],

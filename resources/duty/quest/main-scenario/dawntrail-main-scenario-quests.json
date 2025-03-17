@@ -552,7 +552,8 @@
             "name_fr": "Tous les chemins mènent à l'espoir",
             "npc_en": "Krile",
             "npc_fr": "Krile",
-            "patch": "7.0"
+            "patch": "7.0",
+            "unlock": "o.687"
         },
         "x70448": {
             "cNext": ["q.70449", "q.70655", "q.70656", "q.70657", "q.70659"],
@@ -1049,7 +1050,7 @@
             "name_fr": "Le sentier de l'aurore",
             "npc_en": "Wuk Lamat",
             "npc_fr": "Wuk Lamat",
-            "unlock": "d.827",
+            "unlock": ["d.827", "mo.344", "o.688"],
             "patch": "7.0"
         }
     }

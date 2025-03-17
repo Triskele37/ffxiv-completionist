@@ -7,7 +7,7 @@
             "level": 70,
             "name_en": "An Auspicious Encounter",
             "name_fr": "L'île aux démons",
-            "unlock": ["d.284", "d.290"],
+            "unlock": ["d.284", "d.290", "o.199"],
             "npc_en": "Soroban",
             "npc_fr": "Soroban",
             "cPrev": ["q.68560"],
@@ -29,7 +29,7 @@
             "level": 70,
             "name_en": "The Fire-bird Down Below",
             "name_fr": "Une passion brûlante",
-            "unlock": "d.596",
+            "unlock": ["d.596", "e.187"],
             "npc_en": "Bunchin",
             "npc_fr": "Bunchin",
             "cPrev": ["q.68552"],
@@ -55,7 +55,8 @@
             "npc_en": "Seiryu",
             "npc_fr": "Seiryû",
             "cPrev": ["q.68701"],
-            "patch": "4.5"
+            "patch": "4.5",
+            "unlock": "ap.467"
         }
     }
 }

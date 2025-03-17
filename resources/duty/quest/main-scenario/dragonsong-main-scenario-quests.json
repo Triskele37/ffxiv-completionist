@@ -82,7 +82,8 @@
             "cPrev": ["q.67698"],
             "cNext": ["q.67767", "q.67766"],
             "cSiblings": ["a.1387"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "mi.173"
         },
         "x67767": {
             "level": 60,
@@ -98,7 +99,7 @@
             "level": 60,
             "name_en": "The Word of the Mother",
             "name_fr": "La voix de la planète",
-            "unlock": "d.141",
+            "unlock": ["d.141", "mi.181"],
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
             "cPrev": ["q.67767"],
@@ -260,7 +261,8 @@
             "cPrev": ["q.67782"],
             "cNext": ["q.67011", "q.67825", "q.67877", "q.69208", "q.69708", "q.69268"],
             "cSiblings": ["a.1594"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": ["mi.193", "o.79"]
         }
     }
 }

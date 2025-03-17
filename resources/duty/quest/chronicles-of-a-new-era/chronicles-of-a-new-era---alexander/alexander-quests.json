@@ -139,7 +139,7 @@
             "level": 60,
             "name_en": "Thus Spake Quickthinx",
             "name_fr": "Le futur annoncé",
-            "unlock": "d.188",
+            "unlock": ["d.188", "o.112"],
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
             "cPrev": ["q.67872"],
@@ -150,7 +150,7 @@
             "level": 60,
             "name_en": "Judgment Day",
             "name_fr": "Le temps du jugement",
-            "unlock": "d.189",
+            "unlock": ["d.189", "o.113"],
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
             "cPrev": ["q.67873"],
@@ -166,7 +166,8 @@
             "cPrev": ["q.67874"],
             "cNext": ["q.67876"],
             "cSiblings": ["a.1629"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": ["o.108", "o.109", "o.110", "o.111"]
         }
     }
 }

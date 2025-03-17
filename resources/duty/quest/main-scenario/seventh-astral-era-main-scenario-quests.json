@@ -51,7 +51,8 @@
             "npc_fr": "Slafborn",
             "cPrev": ["q.69412"],
             "cNext": ["q.66725"],
-            "patch": "5.3"
+            "patch": "5.3",
+            "unlock": "mi.32"
         },
         "x66725": {
             "level": 50,
@@ -606,7 +607,7 @@
             "level": 50,
             "name_en": "The Rising Chorus",
             "name_fr": "Le Gardien du lac",
-            "unlock": "d.32",
+            "unlock": ["d.32", "mi.119"],
             "npc_en": "Tataru",
             "npc_fr": "Tataru",
             "cPrev": ["q.65901"],

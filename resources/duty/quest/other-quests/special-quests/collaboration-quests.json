@@ -81,7 +81,7 @@
             "level": 70,
             "name_en": "The New King on the Block",
             "name_fr": "Le roi des cieux",
-            "unlock": "d.474",
+            "unlock": ["d.474", "mi.300"],
             "npc_en": "Hearty Hunter",
             "npc_fr": "Chasseur De Monstres",
             "cPrev": ["q.68089"],
@@ -157,7 +157,8 @@
             "npc_fr": "Clive",
             "cPrev": ["q.70333"],
             "cSiblings": ["a.3409"],
-            "patch": "6.58"
+            "patch": "6.58",
+            "unlock": "mo.326"
         },
         "x70337": {
             "level": 15,

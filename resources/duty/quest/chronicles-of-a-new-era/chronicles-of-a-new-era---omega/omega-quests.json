@@ -137,7 +137,7 @@
             "level": 70,
             "name_en": "And Like Fire Was His Mane",
             "name_fr": "Le père de tous les dragons",
-            "unlock": "d.588",
+            "unlock": ["d.588", "o.265"],
             "npc_en": "Cid",
             "npc_fr": "Cid",
             "cPrev": ["q.68690"],
@@ -162,7 +162,8 @@
             "npc_en": "Biggs",
             "npc_fr": "Biggs",
             "cPrev": ["q.68692"],
-            "patch": "4.4"
+            "patch": "4.4",
+            "unlock": ["mi.304", "o.266", "o.267"]
         }
     }
 }

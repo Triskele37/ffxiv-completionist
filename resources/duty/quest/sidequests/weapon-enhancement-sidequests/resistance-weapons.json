@@ -152,7 +152,12 @@
             "cPrev": ["q.69486"],
             "cNext": ["q.69561"],
             "cSiblings": ["a.2670"],
-            "patch": "5.35"
+            "patch": "5.35",
+            "unlock": [
+                "duty.collection.field-record.17",
+                "duty.collection.field-record.18",
+                "duty.collection.field-record.19"
+            ]
         },
         "x69505": {
             "level": 80,
@@ -192,7 +197,8 @@
             "npc_fr": "Marsak",
             "cPrev": ["q.69487"],
             "cNext": ["q.69562"],
-            "patch": "5.45"
+            "patch": "5.45",
+            "unlock": ["duty.collection.field-record.20", "duty.collection.field-record.21"]
         },
         "x69562": {
             "level": 80,
@@ -203,7 +209,13 @@
             "cPrev": ["q.69561"],
             "cNext": ["q.69564", "q.69563", "q.69565", "q.69620", "q.69573"],
             "cSiblings": ["a.2760"],
-            "patch": "5.45"
+            "patch": "5.45",
+            "unlock": [
+                "duty.collection.field-record.22",
+                "duty.collection.field-record.23",
+                "duty.collection.field-record.24",
+                "duty.collection.field-record.25"
+            ]
         },
         "x69564": {
             "level": 80,
@@ -332,7 +344,13 @@
             "cPrev": ["q.69623"],
             "cNext": ["q.69631", "q.69630"],
             "cSiblings": ["a.2884"],
-            "patch": "5.55"
+            "patch": "5.55",
+            "unlock": [
+                "duty.collection.field-record.46",
+                "duty.collection.field-record.47",
+                "duty.collection.field-record.48",
+                "duty.collection.field-record.49"
+            ]
         },
         "x69631": {
             "level": 80,

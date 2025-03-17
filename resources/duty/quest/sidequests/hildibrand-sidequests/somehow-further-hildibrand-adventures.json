@@ -81,7 +81,8 @@
             "npc_fr": "Hildibrand",
             "cPrev": ["q.70290"],
             "cNext": ["q.70307", "q.70335"],
-            "patch": "6.45"
+            "patch": "6.45",
+            "unlock": "mi.454"
         },
         "x70335": {
             "level": 90,
@@ -97,7 +98,7 @@
             "level": 90,
             "name_en": "Gentlemen at Heart",
             "name_fr": "Le cadeau des Dieux",
-            "unlock": "d.69",
+            "unlock": ["d.69", "mo.290", "o.644"],
             "npc_en": "Godbert",
             "npc_fr": "Godbert",
             "cPrev": ["q.70335"],

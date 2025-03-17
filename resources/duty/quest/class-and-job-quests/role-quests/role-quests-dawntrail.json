@@ -30,8 +30,7 @@
             "name_fr": "Affranchie jusqu'au bout des talons",
             "npc_en": "Unbound Agent",
             "npc_fr": "Membre Des Affranchis",
-            "unlock_en": ["e.282"],
-            "unlock_fr": ["e.282"]
+            "unlock": "e.282"
         },
         "x70726": {
             "cNext": ["q.70727"],
@@ -49,7 +48,8 @@
             "name_en": "Bar the Passage",
             "name_fr": "Pour s'affranchir de la tyrannie, tout s'appelle vertu",
             "npc_en": "Rral Majun",
-            "npc_fr": "Rral Majun"
+            "npc_fr": "Rral Majun",
+            "unlock": "o.704"
         }
     }
 }

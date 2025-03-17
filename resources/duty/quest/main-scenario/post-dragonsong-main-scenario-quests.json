@@ -17,7 +17,7 @@
             "level": 60,
             "name_en": "Shadows of the First",
             "name_fr": "Par monts et vallées",
-            "unlock": "d.182",
+            "unlock": ["d.182", "o.103"],
             "npc_en": "Alphinaud",
             "npc_fr": "Alphinaud",
             "cPrev": ["q.67877"],
@@ -103,7 +103,8 @@
             "cPrev": ["q.67885"],
             "cNext": ["q.67887"],
             "cSiblings": ["a.1630"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "mi.224"
         },
         "x67887": {
             "level": 60,
@@ -139,7 +140,7 @@
             "level": 60,
             "name_en": "Griffin, Griffin on the Wall",
             "name_fr": "Le masque de la rancune",
-            "unlock": "d.219",
+            "unlock": ["d.219", "o.132"],
             "npc_en": "Alisaie",
             "npc_fr": "Alisaie",
             "cPrev": ["q.67889"],
@@ -155,7 +156,8 @@
             "cPrev": ["q.67890"],
             "cNext": ["q.67892"],
             "cSiblings": ["a.1690"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "o.128"
         },
         "x67892": {
             "level": 60,
@@ -165,7 +167,8 @@
             "npc_fr": "Alisaie",
             "cPrev": ["q.67891"],
             "cNext": ["q.67893"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "o.126"
         },
         "x67893": {
             "level": 60,
@@ -185,7 +188,8 @@
             "npc_fr": "Yda",
             "cPrev": ["q.67893"],
             "cNext": ["q.67895"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": ["o.125", "o.124"]
         },
         "x67895": {
             "level": 60,

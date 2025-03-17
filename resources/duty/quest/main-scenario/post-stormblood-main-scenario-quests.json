@@ -44,7 +44,8 @@
             "npc_fr": "Arenvald",
             "cPrev": ["q.68500"],
             "cNext": ["q.68502"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "o.173"
         },
         "x68502": {
             "level": 70,
@@ -104,7 +105,8 @@
             "npc_fr": "Alphinaud",
             "cPrev": ["q.68506"],
             "cNext": ["q.68508"],
-            "patch": "4.31"
+            "patch": "4.31",
+            "unlock": "o.172"
         },
         "x68508": {
             "level": 70,
@@ -194,7 +196,7 @@
             "level": 70,
             "name_en": "Rise of a New Sun",
             "name_fr": "La pointe de l'aube",
-            "unlock": "logs.orchestrion-list.others.26",
+            "unlock": ["o.198"],
             "npc_en": "Hien",
             "npc_fr": "Hien",
             "cPrev": ["q.68564"],
