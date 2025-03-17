@@ -43,7 +43,7 @@ export function copyLinkShim(
     if(link) {
         navigator.clipboard.writeText(link);
         svcMessage.add({
-            detail: translate.instant('Link copied to clipboard'),
+            detail: translate.instant('GENERAL.LINK_COPIED'),
             severity: 'success',
             life: 2500
         });
