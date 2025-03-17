@@ -23,10 +23,14 @@ export class SelectionOverlayComponent extends Overlay {
         super();
     }
 
-    selectedIds(): number[] {
+    getSelectedIds(): number[] {
         return this.tasks
             .filter((t) => t.selected)
             .map((t) => t.id);
+    }
+
+    getSelectedItemResultIds(): number[] {
+        return this.tasks.filter((t) => t.selected).map((t) => t._itemId);
     }
 
     // Passing null means 'invert' selected value
@@ -40,20 +44,19 @@ export class SelectionOverlayComponent extends Overlay {
     }
 
     openInGarland(): void {
-        const ids = this.selectedIds();
+        const ids = this.getSelectedItemResultIds();
 
         if(ids.length) {
             // Create a pretty group name
             let parent = this.group._parent;
             while(parent._parent._parent?.isCraftingLogGroup) parent = parent._parent;
-            const groupName = `${parent.name} > ${this.group.name}`;
-
+            const groupName = `${parent.name} - ${this.group.name}`;
             this.svcElectron.sendSync(IPC_EVENT.OPEN_IN_GARLAND_TOOLS, ids, groupName);
         }
     }
 
     openInTeamcraft(): void {
-        const ids = this.selectedIds();
+        const ids = this.getSelectedItemResultIds();
 
         if(ids.length) {
             this.svcElectron.sendSync(IPC_EVENT.OPEN_IN_TEAMCRAFT, ids);
