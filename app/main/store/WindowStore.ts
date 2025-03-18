@@ -96,7 +96,7 @@ export class WindowStore {
 
     static loadWindowUrl(isServe: boolean): void {
         if(isServe) {
-            const debug = require('electron-debug');
+            const { default: debug } = require('electron-debug');
             debug();
 
             require('electron-reload')(__dirname, {

@@ -85,7 +85,7 @@ var WindowStore = /** @class */ (function () {
     };
     WindowStore.loadWindowUrl = function (isServe) {
         if (isServe) {
-            var debug = require('electron-debug');
+            var debug = require('electron-debug').default;
             debug();
             require('electron-reload')(__dirname, {
                 electron: require(path.join(__dirname, '../../../node_modules/electron'))
