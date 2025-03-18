@@ -266,171 +266,171 @@
             }
         },
         "NOTES": {
-            "TITLE": "Patch Notes",
+            "TITLE": "Notes de mise à jour",
             "COMMON": {
-                "MANUAL": "Tasks that need manual review",
-                "ADD": "Additions",
-                "CHANGE": "Changes",
-                "FIX": "Fixes"
+                "MANUAL": "Tâches nécessitant une vérification manuelle",
+                "ADD": "Ajouts",
+                "CHANGE": "Modifications",
+                "FIX": "Corrections"
             },
             "1_0_0": {
                 "MANUAL": {
-                    "TITLE": "Tasks that need manual review",
-                    "L1": "Vintage Bow - Carpenter 46-50 Recipe",
-                    "L2": "Astrolabe - Goldsmith 46-50 Recipe",
-                    "L3": "Felt Coif of Gathering - Weaver 41-45 Recipe",
-                    "L4": "White Oak Branch - Gathering Log - Logging",
-                    "L5": "Any tasks intentionally changed from \"Excluded\" to \"Incomplete\""
+                    "TITLE": "Tâches nécessitant une vérification manuelle",
+                    "L1": "Arc Vintage - Recette Menuisier 46-50",
+                    "L2": "Astrolabe - Recette Orfèvre 46-50",
+                    "L3": "Coiffe en feutre de récolteur - Recette Couturier 41-45",
+                    "L4": "Branche de chêne blanc - Journal de récolte - Coupe de bois",
+                    "L5": "Toute tâche intentionnellement changée de \"Exclue\" à \"Incomplète\""
                 },
                 "PALADIN": {
-                    "TITLE": "Paladin Crafted Arms",
-                    "L1": "BSM \"Arms\" recipes were marked complete if the sword was crafted",
-                    "L2": "ARM \"Arms\" recipes were marked complete if the shield was crafted"
+                    "TITLE": "Armes d’artisanat Paladin",
+                    "L1": "Les recettes BSM \"Armes\" étaient marquées comme complètes si l’épée était fabriquée",
+                    "L2": "Les recettes ARM \"Armes\" étaient marquées comme complètes si le bouclier était fabriqué"
                 },
                 "ADD": {
-                    "L1": "Resources up to FFXIV 6.08",
-                    "L2": "Splash image on startup",
-                    "L3": "Theme customization",
-                    "L4": "Group & Task Bookmarks",
-                    "L5": "Navigation history",
-                    "L6": "Sortable columns",
-                    "L7": "Links for most task info that directly reference another task",
-                    "L8": "Group column to all task views",
-                    "L9": "Random task generator for incomplete tasks",
-                    "L10": "Virtual scrolling to prevent slow-rendering tables",
-                    "L11": "Ability to exclude, filter, and quick-mark numeric tasks",
-                    "L12": "Ability to hide overall OR selected group summary lines",
-                    "L13": "Ability to open config and save folders from settings page",
-                    "L14": "Ability to backup config and save files from settings page",
-                    "L15": "Ability to overwrite active config and save with backup from settings page",
-                    "L16": "Chain history & Chain history limit setting",
-                    "L17": "Weight statistic in group summary tooltips",
-                    "L18": "Duty > Duty/Raid Finder > Deep Dungeon",
-                    "L19": "Duty > Squadron"
+                    "L1": "Ressources jusqu'à FFXIV 6.08",
+                    "L2": "Image d'accueil au démarrage",
+                    "L3": "Personnalisation du thème",
+                    "L4": "Favoris de groupe et de tâche",
+                    "L5": "Historique de navigation",
+                    "L6": "Colonnes triables",
+                    "L7": "Liens pour la plupart des infos de tâche faisant référence directement à une autre tâche",
+                    "L8": "Colonne Groupe dans toutes les vues de tâches",
+                    "L9": "Générateur de tâches aléatoires pour les tâches incomplètes",
+                    "L10": "Défilement virtuel pour éviter les tableaux à rendu lent",
+                    "L11": "Possibilité d'exclure, de filtrer et de marquer rapidement les tâches numériques",
+                    "L12": "Possibilité de masquer les lignes de résumé globales OU de groupe sélectionnées",
+                    "L13": "Possibilité d'ouvrir les dossiers de configuration et de sauvegarde depuis la page des paramètres",
+                    "L14": "Possibilité de sauvegarder les fichiers de configuration et de sauvegarde depuis la page des paramètres",
+                    "L15": "Possibilité d'écraser la configuration et la sauvegarde active avec une sauvegarde depuis la page des paramètres",
+                    "L16": "Historique de chaîne et réglage de la limite d'historique de chaîne",
+                    "L17": "Statistique de poids dans les info-bulles de résumé de groupe",
+                    "L18": "Devoir > Chercheur de devoir/raid > Donjon profond",
+                    "L19": "Devoir > Escadron"
                 },
                 "CHANGE": {
-                    "L1": "Completely overhauled Search",
-                    "L2": "Applied in-game categories and order to Emotes",
-                    "L3": "Condensed row actions into a slide-out menu",
-                    "L4": "Condensed main menu groups using tabbed UI",
-                    "L5": "Moved save management and language selection into settings page",
-                    "L6": "Moved custom task auto-merge into custom task overlay",
-                    "L7": "Renamed \"Instructions\" to \"Guide\"",
-                    "L8": "Renamed \"Version History\" to \"Patch Notes\"",
-                    "L9": "Changed custom task reordering to work with row actions menu"
+                    "L1": "Refonte complète de la Recherche",
+                    "L2": "Catégories et ordre en jeu appliqués aux Emotes",
+                    "L3": "Actions de ligne condensées en un menu déroulant",
+                    "L4": "Groupes du menu principal condensés avec une interface à onglets",
+                    "L5": "Gestion des sauvegardes et sélection de la langue déplacées dans les paramètres",
+                    "L6": "Fusion automatique des tâches personnalisées déplacée dans la superposition des tâches personnalisées",
+                    "L7": "Renommé \"Instructions\" en \"Guide\"",
+                    "L8": "Renommé \"Historique des versions\" en \"Notes de mise à jour\"",
+                    "L9": "Modification du réordonnancement des tâches personnalisées pour fonctionner avec le menu des actions de ligne"
                 },
                 "FIX": {
-                    "L1": "Various data/chain corrections",
-                    "L2": "ShB Trust NPCs now start at 71",
-                    "L3": "Tasks excluded by default no longer show as incomplete"
+                    "L1": "Diverses corrections de données/chaînes",
+                    "L2": "Les PNJ de confiance ShB commencent maintenant au niveau 71",
+                    "L3": "Les tâches exclues par défaut n'apparaissent plus comme incomplètes"
                 }
             },
             "1_0_1": {
                 "ADD": {
-                    "L1": "Resources up to FFXIV 6.15",
-                    "L2": "French Localization Completed",
-                    "L3": "Ability to sort multiple columns at once",
-                    "L4": "Ability to lock an overlay in place",
-                    "L5": "Visual indicator of completed sections in nav drawer",
-                    "L6": "Visual indicator of chained task count on chain overlay",
-                    "L7": "A back button for most recent navigation history",
-                    "L8": "A Chain Overlay to the Search Results view"
+                    "L1": "Ressources jusqu'à FFXIV 6.15",
+                    "L2": "Localisation française terminée",
+                    "L3": "Possibilité de trier plusieurs colonnes à la fois",
+                    "L4": "Possibilité de verrouiller une superposition en place",
+                    "L5": "Indicateur visuel des sections complétées dans le tiroir de navigation",
+                    "L6": "Indicateur visuel du nombre de tâches enchaînées dans la superposition de chaîne",
+                    "L7": "Un bouton retour pour l'historique de navigation le plus récent",
+                    "L8": "Ajout d'une superposition de chaîne à la vue des résultats de recherche"
                 },
                 "CHANGE": {
-                    "L1": "Grouped Role Quests by expansion",
-                    "L2": "Merged \"Drop\" and \"Acquired\" columns for triad cards",
-                    "L3": "Sorted Minion Guide by in-game order",
-                    "L4": "Merged Crystarium & Studium recipes into Shared log"
+                    "L1": "Quêtes de rôle regroupées par extension",
+                    "L2": "Fusion des colonnes \"Obtenu\" et \"Acquis\" pour les cartes de triade",
+                    "L3": "Guide des mascottes trié par ordre en jeu",
+                    "L4": "Fusion des recettes du Cristarium et du Studium dans le journal partagé"
                 },
                 "FIX": {
-                    "L1": "Various data/chain corrections",
-                    "L2": "Several columns showing raw link paths",
-                    "L3": "Ctrl+V automatically searching from any input field",
-                    "L4": "SCH/SMN chaining together improperly",
-                    "L5": "Config & Save load failure handling"
+                    "L1": "Diverses corrections de données/chaînes",
+                    "L2": "Plusieurs colonnes affichant des chemins de liens bruts",
+                    "L3": "Ctrl+V effectuant automatiquement une recherche depuis n'importe quel champ de saisie",
+                    "L4": "Chaînage incorrect des tâches SCH/SMN",
+                    "L5": "Gestion des erreurs de chargement de la configuration et des sauvegardes"
                 }
             },
             "1_0_2": {
                 "ADD": {
-                    "L1": "Resources up to FFXIV 6.28",
-                    "L2": "Customization of random count and group",
-                    "L3": "Previous FATE column"
+                    "L1": "Ressources jusqu'à FFXIV 6.28",
+                    "L2": "Personnalisation du nombre aléatoire et du groupe",
+                    "L3": "Colonne FATE précédente"
                 },
                 "FIX": {
-                    "L1": "Various data/chain corrections",
-                    "L2": "Removed Namazu crafting log chains, as the chained quests can be completed via DoL",
-                    "L3": "Issue where overlays would become unresponsive"
+                    "L1": "Diverses corrections de données/chaînes",
+                    "L2": "Suppression des chaînes du journal d'artisanat des Namazu, car les quêtes enchaînées peuvent être complétées via DoL",
+                    "L3": "Problème où les superpositions devenaient non réactives"
                 }
             },
             "1_0_3": {
                 "ADD": {
-                    "L1": "Resources up to FFXIV 6.38"
+                    "L1": "Ressources jusqu'à FFXIV 6.38"
                 },
                 "CHANGE": {
-                    "L1": "Reduced minimum search characters to 2"
+                    "L1": "Réduction du nombre minimum de caractères pour la recherche à 2"
                 },
                 "FIX": {
-                    "L1": "Various data/chain corrections"
+                    "L1": "Diverses corrections de données/chaînes"
                 }
             },
             "1_0_4": {
                 "ADD": {
-                    "L1": "Resources up to FFXIV 6.58",
-                    "L2": "\"Go to parent\" button in navigation bar",
-                    "L3": "Treasure Hunt group",
-                    "L4": "Gold Saucer Chocobo group",
-                    "L5": "App version display in title bar and lower left",
-                    "L6": "Option to hide completed and empty groups from navigation",
-                    "L7": "\"Groups\" tab in app Search",
-                    "L8": "Subgroup selection from breadcrumb arrows",
-                    "L9": "\"Font Size\" setting in Theme",
-                    "L10": "Patch data for Gathering logs, Crafting logs, and Journal"
+                    "L1": "Ressources jusqu'à FFXIV 6.58",
+                    "L2": "Bouton \"Aller au parent\" dans la barre de navigation",
+                    "L3": "Groupe Chasse aux trésors",
+                    "L4": "Groupe Chocobo du Gold Saucer",
+                    "L5": "Affichage de la version de l'application dans la barre de titre et en bas à gauche",
+                    "L6": "Option pour masquer les groupes complétés et vides de la navigation",
+                    "L7": "Onglet \"Groupes\" dans la recherche de l'application",
+                    "L8": "Sélection de sous-groupe via les flèches de fil d'Ariane",
+                    "L9": "Paramètre \"Taille de la police\" dans le thème",
+                    "L10": "Données de mise à jour pour les journaux de récolte, journaux d'artisanat et le journal"
                 },
                 "CHANGE": {
-                    "L1": "Star now displays for completed groups in navigation drawer with no unexcluded tasks",
-                    "L2": "Reworked Orchestrion data"
+                    "L1": "Une étoile s'affiche désormais pour les groupes complétés dans le tiroir de navigation s'il n'y a aucune tâche exclue restante",
+                    "L2": "Refonte des données de l'Orchestrion"
                 },
                 "FIX": {
-                    "L1": "Various data/chain corrections",
-                    "L2": "Stored window position allowing the app to start off-screen",
-                    "L3": "Show All column sizing for numeric groups"
+                    "L1": "Diverses corrections de données/chaînes",
+                    "L2": "Position de fenêtre enregistrée permettant à l'application de démarrer hors écran",
+                    "L3": "Ajustement de la taille des colonnes \"Tout afficher\" pour les groupes numériques"
                 }
             },
             "1_0_5": {
                 "ADD": {
-                    "L1": "Resources up to FFXIV 7.15",
-                    "L2": "Added Chain Analysis in main menu",
-                    "L3": "Added Patch View in main menu",
-                    "L4": "Pressing the escape key now navigates to the parent group",
-                    "L5": "Pressing the backspace key now navigates back to the previous group",
-                    "L6": "Pressing numpad enter now also triggers searches in the search box",
-                    "L7": "Added ability to remove entries from or clear history entirely",
-                    "L8": "Added setting for long/short group name viewing (default short)"
+                    "L1": "Ressources jusqu'à FFXIV 7.15",
+                    "L2": "Ajout de l'analyse de chaîne dans le menu principal",
+                    "L3": "Ajout de la vue des mises à jour dans le menu principal",
+                    "L4": "Appuyer sur la touche Échap navigue désormais vers le groupe parent",
+                    "L5": "Appuyer sur la touche Retour arrière navigue désormais vers le groupe précédent",
+                    "L6": "Appuyer sur Entrée du pavé numérique déclenche également les recherches dans la boîte de recherche",
+                    "L7": "Ajout de la possibilité de supprimer des entrées ou d'effacer entièrement l'historique",
+                    "L8": "Ajout d'un paramètre pour afficher les noms de groupe longs/courts (par défaut court)"
                 },
                 "CHANGE": {
-                    "L1": "Please note that facewear will not automatically migrate from the old format",
-                    "L2": "Inverted 'Patch' column filter so newest patch shows first",
-                    "L3": "Tasks now display regardless of filters if navigated to via a link",
-                    "L4": "Moved starting class from config files to save files",
-                    "L5": "Due to security restrictions, actions that opened in the browser now only copy their link to the clipboard"
+                    "L1": "Veuillez noter que les couvre-visages ne seront pas automatiquement migrés de l'ancien format",
+                    "L2": "Inversion du filtre de colonne \"Mise à jour\" pour afficher les mises à jour les plus récentes en premier",
+                    "L3": "Les tâches s'affichent désormais indépendamment des filtres si elles sont accédées via un lien",
+                    "L4": "Déplacement de la classe de départ des fichiers de configuration vers les fichiers de sauvegarde",
+                    "L5": "En raison de restrictions de sécurité, les actions qui s'ouvraient dans le navigateur copient désormais uniquement leur lien dans le presse-papiers"
                 },
                 "FIX": {
-                    "L1": "Awkward numeric filter dropdown sorting",
-                    "L2": "Awkward patch column sorting",
-                    "L3": "Marking a task that is then filtered out now scrolls the table back"
+                    "L1": "Tri maladroit du menu déroulant des filtres numériques",
+                    "L2": "Tri maladroit de la colonne des mises à jour",
+                    "L3": "Marquer une tâche puis la filtrer entraîne désormais le défilement automatique du tableau"
                 }
             }
         },
         "PATCH_VIEW": {
-            "TITLE": "Patch View"
+            "TITLE": "Vue du Patch"
         },
         "RANDOM": {
             "TITLE": "Aléatoire"
         },
         "CHAIN_ANALYSIS": {
-            "TITLE": "Chain Analysis",
-            "PREV_ISSUE": "not be possible without",
-            "SIBLING_ISSUE": "should be the same as"
+            "TITLE": "Analyse de Chaîne",
+            "PREV_ISSUE": "ne serait pas possible sans",
+            "SIBLING_ISSUE": "devrait être identique à"
         },
         "SETTING": {
             "TITLE": "Options",
@@ -621,7 +621,7 @@
         "REMAINING": "Tâche Restante",
         "EXCLUDED": "Tâche Exclue",
         "WEIGHT": "Poids",
-        "LINK_COPIED": "Link copied to clipboard"
+        "LINK_COPIED": "Lien copié dans le presse-papiers"
     },
     "TOAST": {
         "CONFIG_FAILED_SUMMARY": "Échec du chargement de la configuration",
@@ -1110,11 +1110,11 @@
             "ALL_SAINTS_WAKE": "Veillée des saints",
             "STARLIGHT_CELEBRATION": "Fête des étoiles",
 
-            "MOOGLE_TREASURE_TROVE": "Moogle Treasure Trove",
+            "MOOGLE_TREASURE_TROVE": "Trésors Mogmog",
 
             "DRAGON_QUEST_COLLAB": "Golems hors du Commun",
             "XV_COLLAB": "Le Nocturne des Héros",
-            "XVI_COLLAB": "Collaboration: Final Fantasy XVI",
+            "XVI_COLLAB": "Collaboration : Final Fantasy XVI",
             "YO_KAI": "Yo-Kai Watch: Adoptez-en un, adoptez les tous !",
 
             "FAN_FEST": "Fan Festival"
