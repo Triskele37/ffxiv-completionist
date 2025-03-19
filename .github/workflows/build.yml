@@ -14,6 +14,10 @@ jobs:
             fail-fast: false
             matrix:
                 os: [windows-latest, macos-latest, ubuntu-latest]
+                arch: [x64, arm64]
+                exclude:
+                    - os: windows-latest
+                      arch: arm64 # no build
 
         steps:
             - name: Checkout
@@ -37,17 +41,17 @@ jobs:
               if: matrix.os == 'macos-latest'
               env:
                   GH_TOKEN: ${{ secrets.GH_TOKEN }}
-              run: npm run electron:build-mac
+              run: npm run electron:build-mac -- --${{ matrix.arch }}
 
             - name: Build (Linux)
               if: matrix.os == 'ubuntu-latest'
               env:
-                GH_TOKEN: ${{ secrets.GH_TOKEN }}
-              run: npm run electron:build-linux
+                  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+              run: npm run electron:build-linux -- --${{ matrix.arch }}
 
             - name: Upload Artifacts
               if: success()
               uses: actions/upload-artifact@v4
               with:
-                  name: FFXIV-Completionist-${{ matrix.os }}
+                  name: FFXIV-Completionist-${{ matrix.os }}-${{ matrix.arch }}
                   path: release/
