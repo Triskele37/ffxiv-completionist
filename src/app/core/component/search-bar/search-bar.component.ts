@@ -41,6 +41,9 @@ export class SearchBarComponent implements OnInit {
     }
 
     onSearchKeydown($event: KeyboardEvent): void {
+        // Prevent back/up hotkeys
+        $event.stopPropagation();
+
         if(($event.ctrlKey || $event.metaKey) && $event.code === 'KeyV') {
             setTimeout(this.onSearch.bind(this), 50);
         }

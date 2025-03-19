@@ -15,6 +15,7 @@ exports.WindowStore = void 0;
 var electron_1 = require("electron");
 var path = require("path");
 var fs = require("fs");
+var url_1 = require("url");
 var ConfigStore_1 = require("./ConfigStore");
 /**
  * Debug Flag
@@ -67,7 +68,8 @@ var WindowStore = /** @class */ (function () {
             center: true
         });
         // WindowStore.splash.webContents.openDevTools();
-        WindowStore.splash.loadURL("file://".concat(__dirname, "/../../splash.html"));
+        var splashUrl = (0, url_1.pathToFileURL)(path.join(__dirname, '..', '..', 'splash.html'));
+        WindowStore.splash.loadURL(splashUrl.href);
     };
     //#endregion
     //#region------------------------------------------------------- Main Window
@@ -103,7 +105,7 @@ var WindowStore = /** @class */ (function () {
             var app = '../../../app/index.html';
             if (fs.existsSync(path.join(__dirname, app)))
                 indexPath = app;
-            var url = new URL(path.join('file:', __dirname, indexPath));
+            var url = (0, url_1.pathToFileURL)(path.join(__dirname, indexPath));
             void WindowStore.main.loadURL(url.href);
         }
     };

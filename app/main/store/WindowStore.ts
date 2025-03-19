@@ -1,6 +1,7 @@
 import { BrowserWindow, IpcMainEvent, Rectangle, screen } from 'electron';
 import * as path from 'path';
 import * as fs from 'fs';
+import { pathToFileURL } from 'url';
 
 import { ConfigStore } from './ConfigStore';
 
@@ -67,7 +68,8 @@ export class WindowStore {
         });
 
         // WindowStore.splash.webContents.openDevTools();
-        WindowStore.splash.loadURL(`file://${__dirname}/../../splash.html`);
+        const splashUrl = pathToFileURL(path.join(__dirname, '..', '..', 'splash.html'));
+        WindowStore.splash.loadURL(splashUrl.href);
     }
 
     //#endregion
@@ -116,7 +118,7 @@ export class WindowStore {
             const app = '../../../app/index.html';
             if(fs.existsSync(path.join(__dirname, app))) indexPath = app;
 
-            const url = new URL(path.join('file:', __dirname, indexPath));
+            const url = pathToFileURL(path.join(__dirname, indexPath));
             void WindowStore.main.loadURL(url.href);
         }
     }
