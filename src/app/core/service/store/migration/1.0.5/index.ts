@@ -10,6 +10,7 @@ import { migrateCrafting } from './crafting';
 import { migrateDuties } from './duty';
 import { migrateFashionAccessories } from './fashion-accessories';
 import { migrateFates } from './fate';
+import { migrateGathering } from './gathering';
 import { migrateQuests } from './quest';
 import { migrateLevequests } from './levequest';
 import { migrateMinions } from './minion';
@@ -43,6 +44,7 @@ export function migrateTo_1_0_5(svcConfigStore: ConfigStoreService, svcSaveStore
     migrateDuties(store);
     migrateFashionAccessories(store);
     migrateFates(store);
+    migrateGathering(store);
     migrateQuests(store);
     migrateLevequests(store);
     migrateMounts(store);
