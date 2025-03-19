@@ -27,15 +27,23 @@ jobs:
             - name: Install Dependencies
               run: npm install
 
-            - name: Build
+            - name: Build (Windows)
+              if: matrix.os == 'windows-latest'
+              env:
+                GH_TOKEN: ${{ secrets.GH_TOKEN }}
+              run: npm run electron:build
+
+            - name: Build (macOS)
+              if: matrix.os == 'macos-latest'
               env:
                   GH_TOKEN: ${{ secrets.GH_TOKEN }}
-              run: |
-                  case "${{ matrix.os }}" in
-                    macos-latest) npm run electron:build-mac ;;
-                    ubuntu-latest) npm run electron:build-linux ;;
-                    windows-latest) npm run electron:build ;;
-                  esac
+              run: npm run electron:build-mac
+
+            - name: Build (Linux)
+              if: matrix.os == 'ubuntu-latest'
+              env:
+                GH_TOKEN: ${{ secrets.GH_TOKEN }}
+              run: npm run electron:build-linux
 
             - name: Upload Artifacts
               if: success()
